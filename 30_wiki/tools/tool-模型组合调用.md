@@ -42,6 +42,7 @@ related:
 - '[[tool-strategy-control-points]]'
 - tool-ai-prd-for-ai
 - '[[concept-thousand-people-square]]'
+- '[[yt-model-agent-architecture]]'
 tags:
 - audience:executor
 - scene:execution

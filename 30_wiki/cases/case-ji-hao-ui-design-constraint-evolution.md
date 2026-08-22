@@ -30,6 +30,7 @@ related:
 - '[[dk-ai-design-pitfalls]]'
 - '[[tool-ai-deliverable-polish-loop]]'
 - '[[yitang-domain-digest]]'
+- '[[design-ai-image-generation]]'
 wiki_refs: null
 author: 纪浩
 reviewed_by: 欧阳锋

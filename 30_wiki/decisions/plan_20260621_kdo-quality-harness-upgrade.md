@@ -23,6 +23,7 @@ related:
 - '[[concept-harness-scoring-anchors]]'
 - '[[tool-harness-adversarial-tester]]'
 - labeling-final-consolidation
+- '[[yt-foresight-deliverables-four-levels]]'
 updated_at: '2026-06-29'
 ---
 # KDO 质量体系升级——Harness Engineering 三原则落地

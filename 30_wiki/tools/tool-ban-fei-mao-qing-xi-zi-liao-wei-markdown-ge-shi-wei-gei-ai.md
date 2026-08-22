@@ -27,6 +27,9 @@ related:
 - '[[tool-ban-fei-mao-an-yu-yi-qie-fen-wen-dang-zuo-xiang-liang-hua]]'
 - '[[tool-半肥猫-课程Skill化的八步工作流]]'
 - '[[tool-纪浩-AI对话上下文隔离]]'
+- '[[concept-半肥猫-ai-learning-toolification-methodology]]'
+- '[[kdo-yaml-frontmatter-safety]]'
+- '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
 domain:
 - ai-collaboration
 - yitang

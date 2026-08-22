@@ -49,6 +49,7 @@ related:
 - '[[case-toc-ecommerce-formula-misjudgment]]'
 - '[[case-truman-ai-skill-self-packaging]]'
 - '[[case-toc-online-education-trust-metrics]]'
+- '[[yt-business-formula-l6-essence-formulas]]'
 tags:
 - audience:general
 - scene:reference

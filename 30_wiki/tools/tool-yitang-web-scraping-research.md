@@ -25,6 +25,8 @@ related:
 - framework-multi-agent-research-architecture
 - '[[concept-feishu-api-pagination-trap]]'
 - '[[concept-streaming-extraction-pattern]]'
+- '[[kimi-深度调研集群方法论-deep-research-swarm]]'
+- '[[tinyfish-agentic-web-infrastructure]]'
 diagnostic_signals:
 - framework_lens: 爬虫工具匹配矩阵
   follow_up_question: 目标是单页抽取还是全站爬取？需要 JS 渲染吗？数据量多大？

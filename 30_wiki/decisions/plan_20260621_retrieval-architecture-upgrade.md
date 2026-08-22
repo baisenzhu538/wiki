@@ -21,6 +21,7 @@ related:
 - '[[yitang-research-domain-digest]]'
 - '[[system-yitang-research-workflow]]'
 - fix-data-curator-parse-bug
+- '[[yitang-course-map]]'
 updated_at: '2026-06-29'
 ---
 # 检索架构升级方案

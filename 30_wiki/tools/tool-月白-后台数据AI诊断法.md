@@ -34,6 +34,7 @@ related:
 - 'tool-月白-AI图片印刷落地预处理'
 - 'tool-月白-AI对话情绪管理法'
 - 'dk-three-context-formula'
+- '[[yt-concept-peas-insight]]'
 tags:
 ---
 # 技能：后台数据AI诊断法

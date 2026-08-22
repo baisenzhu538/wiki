@@ -27,6 +27,8 @@ related:
 - 'case-truman-ai-native-research-flow'
 - '[[case-demand-travel-agent]]'
 - '[[case-ji-hao-skills-market]]'
+- '[[kimi-深度调研集群方法论-deep-research-swarm]]'
+- '[[yt-model-agent-architecture]]'
 status: reviewed
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'

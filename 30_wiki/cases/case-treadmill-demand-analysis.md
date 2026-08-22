@@ -34,6 +34,8 @@ related:
 - '[[yitang-domain-digest]]'
 - '[[case-demand-b2b-enterprise-erp]]'
 - '[[case-milktea-five-step]]'
+- '[[yt-demand-analysis-hiking-map]]'
+- '[[yt-market-size-estimation]]'
 wiki_refs:
 - src_unknown
 pipeline:

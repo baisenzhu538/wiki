@@ -34,6 +34,7 @@ related:
 - 'tool-月白-80分效率设计策略'
 - 'tool-月白-价格带视觉策略匹配'
 - 'tool-yitang-research-best-practice'
+- '[[yt-business-model-partnership]]'
 tags:
 ---
 # 技能：多语种专业名词提示词策略

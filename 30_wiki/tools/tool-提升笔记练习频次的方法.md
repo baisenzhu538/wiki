@@ -40,6 +40,7 @@ related:
 - '[[tool-demand-assessment-triangle]]'
 - tool-ai-prd-for-ai
 - '[[case-strategy-model-selection-quiz]]'
+- '[[concept-提升笔记阅读舒适度]]'
 tags:
 - audience:executor
 - scene:execution

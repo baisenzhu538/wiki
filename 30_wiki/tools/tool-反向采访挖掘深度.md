@@ -40,6 +40,7 @@ related:
 - '[[tool-提示词结构化迭代]]'
 - '[[tool-渐进式披露上下文]]'
 - tool-ai-prd-for-ai
+- '[[yt-barrier-network-effects-deep]]'
 tags:
 - audience:executor
 - scene:execution

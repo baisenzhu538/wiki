@@ -24,6 +24,7 @@ related:
 - '[[proposal-kdo-flywheel-infrastructure]]'
 - modeling-to-kdo-toolchain
 - kdo-ec-industrialization-migration-proposal
+- '[[graph-rag]]'
 tags:
 - audience:general
 - scene:reference

@@ -52,6 +52,7 @@ related:
 - '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
 - yt-model-dual-triangle-competitiveness
 - yt-decision-ai-partner
+- '[[yitang-huazong-ama-summary]]'
 created_at: '2026-06-15'
 updated_at: '2026-06-29'
 author: 老顽童

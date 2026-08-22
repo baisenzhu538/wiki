@@ -37,6 +37,10 @@ related:
 - 'case-truman-ai-image-workflow-evolution'
 - '[[case-strategy-m-brand-profit-model]]'
 - '[[concept-streaming-extraction-pattern]]'
+- '[[yt-business-model-freemium]]'
+- '[[yt-growth-market-led-growth]]'
+- '[[yt-growth-product-led-growth]]'
+- '[[yt-growth-sales-led-growth]]'
 tags:
 ---
 # 技能：A/B双轨反推模式选择

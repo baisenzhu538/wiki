@@ -52,6 +52,7 @@ related:
 - '[[yitang-domain-digest]]'
 - '[[framework-一堂-机会预判]]'
 - '[[tool-一堂-机会预判-案例预判]]'
+- '[[concept-一堂-终局光谱图解读]]'
 tags:
 - audience:general
 - scene:reference

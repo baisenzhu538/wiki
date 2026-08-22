@@ -69,6 +69,7 @@ related:
 - 一堂五步法
 - 假的壁垒
 - '[[concept-five-step-growth-to-barrier-transition]]'
+- '[[yt-business-analysis-cognitive-biases]]'
 ---
 # 案例：五步法中识别真壁垒和假壁垒
 

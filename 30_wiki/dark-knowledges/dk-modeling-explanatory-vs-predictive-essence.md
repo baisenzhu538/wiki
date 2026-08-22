@@ -49,6 +49,8 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+- '[[yt-foresight-deliverables-four-levels]]'
+- '[[yt-model-cognitive-upgrade-framework]]'
 tags:
 - src_unknown
 - src_unknown

@@ -24,6 +24,7 @@ related:
 - tinyfish-agentic-web-infrastructure
 - '[[case-demand-travel-agent]]'
 - '[[case-ji-hao-skills-market]]'
+- '[[design-ai-image-generation]]'
 tags:
 - audience:manager
 - scene:reference

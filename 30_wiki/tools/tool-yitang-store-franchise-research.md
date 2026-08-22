@@ -47,6 +47,8 @@ related:
 - '[[tool-yitang-consumer-goods-research]]'
 - framework-yitang-six-layer-cross-validation
 - concept-yitang-research-objective
+- '[[HIS系统开发实现方案-架构师指南]]'
+- '[[HIS系统深度调研]]'
 tags:
 - audience:executor
 - scene:execution

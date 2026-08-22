@@ -37,6 +37,7 @@ related:
 - '[[case-一堂-春萍-刘伟tob销售标准化]]'
 - '[[case-一堂-春萍-温校长校园代理]]'
 - '[[management-domain-digest]]'
+- '[[concept-一堂-Agent基本功修炼]]'
 diagnostic_signals:
 - signal: 核心技术全在创始人/一个资深工程师身上，项目一多就成为瓶颈
   lens: 能力没拆解没沉淀——本案第一步就是"拆解自己"

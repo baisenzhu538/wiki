@@ -29,6 +29,7 @@ related:
 - '[[tool-Truman-语义对齐沟通法]]'
 - '[[tool-Truman-职场异步协作提问法]]'
 - '[[tool-Truman-AI时代提示词优化法]]'
+- '[[yt-business-model-definition]]'
 tags:
 - audience:executor
 - scene:execution

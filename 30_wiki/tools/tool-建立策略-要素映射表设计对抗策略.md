@@ -44,6 +44,7 @@ related:
 - '[[tool-设计对抗效果追踪看板]]'
 - '[[tool-使用概念辨析卡区分易混淆概念]]'
 - tool-ai-prd-for-ai
+- '[[yt-business-model-partnership]]'
 tags:
 - audience:executor
 - scene:execution

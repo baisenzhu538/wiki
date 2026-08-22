@@ -27,6 +27,7 @@ related:
 - '[[yt-five-step-method]]'
 - '[[dk-tool-as-phased-validator]]'
 - '[[yitang-domain-digest]]'
+- '[[learning-thinking]]'
 tags:
 - audience:executor
 - scene:diagnosis

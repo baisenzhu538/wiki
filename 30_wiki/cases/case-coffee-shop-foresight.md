@@ -50,6 +50,7 @@ related:
 - '[[tool-一堂-机会预判-案例预判]]'
 - '[[tool-一堂-机会预判-五步法预判]]'
 - '[[case-ai-time-management-tiered-growth]]'
+- '[[concept-一堂-终局光谱图解读]]'
 tags:
 - audience:general
 - scene:reference

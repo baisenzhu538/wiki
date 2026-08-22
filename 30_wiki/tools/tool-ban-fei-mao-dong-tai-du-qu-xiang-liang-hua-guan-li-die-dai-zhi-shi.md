@@ -30,6 +30,7 @@ related:
 - '[[tool-ban-fei-mao-an-yu-yi-qie-fen-wen-dang-zuo-xiang-liang-hua]]'
 - '[[tool-月白-烧Token快速积累体感]]'
 - '[[tool-马易-RPA数据整合法]]'
+- '[[concept-半肥猫-ai-learning-toolification-methodology]]'
 created_at: 2026-06-07
 reviewed_by: 欧阳锋
 updated_at: '2026-06-19'

@@ -19,6 +19,7 @@ discoverable_by:
 - 个人改进
 related:
   - '[[agent-spec-zhu-ai-coach]]'
+  - '[[concept-一堂-Agent基本功修炼]]'
 ---
 
 # 老朱反馈模式库

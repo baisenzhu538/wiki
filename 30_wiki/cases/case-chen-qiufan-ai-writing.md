@@ -50,6 +50,7 @@ related:
 - '[[framework-wanghuan-bitcoe-prompt-framework]]'
 - '[[case-ai-job-displacement-wef]]'
 - tool-ai-cross-reading-method
+- '[[writing-content]]'
 tags:
 - audience:general
 - scene:reference

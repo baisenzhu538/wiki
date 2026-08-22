@@ -37,6 +37,7 @@ related:
 - 'tool-月白-价格带视觉策略匹配'
 - 'tool-yitang-research-best-practice'
 - '[[case-toc-content-platform-correlation-trap]]'
+- '[[yt-business-model-partnership]]'
 tags:
 ---
 # 技能：小红书平台内容策略：从美图经济到沙雕梗图

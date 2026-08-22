@@ -25,6 +25,7 @@ related:
   - "[[case-ji-hao-skill-market-problem-validation]]"
   - "[[ouyangfeng-data-alignment-response]]"
   - "[[three-party-data-alignment]]"
+  - '[[yt-foresight-deliverables-four-levels]]'
 author: unknown
 reviewed_by: pending
 confidence: 0.7

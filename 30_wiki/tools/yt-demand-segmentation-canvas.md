@@ -30,6 +30,7 @@ related:
 - '[[tool-Truman-AI工具选型决策]]'
 - '[[tool-清单小抄工具箱法]]'
 - '[[tool-提问刻意练习画布]]'
+- '[[yt-demand-user-segmentation]]'
 diagnostic_signals:
 - framework_lens: 需求分层画布——帮助从"所有人"聚焦到"第一批100个"
   follow_up_question: 用画布填一下：需求强度最高、获取最容易、付费意愿最强的用户是谁？

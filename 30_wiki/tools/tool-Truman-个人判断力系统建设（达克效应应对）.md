@@ -31,6 +31,7 @@ related:
 - '[[tool-Truman-AI输出审慎判断与交付确认]]'
 - '[[tool-Truman-判断力产品化与系统赋能]]'
 - '[[tool-canvas-weapon-library-modeling]]'
+- '[[yt-barrier-data-assets]]'
 tags:
 - audience:executor
 - scene:execution

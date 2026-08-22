@@ -43,6 +43,10 @@ related:
 - '[[tool-按图索骥改良外部模板]]'
 - tool-ai-prd-for-ai
 - '[[concept-streaming-extraction-pattern]]'
+- '[[yt-business-model-freemium]]'
+- '[[yt-growth-market-led-growth]]'
+- '[[yt-growth-product-led-growth]]'
+- '[[yt-growth-sales-led-growth]]'
 tags:
 - audience:executor
 - scene:execution

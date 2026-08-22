@@ -9,6 +9,8 @@ created_at: '2026-05-03'
 updated_at: '2026-06-29'
 related:
 - kdo-protocol-implementation-roadmap
+- '[[kdo-yaml-frontmatter-safety]]'
+- '[[kdo_product_design_agent_final]]'
 tags: null
 trust_level: medium
 author: unknown

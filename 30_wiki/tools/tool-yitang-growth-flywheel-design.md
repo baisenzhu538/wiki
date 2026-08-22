@@ -45,6 +45,7 @@ related:
 - '[[framework-lean-abcd-model]]'
 - case-panproduct-yitao-project-background
 - '[[case-yitang-topcity-growth-flywheel]]'
+- '[[design-ai-image-generation]]'
 review_date: '2026-06-28'
 tags:
 - audience:executor

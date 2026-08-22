@@ -31,6 +31,7 @@ related:
 - '[[case-treadmill-demand-analysis]]'
 - concept-X型Y型决策习惯
 - concept-发现决策
+- '[[concept-一堂-kernel-iteration]]'
 tags:
 - audience:general
 - scene:reference

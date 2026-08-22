@@ -37,6 +37,10 @@ related:
 - '[[tool-城市合伙人模式复制能力]]'
 - '[[tool-通过请吃饭获取行业内部资料]]'
 - tool-ai-prd-for-ai
+- '[[yt-business-model-freemium]]'
+- '[[yt-growth-market-led-growth]]'
+- '[[yt-growth-product-led-growth]]'
+- '[[yt-growth-sales-led-growth]]'
 tags:
 - audience:executor
 - scene:execution

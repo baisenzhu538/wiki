@@ -36,6 +36,7 @@ related:
 - '[[yt-entrepreneur-fundraising]]'
 - '[[yt-entrepreneur-channel-exploration]]'
 - '[[yt-personal-scientific-expression]]'
+- '[[data-labeling-best-practices-report]]'
 pipeline:
 - src_unknown
 - src_unknown

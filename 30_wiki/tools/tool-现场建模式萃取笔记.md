@@ -42,6 +42,10 @@ related:
 - yt-entrepreneur-research-cognition
 - yt-note-l6-extraction
 - '[[concept-streaming-extraction-pattern]]'
+- '[[yt-business-model-freemium]]'
+- '[[yt-growth-market-led-growth]]'
+- '[[yt-growth-product-led-growth]]'
+- '[[yt-growth-sales-led-growth]]'
 tags:
 - audience:executor
 - scene:execution

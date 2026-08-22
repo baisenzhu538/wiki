@@ -32,6 +32,7 @@ related:
 - '[[pending_unknown]]'
 - concept-yitang-research-objective
 - case-opc-agent-wave1-real-model-testing
+- '[[design-ai-image-generation]]'
 updated_at: '2026-06-29'
 tags:
 - audience:general

@@ -29,6 +29,7 @@ related:
 - '[[tool-pdf-inspector]]'
 - '[[case-demand-travel-agent]]'
 - '[[case-ji-hao-skills-market]]'
+- '[[yt-model-agent-architecture]]'
 updated_at: '2026-06-29'
 ---
 # Crawl4AI

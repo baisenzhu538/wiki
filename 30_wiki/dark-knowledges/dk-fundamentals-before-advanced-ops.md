@@ -31,6 +31,7 @@ related:
 - '[[yitang-domain-digest]]'
 - '[[ai-collaboration-domain-digest]]'
 - '[[framework-一堂-苦练基本功-总纲]]'
+- '[[concept-一堂-基本功定义]]'
 bridges_to:
 - src_unknown-level-map
 author: 老顽童

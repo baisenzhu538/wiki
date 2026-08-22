@@ -33,6 +33,7 @@ related:
 - '[[tool-纪浩-AI对话上下文隔离]]'
 - '[[tool-ai-voice-input-doubao]]'
 - case-decision-ai-assisted-vs-human
+- '[[voice-input-doubao]]'
 tags:
 - audience:executor
 - scene:execution

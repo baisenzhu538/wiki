@@ -19,6 +19,7 @@ related:
   - "[[kdo-15-dimension-label-spec]]"
   - "[[labeling-research-alignment]]"
   - "[[data-labeling-best-practices-report]]"
+  - '[[kimi-深度调研集群方法论-deep-research-swarm]]'
 author: unknown
 source_context: KDO internal decision record （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 source_refs:

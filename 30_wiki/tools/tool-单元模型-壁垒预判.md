@@ -30,6 +30,7 @@ related:
 - '[[yt-entrepreneur-unit-model]]'
 - case-toy-cabinet-barrier
 - '[[concept-thousand-people-square]]'
+- '[[yt-barrier-offensive-strategy]]'
 updated_at: '2026-06-29'
 tags:
 - audience:executor

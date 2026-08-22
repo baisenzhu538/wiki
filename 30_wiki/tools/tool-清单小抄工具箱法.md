@@ -31,6 +31,8 @@ related:
 - '[[tool-strategy-industry-chain-analysis]]'
 - '[[tool-strategy-risk-management]]'
 - '[[concept-wanghuan-ai-native-definition]]'
+- '[[yt-decision-depth-ladder]]'
+- '[[yt-decision-width-method]]'
 definition_of_done:
 - src_unknown
 - src_unknown

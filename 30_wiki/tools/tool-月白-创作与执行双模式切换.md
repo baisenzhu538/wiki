@@ -36,6 +36,10 @@ related:
 - 'tool-月白-AI对话情绪管理法'
 - 'dk-three-context-formula'
 - '[[concept-streaming-extraction-pattern]]'
+- '[[yt-business-model-freemium]]'
+- '[[yt-growth-market-led-growth]]'
+- '[[yt-growth-product-led-growth]]'
+- '[[yt-growth-sales-led-growth]]'
 tags:
 ---
 # 技能：创作与执行双模式切换

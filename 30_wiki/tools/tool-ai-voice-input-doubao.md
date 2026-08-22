@@ -29,6 +29,7 @@ related:
 - '[[tool-ai-oral-spray-input]]'
 - '[[tool-ai-prd-for-ai]]'
 - '[[tool-ai-evidence-check]]'
+- '[[voice-input-doubao]]'
 tags:
 - audience:executor
 - scene:execution

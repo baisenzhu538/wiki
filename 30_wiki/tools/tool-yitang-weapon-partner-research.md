@@ -35,6 +35,7 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - tool-ai-prd-for-ai
+- '[[kimi-深度调研集群方法论-deep-research-swarm]]'
 updated_at: '2026-06-29'
 tags:
 - audience:executor

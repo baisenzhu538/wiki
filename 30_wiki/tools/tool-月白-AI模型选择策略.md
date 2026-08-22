@@ -40,6 +40,8 @@ related:
 - '[[case-thousand-people-square]]'
 - '[[aigc设计基础01ai生图原理与提示词基本功]]'
 - '[[concept-thousand-people-square]]'
+- '[[yt-business-model-partnership]]'
+- '[[yt-model-agent-architecture]]'
 tags:
 ---
 # 技能：AI模型选择策略

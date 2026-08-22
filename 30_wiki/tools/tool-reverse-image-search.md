@@ -34,6 +34,7 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - tinyfish-agentic-web-infrastructure
+- '[[design-ai-image-generation]]'
 updated_at: '2026-06-29'
 tags:
 - audience:executor

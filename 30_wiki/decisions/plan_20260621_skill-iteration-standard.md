@@ -24,6 +24,7 @@ related:
 - '[[framework-yitang-18-strategy-cards]]'
 - '[[yitang-research-domain-digest]]'
 - tinyfish-agentic-web-infrastructure
+- '[[yt-foresight-deliverables-four-levels]]'
 updated_at: '2026-06-29'
 ---
 # 知识卡片 → Claude Code Skill 迭代标准

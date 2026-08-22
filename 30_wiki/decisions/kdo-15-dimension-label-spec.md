@@ -24,6 +24,7 @@ related:
   - "[[data-labeling-best-practices-report]]"
   - "[[huangyaoshi-tagging-and-scope-proposal]]"
   - "[[plan_20260531_data-curator-v1.3]]"
+  - '[[kdo-yaml-frontmatter-safety]]'
 author: unknown
 source_context: KDO internal decision record （原 legacy，已从 title/context/filename 推断为
   src_20260606_6dad71f1）

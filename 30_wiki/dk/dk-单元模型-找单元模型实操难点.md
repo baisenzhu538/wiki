@@ -26,6 +26,8 @@ related:
 - '[[pending_unknown]]'
 - '[[case-thousand-people-square]]'
 - '[[concept-thousand-people-square]]'
+- '[[concept-最简单元模型]]'
+- '[[yt-model-agent-architecture]]'
 review_date: '2026-06-29'
 quality_labels:
 - validated

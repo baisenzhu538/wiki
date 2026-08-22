@@ -30,6 +30,7 @@ related:
 - '[[tool-Truman-上下文质量管理（AI协作）]]'
 - '[[tool-canvas-weapon-library-modeling]]'
 - '[[case-truman-prd-checklist-evolution]]'
+- '[[product-business-strategy]]'
 tags:
 - audience:executor
 - scene:execution

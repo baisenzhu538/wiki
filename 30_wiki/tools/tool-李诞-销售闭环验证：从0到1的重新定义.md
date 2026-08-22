@@ -31,6 +31,7 @@ related:
 - '[[tool-李诞-阅读重读机制：与书籍的-因缘-相遇]]'
 - '[[tool-李诞-面对过去错误的平静心法]]'
 - '[[concept-wanghuan-tacit-knowledge-examples]]'
+- '[[yt-business-model-definition]]'
 tags:
 - audience:executor
 - scene:execution

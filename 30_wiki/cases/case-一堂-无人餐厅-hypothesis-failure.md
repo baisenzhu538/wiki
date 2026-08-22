@@ -31,6 +31,8 @@ related:
 - '[[yt-lean-assumption-verification-3means]]'
 - '[[yitang-domain-digest]]'
 - '[[case-milktea-five-step]]'
+- '[[concept-一堂-hypothesis-driven-business-methodology]]'
+- '[[concept-一堂-kernel-validation]]'
 wiki_refs:
 - src_unknown
 - src_unknown

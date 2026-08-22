@@ -60,6 +60,7 @@ related:
 - '[[lean-startup-domain-digest]]'
 - '[[case-ji-hao-ui-design-constraint-evolution]]'
 - '[[ai-collaboration-mindset-shift]]'
+- '[[master-decision-hygiene]]'
 created_at: 2026-07-02
 updated_at: '2026-06-29'
 tags:

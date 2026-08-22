@@ -40,6 +40,7 @@ related:
 - '[[case-coffee-shop-foresight]]'
 - '[[case-escort-service-tiered-growth]]'
 - '[[case-ai-time-management-tiered-growth]]'
+- '[[yt-foresight-model-taxonomy]]'
 diagnostic_signals:
 - signal: 给项目直接定一个段（"我要做上市"）
   lens: 跳过列七段和排幻觉，单点下注

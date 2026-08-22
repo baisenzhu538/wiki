@@ -40,6 +40,7 @@ related:
 - '[[modeling-three-stages]]'
 - '[[modeling-weapon-library]]'
 - '[[case-modeling-ai-image-workflow]]'
+- '[[yt-business-formula-l6-essence-formulas]]'
 tags:
 - audience:executor
 - scene:execution

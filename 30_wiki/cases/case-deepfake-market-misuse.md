@@ -32,6 +32,7 @@ related:
 - '[[case-ai-job-displacement-wef]]'
 - tool-ai-cross-reading-method
 - tool-ai-critical-reading-three-layers
+- '[[kimi-深度调研集群方法论-deep-research-swarm]]'
 tags:
 - audience:general
 - scene:reference

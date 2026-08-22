@@ -22,6 +22,17 @@ related:
 - '[[case-一堂-春萍-刘伟tob销售标准化]]'
 - '[[case-一堂-春萍-温校长校园代理]]'
 - '[[case-一堂-春萍-花总AI研发]]'
+- '[[concept-一堂-Agent基本功修炼]]'
+- '[[concept-一堂-AI时代基本功变与不变]]'
+- '[[concept-一堂-基本功-刻意练习四要素]]'
+- '[[concept-一堂-基本功-段位体系]]'
+- '[[concept-一堂-基本功定义]]'
+- '[[concept-目标管理组织四阶段]]'
+- '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
+- '[[yt-management-basic-skills]]'
+- '[[yt-management-project-management]]'
+- '[[yt-management-scientific-meetings]]'
+- '[[yt-management-team-knowledge]]'
 tags:
 - audience:manager
 - scene:reference

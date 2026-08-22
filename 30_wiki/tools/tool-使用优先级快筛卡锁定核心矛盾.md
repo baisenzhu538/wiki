@@ -45,6 +45,7 @@ related:
 - '[[tool-通过综合案例沙盘走通全流程]]'
 - '[[tool-采用滚动预测机制]]'
 - tool-ai-prd-for-ai
+- '[[yt-business-model-network-effects]]'
 tags:
 - audience:executor
 - scene:execution

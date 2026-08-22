@@ -29,6 +29,8 @@ related:
 - '[[yt-management-strategy-meeting]]'
 - '[[yt-decision-y-model]]'
 - '[[yt-decision-width-method]]'
+- '[[concept-目标-北极星型vs探索型]]'
+- '[[yt-management-toolkit-overview]]'
 contradicts: null
 query_triggers:
 - src_unknown

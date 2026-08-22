@@ -24,6 +24,7 @@ related:
 - '[[plan_20260501_ca61cdd7-improvement-plan]]'
 - agent-ecosystem-design
 - kdo-protocol-implementation-roadmap
+- '[[yt-foresight-deliverables-four-levels]]'
 ---
 # Improvement Plan plan_20260501_8ecb74e3
 

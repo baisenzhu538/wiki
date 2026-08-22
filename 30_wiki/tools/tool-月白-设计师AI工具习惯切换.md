@@ -35,6 +35,8 @@ related:
 - 'tool-月白-AI对话情绪管理法'
 - 'dk-three-context-formula'
 - '[[concept-wanghuan-ai-native-definition]]'
+- '[[yt-decision-depth-ladder]]'
+- '[[yt-decision-width-method]]'
 tags:
 ---
 # 技能：设计师AI工具习惯切换

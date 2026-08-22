@@ -20,6 +20,9 @@ related:
 - '[[knowledge-delivery-os-快速体验指南-飞书云文档]]'
 - agent-native-card-design
 - tinyfish-agentic-web-infrastructure
+- '[[kdo-yaml-frontmatter-safety]]'
+- '[[kdo_product_design_agent_final]]'
+- '[[voice-input-doubao]]'
 ---
 # KDO 输入渠道策略：飞书、微信、听脑如何接入
 

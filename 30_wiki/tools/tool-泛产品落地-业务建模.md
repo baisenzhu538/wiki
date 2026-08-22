@@ -32,6 +32,7 @@ related:
 - '[[tool-demand-four-forces]]'
 - concept-X型Y型决策习惯
 - concept-发现决策
+- '[[product-business-strategy]]'
 updated_at: '2026-06-29'
 tags:
 - audience:executor

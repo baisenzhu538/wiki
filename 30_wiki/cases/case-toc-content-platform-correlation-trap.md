@@ -59,6 +59,7 @@ related:
 - '[[obsidian-git-sync-protocol]]'
 - case-offline-catering-formula
 - case-private-domain-ecommerce-formula
+- '[[writing-content]]'
 ---
 # ToC 内容付费平台：把“流量↑转化率↓”当因果导致的投放崩盘
 

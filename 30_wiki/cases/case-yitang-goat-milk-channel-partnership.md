@@ -44,6 +44,7 @@ related:
 - yt-management-scientific-meetings
 - concept-ai-native-organization-five-steps
 - '[[concept-open-source-knowledge-usage-boundary]]'
+- '[[yt-management-partnership-equity]]'
 tags:
 - audience:general
 - scene:reference

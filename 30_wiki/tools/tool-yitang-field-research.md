@@ -50,6 +50,7 @@ related:
 - '[[tool-yitang-consumer-goods-research]]'
 - framework-doris-industry-report-4step
 - concept-yitang-research-scope
+- '[[kimi-深度调研集群方法论-deep-research-swarm]]'
 tags:
 - audience:executor
 - scene:execution

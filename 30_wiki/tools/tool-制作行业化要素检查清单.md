@@ -39,6 +39,7 @@ related:
 - '[[tool-设计对抗效果追踪看板]]'
 - '[[tool-checklist-cheatsheet-modeling]]'
 - tool-ai-prd-for-ai
+- '[[yt-decision-width-method]]'
 tags:
 - audience:executor
 - scene:execution

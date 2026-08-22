@@ -68,6 +68,8 @@ related:
 - '[[concept-yitang-research-mindset]]'
 - '[[concept-yitang-research-objective]]'
 - '[[concept-yitang-research-scope]]'
+- '[[kimi-深度调研集群方法论-deep-research-swarm]]'
+- '[[yitang-course-map]]'
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 tags:

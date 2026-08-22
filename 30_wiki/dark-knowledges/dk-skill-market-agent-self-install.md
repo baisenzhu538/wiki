@@ -38,6 +38,7 @@ related:
 - - - case-纪浩-from-zip-to-five-layers
 - - - case-纪浩-focus-prompt-design
 - - - case-半肥猫-course-to-skill
+- '[[tinyfish-agentic-web-infrastructure]]'
 tags:
 - audience:executor
 - scene:reference

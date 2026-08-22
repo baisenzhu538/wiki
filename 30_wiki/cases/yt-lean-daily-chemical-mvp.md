@@ -43,6 +43,7 @@ related:
 - '[[yt-lean-daily-probability-decision]]'
 - yt-lean-assumption-verification-3means
 - '[[case-yitang-weekly-modeling-engine]]'
+- '[[yt-lean-essence]]'
 wiki_refs:
 - src_unknown
 - src_unknown

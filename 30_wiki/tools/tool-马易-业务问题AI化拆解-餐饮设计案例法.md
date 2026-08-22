@@ -86,6 +86,7 @@ related:
 - '[[case-yitang-tob-grinding-machine]]'
 - '[[case-zhangyang-anchor-sop-three-locks]]'
 - '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
+- '[[yt-growth-user-onboarding]]'
 tags:
 - audience:executor
 - scene:execution

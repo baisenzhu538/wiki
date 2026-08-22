@@ -31,6 +31,7 @@ related:
 - '[[dk-f13-handwritten-yaml-parser]]'
 - '[[tool-ban-fei-mao-an-yu-yi-qie-fen-wen-dang-zuo-xiang-liang-hua]]'
 - '[[tool-半肥猫-课程Skill化的八步工作流]]'
+- '[[concept-半肥猫-ai-learning-toolification-methodology]]'
 created_at: 2026-06-07
 reviewed_by: 欧阳锋
 updated_at: '2026-06-19'

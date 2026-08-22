@@ -41,6 +41,7 @@ related:
 - '[[tool-月白-产品白底图标准化制作]]'
 - '[[tool-月白-供应商信息对齐清单法]]'
 - '[[tool-月白-叙事性场景海报构建]]'
+- '[[yt-business-model-partnership]]'
 tags:
 - audience:executor
 - scene:execution

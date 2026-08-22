@@ -49,6 +49,10 @@ related:
 - '[[case-bmw-human-ai-collaboration-idle-time]]'
 - '[[case-truman-time-management-commute-experiment]]'
 - '[[case-yitang-copywriting-time-decomposition]]'
+- '[[concept-发现决策]]'
+- '[[yitang-methodology-system]]'
+- '[[yt-entrepreneur-scientific-method]]'
+- '[[yt-entrepreneur-truth-seeking]]'
 created_at: 2026-07-03
 updated_at: '2026-07-03'
 tags:

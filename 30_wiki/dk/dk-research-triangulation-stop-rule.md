@@ -26,6 +26,7 @@ related:
   - "[[case-yitang-hardware-factory-photo]]"
   - "[[case-yitang-pet-fostering-user-research]]"
   - "[[yitang-research-domain-digest]]"
+  - '[[kimi-深度调研集群方法论-deep-research-swarm]]'
 ---
 
 # 多源交叉验证的停止规则

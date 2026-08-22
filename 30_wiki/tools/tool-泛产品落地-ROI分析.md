@@ -33,6 +33,7 @@ related:
 - case-decision-science-universal-salary-raise-roi
 - case-panproduct-top135-selection-polish
 - '[[case-smart-medicine-cabinet-business-model-validation]]'
+- '[[product-business-strategy]]'
 updated_at: '2026-06-29'
 tags:
 - audience:executor

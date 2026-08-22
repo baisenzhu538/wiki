@@ -45,6 +45,7 @@ related:
 - '[[case-hr-saas-feature-usage-trap]]'
 - '[[case-lean-radish-channel-selection]]'
 - '[[case-yitang-solid-redbull-channel]]'
+- '[[voice-input-doubao]]'
 review_date: '2026-06-28'
 tags:
 - audience:general

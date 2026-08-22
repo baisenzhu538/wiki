@@ -37,6 +37,7 @@ related:
 - '[[case-lean-zhanglei-pivot-decision]]'
 - '[[concept-ai-native-organization-five-steps]]'
 - '[[yitang-domain-digest]]'
+- '[[yt-demand-motivation-resistance]]'
 author: unknown
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'

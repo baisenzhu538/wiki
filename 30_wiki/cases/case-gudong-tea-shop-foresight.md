@@ -51,6 +51,7 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[case-truman-yitang-foresight]]'
+- '[[yt-foresight-addition-subtraction]]'
 tags:
 - audience:general
 - scene:reference

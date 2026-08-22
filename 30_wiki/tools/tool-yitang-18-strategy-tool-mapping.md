@@ -52,6 +52,7 @@ related:
 - '[[tool-yitang-research-competitive-quadrant]]'
 - '[[tool-yitang-research-follow-map]]'
 - framework-yitang-18-strategy-cards
+- '[[yitang-course-map]]'
 diagnostic_signals:
 - framework_lens: 策略→工具映射表
   follow_up_question: 在映射表中找到对应的 wiki 卡片或 Skill

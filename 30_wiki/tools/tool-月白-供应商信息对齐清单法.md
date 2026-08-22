@@ -35,6 +35,7 @@ related:
 - 'tool-月白-AI对话情绪管理法'
 - 'dk-three-context-formula'
 - '[[case-strategy-snack-export-opportunity]]'
+- '[[yt-decision-width-method]]'
 tags:
 ---
 # 技能：供应商信息对齐清单法

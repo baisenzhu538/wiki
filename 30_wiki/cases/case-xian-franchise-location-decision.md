@@ -32,6 +32,8 @@ related:
 - '[[yitang-research-domain-digest]]'
 - '[[pending_unknown]]'
 - case-opc-agent-wave1-real-model-testing
+- '[[HIS系统开发实现方案-架构师指南]]'
+- '[[HIS系统深度调研]]'
 updated_at: '2026-06-29'
 tags:
 - audience:general

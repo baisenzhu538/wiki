@@ -36,6 +36,7 @@ related:
 - '[[tool-Y模型实操工作流]]'
 - '[[tool-yitang-Y-model-application]]'
 - '[[dk-yitang-Y-model-pitfalls]]'
+- '[[yt-business-model-partnership]]'
 created_at: 2026-06-29
 updated_at: 2026-07-08 17:38:57+00:00
 tags:

@@ -33,6 +33,8 @@ related:
 - '[[tool-ai-skill-engineering-method]]'
 - '[[case-demand-travel-agent]]'
 - '[[case-ji-hao-skills-market]]'
+- '[[design-ai-image-generation]]'
+- '[[yt-model-agent-architecture]]'
 tags:
 - audience:general
 - scene:reference

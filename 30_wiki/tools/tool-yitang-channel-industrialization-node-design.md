@@ -49,6 +49,7 @@ related:
 - '[[case-yitang-lianjia-site-selection-industrialization]]'
 - '[[case-yitang-redburger-selection-industrialization]]'
 - '[[case-yitang-yitang-shortvideo-industrialization]]'
+- '[[design-ai-image-generation]]'
 review_date: '2026-06-28'
 tags:
 - audience:executor

@@ -36,6 +36,7 @@ related:
 - framework-目标三层拆解
 - yt-tool-okr-cycle
 - management-domain-digest
+- '[[concept-目标管理组织四阶段]]'
 tags:
 - audience:manager
 - scene:reference

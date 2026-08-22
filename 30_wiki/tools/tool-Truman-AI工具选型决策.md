@@ -38,6 +38,8 @@ related:
 - '[[tool-strategy-risk-management]]'
 - productization-judgment
 - '[[concept-wanghuan-ai-native-definition]]'
+- '[[yt-decision-depth-ladder]]'
+- '[[yt-decision-width-method]]'
 tags:
 - audience:executor
 - scene:execution

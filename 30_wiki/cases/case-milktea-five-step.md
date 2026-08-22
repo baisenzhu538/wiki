@@ -34,6 +34,7 @@ related:
 - '[[case-shampoo-product-kernel]]'
 - '[[case-一堂-无人餐厅-hypothesis-failure]]'
 - '[[yitang-domain-digest]]'
+- '[[yt-entrepreneur-five-step-method]]'
 wiki_refs:
 - src_unknown
 - src_unknown
