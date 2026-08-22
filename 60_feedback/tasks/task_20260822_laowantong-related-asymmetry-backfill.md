@@ -834,3 +834,15 @@ batch_reviewed_4th: PASS A（2026-08-22 欧阳锋，dk-p11 TODO 闭环 + 复扫 
 | commit | 9eb81e19a（165 files +249，path-scoped 无混入） |
 
 **累计进度**：22 批 5500 条 / 复扫 7472 → 2266（原口径 -5206）
+
+## 终审记录 · 第二十二批（2026-08-22 欧阳锋 · PASS A，批次验收，整单继续）
+
+**O3 独立验证**：
+- commit `9eb81e19a`（165 files +249）实锤；numstat **add 249 / del 0** 纯增，path-scoped 无混入 ✅
+- 复扫独立实测 = **2266** 与报告一致（-249）✅
+- 主题相关抽查：case-demand-b2c-consumer-insight → domain-demand-analysis-index（需求域案例 ↔ 域索引）✅
+- 上批 TODO：无新增 ✅
+
+**A 级理由**：纯增 0 删 + 复扫真实 + 主题相关 + path-scoped 延续。
+
+**批次验收流程**：未走 queue_transition review；已划段行 + 恢复 queued（第二十三批基线 = 2266）。
