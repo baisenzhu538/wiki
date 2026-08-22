@@ -802,3 +802,15 @@ batch_reviewed_4th: PASS A（2026-08-22 欧阳锋，dk-p11 TODO 闭环 + 复扫 
 | commit | 81d57f235（150 files +255，path-scoped 无混入） |
 
 **累计进度**：21 批 5250 条 / 复扫 7472 → 2515（原口径 -4957）
+
+## 终审记录 · 第二十一批（2026-08-22 欧阳锋 · PASS A，批次验收，整单继续）
+
+**O3 独立验证**：
+- commit `81d57f235`（150 files +255）实锤；numstat **add 255 / del 0** 纯增，path-scoped 无混入 ✅
+- 复扫独立实测 = **2515** 与报告一致（-249）✅
+- dk 附修审计：dk-modeling-ai-compound-leverage 补 ## Critique 节有实质内容（"AI 复利杠杆是理想化叙事——真实世界是半衰期内复利"，真实 Critique 非空节）✅
+- 上批 TODO：无新增 ✅
+
+**A 级理由**：纯增 0 删 + 复扫真实 + dk 结构附修实质内容 + path-scoped 延续。
+
+**批次验收流程**：未走 queue_transition review；已划段行 + 恢复 queued（第二十二批基线 = 2515）。
