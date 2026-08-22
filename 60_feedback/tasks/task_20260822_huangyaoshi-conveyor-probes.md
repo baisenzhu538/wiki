@@ -67,3 +67,31 @@ updated_at: '2026-08-22T13:32:16.840529+00:00'
 - **信号分类**：通知契约「两类信号」扩为三类——新提审 / 批次待续 / **新建议书到达**；低打扰、幂等、不打扰红线同样适用
 - **边界不变**：通知≠裁定——探针推给我，裁定制裁仍是我（B2-1）
 - **验收追加**：构造测试建议书落 diagnosis/ → 段内自动登记 **且** 王语嫣侧收到即时通知，双动作同源附输出（登记与通知必须是同一次扫描的产物）
+
+## 执行报告（2026-08-22 黄药师）
+
+**交付物**：
+1. **契约文档**：`90_control/conveyor-probes-contract.md`（先于探针实现落盘）——三类信号/调度/状态口径/边界硬编码/通道/同源纪律
+2. **扫描器**：`kdo-tools/conveyor_probe.py`——单扫描器一次扫描事件驱动「检出→登记→通知」；队列 diff（queue_gate.parse_queue 只读）+ diagnosis 三元组检出（yaml.safe_load，E017）+ PROPOSAL-PENDING 自动登记（幂等）+ 飞书通知（配置驱动）
+3. **pre-submit 三元组门禁**：KDO `pre_submit.py` 新增规则——含 `audience:` 字段的文件必须带齐三元组（audience: 王语嫣 + status: pending_orchestration），缺字段拦截
+4. **测试**：`kdo-tools/tests/test_conveyor_probe.py` 5 测试（三元组检出/登记幂等/历史行保留/边界无流转能力/通知 dry-run）
+
+**实测（附输出）**：
+- **验收① 自动登记**：构造 `diag_20260822_probe-test-1-proposal.md`（带齐三元组）落 diagnosis/ → 扫描器检出并自动登记进 PROPOSAL-PENDING 段（幂等：重跑 registered=[]）；段头旧"作者自登"注释已迁移为"自动维护"标注（勿手改）
+- **验收② pre-submit 拦截**：构造 `diag_20260822_probe-test-2-missing-status.md`（缺 status）→ `kdo pre-submit` 拦截：`建议书 status 必须是 pending_orchestration（三元组，#421）` + Missing required field: status
+- **通知三类信号 dry-run**：重置 state 重跑——新提审 1（欧阳锋）/ 新 queued 7（老顽童）/ 新建议书 0（已登记）；**夜间静默实测生效**（22:0x 静默跳过，契约红线验证）
+- **边界测试**：探针源码无 `import queue_transition`、无 claim/complete/review 函数（AttributeError 证明=试图领取被拒）；测试固化
+
+**修复记录（实测抓出的 3 个缺陷当场闭环）**：
+1. 去重键不统一（旧行完整路径 vs 新行文件名）→ 同文件重复登记 → 归一化键修复
+2. 段内重复行清理逻辑误删同文件多条历史裁定记录（orchestration-audit 两条裁定）→ 从 git HEAD 恢复该行 + 策略改为"保留全部历史行，只防新增"
+3. `_extract_section` 类缺陷（无；此单无）——保持诚实，仅前两条
+
+**KDO 回归**：pytest 567 passed / 1 failed（`test_end_to_end_smoke` KeyError 'sources'——state.json 缺 sources 键，**ingest 侧历史失败**，与本次改动无关，08-16 已记录）
+
+**待用户拍板（超出本会话授权）**：
+- **计划任务注册** `kdo-conveyor-probe`（每 10 分钟，契约 §调度）——schtasks 注册动作被权限分类器拦截，需用户确认后注册
+- **飞书凭证**：通知通道配置 `kdo-tools/.feishu_webhooks.json`（webhook URL 或 app_id/secret），凭证后补即上线（用户已选 dry-run 验收）
+- **测试建议书 2 份**：`diag_20260822_probe-test-1-proposal.md` / `diag_20260822_probe-test-2-missing-status.md` 由王语嫣裁定处置（任务单追加原文）
+
+**边界声明**：只通知/登记，不领取/不裁决/不流转（代码层验证）；未动 diagnosis/ 存量文件；登记动作与 watch_inbox 同类豁免（任务单追加明确）
