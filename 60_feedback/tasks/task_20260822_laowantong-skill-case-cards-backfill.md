@@ -1,8 +1,8 @@
 ---
 id: 408
 assignee: hermes
-status: queued
-updated_at: '2026-08-22T00:05:00+08:00'
+status: in_progress
+updated_at: '2026-08-22T03:20:28.418111+00:00'
 ---
 # #408 两张空壳 skill 案例卡补强修复（src_unknown 清零 + 8-15 口述新细节回填）
 
