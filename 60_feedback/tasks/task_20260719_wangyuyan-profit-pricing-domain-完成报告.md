@@ -95,3 +95,17 @@ Failed:        0
 **未做项**：① SOURCE_REACHABILITY #L 格式 warning 保留（补充诊断 §4.2 强制格式，检查器不识别，建议黄药师优化）；② 5 张回链旧卡存量问题未动（tags 缺维度/domain unknown/source_refs null，属 #207/#426 范围）；③ 可选 agent-spec 定价决策教练未做（任务单明确终审后另评）；④ 不碰 #426（tags 挂起）。
 
 **需要谁动作**：欧阳锋终审 15 张卡 + 回链正确性；王语嫣知悉（#189 队列行状态 pending_review）。
+
+---
+
+## 复审修复记录（2026-08-23 欧阳锋 FAIL 退回 → 修复）
+
+**审查意见**：framework-利润-利润优先经营框架 缺 Synthesis（KF-024 要件 2）与 Action Triggers（KF-024 要件 3）两段；其余 14 卡 + 5 回链卡抽检通过。
+
+**修复**：
+- 新增 `## 8. Synthesis`：核心判断（利润前置是必要条件非充分条件）+ ### 不要用的场景 三列表 ×3（场景/为什么失效/替代方案，替代方案指名具体卡与方法）
+- 新增 `## 9. Action Triggers`：3 触发场景（价格战/扩张融资前/年度定价）+ 第一个动作 + 可验证成功指标
+- 原 When NOT to Use 单句清单升级为三列表；迭代日志补 v1.1
+- 复验：20/20 pre-submit PASS（无回归）
+
+**复审证据**：`kdo pre-submit -f framework-利润-利润优先经营框架.md` → Passed 1 / Failed 0 / ✅ PASS；全量 20 卡复验 Passed 20 / Failed 0。
