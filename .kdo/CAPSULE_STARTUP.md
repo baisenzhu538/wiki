@@ -7,9 +7,9 @@
 
 ```
 version: 2.0
-updated_at: 2026-08-21
-git_head: 570181f0f   ← 启动时核对：git -C <wiki> rev-parse --short HEAD（2026-08-21 黄药师 L 系列五连发会话更新）
-queue_tail: 406       ← 启动时核对：grep 队列尾任务号（2026-08-21 黄药师 L 系列五连发会话更新）
+updated_at: 2026-08-22
+git_head: cf16f0e41   ← 启动时核对：git -C <wiki> rev-parse --short HEAD（2026-08-22 黄药师恢复会话更新，#411 第二十三批 PASS A 后）
+queue_tail: 428       ← 启动时核对：grep 队列尾任务号（2026-08-22 黄药师恢复会话更新）
 ```
 
 **校验动作**（各 5 秒内）：
