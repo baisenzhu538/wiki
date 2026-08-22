@@ -484,6 +484,16 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~00_inbox/龙虾员工实践/一堂DOC-20260820205043.png｜P2｜209209B｜检测到 08-20 12:51｜待王语嫣编排~~ → 已编排：PNG 已看（白皮书目录/平台界面/需求模板），入 #400 证据链（2026-08-21 王语嫣）
 - ~~00_inbox/龙虾员工实践/一堂DOC-20260820205119.png｜P2｜65195B｜检测到 08-20 13:01｜待王语嫣编排~~ → 已编排：PNG 已看（白皮书目录/平台界面/需求模板），入 #400 证据链（2026-08-21 王语嫣）
 - ~~00_inbox/pending-cards/case-wechat-fe60439837f4c93e.md｜P2｜2361B｜检测到 08-21 14:41｜待王语嫣编排~~ → 已编排：门禁判定合并（superseded_by tool-pdf-inspector，诊断 diag_20260821_wangyuyan-pdf-inspector-gate.md）+ tool 卡核验入库入队 #407（2026-08-21 王语嫣）
-- 00_inbox/pending-cards/tool-pdf-inspector.md｜P2｜7716B｜检测到 08-21 15:08｜待王语嫣编排
+- ~~00_inbox/pending-cards/tool-pdf-inspector.md｜P2｜7716B｜检测到 08-21 15:08｜待王语嫣编排~~ → 已编排：门禁判定入库精做入队 #407（2026-08-21 王语嫣），已终审 PASS A-（2026-08-22 欧阳锋）
 
 <!-- INBOX-PENDING-END -->
+
+<!-- PROPOSAL-PENDING-BEGIN（建议书作者自登，王语嫣复核后划掉） -->
+
+## 📨 待编排建议书（proposal → 王语嫣）
+
+> 纪律：任何角色写给编排层的建议书（`proposal-*` / `status: pending_orchestration` / `audience: 王语嫣`），**作者落盘后必须在此自登一行**（链接+一句话+日期）——不登记=投递失败（2026-08-22 实证：欧阳锋建议书落盘 20 分钟靠用户转达才发现）。王语嫣复核立项后划掉。
+
+- ~~70_product/tasks/proposal-batch-todo-closure-gate-2026-08-22.md｜分批任务批次 TODO 闭环机制（R1-R4）｜欧阳锋 08-22~~ → 已复核通过：R1 欧阳锋 #411 先行落地 / R2 加固豁免句式 / R3+R4 入队 #413（2026-08-22 王语嫣）
+
+<!-- PROPOSAL-PENDING-END -->
