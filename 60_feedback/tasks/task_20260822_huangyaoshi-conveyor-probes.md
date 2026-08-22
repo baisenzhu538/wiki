@@ -1,8 +1,8 @@
 ---
 id: 421
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-22T13:32:16.840529+00:00'
+status: pending_review
+updated_at: '2026-08-22T14:11:21.574783+00:00'
 ---
 # #421 传送带探针（通知契约先定，探针后建）
 
