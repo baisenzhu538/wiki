@@ -4,9 +4,12 @@ type: parking_lot
 created_at: 2026-06-28
 updated_at: 2026-08-02
 owner: 欧阳锋
+status: deprecated
 ---
 
 # 欧阳锋停车场清单
+
+> ⚠️ **DEPRECATED（2026-08-22 #420 收口）**：本文件全部条目为工厂自迭代（A 类），已一次性迁移+去重+清账至单一工厂停车场 **`90_control/parking-lot.md`**（F-xxx 编号，清账明细见其文末）。本文件仅作历史存档，不再新增/维护。
 
 > **停车场机制**：主线任务进行中，把不阻塞当前主线的洞察、改进点、待讨论方案记录在此。等空下来再和大家讨论/排期。
 > **升级路径**：`待讨论` → `待排期` → 进入 `70_product/tasks/production-queue.md` → 分配执行。
