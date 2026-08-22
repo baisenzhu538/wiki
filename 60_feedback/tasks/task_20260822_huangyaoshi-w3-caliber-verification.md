@@ -1,8 +1,8 @@
 ---
 id: 412
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-22T04:48:16.808433+00:00'
+status: pending_review
+updated_at: '2026-08-22T04:50:29.327261+00:00'
 ---
 # #412 W3 口径核实（会诊硬前置：三个数字工具重跑）
 
