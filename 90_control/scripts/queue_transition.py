@@ -222,6 +222,9 @@ TRANSITIONS: dict[tuple[str, str], str] = {
     ("claimed-{instance}", "release"): "claimed-{instance}",
     ("pending_review", "review_pass"): "reviewed",
     ("pending_review", "review_fail"): "queued",
+    # #429 F-029：等待外部输入态——不占 pending_review 阻塞位（find_blockers 只收 pending_review/claimed）
+    ("pending_review", "mark_waiting"): "waiting-external",
+    ("waiting-external", "resume"): "pending_review",
 }
 
 
@@ -506,6 +509,45 @@ def _check_code_gate(task_file: Path, fm: dict[str, Any]) -> tuple[bool, str]:
     return True, ""
 
 
+# #429 F-034 交付五字段硬格式（老朱拍板「想犯错也犯不了」，停车场 F-034 收口）
+# 机读锚点：执行报告节或 --evidence 文件含以下标记即算该字段存在（只验存在性，不判内容质量——只拦机械项不碰判断）
+DELIVERY_FIELDS: dict[str, tuple[str, ...]] = {
+    "改动文件清单": ("**交付物**", "**改动文件**", "**文件清单**"),
+    "完成内容一句话": ("**完成内容**", "**一句话**", "**概要**"),
+    "验证命令+输出": ("**验证**", "**实测**", "**测试**"),
+    "未做项/边界": ("**边界**", "**未做项**", "**待定义**", "**遗留**"),
+    "需要谁动作": ("**需要谁动作**", "**待办**", "**待用户拍板**", "**待审**"),
+}
+
+
+def _extract_exec_report(body: str) -> str:
+    """提取任务单「## 执行报告」节（到下一个 ## 或文件尾）。"""
+    idx = body.find("## 执行报告")
+    if idx == -1:
+        return ""
+    nxt = body.find("\n## ", idx + 1)
+    return body[idx:nxt] if nxt > 0 else body[idx:]
+
+
+def _check_delivery_fields(task_file, evidence: str | None) -> tuple[bool, str]:
+    """F-034：交付五字段机读检查——缺项=拒收（--force 可跳过，语义=已声明例外）。"""
+    if evidence is not None:
+        try:
+            ev_text = Path(evidence).read_text(encoding="utf-8", errors="ignore")
+        except OSError:
+            return False, f"--evidence 文件不可读: {evidence}"
+        check_text = ev_text
+    else:
+        body = task_file.read_text(encoding="utf-8", errors="ignore")
+        check_text = _extract_exec_report(body)
+        if not check_text:
+            return False, "任务单缺少「## 执行报告」节（#429 F-034：交付必须落执行报告，口头完成=未完成）"
+    missing = [k for k, anchors in DELIVERY_FIELDS.items() if not any(a in check_text for a in anchors)]
+    if missing:
+        return False, f"执行报告缺 {len(missing)} 个字段（#429 F-034）：{'、'.join(missing)}。请补全后重试，或 --force 声明例外。"
+    return True, ""
+
+
 def action_complete(task_id: str, instance: str, evidence: str | None, force: bool = False) -> tuple[bool, str]:
     """Mark a claimed task as pending_review.
 
@@ -527,12 +569,11 @@ def action_complete(task_id: str, instance: str, evidence: str | None, force: bo
         return False, f"找不到任务单文件: {task_id}（已按文件名和 frontmatter id 双重查找）"
 
     fm, _ = parse_frontmatter(task_file)
-    if evidence is None:
-        # Default evidence: task file must contain an execution report / pre-submit section
-        body = task_file.read_text(encoding="utf-8")
-        has_evidence = "pre-submit" in body.lower() or "执行报告" in body or "验收" in body
-        if not has_evidence:
-            return False, "任务单中缺少生产完成证据（pre-submit / 执行报告 / 验收）。老顽童不能标 pending_review。"
+    if not force:
+        # #429 F-034：交付五字段硬格式（升级替代原关键词检查：pre-submit/执行报告/验收）
+        gate_ok, gate_msg = _check_delivery_fields(task_file, evidence)
+        if not gate_ok:
+            return False, gate_msg
 
     # 代码类提审门禁（#363）：code_files 未 commit → 拒绝流转
     gate_ok, gate_msg = _check_code_gate(task_file, fm)
@@ -564,6 +605,79 @@ def action_complete(task_id: str, instance: str, evidence: str | None, force: bo
     return True, f"✅ {task_id} 已提交为 pending_review，等待欧阳锋终审"
 
 
+def _check_review_record(task_file: Path, review_file: str | None) -> tuple[bool, str]:
+    """#429 F-035：审查意见书强制落盘——任务单「## 终审记录」节（≥50 字）或 --review-file 路径，二者必有其一。"""
+    if review_file is not None:
+        try:
+            rf_text = Path(review_file).read_text(encoding="utf-8", errors="ignore")
+        except OSError:
+            return False, f"--review-file 不可读: {review_file}"
+        if len(rf_text.strip()) < 50:
+            return False, "审查意见文件内容过短（#429 F-035），不构成审查意见书"
+        return True, ""
+    body = task_file.read_text(encoding="utf-8", errors="ignore")
+    idx = body.find("## 终审记录")
+    if idx == -1:
+        return False, "任务单缺少「## 终审记录」节（#429 F-035：审查意见必须落盘，口头/群里意见=未审查）"
+    nxt = body.find("\n## ", idx + 1)
+    section = body[idx:nxt] if nxt > 0 else body[idx:]
+    if len(section.strip()) < 50:
+        return False, "终审记录节内容过短（#429 F-035），不构成审查意见书"
+    return True, ""
+
+
+def action_mark_waiting(task_id: str, note: str | None = None) -> tuple[bool, str]:
+    """#429 F-029：pending_review → waiting-external（等老朱/外部输入，不占审查位不阻塞领取）。
+
+    #188 是活样本（只读引用）：等老朱真实使用首条记录，标 waiting-external 后不再阻塞不同 assignee 领取。
+    """
+    rows = parse_queue()
+    task = find_task(task_id, rows)
+    if task is None:
+        return False, f"任务 {task_id} 不在队列中"
+    if task["status"] != "pending_review":
+        return False, f"任务 {task_id} 状态为 {task['status']}，只有 pending_review 可标 waiting-external"
+
+    task_file = _find_task_file_dual(task_id)
+    if task_file is None:
+        return False, f"找不到任务单文件: {task_id}"
+
+    with QueueLock("production-queue"):
+        rows = parse_queue()
+        task = find_task(task_id, rows)
+        if task is None or task["status"] != "pending_review":
+            return False, "队列状态在加锁期间发生变化，请重试"
+        apply_updates(task_id, "waiting-external", task_file,
+                      status="waiting-external",
+                      waiting_since=current_utc_date(),
+                      waiting_note=note or "")
+    return True, f"⏸️ {task_id} 已标 waiting-external（等待外部输入，不阻塞队列）"
+
+
+def action_resume(task_id: str) -> tuple[bool, str]:
+    """#429 F-029：waiting-external → pending_review（外部输入到达，恢复待终审）。"""
+    rows = parse_queue()
+    task = find_task(task_id, rows)
+    if task is None:
+        return False, f"任务 {task_id} 不在队列中"
+    if task["status"] != "waiting-external":
+        return False, f"任务 {task_id} 状态为 {task['status']}，只有 waiting-external 可 resume"
+
+    task_file = _find_task_file_dual(task_id)
+    if task_file is None:
+        return False, f"找不到任务单文件: {task_id}"
+
+    with QueueLock("production-queue"):
+        rows = parse_queue()
+        task = find_task(task_id, rows)
+        if task is None or task["status"] != "waiting-external":
+            return False, "队列状态在加锁期间发生变化，请重试"
+        apply_updates(task_id, "pending_review", task_file,
+                      status="pending_review",
+                      resumed_at=current_utc_date())
+    return True, f"▶️ {task_id} 已恢复 pending_review（外部输入到达）"
+
+
 def action_release(task_id: str, instance: str) -> tuple[bool, str]:
     """Release a claimed task back to queued."""
     rows = parse_queue()
@@ -585,7 +699,7 @@ def action_release(task_id: str, instance: str) -> tuple[bool, str]:
     return True, f"✅ {task_id} 已释放回 queued"
 
 
-def action_review(task_id: str, verdict: str, reviewer: str, grade: str | None = None) -> tuple[bool, str]:
+def action_review(task_id: str, verdict: str, reviewer: str, grade: str | None = None, review_file: str | None = None) -> tuple[bool, str]:
     """Ouyangfeng-only: review a pending_review task."""
     if reviewer != "欧阳锋":
         return False, "只有欧阳锋可以执行 review 操作"
@@ -600,6 +714,12 @@ def action_review(task_id: str, verdict: str, reviewer: str, grade: str | None =
     task_file = _find_task_file_dual(task_id)
     if task_file is None:
         return False, f"找不到任务单文件: {task_id}（已按文件名和 frontmatter id 双重查找）"
+
+    # #429 F-035：审查意见书强制落盘（老朱校准：口头/群里意见=未审查）
+    # 意见载体 = 任务单「## 终审记录」节（非空）或 --review-file 指定路径
+    ok, msg = _check_review_record(task_file, review_file)
+    if not ok:
+        return False, msg
 
     with QueueLock("production-queue"):
         if verdict == "pass":
@@ -664,6 +784,8 @@ def main() -> int:
     verdict = None
     reviewer = None
     grade = None
+    review_file = None
+    note = None
     force = False
     no_commit = False
 
@@ -693,6 +815,12 @@ def main() -> int:
                 print("--grade 需要 A|A-|B+|B|B-|C", file=sys.stderr)
                 return 1
             i += 2
+        elif args[i] == "--review-file" and i + 1 < len(args):
+            review_file = args[i + 1]
+            i += 2
+        elif args[i] == "--note" and i + 1 < len(args):
+            note = args[i + 1]
+            i += 2
         else:
             print(f"未知参数: {args[i]}", file=sys.stderr)
             return 1
@@ -718,7 +846,11 @@ def main() -> int:
             return 1
         if not reviewer:
             reviewer = "欧阳锋"
-        ok, msg = action_review(task_id, verdict, reviewer, grade)
+        ok, msg = action_review(task_id, verdict, reviewer, grade, review_file=review_file)
+    elif action in ("mark-waiting", "mark_waiting"):
+        ok, msg = action_mark_waiting(task_id, note)
+    elif action in ("resume",):
+        ok, msg = action_resume(task_id)
     else:
         print(__doc__, file=sys.stderr)
         return 1
@@ -727,7 +859,7 @@ def main() -> int:
     if ok:
         _refresh_dashboard()
         # #390：流转成功（含 dashboard 刷新）后自动 git 收口；门禁拦截的流转到不了这里
-        if not no_commit and action in ("claim", "complete", "release", "review"):
+        if not no_commit and action in ("claim", "complete", "release", "review", "mark-waiting", "resume"):
             actor = reviewer if action == "review" else instance
             _git_commit_transition(task_id, action, actor or "")
     return 0 if ok else 1

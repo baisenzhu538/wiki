@@ -40,3 +40,31 @@ updated_at: '2026-08-22T15:46:28.389116+00:00'
 
 - 停车场：F-029 / F-034 / F-035（本单立项后转「已立项 #429」，终审通过后出池）
 - 先例/依赖：#389、#413、#419、#421、#427、#188（等待外部输入活样本）
+
+## 执行报告（2026-08-22 深夜 黄药师）
+
+**交付物**（改动文件清单）：
+1. `90_control/scripts/queue_transition.py`：
+   - F-034：`_check_delivery_fields` 五字段机读检查（交付物/完成内容/验证/边界/需要谁动作锚点表）+ `_extract_exec_report`；action_complete 升级（缺字段=拒收，--force 跳过）
+   - F-035：`_check_review_record`（任务单「## 终审记录」节 ≥50 字 或 --review-file）；action_review 新增 `--review-file` 参数，无意见书=不闭环
+   - F-029：TRANSITIONS 加 (pending_review,mark_waiting)→waiting-external / (waiting-external,resume)→pending_review；`action_mark_waiting`（记 waiting_since/waiting_note）+ `action_resume`（记 resumed_at）；main 派发 mark-waiting/resume + --note
+2. `90_control/scripts/tests/test_queue_transition.py`：+7 回归（三字段门禁单测 + 转移注册）
+
+**验证**（命令+输出）：
+- 回归：`pytest 90_control/scripts/tests/test_queue_transition.py` → **18 passed**（11 原有 + 7 新增）
+- 狗粮全流程（隔离环境 KDO_QUEUE_PATH/KDO_TASK_DIR + --no-commit）：
+  ① complete 缺执行报告节 → **被拦**（"任务单缺少「## 执行报告」节"）
+  ② 补五字段 → **通过**（pending_review）
+  ③ review 无终审记录 → **被拦**（"任务单缺少「## 终审记录」节"）
+  ④ 补意见书 → **通过**（reviewed）
+  ⑤ mark-waiting → waiting-external；其他实例 claim **不被阻塞**；resume → 回 pending_review
+
+**边界/未做项**：
+- 只拦机械项（字段存在性），不判内容质量、不替角色判断（F-033 边界）；#188 只读引用未改
+- 未碰 #426/迁移专案/设计域；通知五字段消费归 #421（本单不建第二套扫描器）
+- 存量任务兼容：执行报告缺字段的 complete 会被拦——用 --force 声明例外或补字段（新纪律生效）
+
+**需要谁动作**：
+- 欧阳锋：终审本单（抽「门禁是否只拦机械项不碰判断」）
+- 王语嫣：编排层知悉——waiting-external 可对 #188 使用（等老朱真实使用）；#421 通知内容后续按五字段生成
+- 各角色：complete 交付执行报告按五字段写；review 必须落「## 终审记录」节

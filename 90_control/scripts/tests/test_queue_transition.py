@@ -7,6 +7,7 @@ from pathlib import Path
 SCRIPT_DIR = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(SCRIPT_DIR))
 
+import queue_transition as qt
 from queue_transition import (
     find_task_file,
     find_task_file_by_frontmatter_id,
@@ -164,3 +165,95 @@ class TestReviewBoardBatchReregister(unittest.TestCase):
             active = [l for l in lines if not l.startswith("- ~~")]
             self.assertEqual(len(active), 1, f"应重新登记一行未划掉的提审行，实际:\n{lines}")
             self.assertIn("提审", active[0])
+
+
+# ── #429 流转留痕三件套门禁回归（F-034 交付五字段 / F-035 审查意见落盘 / F-029 waiting-external）──
+
+class TestDeliveryFieldsGate(unittest.TestCase):
+    """F-034：交付五字段机读检查。"""
+
+    def _report(self, fields: set[str]) -> str:
+        parts = ["## 执行报告\n"]
+        if "清单" in fields:
+            parts.append("**交付物**：a.py\n")
+        if "内容" in fields:
+            parts.append("**完成内容**：一句话\n")
+        if "验证" in fields:
+            parts.append("**验证**：pytest -q → 5 passed\n")
+        if "边界" in fields:
+            parts.append("**边界**：未动其它文件\n")
+        if "动作" in fields:
+            parts.append("**需要谁动作**：王语嫣复核\n")
+        return "".join(parts)
+
+    def test_full_fields_pass(self):
+        fp = Path(__file__).parent / "_tmp_429_test.md"
+        fp.write_text(self._report({"清单", "内容", "验证", "边界", "动作"}), encoding="utf-8")
+        try:
+            ok, msg = qt._check_delivery_fields(fp, None)
+            self.assertTrue(ok, msg)
+        finally:
+            fp.unlink(missing_ok=True)
+
+    def test_missing_field_blocked(self):
+        fp = Path(__file__).parent / "_tmp_429_test.md"
+        fp.write_text(self._report({"清单", "内容", "验证"}), encoding="utf-8")
+        try:
+            ok, msg = qt._check_delivery_fields(fp, None)
+            self.assertFalse(ok)
+            self.assertIn("未做项/边界", msg)
+            self.assertIn("需要谁动作", msg)
+        finally:
+            fp.unlink(missing_ok=True)
+
+    def test_no_exec_report_blocked(self):
+        fp = Path(__file__).parent / "_tmp_429_test.md"
+        fp.write_text("没有执行报告节\n", encoding="utf-8")
+        try:
+            ok, _ = qt._check_delivery_fields(fp, None)
+            self.assertFalse(ok)
+        finally:
+            fp.unlink(missing_ok=True)
+
+
+class TestReviewRecordGate(unittest.TestCase):
+    """F-035：审查意见书强制落盘。"""
+
+    def test_missing_review_section_blocked(self):
+        fp = Path(__file__).parent / "_tmp_429_review.md"
+        fp.write_text("## 概要\n无终审记录\n", encoding="utf-8")
+        try:
+            ok, msg = qt._check_review_record(fp, None)
+            self.assertFalse(ok)
+            self.assertIn("终审记录", msg)
+        finally:
+            fp.unlink(missing_ok=True)
+
+    def test_review_section_present_pass(self):
+        fp = Path(__file__).parent / "_tmp_429_review.md"
+        fp.write_text("## 终审记录\n\n**结论**：PASS / A。O0 溯源逐条验证。验收标准逐条核对，魔鬼代言人无阻断项，残余风险已注明。\n", encoding="utf-8")
+        try:
+            ok, _ = qt._check_review_record(fp, None)
+            self.assertTrue(ok)
+        finally:
+            fp.unlink(missing_ok=True)
+
+    def test_review_file_alternative_pass(self):
+        rf = Path(__file__).parent / "_tmp_429_reviewfile.md"
+        rf.write_text("审查意见书：verdict PASS，grade A，溯源验证若干。\n" * 5, encoding="utf-8")
+        fp = Path(__file__).parent / "_tmp_429_review.md"
+        fp.write_text("无终审记录\n", encoding="utf-8")
+        try:
+            ok, _ = qt._check_review_record(fp, str(rf))
+            self.assertTrue(ok)
+        finally:
+            rf.unlink(missing_ok=True)
+            fp.unlink(missing_ok=True)
+
+
+class TestWaitingExternal(unittest.TestCase):
+    """F-029：waiting-external 状态机转移。"""
+
+    def test_transitions_registered(self):
+        self.assertEqual(qt.TRANSITIONS[("pending_review", "mark_waiting")], "waiting-external")
+        self.assertEqual(qt.TRANSITIONS[("waiting-external", "resume")], "pending_review")
