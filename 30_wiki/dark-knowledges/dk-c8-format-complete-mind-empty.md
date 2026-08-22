@@ -29,6 +29,8 @@ related:
 - '[[dk-c10-batch-tool-no-dry-run]]'
 - '[[master-decision-hygiene]]'
 - '[[case-252-quality-gate-pilot]]'
+- '[[dk-agent-access-kdo-pitfalls]]'
+- '[[dk-c9-batch-trigger-garbage]]'
 pipeline:
 - src_unknown
 - src_unknown

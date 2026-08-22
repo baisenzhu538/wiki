@@ -30,6 +30,7 @@ related:
 - '[[case-yitang-luckin-field-research]]'
 - '[[dk-yb3-diffusion-stepwise-vs-human-holistic]]'
 - '[[master-knowledge-compound]]'
+- '[[yt-research-action-camp-launch]]'
 pipeline:
 - src_unknown
 author: 月白

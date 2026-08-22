@@ -32,6 +32,8 @@ related:
 - concept-X型Y型决策习惯
 - concept-发现决策
 - '[[concept-一堂-kernel-iteration]]'
+- '[[yt-unit-model-build]]'
+- '[[yt-unit-model-concept]]'
 tags:
 - audience:general
 - scene:reference

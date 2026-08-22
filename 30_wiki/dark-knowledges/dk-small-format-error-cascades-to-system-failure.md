@@ -21,6 +21,8 @@ discoverable_by:
   - 小格式错误在批量系统中引发级联失效
 related:
 - '[[ai-collaboration-domain-digest]]'
+- '[[dk-c10-batch-tool-no-dry-run]]'
+- '[[dk-c8-format-complete-mind-empty]]'
 bridges_to: null
 author: 老顽童
 reviewed_by: 欧阳锋

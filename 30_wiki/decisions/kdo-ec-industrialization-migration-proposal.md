@@ -29,6 +29,7 @@ related:
   - "[[case-半肥猫-course-to-skill]]"
   - "[[modeling-capability-for-kdo]]"
   - "[[modeling-to-kdo-toolchain]]"
+  - '[[dk-c2-dual-status-machine]]'
 ---
 # EC工业化规范 → KDO管线迁移方案（征求意见稿）
 

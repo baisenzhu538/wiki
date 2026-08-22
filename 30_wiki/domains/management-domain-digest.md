@@ -33,6 +33,9 @@ related:
 - '[[yt-management-project-management]]'
 - '[[yt-management-scientific-meetings]]'
 - '[[yt-management-team-knowledge]]'
+- '[[yt-model-management-map]]'
+- '[[dk-coaching-boundary-conditions]]'
+- '[[dk-coaching-monkey-theory]]'
 tags:
 - audience:manager
 - scene:reference

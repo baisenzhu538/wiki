@@ -30,6 +30,7 @@ related:
 - '[[framework-yitang-shishi-qiushi]]'
 - '[[concept-yitang-model-system-boundary]]'
 - '[[case-yitang-shishi-qiushi-pitfall-10-over-abstraction]]'
+- '[[pattern-tool-vs-model]]'
 tags:
 - audience:executor
 - scene:reference

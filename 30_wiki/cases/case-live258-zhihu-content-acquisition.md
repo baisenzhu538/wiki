@@ -38,6 +38,7 @@ related:
 - '[[case-live258-europe-cold-email]]'
 - '[[case-live258-fact-spread-18-bridges]]'
 - '[[case-live258-livestream-prompt-v1-v5]]'
+- '[[dk-ai-does-not-question-your-mistake]]'
 tags:
 - method:feature-thinking
 - method:content-marketing

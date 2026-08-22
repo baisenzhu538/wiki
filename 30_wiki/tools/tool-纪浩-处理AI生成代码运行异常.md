@@ -31,6 +31,7 @@ related:
 - '[[tool-月白-AI图片去文字处理]]'
 - '[[tool-马易-低置信度样本黄金漏斗处理]]'
 - '[[tool-纪浩-Problem与Question区分法]]'
+- '[[dk-ai-judgment-human-responsibility]]'
 diagnostic_signals:
 - lens: 排查无头绪
   follow_up: 先确认异常现象和复现路径。没有复现路径的问题无法修复

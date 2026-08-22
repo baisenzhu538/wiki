@@ -49,6 +49,7 @@ related:
 - tool-月白-AI模型选择策略
 - framework-kdo-modeling-methodology
 - '[[case-cui-lei-kids-ai-design-class]]'
+- '[[dk-ai-as-last-step-not-first]]'
 diagnostic_signals:
 - signal: 「想给孩子讲产品设计方法论，但不知道从哪开始」
   lens: 检查是否使用了成人术语直接灌输

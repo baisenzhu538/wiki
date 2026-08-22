@@ -26,6 +26,7 @@ related:
 - '[[tool-月白-眼高手低转化法]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+- '[[yt-tool-fab-persuasion]]'
 definition_of_done:
 - src_unknown
 - src_unknown

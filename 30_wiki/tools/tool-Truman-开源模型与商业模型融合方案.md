@@ -33,6 +33,8 @@ related:
 - '[[tool-Truman-多Agent通信协作方案]]'
 - '[[tool-Truman-知识库最佳实践构建]]'
 - '[[tool-Truman-短视频自动化上传工作流]]'
+- '[[yt-product-kernel-definition]]'
+- '[[开源HIS系统代码深度分析报告]]'
 tags:
 - audience:executor
 - scene:execution

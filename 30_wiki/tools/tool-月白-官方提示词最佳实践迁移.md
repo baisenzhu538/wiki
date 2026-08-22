@@ -34,6 +34,7 @@ related:
 - 'tool-月白-AI图片印刷落地预处理'
 - 'tool-月白-AI对话情绪管理法'
 - 'dk-three-context-formula'
+- '[[yt-tool-best-practice-learning]]'
 tags:
 ---
 # 技能：官方提示词最佳实践迁移

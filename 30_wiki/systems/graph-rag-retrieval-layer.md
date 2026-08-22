@@ -29,6 +29,7 @@ related:
 - - - kdo-watch-health-check-layer
 - agent-native-card-design
 - high-density-composite-compilation-strategy
+- '[[contradictions]]'
 tags:
 - audience:general
 - scene:reference

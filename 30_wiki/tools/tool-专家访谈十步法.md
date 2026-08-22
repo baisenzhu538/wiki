@@ -38,6 +38,7 @@ related:
 - '[[tool-逐字稿练习演讲]]'
 - '[[tool-费曼学习法实践讲香课题]]'
 - tool-ai-prd-for-ai
+- '[[yt-note-expert-interview-modeling]]'
 tags:
 - audience:executor
 - scene:execution

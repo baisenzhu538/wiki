@@ -29,6 +29,7 @@ related:
 - '[[dk-yb13-zero-shot-style-transfer]]'
 - '[[dk-yb22-visual-presentation-scene-match]]'
 - '[[dk-yb1-aigc-mvp-before-ps]]'
+- '[[那今天不会]]'
 pipeline:
 - src_unknown
 author: 月白

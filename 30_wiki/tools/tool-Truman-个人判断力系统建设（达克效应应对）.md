@@ -32,6 +32,8 @@ related:
 - '[[tool-Truman-判断力产品化与系统赋能]]'
 - '[[tool-canvas-weapon-library-modeling]]'
 - '[[yt-barrier-data-assets]]'
+- '[[yt-tool-peas-agent-analysis]]'
+- '[[视觉prompt三层操作系统-srom-visual-os]]'
 tags:
 - audience:executor
 - scene:execution

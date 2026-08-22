@@ -45,6 +45,8 @@ related:
 - '[[framework-wanghuan-actor-director-mode]]'
 - '[[framework-wanghuan-ai-five-level-ladder]]'
 - '[[industrial-ai-ops-cases]]'
+- '[[yt-prompt-engineering-andrew-ng]]'
+- '[[dk-ban-fei-mao-real-business-is-the-engine]]'
 diagnostic_signals:
 - signal: src_unknown
   framework_lens: AI拉升个人上限——不会≠做不了，关键是导演思维

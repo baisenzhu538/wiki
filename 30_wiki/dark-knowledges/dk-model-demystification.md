@@ -40,6 +40,7 @@ related:
 - '[[dk-let-ai-learn-for-me]]'
 - '[[case-cross-xingangwan-pharma]]'
 - '[[case-investment-claim-fact-check]]'
+- '[[dk-context-patching-recipe]]'
 review_date: 2026-08-16
 ---
 # 模型祛魅：上下文完备度 >> 模型差距

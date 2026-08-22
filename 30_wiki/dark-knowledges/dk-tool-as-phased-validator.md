@@ -37,6 +37,9 @@ related:
 - skill-note-one-line-one-point
 - '[[yt-five-step-method]]'
 - '[[case-lean-zhanglei-pivot-decision]]'
+- '[[dk-ban-fei-mao-atomic-no-standard]]'
+- '[[dk-ban-fei-mao-silky-answers-are-dangerous]]'
+- '[[dk-ban-fei-mao-skill-rejection-value]]'
 bridges_to:
 - target: src_unknown
   relation: applies_when

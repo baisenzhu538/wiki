@@ -30,6 +30,7 @@ related:
 - '[[tool-Truman-数学题与语文题区分法]]'
 - case-truman-ai-partner
 - yt-note-checklist-concept
+- '[[yt-tool-best-practice-learning]]'
 tags:
 - audience:executor
 - scene:execution

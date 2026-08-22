@@ -47,6 +47,8 @@ related:
 - '[[tool-yitang-sales-toolkit-maturity-60-75-85]]'
 - '[[tool-区分获客渠道计算单元roi]]'
 - '[[tool-agent-spec-yitang-lead-funnel-health]]'
+- '[[yt-tob-cash-flow]]'
+- '[[yt-tob-revenue-is-customer-cost]]'
 review_date: '2026-06-28'
 tags:
 - audience:general

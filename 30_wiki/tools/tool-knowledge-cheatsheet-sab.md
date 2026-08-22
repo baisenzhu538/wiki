@@ -38,6 +38,7 @@ related:
 - '[[dk-ai-builder-illusion]]'
 - '[[bridge-how-to-know-person-to-business]]'
 - '[[concept-ai-style-knowledge-docs]]'
+- '[[dk-aesthetic-redline-doc]]'
 review_date: 2026-08-16
 ---
 

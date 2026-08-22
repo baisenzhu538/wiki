@@ -27,6 +27,7 @@ related:
 - '[[dk-yb18-small-shop-image-mismatch]]'
 - '[[dk-yb18-small-shop-image-mismatch]]'
 - '[[dk-yb19-visual-strategy-price-match]]'
+- '[[视觉prompt三层操作系统-srom-visual-os]]'
 pipeline:
 - src_unknown
 - src_unknown

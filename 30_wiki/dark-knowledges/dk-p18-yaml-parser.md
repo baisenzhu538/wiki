@@ -31,6 +31,7 @@ related:
 - '[[tool-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]'
 - '[[proposal-yaml-frontmatter-standardization]]'
 - '[[dk-f13-handwritten-yaml-parser]]'
+- '[[dk-c2-dual-status-machine]]'
 pipeline:
 - src_unknown
 - src_unknown

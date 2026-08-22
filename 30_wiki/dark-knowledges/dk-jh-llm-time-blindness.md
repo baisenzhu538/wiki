@@ -31,6 +31,7 @@ related:
 - '[[dk-truman-iteration-to-aesthetic-ceiling]]'
 - '[[dk-ai-judgment-human-responsibility]]'
 - '[[dk-ai-judgment-programmer-paradox]]'
+- '[[yt-research-action-camp-launch]]'
 tags:
 - audience:executor
 - scene:reference

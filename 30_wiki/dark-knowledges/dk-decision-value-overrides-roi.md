@@ -44,6 +44,8 @@ related:
 - '[[dk-ai-efficiency-and-management-radius]]'
 - '[[dk-ai-capability-illusion]]'
 - '[[case-investment-claim-fact-check]]'
+- '[[dk-aesthetic-redline-doc]]'
+- '[[dk-ai-self-evolution-prompt]]'
 tags:
 - src_unknown
 - src_unknown

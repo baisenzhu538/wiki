@@ -43,6 +43,7 @@ related:
 - '[[tool-从案例中学习正反案例法]]'
 - '[[tool-体系框架构建]]'
 - tool-寻找学习教练法
+- '[[yt-note-expert-interview-modeling]]'
 tags:
 - audience:executor
 - scene:execution

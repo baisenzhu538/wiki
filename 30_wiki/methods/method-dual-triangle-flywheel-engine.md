@@ -38,6 +38,7 @@ related:
 - '[[method-yihang-dual-triangle-deliberate-practice]]'
 - '[[method-yitang-y-model-engine-cycle]]'
 - '[[concept-yihang-human-in-the-loop-dual-triangle]]'
+- '[[dk-ai-collaboration-degradation-spiral]]'
 aliases:
 - 双三角飞轮
 - 飞轮引擎

@@ -33,6 +33,8 @@ related:
 - '[[case-kdo-agent-factory-dual-triangle-practice]]'
 - '[[case-roblox-ai-npc-education]]'
 - '[[concept-mcp-protocol]]'
+- '[[dk-agent-promise-verification]]'
+- '[[dk-ai-memory-four-layers]]'
 tags:
 - audience:manager
 - scene:reference

@@ -42,6 +42,11 @@ related:
 - '[[concept-mcp-protocol]]'
 - '[[concept-yitang-ai-research-10-assumptions]]'
 - '[[concept-yitang-ai-research-human-loop]]'
+- '[[dk-ban-fei-mao-atomic-no-standard]]'
+- '[[dk-ban-fei-mao-real-business-is-the-engine]]'
+- '[[dk-ban-fei-mao-silky-answer-warning]]'
+- '[[dk-ban-fei-mao-silky-answers-are-dangerous]]'
+- '[[dk-ban-fei-mao-skill-rejection-value]]'
 tags:
 - audience:manager
 - scene:reference

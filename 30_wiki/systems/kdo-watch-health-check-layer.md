@@ -25,6 +25,7 @@ related:
 - modeling-to-kdo-toolchain
 - kdo-ec-industrialization-migration-proposal
 - '[[graph-rag]]'
+- '[[dk-c3-txt-ingest-skip]]'
 tags:
 - audience:general
 - scene:reference

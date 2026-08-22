@@ -41,6 +41,7 @@ related:
 - '[[tool-费曼学习法三句话提炼]]'
 - '[[tool-demand-four-forces]]'
 - tool-动手建模法
+- '[[yt-tool-mental-model-refinement]]'
 tags:
 - audience:executor
 - scene:execution

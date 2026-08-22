@@ -29,6 +29,8 @@ related:
 - '[[modeling-to-kdo-toolchain]]'
 - '[[dk-c8-format-complete-mind-empty]]'
 - '[[master-decision-hygiene]]'
+- '[[dk-c11-hongqigong-skip-review]]'
+- '[[dk-c2-dual-status-machine]]'
 pipeline:
 - src_unknown
 - src_unknown

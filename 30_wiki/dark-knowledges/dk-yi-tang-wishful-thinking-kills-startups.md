@@ -28,6 +28,7 @@ related:
 - '[[dk-tool-as-phased-validator]]'
 - '[[yitang-domain-digest]]'
 - '[[learning-thinking]]'
+- '[[dk-ban-fei-mao-real-business-is-the-engine]]'
 tags:
 - audience:executor
 - scene:diagnosis

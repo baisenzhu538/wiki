@@ -29,6 +29,7 @@ related:
 - '[[tool-设定管理杠杆率指标评估效率]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+- '[[yt-product-ten-metrics]]'
 diagnostic_signals:
 - framework_lens: 产品内核指标——缺乏数据验证体系
   follow_up_question: 你的产品内核对应的关键指标是什么？当前数值是多少？

@@ -35,6 +35,7 @@ related:
 - '[[dk-one-sentence-handover]]'
 - '[[dk-decision-value-overrides-roi]]'
 - '[[case-cross-xingangwan-pharma]]'
+- '[[dk-aesthetic-redline-doc]]'
 ---
 # "收录一下"：知识入库文化靠高频简单指令养成，不靠制度文件
 

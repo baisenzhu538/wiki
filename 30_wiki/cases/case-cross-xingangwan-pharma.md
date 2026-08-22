@@ -59,6 +59,7 @@ related:
 - '[[case-smart-medicine-cabinet-corporate-risk]]'
 - '[[case-vibecoding-one-week-delivery]]'
 - '[[concept-ai-style-knowledge-docs]]'
+- '[[dk-collection-vs-assets]]'
 tags:
 - audience:general
 - scene:reference

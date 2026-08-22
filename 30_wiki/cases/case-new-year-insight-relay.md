@@ -38,6 +38,7 @@ related:
 - '[[tool-top-level-document]]'
 - '[[dk-research-important-things-must-do]]'
 - '[[case-cross-xingangwan-pharma]]'
+- '[[dk-context-patching-recipe]]'
 review_date: 2026-08-16
 ---
 

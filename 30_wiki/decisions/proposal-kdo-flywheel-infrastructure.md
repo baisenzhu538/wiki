@@ -21,6 +21,7 @@ related:
 - '[[proposal-deep-synthesis-infrastructure]]'
 - knowledge-delivery-os-快速体验指南-飞书云文档
 - '[[kdo-yaml-frontmatter-safety]]'
+- '[[dk-c3-txt-ingest-skip]]'
 id: proposal-kdo-flywheel-infrastructure
 reviewed_by: pending
 confidence: 0.6

@@ -34,6 +34,7 @@ related:
   - management-domain-digest
   - framework-how-to-know-a-person
   - framework-truman-feature-layered-system
+  - '[[dk-coaching-monkey-theory]]'
 tags:
 - audience:executor
 - scene:execution

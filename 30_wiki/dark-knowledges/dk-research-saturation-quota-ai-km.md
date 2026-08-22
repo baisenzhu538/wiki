@@ -42,6 +42,7 @@ related:
 - '[[dk-let-ai-learn-for-me]]'
 - '[[dk-best-datasource-is-floor]]'
 - bridge-how-to-know-person-to-business
+- '[[dk-collection-vs-assets]]'
 review_date: 2026-08-16
 ---
 # 调研饱和话术："不要给我省任何投入，至少调研 30-50 篇"

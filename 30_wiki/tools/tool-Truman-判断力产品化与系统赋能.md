@@ -31,6 +31,8 @@ related:
 - '[[tool-canvas-weapon-library-modeling]]'
 - '[[case-truman-prd-checklist-evolution]]'
 - '[[product-business-strategy]]'
+- '[[yt-tool-peas-agent-analysis]]'
+- '[[视觉prompt三层操作系统-srom-visual-os]]'
 tags:
 - audience:executor
 - scene:execution

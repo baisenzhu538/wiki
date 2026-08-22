@@ -52,6 +52,7 @@ related:
 - '[[case-daxin-team-content-training-camp]]'
 - '[[case-yitang-yitang-shortvideo-industrialization]]'
 - '[[dk-content-muscle-memory-vs-knowledge]]'
+- '[[dk-content-implicit-value-without-price]]'
 pipeline:
 - confidence-draft
 ---

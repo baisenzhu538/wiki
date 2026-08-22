@@ -34,6 +34,9 @@ related:
 - '[[dk-jh-llm-time-blindness]]'
 - '[[case-opc-128-directions]]'
 - '[[concept-session-vs-memory-vs-document]]'
+- '[[dk-ban-fei-mao-silky-answer-warning]]'
+- '[[dk-ban-fei-mao-silky-answers-are-dangerous]]'
+- '[[dk-ban-fei-mao-skill-rejection-value]]'
 tags:
 - audience:executor
 - scene:reference

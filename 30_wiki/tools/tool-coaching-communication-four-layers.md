@@ -34,6 +34,7 @@ related:
   - framework-leadership-five-ladders
   - tool-coaching-communication-segments
   - '[[case-coaching-dialogue-three-versions]]'
+  - '[[dk-coaching-boundary-conditions]]'
 tags:
 - audience:executor
 - scene:execution

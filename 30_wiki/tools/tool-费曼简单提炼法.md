@@ -27,6 +27,7 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[tool-费曼学习法三句话提炼]]'
+- '[[yt-tool-mental-model-refinement]]'
 definition_of_done:
 - src_unknown
 - src_unknown

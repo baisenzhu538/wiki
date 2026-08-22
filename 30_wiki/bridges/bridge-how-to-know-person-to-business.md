@@ -39,6 +39,7 @@ related:
 - '[[case-opc-128-directions]]'
 - '[[case-shuishui-business-insight]]'
 - '[[concept-ai-style-knowledge-docs]]'
+- '[[dk-agreeableness-double-edged]]'
 tags:
 - method:cross-domain
 - method:business-strategy

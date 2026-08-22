@@ -36,6 +36,7 @@ related:
 - 'tool-月白-AI对话情绪管理法'
 - 'dk-three-context-formula'
 - '[[yitang-methodology-system]]'
+- '[[yt-tool-best-practice-learning]]'
 tags:
 ---
 # 技能：用一堂方法论找最佳实践并拉满执行

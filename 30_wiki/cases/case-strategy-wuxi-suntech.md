@@ -29,6 +29,7 @@ discoverable_by:
 related:
 - strategy-domain-digest
 - ai数据理解第一课
+- '[[dk-c8-format-complete-mind-empty]]'
 tags:
 - audience:general
 - scene:reference

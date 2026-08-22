@@ -46,6 +46,7 @@ related:
 - tool-遵循规模前倾原则设计组织架构
 - tool-使用优先级快筛卡锁定核心矛盾
 - tool-设计对抗效果追踪看板
+- '[[yt-product-kernel-key-conversion]]'
 tags:
 - audience:manager
 - scene:execution

@@ -34,6 +34,7 @@ related:
 - '[[case-strategy-li-ka-shing]]'
 - '[[tool-三层目标对齐法]]'
 - '[[case-strategy-lekai-film]]'
+- '[[学会提问在信息洪流中锻造批判性思维的利刃]]'
 tags:
 - audience:general
 - scene:reference

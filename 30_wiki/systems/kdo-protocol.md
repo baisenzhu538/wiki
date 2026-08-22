@@ -18,6 +18,7 @@ related:
 - '[[business-research-skill-oscar-13-weapon-system]]'
 - '[[case-toc-content-platform-correlation-trap]]'
 - '[[kdo-yaml-frontmatter-safety]]'
+- '[[dk-c3-txt-ingest-skip]]'
 tags:
 - audience:manager
 - scene:reference

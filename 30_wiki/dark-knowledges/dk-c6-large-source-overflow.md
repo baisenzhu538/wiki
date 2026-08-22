@@ -31,6 +31,7 @@ related:
 - '[[session-20260619-xingangwan-business-formula-reconstruction]]'
 - '[[dk-p6-session-resume-fail]]'
 - '[[pending_unknown]]'
+- '[[dk-c11-hongqigong-skip-review]]'
 pipeline:
 - src_unknown
 - src_unknown

@@ -26,6 +26,8 @@ related:
 - '[[plan_20260503_f3e9a2b1-improvement-plan]]'
 - knowledge-delivery-os-快速体验指南-飞书云文档
 - '[[kdo-yaml-frontmatter-safety]]'
+- '[[dk-c3-txt-ingest-skip]]'
+- '[[dk-c6-large-source-overflow]]'
 tags:
 - audience:general
 - scene:reference

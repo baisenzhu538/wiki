@@ -36,6 +36,8 @@ related:
 - '[[case-design-principles-90]]'
 - '[[concept-research-saturation-coverage]]'
 - '[[concept-session-vs-memory-vs-document]]'
+- '[[dk-ai-as-last-step-not-first]]'
+- '[[dk-customers-hate-ai]]'
 tags:
 - audience:executor
 - scene:reference

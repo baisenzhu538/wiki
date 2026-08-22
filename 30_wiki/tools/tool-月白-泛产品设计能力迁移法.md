@@ -35,6 +35,7 @@ related:
 - 'tool-月白-AI对话情绪管理法'
 - 'dk-three-context-formula'
 - '[[product-business-strategy]]'
+- '[[yt-note-problem-solving-capability]]'
 tags:
 ---
 # 技能：泛产品设计能力迁移法

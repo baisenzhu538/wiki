@@ -31,6 +31,8 @@ related:
 - '[[yt-demand-analysis-hiking-map]]'
 - yt-system-course-map-lecture
 - yt-entrepreneur-needs-analysis
+- '[[yt-skill-checklist-as-ai-protocol]]'
+- '[[视觉prompt三层操作系统-srom-visual-os]]'
 tags:
 - audience:executor
 - scene:reference

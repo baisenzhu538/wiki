@@ -35,6 +35,7 @@ related:
   - framework-how-to-know-a-person
   - '[[case-leadership-communication-failures]]'
   - '[[case-morfei-semiconductor]]'
+  - '[[dk-coaching-monkey-theory]]'
 tags:
 - audience:executor
 - scene:execution

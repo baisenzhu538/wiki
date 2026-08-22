@@ -33,6 +33,7 @@ related:
 - '[[ai-collaboration-domain-digest]]'
 - '[[industrial-ai-ops-cases]]'
 - '[[anthropic-官方发布创始人手册打造-ai-原生初创公司]]'
+- '[[yt-prompt-engineering-andrew-ng]]'
 tags:
 - audience:executor
 - scene:reference

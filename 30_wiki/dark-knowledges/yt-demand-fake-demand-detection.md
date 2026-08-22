@@ -34,6 +34,7 @@ related:
 - '[[yt-demand-jtbd-application]]'
 - '[[yt-demand-market-size-pitfalls]]'
 - '[[yt-five-step-method]]'
+- '[[dk-ban-fei-mao-real-business-is-the-engine]]'
 diagnostic_signals:
 - signal: src_unknown
   framework_lens: 伪需求信号1——兴趣≠需求

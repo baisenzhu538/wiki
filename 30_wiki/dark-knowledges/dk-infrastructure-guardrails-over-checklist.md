@@ -31,6 +31,8 @@ related:
 - '[[tool-月白-工厂对接信息清单制作]]'
 - '[[轻量级诊所HIS调研全清单]]'
 - '[[tool-清单小抄工具箱法]]'
+- '[[dk-c10-batch-tool-no-dry-run]]'
+- '[[dk-c8-format-complete-mind-empty]]'
 bridges_to: null
 author: 老顽童
 reviewed_by: 欧阳锋

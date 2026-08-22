@@ -30,6 +30,7 @@ related:
 - '[[tool-Truman-语义对齐沟通法]]'
 - '[[tool-Truman-问题定义澄清法]]'
 - '[[tool-Truman-职场异步协作提问法]]'
+- '[[yt-tool-fab-persuasion]]'
 tags:
 - audience:executor
 - scene:execution

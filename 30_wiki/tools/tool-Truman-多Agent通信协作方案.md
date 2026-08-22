@@ -33,6 +33,7 @@ related:
 - '[[tool-纪浩-Agent开工检查单制作法]]'
 - tool-纪浩-项目启动五问法
 - tool-ai-ai-workspace-setup
+- '[[yt-product-kernel-definition]]'
 tags:
 - audience:executor
 - scene:execution

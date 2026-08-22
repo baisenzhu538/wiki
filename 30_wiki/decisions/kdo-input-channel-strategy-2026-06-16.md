@@ -23,6 +23,7 @@ related:
 - '[[kdo-yaml-frontmatter-safety]]'
 - '[[kdo_product_design_agent_final]]'
 - '[[voice-input-doubao]]'
+- '[[dk-c3-txt-ingest-skip]]'
 ---
 # KDO 输入渠道策略：飞书、微信、听脑如何接入
 

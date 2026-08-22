@@ -53,6 +53,7 @@ related:
 - '[[yitang-methodology-system]]'
 - '[[yt-entrepreneur-scientific-method]]'
 - '[[yt-entrepreneur-truth-seeking]]'
+- '[[yt-model-liberate-thinking-layers]]'
 created_at: 2026-07-03
 updated_at: '2026-07-03'
 tags:

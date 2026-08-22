@@ -30,6 +30,7 @@ related:
 - '[[concept-半肥猫-ai-learning-toolification-methodology]]'
 - '[[kdo-yaml-frontmatter-safety]]'
 - '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
+- '[[dk-c3-txt-ingest-skip]]'
 domain:
 - ai-collaboration
 - yitang

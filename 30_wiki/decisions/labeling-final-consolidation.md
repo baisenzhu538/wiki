@@ -21,6 +21,7 @@ related:
 - '[[kdo-15-dimension-label-spec]]'
 - '[[labeling-research-alignment]]'
 - '[[ouyangfeng-labeling-research-review]]'
+- '[[数据标注维度最佳实践调研报告]]'
 author: unknown
 source_context: KDO internal decision record （原 legacy，已从 title/context/filename 推断为
   src_20260503_52ae08ba）

@@ -32,6 +32,7 @@ related:
 - '[[tool-李诞-面对过去错误的平静心法]]'
 - '[[concept-wanghuan-tacit-knowledge-examples]]'
 - '[[yt-business-model-definition]]'
+- '[[yt-product-kernel-definition]]'
 tags:
 - audience:executor
 - scene:execution

@@ -40,6 +40,7 @@ related:
 - 'case-openclaw-selfbuilt-agent-platform'
 - 'tool-local-search-repo-datasource-engineering'
 - 'tool-platform-requirement-eight-sections'
+- '[[dk-best-datasource-is-floor]]'
 ---
 # 靠提醒=规则没变成系统能力：规范必须封装成 Skill/MCP 才生效
 

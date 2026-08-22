@@ -19,6 +19,8 @@ related:
 - '[[kdo-ec-industrialization-migration-proposal]]'
 - '[[plan_20260503_f3e9a2b1-improvement-plan]]'
 - '[[dk-f1-regex-on-cjk]]'
+- '[[dk-c1-cjk-regex-silent-fail]]'
+- '[[dk-c4-selfcheck-superseded]]'
 tags:
 - audience:manager
 - scene:reference

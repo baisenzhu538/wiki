@@ -38,6 +38,7 @@ related:
 - '[[tool-anti-ai-bs-three-moves]]'
 - '[[framework-multi-agent-collab-chain-six]]'
 - 'tool-platform-requirement-eight-sections'
+- '[[dk-ai-efficiency-and-management-radius]]'
 ---
 # AI 适配化工作流设计：四员分工+占位符防魔改+规则文件前置（十指讲香）
 

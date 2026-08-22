@@ -29,6 +29,7 @@ related:
 - dk-process-is-scar-tissue
 - framework-yitang-shishi-qiushi
 - concept-yihang-dual-triangle-core
+- '[[dk-ai-video-common-pitfalls]]'
 created_at: 2026-07-20
 updated_at: '2026-07-20'
 diagnostic_signals:

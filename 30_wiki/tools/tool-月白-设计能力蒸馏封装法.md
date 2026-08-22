@@ -37,6 +37,7 @@ related:
 - '[[case-truman-motivation-map-12-versions]]'
 - '[[case-纪浩-focus-prompt-design]]'
 - '[[yt-growth-user-onboarding]]'
+- '[[yt-note-problem-solving-capability]]'
 tags:
 ---
 # 技能：设计能力蒸馏封装法

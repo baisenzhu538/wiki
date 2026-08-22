@@ -34,6 +34,7 @@ related:
 - 'tool-月白-AI图片风格逆向提取（抄图法）'
 - 'tool-月白-RGB转CMYK色彩校准法'
 - 'dk-aesthetic-redline-doc'
+- '[[yt-note-problem-solving-capability]]'
 tags:
 ---
 # 技能：光影灰度控制能力构建

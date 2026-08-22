@@ -24,6 +24,7 @@ related:
 - agent-native-card-design
 - '[[concept-wanghuan-flywheel-first-loop]]'
 - '[[sprint-2-门禁举证验收]]'
+- '[[dk-c1-cjk-regex-silent-fail]]'
 id: sprint-6-cli-gap-proposal
 reviewed_by: pending
 confidence: 0.6

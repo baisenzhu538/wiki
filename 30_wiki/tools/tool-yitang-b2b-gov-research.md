@@ -53,6 +53,8 @@ related:
 - '[[tool-yitang-tech-project-research]]'
 - framework-yitang-six-layer-cross-validation
 - concept-yitang-research-objective
+- '[[yt-tob-cash-flow]]'
+- '[[yt-tob-revenue-is-customer-cost]]'
 tags:
 - audience:executor
 - scene:execution

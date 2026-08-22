@@ -70,6 +70,7 @@ related:
 - '[[concept-yitang-research-scope]]'
 - '[[kimi-深度调研集群方法论-deep-research-swarm]]'
 - '[[yitang-course-map]]'
+- '[[yt-research-action-camp-launch]]'
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 tags:

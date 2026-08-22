@@ -37,6 +37,7 @@ related:
 - case-live258-zhihu-content-acquisition
 - case-live258-livestream-prompt-v1-v5
 - case-live258-europe-cold-email
+- '[[dk-customers-hate-ai]]'
 tags:
 - method:feature-thinking
 - method:fact-control

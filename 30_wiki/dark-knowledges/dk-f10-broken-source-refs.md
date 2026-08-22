@@ -40,6 +40,7 @@ related:
 - '[[tool-doris-industry-report-source-evaluation]]'
 - '[[kdo_product_design_agent_final]]'
 - '[[proposal-kdo-flywheel-infrastructure]]'
+- '[[dk-c2-dual-status-machine]]'
 pipeline:
 - src_unknown
 - src_unknown

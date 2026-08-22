@@ -33,6 +33,7 @@ related:
 - '[[case-strategy-failure-05-it]]'
 - '[[case-strategy-failure-06-phone-n]]'
 - '[[case-truman-ai-skill-self-packaging]]'
+- '[[街顺app全面调研报告]]'
 ---
 **表面问题**：空调之外的新品类全部失败。
 

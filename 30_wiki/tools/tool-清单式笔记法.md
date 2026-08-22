@@ -40,6 +40,8 @@ related:
 - '[[tool-专家访谈十步法]]'
 - '[[tool-asset-file-naming-convention]]'
 - '[[tool-checklist-cheatsheet-modeling]]'
+- '[[yt-note-expert-interview-modeling]]'
+- '[[yt-note-extensive-research-input]]'
 tags:
 - audience:executor
 - scene:execution

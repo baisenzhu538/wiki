@@ -33,6 +33,7 @@ related:
 - '[[tool-Truman-信息输入持续补全（防AI错误累积）]]'
 - case-truman-personal-growth-map-creation
 - case-course-milestone-model
+- '[[yt-panproduct-demand-motivation-resistance]]'
 created_at: '2026-06-09'
 author: 老顽童
 reviewed_by: 王语嫣

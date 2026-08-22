@@ -33,6 +33,7 @@ related:
 - concept-发现决策
 - '[[case-demand-pharma-bigdata]]'
 - '[[case-guang-leng-dian-zi-hx-smj]]'
+- '[[yt-product-kernel-definition]]'
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 tags:

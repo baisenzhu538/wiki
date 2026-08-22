@@ -37,6 +37,7 @@ related:
 - '[[dk-ai-self-evolution-prompt]]'
 - '[[dk-decision-value-overrides-roi]]'
 - 'case-openclaw-selfbuilt-agent-platform'
+- '[[dk-ai-efficiency-and-management-radius]]'
 ---
 # 项目经理 Agent 失败：Agent 能直接沟通时，传话层是负资产（不懂我+转述损耗）
 

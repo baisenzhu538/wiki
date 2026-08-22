@@ -47,6 +47,7 @@ related:
 - '[[yt-growth-market-led-growth]]'
 - '[[yt-growth-product-led-growth]]'
 - '[[yt-growth-sales-led-growth]]'
+- '[[yt-note-problem-solving-capability]]'
 tags:
 - audience:executor
 - scene:execution

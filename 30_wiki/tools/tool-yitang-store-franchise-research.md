@@ -49,6 +49,8 @@ related:
 - concept-yitang-research-objective
 - '[[HIS系统开发实现方案-架构师指南]]'
 - '[[HIS系统深度调研]]'
+- '[[开源HIS系统代码深度分析报告]]'
+- '[[轻量级诊所HIS调研全清单]]'
 tags:
 - audience:executor
 - scene:execution

@@ -49,6 +49,7 @@ related:
 - '[[dk-tool-as-phased-validator]]'
 - '[[ai-collaboration-domain-digest]]'
 - '[[yitang-domain-digest]]'
+- '[[dk-ban-fei-mao-skill-rejection-value]]'
 tags:
 - audience:executor
 - scene:reference

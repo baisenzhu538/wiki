@@ -27,6 +27,7 @@ related:
   - framework-一堂-关键假设
   - dk-demand-feature-stacking
   - dk-key-hypothesis-still-hope
+  - '[[dk-ai-does-not-question-your-mistake]]'
 tags:
   - method:learning
   - scene:ai-learning

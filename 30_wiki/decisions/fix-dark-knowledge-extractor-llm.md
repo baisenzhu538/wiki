@@ -17,6 +17,7 @@ related:
 - '[[data-labeling-best-practices-report]]'
 - '[[plan_20260531_data-curator-v1.3]]'
 - '[[knowledge-delivery-os-快速体验指南-飞书云文档]]'
+- '[[yt-research-action-camp-launch]]'
 author: unknown
 source_context: KDO internal record （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 source_refs:

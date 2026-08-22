@@ -34,6 +34,9 @@ related:
 - '[[dk-tool-as-phased-validator]]'
 - '[[ai-collaboration-domain-digest]]'
 - '[[yitang-domain-digest]]'
+- '[[dk-ban-fei-mao-atomic-no-standard]]'
+- '[[dk-ban-fei-mao-silky-answer-warning]]'
+- '[[dk-ban-fei-mao-silky-answers-are-dangerous]]'
 author: 半肥猫
 reviewed_by: 欧阳锋
 confidence: 0.88

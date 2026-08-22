@@ -47,6 +47,7 @@ related:
 - '[[case-kdo-agent-factory-dual-triangle-practice]]'
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[concept-yihang-human-in-the-loop-dual-triangle]]'
+- '[[dk-agent-promise-verification]]'
 created_at: 2026-07-03
 updated_at: '2026-07-08'
 tags:

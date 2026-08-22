@@ -39,6 +39,8 @@ related:
 - '[[case-cross-xingangwan-pharma]]'
 - '[[dk-project-manager-agent-failure]]'
 - '[[bridge-how-to-know-person-to-business]]'
+- '[[dk-ai-self-evolution-prompt]]'
+- '[[dk-collection-vs-assets]]'
 review_date: 2026-08-16
 ---
 # 四棒接力"每次交接只说一句话"：无文档交接、无提示词传递

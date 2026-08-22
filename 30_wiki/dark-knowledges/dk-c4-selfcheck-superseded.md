@@ -29,6 +29,8 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+- '[[dk-c2-dual-status-machine]]'
+- '[[dk-c5-todo-false-positive]]'
 pipeline:
 - src_unknown
 - src_unknown

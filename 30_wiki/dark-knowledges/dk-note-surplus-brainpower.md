@@ -32,6 +32,8 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+- '[[yt-note-l4-internalization]]'
+- '[[yt-note-l6-extraction]]'
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'

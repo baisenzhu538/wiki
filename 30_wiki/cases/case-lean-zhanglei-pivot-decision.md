@@ -39,6 +39,7 @@ related:
 - '[[pending_unknown]]'
 - framework-strategy-lean-validation
 - '[[dk-tool-as-phased-validator]]'
+- '[[dk-ai-entrepreneur-technical-blindspot]]'
 tags:
 - audience:general
 - scene:reference

@@ -65,6 +65,8 @@ related:
 - '[[case-科学决策-ROI案例03]]'
 - '[[case-纪浩-from-zip-to-five-layers]]'
 - '[[design-ai-image-generation]]'
+- '[[yt-skill-checklist-as-ai-protocol]]'
+- '[[视觉prompt三层操作系统-srom-visual-os]]'
 author: 纪浩
 reviewed_by: 老顽童
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。

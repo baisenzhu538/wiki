@@ -42,6 +42,8 @@ related:
 - '[[framework-kdo-self-attack]]'
 - '[[dk-modeling-timely-review-session-window]]'
 - '[[framework-yitang-deliberate-practice-1plus4]]'
+- '[[dk-c11-hongqigong-skip-review]]'
+- '[[dk-c6-large-source-overflow]]'
 pipeline:
 - src_unknown
 - src_unknown
