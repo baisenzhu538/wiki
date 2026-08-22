@@ -1,8 +1,8 @@
 ---
 id: 189
-assignee: laowantong
-status: queued
-updated_at: '2026-08-22T23:45:00+08:00'
+assignee: hermes
+status: in_progress
+updated_at: '2026-08-22T15:59:09.376515+00:00'
 ---
 # #189 利润为王域卡片化：利润优先经营框架与定价方法论（最小任务单）
 
