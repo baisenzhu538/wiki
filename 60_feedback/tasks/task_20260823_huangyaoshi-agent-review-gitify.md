@@ -1,8 +1,8 @@
 ---
 id: 430
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-22T16:16:34.187825+00:00'
+status: pending_review
+updated_at: '2026-08-22T16:17:33.727349+00:00'
 ---
 # #430 agent复盘 目录 git 化 / E040 适用范围裁定（F-036 提升）
 
