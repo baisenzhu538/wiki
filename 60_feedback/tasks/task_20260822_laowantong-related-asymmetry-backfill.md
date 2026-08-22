@@ -781,3 +781,24 @@ batch_reviewed_4th: PASS A（2026-08-22 欧阳锋，dk-p11 TODO 闭环 + 复扫 
 **A 级理由**：纯增 0 删 + 复扫真实 + dk 结构附修有实质内容 + path-scoped 延续。**累计 20 批 5000 条里程碑**。
 
 **批次验收流程**：未走 queue_transition review；已划段行 + 恢复 queued（第二十一批基线 = 2764）。
+
+
+---
+
+## 执行报告 · 第二十一批（2026-08-22 老顽童）
+
+**范围**：250 条（151 张卡：dk/decisions/tools）
+
+| 项 | 值 |
+|:--|:--|
+| 基线 | 2764（第二十批后） |
+| 上批 TODO | 无新增（第二十批 PASS A） |
+| 目标卡数 | 151（dk + decisions 决策记录 + tools 等） |
+| 附修（格式类） | dk-modeling-ai-compound-leverage 补 ## Critique 节（dk 七段结构，#217 R2 顺手合规） |
+| 新增链数 | 250（1 already） |
+| 验证 | parse_frontmatter 151/151 OK；行号污染 0；主题相关性抽查 5/5；git diff 只增 related |
+| 复扫输出 | 2764 → 2515（-249）✅ |
+| pre-submit | 抽查 dk-modeling-ai-compound-leverage PASS（index --incremental 刷新后） |
+| commit | 81d57f235（150 files +255，path-scoped 无混入） |
+
+**累计进度**：21 批 5250 条 / 复扫 7472 → 2515（原口径 -4957）
