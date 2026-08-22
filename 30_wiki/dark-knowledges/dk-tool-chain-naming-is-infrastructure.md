@@ -28,6 +28,8 @@ related:
 - '[[pending_unknown]]'
 - '[[concept-kdo-feature-registry]]'
 - '[[proposal-yaml-frontmatter-standardization]]'
+- '[[kdo-moc]]'
+- '[[master-moc]]'
 bridges_to:
 - src_unknown
 - src_unknown

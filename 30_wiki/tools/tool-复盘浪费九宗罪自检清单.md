@@ -32,6 +32,7 @@ related:
   - yt-model-deep-review-iceberg
   - dk-借假修真与黑盒白盒
   - tool-meeting-basic-principles
+  - '[[retrospective-moc]]'
 tags:
   - method:review
   - method:self-diagnosis

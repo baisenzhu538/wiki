@@ -30,6 +30,7 @@ related:
   
   
   - '[[concept-yitang-research-objective]]'
+  - '[[framework-yitang-six-layer-cross-validation]]'
 tags:
 - audience:executor
 - scene:diagnosis

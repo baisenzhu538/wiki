@@ -43,6 +43,7 @@ related:
 - framework-wanghuan-ai-five-level-ladder
 - framework-yitang-18-strategy-cards
 - '[[dk-modeling-checklist-formatting-rules]]'
+- '[[framework-yitang-six-layer-cross-validation]]'
 tags:
 - audience:executor
 - scene:execution

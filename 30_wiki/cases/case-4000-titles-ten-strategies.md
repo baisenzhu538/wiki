@@ -42,6 +42,7 @@ related:
 - '[[dk-extract-then-merge]]'
 - '[[dk-research-ranklist-replaces-model]]'
 - '[[dk-research-total-anchor-private-library]]'
+- '[[framework-knowledge-compound-rocket-six]]'
 tags:
 - audience:manager
 - audience:executor

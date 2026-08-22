@@ -33,6 +33,7 @@ related:
 - '[[case-milktea-five-step]]'
 - '[[concept-一堂-hypothesis-driven-business-methodology]]'
 - '[[concept-一堂-kernel-validation]]'
+- '[[concept-mckinsey-hypothesis-driven]]'
 wiki_refs:
 - src_unknown
 - src_unknown

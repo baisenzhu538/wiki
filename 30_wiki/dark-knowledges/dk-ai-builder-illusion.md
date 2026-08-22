@@ -68,6 +68,12 @@ related:
 - '[[dk-research-important-things-must-do]]'
 - '[[dk-research-saturation-quota-ai-km]]'
 - '[[dk-tool-adoption-by-force]]'
+- '[[framework-baozhashidiaochan-five-step]]'
+- '[[framework-lemon-market-new-brand-trust]]'
+- '[[framework-patrolkit-radar]]'
+- '[[framework-r-type-research-partner-five-state]]'
+- '[[framework-truman-agent-team-architecture]]'
+- '[[framework-yitang-y-model-dual-triangle-synergy]]'
 ---
 # Builder 幻觉：用 AI 做出东西 ≠ 完成从 0 到 1
 

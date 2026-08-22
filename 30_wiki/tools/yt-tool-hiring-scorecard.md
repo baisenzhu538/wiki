@@ -28,6 +28,7 @@ related:
 - '[[yt-management-toolkit-overview]]'
 - '[[yt-management-company-culture]]'
 - '[[case-apple-card-gender-bias]]'
+- '[[concept-mckinsey-7s]]'
 contradicts: null
 query_triggers:
 - src_unknown

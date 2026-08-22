@@ -42,6 +42,7 @@ related:
 - bridge-how-to-know-person-to-business
 - case-cross-xingangwan-pharma
 - '[[dk-research-saturation-self-proof]]'
+- '[[framework-ai-report-value-ladder-l1-l6]]'
 tags:
 - audience:executor
 - audience:manager

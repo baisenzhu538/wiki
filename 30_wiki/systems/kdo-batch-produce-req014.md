@@ -40,6 +40,7 @@ related:
 - '[[dk-f7-surface-translation]]'
 - '[[dk-f8-phony-wikilink]]'
 - '[[dk-f9-generic-critique]]'
+- '[[business-formula-to-kdo-card-quality]]'
 tags:
 - audience:general
 - scene:reference

@@ -23,6 +23,7 @@ related:
 - '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
 - '[[tool-mckinsey-hypothesis-driven-workflow]]'
 - '[[tool-一堂-关键假设-ABCD场景分类器]]'
+- '[[concept-mckinsey-hypothesis-driven]]'
 aliases:
   - 假设验证三板斧
   - 技能

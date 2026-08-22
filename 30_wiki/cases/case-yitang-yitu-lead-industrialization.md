@@ -49,6 +49,7 @@ related:
 - '[[tool-agent-spec-yitang-lead-funnel-health]]'
 - '[[yt-tob-cash-flow]]'
 - '[[yt-tob-revenue-is-customer-cost]]'
+- '[[framework-yitang-sales-target-tradeoffs]]'
 review_date: '2026-06-28'
 tags:
 - audience:general

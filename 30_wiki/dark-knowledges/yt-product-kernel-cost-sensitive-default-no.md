@@ -36,6 +36,7 @@ related:
   - "[[yt-product-kernel-do-without-belief]]"
   - "[[yt-product-kernel-failure-modes]]"
   - "[[yt-product-kernel-premature-optimization]]"
+  - '[[product-moc]]'
 diagnostic_signals:
 tags:
 - audience:executor

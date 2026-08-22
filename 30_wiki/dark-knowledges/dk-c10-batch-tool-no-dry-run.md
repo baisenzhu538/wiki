@@ -31,6 +31,7 @@ related:
 - '[[master-decision-hygiene]]'
 - '[[dk-c11-hongqigong-skip-review]]'
 - '[[dk-c2-dual-status-machine]]'
+- '[[master-moc]]'
 pipeline:
 - src_unknown
 - src_unknown

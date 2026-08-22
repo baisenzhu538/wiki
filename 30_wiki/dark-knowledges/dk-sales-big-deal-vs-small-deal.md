@@ -34,6 +34,7 @@ related:
 - '[[framework-ai-sales-collaboration]]'
 - '[[tool-yitang-sales-process-decomposition]]'
 - '[[dk-wanghuan-paced-sales-decision]]'
+- '[[sales-domain-digest]]'
 tags:
 - audience:manager
 - scene:diagnosis

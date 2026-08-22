@@ -35,6 +35,7 @@ related:
 - '[[ai-short-drama-conflict-three-axes]]'
 - '[[ai-short-drama-ice-fire-scripting-compass]]'
 - '[[proposal-prompt-injection-infrastructure]]'
+- '[[ai-short-drama-ice-fire-dissection-compass]]'
 tags:
 - audience:executor
 - scene:execution

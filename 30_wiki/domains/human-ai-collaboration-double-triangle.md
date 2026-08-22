@@ -41,6 +41,7 @@ related:
 - '[[tool-opc-sales-dialogue-assistant]]'
 - '[[case-bmw-human-ai-collaboration-idle-time]]'
 - '[[case-opc-agent-wave1-real-model-testing]]'
+- '[[sales-domain-digest]]'
 tags:
 - audience:manager
 - scene:reference

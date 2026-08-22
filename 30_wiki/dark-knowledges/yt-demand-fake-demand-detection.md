@@ -53,6 +53,7 @@ related:
 - '[[yt-demand-scope-creep]]'
 - '[[yt-product-kernel-do-without-belief]]'
 - '[[yt-product-kernel-failure-modes]]'
+- '[[domain-demand-analysis-index]]'
 diagnostic_signals:
 - signal: src_unknown
   framework_lens: 伪需求信号1——兴趣≠需求

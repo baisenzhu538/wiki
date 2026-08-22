@@ -31,6 +31,7 @@ related:
 - '[[framework-yitang-scientific-sales-five-step]]'
 - '[[framework-一堂五步法]]'
 - '[[tool-agent-spec-yitang-ability-migration-diagnosis]]'
+- '[[five-step-domain-digest]]'
 created_at: 2026-07-08
 updated_at: '2026-07-14'
 tcp_role: C

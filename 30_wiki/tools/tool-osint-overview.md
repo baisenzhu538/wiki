@@ -35,6 +35,7 @@ related:
 - '[[pending_unknown]]'
 - tool-yitang-research-exhaust-means
 - framework-doris-industry-report-4step
+- '[[framework-yitang-research-weapon-supplement-2026]]'
 updated_at: '2026-06-29'
 tags:
 - audience:executor

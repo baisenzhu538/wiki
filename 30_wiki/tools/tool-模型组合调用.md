@@ -43,6 +43,8 @@ related:
 - tool-ai-prd-for-ai
 - '[[concept-thousand-people-square]]'
 - '[[yt-model-agent-architecture]]'
+- '[[framework-TCPR底层网络协议]]'
+- '[[model-quality-four-levels]]'
 tags:
 - audience:executor
 - scene:execution

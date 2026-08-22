@@ -40,6 +40,7 @@ related:
 - '[[case-smart-medicine-cabinet-failure-patterns-library]]'
 - '[[case-truman-ai-skill-engineering-guide]]'
 - '[[case-truman-motivation-map-12-versions]]'
+- '[[model-quality-four-levels]]'
 tags:
 - src_unknown
 - src_unknown

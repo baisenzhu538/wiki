@@ -32,6 +32,8 @@ related:
 - '[[dk-单元模型-找全成本实操难点]]'
 - '[[dk-单元模型-找基准值实操难点]]'
 - '[[dk-单元模型-规模对抗实操难点]]'
+- '[[framework-TCPR底层网络协议]]'
+- '[[model-quality-four-levels]]'
 review_date: '2026-06-29'
 quality_labels:
 - validated

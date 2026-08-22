@@ -36,6 +36,8 @@ related:
 - '[[dk-f7-surface-translation]]'
 - '[[dk-c8-format-complete-mind-empty]]'
 - '[[kdo-priority-checklist]]'
+- '[[kdo-moc]]'
+- '[[master-moc]]'
 tags:
 - src_unknown
 - src_unknown

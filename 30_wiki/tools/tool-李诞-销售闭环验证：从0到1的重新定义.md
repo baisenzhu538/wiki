@@ -33,6 +33,7 @@ related:
 - '[[concept-wanghuan-tacit-knowledge-examples]]'
 - '[[yt-business-model-definition]]'
 - '[[yt-product-kernel-definition]]'
+- '[[modeling-personal-practice-loop]]'
 tags:
 - audience:executor
 - scene:execution

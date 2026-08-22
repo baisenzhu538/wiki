@@ -33,6 +33,7 @@ related:
 - '[[yt-demand-hierarchy-model]]'
 - '[[yt-demand-fake-demand-detection]]'
 - '[[yt-five-step-method]]'
+- '[[domain-demand-analysis-index]]'
 diagnostic_signals:
 - signal: src_unknown
   framework_lens: 需求替代陷阱——竞争是所有完成同一任务的方案

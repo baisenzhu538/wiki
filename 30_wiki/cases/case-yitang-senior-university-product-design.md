@@ -33,6 +33,7 @@ related:
 - concept-yitang-research-objective
 - case-opc-agent-wave1-real-model-testing
 - '[[design-ai-image-generation]]'
+- '[[framework-yitang-six-layer-cross-validation]]'
 updated_at: '2026-06-29'
 tags:
 - audience:general

@@ -54,6 +54,7 @@ related:
 - '[[yt-entrepreneur-scientific-method]]'
 - '[[yt-entrepreneur-truth-seeking]]'
 - '[[yt-model-liberate-thinking-layers]]'
+- '[[framework-yitang-y-model-cross-domain-fusion]]'
 created_at: 2026-07-03
 updated_at: '2026-07-03'
 tags:

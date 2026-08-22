@@ -39,6 +39,7 @@ related:
 - '[[tool-demand-agent-l4-case-match]]'
 - '[[concept-christensen-jtbd-link]]'
 - '[[dk-christensen-empirical-criticisms]]'
+- '[[domain-demand-analysis-index]]'
 updated_at: '2026-06-29'
 tags:
 - audience:general

@@ -33,6 +33,7 @@ related:
 - '[[tool-agent-spec-yitang-aesthetic-radar-modeling]]'
 - '[[tool-agent-spec-yitang-card-dealing-guide]]'
 - '[[tool-agent-spec-yitang-scenario-walkthrough]]'
+- '[[five-step-domain-digest]]'
 created_at: 2026-07-08
 updated_at: '2026-07-14'
 tcp_role: P

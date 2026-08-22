@@ -37,6 +37,7 @@ related:
 - '[[yt-demand-analysis-hiking-map]]'
 - '[[yt-market-size-estimation]]'
 - '[[yt-unit-model-three-tools]]'
+- '[[domain-demand-analysis-index]]'
 wiki_refs:
 - src_unknown
 pipeline:

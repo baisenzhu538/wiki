@@ -46,6 +46,11 @@ related:
 - '[[dk-skill-seven-elements-upgrade]]'
 - '[[dk-yihang-ai-false-certainty]]'
 - '[[dk-yihang-technical-domain-aesthetic]]'
+- '[[framework-ai-human-70-30-division]]'
+- '[[framework-ai-report-value-ladder-l1-l6]]'
+- '[[framework-ai-sales-collaboration]]'
+- '[[framework-r-type-research-partner-five-state]]'
+- '[[framework-sales-funnel-full]]'
 tags:
 - audience:executor
 - scene:reference

@@ -43,6 +43,7 @@ related:
   - "[[tool-meeting-result-principles]]"
   - "[[dk-meeting-roi-first]]"
   - '[[case-meeting-roi-awakening]]'
+  - '[[framework-meeting-iceberg-canvas]]'
 tags:
 - audience:executor
 - scene:execution

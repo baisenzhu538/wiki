@@ -33,6 +33,7 @@ related:
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
+  - '[[framework-yitang-six-layer-cross-validation]]'
 tags:
 - audience:executor
 - scene:diagnosis

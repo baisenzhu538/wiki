@@ -30,6 +30,7 @@ related:
 - '[[yt-demand-market-size-pitfalls]]'
 - '[[case-demand-b2c-consumer-insight]]'
 - '[[case-demand-b2b-enterprise-erp]]'
+- '[[domain-demand-analysis-index]]'
 tags:
 - audience:executor
 - scene:reference

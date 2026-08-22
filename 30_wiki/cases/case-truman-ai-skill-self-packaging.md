@@ -40,6 +40,7 @@ related:
 - '[[case-truman-poker-deck-roi]]'
 - case-child-drawing-rhyme
 - case-truman-personal-growth-map-creation
+- '[[ai-methodology-tools]]'
 tags:
 - audience:general
 - scene:reference

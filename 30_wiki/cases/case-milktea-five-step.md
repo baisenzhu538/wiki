@@ -35,6 +35,7 @@ related:
 - '[[case-一堂-无人餐厅-hypothesis-failure]]'
 - '[[yitang-domain-digest]]'
 - '[[yt-entrepreneur-five-step-method]]'
+- '[[product-moc]]'
 wiki_refs:
 - src_unknown
 - src_unknown

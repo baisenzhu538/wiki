@@ -43,6 +43,7 @@ related:
 - '[[tool-费曼学习法三句话提炼]]'
 - tool-复盘推演法
 - '[[case-strategy-model-selection-quiz]]'
+- '[[retrospective-moc]]'
 tags:
 - audience:executor
 - scene:execution

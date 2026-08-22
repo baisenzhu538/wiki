@@ -37,6 +37,7 @@ related:
 - '[[yt-product-kernel-cost-sensitive-default-no]]'
 - '[[yt-product-kernel-failure-modes]]'
 - '[[yt-product-kernel-overpromise-trap]]'
+- '[[product-moc]]'
 diagnostic_signals:
 - signal: src_unknown
   framework_lens: 做而不信——访谈了，但不相信负面结果

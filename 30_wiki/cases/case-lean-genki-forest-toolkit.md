@@ -34,6 +34,7 @@ related:
 - '[[pending_unknown]]'
 - '[[case-dutch-childcare-scandal]]'
 - case-cross-yuanqi-forest
+- '[[product-moc]]'
 tags:
 - audience:general
 - scene:reference

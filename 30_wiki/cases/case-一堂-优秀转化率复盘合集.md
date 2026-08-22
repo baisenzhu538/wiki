@@ -51,6 +51,7 @@ related:
 - '[[framework-一堂-触点本质论]]'
 - '[[case-一堂-邹韵涛-中小企业高级管理辅导班专题培训会]]'
 - '[[conversion-rate-domain-digest]]'
+- '[[retrospective-moc]]'
 quality_labels:
 - cited
 - actionable

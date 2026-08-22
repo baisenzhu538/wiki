@@ -39,6 +39,7 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - tool-yitang-business-registration-check
+- '[[framework-yitang-research-weapon-supplement-2026]]'
 tags:
 - audience:executor
 - scene:execution

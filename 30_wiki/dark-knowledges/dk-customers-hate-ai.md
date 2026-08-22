@@ -33,6 +33,7 @@ related:
 - '[[dk-ai-judgment-human-responsibility]]'
 - '[[framework-yihang-dual-triangle-ai-landing-five-steps]]'
 - '[[dk-ai-does-not-question-your-mistake]]'
+- '[[sales-domain-digest]]'
 tags:
 - audience:manager
 - scene:planning

@@ -32,6 +32,8 @@ related:
 - '[[concept-目标-北极星型vs探索型]]'
 - '[[yt-management-toolkit-overview]]'
 - '[[dk-目标管理四大病]]'
+- '[[concept-mckinsey-7s]]'
+- '[[framework-目标三层拆解]]'
 contradicts: null
 query_triggers:
 - src_unknown

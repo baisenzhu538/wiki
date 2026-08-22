@@ -40,6 +40,7 @@ related:
 - '[[case-truman-prd-checklist-evolution]]'
 - '[[case-truman-sales-report-structure]]'
 - '[[case-yitang-radar-chart-selection]]'
+- '[[model-quality-four-levels]]'
 tags:
 - audience:manager
 - scene:execution

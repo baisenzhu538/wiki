@@ -33,6 +33,7 @@ related:
 - '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
 - '[[concept-一堂-kernel-validation]]'
 - '[[concept-一堂-key-assumptions]]'
+- '[[concept-mckinsey-hypothesis-driven]]'
 wiki_refs:
 - src_unknown
 - src_unknown

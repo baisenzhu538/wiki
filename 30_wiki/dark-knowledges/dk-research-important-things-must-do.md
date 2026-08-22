@@ -42,6 +42,8 @@ related:
 - '[[case-new-year-insight-relay]]'
 - '[[case-vibecoding-one-week-delivery]]'
 - '[[dk-research-saturation-quota-ai-km]]'
+- '[[framework-multi-agent-collab-chain-six]]'
+- '[[framework-serendipity-five-channels]]'
 tags:
 - audience:manager
 - scene:planning

@@ -110,6 +110,8 @@ related:
 - '[[tool-agent-spec-yitang-sales-toolkit-gap]]'
 - '[[tool-agent-spec-yitang-incentive-design]]'
 - '[[tool-agent-spec-yitang-lead-funnel-health]]'
+- '[[sales-domain-digest]]'
+- '[[framework-一堂-关键假设-ABCD模型]]'
 tags:
 - audience:manager
 - scene:reference

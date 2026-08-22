@@ -56,6 +56,8 @@ related:
 - '[[tool-agent-spec-yitang-user-perspective-training]]'
 - '[[case-yitang-sales-transformation-jubensha-saas]]'
 - '[[case-yitang-sales-transformation-meirongyuan]]'
+- '[[sales-domain-digest]]'
+- '[[framework-yitang-sales-target-tradeoffs]]'
 created_at: 2026-07-02
 updated_at: 2026-07-02
 tags:

@@ -30,6 +30,8 @@ related:
   - tool-复盘浪费九宗罪自检清单
   - '[[bridge-dual-track-feature-system]]'
   - '[[case-千惠供应链复盘]]'
+  - '[[framework-truman-feature-layered-system]]'
+  - '[[framework-truman-feature-thinking-core]]'
 tags:
   - method:agent-spec
   - method:coaching

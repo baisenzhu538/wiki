@@ -50,6 +50,7 @@ related:
 - '[[yitang-research-domain-digest]]'
 - '[[ai-collaboration-domain-digest]]'
 - case-decision-ai-assisted-vs-human
+- '[[framework-yitang-research-weapon-supplement-2026]]'
 tags:
 - audience:executor
 - scene:execution

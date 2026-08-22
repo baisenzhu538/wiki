@@ -30,6 +30,7 @@ related:
 - '[[skill-feishu-doc-l3-extraction]]'
 - '[[case-feishu-live259-l3-extraction]]'
 - '[[case-feishu-minutes-extraction-attempt]]'
+- '[[master-moc]]'
 tags:
 - method:debugging
 - scene:infrastructure

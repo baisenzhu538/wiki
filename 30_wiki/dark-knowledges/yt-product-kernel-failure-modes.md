@@ -30,6 +30,7 @@ related:
 - '[[yt-five-step-method]]'
 - '[[yt-product-kernel-cost-sensitive-default-no]]'
 - '[[yt-product-kernel-overpromise-trap]]'
+- '[[product-moc]]'
 diagnostic_signals:
 - signal: src_unknown
   framework_lens: 产品内核失败模式——需求假设错误

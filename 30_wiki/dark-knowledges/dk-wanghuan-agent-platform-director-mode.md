@@ -51,6 +51,7 @@ related:
 - '[[yitang-domain-digest]]'
 - '[[dk-ban-fei-mao-skill-rejection-value]]'
 - '[[dk-wanghuan-magic-defeats-magic]]'
+- '[[human-ai-collaboration-double-triangle]]'
 tags:
 - audience:executor
 - scene:reference

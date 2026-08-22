@@ -39,6 +39,7 @@ related:
 - '[[dk-doc-explosion-slowdown]]'
 - '[[dk-future-backward-knowledge-tree]]'
 - '[[dk-shoulu-yixia-culture]]'
+- '[[framework-ai-deliberate-practice-loop]]'
 ---
 # 收藏不等于资产：收集癖陷阱（收远超消化=白收）
 

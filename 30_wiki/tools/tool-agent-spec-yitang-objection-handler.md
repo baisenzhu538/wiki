@@ -54,6 +54,8 @@ related:
 - '[[framework-一堂-12种阻力总表]]'
 - '[[tool-一堂-阻力消除12策小抄]]'
 - '[[case-opc-agent-wave1-real-model-testing]]'
+- '[[framework-TCPR底层网络协议]]'
+- '[[framework-TCPR皇冠模型]]'
 created_at: 2026-07-02
 updated_at: '2026-06-29'
 tcp_role: C

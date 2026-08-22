@@ -34,6 +34,7 @@ related:
 - web-scraping-三剑客-scrapling-crawl4ai-firecrawl
 - '[[concept-wanghuan-ai-native-definition]]'
 - '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
+- '[[framework-yitang-research-weapon-supplement-2026]]'
 updated_at: '2026-06-29'
 tags:
 - audience:executor

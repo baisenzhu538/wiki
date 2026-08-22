@@ -27,6 +27,8 @@ related:
 - '[[dk-c11-hongqigong-skip-review]]'
 - '[[dk-p16-validate-reads-state-json]]'
 - '[[dk-p8-toolkit-forget]]'
+- '[[kdo-moc]]'
+- '[[master-moc]]'
 bridges_to: null
 author: 老顽童
 reviewed_by: 欧阳锋

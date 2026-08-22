@@ -31,6 +31,7 @@ related:
 - '[[ai-collaboration-domain-digest]]'
 - '[[yitang-domain-digest]]'
 - '[[concept-ji-hao-ai-collaboration-methodology]]'
+- '[[modeling-personal-practice-loop]]'
 created_at: 2026-06-08
 updated_at: 2026-06-28
 pipeline: null

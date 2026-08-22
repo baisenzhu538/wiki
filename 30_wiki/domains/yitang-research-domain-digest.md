@@ -93,6 +93,8 @@ related:
 - '[[dk-yitang-research-source-freshness]]'
 - '[[dk-yitang-research-starter-vs-veteran]]'
 - '[[dk-yitang-survivor-bias-in-research]]'
+- '[[framework-yitang-research-radar]]'
+- '[[framework-yitang-research-weapon-system]]'
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 tags:

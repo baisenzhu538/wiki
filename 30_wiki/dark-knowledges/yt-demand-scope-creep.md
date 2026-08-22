@@ -32,6 +32,7 @@ related:
 - '[[yt-demand-early-validation]]'
 - '[[yt-five-step-method]]'
 - '[[yt-entrepreneur-key-hypotheses]]'
+- '[[domain-demand-analysis-index]]'
 diagnostic_signals:
 - signal: src_unknown
   framework_lens: 需求蔓延——MVP不够M，在伪需求上堆叠功能

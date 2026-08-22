@@ -37,6 +37,7 @@ related:
 - '[[case-科学决策-ROI案例03]]'
 - '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
 - '[[plan_20260531_data-curator-v1.3]]'
+- '[[ai-methodology-tools]]'
 tags:
 - src_unknown
 - src_unknown

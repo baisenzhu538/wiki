@@ -36,6 +36,7 @@ related:
   - "[[yt-product-kernel-failure-modes]]"
   - "[[yt-product-kernel-do-without-belief]]"
   - "[[yt-product-kernel-cost-sensitive-default-no]]"
+  - '[[product-moc]]'
 diagnostic_signals:
 tags:
 - audience:executor

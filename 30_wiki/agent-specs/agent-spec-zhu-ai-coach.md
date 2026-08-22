@@ -26,6 +26,7 @@ related:
 - zhu-project-board
 - user-insight-profile
 - '[[dk-meeting-borrow-false-repair-true]]'
+- '[[framework-truman-agent-team-architecture]]'
 tags:
 - audience:executor
 - scene:execution

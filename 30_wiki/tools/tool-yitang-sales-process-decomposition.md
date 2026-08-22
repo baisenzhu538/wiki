@@ -55,6 +55,8 @@ related:
 - '[[dk-sales-big-deal-vs-small-deal]]'
 - '[[dk-sales-demand-mining-is-company-task]]'
 - '[[dk-yitang-channel-exploration-traps]]'
+- '[[sales-domain-digest]]'
+- '[[framework-sales-funnel-full]]'
 created_at: 2026-07-02
 updated_at: 2026-07-24
 tags:

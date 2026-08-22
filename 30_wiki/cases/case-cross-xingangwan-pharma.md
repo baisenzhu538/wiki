@@ -74,6 +74,14 @@ related:
 - '[[dk-shoulu-yixia-culture]]'
 - '[[dk-three-context-formula]]'
 - '[[dk-tool-adoption-by-force]]'
+- '[[framework-ai-human-70-30-division]]'
+- '[[framework-ai-report-value-ladder-l1-l6]]'
+- '[[framework-dual-center-feishu-obsidian]]'
+- '[[framework-knowledge-five-leaps]]'
+- '[[framework-lemon-market-new-brand-trust]]'
+- '[[framework-patrolkit-radar]]'
+- '[[framework-serendipity-five-channels]]'
+- '[[framework-truman-agent-team-architecture]]'
 tags:
 - audience:general
 - scene:reference

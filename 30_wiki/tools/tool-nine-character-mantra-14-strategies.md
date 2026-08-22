@@ -50,6 +50,13 @@ related:
 - '[[dk-research-classification-mece-table]]'
 - '[[dk-research-sampling-correction-three-rounds]]'
 - '[[dk-research-saturation-self-proof]]'
+- '[[framework-ai-human-70-30-division]]'
+- '[[framework-ai-report-value-ladder-l1-l6]]'
+- '[[framework-multi-agent-collab-chain-six]]'
+- '[[framework-yitang-four-research-types]]'
+- '[[framework-yitang-oscar-research]]'
+- '[[framework-yitang-research-radar]]'
+- '[[framework-yitang-research-weapon-system]]'
 tags:
 - audience:executor
 - scene:execution

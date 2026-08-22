@@ -69,6 +69,9 @@ related:
 - '[[zhu-time-os]]'
 - '[[case-kdo-agent-factory-dual-triangle-practice]]'
 - '[[case-opc-agent-wave1-real-model-testing]]'
+- '[[framework-agent-card-execution-pattern]]'
+- '[[framework-TCPR底层网络协议]]'
+- '[[framework-yitang-sales-incentive-6d]]'
 created_at: 2026-07-02
 updated_at: '2026-07-13'
 os_sources:

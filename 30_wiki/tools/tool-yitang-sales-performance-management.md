@@ -60,6 +60,9 @@ related:
 - '[[tool-agent-spec-yitang-payment-collection-risk]]'
 - '[[tool-agent-spec-yitang-sales-toolkit-gap]]'
 - '[[case-yitang-sales-transformation-jubensha-saas]]'
+- '[[sales-domain-digest]]'
+- '[[framework-sales-funnel-full]]'
+- '[[framework-yitang-sales-target-tradeoffs]]'
 created_at: 2026-07-02
 updated_at: 2026-07-08
 tags:

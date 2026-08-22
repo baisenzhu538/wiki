@@ -40,6 +40,8 @@ related:
 - tool-opc-sales-dialogue-assistant
 - opc-ai-sales-agent-architecture
 - human-ai-collaboration-double-triangle
+- '[[framework-TCPR皇冠模型]]'
+- '[[framework-yitang-y-model-cross-domain-fusion]]'
 created_at: 2026-07-03
 updated_at: '2026-07-03'
 os_sources:

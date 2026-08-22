@@ -60,6 +60,7 @@ related:
 - '[[concept-wanghuan-tacit-knowledge-examples]]'
 - '[[concept-open-a-document]]'
 - '[[dk-wanghuan-agent-platform-director-mode]]'
+- '[[human-ai-collaboration-double-triangle]]'
 tags:
 - audience:executor
 - scene:reference

@@ -36,6 +36,7 @@ related:
 - '[[pending_unknown]]'
 - business-research-skill-oscar-13-weapon-system
 - tool-yitang-app-store-data
+- '[[framework-yitang-research-weapon-supplement-2026]]'
 updated_at: '2026-06-29'
 tags:
 - audience:manager

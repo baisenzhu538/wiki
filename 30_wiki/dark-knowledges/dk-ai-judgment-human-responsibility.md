@@ -45,6 +45,8 @@ related:
 - '[[dk-research-classification-mece-table]]'
 - '[[dk-three-context-formula]]'
 - '[[dk-yi-tang-wishful-thinking-kills-startups]]'
+- '[[framework-ai-human-70-30-division]]'
+- '[[framework-ai-report-value-ladder-l1-l6]]'
 tags:
 - audience:executor
 - scene:reference

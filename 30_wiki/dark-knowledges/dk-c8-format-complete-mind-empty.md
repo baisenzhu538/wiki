@@ -35,6 +35,7 @@ related:
 - '[[dk-E010-duplicate-key-detection]]'
 - '[[dk-feature-registry-count-drift]]'
 - '[[dk-kdo-leaky-pipe-pressure]]'
+- '[[master-moc]]'
 pipeline:
 - src_unknown
 - src_unknown

@@ -34,6 +34,7 @@ related:
 - '[[yt-management-scientific-meetings]]'
 - '[[yt-tool-meeting-designer]]'
 - '[[case-yitang-leo-website-redesign]]'
+- '[[framework-yitang-project-retrospective]]'
 tags:
 - audience:executor
 - scene:execution

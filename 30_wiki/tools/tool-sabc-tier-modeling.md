@@ -38,6 +38,7 @@ related:
 - '[[pending_unknown]]'
 - '[[tool-scenario-selector-modeling]]'
 - '[[yt-foresight-deliverables-four-levels]]'
+- '[[business-formula-to-kdo-card-quality]]'
 tags:
 - src_unknown
 - src_unknown

@@ -53,6 +53,8 @@ related:
 - '[[tool-一堂-FAB说服法]]'
 - '[[case-yitang-ai-painting-commercialization]]'
 - '[[concept-一堂-hypothesis-driven-business-methodology]]'
+- '[[sales-domain-digest]]'
+- '[[framework-yitang-sales-target-tradeoffs]]'
 created_at: 2026-07-02
 updated_at: 2026-07-02
 tags:

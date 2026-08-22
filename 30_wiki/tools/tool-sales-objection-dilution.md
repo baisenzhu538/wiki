@@ -35,6 +35,7 @@ related:
 - '[[dk-customers-hate-ai]]'
 - '[[dk-ai-collaboration-degradation-spiral]]'
 - '[[framework-sales-funnel-full]]'
+- '[[sales-domain-digest]]'
 tags:
 - audience:executor
 - scene:execution

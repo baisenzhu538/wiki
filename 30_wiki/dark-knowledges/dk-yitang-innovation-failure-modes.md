@@ -31,6 +31,7 @@ related:
 - concept-yitang-layered-self-consistency
 - dk-yitang-case-crafting-pitfalls
 - '[[case-yitang-4-leaps-innovation-evolution]]'
+- '[[innovation-domain-digest]]'
 diagnostic_signals:
 - signal: 创新方案执行后效果不如预期
   lens: 检查是否跳过了闪电模型的某个步骤

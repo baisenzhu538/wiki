@@ -46,6 +46,7 @@ related:
 - '[[case-qinpeng-hardware-ai-amplification]]'
 - '[[concept-qinpeng-ai-as-amplifier]]'
 - '[[dk-jiangxiang-boundary-overpromise]]'
+- '[[framework-r-type-research-partner-five-state]]'
 diagnostic_signals:
 - signal: 「打开AI工具就开始生成，生成完凭感觉判断好不好」
   lens: 跳过了前三步——没有用户洞察、没有标准、没有标杆

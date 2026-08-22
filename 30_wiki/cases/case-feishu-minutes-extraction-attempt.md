@@ -30,6 +30,7 @@ related:
 - '[[skill-feishu-doc-l3-extraction]]'
 - '[[case-feishu-live259-l3-extraction]]'
 - '[[dk-mcp-pythonpath-pollution]]'
+- '[[master-moc]]'
 tags:
 - method:browser-automation
 - method:feishu-extraction

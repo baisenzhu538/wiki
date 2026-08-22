@@ -39,6 +39,7 @@ related:
 - '[[tool-agent-spec-yitang-kernel-failure-mode-diagnosis]]'
 - '[[tool-agent-spec-yitang-kernel-iteration-direction]]'
 - '[[tool-agent-spec-yitang-kernel-three-questions]]'
+- '[[five-step-domain-digest]]'
 tags:
 - audience:executor
 - scene:execution

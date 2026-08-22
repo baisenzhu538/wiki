@@ -33,6 +33,7 @@ related:
 - '[[framework-一堂五步法-泛产品设计]]'
 - '[[tool-agent-spec-yitang-scenario-walkthrough]]'
 - '[[tool-yitang-customer-segmentation-4step]]'
+- '[[five-step-domain-digest]]'
 created_at: 2026-07-08
 updated_at: '2026-07-14'
 tcp_role: T

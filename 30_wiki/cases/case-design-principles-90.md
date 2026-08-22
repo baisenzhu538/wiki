@@ -42,6 +42,8 @@ related:
 - bridge-how-to-know-person-to-business
 - case-cross-xingangwan-pharma
 - '[[dk-research-sampling-correction-three-rounds]]'
+- '[[framework-ai-human-70-30-division]]'
+- '[[framework-ai-report-value-ladder-l1-l6]]'
 tags:
 - audience:executor
 - scene:execution

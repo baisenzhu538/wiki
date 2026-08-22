@@ -40,6 +40,7 @@ related:
 - framework-yitang-shishi-qiushi
 - '[[concept-open-a-document]]'
 - '[[concept-research-saturation-coverage]]'
+- '[[framework-baozhashidiaochan-five-step]]'
 quality_labels:
 - cited
 - actionable

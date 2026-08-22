@@ -39,6 +39,7 @@ related:
   - tool-meeting-execution-principles
   - tool-yitang-daily-weekly-meeting-hosting
   - '[[bridge-meeting-leadership-coaching]]'
+  - '[[framework-meeting-iceberg-canvas]]'
 quality_labels: [actionable, quotable, cited, principle]
 tags:
   - audience:general

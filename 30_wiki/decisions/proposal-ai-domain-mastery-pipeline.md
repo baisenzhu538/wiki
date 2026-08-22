@@ -21,6 +21,7 @@ related:
   - "[[kdo-yaml-frontmatter-safety]]"
   - "[[proposal-kdo-flywheel-infrastructure]]"
   - "[[three-party-data-alignment]]"
+  - '[[framework-yitang-research-weapon-supplement-2026]]'
 risk_level: high
 decision_needed: 是否启动此方向？若启动，第一阶段的范围是什么？
 id: proposal-ai-domain-mastery-pipeline

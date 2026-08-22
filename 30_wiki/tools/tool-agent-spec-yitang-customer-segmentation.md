@@ -50,6 +50,8 @@ related:
 - '[[tool-一堂-五种挖触点]]'
 - '[[framework-一堂-12触点SABC分级]]'
 - '[[case-opc-agent-wave1-real-model-testing]]'
+- '[[framework-TCPR底层网络协议]]'
+- '[[framework-TCPR皇冠模型]]'
 created_at: 2026-07-02
 updated_at: '2026-06-29'
 tcp_role: C

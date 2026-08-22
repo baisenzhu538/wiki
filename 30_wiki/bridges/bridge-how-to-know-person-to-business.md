@@ -50,6 +50,14 @@ related:
 - '[[dk-research-scavenger-vs-architect]]'
 - '[[dk-research-total-anchor-private-library]]'
 - '[[dk-tool-adoption-by-force]]'
+- '[[framework-ai-human-70-30-division]]'
+- '[[framework-ai-report-value-ladder-l1-l6]]'
+- '[[framework-big-five-personality]]'
+- '[[framework-dual-center-feishu-obsidian]]'
+- '[[framework-knowledge-compound-rocket-six]]'
+- '[[framework-multi-agent-collab-chain-six]]'
+- '[[framework-patrolkit-radar]]'
+- '[[framework-r-type-research-partner-five-state]]'
 tags:
 - method:cross-domain
 - method:business-strategy

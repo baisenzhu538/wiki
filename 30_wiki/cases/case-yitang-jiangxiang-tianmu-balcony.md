@@ -28,6 +28,7 @@ related:
 - yt-pitch-scenarization
 - yt-pitch-emotionalization
 - yt-pitch-materialization
+- '[[framework-yitang-jiangxiang-strategy-selection]]'
 created_at: 2026-08-02
 updated_at: 2026-08-02
 quality_labels: cited

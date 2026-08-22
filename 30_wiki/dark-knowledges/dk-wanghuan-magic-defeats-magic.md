@@ -60,6 +60,7 @@ related:
 - '[[dk-wanghuan-creativity-in-description-and-taste]]'
 - '[[dk-wanghuan-standard-by-iteration]]'
 - '[[yt-note-p-c-role-boundary-realworld]]'
+- '[[human-ai-collaboration-double-triangle]]'
 tags:
 - audience:executor
 - scene:reference

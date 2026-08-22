@@ -50,6 +50,11 @@ related:
 - '[[dk-doc-numbering-business-logic]]'
 - '[[dk-occhams-knife-tool-migration]]'
 - '[[dk-shoulu-yixia-culture]]'
+- '[[framework-ai-deliberate-practice-loop]]'
+- '[[framework-ai-sales-collaboration]]'
+- '[[framework-decision-quality-checklist]]'
+- '[[framework-fact-rule-insight]]'
+- '[[framework-lemon-market-new-brand-trust]]'
 tags:
 - src_unknown
 - src_unknown

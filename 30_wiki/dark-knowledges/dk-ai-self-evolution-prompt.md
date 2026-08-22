@@ -40,6 +40,7 @@ related:
 - 'case-truman-ai-native-research-flow'
 - '[[case-friend-circle-aigc-transformation]]'
 - '[[concept-session-vs-memory-vs-document]]'
+- '[[framework-patrolkit-radar]]'
 ---
 # AI 自进化话术：复盘末尾补一句"下次你可以更主动"——让 AI 每次变聪明一点
 

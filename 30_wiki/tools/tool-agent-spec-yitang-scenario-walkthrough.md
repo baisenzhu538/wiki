@@ -33,6 +33,7 @@ related:
 - '[[tool-agent-spec-yitang-beautiful-work-imagination]]'
 - '[[tool-agent-spec-yitang-card-dealing-guide]]'
 - '[[tool-agent-spec-yitang-user-perspective-training]]'
+- '[[five-step-domain-digest]]'
 created_at: 2026-07-08
 updated_at: '2026-07-14'
 tcp_role: C

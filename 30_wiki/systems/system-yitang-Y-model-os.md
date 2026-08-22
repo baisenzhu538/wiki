@@ -48,6 +48,7 @@ related:
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[concept-yihang-human-in-the-loop-dual-triangle]]'
 - '[[dk-agent-promise-verification]]'
+- '[[framework-agent-card-execution-pattern]]'
 created_at: 2026-07-03
 updated_at: '2026-07-08'
 tags:

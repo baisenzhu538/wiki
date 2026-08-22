@@ -36,6 +36,7 @@ related:
   - framework-一堂-关键假设
   - '[[case-一堂-教材品控事故]]'
   - '[[case-一堂-迷你访谈五周迭代]]'
+  - '[[retrospective-moc]]'
 tags:
   - method:review
   - method:attribution

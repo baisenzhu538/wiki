@@ -37,6 +37,7 @@ related:
   - framework-leadership-five-ladders
   - '[[case-meeting-scene-mastery]]'
   - '[[case-yitang-2022-annual-lessons]]'
+  - '[[framework-meeting-ten-principles]]'
 quality_labels: [actionable, principle, cited]
 tags:
   - audience:general

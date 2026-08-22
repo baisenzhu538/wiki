@@ -49,6 +49,8 @@ related:
 - '[[tool-一堂-心理激励优先机制]]'
 - '[[case-opc-agent-wave1-real-model-testing]]'
 - '[[plan_20260701_kdo-multi-repo-architecture]]'
+- '[[framework-TCPR底层网络协议]]'
+- '[[framework-TCPR皇冠模型]]'
 created_at: 2026-07-02
 updated_at: '2026-06-29'
 tcp_role: P

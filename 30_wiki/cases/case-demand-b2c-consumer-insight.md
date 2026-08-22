@@ -37,6 +37,7 @@ related:
 - '[[dk-demand-signal-vs-noise]]'
 - '[[case-smart-medicine-cabinet-failure-patterns-library]]'
 - '[[dk-demand-misjudgment-rate]]'
+- '[[domain-demand-analysis-index]]'
 tags:
 - audience:general
 - scene:reference

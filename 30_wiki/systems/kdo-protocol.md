@@ -34,6 +34,7 @@ related:
 - '[[dk-f9-generic-critique]]'
 - '[[modeling-capability-for-kdo]]'
 - '[[ouyangfeng-data-alignment-response]]'
+- '[[business-formula-to-kdo-card-quality]]'
 tags:
 - audience:manager
 - scene:reference

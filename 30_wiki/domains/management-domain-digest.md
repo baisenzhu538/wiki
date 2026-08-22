@@ -42,6 +42,12 @@ related:
 - '[[dk-meeting-pressure-ignition]]'
 - '[[dk-meeting-principle-over-process]]'
 - '[[dk-meeting-roi-first]]'
+- '[[framework-coaching-leadership-core]]'
+- '[[framework-leadership-coin-model]]'
+- '[[framework-leadership-five-ladders]]'
+- '[[framework-meeting-iceberg-canvas]]'
+- '[[framework-meeting-ten-principles]]'
+- '[[framework-yitang-project-execution]]'
 tags:
 - audience:manager
 - scene:reference

@@ -37,6 +37,8 @@ related:
 - '[[dk-ai-memory-four-layers]]'
 - '[[kdo-input-channel-strategy-2026-06-16]]'
 - '[[sprint-6-cli-gap-proposal]]'
+- '[[framework-TCPR底层网络协议]]'
+- '[[framework-TCPR皇冠模型]]'
 tags:
 - audience:manager
 - scene:reference

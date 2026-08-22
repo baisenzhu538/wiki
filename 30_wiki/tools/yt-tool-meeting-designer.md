@@ -35,6 +35,7 @@ related:
 - '[[framework-meeting-ten-principles]]'
 - '[[anthropic-官方发布创始人手册打造-ai-原生初创公司]]'
 - '[[yt-tool-product-core-canvas]]'
+- '[[concept-maister-trusted-advisor]]'
 contradicts: null
 query_triggers:
 - src_unknown

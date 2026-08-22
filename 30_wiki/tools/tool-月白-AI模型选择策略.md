@@ -43,6 +43,8 @@ related:
 - '[[yt-business-model-partnership]]'
 - '[[yt-model-agent-architecture]]'
 - '[[dk-yb4-nano-banana-style-reproduction]]'
+- '[[framework-TCPR底层网络协议]]'
+- '[[model-quality-four-levels]]'
 tags:
 ---
 # 技能：AI模型选择策略

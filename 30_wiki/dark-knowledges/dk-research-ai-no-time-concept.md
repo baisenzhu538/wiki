@@ -37,6 +37,7 @@ related:
 - '[[dk-ai-judgment-human-responsibility]]'
 - '[[concept-ai-style-knowledge-docs]]'
 - '[[dk-research-saturation-quota-ai-km]]'
+- '[[framework-serendipity-five-channels]]'
 tags:
 - audience:executor
 - scene:execution

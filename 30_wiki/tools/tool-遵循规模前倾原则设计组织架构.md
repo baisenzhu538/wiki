@@ -52,6 +52,7 @@ related:
 - '[[concept-christensen-rpv-model]]'
 - '[[concept-qinpeng-knowledge-base-conversion]]'
 - '[[dk-qinpeng-three-corrections]]'
+- '[[framework-christensen-value-network]]'
 tags:
 - audience:manager
 - scene:execution

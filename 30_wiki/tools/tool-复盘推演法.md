@@ -28,6 +28,7 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+- '[[retrospective-moc]]'
 definition_of_done:
 - src_unknown
 - src_unknown

@@ -35,6 +35,7 @@ related:
   - '[[bridge-meeting-leadership-coaching]]'
   - '[[case-meeting-scene-mastery]]'
   - '[[dk-meeting-principle-over-process]]'
+  - '[[framework-yitang-project-retrospective]]'
 quality_labels: [actionable, quotable, principle]
 tags:
   - audience:general

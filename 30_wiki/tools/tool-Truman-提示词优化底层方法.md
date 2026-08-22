@@ -47,6 +47,7 @@ related:
 - '[[case-truman-sales-report-structure]]'
 - '[[case-yitang-radar-chart-selection]]'
 - '[[dk-yb6-midjourney-chinese-text-fix]]'
+- '[[model-quality-four-levels]]'
 tags:
 - audience:executor
 - scene:execution

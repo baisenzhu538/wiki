@@ -47,6 +47,7 @@ related:
 - '[[agent-spec-laowantong-producer]]'
 - '[[agent-spec-ouyangfeng-reviewer]]'
 - '[[agent-spec-wangyuyan-orchestrator]]'
+- '[[framework-truman-agent-team-architecture]]'
 tags:
 - audience:executor
 - scene:execution

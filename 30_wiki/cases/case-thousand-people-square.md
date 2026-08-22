@@ -36,6 +36,7 @@ related:
 - '[[concept-最简单元模型]]'
 - '[[case-科学决策-ROI案例03]]'
 - '[[concept-thousand-people-square]]'
+- '[[model-quality-four-levels]]'
 tags:
 - src_unknown
 - src_unknown

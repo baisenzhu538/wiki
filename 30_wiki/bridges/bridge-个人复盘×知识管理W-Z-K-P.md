@@ -31,6 +31,7 @@ related:
 - dk-借假修真与黑盒白盒
 - concept-kdo-component-library
 - framework-kdo-modeling-methodology
+- '[[retrospective-moc]]'
 tags:
 - method:knowledge-management
 - method:review

@@ -31,6 +31,7 @@ related:
 - '[[framework-一堂五步法]]'
 - '[[tool-agent-spec-yitang-beautiful-work-imagination]]'
 - '[[tool-agent-spec-yitang-scenario-walkthrough]]'
+- '[[five-step-domain-digest]]'
 created_at: 2026-07-08
 updated_at: '2026-07-14'
 tcp_role: C

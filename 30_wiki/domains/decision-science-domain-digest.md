@@ -97,6 +97,8 @@ related:
 - '[[dk-decision-when-to-defer]]'
 - '[[case-decision-ai-assisted-vs-human]]'
 - '[[conversion-rate-domain-digest]]'
+- '[[sales-domain-digest]]'
+- '[[framework-一堂-12种阻力总表]]'
 discoverable_by:
 - 科学决策域
 - 决策方法

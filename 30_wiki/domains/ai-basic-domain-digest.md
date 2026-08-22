@@ -46,6 +46,7 @@ related:
 - '[[tool-feature-review-five-step]]'
 - '[[dk-ai-does-not-question-your-mistake]]'
 - '[[dk-feature-pieces-not-recognized-as-cards]]'
+- '[[human-insights-domain-digest]]'
 ---
 
 # ai-basic 域摘要
