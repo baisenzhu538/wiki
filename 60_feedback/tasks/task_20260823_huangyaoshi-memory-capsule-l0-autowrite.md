@@ -1,8 +1,8 @@
 ---
 id: 434
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-22T17:23:30.859141+00:00'
+status: pending_review
+updated_at: '2026-08-22T17:25:29.774883+00:00'
 ---
 # #434 记忆胶囊 L0 自动写入端（daily-context-save 挂钩，方案 A）
 
