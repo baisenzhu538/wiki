@@ -7,7 +7,7 @@ updated_at: '2026-08-22T14:14:20.787864+00:00'
 # #417 工业化手册整改（王语嫣主笔，持续迭代机制）
 
 - **任务号**：#417
-- **状态**：in_progress（claimed-kimi）
+- **状态**：pending_review（已提审，等欧阳锋终审）
 - **assignee**：wangyuyan（主笔；当前实例 kimi；终审=欧阳锋；终稿=老朱）
 - **优先级**：P0
 - **依赖**：#416（基本法框架稿——角色表对齐它）
@@ -45,9 +45,9 @@ updated_at: '2026-08-22T14:14:20.787864+00:00'
 
 ## 整改记录（2026-08-22，kimi 实例执行）
 
-**改动文件**（仅 2 个，未做 git add/commit，未再跑 queue_transition）：
+**改动文件与收口**（仅 2 个内容文件；手册单独 path-scoped commit，任务单/队列/看板由 `queue_transition.py complete` 自动收口）：
 
-1. `90_control/kdo-industrialization-manual.md` → v2.0
+1. `90_control/kdo-industrialization-manual.md` → v2.0（commit `a1dc99d39`）
    - A 版本归一：frontmatter `version: "2.0"` / `updated_at: "2026-08-22"`；正文标题 v2.0；编制行加 v2.0 标注；文首加版本规则（改一次升一次、frontmatter/正文同号、脚本校验，溯源 #416 附则/B4-1）
    - B §1.2 审而不改：改为「生产者（老顽童）修正内容卡 / 建设者（黄药师）修正基建；欧阳锋复审」，90_control 变更仍受 KF-001 双重签发约束
    - C §二角色体系整节替换为入宪六方，核心表逐字采用 charter §2.1；补权责分界、执行前三问、挂起角色（段王爷/洪七公/历史业务 agent）、资产落点表（风清扬 spec 标在途 #428）；删除旧三角色分工与「复合编译执行/高质量内容提炼」表述
@@ -57,6 +57,8 @@ updated_at: '2026-08-22T14:14:20.787864+00:00'
    - G §10.2：`revision（生产者/建设者按域修正）`、`verify（Architect（欧阳锋）复审关闭）`
    - H 附录 A 改 F-KDO-001~016；附录 B 标历史快照（停在 2026-05，现行队列以 production-queue.md 为准）；附录 D 加 2026-08-22 v2.0 行
    - I 新增附录 E「2026-08-22 现实对账记录」：AGENTS.md 角色旧制、铁律数 22 过时（AGENTS.md:386 / rules-core.md:34）、context 卡 KF-025 三问口径落后、spec 卡 draft/#428 在途、#399 复扫缺手册引用口径检查项——均列为外部漂移不直接改
-2. 本任务单：状态改 `in_progress（claimed-kimi）`、assignee 行补当前实例，追加本整改记录；frontmatter 未手改
+2. 本任务单：正文状态与整改记录同步为提审后口径；frontmatter 由脚本流转为 `pending_review`
+
+**提审记录**：`queue_transition.py complete task_20260822_wangyuyan-industrialization-manual-revamp --instance kimi --evidence 90_control/kdo-industrialization-manual.md` 已执行，队列状态 `pending_review`（等欧阳锋终审）；queue/dashboard/task 自动收口 commit `2428dabe2`。
 
 **自检结果**：grep 确认手册无 `v1.6` 标题、无 `KF-001~022`、无第二个 `KF-024` 体量上限、无「复合编译执行」；存在 `v2.0`、`KF-026`、「入宪六方」、`queued → claimed`；Python 读 frontmatter 确认 `version == "2.0"`。输出摘要见会话记录。
