@@ -68,6 +68,7 @@ related:
 - '[[yt-scale-economy-weapon-library]]'
 - 一堂五步法
 - 假的壁垒
+- '[[concept-five-step-growth-to-barrier-transition]]'
 ---
 # 案例：五步法中识别真壁垒和假壁垒
 

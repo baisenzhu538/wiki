@@ -30,6 +30,7 @@ related:
 - '[[tool-strategy-blue-ocean-canvas]]'
 - '[[tool-strategy-industry-chain-analysis]]'
 - '[[tool-strategy-risk-management]]'
+- '[[concept-wanghuan-ai-native-definition]]'
 definition_of_done:
 - src_unknown
 - src_unknown

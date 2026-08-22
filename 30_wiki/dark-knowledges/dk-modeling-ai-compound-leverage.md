@@ -26,6 +26,7 @@ discoverable_by:
   - 加杠杆最大的场景是建模，因为好模型会被反复调用
 related:
 - '[[yitang-domain-digest]]'
+- '[[industrial-ai-ops-cases]]'
 tags:
 - audience:executor
 - scene:reference

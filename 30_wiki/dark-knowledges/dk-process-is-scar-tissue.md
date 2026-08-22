@@ -34,6 +34,7 @@ related:
 - dk-modeling-jump-step-cost
 - modeling-level-map
 - framework-modeling-relation-exploration
+- '[[concept-kdo-component-library]]'
 tags:
 - audience:executor
 - scene:reference

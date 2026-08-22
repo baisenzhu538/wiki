@@ -39,6 +39,7 @@ related:
 - '[[tool-纪浩-案例池构建法]]'
 - '[[tool-纪浩-里程碑验证法]]'
 - '[[tool-马易-数字员工FD拆解落地]]'
+- '[[case-纪浩-from-zip-to-five-layers]]'
 tags:
 - audience:executor
 - scene:execution

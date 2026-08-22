@@ -32,6 +32,7 @@ related:
 - '[[tool-first-principles-assumption-classify]]'
 - '[[dk-yb29-prompt-migrate-copy-first]]'
 - '[[dk-yitang-research-best-practice-first]]'
+- '[[concept-ji-hao-ai-collaboration-methodology]]'
 created_at: '2026-06-08'
 updated_at: '2026-06-28'
 pipeline:

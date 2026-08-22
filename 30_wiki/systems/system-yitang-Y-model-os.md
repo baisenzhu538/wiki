@@ -45,6 +45,8 @@ related:
 - dk-ai-memory-four-layers
 - framework-yitang-thought-liberation-lightning
 - '[[case-kdo-agent-factory-dual-triangle-practice]]'
+- '[[concept-yihang-dual-triangle-core]]'
+- '[[concept-yihang-human-in-the-loop-dual-triangle]]'
 created_at: 2026-07-03
 updated_at: '2026-07-08'
 tags:

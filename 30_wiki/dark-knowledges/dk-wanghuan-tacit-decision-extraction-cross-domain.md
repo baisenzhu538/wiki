@@ -58,6 +58,7 @@ related:
 - '[[yt-tob-customer-sabc]]'
 - '[[private-domain-saas-sales-funnel]]'
 - '[[concept-wanghuan-tacit-knowledge-examples]]'
+- '[[concept-open-a-document]]'
 tags:
 - audience:executor
 - scene:reference

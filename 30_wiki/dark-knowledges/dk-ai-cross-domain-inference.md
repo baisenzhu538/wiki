@@ -38,6 +38,8 @@ related:
 - concept-ai-co-learning
 - concept-collaboration-philosophy-foundation
 - framework-yitang-shishi-qiushi
+- '[[concept-open-a-document]]'
+- '[[concept-research-saturation-coverage]]'
 quality_labels:
 - cited
 - actionable

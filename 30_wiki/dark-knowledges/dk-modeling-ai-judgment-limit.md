@@ -31,6 +31,8 @@ confidence: 0.89
 related:
 - '[[yitang-domain-digest]]'
 - '[[ai-collaboration-domain-digest]]'
+- '[[industrial-ai-ops-cases]]'
+- '[[anthropic-官方发布创始人手册打造-ai-原生初创公司]]'
 tags:
 - audience:executor
 - scene:reference

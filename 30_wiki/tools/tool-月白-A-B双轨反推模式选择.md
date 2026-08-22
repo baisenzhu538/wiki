@@ -36,6 +36,7 @@ related:
 - 'tool-月白-AIGC橱窗陈列设计流程'
 - 'case-truman-ai-image-workflow-evolution'
 - '[[case-strategy-m-brand-profit-model]]'
+- '[[concept-streaming-extraction-pattern]]'
 tags:
 ---
 # 技能：A/B双轨反推模式选择

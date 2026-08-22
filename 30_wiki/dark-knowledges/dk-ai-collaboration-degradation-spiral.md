@@ -34,6 +34,8 @@ related:
 - '[[dk-yitang-sales-common-pitfalls]]'
 - '[[method-yitang-y-model-engine-cycle]]'
 - '[[case-design-principles-90]]'
+- '[[concept-research-saturation-coverage]]'
+- '[[concept-session-vs-memory-vs-document]]'
 tags:
 - audience:executor
 - scene:reference

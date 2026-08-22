@@ -37,6 +37,7 @@ related:
 - '[[case-cross-xingangwan-pharma]]'
 - '[[dk-ai-builder-illusion]]'
 - '[[bridge-how-to-know-person-to-business]]'
+- '[[concept-ai-style-knowledge-docs]]'
 review_date: 2026-08-16
 ---
 

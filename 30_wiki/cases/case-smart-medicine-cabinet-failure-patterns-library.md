@@ -29,6 +29,7 @@ related:
 - '[[case-smart-medicine-cabinet-corporate-risk]]'
 - case-course-milestone-model
 - case-demand-b2c-consumer-insight
+- '[[smart-medicine-cabinet-clinic-risk-observation]]'
 source_person: 王语嫣
 source_context: 五轮迭代失败案例与运营数据整合
 diagnostic_signals:

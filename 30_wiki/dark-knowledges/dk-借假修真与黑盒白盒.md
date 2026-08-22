@@ -33,6 +33,8 @@ related:
   - dk-modeling-essence-predictive
   - '[[case-一堂-A加社失败归因→一堂诞生]]'
   - '[[case-一堂-教材品控事故]]'
+  - '[[case-一堂-迷你访谈五周迭代]]'
+  - '[[case-莹莹-before-after复盘]]'
 tags:
   - method:review
   - method:meta-cognition

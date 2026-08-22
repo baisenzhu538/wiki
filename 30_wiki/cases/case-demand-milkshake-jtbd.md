@@ -37,6 +37,7 @@ related:
 - case-opc-agent-wave1-real-model-testing
 - '[[tool-demand-iceberg-l3-core-job]]'
 - '[[tool-demand-agent-l4-case-match]]'
+- '[[concept-christensen-jtbd-link]]'
 updated_at: '2026-06-29'
 tags:
 - audience:general

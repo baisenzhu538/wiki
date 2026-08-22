@@ -49,6 +49,7 @@ related:
 - '[[business-formula-domain-digest]]'
 - '[[case-yitang-woqingke-referral-15-to-40]]'
 - '[[case-一堂-一堂自身转化实践]]'
+- '[[case-一堂-阻力篇案例库]]'
 quality_labels:
 - cited
 - actionable

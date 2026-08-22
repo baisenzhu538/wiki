@@ -22,6 +22,7 @@ related:
 - '[[proposal-kdo-flywheel-infrastructure]]'
 - knowledge-delivery-os-快速体验指南-飞书云文档
 - agent-native-card-design
+- '[[concept-wanghuan-flywheel-first-loop]]'
 id: sprint-6-cli-gap-proposal
 reviewed_by: pending
 confidence: 0.6

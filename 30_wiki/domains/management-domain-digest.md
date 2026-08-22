@@ -20,6 +20,8 @@ related:
 - '[[case-yitang-leadership-culture]]'
 - '[[case-一堂-基本功-认知篇案例集]]'
 - '[[case-一堂-春萍-刘伟tob销售标准化]]'
+- '[[case-一堂-春萍-温校长校园代理]]'
+- '[[case-一堂-春萍-花总AI研发]]'
 tags:
 - audience:manager
 - scene:reference

@@ -30,6 +30,15 @@ related:
 - '[[yitang-research-domain-digest]]'
 - '[[tool-demand-agent-case-match]]'
 - '[[case-demand-ai-fitness-four-forces]]'
+- '[[concept-candy-ai-as-collaborator]]'
+- '[[concept-ceo-must-do-user-research]]'
+- '[[concept-harness-scoring-anchors]]'
+- '[[concept-research-responsibility-boundary]]'
+- '[[concept-strategy-2024-2026-supplement]]'
+- '[[concept-yitang-ai-research-human-loop]]'
+- '[[concept-yitang-ideal-research-goal]]'
+- '[[concept-yitang-research-aesthetic]]'
+- '[[concept-yitang-research-mindset]]'
 updated_at: '2026-06-30T16:07:51+00:00'
 tags:
 - audience:executor

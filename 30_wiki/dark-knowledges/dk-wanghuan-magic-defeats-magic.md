@@ -54,6 +54,7 @@ related:
 - '[[dk-tool-as-phased-validator]]'
 - '[[ai-collaboration-domain-digest]]'
 - '[[yitang-domain-digest]]'
+- '[[concept-wanghuan-power-of-standards]]'
 tags:
 - audience:executor
 - scene:reference

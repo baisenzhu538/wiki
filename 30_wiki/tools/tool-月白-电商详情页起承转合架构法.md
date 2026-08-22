@@ -33,6 +33,7 @@ related:
 - 'tool-月白-MOC'
 - 'tool-月白-AIGC人群画像驱动详情页规划'
 - 'tool-yitang-research-best-practice'
+- '[[aigc设计师实操培训01口喷设计范式与电商ai设计全流程]]'
 tags:
 ---
 # 技能：电商详情页起承转合架构法

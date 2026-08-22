@@ -34,6 +34,7 @@ related:
 - 'tool-月白-AIGC海报信息优先级排序法'
 - 'tool-月白-AIGC餐饮海报优化一抽流'
 - 'dk-aesthetic-redline-doc'
+- '[[aigc设计基础01ai生图原理与提示词基本功]]'
 tags:
 ---
 # 技能：分层自洽海报生成法

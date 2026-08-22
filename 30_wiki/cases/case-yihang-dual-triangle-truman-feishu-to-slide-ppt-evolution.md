@@ -46,6 +46,7 @@ related:
 - Truman 飞书 To slide
 - PPT 迭代案例
 - annotations
+- '[[concept-yihang-human-in-the-loop-dual-triangle]]'
 tags:
 - audience:general
 - scene:reference

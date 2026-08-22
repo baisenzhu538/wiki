@@ -29,6 +29,7 @@ related:
 - '[[ai单元模型口述蒋老师]]'
 - '[[yt-entrepreneur-unit-model]]'
 - case-toy-cabinet-barrier
+- '[[concept-thousand-people-square]]'
 updated_at: '2026-06-29'
 tags:
 - audience:executor

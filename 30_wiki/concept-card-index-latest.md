@@ -5,6 +5,7 @@ type: index
 status: stable
 related:
   - '[[case-apple-card-gender-bias]]'
+  - '[[concept-ai-native-organization-five-steps]]'
 ---
 # Concept Card Index — 2026-08-21 18:07 UTC
 

@@ -35,6 +35,7 @@ related:
   - dk-借假修真与黑盒白盒
   - framework-一堂-关键假设
   - '[[case-一堂-教材品控事故]]'
+  - '[[case-一堂-迷你访谈五周迭代]]'
 tags:
   - method:review
   - method:attribution

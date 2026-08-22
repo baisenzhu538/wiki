@@ -38,6 +38,7 @@ related:
 - '[[tool-一堂-影响力六原则]]'
 - '[[tool-一堂-心理激励优先机制]]'
 - '[[conversion-rate-domain-digest]]'
+- '[[case-一堂-组合篇案例库]]'
 quality_labels:
 - cited
 - actionable

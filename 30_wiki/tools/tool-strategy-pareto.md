@@ -30,6 +30,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+related:
+  - '[[concept-feishu-api-pagination-trap]]'
+  - '[[concept-strategy-framework-landscape]]'
 ---
 
 # 帕雷托图

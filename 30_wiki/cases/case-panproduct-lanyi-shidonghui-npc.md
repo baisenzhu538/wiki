@@ -47,6 +47,7 @@ related:
 - '[[case-panproduct-lanyi-dahanghui-team]]'
 - '[[case-panproduct-lanyi-intern-flywheel]]'
 - '[[case-roblox-ai-npc-education]]'
+- '[[concept-pan-product-vs-traditional-management]]'
 review_date: '2026-06-28'
 tags:
 - audience:general

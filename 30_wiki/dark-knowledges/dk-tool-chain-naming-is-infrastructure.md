@@ -26,6 +26,7 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+- '[[concept-kdo-feature-registry]]'
 bridges_to:
 - src_unknown
 - src_unknown

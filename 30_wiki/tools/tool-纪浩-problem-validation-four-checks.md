@@ -34,6 +34,7 @@ related:
 - '[[tool-ai-problem-validation]]'
 - '[[tool-google-dorking]]'
 - '[[tool-月白-小红书封面趋势判断法]]'
+- '[[case-纪浩-from-zip-to-five-layers]]'
 wiki_refs:
 - src_unknown
 - src_unknown

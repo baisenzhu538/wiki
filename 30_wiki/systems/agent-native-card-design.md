@@ -32,6 +32,7 @@ related:
 - '[[case-apple-card-gender-bias]]'
 - '[[case-kdo-agent-factory-dual-triangle-practice]]'
 - '[[case-roblox-ai-npc-education]]'
+- '[[concept-mcp-protocol]]'
 tags:
 - audience:manager
 - scene:reference

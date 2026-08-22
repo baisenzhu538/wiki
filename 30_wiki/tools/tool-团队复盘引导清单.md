@@ -33,6 +33,7 @@ related:
   - dk-借假修真与黑盒白盒
   - tool-meeting-basic-principles
   - tool-meeting-result-principles
+  - '[[case-千惠供应链复盘]]'
 tags:
   - method:review
   - method:team-facilitation

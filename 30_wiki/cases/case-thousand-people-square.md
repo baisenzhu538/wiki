@@ -35,6 +35,7 @@ related:
 - '[[tool-纪浩-案例池构建法]]'
 - '[[concept-最简单元模型]]'
 - '[[case-科学决策-ROI案例03]]'
+- '[[concept-thousand-people-square]]'
 tags:
 - src_unknown
 - src_unknown

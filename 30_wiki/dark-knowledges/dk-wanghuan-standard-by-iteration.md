@@ -44,6 +44,7 @@ related:
 - '[[human-ai-collaboration-double-triangle]]'
 - '[[framework-wanghuan-actor-director-mode]]'
 - '[[concept-wanghuan-adversarial-generation]]'
+- '[[industrial-ai-ops-cases]]'
 diagnostic_signals:
 - signal: src_unknown
   framework_lens: 标准来自迭代——标准不是想出来的，是迭代出来的

@@ -56,6 +56,10 @@ related:
 - '[[case-investment-claim-fact-check]]'
 - '[[case-leo-lubricant-dealer-research]]'
 - '[[case-qinpeng-hardware-ai-amplification]]'
+- '[[concept-meta-skill-layering]]'
+- '[[concept-open-a-document]]'
+- '[[concept-qinpeng-knowledge-base-conversion]]'
+- '[[concept-research-saturation-coverage]]'
 ---
 # Builder 幻觉：用 AI 做出东西 ≠ 完成从 0 到 1
 

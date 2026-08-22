@@ -29,6 +29,7 @@ related:
 - concept-collaboration-philosophy-foundation
 - tool-清单式笔记法
 - framework-一堂-基本功-四字诀拆建推练
+- '[[concept-ai-co-learning]]'
 created_at: 2026-07-26
 updated_at: 2026-07-26
 reviewed_by: 待审

@@ -32,6 +32,7 @@ discoverable_by:
 related:
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[method-yitang-y-model-engine-cycle]]'
+- '[[concept-yihang-methodology-production-pipeline]]'
 tags:
 - audience:general
 - scene:reference

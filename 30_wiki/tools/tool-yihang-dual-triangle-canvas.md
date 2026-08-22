@@ -49,6 +49,7 @@ related:
 - '[[case-yihang-dual-triangle-canvas-trademark-design]]'
 - '[[case-yihang-dual-triangle-D-engineer-upward-communication]]'
 - '[[case-yihang-dual-triangle-jumi-canvas-demo]]'
+- '[[concept-yihang-human-in-the-loop-dual-triangle]]'
 tags:
 - audience:executor
 - scene:execution

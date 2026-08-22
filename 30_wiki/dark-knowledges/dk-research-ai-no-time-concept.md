@@ -35,6 +35,7 @@ related:
 - '[[dk-ai-does-not-question-your-mistake]]'
 - '[[concept-research-saturation-coverage]]'
 - '[[dk-ai-judgment-human-responsibility]]'
+- '[[concept-ai-style-knowledge-docs]]'
 tags:
 - audience:executor
 - scene:execution

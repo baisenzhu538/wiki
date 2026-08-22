@@ -36,6 +36,9 @@ related:
 - 'case-truman-ai-image-workflow-evolution'
 - '[[case-guang-leng-dian-zi-hx-smj]]'
 - '[[case-truman-motivation-map-12-versions]]'
+- '[[case-纪浩-focus-prompt-design]]'
+- '[[aigc文创案例设计课leo文创ip从0到1全流程]]'
+- '[[aigc设计师实操培训01口喷设计范式与电商ai设计全流程]]'
 tags:
 ---
 # 技能：设计项目MVP拆解法

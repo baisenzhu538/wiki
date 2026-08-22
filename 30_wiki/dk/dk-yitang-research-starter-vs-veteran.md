@@ -31,6 +31,8 @@ related:
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
+  - '[[concept-yitang-research-objective]]'
+  - '[[concept-yitang-research-scope]]'
 tags:
 - audience:executor
 - scene:diagnosis

@@ -84,6 +84,9 @@ related:
 - '[[case-yitang-radar-chart-selection]]'
 - '[[case-yitang-tob-grinding-machine]]'
 - '[[case-zhangyang-anchor-sop-three-locks]]'
+- '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
+- '[[case-纪浩-focus-prompt-design]]'
+- '[[case-纪浩-from-zip-to-five-layers]]'
 tags:
 - audience:executor
 - scene:execution

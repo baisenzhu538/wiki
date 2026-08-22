@@ -28,6 +28,7 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+- '[[case-纪浩-from-zip-to-five-layers]]'
 diagnostic_signals:
 - lens: 过度依赖
   follow_up: 每天限定AI使用时长（如3-4小时）。把AI当worker时只用于降本增效，保留自己动脑动手的环节

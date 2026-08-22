@@ -38,6 +38,7 @@ related:
 - '[[case-leo-lubricant-dealer-research]]'
 - '[[case-opc-128-directions]]'
 - '[[case-shuishui-business-insight]]'
+- '[[concept-ai-style-knowledge-docs]]'
 tags:
 - method:cross-domain
 - method:business-strategy

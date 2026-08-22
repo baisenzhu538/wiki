@@ -36,6 +36,7 @@ related:
 - '[[tool-渐进式披露上下文]]'
 - '[[tool-strategy-customer-selection]]'
 - tool-ai-prd-for-ai
+- '[[concept-strategy-capability-pyramid]]'
 tags:
 - audience:executor
 - scene:execution

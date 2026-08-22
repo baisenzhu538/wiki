@@ -33,6 +33,16 @@ related:
 - '[[tool-demand-agent-case-match]]'
 - '[[tool-demand-agent-multi-hypothesis]]'
 - '[[case-yitang-beauty-device-overseas-sales]]'
+- '[[concept-candy-ai-as-collaborator]]'
+- '[[concept-ceo-must-do-user-research]]'
+- '[[concept-harness-cattle-not-pets]]'
+- '[[concept-harness-scoring-anchors]]'
+- '[[concept-research-responsibility-boundary]]'
+- '[[concept-strategy-2024-2026-supplement]]'
+- '[[concept-yitang-ai-research-human-loop]]'
+- '[[concept-yitang-ideal-research-goal]]'
+- '[[concept-yitang-research-aesthetic]]'
+- '[[concept-yitang-research-mindset]]'
 updated_at: '2026-06-30T16:07:51+00:00'
 tags:
 - audience:executor

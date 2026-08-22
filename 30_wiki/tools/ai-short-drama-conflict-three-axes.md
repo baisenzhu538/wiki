@@ -33,6 +33,7 @@ discoverable_by:
 related:
 - '[[ai-short-drama-plot-three-axes]]'
 - '[[ai-short-drama-framework-three-axes]]'
+- '[[ai-short-drama-ice-fire-scripting-compass]]'
 tags:
 - audience:executor
 - scene:execution

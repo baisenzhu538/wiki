@@ -34,6 +34,7 @@ related:
 - 'tool-月白-AIGC模型选型决策法'
 - 'tool-月白-AI模型选择决策法'
 - 'dk-three-context-formula'
+- '[[aigc设计基础01ai生图原理与提示词基本功]]'
 tags:
 ---
 # 技能：精准提示词消除模型幻觉

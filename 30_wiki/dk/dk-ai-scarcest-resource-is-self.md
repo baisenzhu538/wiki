@@ -36,6 +36,7 @@ related:
 - '[[tool-ai-critical-reading-three-layers]]'
 - '[[tool-ai2041-source-verification-checklist]]'
 - '[[case-ai-companion-emotional]]'
+- '[[concept-ai-amara-law-business-judgment]]'
 quality_labels:
 - cited
 - validated

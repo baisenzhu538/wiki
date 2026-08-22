@@ -30,6 +30,7 @@ related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'
 - '[[tool-yitang-ai-assisted-organize]]'
+- '[[concept-research-delegation-in-scaling]]'
 updated_at: '2026-06-30T16:07:51+00:00'
 tags:
 - audience:executor

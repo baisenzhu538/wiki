@@ -37,6 +37,7 @@ related:
 - '[[tool-纪浩-AI工作空间与导诊台设计法]]'
 - '[[case-ji-hao-skills-market]]'
 - '[[case-半肥猫-course-to-skill]]'
+- '[[concept-ai-native-organization-five-steps]]'
 quality_labels:
 - actionable
 - cited

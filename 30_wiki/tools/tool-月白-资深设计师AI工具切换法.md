@@ -34,6 +34,7 @@ related:
 - 'tool-月白-AI图片印刷落地预处理'
 - 'tool-月白-AI对话情绪管理法'
 - 'dk-three-context-formula'
+- '[[concept-wanghuan-ai-native-definition]]'
 tags:
 ---
 # 技能：资深设计师AI工具切换法

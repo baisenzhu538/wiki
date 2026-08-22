@@ -54,6 +54,7 @@ related:
 - '[[management-domain-digest]]'
 - '[[case-一堂-基本功-认知篇案例集]]'
 - '[[case-一堂-春萍-温校长校园代理]]'
+- '[[concept-一堂-Agent基本功修炼]]'
 diagnostic_signals:
 - signal: 管理者喊了几个月"苦练基本功"，团队该干嘛干嘛
   lens: 只上了氛围层——氛围解决"知道"，解决不了"会做"；个人苦练靠自律，团队苦练必须加码

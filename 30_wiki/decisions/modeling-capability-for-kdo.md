@@ -16,6 +16,7 @@ related:
   - "[[framework-kdo-self-attack]]"
   - "[[kdo-yaml-frontmatter-safety]]"
   - "[[case-科学决策-深度案例06]]"
+  - '[[case-半肥猫-course-to-skill]]'
 tags:
 - src_unknown
 - src_unknown

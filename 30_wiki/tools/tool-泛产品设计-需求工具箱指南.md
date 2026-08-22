@@ -32,6 +32,7 @@ related:
 - '[[tool-strategy-risk-management]]'
 - concept-X型Y型决策习惯
 - concept-发现决策
+- '[[concept-wanghuan-ai-native-definition]]'
 updated_at: '2026-06-29'
 tags:
 - audience:executor

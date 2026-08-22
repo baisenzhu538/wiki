@@ -25,6 +25,7 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[case-thousand-people-square]]'
+- '[[concept-thousand-people-square]]'
 review_date: '2026-06-29'
 quality_labels:
 - validated

@@ -29,6 +29,7 @@ related:
   - "[[ai-collaboration-domain-digest]]"
   
   
+  - '[[concept-yitang-research-objective]]'
 tags:
 - audience:executor
 - scene:diagnosis

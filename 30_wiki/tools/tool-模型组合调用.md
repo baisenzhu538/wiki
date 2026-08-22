@@ -41,6 +41,7 @@ related:
 - '[[tool-渐进式披露上下文]]'
 - '[[tool-strategy-control-points]]'
 - tool-ai-prd-for-ai
+- '[[concept-thousand-people-square]]'
 tags:
 - audience:executor
 - scene:execution

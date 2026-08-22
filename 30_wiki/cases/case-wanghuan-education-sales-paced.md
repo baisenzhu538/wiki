@@ -34,6 +34,7 @@ related:
 - '[[case-wanghuan-education-sales-capability-extraction]]'
 - '[[case-wanghuan-shenyang-software-3x-efficiency]]'
 - '[[case-wanghuan-yiyu-qingji-medical-notes]]'
+- '[[concept-wanghuan-flywheel-first-loop]]'
 tags:
 - src_unknown
 - src_unknown

@@ -32,6 +32,7 @@ related:
 - '[[tool-纪浩-多视角切换思考法]]'
 - '[[tool-纪浩-案例池构建法]]'
 - '[[tool-纪浩-里程碑验证法]]'
+- '[[case-纪浩-from-zip-to-five-layers]]'
 tags:
 - audience:executor
 - scene:execution

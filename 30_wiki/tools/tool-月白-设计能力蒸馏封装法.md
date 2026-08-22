@@ -35,6 +35,7 @@ related:
 - 'tool-月白-AI对话情绪管理法'
 - 'dk-three-context-formula'
 - '[[case-truman-motivation-map-12-versions]]'
+- '[[case-纪浩-focus-prompt-design]]'
 tags:
 ---
 # 技能：设计能力蒸馏封装法

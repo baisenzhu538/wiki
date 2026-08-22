@@ -43,6 +43,7 @@ related:
 - '[[case-科学决策-深度案例06]]'
 - case-child-drawing-rhyme
 - case-truman-personal-growth-map-creation
+- '[[concept-mckinsey-mece]]'
 tags:
 - src_unknown
 - src_unknown

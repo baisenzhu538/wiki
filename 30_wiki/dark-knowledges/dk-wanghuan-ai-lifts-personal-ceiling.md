@@ -44,6 +44,7 @@ related:
 - '[[human-ai-collaboration-double-triangle]]'
 - '[[framework-wanghuan-actor-director-mode]]'
 - '[[framework-wanghuan-ai-five-level-ladder]]'
+- '[[industrial-ai-ops-cases]]'
 diagnostic_signals:
 - signal: src_unknown
   framework_lens: AI拉升个人上限——不会≠做不了，关键是导演思维

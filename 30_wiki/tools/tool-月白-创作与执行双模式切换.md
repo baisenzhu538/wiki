@@ -35,6 +35,7 @@ related:
 - 'tool-月白-AI图片印刷落地预处理'
 - 'tool-月白-AI对话情绪管理法'
 - 'dk-three-context-formula'
+- '[[concept-streaming-extraction-pattern]]'
 tags:
 ---
 # 技能：创作与执行双模式切换

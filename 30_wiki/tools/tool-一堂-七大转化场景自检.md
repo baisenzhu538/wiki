@@ -53,6 +53,7 @@ related:
 - '[[case-一堂-棋牌室办卡率1到5]]'
 - '[[case-一堂-触点篇案例库]]'
 - '[[case-一堂-优秀触点案例合集]]'
+- '[[case-一堂-邹韵涛-中小企业高级管理辅导班专题培训会]]'
 quality_labels:
 - cited
 - actionable

@@ -48,6 +48,7 @@ related:
 - - - smart-medicine-cabinet-financial-model
 - - - smart-medicine-cabinet-national-policy-redlines
 - smart-medicine-cabinet-financial-model
+- '[[smart-medicine-cabinet-clinic-risk-observation]]'
 query_triggers:
 - src_unknown
 - src_unknown

@@ -58,6 +58,7 @@ related:
 - '[[case-opc-128-directions]]'
 - '[[case-smart-medicine-cabinet-corporate-risk]]'
 - '[[case-vibecoding-one-week-delivery]]'
+- '[[concept-ai-style-knowledge-docs]]'
 tags:
 - audience:general
 - scene:reference

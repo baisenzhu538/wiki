@@ -33,6 +33,7 @@ related:
 - '[[dk-ai-judgment-programmer-paradox]]'
 - '[[dk-jh-llm-time-blindness]]'
 - '[[case-opc-128-directions]]'
+- '[[concept-session-vs-memory-vs-document]]'
 tags:
 - audience:executor
 - scene:reference

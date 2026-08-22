@@ -49,6 +49,8 @@ related:
 - tool-设计对抗效果追踪看板
 - '[[case-feishu-disruptive-innovation]]'
 - '[[case-qinpeng-hardware-ai-amplification]]'
+- '[[concept-christensen-rpv-model]]'
+- '[[concept-qinpeng-knowledge-base-conversion]]'
 tags:
 - audience:manager
 - scene:execution

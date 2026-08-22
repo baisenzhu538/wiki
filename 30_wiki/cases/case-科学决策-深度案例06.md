@@ -83,6 +83,7 @@ related:
 - '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
 - concept-X型Y型决策习惯
 - concept-发现决策
+- '[[concept-strategy-2024-2026-supplement]]'
 updated_at: '2026-06-29'
 review_date: '2026-06-29'
 tags:

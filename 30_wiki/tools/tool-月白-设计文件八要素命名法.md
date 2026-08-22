@@ -42,6 +42,8 @@ related:
 - '[[tool-asset-file-naming-convention]]'
 - '[[tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]'
 - '[[case-truman-motivation-map-12-versions]]'
+- '[[case-纪浩-focus-prompt-design]]'
+- '[[aigc文创案例设计课leo文创ip从0到1全流程]]'
 tags:
 - audience:executor
 - scene:execution

@@ -29,6 +29,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+related:
+  - '[[concept-strategy-market-segmentation-yashili]]'
 ---
 
 # 战略四招法

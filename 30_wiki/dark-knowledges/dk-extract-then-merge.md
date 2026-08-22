@@ -38,6 +38,7 @@ related:
 - '[[dk-research-saturation-self-proof]]'
 - '[[case-cross-xingangwan-pharma]]'
 - '[[dk-ai-builder-illusion]]'
+- '[[concept-meta-skill-layering]]'
 review_date: 2026-08-16
 ---
 # 先萃取再二次合并萃取：优于基于原始案例直接建模

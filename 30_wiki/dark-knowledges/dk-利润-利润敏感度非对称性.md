@@ -30,6 +30,7 @@ related:
 - concept-利润-真正利润定义
 - framework-利润-利润优先经营框架
 - dk-利润-平台驱动本质是现金流驱动
+- '[[case-利润-白牌珠宝流量上瘾症]]'
 tags:
 - audience:executor
 - scene:reference

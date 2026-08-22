@@ -64,6 +64,7 @@ related:
 - '[[tool-纪浩-真需求四要素验证法]]'
 - '[[tool-费曼简单提炼法]]'
 - '[[tool-辩证讨论法]]'
+- '[[concept-ji-hao-ai-collaboration-methodology]]'
 created_at: '2026-06-08'
 updated_at: '2026-06-17'
 pipeline:

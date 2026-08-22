@@ -57,6 +57,7 @@ related:
   - '[[kdo-flywheel]]'
   - '[[master-decision-hygiene]]'
   - '[[master-systems-thinking]]'
+  - '[[concept-kdo-feature-registry]]'
 ---
 
 # Master 主题域 MOC

@@ -66,6 +66,8 @@ related:
 - '[[case-five-step-fake-vs-real-barriers]]'
 - '[[case-truman-ai-skill-self-packaging]]'
 - 一堂五步法
+- '[[concept-ai-native-organization-five-steps]]'
+- '[[concept-five-step-growth-to-barrier-transition]]'
 ---
 # 案例：五步法中从产品内核到增长的第一次跨越
 

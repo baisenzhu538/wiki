@@ -19,6 +19,7 @@ related:
   - '[[framework-truman-feature-layered-system]]'
   - '[[concept-truman-feature-four-scenarios]]'
   - '[[concept-truman-feature-six-stages]]'
+  - '[[concept-yihang-ai-feature-thinking]]'
 created_at: 2026-06-30
 updated_at: 2026-08-04
 tags:

@@ -31,6 +31,7 @@ related:
 - '[[case-wanghuan-education-sales-capability-extraction]]'
 - '[[case-wanghuan-education-sales-paced]]'
 - '[[case-wanghuan-yiyu-qingji-medical-notes]]'
+- '[[concept-wanghuan-flywheel-first-loop]]'
 tags:
 - src_unknown
 - src_unknown

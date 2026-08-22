@@ -34,6 +34,9 @@ related:
 - '[[case-ai-job-displacement-wef]]'
 - '[[case-cambridge-novelists-survey]]'
 - '[[case-dutch-childcare-scandal]]'
+- '[[concept-ai-amara-law-business-judgment]]'
+- '[[concept-ai-information-quality-ladder]]'
+- '[[concept-ai-neutrality-bias]]'
 quality_labels:
 - actionable
 - cited

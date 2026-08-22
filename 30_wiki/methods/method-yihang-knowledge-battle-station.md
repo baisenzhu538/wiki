@@ -21,6 +21,7 @@ related:
 - '[[method-yihang-aesthetic-fast-build]]'
 - '[[method-yitang-y-model-engine-cycle]]'
 - '[[case-yihang-dual-triangle-truman-feishu-to-slide-ppt-evolution]]'
+- '[[concept-yihang-methodology-production-pipeline]]'
 tags:
 - audience:general
 - scene:diagnosis

@@ -37,6 +37,7 @@ related:
 - '[[model-quality-four-levels]]'
 - '[[business-formula-to-kdo-card-quality]]'
 - '[[case-daxin-vikki-community-contrast]]'
+- '[[concept-open-source-knowledge-usage-boundary]]'
 pipeline:
 - confidence-draft
 discoverable_by:

@@ -38,6 +38,7 @@ related:
 - '[[sk-ai-problem-validation]]'
 - tool-纪浩-Agent开工检查单制作法
 - tool-纪浩-处理AI生成代码运行异常
+- '[[case-纪浩-from-zip-to-five-layers]]'
 diagnostic_signals:
 - lens: token浪费
   follow_up: 每次向AI提问前3秒判断：这个问题解决后我的行为会改变吗？会=problem，不会=question

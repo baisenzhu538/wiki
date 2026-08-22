@@ -47,6 +47,9 @@ related:
 - '[[case-yitang-ymodel-children-reading-retention]]'
 - '[[case-yitang-ymodel-vicki-cross-domain-transfer]]'
 - '[[case-yitang-ymodel-watermelon-challenge]]'
+- '[[concept-yihang-ai-feature-thinking]]'
+- '[[concept-yitang-education-formula]]'
+- '[[concept-yitang-model-system-boundary]]'
 aliases:
 - Y模型迭代发动机
 - Y模型循环操作法

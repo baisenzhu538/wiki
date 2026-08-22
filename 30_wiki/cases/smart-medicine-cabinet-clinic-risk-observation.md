@@ -47,6 +47,8 @@ related:
 - '[[smart-medicine-cabinet-national-policy-redlines]]'
 - '[[smart-medicine-cabinet-o2o-cost-structure]]'
 - '[[smart-medicine-cabinet-regional-policy-map]]'
+- '[[concept-smart-medicine-cabinet-digital-pharmacy-diagnosis]]'
+- '[[concept-smart-medicine-cabinet-international-models]]'
 query_triggers: null
 difficulty: advanced
 prerequisites: smart-medicine-cabinet-national-policy-redlines

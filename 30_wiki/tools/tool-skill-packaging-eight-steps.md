@@ -47,6 +47,7 @@ related:
 - '[[case-truman-ai-skill-engineering-guide]]'
 - '[[case-truman-ai-skill-self-packaging]]'
 - '[[case-wechat-dy_7666832665312982138]]'
+- '[[concept-ai-style-knowledge-docs]]'
 review_date: 2026-08-16
 ---
 

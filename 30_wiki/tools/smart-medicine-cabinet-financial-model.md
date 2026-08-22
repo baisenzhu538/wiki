@@ -50,6 +50,7 @@ related:
 - - - yt-five-step-method
 - - - yt-unit-model-three-tools
 - '[[case-smart-medicine-cabinet-business-model-validation]]'
+- '[[smart-medicine-cabinet-clinic-risk-observation]]'
 query_triggers:
 - src_unknown
 - src_unknown

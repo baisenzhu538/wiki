@@ -31,6 +31,8 @@ related:
 - '[[yitang-research-domain-digest]]'
 - '[[pending_unknown]]'
 - case-opc-agent-wave1-real-model-testing
+- '[[concept-yitang-research-objective]]'
+- '[[concept-yitang-research-scope]]'
 updated_at: '2026-06-29'
 tags:
 - audience:general

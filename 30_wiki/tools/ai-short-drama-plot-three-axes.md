@@ -32,6 +32,8 @@ discoverable_by:
   - 短剧剧本的情节张力设计工具
 related:
 - '[[ai-short-drama-conflict-three-axes]]'
+- '[[ai-short-drama-ice-fire-scripting-compass]]'
+- '[[ai-short-drama-platform-policy-comparison]]'
 tags:
 - audience:executor
 - scene:execution

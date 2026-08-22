@@ -30,6 +30,7 @@ related:
 - '[[tool-李诞-内容创作中的观察训练法]]'
 - '[[tool-李诞-阅读重读机制：与书籍的-因缘-相遇]]'
 - '[[tool-李诞-面对过去错误的平静心法]]'
+- '[[concept-wanghuan-tacit-knowledge-examples]]'
 tags:
 - audience:executor
 - scene:execution

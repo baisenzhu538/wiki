@@ -29,6 +29,7 @@ related:
   - tool-团队复盘引导清单
   - tool-复盘浪费九宗罪自检清单
   - '[[bridge-dual-track-feature-system]]'
+  - '[[case-千惠供应链复盘]]'
 tags:
   - method:agent-spec
   - method:coaching

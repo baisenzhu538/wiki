@@ -38,6 +38,7 @@ related:
 - '[[framework-ai-accelerated-strategy-cycle]]'
 - '[[framework-yitang-growth-flywheel]]'
 - '[[tool-逐字稿练习演讲]]'
+- '[[concept-pan-product-vs-traditional-management]]'
 review_date: '2026-06-28'
 tags:
 - audience:manager

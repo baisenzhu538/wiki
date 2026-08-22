@@ -38,6 +38,8 @@ related:
 - '[[case-compas-racial-bias]]'
 - '[[case-deepfake-market-misuse]]'
 - '[[case-dutch-childcare-scandal]]'
+- '[[concept-ai-information-quality-ladder]]'
+- '[[concept-ai-neutrality-bias]]'
 tags:
 - audience:executor
 - scene:execution

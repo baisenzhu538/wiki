@@ -37,6 +37,7 @@ related:
 - '[[tool-strategy-blue-ocean-canvas]]'
 - concept-X型Y型决策习惯
 - concept-发现决策
+- '[[concept-strategy-2024-2026-supplement]]'
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 tags:

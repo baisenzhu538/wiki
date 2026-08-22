@@ -37,6 +37,11 @@ related:
 - '[[case-ji-hao-ui-design-constraint-evolution]]'
 - '[[case-yitang-ai-painting-commercialization]]'
 - '[[case-yitang-ai-time-management-coach]]'
+- '[[concept-ai-amara-law-business-judgment]]'
+- '[[concept-candy-ai-as-collaborator]]'
+- '[[concept-mcp-protocol]]'
+- '[[concept-yitang-ai-research-10-assumptions]]'
+- '[[concept-yitang-ai-research-human-loop]]'
 tags:
 - audience:manager
 - scene:reference

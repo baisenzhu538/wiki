@@ -53,6 +53,7 @@ related:
 - '[[tool-mcp-reachability-check]]'
 - '[[tool-kdo-help]]'
 - '[[graph-rag]]'
+- '[[concept-kdo-feature-registry]]'
 ---
 
 # KDO 主题域 MOC

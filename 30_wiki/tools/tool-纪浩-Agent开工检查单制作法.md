@@ -39,6 +39,7 @@ related:
 - '[[tool-纪浩-Agent技能市场设计法]]'
 - '[[tool-纪浩-Problem与Question区分法]]'
 - '[[case-ji-hao-skills-market]]'
+- '[[case-纪浩-from-zip-to-five-layers]]'
 diagnostic_signals:
 - lens: 执行失控
   follow_up: 先和AI把任务做一遍，记录问题和决策点。把坑提前暴露，生成检查单

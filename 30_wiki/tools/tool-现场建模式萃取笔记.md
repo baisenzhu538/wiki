@@ -41,6 +41,7 @@ related:
 - '[[tool-自我反馈修正笔记姿势]]'
 - yt-entrepreneur-research-cognition
 - yt-note-l6-extraction
+- '[[concept-streaming-extraction-pattern]]'
 tags:
 - audience:executor
 - scene:execution

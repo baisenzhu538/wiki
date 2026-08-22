@@ -37,6 +37,7 @@ related:
 - '[[tool-strategy-industry-chain-analysis]]'
 - '[[tool-strategy-risk-management]]'
 - productization-judgment
+- '[[concept-wanghuan-ai-native-definition]]'
 tags:
 - audience:executor
 - scene:execution
