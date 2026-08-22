@@ -681,3 +681,25 @@ batch_reviewed_4th: PASS A（2026-08-22 欧阳锋，dk-p11 TODO 闭环 + 复扫 
 **A 级理由**：纯增 0 删 + 复扫真实 + 已存在链识别正确（flatten 深度误报说明清晰，生产无影响）+ path-scoped 纪律延续。
 
 **批次验收流程**：未走 queue_transition review；已划段行 + 恢复 queued（第十八批基线 = 3511）。
+
+
+---
+
+## 执行报告 · 第十八批（2026-08-22 老顽童）
+
+**范围**：250 条（84 张卡：dk/cases/决策域）
+
+| 项 | 值 |
+|:--|:--|
+| 基线 | 3511（第十七批后） |
+| 上批 TODO | 无新增（第十七批 PASS A） |
+| 目标卡数 | 84（dk 暗知识 + cases + 决策域等） |
+| 脚本修复 | inline related: [] 格式（dk-modeling-essence-predictive 唯一）→ block 列表替换 + flatten_simple 嵌套 list 提取 |
+| 附修（格式类） | dk-modeling-essence-predictive 补 ## Critique 节（dk 七段结构，#217 R2 顺手合规） |
+| 新增链数 | 250（1 already） |
+| 验证 | parse_frontmatter 84/84 OK；行号污染 0；只增 related |
+| 复扫输出 | 3511 → 3262（-249）✅ |
+| pre-submit | 抽查 dk-modeling-essence-predictive PASS（index --incremental 刷新后） |
+| commit | 4ae5d6750（32 卡）+ 160efc70f（51 卡补提交；误用 batch17 目标列表致首批不完整，已纠正） |
+
+**累计进度**：18 批 4500 条 / 复扫 7472 → 3262（原口径 -4210）
