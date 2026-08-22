@@ -86,3 +86,22 @@ grade: A
 - 指标 11 口径 = 任务单含 `## 执行报告` 节比例（排除"完成后写执行报告"指引文本）
 - 复盘覆盖率角色集合 = 7 主角色（含 fengqingyang），A 级 = daily-context 最新文件 ≤3 天
 - 未动其它文件；时间胶囊 git_head/queue_tail 同步更新（维护职责）
+
+## 终审记录（2026-08-22 欧阳锋 · PASS A）
+
+**验收标准逐条核对（O3 实测）**：
+1. `full-library-rescan.py --health` 一条命令 ✅——实测输出 11 指标表（1-8/11，含 W3 基线列/趋势标记/待定义清单）+ 报告落盘 `60_feedback/auto/health-check-20260822.md`
+2. W3 基线对账 ✅——draft 798/2865（27.9%）与基线完全一致（分母同源 find 口径）；parse-error 0（#409 修复生效）；related-asymmetry 1274（#411 实时快照）；队列漂移 0；未登记建议书 0
+3. 指标 8 职责分离 ✅——只读计数不代登记（#421 归登记），检出同源 yaml.safe_load（E017）
+
+**O3 独立验证**：
+- 测试：`test_health_metrics.py` **5 passed**（独立跑）✅
+- audit_queue_integrity bug 修复实锤：L246/L280 `task_id = str(fm.get("id", ...))`——yaml 解析 id 为 int 统一转 str 匹配（指标 7 取数依赖，修复前必崩）✅
+- 回归：--check parse-error rc 0 / missing-updated-at rc 1（FAIL 语义未破坏）✅
+
+**A 级理由**：
+1. **G4 第 2 步仪器化落地**——"不能积累太多问题"从口号变可复扫体检（11 指标 + 基线列 + 趋势标记）
+2. 取数依赖 bug 自查自修（audit int/str）
+3. **待定义诚实**——卡片复用率/退回率/返工轮次留接口不硬造，单点验证结论明确（退回率 git log 计数脆弱 → 建议立项流转日志基建，已记观察）
+
+**遗留**：流转日志基建（退回率/返工轮次取数依赖）建议立项；健康报告第一读者=风清扬（W8 路由）。
