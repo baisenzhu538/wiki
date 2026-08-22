@@ -1,11 +1,11 @@
 ---
 id: 411
 assignee: hermes
-status: queued
+status: in_progress
 title: related-asymmetry 存量分批回填（P2，欧阳锋 08-22 立项）：7472 条单向链按域分批消化——#383/#384/#406 回链线延续
 priority: P2
 dependency: []
-updated_at: '2026-08-22T03:51:33.390845+00:00'
+updated_at: '2026-08-22T03:56:58.262549+00:00'
 batch_reviewed: first（2026-08-22 欧阳锋 PASS A-，批次验收非整单完成）
 ---
 
