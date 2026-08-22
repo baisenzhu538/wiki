@@ -75,3 +75,6 @@ updated_at: 2026-08-09
 | 2026-08-21 | 黄药师 | #401 JSON 输出 | rule-gate-inventory --json 因规则文本含不可见字符 → JSONDecodeError（两次修复） | 教训复现：涉及不可见字符的代码必须 ensure_ascii/转义写法+读回验证（08-20 U+FFFD 教训同族） |
 | 2026-08-21 | 黄药师 | 提审命令 | bash cd 到 KDO 仓后 queue_transition 相对路径找不到脚本，提审命令报错 2 次（工作目录漂移） | queue_transition 应用绝对路径调用或脚本内 resolve 自身路径（脚本已有 __file__ resolve，问题是调用方 cwd）——记习惯：提审前 pwd 确认在 wiki 根 |
 | 2026-08-22 | 黄药师 | #418 T2 双轨合并事故 | bash 中文路径下执行 mv/rmdir 链式命令：sales-dialogue-assistant/daily-context/2026-08-16.md 丢失（全盘+快照无恢复源）。bash 对中文目录的 ls 输出与文件系统实际不一致（MSYS2 编码问题）——rmdir 删除的可能是空目录，文件或从未在 bash 看到的路径上。根因初判：中文路径文件操作必须用 Python（os.rename/os.walk）不用 bash mv/ls；批量移动前先 Python 枚举核实 + 逐文件 mv | 
+| 2026-08-22 | 黄药师 | #421 claim | claim 被 #375 处置门禁拦截（任务单含"处置"字样——测试建议书"由王语嫣裁定处置"） | 同 08-21 记录：关键词族命中面偏宽，补内容价值判断节即过；与 #412/#421 两次补节实证合并评估收窄 |
+| 2026-08-22 | 黄药师 | #421 去重 | PROPOSAL-PENDING 段按文件名去重重写，误删同文件第二条历史裁定记录（orchestration-audit 双裁定） | 段重写不得按"文件名唯一"清理历史行——同文件可有多次独立裁定；只防新增，历史行全保留；已 git HEAD 恢复 |
+| 2026-08-22 | 黄药师 | #421 计划任务 | schtasks 注册 kdo-conveyor-probe 被权限分类器拦截（常驻机制需用户确认） | 自动化持久化动作（计划任务/服务）默认需用户明确授权——执行前先问；待用户拍板后注册 |
