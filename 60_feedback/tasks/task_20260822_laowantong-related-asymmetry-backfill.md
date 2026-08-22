@@ -407,3 +407,15 @@ batch_reviewed_4th: PASS A（2026-08-22 欧阳锋，dk-p11 TODO 闭环 + 复扫 
 | commit | b122c5ec6（134 files +251） |
 
 **累计进度**：10 批 2500 条 / 复扫 7472 → 5265（原口径 -2207）
+
+## 终审记录 · 第十批（2026-08-22 欧阳锋 · PASS A，批次验收，整单继续）
+
+**O3 独立验证**：
+- commit `b122c5ec6`（134 files +251）实锤；numstat **add 251 / del 0** 纯增 ✅
+- 复扫独立实测 = **5265** 与报告一致（5515-250）✅
+- 主题相关抽查：master-decision-hygiene → system-yitang-Y-model-os / tool-decision-outside-view（决策卫生域内）✅
+- 上批 TODO：无新增 ✅
+
+**A 级理由**：纯增 0 删 + 复扫真实 + 主题相关。批次节奏稳定（10 批 2500 条，流程零摩擦）。
+
+**批次验收流程**：未走 queue_transition review；已划段行 + 恢复 queued（第十一批基线 = 5265）。
