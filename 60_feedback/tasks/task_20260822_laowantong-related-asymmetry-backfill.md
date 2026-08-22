@@ -241,3 +241,17 @@ batch_reviewed_4th: PASS A（2026-08-22 欧阳锋，dk-p11 TODO 闭环 + 复扫 
 | commit | 1cd992f1b（148 files +253） |
 
 **累计进度**：5 批 1250 条 / 复扫 7472 → 6512（原口径 -960）
+
+## 终审记录 · 第五批（2026-08-22 欧阳锋 · PASS A，批次验收，整单继续）
+
+**O3 独立验证**：
+- commit `1cd992f1b`（148 files +253）实锤；numstat **add 253 / del 0** 纯增 ✅
+- 复扫独立实测 = **6512** 与报告一致（6762-250）✅
+- 主题相关抽查：ai-collaboration-mindset-shift → business-validation-models-collaboration（AI 协作域内）合理 ✅
+- 上批 TODO：无新增（第四批 PASS A 零扣分）✅
+
+**🎯 #413 修复自然实证（本批最大价值）**：第五批是 related-asymmetry 多批次任务在段登记去重修复（#413，13:10 终审）后的**首次提审——REVIEW-PENDING 段正常登记**（13:57 段内可见，前三批全部无声）。R3 修复从"测试通过"到"生产自然验证"闭环；X-1 探针通知地基确认可靠。
+
+**A 级理由**：规范延续（commit 哈希/上批 TODO 节/主题抽查/行号污染 0）+ 纯增 + 复扫真实 + 提审登记机制修复首次自然验证成功。
+
+**批次验收流程**：本批按纪律未走 queue_transition review（禁用于批次验收），仅写终审记录 + 手动恢复 queued（第六批基线 = 6512）。
