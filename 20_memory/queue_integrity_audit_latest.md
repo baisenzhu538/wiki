@@ -1,10 +1,43 @@
 # 队列完整性审计报告
 
-- 审计范围: `/mnt/c/Users/Administrator/Desktop/wiki/60_feedback/tasks`, `/mnt/c/Users/Administrator/Desktop/wiki/70_product/tasks`
-- reviewed 任务单总数: 162
-- 任务单元数据异常数: 0
+- 审计范围: `C:\Users\Administrator\Desktop\wiki\60_feedback\tasks`, `C:\Users\Administrator\Desktop\wiki\70_product\tasks`
+- reviewed 任务单总数: 360
+- 任务单元数据异常数: 33
 - 队列/任务单状态不一致数: 0
 
-任务单元数据无异常。
+## 任务单元数据异常列表（缺 review_date / reviewer / review 文件）
+- `task_20260804_wangyuyan-dk-lu-gui-lv-review`: reviewed 但缺少 review_date
+- `task_20260804_wangyuyan-dk-lu-gui-lv-review`: reviewed 但缺少 reviewer/reviewed_by
+- `task_20260806_huangyaoshi-deadlink-lint-gate`: reviewed 但缺少 review_date
+- `task_20260806_huangyaoshi-deadlink-lint-gate`: reviewed 但缺少 reviewer/reviewed_by
+- `task_20260806_huangyaoshi-deadlink-lint-gate`: reviewed 但无对应 review/audit 文件且无review_date
+- `task_20260806_huangyaoshi-kdo-moc`: reviewed 但缺少 review_date
+- `task_20260806_huangyaoshi-kdo-moc`: reviewed 但缺少 reviewer/reviewed_by
+- `task_20260806_huangyaoshi-kdo-moc`: reviewed 但无对应 review/audit 文件且无review_date
+- `task_20260806_huangyaoshi-master-moc`: reviewed 但缺少 review_date
+- `task_20260806_huangyaoshi-master-moc`: reviewed 但缺少 reviewer/reviewed_by
+- `task_20260806_huangyaoshi-master-moc`: reviewed 但无对应 review/audit 文件且无review_date
+- `task_20260806_huangyaoshi-product-moc`: reviewed 但缺少 review_date
+- `task_20260806_huangyaoshi-product-moc`: reviewed 但缺少 reviewer/reviewed_by
+- `task_20260806_huangyaoshi-product-moc`: reviewed 但无对应 review/audit 文件且无review_date
+- `task_20260806_wangyuyan-deep-review-backlink`: reviewed 但缺少 review_date
+- `task_20260806_wangyuyan-deep-review-backlink`: reviewed 但缺少 reviewer/reviewed_by
+- `task_20260806_wangyuyan-deep-review-core-frameworks`: reviewed 但缺少 review_date
+- `task_20260806_wangyuyan-deep-review-core-frameworks`: reviewed 但缺少 reviewer/reviewed_by
+- `task_20260808_wangyuyan-feature-consumption-pilot`: reviewed 但缺少 review_date
+- `task_20260808_wangyuyan-feature-consumption-pilot`: reviewed 但缺少 reviewer/reviewed_by
+- `task_20260808_wangyuyan-feature-consumption-pilot`: reviewed 但无对应 review/audit 文件且无review_date
+- `task_20260808_wangyuyan-feature-thinking-w3w4`: reviewed 但缺少 review_date
+- `task_20260808_wangyuyan-feature-thinking-w3w4`: reviewed 但缺少 reviewer/reviewed_by
+- `task_20260808_wangyuyan-feature-thinking-w3w4`: reviewed 但无对应 review/audit 文件且无review_date
+- `task_20260809_huangyaoshi-e018-and-protocol-fixes`: reviewed 但缺少 review_date
+- `task_20260809_huangyaoshi-e018-and-protocol-fixes`: reviewed 但缺少 reviewer/reviewed_by
+- `task_20260809_huangyaoshi-e018-and-protocol-fixes`: reviewed 但无对应 review/audit 文件且无review_date
+- `task_20260809_laowantong-agent-production-pipeline`: reviewed 但缺少 review_date
+- `task_20260809_laowantong-agent-production-pipeline`: reviewed 但缺少 reviewer/reviewed_by
+- `task_20260809_laowantong-agent-production-pipeline`: reviewed 但无对应 review/audit 文件且无review_date
+- `task_20260809_wangyuyan-external-agent-feedback-loop`: reviewed 但缺少 review_date
+- `task_20260809_wangyuyan-external-agent-feedback-loop`: reviewed 但缺少 reviewer/reviewed_by
+- `task_20260809_wangyuyan-external-agent-feedback-loop`: reviewed 但无对应 review/audit 文件且无review_date
 
 队列与任务单状态一致（双向检查均无异常）。
