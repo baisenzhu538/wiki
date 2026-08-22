@@ -1,8 +1,8 @@
 ---
 id: 424
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-22T15:16:22.723914+00:00'
+status: pending_review
+updated_at: '2026-08-22T15:17:27.564346+00:00'
 ---
 # #424 agent复盘 治理 P2（T7 归档结构统一 + T9 目录白名单固化）
 
