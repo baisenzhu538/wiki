@@ -42,6 +42,7 @@ related:
 - '[[tool-demand-iceberg-l1-user]]'
 - proposal-prompt-injection-infrastructure
 - tool-yitang-research-industry-scan
+- '[[knowledge-demand-2c-dictionary]]'
 tags:
 - audience:executor
 - scene:execution

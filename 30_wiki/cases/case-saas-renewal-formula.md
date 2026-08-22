@@ -48,6 +48,8 @@ related:
 - '[[case-yitang-farm-machinery-matching]]'
 - '[[dk-strategy-correlation-vs-causation-leverage]]'
 - '[[business-formula-domain-digest]]'
+- '[[yt-business-formula-business-pattern-selector]]'
+- '[[yt-lean-b2b-b2c-hardware-content-testing]]'
 tags:
 - audience:general
 - scene:reference

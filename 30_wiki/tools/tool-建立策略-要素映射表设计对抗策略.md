@@ -45,6 +45,7 @@ related:
 - '[[tool-使用概念辨析卡区分易混淆概念]]'
 - tool-ai-prd-for-ai
 - '[[yt-business-model-partnership]]'
+- '[[skill-research-decision-first-mapping]]'
 tags:
 - audience:executor
 - scene:execution

@@ -33,6 +33,7 @@ related:
   - dk-借假修真与黑盒白盒
   - tool-meeting-basic-principles
   - '[[retrospective-moc]]'
+  - '[[agent-spec-复盘教练]]'
 tags:
   - method:review
   - method:self-diagnosis

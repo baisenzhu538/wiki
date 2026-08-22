@@ -24,6 +24,7 @@ related:
 - '[[dk-kdo-leaky-pipe-pressure]]'
 - '[[proposal-graph-rag-star-fix]]'
 - '[[proposal-kdo-flywheel-infrastructure]]'
+- '[[kdo-watch-health-check-layer]]'
 tags:
 - audience:manager
 - scene:reference

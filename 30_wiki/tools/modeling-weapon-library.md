@@ -40,6 +40,7 @@ related:
 - '[[modeling-level-map]]'
 - '[[case-modeling-gongjianhui-facilitation]]'
 - '[[concept-truman-18-component-cards]]'
+- '[[process-modeling]]'
 tags:
 - audience:executor
 - scene:execution

@@ -22,6 +22,7 @@ related:
 - "[[tool-aesthetic-library-builder]]"
 - "[[case-yihang-truman-aesthetic-library-practices]]"
 - "[[method-yitang-y-model-engine-cycle]]"
+- '[[method-yihang-knowledge-battle-station]]'
 tags:
 - audience:practitioner
 - scene:howto

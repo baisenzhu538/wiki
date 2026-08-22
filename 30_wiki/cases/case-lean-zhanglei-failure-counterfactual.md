@@ -34,6 +34,7 @@ related:
 - framework-demand-lean-bridge
 - framework-strategy-lean-validation
 - '[[dk-p11-regex-cutoff]]'
+- '[[yt-five-step-cross-step-1]]'
 tags:
 - audience:general
 - scene:reference

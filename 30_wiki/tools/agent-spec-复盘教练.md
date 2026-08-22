@@ -32,6 +32,8 @@ related:
   - '[[case-千惠供应链复盘]]'
   - '[[framework-truman-feature-layered-system]]'
   - '[[framework-truman-feature-thinking-core]]'
+  - '[[agent-spec-basic-skills-coach]]'
+  - '[[agent-spec-coaching-leadership-assistant]]'
 tags:
   - method:agent-spec
   - method:coaching

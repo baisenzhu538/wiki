@@ -65,6 +65,8 @@ related:
 - '[[tool-费曼简单提炼法]]'
 - '[[tool-辩证讨论法]]'
 - '[[concept-ji-hao-ai-collaboration-methodology]]'
+- '[[sk-ai-ai-workspace-setup]]'
+- '[[sk-ai-narrative-test]]'
 created_at: '2026-06-08'
 updated_at: '2026-06-17'
 pipeline:

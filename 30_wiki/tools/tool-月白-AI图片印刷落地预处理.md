@@ -34,6 +34,7 @@ related:
 - 'tool-月白-AI对话情绪管理法'
 - 'tool-月白-AI工艺图人工复核法'
 - 'dk-three-context-formula'
+- '[[modeling-to-kdo-toolchain]]'
 tags:
 ---
 # 技能：AI图片印刷落地预处理

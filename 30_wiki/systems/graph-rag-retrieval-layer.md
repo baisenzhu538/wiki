@@ -32,6 +32,7 @@ related:
 - '[[contradictions]]'
 - '[[agent-ecosystem-design]]'
 - '[[proposal-graph-rag-star-fix]]'
+- '[[kdo-watch-health-check-layer]]'
 tags:
 - audience:general
 - scene:reference

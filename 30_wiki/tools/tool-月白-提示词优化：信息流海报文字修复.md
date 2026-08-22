@@ -37,6 +37,7 @@ related:
 - 'tool-月白-AIGC餐饮海报优化一抽流'
 - 'dk-aesthetic-redline-doc'
 - '[[dk-yb6-midjourney-chinese-text-fix]]'
+- '[[yt-business-model-channel-economics]]'
 tags:
 ---
 # 技能：提示词优化：信息流海报文字修复

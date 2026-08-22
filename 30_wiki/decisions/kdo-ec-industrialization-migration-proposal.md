@@ -32,6 +32,8 @@ related:
   - '[[dk-c2-dual-status-machine]]'
   - '[[dk-kdo-leaky-pipe-pressure]]'
   - '[[plan_20260503_f3e9a2b1-improvement-plan]]'
+  - '[[kdo-watch-health-check-layer]]'
+  - '[[sprint-2-gate-enrich-evidence]]'
 ---
 # EC工业化规范 → KDO管线迁移方案（征求意见稿）
 

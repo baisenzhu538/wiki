@@ -42,6 +42,7 @@ related:
 - '[[case-bmw-human-ai-collaboration-idle-time]]'
 - '[[case-opc-agent-wave1-real-model-testing]]'
 - '[[sales-domain-digest]]'
+- '[[system-yitang-Y-model-os]]'
 tags:
 - audience:manager
 - scene:reference

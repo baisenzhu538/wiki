@@ -41,6 +41,7 @@ related:
 - '[[tool-yitang-sales-process-decomposition]]'
 - '[[tool-yitang-sales-toolkit-radar]]'
 - '[[conversion-rate-domain-digest]]'
+- '[[agent-spec-meeting-assistant]]'
 created_at: 2026-07-08
 updated_at: '2026-07-14'
 tcp_role: P

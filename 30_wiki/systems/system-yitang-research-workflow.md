@@ -23,6 +23,7 @@ related:
 - business-research-skill-oscar-13-weapon-system
 - '[[plan_20260621_crawl4ai-firecrawl-evaluation]]'
 - '[[plan_20260621_retrieval-architecture-upgrade]]'
+- '[[workflow-knowledge-collision]]'
 diagnostic_signals:
 - framework_lens: 端到端工作流——7步从问题到报告
   follow_up_question: 你现在卡在哪一步？每一步的产出物是什么？

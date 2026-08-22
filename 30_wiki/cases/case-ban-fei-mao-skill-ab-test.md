@@ -30,6 +30,7 @@ discoverable_by:
 related:
 - '[[ai-collaboration-domain-digest]]'
 - '[[yitang-domain-digest]]'
+- '[[yt-lean-consumer-deep-experience-testing]]'
 wiki_refs: null
 definition_of_done: null
 pipeline: null

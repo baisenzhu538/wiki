@@ -19,6 +19,7 @@ related:
   - '[[case-半肥猫-course-to-skill]]'
   - '[[dk-kdo-leaky-pipe-pressure]]'
   - '[[kdo-ec-industrialization-migration-proposal]]'
+  - '[[workflow-knowledge-collision]]'
 tags:
 - src_unknown
 - src_unknown

@@ -42,6 +42,10 @@ related:
 - yt-lean-assumption-prioritization
 - yt-pitch-conflict
 - '[[yt-lean-essence]]'
+- '[[yt-lean-assumption-verification-3means]]'
+- '[[yt-lean-false-model-ai]]'
+- '[[yt-lean-growth-stage-gate]]'
+- '[[yt-lean-qualitative-quantitative-research]]'
 diagnostic_signals:
 - framework_lens: 角色未拆分，违反了五步法中"需求假设需先拆用户、场景、问题"的原则；小B与C端的动机、付费逻辑完全不同。
   follow_up_question: 我能否把"自购用户"与"分销团长"拆成两张用户画像，分别列出她们的用户/场景/问题？

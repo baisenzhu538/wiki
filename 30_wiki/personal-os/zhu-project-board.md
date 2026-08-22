@@ -20,6 +20,10 @@ discoverable_by:
 - 进度跟踪
 related:
   - '[[agent-spec-zhu-ai-coach]]'
+  - '[[zhu-future-directions]]'
+  - '[[zhu-lessons-learned]]'
+  - '[[zhu-network-resources]]'
+  - '[[zhu-weekly-reflections]]'
 ---
 
 # 老朱项目线看板

@@ -34,6 +34,7 @@ related:
 - "[[tool-yitang-project-breakdown-cheatsheet]]"
 - "[[yt-management-basic-skills]]"
 - '[[dk-meeting-asset-harvest]]'
+- '[[agent-spec-project-management-assistant]]'
 tags:
 - audience:executor
 - scene:execution

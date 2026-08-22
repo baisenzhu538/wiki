@@ -16,6 +16,7 @@ related:
 - agent-spec-coaching-leadership-coach
 - tool-agent-spec-yitang-daily-weekly-meeting-host
 - workflow-kdo-agent-production-pipeline
+- '[[agent-spec-research-explosion-partner]]'
 created_at: 2026-08-09
 updated_at: 2026-08-09
 domain:

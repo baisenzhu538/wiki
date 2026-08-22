@@ -41,6 +41,8 @@ related:
 - '[[tool-通过请吃饭获取行业内部资料]]'
 - '[[tool-按图索骥改良外部模板]]'
 - tool-ai-prd-for-ai
+- '[[yt-product-kernel-iteration]]'
+- '[[sk-ai-ai-workspace-setup]]'
 tags:
 - audience:executor
 - scene:execution

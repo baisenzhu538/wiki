@@ -3,6 +3,8 @@ id: index
 title: index.md
 type: index
 status: stable
+related:
+  - '[[kdo-protocol]]'
 ---
 # Wiki Index
 

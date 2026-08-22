@@ -11,6 +11,8 @@ related:
 - '[[zhu-project-board]]'
 - '[[zhu-strategic-conclusions]]'
 - '[[user-insight-profile]]'
+- '[[zhu-lessons-learned]]'
+- '[[zhu-weekly-reflections]]'
 tags:
 - audience:manager
 - scene:reference

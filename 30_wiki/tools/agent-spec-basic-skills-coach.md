@@ -34,6 +34,9 @@ related:
 - dk-agent-access-kdo-pitfalls
 - case-252-quality-gate-pilot
 - '[[framework-r-type-research-partner-five-state]]'
+- '[[agent-spec-coaching-leadership-assistant]]'
+- '[[agent-spec-meeting-assistant]]'
+- '[[agent-spec-research-explosion-partner]]'
 tags:
 - method:agent-spec
 - method:coaching

@@ -20,6 +20,7 @@ related:
   - "[[tool-一堂-kernel-three-questions]]"
   - "[[case-yi-tang-ai-gao-kao-zhi-yuan-kernel-mismatch]]"
   - "[[pending_unknown]]"
+  - '[[yt-product-kernel-validation]]'
 aliases:
   - 技能：产品内核加减法
   - 技能

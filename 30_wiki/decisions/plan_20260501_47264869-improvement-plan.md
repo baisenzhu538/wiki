@@ -26,6 +26,7 @@ related:
 - kdo-protocol-implementation-roadmap
 - '[[plan_20260501_ca61cdd7-improvement-plan]]'
 - '[[plan_20260501_e1e150b9-improvement-plan]]'
+- '[[kdo-batch-produce-req014]]'
 ---
 # Improvement Plan plan_20260501_47264869
 

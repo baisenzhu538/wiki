@@ -263,6 +263,10 @@ related:
 - '[[framework-科学决策三角形]]'
 - '[[framework-问题边界与Problem澄清五层结构]]'
 - '[[framework-高水平共识曲线]]'
+- '[[yt-decision-abcd-model]]'
+- '[[yt-unit-model-ladder]]'
+- '[[prompt-demand-ai-coach]]'
+- '[[process-modeling]]'
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 source_refs:

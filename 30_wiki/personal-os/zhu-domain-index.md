@@ -17,6 +17,8 @@ discoverable_by:
 - 域导航
 - 老朱项目
 - 个人OS
+related:
+  - '[[opc-ai-sales-agent-architecture]]'
 ---
 
 # 老朱个人域索引

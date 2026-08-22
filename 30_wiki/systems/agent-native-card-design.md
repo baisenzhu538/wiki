@@ -39,6 +39,8 @@ related:
 - '[[sprint-6-cli-gap-proposal]]'
 - '[[framework-TCPR底层网络协议]]'
 - '[[framework-TCPR皇冠模型]]'
+- '[[互联网医院项目]]'
+- '[[agent-spec-codex-teammate]]'
 tags:
 - audience:manager
 - scene:reference

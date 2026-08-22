@@ -35,6 +35,7 @@ related:
 - '[[tool-三层目标对齐法]]'
 - tool-strategy-four-layers
 - case-strategy-failure-09-boeing
+- '[[yt-lean-consumer-deep-experience-testing]]'
 tags:
 - audience:general
 - scene:reference

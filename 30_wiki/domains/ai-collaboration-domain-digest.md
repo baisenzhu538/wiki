@@ -71,6 +71,7 @@ related:
 - '[[dk-ai-scarcest-resource-is-self]]'
 - '[[dk-yitang-ai-research-prompt-craft]]'
 - '[[dk-yitang-research-ai-hallucination]]'
+- '[[sk-ai-old-small-checklist]]'
 tags:
 - audience:manager
 - scene:reference

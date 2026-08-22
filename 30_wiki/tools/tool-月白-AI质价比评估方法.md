@@ -35,6 +35,7 @@ related:
 - 'tool-月白-AI图片印刷落地预处理'
 - 'tool-月白-AI对话情绪管理法'
 - 'dk-three-context-formula'
+- '[[yt-business-model-scalability]]'
 tags:
 ---
 # 技能：AI质价比评估方法

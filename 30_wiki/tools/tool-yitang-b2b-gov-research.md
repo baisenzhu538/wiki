@@ -55,6 +55,10 @@ related:
 - concept-yitang-research-objective
 - '[[yt-tob-cash-flow]]'
 - '[[yt-tob-revenue-is-customer-cost]]'
+- '[[yt-tob-core-characteristics]]'
+- '[[yt-tob-customer-tiering]]'
+- '[[yt-tob-demand-scenarios]]'
+- '[[yt-tob-product-kernel]]'
 tags:
 - audience:executor
 - scene:execution

@@ -61,6 +61,7 @@ related:
 - '[[dk-wanghuan-standard-by-iteration]]'
 - '[[yt-note-p-c-role-boundary-realworld]]'
 - '[[human-ai-collaboration-double-triangle]]'
+- '[[mineru-pdf-parsing-setup]]'
 tags:
 - audience:executor
 - scene:reference

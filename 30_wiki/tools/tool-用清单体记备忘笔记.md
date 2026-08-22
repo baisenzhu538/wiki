@@ -42,6 +42,7 @@ related:
 - '[[tool-checklist-cheatsheet-modeling]]'
 - '[[dk-infrastructure-guardrails-over-checklist]]'
 - '[[dk-modeling-ai-self-retrospection]]'
+- '[[sk-ai-old-small-checklist]]'
 tags:
 - audience:executor
 - scene:execution

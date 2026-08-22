@@ -38,6 +38,7 @@ related:
 - '[[yt-decision-width-method]]'
 - '[[dk-infrastructure-guardrails-over-checklist]]'
 - '[[dk-modeling-ai-self-retrospection]]'
+- '[[sk-ai-old-small-checklist]]'
 tags:
 ---
 # 技能：供应商信息对齐清单法

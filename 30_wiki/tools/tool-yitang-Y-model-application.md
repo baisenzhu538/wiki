@@ -55,6 +55,11 @@ related:
 - '[[yt-entrepreneur-truth-seeking]]'
 - '[[yt-model-liberate-thinking-layers]]'
 - '[[framework-yitang-y-model-cross-domain-fusion]]'
+- '[[yt-unit-model-overview]]'
+- '[[method-yitang-y-model-structured-form]]'
+- '[[opc-ai-sales-agent-architecture]]'
+- '[[agent-native-card-design]]'
+- '[[system-yitang-Y-model-os]]'
 created_at: 2026-07-03
 updated_at: '2026-07-03'
 tags:

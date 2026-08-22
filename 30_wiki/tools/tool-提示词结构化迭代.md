@@ -49,6 +49,7 @@ related:
 - '[[tool-模型组合调用]]'
 - tool-ai-prd-for-ai
 - '[[dk-yb6-midjourney-chinese-text-fix]]'
+- '[[sk-ai-ai-workspace-setup]]'
 tags:
 - audience:executor
 - scene:execution

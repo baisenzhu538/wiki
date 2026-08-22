@@ -31,6 +31,7 @@ related:
 - '[[dk-p6-session-resume-fail]]'
 - '[[plan_20260621_crawl4ai-firecrawl-evaluation]]'
 - '[[framework-yitang-research-weapon-supplement-2026]]'
+- '[[feishu-docx-pagination-extraction]]'
 diagnostic_signals:
 - framework_lens: 爬虫工具匹配矩阵
   follow_up_question: 目标是单页抽取还是全站爬取？需要 JS 渲染吗？数据量多大？

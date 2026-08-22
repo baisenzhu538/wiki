@@ -38,6 +38,7 @@ related:
 - business-research-skill-oscar-13-weapon-system
 - '[[case-demand-milkshake-jtbd]]'
 - '[[case-demand-iceberg-few-shot]]'
+- '[[knowledge-demand-2c-dictionary]]'
 tags:
 - audience:executor
 - scene:execution

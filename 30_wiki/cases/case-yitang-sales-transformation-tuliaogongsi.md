@@ -46,6 +46,7 @@ related:
 - '[[tool-opc-sales-dialogue-assistant]]'
 - '[[case-一堂-触点篇案例库]]'
 - '[[case-一堂-组合篇案例库]]'
+- '[[opc-ai-sales-agent-architecture]]'
 created_at: 2026-07-02
 updated_at: 2026-07-02
 tags:

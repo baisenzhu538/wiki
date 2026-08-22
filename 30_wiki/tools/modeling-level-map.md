@@ -43,6 +43,7 @@ related:
 - '[[yt-business-formula-l6-essence-formulas]]'
 - '[[dk-modeling-jump-step-cost]]'
 - '[[dk-process-is-scar-tissue]]'
+- '[[process-modeling]]'
 tags:
 - audience:executor
 - scene:execution

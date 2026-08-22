@@ -35,6 +35,7 @@ related:
 - '[[yt-decision-width-method]]'
 - '[[dk-infrastructure-guardrails-over-checklist]]'
 - '[[dk-modeling-ai-self-retrospection]]'
+- '[[sk-ai-old-small-checklist]]'
 definition_of_done:
 - src_unknown
 - src_unknown

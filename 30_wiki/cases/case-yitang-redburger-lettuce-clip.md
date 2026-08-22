@@ -33,6 +33,7 @@ related:
 - '[[framework-yitang-jiefang-sixiang]]'
 - '[[yt-decision-y-model]]'
 - '[[dk-yitang-camel-dung-process-inertia]]'
+- '[[method-yitang-micro-innovation]]'
 tags:
 - audience:general
 - scene:reference

@@ -25,6 +25,7 @@ related:
 - '[[tool-devils-advocacy]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+- '[[yt-business-model-unit-economics]]'
 diagnostic_signals:
 - framework_lens: CAC与LTV计算——CAC需要包含所有获客成本
   follow_up_question: 你的CAC是否包含了所有营销费用？包括人力、内容、活动等？

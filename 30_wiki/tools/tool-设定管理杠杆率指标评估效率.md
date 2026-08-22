@@ -47,6 +47,7 @@ related:
 - tool-使用优先级快筛卡锁定核心矛盾
 - tool-设计对抗效果追踪看板
 - '[[yt-product-kernel-key-conversion]]'
+- '[[yt-business-model-scalability]]'
 tags:
 - audience:manager
 - scene:execution

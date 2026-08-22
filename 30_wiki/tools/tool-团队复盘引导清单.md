@@ -34,6 +34,7 @@ related:
   - tool-meeting-basic-principles
   - tool-meeting-result-principles
   - '[[case-千惠供应链复盘]]'
+  - '[[agent-spec-复盘教练]]'
 tags:
   - method:review
   - method:team-facilitation

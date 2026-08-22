@@ -49,6 +49,7 @@ related:
 - '[[tool-模型匹配调度]]'
 - '[[tool-模型组合调用]]'
 - tool-ai-prd-for-ai
+- '[[yt-business-model-channel-economics]]'
 tags:
 - audience:executor
 - scene:execution

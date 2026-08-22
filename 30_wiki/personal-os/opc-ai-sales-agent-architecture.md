@@ -51,6 +51,9 @@ related:
 - '[[case-opc-agent-wave1-real-model-testing]]'
 - '[[framework-TCPR底层网络协议]]'
 - '[[framework-yitang-sales-target-tradeoffs]]'
+- '[[runbook-agent-spec-to-runtime]]'
+- '[[zhu-codebase-ai-orchestration]]'
+- '[[system-yitang-Y-model-os]]'
 tags:
 - audience:manager
 - scene:reference

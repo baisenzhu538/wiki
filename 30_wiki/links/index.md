@@ -3,6 +3,8 @@ id: index
 title: Backlinks Index
 type: index
 status: stable
+related:
+  - '[[kdo-protocol]]'
 ---
 # Backlinks Index
 

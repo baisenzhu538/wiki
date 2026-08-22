@@ -21,6 +21,8 @@ tags:
 - audience:manager
 - scene:reference
 - skill-level:beginner
+related:
+  - '[[kdo-protocol]]'
 ---
 # 案例库索引
 

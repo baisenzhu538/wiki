@@ -30,6 +30,7 @@ related:
 - '[[tool-纪浩-低成本输出验证法]]'
 - '[[tool-马易-平台模式验证法]]'
 - '[[tool-马易-AI落地四阶段验证法]]'
+- '[[sk-ai-landing-five-steps]]'
 definition_of_done:
 - src_unknown
 - src_unknown

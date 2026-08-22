@@ -38,6 +38,8 @@ related:
 - '[[domain-demand-analysis-index]]'
 - '[[framework-demand-iceberg]]'
 - '[[tool-demand-assessment-triangle]]'
+- '[[knowledge-demand-2c-dictionary]]'
+- '[[skill-demand-analysis]]'
 diagnostic_signals:
 - signal: Agent推演需求时输出太泛——"用户需要更好的体验"
   lens: 缺Few-Shot——Agent没有看到过具体的需求拆解案例

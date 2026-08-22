@@ -39,6 +39,7 @@ related:
 - '[[tool-现场建模式萃取笔记]]'
 - '[[tool-用清单体记备忘笔记]]'
 - '[[tool-用topdown方式整理内化笔记]]'
+- '[[yt-business-model-channel-economics]]'
 tags:
 - audience:executor
 - scene:execution

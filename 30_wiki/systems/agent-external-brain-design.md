@@ -27,6 +27,7 @@ related:
 - '[[design-ai-image-generation]]'
 - '[[dk-f12-builder-context-deadlock]]'
 - '[[dk-p8-toolkit-forget]]'
+- '[[workflow-knowledge-collision]]'
 tags:
 - audience:manager
 - scene:reference

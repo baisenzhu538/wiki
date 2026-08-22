@@ -34,6 +34,7 @@ related:
 - '[[yt-decision-width-method]]'
 - '[[dk-infrastructure-guardrails-over-checklist]]'
 - '[[dk-modeling-ai-self-retrospection]]'
+- '[[sk-ai-old-small-checklist]]'
 updated_at: '2026-06-29'
 tags:
 - audience:executor

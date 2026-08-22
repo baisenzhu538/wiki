@@ -24,6 +24,8 @@ related:
 - '[[agent-spec-duanwangye-publisher]]'
 - '[[agent-spec-hongqigong-multimodal]]'
 - '[[case-feishu-live259-l3-extraction]]'
+- '[[skill-duanwangye-prezi]]'
+- '[[skill-feishu-doc-l3-extraction]]'
 tags:
 - audience:executor
 - scene:execution

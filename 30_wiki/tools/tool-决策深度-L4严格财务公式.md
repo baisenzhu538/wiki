@@ -31,6 +31,7 @@ related:
 - tool-ai-prd-for-ai
 - concept-X型Y型决策习惯
 - '[[yt-barrier-network-effects-deep]]'
+- '[[xingangwan-pharma-business-formulas]]'
 updated_at: '2026-06-29'
 tags:
 - audience:executor

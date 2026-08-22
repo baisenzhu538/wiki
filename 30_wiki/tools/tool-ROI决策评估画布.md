@@ -39,6 +39,7 @@ related:
 - concept-发现决策
 - '[[concept-strategy-2024-2026-supplement]]'
 - '[[dk-research-decision-first-mapping]]'
+- '[[yt-business-model-scalability]]'
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 tags:

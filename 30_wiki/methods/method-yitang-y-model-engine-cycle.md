@@ -52,6 +52,7 @@ related:
 - '[[concept-yitang-model-system-boundary]]'
 - '[[dk-ai-collaboration-degradation-spiral]]'
 - '[[dk-yihang-report-book-learner]]'
+- '[[method-yihang-aesthetic-fast-build]]'
 aliases:
 - Y模型迭代发动机
 - Y模型循环操作法

@@ -33,6 +33,7 @@ related:
 - yt-entrepreneur-needs-analysis
 - '[[yt-skill-checklist-as-ai-protocol]]'
 - '[[视觉prompt三层操作系统-srom-visual-os]]'
+- '[[yt-demand-jtbd-application]]'
 tags:
 - audience:executor
 - scene:reference

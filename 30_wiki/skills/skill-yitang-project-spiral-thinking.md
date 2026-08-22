@@ -29,6 +29,8 @@ related:
   - "[[yt-decision-depth-ladder]]"
   - "[[framework-yitang-high-level-plan]]"
   - '[[case-yitang-leo-website-redesign]]'
+  - '[[yt-decision-y-model-philosophical-roots]]'
+  - '[[agent-spec-project-management-assistant]]'
 diagnostic_signals:
 - framework_lens: 螺旋思考缺失——方案没定就开始执行
   follow_up_question: 你现在的行动是方案层还是执行层？方案层的三个问题（背景/目标/关键路径）你想清楚了吗？

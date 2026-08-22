@@ -45,6 +45,7 @@ related:
 - 边缘切入案例
 - 人机协作双三角
 - 标签审核案例
+- '[[agent-spec-dual-triangle-canvas-filler]]'
 tags:
 - audience:general
 - scene:reference

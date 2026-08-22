@@ -45,6 +45,10 @@ related:
 - '[[case-yitang-weekly-modeling-engine]]'
 - '[[yt-lean-essence]]'
 - '[[dk-yb1-aigc-mvp-before-ps]]'
+- '[[yt-lean-assumption-prioritization]]'
+- '[[yt-lean-false-model-ai]]'
+- '[[yt-lean-growth-stage-gate]]'
+- '[[yt-lean-qualitative-quantitative-research]]'
 wiki_refs:
 - src_unknown
 - src_unknown

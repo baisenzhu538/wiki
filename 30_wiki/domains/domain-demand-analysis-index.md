@@ -46,6 +46,9 @@ related:
 - '[[framework-demand-validation-pipeline]]'
 - '[[dk-demand-signal-vs-noise]]'
 - '[[case-demand-iceberg-few-shot]]'
+- '[[knowledge-demand-2b-dictionary]]'
+- '[[knowledge-demand-2c-dictionary]]'
+- '[[skill-demand-analysis]]'
 tags:
 - audience:manager
 - scene:reference

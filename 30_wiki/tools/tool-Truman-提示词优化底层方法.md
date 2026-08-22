@@ -48,6 +48,7 @@ related:
 - '[[case-yitang-radar-chart-selection]]'
 - '[[dk-yb6-midjourney-chinese-text-fix]]'
 - '[[model-quality-four-levels]]'
+- '[[yt-business-model-channel-economics]]'
 tags:
 - audience:executor
 - scene:execution

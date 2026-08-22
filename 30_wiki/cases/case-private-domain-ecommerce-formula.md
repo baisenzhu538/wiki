@@ -52,6 +52,7 @@ related:
 - '[[yt-business-formula-l6-essence-formulas]]'
 - '[[dk-strategy-correlation-vs-causation-leverage]]'
 - '[[business-formula-domain-digest]]'
+- '[[yt-business-formula-business-pattern-selector]]'
 tags:
 - audience:general
 - scene:reference

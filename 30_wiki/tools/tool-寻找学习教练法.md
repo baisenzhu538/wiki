@@ -28,6 +28,7 @@ related:
 - '[[pending_unknown]]'
 - '[[tool-专家访谈学习]]'
 - '[[tool-从案例中学习正反案例法]]'
+- '[[prompt-demand-ai-coach]]'
 definition_of_done:
 - src_unknown
 - src_unknown

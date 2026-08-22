@@ -38,6 +38,7 @@ related:
 - '[[case-ji-hao-skills-market]]'
 - '[[case-半肥猫-course-to-skill]]'
 - '[[concept-ai-native-organization-five-steps]]'
+- '[[modeling-to-kdo-toolchain]]'
 quality_labels:
 - actionable
 - cited

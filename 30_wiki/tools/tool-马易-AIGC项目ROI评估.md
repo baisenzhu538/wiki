@@ -54,6 +54,7 @@ related:
 - '[[tool-马易-痛点驱动的数字化]]'
 - '[[tool-马易-视频转化关键要素标注校验]]'
 - '[[tool-马易-隐性知识萃取与模型化]]'
+- '[[yt-business-model-scalability]]'
 tags:
 - audience:executor
 - scene:execution

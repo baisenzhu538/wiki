@@ -27,6 +27,7 @@ related:
   - "[[case-yitang-pet-fostering-user-research]]"
   - "[[yitang-research-domain-digest]]"
   - '[[kimi-深度调研集群方法论-deep-research-swarm]]'
+  - '[[skill-research-triangulation-stop-rule]]'
 ---
 
 # 多源交叉验证的停止规则

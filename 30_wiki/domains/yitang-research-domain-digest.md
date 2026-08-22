@@ -95,6 +95,7 @@ related:
 - '[[dk-yitang-survivor-bias-in-research]]'
 - '[[framework-yitang-research-radar]]'
 - '[[framework-yitang-research-weapon-system]]'
+- '[[modeling-scientific-milestones]]'
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 tags:

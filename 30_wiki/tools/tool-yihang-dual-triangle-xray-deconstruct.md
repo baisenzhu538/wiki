@@ -32,6 +32,7 @@ related:
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[method-yihang-dual-triangle-ai-review]]'
 - '[[case-yihang-dual-triangle-jumi-canvas-demo]]'
+- '[[method-yihang-ai-self-xray-iteration]]'
 tags:
 - audience:executor
 - scene:execution

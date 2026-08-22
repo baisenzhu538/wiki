@@ -47,6 +47,8 @@ related:
 - PPT 迭代案例
 - annotations
 - '[[concept-yihang-human-in-the-loop-dual-triangle]]'
+- '[[method-yihang-knowledge-battle-station]]'
+- '[[method-yitang-y-model-engine-cycle]]'
 tags:
 - audience:general
 - scene:reference

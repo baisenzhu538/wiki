@@ -47,6 +47,7 @@ related:
   - '[[case-truman-meeting-leadership]]'
   - '[[case-meeting-roi-awakening]]'
   - '[[dk-meeting-roi-first]]'
+  - '[[agent-spec-project-management-assistant]]'
 tags:
 - audience:executor
 - scene:execution

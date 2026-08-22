@@ -49,6 +49,8 @@ related:
 - '[[concept-yihang-human-in-the-loop-dual-triangle]]'
 - '[[dk-agent-promise-verification]]'
 - '[[framework-agent-card-execution-pattern]]'
+- '[[method-一堂-教练对话引擎协议]]'
+- '[[agent-spec-codex-teammate]]'
 created_at: 2026-07-03
 updated_at: '2026-07-08'
 tags:

@@ -58,6 +58,7 @@ related:
 - '[[case-yitang-sales-transformation-meirongyuan]]'
 - '[[sales-domain-digest]]'
 - '[[framework-yitang-sales-target-tradeoffs]]'
+- '[[opc-ai-sales-agent-architecture]]'
 created_at: 2026-07-02
 updated_at: 2026-07-02
 tags:

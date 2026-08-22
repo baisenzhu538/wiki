@@ -41,6 +41,7 @@ related:
 - '[[dk-f8-phony-wikilink]]'
 - '[[dk-f9-generic-critique]]'
 - '[[business-formula-to-kdo-card-quality]]'
+- '[[modeling-to-kdo-toolchain]]'
 tags:
 - audience:general
 - scene:reference

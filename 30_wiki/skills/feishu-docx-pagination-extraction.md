@@ -27,6 +27,7 @@ related:
 - '[[tool-马易-平台模式验证法]]'
 - '[[互联网医院模式深度调研报告]]'
 - '[[tool-现场建模式萃取笔记]]'
+- '[[skill-duanwangye-feishu-publishing]]'
 diagnostic_signals:
 - framework_lens: API分页遗漏——fetch_children()没有检查has_more+page_token
   follow_up_question: 你的提取脚本在调用/blocks/{id}/children后，有没有检查resp['data']['has_more']？

@@ -31,6 +31,7 @@ related:
 - '[[tool-纪浩-问题导向备课法]]'
 - '[[tool-纪浩-识别AI不可维护代码]]'
 - '[[case-纪浩-from-zip-to-five-layers]]'
+- '[[yt-product-kernel-validation]]'
 tags:
 - audience:executor
 - scene:execution

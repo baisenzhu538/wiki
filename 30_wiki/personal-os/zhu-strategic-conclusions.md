@@ -21,6 +21,10 @@ discoverable_by:
 related:
   - '[[case-zhu-disruptive-innovation-practice]]'
   - '[[case-zhu-foresight-timing-pattern]]'
+  - '[[zhu-future-directions]]'
+  - '[[zhu-lessons-learned]]'
+  - '[[zhu-network-resources]]'
+  - '[[zhu-weekly-reflections]]'
 ---
 
 # 老朱战略结论存档

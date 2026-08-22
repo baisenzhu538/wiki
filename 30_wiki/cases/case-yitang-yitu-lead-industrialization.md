@@ -50,6 +50,10 @@ related:
 - '[[yt-tob-cash-flow]]'
 - '[[yt-tob-revenue-is-customer-cost]]'
 - '[[framework-yitang-sales-target-tradeoffs]]'
+- '[[yt-tob-core-characteristics]]'
+- '[[yt-tob-customer-tiering]]'
+- '[[yt-tob-demand-scenarios]]'
+- '[[yt-tob-product-kernel]]'
 review_date: '2026-06-28'
 tags:
 - audience:general

@@ -40,6 +40,7 @@ related:
 - '[[concept-christensen-jtbd-link]]'
 - '[[dk-christensen-empirical-criticisms]]'
 - '[[domain-demand-analysis-index]]'
+- '[[yt-demand-jtbd-application]]'
 updated_at: '2026-06-29'
 tags:
 - audience:general

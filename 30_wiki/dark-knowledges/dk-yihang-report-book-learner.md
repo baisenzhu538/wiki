@@ -32,6 +32,7 @@ related:
 - '[[method-yitang-y-model-engine-cycle]]'
 - '[[framework-yihang-knowledge-data-decoupling]]'
 - '[[tool-yihang-dual-triangle-canvas]]'
+- '[[method-yihang-knowledge-versioning]]'
 tags:
 - audience:executor
 - scene:reference

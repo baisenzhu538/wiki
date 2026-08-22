@@ -57,6 +57,7 @@ related:
 - '[[dk-yitang-channel-exploration-traps]]'
 - '[[sales-domain-digest]]'
 - '[[framework-sales-funnel-full]]'
+- '[[opc-ai-sales-agent-architecture]]'
 created_at: 2026-07-02
 updated_at: 2026-07-24
 tags:

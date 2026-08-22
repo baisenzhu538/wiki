@@ -51,6 +51,9 @@ related:
 - '[[framework-ai-sales-collaboration]]'
 - '[[framework-r-type-research-partner-five-state]]'
 - '[[framework-sales-funnel-full]]'
+- '[[method-judge-skill-meta-evaluation]]'
+- '[[method-yihang-dual-triangle-ai-review]]'
+- '[[method-yihang-human-self-distillation]]'
 tags:
 - audience:executor
 - scene:reference

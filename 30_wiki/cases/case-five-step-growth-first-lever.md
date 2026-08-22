@@ -68,6 +68,7 @@ related:
 - 一堂五步法
 - '[[concept-ai-native-organization-five-steps]]'
 - '[[concept-five-step-growth-to-barrier-transition]]'
+- '[[xingangwan-pharma-business-model-formulas]]'
 ---
 # 案例：五步法中从产品内核到增长的第一次跨越
 

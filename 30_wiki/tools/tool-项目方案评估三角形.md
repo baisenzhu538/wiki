@@ -34,6 +34,7 @@ related:
 - '[[case-demand-pharma-bigdata]]'
 - '[[case-guang-leng-dian-zi-hx-smj]]'
 - '[[yt-product-kernel-definition]]'
+- '[[yt-business-model-scalability]]'
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 tags:

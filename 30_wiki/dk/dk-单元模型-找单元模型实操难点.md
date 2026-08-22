@@ -34,6 +34,8 @@ related:
 - '[[dk-单元模型-规模对抗实操难点]]'
 - '[[framework-TCPR底层网络协议]]'
 - '[[model-quality-four-levels]]'
+- '[[yt-tob-unit-model]]'
+- '[[yt-unit-model-overview]]'
 review_date: '2026-06-29'
 quality_labels:
 - validated

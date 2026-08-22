@@ -23,6 +23,7 @@ related:
 - '[[tool-ai-deliverable-polish-loop]]'
 - '[[concept-一堂-kernel-validation]]'
 - '[[yt-product-kernel-cultivation]]'
+- '[[yt-product-kernel-validation]]'
 wiki_refs:
 - src_unknown
 - src_unknown

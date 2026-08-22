@@ -39,6 +39,7 @@ related:
 - '[[dk-f9-generic-critique]]'
 - '[[modeling-capability-for-kdo]]'
 - '[[business-formula-to-kdo-card-quality]]'
+- '[[modeling-to-kdo-toolchain]]'
 ---
 # KDO 输入渠道策略：飞书、微信、听脑如何接入
 

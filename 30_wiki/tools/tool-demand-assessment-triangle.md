@@ -40,6 +40,8 @@ related:
 - yt-market-size-estimation
 - proposal-prompt-injection-infrastructure
 - '[[case-demand-iceberg-few-shot]]'
+- '[[knowledge-demand-2c-dictionary]]'
+- '[[skill-demand-analysis]]'
 updated_at: '2026-06-29'
 tags:
 - audience:executor

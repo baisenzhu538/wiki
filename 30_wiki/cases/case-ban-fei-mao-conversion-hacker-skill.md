@@ -28,6 +28,7 @@ discoverable_by:
 related:
 - '[[ai-collaboration-domain-digest]]'
 - '[[yitang-domain-digest]]'
+- '[[kdo-protocol]]'
 pipeline: null
 author: 半肥猫
 reviewed_by: 欧阳锋

@@ -16,6 +16,7 @@ related:
 - agent-spec-复盘教练
 - workflow-kdo-agent-production-pipeline
 - tool-yitang-daily-weekly-meeting-hosting
+- '[[agent-spec-research-explosion-partner]]'
 created_at: 2026-08-09
 updated_at: 2026-08-09
 domain:

@@ -44,6 +44,7 @@ related:
 - concept-X型Y型决策习惯
 - yt-business-formula-six-level-logic
 - yt-five-step-method
+- '[[yt-five-step-method-complete]]'
 created_at: 2026-07-03
 updated_at: '2026-07-04'
 tags:

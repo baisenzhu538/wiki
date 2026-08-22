@@ -24,6 +24,7 @@ related:
 - '[[plan_20260501_ca61cdd7-improvement-plan]]'
 - agent-ecosystem-design
 - kdo-protocol-implementation-roadmap
+- '[[kdo-batch-produce-req014]]'
 ---
 # Improvement Plan plan_20260501_97170532
 

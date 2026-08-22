@@ -50,6 +50,7 @@ related:
 - '[[concept-smart-medicine-cabinet-digital-pharmacy-diagnosis]]'
 - '[[concept-smart-medicine-cabinet-international-models]]'
 - '[[dk-p5-cc-connect-config]]'
+- '[[xingangwan-pharma-business-model-formulas]]'
 query_triggers: null
 difficulty: advanced
 prerequisites: smart-medicine-cabinet-national-policy-redlines

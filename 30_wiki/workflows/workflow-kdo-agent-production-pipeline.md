@@ -51,6 +51,8 @@ related:
 - '[[workflow-cross-agent-fact-dispute]]'
 - '[[agent-spec-zhu-ai-coach]]'
 - '[[agent-spec-复盘教练]]'
+- '[[agent-spec-coaching-leadership-assistant]]'
+- '[[agent-spec-meeting-assistant]]'
 ---
 
 # KDO Agent 生产流水线

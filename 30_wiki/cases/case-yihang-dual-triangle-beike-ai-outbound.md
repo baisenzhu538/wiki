@@ -46,6 +46,7 @@ related:
 - AI外呼案例
 - 人机协作双三角
 - 组织贝壳找房案例口述
+- '[[agent-spec-dual-triangle-canvas-filler]]'
 tags:
 - audience:general
 - scene:reference

@@ -19,6 +19,7 @@ related:
 - '[[skill-duanwangye-feishu-publishing]]'
 - '[[concept-streaming-extraction-pattern]]'
 - '[[agent-spec-duanwangye-publisher]]'
+- '[[skill-feishu-doc-l3-extraction]]'
 tags:
 - audience:executor
 - scene:execution

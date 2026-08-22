@@ -55,6 +55,7 @@ related:
 - '[[graph-rag]]'
 - '[[concept-kdo-feature-registry]]'
 - '[[ai-basic-domain-digest]]'
+- '[[system-kdo-quality-framework]]'
 ---
 
 # KDO 主题域 MOC

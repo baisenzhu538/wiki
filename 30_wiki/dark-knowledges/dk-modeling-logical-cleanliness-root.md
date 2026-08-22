@@ -29,6 +29,7 @@ discoverable_by:
 related:
 - '[[case-truman-ai-skill-engineering-guide]]'
 - '[[yitang-domain-digest]]'
+- '[[yt-unit-model-ladder]]'
 tags:
 - audience:executor
 - scene:reference

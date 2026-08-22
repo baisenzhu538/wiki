@@ -35,6 +35,7 @@ related:
 - "[[yt-management-basic-skills]]"
 - "[[yt-management-goal-management]]"
 - "[[workflow-yitang-project-four-step-loop]]"
+- '[[agent-spec-project-management-assistant]]'
 tags:
 - audience:executor
 - scene:execution

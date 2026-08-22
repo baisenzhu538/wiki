@@ -33,6 +33,7 @@ related:
 - '[[dk-f8-phony-wikilink]]'
 - '[[dk-f9-generic-critique]]'
 - '[[proposal-ai-domain-mastery-pipeline]]'
+- '[[kdo-watch-health-check-layer]]'
 id: proposal-kdo-flywheel-infrastructure
 reviewed_by: pending
 confidence: 0.6

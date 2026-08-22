@@ -36,6 +36,7 @@ related:
 - '[[ai-short-drama-ice-fire-scripting-compass]]'
 - '[[dk-tool-as-phased-validator]]'
 - '[[ai-short-drama-ice-fire-dissection-compass]]'
+- '[[ai-short-drama-script-planning-three-axes]]'
 tags:
 - audience:executor
 - scene:execution

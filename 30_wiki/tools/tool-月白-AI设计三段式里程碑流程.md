@@ -35,6 +35,7 @@ related:
 - 'tool-月白-A-B双轨反推模式选择'
 - 'tool-月白-AIGC反向拆解法'
 - 'case-truman-ai-image-workflow-evolution'
+- '[[modeling-scientific-milestones]]'
 tags:
 ---
 # 技能：AI设计三段式里程碑流程

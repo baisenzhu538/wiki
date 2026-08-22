@@ -55,6 +55,7 @@ related:
 - '[[concept-一堂-hypothesis-driven-business-methodology]]'
 - '[[sales-domain-digest]]'
 - '[[framework-yitang-sales-target-tradeoffs]]'
+- '[[opc-ai-sales-agent-architecture]]'
 created_at: 2026-07-02
 updated_at: 2026-07-02
 tags:

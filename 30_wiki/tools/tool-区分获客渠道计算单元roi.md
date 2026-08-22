@@ -77,6 +77,7 @@ related:
 - '[[case-yitang-yitu-lead-industrialization]]'
 - '[[yt-growth-acquisition-channels]]'
 - '[[dk-yitang-channel-exploration-traps]]'
+- '[[yt-tob-growth-channel]]'
 tags:
 - audience:executor
 - scene:execution

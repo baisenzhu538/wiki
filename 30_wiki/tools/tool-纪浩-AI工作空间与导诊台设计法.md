@@ -33,6 +33,7 @@ related:
 - '[[tool-纪浩-AI对话上下文隔离]]'
 - '[[case-纪浩-from-zip-to-five-layers]]'
 - '[[concept-ji-hao-ai-collaboration-methodology]]'
+- '[[sk-ai-ai-workspace-setup]]'
 created_at: '2026-06-08'
 updated_at: '2026-06-17'
 pipeline:

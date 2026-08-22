@@ -33,6 +33,7 @@ related:
 - '[[tool-月白-工厂对接信息清单制作]]'
 - '[[轻量级诊所HIS调研全清单]]'
 - '[[tool-清单小抄工具箱法]]'
+- '[[sk-ai-landing-five-steps]]'
 author: 马易
 reviewed_by: 欧阳锋
 confidence: 0.88

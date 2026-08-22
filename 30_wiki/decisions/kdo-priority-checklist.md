@@ -25,6 +25,7 @@ related:
 - '[[dk-f8-phony-wikilink]]'
 - '[[dk-f9-generic-critique]]'
 - '[[dk-kdo-leaky-pipe-pressure]]'
+- '[[kdo-protocol]]'
 tags: null
 trust_level: medium
 author: unknown

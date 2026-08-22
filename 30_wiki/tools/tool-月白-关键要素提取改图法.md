@@ -35,6 +35,7 @@ related:
 - 'tool-月白-AI一句话改图尺寸'
 - 'tool-月白-AI图生图尺寸快速转换'
 - 'dk-three-context-formula'
+- '[[feishu-docx-pagination-extraction]]'
 tags:
 ---
 # 技能：关键要素提取改图法

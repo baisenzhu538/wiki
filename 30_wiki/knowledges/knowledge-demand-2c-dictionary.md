@@ -25,6 +25,7 @@ related:
 - '[[domain-demand-analysis-index]]'
 - '[[case-demand-iceberg-few-shot]]'
 - '[[tool-demand-assessment-triangle]]'
+- '[[skill-demand-analysis]]'
 diagnostic_signals:
 - signal: 需求分析只关注功能需求，完全忽略情感和社交需求
   lens: 缺JTBD三维度——只有功能任务没有情感/社交任务

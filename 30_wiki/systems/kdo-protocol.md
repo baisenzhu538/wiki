@@ -35,6 +35,7 @@ related:
 - '[[modeling-capability-for-kdo]]'
 - '[[ouyangfeng-data-alignment-response]]'
 - '[[business-formula-to-kdo-card-quality]]'
+- '[[modeling-to-kdo-toolchain]]'
 tags:
 - audience:manager
 - scene:reference

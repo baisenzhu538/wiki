@@ -55,6 +55,8 @@ related:
 - 人机协作双三角
 - 天末的双三角模型
 - '[[design-moc]]'
+- '[[method-dual-triangle-flywheel-engine]]'
+- '[[agent-spec-dual-triangle-canvas-filler]]'
 tags:
 - audience:general
 - scene:reference

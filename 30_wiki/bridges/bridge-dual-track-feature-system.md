@@ -32,6 +32,7 @@ related:
   - agent-spec-复盘教练
   - '[[case-252-quality-gate-pilot]]'
   - '[[dk-feature-registry-count-drift]]'
+  - '[[agent-spec-basic-skills-coach]]'
 tags:
   - method:feature-system
   - method:cross-domain

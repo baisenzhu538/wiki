@@ -30,6 +30,7 @@ related:
 - '[[yt-growth-funnel-optimization]]'
 - '[[yt-five-step-method]]'
 - '[[source-code-delivery-model]]'
+- '[[private-domain-saas-sales-funnel]]'
 diagnostic_signals:
 - signal: src_unknown
   framework_lens: 增长规模化陷阱——增长快≠健康，需要单元模型支撑

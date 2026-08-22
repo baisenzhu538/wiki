@@ -17,6 +17,7 @@ related:
 - '[[concept-smart-medicine-cabinet-platform-cooperation-validation]]'
 - '[[smart-medicine-cabinet-o2o-cost-structure]]'
 - '[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]'
+- '[[parking-lot]]'
 tags: []
 author: unknown
 source_context: KDO internal decision record （原 legacy，已从 title/context/filename 推断为

@@ -15,6 +15,8 @@ related:
 - '[[user-insight-profile]]'
 - '[[case-zhu-foresight-timing-pattern]]'
 - '[[dk-lu-gui-lv-bu-bei-yu-wang]]'
+- '[[zhu-future-directions]]'
+- '[[zhu-weekly-reflections]]'
 tags:
 - audience:manager
 - scene:reference

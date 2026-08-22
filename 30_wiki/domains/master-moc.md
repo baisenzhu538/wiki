@@ -59,6 +59,7 @@ related:
   - '[[master-systems-thinking]]'
   - '[[concept-kdo-feature-registry]]'
   - '[[ai-basic-domain-digest]]'
+  - '[[system-kdo-quality-framework]]'
 ---
 
 # Master 主题域 MOC

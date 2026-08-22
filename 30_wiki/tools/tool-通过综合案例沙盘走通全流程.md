@@ -42,6 +42,7 @@ related:
 - tool-设计对抗效果追踪看板
 - yt-five-step-method-complete
 - tool-yitang-research-deep-attribution
+- '[[modeling-scientific-milestones]]'
 tags:
 - audience:executor
 - scene:execution

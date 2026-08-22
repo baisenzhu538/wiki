@@ -16,6 +16,8 @@ related:
   - "[[user-preferences]]"
   - "[[operating-principles]]"
   - '[[plan_20260701_kdo-multi-repo-architecture]]'
+  - '[[opc-ai-sales-agent-architecture]]'
+  - '[[zhu-codebase-ai-orchestration]]'
 tags:
 - audience:manager
 - scene:howto

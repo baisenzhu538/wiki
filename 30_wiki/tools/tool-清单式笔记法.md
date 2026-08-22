@@ -44,6 +44,7 @@ related:
 - '[[yt-note-extensive-research-input]]'
 - '[[dk-infrastructure-guardrails-over-checklist]]'
 - '[[dk-modeling-ai-self-retrospection]]'
+- '[[method-obsidian-ai-collaboration]]'
 tags:
 - audience:executor
 - scene:execution

@@ -32,6 +32,7 @@ related:
 - '[[tool-Truman-职场异步协作提问法]]'
 - '[[yt-tool-fab-persuasion]]'
 - '[[dk-yb6-midjourney-chinese-text-fix]]'
+- '[[yt-business-model-channel-economics]]'
 tags:
 - audience:executor
 - scene:execution
