@@ -13,6 +13,7 @@ related:
 - '[[zhu-strategic-conclusions]]'
 - '[[zhu-project-board]]'
 - '[[user-insight-profile]]'
+- '[[case-zhu-foresight-timing-pattern]]'
 tags:
 - audience:manager
 - scene:reference

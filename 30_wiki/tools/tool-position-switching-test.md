@@ -34,6 +34,7 @@ related:
 - yt-management-founder-role
 - framework-yitang-shishi-qiushi
 - framework-kdo-modeling-methodology
+- '[[case-wangfei-newyear-event-diagnosis]]'
 created_at: 2026-07-26
 updated_at: 2026-07-26
 reviewed_by: 待审

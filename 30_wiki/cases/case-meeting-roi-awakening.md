@@ -36,6 +36,7 @@ related:
   - management-domain-digest
   - framework-leadership-five-ladders
   - '[[case-meeting-scene-mastery]]'
+  - '[[case-yitang-2022-annual-lessons]]'
 quality_labels: [actionable, principle, cited]
 tags:
   - audience:general

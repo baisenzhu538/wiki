@@ -41,6 +41,7 @@ related:
 - '[[tool-月白-三步作业反馈法]]'
 - '[[tool-asset-file-naming-convention]]'
 - '[[tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]'
+- '[[case-truman-motivation-map-12-versions]]'
 tags:
 - audience:executor
 - scene:execution

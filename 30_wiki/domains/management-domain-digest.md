@@ -17,6 +17,9 @@ related:
 - framework-目标三层拆解
 - '[[case-meeting-roi-awakening]]'
 - '[[case-morfei-semiconductor]]'
+- '[[case-yitang-leadership-culture]]'
+- '[[case-一堂-基本功-认知篇案例集]]'
+- '[[case-一堂-春萍-刘伟tob销售标准化]]'
 tags:
 - audience:manager
 - scene:reference

@@ -46,6 +46,9 @@ related:
 - '[[yt-unit-model-overview]]'
 - '[[case-yitang-yitang-course-industrialization]]'
 - '[[tool-yitang-channel-scoring-matrix]]'
+- '[[case-yitang-lianjia-site-selection-industrialization]]'
+- '[[case-yitang-redburger-selection-industrialization]]'
+- '[[case-yitang-yitang-shortvideo-industrialization]]'
 review_date: '2026-06-28'
 tags:
 - audience:executor

@@ -33,6 +33,7 @@ related:
   - tool-yitang-retrospective-canvas
   - framework-meeting-ten-principles
   - tool-leadership-questioning-cards
+  - '[[case-yitang-2022-annual-lessons]]'
 quality_labels: [insight, actionable, quotable, cited]
 tags:
   - audience:general

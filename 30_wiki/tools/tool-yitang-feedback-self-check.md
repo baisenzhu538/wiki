@@ -43,6 +43,8 @@ related:
 - '[[dk-yitang-deliberate-practice-common-traps]]'
 - '[[yt-note-deliberate-practice-four-elements]]'
 - case-truman-personal-growth-map-creation
+- '[[case-yitang-ai-painting-commercialization]]'
+- '[[case-yitang-sales-routine-deconstruction]]'
 tags:
 - audience:executor
 - scene:execution

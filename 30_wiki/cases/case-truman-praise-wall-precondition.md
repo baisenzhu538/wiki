@@ -44,6 +44,7 @@ related:
   - "[[framework-yitang-five-step-to-time-management]]"
   - "[[case-yitang-meeting-room-match]]"
   - "[[case-truman-shower-toilet-ideation]]"
+  - '[[case-yitang-curtain-listening]]'
 diagnostic_signals:
   - framework_lens: 深度工作需要情绪前置——不是"有状态才工作"，而是"设计状态后工作"
     follow_up_question: 你在进入深度工作前，有没有一个固定的"预热仪式"？你需要什么信号告诉自己"现在该进入深度模式了"？

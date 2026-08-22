@@ -34,6 +34,7 @@ related:
 - '[[framework-yitang-deliberate-practice-1plus4]]'
 - '[[case-truman-time-management-commute-experiment]]'
 - '[[case-yitang-copywriting-time-decomposition]]'
+- '[[case-yitang-200th-launch-depth-split]]'
 tags:
 - audience:executor
 - scene:execution

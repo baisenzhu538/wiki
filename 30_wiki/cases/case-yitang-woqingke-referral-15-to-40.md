@@ -55,6 +55,7 @@ related:
 - '[[framework-一堂-关键假设]]'
 - '[[tool-动力阻力分析]]'
 - '[[framework-business-formula-y-model-bridge]]'
+- '[[case-一堂-我请客推荐率5到40]]'
 tags:
 - audience:general
 - scene:reference

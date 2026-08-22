@@ -35,6 +35,8 @@ related:
 - '[[case-ji-hao-ai-workspace-chaos]]'
 - '[[case-ji-hao-skill-market-problem-validation]]'
 - '[[case-ji-hao-ui-design-constraint-evolution]]'
+- '[[case-yitang-ai-painting-commercialization]]'
+- '[[case-yitang-ai-time-management-coach]]'
 tags:
 - audience:manager
 - scene:reference

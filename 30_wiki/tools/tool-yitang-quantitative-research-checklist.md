@@ -33,6 +33,8 @@ related:
 - '[[yt-decision-y-model]]'
 - '[[method-yitang-y-model-engine-cycle]]'
 - '[[tool-yitang-shishi-qiushi-cheat-sheet]]'
+- '[[case-yitang-online-education-expansion]]'
+- '[[case-yitang-shishi-qiushi-pitfall-4-no-quantification]]'
 tags:
 - audience:executor
 - scene:execution

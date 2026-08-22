@@ -39,6 +39,14 @@ related:
 - '[[method-yihang-dual-triangle-deliberate-practice]]'
 - '[[method-yihang-knowledge-battle-station]]'
 - '[[method-yitang-y-model-structured-form]]'
+- '[[case-yihang-dual-triangle-ai-organizational-behavior]]'
+- '[[case-yitang-scientific-naming-process]]'
+- '[[case-yitang-truman-time-management-transformation]]'
+- '[[case-yitang-ymodel-ai-business-dialogue]]'
+- '[[case-yitang-ymodel-b2b-sales-conversion]]'
+- '[[case-yitang-ymodel-children-reading-retention]]'
+- '[[case-yitang-ymodel-vicki-cross-domain-transfer]]'
+- '[[case-yitang-ymodel-watermelon-challenge]]'
 aliases:
 - Y模型迭代发动机
 - Y模型循环操作法

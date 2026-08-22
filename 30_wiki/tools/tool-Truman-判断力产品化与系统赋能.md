@@ -29,6 +29,7 @@ related:
 - '[[tool-Truman-信息输入持续补全（防AI错误累积）]]'
 - '[[tool-Truman-上下文质量管理（AI协作）]]'
 - '[[tool-canvas-weapon-library-modeling]]'
+- '[[case-truman-prd-checklist-evolution]]'
 tags:
 - audience:executor
 - scene:execution

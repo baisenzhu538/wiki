@@ -41,6 +41,7 @@ related:
 - concept-collaboration-philosophy-foundation
 - tool-position-switching-test
 - dk-sponsor-three-tier-pricing
+- '[[case-wangfei-newyear-event-diagnosis]]'
 quality_labels:
 - cited
 - actionable

@@ -62,6 +62,7 @@ related:
 - '[[tool-一堂-讲香双策略]]'
 - '[[tool-agent-spec-yitang-value-proposition]]'
 - '[[tool-yitang-value-proposition-4step]]'
+- '[[case-一堂-小米发布会拆解]]'
 quality_labels:
 - cited
 - actionable

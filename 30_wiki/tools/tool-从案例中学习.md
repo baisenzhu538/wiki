@@ -83,6 +83,14 @@ related:
 - '[[case-strategy-practice-ranpeng-crossborder]]'
 - '[[case-strategy-revival-13-bestore]]'
 - '[[case-strategy-revival-14-gucci]]'
+- '[[case-truman-sales-report-structure]]'
+- '[[case-yi-tang-ai-gao-kao-zhi-yuan-kernel-mismatch]]'
+- '[[case-yitang-double-triangle-confidence]]'
+- '[[case-yitang-model-asset-inventory]]'
+- '[[case-yitang-model-valuation-flywheel]]'
+- '[[case-yitang-radar-chart-selection]]'
+- '[[case-yitang-tob-grinding-machine]]'
+- '[[case-zhangyang-anchor-sop-three-locks]]'
 tags:
 - audience:executor
 - scene:execution

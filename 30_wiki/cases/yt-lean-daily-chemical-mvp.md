@@ -42,6 +42,7 @@ related:
 - '[[yt-lean-flower-mom-group-leader]]'
 - '[[yt-lean-daily-probability-decision]]'
 - yt-lean-assumption-verification-3means
+- '[[case-yitang-weekly-modeling-engine]]'
 wiki_refs:
 - src_unknown
 - src_unknown

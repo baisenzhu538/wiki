@@ -41,6 +41,7 @@ related:
 - '[[framework-ai-deliberate-practice-loop]]'
 - '[[yt-model-deliberate-practice-growth]]'
 - '[[yt-note-deliberate-practice-four-elements]]'
+- '[[case-yitang-sales-routine-deconstruction]]'
 tags:
 - audience:executor
 - scene:diagnosis

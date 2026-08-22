@@ -31,6 +31,7 @@ related:
   - case-truman-investment-daily-report
   - 'tool-月白-MOC'
   - 'dk-agent-parallel-design-system'
+  - '[[case-truman-temperature-parameter]]'
 tags:
   - method:feature-thinking
   - method:workflow

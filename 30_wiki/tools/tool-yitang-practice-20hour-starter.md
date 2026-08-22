@@ -15,6 +15,7 @@ related:
 - '[[case-yitang-poker-parameterized-practice]]'
 - '[[yt-note-deliberate-practice-four-elements]]'
 - '[[framework-ai-deliberate-practice-loop]]'
+- '[[case-yitang-sales-routine-deconstruction]]'
 aliases:
 - 20小时刻意练习入门法：快速达到够用水平
 - 刻意练习入门法

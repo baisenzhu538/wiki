@@ -136,6 +136,7 @@ related:
 - '[[tool-稀缺资源清单]]'
 - '[[tool-自我反馈修正笔记姿势]]'
 - '[[tool-设计对抗效果追踪看板]]'
+- '[[case-truman-prd-checklist-evolution]]'
 tags:
 - audience:executor
 - scene:execution

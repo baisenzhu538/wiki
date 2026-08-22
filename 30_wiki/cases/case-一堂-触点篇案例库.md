@@ -67,6 +67,9 @@ related:
 - case-yitang-sales-transformation-jubensha-saas
 - case-yitang-sales-transformation-meirongyuan
 - case-yitang-sales-transformation-tuliaogongsi
+- '[[case-一堂-一堂自身转化实践]]'
+- '[[case-一堂-优秀案例逐字稿合集]]'
+- '[[case-一堂-优秀触点案例合集]]'
 quality_labels:
 - cited
 - actionable

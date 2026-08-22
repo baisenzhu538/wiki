@@ -29,6 +29,7 @@ related:
 - '[[framework-yitang-shishi-qiushi]]'
 - '[[tool-yitang-method-ab-sides-checklist]]'
 - '[[concept-yitang-model-system-boundary]]'
+- '[[case-yitang-shishi-qiushi-pitfall-9-methodology-superstition]]'
 tags:
 - audience:executor
 - scene:reference

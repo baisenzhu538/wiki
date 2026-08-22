@@ -24,6 +24,7 @@ related:
 - yt-panproduct-execution-roi-analysis
 - yt-panproduct-execution-low-cost-mvp
 - tool-马易-风口痛点识别法
+- '[[case-zhu-disruptive-innovation-practice]]'
 created_at: 2026-08-02
 updated_at: 2026-08-02
 quality_labels: cited

@@ -38,6 +38,7 @@ related:
 - '[[tool-Truman-数学题与语文题区分法]]'
 - yt-product-kernel-to-business-model
 - yt-product-kernel-shampoo-case
+- '[[case-yitang-tob-career-planning]]'
 diagnostic_signals:
 - framework_lens: 业务目标变化后，SABC 的权重与切分标准必须重建，不能沿用旧分层。
   follow_up_question: 如果明年目标从"新增 100 家客户"变成"毛利转正"，我的 S 类客户会变成哪一类？哪些旧 S 类需要降级或剥离？

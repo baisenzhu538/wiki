@@ -47,6 +47,8 @@ related:
 - '[[tool-agent-spec-yitang-Y-model-coach]]'
 - '[[tool-opc-sales-dialogue-assistant]]'
 - '[[case-bmw-human-ai-collaboration-idle-time]]'
+- '[[case-truman-time-management-commute-experiment]]'
+- '[[case-yitang-copywriting-time-decomposition]]'
 created_at: 2026-07-03
 updated_at: '2026-07-03'
 tags:

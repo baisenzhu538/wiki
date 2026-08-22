@@ -36,6 +36,7 @@ source_refs:
 - 00_inbox/解放思想探索营/案例分享-笔记.txt
 related:
 - framework-yitang-thought-liberation-lightning
+- '[[case-wenxiaobao-campus-bilateral-network]]'
 tags:
 - audience:executor
 - scene:reference

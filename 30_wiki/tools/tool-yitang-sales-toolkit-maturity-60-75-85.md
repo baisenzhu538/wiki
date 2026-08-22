@@ -33,6 +33,7 @@ related:
   - "[[case-yitang-sales-transformation-jubensha-saas]]"
   - "[[framework-yitang-deliberate-practice-1plus4]]"
   - "[[tool-opc-sales-dialogue-assistant]]"
+  - '[[case-yitang-yitu-lead-industrialization]]'
 tags:
 - audience:executor
 - scene:execution

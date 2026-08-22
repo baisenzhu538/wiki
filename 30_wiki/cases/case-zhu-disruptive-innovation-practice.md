@@ -30,6 +30,7 @@ related:
 - zhu-strategic-conclusions
 - user-insight-profile
 - yt-decision-y-model
+- '[[case-zhu-foresight-timing-pattern]]'
 created_at: 2026-08-04
 updated_at: 2026-08-04
 quality_labels: cited

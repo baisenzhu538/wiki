@@ -52,6 +52,8 @@ related:
 - '[[tool-yitang-channel-industrialization-node-design]]'
 - '[[tool-yitang-industry-channel-arsenal-index]]'
 - '[[tool-yitang-referral-channel-optimization]]'
+- '[[case-yitang-solid-redbull-channel]]'
+- '[[case-yitang-xujian-invoice-saas-channel]]'
 review_date: '2026-06-28'
 tags:
 - audience:executor

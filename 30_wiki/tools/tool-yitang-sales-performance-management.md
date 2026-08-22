@@ -59,6 +59,7 @@ related:
 - '[[tool-agent-spec-yitang-lead-funnel-health]]'
 - '[[tool-agent-spec-yitang-payment-collection-risk]]'
 - '[[tool-agent-spec-yitang-sales-toolkit-gap]]'
+- '[[case-yitang-sales-transformation-jubensha-saas]]'
 created_at: 2026-07-02
 updated_at: 2026-07-08
 tags:

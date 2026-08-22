@@ -48,6 +48,7 @@ related:
 - '[[conversion-rate-domain-digest]]'
 - '[[business-formula-domain-digest]]'
 - '[[case-yitang-woqingke-referral-15-to-40]]'
+- '[[case-一堂-一堂自身转化实践]]'
 quality_labels:
 - cited
 - actionable

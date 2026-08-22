@@ -33,6 +33,7 @@ related:
 - '[[yt-management-goal-management]]'
 - '[[yt-management-scientific-meetings]]'
 - '[[yt-tool-meeting-designer]]'
+- '[[case-yitang-leo-website-redesign]]'
 tags:
 - audience:executor
 - scene:execution

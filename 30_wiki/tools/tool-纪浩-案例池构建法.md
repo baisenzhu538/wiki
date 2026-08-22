@@ -76,6 +76,14 @@ related:
 - '[[case-strategy-revival-14-gucci]]'
 - '[[case-thousand-people-square]]'
 - '[[case-truman-ai-skill-engineering-guide]]'
+- '[[case-truman-sales-report-structure]]'
+- '[[case-yi-tang-ai-gao-kao-zhi-yuan-kernel-mismatch]]'
+- '[[case-yitang-double-triangle-confidence]]'
+- '[[case-yitang-model-asset-inventory]]'
+- '[[case-yitang-model-valuation-flywheel]]'
+- '[[case-yitang-radar-chart-selection]]'
+- '[[case-yitang-tob-grinding-machine]]'
+- '[[case-zhangyang-anchor-sop-three-locks]]'
 tags:
 - audience:executor
 - scene:execution

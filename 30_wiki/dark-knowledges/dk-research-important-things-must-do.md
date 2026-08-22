@@ -40,6 +40,7 @@ related:
 - case-cross-xingangwan-pharma
 - dk-ai-builder-illusion
 - '[[case-new-year-insight-relay]]'
+- '[[case-vibecoding-one-week-delivery]]'
 tags:
 - audience:manager
 - scene:planning

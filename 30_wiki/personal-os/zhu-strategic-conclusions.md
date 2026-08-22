@@ -18,6 +18,9 @@ discoverable_by:
 - 方向判断
 - 关键决策
 - 个人战略
+related:
+  - '[[case-zhu-disruptive-innovation-practice]]'
+  - '[[case-zhu-foresight-timing-pattern]]'
 ---
 
 # 老朱战略结论存档

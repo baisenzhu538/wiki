@@ -45,6 +45,7 @@ related:
 - '[[tool-一堂-心理激励优先机制]]'
 - '[[tool-一堂-阻力消除12策小抄]]'
 - '[[conversion-rate-domain-digest]]'
+- '[[case-一堂-动力篇案例库]]'
 quality_labels:
 - cited
 - actionable

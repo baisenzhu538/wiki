@@ -64,6 +64,17 @@ related:
 - '[[tool-自我反馈检验]]'
 - tool-ai-prd-for-ai
 - case-decision-science-topcity-negative-revenue-rank
+- '[[case-yitang-amazon-growth-flywheel]]'
+- '[[case-yitang-lianjia-site-selection-industrialization]]'
+- '[[case-yitang-maiyi-cloud-computer-channel]]'
+- '[[case-yitang-novel-app-flywheel]]'
+- '[[case-yitang-redburger-selection-industrialization]]'
+- '[[case-yitang-shuzu-channel-scan-test]]'
+- '[[case-yitang-solid-redbull-channel]]'
+- '[[case-yitang-xujian-invoice-saas-channel]]'
+- '[[case-yitang-yitang-self-growth-channel]]'
+- '[[case-yitang-yitang-shortvideo-industrialization]]'
+- '[[case-yitang-yitu-lead-industrialization]]'
 tags:
 - audience:executor
 - scene:execution

@@ -31,6 +31,7 @@ discoverable_by:
 related:
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[method-yihang-dual-triangle-ai-review]]'
+- '[[case-yihang-dual-triangle-jumi-canvas-demo]]'
 tags:
 - audience:executor
 - scene:execution

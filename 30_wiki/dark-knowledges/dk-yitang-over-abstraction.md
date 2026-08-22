@@ -29,6 +29,7 @@ discoverable_by:
 related:
 - '[[framework-yitang-shishi-qiushi]]'
 - '[[concept-yitang-model-system-boundary]]'
+- '[[case-yitang-shishi-qiushi-pitfall-10-over-abstraction]]'
 tags:
 - audience:executor
 - scene:reference

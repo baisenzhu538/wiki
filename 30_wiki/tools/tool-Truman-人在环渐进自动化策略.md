@@ -35,6 +35,9 @@ related:
 - '[[agent-spec-codex-teammate]]'
 - '[[tool-Truman-复杂项目AI落地稳定性保障]]'
 - '[[case-modeling-process-livestream-prep]]'
+- '[[case-truman-prd-checklist-evolution]]'
+- '[[case-truman-sales-report-structure]]'
+- '[[case-yitang-radar-chart-selection]]'
 tags:
 - audience:executor
 - scene:execution

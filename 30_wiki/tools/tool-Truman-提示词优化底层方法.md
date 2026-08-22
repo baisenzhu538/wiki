@@ -42,6 +42,10 @@ related:
 - '[[case-modeling-process-livestream-prep]]'
 - '[[case-truman-ai-skill-engineering-guide]]'
 - '[[case-truman-ai-skill-self-packaging]]'
+- '[[case-truman-motivation-map-12-versions]]'
+- '[[case-truman-prd-checklist-evolution]]'
+- '[[case-truman-sales-report-structure]]'
+- '[[case-yitang-radar-chart-selection]]'
 tags:
 - audience:executor
 - scene:execution

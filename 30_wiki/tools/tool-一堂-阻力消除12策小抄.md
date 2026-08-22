@@ -73,6 +73,8 @@ related:
 - '[[tool-一堂-马毅阻力消除四部曲]]'
 - '[[tool-动力阻力分析]]'
 - '[[tool-agent-spec-yitang-payment-collection-risk]]'
+- '[[case-一堂-优秀触点案例合集]]'
+- '[[case-一堂-小米发布会拆解]]'
 quality_labels:
 - cited
 - actionable

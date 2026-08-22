@@ -26,6 +26,7 @@ discoverable_by:
 related:
 - '[[framework-yitang-shishi-qiushi]]'
 - '[[tool-yitang-quantitative-research-checklist]]'
+- '[[case-yitang-shishi-qiushi-pitfall-5-over-prediction]]'
 tags:
 - audience:executor
 - scene:reference

@@ -51,6 +51,7 @@ related:
 - '[[tool-agent-spec-yitang-value-proposition]]'
 - '[[framework-一堂-动力三曲线]]'
 - '[[tool-一堂-FAB说服法]]'
+- '[[case-yitang-ai-painting-commercialization]]'
 created_at: 2026-07-02
 updated_at: 2026-07-02
 tags:

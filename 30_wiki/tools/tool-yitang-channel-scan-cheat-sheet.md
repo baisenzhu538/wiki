@@ -46,6 +46,7 @@ related:
 - '[[framework-lean-abcd-model]]'
 - '[[framework-yitang-growth-flywheel]]'
 - '[[case-lean-crayfish-combo-test]]'
+- '[[case-yitang-ai-painting-commercialization]]'
 review_date: '2026-06-28'
 tags:
 - audience:executor

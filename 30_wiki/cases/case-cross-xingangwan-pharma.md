@@ -57,6 +57,7 @@ related:
 - '[[case-new-year-insight-relay]]'
 - '[[case-opc-128-directions]]'
 - '[[case-smart-medicine-cabinet-corporate-risk]]'
+- '[[case-vibecoding-one-week-delivery]]'
 tags:
 - audience:general
 - scene:reference

@@ -44,6 +44,7 @@ related:
   - "[[framework-yitang-five-step-to-time-management]]"
   - "[[yt-personal-inspiration-flash]]"
   - "[[case-yitang-200th-launch-depth-split]]"
+  - '[[case-truman-praise-wall-precondition]]'
 diagnostic_signals:
   - framework_lens: 暗时间≠浪费时间——脑力CPU不饱和时可以叠加任务
     follow_up_question: 你在洗澡/通勤/散步时是否有记录灵感的习惯？上次在这种场景下想到的好点子是什么？

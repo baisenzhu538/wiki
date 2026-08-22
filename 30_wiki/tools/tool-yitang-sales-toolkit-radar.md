@@ -47,6 +47,7 @@ related:
 - '[[tool-agent-spec-yitang-incentive-design]]'
 - '[[tool-agent-spec-yitang-sales-toolkit-gap]]'
 - '[[tool-agent-spec-yitang-three-second-opening-scripts]]'
+- '[[case-yitang-sales-transformation-meirongyuan]]'
 created_at: 2026-07-02
 updated_at: 2026-07-02
 tags:

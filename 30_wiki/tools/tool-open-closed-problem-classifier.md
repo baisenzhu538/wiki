@@ -49,6 +49,7 @@ related:
 - 开放封闭问题分类器
 - open-closed-problem-classifier
 - AI 任务形态判断器
+- '[[case-wechat-tt_7666646931699367986]]'
 ---
 
 # 开放/封闭问题分类器：判断任务该交给 AI 控制台还是 Agent 平台

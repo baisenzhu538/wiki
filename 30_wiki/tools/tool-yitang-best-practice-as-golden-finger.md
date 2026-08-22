@@ -42,6 +42,8 @@ related:
 - '[[concept-yitang-comfort-stretch-panic-zones]]'
 - '[[framework-yitang-deliberate-practice-1plus4]]'
 - '[[tool-yitang-sales-toolkit-radar]]'
+- '[[case-yitang-poker-parameterized-practice]]'
+- '[[case-yitang-sales-routine-deconstruction]]'
 tags:
 - audience:executor
 - scene:execution

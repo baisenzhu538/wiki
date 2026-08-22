@@ -45,6 +45,10 @@ related:
 - 一行双三角画布
 - 一堂双三角
 - 人机协作双三角
+- '[[case-yihang-dual-triangle-canvas-thesis-review]]'
+- '[[case-yihang-dual-triangle-canvas-trademark-design]]'
+- '[[case-yihang-dual-triangle-D-engineer-upward-communication]]'
+- '[[case-yihang-dual-triangle-jumi-canvas-demo]]'
 tags:
 - audience:executor
 - scene:execution

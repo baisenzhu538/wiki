@@ -61,6 +61,7 @@ related:
 - '[[case-一堂-教研加微信率40到100]]'
 - '[[case-一堂-组合篇案例库]]'
 - '[[case-一堂-跆拳道黑带卡]]'
+- '[[case-一堂-小米发布会拆解]]'
 quality_labels:
 - cited
 - actionable

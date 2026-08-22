@@ -31,6 +31,8 @@ related:
   - yt-model-deep-review-iceberg
   - bridge-个人复盘×知识管理W-Z-K-P
   - dk-modeling-essence-predictive
+  - '[[case-一堂-A加社失败归因→一堂诞生]]'
+  - '[[case-一堂-教材品控事故]]'
 tags:
   - method:review
   - method:meta-cognition

@@ -40,6 +40,8 @@ related:
 - '[[tool-一堂-基本功-三环六维自检]]'
 - '[[deliberate-practice-four-elements]]'
 - '[[management-domain-digest]]'
+- '[[case-一堂-春萍-刘伟tob销售标准化]]'
+- '[[case-一堂-春萍-温校长校园代理]]'
 diagnostic_signals:
 - signal: 基本功立项练了一阵子，高手和新手的产出差距没缩小，练习没有标尺
   lens: 只有"练"没有"建"——练习对象没有被建成模型，练的是感觉不是套路

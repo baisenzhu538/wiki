@@ -24,6 +24,8 @@ related:
 - '[[agent-一堂-业务公式教练]]'
 - '[[system-yitang-Y-model-os]]'
 - '[[framework-一堂-关键假设-ABCD模型]]'
+- '[[case-yitang-yai-conversion-rate-visit-rate]]'
+- '[[case-yitang-yai-scientific-decision-life-direction]]'
 created_at: 2026-07-13
 updated_at: 2026-07-13
 quality_labels:

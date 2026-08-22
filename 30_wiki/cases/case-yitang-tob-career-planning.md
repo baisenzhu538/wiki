@@ -37,6 +37,7 @@ related:
   - "[[yt-tob-revenue-is-customer-cost]]"
   - "[[yt-tob-product-kernel]]"
   - "[[yt-tob-customer-sabc]]"
+  - '[[case-yitang-tob-grinding-machine]]'
 diagnostic_signals:
 - framework_lens: 成本占有率 / [[yt-tob-demand-metrics]]
 ---

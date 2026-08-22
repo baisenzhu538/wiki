@@ -39,6 +39,7 @@ related:
 - '[[tool-月白-用一堂方法论找最佳实践并拉满执行]]'
 - '[[tool-月白-三步作业反馈法]]'
 - '[[tool-asset-file-naming-convention]]'
+- '[[case-yitang-model-asset-inventory]]'
 tags:
 - audience:executor
 - scene:execution

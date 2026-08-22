@@ -31,6 +31,10 @@ related:
 - '"[[case-yihang-dual-triangle-huazao-synthetic-data]]"'
 - '"[[case-yihang-dual-triangle-chentian-knowledge-agent]]"'
 - '[[case-laozhu-hongqigong-human-ai-partner-evolution]]'
+- '[[case-yihang-dual-triangle-beike-ai-outbound]]'
+- '[[case-yihang-dual-triangle-D-engineer-upward-communication]]'
+- '[[case-yihang-dual-triangle-hardware-patent-rule-explicit]]'
+- '[[case-yihang-dual-triangle-hotel-tag-sandbox]]'
 aliases:
 - 人机分工原则
 - AI组织行为学

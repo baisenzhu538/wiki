@@ -35,6 +35,7 @@ related:
 - 'tool-月白-AIGC反向拆解法'
 - 'case-truman-ai-image-workflow-evolution'
 - '[[case-guang-leng-dian-zi-hx-smj]]'
+- '[[case-truman-motivation-map-12-versions]]'
 tags:
 ---
 # 技能：设计项目MVP拆解法

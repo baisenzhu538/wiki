@@ -35,6 +35,7 @@ related:
 - '[[dk-anti-human-ux-is-feature]]'
 - '[[tool-yitang-hypothesis-marginal-roi]]'
 - '[[dk-decision-value-overrides-roi]]'
+- '[[case-vibecoding-one-week-delivery]]'
 ---
 # 除非必要勿增实体：工具迁移的保守原则（被震撼≠要迁移）
 

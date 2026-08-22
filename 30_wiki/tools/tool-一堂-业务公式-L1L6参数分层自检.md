@@ -47,6 +47,7 @@ related:
 - '[[dk-yitang-business-formula-recursive-levels]]'
 - '[[dk-yitang-business-formula-skip-level-entry]]'
 - '[[dk-yitang-formula-unmeasurable-metrics]]'
+- '[[case-yitang-xiezefeng-clothing-innovation-param]]'
 quality_labels:
 - actionable
 - framework

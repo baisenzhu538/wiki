@@ -56,6 +56,8 @@ related:
 - '[[case-yitang-burger-franchise-key-path]]'
 - '[[case-yitang-tob-devboard-price-coupling]]'
 - '[[case-toc-ecommerce-formula-misjudgment]]'
+- '[[case-yitang-dongyuan-dance-retention-c-vs-d]]'
+- '[[case-yitang-xiezefeng-clothing-innovation-param]]'
 tags:
 - audience:executor
 - scene:reference

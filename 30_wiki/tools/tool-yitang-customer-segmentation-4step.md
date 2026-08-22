@@ -54,6 +54,8 @@ related:
 - '[[tool-agent-spec-yitang-incentive-design]]'
 - '[[tool-agent-spec-yitang-lead-funnel-health]]'
 - '[[tool-agent-spec-yitang-user-perspective-training]]'
+- '[[case-yitang-sales-transformation-jubensha-saas]]'
+- '[[case-yitang-sales-transformation-meirongyuan]]'
 created_at: 2026-07-02
 updated_at: 2026-07-02
 tags:

@@ -42,6 +42,7 @@ related:
 - '[[case-cross-xingangwan-pharma]]'
 - '[[bridge-how-to-know-person-to-business]]'
 - '[[case-new-year-insight-relay]]'
+- '[[case-vibecoding-one-week-delivery]]'
 review_date: 2026-08-16
 ---
 

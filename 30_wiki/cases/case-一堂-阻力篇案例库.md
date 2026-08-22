@@ -53,6 +53,8 @@ related:
 - '[[case-一堂-作业率20到50]]'
 - '[[case-一堂-我请客推荐率5到40]]'
 - '[[case-yitang-sales-transformation-jubensha-saas]]'
+- '[[case-一堂-一堂自身转化实践]]'
+- '[[case-一堂-优秀案例逐字稿合集]]'
 quality_labels:
 - cited
 - actionable

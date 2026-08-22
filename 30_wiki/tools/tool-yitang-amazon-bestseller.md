@@ -32,6 +32,7 @@ related:
 - '[[yitang-research-domain-digest]]'
 - '[[tool-demand-agent-case-match]]'
 - '[[tool-demand-agent-multi-hypothesis]]'
+- '[[case-yitang-beauty-device-overseas-sales]]'
 updated_at: '2026-06-30T16:07:51+00:00'
 tags:
 - audience:executor

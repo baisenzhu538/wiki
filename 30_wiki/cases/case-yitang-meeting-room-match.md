@@ -44,6 +44,7 @@ related:
   - "[[framework-yitang-five-step-to-time-management]]"
   - "[[case-yitang-200th-launch-depth-split]]"
   - "[[case-yitang-curtain-listening]]"
+  - '[[case-truman-praise-wall-precondition]]'
 diagnostic_signals:
   - framework_lens: 时间模型的第四层——场景质量比时间长度更关键
     follow_up_question: 你在做深度思考/创意工作时，是否有一个经过验证的"最佳场景"？还是每天随机切换？

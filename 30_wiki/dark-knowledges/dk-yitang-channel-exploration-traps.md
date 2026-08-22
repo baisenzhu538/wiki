@@ -49,6 +49,7 @@ related:
 - '[[framework-yitang-scientific-sales-five-step]]'
 - '[[tool-yitang-sales-process-decomposition]]'
 - '[[case-yitang-sales-transformation-meirongyuan]]'
+- '[[case-yitang-yitu-lead-industrialization]]'
 review_date: '2026-06-28'
 tags:
 - audience:executor

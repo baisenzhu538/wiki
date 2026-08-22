@@ -29,6 +29,10 @@ related:
 - '[[tool-Truman-AI场景探索STAR模型]]'
 - '[[tool-Truman-数学题与语文题区分法]]'
 - '[[case-modeling-process-livestream-prep]]'
+- '[[case-truman-prd-checklist-evolution]]'
+- '[[case-truman-sales-report-structure]]'
+- '[[case-yitang-double-triangle-confidence]]'
+- '[[case-yitang-radar-chart-selection]]'
 tags:
 - audience:executor
 - scene:execution

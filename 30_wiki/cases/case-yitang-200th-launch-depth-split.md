@@ -41,6 +41,8 @@ related:
   - "[[yt-personal-time-management]]"
   - "[[framework-yitang-five-step-to-time-management]]"
   - "[[tool-personal-time-audit-loop]]"
+  - '[[case-truman-shower-toilet-ideation]]'
+  - '[[case-yitang-meeting-room-match]]'
 diagnostic_signals:
   - framework_lens: 复杂项目的深度拆解——L1-L5任务不能混在同一时间块
     follow_up_question: 你最近的一个大项目，是否按工作深度拆解了子任务？L4-L5任务是否配对了高能量时段？

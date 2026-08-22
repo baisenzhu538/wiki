@@ -32,6 +32,7 @@ related:
   - yt-model-deep-review-iceberg
   - yt-personal-deep-review
   - dk-借假修真与黑盒白盒
+  - '[[case-一堂-教材品控事故]]'
 tags:
   - method:review
   - method:learning
