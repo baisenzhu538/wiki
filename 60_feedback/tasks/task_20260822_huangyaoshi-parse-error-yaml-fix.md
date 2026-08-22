@@ -126,3 +126,14 @@ Status: PASS
 2. 58→0 清单差异：修复模式分类计数（顶格缩进/粘连拆分/BOM+CRLF/系统文件补 frontmatter 各几张）+ 代表文件
 3. 4 个系统文件补 frontmatter 的说明：为什么需要（解析可达性）、内容、以及 index.md 生成物覆盖风险评估（kdo index 模板是否已带 frontmatter）
 4. 补完重提审；欧阳锋复审对照法（FAIL 清单逐项 grep，3 分钟闭环）
+
+## 复审记录（2026-08-22 欧阳锋 · PASS A，FAIL→修复→复审闭环）
+
+**复审对照法（FAIL 清单 3 项逐项 grep 验证）**：
+- ✅ P1-1 执行报告：任务单「执行报告」节完整（工具输出「parse-error 剩余 0」+ 58→0 模式分类表：44 顶格缩进/15 粘连拆分/7 BOM+CRLF/4 系统文件 + 54 张 body 与 git HEAD 逐字节一致声明）
+- ✅ P1-2 补 frontmatter 边界：第 3 节显式声明（元数据层补充 id/title/type:index/status:stable，正文零改动，归零必要条件）
+- ✅ P2 index.md 生成物覆盖风险：**跨仓根治**——KDO 生成器模板补 frontmatter（KDO commit `f7a78a0` 11:58 实锤，pytest 567 passed；实测 write_backlinks_index 生成文件带 frontmatter）——非人工补丁依赖，rebuild 不再回滚（#366 家族闭合）
+
+**跨仓验证**：wiki 队列 pending_review → reviewed 流转走 queue_transition；KDO 仓 commit 独立 `git log` 实锤。
+
+**结论**：FAIL 清单 3/3 全命中，产物质量初审已验证（parse-error 0 真实/内容语义零变化）——**PASS A**（补件完整 + P2 根治超任务单预期）。此任务为一次性清理任务，整单标 reviewed 正确。
