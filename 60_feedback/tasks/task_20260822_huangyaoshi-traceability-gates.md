@@ -1,8 +1,8 @@
 ---
 id: 429
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-22T15:46:28.389116+00:00'
+status: pending_review
+updated_at: '2026-08-22T15:52:13.266141+00:00'
 ---
 # #429 流转留痕三件套门禁（交付五字段 / 审查意见落盘 / 等待外部输入态）
 
@@ -43,6 +43,7 @@ updated_at: '2026-08-22T15:46:28.389116+00:00'
 
 ## 执行报告（2026-08-22 深夜 黄药师）
 
+**完成内容**：流转留痕三件套门禁实现（五字段/意见书/waiting-external）。
 **交付物**（改动文件清单）：
 1. `90_control/scripts/queue_transition.py`：
    - F-034：`_check_delivery_fields` 五字段机读检查（交付物/完成内容/验证/边界/需要谁动作锚点表）+ `_extract_exec_report`；action_complete 升级（缺字段=拒收，--force 跳过）
@@ -59,7 +60,7 @@ updated_at: '2026-08-22T15:46:28.389116+00:00'
   ④ 补意见书 → **通过**（reviewed）
   ⑤ mark-waiting → waiting-external；其他实例 claim **不被阻塞**；resume → 回 pending_review
 
-**边界/未做项**：
+**未做项**：
 - 只拦机械项（字段存在性），不判内容质量、不替角色判断（F-033 边界）；#188 只读引用未改
 - 未碰 #426/迁移专案/设计域；通知五字段消费归 #421（本单不建第二套扫描器）
 - 存量任务兼容：执行报告缺字段的 complete 会被拦——用 --force 声明例外或补字段（新纪律生效）
