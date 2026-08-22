@@ -2,7 +2,7 @@
 id: task_20260719_wangyuyan-profit-pricing-domain
 title: 利润为王域卡片化（深挖版）：利润优先经营框架 + 跨域桥接 + 暗知识补齐
 type: task
-status: reviewed
+status: in_progress
 priority: P0
 assignee: hermes
 reviewer: 欧阳锋
@@ -10,7 +10,7 @@ reviewed_by: 欧阳锋
 review_date: '2026-07-19'
 grade: A-
 created_at: 2026-07-19
-updated_at: '2026-07-19T13:31:45.223522+00:00'
+updated_at: '2026-08-22T15:50:38.582587+00:00'
 expected_cards: 14
 source_refs:
 - 60_feedback/diagnosis/diag_20260719_wangyuyan-profit-pricing-nine-layer.md
@@ -32,9 +32,6 @@ related:
 - framework-yitang-project-abcd-classification
 - tool-月白-价格带视觉策略匹配
 - framework-yitang-high-level-execution
-reviewed_by: 欧阳锋
-review_date: '2026-07-19'
-grade: A-
 ---
 
 # 利润为王域卡片化（深挖版）：利润优先经营框架 + 跨域桥接 + 暗知识补齐
@@ -43,7 +40,7 @@ grade: A-
 > **任务来源**：王语嫣诊断报告 `diag_20260719_wangyuyan-profit-pricing-nine-layer.md` + 补充诊断 `diag_20260719_wangyuyan-profit-pricing-dark-knowledge-supplement.md`
 > **任务目标**：将赫尔曼·西蒙《真正的利润》+ 水水拆书/经营课素材，沉淀为 KDO 商业经营域首批系统卡片，并建立与一堂方法论的跨域桥接。
 > **重要变更**：升级为 P0。从8张扩展到14张（含2张跨域桥接卡）。生产线序遵补充诊断§四。新增内容以补充诊断§一（10条暗知识）、§二（跨域桥接地图）和§三（修正卡片清单）为准。
-> **本任务单正文中的旧生产清单已废弃，以补充诊断§三为准。**
+> **本任务单正文中的旧生产清单已作废，以补充诊断§三为准。**
 
 ---
 
