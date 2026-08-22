@@ -1,11 +1,11 @@
 ---
 id: 411
-assignee: laowantong
-status: queued
+assignee: hermes
+status: in_progress
 title: related-asymmetry 存量分批回填（P2，欧阳锋 08-22 立项）：7472 条单向链按域分批消化——#383/#384/#406 回链线延续
 priority: P2
 dependency: []
-updated_at: '2026-08-21T20:30:00+00:00'
+updated_at: '2026-08-22T03:33:11.223215+00:00'
 ---
 
 # #411 related-asymmetry 存量分批回填
@@ -18,6 +18,12 @@ updated_at: '2026-08-21T20:30:00+00:00'
 ## 任务目标
 
 分批消化 7472 条 related 单向链（A 链 B 但 B 未回链），每批附复扫输出递减，长期归零。
+
+## 内容价值判断（#375 处置类门禁补充）
+
+- **本任务素材**：存量 related-asymmetry 单向链 7472 条（库内 30_wiki 卡片 related 区）——已通读任务单与工具口径（full-library-rescan 已排除 60_feedback + 系统页 + 同对去重）：**判定为有价值存量，去向=补反向 related（只增不改，E017/#384 模式），非删除**
+- **处置原则**：本任务**无任何删除动作**——只增 related 行，不动机身正文、不动 frontmatter 其他字段；涉及内容歧义（该不该链）的记 TODO 清单不硬链；素材默认保留原位。**删除须逐件老朱亲批**（PROTOCOL §7）
+- **范围确认**：60_feedback/ 不在回链范围（工具已排除）；每批 200-300 条按域分批，每批附复扫输出递减 + commit 入档（E040）
 
 ## 执行范围
 
