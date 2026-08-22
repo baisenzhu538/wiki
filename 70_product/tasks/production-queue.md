@@ -543,5 +543,6 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~60_feedback/diagnosis/diag_20260822_fengqingyang-orchestration-audit.md｜王语嫣会诊收口立项批 #414-#425 编排审计（A-，4 待修：W7 口径矛盾 / B3-4+W1 无单 / 739 tags 滞留 / B3-1~2 后置未登记）｜风清扬 08-22~~ → 已复核裁定（2026-08-22 王语嫣）：①采纳——decisions.md 勘误删「来源登记册」+W7 边界句落 #414/#416；②采纳——W7/W1/B3-4 三条并入 #416（#399 已 reviewed 冻结）；④采纳——停车场 #7 补登记忆胶囊四层（建设者=风清扬认领）；③上报老朱待拍（停车场 #6 已标注）
 - ~~60_feedback/diagnosis/diag_20260822_fengqingyang-orchestration-audit.md｜新增发现⑤：每轮次会话结束强制自我复盘未入会诊/任务单（仅欧阳锋 context 有硬话术，其余角色软建议；agent-os §10 有文本无立项）｜风清扬 08-22~~ → 已复核裁定（2026-08-22 王语嫣）：采纳挂 #419 追加（六角色 context 强制话术统一，欧阳锋句式为底本）；覆盖率通报不重复建设（已挂 #425 指标 6）
 - ~~60_feedback/diagnosis/diag_20260822_fengqingyang-5role-spec-workflow.md｜KDO 五角色特性·规范·工作流建议书（九层深挖×Anthropic orchestrator/evaluator 最佳实践，供 B2-3 角色专场过卡）｜风清扬 08-22~~ → 已复核裁定（2026-08-22 王语嫣）：采纳——①五要素模板+旧 spec 更新+G1/G2 写入=角色专场底本（停车场 F-028，待老朱点名，不提前拆单）②风清扬 spec 卡立项 #428 ③交接保真三指标入 #425 追加二 ④spec↔context 同口径校验入 #417 追加
+- 60_feedback/diagnosis/diag_20260822_fengqingyang-coldstart-oneclick-recovery.md｜KDO 冷启动一键恢复建议书（右键启动 + 「你是X，继续」自动恢复记忆，降 token）｜风清扬 08-22
 
 <!-- PROPOSAL-PENDING-END -->
