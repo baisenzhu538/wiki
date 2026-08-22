@@ -454,7 +454,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 431 | `task_20260823_laowantong-role-special-laowantong` | 角色专场第一场：老顽童岗位说明书定稿（P1，F-028 开场） | claimed-hermes | laowantong | 五要素 spec 升级 | 无 | `60_feedback/tasks/task_20260823_laowantong-role-special-laowantong.md` | 底本=风清扬五角色建议书；必含 B2-3 两条血泪+老顽童两条补充+G1/G2；一角色一张过，老朱拍板后才开欧阳锋场；欧阳锋终审 |
 | 432 | `task_20260823_huangyaoshi-memory-capsule-l0-minimal` | 记忆胶囊 L0 最小实现（P1，F-027 第一阶段）：A 本机主库 + B 第二盘镜像 + verify 恢复演练 | reviewed | huangyaoshi | L0 库+镜像+verify | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-memory-capsule-l0-minimal.md` | #427 拍板 A+B/C 缓议；只做 L0，不做 L1-L3；不注册常驻计划任务（需老朱确认命令）；狗粮=写入→镜像→恢复→verify；欧阳锋终审 |
 | 433 | `task_20260823_huangyaoshi-negative-claim-gate` | 负向判词证据层门禁（P1，审查端 F-035 对称补全）：无 `**存在性核查**` 锚点的「无/缺/未」判词不闭环 | reviewed | huangyaoshi | 门禁+复现用例 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-negative-claim-gate.md` | 风清扬建议书采纳；不改已审 #419/#429；只拦锚点不判核查质量；复现用例=#430 坚果云/FQ-E04/FQ-E01；欧阳锋终审 |
-| 434 | `task_20260823_huangyaoshi-memory-capsule-l0-autowrite` | 记忆胶囊 L0 自动写入端（P1，F-027 下一阶段）：daily-context-save 成功保存即自动写 L0 事件 | queued | huangyaoshi | save 挂钩+失败可见 | #433 先序 | `60_feedback/tasks/task_20260823_huangyaoshi-memory-capsule-l0-autowrite.md` | 黄药师建议书采纳：方案 A 先行，B 扫描器缓议，C 挂 F-033；单写入面/失败可见；权责=黄药师建设、风清扬审计；欧阳锋终审 |
+| 434 | `task_20260823_huangyaoshi-memory-capsule-l0-autowrite` | 记忆胶囊 L0 自动写入端（P1，F-027 下一阶段）：daily-context-save 成功保存即自动写 L0 事件 | claimed-huangyaoshi | huangyaoshi | save 挂钩+失败可见 | #433 先序 | `60_feedback/tasks/task_20260823_huangyaoshi-memory-capsule-l0-autowrite.md` | 黄药师建议书采纳：方案 A 先行，B 扫描器缓议，C 挂 F-033；单写入面/失败可见；权责=黄药师建设、风清扬审计；欧阳锋终审 |
 
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
