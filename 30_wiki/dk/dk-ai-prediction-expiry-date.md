@@ -31,6 +31,11 @@ related:
 - '[[framework-ai2041-critical-reading-os]]'
 - '[[tool-ai2041-source-verification-checklist]]'
 - '[[framework-ai-deconstruction-methodology]]'
+- '[[case-ai-companion-emotional]]'
+- '[[case-ai-job-displacement-wef]]'
+- '[[case-cambridge-novelists-survey]]'
+- '[[case-chen-qiufan-ai-writing]]'
+- '[[case-dutch-childcare-scandal]]'
 quality_labels:
 - cited
 - validated

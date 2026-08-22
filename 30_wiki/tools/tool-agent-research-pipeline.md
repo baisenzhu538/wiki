@@ -25,6 +25,8 @@ aliases:
 source_refs: null
 related:
 - 'case-truman-ai-native-research-flow'
+- '[[case-demand-travel-agent]]'
+- '[[case-ji-hao-skills-market]]'
 status: reviewed
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'

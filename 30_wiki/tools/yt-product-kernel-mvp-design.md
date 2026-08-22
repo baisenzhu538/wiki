@@ -35,6 +35,7 @@ related:
 - '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
 - '[[yt-lean-daily-chemical-mvp]]'
 - '[[case-yitang-mvp-reward-interview-waste]]'
+- '[[case-english-teacher-ai-agent]]'
 diagnostic_signals:
 - framework_lens: 内核MVP设计——MVP不够M，需要聚焦核心
   follow_up_question: 你的MVP去掉了哪些功能？剩下的功能是否只验证核心假设？

@@ -35,6 +35,7 @@ related:
 - skill-duanwangye-feishu-publishing
 - concept-feishu-api-pagination-trap
 - concept-streaming-extraction-pattern
+- '[[case-feishu-minutes-extraction-attempt]]'
 tags:
 - method:browser-automation
 - method:feishu-extraction

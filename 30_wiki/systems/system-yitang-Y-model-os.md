@@ -44,6 +44,7 @@ related:
 - "[[framework-一堂-业务公式拆解-总纲]]"
 - dk-ai-memory-four-layers
 - framework-yitang-thought-liberation-lightning
+- '[[case-kdo-agent-factory-dual-triangle-practice]]'
 created_at: 2026-07-03
 updated_at: '2026-07-08'
 tags:

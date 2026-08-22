@@ -33,6 +33,7 @@ related:
   - tool-leadership-feedback-cards
   - management-domain-digest
   - framework-how-to-know-a-person
+  - '[[case-leadership-communication-failures]]'
 tags:
 - audience:executor
 - scene:execution

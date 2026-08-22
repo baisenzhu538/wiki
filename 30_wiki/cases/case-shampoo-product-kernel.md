@@ -48,6 +48,7 @@ related:
 - "[[case-treadmill-demand-analysis]]"
 - "[[case-lean-shampoo-selling-points]]"
 - "[[concept-一堂-key-assumptions]]"
+- '[[case-lean-combination-test-paradigm]]'
 diagnostic_signals:
 - framework_lens: 产品内核 / 排列组合陷阱
   follow_up_question: 你的产品有多少个可变维度？如果不经过系统验证直接"拍"一个组合，成功率能有多少？

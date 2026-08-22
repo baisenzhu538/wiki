@@ -51,6 +51,8 @@ related:
 - '[[yt-business-model-unit-economics]]'
 - '[[framework-five-step-lean-interface]]'
 - '[[case-4000-titles-ten-strategies]]'
+- '[[case-ai-learning-series-modeling]]'
+- '[[case-design-principles-90]]'
 tags:
 - audience:general
 - scene:reference

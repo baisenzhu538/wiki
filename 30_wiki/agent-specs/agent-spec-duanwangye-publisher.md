@@ -31,6 +31,7 @@ related:
 - agent-spec-hongqigong-multimodal
 - content-production-polish
 - '[[agent-spec-ouyangfeng-reviewer]]'
+- '[[case-duanwangye-self-iteration-closed-loop]]'
 tags:
 - audience:executor
 - scene:execution

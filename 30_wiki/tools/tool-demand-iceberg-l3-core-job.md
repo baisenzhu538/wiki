@@ -37,6 +37,7 @@ related:
 - proposal-prompt-injection-infrastructure
 - business-research-skill-oscar-13-weapon-system
 - '[[case-demand-milkshake-jtbd]]'
+- '[[case-demand-iceberg-few-shot]]'
 tags:
 - audience:executor
 - scene:execution

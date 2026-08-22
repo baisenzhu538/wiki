@@ -39,6 +39,7 @@ related:
 - 'case-truman-ai-native-research-flow'
 - 'tool-local-search-repo-datasource-engineering'
 - 'framework-knowledge-naming-systems-comparison'
+- '[[case-friend-circle-aigc-transformation]]'
 ---
 # 上下文补齐配方：内容质量不够时先补"价值观+方法论+素材"，不换模型
 

@@ -51,6 +51,7 @@ related:
 - '[[tool-demand-rat-generator]]'
 - '[[tool-demand-report-template]]'
 - tool-yitang-research-validate-assumption
+- '[[case-demand-iceberg-few-shot]]'
 tags:
 - audience:executor
 - scene:execution

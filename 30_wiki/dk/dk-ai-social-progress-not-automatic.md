@@ -31,6 +31,7 @@ related:
 - '[[dk-ai-scarcest-resource-is-self]]'
 - '[[concept-ai-amara-law-business-judgment]]'
 - '[[dk-ai-prediction-expiry-date]]'
+- '[[case-ai-companion-emotional]]'
 quality_labels:
 - cited
 - validated

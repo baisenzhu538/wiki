@@ -39,6 +39,7 @@ related:
 - '[[tool-一堂五步法-换档检查清单]]'
 - yt-market-size-estimation
 - proposal-prompt-injection-infrastructure
+- '[[case-demand-iceberg-few-shot]]'
 updated_at: '2026-06-29'
 tags:
 - audience:executor

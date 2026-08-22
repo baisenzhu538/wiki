@@ -43,6 +43,7 @@ related:
 - '[[dk-project-manager-agent-failure]]'
 - '[[dk-ai-efficiency-and-management-radius]]'
 - '[[dk-ai-capability-illusion]]'
+- '[[case-investment-claim-fact-check]]'
 tags:
 - src_unknown
 - src_unknown

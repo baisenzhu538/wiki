@@ -33,6 +33,7 @@ related:
   - tool-leadership-feedback-cards
   - tool-leadership-three-stubborn-subordinates
   - framework-how-to-know-a-person
+  - '[[case-coaching-dialogue-three-versions]]'
 tags:
 - audience:manager
 - scene:execution

@@ -33,6 +33,7 @@ related:
 - '[[pending_unknown]]'
 - yt-demand-early-validation
 - yt-composite-pan-product-methodology
+- '[[case-dutch-childcare-scandal]]'
 diagnostic_signals:
 - framework_lens: 一堂 FALSE 模型 A 阶段（人工服务）
   follow_up_question: 能否用真人后台先跑一轮服务，前端只做一个简单的输入/展示界面？

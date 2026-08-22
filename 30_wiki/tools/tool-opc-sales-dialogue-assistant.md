@@ -67,6 +67,7 @@ related:
 - '[[yt-decision-y-model]]'
 - '[[zhu-domain-index]]'
 - '[[zhu-time-os]]'
+- '[[case-kdo-agent-factory-dual-triangle-practice]]'
 created_at: 2026-07-02
 updated_at: '2026-07-13'
 os_sources:

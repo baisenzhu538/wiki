@@ -33,6 +33,8 @@ related:
 - framework-christensen-disruptive-innovation
 - agent-spec-yitang-Y-model-cross-domain-coach
 - '[[case-4000-titles-ten-strategies]]'
+- '[[case-ai-learning-series-modeling]]'
+- '[[case-design-principles-90]]'
 tags:
 - method:cross-domain
 - method:business-strategy

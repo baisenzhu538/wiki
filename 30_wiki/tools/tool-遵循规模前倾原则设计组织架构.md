@@ -47,6 +47,7 @@ related:
 - tool-建立策略-要素映射表设计对抗策略
 - tool-使用优先级快筛卡锁定核心矛盾
 - tool-设计对抗效果追踪看板
+- '[[case-feishu-disruptive-innovation]]'
 tags:
 - audience:manager
 - scene:execution

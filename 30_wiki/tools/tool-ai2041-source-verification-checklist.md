@@ -31,6 +31,9 @@ related:
 - '[[framework-wanghuan-ooda-loop]]'
 - '[[framework-wanghuan-bitcoe-prompt-framework]]'
 - '[[framework-wanghuan-gan-three-roles]]'
+- '[[case-ai-job-displacement-wef]]'
+- '[[case-cambridge-novelists-survey]]'
+- '[[case-dutch-childcare-scandal]]'
 quality_labels:
 - actionable
 - cited

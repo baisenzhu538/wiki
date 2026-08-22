@@ -51,6 +51,7 @@ related:
 - '[[tool-多模型对比抽卡]]'
 - '[[case-ji-hao-ui-design-constraint-evolution]]'
 - '[[bridge-panproduct-kids-translation]]'
+- '[[case-english-teacher-ai-agent]]'
 created_at: 2026-07-02
 updated_at: '2026-07-02'
 tags:

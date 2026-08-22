@@ -27,6 +27,7 @@ related:
 - '[[yt-management-onboarding]]'
 - '[[yt-management-toolkit-overview]]'
 - '[[yt-management-company-culture]]'
+- '[[case-apple-card-gender-bias]]'
 contradicts: null
 query_triggers:
 - src_unknown

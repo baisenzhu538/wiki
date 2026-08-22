@@ -25,6 +25,16 @@ related:
 - '[[yt-concept-context-engineering]]'
 - '[[yt-model-prompt-engineering]]'
 - '[[concept-harness-scoring-anchors]]'
+- '[[case-ai-companion-emotional]]'
+- '[[case-ai-job-displacement-wef]]'
+- '[[case-ban-fei-mao-conversion-hacker-skill]]'
+- '[[case-ban-fei-mao-skill-ab-test]]'
+- '[[case-cambridge-novelists-survey]]'
+- '[[case-chen-qiufan-ai-writing]]'
+- '[[case-dutch-childcare-scandal]]'
+- '[[case-ji-hao-ai-workspace-chaos]]'
+- '[[case-ji-hao-skill-market-problem-validation]]'
+- '[[case-ji-hao-ui-design-constraint-evolution]]'
 tags:
 - audience:manager
 - scene:reference

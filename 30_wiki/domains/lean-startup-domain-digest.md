@@ -28,6 +28,9 @@ related:
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[tool-ai-deliverable-polish-loop]]'
 - '[[case-opc-agent-wave1-real-model-testing]]'
+- '[[case-lean-adult-education]]'
+- '[[case-lean-combination-test-paradigm]]'
+- '[[case-lean-crayfish-combo-test]]'
 updated_at: '2026-06-30'
 tags:
 - audience:manager

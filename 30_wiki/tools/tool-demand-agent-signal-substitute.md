@@ -31,6 +31,8 @@ related:
 - '[[ai-collaboration-domain-digest]]'
 - '[[tool-纪浩-Agent开工检查单制作法]]'
 - web-scraping-三剑客-scrapling-crawl4ai-firecrawl
+- '[[case-demand-travel-agent]]'
+- '[[case-ji-hao-skills-market]]'
 updated_at: '2026-06-29'
 tags:
 - audience:executor

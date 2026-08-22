@@ -29,6 +29,7 @@ related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'
 - '[[tool-demand-agent-case-match]]'
+- '[[case-demand-ai-fitness-four-forces]]'
 updated_at: '2026-06-30T16:07:51+00:00'
 tags:
 - audience:executor

@@ -22,6 +22,8 @@ related:
 - - - dk-c6-large-source-overflow
 - - - dk-p8-toolkit-forget
 - tinyfish-agentic-web-infrastructure
+- '[[case-demand-travel-agent]]'
+- '[[case-ji-hao-skills-market]]'
 tags:
 - audience:manager
 - scene:reference

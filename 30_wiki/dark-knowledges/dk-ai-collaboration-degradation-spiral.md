@@ -33,6 +33,7 @@ related:
 - '[[concept-yihang-human-in-the-loop-dual-triangle]]'
 - '[[dk-yitang-sales-common-pitfalls]]'
 - '[[method-yitang-y-model-engine-cycle]]'
+- '[[case-design-principles-90]]'
 tags:
 - audience:executor
 - scene:reference

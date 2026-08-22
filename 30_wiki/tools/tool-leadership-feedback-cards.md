@@ -36,6 +36,8 @@ related:
   - concept-一堂-基本功-刻意练习四要素
   - framework-how-to-know-a-person
   - '[[bridge-coaching-leadership-feature-layered]]'
+  - '[[case-coaching-dialogue-three-versions]]'
+  - '[[case-leadership-communication-failures]]'
 tags:
 - audience:executor
 - scene:execution

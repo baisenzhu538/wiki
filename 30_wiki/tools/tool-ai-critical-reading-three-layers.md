@@ -30,6 +30,14 @@ related:
 - '[[concept-candy-ai-as-collaborator]]'
 - '[[tool-ai-cross-reading-method]]'
 - '[[tool-ai2041-source-verification-checklist]]'
+- '[[case-ai-companion-emotional]]'
+- '[[case-ai-job-displacement-wef]]'
+- '[[case-apple-card-gender-bias]]'
+- '[[case-cambridge-novelists-survey]]'
+- '[[case-chen-qiufan-ai-writing]]'
+- '[[case-compas-racial-bias]]'
+- '[[case-deepfake-market-misuse]]'
+- '[[case-dutch-childcare-scandal]]'
 tags:
 - audience:executor
 - scene:execution

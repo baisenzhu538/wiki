@@ -3,6 +3,8 @@ id: concept-card-index-latest
 title: concept-card-index-latest.md
 type: index
 status: stable
+related:
+  - '[[case-apple-card-gender-bias]]'
 ---
 # Concept Card Index — 2026-08-21 18:07 UTC
 

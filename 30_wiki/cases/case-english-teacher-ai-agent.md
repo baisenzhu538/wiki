@@ -33,6 +33,7 @@ related:
 - dk-ai-builder-illusion
 - yt-product-kernel-mvp-design
 - dk-ai-as-last-step-not-first
+- '[[case-feishu-disruptive-innovation]]'
 created_at: 2026-08-02
 updated_at: 2026-08-02
 quality_labels: cited

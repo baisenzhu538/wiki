@@ -30,6 +30,11 @@ related:
 - '[[tool-ai-critical-reading-three-layers]]'
 - '[[tool-tech-probability-80-filter]]'
 - '[[concept-ai-amara-law-business-judgment]]'
+- '[[case-ai-companion-emotional]]'
+- '[[case-apple-card-gender-bias]]'
+- '[[case-chen-qiufan-ai-writing]]'
+- '[[case-compas-racial-bias]]'
+- '[[case-deepfake-market-misuse]]'
 quality_labels:
 - actionable
 - cited

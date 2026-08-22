@@ -16,6 +16,12 @@ related:
 - '[[yitang-domain-digest]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+- '[[case-cross-yuanqi-forest]]'
+- '[[case-essence-education-strategy]]'
+- '[[case-lean-2b-gray-test]]'
+- '[[case-lean-building-in-vacuum]]'
+- '[[case-lean-electric-scooter-mvp]]'
+- '[[case-lean-genki-forest-toolkit]]'
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 tags:

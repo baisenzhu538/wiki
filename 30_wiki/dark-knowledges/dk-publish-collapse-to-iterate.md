@@ -38,6 +38,7 @@ related:
 - '[[dk-agent-access-kdo-pitfalls]]'
 - '[[framework-kdo-self-attack]]'
 - '[[agent-spec-duanwangye-publisher]]'
+- '[[case-duanwangye-self-iteration-closed-loop]]'
 created_at: 2026-08-09
 updated_at: 2026-08-09
 tags:

@@ -43,6 +43,7 @@ related:
 - '[[dk-c8-format-complete-mind-empty]]'
 - '[[dk-feature-registry-count-drift]]'
 - '[[case-252-quality-gate-pilot]]'
+- '[[case-duanwangye-self-iteration-closed-loop]]'
 created_at: 2026-08-09
 updated_at: 2026-08-16
 tags:

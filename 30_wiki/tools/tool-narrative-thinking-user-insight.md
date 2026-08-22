@@ -32,6 +32,7 @@ related:
 - bridge-how-to-know-person-to-business
 - case-shuishui-business-insight
 - framework-一堂五步法-泛产品设计
+- '[[case-ai-pet-emotional-product]]'
 tags:
 - method:user-research
 - method:narrative

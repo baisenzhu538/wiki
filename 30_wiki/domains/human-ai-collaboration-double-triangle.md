@@ -39,6 +39,7 @@ related:
 - '[[framework-wanghuan-actor-director-mode]]'
 - '[[concept-wanghuan-adversarial-generation]]'
 - '[[tool-opc-sales-dialogue-assistant]]'
+- '[[case-bmw-human-ai-collaboration-idle-time]]'
 tags:
 - audience:manager
 - scene:reference

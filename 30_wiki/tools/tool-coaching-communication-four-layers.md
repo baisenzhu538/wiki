@@ -33,6 +33,7 @@ related:
   - framework-coaching-leadership-core
   - framework-leadership-five-ladders
   - tool-coaching-communication-segments
+  - '[[case-coaching-dialogue-three-versions]]'
 tags:
 - audience:executor
 - scene:execution

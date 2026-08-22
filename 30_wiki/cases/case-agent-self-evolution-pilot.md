@@ -33,6 +33,7 @@ related:
 - tool-agent-context-derivation-audit
 - framework-kdo-modeling-methodology
 - framework-ouyangfeng-review-methodology
+- '[[case-duanwangye-self-iteration-closed-loop]]'
 created_at: 2026-07-26
 updated_at: 2026-07-26
 reviewed_by: 欧阳锋

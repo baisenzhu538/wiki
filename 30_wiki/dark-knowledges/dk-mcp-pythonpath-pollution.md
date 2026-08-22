@@ -29,6 +29,7 @@ related:
 - '[[tool-mcp-reachability-check]]'
 - '[[skill-feishu-doc-l3-extraction]]'
 - '[[case-feishu-live259-l3-extraction]]'
+- '[[case-feishu-minutes-extraction-attempt]]'
 tags:
 - method:debugging
 - scene:infrastructure

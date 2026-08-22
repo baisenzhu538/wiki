@@ -46,6 +46,7 @@ related:
 - '[[tool-Y模型实操工作流]]'
 - '[[tool-agent-spec-yitang-Y-model-coach]]'
 - '[[tool-opc-sales-dialogue-assistant]]'
+- '[[case-bmw-human-ai-collaboration-idle-time]]'
 created_at: 2026-07-03
 updated_at: '2026-07-03'
 tags:

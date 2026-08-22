@@ -36,6 +36,7 @@ related:
 - '[[framework-yitang-research-quality-gate]]'
 - '[[model-quality-four-levels]]'
 - '[[business-formula-to-kdo-card-quality]]'
+- '[[case-daxin-vikki-community-contrast]]'
 pipeline:
 - confidence-draft
 discoverable_by:

@@ -32,6 +32,7 @@ related:
 - '[[dk-tool-as-phased-validator]]'
 - '[[yitang-domain-digest]]'
 - '[[case-demand-travel-agent]]'
+- '[[case-ji-hao-skills-market]]'
 reviewed_by: 欧阳锋
 review_date: '2026-06-29'
 updated_at: '2026-06-29'

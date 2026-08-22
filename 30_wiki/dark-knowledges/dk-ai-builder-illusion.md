@@ -51,6 +51,9 @@ related:
 - builder 幻觉
 - AI  builder 幻觉
 - 做出来不是从 0 到 1
+- '[[case-ai-search-commerce-platform-hedge]]'
+- '[[case-english-teacher-ai-agent]]'
+- '[[case-investment-claim-fact-check]]'
 ---
 # Builder 幻觉：用 AI 做出东西 ≠ 完成从 0 到 1
 

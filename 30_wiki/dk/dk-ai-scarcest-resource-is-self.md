@@ -35,6 +35,7 @@ related:
 - '[[concept-ai-neutrality-bias]]'
 - '[[tool-ai-critical-reading-three-layers]]'
 - '[[tool-ai2041-source-verification-checklist]]'
+- '[[case-ai-companion-emotional]]'
 quality_labels:
 - cited
 - validated

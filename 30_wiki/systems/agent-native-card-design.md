@@ -29,6 +29,8 @@ related:
 - framework-yitang-jiefang-sixiang
 - system-yitang-Y-model-os
 - tool-agent-spec-yitang-Y-model-coach - dk-agent-promise-verification
+- '[[case-apple-card-gender-bias]]'
+- '[[case-kdo-agent-factory-dual-triangle-practice]]'
 tags:
 - audience:manager
 - scene:reference

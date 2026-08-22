@@ -23,6 +23,7 @@ related:
 - '[[concept-streaming-extraction-pattern]]'
 - '[[agent-spec-duanwangye-publisher]]'
 - '[[agent-spec-hongqigong-multimodal]]'
+- '[[case-feishu-live259-l3-extraction]]'
 tags:
 - audience:executor
 - scene:execution

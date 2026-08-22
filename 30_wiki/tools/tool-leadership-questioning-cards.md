@@ -37,6 +37,8 @@ related:
   - framework-how-to-know-a-person
   - '[[bridge-coaching-leadership-feature-layered]]'
   - '[[bridge-meeting-leadership-coaching]]'
+  - '[[case-coaching-dialogue-three-versions]]'
+  - '[[case-leadership-communication-failures]]'
 tags:
 - audience:executor
 - scene:execution

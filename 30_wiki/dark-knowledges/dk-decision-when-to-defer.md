@@ -34,6 +34,7 @@ related:
 - '[[framework-lean-false-model]]'
 - '[[concept-AI时代双三角竞争力]]'
 - '[[master-decision-hygiene]]'
+- '[[case-decision-ai-assisted-vs-human]]'
 tags:
 - audience:executor
 - scene:reference

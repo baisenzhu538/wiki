@@ -17,6 +17,12 @@ related:
 - '[[yitang-domain-digest]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+- '[[case-doris-2014-music-streaming-prediction]]'
+- '[[case-doris-beauty-ecommerce-channel]]'
+- '[[case-doris-catering-chain-benchmark]]'
+- '[[case-doris-crossborder-ecommerce-opportunity]]'
+- '[[case-doris-grab-industry-cognition]]'
+- '[[case-doris-outbound-travel-community]]'
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 tags:

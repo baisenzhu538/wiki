@@ -32,6 +32,7 @@ related:
 - '[[tool-strategy-risk-management]]'
 - concept-X型Y型决策习惯
 - concept-发现决策
+- '[[case-deepfake-market-misuse]]'
 updated_at: '2026-06-29'
 tags:
 - audience:manager

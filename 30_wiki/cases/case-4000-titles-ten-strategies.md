@@ -38,6 +38,7 @@ related:
 - '[[case-leo-lubricant-dealer-research]]'
 - bridge-how-to-know-person-to-business
 - case-cross-xingangwan-pharma
+- '[[case-ai-learning-series-modeling]]'
 tags:
 - audience:manager
 - audience:executor

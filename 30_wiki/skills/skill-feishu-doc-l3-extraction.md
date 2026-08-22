@@ -21,6 +21,8 @@ related:
 - '[[skill-duanwangye-wechat-extraction]]'
 - '[[concept-feishu-api-pagination-trap]]'
 - '[[concept-streaming-extraction-pattern]]'
+- '[[case-feishu-live259-l3-extraction]]'
+- '[[case-feishu-minutes-extraction-attempt]]'
 tags:
 - audience:executor
 - scene:execution

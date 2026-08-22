@@ -44,6 +44,7 @@ related:
 - '[[concept-research-saturation-coverage]]'
 - '[[tool-ai-problem-question-check]]'
 - dk-ai-builder-illusion
+- '[[case-design-principles-90]]'
 tags:
 - audience:executor
 - scene:execution
