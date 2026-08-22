@@ -4,7 +4,7 @@ updated_at: 2026-08-22T00:00:00+00:00
 status: active
 reviewed_by: 欧阳锋
 active_branch: main
-active_task: "2026-08-22 欧阳锋会话：① #407 PDF-Inspector 终审 PASS A-（官方源核验 5 数字全 VERIFIED + 200 PDFs 确认 + 视频 2.8s 以官方 0.47s 为准修正，核验真实性正证据；'单依赖 lopdf' 表述 TODO）② 库级编码债务清理：master-moc.md UTF-16 双重 BOM→UTF-8（kdo index 阻塞根因，commit 13613b8de）+ queue_integrity_audit/failure-modes-electronics GBK→UTF-8；kdo index --rebuild 恢复 4069 docs ③ 新立项：parse-error 58（#409 黄药师）/ production-queue mojibake（#410 黄药师）/ related-asymmetry 7472 分批（#411 老顽童，挂 #408 后）④ 素材层 3 文件（__MACOSX×2+广冷电子 GBK）遵只读纪律未动记 TODO。队列：待领取 4（#408-411）/审查中 0。"
+active_task: "2026-08-22 欧阳锋会话：① #407 PDF-Inspector 终审 PASS A-（官方源核验 5 数字全 VERIFIED + 200 PDFs 确认 + 视频 2.8s 以官方 0.47s 为准修正，核验真实性正证据；'单依赖 lopdf' 表述 TODO）② 库级编码债务清理：master-moc.md UTF-16 双重 BOM→UTF-8（kdo index 阻塞根因，commit 13613b8de）+ queue_integrity_audit/failure-modes-electronics GBK→UTF-8；kdo index --rebuild 恢复 4069 docs ③ 新立项建议稿：parse-error 58（#409）/ production-queue mojibake（#410）/ related-asymmetry 7472 分批（#411）——**已标注待王语嫣复核（欧阳锋建议稿，勿领取），复核通过后生效** ④ 素材层 3 文件（__MACOSX×2+广冷电子 GBK）遵只读纪律未动记 TODO。队列：#408 待领取 / #409-411 待王语嫣复核 / 审查中 0。"
 blockers:
   - "production-queue.md 全文件中文 mojibake 损坏（UTF-8-SIG 混合编码）——已立项 #410（黄药师，强制备份+样本校准+diff 结构零变化）"
   - "O-3 已知 bug：queue_transition.py complete --force 对 queued 任务锁内 re-check 必失败——review 路径实测可用（2026-08-18 四单全通，含 --grade）"
