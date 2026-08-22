@@ -16,15 +16,15 @@ aliases:
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 - 00_inbox/AI知识库/楚门-AI知识管理探索营-口述.txt
-status: pending_review
+status: reviewed
 domain: ai-collaboration
 source_person: Truman
 source_context: 一堂高阶建模能力培训（AI 建模协作案例）
 created_at: '2026-06-14'
 updated_at: '2026-08-22'
 author: 老顽童
-reviewed_by: pending
-review_date: '2026-06-16'
+reviewed_by: 欧阳锋
+review_date: 2026-08-22
 trust_level: high
 confidence: 0.85
 discoverable_by:

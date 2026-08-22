@@ -5,14 +5,14 @@ type: case
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 - 00_inbox/AI知识库/楚门-AI知识管理探索营-口述.txt
-status: pending_review
+status: reviewed
 confidence: 0.85
 domain: ai-collaboration
 created_at: '2026-06-14'
 author: 黄药师（基于 Truman 口述提取），老顽童 2026-08-22 回填补强
-reviewed_by: pending
+reviewed_by: 欧阳锋
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。2026-08-22 #408 回填空洞清零 + 8-15 口述增量（YI partner 复用链）。
-review_date: '2026-06-16'
+review_date: 2026-08-22
 trust_level: high
 discoverable_by:
   - AI 自复盘自封装：Truman 的 design case
