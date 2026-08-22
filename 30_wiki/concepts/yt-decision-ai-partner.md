@@ -33,6 +33,9 @@ related:
 - '[[concept-AI时代双三角竞争力]]'
 - '[[yt-decision-habit-shift]]'
 - '[[yt-decision-height-toolkit]]'
+- '[[yt-note-ai-human-division]]'
+- '[[yt-unit-model-ai-assisted]]'
+- '[[人机协作决策-双三角模型]]'
 reviewed_by: 周伯通
 aliases:
   - AI决策Partner对话法

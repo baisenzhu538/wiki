@@ -29,6 +29,7 @@ related:
 - '[[yt-panproduct-demand-surprise-formula]]'
 - '[[yt-panproduct-demand-motivation-resistance]]'
 - '[[yt-model-conversion-optimization]]'
+- '[[yt-research-user-jtbd]]'
 reviewed_by: 欧阳锋
 source_refs:
 - 10_raw/sources/src_20260522_041b5a94-ocr-泛产品设计-用户卡片-峰终定律.md

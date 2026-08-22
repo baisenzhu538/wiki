@@ -32,6 +32,7 @@ related:
 - '[[pending_unknown]]'
 - concept-X型Y型决策习惯
 - concept-发现决策
+- '[[yt-tool-best-practice-learning]]'
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 tags:

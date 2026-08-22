@@ -38,6 +38,9 @@ tags:
 - 模型实操探索营
 type: concept
 status: draft
+related:
+  - '[[yt-panproduct-demand-need-discovery]]'
+  - '[[yt-personal-y-model-exploration-2]]'
 ---
 # Y模型实操：科学成事的底层操作系统
 

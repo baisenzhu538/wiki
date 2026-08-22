@@ -64,6 +64,9 @@ related:
 - '[[tools-workflows]]'
 - '[[writing-content]]'
 - '[[yt-entrepreneur-needs-analysis]]'
+- '[[yt-personal-ipo-learning]]'
+- '[[yt-system-course-catalog]]'
+- '[[在设计小伙伴的反馈还挺好的]]'
 tags:
 - audience:general
 - scene:reference

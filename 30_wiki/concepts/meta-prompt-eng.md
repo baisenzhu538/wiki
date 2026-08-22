@@ -26,6 +26,7 @@ related:
 - '[[product-ux]]'
 - yt-system-course-map-lecture
 - yt-case-mandatory-cases
+- '[[yt-skill-checklist-as-ai-protocol]]'
 tags:
 - audience:general
 - scene:reference

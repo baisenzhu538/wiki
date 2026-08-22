@@ -36,6 +36,7 @@ related:
 - '[[knowledge-delivery-os-快速体验指南-飞书云文档]]'
 - '[[yt-decision-habit-shift]]'
 - '[[yt-management-project-management]]'
+- '[[yt-tool-knowledge-extraction]]'
 tags:
 - audience:general
 - scene:reference

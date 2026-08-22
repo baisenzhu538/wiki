@@ -29,6 +29,14 @@ related:
 - '[[learning-thinking]]'
 - '[[yt-concept-ai-guard-brain]]'
 - '[[yt-model-cognitive-upgrade-framework]]'
+- '[[yt-model-pan-product-36-strategies]]'
+- '[[yt-model-pan-product-aesthetic-toolkit]]'
+- '[[yt-model-personal-map]]'
+- '[[yt-model-prompt-engineering]]'
+- '[[yt-note-ai-human-division]]'
+- '[[yt-note-checklist-concept]]'
+- '[[yt-personal-knowledge-extraction]]'
+- '[[yt-prompt-engineering-andrew-ng]]'
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 aliases:

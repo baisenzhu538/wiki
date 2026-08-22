@@ -65,6 +65,10 @@ related:
 - '[[yt-management-scientific-decision]]'
 - '[[yt-management-scientific-hiring]]'
 - '[[yt-management-team-knowledge]]'
+- '[[yt-model-progress-map]]'
+- '[[yt-personal-ai-capability]]'
+- '[[yt-personal-knowledge-extraction]]'
+- '[[yt-personal-scientific-expression]]'
 tags:
 - audience:general
 - scene:reference

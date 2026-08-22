@@ -34,6 +34,13 @@ related:
 - '[[yt-concept-ai-guard-brain]]'
 - '[[yt-concept-context-engineering]]'
 - '[[yt-concept-weapon-arsenal]]'
+- '[[yt-model-prompt-engineering]]'
+- '[[yt-personal-scientific-expression]]'
+- '[[yt-pitch-conflict]]'
+- '[[yt-pitch-sublimation]]'
+- '[[yt-prompt-anti-flattery]]'
+- '[[yt-prompt-engineering-andrew-ng]]'
+- '[[yt-prompt-writing-workflow]]'
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 aliases:

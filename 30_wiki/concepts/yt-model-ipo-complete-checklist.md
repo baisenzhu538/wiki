@@ -36,6 +36,8 @@ tags:
 - 科学学习
 type: concept
 status: draft
+related:
+  - '[[yt-model-ipo-learning-strategy]]'
 ---
 # IPO 科学学习完整清单 (Complete List)
 

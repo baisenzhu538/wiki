@@ -31,6 +31,8 @@ related:
 - "[[yt-panproduct-demand-peak-end-rule]]"
 - "[[yt-panproduct-demand-surprise-formula]]"
 - "[[case-truman-motivation-map-12-versions]]"
+- '[[yt-model-prompt-engineering]]'
+- '[[yt-prompt-engineering-andrew-ng]]'
 reviewed_by: 欧阳锋
 source_refs:
 - 10_raw/sources/src_20260522_1ec27760-ocr-泛产品设计-用户卡片-动力阻力.md

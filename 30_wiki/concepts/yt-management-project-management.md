@@ -54,6 +54,7 @@ related:
 - '[[workflow-yitang-project-four-step-loop]]'
 - '[[case-yitang-2022-annual-lessons]]'
 - '[[case-yitang-leo-website-redesign]]'
+- '[[yt-tool-knowledge-extraction]]'
 diagnostic_signals:
 - signal: 团队的项目管理一直在裸跑——没有框架、没有工具、硬上
   lens: 项目管理意识缺失——不知道项目需要科学管理

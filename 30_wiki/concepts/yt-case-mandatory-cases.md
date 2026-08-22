@@ -48,6 +48,7 @@ related:
 - '[[meta-prompt-eng]]'
 - '[[product-ux]]'
 - '[[sprint-2-门禁举证验收]]'
+- '[[存储策略]]'
 tags:
 - audience:general
 - scene:reference

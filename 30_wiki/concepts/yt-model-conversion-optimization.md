@@ -27,6 +27,8 @@ related:
 - '[[一堂]]'
 - '[[yt-model-product-core-metrics]]'
 - '[[yt-entrepreneur-five-step-method]]'
+- '[[yt-panproduct-demand-motivation-resistance]]'
+- '[[yt-panproduct-demand-peak-end-rule]]'
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 aliases:

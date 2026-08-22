@@ -40,6 +40,7 @@ related:
 - '[[yt-skill-storyline-key-elements]]'
 - '[[yt-skill-storyline-problem-solving]]'
 - '[[yt-skill-storyline-target-tradeoff]]'
+- '[[yt-skill-storyline-timeline]]'
 tags:
 - audience:executor
 - scene:execution

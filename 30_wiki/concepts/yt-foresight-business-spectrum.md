@@ -35,6 +35,7 @@ related:
 - '[[yt-five-step-method]]'
 - '[[yt-foresight-15-char-mantra]]'
 - '[[yt-foresight-ab-steady-state]]'
+- '[[yt-three-dimension-opportunity-matrix]]'
 review_date: 2026-06-16
 reviewed_by:
 - src_unknown

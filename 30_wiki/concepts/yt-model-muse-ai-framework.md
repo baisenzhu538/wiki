@@ -34,6 +34,8 @@ tags:
 - 一堂人工智能全景图
 type: concept
 status: draft
+related:
+  - '[[yt-model-dual-triangle-competitiveness]]'
 ---
 # MUSE 人工智能全景图 (Yitang AI MUSE Framework V3.0)
 

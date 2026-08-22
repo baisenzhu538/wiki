@@ -61,6 +61,7 @@ related:
 - '[[yitang-domain-digest]]'
 - '[[pending_unknown]]'
 - '[[yt-decision-ai-partner]]'
+- '[[yt-prompt-brainstorming]]'
 tags:
 - audience:executor
 - scene:execution

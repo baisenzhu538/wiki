@@ -40,6 +40,8 @@ type: concept
 status: draft
 related:
   - '[[case-truman-shower-toilet-ideation]]'
+  - '[[yt-personal-scientific-expression]]'
+  - '[[yt-personal-time-management]]'
 ---
 # 灵感闪现（认知篇）
 

@@ -35,6 +35,7 @@ related:
 - '[[master-antifragile-checklist]]'
 - '[[master-knowledge-compound]]'
 - '[[learning-thinking]]'
+- '[[yt-unit-model-ai-assisted]]'
 tags:
 - audience:general
 - scene:reference

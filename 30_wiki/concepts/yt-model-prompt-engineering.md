@@ -30,6 +30,8 @@ related:
 - '[[yt-prompt-writing-workflow]]'
 - '[[yt-concept-ai-guard-brain]]'
 - '[[yt-concept-context-engineering]]'
+- '[[yt-prompt-engineering-andrew-ng]]'
+- '[[yt-skill-checklist-as-ai-protocol]]'
 query_triggers:
 - src_unknown
 - src_unknown

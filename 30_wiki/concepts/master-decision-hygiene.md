@@ -51,6 +51,7 @@ related:
 - '[[concept-abundance-paradox]]'
 - '[[concept-cognitive-offloading-in-ai-era]]'
 - '[[pilot-atomic-chunk-comparison]]'
+- '[[yt-research-mindset]]'
 tags:
 - audience:ceo
 - scene:diagnosis

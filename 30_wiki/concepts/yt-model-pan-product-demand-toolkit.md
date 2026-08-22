@@ -30,6 +30,18 @@ related:
 - '[[yt-model-pan-product-aesthetic-toolkit]]'
 - '[[yt-model-pan-product-execution-toolkit]]'
 - '[[yt-entrepreneur-five-step-method]]'
+- '[[yt-panproduct-demand-industry-canvas]]'
+- '[[yt-panproduct-demand-motivation-resistance]]'
+- '[[yt-panproduct-demand-multi-perspective]]'
+- '[[yt-panproduct-demand-need-discovery]]'
+- '[[yt-panproduct-demand-peak-end-rule]]'
+- '[[yt-panproduct-demand-project-background]]'
+- '[[yt-panproduct-demand-scenario-walkthrough]]'
+- '[[yt-panproduct-demand-surprise-formula]]'
+- '[[yt-panproduct-demand-user-perspective]]'
+- '[[yt-panproduct-demand-user-segmentation]]'
+- '[[yt-personal-pan-product-concepts]]'
+- '[[yt-personal-pan-product-practice]]'
 tags:
 - audience:manager
 - scene:planning

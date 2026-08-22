@@ -32,6 +32,8 @@ related:
 - '[[case-treadmill-demand-analysis]]'
 - '[[yitang-domain-digest]]'
 - '[[pending_unknown]]'
+- '[[yt-unit-model-build]]'
+- '[[yt-unit-model-concept]]'
 title: 市场规模估算方法
 trust_level: medium
 type: tool

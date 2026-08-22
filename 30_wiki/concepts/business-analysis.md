@@ -24,6 +24,7 @@ related:
 - '[[product-ux]]'
 - yt-system-course-map-lecture
 - yt-case-mandatory-cases
+- '[[存储策略]]'
 tags:
 - audience:general
 - scene:reference

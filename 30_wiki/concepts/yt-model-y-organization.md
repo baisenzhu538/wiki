@@ -34,6 +34,13 @@ tags:
 - skill-level:intermediate
 type: concept
 status: draft
+related:
+  - '[[yt-model-entrepreneur-map]]'
+  - '[[yt-model-pan-product-execution-toolkit]]'
+  - '[[yt-model-personal-map]]'
+  - '[[yt-model-progress-map]]'
+  - '[[yt-personal-knowledge-extraction]]'
+  - '[[yt-personal-y-model-exploration-2]]'
 ---
 # Y 型创业模型 (Y Model for Startups)
 

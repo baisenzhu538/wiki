@@ -43,6 +43,7 @@ status: draft
 related:
   - '[[case-truman-ai-partner]]'
   - '[[yt-model-cognitive-upgrade-framework]]'
+  - '[[yt-model-ipo-learning-strategy]]'
 ---
 # 清单体笔记（一堂笔记法）
 

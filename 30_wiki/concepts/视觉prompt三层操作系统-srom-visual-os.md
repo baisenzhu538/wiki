@@ -39,6 +39,8 @@ related:
 - '[[tool-Truman-个人判断力系统建设（达克效应应对）]]'
 - '[[yt-skill-p-role-prompt-design]]'
 - yt-system-course-map-lecture
+- '[[yt-skill-checklist-as-ai-protocol]]'
+- '[[yt-tool-peas-agent-analysis]]'
 tags:
 - audience:executor
 - scene:reference

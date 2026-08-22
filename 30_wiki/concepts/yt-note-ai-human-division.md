@@ -21,6 +21,7 @@ related:
 - '[[yt-concept-context-engineering]]'
 - '[[yt-personal-ai-capability]]'
 - '[[ai-short-drama-ice-fire-scripting-compass]]'
+- '[[yt-note-deliberate-practice-four-elements]]'
 prerequisites:
 - src_unknown
 aliases:

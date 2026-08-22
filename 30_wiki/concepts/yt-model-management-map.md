@@ -38,6 +38,9 @@ related:
 - '[[management-domain-digest]]'
 - '[[concept-一堂-基本功-段位体系]]'
 - '[[concept-一堂-基本功定义]]'
+- '[[yt-model-entrepreneur-map]]'
+- '[[yt-model-progress-map]]'
+- '[[yt-personal-knowledge-extraction]]'
 tags:
 - audience:general
 - scene:reference

@@ -28,6 +28,7 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - yt-concept-context-engineering
+- '[[yt-tool-peas-agent-analysis]]'
 tags:
 - audience:general
 - scene:reference

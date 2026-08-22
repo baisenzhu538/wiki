@@ -33,6 +33,7 @@ related:
 - '[[yt-personal-knowledge-management]]'
 - '[[master-knowledge-compound]]'
 - '[[knowledge-delivery-os-快速体验指南-飞书云文档]]'
+- '[[yt-tool-foresight-canvas]]'
 aliases:
   - 团队知识萃取器
   - 知识萃取器

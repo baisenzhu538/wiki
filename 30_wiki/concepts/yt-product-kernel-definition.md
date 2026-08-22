@@ -38,6 +38,7 @@ related:
 - '[[tool-李诞-个人IP的重新定义与输出策略]]'
 - '[[tool-Truman-多Agent通信协作方案]]'
 - '[[tool-Truman-开源模型与商业模型融合方案]]'
+- '[[yt-product-kernel-aesthetic]]'
 diagnostic_signals:
 - framework_lens: 产品内核定义——内核是价值，不是功能列表
   follow_up_question: 去掉一半功能，用户还会选择你吗？如果会，剩下的是内核；如果不会，你还没找到内核。

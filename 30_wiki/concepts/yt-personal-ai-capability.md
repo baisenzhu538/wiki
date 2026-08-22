@@ -29,6 +29,7 @@ related:
 - '[[yt-entrepreneur-needs-analysis]]'
 - '[[yt-personal-product-design]]'
 - '[[yt-model-dual-triangle-competitiveness]]'
+- '[[yt-note-ai-human-division]]'
 review_date: 2026-05-08
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。

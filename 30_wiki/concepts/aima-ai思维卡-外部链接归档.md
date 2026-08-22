@@ -28,6 +28,7 @@ discoverable_by:
   - 外部链接归档
 related:
 - yt-system-course-map-lecture
+- '[[yt-personal-ai-thinking-card]]'
 tags:
 - audience:general
 - scene:reference

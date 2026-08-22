@@ -32,6 +32,20 @@ related:
 - '[[yt-model-pan-product-three-virtues]]'
 - '[[yt-model-pan-product-climbing-map]]'
 - '[[yt-model-ipo-learning-strategy]]'
+- '[[yt-panproduct-aesthetic-collection]]'
+- '[[yt-panproduct-demand-industry-canvas]]'
+- '[[yt-panproduct-demand-motivation-resistance]]'
+- '[[yt-panproduct-demand-multi-perspective]]'
+- '[[yt-panproduct-demand-need-discovery]]'
+- '[[yt-panproduct-demand-peak-end-rule]]'
+- '[[yt-panproduct-demand-project-background]]'
+- '[[yt-panproduct-demand-scenario-walkthrough]]'
+- '[[yt-panproduct-demand-surprise-formula]]'
+- '[[yt-panproduct-demand-user-perspective]]'
+- '[[yt-panproduct-demand-user-segmentation]]'
+- '[[yt-personal-pan-product-concepts]]'
+- '[[yt-personal-pan-product-exploration]]'
+- '[[yt-personal-pan-product-tools]]'
 tags:
 - audience:manager
 - scene:planning

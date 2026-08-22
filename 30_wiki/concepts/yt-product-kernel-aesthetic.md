@@ -32,6 +32,8 @@ related:
 - '[[yt-model-pan-product-aesthetic-toolkit]]'
 - '[[yt-model-aesthetic-progression]]'
 - '[[yt-five-step-method]]'
+- '[[yt-product-kernel-boundary]]'
+- '[[yt-product-kernel-evolution]]'
 diagnostic_signals:
 - framework_lens: 产品内核与审美——功能好≠体验好，审美是内核的一部分
   follow_up_question: 用户选择你们，是因为功能好，还是因为体验好？审美是否影响了选择？

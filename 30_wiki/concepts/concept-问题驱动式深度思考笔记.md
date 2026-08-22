@@ -21,6 +21,7 @@ discoverable_by:
 related:
 - '[[master-knowledge-compound]]'
 - '[[yt-skill-storyline-problem-solving]]'
+- '[[yt-note-fact-pattern-insight]]'
 query_triggers:
 - src_unknown
 - src_unknown

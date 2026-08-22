@@ -36,6 +36,7 @@ related:
 - '[[tool-马易-成为首位F工程师]]'
 - '[[yt-skill-p-role-prompt-design]]'
 - '[[case-toc-content-platform-correlation-trap]]'
+- '[[yt-note-checklist-concept]]'
 query_triggers:
 - src_unknown
 - src_unknown

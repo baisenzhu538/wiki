@@ -32,6 +32,7 @@ related:
 - '[[yt-decision-habit-shift]]'
 - '[[yt-management-scientific-decision]]'
 - '[[yt-decision-full-process]]'
+- '[[yt-tool-knowledge-extraction]]'
 aliases:
   - L4深度复盘法
   - 假设验证闭环

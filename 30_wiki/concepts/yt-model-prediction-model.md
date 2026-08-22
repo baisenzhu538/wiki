@@ -37,6 +37,9 @@ tags:
 - 预判模型
 type: concept
 status: draft
+related:
+  - '[[yt-note-l6-extraction]]'
+  - '[[yt-panproduct-aesthetic-modeling]]'
 ---
 # 预判模型：从最糙版到复杂版的三种预判范式
 

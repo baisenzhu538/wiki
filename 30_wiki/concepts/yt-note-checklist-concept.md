@@ -22,6 +22,9 @@ related:
 - '[[yt-skill-checklist-as-ai-protocol]]'
 - '[[yt-note-fact-pattern-insight]]'
 - '[[ai-native-五层进阶从答案到效率到作品到产品到系统]]'
+- '[[yt-note-deliberate-practice-four-elements]]'
+- '[[yt-note-l4-internalization]]'
+- '[[yt-note-l6-extraction]]'
 prerequisites:
 - src_unknown
 aliases:

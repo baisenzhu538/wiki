@@ -102,6 +102,11 @@ related:
 - '[[yt-entrepreneur-scientific-method]]'
 - '[[yt-entrepreneur-truth-seeking]]'
 - '[[yt-management-project-management]]'
+- '[[yt-model-liberate-thinking-layers]]'
+- '[[yt-unit-model-benchmark]]'
+- '[[yt-unit-model-construction]]'
+- '[[yt-unit-model-selection]]'
+- '[[人机协作决策-双三角模型]]'
 created_at: 2026-07-03
 updated_at: '2026-07-08'
 tags:

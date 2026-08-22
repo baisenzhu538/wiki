@@ -29,6 +29,7 @@ related:
 - '[[yt-panproduct-demand-peak-end-rule]]'
 - '[[yt-model-product-excellence]]'
 - '[[yt-panproduct-aesthetic-imagination]]'
+- '[[yt-panproduct-demand-motivation-resistance]]'
 reviewed_by: 欧阳锋
 source_refs:
 - 10_raw/sources/src_20260522_622b8a41-ocr-泛产品设计-用户卡片-惊喜公式.md

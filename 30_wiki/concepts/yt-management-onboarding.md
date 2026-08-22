@@ -30,6 +30,7 @@ related:
 - '[[yt-system-course-catalog]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+- '[[yt-tool-knowledge-extraction]]'
 tags:
 - audience:executor
 - scene:reference

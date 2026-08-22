@@ -55,6 +55,8 @@ related:
 - '[[yt-model-personal-pitch-toolkit]]'
 - '[[yitang-domain-digest]]'
 - '[[deepseek-v4-在知识管理系统中的应用]]'
+- '[[yt-note-ai-human-division]]'
+- '[[yt-tool-product-core-canvas]]'
 tags:
 - audience:general
 - scene:reference

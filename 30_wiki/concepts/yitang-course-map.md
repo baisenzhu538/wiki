@@ -52,6 +52,11 @@ related:
 - '[[yt-management-scientific-decision]]'
 - '[[yt-management-scientific-hiring]]'
 - '[[yt-management-team-knowledge]]'
+- '[[yt-personal-ai-capability]]'
+- '[[yt-personal-deep-review]]'
+- '[[yt-personal-ipo-learning]]'
+- '[[yt-personal-scientific-expression]]'
+- '[[yt-tool-product-core-canvas]]'
 ---
 # 一堂课程大地图
 

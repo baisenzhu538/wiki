@@ -42,6 +42,7 @@ related:
 - '[[yt-skill-storyline-target-tradeoff]]'
 - '[[concept-问题驱动式深度思考笔记]]'
 - '[[source-code-delivery-model]]'
+- '[[yt-skill-storyline-timeline]]'
 tags:
 - audience:executor
 - scene:execution

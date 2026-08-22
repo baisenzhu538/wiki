@@ -52,6 +52,8 @@ related:
 - '[[yt-prompt-anti-flattery]]'
 - '[[yt-concept-context-engineering]]'
 - '[[yitang-domain-digest]]'
+- '[[yt-prompt-writing-workflow]]'
+- '[[yt-skill-checklist-as-ai-protocol]]'
 tags:
 - audience:executor
 - scene:execution

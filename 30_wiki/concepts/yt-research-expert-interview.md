@@ -32,6 +32,7 @@ related:
 - '[[yt-research-hypothesis-test]]'
 - '[[yt-research-mindset]]'
 - '[[business-research-skill-oscar-13-weapon-system]]'
+- '[[yt-research-weaponry-course]]'
 tags:
 - audience:executor
 - scene:execution

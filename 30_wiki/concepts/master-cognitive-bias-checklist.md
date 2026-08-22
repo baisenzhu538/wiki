@@ -32,6 +32,7 @@ related:
 - '[[master-knowledge-compound]]'
 - '[[smart-medicine-cabinet-clinic-risk-observation]]'
 - '[[yt-business-analysis-cognitive-biases]]'
+- '[[yt-research-mindset]]'
 tags:
 - audience:executor
 - scene:execution

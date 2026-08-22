@@ -42,6 +42,8 @@ type: concept
 status: draft
 related:
   - '[[yt-model-aesthetic-progression]]'
+  - '[[yt-panproduct-aesthetic-imagination]]'
+  - '[[yt-panproduct-demand-surprise-formula]]'
 ---
 # 顶级产品追求：品味、最佳实践与乔布斯的审美哲学
 

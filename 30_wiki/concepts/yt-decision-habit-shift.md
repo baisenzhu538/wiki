@@ -33,6 +33,7 @@ related:
 - '[[yt-decision-full-process]]'
 - '[[yt-decision-height-toolkit]]'
 - '[[yt-decision-review]]'
+- '[[人机协作决策-双三角模型]]'
 aliases:
   - X型→Y型决策者习惯诊断与转换
   - 型决策者习惯诊断与转换

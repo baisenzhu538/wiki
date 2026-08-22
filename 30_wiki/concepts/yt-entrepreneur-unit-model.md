@@ -42,6 +42,7 @@ related:
 - '[[case-toc-ecommerce-formula-misjudgment]]'
 - '[[yt-entrepreneur-needs-analysis]]'
 - '[[yt-management-project-management]]'
+- '[[yt-tool-product-core-canvas]]'
 review_date: 2026-06-15
 updated_at: '2026-06-18'
 reviewed_by: 欧阳锋

@@ -34,6 +34,10 @@ tags:
 - 在知识管理系统中的应用
 related:
 - framework-knowledge-compound-rocket-six
+- '[[yt-model-ipo-learning-strategy]]'
+- '[[yt-personal-ipo-learning]]'
+- '[[yt-personal-time-management]]'
+- '[[yt-tool-knowledge-extraction]]'
 status: reviewed
 updated_at: '2026-08-16'
 author: 黄药师

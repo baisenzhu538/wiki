@@ -25,6 +25,9 @@ related:
 - '[[yt-prompt-writing-workflow]]'
 - '[[yt-concept-weapon-arsenal]]'
 - '[[yt-model-personal-pitch-toolkit]]'
+- '[[yt-note-ai-human-division]]'
+- '[[yt-note-checklist-concept]]'
+- '[[yt-tool-product-core-canvas]]'
 prerequisites:
 - src_unknown
 query_triggers:

@@ -36,6 +36,9 @@ discoverable_by:
 related:
 - '[[dk-content-muscle-memory-vs-knowledge]]'
 - '[[framework-yitang-sales-incentive-6d]]'
+- '[[yt-model-ipo-learning-strategy]]'
+- '[[yt-personal-scientific-expression]]'
+- '[[yt-personal-time-management]]'
 tags:
 - audience:general
 - scene:reference

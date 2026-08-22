@@ -36,6 +36,8 @@ related:
 - '[[轻量级诊所HIS调研全清单]]'
 - '[[kdo-yaml-frontmatter-safety]]'
 - '[[knowledge-delivery-os-快速体验指南-飞书云文档]]'
+- '[[yt-product-kernel-definition]]'
+- '[[yt-tool-peas-agent-analysis]]'
 tags:
 - audience:general
 - scene:reference

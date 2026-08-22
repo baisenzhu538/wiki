@@ -32,6 +32,8 @@ tags:
 - 科学提问刻意练习
 type: concept
 status: draft
+related:
+  - '[[yt-personal-y-model-exploration-2]]'
 ---
 # 科学提问刻意练习地图
 

@@ -44,6 +44,7 @@ related:
 - '[[yt-five-step-common-pitfalls]]'
 - '[[yt-five-step-implementation]]'
 - '[[yt-five-step-level-blindspots]]'
+- '[[yt-unit-model-benchmark]]'
 status: enriched
 updated_at: '2026-06-17'
 title: 单元模型：商业模式评估的核心工具

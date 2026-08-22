@@ -26,6 +26,7 @@ related:
 - '[[tool-专家访谈十步法]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+- '[[yt-note-deliberate-practice-four-elements]]'
 query_triggers:
 - src_unknown
 - src_unknown

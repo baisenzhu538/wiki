@@ -41,6 +41,8 @@ type: concept
 status: draft
 related:
   - '[[yt-entrepreneur-key-hypotheses]]'
+  - '[[yt-model-five-step-canvas]]'
+  - '[[yt-tool-product-core-canvas]]'
 ---
 # 产品内核定义、迭代与验证方法论
 

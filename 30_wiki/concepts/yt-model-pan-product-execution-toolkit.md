@@ -33,6 +33,8 @@ related:
 - '[[yt-model-pan-product-aesthetic-toolkit]]'
 - '[[yt-model-y-organization]]'
 - '[[yt-entrepreneur-lean-validation]]'
+- '[[yt-personal-pan-product-02]]'
+- '[[yt-personal-pan-product-concepts]]'
 review_by: 2026-11-11
 reviewed_by: 黄药师
 review_notes: v2升级：2026-07-08由老顽童补齐19张卡牌真实名称与A/B/C分级，增补8张核心卡口头操作细节。source_refs精确到口述稿行号。

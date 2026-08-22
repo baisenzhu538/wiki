@@ -37,6 +37,9 @@ tags:
 - 落地卡片
 type: concept
 status: draft
+related:
+  - '[[yt-personal-ai-capability]]'
+  - '[[yt-personal-pan-product-concepts]]'
 ---
 # 泛产品设计
 

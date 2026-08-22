@@ -42,6 +42,7 @@ related:
 - '[[诊所o2o外卖平台业务深度调研报告]]'
 - '[[ec工业化规范手册-v2.8.0]]'
 - '[[HIS系统深度调研]]'
+- '[[保达云诊所深度调研报告]]'
 tags:
 - audience:general
 - scene:reference

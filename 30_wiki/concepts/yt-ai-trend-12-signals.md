@@ -32,6 +32,7 @@ related:
 - '[[tool-一堂-机会预判-五步法预判]]'
 - '[[framework-一堂五步法]]'
 - '[[case-ai-time-management-tiered-growth]]'
+- '[[yt-three-dimension-opportunity-matrix]]'
 tags:
 - audience:general
 - scene:reference

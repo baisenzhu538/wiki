@@ -28,6 +28,8 @@ related:
 - '[[yt-entrepreneur-liberate-thinking]]'
 - '[[yt-entrepreneur-research-cognition]]'
 - '[[yt-entrepreneur-unit-model]]'
+- '[[yt-personal-ipo-learning]]'
+- '[[yt-personal-y-model-exploration-2]]'
 created_at: 2026-05-06
 updated_at: '2026-07-03'
 tags:

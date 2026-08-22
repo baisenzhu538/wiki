@@ -24,6 +24,7 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+- '[[yt-note-checklist-concept]]'
 query_triggers:
 - src_unknown
 - src_unknown

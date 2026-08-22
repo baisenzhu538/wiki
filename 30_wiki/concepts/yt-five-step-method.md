@@ -49,6 +49,11 @@ related:
 - '[[yt-five-step-implementation]]'
 - '[[yt-five-step-level-blindspots]]'
 - '[[yt-market-size-estimation]]'
+- '[[yt-product-kernel-aesthetic]]'
+- '[[yt-research-competitor-toolkit]]'
+- '[[yt-research-hypothesis-test]]'
+- '[[yt-research-osl-framework]]'
+- '[[yt-unit-model-concept]]'
 review_date: 2026-06-10
 reviewed_by: 洪七公
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。

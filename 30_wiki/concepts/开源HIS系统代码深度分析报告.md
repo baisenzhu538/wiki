@@ -34,6 +34,7 @@ related:
 - '[[tool-Truman-开源模型与商业模型融合方案]]'
 - '[[互联网医院模式深度调研报告]]'
 - '[[yt-barrier-network-effects-deep]]'
+- '[[yt-tool-peas-agent-analysis]]'
 tags:
 - audience:general
 - scene:reference

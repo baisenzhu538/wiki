@@ -13,6 +13,7 @@ related:
 - '[[ec工业化规范手册-v2.8.0]]'
 - '[[HIS系统开发实现方案-架构师指南]]'
 - '[[HIS系统深度调研]]'
+- '[[yt-tool-peas-agent-analysis]]'
 aliases:
 - 系统分阶段整改报告
 - 鑫港湾HIS系统分阶段整改报告

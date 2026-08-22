@@ -23,6 +23,12 @@ related:
 - '[[一堂]]'
 - '[[yt-personal-pan-product-aesthetics]]'
 - '[[yt-model-pan-product-three-virtues]]'
+- '[[yt-panproduct-aesthetic-collection]]'
+- '[[yt-panproduct-aesthetic-imagination]]'
+- '[[yt-panproduct-aesthetic-modeling]]'
+- '[[yt-panproduct-aesthetic-pool]]'
+- '[[yt-panproduct-demand-user-perspective]]'
+- '[[yt-product-kernel-aesthetic]]'
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 aliases:

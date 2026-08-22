@@ -26,6 +26,11 @@ related:
 - '[[yt-model-pan-product-demand-toolkit]]'
 - '[[yt-model-pan-product-aesthetic-toolkit]]'
 - '[[yt-model-pan-product-execution-toolkit]]'
+- '[[yt-personal-pan-product-02]]'
+- '[[yt-personal-pan-product-aesthetics]]'
+- '[[yt-personal-pan-product-exploration]]'
+- '[[yt-personal-pan-product-practice]]'
+- '[[yt-personal-pan-product-tools]]'
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 aliases:

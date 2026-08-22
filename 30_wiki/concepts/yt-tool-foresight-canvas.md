@@ -38,6 +38,7 @@ related:
 - '[[yt-tool-best-practice-learning]]'
 - '[[yt-tool-fab-persuasion]]'
 - '[[yt-tool-knowledge-extraction]]'
+- '[[yt-tool-y-model-ruler]]'
 wiki_refs:
 - src_unknown
 - src_unknown

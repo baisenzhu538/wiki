@@ -21,6 +21,7 @@ related:
 - '[[yt-barrier-analysis-cheat-sheet]]'
 - '[[yt-barrier-identification-skill]]'
 - '[[yt-customer-acquisition-toolkit]]'
+- '[[yt-unit-model-selection]]'
 aliases:
 - 单元模型三工具
 - 单元模型三工具：斧子尺子梯子

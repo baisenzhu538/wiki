@@ -25,6 +25,7 @@ related:
 - '[[dk-note-surplus-brainpower]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+- '[[yt-note-l6-extraction]]'
 query_triggers:
 - src_unknown
 - src_unknown

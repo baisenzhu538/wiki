@@ -49,6 +49,8 @@ discoverable_by:
 related:
 - '[[tool-lean-product-kernel-metrics]]'
 - '[[yt-product-kernel-ten-metrics]]'
+- '[[yt-product-kernel-cultivation]]'
+- '[[yt-unit-model-concept]]'
 tags:
 - audience:executor
 - scene:execution

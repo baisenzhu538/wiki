@@ -15,6 +15,8 @@ related:
 - '[[yt-business-analysis-cognitive-biases]]'
 - '[[yt-five-step-common-pitfalls]]'
 - '[[yt-five-step-implementation]]'
+- '[[yt-unit-model-build]]'
+- '[[yt-unit-model-concept]]'
 aliases:
 - 周期模型
 - 增长周期模型

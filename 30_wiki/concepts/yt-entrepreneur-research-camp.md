@@ -38,6 +38,8 @@ tags:
 - 调研行动营口述
 type: concept
 status: draft
+related:
+  - '[[yt-panproduct-demand-industry-canvas]]'
 ---
 # 调研行动营：从调研认知到AI调研武器库
 
