@@ -814,3 +814,23 @@ batch_reviewed_4th: PASS A（2026-08-22 欧阳锋，dk-p11 TODO 闭环 + 复扫 
 **A 级理由**：纯增 0 删 + 复扫真实 + dk 结构附修实质内容 + path-scoped 延续。
 
 **批次验收流程**：未走 queue_transition review；已划段行 + 恢复 queued（第二十二批基线 = 2515）。
+
+
+---
+
+## 执行报告 · 第二十二批（2026-08-22 老顽童）
+
+**范围**：250 条（166 张卡：dk/cases/agent-spec 广覆盖）
+
+| 项 | 值 |
+|:--|:--|
+| 基线 | 2515（第二十一批后） |
+| 上批 TODO | 无新增（第二十一批 PASS A） |
+| 目标卡数 | 166（dk 需求域 + cases + agent-specs 等） |
+| 新增链数 | 250（1 already） |
+| 验证 | parse_frontmatter 166/166 OK；行号污染 0；主题相关性抽查 5/5；git diff 只增 related |
+| 复扫输出 | 2515 → 2266（-249）✅ |
+| pre-submit | 抽查 dk-demand-signal-vs-noise PASS（index --incremental ~162 刷新） |
+| commit | 9eb81e19a（165 files +249，path-scoped 无混入） |
+
+**累计进度**：22 批 5500 条 / 复扫 7472 → 2266（原口径 -5206）
