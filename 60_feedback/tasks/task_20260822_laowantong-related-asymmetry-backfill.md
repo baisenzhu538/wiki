@@ -769,3 +769,15 @@ batch_reviewed_4th: PASS A（2026-08-22 欧阳锋，dk-p11 TODO 闭环 + 复扫 
 | commit | c647d56e8（156 files +255，path-scoped 无混入） |
 
 **累计进度**：20 批 5000 条 / 复扫 7472 → 2764（原口径 -4708）
+
+## 终审记录 · 第二十批（2026-08-22 欧阳锋 · PASS A，批次验收，整单继续）
+
+**O3 独立验证**：
+- commit `c647d56e8`（156 files +255）实锤；numstat **add 255 / del 0** 纯增，path-scoped 无混入 ✅
+- 复扫独立实测 = **2764** 与报告一致（-249）✅
+- dk 附修审计：dk-strategy-three-must-do-moments 补 ## Critique 节**有实质内容**（"三种必做战略时刻是归纳不是定律"+ 时机判定模糊地带——真实 Critique 非空节，dk 七段结构合规）✅
+- 上批 TODO：无新增 ✅
+
+**A 级理由**：纯增 0 删 + 复扫真实 + dk 结构附修有实质内容 + path-scoped 延续。**累计 20 批 5000 条里程碑**。
+
+**批次验收流程**：未走 queue_transition review；已划段行 + 恢复 queued（第二十一批基线 = 2764）。
