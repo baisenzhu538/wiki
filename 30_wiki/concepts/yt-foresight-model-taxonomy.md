@@ -30,6 +30,7 @@ related:
 - '[[framework-一堂-机会预判]]'
 - '[[yt-foresight-business-spectrum]]'
 - '[[tool-一堂-机会预判-案例预判]]'
+- '[[concept-mckinsey-mece]]'
 tags:
 - audience:general
 - scene:reference

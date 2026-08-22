@@ -29,6 +29,8 @@ related:
 - concept-X型Y型决策习惯
 - concept-发现决策
 - '[[case-thousand-people-square]]'
+- '[[concept-ai-native-organization-five-steps]]'
+- '[[concept-thousand-people-square]]'
 quality_labels:
 - cited
 - principle

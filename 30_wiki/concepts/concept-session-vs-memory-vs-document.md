@@ -47,6 +47,7 @@ related:
 - '[[dk-ai-judgment-human-responsibility]]'
 - '[[case-new-year-insight-relay]]'
 - '[[case-vibecoding-one-week-delivery]]'
+- '[[concept-ai-style-knowledge-docs]]'
 review_date: 2026-08-16
 ---
 

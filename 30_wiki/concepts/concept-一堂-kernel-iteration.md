@@ -36,6 +36,7 @@ related:
 - '[[case-qinpeng-iot-module-tiering]]'
 - '[[case-yitang-chuanhe-seasoning-kernel]]'
 - '[[case-yitang-zhongzheng-parking-garage]]'
+- '[[concept-一堂-business-prediction]]'
 wiki_refs:
 - src_unknown
 - src_unknown

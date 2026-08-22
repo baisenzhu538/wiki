@@ -58,6 +58,9 @@ related:
 - '[[framework-一堂-机会预判]]'
 - '[[case-treadmill-demand-analysis]]'
 - '[[case-truman-yitang-foresight]]'
+- '[[concept-一堂-hypothesis-driven-business-methodology]]'
+- '[[concept-一堂-key-assumptions]]'
+- '[[concept-一堂-终局光谱图解读]]'
 tags:
 - audience:general
 - scene:reference

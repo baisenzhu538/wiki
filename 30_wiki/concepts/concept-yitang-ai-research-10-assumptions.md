@@ -35,6 +35,7 @@ related:
 - '[[concept-ai-native-organization-five-steps]]'
 - tool-yitang-research-cross-validation
 - tool-yitang-research-company-disassembly
+- '[[kimi-深度调研集群方法论-deep-research-swarm]]'
 tags:
 - audience:general
 - scene:reference

@@ -39,6 +39,7 @@ related:
 - dk-ai-builder-illusion
 - '[[case-4000-titles-ten-strategies]]'
 - '[[case-ai-learning-series-modeling]]'
+- '[[concept-session-vs-memory-vs-document]]'
 tags:
 - audience:manager
 - audience:executor

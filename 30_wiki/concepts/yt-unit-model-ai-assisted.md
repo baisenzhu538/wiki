@@ -30,6 +30,7 @@ related:
 - '[[yt-unit-model-ladder]]'
 - '[[yt-decision-ai-partner]]'
 - '[[master-systems-thinking]]'
+- '[[ai数据理解第一课]]'
 aliases:
   - AI+单元模型
   - AI+单元模型：TCPR双导师与出口式咨询实践

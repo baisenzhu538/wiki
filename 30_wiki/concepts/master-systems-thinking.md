@@ -34,6 +34,7 @@ related:
 - '[[master-first-principles]]'
 - '[[master-antifragile-checklist]]'
 - '[[master-knowledge-compound]]'
+- '[[learning-thinking]]'
 tags:
 - audience:general
 - scene:reference

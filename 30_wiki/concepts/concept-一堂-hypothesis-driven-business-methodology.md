@@ -40,6 +40,7 @@ related:
 - '[[concept-mckinsey-issue-tree]]'
 - '[[concept-mckinsey-mece]]'
 - '[[case-milktea-five-step]]'
+- '[[concept-一堂-kernel-iteration]]'
 wiki_refs:
 - src_unknown
 - src_unknown

@@ -54,6 +54,7 @@ related:
 - '[[yt-concept-weapon-arsenal]]'
 - '[[yt-model-personal-pitch-toolkit]]'
 - '[[yitang-domain-digest]]'
+- '[[deepseek-v4-在知识管理系统中的应用]]'
 tags:
 - audience:general
 - scene:reference

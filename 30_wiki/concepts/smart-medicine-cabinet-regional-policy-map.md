@@ -41,6 +41,7 @@ related:
 - - - smart-medicine-cabinet-distribution
 - - - smart-medicine-cabinet-national-policy-redlines
 - smart-medicine-cabinet-clinic-risk-observation
+- '[[smart-medicine-cabinet-distribution]]'
 query_triggers:
 - src_unknown
 - src_unknown

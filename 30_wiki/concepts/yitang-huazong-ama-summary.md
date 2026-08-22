@@ -23,6 +23,7 @@ discoverable_by:
 related:
 - '[[yt-model-dual-triangle-competitiveness]]'
 - '[[case-yitang-double-triangle-confidence]]'
+- '[[yitang-huazong-ama-by-industry]]'
 tags:
 - audience:general
 - scene:reference

@@ -54,6 +54,8 @@ related:
 - '[[concept-yitang-research-mindset]]'
 - '[[tool-yitang-research-competitive-quadrant]]'
 - '[[framework-yitang-five-step-to-time-management]]'
+- '[[business-research-skill-oscar-13-weapon-system]]'
+- '[[kimi-深度调研集群方法论-deep-research-swarm]]'
 tags:
 - audience:general
 - scene:reference

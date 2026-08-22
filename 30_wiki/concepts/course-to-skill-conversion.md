@@ -25,6 +25,7 @@ related:
 - '[[voice-input-doubao]]'
 - '[[ai-landing-scene-selection]]'
 - '[[pending_unknown]]'
+- '[[find-old-do-small]]'
 query_triggers:
 - src_unknown
 - src_unknown

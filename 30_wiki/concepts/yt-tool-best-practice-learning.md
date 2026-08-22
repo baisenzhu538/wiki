@@ -33,6 +33,7 @@ related:
 - '[[tool-最佳实践收集]]'
 - '[[tool-月白-用一堂方法论找最佳实践并拉满执行]]'
 - '[[tool-Truman-知识库最佳实践构建]]'
+- '[[learning-thinking]]'
 review_by: 2026-12-06
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。

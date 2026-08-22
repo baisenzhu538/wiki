@@ -52,6 +52,7 @@ related:
 - '[[dk-yitang-research-ai-hallucination]]'
 - '[[concept-yitang-research-mindset]]'
 - '[[case-yitang-senior-university-product-design]]'
+- '[[business-research-skill-oscar-13-weapon-system]]'
 tags:
 - audience:general
 - scene:reference

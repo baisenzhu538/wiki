@@ -42,6 +42,7 @@ related:
 - '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
 - '[[case-milktea-five-step]]'
 - '[[case-shampoo-product-kernel]]'
+- '[[concept-一堂-kernel-iteration]]'
 tags:
 - audience:general
 - scene:reference

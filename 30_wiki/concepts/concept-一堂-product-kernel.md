@@ -47,6 +47,12 @@ related:
 - '[[case-shampoo-product-kernel]]'
 - '[[case-yitang-chuanhe-seasoning-kernel]]'
 - '[[case-yitang-zhongzheng-parking-garage]]'
+- '[[concept-一堂-business-prediction]]'
+- '[[concept-一堂-hypothesis-driven-business-methodology]]'
+- '[[concept-一堂-kernel-iteration]]'
+- '[[concept-一堂-kernel-validation]]'
+- '[[concept-一堂-key-assumptions]]'
+- '[[yitang-strategy-canvas]]'
 ---
 
 # 产品内核 — 用户愿意选择你的最小解决方案

@@ -43,6 +43,7 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[concept-yitang-facts-first]]'
+- '[[business-research-skill-oscar-13-weapon-system]]'
 tags:
 - audience:general
 - scene:reference

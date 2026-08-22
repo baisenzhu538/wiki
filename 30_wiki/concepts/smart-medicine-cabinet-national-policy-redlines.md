@@ -49,6 +49,7 @@ related:
 - - - smart-medicine-cabinet-fraud-detection
 - - - smart-medicine-cabinet-regional-policy-map
 - smart-medicine-cabinet-clinic-risk-observation
+- '[[smart-medicine-cabinet-distribution]]'
 query_triggers:
 - src_unknown
 - src_unknown

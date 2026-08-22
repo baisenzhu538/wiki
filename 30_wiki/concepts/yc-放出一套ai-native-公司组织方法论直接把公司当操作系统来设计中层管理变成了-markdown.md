@@ -38,6 +38,7 @@ related:
 - '[[ai-native-im-multi-agent]]'
 - '[[dk-lz-ai-native-organization]]'
 - '[[management-domain-digest]]'
+- '[[data-labeling-best-practices-report]]'
 tags:
 - audience:executor
 - scene:reference

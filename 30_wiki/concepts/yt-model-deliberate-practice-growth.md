@@ -36,6 +36,8 @@ tags:
 - 一堂刻意练习十年成长指数
 type: concept
 status: draft
+related:
+  - '[[concept-yitang-comfort-stretch-panic-zones]]'
 ---
 # 刻意练习十年成长指数：为什么有人一年顶十年
 

@@ -40,6 +40,8 @@ related:
 - '[[case-ai-search-commerce-platform-hedge]]'
 - '[[case-decision-ai-assisted-vs-human]]'
 - '[[case-kdo-agent-factory-dual-triangle-practice]]'
+- '[[concept-jevons-paradox-in-ai]]'
+- '[[concept-token-capital]]'
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 tags:

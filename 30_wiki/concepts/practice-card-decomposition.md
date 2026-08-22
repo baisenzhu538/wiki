@@ -33,6 +33,8 @@ related:
 - '[[fixed-routine-design]]'
 - '[[timely-feedback-loop]]'
 - '[[ai-tool-learning-workbook]]'
+- '[[deliberate-practice-four-elements]]'
+- '[[yai-counsel-role]]'
 tags:
 - audience:executor
 - scene:execution

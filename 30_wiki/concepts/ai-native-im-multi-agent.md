@@ -30,6 +30,7 @@ related:
 - - - industrial-ai-ops-cases
 - personal-growth-complex-systems
 - ai-methodology-tools
+- '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
 created_at: 2026-06-14
 updated_at: '2026-06-29'
 author: 王语嫣

@@ -34,6 +34,9 @@ related:
 - '[[master-systems-thinking]]'
 - '[[master-antifragile-checklist]]'
 - framework-knowledge-five-leaps
+- '[[ai时代判断力口述-3]]'
+- '[[concept-问题驱动式深度思考笔记]]'
+- '[[knowledge-delivery-os-快速体验指南-飞书云文档]]'
 tags:
 - audience:general
 - scene:reference

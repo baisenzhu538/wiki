@@ -37,6 +37,7 @@ related:
   - '[[case-five-step-fake-vs-real-barriers]]'
   - '[[case-toy-cabinet-business-model]]'
   - '[[case-zhihu-vs-degetao-network-effect]]'
+  - '[[yt-barrier-analysis-cheat-sheet]]'
 ---
 # 规模经济分析武器库
 

@@ -11,6 +11,7 @@ related:
 - '[[case-treadmill-demand-analysis]]'
 - '[[pending_unknown]]'
 - '[[case-five-step-growth-first-lever]]'
+- '[[concept-一堂-kernel-iteration]]'
 aliases:
 - 产品内核修炼段位图
 - 内核修炼段位图

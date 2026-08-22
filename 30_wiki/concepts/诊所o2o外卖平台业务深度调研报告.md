@@ -13,6 +13,7 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+- '[[ec工业化规范手册-v2.8.0]]'
 tags:
 - audience:general
 - scene:reference

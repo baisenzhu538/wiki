@@ -34,6 +34,8 @@ related:
 - '[[yai-counsel-role]]'
 - '[[fixed-routine-design]]'
 - '[[practice-card-decomposition]]'
+- '[[deliberate-practice-four-elements]]'
+- '[[yai-tcp-teacher-role]]'
 tags:
 - audience:executor
 - scene:execution

@@ -37,6 +37,7 @@ type: concept
 status: draft
 related:
   - '[[case-escort-service-tiered-growth]]'
+  - '[[yitang-strategy-canvas]]'
 ---
 # 机会选择
 

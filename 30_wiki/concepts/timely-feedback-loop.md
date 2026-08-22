@@ -35,6 +35,10 @@ related:
 - '[[fixed-routine-design]]'
 - '[[comfort-zone-expansion]]'
 - '[[ai-tool-learning-curve]]'
+- '[[deliberate-repetition]]'
+- '[[practice-card-decomposition]]'
+- '[[yai-counsel-role]]'
+- '[[yai-tcp-teacher-role]]'
 tags:
 - audience:ceo
 - scene:diagnosis

@@ -44,6 +44,7 @@ related:
 - '[[case-yitang-marathon-ten-seasons]]'
 - '[[yt-management-goal-management]]'
 - '[[framework-一堂-关键假设]]'
+- '[[concept-目标-北极星型vs探索型]]'
 diagnostic_signals:
 - signal: 新业务刚起步就被人要 KPI，定不出数就先压一个数交差
   lens: 探索期强挂必胜型 KPI——数字是编的，路径被锁死，团队从此只优化那个编出来的数

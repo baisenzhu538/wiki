@@ -34,6 +34,7 @@ related:
 - '[[yt-system-course-catalog]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+- '[[concept-collaboration-philosophy-foundation]]'
 tags:
 - audience:general
 - scene:reference

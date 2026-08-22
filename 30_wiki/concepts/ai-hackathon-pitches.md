@@ -49,6 +49,7 @@ related:
 - 一堂武智院
 - 价值投资大师项目
 - 内容营销路演
+- '[[finance-legal-business-operations]]'
 ---
 # AI 大航海项目路演：主题综合知识卡
 

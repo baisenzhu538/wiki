@@ -30,6 +30,7 @@ related:
 - '[[master-first-principles]]'
 - '[[master-systems-thinking]]'
 - '[[master-knowledge-compound]]'
+- '[[concept-abundance-paradox]]'
 tags:
 - audience:executor
 - scene:execution

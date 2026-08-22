@@ -24,6 +24,7 @@ related:
 - '[[yt-tool-meeting-designer]]'
 - '[[framework-lean-false-model]]'
 - '[[dk-modeling-ai-judgment-limit]]'
+- '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
 reviewed_by: 欧阳锋
 aliases:
   - AI原生创业四阶段模型Anthropic创始人手册

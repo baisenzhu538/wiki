@@ -11,6 +11,7 @@ related:
 - '[[yt-business-formula-ten-paradigms]]'
 - '[[pending_unknown]]'
 - '[[case-five-step-growth-first-lever]]'
+- '[[concept-five-step-growth-to-barrier-transition]]'
 aliases:
 - 周期模型
 - 增长周期模型

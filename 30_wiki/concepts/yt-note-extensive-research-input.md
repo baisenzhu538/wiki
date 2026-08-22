@@ -25,6 +25,7 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+- '[[voice-input-doubao]]'
 query_triggers:
 - src_unknown
 - src_unknown

@@ -35,6 +35,7 @@ related:
 - '[[在设计小伙伴的反馈还挺好的]]'
 - '[[tool-月白-电商详情页起承转合架构法]]'
 - '[[case-strategy-xiaobear]]'
+- '[[concept-wanghuan-tacit-knowledge-examples]]'
 tags:
 - audience:executor
 - scene:reference

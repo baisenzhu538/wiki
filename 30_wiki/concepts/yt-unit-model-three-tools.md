@@ -17,6 +17,9 @@ related:
 - '[[pending_unknown]]'
 - '[[case-five-step-growth-first-lever]]'
 - '[[case-toy-cabinet-barrier]]'
+- '[[tools-workflows]]'
+- '[[yt-barrier-analysis-cheat-sheet]]'
+- '[[yt-barrier-identification-skill]]'
 aliases:
 - 单元模型三工具
 - 单元模型三工具：斧子尺子梯子

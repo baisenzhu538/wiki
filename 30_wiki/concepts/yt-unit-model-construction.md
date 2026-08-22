@@ -27,6 +27,7 @@ related:
 - '[[yt-unit-model-ladder]]'
 - '[[yt-entrepreneur-five-step-method]]'
 - '[[yt-decision-y-model]]'
+- '[[ai单元模型口述蒋老师]]'
 aliases:
   - 单元模型构建法
   - 单元模型构建法：拆推评算与ABCD模型分类

@@ -34,6 +34,7 @@ related:
 - '[[yt-entrepreneur-needs-analysis]]'
 - '[[case-coffee-shop-foresight]]'
 - '[[case-five-step-growth-first-lever]]'
+- '[[concept-mckinsey-issue-tree]]'
 reviewed_by: 王语嫣
 aliases:
   - 一堂五步法

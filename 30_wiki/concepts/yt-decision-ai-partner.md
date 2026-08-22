@@ -30,6 +30,7 @@ related:
 - '[[yt-decision-depth-ladder]]'
 - '[[yt-prompt-anti-flattery]]'
 - '[[case-yitang-double-triangle-confidence]]'
+- '[[concept-AI时代双三角竞争力]]'
 reviewed_by: 周伯通
 aliases:
   - AI决策Partner对话法

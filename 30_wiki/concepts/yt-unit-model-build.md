@@ -33,6 +33,7 @@ related:
 - '[[yt-growth-cycle-model]]'
 - '[[yt-business-formula-parameter-iceberg]]'
 - '[[case-strategy-model-selection-quiz]]'
+- '[[concept-定价-价格杠杆]]'
 review_date: 2026-06-16
 reviewed_by: 王语嫣
 aliases:

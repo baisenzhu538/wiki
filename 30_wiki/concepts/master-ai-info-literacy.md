@@ -31,6 +31,7 @@ related:
 - '[[master-antifragile-checklist]]'
 - '[[master-knowledge-compound]]'
 - '[[industrial-ai-ops-cases]]'
+- '[[knowledge-error-self-exposure]]'
 tags:
 - audience:ceo
 - scene:diagnosis

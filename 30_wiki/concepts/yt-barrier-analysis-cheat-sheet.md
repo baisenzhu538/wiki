@@ -13,6 +13,7 @@ related:
 - '[[case-five-step-fake-vs-real-barriers]]'
 - '[[case-toy-cabinet-barrier]]'
 - '[[case-zhihu-vs-degetao-network-effect]]'
+- '[[yt-barrier-identification-skill]]'
 aliases:
 - 分析完整
 - 壁垒分析完整cheatsheet

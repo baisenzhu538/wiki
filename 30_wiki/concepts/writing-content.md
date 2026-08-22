@@ -24,6 +24,9 @@ related:
 - '[[yt-prompt-writing-workflow]]'
 - '[[case-chen-qiufan-ai-writing]]'
 - yt-system-course-map-lecture
+- '[[business-analysis]]'
+- '[[meta-prompt-eng]]'
+- '[[product-ux]]'
 tags:
 - audience:general
 - scene:reference

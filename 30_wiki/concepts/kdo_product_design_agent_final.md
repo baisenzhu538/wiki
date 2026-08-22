@@ -36,6 +36,7 @@ related:
 - '[[kdo-yaml-frontmatter-safety]]'
 - '[[tool-泛产品设计-需求工具箱指南]]'
 - '[[kdo-priority-checklist]]'
+- '[[design-ai-image-generation]]'
 tags:
 - audience:general
 - scene:reference

@@ -29,6 +29,8 @@ related:
 - '[[yt-entrepreneur-product-core]]'
 - '[[yt-entrepreneur-unit-model]]'
 - '[[yt-model-cognitive-upgrade-framework]]'
+- '[[anthropic-官方发布创始人手册打造-ai-原生初创公司]]'
+- '[[yitang-strategy-canvas]]'
 review_date: 2026-06-06
 aliases:
   - 关键假设259工具与假设验证三板斧

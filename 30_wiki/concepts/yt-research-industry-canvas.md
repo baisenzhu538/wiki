@@ -32,6 +32,7 @@ related:
 - '[[yt-research-hypothesis-test]]'
 - '[[yt-research-mindset]]'
 - '[[case-smart-medicine-cabinet-business-model-validation]]'
+- '[[business-research-skill-oscar-13-weapon-system]]'
 tags:
 - audience:ceo
 - scene:diagnosis

@@ -27,6 +27,7 @@ related:
 - '[[yt-model-progress-map]]'
 - '[[yt-model-y-organization]]'
 - '[[yt-system-course-catalog]]'
+- '[[knowledge-delivery-os-快速体验指南-飞书云文档]]'
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 aliases:

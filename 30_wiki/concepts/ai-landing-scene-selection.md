@@ -25,6 +25,9 @@ related:
 - '[[pending_unknown]]'
 - '[[ai-collaboration-mindset-shift]]'
 - '[[ai-hackathon-pitches]]'
+- '[[business-validation-models-collaboration]]'
+- '[[concept-qinpeng-ai-as-amplifier]]'
+- '[[contingency-decision-making]]'
 query_triggers:
 - src_unknown
 - src_unknown

@@ -30,6 +30,10 @@ related:
 - '[[yt-panproduct-execution-liberate-thinking]]'
 - '[[dk-yi-tang-wishful-thinking-kills-startups]]'
 - yt-system-course-map-lecture
+- '[[business-analysis]]'
+- '[[concept-cognitive-offloading-in-ai-era]]'
+- '[[meta-prompt-eng]]'
+- '[[product-ux]]'
 tags:
 - audience:general
 - scene:reference

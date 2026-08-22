@@ -39,6 +39,8 @@ related:
 - '[[yt-business-formula-hypothesis-management-playbook]]'
 - '[[case-yitang-sales-transformation-meirongyuan]]'
 - '[[case-yitang-sales-transformation-tuliaogongsi]]'
+- '[[concept-目标-北极星型vs探索型]]'
+- '[[concept-目标管理组织四阶段]]'
 updated_at: 2026-07-02
 id: yt-management-goal-management
 author: 老顽童

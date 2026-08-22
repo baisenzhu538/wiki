@@ -44,6 +44,8 @@ related:
 - '[[zhu-feedback-patterns]]'
 - '[[management-domain-digest]]'
 - '[[bridge-lightning-agent-evolution]]'
+- '[[concept-kdo-agent-design-principles]]'
+- '[[concept-kdo-agent-four-level-awareness]]'
 diagnostic_signals:
 - signal: 一个 agent 连续两次会话犯同类错误（越界、漏验、忘口径），每次都要重新纠正
   lens: 该能力只存在"口头交代"里，没建模成卡/机制——王语嫣事故同款根因

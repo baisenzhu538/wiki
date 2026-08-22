@@ -33,6 +33,7 @@ related:
 - '[[yt-research-expert-interview]]'
 - '[[yt-research-hypothesis-test]]'
 - '[[kimi-深度调研集群方法论-deep-research-swarm]]'
+- '[[concept-harness-cattle-not-pets]]'
 tags:
 - audience:general
 - scene:reference

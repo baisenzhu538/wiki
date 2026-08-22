@@ -87,6 +87,8 @@ related:
 - '[[case-yihang-dual-triangle-jumi-canvas-demo]]'
 - '[[case-yihang-dual-triangle-kunte-virtual-idol]]'
 - '[[case-yihang-dual-triangle-tanzhaichao-ai-growth]]'
+- '[[concept-ai-video-wanggan-componentization]]'
+- '[[concept-yihang-ai-feature-thinking]]'
 tags:
 - audience:general
 - scene:reference

@@ -56,6 +56,7 @@ related:
 - '[[yt-concept-ai-guard-brain]]'
 - '[[yt-model-personal-pitch-toolkit]]'
 - '[[yitang-domain-digest]]'
+- '[[writing-content]]'
 tags:
 - audience:executor
 - scene:execution

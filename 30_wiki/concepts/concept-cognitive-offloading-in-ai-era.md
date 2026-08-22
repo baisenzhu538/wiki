@@ -65,6 +65,7 @@ related:
 - '[[concept-ji-hao-ai-collaboration-methodology]]'
 - '[[tool-ai-deliverable-polish-loop]]'
 - '[[case-truman-time-management-commute-experiment]]'
+- '[[concept-qinpeng-knowledge-base-conversion]]'
 pipeline:
 - confidence-draft
 ---

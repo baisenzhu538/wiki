@@ -11,6 +11,8 @@ related:
 - '[[街顺app全面调研报告]]'
 - '[[knowledge-delivery-os-快速体验指南-飞书云文档]]'
 - '[[pending_unknown]]'
+- '[[concept-kdo-review-workflow]]'
+- '[[EC工业化规范手册]]'
 aliases:
 - ec工业化规范手册
 - ec工业化规范手册v2.8.0

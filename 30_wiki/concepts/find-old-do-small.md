@@ -24,6 +24,7 @@ related:
 - '[[ai-learning-closed-loop]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+- '[[contingency-decision-making]]'
 query_triggers:
 - src_unknown
 - src_unknown

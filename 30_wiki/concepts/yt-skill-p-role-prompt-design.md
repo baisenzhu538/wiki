@@ -36,6 +36,8 @@ tags:
 - scene:reference
 - skill-level:intermediate
 status: draft
+related:
+  - '[[design-ai-image-generation]]'
 ---
 # P 角色 Prompt 设计——执行者型 AI 的交付规范
 

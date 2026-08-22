@@ -37,6 +37,7 @@ type: concept
 status: draft
 related:
   - '[[case-five-step-fake-vs-real-barriers]]'
+  - '[[concept-five-step-growth-to-barrier-transition]]'
 ---
 # 项目壁垒
 

@@ -23,6 +23,9 @@ related:
 - '[[ai-landing-scene-selection]]'
 - '[[structured-ai-workspace]]'
 - '[[pending_unknown]]'
+- '[[find-old-do-small]]'
+- '[[learning-thinking]]'
+- '[[yai-counsel-role]]'
 query_triggers:
 - src_unknown
 - src_unknown

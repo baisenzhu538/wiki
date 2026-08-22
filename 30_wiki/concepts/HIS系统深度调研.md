@@ -40,6 +40,7 @@ related:
 - '[[鑫港湾HIS项目]]'
 - '[[互联网医院模式深度调研报告]]'
 - '[[tool-月白-文创材质调研与精益选择]]'
+- '[[concept-smart-medicine-cabinet-consumer-acceptance]]'
 tags:
 - audience:general
 - scene:reference

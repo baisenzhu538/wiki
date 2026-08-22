@@ -49,6 +49,8 @@ related:
 - 一起引擎
 - 刘长胜
 - 外卖对接方案讨论
+- '[[finance-legal-business-operations]]'
+- '[[product-business-strategy]]'
 ---
 
 # 非药柜主题综合知识卡

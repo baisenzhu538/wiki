@@ -28,6 +28,7 @@ related:
 - '[[yt-decision-depth-ladder]]'
 - '[[yt-decision-ai-partner]]'
 - '[[yt-entrepreneur-key-hypotheses]]'
+- '[[yitang-strategy-canvas]]'
 reviewed_by: 周伯通
 aliases:
   - Y模型决策画布一页纸工具

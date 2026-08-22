@@ -54,6 +54,7 @@ related:
 - '[[yt-foresight-addition-subtraction]]'
 - '[[yt-foresight-business-spectrum]]'
 - '[[framework-一堂-机会预判]]'
+- '[[concept-一堂-终局光谱图解读]]'
 tags:
 - audience:general
 - scene:reference

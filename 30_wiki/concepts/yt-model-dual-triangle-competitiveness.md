@@ -22,6 +22,9 @@ related:
 - '[[yt-personal-ai-capability]]'
 - '[[yt-personal-ipo-learning]]'
 - '[[case-yitang-double-triangle-confidence]]'
+- '[[ai单元模型口述蒋老师]]'
+- '[[anthropic-官方发布创始人手册打造-ai-原生初创公司]]'
+- '[[yitang-huazong-ama-summary]]'
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 aliases:

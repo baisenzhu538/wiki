@@ -26,6 +26,8 @@ related:
 - '[[dk-ai-design-pitfalls]]'
 - '[[tool-ai-deliverable-polish-loop]]'
 - '[[ai-hackathon-pitches]]'
+- '[[business-validation-models-collaboration]]'
+- '[[contingency-decision-making]]'
 query_triggers:
 - src_unknown
 - src_unknown

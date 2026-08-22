@@ -30,6 +30,7 @@ related:
 - '[[framework-一堂-机会预判]]'
 - '[[concept-一堂-终局光谱图解读]]'
 - '[[framework-一堂五步法]]'
+- '[[yt-ai-trend-12-signals]]'
 review_date: 2026-06-16
 reviewed_by:
 - src_unknown

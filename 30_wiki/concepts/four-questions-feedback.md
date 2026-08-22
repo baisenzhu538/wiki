@@ -24,6 +24,7 @@ related:
 - 元能力-刻意练习
 - 角色给我的诊断
 - '[[ai-tool-learning-curve]]'
+- '[[yai-counsel-role]]'
 author: 老顽童
 created_at: '2026-06-28'
 updated_at: '2026-06-28'

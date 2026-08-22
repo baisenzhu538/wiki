@@ -36,6 +36,7 @@ related:
 - - - dk-modeling-ai-judgment-limit
 - - - master-ai-info-literacy
 - yt-system-course-map-lecture
+- '[[ai-俱乐部人和-ai-协作-参考案例对比一堂-vs-sql-helper]]'
 tags:
 - audience:general
 - scene:reference

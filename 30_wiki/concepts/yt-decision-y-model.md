@@ -83,6 +83,16 @@ related:
 - '[[case-yitang-ymodel-vicki-cross-domain-transfer]]'
 - '[[case-yitang-ymodel-watermelon-challenge]]'
 - '[[case-zhu-disruptive-innovation-practice]]'
+- '[[ai单元模型口述蒋老师]]'
+- '[[concept-kdo-agent-design-principles]]'
+- '[[concept-mckinsey-issue-tree]]'
+- '[[concept-yihang-dual-triangle-core]]'
+- '[[concept-yitang-education-formula]]'
+- '[[concept-yitang-layered-self-consistency]]'
+- '[[concept-yitang-model-system-boundary]]'
+- '[[concept-利润-真正利润定义]]'
+- '[[concept-利润-风险报偿本质]]'
+- '[[concept-发现决策]]'
 created_at: 2026-07-03
 updated_at: '2026-07-08'
 tags:

@@ -25,6 +25,8 @@ related:
 - '[[tool-ai-voice-input-doubao]]'
 - '[[case-yitang-xujian-invoice-saas-channel]]'
 - '[[sk-ai-voice-input-doubao]]'
+- '[[course-to-skill-conversion]]'
+- '[[prd-as-ai-instruction]]'
 query_triggers: null
 reviewed_by: 欧阳锋
 pipeline: null

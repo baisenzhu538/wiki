@@ -40,6 +40,8 @@ related:
 - '[[yt-skill-storyline-contrast-analysis]]'
 - '[[yt-skill-storyline-key-elements]]'
 - '[[yt-skill-storyline-target-tradeoff]]'
+- '[[concept-问题驱动式深度思考笔记]]'
+- '[[source-code-delivery-model]]'
 tags:
 - audience:executor
 - scene:execution

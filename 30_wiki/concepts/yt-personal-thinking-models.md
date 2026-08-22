@@ -38,6 +38,8 @@ tags:
 - 思维模型案例分享
 type: concept
 status: draft
+related:
+  - '[[learning-thinking]]'
 ---
 # 思维模型：从碎片经验到稳定模型
 

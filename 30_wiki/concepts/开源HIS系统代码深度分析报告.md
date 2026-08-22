@@ -33,6 +33,7 @@ related:
 - '[[鑫港湾HIS项目]]'
 - '[[tool-Truman-开源模型与商业模型融合方案]]'
 - '[[互联网医院模式深度调研报告]]'
+- '[[yt-barrier-network-effects-deep]]'
 tags:
 - audience:general
 - scene:reference

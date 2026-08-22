@@ -37,6 +37,8 @@ related:
 - '[[concept-一堂-AI时代基本功变与不变]]'
 - '[[bridge-meeting-leadership-coaching]]'
 - '[[case-一堂-春萍-花总AI研发]]'
+- '[[concept-truman-feature-four-scenarios]]'
+- '[[concept-truman-feature-six-stages]]'
 diagnostic_signals:
 - signal: 员工说"这事我做三年了"，一做还是 60 分
   lens: 经验≠练习——三年重复但没有套路升级、没有反馈，是原地踏步不是刻意练习

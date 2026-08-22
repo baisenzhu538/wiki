@@ -38,6 +38,8 @@ related:
 - tool-game-environment-checklist
 - framework-kdo-modeling-methodology
 - '[[case-wangfei-newyear-event-diagnosis]]'
+- '[[concept-ai-co-learning]]'
+- '[[concept-structured-naming-as-infrastructure]]'
 created_at: 2026-07-26
 updated_at: 2026-07-26
 reviewed_by: 待审

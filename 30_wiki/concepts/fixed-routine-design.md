@@ -34,6 +34,10 @@ related:
 - '[[timely-feedback-loop]]'
 - '[[practice-card-decomposition]]'
 - '[[ai-tool-learning-workbook]]'
+- '[[ai-virtual-coach-prompt]]'
+- '[[deliberate-repetition]]'
+- '[[yai-counsel-role]]'
+- '[[yai-tcp-teacher-role]]'
 tags:
 - audience:general
 - scene:reference

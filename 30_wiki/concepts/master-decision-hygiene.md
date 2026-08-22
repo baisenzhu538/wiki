@@ -48,6 +48,9 @@ related:
 - '[[case-yitang-Y-model-advertising-turnaround]]'
 - '[[case-yitang-Y-model-seven-applications]]'
 - '[[smart-medicine-cabinet-clinic-risk-observation]]'
+- '[[concept-abundance-paradox]]'
+- '[[concept-cognitive-offloading-in-ai-era]]'
+- '[[pilot-atomic-chunk-comparison]]'
 tags:
 - audience:ceo
 - scene:diagnosis

@@ -33,6 +33,8 @@ related:
 - '[[yt-skill-p-role-prompt-design]]'
 - '[[kdo_product_design_agent_final]]'
 - yt-system-course-map-lecture
+- '[[meta-prompt-eng]]'
+- '[[product-ux]]'
 tags:
 - audience:general
 - scene:reference

@@ -33,6 +33,8 @@ related:
 - '[[comfort-zone-expansion]]'
 - '[[timely-feedback-loop]]'
 - '[[ai-tool-learning-curve]]'
+- '[[yai-counsel-role]]'
+- '[[yai-tcp-teacher-role]]'
 tags:
 - audience:general
 - scene:reference

@@ -35,6 +35,7 @@ related:
 - '[[yt-decision-ai-partner]]'
 - '[[case-yitang-yai-scientific-decision-life-direction]]'
 - '[[case-科学决策-ROI案例02]]'
+- '[[yitang-strategy-canvas]]'
 aliases:
   - 上帝视角四维提升法
   - 平共识曲线

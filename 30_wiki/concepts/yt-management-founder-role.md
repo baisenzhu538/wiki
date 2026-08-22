@@ -37,6 +37,7 @@ related:
 - '[[pending_unknown]]'
 - '[[case-smart-medicine-cabinet-corporate-risk]]'
 - '[[case-truman-yitang-foresight]]'
+- '[[concept-collaboration-philosophy-foundation]]'
 tags:
 - audience:general
 - scene:reference

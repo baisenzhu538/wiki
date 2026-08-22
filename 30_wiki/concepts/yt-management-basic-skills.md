@@ -44,6 +44,7 @@ related:
 - '[[framework-一堂-苦练基本功-总纲]]'
 - '[[framework-一堂-基本功-四字诀拆建推练]]'
 - '[[management-domain-digest]]'
+- '[[concept-一堂-基本功定义]]'
 tags:
 - audience:general
 - scene:reference

@@ -36,6 +36,8 @@ discoverable_by:
 related:
 - '[[framework-一堂-苦练基本功-总纲]]'
 - '[[management-domain-digest]]'
+- '[[concept-一堂-基本功-段位体系]]'
+- '[[concept-一堂-基本功定义]]'
 tags:
 - audience:general
 - scene:reference
