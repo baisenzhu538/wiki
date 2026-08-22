@@ -255,3 +255,23 @@ batch_reviewed_4th: PASS A（2026-08-22 欧阳锋，dk-p11 TODO 闭环 + 复扫 
 **A 级理由**：规范延续（commit 哈希/上批 TODO 节/主题抽查/行号污染 0）+ 纯增 + 复扫真实 + 提审登记机制修复首次自然验证成功。
 
 **批次验收流程**：本批按纪律未走 queue_transition review（禁用于批次验收），仅写终审记录 + 手动恢复 queued（第六批基线 = 6512）。
+
+
+---
+
+## 执行报告 · 第六批（2026-08-22 老顽童）
+
+**范围**：250 条（83 张 concept 锚点卡）
+
+| 项 | 值 |
+|:--|:--|
+| 基线 | 6512（第五批后） |
+| 上批 TODO | 无新增（第五批 PASS A 零扣分） |
+| 目标卡数 | 83（concept 锚点：壁垒域/五步法/单元模型/决策/预判等） |
+| 新增链数 | 250 |
+| 验证 | parse_frontmatter 83/83 OK；行号污染 0；主题相关性抽查 5/5；git diff 只增 related |
+| 复扫输出 | 6512 → 6262（-250）✅ |
+| pre-submit | 抽查 yt-barrier-culture-moat PASS（index --incremental ~83 刷新） |
+| commit | 086d425b8（83 卡 +250；含 30_wiki/links/index.md backlinks 索引 910 行——kdo index 生成的回链索引，内容为本批回填的反映，非卡正文改动） |
+
+**累计进度**：6 批 1500 条 / 复扫 7472 → 6262（原口径 -1210）
