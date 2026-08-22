@@ -1,13 +1,16 @@
 ---
 id: 410
 assignee: huangyaoshi
-status: pending_review
+status: reviewed
 title: production-queue.md 中文 mojibake 逆向修复（P2，欧阳锋 08-22 立项）：UTF-8-SIG 混合编码历史遗留——队列是唯一真相源，修复风险管控
 priority: P2
 dependency: []
 code_files:
 - 70_product/tasks/production-queue.md
-updated_at: '2026-08-22T04:40:57.273731+00:00'
+updated_at: '2026-08-22T04:44:19.113152+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-08-22'
+grade: A
 ---
 
 # #410 production-queue.md 中文 mojibake 逆向修复
