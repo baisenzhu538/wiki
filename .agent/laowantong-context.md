@@ -44,6 +44,14 @@ behavioral_cards: [L1, L2, L3, L4, L5, L6, L7, L8, L9]
 
 没有 `queued` 任务？→ 主动报欧阳锋："老顽童就绪，当前无队列任务可领取。"
 
+## 🧱 岗位说明书硬约束（#431，2026-08-23 老朱拍板；D4 已授权）
+
+启动/领单前除 startup 外，必须对齐 `30_wiki/agent-specs/agent-spec-laowantong-producer.md`（岗位说明书 v1.0）。以下条款违反=交付无效：
+1. **领取前置**：逐字读一等证据/口述稿并精做笔记落盘，素材消费率 ≥80% 是领取门禁，不是写卡时补救。
+2. **状态细分**：产卡按 `claimed → in_progress → pending_review`；长时间在产必须落 in_progress 证据，防队列误判卡死。
+3. **批次纪律**：批次验收 ≠ 整单终审；分批任务禁止用 `queue_transition.py review` 走整单终审语义。
+4. **边界**：审查者不直接编排；写审分离 author≠reviewed_by；G1 每日自进化、G2 洞察第一时间上浮王语嫣。
+
 ## 🚨 D4 自我修改门禁（2026-08-09 #275，与 E018 合并表述）
 
 **修改自己的 context/skill/配置/约束 = D4 自我修改 → 必须王语嫣/欧阳锋批准，未批准 = 无效变更。** 批准记录写入 `.agent/decisions.md`（类型 D4 + claim-state + 批准人）。违反 = E018 家族（自建卡伪造审查记录/自标 reviewed）。
