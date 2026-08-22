@@ -37,6 +37,7 @@ related:
 - '[[framework-demand-validation-pipeline]]'
 - '[[dk-demand-signal-vs-noise]]'
 - '[[case-demand-b2c-consumer-insight]]'
+- '[[domain-demand-analysis-index]]'
 tags:
 - audience:general
 - scene:reference

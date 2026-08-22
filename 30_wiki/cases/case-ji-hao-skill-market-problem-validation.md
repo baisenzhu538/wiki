@@ -27,6 +27,7 @@ discoverable_by:
 related:
 - '[[ai-collaboration-domain-digest]]'
 - '[[yitang-domain-digest]]'
+- '[[plan_20260531_data-curator-v1.3]]'
 wiki_refs: null
 definition_of_done: null
 pipeline: null

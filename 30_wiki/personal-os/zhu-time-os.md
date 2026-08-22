@@ -15,6 +15,7 @@ related:
   - "[[user-insight-profile]]"
   - "[[user-preferences]]"
   - "[[operating-principles]]"
+  - '[[plan_20260701_kdo-multi-repo-architecture]]'
 tags:
 - audience:manager
 - scene:howto

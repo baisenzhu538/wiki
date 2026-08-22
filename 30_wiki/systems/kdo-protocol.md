@@ -32,6 +32,8 @@ related:
 - '[[dk-f7-surface-translation]]'
 - '[[dk-f8-phony-wikilink]]'
 - '[[dk-f9-generic-critique]]'
+- '[[modeling-capability-for-kdo]]'
+- '[[ouyangfeng-data-alignment-response]]'
 tags:
 - audience:manager
 - scene:reference

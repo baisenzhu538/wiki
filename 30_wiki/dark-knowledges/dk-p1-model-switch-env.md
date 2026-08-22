@@ -30,6 +30,7 @@ related:
 - '[[source-code-delivery-model]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+- '[[kdo-input-channel-strategy-2026-06-16]]'
 pipeline:
 - src_unknown
 - src_unknown

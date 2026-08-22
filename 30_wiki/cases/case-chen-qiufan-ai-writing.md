@@ -51,6 +51,7 @@ related:
 - '[[case-ai-job-displacement-wef]]'
 - tool-ai-cross-reading-method
 - '[[writing-content]]'
+- '[[ouyangfeng-labeling-research-review]]'
 tags:
 - audience:general
 - scene:reference

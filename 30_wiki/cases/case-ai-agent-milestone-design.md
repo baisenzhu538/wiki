@@ -36,6 +36,7 @@ related:
 - '[[design-ai-image-generation]]'
 - '[[yt-model-agent-architecture]]'
 - '[[dk-f12-builder-context-deadlock]]'
+- '[[truman-ai-partner-design-analysis]]'
 tags:
 - audience:general
 - scene:reference

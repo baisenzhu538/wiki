@@ -27,6 +27,7 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[concept-kdo-feature-registry]]'
+- '[[proposal-yaml-frontmatter-standardization]]'
 bridges_to:
 - src_unknown
 - src_unknown

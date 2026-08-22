@@ -20,6 +20,8 @@ related:
 - <code>check-source-refs.py</code>
 - <code>track-production-progress.py</code>
 - huangyaoshi-tagging-and-scope-proposal
+- '[[plan_20260621_retrieval-architecture-upgrade]]'
+- '[[proposal-graph-rag-star-fix]]'
 updated_at: '2026-06-29'
 ---
 # 域索引入口卡 —— 大规模域建制的基础设施方案

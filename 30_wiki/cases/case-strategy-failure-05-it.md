@@ -29,6 +29,7 @@ related:
 - '[[case-strategy-failure-08-video]]'
 - case-strategy-failure-04-appliance
 - case-strategy-failure-09-boeing
+- '[[dk-strategy-organization-strategy-mismatch]]'
 ---
 **表面问题**：市值持续下降。
 **战略根因**：共识不足——高层在战略方向上反复横跳，每次换方向都耗费组织资源和市场信心。

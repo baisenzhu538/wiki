@@ -36,6 +36,7 @@ related:
 - '[[case-yitang-xiezefeng-clothing-innovation-param]]'
 - '[[business-formula-domain-digest]]'
 - '[[framework-一堂-转化率黑客-总纲]]'
+- '[[conversion-rate-domain-digest]]'
 quality_labels:
 - principle
 - validated

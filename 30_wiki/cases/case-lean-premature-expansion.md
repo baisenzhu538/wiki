@@ -36,6 +36,7 @@ related:
 - case-lean-building-in-vacuum
 - case-lean-premature-refinement
 - '[[dk-yitang-business-formula-l1-site-blindness]]'
+- '[[dk-strategy-stage-leverage-mismatch]]'
 tags:
 - audience:general
 - scene:reference

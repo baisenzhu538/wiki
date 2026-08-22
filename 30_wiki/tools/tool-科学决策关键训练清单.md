@@ -30,6 +30,7 @@ related:
 - '[[pending_unknown]]'
 - tool-ai-prd-for-ai
 - concept-X型Y型决策习惯
+- '[[dk-christensen-empirical-criticisms]]'
 updated_at: '2026-06-29'
 tags:
 - audience:executor

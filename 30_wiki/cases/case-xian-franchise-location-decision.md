@@ -36,6 +36,7 @@ related:
 - '[[HIS系统深度调研]]'
 - '[[开源HIS系统代码深度分析报告]]'
 - '[[轻量级诊所HIS调研全清单]]'
+- '[[decision-science-domain-digest]]'
 updated_at: '2026-06-29'
 tags:
 - audience:general

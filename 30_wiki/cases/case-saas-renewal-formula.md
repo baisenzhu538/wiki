@@ -46,6 +46,8 @@ related:
 - '[[yt-business-formula-qualitative-metrics-library]]'
 - '[[case-hr-saas-feature-usage-trap]]'
 - '[[case-yitang-farm-machinery-matching]]'
+- '[[dk-strategy-correlation-vs-causation-leverage]]'
+- '[[business-formula-domain-digest]]'
 tags:
 - audience:general
 - scene:reference

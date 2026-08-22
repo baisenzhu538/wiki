@@ -75,6 +75,9 @@ related:
 - '[[dk-strategy-08-not-local-optimum]]'
 - '[[dk-strategy-consulting-jokes]]'
 - '[[dk-strategy-essence-four-elements]]'
+- '[[dk-strategy-correlation-vs-causation-leverage]]'
+- '[[dk-strategy-organization-strategy-mismatch]]'
+- '[[dk-strategy-stage-leverage-mismatch]]'
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 tags:

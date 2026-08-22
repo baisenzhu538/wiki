@@ -28,6 +28,12 @@ related:
   - '[[yt-foresight-deliverables-four-levels]]'
   - '[[data-curator-role-division]]'
   - '[[fix-dark-knowledge-extractor-llm]]'
+  - '[[huangyaoshi-data-alignment-response]]'
+  - '[[huangyaoshi-extractor-upgrade-report]]'
+  - '[[huangyaoshi-tagging-and-scope-proposal]]'
+  - '[[kdo-15-dimension-label-spec]]'
+  - '[[proposal-deep-synthesis-infrastructure]]'
+  - '[[proposal-prompt-injection-infrastructure]]'
 author: unknown
 reviewed_by: pending
 confidence: 0.7

@@ -44,6 +44,8 @@ related:
 - '[[yt-business-formula-qualitative-metrics-library]]'
 - '[[case-yitang-dongyuan-dance-retention-c-vs-d]]'
 - '[[case-yitang-yewenbin-archery-business-formula]]'
+- '[[dk-strategy-correlation-vs-causation-leverage]]'
+- '[[business-formula-domain-digest]]'
 tags:
 - audience:general
 - scene:reference

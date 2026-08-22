@@ -29,6 +29,9 @@ related:
 - '[[industrial-ai-ops-cases]]'
 - '[[dk-tool-as-phased-validator]]'
 - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
+- '[[huangyaoshi-data-alignment-response]]'
+- '[[three-party-data-alignment]]'
+- '[[truman-ai-partner-design-analysis]]'
 tags:
 - audience:executor
 - scene:reference
@@ -133,3 +136,9 @@ Truman 给 AI 使用优先级排了个序：**一次性任务（整理笔记、�
 - src_unknown
 - src_unknown
 - src_unknown
+
+## Critique
+
+- **「AI 复利杠杆」是理想化叙事**：复利逻辑假设能力可累积且不衰减，但 AI 工具栈迭代快（模型/框架每季度换代），已建工作流可能因平台变动失效——真实世界是「半衰期内复利」。
+- **未区分组织与个人杠杆**：个人知识复利与组织知识复利机制不同（个人靠记忆/习惯固化，组织靠流程/文档固化），卡上论述偏个人视角，组织场景套用需额外设计。
+- **能力积累 ≠ 资产积累**：个人能力不随离职/换岗留存，卡未讨论知识资产化（沉淀为可传承资产）与个人能力之间的转化条件。

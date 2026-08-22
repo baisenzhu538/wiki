@@ -46,6 +46,7 @@ related:
   - '[[tool-meeting-execution-principles]]'
   - '[[case-truman-meeting-leadership]]'
   - '[[case-meeting-roi-awakening]]'
+  - '[[dk-meeting-roi-first]]'
 tags:
 - audience:executor
 - scene:execution

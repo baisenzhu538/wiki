@@ -49,6 +49,7 @@ related:
 - '[[case-ai-agent-milestone-design]]'
 - '[[case-truman-ai-skill-engineering-guide]]'
 - '[[dk-content-muscle-memory-vs-knowledge]]'
+- '[[ai-collaboration-domain-digest]]'
 tags:
 - src_unknown
 - src_unknown

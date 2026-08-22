@@ -37,6 +37,7 @@ related:
 - yt-demand-quantitative-estimation
 - yt-demand-level-assessment
 - tool-马易-风口痛点识别法
+- '[[dk-christensen-empirical-criticisms]]'
 created_at: 2026-08-02
 updated_at: 2026-08-02
 quality_labels: cited

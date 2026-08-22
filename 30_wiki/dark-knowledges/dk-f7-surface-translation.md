@@ -41,6 +41,8 @@ related:
 - '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
 - '[[dk-jh-llm-time-blindness]]'
 - '[[dk-kdo-leaky-pipe-pressure]]'
+- '[[kdo-ec-industrialization-migration-proposal]]'
+- '[[proposal-deep-synthesis-infrastructure]]'
 pipeline:
 - src_unknown
 - src_unknown

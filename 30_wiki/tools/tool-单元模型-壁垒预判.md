@@ -31,6 +31,7 @@ related:
 - case-toy-cabinet-barrier
 - '[[concept-thousand-people-square]]'
 - '[[yt-barrier-offensive-strategy]]'
+- '[[dk-单元模型-对抗小抄]]'
 updated_at: '2026-06-29'
 tags:
 - audience:executor

@@ -40,6 +40,7 @@ related:
 - '[[tool-yitang-customer-segmentation-4step]]'
 - '[[tool-yitang-sales-performance-management]]'
 - '[[tool-yitang-sales-toolkit-radar]]'
+- '[[conversion-rate-domain-digest]]'
 created_at: 2026-07-08
 updated_at: '2026-07-14'
 tcp_role: C

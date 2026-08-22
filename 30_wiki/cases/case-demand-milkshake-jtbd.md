@@ -38,6 +38,7 @@ related:
 - '[[tool-demand-iceberg-l3-core-job]]'
 - '[[tool-demand-agent-l4-case-match]]'
 - '[[concept-christensen-jtbd-link]]'
+- '[[dk-christensen-empirical-criticisms]]'
 updated_at: '2026-06-29'
 tags:
 - audience:general

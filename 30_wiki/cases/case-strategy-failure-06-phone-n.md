@@ -34,6 +34,7 @@ related:
 - '[[case-truman-ai-skill-self-packaging]]'
 - case-strategy-failure-09-boeing
 - case-strategy-failure-04-appliance
+- '[[dk-strategy-organization-strategy-mismatch]]'
 ---
 
 **表面问题**：产品迭代速度远慢于对手。

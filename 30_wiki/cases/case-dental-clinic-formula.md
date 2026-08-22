@@ -47,6 +47,8 @@ related:
 - '[[industrial-ai-ops-cases]]'
 - '[[dk-c1-cjk-regex-silent-fail]]'
 - '[[dk-p5-cc-connect-config]]'
+- '[[dk-strategy-correlation-vs-causation-leverage]]'
+- '[[business-formula-domain-digest]]'
 tags:
 - audience:general
 - scene:reference

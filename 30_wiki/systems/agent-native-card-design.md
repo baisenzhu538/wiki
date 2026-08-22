@@ -35,6 +35,8 @@ related:
 - '[[concept-mcp-protocol]]'
 - '[[dk-agent-promise-verification]]'
 - '[[dk-ai-memory-four-layers]]'
+- '[[kdo-input-channel-strategy-2026-06-16]]'
+- '[[sprint-6-cli-gap-proposal]]'
 tags:
 - audience:manager
 - scene:reference

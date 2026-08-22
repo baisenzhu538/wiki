@@ -33,6 +33,7 @@ related:
   - tool-yitang-project-kickoff-meeting
   - framework-yitang-project-retrospective
   - management-domain-digest
+  - '[[dk-meeting-principle-over-process]]'
 quality_labels: [principle, actionable, cited, insight]
 tags:
   - audience:general

@@ -24,6 +24,9 @@ related:
 - '[[数据标注维度最佳实践调研报告]]'
 - '[[dk-p17-accuracy-gap]]'
 - '[[gold-standard-manual-labels]]'
+- '[[label-accuracy-standard-alignment]]'
+- '[[plan_20260621_kdo-quality-harness-upgrade]]'
+- '[[proposal-deep-synthesis-infrastructure]]'
 author: unknown
 source_context: KDO internal decision record （原 legacy，已从 title/context/filename 推断为
   src_20260503_52ae08ba）

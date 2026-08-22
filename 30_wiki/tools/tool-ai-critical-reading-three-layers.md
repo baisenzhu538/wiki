@@ -40,6 +40,7 @@ related:
 - '[[case-dutch-childcare-scandal]]'
 - '[[concept-ai-information-quality-ladder]]'
 - '[[concept-ai-neutrality-bias]]'
+- '[[dk-ai-scarcest-resource-is-self]]'
 tags:
 - audience:executor
 - scene:execution

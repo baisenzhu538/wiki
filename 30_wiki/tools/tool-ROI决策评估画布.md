@@ -38,6 +38,7 @@ related:
 - concept-X型Y型决策习惯
 - concept-发现决策
 - '[[concept-strategy-2024-2026-supplement]]'
+- '[[dk-research-decision-first-mapping]]'
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 tags:

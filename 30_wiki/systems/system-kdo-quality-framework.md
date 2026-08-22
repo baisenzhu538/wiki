@@ -43,6 +43,7 @@ related:
 - '[[kdo-moc]]'
 - '[[master-moc]]'
 - '[[framework-kdo-self-attack]]'
+- '[[ai-basic-domain-digest]]'
 ---
 
 # KDO 质量体系：双三角落地

@@ -41,6 +41,9 @@ related:
 - '[[dk-wanghuan-standard-by-iteration]]'
 - '[[yt-note-p-c-role-boundary-realworld]]'
 - '[[huangyaoshi-data-alignment-response]]'
+- '[[kdo-15-dimension-label-spec]]'
+- '[[three-party-data-alignment]]'
+- '[[truman-ai-partner-design-analysis]]'
 tags:
 - audience:executor
 - scene:reference

@@ -37,6 +37,9 @@ related:
 - '[[concept-ai-amara-law-business-judgment]]'
 - '[[concept-ai-information-quality-ladder]]'
 - '[[concept-ai-neutrality-bias]]'
+- '[[dk-ai-prediction-expiry-date]]'
+- '[[dk-ai-scarcest-resource-is-self]]'
+- '[[dk-ai-social-progress-not-automatic]]'
 quality_labels:
 - actionable
 - cited

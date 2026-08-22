@@ -36,6 +36,7 @@ related:
 - '[[case-strategy-failure-06-phone-n]]'
 - case-strategy-failure-09-boeing
 - case-strategy-failure-04-appliance
+- '[[dk-strategy-organization-strategy-mismatch]]'
 tags:
 - audience:general
 - scene:reference

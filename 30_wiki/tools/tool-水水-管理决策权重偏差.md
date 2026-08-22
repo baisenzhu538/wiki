@@ -30,6 +30,8 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[concept-strategy-2024-2026-supplement]]'
+- '[[modeling-capability-for-kdo]]'
+- '[[dk-research-decision-first-mapping]]'
 definition_of_done:
 - src_unknown
 - src_unknown

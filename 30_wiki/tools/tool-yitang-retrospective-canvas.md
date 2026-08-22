@@ -33,6 +33,7 @@ related:
 - "[[tool-yitang-project-plan-canvas]]"
 - "[[tool-yitang-project-breakdown-cheatsheet]]"
 - "[[yt-management-basic-skills]]"
+- '[[dk-meeting-asset-harvest]]'
 tags:
 - audience:executor
 - scene:execution

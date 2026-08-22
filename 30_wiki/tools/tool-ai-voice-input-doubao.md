@@ -30,6 +30,8 @@ related:
 - '[[tool-ai-prd-for-ai]]'
 - '[[tool-ai-evidence-check]]'
 - '[[voice-input-doubao]]'
+- '[[kdo-input-channel-strategy-2026-06-16]]'
+- '[[proposal-yaml-frontmatter-standardization]]'
 tags:
 - audience:executor
 - scene:execution

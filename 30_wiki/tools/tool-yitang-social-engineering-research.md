@@ -48,6 +48,7 @@ related:
 - '[[tool-yitang-weapon-user-direct-interview]]'
 - framework-yitang-growth-flywheel
 - tool-yitang-research-continuous-tracking
+- '[[ai-collaboration-domain-digest]]'
 tags:
 - audience:executor
 - scene:execution

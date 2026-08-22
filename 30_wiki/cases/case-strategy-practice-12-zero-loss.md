@@ -33,6 +33,7 @@ related:
   - tool-纪浩-案例池构建法
   - case-科学决策-ROI案例03
   - tool-马易-业务问题AI化拆解-餐饮设计案例法
+  - '[[dk-strategy-stage-leverage-mismatch]]'
 ---
 **冉鹏实操**：新开店零亏损 → 大店年均盈利 300 万 → 2015 年后无亏损店。
 

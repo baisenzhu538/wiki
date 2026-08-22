@@ -41,6 +41,7 @@ related:
 - '[[ai-collaboration-domain-digest]]'
 - '[[dk-modeling-question-scaffold-not-answer]]'
 - '[[dk-tool-as-phased-validator]]'
+- '[[kdo-15-dimension-label-spec]]'
 tags:
 - audience:executor
 - scene:reference

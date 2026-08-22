@@ -48,6 +48,7 @@ related:
 - '[[framework-一堂-动力三曲线]]'
 - '[[tool-一堂-心理激励优先机制]]'
 - '[[case-opc-agent-wave1-real-model-testing]]'
+- '[[plan_20260701_kdo-multi-repo-architecture]]'
 created_at: 2026-07-02
 updated_at: '2026-06-29'
 tcp_role: P

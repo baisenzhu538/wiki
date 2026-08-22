@@ -19,6 +19,7 @@ related:
   - "[[plan_20260531_data-curator-v1.3]]"
   - '[[yt-skill-checklist-as-ai-protocol]]'
   - '[[视觉prompt三层操作系统-srom-visual-os]]'
+  - '[[label-accuracy-standard-alignment]]'
 id: proposal-prompt-injection-infrastructure
 author: unknown
 source_context: KDO improvement plan — internal process record （原始 source 无法追溯，已标记为

@@ -52,6 +52,7 @@ related:
 - '[[yt-business-formula-ten-paradigms]]'
 - '[[case-yitang-shipinhao-ads-l1-l6]]'
 - '[[case-yitang-du-kids-education-sabc]]'
+- '[[business-formula-domain-digest]]'
 ---
 # ToC 消费品电商：业务公式拆解误判导致放量亏损
 

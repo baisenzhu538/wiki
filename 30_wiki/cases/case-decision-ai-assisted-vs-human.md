@@ -37,6 +37,7 @@ related:
 - '[[case-科学决策-深度案例01]]'
 - '[[case-truman-ai-skill-engineering-guide]]'
 - '[[case-yitang-model-valuation-flywheel]]'
+- '[[decision-science-domain-digest]]'
 tags:
 - audience:general
 - scene:reference

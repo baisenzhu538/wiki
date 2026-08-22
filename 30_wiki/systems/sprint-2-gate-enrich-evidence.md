@@ -22,6 +22,8 @@ related:
 - '[[dk-c1-cjk-regex-silent-fail]]'
 - '[[dk-c4-selfcheck-superseded]]'
 - '[[dk-kdo-leaky-pipe-pressure]]'
+- '[[proposal-graph-rag-star-fix]]'
+- '[[proposal-kdo-flywheel-infrastructure]]'
 tags:
 - audience:manager
 - scene:reference

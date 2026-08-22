@@ -42,6 +42,7 @@ related:
 - '[[proposal-kdo-flywheel-infrastructure]]'
 - '[[dk-c2-dual-status-machine]]'
 - '[[dk-kdo-leaky-pipe-pressure]]'
+- '[[proposal-ai-domain-mastery-pipeline]]'
 pipeline:
 - src_unknown
 - src_unknown

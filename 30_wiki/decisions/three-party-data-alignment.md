@@ -28,6 +28,8 @@ related:
   - "[[data-curator-role-division]]"
   - "[[ouyangfeng-data-alignment-response]]"
   - '[[huangyaoshi-data-alignment-response]]'
+  - '[[proposal-ai-domain-mastery-pipeline]]'
+  - '[[proposal-deep-synthesis-infrastructure]]'
 ---
 # 三方认知对齐：KDO 数据管线 6+1 框架
 

@@ -51,6 +51,7 @@ related:
 - '[[case-qinpeng-hardware-ai-amplification]]'
 - '[[concept-christensen-rpv-model]]'
 - '[[concept-qinpeng-knowledge-base-conversion]]'
+- '[[dk-qinpeng-three-corrections]]'
 tags:
 - audience:manager
 - scene:execution

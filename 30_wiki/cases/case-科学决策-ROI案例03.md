@@ -87,6 +87,8 @@ related:
 - concept-X型Y型决策习惯
 - concept-发现决策
 - '[[concept-strategy-2024-2026-supplement]]'
+- '[[modeling-capability-for-kdo]]'
+- '[[dk-research-decision-first-mapping]]'
 updated_at: '2026-06-29'
 tags:
 - audience:general

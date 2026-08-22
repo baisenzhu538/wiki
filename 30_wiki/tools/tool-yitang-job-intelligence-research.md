@@ -47,6 +47,7 @@ related:
 - '[[tool-yitang-consulting-business-research]]'
 - tool-yitang-research-exhaust-means
 - framework-yitang-growth-flywheel
+- '[[proposal-prompt-injection-infrastructure]]'
 tags:
 - audience:manager
 - scene:execution

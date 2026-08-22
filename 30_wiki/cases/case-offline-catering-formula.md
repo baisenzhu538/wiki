@@ -45,6 +45,7 @@ related:
 - '[[yt-business-formula-qualitative-metrics-library]]'
 - '[[case-toc-content-platform-correlation-trap]]'
 - '[[case-toc-ecommerce-formula-misjudgment]]'
+- '[[business-formula-domain-digest]]'
 tags:
 - audience:general
 - scene:reference

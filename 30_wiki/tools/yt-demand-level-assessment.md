@@ -28,6 +28,7 @@ related:
 - '[[yt-demand-ai-knowledge-base-case]]'
 - '[[yt-demand-treadmill-case]]'
 - '[[yt-demand-b2b-vs-b2c]]'
+- '[[dk-disruptive-innovation-insight-vs-survey]]'
 diagnostic_signals:
 - framework_lens: 段位自评——缺乏能力评估框架
   follow_up_question: 你能描述一个你最近做的需求分析吗？拆推评算四个步骤，你完成了几个？

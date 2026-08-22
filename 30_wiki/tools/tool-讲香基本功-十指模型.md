@@ -28,6 +28,8 @@ related:
 - yt-pitch-scenarization
 - yt-pitch-metaphor
 - yt-pitch-emotionalization
+- '[[dk-jiangxiang-boundary-overpromise]]'
+- '[[decision-science-domain-digest]]'
 updated_at: 2026-08-02
 tags:
 - audience:executor

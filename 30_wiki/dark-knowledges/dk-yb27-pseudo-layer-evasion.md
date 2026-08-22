@@ -28,6 +28,7 @@ related:
 - '[[dk-yb1-aigc-mvp-before-ps]]'
 - '[[dk-yb13-zero-shot-style-transfer]]'
 - '[[dk-yb11-visual-book-reverse]]'
+- '[[huangyaoshi-extractor-upgrade-report]]'
 pipeline:
 - src_unknown
 - src_unknown

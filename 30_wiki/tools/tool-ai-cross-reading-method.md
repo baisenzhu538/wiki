@@ -35,6 +35,7 @@ related:
 - '[[case-chen-qiufan-ai-writing]]'
 - '[[case-compas-racial-bias]]'
 - '[[case-deepfake-market-misuse]]'
+- '[[dk-ai-scarcest-resource-is-self]]'
 quality_labels:
 - actionable
 - cited

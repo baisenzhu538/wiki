@@ -37,6 +37,7 @@ related:
 - '[[tool-yitang-Y-model-application]]'
 - '[[dk-yitang-Y-model-pitfalls]]'
 - '[[yt-business-model-partnership]]'
+- '[[decision-science-domain-digest]]'
 created_at: 2026-06-29
 updated_at: 2026-07-08 17:38:57+00:00
 tags:

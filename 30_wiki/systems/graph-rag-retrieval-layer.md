@@ -31,6 +31,7 @@ related:
 - high-density-composite-compilation-strategy
 - '[[contradictions]]'
 - '[[agent-ecosystem-design]]'
+- '[[proposal-graph-rag-star-fix]]'
 tags:
 - audience:general
 - scene:reference

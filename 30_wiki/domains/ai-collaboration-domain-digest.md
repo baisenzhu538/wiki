@@ -68,6 +68,9 @@ related:
 - '[[dk-yb1-aigc-mvp-before-ps]]'
 - '[[dk-yb5-style-asset-archive]]'
 - '[[dk-yb9-cubox-deployment-failure]]'
+- '[[dk-ai-scarcest-resource-is-self]]'
+- '[[dk-yitang-ai-research-prompt-craft]]'
+- '[[dk-yitang-research-ai-hallucination]]'
 tags:
 - audience:manager
 - scene:reference

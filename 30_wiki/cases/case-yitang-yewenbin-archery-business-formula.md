@@ -65,6 +65,7 @@ related:
 - '[[case-yitang-three-industry-formula-demos]]'
 - '[[dk-yitang-business-formula-a-missing-syndrome]]'
 - '[[dk-yitang-business-formula-l1-site-blindness]]'
+- '[[conversion-rate-domain-digest]]'
 tags:
 - audience:general
 - scene:reference

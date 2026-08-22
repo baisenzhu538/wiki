@@ -16,6 +16,7 @@ related:
 - '[[保达云诊所深度调研报告]]'
 - '[[concept-smart-medicine-cabinet-platform-cooperation-validation]]'
 - '[[smart-medicine-cabinet-o2o-cost-structure]]'
+- '[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]'
 tags: []
 author: unknown
 source_context: KDO internal decision record （原 legacy，已从 title/context/filename 推断为

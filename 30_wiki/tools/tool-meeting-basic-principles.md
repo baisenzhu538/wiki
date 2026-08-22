@@ -34,6 +34,7 @@ related:
   - tool-复盘浪费九宗罪自检清单
   - '[[bridge-meeting-leadership-coaching]]'
   - '[[case-meeting-scene-mastery]]'
+  - '[[dk-meeting-principle-over-process]]'
 quality_labels: [actionable, quotable, principle]
 tags:
   - audience:general

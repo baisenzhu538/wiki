@@ -18,6 +18,7 @@ related:
   - "[[case-科学决策-深度案例06]]"
   - '[[case-半肥猫-course-to-skill]]'
   - '[[dk-kdo-leaky-pipe-pressure]]'
+  - '[[kdo-ec-industrialization-migration-proposal]]'
 tags:
 - src_unknown
 - src_unknown

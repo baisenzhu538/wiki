@@ -28,6 +28,7 @@ related:
 - - - kimi-深度调研集群方法论-deep-research-swarm
 - - - graph-rag
 - tool-agent-research-swarm
+- '[[kdo-input-channel-strategy-2026-06-16]]'
 tags: []
 trust_level: medium
 reviewed_by: 黄药师

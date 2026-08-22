@@ -32,6 +32,7 @@ related:
 - '[[ai-collaboration-domain-digest]]'
 - tool-red-team-analysis
 - framework-structured-analytic-techniques
+- '[[plan_20260621_kdo-quality-harness-upgrade]]'
 updated_at: '2026-06-29'
 tags:
 - audience:executor

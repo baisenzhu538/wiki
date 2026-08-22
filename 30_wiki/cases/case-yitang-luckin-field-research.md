@@ -33,6 +33,7 @@ related:
 - '[[pending_unknown]]'
 - case-opc-agent-wave1-real-model-testing
 - '[[dk-yb2-llm-muddy-clear-muddy]]'
+- '[[dk-research-triangulation-stop-rule]]'
 updated_at: '2026-06-29'
 tags:
 - audience:general

@@ -43,6 +43,7 @@ related:
 - '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
 - '[[dk-p16-validate-reads-state-json]]'
 - '[[dk-p3-auth-cache]]'
+- '[[sprint-6-cli-gap-proposal]]'
 pipeline:
 - src_unknown
 - src_unknown

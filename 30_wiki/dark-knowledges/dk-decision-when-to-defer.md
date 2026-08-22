@@ -37,6 +37,7 @@ related:
 - '[[case-decision-ai-assisted-vs-human]]'
 - '[[dk-research-important-things-must-do]]'
 - '[[dk-sales-demand-mining-is-company-task]]'
+- '[[decision-science-domain-digest]]'
 tags:
 - audience:executor
 - scene:reference

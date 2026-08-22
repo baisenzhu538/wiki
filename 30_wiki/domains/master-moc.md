@@ -58,6 +58,7 @@ related:
   - '[[master-decision-hygiene]]'
   - '[[master-systems-thinking]]'
   - '[[concept-kdo-feature-registry]]'
+  - '[[ai-basic-domain-digest]]'
 ---
 
 # Master 主题域 MOC

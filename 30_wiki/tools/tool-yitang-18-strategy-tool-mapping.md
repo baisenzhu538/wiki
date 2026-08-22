@@ -54,6 +54,7 @@ related:
 - framework-yitang-18-strategy-cards
 - '[[yitang-course-map]]'
 - '[[街顺app全面调研报告]]'
+- '[[plan_20260621_retrieval-architecture-upgrade]]'
 diagnostic_signals:
 - framework_lens: 策略→工具映射表
   follow_up_question: 在映射表中找到对应的 wiki 卡片或 Skill

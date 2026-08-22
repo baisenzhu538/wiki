@@ -37,6 +37,7 @@ related:
 - '[[dk-f7-surface-translation]]'
 - '[[dk-f8-phony-wikilink]]'
 - '[[dk-f9-generic-critique]]'
+- '[[modeling-capability-for-kdo]]'
 ---
 # KDO 输入渠道策略：飞书、微信、听脑如何接入
 

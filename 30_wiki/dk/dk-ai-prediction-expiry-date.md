@@ -36,6 +36,8 @@ related:
 - '[[case-cambridge-novelists-survey]]'
 - '[[case-chen-qiufan-ai-writing]]'
 - '[[case-dutch-childcare-scandal]]'
+- '[[dk-ai-scarcest-resource-is-self]]'
+- '[[dk-ai-social-progress-not-automatic]]'
 quality_labels:
 - cited
 - validated

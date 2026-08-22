@@ -50,6 +50,8 @@ related:
 - '[[case-truman-ai-skill-self-packaging]]'
 - '[[case-toc-online-education-trust-metrics]]'
 - '[[yt-business-formula-l6-essence-formulas]]'
+- '[[dk-strategy-correlation-vs-causation-leverage]]'
+- '[[business-formula-domain-digest]]'
 tags:
 - audience:general
 - scene:reference

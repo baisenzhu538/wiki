@@ -40,6 +40,7 @@ related:
 - '[[case-cambridge-novelists-survey]]'
 - '[[case-chen-qiufan-ai-writing]]'
 - '[[case-dutch-childcare-scandal]]'
+- '[[dk-ai-prediction-expiry-date]]'
 quality_labels:
 - actionable
 - cited

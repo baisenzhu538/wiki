@@ -29,6 +29,7 @@ related:
 - '[[yt-product-kernel-canvas]]'
 - '[[tool-yitang-growth-flywheel-design]]'
 - '[[tool-strategy-value-proposition]]'
+- '[[design-moc]]'
 tags:
 - audience:general
 - scene:reference

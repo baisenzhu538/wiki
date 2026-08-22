@@ -32,6 +32,7 @@ related:
 - '[[dk-f7-surface-translation]]'
 - '[[dk-f8-phony-wikilink]]'
 - '[[dk-f9-generic-critique]]'
+- '[[proposal-ai-domain-mastery-pipeline]]'
 id: proposal-kdo-flywheel-infrastructure
 reviewed_by: pending
 confidence: 0.6

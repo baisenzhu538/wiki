@@ -33,6 +33,7 @@ related:
 - '[[case-dental-clinic-formula]]'
 - '[[tool-clinic-cabinet-legal-contract-guide]]'
 - '[[smart-medicine-cabinet-clinic-risk-observation]]'
+- '[[kdo-input-channel-strategy-2026-06-16]]'
 pipeline:
 - src_unknown
 - src_unknown

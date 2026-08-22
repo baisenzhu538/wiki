@@ -30,6 +30,7 @@ related:
 - '[[tool-月白-Token效价比决策法]]'
 - '[[tool-月白-烧Token快速积累体感]]'
 - '[[pending_unknown]]'
+- '[[sprint-6-cli-gap-proposal]]'
 pipeline:
 - src_unknown
 - src_unknown

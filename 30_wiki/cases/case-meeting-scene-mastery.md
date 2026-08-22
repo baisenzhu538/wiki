@@ -40,6 +40,7 @@ related:
   - case-meeting-roi-awakening
   - framework-yitang-project-retrospective
   - framework-coaching-leadership-core
+  - '[[dk-meeting-principle-over-process]]'
 quality_labels: [quotable, actionable, validated, cited]
 tags:
   - audience:general

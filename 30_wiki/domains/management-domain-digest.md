@@ -39,6 +39,9 @@ related:
 - '[[dk-实事求是目标管理双原则]]'
 - '[[dk-目标管理四大病]]'
 - '[[dk-管控vs协同执行策略]]'
+- '[[dk-meeting-pressure-ignition]]'
+- '[[dk-meeting-principle-over-process]]'
+- '[[dk-meeting-roi-first]]'
 tags:
 - audience:manager
 - scene:reference

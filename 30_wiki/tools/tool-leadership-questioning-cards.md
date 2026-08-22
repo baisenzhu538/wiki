@@ -40,6 +40,7 @@ related:
   - '[[case-coaching-dialogue-three-versions]]'
   - '[[case-leadership-communication-failures]]'
   - '[[dk-y-model-communication]]'
+  - '[[dk-meeting-asset-harvest]]'
 tags:
 - audience:executor
 - scene:execution

@@ -85,6 +85,8 @@ related:
 - concept-发现决策
 - '[[concept-strategy-2024-2026-supplement]]'
 - '[[yt-barrier-network-effects-deep]]'
+- '[[modeling-capability-for-kdo]]'
+- '[[dk-research-decision-first-mapping]]'
 updated_at: '2026-06-29'
 review_date: '2026-06-29'
 tags:

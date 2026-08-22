@@ -20,6 +20,7 @@ related:
 - '[[EC工业化规范手册]]'
 - '[[ec工业化规范手册-v2.8.0]]'
 - '[[鑫港湾]]'
+- '[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]'
 tags: []
 author: unknown
 source_context: KDO internal decision record （原 legacy，已从 title/context/filename 推断为

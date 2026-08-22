@@ -49,6 +49,7 @@ related:
 - '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
 - case-strategy-failure-09-boeing
 - case-strategy-failure-04-appliance
+- '[[dk-strategy-stage-leverage-mismatch]]'
 tags:
 - audience:general
 - scene:reference

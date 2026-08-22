@@ -29,6 +29,7 @@ related:
 - '[[dk-ji-hao-newbie-can-validate]]'
 - '[[tool-yitang-research-validate-assumption]]'
 - '[[dk-p3-auth-cache]]'
+- '[[sprint-6-cli-gap-proposal]]'
 pipeline:
 - src_unknown
 - src_unknown
