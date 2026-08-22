@@ -30,6 +30,9 @@ related:
 - '[[yitang-domain-digest]]'
 - '[[dk-ban-fei-mao-atomic-no-standard]]'
 - '[[dk-ban-fei-mao-real-business-is-the-engine]]'
+- '[[dk-demand-premature-solution]]'
+- '[[dk-ji-hao-newbie-can-validate]]'
+- '[[dk-ji-hao-novice-mindset-advantage]]'
 wiki_refs: null
 pipeline: null
 author: 纪浩

@@ -40,6 +40,21 @@ related:
 - '[[dk-ban-fei-mao-atomic-no-standard]]'
 - '[[dk-ban-fei-mao-silky-answers-are-dangerous]]'
 - '[[dk-ban-fei-mao-skill-rejection-value]]'
+- '[[dk-demand-feature-stacking]]'
+- '[[dk-demand-hidden-need]]'
+- '[[dk-demand-misjudgment-rate]]'
+- '[[dk-demand-pitfall-dialer]]'
+- '[[dk-demand-pitfall-financial-literacy]]'
+- '[[dk-demand-pitfall-restaurant-hiring]]'
+- '[[dk-demand-pitfall-rural-5g]]'
+- '[[dk-demand-pitfall-tier4-housekeeping]]'
+- '[[dk-demand-pitfall-travel-agent]]'
+- '[[dk-demand-premature-solution]]'
+- '[[dk-demand-switching-cost]]'
+- '[[dk-foresight-source-material-blindness]]'
+- '[[dk-ji-hao-ai-cant-design-structure]]'
+- '[[dk-ji-hao-constraint-beats-talent]]'
+- '[[dk-ji-hao-logs-fastest-ignored]]'
 bridges_to:
 - target: src_unknown
   relation: applies_when

@@ -35,6 +35,18 @@ related:
 - '[[yt-demand-market-size-pitfalls]]'
 - '[[yt-five-step-method]]'
 - '[[dk-ban-fei-mao-real-business-is-the-engine]]'
+- '[[dk-demand-feature-stacking]]'
+- '[[dk-demand-hidden-need]]'
+- '[[dk-demand-misjudgment-rate]]'
+- '[[dk-demand-pitfall-financial-literacy]]'
+- '[[dk-demand-pitfall-restaurant-hiring]]'
+- '[[dk-demand-pitfall-rural-5g]]'
+- '[[dk-demand-pitfall-tier4-housekeeping]]'
+- '[[dk-demand-pitfall-travel-agent]]'
+- '[[dk-demand-premature-solution]]'
+- '[[dk-demand-signal-vs-noise]]'
+- '[[dk-demand-switching-cost]]'
+- '[[dk-ji-hao-newbie-can-validate]]'
 diagnostic_signals:
 - signal: src_unknown
   framework_lens: 伪需求信号1——兴趣≠需求

@@ -45,6 +45,7 @@ related:
 - '[[case-live258-europe-cold-email]]'
 - '[[tool-feature-review-five-step]]'
 - '[[dk-ai-does-not-question-your-mistake]]'
+- '[[dk-feature-pieces-not-recognized-as-cards]]'
 ---
 
 # ai-basic 域摘要

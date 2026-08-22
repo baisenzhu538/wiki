@@ -60,6 +60,7 @@ related:
 - '[[case-vibecoding-one-week-delivery]]'
 - '[[concept-ai-style-knowledge-docs]]'
 - '[[dk-collection-vs-assets]]'
+- '[[dk-extract-then-merge]]'
 tags:
 - audience:general
 - scene:reference

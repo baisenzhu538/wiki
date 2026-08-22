@@ -42,6 +42,7 @@ related:
 - '[[tool-checklist-cheatsheet-modeling]]'
 - '[[yt-note-expert-interview-modeling]]'
 - '[[yt-note-extensive-research-input]]'
+- '[[dk-infrastructure-guardrails-over-checklist]]'
 tags:
 - audience:executor
 - scene:execution

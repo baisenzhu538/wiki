@@ -47,6 +47,13 @@ related:
 - '[[dk-ban-fei-mao-silky-answer-warning]]'
 - '[[dk-ban-fei-mao-silky-answers-are-dangerous]]'
 - '[[dk-ban-fei-mao-skill-rejection-value]]'
+- '[[dk-fundamentals-before-advanced-ops]]'
+- '[[dk-infrastructure-guardrails-over-checklist]]'
+- '[[dk-ji-hao-ai-cant-design-structure]]'
+- '[[dk-ji-hao-constraint-beats-talent]]'
+- '[[dk-ji-hao-logs-fastest-ignored]]'
+- '[[dk-ji-hao-newbie-can-validate]]'
+- '[[dk-ji-hao-novice-mindset-advantage]]'
 tags:
 - audience:manager
 - scene:reference

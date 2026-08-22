@@ -26,6 +26,7 @@ related:
 - kdo-protocol-implementation-roadmap
 - '[[yt-foresight-deliverables-four-levels]]'
 - '[[contradictions]]'
+- '[[dk-f3-state-json-race-condition]]'
 ---
 # Improvement Plan plan_20260501_8001399c
 

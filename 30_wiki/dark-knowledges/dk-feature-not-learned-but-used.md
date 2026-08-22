@@ -28,6 +28,7 @@ related:
   - dk-demand-feature-stacking
   - dk-key-hypothesis-still-hope
   - '[[dk-ai-does-not-question-your-mistake]]'
+  - '[[dk-feature-pieces-not-recognized-as-cards]]'
 tags:
   - method:learning
   - scene:ai-learning

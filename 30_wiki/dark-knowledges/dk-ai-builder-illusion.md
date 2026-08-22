@@ -64,6 +64,7 @@ related:
 - '[[dk-anti-human-ux-is-feature]]'
 - '[[dk-collection-vs-assets]]'
 - '[[dk-context-patching-recipe]]'
+- '[[dk-extract-then-merge]]'
 ---
 # Builder 幻觉：用 AI 做出东西 ≠ 完成从 0 到 1
 

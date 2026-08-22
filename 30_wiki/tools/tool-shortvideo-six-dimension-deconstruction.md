@@ -53,6 +53,7 @@ related:
 - '[[case-yitang-yitang-shortvideo-industrialization]]'
 - '[[dk-content-muscle-memory-vs-knowledge]]'
 - '[[dk-content-implicit-value-without-price]]'
+- '[[dk-founding-ip-trust-over-traffic]]'
 pipeline:
 - confidence-draft
 ---

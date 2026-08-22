@@ -47,6 +47,8 @@ related:
 - '[[industrial-ai-ops-cases]]'
 - '[[yt-prompt-engineering-andrew-ng]]'
 - '[[dk-ban-fei-mao-real-business-is-the-engine]]'
+- '[[dk-ji-hao-newbie-can-validate]]'
+- '[[dk-ji-hao-novice-mindset-advantage]]'
 diagnostic_signals:
 - signal: src_unknown
   framework_lens: AI拉升个人上限——不会≠做不了，关键是导演思维

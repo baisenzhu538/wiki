@@ -46,6 +46,8 @@ related:
 - '[[case-investment-claim-fact-check]]'
 - '[[dk-aesthetic-redline-doc]]'
 - '[[dk-ai-self-evolution-prompt]]'
+- '[[dk-doc-explosion-slowdown]]'
+- '[[dk-doc-numbering-business-logic]]'
 tags:
 - src_unknown
 - src_unknown

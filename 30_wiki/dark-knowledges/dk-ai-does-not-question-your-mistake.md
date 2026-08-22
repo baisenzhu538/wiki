@@ -38,6 +38,7 @@ related:
 - case-live258-livestream-prompt-v1-v5
 - case-live258-europe-cold-email
 - '[[dk-customers-hate-ai]]'
+- '[[dk-feature-pieces-not-recognized-as-cards]]'
 tags:
 - method:feature-thinking
 - method:fact-control

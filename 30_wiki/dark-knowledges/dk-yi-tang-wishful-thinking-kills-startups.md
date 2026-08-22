@@ -29,6 +29,9 @@ related:
 - '[[yitang-domain-digest]]'
 - '[[learning-thinking]]'
 - '[[dk-ban-fei-mao-real-business-is-the-engine]]'
+- '[[dk-demand-premature-solution]]'
+- '[[dk-demand-switching-cost]]'
+- '[[dk-ji-hao-newbie-can-validate]]'
 tags:
 - audience:executor
 - scene:diagnosis

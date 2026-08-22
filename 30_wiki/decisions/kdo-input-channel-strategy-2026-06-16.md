@@ -24,6 +24,19 @@ related:
 - '[[kdo_product_design_agent_final]]'
 - '[[voice-input-doubao]]'
 - '[[dk-c3-txt-ingest-skip]]'
+- '[[dk-f1-regex-on-cjk]]'
+- '[[dk-f10-broken-source-refs]]'
+- '[[dk-f11-encyclopedia-style]]'
+- '[[dk-f12-builder-context-deadlock]]'
+- '[[dk-f14-accuracy-measurement-mismatch]]'
+- '[[dk-f2-txt-ingest-skip]]'
+- '[[dk-f3-state-json-race-condition]]'
+- '[[dk-f4-wrong-workdir]]'
+- '[[dk-f5-stale-feedback-ref]]'
+- '[[dk-f6-cjk-skeleton-corruption]]'
+- '[[dk-f7-surface-translation]]'
+- '[[dk-f8-phony-wikilink]]'
+- '[[dk-f9-generic-critique]]'
 ---
 # KDO 输入渠道策略：飞书、微信、听脑如何接入
 

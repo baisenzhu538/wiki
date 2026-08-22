@@ -31,6 +31,9 @@ related:
 - '[[case-252-quality-gate-pilot]]'
 - '[[dk-agent-access-kdo-pitfalls]]'
 - '[[dk-c9-batch-trigger-garbage]]'
+- '[[dk-delivery-path-type-bug]]'
+- '[[dk-E010-duplicate-key-detection]]'
+- '[[dk-feature-registry-count-drift]]'
 pipeline:
 - src_unknown
 - src_unknown
