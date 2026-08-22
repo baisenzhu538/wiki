@@ -74,3 +74,4 @@ updated_at: 2026-08-09
 | 2026-08-21 | 黄药师 | #401/#402 claim | 连续两单被 #375 处置门禁拦截（"盘点/试点"命中处置关键词族），各需补「内容价值判断」节才能领——门禁关键词族偏宽，盘点/试点类分析任务也被要求处置声明 | 门禁语义是"素材处置"，关键词族命中面比语义宽；补节成本低（合规声明），但后续可评估关键词族收窄（如仅"删除/清理/归档"族触发） |
 | 2026-08-21 | 黄药师 | #401 JSON 输出 | rule-gate-inventory --json 因规则文本含不可见字符 → JSONDecodeError（两次修复） | 教训复现：涉及不可见字符的代码必须 ensure_ascii/转义写法+读回验证（08-20 U+FFFD 教训同族） |
 | 2026-08-21 | 黄药师 | 提审命令 | bash cd 到 KDO 仓后 queue_transition 相对路径找不到脚本，提审命令报错 2 次（工作目录漂移） | queue_transition 应用绝对路径调用或脚本内 resolve 自身路径（脚本已有 __file__ resolve，问题是调用方 cwd）——记习惯：提审前 pwd 确认在 wiki 根 |
+| 2026-08-22 | 黄药师 | #418 T2 双轨合并事故 | bash 中文路径下执行 mv/rmdir 链式命令：sales-dialogue-assistant/daily-context/2026-08-16.md 丢失（全盘+快照无恢复源）。bash 对中文目录的 ls 输出与文件系统实际不一致（MSYS2 编码问题）——rmdir 删除的可能是空目录，文件或从未在 bash 看到的路径上。根因初判：中文路径文件操作必须用 Python（os.rename/os.walk）不用 bash mv/ls；批量移动前先 Python 枚举核实 + 逐文件 mv | 
