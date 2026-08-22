@@ -1,9 +1,18 @@
 ---
 title: 黄药师失忆恢复记录
-updated_at: 2026-08-21
+updated_at: 2026-08-22
 ---
 
 # 黄药师失忆恢复（重启后 3 分钟加载）
+## 2026-08-22 状态（pdf-inspector 注册五落点 + 自动化闭环实证 + 九层调研）
+
+- **pdf-inspector 注册完成（用户直令）**：①包装脚本 `40_outputs/code/scripts/pdf_inspector_route.py`（classify-then-route，任意 python 自举 `_tmp/pdf-inspector/` venv，单文件/批量/--json/--stdout）②README 登记 ③cap_hub `F_PDF_INSPECTOR`（parsing 类，26 features）④document-parsing-toolkit 引擎矩阵+决策树+详细节 ⑤toolkit.md 武器库"PDF 进料"小节；kdo index 4066 文档已刷新，路由文档可检索
+- **狗粮实证**：5 份 KDO 真实 PDF 5/5 分类正确（conf 0.875-1.0，0.2-0.42s/份），混合页正确标出（pages_needing_ocr [27]/[18]）；**重要教训：小昭声称"已装 pdf-inspector 1.15.0 实测"实为未安装**（P-15 同模式）——声称必须落盘验证
+- **外部 agent 越权收编闭环实证**：小昭直接写 30_wiki 的工具卡 → 移 00_inbox/pending-cards + watch_inbox 登记 → **王语嫣已编排入队 #407**（外部建议稿核验入库）——素材→编排→入队全链路打通
+- **知识库建设九层调研**（用户指令，明天讨论认知输入）：`60_feedback/diagnosis/diag_20260822_huangyaoshi-kb-building-9layer.md`——核心发现：**KDO 架构=Karpathy LLM Wiki 编译器模式完整实现（2026 最前沿）**，不需要架构革命；真正缺口=调用回路/组织机制/消费端自动化/合规基线；70% 死库规律；3 个讨论问题提案
+- **分角色自动化方向**（用户澄清后对齐）：探针只做"推送/流转"，判断留人（编排/产卡/终审各角色自己做）；传送带骨架全通，缺"角色间飞书通知"层（王语嫣/老顽童/欧阳锋三个探针，纯机械，待立项）
+- 队列状态：387 总任务，queued 1（#407 待领）、pending_review 1
+
 ## 2026-08-21 状态（建议书 L 系列五连发 · 全 PASS A）
 
 - **我名下任务全清**：#399-#404 五单全闭环——#399 全库复扫工具（**PASS A**，6 检查项+delta 增量报警挂 health-check，归零声明唯一口径）/ #401 规则门禁化盘点（PASS A，182 条→22 簇清单）/ #402 长程 workspace（PASS A，claim 联动自动建三件套+#393 试点）/ #403 出生两问（PASS A，模板前置闸）/ #404 trust 实证（PASS A，无痛点诚实关阶段二）

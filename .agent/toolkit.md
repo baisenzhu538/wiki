@@ -48,6 +48,16 @@ with QueueLock("production-queue"):
 
 新域素材消化第一步：扫描文件夹 → 如有 PNG/JPG，**强制 OCR 全部后再读文本**。不要相信任何人说"没有图片需要 OCR"——独立验证。
 
+### PDF 进料（先分类再路由）
+
+| 场景 | 命令 | 适用 |
+|------|------|------|
+| PDF 进料第一站 | `python 40_outputs/code/scripts/pdf_inspector_route.py <pdf\|目录> [--json]` | **任何 PDF 先跑这个**：text_based 本地直提（~0.3s/份，0 OCR 成本），mixed 标出页送 OCR，scanned 路由 MinerU |
+| 扫描/复杂 PDF | MinerU `magic-pdf`（WSL `/home/dministrator/.local/bin/mineru`） | scanned/image_based、多栏学术、复杂表格 |
+| 选型手册 | `40_outputs/capabilities/skills/document-parsing-toolkit/` | 全部文档解析引擎矩阵 + 决策树 |
+
+> 受管环境：`wiki/_tmp/pdf-inspector/` venv（Python 3.12.3，pdf-inspector 1.15.0）；包装脚本自动复用，任意 python 可调起。详细工具卡 `30_wiki/tools/tool-pdf-inspector.md`。
+
 ---
 
 ## 二、KDO CLI 完整速查

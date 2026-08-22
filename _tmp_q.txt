@@ -1,0 +1,28 @@
+--- line 54 ---
+| 40 | `task_20260701_wangyuyan-wobeirushen-pilot-orchestration` | 銆婂惥杈堝绁炪€嬫潯浠舵€х撼鍏?+ 3 寮犲崱 | reviewed | 鑰侀〗绔?Kimi) | 3 寮犲崱锛? concept + 1 tool + 1 concept锛?| 鏃狅紱楠岃瘉鎶ュ憡宸插畬鎴?| `60_feedback/tasks/task_20260701_wangyuyan-wobeirushen-pilot-orchestration.md` | 鐜嬭瀚ｄ环鍊煎垽鏂細B 绾х礌鏉愶紝涓嶅仛璇曠偣锛岀洿鎺ヤ骇鍑?3 寮犲崱鈥斺€擿concept-cognitive-offloading-in-ai-era`锛堝凡鏈夊垵绋匡紝闇€缁堝锛夈€乣tool-ai-use-barbell-strategy`锛堟柊寤猴級銆乣concept-abundance-paradox`锛堟柊寤猴級锛涚籂姝?BMW 85%/AGI 2029/AI 鏃犳硶鍒涢€犵瓑璇锛涘叾浣欐蹇垫湰娆′笉绾冲叆锛屽皝璐?|
+--- line 55 ---
+| 41 | `task_20260701_wangyuyan-time-management-domain-orchestration` | 鏃堕棿绠＄悊鍩熷崌绾э細3 寮犻珮瀵嗗害妗ユ帴鍗?| reviewed | 鑰侀〗绔?Kimi) | 3 寮狅紙1 framework 妗ユ帴 + 1 tool 瀹¤寰幆 + 1 dk 鍙嶆ā寮忥級 | 鏃狅紱娲竷鍏?OCR+VLM 棰勫鐞嗗凡瀹屾垚 | `70_product/tasks/task_20260701_wangyuyan-time-management-domain-orchestration.md` | 鐜嬭瀚ｇ粡涔濆眰娣辨寲杩斿伐锛氭椂闂寸鐞?= 涓€鍫備簲姝ユ硶/IPO/鍗曞厓妯″瀷/鍐崇瓥鍗敓鍦ㄨ嚜绠＄悊鍦烘櫙鐨勫疄渚嬪寲锛? 寮犻珮瀵嗗害鍗?+ 鍙嶅悜鏇存柊 鈮?0 寮犲凡鏈夋鏋跺崱 related锛涜瑙?`diag_20260701_time-management-nine-layer-isomorphism.md` |
+--- line 422 ---
+| 400 | `task_20260821_laowantong-digital-employee-transcript` | 数字员工搭建口述补强+新卡（P1，老朱 08-21 拍板直接立）：龙虾员工本人一手口述——#379 七卡跨案例实证补强 + 新卡 3 张（自建协作平台/数据源工程/需求八节模板） | reviewed | laowantong | 3 卡+7 补强 | 无 | `60_feedback/tasks/task_20260821_laowantong-digital-employee-transcript.md` | ASR 错字密度高所有人名模型名标待核实；Live86 逐字稿先 diff 防重复产卡；与 #379 批次互链双向；登记为知行合一纲领第三方对标案例；欧阳锋终审 |
+--- line 424 ---
+| 401 | `task_20260821_huangyaoshi-rule-gate-inventory` | 残余文案规则门禁化盘点（P2，黄药师建议书 L1，王语嫣采纳）：全库"靠自觉"规则两列清单+friction 排序 Top3 建议——"靠提醒=没变成系统能力"厂内镜像 | reviewed | huangyaoshi | 清单+脚本 | 无 | `60_feedback/tasks/task_20260821_huangyaoshi-rule-gate-inventory.md` | 只产清单不动机制；脚本可复扫；语义判断类诚实标注不硬门禁化；欧阳锋终审 |
+--- line 425 ---
+| 402 | `task_20260821_huangyaoshi-task-workspace` | 长程任务项目空间试点（P2，黄药师建议书 L3，王语嫣采纳）：跨会话持久 workspace（中间态/已排除方向/上次停在哪）——#393 标签体系试点 | reviewed | huangyaoshi | 机制+试点 | 无 | `60_feedback/tasks/task_20260821_huangyaoshi-task-workspace.md` | claim 门禁联动建 workspace；与 #390/#399 共存零冲突；换会话续作实测为验收动作；欧阳锋终审 |
+--- line 426 ---
+| 403 | `task_20260821_huangyaoshi-agent-birth-gate` | agent 出生模板前置闸两问（P3，L2+L6 合并）：传话反模式检查+AI 人效第 0 问（现有角色+workflow 能覆盖就不新造） | reviewed | huangyaoshi | 模板+实测 | 无 | `60_feedback/tasks/task_20260821_huangyaoshi-agent-birth-gate.md` | 只改出生模板不改现有 agent；假想调度 agent 提案被拦实测；欧阳锋终审 |
+--- line 427 ---
+| 404 | `task_20260821_huangyaoshi-trust-injection-gate` | trust 注入端源优先（P3，L4，王语嫣降级+加前提）：先出 KDO 侧低质源污染实证（无则关单），有实证才做 min_trust 参数+受信源清单 | reviewed | huangyaoshi | 实证+条件机制 | 无 | `60_feedback/tasks/task_20260821_huangyaoshi-trust-injection-gate.md` | ⚠️建议书证据全来自龙虾员工非本厂痛点——先证后修，无实证即关闭；行为改变须前后对比实测；不动默认检索行为；欧阳锋终审 |
+--- line 428 ---
+| 405 | `task_20260821_laowantong-anti-bs-skill` | 防忽悠三层法 skill 结晶（P3，L5，王语嫣采纳+纠偏）：tool-anti-ai-bs-three-moves 卡的行为化——知行合一纲领第一个示范项 | reviewed | laowantong | skill+实测 | 无 | `60_feedback/tasks/task_20260821_laowantong-anti-bs-skill.md` | ⚠️L7 纠偏：#379 已有同名卡，本单是行为化非新内容；platforms 用 OS 值（E030）；Matrix 场景回放第二层拦截实测；欧阳锋终审 |
+--- line 429 ---
+| 406 | `task_20260821_laowantong-reverse-backlink-sweep` | 旧卡反向回链收口（P2，王语嫣编排裁决）：#383/#396/#400 三批"旧卡→新卡"反向链一次性清零 + 常设规则（批次验收默认含回链，不再留尾巴） | reviewed | laowantong | 链接收口 | 无 | `60_feedback/tasks/task_20260821_laowantong-reverse-backlink-sweep.md` | 只动 related 链接区不动正文；三批清单以各任务单执行报告为准；pre-submit 0 死链；欧阳锋终审 |
+--- line 430 ---
+| 407 | `task_20260821_laowantong-pdf-inspector-card-finalize` | PDF-Inspector 外部建议稿核验入库（P2，王语嫣 08-21 门禁判定）：小昭产 tool 卡——官方源数字核验+author 如实修正+定位声明+双向回链+入正式层 | reviewed | laowantong | 1 卡精做 | 无 | `60_feedback/tasks/task_20260821_laowantong-pdf-inspector-card-finalize.md` | 小昭产物按外部建议稿对待：生产链核验+欧阳锋真实终审才转正（08-19 铁律）；同主题 case 卡已合并 superseded（诊断 diag_20260821_wangyuyan-pdf-inspector-gate.md）；pre-submit+commit 入档；欧阳锋终审 |
+--- line 431 ---
+| 408 | `task_20260822_laowantong-skill-case-cards-backfill` | 两张空壳 skill 案例卡补强修复（P2，老朱 08-21 深夜拍板）：case-truman-ai-skill-engineering-guide + case-truman-ai-skill-self-packaging——src_unknown 清零 + 8-15 口述 L994-1066 新细节回填 | pending_review | laowantong | 2 卡补强 | 无 | `60_feedback/tasks/task_20260822_laowantong-skill-case-cards-backfill.md` | "知而不行"活化石修复（6-14 建卡空至今）；一等素材双口述逐字读；回填带行号防脑补（E039）；定位声明+双向回链+frontmatter 修复；pre-submit+commit 入档；欧阳锋终审抽"回填是否真出自口述" |
+--- line 432 ---
+| 409 | `task_20260822_huangyaoshi-parse-error-yaml-fix` | 库级 YAML 修复（P2，欧阳锋 08-22 立项）：parse-error 58 张 YAML 结构损坏修复（#373 同类）——yaml 级逐张修，不伪装归零 | queued | huangyaoshi | 58 卡修复 | 无 | `60_feedback/tasks/task_20260822_huangyaoshi-parse-error-yaml-fix.md` | 验收=full-library-rescan parse-error 归零附输出（#399 纪律）；不动 00_inbox 素材层；内容语义不变  ⚠️待王语嫣复核（欧阳锋建议稿）——复核通过前勿领取 |
+--- line 433 ---
+| 410 | `task_20260822_huangyaoshi-queue-mojibake-fix` | production-queue.md 中文 mojibake 逆向修复（P2，欧阳锋 08-22 立项）：UTF-8-SIG 混合编码历史遗留——队列唯一真相源，风险管控 | queued | huangyaoshi | 1 文件转码 | 无 | `60_feedback/tasks/task_20260822_huangyaoshi-queue-mojibake-fix.md` | 强制备份+样本校准先行+diff 结构零变化；乱码→中文逐行复核；修复后 commit  ⚠️待王语嫣复核（欧阳锋建议稿）——复核通过前勿领取 |
+--- line 434 ---
+| 411 | `task_20260822_laowantong-related-asymmetry-backfill` | related-asymmetry 存量分批回填（P2，欧阳锋 08-22 立项）：7472 条单向链按域分批消化——#383/#384/#406 回链线延续 | queued | laowantong | 分批回链 | 无 | `60_feedback/tasks/task_20260822_laowantong-related-asymmetry-backfill.md` | 只增 related 不动正文（E017/#384）；每批附 full-library-rescan 输出递减；依赖 #408 完成后领取  ⚠️待王语嫣复核（欧阳锋建议稿）——复核通过前勿领取 |

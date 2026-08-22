@@ -5,7 +5,8 @@ type: capability/skill
 status: stable
 description: >
   系统梳理从 PDF、课程截图、研报、论文中提取结构化 Markdown 的可用引擎：
-  PaddleOCR.js（本地轻量）、PaddleOCR-VL（中文 SOTA）、MinerU 2.5（复杂中文文档）、
+  pdf-inspector（文本型 PDF 先分类再直提）、PaddleOCR.js（本地轻量）、
+  PaddleOCR-VL（中文 SOTA）、MinerU 2.5（复杂中文文档/扫描件）、
   Marker（英文学术 PDF）、多模态 AI Vision。含选型决策树、安装命令、输出格式对比。
 triggers:
   - 需要从 PDF/图片提取表格、公式、多栏文字
@@ -36,6 +37,7 @@ tags:
 
 | 引擎 | 类型 | 中文 | 表格 | 公式 | 多栏 | 速度 | 本地/云端 | 最佳场景 |
 |:---|:---|:---:|:---:|:---:|:---:|:---|:---|:---|
+| **pdf-inspector** 🆕 | Rust 先分类再提取 | ⭐⭐⭐ | ⭐⭐ | ❌ | ⭐⭐ | **极快**（~0.3s/份，无模型） | 本地 | **文本型 PDF 进料第一站**（先 detect 分类，直提/路由） |
 | **PaddleOCR.js** | 本地 ONNX 流水线 | ⭐⭐⭐ | ❌ | ❌ | ❌ | 快 | 本地 | 短截图、纯文字、无网络 |
 | **PaddleOCR-VL-0.9B** | 端到端 VLM | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ | 快 | 本地/云端 | **中文文档首选，综合 SOTA** |
 | **MinerU 2.5** | 多模型流水线 | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ | 中等 | 本地 | 复杂中文 PDF/研报/课程 |
@@ -120,6 +122,15 @@ pip install marker-pdf
 ```bash
 marker_single input.pdf --output_dir output_dir
 ```
+
+### 3.5.1 pdf-inspector（🆕 PDF 进料第一站）
+
+- **定位**：文本型 PDF 极速直提（纯 Rust，无模型、无云依赖），PDF 进料先分类再路由
+- **受管环境**：`wiki/_tmp/pdf-inspector/` venv（Python 3.12.3，1.15.0）
+- **调用**：`python 40_outputs/code/scripts/pdf_inspector_route.py <pdf|目录> [--json] [--stdout]`（任意 python 可调起）
+- **实测**：KDO 真实 PDF 5/5 分类正确（conf 0.875-1.0，0.2-0.42s/份），混合页正确标出 `pages_needing_ocr`
+- **边界**：不做 OCR；多栏学术版面/表格密集的语义深度弱于 MinerU；标题层级识别偏弱（官方 benchmark 0.788）
+- **详细工具卡**：`30_wiki/tools/tool-pdf-inspector.md`（待编排入队）
 
 ### 3.5 多模态 AI Vision
 
@@ -246,6 +257,12 @@ magic-pdf -p input.png -o output_dir -m auto
 
 ```
 输入类型
+├── PDF 文件（进料第一问：先分类再路由）
+│   ├── 运行 python 40_outputs/code/scripts/pdf_inspector_route.py <pdf> --json
+│   ├── text_based → pdf-inspector 本地直提 Markdown（0 OCR 成本，最快）
+│   ├── mixed → 本地直提 + pages_needing_ocr 标出页送 OCR
+│   ├── scanned/image_based → MinerU 2.5（OCR + 视觉还原）
+│   └── 多栏学术 PDF / 表格密集 → MinerU / PaddleOCR-VL（版式语义更好）
 ├── 纯文字短截图（无表格/公式/多栏）
 │   └── PaddleOCR.js（本地、最快、免费）
 ├── 中文文档/课程截图/研报/教材
