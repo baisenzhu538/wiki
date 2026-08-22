@@ -42,6 +42,7 @@ related:
 - '[[tool-月白-供应商信息对齐清单法]]'
 - '[[tool-月白-叙事性场景海报构建]]'
 - '[[yt-business-model-partnership]]'
+- '[[tool-月白-价格带视觉策略匹配]]'
 tags:
 - audience:executor
 - scene:execution

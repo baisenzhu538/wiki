@@ -35,6 +35,7 @@ related:
 - 'tool-月白-产品风格选择：测而非定'
 - 'dk-aesthetic-redline-doc'
 - '[[dk-yb23-ai-pre-screen-three-minutes]]'
+- '[[tool-月白-光影灰度控制能力构建]]'
 tags:
 ---
 # 技能：AI图片风格逆向提取（抄图法）

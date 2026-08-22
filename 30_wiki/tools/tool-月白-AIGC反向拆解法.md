@@ -38,6 +38,15 @@ related:
 - '[[dk-yb1-aigc-mvp-before-ps]]'
 - '[[dk-yitang-business-formula-plus-times-trap]]'
 - '[[tool-月白-AIGC设计作业复盘法]]'
+- '[[tool-月白-AI设计三段式里程碑流程]]'
+- '[[tool-月白-AI设计里程碑拆解法]]'
+- '[[tool-月白-AI逆向反推描述法]]'
+- '[[tool-月白-AI需求拆解咨询法]]'
+- '[[tool-月白-PPT全AI生成工作流]]'
+- '[[tool-月白-PPT风格锁定工作流]]'
+- '[[tool-月白-口喷作图工作流]]'
+- '[[tool-月白-口喷式设计工作流]]'
+- '[[tool-月白-图片逆向反推提示词法]]'
 tags:
 ---
 # 技能：AIGC反向拆解法

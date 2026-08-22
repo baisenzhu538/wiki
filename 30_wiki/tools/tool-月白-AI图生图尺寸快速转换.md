@@ -35,6 +35,10 @@ related:
 - 'tool-月白-AI改图指令精细化'
 - 'dk-three-context-formula'
 - '[[dk-yb3-diffusion-stepwise-vs-human-holistic]]'
+- '[[tool-月白-AI设计底层逻辑：从设计到作图到改图]]'
+- '[[tool-月白-一抽流改图法（自然语言精准许愿法）]]'
+- '[[tool-月白-关键要素提取改图法]]'
+- '[[tool-月白-分步迭代改图法]]'
 tags:
 ---
 # 技能：AI图生图尺寸快速转换

@@ -35,6 +35,10 @@ related:
 - 'tool-月白-AI对话式海报修改（免PS）'
 - 'dk-aesthetic-redline-doc'
 - '[[dk-modeling-checklist-formatting-rules]]'
+- '[[tool-月白-AI海报快速生成法（15分钟无PS）]]'
+- '[[tool-月白-分层自洽海报生成法]]'
+- '[[tool-月白-卖点可视化海报设计法]]'
+- '[[tool-月白-叙事性场景海报构建]]'
 tags:
 ---
 # 技能：AIGC海报信息优先级排序法

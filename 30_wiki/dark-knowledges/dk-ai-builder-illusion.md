@@ -79,6 +79,7 @@ related:
 - '[[tool-knowledge-cheatsheet-sab]]'
 - '[[tool-nine-character-mantra-14-strategies]]'
 - '[[tool-skill-packaging-eight-steps]]'
+- '[[tool-月白-MOC]]'
 ---
 # Builder 幻觉：用 AI 做出东西 ≠ 完成从 0 到 1
 

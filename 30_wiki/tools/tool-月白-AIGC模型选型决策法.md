@@ -35,6 +35,7 @@ related:
 - 'tool-月白-AI模型选择策略'
 - 'dk-three-context-formula'
 - '[[aigc设计基础01ai生图原理与提示词基本功]]'
+- '[[tool-月白-商业项目AI模型选型决策]]'
 tags:
 ---
 # 技能：AIGC模型选型决策法

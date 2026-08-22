@@ -35,6 +35,7 @@ related:
 - 'tool-月白-AI模型选择策略'
 - 'dk-three-context-formula'
 - '[[case-strategy-model-selection-quiz]]'
+- '[[tool-月白-商业项目AI模型选型决策]]'
 tags:
 ---
 # 技能：AI模型选择决策法
