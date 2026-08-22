@@ -37,6 +37,7 @@ related:
 - '[[dk-yitang-deliberate-practice-common-traps]]'
 - '[[framework-ai-deliberate-practice-loop]]'
 - '[[yitang-domain-digest]]'
+- '[[case-yitang-sales-routine-deconstruction]]'
 tags:
 - audience:ceo
 - scene:diagnosis

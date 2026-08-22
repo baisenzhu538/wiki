@@ -86,6 +86,16 @@ related:
 - '[[dk-yitang-business-formula-recursive-levels]]'
 - '[[dk-yitang-hypothesis-five-alternatives]]'
 - '[[dk-yitang-formula-unmeasurable-metrics]]'
+- '[[case-dental-clinic-formula]]'
+- '[[case-gym-membership-formula]]'
+- '[[case-offline-catering-formula]]'
+- '[[case-private-domain-ecommerce-formula]]'
+- '[[case-saas-renewal-formula]]'
+- '[[case-toc-ecommerce-formula-misjudgment]]'
+- '[[case-yitang-dongyuan-dance-retention-c-vs-d]]'
+- '[[case-yitang-xiezefeng-clothing-innovation-param]]'
+- '[[case-yitang-yewenbin-archery-business-formula]]'
+- '[[yt-foresight-deliverables-four-levels]]'
 tags:
 - audience:ceo
 - scene:diagnosis

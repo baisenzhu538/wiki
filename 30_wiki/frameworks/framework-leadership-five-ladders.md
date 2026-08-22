@@ -38,6 +38,14 @@ related:
   - framework-how-to-know-a-person
   - framework-truman-feature-layered-system
   - yt-management-leadership-levels
+  - '[[bridge-coaching-leadership-feature-layered]]'
+  - '[[bridge-meeting-leadership-coaching]]'
+  - '[[case-meeting-roi-awakening]]'
+  - '[[case-morfei-semiconductor]]'
+  - '[[case-truman-meeting-leadership]]'
+  - '[[case-yitang-leadership-culture]]'
+  - '[[dk-coaching-boundary-conditions]]'
+  - '[[dk-coaching-monkey-theory]]'
 tags:
 - audience:manager
 - scene:planning

@@ -42,6 +42,8 @@ related:
 - '[[tool-agent-spec-yitang-Y-model-coach]]'
 - '[[framework-一堂-业务公式拆解-总纲]]'
 - '[[framework-business-formula-y-model-bridge]]'
+- '[[concept-meta-skill-layering]]'
+- '[[dk-ai-self-evolution-prompt]]'
 created_at: 2026-07-08
 updated_at: 2026-07-08 17:28:16+00:00
 tags:

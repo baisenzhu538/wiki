@@ -29,6 +29,7 @@ related:
 - yt-pitch-scenarization
 - yt-pitch-emotionalization
 - case-yitang-jiangxiang-tianmu-balcony
+- '[[case-yitang-jiangxiang-scene-montage]]'
 created_at: 2026-08-02
 updated_at: 2026-08-02
 quality_labels: cited

@@ -126,6 +126,19 @@ related:
 - '[[dk-yitang-business-formula-skip-level-entry]]'
 - '[[dk-yitang-hypothesis-five-alternatives]]'
 - '[[dk-yitang-formula-unmeasurable-metrics]]'
+- '[[case-toc-online-education-trust-metrics]]'
+- '[[case-yitang-burger-franchise-key-path]]'
+- '[[case-yitang-dongyuan-dance-retention-c-vs-d]]'
+- '[[case-yitang-farm-machinery-matching]]'
+- '[[case-yitang-meituan-red-dot]]'
+- '[[case-yitang-subtraction-decisions-three]]'
+- '[[case-yitang-tob-devboard-price-coupling]]'
+- '[[case-yitang-wechat-monthly-price-value]]'
+- '[[case-yitang-womenswear-formula-three-versions]]'
+- '[[case-yitang-xiezefeng-clothing-innovation-param]]'
+- '[[case-yitang-yewenbin-archery-business-formula]]'
+- '[[case-一堂-晓莉学而思引流课]]'
+- '[[case-一堂-组合篇案例库]]'
 diagnostic_signals:
 - signal: 团队说"我们的关键假设是用户会买单"，但说不清差多少、先动哪
   lens: 假设停在定性——没有拆到可验证参数

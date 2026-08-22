@@ -42,6 +42,7 @@ related:
 - case-4000-titles-ten-strategies
 - '[[bridge-how-to-know-person-to-business]]'
 - 'framework-knowledge-naming-systems-comparison'
+- '[[concept-ai-style-knowledge-docs]]'
 review_date: 2026-08-16
 ---
 

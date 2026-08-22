@@ -47,6 +47,12 @@ related:
 - framework-ouyangfeng-review-methodology
 - yt-decision-y-model
 - dk-yitang-innovation-failure-modes
+- '[[bridge-lightning-agent-evolution]]'
+- '[[case-aodaye-archery-reinvention]]'
+- '[[case-wenxiaobao-campus-bilateral-network]]'
+- '[[case-wudi-innovation-contest-value]]'
+- '[[case-yitang-4-leaps-innovation-evolution]]'
+- '[[case-zhu-foresight-timing-pattern]]'
 diagnostic_signals:
 - signal: 创新方案执行后效果不如预期
   lens: 检查是否跳过了闪电模型的某个步骤

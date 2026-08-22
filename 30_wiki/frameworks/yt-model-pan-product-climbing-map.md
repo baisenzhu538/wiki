@@ -39,6 +39,7 @@ related:
 - '[[framework-lean-abcd-model]]'
 - '[[framework-ai-accelerated-strategy-cycle]]'
 - '[[framework-yitang-deliberate-practice-1plus4]]'
+- '[[dk-c1-cjk-regex-silent-fail]]'
 review_date: '2026-06-28'
 tags:
 - audience:ceo

@@ -46,6 +46,7 @@ related:
 - framework-r-type-research-partner-five-state
 - tool-nine-character-mantra-14-strategies
 - concept-open-a-document
+- '[[kimi-深度调研集群方法论-deep-research-swarm]]'
 tags:
 - audience:ceo
 - scene:diagnosis

@@ -38,6 +38,9 @@ related:
 - '[[dk-decision-value-overrides-roi]]'
 - '[[dk-best-datasource-is-floor]]'
 - '[[tool-anti-ai-bs-three-moves]]'
+- '[[case-friend-circle-aigc-transformation]]'
+- '[[case-investment-claim-fact-check]]'
+- '[[concept-meta-skill-layering]]'
 ---
 # 事实-规律-洞察三层框架：专题学习的通用分析结构（认识他/理解他/用他）
 

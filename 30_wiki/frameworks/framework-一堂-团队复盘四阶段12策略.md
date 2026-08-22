@@ -36,6 +36,7 @@ related:
   - framework-一堂-刻意练习
   - framework-一堂-个人表达力
   - framework-yitang-project-retrospective
+  - '[[case-千惠供应链复盘]]'
 tags:
   - method:management
   - method:team-building

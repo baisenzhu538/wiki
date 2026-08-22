@@ -40,6 +40,16 @@ related:
 - yt-panproduct-execution-low-cost-mvp
 - tool-马易-风口痛点识别法
 - concept-qinpeng-ai-as-amplifier
+- '[[bridge-how-to-know-person-to-business]]'
+- '[[case-ai-pet-emotional-product]]'
+- '[[case-english-teacher-ai-agent]]'
+- '[[case-feishu-disruptive-innovation]]'
+- '[[case-qinpeng-hardware-ai-amplification]]'
+- '[[case-shuishui-business-insight]]'
+- '[[case-zhu-disruptive-innovation-practice]]'
+- '[[case-zhu-foresight-timing-pattern]]'
+- '[[concept-christensen-jtbd-link]]'
+- '[[concept-qinpeng-knowledge-base-conversion]]'
 created_at: 2026-08-02
 updated_at: 2026-08-02
 quality_labels: cited

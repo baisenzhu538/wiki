@@ -45,6 +45,7 @@ related:
 - '[[tool-模型组合调用]]'
 - concept-X型Y型决策习惯
 - concept-发现决策
+- '[[yt-skill-checklist-as-ai-protocol]]'
 discoverable_by:
   - "TCPR模型"
   - "TCPI商业底层协议"

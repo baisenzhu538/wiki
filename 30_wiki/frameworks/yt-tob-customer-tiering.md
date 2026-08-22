@@ -33,6 +33,7 @@ related:
 - '[[tool-yitang-b2b-gov-research]]'
 - '[[case-yitang-yitu-lead-industrialization]]'
 - '[[yt-tob-cash-flow]]'
+- '[[case-smart-medicine-cabinet-corporate-risk]]'
 diagnostic_signals:
 - framework_lens: 客户分层（头部/腰部/腿部）
   follow_up_question: 当前方案分别对应哪类客户的决策链、付费能力和交付周期？是否必须切分客户或切分产品版本？

@@ -32,6 +32,9 @@ related:
   - framework-how-to-know-a-person
   - management-domain-digest
   - concept-一堂-基本功-刻意练习四要素
+  - '[[bridge-coaching-leadership-feature-layered]]'
+  - '[[case-yitang-leadership-culture]]'
+  - '[[dk-coaching-boundary-conditions]]'
 tags:
 - audience:manager
 - scene:planning

@@ -43,6 +43,14 @@ related:
 - '[[framework-lean-abcd-model]]'
 - '[[framework-ai-accelerated-strategy-cycle]]'
 - '[[framework-yitang-growth-flywheel]]'
+- '[[case-panproduct-lanyi-dahanghui-team]]'
+- '[[case-panproduct-lanyi-shidonghui-npc]]'
+- '[[concept-pan-product-vs-traditional-management]]'
+- '[[yt-concept-weapon-arsenal]]'
+- '[[yt-model-pan-product-aesthetic-toolkit]]'
+- '[[yt-model-pan-product-demand-toolkit]]'
+- '[[yt-model-pan-product-execution-toolkit]]'
+- '[[yt-note-checklist-concept]]'
 review_date: '2026-06-28'
 tags:
 - audience:ceo

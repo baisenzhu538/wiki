@@ -37,6 +37,12 @@ related:
 - '[[concept-yitang-research-aesthetic]]'
 - dk-ai-cross-domain-inference
 - dk-ai-builder-illusion
+- '[[case-4000-titles-ten-strategies]]'
+- '[[case-ai-learning-series-modeling]]'
+- '[[case-design-principles-90]]'
+- '[[case-investment-claim-fact-check]]'
+- '[[case-leo-lubricant-dealer-research]]'
+- '[[case-opc-128-directions]]'
 tags:
 - audience:manager
 - scene:planning

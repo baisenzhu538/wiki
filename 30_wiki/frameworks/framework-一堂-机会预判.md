@@ -16,6 +16,21 @@ source_refs: null
 related:
 - 'framework-knowledge-naming-systems-comparison'
 - 'tool-platform-requirement-eight-sections'
+- '[[case-ai-time-management-tiered-growth]]'
+- '[[case-coffee-shop-foresight]]'
+- '[[case-escort-service-tiered-growth]]'
+- '[[case-friend-circle-aigc-transformation]]'
+- '[[concept-一堂-终局光谱图解读]]'
+- '[[yt-ai-trend-12-signals]]'
+- '[[yt-foresight-15-char-mantra]]'
+- '[[yt-foresight-ab-steady-state]]'
+- '[[yt-foresight-addition-subtraction]]'
+- '[[yt-foresight-business-spectrum]]'
+- '[[yt-foresight-deliverables-four-levels]]'
+- '[[yt-foresight-model-taxonomy]]'
+- '[[yt-foresight-probability-engineering]]'
+- '[[yt-foresight-ten-fatal-flaws]]'
+- '[[yt-three-dimension-opportunity-matrix]]'
 discoverable_by:
 - 机会预判
 - CEO预判操作系统

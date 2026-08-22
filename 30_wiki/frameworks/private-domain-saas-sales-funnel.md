@@ -39,6 +39,7 @@ related:
 - '[[tool-yitang-pc-web-data]]'
 - '[[七件事集团]]'
 - '[[yt-personal-scientific-expression]]'
+- '[[case-hr-saas-feature-usage-trap]]'
 tags:
 - audience:ceo
 - scene:diagnosis

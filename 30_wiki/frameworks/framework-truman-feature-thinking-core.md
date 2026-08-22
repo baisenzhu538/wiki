@@ -41,6 +41,12 @@ related:
   - case-live258-fact-spread-18-bridges
   - case-live258-europe-cold-email
   - tool-feature-review-five-step
+  - '[[bridge-dual-track-feature-system]]'
+  - '[[case-truman-ai-image-workflow-evolution]]'
+  - '[[case-truman-investment-daily-report]]'
+  - '[[case-truman-temperature-parameter]]'
+  - '[[concept-yihang-dual-triangle-core]]'
+  - '[[dk-ai-does-not-question-your-mistake]]'
 tags:
   - method:feature-thinking
   - method:ai-basic

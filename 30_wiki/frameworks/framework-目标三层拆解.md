@@ -32,6 +32,7 @@ related:
 - yt-tool-okr-cycle
 - yt-management-goal-management
 - management-domain-digest
+- '[[concept-目标管理组织四阶段]]'
 tags:
 - audience:ceo
 - scene:diagnosis

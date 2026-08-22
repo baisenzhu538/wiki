@@ -33,6 +33,11 @@ related:
   - tool-复盘推演法
   - yt-model-deep-review-iceberg
   - framework-一堂五步法-单元模型
+  - '[[bridge-个人复盘×知识管理W-Z-K-P]]'
+  - '[[case-一堂-A加社失败归因→一堂诞生]]'
+  - '[[case-一堂-迷你访谈五周迭代]]'
+  - '[[case-千惠供应链复盘]]'
+  - '[[case-莹莹-before-after复盘]]'
 tags:
   - method:review
   - method:decision

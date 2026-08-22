@@ -13,6 +13,9 @@ source_refs:
   - src_unknown
 related:
   - [[method-yitang-y-model-engine-cycle]]
+  - '[[case-cross-xingangwan-pharma]]'
+  - '[[case-cross-yuanqi-forest]]'
+  - '[[case-strategy-exit-remove]]'
 created_at: 2026-06-30
 updated_at: 2026-08-04
 tags:

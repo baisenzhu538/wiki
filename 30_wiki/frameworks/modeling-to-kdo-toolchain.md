@@ -35,6 +35,10 @@ related:
 - '[[tool-月白-AI图片印刷落地预处理]]'
 - '[[framework-kdo-self-attack]]'
 - '[[kdo-yaml-frontmatter-safety]]'
+- '[[modeling-three-values]]'
+- '[[dk-c10-batch-tool-no-dry-run]]'
+- '[[dk-c3-txt-ingest-skip]]'
+- '[[dk-c8-format-complete-mind-empty]]'
 tags:
 - src_unknown
 - src_unknown

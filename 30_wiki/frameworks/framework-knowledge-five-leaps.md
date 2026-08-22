@@ -44,6 +44,9 @@ related:
 - '[[framework-truman-agent-team-architecture]]'
 - '[[concept-open-a-document]]'
 - '[[case-cross-xingangwan-pharma]]'
+- '[[case-new-year-insight-relay]]'
+- '[[case-vibecoding-one-week-delivery]]'
+- '[[concept-ai-style-knowledge-docs]]'
 review_date: 2026-08-16
 ---
 

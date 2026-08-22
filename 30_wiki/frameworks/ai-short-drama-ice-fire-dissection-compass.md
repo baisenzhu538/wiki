@@ -35,6 +35,7 @@ related:
 - '[[ai-short-drama-plot-three-axes]]'
 - '[[ai-short-drama-framework-three-axes]]'
 - '[[ai-short-drama-conflict-three-axes]]'
+- '[[case-compas-racial-bias]]'
 tags:
   - audience:ceo
   - scene:diagnosis

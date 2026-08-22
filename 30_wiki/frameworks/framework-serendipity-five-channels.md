@@ -43,6 +43,8 @@ related:
 - '[[dk-research-ai-no-time-concept]]'
 - '[[dk-best-datasource-is-floor]]'
 - '[[case-cross-xingangwan-pharma]]'
+- '[[case-friend-circle-aigc-transformation]]'
+- '[[dk-aesthetic-redline-doc]]'
 review_date: 2026-08-16
 ---
 

@@ -40,6 +40,7 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+- '[[case-yitang-tob-artificial-bone]]'
 discoverable_by:
 - ToB增长渠道
 - B2B获客

@@ -61,6 +61,8 @@ related:
 - '[[yt-management-goal-management]]'
 - '[[yt-personal-deliberate-practice]]'
 - '[[tool-agent-spec-yitang-incentive-design]]'
+- '[[case-yitang-sales-transformation-jubensha-saas]]'
+- '[[concept-strategy-capability-pyramid]]'
 created_at: 2026-07-02
 updated_at: 2026-07-08
 discoverable_by:

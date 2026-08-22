@@ -39,6 +39,10 @@ related:
 - "[[tool-meeting-result-principles]]"
 - "[[dk-meeting-asset-harvest]]"
 - "[[case-meeting-roi-awakening]]"
+- '[[case-meeting-scene-mastery]]'
+- '[[case-yitang-2022-annual-lessons]]'
+- '[[case-yitang-leo-website-redesign]]'
+- '[[case-千惠供应链复盘]]'
 tags:
 - audience:manager
 - scene:planning

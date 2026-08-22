@@ -39,6 +39,9 @@ related:
 - dk-ai-builder-illusion
 - dk-ai-as-last-step-not-first
 - bridge-how-to-know-person-to-business
+- '[[case-design-principles-90]]'
+- '[[case-leo-lubricant-dealer-research]]'
+- '[[case-opc-128-directions]]'
 tags:
 - audience:manager
 - audience:executor

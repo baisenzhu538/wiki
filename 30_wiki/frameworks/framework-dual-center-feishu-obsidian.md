@@ -45,6 +45,10 @@ related:
 - '[[case-cross-xingangwan-pharma]]'
 - '[[dk-project-manager-agent-failure]]'
 - '[[bridge-how-to-know-person-to-business]]'
+- '[[case-new-year-insight-relay]]'
+- '[[case-vibecoding-one-week-delivery]]'
+- '[[concept-ai-style-knowledge-docs]]'
+- '[[dk-anti-human-ux-is-feature]]'
 review_date: 2026-08-16
 ---
 

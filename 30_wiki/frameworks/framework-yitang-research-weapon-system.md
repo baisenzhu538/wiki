@@ -47,6 +47,9 @@ related:
 - framework-r-type-research-partner-five-state
 - tool-nine-character-mantra-14-strategies
 - concept-open-a-document
+- '[[case-4000-titles-ten-strategies]]'
+- '[[case-ai-learning-series-modeling]]'
+- '[[case-leo-lubricant-dealer-research]]'
 tags:
 - audience:ceo
 - scene:diagnosis

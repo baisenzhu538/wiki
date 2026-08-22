@@ -28,6 +28,12 @@ related:
 - '[[decision-science-domain-digest]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+- '[[ai单元模型口述蒋老师]]'
+- '[[yt-unit-model-ai-assisted]]'
+- '[[yt-unit-model-build]]'
+- '[[yt-unit-model-construction]]'
+- '[[yt-unit-model-dynamic]]'
+- '[[yt-unit-model-selection]]'
 tags:
 - audience:ceo
 - scene:diagnosis

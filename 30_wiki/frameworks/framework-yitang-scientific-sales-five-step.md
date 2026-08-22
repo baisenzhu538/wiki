@@ -59,6 +59,9 @@ related:
 - '[[tool-agent-spec-yitang-sales-toolkit-gap]]'
 - '[[tool-agent-spec-yitang-three-second-opening-scripts]]'
 - '[[tool-agent-spec-yitang-user-perspective-training]]'
+- '[[case-yitang-ai-painting-commercialization]]'
+- '[[case-yitang-sales-routine-deconstruction]]'
+- '[[concept-一堂-hypothesis-driven-business-methodology]]'
 created_at: 2026-07-02
 updated_at: 2026-07-08
 tags:

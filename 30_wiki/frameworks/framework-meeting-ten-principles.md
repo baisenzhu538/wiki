@@ -41,6 +41,9 @@ related:
   - dk-meeting-principle-over-process
   - case-meeting-roi-awakening
   - framework-leadership-five-ladders
+  - '[[case-meeting-scene-mastery]]'
+  - '[[case-truman-meeting-leadership]]'
+  - '[[yt-decision-consensus-iceberg]]'
 quality_labels: [principle, actionable, quotable, insight]
 tags:
   - audience:general

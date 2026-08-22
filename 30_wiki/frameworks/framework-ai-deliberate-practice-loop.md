@@ -34,6 +34,11 @@ related:
 - '[[dk-ai-self-evolution-prompt]]'
 - '[[dk-decision-value-overrides-roi]]'
 - '[[dk-let-ai-learn-for-me]]'
+- '[[case-yitang-ai-painting-commercialization]]'
+- '[[case-yitang-poker-parameterized-practice]]'
+- '[[case-yitang-sales-routine-deconstruction]]'
+- '[[concept-cognitive-offloading-in-ai-era]]'
+- '[[concept-yitang-comfort-stretch-panic-zones]]'
 discoverable_by:
 - AI刻意练习闭环
 - AI练习伙伴

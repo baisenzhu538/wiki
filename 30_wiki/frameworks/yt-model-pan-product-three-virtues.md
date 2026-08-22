@@ -44,6 +44,8 @@ related:
 - '[[framework-lean-abcd-model]]'
 - '[[framework-ai-accelerated-strategy-cycle]]'
 - '[[framework-pan-product-organization]]'
+- '[[concept-pan-product-vs-traditional-management]]'
+- '[[yt-model-aesthetic-progression]]'
 review_date: '2026-06-28'
 tags:
 - audience:ceo

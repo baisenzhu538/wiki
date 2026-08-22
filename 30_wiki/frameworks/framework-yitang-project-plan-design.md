@@ -32,6 +32,8 @@ related:
 - '[[skill-yitang-project-spiral-thinking]]'
 - '[[yt-decision-y-model]]'
 - '[[yt-management-goal-management]]'
+- '[[case-yitang-2022-annual-lessons]]'
+- '[[case-yitang-leo-website-redesign]]'
 tags:
 - audience:manager
 - scene:planning

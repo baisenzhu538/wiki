@@ -35,6 +35,7 @@ related:
 - concept-利润-风险报偿本质
 - framework-利润-利润优先经营框架
 - yt-decision-y-model
+- '[[case-利润-苹果智能手机利润垄断]]'
 discoverable_by:
 - "需求冰山和价值定价"
 - "客户为什么愿意付高价"

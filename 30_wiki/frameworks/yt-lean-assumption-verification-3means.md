@@ -34,6 +34,7 @@ related:
 - '[[yt-lean-beauty-store-conversion]]'
 - '[[yt-lean-daily-chemical-mvp]]'
 - '[[yt-lean-flower-mom-group-leader]]'
+- '[[case-一堂-无人餐厅-hypothesis-failure]]'
 diagnostic_signals:
 - framework_lens: 未遵循"访谈调研→经验验证→实验验证"的成本递增顺序
   follow_up_question: 这个假设能否通过专家访谈或行业对标先排除？什么信息已经被他人验证过？

@@ -35,6 +35,8 @@ related:
 - '[[yt-management-basic-skills]]'
 - '[[framework-一堂-苦练基本功-总纲]]'
 - '[[management-domain-digest]]'
+- '[[case-yitang-2022-annual-lessons]]'
+- '[[case-yitang-leo-website-redesign]]'
 diagnostic_signals:
 - signal: 计划做得很完备，但一到执行就全线延期——每周发现问题时已经晚了5天
   lens: 进度管理缺位——仅有周会不够，需要高频主动跟进关键路径任务

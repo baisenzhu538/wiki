@@ -35,6 +35,8 @@ related:
 - '[[dk-decision-value-overrides-roi]]'
 - '[[tool-sales-objection-dilution]]'
 - '[[dk-customers-hate-ai]]'
+- '[[case-4000-titles-ten-strategies]]'
+- '[[case-leo-lubricant-dealer-research]]'
 tags:
 - audience:ceo
 - audience:manager

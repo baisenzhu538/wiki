@@ -30,6 +30,7 @@ related:
 - '[[framework-ouyangfeng-review-methodology]]'
 - framework-yitang-high-level-plan
 - framework-yitang-oscar-research
+- '[[concept-open-source-knowledge-usage-boundary]]'
 diagnostic_signals:
 - framework_lens: 六维门禁——逐项自检
   follow_up_question: 六维中哪一维最薄弱？薄弱项回补后再提交

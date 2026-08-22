@@ -26,6 +26,12 @@ related:
 - concept-open-a-document
 - 'case-truman-ai-native-research-flow'
 - 'tool-local-search-repo-datasource-engineering'
+- '[[case-feishu-disruptive-innovation]]'
+- '[[case-friend-circle-aigc-transformation]]'
+- '[[case-investment-claim-fact-check]]'
+- '[[case-leo-lubricant-dealer-research]]'
+- '[[concept-yitang-research-objective]]'
+- '[[concept-yitang-research-scope]]'
 discoverable_by:
 - OSCAR调研模型
 - 目标锁定到正确归因

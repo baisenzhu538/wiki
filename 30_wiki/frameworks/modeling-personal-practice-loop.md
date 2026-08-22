@@ -26,6 +26,8 @@ related:
 - '[[tool-李诞-销售闭环验证：从0到1的重新定义]]'
 - '[[tool-提问刻意练习画布]]'
 - '[[yt-model-ipo-complete-checklist]]'
+- '[[case-yitang-ai-painting-commercialization]]'
+- '[[concept-yitang-comfort-stretch-panic-zones]]'
 tags:
 - src_unknown
 - src_unknown

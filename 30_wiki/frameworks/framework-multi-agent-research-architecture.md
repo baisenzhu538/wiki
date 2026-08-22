@@ -17,6 +17,7 @@ aliases:
 source_refs: null
 related:
 - 'case-truman-ai-native-research-flow'
+- '[[concept-mcp-protocol]]'
 discoverable_by:
 - 多Agent调研架构
 status: reviewed

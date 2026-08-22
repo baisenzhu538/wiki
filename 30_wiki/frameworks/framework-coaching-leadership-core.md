@@ -34,6 +34,15 @@ related:
   - framework-how-to-know-a-person
   - framework-truman-feature-layered-system
   - human-insights-domain-digest
+  - '[[bridge-coaching-leadership-feature-layered]]'
+  - '[[bridge-meeting-leadership-coaching]]'
+  - '[[case-coaching-dialogue-three-versions]]'
+  - '[[case-leadership-communication-failures]]'
+  - '[[case-meeting-scene-mastery]]'
+  - '[[case-morfei-semiconductor]]'
+  - '[[case-yitang-leadership-culture]]'
+  - '[[dk-coaching-boundary-conditions]]'
+  - '[[dk-coaching-monkey-theory]]'
 tags:
 - audience:manager
 - scene:planning

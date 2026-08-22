@@ -34,6 +34,9 @@ related:
 - yt-tool-strategy-workshop
 - yt-demand-level-assessment
 - tool-遵循规模前倾原则设计组织架构
+- '[[bridge-christensen-reverse-mapping]]'
+- '[[case-feishu-disruptive-innovation]]'
+- '[[case-zhu-disruptive-innovation-practice]]'
 created_at: 2026-08-02
 updated_at: 2026-08-02
 quality_labels: cited

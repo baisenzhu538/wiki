@@ -37,6 +37,12 @@ related:
 - framework-一堂-个人表达力
 - framework-ouyangfeng-review-methodology
 - human-insights-domain-digest
+- '[[case-ai-pet-emotional-product]]'
+- '[[case-leadership-communication-failures]]'
+- '[[case-morfei-semiconductor]]'
+- '[[case-shuishui-business-insight]]'
+- '[[case-yitang-leadership-culture]]'
+- '[[dk-agreeableness-double-edged]]'
 tags:
 - method:human-insight
 - method:psychology

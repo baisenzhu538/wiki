@@ -49,6 +49,10 @@ related:
 - '[[tool-ai-adapted-workflow-design]]'
 - '[[concept-meta-skill-layering]]'
 - 'dk-agent-parallel-design-system'
+- '[[case-new-year-insight-relay]]'
+- '[[case-vibecoding-one-week-delivery]]'
+- '[[dk-ai-self-evolution-prompt]]'
+- '[[dk-anti-human-ux-is-feature]]'
 review_date: 2026-08-16
 ---
 
