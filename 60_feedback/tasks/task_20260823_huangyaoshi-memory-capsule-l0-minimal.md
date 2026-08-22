@@ -47,3 +47,27 @@ updated_at: '2026-08-22T16:34:08.369998+00:00'
 - **本任务为备份基建**：新建 A 主库 + B 镜像 + verify 脚本——**零删除存量**（全部为新建文件/目录）
 - 唯一"删除"动作：狗粮演练中删除**自己刚写入的测试事件**（临时副本，测完即删，非存量素材）
 - 不碰 wiki/复盘/中文旧轨；PROTOCOL §7 素材零触碰
+
+## 执行报告（2026-08-23 黄药师）
+
+**完成内容**：记忆胶囊 L0 最小实现——A 本机主库 + B 第二盘镜像 + verify 可恢复证明，狗粮全链路通过。
+
+**交付物**（改动文件清单）：
+1. `kdo-tools/memory_capsule.py`：init/log/mirror/status/verify/restore 六命令——A 主库（SQLite WAL，schema：agent_id/session_id/ts/event_type/payload_summary(≤1KB)/payload_hash(sha256)）+ robocopy /MIR 镜像（先 wal_checkpoint(TRUNCATE) 防半写）+ B 可恢复校验（文件 hash 对比 + 从 B 打开 integrity_check）
+2. A 主库 `C:\Users\Administrator\.kdo-memory\L0\activity_log.db`（git 外）；B 镜像 `D:\KDO-memory\L0-backup\`
+3. `20_memory/memory-registry.md` 表 1 登记 L0 主库/镜像路径（任务单关联要求）
+
+**验证**（命令+输出）：
+- 狗粮全链路（#432 边界要求）：init → log（测试事件 #1）→ mirror → verify PASS（hash 全一致 + B 打开 integrity=ok 行数 1）→ **模拟丢失**（A 移走）→ restore 从 B 恢复 → **verify PASS**（A 回填后全通）→ 现场清理（.gone/临时恢复目录已删）
+- status：行数 1 / integrity ok / B 镜像存在
+- 测试事件 #1 保留在 L0（L0 语义=全量留痕，保留合理）
+
+**未做项**：
+- L1 摘要/L2 洞察/L3 沉淀不在本单（F-027 后续阶段）
+- 常驻计划任务**未注册**（#432 边界：需老朱确认 exact 命令后再注册）——当前 mirror 手动跑；建议命令：`schtasks /create /tn kdo-memory-mirror /tr "python kdo-tools/memory_capsule.py mirror" /sc daily /st 03:00`（待老朱确认）
+- 消费端 ≤1KB 精华段另单；未写 KB 卡、未碰 30_wiki
+
+**需要谁动作**：
+- 老朱：确认是否注册常驻镜像计划任务（命令见上）；B 盘（D: 36G 可用）为 L0 镜像载体
+- 欧阳锋：终审本单（抽"是否只做 L0 / 无计划任务擅注册 / verify 真恢复"）
+- 王语嫣：F-027 状态更新（第一阶段完成，L1-L3 留后续）

@@ -30,6 +30,7 @@ audience: 全体 agent
 | Hermes 记忆 | `AppData\Local\hermes\profiles\<role>\memories\` | 迁移后 Windows 为准；WSL 侧已停 |
 | 能力注册 | `cap_hub/` | — |
 | 失忆恢复锚点 | `20_memory/<role>-amnesia-recovery.md` | 命名规范见表 3 |
+| 记忆胶囊 L0 主库 | `C:\Users\Administrator\.kdo-memory\L0\activity_log.db` | #432/#427 拍板 A 本机主库（git 外，WAL）；镜像 `D:\KDO-memory\L0-backup\`（robocopy /MIR）；verify=memory_capsule.py |
 
 ## 表 2 · 派生副本（只读，禁手改）
 
