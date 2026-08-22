@@ -34,6 +34,7 @@ related:
 - 'tool-月白-AI图片印刷落地预处理'
 - 'tool-月白-AI对话情绪管理法'
 - 'dk-three-context-formula'
+- '[[case-strategy-model-selection-quiz]]'
 tags:
 ---
 # 技能：审美刻意练习法

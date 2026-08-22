@@ -41,6 +41,7 @@ related:
 - '[[concept-open-a-document]]'
 - '[[case-cross-xingangwan-pharma]]'
 - '[[bridge-how-to-know-person-to-business]]'
+- '[[case-new-year-insight-relay]]'
 review_date: 2026-08-16
 ---
 

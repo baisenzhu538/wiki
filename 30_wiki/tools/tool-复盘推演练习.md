@@ -42,6 +42,7 @@ related:
 - '[[tool-ai辅助学习]]'
 - '[[tool-费曼学习法三句话提炼]]'
 - tool-复盘推演法
+- '[[case-strategy-model-selection-quiz]]'
 tags:
 - audience:executor
 - scene:execution

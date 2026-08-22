@@ -32,6 +32,7 @@ related:
 - '[[tool-strategy-blue-ocean-canvas]]'
 - concept-X型Y型决策习惯
 - concept-发现决策
+- '[[case-strategy-model-selection-quiz]]'
 updated_at: '2026-06-29'
 tags:
 - audience:executor

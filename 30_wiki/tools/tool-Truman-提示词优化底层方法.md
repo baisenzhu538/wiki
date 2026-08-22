@@ -39,6 +39,9 @@ related:
 - '[[tool-Truman-职场异步协作提问法]]'
 - '[[tool-Truman-语义对齐沟通法]]'
 - '[[tool-Truman-问题定义澄清法]]'
+- '[[case-modeling-process-livestream-prep]]'
+- '[[case-truman-ai-skill-engineering-guide]]'
+- '[[case-truman-ai-skill-self-packaging]]'
 tags:
 - audience:executor
 - scene:execution

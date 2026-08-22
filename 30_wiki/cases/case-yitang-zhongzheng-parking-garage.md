@@ -43,6 +43,7 @@ related:
 - "[[concept-一堂-kernel-iteration]]"
 - "[[case-yitang-chuanhe-seasoning-kernel]]"
 - "[[case-yitang-tob-smart-park]]"
+- '[[case-qinpeng-iot-module-tiering]]'
 diagnostic_signals:
 - framework_lens: 产品内核 / 从硬件到智能化的关键切入点
   follow_up_question: 你的产品是否仅解决了"有"的问题（如车位配比），而忽视了"用"的体验？用户真正敢用吗？

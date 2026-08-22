@@ -41,6 +41,8 @@ related:
 - '[[tool-费曼学习法三句话提炼]]'
 - tool-ai-prd-for-ai
 - yt-model-ipo-learning-strategy
+- '[[case-strategy-lekai-film]]'
+- '[[case-strategy-li-ka-shing]]'
 tags:
 - audience:executor
 - scene:execution

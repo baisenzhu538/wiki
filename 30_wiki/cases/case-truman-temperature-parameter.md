@@ -28,6 +28,7 @@ related:
   - case-truman-ai-image-workflow-evolution
   - case-truman-investment-daily-report
   - 10_raw/sources/feature-periodic-table-v0.8.json
+  - '[[case-live258-zhihu-content-acquisition]]'
 tags:
   - method:feature-thinking
   - method:optimization

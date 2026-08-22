@@ -32,6 +32,7 @@ related:
 - concept-发现决策
 - case-decision-science-universal-salary-raise-roi
 - case-panproduct-top135-selection-polish
+- '[[case-smart-medicine-cabinet-business-model-validation]]'
 updated_at: '2026-06-29'
 tags:
 - audience:executor

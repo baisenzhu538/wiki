@@ -35,6 +35,7 @@ related:
   - tool-yitang-daily-weekly-meeting-hosting
   - management-domain-digest
   - framework-leadership-five-ladders
+  - '[[case-meeting-scene-mastery]]'
 quality_labels: [actionable, principle, cited]
 tags:
   - audience:general

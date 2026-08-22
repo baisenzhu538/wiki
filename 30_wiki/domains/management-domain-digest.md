@@ -15,6 +15,8 @@ author: 老顽童
 reviewed_by: pending
 related:
 - framework-目标三层拆解
+- '[[case-meeting-roi-awakening]]'
+- '[[case-morfei-semiconductor]]'
 tags:
 - audience:manager
 - scene:reference

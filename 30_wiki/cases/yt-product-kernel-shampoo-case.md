@@ -33,6 +33,7 @@ discoverable_by:
   - 从去屑到专业形象
 related:
 - '[[pending_unknown]]'
+- '[[case-truman-ai-skill-self-packaging]]'
 diagnostic_signals:
 - framework_lens: 洗发水案例——内核是价值，不是功能
   follow_up_question: AI功能解决了用户什么问题？用户愿意为这个'问题解决'付费吗？

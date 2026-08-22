@@ -55,6 +55,7 @@ related:
 - '[[dk-yitang-business-formula-pseudo-causality-two-masks]]'
 - '[[case-yitang-burger-franchise-key-path]]'
 - '[[case-yitang-tob-devboard-price-coupling]]'
+- '[[case-toc-ecommerce-formula-misjudgment]]'
 tags:
 - audience:executor
 - scene:reference

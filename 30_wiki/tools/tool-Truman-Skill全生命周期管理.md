@@ -34,6 +34,9 @@ related:
 - '[[tool-半肥猫-course-to-skill-workflow]]'
 - case-ai-agent-milestone-design
 - tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie
+- '[[case-modeling-process-livestream-prep]]'
+- '[[case-truman-ai-skill-engineering-guide]]'
+- '[[case-truman-motivation-map-12-versions]]'
 tags:
 - audience:manager
 - scene:execution

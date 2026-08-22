@@ -45,6 +45,7 @@ related:
 - '[[modeling-weapon-library]]'
 - '[[framework-kdo-self-attack]]'
 - '[[yitang-domain-digest]]'
+- '[[case-livestream-sop-modeling]]'
 tags:
 - audience:executor
 - scene:execution

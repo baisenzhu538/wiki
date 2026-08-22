@@ -37,6 +37,7 @@ related:
 - '[[tool-yitang-18-strategy-tool-mapping]]'
 - '[[tool-半肥猫-course-to-skill-workflow]]'
 - '[[tool-半肥猫-边学边练边沉淀的AI学习法]]'
+- '[[case-truman-ai-skill-engineering-guide]]'
 created_at: '2026-06-07'
 updated_at: '2026-06-28'
 pipeline:

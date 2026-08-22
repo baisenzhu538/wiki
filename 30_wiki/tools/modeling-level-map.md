@@ -39,6 +39,7 @@ related:
 - '[[modeling-capability-system]]'
 - '[[modeling-three-stages]]'
 - '[[modeling-weapon-library]]'
+- '[[case-modeling-ai-image-workflow]]'
 tags:
 - audience:executor
 - scene:execution

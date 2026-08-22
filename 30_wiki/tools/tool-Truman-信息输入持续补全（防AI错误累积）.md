@@ -33,6 +33,9 @@ related:
 - '[[tool-Truman-上下文质量管理（AI协作）]]'
 - '[[tool-Truman-AI输出审慎判断与交付确认]]'
 - '[[tool-Truman-判断力产品化与系统赋能]]'
+- '[[case-modeling-process-livestream-prep]]'
+- '[[case-truman-ai-skill-engineering-guide]]'
+- '[[case-truman-motivation-map-12-versions]]'
 tags:
 - audience:executor
 - scene:execution

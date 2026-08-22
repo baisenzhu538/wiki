@@ -39,6 +39,7 @@ related:
 - bridge-how-to-know-person-to-business
 - case-cross-xingangwan-pharma
 - dk-ai-builder-illusion
+- '[[case-new-year-insight-relay]]'
 tags:
 - audience:manager
 - scene:planning

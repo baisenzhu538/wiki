@@ -35,6 +35,7 @@ related:
 - '[[pending_unknown]]'
 - case-lean-building-in-vacuum
 - case-yitang-redburger-selection-industrialization
+- '[[case-shampoo-product-kernel]]'
 tags:
 - audience:general
 - scene:reference

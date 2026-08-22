@@ -31,6 +31,7 @@ related:
 - '[[tool-ROI决策评估画布]]'
 - '[[tool-行业分析画布]]'
 - '[[tool-提问刻意练习画布]]'
+- '[[case-strategy-retailer-activity-scope]]'
 diagnostic_signals:
 - framework_lens: 商业模式画布——结构化梳理商业模式
   follow_up_question: 你能用商业模式画布的9个要素描述你的商业模式吗？

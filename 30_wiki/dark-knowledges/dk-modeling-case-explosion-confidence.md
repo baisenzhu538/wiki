@@ -45,6 +45,7 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+- '[[case-truman-ai-skill-self-packaging]]'
 tags:
 - src_unknown
 - src_unknown

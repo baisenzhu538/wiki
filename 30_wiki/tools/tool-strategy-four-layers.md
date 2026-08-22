@@ -28,6 +28,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+related:
+  - '[[case-strategy-walmart-vs-costco-pyramid]]'
 ---
 
 # 战略四层结构

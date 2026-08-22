@@ -32,6 +32,7 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - tool-ai-prd-for-ai
+- '[[case-toc-content-platform-correlation-trap]]'
 updated_at: '2026-06-29'
 tags:
 - audience:executor

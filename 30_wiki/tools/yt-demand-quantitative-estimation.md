@@ -37,6 +37,7 @@ related:
 - '[[kimi-深度调研集群方法论-deep-research-swarm]]'
 - '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
 - '[[tool-月白-用一堂方法论找最佳实践并拉满执行]]'
+- '[[case-qinpeng-hardware-ai-amplification]]'
 diagnostic_signals:
 - framework_lens: 估算方法不明——可能是拍脑袋或引用第三方报告未验证
   follow_up_question: 这个数字是用哪种方法算的？自上而下还是自下而上？能展示计算过程吗？

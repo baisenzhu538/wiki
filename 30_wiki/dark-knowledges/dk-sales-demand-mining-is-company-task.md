@@ -37,6 +37,7 @@ related:
 - '[[concept-发现决策]]'
 - '[[dk-decision-when-to-defer]]'
 - '[[case-4000-titles-ten-strategies]]'
+- '[[case-leo-lubricant-dealer-research]]'
 tags:
 - audience:ceo
 - audience:manager

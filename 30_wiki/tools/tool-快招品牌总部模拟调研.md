@@ -41,6 +41,7 @@ related:
 - '[[tool-通过请吃饭获取行业内部资料]]'
 - '[[tool-按图索骥改良外部模板]]'
 - tool-ai-prd-for-ai
+- '[[case-strategy-m-brand-profit-model]]'
 tags:
 - audience:executor
 - scene:execution

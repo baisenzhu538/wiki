@@ -48,6 +48,7 @@ related:
 - tool-使用优先级快筛卡锁定核心矛盾
 - tool-设计对抗效果追踪看板
 - '[[case-feishu-disruptive-innovation]]'
+- '[[case-qinpeng-hardware-ai-amplification]]'
 tags:
 - audience:manager
 - scene:execution

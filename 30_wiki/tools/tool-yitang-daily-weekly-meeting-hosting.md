@@ -42,6 +42,7 @@ related:
   - "[[framework-meeting-ten-principles]]"
   - "[[tool-meeting-result-principles]]"
   - "[[dk-meeting-roi-first]]"
+  - '[[case-meeting-roi-awakening]]'
 tags:
 - audience:executor
 - scene:execution

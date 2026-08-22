@@ -35,6 +35,9 @@ related:
 - ai-basic-domain-digest
 - case-truman-temperature-parameter
 - tool-feature-review-five-step
+- '[[case-live258-europe-cold-email]]'
+- '[[case-live258-fact-spread-18-bridges]]'
+- '[[case-live258-livestream-prompt-v1-v5]]'
 tags:
 - method:feature-thinking
 - method:content-marketing

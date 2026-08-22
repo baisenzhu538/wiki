@@ -38,6 +38,7 @@ related:
 - '[[modeling-capability-system]]'
 - '[[modeling-three-stages]]'
 - '[[modeling-level-map]]'
+- '[[case-modeling-gongjianhui-facilitation]]'
 tags:
 - audience:executor
 - scene:execution

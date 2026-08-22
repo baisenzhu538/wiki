@@ -49,6 +49,7 @@ related:
 - - - smart-medicine-cabinet-o2o-cost-structure
 - - - yt-five-step-method
 - - - yt-unit-model-three-tools
+- '[[case-smart-medicine-cabinet-business-model-validation]]'
 query_triggers:
 - src_unknown
 - src_unknown

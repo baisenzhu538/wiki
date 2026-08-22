@@ -33,6 +33,7 @@ related:
 - '[[tool-ai-skill-engineering-method]]'
 - '[[tool-yitang-18-strategy-tool-mapping]]'
 - '[[tool-半肥猫-course-to-skill-workflow]]'
+- '[[case-truman-ai-skill-engineering-guide]]'
 created_at: '2026-06-07'
 updated_at: '2026-06-28'
 pipeline:

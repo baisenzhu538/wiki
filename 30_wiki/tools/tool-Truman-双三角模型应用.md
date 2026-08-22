@@ -28,6 +28,7 @@ related:
 - '[[tool-Truman-Feature特性层训练法]]'
 - '[[tool-Truman-AI场景探索STAR模型]]'
 - '[[tool-Truman-数学题与语文题区分法]]'
+- '[[case-modeling-process-livestream-prep]]'
 tags:
 - audience:executor
 - scene:execution

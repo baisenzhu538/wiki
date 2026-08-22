@@ -35,6 +35,9 @@ related:
 - 'tool-月白-AI模型选择决策法'
 - 'dk-three-context-formula'
 - '[[bridge-panproduct-kids-translation]]'
+- '[[case-live81-ai-trademark-design]]'
+- '[[case-strategy-model-selection-quiz]]'
+- '[[case-thousand-people-square]]'
 tags:
 ---
 # 技能：AI模型选择策略

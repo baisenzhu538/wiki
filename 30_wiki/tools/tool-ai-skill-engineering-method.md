@@ -47,6 +47,7 @@ related:
 - '[[tool-yitang-18-strategy-tool-mapping]]'
 - '[[tool-半肥猫-course-to-skill-workflow]]'
 - '[[case-ai-agent-milestone-design]]'
+- '[[case-truman-ai-skill-engineering-guide]]'
 tags:
 - src_unknown
 - src_unknown

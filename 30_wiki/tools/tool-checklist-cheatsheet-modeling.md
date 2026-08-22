@@ -41,6 +41,7 @@ related:
 - '[[tool-清单小抄工具箱法]]'
 - '[[tool-sabc-tier-modeling]]'
 - '[[tool-scenario-selector-modeling]]'
+- '[[case-livestream-sop-modeling]]'
 tags:
 - src_unknown
 - src_unknown

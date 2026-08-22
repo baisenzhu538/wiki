@@ -34,6 +34,7 @@ related:
 - '[[tool-open-closed-problem-classifier]]'
 - '[[agent-spec-codex-teammate]]'
 - '[[tool-Truman-复杂项目AI落地稳定性保障]]'
+- '[[case-modeling-process-livestream-prep]]'
 tags:
 - audience:executor
 - scene:execution

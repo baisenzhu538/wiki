@@ -40,6 +40,7 @@ related:
   - framework-yitang-project-retrospective
   - framework-leadership-five-ladders
   - '[[bridge-meeting-leadership-coaching]]'
+  - '[[case-meeting-scene-mastery]]'
 quality_labels: [actionable, quotable, validated]
 tags:
   - audience:general

@@ -32,6 +32,7 @@ related:
 - '[[dk-truman-iteration-to-aesthetic-ceiling]]'
 - '[[dk-ai-judgment-programmer-paradox]]'
 - '[[dk-jh-llm-time-blindness]]'
+- '[[case-opc-128-directions]]'
 tags:
 - audience:executor
 - scene:reference

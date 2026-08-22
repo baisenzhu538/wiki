@@ -34,6 +34,7 @@ related:
   - management-domain-digest
   - framework-how-to-know-a-person
   - '[[case-leadership-communication-failures]]'
+  - '[[case-morfei-semiconductor]]'
 tags:
 - audience:executor
 - scene:execution

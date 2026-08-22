@@ -47,6 +47,7 @@ related:
 - '[[tool-agent-spec-yitang-self-motivation]]'
 - '[[framework-一堂-动力三曲线]]'
 - '[[framework-一堂-转化率提升六步法]]'
+- '[[case-opc-agent-wave1-real-model-testing]]'
 created_at: 2026-07-02
 updated_at: '2026-06-29'
 tcp_role: R

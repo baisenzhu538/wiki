@@ -31,6 +31,12 @@ related:
 - '[[case-lean-adult-education]]'
 - '[[case-lean-combination-test-paradigm]]'
 - '[[case-lean-crayfish-combo-test]]'
+- '[[case-lean-gray-test-paradigm]]'
+- '[[case-lean-radish-channel-selection]]'
+- '[[case-lean-shampoo-selling-points]]'
+- '[[case-lean-zhanglei-failure-counterfactual]]'
+- '[[case-lean-zhanglei-hypothesis-validation]]'
+- '[[case-lean-zhanglei-pivot-decision]]'
 updated_at: '2026-06-30'
 tags:
 - audience:manager

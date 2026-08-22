@@ -30,6 +30,7 @@ related:
 - '[[tool-lean-ai-accelerated-validation]]'
 - '[[tool-lean-human-replace-rnd]]'
 - '[[tool-lean-presell]]'
+- '[[case-lean-premature-refinement]]'
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 tags:

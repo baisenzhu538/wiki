@@ -40,6 +40,7 @@ related:
 - '[[concept-wanghuan-adversarial-generation]]'
 - '[[tool-opc-sales-dialogue-assistant]]'
 - '[[case-bmw-human-ai-collaboration-idle-time]]'
+- '[[case-opc-agent-wave1-real-model-testing]]'
 tags:
 - audience:manager
 - scene:reference

@@ -38,6 +38,7 @@ related:
 - '[[tool-使用优先级快筛卡锁定核心矛盾]]'
 - '[[tool-设计对抗效果追踪看板]]'
 - tool-ai-prd-for-ai
+- '[[case-strategy-model-selection-quiz]]'
 tags:
 - audience:executor
 - scene:execution

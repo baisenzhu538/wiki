@@ -25,6 +25,7 @@ related:
   - tool-快招品牌总部模拟调研
   - case-strategy-exit-sell
   - case-strategy-exit-remove
+  - '[[case-truman-ai-skill-self-packaging]]'
 ---
 **背景**：M品牌（示例中的零食/零售品牌）在"盈利模式"模块中，用多列对比表展示直营、强类直营、弱类直营、代理加盟四种扩张模式。
 

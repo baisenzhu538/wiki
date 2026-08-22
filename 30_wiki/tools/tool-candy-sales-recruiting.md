@@ -38,6 +38,7 @@ related:
 - '[[framework-sales-funnel-full]]'
 - '[[dk-sales-big-deal-vs-small-deal]]'
 - '[[dk-ai-collaboration-degradation-spiral]]'
+- '[[case-leo-lubricant-dealer-research]]'
 tags:
 - audience:manager
 - scene:execution

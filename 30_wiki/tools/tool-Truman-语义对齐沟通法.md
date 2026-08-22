@@ -29,6 +29,8 @@ related:
 - '[[tool-Truman-问题定义澄清法]]'
 - '[[tool-Truman-职场异步协作提问法]]'
 - '[[tool-Truman-AI时代提示词优化法]]'
+- '[[case-strategy-failure-05-it]]'
+- '[[case-strategy-snack-export-opportunity]]'
 tags:
 - audience:executor
 - scene:execution

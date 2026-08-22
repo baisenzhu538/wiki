@@ -27,6 +27,13 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+- '[[case-strategy-failure-05-it]]'
+- '[[case-strategy-failure-06-phone-n]]'
+- '[[case-strategy-failure-07-phone-l]]'
+- '[[case-strategy-failure-08-video]]'
+- '[[case-strategy-fangte-disney]]'
+- '[[case-strategy-retailer-activity-scope]]'
+- '[[case-strategy-walmart-vs-costco-pyramid]]'
 definition_of_done:
 - src_unknown
 - src_unknown

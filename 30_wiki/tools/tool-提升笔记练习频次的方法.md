@@ -39,6 +39,7 @@ related:
 - '[[tool-用topdown方式整理内化笔记]]'
 - '[[tool-demand-assessment-triangle]]'
 - tool-ai-prd-for-ai
+- '[[case-strategy-model-selection-quiz]]'
 tags:
 - audience:executor
 - scene:execution

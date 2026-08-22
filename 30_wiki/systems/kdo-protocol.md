@@ -16,6 +16,7 @@ related:
 - '[[kdo-protocol]]'
 - '[[index]]'
 - '[[business-research-skill-oscar-13-weapon-system]]'
+- '[[case-toc-content-platform-correlation-trap]]'
 tags:
 - audience:manager
 - scene:reference

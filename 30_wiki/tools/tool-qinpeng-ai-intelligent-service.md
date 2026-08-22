@@ -33,6 +33,7 @@ related:
 - tool-马易-AI落地场景识别与拆分
 - ai-landing-scene-selection
 - '[[case-english-teacher-ai-agent]]'
+- '[[case-qinpeng-hardware-ai-amplification]]'
 created_at: 2026-08-02
 updated_at: 2026-08-02
 quality_labels: cited

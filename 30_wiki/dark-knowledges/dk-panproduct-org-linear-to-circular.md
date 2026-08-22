@@ -41,6 +41,7 @@ related:
 - '[[framework-lean-abcd-model]]'
 - '[[framework-ai-accelerated-strategy-cycle]]'
 - '[[framework-yitang-growth-flywheel]]'
+- '[[case-panproduct-lanyi-intern-flywheel]]'
 review_date: '2026-06-28'
 tags:
 - audience:manager

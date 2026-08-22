@@ -34,6 +34,7 @@ related:
 - 'tool-月白-AI图片印刷落地预处理'
 - 'tool-月白-AI对话情绪管理法'
 - 'dk-three-context-formula'
+- '[[case-strategy-snack-export-opportunity]]'
 tags:
 ---
 # 技能：供应商信息对齐清单法

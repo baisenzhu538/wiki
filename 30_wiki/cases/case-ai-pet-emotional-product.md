@@ -31,6 +31,7 @@ related:
 - tool-narrative-thinking-user-insight
 - framework-how-to-know-a-person
 - framework-christensen-disruptive-innovation
+- '[[case-shuishui-business-insight]]'
 tags:
 - method:product-design
 - method:user-insight

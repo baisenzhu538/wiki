@@ -45,6 +45,7 @@ related:
 - '[[tool-ai-problem-question-check]]'
 - dk-ai-builder-illusion
 - '[[case-design-principles-90]]'
+- '[[case-opc-128-directions]]'
 tags:
 - audience:executor
 - scene:execution

@@ -31,6 +31,7 @@ related:
 - tool-agent-spec-yitang-Y-model-coach - dk-agent-promise-verification
 - '[[case-apple-card-gender-bias]]'
 - '[[case-kdo-agent-factory-dual-triangle-practice]]'
+- '[[case-roblox-ai-npc-education]]'
 tags:
 - audience:manager
 - scene:reference

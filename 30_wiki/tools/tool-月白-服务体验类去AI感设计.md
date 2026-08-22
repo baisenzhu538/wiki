@@ -34,6 +34,7 @@ related:
 - 'tool-月白-AI图片印刷落地预处理'
 - 'tool-月白-AI对话情绪管理法'
 - 'dk-three-context-formula'
+- '[[case-strategy-shell-oil]]'
 tags:
 ---
 # 技能：服务体验类去AI感设计

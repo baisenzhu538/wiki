@@ -35,6 +35,9 @@ related:
 - '[[case-4000-titles-ten-strategies]]'
 - '[[case-ai-learning-series-modeling]]'
 - '[[case-design-principles-90]]'
+- '[[case-leo-lubricant-dealer-research]]'
+- '[[case-opc-128-directions]]'
+- '[[case-shuishui-business-insight]]'
 tags:
 - method:cross-domain
 - method:business-strategy
