@@ -41,6 +41,7 @@ related:
 - tool-ai-prd-for-ai
 - '[[case-strategy-model-selection-quiz]]'
 - '[[concept-提升笔记阅读舒适度]]'
+- '[[yt-demand-quantitative-estimation]]'
 tags:
 - audience:executor
 - scene:execution

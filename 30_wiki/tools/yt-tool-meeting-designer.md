@@ -39,6 +39,7 @@ related:
 - '[[tool-note-layer-constraint]]'
 - '[[tool-yitang-project-kickoff-meeting]]'
 - '[[tool-yitang-project-plan-canvas]]'
+- '[[yt-tool-ai-ppt-maker]]'
 contradicts: null
 query_triggers:
 - src_unknown

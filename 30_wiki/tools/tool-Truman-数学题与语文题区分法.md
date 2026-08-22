@@ -34,6 +34,7 @@ related:
 - '[[tool-Truman-复杂项目AI落地稳定性保障]]'
 - '[[tool-Truman-多Agent通信协作方案]]'
 - '[[tool-Truman-知识库最佳实践构建]]'
+- '[[yt-tob-customer-sabc]]'
 tags:
 - audience:executor
 - scene:execution

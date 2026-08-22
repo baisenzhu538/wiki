@@ -40,6 +40,7 @@ related:
 - '[[yt-note-problem-solving-capability]]'
 - '[[tool-ai-skill-engineering-method]]'
 - '[[tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]'
+- '[[yt-product-kernel-mvp-design]]'
 tags:
 ---
 # 技能：设计能力蒸馏封装法

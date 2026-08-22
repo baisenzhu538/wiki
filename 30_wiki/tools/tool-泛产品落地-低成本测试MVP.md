@@ -32,6 +32,7 @@ related:
 - concept-X型Y型决策习惯
 - concept-发现决策
 - '[[yt-product-kernel-hypothesis-test]]'
+- '[[yt-growth-a-b-testing]]'
 updated_at: '2026-06-29'
 tags:
 - audience:executor

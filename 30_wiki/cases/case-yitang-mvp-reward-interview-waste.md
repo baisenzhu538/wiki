@@ -31,6 +31,7 @@ related:
 - '[[pending_unknown]]'
 - case-opc-agent-wave1-real-model-testing
 - '[[dk-yb1-aigc-mvp-before-ps]]'
+- '[[yt-product-kernel-mvp-design]]'
 updated_at: '2026-06-29'
 tags:
 - audience:general

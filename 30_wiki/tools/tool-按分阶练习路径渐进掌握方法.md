@@ -40,6 +40,7 @@ related:
 - tool-ai-prd-for-ai
 - '[[case-strategy-model-selection-quiz]]'
 - '[[system-yitang-research-workflow]]'
+- '[[yt-demand-quantitative-estimation]]'
 tags:
 - audience:executor
 - scene:execution

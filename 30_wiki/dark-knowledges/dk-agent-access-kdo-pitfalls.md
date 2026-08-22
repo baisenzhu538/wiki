@@ -45,6 +45,7 @@ related:
 - '[[case-252-quality-gate-pilot]]'
 - '[[case-duanwangye-self-iteration-closed-loop]]'
 - '[[dk-publish-collapse-to-iterate]]'
+- '[[workflow-kdo-agent-production-pipeline]]'
 created_at: 2026-08-09
 updated_at: 2026-08-16
 tags:

@@ -37,6 +37,7 @@ related:
 - '[[yt-product-kernel-aesthetic]]'
 - '[[yt-product-kernel-boundary]]'
 - '[[yt-product-kernel-evolution]]'
+- '[[yt-tob-customer-sabc]]'
 diagnostic_signals:
 - framework_lens: 洗发水案例——内核是价值，不是功能
   follow_up_question: AI功能解决了用户什么问题？用户愿意为这个'问题解决'付费吗？

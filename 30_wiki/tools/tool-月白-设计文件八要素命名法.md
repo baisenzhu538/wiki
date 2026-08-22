@@ -45,6 +45,7 @@ related:
 - '[[case-纪浩-focus-prompt-design]]'
 - '[[aigc文创案例设计课leo文创ip从0到1全流程]]'
 - '[[yt-growth-user-onboarding]]'
+- '[[yt-product-kernel-mvp-design]]'
 tags:
 - audience:executor
 - scene:execution

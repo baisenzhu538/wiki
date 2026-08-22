@@ -34,6 +34,9 @@ related:
 - concept-发现决策
 - '[[case-strategy-model-selection-quiz]]'
 - '[[modeling-personal-practice-loop]]'
+- '[[yt-business-model-canvas]]'
+- '[[yt-demand-segmentation-canvas]]'
+- '[[yt-product-kernel-canvas]]'
 updated_at: '2026-06-29'
 tags:
 - audience:executor

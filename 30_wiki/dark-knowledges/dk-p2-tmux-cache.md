@@ -30,6 +30,7 @@ related:
 - '[[dk-c11-hongqigong-skip-review]]'
 - '[[dk-p8-toolkit-forget]]'
 - '[[yt-business-model-unit-economics]]'
+- '[[yt-business-model-cac-ltv]]'
 pipeline:
 - src_unknown
 - src_unknown

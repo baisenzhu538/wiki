@@ -49,6 +49,7 @@ related:
 - '[[dk-yb6-midjourney-chinese-text-fix]]'
 - '[[model-quality-four-levels]]'
 - '[[yt-business-model-channel-economics]]'
+- '[[yt-demand-quantitative-estimation]]'
 tags:
 - audience:executor
 - scene:execution

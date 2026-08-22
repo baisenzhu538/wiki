@@ -36,6 +36,7 @@ related:
 - 'tool-月白-AI模型选择决策法'
 - 'dk-three-context-formula'
 - '[[yt-product-kernel-hypothesis-test]]'
+- '[[yt-growth-a-b-testing]]'
 tags:
 ---
 # 技能：模型识别与边界测试法

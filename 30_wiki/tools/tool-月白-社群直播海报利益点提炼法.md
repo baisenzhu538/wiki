@@ -35,6 +35,7 @@ related:
 - 'tool-月白-AIGC餐饮海报优化一抽流'
 - 'dk-aesthetic-redline-doc'
 - '[[yt-tool-mental-model-refinement]]'
+- '[[tool-费曼简单提炼法]]'
 tags:
 ---
 # 技能：社群直播海报利益点提炼法

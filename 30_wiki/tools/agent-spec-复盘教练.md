@@ -34,6 +34,7 @@ related:
   - '[[framework-truman-feature-thinking-core]]'
   - '[[agent-spec-basic-skills-coach]]'
   - '[[agent-spec-coaching-leadership-assistant]]'
+  - '[[workflow-kdo-agent-production-pipeline]]'
 tags:
   - method:agent-spec
   - method:coaching

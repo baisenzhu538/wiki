@@ -40,6 +40,8 @@ related:
 - '[[dk-yb1-aigc-mvp-before-ps]]'
 - '[[tool-strategy-blue-ocean-canvas]]'
 - '[[tool-strategy-industry-chain-analysis]]'
+- '[[yt-demand-segmentation-canvas]]'
+- '[[yt-product-kernel-canvas]]'
 tags:
 ---
 # 技能：设计师AI工具习惯切换

@@ -28,6 +28,7 @@ related:
 - '[[dk-meeting-borrow-false-repair-true]]'
 - '[[framework-truman-agent-team-architecture]]'
 - '[[tool-skill-packaging-eight-steps]]'
+- '[[workflow-kdo-agent-production-pipeline]]'
 tags:
 - audience:executor
 - scene:execution

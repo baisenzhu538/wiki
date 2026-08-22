@@ -36,6 +36,8 @@ related:
 - 'tool-月白-AI对话情绪管理法'
 - 'dk-three-context-formula'
 - '[[yt-business-model-scalability]]'
+- '[[tool-纪浩-项目启动五问法]]'
+- '[[yt-demand-quantitative-estimation]]'
 tags:
 ---
 # 技能：AI质价比评估方法

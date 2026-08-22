@@ -34,6 +34,7 @@ related:
 - case-panproduct-top135-selection-polish
 - '[[case-smart-medicine-cabinet-business-model-validation]]'
 - '[[product-business-strategy]]'
+- '[[yt-growth-channel-roi]]'
 updated_at: '2026-06-29'
 tags:
 - audience:executor

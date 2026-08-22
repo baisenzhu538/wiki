@@ -31,6 +31,7 @@ related:
 - '[[yt-demand-hierarchy-model]]'
 - '[[yt-demand-qualitative-analysis]]'
 - '[[yt-demand-insight-extraction]]'
+- '[[yt-demand-level-assessment]]'
 diagnostic_signals:
 - framework_lens: AI知识库案例——技术驱动≠需求驱动
   follow_up_question: 用户现在怎么管理知识？AI知识库比现有方案好在哪里？

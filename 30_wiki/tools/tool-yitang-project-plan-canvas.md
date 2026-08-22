@@ -40,6 +40,7 @@ related:
 - '[[tool-yitang-project-cost-estimation]]'
 - '[[tool-yitang-project-proposal-checklist]]'
 - '[[tool-yitang-retrospective-canvas]]'
+- '[[workflow-yitang-project-four-step-loop]]'
 tags:
 - audience:executor
 - scene:execution

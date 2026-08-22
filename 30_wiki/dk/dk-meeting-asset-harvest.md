@@ -34,6 +34,7 @@ related:
   - framework-meeting-ten-principles
   - tool-leadership-questioning-cards
   - '[[case-yitang-2022-annual-lessons]]'
+  - '[[tool-项目复盘基本功]]'
 quality_labels: [insight, actionable, quotable, cited]
 tags:
   - audience:general

@@ -44,6 +44,7 @@ related:
 - '[[master-moc]]'
 - '[[framework-kdo-self-attack]]'
 - '[[ai-basic-domain-digest]]'
+- '[[workflow-kdo-agent-production-pipeline]]'
 ---
 
 # KDO 质量体系：双三角落地

@@ -34,6 +34,7 @@ related:
 - '[[dk-p16-validate-reads-state-json]]'
 - '[[dk-f3-state-json-race-condition]]'
 - '[[yt-business-model-unit-economics]]'
+- '[[yt-business-model-cac-ltv]]'
 pipeline:
 - src_unknown
 - src_unknown

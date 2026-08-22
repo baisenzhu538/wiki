@@ -38,6 +38,7 @@ related:
 - '[[agent-spec-meeting-assistant]]'
 - '[[agent-spec-research-explosion-partner]]'
 - '[[tool-ai-agent-feature-comparison]]'
+- '[[workflow-kdo-agent-production-pipeline]]'
 tags:
 - method:agent-spec
 - method:coaching

@@ -40,6 +40,10 @@ related:
 - '[[concept-strategy-2024-2026-supplement]]'
 - '[[dk-research-decision-first-mapping]]'
 - '[[yt-business-model-scalability]]'
+- '[[yt-business-model-canvas]]'
+- '[[yt-demand-segmentation-canvas]]'
+- '[[yt-growth-channel-roi]]'
+- '[[yt-product-kernel-canvas]]'
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 tags:

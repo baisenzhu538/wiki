@@ -36,6 +36,8 @@ related:
 - '[[dk-infrastructure-guardrails-over-checklist]]'
 - '[[dk-modeling-ai-self-retrospection]]'
 - '[[sk-ai-old-small-checklist]]'
+- '[[yt-demand-segmentation-canvas]]'
+- '[[yt-product-kernel-canvas]]'
 definition_of_done:
 - src_unknown
 - src_unknown

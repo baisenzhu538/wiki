@@ -35,6 +35,7 @@ related:
 - 'tool-月白-AI图片印刷落地预处理'
 - 'tool-月白-AI对话情绪管理法'
 - 'dk-three-context-formula'
+- '[[tool-纪浩-项目启动五问法]]'
 tags:
 ---
 # 技能：AI智价比评估决策

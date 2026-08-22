@@ -40,6 +40,8 @@ related:
 - '[[concept-wanghuan-ai-native-definition]]'
 - '[[yt-decision-depth-ladder]]'
 - '[[yt-decision-width-method]]'
+- '[[yt-demand-segmentation-canvas]]'
+- '[[yt-product-kernel-canvas]]'
 tags:
 - audience:executor
 - scene:execution

@@ -426,6 +426,8 @@ related:
 - '[[tool-科学学习IPO完整清单]]'
 - '[[tool-科学提问刻意练习]]'
 - '[[tool-稀缺资源清单]]'
+- '[[tool-讲香十指模型-超级武器库]]'
+- '[[tool-项目方案评估三角形]]'
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 source_refs:

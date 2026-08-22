@@ -34,6 +34,7 @@ related:
 - '[[framework-kdo-modeling-methodology]]'
 - '[[dk-c5-todo-false-positive]]'
 - '[[kdo-moc]]'
+- '[[workflow-kdo-agent-production-pipeline]]'
 created_at: 2026-08-04
 updated_at: 2026-08-04
 review_date: 2026-08-04

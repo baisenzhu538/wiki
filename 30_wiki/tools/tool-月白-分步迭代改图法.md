@@ -35,6 +35,7 @@ related:
 - 'tool-月白-AI一句话改图尺寸'
 - 'tool-月白-AI图生图尺寸快速转换'
 - 'dk-three-context-formula'
+- '[[tool-纪浩-问题导向备课法]]'
 tags:
 ---
 # 技能：分步迭代改图法

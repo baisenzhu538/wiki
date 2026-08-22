@@ -35,6 +35,7 @@ related:
 - 'tool-月白-AI对话情绪管理法'
 - 'dk-three-context-formula'
 - '[[dk-yb19-visual-strategy-price-match]]'
+- '[[yt-tob-customer-sabc]]'
 tags:
 ---
 # 技能：普通人AI设计80分法则

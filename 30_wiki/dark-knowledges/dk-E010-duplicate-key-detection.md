@@ -38,6 +38,7 @@ related:
 - '[[master-moc]]'
 - '[[tool-kdo-help]]'
 - '[[tool-mcp-reachability-check]]'
+- '[[workflow-cross-agent-fact-dispute]]'
 created_at: 2026-08-04
 updated_at: 2026-08-04
 review_date: 2026-08-04

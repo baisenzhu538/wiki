@@ -88,6 +88,7 @@ related:
 - '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
 - '[[yt-growth-user-onboarding]]'
 - '[[dk-yitang-business-formula-plus-times-trap]]'
+- '[[yt-product-kernel-mvp-design]]'
 tags:
 - audience:executor
 - scene:execution

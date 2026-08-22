@@ -56,6 +56,7 @@ related:
 - '[[concept-kdo-feature-registry]]'
 - '[[ai-basic-domain-digest]]'
 - '[[system-kdo-quality-framework]]'
+- '[[workflow-kdo-agent-production-pipeline]]'
 ---
 
 # KDO 主题域 MOC

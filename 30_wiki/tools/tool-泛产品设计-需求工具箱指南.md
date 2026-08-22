@@ -41,6 +41,8 @@ related:
 - '[[yt-decision-width-method]]'
 - '[[yt-growth-user-onboarding]]'
 - '[[tool-泛产品设计-出牌指南]]'
+- '[[yt-demand-segmentation-canvas]]'
+- '[[yt-product-kernel-canvas]]'
 updated_at: '2026-06-29'
 tags:
 - audience:executor

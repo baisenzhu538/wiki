@@ -35,6 +35,7 @@ related:
 - 'tool-月白-AIGC餐饮海报优化一抽流'
 - 'dk-aesthetic-redline-doc'
 - '[[yt-product-kernel-hypothesis-test]]'
+- '[[yt-growth-a-b-testing]]'
 tags:
 ---
 # 技能：餐饮海报AB测试法

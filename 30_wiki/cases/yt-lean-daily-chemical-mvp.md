@@ -49,6 +49,7 @@ related:
 - '[[yt-lean-false-model-ai]]'
 - '[[yt-lean-growth-stage-gate]]'
 - '[[yt-lean-qualitative-quantitative-research]]'
+- '[[yt-product-kernel-mvp-design]]'
 wiki_refs:
 - src_unknown
 - src_unknown

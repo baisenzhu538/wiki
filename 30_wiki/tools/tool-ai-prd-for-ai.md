@@ -138,6 +138,7 @@ related:
 - '[[tool-设计对抗效果追踪看板]]'
 - '[[case-truman-prd-checklist-evolution]]'
 - '[[sk-ai-prd-for-ai]]'
+- '[[tool-讲香十指模型-超级武器库]]'
 tags:
 - audience:executor
 - scene:execution

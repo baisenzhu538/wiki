@@ -31,6 +31,7 @@ related:
 - '[[dk-delivery-path-type-bug]]'
 - '[[dk-E010-duplicate-key-detection]]'
 - '[[dk-P42-agent-fact-check-gap]]'
+- '[[workflow-cross-agent-fact-dispute]]'
 pipeline:
 - src_unknown
 - src_unknown
