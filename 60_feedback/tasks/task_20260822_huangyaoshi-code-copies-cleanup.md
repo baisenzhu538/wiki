@@ -37,6 +37,43 @@ W3 核实（w3-verification.md）的 4 处字节级副本：`40_outputs/code/scr
 
 ---
 
+## 执行报告（#414 黄药师 · 2026-08-22 · 终审 FAIL 补件）
+
+### 1. md5 全库对比输出原文（0 副本）
+
+```
+命令: python 全扩展名(.py/.yaml/.yml/.json/.cjs/.js/.cmd/.ps1/.bat) md5 对比 40_outputs/code/scripts/ vs kdo-tools/
+输出: 字节级副本残留: 0 ✅ 0 处
+```
+
+### 2. 引用方清单（处置 + 改指记录）
+
+| 引用方 | 处置 |
+|:--|:--|
+| 计划任务 wechat-link-monitor | 已指 kdo-tools/（无需改） |
+| .claude/skills/wechat-serendipity-collect/SKILL.md | 已指 kdo-tools/（无需改） |
+| 40_outputs/code/scripts/README.md | 4 条目指针化（🔗 活代码单一真相源，#359 模式） |
+| cap_hub/features.json | source 字段改指 kdo-tools/ |
+| wechat-serendipity-collect-guide.md L51/L53 | 改指 kdo-tools/（终审 P1-1 补） |
+| 30_wiki/tools/tool-author-targeted-collect.md L31/32 | 改指 kdo-tools/（终审 P1-1 补） |
+| 30_wiki/tools/tool-kdo-wechat-serendipity-collect.md L45 | 改指 kdo-tools/（终审 P1-1 补） |
+
+全库 grep 残留验证：修复前 5 处 → 修复后 0（Grep 工具 + 后台全库 grep 双向确认）。
+
+### 3. W7 边界句落位（终审 P1-2 补）
+
+- 操作层：wechat-serendipity-collect-guide.md L124 已加「素材边界（W7 拍板 2026-08-22）：公开课内容可自由使用，唯一边界 = 不得打着一堂名义进行商业活动。」
+- 原则层：charter L97 已有（会诊产物）
+- 顶层文档：proj_20260816_wechat-collect-顶层文档.md 已加
+
+### 4. 复审对照（欧阳锋 FAIL 清单逐项）
+
+- ✅ P1-1 死引用：guide L51/L53 + 2 张工具卡 3 处全部改指，全库 grep 0 残留
+- ✅ P1-2 W7 边界句：guide（操作层）已落
+- ✅ 本报告节（md5 原文 + 引用方清单）
+
+*黄药师 · 2026-08-22*
+
 ## 追加（2026-08-22 王语嫣）：W7 素材来源边界句落操作层
 
 > 来源：风清扬编排审计待修①，decisions.md 勘误。W7 拍板（老朱 08-22）：公开课内容可自由使用，**唯一边界=不得打着一堂名义进行商业活动**；不建登记册。

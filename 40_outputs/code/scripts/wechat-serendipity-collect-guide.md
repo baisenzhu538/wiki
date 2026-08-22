@@ -48,9 +48,9 @@
 
 | 组件 | 路径 | 作用 |
 |:--|:--|:--|
-| 监控脚本 | `40_outputs/code/scripts/wechat_link_monitor.py`（源：`kdo-tools/`） | 全链路主控：解密→提取→解析→下载→转写→知识化 |
+| 监控脚本 | `kdo-tools/wechat_link_monitor.py` | 全链路主控：解密→提取→解析→下载→转写→知识化 |
 | 知识化脚本 | `40_outputs/code/scripts/wechat_knowledge.py` | LLM 三层次总结（DeepSeek v4-flash），覆盖保护+跳过已知识化+NO_PROXY |
-| 定向采集 CLI | `40_outputs/code/scripts/collect_wechat.py` | 方式二博主定向（--author）+ 本地导入（--import-local） |
+| 定向采集 CLI | `kdo-tools/collect_wechat.py` | 方式二博主定向（--author）+ 本地导入（--import-local） |
 | Cookie 提取 | `40_outputs/code/scripts/yuanbao_cookie_extract.py` | CDP 从已登录元宝页面提取全量 Cookie（过期后重建） |
 | 解析服务 | `C:\Users\Administrator\tools\wx_channels_download_bin\wx_video_download.exe`（ltaoo v260817） | 本地 API 127.0.0.1:2022：parse_sph（链接→直链）+ MCP（fetch_content/download_content 自动解密） |
 | 微信解密 | `C:\Users\Administrator\wechat-decrypt\`（段王爷资产复用） | SQLCipher 4 数据库解密（passphrase + PBKDF2） |
@@ -120,6 +120,8 @@ ls 00_inbox/wechat-collect/ 00_inbox/wechat-collect/knowledge/
 ---
 
 ## 五、边界与已知限制（诚实清单）
+
+> **素材边界（W7 拍板 2026-08-22）**：公开课内容可自由使用，唯一边界 = 不得打着一堂名义进行商业活动。
 
 | 场景 | 可用性 | 说明 |
 |:--|:--|:--|

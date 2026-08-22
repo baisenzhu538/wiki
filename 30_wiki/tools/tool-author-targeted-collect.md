@@ -28,8 +28,8 @@ author: 黄药师
 reviewed_by: 待审
 source_refs:
 - 40_outputs/capabilities/skills/author-targeted-collect/SKILL.md
-- 40_outputs/code/scripts/douyin_user_videos.py
-- 40_outputs/code/scripts/douyin_cookie_extract.py
+- kdo-tools/douyin_user_videos.py
+- kdo-tools/douyin_cookie_extract.py
 - 70_product/projects/proj_20260816_wechat-collect-顶层文档.md
 related:
 - tool-kdo-wechat-serendipity-collect

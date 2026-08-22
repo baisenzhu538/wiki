@@ -42,7 +42,7 @@ reviewed_by: 待审
 source_refs:
 - 70_product/projects/proj_20260816_wechat-collect-顶层文档.md
 - 40_outputs/code/scripts/wechat-serendipity-collect-guide.md
-- 40_outputs/code/scripts/wechat_link_monitor.py
+- kdo-tools/wechat_link_monitor.py
 - 40_outputs/code/scripts/wechat_knowledge.py
 - 40_outputs/code/scripts/yuanbao_cookie_extract.py
 related:
