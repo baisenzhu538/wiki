@@ -43,6 +43,13 @@ related:
 - '[[case-yitang-2022-annual-lessons]]'
 - '[[case-yitang-leo-website-redesign]]'
 - '[[case-千惠供应链复盘]]'
+- '[[dk-yitang-project-overmanagement-vs-bare-run]]'
+- '[[dk-meeting-pressure-ignition]]'
+- '[[dk-meeting-principle-over-process]]'
+- '[[dk-meeting-roi-first]]'
+- '[[retrospective-moc]]'
+- '[[framework-meeting-iceberg-canvas]]'
+- '[[framework-一堂-团队复盘四阶段12策略]]'
 tags:
 - audience:manager
 - scene:planning

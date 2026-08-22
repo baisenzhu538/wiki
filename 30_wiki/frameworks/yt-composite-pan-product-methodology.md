@@ -51,6 +51,9 @@ related:
 - '[[yt-model-pan-product-demand-toolkit]]'
 - '[[yt-model-pan-product-execution-toolkit]]'
 - '[[yt-note-checklist-concept]]'
+- '[[dk-panproduct-org-serve-the-lowest]]'
+- '[[design-moc]]'
+- '[[product-moc]]'
 review_date: '2026-06-28'
 tags:
 - audience:ceo

@@ -32,6 +32,13 @@ related:
 - '[[case-leo-lubricant-dealer-research]]'
 - '[[concept-yitang-research-objective]]'
 - '[[concept-yitang-research-scope]]'
+- '[[dk-research-important-things-must-do]]'
+- '[[plan_20260621_skill-iteration-standard]]'
+- '[[framework-fact-rule-insight]]'
+- '[[framework-lemon-market-new-brand-trust]]'
+- '[[framework-yitang-research-quality-gate]]'
+- '[[framework-yitang-research-radar]]'
+- '[[framework-yitang-six-layer-cross-validation]]'
 discoverable_by:
 - OSCAR调研模型
 - 目标锁定到正确归因

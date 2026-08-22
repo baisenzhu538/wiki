@@ -44,6 +44,9 @@ related:
 - '[[framework-business-formula-y-model-bridge]]'
 - '[[concept-meta-skill-layering]]'
 - '[[dk-ai-self-evolution-prompt]]'
+- '[[dk-y-model-communication]]'
+- '[[framework-coaching-leadership-core]]'
+- '[[framework-leadership-five-ladders]]'
 created_at: 2026-07-08
 updated_at: 2026-07-08 17:28:16+00:00
 tags:

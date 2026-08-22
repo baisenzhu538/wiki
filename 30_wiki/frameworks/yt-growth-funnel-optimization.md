@@ -24,6 +24,8 @@ related:
 - '[[yt-growth-acquisition-channels]]'
 - '[[yt-growth-activation-rate]]'
 - '[[yt-growth-growth-hacking]]'
+- '[[yt-growth-scaling-pitfalls]]'
+- '[[framework-sales-funnel-full]]'
 diagnostic_signals:
 - framework_lens: 漏斗优化——流量多≠转化高，需要分析漏斗每个环节
   follow_up_question: 你的漏斗每个环节的转化率是多少？哪个环节流失最多？

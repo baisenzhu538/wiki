@@ -43,6 +43,12 @@ related:
 - '[[bridge-how-to-know-person-to-business]]'
 - 'framework-knowledge-naming-systems-comparison'
 - '[[concept-ai-style-knowledge-docs]]'
+- '[[dk-collection-vs-assets]]'
+- '[[dk-future-backward-knowledge-tree]]'
+- '[[dk-tool-adoption-by-force]]'
+- '[[framework-lemon-market-new-brand-trust]]'
+- '[[framework-multi-agent-collab-chain-six]]'
+- '[[framework-patrolkit-radar]]'
 review_date: 2026-08-16
 ---
 

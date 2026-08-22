@@ -38,6 +38,9 @@ related:
 - '[[concept-一堂-黑盒到白盒]]'
 - '[[framework-decision-quality-checklist]]'
 - '[[case-yitang-yai-scientific-decision-life-direction]]'
+- '[[dk-christensen-empirical-criticisms]]'
+- '[[framework-ai-sales-collaboration]]'
+- '[[framework-fact-rule-insight]]'
 review_date: '2026-07-12'
 updated_at: '2026-07-12'
 tags:

@@ -35,6 +35,7 @@ related:
   - '[[bridge-coaching-leadership-feature-layered]]'
   - '[[case-yitang-leadership-culture]]'
   - '[[dk-coaching-boundary-conditions]]'
+  - '[[dk-leadership-trust-coin-sensitivity]]'
 tags:
 - audience:manager
 - scene:planning

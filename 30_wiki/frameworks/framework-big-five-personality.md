@@ -34,6 +34,8 @@ related:
 - dk-agreeableness-double-edged
 - bridge-how-to-know-person-to-business
 - framework-ouyangfeng-review-methodology
+- '[[dk-narrative-choice-theory]]'
+- '[[human-insights-domain-digest]]'
 tags:
 - method:psychology
 - method:personality

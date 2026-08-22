@@ -25,6 +25,8 @@ related:
 - '[[yt-growth-acquisition-channels]]'
 - '[[yt-growth-activation-rate]]'
 - '[[yt-growth-growth-hacking]]'
+- '[[yt-growth-scaling-pitfalls]]'
+- '[[yt-business-model-to-growth]]'
 diagnostic_signals:
 - framework_lens: 增长策略总纲——商业模式成立≠增长自动发生，需要设计增长策略
   follow_up_question: 你的增长策略是什么？获客、留存、变现的优化方向分别是什么？

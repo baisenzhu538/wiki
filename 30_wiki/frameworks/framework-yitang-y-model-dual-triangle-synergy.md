@@ -52,6 +52,7 @@ related:
 - '[[case-yihang-dual-triangle-huazao-synthetic-data]]'
 - '[[case-yihang-dual-triangle-tianmo-design-delivery]]'
 - '[[concept-yihang-human-in-the-loop-dual-triangle]]'
+- '[[dk-yihang-dual-triangle-strategic-bet]]'
 discoverable_by:
 - Y模型双三角
 - 人机协作框架

@@ -36,6 +36,7 @@ related:
 - - - yt-entrepreneur-product-core
 - - - source-code-delivery-model
 - personal-growth-complex-systems
+- '[[huangyaoshi-extractor-upgrade-report]]'
 discoverable_by:
 - "餐饮渠道饮料开发"
 - "草本饮品开发框架"

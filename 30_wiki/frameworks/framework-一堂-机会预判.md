@@ -31,6 +31,8 @@ related:
 - '[[yt-foresight-probability-engineering]]'
 - '[[yt-foresight-ten-fatal-flaws]]'
 - '[[yt-three-dimension-opportunity-matrix]]'
+- '[[dk-context-patching-recipe]]'
+- '[[dk-future-backward-knowledge-tree]]'
 discoverable_by:
 - 机会预判
 - CEO预判操作系统

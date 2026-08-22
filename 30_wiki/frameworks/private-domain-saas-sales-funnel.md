@@ -40,6 +40,8 @@ related:
 - '[[七件事集团]]'
 - '[[yt-personal-scientific-expression]]'
 - '[[case-hr-saas-feature-usage-trap]]'
+- '[[dk-wanghuan-tacit-decision-extraction-cross-domain]]'
+- '[[framework-sales-funnel-full]]'
 tags:
 - audience:ceo
 - scene:diagnosis

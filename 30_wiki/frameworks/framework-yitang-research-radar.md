@@ -47,6 +47,8 @@ related:
 - tool-nine-character-mantra-14-strategies
 - concept-open-a-document
 - '[[kimi-深度调研集群方法论-deep-research-swarm]]'
+- '[[dk-p6-session-resume-fail]]'
+- '[[dk-research-scavenger-vs-architect]]'
 tags:
 - audience:ceo
 - scene:diagnosis

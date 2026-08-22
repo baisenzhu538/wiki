@@ -25,6 +25,7 @@ related:
 - framework-r-type-research-partner-five-state
 - tool-nine-character-mantra-14-strategies
 - concept-open-a-document
+- '[[dk-research-scavenger-vs-architect]]'
 discoverable_by:
 - 四类调研模型
 - 挖掘式系统式爆炸式

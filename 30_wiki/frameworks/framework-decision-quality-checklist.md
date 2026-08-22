@@ -32,6 +32,9 @@ related:
 - '[[dk-decision-value-overrides-roi]]'
 - '[[case-decision-ai-assisted-vs-human]]'
 - '[[case-decision-science-universal-salary-raise-roi]]'
+- '[[dk-decision-when-to-defer]]'
+- '[[decision-science-domain-digest]]'
+- '[[framework-科学决策三角形]]'
 discoverable_by:
 - 决策质量检查
 - 决策六问

@@ -31,6 +31,7 @@ related:
 - '[[yt-demand-b2b-vs-b2c]]'
 - '[[case-dental-clinic-formula]]'
 - '[[writing-content]]'
+- '[[dk-p11-regex-cutoff]]'
 diagnostic_signals:
 - framework_lens: 四类业务的风险结构不同，测试范式必须分层匹配
   follow_up_question: 你的业务更偏向价值理性长决策（ToB）、感性冲动快转化（ToC）、高回退成本重投入（硬件），还是内核优先的创意产品（内容）？

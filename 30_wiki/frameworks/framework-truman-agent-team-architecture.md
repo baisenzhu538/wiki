@@ -48,6 +48,8 @@ related:
 - 'agent-spec-hongqigong-multimodal'
 - 'agent-spec-ouyangfeng-reviewer'
 - '[[case-wechat-article_4dd7be7cd82f7e80]]'
+- '[[framework-patrolkit-radar]]'
+- '[[framework-serendipity-five-channels]]'
 review_date: 2026-08-16
 ---
 

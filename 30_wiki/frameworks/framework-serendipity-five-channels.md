@@ -45,6 +45,10 @@ related:
 - '[[case-cross-xingangwan-pharma]]'
 - '[[case-friend-circle-aigc-transformation]]'
 - '[[dk-aesthetic-redline-doc]]'
+- '[[dk-collection-vs-assets]]'
+- '[[dk-doc-explosion-slowdown]]'
+- '[[dk-research-saturation-quota-ai-km]]'
+- '[[framework-fact-rule-insight]]'
 review_date: 2026-08-16
 ---
 

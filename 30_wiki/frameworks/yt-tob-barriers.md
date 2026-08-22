@@ -35,6 +35,7 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+- '[[dk-tool-as-phased-validator]]'
 diagnostic_signals:
 - framework_lens: 壁垒类型选择
   follow_up_question: 客户一旦使用我们的方案，切换出去要付出多少成本？我们有没有规模效应或无形资产在持续加深护城河？

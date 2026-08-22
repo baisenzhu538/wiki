@@ -53,6 +53,12 @@ related:
 - '[[case-vibecoding-one-week-delivery]]'
 - '[[dk-ai-self-evolution-prompt]]'
 - '[[dk-anti-human-ux-is-feature]]'
+- '[[dk-context-patching-recipe]]'
+- '[[dk-doc-numbering-business-logic]]'
+- '[[dk-extract-then-merge]]'
+- '[[dk-model-demystification]]'
+- '[[dk-one-sentence-handover]]'
+- '[[dk-three-context-formula]]'
 review_date: 2026-08-16
 ---
 

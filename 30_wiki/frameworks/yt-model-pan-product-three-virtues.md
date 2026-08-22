@@ -46,6 +46,7 @@ related:
 - '[[framework-pan-product-organization]]'
 - '[[concept-pan-product-vs-traditional-management]]'
 - '[[yt-model-aesthetic-progression]]'
+- '[[dk-panproduct-org-serve-the-lowest]]'
 review_date: '2026-06-28'
 tags:
 - audience:ceo

@@ -50,6 +50,10 @@ related:
 - '[[case-zhu-foresight-timing-pattern]]'
 - '[[concept-christensen-jtbd-link]]'
 - '[[concept-qinpeng-knowledge-base-conversion]]'
+- '[[dk-emotional-value-premium]]'
+- '[[dk-christensen-empirical-criticisms]]'
+- '[[dk-disruptive-innovation-insight-vs-survey]]'
+- '[[dk-qinpeng-three-corrections]]'
 created_at: 2026-08-02
 updated_at: 2026-08-02
 quality_labels: cited

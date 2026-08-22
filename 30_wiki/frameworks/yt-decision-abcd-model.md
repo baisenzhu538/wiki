@@ -35,6 +35,7 @@ related:
 - '[[yitang-domain-digest]]'
 - '[[decision-science-domain-digest]]'
 - '[[case-yitang-panhonghai-entertainment]]'
+- '[[framework-一堂-关键假设-ABCD模型]]'
 tags:
 - audience:ceo
 - scene:diagnosis

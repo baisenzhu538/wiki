@@ -43,6 +43,8 @@ related:
   - '[[case-yitang-leadership-culture]]'
   - '[[dk-coaching-boundary-conditions]]'
   - '[[dk-coaching-monkey-theory]]'
+  - '[[dk-leadership-trust-coin-sensitivity]]'
+  - '[[dk-y-model-communication]]'
 tags:
 - audience:manager
 - scene:planning

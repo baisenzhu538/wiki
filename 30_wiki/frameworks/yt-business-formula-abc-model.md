@@ -96,6 +96,8 @@ related:
 - '[[case-yitang-xiezefeng-clothing-innovation-param]]'
 - '[[case-yitang-yewenbin-archery-business-formula]]'
 - '[[yt-foresight-deliverables-four-levels]]'
+- '[[yt-business-formula-l6-essence-formulas]]'
+- '[[dk-strategy-correlation-vs-causation-leverage]]'
 tags:
 - audience:ceo
 - scene:diagnosis

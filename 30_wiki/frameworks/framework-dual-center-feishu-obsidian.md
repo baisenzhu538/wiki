@@ -49,6 +49,12 @@ related:
 - '[[case-vibecoding-one-week-delivery]]'
 - '[[concept-ai-style-knowledge-docs]]'
 - '[[dk-anti-human-ux-is-feature]]'
+- '[[dk-model-demystification]]'
+- '[[dk-occhams-knife-tool-migration]]'
+- '[[dk-one-sentence-handover]]'
+- '[[dk-shoulu-yixia-culture]]'
+- '[[dk-three-context-formula]]'
+- '[[dk-tool-adoption-by-force]]'
 review_date: 2026-08-16
 ---
 

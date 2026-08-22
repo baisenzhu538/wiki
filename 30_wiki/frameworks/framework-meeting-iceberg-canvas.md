@@ -41,6 +41,9 @@ related:
   - framework-yitang-project-retrospective
   - tool-yitang-project-kickoff-meeting
   - tool-yitang-daily-weekly-meeting-hosting
+  - '[[dk-meeting-pressure-ignition]]'
+  - '[[dk-meeting-principle-over-process]]'
+  - '[[dk-meeting-roi-first]]'
 quality_labels: [principle, actionable, quotable]
 tags:
   - audience:general

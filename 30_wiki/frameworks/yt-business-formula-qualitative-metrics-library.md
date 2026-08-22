@@ -35,6 +35,7 @@ related:
 - '[[yt-business-formula-ten-paradigms]]'
 - '[[business-formula-domain-digest]]'
 - '[[tool-一堂-业务公式-L1L6参数分层自检]]'
+- '[[yt-business-formula-l6-essence-formulas]]'
 tags:
 - audience:ceo
 - scene:diagnosis

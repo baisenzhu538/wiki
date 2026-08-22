@@ -27,6 +27,9 @@ related:
 - '[[yt-demand-scenario-reconstruction]]'
 - '[[yt-demand-qualitative-analysis]]'
 - '[[yt-five-step-method]]'
+- '[[case-demand-b2b-enterprise-erp]]'
+- '[[dk-sales-demand-mining-is-company-task]]'
+- '[[domain-demand-analysis-index]]'
 diagnostic_signals:
 - framework_lens: ToB决策链——每个角色需求不同，必须分别分析
   follow_up_question: 决策者采购时最关注什么？ROI、合规、风险，还是效率？

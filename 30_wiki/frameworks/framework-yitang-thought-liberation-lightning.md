@@ -53,6 +53,9 @@ related:
 - '[[case-wudi-innovation-contest-value]]'
 - '[[case-yitang-4-leaps-innovation-evolution]]'
 - '[[case-zhu-foresight-timing-pattern]]'
+- '[[dk-lu-gui-lv-bu-bei-yu-wang]]'
+- '[[dk-unit-model-reverse-calc]]'
+- '[[innovation-domain-digest]]'
 diagnostic_signals:
 - signal: 创新方案执行后效果不如预期
   lens: 检查是否跳过了闪电模型的某个步骤

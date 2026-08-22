@@ -40,6 +40,7 @@ related:
 - '[[dk-ai-judgment-human-responsibility]]'
 - bridge-how-to-know-person-to-business
 - case-cross-xingangwan-pharma
+- '[[framework-ai-human-70-30-division]]'
 tags:
 - audience:executor
 - scene:execution

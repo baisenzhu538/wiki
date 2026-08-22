@@ -25,6 +25,7 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+- '[[yt-business-model-to-growth]]'
 diagnostic_signals:
 - framework_lens: 从内核到商业模式——内核是价值，商业模式是变现
   follow_up_question: 用户愿意为内核价值付多少钱？付费方式是什么？一次性还是订阅？

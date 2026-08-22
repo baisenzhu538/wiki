@@ -34,6 +34,7 @@ related:
 - '[[kdo-15-dimension-label-spec]]'
 - '[[case-apple-card-gender-bias]]'
 - '[[concept-open-source-knowledge-usage-boundary]]'
+- '[[business-formula-domain-digest]]'
 discoverable_by:
 - "业务公式卡片质量"
 - "用公式诊断知识卡"

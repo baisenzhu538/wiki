@@ -39,6 +39,9 @@ related:
   - "[[yt-product-kernel-iteration]]"
   - "[[yt-product-kernel-six-levels]]"
   - "[[yt-product-kernel-to-business-model]]"
+  - '[[yt-product-kernel-do-without-belief]]'
+  - '[[yt-product-kernel-premature-optimization]]'
+  - '[[product-moc]]'
 diagnostic_signals:
 - framework_lens: 产品内核验证——假设未验证
   follow_up_question: 你的内核假设验证过吗？用六策略中的哪一种？关键转化率是多少？

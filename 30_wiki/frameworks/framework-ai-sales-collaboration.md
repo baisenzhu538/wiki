@@ -37,6 +37,11 @@ related:
 - '[[dk-customers-hate-ai]]'
 - '[[case-4000-titles-ten-strategies]]'
 - '[[case-leo-lubricant-dealer-research]]'
+- '[[dk-research-ai-no-time-concept]]'
+- '[[dk-sales-big-deal-vs-small-deal]]'
+- '[[dk-sales-demand-mining-is-company-task]]'
+- '[[sales-domain-digest]]'
+- '[[framework-sales-funnel-full]]'
 tags:
 - audience:ceo
 - audience:manager

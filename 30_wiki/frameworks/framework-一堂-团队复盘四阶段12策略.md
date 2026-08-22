@@ -37,6 +37,7 @@ related:
   - framework-一堂-个人表达力
   - framework-yitang-project-retrospective
   - '[[case-千惠供应链复盘]]'
+  - '[[retrospective-moc]]'
 tags:
   - method:management
   - method:team-building

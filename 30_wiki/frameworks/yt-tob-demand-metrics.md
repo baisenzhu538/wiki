@@ -40,6 +40,7 @@ related:
 - '[[case-demand-b2b-enterprise-erp]]'
 - '[[yt-tob-cash-flow]]'
 - '[[yt-tob-sales-unit-model]]'
+- '[[domain-demand-analysis-index]]'
 diagnostic_signals:
 - framework_lens: 成本占有率
   follow_up_question: 该需求对应客户成本结构中的哪一项？历史占比是否稳定、是否可持续？

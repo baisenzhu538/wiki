@@ -35,6 +35,7 @@ related:
 - yt-unit-model-benchmark
 - yt-entrepreneur-unit-model
 - yt-decision-y-model
+- '[[bridge-利润-需求冰山-价值定价]]'
 discoverable_by:
 - "单元模型怎么定价格"
 - "业务公式定价"

@@ -47,6 +47,15 @@ related:
 - '[[case-new-year-insight-relay]]'
 - '[[case-vibecoding-one-week-delivery]]'
 - '[[concept-ai-style-knowledge-docs]]'
+- '[[dk-doc-explosion-slowdown]]'
+- '[[dk-doc-numbering-business-logic]]'
+- '[[dk-future-backward-knowledge-tree]]'
+- '[[dk-occhams-knife-tool-migration]]'
+- '[[dk-one-sentence-handover]]'
+- '[[dk-tool-adoption-by-force]]'
+- '[[framework-multi-agent-collab-chain-six]]'
+- '[[framework-patrolkit-radar]]'
+- '[[framework-serendipity-five-channels]]'
 review_date: 2026-08-16
 ---
 

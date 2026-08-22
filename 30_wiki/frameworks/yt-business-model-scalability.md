@@ -28,6 +28,7 @@ related:
 - '[[tool-设定管理杠杆率指标评估效率]]'
 - '[[tool-马易-AIGC项目ROI评估]]'
 - '[[tool-月白-AI质价比评估方法]]'
+- '[[yt-growth-scaling-pitfalls]]'
 diagnostic_signals:
 - framework_lens: 商业模式可规模化——单元模型成立≠可规模化
   follow_up_question: 你的获客渠道是否可规模化？每个渠道的获客上限是多少？

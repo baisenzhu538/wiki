@@ -34,6 +34,9 @@ related:
 - '[[yt-management-goal-management]]'
 - '[[case-yitang-2022-annual-lessons]]'
 - '[[case-yitang-leo-website-redesign]]'
+- '[[dk-yitang-project-overmanagement-vs-bare-run]]'
+- '[[framework-yitang-project-execution]]'
+- '[[framework-yitang-project-retrospective]]'
 tags:
 - audience:manager
 - scene:planning

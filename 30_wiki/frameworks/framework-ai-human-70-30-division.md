@@ -40,6 +40,7 @@ related:
 - '[[case-design-principles-90]]'
 - bridge-how-to-know-person-to-business
 - case-cross-xingangwan-pharma
+- '[[dk-research-important-things-must-do]]'
 tags:
 - audience:manager
 - audience:executor

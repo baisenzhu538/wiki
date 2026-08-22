@@ -44,6 +44,11 @@ related:
   - '[[case-truman-temperature-parameter]]'
   - '[[concept-yihang-dual-triangle-core]]'
   - '[[dk-ai-does-not-question-your-mistake]]'
+  - '[[concept-yihang-ai-feature-thinking]]'
+  - '[[dk-demand-feature-stacking]]'
+  - '[[dk-feature-pieces-not-recognized-as-cards]]'
+  - '[[framework-coaching-leadership-core]]'
+  - '[[framework-leadership-five-ladders]]'
 tags:
   - method:feature-thinking
   - method:architecture

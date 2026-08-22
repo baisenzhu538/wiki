@@ -56,6 +56,7 @@ related:
 - 场景落地方法分享
 - 工具使用分享
 - '[[tools-workflows]]'
+- '[[ai-native-im-multi-agent]]'
 ---
 
 # AI 方法论与工具栈：主题综合知识卡

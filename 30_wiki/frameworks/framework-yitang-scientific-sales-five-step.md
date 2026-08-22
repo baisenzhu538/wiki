@@ -62,6 +62,13 @@ related:
 - '[[case-yitang-ai-painting-commercialization]]'
 - '[[case-yitang-sales-routine-deconstruction]]'
 - '[[concept-一堂-hypothesis-driven-business-methodology]]'
+- '[[dk-sales-big-deal-vs-small-deal]]'
+- '[[dk-sales-demand-mining-is-company-task]]'
+- '[[dk-yitang-channel-exploration-traps]]'
+- '[[sales-domain-digest]]'
+- '[[framework-ai-sales-collaboration]]'
+- '[[framework-sales-funnel-full]]'
+- '[[framework-yitang-sales-target-tradeoffs]]'
 created_at: 2026-07-02
 updated_at: 2026-07-08
 tags:

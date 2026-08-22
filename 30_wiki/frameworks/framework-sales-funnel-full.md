@@ -35,6 +35,8 @@ related:
 - '[[tool-yitang-sales-process-decomposition]]'
 - '[[tool-yitang-sales-performance-management]]'
 - '[[dk-ai-collaboration-degradation-spiral]]'
+- '[[dk-sales-big-deal-vs-small-deal]]'
+- '[[sales-domain-digest]]'
 tags:
 - audience:manager
 - scene:diagnosis

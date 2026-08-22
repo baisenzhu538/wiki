@@ -41,6 +41,8 @@ related:
   - '[[case-千惠供应链复盘]]'
   - '[[case-莹莹-before-after复盘]]'
   - '[[dk-ai-self-evolution-prompt]]'
+  - '[[retrospective-moc]]'
+  - '[[framework-yitang-project-retrospective]]'
 tags:
   - method:review
   - method:learning

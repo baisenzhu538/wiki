@@ -19,6 +19,8 @@ related:
 - '[[xingangwan-pharma-business-model-calc]]'
 - '[[tool-决策深度-L4严格财务公式]]'
 - '[[tool-完整财务公式决策]]'
+- '[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]'
+- '[[xingangwan-pharma-business-model-formulas]]'
 aliases:
   - 原研药模式的转化漏斗与杠杆变量
   - 湾医药零售业务公式

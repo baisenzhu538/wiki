@@ -50,6 +50,7 @@ related:
 - '[[case-4000-titles-ten-strategies]]'
 - '[[case-ai-learning-series-modeling]]'
 - '[[case-leo-lubricant-dealer-research]]'
+- '[[dk-research-ranklist-replaces-model]]'
 tags:
 - audience:ceo
 - scene:diagnosis

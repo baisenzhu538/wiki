@@ -39,6 +39,8 @@ related:
 - '[[case-yitang-sales-routine-deconstruction]]'
 - '[[concept-cognitive-offloading-in-ai-era]]'
 - '[[concept-yitang-comfort-stretch-panic-zones]]'
+- '[[dk-yitang-deliberate-practice-common-traps]]'
+- '[[framework-yitang-three-ring-ability-focus]]'
 discoverable_by:
 - AI刻意练习闭环
 - AI练习伙伴

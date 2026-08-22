@@ -33,6 +33,8 @@ related:
 - yt-management-goal-management
 - management-domain-digest
 - '[[concept-目标管理组织四阶段]]'
+- '[[dk-目标管理四大病]]'
+- '[[dk-管控vs协同执行策略]]'
 tags:
 - audience:ceo
 - scene:diagnosis

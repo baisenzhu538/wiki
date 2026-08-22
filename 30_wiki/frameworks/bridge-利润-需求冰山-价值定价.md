@@ -36,6 +36,7 @@ related:
 - framework-利润-利润优先经营框架
 - yt-decision-y-model
 - '[[case-利润-苹果智能手机利润垄断]]'
+- '[[dk-利润-定价恐惧三段式反问]]'
 discoverable_by:
 - "需求冰山和价值定价"
 - "客户为什么愿意付高价"

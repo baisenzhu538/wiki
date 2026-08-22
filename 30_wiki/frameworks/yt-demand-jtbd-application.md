@@ -27,6 +27,10 @@ related:
 - '[[case-demand-milkshake-jtbd]]'
 - '[[case-yitang-jtbd-story-formula]]'
 - '[[pending_unknown]]'
+- '[[yt-demand-competitive-displacement]]'
+- '[[yt-demand-fake-demand-detection]]'
+- '[[domain-demand-analysis-index]]'
+- '[[yt-demand-scenario-reconstruction]]'
 diagnostic_signals:
 - framework_lens: JTBD——用户要的不是马，是更快到达目的地的方案
   follow_up_question: 用户'雇佣'这个产品是为了完成什么任务？这个任务的真正目标是什么？

@@ -42,6 +42,14 @@ related:
 - '[[case-design-principles-90]]'
 - '[[case-leo-lubricant-dealer-research]]'
 - '[[case-opc-128-directions]]'
+- '[[dk-research-classification-mece-table]]'
+- '[[dk-research-sampling-correction-three-rounds]]'
+- '[[dk-research-saturation-self-proof]]'
+- '[[dk-research-total-anchor-private-library]]'
+- '[[framework-ai-human-70-30-division]]'
+- '[[framework-ai-report-value-ladder-l1-l6]]'
+- '[[framework-yitang-oscar-research]]'
+- '[[framework-yitang-research-radar]]'
 tags:
 - audience:manager
 - audience:executor

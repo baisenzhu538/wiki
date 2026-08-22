@@ -29,6 +29,7 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+- '[[yt-product-kernel-iteration]]'
 diagnostic_signals:
 - framework_lens: 产品内核段位——L1缺价值意识
   follow_up_question: 你能用一句话说清楚用户为什么选择你们吗？如果说不出来，可能还在L1。

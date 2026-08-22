@@ -52,6 +52,7 @@ related:
 - '[[yt-business-formula-ten-paradigms]]'
 - '[[business-formula-domain-digest]]'
 - '[[framework-一堂-业务公式拆解-总纲]]'
+- '[[yt-business-formula-l6-essence-formulas]]'
 discoverable_by:
 - 商业模式选型
 - 单次成交

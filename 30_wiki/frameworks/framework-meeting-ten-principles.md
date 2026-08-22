@@ -44,6 +44,9 @@ related:
   - '[[case-meeting-scene-mastery]]'
   - '[[case-truman-meeting-leadership]]'
   - '[[yt-decision-consensus-iceberg]]'
+  - '[[dk-meeting-asset-harvest]]'
+  - '[[dk-meeting-pressure-ignition]]'
+  - '[[dk-meeting-rederive]]'
 quality_labels: [principle, actionable, quotable, insight]
 tags:
   - audience:general

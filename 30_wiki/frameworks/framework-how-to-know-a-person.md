@@ -43,6 +43,13 @@ related:
 - '[[case-shuishui-business-insight]]'
 - '[[case-yitang-leadership-culture]]'
 - '[[dk-agreeableness-double-edged]]'
+- '[[dk-emotional-value-high-bar]]'
+- '[[dk-emotional-value-premium]]'
+- '[[dk-leadership-trust-coin-sensitivity]]'
+- '[[dk-narrative-choice-theory]]'
+- '[[framework-coaching-leadership-core]]'
+- '[[framework-leadership-coin-model]]'
+- '[[framework-leadership-five-ladders]]'
 tags:
 - method:human-insight
 - method:psychology

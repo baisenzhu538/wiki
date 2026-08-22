@@ -46,6 +46,11 @@ related:
   - '[[case-yitang-leadership-culture]]'
   - '[[dk-coaching-boundary-conditions]]'
   - '[[dk-coaching-monkey-theory]]'
+  - '[[dk-leadership-trust-coin-sensitivity]]'
+  - '[[dk-meeting-pressure-ignition]]'
+  - '[[dk-meeting-principle-over-process]]'
+  - '[[dk-meeting-rederive]]'
+  - '[[framework-meeting-ten-principles]]'
 tags:
 - audience:manager
 - scene:planning

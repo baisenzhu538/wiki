@@ -25,6 +25,7 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+- '[[yt-business-model-to-growth]]'
 diagnostic_signals:
 - framework_lens: 从增长到壁垒——增长需要壁垒保护，否则增长成果被竞品收割
   follow_up_question: 你的增长成果是什么？有没有壁垒保护？竞品复制的难度有多大？

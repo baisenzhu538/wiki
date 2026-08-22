@@ -41,6 +41,7 @@ related:
 - yt-lean-assumption-verification-3means
 - yt-lean-daily-probability-decision
 - 精益方法论培训
+- '[[dk-tool-as-phased-validator]]'
 discoverable_by:
 - 假模型识别
 - AI幻觉

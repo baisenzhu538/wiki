@@ -40,6 +40,7 @@ related:
 - '[[framework-ai-accelerated-strategy-cycle]]'
 - '[[framework-yitang-deliberate-practice-1plus4]]'
 - '[[dk-c1-cjk-regex-silent-fail]]'
+- '[[dk-p5-cc-connect-config]]'
 review_date: '2026-06-28'
 tags:
 - audience:ceo

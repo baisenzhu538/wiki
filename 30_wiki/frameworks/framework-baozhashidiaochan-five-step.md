@@ -43,6 +43,20 @@ related:
 - '[[case-investment-claim-fact-check]]'
 - '[[case-leo-lubricant-dealer-research]]'
 - '[[case-opc-128-directions]]'
+- '[[dk-extract-then-merge]]'
+- '[[dk-model-demystification]]'
+- '[[dk-research-ai-no-time-concept]]'
+- '[[dk-research-classification-mece-table]]'
+- '[[dk-research-important-things-must-do]]'
+- '[[dk-research-ranklist-replaces-model]]'
+- '[[dk-research-sampling-correction-three-rounds]]'
+- '[[dk-research-saturation-quota-ai-km]]'
+- '[[dk-research-saturation-self-proof]]'
+- '[[dk-research-scavenger-vs-architect]]'
+- '[[dk-research-total-anchor-private-library]]'
+- '[[framework-ai-human-70-30-division]]'
+- '[[framework-ai-report-value-ladder-l1-l6]]'
+- '[[framework-fact-rule-insight]]'
 tags:
 - audience:manager
 - scene:planning

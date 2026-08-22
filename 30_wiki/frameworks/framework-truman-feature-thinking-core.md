@@ -47,6 +47,11 @@ related:
   - '[[case-truman-temperature-parameter]]'
   - '[[concept-yihang-dual-triangle-core]]'
   - '[[dk-ai-does-not-question-your-mistake]]'
+  - '[[concept-yihang-ai-feature-thinking]]'
+  - '[[dk-demand-feature-stacking]]'
+  - '[[dk-feature-not-learned-but-used]]'
+  - '[[dk-feature-pieces-not-recognized-as-cards]]'
+  - '[[dk-key-hypothesis-still-hope]]'
 tags:
   - method:feature-thinking
   - method:ai-basic

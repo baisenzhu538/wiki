@@ -37,6 +37,7 @@ related:
 - '[[bridge-christensen-reverse-mapping]]'
 - '[[case-feishu-disruptive-innovation]]'
 - '[[case-zhu-disruptive-innovation-practice]]'
+- '[[dk-christensen-empirical-criticisms]]'
 created_at: 2026-08-02
 updated_at: 2026-08-02
 quality_labels: cited

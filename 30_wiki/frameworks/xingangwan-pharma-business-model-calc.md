@@ -17,6 +17,8 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+- '[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]'
+- '[[xingangwan-pharma-business-model-formulas]]'
 aliases:
   - 湾医药零售商业模型计算框架
   - 鑫港湾医药零售商业模型计算框架

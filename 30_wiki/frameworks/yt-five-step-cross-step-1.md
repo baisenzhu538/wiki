@@ -26,6 +26,7 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+- '[[dk-demand-pitfall-indonesia-insurance]]'
 diagnostic_signals:
 - framework_lens: 跨步一——从0到1需要验证需求、内核、商业模式
   follow_up_question: 你的需求验证了吗？内核验证了吗？单元模型成立吗？
