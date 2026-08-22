@@ -456,6 +456,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 433 | `task_20260823_huangyaoshi-negative-claim-gate` | 负向判词证据层门禁（P1，审查端 F-035 对称补全）：无 `**存在性核查**` 锚点的「无/缺/未」判词不闭环 | reviewed | huangyaoshi | 门禁+复现用例 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-negative-claim-gate.md` | 风清扬建议书采纳；不改已审 #419/#429；只拦锚点不判核查质量；复现用例=#430 坚果云/FQ-E04/FQ-E01；欧阳锋终审 |
 | 434 | `task_20260823_huangyaoshi-memory-capsule-l0-autowrite` | 记忆胶囊 L0 自动写入端（P1，F-027 下一阶段）：daily-context-save 成功保存即自动写 L0 事件 | reviewed | huangyaoshi | save 挂钩+失败可见 | #433 先序 | `60_feedback/tasks/task_20260823_huangyaoshi-memory-capsule-l0-autowrite.md` | 黄药师建议书采纳：方案 A 先行，B 扫描器缓议，C 挂 F-033；单写入面/失败可见；权责=黄药师建设、风清扬审计；欧阳锋终审 |
 | 441 | `task_20260823_laowantong-role-special-ouyangfeng` | 角色专场第二场：欧阳锋岗位说明书定稿（P1，F-028 第二场） | queued | laowantong | 五要素 spec 升级 | #431 老朱已拍板 | `60_feedback/tasks/task_20260823_laowantong-role-special-ouyangfeng.md` | 底本=风清扬五角色建议书；必含终审分界/审而不改/批次验收≠整单终审/审查者不直接编排/建议书抽查回查数据层/F-035+#433 审查门禁；aliases 禁路径词；欧阳锋终审、老朱终稿 |
+| 435 | `task_20260823_huangyaoshi-negative-gate-vocab-data` | 负向判词门禁词表扩展（P1，数据异常类修正落点）：为空/空值进强词；截断/损坏/乱码/半写走正则或宽词观察 | queued | huangyaoshi | 词表+正则+回归 | #433 已 reviewed | `60_feedback/tasks/task_20260823_huangyaoshi-negative-gate-vocab-data.md` | 欧阳锋方向采纳 + 风清扬修正落点；数据视图声明归 SOP 不进门禁；不改已审 #433 内容；欧阳锋终审 |
 
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
@@ -579,8 +580,8 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~diag_20260823_fengqingyang-negative-claim-evidence-gate.md｜08-23 00:38｜待王语嫣复核裁定~~ → 已复核裁定（2026-08-23 王语嫣）：采纳，另开 #433 负向判词证据层门禁（不改已审 #419/#429）；停车场 F-037 已立项
 - ~~diag_20260823_huangyaoshi-capsule-l0-automation-proposal.md｜08-23 00:47｜待王语嫣复核裁定~~ → 已复核裁定（2026-08-23 王语嫣）：采纳方案 A（daily-context-save 挂钩自动写 L0），B 扫描器缓议、C 挂 F-033；另开 #434，权责=黄药师建设/风清扬审计
 - ~~diag_20260823_fengqingyang-memory-capsule-l0-audit.md｜08-23 01:01｜待王语嫣复核裁定~~ → 已复核裁定（2026-08-23 王语嫣）：采纳——#432 壳建好且可恢复属实但未自动留痕；#434 为激活关键单；镜像计划任务不单独注册，与 #434 一并验收，老朱时间锚不晚于 #434 提审前
-- diag_20260823_ouyangfeng-negative-gate-vocab-extension.md｜08-23 01:50｜待王语嫣复核裁定
-- diag_20260823_fengqingyang-negative-gate-vocab-review.md｜08-23 01:56｜待王语嫣复核裁定
-- diag_20260823_fengqingyang-handoff-doc-only.md｜08-23 02:00｜待王语嫣复核裁定
+- ~~diag_20260823_ouyangfeng-negative-gate-vocab-extension.md｜08-23 01:50｜待王语嫣复核裁定~~ → 已复核裁定（2026-08-23 王语嫣）：方向采纳，落点按风清扬修正——为空/空值进强词，截断/损坏/乱码/半写走正则或宽词；另开 #435
+- ~~diag_20260823_fengqingyang-negative-gate-vocab-review.md｜08-23 01:56｜待王语嫣复核裁定~~ → 已复核裁定（2026-08-23 王语嫣）：采纳为 #435 修正落点；数据视图声明归终审 SOP，不进门禁词表
+- ~~diag_20260823_fengqingyang-handoff-doc-only.md｜08-23 02:00｜待王语嫣复核裁定~~ → 已复核裁定（2026-08-23 王语嫣）：原则采纳——对话属于老朱，文档才是角色间唯一沟通；登记停车场 F-041，L0 judgment/decision/insight 事件扩类型挂 #434 后评估
 
 <!-- PROPOSAL-PENDING-END -->
