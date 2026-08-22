@@ -1,8 +1,11 @@
 ---
 id: 413
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-22T05:10:14.094616+00:00'
+status: reviewed
+updated_at: '2026-08-22T05:25:23.172339+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-08-22'
+grade: A-
 ---
 # #413 O-3 complete 锁内 re-check 修复 + related-asymmetry 清单标注原始链方向
 

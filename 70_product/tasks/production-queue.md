@@ -433,7 +433,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 410 | `task_20260822_huangyaoshi-queue-mojibake-fix` | production-queue.md 中文 mojibake 逆向修复（P2，欧阳锋 08-22 立项）：UTF-8-SIG 混合编码历史遗留——队列唯一真相源，风险管控 | reviewed | huangyaoshi | 1 文件转码 | 无 | `60_feedback/tasks/task_20260822_huangyaoshi-queue-mojibake-fix.md` | 强制备份+样本校准先行+diff 结构零变化；乱码→中文逐行复核；修复后 commit✅王语嫣编排复核通过（08-22），可领取 |
 | 411 | `task_20260822_laowantong-related-asymmetry-backfill` | related-asymmetry 存量分批回填（P2，欧阳锋 08-22 立项）：7472 条单向链按域分批消化——#383/#384/#406 回链线延续 | queued | laowantong | 分批回链 | 无 | `60_feedback/tasks/task_20260822_laowantong-related-asymmetry-backfill.md` | 第一批 PASS A- + 第二批 PASS A- + 第三批 PASS A-（08-22 欧阳锋批次验收）；第四批基线=当前复扫（7012）；TODO：dk-p11/冰火罗盘脏链移除（第四批硬性要求） <!-- 手动修正：hermes 08-22 误 complete --force 覆盖批次验收状态，恢复 queued 继续分批 --> |
 | 412 | `task_20260822_huangyaoshi-w3-caliber-verification` | W3 口径核实（P1，会诊硬前置，老朱 08-22 拍板入列）：1354/888 draft 分母口径 + queue 体积 + 5 处字节级副本清单——三数字工具重跑 | reviewed | huangyaoshi | 1 份核实报告 | 无 | `60_feedback/tasks/task_20260822_huangyaoshi-w3-caliber-verification.md` | 会诊关键路径：数字未出 B4 批表态冻结；每数字附命令+输出原文，结论三态（属实/口径差异/不属实）；产出落会诊专案 w3-verification.md；只读扫描不改文件，与 #409 无冲突可先做；commit 入档 |
-| 413 | `task_20260822_huangyaoshi-o3-complete-recheck-fix` | O-3 complete 锁内 re-check 修复（P1）+ related-asymmetry 清单标注原始链方向（P2 可缓）——欧阳锋建议书 R3+R4，王语嫣复核通过 | pending_review | huangyaoshi | 修复+实测 | 无 | `60_feedback/tasks/task_20260822_huangyaoshi-o3-complete-recheck-fix.md` | #411 三批提审无声实证；验收=complete 后 REVIEW-PENDING 必登记实测 3 单+O-3 blocker 关闭；X-1 探针前置（段无登记则通知落空）；排序：#412→#410→#409→本单，不打断在跑任务；改流转脚本必跑既有测试+补回归用例；欧阳锋终审 |
+| 413 | `task_20260822_huangyaoshi-o3-complete-recheck-fix` | O-3 complete 锁内 re-check 修复（P1）+ related-asymmetry 清单标注原始链方向（P2 可缓）——欧阳锋建议书 R3+R4，王语嫣复核通过 | reviewed | huangyaoshi | 修复+实测 | 无 | `60_feedback/tasks/task_20260822_huangyaoshi-o3-complete-recheck-fix.md` | #411 三批提审无声实证；验收=complete 后 REVIEW-PENDING 必登记实测 3 单+O-3 blocker 关闭；X-1 探针前置（段无登记则通知落空）；排序：#412→#410→#409→本单，不打断在跑任务；改流转脚本必跑既有测试+补回归用例；欧阳锋终审 |
 
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
@@ -466,7 +466,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#409 task_20260822_huangyaoshi-parse-error-yaml-fix｜huangyaoshi｜提审 08-22 11:46｜60_feedback/tasks/task_20260822_huangyaoshi-parse-error-yaml-fix.md~~ → 终审退回 queued（2026-08-22 欧阳锋）
 - ~~#410 task_20260822_huangyaoshi-queue-mojibake-fix｜huangyaoshi｜提审 08-22 12:40｜60_feedback/tasks/task_20260822_huangyaoshi-queue-mojibake-fix.md~~ → 已终审 PASS A（2026-08-22 欧阳锋）
 - ~~#412 task_20260822_huangyaoshi-w3-caliber-verification｜huangyaoshi｜提审 08-22 12:50｜60_feedback/tasks/task_20260822_huangyaoshi-w3-caliber-verification.md~~ → 已终审 PASS A（2026-08-22 欧阳锋）
-- #413 task_20260822_huangyaoshi-o3-complete-recheck-fix｜huangyaoshi｜提审 08-22 13:10｜60_feedback/tasks/task_20260822_huangyaoshi-o3-complete-recheck-fix.md
+- ~~#413 task_20260822_huangyaoshi-o3-complete-recheck-fix｜huangyaoshi｜提审 08-22 13:10｜60_feedback/tasks/task_20260822_huangyaoshi-o3-complete-recheck-fix.md~~ → 已终审 PASS A-（2026-08-22 欧阳锋）
 
 <!-- REVIEW-PENDING-END -->
 
