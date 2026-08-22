@@ -33,6 +33,7 @@ related:
   - '[[case-252-quality-gate-pilot]]'
   - '[[dk-feature-registry-count-drift]]'
   - '[[agent-spec-basic-skills-coach]]'
+  - '[[tool-ai-agent-feature-comparison]]'
 tags:
   - method:feature-system
   - method:cross-domain

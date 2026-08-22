@@ -26,6 +26,8 @@ prerequisite_skills: []
 related:
 - '[[ai-collaboration-domain-digest]]'
 - '[[tool-纪浩-Agent技能市场设计法]]'
+- '[[tool-ai-problem-question-check]]'
+- '[[tool-ai-problem-validation]]'
 author: 纪浩
 reviewed_by: 欧阳锋
 confidence: 0.88

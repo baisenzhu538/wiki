@@ -74,6 +74,9 @@ related:
 - '[[framework-r-type-research-partner-five-state]]'
 - '[[framework-truman-agent-team-architecture]]'
 - '[[framework-yitang-y-model-dual-triangle-synergy]]'
+- '[[sk-ai-prd-for-ai]]'
+- '[[tool-autoclassify-seven-steps]]'
+- '[[tool-knowledge-cheatsheet-sab]]'
 ---
 # Builder 幻觉：用 AI 做出东西 ≠ 完成从 0 到 1
 

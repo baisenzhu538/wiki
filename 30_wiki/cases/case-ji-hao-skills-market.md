@@ -57,6 +57,7 @@ related:
 - '[[tool-demand-agent-signal-substitute]]'
 - '[[case-truman-ai-partner]]'
 - '[[agent-ecosystem-design]]'
+- '[[tool-agent-research-supervisor]]'
 author: 纪浩
 reviewed_by: 欧阳锋
 confidence: 0.88

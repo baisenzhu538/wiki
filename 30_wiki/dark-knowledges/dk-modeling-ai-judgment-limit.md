@@ -44,6 +44,7 @@ related:
 - '[[kdo-15-dimension-label-spec]]'
 - '[[three-party-data-alignment]]'
 - '[[truman-ai-partner-design-analysis]]'
+- '[[tool-ai-oral-spray-input]]'
 tags:
 - audience:executor
 - scene:reference

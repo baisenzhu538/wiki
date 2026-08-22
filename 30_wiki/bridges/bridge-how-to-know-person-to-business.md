@@ -58,6 +58,9 @@ related:
 - '[[framework-multi-agent-collab-chain-six]]'
 - '[[framework-patrolkit-radar]]'
 - '[[framework-r-type-research-partner-five-state]]'
+- '[[tool-autoclassify-seven-steps]]'
+- '[[tool-empathy-practice]]'
+- '[[tool-knowledge-cheatsheet-sab]]'
 tags:
 - method:cross-domain
 - method:business-strategy

@@ -37,6 +37,7 @@ related:
 - '[[yt-model-agent-architecture]]'
 - '[[dk-f12-builder-context-deadlock]]'
 - '[[truman-ai-partner-design-analysis]]'
+- '[[tool-demand-four-forces]]'
 tags:
 - audience:general
 - scene:reference

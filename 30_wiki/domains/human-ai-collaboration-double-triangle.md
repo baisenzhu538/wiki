@@ -43,6 +43,14 @@ related:
 - '[[case-opc-agent-wave1-real-model-testing]]'
 - '[[sales-domain-digest]]'
 - '[[system-yitang-Y-model-os]]'
+- '[[tool-agent-spec-yitang-customer-segmentation]]'
+- '[[tool-agent-spec-yitang-objection-handler]]'
+- '[[tool-agent-spec-yitang-opening-3min]]'
+- '[[tool-agent-spec-yitang-sales-performance-monitor]]'
+- '[[tool-agent-spec-yitang-sales-process-tracker]]'
+- '[[tool-agent-spec-yitang-self-motivation]]'
+- '[[tool-agent-spec-yitang-value-proposition]]'
+- '[[tool-agent-spec-yitang-Y-model-coach]]'
 tags:
 - audience:manager
 - scene:reference

@@ -44,6 +44,7 @@ related:
 - '[[case-cross-xingangwan-pharma]]'
 - bridge-how-to-know-person-to-business
 - '[[dk-doc-explosion-slowdown]]'
+- '[[tool-kdo-wechat-serendipity-collect]]'
 review_date: 2026-08-16
 ---
 

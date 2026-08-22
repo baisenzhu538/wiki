@@ -31,6 +31,7 @@ related:
 - '[[tool-Truman-AI输出审慎判断与交付确认]]'
 - '[[framework-yitang-project-retrospective]]'
 - yt-model-ipo-learning-strategy
+- '[[tool-IPO学习-输入处理输出工具箱导航]]'
 tags:
 - audience:executor
 - scene:execution

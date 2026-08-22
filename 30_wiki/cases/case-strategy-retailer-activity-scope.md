@@ -29,6 +29,7 @@ related:
 - '[[case-truman-ai-skill-self-packaging]]'
 - yt-business-model-canvas
 - kdo-protocol-implementation-roadmap
+- '[[tool-demand-iceberg-l6-hypothesis]]'
 ---
 **对比矩阵**：三个零售商分别选择不同客户群体，价值主张和活动范围随之不同。
 

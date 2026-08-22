@@ -63,6 +63,7 @@ related:
 - '[[sales-domain-digest]]'
 - '[[framework-sales-funnel-full]]'
 - '[[framework-yitang-sales-target-tradeoffs]]'
+- '[[tool-candy-sales-recruiting]]'
 created_at: 2026-07-02
 updated_at: 2026-07-08
 tags:

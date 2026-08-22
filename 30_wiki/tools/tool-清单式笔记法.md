@@ -45,6 +45,7 @@ related:
 - '[[dk-infrastructure-guardrails-over-checklist]]'
 - '[[dk-modeling-ai-self-retrospection]]'
 - '[[method-obsidian-ai-collaboration]]'
+- '[[sk-ai-old-small-checklist]]'
 tags:
 - audience:executor
 - scene:execution

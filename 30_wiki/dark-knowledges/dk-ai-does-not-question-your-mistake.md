@@ -41,6 +41,7 @@ related:
 - '[[dk-feature-pieces-not-recognized-as-cards]]'
 - '[[dk-research-ai-no-time-concept]]'
 - '[[dk-research-saturation-self-proof]]'
+- '[[tool-feature-review-five-step]]'
 tags:
 - method:feature-thinking
 - method:fact-control

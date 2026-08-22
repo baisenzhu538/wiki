@@ -54,6 +54,7 @@ related:
 - '[[runbook-agent-spec-to-runtime]]'
 - '[[zhu-codebase-ai-orchestration]]'
 - '[[system-yitang-Y-model-os]]'
+- '[[tool-agent-spec-yitang-Y-model-coach]]'
 tags:
 - audience:manager
 - scene:reference

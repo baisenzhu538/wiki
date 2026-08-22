@@ -36,6 +36,7 @@ related:
 - 'tool-月白-AI对话情绪管理法'
 - 'dk-three-context-formula'
 - '[[dk-p13-token-burn]]'
+- '[[tool-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi]]'
 tags:
 ---
 # 技能：烧Token快速积累体感

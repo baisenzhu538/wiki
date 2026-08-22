@@ -137,6 +137,7 @@ related:
 - '[[tool-自我反馈修正笔记姿势]]'
 - '[[tool-设计对抗效果追踪看板]]'
 - '[[case-truman-prd-checklist-evolution]]'
+- '[[sk-ai-prd-for-ai]]'
 tags:
 - audience:executor
 - scene:execution

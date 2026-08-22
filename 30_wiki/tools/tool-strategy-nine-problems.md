@@ -28,6 +28,8 @@ tags:
 - audience:manager
 - scene:execution
 - skill-level:advanced
+related:
+  - '[[tool-ai-problem-question-check]]'
 ---
 
 # 九个常见战略问题

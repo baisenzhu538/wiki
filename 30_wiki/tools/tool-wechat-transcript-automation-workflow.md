@@ -48,6 +48,7 @@ related:
   - framework-knowledge-five-leaps
   - case-cross-xingangwan-pharma
   - bridge-how-to-know-person-to-business
+  - '[[tool-kdo-wechat-serendipity-collect]]'
 tags:
 - audience:practitioner
 - audience:ceo

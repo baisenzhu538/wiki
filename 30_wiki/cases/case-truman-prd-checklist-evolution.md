@@ -34,6 +34,7 @@ related:
 - '[[tool-Truman-判断力产品化与系统赋能]]'
 - '[[case-truman-poker-deck-roi]]'
 - '[[tool-Truman-AI辅助思考伙伴养成]]'
+- '[[tool-ban-fei-mao-jiang-xue-xi-cheng-guo-chen-dian-wei-prd-wen-dang]]'
 created_at: '2026-06-09'
 updated_at: '2026-06-29'
 author: 老顽童

@@ -29,6 +29,7 @@ related:
   - "[[case-strategy-practice-12-zero-loss]]"
   - "[[case-strategy-revival-13-bestore]]"
   - "[[strategy-domain-digest]]"
+  - '[[tool-demand-iceberg-l6-hypothesis]]'
 ---
 
 # 战略阶段与杠杆错配

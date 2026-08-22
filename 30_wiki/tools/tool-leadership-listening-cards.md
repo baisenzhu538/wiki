@@ -38,6 +38,9 @@ related:
   - '[[bridge-meeting-leadership-coaching]]'
   - '[[case-coaching-dialogue-three-versions]]'
   - '[[case-leadership-communication-failures]]'
+  - '[[tool-coaching-communication-four-layers]]'
+  - '[[tool-coaching-communication-segments]]'
+  - '[[tool-leadership-exit-consulting]]'
 tags:
 - audience:executor
 - scene:execution

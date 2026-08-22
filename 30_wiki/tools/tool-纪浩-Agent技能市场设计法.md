@@ -67,6 +67,12 @@ related:
 - '[[concept-ji-hao-ai-collaboration-methodology]]'
 - '[[sk-ai-ai-workspace-setup]]'
 - '[[sk-ai-narrative-test]]'
+- '[[sk-ai-parallel-validation]]'
+- '[[sk-ai-prd-for-ai]]'
+- '[[sk-ai-problem-validation]]'
+- '[[sk-ai-question-problem-checklist]]'
+- '[[sk-ai-system-redundancy]]'
+- '[[sk-ai-voice-input-doubao]]'
 created_at: '2026-06-08'
 updated_at: '2026-06-17'
 pipeline:

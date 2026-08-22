@@ -46,6 +46,7 @@ related:
 - 'framework-knowledge-naming-systems-comparison'
 - 'case-openclaw-selfbuilt-agent-platform'
 - 'tool-local-search-repo-datasource-engineering'
+- '[[tool-anti-ai-bs-three-moves]]'
 ---
 # 最佳数据源=AI 产出下限：搜索引擎给注水文章，垂直源+本地克隆才保质
 

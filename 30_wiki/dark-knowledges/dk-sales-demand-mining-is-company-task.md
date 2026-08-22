@@ -39,6 +39,7 @@ related:
 - '[[case-4000-titles-ten-strategies]]'
 - '[[case-leo-lubricant-dealer-research]]'
 - '[[sales-domain-digest]]'
+- '[[tool-candy-sales-recruiting]]'
 tags:
 - audience:ceo
 - audience:manager

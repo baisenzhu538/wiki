@@ -42,6 +42,7 @@ related:
 - '[[case-demand-iceberg-few-shot]]'
 - '[[knowledge-demand-2c-dictionary]]'
 - '[[skill-demand-analysis]]'
+- '[[tool-demand-ceiling-coach]]'
 updated_at: '2026-06-29'
 tags:
 - audience:executor

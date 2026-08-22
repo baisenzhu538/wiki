@@ -38,6 +38,7 @@ related:
 - case-live258-livestream-prompt-v1-v5
 - dk-ai-does-not-question-your-mistake
 - '[[dk-feature-pieces-not-recognized-as-cards]]'
+- '[[tool-feature-review-five-step]]'
 tags:
 - method:feature-thinking
 - method:fact-control

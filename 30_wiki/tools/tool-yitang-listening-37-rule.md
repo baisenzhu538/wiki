@@ -40,6 +40,7 @@ related:
   - "[[dk-yitang-sales-common-pitfalls]]"
   - "[[tool-yitang-sales-toolkit-radar]]"
   - "[[tool-yitang-sales-performance-management]]"
+  - '[[tool-leadership-listening-cards]]'
 tags:
 - audience:executor
 - scene:execution

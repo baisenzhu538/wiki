@@ -35,6 +35,7 @@ related:
 - case-strategy-failure-09-boeing
 - case-strategy-failure-04-appliance
 - '[[dk-strategy-organization-strategy-mismatch]]'
+- '[[tool-demand-iceberg-l6-hypothesis]]'
 ---
 
 **表面问题**：产品迭代速度远慢于对手。

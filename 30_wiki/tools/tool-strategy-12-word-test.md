@@ -30,6 +30,7 @@ tags:
 - skill-level:advanced
 related:
   - '[[dk-p11-regex-cutoff]]'
+  - '[[tool-asset-file-naming-convention]]'
 ---
 
 # 12 词战略测试

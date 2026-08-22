@@ -51,6 +51,9 @@ related:
 - '[[framework-agent-card-execution-pattern]]'
 - '[[method-一堂-教练对话引擎协议]]'
 - '[[agent-spec-codex-teammate]]'
+- '[[tool-agent-spec-business-formula-parameter-miner]]'
+- '[[tool-agent-spec-yitang-Y-model-coach]]'
+- '[[tool-kdo-agent-production-checklist]]'
 created_at: 2026-07-03
 updated_at: '2026-07-08'
 tags:

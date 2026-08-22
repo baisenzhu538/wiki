@@ -52,6 +52,7 @@ related:
 - '[[dk-wanghuan-creativity-in-description-and-taste]]'
 - '[[dk-wanghuan-output-equals-standard-times-iteration]]'
 - '[[yt-note-p-c-role-boundary-realworld]]'
+- '[[tool-ai-oral-spray-input]]'
 diagnostic_signals:
 - signal: src_unknown
   framework_lens: AI拉升个人上限——不会≠做不了，关键是导演思维

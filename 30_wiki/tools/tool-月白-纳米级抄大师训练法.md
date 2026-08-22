@@ -34,6 +34,7 @@ related:
 - 'tool-月白-AI图片印刷落地预处理'
 - 'tool-月白-AI对话情绪管理法'
 - 'dk-three-context-formula'
+- '[[tool-ai-parallel-validation]]'
 tags:
 ---
 # 技能：纳米级抄大师训练法

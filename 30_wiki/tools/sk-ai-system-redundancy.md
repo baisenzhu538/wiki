@@ -28,6 +28,7 @@ related:
 - '[[tool-制作行业化要素检查清单]]'
 - '[[tool-水水-保持系统冗余]]'
 - '[[tool-纪浩-Agent技能市场设计法]]'
+- '[[tool-ai-system-redundancy]]'
 author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.88

@@ -51,6 +51,8 @@ related:
 - framework-knowledge-five-leaps
 - tool-autoclassify-seven-steps
 - framework-patrolkit-radar
+- '[[tool-author-targeted-collect]]'
+- '[[tool-cangjie-skill]]'
 tags:
 - audience:all-agents
 - scene:execution

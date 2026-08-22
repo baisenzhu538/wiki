@@ -37,6 +37,7 @@ related:
 - '[[case-truman-motivation-map-12-versions]]'
 - '[[case-纪浩-focus-prompt-design]]'
 - '[[yt-growth-user-onboarding]]'
+- '[[tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]'
 tags:
 ---
 # 技能：口述作图法（口喷设计）

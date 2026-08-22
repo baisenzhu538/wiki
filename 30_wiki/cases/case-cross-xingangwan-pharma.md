@@ -82,6 +82,8 @@ related:
 - '[[framework-patrolkit-radar]]'
 - '[[framework-serendipity-five-channels]]'
 - '[[framework-truman-agent-team-architecture]]'
+- '[[tool-autoclassify-seven-steps]]'
+- '[[tool-knowledge-cheatsheet-sab]]'
 tags:
 - audience:general
 - scene:reference

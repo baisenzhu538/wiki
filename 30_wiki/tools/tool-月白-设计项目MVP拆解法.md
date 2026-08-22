@@ -42,6 +42,7 @@ related:
 - '[[yt-growth-user-onboarding]]'
 - '[[dk-yb1-aigc-mvp-before-ps]]'
 - '[[dk-yitang-business-formula-plus-times-trap]]'
+- '[[tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]'
 tags:
 ---
 # 技能：设计项目MVP拆解法

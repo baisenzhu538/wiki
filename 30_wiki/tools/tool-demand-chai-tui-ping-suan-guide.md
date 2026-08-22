@@ -38,6 +38,7 @@ related:
 - '[[tool-demand-rat-generator]]'
 - '[[tool-demand-option-explorer]]'
 - '[[skill-demand-analysis]]'
+- '[[tool-demand-ceiling-coach]]'
 diagnostic_signals:
 - signal: 创始人说"我用拆推评算跑了一遍需求"但实际只做了拆和推
   lens: 把工具箱当工作流——以为必须四步全走

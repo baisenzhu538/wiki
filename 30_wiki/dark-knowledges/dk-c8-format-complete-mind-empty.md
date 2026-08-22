@@ -36,6 +36,7 @@ related:
 - '[[dk-feature-registry-count-drift]]'
 - '[[dk-kdo-leaky-pipe-pressure]]'
 - '[[master-moc]]'
+- '[[tool-kdo-help]]'
 pipeline:
 - src_unknown
 - src_unknown

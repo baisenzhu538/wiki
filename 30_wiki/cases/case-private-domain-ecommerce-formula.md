@@ -53,6 +53,7 @@ related:
 - '[[dk-strategy-correlation-vs-causation-leverage]]'
 - '[[business-formula-domain-digest]]'
 - '[[yt-business-formula-business-pattern-selector]]'
+- '[[tool-funnel-formula-modeling]]'
 tags:
 - audience:general
 - scene:reference

@@ -33,6 +33,7 @@ related:
 - '[[dk-demand-premature-solution]]'
 - '[[dk-ji-hao-newbie-can-validate]]'
 - '[[dk-ji-hao-novice-mindset-advantage]]'
+- '[[tool-ai-problem-question-check]]'
 wiki_refs: null
 pipeline: null
 author: 纪浩

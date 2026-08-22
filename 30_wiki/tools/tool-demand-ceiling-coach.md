@@ -36,6 +36,7 @@ related:
 - '[[domain-demand-analysis-index]]'
 - '[[yt-entrepreneur-unit-model]]'
 - '[[yt-market-size-estimation]]'
+- '[[tool-demand-report-template]]'
 tags:
 - audience:executor
 - scene:execution

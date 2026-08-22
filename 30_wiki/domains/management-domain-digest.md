@@ -48,6 +48,8 @@ related:
 - '[[framework-meeting-iceberg-canvas]]'
 - '[[framework-meeting-ten-principles]]'
 - '[[framework-yitang-project-execution]]'
+- '[[tool-leadership-consensus-goal-escalation]]'
+- '[[tool-leadership-three-stubborn-subordinates]]'
 tags:
 - audience:manager
 - scene:reference

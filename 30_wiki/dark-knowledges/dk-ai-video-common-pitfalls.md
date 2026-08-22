@@ -45,6 +45,7 @@ related:
 - dk-market-info-gap-to-product-strategy
 - tool-ai-video-market-gap-assessment
 - concept-ai-video-wanggan-componentization
+- '[[tool-ai-video-cost-optimization]]'
 tags:
 - 失败模式
 - AI工具开发

@@ -36,6 +36,7 @@ related:
   - '[[case-leadership-communication-failures]]'
   - '[[case-morfei-semiconductor]]'
   - '[[dk-coaching-monkey-theory]]'
+  - '[[tool-leadership-consensus-goal-escalation]]'
 tags:
 - audience:executor
 - scene:execution

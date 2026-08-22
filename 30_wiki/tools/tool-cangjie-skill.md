@@ -32,6 +32,8 @@ source_refs:
 related:
 - tool-yizhan-shendeng
 - tool-kdo-wechat-serendipity-collect
+- '[[tool-author-targeted-collect]]'
+- '[[tool-darwin-skill]]'
 tags:
 - audience:all-agents
 - scene:execution

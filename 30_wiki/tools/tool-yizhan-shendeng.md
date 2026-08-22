@@ -31,6 +31,8 @@ related:
 - tool-cangjie-skill
 - tool-kdo-wechat-serendipity-collect
 - framework-serendipity-five-channels
+- '[[tool-author-targeted-collect]]'
+- '[[tool-darwin-skill]]'
 tags:
 - audience:all-agents
 - scene:execution

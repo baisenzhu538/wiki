@@ -37,6 +37,7 @@ related:
 - '[[agent-spec-coaching-leadership-assistant]]'
 - '[[agent-spec-meeting-assistant]]'
 - '[[agent-spec-research-explosion-partner]]'
+- '[[tool-ai-agent-feature-comparison]]'
 tags:
 - method:agent-spec
 - method:coaching

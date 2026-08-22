@@ -46,6 +46,7 @@ related:
 - '[[case-科学决策-ROI案例03]]'
 - '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
 - '[[case-yitang-model-valuation-flywheel]]'
+- '[[tool-essence-nfactor-modeling]]'
 tags:
 - src_unknown
 - src_unknown

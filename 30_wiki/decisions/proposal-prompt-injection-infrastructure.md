@@ -20,6 +20,14 @@ related:
   - '[[yt-skill-checklist-as-ai-protocol]]'
   - '[[视觉prompt三层操作系统-srom-visual-os]]'
   - '[[label-accuracy-standard-alignment]]'
+  - '[[tool-candy-oral-polish]]'
+  - '[[tool-demand-assessment-triangle]]'
+  - '[[tool-demand-four-forces]]'
+  - '[[tool-demand-iceberg-l1-user]]'
+  - '[[tool-demand-iceberg-l2-scenario]]'
+  - '[[tool-demand-iceberg-l3-core-job]]'
+  - '[[tool-demand-iceberg-l4-job-map]]'
+  - '[[tool-demand-iceberg-l5-forces]]'
 id: proposal-prompt-injection-infrastructure
 author: unknown
 source_context: KDO improvement plan — internal process record （原始 source 无法追溯，已标记为

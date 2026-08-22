@@ -49,6 +49,7 @@ related:
 - concept-ai-video-wanggan-componentization
 - framework-yitang-shishi-qiushi
 - framework-一堂五步法-单元模型
+- '[[tool-ai-video-cost-optimization]]'
 tags:
 - 市场信息差
 - AI工具评估

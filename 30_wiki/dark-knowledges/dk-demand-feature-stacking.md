@@ -52,6 +52,7 @@ related:
   - '[[dk-demand-pitfall-travel-agent]]'
   - '[[dk-feature-not-learned-but-used]]'
   - '[[dk-key-hypothesis-still-hope]]'
+  - '[[tool-feature-review-five-step]]'
 updated_at: 2026-08-13
 tags:
 - audience:executor

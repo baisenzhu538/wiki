@@ -28,6 +28,9 @@ related:
 - '[[ai-collaboration-domain-digest]]'
 - '[[yitang-domain-digest]]'
 - '[[plan_20260531_data-curator-v1.3]]'
+- '[[tool-ai-problem-question-check]]'
+- '[[tool-ai-skill-engineering-guide]]'
+- '[[tool-ai-skill-engineering-method]]'
 wiki_refs: null
 definition_of_done: null
 pipeline: null

@@ -49,6 +49,12 @@ related:
 - '[[knowledge-demand-2b-dictionary]]'
 - '[[knowledge-demand-2c-dictionary]]'
 - '[[skill-demand-analysis]]'
+- '[[tool-demand-ceiling-coach]]'
+- '[[tool-demand-chai-tui-ping-suan-guide]]'
+- '[[tool-demand-micro-experience-script]]'
+- '[[tool-demand-option-explorer]]'
+- '[[tool-demand-rat-generator]]'
+- '[[tool-demand-report-template]]'
 tags:
 - audience:manager
 - scene:reference

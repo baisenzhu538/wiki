@@ -43,6 +43,7 @@ related:
 - '[[dk-infrastructure-guardrails-over-checklist]]'
 - '[[dk-modeling-ai-self-retrospection]]'
 - '[[sk-ai-old-small-checklist]]'
+- '[[sk-ai-system-redundancy]]'
 tags:
 - audience:executor
 - scene:execution

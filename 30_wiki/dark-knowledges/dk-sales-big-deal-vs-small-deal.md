@@ -35,6 +35,7 @@ related:
 - '[[tool-yitang-sales-process-decomposition]]'
 - '[[dk-wanghuan-paced-sales-decision]]'
 - '[[sales-domain-digest]]'
+- '[[tool-candy-sales-recruiting]]'
 tags:
 - audience:manager
 - scene:diagnosis

@@ -37,6 +37,7 @@ related:
 - '[[concept-token-capital]]'
 - '[[dk-p13-token-burn]]'
 - '[[dk-truman-iteration-to-aesthetic-ceiling]]'
+- '[[tool-agent-research-supervisor]]'
 tags:
 ---
 # 技能：Token智甲比控制法

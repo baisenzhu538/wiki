@@ -78,6 +78,8 @@ related:
 - '[[dk-strategy-correlation-vs-causation-leverage]]'
 - '[[dk-strategy-organization-strategy-mismatch]]'
 - '[[dk-strategy-stage-leverage-mismatch]]'
+- '[[tool-lean-ai-accelerated-validation]]'
+- '[[tool-lean-cut-features]]'
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 tags:

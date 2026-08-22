@@ -29,6 +29,7 @@ related:
 - '[[ai-collaboration-domain-digest]]'
 - '[[yitang-domain-digest]]'
 - '[[kdo-protocol]]'
+- '[[tool-ban-fei-mao-pan-duan-ke-cheng-shi-fou-zhi-de-zuo-cheng-skill]]'
 pipeline: null
 author: 半肥猫
 reviewed_by: 欧阳锋

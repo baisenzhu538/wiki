@@ -30,6 +30,7 @@ related:
 - yt-pitch-emotionalization
 - '[[dk-jiangxiang-boundary-overpromise]]'
 - '[[decision-science-domain-digest]]'
+- '[[tool-jiangxiang-ai-four-levels]]'
 updated_at: 2026-08-02
 tags:
 - audience:executor

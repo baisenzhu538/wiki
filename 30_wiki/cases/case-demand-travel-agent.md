@@ -43,6 +43,7 @@ related:
 - '[[tool-demand-agent-signal-substitute]]'
 - case-opc-agent-wave1-real-model-testing
 - '[[tool-demand-agent-l4-case-match]]'
+- '[[tool-agent-research-supervisor]]'
 updated_at: '2026-06-29'
 tags:
 - audience:general

@@ -18,6 +18,12 @@ related:
   - '[[plan_20260701_kdo-multi-repo-architecture]]'
   - '[[opc-ai-sales-agent-architecture]]'
   - '[[zhu-codebase-ai-orchestration]]'
+  - '[[tool-agent-spec-yitang-customer-segmentation]]'
+  - '[[tool-agent-spec-yitang-opening-3min]]'
+  - '[[tool-agent-spec-yitang-sales-performance-monitor]]'
+  - '[[tool-agent-spec-yitang-sales-process-tracker]]'
+  - '[[tool-agent-spec-yitang-self-motivation]]'
+  - '[[tool-agent-spec-yitang-value-proposition]]'
 tags:
 - audience:manager
 - scene:howto

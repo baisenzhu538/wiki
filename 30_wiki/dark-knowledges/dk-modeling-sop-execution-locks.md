@@ -38,6 +38,7 @@ related:
 - '[[case-modeling-process-sop-evolution]]'
 - '[[yt-decision-y-model-philosophical-roots]]'
 - '[[case-modeling-process-sop-examples]]'
+- '[[tool-checklist-cheatsheet-modeling]]'
 tags:
 - src_unknown
 - src_unknown

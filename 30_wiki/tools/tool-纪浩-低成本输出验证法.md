@@ -28,6 +28,7 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+- '[[sk-ai-parallel-validation]]'
 diagnostic_signals:
 - lens: 迭代成本高
   follow_up: 选择低成本输出出口（自媒体/图文/短视频），先小范围验证。降低单次失败成本

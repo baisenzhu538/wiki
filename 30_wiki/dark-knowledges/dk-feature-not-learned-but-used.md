@@ -29,6 +29,7 @@ related:
   - dk-key-hypothesis-still-hope
   - '[[dk-ai-does-not-question-your-mistake]]'
   - '[[dk-feature-pieces-not-recognized-as-cards]]'
+  - '[[tool-feature-review-five-step]]'
 tags:
   - method:learning
   - scene:ai-learning

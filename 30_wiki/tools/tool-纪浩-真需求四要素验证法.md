@@ -27,6 +27,7 @@ related:
 - '[[tool-demand-iceberg-l2-scenario]]'
 - '[[concept-ji-hao-ai-collaboration-methodology]]'
 - '[[yt-product-kernel-validation]]'
+- '[[sk-ai-parallel-validation]]'
 created_at: '2026-06-08'
 updated_at: '2026-06-28'
 pipeline:

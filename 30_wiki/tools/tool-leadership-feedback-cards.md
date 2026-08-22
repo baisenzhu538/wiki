@@ -40,6 +40,9 @@ related:
   - '[[case-leadership-communication-failures]]'
   - '[[dk-leadership-trust-coin-sensitivity]]'
   - '[[dk-y-model-communication]]'
+  - '[[tool-coaching-communication-four-layers]]'
+  - '[[tool-coaching-communication-segments]]'
+  - '[[tool-leadership-three-stubborn-subordinates]]'
 tags:
 - audience:executor
 - scene:execution

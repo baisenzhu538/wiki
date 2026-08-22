@@ -36,6 +36,7 @@ related:
 - '[[dk-ai-capability-illusion]]'
 - '[[case-kinda-digital-employees-fullview]]'
 - '[[framework-decision-quality-checklist]]'
+- '[[tool-ai-adapted-workflow-design]]'
 ---
 # 防 AI 忽悠三招：解释→找同类→最低成本验证（逐层升级）
 

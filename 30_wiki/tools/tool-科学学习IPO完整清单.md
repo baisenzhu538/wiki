@@ -31,6 +31,7 @@ related:
 - '[[framework-yitang-project-retrospective]]'
 - concept-X型Y型决策习惯
 - concept-发现决策
+- '[[tool-IPO学习-输入处理输出工具箱导航]]'
 updated_at: '2026-06-29'
 tags:
 - audience:executor

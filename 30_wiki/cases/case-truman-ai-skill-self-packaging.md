@@ -41,6 +41,8 @@ related:
 - case-child-drawing-rhyme
 - case-truman-personal-growth-map-creation
 - '[[ai-methodology-tools]]'
+- '[[tool-ai-skill-engineering-guide]]'
+- '[[tool-ai-skill-engineering-method]]'
 tags:
 - audience:general
 - scene:reference

@@ -51,6 +51,7 @@ related:
 - - - yt-unit-model-three-tools
 - '[[case-smart-medicine-cabinet-business-model-validation]]'
 - '[[smart-medicine-cabinet-clinic-risk-observation]]'
+- '[[smart-medicine-cabinet-fraud-detection]]'
 query_triggers:
 - src_unknown
 - src_unknown

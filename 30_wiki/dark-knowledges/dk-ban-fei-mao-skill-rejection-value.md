@@ -37,6 +37,8 @@ related:
 - '[[dk-ban-fei-mao-atomic-no-standard]]'
 - '[[dk-ban-fei-mao-silky-answer-warning]]'
 - '[[dk-ban-fei-mao-silky-answers-are-dangerous]]'
+- '[[tool-ban-fei-mao-pan-duan-ke-cheng-shi-fou-zhi-de-zuo-cheng-skill]]'
+- '[[tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]'
 author: 半肥猫
 reviewed_by: 欧阳锋
 confidence: 0.88

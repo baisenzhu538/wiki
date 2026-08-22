@@ -30,6 +30,7 @@ related:
 - framework-yitang-shishi-qiushi
 - framework-一堂五步法-单元模型
 - '[[dk-ai-video-common-pitfalls]]'
+- '[[tool-ai-video-cost-optimization]]'
 created_at: 2026-07-20
 updated_at: '2026-07-20'
 diagnostic_signals:

@@ -34,6 +34,7 @@ related:
 - ai-landing-scene-selection
 - '[[case-english-teacher-ai-agent]]'
 - '[[case-qinpeng-hardware-ai-amplification]]'
+- '[[tool-jiangxiang-ai-four-levels]]'
 created_at: 2026-08-02
 updated_at: 2026-08-02
 quality_labels: cited

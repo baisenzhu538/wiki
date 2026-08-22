@@ -38,6 +38,7 @@ related:
 - '[[case-truman-ai-skill-engineering-guide]]'
 - '[[case-yitang-model-valuation-flywheel]]'
 - '[[decision-science-domain-digest]]'
+- '[[tool-ai-oral-spray-input]]'
 tags:
 - audience:general
 - scene:reference

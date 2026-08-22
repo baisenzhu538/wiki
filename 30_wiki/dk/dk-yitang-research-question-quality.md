@@ -36,6 +36,7 @@ related:
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
+  - '[[tool-ai-problem-question-check]]'
 tags:
 - audience:executor
 - scene:diagnosis

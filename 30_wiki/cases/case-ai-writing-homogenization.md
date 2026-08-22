@@ -41,6 +41,7 @@ related:
 - dk-yitang-Y-model-pitfalls
 - case-bmw-human-ai-collaboration-idle-time
 - case-live81-ai-trademark-design
+- '[[tool-ai-deliverable-polish-loop]]'
 created_at: 2026-07-04
 updated_at: '2026-07-04'
 tags:

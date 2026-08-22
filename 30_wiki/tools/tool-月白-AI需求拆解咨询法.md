@@ -35,6 +35,7 @@ related:
 - 'tool-月白-AIGC反向拆解法'
 - 'case-truman-ai-image-workflow-evolution'
 - '[[dk-yitang-business-formula-plus-times-trap]]'
+- '[[tool-demand-iceberg-l2-scenario]]'
 tags:
 ---
 # 技能：AI需求拆解咨询法

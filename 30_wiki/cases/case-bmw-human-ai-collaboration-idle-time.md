@@ -42,6 +42,7 @@ related:
 - case-live81-ai-trademark-design
 - tool-yitang-Y-model-application
 - human-ai-collaboration-double-triangle
+- '[[tool-ai-deliverable-polish-loop]]'
 created_at: 2026-07-04
 updated_at: '2026-07-04'
 tags:

@@ -41,6 +41,11 @@ related:
   - '[[case-leadership-communication-failures]]'
   - '[[dk-y-model-communication]]'
   - '[[dk-meeting-asset-harvest]]'
+  - '[[tool-coaching-communication-four-layers]]'
+  - '[[tool-coaching-communication-segments]]'
+  - '[[tool-leadership-consensus-goal-escalation]]'
+  - '[[tool-leadership-exit-consulting]]'
+  - '[[tool-leadership-three-stubborn-subordinates]]'
 tags:
 - audience:executor
 - scene:execution

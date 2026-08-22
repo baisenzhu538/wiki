@@ -37,6 +37,8 @@ related:
 - '[[yt-decision-width-method]]'
 - '[[dk-infrastructure-guardrails-over-checklist]]'
 - '[[dk-modeling-ai-self-retrospection]]'
+- '[[sk-ai-old-small-checklist]]'
+- '[[tool-checklist-cheatsheet-modeling]]'
 tags:
 ---
 # 技能：工厂对接信息清单制作

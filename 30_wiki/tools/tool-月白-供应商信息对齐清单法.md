@@ -39,6 +39,7 @@ related:
 - '[[dk-infrastructure-guardrails-over-checklist]]'
 - '[[dk-modeling-ai-self-retrospection]]'
 - '[[sk-ai-old-small-checklist]]'
+- '[[tool-checklist-cheatsheet-modeling]]'
 tags:
 ---
 # 技能：供应商信息对齐清单法

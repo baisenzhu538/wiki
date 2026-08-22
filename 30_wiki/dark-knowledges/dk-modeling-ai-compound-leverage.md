@@ -32,6 +32,7 @@ related:
 - '[[huangyaoshi-data-alignment-response]]'
 - '[[three-party-data-alignment]]'
 - '[[truman-ai-partner-design-analysis]]'
+- '[[tool-ai-oral-spray-input]]'
 tags:
 - audience:executor
 - scene:reference

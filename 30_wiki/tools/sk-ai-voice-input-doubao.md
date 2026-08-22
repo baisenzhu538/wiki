@@ -46,6 +46,7 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[voice-input-doubao]]'
+- '[[tool-ai-voice-input-doubao]]'
 author: 半肥猫
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'

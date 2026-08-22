@@ -48,6 +48,7 @@ related:
 - '[[dk-wanghuan-creativity-in-description-and-taste]]'
 - '[[dk-wanghuan-output-equals-standard-times-iteration]]'
 - '[[truman-ai-partner-design-analysis]]'
+- '[[tool-ai-oral-spray-input]]'
 diagnostic_signals:
 - signal: src_unknown
   framework_lens: 标准来自迭代——标准不是想出来的，是迭代出来的

@@ -36,6 +36,7 @@ related:
 - '[[dk-delivery-path-type-bug]]'
 - '[[kdo-moc]]'
 - '[[master-moc]]'
+- '[[tool-kdo-help]]'
 created_at: 2026-08-04
 updated_at: 2026-08-04
 review_date: 2026-08-04

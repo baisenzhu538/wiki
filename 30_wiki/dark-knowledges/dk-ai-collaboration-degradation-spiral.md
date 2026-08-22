@@ -54,6 +54,7 @@ related:
 - '[[method-judge-skill-meta-evaluation]]'
 - '[[method-yihang-dual-triangle-ai-review]]'
 - '[[method-yihang-human-self-distillation]]'
+- '[[tool-candy-sales-recruiting]]'
 tags:
 - audience:executor
 - scene:reference

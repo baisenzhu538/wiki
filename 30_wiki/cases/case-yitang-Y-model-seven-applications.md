@@ -37,6 +37,7 @@ related:
 - concept-X型Y型决策习惯
 - yt-five-step-method-complete
 - yt-unit-model-overview
+- '[[tool-iceberg-triangle-modeling]]'
 created_at: 2026-07-03
 updated_at: '2026-07-03'
 tags:

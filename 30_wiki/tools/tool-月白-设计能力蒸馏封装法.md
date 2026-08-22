@@ -38,6 +38,8 @@ related:
 - '[[case-纪浩-focus-prompt-design]]'
 - '[[yt-growth-user-onboarding]]'
 - '[[yt-note-problem-solving-capability]]'
+- '[[tool-ai-skill-engineering-method]]'
+- '[[tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]'
 tags:
 ---
 # 技能：设计能力蒸馏封装法

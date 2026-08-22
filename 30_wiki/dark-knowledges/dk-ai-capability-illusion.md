@@ -39,6 +39,8 @@ related:
 - '[[dk-decision-value-overrides-roi]]'
 - 'tool-local-search-repo-datasource-engineering'
 - 'tool-platform-requirement-eight-sections'
+- '[[tool-ai-adapted-workflow-design]]'
+- '[[tool-anti-ai-bs-three-moves]]'
 ---
 # AI 能力错觉：效率起飞≠方法对，心急没调研没审美=白费
 

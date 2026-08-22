@@ -45,6 +45,8 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+- '[[tool-ai-narrative-test]]'
+- '[[tool-demand-iceberg-l6-hypothesis]]'
 author: unknown
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'

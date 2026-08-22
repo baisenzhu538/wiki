@@ -41,6 +41,8 @@ related:
 - '[[framework-TCPR皇冠模型]]'
 - '[[互联网医院项目]]'
 - '[[agent-spec-codex-teammate]]'
+- '[[tool-agent-spec-yitang-Y-model-coach]]'
+- '[[tool-kdo-agent-production-checklist]]'
 tags:
 - audience:manager
 - scene:reference

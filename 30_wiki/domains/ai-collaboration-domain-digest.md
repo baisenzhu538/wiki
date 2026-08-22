@@ -72,6 +72,19 @@ related:
 - '[[dk-yitang-ai-research-prompt-craft]]'
 - '[[dk-yitang-research-ai-hallucination]]'
 - '[[sk-ai-old-small-checklist]]'
+- '[[sk-ai-problem-validation]]'
+- '[[sk-ai-question-problem-checklist]]'
+- '[[sk-ai-system-redundancy]]'
+- '[[tool-agent-native-overview]]'
+- '[[tool-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi]]'
+- '[[tool-ban-fei-mao-pan-duan-ke-cheng-shi-fou-zhi-de-zuo-cheng-skill]]'
+- '[[tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]'
+- '[[tool-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]'
+- '[[tool-demand-agent-auto-verify]]'
+- '[[tool-demand-agent-case-match]]'
+- '[[tool-demand-agent-multi-hypothesis]]'
+- '[[tool-demand-agent-signal-substitute]]'
+- '[[tool-demand-agent-signals]]'
 tags:
 - audience:manager
 - scene:reference

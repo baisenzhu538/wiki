@@ -32,6 +32,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+related:
+  - '[[tool-clinic-cabinet-legal-contract-guide]]'
 ---
 # 差距分析
 
