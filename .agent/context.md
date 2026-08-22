@@ -6,7 +6,7 @@ reviewed_by: 欧阳锋
 active_branch: main
 active_task: "2026-08-22 欧阳锋会话：① #407 PDF-Inspector 终审 PASS A-（官方源核验 5 数字全 VERIFIED + 200 PDFs 确认 + 视频 2.8s 以官方 0.47s 为准修正，核验真实性正证据；'单依赖 lopdf' 表述 TODO）② 库级编码债务清理：master-moc.md UTF-16 双重 BOM→UTF-8（kdo index 阻塞根因，commit 13613b8de）+ queue_integrity_audit/failure-modes-electronics GBK→UTF-8；kdo index --rebuild 恢复 4069 docs ③ 新立项建议稿：parse-error 58（#409）/ production-queue mojibake（#410）/ related-asymmetry 7472 分批（#411）——**已标注待王语嫣复核（欧阳锋建议稿，勿领取），复核通过后生效** ④ 素材层 3 文件（__MACOSX×2+广冷电子 GBK）遵只读纪律未动记 TODO。队列（王语嫣 08-22 复核收口）：#407 终审 PASS A- / **#408 终审 PASS A-**（2026-08-22 欧阳锋：8-15 增量 L1016-1072 逐字溯源全过 + 核心数字实锤 B+/A/S；TODO 标 ASR 还原）/**#409-411 王语嫣编排复核通过、勿领取标注已撤、可领取**（#410 维持 P2 不升，理由见任务单复核结论节）。⑤ **会诊专案已开工（王语嫣 08-22 建）**：`60_feedback/consultation/2026-08-22-kdo-systemic-upgrade/`——checklist.md 28 条单一讨论轴（纲领 G1-G4 + 风清扬 18 项 + 王语嫣修正项），各角色表态写 positions/<自己>.md（单一写者纪律，沉默不算通过），老朱主持拍板落 decisions.md。"
 blockers:
-  - "production-queue.md 全文件中文 mojibake 损坏（UTF-8-SIG 混合编码）——已立项 #410（黄药师，强制备份+样本校准+diff 结构零变化）"
+  - "~~production-queue.md mojibake~~ 已闭环：#410 终审 PASS A（08-22 git 字节对齐恢复 186 行，残留 0，结构零变化）"
   - "O-3 已知 bug：queue_transition.py complete --force 对 queued 任务锁内 re-check 必失败——review 路径实测可用（2026-08-18 四单全通，含 --grade）"
   - "当前任务状态见 production-queue.md（唯一真相源）"
   - "旧任务文件 laowantong-next-tasks.md / laowantong-batch-*.md 已废弃——不要读。"
