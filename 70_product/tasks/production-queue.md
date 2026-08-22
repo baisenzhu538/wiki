@@ -443,7 +443,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 420 | `task_20260822_wangyuyan-parking-lot-consolidation` | 工厂停车场收口（P1，B4-4）：6 份旧停车场→单一 parking-lot（F-xxx+生命周期+清账） | reviewed | wangyuyan | 单一停车场 | 无 | `60_feedback/tasks/task_20260822_wangyuyan-parking-lot-consolidation.md` | 风清扬 §14.5 方案；清账明细附报告；欧阳锋终审抽去重正确性 |
 | 421 | `task_20260822_huangyaoshi-conveyor-probes` | 传送带探针（P1，X-1）：通知契约先定（低打扰/三类信号/幂等/不打扰）+三探针实现+PROPOSAL-PENDING 自动登记与建议书到达即时通知（追加一/二，登记+通知同源） | reviewed | huangyaoshi | 契约+探针 | O-3 已交付（#413） | `60_feedback/tasks/task_20260822_huangyaoshi-conveyor-probes.md` | 边界硬编码只通知不领取不裁决不流转；检出逻辑单份禁第二套扫描器；欧阳锋终审抽边界真实性 |
 | 422 | `task_20260822_huangyaoshi-agent-retro-governance-p1` | agent复盘 治理 P1（T5 裁剪版+T6 散落 12 文件归类+T8 垃圾清理） | reviewed | huangyaoshi | 归类清零 | 依赖 #418 | `60_feedback/tasks/task_20260822_huangyaoshi-agent-retro-governance-p1.md` | 停更实例只归并不恢复复盘（王语嫣裁剪）；归类映射表附报告；欧阳锋终审 |
-| 423 | `task_20260822_fengqingyang-observer-five-piece-set` | 观察者五件套补齐（P1，风清扬自领）：技能日志/反馈档案/错误模式库/索引/雷达图 | claimed-fengqingyang | fengqingyang | 五件套 | 无 | `60_feedback/tasks/task_20260822_fengqingyang-observer-five-piece-set.md` | 必须入 git（E040，锚点幽灵事件不二犯）；内容真实不抄模板；欧阳锋终审抽查 |
+| 423 | `task_20260822_fengqingyang-observer-five-piece-set` | 观察者五件套补齐（P1，风清扬自领）：技能日志/反馈档案/错误模式库/索引/雷达图 | pending_review | fengqingyang | 五件套 | 无 | `60_feedback/tasks/task_20260822_fengqingyang-observer-five-piece-set.md` | 必须入 git（E040，锚点幽灵事件不二犯）；内容真实不抄模板；欧阳锋终审抽查 |
 | 424 | `task_20260822_huangyaoshi-agent-retro-governance-p2` | agent复盘 治理 P2（T7 归档结构统一+T9 目录白名单固化） | reviewed | huangyaoshi | 结构+白名单 | 依赖 #418/#422 | `60_feedback/tasks/task_20260822_huangyaoshi-agent-retro-governance-p2.md` | 白名单规则王语嫣审；欧阳锋终审 |
 | 425 | `task_20260822_huangyaoshi-health-metrics-set` | KDO 健康度指标集（P1，G4 第 2 步）：7 指标脚本化一条命令出健康报告 | reviewed | huangyaoshi | 健康报告 | 无 | `60_feedback/tasks/task_20260822_huangyaoshi-health-metrics-set.md` | #399 工具同仓演进；与 W3 基线对账；报告第一读者=风清扬（W8）；欧阳锋终审 |
 | 426 | `task_20260822_laowantong-tags-judgment-batch` | 739 张 tags 判断类分批治理（P2 长程，老朱 08-20 拍板+08-22 二拍维持）：词表设计先行+按域分批 | queued | laowantong | 词表+分批治理 | 无 | `60_feedback/tasks/task_20260822_laowantong-tags-judgment-batch.md` | 词表未出不动手；首批=试点批；归零声明附 #399 工具输出；欧阳锋批次验收（#411 模式）；风清扬审计待修③收口 |
@@ -524,6 +524,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#424 task_20260822_huangyaoshi-agent-retro-governance-p2｜huangyaoshi｜提审 08-22 23:17｜60_feedback/tasks/task_20260822_huangyaoshi-agent-retro-governance-p2.md~~ → 已终审 PASS A-（2026-08-22 欧阳锋）
 - ~~#427 task_20260822_fengqingyang-l0-backup-path-proposal｜fengqingyang｜提审 08-22 23:19｜60_feedback/tasks/task_20260822_fengqingyang-l0-backup-path-proposal.md~~ → 已终审 PASS A-（2026-08-22 欧阳锋）
 - ~~#429 task_20260822_huangyaoshi-traceability-gates｜huangyaoshi｜提审 08-22 23:52｜60_feedback/tasks/task_20260822_huangyaoshi-traceability-gates.md~~ → 已终审 PASS A-（2026-08-22 欧阳锋）
+- #423 task_20260822_fengqingyang-observer-five-piece-set｜fengqingyang｜提审 08-22 23:55｜60_feedback/tasks/task_20260822_fengqingyang-observer-five-piece-set.md
 
 <!-- REVIEW-PENDING-END -->
 
