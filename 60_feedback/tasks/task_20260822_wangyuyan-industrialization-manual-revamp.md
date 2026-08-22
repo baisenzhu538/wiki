@@ -1,14 +1,14 @@
 ---
 id: 417
 assignee: kimi
-status: in_progress
-updated_at: '2026-08-22T13:34:21.076451+00:00'
+status: pending_review
+updated_at: '2026-08-22T14:14:20.787864+00:00'
 ---
 # #417 工业化手册整改（王语嫣主笔，持续迭代机制）
 
 - **任务号**：#417
-- **状态**：queued
-- **assignee**：wangyuyan（主笔；终审=欧阳锋；终稿=老朱）
+- **状态**：in_progress（claimed-kimi）
+- **assignee**：wangyuyan（主笔；当前实例 kimi；终审=欧阳锋；终稿=老朱）
 - **优先级**：P0
 - **依赖**：#416（基本法框架稿——角色表对齐它）
 - **立项**：2026-08-22 王语嫣（会诊 B4-1 拍板+分工裁定）
@@ -40,3 +40,23 @@ updated_at: '2026-08-22T13:34:21.076451+00:00'
 - **整改动作 6**：六角色 `agent-spec` 卡与 `.agent/<role>-context.md` 逐角色对账，分歧点列清单（手册对账节记录）
 - **防复发**：同口径脚本校验（黄药师配合入 lint）——以 `memory-registry.md` 表 1「角色定义」行为准
 - 注意：90_control/AGENTS.md 角色表（"欧阳锋唯一协调节点/王语嫣只看不改"）与现实脱节为已确认靶子，本单对账范围含该文件
+
+---
+
+## 整改记录（2026-08-22，kimi 实例执行）
+
+**改动文件**（仅 2 个，未做 git add/commit，未再跑 queue_transition）：
+
+1. `90_control/kdo-industrialization-manual.md` → v2.0
+   - A 版本归一：frontmatter `version: "2.0"` / `updated_at: "2026-08-22"`；正文标题 v2.0；编制行加 v2.0 标注；文首加版本规则（改一次升一次、frontmatter/正文同号、脚本校验，溯源 #416 附则/B4-1）
+   - B §1.2 审而不改：改为「生产者（老顽童）修正内容卡 / 建设者（黄药师）修正基建；欧阳锋复审」，90_control 变更仍受 KF-001 双重签发约束
+   - C §二角色体系整节替换为入宪六方，核心表逐字采用 charter §2.1；补权责分界、执行前三问、挂起角色（段王爷/洪七公/历史业务 agent）、资产落点表（风清扬 spec 标在途 #428）；删除旧三角色分工与「复合编译执行/高质量内容提炼」表述
+   - D §3.4 新增「现行任务队列与提交门禁口径」：`queued → claimed-{instance} → pending_review → reviewed/退回 queued`；REVIEW-PENDING（#389/#413）/INBOX-PENDING（watch_inbox）/PROPOSAL-PENDING（#421）三自动登记段；提交链=王语嫣编排门禁 → `kdo pre-submit -f` → 欧阳锋终审 → 老朱终稿拍板；注明 L2 警告 ≠ pre-submit 阻断
+   - E L2 节补注：`kdo pre-submit` 为独立阻断提交门禁，未被 L2 豁免
+   - F 铁律：章首与附录 C 改 KF-001~026；KF-010 加入 `kdo pre-submit`；KF-011 扩为「审而不改 + 写审分离（author≠reviewed_by，lint 强制）」；KF-024 保留=行为转化三要件；原第二个 KF-024「卡片体量上限」改编号 KF-026，§1.13 与附录 D 引用同步；KF-025 域完成四问保持不动
+   - G §10.2：`revision（生产者/建设者按域修正）`、`verify（Architect（欧阳锋）复审关闭）`
+   - H 附录 A 改 F-KDO-001~016；附录 B 标历史快照（停在 2026-05，现行队列以 production-queue.md 为准）；附录 D 加 2026-08-22 v2.0 行
+   - I 新增附录 E「2026-08-22 现实对账记录」：AGENTS.md 角色旧制、铁律数 22 过时（AGENTS.md:386 / rules-core.md:34）、context 卡 KF-025 三问口径落后、spec 卡 draft/#428 在途、#399 复扫缺手册引用口径检查项——均列为外部漂移不直接改
+2. 本任务单：状态改 `in_progress（claimed-kimi）`、assignee 行补当前实例，追加本整改记录；frontmatter 未手改
+
+**自检结果**：grep 确认手册无 `v1.6` 标题、无 `KF-001~022`、无第二个 `KF-024` 体量上限、无「复合编译执行」；存在 `v2.0`、`KF-026`、「入宪六方」、`queued → claimed`；Python 读 frontmatter 确认 `version == "2.0"`。输出摘要见会话记录。
