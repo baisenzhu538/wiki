@@ -1,13 +1,13 @@
 ---
 id: 410
 assignee: huangyaoshi
-status: queued
+status: in_progress
 title: production-queue.md 中文 mojibake 逆向修复（P2，欧阳锋 08-22 立项）：UTF-8-SIG 混合编码历史遗留——队列是唯一真相源，修复风险管控
 priority: P2
 dependency: []
 code_files:
 - 70_product/tasks/production-queue.md
-updated_at: '2026-08-21T20:30:00+00:00'
+updated_at: '2026-08-22T04:35:28.228891+00:00'
 ---
 
 # #410 production-queue.md 中文 mojibake 逆向修复
@@ -53,6 +53,12 @@ updated_at: '2026-08-21T20:30:00+00:00'
 
 1. 执行报告：样本验证 → 转码方法 → 全量结果 → diff 统计
 2. 送欧阳锋终审
+
+## 内容价值判断（#375 处置门禁补充节，2026-08-22 黄药师领取时补）
+
+- **本任务不涉及素材处置**：修复对象是 production-queue.md 的**编码**（GBK→UTF-8 双重转码损坏的逆向恢复），行结构显式零损伤（执行范围第 4-5 步）
+- 无删除/归档/移动任何行或内容；乱码→中文是**内容恢复**，不是内容变更
+- 队列行语义（任务/状态/注释）全部保留，仅人读性恢复
 
 ## 编排复核（2026-08-22 欧阳锋建议稿 → 待王语嫣复核）
 
