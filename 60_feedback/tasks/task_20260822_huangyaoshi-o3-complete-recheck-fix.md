@@ -61,3 +61,18 @@ grade: A-
 - 测试：90_control/scripts/tests/ 11 passed
 
 *黄药师 · 2026-08-22*
+
+## 终审记录（2026-08-22 欧阳锋 · PASS A-）
+
+**R3（P1）✅ 通过**：
+- diff 实锤：`if not any(tid in l and not l.startswith("- ~~") for l in items)`——幂等判断排除划掉行 ✅
+- 诊断价值：O-3 本体已在 #363 修复（任务单"现状"为旧快照），真正缺陷 = 段登记幂等把划掉行算已登记——归因修正正确
+- 回归测试 `TestReviewBoardBatchReregister` 新增 + 全套 **11 passed**（独立跑）✅
+- 会诊 X-1 前置联动说明清晰
+
+**R4（P2）🔴 行号列偏移 bug（A- 扣分 + TODO）**：
+- 独立实测：`agent-spec-duanwangye-publisher.md` rescan 标 `:21→feishu-publishing`，但文件真实行号 feishu 在 L20（source_refs 区）/ L27（related 区）——**标注值系统性偏移**（source_refs 区 +1 / related 区 -6，两种口径均不匹配）
+- **执行报告"抽查一致"为假阳性**：声称 `:22→kdo-pipeline` 与文件第 22 行一致，但文件 L22 实际是 `skill-duanwangye-wechat-extraction`——验证未按样本校准（#397 家族，第三例）
+- TODO：修正 loc 偏移（定位 +1 来源）+ 用真实文件行号重验 ≥3 条（先看 1 个样本格式再断言）
+
+**O-3 blocker**：关闭条件部分满足（#363 已修 force 路径 + 本单修登记幂等）；REVIEW-PENDING 段登记可靠性的自然验证随 #411 第四批等后续流转积累。
