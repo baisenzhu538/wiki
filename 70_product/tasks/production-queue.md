@@ -436,7 +436,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 413 | `task_20260822_huangyaoshi-o3-complete-recheck-fix` | O-3 complete 锁内 re-check 修复（P1）+ related-asymmetry 清单标注原始链方向（P2 可缓）——欧阳锋建议书 R3+R4，王语嫣复核通过 | reviewed | huangyaoshi | 修复+实测 | 无 | `60_feedback/tasks/task_20260822_huangyaoshi-o3-complete-recheck-fix.md` | #411 三批提审无声实证；验收=complete 后 REVIEW-PENDING 必登记实测 3 单+O-3 blocker 关闭；X-1 探针前置（段无登记则通知落空）；排序：#412→#410→#409→本单，不打断在跑任务；改流转脚本必跑既有测试+补回归用例；欧阳锋终审 |
 | 414 | `task_20260822_huangyaoshi-code-copies-cleanup` | 清 4 处字节级代码副本（P0，会诊止血）：采集管线脚本 40_outputs vs kdo-tools 指针化 | queued | huangyaoshi | 4 处指针化 | 无 | `60_feedback/tasks/task_20260822_huangyaoshi-code-copies-cleanup.md` | 先查引用（E014）；kdo-tools 为真身；md5 对比 0 副本附输出；欧阳锋终审 |
 | 415 | `task_20260822_huangyaoshi-toolname-reference-map` | 工具名引用清单（P0，B4-2 前置）：codex/claude/hermes/kimi 等五类扫描面引用地图 | queued | huangyaoshi | 引用面地图 | 无 | `60_feedback/tasks/task_20260822_huangyaoshi-toolname-reference-map.md` | 只读不出替换；五类扫描面无遗漏声明；欧阳锋终审 |
-| 416 | `task_20260822_wangyuyan-kdo-charter-draft` | 《KDO 基本法》框架稿（P0，G4 第 0 步）：定位与战略+六方角色职责+工作流原则 | pending_review | wangyuyan | 框架稿 v0.1 | 无 | `60_feedback/tasks/task_20260822_wangyuyan-kdo-charter-draft.md` | 全部条文溯源拍板编号；角色专场后定稿；欧阳锋终审+老朱终稿 |
+| 416 | `task_20260822_wangyuyan-kdo-charter-draft` | 《KDO 基本法》框架稿（P0，G4 第 0 步）：定位与战略+六方角色职责+工作流原则 | reviewed | wangyuyan | 框架稿 v0.1 | 无 | `60_feedback/tasks/task_20260822_wangyuyan-kdo-charter-draft.md` | 全部条文溯源拍板编号；角色专场后定稿；欧阳锋终审+老朱终稿 |
 | 417 | `task_20260822_wangyuyan-industrialization-manual-revamp` | 工业化手册整改（P0）：版本号归一+角色表对齐基本法+手册 vs 现实对账 | queued | wangyuyan | 整改手册 | 依赖 #416 | `60_feedback/tasks/task_20260822_wangyuyan-industrialization-manual-revamp.md` | 版本号脚本校验（防复发）；风清扬定期审计手册差距；欧阳锋终审 |
 | 418 | `task_20260822_huangyaoshi-agent-retro-governance-p0` | agent复盘 治理 P0（T1-T3）：codex→fengqingyang 归并+中英双轨合并+复盘三轨收口 | queued | huangyaoshi | 归并+收口 | 无 | `60_feedback/tasks/task_20260822_huangyaoshi-agent-retro-governance-p0.md` | 硬前置=先出引用清单（E014，各 context 写死桌面路径）；先治理再迁移；欧阳锋终审抽归并完整性 |
 | 419 | `task_20260822_huangyaoshi-review-gate-depth-upgrade` | 复盘门禁双查升级（P1）：review-check 形式+深度四条硬指标——想犯错也犯不了 | queued | huangyaoshi | 门禁升级 | 样本王语嫣提供 | `60_feedback/tasks/task_20260822_huangyaoshi-review-gate-depth-upgrade.md` | 3 张样本校准先行防误伤；存量复盘不回改；欧阳锋终审 |
@@ -494,7 +494,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#411 task_20260822_laowantong-related-asymmetry-backfill｜hermes｜提审 08-22 17:38｜60_feedback/tasks/task_20260822_laowantong-related-asymmetry-backfill.md~~ → 第十五批 PASS A-（2026-08-22 欧阳锋，批次验收）
 - ~~#411 task_20260822_laowantong-related-asymmetry-backfill｜hermes｜提审 08-22 19:56｜60_feedback/tasks/task_20260822_laowantong-related-asymmetry-backfill.md~~ → 第十六批 PASS A（2026-08-22 欧阳锋，批次验收）
 - ~~#414 task_20260822_huangyaoshi-code-copies-cleanup｜huangyaoshi｜提审 08-22 19:59｜60_feedback/tasks/task_20260822_huangyaoshi-code-copies-cleanup.md~~ → 终审退回 queued（2026-08-22 欧阳锋）
-- #416 task_20260822_wangyuyan-kdo-charter-draft｜wangyuyan｜提审 08-22 20:03｜60_feedback/tasks/task_20260822_wangyuyan-kdo-charter-draft.md
+- ~~#416 task_20260822_wangyuyan-kdo-charter-draft｜wangyuyan｜提审 08-22 20:03｜60_feedback/tasks/task_20260822_wangyuyan-kdo-charter-draft.md~~ → 已终审 PASS A（2026-08-22 欧阳锋）
 - #411 task_20260822_laowantong-related-asymmetry-backfill｜hermes｜提审 08-22 20:08｜60_feedback/tasks/task_20260822_laowantong-related-asymmetry-backfill.md
 
 <!-- REVIEW-PENDING-END -->
