@@ -1,8 +1,8 @@
 ---
 id: 422
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-22T15:05:38.092708+00:00'
+status: pending_review
+updated_at: '2026-08-22T15:15:43.409792+00:00'
 ---
 # #422 agent复盘 治理 P1（T5 裁剪版+T6 散落文件归类）
 

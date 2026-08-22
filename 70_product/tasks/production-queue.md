@@ -442,7 +442,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 419 | `task_20260822_huangyaoshi-review-gate-depth-upgrade` | 复盘门禁双查升级（P1）：review-check 形式+深度四条硬指标——想犯错也犯不了 | reviewed | huangyaoshi | 门禁升级 | 样本王语嫣提供 | `60_feedback/tasks/task_20260822_huangyaoshi-review-gate-depth-upgrade.md` | 3 张样本校准先行防误伤；存量复盘不回改；欧阳锋终审 |
 | 420 | `task_20260822_wangyuyan-parking-lot-consolidation` | 工厂停车场收口（P1，B4-4）：6 份旧停车场→单一 parking-lot（F-xxx+生命周期+清账） | reviewed | wangyuyan | 单一停车场 | 无 | `60_feedback/tasks/task_20260822_wangyuyan-parking-lot-consolidation.md` | 风清扬 §14.5 方案；清账明细附报告；欧阳锋终审抽去重正确性 |
 | 421 | `task_20260822_huangyaoshi-conveyor-probes` | 传送带探针（P1，X-1）：通知契约先定（低打扰/三类信号/幂等/不打扰）+三探针实现+PROPOSAL-PENDING 自动登记与建议书到达即时通知（追加一/二，登记+通知同源） | reviewed | huangyaoshi | 契约+探针 | O-3 已交付（#413） | `60_feedback/tasks/task_20260822_huangyaoshi-conveyor-probes.md` | 边界硬编码只通知不领取不裁决不流转；检出逻辑单份禁第二套扫描器；欧阳锋终审抽边界真实性 |
-| 422 | `task_20260822_huangyaoshi-agent-retro-governance-p1` | agent复盘 治理 P1（T5 裁剪版+T6 散落 12 文件归类+T8 垃圾清理） | claimed-huangyaoshi | huangyaoshi | 归类清零 | 依赖 #418 | `60_feedback/tasks/task_20260822_huangyaoshi-agent-retro-governance-p1.md` | 停更实例只归并不恢复复盘（王语嫣裁剪）；归类映射表附报告；欧阳锋终审 |
+| 422 | `task_20260822_huangyaoshi-agent-retro-governance-p1` | agent复盘 治理 P1（T5 裁剪版+T6 散落 12 文件归类+T8 垃圾清理） | pending_review | huangyaoshi | 归类清零 | 依赖 #418 | `60_feedback/tasks/task_20260822_huangyaoshi-agent-retro-governance-p1.md` | 停更实例只归并不恢复复盘（王语嫣裁剪）；归类映射表附报告；欧阳锋终审 |
 | 423 | `task_20260822_fengqingyang-observer-five-piece-set` | 观察者五件套补齐（P1，风清扬自领）：技能日志/反馈档案/错误模式库/索引/雷达图 | queued | fengqingyang | 五件套 | 无 | `60_feedback/tasks/task_20260822_fengqingyang-observer-five-piece-set.md` | 必须入 git（E040，锚点幽灵事件不二犯）；内容真实不抄模板；欧阳锋终审抽查 |
 | 424 | `task_20260822_huangyaoshi-agent-retro-governance-p2` | agent复盘 治理 P2（T7 归档结构统一+T9 目录白名单固化） | queued | huangyaoshi | 结构+白名单 | 依赖 #418/#422 | `60_feedback/tasks/task_20260822_huangyaoshi-agent-retro-governance-p2.md` | 白名单规则王语嫣审；欧阳锋终审 |
 | 425 | `task_20260822_huangyaoshi-health-metrics-set` | KDO 健康度指标集（P1，G4 第 2 步）：7 指标脚本化一条命令出健康报告 | reviewed | huangyaoshi | 健康报告 | 无 | `60_feedback/tasks/task_20260822_huangyaoshi-health-metrics-set.md` | #399 工具同仓演进；与 W3 基线对账；报告第一读者=风清扬（W8）；欧阳锋终审 |
@@ -519,6 +519,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#421 task_20260822_huangyaoshi-conveyor-probes｜huangyaoshi｜提审 08-22 22:11｜60_feedback/tasks/task_20260822_huangyaoshi-conveyor-probes.md~~ → 已终审 PASS A-（2026-08-22 欧阳锋）
 - ~~#417 task_20260822_wangyuyan-industrialization-manual-revamp｜kimi｜提审 08-22 22:14｜60_feedback/tasks/task_20260822_wangyuyan-industrialization-manual-revamp.md~~ → 已终审 PASS A-（2026-08-22 欧阳锋）
 - ~~#428 task_20260822_laowantong-fengqingyang-agent-spec｜laowantong｜提审 08-22 22:38｜60_feedback/tasks/task_20260822_laowantong-fengqingyang-agent-spec.md~~ → 已终审 PASS A-（2026-08-22 欧阳锋）
+- #422 task_20260822_huangyaoshi-agent-retro-governance-p1｜huangyaoshi｜提审 08-22 23:15｜60_feedback/tasks/task_20260822_huangyaoshi-agent-retro-governance-p1.md
 
 <!-- REVIEW-PENDING-END -->
 
@@ -555,5 +556,6 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - diag_20260822_fengqingyang-proposal-board-dedup.md｜08-22 22:03｜待王语嫣复核裁定
 - diag_20260822_probe-test-1-proposal.md｜08-22 22:03｜待王语嫣复核裁定
 - diag_20260822_probe-test-3-notify.md｜08-22 22:26｜待王语嫣复核裁定
+- diag_20260822_fengqingyang-l0-backup-path.md｜08-22 23:11｜待王语嫣复核裁定
 
 <!-- PROPOSAL-PENDING-END -->
