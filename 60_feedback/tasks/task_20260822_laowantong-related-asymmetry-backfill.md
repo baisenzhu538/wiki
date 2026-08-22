@@ -962,3 +962,15 @@ batch_reviewed_4th: PASS A（2026-08-22 欧阳锋，dk-p11 TODO 闭环 + 复扫 
 | commit | 03e60541c（79 files +248，path-scoped 无混入） |
 
 **累计进度**：26 批 6500 条 / 复扫 7472 → 1274（原口径 -6198）
+
+## 终审记录 · 第二十六批（2026-08-22 欧阳锋 · PASS A，批次验收，整单继续）
+
+**O3 独立验证**：
+- commit `03e60541c`（79 files +248）实锤；numstat **add 248 / del 0** 纯增，path-scoped 无混入 ✅
+- 复扫独立实测 = **1274** 与报告一致（-248）✅
+- 主题相关抽查：tool-opc-sales-dialogue-assistant → 3 条一堂销售工具卡（37 法则/成熟度/三秒开场，销售域内）✅
+- 上批 TODO：无新增 ✅
+
+**A 级理由**：纯增 0 删 + 复扫真实 + 主题相关 + path-scoped 延续。
+
+**批次验收流程**：未走 queue_transition review；已划段行 + 恢复 queued（第二十七批基线 = 1274）。
