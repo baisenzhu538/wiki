@@ -83,7 +83,7 @@ reviewers: 王语嫣（编排）· 欧阳锋（终审）· 黄药师（基建）
 
 ### 维度 5 · 基础设施与代码：5 落点 + 副本违规
 - 代码散落 5 处：`kdo/`、`kdo-tools/`、`40_outputs/code/scripts/`、`90_control/scripts/`、`.kdo/`。
-- 实锤：`40_outputs/code/scripts/` 中 5 个脚本与 `kdo-tools/` 字节级重复，违反"#359 禁止副本"。
+- 实锤：`40_outputs/code/scripts/` 中 4 个脚本与 `kdo-tools/` 字节级重复，违反"#359 禁止副本"。
 
 ### 维度 6 · 角色与治理：维护人模糊、角色表过时
 - 工业化手册写"欧阳锋维护"，但编排权已转王语嫣，旧分工未清。
@@ -178,7 +178,7 @@ reviewers: 王语嫣（编排）· 欧阳锋（终审）· 黄药师（基建）
 
 - 观察者进展（④⑤）必须上板：胶囊是全员记忆原料，不上板则他人无法感知审计发现、也无法从胶囊提炼资产。
 - 工作台文件形态建议：`dashboard.md` 升级为 `全员工作台.md`，四层结构＝决策区 / 七类工作流分区 / 观察者记忆区（胶囊索引·摘要·归档阈值）/ 角色停车场（补观察者一行）。
-- 不把新内容继续塞进已 207KB 的 `production-queue.md`。
+- 不把新内容继续塞进已 202,741B（修复前 218,056B）的 `production-queue.md`。
 
 **4.6.1 从「看得见」到「被通知」：传送带探针（事件驱动队列编排）**
 
@@ -312,7 +312,7 @@ reviewers: 王语嫣（编排）· 欧阳锋（终审）· 黄药师（基建）
 
 | 阶段 | 内容 | 目标 |
 |:--|:--|:--|
-| P0 止血 | 清 5 个重复副本；统一工业化手册版本号/章节；memory-registry 成唯一真相源；诊断报告归位 60_feedback/diagnosis；复盘格式收口唯一（10/11 章、章节顺序） | 先消灭漂移源 |
+| P0 止血 | 清 4 个重复副本；统一工业化手册版本号/章节；memory-registry 成唯一真相源；诊断报告归位 60_feedback/diagnosis；复盘格式收口唯一（10/11 章、章节顺序） | 先消灭漂移源 |
 | P1 四层记忆 | 时间胶囊(30min SQLite)→摘要→归档→锚点自动生成；观察者定位落文档；复盘配消费者 + 门禁升级查深度 | 记忆不再丢、不再各写各的；复盘可持续 |
 | P2 元层+工作台 | 资产提炼加"价值判断门"；试点元 Partner；看板升级全员工作台 | 人肉萃取→自动回收；全员可见 |
 | P3 外部调用 | 单仓 infra/vault；git 真相源 + 本地 MCP + 单写者；CII 上下文注入规范；统一会话上下文协议 + 一个库一个默认执行器 | 外部 Agent 稳定调用、不漂移；工具可换、资产不漂 |
@@ -362,9 +362,10 @@ reviewers: 王语嫣（编排）· 欧阳锋（终审）· 黄药师（基建）
 ---
 
 ## 八、附录：证据索引
+- **数字勘误（W3 核实，2026-08-22）**：`60_feedback/consultation/2026-08-22-kdo-systemic-upgrade/w3-verification.md`——本建议书写作时点快照数字经黄药师工具重跑核实：①「1354 卡 888 draft」口径差异（当前 30_wiki 2865 卡 / draft 798 / reviewed 1362 / enriched 641）②「207KB」不属实（202,741B，修复前 218,056B）③「5 处副本」不属实（4 处：collect_wechat / douyin_cookie_extract / douyin_user_videos / wechat_link_monitor）。正文相关表述已按核实值修订。
 
 - 工业化手册：`90_control/kdo-industrialization-manual.md`（版本漂移：正文 v1.6 / frontmatter 1.9 / 内容含 KF-025）
-- 代码副本：`kdo-tools/` vs `40_outputs/code/scripts/` 五文件字节一致
+- 代码副本：`kdo-tools/` vs `40_outputs/code/scripts/` 四文件字节一致
 - 记忆注册表：`20_memory/memory-registry.md`
 - 看板：`70_product/tasks/production-queue.md`（audience 不含观察者/王语嫣）+ `dashboard.md`
 - AI 知识库素材：`00_inbox/AI知识库/`（口述 3510 行 + 逐字稿 + OCR）
@@ -475,7 +476,7 @@ reviewers: 王语嫣（编排）· 欧阳锋（终审）· 黄药师（基建）
 - 三步：复制三件套 → cap_hub 注册 → 对齐新库 git HEAD/队列尾/memory-registry，胶囊台账从零起。
 
 ### 11.3 KDO 代码：先合并定版，再安装式随库走
-- 现状两套真相源：CLI 源码仓 `github.com/baisenzhu538/kdo.git`（HEAD 419bd92）+ wiki 内 `kdo-tools/`；另有 `40_outputs/code/scripts/` 5 个字节级副本。
+- 现状两套真相源：CLI 源码仓 `github.com/baisenzhu538/kdo.git`（HEAD 419bd92）+ wiki 内 `kdo-tools/`；另有 `40_outputs/code/scripts/` 4 个字节级副本。
 - 直接随库走 = 把"两套真相源 + 副本"的漂移扩散到每个厂 → 分支裂变放大器。
 - 正确顺序：P0 归位唯一源码仓 + 删副本 + 版本化（`kdo==x.y.z`）→ P3 各厂安装锁版本，不复制代码。
 
@@ -498,7 +499,7 @@ reviewers: 王语嫣（编排）· 欧阳锋（终审）· 黄药师（基建）
 
 ### 12.2 三个结构病（印证 2026-06-14 周伯通诊断）
 1. 原材料 / 半成品 / 成品混仓：00_inbox 的 AI知识库 把原始图片 / OCR / 逐字稿 / 深挖笔记 / 任务书全混在一起；30_wiki 内还嵌套着 `60_feedback` 与 `raw`。
-2. ingest→enrich 断裂：1354 卡 888 draft（65.6%），draft 没有独立里程碑，成品检索层被 draft 污染。
+2. ingest→enrich 断裂：1354 卡 888 draft（65.6%）【W3 核实口径差异：当前 30_wiki 2865 卡 / draft 798 / reviewed 1362 / enriched 641】，draft 没有独立里程碑，成品检索层被 draft 污染。
 3. 元层插进内容里程碑：`20_memory`（记忆）是元层，却夹在 10_raw 与 30_wiki 两个内容里程碑之间，编号轴被打断。
 
 ### 12.3 标准生产工厂蓝图（可复制）
@@ -622,7 +623,7 @@ reviewers: 王语嫣（编排）· 欧阳锋（终审）· 黄药师（基建）
 ### 14.4 与现有仓库的差异（迁移清单）
 1. `20_memory` → `memory/`（元层移出编号轴）。
 2. `90_control` → `control/`（元层移出编号轴）。
-3. 新增 `20_draft/`（draft 与成品分仓，解决 888 draft 混入检索层）。
+3. 新增 `20_draft/`（draft 与成品分仓，解决 draft 混入检索层（当前 798））。
 4. `00_inbox` 出 git + `.gitignore` 大二进制。
 5. 根目录垃圾清理：`_tmp`(29298) / temp_gerber / tmp_video / videos / laowantong / wangyuyan / duanzhixing / scripts / docs / raw / Excalidraw / Clippings / aesthetic-libs / _skills / `wiki/wiki`(嵌套 git) / C(乱码名)。
 6. `30_wiki` 内的嵌套 `60_feedback`、`raw` 归位到顶层对应目录。
