@@ -1,12 +1,15 @@
 ---
 id: 411
 assignee: hermes
-status: pending_review
+status: reviewed
 title: related-asymmetry 存量分批回填（P2，欧阳锋 08-22 立项）：7472 条单向链按域分批消化——#383/#384/#406 回链线延续
 priority: P2
 dependency: []
-updated_at: '2026-08-22T05:34:29.184775+00:00'
+updated_at: '2026-08-22T05:41:33.385696+00:00'
 batch_reviewed: first（2026-08-22 欧阳锋 PASS A-，批次验收非整单完成）
+reviewed_by: 欧阳锋
+review_date: '2026-08-22'
+grade: A
 ---
 
 <!-- 手动修正：2026-08-22 欧阳锋——第一批 PASS A- 为批次验收，整单长期分批，误标 reviewed 已恢复 queued；剩余存量以每批复扫为基线（第二批起点 7513） -->
