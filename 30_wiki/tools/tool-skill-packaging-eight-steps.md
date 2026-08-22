@@ -44,6 +44,8 @@ related:
 - '[[dk-context-patching-recipe]]'
 - '[[dk-ai-builder-illusion]]'
 - '[[concept-meta-skill-layering]]'
+- '[[case-truman-ai-skill-engineering-guide]]'
+- '[[case-truman-ai-skill-self-packaging]]'
 review_date: 2026-08-16
 ---
 

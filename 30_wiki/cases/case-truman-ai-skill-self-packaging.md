@@ -4,21 +4,25 @@ title: AI 自复盘自封装：Truman 的 design case 技能是如何让 AI 自�
 type: case
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
-status: enriched
-confidence: 0.7
-domain: src-unknown
+- 00_inbox/AI知识库/楚门-AI知识管理探索营-口述.txt
+status: pending_review
+confidence: 0.85
+domain: ai-collaboration
 created_at: '2026-06-14'
-author: 黄药师（基于 Truman 口述提取）
-reviewed_by: 老顽童
-review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
+author: 黄药师（基于 Truman 口述提取），老顽童 2026-08-22 回填补强
+reviewed_by: pending
+review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。2026-08-22 #408 回填空洞清零 + 8-15 口述增量（YI partner 复用链）。
 review_date: '2026-06-16'
-trust_level: medium
+trust_level: high
 discoverable_by:
   - AI 自复盘自封装：Truman 的 design case
   - 自复盘自封装
   - 技能是如何让
   - 自己包装出来的
 related:
+- '[[case-truman-ai-skill-engineering-guide]]'
+- '[[tool-skill-packaging-eight-steps]]'
+- '[[dk-three-context-formula]]'
 - '[[case-strategy-practice-11-third-place]]'
 - '[[case-private-domain-ecommerce-formula]]'
 - '[[case-strategy-failure-06-phone-n]]'
@@ -37,13 +41,12 @@ related:
 - case-child-drawing-rhyme
 - case-truman-personal-growth-map-creation
 tags:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
 - audience:general
 - scene:reference
 - skill-level:intermediate
+- ai-collaboration
+- ai-self-packaging
+- case-truman
 diagnostic_signals:
 - framework_lens: AI自复盘——让AI总结这次经验变下次基础
   follow_up_question: 你最后一次项目结束时，有没有让AI扫描你全程的纠偏记录、自动生成一个skill？
@@ -51,13 +54,19 @@ diagnostic_signals:
   follow_up_question: 你用过哪些AI工具？它们的对话/反馈记录是明文存储的吗？如果是，可以直接让另一个AI去读。
 - framework_lens: 缺少可复用的审美底盘和硬性坑清单
   follow_up_question: 你是否有一个"做过就忘不掉"的skill文件，能在每次同类任务开始时自动加载审美标准和禁止项？
-source_context: （单一 source 为完整长文档，内容充分支撑 high trust） （单一 source，P1 收尾时从 high 降为 medium，待补充第二来源或充分验证后再升回
-  high）
-updated_at: '2026-06-29'
+source_context: 单一 source 为完整长文档，内容充分支撑 high trust；2026-08-22 #408 已补第二来源（8-15 口述 L1056-1072）并回填全部空洞，trust 从 medium 升回 high
+updated_at: '2026-08-22'
 aliases:
 - 建模能力培训
+- AI知识库
+- 楚门-AI知识管理探索营-口述
+- AI 自复盘自封装
+- design case
+- AI 自封装
 ---
 # AI 自复盘自封装：Truman 怎么让 AI 把自己包装成一个技能
+
+> 本卡属于 AI 协作域的 AI 自封装案例卡：展示"项目结束 → AI 扫描纠偏记录 → 合并同类项 → 封装 skill → 下次自动加载"的完整自复盘闭环，与 `case-truman-ai-skill-engineering-guide`（人工造 Skill 工程指南）同源互补、分工不同——本卡讲 AI 怎么自己把经验封装成 skill，那张卡讲人怎么造出高质量 Skill 指南并审计。方法论配套见 `tool-skill-packaging-eight-steps`（Skill 八步封装）。
 
 > **Burn line**: 不是人写 skill——是 AI 扫描你所有的纠偏记录，自己把自己的经验封装成 skill。
 
@@ -93,11 +102,11 @@ Truman 在一堂高阶建模课上分享了一个插画/PPT 协作案例：他�
 
 AI 扫描完所有纠偏记录后，自动：
 
-- src_unknown
-- src_unknown
-- src_unknown
+- 把所有反馈和建议**合并同类项**——"把我给他的建议合并同类项给我做一个拆分例子"（L1212）
+- 提炼"出现一次我喷一次"的硬性坑为禁止项（L1218）
+- 从大量沟通纠偏中抽象出可复用的规则，Truman 只需喷一段提示词（L1218）
 
-> "告诉我把我的建议合并同类项给我做一个拆分例子。"
+> "告诉我把我的建议合并同类项给我做一个拆分例子。"（L1212）
 
 ### Step 4：AI 生成结构化 skill
 
@@ -181,80 +190,89 @@ AI 扫描完所有纠偏记录后，自动：
 
 ### 触发条件
 
-- src_unknown
-- src_unknown
-- src_unknown
+> 依据口述：高频重复任务 + 纠偏记录可扫描（L1204-1212）
+
+- 你最近在某个高频任务上跟 AI 做了大量协作（如做图/做 PPT）（L1204-1206）
+- 协作过程中有大量"颜色不对/流程不对/缺东西"式纠偏（L1208）
+- AI 工具的对话/反馈记录是明文存储、可被另一个 AI 扫描（L1230）
 
 ### 执行步骤
 
 1. **圈定扫描范围**
-   - src_unknown
-   - src_unknown
-   - src_unknown
+   - 指定要扫描哪个 AI 工具（如 Cubox/Codex）的本地存储（L1210）
+   - 指定关键词/时间范围（L1230）
+   - 确认记录是明文存储（L1230）
 
 2. **运行封装提示词**
 
    ```markdown
    请扫描以下范围内的所有 AI 协作记录：
-   - src_unknown
-   - src_unknown
-   - src_unknown
+   - 工具：Cubox / Codex 等本地存储
+   - 关键词：本次项目的全部纠偏反馈
+   - 时间范围：本次项目周期
 
    请完成：
    1. 合并同类项：把重复出现的纠偏点归类
-   2. 输出一个名为 "______" 的 skill，包含：
-      - src_unknown
-      - src_unknown
-      - src_unknown
-      - src_unknown
-      - src_unknown
-      - src_unknown
+   2. 输出一个名为 "design case" 的 skill，包含：
+      - 使用场景：什么时候调用
+      - 审美底盘：可接受/不可接受的视觉标准
+      - 协作流程：先看懂参考 → 先发散再收敛 → 每轮一个主问题
+      - track list：检查项清单
+      - 评审表：不同类型图要考虑什么
+      - 硬性坑：出现一次喷一次的禁止项
    3. 每条规则标注来源：来自哪一次具体纠偏
    ```
 
 3. **人工终审**
-   - src_unknown
-   - src_unknown
-   - src_unknown
-   - src_unknown
+   - 检查 AI 抽象是否准确、是否过度泛化（L1216"比我想象中好得多"但需人把关）
+   - 确认硬性坑提取正确（L1218）
+   - 确认没有把无关对话混入（失败模式：扫描范围不清）
 
 4. **下次任务加载使用**
-   - src_unknown
-   - src_unknown
-   - src_unknown
+   - 下次做同类任务时，AI 基于该 skill 自动执行（L1220）
+   - "下一次就会明显聪明很多"（L1220）
 
 ---
 
 ## 互链与关联
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- `case-truman-ai-skill-engineering-guide`——同源互补：本卡讲"AI 自封装流程"，那张卡讲"如何人工造出高阶 Skill 工程指南"（L1194-1218 vs 口述 L2422-2604）
+- `tool-skill-packaging-eight-steps`——Skill 八步封装的方法论工具卡，与 AI 自封装流程互为补充
+- `dk-three-context-formula`——三上下文公式（我是谁/项目文档/设计宪法）：本卡 AI 自封装产出的 skill 即"设计宪法"的自动生成路径
+- `tool-Truman-提示词优化底层方法`——Truman 提示词优化方法论，自封装时 AI 反推格式依赖同一套底层逻辑
+- `tool-Truman-AI能力分层学习路径`——AI 能力分层学习，自封装是分层学习中"经验资产化"的一环
 
----
+## 8-15 口述增量补强：自封装 → 复用的闭环（YI partner）
 
----
+> 来源：`00_inbox/AI知识库/楚门-AI知识管理探索营-口述.txt` L1056-1072（本次回填新增）
+
+- **封装成 YI partner"skill 创业专家"**：把做好的 skill 封装成 YI 里的 partner，以后对那个 partner 说"我想去做一个调研的专家"（L1056-1060）
+- **复用产新 skill**：对着 partner 说去知识库搜调研方法论 → 它吸收大量知识库关于调研的方法、原则、策略 → 做出一套调研 skill 文档（L1062-1066）
+- **保存链路**：YAI 笔记 → Cubox → Obsidian，"全程我就是盯着那个目录在做的"，奥森的目录里就有了一套调研技能（L1068-1072）
+- 这构成完整闭环：**自封装（design case）→ 沉淀为 partner → 复用产新 skill**——AI 自复盘的产出不再是一次性文档，而是可持续调用的资产
 
 ## 关键证据
 
-- src_unknown
-- src_unknown
-- src_unknown
-
----
+- "AI 自己复盘，AI 干活，我只提供双三角模型的审美，我把活干完了，我只要喷那么一段提示词"（L1218）
+- "帮我把他给我的建议合并同类项给我做一个拆分例子"（L1212）
+- "比我想象中其实好的多的一个技能，包括是什么场景……包括审美的底盘，包括协作的流程……track list，他自己做了一个评审表……甚至哪些是硬性的坑"（L1216）
+- "以后下一次再做的时候，它会基于这个再去做，下一次就会明显聪明很多"（L1220）
+- "它善于围绕着一个主题定义好边界之后，去各个地方帮我去找我跟 AI 的协作记录，然后做一次大的拆推评算，最后变成一个更好的技能"（L1226）
+- "你只要指定关键词，他都几乎都能扫的出来……他本地其实好多都是明文存的"（L1230）
+- 8-15：封装成 YI partner"skill 创业专家"→ 复用产"调研专家"skill（L1056-1066）
 
 ## 教训
 
-- src_unknown
-- src_unknown
-- src_unknown
+- **复盘 ROI 低是人的问题，不是工作的问题**："过去人做的 ROI 是很低的，因为人其实每一次的复盘成本很高"——AI 自复盘把成本压到"喷一段提示词"（L1200 / L1218）
+- **及时性是第一约束**：记忆会忘、信息会随时间消失，"过了几天有些东西你真的不一定能找得回来"——项目结束当场就让 AI 扫描封装（L1224）
+- **前提是明文存储**：AI 能跨工具扫描的前提是对话/反馈记录明文存在；不满足就做不了（L1230）
+- **人的角色是定义边界 + 终审**：人只圈定扫描范围、验收 skill、继续纠偏；不要人肉做合并分类（L1218 / 失败模式"人不审"）
+- **自封装产出要沉淀为可复用资产**：8-15 案例证明，封装成 YI partner 后能持续复用产新 skill——"经验→资产→再产经验"循环（L1056-1066）
 
 ## Sources
 
-- src_unknown
+- `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`（L1194-1232 核心段落：AI 自复盘背景/design case 五步/明文存储前提）
+- `00_inbox/AI知识库/楚门-AI知识管理探索营-口述.txt`（L1056-1072，8-15 新细节：YI partner 封装/复用产调研专家/保存链路）
 
 ---
 

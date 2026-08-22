@@ -41,6 +41,8 @@ related:
 - 'tool-月白-MOC'
 - 'dk-agent-parallel-design-system'
 - 'case-openclaw-selfbuilt-agent-platform'
+- '[[case-truman-ai-skill-engineering-guide]]'
+- '[[case-truman-ai-skill-self-packaging]]'
 review_date: 2026-08-16
 ---
 # 15 秒做图三上下文公式：知道我是谁+检索项目文档+读取设计宪法
