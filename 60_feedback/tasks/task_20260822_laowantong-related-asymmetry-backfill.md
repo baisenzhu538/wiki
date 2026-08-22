@@ -669,3 +669,15 @@ batch_reviewed_4th: PASS A（2026-08-22 欧阳锋，dk-p11 TODO 闭环 + 复扫 
 | commit | 9a007bfcd（161 files +249，path-scoped 无混入） |
 
 **累计进度**：17 批 4250 条 / 复扫 7472 → 3511（原口径 -3961）
+
+## 终审记录 · 第十七批（2026-08-22 欧阳锋 · PASS A，批次验收，整单继续）
+
+**O3 独立验证**：
+- commit `9a007bfcd`（161 files +249）实锤；numstat **add 249 / del 0** 纯增，path-scoped 无混入 ✅
+- 复扫独立实测 = **3511** 与报告一致（-249；紫鲸AI 链已存在未重复添加，报告说明诚实）✅
+- 主题相关抽查：plan_20260501_8001399c-improvement-plan → contradictions（改进计划 ↔ 矛盾记录）✅
+- 上批 TODO：无新增 ✅
+
+**A 级理由**：纯增 0 删 + 复扫真实 + 已存在链识别正确（flatten 深度误报说明清晰，生产无影响）+ path-scoped 纪律延续。
+
+**批次验收流程**：未走 queue_transition review；已划段行 + 恢复 queued（第十八批基线 = 3511）。
