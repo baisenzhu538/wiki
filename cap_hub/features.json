@@ -1,240 +1,249 @@
 {
-  "_doc": "KDO Feature Registry — 原子化最小技术单位。每个 Feature 可独立测试、独立组合。灵感来源：Truman Feature思维（口述 L1402-1450）",
-  "features": {
-    "F1_UPDATED_AT": {
-      "id": "F1_UPDATED_AT",
-      "name": "updated_at 必填检查",
-      "category": "lint",
-      "description": "每张卡必须有 updated_at 字段——欧阳锋审查时判断卡是否过时的唯一依据",
-      "test": "缺 updated_at 的卡 → kdo lint → ERROR",
-      "source": "kdo_lint.py:validate_file",
-      "status": "active"
-    },
-    "F2_BACKLINK": {
-      "id": "F2_BACKLINK",
-      "name": "双向链接完整性",
-      "category": "lint",
-      "description": "A 引用了 B → B 必须回链 A。断链和缺回链都会被检测",
-      "test": "A→B 但 B 不回链 → ERROR",
-      "source": "kdo_lint.py:lint",
-      "status": "active"
-    },
-    "F3_DUPLICATE_ID": {
-      "id": "F3_DUPLICATE_ID",
-      "name": "重复卡片ID检测",
-      "category": "lint",
-      "description": "同 id 出现在多个文件 → 可能是旧副本或误复制",
-      "test": "同 id 两个文件 → DUPLICATE ID ERROR",
-      "source": "kdo_lint.py:lint",
-      "status": "active"
-    },
-    "F4_MOC_DEADLINK": {
-      "id": "F4_MOC_DEADLINK",
-      "name": "MOC 导航卡死链检测",
-      "category": "lint",
-      "description": "MOC/index/digest 卡 related 死链 > 0 → ERROR。导航卡死链 = 导航失效",
-      "test": "MOC 卡指向不存在的卡 → F4 ERROR 阻断",
-      "source": "kdo_lint.py:lint",
-      "status": "active"
-    },
-    "DK_7_SECTIONS": {
-      "id": "DK_7_SECTIONS",
-      "name": "dk 七段完整性",
-      "category": "lint",
-      "description": "dk 卡必须包含七段：原始表述/使用场景/操作方法/适用边界/为什么值钱/与其他知识的关联/Critique",
-      "test": "缺 Critique 的 dk 卡 → DK_SECTION MISSING ERROR",
-      "source": "kdo_lint.py:check_dk_sections",
-      "status": "active"
-    },
-    "SEC_TYPO": {
-      "id": "SEC_TYPO",
-      "name": "section 名拼写白名单",
-      "category": "lint",
-      "description": "已知错误拼写（Critque→Critique, Failure Modes→失败模式）→ 报错提示正确拼写",
-      "test": "## Critque → SECTION TYPO ERROR",
-      "source": "kdo_lint.py:check_section_spelling",
-      "status": "active"
-    },
-    "R6_SEARCH": {
-      "id": "R6_SEARCH",
-      "name": "搜索可达性检查",
-      "category": "lint",
-      "description": "title 空 → SEARCH BLOCK ERROR；缺中文 aliases → WARN；缺 audience/scene 标签 → WARN",
-      "test": "空 title 的卡 → R6 SEARCH BLOCK ERROR",
-      "source": "kdo_lint.py:validate_file",
-      "status": "active"
-    },
-    "DUP_KEY": {
-      "id": "DUP_KEY",
-      "name": "frontmatter 重复键检测",
-      "category": "lint",
-      "description": "6 个关键字段（aliases/tags/related/diagnostic_signals/discoverable_by/source_refs）同键 ≥2 次 → ERROR。#222/#223 事故根因模式的终极防线",
-      "test": "双 aliases 块 → DUPLICATE KEY ERROR",
-      "source": "kdo_lint.py:validate_file",
-      "status": "active"
-    },
-    "REVIEW_MARK": {
-      "id": "REVIEW_MARK",
-      "name": "终审标记 CLI",
-      "category": "cli",
-      "description": "欧阳锋审查通过后对卡片打 reviewed 标记——更新 status/reviewed_by/review_date/confidence",
-      "test": "python review_mark.py card.md --reviewer 欧阳锋 --dry-run → 预览变更",
-      "source": "90_control/scripts/review_mark.py",
-      "status": "active"
-    },
-    "REACH_CHECK": {
-      "id": "REACH_CHECK",
-      "name": "MCP 可发现性自查",
-      "category": "cli",
-      "description": "新卡提交前用真实搜索关键词验证外部 Agent（小昭/Codex）能否搜到——补 pre-submit 的搜索盲区",
-      "test": "python mcp-reachability-check.py card.md --keywords '关键词' → 命中/失败",
-      "source": "kdo-tools/mcp-reachability-check.py",
-      "status": "active"
-    },
-    "HINT_MAP": {
-      "id": "HINT_MAP",
-      "name": "lint 错误场景化提示",
-      "category": "ux",
-      "description": "每条 lint 错误追加场景化修复提示——从编译器风格升级为教练风格",
-      "test": "DK_SECTION MISSING 错误输出包含 '补上缺失的标准段后再提交'",
-      "source": "kdo_lint.py:ERROR_HINT_MAP",
-      "status": "active"
-    },
-    "CARD_CHECKLIST": {
-      "id": "CARD_CHECKLIST",
-      "name": "卡片复审自检",
-      "category": "cli",
-      "description": "提交欧阳锋审查前逐项打勾——YAML/TITLE/TYPE/DS/RELATED/RELATED_DEAD/POSITION/REVIEW_DATE/类型段",
-      "test": "python card_review_checklist.py card.md → 全 PASS 才提报",
-      "source": "90_control/scripts/card_review_checklist.py",
-      "status": "active"
-    },
-    "FEATURE_MENU": {
-      "id": "FEATURE_MENU",
-      "name": "Feature 点菜工具",
-      "category": "cli",
-      "description": "从周期表 100 个 AI 基本功 Feature 中按 layer/dimension/scenario/keyword 过滤点菜——消费端协议技术底座。含 #272 stale 检查 + #315 aliases 别名命中 + #316 combo 场景组合查询",
-      "test": "python kdo-tools/feature_menu.py pick --n 3 → 随机点菜；query --keyword 反向教学 → 命中 F022；combo --scene 内容创作 → 推荐组合；stale → 超期检查",
-      "source": "kdo-tools/feature_menu.py + kdo-tools/feature_combos.json",
-      "status": "active"
-    },
-    "AUTH_FRESHNESS_SLA": {
-      "id": "AUTH_FRESHNESS_SLA",
-      "name": "认证层+新鲜度 SLA",
-      "category": "lint",
-      "description": "#272：reverify_by 字段（8 schema）+ verified 过期语义（verify_date + 6 个月 → stale 降级不删除）+ kdo feature stale 命令",
-      "test": "python kdo-tools/feature_menu.py stale → 超期清单；info F001 → 显示认证日期/复审期限",
-      "source": "90_control/schemas/*.yaml + kdo-tools/feature_menu.py",
-      "status": "active"
-    },
-    "DECISION_CLASSIFY": {
-      "id": "DECISION_CLASSIFY",
-      "name": "决策分类+claim-state",
-      "category": "cli",
-      "description": "#275：decisions.md 模板（D1-D4 + claim-state）+ D4 门禁（自我修改必须王语嫣/欧阳锋批准）+ kdo decision add 命令",
-      "test": "python kdo-tools/decision_add.py add \"X\" --type D4 --claim observed 无批准人 → 报错拦截",
-      "source": "kdo-tools/decision_add.py + .agent/decisions.md 模板",
-      "status": "active"
-    },
-    "SKILL_CRYSTALLIZE": {
-      "id": "SKILL_CRYSTALLIZE",
-      "name": "经验→技能自动结晶",
-      "category": "cli",
-      "description": "#279 jarvis 模式：扫描错误模式库+技能进化日志+复盘 → 同主题≥2次 → draft skill 候选（人审后 publish，不自动）",
-      "test": "python kdo-tools/skill_crystallize.py scan → 8 个候选；crystallized-* 进入 skill_lifecycle draft status",
-      "source": "kdo-tools/skill_crystallize.py",
-      "status": "active"
-    },
-    "SKILL_LIFECYCLE": {
-      "id": "SKILL_LIFECYCLE",
-      "name": "Skill 生命周期管理",
-      "category": "cli",
-      "description": "Skill draft→published→deprecated 三态管理 + eval 门禁（能力 eval/回归 eval/baseline 对比）。frontmatter 是唯一真相，set 带 round-trip 校验",
-      "test": "python kdo-tools/skill_lifecycle.py list → 39 个 skill 状态一览；eval image-ocr --apply → eval-log 追加",
-      "source": "kdo-tools/skill_lifecycle.py",
-      "status": "active"
-    },
-    "R1_REVIEW_INFRA": {
-      "id": "R1_REVIEW_INFRA",
-      "name": "lint 审查基建四类规则",
-      "category": "lint",
-      "description": "欧阳锋人工 grep 问题固化：#271 四类——R1-a reviewed缺字段 ERROR / R1-b 重复节名 ERROR / R1-c 仓库外路径 WARNING / R1-d 行号超界 WARNING",
-      "test": "status:reviewed 缺 reviewed_by 卡 → R1-a ERROR；双 ## Critique → R1-b ERROR",
-      "source": "kdo/workspace.py:_lint_status_review_fields 等 4 函数",
-      "status": "active"
-    },
-    "SKILL_BRIDGE_SYNC": {
-      "id": "SKILL_BRIDGE_SYNC",
-      "name": "双轨 Skill 同步",
-      "category": "cli",
-      "description": "shared(Hermes)→.claude(Claude Code) 单向同步：#267——格式转换（frontmatter 替换+触发词提取）+ 内容 hash 漂移检测 + references 同步。幂等",
-      "test": "python kdo-tools/skill_bridge_sync.py status → 缺失 0/漂移 0；sync --apply → 幂等",
-      "source": "kdo-tools/skill_bridge_sync.py",
-      "status": "active"
-    },
-    "FEISHU_DOC_MCP": {
-      "id": "FEISHU_DOC_MCP",
-      "name": "飞书文档操作 MCP",
-      "category": "cli",
-      "description": "#306 操作型 MCP：lark-cli 封装——create/fetch/update/search 飞书文档。权限模型：create/update 为写操作，仅限已授权文档空间；无 delete（high-risk 不暴露）",
-      "test": "python kdo-tools/mcp/feishu_doc_server.py --sse --port 8766 启动；冒烟：创建→写入→回读",
-      "source": "kdo-tools/mcp/feishu_doc_server.py",
-      "status": "active"
-    },
-    "F_SERENDIPITY_COLLECT": {
-      "id": "F_SERENDIPITY_COLLECT",
-      "name": "偶遇采集全自动四通道（视频号/公众号/头条，复制链接转发）",
-      "category": "collection",
-      "description": "手机复制链接转发→PC微信数据库解密提取→四通道解析（视频号parse_sph元宝Cookie/头条info API/公众号抓正文）→无代理下载→GPU转写→LLM三层次知识化（文章同样知识化）→00_inbox/wechat-collect/，计划任务每10分钟无人值守；2026-08-19起规范化键去重（公众号__biz+mid+idx/头条gid），同一内容多次转发只采一次",
-      "test": "复制链接转发→10分钟内00_inbox出现逐字稿/文章+研究文档（2026-08-17/18视频实测：WorkBuddy 146s/99s；2026-08-19文章知识化实测：重构协同 23.8K字）",
-      "source": "proj_20260816_wechat-collect 顶层文档 + wechat_link_monitor.py",
-      "skill": ".claude/skills/wechat-serendipity-collect/",
-      "created_at": "2026-08-17",
-      "updated_at": "2026-08-19"
-    },
-    "F_CANGJIE_SKILL": {
-      "id": "F_CANGJIE_SKILL",
-      "name": "仓颉 cangjie-skill（开源原版·书/长视频蒸馏成 Skills）",
-      "category": "knowledge-distill",
-      "description": "袋鼠帝开源（AGPL，6.8K star）：RIA-TV++ 七阶段流水线——Adler整书理解→5路并行提取（框架/原则/案例/反例/术语）→三重验证→RIA++构造→Zettelkasten链接→压力测试→交付DIGEST+安装。适合已读懂原书的深度蒸馏",
-      "test": "给一本书/长视频转写 → 产出一组原子化 skills（INDEX/DIGEST/GLOSSARY+独立 SKILL.md）",
-      "source": "40_outputs/capabilities/skills/cangjie-skill/（GitHub kangarooking/cangjie-skill，2026-08-19 gh-proxy 克隆）",
-      "skill": "40_outputs/capabilities/skills/cangjie-skill/（WorkBuddy: ~/.workbuddy/skills/cangjie-skill/）",
-      "created_at": "2026-08-19",
-      "updated_at": "2026-08-19"
-    },
-    "F_YIZHAN_SHENDENG": {
-      "id": "F_YIZHAN_SHENDENG",
-      "name": "一盏神灯（仓颉新手适配版·复刻——AI 带读+小白友好蒸馏）",
-      "category": "knowledge-distill",
-      "description": "按袋鼠帝视频《蒸馏就是AI时代的合法抢劫》复刻：仓颉前置'AI 带读'（结构地图/概念表/章节要点）+ 分型（工具书蒸方法论/非工具书蒸思维框架）+ 轻验证 + 安装交付'什么时候用哪个'指南。没读懂原书也能蒸",
-      "test": "WorkBuddy 里说'用一盏神灯帮我蒸馏这本书'+上传原材料 → 带读三件套 → 技能包落 ~/.workbuddy/skills/",
-      "source": "40_outputs/capabilities/skills/yizhan-shendeng/（复刻；原版在作者知识星球）",
-      "skill": "40_outputs/capabilities/skills/yizhan-shendeng/（WorkBuddy: ~/.workbuddy/skills/yizhan-shendeng/）",
-      "created_at": "2026-08-19",
-      "updated_at": "2026-08-19"
-    },
-    "F_DARWIN_SKILL": {
-      "id": "F_DARWIN_SKILL",
-      "name": "darwin-skill（Skill 自我进化器——评估→改进→实测→棘轮保留/回滚）",
-      "category": "knowledge-distill",
-      "description": "花叔开源（MIT，v2.1）：9维rubric评分（SkillLens+SkillOpt 论文背书）+ paired 同judge比较防换尺 + 独立judge盲评 + git棘轮只留改进 + 人在回路确认。生态咬合：仓颉蒸书→darwin 压力测试与进化；蒸出来的技能包用它持续调优",
-      "test": "对一个 SKILL.md 跑优化循环 → 评分报告 + 改进 commit + 实测对比 + 人审确认",
-      "source": "40_outputs/capabilities/skills/darwin-skill/（GitHub alchaincyf/darwin-skill，2026-08-19 gh-proxy 克隆）",
-      "skill": "40_outputs/capabilities/skills/darwin-skill/（WorkBuddy: ~/.workbuddy/skills/darwin-skill/）",
-      "created_at": "2026-08-19",
-      "updated_at": "2026-08-19"
-    },
-    "F_AUTHOR_TARGETED_COLLECT": {
-      "id": "F_AUTHOR_TARGETED_COLLECT",
-      "name": "博主定向采集（方式二·抖音侧）——'给我拉一圈'",
-      "category": "collection",
-      "description": "博主名→蝉妈妈open页拿sec_uid→CDP无头Edge渲染作者主页抓全量视频列表+点赞数→按赞选代表作→CDP提cookie→yt-dlp下载→WSL转写→三层次知识化→转正（自动增量索引）。视频号无作者列表接口，走抖音同号绕路（实测：大李书房一盏灯27条全抓，Top3入仓）",
-      "test": "给博主名 → 产出其视频列表+点赞数 → Top3 下载转写知识化入仓（2026-08-19 全链实测）",
-      "source": "40_outputs/code/scripts/douyin_user_videos.py + douyin_cookie_extract.py",
-      "skill": "40_outputs/capabilities/skills/author-targeted-collect/",
-      "created_at": "2026-08-19",
-      "updated_at": "2026-08-19"
-    }
+ "_doc": "KDO Feature Registry — 原子化最小技术单位。每个 Feature 可独立测试、独立组合。灵感来源：Truman Feature思维（口述 L1402-1450）",
+ "features": {
+  "F1_UPDATED_AT": {
+   "id": "F1_UPDATED_AT",
+   "name": "updated_at 必填检查",
+   "category": "lint",
+   "description": "每张卡必须有 updated_at 字段——欧阳锋审查时判断卡是否过时的唯一依据",
+   "test": "缺 updated_at 的卡 → kdo lint → ERROR",
+   "source": "kdo_lint.py:validate_file",
+   "status": "active"
+  },
+  "F2_BACKLINK": {
+   "id": "F2_BACKLINK",
+   "name": "双向链接完整性",
+   "category": "lint",
+   "description": "A 引用了 B → B 必须回链 A。断链和缺回链都会被检测",
+   "test": "A→B 但 B 不回链 → ERROR",
+   "source": "kdo_lint.py:lint",
+   "status": "active"
+  },
+  "F3_DUPLICATE_ID": {
+   "id": "F3_DUPLICATE_ID",
+   "name": "重复卡片ID检测",
+   "category": "lint",
+   "description": "同 id 出现在多个文件 → 可能是旧副本或误复制",
+   "test": "同 id 两个文件 → DUPLICATE ID ERROR",
+   "source": "kdo_lint.py:lint",
+   "status": "active"
+  },
+  "F4_MOC_DEADLINK": {
+   "id": "F4_MOC_DEADLINK",
+   "name": "MOC 导航卡死链检测",
+   "category": "lint",
+   "description": "MOC/index/digest 卡 related 死链 > 0 → ERROR。导航卡死链 = 导航失效",
+   "test": "MOC 卡指向不存在的卡 → F4 ERROR 阻断",
+   "source": "kdo_lint.py:lint",
+   "status": "active"
+  },
+  "DK_7_SECTIONS": {
+   "id": "DK_7_SECTIONS",
+   "name": "dk 七段完整性",
+   "category": "lint",
+   "description": "dk 卡必须包含七段：原始表述/使用场景/操作方法/适用边界/为什么值钱/与其他知识的关联/Critique",
+   "test": "缺 Critique 的 dk 卡 → DK_SECTION MISSING ERROR",
+   "source": "kdo_lint.py:check_dk_sections",
+   "status": "active"
+  },
+  "SEC_TYPO": {
+   "id": "SEC_TYPO",
+   "name": "section 名拼写白名单",
+   "category": "lint",
+   "description": "已知错误拼写（Critque→Critique, Failure Modes→失败模式）→ 报错提示正确拼写",
+   "test": "## Critque → SECTION TYPO ERROR",
+   "source": "kdo_lint.py:check_section_spelling",
+   "status": "active"
+  },
+  "R6_SEARCH": {
+   "id": "R6_SEARCH",
+   "name": "搜索可达性检查",
+   "category": "lint",
+   "description": "title 空 → SEARCH BLOCK ERROR；缺中文 aliases → WARN；缺 audience/scene 标签 → WARN",
+   "test": "空 title 的卡 → R6 SEARCH BLOCK ERROR",
+   "source": "kdo_lint.py:validate_file",
+   "status": "active"
+  },
+  "DUP_KEY": {
+   "id": "DUP_KEY",
+   "name": "frontmatter 重复键检测",
+   "category": "lint",
+   "description": "6 个关键字段（aliases/tags/related/diagnostic_signals/discoverable_by/source_refs）同键 ≥2 次 → ERROR。#222/#223 事故根因模式的终极防线",
+   "test": "双 aliases 块 → DUPLICATE KEY ERROR",
+   "source": "kdo_lint.py:validate_file",
+   "status": "active"
+  },
+  "REVIEW_MARK": {
+   "id": "REVIEW_MARK",
+   "name": "终审标记 CLI",
+   "category": "cli",
+   "description": "欧阳锋审查通过后对卡片打 reviewed 标记——更新 status/reviewed_by/review_date/confidence",
+   "test": "python review_mark.py card.md --reviewer 欧阳锋 --dry-run → 预览变更",
+   "source": "90_control/scripts/review_mark.py",
+   "status": "active"
+  },
+  "REACH_CHECK": {
+   "id": "REACH_CHECK",
+   "name": "MCP 可发现性自查",
+   "category": "cli",
+   "description": "新卡提交前用真实搜索关键词验证外部 Agent（小昭/Codex）能否搜到——补 pre-submit 的搜索盲区",
+   "test": "python mcp-reachability-check.py card.md --keywords '关键词' → 命中/失败",
+   "source": "kdo-tools/mcp-reachability-check.py",
+   "status": "active"
+  },
+  "HINT_MAP": {
+   "id": "HINT_MAP",
+   "name": "lint 错误场景化提示",
+   "category": "ux",
+   "description": "每条 lint 错误追加场景化修复提示——从编译器风格升级为教练风格",
+   "test": "DK_SECTION MISSING 错误输出包含 '补上缺失的标准段后再提交'",
+   "source": "kdo_lint.py:ERROR_HINT_MAP",
+   "status": "active"
+  },
+  "CARD_CHECKLIST": {
+   "id": "CARD_CHECKLIST",
+   "name": "卡片复审自检",
+   "category": "cli",
+   "description": "提交欧阳锋审查前逐项打勾——YAML/TITLE/TYPE/DS/RELATED/RELATED_DEAD/POSITION/REVIEW_DATE/类型段",
+   "test": "python card_review_checklist.py card.md → 全 PASS 才提报",
+   "source": "90_control/scripts/card_review_checklist.py",
+   "status": "active"
+  },
+  "FEATURE_MENU": {
+   "id": "FEATURE_MENU",
+   "name": "Feature 点菜工具",
+   "category": "cli",
+   "description": "从周期表 100 个 AI 基本功 Feature 中按 layer/dimension/scenario/keyword 过滤点菜——消费端协议技术底座。含 #272 stale 检查 + #315 aliases 别名命中 + #316 combo 场景组合查询",
+   "test": "python kdo-tools/feature_menu.py pick --n 3 → 随机点菜；query --keyword 反向教学 → 命中 F022；combo --scene 内容创作 → 推荐组合；stale → 超期检查",
+   "source": "kdo-tools/feature_menu.py + kdo-tools/feature_combos.json",
+   "status": "active"
+  },
+  "AUTH_FRESHNESS_SLA": {
+   "id": "AUTH_FRESHNESS_SLA",
+   "name": "认证层+新鲜度 SLA",
+   "category": "lint",
+   "description": "#272：reverify_by 字段（8 schema）+ verified 过期语义（verify_date + 6 个月 → stale 降级不删除）+ kdo feature stale 命令",
+   "test": "python kdo-tools/feature_menu.py stale → 超期清单；info F001 → 显示认证日期/复审期限",
+   "source": "90_control/schemas/*.yaml + kdo-tools/feature_menu.py",
+   "status": "active"
+  },
+  "DECISION_CLASSIFY": {
+   "id": "DECISION_CLASSIFY",
+   "name": "决策分类+claim-state",
+   "category": "cli",
+   "description": "#275：decisions.md 模板（D1-D4 + claim-state）+ D4 门禁（自我修改必须王语嫣/欧阳锋批准）+ kdo decision add 命令",
+   "test": "python kdo-tools/decision_add.py add \"X\" --type D4 --claim observed 无批准人 → 报错拦截",
+   "source": "kdo-tools/decision_add.py + .agent/decisions.md 模板",
+   "status": "active"
+  },
+  "SKILL_CRYSTALLIZE": {
+   "id": "SKILL_CRYSTALLIZE",
+   "name": "经验→技能自动结晶",
+   "category": "cli",
+   "description": "#279 jarvis 模式：扫描错误模式库+技能进化日志+复盘 → 同主题≥2次 → draft skill 候选（人审后 publish，不自动）",
+   "test": "python kdo-tools/skill_crystallize.py scan → 8 个候选；crystallized-* 进入 skill_lifecycle draft status",
+   "source": "kdo-tools/skill_crystallize.py",
+   "status": "active"
+  },
+  "SKILL_LIFECYCLE": {
+   "id": "SKILL_LIFECYCLE",
+   "name": "Skill 生命周期管理",
+   "category": "cli",
+   "description": "Skill draft→published→deprecated 三态管理 + eval 门禁（能力 eval/回归 eval/baseline 对比）。frontmatter 是唯一真相，set 带 round-trip 校验",
+   "test": "python kdo-tools/skill_lifecycle.py list → 39 个 skill 状态一览；eval image-ocr --apply → eval-log 追加",
+   "source": "kdo-tools/skill_lifecycle.py",
+   "status": "active"
+  },
+  "R1_REVIEW_INFRA": {
+   "id": "R1_REVIEW_INFRA",
+   "name": "lint 审查基建四类规则",
+   "category": "lint",
+   "description": "欧阳锋人工 grep 问题固化：#271 四类——R1-a reviewed缺字段 ERROR / R1-b 重复节名 ERROR / R1-c 仓库外路径 WARNING / R1-d 行号超界 WARNING",
+   "test": "status:reviewed 缺 reviewed_by 卡 → R1-a ERROR；双 ## Critique → R1-b ERROR",
+   "source": "kdo/workspace.py:_lint_status_review_fields 等 4 函数",
+   "status": "active"
+  },
+  "SKILL_BRIDGE_SYNC": {
+   "id": "SKILL_BRIDGE_SYNC",
+   "name": "双轨 Skill 同步",
+   "category": "cli",
+   "description": "shared(Hermes)→.claude(Claude Code) 单向同步：#267——格式转换（frontmatter 替换+触发词提取）+ 内容 hash 漂移检测 + references 同步。幂等",
+   "test": "python kdo-tools/skill_bridge_sync.py status → 缺失 0/漂移 0；sync --apply → 幂等",
+   "source": "kdo-tools/skill_bridge_sync.py",
+   "status": "active"
+  },
+  "FEISHU_DOC_MCP": {
+   "id": "FEISHU_DOC_MCP",
+   "name": "飞书文档操作 MCP",
+   "category": "cli",
+   "description": "#306 操作型 MCP：lark-cli 封装——create/fetch/update/search 飞书文档。权限模型：create/update 为写操作，仅限已授权文档空间；无 delete（high-risk 不暴露）",
+   "test": "python kdo-tools/mcp/feishu_doc_server.py --sse --port 8766 启动；冒烟：创建→写入→回读",
+   "source": "kdo-tools/mcp/feishu_doc_server.py",
+   "status": "active"
+  },
+  "F_SERENDIPITY_COLLECT": {
+   "id": "F_SERENDIPITY_COLLECT",
+   "name": "偶遇采集全自动四通道（视频号/公众号/头条，复制链接转发）",
+   "category": "collection",
+   "description": "手机复制链接转发→PC微信数据库解密提取→四通道解析（视频号parse_sph元宝Cookie/头条info API/公众号抓正文）→无代理下载→GPU转写→LLM三层次知识化（文章同样知识化）→00_inbox/wechat-collect/，计划任务每10分钟无人值守；2026-08-19起规范化键去重（公众号__biz+mid+idx/头条gid），同一内容多次转发只采一次",
+   "test": "复制链接转发→10分钟内00_inbox出现逐字稿/文章+研究文档（2026-08-17/18视频实测：WorkBuddy 146s/99s；2026-08-19文章知识化实测：重构协同 23.8K字）",
+   "source": "proj_20260816_wechat-collect 顶层文档 + wechat_link_monitor.py",
+   "skill": ".claude/skills/wechat-serendipity-collect/",
+   "created_at": "2026-08-17",
+   "updated_at": "2026-08-19"
+  },
+  "F_CANGJIE_SKILL": {
+   "id": "F_CANGJIE_SKILL",
+   "name": "仓颉 cangjie-skill（开源原版·书/长视频蒸馏成 Skills）",
+   "category": "knowledge-distill",
+   "description": "袋鼠帝开源（AGPL，6.8K star）：RIA-TV++ 七阶段流水线——Adler整书理解→5路并行提取（框架/原则/案例/反例/术语）→三重验证→RIA++构造→Zettelkasten链接→压力测试→交付DIGEST+安装。适合已读懂原书的深度蒸馏",
+   "test": "给一本书/长视频转写 → 产出一组原子化 skills（INDEX/DIGEST/GLOSSARY+独立 SKILL.md）",
+   "source": "40_outputs/capabilities/skills/cangjie-skill/（GitHub kangarooking/cangjie-skill，2026-08-19 gh-proxy 克隆）",
+   "skill": "40_outputs/capabilities/skills/cangjie-skill/（WorkBuddy: ~/.workbuddy/skills/cangjie-skill/）",
+   "created_at": "2026-08-19",
+   "updated_at": "2026-08-19"
+  },
+  "F_YIZHAN_SHENDENG": {
+   "id": "F_YIZHAN_SHENDENG",
+   "name": "一盏神灯（仓颉新手适配版·复刻——AI 带读+小白友好蒸馏）",
+   "category": "knowledge-distill",
+   "description": "按袋鼠帝视频《蒸馏就是AI时代的合法抢劫》复刻：仓颉前置'AI 带读'（结构地图/概念表/章节要点）+ 分型（工具书蒸方法论/非工具书蒸思维框架）+ 轻验证 + 安装交付'什么时候用哪个'指南。没读懂原书也能蒸",
+   "test": "WorkBuddy 里说'用一盏神灯帮我蒸馏这本书'+上传原材料 → 带读三件套 → 技能包落 ~/.workbuddy/skills/",
+   "source": "40_outputs/capabilities/skills/yizhan-shendeng/（复刻；原版在作者知识星球）",
+   "skill": "40_outputs/capabilities/skills/yizhan-shendeng/（WorkBuddy: ~/.workbuddy/skills/yizhan-shendeng/）",
+   "created_at": "2026-08-19",
+   "updated_at": "2026-08-19"
+  },
+  "F_DARWIN_SKILL": {
+   "id": "F_DARWIN_SKILL",
+   "name": "darwin-skill（Skill 自我进化器——评估→改进→实测→棘轮保留/回滚）",
+   "category": "knowledge-distill",
+   "description": "花叔开源（MIT，v2.1）：9维rubric评分（SkillLens+SkillOpt 论文背书）+ paired 同judge比较防换尺 + 独立judge盲评 + git棘轮只留改进 + 人在回路确认。生态咬合：仓颉蒸书→darwin 压力测试与进化；蒸出来的技能包用它持续调优",
+   "test": "对一个 SKILL.md 跑优化循环 → 评分报告 + 改进 commit + 实测对比 + 人审确认",
+   "source": "40_outputs/capabilities/skills/darwin-skill/（GitHub alchaincyf/darwin-skill，2026-08-19 gh-proxy 克隆）",
+   "skill": "40_outputs/capabilities/skills/darwin-skill/（WorkBuddy: ~/.workbuddy/skills/darwin-skill/）",
+   "created_at": "2026-08-19",
+   "updated_at": "2026-08-19"
+  },
+  "F_AUTHOR_TARGETED_COLLECT": {
+   "id": "F_AUTHOR_TARGETED_COLLECT",
+   "name": "博主定向采集（方式二·抖音侧）——'给我拉一圈'",
+   "category": "collection",
+   "description": "博主名→蝉妈妈open页拿sec_uid→CDP无头Edge渲染作者主页抓全量视频列表+点赞数→按赞选代表作→CDP提cookie→yt-dlp下载→WSL转写→三层次知识化→转正（自动增量索引）。视频号无作者列表接口，走抖音同号绕路（实测：大李书房一盏灯27条全抓，Top3入仓）",
+   "test": "给博主名 → 产出其视频列表+点赞数 → Top3 下载转写知识化入仓（2026-08-19 全链实测）",
+   "source": "kdo-tools/douyin_user_videos.py + kdo-tools/douyin_cookie_extract.py",
+   "skill": "40_outputs/capabilities/skills/author-targeted-collect/",
+   "created_at": "2026-08-19",
+   "updated_at": "2026-08-19"
+  },
+  "F_PDF_INSPECTOR": {
+   "id": "F_PDF_INSPECTOR",
+   "name": "pdf-inspector PDF 进料（先分类再提取，文本型直提/扫描件路由 OCR）",
+   "category": "parsing",
+   "description": "PDF 进料默认快速通道：10-50ms 分类（text_based/scanned/image_based/mixed），文本型本地直提 Markdown（~0.3s/份，0 OCR 成本），混合页标出 pages_needing_ocr，扫描件路由 MinerU。纯 Rust 本地解析，不依赖大模型。",
+   "test": "python 40_outputs/code/scripts/pdf_inspector_route.py <pdf> --json → pdf_type + route 正确",
+   "source": "40_outputs/code/scripts/pdf_inspector_route.py + _tmp/pdf-inspector/ venv",
+   "status": "active"
   }
+ }
 }

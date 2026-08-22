@@ -230,7 +230,8 @@
 
 ## 微信视频号偶遇采集全自动链路（2026-08-17 黄药师）
 
-### `wechat_link_monitor.py`
+### `wechat_link_monitor.py`（指针引用）
+> 🔗 活代码单一真相源：`kdo-tools/wechat_link_monitor.py`（#414 副本清理后此处禁副本）
 - **功能**：全自动偶遇采集主控（四通道：视频号/公众号文章/头条视频/头条文章）——解密微信 4.x 数据库 → 读文件传输助手新消息（ZSTD 解压）→ 提取链接 → 分通道解析（parse_sph 元宝 Cookie / 头条 info API / 公众号抓正文）→ 下载 mp4 → WSL GPU 转写 → LLM 三层次知识化（视频+文章通用）→ `00_inbox/wechat-collect/`
 - **去重（2026-08-19）**：链接规范化键——公众号 `__biz+mid+idx`、头条 gid，追踪参数全剥，同一内容多次转发只采一次（seen_links.txt 同时存原链接+规范键，兼容旧行）
 - **运行**：`python kdo-tools/wechat_link_monitor.py`（计划任务 `wechat-link-monitor` 每 10 分钟自动跑）
@@ -260,9 +261,10 @@
 - **运行**：`python kdo-tools/wechat_knowledge.py <逐字稿.md>` 或 `--all`
 - **注意**：已内置 `NO_PROXY=api.deepseek.com,api.minimaxi.com` 绕过 MITM 系统代理
 
-### `collect_wechat.py`
+### `collect_wechat.py`（指针引用）
+> 🔗 活代码单一真相源：`kdo-tools/collect_wechat.py`（#414 副本清理后此处禁副本）
 - **功能**：方式二博主定向（`--author "博主名"`，需 TikHub token）+ 本地导入（`--import-local`）+ 偶遇扫描（`--scan-wechat`）
-- **运行**：见 `--help`
+- **运行**：`python kdo-tools/collect_wechat.py`，详见 `--help`
 
 ### `yuanbao_cookie_extract.py`
 - **功能**：CDP 从已登录元宝页面（Edge 调试端口 9222）提取全量 Cookie（含 hy_token），写入 wx_channels_download config.yaml
@@ -274,7 +276,8 @@
 - Skill：`.claude/skills/wechat-serendipity-collect/`（触发词：偶遇采集/视频号/手机转发）
 - 顶层文档：`70_product/projects/proj_20260816_wechat-collect-顶层文档.md`
 
-### `douyin_user_videos.py` + `douyin_cookie_extract.py`（2026-08-19 抖音侧反向采集）
+### `douyin_user_videos.py` + `douyin_cookie_extract.py`（指针引用）
+> 🔗 活代码单一真相源：`kdo-tools/douyin_user_videos.py` / `kdo-tools/douyin_cookie_extract.py`（#414 副本清理后此处禁副本）
 - **功能**：方式二博主定向的抖音腿——`douyin_user_videos.py <sec_uid>` 用 CDP 无头 Edge 渲染作者主页，抓全量视频列表（标题/点赞/aweme_id/链接，滚动加载）；`douyin_cookie_extract.py` 提取匿名新鲜 cookie（Netscape 格式）供 yt-dlp 过 fresh-cookie 墙
 - **实测**：大李书房一盏灯 27 条视频 + 点赞数全抓到；Top3 yt-dlp 下载 → WSL 转写 → 三层次知识化 → 转正入仓全通
 - **sec_uid 来源**：蝉妈妈 open authorRank 页 HTML 内嵌
@@ -302,3 +305,10 @@
 - **`90_control/scripts/full-library-rescan.py`**：全库复扫标准口径（消灭"清单口径归零冒充全库归零"）——6 检查项可插拔（missing-updated-at / missing-tags-dim / dead-source-refs / body-fm-style-links / related-asymmetry / parse-error），yaml 级解析，`--domain` 精确匹配，退出码可被门禁/脚本链调用
 - **归零声明纪律（#399 固化）**：任务报告/退回意见中任何「全库归零/复扫确认」声明必须附本工具输出，否则终审可据此直接 FAIL
 - **delta 模式**：`--delta <baseline>` 增量报警（基线外新增违规），已挂入 health-check（每日 kdo watch --health），存量债封存在 `90_control/baseline/rescan-baseline.json`
+
+#### 更新（2026-08-21 黄药师 · pdf-inspector PDF 进料注册）
+- **`pdf_inspector_route.py`**：PDF 进料 classify-then-route 默认快速通道——先分类（text_based/scanned/image_based/mixed，10-50ms）再路由：文本型本地直提 Markdown（0 OCR 成本，~0.3s/份），混合页标出 `pages_needing_ocr` 送 OCR，扫描/图片型提示走 MinerU
+- **用法**：`python 40_outputs/code/scripts/pdf_inspector_route.py <pdf|目录> [--json] [--stdout] [--out <dir>]`（任意 python 可调起，自动复用受管 venv `_tmp/pdf-inspector/`）
+- **受管环境**：`wiki/_tmp/pdf-inspector/` venv（Python 3.12.3，pdf-inspector 1.15.0）；CLI（pdf2md/detect-pdf）需 `cargo install`，KDO 流水线用 `process_pdf` API 即可
+- **实测（狗粮）**：5 份真实 PDF 5/5 分类正确（conf 0.875-1.0），中文无乱码，混合页正确标出
+- **关联**：工具卡 `30_wiki/tools/tool-pdf-inspector.md`（待编排入队）；选型手册 `40_outputs/capabilities/skills/document-parsing-toolkit/`（路由矩阵）
