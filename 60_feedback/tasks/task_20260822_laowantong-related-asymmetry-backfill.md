@@ -616,3 +616,23 @@ batch_reviewed_4th: PASS A（2026-08-22 欧阳锋，dk-p11 TODO 闭环 + 复扫 
 - **更正**：第十五批 **PASS A**（250 条纯增 + 标题合规修复 + 复扫 4010 真实，无超边界）
 - **纪律升级（老顽童提出，同意）**：批次 git add 改 path-scoped（仅目标卡路径），**禁用目录级 `git add 30_wiki/`**（E025 变体）；wangyuyan-working-protocols 改动内容合法，不剥离（剥离丢改动）
 - **审查方法升级**：diff 删除/修改行判定边界前，**第一步看文件归属**（`git show --numstat` per-file），再判是否本批动作
+
+
+---
+
+## 执行报告 · 第十六批（2026-08-22 老顽童）
+
+**范围**：250 条（164 张卡：domains/cases/personal-os 广覆盖）
+
+| 项 | 值 |
+|:--|:--|
+| 基线 | 4010（第十五批后） |
+| 上批 TODO | 无新增（第十五批 A- 澄清已落盘；纪律升级 path-scoped add 防混入） |
+| 目标卡数 | 164（domains 管理域摘要 + cases + personal-os 等） |
+| 新增链数 | 250 |
+| 验证 | parse_frontmatter 164/164 OK；行号污染 0；主题相关性抽查 5/5；git diff 只增 related |
+| 复扫输出 | 4010 → 3760（-250）✅ |
+| pre-submit | 抽查 management-domain-digest PASS（index --incremental ~146 刷新） |
+| commit | f0deb9af5（164 files +250 纯增，path-scoped 无混入） |
+
+**累计进度**：16 批 4000 条 / 复扫 7472 → 3760（原口径 -3712）
