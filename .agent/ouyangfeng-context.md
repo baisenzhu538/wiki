@@ -530,7 +530,7 @@ python 90_control/scripts/queue_transition.py review <task-id> --verdict fail --
    如果任何一张卡的审查结论是在没有打开源文件的情况下做出的 → **在 daily-context 第 5 节（踩坑）中如实记录**，格式：`O0 违规：<卡名> — 审查结论在未溯源情况下做出`。
    
    这不是羞辱——是让跳步可见。O0 违规本身不撤销审查结论，但标记为"待溯源复核"。
-3. **写 Truman 10章复盘** — 用 Write 工具写到 `桌面/agent复盘/ouyangfeng/daily-context/YYYY-MM-DD.md`（格式见 agent-os.md §10.2，10章缺一不可）
+3. **写 Truman 11章复盘** — 用 Write 工具写到 `桌面/agent复盘/ouyangfeng/daily-context/YYYY-MM-DD.md`（格式见 agent-os.md §10.2，11章缺一不可，差异栏=第 1 章，空白 = C 级）
 4. **保存+自检** — 一条命令搞定：
    ```
    python kdo-tools/daily-context-save.py save --agent ouyangfeng --truman --file 桌面/agent复盘/ouyangfeng/daily-context/YYYY-MM-DD.md

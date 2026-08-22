@@ -371,7 +371,7 @@ E019 实证（#233/#235/#271 等 6 例）：生产端提交后状态停在 claim
 
 **此规则高于一切**：回答域知识问题前不检索 = 制造幻觉。发现一次，复盘降一级。
 
-## ⛔ 会话结束强制动作（不执行=会话未完成）
+### ⛔ 复盘强制动作（不执行=会话未完成）
 
 每次会话结束前必须依次执行：
 
@@ -385,7 +385,7 @@ E019 实证（#233/#235/#271 等 6 例）：生产端提交后状态停在 claim
 2. **写 Truman 11章复盘** — 用 Write 工具写到 `桌面/agent复盘/laowantong/daily-context/YYYY-MM-DD.md`（格式见 agent-os.md §10.2，11章缺一不可，**差异栏空白 = C 级**，2026-08-09 #268）
 3. **保存+自检** — 一条命令搞定：
    ```
-   python C:\Users\Administrator\Desktop\wiki\kdo-tools\daily-context-save.py save --agent laowantong --truman --file C:\Users\Administrator\Desktop\agent复盘\laowantong\daily-context\YYYY-MM-DD.md
+   python kdo-tools/daily-context-save.py save --agent laowantong --truman --file 桌面/agent复盘/laowantong/daily-context/YYYY-MM-DD.md
    ```
    输出必须显示 🟢 或 🟡。🔴 C 级 = 重写。
 

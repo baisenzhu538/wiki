@@ -458,9 +458,9 @@ Agent 不是固定人格。每次会话开始时，Agent 必须先从 **T / C / 
 
 | 场景 | 规则 |
 |:--|:--|
-| **短会话**（同日开始并结束） | 会话结束 → 立即写完整 Truman 10章 → `daily-context/YYYY-MM-DD.md` |
+| **短会话**（同日开始并结束） | 会话结束 → 立即写完整 Truman 11章 → `daily-context/YYYY-MM-DD.md` |
 | **一日多会话**（同日开多次） | 每次会话结束 → 追加到同一个 `YYYY-MM-DD.md`，文件开头标注"本日共 N 次会话" |
-| **长会话跨天**（如23:00→次日02:00） | 当天收尾前 → 写 **checkpoint 复盘**（简版：概要+当前进度+明天继续点，≥500B）。次日会话最终结束 → 写完整 Truman 10章，开头注明"承接 XX-XX 会话"。两份文件：`跨天日.md`（checkpoint）+ `结束日.md`（完整版） |
+| **长会话跨天**（如23:00→次日02:00） | 当天收尾前 → 写 **checkpoint 复盘**（简版：概要+当前进度+明天继续点，≥500B）。次日会话最终结束 → 写完整 Truman 11章，开头注明"承接 XX-XX 会话"。两份文件：`跨天日.md`（checkpoint）+ `结束日.md`（完整版） |
 | **无会话日** | 该 Agent 今天没有启动过 → 不强制复盘。review-check 自动跳过 |
 | **会话横跨多日**（长项目） | 每天写 checkpoint，最后一天完整复盘 |
 
@@ -475,7 +475,7 @@ L2 审计：每日 09:07 → 黄药师跑 review-check.py → 产覆盖率日报
 
 | 等级 | 标准 | review-check 输出 |
 |:--|:--|:--|
-| **A 级** | ≥3000B + 10章全有 + 盲点≥2条且每条追问了"为什么漏掉" | 🟢 深度复盘 |
+| **A 级** | ≥3000B + 11章全有 + 盲点≥2条且每条追问了"为什么漏掉" | 🟢 深度复盘 |
 | **B 级** | ≥1500B + 8章以上 + 盲点≥1条 | 🟡 基本合格 |
 | **C 级** | 文件存在但不满足 B 级 / checkpoint 简版 | 🔴 形式主义 |
 | — | 文件不存在 | ❌ 未复盘 |
@@ -496,7 +496,7 @@ L2 审计：每日 09:07 → 黄药师跑 review-check.py → 产覆盖率日报
 
 ```bash
 # 保存每日上下文到桌面数据包（路径固定，不可写错）
-python kdo-tools/daily-context-save.py save --agent <id> --text "<Truman 10章完整内容>"
+python kdo-tools/daily-context-save.py save --agent <id> --text "<Truman 11章完整内容>"
 ```
 
 > 上下文路径：`桌面/agent复盘/<agent-id>/daily-context/YYYY-MM-DD.md`

@@ -570,10 +570,10 @@ behavioral_cards: [W1, W2, W3, W4, W5, W6, W7, W8]
    
    只写一行。日志是累积的——每次会话加一行，不重写。
 1. **🆕 更新失忆恢复锚点** — 如果武器库/状态/能力有变化，同步更新 `20_memory/wangyuyan-amnesia-recovery.md` 的对应节。
-2. **写 Truman 10章复盘** — 用 Write 工具写到 `桌面/agent复盘/wangyuyan/daily-context/YYYY-MM-DD.md`（格式见 agent-os.md §10.2，10章缺一不可）
+2. **写 Truman 11章复盘** — 用 Write 工具写到 `桌面/agent复盘/wangyuyan/daily-context/YYYY-MM-DD.md`（格式见 agent-os.md §10.2，11章缺一不可，差异栏=第 1 章，空白 = C 级）
 3. **保存+自检** — 一条命令搞定：
    ```
-   python C:\Users\Administrator\Desktop\wiki\kdo-tools\daily-context-save.py save --agent wangyuyan --truman --file C:\Users\Administrator\Desktop\agent复盘\wangyuyan\daily-context\YYYY-MM-DD.md
+   python kdo-tools/daily-context-save.py save --agent wangyuyan --truman --file 桌面/agent复盘/wangyuyan/daily-context/YYYY-MM-DD.md
    ```
    输出必须显示 🟢 或 🟡。🔴 C 级 = 重写。
 

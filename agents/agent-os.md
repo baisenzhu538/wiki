@@ -193,8 +193,8 @@ Agent 不是固定人格。每次会话开始时，Agent 必须先从 **T / C / 
 **所有 Agent 统一使用 Truman YAI 复盘法——以下 11 章缺一不可：**
 
 ```
+## 差异栏（第 1 章，#268：本次 vs 上次复盘哪里不同——新的视角/复发的模式/被打破的假设。空白=重复自审，降级为 C 级）
 ## 概要（一句话：今天做了什么）
-## 差异栏（🆕 #268：本次 vs 上次复盘哪里不同——新的视角/复发的模式/被打破的假设。空白=重复自审，降级为 C 级）
 ## 关键决策（表格：决策/理由/结果）
 ## 思维盲点（≥1条：什么被漏掉了？每条追问"为什么漏掉"）
 ## 顿悟（≥1条：什么基础认知被推翻了？）
@@ -220,9 +220,9 @@ Agent 不是固定人格。每次会话开始时，Agent 必须先从 **T / C / 
 
 | 场景 | 规则 |
 |:--|:--|
-| **短会话**（同日开始并结束） | 会话结束 → 立即写完整 Truman 10章 → `daily-context/YYYY-MM-DD.md` |
+| **短会话**（同日开始并结束） | 会话结束 → 立即写完整 Truman 11章 → `daily-context/YYYY-MM-DD.md` |
 | **一日多会话**（同日开多次） | 每次会话结束 → 追加到同一个 `YYYY-MM-DD.md`，文件开头标注"本日共 N 次会话" |
-| **长会话跨天**（如23:00→次日02:00） | 当天收尾前 → 写 **checkpoint 复盘**（简版：概要+当前进度+明天继续点，≥500B）。次日会话最终结束 → 写完整 Truman 10章，开头注明"承接 XX-XX 会话"。两份文件：`跨天日.md`（checkpoint）+ `结束日.md`（完整版） |
+| **长会话跨天**（如23:00→次日02:00） | 当天收尾前 → 写 **checkpoint 复盘**（简版：概要+当前进度+明天继续点，≥500B）。次日会话最终结束 → 写完整 Truman 11章，开头注明"承接 XX-XX 会话"。两份文件：`跨天日.md`（checkpoint）+ `结束日.md`（完整版） |
 | **无会话日** | 该 Agent 今天没有启动过 → 不强制复盘。review-check 自动跳过 |
 | **会话横跨多日**（长项目） | 每天写 checkpoint，最后一天完整复盘 |
 
@@ -258,7 +258,7 @@ L2 审计：每日 09:07 → 黄药师跑 review-check.py → 产覆盖率日报
 
 ```bash
 # 保存每日上下文到桌面数据包（路径固定，不可写错）
-python kdo-tools/daily-context-save.py save --agent <id> --text "<Truman 10章完整内容>"
+python kdo-tools/daily-context-save.py save --agent <id> --text "<Truman 11章完整内容>"
 ```
 
 > 上下文路径：`桌面/agent复盘/<agent-id>/daily-context/YYYY-MM-DD.md`
@@ -272,8 +272,8 @@ python kdo-tools/daily-context-save.py save --agent <id> --text "<Truman 10章�
 ```
 Agent 复盘审计 — YYYY-MM-DD
 
-  huangyaoshi                   🟢 A级 (4521B) — 10/10章
-  wangyuyan                     🟡 B级 (2100B) — 8/10章，缺对照实验、飞轮效应
+  huangyaoshi                   🟢 A级 (4521B) — 10/11章
+  wangyuyan                     🟡 B级 (2100B) — 8/11章，缺对照实验、飞轮效应
   laowantong                    🔴 C级 (680B)  — checkpoint，盲点未追问
   ouyangfeng                    ❌ 未复盘
   ─────────────────────────────
@@ -303,17 +303,17 @@ python kdo-tools/flywheel.py pattern --days 21 --agent <agent-id>
 
 ### 10.9 复盘双轨定标（2026-08-19 #368 门禁）
 
-**问题**：历史上存在两套"复盘"并行——daily-context（Truman 10 章会话复盘）与 daily_cognitive_review（七节式认知复盘），结构不同、无派生关系定义，各 agent 各写各的。
+**问题**：历史上存在两套"复盘"并行——daily-context（Truman 10 章会话复盘，08-09 加差异栏后为 11 章）与 daily_cognitive_review（七节式认知复盘），结构不同、无派生关系定义，各 agent 各写各的。
 
 **定标（全厂强制）**：
 
 | 资产 | 性质 | 谁写 | 何时 |
 |:--|:--|:--|:--|
-| `agent复盘/<agent>/daily-context/YYYY-MM-DD.md` | **唯一直写**的复盘文件（Truman 10 章，§10.2 格式） | agent 本人，经 `daily-context-save.py` 落盘 | 每次会话收尾 |
+| `agent复盘/<agent>/daily-context/YYYY-MM-DD.md` | **唯一直写**的复盘文件（Truman 11 章，§10.2 格式） | agent 本人，经 `daily-context-save.py` 落盘 | 每次会话收尾 |
 | 错误模式库 / 技能进化日志 / 能力雷达图 / 用户反馈档案 | **长期资产**——从当次复盘**同步更新**（非独立写一套） | agent 本人，复盘同一动作内 | 复盘时（有新错误/新反馈/技能变化才更新，无则不强行） |
 | `daily_cognitive_review` 七节式、`.agent/daily-review` 四段式 | **已废弃**——禁止新增写入 | — | — |
 
-一句话规则：**一次会话只写一份复盘（Truman 10 章），长期资产是它的同步更新，不是第二份复盘。**
+一句话规则：**一次会话只写一份复盘（Truman 11 章），长期资产是它的同步更新，不是第二份复盘。**
 
 模板：`templates/daily-context-template.md`（含长期资产更新检查单）。
 

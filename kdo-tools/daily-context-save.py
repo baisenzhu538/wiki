@@ -230,7 +230,7 @@ def main():
     p_save.add_argument("--text", default="", help="上下文摘要（短内容用；长内容用 --stdin 或 --file）")
     p_save.add_argument("--stdin", action="store_true", help="从标准输入读取复盘内容（管道输入）")
     p_save.add_argument("--file", default="", help="从指定文件读取复盘内容（Agent 先 Write 到此路径）")
-    p_save.add_argument("--truman", action="store_true", help="Truman 10章模式：纯模板 / 配合 --stdin/--file 保存复盘")
+    p_save.add_argument("--truman", action="store_true", help="Truman 11章模式：纯模板 / 配合 --stdin/--file 保存复盘")
 
     p_list = sub.add_parser("list", help="列出历史上下文")
     p_list.add_argument("--agent", required=True)

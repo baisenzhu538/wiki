@@ -157,7 +157,7 @@ behavioral_cards: [H1, H2, H3, H4, H5, H6]
 
 **此规则高于一切**：回答域知识问题前不检索 = 制造幻觉。发现一次，复盘降一级。
 
-## ⛔ 会话结束强制动作（不执行=会话未完成）
+### ⛔ 复盘强制动作（不执行=会话未完成）
 
 每次会话结束前必须依次执行：
 
@@ -167,11 +167,11 @@ behavioral_cards: [H1, H2, H3, H4, H5, H6]
    
    只写一行。日志是累积的——每次会话加一行，不重写。
 1. **🆕 更新失忆恢复锚点** — 如果武器库/状态/能力有变化，同步更新 `20_memory/hongqigong-amnesia-recovery-20260613.md` 的对应节。下次失忆时靠这个文件3分钟恢复。
-2. **写 Truman 10章复盘** — 用 Write 工具写到 `桌面/agent复盘/hongqigong/daily-context/YYYY-MM-DD.md`（格式见 agent-os.md §10.2，10章缺一不可）
+2. **写 Truman 11章复盘** — 用 Write 工具写到 `桌面/agent复盘/hongqigong/daily-context/YYYY-MM-DD.md`（格式见 agent-os.md §10.2，11章缺一不可，差异栏=第 1 章，空白 = C 级）
 3. **保存+自检** — 一条命令搞定：
    ```
-   python C:\Users\Administrator\Desktop\wiki\kdo-tools\daily-context-save.py save --agent hongqigong --truman --file C:\Users\Administrator\Desktop\agent复盘\hongqigong\daily-context\YYYY-MM-DD.md
+   python kdo-tools/daily-context-save.py save --agent hongqigong --truman --file 桌面/agent复盘/hongqigong/daily-context/YYYY-MM-DD.md
    ```
    输出必须显示 🟢 或 🟡。🔴 C 级 = 重写。
 
-> 原"会话结束前三问"已合并到 Truman 10章复盘——第3问"下次启动最需要记住什么"对应元反思章节。
+> 原"会话结束前三问"已合并到 Truman 11章复盘——第3问"下次启动最需要记住什么"对应元反思章节。

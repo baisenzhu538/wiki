@@ -20,7 +20,7 @@ Read `C:\Users\Administrator\Desktop\wiki\agents\agent-os.md`
 
 每次会话结束前必须依次执行：
 
-1. **写 Truman 10章复盘** — 用 Write 工具写到 `桌面/agent复盘/hongqigong/daily-context/YYYY-MM-DD.md`（格式见 agent-os.md §10.2，10章缺一不可）
+1. **写 Truman 11章复盘** — 用 Write 工具写到 `桌面/agent复盘/hongqigong/daily-context/YYYY-MM-DD.md`（格式见 agent-os.md §10.2，11章缺一不可，差异栏=第 1 章，空白 = C 级）
 2. **保存+自检** — 一条命令搞定：
    ```
    python C:\Users\Administrator\Desktop\wiki\kdo-tools\daily-context-save.py save --agent hongqigong --truman --file C:\Users\Administrator\Desktop\agent复盘\hongqigong\daily-context\YYYY-MM-DD.md

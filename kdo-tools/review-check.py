@@ -8,6 +8,7 @@ Usage:
 """
 
 import json
+import re
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -44,6 +45,18 @@ if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
 
+# 深度四条硬指标（B3-3 拍板口径，#419）——启发式规则，拿不准标 manual 不硬拦
+BLINDSPOT_ROOT_KW = ["为什么漏", "为什么没", "根因", "原因", "因为", "症结", "源头", "源于", "追溯"]
+# 宽根因信号：无显式"为什么漏"句式但节内有根因论证 → 标 manual 需人工（防误伤，2026-08-22 实证）
+WIDE_ROOT_KW = ["放大", "惯性", "优先于", "依赖", "习惯", "由于", "受制", "缺乏", "导致", "错在",
+                "选择", "暴露", "印证", "源于", "在于", "忽略了", "没意识到"]
+EPIPHANY_REVERSAL_KW = ["推翻", "打破", "以前以为", "之前以为", "以前认为", "之前认为", "原来不是",
+                        "重新认识", "颠覆", "纠正", "过去一直", "并非我想象", "误区", "旧认知", "旧理解",
+                        "和之前想的相反", "一直以为是", "不再是"]
+DIFF_CLICHE_KW = ["同上", "无差异", "没有差异", "没什么不同", "和上次一样", "无变化", "没有变化",
+                  "差不多", "基本一样", "同上一次"]
+WIKI_ROOT = Path(__file__).resolve().parent.parent
+
 RETRIEVAL_SIGNALS = [
     "kdo query", "kdo-tools", "wiki", "检索", "知识库检索",
     "cross-domain-patterns", "Read 30_wiki", "Read .agent",
@@ -62,6 +75,124 @@ def check_retrieval(content: str) -> dict:
     return {
         "has_retrieval": has_mention,
         "has_discovery": has_mention and has_discovery,
+    }
+
+
+def _extract_section(content: str, title: str) -> str | None:
+    """提取指定章节内容（normalized 后调用）。只匹配 `## 标题` 行，避免正文同名文本误命中（2026-08-22 校准实证）。"""
+    m = re.search(rf"^##\s*{re.escape(title)}", content, re.M)
+    if not m:
+        return None
+    start = m.start()
+    nxt = content.find("##", start + 1)
+    return content[start:nxt] if nxt > 0 else content[start:]
+
+
+def _section_body(section: str) -> str:
+    """剥离章节标题行（标题含模板提示语，如 每条追问"为什么漏掉"/什么基础认知被推翻了——不算复盘内容）。"""
+    return section.split("\n", 1)[1] if "\n" in section else ""
+
+
+def _has_root_cause(blob: str) -> bool:
+    """盲点条目内是否追问了根因（为什么漏/根因/原因/因为/症结…）。"""
+    return any(kw in blob for kw in BLINDSPOT_ROOT_KW)
+
+
+def deep_check(content: str) -> dict:
+    """深度四条硬指标（#419 B3-3）：每条返回 verdict = pass / fail / manual。
+
+    1. 盲点必须"追问为什么漏"（每条盲点到根因）
+    2. 顿悟必须"推翻某认知"（写明被推翻的旧认知）
+    3. 过程资产必须"真实路径"（文件路径可验证存在）
+    4. 差异栏必须"具体差异而非套话"
+    manual = 拿不准，不硬拦（不降级）。
+    """
+    # ── 1. 盲点逐条追问根因 ──────────────────────────────
+    # 三态判决（防误伤，2026-08-22 实证：黄药师复盘有根因论证但无"为什么漏"句式被误降级）：
+    #   pass = 每条盲点均有显式根因追问；manual = 有根因论证但缺显式句式（需人工确认，不拦）；
+    #   fail = 无任何根因信号。
+    bs = _extract_section(content, "思维盲点")
+    if bs:
+        bs_body = _section_body(bs)  # 剥离标题（标题含"每条追问为什么漏掉"提示语，不算内容）
+        items = [blob for blob in re.split(r"\n(?=\s*(?:\d+\.|[-*])\s)", bs_body) if blob.strip()]
+        items = [b for b in items if re.match(r"^\s*(?:\d+\.|[-*])\s", b)]  # 只统计真正的编号/列表条目（标题块不算）
+        if len(items) > 1:  # 有编号/列表条目 → 逐条查
+            without = [b for b in items if not _has_root_cause(b)]
+            if not without:
+                bs_verdict, bs_ok, bs_detail = "pass", True, "所有盲点条目均追问了根因"
+            elif any(kw in bs_body for kw in WIDE_ROOT_KW):  # 节内有宽根因论证 → 需人工
+                bs_verdict, bs_ok, bs_detail = "manual", True, f"{len(without)} 条缺显式根因句式，但节内有根因论证（需人工确认）"
+            else:
+                bs_verdict, bs_ok, bs_detail = "fail", False, f"{len(without)} 条盲点未追问根因"
+        else:  # 无结构化条目 → 整节宽松查
+            if _has_root_cause(bs_body):
+                bs_verdict, bs_ok, bs_detail = "pass", True, "盲点节含根因追问"
+            elif any(kw in bs_body for kw in WIDE_ROOT_KW):
+                bs_verdict, bs_ok, bs_detail = "manual", True, "盲点节有根因论证（需人工确认）"
+            else:
+                bs_verdict, bs_ok, bs_detail = "fail", False, "盲点节无根因追问（为什么漏）"
+    else:
+        bs_verdict, bs_ok, bs_detail = "fail", False, "缺思维盲点章"
+
+    # ── 2. 顿悟必须推翻某认知 ─────────────────────────────
+    ep = _extract_section(content, "顿悟")
+    if ep:
+        ep_body = _section_body(ep)  # 剥离标题（标题含"什么基础认知被推翻了"提示语，不算内容）
+        ep_ok = any(kw in ep_body for kw in EPIPHANY_REVERSAL_KW)
+        ep_detail = "顿悟写明被推翻的旧认知" if ep_ok else "顿悟未见推翻类表达（以前以为/原来不是/纠正…）"
+    else:
+        ep_ok, ep_detail = False, "缺顿悟章"
+
+    # ── 3. 过程资产必须真实路径 ───────────────────────────
+    pa = _extract_section(content, "过程资产")
+    if pa:
+        pa_body = _section_body(pa)
+        candidates = [t.strip() for t in re.findall(r"[\w./\\\-]+\.(?:md|py|json|yaml|yml|txt|csv|cjs|js|ps1|cmd|html)", pa_body)]
+        candidates = [c for c in candidates if not c.startswith(("YAML", "YYYY", "agent复盘/<"))]
+        if not candidates:
+            pa_verdict, pa_ok, pa_detail = "manual", True, "无路径可验证（需人工确认）"
+        else:
+            found = []
+            for cand in candidates:
+                p = Path(cand)
+                if p.is_absolute():
+                    if p.exists():
+                        found.append(cand)
+                elif (WIKI_ROOT / cand).exists() or (WIKI_ROOT.parent / cand).exists():
+                    found.append(cand)
+                elif cand.startswith("桌面/"):
+                    if (Path.home() / cand.replace("桌面/", "")).exists():
+                        found.append(cand)
+                elif cand.startswith("Desktop/"):  # 相对家目录的 Desktop 前缀（校准样本实证，2026-08-22）
+                    if (Path.home() / cand).exists():
+                        found.append(cand)
+            missing = [c for c in candidates if c not in found]
+            pa_ok = bool(found) or len(missing) < len(candidates)
+            pa_verdict = "pass" if pa_ok else "manual"
+            pa_detail = f"{len(found)}/{len(candidates)} 路径可验证存在" if pa_ok else f"{len(missing)} 个路径未验证存在"
+    else:
+        pa_verdict, pa_ok, pa_detail = "fail", False, "缺过程资产章"
+
+    # ── 4. 差异栏具体差异而非套话 ─────────────────────────
+    df = _extract_section(content, "差异栏")
+    if df:
+        body = df.split("\n", 1)[1] if "\n" in df else ""
+        body = body.strip().lstrip(">").strip()
+        cliches = [k for k in DIFF_CLICHE_KW if k in body]
+        if cliches:
+            df_ok, df_detail = False, f"差异栏含套话词：{'/'.join(cliches)}"
+        elif len(body) < 15:
+            df_ok, df_detail = False, f"差异栏仅 {len(body)} 字，疑似套话"
+        else:
+            df_ok, df_detail = True, "差异栏为具体差异"
+    else:
+        df_ok, df_detail = False, "缺差异栏章"
+
+    return {
+        "blindspot_rooted": {"ok": bs_ok, "verdict": bs_verdict, "detail": bs_detail},
+        "epiphany_reversal": {"ok": ep_ok, "verdict": "pass" if ep_ok else "fail", "detail": ep_detail},
+        "asset_real_paths": {"ok": pa_ok, "verdict": pa_verdict, "detail": pa_detail},
+        "diff_specific": {"ok": df_ok, "verdict": "pass" if df_ok else "fail", "detail": df_detail},
     }
 
 
@@ -106,10 +237,14 @@ def check_content_depth(content: str, size: int) -> dict:
         diff_body = diff_section.split("\n", 1)[1] if "\n" in diff_section else ""
         diff_blank = len(diff_body.strip()) == 0
 
-    # A 级：≥3000B + 11章 + 差异栏非空 + 盲点≥2且有追问 + 检索有发现（§10.4.1 A级要求）
+    # 深度四条硬指标（#419 B3-3）：manual 不拦，fail 拦 A 级
+    deep = deep_check(content)
+    deep_fails = [k for k, v in deep.items() if v["verdict"] == "fail"]
+
+    # A 级：≥3000B + 11章 + 差异栏非空 + 盲点≥2且有追问 + 检索有发现 + 深度四条全过（§10.4.1 A级要求）
     if (size >= 3000 and chapter_count == 11
             and not diff_blank and blindspot_count >= 2 and blindspot_has_why
-            and retrieval["has_discovery"]):
+            and retrieval["has_discovery"] and not deep_fails):
         grade = "A"
         emoji = "🟢"
     # C 级：差异栏空白（#268 重复自审红线）
@@ -134,6 +269,7 @@ def check_content_depth(content: str, size: int) -> dict:
         "blindspot_has_why": blindspot_has_why,
         "diff_blank": diff_blank,
         "retrieval": retrieval,
+        "deep": deep,
     }
 
 
@@ -206,7 +342,9 @@ def print_report(results: list, today: str):
         elif r["grade"] == "B":
             missing_str = f"，缺{'、'.join(r['missing'][:3])}" if r['missing'] else ""
             retrieval_note = " ✅已检索" if r.get("retrieval", {}).get("has_retrieval") else ""
-            print(f"  {label:<32} 🟡 B级 ({r['size']}B) — {r['chapter_count']}/11章{missing_str}{retrieval_note}")
+            deep_miss = [k for k, v in r.get("deep", {}).items() if v.get("verdict") == "fail"]
+            deep_note = f"，深度缺失:{'、'.join(deep_miss)}" if deep_miss else ""
+            print(f"  {label:<32} 🟡 B级 ({r['size']}B) — {r['chapter_count']}/11章{missing_str}{retrieval_note}{deep_note}")
         else:
             reasons = []
             if r.get('size', 0) < 1500:

@@ -72,7 +72,7 @@ updated_at: 2026-08-09
 - 入队任务单：`60_feedback/tasks/task_YYYYMMDD_<assignee>-<topic>.md`
 - 诊断报告：`60_feedback/diagnosis/diag_YYYYMMDD_<topic>.md`
 - 队列真相源：`70_product/tasks/production-queue.md`（只读引用 + 追加行，状态列走脚本）
-- 复盘：`桌面/agent复盘/wangyuyan/daily-context/YYYY-MM-DD-<instance>.md`（Truman 10 章唯一格式）
+- 复盘：`桌面/agent复盘/wangyuyan/daily-context/YYYY-MM-DD-<instance>.md`（Truman 11 章唯一格式）
 
 ## 三件套需求（黄药师注入）
 
