@@ -1,17 +1,13 @@
----
-status: pending_review
-updated_at: '2026-08-22T14:38:38.488676+00:00'
----
 ﻿---
 id: 428
 assignee: hermes
-status: in_progress
-updated_at: '2026-08-22T14:13:26.095496+00:00'
+status: pending_review
+updated_at: '2026-08-22T14:38:38.488676+00:00'
 ---
 # #428 补建 agent-spec 卡：风清扬（观察者）
 
 - **任务号**：#428
-- **状态**：queued
+- **状态**：pending_review（2026-08-22 已提审）
 - **assignee**：laowantong（制卡；王语嫣编排；欧阳锋终审）
 - **优先级**：P2（其余 4 角色均有 spec 卡，观察者独缺；B2-3 角色专场前补齐）
 - **立项**：2026-08-22 王语嫣（风清扬五角色建议书裁定采纳项）
