@@ -124,3 +124,43 @@ class TestEnsureTaskWorkspace(unittest.TestCase):
                 (tmp / "task_9999_test-long-running-workspace" / "next-pointer.md").read_text(encoding="utf-8"),
                 "# 已有人写的内容\n",
             )
+
+
+class TestReviewBoardBatchReregister(unittest.TestCase):
+    """O-3 分批提审回归（#413 R3）：分批任务二次 complete 必须重新登记 REVIEW-PENDING
+
+    幂等判断此前把"已划掉的行"也算已登记——分批任务第二次提审时段内已有划掉行
+    （含 task_id）→ 不再登记 → 提审无声（#411 三批实证）。
+    """
+
+    def test_batch_reregister_after_strike(self):
+        import tempfile
+        from pathlib import Path
+        from queue_transition import _review_board_update
+
+        with tempfile.TemporaryDirectory() as d:
+            tmp = Path(d)
+            qpath = tmp / "production-queue.md"
+            qpath.write_text(
+                "---\nid: production-queue\ntype: queue\n---\n\n"
+                "<!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->\n\n"
+                "## ⚖️ 待终审\n\n"
+                "- ~~#411 task_20260822_laowantong-related-asymmetry-backfill｜hermes｜提审 08-22 11:38｜f.md~~ → 已终审 PASS A-\n\n"
+                "<!-- REVIEW-PENDING-END -->\n",
+                encoding="utf-8",
+            )
+            import queue_transition
+            queue_transition.QUEUE_PATH = qpath
+
+            _review_board_update(register={
+                "seq": "411",
+                "task_id": "task_20260822_laowantong-related-asymmetry-backfill",
+                "assignee": "hermes",
+                "task_file": "f.md",
+            })
+            text = qpath.read_text(encoding="utf-8")
+            # 修复后：已划掉行不算已登记 → 应追加第二行未划掉的登记
+            lines = [l for l in text.splitlines() if l.startswith("- ") and "task_20260822" in l]
+            active = [l for l in lines if not l.startswith("- ~~")]
+            self.assertEqual(len(active), 1, f"应重新登记一行未划掉的提审行，实际:\n{lines}")
+            self.assertIn("提审", active[0])

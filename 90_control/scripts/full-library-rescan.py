@@ -226,6 +226,26 @@ def _norm_link(raw: str) -> str:
     return s.split("|")[0].strip()
 
 
+def _related_line_no(rel_path: str, target: str) -> int | None:
+    """R4：在卡 frontmatter 的 related 列表里找引用 target 的行号（文件 1-based）。"""
+    try:
+        text = Path(rel_path).read_text(encoding="utf-8")
+    except OSError:
+        return None
+    if not text.startswith("---"):
+        return None
+    fm_text = text.split("---", 2)[1]
+    target_forms = {target, f"[[{target}]]", f"[[{target}|", _norm_link(target)}
+    for i, ln in enumerate(fm_text.splitlines(), start=1):
+        stripped = ln.strip()
+        if not stripped.startswith("-"):
+            continue
+        item = stripped[1:].strip()
+        if any(item.startswith(tf) or tf in item for tf in target_forms):
+            return i + 1  # frontmatter 第 1 行是 ---，frontmatter 内第 i 行 = 文件第 i+1 行
+    return None
+
+
 def check_related_asymmetry(cards):
     """A 链 B 但 B 有 related 却未回链 A。B 无 related 字段 → 系统页/不回链型，跳过。"""
     by_id = {}
@@ -268,7 +288,9 @@ def check_related_asymmetry(cards):
                     continue
                 if c["id"] not in b_related and c["rel"].rsplit("/", 1)[-1].removesuffix(".md") not in b_related:
                     seen.add(pair)
-                    out.append(f"{c['rel']} → {b['rel']} (单向链，缺回链)")
+                    src_line = _related_line_no(c["rel"], t)
+                    loc = f":{src_line}" if src_line else ""
+                    out.append(f"{c['rel']}{loc} → {b['rel']} (单向链，缺回链)")
     return out
 
 

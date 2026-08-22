@@ -98,7 +98,9 @@ def _review_board_update(register: dict | None = None, strike: str | None = None
 
         if register:
             tid = register["task_id"]
-            if not any(tid in l for l in items):
+            # O-3 分批提审修复：幂等判断排除已划掉的行——分批任务二次 complete 时
+            # REVIEW-PENDING 段已有该任务的划掉行（含 tid），若不排除则不再登记 = 提审无声
+            if not any(tid in l and not l.startswith("- ~~") for l in items):
                 items.append(
                     f"- #{register['seq']} {tid}｜{register['assignee']}｜提审 {now}｜{register['task_file']}"
                 )
