@@ -60,13 +60,21 @@ def _save_state(state: dict) -> None:
 
 # ── 信号 1/2：队列状态 diff（相对上次快照）───────────────────
 
+def _msg_key(role: str, text: str) -> str:
+    """幂等键：角色 + 消息主体（去 emoji 前缀）。"""
+    return f"{role}:{text.split('：')[1] if '：' in text else text}"
+
+
 def _queue_signal(state: dict) -> dict:
+    """返回 [(task_id, seq)] 对（seq=队列序号，P2 修复：通知显示 #序号 非 slug 尾）。"""
     rows = parse_queue(QUEUE_FILE)
-    now_review = [r["task_id"] for r in rows if r["status"] == "pending_review"]
-    now_queued = [r["task_id"] for r in rows if r["status"] == "queued"]
-    new_review = [t for t in now_review if t not in state.get("last_review_pending", [])]
-    new_queued = [t for t in now_queued if t not in state.get("last_queued", [])]
-    state["last_review_pending"], state["last_queued"] = now_review, now_queued
+    review = [(r["task_id"], r["seq"]) for r in rows if r["status"] == "pending_review"]
+    queued = [(r["task_id"], r["seq"]) for r in rows if r["status"] == "queued"]
+    last_review = state.get("last_review_pending", [])
+    last_queued = state.get("last_queued", [])
+    new_review = [(t, s) for t, s in review if t not in last_review]
+    new_queued = [(t, s) for t, s in queued if t not in last_queued]
+    state["last_review_pending"], state["last_queued"] = [t for t, _ in review], [t for t, _ in queued]
     return {"new_review": new_review, "new_queued": new_queued}
 
 
@@ -174,22 +182,30 @@ def _send_hook(url: str, text: str, key: str | None = None) -> bool:
         return False
 
 
-def _notify(messages: dict[str, str], dry_run: bool, silent: bool) -> None:
-    """messages: {角色: 消息文本}。幂等由调用方（notified 集合）保证。"""
+def _notify(messages: dict[str, str], dry_run: bool, silent: bool) -> list[str]:
+    """发送通知，返回**真正发送成功**的 role 列表（#421 终审 P1 修复）。
+
+    silent/dry-run/无配置 = 不发送且不消耗幂等配额——由调用方决定是否记 notified
+    （原实现无条件记 notified，导致夜间静默的变更永不补发、dry-run 吞掉真实配额）。
+    """
     hooks = _load_hooks()
+    sent = []
     for role, text in messages.items():
         if silent:
             print(f"🔕 夜间静默，跳过通知：{role} → {text}")
             continue
         hook = hooks.get(role)
         if not hook:
-            print(f"⚠️ 无 webhook 配置（dry-run 不发送）：{role} → {text}")
+            print(f"⚠️ 无 webhook 配置（不发送）：{role} → {text}")
             continue
         if dry_run:
             print(f"🧪 dry-run 不发送：{role} → {text}")
             continue
         ok = _send_hook(hook["url"], text, hook["key"])
         print(f"{'✅' if ok else '❌'} 通知 {role}：{text}")
+        if ok:
+            sent.append(role)
+    return sent
 
 
 # ── main ──────────────────────────────────────────────────
@@ -210,10 +226,10 @@ def main() -> int:
 
     messages: dict[str, str] = {}
     if queue_sig["new_review"]:
-        ids = ", ".join(f"#{t.split('_')[-1]}" if t.startswith("task_") else t for t in queue_sig["new_review"])
+        ids = ", ".join(f"#{seq}" if seq else tid for tid, seq in queue_sig["new_review"])
         messages["ouyangfeng"] = f"🔔 KDO 新提审 {len(queue_sig['new_review'])} 单：{ids}，请终审"
     if queue_sig["new_queued"]:
-        ids = ", ".join(f"#{t.split('_')[-1]}" if t.startswith("task_") else t for t in queue_sig["new_queued"])
+        ids = ", ".join(f"#{seq}" if seq else tid for tid, seq in queue_sig["new_queued"])
         messages["laowantong"] = f"📥 KDO 可领取 {len(queue_sig['new_queued'])} 单：{ids}"
     if registered:
         messages["wangyuyan"] = f"📬 KDO 新建议书 {len(registered)} 份待裁定：{', '.join(registered)}"
@@ -222,16 +238,26 @@ def main() -> int:
     notified = set(state.get("notified", []))
     deduped = {}
     for role, text in messages.items():
-        key = f"{role}:{text.split('：')[1] if '：' in text else text}"
+        key = _msg_key(role, text)
         if key in notified:
             continue
-        notified.add(key)
         deduped[role] = text
-    state["notified"] = sorted(notified)[-200:]  # 只留最近 200 条防膨胀
 
     hour = datetime.now().hour
     silent = (hour >= SILENT_START_HOUR or hour < SILENT_END_HOUR) and not args.force_notify
-    _notify(deduped, args.dry_run, silent)
+
+    # P1 修复（终审）：静默期/dry-run 不消耗配额——静默期变更进 pending 天亮补发，发送成功才记 notified
+    pending = state.get("pending_notify", {})
+    to_send = {**pending, **deduped}
+    if silent:
+        state["pending_notify"] = to_send
+        print(f"🔕 夜间静默：{len(to_send)} 条变更进待补发（天亮自动补发）")
+    else:
+        sent = _notify(to_send, args.dry_run, silent=False)
+        for role in sent:
+            notified.add(_msg_key(role, to_send[role]))
+        state["pending_notify"] = {k: v for k, v in to_send.items() if k not in sent}  # 失败留待下次重试
+    state["notified"] = sorted(notified)[-200:]  # 只留最近 200 条防膨胀
     _save_state(state)
 
     summary = {

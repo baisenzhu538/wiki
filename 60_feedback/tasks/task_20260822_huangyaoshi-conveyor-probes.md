@@ -111,3 +111,49 @@ grade: A-
 - 新增 `--force-notify`（仅测试/验收用，跳过夜间静默；生产红线不变）；5 测试回归通过
 - **✅ 计划任务已注册**（2026-08-22 用户明确授权）：`kdo-conveyor-probe` 每 10 分钟（PowerShell Register-ScheduledTask，Execute python.exe + WorkingDirectory wiki 根），`schtasks /run` 实测 LastTaskResult=0——通知全自动；夜间静默在任务运行时自动生效（登记照常、通知不发）
 - **待办清零**：本单全部验收项完成
+
+---
+
+## 终审记录（欧阳锋 · 2026-08-22 深夜）
+
+**结论：PASS / A-**（queue_transition.py review，自动同步三处）
+
+**版本对齐三问**（#362 门禁，代码类任务全绿）：
+1. 入仓：wiki 550d43cbb/d778d88c6/2b0c47312 + KDO 仓 3d0f2ac（pre-submit 三元组门禁）——双仓已提交
+2. 生效：`\kdo-conveyor-probe` 计划任务注册（状态就绪，独立复验）；`.kdo/conveyor_state.json` 22:31 运行痕迹含 3 条真实通知；`.feishu_webhooks.json` 22:25 配置在
+3. 对齐：契约先于实现（550d43cbb 22:11:04 vs 提审 22:11）；审查对象=两仓 HEAD
+
+**溯源要点**（O0：逐条对源码/契约/测试/运行态）：
+- 契约文档六节齐全，与 X-1 拍板要素逐条一致（三类信号/调度红线/口径/边界/通道/同源）
+- 边界硬编码 ✅：无 `import queue_transition`、无 claim/complete/review/release 函数（测试 test_no_transition_capability 固化 AttributeError 证伪）
+- 登记与通知同源 ✅：一次扫描事件，`registered` 产物同时驱动登记与通知（L209→L218-219）
+- E017 ✅：`yaml.safe_load` 结构化解析三元组（L81），禁 grep/正则
+- 登记幂等 ✅：路径级去重 + 历史行保留（误删实证有测试）——重跑 registered=[]
+- pre-submit 三元组门禁 ✅（KDO 仓 3d0f2ac 代码级验证：含 audience 字段必须带齐三元组，缺 status 拦截）
+- 测试 5 个全部覆盖核心验收点
+
+**独立实测（O3）**：dry-run 检出 22:38 新提审 #428（state 22:31 快照后的变化）+ 夜间静默生效——检出逻辑真实工作，与报告一致
+
+**审查发现缺陷**：
+1. 🔴 **P1·静默/dry-run 吞通知**（未修复，随单放行）：`notified` 集合在 silent 判断前无条件更新（L222-230）——夜间 22:00-08:00 的变更静默跳过且永不补发；`--dry-run` 也消耗幂等配额，之后真实运行不推。建议小修：silent/dry-run 不写 notified，或静默期变更进待补发集合
+2. 🟠 P2：通知任务号显示 slug 尾（`#huangyaoshi-conveyor-probes`）非队列序号（`#421`），契约"列任务号"语义打折——TODO
+3. 🟠 P3：探针写队列文件无锁，与 queue_transition 理论竞态（watch_inbox 同类先例）——TODO
+
+**魔鬼代言人**：入库 3 个月后最可能出问题——"夜间提审没人通知 + 有人跑 dry-run 调试后通知被吞"。正对应 P1。
+
+**残余风险**：P1 未修复放行（通知为辅助通道，登记/检出/门禁核心功能全达标）；3 份测试建议书待王语嫣裁定处置（任务单已声明）；`schtasks /run` LastTaskResult=0 为执行者实测，我侧独立复验任务已注册（状态就绪）。
+
+*欧阳锋 · 2026-08-22 · A-*
+
+### 审查意见修复记录（2026-08-22 深夜 · 领取欧阳锋 A- 意见后）
+
+**P1（🔴 静默/dry-run 吞通知）——已修复**：
+- 根因：`notified` 在 silent 判断前无条件更新——夜间变更静默跳过且永不补发；dry-run 也消耗配额
+- 修复：`_notify` 返回实际发送成功的 role 列表；只有发送成功才记 notified；静默期变更进 `state["pending_notify"]` 天亮自动补发；发送失败留 pending 下次重试
+- 验证：夜间跑 → "🔕 夜间静默：2 条变更进待补发"；`--force-notify` → pending 补发成功 + pending 清空 + notified 只记发送成功的 2 条（附输出）
+
+**P2（🟠 通知显示 slug 尾非队列序号）——已修复**：`_queue_signal` 返回 (task_id, seq) 对，消息显示 `#188/#417/#428` 式队列序号（附输出实测）
+
+**P3（🟠 写队列无锁）——TODO 保留**：探针写 PROPOSAL-PENDING 段与 queue_transition 理论竞态（watch_inbox 同类先例）；需锁机制设计，随流转机制演进一并定（同 F-029 依赖）
+
+**回归**：test_conveyor_probe 9 passed（新增 4 条 P1 回归：静默/dry-run 返回空、发送成功返回列表、幂等键稳定）

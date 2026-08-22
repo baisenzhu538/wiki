@@ -81,7 +81,38 @@ def test_no_transition_capability():
 
 
 def test_notify_dry_run_no_send(tmp_path, monkeypatch, capsys):
-    monkeypatch.setattr(probe, "HOOKS_FILE", tmp_path / "none.json")  # 无配置 → dry-run 路径
+    monkeypatch.setattr(probe, "HOOKS_FILE", tmp_path / "none.json")  # 无配置 → 显式打印不静默失败
     probe._notify({"ouyangfeng": "🔔 测试"}, dry_run=False, silent=False)
     out = capsys.readouterr().out
-    assert "dry-run 不发送" in out  # 无 webhook 配置 → 不静默失败，显式打印
+    assert "不发送" in out
+
+
+# ── #421 终审 P1 修复回归（静默/dry-run 不消耗幂等配额 + pending 补发）──
+
+def test_notify_silent_returns_empty():
+    """静默 = 不发送且不消耗配额（返回空列表，调用方据此把消息留 pending）。"""
+    sent = probe._notify({"ouyangfeng": "🔔 测试"}, dry_run=False, silent=True)
+    assert sent == []
+
+
+def test_notify_dryrun_returns_empty():
+    """dry-run = 不发送不消耗配额。"""
+    sent = probe._notify({"ouyangfeng": "🔔 测试"}, dry_run=True, silent=False)
+    assert sent == []
+
+
+def test_notify_success_returns_sent_roles(tmp_path, monkeypatch):
+    import json as _json
+    hooks = tmp_path / "hooks.json"
+    hooks.write_text(_json.dumps({"ouyangfeng": {"url": "https://example.com/hook", "key": "k"}}), encoding="utf-8")
+    monkeypatch.setattr(probe, "HOOKS_FILE", hooks)
+    monkeypatch.setattr(probe, "_send_hook", lambda url, text, key=None: True)
+    sent = probe._notify({"ouyangfeng": "🔔 测试"}, dry_run=False, silent=False)
+    assert sent == ["ouyangfeng"]
+
+
+def test_msg_key_stable():
+    k1 = probe._msg_key("ouyangfeng", "🔔 KDO 新提审 3 单：#421，请终审")
+    k2 = probe._msg_key("ouyangfeng", "🔔 KDO 新提审 3 单：#421，请终审")
+    assert k1 == k2
+    assert k1.startswith("ouyangfeng:")
