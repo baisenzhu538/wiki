@@ -40,6 +40,7 @@ related:
   - tool-yitang-daily-weekly-meeting-hosting
   - '[[bridge-meeting-leadership-coaching]]'
   - '[[framework-meeting-iceberg-canvas]]'
+  - '[[tool-团队复盘引导清单]]'
 quality_labels: [actionable, quotable, cited, principle]
 tags:
   - audience:general

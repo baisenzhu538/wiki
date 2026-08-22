@@ -33,6 +33,7 @@ related:
 - '[[ai-collaboration-domain-digest]]'
 - '[[yitang-domain-digest]]'
 - '[[tool-ban-fei-mao-gao-su-ai-dang-qian-ri-qi-xian-zhi-shu-ju-shi-xiao]]'
+- '[[tool-半肥猫-边学边练边沉淀的AI学习法]]'
 author: 半肥猫
 reviewed_by: 欧阳锋
 review_date: '2026-06-19'

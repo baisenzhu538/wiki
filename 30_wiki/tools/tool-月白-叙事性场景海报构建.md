@@ -34,6 +34,7 @@ related:
 - 'tool-月白-AIGC海报信息优先级排序法'
 - 'tool-月白-AIGC餐饮海报优化一抽流'
 - 'dk-aesthetic-redline-doc'
+- '[[tool-月白-80分效率设计策略]]'
 tags:
 ---
 # 技能：叙事性场景海报构建

@@ -33,6 +33,7 @@ related:
 - 'tool-月白-MOC'
 - 'case-truman-ai-native-research-flow'
 - '[[tool-candy-positioning-canvas]]'
+- '[[tool-月白-AIGC人群画像驱动详情页规划]]'
 tags: null
 ---
 # 最佳实践调研：找到行业标杆，复制成功因素

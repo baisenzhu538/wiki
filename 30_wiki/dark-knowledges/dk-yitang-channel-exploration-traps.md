@@ -50,6 +50,7 @@ related:
 - '[[tool-yitang-sales-process-decomposition]]'
 - '[[case-yitang-sales-transformation-meirongyuan]]'
 - '[[case-yitang-yitu-lead-industrialization]]'
+- '[[tool-yitang-industry-channel-arsenal-index]]'
 review_date: '2026-06-28'
 tags:
 - audience:executor

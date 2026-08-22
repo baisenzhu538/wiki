@@ -38,6 +38,7 @@ related:
   - yt-management-scientific-meetings
   - framework-leadership-five-ladders
   - bridge-meeting-leadership-coaching
+  - '[[tool-yitang-project-kickoff-meeting]]'
 quality_labels: [insight, quotable, actionable, cited]
 tags:
   - audience:general

@@ -35,6 +35,7 @@ related:
 - 'tool-月白-AI对话情绪管理法'
 - 'dk-three-context-formula'
 - '[[tool-demand-iceberg-l2-scenario]]'
+- '[[tool-半肥猫-course-to-skill-workflow]]'
 tags:
 ---
 # 技能：课程问题预埋法

@@ -64,6 +64,9 @@ related:
 - '[[framework-sales-funnel-full]]'
 - '[[framework-yitang-sales-target-tradeoffs]]'
 - '[[tool-candy-sales-recruiting]]'
+- '[[tool-yitang-listening-37-rule]]'
+- '[[tool-yitang-sales-toolkit-maturity-60-75-85]]'
+- '[[tool-yitang-three-second-opening-scripts]]'
 created_at: 2026-07-02
 updated_at: 2026-07-08
 tags:

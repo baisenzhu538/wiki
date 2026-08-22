@@ -59,6 +59,7 @@ related:
 - '[[sales-domain-digest]]'
 - '[[framework-yitang-sales-target-tradeoffs]]'
 - '[[opc-ai-sales-agent-architecture]]'
+- '[[tool-yitang-sales-toolkit-maturity-60-75-85]]'
 created_at: 2026-07-02
 updated_at: 2026-07-02
 tags:

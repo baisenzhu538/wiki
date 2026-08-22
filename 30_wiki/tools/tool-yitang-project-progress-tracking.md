@@ -26,6 +26,7 @@ related:
 - "[[yt-management-project-management]]"
 - "[[tool-yitang-project-comm-frequency]]"
 - "[[tool-yitang-project-comm-matrix]]"
+- '[[tool-yitang-project-unblock-techniques]]'
 tags:
 - audience:executor
 - scene:execution

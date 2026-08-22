@@ -25,6 +25,7 @@ related:
   - "[[framework-yitang-jiefang-sixiang]]"
   - "[[framework-yitang-y-model-cross-domain-fusion]]"
   - "[[dk-yitang-Y-model-pitfalls]]"
+  - '[[tool-Y模型实操工作流]]'
 created_at: 2026-07-08
 updated_at: 2026-07-08T17:28:16Z
 tags:

@@ -51,6 +51,7 @@ related:
 - '[[tool-agent-spec-yitang-self-motivation]]'
 - '[[tool-agent-spec-yitang-value-proposition]]'
 - '[[tool-agent-spec-yitang-Y-model-coach]]'
+- '[[tool-yitang-sales-toolkit-radar]]'
 tags:
 - audience:manager
 - scene:reference

@@ -70,6 +70,9 @@ related:
 - '[[tool-一堂-触点挖掘四层级]]'
 - '[[tool-一堂-触点质量五维]]'
 - '[[tool-一堂-讲香双策略]]'
+- '[[tool-一堂-FAB说服法]]'
+- '[[tool-一堂-影响力六原则]]'
+- '[[tool-一堂-阻力三句话心法]]'
 quality_labels:
 - cited
 - actionable

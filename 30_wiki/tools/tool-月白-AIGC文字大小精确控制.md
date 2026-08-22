@@ -34,6 +34,7 @@ related:
 - 'tool-月白-AI去字-稿定设计加字工作流'
 - 'tool-月白-AI去文字-稿定设计快速出图法'
 - 'dk-three-context-formula'
+- '[[tool-月白-AI图片去文字处理]]'
 tags:
 ---
 # 技能：AIGC文字大小精确控制

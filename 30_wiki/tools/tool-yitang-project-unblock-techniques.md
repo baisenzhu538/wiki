@@ -25,6 +25,7 @@ discoverable_by:
 related:
 - "[[yt-management-project-management]]"
 - "[[tool-yitang-project-progress-tracking]]"
+- '[[tool-yitang-project-resource-escalation]]'
 tags:
 - audience:executor
 - scene:execution

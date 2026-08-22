@@ -53,6 +53,9 @@ related:
 - '[[dk-ai-collaboration-degradation-spiral]]'
 - '[[dk-yihang-report-book-learner]]'
 - '[[method-yihang-aesthetic-fast-build]]'
+- '[[tool-yitang-quantitative-research-checklist]]'
+- '[[tool-Y模型STEPS策略集]]'
+- '[[tool-Y模型实操工作流]]'
 aliases:
 - Y模型迭代发动机
 - Y模型循环操作法

@@ -53,6 +53,9 @@ related:
 - '[[tool-一堂-触点挖掘四层级]]'
 - '[[tool-一堂-触点质量五维]]'
 - '[[tool-一堂-讲香双策略]]'
+- '[[tool-一堂-FAB说服法]]'
+- '[[tool-一堂-七大转化场景自检]]'
+- '[[tool-一堂-阻力挖掘方式]]'
 quality_labels:
 - cited
 - actionable

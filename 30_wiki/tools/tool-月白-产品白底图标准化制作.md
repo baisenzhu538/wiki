@@ -34,6 +34,7 @@ related:
 - 'tool-月白-AIGC产品白底图制作'
 - 'tool-月白-AI生成电商白底图'
 - 'dk-aesthetic-redline-doc'
+- '[[tool-月白-80分效率设计策略]]'
 tags:
 ---
 # 技能：产品白底图标准化制作

@@ -24,6 +24,7 @@ related:
 - '[[concept-一堂-kernel-validation]]'
 - '[[yt-product-kernel-cultivation]]'
 - '[[yt-product-kernel-validation]]'
+- '[[tool-一堂-product-kernel-add-subtract]]'
 wiki_refs:
 - src_unknown
 - src_unknown

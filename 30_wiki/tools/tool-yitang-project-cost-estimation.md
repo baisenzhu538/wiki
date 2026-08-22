@@ -26,6 +26,7 @@ related:
 - "[[yt-management-project-management]]"
 - "[[framework-yitang-project-plan-design]]"
 - "[[tool-yitang-project-plan-canvas]]"
+- '[[tool-yitang-project-resource-escalation]]'
 tags:
 - audience:executor
 - scene:execution

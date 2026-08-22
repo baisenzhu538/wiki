@@ -53,6 +53,7 @@ related:
 - framework-patrolkit-radar
 - '[[tool-author-targeted-collect]]'
 - '[[tool-cangjie-skill]]'
+- '[[tool-yizhan-shendeng]]'
 tags:
 - audience:all-agents
 - scene:execution

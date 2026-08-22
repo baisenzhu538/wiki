@@ -61,6 +61,9 @@ related:
 - '[[tool-candy-sales-recruiting]]'
 - '[[tool-sales-objection-dilution]]'
 - '[[tool-yitang-daily-weekly-meeting-hosting]]'
+- '[[tool-yitang-listening-37-rule]]'
+- '[[tool-yitang-sales-toolkit-maturity-60-75-85]]'
+- '[[tool-yitang-three-second-opening-scripts]]'
 created_at: 2026-07-02
 updated_at: 2026-07-24
 tags:

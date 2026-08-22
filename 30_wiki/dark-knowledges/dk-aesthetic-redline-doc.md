@@ -38,6 +38,11 @@ related:
 - '[[dk-rule-not-system-capability]]'
 - 'tool-月白-MOC'
 - '[[tool-skill-packaging-eight-steps]]'
+- '[[tool-月白-AIGC产品白底图制作]]'
+- '[[tool-月白-AIGC海报信息优先级排序法]]'
+- '[[tool-月白-AIGC餐饮海报优化一抽流]]'
+- '[[tool-月白-AI图片风格逆向提取（抄图法）]]'
+- '[[tool-月白-AI对话式海报修改（免PS）]]'
 ---
 # 审美/红线只讲一次，落文档+每次强制检查（一次说清，永久生效）
 

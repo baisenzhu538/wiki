@@ -40,6 +40,7 @@ related:
 - framework-ouyangfeng-review-methodology
 - bridge-yitang-seek-truth-liberate-thought
 - dk-yitang-innovation-failure-modes
+- '[[tool-yitang-ten-layer-interpretation]]'
 diagnostic_signals:
 - signal: 创新方案执行后效果不如预期
   lens: 检查是否跳过了闪电模型的某个步骤

@@ -48,6 +48,7 @@ related:
 - tool-设计对抗效果追踪看板
 - '[[yt-product-kernel-key-conversion]]'
 - '[[yt-business-model-scalability]]'
+- '[[tool-制作行业化要素检查清单]]'
 tags:
 - audience:manager
 - scene:execution

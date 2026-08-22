@@ -42,6 +42,7 @@ related:
 - '[[yt-growth-product-led-growth]]'
 - '[[yt-growth-sales-led-growth]]'
 - '[[feishu-docx-pagination-extraction]]'
+- '[[tool-月白-AIGC设计作业复盘法]]'
 tags:
 ---
 # 技能：A/B双轨反推模式选择

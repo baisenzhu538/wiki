@@ -36,6 +36,8 @@ related:
   - '[[case-一堂-迷你访谈五周迭代]]'
   - '[[case-莹莹-before-after复盘]]'
   - '[[retrospective-moc]]'
+  - '[[tool-团队复盘引导清单]]'
+  - '[[tool-复盘浪费九宗罪自检清单]]'
 tags:
   - method:review
   - method:meta-cognition

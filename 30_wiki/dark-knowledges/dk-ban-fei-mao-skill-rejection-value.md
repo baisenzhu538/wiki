@@ -39,6 +39,7 @@ related:
 - '[[dk-ban-fei-mao-silky-answers-are-dangerous]]'
 - '[[tool-ban-fei-mao-pan-duan-ke-cheng-shi-fou-zhi-de-zuo-cheng-skill]]'
 - '[[tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]'
+- '[[tool-半肥猫-边学边练边沉淀的AI学习法]]'
 author: 半肥猫
 reviewed_by: 欧阳锋
 confidence: 0.88

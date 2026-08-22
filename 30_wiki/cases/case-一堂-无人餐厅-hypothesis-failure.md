@@ -34,6 +34,8 @@ related:
 - '[[concept-一堂-hypothesis-driven-business-methodology]]'
 - '[[concept-一堂-kernel-validation]]'
 - '[[concept-mckinsey-hypothesis-driven]]'
+- '[[tool-一堂-hypothesis-validation-three-axe]]'
+- '[[tool-一堂-kernel-six-verification-strategies]]'
 wiki_refs:
 - src_unknown
 - src_unknown

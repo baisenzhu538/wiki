@@ -35,6 +35,7 @@ related:
 - 'tool-月白-AI图片印刷落地预处理'
 - 'tool-月白-AI工艺图人工复核法'
 - 'dk-three-context-formula'
+- '[[tool-月白-AI平台算法咨询法]]'
 tags:
 ---
 # 技能：AI对话情绪管理法

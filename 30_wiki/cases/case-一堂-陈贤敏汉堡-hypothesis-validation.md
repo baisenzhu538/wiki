@@ -35,6 +35,8 @@ related:
 - '[[concept-一堂-key-assumptions]]'
 - '[[concept-mckinsey-hypothesis-driven]]'
 - '[[tool-mckinsey-hypothesis-driven-workflow]]'
+- '[[tool-一堂-hypothesis-validation-three-axe]]'
+- '[[tool-一堂-kernel-six-verification-strategies]]'
 wiki_refs:
 - src_unknown
 - src_unknown

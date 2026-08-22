@@ -26,6 +26,7 @@ related:
 - "[[yt-management-project-management]]"
 - "[[tool-yitang-project-communication-plan]]"
 - "[[tool-yitang-project-progress-tracking]]"
+- '[[tool-yitang-project-comm-matrix]]'
 tags:
 - audience:executor
 - scene:execution

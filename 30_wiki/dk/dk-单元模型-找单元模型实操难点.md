@@ -36,6 +36,10 @@ related:
 - '[[model-quality-four-levels]]'
 - '[[yt-tob-unit-model]]'
 - '[[yt-unit-model-overview]]'
+- '[[tool-单元模型-单商圈]]'
+- '[[tool-单元模型-单城市]]'
+- '[[tool-单元模型-壁垒预判]]'
+- '[[tool-单元模型-象限分析法]]'
 review_date: '2026-06-29'
 quality_labels:
 - validated

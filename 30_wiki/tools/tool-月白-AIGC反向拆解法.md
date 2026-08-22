@@ -37,6 +37,7 @@ related:
 - 'case-truman-ai-image-workflow-evolution'
 - '[[dk-yb1-aigc-mvp-before-ps]]'
 - '[[dk-yitang-business-formula-plus-times-trap]]'
+- '[[tool-月白-AIGC设计作业复盘法]]'
 tags:
 ---
 # 技能：AIGC反向拆解法

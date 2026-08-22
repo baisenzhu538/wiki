@@ -25,6 +25,7 @@ related:
 - '[[skill-demand-analysis]]'
 - '[[framework-demand-opportunity-spectrum]]'
 - '[[tool-demand-option-explorer]]'
+- '[[tool-一堂五步法-ToB-十八式-checklist]]'
 diagnostic_signals:
 - signal: 需求分析时只考虑"使用者"没考虑"买单者"
   lens: 多角色缺失——B2B决策链有4-7个角色

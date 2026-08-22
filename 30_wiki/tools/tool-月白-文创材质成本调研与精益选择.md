@@ -34,6 +34,7 @@ related:
 - 'tool-月白-AI图片印刷落地预处理'
 - 'tool-月白-AI对话情绪管理法'
 - 'dk-three-context-formula'
+- '[[tool-月白-80分效率设计策略]]'
 tags:
 ---
 # 技能：文创材质成本调研与精益选择

@@ -35,6 +35,7 @@ related:
 - 'tool-月白-AI对话情绪管理法'
 - 'dk-three-context-formula'
 - '[[dk-modeling-expert-consensus-five-percent]]'
+- '[[tool-四层联系建立法]]'
 tags:
 ---
 # 技能：灵感画布建立法

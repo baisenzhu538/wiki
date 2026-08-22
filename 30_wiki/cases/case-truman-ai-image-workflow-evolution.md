@@ -32,6 +32,10 @@ related:
   - 'tool-月白-MOC'
   - 'dk-agent-parallel-design-system'
   - '[[case-truman-temperature-parameter]]'
+  - '[[tool-月白-A-B双轨反推模式选择]]'
+  - '[[tool-月白-AIGC反向拆解法]]'
+  - '[[tool-月白-AIGC橱窗陈列设计流程]]'
+  - '[[tool-月白-AIGC设计作业复盘法]]'
 tags:
   - method:feature-thinking
   - method:workflow

@@ -36,6 +36,7 @@ related:
   - '[[case-meeting-scene-mastery]]'
   - '[[dk-meeting-principle-over-process]]'
   - '[[framework-yitang-project-retrospective]]'
+  - '[[tool-团队复盘引导清单]]'
 quality_labels: [actionable, quotable, principle]
 tags:
   - audience:general

@@ -40,6 +40,7 @@ related:
 - '[[framework-lean-abcd-model]]'
 - '[[concept-yitang-channel-lean-validation-bridge]]'
 - '[[dk-yitang-channel-exploration-traps]]'
+- '[[tool-yitang-referral-channel-optimization]]'
 review_date: '2026-06-28'
 tags:
 - audience:general

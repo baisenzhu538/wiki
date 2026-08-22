@@ -36,6 +36,7 @@ related:
 - "[[yt-management-goal-management]]"
 - "[[workflow-yitang-project-four-step-loop]]"
 - '[[agent-spec-project-management-assistant]]'
+- '[[tool-yitang-retrospective-canvas]]'
 tags:
 - audience:executor
 - scene:execution

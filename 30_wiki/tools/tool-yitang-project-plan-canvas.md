@@ -36,6 +36,10 @@ related:
 - '[[case-yitang-leo-website-redesign]]'
 - '[[framework-yitang-project-retrospective]]'
 - '[[agent-spec-project-management-assistant]]'
+- '[[tool-yitang-project-breakdown-cheatsheet]]'
+- '[[tool-yitang-project-cost-estimation]]'
+- '[[tool-yitang-project-proposal-checklist]]'
+- '[[tool-yitang-retrospective-canvas]]'
 tags:
 - audience:executor
 - scene:execution

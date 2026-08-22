@@ -55,6 +55,9 @@ related:
 - '[[zhu-codebase-ai-orchestration]]'
 - '[[system-yitang-Y-model-os]]'
 - '[[tool-agent-spec-yitang-Y-model-coach]]'
+- '[[tool-yitang-listening-37-rule]]'
+- '[[tool-yitang-sales-toolkit-maturity-60-75-85]]'
+- '[[tool-yitang-three-second-opening-scripts]]'
 tags:
 - audience:manager
 - scene:reference

@@ -33,6 +33,7 @@ related:
 - '[[yt-lean-consumer-deep-experience-testing]]'
 - '[[tool-ban-fei-mao-gao-su-ai-dang-qian-ri-qi-xian-zhi-shu-ju-shi-xiao]]'
 - '[[tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]'
+- '[[tool-半肥猫-课程Skill化的八步工作流]]'
 wiki_refs: null
 definition_of_done: null
 pipeline: null

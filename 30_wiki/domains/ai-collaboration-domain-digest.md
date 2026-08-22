@@ -86,6 +86,7 @@ related:
 - '[[tool-demand-agent-signal-substitute]]'
 - '[[tool-demand-agent-signals]]'
 - '[[tool-yitang-ai-research-workflow]]'
+- '[[tool-yitang-project-kickoff-meeting]]'
 tags:
 - audience:manager
 - scene:reference

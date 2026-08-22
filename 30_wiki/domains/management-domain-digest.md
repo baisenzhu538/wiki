@@ -51,6 +51,11 @@ related:
 - '[[tool-leadership-consensus-goal-escalation]]'
 - '[[tool-leadership-three-stubborn-subordinates]]'
 - '[[tool-OGSM目标管理工具]]'
+- '[[tool-一堂-基本功-三环六维自检]]'
+- '[[tool-一堂-基本功-建模七法]]'
+- '[[tool-一堂-基本功-拆解四法]]'
+- '[[tool-一堂-基本功-推动七式]]'
+- '[[tool-一堂-基本功-练习二十法]]'
 tags:
 - audience:manager
 - scene:reference

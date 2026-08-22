@@ -26,6 +26,7 @@ related:
 - "[[yt-management-project-management]]"
 - "[[tool-yitang-project-retro-value-mining]]"
 - "[[framework-yitang-project-retrospective]]"
+- '[[tool-yitang-project-retro-goal-types]]'
 tags:
 - audience:executor
 - scene:execution

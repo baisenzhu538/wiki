@@ -53,6 +53,7 @@ related:
 - '[[concept-qinpeng-knowledge-base-conversion]]'
 - '[[dk-qinpeng-three-corrections]]'
 - '[[framework-christensen-value-network]]'
+- '[[tool-制作行业化要素检查清单]]'
 tags:
 - audience:manager
 - scene:execution

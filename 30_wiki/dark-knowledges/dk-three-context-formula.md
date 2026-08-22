@@ -43,6 +43,18 @@ related:
 - 'case-openclaw-selfbuilt-agent-platform'
 - '[[case-truman-ai-skill-engineering-guide]]'
 - '[[case-truman-ai-skill-self-packaging]]'
+- '[[tool-月白-AIGC文字大小精确控制]]'
+- '[[tool-月白-AIGC模型选型决策法]]'
+- '[[tool-月白-AIGC生成人物证件照]]'
+- '[[tool-月白-AI一句话改图尺寸]]'
+- '[[tool-月白-AI人物特征精准描述法]]'
+- '[[tool-月白-AI去字-稿定设计加字工作流]]'
+- '[[tool-月白-AI去文字-稿定设计快速出图法]]'
+- '[[tool-月白-AI图片印刷落地预处理]]'
+- '[[tool-月白-AI图片去文字处理]]'
+- '[[tool-月白-AI图生图尺寸快速转换]]'
+- '[[tool-月白-AI对话情绪管理法]]'
+- '[[tool-月白-AI工艺图人工复核法]]'
 review_date: 2026-08-16
 ---
 # 15 秒做图三上下文公式：知道我是谁+检索项目文档+读取设计宪法

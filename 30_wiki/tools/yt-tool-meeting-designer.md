@@ -37,6 +37,8 @@ related:
 - '[[yt-tool-product-core-canvas]]'
 - '[[concept-maister-trusted-advisor]]'
 - '[[tool-note-layer-constraint]]'
+- '[[tool-yitang-project-kickoff-meeting]]'
+- '[[tool-yitang-project-plan-canvas]]'
 contradicts: null
 query_triggers:
 - src_unknown

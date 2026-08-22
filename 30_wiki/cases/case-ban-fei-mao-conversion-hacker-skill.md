@@ -30,6 +30,8 @@ related:
 - '[[yitang-domain-digest]]'
 - '[[kdo-protocol]]'
 - '[[tool-ban-fei-mao-pan-duan-ke-cheng-shi-fou-zhi-de-zuo-cheng-skill]]'
+- '[[tool-半肥猫-课程Skill化的八步工作流]]'
+- '[[tool-半肥猫-边学边练边沉淀的AI学习法]]'
 pipeline: null
 author: 半肥猫
 reviewed_by: 欧阳锋

@@ -73,6 +73,9 @@ related:
 - '[[framework-TCPR底层网络协议]]'
 - '[[framework-yitang-sales-incentive-6d]]'
 - '[[tool-yitang-daily-weekly-meeting-hosting]]'
+- '[[tool-yitang-listening-37-rule]]'
+- '[[tool-yitang-sales-toolkit-maturity-60-75-85]]'
+- '[[tool-yitang-three-second-opening-scripts]]'
 created_at: 2026-07-02
 updated_at: '2026-07-13'
 os_sources:
