@@ -1,8 +1,8 @@
 ---
 id: 414
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-22T12:18:27.582800+00:00'
+status: pending_review
+updated_at: '2026-08-22T12:18:28.197713+00:00'
 ---
 # #414 清 4 处字节级代码副本（采集管线脚本）
 
