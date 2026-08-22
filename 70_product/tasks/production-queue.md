@@ -450,7 +450,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 427 | `task_20260822_fengqingyang-l0-backup-path-proposal` | 记忆胶囊 L0 git 外备份位置与恢复路径方案（P2，B3-1 前置）：风清扬提方案→王语嫣裁定→老朱拍 | reviewed | fengqingyang | 建议书 | 无 | `60_feedback/tasks/task_20260822_fengqingyang-l0-backup-path-proposal.md` | 候选≥2 含体积估算+恢复清单；落 diagnosis/ 后 PROPOSAL-PENDING 自登（通道纪律补课）；停车场 #7 前置 |
 | 428 | `task_20260822_laowantong-fengqingyang-agent-spec` | 补建 agent-spec 卡：风清扬（观察者）（P2）：五要素+G1/G2 铁律，底本=风清扬五角色建议书 §角色 5 | reviewed | laowantong | 1 张 spec 卡 | 无 | `60_feedback/tasks/task_20260822_laowantong-fengqingyang-agent-spec.md` | 职责口径以 B2-2 拍板为准；pre-submit 0 ERROR+双向回链；欧阳锋终审 |
 | 429 | `task_20260822_huangyaoshi-traceability-gates` | 流转留痕三件套门禁（P1）：交付五字段硬格式 + 审查意见书强制落盘 + 等待外部输入态 | reviewed | huangyaoshi | 门禁+回归+狗粮 | 无 | `60_feedback/tasks/task_20260822_huangyaoshi-traceability-gates.md` | 停车场 F-029/F-034/F-035 收口；只拦机械项不碰判断；兼容 #389/#413/#421；欧阳锋终审 |
-| 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | pending_review | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
+| 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
 
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
@@ -526,7 +526,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#427 task_20260822_fengqingyang-l0-backup-path-proposal｜fengqingyang｜提审 08-22 23:19｜60_feedback/tasks/task_20260822_fengqingyang-l0-backup-path-proposal.md~~ → 已终审 PASS A-（2026-08-22 欧阳锋）
 - ~~#429 task_20260822_huangyaoshi-traceability-gates｜huangyaoshi｜提审 08-22 23:52｜60_feedback/tasks/task_20260822_huangyaoshi-traceability-gates.md~~ → 已终审 PASS A-（2026-08-22 欧阳锋）
 - ~~#423 task_20260822_fengqingyang-observer-five-piece-set｜fengqingyang｜提审 08-22 23:55｜60_feedback/tasks/task_20260822_fengqingyang-observer-five-piece-set.md~~ → 已终审 PASS A-（2026-08-22 欧阳锋）
-- #430 task_20260823_huangyaoshi-agent-review-gitify｜huangyaoshi｜提审 08-23 00:17｜60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md
+- ~~#430 task_20260823_huangyaoshi-agent-review-gitify｜huangyaoshi｜提审 08-23 00:17｜60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md~~ → 已终审 PASS A-（2026-08-22 欧阳锋）
 
 <!-- REVIEW-PENDING-END -->
 
