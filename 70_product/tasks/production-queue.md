@@ -568,5 +568,6 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - diag_20260822_probe-test-1-proposal.md｜08-22 22:03｜待王语嫣复核裁定
 - diag_20260822_probe-test-3-notify.md｜08-22 22:26｜待王语嫣复核裁定
 - diag_20260822_fengqingyang-l0-backup-path.md｜08-22 23:11｜待王语嫣复核裁定
+- diag_20260823_fengqingyang-negative-claim-evidence-gate.md｜08-23 00:38｜待王语嫣复核裁定
 
 <!-- PROPOSAL-PENDING-END -->
