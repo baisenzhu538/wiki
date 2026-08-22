@@ -451,3 +451,25 @@ batch_reviewed_4th: PASS A（2026-08-22 欧阳锋，dk-p11 TODO 闭环 + 复扫 
 **A 级理由**：纯增 0 删 + 复扫真实 + 主题相关。
 
 **批次验收流程**：未走 queue_transition review；已划段行 + 恢复 queued（第十二批基线 = 5010）。
+
+
+---
+
+## 执行报告 · 第十二批（2026-08-22 老顽童）
+
+**范围**：250 条（86 张卡：tools/dk/domains 域）
+
+| 项 | 值 |
+|:--|:--|
+| 基线 | 5010（第十一批后） |
+| 上批 TODO | 无新增（第十一批 PASS A 零扣分） |
+| 目标卡数 | 86（tools 案例锚点 + dk + domains 域摘要卡） |
+| 关键修正 | **排除 system/pending_unknown 占位卡**——全量清单 455 条指向占位符，回链纪律 #384 不动 [[pending_unknown]]；脚本加排除逻辑（pending_unknown + /system/ 双排除），首次 apply 污染已回滚 + 验证 |
+| 新增链数 | 250 |
+| 验证 | parse_frontmatter 86/86 OK；行号污染 0；pending_unknown 未污染；git diff 只增 related |
+| 复扫输出 | 5010 → 4760（-250，排除 pending_unknown 后口径） |
+| pre-submit | 抽查 tool-从案例中学习 PASS（index --incremental ~87 刷新） |
+| commit | 4ca684c54（86 files +251） |
+
+**累计进度**：12 批 3000 条 / 复扫 7472 → 4760（原口径 -2712；另有 455 条 pending_unknown 占位条目按纪律排除不处理）
+**域进展**：concept 已清完；本批 tools 案例锚点 + dk + domains 域摘要卡；剩余 tools 1875→1625 / dk 781→700 / cases 486→380 等
