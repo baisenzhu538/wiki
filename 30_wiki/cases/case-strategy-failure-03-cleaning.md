@@ -25,14 +25,15 @@ source_refs:
   - src_unknown
   - src_unknown
   - src_unknown
-  - src_unknown - src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 updated_at: '2026-06-29'
 discoverable_by:
   - 案例：清洁用品L——定位错误。盲目高端丢低端市场

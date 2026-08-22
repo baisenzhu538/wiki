@@ -21,7 +21,7 @@ aliases:
   - 生产审查工作流欧阳锋模式
 source_refs:
   - src_unknown
-- 60_feedback/tasks/task_20260629_kimi-lint-content-debt-by-domain.md
+  - 60_feedback/tasks/task_20260629_kimi-lint-content-debt-by-domain.md
 discoverable_by:
   - KDO 生产审查工作流欧阳锋模式
   - 生产审查工作流欧阳锋模式

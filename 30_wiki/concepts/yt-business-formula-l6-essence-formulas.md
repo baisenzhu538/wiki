@@ -17,9 +17,9 @@ source_refs:
   - src_unknown
   - src_unknown
   - src_unknown
-- src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
-- src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
-- src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral
+  - src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
+  - src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
+  - src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral
 discoverable_by:
   - 业务公式 L6 魔法参数：跨行业本质公式集锦
   - 业务公式

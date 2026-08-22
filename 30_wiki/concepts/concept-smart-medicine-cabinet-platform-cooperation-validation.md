@@ -14,7 +14,7 @@ aliases:
   - 饿了么
 source_refs:
   - src_unknown
-- src_20260613_945a21d7-itingnao-deep-dive-platforms
+  - src_20260613_945a21d7-itingnao-deep-dive-platforms
 created_at: 2026-06-15
 updated_at: '2026-06-29'
 author: 王语嫣

@@ -26,7 +26,7 @@ aliases:
   - 浏览器虚拟滚动到API分页的映射
 source_refs:
   - src_unknown
-- src_unknown
+  - src_unknown
 discoverable_by:
   - 流式提取模式——浏览器虚拟滚动到API分页的映射
   - 流式提取模式

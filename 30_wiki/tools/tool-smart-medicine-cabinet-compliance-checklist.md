@@ -12,7 +12,7 @@ aliases:
   - 智能药柜/医药项目合规快速校验清单
 source_refs:
   - src_unknown
-- src_20260613_2286ccfb-itingnao-deep-dive-compliance
+  - src_20260613_2286ccfb-itingnao-deep-dive-compliance
 created_at: 2026-06-15
 updated_at: '2026-06-29'
 author: 王语嫣

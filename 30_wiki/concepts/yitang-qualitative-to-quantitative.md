@@ -22,9 +22,9 @@ source_refs:
   - src_unknown
   - src_unknown
   - src_unknown
-- src_20260614_606a631d-张磊-精益方法论培训
-- src_20260614_6d9f7671-业务公式拆解培训
-- src_20260616_b1e25c49-zhanglei-lean-testing-ama
+  - src_20260614_606a631d-张磊-精益方法论培训
+  - src_20260614_6d9f7671-业务公式拆解培训
+  - src_20260616_b1e25c49-zhanglei-lean-testing-ama
 discoverable_by:
   - 一堂·从定性到定量：先证伪、后测量
   - 从定性到定量

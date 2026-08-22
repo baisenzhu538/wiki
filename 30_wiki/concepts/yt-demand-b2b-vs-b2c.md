@@ -18,7 +18,7 @@ aliases:
 source_refs:
   - src_unknown
   - src_unknown
-- 10_raw/sources/xujian-tob-fivestep-oral.md
+  - 10_raw/sources/xujian-tob-fivestep-oral.md
 created_at: '2026-06-19'
 updated_at: '2026-06-19'
 author: 老顽童

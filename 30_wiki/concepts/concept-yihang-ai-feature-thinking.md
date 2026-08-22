@@ -32,10 +32,10 @@ related:
   - '[[framework-truman-feature-thinking-core]]'
   - '[[framework-truman-feature-layered-system]]'
   - '[[concept-truman-feature-four-scenarios]]'
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[tool-Truman-Feature特性层训练法]]"
-- "[[tool-Truman-AI能力分层学习路径]]"
-- "[[method-yitang-y-model-engine-cycle]]"
+  - "[[concept-yihang-dual-triangle-core]]"
+  - "[[tool-Truman-Feature特性层训练法]]"
+  - "[[tool-Truman-AI能力分层学习路径]]"
+  - "[[method-yitang-y-model-engine-cycle]]"
 ---
 # AI 基本功的 Feature 思维：把工具拆成最小可操作技术特�?
 > **一句话定义**：Feature 思维 = �?AI 工具拆成最小可操作技术特性（Feature），围绕特性组合而非工具名字来思考、选型、练习和决策。Feature 位于底层大模型与上层工具之间，是 AI 基本功的最小单位�?

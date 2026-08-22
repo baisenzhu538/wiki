@@ -22,10 +22,10 @@ source_refs:
   - src_unknown
   - src_unknown
   - src_unknown
-- src_20260614_8a0317f1-产品-市场分析讨论
-- src_20260614_16c4bf0d-双柚汁产品成本沟通
-- src_20260614_d6ab6fb6-产品调配-口感与成本讨论
-- src_20260614_9b574611-金银花浓缩汁餐饮产品方案
+  - src_20260614_8a0317f1-产品-市场分析讨论
+  - src_20260614_16c4bf0d-双柚汁产品成本沟通
+  - src_20260614_d6ab6fb6-产品调配-口感与成本讨论
+  - src_20260614_9b574611-金银花浓缩汁餐饮产品方案
 related:
 - - - ai-native-im-multi-agent
 - - - fd-forward-deployment

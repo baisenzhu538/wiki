@@ -1,4 +1,10 @@
-# Concept Card Index — 2026-08-20 18:07 UTC
+---
+id: concept-card-index-latest
+title: concept-card-index-latest.md
+type: index
+status: stable
+---
+# Concept Card Index — 2026-08-21 18:07 UTC
 
 | ID | Title | Type | Domain |
 |---|---|---|---|
@@ -999,6 +1005,7 @@
 | tool-panproduct-kids-card-naming | 「工具：九张技能卡的K12命名体系 — 成人术语→儿童名的翻译表」 | tool | panproduct, education |
 | tool-panproduct-kids-lesson-plan | 「工具：K12泛产品设计完整教案 — 四步法+四级作业+提示词模板」 | tool | panproduct, education |
 | tool-panproduct-org-five-step | 组织场景五步法操作卡 | tool | panproduct, organization, yitang |
+| tool-pdf-inspector | PDF-Inspector (Firecrawl)：先分类再提取的极速 PDF→Markdown 解析器 | tool |  |
 | tool-personal-time-audit-loop | 个人时间审计与实验循环 | tool | personal-growth, yitang |
 | tool-platform-requirement-eight-sections | 平台需求梳理 8 节模板：解决什么/用户场景/界面/成功标准/边界/依赖/不做/优先级 | tool | ai-collaboration, product |
 | tool-position-switching-test | 地位互换测试：规则公正性一分钟自检 | tool | management |
@@ -1203,6 +1210,7 @@
 | tool-yitang-recruit-user-interview | 招募用户访谈：公开招募+激励设计 | tool | yitang, research |
 | tool-yitang-red-blue-cards | 红蓝卡：Y模型 团队自检/纠偏/激励行为工具 | tool | yitang, decision-science |
 | tool-yitang-referral-channel-optimization | 老带新渠道优化工具：动力 × 触点 × 阻力 | tool | yitang, growth |
+| tool-yitang-research-best-practice | 最佳实践调研：找到行业标杆，复制成功因素 | tool |  |
 | tool-yitang-research-company-disassembly | 公司拆解：深度分析竞争对手的六维框架 | tool |  |
 | tool-yitang-research-competitive-quadrant | 竞争象限：用二维矩阵可视化竞争格局 | tool |  |
 | tool-yitang-research-competitor-tracking | 竞对跟踪：持续监控竞争对手的动态与策略 | tool |  |
@@ -1974,6 +1982,7 @@
 | case-toy-cabinet-barrier | 案例：线下玩具柜的壁垒困局与突围路径 | case |  |
 | case-toy-cabinet-business-model | 案例：线下玩具柜商业模式 | case |  |
 | case-treadmill-demand-analysis | 跑步机需求分析：在家健身场景的需求拆解与替代方案博弈 | case | product, yitang |
+| case-truman-ai-image-workflow-evolution | 「案例：Truman作图工作流进化——从3小时一张到日产30-40张」 | case | ai-basic, ai-collaboration |
 | case-truman-ai-native-research-flow | 楚门 AI 原生调研流：口喷一段→Agent 科学调研→Obsidian 资产 | case | ai-collaboration, research, knowledge-management |
 | case-truman-ai-partner | 案例：Truman AI Partner（阿蕊老师）——从十年笔记到可售卖的 Agent | case |  |
 | case-truman-ai-skill-engineering-guide | 案例：Truman 如何用 3 小时做出高阶 AI Skill 工程指南 | case |  |

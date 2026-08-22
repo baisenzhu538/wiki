@@ -26,7 +26,7 @@ aliases:
 - 观感受到能力建设的五层穿透
 source_refs:
   - src_unknown
-- src_20260522_c92a36ba-ocr-一堂深度复盘冰山图
+  - src_20260522_c92a36ba-ocr-一堂深度复盘冰山图
 discoverable_by:
 - 深度复盘冰山图：从主观感受到能力建设的五层穿透
 - 深度复盘冰山图

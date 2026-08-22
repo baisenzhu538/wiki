@@ -1,3 +1,9 @@
+---
+id: README
+title: README.md
+type: index
+status: stable
+---
 # 老朱个人域 (personal-os)
 
 > 这是 KDO 知识库中属于老朱个人的区域。

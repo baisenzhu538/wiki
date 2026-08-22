@@ -22,7 +22,7 @@ author: unknown
 confidence: 0.75
 source_refs:
   - src_unknown
-- src_20260502_7d7c1b7c-kimi-深度调研集群方法论-deep-research-swarm
+  - src_20260502_7d7c1b7c-kimi-深度调研集群方法论-deep-research-swarm
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）# Graph RAG — Knowledge-Graph-Powered
   Retrieval
 tags:

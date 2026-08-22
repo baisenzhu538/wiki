@@ -21,7 +21,7 @@ aliases:
 - 防演练
 source_refs:
   - src_unknown
-- src_20260614_d79b42d1-D同学-AI技术落地案例
+  - src_20260614_d79b42d1-D同学-AI技术落地案例
 related:
 - - - dk-modeling-ai-judgment-limit
 - - - master-ai-info-literacy

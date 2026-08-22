@@ -16,7 +16,7 @@ aliases:
   - 续方模式
 source_refs:
   - src_unknown
-- src_20260613_98aa19d4-itingnao-deep-dive-digital-pharmacy
+  - src_20260613_98aa19d4-itingnao-deep-dive-digital-pharmacy
 created_at: 2026-06-15
 updated_at: '2026-06-29'
 author: 王语嫣

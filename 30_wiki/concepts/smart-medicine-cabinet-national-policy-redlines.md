@@ -17,8 +17,8 @@ aliases:
 source_refs:
   - src_unknown
   - src_unknown
-- src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive
-- src_20260613_6ed8df4b-corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive
+  - src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive
+  - src_20260613_6ed8df4b-corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive
 discoverable_by:
   - 自助售药机国家政策与红线2024 年第 48 号公告解读
   - 自助售药机国家政策与红线2024

@@ -37,7 +37,7 @@ author: unknown
 confidence: 0.85
 source_refs:
   - src_unknown
-- src_20260503_52ae08ba-kdo_product_design_agent_final
+  - src_20260503_52ae08ba-kdo_product_design_agent_final
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260503_52ae08ba）
 ---
 # Kimi（月之暗面）
