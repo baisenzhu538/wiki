@@ -1,8 +1,8 @@
 ---
 id: 420
 assignee: wangyuyan
-status: in_progress
-updated_at: '2026-08-22T12:09:48.156943+00:00'
+status: pending_review
+updated_at: '2026-08-22T12:22:08.442419+00:00'
 ---
 # #420 工厂停车场收口（6 份 → 单一 control/parking-lot.md）
 
