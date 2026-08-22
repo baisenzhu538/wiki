@@ -20,6 +20,9 @@ related:
   - '[[concept-truman-feature-four-scenarios]]'
   - '[[concept-truman-feature-six-stages]]'
   - '[[concept-yihang-ai-feature-thinking]]'
+  - '[[tool-Truman-Skill全生命周期管理]]'
+  - '[[tool-Truman-人在环渐进自动化策略]]'
+  - '[[tool-Truman-双三角模型应用]]'
 created_at: 2026-06-30
 updated_at: 2026-08-04
 tags:

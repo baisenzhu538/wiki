@@ -77,6 +77,8 @@ related:
 - '[[sk-ai-prd-for-ai]]'
 - '[[tool-autoclassify-seven-steps]]'
 - '[[tool-knowledge-cheatsheet-sab]]'
+- '[[tool-nine-character-mantra-14-strategies]]'
+- '[[tool-skill-packaging-eight-steps]]'
 ---
 # Builder 幻觉：用 AI 做出东西 ≠ 完成从 0 到 1
 

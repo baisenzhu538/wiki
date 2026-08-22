@@ -64,6 +64,7 @@ related:
 - '[[case-yitang-model-valuation-flywheel]]'
 - 建模能力培训
 - '[[concept-mckinsey-7s]]'
+- '[[tool-sabc-tier-modeling]]'
 ---
 # 案例：一堂的“周对周建模迭代”——把周五课程逼成公司增长引擎
 

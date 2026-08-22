@@ -37,6 +37,7 @@ related:
 - 'dk-three-context-formula'
 - '[[case-纪浩-focus-prompt-design]]'
 - '[[yt-growth-user-onboarding]]'
+- '[[tool-Truman-科学提问法]]'
 tags:
 ---
 # 技能：AI设计反馈萃取法

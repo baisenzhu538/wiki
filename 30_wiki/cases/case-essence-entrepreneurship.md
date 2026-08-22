@@ -47,6 +47,7 @@ related:
 - '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
 - '[[case-yitang-model-valuation-flywheel]]'
 - '[[tool-essence-nfactor-modeling]]'
+- '[[tool-strategy-lifecycle]]'
 tags:
 - src_unknown
 - src_unknown

@@ -31,6 +31,7 @@ tags:
 related:
   - '[[dk-p11-regex-cutoff]]'
   - '[[tool-asset-file-naming-convention]]'
+  - '[[tool-strategy-swot]]'
 ---
 
 # 12 词战略测试

@@ -27,6 +27,7 @@ related:
 - user-insight-profile
 - '[[dk-meeting-borrow-false-repair-true]]'
 - '[[framework-truman-agent-team-architecture]]'
+- '[[tool-skill-packaging-eight-steps]]'
 tags:
 - audience:executor
 - scene:execution

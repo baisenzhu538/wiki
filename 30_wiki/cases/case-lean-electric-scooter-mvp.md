@@ -42,6 +42,13 @@ related:
 - framework-five-step-lean-interface
 - yt-five-step-method
 - '[[tool-lean-cut-features]]'
+- '[[tool-lean-leverage-resources]]'
+- '[[tool-lean-leverage-tools]]'
+- '[[tool-lean-leverage-traffic]]'
+- '[[tool-lean-minimum-test-volume]]'
+- '[[tool-lean-minimum-version]]'
+- '[[tool-lean-premium-service]]'
+- '[[tool-lean-product-kernel-metrics]]'
 tags:
 - audience:general
 - scene:reference

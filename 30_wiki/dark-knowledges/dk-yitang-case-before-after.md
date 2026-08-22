@@ -34,6 +34,7 @@ related:
 - framework-yitang-case-crafting-four-step
 - dk-yitang-case-crafting-pitfalls
 - concept-yitang-case-jiejiaxiuzhen
+- '[[tool-yitang-case-storyline-selector]]'
 tags:
 - audience:executor
 - scene:reference

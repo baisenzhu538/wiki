@@ -55,6 +55,7 @@ related:
 - 电商选品案例
 - 人机协作双三角
 - 阿豪案例的口述
+- '[[tool-yihang-dual-triangle-canvas]]'
 tags:
 - audience:general
 - scene:reference

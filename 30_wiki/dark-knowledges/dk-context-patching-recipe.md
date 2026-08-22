@@ -43,6 +43,7 @@ related:
 - '[[concept-meta-skill-layering]]'
 - '[[framework-ai-deliberate-practice-loop]]'
 - '[[framework-fact-rule-insight]]'
+- '[[tool-skill-packaging-eight-steps]]'
 ---
 # 上下文补齐配方：内容质量不够时先补"价值观+方法论+素材"，不换模型
 

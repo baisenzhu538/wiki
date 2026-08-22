@@ -35,6 +35,7 @@ related:
 - 'tool-月白-A-B双轨反推模式选择'
 - 'tool-月白-AIGC反向拆解法'
 - 'case-truman-ai-image-workflow-evolution'
+- '[[tool-Truman-AI工具选型决策]]'
 tags:
 ---
 # 技能：口喷式设计工作流

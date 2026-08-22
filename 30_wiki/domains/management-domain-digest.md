@@ -50,6 +50,7 @@ related:
 - '[[framework-yitang-project-execution]]'
 - '[[tool-leadership-consensus-goal-escalation]]'
 - '[[tool-leadership-three-stubborn-subordinates]]'
+- '[[tool-OGSM目标管理工具]]'
 tags:
 - audience:manager
 - scene:reference

@@ -26,6 +26,7 @@ related:
 - tinyfish-agentic-web-infrastructure
 - '[[yt-foresight-deliverables-four-levels]]'
 - '[[tool-ai-skill-engineering-method]]'
+- '[[tool-yitang-18-strategy-tool-mapping]]'
 updated_at: '2026-06-29'
 ---
 # 知识卡片 → Claude Code Skill 迭代标准

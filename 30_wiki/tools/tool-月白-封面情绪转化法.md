@@ -35,6 +35,7 @@ related:
 - 'tool-月白-AI对话情绪管理法'
 - 'dk-three-context-formula'
 - '[[yt-tool-fab-persuasion]]'
+- '[[tool-strategy-customer-selection]]'
 tags:
 ---
 # 技能：封面情绪转化法

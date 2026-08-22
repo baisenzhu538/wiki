@@ -45,6 +45,7 @@ related:
   - '[[case-meeting-roi-awakening]]'
   - '[[framework-meeting-iceberg-canvas]]'
   - '[[agent-spec-coaching-leadership-assistant]]'
+  - '[[tool-meeting-execution-principles]]'
 tags:
 - audience:executor
 - scene:execution

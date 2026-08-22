@@ -41,6 +41,7 @@ related:
   - framework-leadership-five-ladders
   - '[[bridge-meeting-leadership-coaching]]'
   - '[[case-meeting-scene-mastery]]'
+  - '[[tool-meeting-result-principles]]'
 quality_labels: [actionable, quotable, validated]
 tags:
   - audience:general

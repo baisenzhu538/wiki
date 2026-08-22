@@ -28,6 +28,10 @@ related:
   - '[[tool-demand-iceberg-l3-core-job]]'
   - '[[tool-demand-iceberg-l4-job-map]]'
   - '[[tool-demand-iceberg-l5-forces]]'
+  - '[[tool-metadata-extraction]]'
+  - '[[tool-osint-maltego]]'
+  - '[[tool-osint-sherlock]]'
+  - '[[tool-strategy-customer-selection]]'
 id: proposal-prompt-injection-infrastructure
 author: unknown
 source_context: KDO improvement plan — internal process record （原始 source 无法追溯，已标记为

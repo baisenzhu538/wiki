@@ -29,6 +29,7 @@ related:
 - '[[tool-Truman-个人判断力系统建设（达克效应应对）]]'
 - '[[tool-Truman-信息输入持续补全（防AI错误累积）]]'
 - '[[tool-Truman-上下文质量管理（AI协作）]]'
+- '[[tool-Truman-AI时代IPO模型重构]]'
 tags:
 - audience:executor
 - scene:execution

@@ -19,6 +19,7 @@ discoverable_by:
 - 个人OS
 related:
   - '[[opc-ai-sales-agent-architecture]]'
+  - '[[tool-opc-sales-dialogue-assistant]]'
 ---
 
 # 老朱个人域索引

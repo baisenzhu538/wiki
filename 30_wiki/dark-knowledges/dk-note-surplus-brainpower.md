@@ -34,6 +34,9 @@ related:
 - '[[pending_unknown]]'
 - '[[yt-note-l4-internalization]]'
 - '[[yt-note-l6-extraction]]'
+- '[[tool-note-keyword-bolding]]'
+- '[[tool-note-layer-constraint]]'
+- '[[tool-note-one-line-one-point]]'
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'

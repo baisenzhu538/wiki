@@ -35,6 +35,7 @@ related:
 - '[[sk-ai-problem-validation]]'
 - '[[tool-ai-four-elements-validation]]'
 - '[[tool-ai-problem-validation]]'
+- '[[tool-nine-character-mantra-14-strategies]]'
 definition_of_done:
 - src_unknown
 - src_unknown

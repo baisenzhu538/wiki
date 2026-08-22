@@ -55,6 +55,7 @@ related:
 - concept-一堂-product-kernel
 - concept-kdo-component-library
 - '[[case-cui-lei-kids-ai-design-class]]'
+- '[[tool-panproduct-kids-lesson-plan]]'
 diagnostic_signals:
 - signal: 「给孩子讲方法论，孩子记不住卡片名字」
   lens: 使用的可能是成人概念名而非儿童动作名

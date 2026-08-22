@@ -38,6 +38,8 @@ related:
 - '[[yt-decision-depth-ladder]]'
 - '[[yt-decision-width-method]]'
 - '[[dk-yb1-aigc-mvp-before-ps]]'
+- '[[tool-strategy-blue-ocean-canvas]]'
+- '[[tool-strategy-industry-chain-analysis]]'
 tags:
 ---
 # 技能：设计师AI工具习惯切换

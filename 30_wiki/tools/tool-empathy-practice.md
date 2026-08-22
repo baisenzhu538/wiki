@@ -32,6 +32,7 @@ related:
 - bridge-how-to-know-person-to-business
 - framework-一堂五步法-泛产品设计
 - dk-narrative-choice-theory
+- '[[tool-narrative-thinking-user-insight]]'
 tags:
 - method:empathy
 - method:listening

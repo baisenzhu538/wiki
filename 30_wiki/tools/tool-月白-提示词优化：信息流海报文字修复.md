@@ -38,6 +38,7 @@ related:
 - 'dk-aesthetic-redline-doc'
 - '[[dk-yb6-midjourney-chinese-text-fix]]'
 - '[[yt-business-model-channel-economics]]'
+- '[[tool-Truman-开源模型与商业模型融合方案]]'
 tags:
 ---
 # 技能：提示词优化：信息流海报文字修复

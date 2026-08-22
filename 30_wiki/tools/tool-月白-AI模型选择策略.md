@@ -46,6 +46,7 @@ related:
 - '[[framework-TCPR底层网络协议]]'
 - '[[model-quality-four-levels]]'
 - '[[tool-ai-deliverable-polish-loop]]'
+- '[[tool-panproduct-kids-card-naming]]'
 tags:
 ---
 # 技能：AI模型选择策略

@@ -34,6 +34,7 @@ related:
 - 'tool-月白-AI图片印刷落地预处理'
 - 'tool-月白-AI对话情绪管理法'
 - 'dk-three-context-formula'
+- '[[tool-strategy-customer-selection]]'
 tags:
 ---
 # 技能：产品替换式场景合成法

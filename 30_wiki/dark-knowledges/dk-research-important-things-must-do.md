@@ -44,6 +44,7 @@ related:
 - '[[dk-research-saturation-quota-ai-km]]'
 - '[[framework-multi-agent-collab-chain-six]]'
 - '[[framework-serendipity-five-channels]]'
+- '[[tool-skill-packaging-eight-steps]]'
 tags:
 - audience:manager
 - scene:planning

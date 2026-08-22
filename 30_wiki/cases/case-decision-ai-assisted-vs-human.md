@@ -39,6 +39,8 @@ related:
 - '[[case-yitang-model-valuation-flywheel]]'
 - '[[decision-science-domain-digest]]'
 - '[[tool-ai-oral-spray-input]]'
+- '[[tool-Truman-本地记忆与云端记忆管理]]'
+- '[[tool-yitang-ai-research-workflow]]'
 tags:
 - audience:general
 - scene:reference

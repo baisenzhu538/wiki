@@ -37,6 +37,7 @@ related:
 - '[[kdo-moc]]'
 - '[[master-moc]]'
 - '[[tool-kdo-help]]'
+- '[[tool-mcp-reachability-check]]'
 created_at: 2026-08-04
 updated_at: 2026-08-04
 review_date: 2026-08-04

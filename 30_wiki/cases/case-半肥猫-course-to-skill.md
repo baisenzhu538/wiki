@@ -55,6 +55,7 @@ related:
 - '[[kdo-protocol]]'
 - '[[tool-ai-skill-engineering-guide]]'
 - '[[tool-ai-skill-engineering-method]]'
+- '[[tool-yitang-18-strategy-tool-mapping]]'
 author: 半肥猫
 reviewed_by: 老顽童
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。

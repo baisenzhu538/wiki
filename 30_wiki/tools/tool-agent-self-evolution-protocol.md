@@ -32,6 +32,7 @@ related:
 - framework-kdo-modeling-methodology
 - framework-yitang-thought-liberation-lightning
 - '[[case-agent-self-evolution-pilot]]'
+- '[[tool-yb-cross-quadrant-prompt-framework]]'
 created_at: 2026-07-26
 updated_at: 2026-07-26
 reviewed_by: 欧阳锋

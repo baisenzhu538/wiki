@@ -34,6 +34,7 @@ related:
 - '[[yt-barrier-data-assets]]'
 - '[[yt-tool-peas-agent-analysis]]'
 - '[[视觉prompt三层操作系统-srom-visual-os]]'
+- '[[tool-Truman-AI时代IPO模型重构]]'
 tags:
 - audience:executor
 - scene:execution

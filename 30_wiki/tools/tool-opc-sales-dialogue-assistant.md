@@ -72,6 +72,7 @@ related:
 - '[[framework-agent-card-execution-pattern]]'
 - '[[framework-TCPR底层网络协议]]'
 - '[[framework-yitang-sales-incentive-6d]]'
+- '[[tool-yitang-daily-weekly-meeting-hosting]]'
 created_at: 2026-07-02
 updated_at: '2026-07-13'
 os_sources:

@@ -47,6 +47,7 @@ related:
 - '[[dk-yi-tang-wishful-thinking-kills-startups]]'
 - '[[framework-ai-human-70-30-division]]'
 - '[[framework-ai-report-value-ladder-l1-l6]]'
+- '[[tool-nine-character-mantra-14-strategies]]'
 tags:
 - audience:executor
 - scene:reference

@@ -49,6 +49,7 @@ related:
 - '[[tool-agent-spec-yitang-three-second-opening-scripts]]'
 - '[[case-yitang-sales-transformation-meirongyuan]]'
 - '[[yt-panproduct-aesthetic-modeling]]'
+- '[[tool-yitang-daily-weekly-meeting-hosting]]'
 created_at: 2026-07-02
 updated_at: 2026-07-02
 tags:

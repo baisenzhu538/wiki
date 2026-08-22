@@ -24,6 +24,7 @@ related:
 - '[[case-truman-ai-skill-self-packaging]]'
 - '[[case-truman-motivation-map-12-versions]]'
 - '[[case-yitang-radar-chart-selection]]'
+- '[[tool-yitang-feedback-self-check]]'
 tags:
 - src_unknown
 - src_unknown

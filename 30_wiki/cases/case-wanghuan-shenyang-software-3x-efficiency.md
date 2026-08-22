@@ -32,6 +32,7 @@ related:
 - '[[case-wanghuan-education-sales-paced]]'
 - '[[case-wanghuan-yiyu-qingji-medical-notes]]'
 - '[[concept-wanghuan-flywheel-first-loop]]'
+- '[[tool-wanghuan-ai-dual-role-coach]]'
 tags:
 - src_unknown
 - src_unknown

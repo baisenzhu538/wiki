@@ -45,6 +45,7 @@ related:
 - '[[case-daxin-team-content-training-camp]]'
 - case-yitang-amazon-growth-flywheel
 - '[[dk-founding-ip-trust-over-traffic]]'
+- '[[tool-shortvideo-six-dimension-deconstruction]]'
 status: reviewed
 review_date: '2026-06-28'
 tags:

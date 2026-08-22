@@ -76,6 +76,7 @@ related:
 - '[[case-一堂-优秀触点案例合集]]'
 - '[[case-一堂-小米发布会拆解]]'
 - '[[case-一堂-邹韵涛-中小企业高级管理辅导班专题培训会]]'
+- '[[tool-opc-sales-dialogue-assistant]]'
 quality_labels:
 - cited
 - actionable

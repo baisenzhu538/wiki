@@ -35,6 +35,7 @@ related:
 - 'tool-月白-AI生成电商白底图'
 - 'dk-aesthetic-redline-doc'
 - '[[case-candy-problem-os-vpn]]'
+- '[[tool-strategy-customer-selection]]'
 tags:
 ---
 # 技能：电商白底图生成与场景图匹配

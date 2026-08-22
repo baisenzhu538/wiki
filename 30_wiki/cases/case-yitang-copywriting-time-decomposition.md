@@ -41,6 +41,7 @@ related:
 - case-yitang-Y-model-advertising-turnaround
 - case-truman-time-management-commute-experiment
 - tool-yitang-Y-model-application
+- '[[tool-personal-time-audit-loop]]'
 created_at: 2026-07-04
 updated_at: '2026-07-04'
 tags:

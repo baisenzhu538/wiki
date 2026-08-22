@@ -44,6 +44,7 @@ related:
 - '[[dk-modeling-jump-step-cost]]'
 - '[[dk-process-is-scar-tissue]]'
 - '[[process-modeling]]'
+- '[[tool-scenario-selector-modeling]]'
 tags:
 - audience:executor
 - scene:execution

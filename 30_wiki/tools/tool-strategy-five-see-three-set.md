@@ -32,6 +32,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+related:
+  - '[[tool-strategy-market-opportunity-matrix]]'
 ---
 
 # 华为五看三定

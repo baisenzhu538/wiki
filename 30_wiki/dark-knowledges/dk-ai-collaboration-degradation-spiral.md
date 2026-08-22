@@ -55,6 +55,8 @@ related:
 - '[[method-yihang-dual-triangle-ai-review]]'
 - '[[method-yihang-human-self-distillation]]'
 - '[[tool-candy-sales-recruiting]]'
+- '[[tool-nine-character-mantra-14-strategies]]'
+- '[[tool-sales-objection-dilution]]'
 tags:
 - audience:executor
 - scene:reference

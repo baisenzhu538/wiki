@@ -29,6 +29,7 @@ related:
   - dk-yitang-innovation-failure-modes
   - '[[case-yitang-4-leaps-innovation-evolution]]'
   - '[[innovation-domain-digest]]'
+  - '[[tool-yitang-dual-guardrail-system]]'
 diagnostic_signals:
   - signal: "创新方案执行后效果不如预期"
     lens: 检查是否跳过了闪电模型的某个步骤

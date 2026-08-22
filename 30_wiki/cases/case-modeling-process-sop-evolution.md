@@ -41,6 +41,7 @@ related:
 - '[[case-truman-livestream-sop-iteration]]'
 - case-modeling-process-livestream-prep
 - '[[dk-modeling-sop-execution-locks]]'
+- '[[tool-sop-template-modeling]]'
 diagnostic_signals:
 - framework_lens: 流程建模 / SOP
   follow_up_question: 这个任务过去 3 个月重复了几次？单次失败成本是多少？有没有可被固定下来的关键步骤？

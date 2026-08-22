@@ -33,6 +33,7 @@ tags:
 related:
   - '[[concept-feishu-api-pagination-trap]]'
   - '[[concept-strategy-framework-landscape]]'
+  - '[[tool-strategy-map]]'
 ---
 
 # 帕雷托图

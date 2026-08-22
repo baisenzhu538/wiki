@@ -43,6 +43,8 @@ related:
 - '[[agent-spec-codex-teammate]]'
 - '[[tool-agent-spec-yitang-Y-model-coach]]'
 - '[[tool-kdo-agent-production-checklist]]'
+- '[[tool-openmontage-video-factory]]'
+- '[[tool-osint-spiderfoot]]'
 tags:
 - audience:manager
 - scene:reference

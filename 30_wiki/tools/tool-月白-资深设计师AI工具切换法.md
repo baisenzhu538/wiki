@@ -36,6 +36,7 @@ related:
 - 'dk-three-context-formula'
 - '[[concept-wanghuan-ai-native-definition]]'
 - '[[yt-decision-depth-ladder]]'
+- '[[tool-strategy-industry-chain-analysis]]'
 tags:
 ---
 # 技能：资深设计师AI工具切换法

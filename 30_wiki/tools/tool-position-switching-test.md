@@ -35,6 +35,7 @@ related:
 - framework-yitang-shishi-qiushi
 - framework-kdo-modeling-methodology
 - '[[case-wangfei-newyear-event-diagnosis]]'
+- '[[tool-private-board-facilitation-sop]]'
 created_at: 2026-07-26
 updated_at: 2026-07-26
 reviewed_by: 待审

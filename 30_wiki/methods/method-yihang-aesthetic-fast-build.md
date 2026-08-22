@@ -23,6 +23,7 @@ related:
 - "[[case-yihang-truman-aesthetic-library-practices]]"
 - "[[method-yitang-y-model-engine-cycle]]"
 - '[[method-yihang-knowledge-battle-station]]'
+- '[[tool-yihang-dual-triangle-oral-spray]]'
 tags:
 - audience:practitioner
 - scene:howto

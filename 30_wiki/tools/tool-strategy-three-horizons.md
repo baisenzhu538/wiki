@@ -32,6 +32,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+related:
+  - '[[tool-strategy-logistics-cost-planning]]'
+  - '[[tool-strategy-market-opportunity-matrix]]'
 ---
 # 三个地平线
 

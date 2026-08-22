@@ -85,6 +85,7 @@ related:
 - '[[tool-demand-agent-multi-hypothesis]]'
 - '[[tool-demand-agent-signal-substitute]]'
 - '[[tool-demand-agent-signals]]'
+- '[[tool-yitang-ai-research-workflow]]'
 tags:
 - audience:manager
 - scene:reference

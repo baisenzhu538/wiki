@@ -31,6 +31,7 @@ related:
 - '[[tool-ai-problem-question-check]]'
 - '[[tool-ai-skill-engineering-guide]]'
 - '[[tool-ai-skill-engineering-method]]'
+- '[[tool-yitang-18-strategy-tool-mapping]]'
 wiki_refs: null
 definition_of_done: null
 pipeline: null

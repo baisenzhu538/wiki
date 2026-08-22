@@ -84,6 +84,8 @@ related:
 - '[[framework-truman-agent-team-architecture]]'
 - '[[tool-autoclassify-seven-steps]]'
 - '[[tool-knowledge-cheatsheet-sab]]'
+- '[[tool-top-level-document]]'
+- '[[tool-wechat-transcript-automation-workflow]]'
 tags:
 - audience:general
 - scene:reference

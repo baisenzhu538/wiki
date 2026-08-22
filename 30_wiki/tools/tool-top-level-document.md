@@ -46,6 +46,7 @@ related:
 - '[[dk-doc-numbering-business-logic]]'
 - '[[dk-future-backward-knowledge-tree]]'
 - '[[dk-shoulu-yixia-culture]]'
+- '[[tool-skill-packaging-eight-steps]]'
 review_date: 2026-08-16
 ---
 

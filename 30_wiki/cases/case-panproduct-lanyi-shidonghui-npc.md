@@ -49,6 +49,7 @@ related:
 - '[[case-roblox-ai-npc-education]]'
 - '[[concept-pan-product-vs-traditional-management]]'
 - '[[dk-panproduct-org-linear-to-circular]]'
+- '[[tool-panproduct-org-five-step]]'
 review_date: '2026-06-28'
 tags:
 - audience:general

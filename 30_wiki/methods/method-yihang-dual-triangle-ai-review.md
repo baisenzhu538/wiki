@@ -25,6 +25,7 @@ related:
 - '[[method-yihang-agent-hr-role]]'
 - '[[method-yihang-ai-self-xray-iteration]]'
 - '[[method-yihang-human-self-distillation]]'
+- '[[tool-yihang-dual-triangle-xray-deconstruct]]'
 tags:
 - audience:general
 - scene:diagnosis

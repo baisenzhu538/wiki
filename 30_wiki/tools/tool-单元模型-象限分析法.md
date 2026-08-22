@@ -33,6 +33,7 @@ related:
 - '[[yt-entrepreneur-unit-model]]'
 - concept-X型Y型决策习惯
 - concept-发现决策
+- '[[tool-strategy-capability-matrix]]'
 tags:
 - audience:executor
 - scene:execution

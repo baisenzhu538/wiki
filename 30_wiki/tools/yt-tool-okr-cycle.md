@@ -34,6 +34,7 @@ related:
 - '[[dk-目标管理四大病]]'
 - '[[concept-mckinsey-7s]]'
 - '[[framework-目标三层拆解]]'
+- '[[tool-OGSM目标管理工具]]'
 contradicts: null
 query_triggers:
 - src_unknown

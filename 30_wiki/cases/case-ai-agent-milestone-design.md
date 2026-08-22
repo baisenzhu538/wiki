@@ -38,6 +38,8 @@ related:
 - '[[dk-f12-builder-context-deadlock]]'
 - '[[truman-ai-partner-design-analysis]]'
 - '[[tool-demand-four-forces]]'
+- '[[tool-Truman-Skill全生命周期管理]]'
+- '[[tool-Truman-人在环渐进自动化策略]]'
 tags:
 - audience:general
 - scene:reference

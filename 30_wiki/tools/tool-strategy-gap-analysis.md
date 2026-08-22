@@ -34,6 +34,7 @@ tags:
 - skill-level:advanced
 related:
   - '[[tool-clinic-cabinet-legal-contract-guide]]'
+  - '[[tool-smart-medicine-cabinet-compliance-checklist]]'
 ---
 # 差距分析
 

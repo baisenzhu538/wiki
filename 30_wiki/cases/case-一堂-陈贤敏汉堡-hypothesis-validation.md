@@ -34,6 +34,7 @@ related:
 - '[[concept-一堂-kernel-validation]]'
 - '[[concept-一堂-key-assumptions]]'
 - '[[concept-mckinsey-hypothesis-driven]]'
+- '[[tool-mckinsey-hypothesis-driven-workflow]]'
 wiki_refs:
 - src_unknown
 - src_unknown

@@ -43,6 +43,7 @@ related:
 - '[[case-wanghuan-yiyu-qingji-medical-notes]]'
 - '[[concept-wanghuan-flywheel-first-loop]]'
 - '[[dk-wanghuan-tacit-decision-extraction-cross-domain]]'
+- '[[tool-wanghuan-ai-dual-role-coach]]'
 tags:
 - src_unknown
 - src_unknown

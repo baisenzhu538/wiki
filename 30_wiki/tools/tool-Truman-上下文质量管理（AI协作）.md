@@ -32,6 +32,7 @@ related:
 - '[[tool-Truman-信息输入持续补全（防AI错误累积）]]'
 - '[[tool-Truman-AI输出审慎判断与交付确认]]'
 - '[[tool-Truman-判断力产品化与系统赋能]]'
+- '[[tool-Truman-AI时代IPO模型重构]]'
 tags:
 - audience:manager
 - scene:execution

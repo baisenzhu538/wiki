@@ -29,6 +29,7 @@ discoverable_by:
 related:
 - '[[method-一堂-教练对话引擎协议]]'
 - '[[framework-一堂-关键假设-ABCD模型]]'
+- '[[tool-opc-sales-dialogue-assistant]]'
 created_at: 2026-07-13
 updated_at: 2026-07-13
 quality_labels:

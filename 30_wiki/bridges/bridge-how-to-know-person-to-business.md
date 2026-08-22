@@ -61,6 +61,8 @@ related:
 - '[[tool-autoclassify-seven-steps]]'
 - '[[tool-empathy-practice]]'
 - '[[tool-knowledge-cheatsheet-sab]]'
+- '[[tool-top-level-document]]'
+- '[[tool-wechat-transcript-automation-workflow]]'
 tags:
 - method:cross-domain
 - method:business-strategy

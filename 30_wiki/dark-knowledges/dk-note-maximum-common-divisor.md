@@ -32,6 +32,7 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[dk-modeling-timely-review-session-window]]'
+- '[[tool-note-one-line-one-point]]'
 pipeline:
 - src_unknown
 - src_unknown

@@ -24,6 +24,7 @@ related:
   - '[[tool-agent-spec-yitang-sales-process-tracker]]'
   - '[[tool-agent-spec-yitang-self-motivation]]'
   - '[[tool-agent-spec-yitang-value-proposition]]'
+  - '[[tool-opc-sales-dialogue-assistant]]'
 tags:
 - audience:manager
 - scene:howto

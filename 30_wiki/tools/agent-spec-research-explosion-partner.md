@@ -28,6 +28,7 @@ related:
 - agent-spec-basic-skills-coach
 - agent-spec-coaching-leadership-assistant
 - agent-spec-meeting-assistant
+- '[[tool-wechat-transcript-automation-workflow]]'
 aliases:
 - 爆炸式调研 Partner
 - R 型研究 Partner

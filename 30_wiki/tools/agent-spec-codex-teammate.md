@@ -50,6 +50,7 @@ related:
 - '[[dk-wanghuan-creativity-in-description-and-taste]]'
 - '[[sk-ai-prd-for-ai]]'
 - '[[tool-ai-agent-feature-comparison]]'
+- '[[tool-Truman-人在环渐进自动化策略]]'
 tcp_role: P
 tcp_default_mode: Codex 队友式协作教练
 tcp_switch_trigger: 用户问「为什么」「怎么做」→ 切换为 T；用户只给模糊需求 → 切换为 C；用户要求复盘/评估长期效果 → 切换为 R

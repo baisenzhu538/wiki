@@ -37,6 +37,7 @@ related:
 - '[[dk-kdo-leaky-pipe-pressure]]'
 - '[[master-moc]]'
 - '[[tool-kdo-help]]'
+- '[[tool-mcp-reachability-check]]'
 pipeline:
 - src_unknown
 - src_unknown

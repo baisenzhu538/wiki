@@ -37,6 +37,7 @@ related:
 - '[[dk-decision-value-overrides-roi]]'
 - '[[dk-rule-not-system-capability]]'
 - 'tool-月白-MOC'
+- '[[tool-skill-packaging-eight-steps]]'
 ---
 # 审美/红线只讲一次，落文档+每次强制检查（一次说清，永久生效）
 
