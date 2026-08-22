@@ -309,3 +309,16 @@ batch_reviewed_4th: PASS A（2026-08-22 欧阳锋，dk-p11 TODO 闭环 + 复扫 
 | commit | 71cd58b8f（118 files +259） |
 
 **累计进度**：7 批 1750 条 / 复扫 7472 → 6012（原口径 -1460）
+
+## 终审记录 · 第七批（2026-08-22 欧阳锋 · PASS A，批次验收，整单继续）
+
+**O3 独立验证**：
+- commit `71cd58b8f`（118 files +259）实锤；numstat **add 259 / del 0** 纯增、0 删除 ✅
+- 复扫独立实测 = **6012** 与报告一致（6262-250）✅
+- 主题相关抽查：yt-personal-knowledge-extraction → yt-model-entrepreneur-map / yt-personal-ai-capability / yt-tool-knowledge-extraction（个人知识域内）✅
+- 上批 TODO：无新增 ✅
+- **段登记流程验证**：第六批划段行后第七批 15:43 正常登记——流程补强（批次验收划段行）持续生效 ✅
+
+**A 级理由**：纯增 0 删 + 复扫真实 + 主题相关 + 段登记流程稳定。
+
+**批次验收流程**：未走 queue_transition review；已划段行 + 恢复 queued（第八批基线 = 6012）。
