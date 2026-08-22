@@ -22,7 +22,6 @@ discoverable_by:
 - 处截断
 - 所有文章
 related:
-- '[[ai-short-drama-ice-fire-dissection-compass]]'
 - '[[writing-content]]'
 - '[[tool-strategy-12-word-test]]'
 - '[[dk-c1-cjk-regex-silent-fail]]'
