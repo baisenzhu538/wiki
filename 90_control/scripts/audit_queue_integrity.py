@@ -243,7 +243,7 @@ def main() -> int:
         fm = parse_frontmatter(task_file)
         if not fm:
             continue
-        task_id = fm.get("id", task_file.stem)
+        task_id = str(fm.get("id", task_file.stem))  # yaml 解析 id 为 int，统一转 str 再匹配（#425）
         status = fm.get("status", "")
         reviewed_by = fm.get("reviewed_by", "")
         reviewer = fm.get("reviewer", "")
@@ -277,7 +277,7 @@ def main() -> int:
         fm = parse_frontmatter(task_file)
         if not fm:
             continue
-        task_id = fm.get("id", task_file.stem)
+        task_id = str(fm.get("id", task_file.stem))  # yaml 解析 id 为 int，统一转 str 再匹配（#425）
         task_type = fm.get("type", "")
         task_status = fm.get("status", "")
         if task_type == "production_task" or task_status != "reviewed":

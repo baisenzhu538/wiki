@@ -56,3 +56,30 @@ updated_at: '2026-08-22T12:57:50.709820+00:00'
 
 - **指标 9-11**：退回率（FAIL 占比）/ 返工轮次（任务单 complete→fail→complete 循环次数）/ 交接留痕完整度（任务单执行报告节非空率）——口径从 queue_transition 流转记录/git log 取数，不接受人肉申报
 - 取数可行性先做单点验证，不可行的标「待定义」留接口（同卡片复用率先例，不硬造）
+
+## 执行报告（2026-08-22 黄药师）
+
+**交付物**：
+1. `90_control/scripts/full-library-rescan.py` 新增 `--health` 模式——11 指标函数（m_draft_ratio/m_empty_shell/m_graph_orphan/m_retro_coverage/m_queue_consistency/m_unregistered_proposals/m_handoff_completeness + 复用 check_parse_error/check_related_asymmetry）+ 报告渲染（含 W3 基线列/趋势标记/待定义清单）
+2. `90_control/scripts/audit_queue_integrity.py` bug 修复：frontmatter id 被 yaml 解析为 int，`find_review_file`/`queue_by_id` 按 str 匹配——两处 `str()` 统一（指标 7 取数依赖，修复前脚本必崩）
+3. `90_control/scripts/tests/test_health_metrics.py` 新增 5 测试（draft/空壳/孤儿纯函数 + trend 容差 + --health 集成冒烟）
+
+**验证（附输出）**：`python full-library-rescan.py --health` → 报告落 `60_feedback/auto/health-check-20260822.md`；pytest 5 passed；回归 `--check parse-error` rc 0 / `--check missing-updated-at` rc 1（FAIL 语义未破坏）。
+
+**与 W3 基线对账**（数字见报告原文）：
+- draft 占比 **798/2865（27.9%）= 基线完全一致**（分母=30_wiki 全量 md find 口径同源；脚本排除区 _archive/_tmp/raw 等 26 文件 draft=0 不影响分子）
+- parse-error **0**（#409 修复生效，基线 58）
+- related-asymmetry **1274**（基线 5265，#411 持续回填中实时下降——运行时快照）
+- 队列一致性漂移 **0**；未登记建议书 **0**（2 个 proposal 均已登记）
+- 首扫基线：空壳卡率 418/2839（14.7%）/ 复盘 A 级 4/7 / 交接留痕 115/426（27.0%）
+- 图谱孤儿率 178/2839（6.3%）vs 基线 20% → 改善
+
+**待定义（留接口，附单点验证结论）**：
+- 卡片复用率：需检索/引用日志，本期留接口（任务单动作 3）
+- 退回率/返工轮次：单点验证 git log 关键词计数（fail 仅 11 条）脆弱、无 queue_transition 流转日志文件——不可行，标待定义；建议立项流转日志基建
+
+**边界与口径说明**：
+- 指标 8 只读计数不代登记（登记动作归 #421，职责分离）；检出与 #421 同一份 yaml.safe_load 逻辑（E017）
+- 指标 11 口径 = 任务单含 `## 执行报告` 节比例（排除"完成后写执行报告"指引文本）
+- 复盘覆盖率角色集合 = 7 主角色（含 fengqingyang），A 级 = daily-context 最新文件 ≤3 天
+- 未动其它文件；时间胶囊 git_head/queue_tail 同步更新（维护职责）

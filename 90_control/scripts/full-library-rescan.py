@@ -32,11 +32,15 @@ full-library-rescan.py — 全库复扫标准工具（#399）
 
 import argparse
 import json
+import re
+import subprocess
 import sys
+import time
 from pathlib import Path
 
 VAULT_ROOT = Path(__file__).resolve().parent.parent.parent
 WIKI_DIR = VAULT_ROOT / "30_wiki"
+QUEUE_FILE = VAULT_ROOT / "70_product" / "tasks" / "production-queue.md"
 IGNORE_PARTS = {"_archive", "_tmp", "raw", "_vlm_output", "__pycache__"}
 
 try:
@@ -342,6 +346,208 @@ def run_checks(cards, names, domain) -> dict[str, list[str]]:
     return results
 
 
+# ── --health 模式：KDO 健康度指标集（#425，会诊 G4 第 2 步）───────────
+# 11 指标 = 7 主（王语嫣+风清扬会签口径）+ 1 追加（未登记建议书）+ 3 交接保真度（追加二）。
+# 取数纪律：全部脚本化，不接受人肉口径；取数不可行的标「待定义」留接口，不硬造（任务单动作 3）。
+
+AUTO_DIR = VAULT_ROOT / "60_feedback" / "auto"
+RETRO_ROOT = VAULT_ROOT.parent / "agent复盘"
+RETRO_ROLES = ["ouyangfeng", "huangyaoshi", "wangyuyan", "laowantong", "hongqigong", "duanwangye", "fengqingyang"]
+RETRO_FRESH_DAYS = 3  # daily-context 最新文件 ≤3 天 = A 级（08-21 审计口径）
+
+
+def _parseable(cards):
+    return [c for c in cards if c["fm"] and not c["err"]]
+
+
+def m_draft_ratio(cards):
+    """指标 1：draft 占比 = status:draft 卡数 / 30_wiki 全量 md 数。
+    分母用 find 全量口径（W3 基线 2865 同源，含 _archive/_tmp 等排除区 26 文件，draft=0 不影响分子）"""
+    ok = _parseable(cards)
+    draft = sum(1 for c in ok if str(c["fm"].get("status", "")).strip().strip("'\"") == "draft")
+    total_md = sum(1 for _ in WIKI_DIR.rglob("*.md"))
+    return {"value": draft, "total": total_md, "ratio": draft / total_md if total_md else None}
+
+
+def m_empty_shell(cards):
+    """指标 2：空壳卡率 = source_refs 含 src_unknown 占位卡数 / 可解析总卡（#391 合法占位标记口径）"""
+    ok = _parseable(cards)
+    shells = 0
+    for c in ok:
+        refs = c["fm"].get("source_refs", [])
+        if isinstance(refs, str):
+            refs = [refs]
+        if isinstance(refs, list) and any("src_unknown" in str(r) for r in refs):
+            shells += 1
+    return {"value": shells, "total": len(ok), "ratio": shells / len(ok) if ok else None}
+
+
+def m_graph_orphan(cards):
+    """指标 3：图谱孤儿率 = 零入链卡（id 未被任何卡 related 引用）/ 可解析总卡（基线 20%，08-21 实测）"""
+    ok = _parseable(cards)
+    ids = {}
+    for c in ok:
+        for k in {c["id"], c["rel"].rsplit("/", 1)[-1].removesuffix(".md")}:
+            ids.setdefault(k, c)
+    referenced = set()
+    for c in ok:
+        rel = c["fm"].get("related", [])
+        if isinstance(rel, str):
+            rel = [rel]
+        if not isinstance(rel, list):
+            continue
+        for t in rel:
+            s = str(t).strip()
+            if not s or s.startswith("<<<"):
+                continue
+            referenced.add(_norm_link(s))
+    orphans = [
+        c for c in ok
+        if c["id"] not in referenced and c["rel"].rsplit("/", 1)[-1].removesuffix(".md") not in referenced
+    ]
+    return {"value": len(orphans), "total": len(ok), "ratio": len(orphans) / len(ok) if ok else None}
+
+
+def m_retro_coverage():
+    """指标 6：复盘覆盖率/深度 = 7 主角色 daily-context 最新文件新鲜度（≤3 天 = A 级，基线 2/7）"""
+    now = time.time()
+    fresh, total, detail = 0, 0, []
+    for role in RETRO_ROLES:
+        d = RETRO_ROOT / role / "daily-context"
+        if not d.is_dir():
+            detail.append(f"{role}: 无目录")
+            continue
+        total += 1
+        files = [p for p in d.iterdir() if p.is_file() and p.suffix == ".md"]
+        if not files:
+            detail.append(f"{role}: 空目录")
+            continue
+        age = (now - max(p.stat().st_mtime for p in files)) / 86400
+        if age <= RETRO_FRESH_DAYS:
+            fresh += 1
+            detail.append(f"{role}: A（{age:.1f} 天前）")
+        else:
+            detail.append(f"{role}: 欠（{age:.1f} 天前）")
+    return {"value": fresh, "total": total, "ratio": fresh / total if total else None, "detail": detail}
+
+
+def m_queue_consistency():
+    """指标 7：队列一致性 = audit_queue_integrity 漂移数（基线 0；该脚本 #425 修 int/str 匹配 bug 后恢复可跑）"""
+    r = subprocess.run(
+        [sys.executable, str(Path(__file__).parent / "audit_queue_integrity.py")],
+        capture_output=True, text=True, encoding="utf-8", errors="replace", timeout=180,
+    )
+    out = r.stdout or ""
+    # rc=1 是审计门禁语义（发现异常时返回 1），不是执行失败——以输出可解析为准
+    drift = re.search(r"队列/任务单状态不一致数:\s*(\d+)", out)
+    anomalies = re.search(r"任务单元数据异常数:\s*(\d+)", out)
+    return {
+        "value": int(drift.group(1)) if drift else None,
+        "anomalies": int(anomalies.group(1)) if anomalies else None,
+        "ok": bool(drift) and bool(anomalies),
+        "raw": out[-2000:] if not (drift and anomalies) else "",
+    }
+
+
+def m_unregistered_proposals():
+    """指标 8：未登记建议书数 = diagnosis/ 命中（audience: 王语嫣 + status: pending_orchestration）
+    且未在队列 PROPOSAL-PENDING 段登记（与 #421 同一份 yaml.safe_load 检出逻辑，E017；只读计数不代登记）"""
+    diag_dir = VAULT_ROOT / "60_feedback" / "diagnosis"
+    seg = re.search(r"PROPOSAL-PENDING-BEGIN(.*?)PROPOSAL-PENDING-END", QUEUE_FILE.read_text(encoding="utf-8"), re.S)
+    seg_text = seg.group(1) if seg else ""
+    unregistered = []
+    for fp in sorted(diag_dir.glob("*.md")):
+        text = safe_read(fp)
+        if not text:
+            continue
+        fm, err, _, _ = parse_fm(text)
+        if err or not fm:
+            continue
+        if "王语嫣" in str(fm.get("audience", "")) and str(fm.get("status", "")).strip() == "pending_orchestration":
+            if fp.name not in seg_text:
+                unregistered.append(fp.name)
+    return {"value": len(unregistered), "files": unregistered}
+
+
+def m_handoff_completeness():
+    """指标 11：交接留痕完整度 = 任务单含 `## 执行报告` 节比例（追加二；排除"完成后写执行报告"类指引文本）"""
+    task_files = sorted((VAULT_ROOT / "60_feedback" / "tasks").glob("*.md"))
+    n = len(task_files)
+    with_report = sum(1 for fp in task_files if safe_read(fp) and re.search(r"^#{2,3} 执行报告", safe_read(fp), re.M))
+    return {"value": with_report, "total": n, "ratio": with_report / n if n else None}
+
+
+HEALTH_PENDING = [
+    "卡片复用率（需检索/引用日志，本期只留接口不硬造——任务单动作 3）",
+    "退回率（git log 关键词计数脆弱且无流转日志，单点验证不可行——追加二）",
+    "返工轮次（需逐任务单追踪 complete→fail→complete，成本高且易错——追加二）",
+]
+
+
+def _health_trend(cur, base, lower_better=True):
+    """趋势标记：|差| < 0.005（0.5 个百分点）视为持平，避免浮点误报（798/2865=0.2785 vs 0.279）。"""
+    if cur is None or base is None:
+        return "?"
+    if abs(cur - base) < 0.005:
+        return "="
+    if lower_better:
+        return "↓ 改善" if cur < base else "↑ 恶化"
+    return "↑ 改善" if cur > base else "↓ 恶化"
+
+
+def render_health_report(cards, out_path: Path) -> str:
+    """组装健康度报告（第一读者=风清扬，W8）。行格式：指标 | 当前 | 基线 | 趋势。"""
+    def pct(ratio):
+        return f"{ratio * 100:.1f}%" if ratio is not None else "—"
+
+    draft = m_draft_ratio(cards)
+    shell = m_empty_shell(cards)
+    orphan = m_graph_orphan(cards)
+    parse_err = len(check_parse_error(cards))
+    asym = len(check_related_asymmetry(cards))
+    retro = m_retro_coverage()
+    queue = m_queue_consistency()
+    props = m_unregistered_proposals()
+    handoff = m_handoff_completeness()
+
+    q_consistency = (
+        f"异常 {queue['anomalies']} 项（漂移 {queue['value']}）"
+        if queue["ok"] else "audit_queue_integrity 取数失败"
+    )
+    lines = [
+        f"# KDO 健康度指标报告 — {time.strftime('%Y-%m-%d')}（#425 指标集）",
+        "",
+        "> 生成：`full-library-rescan.py --health` · 口径与基线见任务单 #425（王语嫣/风清扬会签）",
+        "> 第一读者：风清扬（W8）· 趋势 vs W3 基线（08-21 审计）",
+        "",
+        "| # | 指标 | 当前 | 基线（W3） | 趋势 |",
+        "|:--|:--|:--|:--|:--|",
+        f"| 1 | draft 占比 | {draft['value']}/{draft['total']}（{pct(draft['ratio'])}） | 798/2865（27.9%） | {_health_trend(draft['ratio'], 0.279)} |",
+        f"| 2 | 空壳卡率（src_unknown） | {shell['value']}/{shell['total']}（{pct(shell['ratio'])}） | 待首扫 | — |",
+        f"| 3 | 图谱孤儿率（零入链） | {orphan['value']}/{orphan['total']}（{pct(orphan['ratio'])}） | 20% | {_health_trend(orphan['ratio'], 0.2)} |",
+        f"| 4 | parse-error | {parse_err} | 58（#409 修复前） | {_health_trend(parse_err, 58)} |",
+        f"| 5 | related-asymmetry | {asym} | 5265（#411 第十批后） | {_health_trend(asym, 5265)} |",
+        f"| 6 | 复盘 A 级覆盖率 | {retro['value']}/{retro['total']} | 2/7 | {_health_trend(retro['ratio'], 2 / 7, lower_better=False)} |",
+        f"| 7 | 队列一致性（漂移） | {queue['value'] if queue['value'] is not None else '取数失败'} | 0 | {_health_trend(queue['value'], 0) if queue['ok'] else '取数失败'} |",
+        f"| 8 | 未登记建议书数 | {props['value']}（目标 0） | 0 | {_health_trend(props['value'], 0)} |",
+        f"| 11 | 交接留痕完整度 | {handoff['value']}/{handoff['total']}（{pct(handoff['ratio'])}） | 待首扫 | — |",
+        "",
+        "## 待定义（留接口，不硬造）",
+        "",
+    ] + [f"- {p}" for p in HEALTH_PENDING] + [
+        "",
+        "## 明细",
+        "",
+        f"- 复盘明细：{'；'.join(retro['detail'])}",
+        f"- 未登记建议书：{props['files'] if props['files'] else '无'}",
+        f"- 队列一致性：{q_consistency}",
+        "",
+    ]
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    out_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    return "\n".join(lines)
+
+
 def load_baseline(path: Path) -> dict | None:
     if not path.exists():
         return None
@@ -368,11 +574,20 @@ def main() -> int:
     p.add_argument("--json", action="store_true", help="JSON 输出")
     p.add_argument("--baseline", type=Path, help="保存当前各检查项计数为基线（json）")
     p.add_argument("--delta", type=Path, help="增量报警：只报基线为 0 的项现在 >0 的（0→N）")
+    p.add_argument("--health", action="store_true", help="健康度指标集报告（#425，11 指标，落 60_feedback/auto/health-check-YYYYMMDD.md）")
     args = p.parse_args()
 
     if yaml is None:
         print("ERROR: PyYAML is required. Install with: pip install pyyaml", file=sys.stderr)
         return 1
+
+    if args.health:
+        cards = collect_cards()
+        out_path = AUTO_DIR / f"health-check-{time.strftime('%Y%m%d')}.md"
+        report = render_health_report(cards, out_path)
+        print(report)
+        print(f"\n[full-library-rescan] 健康报告已写入: {out_path}")
+        return 0
 
     names = [x.strip() for x in args.check.split(",") if x.strip()]
     if names == ["all"] or "all" in names:
