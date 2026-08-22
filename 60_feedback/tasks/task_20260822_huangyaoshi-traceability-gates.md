@@ -1,8 +1,8 @@
 ---
 id: 429
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-22T23:35:00+08:00'
+status: in_progress
+updated_at: '2026-08-22T15:46:28.389116+00:00'
 ---
 # #429 流转留痕三件套门禁（交付五字段 / 审查意见落盘 / 等待外部输入态）
 
