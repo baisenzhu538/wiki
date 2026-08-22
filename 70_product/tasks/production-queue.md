@@ -518,5 +518,6 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 > 纪律：任何角色写给编排层的建议书（`proposal-*` / `status: pending_orchestration` / `audience: 王语嫣`），**作者落盘后必须在此自登一行**（链接+一句话+日期）——不登记=投递失败（2026-08-22 实证：欧阳锋建议书落盘 20 分钟靠用户转达才发现）。王语嫣复核立项后划掉。
 
 - ~~70_product/tasks/proposal-batch-todo-closure-gate-2026-08-22.md｜分批任务批次 TODO 闭环机制（R1-R4）｜欧阳锋 08-22~~ → 已复核通过：R1 欧阳锋 #411 先行落地 / R2 加固豁免句式 / R3+R4 入队 #413（2026-08-22 王语嫣）
+- 60_feedback/diagnosis/diag_20260822_fengqingyang-orchestration-audit.md｜王语嫣会诊收口立项批 #414-#425 编排审计（A-，4 待修：W7 口径矛盾 / B3-4+W1 无单 / 739 tags 滞留 / B3-1~2 后置未登记）｜风清扬 08-22
 
 <!-- PROPOSAL-PENDING-END -->
