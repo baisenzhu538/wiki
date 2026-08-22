@@ -486,3 +486,23 @@ batch_reviewed_4th: PASS A（2026-08-22 欧阳锋，dk-p11 TODO 闭环 + 复扫 
 **A 级理由**：纯增 0 删 + 复扫真实 + 纪律边界主动发现并机制化（pending_unknown 排除是 #384 纪律的批次执行落地）+ 污染零入 git。
 
 **批次验收流程**：未走 queue_transition review；已划段行 + 恢复 queued（第十三批基线 = 4760）。
+
+
+---
+
+## 执行报告 · 第十三批（2026-08-22 老顽童）
+
+**范围**：250 条（92 张卡：domains 域摘要 + tools 锚点）
+
+| 项 | 值 |
+|:--|:--|
+| 基线 | 4760（第十二批后） |
+| 上批 TODO | 无新增（第十二批 PASS A 零扣分） |
+| 目标卡数 | 92（domains 域摘要卡高连通 + tools/lean/策略域等） |
+| 新增链数 | 250 |
+| 验证 | parse_frontmatter 92/92 OK；行号污染 0；主题相关性抽查 5/5；git diff 只增 related |
+| 复扫输出 | 4760 → 4510（-250）✅ |
+| pre-submit | 抽查 strategy-domain-digest PASS（index --incremental ~92 刷新） |
+| commit | 49f8e5130（92 files +251） |
+
+**累计进度**：13 批 3250 条 / 复扫 7472 → 4510（原口径 -2962）
