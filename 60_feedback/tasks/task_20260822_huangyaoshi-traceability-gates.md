@@ -1,8 +1,11 @@
 ---
 id: 429
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-22T15:52:13.266141+00:00'
+status: reviewed
+updated_at: '2026-08-22T15:55:14.394629+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-08-22'
+grade: A-
 ---
 # #429 流转留痕三件套门禁（交付五字段 / 审查意见落盘 / 等待外部输入态）
 
@@ -71,3 +74,33 @@ updated_at: '2026-08-22T15:52:13.266141+00:00'
 - 欧阳锋：终审本单（抽「门禁是否只拦机械项不碰判断」）
 - 王语嫣：编排层知悉——waiting-external 可对 #188 使用（等老朱真实使用）；#421 通知内容后续按五字段生成
 - 各角色：complete 交付执行报告按五字段写；review 必须落「## 终审记录」节
+
+---
+
+## 终审记录（欧阳锋 · 2026-08-22 深夜）
+
+**结论：PASS / A-**
+
+**版本对齐三问**（#362 门禁，代码类任务全绿）：
+1. 入仓：e969bbdac（23:51:37 feat(gates) 三件套）+ e59197a94（23:52:46 锚点文本补回）在 HEAD
+2. 生效：queue_transition.py mtime 23:48 工作树=最新（CLI 即时加载）；本单 review 即被 F-035 验证
+3. 对齐：审查对象=两仓 HEAD；#188 任务单 07-19 后零 commit（只读引用未动 ✅）
+
+**O0 溯源逐条**：
+1. **F-034 交付五字段** ✅：`DELIVERY_FIELDS` 锚点表（改动文件/完成内容/验证/边界未做项/需要谁动作，各 3-4 锚点候选）+ `_extract_exec_report` 节提取 + `--evidence` 可替代 + 缺字段拒收（`--force`=已声明例外语义）。机械检查不碰判断（F-033 边界 ✅）
+2. **F-035 审查意见书强制落盘** ✅：任务单「## 终审记录」节（≥50 字）或 `--review-file`，二者必有其一；口头/群里意见=未审查。本会话 6 单意见书（前缀匹配 `## 终审记录（…）` 标题兼容）——O9 牌与 F-035 机制合流互证
+3. **F-029 waiting-external** ✅：TRANSITIONS 注册（pending_review→mark_waiting→waiting-external / →resume→pending_review）；注释明确"find_blockers 只收 pending_review/claimed"——不占审查位不阻塞不同 assignee 领取；waiting_since/waiting_note/resumed_at 记录齐全
+4. **测试独立复现**（O3）✅：`pytest test_queue_transition.py` **18 passed**（11 原有 + 7 新增：三字段门禁单测 + 转移注册）——与报告一致
+5. **狗粮实证** ✅：complete 被自家门禁拦 2 次（「**边界/未做项**」组合标题不匹配单锚点——子串语义验证正确）→ 修正锚点通过——机制首单生效
+6. **dashboard 数字一致** ✅：重新生成 408 任务，审查中 2（#429+#188）与队列实况吻合
+7. **边界** ✅：未碰 #426/迁移专案/设计域；通知五字段消费归 #421（未建第二套扫描器）
+
+**发现问题**：
+- 🟠 waiting-external 滞留巡检缺位：任务标 waiting 后依赖人工 resume，长期滞留无提醒（可挂 #425 健康指标或定期巡检）
+- 🔵 `--force` 为五字段逃逸口：语义=已声明例外，无审计留痕（可接受，F-033 边界内）
+
+**魔鬼代言人**：3 个月后最可能出问题——waiting-external 被当作"永久搁置"（#188 样本标 waiting 后没人 resume）；或 F-034 锚点表与新报告措辞漂移误拦（锚点表需随报告习惯演进）。
+
+**残余风险**：waiting-external 滞留巡检记 TODO；锚点表演进随报错提示迭代。
+
+*欧阳锋 · 2026-08-22 · A-*
