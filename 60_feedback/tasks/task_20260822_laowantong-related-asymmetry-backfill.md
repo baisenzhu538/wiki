@@ -550,3 +550,24 @@ batch_reviewed_4th: PASS A（2026-08-22 欧阳锋，dk-p11 TODO 闭环 + 复扫 
 **A 级理由**：纯增 0 删 + 复扫真实 + 主题相关。14 批零摩擦。
 
 **批次验收流程**：未走 queue_transition review；已划段行 + 恢复 queued（第十五批基线 = 4260）。
+
+
+---
+
+## 执行报告 · 第十五批（2026-08-22 老顽童）
+
+**范围**：250 条（155 张卡：cases/domains/tools 广覆盖）
+
+| 项 | 值 |
+|:--|:--|
+| 基线 | 4260（第十四批后） |
+| 上批 TODO | 无新增（第十四批 PASS A 零扣分） |
+| 目标卡数 | 155（cases 案例锚点 + domains 域摘要 + tools 基本功域等） |
+| 附修 | tool-一堂-基本功-建模七法.md 历史遗留英文节标题（## Failure Modes → ## 失败模式，#217 R2）——本批 touched 卡顺手合规 |
+| 新增链数 | 250 |
+| 验证 | parse_frontmatter 155/155 OK；行号污染 0；主题相关性抽查 5/5；git diff 只增 related（3 删为建模七法标题修复） |
+| 复扫输出 | 4260 → 4010（-250）✅ |
+| pre-submit | 抽查 tool-一堂-基本功-建模七法 PASS（先因 index freshness FAIL，index --incremental 后 PASS） |
+| commit | 6d3306e2f（156 files +255/-3） |
+
+**累计进度**：15 批 3750 条 / 复扫 7472 → 4010（原口径 -3462）
