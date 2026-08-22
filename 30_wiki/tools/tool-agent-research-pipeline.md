@@ -31,6 +31,7 @@ related:
 - '[[yt-model-agent-architecture]]'
 - '[[dk-f12-builder-context-deadlock]]'
 - '[[dk-f4-wrong-workdir]]'
+- '[[tool-纪浩-Agent开工检查单制作法]]'
 status: reviewed
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'

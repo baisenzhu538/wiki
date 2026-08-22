@@ -32,6 +32,7 @@ related:
   - "[[tool-ai-deliverable-polish-loop]]"
   - "[[yitang-domain-digest]]"
   - "[[yitang-research-domain-digest]]"
+  - '[[tool-纪浩-Do-first-PDCA渐进迭代法]]'
 tags:
 - audience:executor
 - scene:diagnosis

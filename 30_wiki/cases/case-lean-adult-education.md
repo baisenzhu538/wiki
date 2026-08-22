@@ -32,6 +32,9 @@ related:
 - '[[yitang-domain-digest]]'
 - '[[pending_unknown]]'
 - case-lean-building-in-vacuum
+- '[[tool-纪浩-Agent技能市场设计法]]'
+- '[[tool-纪浩-AI工作空间与导诊台设计法]]'
+- '[[tool-纪浩-日志驱动排查法]]'
 tags:
 - audience:general
 - scene:reference

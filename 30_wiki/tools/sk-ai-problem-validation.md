@@ -28,6 +28,8 @@ related:
 - '[[tool-纪浩-Agent技能市场设计法]]'
 - '[[tool-ai-problem-question-check]]'
 - '[[tool-ai-problem-validation]]'
+- '[[tool-纪浩-problem-validation-four-checks]]'
+- '[[tool-纪浩-Problem与Question区分法]]'
 author: 纪浩
 reviewed_by: 欧阳锋
 confidence: 0.88

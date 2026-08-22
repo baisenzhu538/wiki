@@ -35,6 +35,8 @@ related:
 - 'tool-月白-AI对话情绪管理法'
 - 'dk-three-context-formula'
 - '[[dk-yb9-cubox-deployment-failure]]'
+- '[[tool-月白-设计师AI资产四类型沉淀]]'
+- '[[tool-月白-课程资料文件命名规范]]'
 tags:
 ---
 # 技能：左手Cubox右手里程碑学习法

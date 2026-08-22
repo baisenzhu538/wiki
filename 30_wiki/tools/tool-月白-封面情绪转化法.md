@@ -36,6 +36,7 @@ related:
 - 'dk-three-context-formula'
 - '[[yt-tool-fab-persuasion]]'
 - '[[tool-strategy-customer-selection]]'
+- '[[tool-立即实践转化法]]'
 tags:
 ---
 # 技能：封面情绪转化法

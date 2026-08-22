@@ -34,6 +34,8 @@ related:
 - 'tool-月白-电商场景图三类分类法'
 - 'tool-月白-电商场景图三类构建法'
 - 'case-truman-ai-image-workflow-evolution'
+- '[[tool-月白-跨境电商产品图替换法]]'
+- '[[tool-纪浩-处理AI生成代码运行异常]]'
 tags:
 ---
 # 技能：AI电商图人工精修与平台合规发布

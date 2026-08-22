@@ -51,6 +51,10 @@ related:
   - '[[tool-月白-用AIGC做设计专家批评复盘]]'
   - '[[tool-月白-电商场景图三类分类法]]'
   - '[[tool-月白-电商场景图三类构建法]]'
+  - '[[tool-月白-设计项目MVP拆解法]]'
+  - '[[tool-月白-设计项目里程碑拆解法]]'
+  - '[[tool-月白-跨境电商产品图替换法]]'
+  - '[[tool-月白-里程碑思维拆解设计流程]]'
 tags:
   - method:feature-thinking
   - method:workflow

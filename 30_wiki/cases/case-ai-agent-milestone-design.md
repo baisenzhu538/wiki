@@ -40,6 +40,7 @@ related:
 - '[[tool-demand-four-forces]]'
 - '[[tool-Truman-Skill全生命周期管理]]'
 - '[[tool-Truman-人在环渐进自动化策略]]'
+- '[[tool-纪浩-Agent开工检查单制作法]]'
 tags:
 - audience:general
 - scene:reference

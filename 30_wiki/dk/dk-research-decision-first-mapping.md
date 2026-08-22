@@ -35,6 +35,7 @@ related:
   - "[[case-科学决策-深度案例06]]"
   - '[[街顺app全面调研报告]]'
   - '[[dk-long-material-layered-reading-protocol]]'
+  - '[[tool-纪浩-Do-first-PDCA渐进迭代法]]'
 ---
 
 # 研究活动如何服务决策

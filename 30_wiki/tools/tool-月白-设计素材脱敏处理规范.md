@@ -35,6 +35,7 @@ related:
 - 'tool-月白-AI对话情绪管理法'
 - 'dk-three-context-formula'
 - '[[tool-ai-deliverable-polish-loop]]'
+- '[[tool-纪浩-处理AI生成代码运行异常]]'
 tags:
 ---
 # 技能：设计素材脱敏处理规范

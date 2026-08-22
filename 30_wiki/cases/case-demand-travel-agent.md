@@ -44,6 +44,7 @@ related:
 - case-opc-agent-wave1-real-model-testing
 - '[[tool-demand-agent-l4-case-match]]'
 - '[[tool-agent-research-supervisor]]'
+- '[[tool-纪浩-Agent技能市场设计法]]'
 updated_at: '2026-06-29'
 tags:
 - audience:general

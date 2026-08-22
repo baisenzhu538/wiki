@@ -69,6 +69,7 @@ related:
 - '[[concept-ai-native-organization-five-steps]]'
 - '[[concept-five-step-growth-to-barrier-transition]]'
 - '[[xingangwan-pharma-business-model-formulas]]'
+- '[[tool-纪浩-Do-first-PDCA渐进迭代法]]'
 ---
 # 案例：五步法中从产品内核到增长的第一次跨越
 

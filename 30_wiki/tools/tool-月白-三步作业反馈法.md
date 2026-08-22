@@ -36,6 +36,8 @@ related:
 - 'tool-月白-AI对话情绪管理法'
 - 'dk-three-context-formula'
 - '[[tool-月白-文件命名与存档规范（口述暗示）]]'
+- '[[tool-月白-设计师AI资产四类型沉淀]]'
+- '[[tool-月白-设计文件八要素命名法]]'
 tags:
 ---
 # 技能：三步作业反馈法

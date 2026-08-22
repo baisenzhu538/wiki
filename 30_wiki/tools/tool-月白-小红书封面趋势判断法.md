@@ -35,6 +35,7 @@ related:
 - 'tool-月白-AI对话情绪管理法'
 - 'dk-three-context-formula'
 - '[[yt-concept-peas-insight]]'
+- '[[tool-纪浩-problem-validation-four-checks]]'
 tags:
 ---
 # 技能：小红书封面趋势判断法

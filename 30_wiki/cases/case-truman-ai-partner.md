@@ -53,6 +53,7 @@ related:
 - '[[agent-ecosystem-design]]'
 - '[[tool-agent-research-supervisor]]'
 - '[[tool-Truman-知识库最佳实践构建]]'
+- '[[tool-纪浩-Agent技能市场设计法]]'
 author: 老顽童
 reviewed_by: 洪七公
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。

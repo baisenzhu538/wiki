@@ -40,6 +40,7 @@ related:
 - '[[yt-decision-depth-ladder]]'
 - '[[yt-decision-width-method]]'
 - '[[yt-growth-user-onboarding]]'
+- '[[tool-泛产品设计-出牌指南]]'
 updated_at: '2026-06-29'
 tags:
 - audience:executor

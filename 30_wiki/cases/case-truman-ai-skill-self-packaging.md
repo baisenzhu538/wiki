@@ -45,6 +45,9 @@ related:
 - '[[tool-ai-skill-engineering-method]]'
 - '[[tool-yitang-18-strategy-tool-mapping]]'
 - '[[tool-半肥猫-course-to-skill-workflow]]'
+- '[[tool-纪浩-Agent技能市场设计法]]'
+- '[[tool-纪浩-AI工作空间与导诊台设计法]]'
+- '[[tool-纪浩-日志驱动排查法]]'
 tags:
 - audience:general
 - scene:reference

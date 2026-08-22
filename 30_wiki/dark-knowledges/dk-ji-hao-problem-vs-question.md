@@ -34,6 +34,8 @@ related:
 - '[[dk-ji-hao-newbie-can-validate]]'
 - '[[dk-ji-hao-novice-mindset-advantage]]'
 - '[[tool-ai-problem-question-check]]'
+- '[[tool-纪浩-problem-validation-four-checks]]'
+- '[[tool-纪浩-Problem与Question区分法]]'
 wiki_refs: null
 pipeline: null
 author: 纪浩

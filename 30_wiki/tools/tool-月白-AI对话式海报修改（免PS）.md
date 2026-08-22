@@ -35,6 +35,7 @@ related:
 - 'tool-月白-AIGC海报信息优先级排序法'
 - 'tool-月白-AIGC餐饮海报优化一抽流'
 - 'dk-aesthetic-redline-doc'
+- '[[tool-月白-课程资料文件命名规范]]'
 tags:
 ---
 # 技能：AI对话式海报修改（免PS）

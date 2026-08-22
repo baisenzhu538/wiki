@@ -40,6 +40,7 @@ related:
 - - - case-半肥猫-course-to-skill
 - '[[tinyfish-agentic-web-infrastructure]]'
 - '[[dk-p10-oral-ban]]'
+- '[[tool-纪浩-Agent开工检查单制作法]]'
 tags:
 - audience:executor
 - scene:reference

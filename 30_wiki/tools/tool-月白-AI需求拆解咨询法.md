@@ -36,6 +36,7 @@ related:
 - 'case-truman-ai-image-workflow-evolution'
 - '[[dk-yitang-business-formula-plus-times-trap]]'
 - '[[tool-demand-iceberg-l2-scenario]]'
+- '[[tool-月白-设计文件八要素命名法]]'
 tags:
 ---
 # 技能：AI需求拆解咨询法

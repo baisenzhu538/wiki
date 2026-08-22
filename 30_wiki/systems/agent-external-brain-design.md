@@ -28,6 +28,7 @@ related:
 - '[[dk-f12-builder-context-deadlock]]'
 - '[[dk-p8-toolkit-forget]]'
 - '[[workflow-knowledge-collision]]'
+- '[[tool-纪浩-Agent开工检查单制作法]]'
 tags:
 - audience:manager
 - scene:reference

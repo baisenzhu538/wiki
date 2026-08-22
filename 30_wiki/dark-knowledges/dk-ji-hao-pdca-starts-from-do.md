@@ -32,6 +32,7 @@ related:
 - '[[yitang-domain-digest]]'
 - '[[concept-ji-hao-ai-collaboration-methodology]]'
 - '[[modeling-personal-practice-loop]]'
+- '[[tool-纪浩-Do-first-PDCA渐进迭代法]]'
 created_at: 2026-06-08
 updated_at: 2026-06-28
 pipeline: null

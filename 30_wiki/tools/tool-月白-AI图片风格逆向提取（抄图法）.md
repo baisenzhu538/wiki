@@ -36,6 +36,10 @@ related:
 - 'dk-aesthetic-redline-doc'
 - '[[dk-yb23-ai-pre-screen-three-minutes]]'
 - '[[tool-月白-光影灰度控制能力构建]]'
+- '[[tool-月白-行业配色快速确定法]]'
+- '[[tool-月白-表情包风格筛选与确定]]'
+- '[[tool-月白-风格不变局部调整]]'
+- '[[tool-月白-风格探索试错法]]'
 tags:
 ---
 # 技能：AI图片风格逆向提取（抄图法）

@@ -36,6 +36,7 @@ related:
 - 'tool-月白-AI对话情绪管理法'
 - 'dk-three-context-formula'
 - '[[yt-tool-fab-persuasion]]'
+- '[[tool-立即实践转化法]]'
 tags:
 ---
 # 技能：眼高手低转化法
