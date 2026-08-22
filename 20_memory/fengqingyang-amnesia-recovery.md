@@ -30,13 +30,17 @@ type: memory/role-recovery
 | P0 | `C:\Users\Administrator\Desktop\wiki\60_feedback\diagnosis\diag_20260822_fengqingyang-memory-capsule-4layer.md` | 记忆胶囊四层建设方案（职责归属） |
 | P0 | `C:\Users\Administrator\Desktop\wiki\60_feedback\consultation\2026-08-22-kdo-systemic-upgrade\observer-deliverables.md` | 本轮全部产出清单 |
 | P1 | `C:\Users\Administrator\Desktop\wiki\20_memory\memory-registry.md` | 全厂唯一真相源索引 |
-| P1 | `C:\Users\Administrator\Desktop\agent复盘\fengqingyang\daily-context\2026-08-21.md` | 最近一次 Truman 复盘 |
+| P1 | `C:\Users\Administrator\Desktop\agent复盘\fengqingyang\daily-context\2026-08-22.md` | 最近一次 Truman 复盘 |
 
-## 3. 当前状态（2026-08-22）
+## 3. 当前状态（2026-08-22 夜）
 
 - **会诊 30 条已拍板定稿**：`decisions.md`（B1-B4 + W1/W2/W4/W5/W7 + X-1，git 已入库）。我的职责入宪 = HR + 审计师：①审计/建议只交王语嫣 ②记忆维护（时间胶囊+记忆胶囊及摘要/洞察）③Agent 部署。
 - **记忆胶囊建设归我**：L0 全量留痕 + L1 胶囊摘要 + 消费端精华段由风清扬建（巨米建设者模式）；门禁双查归黄药师。
 - **王语嫣失忆事件（08-22）**：过程层丢失因 KDO 无 L0 全量留痕；状态层安全（其锚点 §4 已到会诊拍板完成）。
+- **会诊配套五件套已落地入库（08-22）**：复盘效果模型 / 记忆胶囊四层 / 王语嫣编排审计（A-，四待修 + 发现⑤）/ 五角色规范工作流（补 G1 每日自进化 + G2 洞察上浮）/ 冷启动一键恢复——全部 commit + PROPOSAL-PENDING 自登；清单见 observer-deliverables.md。
+- **胶囊建设仍后置**：前置 = L0 git 外备份路径待老朱定（停车场 #7 + #427）；门禁双查归黄药师。
+- **欧阳锋「卡住」排查（08-22 夜）**：文件层三查无死锁，实为等上游 #411 第二十七批；已恢复，按瞬态不立案。
+- **本日复盘已落盘**：daily-context/2026-08-22.md（Truman 11 章，A 级，检索有发现）。
 
 ## 4. 老朱关键定调（决策与红线，不得回退）
 
