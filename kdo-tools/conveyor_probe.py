@@ -15,6 +15,9 @@
 """
 
 import argparse
+import base64
+import hashlib
+import hmac
 import json
 import sys
 import time
@@ -132,18 +135,37 @@ def _update_proposal_board(hits: list[str]) -> list[str]:
 # ── 通知：飞书群机器人 webhook（配置驱动；缺失 → dry-run 打印）──
 
 def _load_hooks() -> dict:
+    """配置格式：{"角色": {"url": "...", "key": "..."} | "角色": "<url>"（无签名兼容）}。"""
     if HOOKS_FILE.exists():
         try:
             cfg = json.loads(HOOKS_FILE.read_text(encoding="utf-8"))
-            return {k: v for k, v in cfg.items() if v}
+            hooks = {}
+            for role, v in cfg.items():
+                if isinstance(v, str) and v:
+                    hooks[role] = {"url": v, "key": None}
+                elif isinstance(v, dict) and v.get("url"):
+                    hooks[role] = {"url": v["url"], "key": v.get("key")}
+            return hooks
         except Exception:
             pass
     return {}
 
 
-def _send_hook(url: str, text: str) -> bool:
-    payload = json.dumps({"msg_type": "text", "content": {"text": text}}, ensure_ascii=False).encode("utf-8")
-    req = urllib.request.Request(url, data=payload, headers={"Content-Type": "application/json"})
+def _feishu_sign(ts: str, key: str) -> str:
+    """飞书群机器人加签：HMAC-SHA256(key, f'{ts}\\n{key}') → base64。"""
+    string_to_sign = f"{ts}\n{key}"
+    digest = hmac.new(key.encode("utf-8"), string_to_sign.encode("utf-8"), hashlib.sha256).digest()
+    return base64.b64encode(digest).decode("utf-8")
+
+
+def _send_hook(url: str, text: str, key: str | None = None) -> bool:
+    payload = {"msg_type": "text", "content": {"text": text}}
+    if key:  # 加签模式（机器人安全设置开了签名校验）
+        ts = str(int(time.time()))
+        payload["timestamp"] = ts
+        payload["sign"] = _feishu_sign(ts, key)
+    data = json.dumps(payload, ensure_ascii=False).encode("utf-8")
+    req = urllib.request.Request(url, data=data, headers={"Content-Type": "application/json"})
     try:
         with urllib.request.urlopen(req, timeout=15) as resp:
             return resp.status == 200
@@ -159,14 +181,14 @@ def _notify(messages: dict[str, str], dry_run: bool, silent: bool) -> None:
         if silent:
             print(f"🔕 夜间静默，跳过通知：{role} → {text}")
             continue
-        url = hooks.get(role)
-        if not url:
+        hook = hooks.get(role)
+        if not hook:
             print(f"⚠️ 无 webhook 配置（dry-run 不发送）：{role} → {text}")
             continue
         if dry_run:
             print(f"🧪 dry-run 不发送：{role} → {text}")
             continue
-        ok = _send_hook(url, text)
+        ok = _send_hook(hook["url"], text, hook["key"])
         print(f"{'✅' if ok else '❌'} 通知 {role}：{text}")
 
 
@@ -175,6 +197,7 @@ def _notify(messages: dict[str, str], dry_run: bool, silent: bool) -> None:
 def main() -> int:
     p = argparse.ArgumentParser(description="KDO 传送带探针（#421）")
     p.add_argument("--dry-run", action="store_true", help="登记照做，通知只打印")
+    p.add_argument("--force-notify", action="store_true", help="跳过夜间静默强制通知（仅测试/验收用，生产红线不变）")
     p.add_argument("--json", action="store_true", help="结构化输出")
     args = p.parse_args()
 
@@ -207,7 +230,7 @@ def main() -> int:
     state["notified"] = sorted(notified)[-200:]  # 只留最近 200 条防膨胀
 
     hour = datetime.now().hour
-    silent = hour >= SILENT_START_HOUR or hour < SILENT_END_HOUR
+    silent = (hour >= SILENT_START_HOUR or hour < SILENT_END_HOUR) and not args.force_notify
     _notify(deduped, args.dry_run, silent)
     _save_state(state)
 

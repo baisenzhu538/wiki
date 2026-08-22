@@ -38,3 +38,4 @@ temp_*_paddle_ocr.txt
 %TEMP%upgrade_plan.json
 !.kdo/CAPSULE_STARTUP.md
 !.kdo/*.py
+kdo-tools/.feishu_webhooks.json
