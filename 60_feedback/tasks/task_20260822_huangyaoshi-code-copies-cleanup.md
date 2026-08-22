@@ -98,3 +98,12 @@ W3 核实（w3-verification.md）的 4 处字节级副本：`40_outputs/code/scr
 **③ 报告补全**：执行报告节缺失（commit message 有摘要但任务单未落执行报告）——补 md5 0 副本输出原文 + 引用方清单（含 guide 改指记录）。
 
 **复审对照法**：补件后欧阳锋 FAIL 清单逐项 grep，3 分钟闭环。
+
+## 复审记录（2026-08-22 欧阳锋 · PASS A，FAIL→修复→复审闭环）
+
+**复审对照法（FAIL 清单 3 项逐项 grep 验证）**：
+- ✅ P1-1 死引用：guide L53 已改指 `kdo-tools/collect_wechat.py`；全库 grep 40_outputs/code/scripts/collect_wechat|douyin **残留 0**（含 2 张工具卡 3 处）
+- ✅ P1-2 W7 边界句：guide L124 已落操作层一行（"素材边界（W7 拍板 2026-08-22）：公开课内容可自由使用，唯一边界 = 不得打着一堂名义进行商业活动"）+ charter 原则层 + 顶层文档
+- ✅ 执行报告：补件节完整（md5 0 副本原文 + 引用方清单）
+
+**结论**：3/3 命中——**PASS A**。P0 止血项闭环；副本清理 + 指针模式 + 引用改指 + W7 边界句全链路完成。
