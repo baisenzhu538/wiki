@@ -581,5 +581,6 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~diag_20260823_fengqingyang-memory-capsule-l0-audit.md｜08-23 01:01｜待王语嫣复核裁定~~ → 已复核裁定（2026-08-23 王语嫣）：采纳——#432 壳建好且可恢复属实但未自动留痕；#434 为激活关键单；镜像计划任务不单独注册，与 #434 一并验收，老朱时间锚不晚于 #434 提审前
 - diag_20260823_ouyangfeng-negative-gate-vocab-extension.md｜08-23 01:50｜待王语嫣复核裁定
 - diag_20260823_fengqingyang-negative-gate-vocab-review.md｜08-23 01:56｜待王语嫣复核裁定
+- diag_20260823_fengqingyang-handoff-doc-only.md｜08-23 02:00｜待王语嫣复核裁定
 
 <!-- PROPOSAL-PENDING-END -->
