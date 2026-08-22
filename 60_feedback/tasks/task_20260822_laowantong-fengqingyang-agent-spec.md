@@ -1,8 +1,8 @@
 ---
 id: 428
-assignee: laowantong
-status: queued
-updated_at: '2026-08-22T20:40:00+08:00'
+assignee: hermes
+status: in_progress
+updated_at: '2026-08-22T14:13:26.095496+00:00'
 ---
 # #428 补建 agent-spec 卡：风清扬（观察者）
 
