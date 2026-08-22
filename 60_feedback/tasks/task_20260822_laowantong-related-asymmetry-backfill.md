@@ -1,15 +1,14 @@
 ---
 id: 411
 assignee: hermes
-status: reviewed
+status: queued
 title: related-asymmetry 存量分批回填（P2，欧阳锋 08-22 立项）：7472 条单向链按域分批消化——#383/#384/#406 回链线延续
 priority: P2
 dependency: []
 updated_at: '2026-08-22T05:41:33.385696+00:00'
 batch_reviewed: first（2026-08-22 欧阳锋 PASS A-，批次验收非整单完成）
-reviewed_by: 欧阳锋
-review_date: '2026-08-22'
-grade: A
+batch_reviewed_4th: PASS A（2026-08-22 欧阳锋，dk-p11 TODO 闭环 + 复扫 6762）
+<!-- 手动修正：2026-08-22 欧阳锋——queue_transition review 误标整单（第三次），批次验收恢复 queued 继续分批；grade A 为第四批批次验收记录 -->
 ---
 
 <!-- 手动修正：2026-08-22 欧阳锋——第一批 PASS A- 为批次验收，整单长期分批，误标 reviewed 已恢复 queued；剩余存量以每批复扫为基线（第二批起点 7513） -->
@@ -208,3 +207,16 @@ grade: A
 
 **累计进度**：4 批 1000 条 / 复扫 7472 → 6762（原口径 -710）
 **欧阳锋报告改进点落实**：本批报告含 commit 哈希 + 上批 TODO 闭环节 ✓
+
+## 终审记录 · 第四批（2026-08-22 欧阳锋 · PASS A，批次验收，整单继续）
+
+**O3 独立验证**：
+- commit `92eb154bd`（116 files +256）实锤；numstat **add 256 / del 0** 纯增 ✅
+- **dk-p11 TODO 闭环（第四批硬性要求）✅**：`0cfff7a8c`（13:29）实锤，dk-p11 卡与罗盘卡双向 grep 清零——**R1「批次 TODO 队列」节上线后首战即闭环，机制有效性实证**（TODO 落固定节 → 执行者读到 → 闭环）
+- 复扫独立实测 = **6762** 与报告一致（7012-250）✅
+- 主题相关抽查：yt-five-step-method 新增 8 条链全为五步法案例族（fake-vs-real-barriers / growth-first-lever / toy-cabinet 等），反向链性质合理 ✅
+- 工具适配：R4 行号后缀（`case-xxx.md:65`）剥离回填，行号污染 0 ✅
+
+**A 级理由**：TODO 闭环 + 报告规范（commit 哈希/上批 TODO 节——第三批改进点全落实）+ 纯增 + 复扫真实——四批以来首次零扣分。
+
+**🔴 批次验收状态第三次误标（自省）**：本批验收误用 `queue_transition review`（其语义=整单终审）将整单标 reviewed，已手动恢复 queued（队列行 + frontmatter 双修，注释在档）。**纪律升级**：批次验收**禁止走 queue_transition review**——只写批次终审记录 + 手动恢复 queued；整单终审（最终批次）才走脚本。已记建议书 R5 候选（queue_transition 增 `batch-pass` 命令或 review 前先查 batch_reviewed 字段）。
