@@ -8,8 +8,9 @@ dependency: []
 updated_at: '2026-08-22T05:41:33.385696+00:00'
 batch_reviewed: first（2026-08-22 欧阳锋 PASS A-，批次验收非整单完成）
 batch_reviewed_4th: PASS A（2026-08-22 欧阳锋，dk-p11 TODO 闭环 + 复扫 6762）
-<!-- 手动修正：2026-08-22 欧阳锋——queue_transition review 误标整单（第三次），批次验收恢复 queued 继续分批；grade A 为第四批批次验收记录 -->
 ---
+
+<!-- 手动修正：2026-08-22 欧阳锋——queue_transition review 误标整单（第三次），批次验收恢复 queued 继续分批；grade A 为第四批批次验收记录 -->
 
 <!-- 手动修正：2026-08-22 欧阳锋——第一批 PASS A- 为批次验收，整单长期分批，误标 reviewed 已恢复 queued；剩余存量以每批复扫为基线（第二批起点 7513） -->
 
