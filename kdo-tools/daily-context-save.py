@@ -115,6 +115,33 @@ def _run_review_check(agent: str) -> str:
         return f"⚠️ {ex}"
 
 
+def _write_l0_event(agent: str, desktop_path: Path, grade: str) -> None:
+    """#434：复盘保存成功 → 写 L0 事件（event_type=review_saved）。
+
+    失败不阻断复盘保存（复盘是主产物），但必须 stderr 醒目报警 + 落待收口记录——禁止静默吞。
+    """
+    try:
+        sys.path.insert(0, str(Path(__file__).resolve().parent))
+        import memory_capsule as mc
+        if not mc.A_DB.exists():
+            mc.cmd_init()
+        text = desktop_path.read_text(encoding="utf-8", errors="ignore")
+        payload = (
+            f"path={desktop_path};grade={grade};size={len(text.encode('utf-8'))};"
+            f"content_hash={mc._sha256(text)[:16]}"
+        )
+        mc.cmd_log(agent=agent, event="review_saved", payload=payload, session=None)
+        print("🧪 胶囊 L0 已留痕: agent=%s event=review_saved" % agent)
+    except Exception as e:
+        print(f"⛔ 胶囊 L0 写入失败（复盘已保存，不阻断）：{e}", file=sys.stderr)
+        try:
+            log_path = Path(__file__).resolve().parent.parent / "90_control" / "pending-git-commits.log"
+            with open(log_path, "a", encoding="utf-8") as f:
+                f.write(f"\n# {datetime.now().strftime('%Y-%m-%d %H:%M')} 胶囊 L0 写入失败（#434）agent={agent} grade={grade}: {e}\n")
+        except Exception:
+            pass
+
+
 def cmd_save(args):
     agent = args.agent
     today = datetime.now().strftime("%Y-%m-%d")
@@ -197,6 +224,9 @@ def cmd_save(args):
     if grade.startswith("🔴"):
         print(f"⛔ C 级不合格——请用 Write 工具打开上述文件，补充缺失章节后重跑：")
         print(f"   python {Path(__file__).name} save --agent {agent} --truman --file {desktop_path}")
+
+    # #434：L0 自动写入端——save 成功即写胶囊事件（失败不阻断保存，stderr 醒目报警，禁静默吞）
+    _write_l0_event(agent, desktop_path, grade)
 
     return 0
 

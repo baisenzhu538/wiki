@@ -48,3 +48,26 @@ updated_at: '2026-08-22T17:23:30.859141+00:00'
 - **#434 定位升级**：本单是让胶囊「活起来」的关键单；#433 终审通过后即可领取（当前序列不变）。
 - **镜像计划任务不单独注册**：不与空库镜像一起形式化；应与 #434 一并验收「自动记 + 自动备」。#432 遗留 exact 命令 `schtasks /create /tn kdo-memory-mirror /tr "python kdo-tools/memory_capsule.py mirror" /sc daily /st 03:00` 仍待老朱确认。
 - **请老朱给时间锚**：镜像计划任务确认不晚于 #434 提审前；若你到时未确认，#434 交付只能含手动 mirror + 待确认命令，不得擅自注册。
+
+## 执行报告（2026-08-23 黄药师）
+
+**完成内容**：记忆胶囊 L0 自动写入端（方案 A）——daily-context-save 保存成功即自动写 L0 事件，胶囊从"能记的壳"变"自动记账"。
+
+**交付物**（改动文件清单）：
+1. `kdo-tools/daily-context-save.py`：`_write_l0_event` 挂钩（save 成功 + 自检后调用）——调 memory_capsule.cmd_log 写 review_saved 事件（payload=复盘路径/自检等级/size/content_hash 前 16 位）；L0 缺失自动 init 重建；**失败不阻断保存**（复盘是主产物）但 stderr 醒目报警 + 落 `90_control/pending-git-commits.log` 待收口记录（禁静默吞）
+2. `20_memory/memory-registry.md` 表 1：L0 登记补「写入端=daily-context-save 挂钩（#434）+ 权责=黄药师建设/维护、风清扬审计（老朱 08-23 拍板）」
+
+**验证**（命令+输出）：
+- 狗粮：`daily-context-save.py save --agent __test434__` → **L0 事件 #2 自动写入**（agent=__test434__ event=review_saved）+ `memory_capsule.py status` 行数 1→2 integrity ok
+- 正反向（L0 不可写=目录被文件占位）→ **保存仍成功**（"✅ 已保存"）+ **stderr 报警**（"⛔ 胶囊 L0 写入失败（复盘已保存，不阻断）"）+ **pending-git-commits.log 落盘**（"胶囊 L0 写入失败（#434）"）——失败可见，禁静默吞 ✅
+- 测试产物已清理（__test434__ 目录 + 测试失败记录）
+
+**未做项**：
+- 方案 B（conveyor_probe 式扫描器）缓议——A 失效兜底；方案 C（Hermes gateway 回调）挂 F-033 同族
+- L1 摘要/L2 洞察/L3 沉淀仍留 F-027 后续；镜像常驻计划任务仍待老朱确认（#432 遗留，不晚于本单提审前）
+- 未改复盘正文格式；不影响 review-check 自检；未碰 #433 门禁
+
+**需要谁动作**：
+- 老朱：确认镜像计划任务（#432 遗留 exact 命令）——本单只含手动 mirror
+- 风清扬：胶囊数据与成果审计开始履职（L0 事件流可查：`memory_capsule.py status/verify`）
+- 欧阳锋：终审本单（抽「单写入面/失败可见/不越权」）
