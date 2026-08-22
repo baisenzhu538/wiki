@@ -35,6 +35,7 @@ related:
 - 'tool-月白-AI对话情绪管理法'
 - 'dk-three-context-formula'
 - '[[dk-yb6-midjourney-chinese-text-fix]]'
+- '[[tool-月白-文件命名与平台适配规范]]'
 tags:
 ---
 # 技能：AI自动生成多语种专业名词提示词

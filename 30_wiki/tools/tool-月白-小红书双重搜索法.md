@@ -35,6 +35,7 @@ related:
 - 'tool-月白-AI对话情绪管理法'
 - 'dk-three-context-formula'
 - '[[tool-月白-80分效率设计策略]]'
+- '[[tool-月白-文件命名与平台适配规范]]'
 tags:
 ---
 # 技能：小红书双重搜索法

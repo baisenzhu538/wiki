@@ -45,6 +45,12 @@ related:
   - '[[tool-月白-PPT风格锁定工作流]]'
   - '[[tool-月白-口喷作图工作流]]'
   - '[[tool-月白-口喷式设计工作流]]'
+  - '[[tool-月白-图片逆向反推提示词法]]'
+  - '[[tool-月白-基于需求拆解找设计参考]]'
+  - '[[tool-月白-手绘草稿AI转化工作流]]'
+  - '[[tool-月白-用AIGC做设计专家批评复盘]]'
+  - '[[tool-月白-电商场景图三类分类法]]'
+  - '[[tool-月白-电商场景图三类构建法]]'
 tags:
   - method:feature-thinking
   - method:workflow

@@ -43,6 +43,8 @@ related:
 - '[[tool-月白-叙事性场景海报构建]]'
 - '[[yt-business-model-partnership]]'
 - '[[tool-月白-价格带视觉策略匹配]]'
+- '[[tool-月白-多语种专业名词提示词策略]]'
+- '[[tool-月白-小红书平台内容策略：从美图经济到沙雕梗图]]'
 tags:
 - audience:executor
 - scene:execution

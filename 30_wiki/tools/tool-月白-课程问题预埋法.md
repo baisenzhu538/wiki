@@ -36,6 +36,7 @@ related:
 - 'dk-three-context-formula'
 - '[[tool-demand-iceberg-l2-scenario]]'
 - '[[tool-半肥猫-course-to-skill-workflow]]'
+- '[[tool-月白-文件命名与存档规范（口述暗示）]]'
 tags:
 ---
 # 技能：课程问题预埋法

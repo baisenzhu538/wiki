@@ -34,6 +34,7 @@ related:
 - 'tool-月白-AI图片印刷落地预处理'
 - 'tool-月白-AI对话情绪管理法'
 - 'dk-three-context-formula'
+- '[[tool-月白-文件命名与图层命名规范]]'
 tags:
 ---
 # 技能：印刷DPI标准设置

@@ -34,6 +34,7 @@ related:
 - 'tool-月白-AIGC模型选型决策法'
 - 'tool-月白-AI模型选择决策法'
 - 'dk-three-context-formula'
+- '[[tool-月白-基于基础形象做动作延展（1到10）]]'
 tags:
 ---
 # 技能：找AI要平台专属方法（模型对抗法）

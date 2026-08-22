@@ -36,6 +36,7 @@ related:
 - 'tool-月白-AIGC反向拆解法'
 - 'case-truman-ai-image-workflow-evolution'
 - '[[tool-Truman-AI工具选型决策]]'
+- '[[tool-月白-基于基础形象做动作延展（1到10）]]'
 tags:
 ---
 # 技能：口喷式设计工作流

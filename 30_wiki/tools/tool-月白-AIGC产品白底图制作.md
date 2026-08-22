@@ -34,6 +34,8 @@ related:
 - 'tool-月白-AI生成电商白底图'
 - 'tool-月白-产品白底图标准化制作'
 - 'dk-aesthetic-redline-doc'
+- '[[tool-月白-基于白底图做动作延展]]'
+- '[[tool-月白-电商白底图生成与场景图匹配]]'
 tags:
 ---
 # 技能：AIGC产品白底图制作

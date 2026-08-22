@@ -34,6 +34,7 @@ related:
 - 'tool-月白-MOC'
 - 'tool-月白-AI人物特征精准描述法'
 - 'dk-three-context-formula'
+- '[[tool-月白-基于基础形象做动作延展（1到10）]]'
 tags:
 ---
 # 技能：AIGC生成人物证件照

@@ -36,6 +36,9 @@ related:
 - 'dk-three-context-formula'
 - '[[case-strategy-model-selection-quiz]]'
 - '[[tool-月白-商业项目AI模型选型决策]]'
+- '[[tool-月白-找AI要平台专属方法（模型对抗法）]]'
+- '[[tool-月白-模型性价比选型决策]]'
+- '[[tool-月白-模型识别与边界测试法]]'
 tags:
 ---
 # 技能：AI模型选择决策法

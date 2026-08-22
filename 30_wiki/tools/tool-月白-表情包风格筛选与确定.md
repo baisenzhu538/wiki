@@ -35,6 +35,7 @@ related:
 - 'tool-月白-RGB转CMYK色彩校准法'
 - 'dk-aesthetic-redline-doc'
 - '[[dk-yb23-ai-pre-screen-three-minutes]]'
+- '[[tool-月白-基于基础形象做动作延展（1到10）]]'
 tags:
 ---
 # 技能：表情包风格筛选与确定

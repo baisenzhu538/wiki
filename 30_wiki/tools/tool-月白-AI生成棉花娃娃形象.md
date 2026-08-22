@@ -34,6 +34,7 @@ related:
 - 'tool-月白-AI图片印刷落地预处理'
 - 'tool-月白-AI对话情绪管理法'
 - 'dk-three-context-formula'
+- '[[tool-月白-基于基础形象做动作延展（1到10）]]'
 tags:
 ---
 # 技能：AI生成棉花娃娃形象

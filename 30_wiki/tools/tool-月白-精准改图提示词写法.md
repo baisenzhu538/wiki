@@ -36,6 +36,7 @@ related:
 - 'tool-月白-AI图生图尺寸快速转换'
 - 'dk-three-context-formula'
 - '[[dk-yb6-midjourney-chinese-text-fix]]'
+- '[[tool-月白-基于基础形象做动作延展（1到10）]]'
 tags:
 ---
 # 技能：精准改图提示词写法
