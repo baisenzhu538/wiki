@@ -1,8 +1,11 @@
 ---
 id: 417
 assignee: kimi
-status: pending_review
-updated_at: '2026-08-22T14:14:20.787864+00:00'
+status: reviewed
+updated_at: '2026-08-22T15:07:02.239498+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-08-22'
+grade: A-
 ---
 # #417 工业化手册整改（王语嫣主笔，持续迭代机制）
 
@@ -62,3 +65,32 @@ updated_at: '2026-08-22T14:14:20.787864+00:00'
 **提审记录**：`queue_transition.py complete task_20260822_wangyuyan-industrialization-manual-revamp --instance kimi --evidence 90_control/kdo-industrialization-manual.md` 已执行，队列状态 `pending_review`（等欧阳锋终审）；queue/dashboard/task 自动收口 commit `2428dabe2`。
 
 **自检结果**：grep 确认手册无 `v1.6` 标题、无 `KF-001~022`、无第二个 `KF-024` 体量上限、无「复合编译执行」；存在 `v2.0`、`KF-026`、「入宪六方」、`queued → claimed`；Python 读 frontmatter 确认 `version == "2.0"`。输出摘要见会话记录。
+
+---
+
+## 终审记录（欧阳锋 · 2026-08-22 深夜）
+
+**结论：PASS / A-**
+
+**对齐核验**（文档类任务，#362 豁免入仓/生效，仍查对齐）：commit a1dc99d39（22:14）在 HEAD，审查对象=最新真相源。
+
+**O0 溯源逐条对**（交付物=手册 v2.0 + 任务单）：
+1. **版本归一** ✅：frontmatter `version: "2.0"`/`updated_at` 2026-08-22、正文标题 v2.0、编制行 v2.0 标注、版本规则入文（改一次升一次/frontmatter 正文同号/脚本校验，溯源 #416 附则/B4-1）
+2. **自检声明独立验证**（O3）：grep 复核 `v1.6`=0 / `KF-001~022` 字面=0 / `复合编译执行`=0；KF 编号区间实测 KF-001~026 连续无缺口，KF-022（单次会话批量上限）为合法保留铁律、L949/L990 的 v1.7 为历史版本引用——任务单"无 KF-001~022"表述有歧义（实为字面串检查），🔵 仅表述问题
+3. **角色表逐字对齐 charter §2.1** ✅：六行逐字一致（含加粗标记）；权责分界/执行前三问/挂起角色/资产落点表均带 charter 溯源标注。🟠 一处措辞差异：挂起角色"不进**现行**框架"（手册）vs"不进**本次**框架"（charter）——"逐字一致"声明下 1 字之差，实质无影响（名单一致），建议 charter 措辞微调或手册改回原文
+4. **§3.4 队列口径** ✅：状态机 `queued → claimed-{instance} → pending_review → reviewed/退回 queued` + 三自动登记段（REVIEW-PENDING #389/#413、INBOX-PENDING watch_inbox、PROPOSAL-PENDING #421）+ 提交链 + L2≠pre-submit 口径说明——与现行机制逐条一致（#421 今晚上线已同步入文）
+5. **铁律重编号** ✅：KF-001~026；KF-010 含 pre-submit（L478）；KF-011 扩为审而不改+写审分离（author≠reviewed_by lint 强制，L485）；KF-024 保留行为转化三要件、原重号体量上限改 KF-026（L508 注重号修复）
+6. **§1.2 审而不改** ✅：生产者修正内容/建设者修正基建/欧阳锋复审 + 90_control 例外受 KF-001 双重签发
+7. **§10.2 revision/verify** ✅；附录 A F-KDO-001~016、附录 B 历史快照标注（停在 2026-05，以 production-queue.md 为准）、附录 D v2.0 行、附录 E 对账记录
+8. **附录 E 五条对账抽查全属实**（O3）：AGENTS.md:386 "22 条铁律"✅ / rules-core.md:34 "22 条铁律"✅ / laowantong-context KF-025 三问（手册四问，L334/345）✅ / spec 卡 draft + 风清扬在途 #428 ✅
+
+**发现问题**：
+- 🟠-1：挂起角色措辞"现行"vs"本次"一字差（见上 3，charter 对齐声明下的小瑕疵）
+- 🟠-2：验收标准"版本号唯一+**脚本校验可查**"——脚本校验未在本单交付（任务单动作 4 为"黄药师配合入 lint"，协作项），手册已写明"后续由脚本校验"但脚本本体未落地——**TODO 给黄药师**（与版本规则联动，防复发机制闭环）
+- 🔵：任务单自检表述歧义（见上 2）
+
+**魔鬼代言人**：3 个月后最可能出问题——手册再改版本时没有脚本拦（🟠-2 未闭环），又回 v1.6 式漂移。防复发依赖黄药师入 lint。
+
+**残余风险**：🟠-2 脚本校验待黄药师；AGENTS.md 角色旧制等 5 条外部漂移已在附录 E 列明另立项，本单不扩散。
+
+*欧阳锋 · 2026-08-22 · A-*
