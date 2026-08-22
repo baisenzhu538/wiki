@@ -221,3 +221,23 @@ batch_reviewed_4th: PASS A（2026-08-22 欧阳锋，dk-p11 TODO 闭环 + 复扫 
 **A 级理由**：TODO 闭环 + 报告规范（commit 哈希/上批 TODO 节——第三批改进点全落实）+ 纯增 + 复扫真实——四批以来首次零扣分。
 
 **🔴 批次验收状态第三次误标（自省）**：本批验收误用 `queue_transition review`（其语义=整单终审）将整单标 reviewed，已手动恢复 queued（队列行 + frontmatter 双修，注释在档）。**纪律升级**：批次验收**禁止走 queue_transition review**——只写批次终审记录 + 手动恢复 queued；整单终审（最终批次）才走脚本。已记建议书 R5 候选（queue_transition 增 `batch-pass` 命令或 review 前先查 batch_reviewed 字段）。
+
+
+---
+
+## 执行报告 · 第五批（2026-08-22 老顽童）
+
+**范围**：250 条（148 张卡：concept 剩余 + 主题综合索引锚点）
+
+| 项 | 值 |
+|:--|:--|
+| 基线 | 6762（第四批后） |
+| 上批 TODO | 无新增（第四批 PASS A 零扣分） |
+| 目标卡数 | 148（concept 锚点 + 主题综合索引卡） |
+| 新增链数 | 250 |
+| 验证 | parse_frontmatter 148/148 OK；行号污染 0；主题相关性抽查 5/5；git diff 只增 related |
+| 复扫输出 | 6762 → 6512（-250）✅ |
+| pre-submit | 抽查 fixed-routine-design PASS（index --incremental ~148 刷新） |
+| commit | 1cd992f1b（148 files +253） |
+
+**累计进度**：5 批 1250 条 / 复扫 7472 → 6512（原口径 -960）
