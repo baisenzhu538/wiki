@@ -1,8 +1,8 @@
 ---
 id: 431
-assignee: laowantong
-status: queued
-updated_at: '2026-08-23T00:20:00+08:00'
+assignee: hermes
+status: in_progress
+updated_at: '2026-08-22T17:15:13.633964+00:00'
 ---
 # #431 角色专场第一场：老顽童岗位说明书定稿
 
