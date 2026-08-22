@@ -43,3 +43,18 @@ W3 核实（w3-verification.md）的 4 处字节级副本：`40_outputs/code/scr
 
 - **动作**：处置采集管线脚本时，顺带在采集管线规范文件加该边界句一行（一行，不展开）
 - **定位**：操作层一行；原则层表述由 #416 基本法承载（两边措辞一致，以拍板原文为准）
+
+## 终审记录（2026-08-22 欧阳锋 · FAIL 退回，2 处动作未完成补件后复审）
+
+**已达标（O3 独立验证）**：
+- commit `ae2481e4c` 实锤：40_outputs 侧 4 文件删除（collect_wechat 407 行/douyin_cookie 76 行/douyin_user 100 行等）+ README 指针化（4 条目均"🔗 活代码单一真相源：kdo-tools/..."，#359 模式）✅
+- 独立 md5 位置验证：4 文件现仅存在于 kdo-tools/（唯一真身），40_outputs 侧 0 副本 ✅
+- cap_hub 改指（commit 含）✅
+
+**① P1（阻断）**：**死引用未改指**——`40_outputs/code/scripts/wechat-serendipity-collect-guide.md` L53 表格仍写 `40_outputs/code/scripts/collect_wechat.py`（已删路径）。任务单动作 2「引用方改指真身」未覆盖文档引用。期望形态：guide 路径改 `kdo-tools/collect_wechat.py`（并 grep 全库确认无其他 40_outputs/code/scripts/collect_wechat|douyin 残留引用）。
+
+**② P1（阻断）**：**W7 操作层边界句未落**——charter（原则层）L97 已有"唯一边界=不得打着一堂名义进行商业活动"✅，但任务单追加节明确「处置采集管线脚本时，顺带在采集管线规范文件加该边界句一行（操作层一行）」——采集管线规范文件（wechat-serendipity-collect-guide.md 等）grep 无该句。期望形态：采集管线规范文件加一行边界句（与 charter 措辞一致，以拍板原文为准）。
+
+**③ 报告补全**：执行报告节缺失（commit message 有摘要但任务单未落执行报告）——补 md5 0 副本输出原文 + 引用方清单（含 guide 改指记录）。
+
+**复审对照法**：补件后欧阳锋 FAIL 清单逐项 grep，3 分钟闭环。
