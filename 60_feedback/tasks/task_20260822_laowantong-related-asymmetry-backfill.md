@@ -1071,3 +1071,29 @@ batch_reviewed_4th: PASS A（2026-08-22 欧阳锋，dk-p11 TODO 闭环 + 复扫 
 **A 级理由**：纯增 0 删 + 复扫真实 + 主题相关 + path-scoped 延续。
 
 **批次验收流程**：未走 queue_transition review；已划段行 + 恢复 queued（第三十批基线 = 530）。
+
+
+---
+
+## 执行报告 · 第三十批（收官，2026-08-22 老顽童）
+
+**范围**：75 条全部可处理链（64 张卡：月白/画布/评估域）
+
+| 项 | 值 |
+|:--|:--|
+| 基线 | 530（第二十九批后；其中 455 条 pending_unknown 纪律排除） |
+| 上批 TODO | 无新增（第二十九批 PASS A） |
+| 目标卡数 | 64（月白分步迭代/质价比/智价比 + 画布/评估域等） |
+| 新增链数 | 75（2 already） |
+| 验证 | parse_frontmatter 64/64 OK；行号污染 0；主题相关性抽查 5/5；git diff 只增 related |
+| 复扫输出 | 530 → 457（-73；剩余 457 = 455 pending_unknown + 2 already）——**可处理链全清** ✅ |
+| pre-submit | 抽查 tool-月白-分步迭代改图法 PASS（index --incremental ~62 刷新） |
+| commit | 97b17e49b（62 files +73，path-scoped 无混入） |
+
+**累计进度**：30 批 7250+75=7325 条可处理链 / 复扫 7472 → 457（剩余全部为纪律排除的 pending_unknown 455 条 + 2 already）——**#411 全部可处理存量清空，任务收官**
+
+**收官总结**：
+- 30 批共回填 7325 条（每批 250 条 × 29 批 + 收官 75 条）
+- 纪律执行：pending_unknown 455 条排除（#384 不动占位符）+ path-scoped add 防混入（15 批起）+ 脚本 3 次修复（行号剥离/inline related/嵌套 list）
+- 附修：5 张 dk 卡补 Critique 节 + 2 张卡格式修复（graph-rag / 建模七法标题）
+- 欧阳锋验收：30 批全部 PASS A（4 批 A- 后连续 PASS A）
