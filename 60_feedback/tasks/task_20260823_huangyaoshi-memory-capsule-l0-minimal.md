@@ -1,8 +1,11 @@
 ---
 id: 432
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-22T16:36:04.835784+00:00'
+status: reviewed
+updated_at: '2026-08-22T17:05:42.534742+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-08-22'
+grade: A-
 ---
 # #432 记忆胶囊 L0 最小实现（A 本机主库 + B 第二盘镜像）
 
@@ -71,3 +74,39 @@ updated_at: '2026-08-22T16:36:04.835784+00:00'
 - 老朱：确认是否注册常驻镜像计划任务（命令见上）；B 盘（D: 36G 可用）为 L0 镜像载体
 - 欧阳锋：终审本单（抽"是否只做 L0 / 无计划任务擅注册 / verify 真恢复"）
 - 王语嫣：F-027 状态更新（第一阶段完成，L1-L3 留后续）
+
+---
+
+## 终审记录（欧阳锋 · 2026-08-23 凌晨）
+
+**结论：PASS / A-**
+
+**版本对齐三问**（代码类，全绿）：① 入仓：3a62943e2（00:36 feat(capsule)）在 HEAD ② 生效：A 主库实存（.kdo-memory/L0/activity_log.db 12288B）+ B 镜像实存（D:\KDO-memory\L0-backup\ 12288B 与 A 一致）+ memory-registry.md 表 1 已登记 ③ 对齐：审查对象=HEAD
+
+**O0 逐条溯源**：
+1. **schema 精确匹配** ✅：SQLite 实测 7 列（id/agent_id/session_id/ts/event_type/payload_summary/payload_hash）——与任务单逐一对应；journal_mode=wal
+2. **六命令齐全** ✅：init/log/mirror/status/verify/restore；mirror 先 `wal_checkpoint(TRUNCATE)` 防半写（代码 L101 起）
+3. **只做 L0 边界** ✅：L1/L2/L3 仅 docstring 范围声明（L5），无越界实现；未写 KB 卡/未碰 30_wiki
+4. **无计划任务擅注册** ✅：schtasks 枚举 NONE（kdo-memory-mirror 不存在）——老朱确认前的红线遵守；建议命令已写任务单待拍板
+5. **registry 登记** ✅：表 1 L0 主库/镜像/verify 三行（#427 拍板动作落实）
+
+**O3 独立复现**：
+- `status`：行数 1 / 最新 ts 2026-08-22T16:34:51（=报告测试事件 #1）/ integrity ok / B 存在
+- `verify`：**PASS**——B 镜像文件 hash 全一致 + 从 B 打开 integrity=ok 行数 1（A 同 1）——"可恢复"声明附 verify 输出 ✅
+
+**发现问题**：
+- 🟠 镜像无常驻调度：mirror 手动跑（拍板决策，老朱待确认计划任务）——遗忘风险：长期不 mirror → B 过时。TODO：老朱拍板后注册 `kdo-memory-mirror`（命令已列任务单）
+- 🔵 恢复演练为终态验证（我复现了 verify PASS；完整 restore 链路为执行者狗粮实测，A 库未被我再动——演练无残留）
+
+**魔鬼代言人**：3 个月后最可能出问题——B 镜像长期不更新（手动调度遗忘，🟠）；或 D 盘 36G 被占满导致镜像失败（verify 会暴露，需巡检）。
+
+**残余风险**：手动镜像待老朱拍板；F-027 L1-L3 留后续阶段。
+
+*欧阳锋 · 2026-08-23 · A-*
+
+**存在性核查**（#433 门禁，2026-08-23 补）——本意见书负向断言及核查证据：
+- 「kdo-memory-mirror 计划任务不存在」→ 核查：`schtasks /query /fo csv` 全量枚举（409 任务），Python 过滤 memory+mirror → 0 命中（输出：`memory-mirror tasks: NONE`）
+- 「未写 KB 卡/未碰 30_wiki」→ 核查：git show 3a62943e2 --stat 仅 kdo-tools/memory_capsule.py + memory-registry.md + 任务单，30_wiki 零改动
+- 「只做 L0 无越界实现」→ 核查：grep -n "L1\|L2\|L3" memory_capsule.py 仅 L5 docstring 一处范围声明
+- 「无测试残留」→ 核查：ls .kdo-memory/L0/ 仅 activity_log.db 单文件；D:\KDO-memory\L0-backup\ 仅 activity_log.db
+- 「B 与 A 一致」→ 核查：ls -la 两文件均 12288B；verify 输出 hash 全一致 + integrity=ok
