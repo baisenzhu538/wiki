@@ -1,8 +1,11 @@
 ---
 id: 419
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-22T13:27:41.578863+00:00'
+status: reviewed
+updated_at: '2026-08-22T13:34:11.984629+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-08-22'
+grade: A
 ---
 # #419 复盘门禁双查升级（形式+深度）+ 样本校准
 
