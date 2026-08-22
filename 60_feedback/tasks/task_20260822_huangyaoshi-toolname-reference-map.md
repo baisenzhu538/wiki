@@ -1,8 +1,11 @@
 ---
 id: 415
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-22T12:19:39.915866+00:00'
+status: reviewed
+updated_at: '2026-08-22T12:24:56.069771+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-08-22'
+grade: A
 ---
 # #415 工具名引用清单（B4-2 替换前置）
 
