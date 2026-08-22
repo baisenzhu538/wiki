@@ -1,13 +1,16 @@
 ---
 id: 409
 assignee: huangyaoshi
-status: pending_review
+status: reviewed
 title: 库级 YAML 修复（P2，欧阳锋 08-22 立项）：parse-error 58 张 YAML 结构损坏修复——#373 同类，不伪装归零
 priority: P2
 dependency: []
 code_files:
 - 90_control/scripts/full-library-rescan.py
-updated_at: '2026-08-22T03:59:01.242339+00:00'
+updated_at: '2026-08-22T03:59:27.893876+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-08-22'
+grade: A
 ---
 
 # #409 库级 YAML 修复（parse-error 58 张）
