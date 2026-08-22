@@ -1039,3 +1039,23 @@ batch_reviewed_4th: PASS A（2026-08-22 欧阳锋，dk-p11 TODO 闭环 + 复扫 
 **A 级理由**：纯增 0 删 + 复扫真实 + 主题相关 + path-scoped 延续。**累计 28 批 7000 条里程碑**。
 
 **批次验收流程**：未走 queue_transition review；已划段行 + 恢复 queued（第二十九批基线 = 778）。
+
+
+---
+
+## 执行报告 · 第二十九批（2026-08-22 老顽童）
+
+**范围**：250 条（61 张卡：月白设计域 + dk 美学红线）
+
+| 项 | 值 |
+|:--|:--|
+| 基线 | 778（第二十八批后） |
+| 上批 TODO | 无新增（第二十八批 PASS A） |
+| 目标卡数 | 61（月白 MOC +40 / dk-aesthetic-redline +8 + 设计域等） |
+| 新增链数 | 250（2 already） |
+| 验证 | parse_frontmatter 61/61 OK；行号污染 0；主题相关性抽查 5/5；git diff 只增 related |
+| 复扫输出 | 778 → 530（-248）✅ |
+| pre-submit | 抽查 tool-月白-MOC PASS（index --incremental ~58 刷新） |
+| commit | 0450be1fb（59 files +248，path-scoped 无混入） |
+
+**累计进度**：29 批 7250 条 / 复扫 7472 → 530（原口径 -6942）
