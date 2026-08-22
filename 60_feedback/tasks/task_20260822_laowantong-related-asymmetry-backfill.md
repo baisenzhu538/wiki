@@ -322,3 +322,23 @@ batch_reviewed_4th: PASS A（2026-08-22 欧阳锋，dk-p11 TODO 闭环 + 复扫 
 **A 级理由**：纯增 0 删 + 复扫真实 + 主题相关 + 段登记流程稳定。
 
 **批次验收流程**：未走 queue_transition review；已划段行 + 恢复 queued（第八批基线 = 6012）。
+
+
+---
+
+## 执行报告 · 第八批（2026-08-22 老顽童）
+
+**范围**：250 条（100 张卡：concept/master 锚点）
+
+| 项 | 值 |
+|:--|:--|
+| 基线 | 6012（第七批后） |
+| 上批 TODO | 无新增（第七批 PASS A 零扣分） |
+| 目标卡数 | 100（concept/master 锚点：系统课程/信息素养/认知偏差/决策卫生等） |
+| 新增链数 | 250 |
+| 验证 | parse_frontmatter 100/100 OK；行号污染 0；主题相关性抽查 5/5（含 KDO 基建域 2 条可接受）；git diff 只增 related |
+| 复扫输出 | 6012 → 5762（-250）✅ |
+| pre-submit | 抽查 master-decision-hygiene PASS（index --incremental ~100 刷新） |
+| commit | 5a2448299（100 files +256） |
+
+**累计进度**：8 批 2000 条 / 复扫 7472 → 5762（原口径 -1710）
