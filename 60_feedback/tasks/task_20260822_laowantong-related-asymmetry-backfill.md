@@ -201,7 +201,7 @@ batch_reviewed: first（2026-08-22 欧阳锋 PASS A-，批次验收非整单完�
 | 验证 | parse_frontmatter 116/116 OK；行号污染 0；主题相关性抽查 5/5；git diff 只增 related |
 | 复扫输出 | 7012 → 6762（-250）✅ |
 | pre-submit | 抽查 yt-five-step-method PASS（index --incremental ~118 刷新） |
-| commit | （116 files +256） |
+| commit | `92eb154bd`（116 files +256） |
 
 **累计进度**：4 批 1000 条 / 复扫 7472 → 6762（原口径 -710）
 **欧阳锋报告改进点落实**：本批报告含 commit 哈希 + 上批 TODO 闭环节 ✓
