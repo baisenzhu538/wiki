@@ -448,6 +448,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 425 | `task_20260822_huangyaoshi-health-metrics-set` | KDO 健康度指标集（P1，G4 第 2 步）：7 指标脚本化一条命令出健康报告 | queued | huangyaoshi | 健康报告 | 无 | `60_feedback/tasks/task_20260822_huangyaoshi-health-metrics-set.md` | #399 工具同仓演进；与 W3 基线对账；报告第一读者=风清扬（W8）；欧阳锋终审 |
 | 426 | `task_20260822_laowantong-tags-judgment-batch` | 739 张 tags 判断类分批治理（P2 长程，老朱 08-20 拍板+08-22 二拍维持）：词表设计先行+按域分批 | queued | laowantong | 词表+分批治理 | 无 | `60_feedback/tasks/task_20260822_laowantong-tags-judgment-batch.md` | 词表未出不动手；首批=试点批；归零声明附 #399 工具输出；欧阳锋批次验收（#411 模式）；风清扬审计待修③收口 |
 | 427 | `task_20260822_fengqingyang-l0-backup-path-proposal` | 记忆胶囊 L0 git 外备份位置与恢复路径方案（P2，B3-1 前置）：风清扬提方案→王语嫣裁定→老朱拍 | queued | fengqingyang | 建议书 | 无 | `60_feedback/tasks/task_20260822_fengqingyang-l0-backup-path-proposal.md` | 候选≥2 含体积估算+恢复清单；落 diagnosis/ 后 PROPOSAL-PENDING 自登（通道纪律补课）；停车场 #7 前置 |
+| 428 | `task_20260822_laowantong-fengqingyang-agent-spec` | 补建 agent-spec 卡：风清扬（观察者）（P2）：五要素+G1/G2 铁律，底本=风清扬五角色建议书 §角色 5 | queued | laowantong | 1 张 spec 卡 | 无 | `60_feedback/tasks/task_20260822_laowantong-fengqingyang-agent-spec.md` | 职责口径以 B2-2 拍板为准；pre-submit 0 ERROR+双向回链；欧阳锋终审 |
 
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
@@ -532,6 +533,6 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~70_product/tasks/proposal-batch-todo-closure-gate-2026-08-22.md｜分批任务批次 TODO 闭环机制（R1-R4）｜欧阳锋 08-22~~ → 已复核通过：R1 欧阳锋 #411 先行落地 / R2 加固豁免句式 / R3+R4 入队 #413（2026-08-22 王语嫣）
 - ~~60_feedback/diagnosis/diag_20260822_fengqingyang-orchestration-audit.md｜王语嫣会诊收口立项批 #414-#425 编排审计（A-，4 待修：W7 口径矛盾 / B3-4+W1 无单 / 739 tags 滞留 / B3-1~2 后置未登记）｜风清扬 08-22~~ → 已复核裁定（2026-08-22 王语嫣）：①采纳——decisions.md 勘误删「来源登记册」+W7 边界句落 #414/#416；②采纳——W7/W1/B3-4 三条并入 #416（#399 已 reviewed 冻结）；④采纳——停车场 #7 补登记忆胶囊四层（建设者=风清扬认领）；③上报老朱待拍（停车场 #6 已标注）
 - ~~60_feedback/diagnosis/diag_20260822_fengqingyang-orchestration-audit.md｜新增发现⑤：每轮次会话结束强制自我复盘未入会诊/任务单（仅欧阳锋 context 有硬话术，其余角色软建议；agent-os §10 有文本无立项）｜风清扬 08-22~~ → 已复核裁定（2026-08-22 王语嫣）：采纳挂 #419 追加（六角色 context 强制话术统一，欧阳锋句式为底本）；覆盖率通报不重复建设（已挂 #425 指标 6）
-- 60_feedback/diagnosis/diag_20260822_fengqingyang-5role-spec-workflow.md｜KDO 五角色特性·规范·工作流建议书（九层深挖×Anthropic orchestrator/evaluator 最佳实践，供 B2-3 角色专场过卡）｜风清扬 08-22
+- ~~60_feedback/diagnosis/diag_20260822_fengqingyang-5role-spec-workflow.md｜KDO 五角色特性·规范·工作流建议书（九层深挖×Anthropic orchestrator/evaluator 最佳实践，供 B2-3 角色专场过卡）｜风清扬 08-22~~ → 已复核裁定（2026-08-22 王语嫣）：采纳——①五要素模板+旧 spec 更新+G1/G2 写入=角色专场底本（停车场 F-028，待老朱点名，不提前拆单）②风清扬 spec 卡立项 #428 ③交接保真三指标入 #425 追加二 ④spec↔context 同口径校验入 #417 追加
 
 <!-- PROPOSAL-PENDING-END -->
