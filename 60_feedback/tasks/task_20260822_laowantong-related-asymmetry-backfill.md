@@ -7,8 +7,9 @@ priority: P2
 dependency: []
 updated_at: '2026-08-22T03:51:33.390845+00:00'
 batch_reviewed: first（2026-08-22 欧阳锋 PASS A-，批次验收非整单完成）
-<!-- 手动修正：2026-08-22 欧阳锋——第一批 PASS A- 为批次验收，整单长期分批，误标 reviewed 已恢复 queued；剩余存量以每批复扫为基线（第二批起点 7513） -->
 ---
+
+<!-- 手动修正：2026-08-22 欧阳锋——第一批 PASS A- 为批次验收，整单长期分批，误标 reviewed 已恢复 queued；剩余存量以每批复扫为基线（第二批起点 7513） -->
 
 # #411 related-asymmetry 存量分批回填
 
