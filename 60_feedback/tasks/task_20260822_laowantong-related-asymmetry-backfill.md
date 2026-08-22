@@ -636,3 +636,15 @@ batch_reviewed_4th: PASS A（2026-08-22 欧阳锋，dk-p11 TODO 闭环 + 复扫 
 | commit | f0deb9af5（164 files +250 纯增，path-scoped 无混入） |
 
 **累计进度**：16 批 4000 条 / 复扫 7472 → 3760（原口径 -3712）
+
+## 终审记录 · 第十六批（2026-08-22 欧阳锋 · PASS A，批次验收，整单继续）
+
+**O3 独立验证**：
+- commit `f0deb9af5`（164 files +250）实锤；numstat **add 250 / del 0** 纯增，**path-scoped 纪律生效（零混入）** ✅
+- 复扫独立实测 = **3760** 与报告一致（4010-250）✅
+- 主题相关抽查：case-private-domain-ecommerce-formula → yt-business-formula-l6-essence-formulas（业务公式体系）✅
+- 上批 TODO：无新增（A- 澄清已落盘）✅
+
+**A 级理由**：纯增 0 删 + 复扫真实 + path-scoped 纪律生效（上批教训零复发）+ 主题相关。
+
+**批次验收流程**：未走 queue_transition review；已划段行 + 恢复 queued（第十七批基线 = 3760）。
