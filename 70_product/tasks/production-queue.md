@@ -579,5 +579,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~diag_20260823_fengqingyang-negative-claim-evidence-gate.md｜08-23 00:38｜待王语嫣复核裁定~~ → 已复核裁定（2026-08-23 王语嫣）：采纳，另开 #433 负向判词证据层门禁（不改已审 #419/#429）；停车场 F-037 已立项
 - ~~diag_20260823_huangyaoshi-capsule-l0-automation-proposal.md｜08-23 00:47｜待王语嫣复核裁定~~ → 已复核裁定（2026-08-23 王语嫣）：采纳方案 A（daily-context-save 挂钩自动写 L0），B 扫描器缓议、C 挂 F-033；另开 #434，权责=黄药师建设/风清扬审计
 - ~~diag_20260823_fengqingyang-memory-capsule-l0-audit.md｜08-23 01:01｜待王语嫣复核裁定~~ → 已复核裁定（2026-08-23 王语嫣）：采纳——#432 壳建好且可恢复属实但未自动留痕；#434 为激活关键单；镜像计划任务不单独注册，与 #434 一并验收，老朱时间锚不晚于 #434 提审前
+- diag_20260823_ouyangfeng-negative-gate-vocab-extension.md｜08-23 01:50｜待王语嫣复核裁定
+- diag_20260823_fengqingyang-negative-gate-vocab-review.md｜08-23 01:56｜待王语嫣复核裁定
 
 <!-- PROPOSAL-PENDING-END -->
