@@ -36,6 +36,7 @@ import re
 import subprocess
 import sys
 import time
+from datetime import datetime
 from pathlib import Path
 
 VAULT_ROOT = Path(__file__).resolve().parent.parent.parent
@@ -431,6 +432,38 @@ def m_retro_coverage():
     return {"value": fresh, "total": total, "ratio": fresh / total if total else None, "detail": detail}
 
 
+def m_waiting_external():
+    """指标 12（#429 终审意见落实）：waiting-external 滞留——数量 + 最长滞留天数（防标 waiting 后被永久搁置）。"""
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    from queue_gate import parse_queue as _parse_queue
+    rows = _parse_queue(QUEUE_FILE)
+    waiting = [r for r in rows if r["status"] == "waiting-external"]
+    if not waiting:
+        return {"value": 0, "total": 0, "max_days": 0, "detail": []}
+    today = datetime.now().date()
+    max_days, detail = 0, []
+    for r in waiting:
+        days = 0
+        text = QUEUE_FILE.read_text(encoding="utf-8")
+        fp = None
+        # 从任务单读 waiting_since（frontmatter）
+        tfile = VAULT_ROOT / "60_feedback" / "tasks" / f"{r['task_id']}.md"
+        if tfile.exists():
+            fm_text = tfile.read_text(encoding="utf-8").split("---", 2)[1]
+            try:
+                fm = yaml.safe_load(fm_text)
+                ws = str(fm.get("waiting_since", "")).strip().strip("'\"")
+                if ws:
+                    days = (today - datetime.strptime(ws[:10], "%Y-%m-%d").date()).days
+            except Exception:
+                days = 0
+        if days < 0:
+            days = 0
+        max_days = max(max_days, days)
+        detail.append(f"{r['task_id']}（{days} 天）")
+    return {"value": len(waiting), "total": len(waiting), "max_days": max_days, "detail": detail}
+
+
 def m_queue_consistency():
     """指标 7：队列一致性 = audit_queue_integrity 漂移数（基线 0；该脚本 #425 修 int/str 匹配 bug 后恢复可跑）"""
     r = subprocess.run(
@@ -509,6 +542,7 @@ def render_health_report(cards, out_path: Path) -> str:
     queue = m_queue_consistency()
     props = m_unregistered_proposals()
     handoff = m_handoff_completeness()
+    waiting = m_waiting_external()
 
     q_consistency = (
         f"异常 {queue['anomalies']} 项（漂移 {queue['value']}）"
@@ -531,6 +565,7 @@ def render_health_report(cards, out_path: Path) -> str:
         f"| 7 | 队列一致性（漂移） | {queue['value'] if queue['value'] is not None else '取数失败'} | 0 | {_health_trend(queue['value'], 0) if queue['ok'] else '取数失败'} |",
         f"| 8 | 未登记建议书数 | {props['value']}（目标 0） | 0 | {_health_trend(props['value'], 0)} |",
         f"| 11 | 交接留痕完整度 | {handoff['value']}/{handoff['total']}（{pct(handoff['ratio'])}） | 待首扫 | — |",
+        f"| 12 | waiting-external 滞留 | {waiting['value']} 个（最长 {waiting['max_days']} 天） | 待首扫 | — |",
         "",
         "## 待定义（留接口，不硬造）",
         "",
@@ -541,6 +576,7 @@ def render_health_report(cards, out_path: Path) -> str:
         f"- 复盘明细：{'；'.join(retro['detail'])}",
         f"- 未登记建议书：{props['files'] if props['files'] else '无'}",
         f"- 队列一致性：{q_consistency}",
+        f"- waiting-external 滞留：{'、'.join(waiting['detail']) if waiting['detail'] else '无'}",
         "",
     ]
     out_path.parent.mkdir(parents=True, exist_ok=True)

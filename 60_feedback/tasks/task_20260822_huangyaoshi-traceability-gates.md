@@ -104,3 +104,14 @@ grade: A-
 **残余风险**：waiting-external 滞留巡检记 TODO；锚点表演进随报错提示迭代。
 
 *欧阳锋 · 2026-08-22 · A-*
+
+### 审查意见处理记录（2026-08-22 深夜 · 领取欧阳锋 A- 意见后）
+
+**🟠 waiting-external 滞留巡检缺位 —— 已落实（挂 #425 健康指标）**：
+- `full-library-rescan.py` 新增指标 12「waiting-external 滞留」（数量 + 最长滞留天数 + 明细），`--health` 报告第 12 行 + 明细区
+- 验证：test_health_metrics 5 passed；报告输出「waiting-external 滞留 0 个（最长 0 天）」——当前无 waiting 任务（#188 未标），指标就位即生效
+- 说明：改的是 #425 交付物（同仓演进设计，指标集本就是活的）；#429 完成后滞留任务会在健康日报中显形
+
+**🔵 --force 逃逸口无审计留痕 —— 接受不处理**（欧阳锋判定"可接受，F-033 边界内"；--force 语义=已声明例外）
+
+**commit**：`feat(health): #429 意见落实——waiting-external 滞留指标（指标 12）`
