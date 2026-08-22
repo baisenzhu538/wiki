@@ -198,7 +198,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 180 | `task_20260713_wangyuyan-five-step-coach-agent` | A域五步法教练agent-spec新建（orchestrator：五步段位诊断+假设轰炸+五步法盲区库回指域卡+Y模型母模型挂载+生死不管效率边界/四域转介） | reviewed | 老顽童 | 四域教练齐备+转介两两对齐 | #177 reviewed+#179后顺领（队列尾部） |
 | 181 | `task_20260713_wangyuyan-opc-sales-assistant-engine-adapt` | OPC销售对话助手引擎适配（参谋型裁剪版）：三件套注入=12阻力盲区过筛+硬约束显式宣告+深度分级；加挂D域卡；不搬M0-M8不改四段结构 | reviewed | 黄药师 | 适配spec+实测样例+预检PASS | #177+#169 reviewed后顺领；王语嫣裁定：参谋型不全搬教练型里程碑 |
 | 182 | `task_20260713_wangyuyan-opc-sales-d-domain-linking` | OPC销售域×D域回链（33卡补方法论底座引用：开场白→十指模型/异议→阻力方法论/销冠段位→三曲线分数线；映射表先行王语嫣过目后批量） | reviewed | 老顽童 | 33卡回链+lint无新增 | #169-171+#174 reviewed+#177（映射表可先动） |
-| 189 | `task_20260719_wangyuyan-profit-pricing-domain` | 利润为王域卡片化：利润优先经营框架与定价方法论 | claimed-hermes | laowantong | 8张wiki卡+可选agent-spec | 无；新域开荒，来源赫尔曼·西蒙《真正的利润》+水水拆书/经营课 | `60_feedback/tasks/task_20260719_wangyuyan-profit-pricing-domain.md` | 2026-08-22 补建最小任务单：原行缺任务单/assignee 致老顽童不可见；L7 查重先行，禁止重复造卡；欧阳锋终审 |
+| 189 | `task_20260719_wangyuyan-profit-pricing-domain` | 利润为王域卡片化：利润优先经营框架与定价方法论 | pending_review | laowantong | 8张wiki卡+可选agent-spec | 无；新域开荒，来源赫尔曼·西蒙《真正的利润》+水水拆书/经营课 | `60_feedback/tasks/task_20260719_wangyuyan-profit-pricing-domain.md` | 2026-08-22 补建最小任务单：原行缺任务单/assignee 致老顽童不可见；L7 查重先行，禁止重复造卡；欧阳锋终审 |
 | 190 | `task_20260719_laowantong-zhu-ai-capability-roadmap` | 老朱 AI 能力建设刻意练习路线图（tool + agent-spec） | reviewed | 老顽童(kimi) | 2 张卡 | 无 | `70_product/tasks/task_20260719_laowantong-zhu-ai-capability-roadmap.md` | 基于 personal-os 已确认的「鑫港湾打工+借假修真+学习AI」策略，输出可执行路线图与个人 AI 教练智能体规格 |
 | 192 | `task_20260719_laowantong-fix-touchpoint-case-library-191` | 触点篇案例库返工：跨案例规律溯源/补 related 回链/新增规律节 | reviewed | 老顽童 | 1 张 case 卡修复 | #191 欧阳锋终审 B+ 有条件通过 | `task_20260719_laowantong-fix-touchpoint-case-library-191.md` | 修复后直接 pass，不需再审 |
 | 193 | `task_20260719_wangyuyan-target-goal-zhouzijing` | 目标管理域补充——周子敬《目标管理的底层逻辑与实践》卡片化 | reviewed | - | 7张新卡+5项已有卡补充 | 无 | `60_feedback/tasks/task_20260719_wangyuyan-target-goal-zhouzijing.md` | 非一堂体系，独立方法论补管理域L4管业务；周子敬=以太资本CEO/字节美团天使投资人 |
@@ -451,6 +451,8 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 428 | `task_20260822_laowantong-fengqingyang-agent-spec` | 补建 agent-spec 卡：风清扬（观察者）（P2）：五要素+G1/G2 铁律，底本=风清扬五角色建议书 §角色 5 | reviewed | laowantong | 1 张 spec 卡 | 无 | `60_feedback/tasks/task_20260822_laowantong-fengqingyang-agent-spec.md` | 职责口径以 B2-2 拍板为准；pre-submit 0 ERROR+双向回链；欧阳锋终审 |
 | 429 | `task_20260822_huangyaoshi-traceability-gates` | 流转留痕三件套门禁（P1）：交付五字段硬格式 + 审查意见书强制落盘 + 等待外部输入态 | reviewed | huangyaoshi | 门禁+回归+狗粮 | 无 | `60_feedback/tasks/task_20260822_huangyaoshi-traceability-gates.md` | 停车场 F-029/F-034/F-035 收口；只拦机械项不碰判断；兼容 #389/#413/#421；欧阳锋终审 |
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
+| 431 | `task_20260823_laowantong-role-special-laowantong` | 角色专场第一场：老顽童岗位说明书定稿（P1，F-028 开场） | queued | laowantong | 五要素 spec 升级 | 无 | `60_feedback/tasks/task_20260823_laowantong-role-special-laowantong.md` | 底本=风清扬五角色建议书；必含 B2-3 两条血泪+老顽童两条补充+G1/G2；一角色一张过，老朱拍板后才开欧阳锋场；欧阳锋终审 |
+| 432 | `task_20260823_huangyaoshi-memory-capsule-l0-minimal` | 记忆胶囊 L0 最小实现（P1，F-027 第一阶段）：A 本机主库 + B 第二盘镜像 + verify 恢复演练 | queued | huangyaoshi | L0 库+镜像+verify | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-memory-capsule-l0-minimal.md` | #427 拍板 A+B/C 缓议；只做 L0，不做 L1-L3；不注册常驻计划任务（需老朱确认命令）；狗粮=写入→镜像→恢复→verify；欧阳锋终审 |
 
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
@@ -527,6 +529,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#429 task_20260822_huangyaoshi-traceability-gates｜huangyaoshi｜提审 08-22 23:52｜60_feedback/tasks/task_20260822_huangyaoshi-traceability-gates.md~~ → 已终审 PASS A-（2026-08-22 欧阳锋）
 - ~~#423 task_20260822_fengqingyang-observer-five-piece-set｜fengqingyang｜提审 08-22 23:55｜60_feedback/tasks/task_20260822_fengqingyang-observer-five-piece-set.md~~ → 已终审 PASS A-（2026-08-22 欧阳锋）
 - ~~#430 task_20260823_huangyaoshi-agent-review-gitify｜huangyaoshi｜提审 08-23 00:17｜60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md~~ → 已终审 PASS A-（2026-08-22 欧阳锋）
+- #189 task_20260719_wangyuyan-profit-pricing-domain｜hermes｜提审 08-23 00:30｜60_feedback/tasks/task_20260719_wangyuyan-profit-pricing-domain.md
 
 <!-- REVIEW-PENDING-END -->
 
