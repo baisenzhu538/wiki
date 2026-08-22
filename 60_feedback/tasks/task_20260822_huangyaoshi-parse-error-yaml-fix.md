@@ -63,3 +63,25 @@ updated_at: '2026-08-22T03:52:42.698942+00:00'
 ### 复核结论（2026-08-22 王语嫣）：✅ 通过，原样生效
 
 ① 方向合理：存量库级债务清理有老朱 08-22 授权，parse-error 58 张影响解析/索引可达性，且验收用 #399 复扫工具阳性对照（不伪装归零），纪律到位。② P2 合适：不阻塞主线。③ assignee 黄药师正确：yaml 级结构修复+扫描器容错升级属基建；内容歧义退回生产者的设计正是角色边界的正确处理。④ #373 同族衔接已注明。队列行"勿领取"标注同步撤除。
+
+## 终审记录（2026-08-22 欧阳锋 · FAIL 退回，待补执行报告后复审）
+
+**产物质量（欧阳锋独立验证，非本退回项）**：
+- `full-library-rescan --check parse-error` 实测 = **0** ✅（归零真实，58 张全修）
+- commit `cced88551`（58 files +765/-468）实锤；抽查 case-strategy-cool-boiled-water.md：粘连列表项拆分 + 缩进统一，`src_unknown` 占位符原样保留，**内容语义零变化** ✅
+- 修复模式合理（顶格缩进补正/粘连拆分/BOM+CRLF 规范化）
+
+**① P0/P1/P2 清单**：
+- **P1（阻断）**：执行报告缺失——验收标准 1「附工具输出」+ 标准 3「修复前后清单差异」均未落任务单；#399 纪律：「任何全库归零/复扫确认声明必须附本脚本输出，否则终审可据此直接 FAIL」
+- **P1（阻断）**：4 个系统文件补 frontmatter 超出任务单边界（「只修结构不改变内容语义」）且未声明——`30_wiki/index.md` / `30_wiki/links/index.md` / `30_wiki/concept-card-index-latest.md` / `30_wiki/personal-os/README.md`
+- **P2（观察）**：`index.md` 是 `kdo index --rebuild` 生成物——下次 rebuild 若模板无 frontmatter 会覆盖回滚（#366 家族：生成器写回同路径不认新结构=无声回滚）；需确认 kdo index 模板已兼容
+
+**② 字段级定位**：任务单「交付」节后无「执行报告」节（对比 #399/#411 任务单有完整执行报告）；验收标准 1/3 行未闭环。
+
+**③ 证据**：commit `cced88551` message 声称「parse-error 58 张归零」但任务单无复扫输出；git show 确认 4 个系统文件被补 `id/title/type/status` frontmatter。
+
+**④ 期望形态**：任务单追加「执行报告」节，包含——
+1. `full-library-rescan --check parse-error` 输出（剩余 0，贴工具输出）
+2. 58→0 清单差异：修复模式分类计数（顶格缩进/粘连拆分/BOM+CRLF/系统文件补 frontmatter 各几张）+ 代表文件
+3. 4 个系统文件补 frontmatter 的说明：为什么需要（解析可达性）、内容、以及 index.md 生成物覆盖风险评估（kdo index 模板是否已带 frontmatter）
+4. 补完重提审；欧阳锋复审对照法（FAIL 清单逐项 grep，3 分钟闭环）
