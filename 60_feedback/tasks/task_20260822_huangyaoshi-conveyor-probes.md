@@ -106,4 +106,5 @@ updated_at: '2026-08-22T14:11:21.574783+00:00'
   3. 王语嫣「📬 KDO 新建议书 1 份待裁定：diag_20260822_probe-test-3-notify.md」✅（登记与通知同次扫描产物，同源验证）
 - **测试建议书③**：`diag_20260822_probe-test-3-notify.md`（第 3 份，同前两份由王语嫣裁定处置）
 - 新增 `--force-notify`（仅测试/验收用，跳过夜间静默；生产红线不变）；5 测试回归通过
-- **待用户拍板（唯一剩余项）**：`kdo-conveyor-probe` 计划任务注册（每 10 分钟，schtasks 常驻机制需用户确认）——注册后通知即全自动
+- **✅ 计划任务已注册**（2026-08-22 用户明确授权）：`kdo-conveyor-probe` 每 10 分钟（PowerShell Register-ScheduledTask，Execute python.exe + WorkingDirectory wiki 根），`schtasks /run` 实测 LastTaskResult=0——通知全自动；夜间静默在任务运行时自动生效（登记照常、通知不发）
+- **待办清零**：本单全部验收项完成

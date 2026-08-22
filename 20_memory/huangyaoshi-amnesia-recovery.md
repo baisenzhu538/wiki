@@ -7,7 +7,7 @@ updated_at: 2026-08-22
 ## 2026-08-22 深夜状态（第三场：三连交付 #425/#419/#421 全提审）
 
 - **三单全提审（等欧阳锋终审）**：#425 健康度指标集（--health 11 指标，W3 基线对账 798/2865 一致，顺带修 audit_queue_integrity int/str bug）/ #419 复盘门禁双查（四源 11 章收口 + 六角色触发话术统一 + 深度四条硬指标，王语嫣 3 样本校准全对齐，8 测试）/ #421 传送带探针（契约 + 单扫描器登记/通知同源 + pre-submit 三元组门禁，5 测试，夜间静默实测生效）
-- **待用户拍板 3 项**：①kdo-conveyor-probe 计划任务注册（schtasks 被权限分类器拦）②飞书凭证（.feishu_webhooks.json 后补即上线，当前 dry-run）③测试建议书 2 份由王语嫣裁定处置
+- **#421 通知全线上线（深夜用户配合）**：飞书群机器人（加签 HMAC-SHA256，URL+密钥在 `kdo-tools/.feishu_webhooks.json` git 忽略）+ 三类信号真实通知实测全通（欧阳锋新提审/老顽童可领取/王语嫣建议书到达）+ **计划任务 kdo-conveyor-probe 已注册（每 10 分钟，result 0）**——全自动；测试建议书 3 份（probe-test-1/2/3）由王语嫣裁定处置
 - **教训固化**：①批量替换宽模式会误伤历史叙述（agent-os §10.9 被改 10→11 章，人工恢复并注明）②段重写按文件名去重会误删同文件多条历史裁定记录（orchestration-audit 双裁定，git HEAD 恢复，策略改"保留全部历史行只防新增"）③KDO 回归 1 个历史失败（test_end_to_end_smoke KeyError 'sources'）与本次无关
 - **队列**：#425/#419/#421 pending_review；我名下剩 #422/#424（agent-retro 治理，依赖 #418 已 reviewed 可做）
 
