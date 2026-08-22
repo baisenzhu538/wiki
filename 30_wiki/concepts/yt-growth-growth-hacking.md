@@ -30,6 +30,11 @@ related:
 - '[[yt-growth-market-led-growth]]'
 - '[[yt-growth-monetization-optimization]]'
 - '[[yt-growth-viral-mechanism]]'
+- '[[yt-growth-data-driven-decision]]'
+- '[[yt-growth-engagement-loop]]'
+- '[[yt-growth-funnel-optimization]]'
+- '[[yt-growth-retention-metrics]]'
+- '[[yt-growth-strategy-overview]]'
 diagnostic_signals:
 - framework_lens: 增长黑客——低成本快速实验，不需要大预算
   follow_up_question: 你能用A/B测试验证假设吗？最小化实验成本，快速迭代。

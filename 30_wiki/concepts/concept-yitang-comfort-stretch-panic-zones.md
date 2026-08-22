@@ -44,6 +44,7 @@ related:
 - '[[modeling-personal-practice-loop]]'
 - '[[case-yitang-ai-painting-commercialization]]'
 - '[[case-yitang-sales-routine-deconstruction]]'
+- '[[dk-yitang-deliberate-practice-common-traps]]'
 tags:
 - audience:general
 - scene:reference

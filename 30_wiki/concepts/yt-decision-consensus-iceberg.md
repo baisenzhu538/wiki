@@ -83,6 +83,9 @@ related:
 - '[[dk-meeting-rederive]]'
 - '[[yt-management-scientific-meetings]]'
 - '[[yt-decision-full-process]]'
+- '[[framework-meeting-iceberg-canvas]]'
+- '[[yt-decision-abcd-model]]'
+- '[[yt-decision-y-model-philosophical-roots]]'
 author: 老顽童
 tags:
 - audience:executor

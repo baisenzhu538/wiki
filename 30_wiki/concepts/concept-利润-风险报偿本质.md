@@ -39,6 +39,7 @@ related:
 - dk-利润-创始人利润耻感
 - dk-利润-资本游戏与真实商业分界线
 - '[[dk-利润-定价恐惧三段式反问]]'
+- '[[bridge-利润-需求冰山-价值定价]]'
 tags:
 - audience:general
 - scene:reference

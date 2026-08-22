@@ -66,6 +66,7 @@ related:
 - '[[yt-business-model-pricing-psychology]]'
 - '[[yt-business-model-revenue-types]]'
 - '[[yt-five-step-level-blindspots]]'
+- '[[yt-business-model-platform-strategy]]'
 tags:
 - audience:executor
 - scene:reference

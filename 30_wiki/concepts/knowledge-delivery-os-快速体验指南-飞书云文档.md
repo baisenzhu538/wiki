@@ -39,6 +39,11 @@ related:
 - '[[ec工业化规范手册-v2.8.0]]'
 - '[[kdo-flywheel]]'
 - '[[dk-kdo-leaky-pipe-pressure]]'
+- '[[kdo-input-channel-strategy-2026-06-16]]'
+- '[[ouyangfeng-data-alignment-response]]'
+- '[[plan_20260531_data-curator-v1.3]]'
+- '[[proposal-kdo-flywheel-infrastructure]]'
+- '[[sprint-6-cli-gap-proposal]]'
 tags:
 - audience:general
 - scene:reference

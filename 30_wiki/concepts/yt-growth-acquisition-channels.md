@@ -36,6 +36,11 @@ related:
 - '[[yt-growth-growth-hacking]]'
 - '[[yt-growth-monetization-optimization]]'
 - '[[yt-growth-viral-mechanism]]'
+- '[[yt-growth-data-driven-decision]]'
+- '[[yt-growth-engagement-loop]]'
+- '[[yt-growth-funnel-optimization]]'
+- '[[yt-growth-retention-metrics]]'
+- '[[yt-growth-strategy-overview]]'
 diagnostic_signals:
 - framework_lens: 获客渠道——流量不够需要分析渠道结构
   follow_up_question: 你的流量来自哪些渠道？每个渠道的CAC和ROI是多少？

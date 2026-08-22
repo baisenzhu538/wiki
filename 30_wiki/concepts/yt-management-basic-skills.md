@@ -50,6 +50,8 @@ related:
 - '[[yt-management-scientific-meetings]]'
 - '[[yt-management-strategy-meeting]]'
 - '[[dk-yitang-project-overmanagement-vs-bare-run]]'
+- '[[framework-yitang-project-execution]]'
+- '[[framework-yitang-project-retrospective]]'
 tags:
 - audience:general
 - scene:reference

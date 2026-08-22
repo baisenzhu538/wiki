@@ -47,6 +47,8 @@ related:
 - '[[yt-three-dimension-opportunity-matrix]]'
 - '[[yt-unit-model-construction]]'
 - '[[yt-unit-model-selection]]'
+- '[[concept-maister-trusted-advisor]]'
+- '[[concept-mckinsey-hypothesis-driven]]'
 reviewed_by: 王语嫣
 aliases:
   - 一堂五步法

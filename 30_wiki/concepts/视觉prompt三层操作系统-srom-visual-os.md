@@ -41,6 +41,7 @@ related:
 - yt-system-course-map-lecture
 - '[[yt-skill-checklist-as-ai-protocol]]'
 - '[[yt-tool-peas-agent-analysis]]'
+- '[[design-moc]]'
 tags:
 - audience:executor
 - scene:reference

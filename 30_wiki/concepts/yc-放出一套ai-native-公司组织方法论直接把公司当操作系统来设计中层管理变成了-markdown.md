@@ -51,6 +51,8 @@ related:
 - '[[dk-f7-surface-translation]]'
 - '[[dk-f8-phony-wikilink]]'
 - '[[dk-f9-generic-critique]]'
+- '[[lean-startup-domain-digest]]'
+- '[[YC-Y-Combinator]]'
 tags:
 - audience:executor
 - scene:reference

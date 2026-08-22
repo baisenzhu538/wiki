@@ -26,6 +26,8 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[yt-note-l6-extraction]]'
+- '[[yt-note-ai-p-role-not-c-role]]'
+- '[[yt-note-three-level-evolution]]'
 query_triggers:
 - src_unknown
 - src_unknown

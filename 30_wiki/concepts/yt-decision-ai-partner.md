@@ -37,6 +37,8 @@ related:
 - '[[yt-unit-model-ai-assisted]]'
 - '[[人机协作决策-双三角模型]]'
 - '[[dk-customers-hate-ai]]'
+- '[[framework-ai-sales-collaboration]]'
+- '[[yt-decision-y-model-philosophical-roots]]'
 reviewed_by: 周伯通
 aliases:
   - AI决策Partner对话法

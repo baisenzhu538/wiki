@@ -43,6 +43,7 @@ related:
   - '[[dk-p20-bigram-fail]]'
   - '[[dk-sales-big-deal-vs-small-deal]]'
   - '[[dk-sales-demand-mining-is-company-task]]'
+  - '[[framework-ai-sales-collaboration]]'
 ---
 # SPIN销售法：顾问式销售的奠基之作
 

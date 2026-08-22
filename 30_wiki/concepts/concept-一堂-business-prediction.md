@@ -51,6 +51,7 @@ related:
 - 机会预判
 - 15字诀
 - 商业预判课
+- '[[product-moc]]'
 tags:
 - audience:general
 - scene:reference

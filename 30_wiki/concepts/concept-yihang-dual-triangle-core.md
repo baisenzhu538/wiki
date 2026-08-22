@@ -99,6 +99,7 @@ related:
 - '[[dk-yihang-non-expert-judgment]]'
 - '[[dk-yihang-report-book-learner]]'
 - '[[dk-yihang-scientific-community-moat]]'
+- '[[framework-agent-card-execution-pattern]]'
 tags:
 - audience:general
 - scene:reference

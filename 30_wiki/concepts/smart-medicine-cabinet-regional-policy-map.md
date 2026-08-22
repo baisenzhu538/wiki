@@ -42,6 +42,7 @@ related:
 - - - smart-medicine-cabinet-national-policy-redlines
 - smart-medicine-cabinet-clinic-risk-observation
 - '[[smart-medicine-cabinet-distribution]]'
+- '[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]'
 query_triggers:
 - src_unknown
 - src_unknown

@@ -29,6 +29,8 @@ related:
 - '[[framework-wanghuan-gan-three-roles]]'
 - '[[concept-ai-chair-determines-view]]'
 - '[[concept-ai-amara-law-business-judgment]]'
+- '[[dk-ai-scarcest-resource-is-self]]'
+- '[[dk-ai-social-progress-not-automatic]]'
 quality_labels:
 - cited
 - principle

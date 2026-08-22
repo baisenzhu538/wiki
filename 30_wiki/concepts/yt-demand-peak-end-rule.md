@@ -32,6 +32,7 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[case-demand-b2c-consumer-insight]]'
+- '[[yt-demand-scenario-reconstruction]]'
 diagnostic_signals:
 - framework_lens: 峰终定律——用户记住的是峰值和终点，不是平均
   follow_up_question: 用户使用过程中，哪个时刻最惊喜？哪个时刻最失望？结束时感觉如何？

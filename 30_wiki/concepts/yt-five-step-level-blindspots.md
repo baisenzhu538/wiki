@@ -64,6 +64,7 @@ related:
 - '[[yt-barrier-analysis-cheat-sheet]]'
 - '[[yt-demand-analysis-hiking-map]]'
 - '[[case-半肥猫-course-to-skill]]'
+- '[[yt-five-step-cross-step-2]]'
 tags:
 - audience:executor
 - scene:reference

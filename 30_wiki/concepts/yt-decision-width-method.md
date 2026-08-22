@@ -41,6 +41,8 @@ related:
 - '[[yt-decision-consensus-iceberg]]'
 - '[[yt-decision-full-process]]'
 - '[[yt-decision-height-toolkit]]'
+- '[[framework-科学决策三角形]]'
+- '[[yt-decision-abcd-model]]'
 aliases:
   - 三层盲区清单
   - 分析工具

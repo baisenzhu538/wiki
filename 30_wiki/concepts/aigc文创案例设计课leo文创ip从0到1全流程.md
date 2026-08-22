@@ -31,6 +31,8 @@ related:
 - '[[tool-月白-设计文件八要素命名法]]'
 - '[[tool-月白-跨境电商产品图替换法]]'
 - '[[tool-月白-设计项目MVP拆解法]]'
+- '[[design-moc]]'
+- '[[modeling-scientific-milestones]]'
 tags:
 - audience:general
 - scene:reference

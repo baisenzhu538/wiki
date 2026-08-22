@@ -37,6 +37,7 @@ related:
 - '[[yt-decision-habit-shift]]'
 - '[[yt-management-project-management]]'
 - '[[yt-tool-knowledge-extraction]]'
+- '[[yt-note-three-level-evolution]]'
 tags:
 - audience:general
 - scene:reference

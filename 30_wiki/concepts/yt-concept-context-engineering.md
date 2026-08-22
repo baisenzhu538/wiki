@@ -57,6 +57,7 @@ related:
 - '[[deepseek-v4-在知识管理系统中的应用]]'
 - '[[yt-note-ai-human-division]]'
 - '[[yt-tool-product-core-canvas]]'
+- '[[ai-collaboration-domain-digest]]'
 tags:
 - audience:general
 - scene:reference

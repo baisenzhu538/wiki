@@ -29,6 +29,7 @@ related:
 - '[[yt-note-ai-human-division]]'
 - '[[yt-note-checklist-concept]]'
 - '[[yt-note-expert-interview-modeling]]'
+- '[[dk-yitang-deliberate-practice-common-traps]]'
 tags:
 - audience:executor
 - scene:reference

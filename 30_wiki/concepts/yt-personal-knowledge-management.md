@@ -38,6 +38,8 @@ related:
 - '[[yt-personal-ipo-learning]]'
 - '[[yt-personal-time-management]]'
 - '[[yt-tool-knowledge-extraction]]'
+- '[[framework-dual-center-feishu-obsidian]]'
+- '[[framework-knowledge-five-leaps]]'
 status: reviewed
 updated_at: '2026-08-16'
 author: 黄药师

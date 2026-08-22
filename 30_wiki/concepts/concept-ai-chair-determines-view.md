@@ -31,6 +31,9 @@ related:
 - '[[concept-ai-information-quality-ladder]]'
 - '[[concept-ai-native-organization-five-steps]]'
 - '[[concept-ai-neutrality-bias]]'
+- '[[dk-ai-prediction-expiry-date]]'
+- '[[dk-ai-scarcest-resource-is-self]]'
+- '[[dk-ai-social-progress-not-automatic]]'
 quality_labels:
 - cited
 - principle

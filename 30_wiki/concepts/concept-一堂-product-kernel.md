@@ -54,6 +54,10 @@ related:
 - '[[concept-一堂-key-assumptions]]'
 - '[[yitang-strategy-canvas]]'
 - '[[dk-ai-as-last-step-not-first]]'
+- '[[yt-product-kernel-cost-sensitive-default-no]]'
+- '[[yt-product-kernel-overpromise-trap]]'
+- '[[product-moc]]'
+- '[[yt-product-kernel-iteration]]'
 ---
 
 # 产品内核 — 用户愿意选择你的最小解决方案

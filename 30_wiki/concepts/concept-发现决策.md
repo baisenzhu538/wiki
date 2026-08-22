@@ -59,6 +59,10 @@ related:
 - '[[case-科学决策-深度案例06]]'
 - '[[concept-最简单元模型]]'
 - '[[dk-sales-demand-mining-is-company-task]]'
+- '[[framework-TCPR底层网络协议]]'
+- '[[framework-TCPR皇冠模型]]'
+- '[[framework-问题边界与Problem澄清五层结构]]'
+- '[[framework-高水平共识曲线]]'
 review_date: '2026-06-29'
 updated_at: '2026-07-03'
 tags:

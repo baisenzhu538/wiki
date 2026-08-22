@@ -30,6 +30,7 @@ related:
 - '[[concept-最简单元模型]]'
 - '[[tool-模型组合调用]]'
 - '[[tool-demand-agent-signal-substitute]]'
+- '[[framework-yitang-research-weapon-supplement-2026]]'
 review_date: 2026-05-15
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。

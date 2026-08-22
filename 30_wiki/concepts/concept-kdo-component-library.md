@@ -35,6 +35,9 @@ related:
 - '[[concept-kdo-feature-registry]]'
 - '[[dk-bfm-compression-path]]'
 - '[[dk-E010-duplicate-key-detection]]'
+- '[[ai-basic-domain-digest]]'
+- '[[kdo-moc]]'
+- '[[master-moc]]'
 created_at: 2026-07-19
 updated_at: 2026-07-19
 tags:

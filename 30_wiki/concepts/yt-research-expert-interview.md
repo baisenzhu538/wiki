@@ -33,6 +33,7 @@ related:
 - '[[yt-research-mindset]]'
 - '[[business-research-skill-oscar-13-weapon-system]]'
 - '[[yt-research-weaponry-course]]'
+- '[[concept-maister-trusted-advisor]]'
 tags:
 - audience:executor
 - scene:execution

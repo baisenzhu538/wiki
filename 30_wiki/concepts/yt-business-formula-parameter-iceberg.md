@@ -117,6 +117,8 @@ related:
 - '[[yt-business-model-margin-structure]]'
 - '[[yt-business-model-pricing-psychology]]'
 - '[[yt-business-model-revenue-types]]'
+- '[[dk-strategy-correlation-vs-causation-leverage]]'
+- '[[yt-business-model-platform-strategy]]'
 tags:
 - audience:general
 - scene:reference

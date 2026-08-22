@@ -33,6 +33,7 @@ related:
 - '[[concept-ai-native-organization-five-steps]]'
 - business-research-skill-oscar-13-weapon-system
 - tool-yitang-amazon-bestseller
+- '[[plan_20260621_kdo-quality-harness-upgrade]]'
 updated_at: '2026-06-29'
 tags:
 - audience:general

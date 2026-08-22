@@ -32,6 +32,7 @@ related:
 - '[[yt-concept-context-engineering]]'
 - '[[yt-prompt-engineering-andrew-ng]]'
 - '[[yt-skill-checklist-as-ai-protocol]]'
+- '[[ai-collaboration-domain-digest]]'
 query_triggers:
 - src_unknown
 - src_unknown

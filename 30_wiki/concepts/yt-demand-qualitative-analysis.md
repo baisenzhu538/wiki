@@ -31,6 +31,12 @@ related:
 - '[[yt-demand-b2b-vs-b2c]]'
 - '[[yt-demand-hierarchy-model]]'
 - '[[yt-demand-user-segmentation]]'
+- '[[yt-demand-fake-demand-detection]]'
+- '[[yt-demand-market-size-pitfalls]]'
+- '[[domain-demand-analysis-index]]'
+- '[[yt-demand-decision-chain]]'
+- '[[yt-demand-early-validation]]'
+- '[[yt-demand-scenario-reconstruction]]'
 diagnostic_signals:
 - framework_lens: 定性分析缺失——跳过拆推评，直接算
   follow_up_question: 你的市场规模数字背后，具体是哪些用户在什么场景下付费？先定性，再定量。

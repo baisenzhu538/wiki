@@ -42,6 +42,10 @@ related:
 - '[[yt-model-five-step-canvas]]'
 - '[[yt-tool-product-core-canvas]]'
 - '[[dk-p3-auth-cache]]'
+- '[[yt-demand-scope-creep]]'
+- '[[yt-product-kernel-premature-optimization]]'
+- '[[concept-maister-trusted-advisor]]'
+- '[[concept-mckinsey-hypothesis-driven]]'
 review_date: 2026-06-06
 aliases:
   - 关键假设259工具与假设验证三板斧

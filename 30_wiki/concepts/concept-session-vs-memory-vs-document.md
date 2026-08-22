@@ -51,6 +51,9 @@ related:
 - '[[dk-model-demystification]]'
 - '[[dk-three-context-formula]]'
 - '[[dk-tool-adoption-by-force]]'
+- '[[framework-patrolkit-radar]]'
+- '[[framework-serendipity-five-channels]]'
+- '[[framework-truman-agent-team-architecture]]'
 review_date: 2026-08-16
 ---
 

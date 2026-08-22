@@ -48,6 +48,8 @@ related:
 - - - yt-unit-model-three-tools
 - smart-medicine-cabinet-clinic-risk-observation
 - 诊所O2O项目
+- '[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]'
+- '[[xingangwan-pharma-business-model-formulas]]'
 query_triggers:
 - src_unknown
 - src_unknown

@@ -34,6 +34,7 @@ related:
 - '[[yt-business-formula-parameter-iceberg]]'
 - '[[case-strategy-model-selection-quiz]]'
 - '[[concept-定价-价格杠杆]]'
+- '[[bridge-利润-单元模型-定价闭环]]'
 review_date: 2026-06-16
 reviewed_by: 王语嫣
 aliases:

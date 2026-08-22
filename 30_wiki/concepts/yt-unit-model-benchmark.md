@@ -26,6 +26,7 @@ related:
 - '[[yt-unit-model-dynamic]]'
 - '[[yt-decision-y-model]]'
 - '[[yt-unit-model-concept]]'
+- '[[bridge-利润-单元模型-定价闭环]]'
 aliases:
   - 三点预测与基准值共建
   - 单元模型基准值

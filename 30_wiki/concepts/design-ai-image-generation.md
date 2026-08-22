@@ -35,6 +35,7 @@ related:
 - yt-system-course-map-lecture
 - '[[meta-prompt-eng]]'
 - '[[product-ux]]'
+- '[[proposal-prompt-injection-infrastructure]]'
 tags:
 - audience:general
 - scene:reference

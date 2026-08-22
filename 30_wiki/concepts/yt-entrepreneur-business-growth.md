@@ -34,6 +34,8 @@ tags:
 - skill-level:intermediate
 type: concept
 status: draft
+related:
+  - '[[yt-business-model-pivot-signals]]'
 ---
 # 业务增长
 

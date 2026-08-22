@@ -38,6 +38,10 @@ related:
   - '[[case-qinpeng-iot-module-tiering]]'
   - '[[case-shampoo-product-kernel]]'
   - '[[concept-一堂-business-prediction]]'
+  - '[[yt-product-kernel-cost-sensitive-default-no]]'
+  - '[[yt-product-kernel-overpromise-trap]]'
+  - '[[product-moc]]'
+  - '[[yt-product-kernel-iteration]]'
 wiki_refs:
 - src_unknown
 - src_unknown

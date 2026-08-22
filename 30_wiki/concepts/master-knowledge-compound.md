@@ -40,6 +40,7 @@ related:
 - '[[yt-tool-knowledge-extraction]]'
 - '[[dk-p8-toolkit-forget]]'
 - '[[dk-yb2-llm-muddy-clear-muddy]]'
+- '[[framework-knowledge-compound-rocket-six]]'
 tags:
 - audience:general
 - scene:reference

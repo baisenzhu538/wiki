@@ -43,6 +43,7 @@ related:
 - '[[yt-barrier-analysis-cheat-sheet]]'
 - '[[yt-business-analysis-cognitive-biases]]'
 - '[[yt-five-step-level-blindspots]]'
+- '[[yt-five-step-cross-step-2]]'
 title: 暗知识：五步法常见误区与认知陷阱
 trust_level: medium
 type: dk

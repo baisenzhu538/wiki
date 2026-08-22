@@ -55,6 +55,8 @@ related:
 - '[[yt-decision-full-process]]'
 - '[[yt-decision-habit-shift]]'
 - '[[yt-decision-height-toolkit]]'
+- '[[framework-科学决策三角形]]'
+- '[[yt-decision-abcd-model]]'
 query_triggers:
 - src_unknown
 - src_unknown

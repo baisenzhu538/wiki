@@ -42,6 +42,7 @@ related:
 - '[[yt-panproduct-demand-user-segmentation]]'
 - '[[yt-personal-pan-product-concepts]]'
 - '[[yt-personal-pan-product-practice]]'
+- '[[yt-model-pan-product-three-virtues]]'
 tags:
 - audience:manager
 - scene:planning

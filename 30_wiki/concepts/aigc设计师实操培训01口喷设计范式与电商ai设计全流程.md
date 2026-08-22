@@ -36,6 +36,8 @@ related:
 - '[[tool-月白-电商详情页起承转合架构法]]'
 - '[[case-strategy-xiaobear]]'
 - '[[concept-wanghuan-tacit-knowledge-examples]]'
+- '[[design-moc]]'
+- '[[modeling-scientific-milestones]]'
 tags:
 - audience:executor
 - scene:reference

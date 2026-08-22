@@ -22,6 +22,7 @@ related:
 - '[[yt-personal-ai-capability]]'
 - '[[ai-short-drama-ice-fire-scripting-compass]]'
 - '[[yt-note-deliberate-practice-four-elements]]'
+- '[[truman-ai-partner-design-analysis]]'
 prerequisites:
 - src_unknown
 aliases:

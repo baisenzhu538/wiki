@@ -37,6 +37,7 @@ related:
 - - - master-ai-info-literacy
 - yt-system-course-map-lecture
 - '[[ai-俱乐部人和-ai-协作-参考案例对比一堂-vs-sql-helper]]'
+- '[[ai-methodology-tools]]'
 tags:
 - audience:general
 - scene:reference

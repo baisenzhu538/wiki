@@ -38,6 +38,8 @@ related:
 - '[[yitang-strategy-canvas]]'
 - '[[yt-decision-consensus-iceberg]]'
 - '[[yt-decision-full-process]]'
+- '[[framework-科学决策三角形]]'
+- '[[yt-decision-abcd-model]]'
 aliases:
   - 上帝视角四维提升法
   - 平共识曲线

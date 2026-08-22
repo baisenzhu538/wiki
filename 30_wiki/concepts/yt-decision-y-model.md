@@ -112,6 +112,13 @@ related:
 - '[[dk-decision-value-overrides-roi]]'
 - '[[dk-lu-gui-lv-bu-bei-yu-wang]]'
 - '[[dk-利润-创始人利润耻感]]'
+- '[[bridge-利润-单元模型-定价闭环]]'
+- '[[bridge-利润-需求冰山-价值定价]]'
+- '[[framework-TCPR底层网络协议]]'
+- '[[framework-truman-feature-thinking-core]]'
+- '[[framework-yitang-project-plan-design]]'
+- '[[framework-yitang-thought-liberation-lightning]]'
+- '[[yt-decision-abcd-model]]'
 created_at: 2026-07-03
 updated_at: '2026-07-08'
 tags:

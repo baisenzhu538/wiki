@@ -43,6 +43,7 @@ related:
 - '[[framework-kdo-self-attack]]'
 - '[[dk-tool-chain-naming-is-infrastructure]]'
 - '[[bridge-dual-track-feature-system]]'
+- '[[ai-basic-domain-digest]]'
 ---
 
 # KDO Feature 注册表

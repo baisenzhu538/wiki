@@ -33,6 +33,7 @@ related:
 - '[[yt-five-step-common-pitfalls]]'
 - '[[yt-business-analysis-cognitive-biases]]'
 - '[[yt-five-step-level-blindspots]]'
+- '[[yt-five-step-cross-step-2]]'
 review_date: 2026-06-11
 reviewed_by: 老顷童
 aliases:

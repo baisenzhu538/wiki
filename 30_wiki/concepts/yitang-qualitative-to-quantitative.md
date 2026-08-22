@@ -45,6 +45,7 @@ related:
 - - - case-ban-fei-mao-from-assignment-to-tool
 - - - pending_unknown
 - - - pending_unknown
+- '[[yt-lean-qualitative-quantitative-research]]'
 diagnostic_signals:
 - framework_lens: 产品形态决定验证手段、样本量和核心指标；形态未定时讨论样本量是伪问题
   follow_up_question: 你的产品是一本书、一个 APP、一门课，还是一个线下训练营？不同形态下，核心转化率与最小样本量分别是什么？

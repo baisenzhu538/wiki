@@ -30,6 +30,7 @@ related:
 - '[[tool-李诞-个人IP的重新定义与输出策略]]'
 - '[[tool-Truman-问题定义澄清法]]'
 - '[[pending_unknown]]'
+- '[[yt-business-model-pivot-signals]]'
 diagnostic_signals:
 - framework_lens: 商业模式定义——内核是价值，商业模式是变现路径
   follow_up_question: 用户愿意为内核价值付多少钱？付费方式是什么？

@@ -37,6 +37,7 @@ related:
 - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
 - '[[dk-wanghuan-creativity-in-description-and-taste]]'
 - '[[dk-wanghuan-standard-by-iteration]]'
+- '[[truman-ai-partner-design-analysis]]'
 tags:
 - audience:ceo
 - scene:diagnosis

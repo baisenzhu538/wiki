@@ -27,6 +27,7 @@ related:
 - '[[yt-business-analysis-cognitive-biases]]'
 - '[[yt-business-formula-l6-essence-formulas]]'
 - '[[yt-business-formula-parameter-iceberg]]'
+- '[[七件事集团]]'
 diagnostic_signals:
 - framework_lens: B2B定价策略——B2B客户分层，需要差异化定价
   follow_up_question: 你的B2B客户中，SMB和Enterprise的需求差异大吗？定价是否分层？

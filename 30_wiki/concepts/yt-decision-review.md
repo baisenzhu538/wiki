@@ -33,6 +33,7 @@ related:
 - '[[yt-management-scientific-decision]]'
 - '[[yt-decision-full-process]]'
 - '[[yt-tool-knowledge-extraction]]'
+- '[[decision-science-domain-digest]]'
 aliases:
   - L4深度复盘法
   - 假设验证闭环

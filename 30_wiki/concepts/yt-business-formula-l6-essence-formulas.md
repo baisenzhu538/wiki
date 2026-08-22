@@ -60,6 +60,7 @@ related:
 - '[[yt-business-model-margin-structure]]'
 - '[[yt-business-model-pricing-psychology]]'
 - '[[yt-business-model-revenue-types]]'
+- '[[yt-business-model-platform-strategy]]'
 ---
 # 业务公式 L6 魔法参数：跨行业本质公式集锦
 

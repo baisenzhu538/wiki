@@ -40,6 +40,8 @@ related:
 - '[[tool-yitang-research-deep-attribution]]'
 - '[[concept-yitang-research-scope]]'
 - '[[business-research-skill-oscar-13-weapon-system]]'
+- '[[proposal-ai-domain-mastery-pipeline]]'
+- '[[lean-startup-domain-digest]]'
 tags:
 - audience:general
 - scene:reference

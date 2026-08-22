@@ -34,6 +34,7 @@ related:
 - '[[yt-entrepreneur-research-cognition]]'
 - '[[yt-entrepreneur-unit-model]]'
 - '[[yt-foresight-business-spectrum]]'
+- '[[concept-mckinsey-7s]]'
 reviewed_by: 王语嫣
 aliases:
 - 修炼地图

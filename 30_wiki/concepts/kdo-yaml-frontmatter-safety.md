@@ -46,6 +46,9 @@ related:
 - '[[dk-f9-generic-critique]]'
 - '[[dk-p16-validate-reads-state-json]]'
 - '[[dk-p18-yaml-parser]]'
+- '[[fix-data-curator-parse-bug]]'
+- '[[modeling-capability-for-kdo]]'
+- '[[proposal-ai-domain-mastery-pipeline]]'
 pipeline:
 - src_unknown
 author: 老顽童

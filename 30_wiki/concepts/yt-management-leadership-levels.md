@@ -29,6 +29,7 @@ related:
 - '[[yt-management-business-formula]]'
 - '[[yt-management-company-culture]]'
 - '[[concept-一堂-基本功-段位体系]]'
+- '[[framework-leadership-five-ladders]]'
 tags:
 - audience:general
 - scene:reference

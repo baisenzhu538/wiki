@@ -14,6 +14,7 @@ related:
 - '[[concept-一堂-kernel-iteration]]'
 - '[[yt-five-step-common-pitfalls]]'
 - '[[yt-five-step-implementation]]'
+- '[[yt-product-kernel-iteration]]'
 aliases:
 - 产品内核修炼段位图
 - 内核修炼段位图

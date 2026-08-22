@@ -31,6 +31,7 @@ related:
 - '[[yt-lean-beauty-store-conversion]]'
 - '[[yt-lean-daily-chemical-mvp]]'
 - '[[yt-lean-flower-mom-group-leader]]'
+- '[[yt-lean-false-model-ai]]'
 diagnostic_signals:
 - framework_lens: 假设驱动日常决策三问 / 敬畏概率
   follow_up_question: 这件事如果错了，会导致整个方向崩盘还是只损失局部效率？

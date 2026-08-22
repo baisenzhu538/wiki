@@ -44,6 +44,7 @@ related:
   - '[[case-truman-prd-checklist-evolution]]'
   - '[[case-truman-sales-report-structure]]'
   - '[[case-yitang-radar-chart-selection]]'
+  - '[[model-quality-four-levels]]'
 ---
 # 楚门的选择：两条职业成长路线 X vs Y
 

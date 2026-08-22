@@ -36,6 +36,7 @@ type: concept
 status: draft
 related:
   - '[[yt-personal-scientific-expression]]'
+  - '[[framework-一堂-个人表达力]]'
 ---
 # 逐字稿
 

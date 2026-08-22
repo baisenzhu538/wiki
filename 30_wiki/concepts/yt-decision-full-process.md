@@ -34,6 +34,8 @@ related:
 - '[[yt-decision-review]]'
 - '[[yt-decision-habit-shift]]'
 - '[[yt-decision-y-model]]'
+- '[[decision-science-domain-digest]]'
+- '[[yt-decision-abcd-model]]'
 aliases:
   - 写初版
   - 有共识

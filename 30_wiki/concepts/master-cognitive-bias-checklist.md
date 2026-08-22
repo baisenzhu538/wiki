@@ -35,6 +35,7 @@ related:
 - '[[yt-research-mindset]]'
 - '[[学会提问在信息洪流中锻造批判性思维的利刃]]'
 - '[[dk-c5-todo-false-positive]]'
+- '[[sales-pitch-bias-patterns]]'
 tags:
 - audience:executor
 - scene:execution

@@ -61,6 +61,10 @@ related:
 - '[[case-truman-meeting-leadership]]'
 - '[[case-yitang-goat-milk-channel-partnership]]'
 - '[[yt-decision-consensus-iceberg]]'
+- '[[dk-meeting-asset-harvest]]'
+- '[[dk-meeting-borrow-false-repair-true]]'
+- '[[dk-meeting-pressure-ignition]]'
+- '[[dk-meeting-rederive]]'
 quality_labels: [principle, actionable, quotable, validated]
 tags:
 - audience:general

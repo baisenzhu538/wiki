@@ -38,6 +38,8 @@ related:
 - '[[case-ai-learning-series-modeling]]'
 - '[[concept-open-a-document]]'
 - '[[dk-research-ranklist-replaces-model]]'
+- '[[framework-ai-report-value-ladder-l1-l6]]'
+- '[[framework-baozhashidiaochan-five-step]]'
 updated_at: '2026-06-29'
 tags:
 - audience:general

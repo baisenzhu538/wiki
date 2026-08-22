@@ -43,6 +43,8 @@ related:
 - '[[yt-entrepreneur-needs-analysis]]'
 - '[[yt-management-project-management]]'
 - '[[yt-tool-product-core-canvas]]'
+- '[[yt-business-model-pivot-signals]]'
+- '[[bridge-利润-单元模型-定价闭环]]'
 review_date: 2026-06-15
 updated_at: '2026-06-18'
 reviewed_by: 欧阳锋

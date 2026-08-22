@@ -34,6 +34,8 @@ related:
 - '[[yt-research-hypothesis-test]]'
 - '[[yt-research-mindset]]'
 - '[[yt-panproduct-demand-peak-end-rule]]'
+- '[[domain-demand-analysis-index]]'
+- '[[yt-demand-jtbd-application]]'
 tags:
 - audience:executor
 - scene:execution

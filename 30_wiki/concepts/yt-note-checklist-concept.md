@@ -25,6 +25,7 @@ related:
 - '[[yt-note-deliberate-practice-four-elements]]'
 - '[[yt-note-l4-internalization]]'
 - '[[yt-note-l6-extraction]]'
+- '[[truman-ai-partner-design-analysis]]'
 prerequisites:
 - src_unknown
 aliases:

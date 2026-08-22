@@ -26,6 +26,7 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+- '[[kdo-ec-industrialization-migration-proposal]]'
 tags:
 - audience:general
 - scene:reference

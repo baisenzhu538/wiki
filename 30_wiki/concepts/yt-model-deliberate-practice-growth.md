@@ -38,6 +38,7 @@ type: concept
 status: draft
 related:
   - '[[concept-yitang-comfort-stretch-panic-zones]]'
+  - '[[dk-yitang-deliberate-practice-common-traps]]'
 ---
 # 刻意练习十年成长指数：为什么有人一年顶十年
 

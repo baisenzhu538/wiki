@@ -44,6 +44,10 @@ related:
 - '[[yt-management-project-management]]'
 - '[[dk-实事求是目标管理双原则]]'
 - '[[dk-目标管理四大病]]'
+- '[[dk-管控vs协同执行策略]]'
+- '[[framework-yitang-project-plan-design]]'
+- '[[framework-yitang-sales-target-tradeoffs]]'
+- '[[framework-目标三层拆解]]'
 updated_at: 2026-07-02
 id: yt-management-goal-management
 author: 老顽童

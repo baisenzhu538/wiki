@@ -61,6 +61,8 @@ related:
 - '[[dk-decision-when-to-defer]]'
 - '[[dk-lu-gui-lv-bu-bei-yu-wang]]'
 - '[[dk-p10-oral-ban]]'
+- '[[decision-science-domain-digest]]'
+- '[[master-moc]]'
 tags:
 - audience:ceo
 - scene:diagnosis

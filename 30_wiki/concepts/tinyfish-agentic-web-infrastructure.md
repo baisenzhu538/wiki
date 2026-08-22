@@ -30,6 +30,7 @@ related:
 - '[[tool-yitang-web-scraping-research]]'
 - '[[web-scraping-三剑客-scrapling-crawl4ai-firecrawl]]'
 - '[[case-roblox-ai-npc-education]]'
+- '[[kdo-input-channel-strategy-2026-06-16]]'
 tags:
 - audience:general
 - scene:reference

@@ -43,6 +43,8 @@ related:
 - '[[dk-research-ranklist-replaces-model]]'
 - '[[dk-research-scavenger-vs-architect]]'
 - '[[dk-research-total-anchor-private-library]]'
+- '[[framework-knowledge-five-leaps]]'
+- '[[framework-yitang-oscar-research]]'
 tags:
 - audience:manager
 - audience:executor

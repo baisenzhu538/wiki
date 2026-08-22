@@ -43,6 +43,7 @@ related:
 - '[[case-milktea-five-step]]'
 - '[[case-shampoo-product-kernel]]'
 - '[[concept-一堂-kernel-iteration]]'
+- '[[yt-product-kernel-overpromise-trap]]'
 tags:
 - audience:general
 - scene:reference
