@@ -13,7 +13,9 @@ created_at: 2026-07-08
 updated_at: 2026-07-08
 domain: unknown
 source_refs: null
-related: null
+related:
+  - bridge-利润-单元模型-定价闭环
+  - concept-定价-价格杠杆
 discoverable_by:
 - 五步法单元模型
 - 斧子尺子梯子

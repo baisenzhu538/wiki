@@ -12,6 +12,7 @@ trust_level: low
 source_refs:
   - src_unknown
 related:
+  - framework-利润-利润优先经营框架
 created_at: 2026-06-30
 updated_at: 2026-08-04
 tags:

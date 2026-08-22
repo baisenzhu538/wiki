@@ -23,10 +23,15 @@ aliases:
   - 客户为什么愿意付高价
   - 桥接
   - 桥接：一堂需求冰山×利润为王客户为什么愿意付高价
+  - 桥接：一堂需求冰山×利润为王客户为什么愿意付高价
+  - 经营课：利润认知与企业生存-口述
+  - 《真正的利润》拆书逐字稿 — 水水｜战略定价顾问
+  - diag_20260719_wangyuyan-profit-pricing-dark-knowledge-supplement
+  - diag_20260719_wangyuyan-profit-pricing-dark-knowledge-supplement.md
 source_refs:
-- 00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt L2840-L2898
-- 00_inbox/利润为王/《真正的利润》拆书逐字稿 — 水水｜战略定价顾问.md L131-L163
-- 00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt L1390-L1400
+- 00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt#L2840-L2898
+- 00_inbox/利润为王/《真正的利润》拆书逐字稿 — 水水｜战略定价顾问.md#L131-L163
+- 00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt#L1390-L1400
 - 60_feedback/diagnosis/diag_20260719_wangyuyan-profit-pricing-dark-knowledge-supplement.md
 related:
 - framework-demand-iceberg

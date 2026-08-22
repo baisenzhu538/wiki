@@ -24,7 +24,8 @@ aliases:
 - 需求洞察冰山模型
 - 需求洞察冰山模型：L1L6六层深度推演框架
 source_refs: null
-related: null
+related:
+  - bridge-利润-需求冰山-价值定价
 discoverable_by:
 - 需求冰山模型
 - 需求洞察冰山

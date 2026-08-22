@@ -19,7 +19,8 @@ version: 1
 query_triggers: null
 aliases: []
 source_refs: null
-related: null
+related:
+  - concept-利润-风险报偿本质
 discoverable_by:
 - 高水平执行AR
 - 获取情报正确归因
