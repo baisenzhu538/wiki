@@ -4,6 +4,13 @@ updated_at: 2026-08-22
 ---
 
 # 黄药师失忆恢复（重启后 3 分钟加载）
+## 2026-08-22 晚状态（会诊批次七单全交付 + 幻影丢失事故）
+
+- **会诊批次交付（白天已记录外的后续）**：#409 YAML 修复 58 张（PASS A）/ #410 mojibake 186 行恢复（PASS A）/ #412 W3 口径核实（会诊前置）/ #413 O-3 分批提审无声修复（PASS A-）/ #414 副本清理 4 处（FAIL 补件后重审中）/ #415 工具名引用面清单（提审中）/ #418 agent复盘 治理 T1-T3（提审中）；会诊表态 14+6 条落盘 positions/huangyaoshi.md
+- **幻影丢失事故（E022，最大教训）**：#418 T2 用 bash 链式 mv/rmdir 执行，sales-dialogue-assistant 目录消失→报丢失；王语嫣复核裁定=**文件从未存在**（事故前审计基线三处枚举皆空）。教训：①报丢失前验证最后一次存在的证据 ②中文路径文件操作一律 Python（禁 bash mv/ls）③禁 2>/dev/null 吞错 ④批量移动前枚举核实+before/after
+- **队列**：#418 等 3 单提审中；我名下 queued：#419 review-gate-depth-upgrade / #421 conveyor-probes（X-1）/ #422 agent-retro-p1 / #424 agent-retro-p2 / #425 health-metrics-set
+- **复盘**：2026-08-22.md 全日合并版（A 级）；技能进化日志第二场段；E022 入错误模式库
+
 ## 2026-08-22 状态（pdf-inspector 注册五落点 + 自动化闭环实证 + 九层调研）
 
 - **pdf-inspector 注册完成（用户直令）**：①包装脚本 `40_outputs/code/scripts/pdf_inspector_route.py`（classify-then-route，任意 python 自举 `_tmp/pdf-inspector/` venv，单文件/批量/--json/--stdout）②README 登记 ③cap_hub `F_PDF_INSPECTOR`（parsing 类，26 features）④document-parsing-toolkit 引擎矩阵+决策树+详细节 ⑤toolkit.md 武器库"PDF 进料"小节；kdo index 4066 文档已刷新，路由文档可检索
