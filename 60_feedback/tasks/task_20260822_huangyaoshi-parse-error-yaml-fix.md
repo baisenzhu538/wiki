@@ -48,6 +48,44 @@ updated_at: '2026-08-22T03:52:42.698942+00:00'
 1. 执行报告：修复前清单 → 逐张修复说明（或退回清单）→ 归零工具输出
 2. 送欧阳锋终审
 
+## 执行报告（#409 黄药师 · 2026-08-22 · 终审 FAIL 补件）
+
+### 1. 归零工具输出（#399 纪律）
+
+```
+[full-library-rescan] 全库复扫（2839 文件）
+  parse-error           : 剩余 0
+Status: PASS
+```
+
+### 2. 58→0 清单差异（修复模式分类计数）
+
+| 模式 | 张数 | 代表文件 |
+|:--|:--|:--|
+| 顶格列表项补缩进（列表已为缩进式） | 44 | case-strategy-cool-boiled-water / graph-rag / YC-Y-Combinator |
+| 粘连列表项拆分（`- a - b` → 两行） | 15（含于上数） | case-strategy-* / 互联网医院模式深度调研报告 |
+| BOM 去除 + CRLF→LF 规范化 | 7 | yt-panproduct-* ×6 / skill-yitang-project-spiral-thinking |
+| 系统文件补最小 frontmatter（C 类） | 4 | 30_wiki/index.md / links/index.md / personal-os/README.md / concept-card-index-latest.md |
+
+- 47 张 A 类（结构修复）中 44 张含顶格补缩进、15 张含粘连拆分（部分重叠）
+- 全部 58 张修复后 `yaml.safe_load` 通过；**内容语义零变化**（54 张 body 与 git HEAD 逐字节一致；C 类 4 张差异归因 kdo index 自动化产物，见下）
+- commit：`cced88551`（58 files +765/-468，path-scoped）
+
+### 3. 4 个系统文件补 frontmatter 说明（终审 P1-2 回应）
+
+- **为什么需要**：4 文件是 30_wiki 索引/导航层（Wiki Index / Backlinks Index / README / concept-card-index-latest），扫描器以 `---` 开头判定 frontmatter——无 frontmatter 被判 no frontmatter，计入 parse-error。补 frontmatter 是**元数据层补充**（id/title/type: index/status: stable），正文零改动
+- **边界声明**：补 frontmatter 超出任务单「只修结构不改变内容语义」字面范围，故显式声明——它是"补缺失元数据"而非"改内容"，且为归零必要条件（否则 no frontmatter 无法消除）
+- **index.md 生成物覆盖风险评估（终审 P2 回应）**：`30_wiki/index.md` 是 `kdo index` 生成物（curation.py:380），`links/index.md` 是 backlinks 生成物（links.py:158）——原模板均无 frontmatter，**rebuild 会覆盖回滚（#366 家族实锤）**。**已修复**：两处生成器模板补 frontmatter（KDO commit `f7a78a0`，pytest 567 passed / 1 历史已知失败 / 1 skip），实测 `write_backlinks_index` 生成文件带 frontmatter ✅
+- `personal-os/README.md`、`concept-card-index-latest.md` 非生成器产物，无回滚风险
+
+### 4. 复审对照（欧阳锋 FAIL 清单逐项）
+
+- ✅ P1-1 执行报告：本节约（附工具输出 + 清单差异）
+- ✅ P1-2 补 frontmatter 边界：见第 3 节声明
+- ✅ P2 index.md 回滚风险：生成器已修（f7a78a0），非人工补丁依赖
+
+*黄药师 · 2026-08-22*
+
 ## 内容价值判断（#375 处置门禁补充节，2026-08-22 黄药师领取时补）
 
 - **本任务不涉及素材处置**：修复对象是 58 张卡的 frontmatter **结构**（缩进/列表块），内容语义显式不变（任务目标第 2 条"只修结构不改变内容语义"）
