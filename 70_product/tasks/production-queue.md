@@ -447,7 +447,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 424 | `task_20260822_huangyaoshi-agent-retro-governance-p2` | agent复盘 治理 P2（T7 归档结构统一+T9 目录白名单固化） | reviewed | huangyaoshi | 结构+白名单 | 依赖 #418/#422 | `60_feedback/tasks/task_20260822_huangyaoshi-agent-retro-governance-p2.md` | 白名单规则王语嫣审；欧阳锋终审 |
 | 425 | `task_20260822_huangyaoshi-health-metrics-set` | KDO 健康度指标集（P1，G4 第 2 步）：7 指标脚本化一条命令出健康报告 | reviewed | huangyaoshi | 健康报告 | 无 | `60_feedback/tasks/task_20260822_huangyaoshi-health-metrics-set.md` | #399 工具同仓演进；与 W3 基线对账；报告第一读者=风清扬（W8）；欧阳锋终审 |
 | 426 | `task_20260822_laowantong-tags-judgment-batch` | 739 张 tags 判断类分批治理（P2 长程，老朱 08-20 拍板+08-22 二拍维持）：词表设计先行+按域分批 | queued | laowantong | 词表+分批治理 | 无 | `60_feedback/tasks/task_20260822_laowantong-tags-judgment-batch.md` | 词表未出不动手；首批=试点批；归零声明附 #399 工具输出；欧阳锋批次验收（#411 模式）；风清扬审计待修③收口 |
-| 427 | `task_20260822_fengqingyang-l0-backup-path-proposal` | 记忆胶囊 L0 git 外备份位置与恢复路径方案（P2，B3-1 前置）：风清扬提方案→王语嫣裁定→老朱拍 | pending_review | fengqingyang | 建议书 | 无 | `60_feedback/tasks/task_20260822_fengqingyang-l0-backup-path-proposal.md` | 候选≥2 含体积估算+恢复清单；落 diagnosis/ 后 PROPOSAL-PENDING 自登（通道纪律补课）；停车场 #7 前置 |
+| 427 | `task_20260822_fengqingyang-l0-backup-path-proposal` | 记忆胶囊 L0 git 外备份位置与恢复路径方案（P2，B3-1 前置）：风清扬提方案→王语嫣裁定→老朱拍 | reviewed | fengqingyang | 建议书 | 无 | `60_feedback/tasks/task_20260822_fengqingyang-l0-backup-path-proposal.md` | 候选≥2 含体积估算+恢复清单；落 diagnosis/ 后 PROPOSAL-PENDING 自登（通道纪律补课）；停车场 #7 前置 |
 | 428 | `task_20260822_laowantong-fengqingyang-agent-spec` | 补建 agent-spec 卡：风清扬（观察者）（P2）：五要素+G1/G2 铁律，底本=风清扬五角色建议书 §角色 5 | reviewed | laowantong | 1 张 spec 卡 | 无 | `60_feedback/tasks/task_20260822_laowantong-fengqingyang-agent-spec.md` | 职责口径以 B2-2 拍板为准；pre-submit 0 ERROR+双向回链；欧阳锋终审 |
 
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
@@ -521,7 +521,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#428 task_20260822_laowantong-fengqingyang-agent-spec｜laowantong｜提审 08-22 22:38｜60_feedback/tasks/task_20260822_laowantong-fengqingyang-agent-spec.md~~ → 已终审 PASS A-（2026-08-22 欧阳锋）
 - ~~#422 task_20260822_huangyaoshi-agent-retro-governance-p1｜huangyaoshi｜提审 08-22 23:15｜60_feedback/tasks/task_20260822_huangyaoshi-agent-retro-governance-p1.md~~ → 已终审 PASS A-（2026-08-22 欧阳锋）
 - ~~#424 task_20260822_huangyaoshi-agent-retro-governance-p2｜huangyaoshi｜提审 08-22 23:17｜60_feedback/tasks/task_20260822_huangyaoshi-agent-retro-governance-p2.md~~ → 已终审 PASS A-（2026-08-22 欧阳锋）
-- #427 task_20260822_fengqingyang-l0-backup-path-proposal｜fengqingyang｜提审 08-22 23:19｜60_feedback/tasks/task_20260822_fengqingyang-l0-backup-path-proposal.md
+- ~~#427 task_20260822_fengqingyang-l0-backup-path-proposal｜fengqingyang｜提审 08-22 23:19｜60_feedback/tasks/task_20260822_fengqingyang-l0-backup-path-proposal.md~~ → 已终审 PASS A-（2026-08-22 欧阳锋）
 
 <!-- REVIEW-PENDING-END -->
 
