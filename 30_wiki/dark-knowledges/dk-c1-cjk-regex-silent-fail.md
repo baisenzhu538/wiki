@@ -31,6 +31,8 @@ related:
 - '[[dk-p11-regex-cutoff]]'
 - '[[sprint-6-cli-gap-proposal]]'
 - '[[case-dental-clinic-formula]]'
+- '[[dk-f13-handwritten-yaml-parser]]'
+- '[[dk-f2-txt-ingest-skip]]'
 pipeline:
 - src_unknown
 - src_unknown

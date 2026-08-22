@@ -54,6 +54,8 @@ related:
 - '[[tool-纪浩-案例池构建法]]'
 - '[[case-科学决策-ROI案例03]]'
 - '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
+- '[[dk-ef-002-bom-version-async]]'
+- '[[dk-ef-003-hand-soldering-bom-divergence]]'
 diagnostic_signals:
 - src_unknown
 - src_unknown

@@ -33,6 +33,7 @@ related:
 - 'tool-月白-MOC'
 - 'tool-月白-AIGC生成人物证件照'
 - 'dk-three-context-formula'
+- '[[dk-f11-encyclopedia-style]]'
 tags:
 ---
 # 技能：AI人物特征精准描述法

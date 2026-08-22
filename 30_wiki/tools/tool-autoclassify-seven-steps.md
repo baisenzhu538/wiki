@@ -43,6 +43,7 @@ related:
 - '[[dk-ai-builder-illusion]]'
 - '[[case-cross-xingangwan-pharma]]'
 - bridge-how-to-know-person-to-business
+- '[[dk-doc-explosion-slowdown]]'
 review_date: 2026-08-16
 ---
 

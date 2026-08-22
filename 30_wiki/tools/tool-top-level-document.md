@@ -43,6 +43,8 @@ related:
 - '[[bridge-how-to-know-person-to-business]]'
 - '[[case-new-year-insight-relay]]'
 - '[[case-vibecoding-one-week-delivery]]'
+- '[[dk-doc-numbering-business-logic]]'
+- '[[dk-future-backward-knowledge-tree]]'
 review_date: 2026-08-16
 ---
 

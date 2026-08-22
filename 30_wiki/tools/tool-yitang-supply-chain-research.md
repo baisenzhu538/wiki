@@ -42,6 +42,7 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - tool-yitang-research-continuous-tracking
+- '[[dk-foresight-source-material-blindness]]'
 tags:
 - audience:executor
 - scene:execution

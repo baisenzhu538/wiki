@@ -35,6 +35,7 @@ related:
 - '[[yt-five-step-method]]'
 - '[[dk-tool-as-phased-validator]]'
 - '[[yitang-domain-digest]]'
+- '[[dk-demand-feature-stacking]]'
 updated_at: 2026-06-28
 tags:
 - audience:executor

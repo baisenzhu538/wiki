@@ -28,6 +28,8 @@ related:
 - '[[kdo-watch-health-check-layer]]'
 - '[[dk-c4-selfcheck-superseded]]'
 - '[[master-cognitive-bias-checklist]]'
+- '[[dk-delivery-path-type-bug]]'
+- '[[dk-E010-duplicate-key-detection]]'
 pipeline:
 - src_unknown
 - src_unknown

@@ -33,6 +33,13 @@ related:
 - '[[yt-five-step-method]]'
 - '[[dk-tool-as-phased-validator]]'
 - '[[yitang-domain-digest]]'
+- '[[dk-demand-feature-stacking]]'
+- '[[dk-demand-hidden-need]]'
+- '[[dk-demand-misjudgment-rate]]'
+- '[[dk-demand-pitfall-dialer]]'
+- '[[dk-demand-pitfall-financial-literacy]]'
+- '[[dk-demand-pitfall-rural-5g]]'
+- '[[dk-demand-switching-cost]]'
 updated_at: 2026-06-28
 tags:
 - audience:executor

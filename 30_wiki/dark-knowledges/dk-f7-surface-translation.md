@@ -39,6 +39,7 @@ related:
 - '[[kdo_product_design_agent_final]]'
 - '[[proposal-kdo-flywheel-infrastructure]]'
 - '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
+- '[[dk-jh-llm-time-blindness]]'
 pipeline:
 - src_unknown
 - src_unknown

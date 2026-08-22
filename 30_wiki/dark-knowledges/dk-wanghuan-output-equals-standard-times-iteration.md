@@ -45,6 +45,10 @@ related:
 - '[[dk-wanghuan-standard-by-iteration]]'
 - '[[framework-wanghuan-actor-director-mode]]'
 - '[[framework-wanghuan-ooda-loop]]'
+- '[[dk-foresight-source-material-blindness]]'
+- '[[dk-ji-hao-constraint-beats-talent]]'
+- '[[dk-ji-hao-logs-fastest-ignored]]'
+- '[[dk-ji-hao-novice-mindset-advantage]]'
 diagnostic_signals:
 - signal: src_unknown
   framework_lens: 输出=标准×迭代——标准高但迭代少，输出质量不高

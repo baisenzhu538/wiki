@@ -37,6 +37,7 @@ related:
 - case-live258-zhihu-content-acquisition
 - case-live258-livestream-prompt-v1-v5
 - dk-ai-does-not-question-your-mistake
+- '[[dk-feature-pieces-not-recognized-as-cards]]'
 tags:
 - method:feature-thinking
 - method:fact-control

@@ -37,6 +37,7 @@ related:
 - '[[dk-yitang-hypothesis-five-alternatives]]'
 - '[[yt-business-formula-parameter-iceberg]]'
 - '[[yt-business-formula-six-level-logic]]'
+- '[[dk-doc-numbering-business-logic]]'
 quality_labels:
 - actionable
 - framework

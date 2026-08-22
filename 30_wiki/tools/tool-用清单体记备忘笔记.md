@@ -40,6 +40,7 @@ related:
 - '[[tool-现场建模式萃取笔记]]'
 - '[[tool-用topdown方式整理内化笔记]]'
 - '[[tool-checklist-cheatsheet-modeling]]'
+- '[[dk-infrastructure-guardrails-over-checklist]]'
 tags:
 - audience:executor
 - scene:execution

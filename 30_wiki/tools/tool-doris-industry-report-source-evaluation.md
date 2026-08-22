@@ -43,6 +43,7 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - framework-yitang-six-layer-cross-validation
+- '[[dk-f10-broken-source-refs]]'
 tags:
 - audience:executor
 - scene:execution

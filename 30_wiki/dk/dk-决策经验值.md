@@ -33,6 +33,7 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+- '[[dk-decision-when-to-defer]]'
 tags:
 - audience:executor
 - scene:diagnosis

@@ -33,6 +33,7 @@ related:
 - '[[dk-P15-false-completion-report]]'
 - '[[framework-kdo-modeling-methodology]]'
 - '[[dk-c5-todo-false-positive]]'
+- '[[dk-delivery-path-type-bug]]'
 created_at: 2026-08-04
 updated_at: 2026-08-04
 review_date: 2026-08-04

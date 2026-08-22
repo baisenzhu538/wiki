@@ -35,6 +35,7 @@ related:
 - '[[yt-demand-fake-demand-detection]]'
 - '[[yt-five-step-method]]'
 - '[[yt-demand-hierarchy-model]]'
+- '[[dk-demand-signal-vs-noise]]'
 diagnostic_signals:
 - signal: src_unknown
   framework_lens: 1%陷阱——没有论证为什么能拿到1%

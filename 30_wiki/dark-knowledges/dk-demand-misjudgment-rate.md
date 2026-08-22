@@ -31,6 +31,10 @@ related:
 - '[[dk-tool-as-phased-validator]]'
 - '[[yitang-domain-digest]]'
 - '[[case-demand-b2c-consumer-insight]]'
+- '[[dk-demand-pitfall-financial-literacy]]'
+- '[[dk-demand-pitfall-restaurant-hiring]]'
+- '[[dk-demand-pitfall-rural-5g]]'
+- '[[dk-demand-pitfall-tier4-housekeeping]]'
 updated_at: 2026-06-28
 tags:
 - audience:executor

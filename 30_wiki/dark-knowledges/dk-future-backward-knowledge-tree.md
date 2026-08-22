@@ -35,6 +35,7 @@ related:
 - '[[tool-top-level-document]]'
 - '[[concept-yihang-ai-feature-thinking]]'
 - '[[framework-一堂-机会预判]]'
+- '[[dk-doc-numbering-business-logic]]'
 ---
 # 面向未来建知识树：体系从十年后的自己倒推，不从现状归纳
 

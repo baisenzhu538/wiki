@@ -31,6 +31,7 @@ related:
   - tool-ai-feature-inventory
   - agent-spec-复盘教练
   - '[[case-252-quality-gate-pilot]]'
+  - '[[dk-feature-registry-count-drift]]'
 tags:
   - method:feature-system
   - method:cross-domain

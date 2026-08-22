@@ -30,6 +30,8 @@ related:
 - '[[dk-tool-as-phased-validator]]'
 - '[[ai-collaboration-domain-digest]]'
 - '[[yitang-domain-digest]]'
+- '[[dk-foresight-source-material-blindness]]'
+- '[[dk-ji-hao-ai-cant-design-structure]]'
 created_at: 2026-06-08
 updated_at: 2026-06-28
 pipeline: null

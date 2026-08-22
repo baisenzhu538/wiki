@@ -40,6 +40,7 @@ related:
 - '[[tool-checklist-cheatsheet-modeling]]'
 - tool-ai-prd-for-ai
 - '[[yt-decision-width-method]]'
+- '[[dk-infrastructure-guardrails-over-checklist]]'
 tags:
 - audience:executor
 - scene:execution

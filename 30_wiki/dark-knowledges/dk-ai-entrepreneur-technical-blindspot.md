@@ -38,6 +38,7 @@ related:
 - '[[concept-ai-native-organization-five-steps]]'
 - '[[yitang-domain-digest]]'
 - '[[yt-demand-motivation-resistance]]'
+- '[[dk-demand-pitfall-indonesia-insurance]]'
 author: unknown
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'

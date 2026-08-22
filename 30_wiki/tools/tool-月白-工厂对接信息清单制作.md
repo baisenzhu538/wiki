@@ -35,6 +35,7 @@ related:
 - 'tool-月白-AI对话情绪管理法'
 - 'dk-three-context-formula'
 - '[[yt-decision-width-method]]'
+- '[[dk-infrastructure-guardrails-over-checklist]]'
 tags:
 ---
 # 技能：工厂对接信息清单制作

@@ -45,6 +45,7 @@ related:
 - case-truman-personal-growth-map-creation
 - '[[case-yitang-ai-painting-commercialization]]'
 - '[[case-yitang-sales-routine-deconstruction]]'
+- '[[dk-f5-stale-feedback-ref]]'
 tags:
 - audience:executor
 - scene:execution

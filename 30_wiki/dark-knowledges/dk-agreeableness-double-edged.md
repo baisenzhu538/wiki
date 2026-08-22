@@ -30,6 +30,7 @@ related:
 - bridge-how-to-know-person-to-business
 - tool-illuminator-vs-diminisher
 - framework-一堂-个人表达力
+- '[[dk-emotional-value-premium]]'
 tags:
 - method:personality
 - method:leadership

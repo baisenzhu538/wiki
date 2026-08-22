@@ -38,6 +38,7 @@ related:
 - bridge-how-to-know-person-to-business
 - case-cross-xingangwan-pharma
 - dk-research-saturation-quota-ai-km
+- '[[dk-extract-then-merge]]'
 tags:
 - audience:executor
 - scene:execution

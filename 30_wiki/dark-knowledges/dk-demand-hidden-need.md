@@ -34,6 +34,8 @@ related:
 - '[[yt-five-step-method]]'
 - '[[dk-tool-as-phased-validator]]'
 - '[[yitang-domain-digest]]'
+- '[[dk-demand-pitfall-dialer]]'
+- '[[dk-demand-pitfall-travel-agent]]'
 updated_at: 2026-06-28
 tags:
 - audience:executor

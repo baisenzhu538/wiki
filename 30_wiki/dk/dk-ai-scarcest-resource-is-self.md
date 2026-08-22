@@ -37,6 +37,7 @@ related:
 - '[[tool-ai2041-source-verification-checklist]]'
 - '[[case-ai-companion-emotional]]'
 - '[[concept-ai-amara-law-business-judgment]]'
+- '[[dk-f10-broken-source-refs]]'
 quality_labels:
 - cited
 - validated

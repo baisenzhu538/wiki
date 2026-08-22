@@ -38,6 +38,7 @@ related:
 - '[[tool-月白-AIGC反向拆解法]]'
 - '[[tool-月白-AI对话式海报修改（免PS）]]'
 - '[[tool-月白-AI课程内容深度梳理法]]'
+- '[[dk-f2-txt-ingest-skip]]'
 tags:
 - audience:executor
 - scene:execution

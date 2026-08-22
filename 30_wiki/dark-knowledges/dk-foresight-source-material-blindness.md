@@ -49,6 +49,7 @@ related:
 - '[[dk-tool-as-phased-validator]]'
 - '[[dk-wanghuan-output-equals-standard-times-iteration]]'
 - '[[yitang-domain-digest]]'
+- '[[dk-f10-broken-source-refs]]'
 tags:
 - audience:executor
 - scene:reference
