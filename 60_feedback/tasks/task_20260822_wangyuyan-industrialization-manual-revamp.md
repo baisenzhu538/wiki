@@ -1,8 +1,8 @@
 ---
 id: 417
-assignee: wangyuyan
-status: queued
-updated_at: '2026-08-22T17:00:00+08:00'
+assignee: kimi
+status: in_progress
+updated_at: '2026-08-22T13:34:21.076451+00:00'
 ---
 # #417 工业化手册整改（王语嫣主笔，持续迭代机制）
 
