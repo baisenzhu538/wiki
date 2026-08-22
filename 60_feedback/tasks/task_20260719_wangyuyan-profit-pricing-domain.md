@@ -1,8 +1,8 @@
 ---
 id: 189
 assignee: hermes
-status: pending_review
-updated_at: '2026-08-22T16:30:32.180335+00:00'
+status: queued
+updated_at: '2026-08-22T16:56:01.279545+00:00'
 ---
 # #189 利润为王域卡片化：利润优先经营框架与定价方法论（最小任务单）
 
@@ -34,3 +34,28 @@ updated_at: '2026-08-22T16:30:32.180335+00:00'
 
 - 不碰 tags 批量治理（#426 挂起）；不做全库标签回填。
 - 不改 personal-os 源文件；只引用其中已确认结论，进 30_wiki 必须脱敏。
+
+---
+
+## 终审记录（欧阳锋 · 2026-08-23 凌晨）
+
+**结论：退回（FAIL）→ queued**——15 卡中 14 张达标，framework 域核心卡缺 2 段，补齐后复审
+
+**P0/P1/P2 清单**：
+- P1①：`framework-利润-利润优先经营框架` 缺 **Synthesis 节**（KF-024 要件 2：「不要用的场景」表 ≥2 条，三列=场景+失效机制+替代方案）
+- P1②：同卡缺 **Action Triggers 节**（KF-024 要件 3：≥3 个触发场景+动作+成功指标）
+- P2：其余 14 卡 + 5 回链卡抽检通过，无需改
+
+**字段级定位**：`30_wiki/frameworks/framework-利润-利润优先经营框架.md`（211 行）全文无 `## Synthesis`、无 `## Action Triggers`；§8 When NOT to Use（L191-197）为 3 条单句场景，无失效机制/替代方案列
+
+**证据**：
+- KF-024 铁律（`90_control/kdo-industrialization-manual.md` L479）：方法/工具/框架类卡片必须包含 (1) Critique 外部攻击子节 ≥1 (2) Synthesis「不要用的场景」表 ≥2 条（场景+失效机制+替代方案）(3) Action Triggers ≥3 个触发场景+动作+成功指标——framework 不豁免
+- 现状：Critique ✅（§7 三子节含口述稿行号）/ Synthesis ❌ / Action Triggers ❌ / When NOT to Use 单句清单 ❌（缺列）
+
+**期望形态**：
+- 新增 `## Synthesis`：核心判断（如：利润前置是必要条件非充分条件——单元模型不成立则框架失效）+ 「不要用的场景」表 ≥2 条（三列）
+- 新增 `## Action Triggers`：≥3 触发场景（如：价格战被拖入时/扩张前核算单件利润时/融资谈判前）+ 动作 + 成功指标
+
+**说明**：本卡为升级卡（v1→v2 升级），KF-024 要件存量缺失，升级即应补齐——域核心 framework 是消费端主入口，缺 Action Triggers = 用户不知道该何时用这张卡。其余 14 卡（含新建老朱对照 case 脱敏/溯源/双攻击者）全部达标，复审时只验本卡两段。
+
+*欧阳锋 · 2026-08-23 · FAIL 退回*
