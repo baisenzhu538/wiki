@@ -69,7 +69,7 @@ KDO 是给 Agent 用的知识交付操作系统：产数字资产，经 CII-MCP 
 六角色工作流卡逐角色专场定稿，一角色一张过（顺序：老顽童→欧阳锋→黄药师→风清扬→王语嫣→老朱），定稿后并入本章。〔B2-3 后置〕
 
 #### 2.6.1 老顽童（Producer）岗位说明书 v1.0〔2026-08-23 老朱拍板〕
-定稿源：`30_wiki/agent-specs/agent-spec-laowantong-producer.md`（#431，欧阳锋 PASS A-）。核心入宪口径：老顽童=生产（卡片/内容），多实例+队列约束；领取前置=精做笔记落盘且素材消费率 ≥80%；产卡状态细分 `claimed → in_progress → pending_review`；批次验收≠整单终审；审查者不直接编排；写审分离 author≠reviewed_by；G1 每日自进化、G2 洞察第一时间上浮王语嫣。后续角色专场定稿后按本场同格式续入 §2.6.2 起。
+定稿源：`30_wiki/agent-specs/agent-spec-laowantong-producer.md`（#431，欧阳锋 PASS A-）。核心入宪口径：老顽童=生产（卡片/内容），多实例+队列约束；领取前置=精做笔记落盘且素材消费率 ≥80%；产卡状态细分 `claimed → in_progress → pending_review`；批次验收≠整单终审；审查者不直接编排；写审分离 author≠reviewed_by；G1 每日自进化、G2 洞察第一时间上浮王语嫣；自迭代双回路（内省防重犯/外部防落后/曝光可验证，D4 不自放行）。后续角色专场定稿后按本场同格式续入 §2.6.2 起。
 
 ---
 
