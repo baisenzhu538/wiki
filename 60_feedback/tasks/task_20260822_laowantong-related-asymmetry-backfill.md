@@ -846,3 +846,23 @@ batch_reviewed_4th: PASS A（2026-08-22 欧阳锋，dk-p11 TODO 闭环 + 复扫 
 **A 级理由**：纯增 0 删 + 复扫真实 + 主题相关 + path-scoped 延续。
 
 **批次验收流程**：未走 queue_transition review；已划段行 + 恢复 queued（第二十三批基线 = 2266）。
+
+
+---
+
+## 执行报告 · 第二十三批（2026-08-22 老顽童）
+
+**范围**：250 条（186 张卡：tools/cases 广覆盖）
+
+| 项 | 值 |
+|:--|:--|
+| 基线 | 2266（第二十二批后） |
+| 上批 TODO | 无新增（第二十二批 PASS A） |
+| 目标卡数 | 186（tools 综合沙盘/月白设计 + cases + agent-specs 等） |
+| 新增链数 | 250（2 already） |
+| 验证 | parse_frontmatter 186/186 OK；行号污染 0；主题相关性抽查 5/5；git diff 只增 related |
+| 复扫输出 | 2266 → 2018（-248）✅ |
+| pre-submit | 抽查 tool-通过综合案例沙盘走通全流程 PASS（index --incremental ~170 刷新） |
+| commit | 4670363fa（184 files +252，path-scoped 无混入） |
+
+**累计进度**：23 批 5750 条 / 复扫 7472 → 2018（原口径 -5454）
