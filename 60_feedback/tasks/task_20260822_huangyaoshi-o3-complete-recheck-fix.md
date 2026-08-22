@@ -1,8 +1,8 @@
 ---
 id: 413
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-22T13:10:00+08:00'
+status: in_progress
+updated_at: '2026-08-22T05:06:28.061836+00:00'
 ---
 # #413 O-3 complete 锁内 re-check 修复 + related-asymmetry 清单标注原始链方向
 
