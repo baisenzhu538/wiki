@@ -21,6 +21,8 @@ related:
 - 'agent-spec-huangyaoshi-builder'
 - 'agent-spec-hongqigong-multimodal'
 - 'framework-truman-agent-team-architecture'
+- 'framework-truman-agent-team-architecture'
+- agent-spec-fengqingyang-observer
 tags:
 - audience:executor
 - scene:execution

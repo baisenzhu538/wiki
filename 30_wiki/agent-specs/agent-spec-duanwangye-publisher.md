@@ -33,6 +33,8 @@ related:
 - '[[agent-spec-ouyangfeng-reviewer]]'
 - '[[case-duanwangye-self-iteration-closed-loop]]'
 - '[[dk-publish-collapse-to-iterate]]'
+- '[[dk-publish-collapse-to-iterate]]'
+- agent-spec-fengqingyang-observer
 tags:
 - audience:executor
 - scene:execution

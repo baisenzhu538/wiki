@@ -22,6 +22,8 @@ related:
 - 'agent-spec-laowantong-producer'
 - 'agent-spec-hongqigong-multimodal'
 - 'framework-truman-agent-team-architecture'
+- 'framework-truman-agent-team-architecture'
+- agent-spec-fengqingyang-observer
 tags:
 - audience:executor
 - scene:orchestration

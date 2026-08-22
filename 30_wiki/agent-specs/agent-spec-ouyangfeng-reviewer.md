@@ -24,6 +24,8 @@ related:
 - 'agent-spec-laowantong-producer'
 - 'agent-spec-huangyaoshi-builder'
 - 'framework-truman-agent-team-architecture'
+- 'framework-truman-agent-team-architecture'
+- agent-spec-fengqingyang-observer
 tags:
 - audience:executor
 - scene:review

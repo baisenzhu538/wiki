@@ -37,6 +37,8 @@ related:
 - 'agent-spec-huangyaoshi-builder'
 - 'agent-spec-ouyangfeng-reviewer'
 - 'framework-truman-agent-team-architecture'
+- 'framework-truman-agent-team-architecture'
+- agent-spec-fengqingyang-observer
 tags:
 - audience:executor
 - scene:execution
