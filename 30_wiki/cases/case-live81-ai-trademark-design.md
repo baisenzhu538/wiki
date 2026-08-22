@@ -50,6 +50,7 @@ related:
 - '[[tool-月白-AI模型选择策略]]'
 - '[[tool-多模型对比抽卡]]'
 - '[[case-ji-hao-ui-design-constraint-evolution]]'
+- '[[bridge-panproduct-kids-translation]]'
 created_at: 2026-07-02
 updated_at: '2026-07-02'
 tags:

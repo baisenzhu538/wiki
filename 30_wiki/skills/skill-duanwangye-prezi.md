@@ -21,6 +21,7 @@ created: '2026-07-20'
 related:
 - '[[skill-duanwangye-feishu-publishing]]'
 - '[[skill-duanwangye-kdo-pipeline]]'
+- '[[agent-spec-duanwangye-publisher]]'
 tags:
 - audience:executor
 - scene:execution

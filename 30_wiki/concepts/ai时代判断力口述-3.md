@@ -13,6 +13,7 @@ related:
 - '[[pending_unknown]]'
 - '[[ai单元模型口述蒋老师]]'
 - '[[ai时代判断力口述]]'
+- '[[tool-yitang-web-scraping-research]]'
 aliases:
 - ai时代判断力口述
 - ai时代判断力口述3

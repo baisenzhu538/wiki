@@ -28,6 +28,7 @@ related:
 - '[[dk-c10-batch-tool-no-dry-run]]'
 - '[[dk-c10-batch-tool-no-dry-run]]'
 - '[[master-decision-hygiene]]'
+- '[[case-252-quality-gate-pilot]]'
 pipeline:
 - src_unknown
 - src_unknown

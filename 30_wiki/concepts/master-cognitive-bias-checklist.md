@@ -36,6 +36,7 @@ related:
 - '[[学会提问在信息洪流中锻造批判性思维的利刃]]'
 - '[[dk-c5-todo-false-positive]]'
 - '[[sales-pitch-bias-patterns]]'
+- '[[tool-水水-管理决策权重偏差]]'
 tags:
 - audience:executor
 - scene:execution

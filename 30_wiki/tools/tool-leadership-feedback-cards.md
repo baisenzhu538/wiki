@@ -35,6 +35,7 @@ related:
   - tool-leadership-questioning-cards
   - concept-一堂-基本功-刻意练习四要素
   - framework-how-to-know-a-person
+  - '[[bridge-coaching-leadership-feature-layered]]'
 tags:
 - audience:executor
 - scene:execution

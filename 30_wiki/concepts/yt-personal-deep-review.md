@@ -35,6 +35,7 @@ related:
 - '[[yt-model-ipo-learning-strategy]]'
 - '[[yt-personal-ipo-learning]]'
 - '[[retrospective-moc]]'
+- '[[yt-tool-hiring-scorecard]]'
 review_date: 2026-05-07
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。

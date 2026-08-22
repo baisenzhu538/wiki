@@ -47,6 +47,8 @@ related:
 - '[[concept-maister-trusted-advisor]]'
 - '[[concept-mckinsey-hypothesis-driven]]'
 - '[[tool-mckinsey-hypothesis-driven-workflow]]'
+- '[[yt-tool-hiring-scorecard]]'
+- '[[yt-tool-meeting-designer]]'
 review_date: 2026-06-06
 aliases:
   - 关键假设259工具与假设验证三板斧

@@ -61,6 +61,8 @@ related:
 - '[[yt-product-kernel-validation]]'
 - '[[tool-panproduct-kids-card-naming]]'
 - '[[tool-panproduct-kids-lesson-plan]]'
+- '[[tool-一堂-kernel-six-verification-strategies]]'
+- '[[tool-一堂-product-kernel-add-subtract]]'
 ---
 
 # 产品内核 — 用户愿意选择你的最小解决方案

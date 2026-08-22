@@ -18,6 +18,8 @@ discoverable_by:
 - 任务管理
 - 个人项目
 - 进度跟踪
+related:
+  - '[[agent-spec-zhu-ai-coach]]'
 ---
 
 # 老朱项目线看板

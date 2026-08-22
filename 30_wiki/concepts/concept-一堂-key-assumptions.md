@@ -45,6 +45,8 @@ related:
 - '[[concept-一堂-kernel-iteration]]'
 - '[[yt-product-kernel-overpromise-trap]]'
 - '[[yt-product-kernel-validation]]'
+- '[[tool-一堂-hypothesis-validation-three-axe]]'
+- '[[tool-一堂-kernel-six-verification-strategies]]'
 tags:
 - audience:general
 - scene:reference

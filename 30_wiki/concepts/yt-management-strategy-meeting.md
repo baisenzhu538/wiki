@@ -28,6 +28,7 @@ related:
 - '[[yt-management-basic-skills]]'
 - '[[yt-management-business-formula]]'
 - '[[yt-management-company-culture]]'
+- '[[yt-tool-okr-cycle]]'
 tags:
 - audience:general
 - scene:reference

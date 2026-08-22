@@ -34,6 +34,9 @@ related:
 - '[[yt-five-step-method]]'
 - '[[business-research-skill-oscar-13-weapon-system]]'
 - '[[yt-research-weaponry-course]]'
+- '[[tool-yitang-consumer-goods-research]]'
+- '[[tool-yitang-product-full-experience]]'
+- '[[tool-yitang-tech-project-research]]'
 tags:
 - audience:executor
 - scene:execution

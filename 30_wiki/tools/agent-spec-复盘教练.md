@@ -28,6 +28,7 @@ related:
   - yt-model-deep-review-iceberg
   - tool-团队复盘引导清单
   - tool-复盘浪费九宗罪自检清单
+  - '[[bridge-dual-track-feature-system]]'
 tags:
   - method:agent-spec
   - method:coaching

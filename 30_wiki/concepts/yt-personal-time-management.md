@@ -74,6 +74,7 @@ related:
   - '[[tool-task-depth-decomposition]]'
   - '[[tool-team-task-pool]]'
   - '[[tool-weekly-hypothesis-experiment]]'
+  - '[[yt-tool-meeting-designer]]'
 tags:
 - #yitang
 - #time-management

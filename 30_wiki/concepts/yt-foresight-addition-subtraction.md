@@ -55,6 +55,8 @@ related:
 - '[[concept-一堂-终局光谱图解读]]'
 - '[[yt-foresight-ab-steady-state]]'
 - '[[yt-foresight-ten-fatal-flaws]]'
+- '[[tool-一堂-机会预判-五步法预判]]'
+- '[[tool-一堂-机会预判-案例预判]]'
 tags:
 - audience:executor
 - scene:reference

@@ -47,6 +47,7 @@ related:
 - '[[yt-personal-pan-product-exploration]]'
 - '[[yt-personal-pan-product-tools]]'
 - '[[agent-native-card-design]]'
+- '[[tool-泛产品设计-出牌指南]]'
 tags:
 - audience:manager
 - scene:planning

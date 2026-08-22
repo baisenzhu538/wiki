@@ -40,6 +40,7 @@ related:
 - '[[case-ji-hao-skills-market]]'
 - '[[yt-model-agent-architecture]]'
 - '[[dk-f12-builder-context-deadlock]]'
+- '[[tool-纪浩-Agent开工检查单制作法]]'
 review_date: 2026-05-15
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。

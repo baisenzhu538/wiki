@@ -67,6 +67,10 @@ related:
 - '[[dk-meeting-rederive]]'
 - '[[tool-meeting-room-match]]'
 - '[[tool-note-layer-constraint]]'
+- '[[tool-yitang-project-plan-canvas]]'
+- '[[yt-tool-ai-ppt-maker]]'
+- '[[yt-tool-meeting-designer]]'
+- '[[yt-tool-okr-cycle]]'
 quality_labels: [principle, actionable, quotable, validated]
 tags:
 - audience:general

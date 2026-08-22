@@ -50,6 +50,7 @@ related:
 - '[[framework-strategy-lean-validation]]'
 - '[[yt-business-model-unit-economics]]'
 - '[[framework-five-step-lean-interface]]'
+- '[[case-4000-titles-ten-strategies]]'
 tags:
 - audience:general
 - scene:reference

@@ -130,6 +130,17 @@ related:
 - '[[tool-demand-rat-generator]]'
 - '[[tool-iceberg-triangle-modeling]]'
 - '[[tool-opc-sales-dialogue-assistant]]'
+- '[[tool-yitang-dialectical-modeling]]'
+- '[[tool-yitang-method-ab-sides-checklist]]'
+- '[[tool-yitang-quantitative-research-checklist]]'
+- '[[tool-yitang-red-blue-cards]]'
+- '[[tool-yitang-shishi-qiushi-cheat-sheet]]'
+- '[[tool-yitang-ten-layer-interpretation]]'
+- '[[tool-Y模型STEPS策略集]]'
+- '[[tool-Y模型实操工作流]]'
+- '[[tool-水水-管理决策权重偏差]]'
+- '[[yt-tool-meeting-designer]]'
+- '[[yt-tool-okr-cycle]]'
 created_at: 2026-07-03
 updated_at: '2026-07-08'
 tags:

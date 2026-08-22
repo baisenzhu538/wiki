@@ -43,6 +43,7 @@ related:
   - '[[tool-ai-skill-engineering-guide]]'
   - '[[tool-ai-skill-engineering-method]]'
   - '[[tool-yitang-18-strategy-tool-mapping]]'
+  - '[[tool-半肥猫-course-to-skill-workflow]]'
 ---
 # P 角色 Prompt 设计——执行者型 AI 的交付规范
 

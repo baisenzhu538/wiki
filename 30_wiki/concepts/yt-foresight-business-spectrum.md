@@ -36,6 +36,7 @@ related:
 - '[[yt-foresight-15-char-mantra]]'
 - '[[yt-foresight-ab-steady-state]]'
 - '[[yt-three-dimension-opportunity-matrix]]'
+- '[[tool-一堂-机会预判-案例预判]]'
 review_date: 2026-06-16
 reviewed_by:
 - src_unknown

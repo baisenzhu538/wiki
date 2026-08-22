@@ -39,6 +39,7 @@ related:
 - bridge-how-to-know-person-to-business
 - case-cross-xingangwan-pharma
 - dk-ai-builder-illusion
+- '[[case-4000-titles-ten-strategies]]'
 tags:
 - audience:manager
 - audience:executor

@@ -26,6 +26,7 @@ related:
 - tool-agent-context-derivation-audit
 - bridge-lightning-agent-evolution
 - framework-kdo-modeling-methodology
+- '[[case-agent-self-evolution-pilot]]'
 created_at: 2026-07-26
 updated_at: 2026-07-26
 reviewed_by: 欧阳锋

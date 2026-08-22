@@ -32,6 +32,7 @@ related:
   - dk-meeting-borrow-false-repair-true
   - framework-kdo-self-attack
   - tool-复盘浪费九宗罪自检清单
+  - '[[bridge-meeting-leadership-coaching]]'
 quality_labels: [actionable, quotable, principle]
 tags:
   - audience:general

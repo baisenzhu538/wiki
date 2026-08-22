@@ -31,6 +31,7 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[yt-tool-knowledge-extraction]]'
+- '[[yt-tool-hiring-scorecard]]'
 tags:
 - audience:executor
 - scene:reference

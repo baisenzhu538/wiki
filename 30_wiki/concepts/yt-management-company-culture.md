@@ -39,6 +39,7 @@ related:
 - '[[yt-management-scientific-meetings]]'
 - '[[yt-management-strategy-meeting]]'
 - '[[tool-game-environment-checklist]]'
+- '[[yt-tool-hiring-scorecard]]'
 tags:
 - audience:general
 - scene:reference

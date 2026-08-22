@@ -26,6 +26,7 @@ related:
 - '[[yt-entrepreneur-lean-validation]]'
 - '[[yt-model-product-core-metrics]]'
 - '[[yt-lean-beauty-store-conversion]]'
+- '[[tool-一堂五步法-换档检查清单]]'
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 aliases:

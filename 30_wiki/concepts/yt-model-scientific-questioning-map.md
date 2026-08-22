@@ -35,6 +35,7 @@ status: draft
 related:
   - '[[yt-personal-y-model-exploration-2]]'
   - '[[tool-ai-problem-question-check]]'
+  - '[[tool-纪浩-Problem与Question区分法]]'
 ---
 # 科学提问刻意练习地图
 

@@ -37,6 +37,7 @@ related:
 - '[[tool-osint-wayback]]'
 - '[[tool-reverse-image-search]]'
 - '[[tool-Truman-复杂项目AI落地稳定性保障]]'
+- '[[tool-纪浩-Agent开工检查单制作法]]'
 tags:
 - audience:general
 - scene:reference

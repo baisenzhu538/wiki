@@ -41,6 +41,7 @@ related:
 - skill-duanwangye-prezi
 - agent-spec-hongqigong-multimodal
 - content-production-polish
+- '[[agent-spec-ouyangfeng-reviewer]]'
 tags:
 - audience:executor
 - scene:execution

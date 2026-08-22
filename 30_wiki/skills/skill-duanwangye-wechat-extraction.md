@@ -18,6 +18,7 @@ review_date: '2026-06-29'
 related:
 - '[[skill-duanwangye-feishu-publishing]]'
 - '[[concept-streaming-extraction-pattern]]'
+- '[[agent-spec-duanwangye-publisher]]'
 tags:
 - audience:executor
 - scene:execution

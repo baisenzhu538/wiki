@@ -36,6 +36,7 @@ related:
 - '[[yt-demand-decision-chain]]'
 - '[[concept-发现决策]]'
 - '[[dk-decision-when-to-defer]]'
+- '[[case-4000-titles-ten-strategies]]'
 tags:
 - audience:ceo
 - audience:manager

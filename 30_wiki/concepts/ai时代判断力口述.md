@@ -30,6 +30,7 @@ related:
 - yt-system-course-map-lecture
 - '[[2026-05-17-深夜感想]]'
 - '[[老朱的水感-2026年5月]]'
+- '[[tool-yitang-web-scraping-research]]'
 tags:
 - audience:general
 - scene:reference

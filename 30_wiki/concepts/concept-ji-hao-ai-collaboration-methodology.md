@@ -38,6 +38,7 @@ related:
 - '[[dk-ji-hao-pdca-starts-from-do]]'
 - '[[concept-cognitive-offloading-in-ai-era]]'
 - '[[tool-ai-use-barbell-strategy]]'
+- '[[tool-半肥猫-边学边练边沉淀的AI学习法]]'
 pipeline:
 - src_unknown
 - src_unknown

@@ -36,6 +36,7 @@ related:
 - '[[yt-barrier-ecosystem-lock-in]]'
 - '[[yt-barrier-strategy-overview]]'
 - '[[yt-barrier-sustainable-growth]]'
+- '[[yt-barrier-moat-assessment]]'
 diagnostic_signals:
 - framework_lens: 文化护城河——文化需要显性化，才能传承和复制
   follow_up_question: 你的文化是什么？能否用3个词描述？文化是否体现在日常行为中？

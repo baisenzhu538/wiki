@@ -37,6 +37,7 @@ status: draft
 related:
   - '[[yt-personal-scientific-expression]]'
   - '[[framework-一堂-个人表达力]]'
+  - '[[tool-一堂-表达力火箭模型-执行武器库]]'
 ---
 # 逐字稿
 

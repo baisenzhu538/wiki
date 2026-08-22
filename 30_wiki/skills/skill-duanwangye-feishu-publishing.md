@@ -21,6 +21,8 @@ related:
 - '[[feishu-docx-pagination-extraction]]'
 - '[[concept-feishu-api-pagination-trap]]'
 - '[[concept-streaming-extraction-pattern]]'
+- '[[agent-spec-duanwangye-publisher]]'
+- '[[agent-spec-hongqigong-multimodal]]'
 tags:
 - audience:executor
 - scene:execution

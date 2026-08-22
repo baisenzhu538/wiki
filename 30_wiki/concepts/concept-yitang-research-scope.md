@@ -58,6 +58,7 @@ related:
 - '[[kimi-深度调研集群方法论-deep-research-swarm]]'
 - '[[method-kdo-external-exploration-sop]]'
 - '[[tool-oscar-kdo-external-exploration]]'
+- '[[tool-yitang-field-research]]'
 tags:
 - audience:general
 - scene:reference

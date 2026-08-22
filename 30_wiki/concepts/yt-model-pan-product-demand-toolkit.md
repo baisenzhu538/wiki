@@ -43,6 +43,8 @@ related:
 - '[[yt-personal-pan-product-concepts]]'
 - '[[yt-personal-pan-product-practice]]'
 - '[[yt-model-pan-product-three-virtues]]'
+- '[[tool-泛产品设计-出牌指南]]'
+- '[[tool-泛产品设计-需求可行性四字诀]]'
 tags:
 - audience:manager
 - scene:planning

@@ -39,6 +39,7 @@ related:
 - '[[concept-一堂-business-prediction]]'
 - '[[product-moc]]'
 - '[[yt-product-kernel-iteration]]'
+- '[[tool-一堂-kernel-six-verification-strategies]]'
 wiki_refs:
 - src_unknown
 - src_unknown

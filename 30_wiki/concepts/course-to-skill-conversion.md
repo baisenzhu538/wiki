@@ -29,6 +29,7 @@ related:
 - '[[tool-ai-skill-engineering-guide]]'
 - '[[tool-ai-skill-engineering-method]]'
 - '[[tool-yitang-18-strategy-tool-mapping]]'
+- '[[tool-半肥猫-course-to-skill-workflow]]'
 query_triggers:
 - src_unknown
 - src_unknown

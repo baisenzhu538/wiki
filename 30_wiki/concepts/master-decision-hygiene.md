@@ -65,6 +65,11 @@ related:
 - '[[master-moc]]'
 - '[[system-yitang-Y-model-os]]'
 - '[[tool-decision-outside-view]]'
+- '[[tool-yitang-customer-segmentation-4step]]'
+- '[[tool-yitang-value-proposition-4step]]'
+- '[[tool-水水-管理决策权重偏差]]'
+- '[[yt-tool-hiring-scorecard]]'
+- '[[yt-tool-meeting-designer]]'
 tags:
 - audience:ceo
 - scene:diagnosis

@@ -17,6 +17,8 @@ discoverable_by:
 - 老朱成长
 - 模式识别
 - 个人改进
+related:
+  - '[[agent-spec-zhu-ai-coach]]'
 ---
 
 # 老朱反馈模式库

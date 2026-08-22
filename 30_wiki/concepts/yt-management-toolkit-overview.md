@@ -47,6 +47,7 @@ related:
 - '[[yt-tool-strategy-workshop]]'
 - '[[anthropic-官方发布创始人手册打造-ai-原生初创公司]]'
 - '[[concept-mckinsey-7s]]'
+- '[[tool-yitang-project-kickoff-meeting]]'
 source_refs:
 - 10_raw/sources/src_20260614_8f80cb0f-一堂-课程地图精华串讲.md
 status: reviewed

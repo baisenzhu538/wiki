@@ -28,6 +28,7 @@ related:
 - '[[case-yitang-radar-chart-selection]]'
 - '[[tool-ai-skill-engineering-method]]'
 - '[[tool-yitang-18-strategy-tool-mapping]]'
+- '[[tool-半肥猫-course-to-skill-workflow]]'
 tags:
 - audience:executor
 - scene:reference

@@ -35,6 +35,8 @@ related:
   - tool-leadership-feedback-cards
   - tool-一堂-kernel-three-questions
   - framework-how-to-know-a-person
+  - '[[bridge-coaching-leadership-feature-layered]]'
+  - '[[bridge-meeting-leadership-coaching]]'
 tags:
 - audience:executor
 - scene:execution

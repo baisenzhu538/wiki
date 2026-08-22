@@ -46,6 +46,8 @@ related:
 - '[[dk-借假修真与黑盒白盒]]'
 - '[[retrospective-moc]]'
 - '[[agent-spec-复盘教练]]'
+- '[[tool-团队复盘引导清单]]'
+- '[[tool-复盘浪费九宗罪自检清单]]'
 tags:
 - audience:general
 - scene:reference

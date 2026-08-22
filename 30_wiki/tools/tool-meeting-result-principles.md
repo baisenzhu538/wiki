@@ -38,6 +38,7 @@ related:
   - tool-项目复盘基本功
   - tool-meeting-execution-principles
   - tool-yitang-daily-weekly-meeting-hosting
+  - '[[bridge-meeting-leadership-coaching]]'
 quality_labels: [actionable, quotable, cited, principle]
 tags:
   - audience:general

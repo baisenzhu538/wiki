@@ -30,6 +30,9 @@ related:
 - '[[case-toy-cabinet-barrier]]'
 - '[[case-zhihu-vs-degetao-network-effect]]'
 - '[[case-smart-medicine-cabinet-business-model-validation]]'
+- '[[tool-纪浩-Agent技能市场设计法]]'
+- '[[tool-纪浩-AI工作空间与导诊台设计法]]'
+- '[[tool-纪浩-日志驱动排查法]]'
 review_date: 2026-06-11
 reviewed_by: 周伯通
 aliases:

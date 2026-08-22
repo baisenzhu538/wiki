@@ -32,6 +32,7 @@ related:
 - framework-一堂五步法-泛产品设计
 - framework-christensen-disruptive-innovation
 - agent-spec-yitang-Y-model-cross-domain-coach
+- '[[case-4000-titles-ten-strategies]]'
 tags:
 - method:cross-domain
 - method:business-strategy

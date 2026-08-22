@@ -31,6 +31,7 @@ related:
 - tool-agent-context-derivation-audit
 - framework-kdo-modeling-methodology
 - framework-yitang-thought-liberation-lightning
+- '[[case-agent-self-evolution-pilot]]'
 created_at: 2026-07-26
 updated_at: 2026-07-26
 reviewed_by: 欧阳锋

@@ -16,6 +16,7 @@ related:
 - '[[yt-five-step-implementation]]'
 - '[[yt-product-kernel-iteration]]'
 - '[[concept-toyota-5-whys]]'
+- '[[tool-一堂-product-kernel-canvas]]'
 aliases:
 - 产品内核修炼段位图
 - 内核修炼段位图

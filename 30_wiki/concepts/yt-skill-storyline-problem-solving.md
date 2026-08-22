@@ -43,6 +43,7 @@ related:
 - '[[concept-问题驱动式深度思考笔记]]'
 - '[[source-code-delivery-model]]'
 - '[[yt-skill-storyline-timeline]]'
+- '[[tool-纪浩-problem-validation-four-checks]]'
 tags:
 - audience:executor
 - scene:execution

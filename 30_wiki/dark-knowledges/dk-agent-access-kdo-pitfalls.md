@@ -42,6 +42,7 @@ related:
 - '[[tool-mcp-reachability-check]]'
 - '[[dk-c8-format-complete-mind-empty]]'
 - '[[dk-feature-registry-count-drift]]'
+- '[[case-252-quality-gate-pilot]]'
 created_at: 2026-08-09
 updated_at: 2026-08-16
 tags:

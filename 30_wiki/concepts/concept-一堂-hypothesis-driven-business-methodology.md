@@ -42,6 +42,7 @@ related:
 - '[[case-milktea-five-step]]'
 - '[[concept-一堂-kernel-iteration]]'
 - '[[pattern-hypothesis-validation]]'
+- '[[tool-一堂-kernel-six-verification-strategies]]'
 wiki_refs:
 - src_unknown
 - src_unknown

@@ -42,6 +42,7 @@ related:
 - '[[business-research-skill-oscar-13-weapon-system]]'
 - '[[proposal-ai-domain-mastery-pipeline]]'
 - '[[lean-startup-domain-digest]]'
+- '[[yt-demand-quantitative-estimation]]'
 tags:
 - audience:general
 - scene:reference

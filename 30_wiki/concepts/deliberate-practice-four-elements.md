@@ -37,6 +37,9 @@ related:
 - '[[concept-一堂-基本功-刻意练习四要素]]'
 - '[[concept-一堂-基本功定义]]'
 - '[[four-questions-feedback]]'
+- '[[tool-一堂-基本功-建模七法]]'
+- '[[tool-一堂-基本功-推动七式]]'
+- '[[tool-一堂-基本功-练习二十法]]'
 author: 老顽童
 created_at: '2026-06-28'
 updated_at: '2026-06-29'

@@ -57,6 +57,9 @@ related:
 - '[[tool-oscar-kdo-external-exploration]]'
 - '[[tool-yitang-b2b-gov-research]]'
 - '[[tool-yitang-consulting-business-research]]'
+- '[[tool-yitang-consumer-goods-research]]'
+- '[[tool-yitang-content-ip-research]]'
+- '[[tool-yitang-store-franchise-research]]'
 tags:
 - audience:general
 - scene:reference

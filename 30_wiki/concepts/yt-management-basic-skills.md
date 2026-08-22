@@ -52,6 +52,10 @@ related:
 - '[[dk-yitang-project-overmanagement-vs-bare-run]]'
 - '[[framework-yitang-project-execution]]'
 - '[[framework-yitang-project-retrospective]]'
+- '[[tool-yitang-project-breakdown-cheatsheet]]'
+- '[[tool-yitang-project-kickoff-meeting]]'
+- '[[tool-yitang-retrospective-canvas]]'
+- '[[workflow-yitang-project-four-step-loop]]'
 tags:
 - audience:general
 - scene:reference

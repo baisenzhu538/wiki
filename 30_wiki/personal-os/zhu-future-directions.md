@@ -12,6 +12,7 @@ related:
 - '[[zhu-project-board]]'
 - '[[zhu-lessons-learned]]'
 - '[[user-insight-profile]]'
+- '[[agent-spec-zhu-ai-coach]]'
 tags:
 - audience:manager
 - scene:reference

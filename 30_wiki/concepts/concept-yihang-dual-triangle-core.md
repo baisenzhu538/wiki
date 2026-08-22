@@ -117,6 +117,8 @@ related:
 - '[[tool-yihang-agent-config-7steps]]'
 - '[[tool-yihang-dual-triangle-oral-spray]]'
 - '[[tool-yihang-dual-triangle-xray-deconstruct]]'
+- '[[tool-yitang-dual-triangle-agent-handoff-protocol]]'
+- '[[tool-yitang-dual-triangle-scenario-router]]'
 tags:
 - audience:general
 - scene:reference

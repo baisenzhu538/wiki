@@ -41,6 +41,7 @@ related:
 - '[[yt-barrier-ecosystem-lock-in]]'
 - '[[yt-barrier-strategy-overview]]'
 - '[[yt-barrier-sustainable-growth]]'
+- '[[yt-barrier-moat-assessment]]'
 diagnostic_signals:
 - framework_lens: 数据资产——数据需要转化为产品价值，才能形成壁垒
   follow_up_question: 你的数据是否用于优化产品？数据越多，产品是否越好？

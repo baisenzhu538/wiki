@@ -52,6 +52,7 @@ related:
 - '[[case-yitang-yitang-course-industrialization]]'
 - '[[case-yitang-yitang-self-growth-channel]]'
 - '[[case-yitang-yitang-shortvideo-industrialization]]'
+- '[[tool-yitang-industry-channel-arsenal-index]]'
 review_date: '2026-06-28'
 tags:
 - audience:general

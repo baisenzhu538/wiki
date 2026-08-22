@@ -46,6 +46,7 @@ related:
 - '[[tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]'
 - '[[tool-yitang-18-strategy-tool-mapping]]'
 - '[[tool-半肥猫-course-to-skill-workflow]]'
+- '[[case-ai-agent-milestone-design]]'
 tags:
 - src_unknown
 - src_unknown

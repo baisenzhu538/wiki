@@ -25,6 +25,8 @@ related:
 - '[[yt-foresight-ab-steady-state]]'
 - '[[yt-foresight-addition-subtraction]]'
 - '[[framework-一堂-机会预判]]'
+- '[[tool-一堂-机会预判-五步法预判]]'
+- '[[tool-一堂-机会预判-案例预判]]'
 query_triggers:
 - src_unknown
 - src_unknown

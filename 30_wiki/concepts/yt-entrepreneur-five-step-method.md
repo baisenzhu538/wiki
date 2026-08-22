@@ -51,6 +51,9 @@ related:
 - '[[concept-mckinsey-hypothesis-driven]]'
 - '[[concept-toyota-5-whys]]'
 - '[[tool-mckinsey-hypothesis-driven-workflow]]'
+- '[[tool-一堂五步法-ToB-十八式-checklist]]'
+- '[[tool-一堂五步法-段位升级三部曲]]'
+- '[[tool-泛产品设计-需求可行性四字诀]]'
 reviewed_by: 王语嫣
 aliases:
   - 一堂五步法

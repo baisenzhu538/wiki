@@ -35,6 +35,7 @@ type: concept
 status: draft
 related:
   - '[[tool-ai-problem-question-check]]'
+  - '[[tool-纪浩-Problem与Question区分法]]'
 ---
 # 提问刻意练习提升画布 (By YITANG)
 

@@ -45,6 +45,7 @@ related:
 - '[[bridge-dual-track-feature-system]]'
 - '[[ai-basic-domain-digest]]'
 - '[[system-kdo-quality-framework]]'
+- '[[workflow-kdo-agent-production-pipeline]]'
 ---
 
 # KDO Feature 注册表

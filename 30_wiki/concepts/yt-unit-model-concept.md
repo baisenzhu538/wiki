@@ -45,6 +45,7 @@ related:
 - '[[yt-five-step-implementation]]'
 - '[[yt-five-step-level-blindspots]]'
 - '[[yt-unit-model-benchmark]]'
+- '[[tool-yitang-referral-channel-optimization]]'
 status: enriched
 updated_at: '2026-06-17'
 title: 单元模型：商业模式评估的核心工具

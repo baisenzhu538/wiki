@@ -67,6 +67,7 @@ related:
 - 世总会
 - 业务公式拆解培训
 - 九层宝塔模型
+- '[[tool-yitang-customer-segmentation-4step]]'
 ---
 # 一堂方法论体系：从科学做事到无限进步
 

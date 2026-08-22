@@ -37,6 +37,9 @@ related:
 - '[[model-quality-four-levels]]'
 - '[[yt-tob-unit-model]]'
 - '[[yt-unit-model-overview]]'
+- '[[tool-单元模型-单商圈]]'
+- '[[tool-单元模型-单城市]]'
+- '[[tool-单元模型-象限分析法]]'
 quality_labels:
 - cited
 - principle

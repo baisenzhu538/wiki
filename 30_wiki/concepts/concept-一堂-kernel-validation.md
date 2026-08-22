@@ -43,6 +43,8 @@ related:
   - '[[product-moc]]'
   - '[[yt-product-kernel-iteration]]'
   - '[[yt-product-kernel-validation]]'
+  - '[[tool-一堂-kernel-six-verification-strategies]]'
+  - '[[tool-一堂-product-kernel-canvas]]'
 wiki_refs:
 - src_unknown
 - src_unknown

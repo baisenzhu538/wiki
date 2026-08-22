@@ -30,6 +30,9 @@ related:
 - '[[yt-note-checklist-concept]]'
 - '[[yt-note-expert-interview-modeling]]'
 - '[[dk-yitang-deliberate-practice-common-traps]]'
+- '[[tool-yitang-feedback-self-check]]'
+- '[[tool-yitang-practice-20hour-starter]]'
+- '[[yt-note-five-levels-training]]'
 tags:
 - audience:executor
 - scene:reference

@@ -40,6 +40,8 @@ related:
 - '[[一堂方法论体系总图]]'
 - '[[tool-IPO学习-输入处理输出工具箱导航]]'
 - '[[tool-Truman-AI时代IPO模型重构]]'
+- '[[tool-人生红点战略对齐]]'
+- '[[yt-note-five-levels-training]]'
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 aliases:

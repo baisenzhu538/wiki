@@ -40,6 +40,7 @@ related:
 - '[[yt-management-leadership-levels]]'
 - '[[yt-management-scientific-meetings]]'
 - '[[yt-management-strategy-meeting]]'
+- '[[yt-tool-okr-cycle]]'
 updated_at: 2026-06-16
 id: yt-management-business-formula
 author: 老顽童

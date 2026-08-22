@@ -51,6 +51,7 @@ related:
 - '[[dk-f8-phony-wikilink]]'
 - '[[dk-f9-generic-critique]]'
 - '[[ouyangfeng-data-alignment-response]]'
+- '[[tool-纪浩-Agent开工检查单制作法]]'
 tags:
 - audience:general
 - scene:reference

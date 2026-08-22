@@ -30,6 +30,7 @@ related:
 - '[[yt-system-course-catalog]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+- '[[yt-tool-hiring-scorecard]]'
 tags:
 - audience:general
 - scene:reference

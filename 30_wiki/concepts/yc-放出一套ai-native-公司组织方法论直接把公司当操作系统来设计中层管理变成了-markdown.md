@@ -55,6 +55,7 @@ related:
 - '[[YC-Y-Combinator]]'
 - '[[tool-canvas-weapon-library-modeling]]'
 - '[[tool-strategy-map]]'
+- '[[yt-demand-quantitative-estimation]]'
 tags:
 - audience:executor
 - scene:reference
