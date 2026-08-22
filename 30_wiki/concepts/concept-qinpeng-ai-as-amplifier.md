@@ -31,6 +31,8 @@ related:
 - tool-马易-AI落地场景识别与拆分
 - tool-马易-风口痛点识别法
 - dk-ai-as-last-step-not-first
+- '[[case-english-teacher-ai-agent]]'
+- '[[case-qinpeng-hardware-ai-amplification]]'
 created_at: 2026-08-02
 updated_at: 2026-08-02
 quality_labels: cited

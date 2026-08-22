@@ -48,6 +48,7 @@ related:
 - '[[tool-月白-资深设计师AI工具切换法]]'
 - '[[tool-审美工具箱]]'
 - '[[yt-business-formula-six-level-logic]]'
+- '[[case-yitang-yai-scientific-decision-life-direction]]'
 query_triggers:
 - src_unknown
 - src_unknown

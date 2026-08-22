@@ -25,6 +25,7 @@ related:
 - tool-yitang-Y-model-application
 - framework-yitang-jiefang-sixiang
 - dk-yitang-Y-model-pitfalls
+- '[[case-yitang-education-supply-chain]]'
 created_at: 2026-05-06
 updated_at: '2026-07-03'
 tags:

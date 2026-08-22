@@ -45,6 +45,8 @@ related:
 - '[[dk-ai-self-evolution-prompt]]'
 - '[[dk-one-sentence-handover]]'
 - '[[dk-ai-judgment-human-responsibility]]'
+- '[[case-new-year-insight-relay]]'
+- '[[case-vibecoding-one-week-delivery]]'
 review_date: 2026-08-16
 ---
 

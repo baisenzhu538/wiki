@@ -42,6 +42,8 @@ related:
 - '[[framework-ai-deliberate-practice-loop]]'
 - '[[yt-model-deliberate-practice-growth]]'
 - '[[modeling-personal-practice-loop]]'
+- '[[case-yitang-ai-painting-commercialization]]'
+- '[[case-yitang-sales-routine-deconstruction]]'
 tags:
 - audience:general
 - scene:reference

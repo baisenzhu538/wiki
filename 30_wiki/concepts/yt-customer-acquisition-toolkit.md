@@ -10,6 +10,7 @@ related:
 - '[[case-toy-cabinet-business-model]]'
 - '[[yt-five-step-method]]'
 - '[[pending_unknown]]'
+- '[[case-five-step-growth-first-lever]]'
 aliases:
 - 工具合集
 - 获客工具合集

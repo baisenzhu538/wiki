@@ -30,6 +30,7 @@ related:
 - '[[master-systems-thinking]]'
 - '[[master-antifragile-checklist]]'
 - '[[master-knowledge-compound]]'
+- '[[industrial-ai-ops-cases]]'
 tags:
 - audience:ceo
 - scene:diagnosis

@@ -40,6 +40,8 @@ related:
 - '[[case-yitang-yitu-lead-industrialization]]'
 - '[[yt-tob-revenue-is-customer-cost]]'
 - yt-tob-demand-metrics
+- '[[case-smart-medicine-cabinet-corporate-risk]]'
+- '[[case-yitang-tob-smart-park]]'
 diagnostic_signals:
 - framework_lens: 单元模型双口径验证 — 财务确认口径 vs 现金流口径
   follow_up_question: 同一单元模型用现金流口径重新测算，自由现金流何时转正？规模化复制是否会放大资金缺口？

@@ -23,6 +23,8 @@ related:
 - '[[course-to-skill-conversion]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+- '[[ai-collaboration-mindset-shift]]'
+- '[[ai-hackathon-pitches]]'
 query_triggers:
 - src_unknown
 - src_unknown

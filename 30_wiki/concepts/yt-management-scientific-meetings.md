@@ -57,6 +57,9 @@ related:
 - '[[dk-meeting-principle-over-process]]'
 - '[[management-domain-digest]]'
 - '[[bridge-meeting-leadership-coaching]]'
+- '[[case-meeting-scene-mastery]]'
+- '[[case-truman-meeting-leadership]]'
+- '[[case-yitang-goat-milk-channel-partnership]]'
 quality_labels: [principle, actionable, quotable, validated]
 tags:
 - audience:general

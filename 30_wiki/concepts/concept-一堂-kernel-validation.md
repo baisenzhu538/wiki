@@ -35,6 +35,8 @@ related:
   - "[[case-一堂-陈贤敏汉堡-hypothesis-validation]]"
   - "[[concept-一堂-hypothesis-driven-business-methodology]]"
   - "[[yitang-domain-digest]]"
+  - '[[case-qinpeng-iot-module-tiering]]'
+  - '[[case-shampoo-product-kernel]]'
 wiki_refs:
 - src_unknown
 - src_unknown

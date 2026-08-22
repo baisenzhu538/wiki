@@ -10,6 +10,9 @@ related:
 - '[[yt-unit-model-three-tools]]'
 - '[[case-toy-cabinet-business-model]]'
 - '[[pending_unknown]]'
+- '[[case-five-step-fake-vs-real-barriers]]'
+- '[[case-toy-cabinet-barrier]]'
+- '[[case-zhihu-vs-degetao-network-effect]]'
 aliases:
 - 分析完整
 - 壁垒分析完整cheatsheet

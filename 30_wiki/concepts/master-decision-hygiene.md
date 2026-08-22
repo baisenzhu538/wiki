@@ -42,6 +42,12 @@ related:
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[case-ai-writing-homogenization]]'
 - '[[case-bmw-human-ai-collaboration-idle-time]]'
+- '[[case-truman-time-management-commute-experiment]]'
+- '[[case-yitang-copywriting-time-decomposition]]'
+- '[[case-yitang-sales-transformation-tuliaogongsi]]'
+- '[[case-yitang-Y-model-advertising-turnaround]]'
+- '[[case-yitang-Y-model-seven-applications]]'
+- '[[smart-medicine-cabinet-clinic-risk-observation]]'
 tags:
 - audience:ceo
 - scene:diagnosis

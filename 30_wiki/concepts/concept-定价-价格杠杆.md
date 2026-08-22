@@ -38,6 +38,8 @@ related:
 - bridge-利润-需求冰山-价值定价
 - dk-利润-定价恐惧三段式反问
 - yt-unit-model-build
+- '[[case-利润-苹果智能手机利润垄断]]'
+- '[[case-利润-通用汽车份额追逐失败]]'
 tags:
 - audience:general
 - scene:reference

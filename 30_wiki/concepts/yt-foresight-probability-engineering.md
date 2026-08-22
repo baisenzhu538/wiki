@@ -52,6 +52,7 @@ related:
 - '[[yt-foresight-ab-steady-state]]'
 - '[[yt-foresight-addition-subtraction]]'
 - '[[framework-一堂-机会预判]]'
+- '[[case-truman-yitang-foresight]]'
 tags:
 - audience:general
 - scene:reference

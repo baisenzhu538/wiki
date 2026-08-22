@@ -75,6 +75,18 @@ related:
 - MUSE模型
 - 人机协作双三角
 - 人机协作模型
+- '[[case-laozhu-hongqigong-human-ai-partner-evolution]]'
+- '[[case-yihang-dual-triangle-ai-organizational-behavior]]'
+- '[[case-yihang-dual-triangle-beike-ai-outbound]]'
+- '[[case-yihang-dual-triangle-canvas-thesis-review]]'
+- '[[case-yihang-dual-triangle-canvas-trademark-design]]'
+- '[[case-yihang-dual-triangle-D-engineer-upward-communication]]'
+- '[[case-yihang-dual-triangle-guoshuai-ai-editorial]]'
+- '[[case-yihang-dual-triangle-hardware-patent-rule-explicit]]'
+- '[[case-yihang-dual-triangle-hotel-tag-sandbox]]'
+- '[[case-yihang-dual-triangle-jumi-canvas-demo]]'
+- '[[case-yihang-dual-triangle-kunte-virtual-idol]]'
+- '[[case-yihang-dual-triangle-tanzhaichao-ai-growth]]'
 tags:
 - audience:general
 - scene:reference

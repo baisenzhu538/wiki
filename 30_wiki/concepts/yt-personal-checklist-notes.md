@@ -40,6 +40,8 @@ tags:
 - 清单体笔记系统故事线
 type: concept
 status: draft
+related:
+  - '[[case-truman-ai-partner]]'
 ---
 # 清单体笔记（一堂笔记法）
 

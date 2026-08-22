@@ -104,6 +104,13 @@ related:
 - '[[dk-yitang-business-formula-skip-level-entry]]'
 - '[[dk-yitang-formula-unmeasurable-metrics]]'
 - '[[case-dental-clinic-formula]]'
+- '[[case-gym-membership-formula]]'
+- '[[case-offline-catering-formula]]'
+- '[[case-private-domain-ecommerce-formula]]'
+- '[[case-saas-renewal-formula]]'
+- '[[case-toc-ecommerce-formula-misjudgment]]'
+- '[[case-yitang-dongyuan-dance-retention-c-vs-d]]'
+- '[[case-yitang-yewenbin-archery-business-formula]]'
 tags:
 - audience:general
 - scene:reference

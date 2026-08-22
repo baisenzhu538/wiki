@@ -37,6 +37,13 @@ tags:
 - 的选择两条职业成长路线
 type: concept
 status: draft
+related:
+  - '[[case-modeling-process-livestream-prep]]'
+  - '[[case-truman-ai-skill-engineering-guide]]'
+  - '[[case-truman-motivation-map-12-versions]]'
+  - '[[case-truman-prd-checklist-evolution]]'
+  - '[[case-truman-sales-report-structure]]'
+  - '[[case-yitang-radar-chart-selection]]'
 ---
 # 楚门的选择：两条职业成长路线 X vs Y
 

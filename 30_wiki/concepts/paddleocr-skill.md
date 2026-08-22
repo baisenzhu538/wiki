@@ -24,6 +24,7 @@ discoverable_by:
   - PaddleOCR — 本地 ONNX + 云端 API 双
 related:
 - '[[tinyfish-agentic-web-infrastructure]]'
+- '[[case-truman-ai-skill-engineering-guide]]'
 tags:
 - audience:general
 - scene:reference

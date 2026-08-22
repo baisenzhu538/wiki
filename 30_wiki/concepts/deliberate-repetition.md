@@ -32,6 +32,7 @@ related:
 - '[[fixed-routine-design]]'
 - '[[comfort-zone-expansion]]'
 - '[[timely-feedback-loop]]'
+- '[[ai-tool-learning-curve]]'
 tags:
 - audience:general
 - scene:reference

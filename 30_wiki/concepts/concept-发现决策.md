@@ -46,6 +46,17 @@ related:
 - dk-yitang-Y-model-pitfalls
 - framework-yitang-shishi-qiushi
 - framework-yitang-jiefang-sixiang
+- '[[case-unit-model-gashapon]]'
+- '[[case-科学决策-L4案例01]]'
+- '[[case-科学决策-ROI案例01]]'
+- '[[case-科学决策-ROI案例03]]'
+- '[[case-科学决策-ROI案例04]]'
+- '[[case-科学决策-深度案例01]]'
+- '[[case-科学决策-深度案例02]]'
+- '[[case-科学决策-深度案例03]]'
+- '[[case-科学决策-深度案例04]]'
+- '[[case-科学决策-深度案例05]]'
+- '[[case-科学决策-深度案例06]]'
 review_date: '2026-06-29'
 updated_at: '2026-07-03'
 tags:

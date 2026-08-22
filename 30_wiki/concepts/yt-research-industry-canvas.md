@@ -31,6 +31,7 @@ related:
 - '[[yt-research-user-jtbd]]'
 - '[[yt-research-hypothesis-test]]'
 - '[[yt-research-mindset]]'
+- '[[case-smart-medicine-cabinet-business-model-validation]]'
 tags:
 - audience:ceo
 - scene:diagnosis

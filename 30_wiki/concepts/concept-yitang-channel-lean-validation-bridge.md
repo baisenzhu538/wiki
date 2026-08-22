@@ -45,6 +45,13 @@ related:
 - - - tool-lean-leverage-traffic
 - - - lean-startup-domain-digest
 - framework-yitang-channel-exploration-4step
+- '[[case-yitang-amazon-growth-flywheel]]'
+- '[[case-yitang-novel-app-flywheel]]'
+- '[[case-yitang-shuzu-channel-scan-test]]'
+- '[[case-yitang-topcity-growth-flywheel]]'
+- '[[case-yitang-yitang-course-industrialization]]'
+- '[[case-yitang-yitang-self-growth-channel]]'
+- '[[case-yitang-yitang-shortvideo-industrialization]]'
 review_date: '2026-06-28'
 tags:
 - audience:general

@@ -42,6 +42,7 @@ related:
 - '[[tool-马易-平台模式验证法]]'
 - '[[互联网医院模式深度调研报告]]'
 - '[[tool-现场建模式萃取笔记]]'
+- '[[case-feishu-live259-l3-extraction]]'
 tags:
 - audience:general
 - scene:reference

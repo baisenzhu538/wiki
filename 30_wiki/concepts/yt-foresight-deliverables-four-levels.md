@@ -64,6 +64,7 @@ related:
 - '[[plan_20260621_skill-iteration-standard]]'
 - '[[plan_20260621_kdo-quality-harness-upgrade]]'
 - '[[framework-一堂-机会预判]]'
+- '[[case-truman-yitang-foresight]]'
 tags:
 - audience:general
 - scene:reference

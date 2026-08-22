@@ -33,6 +33,10 @@ tags:
 - 规模经济分析武器库
 type: concept
 status: draft
+related:
+  - '[[case-five-step-fake-vs-real-barriers]]'
+  - '[[case-toy-cabinet-business-model]]'
+  - '[[case-zhihu-vs-degetao-network-effect]]'
 ---
 # 规模经济分析武器库
 

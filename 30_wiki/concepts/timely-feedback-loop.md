@@ -34,6 +34,7 @@ related:
 - '[[ai-virtual-coach-prompt]]'
 - '[[fixed-routine-design]]'
 - '[[comfort-zone-expansion]]'
+- '[[ai-tool-learning-curve]]'
 tags:
 - audience:ceo
 - scene:diagnosis

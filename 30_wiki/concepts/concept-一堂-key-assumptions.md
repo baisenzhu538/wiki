@@ -40,6 +40,8 @@ related:
 - '[[concept-一堂-kernel-validation]]'
 - '[[case-一堂-无人餐厅-hypothesis-failure]]'
 - '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
+- '[[case-milktea-five-step]]'
+- '[[case-shampoo-product-kernel]]'
 tags:
 - audience:general
 - scene:reference

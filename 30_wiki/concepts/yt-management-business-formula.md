@@ -35,6 +35,7 @@ related:
 - '[[yt-business-formula-abc-model]]'
 - '[[yt-business-formula-parameter-iceberg]]'
 - '[[yt-business-formula-six-level-logic]]'
+- '[[case-toc-ecommerce-formula-misjudgment]]'
 updated_at: 2026-06-16
 id: yt-management-business-formula
 author: 老顽童

@@ -37,6 +37,8 @@ related:
 - '[[yt-unit-model-selection]]'
 - '[[yt-product-ten-metrics]]'
 - '[[yt-growth-cycle-model]]'
+- '[[case-yitang-solid-redbull-channel]]'
+- '[[case-yitang-yitang-self-growth-channel]]'
 status: enriched
 updated_at: '2026-06-17'
 title: 单元模型：商业模式评估的核心工具

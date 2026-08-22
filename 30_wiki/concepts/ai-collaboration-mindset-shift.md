@@ -25,6 +25,7 @@ related:
 - '[[case-live81-ai-trademark-design]]'
 - '[[dk-ai-design-pitfalls]]'
 - '[[tool-ai-deliverable-polish-loop]]'
+- '[[ai-hackathon-pitches]]'
 query_triggers:
 - src_unknown
 - src_unknown

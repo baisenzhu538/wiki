@@ -34,6 +34,7 @@ related:
 - '[[aigc文创案例设计课leo文创ip从0到1全流程]]'
 - '[[在设计小伙伴的反馈还挺好的]]'
 - '[[tool-月白-电商详情页起承转合架构法]]'
+- '[[case-strategy-xiaobear]]'
 tags:
 - audience:executor
 - scene:reference

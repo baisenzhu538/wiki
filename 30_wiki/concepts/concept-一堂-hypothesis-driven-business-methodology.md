@@ -39,6 +39,7 @@ related:
 - '[[concept-mckinsey-hypothesis-driven]]'
 - '[[concept-mckinsey-issue-tree]]'
 - '[[concept-mckinsey-mece]]'
+- '[[case-milktea-five-step]]'
 wiki_refs:
 - src_unknown
 - src_unknown

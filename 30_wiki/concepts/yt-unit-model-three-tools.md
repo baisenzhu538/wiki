@@ -15,6 +15,8 @@ related:
 - '[[case-treadmill-demand-analysis]]'
 - '[[yt-business-formula-abc-model]]'
 - '[[pending_unknown]]'
+- '[[case-five-step-growth-first-lever]]'
+- '[[case-toy-cabinet-barrier]]'
 aliases:
 - 单元模型三工具
 - 单元模型三工具：斧子尺子梯子

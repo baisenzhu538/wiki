@@ -42,6 +42,7 @@ related:
 - '[[case-一堂-教材品控事故]]'
 - '[[case-莹莹-before-after复盘]]'
 - '[[bridge-个人复盘×知识管理W-Z-K-P]]'
+- '[[case-千惠供应链复盘]]'
 tags:
 - audience:general
 - scene:reference

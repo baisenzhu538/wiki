@@ -35,6 +35,7 @@ related:
 - concept-利润-风险报偿本质
 - dk-利润-利润敏感度非对称性
 - yt-decision-y-model
+- '[[case-利润-白牌珠宝流量上瘾症]]'
 tags:
 - audience:general
 - scene:reference

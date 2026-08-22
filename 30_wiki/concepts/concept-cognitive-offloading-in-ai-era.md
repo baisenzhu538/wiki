@@ -64,6 +64,7 @@ related:
 - '[[tool-ai-use-barbell-strategy]]'
 - '[[concept-ji-hao-ai-collaboration-methodology]]'
 - '[[tool-ai-deliverable-polish-loop]]'
+- '[[case-truman-time-management-commute-experiment]]'
 pipeline:
 - confidence-draft
 ---

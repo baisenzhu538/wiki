@@ -35,6 +35,8 @@ tags:
 - 课程地图精华串讲
 type: concept
 status: draft
+related:
+  - '[[case-escort-service-tiered-growth]]'
 ---
 # 机会选择
 

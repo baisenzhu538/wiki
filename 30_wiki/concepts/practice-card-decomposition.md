@@ -32,6 +32,7 @@ related:
 - '[[deliberate-repetition]]'
 - '[[fixed-routine-design]]'
 - '[[timely-feedback-loop]]'
+- '[[ai-tool-learning-workbook]]'
 tags:
 - audience:executor
 - scene:execution

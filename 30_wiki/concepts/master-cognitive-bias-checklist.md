@@ -30,6 +30,7 @@ related:
 - '[[master-systems-thinking]]'
 - '[[master-antifragile-checklist]]'
 - '[[master-knowledge-compound]]'
+- '[[smart-medicine-cabinet-clinic-risk-observation]]'
 tags:
 - audience:executor
 - scene:execution

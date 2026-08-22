@@ -10,6 +10,7 @@ related:
 - '[[yt-barrier-analysis-cheat-sheet]]'
 - '[[yt-business-formula-ten-paradigms]]'
 - '[[pending_unknown]]'
+- '[[case-five-step-growth-first-lever]]'
 aliases:
 - 周期模型
 - 增长周期模型

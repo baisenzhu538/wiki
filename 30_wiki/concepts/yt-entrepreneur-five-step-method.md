@@ -33,6 +33,7 @@ related:
 - '[[yt-demand-analysis-hiking-map]]'
 - '[[yt-entrepreneur-needs-analysis]]'
 - '[[case-coffee-shop-foresight]]'
+- '[[case-five-step-growth-first-lever]]'
 reviewed_by: 王语嫣
 aliases:
   - 一堂五步法

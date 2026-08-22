@@ -34,6 +34,7 @@ related:
 - '[[yt-research-hypothesis-test]]'
 - '[[yt-research-mindset]]'
 - '[[yt-five-step-method]]'
+- '[[ai-native-五层进阶从答案到效率到作品到产品到系统]]'
 tags:
 - audience:ceo
 - scene:diagnosis

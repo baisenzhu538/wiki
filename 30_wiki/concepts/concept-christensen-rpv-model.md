@@ -37,6 +37,8 @@ related:
 - tool-遵循规模前倾原则设计组织架构
 - yt-tool-strategy-workshop
 - '[[bridge-christensen-reverse-mapping]]'
+- '[[case-qinpeng-hardware-ai-amplification]]'
+- '[[case-zhu-disruptive-innovation-practice]]'
 created_at: 2026-08-02
 updated_at: 2026-08-02
 quality_labels: cited

@@ -34,6 +34,8 @@ related:
 - '[[yt-demand-qualitative-analysis]]'
 - '[[yt-five-step-method]]'
 - '[[case-demand-b2b-enterprise-erp]]'
+- '[[yt-demand-ai-knowledge-base-case]]'
+- '[[yt-demand-treadmill-case]]'
 diagnostic_signals:
 - framework_lens: ToB vs ToC差异——ToB必须分析决策链
   follow_up_question: 你的目标用户中，谁是使用者？谁是决策者？谁是采购者？他们的需求分别是什么？

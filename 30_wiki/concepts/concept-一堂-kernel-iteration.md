@@ -33,6 +33,9 @@ related:
 - '[[case-unit-model-gashapon]]'
 - '[[concept-一堂-hypothesis-driven-business-methodology]]'
 - '[[yitang-domain-digest]]'
+- '[[case-qinpeng-iot-module-tiering]]'
+- '[[case-yitang-chuanhe-seasoning-kernel]]'
+- '[[case-yitang-zhongzheng-parking-garage]]'
 wiki_refs:
 - src_unknown
 - src_unknown

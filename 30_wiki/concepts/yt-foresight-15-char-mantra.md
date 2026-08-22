@@ -56,6 +56,8 @@ related:
 - '[[yt-foresight-addition-subtraction]]'
 - '[[yt-foresight-business-spectrum]]'
 - '[[framework-一堂-机会预判]]'
+- '[[case-treadmill-demand-analysis]]'
+- '[[case-truman-yitang-foresight]]'
 tags:
 - audience:general
 - scene:reference

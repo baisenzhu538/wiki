@@ -38,6 +38,8 @@ tags:
 - 落地卡片
 type: concept
 status: draft
+related:
+  - '[[case-truman-shower-toilet-ideation]]'
 ---
 # 灵感闪现（认知篇）
 

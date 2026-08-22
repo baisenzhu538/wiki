@@ -31,6 +31,7 @@ related:
   - concept-truman-feature-six-stages
   - framework-一堂-关键假设
   - concept-一堂-基本功-刻意练习四要素
+  - '[[case-truman-ai-image-workflow-evolution]]'
 tags:
   - method:feature-thinking
   - method:application

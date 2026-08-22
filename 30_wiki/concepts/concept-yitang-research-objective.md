@@ -51,6 +51,7 @@ related:
 - '[[dk-yitang-research-starter-vs-veteran]]'
 - '[[dk-yitang-research-ai-hallucination]]'
 - '[[concept-yitang-research-mindset]]'
+- '[[case-yitang-senior-university-product-design]]'
 tags:
 - audience:general
 - scene:reference

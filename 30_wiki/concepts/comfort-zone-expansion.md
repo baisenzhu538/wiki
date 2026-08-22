@@ -33,6 +33,7 @@ related:
 - '[[fixed-routine-design]]'
 - '[[timely-feedback-loop]]'
 - '[[deliberate-repetition]]'
+- '[[ai-tool-learning-curve]]'
 tags:
 - audience:general
 - scene:reference

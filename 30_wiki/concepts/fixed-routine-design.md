@@ -33,6 +33,7 @@ related:
 - '[[comfort-zone-expansion]]'
 - '[[timely-feedback-loop]]'
 - '[[practice-card-decomposition]]'
+- '[[ai-tool-learning-workbook]]'
 tags:
 - audience:general
 - scene:reference

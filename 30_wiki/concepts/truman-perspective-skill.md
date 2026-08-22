@@ -23,6 +23,9 @@ discoverable_by:
   - 许楚思维操作系统
 related:
 - '[[business-research-skill-oscar-13-weapon-system]]'
+- '[[case-modeling-process-livestream-prep]]'
+- '[[case-truman-sales-report-structure]]'
+- '[[case-yitang-radar-chart-selection]]'
 tags:
 - audience:executor
 - scene:reference

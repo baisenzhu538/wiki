@@ -29,6 +29,7 @@ related:
 - '[[yt-unit-model-three-tools]]'
 - '[[case-toy-cabinet-barrier]]'
 - '[[case-zhihu-vs-degetao-network-effect]]'
+- '[[case-smart-medicine-cabinet-business-model-validation]]'
 review_date: 2026-06-11
 reviewed_by: 周伯通
 aliases:

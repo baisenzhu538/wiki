@@ -45,6 +45,7 @@ related:
 - '[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]'
 - '[[smart-medicine-cabinet-regional-policy-map]]'
 - '[[smart-medicine-cabinet-national-policy-redlines]]'
+- '[[smart-medicine-cabinet-clinic-risk-observation]]'
 tags:
 - audience:general
 - scene:reference

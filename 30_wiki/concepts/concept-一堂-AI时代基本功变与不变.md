@@ -38,6 +38,7 @@ related:
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[framework-yihang-dual-triangle-weapon-library]]'
 - '[[management-domain-digest]]'
+- '[[case-一堂-春萍-花总AI研发]]'
 diagnostic_signals:
 - signal: 团队争论"有了 AI 还要不要练基本功"，练的人被说落伍
   lens: 把 AI 当肌肉不当外骨骼——AI 替代的是重复执行，替代不了判断、创造、审美

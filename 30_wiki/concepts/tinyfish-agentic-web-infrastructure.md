@@ -29,6 +29,7 @@ related:
 - '[[dk-skill-market-agent-self-install]]'
 - '[[tool-yitang-web-scraping-research]]'
 - '[[web-scraping-三剑客-scrapling-crawl4ai-firecrawl]]'
+- '[[case-roblox-ai-npc-education]]'
 tags:
 - audience:general
 - scene:reference

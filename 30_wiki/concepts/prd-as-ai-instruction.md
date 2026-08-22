@@ -22,6 +22,7 @@ related:
 - '[[pending_unknown]]'
 - '[[dk-ai-builder-illusion]]'
 - '[[agent-spec-codex-teammate]]'
+- '[[case-truman-prd-checklist-evolution]]'
 query_triggers:
 - src_unknown
 - src_unknown

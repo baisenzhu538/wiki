@@ -51,6 +51,7 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+- '[[2026-05-17-深夜感想]]'
 tags:
 - audience:general
 - scene:reference

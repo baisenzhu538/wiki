@@ -28,6 +28,7 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - yt-system-course-map-lecture
+- '[[2026-05-17-深夜感想]]'
 tags:
 - audience:general
 - scene:reference

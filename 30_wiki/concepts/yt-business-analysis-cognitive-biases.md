@@ -59,6 +59,7 @@ related:
 - '[[yt-five-step-implementation]]'
 - '[[yt-unit-model-concept]]'
 - '[[yt-growth-cycle-model]]'
+- '[[case-半肥猫-course-to-skill]]'
 tags:
 - audience:executor
 - scene:reference

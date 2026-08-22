@@ -64,6 +64,8 @@ related:
 - '[[framework-一堂-关键假设-ABCD模型]]'
 - '[[framework-一堂-关键假设]]'
 - '[[framework-business-formula-y-model-bridge]]'
+- '[[case-gym-membership-formula]]'
+- '[[case-offline-catering-formula]]'
 quality_labels:
 - framework
 - reference

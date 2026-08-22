@@ -29,6 +29,7 @@ related:
 - '[[yt-decision-width-method]]'
 - '[[yt-decision-depth-ladder]]'
 - '[[yt-prompt-anti-flattery]]'
+- '[[case-yitang-double-triangle-confidence]]'
 reviewed_by: 周伯通
 aliases:
   - AI决策Partner对话法

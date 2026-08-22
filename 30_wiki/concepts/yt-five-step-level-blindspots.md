@@ -63,6 +63,7 @@ related:
 - '[[yt-research-mindset]]'
 - '[[yt-barrier-analysis-cheat-sheet]]'
 - '[[yt-demand-analysis-hiking-map]]'
+- '[[case-半肥猫-course-to-skill]]'
 tags:
 - audience:executor
 - scene:reference

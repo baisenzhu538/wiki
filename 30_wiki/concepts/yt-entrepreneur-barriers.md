@@ -35,6 +35,8 @@ tags:
 - 课程地图精华串讲
 type: concept
 status: draft
+related:
+  - '[[case-five-step-fake-vs-real-barriers]]'
 ---
 # 项目壁垒
 

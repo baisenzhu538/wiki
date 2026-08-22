@@ -10,6 +10,7 @@ related:
 - '[[case-shampoo-product-kernel]]'
 - '[[case-treadmill-demand-analysis]]'
 - '[[pending_unknown]]'
+- '[[case-five-step-growth-first-lever]]'
 aliases:
 - 产品内核修炼段位图
 - 内核修炼段位图

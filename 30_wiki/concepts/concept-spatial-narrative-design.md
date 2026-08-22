@@ -43,6 +43,7 @@ related:
 - framework-yitang-case-crafting-four-step
 - framework-一堂-基本功-四字诀拆建推练
 - dk-spatial-narrative-pitfalls
+- '[[case-infinite-canvas-founders-playbook]]'
 tags:
 - audience:general
 - scene:reference

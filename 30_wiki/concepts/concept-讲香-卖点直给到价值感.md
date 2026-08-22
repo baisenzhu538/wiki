@@ -37,6 +37,7 @@ related:
 - yt-personal-scientific-expression
 - tool-讲香基本功-十指模型
 - yt-pitch-sublimation
+- '[[case-yitang-jiangxiang-tianmu-balcony]]'
 diagnostic_signals:
 - signal: 卖点"高速吹风机=风力大+不伤发"——数字很硬但听完没感觉
   lens: 卖点直给——价值点有了但价值感为零

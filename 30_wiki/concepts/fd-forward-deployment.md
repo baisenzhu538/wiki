@@ -32,6 +32,7 @@ related:
 - - - yt-entrepreneur-channel-exploration
 - - - yt-entrepreneur-product-core
 - personal-growth-complex-systems
+- '[[industrial-ai-ops-cases]]'
 created_at: 2026-06-14
 updated_at: '2026-06-29'
 author: 王语嫣

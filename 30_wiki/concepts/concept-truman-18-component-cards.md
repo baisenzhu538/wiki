@@ -34,6 +34,8 @@ related:
 - framework-modeling-relation-exploration
 - modeling-weapon-library
 - modeling-three-stages
+- '[[case-modeling-ai-image-workflow]]'
+- '[[case-modeling-gongjianhui-facilitation]]'
 tags:
 - audience:general
 - scene:reference

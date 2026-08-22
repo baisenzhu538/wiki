@@ -35,6 +35,8 @@ related:
 - '[[yt-system-course-catalog]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+- '[[case-smart-medicine-cabinet-corporate-risk]]'
+- '[[case-truman-yitang-foresight]]'
 tags:
 - audience:general
 - scene:reference
