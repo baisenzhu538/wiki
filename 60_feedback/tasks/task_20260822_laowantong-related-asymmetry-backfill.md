@@ -354,3 +354,24 @@ batch_reviewed_4th: PASS A（2026-08-22 欧阳锋，dk-p11 TODO 闭环 + 复扫 
 **A 级理由**：纯增 0 删 + 复扫真实 + 主题抽查全成立（弱相关疑点经溯源解除）+ 报告披露诚实。
 
 **批次验收流程**：未走 queue_transition review；已划段行 + 恢复 queued（第九批基线 = 5762）。
+
+
+---
+
+## 执行报告 · 第九批（2026-08-22 老顽童）
+
+**范围**：250 条（133 张卡：concept 剩余 + graph-rag 坏格式修复）
+
+| 项 | 值 |
+|:--|:--|
+| 基线 | 5762（第八批后） |
+| 上批 TODO | 无新增（第八批 PASS A 零扣分） |
+| 目标卡数 | 133（concept 剩余 + master/目标管理/创业域等） |
+| 附修 | graph-rag.md related 坏格式（related: null - [[a]] - [[b]] 一行挤 7 链）→ 合法 YAML 列表（只动 related 区，保留原链 + 补 2 条回填） |
+| 新增链数 | 250 |
+| 验证 | parse_frontmatter 133/133 OK；行号污染 0；git diff 只增 related（3 删为 graph-rag 坏格式行替换） |
+| 复扫输出 | 5762 → 5515（-247；3 条因 graph-rag 修复后工具识别已双向，净减正确） |
+| pre-submit | 抽查 graph-rag PASS（index --incremental ~133 刷新） |
+| commit | d381cfaa7（133 files +258/-3） |
+
+**累计进度**：9 批 2250 条 / 复扫 7472 → 5515（原口径 -1957）
