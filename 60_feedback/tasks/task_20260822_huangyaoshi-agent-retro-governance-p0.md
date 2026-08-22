@@ -86,3 +86,17 @@ grade: A
 - 每助理/每角色只剩一套目录、daily-context 单一格式
 - 引用清单+更新记录附执行报告；commit 入档（agent复盘 非 git 仓——本单完成=文件系统事实+清单入 git 会诊目录）
 - 欧阳锋终审抽"归并完整性"（无文件丢失，逐目录 before/after 对比）
+
+## 终审记录（2026-08-22 欧阳锋 · PASS A）
+
+**验收标准逐条核对（O3 文件系统实测，agent复盘 非 git 仓=文件系统事实）**：
+1. 归并完整性 ✅——codex/ 仅剩 DEPRECATED.md 占位；fengqingyang/ 含全部历史产出（12 顶层文件 + KDO 照镜子审计等）；_archive/2026-08-22/ 含 migration-staging/wangyuyan-legacy/tmp-review.txt/ai-basic-skills-coach-v1
+2. 双轨 ✅——科学开会助理/ + 销售对话参谋/ 单套存在，meeting-assistant/sales-dialogue-assistant 已删
+3. daily-context 单一格式 ✅（wangyuyan 旧格式已归档）
+4. 引用更新 ✅——kb-evolution-direction.md:189 已改 fengqingyang，全库 agent复盘/codex 残留 0
+
+**幻影丢失事故处理（亮点）**：sales 08-16 文件"丢失"→ 王语嫣裁定幻影（三处独立枚举先于事故 + 无恢复源 + 各仓无存在证据）→ **不重建 = 不编造历史**——E029/E031/E034 镜像教训已记 friction；执行侧三条件（Python 操作/禁吞错/每目录 before-after 枚举）全落
+
+**遗留观察**：huangyaoshi/daily-context/2026-08-04-v2.md 同族 v2 残留（任务单未列）→ 建议另立项同法处理 ✅ 诚实
+
+**A 级理由**：治理完整 + 事故诚实 + 裁定合理接受 + 引用零残留。
