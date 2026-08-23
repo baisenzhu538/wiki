@@ -9,9 +9,10 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - ai-collaboration
 - methodology
+source_context:
+  - yitang
 source_refs:
 - C:/Users/Administrator/Desktop/YAI/关键决策agent-我现在面临重大的人生方向选择的 (1).md
 - C:/Users/Administrator/Desktop/YAI/analysis_architecture.md
@@ -33,9 +34,12 @@ quality_labels:
 - framework
 - principle
 tags:
-- audience:general
-- scene:diagnosis
-- skill-level:advanced
+  - audience:general
+  - scene:diagnosis
+  - skill-level:advanced
+  - Agent
+  - 机制
+  - 框架
 discoverable_by:
 - 教练对话
 - 提问引擎

@@ -12,7 +12,8 @@ created_at: 2026-07-06
 updated_at: 2026-07-06
 domain:
 - ai-collaboration
-- yitang
+source_context:
+  - yitang
 source_refs:
 - 对话记录：2026-07-05 老朱 Agent 纠察队/HR 角色实践
 related:

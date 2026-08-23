@@ -12,8 +12,9 @@ language: zh-CN
 created_at: 2026-07-08
 updated_at: 2026-07-08
 domain:
-- yitang
 - demand-analysis
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/五步法之需求分析/AI场景推演教练提示词.txt
 - 00_inbox/五步法之需求分析/需求分析提示词.txt

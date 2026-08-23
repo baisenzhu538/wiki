@@ -8,7 +8,8 @@ author: 老顽童
 reviewed_by: 欧阳锋
 updated_at: '2026-07-08'
 language: zh-CN
-domain: yitang
+domain:
+- decision-making
 confidence: 0.75
 trust_level: medium
 discoverable_by:
@@ -25,12 +26,20 @@ aliases:
   - 技能：产品内核加减法
   - 技能
   - 产品内核加减法
+source_context:
+  - 00_inbox/一堂-产品内核实操课-Truman-口述.txt L2378-L2416
+  - 00_inbox/一堂-产品内核实操课-Truman-口述.txt L190-L194
+  - yitang
+  - 00_inbox/一堂-产品内核实操课-Truman-口述.txt L2378-L2416
+  - 00_inbox/一堂-产品内核实操课-Truman-口述.txt L190-L194
+source_context:
+  - 00_inbox/一堂-产品内核实操课-Truman-口述.txt L2378-L2416
+  - 00_inbox/一堂-产品内核实操课-Truman-口述.txt L190-L194
+  - yitang
 source_refs:
 tags:
-- audience:executor
-- scene:execution
-- 00_inbox/一堂-产品内核实操课-Truman-口述.txt L2378-L2416
-- 00_inbox/一堂-产品内核实操课-Truman-口述.txt L190-L194
+  - audience:executor
+  - scene:execution
 ---
 
 # 技能：产品内核加减法

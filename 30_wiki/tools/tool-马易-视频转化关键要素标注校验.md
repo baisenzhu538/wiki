@@ -2,7 +2,8 @@
 id: tool-马易-视频转化关键要素标注校验
 title: 技能：视频转化关键要素标注校验
 type: tool
-domain: unknown
+domain:
+- ai-collaboration
 status: draft
 author: unknown
 reviewed_by: pending
@@ -23,7 +24,10 @@ discoverable_by:
 - 技能：视频转化关键要素标注校验
 - 视频转化关键要素标注校验
 related: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 技能：视频转化关键要素标注校验
 

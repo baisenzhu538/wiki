@@ -17,6 +17,10 @@ related:
 - "[[yt-decision-y-model]]"
 - "[[framework-yitang-shishi-qiushi]]"
 - "[[concept-一堂-hypothesis-driven-business-methodology]]"
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 
 # 跨域模式：假设+验证

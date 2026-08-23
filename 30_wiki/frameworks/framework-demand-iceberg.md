@@ -10,7 +10,9 @@ created_at: 2026-06-21
 confidence: 0.92
 trust_level: high
 language: zh-CN
-domain: unknown
+domain:
+- kdo
+- master
 aliases:
 - L6六层深度推演框架
 - audience:ceo
@@ -32,7 +34,10 @@ discoverable_by:
 - L1-L6需求分析
 - 需求深度推演
 updated_at: '2026-07-04'
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 需求洞察冰山模型
 

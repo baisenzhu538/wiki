@@ -1,7 +1,8 @@
 ---
 id: yt-management-partnership-equity
 created_at: 2026-05-06
-domain: src-unknown
+domain:
+- decision-making
 estimated_tokens: 3300
 query_triggers:
 - src_unknown

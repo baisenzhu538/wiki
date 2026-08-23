@@ -11,7 +11,6 @@ language: zh-CN
 created_at: 2026-07-12
 updated_at: '2026-07-12'
 domain:
-- yitang
 - business-formula
 aliases:
   - 业务公式三阶段工作流
@@ -20,6 +19,8 @@ aliases:
   - 建立
   - 梳理
   - 深入反架空公式
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L400-L432
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L1152-L1332

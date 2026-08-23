@@ -1,7 +1,8 @@
 ---
 title: 团队知识管理
 type: concept
-domain: src-unknown
+domain:
+- kdo
 status: reviewed
 pipeline:
 - src_unknown

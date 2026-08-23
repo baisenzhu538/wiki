@@ -1,6 +1,6 @@
 ---
 domain:
-- yitang
+- strategy
 id: yt-ai-startup-20-risky-hypotheses
 title: AI创业20个高风险假设清单
 confidence: 0.85
@@ -21,6 +21,8 @@ review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效
 aliases:
 - AI创业20个高风险假设清单
 - 个高风险假设清单
+source_context:
+  - yitang
 source_refs:
   - src_unknown
 discoverable_by:

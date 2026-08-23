@@ -13,14 +13,18 @@ domain:
 - personal-os
 - sales
 - ai-collaboration
-- yitang
 source_person: 李蕊
-source_context: 一堂科学销售方法论课程（2026-07-08），销售专题口述稿二次深挖诊断
+source_context:
+  - 一堂科学销售方法论课程（2026-07-08），销售专题口述稿二次深挖诊断
+  - yitang
 aliases:
   - 工具箱缺口盘点
   - 李蕊
   - 销售工具箱缺口盘点
   - 销售工具箱缺口盘点AgentSpec
+source_context:
+  - 一堂科学销售方法论课程（2026-07-08），销售专题口述稿二次深挖诊断
+  - yitang
 source_refs:
 - 00_inbox/销售专题/_processed/销售工具武器库_vlm.md L8-L52
 - 00_inbox/销售专题/李蕊-销售系统之五-销售工具箱-口述.txt L34,L1314,L1434-L1446

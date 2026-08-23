@@ -23,6 +23,10 @@ related:
 - tool-ai-voice-input-doubao
 - '[[dk-p16-validate-reads-state-json]]'
 - '[[dk-p18-yaml-parser]]'
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # YAML 标注对 KDO 知识库的启发
 

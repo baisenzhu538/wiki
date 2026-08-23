@@ -12,7 +12,6 @@ created_at: 2026-08-20
 updated_at: 2026-08-20
 domain:
 - knowledge-management
-- yitang
 aliases:
 - 知识编码体系对比
 - 知识库编码顺序
@@ -30,9 +29,17 @@ tags:
   - 方法
   - 边界
   - 复盘
-  - 口述
 source_person: 楚门 + PARA(fortelabs) + Johnny Decimal 官网
-source_context: 楚门口述 L1114-1120 + fortelabs.com/blog/para/ + johnnydecimal.com（2026-08-20 实取）
+source_context:
+  - 楚门口述 L1114-1120 + fortelabs.com/blog/para/ + johnnydecimal.com（2026-08-20 实取）
+  - 口述
+  - yitang
+  - 楚门口述 L1114-1120 + fortelabs.com/blog/para/ + johnnydecimal.com（2026-08-20 实取）
+  - 口述
+source_context:
+  - 楚门口述 L1114-1120 + fortelabs.com/blog/para/ + johnnydecimal.com（2026-08-20 实取）
+  - 口述
+  - yitang
 source_refs:
 - 00_inbox/AI知识库/楚门-AI知识管理探索营-口述.txt
 related:

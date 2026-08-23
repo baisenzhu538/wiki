@@ -4,7 +4,8 @@ component_of: null
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: foundational
-domain: src-unknown
+domain:
+- strategy
 estimated_tokens: 1885
 language: zh-CN
 prerequisites: null

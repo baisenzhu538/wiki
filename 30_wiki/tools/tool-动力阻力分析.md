@@ -9,12 +9,13 @@ confidence: 0.8
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - conversion-rate
 aliases:
 - 动力阻力分析
 - 动力阻力分析：用户行为的推拉模型
 - 用户行为的推拉模型
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-入门篇-口述.txt L3052-L3054
 - 00_inbox/Handle the business/conversion rate/_vlm_output/images/转化率黑客的爬山地图_vlm.md

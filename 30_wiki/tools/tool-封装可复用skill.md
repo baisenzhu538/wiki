@@ -3,19 +3,23 @@ id: tool-封装可复用skill
 title: 技能：封装可复用Skill
 type: tool
 domain:
-  - learning-methodology
-  - ai-saas
-  - management
-  - kdo
-  - yitang
+- learning-methodology
+- ai-saas
+- management
+- kdo
 status: draft
 source_person: Truman
-source_context: src_20260609_03491271
+source_context:
+  - src_20260609_03491271
+  - yitang
 aliases:
   - Truman
   - 封装可复用Skill
   - 技能
   - 技能：封装可复用Skill
+source_context:
+  - src_20260609_03491271
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset.md
 definition_of_done:

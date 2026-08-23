@@ -12,7 +12,6 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - IP产品毛利率60
@@ -21,6 +20,8 @@ aliases:
   - 案例：泡泡玛特招股书IP产品毛利率6070%
   - 泡泡玛特招股书
   - 玛特招股书
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/一堂-上市公司报告解读-口述.txt
 discoverable_by:

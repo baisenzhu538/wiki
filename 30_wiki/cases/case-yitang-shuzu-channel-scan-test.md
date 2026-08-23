@@ -5,7 +5,6 @@ type: case
 title: 案例：数族如何扫描 100+ 渠道并跑通支付合作
 status: reviewed
 domain:
-- yitang
 - growth
 - b2b
 - fintech
@@ -30,6 +29,13 @@ aliases:
   - 案例
   - 案例：数族如何扫描100+渠道并跑通支付合作
   - 渠道并跑通支付合作
+source_context:
+  - 一堂五步法之增长
+  - yitang
+  - 一堂五步法之增长
+source_context:
+  - 一堂五步法之增长
+  - yitang
 source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-案例-数族-渠道扫描.png
@@ -47,11 +53,10 @@ related:
 - '[[dk-yitang-channel-exploration-traps]]'
 review_date: '2026-06-28'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
-- 一堂五步法之增长
-- 渠道扫描
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 渠道扫描
 ---
 
 

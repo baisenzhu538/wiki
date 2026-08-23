@@ -6,9 +6,10 @@ type: tool
 status: reviewed
 domain:
 - modeling
-- yitang
 source_person: 楚门/Truman
-source_context: 一堂 2026-06-12 建模能力培训课程，流程建模与 SOP
+source_context:
+  - 一堂 2026-06-12 建模能力培训课程，流程建模与 SOP
+  - yitang
 aliases:
   - 与清单把经验变成稳定产出
   - 单把经验变成稳定产出
@@ -16,6 +17,9 @@ aliases:
   - 流程建模
   - 流程建模：用SOP与清单把经验变成稳定产出
   - 经验变成稳定产出
+source_context:
+  - 一堂 2026-06-12 建模能力培训课程，流程建模与 SOP
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260614_623cfbfd-高阶建模-流程建模.md
 - 10_raw/sources/src_20260614_4efd4e88-Truman-高阶建模-流程建模-图-01.md

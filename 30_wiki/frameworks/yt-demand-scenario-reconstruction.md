@@ -6,7 +6,9 @@ type: framework
 status: reviewed
 confidence: 0.78
 trust_level: medium
-source_context: 一堂五步法需求分析口述——"描述用户使用场景的三个层次"
+source_context:
+  - 一堂五步法需求分析口述——"描述用户使用场景的三个层次"
+  - 一堂五步法
 aliases:
   - 使用前中后的完整体验地图
   - 前中后的完整体验地图
@@ -42,10 +44,9 @@ diagnostic_signals:
 - framework_lens: 场景断点——体验地图有缺口
   follow_up_question: 用户在'使用中'的哪个节点最容易放弃？为什么？
 tags:
-- audience:ceo
-- scene:diagnosis
-- skill-level:intermediate
-- 一堂五步法
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:intermediate
 discoverable_by:
 - 场景重建
 - 用户场景还原

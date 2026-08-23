@@ -29,7 +29,10 @@ discoverable_by:
 - 按图索骥
 - 根据定位寻找对标案例
 related: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 按图索骥：根据定位寻找对标案例
 

@@ -3,7 +3,8 @@ id: yt-personal-ai-capability
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: foundational
-domain: src-unknown
+domain:
+- ai-collaboration
 estimated_tokens: 3000
 language: zh-CN
 query_triggers:

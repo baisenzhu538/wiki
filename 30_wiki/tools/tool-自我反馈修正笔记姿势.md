@@ -3,16 +3,24 @@ id: tool-自我反馈修正笔记姿势
 title: 技能：自我反馈修正笔记姿势
 type: tool
 domain:
-  - content-production
-  - management
-  - yitang
+- content-production
+- management
 status: draft
 source_person: 一堂
-source_context: src_20260609_6809033f
+source_context:
+  - src_20260609_6809033f
+  - 清单体笔记训练段位图
+  - yitang
+  - src_20260609_6809033f
+  - 清单体笔记训练段位图
 aliases:
   - 技能
   - 技能：自我反馈修正笔记姿势
   - 自我反馈修正笔记姿势
+source_context:
+  - src_20260609_6809033f
+  - 清单体笔记训练段位图
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260609_6809033f-ocr-一堂-ai清单体笔记训练段位图-truman-图片02.md
 definition_of_done:
@@ -39,10 +47,9 @@ related:
 - '[[tool-用topdown方式整理内化笔记]]'
 - tool-ai-prd-for-ai
 tags:
-- audience:executor
-- scene:execution
-- skill-level:beginner
-- 清单体笔记训练段位图
+  - audience:executor
+  - scene:execution
+  - skill-level:beginner
 ---
 # 技能：自我反馈修正笔记姿势
 

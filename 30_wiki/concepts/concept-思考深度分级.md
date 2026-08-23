@@ -10,7 +10,6 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
 - decision-science
 aliases:
   - 从表象到本质的认知阶梯
@@ -18,6 +17,8 @@ aliases:
   - 思考深度分级：从表象到本质的认知阶梯
   - 深度分级
   - 象到本质的认知阶梯
+source_context:
+  - yitang
 source_refs:
 - src_unknown
 discoverable_by:

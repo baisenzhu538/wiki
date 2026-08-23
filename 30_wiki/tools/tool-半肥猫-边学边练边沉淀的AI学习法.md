@@ -3,9 +3,13 @@ id: tool-半肥猫-边学边练边沉淀的AI学习法
 title: 技能：边学边练边沉淀的 AI 学习法
 type: tool
 status: reviewed
-domain: src-unknown
+domain:
+- ai-collaboration
+- kdo
 source_person: 半肥猫
-source_context: AI俱乐部-AI学习落地 分享
+source_context:
+  - AI俱乐部-AI学习落地 分享
+  - 半肥猫
 aliases:
   - 半肥猫
   - 学习法
@@ -57,11 +61,10 @@ diagnostic_signals:
 - lens: 沉淀者水平不足
   follow_up: 沉淀前确保自己对课程理解深入，三轮检查通过后再固化
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
-- 半肥猫
-- 学习落地
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 学习落地
 ---
 # 技能：边学边练边沉淀的 AI 学习法
 

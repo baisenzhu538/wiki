@@ -9,7 +9,6 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
 - decision-science
 aliases:
   - 决策质量的团队对齐模型
@@ -17,6 +16,8 @@ aliases:
   - 质量的团队对齐模型
   - 高水平共识曲线
   - 高水平共识曲线：决策质量的团队对齐模型
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-高水平共识曲线（重要）_vlm_desc.md
 related:

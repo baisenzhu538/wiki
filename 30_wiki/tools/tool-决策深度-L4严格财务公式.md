@@ -10,12 +10,13 @@ confidence: 0.84
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
 - decision-science
 aliases:
   - 严格财务公式
   - 决策深度L4
   - 决策深度L4：严格财务公式
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-L4严格财务公式_vlm_desc.md
 discoverable_by:

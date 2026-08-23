@@ -8,11 +8,12 @@ status: reviewed
 confidence: 0.88
 trust_level: high
 domain:
-- yitang
 - master
 - decision-making
 source_person: 黄药师、老朱
-source_context: 2026-06-16 决策域深度对齐讨论
+source_context:
+  - 2026-06-16 决策域深度对齐讨论
+  - yitang
 aliases:
   - Y模型失效场景：当价值观权重超过经济理性时，广义ROI公式不再适用
   - 公式不再适用
@@ -20,6 +21,9 @@ aliases:
   - 当价值观权重超过经济理性时
   - 模型失效场景
   - 黄药师、老朱
+source_context:
+  - 2026-06-16 决策域深度对齐讨论
+  - yitang
 source_refs:
 - src_unknown
 - src_unknown

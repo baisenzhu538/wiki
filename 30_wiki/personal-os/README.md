@@ -3,6 +3,10 @@ id: README
 title: README.md
 type: index
 status: stable
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 老朱个人域 (personal-os)
 

@@ -13,7 +13,11 @@ quality_labels:
 - validated
 created_at: 2026-06-11
 difficulty: intermediate
-domain: src-unknown
+domain:
+- ai-collaboration
+- decision-making
+- kdo
+- strategy
 estimated_tokens: 2400
 language: zh-CN
 prerequisites: '[[yt-five-step-method]]'
@@ -42,6 +46,8 @@ aliases:
   - 五步法落地实操：从故事版到分工版
   - 从故事版到分工版
   - 法落地实操
+source_context:
+  - 一堂五步法
 source_refs:
 - 10_raw/sources/src_20260611_7c893d19-一堂-一堂五步法-落地实操-口述.md
 - 10_raw/sources/src_20260611_a7097aed-一堂-一堂五步法-落地实操-笔记.md
@@ -66,11 +72,10 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
-- 一堂五步法
-- 落地实操
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 落地实操
 ---
 # 五步法落地实操：从故事版到分工版
 

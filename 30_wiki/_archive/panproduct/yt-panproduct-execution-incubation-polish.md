@@ -6,7 +6,10 @@ confidence: 0.8
 created_at: 2026-05-11
 difficulty: intermediate
 domain:
-- src_unknown
+- content
+- design
+- kdo
+- master
 estimated_tokens: 1062
 language: zh-CN
 prerequisites:
@@ -52,6 +55,10 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
 superseded_by: tool-泛产品落地-酝酿式打磨
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 
 

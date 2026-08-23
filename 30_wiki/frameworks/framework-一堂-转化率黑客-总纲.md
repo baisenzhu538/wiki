@@ -10,7 +10,8 @@ trust_level: high
 language: zh-CN
 created_at: '2026-07-13'
 updated_at: '2026-07-13'
-domain: unknown
+domain:
+- content
 source_refs: null
 related: null
 discoverable_by:
@@ -20,7 +21,10 @@ diagnostic_signals:
   lens: 缺共同语言——D 域是四象限中频率最高的场景，必须沉淀为团队能力而非个人灵感
   follow-up: 按[[framework-一堂-转化率黑客爬山地图]]自评段位，用[[framework-一堂-转化基本功七个自我修养]]立团队纪律
 quality_labels: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 aliases: null
 ---
 # 一堂转化率黑客总纲：转化率 = 动力 − 阻力 + 触点

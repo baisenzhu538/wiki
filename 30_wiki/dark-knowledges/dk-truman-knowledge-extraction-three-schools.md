@@ -6,11 +6,12 @@ type: dk
 dark_knowledge_type: insight
 status: reviewed
 domain:
-- yitang
 - personal-growth
 - knowledge-management
 source_person: Truman
-source_context: 一堂《知识萃取探索营》，2026
+source_context:
+  - 一堂《知识萃取探索营》，2026
+  - yitang
 aliases:
   - 99%的知识付费只是A
   - Truman
@@ -18,6 +19,9 @@ aliases:
   - 为什么你学的大多数课只是听个响
   - 知识萃取三流派
   - 萃取三流派
+source_context:
+  - 一堂《知识萃取探索营》，2026
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260614_239c9f4e-一堂-知识萃取探索营.md
 - 10_raw/sources/src_20260510_814ec410-个人修炼-知识萃取探索营.md

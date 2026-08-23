@@ -7,7 +7,6 @@ status: reviewed
 domain:
 - panproduct
 - organization
-- yitang
 - leadership
 confidence: 0.7
 trust_level: medium
@@ -29,6 +28,8 @@ aliases:
   - 组织领导心法
   - 组织领导心法：最高服务最低
   - 领导心法
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-逐字稿.md
 - 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-口述.txt

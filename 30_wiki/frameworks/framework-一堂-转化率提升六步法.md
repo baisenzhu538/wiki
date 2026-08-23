@@ -10,7 +10,8 @@ trust_level: high
 language: zh-CN
 created_at: '2026-07-13'
 updated_at: '2026-07-13'
-domain: unknown
+domain:
+- content
 aliases:
 - audience:ceo
 - conversion
@@ -30,7 +31,10 @@ discoverable_by:
 - 转化率提升六步法
 - 拆解加法减法讲香
 quality_labels: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 一堂转化率提升六步法
 

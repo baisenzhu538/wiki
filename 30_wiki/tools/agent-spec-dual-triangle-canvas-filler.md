@@ -14,7 +14,6 @@ created_at: 2026-07-03
 updated_at: 2026-07-07
 version: 4
 domain:
-- yitang
 - ai-collaboration
 - agent
 aliases:
@@ -24,6 +23,8 @@ aliases:
   - 对话教练版
   - 教练版
   - 角画布填充
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/人机协作双三角/YAI双三角agent对话记录.md
 - 00_inbox/人机协作双三角/一堂双三角partner的对话记录20260705.md

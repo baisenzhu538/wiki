@@ -3,7 +3,10 @@ id: yt-lean-daily-chemical-mvp
 title: 日化沐浴露MVP：不生产产品验证行业机会
 type: case
 status: draft
-domain: src-unknown
+domain:
+- content
+- decision-making
+- strategy
 source_person: 张磊
 source_context: 张磊教练《精益测试关键问题》AMA Q4
 aliases:

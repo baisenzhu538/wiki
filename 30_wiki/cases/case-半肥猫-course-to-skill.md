@@ -3,7 +3,9 @@ id: case-半肥猫-course-to-skill
 title: 案例：半肥猫的课程转 Skill 八步法——从一堂转化率课程到可验证的 AI 工具
 type: case
 status: enriched
-domain: src-unknown
+domain:
+- ai-collaboration
+- kdo
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地 分享——真实案例：将一堂《转化率黑客五组合落地》课程转化为 Skill
 aliases:

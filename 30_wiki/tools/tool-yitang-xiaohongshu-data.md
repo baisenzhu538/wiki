@@ -13,12 +13,13 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - 小红书数据
   - 小红书数据：种草热度和用户口碑追踪
   - 种草热度和用户口碑追踪
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 discoverable_by:

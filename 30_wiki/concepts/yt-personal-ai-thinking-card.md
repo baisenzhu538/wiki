@@ -3,7 +3,10 @@ id: yt-personal-ai-thinking-card
 confidence: 0.8
 created_at: 2026-05-15
 difficulty: intermediate
-domain: src-unknown
+domain:
+- content
+- human-insights
+- kdo
 language: zh-CN
 query_triggers:
 - src_unknown

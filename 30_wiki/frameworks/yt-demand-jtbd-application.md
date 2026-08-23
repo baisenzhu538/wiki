@@ -1,12 +1,15 @@
 ---
-domain: src-unknown
+domain:
+- strategy
 id: yt-demand-jtbd-application
 title: JTBD需求分析实战应用：从"用户想要"到"用户雇佣"
 type: framework
 status: reviewed
 confidence: 0.91
 trust_level: high
-source_context: 一堂五步法需求分析——JTBD框架在需求挖掘中的应用
+source_context:
+  - 一堂五步法需求分析——JTBD框架在需求挖掘中的应用
+  - 一堂五步法
 aliases:
   - JTBD需求分析实战应用
   - JTBD需求分析实战应用：从用户想要到用户雇佣
@@ -43,12 +46,11 @@ diagnostic_signals:
 - framework_lens: JTBD优先级——功能应该服务于用户的"待办任务"
   follow_up_question: 这个功能能帮助用户完成什么他们现在完成不了的任务？
 tags:
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
-- 一堂五步法
-- 泛产品设计
-- 用户卡片
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:advanced
+  - 泛产品设计
+  - 用户卡片
 discoverable_by:
 - JTBD应用
 - 用户任务

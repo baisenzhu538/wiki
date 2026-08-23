@@ -1,12 +1,15 @@
 ---
-domain: src-unknown
+domain:
+- decision-making
 id: yt-product-kernel-six-levels
 title: 产品内核六个段位：从缺价值意识到全面迁移
 type: framework
 status: enriched
 confidence: 0.92
 trust_level: high
-source_context: 一堂产品内核系列课——六个段位
+source_context:
+  - 一堂产品内核系列课——六个段位
+  - 一堂五步法
 aliases:
   - 产品内核六个段位
   - 产品内核六个段位：从缺价值意识到全面迁移
@@ -45,12 +48,11 @@ diagnostic_signals:
 - framework_lens: 产品内核段位——团队段位断层
   follow_up_question: 你们团队对内核的认知在哪个段位？是否一致？
 tags:
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
-- 一堂五步法
-- 产品内核
-- 修炼段位图
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:advanced
+  - 产品内核
+  - 修炼段位图
 discoverable_by:
 - 产品内核六层
 - 产品深挖

@@ -5,7 +5,6 @@ type: case
 title: 案例：小说 app 如何用 SEO 补全增长飞轮
 status: reviewed
 domain:
-- yitang
 - growth
 confidence: 0.8
 trust_level: medium
@@ -29,6 +28,13 @@ aliases:
   - 案例
   - 案例：小说app如何用SEO补全增长飞轮
   - 补全增长飞轮
+source_context:
+  - 一堂五步法之增长
+  - yitang
+  - 一堂五步法之增长
+source_context:
+  - 一堂五步法之增长
+  - yitang
 source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道增长飞轮-口述.txt
 source_person: Truman
@@ -44,11 +50,10 @@ related:
 - '[[tool-yitang-growth-flywheel-design]]'
 review_date: '2026-06-28'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
-- 一堂五步法之增长
-- 渠道增长飞轮
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 渠道增长飞轮
 ---
 
 

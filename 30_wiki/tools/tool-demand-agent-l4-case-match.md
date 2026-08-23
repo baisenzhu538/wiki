@@ -7,7 +7,6 @@ status: reviewed
 confidence: 0.88
 trust_level: high
 domain:
-- yitang
 - five-step-method
 aliases:
   - Agent做L4：案例库自动检索匹配用历史摩擦点作为推演起点
@@ -15,6 +14,8 @@ aliases:
   - 库自动检索匹配
   - 案例库自动检索匹配
   - 用历史摩擦点作为推演起点
+source_context:
+  - yitang
 source_refs:
 - 60_feedback/diagnosis/diag_20260621_冰山策略增强_外部探索.md
 - src_unknown

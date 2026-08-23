@@ -11,11 +11,12 @@ trust_level: medium
 language: zh-CN
 domain:
 - strategy
-- yitang
 - product
 aliases:
   - 太复杂就砍功能
   - 杂就砍功能
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212421_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212421_vlm_desc.md

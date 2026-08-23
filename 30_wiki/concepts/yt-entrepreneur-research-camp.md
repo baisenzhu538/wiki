@@ -25,6 +25,8 @@ aliases:
 - 调研武器库
 - 调研行动营
 - 调研行动营：从调研认知到AI调研武器库
+source_context:
+  - 调研行动营口述
 source_refs:
   - src_unknown
 discoverable_by:
@@ -32,10 +34,9 @@ discoverable_by:
 - 调研行动营
 - 从调研认知到AI调研武器库
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
-- 调研行动营口述
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 type: concept
 status: draft
 related:

@@ -16,6 +16,10 @@ trust_level: medium-low
 source_refs:
 - 10_raw/sources/src_20260502_7d7c1b7c-kimi-深度调研集群方法论-deep-research-swarm.md
 source_context: （原 legacy，已从 title/context/filename 推断为 10_raw/sources/src_20260502_7d7c1b7c-kimi-深度调研集群方法论-deep-research-swarm.md）
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # Kimi 深度调研集群方法论 (Deep-Research-Swarm)
 

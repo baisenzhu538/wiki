@@ -5,7 +5,6 @@ title: 一行双三角案例：陈天从知识管理到多Agent系统
 type: case
 status: reviewed
 domain:
-- yitang
 - ai-collaboration
 - personal-knowledge-management
 - multi-agent
@@ -25,6 +24,13 @@ aliases:
   - 双三角案例
   - 陈天从知识管理到多
   - 陈天从知识管理到多Agent系统
+source_context:
+  - 口述
+  - yitang
+  - 口述
+source_context:
+  - 口述
+  - yitang
 source_refs:
 - 00_inbox/人机协作双三角/_processed/陈天同学案例口述_page001_vlm.md
 - 00_inbox/人机协作双三角/_processed/陈天同学案例口述_page002_vlm.md
@@ -57,9 +63,14 @@ related:
 - 陈天同学案例口述
 - '[[tool-yihang-dual-triangle-canvas]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:advanced
+  - audience:general
+  - scene:reference
+  - skill-level:advanced
+  - 知识库
+  - 工作流
+  - Agent
+  - 协作
+  - 工具
 ---
 
 # 一行双三角案例：陈天从知识管理到多 Agent 系统

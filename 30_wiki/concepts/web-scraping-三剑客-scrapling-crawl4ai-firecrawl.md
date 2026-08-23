@@ -22,6 +22,10 @@ aliases:
 - 深度调研集群方法论
 source_refs: null
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 discoverable_by:
 - 三剑客
 related: null

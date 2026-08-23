@@ -13,7 +13,6 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 difficulty: basic
 estimated_tokens: 1500
@@ -30,6 +29,8 @@ aliases:
   - 公司报告价值
   - 创业各阶段该读什么
   - 各阶段该读什么
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/一堂-上市公司报告解读-口述.txt
 discoverable_by:

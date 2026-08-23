@@ -7,7 +7,6 @@ status: reviewed
 domain:
 - panproduct
 - organization
-- yitang
 confidence: 0.68
 trust_level: medium
 author: 老顽童
@@ -29,6 +28,8 @@ aliases:
   - 兰毅：世董会与NPC的组织产品化实践
   - 的组织产品化实践
   - 织产品化实践
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-口述.txt
 - 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-笔记.txt

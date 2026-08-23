@@ -5,15 +5,23 @@ type: tool
 status: draft
 domain:
 - ai-collaboration
-- yitang
 - business-strategy
 source_person: 马易
-source_context: AI落地场景识别 （原 legacy，已从 title/context/filename 推断为 src_20260528_04be660c）
+source_context:
+  - AI落地场景识别 （原 legacy，已从 title/context/filename 推断为 src_20260528_04be660c）
+  - 设计师实操培训
+  - yitang
+  - AI落地场景识别 （原 legacy，已从 title/context/filename 推断为 src_20260528_04be660c）
+  - 设计师实操培训
 aliases:
 - 工作流优先于AIGC的决策方法
 - 技能
 - 技能：工作流优先于AIGC的决策方法
 - 马易
+source_context:
+  - AI落地场景识别 （原 legacy，已从 title/context/filename 推断为 src_20260528_04be660c）
+  - 设计师实操培训
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260528_04be660c-aigc设计师实操培训01口喷设计范式与电商ai设计全流程.md
 wiki_refs: null
@@ -40,12 +48,11 @@ related:
 - '[[dk-ai-as-last-step-not-first]]'
 - '[[yt-demand-quantitative-estimation]]'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
-- 口喷设计范式与电商
-- 设计全流程
-- 设计师实操培训
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 口喷设计范式与电商
+  - 设计全流程
 ---
 # 技能：工作流优先于AIGC的决策方法
 

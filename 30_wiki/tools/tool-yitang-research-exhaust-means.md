@@ -30,7 +30,10 @@ discoverable_by:
 - 穷尽手段
 - 底线之上，努力拉满
 related: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 穷尽手段：底线之上，努力拉满
 

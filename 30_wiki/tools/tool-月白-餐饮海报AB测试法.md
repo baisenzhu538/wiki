@@ -37,6 +37,9 @@ related:
 - '[[yt-product-kernel-hypothesis-test]]'
 - '[[yt-growth-a-b-testing]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 技能：餐饮海报AB测试法
 

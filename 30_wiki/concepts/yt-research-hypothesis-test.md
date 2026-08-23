@@ -1,17 +1,21 @@
 ---
 
 domain:
-- yitang
 - research
 id: yt-research-hypothesis-test
 title: 商业假设验证方法
 type: tool
 status: reviewed
-source_context: 一堂商业调研课程——假设验证与实验设计
+source_context:
+  - 一堂商业调研课程——假设验证与实验设计
+  - yitang
 source_person: 一堂
 aliases:
   - 假设验证方法
   - 商业假设验证方法
+source_context:
+  - 一堂商业调研课程——假设验证与实验设计
+  - yitang
 source_refs:
   - src_unknown
 created_at: '2026-06-20'

@@ -5,10 +5,11 @@ title: 案例：一堂第200期发布会——"先把任务按深度拆开，圆
 type: case
 status: reviewed
 domain:
-  - yitang
-  - time-management
+- time-management
 source_person: Truman
-source_context: 一堂时间管理课程中，Truman以第200期发布会筹备为例，展示了如何用三门模型拆分一个复杂项目
+source_context:
+  - 一堂时间管理课程中，Truman以第200期发布会筹备为例，展示了如何用三门模型拆分一个复杂项目
+  - yitang
 aliases:
   - 一堂第200期发布会
   - 先把任务按深度拆开
@@ -16,6 +17,9 @@ aliases:
   - 方的配方的时间
   - 案例
   - 案例：一堂第200期发布会先把任务按深度拆开，圆的配圆的时间，方的配方的时间
+source_context:
+  - 一堂时间管理课程中，Truman以第200期发布会筹备为例，展示了如何用三门模型拆分一个复杂项目
+  - yitang
 source_refs:
   - 00_inbox/时间管理/truman-时间管理课程-口述.txt
   - 00_inbox/时间管理/truman-时间管理课程-笔记.txt

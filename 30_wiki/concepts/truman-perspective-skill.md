@@ -5,12 +5,13 @@ title: Truman Perspective Skill — 许楚思维操作系统 Claude Code 实现
 type: concept
 domain:
 - ai-collaboration
-- yitang
 status: reviewed
 aliases:
   - 实现
   - 思维操作系统
   - 许楚思维操作系统
+source_context:
+  - yitang
 source_refs: null
 created_at: '2026-06-20'
 updated_at: '2026-07-04'

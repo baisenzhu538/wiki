@@ -5,7 +5,9 @@ type: index
 status: reviewed
 confidence: 0.95
 trust_level: high
-domain: src-unknown
+domain:
+- decision-making
+- strategy
 source_person: Truman
 source_context: 一堂五步法培训口述与笔记
 source_refs:

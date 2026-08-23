@@ -9,10 +9,14 @@ reviewed_by: 欧阳锋
 confidence: 0.78
 trust_level: medium
 language: zh-CN
-domain: yitang
+domain:
+- decision-making
+- strategy
 aliases:
   - 成本实操难点
   - 找全成本实操难点
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-找全成本实操难点_vlm_desc.md
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-找全成本实操难点_vlm_desc.md

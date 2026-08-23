@@ -4,7 +4,6 @@ type: framework
 title: 三环能力聚焦法：从 30 个能力中锁定 3 个重点
 status: reviewed
 domain:
-- yitang
 - personal-growth
 confidence: 0.82
 trust_level: high
@@ -26,6 +25,8 @@ aliases:
 - 个重点
 - 力中锁定
 - 能力聚焦法
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/元能力-刻意练习/truman-刻意练习-口述.txt
 - 00_inbox/元能力-刻意练习/truman-刻意练习-笔记.txt

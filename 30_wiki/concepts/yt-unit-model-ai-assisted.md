@@ -11,7 +11,8 @@ quality_labels:
 - validated
 created_at: 2026-05-24
 difficulty: intermediate
-domain: src-unknown
+domain:
+- decision-making
 estimated_tokens: 2600
 language: zh-CN
 prerequisites:
@@ -38,6 +39,9 @@ aliases:
   - 单元模型
   - 双导师与出口式咨询实践
   - 导师与出口式咨询实践
+source_context:
+  - 一堂五步法
+  - 单元模型口述
 source_refs:
 - 10_raw/sources/一堂-单元模型-AI+单元模型口述_cleaned.md
 - 10_raw/sources/src_20260609_189cf93b-ocr-一堂-单元模型-tcpr底层网络协议.md
@@ -65,12 +69,10 @@ diagnostic_signals:
   follow_up_question: 出口式咨询报告是否被视为无人负责的意见？
 updated_at: '2026-06-28'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
-- 一堂五步法
-- 单元模型
-- 单元模型口述
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 单元模型
 ---
 # AI+单元模型：TCP-R双导师与出口式咨询实践
 

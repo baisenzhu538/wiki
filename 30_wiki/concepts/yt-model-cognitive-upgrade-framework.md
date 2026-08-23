@@ -3,7 +3,9 @@ id: yt-model-cognitive-upgrade-framework
 confidence: 0.85
 created_at: 2026-05-15
 difficulty: intermediate
-domain: src-unknown
+domain:
+- decision-making
+- kdo
 language: zh-CN
 query_triggers:
 - src_unknown

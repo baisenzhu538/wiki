@@ -3,7 +3,6 @@ id: yt-management-scientific-meetings
 title: 科学开会
 type: concept
 domain:
-- yitang
 - management
 status: reviewed
 author: 老顽童
@@ -21,12 +20,17 @@ aliases:
   - 科学开会十大原则-武器库-上篇-口述
   - 科学开会十大原则-武器库-下篇-口述
   - 一堂-地图-管理地图
+source_context:
+  - 一堂管理必修课「科学开会」系列（认知篇 2292 行 + 武器库上篇 2008 行 + 下篇 2690 行，共 6990 行口述稿已逐字读取）。2026-08-09 升级：补齐 source_refs（原"无法追溯"问题消除）+ 冰山三层/会议三层价值/非必要不开会/深度讨论化简四节。
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260522_e2244f17-ocr-一堂-地图-管理地图_conv.md
 - 00_inbox/科学开会/科学开会方法-认知篇-口述.txt
 - 00_inbox/科学开会/科学开会十大原则-武器库-上篇-口述.txt
 - 00_inbox/科学开会/科学开会十大原则-武器库-下篇-口述.txt
-source_context: 一堂管理必修课「科学开会」系列（认知篇 2292 行 + 武器库上篇 2008 行 + 下篇 2690 行，共 6990 行口述稿已逐字读取）。2026-08-09 升级：补齐 source_refs（原"无法追溯"问题消除）+ 冰山三层/会议三层价值/非必要不开会/深度讨论化简四节。
+source_context:
+  - 一堂管理必修课「科学开会」系列（认知篇 2292 行 + 武器库上篇 2008 行 + 下篇 2690 行，共 6990 行口述稿已逐字读取）。2026-08-09 升级：补齐 source_refs（原"无法追溯"问题消除）+ 冰山三层/会议三层价值/非必要不开会/深度讨论化简四节。
+  - yitang
 diagnostic_signals:
 - framework_lens: 惯性开会
   follow_up_question: 这个例会最近一次明确产出了什么？如果没有，可以取消

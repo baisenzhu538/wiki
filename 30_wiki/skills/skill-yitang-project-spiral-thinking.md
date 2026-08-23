@@ -7,8 +7,9 @@ confidence: 0.90
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - management
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/管项目/项目管理-入门篇-口述.txt
 - 00_inbox/管项目/项目管理-定方案-口述.txt

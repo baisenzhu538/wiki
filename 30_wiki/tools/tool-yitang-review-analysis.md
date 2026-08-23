@@ -13,12 +13,13 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - 差评分析
   - 差评分析：系统化提取竞品缺陷
   - 系统化提取竞品缺陷
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 discoverable_by:

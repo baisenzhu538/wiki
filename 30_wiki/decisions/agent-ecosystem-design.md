@@ -34,6 +34,10 @@ related:
 - '[[plan_20260501_e1e150b9-improvement-plan]]'
 - '[[truman-ai-partner-design-analysis]]'
 - '[[tool-纪浩-Agent开工检查单制作法]]'
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # KDO Agent 体系建设方案
 

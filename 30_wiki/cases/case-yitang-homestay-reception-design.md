@@ -12,7 +12,6 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - 接待方案
@@ -21,6 +20,8 @@ aliases:
   - 民宿接待方案
   - 用调研优化服务体验设计
   - 研优化服务体验设计
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/高阶调研行动营01.txt
 discoverable_by:

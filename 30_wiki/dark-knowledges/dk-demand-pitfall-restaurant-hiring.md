@@ -9,7 +9,6 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - five-step-method
 aliases:
   - 踩坑
@@ -18,6 +17,8 @@ aliases:
   - 频次高估。需求强烈≠高频
   - 麦家小馆
   - 麦家小馆频次高估
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/五步法之需求分析/需求评估避坑合集.md
 discoverable_by:

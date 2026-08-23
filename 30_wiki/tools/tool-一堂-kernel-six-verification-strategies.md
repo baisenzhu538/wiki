@@ -5,10 +5,14 @@ title: 聊问查测盘赌 — 产品内核六策略完整操作手册
 type: tool
 status: reviewed
 domain:
-- yitang
 - product-kernel
 source_person: Truman
-source_context: 一堂产品内核验证课（2024年新课·五步法实操篇第二课）
+source_context:
+  - 一堂产品内核验证课（2024年新课·五步法实操篇第二课）
+  - yitang
+source_context:
+  - 一堂产品内核验证课（2024年新课·五步法实操篇第二课）
+  - yitang
 source_refs:
 - 00_inbox/一堂-产品内核验证课-Truman-口述.txt
 - 00_inbox/一堂-产品内核验证课-truman-笔记.txt

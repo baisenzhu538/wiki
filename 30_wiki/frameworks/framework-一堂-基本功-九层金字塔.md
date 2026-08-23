@@ -10,7 +10,8 @@ trust_level: high
 language: zh-CN
 created_at: 2026-07-11
 updated_at: 2026-07-11
-domain: unknown
+domain:
+- content
 source_refs: null
 related: null
 discoverable_by:
@@ -20,7 +21,10 @@ diagnostic_signals:
   lens: 停在第五层之前——拆出的不是"独立动作"，练的不是"固定套路"，无法检查
   follow-up: 用第五层四个目标逐一验收：动作是否独立可练、套路是否固定、共识是否形成、反馈是否大量
 quality_labels: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 aliases: null
 ---
 # 基本功九层金字塔：从底层信念到基本功化的完整地图

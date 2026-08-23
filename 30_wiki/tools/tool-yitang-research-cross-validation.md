@@ -29,7 +29,10 @@ discoverable_by:
 - 交叉验证
 - 多源印证的信息可信度提升
 related: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 交叉验证：多源印证的信息可信度提升
 

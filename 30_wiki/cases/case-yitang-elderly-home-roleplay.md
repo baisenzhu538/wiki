@@ -12,13 +12,14 @@ confidence: 0.9
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - 假扮家属潜入养老院微信群
   - 家属潜入养老院微信群
   - 案例
   - 案例：假扮家属潜入养老院微信群
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/一堂-系统式调研-口述.txt
 discoverable_by:

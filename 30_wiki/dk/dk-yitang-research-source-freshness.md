@@ -13,7 +13,6 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - AI/监管/融资数据≤30天
@@ -21,6 +20,8 @@ aliases:
   - 信源时效性：AI/监管/融资数据≤30天
   - 时效性
   - 融资数据
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/提升AI调研能力的10条关键假设_vlm_desc.md
 discoverable_by:

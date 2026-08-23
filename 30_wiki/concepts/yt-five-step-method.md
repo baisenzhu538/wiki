@@ -11,7 +11,8 @@ quality_labels:
 - validated
 created_at: 2026-06-10
 difficulty: beginner
-domain: src-unknown
+domain:
+- strategy
 estimated_tokens: 2800
 language: zh-CN
 query_triggers:
@@ -115,6 +116,8 @@ review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效
 aliases:
   - 一堂五步法总纲
   - 五步法总纲
+source_context:
+  - 一堂五步法
 source_refs:
 - 10_raw/sources/src_20260610_e2867174-一堂-一堂五步法-序言-口述.md
 - 10_raw/sources/src_20260610_ad79435b-一堂-一堂五步法-序言-笔记.md
@@ -143,10 +146,9 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 tags:
-- audience:ceo
-- scene:diagnosis
-- skill-level:intermediate
-- 一堂五步法
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:intermediate
 ---
 # 一堂五步法总纲
 

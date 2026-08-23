@@ -3,7 +3,7 @@ title: 一堂课程大地图
 type: concept
 subtype: hub
 domain:
-- yitang
+- master
 status: reviewed
 created_at: 2026-05-06
 updated_at: '2026-06-16'
@@ -23,9 +23,14 @@ trust_level: medium
 aliases:
 - 一堂课程大地图
 - 课程大地图
+source_context:
+  - （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+  - yitang
 source_refs:
 - 'src_unknown'
-source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+source_context:
+  - （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+  - yitang
 related:
 - '[[tool-yitang-research-follow-map]]'
 - '[[tool-yitang-research-cross-validation]]'

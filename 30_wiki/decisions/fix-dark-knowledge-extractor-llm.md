@@ -25,6 +25,10 @@ source_refs:
 reviewed_by: pending
 confidence: 0.75
 trust_level: medium
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 萃取器升级：regex → LLM-based 暗知识提取
 

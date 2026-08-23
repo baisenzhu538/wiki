@@ -3,7 +3,8 @@ id: tool-ai-skill-engineering-guide
 title: 高阶 AI Skill 工程指南：用 AI 辅助封装高质量 Skill 的工作流
 type: tool
 status: reviewed
-domain: src-unknown
+domain:
+- kdo
 aliases:
   - Truman
   - 工程指南

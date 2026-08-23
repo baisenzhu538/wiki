@@ -10,9 +10,20 @@ created_at: 2026-08-09
 updated_at: 2026-08-09
 confidence: 0.92
 trust_level: high
-domain: [yitang, management, coaching]
+domain:
+- management
+- coaching
 source_person: Truman
-source_context: 教练式领导力探索营——硬币模型
+source_context:
+  - 教练式领导力探索营——硬币模型
+  - 口述
+  - yitang
+  - 教练式领导力探索营——硬币模型
+  - 口述
+source_context:
+  - 教练式领导力探索营——硬币模型
+  - 口述
+  - yitang
 source_refs:
   - 00_inbox/教练式领导力/教练式领导力课程-01-口述.txt
 aliases: [硬币模型, 加减币, 信任硬币, 领导力储蓄罐, 加硬币, 减硬币, Truman, 教练式领导力课程-01-口述]
@@ -41,7 +52,6 @@ tags:
   - scene:planning
   - 机制
   - 清单
-  - 口述
 quality_labels: [principle, actionable, quotable]
 ---
 

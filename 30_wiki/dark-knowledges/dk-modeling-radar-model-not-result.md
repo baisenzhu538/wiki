@@ -27,7 +27,10 @@ discoverable_by:
 - 拍结果，只让
 - 审模型
 related: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'

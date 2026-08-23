@@ -6,11 +6,13 @@ type: concept
 aliases:
   - 一堂全课程目录索引
   - 全课程目录索引
+source_context:
+  - yitang
 source_refs:
 - src_unknown
 status: reviewed
 domain:
-- yitang
+- content
 yitang:
   map: system
   module: 课程体系

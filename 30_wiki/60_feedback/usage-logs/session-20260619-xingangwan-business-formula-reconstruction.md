@@ -33,12 +33,15 @@ source_refs:
 - src_unknown
 - src_unknown
 tags:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 # 对话记录：鑫港湾业务公式与商业模型计算拆分重构
 

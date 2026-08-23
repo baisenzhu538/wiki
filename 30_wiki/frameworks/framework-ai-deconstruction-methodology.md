@@ -8,14 +8,21 @@ reviewed_by: 待审
 confidence: 0.8
 trust_level: medium
 language: zh-CN
-domain: unknown
+domain:
+- ai-collaboration
+- decision-making
+- human-insights
+- strategy
 aliases: []
 source_refs: null
 related: null
 discoverable_by:
 - 三层拆书法
 - 王欢拆书方法
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 quality_labels: null
 updated_at: '2026-06-30'
 created_at: '2026-06-30'

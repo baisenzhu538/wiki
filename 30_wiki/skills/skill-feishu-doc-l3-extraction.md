@@ -10,7 +10,13 @@ domain:
 - feishu
 - extraction
 - browser-automation
-- yitang
+source_context:
+  - Live
+  - yitang
+  - Live
+source_context:
+  - Live
+  - yitang
 source_refs:
 - capability/duanwangye/feishu-doc-l3-extraction
 author: 段王爷（南帝）
@@ -28,7 +34,6 @@ tags:
   - audience:executor
   - scene:execution
   - skill-level:advanced
-  - Live
 discoverable_by:
 - 飞书文档提取
 - L3提取

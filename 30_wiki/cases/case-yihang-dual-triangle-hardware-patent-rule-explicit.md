@@ -13,7 +13,6 @@ language: zh-CN
 created_at: 2026-07-03
 updated_at: 2026-07-03
 domain:
-- yitang
 - ai-collaboration
 - r-and-d
 - patent
@@ -23,6 +22,8 @@ aliases:
   - 一行双三角案例：硬件公司专利落地的规则显性化与一号位决心
   - 双三角案例
   - 硬件公司专利落地的规则显性化与一号位决心
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/人机协作双三角/【组织】硬件公司专利案例口述.pdf
 - 00_inbox/人机协作双三角/_processed/组织硬件公司专利案例口述_text.md
@@ -44,9 +45,11 @@ related:
 - 专利落地案例
 - 人机协作双三角
 tags:
-- audience:executor
-- scene:reference
-- skill-level:advanced
+  - audience:executor
+  - scene:reference
+  - skill-level:advanced
+  - RAG
+  - 提示词
 ---
 
 # 一行双三角案例：硬件公司专利落地的规则显性化与一号位决心

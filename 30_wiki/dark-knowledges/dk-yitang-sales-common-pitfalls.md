@@ -5,7 +5,12 @@ type: dk
 dark_knowledge_type: failure
 status: reviewed
 source_person: 李蕊
-source_context: 一堂科学销售方法论课程（2026-07-02），销售管理失败模式提炼
+source_context:
+  - 一堂科学销售方法论课程（2026-07-02），销售管理失败模式提炼
+  - 口述
+  - yitang
+  - 一堂科学销售方法论课程（2026-07-02），销售管理失败模式提炼
+  - 口述
 aliases:
 - - - case-yitang-sales-transformation-jubensha-saas
 - - - case-yitang-sales-transformation-meirongyuan
@@ -34,8 +39,13 @@ aliases:
 - 整合笔记
 - 李蕊
 - 科学销售常见陷阱
+source_context:
+  - 一堂科学销售方法论课程（2026-07-02），销售管理失败模式提炼
+  - 口述
+  - yitang
 source_refs: null
-domain: yitang
+domain:
+- content
 discoverable_by:
 - 一堂科学销售常见陷阱：六大反模式与修复动作
 - 一堂科学销售常见陷阱
@@ -48,7 +58,6 @@ tags:
   - 方法
   - 清单
   - 复盘
-  - 口述
 trust_level: high
 reviewed_by: 欧阳锋
 related: null

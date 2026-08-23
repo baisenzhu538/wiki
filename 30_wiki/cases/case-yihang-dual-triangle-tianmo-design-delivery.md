@@ -5,7 +5,6 @@ title: 一行双三角案例：天末4天商业级室内设计交付
 type: case
 status: reviewed
 domain:
-- yitang
 - ai-collaboration
 - design
 - interior-design
@@ -24,6 +23,8 @@ aliases:
   - 双三角案例
   - 天商业级室内设计交付
   - 天末4天商业级室内设计交付
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/人机协作双三角/_processed/天末的案例口述_page001_vlm.md
 - 00_inbox/人机协作双三角/_processed/天末的案例口述_page002_vlm.md
@@ -58,9 +59,14 @@ related:
 - '[[method-dual-triangle-flywheel-engine]]'
 - '[[agent-spec-dual-triangle-canvas-filler]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:advanced
+  - audience:general
+  - scene:reference
+  - skill-level:advanced
+  - 工作流
+  - 协作
+  - 工具
+  - 方法
+  - 边界
 ---
 
 # 一行双三角案例：天末 4 天商业级室内设计交付

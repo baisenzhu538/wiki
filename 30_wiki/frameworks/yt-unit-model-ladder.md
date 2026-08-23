@@ -4,7 +4,6 @@ date: 2026-05-24
 type: framework
 status: reviewed
 domain:
-- yitang
 - decision-science
 id: yt-unit-model-ladder
 author: 老顽童
@@ -18,9 +17,14 @@ aliases:
 - 单元模型六段进阶：从拍脑袋到动态预测
 - 模型六段进阶
 - 脑袋到动态预测
+source_context:
+  - （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+  - yitang
 source_refs:
 - 'src_unknown'
-source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+source_context:
+  - （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+  - yitang
 updated_at: '2026-06-16'
 related:
 - '[[dk-modeling-logical-cleanliness-root]]'

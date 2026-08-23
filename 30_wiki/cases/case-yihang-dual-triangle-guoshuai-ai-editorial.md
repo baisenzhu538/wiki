@@ -13,7 +13,6 @@ created_at: 2026-07-04
 updated_at: 2026-07-04
 domain:
 - ai-collaboration
-- yitang
 aliases:
   - 双三角案例
   - 双三角案例：郭帅AI编辑部智能体拉微信群协作内容生产
@@ -21,6 +20,8 @@ aliases:
   - 编辑部
   - 角案例
   - 郭帅
+source_context:
+  - yitang
 source_refs:
   - src_unknown
 discoverable_by:
@@ -33,9 +34,16 @@ related:
 - '[[case-yihang-dual-triangle-一堂双三角-IP选题智能体挑战交付上限]]'
 - '[[case-yihang-dual-triangle-kunte-virtual-idol]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 知识库
+  - 工作流
+  - Agent
+  - 提示词
+  - 协作
+  - 框架
+  - 边界
 ---
 
 # 双三角案例：郭帅 AI 编辑部——智能体拉微信群协作内容生产

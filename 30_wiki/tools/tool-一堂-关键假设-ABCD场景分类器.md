@@ -12,7 +12,6 @@ language: zh-CN
 created_at: 2026-07-09
 updated_at: 2026-07-09
 domain:
-- yitang
 - key-assumptions
 aliases:
   - 关键假设
@@ -21,6 +20,8 @@ aliases:
   - 工具：关键假设ABCD场景分类器把问题分到商业/决策/增长/转化并标成败效率
   - 把问题分到商业/决策/增长/转化并标成败
   - 效率
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/一堂-关键假设-关键假设ABCD模型_paddle_ocr.txt
 - 00_inbox/一堂-关键假设课-truman-口述.txt L1064-L1074

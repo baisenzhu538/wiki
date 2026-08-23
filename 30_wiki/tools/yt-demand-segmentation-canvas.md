@@ -1,12 +1,17 @@
 ---
-domain: src-unknown
+domain:
+- decision-making
+- kdo
+- strategy
 id: yt-demand-segmentation-canvas
 title: 需求分层画布：从"所有人"到"第一批100个"的结构化工具
 type: tool
 status: reviewed
 confidence: 0.92
 trust_level: high
-source_context: 一堂五步法需求分析——用户分层方法
+source_context:
+  - 一堂五步法需求分析——用户分层方法
+  - 一堂五步法
 aliases:
   - 从所有人到第一批100个的结构化工具
   - 需求分层画布
@@ -43,11 +48,10 @@ diagnostic_signals:
 - framework_lens: 需求分层画布——广度≠深度
   follow_up_question: 竞品服务哪一层？你们服务哪一层？哪一层的需求更痛？
 tags:
-- audience:executor
-- scene:execution
-- skill-level:advanced
-- 一堂五步法
-- 分析段位图
+  - audience:executor
+  - scene:execution
+  - skill-level:advanced
+  - 分析段位图
 ---
 # 需求分层画布：从"所有人"到"第一批100个"的结构化工具
 

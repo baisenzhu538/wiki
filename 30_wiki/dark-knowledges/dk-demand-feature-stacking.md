@@ -12,7 +12,6 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - five-step-method
 aliases:
   - 功能堆叠陷阱
@@ -21,6 +20,8 @@ aliases:
   - 加功能≠满足需求
   - 堆叠陷阱
   - 满足需求
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-方法论-笔记.txt
 discoverable_by:

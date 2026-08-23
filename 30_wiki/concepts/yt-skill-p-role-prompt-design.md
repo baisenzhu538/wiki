@@ -1,7 +1,9 @@
 ---
 id: yt-skill-p-role-prompt-design
 title: P 角色 Prompt 设计——执行者型 AI 的交付规范
-domain: src-unknown
+domain:
+- decision-making
+- design
 diagnostic_signals:
 - framework_lens: I/O 协议 / 角色边界
   follow_up_question: 输出是否触发了用户的'这不是我想要的'二次沟通？

@@ -10,9 +10,16 @@ created_at: 2026-08-09
 updated_at: 2026-08-09
 confidence: 0.88
 trust_level: high
-domain: [yitang, management, coaching]
+domain:
+- management
+- coaching
 source_person: 莫非
-source_context: 教练式领导力探索营——共识目标与猴子理论
+source_context:
+  - 教练式领导力探索营——共识目标与猴子理论
+  - yitang
+source_context:
+  - 教练式领导力探索营——共识目标与猴子理论
+  - yitang
 source_refs:
   - 00_inbox/教练式领导力/教练式领导力课程-02-口述.txt
 aliases: [共识目标, 60分80分100分, 三次跨越, 猴子理论, 说服到自主, 目标共识, 莫非, 教练式领导力课程-02-口述]

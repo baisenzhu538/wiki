@@ -1,12 +1,18 @@
 ---
-domain: src-unknown
+domain:
+- business-formula
+- decision-making
+- strategy
 id: yt-product-kernel-ten-metrics
 title: 产品内核十大典型指标：从假设到验证的数据体系
 type: tool
 status: reviewed
 confidence: 0.92
 trust_level: high
-source_context: 一堂产品内核系列课——十大典型指标
+source_context:
+  - 一堂产品内核系列课——十大典型指标
+  - 一堂五步法
+  - 一堂产品内核十大典型指标
 aliases:
   - 产品内核十大典型指标
   - 产品内核十大典型指标：从假设到验证的数据体系
@@ -42,11 +48,9 @@ diagnostic_signals:
 - framework_lens: 产品内核指标——需要基准和目标
   follow_up_question: 这个指标的基准值是多少？目标值是多少？差距原因是什么？
 tags:
-- audience:executor
-- scene:execution
-- skill-level:advanced
-- 一堂五步法
-- 一堂产品内核十大典型指标
+  - audience:executor
+  - scene:execution
+  - skill-level:advanced
 ---
 # 产品内核十大典型指标：从假设到验证的数据体系
 

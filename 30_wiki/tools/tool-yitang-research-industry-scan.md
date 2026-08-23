@@ -29,7 +29,10 @@ discoverable_by:
 - 行业扫描
 - 快速建立行业全貌认知
 related: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 行业扫描：快速建立行业全貌认知
 

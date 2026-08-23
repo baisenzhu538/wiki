@@ -23,6 +23,10 @@ related:
 - '[[graph-rag-retrieval-layer]]'
 - '[[graph-rag]]'
 - modeling-to-kdo-toolchain
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # Graph RAG 放射状图谱修复提案
 

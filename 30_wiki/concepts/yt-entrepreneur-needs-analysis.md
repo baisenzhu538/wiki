@@ -3,7 +3,9 @@ id: yt-entrepreneur-needs-analysis
 confidence: 0.7
 created_at: 2026-05-06
 difficulty: intermediate
-domain: src-unknown
+domain:
+- decision-making
+- strategy
 estimated_tokens: 3000
 language: zh-CN
 query_triggers:
@@ -36,6 +38,8 @@ reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 aliases:
   - 需求分析
+source_context:
+  - 一堂五步法
 source_refs:
 - 10_raw/sources/src_20260611_375ccfae-一堂-一堂五步法-需求-跑步机案例-需求分析图_paddle_ocr.md
 status: enriched
@@ -60,12 +64,11 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
-- 一堂五步法
-- 跑步机案例
-- 需求分析图
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 跑步机案例
+  - 需求分析图
 ---
 # 需求分析
 

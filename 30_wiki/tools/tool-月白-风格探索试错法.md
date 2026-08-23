@@ -37,6 +37,9 @@ related:
 - '[[dk-yb23-ai-pre-screen-three-minutes]]'
 - '[[tool-月白-基于基础形象做动作延展（1到10）]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 技能：风格探索试错法
 

@@ -27,6 +27,10 @@ related:
 - '[[yt-foresight-deliverables-four-levels]]'
 - '[[contradictions]]'
 - '[[dk-f3-state-json-race-condition]]'
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # Improvement Plan plan_20260501_8001399c
 

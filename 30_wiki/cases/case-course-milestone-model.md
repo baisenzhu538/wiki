@@ -12,7 +12,12 @@ aliases:
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: reviewed
-domain: src-unknown
+domain:
+- content
+- design
+- kdo
+- master
+- strategy
 source_person: Truman
 source_context: 一堂高阶建模能力培训（课程里程碑模型案例），单一口述来源，内容支撑充分但待第二来源交叉验证
 problem_domains:

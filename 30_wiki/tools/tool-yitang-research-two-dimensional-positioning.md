@@ -29,7 +29,10 @@ discoverable_by:
 - 二维定位
 - 找到差异化竞争的坐标
 related: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 二维定位：找到差异化竞争的坐标
 

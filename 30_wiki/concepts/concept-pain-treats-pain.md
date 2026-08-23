@@ -24,6 +24,8 @@ aliases:
 - 拆书会第216期：《成瘾》逐字稿
 - 拆书会第216期
 - 转述自《成瘾》安娜·伦布克
+source_context:
+  - 拆书会
 source_refs:
 - 00_inbox/拆书会第216期：《成瘾》逐字稿.md#L220-L265
 - 00_inbox/拆书会第216期：《成瘾》逐字稿.md#L227-L245
@@ -35,17 +37,16 @@ related:
 - tool-self-binding-three-strategies
 - dk-AI知识库-隐性知识显性化60分原则
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
-- 神经适应
-- 疼痛
-- 边界
-- 反例
-- 激进诚实
-- 实操
-- 拆书会
-- 书籍转述
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 神经适应
+  - 疼痛
+  - 边界
+  - 反例
+  - 激进诚实
+  - 实操
+  - 书籍转述
 ---
 
 # 以痛治痛：主动选择痛苦增强掌控权（+激进诚实+边界反例）

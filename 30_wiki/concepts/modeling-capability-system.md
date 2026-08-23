@@ -2,18 +2,22 @@
 
 domain:
 - modeling
-- yitang
 id: modeling-capability-system
 title: 高阶建模能力体系：一堂从经验到规律的教研方法论
 type: concept
 status: reviewed
-source_context: 一堂 2026-06-12 建模能力培训课程
+source_context:
+  - 一堂 2026-06-12 建模能力培训课程
+  - yitang
 aliases:
   - 一堂从经验到规律的教研方法论
   - 从经验到规律的教研方法论
   - 建模能力体系
   - 高阶建模能力体系
   - 高阶建模能力体系：一堂从经验到规律的教研方法论
+source_context:
+  - 一堂 2026-06-12 建模能力培训课程
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md

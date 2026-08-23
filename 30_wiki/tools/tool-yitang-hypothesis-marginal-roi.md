@@ -12,7 +12,6 @@ language: zh-CN
 created_at: '2026-07-14'
 updated_at: '2026-07-14'
 domain:
-- yitang
 - business-formula
 aliases:
   - 三难题
@@ -21,6 +20,8 @@ aliases:
   - 工具：测试三难题+边际ROI决策框架
   - 测试三难题
   - 边际
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L2960-L3076
 discoverable_by:

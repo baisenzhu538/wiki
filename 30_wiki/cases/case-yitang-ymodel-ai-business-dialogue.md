@@ -12,7 +12,7 @@ language: zh-CN
 created_at: 2026-07-05
 updated_at: 2026-07-05
 domain:
-- yitang
+- strategy
 aliases:
   - AI+Y模型
   - Y模型
@@ -20,6 +20,8 @@ aliases:
   - 充电桩/养老院的黑盒报告
   - 拆开迭代
   - 案例
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/ideas/一堂-个人修身-Y模型探索营2口述版.md
 discoverable_by:

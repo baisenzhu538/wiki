@@ -3,7 +3,8 @@ id: yt-lean-growth-stage-gate
 title: 增长阶段标志：单元模型成立 + 找到增长渠道
 type: framework
 status: draft
-domain: src-unknown
+domain:
+- strategy
 aliases:
   - 单元模型成立
   - 增长渠道

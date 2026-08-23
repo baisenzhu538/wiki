@@ -36,6 +36,9 @@ related:
 - 'tool-月白-AI对话情绪管理法'
 - 'dk-three-context-formula'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 技能：色块分区控制法
 

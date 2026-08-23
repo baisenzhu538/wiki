@@ -25,7 +25,9 @@ aliases:
 - OCR_一堂DOC-20260816003832
 - OCR_一堂DOC-20260816003832.md
 source_person: 马易
-source_context: Live259 爆炸式调研（2026-08-11 口述）——报告价值判断（下 L3826-3848；图 OCR_003832）
+source_context:
+  - Live259 爆炸式调研（2026-08-11 口述）——报告价值判断（下 L3826-3848；图 OCR_003832）
+  - 口述
 source_refs:
 - 00_inbox/爆炸式调研/爆炸式调研-下-口述.txt
 - 00_inbox/爆炸式调研/OCR_一堂DOC-20260816003832.md
@@ -47,7 +49,6 @@ tags:
   - skill-level:beginner
   - 协作
   - 方法
-  - 口述
 ---
 
 # AI 报告价值层级 L1-L6：每级价值×10

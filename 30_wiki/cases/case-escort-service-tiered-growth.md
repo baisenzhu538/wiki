@@ -4,7 +4,8 @@ id: case-escort-service-tiered-growth
 confidence: 0.85
 created_at: 2026-06-10
 difficulty: beginner
-domain: yitang
+domain:
+- strategy
 estimated_tokens: 1800
 language: zh-CN
 query_triggers:
@@ -22,6 +23,8 @@ aliases:
   - 案例
   - 案例：陪诊业务七级演进
   - 陪诊业务七级演进
+source_context:
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260614_eca9f5b3-酒店行业-AI标签审核案例.md
 status: enriched

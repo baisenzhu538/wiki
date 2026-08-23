@@ -2,7 +2,8 @@
 id: find-old-do-small
 title: 找老的干小的：AI落地场景评估框架
 type: tool
-domain: src-unknown
+domain:
+- decision-making
 status: reviewed
 aliases:
   - AI落地场景评估框架

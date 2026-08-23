@@ -3,7 +3,8 @@ id: yt-unit-model-dynamic
 confidence: 0.88
 created_at: 2026-05-24
 difficulty: advanced
-domain: src-unknown
+domain:
+- strategy
 estimated_tokens: 3200
 language: zh-CN
 prerequisites:

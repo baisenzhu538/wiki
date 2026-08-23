@@ -12,7 +12,6 @@ language: zh-CN
 created_at: '2026-07-14'
 updated_at: '2026-07-14'
 domain:
-- yitang
 - business-formula
 aliases:
   - 业务不必从
@@ -21,6 +20,13 @@ aliases:
   - 公式跳级起手
   - 开始
   - 成熟业务不必从
+source_context:
+  - 口述
+  - yitang
+  - 口述
+source_context:
+  - 口述
+  - yitang
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L1538-L1551
 discoverable_by:
@@ -40,7 +46,6 @@ tags:
   - 方法
   - 边界
   - 教练
-  - 口述
 quality_labels:
 - cited
 - framework

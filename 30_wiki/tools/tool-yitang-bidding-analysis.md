@@ -11,7 +11,6 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - 从政府采购反推客户和订单
@@ -19,6 +18,8 @@ aliases:
   - 招投标分析
   - 招投标分析：从政府采购反推客户和订单
   - 标分析
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 discoverable_by:

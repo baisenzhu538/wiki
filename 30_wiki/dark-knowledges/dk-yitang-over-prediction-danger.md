@@ -13,11 +13,12 @@ language: zh-CN
 created_at: 2026-07-04
 updated_at: '2026-07-04'
 domain:
-- yitang
 - decision-science
 aliases:
   - 早期项目长期精确财务预测是过度预测
   - 项目长期精确财务预测是过度预测
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/实事求是/实事求是-周子敬-口述.txt
 - 60_feedback/extractions/extraction-shishi-qiushi-zhouzijing.md

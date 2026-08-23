@@ -3,7 +3,8 @@ id: tool-wanghuan-ai-business-profile
 title: 王欢AI业务档案5字段工具
 type: tool
 status: reviewed
-domain: src-unknown
+domain:
+- kdo
 created_at: '2026-06-19'
 updated_at: '2026-06-28'
 author: 王语嫣

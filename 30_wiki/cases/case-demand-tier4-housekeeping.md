@@ -12,7 +12,6 @@ confidence: 0.82
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
 - five-step-method
 aliases:
   - 四线家政创业
@@ -21,6 +20,8 @@ aliases:
   - 家政创业
   - 案例
   - 案例：四线家政创业天花板误判
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/五步法之需求分析/需求评估避坑合集.md
 discoverable_by:

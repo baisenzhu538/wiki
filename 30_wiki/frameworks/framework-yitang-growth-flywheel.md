@@ -31,7 +31,10 @@ discoverable_by:
 - 增强回路
 - 单点增长系统化
 review_date: '2026-06-28'
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 增长飞轮：把单点增长变成自我强化的增强回路
 

@@ -26,7 +26,10 @@ discoverable_by:
 - 研究型课程无法提前排课表
 - 只能等菜熟了再摘
 related: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: '2026-06-15'

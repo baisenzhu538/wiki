@@ -10,7 +10,8 @@ trust_level: high
 language: zh-CN
 created_at: 2026-07-09
 updated_at: 2026-07-09
-domain: unknown
+domain:
+- decision-making
 source_refs: null
 related: null
 discoverable_by:
@@ -21,7 +22,10 @@ diagnostic_signals:
   lens: 缺迭代——把验证当终点而非贝叶斯更新
   follow-up: 用贝叶斯思维：新证据出现后验概率要更新，定期重估关键假设
 quality_labels: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 aliases: null
 ---
 # 一堂关键假设三板斧（骨架）

@@ -13,7 +13,6 @@ confidence: 0.9
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 difficulty: intermediate
 estimated_tokens: 3500
@@ -32,6 +31,8 @@ aliases:
   - 数人头三板斧
   - 谈话
   - 蹲店
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 00_inbox/调研专题/一堂-系统式调研-口述.txt

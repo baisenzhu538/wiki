@@ -27,7 +27,10 @@ source_refs: null
 related: null
 discoverable_by:
 - FDE AI原生组织
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # FDE 工程 × AI 原生组织——用双三角建中国风格 FD 工程师培养体系
 

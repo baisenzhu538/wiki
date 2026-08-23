@@ -5,7 +5,6 @@ title: ToC 消费品电商：业务公式拆解误判导致放量亏损
 type: case
 status: enriched
 domain:
-- yitang
 - e-commerce
 - business-strategy
 aliases:
@@ -15,6 +14,10 @@ aliases:
   - 品电商
   - 孔阳
   - 消费品电商
+source_context:
+  - 一堂 2026-06-13 业务公式拆解培训，ToC 消费品电商案例
+  - 口述
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral.md
   L532-L650
@@ -28,12 +31,16 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:advanced
-  - 口述
 created_at: '2026-06-14'
 updated_at: '2026-07-14'
 author: 孔阳
 source_person: 孔阳
-source_context: 一堂 2026-06-13 业务公式拆解培训，ToC 消费品电商案例
+source_context:
+  - 一堂 2026-06-13 业务公式拆解培训，ToC 消费品电商案例
+  - 口述
+  - yitang
+  - 一堂 2026-06-13 业务公式拆解培训，ToC 消费品电商案例
+  - 口述
 reviewed_by: 老顽童
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 review_date: '2026-06-14'

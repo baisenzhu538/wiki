@@ -1,5 +1,12 @@
 ---
-domain: src-unknown
+domain:
+- ai-collaboration
+- business-formula
+- decision-making
+- design
+- five-step-method
+- kdo
+- strategy
 id: yt-product-kernel-user-perspective
 title: 用户视角 vs 产品视角：为什么"我觉得好"不等于"用户觉得好"
 type: concept

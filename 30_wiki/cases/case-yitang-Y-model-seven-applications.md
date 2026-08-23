@@ -11,9 +11,10 @@ trust_level: medium
 language: zh-CN
 domain:
 - epistemic-foundations
-- yitang
 source_person: 李善友 / 一堂课程设计；段王爷（作业整理与点评）
-source_context: 一堂底层逻辑域·Y模型课程（2026-07-03），段王爷整理《Y模型火种·科学做事思考合集》
+source_context:
+  - 一堂底层逻辑域·Y模型课程（2026-07-03），段王爷整理《Y模型火种·科学做事思考合集》
+  - yitang
 aliases:
   - Y模型七人跨域应用案例集
   - 一堂课程设计
@@ -21,6 +22,9 @@ aliases:
   - 型七人跨域应用案例集
   - 李善友 / 一堂课程设计；段王爷（作业整理与点评）
   - 段王爷
+source_context:
+  - 一堂底层逻辑域·Y模型课程（2026-07-03），段王爷整理《Y模型火种·科学做事思考合集》
+  - yitang
 source_refs:
 - 00_inbox/底层逻辑之一-Y模型/Y模型实操作业合集-七人逐步骤对标分析-段王爷.md
 - 00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-口述.txt

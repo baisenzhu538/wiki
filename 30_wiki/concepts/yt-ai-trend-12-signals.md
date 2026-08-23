@@ -1,6 +1,6 @@
 ---
 domain:
-- yitang
+- strategy
 id: yt-ai-trend-12-signals
 title: AI趋势12大变化模型
 confidence: 0.85
@@ -22,6 +22,8 @@ updated_at: '2026-07-09'
 aliases:
 - AI趋势12大变化模型
 - 大变化模型
+source_context:
+  - yitang
 source_refs:
   - src_unknown
 discoverable_by:

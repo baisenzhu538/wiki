@@ -11,7 +11,8 @@ quality_labels:
 - validated
 created_at: 2026-06-11
 difficulty: advanced
-domain: src-unknown
+domain:
+- strategy
 estimated_tokens: 3200
 language: zh-CN
 query_triggers:
@@ -41,6 +42,8 @@ aliases:
   - 壁垒识别与构建技能
   - 壁垒识别与构建技能：从真假壁垒到护城河建设
   - 识别与构建技能
+source_context:
+  - 一堂五步法
 source_refs:
 - 10_raw/sources/src_20260611_7c3a2a57-一堂-一堂五步法-壁垒-口述.md
 - 10_raw/sources/src_20260611_89e8a16b-一堂-一堂五步法-壁垒-假的壁垒_paddle_ocr.md
@@ -68,12 +71,11 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
-- 一堂五步法
-- 假的壁垒
-- 规模经济分析武器库
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 假的壁垒
+  - 规模经济分析武器库
 ---
 # 壁垒识别与构建技能：从真假壁垒到护城河建设
 

@@ -2,7 +2,9 @@
 id: ai-learning-closed-loop
 title: AI学习闭环：从听懂到能力的转化路径
 type: concept
-domain: src-unknown
+domain:
+- ai-collaboration
+- kdo
 status: reviewed
 aliases:
   - AI学习闭环

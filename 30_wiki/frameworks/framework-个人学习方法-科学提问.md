@@ -11,7 +11,8 @@ trust_level: high
 language: zh-CN
 created_at: 2026-07-09
 updated_at: 2026-07-09
-domain: unknown
+domain:
+- strategy
 source_refs: null
 related: null
 discoverable_by:
@@ -21,7 +22,10 @@ diagnostic_signals:
   lens: 提问段位低——问题本身决定了答案质量
   follow-up: 用四段位画布精炼问题
 quality_labels: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 aliases: null
 ---
 # 科学提问：AI时代提问=生产力入口

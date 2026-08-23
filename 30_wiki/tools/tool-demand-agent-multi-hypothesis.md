@@ -12,7 +12,6 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - five-step-method
 - ai-collaboration
 aliases:
@@ -22,6 +21,8 @@ aliases:
   - 个核心任务同时推演
   - 多假设并行
   - 核心任务同时推演
+source_context:
+  - yitang
 source_refs: null
 discoverable_by:
   - Agent L3多假设并行：5个核心任务同时推演

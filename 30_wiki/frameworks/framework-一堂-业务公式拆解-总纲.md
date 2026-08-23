@@ -11,7 +11,6 @@ language: zh-CN
 created_at: 2026-07-09
 updated_at: '2026-07-12'
 domain:
-- yitang
 - key-assumptions
 - business-formula
 aliases:
@@ -21,6 +20,8 @@ aliases:
   - 体系的核心骨架与灵魂贯通定性→定量
   - 关键假设
   - 的核心骨架与灵魂贯通定性
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/关键假设C-拆解业务公式/孔源-业务公式拆解-口述.txt L178-L194
 - 00_inbox/关键假设C-拆解业务公式/孔源-业务公式拆解-口述.txt L2474-L2500

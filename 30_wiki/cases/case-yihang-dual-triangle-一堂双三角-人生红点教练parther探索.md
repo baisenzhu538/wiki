@@ -28,7 +28,10 @@ discoverable_by:
 - 一堂双三角
 - 人生红点教练parther探索
 - 双三角案例
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 reviewed_by: pending
 ---
 # 一堂双三角-人生红点教练parther探索

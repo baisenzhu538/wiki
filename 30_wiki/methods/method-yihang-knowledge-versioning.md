@@ -12,7 +12,8 @@ created_at: 2026-07-05
 updated_at: 2026-07-05
 domain:
 - ai-collaboration
-- yitang
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
 related:

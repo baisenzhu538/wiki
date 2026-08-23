@@ -4,14 +4,22 @@ title: 暗知：'愿望思维'是创业最大的陷阱
 type: dk
 status: reviewed
 domain:
-- yitang
 - business-strategy
 source_person: 一堂·Truman
-source_context: 一堂-关键假设课 Truman 口述（涉及商业预判/产品内核案例）
+source_context:
+  - 一堂-关键假设课 Truman 口述（涉及商业预判/产品内核案例）
+  - 口述
+  - yitang
+  - 一堂-关键假设课 Truman 口述（涉及商业预判/产品内核案例）
+  - 口述
 aliases:
 - 愿望思维
 - 创业最大的陷阱
 - 一堂·Truman
+source_context:
+  - 一堂-关键假设课 Truman 口述（涉及商业预判/产品内核案例）
+  - 口述
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260619_97bd6151_00_inbox_一堂_关键假设课_truman_口述.txt
 discoverable_by:
@@ -39,7 +47,6 @@ tags:
   - 方法
   - 创业者
   - 复盘
-  - 口述
 wiki_refs:
 - src_unknown
 - src_unknown

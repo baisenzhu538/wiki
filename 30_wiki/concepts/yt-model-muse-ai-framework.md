@@ -22,16 +22,17 @@ aliases:
 - MUSE人工智能全景图YitangAIMUSEFrameworkV3.0
 - 人工智能全景图
 - 智能全景图
+source_context:
+  - 一堂人工智能全景图
 source_refs:
   - src_unknown
 discoverable_by:
 - MUSE 人工智能全景图 Yitang AI MUSE Fr
 - 人工智能全景图
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
-- 一堂人工智能全景图
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 type: concept
 status: draft
 related:

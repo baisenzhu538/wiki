@@ -13,7 +13,6 @@ confidence: 0.9
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - five-step-method
 aliases:
   - L1粗拆用户标签
@@ -21,6 +20,8 @@ aliases:
   - 任务执行者的核心角色
   - 粗拆用户标签
   - 识别任务执行者的核心角色
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/五步法之需求分析/AI场景推演教练提示词.txt
 - 00_inbox/五步法之需求分析/一堂-需求分析-任务洞察冰山图-详细图解_ocr_text.md

@@ -5,7 +5,12 @@ type: dk
 dark_knowledge_type: failure
 status: reviewed
 source_person: 李善友 / 一堂课程设计
-source_context: 一堂底层逻辑域·Y模型课程（2026-07-03）
+source_context:
+  - 一堂底层逻辑域·Y模型课程（2026-07-03）
+  - 口述
+  - yitang
+  - 一堂底层逻辑域·Y模型课程（2026-07-03）
+  - 口述
 aliases:
 - Y模型常见六大陷阱与反打
 - case-yitang-Y-model-advertising-turnaround
@@ -19,8 +24,13 @@ aliases:
 - 七人逐步骤对标分析
 - 型常见六大陷阱与反打
 - 李善友 / 一堂课程设计
+source_context:
+  - 一堂底层逻辑域·Y模型课程（2026-07-03）
+  - 口述
+  - yitang
 source_refs: null
-domain: yitang
+domain:
+- content
 discoverable_by:
 - Y模型常见六大陷阱与反打
 tags:
@@ -31,7 +41,6 @@ tags:
   - 反例
   - 清单
   - 复盘
-  - 口述
 confidence: 0.85
 trust_level: high
 reviewed_by: 欧阳锋

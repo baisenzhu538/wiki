@@ -3,8 +3,7 @@ id: tool-Truman-科学提问法
 title: 技能：科学提问法
 type: tool
 domain:
-  - ai-collaboration
-  - yitang
+- ai-collaboration
 status: draft
 author: 老顽童
 reviewed_by: pending
@@ -16,8 +15,13 @@ aliases:
   - 技能：科学提问法
   - 提问法
   - 科学提问法
+source_context:
+  - （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+  - yitang
 source_refs: null
-source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+source_context:
+  - （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+  - yitang
 updated_at: '2026-06-16'
 discoverable_by:
   - 技能：科学提问法
@@ -30,9 +34,13 @@ related:
 - '[[tool-月白-文创材质调研与精益选择]]'
 - '[[tool-Truman-问题定义澄清法]]'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:beginner
+  - audience:executor
+  - scene:execution
+  - skill-level:beginner
+  - 协作
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：科学提问法
 

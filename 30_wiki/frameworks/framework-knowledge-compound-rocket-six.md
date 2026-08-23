@@ -12,7 +12,6 @@ created_at: 2026-08-16
 updated_at: 2026-08-16
 domain:
 - knowledge-management
-- yitang
 aliases:
 - 知识复利火箭
 - 火箭六要素
@@ -28,9 +27,17 @@ tags:
   - scene:planning
   - skill-level:intermediate
   - 工具
-  - 口述
 source_person: 楚门
-source_context: AI×知识管理探索营（2026-08-15 晚直播）——知识复利火箭模型
+source_context:
+  - AI×知识管理探索营（2026-08-15 晚直播）——知识复利火箭模型
+  - 口述
+  - yitang
+  - AI×知识管理探索营（2026-08-15 晚直播）——知识复利火箭模型
+  - 口述
+source_context:
+  - AI×知识管理探索营（2026-08-15 晚直播）——知识复利火箭模型
+  - 口述
+  - yitang
 source_refs:
 - 00_inbox/AI知识库/楚门-AI知识管理探索营-口述.txt
 - 00_inbox/AI知识库/OCR_批注 2026-08-15 211608.md

@@ -1,5 +1,6 @@
 ---
-domain: src-unknown
+domain:
+- design
 id: yt-growth-viral-mechanism
 title: 病毒传播：自增长机制设计
 type: concept

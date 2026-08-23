@@ -25,6 +25,10 @@ related:
 - agent-ecosystem-design
 - kdo-protocol-implementation-roadmap
 - '[[kdo-batch-produce-req014]]'
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # Improvement Plan plan_20260501_97170532
 

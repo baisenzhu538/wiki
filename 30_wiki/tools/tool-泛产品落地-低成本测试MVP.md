@@ -11,12 +11,13 @@ confidence: 0.75
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
 - decision-science
 aliases:
   - 低成本测试MVP
   - 落地卡片
   - 落地卡片：低成本测试MVP
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-落地卡片-低成本测试MVP_vlm_desc.md
 discoverable_by:

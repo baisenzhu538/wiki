@@ -28,6 +28,10 @@ related:
 - '[[contradictions]]'
 - '[[plan_20260501_8ecb74e3-improvement-plan]]'
 - '[[plan_20260501_97170532-improvement-plan]]'
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # Improvement Plan plan_20260501_85a84b92
 

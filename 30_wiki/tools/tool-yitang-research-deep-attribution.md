@@ -29,7 +29,10 @@ discoverable_by:
 - 深度归因
 - 找到问题根因的5Why法
 related: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 深度归因：找到问题根因的5Why法
 

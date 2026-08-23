@@ -13,12 +13,13 @@ confidence: 0.9
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 - ai-collaboration
 aliases:
   - AI调研幻觉与浅尝辄止是双生子
   - 调研幻觉与浅尝辄止是双生子
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 discoverable_by:

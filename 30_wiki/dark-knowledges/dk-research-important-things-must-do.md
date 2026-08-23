@@ -14,7 +14,6 @@ updated_at: 2026-08-16
 domain:
 - research
 - decision-making
-- yitang
 aliases:
 - 重要的事应做必做
 - 饱和式输出探索
@@ -24,7 +23,16 @@ aliases:
 - 马易
 - 爆炸式调研-下-口述
 source_person: 马易
-source_context: Live259 爆炸式调研（2026-08-11 口述）——内部磨课总结（下 L4022-4044）
+source_context:
+  - Live259 爆炸式调研（2026-08-11 口述）——内部磨课总结（下 L4022-4044）
+  - 口述
+  - yitang
+  - Live259 爆炸式调研（2026-08-11 口述）——内部磨课总结（下 L4022-4044）
+  - 口述
+source_context:
+  - Live259 爆炸式调研（2026-08-11 口述）——内部磨课总结（下 L4022-4044）
+  - 口述
+  - yitang
 source_refs:
 - 00_inbox/爆炸式调研/爆炸式调研-下-口述.txt
 related:
@@ -51,7 +59,6 @@ tags:
   - skill-level:intermediate
   - 方法
   - 边界
-  - 口述
 ---
 # 重要的事应做必做：饱和式输出探索
 

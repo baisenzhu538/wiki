@@ -12,7 +12,11 @@ updated_at: '2026-07-08'
 confidence: 0.82
 trust_level: high
 language: zh-CN
-domain: unknown
+domain:
+- decision-making
+- design
+- five-step-method
+- kdo
 aliases:
 - 一堂 / 兰毅
 - 一堂五步法在泛产品设计中的应用
@@ -23,6 +27,10 @@ aliases:
 source_refs: null
 source_person: 一堂 / 兰毅
 related: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 discoverable_by:
 - 五步法泛产品设计
 - 五步法产品应用

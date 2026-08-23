@@ -12,8 +12,9 @@ language: zh-CN
 created_at: 2026-07-08
 updated_at: 2026-07-08
 domain:
-- yitang
 - demand-analysis
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-方法论-口述.txt
 - 00_inbox/五步法之需求分析/一堂-需求分析-剥离需求-口述.txt

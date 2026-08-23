@@ -13,7 +13,6 @@ updated_at: 2026-08-19
 domain:
 - knowledge-management
 - research
-- yitang
 aliases:
 - 事实规律洞察
 - 认识他理解他用他
@@ -27,9 +26,17 @@ tags:
   - skill-level:intermediate
   - 框架
   - 方法
-  - 口述
 source_person: 楚门
-source_context: AI×知识管理探索营（2026-08-15 晚直播）——专题学习框架（L2878-2904）
+source_context:
+  - AI×知识管理探索营（2026-08-15 晚直播）——专题学习框架（L2878-2904）
+  - 口述
+  - yitang
+  - AI×知识管理探索营（2026-08-15 晚直播）——专题学习框架（L2878-2904）
+  - 口述
+source_context:
+  - AI×知识管理探索营（2026-08-15 晚直播）——专题学习框架（L2878-2904）
+  - 口述
+  - yitang
 source_refs:
 - 00_inbox/AI知识库/楚门-AI知识管理探索营-口述.txt
 related:

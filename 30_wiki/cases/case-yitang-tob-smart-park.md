@@ -3,7 +3,8 @@ id: case-yitang-tob-smart-park
 title: 案例：智慧园区项目复盘
 type: case
 status: enriched
-domain: src-unknown
+domain:
+- strategy
 aliases:
   - 园区项目复盘
   - 智慧园区项目复盘

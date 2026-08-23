@@ -5,7 +5,9 @@ component_of:
 confidence: 0.82
 created_at: 2026-05-17
 difficulty: intermediate
-domain: src-unknown
+domain:
+- design
+- master
 estimated_tokens: 2600
 language: zh-CN
 prerequisites:

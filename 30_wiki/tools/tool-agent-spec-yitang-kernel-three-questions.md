@@ -12,13 +12,14 @@ language: zh-CN
 created_at: '2026-07-08'
 updated_at: '2026-07-14'
 domain:
-- yitang
 - product-kernel
 - agent
 aliases:
   - 产品内核三问诊断
   - 产品内核三问诊断AgentSpec
   - 内核三问诊断
+source_context:
+  - yitang
 source_refs:
 - .agent/prompts/tool-agent-spec-yitang-kernel-three-questions.md
 tcp_role: C

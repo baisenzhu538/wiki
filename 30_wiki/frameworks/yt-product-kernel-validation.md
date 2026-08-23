@@ -1,14 +1,15 @@
 ---
 domain:
 - product
-- yitang
 id: yt-product-kernel-validation
 title: 产品内核验证：三维度评估 × 六策略阶梯
 type: framework
 status: reviewed
 confidence: 0.94
 trust_level: high
-source_context: 一堂产品内核验证课（2026年）——统一版本，对齐概念卡
+source_context:
+  - 一堂产品内核验证课（2026年）——统一版本，对齐概念卡
+  - yitang
 aliases:
   - 三维度评估
   - 产品内核验证
@@ -18,6 +19,9 @@ aliases:
   - 内核验证
   - 略阶梯
   - 里程碑验证法
+source_context:
+  - 一堂产品内核验证课（2026年）——统一版本，对齐概念卡
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
 - 10_raw/sources/src_20260606_7610584b-一堂-产品内核验证课-truman-笔记.md

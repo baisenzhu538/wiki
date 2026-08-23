@@ -23,7 +23,9 @@ aliases:
 - 马易-SPIN销售方法与AI-口述
 - 马易
 source_person: 马易
-source_context: 拆书会第215期《SPIN 销售巨人》（下）实践篇 + AI 销售协同（2026-08-11 口述）
+source_context:
+  - 拆书会第215期《SPIN 销售巨人》（下）实践篇 + AI 销售协同（2026-08-11 口述）
+  - 口述
 source_refs:
 - 00_inbox/spin销售巨人/马易-SPIN销售方法与AI-口述.txt
 related:
@@ -53,7 +55,6 @@ tags:
   - 框架
   - 方法
   - 边界
-  - 口述
 ---
 
 # AI 销售协同：确定性方法 + 可判断标准的双条件框架

@@ -23,6 +23,8 @@ aliases:
 - 刻意练习十年成长指数
 - 刻意练习十年成长指数：为什么有人一年顶十年
 - 练习十年成长指数
+source_context:
+  - 一堂刻意练习十年成长指数
 source_refs:
   - src_unknown
 discoverable_by:
@@ -30,10 +32,9 @@ discoverable_by:
 - 刻意练习十年成长指数
 - 为什么有人一年顶十年
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
-- 一堂刻意练习十年成长指数
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 type: concept
 status: draft
 related:

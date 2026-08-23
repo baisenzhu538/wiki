@@ -19,6 +19,7 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 机制
 aliases:
   - 双三角案例：酒店 AI 标签审核——边缘切入与沙盒练兵
 discoverable_by:

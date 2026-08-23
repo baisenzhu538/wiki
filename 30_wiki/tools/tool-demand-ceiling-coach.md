@@ -13,7 +13,6 @@ language: zh-CN
 created_at: 2026-07-08
 updated_at: 2026-07-08
 domain:
-- yitang
 - demand-analysis
 aliases:
   - 15分钟对话输出天花板报告
@@ -22,6 +21,8 @@ aliases:
   - 天花板测算教练
   - 天花板测算教练：1015分钟对话输出天花板报告
   - 板测算教练
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-空间测算-口述.txt L322-L344,L1308-L1870
 discoverable_by:

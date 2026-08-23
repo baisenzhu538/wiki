@@ -7,7 +7,10 @@ discoverable_by:
 - CI Implement 阶段工具：洞见嵌入运营节奏
 - 阶段工具
 - 洞见嵌入运营节奏
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 source_person: Truman（一堂）+ Competitive Intelligence Alliance + BestBootcamps
 source_context: CI Operating Model Implement 阶段工具化实现
 aliases:

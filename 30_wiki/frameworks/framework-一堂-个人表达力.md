@@ -12,14 +12,12 @@ tags:
   - skill-level:advanced
   - 框架
   - 反例
-  - 口述
 confidence: 0.9
 trust_level: high
 language: zh-CN
 created_at: 2026-07-10
 updated_at: 2026-08-02
 domain:
-- yitang
 - personal-expression
 - 个人表达力
 - 火箭模型×十指讲香
@@ -32,6 +30,13 @@ aliases:
 - 火箭模型
 - 火箭模型×十指讲香×逐字稿
 - 表达力总框架
+source_context:
+  - 口述
+  - yitang
+  - 口述
+source_context:
+  - 口述
+  - yitang
 source_refs:
 - 00_inbox/一堂-个人修炼-讲香十指模型口述版.txt L36-L80
 - 00_inbox/一堂-个人修炼-讲香基本功_paddle_ocr.txt

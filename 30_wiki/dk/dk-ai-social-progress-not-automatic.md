@@ -16,6 +16,8 @@ domain:
 aliases:
   - 社会进步不是自动的
   - 进步不是自动的
+source_context:
+  - 逐字稿
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
@@ -26,7 +28,6 @@ tags:
   - skill-level:intermediate
   - 协作
   - 机制
-  - 逐字稿
 discoverable_by:
   - 社会进步不是自动的
 related:

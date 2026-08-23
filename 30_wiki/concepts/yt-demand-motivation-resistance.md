@@ -1,5 +1,6 @@
 ---
-domain: src-unknown
+domain:
+- design
 id: yt-demand-motivation-resistance
 title: 需求动机与阻力分析：为什么用户"需要"但"不用"
 type: concept

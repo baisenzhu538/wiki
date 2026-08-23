@@ -12,7 +12,8 @@ aliases:
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: reviewed
-domain: src-unknown
+domain:
+- decision-making
 source_person: Truman
 source_context: 一堂高阶建模能力培训（流程建模/SOP 执行案例）。单一来源，内容充分支撑 medium trust；待补充第二来源或交叉验证后可升至
   high。

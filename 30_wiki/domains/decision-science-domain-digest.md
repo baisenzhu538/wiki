@@ -12,15 +12,16 @@ quality_labels:
 - validated
 created_at: 2026-06-26
 updated_at: 2026-07-12
+source_context:
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md
 tags:
-- decision-science
-- yitang
-- framework
-- audience:ceo
-- scene:reference
-- skill-level:intermediate
+  - audience:ceo
+  - scene:reference
+  - skill-level:intermediate
+  - decision-science
+  - framework
 related:
 - '[[yt-decision-review]]'
 - '[[yt-decision-full-process]]'

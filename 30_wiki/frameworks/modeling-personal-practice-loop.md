@@ -7,13 +7,15 @@ aliases:
   - 建模能力个人修炼闭环
   - 建模能力个人修炼闭环：刻意练习×IPO×PDCA
   - 能力个人修炼闭环
+source_context:
+  - 单一来源为一堂建模能力培训课程口述稿，内容直接来自 Truman 对个人建模能力提升方法的总结，待第二来源或实践验证后提升 trust_level。
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: reviewed
 domain:
-  - modeling
-  - yitang
-  - personal-growth
+- modeling
+- personal-growth
 created_at: '2026-06-14'
 updated_at: '2026-06-18'
 author: 老顽童
@@ -36,7 +38,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
-source_context: 单一来源为一堂建模能力培训课程口述稿，内容直接来自 Truman 对个人建模能力提升方法的总结，待第二来源或实践验证后提升 trust_level。
+source_context:
+  - 单一来源为一堂建模能力培训课程口述稿，内容直接来自 Truman 对个人建模能力提升方法的总结，待第二来源或实践验证后提升 trust_level。
+  - yitang
 diagnostic_signals:
 - src_unknown
 - src_unknown

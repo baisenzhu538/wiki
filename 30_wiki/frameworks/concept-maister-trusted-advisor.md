@@ -3,7 +3,8 @@ id: concept-maister-trusted-advisor
 title: Trusted Advisor：可信顾问信任模型
 type: framework
 status: reviewed
-domain: src-unknown
+domain:
+- strategy
 aliases:
   - TrustedAdvisor：可信顾问信任模型
   - 任度诊断框架

@@ -13,7 +13,6 @@ created_at: 2026-07-05
 updated_at: 2026-07-05
 domain:
 - ai-collaboration
-- yitang
 aliases:
   - 互校验
   - 交叉比对验证法
@@ -21,6 +20,13 @@ aliases:
   - 标准答案时用
   - 比对验证法
   - 没有标准答案时用
+source_context:
+  - 一堂双三角
+  - yitang
+  - 一堂双三角
+source_context:
+  - 一堂双三角
+  - yitang
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角partner的对话记录20260705.md
 discoverable_by:
@@ -33,11 +39,10 @@ related:
 - '[[dk-yitang-over-abstraction]]'
 - '[[dk-yihang-non-expert-judgment]]'
 tags:
-- audience:executor
-- scene:reference
-- skill-level:advanced
-- 一堂双三角
-- 人机协作双三角
+  - audience:executor
+  - scene:reference
+  - skill-level:advanced
+  - 人机协作双三角
 ---
 
 # 多 AI 交叉比对验证法——没有标准答案时用 AI 互校验

@@ -2,7 +2,8 @@
 id: framework-demand-validation-pipeline
 title: 需求验证流水线
 type: framework
-domain: unknown
+domain:
+- decision-making
 status: reviewed
 quality_labels: null
 created_at: 2026-06-28
@@ -30,7 +31,10 @@ discoverable_by:
 - 需求验证流水线
 - 需求验证流程
 - 需求假设验证方法
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 需求验证流水线
 

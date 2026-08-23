@@ -1,5 +1,7 @@
 ---
-domain: src-unknown
+domain:
+- decision-making
+- kdo
 id: yt-product-kernel-add-subtract
 title: 产品内核的加减法：什么该加，什么该减
 type: concept

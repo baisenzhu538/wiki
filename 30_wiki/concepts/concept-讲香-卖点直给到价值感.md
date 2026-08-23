@@ -12,7 +12,6 @@ language: zh-CN
 created_at: 2026-07-10
 updated_at: 2026-08-02
 domain:
-- yitang
 - personal-expression
 - 卖点直给
 - 价值感
@@ -24,6 +23,13 @@ aliases:
   - 直给到价值感
   - 讲香
   - 讲香卖点直给到价值感：为什么十指讲香不是花活
+source_context:
+  - 口述
+  - yitang
+  - 口述
+source_context:
+  - 口述
+  - yitang
 source_refs:
 - 00_inbox/一堂-个人修炼-讲香十指模型口述版.txt L36-L80
 - 10_raw/sources/src_20260802_讲香基本功-李頔-口述.txt
@@ -51,7 +57,6 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:advanced
-  - 口述
 discoverable_by:
 - "讲香是什么"
 - "十指讲香为什么不是花活"

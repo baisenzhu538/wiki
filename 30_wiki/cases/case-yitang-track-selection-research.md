@@ -12,7 +12,6 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - 一堂赛道选择
@@ -21,6 +20,8 @@ aliases:
   - 用调研方法论选创业方向
   - 研方法论选创业方向
   - 赛道选择
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/一堂-系统式调研-口述.txt
 discoverable_by:

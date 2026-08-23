@@ -10,9 +10,20 @@ created_at: 2026-08-09
 updated_at: 2026-08-09
 confidence: 0.88
 trust_level: high
-domain: [yitang, management, coaching]
+domain:
+- management
+- coaching
 source_person: 莫非
-source_context: 教练式领导力探索营——教练沟通武器库·反馈区
+source_context:
+  - 教练式领导力探索营——教练沟通武器库·反馈区
+  - 口述
+  - yitang
+  - 教练式领导力探索营——教练沟通武器库·反馈区
+  - 口述
+source_context:
+  - 教练式领导力探索营——教练沟通武器库·反馈区
+  - 口述
+  - yitang
 source_refs:
   - 00_inbox/教练式领导力/VLM_武器库_完整迭代版.md
   - 00_inbox/教练式领导力/教练式领导力课程-02-口述.txt
@@ -50,7 +61,6 @@ tags:
   - 框架
   - 方法
   - 教练
-  - 口述
 quality_labels: [actionable, insight, validated]
 ---
 

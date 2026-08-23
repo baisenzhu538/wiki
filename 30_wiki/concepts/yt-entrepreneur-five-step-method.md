@@ -9,7 +9,8 @@ quality_labels:
 - validated
 created_at: 2026-05-06
 difficulty: intermediate
-domain: src-unknown
+domain:
+- strategy
 estimated_tokens: 1868
 language: zh-CN
 query_triggers:
@@ -58,6 +59,8 @@ reviewed_by: 王语嫣
 aliases:
   - 一堂五步法
   - 五步法
+source_context:
+  - 一堂五步法画布
 source_refs:
 - 10_raw/sources/src_20260614_8f80cb0f-一堂-课程地图精华串讲.md
 - 10_raw/sources/src_20260510_1eb77650-一堂五步法画布yitangfive-stepcanvas.md
@@ -95,12 +98,11 @@ updated_at: '2026-06-16'
 author: 老顽童
 review_date: 2026-06-15
 tags:
-- audience:executor
-- scene:execution
-- skill-level:advanced
-- 一堂五步法画布
-- 产品内核
-- 单元模型
+  - audience:executor
+  - scene:execution
+  - skill-level:advanced
+  - 产品内核
+  - 单元模型
 ---
 # 一堂五步法
 

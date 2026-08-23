@@ -12,7 +12,6 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - 支撑
@@ -21,6 +20,8 @@ aliases:
   - 理想调研目标三原则：敏感短期支撑
   - 短期
   - 调研目标三原则
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/理想调研三原则_ocr_text.md
 discoverable_by:

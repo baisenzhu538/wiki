@@ -5,10 +5,10 @@ title: 鑫港湾自助棋牌室：把"流量×转化×客单×复购"四参数�
 type: case
 status: enriched
 domain:
-- yitang
 - business-formula
 source_person: 子澄（鑫港湾西安代理）/金哥（新业务负责人），一堂课程讲师转述访谈
 source_context: 一堂「关键假设·业务公式」参数探索篇案例 2（L654-L886），一堂访谈鑫港湾西安代理后复盘：美团/抖音流量+小程序的自助棋牌室，从外行级四参数公式迭代到几十个参数，西安单店营业额达全国平均
+  - yitang
   1.5 倍+、一年半回本、一年开 100+ 店全国第一
 aliases:
   - 一年半回本

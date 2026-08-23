@@ -14,7 +14,6 @@ created_at: 2026-07-05
 updated_at: 2026-07-05
 domain:
 - ai-collaboration
-- yitang
 aliases:
   - 15分钟出租车
   - 先加后减
@@ -22,6 +21,13 @@ aliases:
   - 画布筹备三原则：花总转折/先加后减/15分钟出租车
   - 筹备三原则
   - 花总转折
+source_context:
+  - 一堂双三角
+  - yitang
+  - 一堂双三角
+source_context:
+  - 一堂双三角
+  - yitang
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
 discoverable_by:
@@ -36,11 +42,10 @@ related:
 - '[[framework-yihang-dual-triangle-ai-landing-five-steps]]'
 - '[[case-yihang-dual-triangle-jumi-canvas-demo]]'
 tags:
-- audience:executor
-- scene:reference
-- skill-level:advanced
-- 一堂双三角
-- 人机协作双三角
+  - audience:executor
+  - scene:reference
+  - skill-level:advanced
+  - 人机协作双三角
 ---
 
 # 画布筹备三原则：花总转折 / 先加后减 / 15分钟出租车

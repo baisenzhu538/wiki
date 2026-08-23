@@ -9,7 +9,8 @@ reviewed_at: 2026-07-04
 confidence: 0.75
 trust_level: medium
 language: zh-CN
-domain: unknown
+domain:
+- kdo
 aliases:
 - audience:executor
 - scene:execution
@@ -24,7 +25,10 @@ discoverable_by:
 - 建立你的最佳实践知识库
 related: null
 updated_at: '2026-06-29'
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 最佳实践池子：建立你的最佳实践知识库
 

@@ -11,7 +11,6 @@ trust_level: high
 language: zh-CN
 domain:
 - strategy
-- yitang
 - product
 aliases:
   - 借流量工具
@@ -19,6 +18,8 @@ aliases:
   - 有流量测试
   - 用现有流量测试
   - 量工具
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212323_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212323_vlm_desc.md

@@ -3,7 +3,8 @@ id: framework-yitang-jiefang-sixiang
 title: 解放思想：不被行业常识和既有框架绑架
 type: framework
 status: reviewed
-domain: yitang
+domain:
+- strategy
 confidence: 0.86
 trust_level: high
 language: zh-CN
@@ -20,6 +21,8 @@ aliases:
 - 被行业常识绑架
 - 解放思想
 - 解放思想：不被行业常识和既有框架绑架
+source_context:
+  - yitang
 source_refs: null
 related: null
 discoverable_by:

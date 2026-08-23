@@ -3,9 +3,12 @@ id: tool-半肥猫-course-to-skill-workflow
 title: 课程→Skill八步工作流：从结构化内容到可复用AI技能的完整转化
 type: tool
 status: reviewed
-domain: src-unknown
+domain:
+- kdo
 source_person: 半肥猫
-source_context: AI俱乐部·AI学习落地（2026-06分享）
+source_context:
+  - AI俱乐部·AI学习落地（2026-06分享）
+  - 半肥猫
 aliases:
   - 从结构化内容到可复用AI技能的完整转化
   - 半肥猫
@@ -62,11 +65,10 @@ diagnostic_signals:
 - lens: 版权风险
   follow_up: 步骤1前必须确认授权，未经授权的课程转Skill涉及版权风险
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
-- 俱乐部
-- 半肥猫
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 俱乐部
 ---
 # 课程→Skill八步工作流：从结构化内容到可复用AI技能的完整转化
 

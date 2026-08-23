@@ -10,7 +10,6 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
 - decision-science
 aliases:
   - 两种典型思考习惯
@@ -18,6 +17,8 @@ aliases:
   - 典型思考习惯
   - 效果导向
   - 效率导向
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-高度-两种典型的思考习惯_vlm_desc.md
 discoverable_by:

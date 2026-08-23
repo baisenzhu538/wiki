@@ -12,7 +12,6 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - 亚马逊榜单
@@ -20,6 +19,8 @@ aliases:
   - 市场的品类趋势
   - 海外市场的品类趋势
   - 逊榜单
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
   - src_unknown

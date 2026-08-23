@@ -22,6 +22,8 @@ related:
 aliases:
 - 分析完整
 - 壁垒分析完整cheatsheet
+source_context:
+  - yitang
 source_refs:
   - src_unknown
 tags:
@@ -34,7 +36,8 @@ tags:
   - 沉没成本
 type: concept
 status: draft
-domain: yitang
+domain:
+- kdo
 ---
 # 壁垒分析完整cheatsheet
 

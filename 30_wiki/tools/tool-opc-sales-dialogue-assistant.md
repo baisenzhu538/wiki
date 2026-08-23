@@ -12,14 +12,22 @@ language: zh-CN
 domain:
 - ai-collaboration
 - business-strategy
-- yitang
 source_person: 李蕊
-source_context: 一堂科学销售方法论课程（2026-07-02），销售专题九层深挖诊断，OPC 智能体 MVP 规格
+source_context:
+  - 一堂科学销售方法论课程（2026-07-02），销售专题九层深挖诊断，OPC 智能体 MVP 规格
+  - 整合笔记
+  - yitang
+  - 一堂科学销售方法论课程（2026-07-02），销售专题九层深挖诊断，OPC 智能体 MVP 规格
+  - 整合笔记
 aliases:
   - OPC销售对话助手智能体
   - 对话助手智能体
   - 李蕊
   - 销售对话助手智能体
+source_context:
+  - 一堂科学销售方法论课程（2026-07-02），销售专题九层深挖诊断，OPC 智能体 MVP 规格
+  - 整合笔记
+  - yitang
 source_refs:
 - 00_inbox/销售专题/_processed/销售专题_整合笔记.md
 - 60_feedback/diagnosis/diag_20260702_yitang-scientific-sales-methodology.md
@@ -90,10 +98,9 @@ domain_sources:
 - 30_wiki/tools/tool-一堂-阻力消除12策小抄.md
 - 30_wiki/frameworks/framework-一堂-动力三曲线.md
 tags:
-- audience:executor
-- scene:execution
-- skill-level:advanced
-- 整合笔记
+  - audience:executor
+  - scene:execution
+  - skill-level:advanced
 ---
 # OPC 销售对话助手智能体
 

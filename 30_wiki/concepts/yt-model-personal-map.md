@@ -3,7 +3,10 @@ id: yt-model-personal-map
 confidence: 0.85
 created_at: 2026-05-07
 difficulty: foundational
-domain: src-unknown
+domain:
+- content
+- kdo
+- management
 estimated_tokens: 1825
 language: zh-CN
 query_triggers:

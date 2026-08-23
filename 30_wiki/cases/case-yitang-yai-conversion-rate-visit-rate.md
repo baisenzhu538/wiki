@@ -10,7 +10,6 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - ai-collaboration
 - business-formula
 aliases:
@@ -20,6 +19,8 @@ aliases:
   - 智慧药柜电话到访率10%→30%五阻力拆解
   - 转化率
   - 转化率agent
+source_context:
+  - yitang
 source_refs:
 - C:/Users/Administrator/Desktop/YAI/转化率agent-我们是专门做软硬件一体化的公司，我们有智....md
 discoverable_by:

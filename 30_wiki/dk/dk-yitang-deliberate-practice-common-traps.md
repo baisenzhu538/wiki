@@ -4,7 +4,6 @@ type: dk
 title: 刻意练习常见陷阱：老学员最容易踩的 7 个坑
 status: reviewed
 domain:
-- yitang
 - personal-growth
 confidence: 0.8
 trust_level: high
@@ -28,6 +27,13 @@ aliases:
 - 刻意练习常见陷阱：老学员最容易踩的7个坑
 - 练习常见陷阱
 - 老学员最容易踩的
+source_context:
+  - 口述
+  - yitang
+  - 口述
+source_context:
+  - 口述
+  - yitang
 source_refs:
 - 00_inbox/元能力-刻意练习/truman-刻意练习-口述.txt
 - 00_inbox/元能力-刻意练习/truman-刻意练习-笔记.txt
@@ -48,7 +54,6 @@ tags:
   - 方法
   - 清单
   - 复盘
-  - 口述
 ---
 
 # 刻意练习常见陷阱：老学员最容易踩的 7 个坑

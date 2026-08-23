@@ -10,7 +10,6 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - decision-science
 - ai-collaboration
 aliases:
@@ -20,6 +19,8 @@ aliases:
   - 关键决策agent
   - 岁创业者的留
   - 走与赛道选择
+source_context:
+  - yitang
 source_refs:
 - C:/Users/Administrator/Desktop/YAI/关键决策agent-我现在面临重大的人生方向选择的 (1).md
 discoverable_by:

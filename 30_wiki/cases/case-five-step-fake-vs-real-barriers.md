@@ -2,7 +2,8 @@
 id: case-five-step-fake-vs-real-barriers
 title: 案例：五步法中识别真壁垒和假壁垒
 type: case
-domain: src-unknown
+domain:
+- strategy
 aliases:
 - Truman
 - 五步法中识别真壁垒和假壁垒

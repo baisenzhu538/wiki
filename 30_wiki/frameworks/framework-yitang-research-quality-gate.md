@@ -5,7 +5,10 @@ type: framework
 status: reviewed
 confidence: 0.92
 trust_level: high
-domain: src-unknown
+domain:
+- decision-making
+- kdo
+- strategy
 aliases:
   - 六维门禁
   - 六维门禁判断调研是否足够好

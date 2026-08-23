@@ -3,7 +3,8 @@ id: yt-note-ai-human-division
 title: AI时代笔记分工边界：人在哪里，AI在哪里
 type: concept
 status: reviewed
-domain: src-unknown
+domain:
+- ai-collaboration
 version: 1
 difficulty: intermediate
 confidence: 0.72
@@ -32,6 +33,10 @@ aliases:
   - 人在哪里
   - 在哪里
   - 时代笔记分工边界
+source_context:
+  - 时代清单体笔记
+  - 时代请单体笔记
+  - 清单体笔记系统故事线
 source_refs:
 - 10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md
 - 10_raw/sources/src_20260606_db4fc211-一堂-AI时代请单体笔记-Truman-口述-02.md
@@ -67,12 +72,9 @@ author: 老顽童
 reviewed_by: 欧阳锋
 trust_level: medium
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
-- 时代清单体笔记
-- 时代请单体笔记
-- 清单体笔记系统故事线
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # AI时代笔记分工边界：人在哪里，AI在哪里
 

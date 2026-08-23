@@ -4,7 +4,6 @@ title: 技能：结构化AI工作空间搭建
 type: tool
 domain:
 - ai-collaboration
-- yitang
 - ai-saas
 status: draft
 author: unknown
@@ -18,8 +17,13 @@ aliases:
 - 技能：结构化AI工作空间搭建
 - 结构化
 - 结构化AI工作空间搭建
+source_context:
+  - （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+  - yitang
 source_refs: null
-source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+source_context:
+  - （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+  - yitang
 updated_at: '2026-06-16'
 discoverable_by:
 - 技能：结构化AI工作空间搭建

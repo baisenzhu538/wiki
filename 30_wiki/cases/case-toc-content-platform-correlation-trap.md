@@ -5,7 +5,6 @@ title: ToC 内容付费平台：把“流量↑转化率↓”当因果导致的
 type: case
 status: enriched
 domain:
-- yitang
 - content
 - business-strategy
 aliases:
@@ -15,6 +14,9 @@ aliases:
   - 孔阳
   - 当因果导致的投放崩盘
   - 把“流量↑转化率↓”当因果导致的投放崩盘
+source_context:
+  - 一堂 2026-06-13 业务公式拆解培训，逻辑关系章节中的错误示范
+  - yitang
 source_refs:
   - src_unknown
   - src_unknown
@@ -39,7 +41,9 @@ created_at: '2026-06-16'
 updated_at: '2026-06-29'
 author: 孔阳
 source_person: 孔阳
-source_context: 一堂 2026-06-13 业务公式拆解培训，逻辑关系章节中的错误示范
+source_context:
+  - 一堂 2026-06-13 业务公式拆解培训，逻辑关系章节中的错误示范
+  - yitang
 reviewed_by: 老顽童
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 review_date: '2026-06-16'

@@ -13,7 +13,6 @@ language: zh-CN
 created_at: 2026-07-08
 updated_at: 2026-07-08
 domain:
-- yitang
 - demand-analysis
 aliases:
   - 体感访谈脚本生成器
@@ -22,6 +21,8 @@ aliases:
   - 微观体感访谈脚本生成器
   - 微观体感访谈脚本生成器：基于L4崩溃点生成5感访谈问题
   - 感访谈问题
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-方法论-口述.txt L1074-L1126
 - 00_inbox/五步法之需求分析/一堂-需求分析-剥离需求-口述.txt L1228-L1232,L1336-L1342

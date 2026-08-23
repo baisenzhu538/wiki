@@ -45,6 +45,9 @@ related:
 - '[[tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]'
 - '[[yt-product-kernel-mvp-design]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 技能：设计项目MVP拆解法
 

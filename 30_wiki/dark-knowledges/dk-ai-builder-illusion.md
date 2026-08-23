@@ -21,6 +21,8 @@ aliases:
   - 做出东西
   - 完成从
   - 幻觉
+source_context:
+  - 口述
 source_refs:
 - 00_inbox/AI前哨站第2集/AI前哨站第2集-水水拆书.md
 - 00_inbox/AI前哨站第2集/水水-AI前哨-第二期-口述.txt
@@ -37,7 +39,6 @@ tags:
   - skill-level:intermediate
   - 方法
   - 创业者
-  - 口述
 quality_labels:
 - insight
 - actionable

@@ -12,7 +12,6 @@ confidence: 0.9
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - 国家数据查询
@@ -20,6 +19,8 @@ aliases:
   - 威的宏观数据来源
   - 数据查询
   - 最权威的宏观数据来源
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 discoverable_by:

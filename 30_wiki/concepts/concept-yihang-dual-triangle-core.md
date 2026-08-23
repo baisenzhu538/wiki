@@ -12,7 +12,6 @@ language: zh-CN
 created_at: 2026-07-03
 updated_at: 2026-07-11
 domain:
-- yitang
 - ai-collaboration
 - personal-os
 - organizational-transformation
@@ -22,6 +21,8 @@ aliases:
   - 人机协作的元模型
   - 协作的元模型
   - 双三角
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-逐字稿.md
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-笔记.txt
@@ -120,9 +121,16 @@ related:
 - '[[tool-yitang-dual-triangle-agent-handoff-protocol]]'
 - '[[tool-yitang-dual-triangle-scenario-router]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:advanced
+  - audience:general
+  - scene:reference
+  - skill-level:advanced
+  - 知识库
+  - Agent
+  - 提示词
+  - 协作
+  - 框架
+  - 工具
+  - 边界
 ---
 
 # 一行双三角：人机协作的元模型

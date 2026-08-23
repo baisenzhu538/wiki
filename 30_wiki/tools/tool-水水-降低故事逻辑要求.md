@@ -2,7 +2,10 @@
 id: tool-水水-降低故事逻辑要求
 title: 技能：降低故事逻辑要求
 type: tool
-domain: unknown
+domain:
+- content
+- design
+- human-insights
 status: reviewed
 author: unknown
 reviewed_by: 欧阳锋
@@ -24,7 +27,10 @@ discoverable_by:
 - 技能：降低故事逻辑要求
 - 降低故事逻辑要求
 related: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 技能：降低故事逻辑要求
 

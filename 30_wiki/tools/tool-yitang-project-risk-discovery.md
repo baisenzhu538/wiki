@@ -13,11 +13,12 @@ language: zh-CN
 created_at: 2026-07-08
 updated_at: 2026-07-08
 domain:
-- yitang
 - management
 aliases:
   - signal: 项目启动时觉得"没什么风险"，做到一半才发现全是坑
   - 项目常见风险发现七维度清单
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/管项目/项目管理-定方案-常见风险清单_vlm_desc.md
 discoverable_by:

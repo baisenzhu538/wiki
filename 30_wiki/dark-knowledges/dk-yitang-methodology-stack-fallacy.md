@@ -13,13 +13,14 @@ language: zh-CN
 created_at: 2026-07-04
 updated_at: '2026-07-04'
 domain:
-- yitang
 - decision-science
 aliases:
   - 不如不懂
   - 方法论金句堆叠乱用
   - 方法论金句堆叠乱用，不如不懂
   - 论金句堆叠乱用
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/实事求是/实事求是-周子敬-口述.txt
 - 60_feedback/extractions/extraction-shishi-qiushi-zhouzijing.md

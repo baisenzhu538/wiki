@@ -1,5 +1,8 @@
 ---
-domain: src-unknown
+domain:
+- decision-making
+- five-step-method
+- kdo
 id: yt-growth-product-led-growth
 title: 产品驱动增长：PLG模式
 type: concept

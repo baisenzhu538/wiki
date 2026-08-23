@@ -12,7 +12,6 @@ language: zh-CN
 created_at: 2026-07-05
 updated_at: 2026-07-05
 domain:
-- yitang
 - decision-science
 aliases:
   - 实事求是十坑
@@ -21,6 +20,8 @@ aliases:
   - 早期项目
   - 求是十坑过度预测
   - 过度预测
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/实事求是/实事求是-周子敬-口述.txt
 - 00_inbox/实事求是/_processed/实事求是-大坑之五-过度预测_vlm.md

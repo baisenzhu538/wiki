@@ -3,7 +3,11 @@ id: yt-unit-model-selection
 confidence: 0.8
 created_at: 2026-05-24
 difficulty: intermediate
-domain: src-unknown
+domain:
+- content
+- decision-making
+- kdo
+- strategy
 estimated_tokens: 2600
 language: zh-CN
 prerequisites:

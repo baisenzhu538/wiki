@@ -13,7 +13,6 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 difficulty: intermediate
 estimated_tokens: 2000
@@ -29,6 +28,8 @@ aliases:
   - 报告可信度评估
   - 行业报告可信度评估
   - 行业报告可信度评估：多信数据，少信观点
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/Doris-行业报告调研-口述.txt
 - 00_inbox/调研专题/Doris-行业报告调研-笔记.txt

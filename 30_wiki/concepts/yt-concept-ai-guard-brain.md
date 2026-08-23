@@ -7,10 +7,16 @@ aliases:
 - 守脑如玉
 - 守脑如玉：AI时代保持大脑锋利
 - 时代保持大脑锋利
+source_context:
+  - 拆书会
 source_refs:
 - 10_raw/sources/一堂-拆书会-吴恩达提示词课程.md
 status: reviewed
-domain: src-unknown
+domain:
+- ai-collaboration
+- content
+- kdo
+- strategy
 language: zh-CN
 version: 1
 difficulty: intermediate
@@ -54,11 +60,10 @@ author: 老顽童
 reviewed_by: 欧阳锋
 trust_level: high
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
-- 吴恩达提示词课程
-- 拆书会
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 吴恩达提示词课程
 ---
 # 守脑如玉：AI 时代保持大脑锋利
 

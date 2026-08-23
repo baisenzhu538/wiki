@@ -12,13 +12,14 @@ confidence: 0.82
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - 假装订货套取麻将机竞品数据
   - 案例
   - 案例：假装订货套取麻将机竞品数据
   - 订货套取麻将机竞品数据
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 discoverable_by:

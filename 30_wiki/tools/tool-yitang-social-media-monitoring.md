@@ -13,12 +13,13 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - 持续追踪竞对的公开动态
   - 社交媒体监控
   - 社交媒体监控：持续追踪竞对的公开动态
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 discoverable_by:

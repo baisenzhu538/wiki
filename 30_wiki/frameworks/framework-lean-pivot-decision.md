@@ -11,7 +11,8 @@ created_at: 2026-06-23
 confidence: 0.85
 trust_level: high
 language: zh-CN
-domain: unknown
+domain:
+- strategy
 aliases:
 - audience:ceo
 - scene:diagnosis

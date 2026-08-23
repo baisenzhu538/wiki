@@ -12,7 +12,6 @@ language: zh-CN
 created_at: 2026-07-12
 updated_at: '2026-07-12'
 domain:
-- yitang
 - business-formula
 aliases:
   - 判断一个参数还值不值得砸资源
@@ -21,6 +20,8 @@ aliases:
   - 对标
   - 差距
   - 成熟度
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1838-L1856
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L3118-L3148

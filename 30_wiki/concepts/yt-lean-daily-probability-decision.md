@@ -3,7 +3,8 @@ id: yt-lean-daily-probability-decision
 title: 假设驱动日常决策三问
 type: concept
 status: draft
-domain: src-unknown
+domain:
+- decision-making
 aliases:
   - 假设驱动日常决策三问
   - 驱动日常决策三问

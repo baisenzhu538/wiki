@@ -13,11 +13,12 @@ language: zh-CN
 created_at: 2026-07-08
 updated_at: 2026-07-08
 domain:
-- yitang
 - management
 aliases:
   - signal: 项目出问题后手忙脚乱，没有分级应对预案
   - 项目风险四级应对执行清单
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/管项目/项目管理-定方案-常见风险应对清单_vlm_desc.md
 discoverable_by:

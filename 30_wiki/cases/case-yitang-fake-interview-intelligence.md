@@ -12,13 +12,14 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - 假扮面试发现行业红利退潮
   - 案例
   - 案例：假扮面试发现行业红利退潮
   - 面试发现行业红利退潮
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
 discoverable_by:

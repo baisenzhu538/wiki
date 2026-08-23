@@ -13,15 +13,19 @@ domain:
 - personal-os
 - project
 - ai-collaboration
-- yitang
 source_person: Truman / 一堂课程体系
-source_context: 一堂项目管理方法论课程（2026-07-08），项目背景分析专题深挖补产
+source_context:
+  - 一堂项目管理方法论课程（2026-07-08），项目背景分析专题深挖补产
+  - yitang
 aliases:
   - Truman / 一堂课程体系
   - 一堂课程体系
   - 背景分析
   - 项目背景分析
   - 项目背景分析AgentSpec
+source_context:
+  - 一堂项目管理方法论课程（2026-07-08），项目背景分析专题深挖补产
+  - yitang
 source_refs:
 - .agent/prompts/tool-agent-spec-yitang-project-background-analysis.md
 discoverable_by:

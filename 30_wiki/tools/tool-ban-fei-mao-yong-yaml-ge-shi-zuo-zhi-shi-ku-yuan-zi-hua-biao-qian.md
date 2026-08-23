@@ -4,16 +4,24 @@ title: 技能：用 YAML 格式做知识库原子化标签
 type: tool
 status: reviewed
 domain:
-  - ai-collaboration
-  - yitang
+- ai-collaboration
 source_person: 半肥猫
-source_context: AI俱学乐部-AI学习落地 分享
+source_context:
+  - AI俱学乐部-AI学习落地 分享
+  - 半肥猫
+  - yitang
+  - AI俱学乐部-AI学习落地 分享
+  - 半肥猫
 aliases:
   - 做知识库原子化标签
   - 半肥猫
   - 技能
   - 技能：用YAML格式做知识库原子化标签
   - 格式做知识库原子化标签
+source_context:
+  - AI俱学乐部-AI学习落地 分享
+  - 半肥猫
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md
 tools_required: null
@@ -41,11 +49,10 @@ trust_level: medium
 diagnostic_signals: null
 pipeline: null
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
-- 半肥猫
-- 学习落地
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 学习落地
 ---
 # 技能：用 YAML 格式做知识库原子化标签
 

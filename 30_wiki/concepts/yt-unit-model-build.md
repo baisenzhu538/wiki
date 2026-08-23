@@ -40,6 +40,8 @@ reviewed_by: 王语嫣
 aliases:
   - 单元模型搭建五步法
   - 模型搭建五步法
+source_context:
+  - 一堂五步法
 source_refs:
 - 10_raw/sources/src_20260611_c0e6e182-一堂-一堂五步法-单元模型-口述.md
 - 10_raw/sources/src_20260611_3725d306-一堂-一堂五步法-单元模型-笔记.md
@@ -68,11 +70,10 @@ diagnostic_signals:
   follow_up_question: 扩大10倍后，租金、人工、采购、管理成本分别怎么变？有没有哪个成本项会非线性上升？
 author: 老顽童
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
-- 一堂五步法
-- 单元模型
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 单元模型
 ---
 
 # 单元模型搭建五步法

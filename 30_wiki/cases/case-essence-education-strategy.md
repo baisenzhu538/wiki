@@ -9,15 +9,19 @@ aliases:
   - 本质与战略本质的提炼
   - 案例
   - 案例：教育本质与战略本质的提炼
+source_context:
+  - 一堂高阶建模能力培训（本质建模案例）
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: reviewed
 domain:
-- yitang
 - modeling
 - strategy
 source_person: Truman
-source_context: 一堂高阶建模能力培训（本质建模案例）
+source_context:
+  - 一堂高阶建模能力培训（本质建模案例）
+  - yitang
 created_at: '2026-06-14'
 updated_at: '2026-06-18'
 author: 老顽童

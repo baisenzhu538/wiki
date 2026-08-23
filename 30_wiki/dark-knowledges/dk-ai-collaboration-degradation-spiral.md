@@ -14,13 +14,19 @@ created_at: 2026-07-05
 updated_at: 2026-07-05
 domain:
 - ai-collaboration
-- yitang
 aliases:
   - 人机协作退化螺旋
   - 人机协作退化螺旋：飞轮反转的两种死亡模式
   - 协作退化螺旋
   - 反转的两种死亡模式
   - 飞轮反转的两种死亡模式
+source_context:
+  - 一堂双三角
+  - yitang
+  - 一堂双三角
+source_context:
+  - 一堂双三角
+  - yitang
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
 discoverable_by:
@@ -58,11 +64,10 @@ related:
 - '[[tool-nine-character-mantra-14-strategies]]'
 - '[[tool-sales-objection-dilution]]'
 tags:
-- audience:executor
-- scene:reference
-- skill-level:advanced
-- 一堂双三角
-- 人机协作双三角
+  - audience:executor
+  - scene:reference
+  - skill-level:advanced
+  - 人机协作双三角
 ---
 
 # 人机协作退化螺旋：飞轮反转的两种死亡模式

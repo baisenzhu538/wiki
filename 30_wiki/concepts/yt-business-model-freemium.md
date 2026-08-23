@@ -1,5 +1,6 @@
 ---
-domain: src-unknown
+domain:
+- strategy
 id: yt-business-model-freemium
 title: 免费增值模式：获客与变现的平衡
 type: concept

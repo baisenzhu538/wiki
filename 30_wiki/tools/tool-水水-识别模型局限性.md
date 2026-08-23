@@ -2,7 +2,12 @@
 id: tool-水水-识别模型局限性
 title: 技能：识别模型局限性
 type: tool
-domain: unknown
+domain:
+- content
+- decision-making
+- design
+- human-insights
+- strategy
 status: draft
 author: unknown
 reviewed_by: pending
@@ -23,7 +28,10 @@ discoverable_by:
 - 技能：识别模型局限性
 - 识别模型局限性
 related: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 技能：识别模型局限性
 

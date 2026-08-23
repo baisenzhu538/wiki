@@ -12,13 +12,14 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - 出境游产业链拆解
   - 案例
   - 案例：出境游产业链拆解
   - 游产业链拆解
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/Doris-行业报告调研-笔记.txt
 discoverable_by:

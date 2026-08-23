@@ -5,7 +5,6 @@ type: concept
 title: 练习区域分层：舒适区、拉伸区、困难区、恐慌区
 status: reviewed
 domain:
-- yitang
 - personal-growth
 confidence: 0.8
 trust_level: medium
@@ -30,6 +29,8 @@ aliases:
   - 练习区域分层
   - 练习区域分层：舒适区、拉伸区、困难区、恐慌区
   - 舒适区
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/元能力-刻意练习/truman-刻意练习-口述.txt
 - 00_inbox/元能力-刻意练习/truman-刻意练习-笔记.txt

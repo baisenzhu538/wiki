@@ -8,7 +8,8 @@ author: 老顽童
 reviewed_by: 欧阳锋
 updated_at: '2026-06-29'
 language: zh-CN
-domain: yitang
+domain:
+- strategy
 confidence: 0.75
 trust_level: medium
 discoverable_by:
@@ -22,6 +23,8 @@ aliases:
   - 光谱模型定位法
   - 技能
   - 技能：光谱模型定位法
+source_context:
+  - yitang
 source_refs:
 tags:
   - audience:executor

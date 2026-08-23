@@ -12,7 +12,6 @@ confidence: 0.82
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
 - five-step-method
 aliases:
   - 三层任务
@@ -21,6 +20,8 @@ aliases:
   - 案例：马术三层任务功能/情感/社交的完美展演
   - 社交的完美展演
   - 马术三层任务
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-方法论-笔记.txt
 discoverable_by:

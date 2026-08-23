@@ -6,6 +6,8 @@ status: reviewed
 aliases:
   - 一堂课程地图精华串讲
   - 课程地图精华串讲
+source_context:
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260506_13e7bbca-值班主.md
 - 10_raw/sources/src_20260507_3f2ac357-值班主.md
@@ -17,7 +19,8 @@ quality_labels:
 - quality
 - validated
 created_at: 2026-05-05
-domain: yitang
+domain:
+- strategy
 yitang:
   module: 课程体系总览
   course_type: method

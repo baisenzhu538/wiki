@@ -1,17 +1,21 @@
 ---
 
 domain:
-- yitang
 - research
 id: yt-research-industry-canvas
 title: 行业画布分析框架
 type: framework
 status: reviewed
-source_context: 一堂商业调研课程——行业分析画布
+source_context:
+  - 一堂商业调研课程——行业分析画布
+  - yitang
 source_person: 一堂
 aliases:
   - 画布分析框架
   - 行业画布分析框架
+source_context:
+  - 一堂商业调研课程——行业分析画布
+  - yitang
 source_refs:
   - src_unknown
 created_at: '2026-06-20'

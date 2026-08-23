@@ -6,11 +6,12 @@ type: framework
 domain:
 - learning-methodology
 - personal-growth
-- yitang
 status: reviewed
 aliases:
   - 刻意练习四要素
   - 练习四要素
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/元能力-刻意练习/我和一堂YAI关于刻意练习的对话.md
 - 00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md

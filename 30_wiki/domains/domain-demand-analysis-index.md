@@ -4,7 +4,6 @@ title: 域索引：需求分析
 type: index
 domain:
 - demand-analysis
-- yitang
 status: reviewed
 quality_labels:
 - cited
@@ -17,6 +16,8 @@ reviewed_by: 欧阳锋
 review_date: 2026-06-28
 confidence: 0.8
 trust_level: high
+source_context:
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md
 related:

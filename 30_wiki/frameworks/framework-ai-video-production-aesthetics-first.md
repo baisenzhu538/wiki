@@ -37,7 +37,10 @@ related: null
 discoverable_by:
 - AI产品审美体系
 - 审美定义结果体系重复
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 query_triggers: null
 ---
 # AI产品开发·审美与体系的分工

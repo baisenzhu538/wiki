@@ -8,7 +8,6 @@ status: reviewed
 domain:
 - human-ai-collaboration
 - ai-collaboration
-- yitang
 discoverable_by:
   - 王欢暗知识：输出质量 = 标准 × 迭代
   - 王欢暗知识
@@ -24,7 +23,9 @@ reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 source_person: 王欢
-source_context: 王欢 AI 实战分享课后问答（2026-06-18）
+source_context:
+  - 王欢 AI 实战分享课后问答（2026-06-18）
+  - yitang
 aliases:
   - 标准
   - 王欢
@@ -32,6 +33,9 @@ aliases:
   - 王欢暗知识：输出质量=标准×迭代
   - 输出质量
   - 迭代
+source_context:
+  - 王欢 AI 实战分享课后问答（2026-06-18）
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260619_536bca67_wanghuan_actor_director_oral.txt
 - 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt

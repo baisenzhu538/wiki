@@ -10,7 +10,6 @@ confidence: 0.75
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
 - decision-science
 aliases:
   - 作品想象
@@ -18,6 +17,8 @@ aliases:
   - 到终局再倒推路径
   - 美好作品想象
   - 美好作品想象：先看到终局再倒推路径
+source_context:
+  - yitang
 source_refs:
 - src_unknown
 discoverable_by:

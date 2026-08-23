@@ -2,7 +2,8 @@
 id: framework-decision-quality-checklist
 title: 决策质量六问检查表
 type: framework
-domain: unknown
+domain:
+- decision-making
 status: reviewed
 quality_labels: null
 created_at: 2026-06-28

@@ -29,7 +29,10 @@ discoverable_by:
 - 竞对跟踪
 - 持续监控竞争对手的动态与策略
 related: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 竞对跟踪：持续监控竞争对手的动态与策略
 

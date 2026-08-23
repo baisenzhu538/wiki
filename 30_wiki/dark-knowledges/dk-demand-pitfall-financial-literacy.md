@@ -9,7 +9,6 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - five-step-method
 aliases:
   - 会付费
@@ -18,6 +17,8 @@ aliases:
   - 少儿财商刚性误判
   - 踩坑
   - 踩坑：少儿财商刚性误判。用户说重要≠会付费
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/五步法之需求分析/需求评估避坑合集.md
 discoverable_by:

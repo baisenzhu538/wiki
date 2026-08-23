@@ -12,7 +12,6 @@ language: zh-CN
 created_at: 2026-07-07
 updated_at: 2026-07-07
 domain:
-- yitang
 - management
 aliases:
   - 从经验中挖金矿
@@ -21,6 +20,8 @@ aliases:
   - 项目复盘
   - 项目复盘：美团16字原则从经验中挖金矿
   - 验中挖金矿
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/管项目/项目管理-做复盘-口述.txt
 - 00_inbox/管项目/项目管理-做复盘-笔记.txt

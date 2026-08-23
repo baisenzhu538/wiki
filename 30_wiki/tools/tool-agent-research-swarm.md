@@ -6,7 +6,10 @@ domain: research
 discoverable_by:
 - Agent 调研 Swarm 模式工具
 - 模式工具
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 source_person: LangChain Team（Will Fu-Hinthorn）+ Kimi Team + Truman（一堂）
 source_context: LangChain 官方 Swarm 架构 benchmark + Kimi Deep Research Swarm 生产案例
 aliases:

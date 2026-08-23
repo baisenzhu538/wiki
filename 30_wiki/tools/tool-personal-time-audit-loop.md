@@ -6,7 +6,6 @@ type: tool
 status: reviewed
 domain:
 - personal-growth
-- yitang
 confidence: 0.85
 trust_level: medium
 author: 老顽童
@@ -17,6 +16,13 @@ updated_at: '2026-07-01'
 aliases:
   - 个人时间审计与实验循环
   - 时间审计与实验循环
+source_context:
+  - 整合笔记
+  - yitang
+  - 整合笔记
+source_context:
+  - 整合笔记
+  - yitang
 source_refs:
 - 00_inbox/时间管理/truman-时间管理课程-口述.txt
 - 00_inbox/时间管理/truman-时间管理课程-笔记.txt
@@ -36,11 +42,10 @@ related:
 - '[[case-yitang-copywriting-time-decomposition]]'
 - '[[case-yitang-200th-launch-depth-split]]'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
-- 修炼进阶图
-- 整合笔记
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 修炼进阶图
 ---
 
 # 个人时间审计与实验循环

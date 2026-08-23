@@ -12,7 +12,6 @@ language: zh-CN
 created_at: 2026-07-09
 updated_at: 2026-07-09
 domain:
-- yitang
 - key-assumptions
 - business-formula
 aliases:
@@ -22,6 +21,8 @@ aliases:
   - 工具：业务公式L1L6参数分层自检看得清/讲得明/做得准+符号因果校验
   - 看得清/讲得明/做得准
   - 符号因果校验
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/关键假设C-拆解业务公式/孔源-业务公式拆解-冰山模型图_paddle_ocr.txt
 - 00_inbox/关键假设C-拆解业务公式/孔源-业务公式拆解-6层逻辑关系图_paddle_ocr.txt

@@ -29,7 +29,10 @@ follow_up: 检查是否仍在演员模式执行单点任务，而非导演模式
 related: null
 discoverable_by:
 - 王欢AI五层跃迁
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 王欢AI能力五层跃迁模型
 

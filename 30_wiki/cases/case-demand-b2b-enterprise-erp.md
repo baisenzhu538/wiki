@@ -5,7 +5,6 @@ title: ToB 企业 ERP 需求分析案例
 type: case
 domain:
 - demand-analysis
-- yitang
 status: reviewed
 discoverable_by:
   - ToB 企业 ERP 需求分析案例
@@ -26,6 +25,13 @@ aliases:
   - 企业
   - 分析案例
   - 需求分析案例
+source_context:
+  - 决策高度实操课口述
+  - yitang
+  - 决策高度实操课口述
+source_context:
+  - 决策高度实操课口述
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md
 related:
@@ -39,11 +45,10 @@ related:
 - '[[case-demand-b2c-consumer-insight]]'
 - '[[domain-demand-analysis-index]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
-- 决策高度实操课口述
-- 科学决策
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 科学决策
 ---
 
 # ToB 企业 ERP 需求分析案例

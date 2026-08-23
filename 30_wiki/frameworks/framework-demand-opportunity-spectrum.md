@@ -10,7 +10,8 @@ created_at: 2026-06-21
 confidence: 0.88
 trust_level: high
 language: zh-CN
-domain: unknown
+domain:
+- strategy
 aliases:
 - audience:ceo
 - scene:diagnosis
@@ -33,7 +34,10 @@ discoverable_by:
 - 需求机会预判
 - 创业机会怎么判断
 updated_at: '2026-06-29'
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 商业机会预判·终局光谱图
 

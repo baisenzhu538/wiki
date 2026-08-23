@@ -13,7 +13,8 @@ source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 - 10_raw/sources/src_20260614_623cfbfd-高阶建模-流程建模.md
 status: reviewed
-domain: src-unknown
+domain:
+- decision-making
 discoverable_by:
   - 清单/小抄建模法：把经验变成可执行的检查点
   - 清单/小抄建模法

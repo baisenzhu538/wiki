@@ -10,12 +10,13 @@ confidence: 0.8
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
 - decision-science
 aliases:
   - 决策深度L2
   - 决策深度L2：部分定量
   - 部分定量
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-L2部分定量_vlm_desc.md
 discoverable_by:

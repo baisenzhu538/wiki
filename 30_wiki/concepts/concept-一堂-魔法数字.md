@@ -12,7 +12,6 @@ language: zh-CN
 created_at: 2026-07-12
 updated_at: '2026-07-12'
 domain:
-- yitang
 - business-formula
 aliases:
   - 一个价值百万千万
@@ -21,6 +20,8 @@ aliases:
   - 找到一个价值百万千万
   - 魔法数字
   - 魔法数字：前置动作的拐点指标，找到一个价值百万千万
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2830-L2940
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2946-L3004

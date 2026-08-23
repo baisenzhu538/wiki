@@ -13,11 +13,12 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - 决心比技巧重要
   - 调研决心比技巧重要
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 discoverable_by:

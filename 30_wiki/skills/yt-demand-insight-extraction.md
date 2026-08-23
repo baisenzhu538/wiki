@@ -1,6 +1,5 @@
 ---
 domain:
-- yitang
 - demand-analysis
 id: yt-demand-insight-extraction
 title: 从用户访谈中提取真实需求：访谈技巧与偏见规避
@@ -8,7 +7,12 @@ type: skill
 status: reviewed
 confidence: 0.92
 trust_level: high
-source_context: 一堂五步法需求分析——用户访谈方法
+source_context:
+  - 一堂五步法需求分析——用户访谈方法
+  - yitang
+source_context:
+  - 一堂五步法需求分析——用户访谈方法
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md
 - 10_raw/sources/src_20260522_11af6cd2-ocr-泛产品设计-用户卡片-需求挖掘.md

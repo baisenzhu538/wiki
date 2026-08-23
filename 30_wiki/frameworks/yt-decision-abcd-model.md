@@ -3,7 +3,6 @@ type: framework
 id: yt-decision-abcd-model
 status: reviewed
 domain:
-- yitang
 - decision-science
 author: 老顽童
 reviewed_by: 欧阳锋
@@ -22,6 +21,8 @@ aliases:
 - 关键假设
 - 关键假设ABCD模型
 - 模型
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-关键假设ABCD模型_vlm_desc.md
 - 10_raw/ocr-cards/ocr-一堂-科学决策-关键假设abcd模型.md

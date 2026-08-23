@@ -13,9 +13,10 @@ trust_level: medium
 language: zh-CN
 domain:
 - lean-startup
-- yitang
 source_person: 一堂课程讲师（教学案例）
-source_context: 一堂精益创业·低成本验证·系统测试曲线课程讲义
+source_context:
+  - 一堂精益创业·低成本验证·系统测试曲线课程讲义
+  - yitang
 aliases:
   - 一堂课程讲师（教学案例）
   - 堕落小龙虾组合测试
@@ -23,6 +24,9 @@ aliases:
   - 教学案例
   - 案例
   - 案例：堕落小龙虾组合测试
+source_context:
+  - 一堂精益创业·低成本验证·系统测试曲线课程讲义
+  - yitang
 source_refs:
 - 00_inbox/精益创业/堕落小龙虾组合测试实验_ocr_text.md
 - 00_inbox/精益创业/堕落小龙虾组合测试实验_vlm_desc.md

@@ -16,6 +16,10 @@ source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_43_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_43_vlm_desc.md
 - 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 discoverable_by:
   - 案例：良品铺子——涨价暴跌→换代言+新媒体+品类拓展+区域扩
   - 良品铺子

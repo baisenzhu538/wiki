@@ -13,7 +13,6 @@ language: zh-CN
 created_at: 2026-07-04
 updated_at: '2026-07-04'
 domain:
-- yitang
 - decision-science
 aliases:
   - 创业方法
@@ -21,6 +20,8 @@ aliases:
   - 对立金句的适用场景判断
   - 金句的适用场景判断
   - 面清单
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/实事求是/实事求是-周子敬-口述.txt
 - 60_feedback/extractions/extraction-shishi-qiushi-zhouzijing.md

@@ -9,12 +9,13 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
 - decision-science
 aliases:
   - 澄清五层结构
   - 边界与
   - 问题边界与Problem澄清五层结构
+source_context:
+  - yitang
 source_refs:
 - src_unknown
 related:

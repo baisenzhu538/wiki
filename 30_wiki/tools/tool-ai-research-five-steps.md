@@ -27,7 +27,10 @@ discoverable_by:
 related: null
 created_at: 2026-06-11
 updated_at: 2026-07-02
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 pipeline: null
 reviewed_by: laowantong
 author: 半肥猫

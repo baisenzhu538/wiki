@@ -3,7 +3,8 @@ id: sk-ai-evidence-check
 title: 技能：AI输出证据核查三问法
 type: tool
 status: reviewed
-domain: unknown
+domain:
+- ai-collaboration
 author: 半肥猫
 reviewed_by: 欧阳锋
 confidence: 0.88
@@ -26,7 +27,10 @@ discoverable_by:
 - 技能：AI输出证据核查三问法
 - AI输出证据核查三问法
 related: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 created_at: '2026-06-06'
 updated_at: '2026-06-18'
 tools_required: null

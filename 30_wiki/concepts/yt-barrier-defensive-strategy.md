@@ -1,5 +1,6 @@
 ---
-domain: src-unknown
+domain:
+- strategy
 id: yt-barrier-defensive-strategy
 title: 防御策略：守住壁垒
 type: concept

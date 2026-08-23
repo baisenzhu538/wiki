@@ -13,12 +13,18 @@ language: zh-CN
 created_at: 2026-07-08
 updated_at: 2026-07-08
 domain:
-- yitang
 - five-step-method
 aliases:
   - ToB五步法十八式速查
   - ToB五步法十八式速查：必知必会导航
   - 必知必会导航
+source_context:
+  - 一堂五步法
+  - yitang
+  - 一堂五步法
+source_context:
+  - 一堂五步法
+  - yitang
 source_refs:
 - 00_inbox/一堂五步法/一堂-toB五步法-必知必会十八式-图片_paddle_ocr.txt
 discoverable_by:
@@ -40,11 +46,10 @@ diagnostic_signals:
 quality_labels:
 - actionable
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
-- 一堂五步法
-- 五步法
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 五步法
 ---
 
 # ToB五步法十八式速查

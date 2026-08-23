@@ -31,7 +31,9 @@ tags:
 - skill-level:intermediate
 type: concept
 status: draft
-domain: unknown
+domain:
+- ai-collaboration
+- decision-making
 ---
 - [[紫鲸ai智能体工作流平台]]
 

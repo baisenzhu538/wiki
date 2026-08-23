@@ -8,7 +8,9 @@ author: 老顽童
 reviewed_by: 欧阳锋
 updated_at: '2026-06-29'
 language: zh-CN
-domain: yitang
+domain:
+- decision-making
+- kdo
 confidence: 0.75
 trust_level: medium
 discoverable_by:
@@ -22,6 +24,8 @@ aliases:
   - 内核要素三问验证法
   - 技能
   - 技能：内核要素三问验证法
+source_context:
+  - yitang
 source_refs:
 tags:
   - audience:executor

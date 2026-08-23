@@ -12,7 +12,6 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - Fund级别的调研武器
@@ -20,6 +19,8 @@ aliases:
   - 替代数据总览
   - 替代数据总览：HedgeFund级别的调研武器
   - 级别的调研武器
+source_context:
+  - yitang
 source_refs:
 - src_unknown
 - src_unknown

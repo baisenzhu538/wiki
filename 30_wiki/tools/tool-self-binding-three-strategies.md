@@ -24,6 +24,8 @@ aliases:
 - 拆书会第216期：《成瘾》逐字稿
 - 拆书会第216期
 - 转述自《成瘾》安娜·伦布克
+source_context:
+  - 拆书会
 source_refs:
 - 00_inbox/拆书会第216期：《成瘾》逐字稿.md#L179-L215
 - 00_inbox/拆书会第216期：《成瘾》逐字稿.md#L181-L215
@@ -38,17 +40,16 @@ related:
 - framework-AI知识库-加卡片加标签双原则
 - framework-yitang-six-layer-cross-validation
 tags:
-- audience:general
-- scene:execution
-- skill-level:intermediate
-- 行为设计
-- 自我约束
-- 工具
-- 物理隔离
-- 时间窗口
-- 避坑
-- 拆书会
-- 门禁
+  - audience:general
+  - scene:execution
+  - skill-level:intermediate
+  - 行为设计
+  - 自我约束
+  - 工具
+  - 物理隔离
+  - 时间窗口
+  - 避坑
+  - 门禁
 ---
 
 # 自我约束三策略：物理/时间/分类（含 KDO 门禁哲学同构对照）

@@ -13,7 +13,6 @@ language: zh-CN
 created_at: 2026-07-03
 updated_at: 2026-07-03
 domain:
-- yitang
 - ai-collaboration
 - hospitality
 - content-moderation
@@ -24,6 +23,8 @@ aliases:
   - 双三角案例
   - 标签审核的边缘切入与沙盒练兵
   - 酒店AI标签审核的边缘切入与沙盒练兵
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/人机协作双三角/【组织】酒店行业-AI标签审核案例.png
 - 00_inbox/人机协作双三角/【组织】酒店行业AI标签案例口述.pdf
@@ -47,9 +48,10 @@ related:
 - 标签审核案例
 - '[[agent-spec-dual-triangle-canvas-filler]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:advanced
+  - audience:general
+  - scene:reference
+  - skill-level:advanced
+  - 机制
 ---
 
 # 一行双三角案例：酒店 AI 标签审核的边缘切入与沙盒练兵

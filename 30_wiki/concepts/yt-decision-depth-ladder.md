@@ -25,7 +25,8 @@ source_refs:
 - 10_raw/sources/src_20260522_3693c090-ocr-一堂-科学决策-深度-你的业务是一次抽样实验.md
 - 10_raw/sources/src_20260522_4f3415a1-ocr-一堂-科学决策-深度-决策经验值.md
 status: reviewed
-domain: src-unknown
+domain:
+- strategy
 language: zh-CN
 version: 1
 difficulty: intermediate

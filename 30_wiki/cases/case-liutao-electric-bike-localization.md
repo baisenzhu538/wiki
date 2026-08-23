@@ -12,7 +12,6 @@ confidence: 0.82
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - 从0调研目标市场
@@ -21,6 +20,8 @@ aliases:
   - 电动车出海本地化
   - 调研目标市场
   - 车出海本地化
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
 discoverable_by:

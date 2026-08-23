@@ -38,6 +38,9 @@ related:
 - '[[yt-decision-depth-ladder]]'
 - '[[tool-strategy-industry-chain-analysis]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 技能：资深设计师AI工具切换法
 

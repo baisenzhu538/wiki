@@ -20,10 +20,10 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
 - business-formula
 source_person: Truman（一堂主讲）
 source_context: 一堂「关键假设·业务公式·逻辑关系篇」口述课，L2→L3 找因果环节：先出十道相关关系题辨真伪因果，再连讲四个「老板锁错 KPI +
+  - yitang
   聪明下属」的反噬案例，收尾给出归因规律
 aliases:
   - Truman（一堂主讲）

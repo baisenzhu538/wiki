@@ -12,12 +12,13 @@ language: zh-CN
 created_at: 2026-07-03
 updated_at: 2026-07-03
 domain:
-- yitang
 - ai-collaboration
 - planning
 aliases:
   - 一行双三角画布三版合一
   - 双三角画布三版合一
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-清单版画布.png
 - 00_inbox/人机协作双三角/一堂双三角-解释版画布.png

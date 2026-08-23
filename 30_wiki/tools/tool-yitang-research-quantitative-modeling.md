@@ -29,7 +29,10 @@ discoverable_by:
 - 定量建模
 - 用数字说话的分析框架
 related: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 定量建模：用数字说话的分析框架
 

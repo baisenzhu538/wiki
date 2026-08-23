@@ -1,18 +1,22 @@
 ---
 
 domain:
-- yitang
 - research
 id: yt-research-osl-framework
 title: OSCAR 商业调研框架
 type: framework
 status: reviewed
-source_context: 一堂商业调研课程——OSCAR 框架总览
+source_context:
+  - 一堂商业调研课程——OSCAR 框架总览
+  - yitang
 source_person: 一堂
 aliases:
   - OSCAR商业调研框架
   - 商业调研框架
   - 调研框架
+source_context:
+  - 一堂商业调研课程——OSCAR 框架总览
+  - yitang
 source_refs:
   - src_unknown
 created_at: '2026-06-20'

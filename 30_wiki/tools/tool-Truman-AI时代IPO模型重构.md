@@ -3,8 +3,7 @@ id: tool-Truman-AI时代IPO模型重构
 title: 技能：AI时代IPO模型重构
 type: tool
 domain:
-  - ai-collaboration
-  - yitang
+- ai-collaboration
 status: draft
 author: 老顽童
 reviewed_by: pending
@@ -16,9 +15,14 @@ aliases:
   - 技能
   - 技能：AI时代IPO模型重构
   - 模型重构
+source_context:
+  - （原 legacy，已从 title/context/filename 推断为 src_20260609_03491271）
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset.md
-source_context: （原 legacy，已从 title/context/filename 推断为 src_20260609_03491271）
+source_context:
+  - （原 legacy，已从 title/context/filename 推断为 src_20260609_03491271）
+  - yitang
 updated_at: '2026-06-29'
 discoverable_by:
   - 技能：AI时代IPO模型重构

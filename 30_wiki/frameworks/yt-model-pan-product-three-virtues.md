@@ -5,7 +5,6 @@ title: 泛产品三大自我修养：用户价值×最佳实践×无限进步
 status: reviewed
 domain:
 - panproduct
-- yitang
 - personal-development
 - design-thinking
 confidence: 0.82
@@ -27,6 +26,8 @@ aliases:
 - 泛产品三大自我修养
 - 泛产品三大自我修养：用户价值×最佳实践×无限进步
 - 用户价值×最佳实践×无限进步
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/泛产品设计/一堂-泛产品设计课程-口述.txt
 - 00_inbox/泛产品设计/一堂-泛产品设计课程-笔记.txt

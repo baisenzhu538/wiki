@@ -13,9 +13,13 @@ language: zh-CN
 domain:
 - time-management
 - personal-productivity
-- yitang
 source_person: Truman（一堂学员/时间管理经验分享者）
-source_context: 一堂时间管理域案例分享（2026-07-01），个人实验记录
+source_context:
+  - 一堂时间管理域案例分享（2026-07-01），个人实验记录
+  - 整合笔记
+  - yitang
+  - 一堂时间管理域案例分享（2026-07-01），个人实验记录
+  - 整合笔记
 aliases:
   - Truman通勤实验：用时间审计把废时间变成产能杠杆
   - Truman（一堂学员/时间管理经验分享者）
@@ -23,6 +27,10 @@ aliases:
   - 用时间审计把废时间变成产能杠杆
   - 通勤实验
   - 间审计把废时间变成产能杠杆
+source_context:
+  - 一堂时间管理域案例分享（2026-07-01），个人实验记录
+  - 整合笔记
+  - yitang
 source_refs:
 - 00_inbox/时间管理/truman-时间管理课程-口述.txt
 - 00_inbox/时间管理/truman-时间管理课程-笔记.txt
@@ -43,11 +51,10 @@ related:
 created_at: 2026-07-04
 updated_at: '2026-07-04'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
-- 整合笔记
-- 时间管理
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 时间管理
 ---
 
 # Truman 通勤实验：用时间审计把「废时间」变成产能杠杆

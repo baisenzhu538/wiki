@@ -11,7 +11,6 @@ language: zh-CN
 created_at: 2026-07-09
 updated_at: 2026-07-13
 domain:
-- yitang
 - key-assumptions
 aliases:
   - 一堂关键假设
@@ -20,6 +19,8 @@ aliases:
   - 成败/效率定位器
   - 效率定位器
   - 模型YitangABCDStrategyModel
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/一堂-关键假设-关键假设ABCD模型_paddle_ocr.txt
 - 00_inbox/一堂-关键假设课-truman-口述.txt L364-L402,L1064-L1074

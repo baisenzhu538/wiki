@@ -3,7 +3,8 @@ id: tool-纪浩-Agent技能市场设计法
 title: 技能：Agent技能市场设计法
 type: tool
 status: reviewed
-domain: src-unknown
+domain:
+- ai-collaboration
 source_person: 纪浩
 source_context: AI俱乐部·人和AI协作（第三次分享，2026-06）
 aliases:

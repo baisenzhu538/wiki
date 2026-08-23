@@ -28,7 +28,10 @@ follow_up: 设定一周后的使用复盘，若无人使用则回任务层重验
 related: null
 discoverable_by:
 - 王欢第一个产品五条标准
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 王欢：选第一个产品场景的五条标准
 

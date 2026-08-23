@@ -13,7 +13,6 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 difficulty: intermediate
 estimated_tokens: 2500
@@ -29,6 +28,8 @@ aliases:
   - 从合作方口中拿到竞对的水下数据
   - 供应链/合作方情报
   - 供应链/合作方情报：从合作方口中拿到竞对的水下数据
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 discoverable_by:

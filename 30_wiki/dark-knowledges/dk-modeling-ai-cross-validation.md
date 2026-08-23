@@ -15,11 +15,11 @@ source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: reviewed
 domain:
-- yitang
 - ai-collaboration
 - skill-engineering
 source_person: Truman
 source_context: 一堂高阶建模能力培训（AI Skill 工程指南产出过程） （单一 source 为完整长文档，内容充分支撑 high trust）
+  - yitang
   （单一 source，P1 收尾时从 high 降为 medium，待补充第二来源或充分验证后再升回 high）
 discoverable_by:
   - 拿友商报告撞自己的模型：交叉验证是防止自我陶醉的必需步骤

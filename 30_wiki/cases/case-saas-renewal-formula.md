@@ -5,11 +5,12 @@ title: ToB 企业培训 SaaS：续费率 50%→80% 不是靠催费，而是让�
 type: case
 status: reviewed
 domain:
-- yitang
 - ai-saas
 - business-strategy
 source_person: 孔阳
-source_context: 一堂 2026-06-13 业务公式拆解培训，ToB 企业培训 SaaS 续费案例（持续复购型）
+source_context:
+  - 一堂 2026-06-13 业务公式拆解培训，ToB 企业培训 SaaS 续费案例（持续复购型）
+  - yitang
 aliases:
   - ToB企业培训SaaS：续费率50%→80%不是靠催费，而是让客户用起来
   - 不是靠催费
@@ -17,6 +18,9 @@ aliases:
   - 孔阳
   - 续费率
   - 而是让客户用起来
+source_context:
+  - 一堂 2026-06-13 业务公式拆解培训，ToB 企业培训 SaaS 续费案例（持续复购型）
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript.md
 - 10_raw/sources/src_20260613_6edbf0af-yitang-business-formula-decomposition-notes.md

@@ -3,7 +3,8 @@ id: yt-model-entrepreneur-map
 confidence: 0.85
 created_at: 2026-05-07
 difficulty: foundational
-domain: src-unknown
+domain:
+- strategy
 estimated_tokens: 2009
 language: zh-CN
 query_triggers:

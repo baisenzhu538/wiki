@@ -29,7 +29,10 @@ discoverable_by:
 reviewed_by: 欧阳锋
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 **五件事**：
 1. **现金流业务**：当前利润池，必须守住并持续优化效率。

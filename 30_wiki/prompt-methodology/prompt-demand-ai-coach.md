@@ -12,9 +12,10 @@ confidence: 0.92
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - five-step-method
 - prompt-engineering
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/五步法之需求分析/AI场景推演教练提示词.txt
 related:

@@ -13,7 +13,9 @@ trust_level: high
 language: zh-CN
 domain: strategy
 source_person: 冉鹏
-source_context: 引擎点火20260110 战略破局课程 PPT 第 242 页 / 知识点
+source_context:
+  - 引擎点火20260110 战略破局课程 PPT 第 242 页 / 知识点
+  - 冉鹏战略课逐字稿
 aliases:
   - 乐凯胶卷
   - 乐凯胶卷：乾坤大挪移胶卷→光学薄膜→新赛道存活
@@ -38,11 +40,10 @@ related:
 - case-strategy-practice-12-zero-loss
 - case-strategy-practice-11-third-place
 tags:
-- audience:general
-- scene:reference
-- skill-level:advanced
-- 冉鹏PPT截图
-- 冉鹏战略课逐字稿
+  - audience:general
+  - scene:reference
+  - skill-level:advanced
+  - 冉鹏PPT截图
 ---
 **困境**：数码相机毁灭胶卷行业，柯达倒闭。
 **转机**：乐凯的核心技术是"光学薄膜涂层"，迁移到液晶面板、光伏薄膜等新赛道后存活。

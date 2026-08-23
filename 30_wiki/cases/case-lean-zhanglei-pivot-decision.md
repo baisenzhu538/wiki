@@ -13,9 +13,10 @@ trust_level: medium
 language: zh-CN
 domain:
 - lean-startup
-- yitang
 source_person: 张磊（一堂精益创业教练）
-source_context: 张磊教练《精益测试关键问题》AMA 直播答疑（2026-06-14），Q6 老业务去留与 Q9 多方向选择
+source_context:
+  - 张磊教练《精益测试关键问题》AMA 直播答疑（2026-06-14），Q6 老业务去留与 Q9 多方向选择
+  - yitang
 aliases:
   - 一堂精益创业教练
   - 决策案例
@@ -23,6 +24,9 @@ aliases:
   - 张磊
   - 张磊AMA：创业者pivot决策案例
   - 张磊（一堂精益创业教练）
+source_context:
+  - 张磊教练《精益测试关键问题》AMA 直播答疑（2026-06-14），Q6 老业务去留与 Q9 多方向选择
+  - yitang
 source_refs:
 - 00_inbox/精益创业/张磊教练《精益测试关键问题》AMA精华 副本.md
 - 00_inbox/精益创业/张磊-精益方法论-AMA-口述-01.txt

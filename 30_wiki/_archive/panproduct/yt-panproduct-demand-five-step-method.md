@@ -6,7 +6,7 @@ confidence: 0.8
 created_at: 2026-05-11
 difficulty: advanced
 domain:
-- src_unknown
+- decision-making
 estimated_tokens: 1228
 language: zh-CN
 prerequisites:
@@ -51,6 +51,10 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
 superseded_by: framework-一堂五步法-泛产品设计
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 
 # 一堂五步法：善于分析商业成败假设

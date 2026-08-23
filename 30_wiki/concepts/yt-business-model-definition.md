@@ -1,5 +1,6 @@
 ---
-domain: src-unknown
+domain:
+- strategy
 id: yt-business-model-definition
 title: 商业模式定义：从内核到变现
 type: concept

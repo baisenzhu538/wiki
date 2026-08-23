@@ -6,10 +6,16 @@ type: dk
 dark_knowledge_type: insight
 status: reviewed
 domain:
-- yitang
 - note-taking
 source_person: Truman
-source_context: 一堂-AI时代清单体笔记-Truman-口述-01.txt + 口述-02.txt
+source_context:
+  - 一堂-AI时代清单体笔记-Truman-口述-01.txt + 口述-02.txt
+  - 时代清单体笔记
+  - 时代请单体笔记
+  - yitang
+  - 一堂-AI时代清单体笔记-Truman-口述-01.txt + 口述-02.txt
+  - 时代清单体笔记
+  - 时代请单体笔记
 aliases:
   - Truman
   - “剩余脑力”
@@ -17,6 +23,11 @@ aliases:
   - 余脑力
   - 笔记的唯一货币与分水岭
   - 高阶笔记的唯一货币与分水岭
+source_context:
+  - 一堂-AI时代清单体笔记-Truman-口述-01.txt + 口述-02.txt
+  - 时代清单体笔记
+  - 时代请单体笔记
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md
 - 10_raw/sources/src_20260606_db4fc211-一堂-AI时代请单体笔记-Truman-口述-02.md
@@ -50,11 +61,9 @@ diagnostic_signals:
   framework_lens: AI节省的时间没有转化为剩余脑力，而是转化为“认知低保”
   follow_up_question: 当内容复杂度提升或AI不可用时，团队是否还能保持高阶思考？
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
-- 时代清单体笔记
-- 时代请单体笔记
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
 ---
 
 # “剩余脑力”：高阶笔记的唯一货币与分水岭

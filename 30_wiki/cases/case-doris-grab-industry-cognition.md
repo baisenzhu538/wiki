@@ -12,7 +12,6 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - 7天从零建立行业认知
@@ -20,6 +19,8 @@ aliases:
   - 天从零建立行业认知
   - 案例
   - 案例：Doris7天从零建立行业认知
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/Doris-行业报告调研-口述.txt
 discoverable_by:

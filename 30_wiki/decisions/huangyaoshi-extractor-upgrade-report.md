@@ -25,6 +25,10 @@ source_refs:
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 暗知识萃取器 B+→A 升级报告
 

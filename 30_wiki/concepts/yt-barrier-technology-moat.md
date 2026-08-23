@@ -1,5 +1,9 @@
 ---
-domain: src-unknown
+domain:
+- ai-collaboration
+- decision-making
+- design
+- strategy
 id: yt-barrier-technology-moat
 title: 技术护城河：专利与研发
 type: concept

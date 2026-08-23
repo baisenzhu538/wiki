@@ -3,14 +3,15 @@ id: tool-1视角升级思考法
 title: 技能：+1视角升级思考法
 type: tool
 domain:
-  - learning-methodology
-  - management
-  - decision-making
-  - yitang
-  - business-strategy
+- learning-methodology
+- management
+- decision-making
+- business-strategy
 status: draft
 source_person: 一堂课程
-source_context: src_20260609_44a9e79a
+source_context:
+  - src_20260609_44a9e79a
+  - yitang
 aliases:
   - +1视角升级思考法
   - 一堂课程
@@ -18,6 +19,9 @@ aliases:
   - 技能
   - 技能：+1视角升级思考法
   - 视角升级思考法
+source_context:
+  - src_20260609_44a9e79a
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260609_44a9e79a-ocr-一堂-科学决策-关键训练清单重要.md
 definition_of_done:

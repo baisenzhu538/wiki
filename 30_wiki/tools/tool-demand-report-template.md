@@ -13,7 +13,6 @@ language: zh-CN
 created_at: 2026-07-08
 updated_at: 2026-07-08
 domain:
-- yitang
 - demand-analysis
 aliases:
   - 分析报告模板
@@ -21,6 +20,8 @@ aliases:
   - 融资版与经营版双版本
   - 需求分析报告模板
   - 需求分析报告模板：融资版与经营版双版本
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/五步法之需求分析/需求分析提示词.txt
 - 00_inbox/五步法之需求分析/一堂-需求分析-需求评估-口述.txt

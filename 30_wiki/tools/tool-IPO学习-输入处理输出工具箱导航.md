@@ -13,7 +13,6 @@ language: zh-CN
 created_at: 2026-07-09
 updated_at: 2026-07-09
 domain:
-- yitang
 - personal-learning
 aliases:
   - I/P/O三段工具索引
@@ -22,6 +21,8 @@ aliases:
   - 三段工具索引
   - 工具箱导航
   - 工具索引
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/一堂-个人修炼-科学学习IPO-全景策略_paddle_ocr.txt
 - 00_inbox/一堂-个人修炼-科学学习IPO完整清单_paddle_ocr.txt

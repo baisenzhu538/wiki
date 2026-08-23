@@ -29,7 +29,10 @@ discoverable_by:
 - 持续跟踪
 - 建立动态信息监控机制
 related: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 持续跟踪：建立动态信息监控机制
 

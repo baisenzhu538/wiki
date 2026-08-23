@@ -10,9 +10,16 @@ created_at: 2026-08-09
 updated_at: 2026-08-09
 confidence: 0.92
 trust_level: high
-domain: [yitang, management, coaching]
+domain:
+- management
+- coaching
 source_person: Truman
-source_context: 教练式领导力探索营——领导力五阶梯
+source_context:
+  - 教练式领导力探索营——领导力五阶梯
+  - yitang
+source_context:
+  - 教练式领导力探索营——领导力五阶梯
+  - yitang
 source_refs:
   - 00_inbox/教练式领导力/教练式领导力课程-01-口述.txt
 aliases: [五阶梯, L0到L5, 认同层, 结果层, 共识层, 成长层, 希望层, 领导力层级, Truman, 教练式领导力课程-01-口述]

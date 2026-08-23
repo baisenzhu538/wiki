@@ -8,7 +8,9 @@ status: reviewed
 domain:
 - design
 source_person: 月白
-source_context: '口述稿: AI设计-AI设计师实操培训01'
+source_context:
+  - 口述稿: AI设计-AI设计师实操培训01
+  - 设计师实操培训
 aliases:
   - 不训练模型锁定风格的逆向视觉书法
   - 月白
@@ -40,10 +42,9 @@ diagnostic_signals:
 - src_unknown
 - src_unknown# 不训练模型锁定风格的逆向视觉书法
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
-- 设计师实操培训
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
 ---
 ## 原始表述/核心洞察
 

@@ -2,7 +2,11 @@
 id: tool-水水-练习坦然说不知道
 title: 技能：练习坦然说不知道
 type: tool
-domain: unknown
+domain:
+- content
+- decision-making
+- design
+- human-insights
 status: draft
 author: unknown
 reviewed_by: pending
@@ -23,7 +27,10 @@ discoverable_by:
 - 技能：练习坦然说不知道
 - 练习坦然说不知道
 related: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 技能：练习坦然说不知道
 

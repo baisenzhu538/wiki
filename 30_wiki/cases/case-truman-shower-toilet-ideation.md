@@ -5,10 +5,11 @@ title: 案例：Truman 洗澡/厕所灵感爆发——暗时间如何在"脑力C
 type: case
 status: reviewed
 domain:
-  - yitang
-  - time-management
+- time-management
 source_person: Truman
-source_context: 一堂时间管理课程中，Truman以自身经历分享了"暗时间"利用的心得——很多最好的创意不是在办公桌前想出来的，而是在洗澡、上厕所、通勤等脑力不饱和场景下自然涌现的
+source_context:
+  - 一堂时间管理课程中，Truman以自身经历分享了"暗时间"利用的心得——很多最好的创意不是在办公桌前想出来的，而是在洗澡、上厕所、通勤等脑力不饱和场景下自然涌现的
+  - yitang
 aliases:
   - Truman
   - 厕所灵感爆发
@@ -17,6 +18,9 @@ aliases:
   - 案例
   - 案例：Truman洗澡/厕所灵感爆发暗时间如何在脑力CPU不饱和时产出高价值创意
   - 洗澡/厕所灵感爆发
+source_context:
+  - 一堂时间管理课程中，Truman以自身经历分享了"暗时间"利用的心得——很多最好的创意不是在办公桌前想出来的，而是在洗澡、上厕所、通勤等脑力不饱和场景下自然涌现的
+  - yitang
 source_refs:
   - 00_inbox/时间管理/truman-时间管理课程-口述.txt
   - 00_inbox/时间管理/truman-时间管理课程-笔记.txt

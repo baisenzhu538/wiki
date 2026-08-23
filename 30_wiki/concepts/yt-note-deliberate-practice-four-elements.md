@@ -1,7 +1,9 @@
 ---
 id: yt-note-deliberate-practice-four-elements
 title: 刻意练习笔记落地诊断框架
-domain: src-unknown
+domain:
+- content
+- decision-making
 pipeline:
 - src_unknown
 diagnostic_signals:

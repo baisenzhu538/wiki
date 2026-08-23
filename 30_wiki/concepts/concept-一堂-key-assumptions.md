@@ -10,7 +10,6 @@ language: zh-CN
 created_at: 2026-06-08
 updated_at: 2026-07-09
 domain:
-- yitang
 - key-assumptions
 confidence: 0.85
 trust_level: high
@@ -19,6 +18,8 @@ aliases:
   - 关键假设Key
   - 关键假设KeyAssumption：业务成功依赖的核心前提条件
   - 成功依赖的核心前提条件
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/一堂-关键假设课-truman-口述.txt L364-L402,L584,L818,L1064-L1074,L2460-L2482
 discoverable_by:

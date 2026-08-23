@@ -12,7 +12,6 @@ confidence: 0.8
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - 案例
@@ -20,6 +19,8 @@ aliases:
   - 用假设链逐层验证赛道可行性
   - 老年大学
   - 设链逐层验证赛道可行性
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/高阶调研行动营01.txt
 discoverable_by:

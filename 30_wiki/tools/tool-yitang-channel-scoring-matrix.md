@@ -5,7 +5,6 @@ type: tool
 title: 渠道预判评分矩阵：科学排序候选渠道
 status: draft
 domain:
-- yitang
 - growth
 confidence: 0.82
 trust_level: medium
@@ -29,6 +28,13 @@ aliases:
   - 渠道预判评分矩阵：科学排序候选渠道
   - 科学排序候选渠道
   - 预判评分矩阵
+source_context:
+  - 一堂五步法之增长
+  - yitang
+  - 一堂五步法之增长
+source_context:
+  - 一堂五步法之增长
+  - yitang
 source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-笔记.txt
@@ -57,11 +63,10 @@ related:
 - '[[dk-yitang-channel-exploration-traps]]'
 review_date: '2026-06-28'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
-- 一堂五步法之增长
-- 云电脑
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 云电脑
 ---
 
 # 渠道预判评分矩阵：科学排序候选渠道

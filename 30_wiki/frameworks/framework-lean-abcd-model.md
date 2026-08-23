@@ -8,7 +8,8 @@ reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: high
 language: zh-CN
-domain: unknown
+domain:
+- decision-making
 aliases:
 - audience:ceo
 - scene:diagnosis
@@ -26,7 +27,10 @@ discoverable_by:
 quality_labels: null
 updated_at: '2026-06-30'
 created_at: '2026-06-30'
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 关键假设 ABCD 模型
 

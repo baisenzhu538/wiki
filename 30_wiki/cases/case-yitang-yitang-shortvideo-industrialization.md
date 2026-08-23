@@ -4,7 +4,6 @@ id: case-yitang-yitang-shortvideo-industrialization
 type: case
 title: 案例：一堂如何用 ABCD 模型实现口播短视频工业化
 domain:
-- yitang
 - growth
 - content-operations
 confidence: 0.78
@@ -28,6 +27,13 @@ aliases:
   - 案例
   - 案例：一堂如何用ABCD模型实现口播短视频工业化
   - 模型实现口播短视频工业化
+source_context:
+  - 一堂五步法之增长
+  - yitang
+  - 一堂五步法之增长
+source_context:
+  - 一堂五步法之增长
+  - yitang
 source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道工业化生产-口述.txt
 - 00_inbox/一堂五步法之增长/truman-渠道工业化生产-笔记.txt
@@ -49,11 +55,10 @@ related:
 status: reviewed
 review_date: '2026-06-28'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
-- 一堂五步法之增长
-- 工业化生产
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 工业化生产
 ---
 
 # 案例：一堂如何用 ABCD 模型实现口播短视频工业化

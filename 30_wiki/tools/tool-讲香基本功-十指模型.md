@@ -9,12 +9,13 @@ review_date: 2026-08-02
 confidence: 0.90
 trust_level: high
 domain:
-- yitang
 - personal-expression
 aliases:
   - 十指模型完整40策略
   - 讲香基本功
   - 讲香基本功：十指模型完整40策略
+source_context:
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260802_讲香基本功-李頔-口述.txt
 - 10_raw/sources/src_20260802_讲香基本功-李頔-笔记.txt

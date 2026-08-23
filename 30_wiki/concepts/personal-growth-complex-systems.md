@@ -28,7 +28,10 @@ discoverable_by:
 - 复杂系统、消除模糊与
 - 时代个体系统
 - 主题综合索引卡
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 created_at: '2026-06-14'
 quality_labels: null
 updated_at: '2026-06-28'

@@ -12,7 +12,6 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - 上门宠物喂养
@@ -21,6 +20,8 @@ aliases:
   - 案例：上门宠物喂养用调研解决信任障碍
   - 用调研解决信任障碍
   - 研解决信任障碍
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/高阶调研行动营01.txt
 - 00_inbox/调研专题/一堂-用户调研实操课-笔记.txt

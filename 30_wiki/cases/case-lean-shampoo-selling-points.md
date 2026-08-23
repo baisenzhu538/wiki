@@ -13,9 +13,10 @@ trust_level: medium
 language: zh-CN
 domain:
 - lean-startup
-- yitang
 source_person: 一堂课程讲师（张磊洗发水项目复盘，教学案例）
-source_context: 一堂精益创业·低成本验证·系统测试曲线课程讲义
+source_context:
+  - 一堂精益创业·低成本验证·系统测试曲线课程讲义
+  - yitang
 aliases:
   - 一堂课程讲师（张磊洗发水项目复盘，教学案例）
   - 张磊洗发水项目复盘
@@ -23,6 +24,9 @@ aliases:
   - 水卖点组合测试
   - 洗发水卖点组合测试
   - 课程讲师
+source_context:
+  - 一堂精益创业·低成本验证·系统测试曲线课程讲义
+  - yitang
 source_refs:
 - 00_inbox/精益创业/洗发水案例卖点组合_ocr_text.md
 - 00_inbox/精益创业/洗发水案例卖点组合_vlm_desc.md

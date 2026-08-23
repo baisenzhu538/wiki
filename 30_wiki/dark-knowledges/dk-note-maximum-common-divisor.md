@@ -6,10 +6,14 @@ type: dk
 dark_knowledge_type: insight
 status: reviewed
 domain:
-- yitang
 - note-taking
 source_person: Truman
-source_context: 一堂-AI时代清单体笔记-Truman-口述-01
+source_context:
+  - 一堂-AI时代清单体笔记-Truman-口述-01
+  - 时代清单体笔记
+  - yitang
+  - 一堂-AI时代清单体笔记-Truman-口述-01
+  - 时代清单体笔记
 aliases:
   - Truman
   - 体是人与
@@ -17,6 +21,10 @@ aliases:
   - 清单体是人与AI的'最大公约数
   - 清单体是人与AI的'最大公约数'：结构降级即认知升级
   - 结构降级即认知升级
+source_context:
+  - 一堂-AI时代清单体笔记-Truman-口述-01
+  - 时代清单体笔记
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md
 created_at: 2026-06-07
@@ -45,10 +53,9 @@ diagnostic_signals:
 - src_unknown
 - src_unknown# 清单体是人与AI的"最大公约数"：结构降级即认知升级
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
-- 时代清单体笔记
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
 ---
 
 ## 原始表述 / 核心洞察

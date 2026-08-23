@@ -19,7 +19,10 @@ diagnostic_signals:
   lens: 反向割裂——有参数无动作，有公式无肌肉
   follow-up: 用本卡§四的"参数→基本功"反向映射，每个关键参数配一个对应的基本功训练项
 quality_labels: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 aliases: null
 ---
 <!--

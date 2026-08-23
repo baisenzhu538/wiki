@@ -10,7 +10,10 @@ trust_level: high
 language: zh-CN
 created_at: '2026-07-13'
 updated_at: '2026-07-13'
-domain: unknown
+domain:
+- ai-collaboration
+- human-insights
+- kdo
 aliases:
 - audience:ceo
 - conversion
@@ -30,7 +33,10 @@ discoverable_by:
 - 火车货物剥离法
 - 假设挖掘三特性
 quality_labels: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 一堂触点本质论
 

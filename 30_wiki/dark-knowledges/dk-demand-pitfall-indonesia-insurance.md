@@ -9,7 +9,6 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - five-step-method
 aliases:
   - 不存在
@@ -18,6 +17,8 @@ aliases:
   - 踩坑
   - 踩坑：印尼寿险场景错配。Situation变了，需求不存在
   - 需求不存在
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/五步法之需求分析/需求评估避坑合集.md
 discoverable_by:

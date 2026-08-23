@@ -12,7 +12,6 @@ language: zh-CN
 created_at: '2026-07-14'
 updated_at: '2026-07-14'
 domain:
-- yitang
 - business-formula
 aliases:
   - 五条替代路径与适用边界
@@ -20,6 +19,13 @@ aliases:
   - 假设思维不是唯一道路：五条替代路径与适用边界
   - 思维不是唯一道路
   - 替代路径与适用边界
+source_context:
+  - 口述
+  - yitang
+  - 口述
+source_context:
+  - 口述
+  - yitang
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L488-L552
 discoverable_by:
@@ -38,7 +44,6 @@ tags:
   - 方法
   - 边界
   - 教练
-  - 口述
 quality_labels:
 - cited
 - boundary

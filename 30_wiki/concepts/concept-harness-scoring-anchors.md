@@ -12,7 +12,6 @@ confidence: 0.9
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - ai-collaboration
 aliases:
   - 5分制+语义锚点+取较低值
@@ -20,6 +19,8 @@ aliases:
   - 评分锚定
   - 评分锚定：15分制+语义锚点+取较低值
   - 语义锚点
+source_context:
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260621_harness-engineering-wanghuan.md
 discoverable_by:

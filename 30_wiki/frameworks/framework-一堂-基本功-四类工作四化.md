@@ -10,7 +10,8 @@ trust_level: high
 language: zh-CN
 created_at: 2026-07-11
 updated_at: 2026-07-11
-domain: unknown
+domain:
+- strategy
 source_refs: null
 related: null
 discoverable_by:
@@ -20,7 +21,10 @@ diagnostic_signals:
   lens: 把类别当标签不当坐标——类别允许重合、允许随阶段迁移
   follow-up: 按「成功率是否开放」和「是否依赖特定个人」两问快速定位，定完就走
 quality_labels: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 aliases: null
 ---
 # 五类工作 × 4化：基本功的进攻方向诊断图

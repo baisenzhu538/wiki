@@ -3,7 +3,6 @@ title: 基本功认知
 type: concept
 domain:
 - management
-- yitang
 status: reviewed
 discoverable_by:
 - 基本功认知
@@ -32,11 +31,16 @@ trust_level: high
 aliases:
 - 功认知
 - 基本功认知
+source_context:
+  - 2026-07-11 任务#150 升级：原 src 引用不可追溯，替换为苦练基本功系列课口述稿真实来源（认知/拆解/武器库三篇对应本卡三阶段结构）
+  - yitang
 source_refs:
 - 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功方法论入门-口述.txt:L104-360（认知篇）
 - 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功拆解-口述.txt:L268-686（拆解篇）
 - 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功方法论武器库-口述.txt:L156-526（武器库篇）
-source_context: 2026-07-11 任务#150 升级：原 src 引用不可追溯，替换为苦练基本功系列课口述稿真实来源（认知/拆解/武器库三篇对应本卡三阶段结构）
+source_context:
+  - 2026-07-11 任务#150 升级：原 src 引用不可追溯，替换为苦练基本功系列课口述稿真实来源（认知/拆解/武器库三篇对应本卡三阶段结构）
+  - yitang
 related:
 - '[[一堂方法论体系总图]]'
 - '[[yitang-course-map]]'

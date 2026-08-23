@@ -7,7 +7,9 @@ type: concept
 status: reviewed
 confidence: 0.92
 trust_level: high
-source_context: 一堂五步法需求分析——ToB vs ToC差异
+source_context:
+  - 一堂五步法需求分析——ToB vs ToC差异
+  - 一堂五步法
 aliases:
   - ToBvsToC需求分析差异：决策链、频率与验证方法
   - ToC需求分析差异
@@ -53,10 +55,9 @@ diagnostic_signals:
 - framework_lens: ToB vs ToC差异——ToB验证周期长，需要不同的验证方法
   follow_up_question: ToB客户的验证周期是多久？能否用PoC（概念验证）替代快速迭代？
 tags:
-- audience:general
-- scene:reference
-- skill-level:advanced
-- 一堂五步法
+  - audience:general
+  - scene:reference
+  - skill-level:advanced
 ---
 
 

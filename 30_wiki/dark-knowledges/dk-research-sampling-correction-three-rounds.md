@@ -22,7 +22,9 @@ aliases:
 - 马易
 - 爆炸式调研-下-口述
 source_person: 马易
-source_context: Live259 爆炸式调研（2026-08-11 口述）——打样纠偏（下 L3762-3768，一堂课表案例）
+source_context:
+  - Live259 爆炸式调研（2026-08-11 口述）——打样纠偏（下 L3762-3768，一堂课表案例）
+  - 口述
 source_refs:
 - 00_inbox/爆炸式调研/爆炸式调研-下-口述.txt
 related:
@@ -42,7 +44,6 @@ tags:
   - skill-level:beginner
   - 方法
   - 边界
-  - 口述
 ---
 # 打样纠偏三轮法：5-10 个样本定颗粒度
 

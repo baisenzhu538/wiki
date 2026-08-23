@@ -12,7 +12,8 @@ quality_labels:
 - validated
 created_at: 2026-06-10
 difficulty: intermediate
-domain: yitang
+domain:
+- strategy
 estimated_tokens: 1800
 language: zh-CN
 query_triggers:
@@ -28,6 +29,13 @@ aliases:
   - 案例：线下玩具柜商业模式
   - 玩具柜商业模式
   - 线下玩具柜商业模式
+source_context:
+  - 一堂五步法
+  - yitang
+  - 一堂五步法
+source_context:
+  - 一堂五步法
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260610_91556342-一堂=一堂五步法-商业模型-线下玩具柜案例.md
 - 10_raw/sources/src_20260610_be139711-一堂-一堂五步法-单元模型-口述.md
@@ -55,12 +63,11 @@ related:
 - '[[case-toy-cabinet-barrier]]'
 - '[[yt-customer-acquisition-toolkit]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
-- 一堂五步法
-- 单元模型
-- 商业模型
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 单元模型
+  - 商业模型
 ---
 
 # 案例：线下玩具柜商业模式

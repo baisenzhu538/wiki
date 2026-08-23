@@ -30,7 +30,10 @@ discoverable_by:
 - 凯纳创新方向
 - 创新方向分类
 - 创新路径框架
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 凯纳创新方向分类框架
 

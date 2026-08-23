@@ -5,7 +5,6 @@ title: HR SaaS：把“功能使用率↑续费率↑”当因果的功能堆砌
 type: case
 status: enriched
 domain:
-- yitang
 - ai-saas
 - business-strategy
 aliases:
@@ -15,6 +14,9 @@ aliases:
   - 当因果的功能堆砌陷阱
   - 把“功能使用率↑续费率↑”当因果的功能堆砌陷阱
   - 续费率
+source_context:
+  - 一堂 2026-06-13 业务公式拆解培训，逻辑关系章节中的错误示范
+  - yitang
 source_refs:
   - src_unknown
   - src_unknown
@@ -38,7 +40,9 @@ created_at: '2026-06-16'
 updated_at: 2026-06-28
 author: 孔阳
 source_person: 孔阳
-source_context: 一堂 2026-06-13 业务公式拆解培训，逻辑关系章节中的错误示范
+source_context:
+  - 一堂 2026-06-13 业务公式拆解培训，逻辑关系章节中的错误示范
+  - yitang
 reviewed_by: 老顽童
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 review_date: '2026-06-16'

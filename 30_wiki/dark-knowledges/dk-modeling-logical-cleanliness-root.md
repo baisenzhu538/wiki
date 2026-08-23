@@ -6,10 +6,11 @@ type: dk
 dark_knowledge_type: insight
 status: reviewed
 domain:
-- yitang
 - ai-saas
 source_person: Truman
-source_context: 一堂建模能力培训，2026-06-12
+source_context:
+  - 一堂建模能力培训，2026-06-12
+  - yitang
 aliases:
   - Truman
   - 不是天赋
@@ -17,6 +18,9 @@ aliases:
   - 而是不能容忍低水平逻辑
   - 逻辑洁癖是建模之本
   - 逻辑洁癖是建模之本：不是天赋，而是不能容忍低水平逻辑
+source_context:
+  - 一堂建模能力培训，2026-06-12
+  - yitang
 source_refs:
   - src_unknown
   - src_unknown

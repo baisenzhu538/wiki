@@ -29,7 +29,10 @@ discoverable_by:
 - 竞争象限
 - 用二维矩阵可视化竞争格局
 related: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 竞争象限：用二维矩阵可视化竞争格局
 

@@ -5,7 +5,6 @@ type: dk
 title: 渠道探索常见陷阱：18 万字共建作业里的血泪教训
 status: reviewed
 domain:
-- yitang
 - growth
 confidence: 0.8
 trust_level: medium
@@ -28,6 +27,13 @@ aliases:
   - 探索常见陷阱
   - 渠道探索常见陷阱
   - 渠道探索常见陷阱：18万字共建作业里的血泪教训
+source_context:
+  - 一堂五步法之增长
+  - yitang
+  - 一堂五步法之增长
+source_context:
+  - 一堂五步法之增长
+  - yitang
 source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-反案例-渠道扫描错误案例.png
@@ -53,11 +59,10 @@ related:
 - '[[tool-yitang-industry-channel-arsenal-index]]'
 review_date: '2026-06-28'
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
-- 一堂五步法之增长
-- 反案例
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 反案例
 ---
 # 渠道探索常见陷阱：18 万字共建作业里的血泪教训
 

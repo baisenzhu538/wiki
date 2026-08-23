@@ -1,5 +1,6 @@
 ---
-domain: src-unknown
+domain:
+- strategy
 id: yt-barrier-culture-moat
 title: 文化护城河：难以复制
 type: concept

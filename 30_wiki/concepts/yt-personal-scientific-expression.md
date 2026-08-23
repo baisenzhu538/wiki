@@ -3,7 +3,11 @@ id: yt-personal-scientific-expression
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: foundational
-domain: src-unknown
+domain:
+- content
+- design
+- master
+- strategy
 estimated_tokens: 3000
 language: zh-CN
 query_triggers:

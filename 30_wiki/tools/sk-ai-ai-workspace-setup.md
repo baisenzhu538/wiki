@@ -3,7 +3,8 @@ id: sk-ai-ai-workspace-setup
 title: 技能：结构化AI工作空间搭建
 type: tool
 status: reviewed
-domain: src-unknown
+domain:
+- ai-collaboration
 source_person: 纪浩
 source_context: AI俱乐部-AI协作方法论分享，2026-06
 aliases:

@@ -1,5 +1,6 @@
 ---
-domain: src-unknown
+domain:
+- decision-making
 id: yt-business-model-pricing-psychology
 title: 定价心理学：让用户觉得值
 type: concept

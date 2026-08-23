@@ -3,7 +3,8 @@ id: concept-wanghuan-adversarial-generation
 title: 王欢概念：对抗式生成
 type: concept
 status: reviewed
-domain: src-unknown
+domain:
+- content
 created_at: '2026-06-19'
 updated_at: '2026-06-28'
 author: 王语嫣

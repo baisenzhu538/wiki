@@ -13,7 +13,6 @@ language: zh-CN
 created_at: 2026-07-04
 updated_at: '2026-07-04'
 domain:
-- yitang
 - ai-collaboration
 aliases:
   - AI矛盾经验
@@ -22,6 +21,8 @@ aliases:
   - 案例
   - 案例：AI外呼ROI模型统一真人vs.AI矛盾经验
   - 矛盾经验
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/解放思想/解放思想-truman-口述.txt
 - 60_feedback/extractions/extraction-jiefang-sixiang-truman.md

@@ -13,14 +13,18 @@ domain:
 - personal-os
 - product
 - marketing
-- yitang
 source_person: Truman / 一堂课程体系
-source_context: 一堂全产品方法论课程（2026-07-08），出牌/打牌策略专题深挖补产
+source_context:
+  - 一堂全产品方法论课程（2026-07-08），出牌/打牌策略专题深挖补产
+  - yitang
 aliases:
   - Truman / 一堂课程体系
   - 一堂课程体系
   - 出牌指南
   - 出牌指南AgentSpec
+source_context:
+  - 一堂全产品方法论课程（2026-07-08），出牌/打牌策略专题深挖补产
+  - yitang
 source_refs:
 - .agent/prompts/tool-agent-spec-yitang-card-dealing-guide.md
 discoverable_by:

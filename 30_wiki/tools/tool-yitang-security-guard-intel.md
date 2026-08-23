@@ -13,12 +13,13 @@ confidence: 0.82
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - 保安/门卫情报
   - 保安/门卫情报：非正式但有效的信息源
   - 非正式但有效的信息源
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt

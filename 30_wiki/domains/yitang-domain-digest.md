@@ -5,8 +5,12 @@ type: index
 status: enriched
 confidence: 0.9
 trust_level: high
-domain: yitang
-source_context: 一堂创业/商业课程体系——五步法、调研、决策、需求、增长、壁垒、产品、内容生产
+domain:
+- decision-making
+- strategy
+source_context:
+  - 一堂创业/商业课程体系——五步法、调研、决策、需求、增长、壁垒、产品、内容生产
+  - yitang
 created_at: '2026-06-23'
 author: 黄药师
 reviewed_by: pending
@@ -430,6 +434,9 @@ related:
 - '[[tool-项目方案评估三角形]]'
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
+source_context:
+  - 一堂创业/商业课程体系——五步法、调研、决策、需求、增长、壁垒、产品、内容生产
+  - yitang
 source_refs:
   - src_unknown
 tags:

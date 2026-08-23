@@ -3,7 +3,9 @@ id: tool-纪浩-日志驱动排查法
 title: 技能：日志驱动排查法
 type: tool
 status: reviewed
-domain: src-unknown
+domain:
+- ai-collaboration
+- kdo
 source_person: 纪浩
 source_context: AI俱乐部·人和AI协作（第三次分享，2026-06）
 aliases:

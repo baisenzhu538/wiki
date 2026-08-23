@@ -13,6 +13,10 @@ domain: strategy
 source_refs:
 - 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md
 updated_at: 2026-06-29
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 discoverable_by:
 - 案例：家电公司G——路径错误。重渠道轻研发导致非核心品类失败
 - 家电公司G

@@ -12,14 +12,18 @@ language: zh-CN
 created_at: '2026-07-13'
 updated_at: '2026-07-13'
 domain:
-- yitang
 - conversion-rate
 source_person: 晓莉
-source_context: 一堂「转化率黑客」课程案例，学而思乐外教线下招商/引流课成交链路
+source_context:
+  - 一堂「转化率黑客」课程案例，学而思乐外教线下招商/引流课成交链路
+  - yitang
 aliases:
   - 晓莉
   - 晓莉用四阶段触点链+5000元意向金把学而思线下引流课从筛选对象推成交
   - 用四阶段触点链
+source_context:
+  - 一堂「转化率黑客」课程案例，学而思乐外教线下招商/引流课成交链路
+  - yitang
 source_refs:
 - 00_inbox/Handle the business/conversion rate/_vlm_output/晓莉案例/晓莉-转化率黑客-案例-图-01_vlm.md
   L7-L21

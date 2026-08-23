@@ -3,7 +3,10 @@ id: tool-纪浩-任务交付物标准化
 title: 技能：任务交付物标准化
 type: tool
 status: reviewed
-domain: src-unknown
+domain:
+- ai-collaboration
+- content
+- master
 source_person: 纪浩
 source_context: AI俱乐部-人和AI协作-纪浩-五层结构-图片01
 aliases:

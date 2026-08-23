@@ -13,7 +13,6 @@ language: zh-CN
 created_at: 2026-07-07
 updated_at: 2026-07-07
 domain:
-- yitang
 - research
 aliases:
   - OSCARKDO融合：一堂OSCAR在KDO外部探索中的具体落地
@@ -21,6 +20,8 @@ aliases:
   - 外部探索中的具体落地
   - 探索中的具体落地
   - 融合
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/OSCAR-KDO-外部探索融合方案.md
 - 30_wiki/frameworks/framework-yitang-oscar-research.md

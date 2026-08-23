@@ -6,9 +6,13 @@ type: dk
 status: reviewed
 domain:
 - ai-collaboration
-- yitang
 source_person: 半肥猫
-source_context: AI俱乐部-AI学习落地 分享
+source_context:
+  - AI俱乐部-AI学习落地 分享
+  - 半肥猫
+  - yitang
+  - AI俱乐部-AI学习落地 分享
+  - 半肥猫
 aliases:
   - 半肥猫
   - 回答越丝滑
@@ -16,6 +20,10 @@ aliases:
   - 暗知识：AI回答越丝滑，问题越大
   - 越丝滑
   - 问题越大
+source_context:
+  - AI俱乐部-AI学习落地 分享
+  - 半肥猫
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md
 created_at: 2026-06-07
@@ -50,11 +58,10 @@ diagnostic_signals:
   framework_lens: 认知偏差——人倾向于把"结构完整"误认为"正确"
   follow_up_question: 在采纳前，先用三轮检查法验证一遍：这是推理还是证据？有没有更好的数据？有没有贴近业务场景的可验证信息？
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
-- 半肥猫
-- 学习落地
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 学习落地
 ---
 
 # 暗知识：AI 回答越丝滑，问题越大

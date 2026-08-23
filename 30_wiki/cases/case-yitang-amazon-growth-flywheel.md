@@ -5,7 +5,6 @@ type: case
 title: 案例：亚马逊增长飞轮的五层逻辑
 status: reviewed
 domain:
-- yitang
 - growth
 - strategy
 confidence: 0.88
@@ -28,6 +27,13 @@ aliases:
   - 案例
   - 案例：亚马逊增长飞轮的五层逻辑
   - 逊增长飞轮的五层逻辑
+source_context:
+  - 一堂五步法之增长
+  - yitang
+  - 一堂五步法之增长
+source_context:
+  - 一堂五步法之增长
+  - yitang
 source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道增长飞轮-亚马逊增长飞轮_vlm_desc.md
 - 00_inbox/一堂五步法之增长/truman-渠道增长飞轮-口述.txt
@@ -44,11 +50,10 @@ related:
 - '[[case-yitang-yitang-shortvideo-industrialization]]'
 review_date: '2026-06-28'
 tags:
-- audience:general
-- scene:reference
-- skill-level:advanced
-- 一堂五步法之增长
-- 亚马逊增长飞轮
+  - audience:general
+  - scene:reference
+  - skill-level:advanced
+  - 亚马逊增长飞轮
 ---
 
 # 案例：亚马逊增长飞轮的五层逻辑

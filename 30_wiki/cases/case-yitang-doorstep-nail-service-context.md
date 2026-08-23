@@ -12,7 +12,6 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - 上门美甲
@@ -21,6 +20,8 @@ aliases:
   - 户真实场景中访谈
   - 案例
   - 案例：上门美甲在用户真实场景中访谈
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/一堂-用户调研实操课-口述_ocr.md
 discoverable_by:

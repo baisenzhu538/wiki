@@ -19,6 +19,10 @@ source_refs:
 - 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_22_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_22_vlm_desc.md
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 discoverable_by:
   - 案例：IT公司H——共识不足。高层反复横跳致市值下降
   - 共识不足。高层反复横跳致市值下降

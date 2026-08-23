@@ -12,10 +12,11 @@ language: zh-CN
 created_at: '2026-07-13'
 updated_at: '2026-07-13'
 domain:
-- yitang
 - conversion-rate
 source_person: 邹韵涛
-source_context: 一堂《优秀转化率复盘合集》首个案例，政府某部门出资的 2 天 1 夜封闭式中小企业高级管理辅导班
+source_context:
+  - 一堂《优秀转化率复盘合集》首个案例，政府某部门出资的 2 天 1 夜封闭式中小企业高级管理辅导班
+  - yitang
 aliases:
   - 人实到
   - 人报名
@@ -23,6 +24,9 @@ aliases:
   - 政府出资的中小企业高管封闭培训会
   - 满意度
   - 邹韵涛
+source_context:
+  - 一堂《优秀转化率复盘合集》首个案例，政府某部门出资的 2 天 1 夜封闭式中小企业高级管理辅导班
+  - yitang
 source_refs:
 - 00_inbox/Handle the business/conversion rate/_vlm_native_text/优秀转化率复盘合集/p001.txt
   L5-L23

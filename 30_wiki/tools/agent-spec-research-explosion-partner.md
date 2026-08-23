@@ -9,10 +9,11 @@ confidence: 0.85
 trust_level: high
 domain:
 - research
-- yitang
 - ai-collaboration
 author: 王语嫣编排（#335 spec）/ 黄药师部署（#348）
 source_person: 马易（Live259 爆炸式调研口述）
+source_context:
+  - yitang
 source_refs:
 - agents/research-explosion-partner/SPEC.md
 - 30_wiki/frameworks/framework-baozhashidiaochan-five-step.md

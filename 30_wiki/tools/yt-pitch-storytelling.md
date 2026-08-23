@@ -1,19 +1,24 @@
 ---
 id: yt-pitch-storytelling
 title: 讲香·故事化
+tags:
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
 type: tool
 aliases:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
 - 个人修炼
 - 故事化
 - 讲香
 - 讲香十指模型口述版
 - 讲香故事化
+source_context:
+  - yitang
 source_refs: null
 status: enriched
-domain: yitang
+domain:
+- kdo
+- strategy
 language: zh-CN
 version: 1
 difficulty: advanced
@@ -26,9 +31,6 @@ discoverable_by:
 related: null
 contradicts: null
 query_triggers: null
-tags:
-- audience:executor
-- scene:execution
 created_at: 2026-05-13
 updated_at: '2026-06-16'
 estimated_tokens: 2500

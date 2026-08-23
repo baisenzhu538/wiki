@@ -3,8 +3,7 @@ id: tool-Truman-技术社区严肃提问法
 title: 技能：技术社区严肃提问法
 type: tool
 domain:
-  - ai-collaboration
-  - yitang
+- ai-collaboration
 status: draft
 author: 老顽童
 reviewed_by: pending
@@ -16,8 +15,13 @@ aliases:
   - 技能
   - 技能：技术社区严肃提问法
   - 社区严肃提问法
+source_context:
+  - （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+  - yitang
 source_refs: null
-source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+source_context:
+  - （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+  - yitang
 updated_at: '2026-06-16'
 discoverable_by:
   - 技能：技术社区严肃提问法
@@ -30,9 +34,13 @@ related:
 - '[[tool-Truman-职场异步协作提问法]]'
 - '[[tool-Truman-AI时代提示词优化法]]'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:beginner
+  - audience:executor
+  - scene:execution
+  - skill-level:beginner
+  - 协作
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：技术社区严肃提问法
 

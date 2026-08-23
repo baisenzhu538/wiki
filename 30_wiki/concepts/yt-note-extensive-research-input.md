@@ -3,7 +3,8 @@ id: yt-note-extensive-research-input
 title: 广泛涉猎式笔记：以问题为入口的多源交叉认知法
 type: concept
 status: reviewed
-domain: src-unknown
+domain:
+- content
 language: zh-CN
 version: 1
 confidence: 0.84
@@ -13,6 +14,8 @@ aliases:
   - 广泛涉猎式笔记：以问题为入口的多源交叉认知法
   - 涉猎式笔记
   - 题为入口的多源交叉认知法
+source_context:
+  - 时代请单体笔记
 source_refs:
 - 10_raw/sources/src_20260617_c5e5fb8e-一堂-ai时代请单体笔记-truman-口述-02.txt
 discoverable_by:
@@ -50,10 +53,9 @@ author: 老顽童
 reviewed_by: 欧阳锋
 trust_level: medium
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
-- 时代请单体笔记
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 广泛涉猎式笔记：以问题为入口的多源交叉认知法
 

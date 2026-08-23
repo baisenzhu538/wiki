@@ -12,7 +12,8 @@ source_refs:
 - 10_raw/sources/src_20260614_623cfbfd-高阶建模-流程建模.md
 status: enriched
 confidence: 0.8
-domain: src-unknown
+domain:
+- kdo
 quality_labels:
 - cited
 - principle

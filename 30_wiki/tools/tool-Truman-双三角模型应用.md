@@ -3,8 +3,7 @@ id: tool-Truman-双三角模型应用
 title: 技能：双三角模型应用
 type: tool
 domain:
-  - ai-collaboration
-  - yitang
+- ai-collaboration
 status: draft
 author: 老顽童
 reviewed_by: pending
@@ -16,8 +15,13 @@ aliases:
   - 技能
   - 技能：双三角模型应用
   - 角模型应用
+source_context:
+  - （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+  - yitang
 source_refs: null
-source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+source_context:
+  - （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+  - yitang
 updated_at: '2026-06-16'
 discoverable_by:
   - 技能：双三角模型应用

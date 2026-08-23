@@ -3,7 +3,8 @@ id: case-yitang-tob-grinding-machine
 title: 案例：精密磨床自制项目失败复盘
 type: case
 status: enriched
-domain: src-unknown
+domain:
+- strategy
 aliases:
   - 案例
   - 案例：精密磨床自制项目失败复盘

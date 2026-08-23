@@ -12,7 +12,6 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - 户当专家访谈
@@ -21,6 +20,8 @@ aliases:
   - 案例：滑雪项目把用户当专家访谈
   - 滑雪项目
   - 滑雪项目把用户当专家访谈
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/一堂-专家访谈调研-口述.txt
 discoverable_by:

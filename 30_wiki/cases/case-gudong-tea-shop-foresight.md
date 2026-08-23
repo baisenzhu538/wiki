@@ -3,7 +3,7 @@ id: case-gudong-tea-shop-foresight
 title: 古董奶茶店：五层筛选的加法减法实战
 type: case
 domain:
-- yitang
+- strategy
 aliases:
 - 一堂青岛中心主理人
 - 五层筛选的加法减法实战
@@ -11,6 +11,9 @@ aliases:
 - 古董奶茶店：五层筛选的加法减法实战
 - 古董（一堂青岛中心主理人）
 - 筛选的加法减法实战
+source_context:
+  - Truman在商业预判课第一节课中讲解的预判案例，古董本人有独立完整课程
+  - yitang
 source_refs:
   - src_unknown
   - src_unknown
@@ -25,7 +28,9 @@ created_at: 2026-06-11
 review_date: 2026-06-11
 reviewed_by: src_unknown
 source_person: 古董（一堂青岛中心主理人）
-source_context: Truman在商业预判课第一节课中讲解的预判案例，古董本人有独立完整课程
+source_context:
+  - Truman在商业预判课第一节课中讲解的预判案例，古董本人有独立完整课程
+  - yitang
 query_triggers:
 - src_unknown
 - src_unknown

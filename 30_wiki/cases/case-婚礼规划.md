@@ -12,7 +12,6 @@ confidence: 0.7
 trust_level: low
 language: zh-CN
 domain:
-- yitang
 - decision-science
 aliases:
   - 决策流程
@@ -21,6 +20,8 @@ aliases:
   - 完整决策流程
   - 案例
   - 案例：婚礼规划完整决策流程
+source_context:
+  - yitang
 source_refs:
 - 婚礼行业一线策划师访谈与多场真实婚礼复盘
 - Y模型在婚礼筹备场景中的实操映射

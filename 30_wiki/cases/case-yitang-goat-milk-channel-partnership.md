@@ -10,7 +10,6 @@ review_date: 2026-06-29
 confidence: 0.8
 trust_level: medium
 domain:
-- yitang
 - growth
 - strategy
 created_at: '2026-06-29'
@@ -29,6 +28,8 @@ aliases:
   - 王语嫣
   - 粉卖地图区域代理模式案例
   - 羊奶粉卖地图区域代理模式案例
+source_context:
+  - yitang
 source_refs:
 - 60_feedback/diag/diag_20260629_wangyuyan-goat-milk-channel-partnership-nine-layer.md
 - 10_raw/sources/src_20260614_22f103f0-战略培训-实战案例分析.md

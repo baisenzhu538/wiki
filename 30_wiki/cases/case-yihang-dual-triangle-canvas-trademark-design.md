@@ -13,7 +13,6 @@ created_at: 2026-07-04
 updated_at: 2026-07-04
 domain:
 - ai-collaboration
-- yitang
 aliases:
   - 两天内产出
   - 分可用版本
@@ -21,6 +20,13 @@ aliases:
   - 双三角画布案例：商标设计两天内产出60分可用版本
   - 商标设计
   - 用版本
+source_context:
+  - 一堂双三角
+  - yitang
+  - 一堂双三角
+source_context:
+  - 一堂双三角
+  - yitang
 source_refs:
 - 00_inbox/人机协作双三角/_processed/一堂双三角-画布案例2_vlm.md
 discoverable_by:
@@ -33,11 +39,10 @@ related:
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[tool-yihang-dual-triangle-canvas]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
-- 一堂双三角
-- 人机协作双三角
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 人机协作双三角
 ---
 
 # 双三角画布案例：商标设计——两天内产出 60 分可用版本

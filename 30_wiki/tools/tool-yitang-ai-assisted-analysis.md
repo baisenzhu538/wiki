@@ -12,7 +12,6 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - AI辅助分析
@@ -20,6 +19,8 @@ aliases:
   - 做数据分析和模式识别
   - 用AI做数据分析和模式识别
   - 辅助分析
+source_context:
+  - yitang
 source_refs:
   - src_unknown
 discoverable_by:

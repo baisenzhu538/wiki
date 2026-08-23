@@ -8,7 +8,8 @@ reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: high
 language: zh-CN
-domain: unknown
+domain:
+- strategy
 aliases:
 - audience:ceo
 - scene:diagnosis
@@ -28,7 +29,10 @@ discoverable_by:
 quality_labels: null
 updated_at: '2026-06-29'
 created_at: '2026-06-30'
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 创业六宗罪 / 六大浪费
 

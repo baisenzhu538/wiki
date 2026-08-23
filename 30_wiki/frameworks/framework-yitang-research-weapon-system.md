@@ -15,7 +15,6 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
 - research
 difficulty: intermediate
 estimated_tokens: 4000
@@ -29,6 +28,8 @@ query_triggers:
 - src_unknown
 - src_unknown
 aliases: []
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_vlm_desc.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt

@@ -6,10 +6,11 @@ type: dk
 dark_knowledge_type: workflow
 status: reviewed
 domain:
-- yitang
 - master
 source_person: Truman
-source_context: 一堂建模能力培训（流程建模案例），2026-06-12
+source_context:
+  - 一堂建模能力培训（流程建模案例），2026-06-12
+  - yitang
 aliases:
   - Truman
   - 写出来≠被执行
@@ -17,6 +18,9 @@ aliases:
   - 把执行率从
   - 拉到近
   - 的两层锁
+source_context:
+  - 一堂建模能力培训（流程建模案例），2026-06-12
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 - 10_raw/sources/src_20260614_623cfbfd-高阶建模-流程建模.md

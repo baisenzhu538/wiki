@@ -30,9 +30,10 @@ tags:
   - 机制
   - 方法
   - 边界
-  - 口述
 source_person: 楚门
-source_context: AI 知识管理探索营口述（2026-08）
+source_context:
+  - AI 知识管理探索营口述（2026-08）
+  - 口述
 source_refs:
 - 00_inbox/AI知识库/楚门-AI知识管理探索营-口述.txt
 related:

@@ -12,9 +12,10 @@ language: zh-CN
 created_at: 2026-07-12
 updated_at: '2026-07-12'
 domain:
-- yitang
 - business-formula
-source_context: 一堂业务公式课程（孔阳），管理篇「假设池·目标三策略」+ 实操篇「A 阶段·三种目标策略」口述逐字稿，落地策略集原图辅证
+source_context:
+  - 一堂业务公式课程（孔阳），管理篇「假设池·目标三策略」+ 实操篇「A 阶段·三种目标策略」口述逐字稿，落地策略集原图辅证
+  - yitang
 aliases:
   - 三类目标策略
   - 三类目标策略：必胜型严管、挑战型激驱、探索型留白
@@ -22,6 +23,9 @@ aliases:
   - 挑战型激驱
   - 探索型留白
   - 目标策略
+source_context:
+  - 一堂业务公式课程（孔阳），管理篇「假设池·目标三策略」+ 实操篇「A 阶段·三种目标策略」口述逐字稿，落地策略集原图辅证
+  - yitang
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L294-L298
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1538-L1566

@@ -12,7 +12,6 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - 从信息碎片拼出抖音团长赛道真相
@@ -20,6 +19,8 @@ aliases:
   - 息碎片拼出抖音团长赛道真相
   - 案例
   - 案例：刘涛从信息碎片拼出抖音团长赛道真相
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
 discoverable_by:

@@ -11,13 +11,14 @@ trust_level: medium
 language: zh-CN
 domain:
 - strategy
-- yitang
 - product
 aliases:
   - 偷偷服务
   - 偷偷服务：用人工模拟产品后端
   - 工模拟产品后端
   - 用人工模拟产品后端
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212212_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212212_vlm_desc.md

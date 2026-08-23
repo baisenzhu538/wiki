@@ -5,10 +5,11 @@ title: 一堂公众号投放：自造「单月价格/单月价值」参数稳定
 type: case
 status: enriched
 domain:
-- yitang
 - business-strategy
 source_person: 孔阳
-source_context: 一堂业务公式参数探索篇（2026-07-12），L5创新参数最佳教学案：公众号投放极度非标，团队自造单月价格和单月价值两个参数
+source_context:
+  - 一堂业务公式参数探索篇（2026-07-12），L5创新参数最佳教学案：公众号投放极度非标，团队自造单月价格和单月价值两个参数
+  - yitang
 aliases:
   - 一堂公众号投放
   - 一堂公众号投放：自造单月价格/单月价值参数稳定渠道ROI
@@ -16,6 +17,9 @@ aliases:
   - 单月价格
   - 孔阳
   - 自造单月价格/单月价值参数稳定渠道ROI
+source_context:
+  - 一堂业务公式参数探索篇（2026-07-12），L5创新参数最佳教学案：公众号投放极度非标，团队自造单月价格和单月价值两个参数
+  - yitang
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2652-L2686
 discoverable_by:

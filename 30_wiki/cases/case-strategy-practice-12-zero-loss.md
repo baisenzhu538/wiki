@@ -14,6 +14,10 @@ source_refs:
 - 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md
 reviewed_by: pending
 updated_at: 2026-06-29
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 discoverable_by:
   - 案例：央企新店零亏损——2015年后无亏店，大店年均盈利30
   - 央企新店零亏损

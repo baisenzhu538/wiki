@@ -15,7 +15,13 @@ aliases:
 - 里程碑模型
 source_refs: null
 status: reviewed
-domain: unknown
+domain:
+- content
+- design
+- kdo
+- master
+- modeling
+- strategy
 created_at: '2026-06-14'
 updated_at: '2026-06-28'
 author: 老顽童
@@ -27,7 +33,10 @@ related: null
 discoverable_by:
 - 课程里程碑模型
 - 一堂做课七步
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 source_context: 单一 source 为完整长文档，内容充分支撑 medium trust；待补充第二来源或充分验证后可升 high
 diagnostic_signals: null
 follow_up: 启动 M6 撞击实验，明确目标为"推翻这个模型"

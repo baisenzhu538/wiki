@@ -3,18 +3,22 @@ id: tool-费曼学习法实践讲香课题
 title: 技能：费曼学习法实践（讲香课题）
 type: tool
 domain:
-  - learning-methodology
-  - design
-  - yitang
-  - decision-making
+- learning-methodology
+- design
+- decision-making
 status: draft
 source_person: 一堂课程设计
-source_context: src_20260522_e139c9e9
+source_context:
+  - src_20260522_e139c9e9
+  - yitang
 aliases:
   - 一堂课程设计
   - 技能
   - 技能：费曼学习法实践讲香课题
   - 费曼学习法实践讲香课题
+source_context:
+  - src_20260522_e139c9e9
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260522_e139c9e9-ocr-一堂-个人修炼-科学学习ipo完整清单.md
 definition_of_done:

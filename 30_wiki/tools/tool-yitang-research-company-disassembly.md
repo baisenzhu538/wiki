@@ -29,7 +29,10 @@ discoverable_by:
 - 公司拆解
 - 深度分析竞争对手的六维框架
 related: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 公司拆解：深度分析竞争对手的六维框架
 

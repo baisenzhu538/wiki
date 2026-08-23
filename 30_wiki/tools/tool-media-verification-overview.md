@@ -12,7 +12,6 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - 判断对方说的是不是真的
@@ -20,6 +19,8 @@ aliases:
   - 媒体验证技术总览：判断对方说的是不是真的
   - 对方说的是不是真的
   - 验证技术总览
+source_context:
+  - yitang
 source_refs:
 - src_unknown
 - src_unknown

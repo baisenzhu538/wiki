@@ -10,7 +10,6 @@ confidence: 0.8
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
 - decision-science
 aliases:
   - AI时代的双三角竞争力
@@ -18,6 +17,8 @@ aliases:
   - 人+AI协作决策
   - 协作决策
   - 时代的双三角竞争力
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-人机协作决策_vlm_desc.md
 discoverable_by:

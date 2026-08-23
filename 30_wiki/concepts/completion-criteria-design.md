@@ -6,11 +6,12 @@ type: tool
 domain:
 - learning-methodology
 - personal-growth
-- yitang
 status: reviewed
 aliases:
   - 完成标准设定
   - 标准设定
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md
 discoverable_by:

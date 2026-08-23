@@ -10,11 +10,12 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - decision-science
 - methodology
 - ai-collaboration
 aliases: []
+source_context:
+  - yitang
 source_refs:
 - 30_wiki/concepts/yt-decision-y-model.md
 - 30_wiki/methods/method-yitang-y-model-engine-cycle.md

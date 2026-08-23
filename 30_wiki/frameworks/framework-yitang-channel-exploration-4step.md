@@ -3,7 +3,8 @@ id: framework-yitang-channel-exploration-4step
 type: framework
 title: 渠道探索四步法：科学找到可持续获客渠道
 status: reviewed
-domain: yitang
+domain:
+- strategy
 confidence: 0.85
 trust_level: medium
 author: 老顽童
@@ -23,6 +24,13 @@ aliases:
 - 渠道探索四步法：科学找到可持续获客渠道
 - 科学找到可持续获客渠道
 - 道探索方法
+source_context:
+  - 口述
+  - yitang
+  - 口述
+source_context:
+  - 口述
+  - yitang
 source_refs: null
 source_person: Truman
 related: null
@@ -37,7 +45,6 @@ tags:
   - 五步法
   - 单元模型
   - 方法
-  - 口述
 ---
 # 渠道探索四步法：科学找到可持续获客渠道
 

@@ -23,7 +23,9 @@ aliases:
 - 马易
 - 爆炸式调研-下-口述
 source_person: 马易
-source_context: Live259 爆炸式调研（2026-08-11 口述）——饱和自证（下 L1540-1562）
+source_context:
+  - Live259 爆炸式调研（2026-08-11 口述）——饱和自证（下 L1540-1562）
+  - 口述
 source_refs:
 - 00_inbox/爆炸式调研/爆炸式调研-下-口述.txt
 related:
@@ -48,7 +50,6 @@ tags:
   - skill-level:intermediate
   - 方法
   - 边界
-  - 口述
 ---
 # 饱和自证话术：让 AI 记数就不太会骗人
 

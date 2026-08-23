@@ -3,7 +3,8 @@ id: case-modeling-essence-levels
 title: 本质建模案例：从盲目创新到学科经典的五层思维深度
 type: case
 status: enriched
-domain: src-unknown
+domain:
+- human-insights
 aliases:
   - Truman
   - 从盲目创新到学科经典的五层思维深度

@@ -7,9 +7,10 @@ dark_knowledge_type: principle
 status: reviewed
 domain:
 - ai-collaboration
-- yitang
 source_person: 纪浩
-source_context: AI俱乐部·AI协作方法论分享（2026年）
+source_context:
+  - AI俱乐部·AI协作方法论分享（2026年）
+  - yitang
 aliases:
   - 600行文档让AI输出吊打人类手动设计
   - 暗知识
@@ -17,6 +18,9 @@ aliases:
   - 的力量
   - 约束的力量
   - 纪浩
+source_context:
+  - AI俱乐部·AI协作方法论分享（2026年）
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260617_627a8803-纪浩-ai协作方法论-口述.md
 - 10_raw/sources/src_20260617_50e2866a-ai俱乐部-人和ai协作-纪浩-五层结构-结构化.md

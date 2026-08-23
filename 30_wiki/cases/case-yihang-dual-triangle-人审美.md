@@ -26,7 +26,10 @@ discoverable_by:
 - 人审美 — 双三角案例
 - 人审美
 - 双三角案例
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 reviewed_by: pending
 ---
 # 人审美

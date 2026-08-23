@@ -1,5 +1,6 @@
 ---
-domain: src-unknown
+domain:
+- strategy
 id: yt-barrier-brand-equity
 title: 品牌资产：认知与信任
 type: concept

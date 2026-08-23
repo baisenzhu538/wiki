@@ -1,6 +1,6 @@
 ---
 domain:
-- yitang
+- decision-making
 id: yt-foresight-model-taxonomy
 title: 预判模型分类
 confidence: 0.85
@@ -22,6 +22,8 @@ updated_at: '2026-07-09'
 aliases:
 - 模型分类
 - 预判模型分类
+source_context:
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260613_96e45c45-qishijian-business-model.md
 discoverable_by:

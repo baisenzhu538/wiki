@@ -20,6 +20,8 @@ aliases:
 - concept-changing-others-as-self-compensation
 - 一堂-成瘾与自我管理分享-口述
 - 水水
+source_context:
+  - 口述
 source_refs:
 - 00_inbox/一堂-成瘾与自我管理分享-口述.md#L1906-L1951
 - 60_feedback/diagnosis/diag_20260823_wangyuyan-shushui-addiction-supplement.md#L1-L60
@@ -30,16 +32,15 @@ related:
 - tool-self-binding-three-strategies
 - framework-yitang-y-model-cross-domain-fusion
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
-- 代偿机制
-- 自我管理
-- 改变自己
-- 心理学
-- 边界
-- 实操
-- 口述
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 代偿机制
+  - 自我管理
+  - 改变自己
+  - 心理学
+  - 边界
+  - 实操
 ---
 
 # 改变别人是改变自己的代偿：搞天搞地不如搞自己

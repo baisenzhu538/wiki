@@ -3,17 +3,21 @@ id: tool-深度分层学习
 title: 技能：深度分层学习
 type: tool
 domain:
-  - learning-methodology
-  - decision-making
-  - yitang
+- learning-methodology
+- decision-making
 status: draft
 source_person: 一堂课程
-source_context: src_20260522_dee56cff
+source_context:
+  - src_20260522_dee56cff
+  - yitang
 aliases:
   - 一堂课程
   - 技能
   - 技能：深度分层学习
   - 深度分层学习
+source_context:
+  - src_20260522_dee56cff
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260522_dee56cff-ocr-一堂-个人修炼-科学学习ipo-全景策略.md
 definition_of_done:

@@ -6,12 +6,18 @@ type: dk
 status: draft
 domain:
 - ai-saas
-- yitang
 aliases:
   - 写AI工具的人最晚享受到AI红利
   - 工具的人最晚享受到
   - 程序员的AI悖论
   - 程序员的AI悖论：写AI工具的人最晚享受到AI红利
+source_context:
+  - 时代判断力口述
+  - yitang
+  - 时代判断力口述
+source_context:
+  - 时代判断力口述
+  - yitang
 source_refs:
 - 00_inbox/AI-study/一堂-AI学习-AI时代判断力口述.txt
 created_at: '2026-06-09'
@@ -31,11 +37,10 @@ related:
 - '[[dk-jh-llm-time-blindness]]'
 - '[[dk-yb12-ai-image-analysis-replace-training]]'
 tags:
-- audience:executor
-- scene:reference
-- skill-level:beginner
-- study
-- 时代判断力口述
+  - audience:executor
+  - scene:reference
+  - skill-level:beginner
+  - study
 ---
 # 程序员的AI悖论：写AI工具的人最晚享受到AI红利
 

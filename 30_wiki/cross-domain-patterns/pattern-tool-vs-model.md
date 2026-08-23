@@ -18,6 +18,10 @@ related:
 - "[[dk-yitang-methodology-stack-fallacy]]"
 - "[[dk-yitang-over-abstraction]]"
 - "[[framework-yitang-jiefang-sixiang]]"
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 
 # 跨域模式：工具→建模

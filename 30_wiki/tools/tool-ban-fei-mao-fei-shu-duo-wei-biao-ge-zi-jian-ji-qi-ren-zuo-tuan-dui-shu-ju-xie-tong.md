@@ -4,10 +4,15 @@ title: 技能：飞书多维表格 + 自建机器人做团队数据协同
 type: tool
 status: reviewed
 domain:
-  - src-unknown
-  - yitang
+- content
+- decision-making
 source_person: 半肥猫
-source_context: AI俱学乐部-AI学习落地 分享
+source_context:
+  - AI俱学乐部-AI学习落地 分享
+  - 半肥猫
+  - yitang
+  - AI俱学乐部-AI学习落地 分享
+  - 半肥猫
 aliases:
   - 半肥猫
   - 技能
@@ -15,6 +20,10 @@ aliases:
   - 机器人做团队数据协同
   - 自建机器人做团队数据协同
   - 飞书多维表格
+source_context:
+  - AI俱学乐部-AI学习落地 分享
+  - 半肥猫
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md
 tools_required:
@@ -46,11 +55,10 @@ diagnostic_signals:
 - lens: 风险控制
   follow_up: 是否有试点用户、预期行为清单和一键停用/回滚方案？
 tags:
-- audience:manager
-- scene:execution
-- skill-level:intermediate
-- 半肥猫
-- 学习落地
+  - audience:manager
+  - scene:execution
+  - skill-level:intermediate
+  - 学习落地
 ---
 # 技能：飞书多维表格 + 自建机器人做团队数据协同
 

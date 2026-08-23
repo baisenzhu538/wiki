@@ -8,10 +8,13 @@ aliases:
 - 协作操作系统
 - 提示词工程总框架
 - 词工程总框架
+source_context:
+  - 拆书会
 source_refs:
 - 10_raw/sources/一堂-拆书会-吴恩达提示词课程.md
 status: enriched
-domain: src-unknown
+domain:
+- ai-collaboration
 language: zh-CN
 version: 1
 difficulty: intermediate
@@ -59,11 +62,10 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: high
 tags:
-- audience:ceo
-- scene:diagnosis
-- skill-level:intermediate
-- 吴恩达提示词课程
-- 拆书会
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:intermediate
+  - 吴恩达提示词课程
 ---
 # 人机协作操作系统：提示词工程总框架
 

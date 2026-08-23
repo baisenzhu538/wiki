@@ -20,6 +20,8 @@ aliases:
   - 时代
   - 杰文斯悖论在
   - 杰文斯悖论在AI时代
+source_context:
+  - 口述
 source_refs:
 - 00_inbox/AI前哨站第2集/AI前哨站第2集-水水拆书.md
 - 00_inbox/AI前哨站第2集/水水-AI前哨-第二期-口述.txt
@@ -29,7 +31,6 @@ tags:
   - scene:reference
   - skill-level:intermediate
   - 机制
-  - 口述
 discoverable_by:
   - 杰文斯悖论在 AI 时代
   - 杰文斯悖论在

@@ -6,9 +6,10 @@ type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
-- yitang
 - business-formula
-source_context: C 域实战反哺——Live255 董原（C-D 循环活教材）+ 谢泽丰（阶段 2→3 转折）双案例印证
+source_context:
+  - C 域实战反哺——Live255 董原（C-D 循环活教材）+ 谢泽丰（阶段 2→3 转折）双案例印证
+  - yitang
 aliases:
   - 公式是经营的撤销键
   - 公式是经营的撤销键：CD循环的真实形态是打不动就退，找到就回
@@ -16,6 +17,9 @@ aliases:
   - 找到就回
   - 是经营的撤销键
   - 的真实形态是打不动就退
+source_context:
+  - C 域实战反哺——Live255 董原（C-D 循环活教材）+ 谢泽丰（阶段 2→3 转折）双案例印证
+  - yitang
 source_refs:
 - 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1874-L1928
 - 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1427-L1465

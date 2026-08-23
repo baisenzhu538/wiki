@@ -22,7 +22,9 @@ tags:
 - skill-level:intermediate
 type: concept
 status: draft
-domain: unknown
+domain:
+- ai-collaboration
+- kdo
 ---
 > **核心定位**：AI时代普通人唯一能建立护城河的方向是数据。数据不是堆料，是按层次和类型管理的复利资产。
 

@@ -2,7 +2,8 @@
 id: tool-马易-中国企业AI落地五步法
 title: 技能：中国企业AI落地五步法
 type: tool
-domain: unknown
+domain:
+- strategy
 status: draft
 author: unknown
 reviewed_by: pending
@@ -23,7 +24,10 @@ discoverable_by:
 - 技能：中国企业AI落地五步法
 - 中国企业AI落地五步法
 related: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 技能：中国企业AI落地五步法
 

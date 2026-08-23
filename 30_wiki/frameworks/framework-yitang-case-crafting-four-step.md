@@ -5,7 +5,8 @@ type: framework
 status: draft
 confidence: 0.9
 trust_level: high
-domain: yitang
+domain:
+- decision-making
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-07-20'
@@ -26,6 +27,8 @@ aliases:
 - 案例打磨四步法：事实复盘→选定魂儿→挖专业度→打磨表达
 - 案例打磨方法
 - 案例打造法-李頔
+source_context:
+  - yitang
 source_refs: null
 related: null
 discoverable_by:

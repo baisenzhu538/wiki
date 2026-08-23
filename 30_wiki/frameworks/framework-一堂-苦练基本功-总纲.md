@@ -10,7 +10,8 @@ trust_level: high
 language: zh-CN
 created_at: 2026-07-11
 updated_at: 2026-07-11
-domain: unknown
+domain:
+- strategy
 source_refs: null
 related: null
 discoverable_by:
@@ -20,7 +21,10 @@ diagnostic_signals:
   lens: 练的手段停在氛围层（挂在嘴边/文化墙），没进流程和制度层
   follow-up: 氛围→工具→流程→制度四层加码：先考核评估，再绩效/职级/晋升挂钩
 quality_labels: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 aliases: null
 ---
 # 苦练基本功总纲：人不是组织能力的最小单位，基本功才是

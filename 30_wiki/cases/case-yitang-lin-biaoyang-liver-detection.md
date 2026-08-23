@@ -13,7 +13,8 @@ language: zh-CN
 created_at: 2026-07-04
 updated_at: '2026-07-04'
 domain:
-- yitang
+- kdo
+- strategy
 aliases:
   - 学科层推翻商业层二三十年惯例
   - 层推翻商业层二三十年惯例
@@ -21,6 +22,8 @@ aliases:
   - 案例
   - 案例：林标阳肝病检测L5学科层推翻商业层二三十年惯例
   - 阳肝病检测
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/解放思想/解放思想-truman-口述.txt
 - 60_feedback/extractions/extraction-jiefang-sixiang-truman.md

@@ -11,13 +11,14 @@ language: zh-CN
 created_at: 2026-06-14
 updated_at: 2026-07-09
 domain:
-- yitang
 - business-formula
 confidence: 0.85
 trust_level: high
 aliases:
   - 业务公式定性参数行为化指标库
   - 公式定性参数行为化指标库
+source_context:
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript.md
 - 10_raw/sources/src_20260613_6edbf0af-yitang-business-formula-decomposition-notes.md

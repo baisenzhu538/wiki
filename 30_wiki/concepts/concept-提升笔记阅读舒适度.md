@@ -1,5 +1,6 @@
 ---
-domain: src-unknown
+domain:
+- content
 id: concept-提升笔记阅读舒适度
 title: 提升笔记阅读舒适度：用产品意识和视觉编码降低认知摩擦
 type: concept
@@ -12,6 +13,8 @@ aliases:
   - 提升笔记阅读舒适度：用产品意识和视觉编码降低认知摩擦
   - 用产品意识和视觉编码降低认知摩擦
   - 笔记阅读舒适度
+source_context:
+  - 时代清单体笔记
 source_refs:
 - 00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt
 discoverable_by:
@@ -53,10 +56,9 @@ diagnostic_signals:
 - lens: 认知依赖
   follow_up: 颜色编码不是中立的信息组织，是权力的行使。适度使用，保留读者自主判断空间
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
-- 时代清单体笔记
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 提升笔记阅读舒适度：用产品意识和视觉编码降低认知摩擦
 

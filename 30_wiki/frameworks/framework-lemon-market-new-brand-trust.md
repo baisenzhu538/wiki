@@ -12,7 +12,6 @@ created_at: 2026-08-20
 updated_at: 2026-08-20
 domain:
 - marketing
-- yitang
 - decision-making
 aliases:
 - 柠檬市场信任公式
@@ -31,9 +30,17 @@ tags:
   - 机制
   - 框架
   - 方法
-  - 口述
 source_person: 微信短视频博主（偶遇采集）
-source_context: 微信视频 2404c1658025473c（2026-08-20 偶遇采集，357s）——柠檬市场×新品牌信任公式
+source_context:
+  - 微信视频 2404c1658025473c（2026-08-20 偶遇采集，357s）——柠檬市场×新品牌信任公式
+  - 口述
+  - yitang
+  - 微信视频 2404c1658025473c（2026-08-20 偶遇采集，357s）——柠檬市场×新品牌信任公式
+  - 口述
+source_context:
+  - 微信视频 2404c1658025473c（2026-08-20 偶遇采集，357s）——柠檬市场×新品牌信任公式
+  - 口述
+  - yitang
 source_refs:
 - 10_raw/sources/src_2026-08-20_wechat_2404c1658025473c.md
 related:

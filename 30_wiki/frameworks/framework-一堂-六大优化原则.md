@@ -11,7 +11,6 @@ language: zh-CN
 created_at: '2026-07-13'
 updated_at: '2026-07-13'
 domain:
-- yitang
 - conversion-rate
 aliases:
   - 3优先/顺序/厚度匹配
@@ -20,6 +19,8 @@ aliases:
   - 一堂六大优化原则：数量3触点/密度/号召提升+质量3优先/顺序/厚度匹配
   - 数量
   - 质量
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L3394-L3410
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L3412-L3502

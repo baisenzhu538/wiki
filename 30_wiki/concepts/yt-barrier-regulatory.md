@@ -1,5 +1,6 @@
 ---
-domain: src-unknown
+domain:
+- strategy
 id: yt-barrier-regulatory
 title: 监管壁垒：牌照与合规
 type: concept

@@ -30,6 +30,9 @@ discoverable_by:
   - "公司业务职能协同"
   - "战略层级框架"
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 企业战略金字塔：公司、业务与职能协同
 

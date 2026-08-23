@@ -3,7 +3,10 @@ id: sk-ai-narrative-test
 title: 技能：你的方案有叙事力吗？快速测试
 type: tool
 status: reviewed
-domain: src-unknown
+domain:
+- content
+- decision-making
+- kdo
 source_person: 水水
 source_context: 拆书会《偶然》分享，2026-06
 aliases:

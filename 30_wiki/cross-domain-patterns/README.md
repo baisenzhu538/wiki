@@ -9,6 +9,10 @@ domain:
 author: 黄药师
 created_at: 2026-07-06
 updated_at: 2026-07-06
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 
 # 跨域模式层

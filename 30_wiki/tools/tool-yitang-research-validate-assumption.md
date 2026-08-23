@@ -29,7 +29,10 @@ discoverable_by:
 - 调研先行验证假设
 - 在行动前杀死错误想法
 related: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 调研先行验证假设：在行动前杀死错误想法
 

@@ -13,7 +13,6 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 difficulty: intermediate
 estimated_tokens: 2500
@@ -30,6 +29,8 @@ aliases:
   - 差评决定机会
   - 舆情/口碑批量收集
   - 舆情/口碑批量收集：好评决定内核，差评决定机会
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 discoverable_by:

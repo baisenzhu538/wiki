@@ -36,6 +36,9 @@ related:
 - 'dk-aesthetic-redline-doc'
 - '[[dk-yb23-ai-pre-screen-three-minutes]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 技能：风格不变局部调整
 

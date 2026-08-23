@@ -5,7 +5,6 @@ type: tool
 title: 工业化生产节点设计工具：把复杂交付变成可控流程
 status: reviewed
 domain:
-- yitang
 - growth
 - operations
 confidence: 0.8
@@ -30,6 +29,16 @@ aliases:
   - 工业化生产节点设计工具：把复杂交付变成可控流程
   - 把复杂交付变成可控流程
   - 杂交付变成可控流程
+source_context:
+  - 一堂五步法之增长
+  - 一堂做课工业化
+  - yitang
+  - 一堂五步法之增长
+  - 一堂做课工业化
+source_context:
+  - 一堂五步法之增长
+  - 一堂做课工业化
+  - yitang
 source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道工业化生产-口述.txt
 - 00_inbox/一堂五步法之增长/truman-渠道工业化生产-笔记.txt
@@ -52,11 +61,9 @@ related:
 - '[[design-ai-image-generation]]'
 review_date: '2026-06-28'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
-- 一堂五步法之增长
-- 一堂做课工业化
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
 ---
 
 

@@ -16,6 +16,10 @@ source_refs:
   - src_unknown
   - src_unknown
 updated_at: 2026-06-29
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 discoverable_by:
 - 案例：飞机制造公司——机制背离。激励偏财务致安全事故
 - 飞机制造公司

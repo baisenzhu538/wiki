@@ -8,7 +8,8 @@ reviewed_by: 欧阳锋
 review_date: 2026-06-29
 confidence: 0.82
 trust_level: medium
-domain: yitang
+domain:
+- strategy
 created_at: '2026-06-29'
 quality_labels: null
 updated_at: '2026-06-29'
@@ -27,6 +28,8 @@ aliases:
 - 战略培训案例
 - 王语嫣（九层深挖诊断）/ 冉鹏（战略培训案例）/ Truman（渠道方法论）
 - 道合伙人
+source_context:
+  - yitang
 source_refs: null
 source_person: 王语嫣（九层深挖诊断）/ 冉鹏（战略培训案例）/ Truman（渠道方法论）
 related: null

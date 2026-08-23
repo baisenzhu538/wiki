@@ -11,7 +11,8 @@ trust_level: high
 language: zh-CN
 created_at: 2026-07-09
 updated_at: 2026-07-09
-domain: unknown
+domain:
+- strategy
 source_refs: null
 related: null
 discoverable_by:
@@ -21,7 +22,10 @@ diagnostic_signals:
   lens: 缺思维模型——在靠经验直觉而非结构化思考
   follow-up: 做过的项目里有没有"同样的模式出现了两次"——那就是模型雏形
 quality_labels: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 aliases: null
 ---
 # 思维模型：项目随时换、模型永生

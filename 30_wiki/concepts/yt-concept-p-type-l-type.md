@@ -1,7 +1,8 @@
 ---
 
 domain:
-- yitang
+- decision-making
+- strategy
 id: yt-concept-p-type-l-type
 title: P型与L型创业者
 type: concept
@@ -39,6 +40,8 @@ related:
 aliases:
   - P型与L型创业者
   - 型创业者
+source_context:
+  - yitang
 source_refs:
   - src_unknown
 tags:

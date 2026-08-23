@@ -11,7 +11,10 @@ trust_level: high
 language: zh-CN
 created_at: 2026-07-10
 updated_at: 2026-07-10
-domain: unknown
+domain:
+- ai-collaboration
+- content
+- strategy
 source_refs: null
 related: null
 discoverable_by:
@@ -21,7 +24,10 @@ diagnostic_signals:
   lens: 火箭模型只到第一层——有卖点但缺专业度和打动人
   follow-up: 火箭四要素逐层检查，补缺层
 quality_labels: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 aliases: null
 ---
 # 表达力火箭模型：四要素递进

@@ -27,7 +27,10 @@ source_refs: null
 related: null
 discoverable_by:
 - 双三角十年爬山地图
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 一行双三角十年爬山地图
 

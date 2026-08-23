@@ -9,7 +9,9 @@ reviewed_at: 2026-07-04
 confidence: 0.75
 trust_level: medium
 language: zh-CN
-domain: unknown
+domain:
+- content
+- kdo
 aliases:
 - audience:manager
 - scene:execution
@@ -24,7 +26,10 @@ discoverable_by:
 - 系统性收集团队/行业的最佳做法
 related: null
 updated_at: '2026-06-29'
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 最佳实践收集：系统性收集团队/行业的最佳做法
 

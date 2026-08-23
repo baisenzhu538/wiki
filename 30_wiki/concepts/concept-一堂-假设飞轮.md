@@ -12,14 +12,18 @@ language: zh-CN
 created_at: 2026-07-12
 updated_at: '2026-07-12'
 domain:
-- yitang
 - business-formula
-source_context: 一堂业务公式课程（孔阳），进阶篇降龙十八掌第18招「假设飞轮」+管理篇「团队假设/共识飞轮」原图002258+默认失败共识三段论述
+source_context:
+  - 一堂业务公式课程（孔阳），进阶篇降龙十八掌第18招「假设飞轮」+管理篇「团队假设/共识飞轮」原图002258+默认失败共识三段论述
+  - yitang
 aliases:
   - 假设→结果→激励→更多假设的团队侧增强回路
   - 假设飞轮
   - 假设飞轮：假设→结果→激励→更多假设的团队侧增强回路
   - 更多假设的团队侧增强回路
+source_context:
+  - 一堂业务公式课程（孔阳），进阶篇降龙十八掌第18招「假设飞轮」+管理篇「团队假设/共识飞轮」原图002258+默认失败共识三段论述
+  - yitang
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L3294-L3384
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L2536-L2564

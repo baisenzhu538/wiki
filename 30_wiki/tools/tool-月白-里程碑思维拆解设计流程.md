@@ -36,6 +36,9 @@ related:
 - 'case-truman-ai-image-workflow-evolution'
 - '[[modeling-scientific-milestones]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 技能：里程碑思维拆解设计流程
 

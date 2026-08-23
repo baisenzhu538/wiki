@@ -18,7 +18,13 @@ aliases:
 source_refs:
 - src_unknown
 - src_unknown
-domain: src-unknown
+domain:
+- ai-collaboration
+- content
+- decision-making
+- design
+- kdo
+- strategy
 created_at: '2026-06-19'
 updated_at: '2026-06-28'
 diagnostic_signals:

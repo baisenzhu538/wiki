@@ -6,7 +6,9 @@ type: prompt-template
 status: reviewed
 confidence: 0.9
 trust_level: high
-domain: yitang
+domain:
+- decision-making
+- human-insights
 prompt_role: 你是一位精通JTBD与精益创业理论的资深顾问，作为主导者帮我分析、给选项、让我做选择
 prompt_methodology: JTBD六层分析 + 任务地图 + 四种力量 + 机会卡片
 prompt_version: 1.0.0
@@ -16,6 +18,8 @@ aliases:
   - 场景推演教练
   - 推演教练
   - 需求深挖提示词模板
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/五步法之需求分析/AI场景推演教练提示词.txt
 created_at: '2026-06-21'

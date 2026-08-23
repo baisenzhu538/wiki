@@ -29,12 +29,15 @@ source_refs:
 - 00_inbox/半肥猫月白老朱线下聚会/AI应用研讨-半肥猫月白老朱-交流录音.txt#L6476-6484
 - 00_inbox/半肥猫月白老朱线下聚会/AI应用研讨-半肥猫月白老朱-事后笔记.txt#L43
 tags:
-- 压缩
-- 建模
-- 知识固化
-- 幻觉
-- 铁规
-- AI协作
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 压缩
+  - 建模
+  - 知识固化
+  - 幻觉
+  - 铁规
+  - AI协作
 related:
 - framework-kdo-modeling-methodology
 - concept-kdo-component-library

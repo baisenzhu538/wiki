@@ -11,7 +11,8 @@ updated_at: '2026-06-29'
 confidence: 0.92
 trust_level: high
 language: zh-CN
-domain: yitang
+domain:
+- strategy
 difficulty: advanced
 estimated_tokens: 4000
 version: 1
@@ -30,6 +31,8 @@ aliases:
 - 我纠错迭代分析
 - 析深挖
 - 深挖框架
+source_context:
+  - yitang
 source_refs: null
 related:
   - framework-AI知识库-五阶段演进

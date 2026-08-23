@@ -12,8 +12,9 @@ language: zh-CN
 created_at: 2026-07-07
 updated_at: 2026-07-07
 domain:
-- yitang
 - ai-collaboration
+source_context:
+  - yitang
 source_refs:
 - .agent/wangyuyan-context.md
 - 30_wiki/frameworks/framework-yitang-nine-layer-deep-dig.md

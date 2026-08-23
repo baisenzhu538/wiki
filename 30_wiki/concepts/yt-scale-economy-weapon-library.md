@@ -1,6 +1,7 @@
 ---
 domain:
-- yitang
+- decision-making
+- strategy
 id: yt-scale-economy-weapon-library
 title: 规模经济分析武器库
 confidence: 0.8
@@ -21,16 +22,22 @@ review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效
 aliases:
 - 经济分析武器库
 - 规模经济分析武器库
+source_context:
+  - 一堂五步法
+  - yitang
+  - 一堂五步法
+source_context:
+  - 一堂五步法
+  - yitang
 source_refs:
   - src_unknown
 discoverable_by:
 - 规模经济分析武器库
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
-- 一堂五步法
-- 规模经济分析武器库
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 规模经济分析武器库
 type: concept
 status: draft
 related:

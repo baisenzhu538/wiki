@@ -12,13 +12,14 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - AI监控/预警
   - AI监控/预警：自动化竞争情报跟踪
   - 化竞争情报跟踪
   - 自动化竞争情报跟踪
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 discoverable_by:

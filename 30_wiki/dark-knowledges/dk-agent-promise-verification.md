@@ -27,6 +27,8 @@ aliases:
   - 承诺核对表：Agent能承诺什么、不能承诺什么
   - 能承诺什么
   - 诺什么
+source_context:
+  - 半肥猫
 source_refs:
 - 00_inbox/半肥猫/【半肥猫】用 AI 把脑子里的经验，推进成一个最小可验证的数字交付 副本.md §第五步
 related:
@@ -35,11 +37,10 @@ related:
 - dk-ai-memory-four-layers
 - system-yitang-Y-model-os
 tags:
-- audience:executor
-- scene:reference
-- skill-level:advanced
-- 半肥猫
-- 把脑子里的经验
+  - audience:executor
+  - scene:reference
+  - skill-level:advanced
+  - 把脑子里的经验
 ---
 
 # 承诺核对表：Agent 能承诺什么、不能承诺什么

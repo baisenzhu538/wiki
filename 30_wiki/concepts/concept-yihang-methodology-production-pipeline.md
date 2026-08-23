@@ -14,7 +14,6 @@ created_at: 2026-07-05
 updated_at: 2026-07-05
 domain:
 - ai-collaboration
-- yitang
 aliases:
   - 一堂的双面网络
   - 学员既是消费者也是生产者
@@ -22,6 +21,13 @@ aliases:
   - 方法论生产流水线：一堂的双面网络学员既是消费者也是生产者
   - 既是消费者也是生产者
   - 论生产流水线
+source_context:
+  - 一堂双三角
+  - yitang
+  - 一堂双三角
+source_context:
+  - 一堂双三角
+  - yitang
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
 discoverable_by:
@@ -37,11 +43,10 @@ related:
 - '[[concept-yihang-research-driven-company]]'
 - '[[dk-yihang-scientific-community-moat]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:advanced
-- 一堂双三角
-- 人机协作双三角
+  - audience:general
+  - scene:reference
+  - skill-level:advanced
+  - 人机协作双三角
 ---
 
 # 方法论生产流水线：一堂的"双面网络"——学员既是消费者也是生产者

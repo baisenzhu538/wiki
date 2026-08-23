@@ -19,7 +19,10 @@ diagnostic_signals:
   lens: 飞轮只定义了"人/AI/能力"三回路，缺少"业务指标→参数→验证→飞轮转速"的对接点
   follow-up: 见§三飞轮对接：参数变化率=飞轮转速的量化代理
 quality_labels: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 aliases: null
 ---
 <!--

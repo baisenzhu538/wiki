@@ -3,7 +3,10 @@ id: tool-纪浩-problem-validation-four-checks
 title: 技能：四问验证法 —— 判断需求是真实Problem还是伪需求
 type: tool
 status: reviewed
-domain: src-unknown
+domain:
+- decision-making
+- five-step-method
+- research
 source_person: 纪浩
 source_context: AI俱乐部·AI协作方法论分享（2026年）
 aliases:

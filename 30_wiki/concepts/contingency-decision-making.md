@@ -2,7 +2,8 @@
 id: contingency-decision-making
 title: 偶然性与决策：承认'我不知道'比虚假确定性更明智
 type: concept
-domain: src-unknown
+domain:
+- decision-making
 status: reviewed
 aliases:
   - 偶然性与决策

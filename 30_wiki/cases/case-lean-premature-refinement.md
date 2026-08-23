@@ -13,16 +13,20 @@ trust_level: medium
 language: zh-CN
 domain:
 - strategy
-- yitang
 - product
 source_person: 一堂课程讲师（匿名学员案例汇总）
-source_context: 一堂精益创业·低成本验证课程·过早细化专题
+source_context:
+  - 一堂精益创业·低成本验证课程·过早细化专题
+  - yitang
 aliases:
   - 一堂课程讲师（匿名学员案例汇总）
   - 匿名学员案例汇总
   - 细化案例集
   - 课程讲师
   - 过早细化案例集
+source_context:
+  - 一堂精益创业·低成本验证课程·过早细化专题
+  - yitang
 source_refs:
 - 00_inbox/精益创业/truman-精益创业-低成本验证-过早细化-01_ocr_text.md
 - 00_inbox/精益创业/truman-精益创业-低成本验证-过早细化-01_vlm_desc.md

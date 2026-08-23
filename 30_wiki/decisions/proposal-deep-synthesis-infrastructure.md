@@ -25,6 +25,10 @@ id: proposal-deep-synthesis-infrastructure
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 基础设施升级提案：深度合成产线
 

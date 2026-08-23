@@ -19,6 +19,8 @@ aliases:
 - 内核和边界
 - 落地卡片
 - 落地卡片：内核和边界
+source_context:
+  - 口述
 source_refs: null
 tags:
   - audience:general
@@ -28,7 +30,6 @@ tags:
   - 工具
   - 方法
   - 边界
-  - 口述
 discoverable_by:
 - 落地卡片：内核和边界
 - 落地卡片

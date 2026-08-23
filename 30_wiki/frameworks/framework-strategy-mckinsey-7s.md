@@ -30,7 +30,10 @@ discoverable_by:
 - 组织诊断变革
 - 麦肯锡组织模型
 - 7S变革管理
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 麦肯锡 7S 模型：组织诊断与变革管理
 

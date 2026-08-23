@@ -3,7 +3,8 @@ id: yt-model-five-step-canvas
 confidence: 0.85
 created_at: 2026-05-11
 difficulty: intermediate
-domain: src-unknown
+domain:
+- strategy
 estimated_tokens: 2531
 language: zh-CN
 query_triggers:
@@ -36,6 +37,8 @@ aliases:
 - 从假设到壁垒的实操工具
 - 法画布
 - 设到壁垒的实操工具
+source_context:
+  - 一堂五步法画布
 source_refs:
 - 10_raw/sources/src_20260510_1eb77650-一堂五步法画布yitangfive-stepcanvas.md
 status: enriched
@@ -57,10 +60,9 @@ diagnostic_signals:
 author: 老顽童
 trust_level: high
 tags:
-- audience:ceo
-- scene:diagnosis
-- skill-level:intermediate
-- 一堂五步法画布
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:intermediate
 ---
 # 五步法画布 × 产品内核画布：从假设到壁垒的实操工具
 

@@ -3,7 +3,8 @@ id: sales-pitch-bias-patterns
 title: 销售话术偏误识别模式库
 type: framework
 status: reviewed
-domain: src-unknown
+domain:
+- strategy
 aliases:
   - 话术偏误识别模式库
   - 销售话术偏误识别模式库

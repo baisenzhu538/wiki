@@ -7,9 +7,10 @@ status: reviewed
 confidence: 0.9
 trust_level: high
 domain:
-- yitang
 - research
 - ai
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 discoverable_by:

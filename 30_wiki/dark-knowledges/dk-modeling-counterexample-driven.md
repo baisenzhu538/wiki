@@ -26,7 +26,10 @@ trust_level: high
 discoverable_by:
 - 建模不是找证据证明自己是对的，而是用反例把自己逼到没漏洞为止
 related: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 reviewed_by: 王语嫣
 review_date: '2026-06-16'
 author: 老顽童

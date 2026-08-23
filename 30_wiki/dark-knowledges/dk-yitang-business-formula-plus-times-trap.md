@@ -6,10 +6,11 @@ type: dk
 dark_knowledge_type: insight
 status: reviewed
 domain:
-- yitang
 - master
 source_person: 孔阳
-source_context: 一堂 2026-06-13 业务公式拆解培训，逻辑关系与运算符号章节
+source_context:
+  - 一堂 2026-06-13 业务公式拆解培训，逻辑关系与运算符号章节
+  - yitang
 aliases:
   - 业务公式拆解
   - 业务公式拆解：先切分再拆转化，+与×写错会误导决策
@@ -17,6 +18,9 @@ aliases:
   - 公式拆解
   - 写错会误导决策
   - 孔阳
+source_context:
+  - 一堂 2026-06-13 业务公式拆解培训，逻辑关系与运算符号章节
+  - yitang
 source_refs:
   - src_unknown
   - src_unknown

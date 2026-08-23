@@ -13,12 +13,13 @@ created_at: 2026-07-11
 updated_at: 2026-07-11
 domain:
 - management
-- yitang
 aliases:
   - 三条灰度轴
   - 把基本功从一个人推到全员
   - 推动七式
   - 推动七式：三条灰度轴，把基本功从一个人推到全员
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/Manage the team/Fundamentals Seminar/_vlm_output/推动卡-选标杆基本功-01_vlm.md
 - 00_inbox/Manage the team/Fundamentals Seminar/_vlm_output/推动卡-以身作则-02_vlm.md

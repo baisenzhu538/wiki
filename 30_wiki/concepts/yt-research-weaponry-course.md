@@ -18,7 +18,10 @@ quality_labels:
 - quality
 - validated
 created_at: 2026-05-05
-domain: src-unknown
+domain:
+- content
+- research
+- strategy
 yitang:
   map: entrepreneur
   module: 调研方法论

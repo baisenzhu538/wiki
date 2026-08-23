@@ -10,9 +10,16 @@ created_at: 2026-08-09
 updated_at: 2026-08-09
 confidence: 0.9
 trust_level: high
-domain: [yitang, management, coaching]
+domain:
+- management
+- coaching
 source_person: Truman
-source_context: 教练式领导力探索营——一堂团队实践
+source_context:
+  - 教练式领导力探索营——一堂团队实践
+  - yitang
+source_context:
+  - 教练式领导力探索营——一堂团队实践
+  - yitang
 source_refs:
   - 00_inbox/教练式领导力/教练式领导力课程-01-口述.txt
 aliases: [一堂领导力实践, 道理大于天, 马拉松2021, 希望表达库, 老板不重要, Truman, 教练式领导力课程-01-口述]

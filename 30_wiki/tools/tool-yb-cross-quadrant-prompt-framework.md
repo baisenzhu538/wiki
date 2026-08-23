@@ -33,11 +33,14 @@ source_refs:
 - 00_inbox/半肥猫月白老朱线下聚会/AI应用研讨-半肥猫月白老朱-交流录音.txt#L720-748
 - 00_inbox/半肥猫月白老朱线下聚会/AI应用研讨-半肥猫月白老朱-事后笔记.txt#L47
 tags:
-- 提示词
-- 结构化
-- AIGC
-- 设计
-- 框架
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 提示词
+  - 结构化
+  - AIGC
+  - 设计
+  - 框架
 related:
 - concept-structured-naming-as-infrastructure
 - framework-kdo-modeling-methodology

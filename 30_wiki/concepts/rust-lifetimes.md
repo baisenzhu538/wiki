@@ -15,6 +15,10 @@ source_refs:
   - src_unknown
 created_at: 2026-06-02
 updated_at: 2026-06-02
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 discoverable_by:
   - Rust 生命周期：引用有效性的编译期保证
   - 生命周期

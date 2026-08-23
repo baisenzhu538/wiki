@@ -3,7 +3,8 @@ id: yt-lean-flower-mom-group-leader
 title: 生活鲜花宝妈团长：拆C端与小B的分阶段验证
 type: case
 status: draft
-domain: src-unknown
+domain:
+- strategy
 aliases:
   - 拆C端与小B的分阶段验证
   - 生活鲜花宝妈团长

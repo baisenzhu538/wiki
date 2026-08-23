@@ -13,13 +13,14 @@ created_at: 2026-07-11
 updated_at: 2026-07-11
 domain:
 - management
-- yitang
 aliases:
   - 功认知篇案例集
   - 四个团队的第一堂基本功课
   - 团队的第一堂基本功课
   - 基本功认知篇案例集
   - 基本功认知篇案例集：四个团队的第一堂基本功课
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功方法论入门-口述.txt:L370-1530
 - 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功落地案例篇-春萍-口述.txt:L898-1516

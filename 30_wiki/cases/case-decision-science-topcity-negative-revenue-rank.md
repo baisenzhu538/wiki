@@ -6,7 +6,6 @@ type: case
 status: reviewed
 domain:
 - decision-science
-- yitang
 author: 老顽童
 reviewed_by: 欧阳锋
 reviewed_at: '2026-07-04'
@@ -20,6 +19,13 @@ aliases:
   - 案例：TopCity负收益消减与自动排名
   - 益消减与自动排名
   - 负收益消减与自动排名
+source_context:
+  - 决策实践实操课口述
+  - yitang
+  - 决策实践实操课口述
+source_context:
+  - 决策实践实操课口述
+  - yitang
 source_refs:
 - 00_inbox/科学决策/一堂-科学决策-ROI决策实践实操课口述05.txt
 discoverable_by:
@@ -30,11 +36,10 @@ related:
 - '[[yt-decision-y-model]]'
 - '[[tool-区分获客渠道计算单元roi]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
-- 决策实践实操课口述
-- 科学决策
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 科学决策
 ---
 # 案例：Top City 负收益消减与自动排名
 

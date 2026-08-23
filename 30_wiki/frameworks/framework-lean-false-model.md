@@ -10,7 +10,9 @@ trust_level: high
 quality_labels: null
 updated_at: '2026-06-29'
 language: zh-CN
-domain: unknown
+domain:
+- ai-collaboration
+- strategy
 aliases:
 - audience:ceo
 - scene:diagnosis
@@ -28,7 +30,10 @@ discoverable_by:
 - FALSE低成本验证
 - FLESAI验证模型
 created_at: '2026-06-30'
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 一堂 FALSE/FLESAI 低成本验证模型
 

@@ -40,6 +40,9 @@ related:
 - '[[tool-月白-设计师AI资产四类型沉淀]]'
 - '[[tool-月白-设计文件八要素命名法]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 技能：课程问题预埋法
 

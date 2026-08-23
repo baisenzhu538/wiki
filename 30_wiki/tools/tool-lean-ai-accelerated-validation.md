@@ -11,12 +11,13 @@ trust_level: medium
 language: zh-CN
 domain:
 - strategy
-- yitang
 - product
 aliases:
   - AI加速FALSE模型验证
   - 加速
   - 模型验证
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212828_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212828_vlm_desc.md

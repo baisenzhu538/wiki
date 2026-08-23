@@ -13,7 +13,6 @@ created_at: 2026-08-16
 updated_at: 2026-08-16
 domain:
 - research
-- yitang
 - content-production
 aliases:
 - 建不了模型就建排行榜
@@ -24,7 +23,16 @@ aliases:
 - 马易
 - 爆炸式调研-上-口述
 source_person: 马易
-source_context: Live259 爆炸式调研（2026-08-11 口述）——排行榜（下 L2404-2438 + 上 L1930-1978）
+source_context:
+  - Live259 爆炸式调研（2026-08-11 口述）——排行榜（下 L2404-2438 + 上 L1930-1978）
+  - 口述
+  - yitang
+  - Live259 爆炸式调研（2026-08-11 口述）——排行榜（下 L2404-2438 + 上 L1930-1978）
+  - 口述
+source_context:
+  - Live259 爆炸式调研（2026-08-11 口述）——排行榜（下 L2404-2438 + 上 L1930-1978）
+  - 口述
+  - yitang
 source_refs:
 - 00_inbox/爆炸式调研/爆炸式调研-下-口述.txt
 - 00_inbox/爆炸式调研/爆炸式调研-上-口述.txt
@@ -46,7 +54,6 @@ tags:
   - 机制
   - 方法
   - 边界
-  - 口述
 ---
 # 建不了模型就建排行榜：Top10 审美锚点
 

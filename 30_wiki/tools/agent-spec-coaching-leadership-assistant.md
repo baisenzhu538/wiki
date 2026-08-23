@@ -6,6 +6,8 @@ status: draft
 confidence: 0.8
 trust_level: high
 author: 王语嫣（#263 流水线第二次实战，2026-08-09）
+source_context:
+  - yitang
 source_refs:
 - 30_wiki/workflows/workflow-kdo-agent-production-pipeline.md
 - 60_feedback/diagnosis/diag_20260809_coaching-leadership.md
@@ -21,11 +23,10 @@ created_at: 2026-08-09
 updated_at: 2026-08-09
 domain:
 tags:
-- audience:agent
-- scene:diagnosis
-- human
-- management
-- yitang
+  - audience:agent
+  - scene:diagnosis
+  - human
+  - management
 ---
 
 # 教练式领导力助理 Agent Spec

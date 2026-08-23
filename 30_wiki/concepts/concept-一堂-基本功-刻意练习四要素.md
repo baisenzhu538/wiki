@@ -13,7 +13,6 @@ created_at: 2026-07-11
 updated_at: 2026-07-11
 domain:
 - management
-- yitang
 aliases:
   - 刻意练习四要素组织版
   - 刻意练习四要素组织版：套路×非舒适区×大量重复×及时反馈
@@ -21,6 +20,8 @@ aliases:
   - 大量重复
   - 套路×非舒适区×大量重复×及时反馈
   - 非舒适区
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功方法论武器库-口述.txt L156-L605
 discoverable_by:

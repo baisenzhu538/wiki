@@ -12,13 +12,14 @@ confidence: 0.82
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - 三人八卦
   - 三人八卦：饭局/聚会中的非正式情报
   - 聚会中的非正式情报
   - 饭局/聚会中的非正式情报
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 discoverable_by:

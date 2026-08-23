@@ -3,7 +3,11 @@ id: framework-yitang-deliberate-practice-1plus4
 type: framework
 title: 刻意练习 1+4 模型：科学成长的操作系统
 status: reviewed
-domain: yitang
+domain:
+- design
+- management
+- modeling
+- strategy
 confidence: 0.85
 trust_level: high
 author: 老顽童
@@ -25,6 +29,8 @@ aliases:
 - 成长的操作系统
 - 模型
 - 科学成长的操作系统
+source_context:
+  - yitang
 source_refs: Acquisition of Expert Performance," Psychological Review, 1993 to Rapidity
   of Habit-Formation," 1908
 related: null

@@ -15,6 +15,10 @@ aliases:
   - 格式喂给
   - 清洗资料为
   - 资料为
+source_context:
+  - AI俱学乐部-AI学习落地 分享
+  - 半肥猫
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md
 discoverable_by:
@@ -45,20 +49,23 @@ related:
 - '[[dk-f9-generic-critique]]'
 domain:
 - ai-collaboration
-- yitang
 source_person: 半肥猫
-source_context: AI俱学乐部-AI学习落地 分享
+source_context:
+  - AI俱学乐部-AI学习落地 分享
+  - 半肥猫
+  - yitang
+  - AI俱学乐部-AI学习落地 分享
+  - 半肥猫
 tools_required: null
 prerequisite_skills: null
 created_at: 2026-06-07
 updated_at: '2026-06-19'
 diagnostic_signals: null
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
-- 半肥猫
-- 学习落地
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 学习落地
 ---
 
 # 技能：清洗资料为 Markdown 格式喂给 AI

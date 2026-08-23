@@ -12,7 +12,6 @@ confidence: 0.8
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - 从报告到行动
@@ -21,6 +20,8 @@ aliases:
   - 案例：跨境电商机会识别从报告到行动
   - 跨境电商机会识别
   - 跨境电商机会识别从报告到行动
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/Doris-行业报告调研-口述.txt
 discoverable_by:

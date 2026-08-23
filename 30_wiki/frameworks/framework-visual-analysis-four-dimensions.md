@@ -5,7 +5,8 @@ type: framework
 status: draft
 confidence: 0.9
 trust_level: high
-domain: unknown
+domain:
+- design
 author: 黄药师
 reviewed_by: 待审
 created_at: '2026-07-21'
@@ -28,7 +29,10 @@ related: null
 discoverable_by:
 - VA四维法
 - 视觉分析通用方法
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # VA 四维法——从图片到结构化视觉分析的通用方法论
 

@@ -8,7 +8,8 @@ reviewed_by: 欧阳锋
 confidence: 0.78
 trust_level: medium
 language: zh-CN
-domain: yitang
+domain:
+- strategy
 quality_labels:
 updated_at: '2026-06-29'
 aliases:
@@ -22,6 +23,8 @@ aliases:
   - 对抗地图
   - 抗地图
   - 部对抗地图
+source_context:
+  - yitang
 source_refs:
 related:
 discoverable_by:

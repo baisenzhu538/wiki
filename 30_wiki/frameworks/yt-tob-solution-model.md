@@ -3,7 +3,8 @@ id: yt-tob-solution-model
 title: To B 解决方案类型矩阵
 type: framework
 status: enriched
-domain: src-unknown
+domain:
+- strategy
 aliases:
   - ToB解决方案类型矩阵
   - 方案类型矩阵

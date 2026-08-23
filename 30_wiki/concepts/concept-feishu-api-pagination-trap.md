@@ -15,7 +15,6 @@ domain:
 - feishu
 - content-extraction
 - publishing
-- yitang
 aliases:
   - 分页陷阱
   - 分页陷阱静默截断比报错更危险
@@ -23,6 +22,13 @@ aliases:
   - 静默截断比报错更危险
   - 飞书API分页陷阱
   - 飞书API分页陷阱静默截断比报错更危险
+source_context:
+  - 拆书会
+  - yitang
+  - 拆书会
+source_context:
+  - 拆书会
+  - yitang
 source_refs:
 - src_unknown
 - src_unknown
@@ -52,7 +58,6 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:advanced
-  - 拆书会
 ---
 
 # 飞书API分页陷阱

@@ -1,5 +1,7 @@
 ---
-domain: src-unknown
+domain:
+- decision-making
+- strategy
 id: yt-business-model-channel-economics
 title: 渠道经济学：获客成本优化
 type: framework

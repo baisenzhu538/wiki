@@ -14,7 +14,6 @@ created_at: 2026-07-04
 updated_at: 2026-07-04
 domain:
 - ai-collaboration
-- yitang
 aliases:
   - 产出越多
   - 人类筛选越值钱
@@ -22,6 +21,8 @@ aliases:
   - 双三角案例：鲲特虚拟艺人AI产出越多，人类筛选越值钱
   - 角案例
   - 鲲特虚拟艺人
+source_context:
+  - yitang
 source_refs:
   - src_unknown
 discoverable_by:
@@ -33,9 +34,13 @@ related:
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[case-yihang-dual-triangle-guoshuai-ai-editorial]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 工作流
+  - 框架
+  - 工具
+  - 迭代
 ---
 
 # 双三角案例：鲲特虚拟艺人——AI 产出越多，人类筛选越值钱

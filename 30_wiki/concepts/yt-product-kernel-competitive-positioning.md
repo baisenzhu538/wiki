@@ -1,5 +1,6 @@
 ---
-domain: src-unknown
+domain:
+- strategy
 id: yt-product-kernel-competitive-positioning
 title: 内核竞争定位：差异化策略
 type: concept

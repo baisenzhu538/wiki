@@ -4,7 +4,8 @@ title: 259里程碑
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: intermediate
-domain: src-unknown
+domain:
+- strategy
 estimated_tokens: 1851
 language: zh-CN
 query_triggers:
@@ -25,6 +26,8 @@ updated_at: '2026-06-29'
 aliases:
 - 259里程碑
 - 里程碑
+source_context:
+  - 一堂五步法
 source_refs:
   - src_unknown
   - src_unknown
@@ -37,12 +40,11 @@ source_refs:
 discoverable_by:
 - 259里程碑
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
-- 一堂五步法
-- 单元模型
-- 尺子和梯子区别
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 单元模型
+  - 尺子和梯子区别
 type: concept
 related:
   - '[[dk-p20-bigram-fail]]'

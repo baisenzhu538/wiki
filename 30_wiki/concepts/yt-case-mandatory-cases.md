@@ -6,6 +6,8 @@ status: reviewed
 aliases:
   - 一堂案例必修课
   - 案例必修课
+source_context:
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260506_9b4788a6-声音和画面正常吗.md
 - 10_raw/sources/src_20260507_857c7ed4-声音和画面正常吗.md
@@ -17,7 +19,8 @@ quality_labels:
 - quality
 - validated
 created_at: 2026-05-05
-domain: yitang
+domain:
+- decision-making
 yitang:
   map: entrepreneur
   module: 案例学习

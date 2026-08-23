@@ -15,7 +15,6 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
 - research
 difficulty: beginner
 estimated_tokens: 3000
@@ -28,6 +27,8 @@ query_triggers:
 - src_unknown
 - src_unknown
 aliases: []
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/一堂-系统式调研-口述.txt
 - 00_inbox/调研专题/调研雷达图_vlm_desc.md

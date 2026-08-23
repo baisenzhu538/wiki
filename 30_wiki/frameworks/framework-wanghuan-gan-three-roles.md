@@ -29,7 +29,10 @@ related: null
 discoverable_by:
 - 王欢GAN三角色
 - 生成器判别器合成器
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 diagnostic_signals: null
 follow_up: 加入人工终审红线，要求内容必须写给人看而非写给AI看
 ---

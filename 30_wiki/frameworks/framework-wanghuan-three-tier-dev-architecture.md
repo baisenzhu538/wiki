@@ -32,7 +32,10 @@ discoverable_by:
 - 需求拆解AI开发哨兵质检
 diagnostic_signals: null
 follow_up: 检查哨兵质检层是否有清晰的人工复核 checklist 和红线约束
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 王欢三层开发架构：需求拆解→AI开发→哨兵质检
 

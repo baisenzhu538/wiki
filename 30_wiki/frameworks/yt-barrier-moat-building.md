@@ -1,5 +1,6 @@
 ---
-domain: src-unknown
+domain:
+- strategy
 id: yt-barrier-moat-building
 title: 壁垒建设路线图
 type: framework

@@ -3,7 +3,8 @@ id: case-yitang-tob-artificial-bone
 title: 案例：人工骨医疗器械上市失败复盘
 type: case
 status: enriched
-domain: src-unknown
+domain:
+- strategy
 aliases:
   - 人工骨医疗器械上市失败复盘
   - 案例

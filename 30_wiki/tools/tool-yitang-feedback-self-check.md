@@ -5,7 +5,6 @@ type: tool
 title: 无导师反馈自检法：自己给自己找差距
 status: reviewed
 domain:
-- yitang
 - personal-growth
 confidence: 0.8
 trust_level: medium
@@ -30,6 +29,8 @@ aliases:
   - 无导师反馈自检法：自己给自己找差距
   - 给自己找差距
   - 自己给自己找差距
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/元能力-刻意练习/truman-刻意练习-口述.txt
 - 00_inbox/元能力-刻意练习/truman-刻意练习-笔记.txt

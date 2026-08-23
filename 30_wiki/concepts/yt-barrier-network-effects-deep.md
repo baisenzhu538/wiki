@@ -1,5 +1,6 @@
 ---
-domain: src-unknown
+domain:
+- five-step-method
 id: yt-barrier-network-effects-deep
 title: 网络效应深度：同边、跨边、数据、生态
 type: concept

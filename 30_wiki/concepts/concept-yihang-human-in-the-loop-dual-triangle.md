@@ -13,7 +13,6 @@ language: zh-CN
 created_at: 2026-07-04
 updated_at: 2026-07-04
 domain:
-- yitang
 - ai-collaboration
 aliases:
   - 人在环
@@ -21,6 +20,13 @@ aliases:
   - 从治理原则到能力地图
   - 双三角
   - 理原则到能力地图
+source_context:
+  - 口述
+  - yitang
+  - 口述
+source_context:
+  - 口述
+  - yitang
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
 - 60_feedback/annotations/annotation-yihang-dual-triangle-master.md
@@ -50,9 +56,13 @@ related:
 - '[[dk-ai-collaboration-degradation-spiral]]'
 - '[[method-yitang-y-model-engine-cycle]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:advanced
+  - audience:general
+  - scene:reference
+  - skill-level:advanced
+  - 协作
+  - 框架
+  - 工具
+  - 边界
 ---
 
 # 人在环 × 双三角：从治理原则到能力地图

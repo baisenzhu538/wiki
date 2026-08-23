@@ -13,7 +13,6 @@ updated_at: 2026-08-15
 domain:
 - sales
 - management
-- yitang
 aliases:
 - 需求挖掘是公司的任务
 - 销售是传递买点
@@ -24,7 +23,16 @@ aliases:
 - 马易-SPIN销售方法与AI-口述
 - 马易
 source_person: 马易
-source_context: 拆书会第215期《SPIN 销售巨人》（下）实践篇——销售与需求挖掘的分工（2026-08-11 口述）
+source_context:
+  - 拆书会第215期《SPIN 销售巨人》（下）实践篇——销售与需求挖掘的分工（2026-08-11 口述）
+  - 口述
+  - yitang
+  - 拆书会第215期《SPIN 销售巨人》（下）实践篇——销售与需求挖掘的分工（2026-08-11 口述）
+  - 口述
+source_context:
+  - 拆书会第215期《SPIN 销售巨人》（下）实践篇——销售与需求挖掘的分工（2026-08-11 口述）
+  - 口述
+  - yitang
 source_refs:
 - 00_inbox/spin销售巨人/马易-SPIN销售方法与AI-口述.txt
 related:
@@ -49,7 +57,6 @@ tags:
   - 招聘
   - 方法
   - 边界
-  - 口述
 ---
 # 需求挖掘是公司的任务，销售只做传递与匹配
 

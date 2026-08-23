@@ -2,7 +2,10 @@
 id: tool-马易-AI落地认知速成-最佳实践学习法
 title: 技能：AI落地认知速成-最佳实践学习法
 type: tool
-domain: unknown
+domain:
+- ai-collaboration
+- content
+- human-insights
 status: draft
 author: unknown
 reviewed_by: pending
@@ -25,7 +28,10 @@ discoverable_by:
 - AI落地认知速成
 - 最佳实践学习法
 related: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 技能：AI落地认知速成-最佳实践学习法
 

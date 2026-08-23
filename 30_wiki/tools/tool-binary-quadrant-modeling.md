@@ -13,7 +13,8 @@ source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 - 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
 status: reviewed
-domain: src-unknown
+domain:
+- strategy
 discoverable_by:
   - 二分法/象限图建模法：用正交维度做分类与取舍
   - 二分法/象限图建模法

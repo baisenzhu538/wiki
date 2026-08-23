@@ -2,7 +2,8 @@
 id: yt-foresight-addition-subtraction
 title: 加法减法实操：从100个选项到3个高概率方向
 type: concept
-domain: src-unknown
+domain:
+- strategy
 aliases:
 - 个选项到
 - 个高概率方向

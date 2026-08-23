@@ -3,7 +3,8 @@ id: framework-yitang-shishi-qiushi
 title: 实事求是：把「我希望是真的」和「事实是什么」分开
 type: framework
 status: reviewed
-domain: yitang
+domain:
+- content
 confidence: 0.88
 trust_level: high
 language: zh-CN
@@ -31,6 +32,8 @@ aliases:
 - 实事求是：把我希望是真的和事实是什么分开
 - 希望是真的和事实是什么分开
 - 把我希望是真的和事实是什么分开
+source_context:
+  - yitang
 source_refs: null
 tags:
 - method:evidence-based-decision

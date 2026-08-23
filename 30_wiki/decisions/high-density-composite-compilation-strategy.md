@@ -18,6 +18,10 @@ updated_at: '2026-06-16'
 related:
 - '[[tool-osint-maltego]]'
 - '[[graph-rag-retrieval-layer]]'
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 高密度素材编译策略 v2.0
 

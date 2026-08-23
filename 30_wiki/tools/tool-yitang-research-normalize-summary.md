@@ -29,7 +29,10 @@ discoverable_by:
 - 归一总结
 - 整合信息形成统一结论
 related: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 归一总结：整合信息形成统一结论
 

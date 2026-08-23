@@ -5,10 +5,10 @@ title: 射箭馆：用业务公式四参数串起动力阻力触点，把"等客
 type: case
 status: reviewed
 domain:
-- yitang
 - business-strategy
 source_person: 叶文彬（嗷大叶）
 source_context: 一堂「落地之夜第六场」直播 Live 第 255 场案例分享（2026），射箭馆连锁从 17 家到剩 5 家再回到 17 家，围绕业务公式四参数（进店量/办卡率/会员
+  - yitang
   ARPU/裂变率）做转化率迭代
 aliases:
   - 务公式四参数串起动力阻力触点

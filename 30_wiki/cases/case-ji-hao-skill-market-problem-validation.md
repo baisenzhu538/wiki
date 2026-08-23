@@ -6,14 +6,18 @@ type: case
 status: enriched
 domain:
 - ai-collaboration
-- yitang
 source_person: 纪浩
-source_context: AI俱乐部·AI协作方法论分享（2026年）
+source_context:
+  - AI俱乐部·AI协作方法论分享（2026年）
+  - yitang
 aliases:
   - 一堂Skill市场从伪需求到真实需求的四问验证
   - 案例
   - 案例：一堂Skill市场从伪需求到真实需求的四问验证
   - 纪浩
+source_context:
+  - AI俱乐部·AI协作方法论分享（2026年）
+  - yitang
 source_refs:
   - src_unknown
   - src_unknown

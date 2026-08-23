@@ -7,7 +7,9 @@ type: concept
 status: reviewed
 confidence: 0.78
 trust_level: medium
-source_context: 一堂五步法需求分析口述——"最悲惨的结果是需求错了"
+source_context:
+  - 一堂五步法需求分析口述——"最悲惨的结果是需求错了"
+  - 一堂五步法
 aliases:
   - 伪需求与衍生需求
   - 层次模型
@@ -51,10 +53,9 @@ diagnostic_signals:
 - framework_lens: 竞品驱动型衍生需求——未验证是否适合自己用户
   follow_up_question: 竞品的这个功能解决了他们用户的什么需求？你的用户有同样的需求吗？
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
-- 一堂五步法
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 
 

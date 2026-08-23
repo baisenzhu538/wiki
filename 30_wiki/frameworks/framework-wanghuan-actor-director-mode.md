@@ -27,7 +27,10 @@ related: null
 discoverable_by:
 - 王欢演员到导演
 - 人机协作框架
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 diagnostic_signals: null
 follow_up: 是否重新定义了角色——从“执行者”变成“让 AI 把事做好的质量守门人”？
 ---

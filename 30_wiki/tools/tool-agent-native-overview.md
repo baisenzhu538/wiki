@@ -12,7 +12,6 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 - ai-collaboration
 aliases:
@@ -21,6 +20,8 @@ aliases:
   - Agent原生调研工具总览：20252026新范式
   - 原生调研工具总览
   - 新范式
+source_context:
+  - yitang
 source_refs: null
 discoverable_by:
   - Agent原生调研工具总览：2025-2026新范式

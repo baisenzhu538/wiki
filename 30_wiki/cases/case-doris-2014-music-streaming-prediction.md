@@ -15,13 +15,14 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - 2014年预判音乐流媒体趋势
   - 年预判音乐流媒体趋势
   - 案例
   - 案例：2014年预判音乐流媒体趋势
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/Doris-行业报告调研-口述.txt
 - 00_inbox/调研专题/Doris-行业报告调研-笔记.txt

@@ -1,5 +1,6 @@
 ---
-domain: src-unknown
+domain:
+- decision-making
 id: yt-growth-acquisition-channels
 title: 获客渠道：流量获取的6大类型
 type: concept

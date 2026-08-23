@@ -3,8 +3,7 @@ id: tool-Truman-短视频自动化上传工作流
 title: 技能：短视频自动化上传工作流
 type: tool
 domain:
-  - ai-collaboration
-  - yitang
+- ai-collaboration
 status: draft
 author: 老顽童
 reviewed_by: pending
@@ -16,8 +15,13 @@ aliases:
   - 技能：短视频自动化上传工作流
   - 短视频自动化上传工作流
   - 频自动化上传工作流
+source_context:
+  - （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+  - yitang
 source_refs: null
-source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+source_context:
+  - （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+  - yitang
 updated_at: '2026-06-29'
 discoverable_by:
   - 技能：短视频自动化上传工作流
@@ -30,9 +34,13 @@ related:
 - '[[tool-Truman-数学题与语文题区分法]]'
 - tool-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi
 tags:
-- audience:executor
-- scene:execution
-- skill-level:beginner
+  - audience:executor
+  - scene:execution
+  - skill-level:beginner
+  - 工作流
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：短视频自动化上传工作流
 

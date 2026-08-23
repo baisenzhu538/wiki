@@ -2,7 +2,8 @@
 id: framework-founder-ip-three-positioning
 title: 创始人 IP 三定位模型
 type: framework
-domain: unknown
+domain:
+- content
 status: reviewed
 confidence: 0.85
 difficulty: intermediate
@@ -28,7 +29,10 @@ aliases:
 - 怎么定位
 source_refs: null
 query_triggers: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 quality_labels: null
 related: null
 discoverable_by:

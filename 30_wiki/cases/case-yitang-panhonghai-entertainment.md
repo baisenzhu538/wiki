@@ -5,10 +5,10 @@ title: 潘鸿海娱乐店：涨价拆成三个子假设小范围测，GMV +15-20
 type: case
 status: enriched
 domain:
-- yitang
 - business-formula
 source_person: 潘鸿海（一堂学员，线下娱乐综合店增长负责人）
 source_context: 一堂「关键假设-业务公式」管理篇口述，假设管理进阶段第二个案例（L1380-L1452）：线下娱乐综合店（桌游/剧本杀/体验馆综合体，最大容纳
+  - yitang
   600 人），2024 年 4 月内测业务公式课后建团队假设池，涨价拆三子假设验证成功，半年业绩 +50%、美团抖音品类榜第一
 aliases:
   - 半年业绩

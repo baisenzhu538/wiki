@@ -3,7 +3,8 @@ id: yt-tob-barriers
 title: To B 业务壁垒：选择、强弱判断与规模不经济对抗
 type: framework
 status: enriched
-domain: src-unknown
+domain:
+- strategy
 aliases:
   - ToB业务壁垒：选择、强弱判断与规模不经济对抗
   - 业务壁垒

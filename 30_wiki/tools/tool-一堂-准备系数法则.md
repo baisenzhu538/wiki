@@ -12,7 +12,6 @@ language: zh-CN
 created_at: '2026-07-13'
 updated_at: '2026-07-13'
 domain:
-- yitang
 - conversion-rate
 aliases:
   - 一堂准备系数法则
@@ -20,6 +19,8 @@ aliases:
   - 三分之一挑选的经验系数
   - 准备量与三倍准备
   - 需要量
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L1864-L1926
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L2386-L2398

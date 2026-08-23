@@ -2,7 +2,8 @@
 id: case-five-step-growth-first-lever
 title: 案例：五步法中从产品内核到增长的第一次跨越
 type: case
-domain: src-unknown
+domain:
+- strategy
 aliases:
 - Truman
 - 五步法中从产品内核到增长的第一次跨越

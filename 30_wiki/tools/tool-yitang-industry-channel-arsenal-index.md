@@ -5,7 +5,6 @@ type: tool
 title: 24 行业获客清单索引：跨行业渠道灵感库
 status: reviewed
 domain:
-- yitang
 - growth
 confidence: 0.75
 trust_level: medium
@@ -27,6 +26,13 @@ aliases:
   - 获客清单索引
   - 行业获客清单索引
   - 跨行业渠道灵感库
+source_context:
+  - 一堂五步法之增长
+  - yitang
+  - 一堂五步法之增长
+source_context:
+  - 一堂五步法之增长
+  - yitang
 source_refs:
 - 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-案例武器库-01_vlm_desc.md
 - 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-案例武器库-02_vlm_desc.md
@@ -63,11 +69,10 @@ related:
 - '[[dk-yitang-channel-exploration-traps]]'
 review_date: '2026-06-28'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
-- 一堂五步法之增长
-- 案例武器库
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 案例武器库
 ---
 
 

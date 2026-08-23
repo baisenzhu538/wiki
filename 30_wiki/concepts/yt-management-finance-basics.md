@@ -1,7 +1,9 @@
 ---
 title: 财务入门
 type: concept
-domain: src-unknown
+domain:
+- decision-making
+- strategy
 status: reviewed
 pipeline:
 - src_unknown

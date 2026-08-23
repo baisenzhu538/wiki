@@ -1,5 +1,6 @@
 ---
-domain: src-unknown
+domain:
+- strategy
 id: yt-barrier-scale-economies
 title: 规模经济：成本优势
 type: concept

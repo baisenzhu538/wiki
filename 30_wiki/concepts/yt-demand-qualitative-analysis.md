@@ -1,12 +1,15 @@
 ---
-domain: src-unknown
+domain:
+- decision-making
 id: yt-demand-qualitative-analysis
 title: 需求定性分析框架：拆推评算四步法
 type: framework
 status: reviewed
 confidence: 0.93
 trust_level: high
-source_context: 一堂五步法需求分析口述——"需求分析先定性后定量"
+source_context:
+  - 一堂五步法需求分析口述——"需求分析先定性后定量"
+  - 一堂五步法
 aliases:
   - 定性分析框架
   - 拆推评算四步法
@@ -49,11 +52,10 @@ diagnostic_signals:
 - framework_lens: 定性分析缺乏结构化——访谈了但没拆推评算
   follow_up_question: 你的访谈记录能填进拆推评算四个格子吗？每个格子都有明确答案吗？
 tags:
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
-- 一堂五步法
-- 分析段位图
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:advanced
+  - 分析段位图
 ---
 # 需求定性分析框架：拆推评算四步法
 

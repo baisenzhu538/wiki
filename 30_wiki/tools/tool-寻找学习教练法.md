@@ -3,7 +3,8 @@ id: tool-寻找学习教练法
 title: 技能：寻找学习教练法
 type: tool
 status: reviewed
-domain: src-unknown
+domain:
+- decision-making
 source_person: 一堂课程
 source_context: 一堂·科学学习IPO全景策略图 V2.0 (2026)
 aliases:

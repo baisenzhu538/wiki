@@ -13,14 +13,18 @@ domain:
 - personal-os
 - product
 - ai-collaboration
-- yitang
 source_person: Truman / 一堂课程体系
-source_context: 一堂全产品方法论课程（2026-07-08），场景走查专题深挖补产
+source_context:
+  - 一堂全产品方法论课程（2026-07-08），场景走查专题深挖补产
+  - yitang
 aliases:
   - Truman / 一堂课程体系
   - 一堂课程体系
   - 场景走查
   - 场景走查AgentSpec
+source_context:
+  - 一堂全产品方法论课程（2026-07-08），场景走查专题深挖补产
+  - yitang
 source_refs:
 - .agent/prompts/tool-agent-spec-yitang-scenario-walkthrough.md
 discoverable_by:

@@ -3,7 +3,8 @@ id: yt-lean-b2b-b2c-hardware-content-testing
 title: ToB/ToC/硬件/内容产品的测试差异
 type: framework
 status: draft
-domain: src-unknown
+domain:
+- strategy
 aliases:
   - ToB/ToC/硬件/内容产品的测试差异
   - 内容产品的测试差异

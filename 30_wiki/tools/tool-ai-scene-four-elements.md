@@ -3,7 +3,8 @@ id: tool-ai-scene-four-elements
 title: 技能：AI落地场景四要素评估法
 type: tool
 status: draft
-domain: unknown
+domain:
+- decision-making
 source_person: 马易
 source_context: AI俱乐部-AI落地场景识别-口述，2026-06-06
 aliases:
@@ -27,7 +28,10 @@ discoverable_by:
 related: null
 created_at: 2026-06-11
 updated_at: 2026-07-02
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 pipeline: null
 reviewed_by: laowantong
 author: unknown

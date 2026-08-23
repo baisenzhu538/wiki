@@ -5,7 +5,6 @@ title: 泛产品十年爬山地图：L1-L6 成长路径（升级版）
 status: reviewed
 domain:
 - panproduct
-- yitang
 - deliberate-practice
 - personal-growth
 confidence: 0.82
@@ -26,6 +25,8 @@ aliases:
 - 泛产品十年爬山地图
 - 泛产品十年爬山地图：L1L6成长路径升级版
 - 路径升级版
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/泛产品设计/一堂-泛产品设计课程-口述.txt
 - 00_inbox/泛产品设计/一堂-泛产品设计课程-笔记.txt

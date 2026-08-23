@@ -13,14 +13,18 @@ domain:
 - personal-os
 - sales
 - ai-collaboration
-- yitang
 source_person: 李蕊
-source_context: 一堂科学销售方法论课程（2026-07-02）；从
+source_context:
+  - 一堂科学销售方法论课程（2026-07-02）；从
+  - yitang
 aliases:
   - OPC卖点提炼助手AgentSpec
   - 卖点提炼助手
   - 提炼助手
   - 李蕊
+source_context:
+  - 一堂科学销售方法论课程（2026-07-02）；从
+  - yitang
 source_refs:
 - 60_feedback/tasks/task_20260702_laowantong-opc-sales-agent-specs-production.md
 - 30_wiki/tools/tool-yitang-value-proposition-4step.md

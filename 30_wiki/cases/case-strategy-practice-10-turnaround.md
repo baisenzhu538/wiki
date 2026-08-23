@@ -18,6 +18,9 @@ aliases:
   - 尾部企业扭亏
   - 案例
   - 案例：尾部企业扭亏7个月转连续7年亏损，2年30亿→50亿
+source_context:
+  - 一堂五步法
+  - 冉鹏战略课逐字稿
 source_refs:
 - 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md
 - 00_inbox/一堂五步法/一堂-一堂五步法-单元模型-口述.txt
@@ -37,11 +40,9 @@ related:
 - '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
 - case-strategy-practice-11-third-place
 tags:
-- audience:general
-- scene:reference
-- skill-level:advanced
-- 一堂五步法
-- 冉鹏战略课逐字稿
+  - audience:general
+  - scene:reference
+  - skill-level:advanced
 ---
 **冉鹏实操**：7个月扭亏为盈（连续7年亏损）→12个月直营店0→1200家→2年营收30亿→50亿
 **方法**：差距分析→找到真正的业绩差距（不是"产品不好"而是"渠道没铺开"）→聚焦执行

@@ -12,7 +12,6 @@ language: zh-CN
 created_at: 2026-07-12
 updated_at: '2026-07-12'
 domain:
-- yitang
 - business-formula
 aliases:
   - 动作
@@ -20,6 +19,8 @@ aliases:
   - 参数挖掘武器库
   - 参数挖掘武器库：6策略→22动作→100+参数全量清单
   - 策略
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/Handle the business/Business formula/_vlm_output/一堂业务公式-参数挖掘武器库（极其重要，需要精细识别）_vlm.md
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1180-L1290

@@ -13,7 +13,9 @@ trust_level: high
 language: zh-CN
 domain: strategy
 source_person: 冉鹏
-source_context: 引擎点火20260110 战略破局课程 逐字稿 §7 / 知识点 / PPT 第 22 页
+source_context:
+  - 引擎点火20260110 战略破局课程 逐字稿 §7 / 知识点 / PPT 第 22 页
+  - 冉鹏战略课逐字稿
 aliases:
   - 冉鹏
   - 国产手机L
@@ -38,11 +40,10 @@ related:
 - case-strategy-failure-04-appliance
 - '[[dk-strategy-organization-strategy-mismatch]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:advanced
-- 冉鹏PPT截图
-- 冉鹏战略课逐字稿
+  - audience:general
+  - scene:reference
+  - skill-level:advanced
+  - 冉鹏PPT截图
 ---
 **表面问题**：斥巨资收购后整合失败。
 **战略根因**：能力缺失——硬件强但缺乏软件生态能力，收购来的软件团队无法融入。

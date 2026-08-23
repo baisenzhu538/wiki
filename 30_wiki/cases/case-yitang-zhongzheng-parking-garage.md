@@ -5,10 +5,11 @@ title: 案例：立体车库——从12车位样机到全自动无人化部署�
 type: case
 status: reviewed
 domain:
-- yitang
 - product-kernel
 source_person: 中征（一堂学员）
-source_context: 一堂产品内核迭代课 - 立体车库项目从0到1产品内核迭代案例
+source_context:
+  - 一堂产品内核迭代课 - 立体车库项目从0到1产品内核迭代案例
+  - yitang
 aliases:
   - 中征（一堂学员）
   - 从12车位样机到全自动无人化部署的产品内核迭代
@@ -16,6 +17,9 @@ aliases:
   - 案例：立体车库从12车位样机到全自动无人化部署的产品内核迭代
   - 立体车库
   - 立体车库从
+source_context:
+  - 一堂产品内核迭代课 - 立体车库项目从0到1产品内核迭代案例
+  - yitang
 source_refs:
 - 00_inbox/一堂-产品内核迭代课-Truman-口述.txt L700-L1150
 - 00_inbox/一堂-产品内核迭代课-Truman-口述.txt L2069-L2253

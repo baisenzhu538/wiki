@@ -3,7 +3,8 @@ id: yt-unit-model-construction
 confidence: 0.89
 created_at: 2026-05-24
 difficulty: intermediate
-domain: src-unknown
+domain:
+- strategy
 estimated_tokens: 3200
 language: zh-CN
 prerequisites:

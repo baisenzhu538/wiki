@@ -12,7 +12,6 @@ confidence: 0.82
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - 以投诉之名获取内部信息
@@ -20,6 +19,8 @@ aliases:
   - 假装客户投诉：以投诉之名获取内部信息
   - 客户投诉
   - 诉之名获取内部信息
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 discoverable_by:

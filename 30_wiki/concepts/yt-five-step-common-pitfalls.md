@@ -12,7 +12,9 @@ quality_labels:
 - validated
 created_at: 2026-06-11
 difficulty: intermediate
-domain: src-unknown
+domain:
+- decision-making
+- human-insights
 estimated_tokens: 2200
 language: zh-CN
 prerequisites: []
@@ -29,6 +31,8 @@ aliases:
   - 暗知识
   - 暗知识：五步法常见误区与认知陷阱
   - 法常见误区与认知陷阱
+source_context:
+  - 一堂五步法
 source_refs:
 - 10_raw/sources/src_20260611_7c893d19-一堂-一堂五步法-落地实操-口述.md
 - 10_raw/sources/src_20260611_a7097aed-一堂-一堂五步法-落地实操-笔记.md
@@ -64,11 +68,10 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
-- 一堂五步法
-- 落地实操
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 落地实操
 ---
 # 暗知识：五步法常见误区与认知陷阱
 

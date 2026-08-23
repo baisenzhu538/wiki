@@ -10,7 +10,6 @@ confidence: 0.8
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
 - decision-science
 aliases:
   - ROI决策评估画布
@@ -20,6 +19,8 @@ aliases:
   - 度投资回报评估模板
   - 评估画布
   - 资回报评估模板
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-ROI决策评估画布_vlm_desc.md
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-ROI决策评估画布_vlm_desc.md

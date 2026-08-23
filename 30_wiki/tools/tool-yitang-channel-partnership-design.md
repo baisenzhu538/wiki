@@ -10,7 +10,6 @@ review_date: 2026-06-29
 confidence: 0.78
 trust_level: medium
 domain:
-- yitang
 - growth
 - strategy
 created_at: '2026-06-29'
@@ -21,6 +20,8 @@ aliases:
   - 底价合伙人模式设计工具
   - 战略培训案例
   - 王语嫣（九层深挖诊断）/ 冉鹏（战略培训案例）
+source_context:
+  - yitang
 source_refs:
 - 60_feedback/diag/diag_20260629_wangyuyan-goat-milk-channel-partnership-nine-layer.md
 - 10_raw/sources/src_20260614_22f103f0-战略培训-实战案例分析.md

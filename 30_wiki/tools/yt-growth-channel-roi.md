@@ -1,5 +1,7 @@
 ---
-domain: src-unknown
+domain:
+- decision-making
+- strategy
 id: yt-growth-channel-roi
 title: 渠道ROI评估与优化
 type: tool

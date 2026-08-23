@@ -59,7 +59,12 @@ author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
-domain: src-unknown
+domain:
+- ai-collaboration
+- content
+- decision-making
+- master
+- strategy
 diagnostic_signals:
 - lens: 缺乏统一完备框架，各自迷信单一工具或 prompt
   follow_up: 让业务负责人用双三角模型把任务拆成六维检查清单，定位缺失的是哪一角

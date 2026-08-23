@@ -13,7 +13,9 @@ trust_level: high
 language: zh-CN
 domain: strategy
 source_person: 冉鹏
-source_context: 引擎点火20260110 战略破局课程 逐字稿 §21-22
+source_context:
+  - 引擎点火20260110 战略破局课程 逐字稿 §21-22
+  - 冉鹏战略课逐字稿
 aliases:
   - 冉鹏
   - 战略的范围经济
@@ -36,11 +38,10 @@ related:
 - '[[case-strategy-lekai-film]]'
 - '[[学会提问在信息洪流中锻造批判性思维的利刃]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:advanced
-- 冉鹏战略课逐字稿
-- 战略专题
+  - audience:general
+  - scene:reference
+  - skill-level:advanced
+  - 战略专题
 ---
 
 **对比**：方特（拥有中国传统文化主题与熊出没/超级飞侠等 IP 合作） vs 迪士尼（拥有动画制片、复仇者联盟、酒店、电视台、消费品授权等多元业务）。

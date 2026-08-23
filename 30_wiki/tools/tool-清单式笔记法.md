@@ -3,17 +3,21 @@ id: tool-清单式笔记法
 title: 技能：清单式笔记法
 type: tool
 domain:
-  - content-production
-  - design
-  - yitang
+- content-production
+- design
 status: draft
 source_person: 一堂课程设计
-source_context: src_20260522_e139c9e9
+source_context:
+  - src_20260522_e139c9e9
+  - yitang
 aliases:
   - 一堂课程设计
   - 技能
   - 技能：清单式笔记法
   - 清单式笔记法
+source_context:
+  - src_20260522_e139c9e9
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260522_e139c9e9-ocr-一堂-个人修炼-科学学习ipo完整清单.md
 definition_of_done:

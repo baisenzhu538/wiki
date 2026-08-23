@@ -6,9 +6,13 @@ type: case
 status: reviewed
 domain:
 - product
-- yitang
 source_person: Truman / 古董
-source_context: 一堂案例拆解课程-奶茶店案例
+source_context:
+  - 一堂案例拆解课程-奶茶店案例
+  - 串讲口述
+  - yitang
+  - 一堂案例拆解课程-奶茶店案例
+  - 串讲口述
 aliases:
   - Truman / 古董
   - 从九死一生到十年百店的科学创业之路
@@ -16,6 +20,10 @@ aliases:
   - 奶茶店五步法：从九死一生到十年百店的科学创业之路
   - 店五步法
   - 死一生到十年百店的科学创业之路
+source_context:
+  - 一堂案例拆解课程-奶茶店案例
+  - 串讲口述
+  - yitang
 source_refs:
   - src_unknown
   - src_unknown
@@ -48,12 +56,11 @@ review_date: '2026-07-05'
 confidence: 0.85
 trust_level: high
 tags:
-- audience:general
-- scene:reference
-- skill-level:advanced
-- 串讲口述
-- 案例拆解
-- 课程清单
+  - audience:general
+  - scene:reference
+  - skill-level:advanced
+  - 案例拆解
+  - 课程清单
 ---
 
 > 黄药师骨架 · 老顽童填内容

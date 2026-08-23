@@ -6,10 +6,9 @@ status: enriched
 confidence: 0.9
 trust_level: high
 domain:
-  - yitang
-  - business-strategy
-  - product
-  - entrepreneur
+- business-strategy
+- product
+- entrepreneur
 aliases:
   - 产品
   - 工艺框架
@@ -17,6 +16,8 @@ aliases:
   - 草本浓缩饮品的渠道
   - 餐饮渠道饮料开发
   - 餐饮渠道饮料开发：草本浓缩饮品的渠道产品工艺框架
+source_context:
+  - yitang
 source_refs:
   - src_unknown
   - src_unknown

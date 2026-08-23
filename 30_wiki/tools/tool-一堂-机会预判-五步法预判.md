@@ -13,7 +13,6 @@ language: zh-CN
 created_at: 2026-07-09
 updated_at: 2026-07-09
 domain:
-- yitang
 - opportunity-foresight
 - five-step-method
 aliases:
@@ -22,6 +21,8 @@ aliases:
   - 机会预判
   - 机会预判五步法预判：选项池收敛为店型剧本×五步矩阵出口
   - 选项池收敛为店型剧本
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/一堂-机会预判-咖啡店案例-五步法预判_paddle_ocr.txt L1-L5
 - 00_inbox/一堂-机会预判-咖啡案例01_paddle_ocr.txt L1-L20

@@ -29,7 +29,10 @@ discoverable_by:
 - 地图在手
 - 建立全局信息获取体系
 related: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 地图在手：建立全局信息获取体系
 

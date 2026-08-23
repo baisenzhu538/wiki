@@ -24,7 +24,8 @@ tags:
 - skill-level:intermediate
 type: concept
 status: draft
-domain: unknown
+domain:
+- strategy
 ---
 - "[[yt-panproduct-demand-project-background]]"
 

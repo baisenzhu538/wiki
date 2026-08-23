@@ -13,7 +13,11 @@ source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 - 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
 status: reviewed
-domain: src-unknown
+domain:
+- content
+- human-insights
+- kdo
+- strategy
 source_person: Truman
 source_context: 一堂高阶建模能力培训（千人广场模型案例）。口述稿为完整长文档，内容充分支撑案例还原；笔记为同一课程的学员整理，可作为旁证。事件来源单一，保持
   medium trust。

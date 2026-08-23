@@ -38,7 +38,10 @@ related:
 - '[[tool-月白-多语种专业名词提示词策略]]'
 - '[[tool-月白-小红书平台内容策略：从美图经济到沙雕梗图]]'
 - '[[tool-月白-电商详情页起承转合架构法]]'
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 最佳实践调研：找到行业标杆，复制成功因素
 

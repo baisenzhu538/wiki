@@ -5,7 +5,6 @@ type: case
 title: 案例：固体红牛如何通过渠道探索找到司机群体
 status: reviewed
 domain:
-- yitang
 - growth
 confidence: 0.78
 trust_level: medium
@@ -25,6 +24,13 @@ aliases:
   - 固体红牛如何通过渠道探索找到司机群体
   - 案例
   - 案例：固体红牛如何通过渠道探索找到司机群体
+source_context:
+  - 一堂五步法之增长
+  - yitang
+  - 一堂五步法之增长
+source_context:
+  - 一堂五步法之增长
+  - yitang
 source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-笔记.txt
@@ -40,11 +46,10 @@ related:
 - '[[yt-unit-model-concept]]'
 review_date: '2026-06-28'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
-- 一堂五步法之增长
-- 渠道探索方法论
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 渠道探索方法论
 ---
 
 

@@ -23,7 +23,10 @@ source_refs: null
 related: null
 discoverable_by:
 - 王欢OODA闭环
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 diagnostic_signals: null
 follow_up: 每次行动是否设计了明确的反馈信号，并写入了下一轮观察清单？
 ---

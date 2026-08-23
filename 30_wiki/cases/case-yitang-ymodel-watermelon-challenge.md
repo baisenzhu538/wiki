@@ -12,7 +12,7 @@ language: zh-CN
 created_at: 2026-07-05
 updated_at: 2026-07-05
 domain:
-- yitang
+- ai-collaboration
 aliases:
   - 1000次循环从普通人到顶尖选手
   - Y模型
@@ -20,6 +20,8 @@ aliases:
   - 拍西瓜满级挑战
   - 案例
   - 次循环从普通人到顶尖选手
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/ideas/一堂-个人修身-Y模型探索营2口述版.md
 discoverable_by:

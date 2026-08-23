@@ -31,7 +31,10 @@ discoverable_by:
 - 战略精益验证
 - 战略假设验证
 - 精益战略流程
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 战略假设的精益验证流程
 

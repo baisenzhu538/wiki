@@ -9,7 +9,8 @@ aliases:
 source_refs:
 - 10_raw/sources/src_20260619_adef6403_30_wiki_concepts_yt_management_goal_management.md
 status: reviewed
-domain: src-unknown
+domain:
+- master
 language: zh-CN
 version: 1
 difficulty: foundational

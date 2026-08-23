@@ -26,7 +26,10 @@ trust_level: high
 discoverable_by:
 - AI 能生成'看着很厉害'的模型，但如果你没有逻辑洁癖，它只
 related: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 reviewed_by: 王语嫣
 review_date: '2026-06-16'
 author: 老顽童

@@ -1,5 +1,6 @@
 ---
-domain: src-unknown
+domain:
+- decision-making
 id: yt-business-model-cac-ltv
 title: CAC与LTV的实战计算
 type: tool

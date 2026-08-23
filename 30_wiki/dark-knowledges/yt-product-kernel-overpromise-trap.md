@@ -2,7 +2,6 @@
 
 domain:
 - product
-- yitang
 id: yt-product-kernel-overpromise-trap
 title: 过度承诺陷阱：前端卖了后端做不出来的东西
 type: dk
@@ -10,13 +9,18 @@ dark_knowledge_type: trap
 status: reviewed
 confidence: 0.85
 trust_level: high
-source_context: 一堂产品内核实操课——声音变现案例 + 前后端组织目标不一致
+source_context:
+  - 一堂产品内核实操课——声音变现案例 + 前后端组织目标不一致
+  - yitang
 aliases:
   - 前端卖了后端做不出来的东西
   - 卖了后端做不出来的东西
   - 承诺陷阱
   - 过度承诺陷阱
   - 过度承诺陷阱：前端卖了后端做不出来的东西
+source_context:
+  - 一堂产品内核实操课——声音变现案例 + 前后端组织目标不一致
+  - yitang
 source_refs:
 - 00_inbox/一堂-产品内核实操课-Truman-口述.txt
 - 00_inbox/一堂-产品内核实操课-truman-笔记.txt

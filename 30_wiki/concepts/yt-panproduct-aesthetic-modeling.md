@@ -6,7 +6,12 @@ confidence: 0.8
 created_at: 2026-05-11
 difficulty: intermediate
 domain:
-- src_unknown
+- ai-collaboration
+- content
+- design
+- kdo
+- master
+- strategy
 estimated_tokens: 1424
 language: zh-CN
 prerequisites:
@@ -66,6 +71,10 @@ diagnostic_signals:
 updated_at: 2026-07-08
 author: 老顽童
 trust_level: medium
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 最佳实践建模：用评价维度打磨产品
 

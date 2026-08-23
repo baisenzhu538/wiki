@@ -13,7 +13,8 @@ quality_labels:
 - validated
 created_at: 2026-06-11
 difficulty: intermediate
-domain: yitang
+domain:
+- kdo
 estimated_tokens: 2200
 language: zh-CN
 query_triggers:
@@ -34,6 +35,13 @@ aliases:
   - 案例：知乎vs得到网络效应壁垒的对比分析
   - 知乎vs得到
   - 网络效应壁垒的对比分析
+source_context:
+  - 一堂五步法
+  - yitang
+  - 一堂五步法
+source_context:
+  - 一堂五步法
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260610_426daf30-一堂-一堂五步法-壁垒-口述.md
 status: reviewed
@@ -58,10 +66,9 @@ related:
 - '[[yt-scale-economy-weapon-library]]'
 - '[[yitang-domain-digest]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
-- 一堂五步法
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 
 # 案例：知乎vs得到——网络效应壁垒的对比分析

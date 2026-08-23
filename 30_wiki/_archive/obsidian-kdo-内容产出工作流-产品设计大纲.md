@@ -17,6 +17,10 @@ author: unknown
 reviewed_by: pending
 confidence: 0.75
 trust_level: medium-low
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # Obsidian + KDO 内容产出工作流 — 产品设计大纲
 

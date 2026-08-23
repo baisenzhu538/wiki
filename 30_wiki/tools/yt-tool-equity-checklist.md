@@ -1,15 +1,19 @@
 ---
 id: yt-tool-equity-checklist
 title: 股权设计检查清单
-type: tool
-aliases:
+tags:
   - audience:executor
   - scene:execution
   - skill-level:intermediate
+type: tool
+aliases:
   - 股权设计检查清单
+source_context:
+  - yitang
 source_refs:
 status: enriched
-domain: yitang
+domain:
+- decision-making
 language: zh-CN
 version: 1
 difficulty: advanced
@@ -21,9 +25,6 @@ discoverable_by:
 related:
 contradicts: null
 query_triggers:
-tags:
-- audience:executor
-- scene:execution
 trust_level: medium
 yitang:
 map: management

@@ -3,7 +3,8 @@ id: industry-ai-cases
 title: 产业 AI 落地案例集（非药柜）：主题综合索引卡
 type: concept
 status: reviewed
-domain: unknown
+domain:
+- strategy
 source_person: 王语嫣
 source_context: 听脑产业 AI 案例主题摘要综合（8 条录音 meetingSummary）
 aliases:
@@ -23,7 +24,10 @@ discoverable_by:
 - 产业 AI 落地案例集非药柜：主题综合索引卡
 - 落地案例集非药柜
 - 主题综合索引卡
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 created_at: '2026-06-14'
 quality_labels: null
 updated_at: '2026-06-28'

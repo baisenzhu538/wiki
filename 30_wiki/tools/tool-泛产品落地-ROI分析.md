@@ -11,12 +11,13 @@ confidence: 0.75
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
 - decision-science
 aliases:
   - ROI分析
   - 落地卡片
   - 落地卡片：ROI分析
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-落地卡片-ROI分析_vlm_desc.md
 discoverable_by:

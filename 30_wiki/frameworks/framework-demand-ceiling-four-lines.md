@@ -11,7 +11,8 @@ trust_level: high
 language: zh-CN
 created_at: 2026-07-08
 updated_at: 2026-07-08
-domain: unknown
+domain:
+- decision-making
 source_refs: null
 related: null
 discoverable_by:
@@ -23,7 +24,10 @@ diagnostic_signals:
   lens: 融资版vs经营版未区分——两套算法混用
   follow-up: 明确当前场景是融资版还是经营版，用对应算法
 quality_labels: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 aliases: null
 ---
 # 需求天花板四层线：TAM/SAM/SOM/CR1/BEL

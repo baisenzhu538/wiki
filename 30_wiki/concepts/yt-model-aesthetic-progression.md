@@ -3,7 +3,8 @@ id: yt-model-aesthetic-progression
 confidence: 0.85
 created_at: 2026-05-11
 difficulty: intermediate
-domain: src-unknown
+domain:
+- modeling
 estimated_tokens: 2330
 language: zh-CN
 query_triggers:

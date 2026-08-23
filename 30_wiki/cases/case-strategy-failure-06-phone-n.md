@@ -23,6 +23,10 @@ aliases:
   - 手机公司N
   - 组织僵化
   - 迭代缓慢
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 discoverable_by:
   - 案例：手机公司N——组织僵化。组织不适致迭代缓慢
   - 手机公司N

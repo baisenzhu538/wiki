@@ -6,10 +6,11 @@ type: dk
 dark_knowledge_type: insight
 status: reviewed
 domain:
-- yitang
 - note-taking
 source_person: Truman
-source_context: 一堂-AI时代请单体笔记-Truman-口述-02.txt
+source_context:
+  - 一堂-AI时代请单体笔记-Truman-口述-02.txt
+  - yitang
 aliases:
   - AI时代笔记基本功的幻灭危机
   - Truman
@@ -17,6 +18,9 @@ aliases:
   - “新人灾难，老人天堂”：AI时代笔记基本功的幻灭危机
   - 老人天堂
   - 老人天堂”
+source_context:
+  - 一堂-AI时代请单体笔记-Truman-口述-02.txt
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260617_c5e5fb8e-一堂-ai时代请单体笔记-truman-口述-02.txt
 discoverable_by:

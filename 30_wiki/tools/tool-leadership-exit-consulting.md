@@ -10,9 +10,16 @@ created_at: 2026-08-09
 updated_at: 2026-08-09
 confidence: 0.88
 trust_level: high
-domain: [yitang, management, coaching]
+domain:
+- management
+- coaching
 source_person: Truman
-source_context: 教练式领导力探索营——出口式咨询（增量暗知识 W3）
+source_context:
+  - 教练式领导力探索营——出口式咨询（增量暗知识 W3）
+  - yitang
+source_context:
+  - 教练式领导力探索营——出口式咨询（增量暗知识 W3）
+  - yitang
 source_refs:
   - 00_inbox/教练式领导力/教练式领导力课程-01-口述.txt
 aliases: [出口式咨询, 超级小抄, 找出口, 换视角, 探究解法, 增长3到5倍, 教练式领导力课程-01-口述]

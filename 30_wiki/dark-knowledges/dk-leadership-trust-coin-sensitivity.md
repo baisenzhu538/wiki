@@ -10,9 +10,20 @@ created_at: 2026-08-09
 updated_at: 2026-08-09
 confidence: 0.9
 trust_level: high
-domain: [yitang, management, coaching]
+domain:
+- management
+- coaching
 source_person: Truman
-source_context: 教练式领导力探索营——信任硬币敏感性（暗知识）
+source_context:
+  - 教练式领导力探索营——信任硬币敏感性（暗知识）
+  - 口述
+  - yitang
+  - 教练式领导力探索营——信任硬币敏感性（暗知识）
+  - 口述
+source_context:
+  - 教练式领导力探索营——信任硬币敏感性（暗知识）
+  - 口述
+  - yitang
 source_refs:
   - 00_inbox/教练式领导力/教练式领导力课程-01-口述.txt
 aliases: [信任硬币敏感性, 加减币觉察, 2×5耐心标准, 希望表达库, 安全空间有期限, 教练式领导力课程-01-口述]
@@ -38,7 +49,6 @@ tags:
   - 方法
   - 边界
   - 清单
-  - 口述
 quality_labels: [insight, actionable, principle]
 ---
 

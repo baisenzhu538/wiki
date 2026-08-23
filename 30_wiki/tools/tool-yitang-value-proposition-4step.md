@@ -11,15 +11,19 @@ trust_level: high
 language: zh-CN
 domain:
 - business-strategy
-- yitang
 - product
 source_person: 李蕊
-source_context: 一堂科学销售方法论课程（2026-07-02），销售专题九层深挖诊断
+source_context:
+  - 一堂科学销售方法论课程（2026-07-02），销售专题九层深挖诊断
+  - yitang
 aliases:
   - 一堂卖点提炼四步法
   - 一堂卖点提炼四步法：把功能语言变成客户愿意掏钱的价值语言
   - 把功能语言变成客户愿意掏钱的价值语言
   - 李蕊
+source_context:
+  - 一堂科学销售方法论课程（2026-07-02），销售专题九层深挖诊断
+  - yitang
 source_refs:
 - 00_inbox/销售专题/_processed/销售专题_整合笔记.md
 - 60_feedback/diagnosis/diag_20260702_yitang-scientific-sales-methodology.md

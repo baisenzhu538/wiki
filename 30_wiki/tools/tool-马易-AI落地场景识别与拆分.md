@@ -2,7 +2,8 @@
 id: tool-马易-AI落地场景识别与拆分
 title: 技能：AI落地场景识别与拆分
 type: tool
-domain: unknown
+domain:
+- ai-collaboration
 status: draft
 author: unknown
 reviewed_by: pending
@@ -23,7 +24,10 @@ discoverable_by:
 - 技能：AI落地场景识别与拆分
 - AI落地场景识别与拆分
 related: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 技能：AI落地场景识别与拆分
 

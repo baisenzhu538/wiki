@@ -12,7 +12,6 @@ confidence: 0.8
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - 业报告判断海外市场
@@ -21,6 +20,8 @@ aliases:
   - 案例：美容仪出海用行业报告判断海外市场
   - 用行业报告判断海外市场
   - 美容仪出海
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/Doris-行业报告调研-口述.txt
 discoverable_by:

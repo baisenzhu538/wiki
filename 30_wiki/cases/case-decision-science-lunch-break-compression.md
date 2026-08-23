@@ -6,7 +6,6 @@ type: case
 status: reviewed
 domain:
 - decision-science
-- yitang
 author: 老顽童
 reviewed_by: 欧阳锋
 reviewed_at: '2026-07-04'
@@ -21,6 +20,13 @@ aliases:
   - 把2小时休息压缩为1小时的ROI决策
   - 案例
   - 案例：把2小时休息压缩为1小时的ROI决策
+source_context:
+  - 决策深度实操课口述
+  - yitang
+  - 决策深度实操课口述
+source_context:
+  - 决策深度实操课口述
+  - yitang
 source_refs:
 - 00_inbox/科学决策/一堂-科学决策-ROI决策深度实操课口述03.txt
 discoverable_by:
@@ -31,11 +37,10 @@ related:
 - '[[dk-time-management-common-mistakes]]'
 - '[[case-gym-membership-formula]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
-- 决策深度实操课口述
-- 科学决策
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 科学决策
 ---
 # 案例：把2小时休息压缩为1小时的ROI决策
 

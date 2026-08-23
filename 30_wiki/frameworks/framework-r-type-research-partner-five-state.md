@@ -14,7 +14,6 @@ updated_at: 2026-08-16
 domain:
 - research
 - ai-collaboration
-- yitang
 aliases:
 - R型研究Partner
 - 爆炸式调研Partner
@@ -24,7 +23,16 @@ aliases:
 - 爆炸式调研-下-口述
 - 马易
 source_person: 马易
-source_context: Live259 爆炸式调研（2026-08-11 口述）——R 型 Partner 设计原理分享
+source_context:
+  - Live259 爆炸式调研（2026-08-11 口述）——R 型 Partner 设计原理分享
+  - 口述
+  - yitang
+  - Live259 爆炸式调研（2026-08-11 口述）——R 型 Partner 设计原理分享
+  - 口述
+source_context:
+  - Live259 爆炸式调研（2026-08-11 口述）——R 型 Partner 设计原理分享
+  - 口述
+  - yitang
 source_refs:
 - 00_inbox/爆炸式调研/爆炸式调研-下-口述.txt
 related:
@@ -61,7 +69,6 @@ tags:
   - 工具
   - 方法
   - 边界
-  - 口述
 ---
 
 # R 型研究 Partner 五状态机：从课题到知识资产

@@ -13,11 +13,12 @@ language: zh-CN
 created_at: 2026-07-07
 updated_at: 2026-07-07
 domain:
-- yitang
 - management
 aliases:
   - signal: 复盘会开了6小时，结束时大家面面相觑——"所以呢？我们学到了什么？
   - 项目复盘关键成果画布
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/管项目/批注 2026-07-07 192810_vlm_desc.md
 - 00_inbox/管项目/批注 2026-07-07 192859_vlm_desc.md

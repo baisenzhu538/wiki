@@ -11,13 +11,14 @@ trust_level: medium
 language: zh-CN
 domain:
 - strategy
-- yitang
 - product
 aliases:
   - 假产品
   - 假产品：用前端仿真验证需求
   - 用前端仿真验证需求
   - 端仿真验证需求
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212131_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212131_vlm_desc.md

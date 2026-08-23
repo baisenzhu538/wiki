@@ -13,7 +13,6 @@ created_at: 2026-07-04
 updated_at: 2026-07-04
 domain:
 - ai-collaboration
-- yitang
 aliases:
   - 五维评分+三色灯阻断
   - 双三角画布案例
@@ -21,6 +20,13 @@ aliases:
   - 角画布案例
   - 论文初审
   - 论文初审五维评分
+source_context:
+  - 一堂双三角
+  - yitang
+  - 一堂双三角
+source_context:
+  - 一堂双三角
+  - yitang
 source_refs:
 - 00_inbox/人机协作双三角/_processed/一堂双三角-画布案例1_vlm.md
 discoverable_by:
@@ -32,11 +38,10 @@ related:
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[tool-yihang-dual-triangle-canvas]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
-- 一堂双三角
-- 人机协作双三角
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 人机协作双三角
 ---
 
 # 双三角画布案例：AI 论文初审——五维评分+三色灯阻断

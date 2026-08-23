@@ -8,11 +8,11 @@ source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: reviewed
 domain:
-- yitang
 - ai-collaboration
 - modeling
 source_person: Truman
 source_context: 一堂高阶建模能力培训（AI 与本质建模）。单一完整长文档支撑，但尚未找到第二独立来源，因此 trust_level 维持 medium；待后续案例或实践验证后可升
+  - yitang
   high。
 discoverable_by:
   - AI 能辅助建模，但核心判断必须人做：AI 太容易受你影响

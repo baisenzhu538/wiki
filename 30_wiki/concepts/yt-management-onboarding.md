@@ -1,7 +1,10 @@
 ---
 title: 新人落地
 type: concept
-domain: src-unknown
+domain:
+- content
+- design
+- master
 status: reviewed
 pipeline:
 - src_unknown

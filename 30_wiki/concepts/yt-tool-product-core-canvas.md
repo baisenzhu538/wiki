@@ -3,7 +3,8 @@ id: yt-tool-product-core-canvas
 confidence: 0.85
 created_at: 2026-06-06
 difficulty: intermediate
-domain: src-unknown
+domain:
+- decision-making
 estimated_tokens: 3800
 language: zh-CN
 prerequisites:
@@ -34,6 +35,8 @@ review_date: 2026-06-06
 aliases:
   - 产品内核画布与九大原则
   - 内核画布与九大原则
+source_context:
+  - 一堂五步法画布
 source_refs:
 - 10_raw/sources/src_20260510_1eb77650-一堂五步法画布yitangfive-stepcanvas.md
 status: reviewed
@@ -63,10 +66,9 @@ updated_at: '2026-06-16'
 author: 老顽童
 reviewed_by: 欧阳锋
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
-- 一堂五步法画布
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
 ---
 # 产品内核画布与九大原则
 

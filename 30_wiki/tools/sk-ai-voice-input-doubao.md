@@ -3,7 +3,9 @@ id: sk-ai-voice-input-doubao
 title: 技能：口喷式语音输入法
 type: tool
 status: reviewed
-domain: src-unknown
+domain:
+- ai-collaboration
+- content
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地分享，2026-06
 aliases:

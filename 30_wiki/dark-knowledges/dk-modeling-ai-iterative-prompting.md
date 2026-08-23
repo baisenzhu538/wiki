@@ -12,15 +12,19 @@ aliases:
   - 推到你能力的上限
   - 用十几轮挑错把
   - 输出推到你能力的上限
+source_context:
+  - 一堂高阶建模能力培训（AI Skill 工程指南产出过程）
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 - 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
 status: reviewed
 domain:
-- yitang
 - ai-collaboration
 source_person: Truman
-source_context: 一堂高阶建模能力培训（AI Skill 工程指南产出过程）
+source_context:
+  - 一堂高阶建模能力培训（AI Skill 工程指南产出过程）
+  - yitang
 discoverable_by:
   - AI 不会离职：用十几轮挑错把 AI 输出推到你能力的上限
   - 不会离职

@@ -32,6 +32,9 @@ discoverable_by:
   - "IBM BLM业务设计"
   - "三步骤业务设计"
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 业务设计六要素×三步骤
 

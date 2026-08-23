@@ -7,9 +7,10 @@ reviewed_by: 周伯通
 review_date: '2026-07-05'
 domain:
 - product
-- yitang
 source_person: Truman
-source_context: 一堂产品内核迭代课（2026年）
+source_context:
+  - 一堂产品内核迭代课（2026年）
+  - yitang
 aliases:
 - Truman
 - 产品内核迭代
@@ -17,6 +18,9 @@ aliases:
 - 从静态到动态的五方向演化
 - 内核迭代
 - 态到动态的五方向演化
+source_context:
+  - 一堂产品内核迭代课（2026年）
+  - yitang
 source_refs:
   - src_unknown
 created_at: 2026-06-09

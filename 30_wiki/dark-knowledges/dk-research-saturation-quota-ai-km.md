@@ -29,9 +29,10 @@ tags:
   - 知识库
   - 方法
   - 边界
-  - 口述
 source_person: 楚门
-source_context: AI×知识管理探索营（2026-08-15 晚直播）——单点学习派活（L2734-2742）
+source_context:
+  - AI×知识管理探索营（2026-08-15 晚直播）——单点学习派活（L2734-2742）
+  - 口述
 source_refs:
 - 00_inbox/AI知识库/楚门-AI知识管理探索营-口述.txt
 related:

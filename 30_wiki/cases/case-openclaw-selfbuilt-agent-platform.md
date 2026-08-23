@@ -33,9 +33,10 @@ tags:
   - 协作
   - 工具
   - 实证
-  - 口述
 source_person: OpenClaw 数字员工搭建者（龙虾员工本人）
-source_context: AI经验分享-数字员工搭建-口述（2026-08，978 行）
+source_context:
+  - AI经验分享-数字员工搭建-口述（2026-08，978 行）
+  - 口述
 source_refs:
 - 00_inbox/龙虾员工实践/AI经验分享-数字员工搭建-口述.txt
 related:

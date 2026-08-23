@@ -7,12 +7,13 @@ aliases:
 - 暗知
 - 暗知：假设驱动方法论的三个反直觉陷阱
 - 驱动方法论的三个反直觉陷阱
+source_context:
+  - yitang
 source_refs:
 - src_unknown
 status: enriched
 domain:
 - consulting
-- yitang
 bridges_to:
 - target: src_unknown
   relation: warns_against

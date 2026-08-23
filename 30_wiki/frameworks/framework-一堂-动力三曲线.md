@@ -10,7 +10,8 @@ trust_level: high
 language: zh-CN
 created_at: '2026-07-13'
 updated_at: '2026-07-13'
-domain: unknown
+domain:
+- content
 aliases:
 - audience:ceo
 - conversion
@@ -31,7 +32,10 @@ discoverable_by:
 - FAB名利权情影响力
 - 动力层级模型
 quality_labels: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 一堂动力三曲线：FAB / 名利权情 / 影响力法则
 

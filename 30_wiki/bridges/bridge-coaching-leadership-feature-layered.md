@@ -10,9 +10,17 @@ created_at: 2026-08-09
 updated_at: 2026-08-09
 confidence: 0.85
 trust_level: medium
-domain: [yitang, management, coaching, ai-collaboration]
+domain:
+- management
+- coaching
+- ai-collaboration
 source_person: Truman
-source_context: 教练式领导力探索营 × Feature分层体系 跨课桥接
+source_context:
+  - 教练式领导力探索营 × Feature分层体系 跨课桥接
+  - yitang
+source_context:
+  - 教练式领导力探索营 × Feature分层体系 跨课桥接
+  - yitang
 source_refs:
   - 00_inbox/教练式领导力/教练式领导力课程-01-口述.txt
   - 30_wiki/frameworks/framework-truman-feature-layered-system.md

@@ -1,5 +1,7 @@
 ---
-domain: src-unknown
+domain:
+- decision-making
+- strategy
 id: yt-barrier-moat-assessment
 title: 护城河评估工具
 type: tool

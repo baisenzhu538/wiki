@@ -9,9 +9,19 @@ created_at: 2026-08-09
 updated_at: 2026-08-09
 confidence: 0.9
 trust_level: high
-domain: [yitang, management]
+domain:
+- management
 source_person: Truman
-source_context: 科学开会系列课（认知篇+武器库上下篇）× 教练式领导力探索营
+source_context:
+  - 科学开会系列课（认知篇+武器库上下篇）× 教练式领导力探索营
+  - 口述
+  - yitang
+  - 科学开会系列课（认知篇+武器库上下篇）× 教练式领导力探索营
+  - 口述
+source_context:
+  - 科学开会系列课（认知篇+武器库上下篇）× 教练式领导力探索营
+  - 口述
+  - yitang
 source_refs:
   - 00_inbox/科学开会/科学开会方法-认知篇-口述.txt
   - 00_inbox/科学开会/科学开会十大原则-武器库-上篇-口述.txt
@@ -53,7 +63,6 @@ tags:
   - 方法
   - 教练
   - 管理者
-  - 口述
 ---
 
 # 桥接：科学开会×教练式领导力——会议是领导力的核心场景

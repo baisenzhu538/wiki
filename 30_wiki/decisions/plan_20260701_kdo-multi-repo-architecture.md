@@ -23,6 +23,10 @@ related:
 - '[[zhu-time-os]]'
 - tool-agent-spec-yitang-self-motivation
 - tool-agent-spec-yitang-sales-process-tracker
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # KDO 多库架构设计方案
 

@@ -35,6 +35,9 @@ related:
 - 'tool-月白-RGB转CMYK色彩校准法'
 - 'dk-aesthetic-redline-doc'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 技能：行业配色快速确定法
 

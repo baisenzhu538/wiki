@@ -11,7 +11,6 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - 2026年新武器
@@ -20,6 +19,8 @@ aliases:
   - 武器库补充
   - 调研武器库补充
   - 验证技术
+source_context:
+  - yitang
 source_refs:
 - src_unknown
 - src_unknown

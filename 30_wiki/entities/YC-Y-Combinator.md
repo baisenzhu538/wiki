@@ -28,7 +28,10 @@ related:
 - - - kdo-protocol
 - - - kimi-深度调研集群方法论-deep-research-swarm
 - yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown
-tags: []
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 trust_level: medium
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。

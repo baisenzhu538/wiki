@@ -12,7 +12,9 @@ language: zh-CN
 created_at: 2026-07-05
 updated_at: 2026-07-05
 domain:
-- yitang
+- content
+- design
+- strategy
 aliases:
   - Y模型
   - Y模型案例：Vicki开店→短视频跨域迁移Y模型比五步法更底层12层
@@ -20,6 +22,8 @@ aliases:
   - 案例
   - 模型比五步法更底层
   - 比五步法更底层
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/ideas/一堂-个人修身-Y模型探索营2口述版.md
 discoverable_by:

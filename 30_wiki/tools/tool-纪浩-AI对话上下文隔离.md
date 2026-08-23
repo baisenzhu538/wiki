@@ -14,10 +14,14 @@ aliases:
 - tool纪浩AI对话上下文隔离
 - 纪浩
 source_refs: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 type: tool
 status: draft
-domain: unknown
+domain:
+- ai-collaboration
 ---
 > 纪浩在 AI 协作方法论中提出的核心实操。解决"AI 对话越聊越乱、越聊越偏"这个所有 AI 重度用户都会遇到的通用问题。
 

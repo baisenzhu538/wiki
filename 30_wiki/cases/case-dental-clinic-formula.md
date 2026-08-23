@@ -5,11 +5,12 @@ title: ToC 连锁口腔诊所：成交率 30% 背后的"危机感知"公式
 type: case
 status: reviewed
 domain:
-- yitang
 - healthcare
 - business-strategy
 source_person: 孔阳
-source_context: 一堂 2026-06-13 业务公式拆解培训，连锁口腔诊所案例（单次成交 & 长周期复购型）
+source_context:
+  - 一堂 2026-06-13 业务公式拆解培训，连锁口腔诊所案例（单次成交 & 长周期复购型）
+  - yitang
 aliases:
   - ToC连锁口腔诊所：成交率30%背后的危机感知公式
   - 孔阳
@@ -17,6 +18,9 @@ aliases:
   - 的危机感知公式
   - 背后的危机感知公式
   - 连锁口腔诊所
+source_context:
+  - 一堂 2026-06-13 业务公式拆解培训，连锁口腔诊所案例（单次成交 & 长周期复购型）
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript.md
 - 10_raw/sources/src_20260613_6edbf0af-yitang-business-formula-decomposition-notes.md

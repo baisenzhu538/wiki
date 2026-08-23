@@ -1,6 +1,8 @@
 ---
 domain:
-- yitang
+- ai-collaboration
+- decision-making
+- human-insights
 id: yt-prompt-anti-flattery
 title: 反谄媚机制：让AI说真话
 type: tool
@@ -10,6 +12,8 @@ aliases:
 - 媚机制
 - 让AI说真话
 - 说真话
+source_context:
+  - yitang
 source_refs:
 - src_unknown
 - src_unknown

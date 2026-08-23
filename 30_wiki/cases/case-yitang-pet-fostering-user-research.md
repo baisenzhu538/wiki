@@ -12,7 +12,6 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - 宠物寄养
@@ -21,6 +20,8 @@ aliases:
   - 案例：宠物寄养观察现有替代方案
   - 现有替代方案
   - 观察现有替代方案
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/一堂-用户调研实操课-笔记.txt
 discoverable_by:

@@ -13,11 +13,12 @@ language: zh-CN
 created_at: 2026-07-08
 updated_at: 2026-07-08
 domain:
-- yitang
 - management
 aliases:
   - signal: 复盘做完了，但除了"下次注意"什么也没留下
   - 项目复盘五大价值挖掘清单
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/管项目/批注 2026-07-07 192121_vlm_desc.md
 discoverable_by:

@@ -2,7 +2,10 @@
 id: tool-水水-利用基因漂变视角
 title: 技能：利用基因漂变视角
 type: tool
-domain: unknown
+domain:
+- content
+- design
+- human-insights
 status: draft
 author: unknown
 reviewed_by: 欧阳锋
@@ -24,7 +27,10 @@ discoverable_by:
 - 技能：利用基因漂变视角
 - 利用基因漂变视角
 related: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 技能：利用基因漂变视角
 

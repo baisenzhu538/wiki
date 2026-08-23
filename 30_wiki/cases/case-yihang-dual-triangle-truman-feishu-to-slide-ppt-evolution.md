@@ -5,7 +5,6 @@ title: 一行双三角案例：Truman「飞书 To slide」PPT 迭代进化
 type: case
 status: reviewed
 domain:
-- yitang
 - ai-collaboration
 - productivity
 - presentation
@@ -23,6 +22,13 @@ aliases:
   - 一行双三角案例：Truman飞书ToslidePPT迭代进化
   - 双三角案例
   - 迭代进化
+source_context:
+  - 口述
+  - yitang
+  - 口述
+source_context:
+  - 口述
+  - yitang
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
 - 60_feedback/annotations/annotation-yihang-dual-triangle-master.md
@@ -50,9 +56,17 @@ related:
 - '[[method-yihang-knowledge-battle-station]]'
 - '[[method-yitang-y-model-engine-cycle]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:advanced
+  - audience:general
+  - scene:reference
+  - skill-level:advanced
+  - 工作流
+  - Agent
+  - 协作
+  - 框架
+  - 工具
+  - 方法
+  - 边界
+  - 迭代
 ---
 
 # 一行双三角案例：Truman「飞书 To slide」PPT 迭代进化

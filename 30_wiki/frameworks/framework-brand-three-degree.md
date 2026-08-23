@@ -2,7 +2,8 @@
 id: framework-brand-three-degree
 title: 品牌三度
 type: framework
-domain: unknown
+domain:
+- content
 status: reviewed
 confidence: 0.85
 difficulty: intermediate
@@ -24,7 +25,10 @@ aliases:
 - 知名度美誉度信任度
 source_refs: null
 query_triggers: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 quality_labels: null
 related: null
 discoverable_by:

@@ -13,7 +13,6 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 difficulty: basic
 estimated_tokens: 2000
@@ -30,6 +29,8 @@ aliases:
   - 渠道清单
   - 行业报告搜索七技
   - 行业报告搜索七技：三级搜索能力+渠道清单
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/Doris-行业报告调研-口述.txt
 - 00_inbox/调研专题/Doris-行业报告调研-笔记.txt

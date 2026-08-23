@@ -2,7 +2,8 @@
 id: tool-马易-数据存储架构选择
 title: 技能：数据存储架构选择
 type: tool
-domain: unknown
+domain:
+- ai-collaboration
 status: draft
 author: unknown
 reviewed_by: pending
@@ -23,7 +24,10 @@ discoverable_by:
 - 技能：数据存储架构选择
 - 数据存储架构选择
 related: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 技能：数据存储架构选择
 

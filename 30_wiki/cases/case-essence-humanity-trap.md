@@ -14,11 +14,11 @@ source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: reviewed
 domain:
-- yitang
 - modeling
 - essence
 source_person: Truman
 source_context: 一堂高阶建模能力培训（本质建模案例）（单一 source 为完整长文档，内容充分支撑 high trust；因仅有一个来源，trust_level
+  - yitang
   保持 medium，待第二来源验证后可升 high）
 created_at: '2026-06-14'
 updated_at: '2026-06-18'

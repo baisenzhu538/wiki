@@ -6,15 +6,23 @@ type: case
 status: reviewed
 domain:
 - product
-- yitang
 source_person: Truman
-source_context: 一堂五步法-需求分析课程案例
+source_context:
+  - 一堂五步法-需求分析课程案例
+  - 一堂五步法
+  - yitang
+  - 一堂五步法-需求分析课程案例
+  - 一堂五步法
 aliases:
   - Truman
   - 在家健身场景的需求拆解与替代方案博弈
   - 机需求分析
   - 跑步机需求分析
   - 跑步机需求分析：在家健身场景的需求拆解与替代方案博弈
+source_context:
+  - 一堂五步法-需求分析课程案例
+  - 一堂五步法
+  - yitang
 source_refs:
   - src_unknown
   - src_unknown
@@ -49,12 +57,11 @@ review_date: '2026-07-05'
 confidence: 0.85
 trust_level: high
 tags:
-- audience:general
-- scene:reference
-- skill-level:advanced
-- 一堂五步法
-- 跑步机案例
-- 需求分析图
+  - audience:general
+  - scene:reference
+  - skill-level:advanced
+  - 跑步机案例
+  - 需求分析图
 ---
 
 > 黄药师骨架 · 老顽童填内容

@@ -12,7 +12,6 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - five-step-method
 aliases:
   - 冰山模型的完整应用
@@ -21,6 +20,8 @@ aliases:
   - 模型的完整应用
   - 银发育儿
   - 银发育儿冰山模型的完整应用
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-银发育儿-02_ocr_text.md
 discoverable_by:

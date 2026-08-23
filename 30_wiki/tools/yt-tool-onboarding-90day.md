@@ -1,17 +1,21 @@
 ---
 id: yt-tool-onboarding-90day
 title: 新人 90 天融入加速器
-type: tool
-aliases:
+tags:
   - audience:executor
   - scene:execution
   - skill-level:intermediate
+type: tool
+aliases:
   - 天融入加速器
   - 新人
   - 新人90天融入加速器
+source_context:
+  - yitang
 source_refs:
 status: enriched
-domain: yitang
+domain:
+- design
 language: zh-CN
 version: 1
 difficulty: intermediate
@@ -24,9 +28,6 @@ discoverable_by:
 related:
 contradicts: null
 query_triggers:
-tags:
-- audience:executor
-- scene:execution
 trust_level: medium
 yitang:
 map: management

@@ -12,7 +12,6 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - JTBD故事公式
@@ -21,6 +20,8 @@ aliases:
   - 故事公式从用户故事中提取需求
   - 案例
   - 案例：JTBD故事公式从用户故事中提取需求
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/一堂-用户调研实操课-口述_ocr.md
 discoverable_by:

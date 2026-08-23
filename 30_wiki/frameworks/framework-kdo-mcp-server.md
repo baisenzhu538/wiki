@@ -27,7 +27,10 @@ discoverable_by:
 - KDO MCP Server
 - 知识库外部协议
 - MCP Server知识库
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # KDO MCP Server — 知识库能力的外部协议暴露层
 

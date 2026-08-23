@@ -36,6 +36,9 @@ related:
 - 'dk-three-context-formula'
 - '[[tool-demand-iceberg-l2-scenario]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 技能：设计需求口头化表达法
 

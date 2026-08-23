@@ -11,14 +11,18 @@ aliases:
   - 来自销冠广场
   - 案例大爆炸的底气
   - 案例大爆炸的底气：来自销冠广场，不是胆子大
+source_context:
+  - 一堂高阶建模能力培训（销冠广场与一堂五步法）
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: reviewed
 domain:
-- yitang
 - modeling
 source_person: Truman
-source_context: 一堂高阶建模能力培训（销冠广场与一堂五步法）
+source_context:
+  - 一堂高阶建模能力培训（销冠广场与一堂五步法）
+  - yitang
 discoverable_by:
   - 案例大爆炸的底气：来自销冠广场，不是胆子大
   - 案例大爆炸的底气

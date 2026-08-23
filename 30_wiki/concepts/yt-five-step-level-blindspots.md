@@ -11,7 +11,8 @@ quality_labels:
 - validated
 created_at: 2026-06-11
 difficulty: intermediate
-domain: src-unknown
+domain:
+- decision-making
 estimated_tokens: 3400
 language: zh-CN
 prerequisites: []
@@ -28,6 +29,8 @@ aliases:
   - 暗知识
   - 暗知识：五步法的段位盲区与自评陷阱
   - 法的段位盲区与自评陷阱
+source_context:
+  - 一堂五步法
 source_refs:
 - 10_raw/sources/src_20260611_d913eb1d-一堂-一堂五步法-序言-口述.md
 - 10_raw/sources/src_20260611_c0e6e182-一堂-一堂五步法-单元模型-口述.md
@@ -66,12 +69,11 @@ related:
 - '[[case-半肥猫-course-to-skill]]'
 - '[[yt-five-step-cross-step-2]]'
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
-- 一堂五步法
-- 单元模型
-- 落地实操
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 单元模型
+  - 落地实操
 ---
 # 暗知识：五步法的段位盲区与自评陷阱
 

@@ -19,6 +19,12 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - RAG
+  - 原子化
+  - Agent
+  - 提示词
+  - 框架
+  - 方法
 aliases:
   - 双三角案例：牟肥猫数字化营销 AI 提效十倍——100+Agent + 20+卡片
 discoverable_by:

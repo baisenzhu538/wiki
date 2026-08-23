@@ -23,7 +23,10 @@ discoverable_by:
 - 技能：警惕错误归因
 - 警惕错误归因
 related: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 技能：警惕错误归因
 

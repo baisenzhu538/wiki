@@ -12,7 +12,6 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - 张磊
@@ -21,6 +20,8 @@ aliases:
   - 案例：张磊洗衣液蹲超市+假扮促销员
   - 洗衣液蹲超市+假扮促销员
   - 液蹲超市
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 discoverable_by:

@@ -11,11 +11,12 @@ trust_level: medium
 language: zh-CN
 domain:
 - strategy
-- yitang
 - product
 aliases:
   - 人工替代高阶研发
   - 替代高阶研发
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212341_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212341_vlm_desc.md

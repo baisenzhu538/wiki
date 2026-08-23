@@ -19,6 +19,8 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 工作流
+  - 框架
 aliases:
   - 双三角案例：花总跨行业速解工业级难题——人和 AI 先造数据
 discoverable_by:

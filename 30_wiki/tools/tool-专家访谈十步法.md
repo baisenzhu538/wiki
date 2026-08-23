@@ -3,17 +3,21 @@ id: tool-专家访谈十步法
 title: 技能：专家访谈十步法
 type: tool
 domain:
-  - research
-  - design
-  - yitang
+- research
+- design
 status: draft
 source_person: 一堂课程设计
-source_context: src_20260522_e139c9e9
+source_context:
+  - src_20260522_e139c9e9
+  - yitang
 aliases:
   - 一堂课程设计
   - 专家访谈十步法
   - 技能
   - 技能：专家访谈十步法
+source_context:
+  - src_20260522_e139c9e9
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260522_e139c9e9-ocr-一堂-个人修炼-科学学习ipo完整清单.md
 definition_of_done:

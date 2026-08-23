@@ -21,6 +21,8 @@ aliases:
 - tool-blind-box-mechanism
 - 一堂-成瘾与自我管理分享-口述
 - 水水
+source_context:
+  - 口述
 source_refs:
 - 00_inbox/一堂-成瘾与自我管理分享-口述.md#L1255-L1387
 - 00_inbox/一堂-成瘾与自我管理分享-口述.md#L1261-L1387
@@ -30,17 +32,16 @@ related:
 - concept-pleasure-pain-balance
 - framework-yitang-six-layer-cross-validation
 tags:
-- audience:ceo
-- scene:execution
-- skill-level:advanced
-- 盲盒
-- 不确定性
-- 渴望
-- 热销放大
-- 产品定位
-- 边界
-- 反例
-- 口述
+  - audience:ceo
+  - scene:execution
+  - skill-level:advanced
+  - 盲盒
+  - 不确定性
+  - 渴望
+  - 热销放大
+  - 产品定位
+  - 边界
+  - 反例
 ---
 
 # 盲盒机制判断：确定性渴望×不确定性 buffer——99% 产品不适合

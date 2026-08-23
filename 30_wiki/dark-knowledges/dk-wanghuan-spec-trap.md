@@ -35,7 +35,10 @@ diagnostic_signals: null
 lens: means-ends-confusion
 follow_up: 把验收标准前置，执行路径交给 AI 探索
 related: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 review_date: '2026-06-28'
 ---
 # 王欢暗知识：Spec 陷阱——过度拆解会锁死 AI 上限

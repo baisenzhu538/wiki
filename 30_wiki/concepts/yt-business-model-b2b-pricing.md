@@ -1,5 +1,7 @@
 ---
-domain: src-unknown
+domain:
+- decision-making
+- strategy
 id: yt-business-model-b2b-pricing
 title: B2B定价策略：从SMB到Enterprise
 type: concept

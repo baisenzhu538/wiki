@@ -10,7 +10,8 @@ trust_level: high
 language: zh-CN
 created_at: 2026-07-11
 updated_at: 2026-07-11
-domain: unknown
+domain:
+- strategy
 source_refs: null
 related: null
 discoverable_by:
@@ -21,7 +22,10 @@ diagnostic_signals:
   lens: 「建」停在了抽象层，没走到清单/小抄/SOP 的具体层
   follow-up: 把方法论压缩成一页小抄 + 一张自查清单，贴到手边再谈推广
 quality_labels: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 aliases: null
 ---
 # 基本功四字诀「拆建推练」：把一个动作练成组织能力

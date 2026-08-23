@@ -1,5 +1,6 @@
 ---
-domain: src-unknown
+domain:
+- kdo
 id: yt-barrier-switching-costs
 title: 转换成本：让用户离不开
 type: concept

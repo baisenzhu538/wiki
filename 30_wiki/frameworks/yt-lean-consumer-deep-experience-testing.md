@@ -3,7 +3,9 @@ id: yt-lean-consumer-deep-experience-testing
 title: 消费品深层体验测试：表层反馈 vs 深层体验
 type: framework
 status: draft
-domain: src-unknown
+domain:
+- decision-making
+- strategy
 aliases:
   - 品深层体验测试
   - 消费品深层体验测试

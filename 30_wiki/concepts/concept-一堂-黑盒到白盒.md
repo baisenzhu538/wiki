@@ -12,9 +12,10 @@ language: zh-CN
 created_at: 2026-07-12
 updated_at: '2026-07-12'
 domain:
-- yitang
 - business-formula
-source_context: 一堂业务公式课程（孔阳），进阶篇收尾「三句话」+管理篇收尾升华+参数探索篇收尾「最远的路」三段同源论述；原图 003303/003311/003318
+source_context:
+  - 一堂业务公式课程（孔阳），进阶篇收尾「三句话」+管理篇收尾升华+参数探索篇收尾「最远的路」三段同源论述；原图 003303/003311/003318
+  - yitang
 aliases:
   - 可沉淀
   - 可讨论
@@ -22,6 +23,9 @@ aliases:
   - 把一大坨的直觉决策拆成可证伪
   - 黑盒到白盒
   - 黑盒到白盒：把一大坨的直觉决策拆成可证伪、可讨论、可沉淀、可迁移的参数结构
+source_context:
+  - 一堂业务公式课程（孔阳），进阶篇收尾「三句话」+管理篇收尾升华+参数探索篇收尾「最远的路」三段同源论述；原图 003303/003311/003318
+  - yitang
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L3490-L3578
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L3206-L3212

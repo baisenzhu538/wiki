@@ -6,13 +6,17 @@ status: reviewed
 confidence: 0.90
 trust_level: high
 domain:
-  - personal
-  - yitang
+- personal
 author: 老顽童
+source_context:
+  - Truman复盘课 L2632-2760；一堂教研团队真实复盘过程
+  - yitang
 source_refs:
   - 00_inbox/个人-深度复盘/个人-深度复盘能力-口述.txt
 source_person: Truman
-source_context: Truman复盘课 L2632-2760；一堂教研团队真实复盘过程
+source_context:
+  - Truman复盘课 L2632-2760；一堂教研团队真实复盘过程
+  - yitang
 reviewed_by: 欧阳锋
 review_date: 2026-08-06
 aliases:

@@ -3,7 +3,8 @@ id: tool-纪浩-AI使用边界管理法
 title: 技能：AI使用边界管理法
 type: tool
 status: reviewed
-domain: src-unknown
+domain:
+- decision-making
 source_person: 纪浩
 source_context: AI俱乐部-人和AI协作-纪浩-五层结构-图片01
 aliases:

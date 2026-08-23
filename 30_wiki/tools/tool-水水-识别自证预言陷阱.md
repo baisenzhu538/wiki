@@ -2,7 +2,10 @@
 id: tool-水水-识别自证预言陷阱
 title: 技能：识别自证预言陷阱
 type: tool
-domain: unknown
+domain:
+- content
+- design
+- human-insights
 status: draft
 author: unknown
 reviewed_by: pending
@@ -23,7 +26,10 @@ discoverable_by:
 - 技能：识别自证预言陷阱
 - 识别自证预言陷阱
 related: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 技能：识别自证预言陷阱
 

@@ -6,10 +6,11 @@ type: dk
 dark_knowledge_type: anti-pattern
 status: reviewed
 domain:
-- yitang
 - entrepreneur
 source_person: Truman
-source_context: 一堂五步法培训，第二十二节批次4精修提炼，2026-06-17
+source_context:
+  - 一堂五步法培训，第二十二节批次4精修提炼，2026-06-17
+  - yitang
 aliases:
   - Truman
   - 反而可能合法化偏见
@@ -17,6 +18,9 @@ aliases:
   - 暗知识：框架不会自动降噪，反而可能合法化偏见用了五步法不代表科学分析
   - 框架不会自动降噪
   - 用了五步法不代表科学分析
+source_context:
+  - 一堂五步法培训，第二十二节批次4精修提炼，2026-06-17
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260611_d913eb1d-一堂-一堂五步法-序言-口述.md
 - 10_raw/sources/src_20260611_c0e6e182-一堂-一堂五步法-单元模型-口述.md

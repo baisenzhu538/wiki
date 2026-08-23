@@ -13,7 +13,6 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 difficulty: intermediate
 estimated_tokens: 3000
@@ -29,6 +28,8 @@ aliases:
   - 浅中深三层10大评估法
   - 科技型项目调研手段
   - 科技型项目调研手段：浅中深三层10大评估法
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/调研手段卡6（科技项目）_ocr_text.md
 - 00_inbox/调研专题/调研手段卡6（科技项目）_vlm_desc.md

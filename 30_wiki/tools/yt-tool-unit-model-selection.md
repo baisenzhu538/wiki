@@ -1,7 +1,6 @@
 ---
 domain:
-  - yitang
-  - master
+- master
 tags:
   - audience:executor
   - scene:execution
@@ -26,9 +25,14 @@ confidence: 0.75
 trust_level: medium
 title: yt tool unit model selection
 type: tool
+source_context:
+  - （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+  - yitang
 source_refs:
 - src_unknown
-source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+source_context:
+  - （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+  - yitang
 updated_at: '2026-06-16'
 status: enriched
 review_date: '2026-06-29'

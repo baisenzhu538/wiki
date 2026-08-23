@@ -13,7 +13,6 @@ confidence: 0.9
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - 数人头
@@ -22,6 +21,8 @@ aliases:
   - 看运营
   - 线下门店侦察
   - 蹲店
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt

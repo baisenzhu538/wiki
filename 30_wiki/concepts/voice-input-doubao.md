@@ -3,12 +3,13 @@ id: voice-input-doubao
 type: tool
 title: voice input doubao
 domain:
-  - ai-collaboration
-  - product
-  - ai-saas
-  - decision-making
-  - yitang
+- ai-collaboration
+- product
+- ai-saas
+- decision-making
 status: reviewed
+source_context:
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260606_90b44191-没有人呀现在.md
 component_of: null

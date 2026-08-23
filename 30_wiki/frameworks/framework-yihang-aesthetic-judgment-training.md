@@ -27,7 +27,10 @@ source_refs: null
 related: null
 discoverable_by:
 - 审美判断力训练
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # AI 时代审美判断力训练系统——未来教育的核心转向
 

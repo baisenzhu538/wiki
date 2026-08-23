@@ -43,6 +43,9 @@ related:
 - '[[yt-demand-segmentation-canvas]]'
 - '[[yt-product-kernel-canvas]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 技能：设计师AI工具习惯切换
 

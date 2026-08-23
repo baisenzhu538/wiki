@@ -12,15 +12,19 @@ language: zh-CN
 created_at: '2026-07-13'
 updated_at: '2026-07-13'
 domain:
-- yitang
 - conversion-rate
-source_context: 收录《转化率黑客·阻力篇》口述稿中用于说明 12 种阻力及消除策略的案例，按阻力类型与消除深度索引
+source_context:
+  - 收录《转化率黑客·阻力篇》口述稿中用于说明 12 种阻力及消除策略的案例，按阻力类型与消除深度索引
+  - yitang
 aliases:
   - 一堂转化率黑客阻力篇案例索引库12
   - 一堂转化率黑客阻力篇案例索引库12种阻力消除
   - 力消除
   - 种阻力消除
   - 转化率黑客阻力篇案例索引库
+source_context:
+  - 收录《转化率黑客·阻力篇》口述稿中用于说明 12 种阻力及消除策略的案例，按阻力类型与消除深度索引
+  - yitang
 source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-阻力篇-口述.txt L156-L186
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-阻力篇-口述.txt L506-L518

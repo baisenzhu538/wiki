@@ -18,7 +18,10 @@ related:
 - '[[smart-medicine-cabinet-o2o-cost-structure]]'
 - '[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]'
 - '[[parking-lot]]'
-tags: []
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 author: unknown
 source_context: KDO internal decision record （原 legacy，已从 title/context/filename 推断为
   src_20260501_dfa19257）

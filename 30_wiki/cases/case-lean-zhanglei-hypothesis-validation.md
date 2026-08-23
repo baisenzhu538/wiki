@@ -13,9 +13,10 @@ trust_level: medium
 language: zh-CN
 domain:
 - lean-startup
-- yitang
 source_person: 张磊（一堂精益创业教练）
-source_context: 张磊教练《精益测试关键问题》AMA 直播答疑
+source_context:
+  - 张磊教练《精益测试关键问题》AMA 直播答疑
+  - yitang
 aliases:
   - 一堂精益创业教练
   - 假设验证实操案例
@@ -23,6 +24,9 @@ aliases:
   - 张磊AMA：假设验证实操案例
   - 张磊（一堂精益创业教练）
   - 验证实操案例
+source_context:
+  - 张磊教练《精益测试关键问题》AMA 直播答疑
+  - yitang
 source_refs:
 - 00_inbox/精益创业/张磊教练《精益测试关键问题》AMA精华 副本.md
 - 00_inbox/精益创业/张磊-精益方法论-AMA-口述-01.txt

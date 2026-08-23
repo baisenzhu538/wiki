@@ -12,7 +12,6 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - 从文件中提取隐藏信息
@@ -20,6 +19,8 @@ aliases:
   - 元数据提取
   - 元数据提取：从文件中提取隐藏信息
   - 据提取
+source_context:
+  - yitang
 source_refs:
 - src_unknown
 - src_unknown

@@ -2,7 +2,8 @@
 id: framework-content-business-six-step
 title: 内容经营 6 步闭环
 type: framework
-domain: unknown
+domain:
+- content
 status: reviewed
 confidence: 0.85
 difficulty: intermediate

@@ -1,5 +1,6 @@
 ---
-domain: src-unknown
+domain:
+- kdo
 id: yt-product-kernel-mvp-design
 title: 内核MVP设计：最小可验证产品
 type: tool

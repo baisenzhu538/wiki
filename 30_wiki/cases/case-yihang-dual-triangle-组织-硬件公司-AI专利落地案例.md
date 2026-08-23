@@ -19,6 +19,8 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 工具
+  - 边界
 aliases:
   - 双三角案例：硬件公司 AI 专利落地——规则显性化与一号位决心
 discoverable_by:

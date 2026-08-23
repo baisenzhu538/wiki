@@ -13,11 +13,12 @@ confidence: 0.9
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - 中的幸存者偏差
   - 调研中的幸存者偏差
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
 discoverable_by:

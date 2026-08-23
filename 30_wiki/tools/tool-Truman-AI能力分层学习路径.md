@@ -15,7 +15,13 @@ created_at: 2026-07-04
 updated_at: '2026-07-04'
 domain:
 - ai-collaboration
-- yitang
+source_context:
+  - [['method-yitang-y-model-engine-cycle']]
+  - yitang
+  - [[method-yitang-y-model-engine-cycle]]
+source_context:
+  - [['method-yitang-y-model-engine-cycle']]
+  - yitang
 source_refs:
 - 00_inbox/AI-study/一?AI学习-AI工具应用AMA口述.txt
 - 10_raw/sources/src_20260609_03491271-ocr-一?ai学习-truman自用的ai-featureset.md
@@ -32,12 +38,11 @@ discoverable_by:
   - 专家的五层进?
 related:
 tags:
-- audience:executor
-- scene:ai-learning
-- "[[concept-yihang-ai-feature-thinking]]"
-- "[[tool-Truman-Feature特性层训练法]]"
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[method-yitang-y-model-engine-cycle]]"
+  - audience:executor
+  - scene:ai-learning
+  - [[concept-yihang-ai-feature-thinking]]
+  - [[tool-Truman-Feature特性层训练法]]
+  - [[concept-yihang-dual-triangle-core]]
 ---
 # AI 能力分层学习路径：从零基础�?Feature 专家的五层进�?
 > **一句话定义**：Truman �?AI 工具应用 AMA 中提出的五层 AI 学习路径——从消除恐惧到掌�?Feature 层再到按需延展，分层递进避免信息过载。三层必学解�?80% 基础问题，Feature 层是核心分水岭�?

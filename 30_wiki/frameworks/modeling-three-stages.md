@@ -1,12 +1,13 @@
 ---
 domain:
 - modeling
-- yitang
 id: modeling-three-stages
 title: 建模三段论：流程建模、抽象建模、本质提炼
 type: framework
 status: reviewed
-source_context: 一堂 2026-06-12 建模能力培训课程，三阶段框架
+source_context:
+  - 一堂 2026-06-12 建模能力培训课程，三阶段框架
+  - yitang
 aliases:
   - 三段论
   - 建模三段论
@@ -14,6 +15,9 @@ aliases:
   - 抽象建模
   - 本质提炼
   - 流程建模
+source_context:
+  - 一堂 2026-06-12 建模能力培训课程，三阶段框架
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md

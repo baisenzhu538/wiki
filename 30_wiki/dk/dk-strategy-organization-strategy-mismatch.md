@@ -16,6 +16,10 @@ aliases:
   - 能力与战略方向不匹配
 source_refs:
 - 60_feedback/audit/synthesis_strategy.md
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 discoverable_by:
   - 组织能力与战略方向不匹配
 related:

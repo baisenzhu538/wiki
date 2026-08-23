@@ -12,7 +12,6 @@ confidence: 0.9
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - five-step-method
 aliases:
   - 三角形实战
@@ -21,6 +20,8 @@ aliases:
   - 案例
   - 案例：大数据私有化在创新药领域的切入评估三角形实战
   - 评估三角形实战
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/五步法之需求分析/优秀案例分析合集.md
 discoverable_by:

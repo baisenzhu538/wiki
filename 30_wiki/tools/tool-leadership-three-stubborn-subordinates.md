@@ -10,9 +10,20 @@ created_at: 2026-08-09
 updated_at: 2026-08-09
 confidence: 0.85
 trust_level: high
-domain: [yitang, management, coaching]
+domain:
+- management
+- coaching
 source_person: 莫非
-source_context: 教练式领导力探索营——三类棘手下属
+source_context:
+  - 教练式领导力探索营——三类棘手下属
+  - 口述
+  - yitang
+  - 教练式领导力探索营——三类棘手下属
+  - 口述
+source_context:
+  - 教练式领导力探索营——三类棘手下属
+  - 口述
+  - yitang
 source_refs:
   - 00_inbox/教练式领导力/教练式领导力课程-02-口述.txt
 aliases: [三类棘手下属, 小白兔, 老黄牛, 老油条, 两大死局, 猴子山之王, 莫非, 教练式领导力课程-02-口述]
@@ -45,7 +56,6 @@ tags:
   - 工具
   - 方法
   - 管理者
-  - 口述
 quality_labels: [actionable, insight]
 ---
 

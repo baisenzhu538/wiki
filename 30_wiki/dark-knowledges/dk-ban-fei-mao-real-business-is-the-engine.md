@@ -6,9 +6,13 @@ type: dk
 status: reviewed
 domain:
 - ai-collaboration
-- yitang
 source_person: 半肥猫
-source_context: AI俱乐部·AI学习落地（2026-06分享）
+source_context:
+  - AI俱乐部·AI学习落地（2026-06分享）
+  - 半肥猫
+  - yitang
+  - AI俱乐部·AI学习落地（2026-06分享）
+  - 半肥猫
 aliases:
   - 半肥猫
   - 工具化就是空中楼阁
@@ -16,6 +20,10 @@ aliases:
   - 暗知：真实业务是唯一的燃料没有真实问题，工具化就是空中楼阁
   - 没有真实问题
   - 真实业务是唯一的燃料
+source_context:
+  - AI俱乐部·AI学习落地（2026-06分享）
+  - 半肥猫
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md
 discoverable_by:
@@ -48,11 +56,10 @@ diagnostic_signals:
   lens: 边界条件错配
   follow_up_question: 我练习时的任务边界、判断标准和真实业务是否一致？
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
-- 半肥猫
-- 学习落地
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 学习落地
 ---
 
 # 暗知：真实业务是唯一的燃料——没有真实问题，工具化就是空中楼阁

@@ -6,8 +6,11 @@ type: improvement-plan
 status: draft
 domain: master
 tags:
-- src_unknown
-- src_unknown
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - src_unknown
+  - src_unknown
 source_refs:
 - src_20260531_ai-data-understanding
 - src_20260531_ai-data-lecture-02

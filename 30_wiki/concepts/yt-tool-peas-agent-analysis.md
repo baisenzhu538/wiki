@@ -5,7 +5,8 @@ component_of:
 confidence: 0.85
 created_at: 2026-05-15
 difficulty: intermediate
-domain: src-unknown
+domain:
+- ai-collaboration
 language: zh-CN
 prerequisites:
 - src_unknown

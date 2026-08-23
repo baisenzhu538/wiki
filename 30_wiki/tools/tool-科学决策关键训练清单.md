@@ -10,12 +10,13 @@ confidence: 0.8
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
 - decision-science
 aliases:
   - 关键训练清单
   - 科学决策ROI
   - 科学决策ROI关键训练清单
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-关键训练清单（重要））_vlm_desc.md
 discoverable_by:

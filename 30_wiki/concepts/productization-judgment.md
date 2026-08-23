@@ -6,11 +6,12 @@ type: tool
 domain:
 - product
 - ai
-- yitang
 status: reviewed
 aliases:
   - 产品化判断四维度
   - 化判断四维度
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md
 discoverable_by:

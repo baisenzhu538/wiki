@@ -6,7 +6,9 @@ type: dk
 status: reviewed
 domain: ai-collaboration
 source_person: 半肥猫
-source_context: AI俱乐部·AI学习落地（2026-06分享）
+source_context:
+  - AI俱乐部·AI学习落地（2026-06分享）
+  - 半肥猫
 aliases:
   - AI给的回答越丝滑
   - 半肥猫
@@ -57,11 +59,10 @@ diagnostic_signals:
   lens: 训练数据存在截止日期
   follow_up: 请标注数据时间范围；若训练数据早于该时间，请明确告知。
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
-- 半肥猫
-- 学习落地
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 学习落地
 ---
 
 # 暗知：AI给的回答越丝滑，问题越大——"完全不等于可靠"陷阱

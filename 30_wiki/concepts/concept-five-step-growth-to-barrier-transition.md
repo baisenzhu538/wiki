@@ -2,7 +2,8 @@
 id: concept-five-step-growth-to-barrier-transition
 title: 五步法衔接：什么时候从增长切换到壁垒建设
 type: concept
-domain: src-unknown
+domain:
+- strategy
 aliases:
 - Truman
 - 五步法衔接

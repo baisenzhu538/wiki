@@ -8,7 +8,9 @@ status: reviewed
 domain:
 - design
 source_person: 月白
-source_context: '口述稿: AI设计-AI设计师实操培训01'
+source_context:
+  - 口述稿: AI设计-AI设计师实操培训01
+  - 设计师实操培训
 aliases:
   - AI出图前置筛选
   - AI出图前置筛选：三分钟十套方案定风格
@@ -48,10 +50,9 @@ diagnostic_signals:
 - src_unknown
 - src_unknown# AI出图前置筛选：三分钟十套方案定风格
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
-- 设计师实操培训
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
 ---
 
 ## 原始表述/核心洞察

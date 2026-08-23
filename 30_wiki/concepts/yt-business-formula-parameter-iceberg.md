@@ -10,13 +10,17 @@ language: zh-CN
 created_at: '2026-06-14'
 updated_at: '2026-07-14'
 domain:
-- yitang
 - business-formula
-source_context: 一堂业务公式课程（孔阳），参数探索篇「参数冰山」+「参数挖掘武器库」原图
+source_context:
+  - 一堂业务公式课程（孔阳），参数探索篇「参数冰山」+「参数挖掘武器库」原图
+  - yitang
 aliases:
   - 业务公式参数冰山L1
   - 业务公式参数冰山L1L6
   - 公式参数冰山
+source_context:
+  - 一堂业务公式课程（孔阳），参数探索篇「参数冰山」+「参数挖掘武器库」原图
+  - yitang
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1012-L1058
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1130-L1294

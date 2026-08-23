@@ -12,9 +12,10 @@ language: zh-CN
 domain:
 - epistemic-foundations
 - decision-science
-- yitang
 source_person: 李善友 / 一堂课程设计
-source_context: 一堂底层逻辑域·Y模型课程（2026-07-03），王语嫣九层深挖诊断
+source_context:
+  - 一堂底层逻辑域·Y模型课程（2026-07-03），王语嫣九层深挖诊断
+  - yitang
 aliases:
   - Y模型应用工作流
   - Y模型应用工作流：把科学做事框架变成具体问题上的操作清单
@@ -22,6 +23,9 @@ aliases:
   - 型应用工作流
   - 把科学做事框架变成具体问题上的操作清单
   - 李善友 / 一堂课程设计
+source_context:
+  - 一堂底层逻辑域·Y模型课程（2026-07-03），王语嫣九层深挖诊断
+  - yitang
 source_refs:
 - 00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-口述.txt
 - 00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-笔记.txt

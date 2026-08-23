@@ -29,7 +29,10 @@ discoverable_by:
 - 餐饮渠道饮料产品成本
 - 供应链综合洞察
 - 主题综合索引卡
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 created_at: '2026-06-14'
 quality_labels: null
 updated_at: '2026-06-28'

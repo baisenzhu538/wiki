@@ -30,6 +30,10 @@ aliases:
 - KDOBadCase鍥炴祦鏈哄埗锛氫粠鐢ㄦ埛绾犻敊鍒扮煡璇嗚繘鍖栫殑闂幆
 - 户纠错知识进化
 - 反馈机制
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 discoverable_by:
 - KDO Bad Case
 - Bad Case反馈机制

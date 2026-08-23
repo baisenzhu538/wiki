@@ -6,7 +6,9 @@ type: prompt-template
 status: reviewed
 confidence: 0.88
 trust_level: high
-domain: yitang
+domain:
+- ai-collaboration
+- design
 prompt_role: 需求分析助手——基于USP模型快速拆解业务需求
 prompt_methodology: USP模型（用户-场景-问题）三维拆解
 prompt_version: 1.0.0
@@ -17,6 +19,8 @@ aliases:
   - 快速需求拆解
   - 钟单轮提示词模板
   - 需求拆解
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/五步法之需求分析/AI辅助探讨需求选项的提示词.md
 created_at: '2026-06-21'

@@ -33,6 +33,9 @@ discoverable_by:
   - "华为五看三定"
   - "BLM战略规划"
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # IBM BLM 业务领导力模型 + 华为五看三定
 

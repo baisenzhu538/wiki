@@ -5,7 +5,6 @@ title: 一行双三角案例：花总让AI先造数据破解工业级难题
 type: case
 status: reviewed
 domain:
-- yitang
 - ai-collaboration
 - industrial-ai
 - research
@@ -25,6 +24,8 @@ aliases:
   - 双三角案例
   - 花总让
   - 花总让AI先造数据破解工业级难题
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/人机协作双三角/_processed/一堂双三角-跨行业速解工业级难题_vlm.md
 - https://www.polarismarketresearch.com/industry-analysis/synthetic-data-generation-market
@@ -50,9 +51,10 @@ related:
 - 人机协作双三角
 - '[[method-dual-triangle-flywheel-engine]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:advanced
+  - audience:general
+  - scene:reference
+  - skill-level:advanced
+  - 框架
 ---
 
 # 一行双三角案例：花总让 AI 先造数据破解工业级难题

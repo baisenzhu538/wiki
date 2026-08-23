@@ -11,7 +11,11 @@ trust_level: medium
 language: zh-CN
 created_at: 2026-07-08
 updated_at: 2026-07-08
-domain: unknown
+domain:
+- ai-collaboration
+- management
+- modeling
+- strategy
 source_refs: null
 related: null
 discoverable_by:
@@ -21,7 +25,10 @@ diagnostic_signals:
   lens: placeholder
   follow-up: 后续补全
 quality_labels: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 aliases: null
 ---
 # 双峰时间哲学模型

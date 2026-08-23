@@ -13,13 +13,14 @@ language: zh-CN
 created_at: 2026-07-04
 updated_at: '2026-07-04'
 domain:
-- yitang
 - decision-science
 aliases:
   - Y模型
   - 团队自检/纠偏/激励行为工具
   - 红蓝卡
   - 红蓝卡：Y模型团队自检/纠偏/激励行为工具
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-口述.txt
 - 60_feedback/extractions/extraction-kexue-linian-y-model.md

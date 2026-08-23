@@ -20,6 +20,11 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - Agent
+  - 提示词
+  - 协作
+  - 工具
+  - 方法
 aliases:
   - 双三角案例：龙虾训练灵魂赋能实验——Agent 角色配置
 discoverable_by:

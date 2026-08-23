@@ -3,7 +3,10 @@ id: tool-四层联系建立法
 title: 技能：四层联系建立法
 type: tool
 status: reviewed
-domain: src-unknown
+domain:
+- kdo
+- master
+- strategy
 source_person: 一堂课程
 source_context: 一堂·科学学习IPO全景策略图 V2.0 (2026)
 aliases:

@@ -1,7 +1,8 @@
 ---
 title: 转化率黑客
 type: concept
-domain: src-unknown
+domain:
+- human-insights
 status: reviewed
 pipeline:
 - src_unknown

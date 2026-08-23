@@ -13,13 +13,14 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - 六度人脉的实战应用
   - 前员工人脉网络
   - 武器库策略6
   - 武器库策略6：前员工人脉网络六度人脉的实战应用
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt

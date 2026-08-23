@@ -5,10 +5,11 @@ title: 一堂方法论体系：从科学做事到无限进步
 type: concept
 status: reviewed
 domain:
-- yitang
 - methodology
 source_person: 王语嫣
-source_context: 听脑 AI 一堂方法论主题摘要综合提炼
+source_context:
+  - 听脑 AI 一堂方法论主题摘要综合提炼
+  - yitang
 aliases:
   - 一堂方法论体系
   - 一堂方法论体系：从科学做事到无限进步
@@ -16,6 +17,9 @@ aliases:
   - 学做事到无限进步
   - 方法论体系
   - 王语嫣
+source_context:
+  - 听脑 AI 一堂方法论主题摘要综合提炼
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260614_1be3d76f-一堂-思维模型案例分享.md
 - 10_raw/sources/src_20260614_239c9f4e-一堂-知识萃取探索营.md

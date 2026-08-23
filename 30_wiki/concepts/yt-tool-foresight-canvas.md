@@ -2,7 +2,8 @@
 id: yt-tool-foresight-canvas
 title: 预判画布：从加法到减法的标准化工作台
 type: tool
-domain: src-unknown
+domain:
+- strategy
 aliases:
 - 从加法到减法的标准化工作台
 - 法到减法的标准化工作台

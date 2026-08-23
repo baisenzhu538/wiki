@@ -21,6 +21,8 @@ aliases:
   - 但不会取代电商平台
   - 导流品牌官网
   - 搜索导流品牌官网
+source_context:
+  - 口述
 source_refs:
 - 00_inbox/AI前哨站第2集/AI前哨站第2集-水水拆书.md
 - 00_inbox/AI前哨站第2集/水水-AI前哨-第二期-口述.txt
@@ -30,7 +32,6 @@ tags:
   - scene:reference
   - skill-level:intermediate
   - 工具
-  - 口述
 discoverable_by:
   - AI 搜索导流品牌官网，但不会取代电商平台
   - 搜索导流品牌官网，但不会取代电商平台

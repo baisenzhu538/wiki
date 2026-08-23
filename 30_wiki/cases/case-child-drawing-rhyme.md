@@ -5,9 +5,8 @@ title: 案例：孩子控笔「画画歌」——最小单元的建模实践
 type: case
 status: reviewed
 domain:
-- src-unknown
-- src_unknown
-- src_unknown
+- modeling
+- research
 aliases:
   - Truman
   - framework_lens: 最小建模 / 口诀压缩
@@ -44,10 +43,13 @@ related:
 - '[[case-yitang-radar-chart-selection]]'
 - '[[dk-weekly-modeling-iteration-growth-engine]]'
 tags:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
 - framework_lens: 建模验证闭环——提醒、观察、迭代
   follow_up_question: 有没有在真实场景中提醒、观察效果，并根据反馈调整口诀或触发条件？

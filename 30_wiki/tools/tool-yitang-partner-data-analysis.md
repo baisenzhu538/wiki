@@ -13,7 +13,6 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - 从合作方拿到的真实数字
@@ -21,6 +20,8 @@ aliases:
   - 合作方案数据
   - 合作方案数据：从合作方拿到的真实数字
   - 方案数据
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 discoverable_by:

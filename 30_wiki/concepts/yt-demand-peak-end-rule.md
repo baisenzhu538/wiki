@@ -1,5 +1,6 @@
 ---
-domain: src-unknown
+domain:
+- decision-making
 id: yt-demand-peak-end-rule
 title: 峰终定律在需求分析中的应用：用户记住的不是平均，而是峰值和终点
 type: concept

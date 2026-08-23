@@ -4,10 +4,14 @@ title: 技能：问题验证三维度法
 type: tool
 status: reviewed
 domain:
-  - ai-collaboration
-  - yitang
+- ai-collaboration
 source_person: 纪浩
-source_context: AI俱乐部-AI协作方法论分享，2026-06
+source_context:
+  - AI俱乐部-AI协作方法论分享，2026-06
+  - yitang
+source_context:
+  - AI俱乐部-AI协作方法论分享，2026-06
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记.md
 wiki_refs: null

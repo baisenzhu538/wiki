@@ -3,7 +3,8 @@ id: yt-entrepreneur-lean-validation
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: intermediate
-domain: src-unknown
+domain:
+- decision-making
 estimated_tokens: 2800
 language: zh-CN
 query_triggers:

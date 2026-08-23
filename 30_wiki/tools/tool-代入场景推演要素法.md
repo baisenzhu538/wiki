@@ -6,16 +6,20 @@ type: tool
 domain:
 - learning-methodology
 - decision-making
-- yitang
 - business-strategy
 status: draft
 source_person: 一堂课程
-source_context: src_20260609_44a9e79a
+source_context:
+  - src_20260609_44a9e79a
+  - yitang
 aliases:
   - 一堂课程
   - 代入场景推演要素法
   - 技能
   - 技能：代入场景推演要素法
+source_context:
+  - src_20260609_44a9e79a
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260609_44a9e79a-ocr-一堂-科学决策-关键训练清单重要.md
 definition_of_done:

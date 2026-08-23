@@ -5,10 +5,10 @@ title: 一堂视频号投放 L1→L6 全案：好友率 40%→85%、脚本寿命
 type: case
 status: enriched
 domain:
-- yitang
 - business-formula
 source_person: 一堂（Truman 主讲，业务公式·逻辑关系篇）
 source_context: 一堂业务公式课「逻辑关系篇」推演案例：2023 年起一堂做视频号投放，每天约 300 个复盘营新客、ROI 1.5-2，目标规模翻
+  - yitang
   5-10 倍且毛利 ROI 不显著下降；用 L1→L6 六个段位完整演示一个投放项目如何从凭经验猜参数进化到公式化、定量化、动态化的增长系统，配图「案例1.png」
 aliases:
   - 一堂视频号投放

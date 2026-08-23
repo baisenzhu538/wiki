@@ -6,7 +6,7 @@ confidence: 0.8
 created_at: 2026-05-11
 difficulty: foundational
 domain:
-- src_unknown
+- kdo
 estimated_tokens: 1131
 language: zh-CN
 prerequisites:
@@ -52,6 +52,10 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
 superseded_by: tool-泛产品落地-低成本测试MVP
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 
 # 低成本测试MVP：用实验思维10倍速验证假设

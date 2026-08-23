@@ -10,9 +10,20 @@ created_at: 2026-08-09
 updated_at: 2026-08-09
 confidence: 0.9
 trust_level: high
-domain: [yitang, management, coaching]
+domain:
+- management
+- coaching
 source_person: 莫非
-source_context: 教练式领导力探索营——教练式沟通的边界
+source_context:
+  - 教练式领导力探索营——教练式沟通的边界
+  - 口述
+  - yitang
+  - 教练式领导力探索营——教练式沟通的边界
+  - 口述
+source_context:
+  - 教练式领导力探索营——教练式沟通的边界
+  - 口述
+  - yitang
 source_refs:
   - 00_inbox/教练式领导力/教练式领导力课程-02-口述.txt
 aliases: [边界三情况, 教练式沟通边界, 信任不是放任, 信任账户, 讨好型领导]
@@ -40,7 +51,6 @@ tags:
   - 边界
   - 反例
   - 教练
-  - 口述
 quality_labels: [insight, principle, quotable]
 ---
 

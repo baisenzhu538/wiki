@@ -18,6 +18,8 @@ aliases:
   - 行业范式
   - 跳出行业范式
   - 跳出行业范式定位年轻单身男性
+source_context:
+  - 冉鹏战略课逐字稿
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_239_vlm_desc.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_239_ocr_text.md
@@ -35,11 +37,10 @@ related:
 - '[[pending_unknown]]'
 - case-strategy-practice-12-zero-loss
 tags:
-- audience:general
-- scene:reference
-- skill-level:advanced
-- 冉鹏PPT截图
-- 冉鹏战略课逐字稿
+  - audience:general
+  - scene:reference
+  - skill-level:advanced
+  - 冉鹏PPT截图
 ---
 **反常识**：家电品牌定位年轻单身男性——"最穷最没消费欲的人群"
 **成功**：别人都在抢家庭主妇，小熊电器选了被所有人忽略的群体——年轻人租房，需要便宜的小家电

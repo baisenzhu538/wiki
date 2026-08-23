@@ -13,12 +13,13 @@ language: zh-CN
 created_at: 2026-07-09
 updated_at: 2026-07-09
 domain:
-- yitang
 - personal-learning
 aliases:
   - 会学习→会提问→会想→会沉淀
   - 四环修炼闭环自检清单
   - 四环修炼闭环自检清单：会学习→会提问→会想→会沉淀
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/ideas/一堂-个人修炼-IPO模型实操课口述.md
 discoverable_by:

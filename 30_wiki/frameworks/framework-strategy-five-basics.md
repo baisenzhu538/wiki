@@ -32,6 +32,9 @@ discoverable_by:
   - "五基本功战略"
 updated_at: '2026-06-29'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 战略五基本功（5C）
 

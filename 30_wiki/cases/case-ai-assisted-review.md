@@ -12,7 +12,8 @@ aliases:
 source_refs:
 - src_unknown
 status: reviewed
-domain: src-unknown
+domain:
+- decision-making
 source_person: Truman
 source_context: 一堂高阶建模能力培训（AI 辅助复盘案例） （单一 source 为完整长文档，内容充分支撑 high trust） （单一 source，P1
   收尾时从 high 降为 medium，待补充第二来源或充分验证后再升回 high）

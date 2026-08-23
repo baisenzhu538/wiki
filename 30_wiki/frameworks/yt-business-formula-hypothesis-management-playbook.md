@@ -11,7 +11,6 @@ language: zh-CN
 created_at: 2026-07-12
 updated_at: '2026-07-12'
 domain:
-- yitang
 - business-formula
 aliases:
   - 业务公式假设管理落地策略集
@@ -20,6 +19,8 @@ aliases:
   - 格行动矩阵
   - 策略
   - 高阶三级
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/Handle the business/Business formula/_vlm_output/业务公式-落地策略集_vlm.md
 - 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712005240_vlm.md

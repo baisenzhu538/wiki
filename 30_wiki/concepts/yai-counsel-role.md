@@ -5,7 +5,6 @@ title: YAI C角色咨询法： Counsel 式方案输出节奏
 type: framework
 domain:
 - consulting
-- yitang
 - personal-growth
 - learning-methodology
 status: reviewed
@@ -16,6 +15,8 @@ aliases:
   - 案输出节奏
   - 色咨询法
   - 角色咨询法
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md
 discoverable_by:

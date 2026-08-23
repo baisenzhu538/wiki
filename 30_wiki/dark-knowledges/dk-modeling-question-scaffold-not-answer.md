@@ -5,7 +5,6 @@ type: dk
 dark_knowledge_type: cross-domain-pattern
 status: reviewed
 domain:
-- yitang
 - modeling
 - business-strategy
 language: zh-CN
@@ -17,6 +16,8 @@ aliases:
 - 是提问的脚手架
 - 模型是提问的脚手架
 - 模型是提问的脚手架，不是答案
+source_context:
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 discoverable_by:

@@ -22,6 +22,8 @@ aliases:
 - 拆书会第216期：《成瘾》逐字稿
 - 拆书会第216期
 - 转述自《成瘾》安娜·伦布克
+source_context:
+  - 拆书会
 source_refs:
 - 00_inbox/拆书会第216期：《成瘾》逐字稿.md#L139-L175
 - 00_inbox/拆书会第216期：《成瘾》逐字稿.md#L153-L175
@@ -33,17 +35,16 @@ related:
 - tool-self-binding-three-strategies
 - framework-yitang-nine-layer-deep-dig
 tags:
-- audience:general
-- scene:execution
-- skill-level:intermediate
-- 行为改变
-- 成瘾机制
-- 戒断
-- 重置
-- 自我管理者
-- 实操
-- 拆书会
-- 书籍转述
+  - audience:general
+  - scene:execution
+  - skill-level:intermediate
+  - 行为改变
+  - 成瘾机制
+  - 戒断
+  - 重置
+  - 自我管理者
+  - 实操
+  - 书籍转述
 ---
 
 # DOPAMINE 八字母恢复框架：数据→目标→问题→禁欲→正念→洞察→下一步→实验

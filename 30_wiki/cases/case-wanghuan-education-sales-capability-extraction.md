@@ -21,7 +21,9 @@ source_refs:
 - src_unknown
 - src_unknown
 - src_unknown
-domain: src-unknown
+domain:
+- content
+- decision-making
 created_at: '2026-06-20'
 updated_at: '2026-06-28'
 diagnostic_signals:

@@ -3,7 +3,9 @@ id: tool-纪浩-Problem与Question区分法
 title: 技能：Problem与Question区分法（纪浩版）
 type: tool
 status: reviewed
-domain: src-unknown
+domain:
+- ai-collaboration
+- kdo
 source_person: 纪浩
 source_context: AI俱乐部-人和AI协作-纪浩-五层结构-图片01
 aliases:

@@ -15,7 +15,13 @@ created_at: 2026-07-04
 updated_at: '2026-07-04'
 domain:
 - ai-collaboration
-- yitang
+source_context:
+  - 口述
+  - yitang
+  - 口述
+source_context:
+  - 口述
+  - yitang
 source_refs:
 - 00_inbox/人机协作双三?一堂双三角-人机协作模型-口述.txt
 - 00_inbox/AI-study/一?AI学习-AI工具应用AMA口述.txt
@@ -24,6 +30,12 @@ aliases:
   - Feature思维
   - AI基本功
   - 技术特性原子化
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 原子化
+  - 工具
 discoverable_by:
   - AI 基本功的 Feature 思维：把工具拆成最小可操作技
   - 基本功的

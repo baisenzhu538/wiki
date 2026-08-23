@@ -4,10 +4,14 @@ title: 技能：设计 Skill 的评分规则与风险边界
 type: tool
 status: reviewed
 domain:
-  - src-unknown
-  - yitang
+- decision-making
 source_person: 半肥猫
-source_context: AI俱乐部-AI学习落地 分享
+source_context:
+  - AI俱乐部-AI学习落地 分享
+  - 半肥猫
+  - yitang
+  - AI俱乐部-AI学习落地 分享
+  - 半肥猫
 aliases:
   - 分规则与风险边界
   - 半肥猫
@@ -15,6 +19,10 @@ aliases:
   - 技能：设计Skill的评分规则与风险边界
   - 的评分规则与风险边界
   - 设计
+source_context:
+  - AI俱乐部-AI学习落地 分享
+  - 半肥猫
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md
 tools_required:
@@ -59,11 +67,10 @@ diagnostic_signals:
 - lens: 风险分级映射
   follow_up: 验证高/中/低容错场景是否对应不同的约束强度与评分权重
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
-- 半肥猫
-- 学习落地
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 学习落地
 ---
 # 技能：设计 Skill 的评分规则与风险边界
 

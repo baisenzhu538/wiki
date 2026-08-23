@@ -6,7 +6,6 @@ type: dk
 dark_knowledge_type: insight
 status: reviewed
 domain:
-- yitang
 - ai
 aliases:
   - 为什么12个AI变化信号同时亮起时
@@ -15,6 +14,8 @@ aliases:
   - 变化信号同时亮起时
   - 暗知
   - 暗知：信号簇幻觉为什么12个AI变化信号同时亮起时，你反而应该更警惕
+source_context:
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260606_f6cb0868-一堂-机会预判课-Truman-口述.md
 - 10_raw/sources/src_20260610_ac25d82a-一堂-机会预判-三维排列组合01.md

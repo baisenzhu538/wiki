@@ -26,6 +26,8 @@ aliases:
   - 清单
   - 生产
   - 的五步法
+source_context:
+  - 半肥猫
 source_refs:
 - 00_inbox/半肥猫/【半肥猫】我的商业突破实践指南：如何封装一个可复用的业务 Skill_MCP 副本.md
 - 00_inbox/半肥猫/【半肥猫】用 AI 把脑子里的经验，推进成一个最小可验证的数字交付 副本.md
@@ -36,11 +38,10 @@ related:
 - dk-ai-memory-four-layers
 - framework-建模四步法
 tags:
-- audience:executor
-- scene:execution
-- skill-level:advanced
-- 半肥猫
-- 如何封装一个可复用的业务
+  - audience:executor
+  - scene:execution
+  - skill-level:advanced
+  - 如何封装一个可复用的业务
 ---
 
 # KDO Agent 生产 SOP 清单：从业务任务到可运行 Agent 的五步法

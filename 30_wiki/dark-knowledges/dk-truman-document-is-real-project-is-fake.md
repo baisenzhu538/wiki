@@ -6,10 +6,11 @@ type: dk
 dark_knowledge_type: insight
 status: reviewed
 domain:
-- yitang
 - personal-growth
 source_person: Truman
-source_context: 一堂知识萃取探索营分享，关于去哪儿产品经理时期建立PRD清单的经验
+source_context:
+  - 一堂知识萃取探索营分享，关于去哪儿产品经理时期建立PRD清单的经验
+  - yitang
 aliases:
   - Truman
   - 文档是真的
@@ -17,6 +18,9 @@ aliases:
   - 面向未来解决问题
   - 面向过去建模型
   - 项目是假的
+source_context:
+  - 一堂知识萃取探索营分享，关于去哪儿产品经理时期建立PRD清单的经验
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260614_239c9f4e-一堂-知识萃取探索营.md
 discoverable_by:

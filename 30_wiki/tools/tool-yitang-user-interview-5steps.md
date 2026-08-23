@@ -13,7 +13,6 @@ confidence: 0.9
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 difficulty: intermediate
 estimated_tokens: 3000
@@ -31,6 +30,8 @@ aliases:
   - 用户访谈五步执行法
   - 用户访谈五步执行法：画像场景信任提问判断
   - 画像
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/一堂-用户调研实操课-口述_ocr.md
 - 00_inbox/调研专题/一堂-用户调研实操课-笔记.txt

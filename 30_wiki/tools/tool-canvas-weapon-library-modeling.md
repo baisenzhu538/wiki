@@ -13,7 +13,8 @@ source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 - 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
 status: reviewed
-domain: src-unknown
+domain:
+- strategy
 discoverable_by:
   - 画布/武器库建模法：把工具箱变成可快速调用的系统
   - 画布/武器库建模法

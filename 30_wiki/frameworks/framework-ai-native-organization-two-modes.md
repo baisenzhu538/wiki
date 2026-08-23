@@ -10,7 +10,9 @@ trust_level: medium
 language: zh-CN
 created_at: 2026-07-08
 updated_at: 2026-07-08
-domain: unknown
+domain:
+- ai-collaboration
+- kdo
 aliases:
 - AI 原生组织双形态
 - AI 控制台
@@ -24,6 +26,10 @@ aliases:
 source_refs: null
 quality_labels: null
 related: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 discoverable_by:
 - AI原生组织
 - AI控制台vs Agent平台

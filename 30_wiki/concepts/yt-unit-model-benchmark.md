@@ -3,7 +3,8 @@ id: yt-unit-model-benchmark
 confidence: 0.9
 created_at: 2026-05-24
 difficulty: intermediate
-domain: src-unknown
+domain:
+- strategy
 estimated_tokens: 2500
 language: zh-CN
 prerequisites:
@@ -34,6 +35,8 @@ aliases:
   - 模型基准值
   - 科学类比
   - 预测与基准值共建
+source_context:
+  - 一堂五步法
 source_refs:
 - 10_raw/sources/src_20260610_557408fa-一堂-一堂五步法-单元模型-笔记.md
 - 10_raw/sources/src_20260610_be139711-一堂-一堂五步法-单元模型-口述.md
@@ -69,11 +72,10 @@ updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
 tags:
-- audience:executor
-- scene:execution
-- skill-level:advanced
-- 一堂五步法
-- 单元模型
+  - audience:executor
+  - scene:execution
+  - skill-level:advanced
+  - 单元模型
 ---
 # 单元模型基准值：科学类比、三点预测与基准值共建
 

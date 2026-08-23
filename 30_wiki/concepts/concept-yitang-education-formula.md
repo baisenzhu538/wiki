@@ -12,13 +12,15 @@ language: zh-CN
 created_at: 2026-07-04
 updated_at: 2026-07-05
 domain:
-- yitang
+- content
 aliases:
   - 教学
   - 教材
   - 教育
   - 教育=教材+教学+积极改变
   - 积极改变
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/解放思想/解放思想-truman-口述.txt
 - 60_feedback/extractions/extraction-jiefang-sixiang-truman.md

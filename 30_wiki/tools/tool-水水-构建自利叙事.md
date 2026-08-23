@@ -2,7 +2,8 @@
 id: tool-水水-构建自利叙事
 title: 技能：构建自利叙事
 type: tool
-domain: unknown
+domain:
+- human-insights
 status: draft
 author: unknown
 reviewed_by: 欧阳锋
@@ -24,7 +25,10 @@ discoverable_by:
 - 技能：构建自利叙事
 - 构建自利叙事
 related: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 技能：构建自利叙事
 

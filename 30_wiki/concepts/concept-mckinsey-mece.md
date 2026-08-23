@@ -3,7 +3,8 @@ id: concept-mckinsey-mece
 title: MECE 原则：相互独立、完全穷尽
 type: concept
 status: reviewed
-domain: src-unknown
+domain:
+- strategy
 source_person: Barbara Minto / McKinsey & Company
 source_context: McKinsey 问题解决方法论核心原则，最早系统化呈现于 Minto《金字塔原理》(1987) 与 McKinsey 内部培训
 aliases:

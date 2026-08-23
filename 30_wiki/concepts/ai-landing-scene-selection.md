@@ -2,7 +2,9 @@
 id: ai-landing-scene-selection
 title: AI落地场景识别：从找老的干小的开始
 type: concept
-domain: src-unknown
+domain:
+- decision-making
+- kdo
 status: reviewed
 aliases:
   - AI落地场景识别

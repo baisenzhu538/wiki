@@ -1,17 +1,21 @@
 ---
 
 domain:
-- yitang
 - research
 id: yt-research-competitor-toolkit
 title: 竞品分析工具包
 type: tool
 status: reviewed
-source_context: 一堂商业调研课程——竞品拆解方法论
+source_context:
+  - 一堂商业调研课程——竞品拆解方法论
+  - yitang
 source_person: 一堂
 aliases:
   - 分析工具包
   - 竞品分析工具包
+source_context:
+  - 一堂商业调研课程——竞品拆解方法论
+  - yitang
 source_refs:
   - src_unknown
 created_at: '2026-06-20'

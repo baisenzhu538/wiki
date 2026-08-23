@@ -25,6 +25,10 @@ related:
 - labeling-final-consolidation
 - '[[yt-foresight-deliverables-four-levels]]'
 updated_at: '2026-06-29'
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # KDO 质量体系升级——Harness Engineering 三原则落地
 

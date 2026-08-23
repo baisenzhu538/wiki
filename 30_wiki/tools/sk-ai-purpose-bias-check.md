@@ -3,7 +3,9 @@ id: sk-ai-purpose-bias-check
 title: 技能：目的论偏差快速识别法
 type: tool
 status: draft
-domain: unknown
+domain:
+- decision-making
+- strategy
 source_person: 水水
 source_context: 拆书会《偶然》分享，2026-06
 aliases:
@@ -25,7 +27,10 @@ definition_of_done: null
 discoverable_by:
 - 技能：目的论偏差快速识别法
 - 目的论偏差快速识别法
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 created_at: '2026-06-06'
 updated_at: '2026-06-16'
 tools_required: null

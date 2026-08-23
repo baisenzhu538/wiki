@@ -4,9 +4,8 @@ title: 案例：一淘项目背景与三大难题
 type: case
 status: reviewed
 domain:
-  - product
-  - design
-  - yitang
+- product
+- design
 author: 老顽童
 reviewed_by: 欧阳锋
 reviewed_at: '2026-07-04'
@@ -20,6 +19,8 @@ aliases:
   - 案例
   - 案例：一淘项目背景与三大难题
   - 项目背景与三大难题
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/泛产品设计/一堂-泛产品设计课程-口述.txt
 discoverable_by:

@@ -3,7 +3,8 @@ id: case-modeling-process-sop-examples
 title: 流程建模案例：10 个学员企业的 SOP 实践样本
 type: case
 status: enriched
-domain: src-unknown
+domain:
+- kdo
 aliases:
   - Truman
   - 个学员企业的

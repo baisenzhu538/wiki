@@ -10,17 +10,21 @@ confidence: 0.86
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - business-strategy
 - product
 source_person: 李蕊
-source_context: 一堂科学销售方法论课程（2026-07-02），销售专题九层深挖诊断
+source_context:
+  - 一堂科学销售方法论课程（2026-07-02），销售专题九层深挖诊断
+  - yitang
 aliases:
   - 一堂用户分层四步法SABC
   - 一堂用户分层四步法SABC分级
   - 分级
   - 李蕊
   - 用户分层四步法
+source_context:
+  - 一堂科学销售方法论课程（2026-07-02），销售专题九层深挖诊断
+  - yitang
 source_refs:
 - 00_inbox/销售专题/_processed/销售专题_整合笔记.md
 - 60_feedback/diagnosis/diag_20260702_yitang-scientific-sales-methodology.md

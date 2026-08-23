@@ -12,10 +12,11 @@ language: zh-CN
 created_at: '2026-07-13'
 updated_at: '2026-07-13'
 domain:
-- yitang
 - conversion-rate
 source_person: 一堂运营团队
-source_context: 一堂年度大课“全会员出圈”活动转化优化案例
+source_context:
+  - 一堂年度大课“全会员出圈”活动转化优化案例
+  - yitang
 aliases:
   - 一堂运营团队
   - 全会员出圈率从1.5%翻一倍
@@ -23,6 +24,9 @@ aliases:
   - 员出圈率从
   - 奖项素材
   - 承诺一致+降低阻力+奖项素材+冲榜动力
+source_context:
+  - 一堂年度大课“全会员出圈”活动转化优化案例
+  - yitang
 source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L424-L458
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L3988-L4010

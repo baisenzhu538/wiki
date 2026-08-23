@@ -6,9 +6,10 @@ type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
-- yitang
 - business-formula
-source_context: C 域实战反哺——孔源六层逻辑关系图对照 + 王语嫣两轮实战 L5/L6 错位纠错记录
+source_context:
+  - C 域实战反哺——孔源六层逻辑关系图对照 + 王语嫣两轮实战 L5/L6 错位纠错记录
+  - yitang
 aliases:
   - L5=基准值与判断空间
   - L6=公式随业务进化
@@ -16,6 +17,9 @@ aliases:
   - 定量与动态的正名
   - 定量与动态的正名：逻辑冰山L5=基准值与判断空间，L6=公式随业务进化
   - 逻辑冰山
+source_context:
+  - C 域实战反哺——孔源六层逻辑关系图对照 + 王语嫣两轮实战 L5/L6 错位纠错记录
+  - yitang
 source_refs:
 - 10_raw/assets/yitang-business-formula/孔源-业务公式拆解-6层逻辑关系图-ocr.md
 - 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1605-L1609

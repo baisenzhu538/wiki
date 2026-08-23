@@ -11,7 +11,8 @@ trust_level: high
 language: zh-CN
 created_at: 2026-07-08
 updated_at: 2026-07-08
-domain: unknown
+domain:
+- strategy
 source_refs: null
 related: null
 discoverable_by:
@@ -21,7 +22,10 @@ diagnostic_signals:
   lens: 假壁垒——品牌是结果不是壁垒
   follow-up: 六大护城河逐一检查——品牌不在六条里
 quality_labels: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 aliases: null
 ---
 # 一堂五步法·壁垒：六大护城河+真假壁垒判断

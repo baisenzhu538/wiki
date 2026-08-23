@@ -6,14 +6,18 @@ status: reviewed
 confidence: 0.90
 trust_level: high
 domain:
-  - personal
-  - yitang
+- personal
 author: 老顽童
+source_context:
+  - Truman复盘课批注图225330（借假修真）+ 口述 L1920-1922（黑盒白盒）
+  - yitang
 source_refs:
   - 00_inbox/个人-深度复盘/_processed/批注_2026-08-05_225330_*.md
   - 00_inbox/个人-深度复盘/个人-深度复盘能力-口述.txt
 source_person: Truman
-source_context: Truman复盘课批注图225330（借假修真）+ 口述 L1920-1922（黑盒白盒）
+source_context:
+  - Truman复盘课批注图225330（借假修真）+ 口述 L1920-1922（黑盒白盒）
+  - yitang
 reviewed_by: 欧阳锋
 review_date: 2026-08-06
 aliases:

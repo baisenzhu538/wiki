@@ -5,7 +5,8 @@ type: tool
 status: draft
 confidence: 0.88
 trust_level: high
-domain: unknown
+domain:
+- ai-collaboration
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-07-19'
@@ -26,7 +27,10 @@ discoverable_by:
 quality_labels: null
 source_refs: null
 related: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 老朱 AI 能力刻意练习路线图：从工具使用到智能体搭建的 24 周
 

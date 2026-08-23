@@ -4,7 +4,6 @@ title: 技能：AI落地场景筛选-四有新人法则
 type: tool
 domain:
 - ai-collaboration
-- yitang
 - ai-saas
 status: draft
 author: unknown
@@ -17,9 +16,14 @@ aliases:
 - 四有新人法则
 - 技能
 - 技能：AI落地场景筛选四有新人法则
+source_context:
+  - （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260510_4bb17355-天花板.md
-source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+source_context:
+  - （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+  - yitang
 updated_at: '2026-06-29'
 discoverable_by:
 - 技能：AI落地场景筛选-四有新人法则

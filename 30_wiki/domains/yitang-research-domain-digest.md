@@ -5,8 +5,15 @@ type: index
 status: reviewed
 confidence: 0.95
 trust_level: high
-domain: yitang
-source_context: 由黄药师基于欧阳锋审查报告 + 老顽童实际产出 + scaffold-domain-index.py 生成
+domain:
+- master
+- strategy
+source_context:
+  - 由黄药师基于欧阳锋审查报告 + 老顽童实际产出 + scaffold-domain-index.py 生成
+  - yitang
+source_context:
+  - 由黄药师基于欧阳锋审查报告 + 老顽童实际产出 + scaffold-domain-index.py 生成
+  - yitang
 source_refs:
 - 60_feedback/diagnosis/diag_20260620_调研专题素材验收.md
 - 60_feedback/tasks/task_20260620_调研专题生产任务清单.md

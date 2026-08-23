@@ -3,9 +3,13 @@ id: tool-ban-fei-mao-gao-su-ai-dang-qian-ri-qi-xian-zhi-shu-ju-shi-xiao
 title: 技能：告诉 AI 当前日期限制数据时效
 type: tool
 status: reviewed
-domain: src-unknown
+domain:
+- ai-collaboration
+- strategy
 source_person: 半肥猫
-source_context: AI俱乐部-AI学习落地 分享
+source_context:
+  - AI俱乐部-AI学习落地 分享
+  - 半肥猫
 aliases:
   - 半肥猫
   - 告诉
@@ -47,11 +51,10 @@ diagnostic_signals:
 - lens: 行业时效标准未定义
   follow_up: 补充说明该领域多久以前的数据应视为失效（如科技行业 1 年、传统制造业 5 年）
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
-- 半肥猫
-- 学习落地
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 学习落地
 ---
 # 技能：告诉 AI 当前日期限制数据时效
 

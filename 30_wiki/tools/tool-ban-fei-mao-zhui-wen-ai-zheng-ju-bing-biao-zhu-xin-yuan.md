@@ -4,10 +4,15 @@ title: 技能：追问 AI 证据并标注信源
 type: tool
 status: reviewed
 domain:
-  - src-unknown
-  - yitang
+- decision-making
+- research
 source_person: 半肥猫
-source_context: AI俱乐部-AI学习落地 分享
+source_context:
+  - AI俱乐部-AI学习落地 分享
+  - 半肥猫
+  - yitang
+  - AI俱乐部-AI学习落地 分享
+  - 半肥猫
 aliases:
   - 半肥猫
   - 并标注信源
@@ -15,6 +20,10 @@ aliases:
   - 技能：追问AI证据并标注信源
   - 证据并标注信源
   - 追问
+source_context:
+  - AI俱乐部-AI学习落地 分享
+  - 半肥猫
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md
 tools_required:
@@ -52,11 +61,10 @@ diagnostic_signals:
 - lens: 风险分级
   follow_up: 这个场景的错误代价是什么？是否已经验证信源并标注不确定性？
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
-- 半肥猫
-- 学习落地
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 学习落地
 ---
 # 技能：追问 AI 证据并标注信源
 

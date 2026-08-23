@@ -12,7 +12,6 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - 声音设计如何调研
@@ -21,6 +20,8 @@ aliases:
   - 案例：陪伴式语音机器人声音设计如何调研
   - 设计如何调研
   - 陪伴式语音机器人
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/高阶调研行动营01.txt
 discoverable_by:

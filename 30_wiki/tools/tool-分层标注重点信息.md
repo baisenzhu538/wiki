@@ -7,15 +7,19 @@ domain:
 - learning-methodology
 - ai-saas
 - decision-making
-- yitang
 status: draft
 source_person: Truman
-source_context: src_20260609_03491271
+source_context:
+  - src_20260609_03491271
+  - yitang
 aliases:
   - Truman
   - 分层标注重点信息
   - 技能
   - 技能：分层标注重点信息
+source_context:
+  - src_20260609_03491271
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset.md
 definition_of_done:

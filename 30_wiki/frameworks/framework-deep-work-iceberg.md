@@ -11,7 +11,8 @@ trust_level: medium
 language: zh-CN
 created_at: 2026-07-08
 updated_at: 2026-07-08
-domain: unknown
+domain:
+- kdo
 source_refs: null
 related: null
 discoverable_by:
@@ -23,7 +24,10 @@ diagnostic_signals:
   lens: placeholder
   follow-up: 后续补全
 quality_labels: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 aliases: null
 ---
 # L1-L5 深度工作冰山模型

@@ -5,7 +5,10 @@ component_of:
 confidence: 0.85
 created_at: 2026-05-13
 difficulty: foundational
-domain: src-unknown
+domain:
+- human-insights
+- kdo
+- strategy
 estimated_tokens: 1500
 language: zh-CN
 prerequisites:

@@ -12,15 +12,21 @@ language: zh-CN
 domain:
 - design
 - ai-collaboration
-- yitang
 source_person: 陈舒妍
-source_context: 一堂 AI 俱乐部落地 Live81 分享（2026-07-02），宠物用品出海品牌喵善养（meow sayang）商标设计实践
+source_context:
+  - 一堂 AI 俱乐部落地 Live81 分享（2026-07-02），宠物用品出海品牌喵善养（meow sayang）商标设计实践
+  - yitang
+  - 一堂 AI 俱乐部落地 Live81 分享（2026-07-02），宠物用品出海品牌喵善养（meow sayang）商标设计实践
+  - yitang
 aliases:
   - 喵善养商标设计
   - 案例
   - 案例：Live81AI赋能喵善养商标设计
   - 赋能喵善养商标设计
   - 陈舒妍
+source_context:
+  - 一堂 AI 俱乐部落地 Live81 分享（2026-07-02），宠物用品出海品牌喵善养（meow sayang）商标设计实践
+  - yitang
 source_refs:
 - 00_inbox/yitang-AI club/live81/AI直播live81-陈舒妍-喵善养商标设计-口述.txt
 - 00_inbox/yitang-AI club/live81/AI直播live81-陈舒妍-喵善养商标设计-笔记.txt
@@ -57,10 +63,9 @@ related:
 created_at: 2026-07-02
 updated_at: '2026-07-02'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
-- yitang
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 
 # 案例：Live81 AI 赋能喵善养商标设计

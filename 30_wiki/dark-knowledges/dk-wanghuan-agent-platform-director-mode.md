@@ -8,7 +8,6 @@ status: reviewed
 domain:
 - human-ai-collaboration
 - ai-collaboration
-- yitang
 created_at: '2026-06-20'
 updated_at: 2026-06-28
 author: 老顽童
@@ -16,7 +15,9 @@ reviewed_by: 欧阳锋
 confidence: 0.78
 trust_level: medium
 source_person: 王欢
-source_context: 王欢 AI 实战分享视频闲聊 Q&A（用户转述，2026-06-18 授课），口述稿最后部分交叉验证
+source_context:
+  - 王欢 AI 实战分享视频闲聊 Q&A（用户转述，2026-06-18 授课），口述稿最后部分交叉验证
+  - yitang
 aliases:
   - 不是当甩手掌柜
   - 平台的正确用法是当导演
@@ -24,6 +25,9 @@ aliases:
   - 王欢暗知识
   - 王欢暗知识：Agent平台的正确用法是当导演，不是当甩手掌柜
   - 的正确用法是当导演
+source_context:
+  - 王欢 AI 实战分享视频闲聊 Q&A（用户转述，2026-06-18 授课），口述稿最后部分交叉验证
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260619_536bca67_wanghuan_actor_director_oral.txt
 - 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt

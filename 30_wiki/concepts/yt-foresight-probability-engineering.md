@@ -2,7 +2,8 @@
 id: yt-foresight-probability-engineering
 title: 概率工程：把小概率变成大概率的方法论
 type: concept
-domain: src-unknown
+domain:
+- decision-making
 aliases:
 - 把小概率变成大概率的方法论
 - 概率变成大概率的方法论

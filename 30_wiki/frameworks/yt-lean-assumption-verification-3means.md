@@ -3,7 +3,8 @@ id: yt-lean-assumption-verification-3means
 title: 关键假设验证的三种手段：访谈调研、经验验证、实验验证
 type: framework
 status: draft
-domain: src-unknown
+domain:
+- decision-making
 aliases:
   - 假设验证的三种手段
   - 关键假设验证的三种手段

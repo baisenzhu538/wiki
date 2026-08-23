@@ -3,9 +3,12 @@ id: case-ban-fei-mao-from-assignment-to-tool
 title: 案例：半肥猫把一堂课程作业变成可复用调研工具
 type: case
 status: reviewed
-domain: src-unknown
+domain:
+- content
 source_person: 半肥猫
-source_context: AI俱乐部·AI学习落地（2026-06分享）
+source_context:
+  - AI俱乐部·AI学习落地（2026-06分享）
+  - 半肥猫
 aliases:
   - 半肥猫
   - 半肥猫把一堂课程作业变成可复用调研工具
@@ -45,12 +48,11 @@ diagnostic_signals:
 - framework_lens: 信源与边界校准
   follow_up_question: 这条数据的来源是什么？是否适用于当前问题的时间、地域和客群范围？
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
-- 俱乐部
-- 半肥猫
-- 学习落地
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 俱乐部
+  - 学习落地
 ---
 # 案例：半肥猫把一堂课程作业变成可复用调研工具
 

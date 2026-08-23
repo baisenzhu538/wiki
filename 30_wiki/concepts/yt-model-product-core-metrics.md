@@ -23,6 +23,8 @@ aliases:
 - 从获客到推荐的度量框架
 - 内核十大典型指标
 - 客到推荐的度量框架
+source_context:
+  - 一堂产品内核十大典型指标
 source_refs:
   - src_unknown
 discoverable_by:
@@ -30,10 +32,9 @@ discoverable_by:
 - 产品内核十大典型指标
 - 从获客到推荐的度量框架
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
-- 一堂产品内核十大典型指标
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 type: concept
 status: draft
 related:

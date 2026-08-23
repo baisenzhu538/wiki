@@ -13,7 +13,6 @@ language: zh-CN
 created_at: 2026-07-03
 updated_at: 2026-07-03
 domain:
-- yitang
 - ai-collaboration
 - communication
 - organizational-politics
@@ -24,6 +23,8 @@ aliases:
   - 双三角案例
   - 同学用红蓝军破解向上沟通
   - 学用红蓝军破解向上沟通
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/人机协作双三角/D同学的案例口述.pdf
 - 00_inbox/人机协作双三角/_processed/D同学的案例口述_text.md
@@ -44,9 +45,10 @@ related:
 - 人机协作双三角
 - 同学的案例口述
 tags:
-- audience:general
-- scene:reference
-- skill-level:advanced
+  - audience:general
+  - scene:reference
+  - skill-level:advanced
+  - 迭代
 ---
 
 # 一行双三角案例：D 同学用红蓝军破解向上沟通

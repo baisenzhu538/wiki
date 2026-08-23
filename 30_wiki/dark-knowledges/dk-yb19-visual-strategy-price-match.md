@@ -8,12 +8,20 @@ dark_knowledge_type: insight
 status: reviewed
 domain:
 - design
-- yitang
 source_person: 月白
-source_context: '口述稿: AI设计-AI设计师实操培训01'
+source_context:
+  - {'口述稿': 'AI设计-AI设计师实操培训01'}
+  - 设计师实操培训
+  - yitang
+  - 口述稿: AI设计-AI设计师实操培训01
+  - 设计师实操培训
 aliases:
   - 月白
   - 餐饮图片视觉策略与价格定位的匹配法则
+source_context:
+  - {'口述稿': 'AI设计-AI设计师实操培训01'}
+  - 设计师实操培训
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260619_abb86057_00_inbox_design_AI设计_AI设计师实操培训01.txt
 confidence: 0.88
@@ -37,10 +45,9 @@ diagnostic_signals:
 - src_unknown
 - src_unknown# 餐饮图片视觉策略与价格定位的匹配法则
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
-- 设计师实操培训
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
 ---
 
 ## 原始表述/核心洞察

@@ -4,7 +4,6 @@ type: case
 title: 案例：益涂如何用漏斗模型工业化筛选 To B 销售线索
 status: reviewed
 domain:
-- yitang
 - growth
 - b2b
 confidence: 0.82
@@ -29,6 +28,13 @@ aliases:
 - 案例：益涂如何用漏斗模型工业化筛选ToB销售线索
 - 益涂如何用漏斗模型工业化筛选
 - 销售线索
+source_context:
+  - 一堂五步法之增长
+  - yitang
+  - 一堂五步法之增长
+source_context:
+  - 一堂五步法之增长
+  - yitang
 source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道工业化生产-口述.txt
 - 00_inbox/一堂五步法之增长/truman-渠道工业化生产-案例-益涂-线索模型.png
@@ -56,11 +62,10 @@ related:
 - '[[yt-tob-product-kernel]]'
 review_date: '2026-06-28'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
-- 一堂五步法之增长
-- 客户分层和卖点提炼
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 客户分层和卖点提炼
 ---
 # 案例：益涂如何用漏斗模型工业化筛选 To B 销售线索
 

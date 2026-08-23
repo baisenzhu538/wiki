@@ -3,7 +3,8 @@ id: concept-纪浩-ai-collaboration-five-layer
 title: 概念：纪浩AI协作五层工作空间法
 type: concept
 status: reviewed
-domain: src-unknown
+domain:
+- ai-collaboration
 source_person: 纪浩
 source_context: AI俱乐部·AI协作方法论分享（2026年）
 aliases:

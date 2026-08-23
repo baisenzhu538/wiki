@@ -3,7 +3,8 @@ id: case-纪浩-from-zip-to-five-layers
 title: 纪浩：从微信传 zip 到五层协作体系
 type: case
 status: reviewed
-domain: src-unknown
+domain:
+- ai-collaboration
 source_person: 纪浩
 source_context: AI俱乐部·人和AI协作（第三次分享，2026-06）
 aliases:

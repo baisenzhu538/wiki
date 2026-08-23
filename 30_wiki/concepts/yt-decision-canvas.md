@@ -5,7 +5,8 @@ component_of:
 confidence: 0.8
 created_at: 2026-05-17
 difficulty: intermediate
-domain: src-unknown
+domain:
+- decision-making
 estimated_tokens: 1800
 language: zh-CN
 prerequisites:
@@ -41,6 +42,8 @@ reviewed_by: 周伯通
 aliases:
   - Y模型决策画布一页纸工具
   - 型决策画布一页纸工具
+source_context:
+  - 一堂五步法画布
 source_refs:
 - 10_raw/sources/src_20260510_1eb77650-一堂五步法画布yitangfive-stepcanvas.md
 - 10_raw/sources/src_20260616_aac184cc-yitang-tob-five-step-homework-collection.md
@@ -98,10 +101,9 @@ diagnostic_signals:
   follow_up_question: 前3个关键数字中，有几个标注了"高/中/低"置信度和数据来源？如果<2个，深度区需要重新标定
 author: 老顽童
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
-- 一堂五步法画布
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
 ---
 # Y模型决策画布（一页纸工具）
 

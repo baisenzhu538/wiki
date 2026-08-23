@@ -1,5 +1,7 @@
 ---
-domain: src-unknown
+domain:
+- content
+- decision-making
 id: concept-问题驱动式深度思考笔记
 title: 问题驱动式深度思考笔记：用真问题取代真记录
 type: concept
@@ -12,6 +14,8 @@ aliases:
   - 问题驱动式深度思考笔记
   - 问题驱动式深度思考笔记：用真问题取代真记录
   - 驱动式深度思考笔记
+source_context:
+  - 时代请单体笔记
 source_refs:
 - 00_inbox/一堂-AI时代请单体笔记-Truman-口述-02.txt
 discoverable_by:
@@ -50,10 +54,9 @@ diagnostic_signals:
 - lens: 表演性问题
   follow_up: 问题必须是你真正关心的，不是为了'看起来在思考'而造问题
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
-- 时代请单体笔记
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 问题驱动式深度思考笔记：用真问题取代真记录
 

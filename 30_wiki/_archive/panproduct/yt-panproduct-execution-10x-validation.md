@@ -6,7 +6,7 @@ confidence: 0.8
 created_at: 2026-05-11
 difficulty: advanced
 domain:
-- src_unknown
+- decision-making
 estimated_tokens: 1189
 language: zh-CN
 prerequisites:
@@ -51,6 +51,10 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
 superseded_by: tool-泛产品落地-十倍速验证
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 
 

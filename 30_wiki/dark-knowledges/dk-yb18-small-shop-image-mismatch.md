@@ -7,10 +7,14 @@ dark_knowledge_type: failure
 status: reviewed
 domain:
 - design
-- yitang
 - business-strategy
 source_person: 月白
-source_context: '口述稿: AI设计-AI设计师实操培训01'
+source_context:
+  - {'口述稿': 'AI设计-AI设计师实操培训01'}
+  - 设计师实操培训
+  - yitang
+  - 口述稿: AI设计-AI设计师实操培训01
+  - 设计师实操培训
 aliases:
   - 图片错配陷阱
   - 小店图片错配陷阱
@@ -18,6 +22,10 @@ aliases:
   - 摄影反而吓跑客户
   - 月白
   - 精致摄影反而吓跑客户
+source_context:
+  - {'口述稿': 'AI设计-AI设计师实操培训01'}
+  - 设计师实操培训
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260619_abb86057_00_inbox_design_AI设计_AI设计师实操培训01.txt
 created_at: 2026-06-04
@@ -46,10 +54,9 @@ diagnostic_signals:
 - src_unknown
 - src_unknown# 小店图片错配陷阱：精致摄影反而吓跑客户
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
-- 设计师实操培训
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
 ---
 
 ## 原始表述

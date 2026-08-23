@@ -2,7 +2,8 @@
 id: tool-李诞-判断工作价值的交易成本视角
 title: 技能：判断工作价值的交易成本视角
 type: tool
-domain: unknown
+domain:
+- decision-making
 status: draft
 author: unknown
 reviewed_by: pending
@@ -23,7 +24,10 @@ discoverable_by:
 - 技能：判断工作价值的交易成本视角
 - 判断工作价值的交易成本视角
 related: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 技能：判断工作价值的交易成本视角
 

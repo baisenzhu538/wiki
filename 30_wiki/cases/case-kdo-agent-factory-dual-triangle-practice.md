@@ -12,7 +12,6 @@ language: zh-CN
 created_at: 2026-07-04
 updated_at: 2026-07-04
 domain:
-- yitang
 - ai-saas
 - personal-os
 aliases:
@@ -20,6 +19,8 @@ aliases:
 - 人机协作双三角的组织化实践
 - 协作双三角的组织化实践
 - 工厂
+source_context:
+  - yitang
 source_refs:
 - .agent/context.md
 - 70_product/tasks/production-queue.md

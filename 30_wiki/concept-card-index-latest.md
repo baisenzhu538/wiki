@@ -1,4 +1,4 @@
-# Concept Card Index — 2026-08-22 18:07 UTC
+# Concept Card Index — 2026-08-23 18:07 UTC
 
 | ID | Title | Type | Domain |
 |---|---|---|---|
@@ -32,6 +32,7 @@
 | comfort-zone-expansion | 舒适区扩展 | concept | ai-collaboration, skill-building |
 | completion-criteria-design | 完成标准设定 | tool | learning-methodology, personal-growth, yitang |
 | concept-abundance-paradox | 富足悖论：为什么技术越富足，新问题越多 | concept | decision-making |
+| concept-addiction-threshold | 上瘾门槛论：让人上瘾的生意门槛极高——商业维度优先 | concept | decision-making |
 | concept-ai-amara-law-business-judgment | 阿马拉定律与商业判断校准 | concept | ai-collaboration, critical-thinking, business-judgment |
 | concept-ai-chair-determines-view | 椅子决定视角 | concept | ai-collaboration, critical-thinking, business-judgment |
 | concept-ai-co-learning | AI共学模式：人+AI共学课程→固化知识→产生Skill | concept |  |
@@ -41,8 +42,12 @@
 | concept-ai-style-knowledge-docs | AI Style 新型知识文档 10-11 种 | concept | knowledge-management, ai-collaboration |
 | concept-ai-video-wanggan-componentization | 网感组件化：9类视频分类 + 四要素可量化体系 | concept | ai-collaboration |
 | concept-AI时代双三角竞争力 | AI时代的双三角竞争力：人+AI协作决策 | concept | yitang, decision-science |
+| concept-AI知识库-KDO传承溯源 | KDO 传承溯源：楚门-半肥猫「笨办法有点意思」 | concept | ai-knowledge, knowledge-management |
+| concept-AI知识库-原子化拆分 | 原子化拆分：按语义切分，拆到歧义为止 | concept | ai-knowledge, knowledge-management |
+| concept-AI知识库-四关键词 | AI 知识管理四关键词：协作桥梁/问题驱动/范式复利/拒绝焦虑 | concept | ai-knowledge, knowledge-management |
 | concept-candy-ai-as-collaborator | Candy：AI是协作者而非代写工具 | concept | yitang, content-production, ai-collaboration |
 | concept-ceo-must-do-user-research | CEO必须亲自做用户调研 | concept | yitang, research |
+| concept-changing-others-as-self-compensation | 改变别人是改变自己的代偿：搞天搞地不如搞自己 | concept | human-insights |
 | concept-christensen-jtbd-link | 从破坏性创新到JTBD：Christensen理论演化 | concept |  |
 | concept-christensen-rpv-model | RPV模型：资源/流程/价值观三层组织诊断 | concept |  |
 | concept-cognitive-offloading-in-ai-era | AI 时代的认知卸载：什么交给 AI，什么必须保留 | concept | ai-collaboration |
@@ -64,7 +69,9 @@
 | concept-meta-skill-layering | 元技能分层：先封装"生产 Skill 的能力"（元 Partner），再量产具体 Skill | concept | knowledge-management, ai-collaboration |
 | concept-open-a-document | 开一篇文档：调研的第一个最重要动作 | concept | research, yitang |
 | concept-open-source-knowledge-usage-boundary | 开源知识使用边界：学习与蒸馏的分界线 | concept | content-production |
+| concept-pain-treats-pain | 以痛治痛：主动选择痛苦增强掌控权（+激进诚实+边界反例） | concept | human-insights |
 | concept-pan-product-vs-traditional-management | 泛产品组织 vs 传统管理：从控制范式到设计范式 | concept | panproduct, organization, management |
+| concept-pleasure-pain-balance | 快乐-疼痛天平：对手过程理论与神经适应 | concept | human-insights |
 | concept-qinpeng-ai-as-amplifier | AI是能力放大器：不创造能力，只放大已有积累 | concept |  |
 | concept-qinpeng-knowledge-base-conversion | 头脑经验→显性知识库：AI赋能的前提条件 | concept |  |
 | concept-research-delegation-in-scaling | 规模化中的调研委派：从"自己做"到"建机制" | concept | yitang, research |
@@ -532,6 +539,13 @@
 | framework-ai-sales-collaboration | AI 销售协同：确定性方法 + 可判断标准的双条件框架 | framework | sales, decision, ai-collaboration |
 | framework-ai-video-production-aesthetics-first | AI产品开发·审美与体系的分工：审美定义结果，体系让结果重复发生 | framework |  |
 | framework-ai2041-critical-reading-os | AI 2041 批判性认知操作系统 | framework |  |
+| framework-AI知识库-Workflow六要素 | Workflow 六要素 + 节点拆细降模型门槛 | framework | ai-knowledge, knowledge-management |
+| framework-AI知识库-五维标注深挖法 | 标签五维标注深挖法：专业/风控/话术/视觉/经验 | framework | ai-knowledge, knowledge-management |
+| framework-AI知识库-五阶段演进 | AI 知识库五阶段演进：从内容生产到多 AI 协同 | framework | ai-knowledge, knowledge-management |
+| framework-AI知识库-分库与映射表 | 分库与映射表：专业库隔离 + 映射表联动 | framework | ai-knowledge, knowledge-management |
+| framework-AI知识库-加卡片加标签双原则 | 加卡片加标签双原则：知识不够加卡片，索引不到加标签 | framework | ai-knowledge, knowledge-management |
+| framework-AI知识库-四象限资产 | 知识库四象限资产：私有事实/经验判断/业务边界/可复用输出 | framework | ai-knowledge, knowledge-management |
+| framework-AI知识库-知识卡片公式 | 知识卡片公式：YAML 标签（给 AI 看）+ 原子化正文（给人看） | framework | ai-knowledge, knowledge-management |
 | framework-baozhashidiaochan-five-step | 爆炸式调研五步法：目标→范围→搜索⇄建模→交付 | framework | research, yitang |
 | framework-big-five-personality | 「框架：大五人格——只有开放性和尽责性越高越好」 | framework | human-insights, psychology |
 | framework-bimodal-time-philosophy | 双峰时间哲学模型 | framework |  |
@@ -556,6 +570,7 @@
 | framework-demand-opportunity-spectrum | 商业机会预判·终局光谱图 | framework |  |
 | framework-demand-usp-model | USP需求洞察模型：Demand = User × Situation × Problem | framework |  |
 | framework-demand-validation-pipeline | 需求验证流水线 | framework |  |
+| framework-dopamine-recovery | DOPAMINE 八字母恢复框架：数据→目标→问题→禁欲→正念→洞察→下一步→实验 | framework | human-insights |
 | framework-doris-industry-report-4step | 行业报告调研四步法：7天快速建立行业认知 | framework |  |
 | framework-dual-center-feishu-obsidian | 双中心原则：飞书给人、Obsidian 给 AI | framework | knowledge-management, ai-collaboration |
 | framework-fact-rule-insight | 事实-规律-洞察三层框架：专题学习的通用分析结构（认识他/理解他/用他） | framework | knowledge-management, research, yitang |
@@ -911,6 +926,7 @@
 | tool-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan | 技能：追问 AI 证据并标注信源 | tool | src-unknown, yitang |
 | tool-bimodal-time-blocking | 双峰工作块 (Bimodal Time Blocking) | tool | yitang, time-management |
 | tool-binary-quadrant-modeling | 二分法/象限图建模法：用正交维度做分类与取舍 | tool |  |
+| tool-blind-box-mechanism | 盲盒机制判断：确定性渴望×不确定性 buffer——99% 产品不适合 | tool | decision-making |
 | tool-candy-oral-polish | Candy口语化润色：七条原则让文字"读出声来" | tool | yitang, content-production |
 | tool-candy-positioning-canvas | Candy差异化定位画布：回答"这篇东西凭什么存在" | tool | yitang, content-production |
 | tool-candy-sales-recruiting | 销售招聘的客观验证方法：能力模型 + 定量定性结合 | tool | sales, hr, management |
@@ -1051,6 +1067,7 @@
 | tool-sales-objection-dilution | 异议处理：承认→稀释→调动，转化而非消除 | tool | sales, communication |
 | tool-scenario-selector-modeling | 场景→工具选择器：根据需求快速匹配合适的建模工具 | tool |  |
 | tool-scene-design-language-translation | 场景设计语言转译：把场景需求变成可执行设计约束 | tool | design, product, yitang |
+| tool-self-binding-three-strategies | 自我约束三策略：物理/时间/分类（含 KDO 门禁哲学同构对照） | tool | human-insights |
 | tool-shortvideo-six-dimension-deconstruction | 短视频 6 维度拆解工具 | tool | content-production |
 | tool-skill-packaging-eight-steps | Skill 封装八步流水线：从官方最佳实践到可调用 Skill | tool | knowledge-management, ai-collaboration |
 | tool-smart-medicine-cabinet-compliance-checklist | 智能药柜/医药项目合规快速校验清单 | tool | healthcare, business-strategy |
@@ -2324,6 +2341,7 @@
 | dk-ai-memory-four-layers | AI 记忆四层分层模型：即时→会话→项目→长期 | dk | agent-engineering |
 | dk-ai-self-evolution-prompt | AI 自进化话术：复盘末尾补一句"下次你可以更主动"——让 AI 每次变聪明一点 | dk | knowledge-management, ai-collaboration |
 | dk-ai-video-common-pitfalls | AI视频工具开发五大失败模式 | dk | ai-collaboration |
+| dk-AI知识库-隐性知识显性化60分原则 | 隐性知识显性化 60 分原则：先 60 分能解 60-70% 问题即值得 | dk | ai-knowledge, knowledge-management |
 | dk-anti-human-ux-is-feature | 反人性工具设计是特性：给 AI 用的笔记不需要人好写 | dk | knowledge-management, ai-collaboration |
 | dk-ban-fei-mao-atomic-no-standard | 暗知识：原子化没有固定标准 | dk | ai-collaboration, yitang |
 | dk-ban-fei-mao-real-business-is-the-engine | 暗知：真实业务是唯一的燃料——没有真实问题，工具化就是空中楼阁 | dk | ai-collaboration, yitang |

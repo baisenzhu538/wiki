@@ -3,19 +3,23 @@ id: tool-将未中标成本纳入循环计算真实投标成本
 title: 技能：将未中标成本纳入循环计算真实投标成本
 type: tool
 domain:
-  - entrepreneurship
-  - management
-  - decision-making
-  - yitang
-  - business-strategy
+- entrepreneurship
+- management
+- decision-making
+- business-strategy
 status: draft
 source_person: 一堂课程（未具名讲师）
-source_context: src_20260609_99032bf9
+source_context:
+  - src_20260609_99032bf9
+  - yitang
 aliases:
   - 一堂课程（未具名讲师）
   - 将未中标成本纳入循环计算真实投标成本
   - 技能
   - 技能：将未中标成本纳入循环计算真实投标成本
+source_context:
+  - src_20260609_99032bf9
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260609_99032bf9-ocr-一堂-单元模型-示例.md
 definition_of_done:

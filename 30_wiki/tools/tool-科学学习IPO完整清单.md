@@ -10,12 +10,13 @@ confidence: 0.75
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
 - decision-science
 aliases:
   - Output学习系统
   - 科学学习IPO完整清单
   - 科学学习IPO完整清单：InputProcessOutput学习系统
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/_vlm_reprocess/个人修炼/一堂-个人修炼-科学学习IPO完整清单_vlm_desc.md
 discoverable_by:

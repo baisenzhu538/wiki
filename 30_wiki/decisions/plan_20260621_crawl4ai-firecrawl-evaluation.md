@@ -22,6 +22,10 @@ related:
 - '[[tool-yitang-web-scraping-research]]'
 - web-scraping-三剑客-scrapling-crawl4ai-firecrawl
 updated_at: '2026-06-29'
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # Crawl4AI vs Firecrawl 选型评估
 

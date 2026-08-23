@@ -7,9 +7,10 @@ dark_knowledge_type: paradigm-shift
 status: reviewed
 domain:
 - ai-collaboration
-- yitang
 source_person: 纪浩
-source_context: AI俱乐部·AI协作方法论分享，第二十二节批次4精修提炼，2026-06-17
+source_context:
+  - AI俱乐部·AI协作方法论分享，第二十二节批次4精修提炼，2026-06-17
+  - yitang
 aliases:
   - 不是给人看的说明书
   - 暗知识
@@ -17,6 +18,9 @@ aliases:
   - 而是给
   - 自安装的自描述
   - 装的自描述
+source_context:
+  - AI俱乐部·AI协作方法论分享，第二十二节批次4精修提炼，2026-06-17
+  - yitang
 source_refs:
   - src_unknown
   - src_20260606_6ea91aa8-纪浩-AI协作方法论-口述

@@ -24,6 +24,10 @@ aliases:
 source_refs:
 - 00_inbox/一堂-产品内核实操课-Truman-口述.txt
 - 00_inbox/一堂-产品内核实操课-truman-笔记.txt
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 discoverable_by:
   - 产品内核 — 用户愿意选择你的最小解决方案
   - 产品内核

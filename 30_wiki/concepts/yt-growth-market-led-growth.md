@@ -1,5 +1,7 @@
 ---
-domain: src-unknown
+domain:
+- decision-making
+- strategy
 id: yt-growth-market-led-growth
 title: 市场驱动增长：MLG模式
 type: concept

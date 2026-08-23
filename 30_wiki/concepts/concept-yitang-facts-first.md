@@ -12,13 +12,14 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - 事实优先
   - 事实优先：调研的基本纪律
   - 的基本纪律
   - 调研的基本纪律
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/一堂-系统式调研-口述.txt
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt

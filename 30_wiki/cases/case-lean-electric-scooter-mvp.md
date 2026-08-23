@@ -13,10 +13,11 @@ trust_level: high
 language: zh-CN
 domain:
 - strategy
-- yitang
 - product
 source_person: 一堂课程讲师（教学推演案例）
-source_context: 一堂精益创业·低成本验证实操课程
+source_context:
+  - 一堂精益创业·低成本验证实操课程
+  - yitang
 aliases:
   - 一堂课程讲师（教学推演案例）
   - 共享电动滑板车
@@ -24,6 +25,9 @@ aliases:
   - 案例
   - 案例：共享电动滑板车A/B/C/D四级MVP验证
   - 验证
+source_context:
+  - 一堂精益创业·低成本验证实操课程
+  - yitang
 source_refs:
 - 00_inbox/精益创业/transcript_低成本验证实操1_剥离假设篇.md
 - 00_inbox/精益创业/Truman-精益创业-低成本验证-案例01.png

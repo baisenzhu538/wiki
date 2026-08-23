@@ -13,8 +13,9 @@ language: zh-CN
 created_at: 2026-07-07
 updated_at: 2026-07-07
 domain:
-- yitang
 - management
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/管项目/项目管理-入门篇-口述.txt
 - 00_inbox/管项目/项目管理-定方案-口述.txt

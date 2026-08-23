@@ -1,5 +1,6 @@
 ---
-domain: src-unknown
+domain:
+- decision-making
 id: yt-growth-cohort-analysis
 title: 同期群分析：用户行为追踪
 type: tool

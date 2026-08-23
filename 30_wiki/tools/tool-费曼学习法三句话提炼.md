@@ -3,16 +3,20 @@ id: tool-费曼学习法三句话提炼
 title: 技能：费曼学习法三句话提炼
 type: tool
 domain:
-  - learning-methodology
-  - yitang
+- learning-methodology
 status: draft
 source_person: 一堂课程（费曼学习法变体）
-source_context: src_20260522_dee56cff
+source_context:
+  - src_20260522_dee56cff
+  - yitang
 aliases:
   - 一堂课程（费曼学习法变体）
   - 技能
   - 技能：费曼学习法三句话提炼
   - 费曼学习法三句话提炼
+source_context:
+  - src_20260522_dee56cff
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260522_dee56cff-ocr-一堂-个人修炼-科学学习ipo-全景策略.md
 definition_of_done:

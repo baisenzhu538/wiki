@@ -16,6 +16,10 @@ related:
 - "[[pattern-tool-vs-model]]"
 - "[[yt-decision-y-model]]"
 - "[[concept-yitang-model-system-boundary]]"
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 
 # 跨域模式：分层+匹配

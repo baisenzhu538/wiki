@@ -10,7 +10,6 @@ confidence: 0.75
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
 - decision-science
 aliases:
   - 人的成功拆成可复制的模型
@@ -18,6 +17,8 @@ aliases:
   - 把别人的成功拆成可复制的模型
   - 最佳实践建模
   - 最佳实践建模：把别人的成功拆成可复制的模型
+source_context:
+  - yitang
 source_refs:
 - src_unknown
 discoverable_by:

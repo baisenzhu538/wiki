@@ -9,16 +9,17 @@ aliases:
   - 剧本的情节张力设计工具
   - 的情节张力设计工具
   - 短剧剧本的情节张力设计工具
+source_context:
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260613_083395df-plot-three-axes.md
 - 10_raw/sources/src_20260613_687c4ec0-transcript.md
 - 10_raw/sources/src_20260613_12d63c1c-notes.md
 status: reviewed
 domain:
-  - ai-saas
-  - yitang
-  - ai-collaboration
-  - product
+- ai-saas
+- ai-collaboration
+- product
 created_at: '2026-06-13'
 updated_at: '2026-06-28'
 author: 老顽童

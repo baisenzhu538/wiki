@@ -12,7 +12,6 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - Maltego：实体关系图谱画出目标公司的隐藏网络
@@ -20,6 +19,8 @@ aliases:
   - 实体关系图谱
   - 画出目标公司的隐藏网络
   - 目标公司的隐藏网络
+source_context:
+  - yitang
 source_refs:
 - src_unknown
 - src_unknown

@@ -13,7 +13,6 @@ created_at: 2026-07-11
 updated_at: 2026-07-11
 domain:
 - management
-- yitang
 aliases:
   - 分数制
   - 功段位体系
@@ -21,6 +20,8 @@ aliases:
   - 基本功段位体系：L1L6爬山图×SABC岗位阶段×60/70/85分数制
   - 岗位阶段
   - 爬山图
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功方法论入门-口述.txt L1570-L1662
 - 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功拆解-口述.txt L1150-L1206

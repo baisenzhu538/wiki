@@ -9,11 +9,14 @@ reviewed_by: 欧阳锋
 confidence: 0.78
 trust_level: medium
 language: zh-CN
-domain: yitang
+domain:
+- strategy
 aliases:
   - 单元模型
   - 单元模型：壁垒预判
   - 壁垒预判
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-壁垒预判_vlm_desc.md
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-壁垒预判_vlm_desc.md

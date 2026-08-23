@@ -3,7 +3,8 @@ id: yt-tob-demand-metrics
 title: To B 需求测算双指标：成本占有率 + 业务天花板
 type: framework
 status: enriched
-domain: src-unknown
+domain:
+- strategy
 aliases:
 - ToB需求测算双指标：成本占有率+业务天花板
 - 业务天花板

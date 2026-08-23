@@ -51,7 +51,8 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-16'
 confidence: 0.8
 trust_level: medium
-domain: src-unknown
+domain:
+- kdo
 diagnostic_signals:
 - lens: 模型资产黑箱
   follow_up: 用 AI 扫描全部交付内容，按形态（清单/SOP/雷达图/漏斗/象限/冰山图/三角图/段位图/画布）做一遍强制分类，看 95% 是否能落入

@@ -2,7 +2,9 @@
 id: tool-马易-AI任务拆解提升控制度
 title: 技能：AI任务拆解提升控制度
 type: tool
-domain: unknown
+domain:
+- ai-collaboration
+- content
 status: reviewed
 author: unknown
 reviewed_by: 欧阳锋
@@ -24,7 +26,10 @@ discoverable_by:
 - 技能：AI任务拆解提升控制度
 - AI任务拆解提升控制度
 related: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 技能：AI任务拆解提升控制度
 

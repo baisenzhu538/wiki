@@ -10,9 +10,10 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
+- decision-science
+- methodology
+source_context:
   - yitang
-  - decision-science
-  - methodology
 source_refs:
   - 30_wiki/frameworks/framework-yitang-shishi-qiushi.md
   - 30_wiki/frameworks/framework-yitang-jiefang-sixiang.md

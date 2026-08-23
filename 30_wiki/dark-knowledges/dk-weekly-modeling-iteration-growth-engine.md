@@ -6,7 +6,6 @@ type: dk
 dark_knowledge_type: insight
 status: reviewed
 domain:
-- yitang
 - modeling
 language: zh-CN
 version: 1
@@ -19,10 +18,15 @@ aliases:
   - 周对周的建模能力增长
   - 暗知识
   - 暗知识：一堂真正的增长引擎是'周对周的建模能力增长
+source_context:
+  - 一堂高阶建模能力培训（组织级建模价值）
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 source_person: Truman
-source_context: 一堂高阶建模能力培训（组织级建模价值）
+source_context:
+  - 一堂高阶建模能力培训（组织级建模价值）
+  - yitang
 discoverable_by:
   - 暗知识：一堂真正的增长引擎是'周对周的建模能力增长'
   - 暗知识

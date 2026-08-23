@@ -11,17 +11,21 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
 - sales
 - business-strategy
 source_person: 李蕊
-source_context: 一堂科学销售方法论课程（2026-07-02），销售专题口述稿二次深挖补产
+source_context:
+  - 一堂科学销售方法论课程（2026-07-02），销售专题口述稿二次深挖补产
+  - yitang
 aliases:
   - 催款
   - 回款
   - 回款/催款/履约阶段playbook
   - 履约阶段
   - 李蕊
+source_context:
+  - 一堂科学销售方法论课程（2026-07-02），销售专题口述稿二次深挖补产
+  - yitang
 source_refs:
 - 00_inbox/销售专题/李蕊-销售体系之二-销售过程拆解-口述.txt L320-L354,L420-L458,L560-L588,L824-L832,L1386-L1394,L1466
 - 00_inbox/销售专题/_processed/销售工具武器库_vlm.md L48-L51

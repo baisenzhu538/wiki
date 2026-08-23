@@ -2,7 +2,8 @@
 id: framework-decision-cognitive-bias-map
 title: 商业决策常见认知偏差地图
 type: framework
-domain: unknown
+domain:
+- decision-making
 status: reviewed
 quality_labels: null
 created_at: 2026-06-28

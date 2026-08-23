@@ -12,7 +12,8 @@ source_refs:
 - src_unknown
 - src_unknown
 status: enriched
-domain: src-unknown
+domain:
+- kdo
 bridges_to:
 - relation: provides_foundation_for
   description: 5 Whys 是产品内核三问中'根因追问'精神的最轻量级工具

@@ -7,7 +7,6 @@ status: reviewed
 confidence: 0.9
 trust_level: high
 domain:
-- yitang
 - research
 aliases:
   - 十八掌
@@ -16,6 +15,8 @@ aliases:
   - 每掌对应的执行工具和
   - 降龙十八掌→工具映射表
   - 降龙十八掌→工具映射表：每掌对应的执行工具和Skill
+source_context:
+  - yitang
 source_refs:
 - 30_wiki/frameworks/framework-yitang-18-strategy-cards.md
 - 30_wiki/concepts/yt-research-osl-framework.md

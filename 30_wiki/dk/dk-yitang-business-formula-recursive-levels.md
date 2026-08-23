@@ -12,7 +12,6 @@ language: zh-CN
 created_at: '2026-07-14'
 updated_at: '2026-07-14'
 domain:
-- yitang
 - business-formula
 aliases:
   - 业务公式分型递归
@@ -21,6 +20,13 @@ aliases:
   - 只看一层
   - 层都是独立公式
   - 每一层都是独立公式
+source_context:
+  - 口述
+  - yitang
+  - 口述
+source_context:
+  - 口述
+  - yitang
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L1833-L1892
 discoverable_by:
@@ -42,7 +48,6 @@ tags:
   - 边界
   - 清单
   - CEO
-  - 口述
 quality_labels:
 - cited
 - framework

@@ -13,7 +13,6 @@ language: zh-CN
 created_at: 2026-06-15
 updated_at: 2026-07-07
 domain:
-- yitang
 - management
 aliases:
   - 一堂管项目四步闭环
@@ -21,6 +20,8 @@ aliases:
   - 科学项目管理：一堂管项目四步闭环
   - 管项目四步闭环
   - 项目管理
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/管项目/项目管理-入门篇-口述.txt
 - 00_inbox/管项目/项目管理-定方案-口述.txt

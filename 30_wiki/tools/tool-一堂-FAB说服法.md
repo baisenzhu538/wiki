@@ -12,7 +12,6 @@ language: zh-CN
 created_at: '2026-07-13'
 updated_at: '2026-07-13'
 domain:
-- yitang
 - conversion-rate
 aliases:
   - 一堂
@@ -21,6 +20,8 @@ aliases:
   - 价值终点的以理服人结构
   - 说服法
   - 逻辑节点
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L858-L1601
 discoverable_by:

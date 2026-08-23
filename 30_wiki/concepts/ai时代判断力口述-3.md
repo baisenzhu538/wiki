@@ -26,7 +26,8 @@ tags:
 - skill-level:intermediate
 type: concept
 status: draft
-domain: unknown
+domain:
+- strategy
 ---
 > **一句话定位**：AI接管Process（加工推理）后，人的核心竞争力从"会做"变成"会判断"——判断力成为AI时代唯一不可外包的能力。
 

@@ -6,9 +6,10 @@ type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
-- yitang
 - business-formula
-source_context: C 域实战反哺——Live255 三案例（射箭馆/舞蹈学校/服装店）共同盲区 + 参数挖掘武器库 L1 层对照
+source_context:
+  - C 域实战反哺——Live255 三案例（射箭馆/舞蹈学校/服装店）共同盲区 + 参数挖掘武器库 L1 层对照
+  - yitang
 aliases:
   - L1不进公式=假装选址免费：选择型参数是线下业务最大的隐藏变量
   - 不进公式
@@ -16,6 +17,9 @@ aliases:
   - 假装选址免费
   - 型参数是线下业务最大的隐藏变量
   - 选择型参数是线下业务最大的隐藏变量
+source_context:
+  - C 域实战反哺——Live255 三案例（射箭馆/舞蹈学校/服装店）共同盲区 + 参数挖掘武器库 L1 层对照
+  - yitang
 source_refs:
 - 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L217-L291
 - 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L2280-L2306

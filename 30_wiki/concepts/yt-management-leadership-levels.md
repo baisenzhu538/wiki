@@ -1,7 +1,8 @@
 ---
 title: 管理段位
 type: concept
-domain: src-unknown
+domain:
+- human-insights
 status: draft
 pipeline:
 - src_unknown

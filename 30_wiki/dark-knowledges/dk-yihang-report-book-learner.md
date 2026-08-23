@@ -14,13 +14,19 @@ created_at: 2026-07-05
 updated_at: 2026-07-05
 domain:
 - ai-collaboration
-- yitang
 aliases:
   - 不听课直接读卡也能学会的极简路径
   - 书型学习者
   - 报告书型学习者
   - 报告书型学习者：不听课直接读卡也能学会的极简路径
   - 课直接读卡也能学会的极简路径
+source_context:
+  - 一堂双三角
+  - yitang
+  - 一堂双三角
+source_context:
+  - 一堂双三角
+  - yitang
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
 discoverable_by:
@@ -34,11 +40,10 @@ related:
 - '[[tool-yihang-dual-triangle-canvas]]'
 - '[[method-yihang-knowledge-versioning]]'
 tags:
-- audience:executor
-- scene:reference
-- skill-level:advanced
-- 一堂双三角
-- 人机协作双三角
+  - audience:executor
+  - scene:reference
+  - skill-level:advanced
+  - 人机协作双三角
 ---
 
 # 报告书型学习者：不听课直接读卡也能学会的极简路径

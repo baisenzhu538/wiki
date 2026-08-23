@@ -4,10 +4,14 @@ title: 技能："找老的干小的"场景评估清单
 type: tool
 status: reviewed
 domain:
-  - ai-collaboration
-  - yitang
+- ai-collaboration
 source_person: 马易
-source_context: AI俱乐部-AI落地场景识别分享，2026-06
+source_context:
+  - AI俱乐部-AI落地场景识别分享，2026-06
+  - yitang
+source_context:
+  - AI俱乐部-AI落地场景识别分享，2026-06
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260614_071928f4-AI场景落地方法分享.md
 wiki_refs: null

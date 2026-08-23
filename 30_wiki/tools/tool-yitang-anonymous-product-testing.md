@@ -12,7 +12,6 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - 产品体验
@@ -20,6 +19,8 @@ aliases:
   - 匿名产品体验
   - 匿名产品体验：以真实用户身份盲测竞品
   - 实用户身份盲测竞品
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 discoverable_by:

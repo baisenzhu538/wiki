@@ -4,16 +4,27 @@ title: 技能：用 AI 做结构化用户调研
 type: tool
 status: reviewed
 domain:
-  - src-unknown
-  - yitang
+- ai-collaboration
+- content
+- decision-making
+- design
 source_person: 半肥猫
-source_context: AI俱学乐部-AI学习落地 分享
+source_context:
+  - AI俱学乐部-AI学习落地 分享
+  - 半肥猫
+  - yitang
+  - AI俱学乐部-AI学习落地 分享
+  - 半肥猫
 aliases:
   - 做结构化用户调研
   - 半肥猫
   - 技能
   - 技能：用AI做结构化用户调研
   - 构化用户调研
+source_context:
+  - AI俱学乐部-AI学习落地 分享
+  - 半肥猫
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md
 tools_required:
@@ -47,11 +58,10 @@ diagnostic_signals:
 - lens: 约束缺失
   follow_up: 在提示词中写明目标、范围、用户画像、业务场景后再让 AI 生成框架
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
-- 半肥猫
-- 学习落地
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 学习落地
 ---
 # 技能：用 AI 做结构化用户调研
 

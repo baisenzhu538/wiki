@@ -27,6 +27,8 @@ aliases:
   - 人工决策的边界案例
   - 决策的边界案例
   - 辅助决策
+source_context:
+  - 决策高度实操课口述
 source_refs:
 - 10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md
 related:
@@ -42,11 +44,10 @@ related:
 - '[[tool-Truman-本地记忆与云端记忆管理]]'
 - '[[tool-yitang-ai-research-workflow]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
-- 决策高度实操课口述
-- 科学决策
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 科学决策
 ---
 
 # AI 辅助决策 vs 人工决策的边界案例

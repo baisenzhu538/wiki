@@ -27,7 +27,10 @@ source_refs: null
 related: null
 discoverable_by:
 - AI落地顾问培养
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # AI 落地顾问培养体系——双三角笃定 + 技术产品背景 + 学习能力 + 价值观
 

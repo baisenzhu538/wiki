@@ -30,7 +30,10 @@ discoverable_by:
 - 五力分析
 - 行业竞争分析
 - Porter五力模型
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 波特五力分析框架
 

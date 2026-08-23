@@ -8,7 +8,8 @@ reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
 language: zh-CN
-domain: unknown
+domain:
+- kdo
 aliases:
 - Truman的个人版本
 - audience:ceo
@@ -28,7 +29,10 @@ discoverable_by:
 - Truman个人版本
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 个人成长五步法
 

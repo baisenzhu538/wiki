@@ -3,7 +3,9 @@ id: yt-model-conversion-optimization
 confidence: 0.85
 created_at: 2026-05-11
 difficulty: intermediate
-domain: src-unknown
+domain:
+- kdo
+- master
 estimated_tokens: 3000
 language: zh-CN
 query_triggers:
@@ -38,6 +40,8 @@ aliases:
 - 率优化
 - 转化率优化
 - 转化率优化：动力三曲线×十大浪费触点
+source_context:
+  - 一堂最佳转化率动力三曲线
 source_refs:
 - 10_raw/sources/src_20260510_d5e71a5e-一堂最佳转化率动力三曲线-堂.md
 status: enriched
@@ -60,10 +64,9 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: high
 tags:
-- audience:ceo
-- scene:diagnosis
-- skill-level:intermediate
-- 一堂最佳转化率动力三曲线
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:intermediate
 ---
 # 转化率优化：动力三曲线 × 十大浪费触点
 

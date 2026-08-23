@@ -28,6 +28,10 @@ related:
 - '[[tool-ai-skill-engineering-method]]'
 - '[[tool-yitang-18-strategy-tool-mapping]]'
 updated_at: '2026-06-29'
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 知识卡片 → Claude Code Skill 迭代标准
 

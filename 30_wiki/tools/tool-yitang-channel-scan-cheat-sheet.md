@@ -5,7 +5,6 @@ type: tool
 title: 渠道扫描小抄：线上/线下/转化/推荐获客清单
 status: reviewed
 domain:
-- yitang
 - growth
 confidence: 0.8
 trust_level: medium
@@ -29,6 +28,13 @@ aliases:
   - 渠道扫描小抄
   - 渠道扫描小抄：线上/线下/转化/推荐获客清单
   - 线上/线下/转化/推荐获客清单
+source_context:
+  - 一堂五步法之增长
+  - yitang
+  - 一堂五步法之增长
+source_context:
+  - 一堂五步法之增长
+  - yitang
 source_refs:
 - 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-小抄-01_vlm_desc.md
 - 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-小抄-02_vlm_desc.md
@@ -50,11 +56,10 @@ related:
 - '[[dk-yitang-channel-exploration-traps]]'
 review_date: '2026-06-28'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
-- 一堂五步法之增长
-- 渠道探索方法论
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 渠道探索方法论
 ---
 
 

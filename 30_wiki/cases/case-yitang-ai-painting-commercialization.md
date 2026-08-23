@@ -5,7 +5,6 @@ type: case
 title: 案例：崔磊如何通过 AI 绘画练习实现商业化交付
 status: reviewed
 domain:
-- yitang
 - personal-growth
 - ai-collaboration
 confidence: 0.72
@@ -30,6 +29,8 @@ aliases:
   - 案例：崔磊如何通过AI绘画练习实现商业化交付
   - 盈盈
   - 绘画练习实现商业化交付
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/元能力-刻意练习/盈盈-刻意练习行动营-科学成长-口述.txt
 - 00_inbox/元能力-刻意练习/盈盈-刻意练习行动营-科学成长-笔记.txt

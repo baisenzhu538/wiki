@@ -13,12 +13,18 @@ language: zh-CN
 created_at: 2026-07-08
 updated_at: 2026-07-08
 domain:
-- yitang
 - time-management
 aliases:
   - 会议场域匹配
   - 会议场域匹配MeetingRoomMatch
   - 场域匹配
+source_context:
+  - 整合笔记
+  - yitang
+  - 整合笔记
+source_context:
+  - 整合笔记
+  - yitang
 source_refs:
 - 00_inbox/时间管理/truman-时间管理课程-口述.txt
 - 00_inbox/时间管理/_processed/时间管理_整合笔记.md
@@ -37,11 +43,10 @@ diagnostic_signals:
 quality_labels:
 - actionable
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
-- 整合笔记
-- 时间管理
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 时间管理
 ---
 # 会议场域匹配 (Meeting Room Match)
 

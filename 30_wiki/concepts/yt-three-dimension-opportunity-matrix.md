@@ -11,7 +11,9 @@ status: enriched
 confidence: 0.8
 created_at: 2026-06-10
 difficulty: intermediate
-domain: src-unknown
+domain:
+- content
+- strategy
 estimated_tokens: 1000
 language: zh-CN
 review_date: 2026-06-10

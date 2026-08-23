@@ -14,10 +14,11 @@ created_at: 2026-07-08
 updated_at: 2026-07-09
 domain:
 - product
-- yitang
 - entrepreneurship
 source_person: Truman
-source_context: 一堂商业预判课（2026年）
+source_context:
+  - 一堂商业预判课（2026年）
+  - yitang
 aliases:
   - 15字诀与光谱模型
   - Truman
@@ -25,6 +26,9 @@ aliases:
   - 商业预判
   - 商业预判：15字诀与光谱模型从拍脑袋到科学决策
   - 脑袋到科学决策
+source_context:
+  - 一堂商业预判课（2026年）
+  - yitang
 source_refs:
 - 00_inbox/一堂-商业预判课-Truman-口述.txt
 - 00_inbox/一堂-商业预判课-truman-笔记.txt

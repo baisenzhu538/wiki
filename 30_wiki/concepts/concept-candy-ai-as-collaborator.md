@@ -12,13 +12,14 @@ confidence: 0.9
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - content-production
 - ai-collaboration
 aliases:
   - AI是协作者而非代写工具
   - Candy：AI是协作者而非代写工具
   - 是协作者而非代写工具
+source_context:
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260621_candy-transcript-workflow.md
 discoverable_by:

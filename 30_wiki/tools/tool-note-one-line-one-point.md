@@ -4,9 +4,8 @@ title: 一行一点精简法则：砍掉语气词、括号、修饰语，只留�
 type: tool
 status: reviewed
 domain:
-  - learning-methodology
-  - yitang
-  - note-taking
+- learning-methodology
+- note-taking
 language: zh-CN
 version: 1
 difficulty: beginner
@@ -28,6 +27,8 @@ aliases:
   - 只留主语+关键词+关键动作
   - 括号
   - 砍掉语气词
+source_context:
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md
 tags:

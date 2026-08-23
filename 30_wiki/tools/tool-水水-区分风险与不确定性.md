@@ -2,7 +2,8 @@
 id: tool-水水-区分风险与不确定性
 title: 技能：区分风险与不确定性
 type: tool
-domain: unknown
+domain:
+- decision-making
 status: draft
 author: unknown
 reviewed_by: 欧阳锋
@@ -24,7 +25,10 @@ discoverable_by:
 - 技能：区分风险与不确定性
 - 区分风险与不确定性
 related: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 技能：区分风险与不确定性
 

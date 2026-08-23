@@ -10,7 +10,6 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
 - decision-science
 aliases:
   - 同角色审视产品
@@ -18,6 +17,8 @@ aliases:
   - 多视角思考：用不同角色审视产品
   - 用不同角色审视产品
   - 角思考
+source_context:
+  - yitang
 source_refs:
 - src_unknown
 discoverable_by:

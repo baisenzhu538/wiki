@@ -3,9 +3,12 @@ id: concept-半肥猫-ai-learning-toolification-methodology
 title: 半肥猫 AI 学习落地方法论：从听课到造工具的三层递进
 type: concept
 status: reviewed
-domain: src-unknown
+domain:
+- kdo
 source_person: 半肥猫
-source_context: AI俱乐部-AI学习落地 分享（2026-06）
+source_context:
+  - AI俱乐部-AI学习落地 分享（2026-06）
+  - 半肥猫
 aliases:
   - 从听课到造工具的三层递进
   - 半肥猫
@@ -58,12 +61,11 @@ diagnostic_signals:
 - framework_lens: 缺少知识库 / Skill 化基建
   follow_up_question: 你们团队有没有一份统一的 AI 使用协议或共享的 Skill 库？如果没有，每个人的"经验"是不是每次都在重新发明？
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
-- 俱乐部
-- 半肥猫
-- 学习落地
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 俱乐部
+  - 学习落地
 ---
 # 半肥猫 AI 学习落地方法论
 

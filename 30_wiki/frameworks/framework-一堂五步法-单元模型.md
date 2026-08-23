@@ -11,7 +11,8 @@ trust_level: high
 language: zh-CN
 created_at: 2026-07-08
 updated_at: 2026-07-08
-domain: unknown
+domain:
+- strategy
 source_refs: null
 related:
   - bridge-利润-单元模型-定价闭环
@@ -23,7 +24,10 @@ diagnostic_signals:
   lens: 单元模型自欺——LTV用乐观假设估算
   follow-up: 用实测留存率重算LTV，不要用"假设"
 quality_labels: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 aliases: null
 ---
 # 一堂五步法·单元模型：斧子/尺子/梯子三角色

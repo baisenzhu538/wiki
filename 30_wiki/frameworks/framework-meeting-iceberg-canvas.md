@@ -9,9 +9,15 @@ created_at: 2026-08-09
 updated_at: 2026-08-09
 confidence: 0.9
 trust_level: high
-domain: [yitang, management]
+domain:
+- management
 source_person: Truman
-source_context: 科学开会系列课（认知篇+武器库上下篇）
+source_context:
+  - 科学开会系列课（认知篇+武器库上下篇）
+  - yitang
+source_context:
+  - 科学开会系列课（认知篇+武器库上下篇）
+  - yitang
 source_refs:
   - 00_inbox/科学开会/科学开会方法-认知篇-口述.txt
 aliases: [会议冰山模型, 科学开会思考画布, 会议优化三板斧, 目标原则流程, 不开会有什么问题, 反向推导开会目标, 四类会议, 会议原则匹配, 科学开会方法-认知篇-口述]

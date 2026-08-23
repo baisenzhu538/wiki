@@ -13,7 +13,6 @@ language: zh-CN
 created_at: 2026-07-04
 updated_at: '2026-07-04'
 domain:
-- yitang
 - decision-science
 aliases:
   - 去意义
@@ -21,6 +20,8 @@ aliases:
   - 抽象无法指导工作
   - 过度抽象无法指导工作
   - 过度抽象无法指导工作，就失去意义
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/实事求是/实事求是-周子敬-口述.txt
 - 60_feedback/extractions/extraction-shishi-qiushi-zhouzijing.md

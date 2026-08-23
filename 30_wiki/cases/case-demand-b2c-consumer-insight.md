@@ -5,7 +5,6 @@ title: ToC 消费洞察驱动需求案例
 type: case
 domain:
 - demand-analysis
-- yitang
 status: reviewed
 discoverable_by:
   - ToC 消费洞察驱动需求案例
@@ -25,6 +24,13 @@ aliases:
   - ToC消费洞察驱动需求案例
   - 洞察驱动需求案例
   - 消费洞察驱动需求案例
+source_context:
+  - 决策高度实操课口述
+  - yitang
+  - 决策高度实操课口述
+source_context:
+  - 决策高度实操课口述
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md
 related:
@@ -39,11 +45,10 @@ related:
 - '[[dk-demand-misjudgment-rate]]'
 - '[[domain-demand-analysis-index]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
-- 决策高度实操课口述
-- 科学决策
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 科学决策
 ---
 
 # ToC 消费洞察驱动需求案例

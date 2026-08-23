@@ -12,7 +12,6 @@ confidence: 0.82
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
 - five-step-method
 aliases:
   - 旅行攻略
@@ -21,6 +20,8 @@ aliases:
   - 案例：旅行攻略Agent隐性需求被忽略
   - 隐性需求被忽略
   - 需求被忽略
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/五步法之需求分析/需求评估避坑合集.md
 discoverable_by:

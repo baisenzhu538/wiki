@@ -6,7 +6,6 @@ domain:
 - management
 - ai-saas
 - design
-- yitang
 - decision-making
 status: reviewed
 aliases:
@@ -16,6 +15,8 @@ aliases:
   - 俱乐部
   - 俱乐部人和
   - 协作
+source_context:
+  - yitang
 source_refs:
   - src_unknown
   - src_20260609_8e64b361-ai-俱乐部人和-ai-协作-五层结构

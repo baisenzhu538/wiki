@@ -1,5 +1,9 @@
 ---
-domain: src-unknown
+domain:
+- decision-making
+- design
+- five-step-method
+- strategy
 id: yt-barrier-supply-chain
 title: 供应链壁垒：资源独占
 type: concept

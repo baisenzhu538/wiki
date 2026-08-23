@@ -30,7 +30,8 @@ tags:
 - skill-level:intermediate
 type: concept
 status: draft
-domain: unknown
+domain:
+- strategy
 ---
 > **一句话定位**：单元模型是商业可行性的最后一道防线——AI的角色不是替人算账，而是陪人拆解。人必须守住判断权。
 

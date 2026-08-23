@@ -13,7 +13,6 @@ confidence: 0.92
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - 同一问题用3个以上身份从不同角度验证
@@ -22,6 +21,8 @@ aliases:
   - 跨案例模式
   - 跨案例模式：多重身份交叉验证同一问题用3个以上身份从不同角度验证
   - 问题用
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt

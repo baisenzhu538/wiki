@@ -3,7 +3,8 @@ id: yt-tob-revenue-is-customer-cost
 title: To B 收入本质 = 客户成本
 type: concept
 status: draft
-domain: src-unknown
+domain:
+- decision-making
 aliases:
   - ToB收入本质=客户成本
   - 客户成本

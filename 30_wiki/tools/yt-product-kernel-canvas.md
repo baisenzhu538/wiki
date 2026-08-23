@@ -1,12 +1,20 @@
 ---
-domain: src-unknown
+domain:
+- ai-collaboration
+- content
+- decision-making
+- human-insights
+- kdo
+- master
 id: yt-product-kernel-canvas
 title: 产品内核画布：从问题到解决方案的结构化工具
 type: tool
 status: enriched
 confidence: 0.92
 trust_level: high
-source_context: 一堂产品内核系列课——产品内核画布
+source_context:
+  - 一堂产品内核系列课——产品内核画布
+  - 一堂五步法
 aliases:
   - 产品内核画布
   - 产品内核画布：从问题到解决方案的结构化工具
@@ -44,12 +52,11 @@ diagnostic_signals:
 - framework_lens: 产品内核画布——画布输出就是价值描述
   follow_up_question: 你能用画布中的'一句话价值描述'向客户介绍产品吗？
 tags:
-- audience:executor
-- scene:execution
-- skill-level:advanced
-- 一堂五步法
-- 产品内核实操课
-- 产品内核画布
+  - audience:executor
+  - scene:execution
+  - skill-level:advanced
+  - 产品内核实操课
+  - 产品内核画布
 ---
 # 产品内核画布：从问题到解决方案的结构化工具
 

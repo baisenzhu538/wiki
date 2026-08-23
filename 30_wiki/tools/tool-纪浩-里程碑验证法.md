@@ -5,7 +5,6 @@ title: 技能：里程碑验证法
 type: tool
 domain:
 - ai-collaboration
-- yitang
 - ai-saas
 status: draft
 author: 纪浩
@@ -17,9 +16,14 @@ aliases:
   - 技能
   - 技能：里程碑验证法
   - 里程碑验证法
+source_context:
+  - （原 legacy，已从 title/context/filename 推断为 src_20260609_8c00cb42）
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260609_8c00cb42-ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01.md
-source_context: （原 legacy，已从 title/context/filename 推断为 src_20260609_8c00cb42）
+source_context:
+  - （原 legacy，已从 title/context/filename 推断为 src_20260609_8c00cb42）
+  - yitang
 updated_at: '2026-06-16'
 discoverable_by:
   - 技能：里程碑验证法

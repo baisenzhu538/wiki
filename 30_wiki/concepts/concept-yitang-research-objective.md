@@ -13,7 +13,6 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
 - research
 difficulty: beginner
 estimated_tokens: 2500
@@ -24,6 +23,8 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/一堂-系统式调研-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md

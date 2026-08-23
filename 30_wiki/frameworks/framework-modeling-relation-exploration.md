@@ -31,7 +31,10 @@ related: null
 discoverable_by:
 - 建模关系探索
 - 建模底层连接
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 流程建模的关系探索：关系 vs 规律，从并列到因果
 

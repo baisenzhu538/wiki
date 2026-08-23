@@ -12,13 +12,14 @@ confidence: 0.9
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - SpiderFoot：一键自动化OSINT扫描
   - 一键自动化
   - 一键自动化OSINT扫描
   - 自动化
+source_context:
+  - yitang
 source_refs:
 - src_unknown
 - src_unknown

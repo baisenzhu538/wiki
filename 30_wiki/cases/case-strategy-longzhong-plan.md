@@ -17,6 +17,8 @@ aliases:
   - 最著名的战略规划
   - 隆中对
   - 隆中对：中国最著名的战略规划成功与失败四因
+source_context:
+  - 冉鹏战略课逐字稿
 source_refs:
 - 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md
   - src_unknown
@@ -33,11 +35,10 @@ related:
 - case-opc-agent-wave1-real-model-testing
 - case-strategy-practice-12-zero-loss
 tags:
-- audience:general
-- scene:reference
-- skill-level:advanced
-- 冉鹏战略课逐字稿
-- 战略专题
+  - audience:general
+  - scene:reference
+  - skill-level:advanced
+  - 战略专题
 ---
 **战略内容**：成就霸业→三足鼎立→四击北伐。六大举措+执行团队（诸葛亮/关羽/马超/李辉）。
 

@@ -22,7 +22,9 @@ aliases:
 - 马易-SPIN销售方法与AI-口述
 - 马易
 source_person: 马易
-source_context: 拆书会第215期《SPIN 销售巨人》（下）实践篇——AI 在销售中的边界（2026-08-11 口述）
+source_context:
+  - 拆书会第215期《SPIN 销售巨人》（下）实践篇——AI 在销售中的边界（2026-08-11 口述）
+  - 口述
 source_refs:
 - 00_inbox/spin销售巨人/马易-SPIN销售方法与AI-口述.txt
 related:
@@ -42,7 +44,6 @@ tags:
   - 工具
   - 方法
   - 边界
-  - 口述
 ---
 # 客户讨厌 AI：AI 生成的销售内容没人情味
 

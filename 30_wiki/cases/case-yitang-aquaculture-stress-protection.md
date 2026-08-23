@@ -13,13 +13,17 @@ language: zh-CN
 created_at: 2026-07-04
 updated_at: '2026-07-04'
 domain:
-- yitang
+- design
+- human-insights
+- strategy
 aliases:
   - 业经验到学科原理的上层创新
   - 从行业经验到学科原理的上层创新
   - 案例
   - 案例：水产养殖从行业经验到学科原理的上层创新
   - 水产养殖
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/解放思想/解放思想-truman-口述.txt
 - 60_feedback/extractions/extraction-jiefang-sixiang-truman.md

@@ -7,8 +7,12 @@ confidence: 0.9
 trust_level: high
 domain:
 - lean-startup
-- yitang
-source_context: 一堂精益创业课程——FALSE 模型 + 六宗罪 + ABCD + 三范式，覆盖从假设验证到规模化增长
+source_context:
+  - 一堂精益创业课程——FALSE 模型 + 六宗罪 + ABCD + 三范式，覆盖从假设验证到规模化增长
+  - yitang
+source_context:
+  - 一堂精益创业课程——FALSE 模型 + 六宗罪 + ABCD + 三范式，覆盖从假设验证到规模化增长
+  - yitang
 source_refs:
 - 60_feedback/tasks/task_20260623_laowantong-lean-startup-cards.md
 - 60_feedback/audit/lean-startup-nine-layer-annotation.md

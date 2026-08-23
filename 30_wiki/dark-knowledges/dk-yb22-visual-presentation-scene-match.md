@@ -8,7 +8,9 @@ status: reviewed
 domain:
 - design
 source_person: 月白
-source_context: '口述稿: AI设计-AI设计师实操培训01'
+source_context:
+  - 口述稿: AI设计-AI设计师实操培训01
+  - 设计师实操培训
 aliases:
   - 呈现方式与消费场景的匹配原则
   - 月白
@@ -42,10 +44,9 @@ diagnostic_signals:
 - src_unknown
 - src_unknown# 视觉呈现方式与消费场景的匹配原则
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
-- 设计师实操培训
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
 ---
 ## 原始表述 / 核心洞察
 

@@ -7,7 +7,9 @@ dark_knowledge_type: tool_usage
 status: reviewed
 domain: design
 source_person: 月白
-source_context: '口述稿: AI设计-AI设计师实操培训01'
+source_context:
+  - 口述稿: AI设计-AI设计师实操培训01
+  - 设计师实操培训
 aliases:
   - 伪图层叠加规避平台图像识别
   - 层叠加规避平台图像识别
@@ -42,10 +44,9 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
-- 设计师实操培训
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 伪图层叠加规避平台图像识别
 

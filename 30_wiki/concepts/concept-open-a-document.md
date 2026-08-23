@@ -13,7 +13,6 @@ created_at: 2026-08-16
 updated_at: 2026-08-16
 domain:
 - research
-- yitang
 aliases:
 - 开一篇文档
 - 研究顶级作品建模
@@ -23,7 +22,16 @@ aliases:
 - 爆炸式调研-上-口述
 - 马易
 source_person: 马易
-source_context: Live259 爆炸式调研（2026-08-11 口述）——调研的第一个最重要工作
+source_context:
+  - Live259 爆炸式调研（2026-08-11 口述）——调研的第一个最重要工作
+  - 口述
+  - yitang
+  - Live259 爆炸式调研（2026-08-11 口述）——调研的第一个最重要工作
+  - 口述
+source_context:
+  - Live259 爆炸式调研（2026-08-11 口述）——调研的第一个最重要工作
+  - 口述
+  - yitang
 source_refs:
 - 00_inbox/爆炸式调研/爆炸式调研-上-口述.txt
 related:
@@ -54,7 +62,6 @@ tags:
   - skill-level:beginner
   - 五步法
   - 边界
-  - 口述
 ---
 
 # 开一篇文档：调研的第一个最重要动作

@@ -13,7 +13,6 @@ confidence: 0.9
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - five-step-method
 aliases:
   - L4任务地图
@@ -22,6 +21,8 @@ aliases:
   - 全流程
   - 全流程8步推演+摩擦点识别
   - 摩擦点识别
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/五步法之需求分析/AI场景推演教练提示词.txt
 discoverable_by:

@@ -1,5 +1,7 @@
 ---
-domain: src-unknown
+domain:
+- conversion-rate
+- five-step-method
 id: yt-growth-sales-led-growth
 title: 销售驱动增长：SLG模式
 type: concept

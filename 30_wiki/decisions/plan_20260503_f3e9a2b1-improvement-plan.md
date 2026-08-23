@@ -29,6 +29,10 @@ related:
 - "[[kdo-batch-produce-req014]]"
 - "[[dk-c2-dual-status-machine]]"
 - '[[dk-kdo-leaky-pipe-pressure]]'
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 - "[[dk-kdo-leaky-pipe-pressure]]"
 

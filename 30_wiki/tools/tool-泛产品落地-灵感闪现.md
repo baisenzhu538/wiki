@@ -19,6 +19,8 @@ aliases:
 - 灵感闪现
 - 落地卡片
 - 落地卡片：灵感闪现
+source_context:
+  - 口述
 source_refs: null
 tags:
   - audience:general
@@ -27,7 +29,6 @@ tags:
   - 科学决策
   - 工具
   - 方法
-  - 口述
 discoverable_by:
 - 落地卡片：灵感闪现
 - 落地卡片

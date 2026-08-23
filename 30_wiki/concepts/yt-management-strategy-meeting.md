@@ -1,7 +1,9 @@
 ---
 title: 战略会
 type: concept
-domain: src-unknown
+domain:
+- content
+- design
 status: draft
 pipeline:
 - src_unknown

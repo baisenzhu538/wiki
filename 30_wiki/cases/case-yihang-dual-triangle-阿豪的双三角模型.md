@@ -19,6 +19,9 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 工作流
+  - 提示词
+  - 框架
 aliases:
   - 双三角案例：阿豪电商选品——内网穿透与 AI 自动化
 discoverable_by:

@@ -12,7 +12,6 @@ confidence: 0.9
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - five-step-method
 aliases:
   - 冰山模型的根本价值
@@ -20,6 +19,8 @@ aliases:
   - 过早进入解决方案空间
   - 过早进入解决方案空间冰山模型的根本价值
   - 进入解决方案空间
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-任务洞察冰山图-详细图解_ocr_text.md
 discoverable_by:

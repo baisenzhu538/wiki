@@ -3,7 +3,9 @@ id: case-jh-yitang-vs-sqlhelper
 title: 案例：一堂数据库 vs SQLHelper —— 同域不同构的产品策略分岔
 type: case
 status: enriched
-domain: src-unknown
+domain:
+- ai-collaboration
+- kdo
 problem_domains:
 - src_unknown
 - src_unknown

@@ -12,7 +12,6 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - Fund武器
@@ -21,6 +20,8 @@ aliases:
   - 小团队的
   - 小团队的Hedge
   - 替代数据
+source_context:
+  - yitang
 source_refs:
 - src_unknown
 - src_unknown

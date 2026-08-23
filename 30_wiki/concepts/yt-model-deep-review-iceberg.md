@@ -24,6 +24,8 @@ aliases:
 - 深度复盘冰山图
 - 深度复盘冰山图：从主观感受到能力建设的五层穿透
 - 观感受到能力建设的五层穿透
+source_context:
+  - 一堂深度复盘冰山图
 source_refs:
   - src_unknown
   - src_20260522_c92a36ba-ocr-一堂深度复盘冰山图
@@ -49,10 +51,9 @@ related:
 - '[[tool-团队复盘引导清单]]'
 - '[[tool-复盘浪费九宗罪自检清单]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
-- 一堂深度复盘冰山图
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 type: concept
 ---
 # 深度复盘冰山图：从主观感受到能力建设的五层穿透

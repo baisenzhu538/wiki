@@ -6,7 +6,6 @@ confidence: 0.8
 created_at: 2026-05-11
 difficulty: intermediate
 domain:
-- yitang
 - pan-product
 estimated_tokens: 2200
 language: zh-CN
@@ -68,6 +67,8 @@ aliases:
 - 泛产品设计36计
 - 泛产品设计36计全套官方工具箱
 - 计全套官方工具箱
+source_context:
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260522_7e8d10c4-ocr-一堂泛产品设计36计-全套地图.md
 - 00_inbox/一堂-个人修炼-泛产品设计概念口述版.md

@@ -4,9 +4,8 @@ title: 现场笔记完成度五步法：从"到场"到"驱动行动"的实战手
 type: tool
 status: reviewed
 domain:
-  - learning-methodology
-  - yitang
-  - note-taking
+- learning-methodology
+- note-taking
 language: zh-CN
 version: 2
 difficulty: advanced
@@ -24,6 +23,8 @@ related:
 prerequisites:
 - src_unknown
 - src_unknown
+source_context:
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md
 - 10_raw/sources/src_20260606_db4fc211-一堂-AI时代请单体笔记-Truman-口述-02.md

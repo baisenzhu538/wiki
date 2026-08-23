@@ -29,7 +29,10 @@ discoverable_by:
 - 单元模型
 - 找到业务最小单元的经济密码
 related: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 单元模型：找到业务最小单元的经济密码
 

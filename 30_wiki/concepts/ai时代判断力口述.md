@@ -6,6 +6,8 @@ domain: healthcare
 aliases:
   - AI时代判断力口述
   - 时代判断力口述
+source_context:
+  - 时代判断力口述
 source_refs:
 - 10_raw/sources/src_20260525_6748cc27-ai时代判断力口述.md
 status: reviewed
@@ -32,10 +34,9 @@ related:
 - '[[老朱的水感-2026年5月]]'
 - '[[tool-yitang-web-scraping-research]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
-- 时代判断力口述
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # AI时代判断力口述
 

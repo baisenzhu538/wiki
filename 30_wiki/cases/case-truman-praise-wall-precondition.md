@@ -5,10 +5,11 @@ title: 案例：Truman 赞美墙——用"积极情绪前置"为深度工作预�
 type: case
 status: reviewed
 domain:
-  - yitang
-  - time-management
+- time-management
 source_person: Truman
-source_context: 一堂时间管理课程和Truman公开分享中，他提到自己办公室有一面"赞美墙"——在进入深度工作前，先看一眼用户/学员的正面反馈，作为进入心流状态的情绪前置条件
+source_context:
+  - 一堂时间管理课程和Truman公开分享中，他提到自己办公室有一面"赞美墙"——在进入深度工作前，先看一眼用户/学员的正面反馈，作为进入心流状态的情绪前置条件
+  - yitang
 aliases:
   - Truman
   - 心流前置
@@ -16,6 +17,9 @@ aliases:
   - 案例：Truman赞美墙用积极情绪前置为深度工作预热场景质量
   - 用积极情绪前置为深度工作预热场景质量
   - 赞美墙
+source_context:
+  - 一堂时间管理课程和Truman公开分享中，他提到自己办公室有一面"赞美墙"——在进入深度工作前，先看一眼用户/学员的正面反馈，作为进入心流状态的情绪前置条件
+  - yitang
 source_refs:
   - 00_inbox/时间管理/truman-时间管理课程-口述.txt
   - 00_inbox/时间管理/truman-时间管理课程-笔记.txt

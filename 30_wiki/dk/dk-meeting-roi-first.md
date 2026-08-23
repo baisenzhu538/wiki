@@ -9,9 +9,15 @@ created_at: 2026-08-09
 updated_at: 2026-08-09
 confidence: 0.9
 trust_level: high
-domain: [yitang, management]
+domain:
+- management
 source_person: Truman
-source_context: 科学开会系列课（认知篇+武器库上下篇）
+source_context:
+  - 科学开会系列课（认知篇+武器库上下篇）
+  - yitang
+source_context:
+  - 科学开会系列课（认知篇+武器库上下篇）
+  - yitang
 source_refs:
   - 00_inbox/科学开会/科学开会方法-认知篇-口述.txt
 aliases: [ROI先行, 先算账再开会, 会议ROI, 非必要不开会, 开会本质是ROI, 深度讨论开会浅度讨论化简, 科学开会, 科学开会方法, 科学开会方法-认知篇-口述]

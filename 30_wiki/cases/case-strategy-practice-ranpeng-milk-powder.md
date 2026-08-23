@@ -17,6 +17,8 @@ aliases:
   - 从零到20亿的细分垄断
   - 冉鹏操盘
   - 冉鹏操盘：一米八八儿童奶粉从零到20亿的细分垄断
+source_context:
+  - 冉鹏战略课逐字稿
 source_refs:
 - 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md
   - src_unknown
@@ -32,11 +34,10 @@ related:
 - case-opc-agent-wave1-real-model-testing
 - case-strategy-practice-12-zero-loss
 tags:
-- audience:general
-- scene:reference
-- skill-level:advanced
-- 冉鹏战略课逐字稿
-- 战略专题
+  - audience:general
+  - scene:reference
+  - skill-level:advanced
+  - 战略专题
 ---
 **起点**：最初品牌叫"干饭娃"（益生菌/肠胃方向）。
 

@@ -5,7 +5,6 @@ title: AI Agent 里程碑设计：42 轮口授反馈实战
 type: case
 domain:
 - ai-collaboration
-- yitang
 status: reviewed
 created_at: 2026-06-28
 updated_at: 2026-06-28
@@ -20,6 +19,13 @@ aliases:
   - 碑设计
   - 轮口授反馈实战
   - 里程碑设计
+source_context:
+  - 决策高度实操课口述
+  - yitang
+  - 决策高度实操课口述
+source_context:
+  - 决策高度实操课口述
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md
 discoverable_by:
@@ -42,11 +48,10 @@ related:
 - '[[tool-Truman-人在环渐进自动化策略]]'
 - '[[tool-纪浩-Agent开工检查单制作法]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:advanced
-- 决策高度实操课口述
-- 科学决策
+  - audience:general
+  - scene:reference
+  - skill-level:advanced
+  - 科学决策
 ---
 
 > **Burn line**: 全程不动手，42 轮口授反馈，AI 3 小时产出人类可能需要两三周的方法论 + 组件库。

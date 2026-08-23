@@ -3,7 +3,8 @@ id: tool-纪浩-Agent开工检查单制作法
 title: 技能：Agent开工检查单制作法
 type: tool
 status: reviewed
-domain: src-unknown
+domain:
+- decision-making
 source_person: 纪浩
 source_context: AI俱乐部-人和AI协作-纪浩-五层结构-图片01
 aliases:

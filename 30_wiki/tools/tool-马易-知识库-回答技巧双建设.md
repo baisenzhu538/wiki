@@ -2,7 +2,9 @@
 id: tool-马易-知识库-回答技巧双建设
 title: 技能：知识库+回答技巧双建设
 type: tool
-domain: unknown
+domain:
+- ai-collaboration
+- kdo
 status: reviewed
 author: unknown
 reviewed_by: 欧阳锋
@@ -24,7 +26,10 @@ discoverable_by:
 - 技能：知识库+回答技巧双建设
 - 知识库+回答技巧双建设
 related: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 技能：知识库+回答技巧双建设
 

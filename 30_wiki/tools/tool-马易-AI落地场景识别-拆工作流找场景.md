@@ -2,7 +2,9 @@
 id: tool-马易-AI落地场景识别-拆工作流找场景
 title: 技能：AI落地场景识别-拆工作流找场景
 type: tool
-domain: unknown
+domain:
+- ai-collaboration
+- design
 status: draft
 author: unknown
 reviewed_by: pending
@@ -25,7 +27,10 @@ discoverable_by:
 - AI落地场景识别
 - 拆工作流找场景
 related: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 技能：AI落地场景识别-拆工作流找场景
 

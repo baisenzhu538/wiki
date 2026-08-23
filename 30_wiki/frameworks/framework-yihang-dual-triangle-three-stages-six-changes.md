@@ -26,7 +26,10 @@ source_refs: null
 related: null
 discoverable_by:
 - 双三角三阶六变
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 一行双三角三阶六变
 

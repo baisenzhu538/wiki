@@ -11,10 +11,14 @@ confidence: 0.90
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - management
+- management
 source_person: 老顽童
-source_context: 一堂项目管理系列课口述稿（2026-07-07），一堂以自身2022年初五年度大课为案例的内部复盘
+source_context:
+  - 一堂项目管理系列课口述稿（2026-07-07），一堂以自身2022年初五年度大课为案例的内部复盘
+  - 口述
+  - yitang
+  - 一堂项目管理系列课口述稿（2026-07-07），一堂以自身2022年初五年度大课为案例的内部复盘
+  - 口述
 aliases:
   - 一堂2022初五大课复盘
   - 一堂初五大课分析
@@ -23,6 +27,10 @@ aliases:
   - 步闭环管理一堂自己的
   - 用四步闭环管理一堂自己的D级战略项目
   - 老顽童
+source_context:
+  - 一堂项目管理系列课口述稿（2026-07-07），一堂以自身2022年初五年度大课为案例的内部复盘
+  - 口述
+  - yitang
 source_refs:
   - 00_inbox/管项目/项目管理-案例-一堂初五大课分析_vlm_desc.md
   - 00_inbox/管项目/项目管理-案例-一堂初五大课分析_ocr_text.md
@@ -47,7 +55,6 @@ tags:
   - scene:execution
   - 工具
   - 复盘
-  - 口述
 created_at: 2026-07-08
 updated_at: 2026-07-08
 ---

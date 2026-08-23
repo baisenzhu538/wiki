@@ -5,7 +5,6 @@ type: case
 title: 案例：Top City 如何用六大要素搭建内容-商户双端飞轮
 status: reviewed
 domain:
-- yitang
 - growth
 - strategy
 confidence: 0.78
@@ -29,6 +28,13 @@ aliases:
   - 如何用六大要素搭建内容
   - 案例
   - 案例：TopCity如何用六大要素搭建内容商户双端飞轮
+source_context:
+  - 一堂五步法之增长
+  - yitang
+  - 一堂五步法之增长
+source_context:
+  - 一堂五步法之增长
+  - yitang
 source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道增长飞轮-案例-top city.png
 - 00_inbox/一堂五步法之增长/truman-渠道增长飞轮-案例-top city_vlm_desc.md
@@ -47,11 +53,10 @@ related:
 - case-decision-science-topcity-negative-revenue-rank
 review_date: '2026-06-28'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
-- 一堂五步法之增长
-- 渠道增长飞轮
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 渠道增长飞轮
 ---
 
 # 案例：Top City 如何用六大要素搭建内容-商户双端飞轮

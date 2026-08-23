@@ -5,7 +5,6 @@ confidence: 0.85
 created_at: 2026-06-10
 difficulty: intermediate
 domain:
-- yitang
 - ai
 estimated_tokens: 2000
 language: zh-CN
@@ -24,6 +23,8 @@ aliases:
   - 时间管理
   - 案例
   - 案例：AI时间管理App七级演进
+source_context:
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260430_59a3d224-街顺app全面调研报告.md
 status: enriched

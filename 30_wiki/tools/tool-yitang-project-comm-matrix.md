@@ -13,11 +13,12 @@ language: zh-CN
 created_at: 2026-07-08
 updated_at: 2026-07-08
 domain:
-- yitang
 - management
 aliases:
   - 沟通方式四象限选择矩阵
   - 项目沟通方式四象限选择矩阵
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/管项目/项目管理-管过程-沟通渠道_vlm_desc.md
 discoverable_by:

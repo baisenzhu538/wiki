@@ -8,7 +8,6 @@ domain:
 - product
 - design
 - organization
-- yitang
 confidence: 0.84
 trust_level: high
 author: 老顽童
@@ -25,6 +24,8 @@ aliases:
 - 一堂 / 兰毅
 - 品设计方法论升级版
 - 泛产品设计方法论升级版
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/泛产品设计/一堂-泛产品设计课程-口述.txt
 - 00_inbox/泛产品设计/一堂-泛产品设计课程-笔记.txt

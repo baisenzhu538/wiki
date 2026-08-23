@@ -13,7 +13,6 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 difficulty: basic
 estimated_tokens: 2500
@@ -29,6 +28,8 @@ aliases:
   - 公司自己发布的信息最有价值
   - 官方公开信息渠道
   - 官方公开信息渠道：公司自己发布的信息最有价值
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 discoverable_by:

@@ -11,11 +11,15 @@ updated_at: '2026-06-29'
 confidence: 0.78
 trust_level: medium
 language: zh-CN
-domain: yitang
+domain:
+- decision-making
+- strategy
 aliases:
   - 单元模型
   - 单元模型：象限分析法
   - 象限分析法
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-象限分析法_vlm_desc.md
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-象限分析法_vlm_desc.md

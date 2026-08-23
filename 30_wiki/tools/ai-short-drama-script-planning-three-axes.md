@@ -11,16 +11,17 @@ aliases:
   - 短剧从
   - 短剧从0到1的框架搭建工具
   - 策划三板斧
+source_context:
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260613_61c0cd80-script-planning-three-axes.md
 - 10_raw/sources/src_20260613_687c4ec0-transcript.md
 - 10_raw/sources/src_20260613_12d63c1c-notes.md
 status: reviewed
 domain:
-  - ai-saas
-  - yitang
-  - ai-collaboration
-  - product
+- ai-saas
+- ai-collaboration
+- product
 discoverable_by:
   - 剧本策划三板斧：短剧从0到1的框架搭建工具
   - 剧本策划三板斧

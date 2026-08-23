@@ -19,6 +19,12 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 知识库
+  - RAG
+  - 提示词
+  - 协作
+  - 框架
+  - 工具
 aliases:
   - 双三角案例：刘凯图书分析 AI 工具——RAG+审美驱动畅销书分析
 discoverable_by:

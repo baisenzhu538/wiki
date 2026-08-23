@@ -29,7 +29,10 @@ discoverable_by:
 - 丰田供应链生态
 - 苹果iOS生态
 - 战略系统建设
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 **不是做产品，是建生态**：丰田不只造车——供应链伙伴形成深度绑定，对手难以复制
 **竞争优势三层**：

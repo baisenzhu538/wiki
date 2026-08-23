@@ -10,12 +10,13 @@ confidence: 0.8
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
 - decision-science
 aliases:
   - 优先级定性
   - 决策深度L1
   - 决策深度L1：优先级定性
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-L1优先级定性_vlm_desc.md
 discoverable_by:

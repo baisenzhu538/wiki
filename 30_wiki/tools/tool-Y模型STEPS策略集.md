@@ -11,9 +11,10 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - decision-science
 - methodology
+source_context:
+  - yitang
 source_refs:
 - 30_wiki/methods/method-yitang-y-model-engine-cycle.md
 - 30_wiki/frameworks/framework-yitang-y-model-cross-domain-fusion.md

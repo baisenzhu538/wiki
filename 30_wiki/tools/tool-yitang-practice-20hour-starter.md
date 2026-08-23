@@ -24,6 +24,8 @@ aliases:
 - 小时刻意练习入门法
 - 快速达到够用水平
 - 达到够用水平
+source_context:
+  - yitang
 source_refs:
   - src_unknown
 tags:
@@ -33,7 +35,8 @@ tags:
   - 反例
 type: tool
 status: draft
-domain: yitang
+domain:
+- content
 ---
 # 20 小时刻意练习入门法：快速达到够用水平
 

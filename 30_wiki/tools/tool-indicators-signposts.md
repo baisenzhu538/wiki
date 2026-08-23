@@ -6,7 +6,10 @@ domain: research
 discoverable_by:
 - Indicators & Signposts指标与信号
 - Signposts指标与信号
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 source_person: Richars J. Heuer Jr. + Trumen（一堂）
 source_context: SATs 指标类技术工具化实现
 aliases:

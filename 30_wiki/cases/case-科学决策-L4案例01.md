@@ -11,12 +11,13 @@ confidence: 0.72
 trust_level: low
 language: zh-CN
 domain:
-- yitang
 - decision-science
 aliases:
 - 1万个投放线索的严格财务公式分析乐观口径
 - 案例
 - 案例：1万个投放线索的严格财务公式分析乐观口径
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-L4-案例01_vlm_desc.md
 - 10_raw/ocr-cards/ocr-一堂-科学决策-深度-l4-案例01.md

@@ -26,7 +26,10 @@ follow_up: 增加 FreshCloneTester 与 AuditTrail，把"从零克隆能跑"作�
 related: null
 discoverable_by:
 - 王欢Harness七阶段
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 王欢：Harness 七阶段 AI 构建流程
 

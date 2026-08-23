@@ -2,8 +2,16 @@
 id: framework-ci-operating-model
 title: 竞争情报操作系统（CI Operating Model）
 type: framework
-domain: unknown
-tags: null
+domain:
+- content
+- decision-making
+- design
+- human-insights
+- strategy
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 source_person: Truman（一堂）+ Competitive Intelligence Alliance + BestBootcamps
 source_context: 一堂调研武器库盲区诊断 + 外部CI专业框架比对
 aliases:

@@ -3,20 +3,24 @@ id: tool-知识库团队管理
 title: 技能：知识库团队管理
 type: tool
 domain:
-  - content-production
-  - management
-  - design
-  - yitang
-  - entrepreneurship
-  - kdo
+- content-production
+- management
+- design
+- entrepreneurship
+- kdo
 status: draft
 source_person: 一堂课程设计
-source_context: src_20260522_e139c9e9
+source_context:
+  - src_20260522_e139c9e9
+  - yitang
 aliases:
   - 一堂课程设计
   - 技能
   - 技能：知识库团队管理
   - 知识库团队管理
+source_context:
+  - src_20260522_e139c9e9
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260522_e139c9e9-ocr-一堂-个人修炼-科学学习ipo完整清单.md
 definition_of_done:

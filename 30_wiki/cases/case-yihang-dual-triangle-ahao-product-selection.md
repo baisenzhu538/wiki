@@ -5,7 +5,6 @@ title: 一行双三角案例：阿豪电商选品函数替代模型
 type: case
 status: reviewed
 domain:
-- yitang
 - ai-collaboration
 - e-commerce
 - operations
@@ -24,6 +23,13 @@ aliases:
   - 双三角案例
   - 电商选品函数替代模型
   - 阿豪电商选品函数替代模型
+source_context:
+  - 口述
+  - yitang
+  - 口述
+source_context:
+  - 口述
+  - yitang
 source_refs:
 - 00_inbox/人机协作双三角/_processed/阿豪案例的口述_page001_vlm.md
 - 00_inbox/人机协作双三角/_processed/阿豪案例的口述_page002_vlm.md
@@ -57,9 +63,12 @@ related:
 - 阿豪案例的口述
 - '[[tool-yihang-dual-triangle-canvas]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:advanced
+  - audience:general
+  - scene:reference
+  - skill-level:advanced
+  - 工具
+  - 方法
+  - 问题驱动
 ---
 
 # 一行双三角案例：阿豪电商选品函数替代模型

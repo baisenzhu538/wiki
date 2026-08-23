@@ -10,11 +10,12 @@ confidence: 0.82
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
 - ai-saas
 - business-strategy
 source_person: 李蕊
-source_context: 一堂科学销售方法论课程（2026-07-02），剧本杀 SaaS To B 初创销售体系搭建案例
+source_context:
+  - 一堂科学销售方法论课程（2026-07-02），剧本杀 SaaS To B 初创销售体系搭建案例
+  - yitang
 aliases:
   - 兼职团队跑通科学销售五步法
   - 剧本杀
@@ -22,6 +23,9 @@ aliases:
   - 案例
   - 案例：剧本杀SaaS销售体系从零搭建兼职团队跑通科学销售五步法
   - 销售体系从零搭建
+source_context:
+  - 一堂科学销售方法论课程（2026-07-02），剧本杀 SaaS To B 初创销售体系搭建案例
+  - yitang
 source_refs:
 - 00_inbox/销售专题/_processed/销售专题_整合笔记.md
 - 60_feedback/diagnosis/diag_20260702_yitang-scientific-sales-methodology.md

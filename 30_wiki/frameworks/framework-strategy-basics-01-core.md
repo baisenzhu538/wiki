@@ -28,7 +28,10 @@ discoverable_by:
 - 战略基本功定式
 - 战略肌肉记忆
 - BRM核心框架
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 **核心**：BRM（差距→规划→执行）不是一次性的项目，是需要形成肌肉记忆的日常习惯
 **战略洞察两大要素**：速度（多快发现机会和威胁）+ 视野（看多宽——行业/跨行业/全球）

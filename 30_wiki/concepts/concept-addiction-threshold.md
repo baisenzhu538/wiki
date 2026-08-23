@@ -20,6 +20,8 @@ aliases:
 - concept-addiction-threshold
 - 一堂-成瘾与自我管理分享-口述
 - 水水
+source_context:
+  - 口述
 source_refs:
 - 00_inbox/一堂-成瘾与自我管理分享-口述.md#L187-L325
 - 00_inbox/一堂-成瘾与自我管理分享-口述.md#L187-L260
@@ -30,16 +32,15 @@ related:
 - framework-AI知识库-五阶段演进
 - framework-yitang-six-layer-cross-validation
 tags:
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
-- 上瘾门槛
-- 商业维度
-- 渠道能力
-- 产品定义
-- 决策卫生
-- 边界
-- 口述
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:advanced
+  - 上瘾门槛
+  - 商业维度
+  - 渠道能力
+  - 产品定义
+  - 决策卫生
+  - 边界
 ---
 
 # 上瘾门槛论：让人上瘾的生意门槛极高——商业维度优先

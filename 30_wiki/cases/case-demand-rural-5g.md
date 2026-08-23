@@ -12,7 +12,6 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - five-step-method
 aliases:
   - 偏远县域5G覆盖
@@ -21,6 +20,8 @@ aliases:
   - 案例
   - 案例：偏远县域5G覆盖普遍性误判
   - 覆盖普遍性误判
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/五步法之需求分析/需求评估避坑合集.md
 discoverable_by:

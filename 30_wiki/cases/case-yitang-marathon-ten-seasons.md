@@ -5,10 +5,10 @@ title: 一堂马拉松十期：双目标+10维切片+攻坚会，用假设驱动
 type: case
 status: enriched
 domain:
-- yitang
 - business-formula
 source_person: Truman（一堂创始人，课程口述，内部开源案例）
 source_context: 「关键假设-业务公式」管理篇与参数探索篇口述：一堂年度大课「马拉松」五年十期的高阶管理全案——双目标制定、10 维数据切片、顶层策略会、PEAHD
+  - yitang
   角色配置、攻坚会与「以业务公式为中心」的人/事/数统一管理
 aliases:
   - Truman（一堂创始人，课程口述，内部开源案例）

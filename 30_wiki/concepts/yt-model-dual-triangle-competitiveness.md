@@ -3,7 +3,8 @@ id: yt-model-dual-triangle-competitiveness
 confidence: 0.85
 created_at: 2026-05-07
 difficulty: foundational
-domain: src-unknown
+domain:
+- strategy
 estimated_tokens: 1915
 language: zh-CN
 query_triggers:

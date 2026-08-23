@@ -6,7 +6,6 @@ confidence: 0.85
 created_at: 2026-05-11
 difficulty: intermediate
 domain:
-- yitang
 - pan-product
 estimated_tokens: 1800
 language: zh-CN
@@ -61,6 +60,8 @@ aliases:
 - 泛产品设计
 - 泛产品设计需求工具箱13张卡牌
 - 需求工具箱13张卡牌
+source_context:
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260522_726a6a3b-ocr-泛产品设计-需求工具箱指南.md
 - 00_inbox/一堂-个人修身-泛产品设计实操口述版.md L1796,L1808-L1870,L1936-L2096,L2370-L2417,L4350-L4450,L5070-L5170,L5420-L5460

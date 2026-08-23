@@ -6,10 +6,11 @@ type: dk
 dark_knowledge_type: workflow
 status: reviewed
 domain:
-- yitang
 - ai-saas
 source_person: Truman
-source_context: 一堂建模能力培训，2026-06-12
+source_context:
+  - 一堂建模能力培训，2026-06-12
+  - yitang
 aliases:
   - 优先级
   - 分层
@@ -17,6 +18,9 @@ aliases:
   - 模型就建不好
   - 清单体写不好
   - 清单体写不好，模型就建不好：换行、分层、优先级、完备
+source_context:
+  - 一堂建模能力培训，2026-06-12
+  - yitang
 source_refs:
   - src_unknown
   - src_unknown

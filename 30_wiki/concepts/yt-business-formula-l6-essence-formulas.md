@@ -4,15 +4,16 @@ title: 业务公式 L6 魔法参数：跨行业本质公式集锦
 type: concept
 status: enriched
 domain:
-  - yitang
-  - master
-  - business-strategy
+- master
+- business-strategy
 aliases:
   - 业务公式
   - 业务公式L6魔法参数：跨行业本质公式集锦
   - 业本质公式集锦
   - 跨行业本质公式集锦
   - 魔法参数
+source_context:
+  - yitang
 source_refs:
   - src_unknown
   - src_unknown

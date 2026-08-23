@@ -30,7 +30,10 @@ discoverable_by:
 - 知识数据解耦
 - 核心词data pack
 - 插件式知识组合
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 知识层与数据层解耦：核心词 + data pack 插件式组合
 

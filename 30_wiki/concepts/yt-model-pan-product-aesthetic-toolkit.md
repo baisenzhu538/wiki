@@ -22,6 +22,10 @@ query_triggers:
 - 如何建立设计评审标准？
 - 拿到一个全新品类没参照怎么办？
 - 怎么从"这个好"进阶到"知道为什么好"？
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 discoverable_by:
 - 泛产品设计·审美工具箱4张卡牌
 - 泛产品设计

@@ -2,7 +2,8 @@
 id: tool-李诞-面对过去错误的平静心法
 title: 技能：面对过去错误的平静心法
 type: tool
-domain: unknown
+domain:
+- human-insights
 status: draft
 author: unknown
 reviewed_by: pending
@@ -23,7 +24,10 @@ discoverable_by:
 - 技能：面对过去错误的平静心法
 - 面对过去错误的平静心法
 related: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 技能：面对过去错误的平静心法
 

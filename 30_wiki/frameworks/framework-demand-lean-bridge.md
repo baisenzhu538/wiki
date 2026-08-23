@@ -11,7 +11,10 @@ created_at: 2026-06-23
 confidence: 0.82
 trust_level: medium
 language: zh-CN
-domain: unknown
+domain:
+- decision-making
+- kdo
+- master
 aliases: []
 source_refs: null
 related: null
@@ -20,7 +23,10 @@ discoverable_by:
 - 需求到精益衔接
 - 精益需求验证桥接
 updated_at: '2026-06-30'
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 需求判断与精益验证的衔接
 

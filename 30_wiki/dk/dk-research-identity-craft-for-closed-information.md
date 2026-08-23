@@ -17,6 +17,10 @@ aliases:
   - 取封闭情报设计合法身份
 source_refs:
 - 60_feedback/audit/synthesis_research.md
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 discoverable_by:
   - 为获取封闭情报设计合法身份
 related:

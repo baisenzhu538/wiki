@@ -6,7 +6,9 @@ id: master-systems-thinking
 title: 系统思考：反馈循环与杠杆点
 type: concept
 status: reviewed
-source_context: 一堂科学决策课程——系统思考、反馈循环与杠杆点
+source_context:
+  - 一堂科学决策课程——系统思考、反馈循环与杠杆点
+  - 一堂双三角磨合追求
 aliases:
   - 反馈循环与杠杆点
   - 循环与杠杆点
@@ -39,12 +41,11 @@ related:
 - '[[dk-c2-dual-status-machine]]'
 - '[[master-moc]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
-- 一堂双三角磨合追求
-- 五层进阶从答案到效率到作品到产品到系统
-- 从入门到无限进步
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 五层进阶从答案到效率到作品到产品到系统
+  - 从入门到无限进步
 ---
 
 

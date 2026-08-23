@@ -26,7 +26,10 @@ related:
 - '[[dk-f9-generic-critique]]'
 - '[[dk-kdo-leaky-pipe-pressure]]'
 - '[[kdo-protocol]]'
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 trust_level: medium
 author: unknown
 source_context: KDO improvement plan — internal process record （原始 source 无法追溯，已标记为

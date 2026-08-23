@@ -2,7 +2,9 @@
 id: prd-as-ai-instruction
 title: PRD文档作为AI可执行指令
 type: tool
-domain: src-unknown
+domain:
+- ai-collaboration
+- kdo
 status: reviewed
 aliases:
   - PRD文档作为AI可执行指令

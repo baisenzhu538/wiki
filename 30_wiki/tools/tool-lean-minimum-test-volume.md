@@ -18,11 +18,12 @@ quality_labels:
 updated_at: '2026-06-29'
 domain:
 - strategy
-- yitang
 - product
 aliases:
   - 只测试最小数量
   - 试最小数量
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212431_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212431_vlm_desc.md

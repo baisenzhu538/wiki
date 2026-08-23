@@ -14,6 +14,10 @@ trust_level: high
 related:
 - "[[framework-yihang-dual-triangle-weapon-library]]"
 - "[[framework-yihang-fde-ai-native-org]]"
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 
 # 能力中台架构方案

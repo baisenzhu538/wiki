@@ -6,7 +6,8 @@ confidence: 0.8
 created_at: 2026-05-11
 difficulty: advanced
 domain:
-- src_unknown
+- content
+- kdo
 estimated_tokens: 1426
 language: zh-CN
 prerequisites:
@@ -57,6 +58,10 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 
 # 美好作品想象：缺对标就自己想象

@@ -28,7 +28,10 @@ discoverable_by:
 - 一堂双三角
 - 双三角预判画布
 - 双三角案例
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 reviewed_by: pending
 ---
 # 一堂双三角-双三角预判画布

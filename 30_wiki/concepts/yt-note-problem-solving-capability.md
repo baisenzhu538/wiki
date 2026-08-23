@@ -3,7 +3,8 @@ id: yt-note-problem-solving-capability
 title: 笔记能力=解决问题能力：从备忘工具到问题解决系统
 type: concept
 status: reviewed
-domain: src-unknown
+domain:
+- content
 language: zh-CN
 version: 1
 confidence: 0.88
@@ -13,6 +14,8 @@ aliases:
   - 笔记能力=解决问题能力
   - 笔记能力=解决问题能力：从备忘工具到问题解决系统
   - 解决问题能力
+source_context:
+  - 时代清单体笔记
 source_refs:
 - 10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md
 discoverable_by:
@@ -54,10 +57,9 @@ diagnostic_signals:
 - framework_lens: 笔记是活的迭代系统
   follow_up_question: 这篇笔记在最近一周内是否被修改或引用过？
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
-- 时代清单体笔记
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 笔记能力=解决问题能力：从备忘工具到问题解决系统
 

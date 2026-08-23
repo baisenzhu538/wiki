@@ -3,7 +3,8 @@ id: yitang-qualitative-to-quantitative
 title: 一堂·从定性到定量：先证伪、后测量
 type: concept
 status: reviewed
-domain: src-unknown
+domain:
+- decision-making
 author: 王语嫣
 reviewed_by: 欧阳锋
 review_date: '2026-06-17'

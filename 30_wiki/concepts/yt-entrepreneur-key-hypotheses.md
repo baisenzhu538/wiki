@@ -3,7 +3,8 @@ id: yt-entrepreneur-key-hypotheses
 confidence: 0.85
 created_at: 2026-05-06
 difficulty: intermediate
-domain: src-unknown
+domain:
+- strategy
 estimated_tokens: 4200
 language: zh-CN
 prerequisites:

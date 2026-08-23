@@ -32,7 +32,10 @@ discoverable_by:
 - 五步法时间管理
 - 自管理场景实例化
 - 五步法应用到时间管理
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 一堂五步法在时间管理中的应用：自管理场景的完整实例化
 

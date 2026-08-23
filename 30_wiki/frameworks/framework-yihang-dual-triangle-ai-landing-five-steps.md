@@ -27,7 +27,10 @@ source_refs: null
 related: null
 discoverable_by:
 - 双三角AI落地五部曲
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 一行双三角AI落地五部曲
 

@@ -12,14 +12,18 @@ confidence: 0.75
 trust_level: medium
 language: zh-CN
 source_person: 张磊
-source_context: 张磊教练《精益测试关键问题》AMA 精华（2026-06-14），Q27 判断力训练产品验证陷阱答疑
+source_context:
+  - 张磊教练《精益测试关键问题》AMA 精华（2026-06-14），Q27 判断力训练产品验证陷阱答疑
+  - yitang
 domain:
 - lean-startup
-- yitang
 aliases:
   - 判断力训练产品的验证陷阱与反事实推演
   - 张磊
   - 张磊AMA：判断力训练产品的验证陷阱与反事实推演
+source_context:
+  - 张磊教练《精益测试关键问题》AMA 精华（2026-06-14），Q27 判断力训练产品验证陷阱答疑
+  - yitang
 source_refs:
 - 00_inbox/精益创业/张磊教练《精益测试关键问题》AMA精华 副本.md
 - 00_inbox/精益创业/张磊-精益方法论-AMA-口述-02.txt

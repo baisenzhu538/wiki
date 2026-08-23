@@ -6,8 +6,11 @@ type: decision
 status: draft
 domain: master
 tags:
-- src_unknown
-- src_unknown
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - src_unknown
+  - src_unknown
 created_at: 2026-05-31
 updated_at: '2026-06-16'
 target_roles:

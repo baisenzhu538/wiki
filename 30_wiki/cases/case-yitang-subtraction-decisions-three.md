@@ -5,10 +5,11 @@ title: 一堂减法决策三例：双直播间ROI、MBA提前第二趴、城市�
 type: case
 status: enriched
 domain:
-- yitang
 - business-strategy
 source_person: 孔阳
-source_context: 一堂业务公式管理篇（2026-07-12），三个减法决策案例：不做双直播间、把MBA提前到第二趴、不做城市巡回
+source_context:
+  - 一堂业务公式管理篇（2026-07-12），三个减法决策案例：不做双直播间、把MBA提前到第二趴、不做城市巡回
+  - yitang
 aliases:
   - MBA提前第二趴
   - 一堂减法决策三例
@@ -16,6 +17,9 @@ aliases:
   - 双直播间ROI
   - 城市巡回的定量评估
   - 孔阳
+source_context:
+  - 一堂业务公式管理篇（2026-07-12），三个减法决策案例：不做双直播间、把MBA提前到第二趴、不做城市巡回
+  - yitang
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L2816-L2898
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L2904-L2958

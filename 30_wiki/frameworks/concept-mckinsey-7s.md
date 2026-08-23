@@ -3,7 +3,8 @@ id: concept-mckinsey-7s
 title: 7-S Framework：组织诊断的七维模型
 type: framework
 status: enriched
-domain: src-unknown
+domain:
+- strategy
 aliases:
   - 7SFramework：组织诊断的七维模型
   - 组织诊断的七维模型

@@ -8,7 +8,8 @@ reviewed_by: 欧阳锋
 confidence: 0.78
 trust_level: medium
 language: zh-CN
-domain: unknown
+domain:
+- strategy
 aliases:
 - audience:executor
 - scene:execution
@@ -24,7 +25,10 @@ discoverable_by:
 related: null
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 项目背景分析：启动前的环境扫描
 

@@ -4,7 +4,8 @@ type: framework
 confidence: 0.8
 created_at: 2026-06-10
 difficulty: intermediate
-domain: src-unknown
+domain:
+- strategy
 estimated_tokens: 2800
 language: zh-CN
 query_triggers:

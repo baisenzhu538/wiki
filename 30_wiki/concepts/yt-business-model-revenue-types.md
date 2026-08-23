@@ -1,5 +1,6 @@
 ---
-domain: src-unknown
+domain:
+- strategy
 id: yt-business-model-revenue-types
 title: 收入模式：6种典型变现方式
 type: concept

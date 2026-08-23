@@ -50,7 +50,8 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-15'
 confidence: 0.8
 trust_level: medium
-domain: src-unknown
+domain:
+- strategy
 diagnostic_signals:
 - framework_lens: 组织学习闭环
   follow_up_question: 过去10次交付中，有多少次明确改进了某个模型或SOP？

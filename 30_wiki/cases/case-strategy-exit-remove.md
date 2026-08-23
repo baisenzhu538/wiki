@@ -6,7 +6,6 @@ type: case
 status: reviewed
 domain:
 - strategy
-- yitang
 author: 老顽童
 reviewed_by: 欧阳锋
 reviewed_at: '2026-07-04'
@@ -22,6 +21,8 @@ aliases:
   - 案例
   - 案例：撤退型布局2去除IBM郭士纳复兴
   - 郭士纳复兴
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_254_vlm_desc.md
 discoverable_by:

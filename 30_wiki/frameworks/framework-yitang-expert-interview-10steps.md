@@ -12,12 +12,20 @@ updated_at: 2026-06-20
 confidence: 0.85
 trust_level: medium
 language: zh-CN
-domain: yitang
+domain:
+- content
 difficulty: intermediate
 estimated_tokens: 4000
 version: 1
 query_triggers: null
 aliases: []
+source_context:
+  - 口述
+  - yitang
+  - 口述
+source_context:
+  - 口述
+  - yitang
 source_refs: null
 related: null
 discoverable_by:
@@ -30,7 +38,6 @@ tags:
   - 框架
   - 方法
   - 清单
-  - 口述
 ---
 # 专家访谈黄金十步法：从盲区梳理到专家匹配
 

@@ -1,5 +1,6 @@
 ---
-domain: src-unknown
+domain:
+- strategy
 id: yt-product-kernel-evolution
 title: 内核演化：从V1到Vn
 type: concept

@@ -1,12 +1,16 @@
 ---
-domain: src-unknown
+domain:
+- decision-making
+- strategy
 id: yt-demand-level-assessment
 title: 需求分析段位自评表：从L1到L6的进阶路径
 type: tool
 status: reviewed
 confidence: 0.92
 trust_level: high
-source_context: 一堂五步法需求分析——段位图与进阶路径
+source_context:
+  - 一堂五步法需求分析——段位图与进阶路径
+  - 一堂五步法
 aliases:
   - 从L1到L6的进阶路径
   - 需求分析段位自评表
@@ -42,12 +46,11 @@ diagnostic_signals:
 - framework_lens: 段位评估——团队能力断层
   follow_up_question: 你们团队对需求分析的理解和方法论有共识吗？能一起填一张拆推评算表吗？
 tags:
-- audience:executor
-- scene:execution
-- skill-level:advanced
-- 一堂五步法
-- 分析段位图
-- 段位示例
+  - audience:executor
+  - scene:execution
+  - skill-level:advanced
+  - 分析段位图
+  - 段位示例
 ---
 # 需求分析段位自评表：从L1到L6的进阶路径
 

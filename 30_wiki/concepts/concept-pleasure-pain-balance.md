@@ -24,6 +24,8 @@ aliases:
 - 拆书会第216期：《成瘾》逐字稿
 - 拆书会第216期
 - 转述自《成瘾》安娜·伦布克
+source_context:
+  - 拆书会
 source_refs:
 - 00_inbox/拆书会第216期：《成瘾》逐字稿.md#L25-L120
 - 00_inbox/拆书会第216期：《成瘾》逐字稿.md#L97-L120
@@ -35,23 +37,22 @@ related:
 - tool-self-binding-three-strategies
 - dk-AI知识库-隐性知识显性化60分原则
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
-- 神经科学
-- 多巴胺
-- 成瘾机制
-- 稳态
-- 对手过程
-- 行为改变
-- 快乐
-- 疼痛
-- 奖励通路
-- 耐受性
-- 机制
-- 悖论
-- 拆书会
-- 书籍转述
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 神经科学
+  - 多巴胺
+  - 成瘾机制
+  - 稳态
+  - 对手过程
+  - 行为改变
+  - 快乐
+  - 疼痛
+  - 奖励通路
+  - 耐受性
+  - 机制
+  - 悖论
+  - 书籍转述
 ---
 
 # 快乐-疼痛天平：对手过程理论与神经适应

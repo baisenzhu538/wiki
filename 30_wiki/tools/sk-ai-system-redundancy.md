@@ -4,10 +4,14 @@ title: 技能：系统冗余度快速检查清单
 type: tool
 status: reviewed
 domain:
-  - ai-collaboration
-  - yitang
+- ai-collaboration
 source_person: 水水
-source_context: 拆书会《偶然》分享，2026-06
+source_context:
+  - 拆书会《偶然》分享，2026-06
+  - yitang
+source_context:
+  - 拆书会《偶然》分享，2026-06
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260614_fb753683-世界发展-偶然与必然讨论.md
 wiki_refs: null

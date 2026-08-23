@@ -1,5 +1,7 @@
 ---
-domain: src-unknown
+domain:
+- decision-making
+- strategy
 id: yt-growth-growth-hacking
 title: 增长黑客：低成本快速实验
 type: concept

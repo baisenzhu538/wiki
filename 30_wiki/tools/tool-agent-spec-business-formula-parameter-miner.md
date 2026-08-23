@@ -11,13 +11,14 @@ language: zh-CN
 created_at: 2026-07-12
 updated_at: 2026-07-12
 domain:
-- yitang
 - methodology
 - ai-collaboration
 aliases:
 - 业务公式参数挖掘
 - 业务公式参数挖掘AgentSpec
 - 公式参数挖掘
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L954-L960
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1200-L1250

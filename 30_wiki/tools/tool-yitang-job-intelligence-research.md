@@ -13,7 +13,6 @@ confidence: 0.9
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 difficulty: intermediate
 estimated_tokens: 3000
@@ -31,6 +30,8 @@ aliases:
   - 招聘渠道情报：五层递进挖掘竞对内部信息
   - 渠道情报
   - 递进挖掘竞对内部信息
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt

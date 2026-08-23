@@ -6,12 +6,13 @@ type: dk
 dark_knowledge_type: cross-domain-pattern
 status: reviewed
 domain:
-- yitang
 - lean-startup
 - tob
 - modeling
 source_person: 张磊 / Truman / 徐剑
-source_context: 精益方法论培训、关键假设课、ToB五步法、建模训练
+source_context:
+  - 精益方法论培训、关键假设课、ToB五步法、建模训练
+  - yitang
 aliases:
   - 张磊 / Truman / 徐剑
   - 把工具/框架当成答案
@@ -19,6 +20,9 @@ aliases:
   - 是提问的脚手架
   - 框架当成答案
   - 而不是提问的脚手架
+source_context:
+  - 精益方法论培训、关键假设课、ToB五步法、建模训练
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260614_606a631d-张磊-精益方法论培训.md
 - 10_raw/sources/src_20260606_9dd317aa-一堂-关键假设课-truman-口述.md

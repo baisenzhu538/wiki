@@ -12,7 +12,6 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - Shodan：互联网设备搜索引擎发现竞对的技术栈
@@ -20,6 +19,8 @@ aliases:
   - 发现竞对的技术栈
   - 竞对的技术栈
   - 网设备搜索引擎
+source_context:
+  - yitang
 source_refs:
 - src_unknown
 - src_unknown

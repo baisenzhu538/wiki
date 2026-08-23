@@ -6,7 +6,10 @@ domain: research
 discoverable_by:
 - Agent 调研 Pipeline 模式工具
 - 模式工具
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 source_person: Truman（一堂）+ LangChain Team
 source_context: OSCAR 五步法的 Agent 自动化版本
 aliases:

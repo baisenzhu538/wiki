@@ -11,7 +11,8 @@ aliases:
 source_refs:
 - 10_raw/sources/src_20260614_071928f4-AI场景落地方法分享.md
 status: reviewed
-domain: src-unknown
+domain:
+- content
 created_at: '2026-06-06'
 updated_at: '2026-06-28'
 author: 老顽童

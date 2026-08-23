@@ -3,9 +3,12 @@ id: tool-半肥猫-ai-research-validation
 title: AI调研纠偏与验证技能：从'丝滑回答'到'证据决策'的六步闭环
 type: tool
 status: reviewed
-domain: src-unknown
+domain:
+- kdo
 source_person: 半肥猫
-source_context: AI俱乐部·AI学习落地（2026-06分享）
+source_context:
+  - AI俱乐部·AI学习落地（2026-06分享）
+  - 半肥猫
 aliases:
   - AI调研纠偏与验证技能
   - AI调研纠偏与验证技能：从'丝滑回答'到'证据决策'的六步闭环
@@ -55,11 +58,10 @@ diagnostic_signals:
 - lens: 业务脱节
   follow_up: 检查是否有真实业务问题需要解答，没有真实问题=练习而非调研
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
-- 俱乐部
-- 半肥猫
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 俱乐部
 ---
 # AI调研纠偏与验证技能：从“丝滑回答”到“证据决策”的六步闭环
 

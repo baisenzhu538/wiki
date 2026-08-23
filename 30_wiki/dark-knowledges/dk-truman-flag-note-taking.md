@@ -6,10 +6,11 @@ type: dk
 dark_knowledge_type: workflow
 status: reviewed
 domain:
-- yitang
 - note-taking
 source_person: Truman
-source_context: 一堂-AI时代清单体笔记-Truman-口述-02.md
+source_context:
+  - 一堂-AI时代清单体笔记-Truman-口述-02.md
+  - yitang
 aliases:
   - Truman
   - 化目标倒逼笔记中的真实思考量
@@ -17,6 +18,9 @@ aliases:
   - 立flag记笔法
   - 立flag记笔法：用量化目标倒逼笔记中的真实思考量
   - 记笔法
+source_context:
+  - 一堂-AI时代清单体笔记-Truman-口述-02.md
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260606_db4fc211-一堂-AI时代请单体笔记-Truman-口述-02.md
 discoverable_by:

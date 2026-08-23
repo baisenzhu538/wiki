@@ -5,7 +5,6 @@ title: 技能："找老的干小的"场景评估清单
 type: tool
 domain:
 - ai-collaboration
-- yitang
 - ai-saas
 status: draft
 author: unknown
@@ -18,8 +17,13 @@ aliases:
   - 技能
   - 技能：找老的干小的场景评估清单
   - 的干小的场景评估清单
+source_context:
+  - （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+  - yitang
 source_refs: null
-source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+source_context:
+  - （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+  - yitang
 updated_at: '2026-06-16'
 discoverable_by:
   - 技能：找老的干小的场景评估清单

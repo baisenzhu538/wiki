@@ -2,7 +2,8 @@
 id: tool-水水-用感性维度构建溢价
 title: 技能：用感性维度构建溢价
 type: tool
-domain: unknown
+domain:
+- design
 status: draft
 author: unknown
 reviewed_by: pending
@@ -23,7 +24,10 @@ discoverable_by:
 - 技能：用感性维度构建溢价
 - 用感性维度构建溢价
 related: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 技能：用感性维度构建溢价
 

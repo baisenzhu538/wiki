@@ -20,9 +20,12 @@ related:
   - "[[xingangwan-pharma-business-formulas]]"
   - "[[xingangwan-pharma-business-model-calc]]"
 tags:
-- src_unknown
-- src_unknown
-- src_unknown
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - src_unknown
+  - src_unknown
+  - src_unknown
 author: unknown
 source_context: KDO internal task tracking
 source_refs:

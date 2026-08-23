@@ -12,7 +12,6 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - five-step-method
 aliases:
   - 小馆人才选拔
@@ -21,6 +20,8 @@ aliases:
   - 频次高估
   - 麦家小馆人才选拔
   - 麦家小馆人才选拔频次高估
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/五步法之需求分析/需求评估避坑合集.md
 discoverable_by:

@@ -11,7 +11,6 @@ trust_level: medium
 language: zh-CN
 domain:
 - strategy
-- yitang
 - product
 aliases:
   - 借同行产品
@@ -19,6 +18,8 @@ aliases:
   - 品认知验证假设
   - 用竞品认知验证假设
   - 行产品
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212241_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212241_vlm_desc.md

@@ -4,7 +4,6 @@ title: To B 增长模式取舍：直销 vs 渠道
 type: framework
 status: enriched
 domain:
-- yitang
 - entrepreneurship
 - b2b
 - business-strategy
@@ -14,6 +13,8 @@ aliases:
 - 模式取舍
 - 渠道
 - 直销
+source_context:
+  - yitang
 source_refs:
   - src_unknown
 tags:

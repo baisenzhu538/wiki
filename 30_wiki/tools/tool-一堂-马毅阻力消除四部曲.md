@@ -11,7 +11,6 @@ language: zh-CN
 created_at: '2026-07-13'
 updated_at: '2026-07-13'
 domain:
-- yitang
 - conversion-rate
 aliases:
 - 一堂马毅阻力消除四部曲
@@ -19,6 +18,8 @@ aliases:
 - 上价值
 - 换角度
 - 肯定
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-阻力篇-口述.txt L2974-L3016
 discoverable_by:

@@ -31,6 +31,10 @@ source_refs:
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # Gold Standard — 欧阳锋手工标注 15 条 chunk
 

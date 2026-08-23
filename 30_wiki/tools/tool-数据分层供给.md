@@ -3,19 +3,23 @@ id: tool-数据分层供给
 title: 技能：数据分层供给
 type: tool
 domain:
-  - learning-methodology
-  - kdo
-  - product
-  - design
-  - yitang
+- learning-methodology
+- kdo
+- product
+- design
 status: draft
 source_person: Truman
-source_context: src_20260609_03491271
+source_context:
+  - src_20260609_03491271
+  - yitang
 aliases:
   - Truman
   - 技能
   - 技能：数据分层供给
   - 数据分层供给
+source_context:
+  - src_20260609_03491271
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset.md
 definition_of_done:

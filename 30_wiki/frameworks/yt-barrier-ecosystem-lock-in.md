@@ -1,5 +1,8 @@
 ---
-domain: src-unknown
+domain:
+- five-step-method
+- kdo
+- strategy
 id: yt-barrier-ecosystem-lock-in
 title: 生态锁定：平台壁垒
 type: framework

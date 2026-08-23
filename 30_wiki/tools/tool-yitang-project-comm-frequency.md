@@ -13,11 +13,12 @@ language: zh-CN
 created_at: 2026-07-08
 updated_at: 2026-07-08
 domain:
-- yitang
 - management
 aliases:
   - 不同沟通频次管理手段速查表
   - 沟通频次管理手段速查表
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/管项目/批注 2026-07-07 190510_vlm_desc.md
 discoverable_by:

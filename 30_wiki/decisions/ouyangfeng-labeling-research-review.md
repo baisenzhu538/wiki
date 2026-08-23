@@ -30,6 +30,10 @@ source_refs:
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 欧阳锋：数据标注全网调研 + 对 15 维度方案的补充建议
 

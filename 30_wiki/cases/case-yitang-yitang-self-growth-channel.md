@@ -4,7 +4,6 @@ type: case
 title: 案例：一堂自身如何三年增长十倍
 status: reviewed
 domain:
-- yitang
 - growth
 confidence: 0.8
 trust_level: high
@@ -26,6 +25,13 @@ aliases:
 - 案例
 - 案例：一堂自身如何三年增长十倍
 - 自身如何三年增长十倍
+source_context:
+  - 一堂五步法之增长
+  - yitang
+  - 一堂五步法之增长
+source_context:
+  - 一堂五步法之增长
+  - yitang
 source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-案例-一堂-渠道探索分析图.png
@@ -43,11 +49,10 @@ related:
 - '[[tool-yitang-referral-channel-optimization]]'
 review_date: '2026-06-28'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
-- 一堂五步法之增长
-- 渠道探索分析图
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 渠道探索分析图
 ---
 
 

@@ -3,9 +3,12 @@ id: tool-半肥猫-课程Skill化的八步工作流
 title: 技能：课程Skill化的八步工作流
 type: tool
 status: reviewed
-domain: src-unknown
+domain:
+- ai-collaboration
 source_person: 半肥猫
-source_context: AI俱乐部-AI学习落地 分享
+source_context:
+  - AI俱乐部-AI学习落地 分享
+  - 半肥猫
 aliases:
   - 半肥猫
   - 技能
@@ -62,11 +65,10 @@ diagnostic_signals:
 - lens: 拒绝能力不足
   follow_up: 检查第4步诊断协议是否包含拒绝条件、风险分级、触发边界
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
-- 半肥猫
-- 学习落地
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 学习落地
 ---
 # 技能：课程Skill化的八步工作流
 

@@ -6,9 +6,13 @@ type: case
 status: reviewed
 domain:
 - ai-collaboration
-- yitang
 source_person: 半肥猫
-source_context: AI俱乐部-AI学习落地 分享
+source_context:
+  - AI俱乐部-AI学习落地 分享
+  - 半肥猫
+  - yitang
+  - AI俱乐部-AI学习落地 分享
+  - 半肥猫
 aliases:
   - 不用
   - 半肥猫
@@ -16,6 +20,10 @@ aliases:
   - 案例：SkillA/B测试用Skillvs不用Skill的12维度对比
   - 测试
   - 维度对比
+source_context:
+  - AI俱乐部-AI学习落地 分享
+  - 半肥猫
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260619_08606b41_00_inbox_半肥猫_AI学习落地_口述.md
 created_at: 2026-06-07
@@ -38,11 +46,10 @@ wiki_refs: null
 definition_of_done: null
 pipeline: null
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
-- 半肥猫
-- 学习落地
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 学习落地
 ---
 
 # 案例：Skill A/B 测试

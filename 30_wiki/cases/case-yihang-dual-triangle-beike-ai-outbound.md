@@ -13,7 +13,6 @@ language: zh-CN
 created_at: 2026-07-03
 updated_at: 2026-07-03
 domain:
-- yitang
 - ai-collaboration
 - real-estate
 - call-center
@@ -25,6 +24,8 @@ aliases:
   - 双三角案例
   - 贝壳找房
   - 贝壳找房110个场景的AI外呼
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/人机协作双三角/[【组织】贝壳找房案例口述.pdf
 - 00_inbox/人机协作双三角/_processed/组织贝壳找房案例口述_text.md
@@ -48,9 +49,12 @@ related:
 - 组织贝壳找房案例口述
 - '[[agent-spec-dual-triangle-canvas-filler]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:advanced
+  - audience:general
+  - scene:reference
+  - skill-level:advanced
+  - 工作流
+  - 机制
+  - 方法
 ---
 
 # 一行双三角案例：贝壳找房 110 个场景的 AI 外呼

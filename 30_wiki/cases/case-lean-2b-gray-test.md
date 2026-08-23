@@ -13,10 +13,11 @@ trust_level: medium
 language: zh-CN
 domain:
 - strategy
-- yitang
 - product
 source_person: 一堂课程讲师（自身业务复盘）
-source_context: 一堂精益创业·低成本验证课程讲义
+source_context:
+  - 一堂精益创业·低成本验证课程讲义
+  - yitang
 aliases:
   - 一堂
   - 一堂2B内训灰度测试
@@ -24,6 +25,9 @@ aliases:
   - 内训灰度测试
   - 灰度测试
   - 自身业务复盘
+source_context:
+  - 一堂精益创业·低成本验证课程讲义
+  - yitang
 source_refs:
 - 00_inbox/精益创业/一堂2B内训的灰度测试_ocr_text.md
 - 00_inbox/精益创业/一堂2B内训的灰度测试_vlm_desc.md

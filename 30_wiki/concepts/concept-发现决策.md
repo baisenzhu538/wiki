@@ -10,7 +10,6 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
 - decision-science
 aliases:
   - 不是做出来的
@@ -19,6 +18,8 @@ aliases:
   - 发现决策：决策不是做出来的，是发现出来的
   - 是发现出来的
   - 现出来的
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-发现决策_vlm_desc.md
 discoverable_by:

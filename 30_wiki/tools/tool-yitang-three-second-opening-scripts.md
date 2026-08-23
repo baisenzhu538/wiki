@@ -11,11 +11,19 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-  - yitang
-  - sales
-  - business-strategy
+- sales
+- business-strategy
 source_person: 李蕊
-source_context: 一堂科学销售方法论课程（2026-07-08），销售专题口述稿二次深挖补产
+source_context:
+  - 一堂科学销售方法论课程（2026-07-08），销售专题口述稿二次深挖补产
+  - 口述
+  - yitang
+  - 一堂科学销售方法论课程（2026-07-08），销售专题口述稿二次深挖补产
+  - 口述
+source_context:
+  - 一堂科学销售方法论课程（2026-07-08），销售专题口述稿二次深挖补产
+  - 口述
+  - yitang
 source_refs:
   - 00_inbox/销售专题/李蕊-科学销售方法论-口述.txt L800-L814
   - 00_inbox/销售专题/李蕊-销售系统之五-销售工具箱-口述.txt L720,L2276-L2282
@@ -37,7 +45,6 @@ tags:
   - scene:execution
   - 工具
   - 方法
-  - 口述
 aliases:
   - 一通电话前三秒话术优化卡
   - 李蕊

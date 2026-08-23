@@ -13,7 +13,6 @@ language: zh-CN
 created_at: 2026-07-04
 updated_at: '2026-07-04'
 domain:
-- yitang
 - decision-science
 aliases:
   - 事实的典型代价
@@ -22,6 +21,8 @@ aliases:
   - 忽略事实的典型代价
   - 案例
   - 案例：小黄狗回收柜忽略事实的典型代价
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/实事求是/实事求是-周子敬-口述.txt
 - 60_feedback/extractions/extraction-shishi-qiushi-zhouzijing.md

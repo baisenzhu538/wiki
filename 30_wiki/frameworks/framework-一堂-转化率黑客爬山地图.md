@@ -10,7 +10,8 @@ trust_level: high
 language: zh-CN
 created_at: '2026-07-13'
 updated_at: '2026-07-13'
-domain: unknown
+domain:
+- content
 aliases:
 - audience:ceo
 - conversion
@@ -30,7 +31,10 @@ discoverable_by:
 - 转化率黑客爬山地图
 - L1-L6转化能力段位
 quality_labels: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 一堂转化率黑客爬山地图：六段 L1-L6 与三次跨越
 

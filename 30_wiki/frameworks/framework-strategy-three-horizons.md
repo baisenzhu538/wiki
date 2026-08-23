@@ -31,7 +31,10 @@ discoverable_by:
 - 短中长期业务
 - 业务组合管理
 - 创新地平线框架
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 三个地平线：短中长期业务组合管理
 

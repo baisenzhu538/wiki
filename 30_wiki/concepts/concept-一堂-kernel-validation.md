@@ -8,9 +8,10 @@ reviewed_by: 周伯通
 review_date: "2026-07-08"
 domain:
 - product
-- yitang
 source_person: Truman
-source_context: 一堂产品内核验证课（2026年）
+source_context:
+  - 一堂产品内核验证课（2026年）
+  - yitang
 aliases:
   - Truman
   - 三维度评估
@@ -18,6 +19,9 @@ aliases:
   - 产品内核验证：三维度评估+六策略验证
   - 六策略验证
   - 陈贤敏汉堡
+source_context:
+  - 一堂产品内核验证课（2026年）
+  - yitang
 source_refs:
 - src_unknown
 created_at: 2026-06-09

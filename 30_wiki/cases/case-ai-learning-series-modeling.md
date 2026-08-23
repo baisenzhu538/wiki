@@ -14,7 +14,6 @@ updated_at: 2026-08-16
 domain:
 - research
 - ai-basic
-- yitang
 aliases:
 - AI学习系列案例
 - 编程四级
@@ -25,7 +24,12 @@ aliases:
 - 马易
 - 爆炸式调研-上-口述
 source_person: 马易
-source_context: Live259 爆炸式调研（2026-08-11 口述）——AI 学习各案例的量级与分类
+source_context:
+  - Live259 爆炸式调研（2026-08-11 口述）——AI 学习各案例的量级与分类
+  - yitang
+source_context:
+  - Live259 爆炸式调研（2026-08-11 口述）——AI 学习各案例的量级与分类
+  - yitang
 source_refs:
 - 00_inbox/爆炸式调研/爆炸式调研-上-口述.txt
 - 00_inbox/爆炸式调研/爆炸式调研-下-口述.txt

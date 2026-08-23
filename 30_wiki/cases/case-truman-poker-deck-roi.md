@@ -3,9 +3,13 @@ id: case-truman-poker-deck-roi
 title: 扑克牌案例：同样的任务，两个同学评估结果截然相反
 type: case
 status: reviewed
-domain: src-unknown
+domain:
+- content
+- kdo
 source_person: Truman
-source_context: 一堂-科学决策-ROI决策高度实操课口述04（2026）
+source_context:
+  - 一堂-科学决策-ROI决策高度实操课口述04（2026）
+  - 决策高度实操课口述
 aliases:
   - Truman
   - 两个同学评估结果截然相反
@@ -40,16 +44,15 @@ diagnostic_signals:
 - framework_lens: 机会成本意识——小钱不等于低代价，关键看人日被占用后放弃了什么
   follow_up_question: 同样的人日投入，如果不做这个，能产出什么？那个替代选项的价值是否更高？
 tags:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- audience:general
-- scene:reference
-- skill-level:intermediate
-- 决策高度实操课口述
-- 科学决策
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - 科学决策
 ---
 # 扑克牌案例：同样的任务，两个同学评估结果截然相反
 

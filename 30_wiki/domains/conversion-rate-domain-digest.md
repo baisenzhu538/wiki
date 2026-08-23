@@ -6,9 +6,9 @@ status: enriched
 confidence: 0.86
 trust_level: high
 domain:
-- yitang
 - conversion-rate
 source_context: 一堂转化率黑客系列大课五篇（入门/动力/阻力/触点/组合，口述 24548 行）+ 143 张课件原图 VLM + 三篇案例逐字稿——关键假设
+  - yitang
   ABCD 体系中 D 域的完整骨架
 source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-入门篇-口述.txt L3052-L3054

@@ -5,10 +5,11 @@ title: 一堂复盘营五年：8 个参数到 200+ 参数、1000+ 假设，把�
 type: case
 status: enriched
 domain:
-- yitang
 - business-formula
 source_person: Truman（一堂创始人，课程主讲）
-source_context: 一堂「关键假设·业务公式」系列课进阶篇核心案例（复盘营五年四阶段全案）+ 参数探索篇参数演化复盘；附批注截图与假设实验结果表
+source_context:
+  - 一堂「关键假设·业务公式」系列课进阶篇核心案例（复盘营五年四阶段全案）+ 参数探索篇参数演化复盘；附批注截图与假设实验结果表
+  - yitang
 aliases:
   - Truman（一堂创始人，课程主讲）
   - 一堂复盘营五年
@@ -16,6 +17,9 @@ aliases:
   - 假设
   - 参数
   - 把低转高做成不靠红利的长期生意
+source_context:
+  - 一堂「关键假设·业务公式」系列课进阶篇核心案例（复盘营五年四阶段全案）+ 参数探索篇参数演化复盘；附批注截图与假设实验结果表
+  - yitang
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L314-L404
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L414-L530

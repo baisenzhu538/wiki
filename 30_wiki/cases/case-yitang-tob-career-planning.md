@@ -3,7 +3,9 @@ id: case-yitang-tob-career-planning
 title: 案例：新高考选科与生涯规划项目失败复盘
 type: case
 status: enriched
-domain: src-unknown
+domain:
+- decision-making
+- strategy
 aliases:
   - framework_lens: 业务天花板 / [[yt-tob-revenue-is-customer-cost]]
   - 新高考选科与生涯规划项目失败复盘
@@ -19,12 +21,15 @@ discoverable_by:
   - 案例：新高考选科与生涯规划项目失败复盘
   - 新高考选科与生涯规划项目失败复盘
 tags:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: '2026-06-16'
 updated_at: '2026-06-28'
 author: 董程滨（一堂学员）

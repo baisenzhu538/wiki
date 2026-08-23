@@ -13,7 +13,6 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 difficulty: intermediate
 estimated_tokens: 3000
@@ -32,6 +31,8 @@ aliases:
   - 浅中深三层
   - 浅中深三层10大评估法
   - 类业务调研手段
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/调研手段卡4（咨询类）_ocr_text.md
 - 00_inbox/调研专题/调研手段卡4（咨询类）_vlm_desc.md

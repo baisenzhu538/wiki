@@ -26,7 +26,8 @@ tags:
 - skill-level:intermediate
 type: concept
 status: draft
-domain: unknown
+domain:
+- master
 ---
 > **定位**：鑫港湾HIS系统 · 执行卡片（Execution Card）设计规范
 > **编制**：扫地僧 | 初版 2026-03-28 | 最新更新 2026-04-27（v2.8.0）

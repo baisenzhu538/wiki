@@ -10,7 +10,8 @@ trust_level: medium
 language: zh-CN
 created_at: 2026-07-08
 updated_at: 2026-07-08
-domain: unknown
+domain:
+- decision-making
 aliases:
 - AI 时代品味五维
 - taste-as-judgment-system
@@ -24,6 +25,10 @@ aliases:
 source_refs: null
 quality_labels: null
 related: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 discoverable_by:
 - 品味系统
 - 判断力审美系统

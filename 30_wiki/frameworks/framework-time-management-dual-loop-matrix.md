@@ -23,7 +23,10 @@ diagnostic_signals:
   lens: placeholder
   follow-up: 后续补全
 quality_labels: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 aliases: null
 ---
 # 时间管理双循环矩阵：独立/协作 × 重点/效率

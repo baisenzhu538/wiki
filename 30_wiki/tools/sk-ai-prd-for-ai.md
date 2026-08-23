@@ -3,7 +3,8 @@ id: sk-ai-prd-for-ai
 title: 技能：把PRD写成AI能执行的指令
 type: tool
 status: reviewed
-domain: src-unknown
+domain:
+- kdo
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地分享，2026-06
 aliases:

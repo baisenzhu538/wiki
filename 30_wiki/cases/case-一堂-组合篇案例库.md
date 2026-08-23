@@ -12,13 +12,17 @@ language: zh-CN
 created_at: '2026-07-13'
 updated_at: '2026-07-13'
 domain:
-- yitang
 - conversion-rate
-source_context: 收录《转化率黑客·组合篇》口述稿中用于说明动力、阻力、触点组合落地与文案讲香的案例
+source_context:
+  - 收录《转化率黑客·组合篇》口述稿中用于说明动力、阻力、触点组合落地与文案讲香的案例
+  - yitang
 aliases:
   - 一堂转化率黑客组合篇案例索引库动力×阻力×触点落地工作流
   - 触点落地工作流
   - 转化率黑客组合篇案例索引库动力
+source_context:
+  - 收录《转化率黑客·组合篇》口述稿中用于说明动力、阻力、触点组合落地与文案讲香的案例
+  - yitang
 source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L406-L482
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L554-L602

@@ -6,7 +6,6 @@ type: dk
 dark_knowledge_type: insight
 status: reviewed
 domain:
-- yitang
 - management
 author: 老顽童
 reviewed_by: 欧阳锋
@@ -15,7 +14,12 @@ confidence: 0.90
 trust_level: high
 language: zh-CN
 source_person: 老顽童（一堂）
-source_context: 一堂项目管理系列课——入门篇与定方案篇口述
+source_context:
+  - 一堂项目管理系列课——入门篇与定方案篇口述
+  - 口述
+  - yitang
+  - 一堂项目管理系列课——入门篇与定方案篇口述
+  - 口述
 aliases:
   - 匹配工具复杂度与项目复杂度
   - 的平衡暗知识
@@ -23,6 +27,10 @@ aliases:
   - 裸跑的平衡暗知识
   - 过度管理
   - 过度管理vs裸跑的平衡暗知识：匹配工具复杂度与项目复杂度
+source_context:
+  - 一堂项目管理系列课——入门篇与定方案篇口述
+  - 口述
+  - yitang
 source_refs:
 - 00_inbox/管项目/项目管理-入门篇-口述.txt
 - 00_inbox/管项目/项目管理-定方案-口述.txt
@@ -48,7 +56,6 @@ tags:
   - 方法
   - 管理者
   - 复盘
-  - 口述
 diagnostic_signals:
 - signal: 团队流程越加越多但产出越来越慢——团队开始厌恶流程，有人私下绕过所有规则做事
   lens: 进入了"过度管理死亡螺旋"——每一轮都加流程试图堵漏洞，但流程本身变成了最大瓶颈

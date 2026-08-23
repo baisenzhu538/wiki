@@ -35,7 +35,10 @@ diagnostic_signals:
 related:
   - '[[dk-delivery-path-type-bug]]'
   - '[[dk-借假修真与黑盒白盒]]'
-tags: []
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 reviewed_by: 欧阳锋
 review_date: '2026-06-17'
 author: 老顽童

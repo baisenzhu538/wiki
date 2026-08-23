@@ -36,6 +36,9 @@ related:
 - 'dk-three-context-formula'
 - '[[yt-product-kernel-competitive-positioning]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 技能：设计参考图精准定位法
 

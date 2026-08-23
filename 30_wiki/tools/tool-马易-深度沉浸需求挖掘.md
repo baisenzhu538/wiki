@@ -2,7 +2,8 @@
 id: tool-马易-深度沉浸需求挖掘
 title: 技能：深度沉浸需求挖掘
 type: tool
-domain: unknown
+domain:
+- ai-collaboration
 status: draft
 author: unknown
 reviewed_by: pending
@@ -23,7 +24,10 @@ discoverable_by:
 - 技能：深度沉浸需求挖掘
 - 深度沉浸需求挖掘
 related: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 技能：深度沉浸需求挖掘
 

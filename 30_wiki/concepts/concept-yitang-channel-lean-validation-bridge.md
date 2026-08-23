@@ -4,7 +4,6 @@ type: concept
 title: 渠道精益验证：把渠道 0→1 测试当作一种 MVP
 status: reviewed
 domain:
-- yitang
 - growth
 - lean-startup
 confidence: 0.8
@@ -20,6 +19,13 @@ aliases:
 - 渠道精益验证
 - 渠道精益验证：把渠道0→1测试当作一种MVP
 - 精益验证
+source_context:
+  - 一堂五步法之增长
+  - yitang
+  - 一堂五步法之增长
+source_context:
+  - 一堂五步法之增长
+  - yitang
 source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt
   - src_unknown
@@ -55,11 +61,10 @@ related:
 - '[[tool-yitang-industry-channel-arsenal-index]]'
 review_date: '2026-06-28'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
-- 一堂五步法之增长
-- 渠道探索方法论
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 渠道探索方法论
 ---
 # 渠道精益验证：把渠道 0→1 测试当作一种 MVP
 

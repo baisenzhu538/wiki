@@ -10,7 +10,9 @@ created_at: 2026-06-21
 confidence: 0.9
 trust_level: high
 language: zh-CN
-domain: unknown
+domain:
+- kdo
+- strategy
 aliases:
 - USP需求洞察模型
 - USP需求洞察模型：Demand=User×Situation×Problem
@@ -31,7 +33,10 @@ discoverable_by:
 - 用户场景问题模型
 - Demand = User × Situation × Problem
 updated_at: '2026-06-29'
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # USP需求洞察模型
 

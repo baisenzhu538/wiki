@@ -1,7 +1,7 @@
 ---
 
 domain:
-- yitang
+- strategy
 id: yt-market-size-estimation
 confidence: 0.9
 created_at: 2026-06-10
@@ -20,6 +20,8 @@ reviewed_by: 老顷童（精修）
 aliases:
   - 市场规模估算方法
   - 规模估算方法
+source_context:
+  - yitang
 source_refs:
 - src_unknown
 - src_unknown

@@ -13,12 +13,13 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - 加入竞对的用户/加盟商社群
   - 微信群潜伏
   - 微信群潜伏：加入竞对的用户/加盟商社群
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 discoverable_by:

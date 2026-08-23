@@ -13,7 +13,6 @@ confidence: 0.9
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - five-step-method
 aliases:
   - L3圈定核心任务
@@ -22,6 +21,8 @@ aliases:
   - 圈定核心任务
   - 方案中立的动词
   - 方案中立的动词+对象+语境
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/五步法之需求分析/AI场景推演教练提示词.txt
 discoverable_by:

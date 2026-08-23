@@ -19,7 +19,10 @@ diagnostic_signals:
   lens: Y模型的迭代是"假设→验证→新假设"的循环，但如果没有参数认知的积累，新假设不会比旧假设更好
   follow-up: 在Y模型每轮迭代后补一步"参数认知升级"：这轮验证让我们对哪个参数的理解深了一层？
 quality_labels: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 aliases: null
 ---
 <!--

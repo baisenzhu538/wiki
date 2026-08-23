@@ -9,7 +9,6 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - five-step-method
 aliases:
   - 四线家政
@@ -18,6 +17,8 @@ aliases:
   - 普遍性高
   - 踩坑
   - 踩坑：四线家政天花板误判。普遍性高≠能做大
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/五步法之需求分析/需求评估避坑合集.md
 discoverable_by:

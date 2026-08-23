@@ -5,7 +5,8 @@ component_of:
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: advanced
-domain: src-unknown
+domain:
+- decision-making
 estimated_tokens: 1281
 language: zh-CN
 prerequisites:

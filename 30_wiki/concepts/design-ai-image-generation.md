@@ -1,7 +1,10 @@
 ---
 id: design-ai-image-generation
 created_at: 2026-05-21
-domain: yitang
+domain:
+- design
+source_context:
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260522_38173b48-design-ai-image-generation.md
 status: reviewed

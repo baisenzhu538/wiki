@@ -2,7 +2,8 @@
 id: tool-马易-AI项目上线-先平行再独行
 title: 技能：AI项目上线-先平行再独行
 type: tool
-domain: unknown
+domain:
+- ai-collaboration
 status: draft
 author: unknown
 reviewed_by: pending
@@ -25,7 +26,10 @@ discoverable_by:
 - AI项目上线
 - 先平行再独行
 related: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 技能：AI项目上线-先平行再独行
 

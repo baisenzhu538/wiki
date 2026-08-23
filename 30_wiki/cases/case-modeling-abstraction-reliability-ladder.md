@@ -5,7 +5,6 @@ title: 抽象建模案例：知识可靠度四阶梯——从"听着很香"到"�
 type: case
 status: enriched
 domain:
-- yitang
 - master
 - modeling
 aliases:
@@ -15,6 +14,9 @@ aliases:
   - 抽象建模案例
   - 抽象建模案例：知识可靠度四阶梯从听着很香到没有反例
   - 知识可靠度四阶梯
+source_context:
+  - Truman-高阶建模-抽象建模-案例-图-02
+  - yitang
 source_refs:
   - src_unknown
   - src_unknown
@@ -39,7 +41,9 @@ created_at: 2026-06-15
 updated_at: '2026-06-29'
 author: 老顽童
 source_person: Truman
-source_context: Truman-高阶建模-抽象建模-案例-图-02
+source_context:
+  - Truman-高阶建模-抽象建模-案例-图-02
+  - yitang
 reviewed_by: 王语嫣
 review_date: 2026-06-16
 confidence: 0.8

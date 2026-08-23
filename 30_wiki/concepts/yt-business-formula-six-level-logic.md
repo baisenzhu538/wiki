@@ -1,19 +1,23 @@
 ---
 
 domain:
-- yitang
 - business-formula
 id: yt-business-formula-six-level-logic
 title: 业务公式六层逻辑关系冰山（L1 模糊理解 → L6 动态建模）
 type: concept
 status: enriched
-source_context: 一堂 2026-06-13 业务公式拆解培训，逻辑关系冰山 L1-L6 框架
+source_context:
+  - 一堂 2026-06-13 业务公式拆解培训，逻辑关系冰山 L1-L6 框架
+  - yitang
 aliases:
   - 业务公式六层逻辑关系冰山L1
   - 业务公式六层逻辑关系冰山L1模糊理解→L6动态建模
   - 公式六层逻辑关系冰山
   - 动态建模
   - 模糊理解
+source_context:
+  - 一堂 2026-06-13 业务公式拆解培训，逻辑关系冰山 L1-L6 框架
+  - yitang
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L220-L260
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L410-L430

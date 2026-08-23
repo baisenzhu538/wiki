@@ -5,7 +5,11 @@ type: system
 status: reviewed
 confidence: 0.9
 trust_level: high
-domain: src-unknown
+domain:
+- decision-making
+- kdo
+- master
+- research
 source_refs:
 - 30_wiki/frameworks/framework-yitang-oscar-research.md
 - 30_wiki/frameworks/framework-yitang-high-level-plan.md

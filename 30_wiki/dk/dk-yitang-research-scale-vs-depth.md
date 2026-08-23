@@ -13,7 +13,6 @@ confidence: 0.9
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - 信息精度的边际价值
@@ -21,6 +20,8 @@ aliases:
   - 精度的边际价值
   - 调研深度决定决策质量
   - 调研深度决定决策质量：信息精度的边际价值
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt

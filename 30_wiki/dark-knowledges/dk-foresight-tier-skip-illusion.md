@@ -6,7 +6,6 @@ type: dk
 dark_knowledge_type: insight
 status: reviewed
 domain:
-- yitang
 - business-strategy
 aliases:
   - 为什么看到第
@@ -15,6 +14,8 @@ aliases:
   - 暗知：终局光谱图的'跳级幻觉'为什么看到第7级就忽视了第3级的人，死得最快
   - 死得最快
   - 终局光谱图的'跳级幻觉
+source_context:
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260606_f6cb0868-一堂-机会预判课-Truman-口述.md
 - 10_raw/sources/src_20260606_c996cb6a-一堂-机会预判课-truman-笔记.md

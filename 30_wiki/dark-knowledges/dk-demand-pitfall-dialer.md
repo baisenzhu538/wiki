@@ -9,7 +9,6 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - five-step-method
 aliases:
   - 小胖猴拨号器
@@ -18,6 +17,8 @@ aliases:
   - 踩坑
   - 踩坑：小胖猴拨号器需求→方案跳跃。跳过L3直接到L6
   - 需求→方案跳跃。跳过L3直接到L6
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/五步法之需求分析/需求评估避坑合集.md
 discoverable_by:

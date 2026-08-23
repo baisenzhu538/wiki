@@ -12,13 +12,14 @@ confidence: 0.8
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - 案例
   - 案例：餐饮连锁对标调研
   - 连锁对标调研
   - 餐饮连锁对标调研
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/Doris-行业报告调研-口述.txt
 discoverable_by:

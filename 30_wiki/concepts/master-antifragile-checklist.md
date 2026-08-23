@@ -6,7 +6,9 @@ id: master-antifragile-checklist
 title: 反脆弱决策检查清单
 type: tool
 status: reviewed
-source_context: 一堂科学决策课程——反脆弱决策检查清单
+source_context:
+  - 一堂科学决策课程——反脆弱决策检查清单
+  - 决策高度实操课口述
 aliases:
   - 反脆弱决策检查清单
   - 弱决策检查清单
@@ -34,12 +36,11 @@ related:
 - '[[graph-rag]]'
 - '[[tool-ai-use-barbell-strategy]]'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
-- 关键训练清单重要
-- 决策经验值
-- 决策高度实操课口述
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 关键训练清单重要
+  - 决策经验值
 ---
 
 # 反脆弱决策检查清单

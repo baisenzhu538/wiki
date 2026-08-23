@@ -12,13 +12,14 @@ language: zh-CN
 created_at: '2026-07-08'
 updated_at: '2026-07-14'
 domain:
-- yitang
 - product-kernel
 - agent
 aliases:
   - 产品内核验证阶梯
   - 产品内核验证阶梯AgentSpec
   - 内核验证阶梯
+source_context:
+  - yitang
 source_refs:
 - .agent/prompts/tool-agent-spec-yitang-kernel-verification-ladder.md
 tcp_role: C

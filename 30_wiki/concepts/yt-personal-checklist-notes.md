@@ -29,15 +29,16 @@ review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效
 aliases:
 - 体笔记一堂笔记法
 - 清单体笔记一堂笔记法
+source_context:
+  - 清单体笔记系统故事线
 source_refs:
   - src_unknown
 discoverable_by:
 - 清单体笔记一堂笔记法
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
-- 清单体笔记系统故事线
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 type: concept
 status: draft
 related:

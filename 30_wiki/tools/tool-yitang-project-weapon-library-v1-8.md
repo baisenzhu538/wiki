@@ -9,7 +9,8 @@ review_date: 2026-07-07
 confidence: 0.95
 trust_level: high
 language: zh-CN
-domain: yitang
+domain:
+- master
 aliases:
 - - - framework-yitang-project-abcd-classification
 - - - framework-yitang-project-breakdown
@@ -29,6 +30,8 @@ aliases:
 - - - yt-management-toolkit-overview
 - - - yt-tool-project-health-radar
 - 项目管理武器库V1.8入口索引卡
+source_context:
+  - yitang
 source_refs: null
 discoverable_by:
 - 项目管理武器库V1.8入口索引卡

@@ -11,17 +11,25 @@ language: zh-CN
 created_at: 2026-07-04
 updated_at: 2026-07-05
 domain:
-- yitang
+- strategy
+source_context:
+  - [['concept-yitang-model-system-boundary']]
+  - [['method-yitang-y-model-engine-cycle']]
+  - yitang
+  - [[concept-yitang-model-system-boundary]]
+  - [[method-yitang-y-model-engine-cycle]]
+source_context:
+  - [['concept-yitang-model-system-boundary']]
+  - [['method-yitang-y-model-engine-cycle']]
+  - yitang
 source_refs:
 - 00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-口述.txt
 - 60_feedback/extractions/extraction-kexue-linian-y-model.md
 related:
 tags:
-- audience:general
-- scene:reference
-- "[[yt-decision-y-model]]"
-- "[[concept-yitang-model-system-boundary]]"
-- "[[method-yitang-y-model-engine-cycle]]"
+  - audience:general
+  - scene:reference
+  - [[yt-decision-y-model]]
 ---
 
 # Y模型 只服务于"希望在未来真实世界持续成事的人"

@@ -11,7 +11,8 @@ created_at: 2026-06-23
 confidence: 0.85
 trust_level: high
 language: zh-CN
-domain: unknown
+domain:
+- strategy
 aliases:
 - audience:ceo
 - scene:diagnosis
@@ -30,7 +31,10 @@ discoverable_by:
 - 五步法与精益验证
 - 需求到MVP衔接
 updated_at: '2026-06-30'
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 五步法与精益验证的接口
 

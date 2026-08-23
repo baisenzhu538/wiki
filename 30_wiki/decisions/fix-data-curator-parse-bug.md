@@ -26,6 +26,10 @@ source_refs:
 reviewed_by: pending
 confidence: 0.75
 trust_level: medium
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # Data Curator Phase 2 Clean — parse_frontmatter 修复方案
 

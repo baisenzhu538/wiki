@@ -4,7 +4,8 @@ title: KDO 内容路线决策：建模能力在知识库建设中的应用
 type: decision
 status: enriched
 confidence: 0.78
-domain: src-unknown
+domain:
+- kdo
 source_refs: []
 related:
   - "[[concept-X型Y型决策习惯]]"
@@ -21,9 +22,12 @@ related:
   - '[[kdo-ec-industrialization-migration-proposal]]'
   - '[[workflow-knowledge-collision]]'
 tags:
-- src_unknown
-- src_unknown
-- src_unknown
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 老顽童
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 review_date: 2026-06-17

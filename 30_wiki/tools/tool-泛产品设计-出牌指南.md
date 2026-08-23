@@ -7,7 +7,6 @@ confidence: 0.82
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - pan-product
 priority: P1
 author: 老顽童
@@ -15,6 +14,8 @@ reviewed_by: 欧阳锋
 review_date: 2026-07-08
 created_at: 2026-07-08
 updated_at: 2026-07-08
+source_context:
+  - yitang
 source_refs:
 - 30_wiki/concepts/yt-model-pan-product-demand-toolkit.md
 - 10_raw/ocr-cards/ocr-一堂泛产品设计-多出牌多练习.md

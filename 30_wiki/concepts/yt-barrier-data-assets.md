@@ -1,5 +1,7 @@
 ---
-domain: src-unknown
+domain:
+- five-step-method
+- strategy
 id: yt-barrier-data-assets
 title: 数据资产：数据网络效应
 type: concept

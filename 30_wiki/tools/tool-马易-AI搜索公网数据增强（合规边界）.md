@@ -2,7 +2,9 @@
 id: tool-马易-AI搜索公网数据增强（合规边界）
 title: 技能：AI搜索公网数据增强（合规边界）
 type: tool
-domain: unknown
+domain:
+- ai-collaboration
+- decision-making
 status: draft
 author: unknown
 reviewed_by: pending
@@ -23,7 +25,10 @@ discoverable_by:
 - 技能：AI搜索公网数据增强合规边界
 - AI搜索公网数据增强合规边界
 related: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 技能：AI搜索公网数据增强（合规边界）
 

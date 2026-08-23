@@ -11,7 +11,6 @@ trust_level: medium
 language: zh-CN
 domain:
 - strategy
-- yitang
 - product
 aliases:
   - 借搭建工具
@@ -19,6 +18,8 @@ aliases:
   - 建工具
   - 成系统跑业务流
   - 用现成系统跑业务流
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212311_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212311_vlm_desc.md

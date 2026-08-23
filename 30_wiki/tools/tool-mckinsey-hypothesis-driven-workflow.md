@@ -11,7 +11,8 @@ source_refs:
 - src_unknown
 - 'src_unknown'
 status: enriched
-domain: src-unknown
+domain:
+- kdo
 bridges_to:
 - relation: provides_foundation_for
   description: 假设驱动工作流是三板斧的通用化底层框架

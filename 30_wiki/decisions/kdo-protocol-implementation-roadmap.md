@@ -10,7 +10,10 @@ id: kdo-protocol-implementation-roadmap
 created_at: '2026-05-03'
 updated_at: '2026-06-16'
 related: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 trust_level: medium
 reviewed_by: Claude
 review_date: '2026-05-03'

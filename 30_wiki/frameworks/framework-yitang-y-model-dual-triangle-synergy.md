@@ -6,7 +6,6 @@ status: reviewed
 reviewed_by: 欧阳锋
 review_date: 2026-07-04
 domain:
-- yitang
 - decision-science
 - ai-collaboration
 - methodology
@@ -21,6 +20,8 @@ aliases:
   - Y模型×双三角协同工作法
   - 双三角协同工作法
   - 角协同工作法
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-口述.txt
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt

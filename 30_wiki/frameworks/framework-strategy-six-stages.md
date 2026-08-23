@@ -31,6 +31,9 @@ discoverable_by:
   - "不同阶段核心命题"
 updated_at: '2026-06-29'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 六阶段企业生命周期
 

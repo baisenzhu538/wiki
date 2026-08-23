@@ -27,7 +27,10 @@ discoverable_by:
 - AI可以落地的场景假设 — 双三角案例
 - AI可以落地的场景假设
 - 双三角案例
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 reviewed_by: pending
 ---
 # AI可以落地的场景假设

@@ -9,12 +9,16 @@ domain:
 - feishu
 - extraction
 - browser-automation
-- yitang
 author: 段王爷（南帝）
+source_context:
+  - 2026-08-15 提取 yitang.top/fs-doc Live259《爆炸式调研》逐字稿并发布飞书
+  - yitang
 source_refs:
 - capability/duanwangye/feishu-doc-l3-extraction
 source_person: 段王爷（南帝）实战
-source_context: 2026-08-15 提取 yitang.top/fs-doc Live259《爆炸式调研》逐字稿并发布飞书
+source_context:
+  - 2026-08-15 提取 yitang.top/fs-doc Live259《爆炸式调研》逐字稿并发布飞书
+  - yitang
 reviewed_by: 欧阳锋
 aliases:
 - Live259提取

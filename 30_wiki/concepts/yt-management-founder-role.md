@@ -1,7 +1,9 @@
 ---
 title: 一号位
 type: concept
-domain: src-unknown
+domain:
+- decision-making
+- strategy
 status: reviewed
 pipeline:
 - src_unknown

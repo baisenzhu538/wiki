@@ -6,7 +6,10 @@ domain: management
 discoverable_by:
 - Red Team Analysis红队分析/竞对视角模拟
 - Analysis红队分析/竞对视角模拟
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 source_person: Richards J. Heuer Jr. + Truman（一堂）
 source_context: SATs 反向类技术工具化实现
 aliases:

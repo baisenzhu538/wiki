@@ -10,6 +10,10 @@ updated_at: '2026-08-20'
 related:
 - 'dk-best-datasource-is-floor'
 - 'framework-truman-agent-team-architecture'
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 
 # 重构协同：关于AI Native团队的思考

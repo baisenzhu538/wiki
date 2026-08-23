@@ -4,16 +4,24 @@ title: 技能：优先使用官方权威信源做证据
 type: tool
 status: reviewed
 domain:
-  - src-unknown
-  - yitang
+- research
 source_person: 半肥猫
-source_context: AI俱学乐部-AI学习落地 分享
+source_context:
+  - AI俱学乐部-AI学习落地 分享
+  - 半肥猫
+  - yitang
+  - AI俱学乐部-AI学习落地 分享
+  - 半肥猫
 aliases:
   - 优先使用官方权威信源做证据
   - 使用官方权威信源做证据
   - 半肥猫
   - 技能
   - 技能：优先使用官方权威信源做证据
+source_context:
+  - AI俱学乐部-AI学习落地 分享
+  - 半肥猫
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md
 tools_required:
@@ -50,11 +58,10 @@ diagnostic_signals:
 - lens: 贴近真实业务场景
   follow_up: 要求补充中国地区、目标用户规模、行业真实案例等本地化权威数据
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
-- 半肥猫
-- 学习落地
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 学习落地
 ---
 # 技能：优先使用官方权威信源做证据
 

@@ -3,7 +3,9 @@ id: sk-ai-parallel-validation
 title: 技能：平行运行验证法
 type: tool
 status: reviewed
-domain: src-unknown
+domain:
+- decision-making
+- design
 source_person: 马易
 source_context: AI俱乐部-AI落地场景识别分享，2026-06
 aliases:

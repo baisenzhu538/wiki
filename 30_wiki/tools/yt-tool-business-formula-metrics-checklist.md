@@ -13,7 +13,10 @@ aliases:
 - skill-level:intermediate
 - 业务公式数据埋点设计清单
 source_refs: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 type: tool
 domain: business-formula
 ---

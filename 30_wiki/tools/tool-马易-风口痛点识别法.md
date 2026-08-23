@@ -2,7 +2,9 @@
 id: tool-马易-风口痛点识别法
 title: 技能：风口痛点识别法
 type: tool
-domain: unknown
+domain:
+- ai-collaboration
+- design
 status: reviewed
 author: unknown
 reviewed_by: 欧阳锋
@@ -24,7 +26,10 @@ discoverable_by:
 - 技能：风口痛点识别法
 - 风口痛点识别法
 related: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 技能：风口痛点识别法
 

@@ -13,7 +13,6 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 difficulty: basic
 estimated_tokens: 1500
@@ -30,6 +29,8 @@ aliases:
   - 加法
   - 对标公司选择三步法
   - 对标公司选择三步法：加法减法三原则
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/一堂-上市公司报告解读-口述.txt
 discoverable_by:

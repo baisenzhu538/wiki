@@ -5,7 +5,8 @@ type: prompt-template
 status: reviewed
 confidence: 0.92
 trust_level: high
-domain: src-unknown
+domain:
+- design
 prompt_role: 你是一位拥有'上帝视角'的顶级商业洞察大师，受过麦肯锡、一堂教育及第一性原理思维的深度训练
 prompt_methodology: USP需求模型 + 五层深度分析 + 2B/2C全量字典 + 五步法画布
 prompt_version: 1.0.0

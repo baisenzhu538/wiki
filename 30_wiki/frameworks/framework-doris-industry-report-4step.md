@@ -12,7 +12,8 @@ updated_at: 2026-06-20
 confidence: 0.85
 trust_level: medium
 language: zh-CN
-domain: unknown
+domain:
+- strategy
 difficulty: intermediate
 estimated_tokens: 3500
 version: 1
@@ -25,7 +26,10 @@ discoverable_by:
 - 四步法行业认知
 - 7天建立行业认知
 - Doris行业调研法
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 行业报告调研四步法：7天快速建立行业认知
 

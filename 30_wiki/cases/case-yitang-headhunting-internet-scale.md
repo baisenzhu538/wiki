@@ -13,7 +13,6 @@ language: zh-CN
 created_at: 2026-07-04
 updated_at: '2026-07-04'
 domain:
-- yitang
 - decision-science
 aliases:
   - 互联网做大
@@ -22,6 +21,8 @@ aliases:
   - 案例：猎头互联网做大忽视行业结构性限制
   - 猎头互联网做大
   - 行业结构性限制
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/实事求是/实事求是-周子敬-口述.txt
 - 60_feedback/extractions/extraction-shishi-qiushi-zhouzijing.md

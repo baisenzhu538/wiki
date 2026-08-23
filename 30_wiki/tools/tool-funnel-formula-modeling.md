@@ -14,7 +14,8 @@ source_refs:
 - 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
 - 10_raw/sources/src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript.md
 status: reviewed
-domain: src-unknown
+domain:
+- modeling
 discoverable_by:
   - 漏斗图/公式建模法：量化流程与关键变量
   - 漏斗图/公式建模法

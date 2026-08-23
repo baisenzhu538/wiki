@@ -21,7 +21,10 @@ diagnostic_signals:
   lens: placeholder
   follow-up: 后续补全
 quality_labels: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 aliases: null
 ---
 # 重要/紧急四象限（艾森豪威尔矩阵）

@@ -29,7 +29,10 @@ discoverable_by:
 - 加外挂换路换轮子
 - 企业变革路径
 - 战略转型框架
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 **三种变革方式**（对应不同阶段）：
 1. **加外挂**：在现有业务和能力基础上，叠加新能力或新渠道，提升效率和规模。

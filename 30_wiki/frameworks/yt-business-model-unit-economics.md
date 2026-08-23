@@ -1,5 +1,6 @@
 ---
-domain: src-unknown
+domain:
+- strategy
 id: yt-business-model-unit-economics
 title: 单元经济学：LTV > CAC
 type: framework

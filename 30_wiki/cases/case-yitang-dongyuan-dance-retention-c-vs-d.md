@@ -5,10 +5,10 @@ title: 少儿舞蹈学校：续班率打不动时，退回业务公式找战场�
 type: case
 status: reviewed
 domain:
-- yitang
 - business-strategy
 source_person: 董原
 source_context: 一堂「落地之夜第六场」直播 Live 第 255 场案例分享（2026），太原跃小兔少儿舞蹈学校，学期制续费模式下扩张后续班率从约
+  - yitang
   90% 跌到 80%，靠"业务公式找战场 + 转化率打节点"重回 90%+
 aliases:
   - 再用转化率打节点C↔D

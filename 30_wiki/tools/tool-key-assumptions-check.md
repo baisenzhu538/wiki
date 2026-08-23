@@ -2,7 +2,8 @@
 id: tool-key-assumptions-check
 title: Key Assumptions Check（隐藏假设检验）
 type: tool
-domain: yitang
+domain:
+- decision-making
 discoverable_by:
 - Key Assumptions Check隐藏假设检验
 - Check隐藏假设检验
@@ -15,7 +16,9 @@ tags:
   - 方法
   - 复盘
 source_person: Richars J. Heuer Jr. + Truman（一堂）
-source_context: SATs 诊断类技术工具化实现
+source_context:
+  - SATs 诊断类技术工具化实现
+  - yitang
 aliases:
 - Check隐藏假设检验
 - KeyAssumptionsCheck隐藏假设检验
@@ -31,6 +34,9 @@ aliases:
 - 三个新盲区
 - 外部知识探索
 - 隐藏假设检验
+source_context:
+  - SATs 诊断类技术工具化实现
+  - yitang
 source_refs: null
 related: null
 status: reviewed

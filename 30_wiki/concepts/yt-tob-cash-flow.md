@@ -3,7 +3,8 @@ id: yt-tob-cash-flow
 title: To B 现金流管理：自由现金流比账面利润更重要
 type: concept
 status: draft
-domain: src-unknown
+domain:
+- strategy
 aliases:
   - ToB现金流管理：自由现金流比账面利润更重要
   - 流管理

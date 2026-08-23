@@ -2,7 +2,8 @@
 id: case-ether-online-acquisition
 title: 案例：以太利用全网调研能力快速获客
 type: case
-domain: src-unknown
+domain:
+- strategy
 status: enriched
 problem_domains:
 - src_unknown

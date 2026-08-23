@@ -12,12 +12,13 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 - ai-collaboration
 aliases:
   - AI调研中人机协作的判断节点
   - 调研中人机协作的判断节点
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/高阶调研行动营01.txt
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt

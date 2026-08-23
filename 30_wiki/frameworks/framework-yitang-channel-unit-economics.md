@@ -3,7 +3,11 @@ id: framework-yitang-channel-unit-economics
 type: framework
 title: 渠道单元经济模型：把每个获客渠道当作独立经济单元核算
 status: reviewed
-domain: yitang
+domain:
+- business-formula
+- decision-making
+- modeling
+- strategy
 confidence: 0.8
 trust_level: medium
 author: 老顽童
@@ -23,6 +27,13 @@ aliases:
 - 渠道单元经济模型
 - 渠道单元经济模型：把每个获客渠道当作独立经济单元核算
 - 道单元经济模型
+source_context:
+  - 口述
+  - yitang
+  - 口述
+source_context:
+  - 口述
+  - yitang
 source_refs: null
 source_person: Truman
 note: 本框架核心公式与案例来自 Truman 口述/笔记及一堂内部案例（L5 单源），单元经济概念跨域引自 yt-unit-model-concept/overview；外部基准阈值未找到独立验证来源，已删除或改为业务自定口径。
@@ -39,7 +50,6 @@ tags:
   - 单元模型
   - 投资
   - 方法
-  - 口述
 ---
 # 渠道单元经济模型：把每个获客渠道当作独立经济单元核算
 

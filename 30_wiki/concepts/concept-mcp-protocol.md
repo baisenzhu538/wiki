@@ -12,7 +12,6 @@ confidence: 0.82
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 - ai-collaboration
 aliases:
@@ -20,6 +19,8 @@ aliases:
   - MCP协议
   - MCP协议：Agent调用外部工具的统一标准
   - 调用外部工具的统一标准
+source_context:
+  - yitang
 source_refs: null
 discoverable_by:
   - MCP协议：Agent调用外部工具的统一标准

@@ -19,6 +19,8 @@ aliases:
 - 善用佳软
 - 落地卡片
 - 落地卡片：善用佳软
+source_context:
+  - 口述
 source_refs: null
 tags:
   - audience:general
@@ -28,7 +30,6 @@ tags:
   - 工具
   - 方法
   - 清单
-  - 口述
 discoverable_by:
 - 落地卡片：善用佳软
 - 落地卡片

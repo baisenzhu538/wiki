@@ -3,9 +3,8 @@ id: tool-ai-oral-spray-input
 title: 技能：用口喷输入法生成高质量 AI 提示词
 type: tool
 domain:
-  - ai-collaboration
-  - yitang
-  - ai-saas
+- ai-collaboration
+- ai-saas
 status: draft
 author: unknown
 reviewed_by: pending
@@ -18,8 +17,17 @@ aliases:
   - 技能：用口喷输入法生成高质量AI提示词
   - 提示词
   - 用口喷输入法生成高质量
+source_context:
+  - （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+  - 口述
+  - yitang
 source_refs: null
-source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+source_context:
+  - （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+  - 口述
+  - yitang
+  - （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+  - 口述
 updated_at: '2026-06-29'
 discoverable_by:
   - 技能：用口喷输入法生成高质量 AI 提示词
@@ -40,7 +48,6 @@ tags:
   - skill-level:beginner
   - 提示词
   - 工具
-  - 口述
 ---
 # 技能：用口喷输入法生成高质量 AI 提示词
 

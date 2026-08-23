@@ -27,7 +27,10 @@ discoverable_by:
 - 王欢任务产品系统演进
 diagnostic_signals: null
 follow_up: 绘制数据流图，识别自动触发点与人工验收点，设计最小闭环
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 王欢任务→产品→系统演进框架
 

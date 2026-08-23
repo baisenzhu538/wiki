@@ -2,7 +2,9 @@
 id: yt-foresight-ten-fatal-flaws
 title: 十大硬伤：商业机会的致死缺陷清单
 type: tool
-domain: src-unknown
+domain:
+- decision-making
+- strategy
 status: enriched
 confidence: 0.88
 trust_level: high

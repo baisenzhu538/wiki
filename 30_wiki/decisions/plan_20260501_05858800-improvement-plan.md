@@ -29,6 +29,10 @@ related:
 - '[[plan_20260501_ca61cdd7-improvement-plan]]'
 - '[[plan_20260501_e1e150b9-improvement-plan]]'
 - '[[kdo-batch-produce-req014]]'
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # Improvement Plan plan_20260501_05858800
 

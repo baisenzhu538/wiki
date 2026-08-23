@@ -12,7 +12,6 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - 反向图片搜索
@@ -20,6 +19,8 @@ aliases:
   - 图片搜索
   - 图片来源和真实性
   - 追踪图片来源和真实性
+source_context:
+  - yitang
 source_refs:
 - src_unknown
 - src_unknown

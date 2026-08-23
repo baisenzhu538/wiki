@@ -8,7 +8,10 @@ reviewed_by: 欧阳锋
 confidence: 0.78
 trust_level: medium
 language: zh-CN
-domain: unknown
+domain:
+- content
+- kdo
+- strategy
 aliases:
 - audience:executor
 - scene:execution
@@ -23,7 +26,10 @@ discoverable_by:
 - 从用户身上挖出真实需求
 related: null
 updated_at: '2026-06-29'
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 需求挖掘：从用户身上挖出真实需求
 

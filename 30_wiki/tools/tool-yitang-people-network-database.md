@@ -13,7 +13,6 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - 人脉库检索
@@ -21,6 +20,8 @@ aliases:
   - 化搜索目标公司的员工
   - 库检索
   - 系统化搜索目标公司的员工
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 discoverable_by:

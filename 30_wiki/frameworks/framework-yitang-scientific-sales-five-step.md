@@ -10,14 +10,22 @@ trust_level: high
 language: zh-CN
 domain:
 - business-strategy
-- yitang
 - management
 source_person: 李蕊
-source_context: 一堂科学销售方法论课程（2026-07-02），销售专题九层深挖诊断
+source_context:
+  - 一堂科学销售方法论课程（2026-07-02），销售专题九层深挖诊断
+  - 整合笔记
+  - yitang
+  - 一堂科学销售方法论课程（2026-07-02），销售专题九层深挖诊断
+  - 整合笔记
 aliases:
   - 一堂科学销售五步法
   - 李蕊
   - 科学销售五步法
+source_context:
+  - 一堂科学销售方法论课程（2026-07-02），销售专题九层深挖诊断
+  - 整合笔记
+  - yitang
 source_refs:
 - 00_inbox/销售专题/_processed/销售专题_整合笔记.md
 - 60_feedback/diagnosis/diag_20260702_yitang-scientific-sales-methodology.md
@@ -84,10 +92,9 @@ related:
 created_at: 2026-07-02
 updated_at: 2026-07-08
 tags:
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
-- 整合笔记
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:advanced
 discoverable_by:
 - 科学销售方法
 - 销售五步法

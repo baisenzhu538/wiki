@@ -5,7 +5,6 @@ type: tool
 title: 增长飞轮设计工具：从业务要素到增强回路
 status: reviewed
 domain:
-- yitang
 - growth
 confidence: 0.82
 trust_level: medium
@@ -29,6 +28,13 @@ aliases:
   - 增长飞轮设计工具
   - 增长飞轮设计工具：从业务要素到增强回路
   - 飞轮设计工具
+source_context:
+  - 一堂五步法之增长
+  - yitang
+  - 一堂五步法之增长
+source_context:
+  - 一堂五步法之增长
+  - yitang
 source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道增长飞轮-口述.txt
 - 00_inbox/一堂五步法之增长/truman-渠道增长飞轮-笔记.txt
@@ -48,11 +54,10 @@ related:
 - '[[design-ai-image-generation]]'
 review_date: '2026-06-28'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
-- 一堂五步法之增长
-- 四步法
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 四步法
 ---
 # 增长飞轮设计工具：从业务要素到增强回路
 

@@ -28,11 +28,14 @@ source_refs:
 - 00_inbox/半肥猫月白老朱线下聚会/AI应用研讨-半肥猫月白老朱-交流录音.txt#L6746-6750
 - 00_inbox/半肥猫月白老朱线下聚会/AI应用研讨-半肥猫月白老朱-事后笔记.txt#L55
 tags:
-- 共学
-- AI协作
-- 知识固化
-- 人机协作
-- 学习
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 共学
+  - AI协作
+  - 知识固化
+  - 人机协作
+  - 学习
 related:
 - concept-kdo-agent-four-level-awareness
 - concept-collaboration-philosophy-foundation

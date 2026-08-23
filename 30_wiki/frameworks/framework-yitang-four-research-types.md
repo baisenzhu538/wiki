@@ -31,7 +31,10 @@ discoverable_by:
 - 四类调研模型
 - 挖掘式系统式爆炸式
 - 调研方法分类
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 四类调研模型：挖掘式·系统式·爆炸式·自动式
 

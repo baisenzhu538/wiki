@@ -9,7 +9,6 @@ confidence: 0.82
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
 - decision-science
 aliases:
   - R皇冠模型
@@ -18,6 +17,8 @@ aliases:
   - 实践
   - 教学
   - 研究的统一框架
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/_vlm_reprocess/其他/一堂-TCPR模型-皇冠模型_vlm_desc.md
 related:

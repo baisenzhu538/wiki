@@ -27,7 +27,10 @@ follow_up: 评估该原型是否已产品化、是否纳入每周工作流并产
 related: null
 discoverable_by:
 - 王欢说想做工具链
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 王欢说→想→做工具链框架
 

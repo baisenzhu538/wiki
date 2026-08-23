@@ -32,10 +32,11 @@ tags:
   - 工具
   - 方法
   - 边界
+source_person: 楚门
+source_context:
+  - AI 知识管理探索营口述（2026-08）+ 逐字稿
   - 口述
   - 逐字稿
-source_person: 楚门
-source_context: AI 知识管理探索营口述（2026-08）+ 逐字稿
 source_refs:
 - 00_inbox/AI知识库/楚门-AI知识管理探索营-口述.txt
 - 00_inbox/AI知识库/AI×知识管理 探索课（逐字稿）.md

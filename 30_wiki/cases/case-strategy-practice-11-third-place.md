@@ -14,6 +14,10 @@ source_refs:
 - 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md
 reviewed_by: pending
 updated_at: 2026-06-29
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 discoverable_by:
   - 案例：行业老三翻盘——2个月减亏7000万，10个月电商超竞
   - 行业老三翻盘

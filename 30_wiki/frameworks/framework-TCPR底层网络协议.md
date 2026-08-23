@@ -8,7 +8,8 @@ reviewed_by: 欧阳锋
 confidence: 0.78
 trust_level: medium
 language: zh-CN
-domain: yitang
+domain:
+- strategy
 aliases:
   - TCPR模型：商业管理世界的底层网络协议
   - 业网络协议框架
@@ -17,6 +18,8 @@ aliases:
   - 是什么
   - 模型
   - 管理世界的底层网络协议
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-TCPR底层网络协议_vlm_desc.md
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-TCPR底层网络协议_vlm_desc.md

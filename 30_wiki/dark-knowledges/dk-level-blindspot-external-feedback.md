@@ -6,10 +6,11 @@ type: dk
 dark_knowledge_type: insight
 status: reviewed
 domain:
-- yitang
 - entrepreneur
 source_person: Truman
-source_context: 一堂五步法培训·段位自评实验，第二十二节批次4精修提炼，2026-06-17
+source_context:
+  - 一堂五步法培训·段位自评实验，第二十二节批次4精修提炼，2026-06-17
+  - yitang
 aliases:
   - 8分幻觉是结构性盲区
   - Truman
@@ -17,6 +18,9 @@ aliases:
   - 因为没见过高段位的具体打法
   - 暗知识
   - 暗知识：78分幻觉是结构性盲区低段位者高估自己，因为没见过高段位的具体打法
+source_context:
+  - 一堂五步法培训·段位自评实验，第二十二节批次4精修提炼，2026-06-17
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260611_d913eb1d-一堂-一堂五步法-序言-口述.md
 confidence: 0.89

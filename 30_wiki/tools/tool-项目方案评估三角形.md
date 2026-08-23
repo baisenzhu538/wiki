@@ -10,12 +10,13 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
 - decision-science
 aliases:
   - 收益×成本×风险三维对比
   - 项目方案评估三角形
   - 项目方案评估三角形：收益×成本×风险三维对比
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-项目方案评估三角形_vlm_desc.md
 discoverable_by:

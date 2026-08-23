@@ -3,7 +3,11 @@ id: case-yi-tang-ai-gao-kao-zhi-yuan-kernel-mismatch
 title: 案例：AI高考志愿填报产品因内核错位而失敗
 type: case
 status: reviewed
-domain: src-unknown
+domain:
+- ai-collaboration
+- content
+- decision-making
+- design
 industry: 教育科技 / AI 工具
 scale: 团队/公司
 source_person: 一堂·Truman

@@ -8,7 +8,8 @@ reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: high
 language: zh-CN
-domain: unknown
+domain:
+- research
 aliases:
 - audience:ceo
 - scene:diagnosis
@@ -27,7 +28,10 @@ discoverable_by:
 - 精益十倍公式
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 十倍速公式：避免系统性失败
 

@@ -45,15 +45,18 @@ related:
 - xingangwan-pharma-business-model-formulas
 - '[[parking-lot]]'
 tags:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 # 鑫港湾小程序医药商城+药店+HIS+互联网医院合规商业模式设计（山西首发版）
 

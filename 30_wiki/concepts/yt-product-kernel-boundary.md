@@ -1,5 +1,6 @@
 ---
-domain: src-unknown
+domain:
+- decision-making
 id: yt-product-kernel-boundary
 title: 内核与边界：什么该做，什么不该做
 type: concept

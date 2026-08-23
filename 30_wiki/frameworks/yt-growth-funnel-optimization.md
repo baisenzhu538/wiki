@@ -1,5 +1,7 @@
 ---
-domain: src-unknown
+domain:
+- conversion-rate
+- strategy
 id: yt-growth-funnel-optimization
 title: 漏斗优化：从认知到付费
 type: framework

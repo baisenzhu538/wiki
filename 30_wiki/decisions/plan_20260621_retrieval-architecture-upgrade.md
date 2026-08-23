@@ -23,6 +23,10 @@ related:
 - fix-data-curator-parse-bug
 - '[[yitang-course-map]]'
 updated_at: '2026-06-29'
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 检索架构升级方案
 

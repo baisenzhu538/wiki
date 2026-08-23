@@ -6,15 +6,23 @@ type: dk
 status: reviewed
 domain:
 - ai-collaboration
-- yitang
 source_person: 半肥猫
-source_context: AI俱乐部-AI学习落地 分享
+source_context:
+  - AI俱乐部-AI学习落地 分享
+  - 半肥猫
+  - yitang
+  - AI俱乐部-AI学习落地 分享
+  - 半肥猫
 aliases:
   - 化没有固定标准
   - 半肥猫
   - 原子化没有固定标准
   - 暗知识
   - 暗知识：原子化没有固定标准
+source_context:
+  - AI俱乐部-AI学习落地 分享
+  - 半肥猫
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md
 created_at: 2026-06-07
@@ -45,11 +53,10 @@ diagnostic_signals:
   lens: AI可抽取性
   follow_up: 该卡片的信息是否能被AI完整抽取，而不打断索引标签之间的关系？
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
-- 半肥猫
-- 学习落地
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 学习落地
 ---
 
 # 暗知识：原子化没有固定标准

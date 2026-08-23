@@ -6,7 +6,9 @@ id: master-decision-hygiene
 title: 决策卫生五步法
 type: framework
 status: reviewed
-source_context: 一堂科学决策课程——决策卫生五步法框架
+source_context:
+  - 一堂科学决策课程——决策卫生五步法框架
+  - 决策高度实操课口述
 aliases:
   - 决策卫生五步法
   - 卫生五步法
@@ -71,12 +73,11 @@ related:
 - '[[yt-tool-hiring-scorecard]]'
 - '[[yt-tool-meeting-designer]]'
 tags:
-- audience:ceo
-- scene:diagnosis
-- skill-level:intermediate
-- 关键训练清单重要
-- 决策高度实操课口述
-- 发现决策
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:intermediate
+  - 关键训练清单重要
+  - 发现决策
 ---
 # 决策卫生五步法
 

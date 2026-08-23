@@ -9,9 +9,15 @@ created_at: 2026-08-09
 updated_at: 2026-08-09
 confidence: 0.9
 trust_level: high
-domain: [yitang, management]
+domain:
+- management
 source_person: Truman
-source_context: 科学开会系列课（认知篇+武器库上下篇）
+source_context:
+  - 科学开会系列课（认知篇+武器库上下篇）
+  - yitang
+source_context:
+  - 科学开会系列课（认知篇+武器库上下篇）
+  - yitang
 source_refs:
   - 00_inbox/科学开会/科学开会十大原则-武器库-上篇-口述.txt
   - 00_inbox/科学开会/科学开会十大原则-武器库-下篇-口述.txt

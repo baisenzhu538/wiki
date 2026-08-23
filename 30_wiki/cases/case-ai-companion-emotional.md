@@ -25,6 +25,8 @@ domain:
   - ai-collaboration
   - critical-thinking
   - business-judgment
+source_context:
+  - 逐字稿
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
@@ -55,7 +57,6 @@ tags:
   - skill-level:intermediate
   - 协作
   - 边界
-  - 逐字稿
 ---
 # AI 情感陪伴的市场与伦理
 

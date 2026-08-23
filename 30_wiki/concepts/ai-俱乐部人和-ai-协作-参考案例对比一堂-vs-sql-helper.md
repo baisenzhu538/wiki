@@ -7,7 +7,6 @@ domain:
 - product
 - business-strategy
 - ai-saas
-- yitang
 status: reviewed
 aliases:
   - AI俱乐部人和AI协作参考案例对比一堂vsSQLHelper
@@ -16,6 +15,13 @@ aliases:
   - 协作
   - 参考案例对比一堂
   - 案例对比一堂
+source_context:
+  - 参考案例对比一堂
+  - yitang
+  - 参考案例对比一堂
+source_context:
+  - 参考案例对比一堂
+  - yitang
 source_refs:
   - src_unknown
   - src_20260609_dade3353-ai-俱乐部人和-ai-协作-参考案例对比一堂-vs-sql-helper
@@ -36,11 +42,10 @@ related:
 - - - case-jh-yitang-vs-sqlhelper
 - - - ai-native-im-multi-agent
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
-- 俱乐部人和
-- 参考案例对比一堂
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 俱乐部人和
 ---
 
 # AI 俱乐部·人和 AI 协作 — 参考案例对比（一堂 vs SQL-Helper）

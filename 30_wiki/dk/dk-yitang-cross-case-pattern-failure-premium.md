@@ -13,7 +13,6 @@ confidence: 0.92
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - 例模式
@@ -22,6 +21,8 @@ aliases:
   - 者溢价
   - 跨案例模式
   - 跨案例模式：失败者溢价研究失败比研究成功的信息价值高10倍
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt

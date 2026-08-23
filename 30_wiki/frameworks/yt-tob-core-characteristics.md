@@ -3,7 +3,8 @@ id: yt-tob-core-characteristics
 title: To B 三大核心特性：角色分离、务实理性、周期较长
 type: framework
 status: draft
-domain: src-unknown
+domain:
+- decision-making
 aliases:
   - ToB三大核心特性：角色分离、务实理性、周期较长
   - 三大核心特性

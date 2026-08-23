@@ -37,6 +37,9 @@ related:
 - '[[tool-ai-deliverable-polish-loop]]'
 - '[[tool-纪浩-处理AI生成代码运行异常]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 技能：设计素材脱敏处理规范
 

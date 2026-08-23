@@ -10,9 +10,20 @@ created_at: 2026-08-09
 updated_at: 2026-08-09
 confidence: 0.85
 trust_level: medium
-domain: [yitang, management, coaching]
+domain:
+- management
+- coaching
 source_person: 莫非
-source_context: 教练式领导力探索营——微笑沟通段位清单
+source_context:
+  - 教练式领导力探索营——微笑沟通段位清单
+  - 口述
+  - yitang
+  - 教练式领导力探索营——微笑沟通段位清单
+  - 口述
+source_context:
+  - 教练式领导力探索营——微笑沟通段位清单
+  - 口述
+  - yitang
 source_refs:
   - 00_inbox/教练式领导力/VLM_一堂DOC-20260808231528_迭代版.md
   - 00_inbox/教练式领导力/教练式领导力课程-02-口述.txt
@@ -43,7 +54,6 @@ tags:
   - 方法
   - 清单
   - 教练
-  - 口述
 quality_labels: [actionable, validated, quotable]
 ---
 

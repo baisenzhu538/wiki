@@ -28,7 +28,10 @@ updated_at: '2026-06-29'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 业务设计风险管理工具：ISO31000 四步闭环 × Grace LaConte 矩阵
 

@@ -11,7 +11,8 @@ trust_level: high
 language: zh-CN
 created_at: 2026-07-08
 updated_at: 2026-07-08
-domain: unknown
+domain:
+- decision-making
 source_refs: null
 related: null
 discoverable_by:
@@ -21,7 +22,10 @@ diagnostic_signals:
   lens: 缺两次跃迁意识——价值假设和增长假设混淆
   follow-up: 判断是价值假设错了（回退到需求分析）还是增长假设错了（回退到单元模型）
 quality_labels: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 aliases: null
 ---
 # 一堂五步法：从机会预判到规模化的五步闭环

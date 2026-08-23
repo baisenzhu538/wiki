@@ -12,7 +12,7 @@ language: zh-CN
 created_at: 2026-07-05
 updated_at: 2026-07-05
 domain:
-- yitang
+- kdo
 aliases:
   - Y模型
   - Y模型案例：小学生在线阅读外行看一眼画布就能平等对话
@@ -20,6 +20,8 @@ aliases:
   - 小学生在线阅读
   - 案例
   - 生在线阅读
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/ideas/一堂-个人修身-Y模型探索营2口述版.md
 discoverable_by:

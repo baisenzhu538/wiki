@@ -1,12 +1,16 @@
 ---
-domain: src-unknown
+domain:
+- five-step-method
+- strategy
 id: yt-demand-treadmill-case
 title: 跑步机案例：需求分析全流程实战
 type: case
 status: reviewed
 confidence: 0.92
 trust_level: high
-source_context: 一堂五步法需求分析——跑步机案例
+source_context:
+  - 一堂五步法需求分析——跑步机案例
+  - 一堂五步法
 aliases:
   - 分析全流程实战
   - 机案例
@@ -45,12 +49,11 @@ diagnostic_signals:
 - framework_lens: 跑步机案例——价格不是唯一决策因素
   follow_up_question: 用户去健身房，除了健身还得到了什么？社交、氛围、专业指导？
 tags:
-- audience:general
-- scene:reference
-- skill-level:advanced
-- 一堂五步法
-- 跑步机案例
-- 需求分析图
+  - audience:general
+  - scene:reference
+  - skill-level:advanced
+  - 跑步机案例
+  - 需求分析图
 ---
 # 跑步机案例：需求分析全流程实战
 

@@ -5,7 +5,6 @@ type: case
 title: 案例：德州扑克玩家乔牌如何通过参数化训练成为大使
 status: reviewed
 domain:
-- yitang
 - personal-growth
 confidence: 0.75
 trust_level: medium
@@ -26,6 +25,8 @@ aliases:
   - 案例
   - 案例：德州扑克玩家乔牌如何通过参数化训练成为大使
   - 盈盈
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/元能力-刻意练习/盈盈-刻意练习行动营-科学成长-口述.txt
 - 00_inbox/元能力-刻意练习/盈盈-刻意练习行动营-科学成长-笔记.txt

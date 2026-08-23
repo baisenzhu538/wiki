@@ -28,7 +28,10 @@ discoverable_by:
 - 模型图表假设验证
 - 战略视野
 - 登高望远战略分析
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 **三件武器**：模型（框架思维）+图表（数据可视化）+假设验证（不凭直觉）
 **登高望远**：不是看竞对在做什么（太近），是看行业趋势和技术变革（更远）

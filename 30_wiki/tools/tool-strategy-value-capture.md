@@ -28,7 +28,10 @@ updated_at: '2026-06-29'
 author: 老顽童
 reviewed_by: pending
 related: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 价值获取设计工具：8 问盈利模型
 

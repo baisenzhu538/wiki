@@ -12,7 +12,6 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - five-step-method
 - ai-collaboration
 aliases:
@@ -22,6 +21,8 @@ aliases:
   - 的竞品数据
   - 自动预验证
   - 趋势快速验证
+source_context:
+  - yitang
 source_refs: null
 discoverable_by:
   - Agent L6自动预验证：RAT的竞品数据+趋势快速验证

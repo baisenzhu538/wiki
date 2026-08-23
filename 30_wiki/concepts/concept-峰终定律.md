@@ -10,13 +10,14 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
 - decision-science
 aliases:
   - 体验的二八定律
   - 峰终定律
   - 峰终定律：用户体验的二八定律
   - 用户体验的二八定律
+source_context:
+  - yitang
 source_refs:
 - src_unknown
 discoverable_by:

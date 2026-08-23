@@ -13,14 +13,18 @@ domain:
 - personal-os
 - sales
 - ai-collaboration
-- yitang
 source_person: 李蕊
-source_context: 一堂科学销售方法论课程（2026-07-08），销售专题口述稿二次深挖补产
+source_context:
+  - 一堂科学销售方法论课程（2026-07-08），销售专题口述稿二次深挖补产
+  - yitang
 aliases:
   - 前三秒话术优化
   - 前三秒话术优化AgentSpec
   - 李蕊
   - 秒话术优化
+source_context:
+  - 一堂科学销售方法论课程（2026-07-08），销售专题口述稿二次深挖补产
+  - yitang
 source_refs:
 - 00_inbox/销售专题/李蕊-科学销售方法论-口述.txt L800-L814
 - 00_inbox/销售专题/李蕊-销售系统之五-销售工具箱-口述.txt L720,L2276-L2282

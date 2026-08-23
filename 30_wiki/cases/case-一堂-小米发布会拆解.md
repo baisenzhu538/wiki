@@ -12,10 +12,10 @@ language: zh-CN
 created_at: '2026-07-13'
 updated_at: '2026-07-13'
 domain:
-- yitang
 - conversion-rate
 source_person: 小米/雷军
 source_context: 一堂《小米发布会拆解练习》素材，作为动力/阻力/触点拆解的练习案例，PDF 共 63 页，实际有效页为目录+p001-p008 开场/颜色/设计片段+p062-p063
+  - yitang
   评论
 aliases:
   - 小米/雷军

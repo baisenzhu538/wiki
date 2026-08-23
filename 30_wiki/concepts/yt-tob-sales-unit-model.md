@@ -3,7 +3,8 @@ id: yt-tob-sales-unit-model
 title: To B 单销售模型：时间闭环 + 空间闭环
 type: concept
 status: enriched
-domain: src-unknown
+domain:
+- decision-making
 aliases:
   - ToB单销售模型：时间闭环+空间闭环
   - 单销售模型

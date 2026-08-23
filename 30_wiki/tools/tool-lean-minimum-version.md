@@ -11,11 +11,12 @@ trust_level: medium
 language: zh-CN
 domain:
 - strategy
-- yitang
 - product
 aliases:
   - 只发布最小版本
   - 布最小版本
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212406_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212406_vlm_desc.md

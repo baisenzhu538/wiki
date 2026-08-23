@@ -1,5 +1,7 @@
 ---
-domain: src-unknown
+domain:
+- decision-making
+- strategy
 id: yt-barrier-talent-density
 title: 人才密度：组织壁垒
 type: concept

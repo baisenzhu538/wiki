@@ -12,7 +12,6 @@ confidence: 0.9
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - five-step-method
 aliases:
   - 普遍性
@@ -20,6 +19,8 @@ aliases:
   - 评估三角形
   - 需求评估三角形
   - 需求评估三角形：普遍性×频次×刚性
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-需求评估三角形_ocr_text.md
 discoverable_by:

@@ -24,7 +24,10 @@ trust_level: medium
 discoverable_by:
 - 里程碑不是任务清单，是成对单元模型拼出来的
 related: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: '2026-06-15'

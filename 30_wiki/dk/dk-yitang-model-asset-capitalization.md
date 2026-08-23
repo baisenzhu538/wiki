@@ -11,13 +11,16 @@ reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
 language: zh-CN
-domain: yitang
+domain:
+- kdo
 aliases:
   - 与迭代
   - 定价与迭代
   - 级模型资产的盘点
   - 组织级模型资产的盘点
   - 组织级模型资产的盘点、定价与迭代
+source_context:
+  - yitang
 source_refs:
 - 60_feedback/audit/synthesis_yitang.md
 discoverable_by:

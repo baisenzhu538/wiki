@@ -12,7 +12,7 @@ language: zh-CN
 created_at: 2026-07-05
 updated_at: 2026-07-05
 domain:
-- yitang
+- strategy
 aliases:
   - Y模型
   - Y模型案例：ToB顾问销售一号位脑子里的结构用Y模型显性化
@@ -20,6 +20,8 @@ aliases:
   - 显性化
   - 案例
   - 顾问销售
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/ideas/一堂-个人修身-Y模型探索营2口述版.md
 discoverable_by:

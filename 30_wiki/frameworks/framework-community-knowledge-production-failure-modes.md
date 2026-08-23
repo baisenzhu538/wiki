@@ -24,7 +24,10 @@ aliases:
 - 识生产失败模式
 source_refs: null
 query_triggers: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 quality_labels: null
 related: null
 discoverable_by:

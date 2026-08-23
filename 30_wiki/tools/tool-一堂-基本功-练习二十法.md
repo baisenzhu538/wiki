@@ -13,12 +13,13 @@ created_at: 2026-07-11
 updated_at: 2026-07-11
 domain:
 - management
-- yitang
 aliases:
   - 五层加码
   - 把刻意练习焊进团队日常
   - 练习二十法
   - 练习二十法：五层加码，把刻意练习焊进团队日常
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/Manage the team/Fundamentals Seminar/_vlm_output/练习卡-挂在嘴边-01_vlm.md
 - 00_inbox/Manage the team/Fundamentals Seminar/_vlm_output/练习卡-文字化-02_vlm.md

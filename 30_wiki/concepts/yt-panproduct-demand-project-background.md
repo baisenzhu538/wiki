@@ -6,7 +6,8 @@ confidence: 0.8
 created_at: 2026-05-11
 difficulty: intermediate
 domain:
-- src_unknown
+- kdo
+- strategy
 estimated_tokens: 1417
 language: zh-CN
 prerequisites:
@@ -55,6 +56,10 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 
 # 项目背景分析：综合用户/场景/商业考量

@@ -3,22 +3,26 @@ id: tool-ai辅助学习
 title: 技能：AI辅助学习
 type: tool
 domain:
-  - ai-collaboration
-  - yitang
-  - product
-  - ai-saas
-  - design
-  - entrepreneurship
-  - decision-making
+- ai-collaboration
+- product
+- ai-saas
+- design
+- entrepreneurship
+- decision-making
 status: draft
 source_person: 一堂课程
-source_context: src_20260522_dee56cff
+source_context:
+  - src_20260522_dee56cff
+  - yitang
 aliases:
   - AI辅助学习
   - 一堂课程
   - 技能
   - 技能：AI辅助学习
   - 辅助学习
+source_context:
+  - src_20260522_dee56cff
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260522_dee56cff-ocr-一堂-个人修炼-科学学习ipo-全景策略.md
 definition_of_done: null

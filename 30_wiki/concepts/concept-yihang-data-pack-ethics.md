@@ -13,7 +13,6 @@ created_at: 2026-07-05
 updated_at: 2026-07-05
 domain:
 - ai-collaboration
-- yitang
 aliases:
   - 个人学习可用
   - 包使用伦理
@@ -21,6 +20,13 @@ aliases:
   - 数据包使用伦理
   - 数据包使用伦理个人学习可用，禁止规模化批量抓取流通
   - 禁止规模化批量抓取流通
+source_context:
+  - 一堂双三角
+  - yitang
+  - 一堂双三角
+source_context:
+  - 一堂双三角
+  - yitang
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
 discoverable_by:
@@ -31,11 +37,10 @@ related:
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[framework-yihang-knowledge-data-decoupling]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:advanced
-- 一堂双三角
-- 人机协作双三角
+  - audience:general
+  - scene:reference
+  - skill-level:advanced
+  - 人机协作双三角
 ---
 
 # 数据包使用伦理——个人学习可用，禁止规模化批量抓取流通

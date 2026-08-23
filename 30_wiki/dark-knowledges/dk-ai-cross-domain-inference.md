@@ -26,11 +26,14 @@ source_refs:
 - 00_inbox/半肥猫月白老朱线下聚会/AI应用研讨-半肥猫月白老朱-交流录音.txt#L6820-6842
 - 00_inbox/半肥猫月白老朱线下聚会/AI应用研讨-半肥猫月白老朱-交流录音.txt#L6820-6824
 tags:
-- 跨域
-- 推导
-- 涌现
-- 底层自洽
-- AI推理
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 跨域
+  - 推导
+  - 涌现
+  - 底层自洽
+  - AI推理
 related:
 - framework-kdo-modeling-methodology
 - concept-kdo-agent-four-level-awareness

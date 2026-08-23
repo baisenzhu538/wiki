@@ -3,7 +3,8 @@ id: knowledge-error-self-exposure
 title: 知识库错误自暴露 — 检测半径全域覆盖，修复半径靶向
 type: concept
 status: draft
-domain: src-unknown
+domain:
+- kdo
 discoverable_by:
   - 知识库错误自暴露 — 检测半径全域覆盖，修复半径靶向
   - 知识库错误自暴露
@@ -25,6 +26,8 @@ aliases:
   - 检测半径全域覆盖
   - 知识库错误自暴露
   - 知识库错误自暴露检测半径全域覆盖，修复半径靶向
+source_context:
+  - 一堂五步法
 source_refs:
 - 10_raw/sources/src_20260611_4c587435-一堂-一堂五步法-需求-AI企业知识库-产品路线图_paddle_ocr.md
 created_at: '2026-06-03'
@@ -47,12 +50,11 @@ diagnostic_signals:
 - lens: 全量重跑陷阱
   follow_up: 增量矛盾检测：只跑语义匹配不跑全文理解，输出标记不修改，保持检测半径全域覆盖
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
-- 一堂五步法
-- 产品路线图
-- 企业知识库
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 产品路线图
+  - 企业知识库
 ---
 # 知识库错误自暴露 — 检测半径全域覆盖，修复半径靶向
 

@@ -3,7 +3,8 @@ id: case-truman-ai-partner
 title: 案例：Truman AI Partner（阿蕊老师）——从十年笔记到可售卖的 Agent
 type: case
 status: enriched
-domain: src-unknown
+domain:
+- kdo
 source_person: Truman
 source_context: 一堂《AI时代清单体笔记》课程
 aliases:

@@ -10,7 +10,9 @@ trust_level: high
 language: zh-CN
 created_at: 2026-07-09
 updated_at: 2026-07-13
-domain: unknown
+domain:
+- decision-making
+- strategy
 source_refs: null
 related: null
 discoverable_by:
@@ -21,7 +23,10 @@ diagnostic_signals:
   lens: 乘法关系没守住——关键假设是乘项，任一为零整体为零
   follow-up: 回退到关键假设清单，定位是哪一条被证伪，决定调整/转型/放弃
 quality_labels: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 aliases: null
 ---
 # 一堂关键假设：用假设驱动业务的方法论入口总框架

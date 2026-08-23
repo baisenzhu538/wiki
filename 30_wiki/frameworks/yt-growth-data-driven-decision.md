@@ -1,5 +1,6 @@
 ---
-domain: src-unknown
+domain:
+- decision-making
 id: yt-growth-data-driven-decision
 title: 数据驱动增长决策
 type: framework

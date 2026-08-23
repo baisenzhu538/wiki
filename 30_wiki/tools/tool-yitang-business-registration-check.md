@@ -12,7 +12,6 @@ confidence: 0.9
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - 关联公司
@@ -21,6 +20,8 @@ aliases:
   - 社保人数
   - 社保人数+股权穿透+关联公司
   - 股权穿透
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 discoverable_by:

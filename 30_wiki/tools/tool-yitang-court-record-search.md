@@ -13,7 +13,6 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - 从法律纠纷中挖掘商业情报
@@ -21,6 +20,8 @@ aliases:
   - 文书检索
   - 裁判文书检索
   - 裁判文书检索：从法律纠纷中挖掘商业情报
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 discoverable_by:

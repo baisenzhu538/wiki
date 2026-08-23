@@ -27,7 +27,10 @@ discoverable_by:
 - 精益产品内核
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 产品内核：不要过早细化未经思考的内核
 

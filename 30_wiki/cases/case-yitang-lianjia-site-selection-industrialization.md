@@ -4,7 +4,6 @@ type: case
 title: 案例：链家如何用 IBM 咨询实现选址工业化
 status: reviewed
 domain:
-- yitang
 - growth
 - operations
 confidence: 0.82
@@ -29,6 +28,13 @@ aliases:
 - 案例
 - 案例：链家如何用IBM咨询实现选址工业化
 - 链家如何用
+source_context:
+  - 一堂五步法之增长
+  - yitang
+  - 一堂五步法之增长
+source_context:
+  - 一堂五步法之增长
+  - yitang
 source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道工业化生产-口述.txt
 source_person: Truman
@@ -43,11 +49,10 @@ related:
 - '[[framework-yitang-growth-flywheel]]'
 review_date: '2026-06-28'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
-- 一堂五步法之增长
-- 渠道工业化生产
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 渠道工业化生产
 ---
 
 

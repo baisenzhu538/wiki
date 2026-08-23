@@ -13,11 +13,12 @@ language: zh-CN
 created_at: 2026-07-08
 updated_at: 2026-07-08
 domain:
-- yitang
 - management
 aliases:
   - signal: 项目卡住了，催不动、说不通、僵在那里
   - 让卡点更平滑的六种推进手段
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/管项目/批注 2026-07-07 190747_vlm_desc.md
 discoverable_by:

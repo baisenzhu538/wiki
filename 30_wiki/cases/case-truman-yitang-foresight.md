@@ -3,7 +3,8 @@ id: case-truman-yitang-foresight
 title: Truman一堂：市场扫描→六方向→Plan ABC试错
 type: case
 domain:
-- yitang
+- decision-making
+- strategy
 aliases:
 - ABC试错
 - Truman一堂
@@ -11,6 +12,9 @@ aliases:
 - Truman（一堂创始人）
 - 六方向
 - 市场扫描→六方向→Plan
+source_context:
+  - Truman在第一节课中分享的自己从-1到0创立一堂的真实预判过程
+  - yitang
 source_refs:
   - src_unknown
   - src_unknown
@@ -25,7 +29,9 @@ created_at: 2026-06-11
 review_date: 2026-06-11
 reviewed_by: src_unknown
 source_person: Truman（一堂创始人）
-source_context: Truman在第一节课中分享的自己从-1到0创立一堂的真实预判过程
+source_context:
+  - Truman在第一节课中分享的自己从-1到0创立一堂的真实预判过程
+  - yitang
 query_triggers:
 - src_unknown
 - src_unknown

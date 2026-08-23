@@ -12,7 +12,6 @@ language: zh-CN
 created_at: '2026-07-12'
 updated_at: '2026-07-12'
 domain:
-- yitang
 - business-formula
 aliases:
   - 三种伪因果模式与聪明下属反噬规律
@@ -20,6 +19,8 @@ aliases:
   - 伪因果模式与聪明下属反噬规律
   - 相关不等于因果
   - 相关不等于因果：三种伪因果模式与聪明下属反噬规律
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L680-L778
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L2214-L2316

@@ -11,7 +11,6 @@ confidence: 0.68
 trust_level: low
 language: zh-CN
 domain:
-- yitang
 - decision-science
 aliases:
 - 共学项目的
@@ -19,6 +18,8 @@ aliases:
 - 员工共学项目的ROI决策
 - 案例
 - 案例：员工共学项目的ROI决策
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-ROI决策评估画布-案例04_vlm_desc.md
 - 10_raw/ocr-cards/ocr-一堂-科学决策-roi决策评估画布-案例04.md

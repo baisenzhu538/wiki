@@ -28,6 +28,8 @@ aliases:
 - 尺子梯子
 - 斧子尺子梯子
 - 模型三工具
+source_context:
+  - yitang
 source_refs:
   - src_unknown
 tags:
@@ -41,7 +43,8 @@ tags:
   - 工具
   - 清单
 type: concept
-domain: yitang
+domain:
+- decision-making
 ---
 # 单元模型三工具：斧子尺子梯子
 

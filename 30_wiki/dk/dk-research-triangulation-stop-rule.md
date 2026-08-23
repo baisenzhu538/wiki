@@ -17,6 +17,10 @@ aliases:
   - 多源交叉验证的停止规则
 source_refs:
 - 60_feedback/audit/synthesis_research.md
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 discoverable_by:
   - 多源交叉验证的停止规则
 related:

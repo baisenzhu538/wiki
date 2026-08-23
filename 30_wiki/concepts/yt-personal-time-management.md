@@ -5,8 +5,7 @@ title: 时间管理
 type: concept
 status: reviewed
 domain:
-  - yitang
-  - time-management
+- time-management
 confidence: 0.85
 created_at: 2026-05-06
 updated_at: 2026-07-08
@@ -37,6 +36,8 @@ aliases:
   - 是能力进阶而非简单分层
   - 深度工作
   - 管理课程
+source_context:
+  - yitang
 source_refs:
   - 00_inbox/时间管理/truman-时间管理课程-口述.txt
   - 00_inbox/时间管理/truman-时间管理课程-笔记.txt

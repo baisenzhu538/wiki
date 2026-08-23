@@ -12,7 +12,8 @@ quality_labels:
 - validated
 created_at: 2026-06-11
 difficulty: intermediate
-domain: yitang
+domain:
+- strategy
 estimated_tokens: 2000
 language: zh-CN
 query_triggers:
@@ -29,6 +30,13 @@ aliases:
   - 案例：线下玩具柜的壁垒困局与突围路径
   - 玩具柜的壁垒困局与突围路径
   - 线下玩具柜的壁垒困局与突围路径
+source_context:
+  - 一堂五步法
+  - yitang
+  - 一堂五步法
+source_context:
+  - 一堂五步法
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260610_91556342-一堂=一堂五步法-商业模型-线下玩具柜案例.md
 - 10_raw/sources/src_20260610_426daf30-一堂-一堂五步法-壁垒-口述.md
@@ -57,12 +65,11 @@ related:
 - '[[yt-five-step-cross-step-3]]'
 - '[[tool-单元模型-壁垒预判]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
-- 一堂五步法
-- 商业模型
-- 线下玩具柜案例
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 商业模型
+  - 线下玩具柜案例
 ---
 
 # 案例：线下玩具柜的壁垒困局与突围路径

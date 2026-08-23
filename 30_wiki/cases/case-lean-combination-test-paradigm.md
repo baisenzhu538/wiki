@@ -13,15 +13,19 @@ trust_level: medium
 language: zh-CN
 domain:
 - lean-startup
-- yitang
 source_person: 一堂课程讲师（含张磊洗发水项目复盘）
-source_context: 一堂精益创业·低成本验证·系统测试曲线课程讲义
+source_context:
+  - 一堂精益创业·低成本验证·系统测试曲线课程讲义
+  - yitang
 aliases:
   - 一堂课程讲师（含张磊洗发水项目复盘）
   - 含张磊洗发水项目复盘
   - 测试范式实操案例
   - 组合测试范式实操案例
   - 课程讲师
+source_context:
+  - 一堂精益创业·低成本验证·系统测试曲线课程讲义
+  - yitang
 source_refs:
 - 00_inbox/精益创业/一堂-低成本测试-系统测试-口述.txt
 - 00_inbox/精益创业/一堂-低成本测试-系统测试-笔记.txt

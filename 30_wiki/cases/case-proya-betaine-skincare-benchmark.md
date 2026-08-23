@@ -12,7 +12,6 @@ confidence: 0.9
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - 妮招股书
@@ -21,6 +20,8 @@ aliases:
   - 案例：贝泰妮招股书敏感肌市场的完整画像
   - 肌市场的完整画像
   - 贝泰妮招股书
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/一堂-上市公司报告解读-口述.txt
 discoverable_by:

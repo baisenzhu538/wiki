@@ -12,7 +12,6 @@ language: zh-CN
 created_at: '2026-07-08'
 updated_at: '2026-07-14'
 domain:
-- yitang
 - product-kernel
 - agent
 aliases:
@@ -20,6 +19,8 @@ aliases:
   - 产品内核5格画布自动填充AgentSpec
   - 布自动填充
   - 格画布自动填充
+source_context:
+  - yitang
 source_refs:
 - .agent/prompts/tool-agent-spec-yitang-kernel-canvas-autofill.md
 tcp_role: C

@@ -28,7 +28,10 @@ discoverable_by:
 - 双三角
 - 竞争力武器库
 - 双三角案例
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 reviewed_by: pending
 ---
 # 双三角-竞争力武器库

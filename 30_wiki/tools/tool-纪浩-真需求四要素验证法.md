@@ -3,7 +3,8 @@ id: tool-纪浩-真需求四要素验证法
 title: 真需求四要素验证法
 type: tool
 status: reviewed
-domain: src-unknown
+domain:
+- kdo
 source_person: 纪浩
 source_context: AI俱乐部·人和AI协作（第三次分享，2026-06）
 aliases:

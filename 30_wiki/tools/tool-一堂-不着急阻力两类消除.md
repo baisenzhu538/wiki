@@ -11,13 +11,14 @@ language: zh-CN
 created_at: '2026-07-13'
 updated_at: '2026-07-13'
 domain:
-- yitang
 - conversion-rate
 aliases:
 - 一堂不着急阻力两类消除
 - 一堂不着急阻力两类消除：天然需求不急vs还没比价
 - 天然需求不急
 - 还没比价
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-入门篇-口述.txt L4266-L4284
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-阻力篇-口述.txt L4992-L5072

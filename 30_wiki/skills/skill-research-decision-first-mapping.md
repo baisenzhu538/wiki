@@ -8,7 +8,8 @@ trust_level: high
 language: zh-CN
 domain:
 - research-methodology
-- yitang
+source_context:
+  - yitang
 source_refs:
 - 60_feedback/audit/synthesis_research.md
 - 30_wiki/dk/dk-research-decision-first-mapping.md

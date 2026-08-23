@@ -2,7 +2,8 @@
 id: course-to-skill-conversion
 title: 课程到Skill转化：将知识变成AI可执行的能力模块
 type: tool
-domain: src-unknown
+domain:
+- content
 status: reviewed
 aliases:
   - 可执行的能力模块

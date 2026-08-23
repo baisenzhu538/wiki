@@ -1,17 +1,21 @@
 ---
 
 domain:
-- yitang
 - research
 id: yt-research-expert-interview
 title: 专家访谈方法论
 type: tool
 status: reviewed
-source_context: 一堂商业调研课程——专家访谈技巧与流程
+source_context:
+  - 一堂商业调研课程——专家访谈技巧与流程
+  - yitang
 source_person: 一堂
 aliases:
   - 专家访谈方法论
   - 访谈方法论
+source_context:
+  - 一堂商业调研课程——专家访谈技巧与流程
+  - yitang
 source_refs:
   - src_unknown
 created_at: '2026-06-20'

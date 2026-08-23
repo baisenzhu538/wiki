@@ -1,5 +1,6 @@
 ---
-domain: src-unknown
+domain:
+- strategy
 id: yt-business-model-subscription
 title: 订阅制商业模式：从一次性到持续收入
 type: concept

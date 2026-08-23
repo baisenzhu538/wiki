@@ -12,13 +12,14 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - DNS情报
   - DNS情报：从域名和网络基础设施反推竞对动态
   - 从域名和网络基础设施反推竞对动态
   - 名和网络基础设施反推竞对动态
+source_context:
+  - yitang
 source_refs:
 - src_unknown
 - src_unknown

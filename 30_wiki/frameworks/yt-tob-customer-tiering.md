@@ -3,7 +3,8 @@ id: yt-tob-customer-tiering
 title: To B 客户分层：头部、腰部、腿部
 type: framework
 status: draft
-domain: src-unknown
+domain:
+- strategy
 aliases:
   - ToB客户分层：头部、腰部、腿部
   - 头部

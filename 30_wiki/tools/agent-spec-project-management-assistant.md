@@ -14,7 +14,6 @@ created_at: 2026-07-07
 updated_at: 2026-07-07
 version: 1
 domain:
-- yitang
 - management
 aliases:
   - Agent对话教练版
@@ -23,6 +22,43 @@ aliases:
   - 管理助手
   - 项目管理助手
   - 项目管理助手Agent对话教练版
+source_context:
+  - 30_wiki/frameworks/framework-yitang-project-abcd-classification.md
+  - 30_wiki/frameworks/framework-yitang-project-breakdown.md
+  - 30_wiki/frameworks/framework-yitang-project-execution.md
+  - 30_wiki/frameworks/framework-yitang-project-retrospective.md
+  - 30_wiki/workflows/workflow-yitang-project-four-step-loop.md
+  - 30_wiki/skills/skill-yitang-project-spiral-thinking.md
+  - 30_wiki/tools/tool-yitang-project-plan-canvas.md
+  - 30_wiki/tools/tool-yitang-project-breakdown-cheatsheet.md
+  - 30_wiki/tools/tool-yitang-project-kickoff-meeting.md
+  - 30_wiki/tools/tool-yitang-retrospective-canvas.md
+  - 30_wiki/frameworks/framework-yitang-high-level-plan.md
+  - yitang
+  - 30_wiki/frameworks/framework-yitang-project-abcd-classification.md
+  - 30_wiki/frameworks/framework-yitang-project-breakdown.md
+  - 30_wiki/frameworks/framework-yitang-project-execution.md
+  - 30_wiki/frameworks/framework-yitang-project-retrospective.md
+  - 30_wiki/workflows/workflow-yitang-project-four-step-loop.md
+  - 30_wiki/skills/skill-yitang-project-spiral-thinking.md
+  - 30_wiki/tools/tool-yitang-project-plan-canvas.md
+  - 30_wiki/tools/tool-yitang-project-breakdown-cheatsheet.md
+  - 30_wiki/tools/tool-yitang-project-kickoff-meeting.md
+  - 30_wiki/tools/tool-yitang-retrospective-canvas.md
+  - 30_wiki/frameworks/framework-yitang-high-level-plan.md
+source_context:
+  - 30_wiki/frameworks/framework-yitang-project-abcd-classification.md
+  - 30_wiki/frameworks/framework-yitang-project-breakdown.md
+  - 30_wiki/frameworks/framework-yitang-project-execution.md
+  - 30_wiki/frameworks/framework-yitang-project-retrospective.md
+  - 30_wiki/workflows/workflow-yitang-project-four-step-loop.md
+  - 30_wiki/skills/skill-yitang-project-spiral-thinking.md
+  - 30_wiki/tools/tool-yitang-project-plan-canvas.md
+  - 30_wiki/tools/tool-yitang-project-breakdown-cheatsheet.md
+  - 30_wiki/tools/tool-yitang-project-kickoff-meeting.md
+  - 30_wiki/tools/tool-yitang-retrospective-canvas.md
+  - 30_wiki/frameworks/framework-yitang-high-level-plan.md
+  - yitang
 source_refs:
 - 00_inbox/管项目/项目管理-入门篇-口述.txt
 - 00_inbox/管项目/项目管理-定方案-口述.txt
@@ -65,20 +101,9 @@ os_sources:
 - agents/agent-os.md
 domain_sources:
 tags:
-- audience:agent
-- scene:execution
-- 30_wiki/concepts/yt-management-project-management.md
-- 30_wiki/frameworks/framework-yitang-project-abcd-classification.md
-- 30_wiki/frameworks/framework-yitang-project-breakdown.md
-- 30_wiki/frameworks/framework-yitang-project-execution.md
-- 30_wiki/frameworks/framework-yitang-project-retrospective.md
-- 30_wiki/workflows/workflow-yitang-project-four-step-loop.md
-- 30_wiki/skills/skill-yitang-project-spiral-thinking.md
-- 30_wiki/tools/tool-yitang-project-plan-canvas.md
-- 30_wiki/tools/tool-yitang-project-breakdown-cheatsheet.md
-- 30_wiki/tools/tool-yitang-project-kickoff-meeting.md
-- 30_wiki/tools/tool-yitang-retrospective-canvas.md
-- 30_wiki/frameworks/framework-yitang-high-level-plan.md
+  - audience:agent
+  - scene:execution
+  - 30_wiki/concepts/yt-management-project-management.md
 ---
 
 # 项目管理助手 Agent（对话教练版）

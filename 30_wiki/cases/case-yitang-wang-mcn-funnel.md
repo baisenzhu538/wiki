@@ -5,10 +5,10 @@ title: 王同学 MCN：签素人六环漏斗 + 团队假设表，从一个人盯
 type: case
 status: enriched
 domain:
-- yitang
 - business-formula
 source_person: 王同学（一堂学员，MCN 教育行业团队）
 source_context: 一堂「关键假设-业务公式」管理篇口述，假设管理进阶段第一个案例（L1314-L1370）：王同学所在 MCN 团队签素人老师做中小微账号，从单人点状试错到漏斗公式
+  - yitang
   1.0 + 团队假设表，四期行动营量率双升
 aliases:
   - 从一个人盯签约到四期行动营量率双升

@@ -5,7 +5,6 @@ type: case
 title: 案例：熊猫现烤汉堡如何用工业化流程破解选品难题
 status: reviewed
 domain:
-- yitang
 - growth
 - operations
 confidence: 0.8
@@ -27,6 +26,13 @@ aliases:
   - 案例
   - 案例：熊猫现烤汉堡如何用工业化流程破解选品难题
   - 熊猫现烤汉堡如何用工业化流程破解选品难题
+source_context:
+  - 一堂五步法之增长
+  - yitang
+  - 一堂五步法之增长
+source_context:
+  - 一堂五步法之增长
+  - yitang
 source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道工业化生产-口述.txt
 - 00_inbox/一堂五步法之增长/truman-渠道工业化生产-案例-汉堡难点.png
@@ -44,11 +50,10 @@ related:
 - '[[case-lean-shampoo-selling-points]]'
 review_date: '2026-06-28'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
-- 一堂五步法之增长
-- 汉堡难点
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 汉堡难点
 ---
 
 # 案例：熊猫现烤汉堡如何用工业化流程破解选品难题

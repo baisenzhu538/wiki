@@ -7,7 +7,6 @@ status: reviewed
 domain:
 - panproduct
 - organization
-- yitang
 confidence: 0.74
 trust_level: medium
 author: 老顽童
@@ -27,6 +26,8 @@ aliases:
   - 线运动到圆周运动
   - 组织资产
   - 组织资产：从直线运动到圆周运动
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-逐字稿.md
 - 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-口述.txt

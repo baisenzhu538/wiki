@@ -12,7 +12,6 @@ created_at: 2026-08-15
 updated_at: 2026-08-15
 domain:
 - sales
-- yitang
 - growth
 aliases:
 - 销售漏斗全貌
@@ -23,7 +22,12 @@ aliases:
 - 马易-SPIN销售方法与AI-口述
 - 马易
 source_person: 马易
-source_context: 拆书会第215期《SPIN 销售巨人》（下）实践篇——销售漏斗关键指标（2026-08-11 口述）
+source_context:
+  - 拆书会第215期《SPIN 销售巨人》（下）实践篇——销售漏斗关键指标（2026-08-11 口述）
+  - yitang
+source_context:
+  - 拆书会第215期《SPIN 销售巨人》（下）实践篇——销售漏斗关键指标（2026-08-11 口述）
+  - yitang
 source_refs:
 - 00_inbox/spin销售巨人/马易-SPIN销售方法与AI-口述.txt
 related:

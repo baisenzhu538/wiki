@@ -5,15 +5,19 @@ type: dk
 dark_knowledge_type: insight
 status: reviewed
 domain:
-- yitang
 - ai
 source_person: 一堂
-source_context: AI创业机会预判课程中对"新能力"维度过度加权的诊断，2026-06
+source_context:
+  - AI创业机会预判课程中对"新能力"维度过度加权的诊断，2026-06
+  - yitang
 aliases:
 - AI创业者最大的盲区
 - 创业者最大的盲区
 - 我们能做出来'≠'用户需要这个
 - 暗知
+source_context:
+  - AI创业机会预判课程中对"新能力"维度过度加权的诊断，2026-06
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260610_ac25d82a-一堂-机会预判-三维排列组合01.md
 - 10_raw/sources/src_20260614_086550ab-刘长胜@136-0281-5868_20251008160644.m4a.md

@@ -27,6 +27,10 @@ related:
 - '[[yt-foresight-deliverables-four-levels]]'
 - '[[dk-f3-state-json-race-condition]]'
 - '[[kdo-batch-produce-req014]]'
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # Improvement Plan plan_20260501_8ecb74e3
 

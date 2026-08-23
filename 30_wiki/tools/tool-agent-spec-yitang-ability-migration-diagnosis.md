@@ -13,15 +13,19 @@ domain:
 - personal-os
 - team
 - ai-collaboration
-- yitang
 source_person: Truman / 一堂课程体系
-source_context: 一堂全产品与团队方法论课程（2026-07-08），能力迁移与人才发展专题深挖补产
+source_context:
+  - 一堂全产品与团队方法论课程（2026-07-08），能力迁移与人才发展专题深挖补产
+  - yitang
 aliases:
   - Truman / 一堂课程体系
   - 一堂课程体系
   - 能力迁移诊断
   - 能力迁移诊断AgentSpec
   - 迁移诊断
+source_context:
+  - 一堂全产品与团队方法论课程（2026-07-08），能力迁移与人才发展专题深挖补产
+  - yitang
 source_refs:
 - .agent/prompts/tool-agent-spec-yitang-ability-migration-diagnosis.md
 discoverable_by:

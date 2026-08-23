@@ -7,8 +7,7 @@ status: reviewed
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - management
+- management
 aliases:
   - 不用跑断腿
   - 两小时对齐六件事
@@ -18,6 +17,13 @@ aliases:
   - 管项目
   - 项目启动会设计模板
   - 项目启动会设计模板：两小时对齐六件事，后面不用跑断腿
+source_context:
+  - 口述
+  - yitang
+  - 口述
+source_context:
+  - 口述
+  - yitang
 source_refs:
   - 00_inbox/管项目/项目管理-管过程-口述.txt
   - 00_inbox/管项目/项目管理-管过程-笔记.txt
@@ -54,7 +60,6 @@ tags:
   - 风险
   - 机制
   - 工具
-  - 口述
 ---
 
 # 项目启动会设计模板：两小时对齐六件事，后面不用跑断腿

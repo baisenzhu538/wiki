@@ -19,6 +19,12 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - RAG
+  - 工作流
+  - 提示词
+  - 协作
+  - 框架
+  - 边界
 aliases:
   - 双三角案例：天末室内设计——AI 辅助从调研到效果图直出
 discoverable_by:

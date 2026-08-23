@@ -5,7 +5,6 @@ title: 案例：社恐销售蓝军如何通过拆解销冠套路半年成亚军
 status: draft
 created_at: 2026-06-28 reviewed
 domain:
-- yitang
 - personal-growth
 - sales
 confidence: 0.75
@@ -19,6 +18,8 @@ aliases:
 - 盈盈行动营
 - 社恐销售蓝军如何通过拆解销冠套路半年成亚军
 - 行动营
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/元能力-刻意练习/盈盈-刻意练习行动营-科学成长-口述.txt
 - 00_inbox/元能力-刻意练习/盈盈-刻意练习行动营-科学成长-笔记.txt

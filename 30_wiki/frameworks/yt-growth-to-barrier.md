@@ -1,5 +1,6 @@
 ---
-domain: src-unknown
+domain:
+- strategy
 id: yt-growth-to-barrier
 title: 从增长到壁垒：承上启下
 type: framework

@@ -10,7 +10,6 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
 - decision-science
 aliases:
   - 不缺机会
@@ -19,6 +18,8 @@ aliases:
   - 稀缺机会窗口
   - 稀缺机会窗口：不缺机会，缺识别窗口的能力
   - 缺识别窗口的能力
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-稀缺机会窗口_vlm_desc.md
 discoverable_by:

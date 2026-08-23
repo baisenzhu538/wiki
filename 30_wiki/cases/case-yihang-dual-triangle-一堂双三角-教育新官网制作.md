@@ -19,6 +19,11 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 工作流
+  - 提示词
+  - 协作
+  - 框架
+  - 工具
 aliases:
   - 双三角案例：一堂教育新官网——审美驱动 AI 协作
 discoverable_by:

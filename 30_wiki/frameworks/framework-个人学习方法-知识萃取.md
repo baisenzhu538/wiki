@@ -11,7 +11,8 @@ trust_level: high
 language: zh-CN
 created_at: 2026-07-09
 updated_at: 2026-07-09
-domain: unknown
+domain:
+- content
 source_refs: null
 related: null
 discoverable_by:
@@ -21,7 +22,10 @@ diagnostic_signals:
   lens: 缺萃取能力——经验停留在脑子里没变成资产
   follow-up: 刚做完的项目，用"如果换一个人来做，我要给他什么SOP"倒逼萃取
 quality_labels: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 aliases: null
 ---
 # 知识萃取：碎片经验→可落地模型

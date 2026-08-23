@@ -2,12 +2,13 @@
 
 domain:
 - modeling
-- yitang
 id: modeling-weapon-library
 title: 常见模型武器库：按问题难度调用模型
 type: tool
 status: reviewed
-source_context: 一堂 2026-06-12 建模能力培训课程，常见模型武器库
+source_context:
+  - 一堂 2026-06-12 建模能力培训课程，常见模型武器库
+  - yitang
 aliases:
   - 常见模型武器库
   - 常见模型武器库：按问题难度调用模型
@@ -15,6 +16,9 @@ aliases:
   - 按问题难度调用模型
   - 模型武器库
   - 题难度调用模型
+source_context:
+  - 一堂 2026-06-12 建模能力培训课程，常见模型武器库
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260614_73352fa5-Truman-高阶建模-抽象建模-常见模型武器库-图-01.md
 - 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md

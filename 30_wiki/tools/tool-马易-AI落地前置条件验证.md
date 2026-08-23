@@ -2,7 +2,8 @@
 id: tool-马易-AI落地前置条件验证
 title: 技能：AI落地前置条件验证
 type: tool
-domain: unknown
+domain:
+- master
 status: draft
 author: unknown
 reviewed_by: pending
@@ -23,7 +24,10 @@ discoverable_by:
 - 技能：AI落地前置条件验证
 - AI落地前置条件验证
 related: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 技能：AI落地前置条件验证
 

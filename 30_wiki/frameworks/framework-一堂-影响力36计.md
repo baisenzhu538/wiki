@@ -10,7 +10,10 @@ trust_level: high
 language: zh-CN
 created_at: '2026-07-13'
 updated_at: '2026-07-13'
-domain: unknown
+domain:
+- decision-making
+- master
+- strategy
 aliases:
 - audience:ceo
 - conversion
@@ -30,7 +33,10 @@ discoverable_by:
 - 6原则6强度
 - 影响力段位
 quality_labels: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 一堂影响力 36 计：6 原则 × 6 强度
 

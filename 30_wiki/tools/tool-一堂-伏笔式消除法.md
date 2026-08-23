@@ -11,13 +11,14 @@ language: zh-CN
 created_at: '2026-07-13'
 updated_at: '2026-07-13'
 domain:
-- yitang
 - conversion-rate
 aliases:
 - 一堂伏笔式消除法
 - 一堂伏笔式消除法：提前埋好答案，让阻力不发生
 - 提前埋好答案
 - 让阻力不发生
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-阻力篇-口述.txt L3098-L3198
 discoverable_by:

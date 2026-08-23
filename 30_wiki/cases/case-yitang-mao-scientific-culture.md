@@ -13,7 +13,8 @@ language: zh-CN
 created_at: 2026-07-04
 updated_at: '2026-07-04'
 domain:
-- yitang
+- content
+- decision-making
 aliases:
   - 东主义清单
   - 卡的历史原型
@@ -21,6 +22,8 @@ aliases:
   - 案例：毛泽东主义清单红蓝卡的历史原型
   - 毛泽东主义清单
   - 红蓝卡的历史原型
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-口述.txt
 - 60_feedback/extractions/extraction-kexue-linian-y-model.md

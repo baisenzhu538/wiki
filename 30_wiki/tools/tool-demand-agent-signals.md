@@ -12,7 +12,6 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - five-step-method
 - ai-collaboration
 aliases:
@@ -21,6 +20,8 @@ aliases:
   - 信号聚合
   - 凭经验猜用户
   - 替代凭经验猜用户
+source_context:
+  - yitang
 source_refs: null
 discoverable_by:
   - Agent L1-L2信号聚合：替代凭经验猜用户

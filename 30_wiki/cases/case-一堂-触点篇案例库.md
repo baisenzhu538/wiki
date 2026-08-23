@@ -12,15 +12,19 @@ language: zh-CN
 created_at: '2026-07-13'
 updated_at: '2026-07-19'
 domain:
-- yitang
 - conversion-rate
-source_context: 收录《转化率黑客·触点篇》口述稿中用于说明触点本质、SABC 分级与触点挖掘的案例
+source_context:
+  - 收录《转化率黑客·触点篇》口述稿中用于说明触点本质、SABC 分级与触点挖掘的案例
+  - yitang
 aliases:
   - 一堂转化率黑客触点篇案例索引库SABC
   - 一堂转化率黑客触点篇案例索引库SABC分级与触点挖掘
   - 与触点挖掘
   - 分级与触点挖掘
   - 转化率黑客触点篇案例索引库
+source_context:
+  - 收录《转化率黑客·触点篇》口述稿中用于说明触点本质、SABC 分级与触点挖掘的案例
+  - yitang
 source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L238-L376
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L512-L620

@@ -13,13 +13,17 @@ language: zh-CN
 created_at: 2026-07-04
 updated_at: '2026-07-04'
 domain:
-- yitang
+- content
+- kdo
+- master
 aliases:
   - 会长期低效存在
   - 期低效存在
   - 流程经验不与底层原因对齐
   - 流程经验不与底层原因对齐，会长期低效存在
   - 经验不与底层原因对齐
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/解放思想/解放思想-truman-口述.txt
 - 60_feedback/extractions/extraction-jiefang-sixiang-truman.md

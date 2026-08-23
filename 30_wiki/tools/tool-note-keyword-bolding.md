@@ -4,9 +4,8 @@ title: 关键词加粗三重结构：视觉重心即认知重心的标记法则
 type: tool
 status: reviewed
 domain:
-  - learning-methodology
-  - yitang
-  - note-taking
+- learning-methodology
+- note-taking
 language: zh-CN
 version: 1
 difficulty: beginner
@@ -29,6 +28,8 @@ aliases:
   - 视觉重心即认知重心的标记法则
   - 词加粗三重结构
   - 重心即认知重心的标记法则
+source_context:
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md
 tags:

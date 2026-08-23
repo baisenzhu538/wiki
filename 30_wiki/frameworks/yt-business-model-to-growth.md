@@ -1,5 +1,6 @@
 ---
-domain: src-unknown
+domain:
+- strategy
 id: yt-business-model-to-growth
 title: 从商业模式到增长：承上启下
 type: framework

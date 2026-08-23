@@ -13,7 +13,6 @@ created_at: 2026-07-11
 updated_at: 2026-07-11
 domain:
 - management
-- yitang
 - ai-collaboration
 aliases:
   - Agent基本功修炼：KDO工厂就是Agent军团练基本功的系统
@@ -22,6 +21,8 @@ aliases:
   - 基本功修炼
   - 工厂就是
   - 练基本功的系统
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功落地案例篇-春萍-口述.txt L654-L866
 - 30_wiki/personal-os/zhu-feedback-patterns.md

@@ -10,14 +10,22 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - business-strategy
 - management
 source_person: 李蕊
-source_context: 一堂科学销售方法论课程（2026-07-02），销售专题九层深挖诊断
+source_context:
+  - 一堂科学销售方法论课程（2026-07-02），销售专题九层深挖诊断
+  - 整合笔记
+  - yitang
+  - 一堂科学销售方法论课程（2026-07-02），销售专题九层深挖诊断
+  - 整合笔记
 aliases:
   - 一堂销售过程拆解三步法用户决策路径地图
   - 李蕊
+source_context:
+  - 一堂科学销售方法论课程（2026-07-02），销售专题九层深挖诊断
+  - 整合笔记
+  - yitang
 source_refs:
 - 00_inbox/销售专题/_processed/销售专题_整合笔记.md
 - 60_feedback/diagnosis/diag_20260702_yitang-scientific-sales-methodology.md
@@ -67,10 +75,9 @@ related:
 created_at: 2026-07-02
 updated_at: 2026-07-24
 tags:
-- audience:executor
-- scene:execution
-- skill-level:advanced
-- 整合笔记
+  - audience:executor
+  - scene:execution
+  - skill-level:advanced
 ---
 # 一堂销售过程拆解三步法（用户决策路径地图）
 

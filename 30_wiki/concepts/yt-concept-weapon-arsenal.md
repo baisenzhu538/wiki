@@ -3,7 +3,8 @@ id: yt-concept-weapon-arsenal
 confidence: 0.85
 created_at: 2026-05-13
 difficulty: intermediate
-domain: src-unknown
+domain:
+- strategy
 estimated_tokens: 2800
 language: zh-CN
 query_triggers:

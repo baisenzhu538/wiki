@@ -5,7 +5,8 @@ component_of:
 confidence: 0.85
 created_at: 2026-05-19
 difficulty: intermediate
-domain: src-unknown
+domain:
+- kdo
 estimated_tokens: 3400
 language: zh-CN
 prerequisites:

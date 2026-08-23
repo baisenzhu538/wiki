@@ -11,7 +11,9 @@ trust_level: high
 language: zh-CN
 created_at: 2026-07-09
 updated_at: 2026-07-09
-domain: unknown
+domain:
+- decision-making
+- strategy
 source_refs: null
 related:
 - 'framework-knowledge-naming-systems-comparison'
@@ -42,7 +44,10 @@ diagnostic_signals:
   lens: 区间错配——把"评价现在"当成"预判终局"
   follow-up: 用保A争B选一个区间，而不是赌一个点
 quality_labels: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 aliases: null
 ---
 # 一堂·机会预判：CEO 的预判操作系统（总框架）

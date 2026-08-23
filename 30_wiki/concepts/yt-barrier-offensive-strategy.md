@@ -1,5 +1,6 @@
 ---
-domain: src-unknown
+domain:
+- strategy
 id: yt-barrier-offensive-strategy
 title: 进攻策略：突破竞品壁垒
 type: concept

@@ -12,7 +12,6 @@ created_at: 2026-08-15
 updated_at: 2026-08-15
 domain:
 - sales
-- yitang
 aliases:
 - 大单小单之分
 - 不是ToB和ToC
@@ -22,7 +21,16 @@ aliases:
 - 马易-SPIN销售方法与AI-口述
 - 马易
 source_person: 马易
-source_context: 拆书会第215期《SPIN 销售巨人》（下）实践篇——SPIN 核心回顾（2026-08-11 口述）
+source_context:
+  - 拆书会第215期《SPIN 销售巨人》（下）实践篇——SPIN 核心回顾（2026-08-11 口述）
+  - 口述
+  - yitang
+  - 拆书会第215期《SPIN 销售巨人》（下）实践篇——SPIN 核心回顾（2026-08-11 口述）
+  - 口述
+source_context:
+  - 拆书会第215期《SPIN 销售巨人》（下）实践篇——SPIN 核心回顾（2026-08-11 口述）
+  - 口述
+  - yitang
 source_refs:
 - 00_inbox/spin销售巨人/马易-SPIN销售方法与AI-口述.txt
 related:
@@ -42,7 +50,6 @@ tags:
   - skill-level:beginner
   - 方法
   - 边界
-  - 口述
 ---
 # 销售本质是大单与小单之分，不是 ToB 与 ToC 之分
 

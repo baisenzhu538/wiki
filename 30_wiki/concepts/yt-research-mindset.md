@@ -1,17 +1,21 @@
 ---
 
 domain:
-- yitang
 - research
 id: yt-research-mindset
 title: 商业调研思维
 type: concept
 status: reviewed
-source_context: 一堂商业调研课程——调研者的核心思维模式
+source_context:
+  - 一堂商业调研课程——调研者的核心思维模式
+  - yitang
 source_person: 一堂
 aliases:
   - 商业调研思维
   - 调研思维
+source_context:
+  - 一堂商业调研课程——调研者的核心思维模式
+  - yitang
 source_refs:
   - src_unknown
 created_at: '2026-06-20'

@@ -1,12 +1,15 @@
 ---
-domain: src-unknown
+domain:
+- kdo
 id: yt-demand-ai-knowledge-base-case
 title: AI企业知识库案例：从"技术炫技"到"需求验证"
 type: case
 status: reviewed
 confidence: 0.91
 trust_level: high
-source_context: 一堂五步法需求分析——AI企业知识库案例
+source_context:
+  - 一堂五步法需求分析——AI企业知识库案例
+  - 一堂五步法
 aliases:
   - AI企业知识库案例
   - AI企业知识库案例：从技术炫技到需求验证
@@ -44,12 +47,11 @@ diagnostic_signals:
 - framework_lens: AI知识库案例——技术能力≠用户价值
   follow_up_question: 用户对答案准确率的要求是多少？80%和95%的差异对用户的价值差异有多大？
 tags:
-- audience:general
-- scene:reference
-- skill-level:advanced
-- 一堂五步法
-- 产品路线图
-- 企业知识库
+  - audience:general
+  - scene:reference
+  - skill-level:advanced
+  - 产品路线图
+  - 企业知识库
 ---
 # AI企业知识库案例：从"技术炫技"到"需求验证"
 

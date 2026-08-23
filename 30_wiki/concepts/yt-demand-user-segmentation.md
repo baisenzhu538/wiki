@@ -7,7 +7,9 @@ type: concept
 status: reviewed
 confidence: 0.78
 trust_level: medium
-source_context: 一堂五步法需求分析口述——"人群定的太泛了"
+source_context:
+  - 一堂五步法需求分析口述——"人群定的太泛了"
+  - 一堂五步法
 aliases:
   - 从所有人到第一批
   - 从所有人到第一批100个
@@ -46,10 +48,9 @@ diagnostic_signals:
 - framework_lens: 用户分层不统一——不同功能服务不同层，未对齐
   follow_up_question: 这个功能主要服务哪一层用户？这一层用户占多大比例？
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
-- 一堂五步法
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 
 

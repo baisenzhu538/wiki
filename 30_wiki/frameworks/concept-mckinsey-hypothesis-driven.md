@@ -13,7 +13,8 @@ aliases:
 source_refs:
   - src_unknown
 status: enriched
-domain: src-unknown
+domain:
+- design
 bridges_to:
 - relation: provides_foundation_for
   description: Hypothesis-Driven 是'关键假设'概念的底层工作流

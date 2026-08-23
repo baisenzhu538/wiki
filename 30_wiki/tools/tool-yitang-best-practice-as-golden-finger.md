@@ -5,7 +5,6 @@ type: tool
 title: 最佳实践临摹法：早期快速提升的「金手指」
 status: reviewed
 domain:
-- yitang
 - personal-growth
 confidence: 0.78
 trust_level: medium
@@ -29,6 +28,8 @@ aliases:
   - 早期快速提升的金手指
   - 最佳实践临摹法
   - 最佳实践临摹法：早期快速提升的金手指
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/元能力-刻意练习/truman-刻意练习-口述.txt
 - 00_inbox/元能力-刻意练习/truman-刻意练习-笔记.txt

@@ -5,10 +5,11 @@ title: 线下连锁餐饮：同店增长 30% 的盲区在会员复购与场景�
 type: case
 status: reviewed
 domain:
-- yitang
 - business-strategy
 source_person: 孔阳
-source_context: 一堂 2026-06-13 业务公式拆解培训，线下连锁餐饮案例（持续复购型）
+source_context:
+  - 一堂 2026-06-13 业务公式拆解培训，线下连锁餐饮案例（持续复购型）
+  - yitang
 aliases:
   - 同店增长
   - 孔阳
@@ -16,6 +17,9 @@ aliases:
   - 线下连锁餐饮
   - 线下连锁餐饮：同店增长30%的盲区在会员复购与场景绑定
   - 连锁餐饮
+source_context:
+  - 一堂 2026-06-13 业务公式拆解培训，线下连锁餐饮案例（持续复购型）
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript.md
 - 10_raw/sources/src_20260613_6edbf0af-yitang-business-formula-decomposition-notes.md

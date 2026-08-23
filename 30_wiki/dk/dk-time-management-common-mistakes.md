@@ -6,7 +6,6 @@ dark_knowledge_type: pattern
 status: reviewed
 domain:
 - personal-growth
-- yitang
 confidence: 0.85
 trust_level: medium
 author: 老顽童
@@ -21,6 +20,16 @@ aliases:
 - 时间管理三大反模式：工具迷信、二极管思维、边界模糊
 - 管思维
 - 边界模糊
+source_context:
+  - [['framework-yitang-five-step-to-time-management']]
+  - [['case-yitang-copywriting-time-decomposition']]
+  - yitang
+  - [[framework-yitang-five-step-to-time-management]]
+  - [[case-yitang-copywriting-time-decomposition]]
+source_context:
+  - [['framework-yitang-five-step-to-time-management']]
+  - [['case-yitang-copywriting-time-decomposition']]
+  - yitang
 source_refs:
 - 00_inbox/时间管理/truman-时间管理课程-口述.txt
 - 00_inbox/时间管理/truman-时间管理课程-笔记.txt
@@ -33,17 +42,15 @@ discoverable_by:
 - 工具迷信、二极管思维、边界模糊
 related:
 tags:
-- audience:executor
-- scene:diagnosis
-- '[[framework-yitang-five-step-to-time-management]]'
-- '[[tool-personal-time-audit-loop]]'
-- '[[master-cognitive-bias-checklist]]'
-- '[[yt-personal-time-management]]'
-- '[[yt-personal-knowledge-management]]'
-- '[[master-decision-hygiene]]'
-- '[[case-truman-time-management-commute-experiment]]'
-- '[[case-yitang-copywriting-time-decomposition]]'
-- case-decision-science-lunch-break-compression
+  - audience:executor
+  - scene:diagnosis
+  - [[tool-personal-time-audit-loop]]
+  - [[master-cognitive-bias-checklist]]
+  - [[yt-personal-time-management]]
+  - [[yt-personal-knowledge-management]]
+  - [[master-decision-hygiene]]
+  - [[case-truman-time-management-commute-experiment]]
+  - case-decision-science-lunch-break-compression
 ---
 # 时间管理三大反模式：工具迷信、二极管思维、边界模糊
 

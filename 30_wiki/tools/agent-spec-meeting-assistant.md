@@ -6,6 +6,8 @@ status: draft
 confidence: 0.8
 trust_level: high
 author: 王语嫣（#263 流水线第三次实战，2026-08-09）
+source_context:
+  - yitang
 source_refs:
 - 30_wiki/workflows/workflow-kdo-agent-production-pipeline.md
 - 60_feedback/diagnosis/diag_20260809_scientific-meeting.md
@@ -21,11 +23,10 @@ created_at: 2026-08-09
 updated_at: 2026-08-09
 domain:
 tags:
-- audience:agent
-- scene:execution
-- management
-- decision
-- yitang
+  - audience:agent
+  - scene:execution
+  - management
+  - decision
 ---
 
 # 科学开会助理 Agent Spec

@@ -10,11 +10,13 @@ aliases:
   - 案例
   - 案例：一堂直播时间为什么是21:00三次用户调研的多数人选
   - 直播时间为什么是
+source_context:
+  - 一堂高阶建模能力培训（用户调研与决策案例）
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: reviewed
 domain:
-- yitang
 - modeling
 - user-research
 diagnostic_signals:
@@ -24,7 +26,9 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 source_person: Truman
-source_context: 一堂高阶建模能力培训（用户调研与决策案例）
+source_context:
+  - 一堂高阶建模能力培训（用户调研与决策案例）
+  - yitang
 created_at: '2026-06-14'
 updated_at: '2026-06-18'
 author: 老顽童

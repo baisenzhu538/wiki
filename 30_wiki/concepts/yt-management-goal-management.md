@@ -1,7 +1,9 @@
 ---
 title: 目标管理
 type: concept
-domain: src-unknown
+domain:
+- kdo
+- master
 status: reviewed
 pipeline:
 - src_unknown

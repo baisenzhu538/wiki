@@ -12,7 +12,6 @@ confidence: 0.82
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
 - five-step-method
 aliases:
   - 小胖猴拨号器
@@ -21,6 +20,8 @@ aliases:
   - 案例：小胖猴拨号器需求到方案的跳跃
   - 猴拨号器
   - 需求到方案的跳跃
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/五步法之需求分析/需求评估避坑合集.md
 discoverable_by:

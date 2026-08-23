@@ -1,7 +1,9 @@
 ---
 id: ai-native-五层进阶从答案到效率到作品到产品到系统
 created_at: '2026-05-23T17:29:50+00:00'
-domain: src-unknown
+domain:
+- ai-collaboration
+- design
 query_triggers:
 - src_unknown
 - src_unknown

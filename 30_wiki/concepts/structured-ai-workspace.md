@@ -2,11 +2,14 @@
 id: structured-ai-workspace
 title: 结构化AI工作空间搭建
 type: tool
-domain: src-unknown
+domain:
+- ai-collaboration
 status: reviewed
 aliases:
   - 工作空间搭建
   - 结构化AI工作空间搭建
+source_context:
+  - 时代要不要练笔记
 source_refs:
 - 10_raw/sources/src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记.md
 component_of:
@@ -46,11 +49,10 @@ diagnostic_signals:
 - lens: 过度工程
   follow_up: 简化模块，只保留核心，维护成本必须小于节省的时间
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
-- 时代要不要练笔记
-- 需要练那个
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 需要练那个
 ---
 # 结构化AI工作空间搭建
 

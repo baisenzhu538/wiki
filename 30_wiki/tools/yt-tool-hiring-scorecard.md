@@ -8,7 +8,8 @@ aliases:
 source_refs:
 - 10_raw/sources/src_20260619_642947cb_30_wiki_concepts_yt_management_scientific_hiring.md
 status: reviewed
-domain: src-unknown
+domain:
+- decision-making
 language: zh-CN
 version: 1
 difficulty: foundational

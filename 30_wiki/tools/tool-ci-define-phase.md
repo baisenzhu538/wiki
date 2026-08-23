@@ -7,7 +7,10 @@ discoverable_by:
 - CI Define 阶段工具：决策驱动的问题定义
 - 阶段工具
 - 决策驱动的问题定义
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 source_person: Truman（一堂）+ Competitive Intelligence Alliance
 source_context: CI Operating Model Define 阶段工具化实现
 aliases:

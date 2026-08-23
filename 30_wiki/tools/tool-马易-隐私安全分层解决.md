@@ -2,7 +2,8 @@
 id: tool-马易-隐私安全分层解决
 title: 技能：隐私安全分层解决
 type: tool
-domain: unknown
+domain:
+- ai-collaboration
 status: reviewed
 author: unknown
 reviewed_by: 欧阳锋
@@ -24,7 +25,10 @@ discoverable_by:
 - 技能：隐私安全分层解决
 - 隐私安全分层解决
 related: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 技能：隐私安全分层解决
 

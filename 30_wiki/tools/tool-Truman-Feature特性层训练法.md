@@ -13,7 +13,9 @@ source_refs:
   - 00_inbox/AI基本功/AI学习-Feature思维解析（上）-口述.txt
   - 00_inbox/AI基本功/AI学习-Feature思维解析（下）-口述.txt
   - 10_raw/sources/feature-periodic-table-v0.8.json
-source_context: Truman《AI学习·Feature思维解析》2026-08-07直播；源素材替代src_unknown
+source_context:
+  - Truman《AI学习·Feature思维解析》2026-08-07直播；源素材替代src_unknown
+  - 口述
 related:
   - '[[framework-truman-feature-thinking-core]]'
   - '[[framework-truman-feature-layered-system]]'
@@ -29,6 +31,11 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 原子化
+  - 工作流
+  - 上下文
+  - 工具
+  - 迭代
 aliases:
   - Feature 特性层训练法：把 AI 基本功拆成可测试的最小单元
 discoverable_by:

@@ -13,7 +13,8 @@ language: zh-CN
 created_at: 2026-07-04
 updated_at: '2026-07-04'
 domain:
-- yitang
+- design
+- strategy
 aliases:
   - 发奖金的本质重构薪酬设计
   - 奶茶店奖金
@@ -21,6 +22,8 @@ aliases:
   - 案例
   - 案例：奶茶店奖金追问发奖金的本质重构薪酬设计
   - 追问发奖金的本质重构薪酬设计
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/解放思想/解放思想-truman-口述.txt
 - 60_feedback/extractions/extraction-jiefang-sixiang-truman.md

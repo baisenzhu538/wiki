@@ -3,7 +3,8 @@ id: yt-skill-checklist-as-ai-protocol
 title: 清单体作为AI的I/O协议——用笔记替代prompt工程
 type: concept
 status: reviewed
-domain: src-unknown
+domain:
+- decision-making
 language: zh-CN
 version: 1
 confidence: 0.9
@@ -14,6 +15,9 @@ aliases:
   - 清单体作为AI的I/O协议用笔记替代prompt工程
   - 用笔记替代prompt工程
   - 记替代
+source_context:
+  - 时代清单体笔记
+  - 时代请单体笔记
 source_refs:
 - 10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md
 - 10_raw/sources/src_20260606_db4fc211-一堂-AI时代请单体笔记-Truman-口述-02.md
@@ -63,11 +67,9 @@ author: unknown
 reviewed_by: 欧阳锋
 trust_level: medium
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
-- 时代清单体笔记
-- 时代请单体笔记
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 清单体作为AI的I/O协议——用笔记替代prompt工程
 

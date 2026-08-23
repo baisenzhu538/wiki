@@ -5,7 +5,6 @@ type: case
 title: 案例：徐建发票 SaaS 如何通过渠道探索找到支付推手
 status: reviewed
 domain:
-- yitang
 - growth
 - b2b
 - saas
@@ -31,6 +30,13 @@ aliases:
   - 案例
   - 案例：徐建发票SaaS如何通过渠道探索找到支付推手
   - 通过渠道探索找到支付推手
+source_context:
+  - 一堂五步法之增长
+  - yitang
+  - 一堂五步法之增长
+source_context:
+  - 一堂五步法之增长
+  - yitang
 source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt
 source_person: Truman
@@ -48,11 +54,10 @@ related:
 - '[[voice-input-doubao]]'
 review_date: '2026-06-28'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
-- 一堂五步法之增长
-- 渠道探索方法论
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 渠道探索方法论
 ---
 
 # 案例：徐建发票 SaaS 如何通过渠道探索找到支付推手

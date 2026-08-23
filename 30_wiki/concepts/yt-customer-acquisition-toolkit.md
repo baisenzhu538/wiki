@@ -15,6 +15,8 @@ related:
 aliases:
 - 工具合集
 - 获客工具合集
+source_context:
+  - yitang
 source_refs:
   - src_unknown
 tags:
@@ -26,7 +28,8 @@ tags:
   - 工具
 type: concept
 status: draft
-domain: yitang
+domain:
+- content
 ---
 # 获客工具合集
 

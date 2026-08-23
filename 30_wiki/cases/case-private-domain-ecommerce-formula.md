@@ -5,11 +5,12 @@ title: 私域电商 10W 人社群：从"拉人发广告"到"信任 × 用户升�
 type: case
 status: reviewed
 domain:
-- yitang
 - e-commerce
 - business-strategy
 source_person: 孔阳
-source_context: 一堂 2026-06-13 业务公式拆解培训，私域电商案例（持续复购型）
+source_context:
+  - 一堂 2026-06-13 业务公式拆解培训，私域电商案例（持续复购型）
+  - yitang
 aliases:
   - 人社群
   - 从拉人发广告到信任
@@ -17,6 +18,9 @@ aliases:
   - 用户升级路径
   - 私域电商
   - 私域电商10W人社群：从拉人发广告到信任×用户升级路径
+source_context:
+  - 一堂 2026-06-13 业务公式拆解培训，私域电商案例（持续复购型）
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript.md
 - 10_raw/sources/src_20260613_6edbf0af-yitang-business-formula-decomposition-notes.md

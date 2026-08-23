@@ -10,7 +10,6 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
 - decision-science
 aliases:
   - 三层视角
@@ -19,6 +18,8 @@ aliases:
   - 团队三层视角
   - 科学决策宽度
   - 科学决策宽度：个人企业团队三层视角
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-宽度-个人_vlm_desc.md
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-宽度-企业_vlm_desc.md

@@ -1,7 +1,8 @@
 ---
 title: 科学招聘
 type: concept
-domain: src-unknown
+domain:
+- decision-making
 status: reviewed
 pipeline:
 - src_unknown

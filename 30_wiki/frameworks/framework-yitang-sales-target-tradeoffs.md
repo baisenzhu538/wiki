@@ -10,11 +10,15 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-  - yitang
-  - sales
-  - business-strategy
+- sales
+- business-strategy
 source_person: 李蕊
-source_context: 一堂科学销售方法论课程（2026-07-08），销售专题口述稿二次深挖诊断
+source_context:
+  - 一堂科学销售方法论课程（2026-07-08），销售专题口述稿二次深挖诊断
+  - 口述
+  - yitang
+  - 一堂科学销售方法论课程（2026-07-08），销售专题口述稿二次深挖诊断
+  - 口述
 aliases:
   - 客户分层和卖点提炼
   - 李蕊
@@ -24,6 +28,10 @@ aliases:
   - 销售体系之一
   - 销售体系之四
   - 销售目标权衡框架
+source_context:
+  - 一堂科学销售方法论课程（2026-07-08），销售专题口述稿二次深挖诊断
+  - 口述
+  - yitang
 source_refs:
   - 00_inbox/销售专题/李蕊-销售体系之一-客户分层和卖点提炼-口述.txt L280-L282,L392-L394,L470-L500,L508-L520
   - 00_inbox/销售专题/李蕊-销售体系之四-激励体系搭建-口述.txt L1586-L1590
@@ -47,7 +55,6 @@ tags:
   - 框架
   - 清单
   - 管理者
-  - 口述
 created_at: 2026-07-08
 updated_at: 2026-07-08
 discoverable_by:

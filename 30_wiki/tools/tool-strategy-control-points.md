@@ -27,7 +27,10 @@ discoverable_by:
 - 战略控制点设计工具
 - 价值定位模型
 related: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 战略控制点设计工具：价值定位模型
 

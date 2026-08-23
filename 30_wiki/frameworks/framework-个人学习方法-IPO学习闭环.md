@@ -11,7 +11,8 @@ trust_level: high
 language: zh-CN
 created_at: 2026-07-09
 updated_at: 2026-07-09
-domain: unknown
+domain:
+- content
 source_refs: null
 related: null
 discoverable_by:
@@ -21,7 +22,10 @@ diagnostic_signals:
   lens: IPO的O(Output)缺失——只有输入没有输出
   follow-up: 强制输出：学完任何东西写一段200字的"我学到了什么"
 quality_labels: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 aliases: null
 ---
 # IPO学习闭环：Input→Process→Output→Feedback全景

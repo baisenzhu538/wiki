@@ -24,7 +24,10 @@ discoverable_by:
 - 技能：避免原生家庭万能归因
 - 避免原生家庭万能归因
 related: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 技能：避免原生家庭万能归因
 

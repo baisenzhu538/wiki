@@ -2,7 +2,12 @@
 id: ai-collaboration-mindset-shift
 title: AI协作思维转变：从新手到管理者
 type: concept
-domain: src-unknown
+domain:
+- ai-collaboration
+- decision-making
+- human-insights
+- kdo
+- strategy
 status: reviewed
 aliases:
   - AI协作思维转变
@@ -10,6 +15,8 @@ aliases:
   - 从新手到管理者
   - 协作思维转变
   - 手到管理者
+source_context:
+  - 时代要不要练笔记
 source_refs:
 - 10_raw/sources/src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记.md
 component_of: null
@@ -53,11 +60,10 @@ diagnostic_signals:
 - lens: 执行者循环
   follow_up: 检查是否在做管理者动作：派活、验收、纠偏，而非只复制粘贴
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
-- 时代要不要练笔记
-- 需要练那个
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 需要练那个
 ---
 # AI协作思维转变：从"新手"到"管理者"
 

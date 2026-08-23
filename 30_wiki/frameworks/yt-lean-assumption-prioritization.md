@@ -3,7 +3,8 @@ id: yt-lean-assumption-prioritization
 title: 关键假设排序：前置优先、风险高的优先
 type: framework
 status: draft
-domain: src-unknown
+domain:
+- strategy
 aliases:
   - 假设排序
   - 关键假设排序

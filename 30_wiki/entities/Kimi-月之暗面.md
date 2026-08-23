@@ -30,6 +30,9 @@ related:
 - tool-agent-research-swarm
 - '[[kdo-input-channel-strategy-2026-06-16]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
   - 方法
   - 边界
 trust_level: medium

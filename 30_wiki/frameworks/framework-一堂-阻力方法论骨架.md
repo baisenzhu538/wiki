@@ -10,7 +10,11 @@ trust_level: high
 language: zh-CN
 created_at: '2026-07-13'
 updated_at: '2026-07-13'
-domain: unknown
+domain:
+- decision-making
+- human-insights
+- kdo
+- master
 aliases:
 - audience:ceo
 - conversion
@@ -31,7 +35,10 @@ discoverable_by:
 - 阻力方法论骨架
 - 降低消除逆转阻力
 quality_labels: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 一堂阻力方法论骨架
 

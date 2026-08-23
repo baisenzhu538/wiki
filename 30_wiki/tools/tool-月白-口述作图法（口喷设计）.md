@@ -5,7 +5,9 @@ type: tool
 status: draft
 domain: design
 source_person: 月白
-source_context: 文创案例 （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+source_context:
+  - 文创案例 （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+  - 口述
 aliases:
   - audience:executor
   - scene:execution
@@ -47,7 +49,6 @@ tags:
   - 工具
   - 方法
   - 实操
-  - 口述
 ---
 # 技能：口述作图法（口喷设计）
 

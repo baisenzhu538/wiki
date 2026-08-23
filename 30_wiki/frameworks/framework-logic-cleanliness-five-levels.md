@@ -14,7 +14,9 @@ aliases:
 - 逻辑洁癖五段位：从散点堆到逻辑链的建模审美标准
 source_refs: null
 status: reviewed
-domain: unknown
+domain:
+- decision-making
+- strategy
 source_person: Truman
 source_context: 一堂高阶建模能力培训（逻辑洁癖与建模审美）
 created_at: '2026-06-14'
@@ -27,7 +29,10 @@ confidence: 0.89
 related: null
 discoverable_by:
 - 逻辑整洁度五级
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 diagnostic_signals:
 - framework_lens: 逻辑洁癖五段位
 - framework_lens: 逻辑洁癖五段位

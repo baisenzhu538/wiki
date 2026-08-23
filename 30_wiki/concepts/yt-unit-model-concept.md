@@ -4,7 +4,8 @@ component_of: '[[yt-five-step-method]]'
 confidence: 0.8
 created_at: 2026-06-11
 difficulty: intermediate
-domain: src-unknown
+domain:
+- decision-making
 estimated_tokens: 3200
 language: zh-CN
 prerequisites: '[[yt-five-step-method]]'
@@ -22,6 +23,8 @@ aliases:
   - 单元模型：商业模式评估的核心工具
   - 商业模式评估的核心工具
   - 模式评估的核心工具
+source_context:
+  - 一堂五步法
 source_refs:
 - 10_raw/sources/src_20260611_c0e6e182-一堂-一堂五步法-单元模型-口述.md
 - 10_raw/sources/src_20260611_3725d306-一堂-一堂五步法-单元模型-笔记.md
@@ -71,11 +74,10 @@ diagnostic_signals:
   follow_up_question: 是否在单元模型未跑通前就开始扩张？
 author: 老顽童
 tags:
-- audience:ceo
-- scene:diagnosis
-- skill-level:intermediate
-- 一堂五步法
-- 单元模型
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:intermediate
+  - 单元模型
 ---
 # 单元模型：商业模式评估的核心工具
 

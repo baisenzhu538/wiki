@@ -3,7 +3,8 @@ id: case-smart-medicine-cabinet-failure-patterns-library
 title: 智能药柜失败模式案例库
 type: case
 status: enriched
-domain: src-unknown
+domain:
+- strategy
 aliases:
   - 智能药柜失败模式案例库
   - 王语嫣

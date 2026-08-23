@@ -22,10 +22,11 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
 - business-formula
 source_person: Truman（一堂主讲）
-source_context: 一堂「关键假设·业务公式·参数探索篇」口述课 L6 魔法数字环节：美团三单拐点、FB 七天十好友、一堂三次作业率与 50 学分、张磊三节课洞察，以及会销/Slack/SaaS/农机撮合的泛化案例
+source_context:
+  - 一堂「关键假设·业务公式·参数探索篇」口述课 L6 魔法数字环节：美团三单拐点、FB 七天十好友、一堂三次作业率与 50 学分、张磊三节课洞察，以及会销/Slack/SaaS/农机撮合的泛化案例
+  - yitang
 aliases:
   - 从美团
   - 单到一堂
@@ -33,6 +34,9 @@ aliases:
   - 拐点参数怎么找
   - 魔法数字案例集
   - 魔法数字案例集：从美团30天3单到一堂50学分，拐点参数怎么找、怎么用
+source_context:
+  - 一堂「关键假设·业务公式·参数探索篇」口述课 L6 魔法数字环节：美团三单拐点、FB 七天十好友、一堂三次作业率与 50 学分、张磊三节课洞察，以及会销/Slack/SaaS/农机撮合的泛化案例
+  - yitang
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2842-L2940
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2946-L2952

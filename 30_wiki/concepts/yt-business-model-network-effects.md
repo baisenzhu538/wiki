@@ -1,5 +1,7 @@
 ---
-domain: src-unknown
+domain:
+- five-step-method
+- strategy
 id: yt-business-model-network-effects
 title: 网络效应：平台型商业模式的核心
 type: concept

@@ -18,6 +18,10 @@ aliases:
   - 相关指标vs因果抓手
 source_refs:
 - 60_feedback/audit/synthesis_strategy.md
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 discoverable_by:
   - 相关指标 vs 因果抓手
   - 相关指标

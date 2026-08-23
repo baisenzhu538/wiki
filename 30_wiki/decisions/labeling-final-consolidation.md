@@ -35,6 +35,10 @@ source_refs:
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 > 汇总人：黄药师
 > 审查人：用户（决策者）、欧阳锋（Architect）

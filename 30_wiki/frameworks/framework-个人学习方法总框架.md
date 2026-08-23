@@ -11,7 +11,8 @@ trust_level: high
 language: zh-CN
 created_at: 2026-07-09
 updated_at: 2026-07-09
-domain: unknown
+domain:
+- content
 source_refs: null
 related: null
 discoverable_by:
@@ -21,7 +22,10 @@ diagnostic_signals:
   lens: 概念打架——两个框架都有Input/Process/Output
   follow-up: 读本卡§四的IPO×Y边界表——IPO管学习，Y管创业
 quality_labels: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 aliases: null
 ---
 # 个人学习方法总框架：IPO×四环闭环

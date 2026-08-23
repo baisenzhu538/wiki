@@ -5,7 +5,10 @@ component_of:
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: foundational
-domain: src-unknown
+domain:
+- content
+- kdo
+- master
 estimated_tokens: 1309
 language: zh-CN
 prerequisites:

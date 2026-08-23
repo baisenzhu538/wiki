@@ -23,7 +23,9 @@ aliases:
 - 马易
 - 爆炸式调研-下-口述
 source_person: 马易
-source_context: Live259 爆炸式调研（2026-08-11 口述）——OPC 案例时间锚定（下 L3552-3556）
+source_context:
+  - Live259 爆炸式调研（2026-08-11 口述）——OPC 案例时间锚定（下 L3552-3556）
+  - 口述
 source_refs:
 - 00_inbox/爆炸式调研/爆炸式调研-下-口述.txt
 related:
@@ -44,7 +46,6 @@ tags:
   - skill-level:beginner
   - 方法
   - 边界
-  - 口述
 ---
 # AI 没时间观念：调研必须时间锚定
 

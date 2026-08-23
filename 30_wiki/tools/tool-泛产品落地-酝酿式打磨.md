@@ -11,12 +11,13 @@ confidence: 0.75
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
 - decision-science
 aliases:
   - 落地卡片
   - 落地卡片：酝酿式打磨
   - 酝酿式打磨
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-落地卡片-酝酿式打磨_vlm_desc.md
 discoverable_by:

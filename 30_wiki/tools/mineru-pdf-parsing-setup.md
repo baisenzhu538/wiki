@@ -5,7 +5,9 @@ type: tool
 status: enriched
 confidence: 0.75
 trust_level: medium
-domain: src-unknown
+domain:
+- design
+- strategy
 aliases:
   - MinerUmagicpdfPDF解析工具安装与使用
   - 安装与使用

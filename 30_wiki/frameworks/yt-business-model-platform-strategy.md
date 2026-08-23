@@ -1,5 +1,6 @@
 ---
-domain: src-unknown
+domain:
+- strategy
 id: yt-business-model-platform-strategy
 title: 平台战略：从单边到双边
 type: framework

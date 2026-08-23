@@ -3,7 +3,10 @@ id: case-modeling-process-livestream-prep
 title: 流程建模案例：Truman 直播开播前 2 小时个人准备清单
 type: case
 status: enriched
-domain: src-unknown
+domain:
+- content
+- decision-making
+- kdo
 aliases:
   - Truman
   - 个人准备清单

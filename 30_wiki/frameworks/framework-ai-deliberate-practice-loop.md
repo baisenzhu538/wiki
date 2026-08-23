@@ -3,7 +3,10 @@ id: framework-ai-deliberate-practice-loop
 type: framework
 title: AI 刻意练习闭环：把 AI 当作按需生成的练习伙伴
 status: reviewed
-domain: unknown
+domain:
+- ai-collaboration
+- decision-making
+- management
 confidence: 0.78
 trust_level: medium
 author: 老顽童
@@ -48,7 +51,10 @@ related:
 discoverable_by:
 - AI刻意练习闭环
 - AI练习伙伴
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # AI 刻意练习闭环：把 AI 当作按需生成的练习伙伴
 

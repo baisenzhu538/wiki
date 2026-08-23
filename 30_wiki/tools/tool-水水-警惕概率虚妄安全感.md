@@ -2,7 +2,8 @@
 id: tool-水水-警惕概率虚妄安全感
 title: 技能：警惕概率虚妄安全感
 type: tool
-domain: unknown
+domain:
+- decision-making
 status: draft
 author: unknown
 reviewed_by: pending
@@ -23,7 +24,10 @@ discoverable_by:
 - 技能：警惕概率虚妄安全感
 - 警惕概率虚妄安全感
 related: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 技能：警惕概率虚妄安全感
 

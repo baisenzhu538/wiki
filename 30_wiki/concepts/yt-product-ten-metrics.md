@@ -4,7 +4,12 @@ component_of: '[[yt-product-kernel-cultivation]]'
 confidence: 0.8
 created_at: 2026-06-11
 difficulty: intermediate
-domain: src-unknown
+domain:
+- ai-saas
+- business-formula
+- decision-making
+- modeling
+- strategy
 estimated_tokens: 2200
 language: zh-CN
 prerequisites: '[[yt-product-kernel-cultivation]]'
@@ -19,6 +24,8 @@ reviewed_by: pending
 aliases:
   - 产品内核十大典型指标
   - 内核十大典型指标
+source_context:
+  - 一堂五步法
 source_refs:
 - 00_inbox/一堂五步法/一堂-一堂五步法-产品内核-十大典型指标_paddle_ocr.txt
 - 00_inbox/一堂五步法/一堂-一堂五步法-解决方案（产品内核）-口述.txt
@@ -52,11 +59,10 @@ related:
 - '[[yt-product-kernel-cultivation]]'
 - '[[yt-unit-model-concept]]'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
-- 一堂五步法
-- 产品内核
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 产品内核
 ---
 # 产品内核十大典型指标
 

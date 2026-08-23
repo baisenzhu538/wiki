@@ -17,6 +17,8 @@ aliases:
   - 壳牌石油：价值链突变→市场规模预测→从生产转服务
   - 市场规模预测
   - 链突变
+source_context:
+  - 冉鹏战略课逐字稿
 source_refs:
 - 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md
   - src_unknown
@@ -33,11 +35,10 @@ related:
 - tool-采用滚动预测机制
 - '[[dk-strategy-stage-leverage-mismatch]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:advanced
-- 冉鹏战略课逐字稿
-- 战略专题
+  - audience:general
+  - scene:reference
+  - skill-level:advanced
+  - 战略专题
 ---
 
 **转型**：原油价值链突变 → 预测未来市场规模萎缩 → 提前从生产转向服务。

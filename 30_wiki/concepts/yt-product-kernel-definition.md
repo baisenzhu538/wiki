@@ -1,5 +1,6 @@
 ---
-domain: src-unknown
+domain:
+- decision-making
 id: yt-product-kernel-definition
 title: 产品内核定义：用户愿意选择你的最小解决方案
 type: concept

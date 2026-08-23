@@ -5,10 +5,10 @@ title: 劳文启线下会销十倍增长：业务公式从1.0拆到4.0，单场1
 type: case
 status: enriched
 domain:
-- yitang
 - business-formula
 source_person: 劳文启（口述逐字稿 ASR 作"老文企"，按任务单勘误）
 source_context: 一堂「关键假设·业务公式实操篇」案例三：某线下记忆力培训会销团队（基于"最强大脑"IP、几千元客单价、面向学生家长的线下公开课会销模型），8
+  - yitang
   个新人零经验起盘，因行业下行业务已关停，细节被课程全开源
 aliases:
   - 万干到近百万

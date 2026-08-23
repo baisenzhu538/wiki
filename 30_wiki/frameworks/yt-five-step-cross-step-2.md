@@ -1,5 +1,6 @@
 ---
-domain: src-unknown
+domain:
+- strategy
 id: yt-five-step-cross-step-2
 title: 跨步二：从1到10的规模化
 type: framework

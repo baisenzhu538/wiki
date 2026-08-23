@@ -3,7 +3,10 @@ id: framework-yitang-channel-industrialization
 type: framework
 title: 渠道工业化生产：让高不确定工作持续高质量交付
 status: reviewed
-domain: yitang
+domain:
+- decision-making
+- kdo
+- strategy
 confidence: 0.8
 trust_level: medium
 author: 老顽童
@@ -24,6 +27,13 @@ aliases:
 - 渠道工业化生产：让高不确定工作持续高质量交付
 - 让高不确定工作持续高质量交付
 - 道标准化生产
+source_context:
+  - 口述
+  - yitang
+  - 口述
+source_context:
+  - 口述
+  - yitang
 source_refs: null
 source_person: Truman
 related: null
@@ -37,7 +47,6 @@ tags:
   - scene:planning
   - 五步法
   - 反例
-  - 口述
 ---
 # 渠道工业化生产：让高不确定工作持续高质量交付
 

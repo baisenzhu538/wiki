@@ -6,10 +6,11 @@ type: dk
 dark_knowledge_type: insight
 status: reviewed
 domain:
-- yitang
 - ai-saas
 source_person: Truman
-source_context: 一堂建模能力培训，2026-06-12
+source_context:
+  - 一堂建模能力培训，2026-06-12
+  - yitang
 aliases:
   - AI加杠杆最大的场景是建模，因为好模型会被反复调用
   - Truman
@@ -17,6 +18,9 @@ aliases:
   - 因为好模型会被反复调用
   - 好模型会被反复调用
   - 杆最大的场景是建模
+source_context:
+  - 一堂建模能力培训，2026-06-12
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 confidence: 0.89

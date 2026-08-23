@@ -6,9 +6,10 @@ type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
-- yitang
 - business-formula
-source_context: C 域实战反哺——Live255 落地之夜第六场三案例（叶文彬射箭馆/董原舞蹈学校/谢泽丰服装店）对照孔源 ABC 模型图
+source_context:
+  - C 域实战反哺——Live255 落地之夜第六场三案例（叶文彬射箭馆/董原舞蹈学校/谢泽丰服装店）对照孔源 ABC 模型图
+  - yitang
 aliases:
   - A缺失的并发症：没有锚定目标的公式无法排优先级
   - 失的并发症
@@ -16,6 +17,9 @@ aliases:
   - 的并发症
   - 缺失的并发症
   - 锚定目标的公式无法排优先级
+source_context:
+  - C 域实战反哺——Live255 落地之夜第六场三案例（叶文彬射箭馆/董原舞蹈学校/谢泽丰服装店）对照孔源 ABC 模型图
+  - yitang
 source_refs:
 - 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L429-L619
 - 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1257-L1285

@@ -3,7 +3,8 @@ id: yt-model-ipo-learning-strategy
 confidence: 0.85
 created_at: 2026-05-07
 difficulty: foundational
-domain: src-unknown
+domain:
+- content
 estimated_tokens: 2214
 language: zh-CN
 query_triggers:

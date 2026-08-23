@@ -6,7 +6,6 @@ type: case
 status: reviewed
 domain:
 - decision-science
-- yitang
 author: 老顽童
 reviewed_by: 欧阳锋
 reviewed_at: '2026-07-04'
@@ -20,6 +19,8 @@ aliases:
   - 全员涨薪20%的ROI测算
   - 案例
   - 案例：全员涨薪20%的ROI测算
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/科学决策/一堂-科学决策-审美拉升01口述.txt
 discoverable_by:

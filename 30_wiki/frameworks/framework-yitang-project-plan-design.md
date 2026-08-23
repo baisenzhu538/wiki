@@ -12,7 +12,6 @@ language: zh-CN
 created_at: 2026-07-07
 updated_at: 2026-07-07
 domain:
-- yitang
 - management
 aliases:
   - 关键路径三段论
@@ -21,6 +20,13 @@ aliases:
   - 路径三段论
   - 项目定方案
   - 项目定方案：背景目标关键路径三段论
+source_context:
+  - 口述
+  - yitang
+  - 口述
+source_context:
+  - 口述
+  - yitang
 source_refs:
 - 00_inbox/管项目/项目管理-定方案-口述.txt
 - 00_inbox/管项目/项目管理-定方案-笔记.txt
@@ -48,7 +54,6 @@ tags:
   - audience:manager
   - scene:planning
   - 风险
-  - 口述
 diagnostic_signals:
 - signal: 方案被反复推翻，每次评审都问"背景是什么"
   lens: 缺背景分析——直接跳到解决方案

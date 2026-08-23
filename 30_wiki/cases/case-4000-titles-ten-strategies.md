@@ -14,7 +14,6 @@ updated_at: 2026-08-16
 domain:
 - research
 - content-production
-- yitang
 aliases:
 - 4000标题案例
 - 十大策略标题
@@ -24,7 +23,16 @@ aliases:
 - 马易
 - 爆炸式调研-上-口述
 source_person: 马易
-source_context: Live259 爆炸式调研（2026-08-11 口述）——长期资产原型案例
+source_context:
+  - Live259 爆炸式调研（2026-08-11 口述）——长期资产原型案例
+  - 笔记
+  - yitang
+  - Live259 爆炸式调研（2026-08-11 口述）——长期资产原型案例
+  - 笔记
+source_context:
+  - Live259 爆炸式调研（2026-08-11 口述）——长期资产原型案例
+  - 笔记
+  - yitang
 source_refs:
 - 00_inbox/爆炸式调研/爆炸式调研-上-口述.txt
 related:
@@ -51,7 +59,6 @@ tags:
   - skill-level:intermediate
   - 文章
   - 标题
-  - 笔记
   - 框架
   - 方法
 ---

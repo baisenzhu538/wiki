@@ -31,7 +31,10 @@ discoverable_by:
 - 产品市场增长战略
 - 安索夫增长矩阵
 - 市场产品扩张
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 安索夫矩阵：产品-市场增长战略
 

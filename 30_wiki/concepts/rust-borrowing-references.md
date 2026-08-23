@@ -16,6 +16,10 @@ source_refs:
   - src_unknown
 created_at: 2026-06-02
 updated_at: 2026-06-02
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 discoverable_by:
   - Rust 借用与引用：不转移所有权的访问
   - 借用与引用

@@ -1,5 +1,7 @@
 ---
-domain: src-unknown
+domain:
+- decision-making
+- strategy
 id: yt-business-model-cash-flow
 title: 现金流管理：商业模式的血液循环
 type: concept

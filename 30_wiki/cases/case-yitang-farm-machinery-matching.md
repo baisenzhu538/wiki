@@ -5,10 +5,11 @@ title: 农机撮合平台：从「续费率10%」到「新客一月5次撮合率
 type: case
 status: enriched
 domain:
-- yitang
 - business-strategy
 source_person: 孔阳
-source_context: 一堂业务公式参数探索篇（2026-07-12），ToB农业双边平台案例：用自定义动作指标预测续费结果
+source_context:
+  - 一堂业务公式参数探索篇（2026-07-12），ToB农业双边平台案例：用自定义动作指标预测续费结果
+  - yitang
 aliases:
   - 从续费率10%到新客一月5次撮合率的因果验证
   - 农机撮合平台
@@ -16,6 +17,9 @@ aliases:
   - 到新客一月
   - 孔阳
   - 次撮合率的因果验证
+source_context:
+  - 一堂业务公式参数探索篇（2026-07-12），ToB农业双边平台案例：用自定义动作指标预测续费结果
+  - yitang
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L3246-L3278
 discoverable_by:

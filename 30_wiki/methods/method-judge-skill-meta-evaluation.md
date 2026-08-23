@@ -13,7 +13,8 @@ created_at: 2026-07-07
 updated_at: 2026-07-07
 domain:
 - ai-collaboration
-- yitang
+source_context:
+  - yitang
 source_refs:
 - C:/Users/Administrator/Desktop/从知识库到agent.txt
 related:

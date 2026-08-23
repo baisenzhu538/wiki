@@ -12,7 +12,6 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - five-step-method
 - ai-collaboration
 aliases:
@@ -21,6 +20,8 @@ aliases:
   - 信号提取
   - 微观体感的非结构化数据分析
   - 替代微观体感的非结构化数据分析
+source_context:
+  - yitang
 source_refs: null
 discoverable_by:
   - Agent L5信号提取：替代微观体感的非结构化数据分析

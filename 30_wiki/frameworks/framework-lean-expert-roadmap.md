@@ -8,7 +8,8 @@ reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
 language: zh-CN
-domain: unknown
+domain:
+- strategy
 aliases:
 - audience:ceo
 - scene:diagnosis
@@ -25,7 +26,10 @@ discoverable_by:
 - 精益高手十年修炼地图
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 精益高手十年修炼地图
 

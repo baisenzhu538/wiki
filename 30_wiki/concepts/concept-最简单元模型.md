@@ -10,10 +10,13 @@ review_date: '2026-06-27'
 confidence: 0.78
 trust_level: medium
 language: zh-CN
-domain: yitang
+domain:
+- strategy
 aliases:
   - 化的单元模型
   - 最简化的单元模型
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-最简单元模型_vlm_desc.md
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-最简单元模型_vlm_desc.md

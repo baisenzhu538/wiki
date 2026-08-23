@@ -1,5 +1,9 @@
 ---
-domain: src-unknown
+domain:
+- decision-making
+- design
+- human-insights
+- kdo
 id: yt-growth-user-onboarding
 title: 用户 onboarding：第一印象设计
 type: concept

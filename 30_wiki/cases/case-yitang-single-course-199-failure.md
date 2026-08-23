@@ -13,7 +13,7 @@ language: zh-CN
 created_at: 2026-07-04
 updated_at: '2026-07-04'
 domain:
-- yitang
+- strategy
 aliases:
   - 一堂
   - 元单课
@@ -21,6 +21,8 @@ aliases:
   - 案例
   - 案例：一堂199元单课轻视行业规律的试错
   - 轻视行业规律的试错
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/实事求是/实事求是-周子敬-口述.txt
 - 60_feedback/extractions/extraction-shishi-qiushi-zhouzijing.md

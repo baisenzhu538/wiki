@@ -15,11 +15,11 @@ source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: reviewed
 domain:
-- yitang
 - education
 - modeling
 source_person: Truman
 source_context: 一堂高阶建模能力培训（方法论科学建模过程），单一 source 为完整长文档，内容充分支撑 high trust；待补充第二来源或充分验证后可升回
+  - yitang
   high
 discoverable_by:
   - 5% 的专家决定一堂课的最大公约数：课程质量来自专家共识，不

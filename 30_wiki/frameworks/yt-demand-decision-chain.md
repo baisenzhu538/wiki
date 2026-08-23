@@ -6,7 +6,9 @@ type: framework
 status: reviewed
 confidence: 0.92
 trust_level: high
-source_context: 一堂五步法需求分析——ToB决策链
+source_context:
+  - 一堂五步法需求分析——ToB决策链
+  - 一堂五步法
 aliases:
   - ToB决策链需求分析
   - ToB决策链需求分析：多角色、多需求、多顾虑
@@ -43,10 +45,9 @@ diagnostic_signals:
 - framework_lens: ToB决策链——好用≠好卖，决策者可能看重其他因素
   follow_up_question: 竞品在哪个角色的需求上做得更好？是价格、服务、还是品牌？
 tags:
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
-- 一堂五步法
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:advanced
 discoverable_by:
 - 需求决策链
 - 需求分析链路

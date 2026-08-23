@@ -13,11 +13,17 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - 式深挖的信念
   - 破案式深挖的信念
+source_context:
+  - 口述
+  - yitang
+  - 口述
+source_context:
+  - 口述
+  - yitang
 source_refs:
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
 discoverable_by:
@@ -36,7 +42,6 @@ tags:
   - 方法
   - 边界
   - 清单
-  - 口述
 updated_at: 2026-06-28
 ---
 

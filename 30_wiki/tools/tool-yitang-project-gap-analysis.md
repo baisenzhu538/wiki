@@ -13,11 +13,12 @@ language: zh-CN
 created_at: 2026-07-08
 updated_at: 2026-07-08
 domain:
-- yitang
 - management
 aliases:
   - 复盘七维度差距分析清单
   - 项目复盘七维度差距分析清单
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/管项目/批注 2026-07-07 192500_vlm_desc.md
 discoverable_by:

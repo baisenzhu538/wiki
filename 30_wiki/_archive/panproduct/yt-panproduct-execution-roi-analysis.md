@@ -6,7 +6,7 @@ confidence: 0.8
 created_at: 2026-05-11
 difficulty: intermediate
 domain:
-- src_unknown
+- decision-making
 estimated_tokens: 1050
 language: zh-CN
 prerequisites:
@@ -55,6 +55,10 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
 superseded_by: tool-泛产品落地-ROI分析
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 
 # ROI分析：擅做投产比分析

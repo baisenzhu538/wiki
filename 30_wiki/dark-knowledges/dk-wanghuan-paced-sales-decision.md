@@ -5,7 +5,6 @@ title: 暗知识：复制销冠不是复制话术——是还原决策链
 type: dk
 dark_knowledge_type: insight
 domain:
-- yitang
 - ai-collaboration
 - human-ai-collaboration
 status: reviewed
@@ -18,9 +17,14 @@ updated_at: '2026-06-20'
 review_date: '2026-06-28'
 reviewed_by: 欧阳锋
 trust_level: medium
+source_context:
+  - 王欢 AI 实战分享（2026-06-18 授课）"
+  - yitang
 source_refs: null
 source_person: 王欢
-source_context: 王欢 AI 实战分享（2026-06-18 授课）"
+source_context:
+  - 王欢 AI 实战分享（2026-06-18 授课）"
+  - yitang
 query_triggers: []
 aliases:
   - 复制销冠不是复制话术

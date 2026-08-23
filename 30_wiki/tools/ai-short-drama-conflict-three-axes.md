@@ -9,16 +9,17 @@ aliases:
   - 矛盾冲突三板斧
   - 矛盾冲突三板斧：短剧冲突分层设计工具
   - 短剧冲突分层设计工具
+source_context:
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260613_37933c99-conflict-three-axes.md
 - 10_raw/sources/src_20260613_687c4ec0-transcript.md
 - 10_raw/sources/src_20260613_12d63c1c-notes.md
 status: reviewed
 domain:
-  - ai-saas
-  - yitang
-  - ai-collaboration
-  - product
+- ai-saas
+- ai-collaboration
+- product
 created_at: '2026-06-13'
 updated_at: '2026-06-28'
 author: 老顽童

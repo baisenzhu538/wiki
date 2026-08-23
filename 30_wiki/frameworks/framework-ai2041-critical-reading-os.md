@@ -8,7 +8,8 @@ reviewed_by: 待审
 confidence: 0.78
 trust_level: medium
 language: zh-CN
-domain: unknown
+domain:
+- strategy
 aliases: []
 source_refs: null
 related: null
@@ -18,7 +19,10 @@ discoverable_by:
 quality_labels: null
 updated_at: '2026-06-30'
 created_at: '2026-06-30'
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # AI 2041 批判性认知操作系统
 

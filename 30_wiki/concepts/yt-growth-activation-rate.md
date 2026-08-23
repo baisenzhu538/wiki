@@ -1,5 +1,9 @@
 ---
-domain: src-unknown
+domain:
+- decision-making
+- design
+- five-step-method
+- kdo
 id: yt-growth-activation-rate
 title: 激活率：让用户第一次体验到价值
 type: concept

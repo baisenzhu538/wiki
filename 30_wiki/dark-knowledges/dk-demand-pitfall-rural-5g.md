@@ -9,7 +9,6 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - five-step-method
 aliases:
   - 偏远县域5G
@@ -18,6 +17,8 @@ aliases:
   - 普遍性误判。政策推动≠市场存在
   - 踩坑
   - 踩坑：偏远县域5G普遍性误判。政策推动≠市场存在
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/五步法之需求分析/需求评估避坑合集.md
 discoverable_by:

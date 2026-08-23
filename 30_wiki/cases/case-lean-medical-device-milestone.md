@@ -13,7 +13,6 @@ trust_level: medium
 language: zh-CN
 domain:
 - strategy
-- yitang
 - product
 aliases:
   - 一堂课程讲师（教学推演案例）
@@ -21,6 +20,9 @@ aliases:
   - 器械项目里程碑测试
   - 教学推演案例
   - 课程讲师
+source_context:
+  - 一堂精益创业·低成本验证课程·医疗器械案例
+  - yitang
 source_refs:
 - 00_inbox/精益创业/truman-低成本验证-医疗器械案例-01_ocr_text.md
 - 00_inbox/精益创业/truman-低成本验证-医疗器械案例-01_vlm_desc.md
@@ -31,7 +33,9 @@ source_refs:
 - 00_inbox/精益创业/truman-低成本验证-医疗器械案例-04_ocr_text.md
 - 00_inbox/精益创业/truman-低成本验证-医疗器械案例-04_vlm_desc.md
 source_person: 一堂课程讲师（教学推演案例）
-source_context: 一堂精益创业·低成本验证课程·医疗器械案例
+source_context:
+  - 一堂精益创业·低成本验证课程·医疗器械案例
+  - yitang
 discoverable_by:
   - 医疗器械项目里程碑测试
 related:

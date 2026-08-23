@@ -13,12 +13,18 @@ language: zh-CN
 created_at: 2026-07-08
 updated_at: 2026-07-08
 domain:
-- yitang
 - five-step-method
 aliases:
   - 从会用到出神入化
   - 段位升级三部曲自检
   - 段位升级三部曲自检：从会用到出神入化
+source_context:
+  - 一堂五步法
+  - yitang
+  - 一堂五步法
+source_context:
+  - 一堂五步法
+  - yitang
 source_refs:
 - 00_inbox/一堂五步法/一堂-一堂五步法-单元模型-段位升级三部曲_paddle_ocr.txt
 discoverable_by:
@@ -40,11 +46,10 @@ diagnostic_signals:
 quality_labels:
 - actionable
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
-- 一堂五步法
-- 单元模型
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 单元模型
 ---
 
 # 段位升级三部曲自检

@@ -3,9 +3,13 @@ id: case-truman-motivation-map-12-versions
 title: 动机地图12版迭代：先观察再设计——Truman的用户行为驱动迭代法
 type: case
 status: enriched
-domain: src-unknown
+domain:
+- content
+- master
 source_person: Truman
-source_context: 一堂-个人修炼-泛产品设计工具篇口述版.md
+source_context:
+  - 一堂-个人修炼-泛产品设计工具篇口述版.md
+  - 泛产品设计工具篇口述版
 aliases:
   - Truman
   - Truman的用户行为驱动迭代法
@@ -50,14 +54,13 @@ diagnostic_signals:
 - framework_lens: 对称性服务于逻辑性
   follow_up_question: 问题是视觉重心不对，还是信息结构本身有歧义？两者要分版本解决。
 tags:
-- src_unknown
-- src_unknown
-- src_unknown
-- audience:general
-- scene:reference
-- skill-level:intermediate
-- 个人修炼
-- 泛产品设计工具篇口述版
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - 个人修炼
 ---
 # 动机地图12版迭代：先观察再设计
 

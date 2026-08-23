@@ -26,7 +26,10 @@ source_refs: null
 discoverable_by:
 - AI三角-场景 — 双三角案例
 - 双三角案例
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 reviewed_by: pending
 ---
 # AI三角-场景

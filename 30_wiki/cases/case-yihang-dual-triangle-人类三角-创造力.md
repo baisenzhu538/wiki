@@ -28,7 +28,10 @@ discoverable_by:
 - 人类三角
 - 创造力
 - 双三角案例
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 reviewed_by: pending
 ---
 # 人类三角-创造力

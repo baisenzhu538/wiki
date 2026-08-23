@@ -12,7 +12,6 @@ confidence: 0.8
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 - ai-collaboration
 aliases:
@@ -22,6 +21,8 @@ aliases:
   - 案例：AI辅助调研时间管理教练产品验证
   - 管理教练产品验证
   - 辅助调研时间管理教练产品验证
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/高阶调研行动营01.txt
 discoverable_by:

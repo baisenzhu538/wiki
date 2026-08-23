@@ -3,8 +3,7 @@ id: tool-Truman-本地记忆与云端记忆管理
 title: 技能：本地记忆与云端记忆管理
 type: tool
 domain:
-  - ai-collaboration
-  - yitang
+- ai-collaboration
 status: draft
 author: 老顽童
 reviewed_by: pending
@@ -16,8 +15,13 @@ aliases:
   - 技能：本地记忆与云端记忆管理
   - 本地记忆与云端记忆管理
   - 记忆与云端记忆管理
+source_context:
+  - （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+  - yitang
 source_refs: null
-source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+source_context:
+  - （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+  - yitang
 updated_at: '2026-06-29'
 discoverable_by:
   - 技能：本地记忆与云端记忆管理
@@ -30,9 +34,15 @@ related:
 - '[[tool-Truman-复杂项目AI落地稳定性保障]]'
 - case-decision-ai-assisted-vs-human
 tags:
-- audience:manager
-- scene:execution
-- skill-level:beginner
+  - audience:manager
+  - scene:execution
+  - skill-level:beginner
+  - 上下文
+  - 提示词
+  - 协作
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：本地记忆与云端记忆管理
 

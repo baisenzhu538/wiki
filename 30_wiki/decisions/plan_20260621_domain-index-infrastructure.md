@@ -23,6 +23,10 @@ related:
 - '[[plan_20260621_retrieval-architecture-upgrade]]'
 - '[[proposal-graph-rag-star-fix]]'
 updated_at: '2026-06-29'
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 域索引入口卡 —— 大规模域建制的基础设施方案
 

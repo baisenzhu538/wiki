@@ -13,11 +13,12 @@ language: zh-CN
 created_at: 2026-07-07
 updated_at: 2026-07-07
 domain:
-- yitang
 - management
 aliases:
   - 定方案一页纸画布
   - 项目定方案一页纸画布
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/管项目/项目管理-定方案-口述.txt
 - 00_inbox/管项目/项目管理-定方案-方案评估三角形_vlm_desc.md

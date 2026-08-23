@@ -12,8 +12,9 @@ language: zh-CN
 created_at: 2026-07-04
 updated_at: '2026-07-04'
 domain:
-- yitang
 - ai-collaboration
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/人机协作双三?一堂双三角-人机协作模型-口述.txt
 - 60_feedback/annotations/annotation-yihang-dual-triangle-master.md

@@ -26,7 +26,10 @@ discoverable_by:
 - 人创造力 — 双三角案例
 - 人创造力
 - 双三角案例
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 reviewed_by: pending
 ---
 # 人创造力

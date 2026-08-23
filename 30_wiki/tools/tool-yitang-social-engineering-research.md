@@ -13,7 +13,6 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 difficulty: advanced
 estimated_tokens: 3500
@@ -29,6 +28,8 @@ aliases:
   - 社会工程学调研
   - 社会工程学调研：身份设计与信息获取的合法边界
   - 身份设计与信息获取的合法边界
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt

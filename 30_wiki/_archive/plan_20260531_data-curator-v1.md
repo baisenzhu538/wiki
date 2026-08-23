@@ -8,8 +8,11 @@ superseded_by: plan_20260531_data-curator-v1.1
 domain:
 - master
 tags:
-- src_unknown
-- src_unknown
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - src_unknown
+  - src_unknown
 source_refs:
 - 10_raw/sources/src_20260606_050f35d5-hx-smj-01_v1.0-pcba加工要求_12.md
 created_at: 2026-05-31

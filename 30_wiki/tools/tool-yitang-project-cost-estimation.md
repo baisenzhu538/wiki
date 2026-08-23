@@ -13,11 +13,12 @@ language: zh-CN
 created_at: 2026-07-08
 updated_at: 2026-07-08
 domain:
-- yitang
 - management
 aliases:
   - 成本估算三维度清单
   - 项目成本估算三维度清单
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/管项目/项目管理-定方案-成本估算维度_vlm_desc.md
 discoverable_by:

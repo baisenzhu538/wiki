@@ -5,7 +5,9 @@ component_of:
 confidence: 0.85
 created_at: 2026-05-19
 difficulty: foundational
-domain: src-unknown
+domain:
+- master
+- strategy
 estimated_tokens: 2800
 language: zh-CN
 query_triggers:

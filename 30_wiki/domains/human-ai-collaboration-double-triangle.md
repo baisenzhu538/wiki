@@ -8,9 +8,13 @@ trust_level: medium
 domain:
 - human-ai-collaboration
 - ai-collaboration
-- yitang
 source_person: 王欢
-source_context: 王欢 AI 实战分享（2026-06-18 授课）
+source_context:
+  - 王欢 AI 实战分享（2026-06-18 授课）
+  - yitang
+source_context:
+  - 王欢 AI 实战分享（2026-06-18 授课）
+  - yitang
 source_refs: null
 created_at: '2026-06-19'
 updated_at: 2026-07-02

@@ -28,7 +28,10 @@ discoverable_by:
 - 一个引擎
 - 三阶六变
 - 双三角案例
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 reviewed_by: pending
 ---
 # 一堂双三角-一个引擎-三阶六变

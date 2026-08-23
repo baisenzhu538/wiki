@@ -3,7 +3,8 @@ id: yt-note-five-levels-training
 title: 清单体笔记五阶进阶训练法：从理论到现场的完整通关路径
 type: tool
 status: reviewed
-domain: src-unknown
+domain:
+- content
 language: zh-CN
 version: 1
 difficulty: intermediate

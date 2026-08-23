@@ -10,7 +10,8 @@ trust_level: high
 language: zh-CN
 created_at: '2026-07-13'
 updated_at: '2026-07-13'
-domain: unknown
+domain:
+- content
 aliases:
 - audience:ceo
 - conversion
@@ -29,7 +30,10 @@ discoverable_by:
 - 转化基本功七个自我修养
 - 转化率团队纪律
 quality_labels: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 一堂转化基本功七个自我修养
 

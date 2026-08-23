@@ -7,9 +7,10 @@ author: 老顽童
 reviewer: 欧阳锋
 reviewed_by: 欧阳锋
 domain:
+- operations
+- ai-collaboration
+source_context:
   - yitang
-  - operations
-  - ai-collaboration
 source_refs:
   - 70_product/tasks/task_20260708_wangyuyan-dual-triangle-cross-domain-agent.md
   - .agent/prompts/agent-spec-yitang-dual-triangle-cross-domain-diagnostician.md

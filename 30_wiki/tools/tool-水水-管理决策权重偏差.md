@@ -3,7 +3,8 @@ id: tool-水水-管理决策权重偏差
 title: 技能：管理决策权重偏差
 type: tool
 status: reviewed
-domain: src-unknown
+domain:
+- decision-making
 source_person: 水水
 source_context: 拆书会-偶然
 aliases:
@@ -20,6 +21,10 @@ wiki_refs:
 - src_unknown
 - src_unknown
 - src_unknown
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 discoverable_by:
 - 技能：管理决策权重偏差
 - 管理决策权重偏差

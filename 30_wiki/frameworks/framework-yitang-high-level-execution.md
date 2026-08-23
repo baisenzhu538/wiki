@@ -12,12 +12,16 @@ updated_at: 2026-06-20
 confidence: 0.85
 trust_level: medium
 language: zh-CN
-domain: yitang
+domain:
+- master
+- research
 difficulty: intermediate
 estimated_tokens: 3000
 version: 1
 query_triggers: null
 aliases: []
+source_context:
+  - yitang
 source_refs: null
 related:
   - concept-利润-风险报偿本质

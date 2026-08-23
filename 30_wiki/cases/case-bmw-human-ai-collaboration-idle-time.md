@@ -13,9 +13,10 @@ language: zh-CN
 domain:
 - ai-collaboration
 - manufacturing
-- yitang
 source_person: 《吾辈如神》拆书会主讲人
-source_context: 一堂《吾辈如神》拆书会（2026-07-01），讨论 AI 时代人机协作的未来
+source_context:
+  - 一堂《吾辈如神》拆书会（2026-07-01），讨论 AI 时代人机协作的未来
+  - yitang
 aliases:
   - BMW工厂人机协作案例：idletime减少85%被误读为产能提升85%
   - 《吾辈如神》拆书会主讲人
@@ -23,6 +24,9 @@ aliases:
   - 工厂人机协作案例
   - 拆书会主讲人
   - 被误读为产能提升
+source_context:
+  - 一堂《吾辈如神》拆书会（2026-07-01），讨论 AI 时代人机协作的未来
+  - yitang
 source_refs:
 - 00_inbox/吾辈如神-拆书会/吾辈如神-书籍拆解-口述.txt
 - 00_inbox/吾辈如神-拆书会/吾辈如神-书籍拆解-笔记.txt

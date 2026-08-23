@@ -13,7 +13,6 @@ confidence: 0.9
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 - ai-collaboration
 aliases:
@@ -22,6 +21,8 @@ aliases:
   - 人机协作的底层原则
   - 协作的底层原则
   - 调研十大假设
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/提升AI调研能力的10条关键假设_vlm_desc.md
 discoverable_by:

@@ -10,10 +10,10 @@ language: zh-CN
 created_at: '2026-07-12'
 updated_at: '2026-07-12'
 domain:
-- yitang
 - business-formula
 source_person: 张磊（一堂同学，业务公式课案例主讲引用）
 source_context: 一堂业务公式进阶篇（假设驱动 18 招）第二个完整案例：张磊加入一堂前的二手动漫周边漫展摆摊业务，从 9 平米扩张到 100 平米亏损后，用业务公式拆解+摄像头复盘+逐轮假设实验迭代，两年四五十场做到
+  - yitang
   200+ 平米盈利。数字均为「课程案例口径」，未独立核实。
 aliases:
   - 9平米亏到100平米

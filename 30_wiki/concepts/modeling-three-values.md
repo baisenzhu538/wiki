@@ -12,7 +12,12 @@ aliases:
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: reviewed
-domain: src-unknown
+domain:
+- design
+- kdo
+- master
+- modeling
+- strategy
 updated_at: '2026-06-29'
 author: 老顽童
 reviewed_by: 欧阳锋

@@ -4,10 +4,14 @@ title: 技能：提问题转化三问清单
 type: tool
 status: reviewed
 domain:
-  - ai-collaboration
-  - yitang
+- ai-collaboration
 source_person: 纪浩
-source_context: AI俱乐部-AI协作方法论分享，2026-06
+source_context:
+  - AI俱乐部-AI协作方法论分享，2026-06
+  - yitang
+source_context:
+  - AI俱乐部-AI协作方法论分享，2026-06
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260606_592137a7-AI俱乐部-AI协作方法论-纪浩-笔记.md
 - 10_raw/sources/src_20260606_6ea91aa8-纪浩-AI协作方法论-口述.md

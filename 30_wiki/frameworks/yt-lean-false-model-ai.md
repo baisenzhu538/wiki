@@ -3,7 +3,8 @@ id: yt-lean-false-model-ai
 title: FALSE模型在AI时代的加速应用
 type: framework
 status: draft
-domain: src-unknown
+domain:
+- content
 aliases:
   - FALSE模型在AI时代的加速应用
   - 时代的加速应用

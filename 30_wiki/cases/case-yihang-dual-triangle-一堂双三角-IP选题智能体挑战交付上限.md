@@ -19,6 +19,14 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 知识库
+  - Agent
+  - 上下文
+  - 提示词
+  - 协作
+  - 框架
+  - 工具
+  - 方法
 aliases:
   - 双三角案例：Vikki IP 选题智能体——跳出 AI 工具回到业务视角
 discoverable_by:

@@ -3,8 +3,7 @@ id: tool-Truman-人在环渐进自动化策略
 title: 技能：人在环渐进自动化策略
 type: tool
 domain:
-  - ai-collaboration
-  - yitang
+- ai-collaboration
 status: draft
 author: 老顽童
 reviewed_by: pending
@@ -16,8 +15,13 @@ aliases:
   - 技能
   - 技能：人在环渐进自动化策略
   - 环渐进自动化策略
+source_context:
+  - （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+  - yitang
 source_refs: null
-source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+source_context:
+  - （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+  - yitang
 updated_at: '2026-06-29'
 discoverable_by:
   - 技能：人在环渐进自动化策略
@@ -40,9 +44,14 @@ related:
 - '[[case-yitang-radar-chart-selection]]'
 - '[[yt-business-model-partnership]]'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:beginner
+  - audience:executor
+  - scene:execution
+  - skill-level:beginner
+  - 工作流
+  - 协作
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：人在环渐进自动化策略
 

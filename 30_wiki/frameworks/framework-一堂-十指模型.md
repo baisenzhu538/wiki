@@ -10,7 +10,13 @@ trust_level: high
 language: zh-CN
 created_at: '2026-07-13'
 updated_at: '2026-07-13'
-domain: unknown
+domain:
+- content
+- design
+- human-insights
+- kdo
+- master
+- strategy
 aliases:
 - audience:ceo
 - conversion
@@ -32,7 +38,10 @@ discoverable_by:
 - 左手五化右手五化
 - 黄宝书演示
 quality_labels: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 一堂十指模型：左手具象五化 + 右手抽象五化
 

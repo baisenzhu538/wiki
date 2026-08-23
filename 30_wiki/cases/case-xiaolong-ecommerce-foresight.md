@@ -3,7 +3,7 @@ id: case-xiaolong-ecommerce-foresight
 title: 小龙电商：四层剥离——从服装到正装裤
 type: case
 domain:
-- yitang
+- strategy
 aliases:
 - 从服装到正装裤
 - 四层剥离
@@ -11,6 +11,9 @@ aliases:
 - 小龙电商
 - 小龙电商：四层剥离从服装到正装裤
 - 小龙（卖外/跨境创业者，一堂电商破局课讲师）
+source_context:
+  - Truman在商业预判课中讲解的第二个预判案例
+  - yitang
 source_refs:
   - src_unknown
   - src_unknown
@@ -25,7 +28,9 @@ created_at: 2026-06-11
 review_date: 2026-06-11
 reviewed_by: src_unknown
 source_person: 小龙（卖外/跨境创业者，一堂电商破局课讲师）
-source_context: Truman在商业预判课中讲解的第二个预判案例
+source_context:
+  - Truman在商业预判课中讲解的第二个预判案例
+  - yitang
 query_triggers:
 - src_unknown
 - src_unknown

@@ -6,12 +6,16 @@ type: dk
 dark_knowledge_type: cross-domain-pattern
 status: reviewed
 domain:
-- yitang
 - note-taking
 - modeling
 - ai-collaboration
 source_person: Truman / 纪浩 / 老朱
-source_context: 一堂清单体笔记训练、高阶建模培训、AI协作方法论
+source_context:
+  - 一堂清单体笔记训练、高阶建模培训、AI协作方法论
+  - 时代清单体笔记
+  - yitang
+  - 一堂清单体笔记训练、高阶建模培训、AI协作方法论
+  - 时代清单体笔记
 aliases:
   - Truman / 纪浩 / 老朱
   - 功未内化就强上高阶操作
@@ -19,6 +23,10 @@ aliases:
   - 基本功未内化就强上高阶操作高阶工具失效的头号根因
   - 工具失效的头号根因
   - 高阶工具失效的头号根因
+source_context:
+  - 一堂清单体笔记训练、高阶建模培训、AI协作方法论
+  - 时代清单体笔记
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md
 - 10_raw/sources/src_20260614_55135154-Truman-高阶建模-本质建模-案例-02.md
@@ -54,12 +62,11 @@ quality_labels:
 updated_at: '2026-06-30'
 created_at: '2026-06-30'
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
-- 协作方法论
-- 时代清单体笔记
-- 本质建模
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 协作方法论
+  - 本质建模
 ---
 ## 原始表述 / 核心洞察
 

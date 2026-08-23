@@ -12,7 +12,6 @@ confidence: 0.9
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - OSINT工具总览
@@ -20,6 +19,8 @@ aliases:
   - 工具总览
   - 情报界的调研武器库
   - 界的调研武器库
+source_context:
+  - yitang
 source_refs:
 - src_unknown
 - src_unknown

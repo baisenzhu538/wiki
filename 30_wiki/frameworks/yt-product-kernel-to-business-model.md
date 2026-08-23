@@ -1,5 +1,7 @@
 ---
-domain: src-unknown
+domain:
+- decision-making
+- strategy
 id: yt-product-kernel-to-business-model
 title: 从内核到商业模式：承上启下
 type: framework

@@ -3,8 +3,7 @@ id: tool-Truman-Skill全生命周期管理
 title: 技能：Skill全生命周期管理
 type: tool
 domain:
-  - ai-collaboration
-  - yitang
+- ai-collaboration
 status: draft
 author: 老顽童
 reviewed_by: pending
@@ -16,8 +15,13 @@ aliases:
   - 全生命周期管理
   - 技能
   - 技能：Skill全生命周期管理
+source_context:
+  - （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+  - yitang
 source_refs: null
-source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+source_context:
+  - （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+  - yitang
 updated_at: '2026-06-29'
 discoverable_by:
   - 技能：Skill全生命周期管理
@@ -42,9 +46,13 @@ related:
 - '[[case-yitang-radar-chart-selection]]'
 - '[[model-quality-four-levels]]'
 tags:
-- audience:manager
-- scene:execution
-- skill-level:beginner
+  - audience:manager
+  - scene:execution
+  - skill-level:beginner
+  - 工具
+  - 方法
+  - 实操
+  - 迭代
 ---
 # 技能：Skill全生命周期管理
 

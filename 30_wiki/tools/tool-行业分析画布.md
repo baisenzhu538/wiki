@@ -8,7 +8,8 @@ reviewed_by: 欧阳锋
 confidence: 0.78
 trust_level: medium
 language: zh-CN
-domain: unknown
+domain:
+- strategy
 aliases:
 - audience:executor
 - scene:execution
@@ -23,7 +24,10 @@ discoverable_by:
 - 系统性理解行业结构
 related: null
 updated_at: '2026-06-29'
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 行业分析画布：系统性理解行业结构
 

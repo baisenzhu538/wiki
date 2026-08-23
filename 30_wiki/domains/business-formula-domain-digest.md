@@ -6,9 +6,17 @@ status: enriched
 confidence: 0.88
 trust_level: high
 domain:
-- yitang
 - business-formula
-source_context: 一堂业务公式系列大课五篇（实操/进阶/参数探索/逻辑关系/管理）+ 101 张课件原图 VLM——关键假设 ABCD 体系中 C 域的完整骨架
+source_context:
+  - 一堂业务公式系列大课五篇（实操/进阶/参数探索/逻辑关系/管理）+ 101 张课件原图 VLM——关键假设 ABCD 体系中 C 域的完整骨架
+  - 口述
+  - yitang
+  - 一堂业务公式系列大课五篇（实操/进阶/参数探索/逻辑关系/管理）+ 101 张课件原图 VLM——关键假设 ABCD 体系中 C 域的完整骨架
+  - 口述
+source_context:
+  - 一堂业务公式系列大课五篇（实操/进阶/参数探索/逻辑关系/管理）+ 101 张课件原图 VLM——关键假设 ABCD 体系中 C 域的完整骨架
+  - 口述
+  - yitang
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L1050-L1074
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L16-L16
@@ -125,7 +133,6 @@ tags:
   - 工具
   - 边界
   - 清单
-  - 口述
 discoverable_by:
 - 业务公式域
 - 公式拆解

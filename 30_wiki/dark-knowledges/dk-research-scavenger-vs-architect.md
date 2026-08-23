@@ -13,7 +13,6 @@ created_at: 2026-08-16
 updated_at: 2026-08-16
 domain:
 - research
-- yitang
 aliases:
 - 拾荒者vs建筑师
 - 信息拾荒者
@@ -23,7 +22,16 @@ aliases:
 - 马易
 - 爆炸式调研-下-口述
 source_person: 马易
-source_context: Live259 爆炸式调研（2026-08-11 口述）——收尾总结（下 L4046-4058）
+source_context:
+  - Live259 爆炸式调研（2026-08-11 口述）——收尾总结（下 L4046-4058）
+  - 口述
+  - yitang
+  - Live259 爆炸式调研（2026-08-11 口述）——收尾总结（下 L4046-4058）
+  - 口述
+source_context:
+  - Live259 爆炸式调研（2026-08-11 口述）——收尾总结（下 L4046-4058）
+  - 口述
+  - yitang
 source_refs:
 - 00_inbox/爆炸式调研/爆炸式调研-下-口述.txt
 related:
@@ -45,7 +53,6 @@ tags:
   - 五步法
   - 方法
   - 边界
-  - 口述
 ---
 # 信息拾荒者 vs 规律建筑师
 

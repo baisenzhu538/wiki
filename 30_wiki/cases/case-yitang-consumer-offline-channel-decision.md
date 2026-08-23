@@ -12,7 +12,6 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - 先访谈再算账
@@ -21,6 +20,8 @@ aliases:
   - 消费品线下渠道决策
   - 消费品线下渠道决策先访谈再算账
   - 谈再算账
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/一堂-用户调研实操课-口述_ocr.md
 discoverable_by:

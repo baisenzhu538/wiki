@@ -11,8 +11,9 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
 - ai-collaboration
+source_context:
+  - yitang
 source_refs:
 - 60_feedback/diagnosis/diag_20260708_yitang-dual-triangle-cross-domain-agent.md
 aliases:

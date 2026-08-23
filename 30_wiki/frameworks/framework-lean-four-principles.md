@@ -11,7 +11,8 @@ language: zh-CN
 quality_labels: null
 created_at: 2026-06-23
 updated_at: 2026-06-23
-domain: unknown
+domain:
+- strategy
 aliases:
 - audience:ceo
 - scene:diagnosis
@@ -26,7 +27,10 @@ source_refs: null
 related: null
 discoverable_by:
 - 精益验证四大原则
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 精益创业低成本验证四大原则
 

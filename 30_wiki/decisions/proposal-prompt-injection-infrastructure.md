@@ -41,6 +41,10 @@ source_refs:
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 提案：提示词自动注入体系
 

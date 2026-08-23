@@ -3,8 +3,7 @@ id: tool-Truman-开源模型与商业模型融合方案
 title: 技能：开源模型与商业模型融合方案
 type: tool
 domain:
-  - ai-collaboration
-  - yitang
+- ai-collaboration
 status: draft
 author: 老顽童
 reviewed_by: pending
@@ -16,8 +15,13 @@ aliases:
   - 技能
   - 技能：开源模型与商业模型融合方案
   - 模型与商业模型融合方案
+source_context:
+  - （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+  - yitang
 source_refs: null
-source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+source_context:
+  - （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+  - yitang
 updated_at: '2026-06-16'
 discoverable_by:
   - 技能：开源模型与商业模型融合方案
@@ -36,9 +40,13 @@ related:
 - '[[yt-product-kernel-definition]]'
 - '[[开源HIS系统代码深度分析报告]]'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:beginner
+  - audience:executor
+  - scene:execution
+  - skill-level:beginner
+  - 机制
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：开源模型与商业模型融合方案
 

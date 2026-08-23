@@ -6,7 +6,8 @@ confidence: 0.8
 created_at: 2026-05-11
 difficulty: foundational
 domain:
-- src_unknown
+- content
+- kdo
 estimated_tokens: 1151
 language: zh-CN
 prerequisites:
@@ -59,6 +60,10 @@ diagnostic_signals:
 updated_at: '2026-07-08'
 author: 老顽童
 trust_level: medium
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 
 # 场景推演：细颗粒度推演

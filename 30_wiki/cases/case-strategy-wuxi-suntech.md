@@ -17,6 +17,8 @@ aliases:
   - 无锡尚德：全球光伏第一→熬不过绝望之谷→被外资阴了
   - 熬不过绝望之谷
   - 被外资阴了
+source_context:
+  - 冉鹏战略课逐字稿
 source_refs:
 - 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md
   - src_unknown
@@ -32,11 +34,10 @@ related:
 - '[[dk-c8-format-complete-mind-empty]]'
 - '[[dk-strategy-stage-leverage-mismatch]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:advanced
-- 冉鹏战略课逐字稿
-- 战略专题
+  - audience:general
+  - scene:reference
+  - skill-level:advanced
+  - 战略专题
 ---
 
 **轨迹**：全球光伏第一 → 行业进入绝望之谷 → 资金链断裂 → 外资低价收购。

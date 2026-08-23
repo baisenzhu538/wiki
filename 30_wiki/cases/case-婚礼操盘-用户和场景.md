@@ -12,7 +12,6 @@ confidence: 0.7
 trust_level: low
 language: zh-CN
 domain:
-- yitang
 - decision-science
 aliases:
   - 和场景分析
@@ -21,6 +20,8 @@ aliases:
   - 案例
   - 案例：婚礼操盘用户和场景分析
   - 用户和场景分析
+source_context:
+  - yitang
 source_refs:
 - src_unknown
 discoverable_by:

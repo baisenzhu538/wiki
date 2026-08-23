@@ -6,7 +6,10 @@ status: reviewed
 reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: high
-domain: unknown
+domain:
+- kdo
+- master
+- strategy
 author: 欧阳锋
 created_at: '2026-06-21'
 updated_at: '2026-08-11'
@@ -28,7 +31,10 @@ source_refs: null
 related: null
 discoverable_by:
 - 欧阳锋审查方法论
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 欧阳锋审查方法论
 

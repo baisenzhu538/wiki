@@ -5,15 +5,19 @@ title: 案例：一堂无人餐厅项目因忽视关键假设而失败
 type: case
 status: enriched
 domain:
-- yitang
 - business-strategy
 source_person: 一堂·Truman
-source_context: 一堂关键假设课，京东天津无人餐厅案例
+source_context:
+  - 一堂关键假设课，京东天津无人餐厅案例
+  - yitang
 aliases:
   - 一堂·Truman
   - 一堂无人餐厅项目因忽视关键假设而失败
   - 案例
   - 案例：一堂无人餐厅项目因忽视关键假设而失败
+source_context:
+  - 一堂关键假设课，京东天津无人餐厅案例
+  - yitang
 source_refs:
   - src_unknown
   - src_unknown

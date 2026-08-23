@@ -3,7 +3,9 @@ id: tool-一堂-product-kernel-canvas
 title: 一堂产品内核画布应用技能
 type: tool
 status: reviewed
-domain: src-unknown
+domain:
+- decision-making
+- kdo
 source_person: 一堂·Truman
 source_context: 一堂-产品内核迭代课/验证课/实操课笔记
 aliases:

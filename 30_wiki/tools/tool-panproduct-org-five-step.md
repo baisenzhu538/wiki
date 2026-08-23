@@ -6,7 +6,6 @@ status: reviewed
 domain:
 - panproduct
 - organization
-- yitang
 confidence: 0.82
 trust_level: high
 author: 老顽童
@@ -24,6 +23,8 @@ aliases:
 - 兰毅 / 一堂
 - 场景五步法操作卡
 - 组织场景五步法操作卡
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-口述.txt
 - 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-笔记.txt

@@ -12,13 +12,14 @@ confidence: 0.82
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - 三方身份组织行业讨论
   - 以第三方身份组织行业讨论
   - 匿名座谈
   - 匿名座谈：以第三方身份组织行业讨论
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 discoverable_by:

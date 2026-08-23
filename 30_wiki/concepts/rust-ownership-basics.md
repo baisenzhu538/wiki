@@ -11,8 +11,11 @@ discoverable_by:
   - 所有权基础
   - 三条核心规则
 tags:
-  - "#domain/rust"
-  - "#method/thinking-tool"
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - #domain/rust
+  - #method/thinking-tool
 aliases:
   - Rust所有权基础：三条核心规则
   - 三条核心规则

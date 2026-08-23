@@ -13,10 +13,14 @@ aliases:
 - tool使用一页纸速查卡快速调用框架
 - 使用一页纸速查卡快速调用框架
 source_refs: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 type: tool
 status: draft
-domain: unknown
+domain:
+- content
 ---
 > 将复杂的决策/分析框架浓缩为一张 A4 速查图，分析时置于案头快速查阅——把"需要记忆"的认知负担转移为"需要看到"的外部辅助。
 

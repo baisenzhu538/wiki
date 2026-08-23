@@ -11,10 +11,14 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - management
+- management
 source_person: 老顽童
-source_context: 一堂项目管理入门篇口述稿（2026-07-07），Leo 官网改版失败案例
+source_context:
+  - 一堂项目管理入门篇口述稿（2026-07-07），Leo 官网改版失败案例
+  - 口述
+  - yitang
+  - 一堂项目管理入门篇口述稿（2026-07-07），Leo 官网改版失败案例
+  - 口述
 aliases:
   - 官网改版失败
   - 案例
@@ -22,6 +26,10 @@ aliases:
   - 用设计师当人肉方案探索工具
   - 老顽童
   - 跳过定方案
+source_context:
+  - 一堂项目管理入门篇口述稿（2026-07-07），Leo 官网改版失败案例
+  - 口述
+  - yitang
 source_refs:
   - 00_inbox/管项目/项目管理-入门篇-口述.txt
 discoverable_by:
@@ -41,7 +49,6 @@ tags:
   - audience:manager
   - scene:execution
   - 工具
-  - 口述
 created_at: 2026-07-08
 updated_at: 2026-07-08
 ---

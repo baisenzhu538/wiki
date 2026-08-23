@@ -1,5 +1,8 @@
 ---
-domain: src-unknown
+domain:
+- decision-making
+- design
+- strategy
 id: yt-business-model-asset-light
 title: 轻资产模式：资源杠杆
 type: concept

@@ -1,5 +1,10 @@
 ---
-domain: src-unknown
+domain:
+- decision-making
+- design
+- human-insights
+- kdo
+- strategy
 id: yt-growth-retention-metrics
 title: 留存指标：从流失到忠诚
 type: framework

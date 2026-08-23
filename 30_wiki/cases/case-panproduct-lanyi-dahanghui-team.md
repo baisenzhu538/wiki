@@ -22,9 +22,10 @@ language: zh-CN
 domain:
 - panproduct
 - organization
-- yitang
 source_person: 兰毅 / 一堂
-source_context: 兰毅在一堂开放麦分享「用产品思维做组织」，以大航海战队为亲历案例
+source_context:
+  - 兰毅在一堂开放麦分享「用产品思维做组织」，以大航海战队为亲历案例
+  - yitang
 aliases:
 - 兰毅
 - 兰毅 / 一堂
@@ -32,6 +33,9 @@ aliases:
 - 案例
 - 案例：兰毅大航海战队如何被设计成组织产品
 - 海战队如何被设计成组织产品
+source_context:
+  - 兰毅在一堂开放麦分享「用产品思维做组织」，以大航海战队为亲历案例
+  - yitang
 source_refs:
 - 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-逐字稿.md
 - 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-口述.txt

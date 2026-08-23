@@ -12,9 +12,10 @@ language: zh-CN
 created_at: 2026-07-12
 updated_at: '2026-07-12'
 domain:
-- yitang
 - business-formula
-source_context: 一堂业务公式课程（孔阳），进阶篇十大范式之脱离成本型范式 + 实操篇续费本质段 + 参数探索篇 50 学分魔法数字段
+source_context:
+  - 一堂业务公式课程（孔阳），进阶篇十大范式之脱离成本型范式 + 实操篇续费本质段 + 参数探索篇 50 学分魔法数字段
+  - yitang
 aliases:
   - 不是信任加深
   - 信任加深
@@ -22,6 +23,9 @@ aliases:
   - 续费/留存的本质是离开太痛
   - 脱离成本
   - 脱离成本：续费/留存的本质是离开太痛，不是信任加深
+source_context:
+  - 一堂业务公式课程（孔阳），进阶篇十大范式之脱离成本型范式 + 实操篇续费本质段 + 参数探索篇 50 学分魔法数字段
+  - yitang
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L1848-L1860
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L1956-L2038

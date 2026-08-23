@@ -21,6 +21,10 @@ source_refs:
   - 10_raw/sources/src_20260619_d967c8f5_90_control_failure_modes.md#F-KDO-013
 created_at: 2026-05-31
 updated_at: '2026-06-19'
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 discoverable_by:
   - F-KDO-013：手写 YAML 解析器导致嵌套数据丢失
   - 解析器导致嵌套数据丢失

@@ -1,12 +1,15 @@
 ---
 domain:
-- yitang
+- ai-collaboration
+- design
 id: yt-prompt-iterative-prompting
 title: 迭代式提示词工作流（5步法）
 type: tool
 aliases:
 - 式提示词工作流
 - 迭代式提示词工作流5步法
+source_context:
+  - yitang
 source_refs:
 - src_unknown
 - src_unknown

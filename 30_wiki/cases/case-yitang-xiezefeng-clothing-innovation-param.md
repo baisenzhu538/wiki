@@ -5,10 +5,10 @@ title: 服装店：找到"二次试穿"创新参数（L5）与"音量80"魔法�
 type: case
 status: reviewed
 domain:
-- yitang
 - business-strategy
 source_person: 谢泽丰（泽丰）
 source_context: 一堂「落地之夜第六场」直播 Live 第 255 场案例分享（2026），广州泽择男装 4 家门店，在红海中从"疯狂轰假设无效"到重建业务公式，发现
+  - yitang
   L5 创新参数"二次试穿"与 L6 魔法数字"音量80"，14 个月综合营收 +16%（极度内卷传统行业）
 aliases:
   - 务公式定优先级

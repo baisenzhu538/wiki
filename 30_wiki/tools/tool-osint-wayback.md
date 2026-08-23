@@ -12,7 +12,6 @@ confidence: 0.9
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - WaybackMachine：网站时光机看竞对的每一个历史版本
@@ -20,6 +19,8 @@ aliases:
   - 时光机
   - 看竞对的每一个历史版本
   - 网站时光机
+source_context:
+  - yitang
 source_refs:
 - src_unknown
 - src_unknown

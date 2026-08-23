@@ -13,12 +13,13 @@ created_at: 2026-07-11
 updated_at: 2026-07-11
 domain:
 - management
-- yitang
 aliases:
   - 从本质要素到
   - 建模七法
   - 建模七法：从本质要素到SOP，把基本功建成固定套路
   - 把基本功建成固定套路
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/Manage the team/Fundamentals Seminar/_vlm_output/建模卡-本质要素-01_vlm.md
 - 00_inbox/Manage the team/Fundamentals Seminar/_vlm_output/建模卡-拆N布法-02_vlm.md

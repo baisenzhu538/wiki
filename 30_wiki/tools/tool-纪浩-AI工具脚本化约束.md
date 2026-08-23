@@ -3,7 +3,8 @@ id: tool-纪浩-AI工具脚本化约束
 title: 技能：AI工具脚本化约束
 type: tool
 status: reviewed
-domain: src-unknown
+domain:
+- ai-collaboration
 source_person: 纪浩
 source_context: AI俱乐部-人和AI协作-纪浩-五层结构-图片01
 aliases:

@@ -1,12 +1,15 @@
 ---
-domain: src-unknown
+domain:
+- strategy
 id: yt-demand-quantitative-estimation
 title: 市场规模估算四种方法：自上而下、自下而上、竞品对标、替代方案估值
 type: tool
 status: reviewed
 confidence: 0.91
 trust_level: high
-source_context: 一堂五步法需求分析口述——"市场规模估算四种方法"
+source_context:
+  - 一堂五步法需求分析口述——"市场规模估算四种方法"
+  - 一堂五步法
 aliases:
   - 市场规模估算四种方法
   - 市场规模估算四种方法：自上而下、自下而上、竞品对标、替代方案估值
@@ -52,11 +55,10 @@ diagnostic_signals:
 - framework_lens: 1%陷阱——没有论证为什么能拿到1%而不是0.01%
   follow_up_question: 为什么是1%？你的获客渠道、转化路径、竞争壁垒能支撑这个假设吗？
 tags:
-- audience:executor
-- scene:execution
-- skill-level:advanced
-- 一堂五步法
-- 市场规模估算四种方法
+  - audience:executor
+  - scene:execution
+  - skill-level:advanced
+  - 市场规模估算四种方法
 ---
 # 市场规模估算四种方法：自上而下、自下而上、竞品对标、替代方案估值
 

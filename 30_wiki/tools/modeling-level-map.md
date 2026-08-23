@@ -2,12 +2,13 @@
 
 domain:
 - modeling
-- yitang
 id: modeling-level-map
 title: 建模能力段位图：从 L1 到 L6 的十年爬山地图
 type: tool
 status: reviewed
-source_context: 一堂 2026-06-12 建模能力培训课程，段位图与 L1-L6 自评框架
+source_context:
+  - 一堂 2026-06-12 建模能力培训课程，段位图与 L1-L6 自评框架
+  - yitang
 aliases:
   - 山地图
   - 年爬山地图
@@ -16,6 +17,9 @@ aliases:
   - 段位图
   - 的十年爬山地图
   - 能力段位图
+source_context:
+  - 一堂 2026-06-12 建模能力培训课程，段位图与 L1-L6 自评框架
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260614_bb892297-Truman-高阶建模-段位图-01.md
 - 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md

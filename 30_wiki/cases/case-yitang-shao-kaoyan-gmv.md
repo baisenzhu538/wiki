@@ -5,10 +5,10 @@ title: 邵同学考研：GMV +50% 目标靠分层切片找到反常识机会，�
 type: case
 status: enriched
 domain:
-- yitang
 - business-formula
 source_person: 邵同学（一堂学员，成人培训运营总监）
 source_context: 一堂「关键假设-业务公式」参数探索篇口述，L3 分层段学员案例（L1944-L1966）：邵同学在成人考证培训平台任运营总监，接手考研大类目后定
+  - yitang
   GMV +50% 目标，靠逐层分层找到新闻传播这一反常识机会，再按老师粉丝量/平台数/教学质量建模锁定重点老师，BD 成功率非常高
 aliases:
   - 三维建模锁定重点老师

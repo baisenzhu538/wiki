@@ -10,7 +10,9 @@ problem_domains:
 industry: 在线教育
 scale: 公司
 source_person: Truman
-source_context: 一堂建模能力培训，2026-06-12
+source_context:
+  - 一堂建模能力培训，2026-06-12
+  - yitang
 aliases:
   - Truman
   - 一堂内部给模型定价
@@ -18,6 +20,9 @@ aliases:
   - 元到
   - 案例
   - 案例：一堂内部给模型定价从5000元到10万美金的价值飞轮
+source_context:
+  - 一堂建模能力培训，2026-06-12
+  - yitang
 source_refs:
   - src_unknown
   - src_unknown
@@ -50,7 +55,6 @@ reviewed_by: 王语嫣
 confidence: 0.8
 trust_level: medium
 domain:
-- yitang
 - 组织激励
 - 模型质量管理
 related:

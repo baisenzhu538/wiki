@@ -1,7 +1,8 @@
 ---
 title: Y模型/科学决策
 type: concept
-domain: src-unknown
+domain:
+- decision-making
 status: reviewed
 pipeline:
 - src_unknown

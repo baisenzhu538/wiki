@@ -8,10 +8,14 @@ superseded_by:
 - src_unknown
 - src_unknown
 domain:
-  - product
-  - yitang
+- product
 source_person: Truman
-source_context: 一堂商业预判课（2026年）
+source_context:
+  - 一堂商业预判课（2026年）
+  - yitang
+source_context:
+  - 一堂商业预判课（2026年）
+  - yitang
 source_refs:
 - src_unknown
 created_at: 2026-06-09

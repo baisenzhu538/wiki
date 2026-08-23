@@ -13,10 +13,11 @@ trust_level: medium
 language: zh-CN
 domain:
 - strategy
-- yitang
 - product
 source_person: 一堂课程讲师/学员案例（教学案例集）
-source_context: 一堂精益创业·低成本验证实操课程
+source_context:
+  - 一堂精益创业·低成本验证实操课程
+  - yitang
 aliases:
   - 一堂课程讲师/学员案例（教学案例集）
   - 做错案例集
@@ -24,6 +25,9 @@ aliases:
   - 教学案例集
   - 方案做错案例集
   - 课程讲师
+source_context:
+  - 一堂精益创业·低成本验证实操课程
+  - yitang
 source_refs:
 - 00_inbox/精益创业/truman-精益创业-低成本验证-方案做错-01_ocr_text.md
 - 00_inbox/精益创业/truman-精益创业-低成本验证-方案做错-01_vlm_desc.md

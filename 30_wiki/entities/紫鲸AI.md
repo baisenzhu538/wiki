@@ -26,7 +26,10 @@ related:
   - [[case-ji-hao-skills-market]]
   - [[紫鲸ai智能体工作流平台]]
   - [[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]
-tags: []
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 trust_level: medium
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。

@@ -1,7 +1,9 @@
 ---
 title: 公司文化
 type: concept
-domain: src-unknown
+domain:
+- design
+- strategy
 status: reviewed
 pipeline:
 - src_unknown

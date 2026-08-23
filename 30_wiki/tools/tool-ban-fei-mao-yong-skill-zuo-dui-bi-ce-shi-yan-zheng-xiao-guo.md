@@ -4,16 +4,28 @@ title: 技能：用 Skill 做对比测试验证效果
 type: tool
 status: reviewed
 domain:
-  - src-unknown
-  - yitang
+- ai-collaboration
+- decision-making
+- design
+- kdo
+- strategy
 source_person: 半肥猫
-source_context: AI俱乐部-AI学习落地 分享
+source_context:
+  - AI俱乐部-AI学习落地 分享
+  - 半肥猫
+  - yitang
+  - AI俱乐部-AI学习落地 分享
+  - 半肥猫
 aliases:
   - 做对比测试验证效果
   - 半肥猫
   - 技能
   - 技能：用Skill做对比测试验证效果
   - 比测试验证效果
+source_context:
+  - AI俱乐部-AI学习落地 分享
+  - 半肥猫
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260619_08606b41_00_inbox_半肥猫_AI学习落地_口述.md
 tools_required:
@@ -54,11 +66,10 @@ diagnostic_signals:
 - framework_lens: 共识缺失
   follow_up_question: 能否把评价标准事先和 AI/团队约定，用结构化评分替代主观争论？
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
-- 半肥猫
-- 学习落地
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 学习落地
 ---
 # 技能：用 Skill 做对比测试验证效果
 

@@ -15,11 +15,11 @@ source_refs:
   - src_unknown
 status: reviewed
 domain:
-- yitang
 - modeling
 - education
 source_person: Truman
 source_context: 一堂高阶建模能力培训（一堂公司本质定位） （单一 source 为完整长文档，内容充分支撑 high trust） （单一 source，P1
+  - yitang
   收尾时从 high 降为 medium，待补充第二来源或充分验证后再升回 high）
 created_at: '2026-06-14'
 updated_at: 2026-06-28
@@ -37,14 +37,13 @@ related:
 - '[[yt-model-liberate-thinking-layers]]'
 - '[[yitang-domain-digest]]'
 tags:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown# 案例：一堂是「教育供应链创新公司」——从真实实践里种菜、摘菜、炒菜
-- audience:general
-- scene:reference
-- skill-level:intermediate
-- 建模能力培训
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - 建模能力培训
 ---
 
 > **Burn line**: 一堂不是包装 IP 讲别人课的公司，而是把真实实践当成地里的菜，成熟了再摘下来炒给观众吃。

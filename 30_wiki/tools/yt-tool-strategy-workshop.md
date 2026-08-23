@@ -7,9 +7,13 @@ aliases:
   - scene:execution
   - skill-level:intermediate
   - 战略研讨会引导手册
+source_context:
+  - yitang
 source_refs:
 status: reviewed
-domain: yitang
+domain:
+- decision-making
+- strategy
 language: zh-CN
 version: 1
 difficulty: foundational

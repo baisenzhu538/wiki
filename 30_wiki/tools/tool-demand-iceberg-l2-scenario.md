@@ -13,7 +13,6 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - five-step-method
 aliases:
   - L2粗拆场景问题
@@ -21,6 +20,8 @@ aliases:
   - 捕捉表层的痛点和需求
   - 粗拆场景问题
   - 表层的痛点和需求
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/五步法之需求分析/AI场景推演教练提示词.txt
 discoverable_by:

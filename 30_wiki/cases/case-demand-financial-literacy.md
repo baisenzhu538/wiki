@@ -12,7 +12,6 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - five-step-method
 aliases:
   - 刚性误判
@@ -21,6 +20,8 @@ aliases:
   - 案例
   - 案例：少儿财商教育刚性误判
   - 财商教育
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/五步法之需求分析/需求评估避坑合集.md
 discoverable_by:

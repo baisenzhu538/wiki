@@ -1,5 +1,9 @@
 ---
-domain: src-unknown
+domain:
+- decision-making
+- design
+- five-step-method
+- strategy
 id: yt-business-model-margin-structure
 title: 毛利率结构分析：钱从哪来，到哪去
 type: concept

@@ -1,5 +1,7 @@
 ---
-domain: src-unknown
+domain:
+- five-step-method
+- strategy
 id: yt-product-kernel-shampoo-case
 merged_into: case-shampoo-product-kernel
 merge_date: '2026-07-08'
@@ -9,7 +11,9 @@ type: case
 status: enriched
 confidence: 0.92
 trust_level: high
-source_context: 一堂产品内核系列课——洗发水案例
+source_context:
+  - 一堂产品内核系列课——洗发水案例
+  - 一堂五步法
 aliases:
   - 产品内核实战
   - 从去屑到专业形象
@@ -50,12 +54,11 @@ diagnostic_signals:
 - framework_lens: 洗发水案例——内核可能不是你以为的功能
   follow_up_question: 用户选择你们，是因为去屑效果好，还是因为品牌形象？
 tags:
-- audience:general
-- scene:reference
-- skill-level:advanced
-- 一堂五步法
-- 产品内核
-- 洗发水案例
+  - audience:general
+  - scene:reference
+  - skill-level:advanced
+  - 产品内核
+  - 洗发水案例
 ---
 # 洗发水案例：产品内核实战——从"去屑"到"专业形象"
 

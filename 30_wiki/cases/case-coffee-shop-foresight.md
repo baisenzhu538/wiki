@@ -4,7 +4,8 @@ id: case-coffee-shop-foresight
 confidence: 0.85
 created_at: 2026-06-10
 difficulty: beginner
-domain: yitang
+domain:
+- strategy
 estimated_tokens: 2000
 language: zh-CN
 query_triggers:
@@ -21,6 +22,8 @@ aliases:
   - 案例
   - 案例：咖啡馆创业预判
   - 馆创业预判
+source_context:
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260614_eca9f5b3-酒店行业-AI标签审核案例.md
 status: enriched

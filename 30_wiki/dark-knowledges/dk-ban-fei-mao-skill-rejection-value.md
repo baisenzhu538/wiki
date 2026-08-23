@@ -7,9 +7,13 @@ dark_knowledge_type: insight
 status: reviewed
 domain:
 - ai-collaboration
-- yitang
 source_person: 半肥猫
-source_context: AI俱乐部-AI学习落地 分享
+source_context:
+  - AI俱乐部-AI学习落地 分享
+  - 半肥猫
+  - yitang
+  - AI俱乐部-AI学习落地 分享
+  - 半肥猫
 aliases:
   - 半肥猫
   - 大价值不是生成
@@ -17,6 +21,10 @@ aliases:
   - 暗知识
   - 暗知识：Skill的最大价值不是生成，是拒绝
   - 的最大价值不是生成
+source_context:
+  - AI俱乐部-AI学习落地 分享
+  - 半肥猫
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md
 created_at: 2026-06-07
@@ -59,11 +67,10 @@ diagnostic_signals:
   follow_up_question: 你的用户是在为"被取悦"付费，还是为"正确结果"付费？拒绝是否反而保护了长期信任？
 pipeline: null
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
-- 半肥猫
-- 学习落地
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 学习落地
 ---
 
 - src_unknown

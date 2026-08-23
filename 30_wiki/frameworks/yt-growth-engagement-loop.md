@@ -1,5 +1,6 @@
 ---
-domain: src-unknown
+domain:
+- human-insights
 id: yt-growth-engagement-loop
 title: 参与循环：让用户持续回来
 type: framework

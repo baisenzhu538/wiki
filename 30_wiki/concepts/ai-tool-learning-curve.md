@@ -6,11 +6,12 @@ type: framework
 domain:
 - ai
 - learning-methodology
-- yitang
 status: reviewed
 aliases:
   - AI工具循序渐进学习曲线
   - 工具循序渐进学习曲线
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md
 discoverable_by:

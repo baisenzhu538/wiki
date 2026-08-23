@@ -2,7 +2,8 @@
 id: tool-马易-判断标准快速产出法
 title: 技能：判断标准快速产出法
 type: tool
-domain: unknown
+domain:
+- ai-collaboration
 status: draft
 author: unknown
 reviewed_by: pending
@@ -23,7 +24,10 @@ discoverable_by:
 - 技能：判断标准快速产出法
 - 判断标准快速产出法
 related: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 技能：判断标准快速产出法
 

@@ -7,10 +7,11 @@ dark_knowledge_type: insight
 status: reviewed
 domain:
 - design
-- yitang
 - business-strategy
 source_person: 月白
-source_context: '口述稿: AI设计-AI设计基础01'
+source_context:
+  - 口述稿: AI设计-AI设计基础01
+  - yitang
 aliases:
   - 10分层法则
   - 中国设计需求的80
@@ -18,6 +19,9 @@ aliases:
   - 分层法则
   - 月白
   - 设计需求的
+source_context:
+  - 口述稿: AI设计-AI设计基础01
+  - yitang
 source_refs:
 - src_unknown
 created_at: 2026-06-04

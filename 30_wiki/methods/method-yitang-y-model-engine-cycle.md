@@ -12,9 +12,10 @@ language: zh-CN
 created_at: 2026-07-04
 updated_at: 2026-07-08
 domain:
-- yitang
 - decision-science
 - methodology
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-口述.txt
 - 00_inbox/实事求是/实事求是-周子敬-口述.txt

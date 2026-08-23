@@ -6,7 +6,9 @@ type: framework
 status: reviewed
 confidence: 0.78
 trust_level: medium
-source_context: 一堂五步法需求分析——需求验证方法
+source_context:
+  - 一堂五步法需求分析——需求验证方法
+  - 一堂五步法
 aliases:
   - 低成本测试法
   - 早期验证
@@ -42,10 +44,9 @@ diagnostic_signals:
 - framework_lens: 需求早期验证——样本偏差
   follow_up_question: 你的验证对象是你的朋友，还是真正的目标用户？他们是否愿意付费？
 tags:
-- audience:ceo
-- scene:diagnosis
-- skill-level:intermediate
-- 一堂五步法
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:intermediate
 discoverable_by:
 - 需求早期验证
 - 需求假设测试

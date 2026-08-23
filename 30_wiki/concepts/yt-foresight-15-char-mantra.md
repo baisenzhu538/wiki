@@ -2,7 +2,9 @@
 id: yt-foresight-15-char-mantra
 title: 十五字黄金法诀：机会预判的核心框架
 type: concept
-domain: src-unknown
+domain:
+- decision-making
+- strategy
 aliases:
 - 十五字黄金法诀
 - 十五字黄金法诀：机会预判的核心框架

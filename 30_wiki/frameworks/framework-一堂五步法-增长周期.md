@@ -11,7 +11,8 @@ trust_level: high
 language: zh-CN
 created_at: 2026-07-08
 updated_at: 2026-07-08
-domain: unknown
+domain:
+- strategy
 source_refs: null
 related: null
 discoverable_by:
@@ -21,7 +22,10 @@ diagnostic_signals:
   lens: 系统驱动缺位——获客驱动到极限后需要系统驱动
   follow-up: 判断当前是获客驱动还是需要切换到系统驱动
 quality_labels: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 aliases: null
 ---
 # 一堂五步法·增长周期：获客驱动/系统驱动/对抗驱动三阶段

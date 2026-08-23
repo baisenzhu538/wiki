@@ -6,7 +6,10 @@ confidence: 0.8
 created_at: 2026-05-11
 difficulty: foundational
 domain:
-- src_unknown
+- content
+- design
+- kdo
+- master
 estimated_tokens: 1111
 language: zh-CN
 prerequisites:
@@ -51,6 +54,10 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
 superseded_by: tool-泛产品落地-内核和边界
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 
 

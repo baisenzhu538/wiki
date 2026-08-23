@@ -12,7 +12,6 @@ confidence: 0.92
 trust_level: high
 language: zh-CN
 domain:
-- yitang
 - research
 aliases:
   - 实地调研的教科书
@@ -21,6 +20,8 @@ aliases:
   - 瑞幸做空
   - 瑞幸做空实地调研的教科书
   - 调研的教科书
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/调研专题/一堂-系统式调研-口述.txt
 discoverable_by:

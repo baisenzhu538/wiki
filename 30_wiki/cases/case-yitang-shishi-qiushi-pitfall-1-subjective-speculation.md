@@ -12,7 +12,6 @@ language: zh-CN
 created_at: 2026-07-05
 updated_at: 2026-07-05
 domain:
-- yitang
 - decision-science
 aliases:
   - 主观臆测
@@ -21,6 +20,8 @@ aliases:
   - 实事求是十坑主观臆测：废品回收站从单店成功到多店失败
   - 废品回收站从单店成功到多店失败
   - 求是十坑
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/实事求是/实事求是-周子敬-口述.txt
 - 00_inbox/实事求是/_processed/实事求是-大坑之一-主观臆测_vlm.md

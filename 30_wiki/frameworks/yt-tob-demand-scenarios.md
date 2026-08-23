@@ -3,7 +3,8 @@ id: yt-tob-demand-scenarios
 title: To B 需求场景四象限
 type: framework
 status: draft
-domain: src-unknown
+domain:
+- strategy
 aliases:
   - ToB需求场景四象限
   - 场景四象限

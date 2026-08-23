@@ -4,7 +4,8 @@ component_of: '[[yt-five-step-method]]'
 confidence: 0.8
 created_at: 2026-06-11
 difficulty: intermediate
-domain: src-unknown
+domain:
+- decision-making
 estimated_tokens: 3200
 language: zh-CN
 prerequisites: []
@@ -21,6 +22,8 @@ aliases:
   - 暗知识
   - 暗知识：五步法中的主要认知偏差
   - 法中的主要认知偏差
+source_context:
+  - 一堂五步法
 source_refs:
 - 10_raw/sources/src_20260617_670c28d4-一堂-一堂五步法-序言-口述.txt
 - 10_raw/sources/src_20260617_3c05beda-一堂-一堂五步法-落地实操-口述.txt
@@ -68,11 +71,10 @@ related:
 - '[[yt-five-step-level-blindspots]]'
 - '[[yt-business-model-platform-strategy]]'
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
-- 一堂五步法
-- 落地实操
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 落地实操
 ---
 # 暗知识：五步法中的主要认知偏差
 

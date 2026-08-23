@@ -24,7 +24,10 @@ discoverable_by:
 - 降龙十八掌
 - 18张调研策略卡
 - 调研策略全景图
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 # 降龙十八掌：18张调研策略卡全景图
 

@@ -14,7 +14,6 @@ created_at: 2026-07-05
 updated_at: 2026-07-05
 domain:
 - ai-collaboration
-- yitang
 aliases:
   - 从模糊需求到九层可执行计划
   - 双三角画布演示
@@ -22,6 +21,8 @@ aliases:
   - 巨米推广
   - 糊需求到九层可执行计划
   - 角画布演示
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/人机协作双三角/_processed/测试_巨米推广_双三角画布.md
 discoverable_by:

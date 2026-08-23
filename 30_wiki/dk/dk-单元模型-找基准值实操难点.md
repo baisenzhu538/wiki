@@ -9,10 +9,18 @@ reviewed_by: 欧阳锋
 confidence: 0.78
 trust_level: medium
 language: zh-CN
-domain: yitang
+domain:
+- strategy
 aliases:
   - 准值实操难点
   - 找基准值实操难点
+source_context:
+  - 口述
+  - yitang
+  - 口述
+source_context:
+  - 口述
+  - yitang
 source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-找基准值实操难点_vlm_desc.md
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-找基准值实操难点_vlm_desc.md
@@ -36,7 +44,6 @@ tags:
   - 方法
   - 边界
   - 清单
-  - 口述
 ---
 # 找基准值实操难点
 

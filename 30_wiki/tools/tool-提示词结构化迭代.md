@@ -3,18 +3,22 @@ id: tool-提示词结构化迭代
 title: 技能：提示词结构化迭代
 type: tool
 domain:
-  - learning-methodology
-  - ai-saas
-  - management
-  - yitang
+- learning-methodology
+- ai-saas
+- management
 status: draft
 source_person: Truman
-source_context: src_20260609_03491271
+source_context:
+  - src_20260609_03491271
+  - yitang
 aliases:
   - Truman
   - 技能
   - 技能：提示词结构化迭代
   - 提示词结构化迭代
+source_context:
+  - src_20260609_03491271
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset.md
 definition_of_done: null

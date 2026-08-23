@@ -25,6 +25,10 @@ related:
 - "[[dk-p17-accuracy-gap]]"
 - '[[dk-p9-glob-miss]]'
 review_date: '2026-06-29'
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 ---
 
 # P-15：执行者声称"完成"但实际未做——可测量指标必须独立验证

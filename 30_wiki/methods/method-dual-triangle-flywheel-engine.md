@@ -11,9 +11,10 @@ language: zh-CN
 created_at: 2026-07-03
 updated_at: 2026-07-11
 domain:
-- yitang
 - ai-collaboration
 - organizational-design
+source_context:
+  - yitang
 source_refs:
 - 00_inbox/人机协作双三角/_processed/任务建议_双三角画布填充Prompt.md
 - 00_inbox/人机协作双三角/_processed/AI组织行为学的口述_text.md

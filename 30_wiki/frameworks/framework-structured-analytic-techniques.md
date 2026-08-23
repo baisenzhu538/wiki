@@ -2,8 +2,12 @@
 id: framework-structured-analytic-techniques
 title: 结构化分析技术（SATs）总览
 type: framework
-domain: unknown
-tags: null
+domain:
+- decision-making
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 source_person: Richards J. Heuer Jr. + Randolph H. Pherson + Truman（一堂）
 source_context: SATs 文献综述 + 一堂九层深挖/交叉验证的 SATs 同构映射
 aliases:
