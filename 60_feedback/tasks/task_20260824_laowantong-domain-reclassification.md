@@ -1,9 +1,10 @@
 ---
 id: 493
 assignee: laowantong
-status: queued
-updated_at: '2026-08-24T00:00:00+08:00'
+status: in_progress
+updated_at: '2026-08-23T18:51:51.866525+00:00'
 version: v0.1
+instance: hermes
 ---
 
 # #493 域归域治理（src-unknown/unknown 补域 + yitang 来源降级拆分）
