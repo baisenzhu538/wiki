@@ -27,8 +27,10 @@ related:
 - "[[framework-yitang-project-plan-design]]"
 - "[[tool-yitang-project-risk-discovery]]"
 tags:
-- audience:executor
-- scene:execution
+  - audience:executor
+  - scene:execution
+  - 风险
+  - 清单
 diagnostic_signals:
 quality_labels:
 - actionable

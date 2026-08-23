@@ -46,6 +46,10 @@ quality_labels: [actionable, quotable, validated]
 tags:
   - audience:general
   - scene:meeting
+  - 机制
+  - 框架
+  - 复盘
+  - 口述
 ---
 
 # 会议执行原则小抄（六原则话术级操作卡）

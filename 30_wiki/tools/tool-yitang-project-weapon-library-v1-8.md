@@ -36,8 +36,14 @@ related: null
 created_at: 2026-07-08
 updated_at: 2026-07-08
 tags:
-- audience:executor
-- scene:execution
+  - audience:executor
+  - scene:execution
+  - 风险
+  - 框架
+  - 工具
+  - 方法
+  - 清单
+  - 复盘
 ---
 # 项目管理武器库V1.8入口索引卡
 

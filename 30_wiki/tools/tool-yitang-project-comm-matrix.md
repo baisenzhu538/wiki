@@ -28,8 +28,14 @@ related:
 - "[[tool-yitang-project-communication-plan]]"
 - '[[tool-yitang-project-progress-tracking]]'
 tags:
-- audience:executor
-- scene:execution
+  - audience:manager
+  - scene:execution
+  - skill-level:intermediate
+  - 项目
+  - 沟通
+  - 矩阵
+  - 工具
+  - 方法
 diagnostic_signals:
 - signal: 沟通方式选错——简单事开了大会，重要决策只在群里说了一句
   lens: 缺沟通方式选择框架——凭习惯而不是凭场景

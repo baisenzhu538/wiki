@@ -35,8 +35,13 @@ related:
   - "[[tool-opc-sales-dialogue-assistant]]"
   - '[[case-yitang-yitu-lead-industrialization]]'
 tags:
-- audience:executor
-- scene:execution
+  - audience:executor
+  - scene:execution
+  - 优先级
+  - 工具
+  - 方法
+  - 清单
+  - 管理者
 aliases:
   - 销售工具武器库成熟度盘点
   - 李蕊

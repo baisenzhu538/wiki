@@ -38,9 +38,10 @@ related:
 - '[[high-density-composite-compilation-strategy]]'
 updated_at: '2026-06-29'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:advanced
+  - audience:executor
+  - scene:execution
+  - skill-level:advanced
+  - 边界
 ---
 # Maltego：实体关系图谱
 

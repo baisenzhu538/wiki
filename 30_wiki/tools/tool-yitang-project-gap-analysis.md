@@ -28,8 +28,11 @@ related:
 - "[[framework-yitang-project-retrospective]]"
 - '[[tool-yitang-project-retro-goal-types]]'
 tags:
-- audience:executor
-- scene:execution
+  - audience:executor
+  - scene:execution
+  - 清单
+  - 后见之明
+  - 复盘
 diagnostic_signals:
 - signal: 复盘时只会说"这次做得不好"，但说不清到底哪里不好
   lens: 缺结构化差距分析——笼统评价无法指导改进

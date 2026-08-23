@@ -27,8 +27,9 @@ related:
 - "[[tool-yitang-project-progress-tracking]]"
 - '[[tool-yitang-project-resource-escalation]]'
 tags:
-- audience:executor
-- scene:execution
+  - audience:executor
+  - scene:execution
+  - 复盘
 diagnostic_signals:
 quality_labels:
 - actionable

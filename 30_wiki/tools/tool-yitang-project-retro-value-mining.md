@@ -28,8 +28,12 @@ related:
 - "[[framework-yitang-project-retrospective]]"
 - '[[tool-yitang-project-retro-goal-types]]'
 tags:
-- audience:executor
-- scene:execution
+  - audience:executor
+  - scene:execution
+  - 框架
+  - 方法
+  - 清单
+  - 复盘
 diagnostic_signals:
 quality_labels:
 - actionable

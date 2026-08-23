@@ -37,9 +37,10 @@ related:
 - '[[design-ai-image-generation]]'
 updated_at: '2026-06-29'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:advanced
+  - audience:executor
+  - scene:execution
+  - skill-level:advanced
+  - 工具
 ---
 # 反向图片搜索
 

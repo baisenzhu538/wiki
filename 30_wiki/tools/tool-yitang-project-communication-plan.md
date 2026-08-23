@@ -27,8 +27,14 @@ related:
 - "[[tool-yitang-project-comm-matrix]]"
 - "[[tool-yitang-project-comm-frequency]]"
 tags:
-- audience:executor
-- scene:execution
+  - audience:manager
+  - scene:execution
+  - skill-level:intermediate
+  - 项目
+  - 沟通
+  - 计划
+  - 工具
+  - 方法
 diagnostic_signals:
 - signal: 项目启动后没人知道什么时候开会、什么时候交周报
   lens: 沟通机制没建立——靠临时喊

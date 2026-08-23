@@ -36,9 +36,14 @@ related:
 - tool-yitang-app-store-data
 updated_at: '2026-06-29'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:advanced
+  - audience:analyst
+  - scene:reference
+  - skill-level:intermediate
+  - 数据
+  - 调研
+  - 工具
+  - 方法
+  - 边界
 ---
 # 替代数据总览
 

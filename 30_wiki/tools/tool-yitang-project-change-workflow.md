@@ -28,8 +28,10 @@ related:
 - "[[tool-yitang-project-change-decision]]"
 - "[[tool-yitang-project-change-identification]]"
 tags:
-- audience:executor
-- scene:execution
+  - audience:executor
+  - scene:execution
+  - 清单
+  - 决策者
 diagnostic_signals:
 - signal: 变更做了但团队不知道，方案文档版本混乱，事后扯皮
   lens: 变更流程只有"决定"没有"执行+周知+检查"

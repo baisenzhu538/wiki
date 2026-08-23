@@ -28,8 +28,10 @@ related:
 - "[[tool-yitang-project-progress-tracking]]"
 - '[[tool-yitang-project-comm-matrix]]'
 tags:
-- audience:executor
-- scene:execution
+  - audience:executor
+  - scene:execution
+  - 风险
+  - 复盘
 diagnostic_signals:
 - signal: 项目节奏混乱——该日报的时候发周报，该深度陪的时候只在群里问
   lens: 沟通频次和项目阶段不匹配

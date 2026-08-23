@@ -33,9 +33,16 @@ related:
 - '[[concept-research-delegation-in-scaling]]'
 updated_at: '2026-06-30T16:07:51+00:00'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:advanced
+  - audience:executor
+  - scene:execution
+  - skill-level:advanced
+  - 风险
+  - 机制
+  - 框架
+  - 工具
+  - 方法
+  - 反例
+  - 决策者
 ---
 
 # AI辅助分析

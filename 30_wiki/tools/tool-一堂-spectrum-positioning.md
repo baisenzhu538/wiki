@@ -24,8 +24,12 @@ aliases:
   - 技能：光谱模型定位法
 source_refs:
 tags:
-- audience:executor
-- scene:execution
+  - audience:executor
+  - scene:execution
+  - 单元模型
+  - 工具
+  - 边界
+  - 创业者
 ---
 # 技能：光谱模型定位法
 

@@ -34,8 +34,12 @@ related:
   - framework-yitang-y-model-cross-domain-fusion
   - framework-how-to-know-a-person
 tags:
-- audience:executor
-- scene:execution
+  - audience:executor
+  - scene:execution
+  - 机制
+  - 工具
+  - 方法
+  - 教练
 quality_labels: [actionable, insight, validated]
 ---
 

@@ -32,8 +32,10 @@ related:
 - '[[tool-泛产品设计-需求可行性四字诀]]'
 - '[[framework-一堂五步法-泛产品设计]]'
 tags:
-- audience:executor
-- scene:execution
+  - audience:executor
+  - scene:execution
+  - 单元模型
+  - 工具
 aliases:
 - 泛产品设计出牌指南
 - 泛产品设计

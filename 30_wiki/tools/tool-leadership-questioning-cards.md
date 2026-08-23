@@ -47,8 +47,13 @@ related:
   - '[[tool-leadership-exit-consulting]]'
   - '[[tool-leadership-three-stubborn-subordinates]]'
 tags:
-- audience:executor
-- scene:execution
+  - audience:executor
+  - scene:execution
+  - 机制
+  - 方法
+  - 边界
+  - 教练
+  - 口述
 quality_labels: [actionable, insight, quotable]
 ---
 

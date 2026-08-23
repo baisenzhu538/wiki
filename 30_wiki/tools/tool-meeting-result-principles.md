@@ -45,6 +45,9 @@ quality_labels: [actionable, quotable, cited, principle]
 tags:
   - audience:general
   - scene:meeting
+  - 风险
+  - 清单
+  - 复盘
 ---
 
 # 结果原则小抄：落实 + 学习（话术级操作卡）

@@ -27,8 +27,10 @@ related:
 - "[[tool-yitang-project-change-decision]]"
 - "[[tool-yitang-project-change-workflow]]"
 tags:
-- audience:executor
-- scene:execution
+  - audience:executor
+  - scene:execution
+  - 风险
+  - 清单
 diagnostic_signals:
 - signal: 项目推进中频繁被"意外"打断，每次都像第一次遇到
   lens: 不认识变化的常见类型——变化来了才反应

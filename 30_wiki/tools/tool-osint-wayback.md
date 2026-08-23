@@ -36,9 +36,14 @@ related:
 - tinyfish-agentic-web-infrastructure
 updated_at: '2026-06-29'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:advanced
+  - audience:analyst
+  - scene:execution
+  - skill-level:advanced
+  - OSINT
+  - 情报
+  - 工具
+  - 方法
+  - 历史数据
 ---
 # Wayback Machine：网站时光机
 

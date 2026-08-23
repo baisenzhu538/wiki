@@ -22,8 +22,11 @@ related:
 contradicts: null
 query_triggers:
 tags:
-- audience:executor
-- scene:execution
+  - audience:executor
+  - scene:execution
+  - 投资
+  - 工具
+  - 复盘
 trust_level: medium
 yitang:
 map: management

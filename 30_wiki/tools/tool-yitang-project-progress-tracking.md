@@ -28,8 +28,9 @@ related:
 - "[[tool-yitang-project-comm-matrix]]"
 - '[[tool-yitang-project-unblock-techniques]]'
 tags:
-- audience:executor
-- scene:execution
+  - audience:executor
+  - scene:execution
+  - 清单
 diagnostic_signals:
 - signal: 不知道用什么方式跟进进度——有时过度打扰，有时完全放羊
   lens: 缺跟进手段选择标准——凭感觉选

@@ -42,8 +42,11 @@ related:
   - "[[tool-yitang-sales-performance-management]]"
   - '[[tool-leadership-listening-cards]]'
 tags:
-- audience:executor
-- scene:execution
+  - audience:executor
+  - scene:execution
+  - 工具
+  - 复盘
+  - 口述
 created_at: 2026-07-08
 updated_at: 2026-07-08
 ---

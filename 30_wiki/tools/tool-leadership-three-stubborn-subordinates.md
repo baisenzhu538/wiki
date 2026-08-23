@@ -38,8 +38,14 @@ related:
   - '[[dk-coaching-monkey-theory]]'
   - '[[tool-leadership-consensus-goal-escalation]]'
 tags:
-- audience:executor
-- scene:execution
+  - audience:executor
+  - scene:execution
+  - 机制
+  - 框架
+  - 工具
+  - 方法
+  - 管理者
+  - 口述
 quality_labels: [actionable, insight]
 ---
 

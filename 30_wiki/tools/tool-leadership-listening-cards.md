@@ -42,8 +42,12 @@ related:
   - '[[tool-coaching-communication-segments]]'
   - '[[tool-leadership-exit-consulting]]'
 tags:
-- audience:executor
-- scene:execution
+  - audience:executor
+  - scene:execution
+  - 机制
+  - 清单
+  - 教练
+  - 口述
 quality_labels: [actionable, insight, quotable]
 ---
 

@@ -44,8 +44,13 @@ related:
   - '[[tool-coaching-communication-segments]]'
   - '[[tool-leadership-three-stubborn-subordinates]]'
 tags:
-- audience:executor
-- scene:execution
+  - audience:executor
+  - scene:execution
+  - 机制
+  - 框架
+  - 方法
+  - 教练
+  - 口述
 quality_labels: [actionable, insight, validated]
 ---
 

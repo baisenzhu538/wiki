@@ -33,8 +33,11 @@ related:
   - "[[tool-yitang-sales-toolkit-radar]]"
   - "[[tool-yitang-sales-performance-management]]"
 tags:
-- audience:executor
-- scene:execution
+  - audience:executor
+  - scene:execution
+  - 工具
+  - 方法
+  - 口述
 aliases:
   - 一通电话前三秒话术优化卡
   - 李蕊

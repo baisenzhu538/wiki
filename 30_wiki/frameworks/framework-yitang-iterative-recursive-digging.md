@@ -24,8 +24,14 @@ discoverable_by:
 - 认知穿透
 - 从表层到内核
 tags:
-- audience:manager
-- scene:diagnosis
+  - audience:manager
+  - scene:diagnosis
+  - skill-level:intermediate
+  - 深挖
+  - 迭代
+  - 方法
+  - 实证
+  - 框架
 ---
 # 迭代递归深挖法：从表层到内核的认知穿透
 

@@ -35,9 +35,14 @@ related:
 - '[[pending_unknown]]'
 updated_at: '2026-06-29'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:advanced
+  - audience:analyst
+  - scene:reference
+  - skill-level:intermediate
+  - 媒体验证
+  - 调研
+  - 工具
+  - 方法
+  - 实证
 ---
 
 # 媒体验证技术总览

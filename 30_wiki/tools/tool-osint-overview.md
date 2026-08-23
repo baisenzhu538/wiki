@@ -38,9 +38,11 @@ related:
 - '[[framework-yitang-research-weapon-supplement-2026]]'
 updated_at: '2026-06-29'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:advanced
+  - audience:executor
+  - scene:execution
+  - skill-level:advanced
+  - 工具
+  - 方法
 ---
 # OSINT工具总览
 

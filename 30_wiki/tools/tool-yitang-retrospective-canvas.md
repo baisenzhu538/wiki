@@ -37,8 +37,9 @@ related:
 - '[[agent-spec-project-management-assistant]]'
 - '[[workflow-yitang-project-four-step-loop]]'
 tags:
-- audience:executor
-- scene:execution
+  - audience:executor
+  - scene:execution
+  - 复盘
 diagnostic_signals:
 quality_labels:
 - actionable

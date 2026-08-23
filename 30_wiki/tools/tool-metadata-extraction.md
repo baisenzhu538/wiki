@@ -37,9 +37,14 @@ related:
 - concept-ai-native-organization-five-steps
 updated_at: '2026-06-29'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:advanced
+  - audience:analyst
+  - scene:reference
+  - skill-level:intermediate
+  - 元数据
+  - 调研
+  - 工具
+  - 方法
+  - 实证
 ---
 # 元数据提取
 

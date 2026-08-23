@@ -2,6 +2,7 @@
 id: tool-yitang-practice-20hour-starter
 updated_at: '2026-08-20'
 title: 20 小时刻意练习入门法：快速达到够用水平
+reviewed_by: 待审
 discoverable_by:
 - 20 小时刻意练习入门法：快速达到够用水平
 - 小时刻意练习入门法
@@ -26,9 +27,10 @@ aliases:
 source_refs:
   - src_unknown
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 反例
 type: tool
 status: draft
 domain: yitang

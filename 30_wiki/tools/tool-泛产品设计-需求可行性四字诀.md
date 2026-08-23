@@ -29,13 +29,18 @@ related:
 - '[[yt-entrepreneur-needs-analysis]]'
 - '[[yt-entrepreneur-five-step-method]]'
 - '[[tool-泛产品设计-出牌指南]]'
-- '[[yt-model-pan-product-product-core]]'
-- '[[yt-model-pan-product-unit-model]]'
 - '[[framework-一堂五步法-泛产品设计]]'
 - '[[tool-demand-chai-tui-ping-suan-guide]]'
 tags:
-- audience:executor
-- scene:execution
+  - audience:executor
+  - scene:execution
+  - 单元模型
+  - 投资
+  - 优先级
+  - 需求分析
+  - 框架
+  - 工具
+  - 方法
 aliases:
 - 泛产品设计需求可行性四字诀拆推评算
 - 泛产品设计
@@ -423,7 +428,7 @@ aliases:
 - 与 [[yt-model-pan-product-demand-toolkit|需求工具箱]] 的关系：拆推评算是 13 张卡牌中 L3 的第一张，定位是"商业/创新项目的可行性守门人"。
 - 与 [[yt-entrepreneur-five-step-method|一堂五步法]] 的关系：拆推评算对应五步法中"需求分析"的高级阶段——从定性到定量的完整收敛。
 - 与 [[yt-entrepreneur-needs-analysis|需求分析（完整版）]] 的关系：需求分析课程中的"四字诀"讲的是理论框架（六层冰山、JTBD、四种力量），本卡将理论框架转化为可执行的工具操作卡。
-- 与 [[yt-model-pan-product-product-core|产品内核]] 的关系：拆推评算通过的项目才值得进入产品内核阶段——避免为一个"乍看很牛但需求不成立"的想法做内核拆解。
+- 与 产品内核 的关系：拆推评算通过的项目才值得进入产品内核阶段——避免为一个"乍看很牛但需求不成立"的想法做内核拆解。
 - 与 [[yt-personal-pan-product-practice|个人泛产品设计实操]] 的关系：Truman 把拆推评算作为个人实操中需求篇的核心工具，并强调"费米版四字诀"在日常决策中的使用。
 
 ## Related
@@ -432,7 +437,5 @@ aliases:
 - [[yt-model-pan-product-demand-toolkit]] — 13 张需求卡牌全览，拆推评算是 L3 的第一张
 - [[yt-entrepreneur-needs-analysis]] — 需求分析课程（六层冰山、JTBD 完整版）
 - [[yt-entrepreneur-five-step-method]] — 一堂创业五步法：需求→方案→验证→增长
-- [[yt-model-pan-product-product-core]] — 下游工具：通过拆推评算后的项目进入产品内核
-- [[yt-model-pan-product-unit-model]] — 下游工具：最小可验证单元的拆解与验证
 - [[yt-personal-pan-product-practice]] — 个人实操中的四字诀应用
 - [[framework-一堂五步法-泛产品设计]] — 泛产品设计中的五步法应用

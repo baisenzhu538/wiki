@@ -3,9 +3,16 @@ domain:
   - yitang
   - master
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 单元模型
+  - 风险
+  - 需求分析
+  - 框架
+  - 工具
+  - 方法
+  - 边界
 aliases:
   - 单元模型
   - 单元模型工具

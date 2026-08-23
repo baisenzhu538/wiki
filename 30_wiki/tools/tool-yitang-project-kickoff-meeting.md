@@ -49,8 +49,12 @@ related:
   - '[[dk-meeting-roi-first]]'
   - '[[agent-spec-project-management-assistant]]'
 tags:
-- audience:executor
-- scene:execution
+  - audience:executor
+  - scene:execution
+  - 风险
+  - 机制
+  - 工具
+  - 口述
 ---
 
 # 项目启动会设计模板：两小时对齐六件事，后面不用跑断腿

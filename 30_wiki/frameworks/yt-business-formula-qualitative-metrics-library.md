@@ -37,9 +37,14 @@ related:
 - '[[tool-一堂-业务公式-L1L6参数分层自检]]'
 - '[[yt-business-formula-l6-essence-formulas]]'
 tags:
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
+  - audience:ceo
+  - scene:reference
+  - skill-level:advanced
+  - 指标
+  - 公式
+  - 实证
+  - 方法
+  - 边界
 discoverable_by:
 - 定性参数
 - 行为化指标

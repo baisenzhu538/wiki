@@ -47,8 +47,11 @@ related:
   - '[[agent-spec-coaching-leadership-assistant]]'
   - '[[tool-meeting-execution-principles]]'
 tags:
-- audience:executor
-- scene:execution
+  - audience:executor
+  - scene:execution
+  - 机制
+  - 管理者
+  - 复盘
 created_at: 2026-07-08
 updated_at: 2026-07-08
 ---

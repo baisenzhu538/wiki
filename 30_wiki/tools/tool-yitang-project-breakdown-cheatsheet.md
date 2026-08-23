@@ -38,8 +38,12 @@ related:
 - '[[agent-spec-project-management-assistant]]'
 - '[[tool-yitang-retrospective-canvas]]'
 tags:
-- audience:executor
-- scene:execution
+  - audience:executor
+  - scene:execution
+  - 优先级
+  - 风险
+  - 工具
+  - 清单
 diagnostic_signals:
 - signal: 做项目计划每次都要重新翻课程笔记，找不到关键检查点
   lens: 缺速查工具——方法论记住了但操作时遗忘细节

@@ -28,8 +28,11 @@ related:
 - "[[tool-yitang-project-plan-canvas]]"
 - '[[tool-yitang-project-resource-escalation]]'
 tags:
-- audience:executor
-- scene:execution
+  - audience:executor
+  - scene:execution
+  - 方法
+  - 清单
+  - 决策者
 diagnostic_signals:
 - signal: 预算只算了"花多少钱"，没算人力和负收益，实际成本远超预期
   lens: 成本估算维度不全——只看到显性成本

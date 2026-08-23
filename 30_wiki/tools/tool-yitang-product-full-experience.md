@@ -48,9 +48,12 @@ related:
 - '[[tool-yitang-hardware-product-disassembly]]'
 - '[[yt-research-competitor-toolkit]]'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 五步法
+  - 工具
+  - 清单
 ---
 
 # 完整体验产品：从用户视角理解产品全貌
