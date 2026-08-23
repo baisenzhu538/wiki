@@ -36,9 +36,10 @@ related:
 - framework-demand-validation-pipeline
 updated_at: '2026-06-29'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:advanced
+  - audience:executor
+  - scene:execution
+  - skill-level:advanced
+  - 框架
 ---
 # 口语化润色七条原则
 

@@ -44,11 +44,16 @@ related:
 - '[[dk-research-total-anchor-private-library]]'
 - '[[framework-knowledge-compound-rocket-six]]'
 tags:
-- audience:manager
-- audience:executor
-- scene:planning
-- scene:execution
-- skill-level:intermediate
+  - audience:manager
+  - audience:executor
+  - scene:planning
+  - scene:execution
+  - skill-level:intermediate
+  - 文章
+  - 标题
+  - 笔记
+  - 框架
+  - 方法
 ---
 
 # 4000 标题→十大策略：长期资产的一次性建模

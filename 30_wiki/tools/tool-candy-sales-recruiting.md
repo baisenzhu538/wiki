@@ -40,9 +40,11 @@ related:
 - '[[dk-ai-collaboration-degradation-spiral]]'
 - '[[case-leo-lubricant-dealer-research]]'
 tags:
-- audience:manager
-- scene:execution
-- skill-level:intermediate
+  - audience:manager
+  - scene:execution
+  - skill-level:intermediate
+  - 课程
+  - 方法
 ---
 
 # 销售招聘的客观验证方法：能力模型 + 定量定性结合

@@ -25,7 +25,11 @@ aliases:
 - 营六步闭环
 source_refs: null
 query_triggers: null
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 内容生产
 quality_labels: null
 related: null
 discoverable_by:

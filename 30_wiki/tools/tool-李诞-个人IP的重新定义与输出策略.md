@@ -26,6 +26,13 @@ discoverable_by:
   - 个人IP的重新定义与输出策略
 related:
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 工具
+  - 方法
+  - IP
+  - 实操
 ---
 # 技能：个人IP的重新定义与输出策略
 

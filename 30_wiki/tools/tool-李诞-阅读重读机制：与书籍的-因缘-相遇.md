@@ -28,6 +28,13 @@ discoverable_by:
   - 与书籍的'因缘'相遇
 related:
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 机制
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：阅读重读机制：与书籍的'因缘'相遇
 

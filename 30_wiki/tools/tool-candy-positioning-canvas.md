@@ -37,9 +37,13 @@ related:
 - tool-yitang-research-best-practice
 updated_at: '2026-06-29'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:advanced
+  - audience:executor
+  - scene:execution
+  - skill-level:advanced
+  - 课程
+  - 工具
+  - 方法
+  - 拆书会
 ---
 # 差异化定位画布
 

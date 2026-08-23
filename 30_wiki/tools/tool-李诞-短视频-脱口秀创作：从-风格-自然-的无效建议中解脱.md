@@ -28,6 +28,12 @@ discoverable_by:
   - 从'风格''自然'的无效建议中解脱
 related:
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：短视频/脱口秀创作：从'风格''自然'的无效建议中解脱
 

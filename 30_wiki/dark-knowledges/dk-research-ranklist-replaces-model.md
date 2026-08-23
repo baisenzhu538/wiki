@@ -40,9 +40,13 @@ related:
 - bridge-how-to-know-person-to-business
 - case-cross-xingangwan-pharma
 tags:
-- audience:executor
-- scene:planning
-- skill-level:beginner
+  - audience:executor
+  - scene:planning
+  - skill-level:beginner
+  - 机制
+  - 方法
+  - 边界
+  - 口述
 ---
 # 建不了模型就建排行榜：Top10 审美锚点
 

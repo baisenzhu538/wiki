@@ -26,6 +26,12 @@ discoverable_by:
   - 内容创作中的观察训练法
 related:
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：内容创作中的观察训练法
 

@@ -28,7 +28,13 @@ related: null
 discoverable_by:
 - Candy逐字稿九步法
 - 逐字稿生产流程
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 标题
+  - 框架
+  - 模板
 ---
 # Candy逐字稿九步法
 

@@ -49,9 +49,10 @@ diagnostic_signals:
   follow_up_question: 你的提取脚本在调用/blocks API后，检查了resp['data']['has_more']吗？
 updated_at: '2026-06-29'
 tags:
-- audience:general
-- scene:reference
-- skill-level:advanced
+  - audience:general
+  - scene:reference
+  - skill-level:advanced
+  - 拆书会
 ---
 
 # 飞书API分页陷阱
