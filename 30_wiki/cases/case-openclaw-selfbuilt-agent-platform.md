@@ -2,9 +2,10 @@
 id: case-openclaw-selfbuilt-agent-platform
 title: OpenClaw 自建协作平台：排飞书微信→Matrix 失败→A2A 直连→项目空间隔离上下文
 type: case
-status: pending_review
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
+review_date: 2026-08-21
 confidence: 0.88
 trust_level: medium
 language: zh-CN

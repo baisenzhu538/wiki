@@ -2,9 +2,10 @@
 id: case-kinda-digital-employees-fullview
 title: kinda 数字员工体系全景：从一个具体问题长出 7+ Agent（问题→工具失败→AI 代学→体系→闭环）
 type: case
-status: pending_review
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
+review_date: 2026-08-21
 confidence: 0.9
 trust_level: medium
 language: zh-CN
