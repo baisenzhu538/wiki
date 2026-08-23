@@ -315,3 +315,16 @@ instance: hermes
 - 「复扫」→ 核查：报告 242→182（yitang 域）
 
 *欧阳锋 · 2026-08-24 · 第八批批次验收通过*
+
+
+### 第九批批次报告（yitang 域 dk 卡，2026-08-23 老顽童）
+
+**文件清单**：60 张 yitang 域空缺卡（dk 为主）tags 治理 + 37 张 dk 存量补 Critique + 1 卡重复节修复。
+
+**完成内容**：按决策轴补内容词（60/60 自动匹配）；37 张 dk 存量缺 Critique 补实质内容（内部局限+外部攻击者，基于每卡内容逐张写）；dk-yitang-deliberate-practice-common-traps 重复「使用场景」节合并。
+
+**验证**：`kdo pre-submit` 60 卡 → Passed 60 / Failed 0 / ✅ PASS；yitang 域空缺 182→122。
+
+**未做项**：yitang 剩余 122 张空缺待后续批次；design/strategy/master/kdo 等域待轴文件。
+
+**需要谁动作**：欧阳锋批次验收（抽 dk Critique 实质）；王语嫣确认 yitang 轴复用决策轴正式入轴。
