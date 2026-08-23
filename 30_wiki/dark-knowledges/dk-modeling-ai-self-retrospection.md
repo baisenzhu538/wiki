@@ -39,9 +39,12 @@ related:
 - '[[dk-tool-as-phased-validator]]'
 - '[[huangyaoshi-data-alignment-response]]'
 tags:
-- audience:executor
-- scene:reference
-- skill-level:advanced
+  - audience:executor
+  - scene:reference
+  - skill-level:advanced
+  - 方法
+  - 清单
+  - 复盘
 trust_level: high
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'
@@ -124,6 +127,11 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown
+
+## Critique
+
+- **内部局限**："每次交付后让它总结自查清单"依赖 AI 能准确识别自己的错误模式——模型可能自我美化（生成看似合理但不准确的清单）；清单积累后如果没人维护会过时失效。
+- **外部攻击（人机协同视角）**：让 AI 自我复盘本质是让"犯错者自己当裁判"——存在系统性盲区（它不知道自己不知道）；更可靠的是人机交叉复盘（AI 自检 + 人抽检），单靠 AI 自查清单会形成自我确认闭环。
 
 ## 与其他知识的关联
 

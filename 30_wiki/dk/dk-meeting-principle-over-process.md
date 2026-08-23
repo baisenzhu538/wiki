@@ -41,6 +41,10 @@ quality_labels: [principle, quotable, insight, cited]
 tags:
   - audience:general
   - scene:meeting
+  - 风险
+  - 机制
+  - 方法
+  - 复盘
 ---
 
 # 原则大于流程——新手执行流程，高手把控原则

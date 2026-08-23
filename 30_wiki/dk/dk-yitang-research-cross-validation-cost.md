@@ -38,8 +38,11 @@ related:
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
 tags:
-- audience:executor
-- scene:diagnosis
+  - audience:executor
+  - scene:diagnosis
+  - 机制
+  - 方法
+  - 决策者
 updated_at: 2026-06-28
 ---
 
@@ -93,6 +96,11 @@ updated_at: 2026-06-28
 ## 为什么值钱
 
 - src_unknown（待补充：公开语料中为什么找不到）
+
+## Critique
+
+- **内部局限**：交叉验证的成本被低估——多来源验证的时间/金钱成本对快速决策场景是负担；"护城河"定位（别人不做交叉验证）依赖竞争对手的懒惰，不是可持续壁垒。
+- **外部攻击（信息经济学视角）**：交叉验证的边际收益递减——验证到第 N 个来源后新增信息趋近于零；"信息质量不对称优势"在信息高速流动时代窗口期短；真正的护城河是验证后的独特判断（interpretation），不是验证动作本身。
 
 ## 与其他知识的关联
 

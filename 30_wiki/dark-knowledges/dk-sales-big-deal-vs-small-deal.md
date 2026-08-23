@@ -37,9 +37,12 @@ related:
 - '[[sales-domain-digest]]'
 - '[[tool-candy-sales-recruiting]]'
 tags:
-- audience:manager
-- scene:diagnosis
-- skill-level:beginner
+  - audience:manager
+  - scene:diagnosis
+  - skill-level:beginner
+  - 方法
+  - 边界
+  - 口述
 ---
 # 销售本质是大单与小单之分，不是 ToB 与 ToC 之分
 

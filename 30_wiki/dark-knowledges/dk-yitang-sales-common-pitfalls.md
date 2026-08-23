@@ -41,8 +41,14 @@ discoverable_by:
 - 一堂科学销售常见陷阱
 - 六大反模式与修复动作
 tags:
-- audience:executor
-- scene:diagnosis
+  - audience:executor
+  - scene:diagnosis
+  - 机制
+  - 工具
+  - 方法
+  - 清单
+  - 复盘
+  - 口述
 trust_level: high
 reviewed_by: 欧阳锋
 related: null

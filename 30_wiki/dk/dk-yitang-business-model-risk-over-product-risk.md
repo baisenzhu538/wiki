@@ -26,14 +26,16 @@ discoverable_by:
   - 别在模式没跑通前做完美产品
 related:
 tags:
-- audience:executor
-- scene:diagnosis
-  - "[[case-lean-electric-scooter-mvp]]"
-  - "[[case-lean-premature-expansion]]"
-  - "[[case-smart-medicine-cabinet-business-model-validation]]"
-  - "[[case-lean-wrong-demand]]"
-  - "[[case-lean-zhanglei-pivot-decision]]"
-  - "[[yitang-domain-digest]]"
+  - audience:executor
+  - scene:diagnosis - "[[case-lean-electric-scooter-mvp]]" - "[[case-lean-premature-expansion]]" - "[[case-smart-medicine-cabinet-business-model-validation]]" - "[[case-lean-wrong-demand]]" - "[[case-lean-zhanglei-pivot-decision]]" - "[[yitang-domain-digest]]"
+  - 五步法
+  - 单元模型
+  - 定价
+  - 优先级
+  - 风险
+  - 工具
+  - 方法
+  - 边界
 ---
 
 # 商业模式风险高于产品风险：别在模式没跑通前做完美产品
@@ -77,6 +79,11 @@ tags:
 ## 为什么值钱
 
 这条暗知识值钱，是因为它直接对应创业失败中"最赔钱的浪费类型"——不是产品不够好，而是产品建在了不成立的经济模型上 [conf=0.85, source=case-lean-premature-expansion]。一堂 FALSE 模型的核心思想是：验证阶段的成本差异可达 4 个数量级，把商业模式假设前置验证，能把"All-in 后才发现没人付费"的灾难性失败，降级为"几张海报就能证伪"的小成本试错 [conf=0.85, source=case-lean-electric-scooter-mvp]。它让团队把有限资源从"让产品更完美"重新分配到"让商业模式更清晰"，这是早期创业杠杆率最高的一跃。
+
+## Critique
+
+- **内部局限**："模式没跑通前别做完美产品"对平台型/基础设施型业务不适用——有些产品必须先建好才有模式验证可能（鸡生蛋问题）；商业模式验证的时间成本可能高于产品打磨。
+- **外部攻击（产品战略视角）**：商业模式风险与产品风险不是线性优先级——好产品本身能改变商业模式成立性（产品创造市场）；"先验证模式再完美产品"在复杂销售/生态型业务中可能错失窗口；风险排序应动态。
 
 ## 与其他知识的关联
 

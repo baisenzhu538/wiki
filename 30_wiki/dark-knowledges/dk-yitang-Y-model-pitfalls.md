@@ -24,8 +24,14 @@ domain: yitang
 discoverable_by:
 - Y模型常见六大陷阱与反打
 tags:
-- audience:executor
-- scene:diagnosis
+  - audience:executor
+  - scene:diagnosis
+  - 方法
+  - 边界
+  - 反例
+  - 清单
+  - 复盘
+  - 口述
 confidence: 0.85
 trust_level: high
 reviewed_by: 欧阳锋

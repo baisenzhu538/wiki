@@ -52,9 +52,12 @@ diagnostic_signals:
   follow_up_question: 是否有别名、特殊字符、过长 ID 导致解析器只能识别前半段？# 命名不规范会让整条工具链"失明"
 updated_at: 2026-06-28
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 工具
+  - 方法
+  - 边界
 ---
 
 ## 原始表述 / 核心洞察
@@ -118,6 +121,11 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+
+## Critique
+
+- **内部局限**：命名规范依赖团队一致性执行——没有强约束（检查工具/门禁），规范会逐渐漂移；命名规范过严会增加摩擦（改名成本/新人学习成本）。
+- **外部攻击（工程实践视角）**：命名是"可读性"问题的一部分——但可读性靠命名+注释+结构三者，过度强调命名会拖延交付；现代实践是"命名够用+持续重构"；工具链"失明"的根因常是缺少检索/索引机制，不只是命名。
 
 ## 与其他知识的关联
 

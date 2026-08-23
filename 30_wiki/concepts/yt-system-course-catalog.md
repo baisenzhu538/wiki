@@ -70,9 +70,13 @@ related:
 - '[[yt-personal-knowledge-extraction]]'
 - '[[yt-personal-scientific-expression]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 五步法
+  - 单元模型
+  - 需求分析
+  - 清单
 ---
 
 # 一堂全课程目录索引

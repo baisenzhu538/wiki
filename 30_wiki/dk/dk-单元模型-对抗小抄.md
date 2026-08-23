@@ -35,8 +35,13 @@ quality_labels:
 updated_at: 2026-06-28
 created_at: '2026-06-30'
 tags:
-- audience:executor
-- scene:diagnosis
+  - audience:executor
+  - scene:diagnosis
+  - 单元模型
+  - 机制
+  - 工具
+  - 方法
+  - 创业者
 ---
 # 单元模型对抗小抄
 

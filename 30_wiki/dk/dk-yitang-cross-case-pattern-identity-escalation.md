@@ -37,8 +37,9 @@ related:
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
 tags:
-- audience:executor
-- scene:diagnosis
+  - audience:executor
+  - scene:diagnosis
+  - 方法
 updated_at: 2026-06-28
 ---
 
@@ -91,6 +92,11 @@ updated_at: 2026-06-28
 ## 为什么值钱
 
 - src_unknown（待补充：公开语料中为什么找不到）
+
+## Critique
+
+- **内部局限**：多重身份验证依赖"身份"的多样性——个人研究者身份单一，身份交叉的增益有限；"3 个以上身份"增加验证成本。
+- **外部攻击（认知科学视角）**：身份切换的"独立验证"可能不独立——同一认知框架下的不同身份共享同源偏见；真正的独立验证需要跨框架（不同学科/不同利益相关方），身份数量≠验证质量。
 
 ## 与其他知识的关联
 

@@ -34,8 +34,10 @@ related:
   - '[[concept-yitang-research-objective]]'
   - '[[concept-yitang-research-scope]]'
 tags:
-- audience:executor
-- scene:diagnosis
+  - audience:executor
+  - scene:diagnosis
+  - 方法
+  - 边界
 updated_at: 2026-06-28
 ---
 
@@ -68,6 +70,11 @@ updated_at: 2026-06-28
 ## 为什么值钱
 
 - src_unknown（待补充：公开语料中为什么找不到）
+
+## Critique
+
+- **内部局限**："老兵 80% 时间拿情报"是经验分布描述不是规范——新手模仿"先拿情报"可能变成无限收集（没有分析能力支撑的收集是囤积）；比例是个人实证非统计结论。
+- **外部攻击（能力发展视角）**：新手/老兵的时间分配差异本质是"分析自动化"程度不同——老兵的分析已内化，新手需要显性分析；让新手直接学"80% 拿情报"会跳过分析训练；应先练分析基本功再调时间配比。
 
 ## 与其他知识的关联
 

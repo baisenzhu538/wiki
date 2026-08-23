@@ -34,6 +34,8 @@ quality_labels: [insight, actionable, quotable, cited]
 tags:
   - audience:general
   - scene:meeting
+  - 拍板
+  - 口述
 ---
 # 重新推导：有答案也带团队推演一遍
 

@@ -38,6 +38,8 @@ quality_labels: [principle, actionable, cited, insight]
 tags:
   - audience:general
   - scene:meeting
+  - 方法
+  - 直觉校准
 ---
 
 # ROI 先行：先算账，再开会

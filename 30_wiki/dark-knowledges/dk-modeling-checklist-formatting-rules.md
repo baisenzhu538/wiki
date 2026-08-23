@@ -37,9 +37,14 @@ related:
 - '[[tool-推行分层标准化策略]]'
 - '[[tool-马易-隐私安全分层解决]]'
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 取舍
+  - 优先级
+  - 资源分配
+  - 方法
+  - 清单
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: '2026-06-15'
@@ -233,6 +238,11 @@ AI 时代这条规则反而更值钱：AI 能生成"看起来像清单"的输出
 - src_unknown
 - src_unknown
 - src_unknown
+
+## Critique
+
+- **内部局限**：清单格式规则（换行/分层/优先级）是建模质量的外在约束——格式正确≠逻辑正确，可能掩盖实质错误；过度追求格式完美会消耗建模注意力（形式大于内容）。
+- **外部攻击（认知科学视角）**：清单体的认知价值在于降低工作记忆负担——但"格式纪律"若变成教条（每行必须对齐/每层必须编号），反而增加认知负荷；真正的质量杠杆是逻辑结构（前提-结论-边界）而非视觉格式。
 
 ## 与其他知识的关联
 

@@ -30,8 +30,11 @@ related:
   - "[[pending_unknown]]"
   - '[[framework-yitang-six-layer-cross-validation]]'
 tags:
-- audience:executor
-- scene:diagnosis
+  - audience:executor
+  - scene:diagnosis
+  - 方法
+  - 边界
+  - 幸存者偏差
 updated_at: 2026-06-28
 ---
 
@@ -68,6 +71,11 @@ updated_at: 2026-06-28
 ## 为什么值钱
 
 - src_unknown（待补充：公开语料中为什么找不到）
+
+## Critique
+
+- **内部局限**：五陷阱清单覆盖常见坑但不覆盖专家心理（专家可能有利益立场/身份防御）——"如何让专家说真话"的技巧没有；对不配合/敷衍的专家，清单外的应对能力依赖经验。
+- **外部攻击（访谈方法论视角）**：专家访谈的价值受"专家盲区"限制——专家对自己领域的隐性假设不自知；单靠专家访谈会系统性地漏掉跨领域/反共识信息，需配合文献/数据/多方交叉。
 
 ## 与其他知识的关联
 

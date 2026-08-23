@@ -34,8 +34,14 @@ related:
   - framework-coaching-leadership-core
   - case-coaching-dialogue-three-versions
 tags:
-- audience:executor
-- scene:diagnosis
+  - audience:executor
+  - scene:diagnosis
+  - 拍板
+  - 框架
+  - 方法
+  - 教练
+  - 复盘
+  - 口述
 quality_labels: [insight, actionable, validated]
 ---
 

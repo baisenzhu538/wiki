@@ -113,9 +113,16 @@ related:
 - '[[sales-domain-digest]]'
 - '[[framework-一堂-关键假设-ABCD模型]]'
 tags:
-- audience:manager
-- scene:reference
-- skill-level:advanced
+  - audience:manager
+  - scene:reference
+  - skill-level:advanced
+  - 五步法
+  - 框架
+  - 工具
+  - 方法
+  - 边界
+  - 清单
+  - 教练
 discoverable_by:
 - 转化率域
 - 转化优化

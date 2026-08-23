@@ -36,8 +36,11 @@ related:
 - '[[yt-tool-business-formula-parameter-arsenal]]'
 - '[[business-formula-domain-digest]]'
 tags:
-- audience:executor
-- scene:diagnosis
+  - audience:executor
+  - scene:diagnosis
+  - 方法
+  - 教练
+  - 口述
 quality_labels:
 - cited
 - operational
@@ -103,6 +106,11 @@ quality_labels:
 > "没事，还不干活了吗？" [conf=0.85, source=实操篇口述 L2602]
 
 公式不完整，依然要写；数字暂时拿不到，依然要提假设。这是业务公式方法论的底气所在。
+
+## Critique
+
+- **内部局限**："公式归公式，数字归数字"容忍不可统计指标——但完全放开的容忍会让公式失去验证性（不可测=不可证伪）；"数字暂时拿不到依然要提假设"的假设质量无人把关，可能堆积无法验证的空洞假设。
+- **外部攻击（量化管理视角）**：不可测指标写进公式有"指标污染"风险——管理者会把不可测项当可测项（用感觉填数字），公式失真；现代实践是区分"假设"与"指标"两本账，或用代理指标逼近，而非把不可测直接写进公式。
 
 ## 与其他知识的关联
 

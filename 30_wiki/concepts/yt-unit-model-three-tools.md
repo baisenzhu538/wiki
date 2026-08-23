@@ -31,9 +31,15 @@ aliases:
 source_refs:
   - src_unknown
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 五步法
+  - 单元模型
+  - 风险
+  - 框架
+  - 工具
+  - 清单
 type: concept
 domain: yitang
 ---

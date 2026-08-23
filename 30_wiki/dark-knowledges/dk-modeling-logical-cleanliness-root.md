@@ -31,9 +31,15 @@ related:
 - '[[yitang-domain-digest]]'
 - '[[yt-unit-model-ladder]]'
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 优先级
+  - 机制
+  - 框架
+  - 方法
+  - 反例
+  - 清单
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: '2026-06-15'
@@ -164,6 +170,11 @@ Truman 为了封装一堂内部高质量的 AI Skill，发现市面上（包括�
 - src_unknown
 - src_unknown
 - src_unknown
+
+## Critique
+
+- **内部局限**："逻辑洁癖是建模之本"容易变成精英叙事——不是所有人都有（或能培养）这种洁癖；把建模质量归因于个人特质，弱化了方法/流程/工具对质量的兜底作用。
+- **外部攻击（组织视角）**：个人逻辑洁癖不可复制——组织不能靠招聘"有洁癖的人"保证质量；需要把洁癖转化为可检查的流程（评审/清单/对抗测试），否则质量依赖个体手感。
 
 ## 与其他知识的关联
 

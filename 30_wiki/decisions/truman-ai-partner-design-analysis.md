@@ -29,8 +29,11 @@ trust_level: low
 title: truman ai partner design analysis
 updated_at: '2026-06-29'
 tags:
-- audience:general
-- scene:diagnosis
+  - audience:general
+  - scene:diagnosis
+  - 边界
+  - 清单
+  - 口述
 ---
 ## 摘要
 

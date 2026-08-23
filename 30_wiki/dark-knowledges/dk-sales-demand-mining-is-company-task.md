@@ -41,10 +41,15 @@ related:
 - '[[sales-domain-digest]]'
 - '[[tool-candy-sales-recruiting]]'
 tags:
-- audience:ceo
-- audience:manager
-- scene:diagnosis
-- skill-level:intermediate
+  - audience:ceo
+  - audience:manager
+  - scene:diagnosis
+  - skill-level:intermediate
+  - 五步法
+  - 招聘
+  - 方法
+  - 边界
+  - 口述
 ---
 # 需求挖掘是公司的任务，销售只做传递与匹配
 

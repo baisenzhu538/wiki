@@ -36,8 +36,10 @@ related:
   - "[[pending_unknown]]"
   - '[[kimi-深度调研集群方法论-deep-research-swarm]]'
 tags:
-- audience:executor
-- scene:diagnosis
+  - audience:executor
+  - scene:diagnosis
+  - 风险
+  - 方法
 updated_at: 2026-06-28
 ---
 
@@ -90,6 +92,11 @@ updated_at: 2026-06-28
 ## 为什么值钱
 
 - src_unknown（待补充：公开语料中为什么找不到）
+
+## Critique
+
+- **内部局限**："深度决定决策质量"依赖深度调研的成本承受力——对快决策场景，深度调研的时滞可能是致命的；"信息精度边际价值"的判断需要经验。
+- **外部攻击（信息检索视角）**：深度与广度不是二选一——决策质量需要"关键点深度+全景广度"的组合（T 型）；纯深度会漏掉相邻领域的关键变量；现代信息环境广度便宜深度贵，组织应差异化配置，而非一刀切深度。
 
 ## 与其他知识的关联
 

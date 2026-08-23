@@ -33,8 +33,14 @@ related:
   - framework-leadership-five-ladders
   - management-domain-digest
 tags:
-- audience:executor
-- scene:diagnosis
+  - audience:executor
+  - scene:diagnosis
+  - 风险
+  - 方法
+  - 边界
+  - 反例
+  - 教练
+  - 口述
 quality_labels: [insight, principle, quotable]
 ---
 

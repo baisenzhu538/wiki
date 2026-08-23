@@ -32,9 +32,13 @@ related:
 - '[[yitang-domain-digest]]'
 - '[[dk-yi-tang-wishful-thinking-kills-startups]]'
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 风险
+  - 方法
+  - 边界
+  - 确认偏误
 version: 1
 created_at: 2026-06-11
 updated_at: 2026-06-28
@@ -86,6 +90,12 @@ trust_level: high
 2. **证伪思维**：主动寻找否定证据，比收集支持证据更有价值
 3. **识别认知陷阱**：假设完备性≠正确性，结构美感可能掩盖根基错误
 4. **风险管理**：识别假设树无法覆盖的未知未知，避免黑天鹅盲区
+
+## Critique
+
+- **内部局限**：假设驱动方法论的前提是"假设可被证伪"——对探索型问题（连假设都难以表述）不适用；"主动找否定证据"对新手是反直觉操作，容易退化为找支持证据。
+- **外部攻击（科学哲学视角）**：波普尔证伪主义的实践困境——证伪一个复杂假设往往需要大量资源，过度证伪会瘫痪决策；假设驱动在真实实践中常退化为"先入为主+选择性找证据"（确认偏误），方法论本身不防滥用。
+- **外部攻击（KDO 实证）**：假设树无法覆盖未知未知（黑天鹅）——需要开放扫描补盲，不能全程收敛在假设链上。
 
 ## 与其他知识的关联
 

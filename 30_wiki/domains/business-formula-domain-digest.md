@@ -118,9 +118,14 @@ related:
 - '[[case-一堂-组合篇案例库]]'
 - '[[dk-sponsor-three-tier-pricing]]'
 tags:
-- audience:manager
-- scene:reference
-- skill-level:advanced
+  - audience:manager
+  - scene:reference
+  - skill-level:advanced
+  - 五步法
+  - 工具
+  - 边界
+  - 清单
+  - 口述
 discoverable_by:
 - 业务公式域
 - 公式拆解

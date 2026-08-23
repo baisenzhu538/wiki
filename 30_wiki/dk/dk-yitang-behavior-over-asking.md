@@ -21,16 +21,10 @@ discoverable_by:
   - 调研中行为证据重于口头证据
 related:
 tags:
-- audience:executor
-- scene:diagnosis
-  - "[[tool-yitang-user-interview-5steps]]"
-  - "[[yt-research-user-jtbd]]"
-  - "[[framework-demand-iceberg]]"
-  - "[[tool-yitang-behavioral-observation]]"
-  - "[[yitang-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[case-yitang-pet-fostering-user-research]]"
-  - "[[case-yitang-doorstep-nail-service-context]]"
+  - audience:executor
+  - scene:diagnosis - "[[tool-yitang-user-interview-5steps]]" - "[[yt-research-user-jtbd]]" - "[[framework-demand-iceberg]]" - "[[tool-yitang-behavioral-observation]]" - "[[yitang-domain-digest]]" - "[[yitang-research-domain-digest]]" - "[[case-yitang-pet-fostering-user-research]]" - "[[case-yitang-doorstep-nail-service-context]]"
+  - 优先级
+  - 清单
 ---
 
 # 调研中行为证据重于口头证据
@@ -160,6 +154,11 @@ tags:
 2. **下次访谈索要一个证据**：让用户现场展示订单、聊天记录、App 使用界面或相册截图，把口头回答锚定到真实行为 [conf=0.80, source=王语嫣 synthesis_yitang.md]。
 
 ---
+
+## Critique
+
+- **内部局限**：行为证据收集成本高于口头询问（观察/记录真实行为需要时间与渠道）；对尚无产品/解决方案的早期需求（用户没有可观察行为），行为证据法不可用。
+- **外部攻击（调研方法论视角）**：行为证据与口头证据不是二选一——纯行为观察也会漏掉潜在需求；行为复原只能覆盖"现状"，无法覆盖"未来可能"（创新产品的需求是建构的，不是观察出来的）；三角验证（行为+口头+实验）优于单证据。
 
 ## 与其他知识的关联
 

@@ -33,8 +33,12 @@ related:
   - tool-leadership-feedback-cards
   - framework-how-to-know-a-person
 tags:
-- audience:executor
-- scene:diagnosis
+  - audience:executor
+  - scene:diagnosis
+  - 方法
+  - 边界
+  - 清单
+  - 口述
 quality_labels: [insight, actionable, principle]
 ---
 

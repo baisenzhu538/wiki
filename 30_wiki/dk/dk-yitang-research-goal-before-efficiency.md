@@ -29,8 +29,10 @@ related:
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
 tags:
-- audience:executor
-- scene:diagnosis
+  - audience:executor
+  - scene:diagnosis
+  - 方法
+  - 边界
 updated_at: 2026-06-28
 ---
 
@@ -65,6 +67,11 @@ updated_at: 2026-06-28
 ## 为什么值钱
 
 - src_unknown（待补充：公开语料中为什么找不到）
+
+## Critique
+
+- **内部局限**："没有目标不谈效率"的适用前提是"目标可明确"——探索型研究（目标本身是研究对象）不适用；目标设定本身可能错误。
+- **外部攻击（管理理论视角）**：目标优先是德鲁克 MBO 的常识——但现代管理批判 MBO 导致"目标固化"（KPI 绑架，古德哈特定律）；探索期组织需要"无目标探索"空间，完全目标驱动会杀死创新；目标与效率应是迭代关系，不是线性优先级。
 
 ## 与其他知识的关联
 

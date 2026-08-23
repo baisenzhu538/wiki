@@ -29,8 +29,10 @@ related:
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
 tags:
-- audience:executor
-- scene:diagnosis
+  - audience:executor
+  - scene:diagnosis
+  - 方法
+  - 边界
 updated_at: 2026-06-28
 ---
 
@@ -63,6 +65,11 @@ updated_at: 2026-06-28
 ## 为什么值钱
 
 - src_unknown（待补充：公开语料中为什么找不到）
+
+## Critique
+
+- **内部局限**："投入与价值匹配"的价值判断本身需要经验——新手无法判断信息的价值（不知道什么信息能改变决策）；对高不确定性决策，前期投入少可能导致后期大返工。
+- **外部攻击（决策理论视角）**：信息价值（VOI）理论比"匹配"更精确——但 VOI 计算本身复杂；"少投入"的优化可能陷入次优（省了调研费赔了决策）；匹配原则应动态调整（随决策重要性/不确定性变化），而非固定比例。
 
 ## 与其他知识的关联
 

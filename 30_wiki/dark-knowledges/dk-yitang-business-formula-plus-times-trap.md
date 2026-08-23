@@ -59,9 +59,11 @@ related:
 - '[[case-yitang-dongyuan-dance-retention-c-vs-d]]'
 - '[[case-yitang-xiezefeng-clothing-innovation-param]]'
 tags:
-- audience:executor
-- scene:reference
-- skill-level:advanced
+  - audience:executor
+  - scene:reference
+  - skill-level:advanced
+  - 方法
+  - 反例
 author: 欧阳锋
 confidence: 0.85
 ---
@@ -130,6 +132,11 @@ GMV = 新用户 GMV + 复购用户 GMV + 转介绍 GMV
 这不是教科书里的数学表达，而是讲师在大量真实案例中提炼出的**决策防错口诀**。大多数业务公式失效，不是因为变量错了，而是运算符号错了、因果判断错了。知道“先切分再拆转化”和“+ 与 × 的业务含义”，能直接避免平均用力、资源错配和 ROI 崩盘。
 
 ---
+
+## Critique
+
+- **内部局限**："先切分再拆转化"的口诀需要业务理解才能用——新手知道规则但不知道哪里切分/哪个环节用乘号；"运算符号错了"的识别依赖对业务因果链的掌握。
+- **外部攻击（系统动力学视角）**：业务公式的加减乘除是简化表达——真实业务是反馈回路（非线性），"符号写错"是表象，本质是因果模型粗糙；公式方法应配合动态系统视角，否则再准确的公式也是静态快照。
 
 ## 与其他知识的关联
 

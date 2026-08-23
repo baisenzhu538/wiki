@@ -39,6 +39,9 @@ quality_labels: [insight, actionable, quotable, cited]
 tags:
   - audience:general
   - scene:meeting
+  - 框架
+  - 方法
+  - 复盘
 ---
 # 会议资产——经验萃取两只手（SOP+思考模型）
 

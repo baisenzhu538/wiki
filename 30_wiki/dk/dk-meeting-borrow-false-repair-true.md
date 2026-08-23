@@ -32,6 +32,9 @@ quality_labels: [principle, actionable, quotable]
 tags:
   - audience:general
   - scene:meeting
+  - 机制
+  - 方法
+  - 管理者
 ---
 # 借假修真：认真发一次彪建务实文化
 

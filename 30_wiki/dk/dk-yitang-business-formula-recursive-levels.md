@@ -36,8 +36,13 @@ related:
 - '[[business-formula-domain-digest]]'
 - '[[dk-yitang-business-formula-skip-level-entry]]'
 tags:
-- audience:executor
-- scene:diagnosis
+  - audience:executor
+  - scene:diagnosis
+  - 方法
+  - 边界
+  - 清单
+  - CEO
+  - 口述
 quality_labels:
 - cited
 - framework
@@ -91,6 +96,11 @@ review_date: 2026-08-19
 - **齐头并进病**：要求所有部门同时达到 L5/L6，结果把简单业务也拆成过度复杂。
 
 课程原话：**"最好每层都做到 4，这个看业务"** [conf=0.80, source=逻辑关系篇口述 L1882]。L4 是多数业务的"够"，但不同局部可以不一样。
+
+## Critique
+
+- **内部局限**："每层独立公式"的纪律需要判断"分型到哪层"——分层过浅=大公式病，过深=过度复杂；"最好每层都做到 4"是经验值，不同业务适用性不同。
+- **外部攻击（系统思考视角）**：分型递归是层级分解——但复杂业务存在跨层耦合（下层问题会颠覆上层假设），纯递归分解会漏掉跨层反馈；需要配合整体审视，不能只做自顶向下拆解。
 
 ## 与其他知识的关联
 

@@ -56,9 +56,14 @@ related:
 - '[[tool-demand-rat-generator]]'
 - '[[tool-demand-report-template]]'
 tags:
-- audience:manager
-- scene:reference
-- skill-level:advanced
+  - audience:manager
+  - scene:reference
+  - skill-level:advanced
+  - 五步法
+  - 需求分析
+  - 框架
+  - 工具
+  - 方法
 discoverable_by:
 - 需求分析域
 - 需求挖掘

@@ -34,9 +34,14 @@ related:
 - '[[truman-ai-partner-design-analysis]]'
 - '[[tool-ai-oral-spray-input]]'
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 优先级
+  - 框架
+  - 方法
+  - 清单
+  - 复盘
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-17'

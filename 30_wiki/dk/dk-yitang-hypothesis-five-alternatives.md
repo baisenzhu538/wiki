@@ -33,8 +33,12 @@ related:
 - '[[tool-yitang-hypothesis-marginal-roi]]'
 - '[[business-formula-domain-digest]]'
 tags:
-- audience:executor
-- scene:diagnosis
+  - audience:executor
+  - scene:diagnosis
+  - 方法
+  - 边界
+  - 教练
+  - 口述
 quality_labels:
 - cited
 - boundary
@@ -107,6 +111,11 @@ review_date: 2026-08-19
 课程明确说："如果你们就是一个临时的、短期的、相对容易的，随便搞一搞就能搞成的，那些没必要非得用。" [conf=0.85, source=管理篇口述 L546-L548]
 
 但反过来，"你们想追求比行业可能最 top 的水平还要往上再走一走" [conf=0.85, source=管理篇口述 L550]，假设思维就几乎不可替代。
+
+## Critique
+
+- **内部局限**：五条替代路径的"适用边界"判断是经验活——新手容易在"该用假设思维"时选了替代路径（或反之）；"临时短期容易的没必要用"的判断标准模糊。
+- **外部攻击（决策理论视角）**：假设思维的替代路径各有适用域——但"路径选择"本身需要元决策能力；组织容易固化路径偏好，需要建立路径选择的触发机制（按问题类型/风险/时间预算路由），而非靠个案判断。
 
 ## 与其他知识的关联
 

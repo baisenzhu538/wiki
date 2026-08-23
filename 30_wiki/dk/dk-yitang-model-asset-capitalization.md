@@ -24,14 +24,16 @@ discoverable_by:
   - 组织级模型资产的盘点、定价与迭代
 related:
 tags:
-- audience:executor
-- scene:diagnosis
-  - "[[case-yitang-weekly-modeling-engine]]"
-  - "[[case-yitang-model-valuation-flywheel]]"
-  - "[[case-yitang-model-asset-inventory]]"
-  - "[[case-yitang-radar-chart-selection]]"
-  - "[[case-yitang-double-triangle-confidence]]"
-  - "[[yitang-domain-digest]]"
+  - audience:executor
+  - scene:diagnosis - "[[case-yitang-weekly-modeling-engine]]" - "[[case-yitang-model-valuation-flywheel]]" - "[[case-yitang-model-asset-inventory]]" - "[[case-yitang-radar-chart-selection]]" - "[[case-yitang-double-triangle-confidence]]" - "[[yitang-domain-digest]]"
+  - 定价
+  - 拍板
+  - 机制
+  - 框架
+  - 方法
+  - 边界
+  - 清单
+  - 边界案例
 ---
 
 # 组织级模型资产的盘点、定价与迭代
@@ -116,6 +118,11 @@ tags:
 - src_unknown
 
 一句话：模型资产资本化，是把组织从“依赖个体手感”升级为“依赖可积累基础设施”的关键跃迁 [conf=0.80, source=王语嫣 synthesis_yitang.md]。
+
+## Critique
+
+- **内部局限**：模型资产盘点/定价/迭代依赖组织有"模型"可盘（多数组织没有系统化建模习惯）；资产定价（复利价值量化）缺乏标准，容易拍脑袋；资产迭代需要持续投入（维护成本被低估）。
+- **外部攻击（知识管理视角）**：模型资产资本化是知识管理（KM）的经典命题——KM 的教训是"资产库建了没人用"（资产化≠使用化）；模型资产若脱离使用场景（只存不用）会变成"数字博物馆"；且隐性知识（手感）无法完全资产化，个人依赖与组织资产的边界要诚实标注。
 
 ## 与其他知识的关联
 

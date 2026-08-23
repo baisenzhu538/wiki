@@ -39,9 +39,13 @@ related:
 - case-cross-xingangwan-pharma
 - '[[dk-research-important-things-must-do]]'
 tags:
-- audience:manager
-- scene:planning
-- skill-level:beginner
+  - audience:manager
+  - scene:planning
+  - skill-level:beginner
+  - 五步法
+  - 方法
+  - 边界
+  - 口述
 ---
 # 信息拾荒者 vs 规律建筑师
 

@@ -33,8 +33,13 @@ related:
 - '[[dk-demand-switching-cost]]'
 - '[[dk-ji-hao-newbie-can-validate]]'
 tags:
-- audience:executor
-- scene:diagnosis
+  - audience:executor
+  - scene:diagnosis
+  - 投资
+  - 方法
+  - 创业者
+  - 复盘
+  - 口述
 wiki_refs:
 - src_unknown
 - src_unknown
@@ -101,6 +106,11 @@ diagnostic_signals: []
 2. **低成本验证**：用最小实验替代大规模押注，降低创业试错成本
 3. **产品内核识别**：区分"功能亮点"和"用户真正愿意付费的原因"
 4. **团队决策质量**：避免团队被愿景驱动，忽视真实用户验证
+
+## Critique
+
+- **内部局限**：愿望思维检测依赖创业者自我觉察——而"方向错了还特别自信"的人通常缺少觉察；低成本验证对高不确定性创新（平台型）可能不充分。
+- **外部攻击（创业理论视角）**：愿景驱动与需求验证不是非此即彼——伟大公司常由愿景驱动+逐步验证；过度强调"最小实验替代押注"可能让创业者不敢下大注（错过时机成本），验证文化变成保守文化。
 
 ## 与其他知识的关联
 
