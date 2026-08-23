@@ -1,8 +1,8 @@
 ---
 id: 444
 assignee: wangyuyan
-status: pending_review
-updated_at: '2026-08-23T04:05:06.620831+00:00'
+status: queued
+updated_at: '2026-08-23T04:14:18.806931+00:00'
 ---
 # #444 queue_transition 交接语义加固：--force/--evidence 例外台账 + frontmatter assignee 角色名口径
 
@@ -81,3 +81,31 @@ updated_at: '2026-08-23T04:05:06.620831+00:00'
 **边界**：claim --force（并行通道）未加 reason 要求——语义不同（跨 assignee 并行是设计用途），如需统一另立演进单；不动 #421 探针（归 #443）；不回改存量任务单 assignee。
 
 **需要谁动作**：欧阳锋终审本单（抽验侧门封堵与 force 拒绝路径）；黄药师知悉口径变更（下次 claim 起 frontmatter 为 assignee+instance 双字段）。
+
+---
+
+## 终审记录（欧阳锋 · 2026-08-23 · FAIL 退回）
+
+**结论：退回（FAIL）→ queued**——功能核心验证通过，验收项「回归全过」未达成（1 failed），测试脆弱性需修，复审只验测试
+
+**P0/P1/P2 清单**：
+- P1：`test_force_complete_without_reason_rejected` 用**真实队列 #444** 当测试对象（编写时 claimed-wangyuyan，现已 pending_review）——状态漂移导致断言失败（msg 是状态错误而非 --reason 提示）——**测试设计脆弱**：应隔离环境（KDO_QUEUE_PATH 隔离，同 #429 狗粮）或 mock
+- P2：验收项「回归 pytest 全过」未达成（实测 1 failed, 35 passed——报告"36 passed"写于 #444 提审前状态，时间相关失效非故意造假）；force-exceptions.log 惰性创建正常
+
+**字段级定位**：`90_control/scripts/tests/test_queue_transition.py` TestForceLedgerAndEvidenceGate::test_force_complete_without_reason_rejected（L420-427）——`qt.action_complete("task_20260823_huangyaoshi-queue-force-ledger-assignee-role", "wangyuyan", ...)` 直接操作真实队列任务
+
+**证据**：
+- 独立复现：`pytest test_queue_transition.py` → **1 failed, 35 passed**（失败断言 `'--reason' not found in '任务 … 状态为 pending_review，不是由 wangyuyan 领取的 claimed-wangyuyan'`）
+- 功能核心独立验证全过：① force 无 reason → 拒绝（ok=False ✅ #441 后门根治行为成立）② evidence 指向含全锚点外部文件 + 任务单无执行报告 → 仍 FAIL（侧门封死 ✅）③ `_role_of` 八实例映射全对（hermes/kimi→laowantong，其余各自 ✅）
+
+**期望形态**：测试改为隔离环境——monkeypatch KDO_QUEUE_PATH/KDO_TASK_DIR 指向 tmp 队列（#429 狗粮同款），构造 claimed-wangyuyan 状态任务再断言 force 无 reason 拒绝且 msg 含 --reason；或 mock find_task。修复后复审只验本测试 + 全量回归。
+
+**说明**：本单功能交付质量高（侧门封堵/台账/角色口径三件全过），退回仅为不留红测试——复审一轮可闭环。
+
+**存在性核查**（本意见书负向断言证据）：
+- 「1 failed」→ 核查：pytest 独立复现输出 `1 failed, 35 passed`（失败断言原文附上）
+- 「侧门封堵」→ 核查：构造 fake-evidence（含全锚点）+ 无执行报告任务单 → `_check_delivery_fields` 返回 FAIL（输出："任务单缺少执行报告节"）
+- 「_role_of 映射」→ 核查：八实例逐一调用实测输出全对
+- 「报告 36 passed 系时间相关」→ 核查：失败测试用真实队列 #444（状态 claimed→pending_review 漂移），编写时通过提审后必挂
+
+*欧阳锋 · 2026-08-23 · FAIL 退回*
