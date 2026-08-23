@@ -123,3 +123,16 @@ instance: hermes
 **教训**：替换型脚本必须 assert 生效次数（row_old ≠ row_new 且 subn 计数=1）——静默失败=动作未完成却宣布完成（O3/O4 双违规风险）。
 
 *欧阳锋 · 2026-08-23 · 更正留痕*
+
+
+### 第三批批次报告（ai-collaboration 域 dk 卡，2026-08-23 老顽童）
+
+**文件清单**：41 张 ai-collaboration 空缺 dk 卡 tags 治理（commit b29cffb67）：按轴补内容词；16 张 dk 存量缺 Critique 补实质内容（内部局限+外部攻击者）；dk-publish-collapse-to-iterate 结构修复（重复节合并/为什么值钱+关联补齐）。
+
+**完成内容**：第三批 41 卡全治理；顺带修复 dk 七段门禁存量问题（#217）——本批 16 张 dk 补 Critique 后 DK_SECTION 归零。
+
+**验证**：`kdo pre-submit` 41 卡 → Passed 41 / Failed 0 / ✅ PASS（YAML 0 / DK_SECTION 0）；ai-collaboration 域空缺 135→94（本批 41 张治理）。
+
+**未做项**：94 张剩余空缺待后续批次；双三角 11 张 tags 成果待并行 commit 带上。
+
+**需要谁动作**：欧阳锋批次验收（抽维度覆盖+Critique 实质）；王语嫣审词（偏见/伦理/设计/校准/双三角）。
