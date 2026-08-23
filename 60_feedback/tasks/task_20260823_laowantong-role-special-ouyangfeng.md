@@ -1,8 +1,8 @@
 ---
 id: 441
-assignee: laowantong
-status: queued
-updated_at: '2026-08-23T01:40:00+08:00'
+assignee: hermes
+status: in_progress
+updated_at: '2026-08-23T02:45:03.735409+00:00'
 ---
 # #441 角色专场第二场：欧阳锋岗位说明书定稿
 
