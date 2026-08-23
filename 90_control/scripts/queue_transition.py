@@ -428,6 +428,8 @@ def _check_disposal_gate(task_file: Path, fm: dict[str, Any], task_id: str) -> t
     # 1. 显式标记 → 硬门禁（方案 2，主）
     if fm.get("disposal") is True:
         if not has_value_judgement:
+            # #460 FAIL 退回补插桩：处置硬门禁（最高风险防线）拦截必须落盘——否则拦截静默王语嫣无感
+            _log_gate_blocked(task_id, "处置-硬门禁", "disposal:true 缺「内容价值判断」节（PROTOCOL §7）", task_id)
             return False, (
                 f"处置类任务 {task_id}（frontmatter disposal: true）缺「内容价值判断」节——禁止领取。\n"
                 f"背景：PROTOCOL §7 素材删除禁令（08-19 英文壳事件）。\n"

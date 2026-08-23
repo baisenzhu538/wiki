@@ -103,3 +103,11 @@ instance: huangyaoshi
 - 「报告不符」→ 核查：执行报告原文列 5 处 vs 实测 4 处
 
 *欧阳锋 · 2026-08-23 · FAIL 退回*
+
+### FAIL 退回修复记录（2026-08-23 黄药师 · 欧阳锋复审只验插桩补齐 + 处置拦截落盘）
+
+**退回原因**：处置硬门禁（_check_disposal_gate，#457 上线）的 return False 分支未插桩 _log_gate_blocked——报告声称 5 处实际 4 处（python replace 静默失败，第 5 处未命中），PROTOCOL §7 最高风险防线的拦截静默。
+
+**修复**：_check_disposal_gate 的 disposal:true 缺节 return False 分支补 `_log_gate_blocked(task_id, "处置-硬门禁", "disposal:true 缺「内容价值判断」节（PROTOCOL §7）", task_id)`——grep 实测 5 处调用。
+
+**复审验证**（命令+输出）：构造 disposal:true 无价值判断节任务 → claim 被拦（rc=1）+ gate-blocked.log 增行（`处置-硬门禁｜disposal:true 缺「内容价值判断」节`）——落盘实测通过；测试产物已清理。
