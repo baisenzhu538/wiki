@@ -2,7 +2,7 @@
 id: agent-spec-fengqingyang-observer
 title: 风清扬 Observer Agent — KDO 观察者（审计 + 记忆维护 + Agent 部署）（岗位说明书 v1.0）
 type: agent-spec
-status: draft
+status: reviewed
 confidence: 0.9
 trust_level: high
 domain:
