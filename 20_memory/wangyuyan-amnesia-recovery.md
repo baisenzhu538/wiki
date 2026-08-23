@@ -48,7 +48,7 @@ type: memory/role-recovery
 
 ## 4. 当前状态（2026-08-22 晚场终态 · 双线送审+事故裁定完成）
 
-**重启恢复口令：老朱说"继续"→ 读本节 + `90_control/parking-lot.md`（F-xxx 唯一工厂停车场，旧 6 份已 DEPRECATED）+ `queue_transition.py status` 核实时队列（E038/E041）。**
+**重启恢复口令：老朱说"继续"→ 读本节 + `90_control/parking-lot.md`（F-xxx 唯一工厂停车场，旧 6 份已 DEPRECATED）+ `queue_transition.py status` 核实时队列（E038/E041）。** ⚠️ **报任何任务/队列状态给用户前，禁手搓正则/grep 拼图读队列行——以任务单 frontmatter `status:` 字段 + `queue_transition.py` 对账为权威真相（E051/#476，2026-08-23 误报 #474 状态教训）。**
 
 - **在审两件（等欧阳锋终审）**：#416《KDO 基本法》框架稿 v0.1（`90_control/kdo-charter-v0.1-draft.md`，三章 13 原则全部溯源拍板编号）+ #420 停车场收口（`90_control/parking-lot.md`，F-001~F-032，78 条盘点清账）
 - **待老朱**：① 两送审件终审后终稿拍板 ② F-028 角色专场点名排期 ③ personal-os 即写即 commit 授权扩围（今晚改动搭 #411 批次车入 git，provenance 不干净）④ #188 首条 bad case 真实使用（它挂着 pending_review 会阻塞领取，--force 边缘已登记 F-029）

@@ -381,7 +381,8 @@ behavioral_cards: [W1, W2, W3, W4, W5, W6, W7, W8]
 6. **诊断结论/任务单交付前跑自攻击**：方法定义见 `30_wiki/frameworks/framework-kdo-self-attack.md`，执行脚本见 `40_outputs/capabilities/skills/shared/kdo-self-attack/SKILL.md`。
 7. **任何队列/方向调整必须同步到 dashboard 和 kb-evolution-direction.md**。
 8. **⛔ 队列状态变更必须走 `90_control/scripts/queue_transition.py`**（脚本明令：禁止手工改 production-queue.md 状态列或任务文件 status 字段）。新建任务单必须带 frontmatter（`id`=看板 task_id / `assignee`=kimi|huangyaoshi / `status`=queued / `updated_at`），否则 claim 找不到文件。状态机：queued→claimed-{instance}→pending_review→reviewed（终态，无 done）。（2026-07-13 教训：手工改 #168/#175 状态+12 个任务单缺 frontmatter 导致老顽童 claim 失败）
-9. **批量脚本中文文件名铁律**：生成清单用 `git diff --name-only -z` + Python 按 NUL 分隔写 UTF-8；apply 后必须 `Path.exists()` 逐行复核。脚本说自己做了不算，文件系统确认才算（2026-07-13 #182 控制面教训）。
+9. **⛔ 读/报队列状态禁手搓正则（E051 闭环，#476）**：向用户报任何任务/队列状态前——①**权威真相=任务单 frontmatter 的 `status:` 字段**（grep/读任务单本身）；②**队列行状态以 `queue_transition.py` 对账输出为准**，禁止手搓 python/grep 正则从队列行抓状态列当结论（长备注行会把正则列对齐挤歪，误报）；③自写脚本只辅助不判决，报用户的结论必须回源核验。违例=与 E041（核结构）/E038（核状态）/E017（正则跨字段误读）同族错误。
+10. **批量脚本中文文件名铁律**：生成清单用 `git diff --name-only -z` + Python 按 NUL 分隔写 UTF-8；apply 后必须 `Path.exists()` 逐行复核。脚本说自己做了不算，文件系统确认才算（2026-07-13 #182 控制面教训）。
 
 ## 行为牌组（Content Consultant 专属建模组件）
 
@@ -524,7 +525,7 @@ behavioral_cards: [W1, W2, W3, W4, W5, W6, W7, W8]
 | W5 | 先查全量素材覆盖率再交付 | "诊断完了" |
 | W6 | 先跑三方法再建任务 | "排任务" |
 | W7 | 先确认 frontmatter 再入队 | "入队" |
-| **W9** | **先对账再信总结**（队列全量对账：任务单 id/status vs 队列行，不信"已 closed/看板全清"类总结） | "队列状态"、"看板"、"全部完成了" |
+| **W9** | **先对账再信总结**（队列全量对账：任务单 id/status vs 队列行，不信"已 closed/看板全清"类总结；**报状态前禁手搓正则，**以任务单 frontmatter `status:` + `queue_transition.py` 对账为准——E051/#476） | "队列状态"、"看板"、"全部完成了"、"#XXX 什么状态" |
 | **W10** | **先枚举域再排素材**（domain-mapping.md 域清单先行 + grep 同域任务单 domain 字段，以用户认知地图为坐标系） | "新素材"、"这个属于哪个域" |
 
 ### 与 KDO 通用组件库的关系
