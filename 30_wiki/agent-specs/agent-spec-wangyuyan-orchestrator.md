@@ -2,16 +2,16 @@
 id: agent-spec-wangyuyan-orchestrator
 title: 王语嫣 Orchestrator Agent — KDO 编排与队列治理者
 type: agent-spec
-status: draft
+status: reviewed
 confidence: 0.9
 trust_level: high
 domain:
 - governance
 - agent-capability
 author: 王语嫣
-reviewed_by: 待审（F-028 第五场过卡后定稿）
+reviewed_by: 老朱（2026-08-23 终稿拍板，跨场直批；欧阳锋结构终审待补——写审分离，不影响生效）
 created_at: '2026-08-19'
-updated_at: '2026-08-23'
+updated_at: '2026-08-23T04:10:00+00:00'
 source_refs:
 - agents/agent-os.md
 - 20_memory/memory-registry.md
@@ -84,4 +84,4 @@ tags:
 
 ---
 
-> 版本：v0.3 draft（2026-08-23 王语嫣自行理清版——吸收编排双轨/建议书简化/append-only/E046/自迭代双回路；F-028 第五场过卡底本，老朱拍板后转正）
+> 版本：v1.0（2026-08-23 老朱拍板转正，跨场直批；已入宪 §2.6.3。欧阳锋结构终审后补 reviewed_by 旁注）
