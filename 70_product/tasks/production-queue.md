@@ -117,8 +117,9 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 489 | `task_20260824_huangyaoshi-l1-capture-codex-opencode-qwen` | L1采集面补全（F-048拍板P1-①）：l1_capture.py增补Codex(.codex)/codex-homes/opencode(.config\opencode)/qwen(.qwen)四会话源 | reviewed | huangyaoshi | 采集面增补+实测 | 无 | `60_feedback/tasks/task_20260824_huangyaoshi-l1-capture-codex-opencode-qwen.md` | 老朱08-24直达拍板F-048→P1-①（原拍板08-23 23:16记录于diag_20260823_fengqingyang-l1-periodic-audit.md）；只补采集面不切codex-homes（先补后切，#490依赖本单）；风清扬审计验收；欧阳锋终审 |
 | 490 | `task_20260824_wangyuyan-codex-homes-switch-pilot` | codex-homes切换试点（F-048拍板P1-②）：风清扬先切+实测审计侧全量上下文闭环+跑通推广 | queued | wangyuyan | 切换编排+试点+推广 | #489 reviewed ✅ | `60_feedback/tasks/task_20260824_wangyuyan-codex-homes-switch-pilot.md` | 先补后切依赖#489；风清扬先切试点（观察者风险最低）；切换执行归王语嫣编排；推广前老朱确认；欧阳锋终审 |
 | 491 | `task_20260824_huangyaoshi-l1-volume-mirror-governance` | L1体积与镜像治理：去C盘镜像(老朱拍板01:23)+同hash去重+旧天目录压缩归档+日全量改周日全量日增量 | reviewed | huangyaoshi | 去镜像+去重+日增量+实测 | 无 | `60_feedback/tasks/task_20260824_huangyaoshi-l1-volume-mirror-governance.md` | 老朱01:23拍板去C镜像(diag_20260824_fengqingyang-l1-c-mirror-remove)+round2 §3体积风险(diag_20260824_fengqingyang-l1-audit-round2)；与#489同文件l1_capture.py注意合并冲突；风清扬审计验收；欧阳锋终审 |
-| 492 | `task_20260824_huangyaoshi-batch-blocking-exemption` | 长程分批任务阻塞豁免（F-050方案一）：can_claim跳过batch:true任务的pending_review阻塞+#426加batch标记 | claimed-huangyaoshi | huangyaoshi | can_claim改+标记+单测 | 无 | `60_feedback/tasks/task_20260824_huangyaoshi-batch-blocking-exemption.md` | 老朱08-24拍板方案一；只改can_claim一处不动其他语义；只跳过batch任务非batch仍阻塞；与F-029同族不合并；欧阳锋终审 |
+| 492 | `task_20260824_huangyaoshi-batch-blocking-exemption` | 长程分批任务阻塞豁免（F-050方案一）：can_claim跳过batch:true任务的pending_review阻塞+#426加batch标记 | pending_review | huangyaoshi | can_claim改+标记+单测 | 无 | `60_feedback/tasks/task_20260824_huangyaoshi-batch-blocking-exemption.md` | 老朱08-24拍板方案一；只改can_claim一处不动其他语义；只跳过batch任务非batch仍阻塞；与F-029同族不合并；欧阳锋终审 |
 | 493 | `task_20260824_laowantong-domain-reclassification` | 域归域治理：src-unknown/unknown补域(523张)+yitang来源降级拆分(99张,一堂是来源不是域) | queued | laowantong | 补域+拆分+source归位 | 无 | `60_feedback/tasks/task_20260824_laowantong-domain-reclassification.md` | 老朱08-24诊断yitang域太大(一堂是来源不是主题域)；与#484同族(来源不当域推到domain层)；只改frontmatter domain/source不动正文；归域是#426治理前置；欧阳锋终审 |
+| 494 | `task_20260824_huangyaoshi-aliases-pollution-checker` | aliases结构词污染检查器：tags-audit第6指标(结构词/路径词禁入aliases)+存量扫描清单 | queued | huangyaoshi | 检查器+清单+单测 | 无 | `60_feedback/tasks/task_20260824_huangyaoshi-aliases-pollution-checker.md` | 欧阳锋建议书裁定采纳；与#428/#431路径词同族合并治理；指标落点=tags-audit第6指标；存量清理归老顽童随#426/#493；欧阳锋终审 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
 ## ⚖️ 待终审（提审任务，queue_transition 自动登记）
@@ -179,6 +180,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#426 task_20260822_laowantong-tags-judgment-batch｜laowantong｜提审 08-24 02:06｜60_feedback/tasks/task_20260822_laowantong-tags-judgment-batch.md~~ → 批次验收（A）（2026-08-24）
 - ~~#491 task_20260824_huangyaoshi-l1-volume-mirror-governance｜huangyaoshi｜提审 08-24 02:09｜60_feedback/tasks/task_20260824_huangyaoshi-l1-volume-mirror-governance.md~~ → 已终审 PASS A-（2026-08-23 欧阳锋）
 - #426 task_20260822_laowantong-tags-judgment-batch｜laowantong｜提审 08-24 02:18｜60_feedback/tasks/task_20260822_laowantong-tags-judgment-batch.md
+- #492 task_20260824_huangyaoshi-batch-blocking-exemption｜huangyaoshi｜提审 08-24 02:21｜60_feedback/tasks/task_20260824_huangyaoshi-batch-blocking-exemption.md
 
 <!-- REVIEW-PENDING-END -->
 
@@ -269,7 +271,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~[gate-blocked] task_20260823_wangyuyan-426-tags-acceptance-caliber｜08-24 01:17｜待王语嫣复核处置｜2026-08-24 01:05:37｜task_20260823_wangyuyan-426-tags-acceptance-caliber｜F-034-五字段｜执行报告缺 4 个字段（#429 F-034）：改动文件清单、完成内容一句话、验证命令+输出、未做项/边界。请补全后重试，或 --force --reason '<理由>' 声明例外（#444 台账留｜wangyuyan~~ → 已处置关闭（#480 补齐五字段后重提，现已 pending_review——历史拦截记录）
 - ~~diag_20260824_fengqingyang-l1-c-mirror-remove.md｜08-24 01:23｜待王语嫣复核裁定~~ → 编排决策（08-24 王语嫣）：**采纳立项 #491**（老朱拍板去C镜像，并入L1体积治理单）
 - ~~diag_20260824_fengqingyang-l1-cancel-daily-full-snapshot.md｜08-24 01:58｜待王语嫣复核裁定~~ → 编排决策（08-24 王语嫣）：**采纳，吸收进 #491**——老朱指令「每天整份快照必须取消」，#491 任务2 从「中期可分期」收紧为硬性实施项（取消按日整份目录→日增量→周全量兜底→保留L1可回溯语义）
-- diag_20260824_ouyangfeng-aliases-structure-word-pollution.md｜08-24 02:13｜待王语嫣复核裁定
+- ~~diag_20260824_ouyangfeng-aliases-structure-word-pollution.md｜08-24 02:13｜待王语嫣复核裁定~~ → 编排决策（08-24 王语嫣）：**采纳立项 #494**（黄药师 tags-audit 第6指标 aliases 检查器+存量扫描清单）；存量清理归老顽童随 #426/#493；卡规范注记王语嫣自办挂 #449
 - [gate-blocked] task_20260824_huangyaoshi-l1-capture-codex-opencode-qwen｜08-24 02:13｜待王语嫣复核处置｜2026-08-24 02:05:01｜task_20260824_huangyaoshi-l1-capture-codex-opencode-qwen｜F-034-五字段｜执行报告缺 5 个字段（#429 F-034）：改动文件清单、完成内容一句话、验证命令+输出、未做项/边界、需要谁动作。请补全后重试，或 --force --reason '<理由>' 声明例外（#4｜huangyaoshi
 - [gate-blocked] task_20260824_huangyaoshi-l1-volume-mirror-governance｜08-24 02:13｜待王语嫣复核处置｜2026-08-24 02:08:37｜task_20260824_huangyaoshi-l1-volume-mirror-governance｜F-034-五字段｜执行报告缺 5 个字段（#429 F-034）：改动文件清单、完成内容一句话、验证命令+输出、未做项/边界、需要谁动作。请补全后重试，或 --force --reason '<理由>' 声明例外（#4｜huangyaoshi
 

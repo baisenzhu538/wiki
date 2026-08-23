@@ -1,8 +1,8 @@
 ---
 id: 492
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-23T18:19:05.219966+00:00'
+status: pending_review
+updated_at: '2026-08-23T18:21:41.823690+00:00'
 version: v0.1
 instance: huangyaoshi
 ---
@@ -59,6 +59,23 @@ instance: huangyaoshi
 - **欧阳锋**：终审本单
 - **老顽童**：#426 下一批治理时验证不被阻塞
 
-## 执行报告（F-034 五字段，complete 前必填）
+## 执行报告（2026-08-24 黄药师）
 
-（黄药师填写）
+**完成内容**：长程分批任务阻塞豁免（F-050 方案一）——任务单 frontmatter `batch: true` 语义 + can_claim 前方 batch 任务 pending_review 不阻塞；#426 加标记。
+
+**交付物**（改动文件清单）：
+1. `90_control/scripts/queue_gate.py`：`_is_batch_task()`（frontmatter batch:true 判定）+ `find_blockers` 豁免 batch 任务 pending_review（只跳 batch，非 batch 仍阻塞——终审闭环语义不破坏）
+2. `60_feedback/tasks/task_20260822_laowantong-tags-judgment-batch.md`：frontmatter 加 `batch: true`
+3. `90_control/scripts/tests/test_queue_transition.py`：TestBatchBlockingExemption 4 用例
+
+**验证**（命令+输出）：
+- L1 单测：`pytest tests/test_queue_transition.py` → **52 passed**（含新增 4）；scripts 全量 → **86 passed**
+- L2 狗粮：**真实队列实测**——#426（pending_review，batch:true）不再阻塞后方 #470 领取（此前 #469/#470 被卡、#480/#485/#486 靠 --force 跳过）；非 batch 任务阻塞反测仍生效
+- L3 待活体：#426 下一批提审全程不卡主线（长程分批任务常态化豁免）
+
+**未做项**：
+- 无（只改 can_claim/find_blockers 一处，claim/complete/review/cancel 语义不变）
+
+**需要谁动作**：
+- 老顽童：#426 后续批次提审后，后方任务正常领取（无需 --force）
+- 欧阳锋：终审本单（抽「batch 豁免正反/真实队列狗粮/状态机语义不变」）
