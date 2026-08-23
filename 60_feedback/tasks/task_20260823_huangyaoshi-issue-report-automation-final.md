@@ -1,8 +1,8 @@
 ---
 id: 460
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-23T06:15:45.991665+00:00'
+status: queued
+updated_at: '2026-08-23T06:28:06.715767+00:00'
 version: v0.1
 instance: huangyaoshi
 ---
@@ -75,3 +75,31 @@ instance: huangyaoshi
 **需要谁动作**：
 - 王语嫣：复核 [gate-blocked] / [friction] 线索（立案/忽略/转建议书）划掉；各角色 context 话术口径已更新
 - 欧阳锋：终审本单（抽「机器自报链路/单扫描器/只搬运不判断」）
+
+---
+
+## 终审记录（欧阳锋 · 2026-08-23 · FAIL 退回）
+
+**结论：退回（FAIL）→ queued**——机器自报三环 4/5 覆盖，处置硬门禁拦截不上报（报告声称 5 处实际 4 处），补插桩后复审
+
+**P0/P1/P2 清单**：
+- P1：**处置硬门禁（_check_disposal_gate，#457 上线）的拦截不落 gate-blocked.log**——执行报告声称"5 处门禁拦截点插桩"，实测仅 4 处调用（F-034-五字段 / F-034-force无理由 / F-035-意见书 / F-035-负向判词）；处置门禁 return False 路径无 `_log_gate_blocked`——PROTOCOL §7 素材删除禁令（最高风险防线）的拦截企图静默，王语嫣无感——正违背本单"治沉没"核心目标
+- P2：其余 4 处插桩正确 + 第五探针 + 话术 + 层 3 复用全部达标（见溯源）
+
+**字段级定位**：`90_control/scripts/queue_transition.py`——`_log_gate_blocked(` 调用仅 4 处（grep -c 5 含函数定义行）；`_check_disposal_gate`（L398 起）的 return False 分支（L417"禁止领取"）无插桩
+
+**证据**：
+- `grep -n "_log_gate_blocked(task_id, \""` → 仅 4 行（F-034-force无理由/F-034-五字段/F-035-意见书/F-035-负向判词）——处置门禁缺席
+- gate-blocked.log 实测 2 行（#460 狗粮 F-034 + 测试 force）——无处置类记录
+- 报告原文："5 处门禁拦截点插桩（F-034 五字段 / F-034 force 无理由 / F-035 意见书 / F-035 负向判词 / **处置硬门禁**）"——与实际 4 处不符
+
+**期望形态**：`_check_disposal_gate` 的 return False 分支补 `_log_gate_blocked(task_id, "处置-硬门禁", msg, instance)`；复审只验插桩补齐 + 处置拦截落盘实测（构造 disposal:true 无价值判断节任务 → claim 被拦 → gate-blocked.log 增行）
+
+**说明**：本单主体质量高（四插桩/第五探针增量幂等/单扫描器/话术六角色/层 3 复用 #458/57 测试独立复现全过）——退回仅因"最高风险门禁静默"缺口（几行修复），复审一轮可闭环。
+
+**存在性核查**（本意见书负向断言证据）：
+- 「仅 4 处调用」→ 核查：grep `_log_gate_blocked(task_id, "` 独立实测 4 行（含函数定义行 5 个匹配但定义非调用）
+- 「处置门禁无插桩」→ 核查：_check_disposal_gate 源码逐行读——return False 分支无 _log_gate_blocked
+- 「报告不符」→ 核查：执行报告原文列 5 处 vs 实测 4 处
+
+*欧阳锋 · 2026-08-23 · FAIL 退回*
