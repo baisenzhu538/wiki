@@ -568,3 +568,37 @@ class TestCancelCommand(unittest.TestCase):
             self._restore()
         self.assertFalse(ok)
         self.assertIn("已取消", msg)
+
+
+class TestGateBlockedNoiseFilter(unittest.TestCase):
+    """#483：gate-blocked.log 测试噪声分流——task_9999_* 走独立 test log，
+    真实拦截不受影响（防第五探针误报王语嫣）。"""
+
+    def setUp(self):
+        import tempfile
+        self.tmp = Path(tempfile.mkdtemp())
+        self._orig = (qt.GATE_BLOCKED_LOG, qt.GATE_BLOCKED_TEST_LOG)
+        qt.GATE_BLOCKED_LOG = self.tmp / "gate-blocked.log"
+        qt.GATE_BLOCKED_TEST_LOG = self.tmp / "gate-blocked-test.log"
+
+    def tearDown(self):
+        import shutil
+        qt.GATE_BLOCKED_LOG, qt.GATE_BLOCKED_TEST_LOG = self._orig
+        shutil.rmtree(self.tmp, ignore_errors=True)
+
+    def test_test_task_goes_to_test_log(self):
+        qt._log_gate_blocked("task_9999_force-test", "F-034-force无理由", "无 reason")
+        self.assertFalse(qt.GATE_BLOCKED_LOG.exists())  # 真实日志零污染
+        self.assertTrue(qt.GATE_BLOCKED_TEST_LOG.exists())
+        self.assertIn("task_9999_force-test", qt.GATE_BLOCKED_TEST_LOG.read_text(encoding="utf-8"))
+
+    def test_real_task_stays_in_real_log(self):
+        qt._log_gate_blocked("task_20260823_huangyaoshi-x", "F-034-五字段", "缺字段", "huangyaoshi")
+        self.assertTrue(qt.GATE_BLOCKED_LOG.exists())
+        self.assertIn("task_20260823_huangyaoshi-x", qt.GATE_BLOCKED_LOG.read_text(encoding="utf-8"))
+        self.assertFalse(qt.GATE_BLOCKED_TEST_LOG.exists())
+
+    def test_test_record_preserved_not_dropped(self):
+        """边界：测试件记录保留（E028 测试覆盖历史），只是换文件不丢弃。"""
+        qt._log_gate_blocked("task_9999_test", "处置-硬门禁", "缺内容价值判断节")
+        self.assertIn("task_9999_test", qt.GATE_BLOCKED_TEST_LOG.read_text(encoding="utf-8"))

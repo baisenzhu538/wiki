@@ -138,13 +138,19 @@ PENDING_COMMIT_LOG = _WIKI_ROOT / "90_control" / "pending-git-commits.log"
 
 # #460 层 2：门禁拦截自动落盘（机器自报——agent 不报也能上浮给王语嫣）
 GATE_BLOCKED_LOG = _WIKI_ROOT / "90_control" / "gate-blocked.log"
+GATE_BLOCKED_TEST_LOG = _WIKI_ROOT / "90_control" / "gate-blocked-test.log"  # #483：测试件独立日志（task_9999_*，防第五探针误报）
 
 
 def _log_gate_blocked(task_id: str, gate: str, reason: str, instance: str = "") -> None:
-    """每次门禁拦截自动 append 一行（时间/任务/门禁名/原因/instance）——探针第五探针扫描面。"""
+    """每次门禁拦截自动 append 一行（时间/任务/门禁名/原因/instance）——探针第五探针扫描面。
+
+    #483：测试件（task_9999_*）走独立 gate-blocked-test.log——记录保留（E028 测试覆盖
+    历史），但不进真实日志，防第五探针把测试噪声当真实拦截通知王语嫣。
+    """
     try:
         ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        with GATE_BLOCKED_LOG.open("a", encoding="utf-8") as f:
+        target = GATE_BLOCKED_TEST_LOG if task_id.startswith("task_9999_") else GATE_BLOCKED_LOG
+        with target.open("a", encoding="utf-8") as f:
             f.write(f"{ts}｜{task_id}｜{gate}｜{reason[:100]}｜{instance}\n")
     except Exception:
         pass
