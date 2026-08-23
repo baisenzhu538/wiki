@@ -1,8 +1,8 @@
 ---
 id: 426
 assignee: laowantong
-status: in_progress
-updated_at: '2026-08-23T18:06:44.994408+00:00'
+status: pending_review
+updated_at: '2026-08-23T18:06:45.568876+00:00'
 instance: hermes
 ---
 # #426 739 张 tags 判断类分批治理（长程）
