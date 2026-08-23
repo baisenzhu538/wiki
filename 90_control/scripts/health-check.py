@@ -74,6 +74,7 @@ def main():
             ("check-derivatives", [], "派生副本手改检测（#369）"),
             ("check-draft-aging", [], "存量 draft 超龄巡检（#380）"),
             ("full-library-rescan", ["--delta", str(SCRIPTS_DIR.parent / "baseline" / "rescan-baseline.json")], "全库复扫增量报警（#399）"),
+            ("check-tags-health", [], "标签健康（#474）"),
         ])
 
     if args.domain:
