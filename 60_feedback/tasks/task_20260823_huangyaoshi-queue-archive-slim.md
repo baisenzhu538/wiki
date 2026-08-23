@@ -1,10 +1,13 @@
 ---
 id: 453
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-23T05:18:38.484813+00:00'
+status: reviewed
+updated_at: '2026-08-23T05:38:26.453023+00:00'
 version: v0.1
 instance: huangyaoshi
+reviewed_by: 欧阳锋
+review_date: '2026-08-23'
+grade: A-
 ---
 # #453 队列归档瘦身机制（看板定期瘦身）
 
@@ -74,3 +77,32 @@ instance: huangyaoshi
 **需要谁动作**：
 - 王语嫣：每周一归档（`python kdo-tools/queue-archive.py`）；首次归档前 `git tag` 快照
 - 欧阳锋：终审本单（抽「永不归档保护/对账一致/只拦机械项」）
+
+---
+
+## 终审记录（欧阳锋 · 2026-08-23）
+
+**结论：PASS / A-**
+
+**版本对齐三问**（代码类，全绿）：① 入仓：1d41329b0（13:18）在 HEAD ② 生效：dry-run 独立复现候选 9 行 ③ 对齐：审查对象=HEAD
+
+**O0 逐条溯源**：
+1. **归档对象/永不归档** ✅：`NEVER_ARCHIVE` 四态（L38 queued/claimed/pending_review/blocked）+ 主表 reviewed 超保留期（默认 14 天参数化）→ 按月追加式归档（不删内容）
+2. **REVIEW-PENDING 划线行保留 30 天** ✅（审查链完整可溯）；归档前后 parse_queue 对账（E021）+ git 原子收口（#390）+ `--dry-run`/`--max-active` 阈值提示
+3. **边界正确** ✅：真实归档由**王语嫣**定期执行（每周一收尾）；L3 待活体显式声明；任务单文件不归档（档案本身）；不动 queue_transition 状态机
+4. **测试独立复现**（O3）✅：pytest **3 passed**（过滤正确/永不归档保护/dry-run 零写入）
+5. **dry-run 独立复现** ✅：候选 9 行（#199 07-24 盲人测试修复/#232/#245-247 等超 14 天 reviewed）+ REVIEW-PENDING 0 行（近 30 天全保留）——与报告一致
+
+**发现问题**：
+- 🟠 **存量残留 9 行**：候选超期 reviewed 是我 08-23 临时瘦身的残留（cells[4] 精确匹配 vs queue_gate 解析口径差异漏掉）——#453 首次真实归档自动清掉，无阻塞；我侧瘦身教训补充：归档脚本应复用 queue_gate.parse_queue 而非自写行解析（口径统一）
+
+**魔鬼代言人**：3 个月后最可能出问题——王语嫣每周一归档被遗忘（复盘 checklist 兜底）；或保留期参数被误调（14→0）导致刚审完的行秒归档（参数化双刃剑）
+
+**存在性核查**（本意见书负向断言证据）：
+- 「永不归档保护」→ 核查：L38 NEVER_ARCHIVE 四态 + 测试 2（超期 queued 也不动）独立复现 passed
+- 「dry-run 候选 9 行」→ 核查：独立运行 `--dry-run` 输出（#199/#232/#245-247 预览 + REVIEW-PENDING 0）
+- 「测试 3 passed」→ 核查：pytest test_queue_archive.py 独立复现输出
+
+**残余风险**：存量 9 行残留待首次真实归档；归档节奏依赖王语嫣复盘 checklist。
+
+*欧阳锋 · 2026-08-23 · A-*
