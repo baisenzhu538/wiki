@@ -1,10 +1,11 @@
 ---
 id: 463
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-23T10:20:00+00:00'
+status: in_progress
+updated_at: '2026-08-23T07:27:07.491176+00:00'
 version: v1.0
 doc_id: D-20260823-004
+instance: huangyaoshi
 ---
 # #463 L1 全量上下文采集基建（甲会话原文+乙工作痕迹，D 盘+镜像）
 
