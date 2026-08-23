@@ -459,6 +459,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 435 | `task_20260823_huangyaoshi-negative-gate-vocab-data` | 负向判词门禁词表扩展（P1，数据异常类修正落点）：为空/空值进强词；截断/损坏/乱码/半写走正则或宽词观察 | reviewed | huangyaoshi | 词表+正则+回归 | #433 已 reviewed | `60_feedback/tasks/task_20260823_huangyaoshi-negative-gate-vocab-data.md` | 欧阳锋方向采纳 + 风清扬修正落点；数据视图声明归 SOP 不进门禁；不改已审 #433 内容；欧阳锋终审 |
 | 442 | `task_20260823_huangyaoshi-negative-gate-strong-word-fix` | 负向门禁强词误伤返工（P1，#435 审计返工）：STRONG 删「为空/空值」走正则 + 补「不为空/非空值」否定式反例 | pending_review | huangyaoshi | 词表修正+反例回归 | #435 已 reviewed（风清扬审计 diag_20260823_fengqingyang-gate-435-audit.md） | `60_feedback/tasks/task_20260823_huangyaoshi-negative-gate-strong-word-fix.md` | 一行级修正：STRONG 10→8 词，正则不动；正测「grade 为空/值为空」仍拦，反测「不为空/非空值」不误伤；pytest 全过；欧阳锋复审抽否定式反例 |
 | 443 | `task_20260823_huangyaoshi-probe-notify-assignee-routing` | 探针可领取通知按 assignee 路由（P1，#421 演进）：修硬编码 laowantong + 补 huangyaoshi 通道 | pending_review | huangyaoshi | 路由映射+通道+用例 | #442 立项实证（老朱指令入队） | `60_feedback/tasks/task_20260823_huangyaoshi-probe-notify-assignee-routing.md` | 未知 assignee 回落 laowantong 不静默丢；通道缺失 dry-run 降级；不动已审 #421 幂等/静默/单扫描器纪律；REVIEW/PROPOSAL 两条既有路由不改；活体验收=下张 huangyaoshi 单落队实测；欧阳锋终审 |
+| 444 | `task_20260823_huangyaoshi-queue-force-ledger-assignee-role` | queue_transition 交接语义加固（P1，风清扬建议 1+3 裁定合并）：--force/--evidence 例外台账 + frontmatter assignee 角色名口径 | queued | huangyaoshi | 台账+口径改造+用例 | #441 complete --force 绕过 F-034 实证 | `60_feedback/tasks/task_20260823_huangyaoshi-queue-force-ledger-assignee-role.md` | force 无 --reason 拒绝；evidence 路径留档且五字段必须落任务单；assignee 只写角色名+instance 另存，存量实例名兼容不回改；裁定=diag_20260823_wangyuyan-441-rework-ruling.md §二；欧阳锋终审 |
 
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
@@ -590,6 +591,6 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~diag_20260823_fengqingyang-negative-gate-vocab-review.md｜08-23 01:56｜待王语嫣复核裁定~~ → 已复核裁定（2026-08-23 王语嫣）：采纳为 #435 修正落点；数据视图声明归终审 SOP，不进门禁词表
 - ~~diag_20260823_fengqingyang-handoff-doc-only.md｜08-23 02:00｜待王语嫣复核裁定~~ → 已复核裁定（2026-08-23 王语嫣）：原则采纳——对话属于老朱，文档才是角色间唯一沟通；登记停车场 F-041，L0 judgment/decision/insight 事件扩类型挂 #434 后评估
 - ~~diag_20260823_fengqingyang-gate-435-audit.md｜08-23 11:03｜待王语嫣复核裁定~~ → 已复核裁定（2026-08-23 王语嫣，老朱指令「落返工单，黄药师删词补反例」）：采纳——P1 误伤实锤（8 组独立用例+根因定位）；另开 #442 返工单（STRONG 删为空/空值走正则+补否定式反例），黄药师实施、欧阳锋复审
-- diag_20260823_fengqingyang-441-review-and-proposal.md｜08-23 11:25｜待王语嫣复核裁定
+- ~~diag_20260823_fengqingyang-441-review-and-proposal.md｜08-23 11:25｜待王语嫣复核裁定~~ → 已复核裁定（2026-08-23 王语嫣）：3/3 采纳——P1-1/P1-2 进 #441 返工（#441 已被欧阳锋终审退回 queued，返工口径已追加进任务单）；P3+建议 1/3 合并立项 **#444**（force/evidence 台账+assignee 口径）；建议 2 落点=#441 返工 + F-028 专场「终审 SOP 增补」追加项。裁定文书：`diag_20260823_wangyuyan-441-rework-ruling.md`
 
 <!-- PROPOSAL-PENDING-END -->
