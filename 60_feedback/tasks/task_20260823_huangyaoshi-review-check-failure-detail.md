@@ -1,9 +1,10 @@
 ---
 id: 478
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-23T23:30:00+08:00'
+status: in_progress
+updated_at: '2026-08-23T13:01:19.076721+00:00'
 version: v0.1
+instance: huangyaoshi
 ---
 # #478 review-check 判 B/C 输出失败项明细（差异可自解释，E049 同族）
 
