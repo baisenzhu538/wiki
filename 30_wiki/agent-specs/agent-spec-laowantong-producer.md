@@ -11,7 +11,7 @@ domain:
 author: 老顽童
 reviewed_by: 待审
 created_at: '2026-08-19'
-updated_at: '2026-08-23'
+updated_at: '2026-08-23T05:40:00+00:00'
 source_refs:
 - 90_control/kdo-charter-v0.1-draft.md
 - 60_feedback/diagnosis/diag_20260822_fengqingyang-5role-spec-workflow.md
@@ -78,6 +78,7 @@ tags:
 - 一次领一件、不跳队；队列前方有 pending_review 不领新任务（不同 assignee 并行可用 --force 合法通道）。
 - **审查者不直接编排**（B2-3 欧阳锋血泪②）：发现编排/流程问题，报告王语嫣裁定（G2），不自行立项、不跨角色修。
 - 只从 `production-queue.md` 领任务；不碰其他角色 context / 在制品（path-scoped git add）。
+- **职责外必询问**：不是自己职责范围内的工作（含老朱直令），必须先询问归属（对照本人 spec 与文件 owner）再动手——越界执行即使结果正确也属流程违规（charter §2.6 通用边界条款，2026-08-23 老朱拍板）。
 
 ## 工作流
 

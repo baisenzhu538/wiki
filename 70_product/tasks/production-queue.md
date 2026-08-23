@@ -90,6 +90,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 451 | `task_20260823_laowantong-spec-exec-report-rule` | spec 增补：执行报告五字段=提审必备铁律（老顽童+黄药师两 spec）（P1，老朱指令） | queued | laowantong | 两 spec 条款增补 | #441 实证缺执行报告；黄药师四单齐全（防复发固化） | `60_feedback/tasks/task_20260823_laowantong-spec-exec-report-rule.md` | 与 F-034/#444 force 台账口径一致；重新提审同标准；#446 上板冻结故走新增修订单（新纪律狗粮）；欧阳锋终审 |
 | 453 | `task_20260823_huangyaoshi-queue-archive-slim` | 队列归档瘦身机制（P1，看板定期瘦身）：归档脚本+王语嫣定期执行 | queued | huangyaoshi | 归档脚本+单测+首次瘦身 | 老朱指令（token 成本+注意力稀释） | `60_feedback/tasks/task_20260823_huangyaoshi-queue-archive-slim.md` | reviewed>14天归档按月文件；活跃态永不归档；归档前后对账；首次归档前 git tag 快照；总任务数=活跃+归档全量口径；欧阳锋终审 |
 | 454 | `task_20260823_laowantong-fengqingyang-l1-l4-caliber` | #447 底本口径修正：记忆胶囊 L1-L4 新口径（P1，老朱定稿） | queued | laowantong | 口径修正指令单（落点在 #447 交付物） | #447 上板冻结——新增修订单 | `60_feedback/tasks/task_20260823_laowantong-fengqingyang-l1-l4-caliber.md` | L2=风清扬最重要本职+三铁边界；spec 零旧口径残留（grep 核）；执行报告随 #447 |
+| 455 | `task_20260823_laowantong-spec-boundary-ask-first` | 未定稿三 spec 补通用边界条款（职责外必询问）（P1，老朱拍板六角色通用） | queued | laowantong | 口径传三场（落点在 #446/#447/#448 交付物） | 三任务单上板冻结——新增修订单 | `60_feedback/tasks/task_20260823_laowantong-spec-boundary-ask-first.md` | 已定稿三 spec 已直接修订（老顽童 v1.1/欧阳锋 v1.1/王语嫣 v1.3）；欧阳锋版含编排域归属具体化；执行报告随各场 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
 ## ⚖️ 待终审（提审任务，queue_transition 自动登记）
