@@ -1,10 +1,11 @@
 ---
 id: 471
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-23T12:00:00+00:00'
+status: in_progress
+updated_at: '2026-08-23T11:23:15.667767+00:00'
 version: v1.0
 doc_id: D-20260823-019
+instance: huangyaoshi
 ---
 # #471 L1 全量采集投入运行最小闭环（常驻调度+体积红线）
 
