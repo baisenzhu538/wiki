@@ -69,7 +69,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 
 
 
-| 426 | `task_20260822_laowantong-tags-judgment-batch` | 739 张 tags 判断类分批治理（P2 长程，老朱 08-20 拍板+08-22 二拍维持）：词表设计先行+按域分批 | pending_review | laowantong | 词表+分批治理 | 无 | `60_feedback/tasks/task_20260822_laowantong-tags-judgment-batch.md` | 词表未出不动手；首批=试点批；归零声明附 #399 工具输出；欧阳锋批次验收（#411 模式）；风清扬审计待修③收口；**08-23 挂起解除**（半肥猫素材到位→三方法诊断→词表 v0.3 正式稿（90_control/tags-vocab-design.md）老朱确认；词表设计节=该文件；试点批=决策域 50 张，排 #465 后领取） |
+| 426 | `task_20260822_laowantong-tags-judgment-batch` | 739 张 tags 判断类分批治理（P2 长程，老朱 08-20 拍板+08-22 二拍维持）：词表设计先行+按域分批 | queued | laowantong | 词表+分批治理 | 无 | `60_feedback/tasks/task_20260822_laowantong-tags-judgment-batch.md` | 词表未出不动手；首批=试点批；归零声明附 #399 工具输出；欧阳锋批次验收（#411 模式）；风清扬审计待修③收口；**08-23 挂起解除**（半肥猫素材到位→三方法诊断→词表 v0.3 正式稿（90_control/tags-vocab-design.md）老朱确认；词表设计节=该文件；试点批=决策域 50 张，排 #465 后领取） |
 
 | 445 | `task_20260823_huangyaoshi-oneclick-agent-launcher` | KDO 一键启动脚本（P2，冷启动三件套 A 项）：右键启动+角色菜单，三步入会话 | reviewed | huangyaoshi | 启动脚本+狗粮 | 风清扬建议书裁定（B/C 归 #419 追加+王语嫣自办） | `60_feedback/tasks/task_20260823_huangyaoshi-oneclick-agent-launcher.md` | L3 活体=老朱亲手三步启动确认；飞书角色不进菜单；交付五字段+验证分层声明；欧阳锋终审 |
 | 446 | `task_20260823_laowantong-role-special-huangyaoshi` | 角色专场第三场：黄药师岗位说明书定稿（P1，F-028 第三场） | reviewed | laowantong | 五要素 spec 升级 | 素材已齐（验证分层/词表三层/四铁律注入） | `60_feedback/tasks/task_20260823_laowantong-role-special-huangyaoshi.md` | 必含基建单一实例(#222/#223)/验证三验(跑了≠真了)/词表三层/只拦机械项；狗粮=本单 complete 零 force；欧阳锋终审、老朱终稿后并入 §2.6.4 |
@@ -184,7 +184,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#494 task_20260824_huangyaoshi-aliases-pollution-checker｜huangyaoshi｜提审 08-24 02:33｜60_feedback/tasks/task_20260824_huangyaoshi-aliases-pollution-checker.md~~ → 已终审 PASS A-（2026-08-23 欧阳锋）
 - ~~#490 task_20260824_wangyuyan-codex-homes-switch-pilot｜wangyuyan｜提审 08-24 03:12｜60_feedback/tasks/task_20260824_wangyuyan-codex-homes-switch-pilot.md~~ → 已终审 PASS A-（2026-08-23 欧阳锋）
 - #493 task_20260824_laowantong-domain-reclassification｜laowantong｜提审 08-24 03:14｜60_feedback/tasks/task_20260824_laowantong-domain-reclassification.md
-- #426 task_20260822_laowantong-tags-judgment-batch｜laowantong｜提审 08-24 03:19｜60_feedback/tasks/task_20260822_laowantong-tags-judgment-batch.md
+- ~~#426 task_20260822_laowantong-tags-judgment-batch｜laowantong｜提审 08-24 03:19｜60_feedback/tasks/task_20260822_laowantong-tags-judgment-batch.md~~ → 批次验收（A）（2026-08-24）
 
 <!-- REVIEW-PENDING-END -->
 

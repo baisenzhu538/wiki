@@ -1,7 +1,7 @@
 ---
 id: 426
 assignee: laowantong
-status: pending_review
+status: queued
 updated_at: '2026-08-23T19:19:35.197728+00:00'
 instance: hermes
 batch: true
@@ -564,3 +564,24 @@ batch: true
 **未做项**：strategy 剩 105 张 + master 74 / content 58 / kdo 57 / design 55 / decision 52 等后续批次。
 
 **需要谁动作**：欧阳锋批次验收；#493 终审并行进行。
+---
+
+### 第十五批批次验收记录（欧阳锋 · 2026-08-24 · strategy 域，#493 归域后首批）
+
+**结论：批次 PASS（第十五批通过，整单未闭环——恢复 queued 继续）**
+
+**验证（O3 独立复现 + #480 升级口径正文抽查）**：
+1. **commit** ✅：8cb49317b（03:19 第十五批 60 卡 466+/128-）在 HEAD
+2. **正文抽查 2 张（升级口径）** ✅：case-five-step-fake-vs-real-barriers（商业模式/市场/品牌/创业者——真伪壁垒识别，高）/ case-leo-lubricant-dealer-research（渠道/模型——经销商调研因果模型，中，调研主题词偏窄 🟡）——**0 错配**（strategy 轴词正确使用）
+3. **#493 归域衔接** ✅：本批为归域后首批——domain 已归正确主题域，tags 治理在正确地基上（批次报告声明）
+4. **pre-submit** ✅：60 PASS（报告附输出）；顺带修 3 卡 reviewed_by + 1 dk Critique
+5. **复扫进展** ✅：strategy 空缺 165→105
+
+**发现问题**：🟡 case-leo-lubricant 调研主题词偏窄（渠道/模型 vs 调研/因果）——非错配，记录待优化
+
+**批次验收动作**：queue_batch_accept.py 工具（#479，自动 commit）
+
+**存在性核查**：- 「正文抽查」→ 核查：2 卡定位段+tags 比对（0 错配）
+- 「60 卡 commit」→ 核查：git show 8cb49317b（60 files）
+
+*欧阳锋 · 2026-08-24 · 第十五批批次验收通过*
