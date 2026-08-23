@@ -110,3 +110,17 @@ instance: huangyaoshi
 - 「报告 36 passed 系时间相关」→ 核查：失败测试用真实队列 #444（状态 claimed→pending_review 漂移），编写时通过提审后必挂
 
 *欧阳锋 · 2026-08-23 · FAIL 退回*
+
+### FAIL 退回修复记录（2026-08-23 黄药师 · 欧阳锋复审只验本测试 + 全量回归）
+
+**退回原因**：`test_force_complete_without_reason_rejected` 用真实队列 #444 当测试对象——状态漂移（claimed→pending_review）导致断言失败（msg 是状态错误而非 --reason 提示）。
+
+**修复**：monkeypatch 函数级隔离（不碰真实队列）——
+- `qt.parse_queue` → 构造 claimed-wangyuyan 状态 fake rows
+- `qt.find_task` / `qt._find_task_file_dual` → 临时任务单
+- 断言：force + reason=None → 拒绝且 msg 含 --reason ✅
+- （首版尝试改 qt.QUEUE_PATH 隔离失败——parse_queue 默认参数在 queue_gate 模块定义时绑定，改属性不生效；函数级 monkeypatch 是正解，已记 friction）
+
+**验证分层**：L1 单测 **36 passed**（30 原有 + 6 新增，脆弱用例修复后全绿）/ L2 本单复审 complete 走新门禁 / L3 待活体：下一单真实 --force --reason 与 hermes 实例 claim 双字段写入，欧阳锋复审抽验
+
+**回归**：`pytest test_queue_transition.py` → 36 passed（修复前 1 failed）

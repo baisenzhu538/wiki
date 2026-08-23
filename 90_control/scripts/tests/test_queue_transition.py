@@ -419,9 +419,28 @@ class TestForceLedgerAndEvidenceGate(unittest.TestCase):
 
     def test_force_complete_without_reason_rejected(self):
         """#444 核心用例：force complete 无 --reason → 拒绝（#441 后门根治）。
-        用真实队列 #444（claimed-wangyuyan）测——校验在任何写入前返回，无副作用。"""
-        ok, msg = qt.action_complete(
-            "task_20260823_huangyaoshi-queue-force-ledger-assignee-role",
-            "wangyuyan", None, force=True, reason=None)
+        FAIL 退回修复（欧阳锋）：monkeypatch 函数级隔离——构造 claimed 状态 rows + 临时任务单，
+        不碰真实队列（状态漂移断言脆弱根治）。"""
+        import os as _os
+        with tempfile.TemporaryDirectory() as d:
+            tmp = Path(d)
+            task_file = tmp / "task_9999_force-test.md"
+            task_file.write_text(
+                "---\nid: 9999\nassignee: wangyuyan\nstatus: claimed\n---\n# 测试任务单\n",
+                encoding="utf-8")
+            fake_rows = [{
+                "seq": "9999", "task_id": "task_9999_force-test", "name": "测试",
+                "status": "claimed-wangyuyan", "assignee": "wangyuyan", "raw": "",
+            }]
+            old_pq, old_ft, old_fd = qt.parse_queue, qt.find_task, qt._find_task_file_dual
+            try:
+                qt.parse_queue = lambda: fake_rows
+                qt.find_task = lambda tid, rows=None: (
+                    fake_rows[0] if tid == "task_9999_force-test" else None)
+                qt._find_task_file_dual = lambda tid: task_file
+                ok, msg = qt.action_complete(
+                    "task_9999_force-test", "wangyuyan", None, force=True, reason=None)
+            finally:
+                qt.parse_queue, qt.find_task, qt._find_task_file_dual = old_pq, old_ft, old_fd
         self.assertFalse(ok)
         self.assertIn("--reason", msg)
