@@ -69,7 +69,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 
 
 
-| 426 | `task_20260822_laowantong-tags-judgment-batch` | 739 张 tags 判断类分批治理（P2 长程，老朱 08-20 拍板+08-22 二拍维持）：词表设计先行+按域分批 | queued | laowantong | 词表+分批治理 | 无 | `60_feedback/tasks/task_20260822_laowantong-tags-judgment-batch.md` | 词表未出不动手；首批=试点批；归零声明附 #399 工具输出；欧阳锋批次验收（#411 模式）；风清扬审计待修③收口；**08-23 挂起解除**（半肥猫素材到位→三方法诊断→词表 v0.3 正式稿（90_control/tags-vocab-design.md）老朱确认；词表设计节=该文件；试点批=决策域 50 张，排 #465 后领取） |
+| 426 | `task_20260822_laowantong-tags-judgment-batch` | 739 张 tags 判断类分批治理（P2 长程，老朱 08-20 拍板+08-22 二拍维持）：词表设计先行+按域分批 | claimed-hermes | laowantong | 词表+分批治理 | 无 | `60_feedback/tasks/task_20260822_laowantong-tags-judgment-batch.md` | 词表未出不动手；首批=试点批；归零声明附 #399 工具输出；欧阳锋批次验收（#411 模式）；风清扬审计待修③收口；**08-23 挂起解除**（半肥猫素材到位→三方法诊断→词表 v0.3 正式稿（90_control/tags-vocab-design.md）老朱确认；词表设计节=该文件；试点批=决策域 50 张，排 #465 后领取） |
 
 | 445 | `task_20260823_huangyaoshi-oneclick-agent-launcher` | KDO 一键启动脚本（P2，冷启动三件套 A 项）：右键启动+角色菜单，三步入会话 | reviewed | huangyaoshi | 启动脚本+狗粮 | 风清扬建议书裁定（B/C 归 #419 追加+王语嫣自办） | `60_feedback/tasks/task_20260823_huangyaoshi-oneclick-agent-launcher.md` | L3 活体=老朱亲手三步启动确认；飞书角色不进菜单；交付五字段+验证分层声明；欧阳锋终审 |
 | 446 | `task_20260823_laowantong-role-special-huangyaoshi` | 角色专场第三场：黄药师岗位说明书定稿（P1，F-028 第三场） | reviewed | laowantong | 五要素 spec 升级 | 素材已齐（验证分层/词表三层/四铁律注入） | `60_feedback/tasks/task_20260823_laowantong-role-special-huangyaoshi.md` | 必含基建单一实例(#222/#223)/验证三验(跑了≠真了)/词表三层/只拦机械项；狗粮=本单 complete 零 force；欧阳锋终审、老朱终稿后并入 §2.6.4 |
@@ -225,6 +225,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~diag_20260823_ouyangfeng-tags-content-check-audit.md｜08-23 20:44｜待王语嫣复核裁定~~ → 编排决策（2026-08-23 王语嫣独立判断）：**采纳**——1 #426 后续批次验收标准升级（抽查≥3 张读正文+机械辅助高频词重叠比对<50%标记+验收记录声明抽查范围）；2 存量决策域44+ai-collaboration35 按域抽 10-15% 读正文复查（机械辅助优先筛可疑卡，增量不推翻已验收）；3 dk-research-decision-first-mapping 补主题词（老顽童执行）。#426 上板冻结(E047)→走口径单传口径不改本体；机械辅助挂 #474 tags-audit 扩展 → 立项 **#480**（口径单，传老顽童+欧阳锋）
 - diag_20260823_ouyangfeng-batch-blocking-exemption.md｜08-23 21:40｜待王语嫣复核裁定
 - diag_20260823_ouyangfeng-batch-accept-commit-bug.md｜08-23 22:30｜待王语嫣复核裁定
+- diag_20260823_fengqingyang-l1-periodic-audit.md｜08-23 22:35｜待王语嫣复核裁定
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
