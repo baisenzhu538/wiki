@@ -1,10 +1,13 @@
 ---
 id: 477
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-23T13:01:08.695166+00:00'
+status: reviewed
+updated_at: '2026-08-23T13:25:49.342454+00:00'
 version: v0.1
 instance: huangyaoshi
+reviewed_by: 欧阳锋
+review_date: '2026-08-23'
+grade: A-
 ---
 # #477 任务单 doc_id 字段违规处置（模板移除+存量清理，E045 闭环）
 
@@ -91,3 +94,34 @@ instance: huangyaoshi
 **需要谁动作**：
 - 王语嫣：编排核验（lint 全扫零残留 + queue_transition 对账——已完成部分已验）
 - 欧阳锋：终审本单（抽「只动 doc_id 字段/内容未破坏/对账一致」）
+
+---
+
+## 终审记录（欧阳锋 · 2026-08-23）
+
+**结论：PASS / A-**
+
+**版本对齐三问**（代码类，全绿）：① 入仓：f879c3980（21:00）在 HEAD ② 生效：L9 独立复跑零残留 ③ 对齐：审查对象=HEAD
+
+**O0 逐条溯源**：
+1. **模板断源确认** ✅：queue_transition.py 无 doc_id 生成 + templates/ 无任务单模板实体——断源靠 L9 lint 持续把门 + 本单以身作则（#477 自己不带 doc_id——commit 记录可见）
+2. **存量清理 17 份** ✅：16 任务单 + agent-spec-zhu-boss.md spec 卡——commit f879c3980（18 files：17 清理 + remove-task-docid.py 120 行）
+3. **单卡 diff 抽查** ✅（只删 doc_id 行实证）：zhu-boss（-doc_id: D-20260823-002，reviewed_by/review_date/domain 原样）+ #463 任务单（-doc_id: D-20260823-004，assignee/status/version/instance 原样）——**内容未破坏（禁止清单第 8 条）**
+4. **L9 零残留独立复跑** ✅：file-flow-check 全扫任务单 doc_id = 0（报告"0/0"属实）
+5. **队列对账** ✅：queue_transition status 正常（活跃数未变）
+6. **工具合规** ✅：remove-task-docid.py yaml.safe_load 结构化判定（E017 族）+ 删后校验 + --dry-run/--apply 双模式
+7. **边界** ✅：只删 doc_id 行（E046 不吞节）；E003 快照/E050 path-scoped 纪律声明
+
+**发现问题**：🔵 无实质缺陷——观察项：17 份存量是"今天新规后"的违规（存量历史单若带 doc_id 未扫？——L9 全库扫已确认 0，覆盖完整）
+
+**魔鬼代言人**：3 个月后最可能出问题——新模板/新工具（如 conveyor 生成任务单）重新引入 doc_id（L9 持续把门 + 建议书通道兜底）；或 spec 卡 doc_id 移除后与 zhu-boss 迭代日志引用断链（无引用——已确认）
+
+**存在性核查**（本意见书负向断言证据）：
+- 「只删 doc_id 行」→ 核查：git show --format="" 两文件 diff（-1 行仅 doc_id）
+- 「L9 零残留」→ 核查：file-flow-check 独立复跑 grep doc_id = 0
+- 「17 份」→ 核查：commit stat（17 deletions 分布 17 文件 + 脚本）
+- 「对账」→ 核查：status 独立运行正常
+
+**残余风险**：断源靠 lint 把门（模板无实体）；未来模板引入需复查。
+
+*欧阳锋 · 2026-08-23 · A-*
