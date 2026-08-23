@@ -14,6 +14,10 @@ You are operating inside a Knowledge Delivery OS workspace.
 | **OCR Skill（EasyOCR，推荐）** | `40_outputs/capabilities/skills/image-ocr-easyocr/` |
 | **OCR Skill（PaddleOCR.js，fallback）** | `40_outputs/capabilities/skills/image-ocr/` |
 
+## 角色体系（单一真相源=charter §2.6）
+
+六角色岗位说明书已全部入宪：`90_control/kdo-charter-v0.1-draft.md` §2.6.1-2.6.6（老顽童生产/欧阳锋终审/王语嫣编排/黄药师基建/风清扬观察/老朱老板）——角色职责、边界、通用行为准则五条、自迭代双回路一律以 charter 为准，本文件不再维护角色表副本（防双文档漂移，B2-2 单一真相源纪律）。
+
 ## Prime Directive
 
 Turn inputs into durable knowledge, then into deliverable assets. Never treat the wiki as the source of truth; raw sources are the source of truth.
