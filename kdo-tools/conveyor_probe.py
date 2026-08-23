@@ -143,10 +143,45 @@ def _scan_proposals() -> list[str]:
     return hits
 
 
+def _reject_duplicate_doc_ids(hits: list[str]) -> list[str]:
+    """#450：登记口 doc_id 查重——同 doc_id 重复的建议书拒绝登记（登记即冻结，撞号=E045）。
+
+    复用 file-flow-check.find_duplicate_doc_ids（单一真相源，禁副本）；加载失败降级
+    只警告不阻断登记（探针不能因 lint 模块问题挂掉）。
+    """
+    try:
+        import importlib.util
+        _spec = importlib.util.spec_from_file_location(
+            "file_flow_check", Path(__file__).resolve().parent / "file-flow-check.py")
+        ffc = importlib.util.module_from_spec(_spec)
+        _spec.loader.exec_module(ffc)
+        dups = ffc.find_duplicate_doc_ids(DIAG_DIR)  # 传探针扫描面（测试可注入）
+    except Exception as e:
+        print(f"⚠️ [conveyor_probe] doc_id 查重模块加载失败，跳过查重: {e}", file=sys.stderr)
+        return hits
+    rejected = []
+    for name in list(hits):
+        fp = DIAG_DIR / name
+        try:
+            doc_id = yaml.safe_load(fp.read_text(encoding="utf-8").split("---", 2)[1]).get("doc_id")
+        except Exception:
+            continue
+        if doc_id and doc_id in dups:
+            rejected.append(f"{name} (doc_id={doc_id})")
+            hits.remove(name)
+    if rejected:
+        print(f"⛔ [conveyor_probe] doc_id 重复拒绝登记: {'; '.join(rejected)}（E045 撞号，先订正再落盘）",
+              file=sys.stderr)
+    return hits
+
+
 def _update_proposal_board(hits: list[str]) -> list[str]:
     """命中且未在段内的 → 自动写入 PROPOSAL-PENDING 段（路径级幂等）。
     对称 watch_inbox.update_orchestration_board：重写标记段，不碰任务表（状态机零干扰）。"""
     if not hits or not QUEUE_FILE.exists():
+        return []
+    hits = _reject_duplicate_doc_ids(hits)  # #450：登记即冻结，撞号当场拒绝
+    if not hits:
         return []
     text = QUEUE_FILE.read_text(encoding="utf-8")
     if PROPOSAL_BEGIN_OLD in text:  # 迁移：旧"作者自登"段头升级为"自动维护"标注（2026-08-22 #421）

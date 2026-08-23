@@ -247,3 +247,41 @@ def test_review_done_and_failback_signals(tmp_path, monkeypatch):
     # 幂等：重扫不重复
     sig4 = probe._queue_signal(state)
     assert sig4["new_reviewed"] == [] and sig4["new_failback"] == []
+
+
+def test_reject_duplicate_doc_ids_removes_collision(tmp_path, monkeypatch):
+    """#450 登记口：同 doc_id 重复的建议书被剔除（撞号拒绝登记）。"""
+    import importlib.util
+    _spec = importlib.util.spec_from_file_location(
+        "file_flow_check", Path(__file__).resolve().parent.parent / "file-flow-check.py")
+    ffc = importlib.util.module_from_spec(_spec)
+    _spec.loader.exec_module(ffc)
+    monkeypatch.setattr(probe, "DIAG_DIR", tmp_path)
+    for name in ("diag_20260823_a-dup.md", "diag_20260823_b-dup.md"):
+        (tmp_path / name).write_text(
+            "---\ndoc_id: D-20260823-777\nversion: v1.0\ncreated_at: '2026-08-23T10:00:00+08:00'\n"
+            "updated_at: '2026-08-23T10:00:00+08:00'\naudience: 王语嫣\nstatus: pending_orchestration\n---\n正文\n",
+            encoding="utf-8")
+    (tmp_path / "diag_20260823_c-ok.md").write_text(
+        "---\ndoc_id: D-20260823-778\nversion: v1.0\ncreated_at: '2026-08-23T10:00:00+08:00'\n"
+        "updated_at: '2026-08-23T10:00:00+08:00'\naudience: 王语嫣\nstatus: pending_orchestration\n---\n正文\n",
+        encoding="utf-8")
+    kept = probe._reject_duplicate_doc_ids(
+        ["diag_20260823_a-dup.md", "diag_20260823_b-dup.md", "diag_20260823_c-ok.md"])
+    assert kept == ["diag_20260823_c-ok.md"]  # 撞号全拒，唯一 doc_id 放行
+
+
+def test_reject_duplicate_doc_ids_unique_passthrough(tmp_path, monkeypatch):
+    """#450 登记口：doc_id 唯一时原样返回。"""
+    import importlib.util
+    _spec = importlib.util.spec_from_file_location(
+        "file_flow_check", Path(__file__).resolve().parent.parent / "file-flow-check.py")
+    ffc = importlib.util.module_from_spec(_spec)
+    _spec.loader.exec_module(ffc)
+    monkeypatch.setattr(probe, "DIAG_DIR", tmp_path)
+    (tmp_path / "diag_20260823_a-ok.md").write_text(
+        "---\ndoc_id: D-20260823-778\nversion: v1.0\ncreated_at: '2026-08-23T10:00:00+08:00'\n"
+        "updated_at: '2026-08-23T10:00:00+08:00'\naudience: 王语嫣\nstatus: pending_orchestration\n---\n正文\n",
+        encoding="utf-8")
+    hits = ["diag_20260823_a-ok.md"]
+    assert probe._reject_duplicate_doc_ids(hits) == hits
