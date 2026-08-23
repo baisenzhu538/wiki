@@ -1,10 +1,11 @@
 ---
 id: 486
 assignee: wangyuyan
-status: in_progress
-updated_at: '2026-08-23T17:10:40.911931+00:00'
+status: pending_review
+updated_at: '2026-08-23T17:10:48.651855+00:00'
 version: v0.1
 instance: wangyuyan
+evidence: 90_control/file-flow-protocol.md
 ---
 # #486 门禁外部监督维度·#442-#464 对照 + 规范落点（#469 同构背书补差异）
 

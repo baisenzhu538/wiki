@@ -111,7 +111,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 483 | `task_20260823_huangyaoshi-gate-blocked-noise-filter` | gate-blocked.log测试噪声过滤(防第五探针误报) | reviewed | huangyaoshi | 测试件独立testlog或过滤规则 | 风清扬L1审计建议4采纳 | `60_feedback/tasks/task_20260823_huangyaoshi-gate-blocked-noise-filter.md` | P2日志质量;task_9999_*测试噪声与真实拦截分离;不动gate-blocked真实逻辑;欧阳锋终审 |
 | 484 | `task_20260823_huangyaoshi-tags-source-word-blacklist` | tags-audit来源形态词黑名单检查(#474扩展,第5指标来源词污染率) | reviewed | huangyaoshi | 黑名单检查器+复合词白名单+单测 | 欧阳锋建议书采纳(3例实证) | `60_feedback/tasks/task_20260823_huangyaoshi-tags-source-word-blacklist.md` | P2 tags质量;排队#482→#483→#484禁同轮≥3;已有规则(来源名禁入tags)工具化为检查器;不动#474主体;欧阳锋终审 |
 | 485 | `task_20260823_wangyuyan-vocab-axis-before-batch-gate` | 轴文件先行·剩余域轴批量出+gate化(#426放量前提机制化) | pending_review | wangyuyan | 剩余域轴+tags-vocab-design补条目+黄药师gate工具 | 老顽童建议书采纳(content卡点实证) | `60_feedback/tasks/task_20260823_wangyuyan-vocab-axis-before-batch-gate.md` | P1 #426堵点根治;与E054同根;执行前老朱拍板规范改;黄药师gate工具挂子任务/拆#487 |
-| 486 | `task_20260823_wangyuyan-gate-external-supervision` | 门禁外部监督维度·#442-464对照+规范落点(#469同构背书补差异) | claimed-wangyuyan | wangyuyan | 门禁清单对照表+file-flow-protocol/KF-024补条目 | 老顽童建议书采纳(#469Critique) | `60_feedback/tasks/task_20260823_wangyuyan-gate-external-supervision.md` | P2门禁维度扩展;防假门禁+监督盲区;执行前老朱拍板规范改;与#433/#435同族 |
+| 486 | `task_20260823_wangyuyan-gate-external-supervision` | 门禁外部监督维度·#442-464对照+规范落点(#469同构背书补差异) | pending_review | wangyuyan | 门禁清单对照表+file-flow-protocol/KF-024补条目 | 老顽童建议书采纳(#469Critique) | `60_feedback/tasks/task_20260823_wangyuyan-gate-external-supervision.md` | P2门禁维度扩展;防假门禁+监督盲区;执行前老朱拍板规范改;与#433/#435同族 |
 | 487 | `task_20260824_laowantong-oral-spray-live260-cards` | AI口喷必修课卡组·2迭代+5新增(Live260 Truman一等,段位修炼地图L1-L6+战略级基本功+OPT) | queued | laowantong | 2迭代(tool-ai-oral-spray补五大优势+心法/method-deliberate-practice补1+4应用)+5新增(cultivation-map/strategic-fundamental/multi-agent-parallel/newcomer-blockers/vs-typing-dialectics) | 老朱"深挖并编排入列" | `60_feedback/tasks/task_20260824_laowantong-oral-spray-live260-cards.md` | P1 Truman一等口述;口喷战略级第一基本功;ai-collaboration轴已有;W6三方法前置;7卡;欧阳锋终审 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
@@ -164,6 +164,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#426 task_20260822_laowantong-tags-judgment-batch｜laowantong｜提审 08-24 01:03｜60_feedback/tasks/task_20260822_laowantong-tags-judgment-batch.md~~ → 批次验收（A）（2026-08-24）
 - ~~#480 task_20260823_wangyuyan-426-tags-acceptance-caliber｜wangyuyan｜提审 08-24 01:05｜60_feedback/tasks/task_20260823_wangyuyan-426-tags-acceptance-caliber.md~~ → 已终审 PASS A-（2026-08-23 欧阳锋）
 - #485 task_20260823_wangyuyan-vocab-axis-before-batch-gate｜wangyuyan｜提审 08-24 01:10｜60_feedback/tasks/task_20260823_wangyuyan-vocab-axis-before-batch-gate.md
+- #486 task_20260823_wangyuyan-gate-external-supervision｜wangyuyan｜提审 08-24 01:10｜60_feedback/tasks/task_20260823_wangyuyan-gate-external-supervision.md
 
 <!-- REVIEW-PENDING-END -->
 
