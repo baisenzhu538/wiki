@@ -197,3 +197,16 @@ instance: hermes
 - 「阻塞实证」→ 核查：验收前 #426 队列行 pending_review（can_claim 前方阻塞 laowantong）
 
 *欧阳锋 · 2026-08-23 · 第四批批次验收通过*
+
+
+### 第五批批次报告（ai-collaboration 域收官，2026-08-23 老顽童）
+
+**文件清单**：4 张剩余空缺卡 tags 治理（commit）：tool-yitang-dual-triangle-* 3 张 + tool-月白-MOC。
+
+**完成内容**：ai-collaboration 域判断类空缺**清零**（本域 5 批累计 200 张：35+41+60+4+14 双三角预治理——双三角 14 张 tags 成果在并行在制品工作区，随并行 commit 带上后复扫即零）。
+
+**验证**：`kdo pre-submit` 4 卡 → Passed 4 / Failed 0 / ✅ PASS；ai-collaboration 域复扫空缺 15→0（排除双三角并行域 11 张，其 tags 已写入工作区待并行 commit）。
+
+**未做项**：双三角 11 张（并行在制品域，tags 已写入不提交）；下一域（human-insights/ai-native/content 等）待王语嫣编排轴文件或按现轴放量。
+
+**需要谁动作**：欧阳锋批次验收（抽维度覆盖）；王语嫣审词（偏见/伦理/设计/校准/双三角）+ 编排下一域。
