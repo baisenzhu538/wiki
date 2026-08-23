@@ -247,23 +247,42 @@ def check_content_depth(content: str, size: int) -> dict:
     deep = deep_check(content)
     deep_fails = [k for k, v in deep.items() if v["verdict"] == "fail"]
 
+    # #478：A 级条件逐项收集（失败项明细=判 B/C 差异可自解释，E049 同族）
+    cond_failures = []
+    if size < 3000:
+        cond_failures.append(f"size {size}B < 3000B")
+    if chapter_count != 11:
+        cond_failures.append(f"章节 {chapter_count}/11（缺{'、'.join(missing[:3])}）")
+    if diff_blank:
+        cond_failures.append("差异栏空白（#268 重复自审红线）")
+    if not (blindspot_count >= 2 and blindspot_has_why):
+        cond_failures.append(f"盲点 {blindspot_count} 条且追问不够（需≥2 且有为什么/根因）")
+    if not retrieval["has_discovery"]:
+        cond_failures.append("检索无发现（需 has_discovery）")
+    if deep_fails:
+        cond_failures.append(f"深度未过: {'、'.join(deep_fails)}")
+    if issue_missing:
+        cond_failures.append("#458 问题节「本会话发现的问题」缺失（必填，缺失=形式主义降级）")
+
     # A 级：≥3000B + 11章 + 差异栏非空 + 盲点≥2且有追问 + 检索有发现 + 深度四条全过 + 问题节必填（#458）
-    if (size >= 3000 and chapter_count == 11
-            and not diff_blank and blindspot_count >= 2 and blindspot_has_why
-            and retrieval["has_discovery"] and not deep_fails and not issue_missing):
+    if not cond_failures:
         grade = "A"
         emoji = "🟢"
+        failures: list[str] = []
     # C 级：差异栏空白（#268 重复自审红线）
     elif diff_blank:
         grade = "C"
         emoji = "🔴"
+        failures = cond_failures
     # B 级：≥1500B + 8章以上 + 盲点≥1 + 至少提及检索（§10.4.1 B级要求）
     elif size >= 1500 and chapter_count >= 8 and retrieval["has_retrieval"]:
         grade = "B"
         emoji = "🟡"
+        failures = cond_failures
     else:
         grade = "C"
         emoji = "🔴"
+        failures = cond_failures
 
     return {
         "grade": grade,
@@ -276,6 +295,7 @@ def check_content_depth(content: str, size: int) -> dict:
         "diff_blank": diff_blank,
         "retrieval": retrieval,
         "deep": deep,
+        "failures": failures,  # #478：判 B/C 的失败项明细（A 级为空）
     }
 
 
@@ -346,11 +366,13 @@ def print_report(results: list, today: str):
             retrieval_note = " 📚检索有发现" if r.get("retrieval", {}).get("has_discovery") else ""
             print(f"  {label:<32} 🟢 A级 ({r['size']}B) — {r['chapter_count']}/11章，盲点≥2且有追问{retrieval_note}")
         elif r["grade"] == "B":
-            missing_str = f"，缺{'、'.join(r['missing'][:3])}" if r['missing'] else ""
             retrieval_note = " ✅已检索" if r.get("retrieval", {}).get("has_retrieval") else ""
-            deep_miss = [k for k, v in r.get("deep", {}).items() if v.get("verdict") == "fail"]
-            deep_note = f"，深度缺失:{'、'.join(deep_miss)}" if deep_miss else ""
-            print(f"  {label:<32} 🟡 B级 ({r['size']}B) — {r['chapter_count']}/11章{missing_str}{retrieval_note}{deep_note}")
+            # #478：失败项明细（差异可自解释）
+            fails = r.get("failures") or []
+            fail_note = f"，未达A: {'；'.join(fails[:4])}" if fails else ""
+            if len(fails) > 4:
+                fail_note += f"（+{len(fails) - 4} 项）"
+            print(f"  {label:<32} 🟡 B级 ({r['size']}B) — {r['chapter_count']}/11章{retrieval_note}{fail_note}")
         else:
             reasons = []
             if r.get('size', 0) < 1500:
@@ -361,8 +383,13 @@ def print_report(results: list, today: str):
                 reasons.append("盲点未追问")
             if not r.get("retrieval", {}).get("has_retrieval"):
                 reasons.append("未检索wiki")
+            # #478：失败项明细（差异可自解释）
+            fails = r.get("failures") or []
+            fail_note = f"，未达A: {'；'.join(fails[:4])}" if fails else ""
+            if len(fails) > 4:
+                fail_note += f"（+{len(fails) - 4} 项）"
             why = "、".join(reasons) if reasons else f"仅{r['size']}B"
-            print(f"  {label:<32} 🔴 C级 ({r['size']}B) — {why}")
+            print(f"  {label:<32} 🔴 C级 ({r['size']}B) — {why}{fail_note}")
 
     print(f"  {'─' * 60}")
     print(f"  覆盖率：{len(ok)}/{total_active}   A级率：{a_count}/{total_active}   B级以上：{a_count + b_count}/{total_active}")

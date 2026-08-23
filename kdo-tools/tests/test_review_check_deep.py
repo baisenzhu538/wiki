@@ -165,3 +165,45 @@ def test_sample_c_expected_fail():
     grade, deep = _judge("sample-c-huangyaoshi-2026-08-22")
     assert grade == "C"
     assert deep[-1] == "fail"  # 差异栏空 = C 级红线
+
+
+def test_b_grade_failures_detail_explainable():
+    """#478：判 B 输出失败项明细——差异可自解释（E049 同族）。"""
+    # 构造：全达标只差 #458 问题节（王语嫣 08-23 案例同构）
+    content = (
+        "## 差异栏\n对比 08-22：交付 1 单→今日 9 单；角色从执行者变机制建筑师\n"
+        "## 概要\n一句话\n"
+        "## 关键决策\n| a | b |\n|:--|:--|\n| x | y |\n"
+        "## 思维盲点\n1. 漏了 A\n   为什么漏：B\n2. 漏了 C\n   根因：D\n"
+        "## 顿悟\n推翻：E\n"
+        "## 过程资产\n| 新增 | 路径 |\n|:--|:--|\n| x | 30_wiki/x.md |\n"
+        "## 元反思\n下次：F\n"
+        "## Truman复盘\n## 逐轮映射\n## 飞轮效应\n## 对照实验\n## 下次改进\n"
+    )
+    content += "📚 检索有发现（kdo query 命中）\n" * 5
+    content = content + "## 本会话发现的问题\n无\n" * 0  # 故意缺失问题节
+    # 补足体积到 A 级阈值以上
+    content += "补充正文" * 400
+    d = rc.check_content_depth(content, len(content.encode("utf-8")))
+    assert d["grade"] == "B"
+    assert any("#458" in f and "问题节" in f for f in d["failures"]), d["failures"]
+
+
+def test_a_grade_failures_empty():
+    """#478：A 级无失败项（明细为空）。"""
+    content = (
+        "## 差异栏\n对比 08-22：交付 1 单→今日 9 单；角色从执行者变机制建筑师\n"
+        "## 概要\n一句话\n"
+        "## 关键决策\n| a | b |\n|:--|:--|\n| x | y |\n"
+        "## 思维盲点\n1. 漏了 A\n   为什么漏：B\n2. 漏了 C\n   根因：D\n"
+        "## 顿悟\n推翻：E\n"
+        "## 过程资产\n| 新增 | 路径 |\n|:--|:--|\n| x | 30_wiki/x.md |\n"
+        "## 元反思\n下次：F\n"
+        "## Truman复盘\n## 逐轮映射\n## 飞轮效应\n## 对照实验\n## 下次改进\n"
+        "## 本会话发现的问题\n无\n"
+    )
+    content += "📚 检索有发现（kdo query 命中）\n" * 5
+    content += "补充正文" * 400
+    d = rc.check_content_depth(content, len(content.encode("utf-8")))
+    assert d["grade"] == "A", d["failures"]
+    assert d["failures"] == []
