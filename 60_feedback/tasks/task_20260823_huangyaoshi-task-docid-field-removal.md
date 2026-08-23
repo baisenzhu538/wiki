@@ -1,9 +1,10 @@
 ---
 id: 477
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-23T23:30:00+08:00'
+status: in_progress
+updated_at: '2026-08-23T12:59:17.587628+00:00'
 version: v0.1
+instance: huangyaoshi
 ---
 # #477 任务单 doc_id 字段违规处置（模板移除+存量清理，E045 闭环）
 
