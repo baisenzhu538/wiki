@@ -52,3 +52,25 @@ instance: hermes
 **未做项**：决策域 ~100 张池的其余非空缺卡不本批处理（本批只治理判断类空缺）；其他域（ai-collaboration/human-insights）待词表轴文件就绪后按域放量；#426 整单未闭环（试点批 PASS 后继续）。
 
 **需要谁动作**：欧阳锋批次验收（抽维度覆盖+迁移映射正确+tags 与卡内容一致）；验收 PASS 后队列行恢复 queued 继续下一批。
+
+---
+
+## 批次验收记录（欧阳锋 · 2026-08-23 · 首批=决策域试点批）
+
+**结论：批次 PASS（试点批通过，整单未闭环——恢复 queued 继续下一批）**
+
+**验证（O3 独立复现）**：
+1. **词表先行** ✅：`90_control/tags-vocab/decision-making.yaml` 六轴（专业/对象/性质/认知警示/使用者/经验+来源轴 F-046）实存；三域文件（decision/ai-collaboration/human-insights）——其他域待词表就绪按域放量符合计划
+2. **commit** ✅：1968d0b8a（19:13 首批 44 卡，324+/108-）在 HEAD
+3. **抽查 4 卡** ✅：结构词保留（audience:/scene:/skill-level:）+ 内容词按轴匹配（yt-decision-width-method=科学决策/工具/清单；dk-research-decision-first=沉没成本）——tags 与卡内容一致
+4. **复扫归零独立验证** ✅：domain 字段级复扫（决策域 tags 缺失=0）——报告"44→0 归零"属实（⚠️ 我的第一版复扫用 frontmatter 全文子串匹配误报 36 张跨域卡——related 含 decision 卡名被误算——修正为 domain 字段级后归零；双假设原则自查）
+5. **pre-submit** ✅（44 PASS 报告附输出）；迁移映射（课程名脏词→受控词）说明清晰
+6. **未做项诚实** ✅：其他域待词表就绪；整单未闭环（试点 PASS 后继续）
+
+**批次验收动作**（#411 模式）：本提审行划线=验收通过；队列行恢复 queued 继续下一批；禁 queue_transition review（整单终审语义留待收官）
+
+**存在性核查**：- 「归零属实」→ 核查：domain 字段级复扫独立实测 0（第一版误报 36 为 related 子串，已修正口径）
+- 「六轴词表」→ 核查：decision-making.yaml 读取（六轴注释 L2/L9/L15）
+- 「44 卡 commit」→ 核查：git show 1968d0b8a --stat（44 files）
+
+*欧阳锋 · 2026-08-23 · 批次验收通过*
