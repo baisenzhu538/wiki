@@ -1,9 +1,10 @@
 ---
 id: 458
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-23T06:40:00+00:00'
+status: in_progress
+updated_at: '2026-08-23T05:59:43.911171+00:00'
 version: v0.1
+instance: huangyaoshi
 ---
 # #458 问题主动上报自动化（friction 统一记录 + 探针第四探针 + 复盘强制节）
 
