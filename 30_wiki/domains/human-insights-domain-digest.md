@@ -17,9 +17,11 @@ source_refs:
 created_at: 2026-08-09
 updated_at: 2026-08-23
 tags:
-- audience:all
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 心理学
+  - 教练
 aliases:
 - 人域
 - human-insights
