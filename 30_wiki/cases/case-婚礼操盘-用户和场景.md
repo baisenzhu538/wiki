@@ -34,9 +34,17 @@ related:
 - case-opc-agent-wave1-real-model-testing
 updated_at: '2026-06-29'
 tags:
-- audience:general
-- scene:reference
-- skill-level:beginner
+  - audience:general
+  - scene:reference
+  - skill-level:beginner
+  - 优先级
+  - 风险
+  - 框架
+  - 清单
+  - 沉没成本
+  - 损失厌恶
+  - 决策者
+  - 复盘
 ---
 # 案例：婚礼操盘——用户和场景
 

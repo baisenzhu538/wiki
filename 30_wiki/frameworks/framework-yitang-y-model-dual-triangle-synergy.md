@@ -63,9 +63,11 @@ discoverable_by:
 - AI落地方法
 - 人在环 governance
 tags:
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:advanced
+  - 框架
+  - 工具
 ---
 
 # Y模型 × 双三角协同工作法

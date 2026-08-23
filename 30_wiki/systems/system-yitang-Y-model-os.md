@@ -57,9 +57,15 @@ related:
 created_at: 2026-07-03
 updated_at: '2026-07-08'
 tags:
-- audience:manager
-- scene:reference
-- skill-level:advanced
+  - audience:manager
+  - scene:execution
+  - skill-level:advanced
+  - 框架
+  - 工具
+  - 方法
+  - 五步法
+  - 科学决策
+  - 复盘
 discoverable_by:
 - Y模型OS
 - 决策系统

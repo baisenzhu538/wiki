@@ -26,6 +26,12 @@ source_refs:
 - 00_inbox/AI前哨站第2集/AI前哨站第2集-水水拆书.md
 - 00_inbox/AI前哨站第2集/水水-AI前哨-第二期-口述.txt
   - src_unknown
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 工具
+  - 边界
 discoverable_by:
   - 开放/封闭问题分类器：判断任务该交给 AI 控制台还是 Ag
   - 开放/封闭问题分类器

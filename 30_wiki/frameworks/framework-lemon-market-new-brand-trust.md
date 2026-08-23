@@ -25,9 +25,13 @@ aliases:
 - src_2026-08-20_wechat_2404c1658025473c
 - src_2026-08-20_wechat_2404c1658025473c.md
 tags:
-- audience:manager
-- scene:marketing
-- skill-level:intermediate
+  - audience:manager
+  - scene:marketing
+  - skill-level:intermediate
+  - 机制
+  - 框架
+  - 方法
+  - 口述
 source_person: 微信短视频博主（偶遇采集）
 source_context: 微信视频 2404c1658025473c（2026-08-20 偶遇采集，357s）——柠檬市场×新品牌信任公式
 source_refs:

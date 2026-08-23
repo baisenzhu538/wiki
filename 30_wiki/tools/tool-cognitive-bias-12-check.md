@@ -36,9 +36,20 @@ related: null
 created_at: 2026-06-11
 updated_at: '2026-06-16'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:beginner
+  - audience:executor
+  - scene:execution
+  - skill-level:beginner
+  - 框架
+  - 反例
+  - 认知偏差
+  - 幸存者偏差
+  - 沉没成本
+  - 确认偏误
+  - 锚定效应
+  - 损失厌恶
+  - 过度自信
+  - 后见之明
+  - 框架效应
 pipeline:
 - src_unknown
 reviewed_by: laowantong

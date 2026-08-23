@@ -45,11 +45,15 @@ related:
 - '[[tool-candy-sales-recruiting]]'
 - '[[tool-nine-character-mantra-14-strategies]]'
 tags:
-- audience:ceo
-- audience:manager
-- scene:diagnosis
-- scene:planning
-- skill-level:intermediate
+  - audience:ceo
+  - audience:manager
+  - scene:diagnosis
+  - scene:planning
+  - skill-level:intermediate
+  - 框架
+  - 方法
+  - 边界
+  - 口述
 ---
 
 # AI 销售协同：确定性方法 + 可判断标准的双条件框架

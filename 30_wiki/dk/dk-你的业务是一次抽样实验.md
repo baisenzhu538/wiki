@@ -32,8 +32,12 @@ related:
 - '[[pending_unknown]]'
 - '[[dk-decision-when-to-defer]]'
 tags:
-- audience:executor
-- scene:diagnosis
+  - audience:executor
+  - scene:diagnosis
+  - 框架
+  - 边界
+  - 反例
+  - 复盘
 quality_labels:
 - validated
 updated_at: 2026-06-28

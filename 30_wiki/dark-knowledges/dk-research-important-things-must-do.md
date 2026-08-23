@@ -46,9 +46,12 @@ related:
 - '[[framework-serendipity-five-channels]]'
 - '[[tool-skill-packaging-eight-steps]]'
 tags:
-- audience:manager
-- scene:planning
-- skill-level:intermediate
+  - audience:manager
+  - scene:planning
+  - skill-level:intermediate
+  - 方法
+  - 边界
+  - 口述
 ---
 # 重要的事应做必做：饱和式输出探索
 

@@ -32,9 +32,11 @@ related:
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 tags:
-- audience:ceo
-- scene:diagnosis
-- skill-level:intermediate
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:intermediate
+  - 方法
+  - 边界
 discoverable_by:
 - 问题澄清
 - 五层结构

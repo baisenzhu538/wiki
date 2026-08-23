@@ -39,9 +39,15 @@ aliases:
 source_refs:
   - src_unknown
 tags:
-- audience:ceo
-- scene:diagnosis
-- skill-level:intermediate
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:intermediate
+  - 科学决策
+  - 框架
+  - 工具
+  - 方法
+  - 实证
+  - 管理者
 discoverable_by:
 - Y模型哲学
 - 认知根基

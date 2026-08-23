@@ -27,7 +27,15 @@ related: null
 discoverable_by:
 - 精益转型决策
 updated_at: 2026-07-02
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 单元模型
+  - 优先级
+  - 转型
+  - 框架
+  - 清单
 ---
 # 精益验证结果如何触发战略/产品 pivot
 

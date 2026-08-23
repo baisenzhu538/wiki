@@ -38,9 +38,11 @@ related: null
 created_at: 2026-06-11
 updated_at: '2026-06-16'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:beginner
+  - audience:executor
+  - scene:execution
+  - skill-level:beginner
+  - 拍板
+  - 框架
 pipeline:
 - src_unknown
 reviewed_by: laowantong

@@ -35,9 +35,16 @@ discoverable_by:
   - 复制销冠不是复制话术
   - 是还原决策链
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 风险
+  - 工具
+  - 方法
+  - 边界
+  - 执行者
+  - 教练
+  - 复盘
 pipeline: null
 diagnostic_signals:
 - signal: src_unknown

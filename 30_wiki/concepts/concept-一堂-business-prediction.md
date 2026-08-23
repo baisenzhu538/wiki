@@ -53,9 +53,11 @@ related:
 - 商业预判课
 - '[[product-moc]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:advanced
+  - audience:general
+  - scene:reference
+  - skill-level:advanced
+  - 科学决策
+  - 方法
 ---
 
 # 商业预判：15字诀与光谱模型——从拍脑袋到科学决策

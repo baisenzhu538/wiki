@@ -29,8 +29,9 @@ related:
 created_at: 2026-07-08
 updated_at: 2026-07-08T17:28:16Z
 tags:
-- audience:general
-- scene:reference
+  - audience:general
+  - scene:reference
+  - 边界
 ---
 
 # Y模型双姿原则：实事求是校准事实端，解放思想突破理论端

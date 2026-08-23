@@ -40,7 +40,14 @@ discoverable_by:
 - 决策六问
 - 决策质量清单
 - 怎么检查决策质量
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 框架
+  - 清单
+  - 沉没成本
+  - 复盘
 ---
 # 决策质量六问检查表
 

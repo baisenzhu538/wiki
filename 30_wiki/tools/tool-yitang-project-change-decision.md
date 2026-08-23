@@ -27,8 +27,9 @@ related:
 - "[[tool-yitang-project-change-identification]]"
 - "[[tool-yitang-project-change-workflow]]"
 tags:
-- audience:executor
-- scene:execution
+  - audience:executor
+  - scene:execution
+  - 清单
 diagnostic_signals:
 - signal: 面对变化时要么死板不变、要么随便乱变，没有判断标准
   lens: 缺变化分级判断框架——不知道什么时候该走变更流程

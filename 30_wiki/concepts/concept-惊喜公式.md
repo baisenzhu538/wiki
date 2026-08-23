@@ -34,9 +34,12 @@ related:
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 机制
+  - 框架
+  - 清单
 ---
 # 惊喜公式：超越预期的用户体验设计
 

@@ -32,7 +32,20 @@ discoverable_by:
 - 商业决策偏差
 - 决策认知偏差
 - 决策心理偏差清单
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 框架
+  - 认知偏差
+  - 幸存者偏差
+  - 沉没成本
+  - 确认偏误
+  - 锚定效应
+  - 损失厌恶
+  - 过度自信
+  - 框架效应
+  - 可得性偏差
 ---
 # 商业决策常见认知偏差地图
 

@@ -35,9 +35,14 @@ related:
 - '[[yt-unit-model-dynamic]]'
 - '[[yt-unit-model-selection]]'
 tags:
-- audience:ceo
-- scene:diagnosis
-- skill-level:intermediate
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:intermediate
+  - 单元模型
+  - 定价
+  - 招聘
+  - 风险
+  - 清单
 discoverable_by:
 - 单元模型阶梯
 - 单元经济进阶

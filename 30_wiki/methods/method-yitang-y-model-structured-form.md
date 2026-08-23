@@ -22,9 +22,11 @@ related:
 - '[[method-yitang-y-model-engine-cycle]]'
 - '[[tool-yitang-Y-model-application]]'
 tags:
-- audience:general
-- scene:diagnosis
-- skill-level:advanced
+  - audience:general
+  - scene:diagnosis
+  - skill-level:advanced
+  - 优先级
+  - 复盘
 discoverable_by:
 - Y模型表单
 - 结构化决策

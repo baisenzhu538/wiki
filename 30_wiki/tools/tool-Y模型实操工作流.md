@@ -41,9 +41,14 @@ related:
 created_at: 2026-06-29
 updated_at: 2026-07-08 17:38:57+00:00
 tags:
-- audience:executor
-- scene:execution
-- skill-level:advanced
+  - audience:executor
+  - scene:execution
+  - skill-level:advanced
+  - 风险
+  - 框架
+  - 工具
+  - 清单
+  - 复盘
 review_date: 2026-08-19
 ---
 

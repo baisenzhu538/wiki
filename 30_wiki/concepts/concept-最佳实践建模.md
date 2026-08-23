@@ -38,9 +38,11 @@ related:
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 方法
+  - 边界
 ---
 # 最佳实践建模：把别人的成功拆成可复制的模型
 

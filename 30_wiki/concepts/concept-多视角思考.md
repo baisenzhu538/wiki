@@ -35,9 +35,13 @@ related:
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 投资
+  - 框架
+  - 方法
+  - 边界
 ---
 # 多视角思考：用不同角色审视产品
 

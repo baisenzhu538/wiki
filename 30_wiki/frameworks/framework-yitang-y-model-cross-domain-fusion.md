@@ -53,9 +53,16 @@ related:
 created_at: 2026-07-08
 updated_at: 2026-07-08 17:28:16+00:00
 tags:
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:advanced
+  - 五步法
+  - 单元模型
+  - 需求分析
+  - 框架
+  - 工具
+  - 边界
+  - 复盘
 discoverable_by:
 - Y模型应用
 - 跨域融合

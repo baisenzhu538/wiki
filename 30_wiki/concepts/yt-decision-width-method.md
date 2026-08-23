@@ -105,9 +105,12 @@ updated_at: '2026-06-16'
 author: 老顽童
 reviewed_by: 周伯通
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 科学决策
+  - 工具
+  - 清单
 ---
 # 宽度分析工具：列推建查四步法+三层盲区清单
 

@@ -60,9 +60,12 @@ aliases:
 - Y模型迭代发动机
 - Y模型循环操作法
 tags:
-- audience:executor
-- scene:diagnosis
-- skill-level:advanced
+  - audience:executor
+  - scene:diagnosis
+  - skill-level:advanced
+  - 框架
+  - 工具
+  - 清单
 discoverable_by:
 - Y模型引擎
 - 决策循环

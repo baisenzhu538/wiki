@@ -32,9 +32,11 @@ related:
 - data-curator-role-division
 - '[[学会提问在信息洪流中锻造批判性思维的利刃]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:beginner
+  - audience:general
+  - scene:reference
+  - skill-level:beginner
+  - 五步法
+  - 风险
 ---
 # Pilot：master-decision-hygiene 真原子切分对比
 

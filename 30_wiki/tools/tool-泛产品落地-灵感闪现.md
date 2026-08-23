@@ -20,6 +20,14 @@ aliases:
 - 落地卡片
 - 落地卡片：灵感闪现
 source_refs: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 科学决策
+  - 工具
+  - 方法
+  - 口述
 discoverable_by:
 - 落地卡片：灵感闪现
 - 落地卡片

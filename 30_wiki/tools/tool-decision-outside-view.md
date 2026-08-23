@@ -49,9 +49,11 @@ related:
 - '[[gold-standard-manual-labels]]'
 - '[[decision-science-domain-digest]]'
 tags:
-- audience:manager
-- scene:execution
-- skill-level:beginner
+  - audience:manager
+  - scene:execution
+  - skill-level:beginner
+  - 风险
+  - 框架
 ---
 # 技能：团队决策外部视角法
 
