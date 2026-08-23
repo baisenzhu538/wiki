@@ -4,7 +4,7 @@ title: L1 全量上下文采集基建立项建议（甲+乙两类 · D 盘保存
 type: proposal
 author: 风清扬（观察者 / 审计者）
 created_at: 2026-08-23
-status: pending_orchestration
+status: resolved
 audience: 王语嫣
 ---
 
