@@ -40,6 +40,8 @@ FAIL_LOG = Path(__file__).resolve().parent / ".conveyor_failures.log"
 RETRO_ROOT = Path.home() / "Desktop" / "agent复盘"
 FRICTION_ROLES = ["ouyangfeng", "huangyaoshi", "wangyuyan", "laowantong", "hongqigong", "duanwangye", "fengqingyang"]
 SHARED_FRICTION = Path(__file__).resolve().parent.parent / ".agent" / "friction-log.md"
+# #460 第五探针：门禁拦截日志（queue_transition 自动落盘，机器自报——零依赖自觉）
+GATE_BLOCKED_LOG = Path(__file__).resolve().parent.parent / "90_control" / "gate-blocked.log"
 
 PROPOSAL_BEGIN = "<!-- PROPOSAL-PENDING-BEGIN（自动登记：conveyor_probe.py；勿手改——王语嫣复核后划掉） -->"
 PROPOSAL_BEGIN_OLD = "<!-- PROPOSAL-PENDING-BEGIN（建议书作者自登，王语嫣复核后划掉） -->"  # 迁移兼容旧段头
@@ -248,6 +250,65 @@ def _scan_friction(state: dict) -> list[str]:
     return new_lines
 
 
+def _scan_gate_blocked(state: dict) -> list[str]:
+    """#460 第五探针：gate-blocked.log 增量扫描（行 hash 幂等）——门禁拦截自动上浮，零依赖 agent 自觉。"""
+    if not GATE_BLOCKED_LOG.exists():
+        return []
+    seen = state.setdefault("gate_seen", [])
+    known = set(seen)
+    new_lines = []
+    try:
+        for ln in GATE_BLOCKED_LOG.read_text(encoding="utf-8", errors="ignore").splitlines():
+            line = ln.strip()
+            if not line or "｜" not in line:
+                continue
+            h = _sha256(line)
+            if h not in known:
+                known.add(h)
+                new_lines.append(line)
+    except OSError:
+        return []
+    state["gate_seen"] = sorted(known)[-500:]
+    return new_lines
+
+
+def _update_proposal_board_gate(new_lines: list[str]) -> None:
+    """#460：门禁拦截登记 PROPOSAL-PENDING（[gate-blocked] 类型，幂等）。"""
+    if not new_lines or not QUEUE_FILE.exists():
+        return
+    text = QUEUE_FILE.read_text(encoding="utf-8")
+    items, known = [], set()
+    if PROPOSAL_BEGIN in text and PROPOSAL_END in text:
+        block = text.split(PROPOSAL_BEGIN)[1].split(PROPOSAL_END)[0]
+        for ln in block.splitlines():
+            if ln.startswith("- "):
+                items.append(ln)
+                known.add(ln[2:].split("｜")[0].strip())
+    now = datetime.now().strftime("%m-%d %H:%M")
+    added = 0
+    for ln in new_lines:
+        marker = f"[gate-blocked] {ln.split('｜')[1].strip()}"
+        if marker in known:
+            continue
+        items.append(f"- {marker}｜{now}｜待王语嫣复核处置｜{ln}")
+        known.add(marker)
+        added += 1
+    if not added and PROPOSAL_BEGIN in text:
+        return
+    board = [
+        PROPOSAL_BEGIN, "",
+        "## 📬 PROPOSAL-PENDING（建议书到达，conveyor_probe.py 自动登记）", "",
+        "> 王语嫣复核立项后划掉该行（流程不变）。勿手改段结构——重跑会整块重写。",
+        "",
+    ] + items + ["", PROPOSAL_END]
+    if PROPOSAL_BEGIN in text:
+        new_text = text.split(PROPOSAL_BEGIN)[0] + "\n".join(board) + text.split(PROPOSAL_END)[1]
+    else:
+        new_text = text.rstrip() + "\n\n" + "\n".join(board) + "\n"
+    QUEUE_FILE.write_text(new_text, encoding="utf-8")
+    print(f"⛔ gate-blocked 登记: +{added} → PROPOSAL-PENDING")
+
+
 # ── 通知：飞书群机器人 webhook（配置驱动；缺失 → dry-run 打印）──
 
 def _load_hooks() -> dict:
@@ -341,11 +402,12 @@ def main() -> int:
 
     state = _load_state()
 
-    # 一次扫描事件：检出四类信号（单份逻辑，#458 第四探针同事件）
+    # 一次扫描事件：检出五类信号（单份逻辑，#458 第四探针 + #460 第五探针同事件）
     queue_sig = _queue_signal(state)
     proposal_hits = _scan_proposals()
     registered = _update_proposal_board(proposal_hits)  # 登记（幂等）
     friction_new = _scan_friction(state)  # 增量检测（state 幂等）
+    gate_new = _scan_gate_blocked(state)  # 门禁拦截增量（#460 机器自报）
 
     messages: dict[str, str] = {}
     if queue_sig["new_review"]:
@@ -362,6 +424,10 @@ def main() -> int:
         # #458：friction 线索登记 PROPOSAL-PENDING（[friction] 类型）+ 通知王语嫣
         _update_proposal_board_friction(friction_new)
         messages["wangyuyan"] = f"🩹 KDO 新问题线索 {len(friction_new)} 条（friction）：{friction_new[0][:60]}{'…' if len(friction_new) > 1 else ''}"
+    if gate_new:
+        # #460：门禁拦截自动登记（[gate-blocked]）+ 通知——机器自报，零依赖 agent 自觉
+        _update_proposal_board_gate(gate_new)
+        messages["wangyuyan"] = f"⛔ KDO 门禁拦截 {len(gate_new)} 次（gate-blocked）：{gate_new[0][:70]}{'…' if len(gate_new) > 1 else ''}"
 
     # 幂等：同 id 不重推（登记与通知同源——registered 是本次扫描产物）
     notified = set(state.get("notified", []))

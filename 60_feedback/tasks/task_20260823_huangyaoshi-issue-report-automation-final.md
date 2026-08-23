@@ -55,3 +55,26 @@ instance: huangyaoshi
 ## 执行报告（F-034 五字段+验证分层声明，complete 前必填）
 
 （生产者填写）
+## 执行报告（2026-08-23 黄药师）
+
+**完成内容**：问题主动上报自动化最终设计实施——层 2 机器自报（gate-blocked.log 落盘 + 探针第五探针）+ 层 1 通道唯一化话术（建议书最小三行）+ 层 3 复盘兜底（复用 #458 已实现）。
+
+**交付物**（改动文件清单）：
+1. `90_control/scripts/queue_transition.py`：`_log_gate_blocked` + `GATE_BLOCKED_LOG`（`90_control/gate-blocked.log`）——**5 处门禁拦截点插桩**（F-034 五字段 / F-034 force 无理由 / F-035 意见书 / F-035 负向判词 / 处置硬门禁），每次拦截自动落盘（时间/任务/门禁名/原因/instance）
+2. `kdo-tools/conveyor_probe.py`：第五探针——`_scan_gate_blocked`（增量行 hash 幂等）+ `_update_proposal_board_gate`（[gate-blocked] 登记幂等）+ 通知王语嫣（同一扫描事件，单扫描器纪律）
+3. 六份角色 context：话术更新为 #460 口径（**通道唯一化**——最小建议书三行：现象/在哪发现/建议方向可选；friction 一行式降为即时草稿）
+4. 层 3 复盘必填问题节：**复用 #458 已实现**（review-check + 模板，#458 冻结不重做）
+5. `kdo-tools/tests/test_conveyor_probe.py`：+1（gate-blocked 增量幂等/登记幂等）
+
+**验证**（命令+输出）：
+- L1：pytest 16 passed（conveyor）；queue_transition 41 passed（插桩后回归）
+- L2 狗粮：**复跑 #426 断链场景三环全通**——隔离环境无报告 complete 被拦 → ① gate-blocked.log 落行（F-034-五字段）✅ ② 探针登记 [gate-blocked] ✅ ③ 王语嫣飞书通知（⛔ KDO 门禁拦截）✅；测试产物已清理
+- L3 待活体：下一次真实门禁拦截，无人上报自动浮到王语嫣
+
+**未做项**：
+- #458/#459 冻结未动（#460 裁决）；friction 探针（第四探针）保持 #458 原样待审
+- cancel 命令（#460 遗留，需独立拍板——已登记评估）；探针只搬运不判断（处置归王语嫣）
+
+**需要谁动作**：
+- 王语嫣：复核 [gate-blocked] / [friction] 线索（立案/忽略/转建议书）划掉；各角色 context 话术口径已更新
+- 欧阳锋：终审本单（抽「机器自报链路/单扫描器/只搬运不判断」）

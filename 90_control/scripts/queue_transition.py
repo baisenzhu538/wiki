@@ -136,6 +136,20 @@ DASHBOARD_PATH = _WIKI_ROOT / "70_product" / "tasks" / "dashboard.html"
 PENDING_COMMIT_LOG = _WIKI_ROOT / "90_control" / "pending-git-commits.log"
 
 
+# #460 层 2：门禁拦截自动落盘（机器自报——agent 不报也能上浮给王语嫣）
+GATE_BLOCKED_LOG = _WIKI_ROOT / "90_control" / "gate-blocked.log"
+
+
+def _log_gate_blocked(task_id: str, gate: str, reason: str, instance: str = "") -> None:
+    """每次门禁拦截自动 append 一行（时间/任务/门禁名/原因/instance）——探针第五探针扫描面。"""
+    try:
+        ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        with GATE_BLOCKED_LOG.open("a", encoding="utf-8") as f:
+            f.write(f"{ts}｜{task_id}｜{gate}｜{reason[:100]}｜{instance}\n")
+    except Exception:
+        pass
+
+
 def _record_commit_failure(task_id: str, action: str, reason: str) -> None:
     """git 收口失败 → 追加待收口清单（90_control/pending-git-commits.log）。
 
@@ -624,6 +638,7 @@ def action_complete(task_id: str, instance: str, evidence: str | None, force: bo
 
     # #444：force 无理由=拒绝（「声明例外」被当常规通道的根治——#441 实证）
     if force and not (reason and reason.strip()):
+        _log_gate_blocked(task_id, "F-034-force无理由", "--force 未配 --reason（#444 例外留痕要求）", instance)
         return False, ("--force 绕过 F-034 交付五字段门禁，必须配 --reason '<理由>'"
                        "（#444：例外留痕——谁/为何/绕过哪条/何时补，台账可溯）")
 
@@ -636,6 +651,7 @@ def action_complete(task_id: str, instance: str, evidence: str | None, force: bo
         # #429 F-034：交付五字段硬格式（升级替代原关键词检查：pre-submit/执行报告/验收）
         gate_ok, gate_msg = _check_delivery_fields(task_file, evidence)
         if not gate_ok:
+            _log_gate_blocked(task_id, "F-034-五字段", gate_msg, instance)
             return False, gate_msg
 
     # #444：force 例外入台账（终审可见）
@@ -835,6 +851,7 @@ def action_review(task_id: str, verdict: str, reviewer: str, grade: str | None =
     # 意见载体 = 任务单「## 终审记录」节（非空）或 --review-file 指定路径
     ok, msg = _check_review_record(task_file, review_file)
     if not ok:
+        _log_gate_blocked(task_id, "F-035-意见书", msg, reviewer)
         return False, msg
 
     # #433：负向判词证据层门禁——意见书含负向断言词必须带 `**存在性核查**` 锚点
@@ -849,6 +866,7 @@ def action_review(task_id: str, verdict: str, reviewer: str, grade: str | None =
             opinion_text = body[idx:nxt] if nxt > 0 else body[idx:]
     gate_ok, gate_msg = _check_negative_claims(opinion_text)
     if not gate_ok:
+        _log_gate_blocked(task_id, "F-035-负向判词", gate_msg, reviewer)
         return False, gate_msg
 
     with QueueLock("production-queue"):

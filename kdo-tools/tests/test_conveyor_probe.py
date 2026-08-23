@@ -183,3 +183,27 @@ def test_friction_registration_marks_clue(tmp_path, monkeypatch):
     assert "[friction] [huangyaoshi] 2026-08-23 10:00" in text
     probe._update_proposal_board_friction(["[huangyaoshi] 2026-08-23 10:00｜门禁误判｜测试问题"])
     assert text.count("[friction]") == 1  # 幂等
+
+
+# ── #460 第五探针（gate-blocked 机器自报）回归 ──
+
+def test_gate_blocked_scan_and_registration(tmp_path, monkeypatch):
+    """门禁拦截日志增量检测 + [gate-blocked] 登记幂等。"""
+    gb = tmp_path / "gate-blocked.log"
+    gb.write_text("2026-08-23 14:00｜task_426｜F-034-五字段｜缺执行报告｜huangyaoshi\n", encoding="utf-8")
+    monkeypatch.setattr(probe, "GATE_BLOCKED_LOG", gb)
+
+    state = {}
+    first = probe._scan_gate_blocked(state)
+    assert len(first) == 1
+    assert "F-034-五字段" in first[0]
+    assert probe._scan_gate_blocked(state) == []  # 幂等
+
+    queue = tmp_path / "production-queue.md"
+    queue.write_text(f"# 队列\n\n{probe.PROPOSAL_BEGIN}\n{probe.PROPOSAL_END}\n", encoding="utf-8")
+    monkeypatch.setattr(probe, "QUEUE_FILE", queue)
+    probe._update_proposal_board_gate(first)
+    text = queue.read_text(encoding="utf-8")
+    assert "[gate-blocked] task_426" in text
+    probe._update_proposal_board_gate(first)
+    assert text.count("[gate-blocked]") == 1  # 幂等
