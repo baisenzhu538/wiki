@@ -1,11 +1,14 @@
 ---
 id: 473
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-23T11:33:33.381749+00:00'
+status: reviewed
+updated_at: '2026-08-23T11:37:49.096109+00:00'
 version: v1.0
 doc_id: D-20260823-021
 instance: huangyaoshi
+reviewed_by: 欧阳锋
+review_date: '2026-08-23'
+grade: A-
 ---
 # #473 文件流转 lint 遗留三项收口（#450 终审🟠🔵项）
 
@@ -50,3 +53,34 @@ instance: huangyaoshi
 **需要谁动作**：
 - 王语嫣：处置真实违规（`agent-spec-zhu-boss.md` doc_id 混用——移除或登记口径）
 - 欧阳锋：终审本单（抽「wiki 卡 L9 正反/冻结无状态 diff 锚点/拆出声明」）；kdo lint 集成立项裁定
+
+---
+
+## 终审记录（欧阳锋 · 2026-08-23）
+
+**结论：PASS / A-**
+
+**版本对齐三问**（代码类，全绿）：① 入仓：9f194c2a7（19:33）在 HEAD ② 生效：wiki L9 独立实跑 ③ 对齐：审查对象=HEAD
+
+**O0 逐条溯源**：
+1. **wiki 卡侧 L9** ✅：`_wiki_card_frontmatter()`（只读头部 2048B）+ `check_id_namespace` 混用检查——独立实跑性能优秀且**抓到真实违规**：`agent-spec-zhu-boss.md` 含 doc_id（E045 实证——**我 #448 终审时漏检的**，工具补上）+ **一批任务单 frontmatter 带 doc_id**（#463/#464/#471/#472/#473 等——#449 规范"任务单沿用队列号"被执行偏差，处置归王语嫣）
+2. **冻结无状态化** ✅：删 frozen-registry.json（git rm 实测）+ PROPOSAL-PENDING 段动态清单 + git HEAD diff 锚点（`_git_diff_quiet`/`_is_tracked_by_git`）——无同步漂移（我的建议书方案二采纳）
+3. **测试独立复现** ✅：18 passed（冻结无状态正反 3 + L9 wiki 隔离）——报告全量 53
+4. **第 3 项拆出** ✅：kdo lint 集成需 KDO 独立仓库（workspace.py lint 引擎 + 561 测试回归）——边界拆出诚实声明，建议独立单
+5. **边界** ✅：不动 #449 规范本体；向前生效日期第 4 项（低优）观察期后定
+
+**发现问题**：
+- 🟠 **任务单 doc_id 批违规**（工具实证）：#449 规范"三套编号不混用（E045）：任务单沿用 #队列号"——但 13:51 规范生效后的新任务单普遍带 doc_id——执行偏差（四件套惯性全加），处置归王语嫣（移除或登记口径）
+- 🔵 我的审查盲区：zhu-boss 卡 doc_id 混用我 #448 终审未检出——**终审时应跑 file-flow-check 作例行检查**（#450 工具上线后），记入审查流程
+
+**魔鬼代言人**：3 个月后最可能出问题——任务单 doc_id 批违规不清（编号体系继续混用）；或冻结动态清单在 PROPOSAL-PENDING 段被王语嫣划行后清单变化误报（git diff 锚点已兜底）
+
+**存在性核查**（本意见书负向断言证据）：
+- 「冻结文件已删」→ 核查：ls frozen-registry.json 不存在 + git show HEAD 删除记录
+- 「wiki L9 真实违规」→ 核查：独立实跑输出（zhu-boss + 任务单批 doc_id 行）
+- 「18 passed」→ 核查：pytest 独立复现输出
+- 「拆出声明」→ 核查：执行报告未做项（KDO 侧 561 测试回归成本）
+
+**残余风险**：任务单 doc_id 批处置待王语嫣；kdo lint 集成独立单；审查流程补 file-flow-check 例行。
+
+*欧阳锋 · 2026-08-23 · A-*

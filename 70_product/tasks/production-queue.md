@@ -98,7 +98,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 470 | `task_20260823_laowantong-addiction-series-caliber` | #469 口径修正（P1，老朱纠偏）：按拆书会系列惯例补来源标注 | queued | laowantong | 口径修正单（随 #469 执行） | #469 误判「无拆书先例」——库里实有 90+ 拆书卡 | `60_feedback/tasks/task_20260823_laowantong-addiction-series-caliber.md` | source_person/source_context 字段（水水卡范本）；human-insights+business 双域；按内容语义分卡不按来源；欧阳锋随 #469 审 |
 | 471 | `task_20260823_huangyaoshi-l1-capture-scheduling` | L1 采集投入运行最小闭环（P1：常驻调度30min+体积红线） | reviewed | huangyaoshi | 计划任务+体积监控+verify联动 | **老朱已拍板常驻注册（2026-08-23「L1 全量采集 30 分钟一跑」）——可开工** | `60_feedback/tasks/task_20260823_huangyaoshi-l1-capture-scheduling.md` | 与探针错峰；失败可见禁静默；L3=次日回放抽查；欧阳锋终审 |
 | 472 | `task_20260823_huangyaoshi-role-routes` | KDO 角色路由层（P1，三路由合一：任务/技能/知识——进入即答三问） | reviewed | huangyaoshi | myqueue命令+role-routes.md+CAPSULE v3 | 黄药师建议书采纳（#459 取代困惑=实证） | `60_feedback/tasks/task_20260823_huangyaoshi-role-routes.md` | myqueue 只读视图不动状态机；depends_on 字段新单起强制（F-047）；技能/知识静态表不过度工程；六角色各跑 myqueue 狗粮；欧阳锋终审 |
-| 473 | `task_20260823_huangyaoshi-file-flow-lint-residuals` | 文件流转 lint 遗留三项收口（P2：wiki 卡 L9 扫描/冻结基线动态化/lint 集成） | pending_review | huangyaoshi | 三项收口+单测 | 欧阳锋 #450 终审遗留项采纳 | `60_feedback/tasks/task_20260823_huangyaoshi-file-flow-lint-residuals.md` | L9 全库一次扫描（分钟级）；冻结基线走无状态方案；lint 集成可缓；欧阳锋终审 |
+| 473 | `task_20260823_huangyaoshi-file-flow-lint-residuals` | 文件流转 lint 遗留三项收口（P2：wiki 卡 L9 扫描/冻结基线动态化/lint 集成） | reviewed | huangyaoshi | 三项收口+单测 | 欧阳锋 #450 终审遗留项采纳 | `60_feedback/tasks/task_20260823_huangyaoshi-file-flow-lint-residuals.md` | L9 全库一次扫描（分钟级）；冻结基线走无状态方案；lint 集成可缓；欧阳锋终审 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
 ## ⚖️ 待终审（提审任务，queue_transition 自动登记）
@@ -131,7 +131,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#426 task_20260822_laowantong-tags-judgment-batch｜laowantong｜提审 08-23 19:15｜60_feedback/tasks/task_20260822_laowantong-tags-judgment-batch.md~~ → 首批试点批验收通过（2026-08-23 欧阳锋，批次验收——队列行恢复 queued 继续）
 - ~~#471 task_20260823_huangyaoshi-l1-capture-scheduling｜huangyaoshi｜提审 08-23 19:26｜60_feedback/tasks/task_20260823_huangyaoshi-l1-capture-scheduling.md~~ → 已终审 PASS A-（2026-08-23 欧阳锋）
 - ~~#472 task_20260823_huangyaoshi-role-routes｜huangyaoshi｜提审 08-23 19:30｜60_feedback/tasks/task_20260823_huangyaoshi-role-routes.md~~ → 已终审 PASS A-（2026-08-23 欧阳锋）
-- #473 task_20260823_huangyaoshi-file-flow-lint-residuals｜huangyaoshi｜提审 08-23 19:33｜60_feedback/tasks/task_20260823_huangyaoshi-file-flow-lint-residuals.md
+- ~~#473 task_20260823_huangyaoshi-file-flow-lint-residuals｜huangyaoshi｜提审 08-23 19:33｜60_feedback/tasks/task_20260823_huangyaoshi-file-flow-lint-residuals.md~~ → 已终审 PASS A-（2026-08-23 欧阳锋）
 
 <!-- REVIEW-PENDING-END -->
 
