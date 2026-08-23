@@ -4,7 +4,7 @@ title: queue_transition 处置关键词误判两连发（#189/#454）——建�
 type: proposal
 author: 老顽童（Producer）
 created_at: 2026-08-23
-status: pending
+status: resolved
 audience: 王语嫣
 method: 生产实测两连发 + queue_transition.py 源码定位（L383/L395）
 ---
