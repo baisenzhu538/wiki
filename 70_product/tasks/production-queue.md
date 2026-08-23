@@ -105,6 +105,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 467 | `task_20260823_laowantong-banfeimao-c-cases` | 半肥猫C档深度案例2篇（P2：紫鲸工作台解剖/30实例失败到系统成型） | queued | laowantong | 2 篇案例（洪七公底稿） | #466 后；图11-15 VLM就绪 | `60_feedback/tasks/task_20260823_laowantong-banfeimao-c-cases.md` | 问题→解法叙事；失败原话不美化（AI删文档不承认/小龙虾灾难一等锚）；时间线+决策点+可迁移原则；欧阳锋终审 |
 | 468 | `task_20260823_wangyuyan-banfeimao-d-workbook` | 半肥猫D档训练营作业包（P3 随缘：基础+进阶+一页纸教程结构） | queued | wangyuyan | 作业包三件（编排侧设计） | A档PASS后；不占产线顺位 | `60_feedback/tasks/task_20260823_wangyuyan-banfeimao-d-workbook.md` | 课程原生思考题复用（口述L98-136原题）；一页纸教程=五步+五维速查+双原则浓缩；作业包=教学设计域（千惠清单先例）；老朱过目 |
 | 469 | `task_20260823_laowantong-addiction-book-cards` | 拆书会《成瘾》知识生产（P2，人域4卡：天平/DOPAMINE框架/自我约束/以痛治痛） | queued | laowantong | 4 张精选卡 | 诊断 D-20260823-015（298行全量读+九层） | `60_feedback/tasks/task_20260823_laowantong-addiction-book-cards.md` | 卡3=KDO门禁同构卡（物理/时间/分类 vs 台账/冻结/分层对照）核心抽验；转述二等标注原书；拆书会系列常态化待老朱；欧阳锋终审 |
+| 470 | `task_20260823_laowantong-addiction-series-caliber` | #469 口径修正（P1，老朱纠偏）：按拆书会系列惯例补来源标注 | queued | laowantong | 口径修正单（随 #469 执行） | #469 误判「无拆书先例」——库里实有 90+ 拆书卡 | `60_feedback/tasks/task_20260823_laowantong-addiction-series-caliber.md` | source_person/source_context 字段（水水卡范本）；human-insights+business 双域；按内容语义分卡不按来源；欧阳锋随 #469 审 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
 ## ⚖️ 待终审（提审任务，queue_transition 自动登记）
