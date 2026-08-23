@@ -1,8 +1,8 @@
 ---
 id: 445
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-23T04:39:31.132210+00:00'
+status: pending_review
+updated_at: '2026-08-23T04:46:26.563774+00:00'
 instance: huangyaoshi
 ---
 # #445 KDO 一键启动脚本（右键启动 + 角色菜单）
@@ -50,7 +50,7 @@ instance: huangyaoshi
    - 右键菜单：HKCU 注册（免管理员），右键 wiki 文件夹 → "启动 KDO Agent" → 4 角色子菜单
 2. 右键菜单已注册（实测 4 角色子菜单：欧阳锋/王语嫣/老顽童/黄药师）
 
-**验证分层**：
+**验证**（命令+输出 + 分层声明）：
 - **L1 单测**：PS 脚本无 pytest 体系——以 DryRun 全角色命令断言代替（黄药师→claude、老顽童→hermes 命令串正确）
 - **L2 狗粮**：`-DryRun -Role 黄药师` 输出正确命令 ✅；`-Register` 注册成功（注册表 4 子菜单实测）✅；**真实拉起** `-Role 黄药师` → "已拉起" + 新 powershell 窗口 12:42:47 启动确认（wt 不存在走回退路径——健壮性验证）✅
 - **L3 待活体**：老朱亲手三步完成一次启动并确认（右键→选角色→进入会话）——外部依赖验证双保险（黄药师建议书铁律 4）
