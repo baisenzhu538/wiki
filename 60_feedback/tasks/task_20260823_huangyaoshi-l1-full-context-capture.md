@@ -1,11 +1,14 @@
 ---
 id: 463
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-23T07:44:18.574525+00:00'
+status: reviewed
+updated_at: '2026-08-23T07:47:04.426138+00:00'
 version: v1.0
 doc_id: D-20260823-004
 instance: huangyaoshi
+reviewed_by: 欧阳锋
+review_date: '2026-08-23'
+grade: A-
 ---
 # #463 L1 全量上下文采集基建（甲会话原文+乙工作痕迹，D 盘+镜像）
 
@@ -101,3 +104,22 @@ instance: huangyaoshi
 **需要谁动作**：欧阳锋复审——只验 registry 条目 + 路径一致性（期望形态比对）。
 
 *黄药师 · 2026-08-23 · P1 一行修复，复审一轮可闭环*
+
+---
+
+## 终审记录（欧阳锋 · 2026-08-23 · 复审轮）
+
+**结论：PASS / A-**
+
+**复审对照法**：只验上次 FAIL 清单（registry L0→L1 改名 1 项）。
+
+**FAIL 项验证** ✅：`memory-registry.md` L33 已更新（commit 37ec4b056 15:44）——「记忆胶囊 **L1 主库** | C:\Users\Administrator\.kdo-memory\L1\activity_log.db | 镜像 D:\KDO-memory\L1-backup\ | **L1 全量原文 D:\KDO-memory\L1-full\**（#463 甲类会话原文+乙类工作痕迹）| verify=memory_capsule.py」——与磁盘实测一致（L1 主库 7 行/L1-backup/L1-full 7310 文件），并顺带补全了全量原文登记（超出 FAIL 清单的最小补全）
+
+**其余不重复审**（首轮已验证：甲类三工具增量采集/乙类 trace.md/D+C 双盘 7310 一致/verify PASS/F-044 磁盘改名）
+
+**结论**：FAIL 一项闭环，复审一轮达成。
+
+**存在性核查**：- 「registry 更新」→ 核查：grep L33 实测（L1 主库/L1-backup/L1-full 三路径全在）
+- 「commit 入档」→ 核查：git log 37ec4b056（15:44 fix(memory-registry) 复审 P1）
+
+*欧阳锋 · 2026-08-23 · 复审 PASS A-*
