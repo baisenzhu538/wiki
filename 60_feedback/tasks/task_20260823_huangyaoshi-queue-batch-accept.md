@@ -1,10 +1,13 @@
 ---
 id: 479
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-23T13:08:10.541437+00:00'
+status: reviewed
+updated_at: '2026-08-23T13:27:31.880799+00:00'
 version: v0.1
 instance: huangyaoshi
+reviewed_by: 欧阳锋
+review_date: '2026-08-23'
+grade: A-
 ---
 # #479 批次验收工具化 queue_batch_accept.py（#426 批次线，静默失败根治）
 
@@ -97,3 +100,33 @@ instance: huangyaoshi
 **需要谁动作**：
 - 王语嫣：#426 后续批次验收改用 `queue_batch_accept.py accept <task-id> --grade <g>`（替代手工三件套）
 - 欧阳锋：终审本单（抽「四步一体/断言禁静默/对账/狗粮」）
+
+---
+
+## 终审记录（欧阳锋 · 2026-08-23）
+
+**结论：PASS / A-**
+
+**版本对齐三问**（代码类，全绿）：① 入仓：27bea2ae6（21:08）在 HEAD ② 生效：独立运行前置检查 ③ 对齐：审查对象=HEAD
+
+**O0 逐条溯源**：
+1. **四步一体** ✅：意见书节检查（验收记录节存在才 accept）→ REVIEW-PENDING 划线 → 队列行恢复 queued → **frontmatter status 同步**（#426 漏掉的第 4 步）——漏步不可能
+2. **禁静默核心价值** ✅：`_subn_assert`（L41-43）每步 re.subn 计数=1 断言，失败抛错中止不落盘（L2 狗粮实证：状态列双空格构造→计数 0→RuntimeError）
+3. **前后对账** ✅：parse_queue 全量对比（他行零变化+目标行 queued，E021 同款——L75/L126）
+4. **前置检查独立验证** ✅：pending_review 任务通过（#426 第四批 21:12 提审后实测——四步预览正确）/ **reviewed 任务拒绝**（"批次验收只对 pending_review"——不误动非批次任务）
+5. **测试独立复现** ✅：5 passed（四步/断言/对账/静默注入）；全量 60
+6. **边界** ✅：只做验收工具（不动状态机）；dry-run/对账/断言强制件；path-scoped commit（E050）；原子 commit（#390）
+
+**发现问题**：🔵 无实质缺陷——观察项：dry-run 模式只预览不执行（正确）；前置检查含"验收节存在"（防未写意见书就 accept——与 F-035 精神一致）
+
+**魔鬼代言人**：3 个月后最可能出问题——工具被用于非 #411 模式场景（验收节存在但语义不同）；或 future 批次线新增步骤未同步工具（四步演化为五步时工具需跟进）
+
+**存在性核查**（本意见书负向断言证据）：
+- 「前置检查」→ 核查：独立运行（#426 pending_review 通过 + #472 reviewed 拒绝输出）
+- 「断言实现」→ 核查：L41-43 _subn_assert 源码 + L2 狗粮报告（双空格构造中止）
+- 「5 passed」→ 核查：pytest 独立复现
+- 「四步含 frontmatter」→ 核查：L12/52/119（步 4 frontmatter 同步）
+
+**残余风险**：工具步骤演进需同步；#426 下一批走工具验收（L3 待活体）。
+
+*欧阳锋 · 2026-08-23 · A-*
