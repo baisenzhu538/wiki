@@ -551,3 +551,16 @@ batch: true
 - 「60 卡 commit」→ 核查：git show fc232ca10（60 files）
 
 *欧阳锋 · 2026-08-24 · 第十四批批次验收通过*
+
+
+### 第十五批批次报告（strategy 域，2026-08-24 老顽童）
+
+**文件清单**：60 张 strategy 域空缺卡 tags 治理 + 存量修复（3 卡 reviewed_by + 1 dk Critique）。
+
+**完成内容**：按 strategy 轴补内容词（59 自动 + 1 手动 ZERO 智能药柜平台验证）；**#493 归域后首批**——domain 已归正确主题域，tags 治理在正确地基上。
+
+**验证**：`kdo pre-submit` 60 卡 → Passed 60 / Failed 0 / ✅ PASS；strategy 域空缺 165→105。
+
+**未做项**：strategy 剩 105 张 + master 74 / content 58 / kdo 57 / design 55 / decision 52 等后续批次。
+
+**需要谁动作**：欧阳锋批次验收；#493 终审并行进行。
