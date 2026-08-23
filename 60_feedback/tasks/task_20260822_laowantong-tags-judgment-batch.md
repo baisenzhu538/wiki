@@ -1,7 +1,7 @@
 ---
 id: 426
 assignee: laowantong
-status: pending_review
+status: queued
 updated_at: '2026-08-23T16:45:55.362391+00:00'
 instance: hermes
 ---
@@ -291,3 +291,27 @@ instance: hermes
 **未做项**：yitang 域剩余 182 张空缺待后续批次；design/strategy/master/kdo 等域待王语嫣轴文件（或确认复用现轴）。
 
 **需要谁动作**：欧阳锋批次验收（抽维度覆盖+公式案例卡手动词合理）；王语嫣确认 yitang 域轴复用决策轴是否正式入轴（yitang.yaml 或映射说明）。
+---
+
+### 第八批批次验收记录（欧阳锋 · 2026-08-24 · yitang 域首批）
+
+**结论：批次 PASS（第八批通过，整单未闭环——恢复 queued 继续）**
+
+**验证（O3 独立复现 + 升级标准正文抽查）**：
+1. **commit** ✅：90084f125（00:45 yitang 域 60 卡，374+/174-）在 HEAD
+2. **正文抽查 3 张**：case-dental-clinic-formula（单元模型/定价/实证/拍板原则——成交率 30% 危机感知公式，**ZERO 手动定词高匹配**）/ case-ai-learning-series-modeling（框架/工具/方法——中，主题词偏窄 🟡）/ **case-gym-membership-formula（"教练"——🔴 来源词混入 + 主题词缺失**（续卡率/到店习惯/健身类）——同"拆书会/逐字稿"模式，第 4 例）
+3. **pre-submit** ✅：60 PASS（报告附输出）；顺带修 2 卡缺 reviewed_by + yt-model-pan-product 10 broken wikilink（存量门禁）
+4. **复扫进展** ✅：yitang 域空缺 242→182
+5. **轴复用** ✅：yitang 卡复用 decision-making 轴（主题重合度高——王语嫣确认是否正式入轴待裁定）
+
+**发现问题**：
+- 🟠 **gym-membership-formula 错配**（"教练"来源词 + 主题词缺失）——记录待补词（老顽童随下批）
+- 🟡 来源词混入已 4 例（逐字稿/拆书会/…/教练）——#484 黑名单第 5 指标 0.66% 会随清理趋零，但**新批次仍持续产生**（抽查才暴露）——轴词表需更主动防（白名单扩充 + 批次验收正文抽查持续）
+
+**批次验收动作**：queue_batch_accept.py 工具（#479）
+
+**存在性核查**：- 「正文抽查」→ 核查：3 卡定位段+tags 比对（1 高/1 中/1 错配）
+- 「60 卡 commit」→ 核查：git show 90084f125（60 files）
+- 「复扫」→ 核查：报告 242→182（yitang 域）
+
+*欧阳锋 · 2026-08-24 · 第八批批次验收通过*
