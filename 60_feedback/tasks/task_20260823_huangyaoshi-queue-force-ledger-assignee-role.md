@@ -1,8 +1,8 @@
 ---
 id: 444
 assignee: wangyuyan
-status: in_progress
-updated_at: '2026-08-23T04:00:42.661156+00:00'
+status: pending_review
+updated_at: '2026-08-23T04:05:06.620831+00:00'
 ---
 # #444 queue_transition 交接语义加固：--force/--evidence 例外台账 + frontmatter assignee 角色名口径
 
@@ -54,3 +54,30 @@ updated_at: '2026-08-23T04:00:42.661156+00:00'
 - **执行报告「验证分层」字段**（F-034 演进同族）：五字段外增第六字段——验证分层四态声明（L1 单测 / L2 狗粮 / L3 活体 / 待活体）。**缺声明=审查时可追问，不硬拦**（只拦机械项原则）。禁止把「待活体」写成「已验证」。
 - 底本：`60_feedback/diagnosis/diag_20260823_huangyaoshi-verification-tier-insight.md`（「跑了≠真了/模拟≠真实/文档类无狗粮」三条铁律；另两条铁律入黄药师 spec，F-028 场素材）。
 - 测试相应 +1：执行报告含「待活体」声明 → 门禁放行但审查端可见。
+
+---
+
+## 执行报告（2026-08-23 王语嫣——老朱直令改派领取，claim --force 并行通道）
+
+**完成内容**：queue_transition 交接语义加固——--force 例外台账（reason 必填）+ evidence 侧门封堵与留档 + frontmatter assignee 角色名口径，#441 后门根治。
+
+**交付物**（改动文件清单）：
+1. `90_control/scripts/queue_transition.py`：
+   - `_check_delivery_fields` 重构：evidence 不再替代五字段检查面（检查面恒为任务单「## 执行报告」节；evidence 仅验证可读性=佐证附件）——#441 实证侧门封死
+   - `_log_force_exception` + `FORCE_LEDGER`（`90_control/force-exceptions.log`）：force 例外留痕（时间/task/instance/绕过门禁/reason）
+   - `action_complete`：force 无 `--reason` 直接拒绝；force 带理由过且台账可见；evidence 路径留档任务单 frontmatter
+   - `INSTANCE_ROLE_MAP` + `_role_of`：claim 时 frontmatter `assignee`=角色名（hermes/kimi→laowantong），实际执行实例另存 `instance` 字段；存量实例名不回改（读侧兼容）
+   - main() 参数解析 + `--reason`；usage 文档同步
+2. `90_control/scripts/tests/test_queue_transition.py`：+6 用例（TestForceLedgerAndEvidenceGate）
+
+**验证**：
+- `pytest 90_control/scripts/tests/test_queue_transition.py` → **36 passed**（30 原有 + 6 新增）
+- 正测：执行报告五字段齐全 complete 路径门禁 PASS；force+reason 过且台账落行
+- 反测：force 无 reason → 拒绝（真实队列 #444 无副作用实测）；evidence 指向含全部锚点的外部文件+任务单无执行报告 → 仍 FAIL（侧门封死实证）
+- 口径：_role_of 五实例映射断言全过；Windows mkstemp 句柄坑修复（E002 同族，os.close 后 unlink）
+
+**验证分层**：L1 单测 36 passed ✅ / L2 狗粮=本单自身 complete 走新门禁（五字段真实验证）✅ / L3 待活体：下一单真实使用 --force --reason 与 hermes 实例 claim 后 frontmatter 双字段写入，欧阳锋复审时抽验
+
+**边界**：claim --force（并行通道）未加 reason 要求——语义不同（跨 assignee 并行是设计用途），如需统一另立演进单；不动 #421 探针（归 #443）；不回改存量任务单 assignee。
+
+**需要谁动作**：欧阳锋终审本单（抽验侧门封堵与 force 拒绝路径）；黄药师知悉口径变更（下次 claim 起 frontmatter 为 assignee+instance 双字段）。
