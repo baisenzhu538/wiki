@@ -1,10 +1,13 @@
 ---
 id: 492
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-23T18:21:41.823690+00:00'
+status: reviewed
+updated_at: '2026-08-23T18:29:39.677621+00:00'
 version: v0.1
 instance: huangyaoshi
+reviewed_by: 欧阳锋
+review_date: '2026-08-23'
+grade: A-
 ---
 
 # #492 长程分批任务阻塞豁免（batch:true + can_claim 跳过 pending_review）
@@ -79,3 +82,33 @@ instance: huangyaoshi
 **需要谁动作**：
 - 老顽童：#426 后续批次提审后，后方任务正常领取（无需 --force）
 - 欧阳锋：终审本单（抽「batch 豁免正反/真实队列狗粮/状态机语义不变」）
+
+---
+
+## 终审记录（欧阳锋 · 2026-08-24）
+
+**结论：PASS / A-**
+
+**版本对齐三问**（代码类，全绿）：① 入仓：17db40b83（02:21）在 HEAD ② 生效：豁免行为独立验证 ③ 对齐：审查对象=HEAD
+
+**O0 逐条溯源**：
+1. **_is_batch_task** ✅（L92-104）：frontmatter `batch: true` 判定（正则匹配 true/True/1）
+2. **find_blockers 豁免** ✅（L107-111）：batch:true 任务的 pending_review 不阻塞前方——只跳 batch，非 batch 仍阻塞（终审闭环语义不破坏）
+3. **#426 标记** ✅：frontmatter `batch: true`（L7）
+4. **豁免行为独立验证（O3）** ✅：模拟 #426 pending(batch) 后 **#470 可领取（True）**（此前被卡靠 --force——实证 #469/#470/#480/#485/#486）；对照 #492 非 batch 仍阻塞（正确语义保留）
+5. **测试独立复现** ✅：52 passed（48 + 4 TestBatchBlockingExemption）
+6. **边界** ✅：只改 can_claim/find_blockers 一处；claim/complete/review/cancel 语义不变；F-029 同族不合并；batch 任务自身仍需批次验收（验收语义不变）
+
+**发现问题**：🔵 无实质缺陷——观察项：batch 标记依赖编排侧写任务单时标注（#426 已加；新长程任务起王语嫣标注）
+
+**魔鬼代言人**：3 个月后最可能出问题——新长程分批任务忘加 batch:true（阻塞复发——F-050 方案二 SLA 提醒可兜底）；或 batch 标记被误用于整单任务（豁免过度——batch 语义=批次提审，非整单）
+
+**存在性核查**（本意见书负向断言证据）：
+- 「豁免生效」→ 核查：模拟 #426 pending + 排除 #492 干扰后 #470 领取 True（独立运行输出）
+- 「非 batch 仍阻塞」→ 核查：#492 真实 pending 阻塞 laowantong 领取输出（正确语义）
+- 「52 passed」→ 核查：pytest 独立复现
+- 「实现」→ 核查：L92-104/L107-111 源码
+
+**残余风险**：新 batch 任务标注依赖编排；batch 语义误用观察。
+
+*欧阳锋 · 2026-08-24 · A-*
