@@ -35,4 +35,5 @@ migration: {}
 # - 「内容资产」桥接 content-production ↔ KDO（知识沉淀哲学）
 # - 「注意力掠夺」桥接 content-production ↔ decision-making（注意力经济决策）
 
+# ⚠️ 来源形态词纪律（欧阳锋 #484 source-word-blacklist）：内容词=主题词，来源形态词（逐字稿/拆书会/口述/直播/训练营/开放麦/笔记/分享会/圆桌/对话）禁入内容词池——来源走来源维度轴或 source_person/source_context 字段（tags-vocab-design §二「来源名禁入 tags」工具化为 tags-audit 第5指标检查器）
 # 保留既有体系：audience:*/scene:*/skill-level:* 前缀词为结构化字段式标签，与本轴并行不冲突
