@@ -65,16 +65,38 @@ def _msg_key(role: str, text: str) -> str:
     return f"{role}:{text.split('：')[1] if '：' in text else text}"
 
 
+# #443：可领取通知按 assignee 路由——实例名/角色名映射表（E020 双口径），新增实例在此登记防再撞
+ASSIGNEE_ROLE = {
+    "huangyaoshi": "huangyaoshi",
+    "laowantong": "laowantong",
+    "hermes": "laowantong",      # 老顽童 Hermes CLI 实例
+    "kimi": "laowantong",        # 老顽童 Kimi CLI 实例
+    "wangyuyan": "wangyuyan",
+    "ouyangfeng": "ouyangfeng",
+    "fengqingyang": "laowantong",  # 观察者无独立通知通道，回落 laowantong 群
+    "": "laowantong",            # 未知/缺省 assignee → 回落 laowantong（保守默认，不静默丢）
+}
+
+
+def _route_queued(rows: list) -> dict[str, list]:
+    """把 new_queued 任务按 assignee 路由分桶：{role: [(task_id, seq)]}。"""
+    buckets: dict[str, list] = {}
+    for task_id, seq, assignee in rows:
+        role = ASSIGNEE_ROLE.get(str(assignee).strip(), "laowantong")  # 未知实例名同样回落
+        buckets.setdefault(role, []).append((task_id, seq))
+    return buckets
+
+
 def _queue_signal(state: dict) -> dict:
     """返回 [(task_id, seq)] 对（seq=队列序号，P2 修复：通知显示 #序号 非 slug 尾）。"""
     rows = parse_queue(QUEUE_FILE)
     review = [(r["task_id"], r["seq"]) for r in rows if r["status"] == "pending_review"]
-    queued = [(r["task_id"], r["seq"]) for r in rows if r["status"] == "queued"]
+    queued = [(r["task_id"], r["seq"], r.get("assignee", "")) for r in rows if r["status"] == "queued"]
     last_review = state.get("last_review_pending", [])
     last_queued = state.get("last_queued", [])
     new_review = [(t, s) for t, s in review if t not in last_review]
-    new_queued = [(t, s) for t, s in queued if t not in last_queued]
-    state["last_review_pending"], state["last_queued"] = [t for t, _ in review], [t for t, _ in queued]
+    new_queued = [(t, s, a) for t, s, a in queued if t not in last_queued]
+    state["last_review_pending"], state["last_queued"] = [t for t, _ in review], [t for t, _, _ in queued]
     return {"new_review": new_review, "new_queued": new_queued}
 
 
@@ -243,8 +265,10 @@ def main() -> int:
         ids = ", ".join(f"#{seq}" if seq else tid for tid, seq in queue_sig["new_review"])
         messages["ouyangfeng"] = f"🔔 KDO 新提审 {len(queue_sig['new_review'])} 单：{ids}，请终审"
     if queue_sig["new_queued"]:
-        ids = ", ".join(f"#{seq}" if seq else tid for tid, seq in queue_sig["new_queued"])
-        messages["laowantong"] = f"📥 KDO 可领取 {len(queue_sig['new_queued'])} 单：{ids}"
+        # #443：按 assignee 路由分桶（修硬编码 laowantong——#442 实证通知错人）
+        for role, items in _route_queued(queue_sig["new_queued"]).items():
+            ids = ", ".join(f"#{seq}" if seq else tid for tid, seq in items)
+            messages[role] = f"📥 KDO 可领取 {len(items)} 单：{ids}"
     if registered:
         messages["wangyuyan"] = f"📬 KDO 新建议书 {len(registered)} 份待裁定：{', '.join(registered)}"
 

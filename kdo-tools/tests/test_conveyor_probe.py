@@ -116,3 +116,33 @@ def test_msg_key_stable():
     k2 = probe._msg_key("ouyangfeng", "🔔 KDO 新提审 3 单：#421，请终审")
     assert k1 == k2
     assert k1.startswith("ouyangfeng:")
+
+
+# ── #443 可领取通知按 assignee 路由回归 ──
+
+def test_route_huangyaoshi_task():
+    rows = [("task_443_x", "443", "huangyaoshi"), ("task_426_y", "426", "laowantong")]
+    buckets = probe._route_queued(rows)
+    assert "huangyaoshi" in buckets and [t for t, _ in buckets["huangyaoshi"]] == ["task_443_x"]
+    assert "laowantong" in buckets and [t for t, _ in buckets["laowantong"]] == ["task_426_y"]
+
+
+def test_route_instance_aliases():
+    """hermes/kimi 实例 → laowantong 通道（E020 实例口径）。"""
+    rows = [("task_a", "1", "hermes"), ("task_b", "2", "kimi")]
+    buckets = probe._route_queued(rows)
+    assert buckets["laowantong"] == [("task_a", "1"), ("task_b", "2")]
+
+
+def test_route_unknown_falls_back():
+    """未知/缺省 assignee → 回落 laowantong，不静默丢。"""
+    rows = [("task_x", "9", ""), ("task_y", "10", "some-new-instance")]
+    buckets = probe._route_queued(rows)
+    assert len(buckets.get("laowantong", [])) == 2
+
+
+def test_route_split_buckets():
+    """同批多 assignee → 拆分投递（一角色一桶）。"""
+    rows = [("task_1", "1", "huangyaoshi"), ("task_2", "2", "wangyuyan"), ("task_3", "3", "laowantong")]
+    buckets = probe._route_queued(rows)
+    assert set(buckets.keys()) == {"huangyaoshi", "wangyuyan", "laowantong"}

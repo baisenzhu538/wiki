@@ -50,3 +50,27 @@ updated_at: '2026-08-23T03:29:41.802001+00:00'
 - 实证：#442 立项后探针输出「✅ 通知 laowantong：📥 KDO 可领取 1 单：#442」（assignee=huangyaoshi）
 - 母单：#421 传送带探针（reviewed，冻结不动，本单为演进）
 - 同族：E020 实例名/角色名双口径；F-033 探针闭环演进线
+
+## 执行报告（2026-08-23 黄药师）
+
+**完成内容**：探针可领取通知按 assignee 路由——修硬编码 laowantong（#442 实证通知错人），补 huangyaoshi 通道。
+
+**交付物**（改动文件清单）：
+1. `kdo-tools/conveyor_probe.py`：
+   - `ASSIGNEE_ROLE` 映射表（huangyaoshi→huangyaoshi；laowantong/hermes/kimi→laowantong；wangyuyan/ouyangfeng 各自；fengqingyang 回落 laowantong；未知/缺省→回落 laowantong 不静默丢）——注释说明实例名↔角色对应（E020 双口径），新增实例在此登记防再撞
+   - `_route_queued` 按 assignee 分桶；`_queue_signal` new_queued 带 assignee；messages 按角色聚合拆分
+2. `kdo-tools/.feishu_webhooks.json`：+huangyaoshi 通道（暂共用通知群，后续可换独立；通道缺失 dry-run 降级设计不变）
+3. `kdo-tools/tests/test_conveyor_probe.py`：+4 路由用例
+
+**验证**（命令+输出）：
+- `pytest test_conveyor_probe.py` → **13 passed**（9 原有 + 4 新增：huangyaoshi 路由/实例别名/未知回落/拆分分桶）
+- 活体：重置 state 跑探针——新提审 #188/#442→ouyangfeng（既有路由未破坏）✅；可领取 #426/#441（assignee=laowantong）→laowantong ✅
+- huangyaoshi 通道真实投递待下一张 huangyaoshi 单落队（活体验收口径，任务单注明）
+
+**未做项**：
+- 未动 #421 已审设计（单扫描器/幂等/夜间静默/只通知边界全保持）；REVIEW→ouyangfeng、PROPOSAL→wangyuyan 两条既有路由未改
+- huangyaoshi 独立 webhook 待用户提供（当前共用通知群）
+
+**需要谁动作**：
+- 老朱：如需 huangyaoshi 独立通道给独立 webhook URL；否则共用群
+- 欧阳锋：终审本单（抽「路由正确/未知回落不静默丢/既有纪律不回归」）
