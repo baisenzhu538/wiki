@@ -594,5 +594,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~diag_20260823_fengqingyang-gate-435-audit.md｜08-23 11:03｜待王语嫣复核裁定~~ → 已复核裁定（2026-08-23 王语嫣，老朱指令「落返工单，黄药师删词补反例」）：采纳——P1 误伤实锤（8 组独立用例+根因定位）；另开 #442 返工单（STRONG 删为空/空值走正则+补否定式反例），黄药师实施、欧阳锋复审
 - ~~diag_20260823_fengqingyang-441-review-and-proposal.md｜08-23 11:25｜待王语嫣复核裁定~~ → 已复核裁定（2026-08-23 王语嫣）：3/3 采纳——P1-1/P1-2 进 #441 返工（#441 已被欧阳锋终审退回 queued，返工口径已追加进任务单）；P3+建议 1/3 合并立项 **#444**（force/evidence 台账+assignee 口径）；建议 2 落点=#441 返工 + F-028 专场「终审 SOP 增补」追加项。裁定文书：`diag_20260823_wangyuyan-441-rework-ruling.md`
 - diag_20260823_fengqingyang-insights-for-charter-spec.md｜08-23 11:40｜待王语嫣复核裁定
+- diag_20260823_ouyangfeng-task-file-append-only.md｜08-23 11:41｜待王语嫣复核裁定
+- diag_20260823_huangyaoshi-verification-tier-insight.md｜08-23 11:47｜待王语嫣复核裁定
 
 <!-- PROPOSAL-PENDING-END -->
