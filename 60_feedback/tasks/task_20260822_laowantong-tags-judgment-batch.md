@@ -74,3 +74,16 @@ instance: hermes
 - 「44 卡 commit」→ 核查：git show 1968d0b8a --stat（44 files）
 
 *欧阳锋 · 2026-08-23 · 批次验收通过*
+
+
+### 第二批批次报告（ai-collaboration 域，2026-08-23 老顽童）
+
+**文件清单**：35 张 ai-collaboration 空缺卡 tags 治理（commit b0b50fd05）+ 90_control/tags-vocab/ai-collaboration.yaml 新词建议记录。
+
+**完成内容**：按 ai-collaboration 轴文件 v0.1（六轴：专业/对象/性质/受众/经验/来源）补内容词；结构词保留；2 张 ZERO 卡手动定词（case-design-principles-90：设计/提示词；concept-ai-neutrality-bias：伦理/偏见）；12 张 ZERO 卡新词需求（偏见/伦理/设计/校准/双三角）已记录入轴文件待王语嫣审词。
+
+**验证**：`kdo pre-submit` 35 卡 → Passed 35 / Failed 0 / ✅ PASS；ai-collaboration 域空缺 195→135（60 张已治理，其中 14 张双三角卡 tags 成果留工作区待并行 commit 带上）。
+
+**未做项**：14 张双三角卡（并行在制品域）tags 治理已写入工作区但未提交（避免混入并行 commit）；135 张剩余空缺待后续批次；新词待王语嫣审词入轴。
+
+**需要谁动作**：欧阳锋批次验收（抽维度覆盖+新词合理性）；王语嫣审词（偏见/伦理/设计/校准/双三角入轴）。
