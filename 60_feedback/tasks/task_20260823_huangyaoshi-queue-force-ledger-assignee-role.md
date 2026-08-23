@@ -1,8 +1,8 @@
 ---
 id: 444
-assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-23T03:29:29+00:00'
+assignee: wangyuyan
+status: in_progress
+updated_at: '2026-08-23T04:00:42.661156+00:00'
 ---
 # #444 queue_transition 交接语义加固：--force/--evidence 例外台账 + frontmatter assignee 角色名口径
 
