@@ -1,8 +1,8 @@
 ---
 id: 457
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-23T05:53:47.869604+00:00'
+status: pending_review
+updated_at: '2026-08-23T05:55:44.942306+00:00'
 version: v0.1
 instance: huangyaoshi
 ---
@@ -33,9 +33,6 @@ instance: huangyaoshi
 
 - 不动 #375 门禁意图（素材删除禁令不变）；与 #444（frontmatter 口径）风格一致；PROTOCOL §7 不改
 
-## 执行报告（F-034 五字段+验证分层声明，complete 前必填）
-
-（生产者填写）
 ## 执行报告（2026-08-23 黄药师）
 
 **完成内容**：处置类门禁判定结构化——显式标记 `disposal: true` 优先（硬门禁）+ 关键词限定范围降级为提示（#189/#454 误判根治，PROTOCOL §7 防线不弱化）。
