@@ -37,6 +37,10 @@ related:
 - framework-how-to-know-a-person
 - framework-coaching-leadership-core
 - framework-big-five-personality
+  - concept-pleasure-pain-balance
+  - framework-dopamine-recovery
+  - tool-self-binding-three-strategies
+  - concept-pain-treats-pain
 - ai-basic-domain-digest
 ---
 
