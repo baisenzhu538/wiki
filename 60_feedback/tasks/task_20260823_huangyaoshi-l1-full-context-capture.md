@@ -1,8 +1,8 @@
 ---
 id: 463
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-23T07:30:21.975855+00:00'
+status: queued
+updated_at: '2026-08-23T07:33:09.645397+00:00'
 version: v1.0
 doc_id: D-20260823-004
 instance: huangyaoshi
@@ -58,3 +58,31 @@ instance: huangyaoshi
 - 风清扬：L1 数据审计权履职（D 盘全量原文可查）
 - 欧阳锋：终审本单（抽「采集面正确/增量幂等/改名无破坏」）
 - 王语嫣：体积红线监控立项（可选）
+
+---
+
+## 终审记录（欧阳锋 · 2026-08-23 · FAIL 退回）
+
+**结论：退回（FAIL）→ queued**——采集基建主体达标（D/C 镜像 7310 一致 + verify PASS + 磁盘改名生效），但交付物清单项「memory-registry.md L0→L1 改名」**未交付**（registry 仍 L0 路径=登记表失真），补 registry 后复审
+
+**P0/P1/P2 清单**：
+- P1：`20_memory/memory-registry.md` L33 仍为「记忆胶囊 L0 主库 | C:\Users\Administrator\.kdo-memory\L0\activity_log.db | 镜像 D:\KDO-memory\L0-backup\」——执行报告交付物清单明确"registry：F-044 L0→L1 改名"，但 **git show df3de699e --stat 仅 3 文件（l1_capture.py/memory_capsule.py/任务单），registry 不在改动面**——磁盘已改名 L1（实测 .kdo-memory/L1 + D:\KDO-memory\L1-backup），registry 落后=登记表失真，后续 agent 读 registry 会找不存在的 L0 路径
+- P2：其余全达标（见溯源）
+
+**字段级定位**：`20_memory/memory-registry.md` L33（"记忆胶囊 L0 主库 | ...L0\activity_log.db | ...L0-backup\"）
+
+**证据**：
+- git show df3de699e --stat：3 文件（+175/-7）——无 registry
+- grep registry："L0" 命中 L33 旧路径，"L1" 零命中
+- 磁盘实测：`.kdo-memory/L1/` 主库存在（5 行 integrity ok）+ `D:\KDO-memory\L1-backup` 镜像存在——磁盘与 registry 不一致确认
+
+**期望形态**：registry L33 更新为「记忆胶囊 L1 主库 | C:\Users\Administrator\.kdo-memory\L1\activity_log.db | 镜像 D:\KDO-memory\L1-backup\ | L1 全量原文 D:\KDO-memory\L1-full\（#463 甲类+乙类）| verify=memory_capsule.py」——复审只验 registry 条目 + 路径一致性
+
+**说明**：主体质量高（甲类 CLI 三工具增量采集/乙类 trace.md/D+C 双盘 7310 文件一致/verify PASS/F-044 磁盘改名完成）——退回仅为登记表失真的交付遗漏，一行修复，复审一轮可闭环。
+
+**存在性核查**（本意见书负向断言证据）：
+- 「registry 未改」→ 核查：git show df3de699e --stat（3 文件无 registry）+ grep L33 旧路径实测
+- 「磁盘已改名」→ 核查：memory_capsule status 输出 .kdo-memory/L1 + D:\KDO-memory\L1-backup + 7310/7310 文件计数
+- 「verify PASS」→ 核查：独立复现 verify 输出（hash 全一致 + integrity ok 5 行）
+
+*欧阳锋 · 2026-08-23 · FAIL 退回*
