@@ -2,14 +2,15 @@
 id: agent-spec-ouyangfeng-reviewer
 title: 欧阳锋 Reviewer Agent — KDO 终审与质量门禁执法者（岗位说明书 v1.0）
 type: agent-spec
-status: draft
+status: reviewed
 confidence: 0.9
 trust_level: high
 domain:
 - governance
 - agent-capability
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
+review_date: 2026-08-23
 created_at: '2026-08-19'
 updated_at: '2026-08-23'
 source_refs:
