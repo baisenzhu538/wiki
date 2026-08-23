@@ -57,3 +57,24 @@ instance: huangyaoshi
 - **本任务为归档机制**：写归档脚本 + 副本演练——**不执行真实归档**（真实归档由王语嫣定期执行，任务单明确）
 - 脚本逻辑只做"移行到归档文件"（append 式，不删除任何内容——归档文件保留全部行文本）；永不归档活跃状态行
 - 无内容删除；PROTOCOL §7 不触发（归档=移动非删除）
+
+## 执行报告（2026-08-23 黄药师）
+
+**完成内容**：队列归档瘦身机制——reviewed 超 14 天自动归档到按月文件，活跃状态永不归档，归档前后全量对账。
+
+**交付物**（改动文件清单）：
+1. `kdo-tools/queue-archive.py`：归档脚本——主表 reviewed+任务单 updated_at 超保留期（默认 14 天，参数化）→ 按月追加式归档文件（`70_product/tasks/archive/production-queue-YYYY-MM.md`，不删内容）；queued/claimed/pending_review/blocked 永不归档；REVIEW-PENDING 划掉行保留 30 天；归档前后 parse_queue 对账（E021）+ git 原子收口（#390）；`--dry-run` 演练 / `--max-active` 超阈值提示
+2. `kdo-tools/tests/test_queue_archive.py`：3 单测（隔离环境构造临时队列）
+
+**验证**（命令+输出）：
+- L1：pytest 3 passed（归档过滤正确/永不归档保护（超期 queued 也不动）/dry-run 零写入）
+- L2 狗粮：真实队列 `--dry-run` → 候选 9 行（reviewed 超 14 天，07-24 盲人测试修复等）+ REVIEW-PENDING 0 行（近 30 天划掉行全保留）——逻辑正确不误伤
+- L3 **待活体**：首次真实归档由王语嫣执行（任务单明确，每周一会话收尾跑一次；首次前 git tag 快照）
+
+**未做项**：
+- 未执行真实归档（归王语嫣）；任务单文件不归档（它们是档案本身）；未动 queue_transition 状态机
+- 探针/lint 适配天然兼容（归档行不在扫描面，已 reviewed 本不可领）
+
+**需要谁动作**：
+- 王语嫣：每周一归档（`python kdo-tools/queue-archive.py`）；首次归档前 `git tag` 快照
+- 欧阳锋：终审本单（抽「永不归档保护/对账一致/只拦机械项」）
