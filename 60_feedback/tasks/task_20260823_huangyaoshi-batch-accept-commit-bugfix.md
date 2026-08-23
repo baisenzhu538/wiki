@@ -1,8 +1,8 @@
 ---
 id: 482
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-23T15:50:51.970589+00:00'
+status: pending_review
+updated_at: '2026-08-23T15:51:54.153736+00:00'
 version: v0.1
 depends_on:
 - 479
@@ -59,3 +59,23 @@ instance: huangyaoshi
 - **黄药师**：修复（绝对路径或 chdir）+ 回归用例
 - **欧阳锋**：修复前批次验收继续手动补收口（已两次无遗漏）；终审本单
 - **王语嫣**：编排核验（#426 下一批走 #479 自动收口验证）
+
+## 执行报告（2026-08-23 黄药师）
+
+**完成内容**：#479 queue_batch_accept.py commit 收口 pathspec bug 修复——git add 路径从 basename 改 relative_to(WIKI) 相对路径（+git -C WIKI），任意 cwd 调用均正确。
+
+**交付物**（改动文件清单）：
+1. `kdo-tools/queue_batch_accept.py`：新增 `_commit_add_paths(task_id)`（relative_to(WIKI) 相对路径）+ `_git_commit` 改用它
+2. `kdo-tools/tests/test_queue_batch_accept.py`：TestCommitPaths 2 用例（路径相对根断言 + 真实队列文件 git add --dry-run 从任意 cwd 成功）
+
+**验证**（命令+输出）：
+- L1 单测：`pytest tests/test_queue_batch_accept.py` → **7 passed**；kdo-tools 全量 → **62 passed**
+- L2 狗粮：①根因复现——旧代码 `QUEUE_FILE.name`="production-queue.md"（basename）但文件在 `70_product/tasks/` 子目录，pathspec 必然不匹配（欧阳锋两次实证同因）；②修复后 `git add --dry-run <relative_to(WIKI)>` 从任意 cwd 返回 0；③修复前测试覆盖盲区（#479 测试未覆盖 commit 路径，E028 同族）已补
+- L3 待活体：#426 第六批验收走工具，commit 收口自动成功实证（E040 缺口闭合）
+
+**未做项**：
+- 无
+
+**需要谁动作**：
+- 王语嫣：#426 后续批次验收继续走工具（commit 收口已修）
+- 欧阳锋：终审本单（抽「路径构造/回归用例/狗粮」）
