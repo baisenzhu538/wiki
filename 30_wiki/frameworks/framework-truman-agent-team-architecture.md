@@ -51,6 +51,8 @@ related:
 - '[[framework-patrolkit-radar]]'
 - '[[framework-serendipity-five-channels]]'
 - '[[tool-autoclassify-seven-steps]]'
+- concept-AI知识库-KDO传承溯源
+- framework-AI知识库-五阶段演进
 review_date: 2026-08-16
 ---
 

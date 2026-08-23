@@ -31,7 +31,9 @@ aliases:
 - 析深挖
 - 深挖框架
 source_refs: null
-related: null
+related:
+  - framework-AI知识库-五阶段演进
+  - framework-AI知识库-加卡片加标签双原则
 discoverable_by:
 - 九层深挖法
 - 自我纠错迭代分析
