@@ -1,8 +1,8 @@
 ---
 id: 479
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-23T13:03:47.294423+00:00'
+status: pending_review
+updated_at: '2026-08-23T13:08:10.541437+00:00'
 version: v0.1
 instance: huangyaoshi
 ---
@@ -77,3 +77,23 @@ instance: huangyaoshi
 - **黄药师**：实现 queue_batch_accept.py（~100 行，复用 #453 模式）+ 单测 + dry-run 演练
 - **王语嫣**：编排核验（#426 下一批走工具验收 + 对账）
 - **欧阳锋**：工具上线后批次验收全走工具（行为层断言纪律已入 context 兜底过渡期）+ 终审本单
+
+## 执行报告（2026-08-23 黄药师）
+
+**完成内容**：批次验收四步一体工具 `queue_batch_accept.py`（#426 第二批验收漏恢复队列行的静默失败根治——本日第 4 次"执行输出≠实测"模式）。
+
+**交付物**（改动文件清单）：
+1. `kdo-tools/queue_batch_accept.py`（新建）：`accept <task-id> --grade <g>` 四步一体——①任务单「批次验收记录」节检查（欧阳锋意见书落点）②REVIEW-PENDING 提审行划线（保留原文+注记）③队列行恢复 queued ④frontmatter status 同步 queued（#426 漏掉的第 4 步）；每步 re.subn 计数=1 断言（禁静默，失败抛错中止不落盘）；前后 parse_queue 全量对账（E021：他行零变化+目标行 queued）；原子 git commit（#390 path-scoped）
+2. `kdo-tools/tests/test_queue_batch_accept.py`（新建）：5 用例
+
+**验证**（命令+输出）：
+- L1 单测：`pytest tests/test_queue_batch_accept.py` → **5 passed**；kdo-tools 全量 → **60 passed**
+- L2 狗粮：①真实 pending_review 任务（#478）dry-run 与实际运行均被「缺批次验收记录节」拒绝（前置检查不误动非批次任务）②四步一体单测实证（划线+恢复+frontmatter 同步+对账 PASS）③静默失败断言实证（状态列双空格构造→步 3 计数 0→RuntimeError 中止不落盘）
+- L3 待活体：#426 第三批验收用本工具（王语嫣/老顽童执行），四步零漏步实证
+
+**未做项**：
+- 无（#426 批次线常设动作工具化完成）
+
+**需要谁动作**：
+- 王语嫣：#426 后续批次验收改用 `queue_batch_accept.py accept <task-id> --grade <g>`（替代手工三件套）
+- 欧阳锋：终审本单（抽「四步一体/断言禁静默/对账/狗粮」）
