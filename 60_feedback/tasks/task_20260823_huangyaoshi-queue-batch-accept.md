@@ -1,9 +1,10 @@
 ---
 id: 479
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-23T23:30:00+08:00'
+status: in_progress
+updated_at: '2026-08-23T13:03:47.294423+00:00'
 version: v0.1
+instance: huangyaoshi
 ---
 # #479 批次验收工具化 queue_batch_accept.py（#426 批次线，静默失败根治）
 
