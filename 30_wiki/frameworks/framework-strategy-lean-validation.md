@@ -35,6 +35,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 战略
+  - 商业模式
+  - 单元模型
+  - 市场
+  - 渠道
+  - 工具
+  - 模型
 ---
 # 战略假设的精益验证流程
 

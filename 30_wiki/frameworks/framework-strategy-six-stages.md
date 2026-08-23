@@ -34,6 +34,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 战略
+  - 企业
+  - 市场
+  - 转型
+  - 组织
+  - 工具
+  - 模型
 ---
 # 六阶段企业生命周期
 

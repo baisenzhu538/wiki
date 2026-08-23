@@ -95,6 +95,12 @@ tags:
   - audience:ceo
   - scene:diagnosis
   - skill-level:advanced
+  - 组织
+  - 机制
+  - 工具
+  - 方法
+  - 模型
+  - 预测
 discoverable_by:
 - 科学销售方法
 - 销售五步法

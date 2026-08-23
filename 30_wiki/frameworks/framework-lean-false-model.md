@@ -34,6 +34,10 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 框架
+  - 工具
+  - 模型
+  - 创业者
 ---
 # 一堂 FALSE/FLESAI 低成本验证模型
 

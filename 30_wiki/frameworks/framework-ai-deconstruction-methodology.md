@@ -23,6 +23,12 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 框架
+  - 方法
+  - 模型
+  - 边界
+  - 预测
+  - 拆书会
 quality_labels: null
 updated_at: '2026-06-30'
 created_at: '2026-06-30'

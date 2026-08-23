@@ -34,6 +34,12 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 企业
+  - 行业
+  - 渠道
+  - 品牌
+  - 框架
+  - 模型
 ---
 # 波特五力分析框架
 

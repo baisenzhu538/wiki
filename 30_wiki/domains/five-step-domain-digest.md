@@ -50,9 +50,15 @@ diagnostic_signals:
   follow_up_question: 你有画布吗？五步法画布+产品内核画布可以从假设一直推到壁垒。
 updated_at: 2026-07-15
 tags:
-- audience:manager
-- scene:reference
-- skill-level:advanced
+  - audience:manager
+  - scene:reference
+  - skill-level:advanced
+  - 商业模式
+  - 框架
+  - 工具
+  - 方法
+  - 模型
+  - 创业者
 discoverable_by:
 - 五步法域
 - 一堂方法论

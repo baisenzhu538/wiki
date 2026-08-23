@@ -42,6 +42,8 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 模型
+  - 口述
 ---
 # 一堂十指模型：左手具象五化 + 右手抽象五化
 

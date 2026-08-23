@@ -36,6 +36,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 战略
+  - 商业模式
+  - 价值链
+  - 市场
+  - 组织
+  - 框架
+  - 工具
 ---
 # IBM BLM 业务领导力模型 + 华为五看三定
 

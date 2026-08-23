@@ -37,6 +37,8 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 模型
+  - 边界
 source_context: 单一 source 为完整长文档，内容充分支撑 medium trust；待补充第二来源或充分验证后可升 high
 diagnostic_signals: null
 follow_up: 启动 M6 撞击实验，明确目标为"推翻这个模型"

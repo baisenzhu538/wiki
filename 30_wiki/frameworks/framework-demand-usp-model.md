@@ -37,6 +37,9 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 工具
+  - 模型
+  - 边界
 ---
 # USP需求洞察模型
 

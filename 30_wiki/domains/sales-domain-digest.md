@@ -1,6 +1,7 @@
 ---
 id: sales-domain-digest
 title: 域摘要：销售管理（30+张卡）
+reviewed_by: 待审
 type: index
 status: draft
 confidence: 0.9
@@ -43,9 +44,13 @@ discoverable_by:
 - 销售漏斗
 - 销售业绩
 tags:
-- audience:manager
-- scene:reference
-- skill-level:advanced
+  - audience:manager
+  - scene:reference
+  - skill-level:advanced
+  - 框架
+  - 工具
+  - 方法
+  - 模型
 ---
 
 # 域摘要：销售管理

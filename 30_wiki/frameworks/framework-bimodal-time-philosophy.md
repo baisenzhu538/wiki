@@ -29,6 +29,7 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 模型
 aliases: null
 ---
 # 双峰时间哲学模型

@@ -35,6 +35,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 战略
+  - 价值链
+  - 战略规划
+  - 护城河
+  - 市场
+  - 组织
+  - 框架
 ---
 # 业务设计六要素×三步骤
 

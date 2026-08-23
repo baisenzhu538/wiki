@@ -34,6 +34,11 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 战略
+  - 转型
+  - 组织
+  - 并购
+  - 模型
 ---
 # 麦肯锡 7S 模型：组织诊断与变革管理
 

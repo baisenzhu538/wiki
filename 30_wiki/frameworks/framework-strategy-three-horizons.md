@@ -35,6 +35,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 战略
+  - 价值链
+  - 单元模型
+  - 企业
+  - 行业
+  - 市场
+  - 框架
 ---
 # 三个地平线：短中长期业务组合管理
 

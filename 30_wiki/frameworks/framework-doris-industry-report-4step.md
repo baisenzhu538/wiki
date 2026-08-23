@@ -30,6 +30,10 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 行业
+  - 渠道
+  - 框架
+  - 创业者
 ---
 # 行业报告调研四步法：7天快速建立行业认知
 

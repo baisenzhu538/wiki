@@ -33,6 +33,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 战略
+  - 竞争战略
+  - 价值链
+  - 企业
+  - 市场
+  - 产品线
+  - 组织
 ---
 # 企业战略金字塔：公司、业务与职能协同
 

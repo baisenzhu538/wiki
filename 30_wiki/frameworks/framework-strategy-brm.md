@@ -24,6 +24,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 战略
+  - 战略规划
+  - 企业
+  - 行业
+  - 市场
+  - 组织
+  - 框架
 aliases:
   - 冉鹏版 BRM 框架（源于 IBM BLM 方法论）
 discoverable_by:

@@ -33,6 +33,11 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 战略
+  - 第二曲线
+  - 市场
+  - 品牌
+  - 机制
 ---
 **五件事**：
 1. **现金流业务**：当前利润池，必须守住并持续优化效率。

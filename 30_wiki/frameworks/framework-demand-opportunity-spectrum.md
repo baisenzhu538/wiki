@@ -38,6 +38,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 战略
+  - 商业模式
+  - 护城河
+  - 企业
+  - 行业
+  - 渠道
+  - 边界
 ---
 # 商业机会预判·终局光谱图
 

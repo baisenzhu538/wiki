@@ -35,6 +35,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 商业模式
+  - 护城河
+  - 单元模型
+  - 渠道
+  - 工具
+  - 模型
+  - 边界
 ---
 # 五步法与精益验证的接口
 

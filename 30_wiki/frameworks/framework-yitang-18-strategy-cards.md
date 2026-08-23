@@ -28,6 +28,10 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 单元模型
+  - 行业
+  - 框架
+  - 模型
 ---
 # 降龙十八掌：18张调研策略卡全景图
 

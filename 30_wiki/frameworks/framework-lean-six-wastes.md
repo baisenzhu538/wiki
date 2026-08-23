@@ -33,6 +33,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 商业模式
+  - 市场
+  - 转型
+  - 框架
+  - 方法
+  - 模型
+  - 边界
 ---
 # 创业六宗罪 / 六大浪费
 

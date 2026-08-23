@@ -35,6 +35,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 战略
+  - 增长战略
+  - 企业
+  - 市场
+  - 新业务
+  - 定价
+  - 渠道
 ---
 # 安索夫矩阵：产品-市场增长战略
 

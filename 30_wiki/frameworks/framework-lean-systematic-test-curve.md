@@ -31,6 +31,10 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 组织
+  - 框架
+  - 模型
+  - 创业者
 ---
 # 系统测试曲线与三大测试范式
 

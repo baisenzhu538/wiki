@@ -37,9 +37,13 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 updated_at: '2026-06-28'
 tags:
-- audience:executor
-- scene:reference
-- skill-level:advanced
+  - audience:executor
+  - scene:reference
+  - skill-level:advanced
+  - 战略
+  - 行业
+  - 方法
+  - 边界
 ---
 
 # 三种必做战略的时刻：快速扩张/业务平台期/行业下行期

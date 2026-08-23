@@ -33,6 +33,10 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 市场
+  - 组织
+  - 方法
+  - 模型
 diagnostic_signals:
 - framework_lens: 逻辑洁癖五段位
 - framework_lens: 逻辑洁癖五段位

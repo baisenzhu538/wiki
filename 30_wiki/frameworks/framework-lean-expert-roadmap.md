@@ -30,6 +30,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 行业
+  - 组织
+  - 框架
+  - 工具
+  - 方法
+  - 模型
+  - 边界
 ---
 # 精益高手十年修炼地图
 

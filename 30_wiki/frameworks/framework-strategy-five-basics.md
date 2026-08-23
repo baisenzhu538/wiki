@@ -35,6 +35,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 战略
+  - 战略规划
+  - 护城河
+  - 转型
+  - 渠道
+  - 框架
+  - 模型
 ---
 # 战略五基本功（5C）
 

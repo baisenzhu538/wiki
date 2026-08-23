@@ -31,6 +31,9 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 定价
+  - 渠道
+  - 模型
 ---
 # 精益创业低成本验证四大原则
 

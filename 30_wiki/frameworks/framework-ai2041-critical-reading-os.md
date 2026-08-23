@@ -23,6 +23,10 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 行业
+  - 模型
+  - 预测
+  - 拆书会
 ---
 # AI 2041 批判性认知操作系统
 

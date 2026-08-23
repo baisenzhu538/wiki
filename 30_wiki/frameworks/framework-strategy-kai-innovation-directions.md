@@ -34,6 +34,11 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 战略
+  - 企业
+  - 市场
+  - 渠道
+  - 框架
 ---
 # 凯纳创新方向分类框架
 

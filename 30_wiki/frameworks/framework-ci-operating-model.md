@@ -12,6 +12,10 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 市场
+  - 框架
+  - 工具
+  - 方法
 source_person: Truman（一堂）+ Competitive Intelligence Alliance + BestBootcamps
 source_context: 一堂调研武器库盲区诊断 + 外部CI专业框架比对
 aliases:

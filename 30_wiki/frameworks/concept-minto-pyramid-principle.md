@@ -38,6 +38,9 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 框架
+  - 创业者
+  - 顾问
 created_at: '2026-06-12'
 updated_at: '2026-06-28'
 author: 老顽童

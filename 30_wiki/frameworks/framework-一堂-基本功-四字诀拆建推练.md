@@ -26,6 +26,12 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 市场
+  - 组织
+  - 框架
+  - 模型
+  - 复盘
+  - 口述
 aliases: null
 ---
 # 基本功四字诀「拆建推练」：把一个动作练成组织能力
