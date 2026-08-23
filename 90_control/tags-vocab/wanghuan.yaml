@@ -1,0 +1,32 @@
+# wanghuan 域维度轴 v0.1（#485 轴文件先行——提前出轴）
+# 王欢AI协作框架域：actor-director/BITCOE/GAN三角色/Harness/OODA
+# 六轴+来源；规则：细=维度覆盖不堆量；每卡 5-8 跨轴词；来源名禁入
+version: 0.1
+updated: '2026-08-24'
+
+axes:
+  专业维度:      # AI协作/框架方法论层
+    words: [AI协作, 提示词框架, 多角色, 开发架构, 决策循环, 任务系统, 三层架构, 人机协作]
+  对象维度:
+    words: [Agent, 提示词, 任务, 产品, 架构, 模型, 工作流]
+  性质维度:
+    words: [机制, 框架, 工具, 方法, 模型, 边界, 反例, 实证]
+  认知警示维度:  # AI协作域风控轴
+    words: [过度工程, 提示词陷阱, 角色混乱, 架构失配, 伪协作]
+  使用者维度:
+    words: [AI使用者, 开发者, 创业者, 教练, 团队负责人]
+  经验维度:
+    words: [避坑, 踩坑, 实操, 复盘, 迭代]
+  来源维度:
+    words: [口述, 开放麦, 实战案例]
+
+# 标签示范：
+# framework-wanghuan-harness-seven-stages: [AI协作, 七阶段, 框架, 方法, 开发者, 实操]
+# framework-wanghuan-ooda-loop: [决策循环, OODA, 框架, 方法, 决策者, 实操]
+
+# 跨域桥接词：
+# 「AI协作」桥接 wanghuan ↔ ai-collaboration（AI协作域）
+# 「多角色」桥接 wanghuan ↔ KDO（六角色协作）
+
+# ⚠️ 来源形态词纪律（#484）：来源形态词禁入内容词池
+# 保留 audience:*/scene:*/skill-level:* 前缀词并行不冲突

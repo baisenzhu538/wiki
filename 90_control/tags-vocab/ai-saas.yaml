@@ -1,0 +1,31 @@
+# ai-saas 域维度轴 v0.1（#485 轴文件先行——提前出轴）
+# AI SaaS 域：产品设计/AI原生组织/智能体/深度调研
+# 六轴+来源；规则：细=维度覆盖不堆量；每卡 5-8 跨轴词；来源名禁入
+version: 0.1
+updated: '2026-08-24'
+
+axes:
+  专业维度:      # AI SaaS/方法论层
+    words: [AI SaaS, 产品设计, 提示词工程, AI原生组织, 深度调研, 智能体, 工作流平台]
+  对象维度:
+    words: [产品, 平台, Agent, 工作流, 组织, 用户]
+  性质维度:
+    words: [机制, 框架, 工具, 方法, 边界, 反例, 实证]
+  认知警示维度:  # AI SaaS 域风控轴
+    words: [过度设计, 伪需求, 组织失配, 平台依赖]
+  使用者维度:
+    words: [创业者, 产品经理, 开发者, 团队负责人]
+  经验维度:
+    words: [避坑, 实操, 复盘, 迭代]
+  来源维度:
+    words: [口述, 开放麦, 实战案例]
+
+# 标签示范：
+# kdo_product_design_agent_final: [AI SaaS, 产品设计, Agent, 工具, 产品经理, 实操]
+
+# 跨域桥接词：
+# 「AI SaaS」桥接 ai-saas ↔ healthcare（医疗SaaS）
+# 「智能体」桥接 ai-saas ↔ ai-collaboration（AI协作）
+
+# ⚠️ 来源形态词纪律（#484）：来源形态词禁入内容词池
+# 保留 audience:*/scene:*/skill-level:* 前缀词并行不冲突
