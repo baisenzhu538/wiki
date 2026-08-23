@@ -1,9 +1,10 @@
 ---
 id: 490
 assignee: wangyuyan
-status: queued
-updated_at: '2026-08-24T00:00:00+08:00'
+status: in_progress
+updated_at: '2026-08-23T19:12:14.608879+00:00'
 version: v0.1
+instance: wangyuyan
 ---
 
 # #490 codex-homes 切换试点（风清扬先切，先补后切）
@@ -62,6 +63,14 @@ codex-homes 7 角色隔离目录（`D:\KDO-memory\codex-homes\<角色拼音>\` �
 - **老朱**：推广前确认
 - **欧阳锋**：终审本单
 
-## 执行报告（F-034 五字段，complete 前必填）
+## 执行报告（F-034 五字段，2026-08-24 王语嫣）
 
-（王语嫣填写）
+**文件清单**：`D:\KDO-memory\codex-homes\` 下新增 7 个角色隔离启动脚本（start-fengqingyang/wangyuyan/ouyangfeng/laowantong/huangyaoshi/hongqigong/duanwangye.sh）+ 通用脚本 switch-codex.sh + README.md 补 bash 启动方式。
+
+**完成内容**：切换机制落地——CODEX_HOME 隔离脚本（设置 `CODEX_HOME` 指向角色目录后 exec codex，隔离 config/memory/sessions）；前置 #489 采集面补全已 reviewed（先补后切条件满足）。
+
+**验证**：`export CODEX_HOME=fengqingyang && codex --version` → 返回 `codex-cli 0.144.1`，且 `fengqingyang/tmp/arg0` 被写入（03:10/03:11 两次），证明 codex 识别 CODEX_HOME 环境变量、数据写角色目录而非共享 .codex。脚本 `./switch-codex.sh fengqingyang --version` exit=0。
+
+**未做项**：①试点实测（L2 审计侧闭环）——风清扬当前用飞书、未实际切 codex，需其切换时实测「codex 会话→L1 采集→审计回溯」闭环；②其余角色推广（L3 待活体）；③各角色 config.toml 如需独立微调（当前复制自共享 .codex，deepseek-v4-pro 配置）。
+
+**需要谁动作**：风清扬（实际切换试点 + 实测审计侧闭环）；老朱（推广前确认）；欧阳锋（终审本单）。
