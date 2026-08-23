@@ -1,8 +1,8 @@
 ---
 id: 472
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-23T11:27:05.500278+00:00'
+status: pending_review
+updated_at: '2026-08-23T11:30:35.461379+00:00'
 version: v1.0
 doc_id: D-20260823-020
 instance: huangyaoshi
@@ -37,6 +37,25 @@ instance: huangyaoshi
 
 - 只读导航层；与行为牌/文件路由/domain-mapping 并存不冲突；存量 spec 不改
 
-## 执行报告（F-034 五字段+验证分层声明，complete 前必填）
+## 执行报告（2026-08-23 黄药师）
 
-（生产者填写）
+**完成内容**：角色路由层三路由合一——①任务路由 `queue_transition.py myqueue <role>` 只读视图（五态：可领/等依赖/冻结/进行中/待终审，冻结=队列行标注勿领/冻结留档含被取代挂账）；②技能路由+知识路由 `90_control/role-routes.md`（六角色技能映射表 52 skill 归类 + 知识掌握路径 Core→digest→MOC）；③CAPSULE_STARTUP §2 加三路由导航入口。
+
+**交付物**（改动文件清单）：
+1. `90_control/scripts/queue_transition.py`：`myqueue` 子命令（action_myqueue + `_task_depends_on` + `_is_active_task`，只读不动状态机）
+2. `90_control/role-routes.md`（新建）：技能路由表（六角色 5-10 核心技能+触发场景）+ 知识路由表（角色→Core 骨架→digest→MOC）+ depends_on 字段约定（F-047）+ 维护权=编排统一
+3. `.kdo/CAPSULE_STARTUP.md`：§2 角色路由表顶部加三路由导航（进入即答三问）
+4. `90_control/scripts/tests/test_myqueue.py`（新建）：8 用例
+
+**验证**（命令+输出）：
+- L1 单测：`pytest tests/test_myqueue.py` → **8 passed**；scripts 全量回归 → **64 passed**
+- L2 狗粮：六角色各跑 `myqueue`——huangyaoshi（可领 #473/进行中 #472/待终审 #471 精确）、wangyuyan（#468）、laowantong（#426/#469/#470）、ouyangfeng/hongqigong/duanwangye/fengqingyang（可领 0 正确）；冻结判定用 #459 被取代挂账语义验证（队列行标注冻结留档勿领取）
+- L3 待活体：下一角色冷启动用路由层导航（对照今日人肉拼图成本）；新任务单 depends_on 登记后等依赖态真实生效
+
+**未做项**：
+- 存量任务书 depends_on 不回填（F-047 向前生效，王语嫣裁定）
+- 技能/知识路由表静态形态（王语嫣裁定不过度工程——脚本化范围=任务路由 only）
+
+**需要谁动作**：
+- 王语嫣：维护 role-routes.md（spec 定稿后随 spec 演进）；新任务单起登记 depends_on
+- 欧阳锋：终审本单（抽「myqueue 五态/依赖解析/冻结判定/入口衔接」）
