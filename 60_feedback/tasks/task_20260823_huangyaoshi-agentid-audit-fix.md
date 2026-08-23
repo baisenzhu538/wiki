@@ -1,9 +1,10 @@
 ---
 id: 456
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-23T06:15:00+00:00'
+status: in_progress
+updated_at: '2026-08-23T07:47:40.556053+00:00'
 version: v0.1
+instance: huangyaoshi
 ---
 # #456 记忆胶囊 agent_id 统一 + 审计器解析盲区修复（两小修复合一单）
 
