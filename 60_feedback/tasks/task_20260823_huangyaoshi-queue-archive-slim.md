@@ -1,8 +1,8 @@
 ---
 id: 453
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-23T05:17:04.522399+00:00'
+status: pending_review
+updated_at: '2026-08-23T05:18:38.484813+00:00'
 version: v0.1
 instance: huangyaoshi
 ---
@@ -47,10 +47,6 @@ instance: huangyaoshi
 ## 关联
 
 - 老朱指令（2026-08-23 token 成本+注意力稀释）；E021 全量对账；E003 批量快照；#390 原子 commit
-
-## 执行报告（F-034 五字段+验证分层声明，complete 前必填）
-
-（生产者填写）
 
 ## 内容价值判断（#375 处置门禁补充节，2026-08-23 黄药师领取时补）
 
