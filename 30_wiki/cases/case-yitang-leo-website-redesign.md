@@ -38,8 +38,10 @@ related:
   - "[[framework-yitang-project-retrospective]]"
   - "[[dk-truman-document-is-real-project-is-fake]]"
 tags:
-- audience:manager
-- scene:execution
+  - audience:manager
+  - scene:execution
+  - 工具
+  - 口述
 created_at: 2026-07-08
 updated_at: 2026-07-08
 ---

@@ -58,9 +58,15 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: 老顽童# 市场规模估算四种方法
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 五步法
+  - 单元模型
+  - 不确定性
+  - 需求分析
+  - 框架
+  - 方法
 ---
 
 > 来源：一堂五步法·需求篇 | [[yt-demand-analysis-hiking-map]] | [[yt-five-step-method]]

@@ -38,9 +38,13 @@ related:
 - '[[yt-demand-jtbd-application]]'
 - '[[tool-prompt-iceberg-demand-analysis]]'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 定价
+  - 优先级
+  - 框架
+  - 方法
 ---
 
 

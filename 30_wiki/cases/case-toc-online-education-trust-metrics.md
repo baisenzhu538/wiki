@@ -42,9 +42,13 @@ related:
 - '[[business-formula-domain-digest]]'
 - '[[case-private-domain-ecommerce-formula]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:advanced
+  - 单元模型
+  - 方法
+  - 实证
+  - 拍板原则
 ---
 
 # ToC在线教育：把「信任度」拆成4个可定量行为指标，对话率10%→15%

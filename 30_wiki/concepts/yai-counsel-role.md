@@ -66,9 +66,13 @@ diagnostic_signals:
   framework_lens: 生成训练系统 + 延展工具
   follow_up_question: 你希望我把诊断汇总成报告，还是直接生成 24 小时计划 / Checklist / 套路清单？
 tags:
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:advanced
+  - 机制
+  - 工具
+  - 方法
+  - 清单
 ---
 
 # YAI C角色咨询法：Counsel 式方案输出节奏

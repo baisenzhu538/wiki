@@ -47,6 +47,13 @@ quality_labels: [insight, principle, actionable]
 tags:
   - audience:general
   - scene:meeting
+  - 拍板
+  - 机制
+  - 工具
+  - 方法
+  - 教练
+  - 管理者
+  - 口述
 ---
 
 # 桥接：科学开会×教练式领导力——会议是领导力的核心场景

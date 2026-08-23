@@ -58,9 +58,10 @@ diagnostic_signals:
   framework_lens: 及时反馈缺失
   follow_up_question: 你怎么判断自己这次练对了还是练偏了？
 tags:
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:advanced
+  - 方法
 ---
 
 # 刻意练习四要素

@@ -48,10 +48,13 @@ related:
 - '[[tool-top-level-document]]'
 - '[[tool-wechat-transcript-automation-workflow]]'
 tags:
-- audience:manager
-- audience:executor
-- scene:planning
-- skill-level:beginner
+  - audience:manager
+  - audience:executor
+  - scene:planning
+  - skill-level:beginner
+  - 五步法
+  - 边界
+  - 口述
 ---
 
 # 开一篇文档：调研的第一个最重要动作

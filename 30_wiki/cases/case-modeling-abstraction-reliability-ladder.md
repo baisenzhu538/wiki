@@ -26,9 +26,15 @@ discoverable_by:
   - 知识可靠度四阶梯
   - 从听着很香到没有反例
 tags:
-- audience:general
-- scene:reference
-- skill-level:advanced
+  - audience:general
+  - scene:reference
+  - skill-level:advanced
+  - 投资
+  - 框架
+  - 工具
+  - 方法
+  - 边界
+  - 反例
 created_at: 2026-06-15
 updated_at: '2026-06-29'
 author: 老顽童

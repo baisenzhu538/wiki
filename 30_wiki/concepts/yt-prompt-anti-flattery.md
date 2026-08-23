@@ -63,9 +63,14 @@ related:
 - '[[yt-decision-ai-partner]]'
 - '[[yt-prompt-brainstorming]]'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 机制
+  - 工具
+  - 边界
+  - 确认偏误
+  - 创业者
 ---
 
 # 反谄媚机制：让 AI 说真话

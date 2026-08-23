@@ -53,9 +53,12 @@ related:
 - '[[yt-concept-context-engineering]]'
 - '[[yitang-domain-digest]]'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 机制
+  - 工具
+  - 边界
 ---
 
 # 迭代式提示词工作流（5步法）

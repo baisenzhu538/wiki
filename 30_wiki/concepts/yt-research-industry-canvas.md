@@ -34,9 +34,14 @@ related:
 - '[[case-smart-medicine-cabinet-business-model-validation]]'
 - '[[business-research-skill-oscar-13-weapon-system]]'
 tags:
-- audience:ceo
-- scene:diagnosis
-- skill-level:intermediate
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:intermediate
+  - 投资
+  - 风险
+  - 转型
+  - 框架
+  - 方法
 ---
 
 

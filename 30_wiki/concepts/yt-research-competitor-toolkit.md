@@ -38,9 +38,14 @@ related:
 - '[[tool-yitang-product-full-experience]]'
 - '[[tool-yitang-tech-project-research]]'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 定价
+  - 投资
+  - 框架
+  - 工具
+  - 方法
 ---
 
 

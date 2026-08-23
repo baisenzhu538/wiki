@@ -51,9 +51,14 @@ related:
 - '[[business-formula-domain-digest]]'
 - '[[yt-lean-b2b-b2c-hardware-content-testing]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:advanced
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:advanced
+  - 单元模型
+  - 定价
+  - 实证
+  - 拍板原则
+  - 边界
 ---
 
 

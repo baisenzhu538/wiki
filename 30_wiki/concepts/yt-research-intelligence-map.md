@@ -35,9 +35,14 @@ related:
 - '[[yt-research-hypothesis-test]]'
 - '[[yt-research-mindset]]'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 定价
+  - 风险
+  - 框架
+  - 工具
+  - 方法
 ---
 
 

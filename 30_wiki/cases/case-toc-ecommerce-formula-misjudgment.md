@@ -25,9 +25,10 @@ discoverable_by:
   - 消费品电商
   - 业务公式拆解误判导致放量亏损
 tags:
-- audience:general
-- scene:reference
-- skill-level:advanced
+  - audience:general
+  - scene:reference
+  - skill-level:advanced
+  - 口述
 created_at: '2026-06-14'
 updated_at: '2026-07-14'
 author: 孔阳

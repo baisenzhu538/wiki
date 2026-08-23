@@ -47,9 +47,10 @@ related:
 - '[[dk-strategy-correlation-vs-causation-leverage]]'
 - '[[business-formula-domain-digest]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:advanced
+  - audience:general
+  - scene:reference
+  - skill-level:advanced
+  - 教练
 ---
 
 # 线下连锁健身：把“到店频率"变成“到店习惯"才是续卡率抓手

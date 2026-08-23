@@ -40,9 +40,16 @@ discoverable_by:
   - 一堂方法论体系
   - 从科学做事到无限进步
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 招聘
+  - 转型
+  - 框架
+  - 工具
+  - 方法
+  - 清单
+  - 创业者
 created_at: '2026-06-14'
 quality_labels:
 - cited

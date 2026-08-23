@@ -59,9 +59,11 @@ diagnostic_signals:
   framework_lens: 把大目标压成明天最小动作
   follow_up_question: 如果你明天只能做 10 分钟，只做一件事，让这件事最有可能启动起来，那会是什么？
 tags:
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:advanced
+  - 工具
+  - 方法
 ---
 
 # YAI T角色咨询法：教师式理解对话节奏

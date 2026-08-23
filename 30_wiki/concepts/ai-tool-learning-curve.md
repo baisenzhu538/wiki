@@ -49,9 +49,13 @@ diagnostic_signals:
   framework_lens: 提供可复用学习框架
   follow_up_question: 我们可以把学习过程拆成 5 个阶段，每个阶段有明确产出，你觉得怎么样？
 tags:
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:advanced
+  - 框架
+  - 工具
+  - 边界
+  - 清单
 ---
 
 # AI工具循序渐进学习曲线

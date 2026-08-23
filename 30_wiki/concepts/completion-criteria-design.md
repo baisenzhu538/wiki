@@ -40,9 +40,11 @@ diagnostic_signals:
   framework_lens: 标准太虚
   follow_up_question: ‘掌握’拆不成勾选动作。能不能写成‘能做 X’‘能判断 Y’？
 tags:
-- audience:executor
-- scene:execution
-- skill-level:advanced
+  - audience:executor
+  - scene:execution
+  - skill-level:advanced
+  - 工具
+  - 边界
 ---
 
 # 完成标准设定

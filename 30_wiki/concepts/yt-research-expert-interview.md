@@ -35,9 +35,11 @@ related:
 - '[[yt-research-weaponry-course]]'
 - '[[concept-maister-trusted-advisor]]'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 风险
+  - 方法
 ---
 
 

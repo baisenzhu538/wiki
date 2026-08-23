@@ -11,9 +11,11 @@ id: yitang-course-map
 discoverable_by:
 - 一堂课程大地图
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 框架
+  - 方法
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.7

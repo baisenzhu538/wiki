@@ -45,6 +45,7 @@ quality_labels: [quotable, actionable, validated, cited]
 tags:
   - audience:general
   - scene:meeting
+  - 工具
 ---
 
 # 会议场景案例包×7

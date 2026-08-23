@@ -2,6 +2,7 @@
 id: yt-customer-acquisition-toolkit
 updated_at: '2026-08-20'
 title: 获客工具合集
+reviewed_by: 待审
 discoverable_by:
 - 获客工具合集
 related:
@@ -17,9 +18,12 @@ aliases:
 source_refs:
   - src_unknown
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 五步法
+  - 机制
+  - 工具
 type: concept
 status: draft
 domain: yitang

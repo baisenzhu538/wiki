@@ -40,9 +40,13 @@ diagnostic_signals:
   framework_lens: 需要最低成本反馈工具
   follow_up_question: 能不能每次学习后用 10 分钟写四问法反馈？
 tags:
-- audience:executor
-- scene:execution
-- skill-level:advanced
+  - audience:executor
+  - scene:execution
+  - skill-level:advanced
+  - 工具
+  - 方法
+  - 教练
+  - 复盘
 ---
 
 # 四问法自我反馈

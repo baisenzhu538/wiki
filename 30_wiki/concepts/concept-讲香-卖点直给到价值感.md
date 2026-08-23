@@ -48,9 +48,10 @@ quality_labels:
 - insight
 - principle
 tags:
-- audience:general
-- scene:reference
-- skill-level:advanced
+  - audience:general
+  - scene:reference
+  - skill-level:advanced
+  - 口述
 discoverable_by:
 - "讲香是什么"
 - "十指讲香为什么不是花活"

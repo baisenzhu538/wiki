@@ -61,9 +61,10 @@ related:
 - '[[tool-yitang-content-ip-research]]'
 - '[[tool-yitang-store-franchise-research]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 投资
 ---
 
 # 调研目标锁定：从"了解"到"决策"的认知跃迁

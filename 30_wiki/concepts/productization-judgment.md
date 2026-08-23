@@ -40,9 +40,11 @@ diagnostic_signals:
   framework_lens: 需要边界判断
   follow_up_question: 有没有场景是你绝对不会推荐用这个工具的？
 tags:
-- audience:executor
-- scene:execution
-- skill-level:advanced
+  - audience:executor
+  - scene:execution
+  - skill-level:advanced
+  - 工具
+  - 边界
 ---
 
 # 产品化判断四维度

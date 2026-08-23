@@ -35,9 +35,15 @@ related:
 - '[[master-decision-hygiene]]'
 - '[[yt-five-step-level-blindspots]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 概率思维
+  - 不确定性
+  - 框架
+  - 方法
+  - 过度自信
+  - 复盘
 ---
 
 

@@ -46,9 +46,10 @@ related:
 - '[[business-research-skill-oscar-13-weapon-system]]'
 - '[[tool-纪浩-Do-first-PDCA渐进迭代法]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 方法
 ---
 
 # 事实优先：区分事实与观点的认知纪律

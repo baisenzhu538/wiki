@@ -60,9 +60,10 @@ related:
 - '[[tool-oscar-kdo-external-exploration]]'
 - '[[tool-yitang-field-research]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 清单
 ---
 
 # 调研范围缩小：专注·专业·剥离三原则

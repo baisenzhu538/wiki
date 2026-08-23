@@ -55,9 +55,15 @@ related:
 - '[[tool-nine-character-mantra-14-strategies]]'
 - '[[tool-wechat-transcript-automation-workflow]]'
 tags:
-- audience:manager
-- scene:planning
-- skill-level:intermediate
+  - audience:manager
+  - scene:planning
+  - skill-level:intermediate
+  - 五步法
+  - 框架
+  - 方法
+  - 边界
+  - 实证
+  - 口述
 ---
 
 # 饱和覆盖：不以数量决定，以规律稳定为目标

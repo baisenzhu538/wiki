@@ -43,8 +43,11 @@ related:
   - "[[case-meeting-roi-awakening]]"
   - "[[dk-meeting-asset-harvest]]"
 tags:
-- audience:manager
-- scene:execution
+  - audience:manager
+  - scene:execution
+  - 工具
+  - 复盘
+  - 口述
 created_at: 2026-07-08
 updated_at: 2026-07-08
 ---

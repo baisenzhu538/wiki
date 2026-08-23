@@ -35,8 +35,11 @@ related:
   - tool-coaching-communication-four-layers
   - '[[dk-y-model-communication]]'
 tags:
-- audience:manager
-- scene:execution
+  - audience:manager
+  - scene:execution
+  - 风险
+  - 方法
+  - 教练
 quality_labels: [validated, actionable, insight]
 ---
 

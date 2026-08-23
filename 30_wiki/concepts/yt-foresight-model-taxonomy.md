@@ -32,9 +32,13 @@ related:
 - '[[tool-一堂-机会预判-案例预判]]'
 - '[[concept-mckinsey-mece]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 投资
+  - 风险
+  - 工具
+  - 清单
 type: concept
 ---
 # 预判模型分类

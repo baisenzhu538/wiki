@@ -59,9 +59,11 @@ related:
 - '[[yt-tool-product-core-canvas]]'
 - '[[ai-collaboration-domain-digest]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 边界
+  - 悖论
 ---
 
 # 上下文工程：充分≠越多越好

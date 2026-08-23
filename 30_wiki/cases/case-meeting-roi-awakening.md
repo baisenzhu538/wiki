@@ -42,6 +42,11 @@ quality_labels: [actionable, principle, cited]
 tags:
   - audience:general
   - scene:meeting
+  - 风险
+  - 机制
+  - 方法
+  - 实证
+  - 复盘
 ---
 
 # 三次觉醒案例包：从抄流程到算 ROI

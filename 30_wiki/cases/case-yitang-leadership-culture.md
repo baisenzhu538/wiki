@@ -33,8 +33,9 @@ related:
   - management-domain-digest
   - framework-how-to-know-a-person
 tags:
-- audience:manager
-- scene:execution
+  - audience:manager
+  - scene:execution
+  - 框架
 quality_labels: [validated, insight, quotable]
 ---
 

@@ -34,8 +34,12 @@ related:
   - management-domain-digest
   - framework-how-to-know-a-person
 tags:
-- audience:manager
-- scene:execution
+  - audience:manager
+  - scene:execution
+  - 转型
+  - 边界
+  - 教练
+  - CEO
 quality_labels: [validated, insight, quotable]
 ---
 

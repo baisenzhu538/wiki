@@ -41,10 +41,13 @@ related:
 - bridge-how-to-know-person-to-business
 - case-cross-xingangwan-pharma
 tags:
-- audience:executor
-- scene:planning
-- scene:execution
-- skill-level:beginner
+  - audience:executor
+  - scene:planning
+  - scene:execution
+  - skill-level:beginner
+  - 框架
+  - 工具
+  - 方法
 ---
 
 # AI 学习系列：Coze/编程四级/龙虾五级/文生图分类/Top10 排行榜

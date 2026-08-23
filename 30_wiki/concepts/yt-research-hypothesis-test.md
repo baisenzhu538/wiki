@@ -34,9 +34,12 @@ related:
 - '[[yt-five-step-method]]'
 - '[[business-research-skill-oscar-13-weapon-system]]'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 定价
+  - 框架
+  - 方法
 ---
 
 

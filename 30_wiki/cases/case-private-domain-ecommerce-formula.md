@@ -55,9 +55,13 @@ related:
 - '[[yt-business-formula-business-pattern-selector]]'
 - '[[tool-funnel-formula-modeling]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:advanced
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:advanced
+  - 单元模型
+  - 方法
+  - 风险
+  - 实证
 ---
 
 # 私域电商 10W 人社群：从“拉人发广告”到“信任 × 用户升级路径"

@@ -45,9 +45,15 @@ related:
 - '[[tool-dns-intelligence]]'
 - '[[tool-osint-sherlock]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 五步法
+  - 机制
+  - 方法
+  - 边界
+  - 反例
+  - 确认偏误
 ---
 
 

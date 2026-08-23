@@ -2,6 +2,7 @@
 id: yt-barrier-analysis-cheat-sheet
 updated_at: '2026-08-20'
 title: 壁垒分析完整cheatsheet
+reviewed_by: 待审
 discoverable_by:
 - 壁垒分析完整cheatsheet
 related:
@@ -24,9 +25,13 @@ aliases:
 source_refs:
   - src_unknown
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 五步法
+  - 框架
+  - 方法
+  - 沉没成本
 type: concept
 status: draft
 domain: yitang

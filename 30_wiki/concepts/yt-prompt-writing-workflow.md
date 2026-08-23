@@ -58,9 +58,11 @@ related:
 - '[[yitang-domain-digest]]'
 - '[[writing-content]]'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 工具
+  - 边界
 ---
 
 # AI 写作工作流：大纲→要点→全文

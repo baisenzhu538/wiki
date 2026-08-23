@@ -51,9 +51,13 @@ related:
 - '[[yt-business-formula-business-pattern-selector]]'
 - '[[yt-lean-b2b-b2c-hardware-content-testing]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:advanced
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:advanced
+  - 单元模型
+  - 实证
+  - 边界
+  - 复盘
 ---
 
 # ToB 企业培训 SaaS：续费率 50%→80% 不是靠催费，而是让客户“用起来"

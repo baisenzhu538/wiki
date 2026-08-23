@@ -37,9 +37,15 @@ related:
 - '[[product-ux]]'
 - '[[proposal-prompt-injection-infrastructure]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 工具
+  - 方法
+  - 边界
+  - 实证
+  - 设计
+  - AI生成
 ---
 # Design / Ai Image Generation
 

@@ -47,9 +47,13 @@ related:
 - '[[case-toc-ecommerce-formula-misjudgment]]'
 - '[[business-formula-domain-digest]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:advanced
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:advanced
+  - 单元模型
+  - 损益评估
+  - 复盘
+  - 边界
 ---
 
 # 线下连锁餐饮：同店增长 30% 的盲区在会员复购与场景绑定

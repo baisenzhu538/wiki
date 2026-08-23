@@ -39,9 +39,15 @@ related:
 - '[[concept-yitang-research-objective]]'
 - '[[concept-yitang-research-scope]]'
 tags:
-- audience:ceo
-- scene:diagnosis
-- skill-level:intermediate
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:intermediate
+  - 投资
+  - 不确定性
+  - 框架
+  - 方法
+  - 边界
+  - 决策者
 ---
 
 

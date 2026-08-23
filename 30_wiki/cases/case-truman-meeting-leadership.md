@@ -43,6 +43,8 @@ quality_labels: [insight, quotable, actionable, cited]
 tags:
   - audience:general
   - scene:meeting
+  - 拍板
+  - 口述
 ---
 
 # Truman 会议领导力实践案例包×5

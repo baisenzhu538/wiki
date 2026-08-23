@@ -41,9 +41,13 @@ diagnostic_signals:
   framework_lens: 需要把勇气结构化
   follow_up_question: 如果这次只挑战一个具体短板，你会选什么？
 tags:
-- audience:executor
-- scene:execution
-- skill-level:advanced
+  - audience:executor
+  - scene:execution
+  - skill-level:advanced
+  - 工具
+  - 方法
+  - 边界
+  - 复盘
 ---
 
 # 挑战点设计

@@ -26,9 +26,14 @@ discoverable_by:
   - HR SaaS：把“功能使用率↑续费率↑”当因果的功能堆砌陷
   - 把“功能使用率↑续费率↑”当因果的功能堆砌陷阱
 tags:
-- audience:general
-- scene:reference
-- skill-level:advanced
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:advanced
+  - 单元模型
+  - 反例
+  - 实证
+  - 边界
+  - 因果
 created_at: '2026-06-16'
 updated_at: 2026-06-28
 author: 孔阳

@@ -56,9 +56,11 @@ related:
 - '[[yt-skill-checklist-as-ai-protocol]]'
 - '[[视觉prompt三层操作系统-srom-visual-os]]'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 工具
+  - 边界
 ---
 
 # AI 头脑风暴工作流

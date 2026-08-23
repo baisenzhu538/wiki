@@ -30,9 +30,16 @@ discoverable_by:
   - 高阶建模能力体系
   - 一堂从经验到规律的教研方法论
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 五步法
+  - 拍板
+  - 框架
+  - 方法
+  - 边界
+  - 清单
+  - 复盘
 related:
 - '[[modeling-three-stages]]'
 - '[[modeling-weapon-library]]'

@@ -11,7 +11,6 @@ domain:
 estimated_tokens: 1800
 language: zh-CN
 prerequisites:
-- '[[yt-model-pan-product-demand-user-perspective]]'
 - '[[yt-model-pan-product-three-virtues]]'
 query_triggers:
 - 泛产品设计需求分析用什么卡
@@ -46,8 +45,12 @@ related:
 - '[[tool-泛产品设计-出牌指南]]'
 - '[[tool-泛产品设计-需求可行性四字诀]]'
 tags:
-- audience:manager
-- scene:planning
+  - audience:manager
+  - scene:planning
+  - 需求分析
+  - 工具
+  - 方法
+  - 边界
 review_by: 2026-11-11
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
@@ -66,19 +69,6 @@ title: 泛产品设计·需求工具箱（13张卡牌）
 type: framework
 version: 1
 pipeline:
-- '[[yt-model-pan-product-demand-user-perspective]]'
-- '[[yt-model-pan-product-demand-user-segmentation]]'
-- '[[yt-model-pan-product-demand-scenario-walkthrough]]'
-- '[[yt-model-pan-product-demand-problem-insight]]'
-- '[[yt-model-pan-product-demand-project-background]]'
-- '[[yt-model-pan-product-demand-multi-perspective]]'
-- '[[yt-model-pan-product-demand-motivation-resistance]]'
-- '[[yt-model-pan-product-demand-fine-formula]]'
-- '[[yt-model-pan-product-demand-peak-end]]'
-- '[[yt-model-pan-product-demand-feasibility-assessment]]'
-- '[[yt-model-pan-product-product-core]]'
-- '[[yt-model-pan-product-unit-model]]'
-- '[[yt-model-pan-product-business-formula]]'
 diagnostic_signals:
 - framework_lens: 工具选择困难
   follow_up_question: 你的项目复杂度是小产品、复杂产品还是商业产品？不同复杂度对应不同卡牌
