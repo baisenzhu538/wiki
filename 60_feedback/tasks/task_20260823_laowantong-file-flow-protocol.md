@@ -1,10 +1,11 @@
 ---
 id: 449
 assignee: laowantong
-status: queued
-updated_at: '2026-08-23T04:40:00+00:00'
+status: in_progress
+updated_at: '2026-08-23T05:50:20.411146+00:00'
 version: v0.1
 doc_id: D-20260823-001
+instance: hermes
 ---
 # #449 《KDO 文件流转规范》v1.0（协作纪律成文化）
 
