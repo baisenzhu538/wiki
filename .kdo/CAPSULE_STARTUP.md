@@ -7,9 +7,9 @@
 
 ```
 version: 2.0
-updated_at: 2026-08-22
-git_head: a4d639fdf   ← 启动时核对：git -C <wiki> rev-parse --short HEAD（2026-08-22 深夜黄药师三连交付会话更新）
-queue_tail: 428       ← 启动时核对：grep 队列尾任务号（2026-08-22 深夜黄药师三连交付会话更新）
+updated_at: 2026-08-23
+git_head: 6345264d6   ← 启动时核对：git -C <wiki> rev-parse --short HEAD（2026-08-23 黄药师恢复会话更新：08-23 收官 51e0668b3 + #426 词表 5a32150c3 + 半肥猫立单 6345264d6）
+queue_tail: 468       ← 启动时核对：grep 队列尾任务号（2026-08-23 黄药师恢复会话更新：半肥猫 D 档 #468）
 ```
 
 **校验动作**（各 5 秒内）：
