@@ -36,6 +36,11 @@ STATE_FILE = ROOT / ".kdo" / "conveyor_state.json"
 HOOKS_FILE = Path(__file__).resolve().parent / ".feishu_webhooks.json"
 FAIL_LOG = Path(__file__).resolve().parent / ".conveyor_failures.log"
 
+# #458 第四探针：六角色 friction-log 增量扫描面（+共享文件兼容历史习惯）
+RETRO_ROOT = Path.home() / "Desktop" / "agent复盘"
+FRICTION_ROLES = ["ouyangfeng", "huangyaoshi", "wangyuyan", "laowantong", "hongqigong", "duanwangye", "fengqingyang"]
+SHARED_FRICTION = Path(__file__).resolve().parent.parent / ".agent" / "friction-log.md"
+
 PROPOSAL_BEGIN = "<!-- PROPOSAL-PENDING-BEGIN（自动登记：conveyor_probe.py；勿手改——王语嫣复核后划掉） -->"
 PROPOSAL_BEGIN_OLD = "<!-- PROPOSAL-PENDING-BEGIN（建议书作者自登，王语嫣复核后划掉） -->"  # 迁移兼容旧段头
 PROPOSAL_END = "<!-- PROPOSAL-PENDING-END -->"
@@ -59,6 +64,11 @@ def _save_state(state: dict) -> None:
 
 
 # ── 信号 1/2：队列状态 diff（相对上次快照）───────────────────
+
+def _sha256(text: str) -> str:
+    import hashlib as _hl
+    return _hl.sha256(text.encode("utf-8")).hexdigest()
+
 
 def _msg_key(role: str, text: str) -> str:
     """幂等键：角色 + 消息主体（去 emoji 前缀）。"""
@@ -162,6 +172,82 @@ def _update_proposal_board(hits: list[str]) -> list[str]:
     return added
 
 
+# ── 信号 4（#458）：friction 增量扫描——一行式记录自动上浮，不依赖建议书格式 ──
+
+def _friction_files() -> list[Path]:
+    files = [RETRO_ROOT / role / "friction-log.md" for role in FRICTION_ROLES]
+    if SHARED_FRICTION.exists():
+        files.append(SHARED_FRICTION)
+    return [f for f in files if f.exists()]
+
+
+def _update_proposal_board_friction(new_lines: list[str]) -> None:
+    """#458：friction 线索登记 PROPOSAL-PENDING 段（[friction] 类型，幂等——按行文本去重）。"""
+    if not new_lines or not QUEUE_FILE.exists():
+        return
+    text = QUEUE_FILE.read_text(encoding="utf-8")
+    items, known = [], set()
+    if PROPOSAL_BEGIN in text and PROPOSAL_END in text:
+        block = text.split(PROPOSAL_BEGIN)[1].split(PROPOSAL_END)[0]
+        for ln in block.splitlines():
+            if ln.startswith("- "):
+                items.append(ln)
+                known.add(ln[2:].split("｜")[0].strip())
+    now = datetime.now().strftime("%m-%d %H:%M")
+    added = 0
+    for ln in new_lines:
+        marker = f"[friction] {ln.split('｜')[0].strip()}"
+        if marker in known:
+            continue
+        # ln 已含 [角色] 前缀 + 完整一行（避免 marker 与内容重复显示，2026-08-23 狗粮修正）
+        items.append(f"- {marker}｜{now}｜待王语嫣复核处置｜{ln}")
+        known.add(marker)
+        added += 1
+    if not added and PROPOSAL_BEGIN in text:
+        return
+    board = [
+        PROPOSAL_BEGIN, "",
+        "## 📬 PROPOSAL-PENDING（建议书到达，conveyor_probe.py 自动登记）", "",
+        "> 王语嫣复核立项后划掉该行（流程不变）。勿手改段结构——重跑会整块重写。",
+        "",
+    ] + items + ["", PROPOSAL_END]
+    if PROPOSAL_BEGIN in text:
+        new_text = text.split(PROPOSAL_BEGIN)[0] + "\n".join(board) + text.split(PROPOSAL_END)[1]
+    else:
+        new_text = text.rstrip() + "\n\n" + "\n".join(board) + "\n"
+    QUEUE_FILE.write_text(new_text, encoding="utf-8")
+    print(f"🩹 friction 线索登记: +{added}（累计 {len(items)} 条）→ PROPOSAL-PENDING")
+
+
+def _scan_friction(state: dict) -> list[str]:
+    """扫 friction-log 增量：state 记每文件已见行（行文本 hash）。返回新行（含来源角色标识）。"""
+    seen = state.setdefault("friction_seen", {})
+    new_lines = []
+    for fp in _friction_files():
+        try:
+            text = fp.read_text(encoding="utf-8", errors="ignore")
+        except OSError:
+            continue
+        key = str(fp)
+        known = set(seen.get(key, []))
+        fresh = []
+        for ln in text.splitlines():
+            line = ln.strip()
+            if not line or line.startswith(("#", "|", ">")):
+                continue  # 表头/注释/表分隔行不算
+            if "｜" not in line and "|" not in line:
+                continue  # 一行式格式校验（含分隔符才算记录）
+            h = _sha256(line)
+            if h not in known:
+                known.add(h)
+                fresh.append(line)
+        seen[key] = sorted(known)[-500:]  # 防膨胀
+        for ln in fresh:
+            role = fp.parent.name if fp.parent != SHARED_FRICTION.parent else "shared"
+            new_lines.append(f"[{role}] {ln}")
+    return new_lines
+
+
 # ── 通知：飞书群机器人 webhook（配置驱动；缺失 → dry-run 打印）──
 
 def _load_hooks() -> dict:
@@ -255,10 +341,11 @@ def main() -> int:
 
     state = _load_state()
 
-    # 一次扫描事件：检出三类信号（单份逻辑）
+    # 一次扫描事件：检出四类信号（单份逻辑，#458 第四探针同事件）
     queue_sig = _queue_signal(state)
     proposal_hits = _scan_proposals()
     registered = _update_proposal_board(proposal_hits)  # 登记（幂等）
+    friction_new = _scan_friction(state)  # 增量检测（state 幂等）
 
     messages: dict[str, str] = {}
     if queue_sig["new_review"]:
@@ -271,6 +358,10 @@ def main() -> int:
             messages[role] = f"📥 KDO 可领取 {len(items)} 单：{ids}"
     if registered:
         messages["wangyuyan"] = f"📬 KDO 新建议书 {len(registered)} 份待裁定：{', '.join(registered)}"
+    if friction_new:
+        # #458：friction 线索登记 PROPOSAL-PENDING（[friction] 类型）+ 通知王语嫣
+        _update_proposal_board_friction(friction_new)
+        messages["wangyuyan"] = f"🩹 KDO 新问题线索 {len(friction_new)} 条（friction）：{friction_new[0][:60]}{'…' if len(friction_new) > 1 else ''}"
 
     # 幂等：同 id 不重推（登记与通知同源——registered 是本次扫描产物）
     notified = set(state.get("notified", []))

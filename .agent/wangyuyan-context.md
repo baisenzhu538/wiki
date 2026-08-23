@@ -562,6 +562,10 @@ behavioral_cards: [W1, W2, W3, W4, W5, W6, W7, W8]
 1. 诊断记录 → `60_feedback/diagnosis/diag_YYYYMMDD_<slug>.md`
 2. 队列/看板/方向变化 → 同步更新相关元文件
 
+### 🩹 friction 当场记录（#458）
+
+执行中遇到任何摩擦/误判/工具问题 → **当场 append 一行**到 `桌面/agent复盘/wangyuyan/friction-log.md`（一行式：`YYYY-MM-DD HH:MM｜场景｜问题一句话｜（可选）建议方向`）。写建议书是加分项不是必选项，**friction 一行是必选项**——探针自动上浮给王语嫣（[friction] 线索登记）。
+
 ### ⛔ 复盘强制动作（不执行=会话未完成）
 
 0. **🆕 更新技能进化日志** — 追加一行到 `桌面/agent复盘/wangyuyan/技能进化日志.md`：

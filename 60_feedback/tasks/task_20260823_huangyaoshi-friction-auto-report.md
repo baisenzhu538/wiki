@@ -53,3 +53,29 @@ instance: huangyaoshi
 ## 执行报告（F-034 五字段+验证分层声明，complete 前必填）
 
 （生产者填写）
+## 执行报告（2026-08-23 黄药师）
+
+**完成内容**：问题主动上报自动化三层——记录零成本（friction 一行式）+ 传输全自动（探针第四探针）+ 复盘必填问题节兜底，根治"发现问题沉没"。
+
+**交付物**（改动文件清单）：
+1. `kdo-tools/conveyor_probe.py`：第四探针——`_scan_friction`（六角色 friction-log + 共享文件增量扫描，行 hash 幂等）+ `_update_proposal_board_friction`（[friction] 线索登记 PROPOSAL-PENDING，幂等）+ 通知王语嫣（同一次扫描事件，单扫描器纪律）；行式过滤（跳过 `|`/`#` 开头行——表格/注释不算记录）
+2. `kdo-tools/review-check.py`：A 级硬条件 +「本会话发现的问题/摩擦」节必填（缺失=降级，#458 兜底）
+3. `templates/daily-context-template.md`：加必填问题节
+4. 六份角色 context：加「🩹 friction 当场记录」话术（写建议书是加分项，friction 一行是必选项）
+5. 七份 `Desktop/agent复盘/<role>/friction-log.md`（行式模板，含格式说明）
+6. `kdo-tools/tests/test_conveyor_probe.py`：+2（增量检测幂等/线索登记幂等）
+
+**验证**（命令+输出）：
+- L1：pytest 15 passed（conveyor + review-check 23 全过）；增量幂等（重复扫描零新增）
+- L2 狗粮：append 一行测试摩擦 → 探针检出 +1 → PROPOSAL-PENDING 出现 `[friction]` 行 + 王语嫣飞书通知（🩹 KDO 新问题线索）——完整链路实测；测试行已清理，环境归零
+- L3 待活体：下一单真实摩擦 30 分钟内自动浮到王语嫣面前（如再遇门禁误判）
+
+**未做项**：
+- friction 行不强制建议书格式（轻量上浮面）；建议书通道保留（有方案的问题仍走完整建议书）
+- 共享 `.agent/friction-log.md` 历史保留（探针兼容扫描）；新旧双通道并存
+- 探针只搬运不判断（处置归王语嫣）
+
+**需要谁动作**：
+- 六角色：摩擦当场 append 一行（context 话术已加）
+- 王语嫣：复核 [friction] 线索（立案/忽略/转完整建议书）划掉
+- 欧阳锋：终审本单（抽「单扫描器/幂等/只搬运不判断」）

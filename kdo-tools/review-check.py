@@ -41,6 +41,9 @@ TEN_CHAPTERS = [
     "下次改进",
 ]
 
+# #458 强制兜底：复盘必填「问题」节（缺失=形式主义降级——有则列，无则写「无」）
+ISSUE_SECTION = "本会话发现的问题"
+
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
@@ -237,14 +240,17 @@ def check_content_depth(content: str, size: int) -> dict:
         diff_body = diff_section.split("\n", 1)[1] if "\n" in diff_section else ""
         diff_blank = len(diff_body.strip()) == 0
 
+    # #458 强制兜底：必填「本会话发现的问题」节（缺失=形式主义降级；有则列无则写「无」）
+    issue_missing = ISSUE_SECTION not in content
+
     # 深度四条硬指标（#419 B3-3）：manual 不拦，fail 拦 A 级
     deep = deep_check(content)
     deep_fails = [k for k, v in deep.items() if v["verdict"] == "fail"]
 
-    # A 级：≥3000B + 11章 + 差异栏非空 + 盲点≥2且有追问 + 检索有发现 + 深度四条全过（§10.4.1 A级要求）
+    # A 级：≥3000B + 11章 + 差异栏非空 + 盲点≥2且有追问 + 检索有发现 + 深度四条全过 + 问题节必填（#458）
     if (size >= 3000 and chapter_count == 11
             and not diff_blank and blindspot_count >= 2 and blindspot_has_why
-            and retrieval["has_discovery"] and not deep_fails):
+            and retrieval["has_discovery"] and not deep_fails and not issue_missing):
         grade = "A"
         emoji = "🟢"
     # C 级：差异栏空白（#268 重复自审红线）

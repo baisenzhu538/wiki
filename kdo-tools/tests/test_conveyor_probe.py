@@ -146,3 +146,40 @@ def test_route_split_buckets():
     rows = [("task_1", "1", "huangyaoshi"), ("task_2", "2", "wangyuyan"), ("task_3", "3", "laowantong")]
     buckets = probe._route_queued(rows)
     assert set(buckets.keys()) == {"huangyaoshi", "wangyuyan", "laowantong"}
+
+
+# ── #458 第四探针（friction 增量扫描）回归 ──
+
+def test_friction_scan_detects_new_lines(tmp_path, monkeypatch):
+    """friction 增量检测：新行被检出，重复行幂等。"""
+    f = tmp_path / "friction-log.md"
+    f.write_text("# friction\n\n| 时间 | 场景 | 问题 |\n|:--|:--|:--|\n\n2026-08-23 10:00｜门禁误判｜测试问题一｜建议收窄\n", encoding="utf-8")
+    monkeypatch.setattr(probe, "RETRO_ROOT", tmp_path.parent)
+    monkeypatch.setattr(probe, "FRICTION_ROLES", [tmp_path.name])
+    monkeypatch.setattr(probe, "SHARED_FRICTION", tmp_path / "none.md")
+
+    state = {}
+    first = probe._scan_friction(state)
+    assert len(first) == 1
+    assert "测试问题一" in first[0]
+
+    second = probe._scan_friction(state)
+    assert second == []  # 幂等：重复扫描零新增
+
+    # 追加新行 → 只检出新的
+    f.write_text(f.read_text(encoding="utf-8") + "2026-08-23 11:00｜工具卡顿｜测试问题二\n", encoding="utf-8")
+    third = probe._scan_friction(state)
+    assert len(third) == 1
+    assert "测试问题二" in third[0]
+
+
+def test_friction_registration_marks_clue(tmp_path, monkeypatch):
+    """friction 线索登记 PROPOSAL-PENDING：[friction] 标记 + 幂等。"""
+    queue = tmp_path / "production-queue.md"
+    queue.write_text(f"# 队列\n\n{probe.PROPOSAL_BEGIN}\n{probe.PROPOSAL_END}\n", encoding="utf-8")
+    monkeypatch.setattr(probe, "QUEUE_FILE", queue)
+    probe._update_proposal_board_friction(["[huangyaoshi] 2026-08-23 10:00｜门禁误判｜测试问题"])
+    text = queue.read_text(encoding="utf-8")
+    assert "[friction] [huangyaoshi] 2026-08-23 10:00" in text
+    probe._update_proposal_board_friction(["[huangyaoshi] 2026-08-23 10:00｜门禁误判｜测试问题"])
+    assert text.count("[friction]") == 1  # 幂等
