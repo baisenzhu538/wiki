@@ -239,6 +239,8 @@ TRANSITIONS: dict[tuple[str, str], str] = {
     # #429 F-029：等待外部输入态——不占 pending_review 阻塞位（find_blockers 只收 pending_review/claimed）
     ("pending_review", "mark_waiting"): "waiting-external",
     ("waiting-external", "resume"): "pending_review",
+    # #461：queued 单取消/被取代（终态，非删除——charter §3.15 上板冻结的出口）
+    ("queued", "cancel"): "cancelled",
 }
 
 
@@ -760,6 +762,46 @@ def _check_review_record(task_file: Path, review_file: str | None) -> tuple[bool
     return True, ""
 
 
+# #461：取消台账（谁/为何取消，与 #444 force 台账同款留痕精神）
+CANCEL_LEDGER = _WIKI_ROOT / "90_control" / "cancel-ledger.log"
+
+
+def action_cancel(task_id: str, instance: str, reason: str | None) -> tuple[bool, str]:
+    """#461：queued 单取消（被取代/不需要——终态，非删除）。--reason 必填（留痕：谁/为何）。"""
+    if not (reason and reason.strip()):
+        return False, "cancel 必须配 --reason '<取消理由>'（#461：谁/为何取消，台账可溯）"
+
+    rows = parse_queue()
+    task = find_task(task_id, rows)
+    if task is None:
+        return False, f"任务 {task_id} 不在队列中"
+    if task["status"] != "queued":
+        return False, f"任务 {task_id} 状态为 {task['status']}，仅 queued 可 cancel（claimed 先 release，pending_review 先退回）"
+
+    task_file = _find_task_file_dual(task_id)
+    if task_file is None:
+        return False, f"找不到任务单文件: {task_id}"
+
+    with QueueLock("production-queue"):
+        rows = parse_queue()
+        task = find_task(task_id, rows)
+        if task is None or task["status"] != "queued":
+            return False, "队列状态在加锁期间发生变化，请重试"
+        apply_updates(task_id, "cancelled", task_file,
+                      status="cancelled",
+                      cancelled_by=instance,
+                      cancel_reason=reason,
+                      cancelled_at=current_utc_date())
+    # 取消台账
+    try:
+        ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        with CANCEL_LEDGER.open("a", encoding="utf-8") as f:
+            f.write(f"{ts}｜{task_id}｜{instance}｜{reason[:100]}\n")
+    except Exception:
+        pass
+    return True, f"⏹️ {task_id} 已取消（cancelled，reason: {reason[:50]}）——终态，重新做=新单"
+
+
 def action_mark_waiting(task_id: str, note: str | None = None) -> tuple[bool, str]:
     """#429 F-029：pending_review → waiting-external（等老朱/外部输入，不占审查位不阻塞领取）。
 
@@ -1005,6 +1047,8 @@ def main() -> int:
         ok, msg = action_mark_waiting(task_id, note)
     elif action in ("resume",):
         ok, msg = action_resume(task_id)
+    elif action == "cancel":
+        ok, msg = action_cancel(task_id, instance, reason or note)  # --reason 优先（#461 语义），--note 兼容
     else:
         print(__doc__, file=sys.stderr)
         return 1
@@ -1013,7 +1057,7 @@ def main() -> int:
     if ok:
         _refresh_dashboard()
         # #390：流转成功（含 dashboard 刷新）后自动 git 收口；门禁拦截的流转到不了这里
-        if not no_commit and action in ("claim", "complete", "release", "review", "mark-waiting", "resume"):
+        if not no_commit and action in ("claim", "complete", "release", "review", "mark-waiting", "resume", "cancel"):
             actor = reviewer if action == "review" else instance
             _git_commit_transition(task_id, action, actor or "")
     return 0 if ok else 1

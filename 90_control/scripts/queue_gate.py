@@ -120,6 +120,9 @@ def can_claim(task_id: str, rows: list[dict] | None = None, instance: str = "") 
     if task["status"] == "reviewed":
         return False, f"任务 {task_id} 已经是 reviewed，无需领取"
 
+    if task["status"] == "cancelled":
+        return False, f"任务 {task_id} 已取消（cancelled，#461）——重新做=新单，不可领取"
+
     if task["status"] == "pending_review":
         return False, f"任务 {task_id} 是 pending_review，等待欧阳锋终审，老顽童不能领取"
 

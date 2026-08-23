@@ -44,6 +44,24 @@ instance: huangyaoshi
 
 - #460（取代场景暴露者）；#444（reason 必填+台账先例）；#453（归档规则）；charter §3.15（上板冻结与取消的边界：内容冻结+状态机出口）
 
-## 执行报告（F-034 五字段+验证分层声明，complete 前必填）
+## 执行报告（2026-08-23 黄药师）
 
-（生产者填写）
+**完成内容**：queue_transition cancel 命令——queued 单取消/被取代终态（非删除），#458/#459 挂账清账工具。
+
+**交付物**（改动文件清单）：
+1. `90_control/scripts/queue_transition.py`：TRANSITIONS + `("queued","cancel")→cancelled`；`action_cancel`（--reason 必填、仅 queued、apply_updates cancelled + cancelled_by/reason/at 字段）；`CANCEL_LEDGER`（`90_control/cancel-ledger.log` 台账）；main 派发（--reason 优先 --note 兼容）
+2. `90_control/scripts/queue_gate.py`：can_claim 加 cancelled 分支（报「已取消」非「不存在」）
+3. `90_control/scripts/tests/test_queue_transition.py`：+4 cancel 回归 + **修复旧测试污染**（TestReviewBoardBatchReregister 改 QUEUE_PATH 不恢复——全量跑污染实证，已加 try/finally）
+
+**验证**（命令+输出）：
+- L1：pytest **45 passed**（41 原有 + 4 新增：reason 必填/queued 可 cancel/非 queued 拒/cancelled 不可 claim）
+- L2 狗粮：隔离环境真实 CLI `cancel --reason` → rc=0 + 任务单 frontmatter `status: cancelled` + 队列行流转 ✅；测试产物已清理
+- L3 待活体：#458/#459 首批 cancel（王语嫣执行，reason=被 #460 取代）
+
+**未做项**：
+- cancelled 单任务单文件保留原样（冻结留档）；取消不可逆（重新做=新单，与修订走新任务书纪律一致）
+- 探针/dashboard/归档天然适配（new_queued 只取 queued、cancelled 不计活跃、归档同 reviewed）
+
+**需要谁动作**：
+- 王语嫣：cancel #458/#459（`queue_transition.py cancel <id> --instance wangyuyan --reason "被 #460 取代"`）
+- 欧阳锋：终审本单（抽「reason 必填/仅 queued/终态非删除」）

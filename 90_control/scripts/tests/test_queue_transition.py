@@ -151,14 +151,18 @@ class TestReviewBoardBatchReregister(unittest.TestCase):
                 encoding="utf-8",
             )
             import queue_transition
+            old_q = queue_transition.QUEUE_PATH
             queue_transition.QUEUE_PATH = qpath
 
-            _review_board_update(register={
-                "seq": "411",
-                "task_id": "task_20260822_laowantong-related-asymmetry-backfill",
-                "assignee": "hermes",
-                "task_file": "f.md",
-            })
+            try:
+                _review_board_update(register={
+                    "seq": "411",
+                    "task_id": "task_20260822_laowantong-related-asymmetry-backfill",
+                    "assignee": "hermes",
+                    "task_file": "f.md",
+                })
+            finally:
+                queue_transition.QUEUE_PATH = old_q  # 恢复——否则污染后续测试（2026-08-23 #461 全量污染实证）
             text = qpath.read_text(encoding="utf-8")
             # 修复后：已划掉行不算已登记 → 应追加第二行未划掉的登记
             lines = [l for l in text.splitlines() if l.startswith("- ") and "task_20260822" in l]
@@ -498,3 +502,69 @@ class TestDisposalGateStructured(unittest.TestCase):
             ok, msg = qt._check_disposal_gate(fp, {"title": "测试"}, "task_9999_test")
         self.assertTrue(ok)  # 不硬拦
         self.assertIn("疑似处置未标记", msg)  # 提示引导补 disposal:true
+
+
+# ── #461 cancel 命令回归（queued 单取消/被取代终态）──
+
+class TestCancelCommand(unittest.TestCase):
+    """#461：queued 可 cancel / reason 必填 / cancelled 后 claim 拒 / 非 queued 拒。
+    函数级 mock（parse_queue 默认参数在 queue_gate 定义时绑定，改模块属性无效——#444 同坑）。"""
+
+    def _mock(self, status):
+        self._tmpdir = Path(tempfile.mkdtemp())
+        self._task_fp = self._tmpdir / "task_cancel_test.md"
+        self._task_fp.write_text("---\nid: 9999\nassignee: huangyaoshi\nstatus: queued\n---\n# t\n", encoding="utf-8")
+        # apply_updates 里 backup(QUEUE_PATH) 读队列文件——mock 一个真实存在的临时队列
+        self._queue_fp = self._tmpdir / "production-queue.md"
+        self._queue_fp.write_text("# 队列\n", encoding="utf-8")
+        self._rows = [{
+            "seq": "9999", "task_id": "task_cancel_test", "name": "测试",
+            "status": status, "assignee": "huangyaoshi", "raw": "",
+        }]
+        self._olds = (qt.parse_queue, qt.find_task, qt._find_task_file_dual, qt.update_queue_status, qt.QUEUE_PATH)
+        qt.parse_queue = lambda: self._rows
+        qt.find_task = lambda tid, rows=None: (self._rows[0] if tid == "task_cancel_test" else None)
+        qt._find_task_file_dual = lambda tid: self._task_fp
+        qt.update_queue_status = lambda tid, st: None  # 不写真实队列文件（隔离）
+        qt.QUEUE_PATH = self._queue_fp
+
+    def _restore(self):
+        qt.parse_queue, qt.find_task, qt._find_task_file_dual, qt.update_queue_status, qt.QUEUE_PATH = self._olds
+
+    def test_reason_required(self):
+        self._mock("queued")
+        try:
+            ok, msg = qt.action_cancel("task_cancel_test", "huangyaoshi", None)
+        finally:
+            self._restore()
+        self.assertFalse(ok)
+        self.assertIn("--reason", msg)
+
+    def test_queued_cancel_success(self):
+        self._mock("queued")
+        try:
+            ok, msg = qt.action_cancel("task_cancel_test", "huangyaoshi", "被 #999 取代")
+        finally:
+            self._restore()
+        self.assertTrue(ok)
+        self.assertIn("cancelled", msg)
+
+    def test_non_queued_rejected(self):
+        self._mock("pending_review")
+        try:
+            ok, msg = qt.action_cancel("task_cancel_test", "huangyaoshi", "test")
+        finally:
+            self._restore()
+        self.assertFalse(ok)
+        self.assertIn("仅 queued", msg)
+
+    def test_cancelled_not_claimable(self):
+        """cancelled 后 claim → 报「已取消」非「不存在」（can_claim 显式传 rows）。"""
+        self._mock("cancelled")
+        try:
+            from queue_gate import can_claim
+            ok, msg = can_claim("task_cancel_test", self._rows, "huangyaoshi")
+        finally:
+            self._restore()
+        self.assertFalse(ok)
+        self.assertIn("已取消", msg)
