@@ -1,10 +1,11 @@
 ---
 id: 467
 assignee: laowantong
-status: queued
-updated_at: '2026-08-23T13:00:00+00:00'
+status: in_progress
+updated_at: '2026-08-23T10:33:12.841761+00:00'
 version: v1.0
 doc_id: D-20260823-012
+instance: hermes
 ---
 # #467 半肥猫素材 C 档：深度案例 2 篇（原汁原味含失败）
 
