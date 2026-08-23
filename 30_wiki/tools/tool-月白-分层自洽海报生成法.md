@@ -36,6 +36,16 @@ related:
 - 'dk-aesthetic-redline-doc'
 - '[[aigc设计基础01ai生图原理与提示词基本功]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 提示词
+  - 海报
+  - 文创
+  - 工具
+  - 方法
+  - 流程
+  - 模型幻觉
 ---
 # 技能：分层自洽海报生成法
 

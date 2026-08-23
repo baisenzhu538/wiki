@@ -35,6 +35,16 @@ related:
 - 'tool-月白-AIGC反向拆解法'
 - 'case-truman-ai-image-workflow-evolution'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AI设计
+  - 提示词
+  - 图片
+  - 工具
+  - 方法
+  - 边界
+  - 模板
 ---
 # 技能：图片逆向反推提示词法
 

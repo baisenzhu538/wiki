@@ -37,6 +37,15 @@ related:
 - '[[tool-月白-80分效率设计策略]]'
 - '[[tool-月白-文件命名与平台适配规范]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AIGC
+  - 提示词
+  - 文创
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：小红书双重搜索法
 

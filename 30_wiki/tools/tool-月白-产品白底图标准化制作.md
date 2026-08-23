@@ -36,6 +36,15 @@ related:
 - 'dk-aesthetic-redline-doc'
 - '[[tool-月白-80分效率设计策略]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 白底图
+  - 文创
+  - 工具
+  - 方法
+  - 效率
+  - 实操
 ---
 # 技能：产品白底图标准化制作
 

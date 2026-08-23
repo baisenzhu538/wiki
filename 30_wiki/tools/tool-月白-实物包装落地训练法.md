@@ -36,6 +36,14 @@ related:
 - 'dk-three-context-formula'
 - '[[tool-月白-文件命名与平台适配规范]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 文创
+  - 工具
+  - 方法
+  - 流程
+  - 实操
 ---
 # 技能：实物包装落地训练法
 

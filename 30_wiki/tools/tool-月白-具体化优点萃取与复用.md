@@ -35,6 +35,14 @@ related:
 - 'tool-月白-AI对话情绪管理法'
 - 'dk-three-context-formula'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 文创
+  - 机制
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：具体化优点萃取与复用
 

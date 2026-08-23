@@ -42,6 +42,15 @@ related:
 - '[[yt-growth-sales-led-growth]]'
 - '[[feishu-docx-pagination-extraction]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AI设计
+  - 工具
+  - 方法
+  - 效率
+  - 设计师
+  - 实操
 ---
 # 技能：创作与执行双模式切换
 

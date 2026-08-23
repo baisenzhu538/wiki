@@ -35,6 +35,15 @@ related:
 - 'tool-月白-AIGC反向拆解法'
 - 'case-truman-ai-image-workflow-evolution'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 提示词
+  - 文创
+  - 工具
+  - 方法
+  - 工作流
+  - 实操
 ---
 # 技能：口喷作图工作流
 

@@ -37,6 +37,14 @@ related:
 - '[[yt-business-model-partnership]]'
 - '[[dk-yb6-midjourney-chinese-text-fix]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 提示词
+  - 文创
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：多语种专业名词提示词策略
 

@@ -37,6 +37,14 @@ related:
 - '[[dk-yb11-visual-book-reverse]]'
 - '[[dk-yb6-midjourney-chinese-text-fix]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AI设计
+  - 提示词
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：一抽流长提示词写作法
 

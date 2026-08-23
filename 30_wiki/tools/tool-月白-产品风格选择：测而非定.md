@@ -38,6 +38,16 @@ related:
 - 'dk-aesthetic-redline-doc'
 - '[[dk-yb23-ai-pre-screen-three-minutes]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 文创
+  - 工具
+  - 方法
+  - 设计师
+  - 非设计师
+  - 创业者
+  - 实操
 ---
 # 技能：产品风格选择：测而非定
 

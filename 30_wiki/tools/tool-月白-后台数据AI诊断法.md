@@ -37,6 +37,13 @@ related:
 - '[[yt-concept-peas-insight]]'
 - '[[tool-strategy-customer-selection]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 文创
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：后台数据AI诊断法
 

@@ -36,6 +36,16 @@ related:
 - 'dk-three-context-formula'
 - '[[dk-p13-token-burn]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AIGC
+  - 提示词
+  - 文创
+  - 工具
+  - 方法
+  - 边界
+  - 设计师
 ---
 # 技能：Token效价比决策公式
 

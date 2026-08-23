@@ -36,6 +36,16 @@ related:
 - 'case-truman-ai-image-workflow-evolution'
 - '[[dk-yb23-ai-pre-screen-three-minutes]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AIGC
+  - 提示词
+  - 文创
+  - 图片
+  - 工具
+  - 方法
+  - 工作流
 ---
 # 技能：PPT风格锁定工作流
 

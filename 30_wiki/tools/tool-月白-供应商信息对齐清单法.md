@@ -42,6 +42,13 @@ related:
 - '[[tool-checklist-cheatsheet-modeling]]'
 - '[[tool-月白-80分效率设计策略]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 文创
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：供应商信息对齐清单法
 

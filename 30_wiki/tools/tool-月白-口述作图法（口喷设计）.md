@@ -40,6 +40,14 @@ related:
 - '[[tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]'
 - '[[yt-product-kernel-mvp-design]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 文创
+  - 工具
+  - 方法
+  - 实操
+  - 口述
 ---
 # 技能：口述作图法（口喷设计）
 

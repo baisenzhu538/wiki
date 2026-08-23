@@ -36,6 +36,16 @@ related:
 - 'dk-aesthetic-redline-doc'
 - '[[tool-月白-80分效率设计策略]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 生图
+  - 图生图
+  - 海报
+  - 文创
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：叙事性场景海报构建
 

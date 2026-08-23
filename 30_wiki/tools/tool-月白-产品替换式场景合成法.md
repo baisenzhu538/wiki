@@ -36,6 +36,16 @@ related:
 - 'dk-three-context-formula'
 - '[[tool-strategy-customer-selection]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 生图
+  - 图生图
+  - 提示词
+  - 白底图
+  - 文创
+  - 工具
+  - 方法
 ---
 # 技能：产品替换式场景合成法
 

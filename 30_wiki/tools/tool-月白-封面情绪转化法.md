@@ -38,6 +38,14 @@ related:
 - '[[tool-strategy-customer-selection]]'
 - '[[tool-立即实践转化法]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 文创
+  - 封面
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：封面情绪转化法
 

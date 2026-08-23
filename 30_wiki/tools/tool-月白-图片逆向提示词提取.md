@@ -36,6 +36,16 @@ related:
 - 'dk-three-context-formula'
 - '[[feishu-docx-pagination-extraction]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AI设计
+  - AIGC
+  - 提示词
+  - 图片
+  - 框架
+  - 工具
+  - 方法
 ---
 # 技能：图片逆向提示词提取
 

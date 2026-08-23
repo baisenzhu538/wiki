@@ -37,6 +37,15 @@ related:
 - 'dk-three-context-formula'
 - '[[tool-纪浩-问题导向备课法]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AI设计
+  - 提示词
+  - 工具
+  - 方法
+  - 设计师
+  - 实操
 ---
 # 技能：分步迭代改图法
 

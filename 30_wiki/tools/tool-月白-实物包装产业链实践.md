@@ -35,6 +35,15 @@ related:
 - 'tool-月白-AI对话情绪管理法'
 - 'dk-three-context-formula'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 海报
+  - 文创
+  - 工具
+  - 方法
+  - 流程
+  - 实操
 ---
 # 技能：实物包装产业链实践
 

@@ -35,6 +35,15 @@ related:
 - 'tool-月白-AI图生图尺寸快速转换'
 - 'dk-three-context-formula'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AI设计
+  - 图片
+  - 工具
+  - 方法
+  - 设计师
+  - 实操
 ---
 # 技能：一抽流改图法（自然语言精准许愿法）
 

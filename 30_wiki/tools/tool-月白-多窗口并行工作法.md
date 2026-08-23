@@ -35,6 +35,16 @@ related:
 - 'tool-月白-AI对话情绪管理法'
 - 'dk-three-context-formula'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AI设计
+  - 提示词
+  - 工具
+  - 方法
+  - 效率
+  - 设计师
+  - 实操
 ---
 # 技能：多窗口并行工作法
 

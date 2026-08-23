@@ -37,6 +37,16 @@ related:
 - '[[yt-concept-peas-insight]]'
 - '[[tool-纪浩-problem-validation-four-checks]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 海报
+  - 表情包
+  - 文创
+  - 封面
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：小红书封面趋势判断法
 

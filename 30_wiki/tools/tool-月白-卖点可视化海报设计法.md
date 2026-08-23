@@ -35,6 +35,15 @@ related:
 - 'tool-月白-AIGC餐饮海报优化一抽流'
 - 'dk-aesthetic-redline-doc'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AI设计
+  - 海报
+  - 工具
+  - 方法
+  - 设计师
+  - 实操
 ---
 # 技能：卖点可视化海报设计法
 

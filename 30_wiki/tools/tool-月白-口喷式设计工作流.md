@@ -38,6 +38,15 @@ related:
 - '[[tool-Truman-AI工具选型决策]]'
 - '[[tool-月白-基于基础形象做动作延展（1到10）]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 文创
+  - 工具
+  - 方法
+  - 工作流
+  - 实操
+  - 质价比
 ---
 # 技能：口喷式设计工作流
 

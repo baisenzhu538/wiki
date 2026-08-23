@@ -40,6 +40,13 @@ related:
 - '[[tool-月白-风格不变局部调整]]'
 - '[[tool-月白-风格探索试错法]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 文创
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：RGB转CMYK色彩校准法
 

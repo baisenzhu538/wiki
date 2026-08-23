@@ -38,6 +38,15 @@ related:
 - '[[dk-yb1-aigc-mvp-before-ps]]'
 - '[[dk-yb4-nano-banana-style-reproduction]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AI设计
+  - 提示词
+  - 工具
+  - 方法
+  - 工作流
+  - 实操
 ---
 # 技能：PPT全AI生成工作流
 

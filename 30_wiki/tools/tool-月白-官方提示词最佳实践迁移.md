@@ -37,6 +37,15 @@ related:
 - '[[yt-tool-best-practice-learning]]'
 - '[[dk-yb6-midjourney-chinese-text-fix]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AI设计
+  - 提示词
+  - 工具
+  - 方法
+  - 设计师
+  - 实操
 ---
 # 技能：官方提示词最佳实践迁移
 

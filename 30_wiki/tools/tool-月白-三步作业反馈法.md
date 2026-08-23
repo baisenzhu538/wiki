@@ -39,6 +39,13 @@ related:
 - '[[tool-月白-设计师AI资产四类型沉淀]]'
 - '[[tool-月白-设计文件八要素命名法]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AI设计
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：三步作业反馈法
 

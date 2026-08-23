@@ -36,6 +36,15 @@ related:
 - 'case-truman-ai-image-workflow-evolution'
 - '[[dk-yitang-business-formula-plus-times-trap]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 文创
+  - 工具
+  - 方法
+  - 设计师
+  - 非设计师
+  - 实操
 ---
 # 技能：基于需求拆解找设计参考
 

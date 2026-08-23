@@ -36,6 +36,16 @@ related:
 - 'dk-three-context-formula'
 - '[[dk-yb3-diffusion-stepwise-vs-human-holistic]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 生图
+  - 图生图
+  - 提示词
+  - 白底图
+  - 文创
+  - 图片
+  - 工具
 ---
 # 技能：图生图产品替换与场景合成
 

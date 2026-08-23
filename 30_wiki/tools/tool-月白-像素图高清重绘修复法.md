@@ -35,6 +35,16 @@ related:
 - 'tool-月白-AI对话情绪管理法'
 - 'dk-three-context-formula'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 提示词
+  - 文创
+  - 图片
+  - 工具
+  - 方法
+  - 边界
+  - 实操
 ---
 # 技能：像素图高清重绘修复法
 

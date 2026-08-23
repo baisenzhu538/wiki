@@ -36,6 +36,14 @@ related:
 - 'dk-three-context-formula'
 - '[[tool-月白-文件命名与图层命名规范]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 文创
+  - 图片
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：印刷DPI标准设置
 

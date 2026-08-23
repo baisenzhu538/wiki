@@ -39,6 +39,16 @@ related:
 - '[[dk-truman-iteration-to-aesthetic-ceiling]]'
 - '[[tool-agent-research-supervisor]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AI设计
+  - AIGC
+  - 提示词
+  - 工具
+  - 方法
+  - 设计师
+  - 实操
 ---
 # 技能：Token智甲比控制法
 

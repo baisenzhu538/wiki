@@ -37,6 +37,15 @@ related:
 - '[[dk-yb19-visual-strategy-price-match]]'
 - '[[tool-月白-小红书平台内容策略：从美图经济到沙雕梗图]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AI设计
+  - 图片
+  - 工具
+  - 方法
+  - 设计师
+  - 实操
 ---
 # 技能：价格带视觉策略匹配
 

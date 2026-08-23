@@ -35,6 +35,15 @@ related:
 - 'tool-月白-AI对话情绪管理法'
 - 'dk-three-context-formula'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 文创
+  - 工具
+  - 方法
+  - 模板
+  - 设计师
+  - 实操
 ---
 # 技能：包材工艺参数核对法
 

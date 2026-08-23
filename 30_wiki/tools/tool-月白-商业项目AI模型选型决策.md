@@ -36,6 +36,14 @@ related:
 - 'dk-three-context-formula'
 - '[[case-guang-leng-dian-zi-hx-smj]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 模型选型
+  - 文创
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：商业项目AI模型选型决策
 
