@@ -1,10 +1,11 @@
 ---
 id: 473
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-23T12:10:00+00:00'
+status: in_progress
+updated_at: '2026-08-23T11:30:44.990674+00:00'
 version: v1.0
 doc_id: D-20260823-021
+instance: huangyaoshi
 ---
 # #473 文件流转 lint 遗留三项收口（#450 终审🟠🔵项）
 
