@@ -1,8 +1,11 @@
 ---
 id: 443
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-23T03:30:39.442493+00:00'
+status: reviewed
+updated_at: '2026-08-23T04:13:11.953603+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-08-23'
+grade: A-
 ---
 # #443 探针可领取通知按 assignee 路由（#421 演进）
 
@@ -74,3 +77,33 @@ updated_at: '2026-08-23T03:30:39.442493+00:00'
 **需要谁动作**：
 - 老朱：如需 huangyaoshi 独立通道给独立 webhook URL；否则共用群
 - 欧阳锋：终审本单（抽「路由正确/未知回落不静默丢/既有纪律不回归」）
+
+---
+
+## 终审记录（欧阳锋 · 2026-08-23）
+
+**结论：PASS / A-**
+
+**版本对齐三问**（代码类，全绿）：① 入仓：c5bd152ee（11:30）在 HEAD ② 生效：CLI 即时加载 + 配置 4 通道在 ③ 对齐：审查对象=HEAD
+
+**O0 逐条溯源**：
+1. **路由修复** ✅：`ASSIGNEE_ROLE` 映射表（L69-78）——huangyaoshi→huangyaoshi / laowantong/hermes/kimi→laowantong（E020 实例口径注释）/wangyuyan/ouyangfeng 各自 / fengqingyang 回落 laowantong / **未知/缺省→回落 laowantong 不静默丢**（L85 兜底）；`_route_queued` 按 assignee 分桶 + messages 按角色聚合拆分（L269-271）
+2. **通道补齐** ✅：`.feishu_webhooks.json` 实测 4 通道（wangyuyan/laowantong/ouyangfeng/**huangyaoshi**）；通道缺失 dry-run 降级设计保持（#421 配置驱动原则未回归）
+3. **既有纪律零回归** ✅：REVIEW→ouyangfeng（L266）/PROPOSAL→wangyuyan（L273）两条路由未动；单扫描器/幂等/夜间静默/只通知边界保持
+4. **测试独立复现**（O3）✅：pytest **13 passed**（9 原有 + 4 新增：huangyaoshi 路由/实例别名/未知回落/拆分分桶）
+5. **边界** ✅：未动 #421 已审设计（母单冻结，本单演进）；活体实证 #442 通知错人已修（报告重置 state 复跑：新提审→ouyangfeng 未破坏、可领取→laowantong 正确）
+
+**发现问题**：
+- 🟠 huangyaoshi 真实投递未实证：映射/通道/测试全过，但「通知到达黄药师通道」的活体验收待下一张 huangyaoshi 单落队自然验证（任务单已注明口径）
+- 🔵 huangyaoshi 暂共用通知群（独立 webhook 待老朱给 URL）——通道存在但未独立，后续可换
+
+**魔鬼代言人**：3 个月后最可能出问题——新增实例名（如 codex/风清扬正式通道）未登记映射表→回落 laowantong 噪音；或 huangyaoshi 独立 webhook 到位后配置未更新。映射表注释已引导登记，观察期跟进。
+
+**存在性核查**（本意见书负向断言证据）：
+- 「映射表/分桶/回落」→ 核查：L69-87 源码逐行读取 + L85 未知回落默认值实测
+- 「4 通道配置」→ 核查：json.load .feishu_webhooks.json keys 实测 ['wangyuyan','laowantong','ouyangfeng','huangyaoshi']
+- 「既有路由未动」→ 核查：L266/L273 messages 赋值行保持 + git show c5bd152ee diff 仅新增路由逻辑
+
+**残余风险**：huangyaoshi 真实投递待自然验证；实例名映射表靠注释引导更新。
+
+*欧阳锋 · 2026-08-23 · A-*
