@@ -1,8 +1,8 @@
 ---
 id: 478
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-23T13:01:19.076721+00:00'
+status: pending_review
+updated_at: '2026-08-23T13:03:36.881012+00:00'
 version: v0.1
 instance: huangyaoshi
 ---
@@ -68,3 +68,23 @@ instance: huangyaoshi
 - **王语嫣**：③自办——重跑 review-check 验证 08-23 复盘（晚间场已含问题节）能否回 A（不占黄药师，编排侧即办）
 - **欧阳锋**：终审（抽「失败项明细可自解释/判定逻辑未动」）
 - **老朱**（①挂拍板窗口）：agent-os §10.4.1 补「问题节必填(#458)」——文档对齐探测器逻辑，待拍板后并入 agent-os 改动单
+
+## 执行报告（2026-08-23 黄药师）
+
+**完成内容**：review-check 判 B/C 输出失败项明细（D-022 建议书部分采纳②）——判定逻辑收集 A 级条件逐项失败，B/C 输出明细列表（项名+检查结果+降级原因），A 级输出不变。
+
+**交付物**（改动文件清单）：
+1. `kdo-tools/review-check.py`：check_content_depth 加 cond_failures 逐项收集（size/章节/差异栏/盲点+追问/检索 has_discovery/深度四条/#458 问题节）+ 返回 dict 加 `failures`；print_report 的 B/C 行输出失败项明细（前 4 项+超出计数）
+2. `kdo-tools/tests/test_review_check_deep.py`：2 用例（B 级 failures 含 #458 问题节项/A 级 failures 为空）
+
+**验证**（命令+输出）：
+- L1 单测：`pytest tests/test_review_check_deep.py` → **10 passed**；kdo-tools 全量 → **55 passed**
+- L2 狗粮：真实库跑——duanwangye B 级现在输出 3 条失败项自解释（检索无发现/深度 epiphany_reversal/#458 问题节缺失）；**王语嫣已补问题节回 A 级**（25887B，建议书 D-022 处置生效实证）；huangyaoshi A 级 failures 为空输出不变
+- L3 待活体：下次判 B/C 的复盘差异可自解释（无需人工查代码）
+
+**未做项**：
+- agent-os §10.4.1 文档对齐（①）不在本单——挂老朱拍板窗口（任务书边界，E047 单内范围冻结）
+
+**需要谁动作**：
+- 王语嫣：复核输出格式（B/C 行失败项明细可读性）
+- 欧阳锋：终审本单（抽「失败项收集逻辑/真实库输出/测试」）

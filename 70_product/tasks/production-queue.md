@@ -103,7 +103,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 475 | `task_20260823_wangyuyan-472-coldstart-absorb` | 吸收#472路由层进六角色context冷启动链（恢复完直接答三问：领哪单/用什么招/先掌握什么） | reviewed | wangyuyan | 六spec冷启动段+role-routes衔接说明 | 用户令收口#472入口层 | `60_feedback/tasks/task_20260823_wangyuyan-472-coldstart-absorb.md` | 王语嫣自办不占黄药师；接#419冷启动铁律；解欧阳锋#472残余风险(spec↔role-routes同步纪律)；只读导航不改#472本体；欧阳锋终审 |
 | 476 | `task_20260823_wangyuyan-queue-status-check-discipline` | 队列状态核对纪律固化（禁用正则手搓，统一走queue_transition对账；E051闭环） | reviewed | wangyuyan | context/skill铁律+轻量包装命令 | E051误报#474状态用户纠正 | `60_feedback/tasks/task_20260823_wangyuyan-queue-status-check-discipline.md` | 王语嫣自办不占黄药师；任务1纪律固化立即可做；任务2方案A轻量/方案B留演进候选；与E041/E038/E017同族补全；欧阳锋终审 |
 | 477 | `task_20260823_huangyaoshi-task-docid-field-removal` | 任务单doc_id字段违规处置（模板移除+存量清理，E045闭环；#473工具实证） | pending_review | huangyaoshi | 模板改+存量批移除+spec卡doc_id | 欧阳锋建议书采纳方向①（纠偏非口径变更） | `60_feedback/tasks/task_20260823_huangyaoshi-task-docid-field-removal.md` | 只移除doc_id不动内容；#450lint已把门模板修掉断源；存量先清单→dry-run→单卡→人工审→批量；E003快照/E017yaml解析/E046不吞节/E050path-scoped；顺序#479→477→478禁同轮≥3；欧阳锋终审 |
-| 478 | `task_20260823_huangyaoshi-review-check-failure-detail` | review-check判B/C输出失败项明细（差异可自解释，E049同族） | claimed-huangyaoshi | huangyaoshi | review-check.py失败项明细输出+单测 | 黄药师建议书部分采纳② | `60_feedback/tasks/task_20260823_huangyaoshi-review-check-failure-detail.md` | 只改输出层不动判定逻辑；①agent-os§10.4.1补问题节必填挂老朱拍板窗口不塞本单；王语嫣③自办重跑验证回A；顺序#479→477→478禁同轮≥3；欧阳锋终审 |
+| 478 | `task_20260823_huangyaoshi-review-check-failure-detail` | review-check判B/C输出失败项明细（差异可自解释，E049同族） | pending_review | huangyaoshi | review-check.py失败项明细输出+单测 | 黄药师建议书部分采纳② | `60_feedback/tasks/task_20260823_huangyaoshi-review-check-failure-detail.md` | 只改输出层不动判定逻辑；①agent-os§10.4.1补问题节必填挂老朱拍板窗口不塞本单；王语嫣③自办重跑验证回A；顺序#479→477→478禁同轮≥3；欧阳锋终审 |
 | 479 | `task_20260823_huangyaoshi-queue-batch-accept` | 批次验收工具化queue_batch_accept.py（#426批次线，静默失败根治；复用#453模式） | queued | huangyaoshi | queue_batch_accept.py+单测+dry-run | 欧阳锋建议书采纳立项（#426第4次静默失败） | `60_feedback/tasks/task_20260823_huangyaoshi-queue-batch-accept.md` | 四步一体+每步断言+前后对账+dry-run+原子commit；不动queue_transition状态机；B2-4想犯错也犯不了；顺序#479(P1)→477→478禁同轮≥3；欧阳锋终审 |
 | 480 | `task_20260823_wangyuyan-426-tags-acceptance-caliber` | #426后续批次验收标准升级口径单（抽查读正文+机械辅助，E047上板冻结传口径） | queued | wangyuyan | 口径三条款落盘（append不吞节） | 欧阳锋建议书采纳（25%错配率实证） | `60_feedback/tasks/task_20260823_wangyuyan-426-tags-acceptance-caliber.md` | 不改#426本体（上板冻结传口径）；王语嫣不改卡O7补词归老顽童；机械辅助挂#474扩展；存量复查增量不推翻已验收；欧阳锋终审 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
@@ -143,6 +143,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#474 task_20260823_huangyaoshi-tags-audit-fullscan｜huangyaoshi｜提审 08-23 20:18｜60_feedback/tasks/task_20260823_huangyaoshi-tags-audit-fullscan.md~~ → 已终审 PASS A-（2026-08-23 欧阳锋）
 - ~~#426 task_20260822_laowantong-tags-judgment-batch｜laowantong｜提审 08-23 20:46｜60_feedback/tasks/task_20260822_laowantong-tags-judgment-batch.md~~ → 第三批（ai-collaboration dk）验收通过（2026-08-23 欧阳锋，批次验收——恢复 queued 继续）
 - #477 task_20260823_huangyaoshi-task-docid-field-removal｜huangyaoshi｜提审 08-23 21:01｜60_feedback/tasks/task_20260823_huangyaoshi-task-docid-field-removal.md
+- #478 task_20260823_huangyaoshi-review-check-failure-detail｜huangyaoshi｜提审 08-23 21:03｜60_feedback/tasks/task_20260823_huangyaoshi-review-check-failure-detail.md
 
 <!-- REVIEW-PENDING-END -->
 
