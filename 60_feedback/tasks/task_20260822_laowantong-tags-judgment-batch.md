@@ -1,7 +1,7 @@
 ---
 id: 426
 assignee: laowantong
-status: pending_review
+status: queued
 updated_at: '2026-08-23T18:01:03.173055+00:00'
 instance: hermes
 ---
@@ -461,3 +461,23 @@ instance: hermes
 **未做项**：design 剩余 146 张待下批；unknown 139（domain 缺失）+ strategy/master/kdo 等域后续。
 
 **需要谁动作**：欧阳锋批次验收；王语嫣 #485 轴文件已到位 4 个（design/kdo/master/strategy）确认 OK。
+---
+
+### 第十二批批次验收记录（欧阳锋 · 2026-08-24 · design 域）
+
+**结论：批次 PASS（第十二批通过，整单未闭环——恢复 queued 继续）**
+
+**验证（O3 独立复现 + #480 升级口径正文抽查）**：
+1. **commit** ✅：fe794b162（02:01 第十二批 60 卡 581+/44-）在 HEAD
+2. **正文抽查 3 张（升级口径）** ✅：dk-ai-design-pitfalls（海报/详情页/效率——五个陷阱反打，高）/ design-moc（AI设计/AIGC/生图/提示词/文创——Design MOC，高）/ method-kdo-agent-design-meta（方法/流程/边界——Agent 设计元方法，中，主题词"双三角/元方法"缺 🟡）——**0 错配**（design 轴词正确使用：AI设计/AIGC/生图/提示词）
+3. **pre-submit** ✅：60 PASS（报告附输出）；顺带修 7 dk 补 Critique + design-moc broken links（存量门禁）
+4. **复扫进展** ✅：design 空缺 206→146
+
+**发现问题**：🟡 method-kdo-agent-design-meta tags 主题词偏窄（元方法/双三角缺）——非错配，记录待优化；unknown 139（domain 缺失）待后续处理
+
+**批次验收动作**：queue_batch_accept.py 工具（#479，自动 commit）
+
+**存在性核查**：- 「正文抽查」→ 核查：3 卡定位段+tags 比对（0 错配）
+- 「60 卡 commit」→ 核查：git show fe794b162（60 files）
+
+*欧阳锋 · 2026-08-24 · 第十二批批次验收通过*
