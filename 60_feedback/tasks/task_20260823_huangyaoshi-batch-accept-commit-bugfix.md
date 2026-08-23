@@ -1,11 +1,12 @@
 ---
 id: 482
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-24T00:10:00+08:00'
+status: in_progress
+updated_at: '2026-08-23T15:50:51.970589+00:00'
 version: v0.1
 depends_on:
-  - 479
+- 479
+instance: huangyaoshi
 ---
 # #482 queue_batch_accept.py commit 收口 pathspec bug 修复（#479 修单）
 
