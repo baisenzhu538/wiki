@@ -93,7 +93,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 455 | `task_20260823_laowantong-spec-boundary-ask-first` | 未定稿三 spec 补通用边界条款（职责外必询问）（P1，老朱拍板六角色通用） | reviewed | laowantong | 口径传三场（落点在 #446/#447/#448 交付物） | 三任务单上板冻结——新增修订单 | `60_feedback/tasks/task_20260823_laowantong-spec-boundary-ask-first.md` | 已定稿三 spec 已直接修订（老顽童 v1.1/欧阳锋 v1.1/王语嫣 v1.3）；欧阳锋版含编排域归属具体化；执行报告随各场 |
 | 456 | `task_20260823_huangyaoshi-agentid-audit-fix` | 记忆胶囊 agent_id 统一+审计器解析盲区修复（P2，两小修复合一） | queued | huangyaoshi | 数据清洗+审计器修复+单测 | 风清扬建议3+欧阳锋#188处置采纳 | `60_feedback/tasks/task_20260823_huangyaoshi-agentid-audit-fix.md` | agent_id 拼音角色名统一+清测试残留；审计器行数异常禁静默跳过+全量重跑出真实残留清单；query 命令不在本单（F-045 待拍板）；欧阳锋终审 |
 | 457 | `task_20260823_huangyaoshi-disposal-gate-structured` | 处置类门禁判定结构化（P1，误判两连发+可绕过漏判根治） | reviewed | huangyaoshi | 判定重构+回归用例 | 老顽童建议书采纳（方案1+2组合） | `60_feedback/tasks/task_20260823_huangyaoshi-disposal-gate-structured.md` | 显式标记 disposal:true 优先+关键词降级提示+只扫动作节；#189/#454 误判放行+真处置正反测；PROTOCOL §7 意图不变；欧阳锋终审 |
-| 458 | `task_20260823_huangyaoshi-friction-auto-report` | 问题主动上报自动化（P1，治沉没）：friction-log 统一+探针第四探针+复盘强制节 | claimed-huangyaoshi | huangyaoshi | 摩擦探针+模板+review-check | 老朱核心关切（#454 靠翻上下文才发现） | `60_feedback/tasks/task_20260823_huangyaoshi-friction-auto-report.md` | 记录零成本（一行式）→传输全自动（探针扫增量不依赖建议书格式）→复盘必填问题节兜底；单扫描器纪律；欧阳锋终审 |
+| 458 | `task_20260823_huangyaoshi-friction-auto-report` | 问题主动上报自动化（P1，治沉没）：friction-log 统一+探针第四探针+复盘强制节 | pending_review | huangyaoshi | 摩擦探针+模板+review-check | 老朱核心关切（#454 靠翻上下文才发现） | `60_feedback/tasks/task_20260823_huangyaoshi-friction-auto-report.md` | 记录零成本（一行式）→传输全自动（探针扫增量不依赖建议书格式）→复盘必填问题节兜底；单扫描器纪律；欧阳锋终审 |
 | 459 | `task_20260823_huangyaoshi-friction-design-fix` | #458 设计修正（老朱质询采纳）：通道唯一化+机器自报层，与 #458 合并实施 | queued | huangyaoshi | 设计修正口径单（实施并入 #458） | #458 上板冻结——新增修订单 | `60_feedback/tasks/task_20260823_huangyaoshi-friction-design-fix.md` | friction 层作废改建议书最小三行形态；新增 gate-blocked.log 机器自报+探针第五探针；复盘问题节保留兜底；#458 任务 1 作废任务 2 改造任务 3 保留 |
 | 460 | `task_20260823_huangyaoshi-issue-report-automation-final` | 问题主动上报自动化·最终设计完整任务书（P1，取代 #458/#459） | queued | huangyaoshi | gate-blocked 自报+探针第五探针+复盘兜底 | 老朱纠偏：调整须另下任务编排书 | `60_feedback/tasks/task_20260823_huangyaoshi-issue-report-automation-final.md` | 三层=建议书最小三行唯一通道/gate-blocked.log 机器自报/复盘必填问题节；#459 越权裁决（作废改造+合并实施）撤销；#458/#459 冻结留档勿领取；验收=08-23 断链场景三环全通；欧阳锋终审 |
 | 461 | `task_20260823_huangyaoshi-queue-cancel-command` | queue_transition cancel 命令（P1，queued 单取消/被取代状态） | queued | huangyaoshi | cancel 状态机+台账+下游适配+单测 | 老朱拍板立项（#460 取代场景暴露） | `60_feedback/tasks/task_20260823_huangyaoshi-queue-cancel-command.md` | 仅 queued 可 cancel+reason 必填入台账；cancelled=终态不删除；探针不通知/dashboard 不计活跃；首批执行=cancel #458/#459（被 #460 取代）；不可逆（重做=新单）；欧阳锋终审 |
@@ -112,6 +112,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#455 task_20260823_laowantong-spec-boundary-ask-first｜laowantong｜提审 08-23 13:49｜60_feedback/tasks/task_20260823_laowantong-spec-boundary-ask-first.md~~ → 已终审 PASS A-（2026-08-23 欧阳锋）
 - ~~#449 task_20260823_laowantong-file-flow-protocol｜laowantong｜提审 08-23 13:51｜60_feedback/tasks/task_20260823_laowantong-file-flow-protocol.md~~ → 已终审 PASS A-（2026-08-23 欧阳锋）
 - ~~#457 task_20260823_huangyaoshi-disposal-gate-structured｜huangyaoshi｜提审 08-23 13:55｜60_feedback/tasks/task_20260823_huangyaoshi-disposal-gate-structured.md~~ → 已终审 PASS A-（2026-08-23 欧阳锋）
+- #458 task_20260823_huangyaoshi-friction-auto-report｜huangyaoshi｜提审 08-23 14:05｜60_feedback/tasks/task_20260823_huangyaoshi-friction-auto-report.md
 
 <!-- REVIEW-PENDING-END -->
 
@@ -136,9 +137,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~diag_20260823_ouyangfeng-queue-slim-handover.md｜08-23 12:48｜待王语嫣复核裁定~~ → 编排决策（08-23 王语嫣）：**关闭**——移交确认（首次瘦身保留价值，cron 已删，维护权已固化 spec v1.2）；踩坑三教训（表头正则排除/归档后双验证/终态口径）供 #453 黄药师实施参照
 - ~~diag_20260823_fengqingyang-memory-capsule-query-and-agent-id.md｜08-23 13:21｜待王语嫣复核裁定~~ → 编排决策（08-23 王语嫣）：**部分采纳**——建议 3（agent_id 统一拼音角色名+清测试残留）立项 **#456**（黄药师）；建议 1（query 只读命令）挂停车场 F-045 等老朱拍板 L1 开放口径后连同实施；建议 2 上报老朱（开放对象/只读权限/查询审计痕迹三点）
 - ~~diag_20260823_ouyangfeng-188-residual-disposition.md｜08-23 13:37｜待王语嫣复核裁定~~ → 编排决策（08-23 王语嫣）：**采纳推荐项①补登记对齐**——#188 队列行走 queue_transition review 补登记（任务单 07-19 已终审 A-，纯历史对齐）；审计器解析盲区修复并入 **#456**（黄药师，行数异常禁静默跳过）
-
 - ~~diag_20260823_laowantong-disposal-keyword-misjudgment.md｜08-23 15:45｜待王语嫣复核裁定~~ → 编排决策（08-23 王语嫣）：**采纳方案 1+2 组合立项 #457**（显式标记优先+关键词降级提示+限定动作节）；注：本建议书 status: pending 三元组不全致探针未登记——沉没问题活体实例，自动上报机制立项 #458 一并根治
-
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
 | 431 | `task_20260823_laowantong-role-special-laowantong` | 角色专场第一场：老顽童岗位说明书定稿（P1，F-028 开场） | reviewed | laowantong | 五要素 spec 升级 | 无 | `60_feedback/tasks/task_20260823_laowantong-role-special-laowantong.md` | 底本=风清扬五角色建议书；必含 B2-3 两条血泪+老顽童两条补充+G1/G2；一角色一张过，老朱拍板后才开欧阳锋场；欧阳锋终审 |
