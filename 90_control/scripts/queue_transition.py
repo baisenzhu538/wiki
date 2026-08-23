@@ -940,6 +940,76 @@ def action_review(task_id: str, verdict: str, reviewer: str, grade: str | None =
             return True, f"⚠️ {task_id} 终审不通过，状态退回 queued"
 
 
+def _task_depends_on(task_id: str) -> list[str]:
+    """#472：任务书 frontmatter depends_on → 依赖任务号列表（存量无字段=[]=可领）。"""
+    tf = _find_task_file_dual(task_id)
+    if tf is None:
+        return []
+    fm, _ = parse_frontmatter(tf)
+    dep = fm.get("depends_on", "")
+    if isinstance(dep, list):
+        return [str(d).strip().lstrip("#") for d in dep if str(d).strip()]
+    if dep:
+        return [str(dep).strip().lstrip("#")]
+    return []
+
+
+def _is_active_task(task_id: str, rows: list) -> bool:
+    """依赖任务仍在进行（queued/claimed/pending_review/blocked）→ 未满足。"""
+    for r in rows:
+        if r["task_id"] == task_id:
+            return (r["status"] in ("queued", "pending_review", "blocked")
+                    or r["status"].startswith("claimed-"))
+    return False  # 队列无行=已结束，视为满足
+
+
+def action_myqueue(role: str) -> int:
+    """#472 任务路由：角色视角的队列视图（只读，不动状态机）。
+
+    可领（queued+无依赖或依赖已满足+非冻结）/ 等依赖（depends_on 未满足）/
+    冻结（队列行标注勿领/冻结留档——含被取代挂账）/ 进行中（claimed-<role>）/
+    待终审（pending_review）。
+    """
+    rows = parse_queue()
+    mine = [r for r in rows if r["assignee"] == role]
+    todo, wait, frozen, doing, reviewing = [], [], [], [], []
+    for r in mine:
+        status = r["status"]
+        if status.startswith("claimed-"):
+            doing.append(r)
+        elif status == "pending_review":
+            reviewing.append(r)
+        elif status == "queued":
+            if re.search(r"勿领|冻结留档|冻结勿", r["raw"]):
+                frozen.append(r)
+            else:
+                blockers = [d for d in _task_depends_on(r["task_id"]) if _is_active_task(d, rows)]
+                if blockers:
+                    r["blockers"] = blockers
+                    wait.append(r)
+                else:
+                    todo.append(r)
+
+    def fmt(items):
+        if not items:
+            return "  (无)"
+        lines = []
+        for r in items:
+            line = f"  #{r['seq']} {r['task_id']} — {r['name'][:45]}"
+            if r.get("blockers"):
+                line += f"（等 #{','.join(r['blockers'])} 终审）"
+            lines.append(line)
+        return "\n".join(lines)
+
+    print(f"# role={role} · 任务路由（#472 只读视图，不动状态机）")
+    print(f"✅ 可领 {len(todo)}:"); print(fmt(todo))
+    print(f"⏸ 等依赖 {len(wait)}:"); print(fmt(wait))
+    print(f"🧊 冻结 {len(frozen)}:"); print(fmt(frozen))
+    print(f"🚧 进行中 {len(doing)}:"); print(fmt(doing))
+    print(f"⏳ 待终审 {len(reviewing)}:"); print(fmt(reviewing))
+    return 0
+
+
 def main() -> int:
     if yaml is None:
         print("ERROR: PyYAML is required. Install with: pip install pyyaml", file=sys.stderr)
@@ -951,6 +1021,12 @@ def main() -> int:
         return 1
 
     action = args[0]
+
+    if action == "myqueue":
+        if len(args) < 2:
+            print("用法: queue_transition.py myqueue <role>（拼音角色名）", file=sys.stderr)
+            return 1
+        return action_myqueue(args[1])
 
     if action == "status":
         rows = parse_queue()

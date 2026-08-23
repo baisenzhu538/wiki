@@ -26,6 +26,8 @@ queue_tail: 468       ← 启动时核对：grep 队列尾任务号（2026-08-23
 
 ## 2 · 角色路由表
 
+> 🆕 **三路由导航（#472，进入即答三问）**：①任务路由=`python 90_control/scripts/queue_transition.py myqueue <拼音角色名>`（可领/等依赖/冻结/进行中/待终审）②技能路由+知识路由=`90_control/role-routes.md`（角色→技能映射+知识掌握路径）。
+
 | 角色 | 必读文件（按序） | 备注 |
 |:--|:--|:--|
 | 欧阳锋 | `.agent/ouyangfeng-context.md` → `.agent/context.md` → `70_product/tasks/production-queue.md` → `../agent复盘/ouyangfeng/daily-context/` 最新 | 审查前必读 `90_control/vault-status.md`；复盘目录在 Desktop 级（wiki 外） |
