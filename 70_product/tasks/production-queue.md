@@ -99,7 +99,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 471 | `task_20260823_huangyaoshi-l1-capture-scheduling` | L1 采集投入运行最小闭环（P1：常驻调度30min+体积红线） | reviewed | huangyaoshi | 计划任务+体积监控+verify联动 | **老朱已拍板常驻注册（2026-08-23「L1 全量采集 30 分钟一跑」）——可开工** | `60_feedback/tasks/task_20260823_huangyaoshi-l1-capture-scheduling.md` | 与探针错峰；失败可见禁静默；L3=次日回放抽查；欧阳锋终审 |
 | 472 | `task_20260823_huangyaoshi-role-routes` | KDO 角色路由层（P1，三路由合一：任务/技能/知识——进入即答三问） | reviewed | huangyaoshi | myqueue命令+role-routes.md+CAPSULE v3 | 黄药师建议书采纳（#459 取代困惑=实证） | `60_feedback/tasks/task_20260823_huangyaoshi-role-routes.md` | myqueue 只读视图不动状态机；depends_on 字段新单起强制（F-047）；技能/知识静态表不过度工程；六角色各跑 myqueue 狗粮；欧阳锋终审 |
 | 473 | `task_20260823_huangyaoshi-file-flow-lint-residuals` | 文件流转 lint 遗留三项收口（P2：wiki 卡 L9 扫描/冻结基线动态化/lint 集成） | reviewed | huangyaoshi | 三项收口+单测 | 欧阳锋 #450 终审遗留项采纳 | `60_feedback/tasks/task_20260823_huangyaoshi-file-flow-lint-residuals.md` | L9 全库一次扫描（分钟级）；冻结基线走无状态方案；lint 集成可缓；欧阳锋终审 |
-| 474 | `task_20260823_huangyaoshi-tags-audit-fullscan` | 全库标签摸底体检（P1：四指标一次性扫描+标签健康并入 #425 常态监测） | pending_review | huangyaoshi | 体检报告+健康指标扩展+单测 | 老朱拍板立项（标签体系发现收口） | `60_feedback/tasks/task_20260823_huangyaoshi-tags-audit-fullscan.md` | 只读零修改；脏词率/来源轴覆盖/有轴域/空值率四指标；决策域已知答案做 L2 狗粮；治理批次后续按域排产；欧阳锋终审；脏词/空值吸收建议书2三层分档(STRONG/PATTERN进分母,SOFT只观察误报) |
+| 474 | `task_20260823_huangyaoshi-tags-audit-fullscan` | 全库标签摸底体检（P1：四指标一次性扫描+标签健康并入 #425 常态监测） | reviewed | huangyaoshi | 体检报告+健康指标扩展+单测 | 老朱拍板立项（标签体系发现收口） | `60_feedback/tasks/task_20260823_huangyaoshi-tags-audit-fullscan.md` | 只读零修改；脏词率/来源轴覆盖/有轴域/空值率四指标；决策域已知答案做 L2 狗粮；治理批次后续按域排产；欧阳锋终审；脏词/空值吸收建议书2三层分档(STRONG/PATTERN进分母,SOFT只观察误报) |
 | 475 | `task_20260823_wangyuyan-472-coldstart-absorb` | 吸收#472路由层进六角色context冷启动链（恢复完直接答三问：领哪单/用什么招/先掌握什么） | queued | wangyuyan | 六spec冷启动段+role-routes衔接说明 | 用户令收口#472入口层 | `60_feedback/tasks/task_20260823_wangyuyan-472-coldstart-absorb.md` | 王语嫣自办不占黄药师；接#419冷启动铁律；解欧阳锋#472残余风险(spec↔role-routes同步纪律)；只读导航不改#472本体；欧阳锋终审 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
@@ -135,7 +135,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#472 task_20260823_huangyaoshi-role-routes｜huangyaoshi｜提审 08-23 19:30｜60_feedback/tasks/task_20260823_huangyaoshi-role-routes.md~~ → 已终审 PASS A-（2026-08-23 欧阳锋）
 - ~~#473 task_20260823_huangyaoshi-file-flow-lint-residuals｜huangyaoshi｜提审 08-23 19:33｜60_feedback/tasks/task_20260823_huangyaoshi-file-flow-lint-residuals.md~~ → 已终审 PASS A-（2026-08-23 欧阳锋）
 - ~~#426 task_20260822_laowantong-tags-judgment-batch｜laowantong｜提审 08-23 19:51｜60_feedback/tasks/task_20260822_laowantong-tags-judgment-batch.md~~ → 第二批（ai-collaboration）验收通过（2026-08-23 欧阳锋，批次验收——恢复 queued 继续）
-- #474 task_20260823_huangyaoshi-tags-audit-fullscan｜huangyaoshi｜提审 08-23 20:18｜60_feedback/tasks/task_20260823_huangyaoshi-tags-audit-fullscan.md
+- ~~#474 task_20260823_huangyaoshi-tags-audit-fullscan｜huangyaoshi｜提审 08-23 20:18｜60_feedback/tasks/task_20260823_huangyaoshi-tags-audit-fullscan.md~~ → 已终审 PASS A-（2026-08-23 欧阳锋）
 
 <!-- REVIEW-PENDING-END -->
 
