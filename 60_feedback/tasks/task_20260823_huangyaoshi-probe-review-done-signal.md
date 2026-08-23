@@ -1,9 +1,10 @@
 ---
 id: 462
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-23T07:50:00+00:00'
+status: in_progress
+updated_at: '2026-08-23T07:21:04.284833+00:00'
 version: v0.1
+instance: huangyaoshi
 ---
 # #462 探针「流转完成」信号——终审结果通知编排者（治编排者盲区）
 
