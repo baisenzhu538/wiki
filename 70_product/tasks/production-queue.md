@@ -98,7 +98,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 460 | `task_20260823_huangyaoshi-issue-report-automation-final` | 问题主动上报自动化·最终设计完整任务书（P1，取代 #458/#459） | reviewed | huangyaoshi | gate-blocked 自报+探针第五探针+复盘兜底 | 老朱纠偏：调整须另下任务编排书 | `60_feedback/tasks/task_20260823_huangyaoshi-issue-report-automation-final.md` | 三层=建议书最小三行唯一通道/gate-blocked.log 机器自报/复盘必填问题节；#459 越权裁决（作废改造+合并实施）撤销；#458/#459 冻结留档勿领取；验收=08-23 断链场景三环全通；欧阳锋终审 |
 | 461 | `task_20260823_huangyaoshi-queue-cancel-command` | queue_transition cancel 命令（P1，queued 单取消/被取代状态） | reviewed | huangyaoshi | cancel 状态机+台账+下游适配+单测 | 老朱拍板立项（#460 取代场景暴露） | `60_feedback/tasks/task_20260823_huangyaoshi-queue-cancel-command.md` | 仅 queued 可 cancel+reason 必填入台账；cancelled=终态不删除；探针不通知/dashboard 不计活跃；首批执行=cancel #458/#459（被 #460 取代）；不可逆（重做=新单）；欧阳锋终审 |
 | 462 | `task_20260823_huangyaoshi-probe-review-done-signal` | 探针「流转完成」信号（P1，终审结果通知编排者——治编排者盲区） | reviewed | huangyaoshi | new_reviewed/new_failback 双信号+单测 | 老朱提问触发（#447 PASS 靠询问才知） | `60_feedback/tasks/task_20260823_huangyaoshi-probe-review-done-signal.md` | PASS→通知 wangyuyan 待部署；FAIL 退回→通知 assignee 返工；文案自足免翻文件；只推送不自动部署（判断留人）；单扫描器纪律；欧阳锋终审 |
-| 463 | `task_20260823_huangyaoshi-l1-full-context-capture` | L1 全量上下文采集基建（P1，甲会话原文+乙工作痕迹/D盘+镜像） | claimed-huangyaoshi | huangyaoshi | 采集脚本+双盘+verify | 老朱拍板口径+风清扬建议书采纳 | `60_feedback/tasks/task_20260823_huangyaoshi-l1-full-context-capture.md` | 甲CLI会话原文+乙session trace/产出物变动；D盘git外；与事件指针库分层并存（L0→L1改名一并）；体积红线监控；欧阳锋终审 |
+| 463 | `task_20260823_huangyaoshi-l1-full-context-capture` | L1 全量上下文采集基建（P1，甲会话原文+乙工作痕迹/D盘+镜像） | pending_review | huangyaoshi | 采集脚本+双盘+verify | 老朱拍板口径+风清扬建议书采纳 | `60_feedback/tasks/task_20260823_huangyaoshi-l1-full-context-capture.md` | 甲CLI会话原文+乙session trace/产出物变动；D盘git外；与事件指针库分层并存（L0→L1改名一并）；体积红线监控；欧阳锋终审 |
 | 464 | `task_20260823_huangyaoshi-mirror-on-save` | 记忆胶囊镜像保存后联动（P1，save→log→mirror 一条链） | queued | huangyaoshi | 挂钩扩展+verify 联动+单测 | 老朱拍板时间锚「保存后联动」（#427 欠项结清） | `60_feedback/tasks/task_20260823_huangyaoshi-mirror-on-save.md` | 事件驱动非 cron；mirror 失败可见不阻断；verify 轻量联动报警治 backup-stale 复发；欧阳锋终审 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
@@ -121,6 +121,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#460 task_20260823_huangyaoshi-issue-report-automation-final｜huangyaoshi｜提审 08-23 15:08｜60_feedback/tasks/task_20260823_huangyaoshi-issue-report-automation-final.md~~ → 已终审 PASS A-（2026-08-23 欧阳锋）
 - ~~#461 task_20260823_huangyaoshi-queue-cancel-command｜huangyaoshi｜提审 08-23 15:19｜60_feedback/tasks/task_20260823_huangyaoshi-queue-cancel-command.md~~ → 已终审 PASS A-（2026-08-23 欧阳锋）
 - ~~#462 task_20260823_huangyaoshi-probe-review-done-signal｜huangyaoshi｜提审 08-23 15:22｜60_feedback/tasks/task_20260823_huangyaoshi-probe-review-done-signal.md~~ → 已终审 PASS A-（2026-08-23 欧阳锋）
+- #463 task_20260823_huangyaoshi-l1-full-context-capture｜huangyaoshi｜提审 08-23 15:30｜60_feedback/tasks/task_20260823_huangyaoshi-l1-full-context-capture.md
 
 <!-- REVIEW-PENDING-END -->
 
