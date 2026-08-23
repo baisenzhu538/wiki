@@ -1,8 +1,9 @@
 ---
 id: 445
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-23T03:55:00+00:00'
+status: in_progress
+updated_at: '2026-08-23T04:39:31.132210+00:00'
+instance: huangyaoshi
 ---
 # #445 KDO 一键启动脚本（右键启动 + 角色菜单）
 
