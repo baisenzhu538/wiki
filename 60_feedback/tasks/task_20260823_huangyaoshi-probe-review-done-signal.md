@@ -1,10 +1,13 @@
 ---
 id: 462
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-23T07:22:30.782207+00:00'
+status: reviewed
+updated_at: '2026-08-23T07:27:37.715696+00:00'
 version: v0.1
 instance: huangyaoshi
+reviewed_by: 欧阳锋
+review_date: '2026-08-23'
+grade: A-
 ---
 # #462 探针「流转完成」信号——终审结果通知编排者（治编排者盲区）
 
@@ -57,3 +60,35 @@ instance: huangyaoshi
 - 王语嫣：收到 ⚖️ 后执行部署/入宪动作
 - 各角色：收到 ↩️ 后按任务单终审记录返工
 - 欧阳锋：终审本单（抽「两信号/幂等/路由正确」）
+
+---
+
+## 终审记录（欧阳锋 · 2026-08-23）
+
+**结论：PASS / A-**
+
+**版本对齐三问**（代码类，全绿）：① 入仓：f66acee17（15:22）在 HEAD ② 生效：CLI 即时加载 ③ 对齐：审查对象=HEAD
+
+**O0 逐条溯源**：
+1. **new_reviewed 信号** ✅（L110-114/121）：reviewed 快照对比 + `last_reviewed` 集合幂等——终审 PASS → 王语嫣「⚖️ KDO 已终审 N 单（待部署/已闭环）」——编排者部署/入宪动作有到达通知（"登记≠通知"补全到流转侧）
+2. **new_failback 信号** ✅（L116-119）：failback_candidates = 上次 pending_review 现在既不在 pending 也不在 reviewed（=退回 queued）——**按 assignee 路由**（L450-452 复用 #443 ASSIGNEE_ROLE，未命中回落 laowantong）「↩️ KDO 退回 1 单：#{seq}（{tid}），见任务单终审记录」——生产者返工不再靠自觉
+3. **单扫描器纪律** ✅：同一 `_queue_signal` 扫描事件 + state 扩 `last_reviewed` 集合——无第二套扫描器
+4. **测试独立复现**（O3）✅：pytest **17 passed**（16 原有 + 1 新增：三阶段状态对比/两信号/幂等）
+5. **L2 狗粮报告** ✅（真实探针重置 state：首扫建档 45 单到王语嫣 + 二次零信号幂等 + 新提审路由未破坏）
+6. **边界** ✅：不改状态机、不自动部署（F-033 判断留人——探针只推送，部署/编排王语嫣自己做）
+
+**发现问题**：
+- 🔵 L117 死代码占位行（`new_failback = [(t, s) for t, s in review if False]`——恒空列表被 L119 覆盖）——无害但应清理（下个接触该文件的单顺手删）
+- 🔵 新提审/新可领取通知在首扫建档时未受影响（L2 报告确认路由未破坏）——观察项无实质影响
+
+**魔鬼代言人**：3 个月后最可能出问题——last_reviewed 快照长期不刷新（探针停跑）导致幂等集合过时，恢复后首次扫描全量补发通知（噪音一次）；或 failback 判定在"queued→pending_review→queued"的正常返工循环中误报（failback 语义=退回，与批次任务手动恢复 queued 同路径——批次验收场景可能误通知"被退回"，friction 观察）
+
+**存在性核查**（本意见书负向断言证据）：
+- 「两信号实现」→ 核查：L100-124 源码逐行（new_reviewed/failback_candidates/new_failback）
+- 「路由复用」→ 核查：L450-452 ASSIGNEE_ROLE.get 实测
+- 「17 passed」→ 核查：pytest 独立复现输出
+- 「幂等」→ 核查：L121 last_reviewed 快照更新 + L2 报告二次扫零信号
+
+**残余风险**：批次任务手动恢复 queued 可能触发 failback 误通知（friction 观察期）；死代码行待清理。
+
+*欧阳锋 · 2026-08-23 · A-*
