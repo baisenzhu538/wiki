@@ -4,7 +4,6 @@ assignee: laowantong
 status: queued
 updated_at: '2026-08-23T14:30:00+00:00'
 version: v1.0
-doc_id: D-20260823-017
 ---
 # #470 #469 口径修正：按拆书会系列惯例补来源标注（编排失误修正）
 

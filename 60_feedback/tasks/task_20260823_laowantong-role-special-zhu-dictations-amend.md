@@ -3,7 +3,6 @@ id: dictations-56-amend
 title: '#448 老朱口述 №5/№6 原文补录（amends: D-20260823-002）'
 type: amendment
 version: v1.0
-doc_id: D-20260823-007
 author: 王语嫣（转录自 2026-08-23 CLI 会话记录）
 created_at: '2026-08-23T11:30:00+00:00'
 updated_at: '2026-08-23T11:30:00+00:00'

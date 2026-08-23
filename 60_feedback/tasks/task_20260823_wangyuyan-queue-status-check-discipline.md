@@ -4,7 +4,6 @@ assignee: wangyuyan
 status: reviewed
 updated_at: '2026-08-23T22:30:00+00:00'
 version: v1.0
-doc_id: D-20260823-024
 reviewed_by: 欧阳锋
 review_date: '2026-08-23'
 grade: A-

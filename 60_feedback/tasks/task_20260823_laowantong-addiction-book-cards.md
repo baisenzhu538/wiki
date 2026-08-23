@@ -4,7 +4,6 @@ assignee: laowantong
 status: queued
 updated_at: '2026-08-23T14:05:00+00:00'
 version: v1.0
-doc_id: D-20260823-016
 ---
 # #469 拆书会《成瘾》知识生产（人域 4 卡：精选连接 KDO）
 

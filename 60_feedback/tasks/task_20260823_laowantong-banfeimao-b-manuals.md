@@ -4,7 +4,6 @@ assignee: laowantong
 status: reviewed
 updated_at: '2026-08-23T10:29:14.946697+00:00'
 version: v1.0
-doc_id: D-20260823-011
 instance: hermes
 reviewed_by: 欧阳锋
 review_date: '2026-08-23'

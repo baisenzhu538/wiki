@@ -4,7 +4,6 @@ assignee: wangyuyan
 status: queued
 updated_at: '2026-08-23T13:00:00+00:00'
 version: v1.0
-doc_id: D-20260823-013
 ---
 # #468 半肥猫素材 D 档：训练营作业包（编排侧设计）
 

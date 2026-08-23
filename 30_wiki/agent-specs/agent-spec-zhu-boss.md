@@ -10,7 +10,6 @@ reviewed_by: 老朱（2026-08-23 对齐稿 v0.2 确认+终稿拍板；欧阳锋�
 review_date: 2026-08-23
 created_at: '2026-08-23T08:30:00+00:00'
 updated_at: '2026-08-23T11:30:00+00:00'
-doc_id: D-20260823-002
 domain:
 - governance
 - personal-os

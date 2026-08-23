@@ -4,7 +4,6 @@ assignee: huangyaoshi
 status: reviewed
 updated_at: '2026-08-23T11:36:21.930322+00:00'
 version: v1.0
-doc_id: D-20260823-019
 instance: huangyaoshi
 reviewed_by: 欧阳锋
 review_date: '2026-08-23'
