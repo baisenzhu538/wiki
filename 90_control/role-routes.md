@@ -58,6 +58,12 @@ python 90_control/scripts/queue_transition.py myqueue <拼音角色名>
 - 冷启动完整链路：#445 一键启动（WT 5 标签）→ CAPSULE_STARTUP → 本文件 → `myqueue` → 领任务
 - **六角色 spec 冷启动链已接路由层**（#475 收口）：各 `30_wiki/agent-specs/agent-spec-<角色>.md` 工作流「0. 冷启动」步引用本文件 → 恢复完即答三问
 
+## 附录 A · 基建资产地图（#488，D-018 附录 A 结清）
+
+- **总表**：`90_control/infrastructure-inventory.md`（全厂基建：门禁/工具/服务/计划任务/数据资产/台账/一次性批——位置+职责+维护人+最近验证+关联）
+- **健康快照**：`python kdo-tools/infra-status.py`（27 项资产一键 🟢/🔴）
+- 本附录即 D-018「基建造表附录 A 待补」的结清项——路由层管"该做什么"，总表管"有什么"
+
 ## 维护纪律（解 #472 终审残余风险：spec↔路由同步）
 
 - **owner**：王语嫣（编排统一维护）
