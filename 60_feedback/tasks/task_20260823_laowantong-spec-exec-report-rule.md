@@ -42,4 +42,13 @@ instance: hermes
 
 ## 执行报告（F-034 五字段+验证分层声明，complete 前必填）
 
-（生产者填写）
+**文件清单**：`30_wiki/agent-specs/agent-spec-laowantong-producer.md`（v1.0→v1.1）+ `30_wiki/agent-specs/agent-spec-huangyaoshi-builder.md`（draft 增补）——两 spec 各 1 处工作流条款；本任务单。
+
+**完成内容**：执行报告五字段=提审必备铁律写入两 spec——老顽童 spec v1.1（工作流第 4 步，老朱拍板直接授权修订）+ 黄药师 spec draft（工作流第 5 步，继承展开为验证纪律交付面条款）；含验证分层声明 L1/L2/L3/待活体、缺字段=不闭环（F-034/#429）、禁 --force 绕过（#444 台账）、返工重提同标准。
+
+**验证**：`kdo pre-submit -f` 两 spec → Passed 2 / Failed 0 / ✅ PASS（YAML 0 / SOURCE 0；ALIASES 1 warning 为 F-040 预期）；`kdo index` → Indexed 4087。
+**验证分层声明**：L1=不适用（文档/治理类）；L2=pre-submit 结构门禁走通 + 措辞与 F-034/#444 口径比对；L3=待欧阳锋终审（**待活体**）。
+
+**未做项**：不动两 spec 其他内容；#446 任务单不改（上板冻结）；charter §2.6.1 摘要是否追加由老朱终稿时定。
+
+**需要谁动作**：欧阳锋终审（抽两 spec 条款一致性）；老朱知悉（#451 依据其指令）。
