@@ -235,9 +235,9 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~diag_20260823_fengqingyang-l1-periodic-audit.md｜08-23 22:35｜待王语嫣复核裁定~~ → 编排决策（2026-08-24 王语嫣独立判断）：**部分采纳**——L1 第一期审计洞察报告留档（L2 产出不入队列，洞察1/2 已工具化 #433/#435+执行报告五字段，洞察3/4 认知沉淀）；建议1（L1 采集面补 Codex/opencode/qwen）+建议2（codex-homes 切换时机）挂 **F-048**（codex 定性老朱拍板，同族）；建议3（agent复盘 目录双轨收敛+事件库 agent_id 与落盘路径一致）挂 **#367**（双轨收敛 08-26 到期后一并）；建议4（gate-blocked.log 测试噪声过滤）立项 **#483**（黄药师小修）；建议5（ouyangfeng/hongqigong 08-23 快照缺口）王语嫣自办核对（不催）；建议6（activity_log 缺 id 2/6 核查）采纳黄药师核查
 - ~~diag_20260823_ouyangfeng-source-word-blacklist.md｜08-23 23:19｜待王语嫣复核裁定~~ → 编排决策（2026-08-24 王语嫣独立判断）：**采纳**——建议1（tags-audit 加来源形态词黑名单检查，第5指标=来源词污染率，目标<1%）立项 **#484**（黄药师 P2，挂 #474 tags-audit 扩展，排队 #482→#483→#484 禁同轮≥3）；建议2（存量清理 2 张已发现卡+随 #426 批次）挂 #426/#480 批次；建议3（轴文件注记：内容词=主题词，来源形态词禁入内容词池）王语嫣自办——与 F-046（来源轴）+ tags-vocab-design「来源名禁入 tags」同族，本建议把已有规则工具化为检查器（想犯错也犯不了）
 
-<!-- - diag_20260823_laowantong-vocab-axis-before-batch.md｜08-23 23:30｜待王语嫣复核裁定
-- diag_20260823_laowantong-gate-external-supervision-dimension.md｜08-23 深夜｜待王语嫣复核裁定
-PROPOSAL-PENDING-END -->
+- ~~diag_20260823_laowantong-vocab-axis-before-batch.md｜08-23 23:30｜待王语嫣复核裁定~~ → 编排决策（2026-08-24 王语嫣）：**采纳**——③gate化「轴文件先行」（域未出轴不得进#426治理队列）+①剩余域轴批量出；与E054同根（建轴义务主动化机制层）；落tags-vocab-design补条目（需老朱拍板）→ 立项 **#485**
+- ~~diag_20260823_laowantong-gate-external-supervision-dimension.md｜08-23 深夜｜待王语嫣复核裁定~~ → 编排决策（2026-08-24 王语嫣）：**采纳**——门禁设计加「外部监督者」必问维度（无外部监督者=个人自绑定，不得声称组织级门禁）；补#469诊断同构背书的监督差异边界；落file-flow-protocol/KF-024补条目（需老朱拍板）→ 立项 **#486**
+<!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
 | 431 | `task_20260823_laowantong-role-special-laowantong` | 角色专场第一场：老顽童岗位说明书定稿（P1，F-028 开场） | reviewed | laowantong | 五要素 spec 升级 | 无 | `60_feedback/tasks/task_20260823_laowantong-role-special-laowantong.md` | 底本=风清扬五角色建议书；必含 B2-3 两条血泪+老顽童两条补充+G1/G2；一角色一张过，老朱拍板后才开欧阳锋场；欧阳锋终审 |
 | 432 | `task_20260823_huangyaoshi-memory-capsule-l0-minimal` | 记忆胶囊 L0 最小实现（P1，F-027 第一阶段）：A 本机主库 + B 第二盘镜像 + verify 恢复演练 | reviewed | huangyaoshi | L0 库+镜像+verify | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-memory-capsule-l0-minimal.md` | #427 拍板 A+B/C 缓议；只做 L0，不做 L1-L3；不注册常驻计划任务（需老朱确认命令）；狗粮=写入→镜像→恢复→verify；欧阳锋终审 |
