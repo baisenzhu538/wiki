@@ -37,9 +37,10 @@ related:
 - tool-纪浩-problem-validation-four-checks
 updated_at: '2026-06-29'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:advanced
+  - audience:executor
+  - scene:execution
+  - skill-level:advanced
+  - CEO
 ---
 # Google Dorking：高级搜索语法
 

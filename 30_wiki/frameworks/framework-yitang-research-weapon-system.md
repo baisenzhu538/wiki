@@ -58,9 +58,10 @@ related:
 - '[[tool-yitang-product-full-experience]]'
 - '[[tool-yitang-tech-project-research]]'
 tags:
-- audience:ceo
-- scene:diagnosis
-- skill-level:intermediate
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:intermediate
+  - 框架
 discoverable_by:
 - 调研方法论
 - 调研武器库

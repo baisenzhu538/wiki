@@ -191,9 +191,14 @@ related:
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 tags:
-- audience:manager
-- scene:reference
-- skill-level:advanced
+  - audience:manager
+  - scene:reference
+  - skill-level:advanced
+  - 五步法
+  - 框架
+  - 工具
+  - 方法
+  - 清单
 discoverable_by:
 - 调研域
 - 调研方法论

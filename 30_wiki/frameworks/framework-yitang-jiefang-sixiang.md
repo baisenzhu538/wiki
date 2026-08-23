@@ -29,8 +29,10 @@ discoverable_by:
 created_at: 2026-07-03
 updated_at: '2026-07-04'
 tags:
-- audience:manager
-- scene:planning
+  - audience:manager
+  - scene:planning
+  - 框架
+  - 方法
 ---
 # 解放思想：不被行业常识和既有框架绑架
 

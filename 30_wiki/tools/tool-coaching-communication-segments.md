@@ -35,8 +35,15 @@ related:
   - framework-coaching-leadership-core
   - framework-leadership-five-ladders
 tags:
-- audience:executor
-- scene:execution
+  - audience:executor
+  - scene:execution
+  - 优先级
+  - 机制
+  - 工具
+  - 方法
+  - 清单
+  - 教练
+  - 口述
 quality_labels: [actionable, validated, quotable]
 ---
 

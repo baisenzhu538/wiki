@@ -45,8 +45,10 @@ related:
 - '[[tool-yitang-retrospective-canvas]]'
 - '[[workflow-yitang-project-four-step-loop]]'
 tags:
-- audience:manager
-- scene:planning
+  - audience:manager
+  - scene:planning
+  - 风险
+  - 口述
 diagnostic_signals:
 - signal: 方案被反复推翻，每次评审都问"背景是什么"
   lens: 缺背景分析——直接跳到解决方案

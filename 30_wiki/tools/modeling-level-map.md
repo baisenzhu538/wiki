@@ -46,9 +46,12 @@ related:
 - '[[process-modeling]]'
 - '[[tool-scenario-selector-modeling]]'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 框架
+  - 工具
+  - 方法
 diagnostic_signals:
 - framework_lens: 六段能力段位图
   follow_up_question: 你能稳定产出 SOP 吗？能跨场景提炼模型吗？能一句话概括本质吗？

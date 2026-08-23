@@ -52,9 +52,13 @@ related:
 - '[[agent-spec-research-explosion-partner]]'
 - '[[tool-yitang-app-store-data]]'
 tags:
-- audience:ceo
-- scene:diagnosis
-- skill-level:intermediate
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:intermediate
+  - 机制
+  - 框架
+  - 方法
+  - 清单
 discoverable_by:
 - 调研能力诊断
 - 调研雷达图

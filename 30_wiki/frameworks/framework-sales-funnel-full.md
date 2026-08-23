@@ -40,9 +40,11 @@ related:
 - '[[tool-candy-sales-recruiting]]'
 - '[[tool-sales-objection-dilution]]'
 tags:
-- audience:manager
-- scene:diagnosis
-- skill-level:intermediate
+  - audience:manager
+  - scene:diagnosis
+  - skill-level:intermediate
+  - 单元模型
+  - 方法
 ---
 
 # 销售漏斗全貌：正梯形复购裂变 + 每层配套动作

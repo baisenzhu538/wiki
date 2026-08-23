@@ -34,9 +34,10 @@ related:
 - business-research-skill-oscar-13-weapon-system
 updated_at: '2026-06-29'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:advanced
+  - audience:executor
+  - scene:execution
+  - skill-level:advanced
+  - 工具
 ---
 # DNS情报
 

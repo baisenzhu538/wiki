@@ -61,8 +61,12 @@ related:
   - '[[tool-leadership-three-stubborn-subordinates]]'
   - '[[tool-meeting-execution-principles]]'
 tags:
-- audience:manager
-- scene:planning
+  - audience:manager
+  - scene:planning
+  - 机制
+  - 工具
+  - 边界
+  - 管理者
 quality_labels: [principle, actionable, validated]
 ---
 

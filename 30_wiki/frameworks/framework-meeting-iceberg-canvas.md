@@ -48,6 +48,10 @@ quality_labels: [principle, actionable, quotable]
 tags:
   - audience:general
   - scene:meeting
+  - 机制
+  - 框架
+  - 工具
+  - 复盘
 ---
 
 # 会议冰山模型 × 科学开会思考画布

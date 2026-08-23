@@ -39,9 +39,13 @@ related:
 - proposal-ai-domain-mastery-pipeline
 updated_at: '2026-06-29'
 tags:
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:advanced
+  - 框架
+  - 工具
+  - 方法
+  - 清单
 discoverable_by:
 - 调研工具库
 - OSINT工具

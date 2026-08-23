@@ -41,9 +41,15 @@ related:
 - '[[five-step-domain-digest]]'
 updated_at: '2026-06-30'
 tags:
-- audience:manager
-- scene:reference
-- skill-level:advanced
+  - audience:manager
+  - scene:reference
+  - skill-level:advanced
+  - 优先级
+  - 风险
+  - 转型
+  - 框架
+  - 工具
+  - 方法
 discoverable_by:
 - 精益创业域
 - 精益方法论

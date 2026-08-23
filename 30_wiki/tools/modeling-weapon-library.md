@@ -42,9 +42,12 @@ related:
 - '[[concept-truman-18-component-cards]]'
 - '[[process-modeling]]'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 优先级
+  - 工具
+  - 清单
 diagnostic_signals:
 - framework_lens: 模型武器库
   follow_up_question: 你要解决的问题是分类、排序、对比、因果还是创新？

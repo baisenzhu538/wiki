@@ -27,9 +27,12 @@ diagnostic_signals:
 - framework_lens: 现场语境缺失
   follow_up_question: 能否让用户展示订单、聊天记录、App 使用界面或相册截图？
 tags:
-- audience:executor
-- scene:execution
-- skill-level:advanced
+  - audience:executor
+  - scene:execution
+  - skill-level:advanced
+  - 优先级
+  - 框架
+  - 工具
 discoverable_by:
 - 行为证据
 - 用户研究

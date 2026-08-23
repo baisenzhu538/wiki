@@ -39,8 +39,15 @@ related:
   - "[[yt-unit-model-overview]]"
   - "[[opc-ai-sales-agent-architecture]]"
 tags:
-- audience:manager
-- scene:planning
+  - audience:manager
+  - scene:planning
+  - 投资
+  - 优先级
+  - 资源分配
+  - 框架
+  - 清单
+  - 管理者
+  - 口述
 created_at: 2026-07-08
 updated_at: 2026-07-08
 discoverable_by:

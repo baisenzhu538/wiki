@@ -34,8 +34,12 @@ discoverable_by:
 - 案例写作方法
 - 案例打磨流程
 tags:
-- audience:manager
-- scene:execution
+  - audience:manager
+  - scene:execution
+  - 框架
+  - 方法
+  - 清单
+  - 复盘
 ---
 # 案例打磨四步法：事实复盘→选定魂儿→挖专业度→打磨表达
 

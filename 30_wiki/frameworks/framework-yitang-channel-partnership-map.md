@@ -36,8 +36,11 @@ discoverable_by:
 - 区域包干决策
 - 小众品类渠道
 tags:
-- audience:manager
-- scene:planning
+  - audience:manager
+  - scene:planning
+  - 定价
+  - 风险
+  - 框架
 ---
 # 小众品类渠道合伙人/区域包干决策框架（「卖地图」模式）
 

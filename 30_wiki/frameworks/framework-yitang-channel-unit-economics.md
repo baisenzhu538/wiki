@@ -33,8 +33,13 @@ discoverable_by:
 - 渠道ROI计算
 review_date: '2026-06-28'
 tags:
-- audience:manager
-- scene:planning
+  - audience:manager
+  - scene:planning
+  - 五步法
+  - 单元模型
+  - 投资
+  - 方法
+  - 口述
 ---
 # 渠道单元经济模型：把每个获客渠道当作独立经济单元核算
 

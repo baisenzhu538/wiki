@@ -37,8 +37,11 @@ related:
   - '[[dk-coaching-boundary-conditions]]'
   - '[[dk-leadership-trust-coin-sensitivity]]'
 tags:
-- audience:manager
-- scene:planning
+  - audience:manager
+  - scene:planning
+  - 机制
+  - 清单
+  - 口述
 quality_labels: [principle, actionable, quotable]
 ---
 

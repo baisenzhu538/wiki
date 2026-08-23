@@ -25,8 +25,10 @@ discoverable_by:
 - 锁定目标缩小范围
 - 罗列清单方法
 tags:
-- audience:manager
-- scene:planning
+  - audience:manager
+  - scene:planning
+  - 框架
+  - 清单
 ---
 # 高水平计划 OSC：锁定目标·缩小范围·罗列清单
 

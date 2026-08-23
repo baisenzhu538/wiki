@@ -27,9 +27,12 @@ diagnostic_signals:
 - framework_lens: 决策延迟成本规则
   follow_up_question: 继续验证的延迟成本是否已超过决策错误的预期损失？
 tags:
-- audience:executor
-- scene:execution
-- skill-level:advanced
+  - audience:executor
+  - scene:execution
+  - skill-level:advanced
+  - 风险
+  - 机制
+  - 框架
 discoverable_by:
 - 交叉验证
 - 停止规则

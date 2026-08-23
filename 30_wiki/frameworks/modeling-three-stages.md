@@ -31,9 +31,14 @@ review_date: '2026-06-28'
 trust_level: medium
 confidence: 0.78
 tags:
-- audience:ceo
-- scene:diagnosis
-- skill-level:intermediate
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:intermediate
+  - 五步法
+  - 拍板
+  - 框架
+  - 边界
+  - 清单
 related:
 - '[[modeling-capability-system]]'
 - '[[modeling-level-map]]'

@@ -114,9 +114,14 @@ related:
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 tags:
-- audience:ceo
-- scene:reference
-- skill-level:advanced
+  - audience:ceo
+  - scene:reference
+  - skill-level:advanced
+  - 五步法
+  - 拍板
+  - 需求分析
+  - 机制
+  - 框架
 discoverable_by:
 - 战略域
 - 战略规划

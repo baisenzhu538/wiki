@@ -36,8 +36,10 @@ related:
   - framework-truman-feature-layered-system
   - '[[dk-coaching-monkey-theory]]'
 tags:
-- audience:executor
-- scene:execution
+  - audience:executor
+  - scene:execution
+  - 机制
+  - 工具
 quality_labels: [actionable, insight, validated]
 ---
 

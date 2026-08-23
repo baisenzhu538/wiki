@@ -54,6 +54,9 @@ quality_labels: [principle, actionable, quotable, insight]
 tags:
   - audience:general
   - scene:meeting
+  - 机制
+  - 方法
+  - 清单
 ---
 
 # 科学开会十大原则（人×事花瓣图）

@@ -433,9 +433,14 @@ updated_at: '2026-06-29'
 source_refs:
   - src_unknown
 tags:
-- audience:manager
-- scene:reference
-- skill-level:advanced
+  - audience:manager
+  - scene:reference
+  - skill-level:advanced
+  - 科学决策
+  - 五步法
+  - 决策卫生
+  - 需求分析
+  - 方法
 discoverable_by:
 - 一堂域
 - 一堂方法论

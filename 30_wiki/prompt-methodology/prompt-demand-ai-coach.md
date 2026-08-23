@@ -22,8 +22,11 @@ related:
   - "[[tool-寻找学习教练法]]"
 updated_at: '2026-06-29'
 tags:
-- audience:executor
-- scene:execution
+  - audience:executor
+  - scene:execution
+  - 需求分析
+  - 框架
+  - 教练
 ---
 
 # AI需求分析教练提示词

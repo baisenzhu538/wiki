@@ -26,9 +26,11 @@ aliases:
 - OCR_一堂DOC-20260816015814.md
 - AI知识库
 tags:
-- audience:manager
-- scene:planning
-- skill-level:beginner
+  - audience:manager
+  - scene:planning
+  - skill-level:beginner
+  - 工具
+  - 边界
 source_person: 楚门
 source_context: AI×知识管理探索营（2026-08-15 晚直播）——五次飞跃主线
 source_refs:

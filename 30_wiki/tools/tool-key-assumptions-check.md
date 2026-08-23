@@ -7,8 +7,13 @@ discoverable_by:
 - Key Assumptions Check隐藏假设检验
 - Check隐藏假设检验
 tags:
-- audience:executor
-- scene:execution
+  - audience:executor
+  - scene:execution
+  - 投资
+  - 招聘
+  - 工具
+  - 方法
+  - 复盘
 source_person: Richars J. Heuer Jr. + Truman（一堂）
 source_context: SATs 诊断类技术工具化实现
 aliases:

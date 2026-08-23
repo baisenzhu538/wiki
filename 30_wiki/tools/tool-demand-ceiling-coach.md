@@ -38,8 +38,10 @@ related:
 - '[[yt-market-size-estimation]]'
 - '[[tool-demand-report-template]]'
 tags:
-- audience:executor
-- scene:execution
+  - audience:executor
+  - scene:execution
+  - 投资
+  - 教练
 diagnostic_signals:
 quality_labels:
 - actionable

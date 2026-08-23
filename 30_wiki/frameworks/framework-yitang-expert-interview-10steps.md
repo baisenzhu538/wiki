@@ -25,8 +25,12 @@ discoverable_by:
 - 盲区梳理到专家匹配
 - 专家访谈方法
 tags:
-- audience:manager
-- scene:planning
+  - audience:manager
+  - scene:planning
+  - 框架
+  - 方法
+  - 清单
+  - 口述
 ---
 # 专家访谈黄金十步法：从盲区梳理到专家匹配
 

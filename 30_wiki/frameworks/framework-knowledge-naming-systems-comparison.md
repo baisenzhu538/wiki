@@ -22,9 +22,15 @@ aliases:
 - JohnnyDecimal
 - 知识库编号体系
 tags:
-- audience:manager
-- scene:knowledge-management
-- skill-level:intermediate
+  - audience:manager
+  - scene:knowledge-management
+  - skill-level:intermediate
+  - 机制
+  - 框架
+  - 方法
+  - 边界
+  - 复盘
+  - 口述
 source_person: 楚门 + PARA(fortelabs) + Johnny Decimal 官网
 source_context: 楚门口述 L1114-1120 + fortelabs.com/blog/para/ + johnnydecimal.com（2026-08-20 实取）
 source_refs:

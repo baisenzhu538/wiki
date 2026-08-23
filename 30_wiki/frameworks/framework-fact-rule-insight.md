@@ -22,9 +22,12 @@ aliases:
 - 楚门-AI知识管理探索营-口述.txt
 - AI知识库
 tags:
-- audience:manager
-- scene:research
-- skill-level:intermediate
+  - audience:manager
+  - scene:research
+  - skill-level:intermediate
+  - 框架
+  - 方法
+  - 口述
 source_person: 楚门
 source_context: AI×知识管理探索营（2026-08-15 晚直播）——专题学习框架（L2878-2904）
 source_refs:

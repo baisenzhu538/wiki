@@ -36,9 +36,12 @@ quality_labels:
 - actionable
 - principle
 tags:
-- audience:executor
-- scene:execution
-- skill-level:advanced
+  - audience:executor
+  - scene:execution
+  - skill-level:advanced
+  - 需求分析
+  - 工具
+  - 清单
 discoverable_by:
 - 需求分析
 - 冰山推演

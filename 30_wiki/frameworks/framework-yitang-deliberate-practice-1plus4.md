@@ -34,8 +34,14 @@ discoverable_by:
 - 刻意练习方法
 - 1+4成长模型
 tags:
-- audience:manager
-- scene:diagnosis
+  - audience:general
+  - scene:execution
+  - skill-level:intermediate
+  - 刻意练习
+  - 框架
+  - 方法
+  - 边界
+  - 实证
 ---
 # 刻意练习 1+4 模型：科学成长的操作系统
 

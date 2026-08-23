@@ -39,9 +39,10 @@ related:
 - '[[framework-yitang-research-weapon-supplement-2026]]'
 updated_at: '2026-06-29'
 tags:
-- audience:manager
-- scene:execution
-- skill-level:advanced
+  - audience:manager
+  - scene:execution
+  - skill-level:advanced
+  - 风险
 ---
 # 免费替代数据
 

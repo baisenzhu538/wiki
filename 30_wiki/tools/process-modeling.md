@@ -48,9 +48,14 @@ related:
 - '[[case-livestream-sop-modeling]]'
 - '[[dk-process-is-scar-tissue]]'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 机制
+  - 边界
+  - 反例
+  - 清单
+  - 复盘
 diagnostic_signals:
 - framework_lens: 流程建模
   follow_up_question: 这个任务有没有 3 次以上重复发生？失败成本是什么？

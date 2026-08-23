@@ -33,8 +33,11 @@ discoverable_by:
 - 渠道标准化生产
 review_date: '2026-06-28'
 tags:
-- audience:manager
-- scene:planning
+  - audience:manager
+  - scene:planning
+  - 五步法
+  - 反例
+  - 口述
 ---
 # 渠道工业化生产：让高不确定工作持续高质量交付
 

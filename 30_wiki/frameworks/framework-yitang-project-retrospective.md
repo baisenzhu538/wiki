@@ -59,8 +59,11 @@ related:
 - '[[tool-科学学习IPO完整清单]]'
 - '[[workflow-yitang-project-four-step-loop]]'
 tags:
-- audience:manager
-- scene:planning
+  - audience:manager
+  - scene:planning
+  - 方法
+  - 清单
+  - 复盘
 diagnostic_signals:
 - signal: 项目做完了，团队吃了顿饭、发了封感谢邮件就翻篇——下次同样的错误又犯了一遍
   lens: 缺复盘意识——把"工作总结"当"复盘"，关键认知和共识完全没沉淀

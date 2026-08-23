@@ -33,9 +33,14 @@ diagnostic_signals:
 - framework_lens: 访谈技巧——样本不足，结论不可靠
   follow_up_question: 至少访谈了多少个用户？是否覆盖了不同用户层？
 tags:
-- audience:executor
-- scene:execution
-- skill-level:advanced
+  - audience:executor
+  - scene:execution
+  - skill-level:advanced
+  - 五步法
+  - 框架
+  - 工具
+  - 方法
+  - 反例
 discoverable_by:
 - 需求洞察
 - 需求提取

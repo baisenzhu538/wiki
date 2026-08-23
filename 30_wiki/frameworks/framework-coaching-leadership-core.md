@@ -54,8 +54,16 @@ related:
   - '[[tool-leadership-questioning-cards]]'
   - '[[tool-leadership-three-stubborn-subordinates]]'
 tags:
-- audience:manager
-- scene:planning
+  - audience:manager
+  - scene:planning
+  - 机制
+  - 框架
+  - 工具
+  - 方法
+  - 边界
+  - 反例
+  - 教练
+  - 口述
 quality_labels: [principle, actionable, insight]
 ---
 

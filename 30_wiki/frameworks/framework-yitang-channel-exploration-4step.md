@@ -32,8 +32,12 @@ discoverable_by:
 - 渠道探索方法
 review_date: '2026-06-28'
 tags:
-- audience:manager
-- scene:planning
+  - audience:manager
+  - scene:planning
+  - 五步法
+  - 单元模型
+  - 方法
+  - 口述
 ---
 # 渠道探索四步法：科学找到可持续获客渠道
 

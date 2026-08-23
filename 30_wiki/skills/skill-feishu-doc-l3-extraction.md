@@ -25,9 +25,10 @@ related:
 - '[[case-feishu-minutes-extraction-attempt]]'
 - '[[dk-mcp-pythonpath-pollution]]'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:advanced
+  - audience:executor
+  - scene:execution
+  - skill-level:advanced
+  - Live
 discoverable_by:
 - 飞书文档提取
 - L3提取

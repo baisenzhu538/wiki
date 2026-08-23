@@ -7,9 +7,12 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-08-02
 tags:
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:advanced
+  - 框架
+  - 反例
+  - 口述
 confidence: 0.9
 trust_level: high
 language: zh-CN

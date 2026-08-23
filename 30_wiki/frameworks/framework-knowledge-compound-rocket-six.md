@@ -24,9 +24,11 @@ aliases:
 - OCR_批注 2026-08-15 211608.md
 - AI知识库
 tags:
-- audience:manager
-- scene:planning
-- skill-level:intermediate
+  - audience:manager
+  - scene:planning
+  - skill-level:intermediate
+  - 工具
+  - 口述
 source_person: 楚门
 source_context: AI×知识管理探索营（2026-08-15 晚直播）——知识复利火箭模型
 source_refs:

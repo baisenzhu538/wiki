@@ -20,9 +20,10 @@ related:
 - '[[framework-yitang-jiefang-sixiang]]'
 - '[[case-yitang-redburger-lettuce-clip]]'
 tags:
-- audience:general
-- scene:diagnosis
-- skill-level:advanced
+  - audience:general
+  - scene:diagnosis
+  - skill-level:advanced
+  - 框架
 discoverable_by:
 - 微创新
 - 小步迭代

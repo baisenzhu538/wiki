@@ -29,8 +29,14 @@ discoverable_by:
   - "单元模型外部对抗"
 created_at: '2026-06-30'
 tags:
-- audience:manager
-- scene:planning
+  - audience:manager
+  - scene:planning
+  - 优先级
+  - 风险
+  - 机制
+  - 框架
+  - 方法
+  - 创业者
 ---
 # 外部对抗地图
 

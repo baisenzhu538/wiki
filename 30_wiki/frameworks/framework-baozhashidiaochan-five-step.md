@@ -60,10 +60,14 @@ related:
 - '[[tool-nine-character-mantra-14-strategies]]'
 - '[[tool-wechat-transcript-automation-workflow]]'
 tags:
-- audience:manager
-- scene:planning
-- scene:execution
-- skill-level:intermediate
+  - audience:manager
+  - scene:planning
+  - scene:execution
+  - skill-level:intermediate
+  - 五步法
+  - 框架
+  - 方法
+  - 边界
 ---
 
 # 爆炸式调研五步法：目标→范围→搜索⇄建模→交付

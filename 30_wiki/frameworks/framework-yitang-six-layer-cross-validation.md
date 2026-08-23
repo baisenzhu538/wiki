@@ -56,9 +56,12 @@ related:
 - '[[tool-yitang-store-franchise-research]]'
 - '[[tool-yitang-tech-project-research]]'
 tags:
-- audience:ceo
-- scene:diagnosis
-- skill-level:intermediate
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:intermediate
+  - 框架
+  - 方法
+  - 反例
 discoverable_by:
 - 交叉验证方法
 - 信息可信度

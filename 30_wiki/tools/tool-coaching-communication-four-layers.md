@@ -37,8 +37,13 @@ related:
   - '[[dk-coaching-boundary-conditions]]'
   - '[[dk-y-model-communication]]'
 tags:
-- audience:executor
-- scene:execution
+  - audience:executor
+  - scene:execution
+  - 机制
+  - 工具
+  - 反例
+  - 教练
+  - 口述
 quality_labels: [actionable, insight, validated]
 ---
 

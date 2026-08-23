@@ -39,9 +39,10 @@ diagnostic_signals:
 - framework_lens: 反复返工——关键节点未确认就推进
   follow_up_question: 当前阶段的决策人确认过了吗？下一阶段的边界条件是什么？
 tags:
-- audience:practitioner
-- scene:howto
-- skill-level:intermediate
+  - audience:practitioner
+  - scene:howto
+  - skill-level:intermediate
+  - 框架
 discoverable_by:
 - 项目螺旋思考
 - 顶层设计
