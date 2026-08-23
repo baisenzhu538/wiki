@@ -1,13 +1,4 @@
----
-id: concept-card-index-latest
-title: concept-card-index-latest.md
-type: index
-status: stable
-related:
-  - '[[case-apple-card-gender-bias]]'
-  - '[[concept-ai-native-organization-five-steps]]'
----
-# Concept Card Index — 2026-08-21 18:07 UTC
+# Concept Card Index — 2026-08-22 18:07 UTC
 
 | ID | Title | Type | Domain |
 |---|---|---|---|
@@ -16,12 +7,15 @@ related:
 | ai-hackathon-pitches | AI 大航海项目路演：主题综合索引卡 | concept | ai, entrepreneurship |
 | ai-landing-scene-selection | AI落地场景识别：从找老的干小的开始 | concept |  |
 | ai-learning-closed-loop | AI学习闭环：从听懂到能力的转化路径 | concept |  |
+| ai-native-im-multi-agent | AI 原生 IM：让 Agent 成为一等公民的协作基础设施 | concept | ai-saas, ai, product, ai-collaboration |
 | ai-native-五层进阶从答案到效率到作品到产品到系统 | AI Native 五层进阶：从答案，到效率，到作品，到产品，到系统 | framework |  |
 | ai-short-drama-ice-fire-scripting-compass | 冰火写本罗盘：AI短剧剧本策划全流程体系 | concept | ai-saas |
 | ai-short-drama-platform-policy-comparison | 主流短剧平台政策对比：抖音/红果/快手/腾讯/爱奇艺/优酷/芒果 | concept | ai-saas |
 | ai-tool-learning-curve | AI工具循序渐进学习曲线 | framework | ai, learning-methodology, yitang |
 | ai-tool-learning-workbook | AI 工具学习工作手册 | tool | ai-collaboration, skill-building |
 | ai-virtual-coach-prompt | AI 虚拟教练提示词模板 | tool | ai-collaboration, skill-building |
+| ai-俱乐部人和-ai-协作-五层结构 | AI 俱乐部·人和 AI 协作 — 五层结构 | concept | management, ai-saas, design, yitang, decision-making |
+| ai-俱乐部人和-ai-协作-参考案例对比一堂-vs-sql-helper | AI 俱乐部·人和 AI 协作 — 参考案例对比（一堂 vs SQL-Helper） | concept | management, product, business-strategy, ai-saas, yitang |
 | aigc文创案例设计课leo文创ip从0到1全流程 | AIGC文创案例设计课：Leo文创IP从0到1全流程 | concept | ai-saas, design |
 | aigc设计基础01ai生图原理与提示词基本功 | AIGC设计基础01：AI生图原理与提示词基本功 | concept | ai-saas, design |
 | aigc设计师实操培训01口喷设计范式与电商ai设计全流程 | AIGC设计师实操培训01：口喷设计范式与电商AI设计全流程 | concept | ai-saas, design, business-strategy |
@@ -63,6 +57,7 @@ related:
 | concept-kdo-agent-four-level-awareness | Agent四层觉察：从后知后觉到先知先觉 | concept | system |
 | concept-kdo-component-library | KDO 建模组件库——从踩坑疤痕到可复用建模牌组 | concept | kdo, modeling |
 | concept-kdo-feature-registry | KDO Feature 注册表：原子化最小技术单位 | concept | kdo, master |
+| concept-kdo-review-workflow | KDO 生产审查工作流（欧阳锋模式） | concept | ai-collaboration, knowledge-management |
 | concept-mckinsey-issue-tree | Issue Tree：问题树拆解 | concept |  |
 | concept-mckinsey-mece | MECE 原则：相互独立、完全穷尽 | concept |  |
 | concept-mcp-protocol | MCP协议：Agent调用外部工具的统一标准 | concept | yitang, research, ai-collaboration |
@@ -76,6 +71,11 @@ related:
 | concept-research-responsibility-boundary | 调研责任边界：道德、法律与生存的平衡 | concept | yitang, research |
 | concept-research-saturation-coverage | 饱和覆盖：不以数量决定，以规律稳定为目标 | concept | research, yitang |
 | concept-session-vs-memory-vs-document | Session << AI 记忆 << 文档知识库：降 Session 依赖 | concept | knowledge-management, ai-collaboration |
+| concept-smart-medicine-cabinet-consumer-acceptance | 消费者购药行为与智能药柜接受度 | concept | healthcare, business-strategy, product |
+| concept-smart-medicine-cabinet-digital-pharmacy-diagnosis | 智能药柜/数字药房项目诊断：大院处方、小院续方模式 | concept | healthcare, business-strategy |
+| concept-smart-medicine-cabinet-giants-why-not-clinic-cabinet | 巨头为何不做诊所+智能药柜：竞争格局与壁垒分析 | concept | healthcare, business-strategy |
+| concept-smart-medicine-cabinet-international-models | 国际自动取药机/药房模式经验与启示 | concept | healthcare, business-strategy |
+| concept-smart-medicine-cabinet-platform-cooperation-validation | 智能药柜平台合作命题交叉验证（美团/饿了么/阿里健康/京东） | concept | healthcare, business-strategy |
 | concept-smart-medicine-cabinet-supply-chain-validation | 智能药柜供应链/技术交叉验证（知识卡草稿） | concept |  |
 | concept-spatial-narrative-design | 空间即逻辑：内容结构→画布空间的四结构+四原则映射 | concept | content-production |
 | concept-strategy-2024-2026-supplement | 2024-2026战略新变量：AI决策/地缘政治/ESG——冉鹏课程未覆盖的盲区 | concept |  |
@@ -83,6 +83,7 @@ related:
 | concept-strategy-evolution-cycle | 新兴业务进化周期：适者生存→绝望之谷→物种爆发→平台期 | concept | strategy |
 | concept-strategy-framework-landscape | 战略框架全景图：冉鹏覆盖了什么、没覆盖什么 | concept |  |
 | concept-strategy-market-segmentation-yashili | 细分市场分析逻辑——雅士利/蒙牛案例（© Yashili 2021） | concept |  |
+| concept-streaming-extraction-pattern | 流式提取模式——浏览器虚拟滚动到API分页的映射 | concept | feishu, content-extraction, publishing, architecture |
 | concept-structured-naming-as-infrastructure | 结构化命名即基础设施：人机共识的文件系统设计 | concept | system |
 | concept-thousand-people-square | 千人广场模型：一堂做课背后的统计建模理念 | concept |  |
 | concept-token-capital | Token Capital：AI 时代的第三种资本结构 | concept | ai-native, management, strategy |
@@ -95,6 +96,7 @@ related:
 | concept-wanghuan-power-of-standards | 王欢：标准的力量——质量乘数 | concept |  |
 | concept-wanghuan-tacit-knowledge-examples | 王欢：行业暗规则实例库（招聘/招投标/销售/培训） | concept |  |
 | concept-X型Y型决策习惯 | X型 vs Y型：两种决策习惯对比 | concept | yitang, decision-science |
+| concept-yihang-ai-feature-thinking | AI 基本功的 Feature 思维：把工具拆成最小可操作技术特? | concept | ai-collaboration, yitang |
 | concept-yihang-data-pack-ethics | 数据包使用伦理——个人学习可用，禁止规模化批量抓取流通 | concept | ai-collaboration, yitang |
 | concept-yihang-dual-triangle-core | 一行双三角：人机协作的元模型 | concept | yitang, ai-collaboration, personal-os, organizational-transformation |
 | concept-yihang-human-in-the-loop-dual-triangle | 人在环 × 双三角：从治理原则到能力地图 | concept | yitang, ai-collaboration |
@@ -168,10 +170,12 @@ related:
 | design-ai-image-generation | Design / Ai Image Generation | concept |  |
 | ec工业化规范手册-v2.8.0 | ec工业化规范手册 v2.8.0 | concept |  |
 | EC工业化规范手册 | EC工业化规范手册 | concept |  |
+| fd-forward-deployment | Forward Deployment（FD）模式：企业级 AI 落地的高接触服务范式 | concept | business-strategy, ai-saas |
 | finance-legal-business-operations | 企业财务-法务-商务运营实务：主题综合索引卡 | concept | finance, business |
 | find-old-do-small | 找老的干小的：AI落地场景评估框架 | tool |  |
 | fixed-routine-design | 固定套路设计 | concept | ai-collaboration, skill-building |
 | four-questions-feedback | 四问法自我反馈 | tool | learning-methodology, personal-growth, yitang |
+| graph-rag | Graph RAG — Knowledge-Graph-Powered Retrieval | concept | kdo |
 | HIS系统开发实现方案-架构师指南 | HIS系统开发实现方案-架构师指南 | concept |  |
 | HIS系统深度调研 | HIS系统深度调研 | concept |  |
 | industry-ai-cases | 产业 AI 落地案例集（非药柜）：主题综合索引卡 | concept |  |
@@ -209,6 +213,9 @@ related:
 | rust-smart-pointers | Rust 智能指针：超越引用的所有权管理 | concept | rust |
 | rust-traits-generics | Rust Trait 与泛型：零成本抽象的接口设计 | concept | rust |
 | smart-medicine-cabinet-distribution | 智能药柜分销业态洞察 | concept | healthcare |
+| smart-medicine-cabinet-national-policy-redlines | 自助售药机国家政策与红线（2024 年第 48 号公告解读） | concept | healthcare, pharmaceutical-retail, policy-compliance |
+| smart-medicine-cabinet-o2o-cost-structure | 医药 O2O 成本与毛利结构 | concept | healthcare, pharmaceutical-retail, o2o, financial-model |
+| smart-medicine-cabinet-regional-policy-map | 各省市自助售药机政策差异地图 | concept | healthcare, pharmaceutical-retail, policy-compliance |
 | source-code-delivery-model | 源码交付模式 | concept | saas, business-formula, 软件交付 |
 | sprint-2-门禁举证验收 | Sprint 2 门禁举证验收 | concept |  |
 | structured-ai-workspace | 结构化AI工作空间搭建 | tool |  |
@@ -227,6 +234,7 @@ related:
 | yitang-huazong-ama-by-industry | 花总AMA按行业分类整理（商业突破大航海） | concept | healthcare |
 | yitang-huazong-ama-summary | 花总AMA精华摘要（商业突破大航海） | concept | healthcare |
 | yitang-methodology-system | 一堂方法论体系：从科学做事到无限进步 | concept | yitang, methodology |
+| yitang-qualitative-to-quantitative | 一堂·从定性到定量：先证伪、后测量 | concept |  |
 | yitang-strategy-canvas | 战略画布（Strategy Canvas）：把竞争格局画成一张价值曲线 | tool | concepts, strategy |
 | yt-ai-startup-20-risky-hypotheses | AI创业20个高风险假设清单 | concept | yitang |
 | yt-ai-trend-12-signals | AI趋势12大变化模型 | concept | yitang |
@@ -245,6 +253,7 @@ related:
 | yt-barrier-talent-density | 人才密度：组织壁垒 | concept |  |
 | yt-barrier-technology-moat | 技术护城河：专利与研发 | concept |  |
 | yt-business-analysis-cognitive-biases | 暗知识：五步法中的主要认知偏差 | dk |  |
+| yt-business-formula-l6-essence-formulas | 业务公式 L6 魔法参数：跨行业本质公式集锦 | concept | yitang, master, business-strategy |
 | yt-business-formula-parameter-iceberg | 业务公式参数冰山（L1-L6） | concept | yitang, business-formula |
 | yt-business-formula-six-level-logic | 业务公式六层逻辑关系冰山（L1 模糊理解 → L6 动态建模） | concept | yitang, business-formula |
 | yt-business-formula-ten-paradigms | 一堂业务公式十大经典范式（收入/竞争/运营三环完整版） | concept | yitang, business-formula |
@@ -278,6 +287,7 @@ related:
 | yt-decision-width-method | 宽度分析工具：列推建查四步法+三层盲区清单 | tool |  |
 | yt-decision-y-model | Y模型：一堂科学做事系统（KDO 根节点） | framework | epistemic-foundations, decision-science, yitang |
 | yt-demand-analysis-hiking-map | 需求分析爬山地图 | concept |  |
+| yt-demand-b2b-vs-b2c | ToB vs ToC需求分析差异：决策链、频率与验证方法 | concept |  |
 | yt-demand-hierarchy-model | 需求层次模型：真需求、伪需求与衍生需求 | concept |  |
 | yt-demand-motivation-resistance | 需求动机与阻力分析：为什么用户"需要"但"不用" | concept |  |
 | yt-demand-peak-end-rule | 峰终定律在需求分析中的应用：用户记住的不是平均，而是峰值和终点 | concept |  |
@@ -302,6 +312,7 @@ related:
 | yt-entrepreneur-product-core | 产品内核定义、迭代与验证方法论 | concept | entrepreneurship |
 | yt-entrepreneur-research-camp | 调研行动营：从调研认知到AI调研武器库 | concept | entrepreneurship |
 | yt-entrepreneur-research-cognition | 调研认知 | tool |  |
+| yt-entrepreneur-scientific-method | Y模型/科学方法（已弃用） | concept | entrepreneurship, epistemic-foundations |
 | yt-entrepreneur-spin-selling | SPIN销售法：顾问式销售的奠基之作 | concept | entrepreneurship |
 | yt-entrepreneur-truth-seeking | 实事求是（已弃用，待重写升级） | concept | entrepreneurship, epistemic-foundations |
 | yt-entrepreneur-unit-model | 单元模型 | tool |  |
@@ -351,6 +362,7 @@ related:
 | yt-model-agent-architecture | 智能体架构：PEAS与五层Agent模型 | framework |  |
 | yt-model-cognitive-upgrade-framework | 认知升级十步框架：从「读书」到「安装认知补丁」 | framework |  |
 | yt-model-conversion-optimization | 转化率优化：动力三曲线 × 十大浪费触点 | framework |  |
+| yt-model-deep-review-iceberg | 深度复盘冰山图：从主观感受到能力建设的五层穿透 | concept | modeling |
 | yt-model-deliberate-practice-growth | 刻意练习十年成长指数：为什么有人一年顶十年 | concept | modeling |
 | yt-model-dual-triangle-competitiveness | 双三角竞争力模型 | framework |  |
 | yt-model-entrepreneur-map | 创业修炼地图 | framework |  |
@@ -403,6 +415,7 @@ related:
 | yt-personal-ai-thinking-card | AI思维卡：从「读书」到「安装认知补丁」 | tool |  |
 | yt-personal-checklist-notes | 清单体笔记（一堂笔记法） | concept | personal-growth |
 | yt-personal-deep-review | 深度复盘 | tool |  |
+| yt-personal-deliberate-practice | 科学成长（刻意练习） | concept | personal-growth |
 | yt-personal-inspiration-flash | 灵感闪现（认知篇） | concept | personal-growth |
 | yt-personal-ipo-learning | IPO 科学学习 | tool |  |
 | yt-personal-knowledge-extraction | 知识萃取方法论 | tool |  |
@@ -482,10 +495,12 @@ related:
 | yt-unit-model-dynamic | 动态单元模型：规模变量、拐点预判与规模经济对抗 | tool |  |
 | yt-unit-model-selection | 单元模型选择法：复制哪个算哪个，找到核心经济单元 | tool |  |
 | yt-unit-model-three-tools | 单元模型三工具：斧子尺子梯子 | concept |  |
+| 互联网医院模式深度调研报告 | 互联网医院模式深度调研报告 | concept | healthcare |
 | 人机协作决策-双三角模型 | 人机协作决策——双三角模型 | concept |  |
 | 保达云诊所深度调研报告 | 保达云诊所深度调研报告 | concept |  |
 | 在设计小伙伴的反馈还挺好的 | 在设计小伙伴的反馈还挺好的。 | concept |  |
 | 存储策略 | 存储策略 | concept |  |
+| 学会提问在信息洪流中锻造批判性思维的利刃 | 《学会提问》：在信息洪流中锻造批判性思维的利刃 | framework | ai-saas |
 | 开源HIS系统代码深度分析报告 | 开源HIS系统代码深度分析报告 | concept |  |
 | 数据标注维度最佳实践调研报告 | 数据标注维度最佳实践调研报告 | concept | kdo, ai-saas, design |
 | 紫鲸ai智能体工作流平台 | 紫鲸AI智能体工作流平台 | concept |  |
@@ -496,8 +511,10 @@ related:
 | 轻量级诊所HIS调研全清单 | 轻量级诊所HIS调研全清单 | concept |  |
 | 那今天不会 | 那今天不会。 | concept |  |
 | 鑫港湾his系统分阶段整改报告 | 鑫港湾HIS系统分阶段整改报告 | concept |  |
+| ai-complex-communication | AI 辅助复杂职场沟通：角色扮演、攻防演练与受众适配 | framework | ai-saas, ai, ai-collaboration, management |
 | ai-methodology-tools | AI 方法论与工具栈：主题综合知识卡 | framework | ai, methodology |
 | ai-short-drama-ice-fire-dissection-compass | 冰火拆本罗盘：短剧剧本逆向拆解五维模型 | framework | ai-saas |
+| beverage-foodservice-channel | 餐饮渠道饮料开发：草本浓缩饮品的渠道-产品-工艺框架 | framework | yitang, business-strategy, product, entrepreneur |
 | bridge-利润-单元模型-定价闭环 | 桥接：一堂单元模型 × 利润为王 — 用业务公式做定价决策 | framework | profit-pricing, bridge |
 | bridge-利润-需求冰山-价值定价 | 桥接：一堂需求冰山 × 利润为王 — 客户为什么愿意付高价 | framework | profit-pricing, bridge |
 | business-formula-to-kdo-card-quality | 业务公式 ABC → KDO 卡片质量：用公式思维诊断知识卡的健康度 | framework |  |
@@ -695,7 +712,7 @@ related:
 | framework-个人学习方法-科学提问 | 科学提问：AI时代提问=生产力入口 | framework |  |
 | framework-个人学习方法总框架 | 个人学习方法总框架：IPO×四环闭环 | framework |  |
 | framework-个人成长五步法 | 个人成长五步法：Truman的个人版本 | framework |  |
-| framework-利润-利润优先经营框架 | 利润优先经营框架：从「利润是剩余」到「利润是生存成本」 | framework |  |
+| framework-利润-利润优先经营框架 | 利润优先经营框架：从「利润是剩余」到「利润是生存成本」 | framework | profit-pricing |
 | framework-单元模型-外部对抗地图 | 外部对抗地图 | framework |  |
 | framework-目标三层拆解 | 目标三层拆解：项目层→业务层→组织层 | framework | management |
 | framework-科学决策三角形 | 科学决策三角形：宽度×高度×深度三维决策框架 | framework | yitang, decision-science |
@@ -708,6 +725,7 @@ related:
 | modeling-to-kdo-toolchain | 建模三段论 → KDO 工具链映射：从 SOP 到本质的知识管理落地 | framework |  |
 | private-domain-saas-sales-funnel | 私域 SaaS 销售四步法 | framework | saas, 私域电商, 销售流程 |
 | sales-pitch-bias-patterns | 销售话术偏误识别模式库 | framework |  |
+| smart-device-foodservice-automation | 智能设备外卖对接：无人零售接入美团/饿了么的技术与商业模式 | framework | yitang, business-strategy, product, entrepreneur |
 | xingangwan-pharma-business-formulas | 鑫港湾医药零售业务公式：原研药模式的转化漏斗与杠杆变量 | framework | healthcare, pharmaceutical-retail, business-strategy, product, unit-economics |
 | xingangwan-pharma-business-model-calc | 鑫港湾医药零售商业模型计算框架 | framework |  |
 | xingangwan-pharma-business-model-formulas | 鑫港湾医药零售商业模式计算框架与业务公式 | framework | healthcare, pharmaceutical-retail, business-strategy, finance |
@@ -729,6 +747,7 @@ related:
 | yt-composite-pan-product-methodology | 泛产品设计方法论（升级版） | framework | panproduct, product, design, organization, yitang |
 | yt-decision-abcd-model | 关键假设 ABCD 模型 | framework | yitang, decision-science |
 | yt-decision-y-model-philosophical-roots | Y 模型的哲学根基：王阳明知行合一、矛盾论、实践论的三重映射 | framework |  |
+| yt-demand-decision-chain | ToB决策链需求分析：多角色、多需求、多顾虑 | framework |  |
 | yt-demand-early-validation | 需求早期验证：低成本测试法 | framework |  |
 | yt-demand-jtbd-application | JTBD需求分析实战应用：从"用户想要"到"用户雇佣" | framework |  |
 | yt-demand-scenario-reconstruction | 用户场景重构法：使用前中后的完整体验地图 | framework |  |
@@ -798,6 +817,8 @@ related:
 | sk-ai-question-problem-checklist | 技能：提问题转化三问清单 | tool | ai-collaboration, yitang |
 | sk-ai-system-redundancy | 技能：系统冗余度快速检查清单 | tool | ai-collaboration, yitang |
 | sk-ai-voice-input-doubao | 技能：口喷式语音输入法 | tool |  |
+| smart-medicine-cabinet-financial-model | 智能药柜单点财务模型与回本测算表 | tool | healthcare, pharmaceutical-retail, financial-model |
+| smart-medicine-cabinet-fraud-detection | 智能药柜/智慧药房招商骗局识别清单 | tool | healthcare, pharmaceutical-retail, risk-warning |
 | tool-1视角升级思考法 | 技能：+1视角升级思考法 | tool | learning-methodology, management, decision-making, yitang, business-strategy |
 | tool-aesthetic-library-builder | 审美库采集工具：批量抓取→打分→筛选→生成 DataPack | tool | yitang, ai-collaboration |
 | tool-agent-context-derivation-audit | Agent context推导链审计：从经验堆叠到原则推导 | tool | system |
@@ -898,6 +919,7 @@ related:
 | tool-checklist-cheatsheet-modeling | 清单/小抄建模法：把经验变成可执行的检查点 | tool |  |
 | tool-ci-define-phase | CI Define 阶段工具：决策驱动的问题定义 | tool |  |
 | tool-ci-implement-phase | CI Implement 阶段工具：洞见嵌入运营节奏 | tool |  |
+| tool-clinic-cabinet-legal-contract-guide | 诊所+智能药柜合作的法律关系与合同要点 | tool | healthcare, business-strategy |
 | tool-clinic-medical-shortvideo-compliance | 诊所医疗短视频/个人 IP 合规边界 | tool | healthcare |
 | tool-coaching-communication-four-layers | 教练式沟通四层级×21卡牌矩阵（信任/共识/成长/希望） | tool | yitang, management, coaching |
 | tool-coaching-communication-segments | 教练式沟通段位清单（倾听/提问/反馈×初/中/高 9 格） | tool | yitang, management, coaching |
@@ -1031,6 +1053,7 @@ related:
 | tool-scene-design-language-translation | 场景设计语言转译：把场景需求变成可执行设计约束 | tool | design, product, yitang |
 | tool-shortvideo-six-dimension-deconstruction | 短视频 6 维度拆解工具 | tool | content-production |
 | tool-skill-packaging-eight-steps | Skill 封装八步流水线：从官方最佳实践到可调用 Skill | tool | knowledge-management, ai-collaboration |
+| tool-smart-medicine-cabinet-compliance-checklist | 智能药柜/医药项目合规快速校验清单 | tool | healthcare, business-strategy |
 | tool-smart-medicine-cabinet-site-selection-guide | 智能药柜选址深度指南：场景、指标与验证方法 | tool | healthcare |
 | tool-sop-template-modeling | SOP/模板建模法：把关键动作固化成标准工作流 | tool |  |
 | tool-strategy-12-word-test | 12词战略测试：只有份额/收入/ROI/SWOT/OKR/数字化这些≠战略 | tool | strategy |
@@ -1950,8 +1973,13 @@ related:
 | case-smart-medicine-cabinet-business-model-validation | 智能药柜推广项目：录音商业模式命题交叉验证 | case | healthcare, business-strategy |
 | case-smart-medicine-cabinet-corporate-risk | 智能药柜推广项目：公司/股权/资金风险诊断 | case | healthcare, business-strategy |
 | case-smart-medicine-cabinet-failure-patterns-library | 智能药柜失败模式案例库 | case |  |
+| case-strategy-cool-boiled-water | 凉白开：细分垄断——从高考生切入，两年30亿 | case | strategy |
+| case-strategy-edward-jones | 爱德华琼斯：每个小镇只招一人——0办公位的券商模式 | case | strategy |
 | case-strategy-exit-remove | 案例：撤退型布局2——去除（IBM郭士纳复兴） | case | strategy, yitang |
 | case-strategy-exit-sell | 案例：撤退型布局1——出售（Musical.ly） | case | strategy, yitang |
+| case-strategy-failure-01-cosmetics | 案例：长尾品类化妆品——方向错误。天花板低+营销浪费 | case | strategy |
+| case-strategy-failure-02-supermarket | 案例：精品超市O——目标错误。高速增长期追求盈利反噬增长 | case | strategy |
+| case-strategy-failure-03-cleaning | 案例：清洁用品L——定位错误。盲目高端丢低端市场 | case | strategy |
 | case-strategy-failure-04-appliance | 案例：家电公司G——路径错误。重渠道轻研发导致非核心品类失败 | case |  |
 | case-strategy-failure-05-it | 案例：IT公司H——共识不足。高层反复横跳致市值下降 | case |  |
 | case-strategy-failure-06-phone-n | 案例：手机公司N——组织僵化。组织不适致迭代缓慢 | case |  |
@@ -1967,6 +1995,7 @@ related:
 | case-strategy-practice-10-turnaround | 案例：尾部企业扭亏——7个月转连续7年亏损，2年30亿→50亿 | case | strategy |
 | case-strategy-practice-11-third-place | 案例：行业老三翻盘——2个月减亏7000万，10个月电商超竞品 | case |  |
 | case-strategy-practice-12-zero-loss | 案例：央企新店零亏损——2015年后无亏店，大店年均盈利300万 | case |  |
+| case-strategy-practice-ranpeng-crossborder | 冉鹏失败案例：美区TikTok跨境电商——3个月一单没卖 | case | strategy |
 | case-strategy-practice-ranpeng-milk-powder | 冉鹏操盘：一米八八儿童奶粉——从零到20亿的细分垄断 | case |  |
 | case-strategy-retailer-activity-scope | 零售商 A/B/C：客户选择、价值主张与活动范围的三角对齐 | case |  |
 | case-strategy-revival-13-bestore | 案例：良品铺子——涨价暴跌→换代言+新媒体+品类拓展+区域扩张 | case |  |
@@ -2245,6 +2274,7 @@ related:
 | case-一堂-邹韵涛-中小企业高级管理辅导班专题培训会 | 邹韵涛：政府出资的中小企业高管封闭培训会，106 人报名、50 人实到、满意度 100% | case | yitang, conversion-rate |
 | case-一堂-阻力篇案例库 | 一堂转化率黑客阻力篇案例索引库（12 种阻力消除） | case | yitang, conversion-rate |
 | case-一堂-陈贤敏汉堡-hypothesis-validation | 案例：陈贤敏中式汉堡先开实验店验证关键假设 | case |  |
+| case-利润-巨米OPC利润前置对照 | 从巨米成本定价失败到 OPC 利润前置：同一个创始人用利润优先框架重做一次 | case | profit-pricing |
 | case-利润-白牌珠宝流量上瘾症 | 白牌珠宝直播：流量驱动的利润陷阱 | case | profit-pricing |
 | case-利润-苹果智能手机利润垄断 | 苹果智能手机利润垄断：18% 出货量拿走 85% 利润 | case | profit-pricing |
 | case-利润-通用汽车份额追逐失败 | 通用汽车 2002-2010：为 29% 份额降价的代价 | case | profit-pricing |
@@ -2463,6 +2493,7 @@ related:
 | dk-sales-demand-mining-is-company-task | 需求挖掘是公司的任务，销售只做传递与匹配 | dk | sales, management, yitang |
 | dk-shoulu-yixia-culture | 收录一下：知识入库文化靠高频简单指令养成，不靠制度文件 | dk | knowledge-management, management |
 | dk-signal-cluster-illusion | 暗知：信号簇幻觉——为什么12个AI变化信号同时亮起时，你反而应该更警惕 | dk | yitang, ai |
+| dk-skill-market-agent-self-install | 暗知识：Skills Market 不是给人看的说明书，而是给 Agent 自安装的自描述 | dk | ai-collaboration, yitang |
 | dk-skill-seven-elements-upgrade | Skill ≠ Prompt——蓝鱼七要素告诉你完整 Skill 缺了什么 | dk | ai-collaboration, yitang |
 | dk-small-format-error-cascades-to-system-failure | 小格式错误在批量系统中引发级联失效 | dk | master, kdo, ai-collaboration |
 | dk-spatial-narrative-pitfalls | 空间叙事四大失败模式：等距平铺/伪嵌套/横图看不清/构建者自审 | dk | content-production |
@@ -2476,6 +2507,8 @@ related:
 | dk-strategy-06-dividend-to-strategy | 过去靠红利，现在靠战略。红利消退≠没有红利——新能源汽车/AI制药/低空经济仍有新红利 | dk | strategy |
 | dk-strategy-07-strategy-vs-dividend | 战略驱动 vs 红利驱动：前者创造路径，后者依赖环境 | dk | strategy |
 | dk-strategy-08-not-local-optimum | 战略≠局部优化。战略是构建完整生态系统，不是单点提效 | dk | strategy |
+| dk-strategy-consulting-jokes | 战略咨询两个笑话：属羊+勺子——告诉已知/脱离实际/无闭环 | dk | strategy |
+| dk-strategy-essence-four-elements | 战略内核检测：细分市场+竞争优势+资源配置+范围经济 | dk | strategy |
 | dk-strategy-longzhong-four-failures | 隆中对失败四因：资源/联盟/执行/环境——诸葛亮都栽了 | dk | strategy |
 | dk-strategy-three-must-do-moments | 三种必做战略的时刻：快速扩张/业务平台期/行业下行期 | dk | strategy |
 | dk-three-context-formula | 15 秒做图三上下文公式：知道我是谁+检索项目文档+读取设计宪法 | dk | ai-collaboration, design |
@@ -2581,6 +2614,9 @@ related:
 | yt-product-kernel-failure-modes | 产品内核失败模式 | dk | product |
 | yt-product-kernel-overpromise-trap | 过度承诺陷阱：前端卖了后端做不出来的东西 | dk | product, yitang |
 | yt-product-kernel-premature-optimization | 过早细化陷阱：在验证前追求完美 | dk | product |
+| Kimi-月之暗面 | Kimi（月之暗面） | entity | kdo, product, ai-saas, design |
+| YC-Y-Combinator | Y Combinator | entity | entrepreneurship, ai-saas, management, business-strategy |
+| 一堂 | 一堂 | entity | entrepreneurship, management, yitang, business-strategy |
 | 七件事集团 | 七件事集团 | entity |  |
 | 紫鲸AI | 紫鲸AI | entity | ai-saas, management, kdo, business-strategy |
 | 鑫港湾 | 鑫港湾 | entity | management, healthcare, finance-legal, ai-saas, design, kdo |

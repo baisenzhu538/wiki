@@ -39,6 +39,9 @@ GOOD = """## 差异栏
 | #409 YAML 修复 | kdo-tools/review-check.py |
 | 执行报告 | 60_feedback/tasks/task_20260822_huangyaoshi-health-metrics-set.md |
 
+## 本会话发现的问题/摩擦
+无（本样本为构造样本，非真实会话）。
+
 ## 元反思
 下次先验证存在证据再报丢失。
 
@@ -147,7 +150,8 @@ def _judge(name):
 
 def test_sample_a_expected_pass():
     grade, deep = _judge("sample-a-wangyuyan-2026-08-22")
-    assert grade == "A"
+    # #458 新口径：A 级需「本会话发现的问题」节——08-22 历史样本缺节 → 判 B（降级正确）；深指标校准仍全 pass
+    assert grade == "B"
     assert deep == ["pass", "pass", "pass", "pass"]
 
 

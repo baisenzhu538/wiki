@@ -1,0 +1,26 @@
+2026-08-23 14:15:21｜task_20260823_huangyaoshi-issue-report-automation-final｜F-034-五字段｜执行报告缺 5 个字段（#429 F-034）：改动文件清单、完成内容一句话、验证命令+输出、未做项/边界、需要谁动作。请补全后重试，或 --force --reason '<理由>' 声明例外（#4｜huangyaoshi
+2026-08-23 14:27:13｜task_9999_force-test｜F-034-force无理由｜--force 未配 --reason（#444 例外留痕要求）｜wangyuyan
+2026-08-23 14:29:30｜task_20260823_laowantong-role-special-zhu｜F-034-五字段｜执行报告缺 5 个字段（#429 F-034）：改动文件清单、完成内容一句话、验证命令+输出、未做项/边界、需要谁动作。请补全后重试，或 --force --reason '<理由>' 声明例外（#4｜wangyuyan
+2026-08-23 15:08:42｜task_9999_force-test｜F-034-force无理由｜--force 未配 --reason（#444 例外留痕要求）｜wangyuyan
+2026-08-23 15:08:42｜task_9999_test｜处置-硬门禁｜disposal:true 缺「内容价值判断」节（PROTOCOL §7）｜task_9999_test
+2026-08-23 15:11:02｜task_t_disposal｜处置-硬门禁｜disposal:true 缺「内容价值判断」节（PROTOCOL §7）｜task_t_disposal
+2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --reason（#444 例外留痕要求）｜wangyuyan
+2026-08-23 15:13:24｜task_9999_test｜处置-硬门禁｜disposal:true 缺「内容价值判断」节（PROTOCOL §7）｜task_9999_test
+2026-08-23 15:14:22｜task_9999_force-test｜F-034-force无理由｜--force 未配 --reason（#444 例外留痕要求）｜wangyuyan
+2026-08-23 15:14:22｜task_9999_test｜处置-硬门禁｜disposal:true 缺「内容价值判断」节（PROTOCOL §7）｜task_9999_test
+2026-08-23 15:15:14｜task_9999_force-test｜F-034-force无理由｜--force 未配 --reason（#444 例外留痕要求）｜wangyuyan
+2026-08-23 15:15:14｜task_9999_test｜处置-硬门禁｜disposal:true 缺「内容价值判断」节（PROTOCOL §7）｜task_9999_test
+2026-08-23 15:15:57｜task_9999_force-test｜F-034-force无理由｜--force 未配 --reason（#444 例外留痕要求）｜wangyuyan
+2026-08-23 15:15:57｜task_9999_test｜处置-硬门禁｜disposal:true 缺「内容价值判断」节（PROTOCOL §7）｜task_9999_test
+2026-08-23 15:16:29｜task_9999_force-test｜F-034-force无理由｜--force 未配 --reason（#444 例外留痕要求）｜wangyuyan
+2026-08-23 15:16:29｜task_9999_test｜处置-硬门禁｜disposal:true 缺「内容价值判断」节（PROTOCOL §7）｜task_9999_test
+2026-08-23 15:16:40｜task_9999_force-test｜F-034-force无理由｜--force 未配 --reason（#444 例外留痕要求）｜wangyuyan
+2026-08-23 15:16:40｜task_9999_test｜处置-硬门禁｜disposal:true 缺「内容价值判断」节（PROTOCOL §7）｜task_9999_test
+2026-08-23 15:17:32｜task_9999_force-test｜F-034-force无理由｜--force 未配 --reason（#444 例外留痕要求）｜wangyuyan
+2026-08-23 15:17:32｜task_9999_test｜处置-硬门禁｜disposal:true 缺「内容价值判断」节（PROTOCOL §7）｜task_9999_test
+2026-08-23 15:18:28｜task_9999_force-test｜F-034-force无理由｜--force 未配 --reason（#444 例外留痕要求）｜wangyuyan
+2026-08-23 15:18:28｜task_9999_test｜处置-硬门禁｜disposal:true 缺「内容价值判断」节（PROTOCOL §7）｜task_9999_test
+2026-08-23 15:20:46｜task_9999_force-test｜F-034-force无理由｜--force 未配 --reason（#444 例外留痕要求）｜wangyuyan
+2026-08-23 15:20:46｜task_9999_test｜处置-硬门禁｜disposal:true 缺「内容价值判断」节（PROTOCOL §7）｜task_9999_test
+2026-08-23 15:52:12｜task_9999_force-test｜F-034-force无理由｜--force 未配 --reason（#444 例外留痕要求）｜wangyuyan
+2026-08-23 15:52:12｜task_9999_test｜处置-硬门禁｜disposal:true 缺「内容价值判断」节（PROTOCOL §7）｜task_9999_test

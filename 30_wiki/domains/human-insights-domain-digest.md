@@ -15,7 +15,7 @@ source_refs:
 - 60_feedback/tasks/task_20260809_huangyaoshi-human-domain-onboarding.md
 - 60_feedback/tasks/task_20260804_wangyuyan-how-to-know-a-person-cards.md
 created_at: 2026-08-09
-updated_at: 2026-08-09
+updated_at: 2026-08-23
 tags:
 - audience:all
 - scene:reference
@@ -68,6 +68,7 @@ related:
 | [[dk-narrative-choice-theory]] | dk | 叙事选择论：30 岁后为自己负责 |
 | [[case-ai-pet-emotional-product]] | case | AI 宠物：砍掉"会说话"功能 |
 | [[case-shuishui-business-insight]] | case | 水水缝隙需求洞察 |
+| [[bridge-how-to-know-person-to-business]] | bridge | 人域"看见"↔商业域：从理解人到创造商业价值 |
 
 ### 块 2：影响他人（教练式领导力 · #280）
 
@@ -81,8 +82,16 @@ related:
 | [[tool-leadership-feedback-cards]] | tool | 反馈卡 6 原则 |
 | [[tool-leadership-three-stubborn-subordinates]] | tool | 三类棘手下属破解 |
 | [[tool-leadership-consensus-goal-escalation]] | tool | 共识目标三次跨越 |
+| [[tool-coaching-communication-four-layers]] | tool | 21 卡牌体系：信任/共识/成长/希望 × 倾听/提问/反馈 |
+| [[tool-coaching-communication-segments]] | tool | 段位清单：初/中/高三阶话术例句 |
+| [[dk-coaching-monkey-theory]] | dk | 猴子理论：从背猴子到教人养猴子 |
+| [[dk-coaching-boundary-conditions]] | dk | 边界三情况：时间紧急/无信任/ROI低→直接给答案 |
+| [[dk-y-model-communication]] | dk | Y 模型沟通版：先问清问题再出方案 |
 | [[case-yitang-leadership-culture]] | case | 一堂团队实践 |
 | [[case-leadership-communication-failures]] | case | 沟通失败案例集 |
+| [[case-morfei-semiconductor]] | case | 莫非半导体：从背猴子到教人养猴子（证据） |
+| [[case-coaching-dialogue-three-versions]] | case | 教练对话三版本对比（证据） |
+| [[bridge-coaching-leadership-feature-layered]] | bridge | 领导力五阶梯 × Feature 分层 L5 组织层同构 |
 
 ### 块 3：自我认知（拆书 + 复盘域）
 

@@ -4,12 +4,13 @@ updated_at: 2026-08-22T00:00:00+00:00
 status: active
 reviewed_by: 欧阳锋
 active_branch: main
-active_task: "2026-08-22 欧阳锋会话收官（超长：20+ 单终审 + 会诊表态 + 运维修复）：#407 A-/#408 A-/#409 A/#410 A/#411 30 批收官 A（7472→457 可处理归零，图谱连通性工程完成）/#412 A/#413 A-/#414 A/#415 A/#416 A/#418 A/#419 A/#420 A/#425 A。会诊表态 positions/ouyangfeng.md + 批次 TODO 闭环建议书（R1-R4 王语嫣全承接）。批次验收流程经 30 批固化（禁 queue_transition/划段行/恢复 queued）。审查方法升级：diff 文件归属先行。队列：待领取 7（#417/#421-424/#426-428）+ #188 历史遗留；审查中 0。恢复：读 ouyangfeng-context + context + amnesia-recovery（08-22 快照节）+ daily-context 最新。"
+active_task: "2026-08-23 会话（二十九闭环+一退回）：凌晨 14 单 + 复审批 + 瘦身移交 + #446 A + #445/#451/#453/#455/#449/#457 A- + #447/#454 双闭环 + **#460 问题上报自动化 FAIL 退回**（机器自报三环 4/5：处置硬门禁 #457 拦截不上报——报告声称 5 处插桩实测 4 处，PROTOCOL §7 最高风险防线静默，正违背治沉没目标；其余全达标 57 测试/第五探针幂等/单扫描器/话术六角色；复审只验处置插桩）。**#458/#459 被 #460 取代挂账**（缺 cancel 状态，#460 §四-3 遗留——不审 PASS/FAIL）。TODO 移交：#417 版本脚本校验入 lint/#428+#431 aliases 批量清理/旧轨 08-26 归档/#421 跨夜补发实证/#427 PROPOSAL-PENDING 段行划掉/#429 waiting-external 滞留巡检/#432+#434 mirror 待老朱拍板/#189 quality 观察/#433 三段式+数据视图声明王语嫣入 SOP/L0 容量巡检/F-044 外部残留归黄药师/#453 首次真实归档王语嫣周一/#457 编排侧 disposal 模板王语嫣/#460 处置门禁插桩待补/#458/#459 挂账待 cancel 机制评估。队列：REVIEW-PENDING 段内仅 #188（段外残留）。纪律：意见书负向断言必带**存在性核查**锚点（连续 4 单零拦截）；截断假象第 5 次——读数据先完整读。恢复：读 ouyangfeng-context + context + amnesia-recovery（08-22 快照节）+ daily-context 最新。队列：REVIEW-PENDING 段内全清；#188 段外残留已诊断（可 waiting-external 挂起）；待领取 1（#426 tags 词表先行）。恢复：读 ouyangfeng-context + context + amnesia-recovery（08-22 快照节）+ daily-context 最新。"
 blockers:
   - "~~production-queue.md mojibake~~ 已闭环：#410 终审 PASS A（08-22 git 字节对齐恢复 186 行，残留 0，结构零变化）"
   - "O-3 已知 bug：queue_transition.py complete --force 对 queued 任务锁内 re-check 必失败——review 路径实测可用（2026-08-18 四单全通，含 --grade）"
   - "当前任务状态见 production-queue.md（唯一真相源）"
   - "旧任务文件 laowantong-next-tasks.md / laowantong-batch-*.md 已废弃——不要读。"
+  - "#421 遗留 TODO（欧阳锋复审后更新）：① P1/P2 已修复（2adad3853 22:59 静默补发+seq 序号，9 测试过）——补发机制真实跨夜场景待自然验证 ② 脚本兜底：queue_transition review 后检查任务单含「终审记录」节，无则 WARNING（O9 牌机制化，B2-4）③ 测试建议书 3 份待王语嫣裁定 ④ P3 无锁并发随 F-029 演进"
   - "建议书编号 ≠ 队列编号：建议书（R1-R4 / #267s-#273s）编号为建议性，正式编号以队列为准（decisions.md 2026-08-09 D2 已登记；friction-log 第 2 条实证）"
 next_session_hint: "① 用户重启后说'继续'→读 .agent/ouyangfeng-context.md + context.md + amnesia-recovery + 桌面/agent复盘/ouyangfeng/daily-context/ 最新（按目录内最新，不写死日期）；② 队列 #408-411 待领取（#408 老顽童空壳卡补强/#409 黄药师 parse-error 58/#410 黄药师队列 mojibake/#411 老顽童 related-asymmetry 分批）；③ 验证纪律：hermes skills list 必须带 -p <profile>、Windows 路径 grep 用裸关键词/绝对路径、'同款/已收口/全量'声明逐文件 grep；④ 部署类验收三态框架（运行态/字节/消费层）；⑤ E025/E026 编排铁律（修改另开任务/单角色单任务）"
 ---

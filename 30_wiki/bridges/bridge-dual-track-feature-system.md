@@ -52,7 +52,7 @@ quality_labels:
 
 # 双轨Feature体系：quality-gate vs capability
 
-> 一句话：KDO有两个Feature注册表——cap_hub的20个quality-gate/CLI Feature管"卡片本身不坏、工具能用"，课程周期表的100个capability Feature管"AI解题更强"。同源（都源自Truman Feature思维），不同用——混编=拿lint规则当解题武器。
+> 一句话：KDO有两个Feature注册表——cap_hub的26个quality-gate/CLI Feature管"卡片本身不坏、工具能用"（2026-08-23 对账，此前写 20；数量随 features.json 漂移，trust features.json as source of truth），课程周期表的100个capability Feature管"AI解题更强"。同源（都源自Truman Feature思维），不同用——混编=拿lint规则当解题武器。
 
 ---
 

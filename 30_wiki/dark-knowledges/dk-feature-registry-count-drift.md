@@ -36,7 +36,7 @@ related:
 - '[[dk-c8-format-complete-mind-empty]]'
 - '[[bridge-dual-track-feature-system]]'
 created_at: 2026-08-16
-updated_at: 2026-08-16
+updated_at: 2026-08-23
 tags:
 - audience:builder
 - scene:reference
@@ -46,7 +46,7 @@ tags:
 
 # Feature 注册表数量漂移：引用数字的文档系统性滞后
 
-> 一句话：KDO 的 cap_hub/features.json 是活的——13→20 条只用了一周。任何引用"有几个 Feature"的文档（bridge 卡、concept 卡、skill 主文件、skill references 子文件）都会同步滞后。数字唯一真相源是 features.json 本身，不是任何中间文档。
+> 一句话：KDO 的 cap_hub/features.json 是活的——13→20 条只用了一周，20→26 又用了一周。任何引用"有几个 Feature"的文档（bridge 卡、concept 卡、skill 主文件、skill references 子文件）都会同步滞后。数字唯一真相源是 features.json 本身，不是任何中间文档。
 
 ## 原始表述/核心洞察
 
@@ -56,6 +56,8 @@ tags:
 - `concept-kdo-feature-registry.md`：写 "12 个已注册 Feature"+ 12 行表格（实际 20 条）
 - `kdo-knowledge-base/SKILL.md`：写 "13 quality-gate Features, 4 categories"（实际 20 条、3 类 lint/cli/ux）
 - `kdo-knowledge-base/references/quality-gate-features.md`：写 "GBK-encoded, 13 features"——**E004（编码误判）的二次残留**：2026-08-09 已把主 SKILL.md 和 memory 改成 UTF-8，但漏了 references 子文件
+
+**2026-08-23 复发（E007 次数+1）**：features.json 20→26（新增 F_SERENDIPITY_COLLECT / F_AUTHOR_TARGETED_COLLECT / F_CANGJIE_SKILL / F_YIZHAN_SHENDENG / F_DARWIN_SKILL / F_PDF_INSPECTOR，新增 collection/knowledge-distill/parsing 3 类），`kdo-knowledge-base` SKILL.md 与 references 子文件均仍写 20。kdo CLI 路径也变了（`/home/dministrator/.local/bin/kdo` → `/c/Users/Administrator/AppData/Local/hermes/hermes-agent/venv/Scripts/kdo`）。教训：**漂移是常态不是意外，体检必须实测 features.json + which kdo，不能只信上次体检的快照**。
 
 ## 使用场景
 

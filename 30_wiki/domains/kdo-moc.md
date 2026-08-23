@@ -48,6 +48,7 @@ related:
 - '[[dk-tool-chain-naming-is-infrastructure]]'
 - '[[dk-state-residue-is-the-silent-killer]]'
 - '[[dk-kdo-leaky-pipe-pressure]]'
+- '[[dk-digest-registration-gap]]'
 - '[[dk-publish-collapse-to-iterate]]'
 - '[[workflow-cross-agent-fact-dispute]]'
 - '[[tool-mcp-reachability-check]]'
@@ -102,6 +103,7 @@ KDO 主题域 MOC（本卡）
 │   ├── dk-kdo-leaky-pipe-pressure            ← 管道漏水：堵了就硬塞
 │   ├── dk-agent-access-kdo-pitfalls          ← 外部Agent接入三连坑：审批门禁/cwd格式/检索规则过时
 │   ├── dk-feature-registry-count-drift        ← Feature注册表数量漂移：引用数字的文档系统性滞后（2026-08-16）
+│   ├── dk-digest-registration-gap              ← 导航卡注册缺口：SOUL内嵌引用≠已注册（2026-08-23）
 │
 ├── 工具与流程层
 │   ├── tool-mcp-reachability-check           ← 可发现性自查

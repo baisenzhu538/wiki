@@ -63,7 +63,7 @@ Feature = KDO 的原子化最小技术单位。每个 Feature：
 
 Feature ≠ Skill。Skill 是封装逻辑，Feature 是原子特性。
 
-## 20 个已注册 Feature
+## 26 个已注册 Feature
 
 | ID | 名称 | 分类 | 独立测试 |
 |:--|:--|:--|:--|
@@ -86,6 +86,12 @@ Feature ≠ Skill。Skill 是封装逻辑，Feature 是原子特性。
 | R1_REVIEW_INFRA | lint 审查四类规则 | 门禁 | R1-a~R1-d |
 | SKILL_BRIDGE_SYNC | 双轨 Skill 同步 | CLI | shared→.claude 单向同步 |
 | FEISHU_DOC_MCP | 飞书文档操作 | CLI | lark-cli create/fetch/update |
+| F_SERENDIPITY_COLLECT | 随机采集 | 采集 | 素材池随机抽选 |
+| F_AUTHOR_TARGETED_COLLECT | 博主定向采集 | 采集 | 博主主页→全部视频 |
+| F_CANGJIE_SKILL | 仓颉蒸馏 | 蒸馏 | 书/视频→skill 集 |
+| F_YIZHAN_SHENDENG | 一盏神灯蒸馏 | 蒸馏 | AI 带读→蒸馏 |
+| F_DARWIN_SKILL | Darwin skill 优化 | 蒸馏 | 9维评分+自动优化 |
+| F_PDF_INSPECTOR | PDF 解析 | 解析 | 文本/扫描件分类直提 |
 
 
 ## 使用方式
