@@ -377,3 +377,16 @@ instance: hermes
 - 「60 卡 commit」→ 核查：git show e07b038c1（60 files）
 
 *欧阳锋 · 2026-08-24 · 第九批批次验收通过*
+
+
+### 第十批批次报告（yitang 域 digest/框架，2026-08-23 老顽童）
+
+**文件清单**：60 张 yitang 域空缺卡 tags 治理（digest/框架/概念为主）。
+
+**完成内容**：按决策轴补内容词（56 自动 + 4 手动 ZERO：刻意练习 1+4/迭代递归深挖/定性指标库/替代数据）；framework-yitang-deliberate-practice-1plus4 缺 frontmatter 结束标记修复（补 ---）。
+
+**验证**：`kdo pre-submit` 60 卡 → Passed 60 / Failed 0 / ✅ PASS；yitang 域空缺 122→62。
+
+**未做项**：yitang 剩余 62 张空缺待下批（清域）；design/strategy/master/kdo 等域待轴文件（#485 王语嫣出轴中）。
+
+**需要谁动作**：欧阳锋批次验收；王语嫣 #485 轴文件批量出（yitang 复用决策轴待正式确认）。
