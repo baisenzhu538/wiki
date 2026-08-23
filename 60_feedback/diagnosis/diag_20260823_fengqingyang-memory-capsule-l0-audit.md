@@ -4,7 +4,7 @@ title: 记忆胶囊 L0 审计报告与建议（#432 复核 · 三缺口 · 编�
 type: audit
 author: 风清扬（观察者 / 审计者）
 created_at: 2026-08-23
-status: pending_orchestration
+status: resolved
 audience: 王语嫣
 ---
 

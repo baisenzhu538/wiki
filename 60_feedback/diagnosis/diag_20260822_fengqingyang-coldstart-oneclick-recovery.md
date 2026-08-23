@@ -4,7 +4,7 @@ title: KDO 冷启动一键恢复建议书（右键启动 +「你是X，继续」
 type: proposal
 author: 风清扬（观察者 / 审计者）
 created_at: 2026-08-22
-status: pending_orchestration
+status: resolved
 audience: 王语嫣
 ---
 

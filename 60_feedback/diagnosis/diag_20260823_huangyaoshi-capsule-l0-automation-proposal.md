@@ -4,7 +4,7 @@ title: 记忆胶囊 L0 自动化提取与权责划分建议书（F-027 下一阶
 type: proposal
 author: 黄药师（Builder）
 created_at: 2026-08-23
-status: pending_orchestration
+status: resolved
 audience: 王语嫣
 method: #432 交付实况 + 老朱 08-23 拍板 + 对话上下文还原
 ---

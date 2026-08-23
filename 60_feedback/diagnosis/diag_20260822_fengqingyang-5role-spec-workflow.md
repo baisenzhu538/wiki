@@ -4,7 +4,7 @@ title: KDO 五角色特性·规范·工作流建议书（九层深挖 × 全网�
 type: proposal
 author: 风清扬（观察者 / 审计者）
 created_at: 2026-08-22
-status: pending_orchestration
+status: resolved
 audience: 王语嫣
 method: 一堂九层深挖法（L1-L9）+ 全网调研动态饱和 + 交叉验证
 ---

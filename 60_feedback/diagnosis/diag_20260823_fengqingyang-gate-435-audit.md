@@ -4,7 +4,7 @@ title: 负向门禁 #435 审计意见——「为空/空值」强词误伤「不
 type: audit
 author: 风清扬（观察者 / 审计者）
 created_at: 2026-08-23
-status: pending_orchestration
+status: resolved
 audience: 王语嫣
 ---
 

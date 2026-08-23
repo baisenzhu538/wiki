@@ -461,6 +461,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 443 | `task_20260823_huangyaoshi-probe-notify-assignee-routing` | 探针可领取通知按 assignee 路由（P1，#421 演进）：修硬编码 laowantong + 补 huangyaoshi 通道 | pending_review | huangyaoshi | 路由映射+通道+用例 | #442 立项实证（老朱指令入队） | `60_feedback/tasks/task_20260823_huangyaoshi-probe-notify-assignee-routing.md` | 未知 assignee 回落 laowantong 不静默丢；通道缺失 dry-run 降级；不动已审 #421 幂等/静默/单扫描器纪律；REVIEW/PROPOSAL 两条既有路由不改；活体验收=下张 huangyaoshi 单落队实测；欧阳锋终审 |
 | 444 | `task_20260823_huangyaoshi-queue-force-ledger-assignee-role` | queue_transition 交接语义加固（P1，风清扬建议 1+3 裁定合并）：--force/--evidence 例外台账 + frontmatter assignee 角色名口径 | queued | huangyaoshi | 台账+口径改造+用例 | #441 complete --force 绕过 F-034 实证 | `60_feedback/tasks/task_20260823_huangyaoshi-queue-force-ledger-assignee-role.md` | force 无 --reason 拒绝；evidence 路径留档且五字段必须落任务单；assignee 只写角色名+instance 另存，存量实例名兼容不回改；裁定=diag_20260823_wangyuyan-441-rework-ruling.md §二；欧阳锋终审 |
 
+| 445 | `task_20260823_huangyaoshi-oneclick-agent-launcher` | KDO 一键启动脚本（P2，冷启动三件套 A 项）：右键启动+角色菜单，三步入会话 | queued | huangyaoshi | 启动脚本+狗粮 | 风清扬建议书裁定（B/C 归 #419 追加+王语嫣自办） | `60_feedback/tasks/task_20260823_huangyaoshi-oneclick-agent-launcher.md` | L3 活体=老朱亲手三步启动确认；飞书角色不进菜单；交付五字段+验证分层声明；欧阳锋终审 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
 ## ⚖️ 待终审（提审任务，queue_transition 自动登记）
@@ -580,10 +581,10 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~60_feedback/diagnosis/diag_20260822_fengqingyang-orchestration-audit.md｜王语嫣会诊收口立项批 #414-#425 编排审计（A-，4 待修：W7 口径矛盾 / B3-4+W1 无单 / 739 tags 滞留 / B3-1~2 后置未登记）｜风清扬 08-22~~ → 已复核裁定（2026-08-22 王语嫣）：①采纳——decisions.md 勘误删「来源登记册」+W7 边界句落 #414/#416；②采纳——W7/W1/B3-4 三条并入 #416（#399 已 reviewed 冻结）；④采纳——停车场 #7 补登记忆胶囊四层（建设者=风清扬认领）；③上报老朱待拍（停车场 #6 已标注）
 - ~~60_feedback/diagnosis/diag_20260822_fengqingyang-orchestration-audit.md｜新增发现⑤：每轮次会话结束强制自我复盘未入会诊/任务单（仅欧阳锋 context 有硬话术，其余角色软建议；agent-os §10 有文本无立项）｜风清扬 08-22~~ → 已复核裁定（2026-08-22 王语嫣）：采纳挂 #419 追加（六角色 context 强制话术统一，欧阳锋句式为底本）；覆盖率通报不重复建设（已挂 #425 指标 6）
 - ~~60_feedback/diagnosis/diag_20260822_fengqingyang-5role-spec-workflow.md｜KDO 五角色特性·规范·工作流建议书（九层深挖×Anthropic orchestrator/evaluator 最佳实践，供 B2-3 角色专场过卡）｜风清扬 08-22~~ → 已复核裁定（2026-08-22 王语嫣）：采纳——①五要素模板+旧 spec 更新+G1/G2 写入=角色专场底本（停车场 F-028，待老朱点名，不提前拆单）②风清扬 spec 卡立项 #428 ③交接保真三指标入 #425 追加二 ④spec↔context 同口径校验入 #417 追加
-- 60_feedback/diagnosis/diag_20260822_fengqingyang-coldstart-oneclick-recovery.md｜KDO 冷启动一键恢复建议书（右键启动 + 「你是X，继续」自动恢复记忆，降 token）｜风清扬 08-22
-- diag_20260822_fengqingyang-proposal-board-dedup.md｜08-22 22:03｜待王语嫣复核裁定
-- diag_20260822_probe-test-1-proposal.md｜08-22 22:03｜待王语嫣复核裁定
-- diag_20260822_probe-test-3-notify.md｜08-22 22:26｜待王语嫣复核裁定
+- ~~60_feedback/diagnosis/diag_20260822_fengqingyang-coldstart-oneclick-recovery.md｜KDO 冷启动一键恢复建议书（右键启动 + 「你是X，继续」自动恢复记忆，降 token）｜风清扬 08-22~~ → 已复核裁定（2026-08-23 王语嫣）：采纳三件套——A 一键启动脚本立项 **#445**（黄药师）；B 各角色 context 冷启动自恢复铁律并入 #419 追加（六角色 context 话术统一同族）；C 恢复口令收敛「锚点一份」=王语嫣自办（本日会话内）
+- ~~diag_20260822_fengqingyang-proposal-board-dedup.md｜08-22 22:03｜待王语嫣复核裁定~~ → 已复核裁定（2026-08-23 王语嫣）：采纳——A 现账已清（每份一行）；B 去重键归一已修（conveyor_probe.py L137-140，#443 线覆盖）；C 复核后回写 frontmatter status 即日起执行（本日 11 份已批量回写 resolved）
+- ~~diag_20260822_probe-test-1-proposal.md｜08-22 22:03｜待王语嫣复核裁定~~ → 已复核裁定（2026-08-23 王语嫣）：#421 验收测试件——自动登记验证目的达成，按测试件关闭留痕，不立项不建资产
+- ~~diag_20260822_probe-test-3-notify.md｜08-22 22:26｜待王语嫣复核裁定~~ → 已复核裁定（2026-08-23 王语嫣）：#421 验收测试件——到达通知（登记+通知同源）验证目的达成，按测试件关闭留痕，不立项
 - ~~diag_20260822_fengqingyang-l0-backup-path.md｜08-22 23:11｜待王语嫣复核裁定~~ → 已复核裁定（2026-08-22 王语嫣，2026-08-23 老朱拍板）：采纳收敛 A+B 先行/C 缓议；见 `diag_20260822_wangyuyan-427-l0-backup-ruling.md`，已入队 #427 并 reviewed
 - ~~diag_20260823_fengqingyang-negative-claim-evidence-gate.md｜08-23 00:38｜待王语嫣复核裁定~~ → 已复核裁定（2026-08-23 王语嫣）：采纳，另开 #433 负向判词证据层门禁（不改已审 #419/#429）；停车场 F-037 已立项
 - ~~diag_20260823_huangyaoshi-capsule-l0-automation-proposal.md｜08-23 00:47｜待王语嫣复核裁定~~ → 已复核裁定（2026-08-23 王语嫣）：采纳方案 A（daily-context-save 挂钩自动写 L0），B 扫描器缓议、C 挂 F-033；另开 #434，权责=黄药师建设/风清扬审计
@@ -593,8 +594,8 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~diag_20260823_fengqingyang-handoff-doc-only.md｜08-23 02:00｜待王语嫣复核裁定~~ → 已复核裁定（2026-08-23 王语嫣）：原则采纳——对话属于老朱，文档才是角色间唯一沟通；登记停车场 F-041，L0 judgment/decision/insight 事件扩类型挂 #434 后评估
 - ~~diag_20260823_fengqingyang-gate-435-audit.md｜08-23 11:03｜待王语嫣复核裁定~~ → 已复核裁定（2026-08-23 王语嫣，老朱指令「落返工单，黄药师删词补反例」）：采纳——P1 误伤实锤（8 组独立用例+根因定位）；另开 #442 返工单（STRONG 删为空/空值走正则+补否定式反例），黄药师实施、欧阳锋复审
 - ~~diag_20260823_fengqingyang-441-review-and-proposal.md｜08-23 11:25｜待王语嫣复核裁定~~ → 已复核裁定（2026-08-23 王语嫣）：3/3 采纳——P1-1/P1-2 进 #441 返工（#441 已被欧阳锋终审退回 queued，返工口径已追加进任务单）；P3+建议 1/3 合并立项 **#444**（force/evidence 台账+assignee 口径）；建议 2 落点=#441 返工 + F-028 专场「终审 SOP 增补」追加项。裁定文书：`diag_20260823_wangyuyan-441-rework-ruling.md`
-- diag_20260823_fengqingyang-insights-for-charter-spec.md｜08-23 11:40｜待王语嫣复核裁定
-- diag_20260823_ouyangfeng-task-file-append-only.md｜08-23 11:41｜待王语嫣复核裁定
-- diag_20260823_huangyaoshi-verification-tier-insight.md｜08-23 11:47｜待王语嫣复核裁定
+- ~~diag_20260823_fengqingyang-insights-for-charter-spec.md｜08-23 11:40｜待王语嫣复核裁定~~ → 已复核裁定（2026-08-23 王语嫣）：采纳为 charter v1.0 修订候选——A1 交接铁律（F-041 同源）/A2 老朱定位入宪候选登记停车场 **F-043**；A3/A4 已机制化（#433/#435/#444）留引；B 三条分派：欧阳锋=#441 复审已闭环、风清扬=其 spec 定稿自内化、黄药师=词表三层挂 F-028 黄药师场素材
+- ~~diag_20260823_ouyangfeng-task-file-append-only.md｜08-23 11:41｜待王语嫣复核裁定~~ → 已复核裁定（2026-08-23 王语嫣）：**采纳且指控属实认错**（9993e16e7 Edit 整体替换吞掉终审锚点节，git 实锤；欧阳锋复审时已补回）——任务单 append-only 纪律+编排裁定写独立文件/追加节（#444 裁定模式为标准形态）写入王语嫣工作协议协议 7；E046 入错误模式库；观察期 10 单照建议执行
+- ~~diag_20260823_huangyaoshi-verification-tier-insight.md｜08-23 11:47｜待王语嫣复核裁定~~ → 已复核裁定（2026-08-23 王语嫣）：采纳——「跑了≠真了/模拟≠真实/文档类无狗粮」三条铁律为黄药师 spec 底本素材（F-028 黄药师场追加）；执行报告加「验证分层」四态字段并入 **#444** 追加（F-034 演进同族，缺声明可追问不硬拦）；不另立停车场条目
 
 <!-- PROPOSAL-PENDING-END -->

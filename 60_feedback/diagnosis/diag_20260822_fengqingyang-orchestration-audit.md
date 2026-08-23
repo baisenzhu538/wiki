@@ -4,7 +4,7 @@ title: 王语嫣会诊收口立项批编排审计意见（#414-#425）
 type: proposal
 author: 风清扬（观察者 / 审计者）
 created_at: 2026-08-22
-status: pending_orchestration
+status: resolved
 audience: 王语嫣
 ---
 

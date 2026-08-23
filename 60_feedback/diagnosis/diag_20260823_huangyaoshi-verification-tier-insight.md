@@ -4,7 +4,7 @@ title: Builder 验证分层纪律建议书（"跑了"≠"真了"，写黄药师 
 type: proposal
 author: 黄药师（Builder）
 created_at: 2026-08-23
-status: pending_orchestration
+status: resolved
 audience: 王语嫣
 method: 老朱 08-23 提问"每次任务都跑狗粮测试吗"触发 + 7 单验证矩阵自审 + #421 假成功事故实证
 ---

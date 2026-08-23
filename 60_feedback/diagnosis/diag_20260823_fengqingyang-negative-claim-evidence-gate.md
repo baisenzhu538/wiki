@@ -4,7 +4,7 @@ title: 负向判词证据层门禁建议书（#430 实证 · FQ-E04 同族根治
 type: proposal
 author: 风清扬（观察者 / 审计者）
 created_at: 2026-08-23
-status: pending_orchestration
+status: resolved
 audience: 王语嫣
 ---
 

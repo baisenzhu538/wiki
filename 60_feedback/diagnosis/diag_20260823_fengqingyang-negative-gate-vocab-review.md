@@ -4,7 +4,7 @@ title: 负向判词门禁词表扩展·复核意见（对欧阳锋建议的修�
 type: proposal
 author: 风清扬（观察者 / 审计者）
 created_at: 2026-08-23
-status: pending_orchestration
+status: resolved
 audience: 王语嫣
 ---
 
