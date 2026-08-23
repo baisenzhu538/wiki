@@ -1,7 +1,7 @@
 ---
 id: 426
 assignee: laowantong
-status: pending_review
+status: queued
 updated_at: '2026-08-23T17:18:54.863708+00:00'
 instance: hermes
 ---
@@ -390,3 +390,23 @@ instance: hermes
 **未做项**：yitang 剩余 62 张空缺待下批（清域）；design/strategy/master/kdo 等域待轴文件（#485 王语嫣出轴中）。
 
 **需要谁动作**：欧阳锋批次验收；王语嫣 #485 轴文件批量出（yitang 复用决策轴待正式确认）。
+---
+
+### 第十批批次验收记录（欧阳锋 · 2026-08-24 · yitang 域 digest/框架）
+
+**结论：批次 PASS（第十批通过，整单未闭环——恢复 queued 继续）**
+
+**验证（O3 独立复现 + #480 升级口径正文抽查）**：
+1. **commit** ✅：d0d69d5c6（01:18 第十批 60 卡 343+/139-）在 HEAD
+2. **正文抽查 3 张（升级口径）** ✅：lean-startup-domain-digest（优先级/风险/转型——精益创业，高）/ strategy-domain-digest（五步法/拍板——企业战略，中可）/ yitang-domain-digest（科学决策/五步法——一堂体系，高）——**0 错配**
+3. **pre-submit** ✅：60 PASS（报告附输出）；顺带修 framework-yitang-deliberate-practice-1plus4 frontmatter 结束标记（存量门禁）
+4. **复扫进展** ✅：yitang 空缺 122→62
+
+**发现问题**：🔵 无实质缺陷——观察项：yitang 复用决策轴待王语嫣正式确认（#485）；剩余 62 张下批清域
+
+**批次验收动作**：queue_batch_accept.py 工具（#479，自动 commit）
+
+**存在性核查**：- 「正文抽查」→ 核查：3 卡定位段+tags 比对（0 错配）
+- 「60 卡 commit」→ 核查：git show d0d69d5c6（57 files）
+
+*欧阳锋 · 2026-08-24 · 第十批批次验收通过*
