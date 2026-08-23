@@ -34,7 +34,6 @@ DIAG_DIR = WIKI_ROOT / "60_feedback" / "diagnosis"
 TASK_DIR = WIKI_ROOT / "60_feedback" / "tasks"
 WIKI_CARDS = WIKI_ROOT / "30_wiki"
 QUEUE_FILE = WIKI_ROOT / "70_product" / "tasks" / "production-queue.md"
-FROZEN_REGISTRY = WIKI_ROOT / "90_control" / "frozen-registry.json"
 
 # 规范 §9：向前生效日（老朱拍板 + 欧阳锋终审 PASS A-）
 EFFECTIVE_FROM = "2026-08-23"
@@ -106,26 +105,21 @@ def _content_hash(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
-def cmd_snapshot() -> int:
-    """冻结基线：对冻结清单内存在的 diagnosis 文件打 hash 快照。"""
-    registry = {}
-    for name in frozen_files_from_queue():
-        fp = DIAG_DIR / name
-        if fp.exists():
-            registry[name] = {"frozen_at": datetime.now().strftime("%Y-%m-%dT%H:%M:%S"), "hash": _content_hash(fp)}
-    FROZEN_REGISTRY.parent.mkdir(parents=True, exist_ok=True)
-    FROZEN_REGISTRY.write_text(json.dumps(registry, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"✅ 冻结基线已建: {len(registry)} 个冻结文件 → {FROZEN_REGISTRY}")
-    return 0
+def _git_diff_quiet(path: Path) -> bool:
+    """#473 项2：文件相对 git HEAD 有未提交改动 → True（无状态冻结检测锚点）。"""
+    import subprocess
+    r = subprocess.run(
+        ["git", "-C", str(WIKI_ROOT), "diff", "--quiet", "HEAD", "--", str(path)],
+        capture_output=True)
+    return r.returncode == 1  # 1=有改动；0=无改动；其他=git 错误按无改动处理
 
 
-def load_frozen_registry() -> dict:
-    if not FROZEN_REGISTRY.exists():
-        return {}
-    try:
-        return json.loads(FROZEN_REGISTRY.read_text(encoding="utf-8"))
-    except (json.JSONDecodeError, OSError):
-        return {}
+def _is_tracked_by_git(path: Path) -> bool:
+    import subprocess
+    r = subprocess.run(
+        ["git", "-C", str(WIKI_ROOT), "ls-files", "--error-unmatch", str(path)],
+        capture_output=True)
+    return r.returncode == 0
 
 
 def scan_diag_files(diag_dir: Path | None = None) -> list[tuple[Path, dict]]:
@@ -206,18 +200,24 @@ def check_slug(files: list[tuple[Path, dict]]) -> list[tuple[str, str, str]]:
 
 
 def check_frozen(files: list[tuple[Path, dict]]) -> list[tuple[str, str, str]]:
-    """L7: 冻结文件（基线内）内容 hash 变化告警。基线不存在=未 snapshot，INFO 提示。"""
-    registry = load_frozen_registry()
-    if not registry:
-        return [("info", "L7", "冻结基线不存在——先跑 --snapshot 建基线（登记即冻结，§6.3）")]
+    """L7: 冻结文件改动告警（#473 项2 无状态方案）。
+
+    冻结清单运行时从 PROPOSAL-PENDING 段+探针登记历史动态生成（无持久化基线，
+    无同步漂移）；改动检测锚点=git HEAD（冻结文件自登记后不应再改，任何未提交
+    改动即 diff 命中）。--snapshot/frozen-registry.json 已废弃。
+    """
+    frozen = frozen_files_from_queue()
+    if not frozen:
+        return [("info", "L7", "PROPOSAL-PENDING 段为空——无冻结文件待检（登记即冻结，§6.3）")]
     out = []
     for fp, _ in files:
-        entry = registry.get(fp.name)
-        if not entry:
+        if fp.name not in frozen:
             continue
-        cur = _content_hash(fp)
-        if cur != entry["hash"]:
-            out.append(("error", "L7", f"冻结文件 `{fp.name}` 内容被修改（frozen_at={entry['frozen_at']}）——已交冻结禁止回头改（§6.1）"))
+        if not _is_tracked_by_git(fp):
+            out.append(("warning", "L7", f"冻结文件 `{fp.name}` 未被 git 跟踪——改动检测无锚点（登记即冻结，§6.3）"))
+            continue
+        if _git_diff_quiet(fp):
+            out.append(("error", "L7", f"冻结文件 `{fp.name}` 相对 git HEAD 有改动——已交冻结禁止回头改（§6.1）"))
     return out
 
 
@@ -239,13 +239,43 @@ def check_amends(files: list[tuple[Path, dict]]) -> list[tuple[str, str, str]]:
     return out
 
 
+def _wiki_card_frontmatter() -> list[tuple[Path, dict]]:
+    """30_wiki 全部卡（含子目录）的 frontmatter——只读头部（性能：2000+ 卡一次跑分钟级）。"""
+    out = []
+    for fp in sorted(WIKI_CARDS.rglob("*.md")):
+        try:
+            with fp.open("r", encoding="utf-8", errors="ignore") as f:
+                head = f.read(2048)
+        except OSError:
+            continue
+        if not head.startswith("---"):
+            continue
+        end = head.find("---", 3)
+        fm = {}
+        if end != -1:
+            for line in head[3:end].strip().splitlines():
+                if ":" not in line:
+                    continue
+                key, val = line.split(":", 1)
+                fm[key.strip()] = val.strip().strip("'\"")
+        out.append((fp, fm))
+    return out
+
+
 def check_id_namespace(files: list[tuple[Path, dict]]) -> list[tuple[str, str, str]]:
-    """L9: 三套编号不混用（E045）——任务单 frontmatter 不含 doc_id；wiki 卡不含 #队列号。"""
+    """L9: 三套编号不混用（E045）——任务单不含 doc_id；wiki 卡不含 #队列号/doc_id。"""
     out = []
     task_files = [(fp, parse_frontmatter(fp)) for fp in sorted(TASK_DIR.glob("task_*.md"))]
     for fp, fm in task_files:
         if fm.get("doc_id"):
             out.append(("warning", "L9", f"任务单 `{fp.name}` frontmatter 含 doc_id={fm['doc_id']}（E045：#队列号只用于任务单）"))
+    # #473 项1：wiki 卡侧（卡片 id 命名空间，混入 #队列号/doc_id = 编号体系混乱）
+    for fp, fm in _wiki_card_frontmatter():
+        card_id = str(fm.get("id", ""))
+        if re.search(r"#\d{2,4}", card_id):
+            out.append(("warning", "L9", f"wiki 卡 `{fp.name}` frontmatter id 含 #队列号: `{card_id}`（E045：卡用卡片 id）"))
+        if fm.get("doc_id"):
+            out.append(("warning", "L9", f"wiki 卡 `{fp.name}` frontmatter 含 doc_id={fm['doc_id']}（E045：doc_id 只用于建议书/诊断）"))
     return out
 
 
@@ -276,13 +306,9 @@ def find_duplicate_doc_ids(diag_dir: Path | None = None) -> dict[str, list[str]]
 
 
 def main() -> int:
-    ap = argparse.ArgumentParser(description="KDO 文件流转规范 lint（#450）")
-    ap.add_argument("--snapshot", action="store_true", help="建冻结基线快照")
+    ap = argparse.ArgumentParser(description="KDO 文件流转规范 lint（#450；#473 冻结无状态化+wiki 卡 L9）")
     ap.add_argument("--json", action="store_true", help="JSON 输出")
     args = ap.parse_args()
-
-    if args.snapshot:
-        return cmd_snapshot()
 
     files = scan_diag_files()
     all_findings: list[tuple[str, str, str]] = []

@@ -37,10 +37,13 @@ class BaseTestCase(unittest.TestCase):
         self.diag = self.tmp / "diagnosis"
         self.tasks = self.tmp / "tasks"
         self.queue = self.tmp / "production-queue.md"
-        self.registry = self.tmp / "frozen-registry.json"
-        self._orig = (ffc.DIAG_DIR, ffc.TASK_DIR, ffc.QUEUE_FILE, ffc.FROZEN_REGISTRY)
-        ffc.DIAG_DIR, ffc.TASK_DIR, ffc.QUEUE_FILE, ffc.FROZEN_REGISTRY = (
-            self.diag, self.tasks, self.queue, self.registry)
+        self._orig = (ffc.DIAG_DIR, ffc.TASK_DIR, ffc.QUEUE_FILE, ffc.WIKI_CARDS)
+        ffc.DIAG_DIR, ffc.TASK_DIR, ffc.QUEUE_FILE = (
+            self.diag, self.tasks, self.queue)
+        # wiki 卡扫描隔离：临时空目录（测试聚焦本用例，避免真实 30_wiki 干扰）
+        self.wiki = self.tmp / "wiki"
+        self.wiki.mkdir()
+        ffc.WIKI_CARDS = self.wiki
         # 冻结段（模拟探针登记）
         write(self.queue, f"""# 队列
 <!-- PROPOSAL-PENDING-BEGIN（自动登记：conveyor_probe.py；勿手改——王语嫣复核后划掉） -->
@@ -49,7 +52,7 @@ class BaseTestCase(unittest.TestCase):
 """)
 
     def tearDown(self):
-        ffc.DIAG_DIR, ffc.TASK_DIR, ffc.QUEUE_FILE, ffc.FROZEN_REGISTRY = self._orig
+        ffc.DIAG_DIR, ffc.TASK_DIR, ffc.QUEUE_FILE, ffc.WIKI_CARDS = self._orig
         import shutil
         shutil.rmtree(self.tmp, ignore_errors=True)
 
@@ -126,10 +129,24 @@ class TestL6Slug(BaseTestCase):
 
 
 class TestL7Frozen(BaseTestCase):
+    """#473 项2 无状态方案：冻结清单动态生成 + git HEAD 锚点（monkeypatch 注入）。"""
+
+    def _patch_git(self, modified: bool = False, tracked: bool = True):
+        import unittest.mock as mock
+        self._git = mock.patch.object(ffc, "_git_diff_quiet", return_value=modified)
+        self._track = mock.patch.object(ffc, "_is_tracked_by_git", return_value=tracked)
+        self._git.start()
+        self._track.start()
+
+    def tearDown(self):
+        super().tearDown()
+        if hasattr(self, "_git"):
+            self._git.stop()
+            self._track.stop()
+
     def test_frozen_file_modified_reported(self):
         write(self.diag / "diag_20260823_huangyaoshi-frozen.md", DIAG_FM)
-        ffc.cmd_snapshot()
-        write(self.diag / "diag_20260823_huangyaoshi-frozen.md", DIAG_FM + "被改了\n")
+        self._patch_git(modified=True)
         out = ffc.check_frozen(self.scan())
         self.assertEqual(len(out), 1)
         self.assertEqual(out[0][0], "error")
@@ -137,8 +154,15 @@ class TestL7Frozen(BaseTestCase):
 
     def test_frozen_file_untouched_clean(self):
         write(self.diag / "diag_20260823_huangyaoshi-frozen.md", DIAG_FM)
-        ffc.cmd_snapshot()
+        self._patch_git(modified=False)
         self.assertEqual(ffc.check_frozen(self.scan()), [])
+
+    def test_frozen_file_untracked_warns(self):
+        write(self.diag / "diag_20260823_huangyaoshi-frozen.md", DIAG_FM)
+        self._patch_git(modified=False, tracked=False)
+        out = ffc.check_frozen(self.scan())
+        self.assertEqual(out[0][0], "warning")
+        self.assertIn("未被 git 跟踪", out[0][2])
 
 
 class TestL8Amends(BaseTestCase):
