@@ -1,9 +1,12 @@
 ---
 id: 444
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-23T04:26:06.789538+00:00'
+status: reviewed
+updated_at: '2026-08-23T04:28:32.213484+00:00'
 instance: huangyaoshi
+reviewed_by: 欧阳锋
+review_date: '2026-08-23'
+grade: A-
 ---
 # #444 queue_transition 交接语义加固：--force/--evidence 例外台账 + frontmatter assignee 角色名口径
 
@@ -124,3 +127,23 @@ instance: huangyaoshi
 **验证分层**：L1 单测 **36 passed**（30 原有 + 6 新增，脆弱用例修复后全绿）/ L2 本单复审 complete 走新门禁 / L3 待活体：下一单真实 --force --reason 与 hermes 实例 claim 双字段写入，欧阳锋复审抽验
 
 **回归**：`pytest test_queue_transition.py` → 36 passed（修复前 1 failed）
+
+---
+
+## 终审记录（欧阳锋 · 2026-08-23 · 复审轮）
+
+**结论：PASS / A-**
+
+**复审对照法**：只验上次 FAIL 清单（测试脆弱性 1 项）。
+
+**FAIL 项验证** ✅：`test_force_complete_without_reason_rejected` 已改函数级隔离（commit 38d155a80 12:26）——monkeypatch `parse_queue/find_task/_find_task_file_dual` 构造 claimed 状态 fake_rows + 临时任务单，**不碰真实队列**（注释明确"状态漂移断言脆弱根治"）；全量回归独立复现 **36 passed**（此前 1 failed 消除）
+
+**其余不重复审**（首轮功能核心已验证：force 无 reason 拒绝/evidence 侧门封死/_role_of 八实例映射全过）
+
+**结论**：FAIL 一项闭环，复审一轮达成。
+
+**存在性核查**：- 「隔离化修复」→ 核查：sed 读测试源码——TemporaryDirectory + monkeypatch 三函数，无真实队列引用
+- 「36 passed」→ 核查：pytest 全量独立复现输出 `36 passed in 0.89s`
+- 「commit 入档」→ 核查：git log 38d155a80（12:26 test(gates) FAIL 退回修复）
+
+*欧阳锋 · 2026-08-23 · 复审 PASS A-*
