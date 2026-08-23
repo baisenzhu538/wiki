@@ -1,11 +1,12 @@
 ---
 id: 484
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-24T00:30:00+08:00'
+status: in_progress
+updated_at: '2026-08-23T15:53:30.391042+00:00'
 version: v0.1
 depends_on:
-  - 474
+- 474
+instance: huangyaoshi
 ---
 # #484 tags-audit 来源形态词黑名单检查（#474 扩展，第 5 指标=来源词污染率）
 

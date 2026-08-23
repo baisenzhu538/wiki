@@ -109,7 +109,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 481 | `task_20260823_laowantong-shushui-addiction-supplement` | 水水成瘾口述补充生产·2口径补强+3新增（#469补强，一等证据；W1逐字读3613行） | claimed-hermes | laowantong | 2补强(天平+以痛治痛)+3新增(上瘾门槛论/盲盒机制/改变别人代偿) | 老朱拍板2迭代3新增；依赖#469 | `60_feedback/tasks/task_20260823_laowantong-shushui-addiction-supplement.md` | 不改#469本体(E047传口径)；W6三方法前置；source锚水水口述行号；#469+本单=7卡；欧阳锋终审 |
 | 482 | `task_20260823_huangyaoshi-batch-accept-commit-bugfix` | queue_batch_accept.py commit收口pathspec bug修复(#479修单,两次实证) | pending_review | huangyaoshi | commit绝对路径或chdir+回归用例 | 欧阳锋建议书采纳(#426第四五批) | `60_feedback/tasks/task_20260823_huangyaoshi-batch-accept-commit-bugfix.md` | P1 #426线(E040收口风险);不动四步流转逻辑;依赖#479;欧阳锋终审 |
 | 483 | `task_20260823_huangyaoshi-gate-blocked-noise-filter` | gate-blocked.log测试噪声过滤(防第五探针误报) | pending_review | huangyaoshi | 测试件独立testlog或过滤规则 | 风清扬L1审计建议4采纳 | `60_feedback/tasks/task_20260823_huangyaoshi-gate-blocked-noise-filter.md` | P2日志质量;task_9999_*测试噪声与真实拦截分离;不动gate-blocked真实逻辑;欧阳锋终审 |
-| 484 | `task_20260823_huangyaoshi-tags-source-word-blacklist` | tags-audit来源形态词黑名单检查(#474扩展,第5指标来源词污染率) | queued | huangyaoshi | 黑名单检查器+复合词白名单+单测 | 欧阳锋建议书采纳(3例实证) | `60_feedback/tasks/task_20260823_huangyaoshi-tags-source-word-blacklist.md` | P2 tags质量;排队#482→#483→#484禁同轮≥3;已有规则(来源名禁入tags)工具化为检查器;不动#474主体;欧阳锋终审 |
+| 484 | `task_20260823_huangyaoshi-tags-source-word-blacklist` | tags-audit来源形态词黑名单检查(#474扩展,第5指标来源词污染率) | claimed-huangyaoshi | huangyaoshi | 黑名单检查器+复合词白名单+单测 | 欧阳锋建议书采纳(3例实证) | `60_feedback/tasks/task_20260823_huangyaoshi-tags-source-word-blacklist.md` | P2 tags质量;排队#482→#483→#484禁同轮≥3;已有规则(来源名禁入tags)工具化为检查器;不动#474主体;欧阳锋终审 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
 ## ⚖️ 待终审（提审任务，queue_transition 自动登记）
