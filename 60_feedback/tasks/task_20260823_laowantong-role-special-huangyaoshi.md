@@ -1,8 +1,9 @@
 ---
 id: 446
 assignee: laowantong
-status: queued
-updated_at: '2026-08-23T04:18:38+00:00'
+status: in_progress
+updated_at: '2026-08-23T04:24:47.260105+00:00'
+instance: hermes
 ---
 # #446 角色专场第三场：黄药师岗位说明书定稿
 
