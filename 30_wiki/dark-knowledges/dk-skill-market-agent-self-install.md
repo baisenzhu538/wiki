@@ -42,9 +42,13 @@ related:
 - '[[dk-p10-oral-ban]]'
 - '[[tool-纪浩-Agent开工检查单制作法]]'
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - Agent
+  - 协作
+  - 方法
+  - 边界
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-19'
@@ -149,6 +153,11 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown
+
+## Critique
+
+- **内部局限**：Skills Market 文档面向 Agent 自安装，意味着文档必须机器可读（结构化 frontmatter/明确接口）——这对写作提出了超出人类阅读的额外要求，成本高；且「自描述」依赖 Agent 理解能力，不同模型的解析差异会导致同一文档表现不稳定。
+- **外部攻击（文档工程视角）**：机器可读文档是双刃剑——过度结构化牺牲了人类可读性与叙事（好工具文档往往是给两方看的：人看理念，机器看接口）；市场生态如果只有自描述标准而无人文关怀，会沦为技术文档孤岛。
 
 ## 与其他知识的关联
 

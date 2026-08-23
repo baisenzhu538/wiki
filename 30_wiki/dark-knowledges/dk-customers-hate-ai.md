@@ -35,9 +35,14 @@ related:
 - '[[dk-ai-does-not-question-your-mistake]]'
 - '[[sales-domain-digest]]'
 tags:
-- audience:manager
-- scene:planning
-- skill-level:intermediate
+  - audience:manager
+  - scene:planning
+  - skill-level:intermediate
+  - 框架
+  - 工具
+  - 方法
+  - 边界
+  - 口述
 ---
 # 客户讨厌 AI：AI 生成的销售内容没人情味
 

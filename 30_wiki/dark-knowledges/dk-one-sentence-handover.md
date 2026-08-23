@@ -22,9 +22,19 @@ aliases:
 - 楚门-AI知识管理探索营-口述.txt
 - AI知识库
 tags:
-- audience:manager
-- scene:execution
-- skill-level:advanced
+  - audience:manager
+  - scene:execution
+  - skill-level:advanced
+  - 知识库
+  - Agent
+  - 上下文
+  - 提示词
+  - 协作
+  - 机制
+  - 工具
+  - 方法
+  - 边界
+  - 口述
 source_person: 楚门
 source_context: AI×知识管理探索营（2026-08-15 晚直播）——新年洞察四棒接力（L1904-1970）
 source_refs:

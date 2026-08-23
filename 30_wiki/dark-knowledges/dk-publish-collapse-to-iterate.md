@@ -44,10 +44,17 @@ related:
 created_at: 2026-08-09
 updated_at: 2026-08-09
 tags:
-- audience:duanwangye
-- audience:ouyangfeng
-- scene:reference
-- skill-level:intermediate
+  - audience:duanwangye
+  - audience:ouyangfeng
+  - scene:reference
+  - skill-level:intermediate
+  - 知识库
+  - Agent
+  - 机制
+  - 工具
+  - 方法
+  - 迭代
+
 ---
 
 # 发布不是终点——发布执行是知识迭代的入口
@@ -116,3 +123,20 @@ tags:
 
 - 适用：发布域、反馈追踪域、跨 Agent 协作
 - 不适用：纯一次性任务（无复用价值的不必强行沉淀）
+
+
+
+## 为什么值钱
+
+- 发布闭环的最后一环是「知识回流」：发布完成不是结束，而是把执行中的坑/反馈沉淀为知识的入口——KDO 飞轮（执行→沉淀→复用）的接缝处
+- 防止「纸面闭环」：任务关闭但无沉淀=下次同样问题重踩（diagnostic_signals 实证）
+## Critique
+
+- **内部局限**：把发布当迭代入口的前提是「发布后有真实反馈回流」——如果发布渠道没有数据回收机制，发布只是单向输出，谈不上迭代；且「发布即迭代」默认内容有迭代价值，纯曝光型内容可能不需要迭代。
+- **外部攻击（内容战略视角）**：发布驱动的迭代会陷入「数量优先」陷阱——高频发布+快速迭代容易牺牲深度内容；有些内容的正确策略是慢工出细活（一次发布、长期价值），而非快速迭代消耗。
+
+## 与其他知识的关联
+
+- [[dk-agent-access-kdo-pitfalls]]——Agent 访问 KDO 的常见坑，发布迭代的落地细节
+- [[framework-kdo-self-attack]]——自我攻击闭环，与发布迭代同源（知识自检）
+- [[case-duanwangye-self-iteration-closed-loop]]——段王爷自我迭代闭环实证

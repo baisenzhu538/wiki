@@ -46,9 +46,13 @@ related:
 - '[[truman-ai-partner-design-analysis]]'
 - '[[tool-ai-oral-spray-input]]'
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 方法
+  - 边界
+  - 反例
+  - 迭代
 diagnostic_signals: null
 aliases:
 - 建模能力培训
@@ -98,6 +102,11 @@ aliases:
 ## 为什么值钱
 
 这个暗知识防止你陷入“AI 万能论”和“AI 虚无论”两个极端。Truman 的实践表明：AI 能加 10 倍杠杆，但杠杆的支点必须是人的判断。真正稀缺的不是“让 AI 输出一个模型”，而是**知道模型是否值得相信、在什么边界内成立、对实践有什么指导价值**。
+
+## Critique
+
+- **内部局限**：AI 容易受你影响（迎合倾向）是真实风险，但「核心判断必须人做」不等于「AI 判断无用」——对低风险/重复性判断，AI 的判断精度可能已超过人的平均水准；「支点必须是人的判断」会让人高估自己的判断质量。
+- **外部攻击（人机协同研究视角）**：自动化偏见（automation bias）是双向的——人既可能过度信任 AI，也可能过度防御 AI（不信任导致拒绝有效辅助）；真正需要的不是「人永远拍板」，而是「按任务类型分配判断权」——低风险任务交给 AI，高风险任务人机交叉验证。
 
 ## 与其他知识的关联
 

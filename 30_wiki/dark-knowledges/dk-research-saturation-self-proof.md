@@ -43,9 +43,12 @@ related:
 - '[[dk-research-important-things-must-do]]'
 - '[[dk-research-total-anchor-private-library]]'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 方法
+  - 边界
+  - 口述
 ---
 # 饱和自证话术：让 AI 记数就不太会骗人
 

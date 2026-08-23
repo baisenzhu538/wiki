@@ -47,9 +47,11 @@ diagnostic_signals:
   follow_up_question: 运行结束后，是否有进程、session、临时文件没有被清理？# 状态残留是自动化系统里最隐蔽的 bug
 updated_at: 2026-06-28
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 上下文
+  - 方法
 ---
 
 ## 原始表述 / 核心洞察
@@ -121,6 +123,11 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+
+## Critique
+
+- **内部局限**：状态残留的排查高度依赖经验（知道「哪些状态会残留」）——新手很难意识到问题；且「状态显式化」会增加设计复杂度，小系统里可能过度设计。
+- **外部攻击（分布式系统视角）**：状态残留是「无状态优先」架构要解决的问题——现代实践是让系统尽量无状态（幂等+外部状态存储），从设计上消灭残留；依赖「每次运行前清理」是打补丁而非治本。
 
 ## 与其他知识的关联
 

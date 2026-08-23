@@ -39,9 +39,12 @@ related:
 - '[[dk-research-saturation-quota-ai-km]]'
 - '[[framework-serendipity-five-channels]]'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:beginner
+  - audience:executor
+  - scene:execution
+  - skill-level:beginner
+  - 方法
+  - 边界
+  - 口述
 ---
 # AI 没时间观念：调研必须时间锚定
 

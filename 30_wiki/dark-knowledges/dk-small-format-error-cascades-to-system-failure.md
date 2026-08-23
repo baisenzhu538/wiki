@@ -41,9 +41,12 @@ diagnostic_signals:
   follow_up_question: 如果按严格正则提取ID/路径，当前命名是否能被唯一识别？# 小格式错误在批量系统中引发级联失效
 updated_at: 2026-06-28
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 映射表
+  - 方法
+  - 边界
 ---
 
 ## 原始表述 / 核心洞察
@@ -103,6 +106,11 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+
+## Critique
+
+- **内部局限**：小格式错误级联的教训依赖「格式即契约」的意识——如果团队没有统一格式纪律，错误源头防不住；且批量系统里「小错误」的判定本身需要工具扫描（肉眼查不出），投入产出要算清。
+- **外部攻击（系统韧性视角）**：级联失效的治本不是消灭小错误（不可能），而是容错设计——校验+隔离+快速回滚，让单个错误不扩散；过度追求格式零错误会带来巨大的验证成本，与「60 分原则」冲突。
 
 ## 与其他知识的关联
 

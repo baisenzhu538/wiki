@@ -22,9 +22,16 @@ aliases:
 - 楚门-AI知识管理探索营-口述.txt
 - AI知识库
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 知识库
+  - Agent
+  - 上下文
+  - 方法
+  - 边界
+  - 实证
+  - 口述
 source_person: 楚门
 source_context: AI×知识管理探索营（2026-08-15 晚直播）——15 秒做图竞猜（L1204-1240）
 source_refs:

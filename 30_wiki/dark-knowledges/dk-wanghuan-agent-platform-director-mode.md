@@ -53,9 +53,16 @@ related:
 - '[[dk-wanghuan-magic-defeats-magic]]'
 - '[[human-ai-collaboration-double-triangle]]'
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - Agent
+  - 上下文
+  - 协作
+  - 机制
+  - 方法
+  - 边界
+  - 迭代
 ---
 
 # 王欢暗知识：Agent 平台的正确用法是当导演，不是当甩手掌柜
@@ -101,6 +108,11 @@ Manus、Genspark 这类 Agent/聚合平台的真正价值，不是“你把任�
 2. **效率跃迁**：Agent 平台把迭代速度变快，但前提是标准不为零
 3. **多模型协同**：在一个工作区内调用不同模型，生成、校验、合成连续完成
 4. **角色解放**：从执行者解放出来，专注于更高价值的定义和验收
+
+## Critique
+
+- **内部局限**：导演式控制的前提是人有清晰的目标与验收标准——如果人自己不知道「要什么」，导演模式退化为「甩手掌柜」的变体；且「标准不为零」的要求对创造性任务难以量化。
+- **外部攻击（人机分工视角）**：导演模式可能被误读为「人只定义验收」——但很多价值在「过程」而非「结果」（探索中发现的新问题）；完全结果导向的导演思维会错失过程中的意外价值；且 AI 执行+人验收的循环成本不低（每轮验收都要人参与）。
 
 ## 与其他知识的关联
 

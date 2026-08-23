@@ -39,9 +39,14 @@ related:
 - case-cross-xingangwan-pharma
 - '[[dk-research-sampling-correction-three-rounds]]'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 机制
+  - 框架
+  - 方法
+  - 边界
+  - 口述
 ---
 # 分类方案 MECE 手术台：3-5 套方案 + 归位判据 + 人拍板
 

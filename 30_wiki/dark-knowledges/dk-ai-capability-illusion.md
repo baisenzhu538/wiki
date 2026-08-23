@@ -23,9 +23,16 @@ aliases:
 - AI落地Live86-龙虾员工实践-逐字稿
 - kinda龙虾
 tags:
-- audience:manager
-- scene:review
-- skill-level:intermediate
+  - audience:manager
+  - scene:review
+  - skill-level:intermediate
+  - 工作流
+  - 数字员工
+  - Agent
+  - 方法
+  - 边界
+  - 实证
+  - 口述
 source_person: kinda
 source_context: 一堂 AI 俱乐部落地 Live86·龙虾员工实践（2026-08-19）——ComfyUI 部署教训（L412-418、L620-624）
 source_refs:

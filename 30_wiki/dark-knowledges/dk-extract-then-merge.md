@@ -22,9 +22,16 @@ aliases:
 - 楚门-AI知识管理探索营-口述.txt
 - AI知识库
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - Agent
+  - 机制
+  - 框架
+  - 方法
+  - 边界
+  - 迭代
+  - 口述
 source_person: 楚门
 source_context: AI×知识管理探索营（2026-08-15 晚直播）——Skill 封装实战（L1040-1056）
 source_refs:

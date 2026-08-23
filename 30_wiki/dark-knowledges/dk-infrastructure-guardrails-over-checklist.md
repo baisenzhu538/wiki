@@ -53,9 +53,12 @@ diagnostic_signals:
   follow_up_question: 验证器的结果是否被另一个独立数据源交叉校验过？# 基础设施工具不能只有检查清单，还必须有硬护栏
 updated_at: 2026-06-28
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 工具
+  - 方法
+  - 边界
 ---
 
 ## 原始表述 / 核心洞察
@@ -122,6 +125,11 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+
+## Critique
+
+- **内部局限**：硬护栏的建立依赖「先识别风险」的判断力——如果团队意识不到某个操作的危险性，护栏就不会被建立；且护栏过度会扼杀探索（每步都要审批=无人敢试）。
+- **外部攻击（工程实践视角）**：检查清单+护栏的静态治理会被绕过（人总想走捷径）——现代做法是安全默认（secure-by-default）+ 持续监控告警，而非靠清单提醒；护栏的正确粒度依赖组织成熟度，一刀切会阻碍小团队快速迭代。
 
 ## 与其他知识的关联
 

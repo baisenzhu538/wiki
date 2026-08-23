@@ -23,9 +23,19 @@ aliases:
 - AI落地Live86-龙虾员工实践-逐字稿
 - kinda龙虾
 tags:
-- audience:manager
-- scene:planning
-- skill-level:advanced
+  - audience:manager
+  - scene:planning
+  - skill-level:advanced
+  - 知识库
+  - 工作流
+  - 数字员工
+  - Agent
+  - MCP
+  - 上下文
+  - 方法
+  - 边界
+  - 实证
+  - 口述
 source_person: kinda
 source_context: 一堂 AI 俱乐部落地 Live86·龙虾员工实践（2026-08-19）——Feature 复盘·AI 人效（L587-611）
 source_refs:

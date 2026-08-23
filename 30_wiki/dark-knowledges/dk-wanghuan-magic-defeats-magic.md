@@ -63,9 +63,12 @@ related:
 - '[[human-ai-collaboration-double-triangle]]'
 - '[[mineru-pdf-parsing-setup]]'
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 方法
+  - 边界
+  - 迭代
 review_date: '2026-06-28'
 ---
 

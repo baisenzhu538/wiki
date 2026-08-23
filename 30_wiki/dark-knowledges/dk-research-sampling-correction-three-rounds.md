@@ -37,9 +37,12 @@ related:
 - bridge-how-to-know-person-to-business
 - case-cross-xingangwan-pharma
 tags:
-- audience:executor
-- scene:execution
-- skill-level:beginner
+  - audience:executor
+  - scene:execution
+  - skill-level:beginner
+  - 方法
+  - 边界
+  - 口述
 ---
 # 打样纠偏三轮法：5-10 个样本定颗粒度
 
