@@ -1,8 +1,8 @@
 ---
 id: 443
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-23T03:23:22+00:00'
+status: in_progress
+updated_at: '2026-08-23T03:29:41.802001+00:00'
 ---
 # #443 探针可领取通知按 assignee 路由（#421 演进）
 
