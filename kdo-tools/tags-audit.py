@@ -188,9 +188,11 @@ def main() -> int:
 
 
 def _write_report(r: dict) -> None:
+    from datetime import datetime
     lines = [
         "# 全库标签摸底体检报告（#474 · 2026-08-23）",
         "",
+        f"- 生成时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}（治理进行中——数字随 #426 批次变动，收官以复扫归零为终态口径）",
         f"- 扫描范围: `30_wiki/` 全部卡（{r['total']} 张，只读零修改）",
         f"- 脏词率: 负向断言 {len(r['dirty'])} + 课程名/来源混入 {len(r['dirty_course'])}（{r['dirty_rate']}%）| SOFT 观察: {r['soft_hits']} / 超长短语 {r['long_hits']}",
         f"- 来源轴缺失: {len(r['source_missing'])} 张",
