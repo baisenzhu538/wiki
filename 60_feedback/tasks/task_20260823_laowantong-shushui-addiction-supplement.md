@@ -1,8 +1,8 @@
 ---
 id: 481
 assignee: laowantong
-status: in_progress
-updated_at: '2026-08-23T15:50:13.190090+00:00'
+status: pending_review
+updated_at: '2026-08-23T16:02:00.663708+00:00'
 version: v0.1
 depends_on:
 - 469
