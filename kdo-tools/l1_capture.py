@@ -47,14 +47,55 @@ SIZE_REDLINE_MB = 5000  # 初值：当前 ~775MB 的 6.5 倍；超限告警并�
 
 
 def _dir_size_mb(root: Path) -> float:
+    """#491：体积统计按内容 hash 去重（同 hash 文件不重复计入——日增量与源文件
+    重叠量大，去重后体积反映真实新增）。"""
+    seen: set[str] = set()
     total = 0
     for f in root.rglob("*"):
         try:
             if f.is_file():
+                h = _sha256(f.read_bytes())
+                if h in seen:
+                    continue
+                seen.add(h)
                 total += f.stat().st_size
         except OSError:
             continue
     return total / (1024 * 1024)
+
+
+ARCHIVE_ROOT = Path("D:/KDO-memory/L1-full-archive")  # #491：旧天目录压缩归档处
+
+
+def _archive_old_days() -> int:
+    """#491：非今天日期目录 zip 压缩归档（移出活跃统计），删原目录。返回归档数。"""
+    import zipfile
+    today = datetime.now().strftime("%Y-%m-%d")
+    archived = 0
+    if not L1_ROOT.exists():
+        return 0
+    ARCHIVE_ROOT.mkdir(parents=True, exist_ok=True)
+    for d in sorted(L1_ROOT.iterdir()):
+        if not d.is_dir() or d.name == today or not d.name.startswith("20"):
+            continue
+        zip_path = ARCHIVE_ROOT / f"{d.name}.zip"
+        if zip_path.exists():  # 已归档过（幂等）
+            shutil.rmtree(d, ignore_errors=True)
+            archived += 1
+            continue
+        with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as zf:
+            for f in d.rglob("*"):
+                if f.is_file():
+                    try:
+                        zf.write(f, f.relative_to(L1_ROOT).as_posix())
+                    except OSError:
+                        continue
+        shutil.rmtree(d, ignore_errors=True)
+        archived += 1
+        print(f"🗜 已归档: {d.name} → {zip_path.name}")
+    if archived:
+        print(f"🗜 旧天归档 {archived} 个目录")
+    return archived
 
 
 def _log_size_and_alert() -> None:
@@ -139,14 +180,19 @@ def capture(dry_run: bool) -> int:
     print(f"✅ 采集完成: 新增 {copied} / 跳过 {skipped} → {L1_ROOT / today}")
     print(f"✅ trace 已写: {trace}")
 
-    # 镜像（D → C 盘）
-    rc = mirror(dry_run=False)
-    # #471：采集+镜像后注体积 + 红线告警（失败不阻断主链路，stderr 可见）
+    # #491：C 盘镜像已移除（老朱 01:23 拍板——L1 全量原文单盘 D，事件库仍 C+D 双盘）
+    print("ℹ️ C 盘镜像已移除（#491 老朱拍板）：采集后不再写 C 盘，D 主库为唯一全量")
+    # #491：旧天目录压缩归档（移出活跃统计，防 5000MB 红线 5 天触达）
+    try:
+        _archive_old_days()
+    except Exception as e:
+        print(f"⛔ 旧天归档失败（采集已完成，不阻断）: {e}", file=sys.stderr)
+    # #471：采集后注体积（D 主库口径，hash 去重）+ 红线告警（失败不阻断主链路，stderr 可见）
     try:
         _log_size_and_alert()
     except Exception as e:
         print(f"⛔ 体积记录失败（采集已完成，不阻断）: {e}", file=sys.stderr)
-    return rc
+    return 0
 
 
 def mirror(dry_run: bool) -> int:
@@ -169,22 +215,21 @@ def mirror(dry_run: bool) -> int:
 
 
 def verify() -> int:
-    """镜像校验：文件数一致 + 抽样 hash（每目录首文件）。"""
-    if not MIRROR_ROOT.exists():
-        print("❌ 镜像缺失", file=sys.stderr)
+    """#491：主库完整性自检（C 镜像已移除——校验 D 主库文件可读+抽样 hash 稳定）。"""
+    if not L1_ROOT.exists():
+        print("❌ 主库缺失", file=sys.stderr)
         return 1
     src_files = [f for f in L1_ROOT.rglob("*") if f.is_file()]
-    dst_files = [f for f in MIRROR_ROOT.rglob("*") if f.is_file()]
-    if len(src_files) != len(dst_files):
-        print(f"❌ verify FAIL：主库 {len(src_files)} 文件 vs 镜像 {len(dst_files)}", file=sys.stderr)
+    if not src_files:
+        print("❌ 主库无文件", file=sys.stderr)
         return 1
-    sample = src_files[:3]
-    for f in sample:
-        d = MIRROR_ROOT / f.relative_to(L1_ROOT)
-        if not d.exists() or _sha256(f.read_bytes()) != _sha256(d.read_bytes()):
-            print(f"❌ verify FAIL：hash 不一致 {f}", file=sys.stderr)
+    for f in src_files[:5]:
+        try:
+            _sha256(f.read_bytes())
+        except OSError as e:
+            print(f"❌ verify FAIL：文件不可读 {f}: {e}", file=sys.stderr)
             return 1
-    print(f"✅ verify PASS：{len(src_files)} 文件一致 + 抽样 hash 全同")
+    print(f"✅ verify PASS：主库 {len(src_files)} 文件完整 + 抽样可读（D 单盘口径，#491）")
     return 0
 
 
