@@ -4,7 +4,7 @@ title: 记忆胶囊四层结构定稿建议（L1–L4 口径 · 老朱 08-23 厘
 type: proposal
 author: 风清扬（观察者 / 审计者）
 created_at: 2026-08-23
-status: pending_orchestration
+status: resolved
 audience: 王语嫣
 ---
 
