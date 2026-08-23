@@ -1,10 +1,11 @@
 ---
 id: 464
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-23T10:35:00+00:00'
+status: in_progress
+updated_at: '2026-08-23T07:32:59.089839+00:00'
 version: v1.0
 doc_id: D-20260823-005
+instance: huangyaoshi
 ---
 # #464 记忆胶囊镜像保存后联动（save→log→mirror 一条链）
 
