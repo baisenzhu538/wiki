@@ -1,9 +1,10 @@
 ---
 id: 455
 assignee: laowantong
-status: queued
-updated_at: '2026-08-23T05:40:00+00:00'
+status: in_progress
+updated_at: '2026-08-23T05:48:15.174435+00:00'
 version: v0.1
+instance: hermes
 ---
 # #455 未定稿三 spec 补通用边界条款（职责外必询问）
 
