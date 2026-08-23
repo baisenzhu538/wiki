@@ -1,9 +1,10 @@
 ---
 id: 483
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-24T00:10:00+08:00'
+status: in_progress
+updated_at: '2026-08-23T15:52:03.586792+00:00'
 version: v0.1
+instance: huangyaoshi
 ---
 # #483 gate-blocked.log 测试噪声过滤（日志质量，防第五探针误报）
 
