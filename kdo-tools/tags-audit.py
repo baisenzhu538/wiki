@@ -46,6 +46,14 @@ SOURCE_WORDS = ["拆书", "live", "开放麦", "半肥猫", "楚门", "一堂", 
 # ③ 词池轴域（已有受控轴的域）
 AXIS_DOMAINS = {"human-insights", "decision-making", "ai-collaboration"}
 
+# ⑤ 来源形态词黑名单（#484：来源形态≠内容主题——描述"来源形态"而非内容，污染内容词池）
+SOURCE_FORM_WORDS = ["逐字稿", "拆书会", "口述", "直播", "训练营", "开放麦", "笔记", "分享会", "圆桌", "对话"]
+# 来源轴受控词（#484 边界：来源轴词表收录的合法来源标签不报——拆书会/口述/开放麦 在
+# decision-making 来源轴 words 中；报它们=误报）
+SOURCE_FORM_CONTROLLED = {"拆书会", "口述", "开放麦"}
+# 复合词白名单（含黑名单词但为合法内容词——只拦独立出现）
+SOURCE_FORM_WHITELIST = {"笔记法", "分享经济", "对话体", "口述史", "直播课", "拆书", "直播回放"}
+
 
 def read_frontmatter(fp: Path, max_lines: int = 300) -> dict | None:
     """逐行读到第二个 ---（frontmatter 可超 1500B，截断解析=yaml 崩溃——#168 教训）。"""
@@ -95,6 +103,7 @@ def scan_cards(domain_filter: str | None = None):
 def audit(cards) -> dict:
     dirty = []           # (path, word, level) 负向断言类
     dirty_course = []    # (path, tag, reason) 课程名/来源混入类
+    source_word_hits = []  # (path, word) #484 第5指标：来源形态词黑名单
     long_hits = Counter()  # 超长短语 SOFT 观察
     source_missing = []  # (path, source_person, source_context)
     domain_counts = Counter()
@@ -138,6 +147,15 @@ def audit(cards) -> dict:
                 elif len(tag) > LONG_TAG_LEN:
                     long_hits[">12字符"] += 1
 
+        # ⑤ 来源形态词黑名单（#484：独立出现才拦，复合词白名单/来源轴受控词不拦）
+        if isinstance(t, list):
+            for tag in t:
+                tag = str(tag)
+                if tag in SOURCE_FORM_WHITELIST or tag in SOURCE_FORM_CONTROLLED:
+                    continue
+                if tag in SOURCE_FORM_WORDS:
+                    source_word_hits.append((fp, tag))
+
         # ② 来源轴缺失
         sp = fm.get("source_person")
         sc = fm.get("source_context")
@@ -161,6 +179,8 @@ def audit(cards) -> dict:
         "dirty_rate": round((len(dirty) + len(dirty_course)) / total * 100, 1) if total else 0,
         "soft_hits": dict(soft_hits),
         "long_hits": dict(long_hits),
+        "source_word_hits": source_word_hits,
+        "source_word_rate": round(len(source_word_hits) / total * 100, 2) if total else 0,
         "source_missing": source_missing,
         "domain_counts": domain_counts,
         "empty_bad": empty_bad,
@@ -180,6 +200,7 @@ def main() -> int:
     print(f"② 来源轴缺失: {len(r['source_missing'])}")
     print(f"③ 域分布: {len(r['domain_counts'])} 个域，词池轴域: {sorted(set(r['domain_counts']) & AXIS_DOMAINS)}")
     print(f"④ 空值/格式异常: {len(r['empty_bad'])}（空值率 {r['empty_rate']}%）")
+    print(f"⑤ 来源形态词黑名单（#484）: {len(r['source_word_hits'])}（污染率 {r['source_word_rate']}%）")
 
     if not args.domain:
         _write_report(r)
@@ -238,6 +259,13 @@ def _write_report(r: dict) -> None:
         lines.append(f"- `{fp.relative_to(WIKI_ROOT)}`: {reason}")
     if len(r["empty_bad"]) > 50:
         lines.append(f"- …共 {len(r['empty_bad'])} 条")
+    lines += ["", "## ⑤ 来源形态词黑名单（#484：独立出现=污染内容词池）", ""]
+    if not r["source_word_hits"]:
+        lines.append("- 无")
+    for fp, word in r["source_word_hits"][:50]:
+        lines.append(f"- `{fp.relative_to(WIKI_ROOT)}` `{word}`（建议移除或移入 source 字段/来源轴）")
+    if len(r["source_word_hits"]) > 50:
+        lines.append(f"- …共 {len(r['source_word_hits'])} 条")
     lines += ["", "## 治理优先级建议", "",
               "- 脏词/空值: 按域分批治理（#426 模式放量，首批已归零的决策域为模板）",
               "- 来源轴缺失: 建议批量补来源词（拆书/Live/开放麦批次）",

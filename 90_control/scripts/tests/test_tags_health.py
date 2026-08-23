@@ -129,3 +129,32 @@ class TestHealthCheck(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestSourceWordBlacklist(AuditBase):
+    """#484 第5指标：来源形态词黑名单（独立出现拦/复合词白名单不拦/来源轴词不拦）。"""
+
+    def test_independent_source_word_reported(self):
+        self.write_card("a.md", _fm(tags=["科学决策", "逐字稿"], domain=["decision-making"]))
+        r = ta.audit(ta.scan_cards())
+        self.assertEqual(len(r["source_word_hits"]), 1)
+        self.assertIn("逐字稿", r["source_word_hits"][0][1])
+
+    def test_compound_word_not_reported(self):
+        self.write_card("a.md", _fm(tags=["科学决策", "笔记法", "分享经济"], domain=["decision-making"]))
+        r = ta.audit(ta.scan_cards())
+        self.assertEqual(r["source_word_hits"], [])
+
+    def test_source_axis_words_not_reported(self):
+        # 来源轴受控词（拆书会/口述 在决策域来源轴 words 中）不被当污染
+        self.write_card("a.md", _fm(tags=["科学决策", "拆书会", "口述"], domain=["decision-making"]))
+        r = ta.audit(ta.scan_cards())
+        # 拆书会/口述 在黑名单——但它们是来源轴受控词（任务书口径：来源轴词不报）
+        # 实现上黑名单与来源轴词表重合时以来源轴为准——此处按任务书断言不报
+        self.assertEqual(r["source_word_hits"], [])
+
+    def test_pollution_rate_computed(self):
+        self.write_card("a.md", _fm(tags=["逐字稿"], domain=["decision-making"]))
+        self.write_card("b.md", _fm(tags=["科学决策"], domain=["decision-making"]))
+        r = ta.audit(ta.scan_cards())
+        self.assertEqual(r["source_word_rate"], 50.0)

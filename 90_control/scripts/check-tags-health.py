@@ -29,6 +29,7 @@ LINES = {
     "dirty_rate": 5.0,       # %
     "source_coverage": 90.0,  # %
     "empty_rate": 3.0,       # %
+    "source_word_rate": 1.0,  # % #484：来源形态词污染率
 }
 
 
@@ -75,6 +76,9 @@ def main() -> int:
         fails.append(f"来源轴覆盖率 {source_coverage:.1f}% < {LINES['source_coverage']}%")
     if empty_rate >= LINES["empty_rate"]:
         fails.append(f"空值率 {empty_rate:.1f}% ≥ {LINES['empty_rate']}%")
+    source_word_rate = len(r["source_word_hits"]) / total * 100
+    if source_word_rate >= LINES["source_word_rate"]:
+        fails.append(f"来源形态词污染率 {source_word_rate:.2f}% ≥ {LINES['source_word_rate']}%（#484）")
 
     metrics = {
         "dirty_rate": round(dirty_rate, 1),
@@ -85,6 +89,8 @@ def main() -> int:
         "axis_cards": axis_cards,
         "empty_rate": round(empty_rate, 1),
         "empty_cards": len(r["empty_bad"]),
+        "source_word_rate": round(source_word_rate, 2),
+        "source_word_cards": len(r["source_word_hits"]),
         "total_cards": total,
         "status": "FAIL" if fails else "PASS",
     }
@@ -94,7 +100,8 @@ def main() -> int:
 
     print(f"标签健康（#474）：总卡 {total} | 脏词率 {dirty_rate:.1f}%（线 {LINES['dirty_rate']}%）"
           f"| 来源轴覆盖率 {source_coverage:.1f}%（线 {LINES['source_coverage']}%）"
-          f"| 有轴域覆盖率 {axis_coverage:.1f}%（随建设）| 空值率 {empty_rate:.1f}%（线 {LINES['empty_rate']}%）")
+          f"| 有轴域覆盖率 {axis_coverage:.1f}%（随建设）| 空值率 {empty_rate:.1f}%（线 {LINES['empty_rate']}%）"
+          f"| 来源形态词污染率 {source_word_rate:.2f}%（线 {LINES['source_word_rate']}%，#484）")
     if fails:
         print("[FAIL] " + "；".join(fails))
         return 1

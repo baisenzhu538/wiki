@@ -1,10 +1,10 @@
 # 全库标签摸底体检报告（#474 · 2026-08-23）
 
-- 生成时间: 2026-08-23 20:33:15（治理进行中——数字随 #426 批次变动，收官以复扫归零为终态口径）
-- 扫描范围: `30_wiki/` 全部卡（2876 张，只读零修改）
-- 脏词率: 负向断言 0 + 课程名/来源混入 275（9.6%）| SOFT 观察: {} / 超长短语 {'>12字符': 6877}
-- 来源轴缺失: 1234 张
-- 空值/格式异常: 573 张（19.9%）
+- 生成时间: 2026-08-23 23:55:42（治理进行中——数字随 #426 批次变动，收官以复扫归零为终态口径）
+- 扫描范围: `30_wiki/` 全部卡（2882 张，只读零修改）
+- 脏词率: 负向断言 0 + 课程名/来源混入 275（9.5%）| SOFT 观察: {} / 超长短语 {'>12字符': 6921}
+- 来源轴缺失: 1227 张
+- 空值/格式异常: 564 张（19.6%）
 
 ## ①a 脏词·负向断言清单（STRONG+PATTERN，三层分档口径）
 - 无
@@ -210,7 +210,7 @@
 - `30_wiki\cases\case-lean-crayfish-combo-test.md` source_person=一堂课程讲师（教学案例） source_context=一堂精益创业·低成本验证·系统测试曲线课程讲义
 - `30_wiki\cases\case-lean-electric-scooter-mvp.md` source_person=一堂课程讲师（教学推演案例） source_context=一堂精益创业·低成本验证实操课程
 - `30_wiki\cases\case-lean-genki-forest-toolkit.md` source_person=一堂课程讲义/讲师案例 source_context=一堂精益创业·低成本验证课程（元气森林试错工具箱幻灯片）
-- …共 1234 条
+- …共 1227 条
 
 ## ③ 域地图（有轴/无轴）
 
@@ -239,7 +239,7 @@
 | five-step-method | 45 | — |
 | personal-os | 43 | — |
 | entrepreneurship | 42 | — |
-| decision-making | 38 | ✅ |
+| decision-making | 40 | ✅ |
 | yihang | 36 | — |
 | personal-growth | 35 | — |
 | content-production | 34 | — |
@@ -255,12 +255,12 @@
 | critical-thinking | 20 | — |
 | business-judgment | 19 | — |
 | system | 18 | — |
+| human-insights | 17 | ✅ |
 | time-management | 16 | — |
 | lean-startup | 15 | — |
 | profit-pricing | 15 | — |
 | personal | 14 | — |
 | agent-capability | 13 | — |
-| human-insights | 13 | ✅ |
 | ai | 13 | — |
 | product-kernel | 12 | — |
 | entrepreneur | 11 | — |
@@ -458,7 +458,29 @@
 - `30_wiki\cases\case-yihang-dual-triangle-一堂双三角-AI时代的竞争力武器库.md`: tags 缺失
 - `30_wiki\cases\case-yihang-dual-triangle-一堂双三角-AI落地五部曲.md`: tags 缺失
 - `30_wiki\cases\case-yihang-dual-triangle-一堂双三角-一个引擎-三阶六变.md`: tags 缺失
-- …共 573 条
+- …共 564 条
+
+## ⑤ 来源形态词黑名单（#484：独立出现=污染内容词池）
+
+- `30_wiki\cases\case-4000-titles-ten-strategies.md` `笔记`（建议移除或移入 source 字段/来源轴）
+- `30_wiki\cases\case-ai-companion-emotional.md` `逐字稿`（建议移除或移入 source 字段/来源轴）
+- `30_wiki\cases\case-ai-job-displacement-wef.md` `逐字稿`（建议移除或移入 source 字段/来源轴）
+- `30_wiki\cases\case-apple-card-gender-bias.md` `逐字稿`（建议移除或移入 source 字段/来源轴）
+- `30_wiki\cases\case-cambridge-novelists-survey.md` `逐字稿`（建议移除或移入 source 字段/来源轴）
+- `30_wiki\cases\case-chen-qiufan-ai-writing.md` `逐字稿`（建议移除或移入 source 字段/来源轴）
+- `30_wiki\cases\case-compas-racial-bias.md` `逐字稿`（建议移除或移入 source 字段/来源轴）
+- `30_wiki\cases\case-deepfake-market-misuse.md` `逐字稿`（建议移除或移入 source 字段/来源轴）
+- `30_wiki\cases\case-dutch-childcare-scandal.md` `逐字稿`（建议移除或移入 source 字段/来源轴）
+- `30_wiki\cases\case-truman-ai-native-research-flow.md` `逐字稿`（建议移除或移入 source 字段/来源轴）
+- `30_wiki\concepts\concept-ai-chair-determines-view.md` `逐字稿`（建议移除或移入 source 字段/来源轴）
+- `30_wiki\concepts\concept-ai-information-quality-ladder.md` `逐字稿`（建议移除或移入 source 字段/来源轴）
+- `30_wiki\dk\dk-ai-prediction-expiry-date.md` `逐字稿`（建议移除或移入 source 字段/来源轴）
+- `30_wiki\dk\dk-ai-scarcest-resource-is-self.md` `逐字稿`（建议移除或移入 source 字段/来源轴）
+- `30_wiki\dk\dk-ai-social-progress-not-automatic.md` `逐字稿`（建议移除或移入 source 字段/来源轴）
+- `30_wiki\frameworks\framework-serendipity-five-channels.md` `逐字稿`（建议移除或移入 source 字段/来源轴）
+- `30_wiki\tools\tool-ai-critical-reading-three-layers.md` `逐字稿`（建议移除或移入 source 字段/来源轴）
+- `30_wiki\tools\tool-ai-cross-reading-method.md` `逐字稿`（建议移除或移入 source 字段/来源轴）
+- `30_wiki\tools\tool-ai2041-source-verification-checklist.md` `逐字稿`（建议移除或移入 source 字段/来源轴）
 
 ## 治理优先级建议
 
