@@ -101,6 +101,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 473 | `task_20260823_huangyaoshi-file-flow-lint-residuals` | 文件流转 lint 遗留三项收口（P2：wiki 卡 L9 扫描/冻结基线动态化/lint 集成） | reviewed | huangyaoshi | 三项收口+单测 | 欧阳锋 #450 终审遗留项采纳 | `60_feedback/tasks/task_20260823_huangyaoshi-file-flow-lint-residuals.md` | L9 全库一次扫描（分钟级）；冻结基线走无状态方案；lint 集成可缓；欧阳锋终审 |
 | 474 | `task_20260823_huangyaoshi-tags-audit-fullscan` | 全库标签摸底体检（P1：四指标一次性扫描+标签健康并入 #425 常态监测） | reviewed | huangyaoshi | 体检报告+健康指标扩展+单测 | 老朱拍板立项（标签体系发现收口） | `60_feedback/tasks/task_20260823_huangyaoshi-tags-audit-fullscan.md` | 只读零修改；脏词率/来源轴覆盖/有轴域/空值率四指标；决策域已知答案做 L2 狗粮；治理批次后续按域排产；欧阳锋终审；脏词/空值吸收建议书2三层分档(STRONG/PATTERN进分母,SOFT只观察误报) |
 | 475 | `task_20260823_wangyuyan-472-coldstart-absorb` | 吸收#472路由层进六角色context冷启动链（恢复完直接答三问：领哪单/用什么招/先掌握什么） | reviewed | wangyuyan | 六spec冷启动段+role-routes衔接说明 | 用户令收口#472入口层 | `60_feedback/tasks/task_20260823_wangyuyan-472-coldstart-absorb.md` | 王语嫣自办不占黄药师；接#419冷启动铁律；解欧阳锋#472残余风险(spec↔role-routes同步纪律)；只读导航不改#472本体；欧阳锋终审 |
+| 476 | `task_20260823_wangyuyan-queue-status-check-discipline` | 队列状态核对纪律固化（禁用正则手搓，统一走queue_transition对账；E051闭环） | queued | wangyuyan | context/skill铁律+轻量包装命令 | E051误报#474状态用户纠正 | `60_feedback/tasks/task_20260823_wangyuyan-queue-status-check-discipline.md` | 王语嫣自办不占黄药师；任务1纪律固化立即可做；任务2方案A轻量/方案B留演进候选；与E041/E038/E017同族补全；欧阳锋终审 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
 ## ⚖️ 待终审（提审任务，queue_transition 自动登记）
