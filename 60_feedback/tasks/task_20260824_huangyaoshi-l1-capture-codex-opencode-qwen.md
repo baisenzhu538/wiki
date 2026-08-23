@@ -1,8 +1,8 @@
 ---
 id: 489
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-23T18:03:11.995096+00:00'
+status: pending_review
+updated_at: '2026-08-23T18:05:34.093814+00:00'
 version: v0.1
 instance: huangyaoshi
 ---
@@ -60,6 +60,23 @@ F-048 拍板生效：codex 定性=**工厂角色工具**（纳 KDO 治理，非�
 - **欧阳锋**：终审本单
 - **风清扬**：审计侧验收采集面覆盖（不实施）
 
-## 执行报告（F-034 五字段，complete 前必填）
+## 执行报告（2026-08-24 黄药师）
 
-（黄药师填写）
+**完成内容**：L1 采集面四源补全（F-048 落地）——l1_capture.py SOURCE_DIRS 增补 codex/codex-homes/opencode/qwen，扩展 .sqlite，敏感文件排除名单。
+
+**交付物**（改动文件清单）：
+1. `kdo-tools/l1_capture.py`：SOURCE_DIRS +4 源（codex=~/.codex / codex-homes=D:\KDO-memory\codex-homes 角色隔离目录 / opencode=~/.config/opencode / qwen=~/.qwen）；SESSION_EXTS 加 .sqlite；SESSION_SKIP_FILES（auth.json/installation_id/cap_sid/opencode.json/package.json/package-lock.json/config.toml）防凭证进全量库
+2. `kdo-tools/tests/test_l1_capture.py`：TestCaptureSources 3 用例
+
+**验证**（命令+输出）：
+- L1 单测：`pytest tests/test_l1_capture.py` → **8 passed**（含新增 3）；kdo-tools 全量 → **73 passed**
+- L2 狗粮：实际采集——新增 3832 文件/verify PASS（18468 文件 hash 全同）；**codex/codex-homes/qwen 三目录入库确认**；codex/auth.json 新文件被 skip 排除（敏感文件纪律生效）；hermes 历史 auth.json 为存量（非本单引入，边界不动）；opencode 配置态无会话文件（node_modules+配置 json 被 skip），会话产生后自动入库
+- L3 待活体：风清扬审计侧实测「codex 会话可被 L1 采集」（#490 切换试点后闭环验证）
+
+**未做项**：
+- codex-homes 切换（#490 依赖本单完成——先补后切，杜绝"切了就断留痕"）
+- hermes 历史 auth.json 存量不删（边界：只改采集面）
+
+**需要谁动作**：
+- 风清扬：L3 审计验收（codex 会话入 L1 全量库）
+- 欧阳锋：终审本单（抽「四源路径/敏感排除/狗粮入库」）
