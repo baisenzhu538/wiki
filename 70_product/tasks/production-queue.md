@@ -100,6 +100,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 462 | `task_20260823_huangyaoshi-probe-review-done-signal` | 探针「流转完成」信号（P1，终审结果通知编排者——治编排者盲区） | reviewed | huangyaoshi | new_reviewed/new_failback 双信号+单测 | 老朱提问触发（#447 PASS 靠询问才知） | `60_feedback/tasks/task_20260823_huangyaoshi-probe-review-done-signal.md` | PASS→通知 wangyuyan 待部署；FAIL 退回→通知 assignee 返工；文案自足免翻文件；只推送不自动部署（判断留人）；单扫描器纪律；欧阳锋终审 |
 | 463 | `task_20260823_huangyaoshi-l1-full-context-capture` | L1 全量上下文采集基建（P1，甲会话原文+乙工作痕迹/D盘+镜像） | pending_review | huangyaoshi | 采集脚本+双盘+verify | 老朱拍板口径+风清扬建议书采纳 | `60_feedback/tasks/task_20260823_huangyaoshi-l1-full-context-capture.md` | 甲CLI会话原文+乙session trace/产出物变动；D盘git外；与事件指针库分层并存（L0→L1改名一并）；体积红线监控；欧阳锋终审 |
 | 464 | `task_20260823_huangyaoshi-mirror-on-save` | 记忆胶囊镜像保存后联动（P1，save→log→mirror 一条链） | queued | huangyaoshi | 挂钩扩展+verify 联动+单测 | 老朱拍板时间锚「保存后联动」（#427 欠项结清） | `60_feedback/tasks/task_20260823_huangyaoshi-mirror-on-save.md` | 事件驱动非 cron；mirror 失败可见不阻断；verify 轻量联动报警治 backup-stale 复发；欧阳锋终审 |
+| 465 | `task_20260823_laowantong-banfeimao-ai-kb-cards` | 半肥猫AI知识库知识生产（P0，A档10+1卡：五阶段主线+传承卡） | queued | laowantong | 11 张知识卡（洪七公底稿→老顽童产卡） | 三方法诊断闭环（diag D-20260823-008） | `60_feedback/tasks/task_20260823_laowantong-banfeimao-ai-kb-cards.md` | 口述行号一等主锚；双原则卡+五维标注卡为核心抽验卡；与KDO现有卡双向回链；A档PASS后B/C/D另单；欧阳锋终审 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
 ## ⚖️ 待终审（提审任务，queue_transition 自动登记）
@@ -131,7 +132,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 
 > 王语嫣维护看板时处理：诊断 → 写任务单 → 入队后把对应行划掉。编排规则不变，这里只解决「没人被通知」。
 
-- 00_inbox/半肥猫开放麦-AI知识库文件夹/AI×知识管理-开放麦-逐字稿.md｜P2｜59975B｜检测到 08-22 16:41｜待王语嫣编排
+- ~~00_inbox/半肥猫开放麦-AI知识库文件夹/AI×知识管理-开放麦-逐字稿.md｜P2｜59975B｜检测到 08-22 16:41｜待王语嫣编排~~ → 已编排：三方法诊断（九层深挖+逐字读+全网调研，diag D-20260823-008）+ 知识生产 #465（A档11卡）+ #426 词表方向（五维标注框架）——2026-08-23 王语嫣
 - 00_inbox/半肥猫开放麦-AI知识库/AI×知识管理-开放麦-逐字稿.md｜P2｜59975B｜检测到 08-23 06:31｜待王语嫣编排
 - 00_inbox/半肥猫开放麦-AI知识库/AI知识库-知识库搭建与落地-半肥猫-口述.txt｜P0｜139481B｜检测到 08-23 07:01｜待王语嫣编排
 - 00_inbox/半肥猫开放麦-AI知识库/AI知识库-知识库搭建与落地-半肥猫-笔记.txt｜P0｜9489B｜检测到 08-23 07:01｜待王语嫣编排
@@ -154,6 +155,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - 00_inbox/半肥猫开放麦-AI知识库/一堂DOC-20260823150358.png｜P2｜1326426B｜检测到 08-23 07:11｜待王语嫣编排
 - 00_inbox/半肥猫开放麦-AI知识库/一堂DOC-20260823150410.png｜P2｜1235595B｜检测到 08-23 07:11｜待王语嫣编排
 - 00_inbox/半肥猫开放麦-AI知识库/批注 2026-08-23 150123.png｜P2｜146628B｜检测到 08-23 07:11｜待王语嫣编排
+- 00_inbox/半肥猫开放麦-AI知识库/给王语嫣的任务编排建议-半肥猫开放麦-AI知识库.md｜P0｜11494B｜检测到 08-23 07:31｜待王语嫣编排
 
 <!-- INBOX-PENDING-END -->
 
