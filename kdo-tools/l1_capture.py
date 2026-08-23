@@ -141,13 +141,14 @@ def _session_files(src: Path) -> list[Path]:
 
 
 def capture(dry_run: bool) -> int:
-    today = datetime.now().strftime("%Y-%m-%d")
+    """#491 任务2（老朱硬性）：日增量结构——去按日整份目录（L1_ROOT/<tool>/<rel>
+    直接存储，mtime 增量跨天只复制变化文件），trace-index.md append 式索引保可回溯。"""
     copied, skipped = 0, 0
     manifest = []
     for tool, src in SOURCE_DIRS.items():
         if not src.exists():
             continue
-        dest_dir = L1_ROOT / today / tool
+        dest_dir = L1_ROOT / tool
         for f in _session_files(src):
             rel = f.relative_to(src)
             dest = dest_dir / rel
@@ -169,24 +170,22 @@ def capture(dry_run: bool) -> int:
         print(f"[dry-run] 待采集 {copied} 个文件（增量）")
         return 0
 
-    # 乙类：trace.md（文件清单 + mtime + 大小）
-    trace = L1_ROOT / today / "trace.md"
+    # 乙类：trace 索引（append 式——日增量+trace 保证可回溯，#491 任务2-4）
+    trace = L1_ROOT / "trace-index.md"
     trace.parent.mkdir(parents=True, exist_ok=True)
-    with open(trace, "w", encoding="utf-8") as f:
-        f.write(f"# L1 trace {today}（#463）\n\n| 文件 | mtime | 大小 |\n|:--|:--|:--|\n")
+    ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    with open(trace, "a", encoding="utf-8") as f:
+        if trace.stat().st_size == 0:
+            f.write("# L1 trace 索引（#491 日增量口径——每次采集追加，可回溯）\n\n")
+        f.write(f"\n## {ts}（新增 {copied} / 跳过 {skipped}）\n\n| 文件 | mtime | 大小 |\n|:--|:--|:--|\n")
         for line in sorted(manifest):
             rel, mt, size = line.split("|")
             f.write(f"| {rel} | {mt} | {size}B |\n")
-    print(f"✅ 采集完成: 新增 {copied} / 跳过 {skipped} → {L1_ROOT / today}")
-    print(f"✅ trace 已写: {trace}")
+    print(f"✅ 采集完成: 新增 {copied} / 跳过 {skipped} → {L1_ROOT}（日增量口径，#491）")
+    print(f"✅ trace 索引已追加: {trace}")
 
     # #491：C 盘镜像已移除（老朱 01:23 拍板——L1 全量原文单盘 D，事件库仍 C+D 双盘）
     print("ℹ️ C 盘镜像已移除（#491 老朱拍板）：采集后不再写 C 盘，D 主库为唯一全量")
-    # #491：旧天目录压缩归档（移出活跃统计，防 5000MB 红线 5 天触达）
-    try:
-        _archive_old_days()
-    except Exception as e:
-        print(f"⛔ 旧天归档失败（采集已完成，不阻断）: {e}", file=sys.stderr)
     # #471：采集后注体积（D 主库口径，hash 去重）+ 红线告警（失败不阻断主链路，stderr 可见）
     try:
         _log_size_and_alert()
