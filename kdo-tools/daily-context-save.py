@@ -141,6 +141,22 @@ def _write_l0_event(agent: str, desktop_path: Path, grade: str) -> None:
         except Exception:
             pass
 
+    # #464：镜像保存后联动——save→log→mirror 一条链（事件驱动非 cron，老朱时间锚）
+    try:
+        import memory_capsule as mc
+        mc.cmd_mirror()
+        ok = mc.cmd_verify() == 0
+        if not ok:
+            print("⛔ 胶囊镜像 verify 不一致（#464）——B 镜像滞后，请手动检查", file=sys.stderr)
+    except Exception as e:
+        print(f"⛔ 胶囊镜像失败（复盘已保存，不阻断）：{e}", file=sys.stderr)
+        try:
+            log_path = Path(__file__).resolve().parent.parent / "90_control" / "pending-git-commits.log"
+            with open(log_path, "a", encoding="utf-8") as f:
+                f.write(f"\n# {datetime.now().strftime('%Y-%m-%d %H:%M')} 胶囊镜像失败（#464）agent={agent}: {e}\n")
+        except Exception:
+            pass
+
 
 def cmd_save(args):
     agent = args.agent
