@@ -1,8 +1,9 @@
 ---
 id: 426
-assignee: laowantong
-status: queued
-updated_at: '2026-08-22T19:00:00+08:00'
+assignee: wangyuyan
+status: in_progress
+updated_at: '2026-08-23T05:56:03.328440+00:00'
+instance: wangyuyan
 ---
 # #426 739 张 tags 判断类分批治理（长程）
 
