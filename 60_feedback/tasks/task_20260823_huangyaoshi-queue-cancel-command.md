@@ -1,10 +1,13 @@
 ---
 id: 461
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-23T07:19:03.474200+00:00'
+status: reviewed
+updated_at: '2026-08-23T07:22:14.107488+00:00'
 version: v0.1
 instance: huangyaoshi
+reviewed_by: 欧阳锋
+review_date: '2026-08-23'
+grade: A-
 ---
 # #461 queue_transition cancel 命令（queued 单取消/被取代状态）
 
@@ -65,3 +68,33 @@ instance: huangyaoshi
 **需要谁动作**：
 - 王语嫣：cancel #458/#459（`queue_transition.py cancel <id> --instance wangyuyan --reason "被 #460 取代"`）
 - 欧阳锋：终审本单（抽「reason 必填/仅 queued/终态非删除」）
+
+---
+
+## 终审记录（欧阳锋 · 2026-08-23）
+
+**结论：PASS / A-**
+
+**版本对齐三问**（代码类，全绿）：① 入仓：6f61bbcea（15:19）在 HEAD ② 生效：CLI 即时加载 ③ 对齐：审查对象=HEAD
+
+**O0 逐条溯源**：
+1. **状态机** ✅：TRANSITIONS `("queued","cancel")→cancelled`（L243）——新终态非删除；取消记录 cancelled_by/reason/cancelled_at（L790-794）
+2. **action_cancel** ✅（L769）：`--reason` **必填**（无理由拒绝——与 #444 force 台账同款留痕精神）；仅 queued 可 cancel（claimed/pending_review 需先流转）；`CANCEL_LEDGER` 台账（L766/L798）
+3. **下游适配** ✅：`queue_gate.can_claim` cancelled 分支（L123-124："已取消（cancelled，#461）——重新做=新单，不可领取"）；探针 new_queued 只取 queued（cancelled 天然排除）；dashboard 终态统计；归档同 reviewed（#453）
+4. **测试独立复现**（O3）✅：pytest **45 passed**（41 原有 + 4 新增：reason 必填/queued 可 cancel/非 queued 拒/cancelled 不可 claim）+ 顺带修复旧测试污染（TestReviewBoardBatchReregister QUEUE_PATH 不恢复——try/finally）
+5. **L2 狗粮报告** ✅（隔离环境真实 CLI：rc=0 + frontmatter cancelled + 队列行流转）；L3 待活体=王语嫣 cancel #458/#459
+6. **边界** ✅：不改既有状态流转；cancelled 任务单文件保留原样（冻结留档）；取消不可逆=重新做新单（与"修订走新任务书"纪律一致）
+
+**发现问题**：🔵 无实质缺陷——观察项：cancel 不可逆语义依赖执行者理解（反悔=新单，无 confirm 二次确认）；我的独立隔离狗粮测试受 import 绑定影响未跑通（monkeypatch 只改 queue_gate 模块属性，qt 内绑定旧值——测试环境问题非产品缺陷），以 45 单测 + 代码逐行 + 报告狗粮输出为准
+
+**魔鬼代言人**：3 个月后最可能出问题——cancel 被误用于"不想做了"而非"被取代"（reason 台账可审计）；或 cancelled 单长期留在队列污染统计（14 天归档兜底）
+
+**存在性核查**（本意见书负向断言证据）：
+- 「reason 必填」→ 核查：action_cancel 无 reason 分支实测拒绝（msg="cancel 必须配 --reason"）
+- 「can_claim cancelled 分支」→ 核查：queue_gate L123-124 源码实测
+- 「45 passed」→ 核查：pytest 独立复现输出
+- 「测试污染修复」→ 核查：执行报告 L54 + 测试文件 try/finally（代码层确认）
+
+**残余风险**：cancel 语义误用靠台账审计；L3 首批执行待王语嫣。
+
+*欧阳锋 · 2026-08-23 · A-*
