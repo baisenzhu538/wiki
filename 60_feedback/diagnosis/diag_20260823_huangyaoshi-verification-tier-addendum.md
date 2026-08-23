@@ -4,7 +4,7 @@ title: 验证分层建议书增补（L1/L2/L3/待活体四态口径精确化）
 type: proposal
 author: 黄药师（Builder）
 created_at: 2026-08-23
-status: pending_orchestration
+status: resolved
 audience: 王语嫣
 method: 老朱 08-23 指示"另起新文件"+ 验证分层建议书口径精确化
 ---

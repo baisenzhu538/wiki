@@ -13,7 +13,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 > 任务来源：历史批量工单、新域诊断任务、跨域桥接任务。
 |:---:|:---|:---|:---:|:---:|---:|:---|:---|:---|
 | 187 | `task_20260714_wangyuyan-material-gaps-tracking` | 素材缺口追踪与回源登记（4类缺口：复盘合集7案例/征文十篇+邱淼案例集/双三角/刻意练习；blocked等老朱） | blocked | 老顽童 | 缺口登记卡+素材到位后24h内评估入队 | 老朱提供素材 |
-| 188 | `task_20260714_wangyuyan-badcase-feedback-loop` | bad case回流机制与首条记录：模板+存储路径+缺陷分类+闭环流程；首条等老朱真实使用 | pending_review | 老顽童 | 机制卡1张+首条记录+context补丁 | 无 |
+| 188 | `task_20260714_wangyuyan-badcase-feedback-loop` | bad case回流机制与首条记录：模板+存储路径+缺陷分类+闭环流程；首条等老朱真实使用 | reviewed | 老顽童 | 机制卡1张+首条记录+context补丁 | 无；**08-23 补登记对齐**：任务单 07-19 欧阳锋终审 A-（#429 段机制上线前残留，处置=diag_20260823_ouyangfeng-188-residual-disposition 建议①人工补行留痕，E019 先例） |
 | 199 | `task_20260724_wangyuyan-blind-test-three-layer-fix` | 盲人测试失败三修复：Agent溯源+卡片定位+失忆锚点。P0：B6规则写入王语嫣/欧阳锋/老顽童context；tool子卡强制声明框架定位。P1：补建4个Agent失忆锚点文件。最小验证：再问"销售过程分几个环节"应答出"科学销售五步法B步" | reviewed | hermes | 3层修复+4个amnesia文件 | 无 | `60_feedback/tasks/task_20260724_wangyuyan-blind-test-three-layer-fix.md` | 欧阳锋终审A(2026-07-24)：4项交付全部核实——tool卡L53定位声明✅/O8写入ouyangfeng context L420✅/4个amnesia文件✅/盲测复测第一句给出框架定位✅
 | 232 | `task_20260804_wangyuyan-how-to-know-a-person-cards` | 人域首批：《如何了解一个人》卡片化（水水老师，10张）——认识他人域 | reviewed | hermes | 10张 | 无 | `60_feedback/tasks/task_20260804_wangyuyan-how-to-know-a-person-cards.md` | 补登记：任务单 status=pending_review 但队列行缺失（E019家族）；人域三件套之一（认识他人）<!-- 2026-08-09 王语嫣补登记 -->
 | 245 | `task_20260807_wangyuyan-team-review-guide-tool` | 团队复盘引导清单 tool 卡（复盘 workflow 补缺，千惠实战验证过） | reviewed | laowantong | 1 张 tool | 无 | \`60_feedback/tasks/task_20260807_wangyuyan-team-review-guide-tool.md\` | 复盘域16节点缺workflow类；素材=桌面千惠清单（实战版） |【编排提审：规格待欧阳锋生产前审】；欧阳锋终审PASS(条件) 2026-08-07：结构八段齐全；source_refs已搬运修复
@@ -91,6 +91,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 453 | `task_20260823_huangyaoshi-queue-archive-slim` | 队列归档瘦身机制（P1，看板定期瘦身）：归档脚本+王语嫣定期执行 | reviewed | huangyaoshi | 归档脚本+单测+首次瘦身 | 老朱指令（token 成本+注意力稀释） | `60_feedback/tasks/task_20260823_huangyaoshi-queue-archive-slim.md` | reviewed>14天归档按月文件；活跃态永不归档；归档前后对账；首次归档前 git tag 快照；总任务数=活跃+归档全量口径；欧阳锋终审 |
 | 454 | `task_20260823_laowantong-fengqingyang-l1-l4-caliber` | #447 底本口径修正：记忆胶囊 L1-L4 新口径（P1，老朱定稿） | reviewed | laowantong | 口径修正指令单（落点在 #447 交付物） | #447 上板冻结——新增修订单 | `60_feedback/tasks/task_20260823_laowantong-fengqingyang-l1-l4-caliber.md` | L2=风清扬最重要本职+三铁边界；spec 零旧口径残留（grep 核）；执行报告随 #447 |
 | 455 | `task_20260823_laowantong-spec-boundary-ask-first` | 未定稿三 spec 补通用边界条款（职责外必询问）（P1，老朱拍板六角色通用） | queued | laowantong | 口径传三场（落点在 #446/#447/#448 交付物） | 三任务单上板冻结——新增修订单 | `60_feedback/tasks/task_20260823_laowantong-spec-boundary-ask-first.md` | 已定稿三 spec 已直接修订（老顽童 v1.1/欧阳锋 v1.1/王语嫣 v1.3）；欧阳锋版含编排域归属具体化；执行报告随各场 |
+| 456 | `task_20260823_huangyaoshi-agentid-audit-fix` | 记忆胶囊 agent_id 统一+审计器解析盲区修复（P2，两小修复合一） | queued | huangyaoshi | 数据清洗+审计器修复+单测 | 风清扬建议3+欧阳锋#188处置采纳 | `60_feedback/tasks/task_20260823_huangyaoshi-agentid-audit-fix.md` | agent_id 拼音角色名统一+清测试残留；审计器行数异常禁静默跳过+全量重跑出真实残留清单；query 命令不在本单（F-045 待拍板）；欧阳锋终审 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
 ## ⚖️ 待终审（提审任务，queue_transition 自动登记）
@@ -122,11 +123,11 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 
 > 王语嫣复核立项后划掉该行（流程不变）。勿手改段结构——重跑会整块重写。
 
-- diag_20260823_huangyaoshi-verification-tier-addendum.md｜08-23 12:05｜待王语嫣复核裁定
+- ~~diag_20260823_huangyaoshi-verification-tier-addendum.md｜08-23 12:05｜待王语嫣复核裁定~~ → 编排决策（08-23 王语嫣）：**关闭**——四态口径已被 #446 入宪 §2.6.4 吸收（黄药师 spec v1.0 含三铁律+分层四态声明）；文档留档作口径演进链
 - ~~diag_20260823_fengqingyang-memory-capsule-4layer-l1-l4.md｜08-23 12:45｜待王语嫣复核裁定~~ → 已复核裁定（2026-08-23 王语嫣独立判断，老朱令）：**单项说明为主**——架构入宪 charter §3.12（L1-L4+三铁边界，已修订）；风清扬 spec 只写他那一层（L2 本职+三边界，#454 传口径给 #447）；外部残留改名挂 F-044（黄药师，缓）
-- diag_20260823_ouyangfeng-queue-slim-handover.md｜08-23 12:48｜待王语嫣复核裁定
-- diag_20260823_fengqingyang-memory-capsule-query-and-agent-id.md｜08-23 13:21｜待王语嫣复核裁定
-- diag_20260823_ouyangfeng-188-residual-disposition.md｜08-23 13:37｜待王语嫣复核裁定
+- ~~diag_20260823_ouyangfeng-queue-slim-handover.md｜08-23 12:48｜待王语嫣复核裁定~~ → 编排决策（08-23 王语嫣）：**关闭**——移交确认（首次瘦身保留价值，cron 已删，维护权已固化 spec v1.2）；踩坑三教训（表头正则排除/归档后双验证/终态口径）供 #453 黄药师实施参照
+- ~~diag_20260823_fengqingyang-memory-capsule-query-and-agent-id.md｜08-23 13:21｜待王语嫣复核裁定~~ → 编排决策（08-23 王语嫣）：**部分采纳**——建议 3（agent_id 统一拼音角色名+清测试残留）立项 **#456**（黄药师）；建议 1（query 只读命令）挂停车场 F-045 等老朱拍板 L1 开放口径后连同实施；建议 2 上报老朱（开放对象/只读权限/查询审计痕迹三点）
+- ~~diag_20260823_ouyangfeng-188-residual-disposition.md｜08-23 13:37｜待王语嫣复核裁定~~ → 编排决策（08-23 王语嫣）：**采纳推荐项①补登记对齐**——#188 队列行走 queue_transition review 补登记（任务单 07-19 已终审 A-，纯历史对齐）；审计器解析盲区修复并入 **#456**（黄药师，行数异常禁静默跳过）
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
