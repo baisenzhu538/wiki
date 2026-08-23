@@ -84,7 +84,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 445 | `task_20260823_huangyaoshi-oneclick-agent-launcher` | KDO 一键启动脚本（P2，冷启动三件套 A 项）：右键启动+角色菜单，三步入会话 | reviewed | huangyaoshi | 启动脚本+狗粮 | 风清扬建议书裁定（B/C 归 #419 追加+王语嫣自办） | `60_feedback/tasks/task_20260823_huangyaoshi-oneclick-agent-launcher.md` | L3 活体=老朱亲手三步启动确认；飞书角色不进菜单；交付五字段+验证分层声明；欧阳锋终审 |
 | 446 | `task_20260823_laowantong-role-special-huangyaoshi` | 角色专场第三场：黄药师岗位说明书定稿（P1，F-028 第三场） | reviewed | laowantong | 五要素 spec 升级 | 素材已齐（验证分层/词表三层/四铁律注入） | `60_feedback/tasks/task_20260823_laowantong-role-special-huangyaoshi.md` | 必含基建单一实例(#222/#223)/验证三验(跑了≠真了)/词表三层/只拦机械项；狗粮=本单 complete 零 force；欧阳锋终审、老朱终稿后并入 §2.6.4 |
 | 447 | `task_20260823_laowantong-role-special-fengqingyang` | 角色专场第四场：风清扬岗位说明书定稿（P1，F-028 第四场） | reviewed | laowantong | 五要素 spec 升级 | **#446 老朱拍板后开工**（一角色一张过） | `60_feedback/tasks/task_20260823_laowantong-role-special-fengqingyang.md` | 必含不动基建不产卡/只交王语嫣/完成声明拆三问/判断先落盘/L0 审计权；欧阳锋终审、老朱终稿后并入 §2.6.5；老朱场=最后一场待老朱输入 |
-| 448 | `task_20260823_laowantong-role-special-zhu` | 角色专场第六场（终场）：老朱角色卡定稿（P1，F-028 收官） | claimed-wangyuyan | laowantong | 五要素 spec（人的角色重构） | 顺位 #446/#447 后；老朱口述通道即时开放（一等证据随时入） | `60_feedback/tasks/task_20260823_laowantong-role-special-zhu.md` | 写的是人不是 agent（纠偏者/拍板人/宪法来源不可委托内核）；红线清单全量提炼；老朱本人确认终稿；定稿后 F-028 出池 §2.6 六节全齐 |
+| 448 | `task_20260823_laowantong-role-special-zhu` | 角色专场第六场（终场）：老朱角色卡定稿（P1，F-028 收官） | pending_review | laowantong | 五要素 spec（人的角色重构） | 顺位 #446/#447 后；老朱口述通道即时开放（一等证据随时入） | `60_feedback/tasks/task_20260823_laowantong-role-special-zhu.md` | 写的是人不是 agent（纠偏者/拍板人/宪法来源不可委托内核）；红线清单全量提炼；老朱本人确认终稿；定稿后 F-028 出池 §2.6 六节全齐 |
 | 449 | `task_20260823_laowantong-file-flow-protocol` | 《KDO 文件流转规范》v1.0（P1，协作纪律成文化）：命名/版本/时间戳/唯一编号+两类冻结纪律细则 | reviewed | laowantong | 规范文档+六角色文件清单表 | **老朱拍板提级：先于 #446 开工**（charter §3.15 已入宪总纲） | `60_feedback/tasks/task_20260823_laowantong-file-flow-protocol.md` | doc_id=D-YYYYMMDD-NNN 唯一编号；v1.0 起版订正+0.1 新件 amends 引旧件；一次性交付物全冻结/任务单 append-only；向前生效存量不追溯；欧阳锋终审、老朱终稿 |
 | 450 | `task_20260823_huangyaoshi-file-flow-lint` | 文件流转规范工具支撑（P1，规范门禁化）：doc_id 查重+冻结检测+命名合规 | queued | huangyaoshi | lint 检查器+单测 | **#449 规范生效后开工** | `60_feedback/tasks/task_20260823_huangyaoshi-file-flow-lint.md` | 登记口查重当场拒绝；冻结文件进 diff 报警（节级 hash 方案黄药师定）；误报进 friction 观察期；只拦机械项；欧阳锋终审 |
 | 451 | `task_20260823_laowantong-spec-exec-report-rule` | spec 增补：执行报告五字段=提审必备铁律（老顽童+黄药师两 spec）（P1，老朱指令） | reviewed | laowantong | 两 spec 条款增补 | #441 实证缺执行报告；黄药师四单齐全（防复发固化） | `60_feedback/tasks/task_20260823_laowantong-spec-exec-report-rule.md` | 与 F-034/#444 force 台账口径一致；重新提审同标准；#446 上板冻结故走新增修订单（新纪律狗粮）；欧阳锋终审 |
@@ -115,6 +115,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#457 task_20260823_huangyaoshi-disposal-gate-structured｜huangyaoshi｜提审 08-23 13:55｜60_feedback/tasks/task_20260823_huangyaoshi-disposal-gate-structured.md~~ → 已终审 PASS A-（2026-08-23 欧阳锋）
 - #458 task_20260823_huangyaoshi-friction-auto-report｜huangyaoshi｜提审 08-23 14:05｜60_feedback/tasks/task_20260823_huangyaoshi-friction-auto-report.md
 - ~~#460 task_20260823_huangyaoshi-issue-report-automation-final｜huangyaoshi｜提审 08-23 14:15｜60_feedback/tasks/task_20260823_huangyaoshi-issue-report-automation-final.md~~ → 终审退回 queued（2026-08-23 欧阳锋）
+- #448 task_20260823_laowantong-role-special-zhu｜wangyuyan｜提审 08-23 14:30｜60_feedback/tasks/task_20260823_laowantong-role-special-zhu.md
 
 <!-- REVIEW-PENDING-END -->
 
