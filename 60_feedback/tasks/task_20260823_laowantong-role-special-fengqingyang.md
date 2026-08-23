@@ -1,8 +1,8 @@
 ---
 id: 447
 assignee: laowantong
-status: in_progress
-updated_at: '2026-08-23T05:22:29.255618+00:00'
+status: pending_review
+updated_at: '2026-08-23T05:24:26.240986+00:00'
 instance: hermes
 ---
 # #447 角色专场第四场：风清扬岗位说明书定稿
