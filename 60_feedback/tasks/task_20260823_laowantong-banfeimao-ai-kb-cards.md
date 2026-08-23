@@ -1,10 +1,11 @@
 ---
 id: 465
 assignee: laowantong
-status: queued
-updated_at: '2026-08-23T12:35:00+00:00'
+status: in_progress
+updated_at: '2026-08-23T07:49:43.438473+00:00'
 version: v1.0
 doc_id: D-20260823-009
+instance: hermes
 ---
 # #465 半肥猫《AI×知识管理》知识生产（A 档 10 卡+传承卡，五阶段主线）
 
