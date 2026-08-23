@@ -1,11 +1,12 @@
 ---
 id: 481
 assignee: laowantong
-status: queued
-updated_at: '2026-08-23T23:50:00+08:00'
+status: in_progress
+updated_at: '2026-08-23T15:50:13.190090+00:00'
 version: v0.1
 depends_on:
-  - 469
+- 469
+instance: hermes
 ---
 # #481 水水《成瘾》口述补充生产·2 口径补强 + 3 新增（#469 补强）
 
