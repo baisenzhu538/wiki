@@ -1,8 +1,8 @@
 ---
 id: 435
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-23T02:10:00+08:00'
+status: in_progress
+updated_at: '2026-08-23T02:45:33.769701+00:00'
 ---
 # #435 负向判词门禁词表扩展（数据异常类，修正落点版）
 
