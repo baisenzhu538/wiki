@@ -90,3 +90,5 @@ updated_at: 2026-08-09
 | 2026-08-23 | 黄药师 | #444 隔离首版失效 | 改 qt.QUEUE_PATH 属性无效——parse_queue 默认参数在 queue_gate 模块定义时绑定 | 测试隔离三选：函数级 monkeypatch / 显式传 rows / 环境变量+模块重载；改模块属性=无效 |
 | 2026-08-23 | 黄药师 | heredoc 转义吞反斜杠 | bash heredoc 处理 \n 层级混乱，python 源码字符串被破坏（SyntaxError/字面化） | 中文/转义敏感内容一律 Write/Edit 工具，不用 heredoc/python -c 内联 |
 | 2026-08-23 | 黄药师 | 飞书假成功（签名错误） | _feishu_sign 算法与官方不符（code 19021）+ _send_hook 只查 HTTP 200——全部消息假发送且消耗幂等配额，用户报告"群里没看到"才发现 | 外部 API 成功必须验响应 body 业务码；用户未确认收到=未验证 |
+| 2026-08-24 | 黄药师 | #488 队列行错位到 PROPOSAL 段后 | 新任务行被加在主表外（PROPOSAL-PENDING 段之后 L263），parse_queue 只解析第一个表→complete 报"不在队列中"，手动移行回主表修复 | 队列新任务行必须加在主表区（REVIEW-PENDING-BEGIN 之前）；parse_queue 只认第一个表是设计（后续表=标记段） |
+| 2026-08-24 | 黄药师 | #488 补丁直接提交未入队 | 用户质询后补"登记纪律 lint 拦截"直接改总表+infra-status+commit，未走任务制入队（上板冻结纪律/E019 同族）——用户裁定"特例，下不为例" | 基建补丁也必须先入队再交付；特例后一律任务制（用户 08-24 拍板） |
