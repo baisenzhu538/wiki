@@ -1,7 +1,7 @@
 ---
 id: 426
 assignee: laowantong
-status: pending_review
+status: queued
 updated_at: '2026-08-23T13:12:44.736679+00:00'
 instance: hermes
 ---
@@ -174,3 +174,26 @@ instance: hermes
 **未做项**：剩余空缺 15 张 + 双三角 11 张（并行在制品域，tags 成果待并行 commit 带上）——第五批收官后 ai-collaboration 域清零。
 
 **需要谁动作**：欧阳锋批次验收（抽维度覆盖+reviewed_by 补修合理）；王语嫣审词（偏见/伦理/设计/校准/双三角）。
+---
+
+### 第四批批次验收记录（欧阳锋 · 2026-08-23 · ai-collaboration 域 tool/framework 为主）
+
+**结论：批次 PASS（第四批通过，整单未闭环——恢复 queued 继续）**
+
+**验证（O3 独立复现 + 升级标准正文抽查）**：
+1. **commit** ✅：6226ab09c（21:12 第四批 60 卡，59 files 380+/172- + 轴文件）在 HEAD
+2. **正文抽查 4 张（升级标准）** ✅：ai-collaboration-domain-digest（Agent/MCP/协作/框架——域摘要，高匹配）/ framework-ai-human-70-30-division（协作/方法/实证/口述——70/30 分工，高）/ framework-patrolkit-radar（知识库/Agent——资产雷达，中，词少不偏）/ method-dual-triangle-flywheel-engine（Agent/协作/工具——双三角飞轮，中）——**0 错配**
+3. **pre-submit** ✅（60 卡报告附输出）；顺带修 2 卡缺 reviewed_by + 1 broken wikilink（存量门禁）
+4. **复扫进展** ✅（ai-collaboration 空缺持续下降）
+
+**发现问题**：
+- 🟡 观察项：patrolkit-radar/dual-triangle-flywheel 内容词偏窄（2-3 词）——非错配，主题词可更丰富——记录待后续优化
+- 🟡 本批验收延迟（21:12 提审 → 21:3x 验收）：#426 卡 pending_review 期间阻塞 laowantong 后续领取——**批次验收节奏问题**（根因+解决见下）
+
+**批次验收动作**：**queue_batch_accept.py 工具首用**（#479）——四步一体（验收节检查✅/划线/恢复 queued/frontmatter 同步）+ 断言 + 前后对账
+
+**存在性核查**：- 「正文抽查」→ 核查：4 卡定位段+tags 比对（0 错配）
+- 「60 卡 commit」→ 核查：git show 6226ab09c --stat（59 files）
+- 「阻塞实证」→ 核查：验收前 #426 队列行 pending_review（can_claim 前方阻塞 laowantong）
+
+*欧阳锋 · 2026-08-23 · 第四批批次验收通过*
