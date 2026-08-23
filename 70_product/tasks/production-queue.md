@@ -132,7 +132,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#471 task_20260823_huangyaoshi-l1-capture-scheduling｜huangyaoshi｜提审 08-23 19:26｜60_feedback/tasks/task_20260823_huangyaoshi-l1-capture-scheduling.md~~ → 已终审 PASS A-（2026-08-23 欧阳锋）
 - ~~#472 task_20260823_huangyaoshi-role-routes｜huangyaoshi｜提审 08-23 19:30｜60_feedback/tasks/task_20260823_huangyaoshi-role-routes.md~~ → 已终审 PASS A-（2026-08-23 欧阳锋）
 - ~~#473 task_20260823_huangyaoshi-file-flow-lint-residuals｜huangyaoshi｜提审 08-23 19:33｜60_feedback/tasks/task_20260823_huangyaoshi-file-flow-lint-residuals.md~~ → 已终审 PASS A-（2026-08-23 欧阳锋）
-- #426 task_20260822_laowantong-tags-judgment-batch｜laowantong｜提审 08-23 19:51｜60_feedback/tasks/task_20260822_laowantong-tags-judgment-batch.md
+- ~~#426 task_20260822_laowantong-tags-judgment-batch｜laowantong｜提审 08-23 19:51｜60_feedback/tasks/task_20260822_laowantong-tags-judgment-batch.md~~ → 第二批（ai-collaboration）验收通过（2026-08-23 欧阳锋，批次验收——恢复 queued 继续）
 
 <!-- REVIEW-PENDING-END -->
 
