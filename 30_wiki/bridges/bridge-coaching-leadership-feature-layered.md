@@ -37,8 +37,14 @@ related:
   - tool-leadership-questioning-cards
   - tool-leadership-feedback-cards
 tags:
-- audience:manager
-- scene:reference
+  - audience:manager
+  - scene:reference
+  - Agent
+  - 映射表
+  - 协作
+  - 机制
+  - 边界
+  - 迭代
 quality_labels: [insight, actionable]
 ---
 

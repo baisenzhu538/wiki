@@ -34,9 +34,10 @@ related:
 - '[[plan_20260621_kdo-quality-harness-upgrade]]'
 updated_at: '2026-06-29'
 tags:
-- audience:general
-- scene:reference
-- skill-level:advanced
+  - audience:general
+  - scene:reference
+  - skill-level:advanced
+  - 边界
 ---
 # 评分锚定
 

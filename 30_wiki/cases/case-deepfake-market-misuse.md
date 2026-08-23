@@ -34,9 +34,13 @@ related:
 - tool-ai-critical-reading-three-layers
 - '[[kimi-深度调研集群方法论-deep-research-swarm]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 协作
+  - 工具
+  - 边界
+  - 逐字稿
 ---
 # Deepfake 的商业机会与滥用风险
 

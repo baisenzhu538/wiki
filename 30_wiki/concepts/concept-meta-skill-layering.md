@@ -23,9 +23,15 @@ aliases:
 - 楚门-AI知识管理探索营-口述.txt
 - AI知识库
 tags:
-- audience:manager
-- scene:planning
-- skill-level:advanced
+  - audience:manager
+  - scene:planning
+  - skill-level:advanced
+  - 知识库
+  - Agent
+  - 技能封装
+  - 协作
+  - 方法
+  - 口述
 source_person: 楚门
 source_context: AI×知识管理探索营（2026-08-15 晚直播）——Skill 创业专家封装（L1056-1110、L2454-2458）+ 逐字稿高阶技能封装案例（L335-400）
 source_refs:

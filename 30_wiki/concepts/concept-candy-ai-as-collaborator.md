@@ -34,9 +34,14 @@ related:
 - '[[tool-candy-positioning-canvas]]'
 updated_at: '2026-06-29'
 tags:
-- audience:general
-- scene:reference
-- skill-level:advanced
+  - audience:general
+  - scene:reference
+  - skill-level:advanced
+  - 协作
+  - 框架
+  - 工具
+  - 边界
+  - 迭代
 ---
 # AI是协作者而非代写工具
 

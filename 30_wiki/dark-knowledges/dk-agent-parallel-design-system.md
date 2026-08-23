@@ -21,9 +21,16 @@ aliases:
 - 设计宪法
 - 顺序下达
 tags:
-- audience:manager
-- scene:design
-- skill-level:intermediate
+  - audience:manager
+  - scene:design
+  - skill-level:intermediate
+  - Agent
+  - 上下文
+  - 协作
+  - 机制
+  - 方法
+  - 边界
+  - 口述
 source_person: 楚门
 source_context: AI 知识管理探索营口述（2026-08）
 source_refs:

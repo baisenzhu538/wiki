@@ -50,9 +50,12 @@ related:
 - '[[case-dutch-childcare-scandal]]'
 - tool-ai-cross-reading-method
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 协作
+  - 边界
+  - 逐字稿
 ---
 # AI 情感陪伴的市场与伦理
 

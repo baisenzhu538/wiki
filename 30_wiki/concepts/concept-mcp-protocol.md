@@ -33,9 +33,12 @@ related:
 - '[[case-toc-content-platform-correlation-trap]]'
 updated_at: '2026-06-29'
 tags:
-- audience:general
-- scene:reference
-- skill-level:advanced
+  - audience:general
+  - scene:reference
+  - skill-level:advanced
+  - Agent
+  - MCP
+  - 工具
 ---
 # MCP协议
 

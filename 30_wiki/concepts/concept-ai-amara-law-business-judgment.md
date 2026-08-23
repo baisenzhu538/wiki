@@ -41,9 +41,11 @@ related:
 - '[[tool-tech-probability-80-filter]]'
 updated_at: '2026-06-29'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 机制
+  - 框架
 ---
 # 阿马拉定律与商业判断校准
 

@@ -45,9 +45,14 @@ related:
 - '[[framework-ai-human-70-30-division]]'
 - '[[framework-ai-report-value-ladder-l1-l6]]'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:manager
+  - scene:reference
+  - skill-level:advanced
+  - 工具
+  - 方法
+  - 实证
+  - 设计
+  - 提示词
 ---
 
 # 设计原则 90 条：AI demo 最完整的饱和建模样本

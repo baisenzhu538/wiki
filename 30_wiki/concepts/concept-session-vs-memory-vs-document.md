@@ -26,9 +26,16 @@ aliases:
 - OCR_一堂DOC-20260816015449.md
 - AI知识库
 tags:
-- audience:executor
-- scene:execution
-- skill-level:beginner
+  - audience:executor
+  - scene:execution
+  - skill-level:beginner
+  - 知识库
+  - Agent
+  - 协作
+  - 工具
+  - 方法
+  - 边界
+  - 口述
 source_person: 楚门
 source_context: AI×知识管理探索营（2026-08-15 晚直播）——进步二（L1360-1530；批注 221150 + 015449/015500）
 source_refs:

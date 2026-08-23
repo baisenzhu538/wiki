@@ -30,9 +30,11 @@ related:
 - tool-ai-cross-reading-method
 - tool-ai-critical-reading-three-layers
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 协作
+  - 逐字稿
 ---
 # COMPAS 再犯算法种族偏见
 

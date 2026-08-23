@@ -50,9 +50,13 @@ related:
 - '[[framework-wanghuan-bitcoe-prompt-framework]]'
 - kdo-protocol-implementation-roadmap
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 协作
+  - 方法
+  - 边界
+  - 逐字稿
 ---
 # 剑桥小说家对 AI 创作态度调查
 

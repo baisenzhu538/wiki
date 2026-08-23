@@ -48,9 +48,13 @@ related:
 - '[[framework-wanghuan-bitcoe-prompt-framework]]'
 - '[[dk-ai-social-progress-not-automatic]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 协作
+  - 框架
+  - 工具
+  - 逐字稿
 ---
 # WEF 对 AI 就业影响的预测
 

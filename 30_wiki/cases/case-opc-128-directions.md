@@ -44,11 +44,12 @@ related:
 - '[[dk-research-saturation-self-proof]]'
 - '[[framework-ai-report-value-ladder-l1-l6]]'
 tags:
-- audience:executor
-- audience:manager
-- scene:planning
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - audience:manager
+  - scene:planning
+  - scene:execution
+  - skill-level:intermediate
+  - 边界
 ---
 
 # OPC 一人公司 128 方向：4 杠杆×16 类×128 方向

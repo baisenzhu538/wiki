@@ -40,9 +40,11 @@ related:
 - tool-ai-critical-reading-three-layers
 - '[[街顺app全面调研报告]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 协作
+  - 逐字稿
 ---
 # Apple Card 信用额度性别争议
 

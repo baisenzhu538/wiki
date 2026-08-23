@@ -53,9 +53,12 @@ related:
 - '[[writing-content]]'
 - '[[ouyangfeng-labeling-research-review]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 协作
+  - 方法
+  - 逐字稿
 ---
 # 陈楸帆对 AI 写作的态度转向
 

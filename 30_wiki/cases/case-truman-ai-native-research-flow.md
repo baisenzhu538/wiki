@@ -23,9 +23,17 @@ aliases:
 - src_2026-08-20_wechat_2404c1658025473c
 - src_2026-08-20_wechat_2404c1658025473c.md
 tags:
-- audience:manager
-- scene:research
-- skill-level:intermediate
+  - audience:manager
+  - scene:research
+  - skill-level:intermediate
+  - 知识库
+  - Agent
+  - 上下文
+  - 工具
+  - 方法
+  - 边界
+  - 口述
+  - 逐字稿
 source_person: 楚门
 source_context: AI 知识管理探索营口述（2026-08）+ 逐字稿
 source_refs:

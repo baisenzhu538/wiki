@@ -38,9 +38,13 @@ quality_labels:
 updated_at: '2026-06-30'
 created_at: '2026-06-30'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 边界
+  - 反例
+  - 伦理
+  - 偏见
 ---
 # 中立的暴政
 

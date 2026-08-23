@@ -26,9 +26,14 @@ aliases:
 - OCR_批注 2026-08-15 221853.md
 - AI知识库
 tags:
-- audience:executor
-- scene:planning
-- skill-level:intermediate
+  - audience:executor
+  - scene:planning
+  - skill-level:intermediate
+  - 知识库
+  - Agent
+  - 提示词
+  - 边界
+  - 口述
 source_person: 楚门
 source_context: AI×知识管理探索营（2026-08-15 晚直播）——进步三（015515 + 批注 221751/221853）
 source_refs:

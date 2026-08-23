@@ -22,6 +22,15 @@ source_refs:
   - 30_wiki/dark-knowledges/dk-publish-collapse-to-iterate.md
   - 30_wiki/dark-knowledges/dk-agent-access-kdo-pitfalls.md
   - agent复盘/duanwangye/daily-context/2026-08-09.md
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 知识库
+  - Agent
+  - 机制
+  - 工具
+  - 迭代
 discoverable_by:
   - 段王爷自我迭代
   - 发布即迭代

@@ -32,9 +32,14 @@ related:
 - agent-native-card-design
 - tinyfish-agentic-web-infrastructure
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - Agent
+  - MCP
+  - 协作
+  - 框架
+  - 工具
 ---
 # Roblox AI NPC 与教育场景
 

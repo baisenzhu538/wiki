@@ -27,9 +27,11 @@ aliases:
 - OCR_一堂DOC-20260816015601.md
 - AI知识库
 tags:
-- audience:manager
-- scene:execution
-- skill-level:advanced
+  - audience:manager
+  - scene:execution
+  - skill-level:advanced
+  - 上下文
+  - 协作
 source_person: 楚门
 source_context: AI×知识管理探索营（2026-08-15 晚直播）——第四次飞跃大案例（L1990-2360 + 015547/015601）
 source_refs:

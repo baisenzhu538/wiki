@@ -46,9 +46,10 @@ related:
 - '[[case-ai-job-displacement-wef]]'
 - '[[case-chen-qiufan-ai-writing]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 逐字稿
 ---
 # 荷兰育儿补贴算法丑闻
 

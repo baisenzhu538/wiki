@@ -42,9 +42,16 @@ related:
 - administrator
 - desktop
 tags:
-- audience:general
-- scene:reference
-- skill-level:advanced
+  - audience:general
+  - scene:reference
+  - skill-level:advanced
+  - Agent
+  - MCP
+  - 协作
+  - 框架
+  - 工具
+  - 演进
+  - 边界
 ---
 
 # 从 Copilot 到 Partner：老朱 × 洪七公的人机协作跃迁诊断

@@ -31,10 +31,13 @@ discoverable_by:
   - 做出东西
   - 完成从
 tags:
-- audience:executor
-- audience:manager
-- scene:product-planning
-- skill-level:intermediate
+  - audience:executor
+  - audience:manager
+  - scene:product-planning
+  - skill-level:intermediate
+  - 方法
+  - 创业者
+  - 口述
 quality_labels:
 - insight
 - actionable

@@ -30,9 +30,15 @@ related:
 - '[[tool-yitang-18-strategy-tool-mapping]]'
 - '[[tool-半肥猫-course-to-skill-workflow]]'
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 工作流
+  - Agent
+  - 机制
+  - 框架
+  - 方法
+  - 边界
 ---
 
 # Truman Perspective Skill — 许楚思维操作系统 Claude Code 实现

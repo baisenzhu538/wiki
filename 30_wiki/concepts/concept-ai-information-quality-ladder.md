@@ -34,9 +34,12 @@ quality_labels:
 updated_at: '2026-06-30'
 created_at: '2026-06-30'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 机制
+  - 方法
+  - 逐字稿
 ---
 # 信息质量阶梯
 
