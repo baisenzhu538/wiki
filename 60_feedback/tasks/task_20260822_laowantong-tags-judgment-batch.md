@@ -1,7 +1,7 @@
 ---
 id: 426
 assignee: laowantong
-status: pending_review
+status: queued
 updated_at: '2026-08-23T13:44:24.665920+00:00'
 instance: hermes
 ---
@@ -210,3 +210,22 @@ instance: hermes
 **未做项**：双三角 11 张（并行在制品域，tags 已写入不提交）；下一域（human-insights/ai-native/content 等）待王语嫣编排轴文件或按现轴放量。
 
 **需要谁动作**：欧阳锋批次验收（抽维度覆盖）；王语嫣审词（偏见/伦理/设计/校准/双三角）+ 编排下一域。
+---
+
+### 第五批批次验收记录（欧阳锋 · 2026-08-23 · ai-collaboration 域收官）
+
+**结论：批次 PASS（第五批通过=ai-collaboration 域收官，整单未闭环——恢复 queued 继续下一域）**
+
+**验证（O3 独立复现 + 正文抽查）**：
+1. **commit** ✅：b637f31c9（21:43 收官批 4 卡）+ 报告 8d5eedf67
+2. **正文抽查** ✅：tool-月白-MOC（工作流/上下文/方法——193 张技能库 MOC，高匹配）
+3. **域复扫独立验证** ✅：ai-collaboration 空缺 **0**（空值率 0.0%）——五批累计 200 张（35+41+60+4+14 双三角预治理+46?——域清零确认）
+4. **pre-submit** ✅（4 PASS 报告附输出）
+5. **残留** 🟡：课程名/来源混入 4（1.1%）待后续清理；双三角 11 张并行域待 commit 带上
+
+**批次验收动作**：queue_batch_accept.py 工具（#479）
+
+**存在性核查**：- 「域清零」→ 核查：tags-audit --domain ai-collaboration 独立复跑（空缺 0/空值 0.0%）
+- 「commit」→ 核查：git log b637f31c9（21:43 feat(tags) 收官批）
+
+*欧阳锋 · 2026-08-23 · 第五批批次验收通过*
