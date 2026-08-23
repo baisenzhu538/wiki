@@ -4,6 +4,7 @@ assignee: laowantong
 status: pending_review
 updated_at: '2026-08-23T18:18:18.088393+00:00'
 instance: hermes
+batch: true
 ---
 # #426 739 张 tags 判断类分批治理（长程）
 

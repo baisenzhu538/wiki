@@ -89,8 +89,26 @@ def find_task(task_id: str, rows: list[dict] | None = None) -> dict | None:
     return None
 
 
+def _is_batch_task(task_id: str) -> bool:
+    """#492：任务单 frontmatter `batch: true` → 长程分批任务（批次提审不阻塞前方主线）。
+
+    #426（739 张 tags 分批）每批提审一次就卡住后方所有任务——batch 标记让
+    「批次提审」（验收后恢复 queued）与「整单提审」（终审闭环）可区分。
+    """
+    import re as _re
+    fp = Path(__file__).resolve().parent.parent.parent / "60_feedback" / "tasks" / f"{task_id}.md"
+    try:
+        text = fp.read_text(encoding="utf-8", errors="ignore")
+    except OSError:
+        return False
+    return bool(_re.search(r"^batch:\s*(true|True|1)\s*$", text, _re.M))
+
+
 def find_blockers(rows: list[dict] | None = None) -> tuple[list[dict], list[dict]]:
-    """Return (pending_review_tasks, claimed_tasks) that block queue advance."""
+    """Return (pending_review_tasks, claimed_tasks) that block queue advance.
+
+    #492：batch:true 任务的 pending_review 不阻塞前方（长程分批任务豁免）。
+    """
     if rows is None:
         rows = parse_queue()
     pending = []
@@ -98,7 +116,8 @@ def find_blockers(rows: list[dict] | None = None) -> tuple[list[dict], list[dict
     for row in rows:
         status = row["status"]
         if status == "pending_review":
-            pending.append(row)
+            if not _is_batch_task(row["task_id"]):  # #492：批次提审豁免
+                pending.append(row)
         elif status.startswith("claimed-"):
             claimed.append(row)
     return pending, claimed

@@ -7,6 +7,7 @@ from pathlib import Path
 SCRIPT_DIR = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(SCRIPT_DIR))
 
+import queue_gate as qg  # #492：can_claim batch 豁免测试
 import queue_transition as qt
 from queue_transition import (
     find_task_file,
@@ -602,3 +603,38 @@ class TestGateBlockedNoiseFilter(unittest.TestCase):
         """边界：测试件记录保留（E028 测试覆盖历史），只是换文件不丢弃。"""
         qt._log_gate_blocked("task_9999_test", "处置-硬门禁", "缺内容价值判断节")
         self.assertIn("task_9999_test", qt.GATE_BLOCKED_TEST_LOG.read_text(encoding="utf-8"))
+
+
+class TestBatchBlockingExemption(unittest.TestCase):
+    """#492（F-050 方案一）：batch:true 任务 pending_review 不阻塞前方；非 batch 仍阻塞。"""
+
+    def _rows(self, statuses):
+        """构造队列行：[(seq, task_id, status, assignee)]。"""
+        return [{"seq": str(seq), "task_id": tid, "name": n, "status": s,
+                 "assignee": a, "raw": f"| {seq} | `{tid}` | {n} | {s} | {a} |"}
+                for seq, (tid, n, s, a) in enumerate(statuses)]
+
+    def test_batch_pending_not_blocking(self):
+        # 前方 #426(batch:true, pending_review) + 后方任务 queued → 可领
+        rows = self._rows([
+            ("task_20260822_laowantong-tags-judgment-batch", "批次", "pending_review", "laowantong"),
+            ("task_20260824_laowantong-oral-spray", "主线", "queued", "laowantong"),
+        ])
+        ok, _ = qg.can_claim("task_20260824_laowantong-oral-spray", rows, "laowantong")
+        self.assertTrue(ok)
+
+    def test_normal_pending_still_blocking(self):
+        # 前方非 batch pending_review → 仍阻塞
+        rows = self._rows([
+            ("task_normal_pending", "整单", "pending_review", "laowantong"),
+            ("task_behind", "主线", "queued", "laowantong"),
+        ])
+        ok, _ = qg.can_claim("task_behind", rows, "laowantong")
+        self.assertFalse(ok)
+
+    def test_real_426_is_batch(self):
+        # #426 已加 batch:true（实证）
+        self.assertTrue(qg._is_batch_task("task_20260822_laowantong-tags-judgment-batch"))
+
+    def test_normal_task_not_batch(self):
+        self.assertFalse(qg._is_batch_task("task_20260823_huangyaoshi-role-routes"))
