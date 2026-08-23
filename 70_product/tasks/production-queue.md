@@ -118,7 +118,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 490 | `task_20260824_wangyuyan-codex-homes-switch-pilot` | codex-homes切换试点（F-048拍板P1-②）：风清扬先切+实测审计侧全量上下文闭环+跑通推广 | reviewed | wangyuyan | 切换编排+试点+推广 | #489 reviewed ✅ | `60_feedback/tasks/task_20260824_wangyuyan-codex-homes-switch-pilot.md` | 先补后切依赖#489；风清扬先切试点（观察者风险最低）；切换执行归王语嫣编排；推广前老朱确认；欧阳锋终审 |
 | 491 | `task_20260824_huangyaoshi-l1-volume-mirror-governance` | L1体积与镜像治理：去C盘镜像(老朱拍板01:23)+同hash去重+旧天目录压缩归档+日全量改周日全量日增量 | reviewed | huangyaoshi | 去镜像+去重+日增量+实测 | 无 | `60_feedback/tasks/task_20260824_huangyaoshi-l1-volume-mirror-governance.md` | 老朱01:23拍板去C镜像(diag_20260824_fengqingyang-l1-c-mirror-remove)+round2 §3体积风险(diag_20260824_fengqingyang-l1-audit-round2)；与#489同文件l1_capture.py注意合并冲突；风清扬审计验收；欧阳锋终审 |
 | 492 | `task_20260824_huangyaoshi-batch-blocking-exemption` | 长程分批任务阻塞豁免（F-050方案一）：can_claim跳过batch:true任务的pending_review阻塞+#426加batch标记 | reviewed | huangyaoshi | can_claim改+标记+单测 | 无 | `60_feedback/tasks/task_20260824_huangyaoshi-batch-blocking-exemption.md` | 老朱08-24拍板方案一；只改can_claim一处不动其他语义；只跳过batch任务非batch仍阻塞；与F-029同族不合并；欧阳锋终审 |
-| 493 | `task_20260824_laowantong-domain-reclassification` | 域归域治理：src-unknown/unknown补域(523张)+yitang来源降级(99张)+来源词/课程名清出tags(202张污染) | pending_review | laowantong | 补域+拆分+污染清理 | 无 | `60_feedback/tasks/task_20260824_laowantong-domain-reclassification.md` | 老朱08-24诊断yitang域太大(一堂是来源不是主题域)；与#484同族(来源不当域推到domain层)；只改frontmatter domain/source不动正文；归域是#426治理前置；欧阳锋终审 |
+| 493 | `task_20260824_laowantong-domain-reclassification` | 域归域治理：src-unknown/unknown补域(523张)+yitang来源降级(99张)+来源词/课程名清出tags(202张污染) | reviewed | laowantong | 补域+拆分+污染清理 | 无 | `60_feedback/tasks/task_20260824_laowantong-domain-reclassification.md` | 老朱08-24诊断yitang域太大(一堂是来源不是主题域)；与#484同族(来源不当域推到domain层)；只改frontmatter domain/source不动正文；归域是#426治理前置；欧阳锋终审 |
 | 494 | `task_20260824_huangyaoshi-aliases-pollution-checker` | aliases结构词污染检查器：tags-audit第6指标(结构词/路径词禁入aliases)+存量扫描清单 | reviewed | huangyaoshi | 检查器+清单+单测 | 无 | `60_feedback/tasks/task_20260824_huangyaoshi-aliases-pollution-checker.md` | 欧阳锋建议书裁定采纳；与#428/#431路径词同族合并治理；指标落点=tags-audit第6指标；存量清理归老顽童随#426/#493；欧阳锋终审 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
@@ -183,7 +183,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#492 task_20260824_huangyaoshi-batch-blocking-exemption｜huangyaoshi｜提审 08-24 02:21｜60_feedback/tasks/task_20260824_huangyaoshi-batch-blocking-exemption.md~~ → 已终审 PASS A-（2026-08-23 欧阳锋）
 - ~~#494 task_20260824_huangyaoshi-aliases-pollution-checker｜huangyaoshi｜提审 08-24 02:33｜60_feedback/tasks/task_20260824_huangyaoshi-aliases-pollution-checker.md~~ → 已终审 PASS A-（2026-08-23 欧阳锋）
 - ~~#490 task_20260824_wangyuyan-codex-homes-switch-pilot｜wangyuyan｜提审 08-24 03:12｜60_feedback/tasks/task_20260824_wangyuyan-codex-homes-switch-pilot.md~~ → 已终审 PASS A-（2026-08-23 欧阳锋）
-- #493 task_20260824_laowantong-domain-reclassification｜laowantong｜提审 08-24 03:14｜60_feedback/tasks/task_20260824_laowantong-domain-reclassification.md
+- ~~#493 task_20260824_laowantong-domain-reclassification｜laowantong｜提审 08-24 03:14｜60_feedback/tasks/task_20260824_laowantong-domain-reclassification.md~~ → 已终审 PASS A-（2026-08-23 欧阳锋）
 - ~~#426 task_20260822_laowantong-tags-judgment-batch｜laowantong｜提审 08-24 03:19｜60_feedback/tasks/task_20260822_laowantong-tags-judgment-batch.md~~ → 批次验收（A）（2026-08-24）
 
 <!-- REVIEW-PENDING-END -->

@@ -1,10 +1,13 @@
 ---
 id: 493
 assignee: laowantong
-status: pending_review
-updated_at: '2026-08-23T19:14:32.561713+00:00'
+status: reviewed
+updated_at: '2026-08-23T19:24:18.734265+00:00'
 version: v0.1
 instance: hermes
+reviewed_by: 欧阳锋
+review_date: '2026-08-23'
+grade: A-
 ---
 
 # #493 域归域治理（src-unknown/unknown 补域 + yitang 来源降级拆分）
@@ -99,3 +102,33 @@ instance: hermes
 **未做项**：26 张存量 frontmatter 异常卡（块标量 source_context）——已行级修复 domain（未重写整 frontmatter），如欧阳锋发现 YAML 问题单独修；tags 内容词补全仍归 #426（本单只清污染不补内容词）。
 
 **需要谁动作**：欧阳锋终审（抽归域准确性 + domain 残留归零）；王语嫣复核（无法判断 0 张 + 归域分布合理性）；老朱确认后 #426 按新域继续。
+
+---
+
+## 终审记录（欧阳锋 · 2026-08-24）
+
+**结论：PASS / A-**
+
+**对齐核验**：2119 张 frontmatter 改动 commit 入档；审查对象=文件系统当前态。
+
+**O0 逐条溯源**：
+1. **任务 1 yitang 拆分** ✅：独立复扫 **yitang 残留 0**（805 张处理：705 去 yitang 留主题域 + 100 纯 yitang 归 19 轴）；归域抽查 3 张高匹配（case-five-step→strategy / case-dental→healthcare+business-strategy / case-leo→research+sales——**domain 全真实主题域**）+ **source_context 承接来源可溯**（"一堂五步法壁垒篇"/"Live259 口述"归位 ✅）
+2. **任务 2 unknown 补域** ✅：独立复扫 **unknown/src-unknown 残留 0**（557 张归 19 轴）
+3. **任务 3 污染清理** ✅：354 张来源词清出——独立复扫 tags 残留仅"口述"（**来源轴受控词**——各域轴 words 收录，合规非漏清）；7 张候选经核实全为受控词（我的初查未排除受控词——双假设自查）
+4. **结构词补默认** ✅：419 张补 audience/scene/skill-level——独立复扫活跃卡缺 audience **0**（唯一 1 张在 30_wiki/_archive/ + status: superseded 废弃归档卡——报告"缺结构词 0"为活跃卡口径，🟠 声明精确性：应注明"活跃卡"）
+5. **回归** ✅：kdo index 4111 文档；抽查 pre-submit YAML 完整；26 张块标量 source_context 异常卡已行级修复（诚实声明）
+
+**发现问题**：
+- 🟠 报告"缺结构词 0"未注明活跃卡口径（归档/废弃卡 1 张除外——非治理遗漏）
+- 🔵 块标量 source_context 26 张行级修复（未重写整 frontmatter——如 YAML 问题单独修，诚实声明）
+
+**魔鬼代言人**：3 个月后最可能出问题——归域依赖卡名+正文主题词推断（0 无法判断但可能有误归——靠 #426 后续治理时 tags 与域不匹配暴露）；或来源词清出后 source_context 承载膨胀（可溯性 vs 字段超载）
+
+**存在性核查**（本意见书负向断言证据）：
+- 「残留归零」→ 核查：独立复扫 yitang 0/unknown 0/活跃卡缺 audience 0
+- 「归域准确性」→ 核查：3 卡 domain+source_context 逐卡读取（真实主题域+来源归位）
+- 「污染清理」→ 核查：tags 残留仅受控词（yaml words 收录实证）
+
+**残余风险**：归域误归靠后续治理暴露；source_context 膨胀观察；归档卡口径。
+
+*欧阳锋 · 2026-08-24 · A-*
