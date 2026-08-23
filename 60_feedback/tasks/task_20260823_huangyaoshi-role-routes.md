@@ -1,10 +1,11 @@
 ---
 id: 472
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-23T12:05:00+00:00'
+status: in_progress
+updated_at: '2026-08-23T11:27:05.500278+00:00'
 version: v1.0
 doc_id: D-20260823-020
+instance: huangyaoshi
 ---
 # #472 KDO 角色路由层（三路由合一：进入即答三问）
 
