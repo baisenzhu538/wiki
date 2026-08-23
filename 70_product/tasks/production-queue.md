@@ -99,6 +99,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 471 | `task_20260823_huangyaoshi-l1-capture-scheduling` | L1 采集投入运行最小闭环（P1：常驻调度30min+体积红线） | reviewed | huangyaoshi | 计划任务+体积监控+verify联动 | **老朱已拍板常驻注册（2026-08-23「L1 全量采集 30 分钟一跑」）——可开工** | `60_feedback/tasks/task_20260823_huangyaoshi-l1-capture-scheduling.md` | 与探针错峰；失败可见禁静默；L3=次日回放抽查；欧阳锋终审 |
 | 472 | `task_20260823_huangyaoshi-role-routes` | KDO 角色路由层（P1，三路由合一：任务/技能/知识——进入即答三问） | reviewed | huangyaoshi | myqueue命令+role-routes.md+CAPSULE v3 | 黄药师建议书采纳（#459 取代困惑=实证） | `60_feedback/tasks/task_20260823_huangyaoshi-role-routes.md` | myqueue 只读视图不动状态机；depends_on 字段新单起强制（F-047）；技能/知识静态表不过度工程；六角色各跑 myqueue 狗粮；欧阳锋终审 |
 | 473 | `task_20260823_huangyaoshi-file-flow-lint-residuals` | 文件流转 lint 遗留三项收口（P2：wiki 卡 L9 扫描/冻结基线动态化/lint 集成） | reviewed | huangyaoshi | 三项收口+单测 | 欧阳锋 #450 终审遗留项采纳 | `60_feedback/tasks/task_20260823_huangyaoshi-file-flow-lint-residuals.md` | L9 全库一次扫描（分钟级）；冻结基线走无状态方案；lint 集成可缓；欧阳锋终审 |
+| 474 | `task_20260823_huangyaoshi-tags-audit-fullscan` | 全库标签摸底体检（P1：四指标一次性扫描+标签健康并入 #425 常态监测） | queued | huangyaoshi | 体检报告+健康指标扩展+单测 | 老朱拍板立项（标签体系发现收口） | `60_feedback/tasks/task_20260823_huangyaoshi-tags-audit-fullscan.md` | 只读零修改；脏词率/来源轴覆盖/有轴域/空值率四指标；决策域已知答案做 L2 狗粮；治理批次后续按域排产；欧阳锋终审 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
 ## ⚖️ 待终审（提审任务，queue_transition 自动登记）
@@ -202,6 +203,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - [gate-blocked] task_9999_force-test｜08-23 19:31｜待王语嫣复核处置｜2026-08-23 19:29:12｜task_9999_force-test｜F-034-force无理由｜--force 未配 --reason（#444 例外留痕要求）｜wangyuyan
 - [gate-blocked] task_9999_test｜08-23 19:31｜待王语嫣复核处置｜2026-08-23 19:29:12｜task_9999_test｜处置-硬门禁｜disposal:true 缺「内容价值判断」节（PROTOCOL §7）｜task_9999_test
 - diag_20260823_ouyangfeng-task-docid-violation.md｜08-23 19:38｜待王语嫣复核裁定
+- diag_20260823_huangyaoshi-review-check-a-criteria.md｜08-23 19:58｜待王语嫣复核裁定
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
