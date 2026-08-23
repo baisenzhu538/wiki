@@ -1,8 +1,8 @@
 ---
 id: 441
 assignee: hermes
-status: in_progress
-updated_at: '2026-08-23T03:32:32.364792+00:00'
+status: pending_review
+updated_at: '2026-08-23T03:35:34.561364+00:00'
 ---
 # #441 角色专场第二场：欧阳锋岗位说明书定稿
 
