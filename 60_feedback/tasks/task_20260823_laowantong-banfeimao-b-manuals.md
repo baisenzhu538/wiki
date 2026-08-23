@@ -1,10 +1,11 @@
 ---
 id: 466
 assignee: laowantong
-status: queued
-updated_at: '2026-08-23T13:00:00+00:00'
+status: in_progress
+updated_at: '2026-08-23T10:23:21.610442+00:00'
 version: v1.0
 doc_id: D-20260823-011
+instance: hermes
 ---
 # #466 半肥猫素材 B 档：实操手册 3 份（拿到就能用）
 
