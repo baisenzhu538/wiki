@@ -31,6 +31,9 @@ SCRIPTS = WIKI / "90_control" / "scripts"
 KDO_TOOLS = Path(__file__).resolve().parent
 MEM = Path.home() / ".kdo-memory"
 D_MEM = Path("D:/KDO-memory")
+INVENTORY_FILE = WIKI / "90_control" / "infrastructure-inventory.md"
+# 一次性批模式（总表 §8 标记族）——对照时跳过，不重复报"未登记"
+ONESHOT_PATTERNS = ("fix", "repair", "migrate", "update_", "batch", "rebuild", "clean", "purge", "legacy", "cleanup")
 
 # 资产清单：位置 + 名称 + 健康检查函数
 def _file_ok(p: Path) -> bool:
@@ -65,6 +68,49 @@ def _port_open(port: int) -> bool:
         return False
     finally:
         s.close()
+
+
+def _inventory_assets() -> set[str]:
+    """从总表解析已登记资产名（总表=唯一真相源——登记=存在，#488 维护纪律）。"""
+    import re
+    names = set()
+    try:
+        text = INVENTORY_FILE.read_text(encoding="utf-8", errors="ignore")
+    except OSError:
+        return names
+    for line in text.splitlines():
+        if line.startswith("| ") and not line.startswith("|:") and not line.startswith("| 域"):
+            m = re.match(r"\| ([a-z_][a-z0-9_/\- ]*?) \|", line)  # 资产表第一列（可含 "/" 多名）
+            if m:
+                for name in m.group(1).split("/"):
+                    name = name.strip()
+                    if re.fullmatch(r"[a-z_][a-z0-9_-]*", name):
+                        names.add(name)
+        elif line.startswith("- ") and "—" in line:
+            # §3b 辅助族成员行：`- name — 职责`（可含 "/" 多名）
+            for name in line[2:].split("—")[0].strip().split("/"):
+                name = name.strip()
+                if re.fullmatch(r"[a-z_][a-z0-9_-]*", name):
+                    names.add(name)
+    return names
+
+
+def check_inventory_coverage() -> list[str]:
+    """#488 维护纪律机械化：扫描核心脚本目录与总表对照——未登记新组件=未登记（黄灯）。
+
+    排除：_tmp_*（临时）/ 一次性批模式（总表 §8 标记族，不重复报）。"""
+    known = _inventory_assets()
+    unregistered = []
+    for d in (KDO_TOOLS, SCRIPTS):
+        for fp in sorted(d.glob("*.py")):
+            name = fp.stem
+            if name.startswith("_tmp") or name.startswith("__"):
+                continue
+            if any(p in name.lower() for p in ONESHOT_PATTERNS) and name not in known:
+                continue
+            if name not in known:
+                unregistered.append(name)
+    return unregistered
 
 
 ASSETS: list[tuple[str, str, object]] = [
@@ -125,9 +171,11 @@ def main() -> int:
 
     results = [_check(a) for a in ASSETS]
     reds = [r for r in results if r[2] == "🔴"]
+    unregistered = check_inventory_coverage()
     if args.json:
         print(json.dumps(
             {"assets": [{"name": n, "kind": k, "status": s} for n, k, s in results],
+             "unregistered": unregistered,
              "red": len(reds), "total": len(results)},
             ensure_ascii=False, indent=2))
         return 1 if reds else 0
@@ -135,6 +183,11 @@ def main() -> int:
     print(f"# 基建资产健康快照（#488 · {len(results)} 项）")
     for name, kind, status in results:
         print(f"  {status} [{kind}] {name}")
+    print(f"\n🟡 未登记资产 {len(unregistered)} 个（#488 维护纪律：新增组件必须登记入表=不存在）")
+    for name in unregistered[:15]:
+        print(f"    - {name}")
+    if len(unregistered) > 15:
+        print(f"    - …共 {len(unregistered)} 个")
     print(f"\n红灯 {len(reds)}/{len(results)}" + ("（需人工核查）" if reds else "（全绿）"))
     return 1 if reds else 0
 

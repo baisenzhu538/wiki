@@ -50,3 +50,25 @@ class TestSnapshotRun(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestInventoryCoverage(unittest.TestCase):
+    def test_core_assets_registered(self):
+        """总表登记覆盖：核心资产名可被解析（含斜杠多名行）。"""
+        known = is_._inventory_assets()
+        for core in ("queue_transition", "conveyor_probe", "memory_capsule",
+                     "web_search", "infra-status", "sync-hermes-mcp", "scan-ppt-gaps"):
+            self.assertIn(core, known, f"{core} 应已登记入总表")
+
+    def test_no_unregistered_core_assets(self):
+        """对照检查：核心目录无未登记资产（登记纪律机械化为零缺口）。"""
+        unreg = is_.check_inventory_coverage()
+        self.assertEqual(unreg, [], f"未登记资产: {unreg}")
+
+    def test_oneshot_patterns_skipped(self):
+        """一次性批模式（fix-* 等）不报未登记（总表 §8 标记族）。"""
+        known = is_._inventory_assets()
+        # fix-yaml-errors-batch 类未在总表但模式匹配=跳过
+        self.assertNotIn("fix-yaml-errors-batch", known)  # 不在总表
+        unreg = is_.check_inventory_coverage()
+        self.assertNotIn("fix-yaml-errors-batch", unreg)  # 也不报（一次性模式跳过）

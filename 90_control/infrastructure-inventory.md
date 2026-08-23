@@ -81,6 +81,53 @@ audience: 全体 agent
 | collect_wechat / wechat_knowledge / wechat_link_monitor | kdo-tools/wechat_*.py | 视频号偶遇采集管线 | 08-17 全自动链路 | 计划任务 wechat-link-monitor |
 | skill_crystallize / skill_lifecycle / distill-own-skill | kdo-tools/skill_*.py | 技能结晶/生命周期 | 按需 | skills |
 
+## 3b · 辅助工具族（#488 登记纪律存量补登记，按族）
+
+> 核心常驻见 §3；本族为辅助/按需工具（存在性登记，维护人=黄药师；职责见各自 docstring）。
+
+**kdo-tools 辅助族**：
+- agent-activity-check — Agent 活跃度检查
+- agent-prompt-compiler — Agent prompt 编译
+- agent-status — Agent 状态
+- agent-trace — Agent trace 回放
+- aesthetic-library-builder — 审美库构建
+- audit-review-integrity — 审查完整性审计
+- canvas-agent — 画布 Agent
+- card-reader — 卡读取
+- decision_add — 决策录入
+- dedup_sources — 素材去重
+- douyin_cookie_extract — 抖音 Cookie 提取
+- douyin_user_videos — 抖音用户视频
+- flywheel-export — Y 模型导出
+- hermes-profile-guard — Hermes profile 防护
+- infra-status — 基建健康快照（#488）
+- mcp-reachability-check — MCP 可达性
+- research_adapter — 调研适配
+- scan-demo-sections — demo 节扫描
+- scan-profit-demo-sections — 利润 demo 节扫描
+- scan-ppt-gaps — PPT 缺口扫描
+- sync-hermes-mcp — MCP 配置渲染同步（#326 单一真相源）
+- test_feature_menu — Feature 菜单测试
+- transcript-index — 口述稿索引
+- transcript-registry — 口述稿注册
+- web_fetch / web_search / collect_wechat / wechat_knowledge / wechat_link_monitor / wechat_promote — 采集检索族（§3 已列，解析别名）
+
+**90_control/scripts 辅助族**：
+- audit-kcard-baseline / card_review_checklist / changeset_audit / case-synthesis-check / bulk-generate-case-card — 卡质量辅助
+- backup-sqlite / vault-backup / vault-snapshot — 备份与快照
+- build_graph_index — 图索引构建
+- check-yaml-related / check_dead_links / check_p0a_yaml / check_skill_cards — 链接/YAML 检查
+- count_wiki_islands / cross_domain_audit / domain-decompression-audit / query-domain / scaffold-domain-index — 域辅助
+- init_flywheel / init_zhu_personal_domain — 初始化
+- kcard-diff-new-vs-existing / kcard-refinement-grader / kcard-simulate-feedback — 卡精修辅助
+- normalize-tag-registry — 标签注册归一
+- review_mark — 审查标记
+- rule-gate-inventory — 规则门禁盘点
+- run_agent_spec_tests / run_v11_retests — spec 测试
+- source-id-registry — 源 ID 注册
+- stage4-trust-layer-audit / stage4-trust-layer-fix — 信任层审计
+- summarize-agent-contexts — Agent context 摘要
+
 ## 4 · 服务
 
 | 服务 | 位置 | 职责 | 健康 |
