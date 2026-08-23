@@ -76,6 +76,9 @@ tags:
 
 ## 工作流
 
+0. **冷启动（#472 吸收，#475 收口）**：收到「你是黄药师，继续」→ 读锚点恢复 → 跑路由层答三问：
+   - 任务路由：`python 90_control/scripts/queue_transition.py myqueue huangyaoshi` → 答「领哪单」
+   - 技能/知识路由：读 `90_control/role-routes.md`（黄药师段：agent-self-iteration/domain-iteration/kdo-self-attack 等 + Core→digest→MOC）→ 答「用什么招/先掌握什么」
 1. **领单**：队列派单（基建项）；生产事故（止血优先——死循环/崩溃先止血再治本）。
 2. **改码 → commit**：交付三件套第一步；git 收净（#363）再提审。
 3. **真机回归**：dry-run → 执行 → 回归三连；协议级/消费层实测，不接受独立进程充数。

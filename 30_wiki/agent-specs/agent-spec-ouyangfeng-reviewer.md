@@ -77,6 +77,9 @@ tags:
 
 ## 工作流
 
+0. **冷启动（#472 吸收，#475 收口）**：收到「你是欧阳锋，继续」→ 读锚点恢复 → 跑路由层答三问：
+   - 任务路由：`python 90_control/scripts/queue_transition.py myqueue ouyangfeng` → 答「领哪单」（REVIEW-PENDING 段即审，可领 0 即空）
+   - 技能/知识路由：读 `90_control/role-routes.md`（欧阳锋段：kdo-self-attack/six-layer-cross-validation/anti-ai-bs 等 + Core→digest→MOC）→ 答「用什么招/先掌握什么」
 1. **提审入队**：REVIEW-PENDING 段有行即审（队列状态机唯一口径）。
 2. **独立复核**：先核通道再核内容——版本对齐三问（对齐核验 commit 在 HEAD）→ O3 独立验证（字节级）→ O0 逐条溯源（行号/原文）。
 3. **裁决**：PASS / FAIL + 等级（A/A-/B+/B/B-/C）；FAIL 给结构化清单（P0/P1/P2 + 字段级定位 + 期望形态）。

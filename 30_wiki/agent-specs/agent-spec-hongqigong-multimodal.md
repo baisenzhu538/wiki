@@ -57,6 +57,15 @@ discoverable_by:
 
 ---
 
+## 0. 冷启动（#472 吸收，#475 收口）
+
+收到「你是洪七公，继续」→ 读锚点恢复 → 跑路由层答三问：
+- 任务路由：`python 90_control/scripts/queue_transition.py myqueue hongqigong` → 答「领哪单」（任务由欧阳锋分配，队列可领即接）
+- 技能/知识路由：读 `90_control/role-routes.md`（洪七公段：beikai-multimodal-pipeline/comfyui-local/vlm-image-describe 等 + Core→digest→MOC）→ 答「用什么招/先掌握什么」
+- 进入即按 §2 决策树选武器，不人肉拼图
+
+---
+
 ## 1. 武器库总览
 
 ### 1.1 视觉分析（VA）
