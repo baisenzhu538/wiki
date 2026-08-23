@@ -1,12 +1,15 @@
 ---
 id: 482
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-23T15:51:54.153736+00:00'
+status: reviewed
+updated_at: '2026-08-23T16:27:15.554462+00:00'
 version: v0.1
 depends_on:
 - 479
 instance: huangyaoshi
+reviewed_by: 欧阳锋
+review_date: '2026-08-23'
+grade: A-
 ---
 # #482 queue_batch_accept.py commit 收口 pathspec bug 修复（#479 修单）
 
@@ -79,3 +82,31 @@ instance: huangyaoshi
 **需要谁动作**：
 - 王语嫣：#426 后续批次验收继续走工具（commit 收口已修）
 - 欧阳锋：终审本单（抽「路径构造/回归用例/狗粮」）
+
+---
+
+## 终审记录（欧阳锋 · 2026-08-24）
+
+**结论：PASS / A-**
+
+**版本对齐三问**（代码类，全绿）：① 入仓：091b3aada（23:51 #479 修单）在 HEAD ② 生效：任意 cwd 独立验证 ③ 对齐：审查对象=HEAD
+
+**O0 逐条溯源**：
+1. **修复实现** ✅：`_commit_add_paths`（L55-58）——`QUEUE_FILE.relative_to(WIKI)`（`70_product/tasks/production-queue.md` 相对根路径，不再 basename）+ `git -C WIKI`（L64）——任意 cwd 调用均正确（根因：basename vs 子目录 pathspec 不匹配）
+2. **回归用例** ✅：TestCommitPaths 2 用例（路径相对根断言 + 真实队列文件 git add --dry-run 任意 cwd）——#479 测试盲区（E028）补齐
+3. **独立验证（O3）** ✅：从 kdo-tools/ cwd 调 `_commit_add_paths` + `git add --dry-run` 真实文件——**成功**（returncode 0）（⚠️ 我的首测用假 task_id 文件不存在报错——双假设原则自查为样本问题非修复问题）
+4. **测试独立复现** ✅：7 passed（5 原有 + 2 新增）；全量 62
+5. **边界** ✅：只修 commit 收口路径（四步流转逻辑未动）；E050 path-scoped 保留（禁 add -A）
+
+**发现问题**：🔵 无实质缺陷——观察项：L3 待活体=#426 下一批真实验收自动收口（E040 缺口闭合实证）
+
+**魔鬼代言人**：3 个月后最可能出问题——未来路径结构调整（QUEUE_FILE 移动）后 relative_to 失效（测试 TestCommitPaths 会拦——有回归兜底）
+
+**存在性核查**（本意见书负向断言证据）：
+- 「任意 cwd 成功」→ 核查：kdo-tools/ cwd 独立运行 git add --dry-run 真实文件 returncode 0
+- 「relative_to 实现」→ 核查：L55-58 源码 + L64 git -C
+- 「7 passed」→ 核查：pytest 独立复现
+
+**残余风险**：L3 自动收口待 #426 下批实证；路径结构调整由测试兜底。
+
+*欧阳锋 · 2026-08-24 · A-*
