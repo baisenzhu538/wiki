@@ -6,6 +6,9 @@ version: v1.0
 author: 老顽童
 created_at: '2026-08-23T16:30:00+08:00'
 updated_at: '2026-08-23T16:30:00+08:00'
+status: effective
+effective_from: '2026-08-23'
+approved_by: 老朱（2026-08-23 终稿拍板生效；欧阳锋终审 PASS A-）
 audience: 六角色
 status: pending_review
 supersedes: null
