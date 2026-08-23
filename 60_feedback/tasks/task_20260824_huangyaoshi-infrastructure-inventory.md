@@ -1,9 +1,10 @@
 ---
 id: 488
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-24T01:45:00+08:00'
+status: in_progress
+updated_at: '2026-08-23T17:08:52.753163+00:00'
 version: v0.1
+instance: huangyaoshi
 ---
 # #488 基建资产总表建设（infrastructure-inventory.md——识别靠表不靠记忆）
 
