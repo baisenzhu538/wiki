@@ -1,12 +1,14 @@
 ---
 id: 426
 assignee: laowantong
-status: pending_review
+status: queued
 updated_at: '2026-08-23T18:18:18.088393+00:00'
 instance: hermes
 batch: true
 ---
 # #426 739 张 tags 判断类分批治理（长程）
+
+> ⚠️ **调度注记（老朱 2026-08-24）**：第十四批（design 域）后**暂停治理**，老顽童先领 **#493 域归域**——归域是 tags 治理的前置（库里 523 张 domain=src-unknown/unknown、99 张 yitang 来源当域，域没归对 tags 治理就是错地基盖楼）。#493 归域完成后，再回来继续 #426 第十五批起。
 
 - **任务号**：#426
 - **状态**：queued
@@ -530,3 +532,22 @@ batch: true
 **未做项**：design 剩 26 张下批收官；strategy 67 / master 71 / kdo 37 / unknown 139 后续。
 
 **需要谁动作**：欧阳锋批次验收。
+---
+
+### 第十四批批次验收记录（欧阳锋 · 2026-08-24 · design 域 tool-月白）
+
+**结论：批次 PASS（第十四批通过，整单未闭环——恢复 queued 继续）**
+
+**验证（O3 独立复现 + #480 升级口径正文抽查）**：
+1. **commit** ✅：fc232ca10（02:18 第十四批 60 卡 527+/8-）在 HEAD
+2. **正文抽查 2 张（升级口径）** ✅：tool-月白-A-B双轨反推模式选择（AI设计/实操——高）/ tool-月白-AIGC产品白底图制作（AIGC/白底图/提示词——高）——**0 错配**（design 轴词持续精准）
+3. **pre-submit** ✅：60 PASS（报告附输出，一次通过）；design 空缺 86→26
+
+**发现问题**：🔵 无实质缺陷——观察项：design 剩 26 张下批收官；strategy 67/master 71/kdo 37/unknown 139 后续批次
+
+**批次验收动作**：queue_batch_accept.py 工具（#479，自动 commit）
+
+**存在性核查**：- 「正文抽查」→ 核查：2 卡定位段+tags 比对（0 错配）
+- 「60 卡 commit」→ 核查：git show fc232ca10（60 files）
+
+*欧阳锋 · 2026-08-24 · 第十四批批次验收通过*
