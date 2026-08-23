@@ -63,12 +63,12 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 </head>
 <body>
 <h1>KDO 生产看板</h1>
-<p class="subtitle">production-queue.md · 自动生成于 2026-08-23 23:12</p>
+<p class="subtitle">production-queue.md · 自动生成于 2026-08-23 23:36</p>
 
 <div class="stats">
-<div class="stat queued"><div class="stat-num">5</div><div class="stat-label">待领取 Queued</div></div>
-<div class="stat pending"><div class="stat-num">1</div><div class="stat-label">审查中 Review</div></div>
-<div class="stat active"><div class="stat-num">0</div><div class="stat-label">进行中 Active</div></div>
+<div class="stat queued"><div class="stat-num">8</div><div class="stat-label">待领取 Queued</div></div>
+<div class="stat pending"><div class="stat-num">0</div><div class="stat-label">审查中 Review</div></div>
+<div class="stat active"><div class="stat-num">1</div><div class="stat-label">进行中 Active</div></div>
 <div class="stat done"><div class="stat-num">58</div><div class="stat-label">已完成 Done</div></div>
 <div class="stat owner"><div class="stat-num">4</div><div class="stat-label">活跃角色</div></div>
 </div>
@@ -80,7 +80,7 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 
 
 <div class="task-group">
-<div class="group-header pending">审查中 · 等待欧阳锋</div>
+<div class="group-header queued">待领取</div>
 <div class="task-card">
 <div class="task-prio p2">P2</div>
 <div class="task-info">
@@ -92,9 +92,6 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 <span class="task-assignee laowantong">老顽童</span>
 </div>
 </div>
-</div>
-<div class="task-group">
-<div class="group-header queued">待领取</div>
 <div class="task-card">
 <div class="task-prio p3">P3</div>
 <div class="task-info">
@@ -104,17 +101,6 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 </div>
 <div class="task-meta">
 <span class="task-assignee wangyuyan">王语嫣</span>
-</div>
-</div>
-<div class="task-card">
-<div class="task-prio p2">P2</div>
-<div class="task-info">
-<div class="task-id">#469</div>
-<div class="task-title">拆书会《成瘾》知识生产（P2，人域4卡：天平/DOPAMINE框架/自我约束/以痛治痛）</div>
-<div class="task-detail">卡3=KDO门禁同构卡（物理/时间/分类 vs 台账/冻结/分层对照）核心抽验；转述二等标注原书；拆书会系列常态化待老朱；欧阳锋终审</div>
-</div>
-<div class="task-meta">
-<span class="task-assignee laowantong">老顽童</span>
 </div>
 </div>
 <div class="task-card">
@@ -150,6 +136,53 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 <span class="task-assignee laowantong">老顽童</span>
 </div>
 </div>
+<div class="task-card">
+<div class="task-prio p1">P1</div>
+<div class="task-info">
+<div class="task-id">#482</div>
+<div class="task-title">queue_batch_accept.py commit收口pathspec bug修复(#479修单,两次实证)</div>
+<div class="task-detail">P1 #426线(E040收口风险);不动四步流转逻辑;依赖#479;欧阳锋终审</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee huangyaoshi">黄药师</span>
+</div>
+</div>
+<div class="task-card">
+<div class="task-prio p1">P1</div>
+<div class="task-info">
+<div class="task-id">#483</div>
+<div class="task-title">gate-blocked.log测试噪声过滤(防第五探针误报)</div>
+<div class="task-detail">P2日志质量;task_9999_*测试噪声与真实拦截分离;不动gate-blocked真实逻辑;欧阳锋终审</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee huangyaoshi">黄药师</span>
+</div>
+</div>
+<div class="task-card">
+<div class="task-prio p2">P2</div>
+<div class="task-info">
+<div class="task-id">#484</div>
+<div class="task-title">tags-audit来源形态词黑名单检查(#474扩展,第5指标来源词污染率)</div>
+<div class="task-detail">P2 tags质量;排队#482→#483→#484禁同轮≥3;已有规则(来源名禁入tags)工具化为检查器;不动#474主体;欧阳锋终审</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee huangyaoshi">黄药师</span>
+</div>
+</div>
+</div>
+<div class="task-group">
+<div class="group-header active">进行中</div>
+<div class="task-card">
+<div class="task-prio p2">P2</div>
+<div class="task-info">
+<div class="task-id">#469</div>
+<div class="task-title">拆书会《成瘾》知识生产（P2，人域4卡：天平/DOPAMINE框架/自我约束/以痛治痛）</div>
+<div class="task-detail">卡3=KDO门禁同构卡（物理/时间/分类 vs 台账/冻结/分层对照）核心抽验；转述二等标注原书；拆书会系列常态化待老朱；欧阳锋终审</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee laowantong">老顽童</span>
+</div>
+</div>
 </div>
 <div class="task-group">
 <div class="group-header done">已完成 · 终审评级</div>
@@ -166,7 +199,7 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 </div>
 </div>
 
-<header style="display:none"><!-- generated-by: generate-dashboard.py · updated_at: 2026-08-23 23:12 · git_head: 2761e4d7e --></header>
-<footer>KDO 知识工厂 · 由 generate-dashboard.py 自动生成 · 2026-08-23 23:12</footer>
+<header style="display:none"><!-- generated-by: generate-dashboard.py · updated_at: 2026-08-23 23:36 · git_head: cf923dea3 --></header>
+<footer>KDO 知识工厂 · 由 generate-dashboard.py 自动生成 · 2026-08-23 23:36</footer>
 </body>
 </html>

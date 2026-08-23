@@ -1,9 +1,10 @@
 ---
 id: 466
 assignee: laowantong
-status: queued
-updated_at: '2026-08-23T14:05:00+00:00'
+status: in_progress
+updated_at: '2026-08-23T15:36:07.357164+00:00'
 version: v1.0
+instance: hermes
 ---
 # #469 拆书会《成瘾》知识生产（人域 4 卡：精选连接 KDO）
 
