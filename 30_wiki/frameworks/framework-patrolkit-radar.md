@@ -25,9 +25,11 @@ aliases:
 - 楚门-AI知识管理探索营-口述.txt
 - AI知识库
 tags:
-- audience:manager
-- scene:planning
-- skill-level:advanced
+  - audience:manager
+  - scene:planning
+  - skill-level:advanced
+  - 知识库
+  - Agent
 source_person: 楚门
 source_context: AI×知识管理探索营（2026-08-15 晚直播）——在测系统（015759 已人工核验 1 处纠偏 + L3290-3346）
 source_refs:

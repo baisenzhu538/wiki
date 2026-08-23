@@ -32,9 +32,12 @@ related:
 - '[[sk-ai-evidence-check]]'
 - '[[tool-ai-parallel-validation]]'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:beginner
+  - audience:executor
+  - scene:execution
+  - skill-level:beginner
+  - 上下文
+  - 工具
+  - 方法
 ---
 # 技能：AI输出证据核查三问法
 

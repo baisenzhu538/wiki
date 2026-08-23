@@ -4,6 +4,7 @@ title: 老朱代码库AI编排项目
 type: system
 status: enriched
 created_at: 2026-07-05
+reviewed_by: 待审
 updated_at: 2026-07-05
 domain:
 - personal-os
@@ -16,9 +17,15 @@ related:
 - '[[user-insight-profile]]'
 - '[[opc-ai-sales-agent-architecture]]'
 tags:
-- audience:builder
-- scene:howto
-- skill-level:advanced
+  - audience:builder
+  - scene:howto
+  - skill-level:advanced
+  - Agent
+  - 上下文
+  - 协作
+  - 工具
+  - 实证
+  - 迭代
 discoverable_by:
 - 代码库编排
 - AI开发工作流

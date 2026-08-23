@@ -47,9 +47,13 @@ quality_labels:
 updated_at: '2026-06-30'
 created_at: '2026-06-30'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 机制
+  - 框架
+  - 工具
+  - 逐字稿
 ---
 # AI 预测来源验证检查单
 

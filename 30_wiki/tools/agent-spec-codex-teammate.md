@@ -26,6 +26,12 @@ source_refs:
 - 00_inbox/AI前哨站第2集/水水-AI前哨-第二期-口述.txt
   - src_unknown
   - src_unknown
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - Agent
+  - 协作
 discoverable_by:
   - Codex 队友式使用规范
   - 队友式使用规范

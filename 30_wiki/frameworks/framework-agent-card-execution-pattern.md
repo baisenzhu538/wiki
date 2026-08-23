@@ -4,6 +4,7 @@ title: Agent 执行模式：从卡片到可执行动作
 type: framework
 status: draft
 author: 黄药师
+reviewed_by: 待审
 created_at: 2026-07-04
 updated_at: 2026-07-04
 confidence: 0.8
@@ -25,16 +26,21 @@ related:
 - '[[agent-spec-dual-triangle-canvas-filler]]'
 - '[[tool-opc-sales-dialogue-assistant]]'
 - '[[system-yitang-Y-model-os]]'
-- '[[agents/agent-os]]'
+- '[[agent-os]]'
 - '[[concept-yihang-dual-triangle-core]]'
 discoverable_by:
 - "Agent执行模式"
 - "卡片到可执行动作"
 - "Agent卡片执行"
 tags:
-- audience:ceo
-- scene:diagnosis
-- skill-level:intermediate
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:intermediate
+  - Agent
+  - 框架
+  - 工具
+  - 边界
+  - 迭代
 ---
 
 # Agent 执行模式：从卡片到可执行动作

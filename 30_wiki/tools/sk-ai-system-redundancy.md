@@ -16,9 +16,11 @@ discoverable_by:
   - 技能：系统冗余度快速检查清单
   - 系统冗余度快速检查清单
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 协作
+  - 边界
 created_at: '2026-06-06'
 updated_at: '2026-06-18'
 tools_required: null

@@ -53,9 +53,14 @@ related:
 - '[[tool-agent-spec-yitang-Y-model-coach]]'
 - '[[tool-yitang-sales-toolkit-radar]]'
 tags:
-- audience:manager
-- scene:reference
-- skill-level:intermediate
+  - audience:manager
+  - scene:reference
+  - skill-level:intermediate
+  - 工作流
+  - 协作
+  - 框架
+  - 工具
+  - 迭代
 discoverable_by:
 - 人机协作域
 - 双三角域

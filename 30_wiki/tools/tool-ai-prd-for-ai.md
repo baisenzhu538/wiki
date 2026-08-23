@@ -140,9 +140,11 @@ related:
 - '[[sk-ai-prd-for-ai]]'
 - '[[tool-讲香十指模型-超级武器库]]'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 协作
+  - 工具
 ---
 # 技能：把PRD写成AI能执行的指令
 

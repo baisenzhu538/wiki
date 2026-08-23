@@ -34,9 +34,11 @@ related:
 - '[[sk-ai-purpose-bias-check]]'
 - '[[tool-ai-purpose-bias-check]]'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:beginner
+  - audience:executor
+  - scene:execution
+  - skill-level:beginner
+  - 工具
+  - 方法
 ---
 # 技能：你的方案有叙事力吗？快速测试
 

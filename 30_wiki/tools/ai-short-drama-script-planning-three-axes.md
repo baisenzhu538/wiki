@@ -42,9 +42,11 @@ related:
 - '[[ai-short-drama-conflict-three-axes]]'
 - '[[dk-p15-unverified]]'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 框架
+  - 工具
 diagnostic_signals:
 - framework_lens: 第一板斧·剧本基地
   follow_up_question: 你是否先给了 AI 一份包含题材、主角、欲望、阻碍、场景的剧本基地？

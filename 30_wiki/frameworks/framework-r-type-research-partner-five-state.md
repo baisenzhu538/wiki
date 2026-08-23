@@ -52,11 +52,16 @@ related:
 - '[[framework-yitang-research-radar]]'
 - '[[tool-wechat-transcript-automation-workflow]]'
 tags:
-- audience:manager
-- audience:executor
-- scene:planning
-- scene:execution
-- skill-level:intermediate
+  - audience:manager
+  - audience:executor
+  - scene:planning
+  - scene:execution
+  - skill-level:intermediate
+  - Agent
+  - 工具
+  - 方法
+  - 边界
+  - 口述
 ---
 
 # R 型研究 Partner 五状态机：从课题到知识资产

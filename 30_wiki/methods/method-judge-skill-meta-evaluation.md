@@ -39,9 +39,16 @@ quality_labels:
 - principle
 - validated
 tags:
-- audience:general
-- scene:diagnosis
-- skill-level:advanced
+  - audience:general
+  - scene:diagnosis
+  - skill-level:advanced
+  - 知识库
+  - Agent
+  - 提示词
+  - 机制
+  - 框架
+  - 边界
+  - 迭代
 discoverable_by:
 - 判断力评估
 - 元评估

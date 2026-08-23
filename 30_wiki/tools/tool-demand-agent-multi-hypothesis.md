@@ -33,9 +33,13 @@ related:
 - tool-yitang-amazon-bestseller
 updated_at: '2026-06-29'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:advanced
+  - audience:executor
+  - scene:execution
+  - skill-level:advanced
+  - Agent
+  - 工具
+  - 方法
+  - 边界
 ---
 # Agent L3多假设并行
 

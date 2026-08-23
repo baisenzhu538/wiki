@@ -38,9 +38,10 @@ related:
 - '[[ai-short-drama-ice-fire-dissection-compass]]'
 - '[[ai-short-drama-script-planning-three-axes]]'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 工具
 diagnostic_signals:
 - framework_lens: 第一板斧·外在阵营立分明
   follow_up_question: 反派的阵营立场是否有清晰的利益、价值观或身份逻辑？

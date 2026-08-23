@@ -32,9 +32,10 @@ related:
 - '[[sk-ai-purpose-bias-check]]'
 - tool-ai-narrative-test
 tags:
-- audience:executor
-- scene:execution
-- skill-level:beginner
+  - audience:executor
+  - scene:execution
+  - skill-level:beginner
+  - 工具
 ---
 # 技能：目的论偏差快速识别法
 

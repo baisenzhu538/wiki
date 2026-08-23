@@ -37,9 +37,12 @@ related:
 - '[[framework-yitang-research-weapon-supplement-2026]]'
 updated_at: '2026-06-29'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:advanced
+  - audience:executor
+  - scene:execution
+  - skill-level:advanced
+  - Agent
+  - MCP
+  - 工具
 ---
 # Agent原生调研工具总览
 

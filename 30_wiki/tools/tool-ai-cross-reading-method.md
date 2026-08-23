@@ -43,9 +43,11 @@ quality_labels:
 updated_at: '2026-06-30'
 created_at: '2026-06-30'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 工具
+  - 逐字稿
 ---
 # 交叉阅读法
 

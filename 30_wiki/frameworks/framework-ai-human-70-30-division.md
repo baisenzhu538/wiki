@@ -42,11 +42,17 @@ related:
 - case-cross-xingangwan-pharma
 - '[[dk-research-important-things-must-do]]'
 tags:
-- audience:manager
-- audience:executor
-- scene:planning
-- scene:execution
-- skill-level:intermediate
+  - audience:manager
+  - audience:executor
+  - scene:planning
+  - scene:execution
+  - skill-level:intermediate
+  - 协作
+  - 工具
+  - 方法
+  - 边界
+  - 实证
+  - 口述
 ---
 
 # 70% AI / 30% 人：爆炸式调研的分工地图

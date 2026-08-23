@@ -31,9 +31,11 @@ related:
 - '[[sk-ai-old-small-checklist]]'
 - '[[tool-ai-prd-for-ai]]'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:beginner
+  - audience:executor
+  - scene:execution
+  - skill-level:beginner
+  - 工具
+  - 方法
 ---
 # 技能：“找老的干小的”场景评估清单
 

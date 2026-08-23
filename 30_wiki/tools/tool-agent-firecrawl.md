@@ -19,6 +19,13 @@ aliases:
 - 专为LLM设计的Web抓取API
 - 设计的
 source_refs: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - RAG
+  - Agent
+  - MCP
 discoverable_by:
 - Firecrawl：专为LLM设计的Web抓取API
 - 专为LLM设计的Web抓取API

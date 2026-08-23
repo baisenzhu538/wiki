@@ -19,8 +19,9 @@ related:
 created_at: 2026-07-08
 updated_at: 2026-07-08
 tags:
-- audience:executor
-- scene:execution
+  - audience:executor
+  - scene:execution
+  - Agent
 ---
 
 # Agent Spec → 可运行 Agent 部署路径 Runbook

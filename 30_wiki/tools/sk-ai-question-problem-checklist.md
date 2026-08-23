@@ -17,9 +17,13 @@ discoverable_by:
   - 技能：提问题转化三问清单
   - 提问题转化三问清单
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 工作流
+  - 提示词
+  - 协作
+  - 边界
 created_at: '2026-06-06'
 updated_at: '2026-06-18'
 tools_required: null

@@ -35,9 +35,12 @@ related:
 - case-decision-ai-assisted-vs-human
 - '[[voice-input-doubao]]'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:beginner
+  - audience:executor
+  - scene:execution
+  - skill-level:beginner
+  - 提示词
+  - 工具
+  - 口述
 ---
 # 技能：用口喷输入法生成高质量 AI 提示词
 

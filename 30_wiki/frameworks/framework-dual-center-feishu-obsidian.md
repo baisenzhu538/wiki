@@ -26,9 +26,13 @@ aliases:
 - OCR_一堂DOC-20260816015655.md
 - AI知识库
 tags:
-- audience:manager
-- scene:planning
-- skill-level:intermediate
+  - audience:manager
+  - scene:planning
+  - skill-level:intermediate
+  - Agent
+  - 上下文
+  - 协作
+  - 工具
 source_person: 楚门
 source_context: AI×知识管理探索营（2026-08-15 晚直播）——双中心（L2366-2400；015649/015655）
 source_refs:

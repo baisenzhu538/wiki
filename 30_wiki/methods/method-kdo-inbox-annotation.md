@@ -39,9 +39,10 @@ quality_labels:
 - actionable
 - principle
 tags:
-- audience:general
-- scene:diagnosis
-- skill-level:advanced
+  - audience:general
+  - scene:diagnosis
+  - skill-level:advanced
+  - 方法
 discoverable_by:
 - 收件箱标注
 - 素材标注

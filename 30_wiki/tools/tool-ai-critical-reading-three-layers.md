@@ -42,9 +42,10 @@ related:
 - '[[concept-ai-neutrality-bias]]'
 - '[[dk-ai-scarcest-resource-is-self]]'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 逐字稿
 ---
 # 三层拆书批判法
 

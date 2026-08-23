@@ -42,9 +42,12 @@ related:
 - case-cross-xingangwan-pharma
 - '[[framework-ai-human-70-30-division]]'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:beginner
+  - audience:executor
+  - scene:execution
+  - skill-level:beginner
+  - 协作
+  - 方法
+  - 口述
 ---
 
 # AI 报告价值层级 L1-L6：每级价值×10

@@ -35,9 +35,13 @@ related:
 - '[[dk-p17-accuracy-gap]]'
 updated_at: '2026-06-29'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:advanced
+  - audience:executor
+  - scene:execution
+  - skill-level:advanced
+  - Agent
+  - 工具
+  - 方法
+  - 边界
 ---
 # Agent L6自动预验证
 

@@ -22,9 +22,13 @@ aliases:
 - 克隆文字信息知识库
 - src_20260821_digital-employee-transcript
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 知识库
+  - Agent
+  - 工具
+  - 口述
 source_person: OpenClaw 数字员工搭建者（龙虾员工本人）
 source_context: AI经验分享-数字员工搭建-口述（2026-08，978 行）
 source_refs:

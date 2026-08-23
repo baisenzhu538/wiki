@@ -24,9 +24,14 @@ aliases:
 - OCR_一堂DOC-20260816015649.md
 - AI知识库
 tags:
-- audience:manager
-- scene:planning
-- skill-level:advanced
+  - audience:manager
+  - scene:planning
+  - skill-level:advanced
+  - 知识库
+  - Agent
+  - 工具
+  - 方法
+  - 边界
 source_person: 楚门
 source_context: AI×知识管理探索营（2026-08-15 晚直播）——组建跨职能 AI 团队（015649 已人工核验 2 处纠偏，L3080-3250）
 source_refs:

@@ -32,9 +32,10 @@ related:
 - '[[sk-ai-purpose-bias-check]]'
 - '[[tool-ai-old-small-checklist]]'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:beginner
+  - audience:executor
+  - scene:execution
+  - skill-level:beginner
+  - 工具
 ---
 # 技能：系统冗余度快速检查清单
 

@@ -24,9 +24,15 @@ aliases:
 - OCR_批注 2026-08-15 215606.md
 - AI知识库
 tags:
-- audience:executor
-- scene:execution
-- skill-level:advanced
+  - audience:executor
+  - scene:execution
+  - skill-level:advanced
+  - 知识库
+  - Agent
+  - 上下文
+  - 协作
+  - 框架
+  - 口述
 source_person: 楚门
 source_context: AI×知识管理探索营（2026-08-15 晚直播）——Skill 封装实战（批注 215606 已人工核验）
 source_refs:

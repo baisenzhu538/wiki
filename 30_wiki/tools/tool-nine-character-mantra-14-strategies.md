@@ -58,9 +58,15 @@ related:
 - '[[framework-yitang-research-radar]]'
 - '[[framework-yitang-research-weapon-system]]'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:beginner
+  - audience:executor
+  - scene:execution
+  - skill-level:beginner
+  - 上下文
+  - 协作
+  - 框架
+  - 方法
+  - 边界
+  - 口述
 ---
 
 # 九字诀 14 策略小抄：明确目标控过程的节奏做纠偏

@@ -38,9 +38,11 @@ related:
 - '[[ai-short-drama-ice-fire-dissection-compass]]'
 - '[[ai-short-drama-script-planning-three-axes]]'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 框架
+  - 工具
 diagnostic_signals:
 - framework_lens: 第一板斧·深渊入局闯难关
   follow_up_question: 主角进入深渊的触发事件是什么？他/她为什么必须闯关而不是逃避？

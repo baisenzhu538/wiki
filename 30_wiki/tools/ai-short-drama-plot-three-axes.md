@@ -38,9 +38,10 @@ related:
 - '[[ai-short-drama-framework-three-axes]]'
 - '[[ai-short-drama-script-planning-three-axes]]'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 工具
 diagnostic_signals:
 - framework_lens: 第一板斧·极致对立
   follow_up_question: 主角与核心对手在身份、立场、价值观上是否有不可调和的对立？

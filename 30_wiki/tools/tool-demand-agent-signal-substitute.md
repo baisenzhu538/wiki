@@ -37,9 +37,13 @@ related:
 - '[[dk-f12-builder-context-deadlock]]'
 updated_at: '2026-06-29'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:advanced
+  - audience:executor
+  - scene:execution
+  - skill-level:advanced
+  - Agent
+  - 工具
+  - 方法
+  - 边界
 ---
 
 # Agent L5信号提取

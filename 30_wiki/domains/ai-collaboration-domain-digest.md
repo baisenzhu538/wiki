@@ -88,9 +88,16 @@ related:
 - '[[tool-yitang-ai-research-workflow]]'
 - '[[tool-yitang-project-kickoff-meeting]]'
 tags:
-- audience:manager
-- scene:reference
-- skill-level:advanced
+  - audience:manager
+  - scene:reference
+  - skill-level:advanced
+  - Agent
+  - MCP
+  - 协作
+  - 框架
+  - 工具
+  - 方法
+  - 迭代
 discoverable_by:
 - AI协作域
 - 人机协作

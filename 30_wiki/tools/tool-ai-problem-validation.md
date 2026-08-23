@@ -31,9 +31,12 @@ related:
 - '[[tool-ai-evidence-check]]'
 - '[[tool-纪浩-problem-validation-four-checks]]'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 上下文
+  - 工具
+  - 方法
 ---
 # 技能：问题验证三维度法
 

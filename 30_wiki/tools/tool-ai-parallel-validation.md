@@ -31,9 +31,10 @@ related:
 - '[[tool-ai-ai-workspace-setup]]'
 - '[[tool-ai-old-small-checklist]]'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:beginner
+  - audience:executor
+  - scene:execution
+  - skill-level:beginner
+  - 边界
 ---
 # 技能：平行运行验证法
 

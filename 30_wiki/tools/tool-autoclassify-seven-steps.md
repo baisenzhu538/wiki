@@ -25,9 +25,10 @@ aliases:
 - OCR_一堂DOC-20260816015737.md
 - AI知识库
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 工具
 source_person: 楚门
 source_context: AI×知识管理探索营（2026-08-15 晚直播）——自动分类（L3290-3310 + 015732/015737）
 source_refs:

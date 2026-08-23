@@ -21,6 +21,11 @@ aliases:
 - 自然语言描述即可提取
 - 语言描述即可提取
 source_refs: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - Agent
 discoverable_by:
 - Crawl4AI：开源AI爬虫——自然语言描述即可提取
 - 开源AI爬虫

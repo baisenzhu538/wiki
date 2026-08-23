@@ -33,9 +33,12 @@ related:
 - '[[kdo-input-channel-strategy-2026-06-16]]'
 - '[[proposal-yaml-frontmatter-standardization]]'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 提示词
+  - 工具
+  - 方法
 ---
 # 技能：口喷式语音输入法
 

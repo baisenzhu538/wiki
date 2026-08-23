@@ -24,9 +24,15 @@ aliases:
 - OCR_一堂DOC-20260816015300.md
 - AI知识库
 tags:
-- audience:executor
-- scene:execution
-- skill-level:advanced
+  - audience:executor
+  - scene:execution
+  - skill-level:advanced
+  - 知识库
+  - 工作流
+  - Agent
+  - 工具
+  - 方法
+  - 边界
 source_person: 楚门
 source_context: AI×知识管理探索营（2026-08-15 晚直播）——Skill 封装实战（L998-1096 + 015300）
 source_refs:

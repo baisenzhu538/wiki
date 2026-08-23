@@ -33,9 +33,13 @@ related:
 - '[[tool-Truman-多Agent通信协作方案]]'
 - '[[tool-ai-parallel-validation]]'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 知识库
+  - Agent
+  - 上下文
+  - 工具
 ---
 # 技能：结构化AI工作空间搭建
 

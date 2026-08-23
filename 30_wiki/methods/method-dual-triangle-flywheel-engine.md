@@ -43,9 +43,12 @@ aliases:
 - 双三角飞轮
 - 飞轮引擎
 tags:
-- audience:general
-- scene:diagnosis
-- skill-level:advanced
+  - audience:general
+  - scene:diagnosis
+  - skill-level:advanced
+  - Agent
+  - 协作
+  - 工具
 discoverable_by:
 - 双三角飞轮
 - 迭代引擎

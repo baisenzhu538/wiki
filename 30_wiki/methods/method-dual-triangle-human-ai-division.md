@@ -40,9 +40,10 @@ aliases:
 - AI组织行为学
 - 双三角分工法
 tags:
-- audience:general
-- scene:diagnosis
-- skill-level:advanced
+  - audience:general
+  - scene:diagnosis
+  - skill-level:advanced
+  - 边界
 discoverable_by:
 - 人机分工
 - 双三角分工

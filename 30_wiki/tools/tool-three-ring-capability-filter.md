@@ -40,11 +40,15 @@ related:
 - fundamentals
 - manage
 tags:
-- audience:executor
-- scene:execution
-- skill-level:advanced
+  - audience:manager
+  - scene:execution
+  - skill-level:advanced
+  - 工具
+  - 机制
+  - 方法
+  - 清单
+  - 边界
 ---
-
 # cap_hub 三环过滤器
 
 > **一句话定义**：本过滤器是 `[[tool-一堂-基本功-三环六维自检]]` 在 cap_hub 能力注册场景的工程化应用——任何能力要进入 cap_hub 注册表，必须先通过三环 checklist。不是所有功能都值得注册为能力。
