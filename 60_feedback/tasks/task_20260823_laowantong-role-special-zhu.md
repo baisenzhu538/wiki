@@ -1,8 +1,9 @@
 ---
 id: 448
-assignee: laowantong
-status: queued
-updated_at: '2026-08-23T04:25:00+00:00'
+assignee: wangyuyan
+status: in_progress
+updated_at: '2026-08-23T06:29:30.168416+00:00'
+instance: wangyuyan
 ---
 # #448 角色专场第六场（终场）：老朱角色卡定稿
 
