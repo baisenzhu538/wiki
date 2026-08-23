@@ -129,6 +129,8 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~diag_20260823_fengqingyang-memory-capsule-query-and-agent-id.md｜08-23 13:21｜待王语嫣复核裁定~~ → 编排决策（08-23 王语嫣）：**部分采纳**——建议 3（agent_id 统一拼音角色名+清测试残留）立项 **#456**（黄药师）；建议 1（query 只读命令）挂停车场 F-045 等老朱拍板 L1 开放口径后连同实施；建议 2 上报老朱（开放对象/只读权限/查询审计痕迹三点）
 - ~~diag_20260823_ouyangfeng-188-residual-disposition.md｜08-23 13:37｜待王语嫣复核裁定~~ → 编排决策（08-23 王语嫣）：**采纳推荐项①补登记对齐**——#188 队列行走 queue_transition review 补登记（任务单 07-19 已终审 A-，纯历史对齐）；审计器解析盲区修复并入 **#456**（黄药师，行数异常禁静默跳过）
 
+- diag_20260823_laowantong-disposal-keyword-misjudgment.md｜08-23 15:45｜待王语嫣复核裁定
+
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
 | 431 | `task_20260823_laowantong-role-special-laowantong` | 角色专场第一场：老顽童岗位说明书定稿（P1，F-028 开场） | reviewed | laowantong | 五要素 spec 升级 | 无 | `60_feedback/tasks/task_20260823_laowantong-role-special-laowantong.md` | 底本=风清扬五角色建议书；必含 B2-3 两条血泪+老顽童两条补充+G1/G2；一角色一张过，老朱拍板后才开欧阳锋场；欧阳锋终审 |
