@@ -170,10 +170,10 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~[gate-blocked] task_20260823_huangyaoshi-issue-report-automation-final｜08-23 14:21｜待王语嫣复核处置｜2026-08-23 14:15:21｜task_20260823_huangyaoshi-issue-report-automation-final｜F-034-五字段｜执行报告缺 5 个字段（#429 F-034）：改动文件清单、完成内容一句话、验证命令+输出、未做项/边界、需要谁动作。请补全后重试，或 --force --reason '<理由>' 声明例外（#4｜huangyaoshi~~ → 已处置关闭（黄药师实施中被拦后自修复；#460 后被终审 FAIL 退回修复中——机器自报层首日活体运行实证 ✅）
 - ~~[gate-blocked] task_9999_force-test｜08-23 14:31｜待王语嫣复核处置｜2026-08-23 14:27:13｜task_9999_force-test｜F-034-force无理由｜--force 未配 --reason（#444 例外留痕要求）｜wangyuyan~~ → 测试件关闭（#460 L2 狗粮：force 无 reason 拦截验证，拦截正确=验收通过）
 - ~~[gate-blocked] task_20260823_laowantong-role-special-zhu｜08-23 14:31｜待王语嫣复核处置｜2026-08-23 14:29:30｜task_20260823_laowantong-role-special-zhu｜F-034-五字段｜执行报告缺 5 个字段（#429 F-034）：改动文件清单、完成内容一句话、验证命令+输出、未做项/边界、需要谁动作。请补全后重试，或 --force --reason '<理由>' 声明例外（#4｜wangyuyan~~ → 已处置关闭（占位节拦截，当场补齐归位后 complete 通过，#448 已 pending_review）
-- [gate-blocked] task_9999_force-test｜08-23 15:11｜待王语嫣复核处置｜2026-08-23 15:08:42｜task_9999_force-test｜F-034-force无理由｜--force 未配 --reason（#444 例外留痕要求）｜wangyuyan
-- [gate-blocked] task_9999_test｜08-23 15:11｜待王语嫣复核处置｜2026-08-23 15:08:42｜task_9999_test｜处置-硬门禁｜disposal:true 缺「内容价值判断」节（PROTOCOL §7）｜task_9999_test
-- [gate-blocked] task_t_disposal｜08-23 15:11｜待王语嫣复核处置｜2026-08-23 15:11:02｜task_t_disposal｜处置-硬门禁｜disposal:true 缺「内容价值判断」节（PROTOCOL §7）｜task_t_disposal
-- diag_20260823_ouyangfeng-dictation-record-discipline.md｜08-23 15:15｜待王语嫣复核裁定
+- ~~[gate-blocked] task_9999_force-test｜08-23 15:11｜待王语嫣复核处置｜2026-08-23 15:08:42｜task_9999_force-test｜F-034-force无理由｜--force 未配 --reason（#444 例外留痕要求）｜wangyuyan~~ → 测试件关闭（#460 修复中 L2 狗粮：force 无 reason 拦截复验）
+- ~~[gate-blocked] task_9999_test｜08-23 15:11｜待王语嫣复核处置｜2026-08-23 15:08:42｜task_9999_test｜处置-硬门禁｜disposal:true 缺「内容价值判断」节（PROTOCOL §7）｜task_9999_test~~ → 测试件关闭（#460 处置硬门禁插桩验证——插桩已生效实证 ✅）
+- ~~[gate-blocked] task_t_disposal｜08-23 15:11｜待王语嫣复核处置｜2026-08-23 15:11:02｜task_t_disposal｜处置-硬门禁｜disposal:true 缺「内容价值判断」节（PROTOCOL §7）｜task_t_disposal~~ → 测试件关闭（同上，处置门禁拦截落盘验证）
+- ~~diag_20260823_ouyangfeng-dictation-record-discipline.md｜08-23 15:15｜待王语嫣复核裁定~~ → 已采纳（08-23 王语嫣）：①№5/№6 补录=新增件 D-20260823-007（amends:D-20260823-002），spec source_refs 已补指向；②口述落盘纪律入宪 §3.13（到达即转录不隔夜+№溯源 lint 挂 #450）——断链教训：№5/№6 只在会话顺手织入卡片未录原文
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |

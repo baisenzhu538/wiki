@@ -9,13 +9,14 @@ author: 王语嫣（对齐稿起草；被描述者老朱本人逐条对齐确认
 reviewed_by: 老朱（2026-08-23 对齐稿 v0.2 确认+终稿拍板；欧阳锋结构终审待补——不影响生效）
 review_date: 2026-08-23
 created_at: '2026-08-23T08:30:00+00:00'
-updated_at: '2026-08-23T08:30:00+00:00'
+updated_at: '2026-08-23T11:30:00+00:00'
 doc_id: D-20260823-002
 domain:
 - governance
 - personal-os
 source_refs:
-- '#448 任务单老朱口述 №1-№6（一等证据，2026-08-23 CLI 对话）'
+- '#448 任务单老朱口述 №1-№4（一等证据，2026-08-23 CLI 对话）'
+- '60_feedback/tasks/task_20260823_laowantong-role-special-zhu-dictations-amend.md（№5/№6 原话补录，amends 本卡 doc_id）'
 - agent复盘/wangyuyan/用户反馈档案.md（老朱红线全史）
 - agents/agent-os.md §10（双三角人侧）
 - 30_wiki/personal-os/zhu-feedback-patterns.md
