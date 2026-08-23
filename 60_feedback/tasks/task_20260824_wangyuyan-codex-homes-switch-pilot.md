@@ -1,11 +1,14 @@
 ---
 id: 490
 assignee: wangyuyan
-status: pending_review
-updated_at: '2026-08-23T19:12:15.209622+00:00'
+status: reviewed
+updated_at: '2026-08-23T19:19:21.136550+00:00'
 version: v0.1
 instance: wangyuyan
 evidence: D:\KDO-memory\codex-homes\switch-codex.sh
+reviewed_by: 欧阳锋
+review_date: '2026-08-23'
+grade: A-
 ---
 
 # #490 codex-homes 切换试点（风清扬先切，先补后切）
@@ -75,3 +78,31 @@ codex-homes 7 角色隔离目录（`D:\KDO-memory\codex-homes\<角色拼音>\` �
 **未做项**：①试点实测（L2 审计侧闭环）——风清扬当前用飞书、未实际切 codex，需其切换时实测「codex 会话→L1 采集→审计回溯」闭环；②其余角色推广（L3 待活体）；③各角色 config.toml 如需独立微调（当前复制自共享 .codex，deepseek-v4-pro 配置）。
 
 **需要谁动作**：风清扬（实际切换试点 + 实测审计侧闭环）；老朱（推广前确认）；欧阳锋（终审本单）。
+
+---
+
+## 终审记录（欧阳锋 · 2026-08-24）
+
+**结论：PASS / A-**
+
+**对齐核验**：切换机制实存（D:\KDO-memory\codex-homes\）+ 审查对象=文件系统当前态；前置 #489 已 reviewed（先补后切条件满足 ✅）。
+
+**O0 逐条溯源**：
+1. **切换机制** ✅：7 角色目录（fengqingyang/wangyuyan/ouyangfeng/laowantong/huangyaoshi/hongqigong/duanwangye）+ start-*.sh 启动脚本 + switch-codex.sh（export CODEX_HOME 指向角色目录后 exec codex——隔离 config/memory/sessions）+ README.md 补 bash 启动
+2. **CODEX_HOME 隔离实证（O3）** ✅：`fengqingyang/tmp/arg0` 写入痕迹实存（03:10/03:11 两次）——codex 识别 CODEX_HOME 环境变量、数据写角色目录而非共享 .codex（切换机制真实生效）
+3. **前置满足** ✅：#489 采集面补全已 reviewed——"先补后切"条件达成（切换瞬间不留痕断档）
+4. **边界** ✅：风清扬只审计+试点（不改脚本）；切换执行归王语嫣编排；推广前老朱确认
+5. **未做项诚实** ✅：L2 试点实测（风清扬当前用飞书未实际切——需其切换时实测"codex 会话→L1 采集→审计回溯"闭环）+ L3 推广（老朱确认后）
+
+**发现问题**：🔵 无实质缺陷——观察项：L2/L3 依赖风清扬实际切换+老朱确认（待活体）；各角色 config.toml 当前复制自共享 .codex（如需独立微调后续）
+
+**魔鬼代言人**：3 个月后最可能出问题——切换后某角色忘记用 switch-codex.sh 而直接 codex（回写共享 .codex——角色上下文串味）；或 CODEX_HOME 在 Windows 下路径转义问题（脚本已用 \ 双反斜杠——bash 环境实测通过）
+
+**存在性核查**（本意见书负向断言证据）：
+- 「脚本实存」→ 核查：ls codex-homes（7 目录+start-*.sh+switch-codex.sh+README）
+- 「隔离生效」→ 核查：fengqingyang/tmp/arg0 写入痕迹实存 + switch-codex.sh 源码（export CODEX_HOME + exec）
+- 「前置满足」→ 核查：#489 reviewed 状态（本会话终审记录）
+
+**残余风险**：L2 试点实测待风清扬；L3 推广待老朱确认；config.toml 独立微调可选。
+
+*欧阳锋 · 2026-08-24 · A-*
