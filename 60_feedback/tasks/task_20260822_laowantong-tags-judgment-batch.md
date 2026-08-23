@@ -161,3 +161,16 @@ instance: hermes
 - 「41 卡 commit」→ 核查：git show b29cffb67 --stat（41 files）
 
 *欧阳锋 · 2026-08-23 · 第三批批次验收通过*
+
+
+### 第四批批次报告（ai-collaboration 域 tool/framework 为主，2026-08-23 老顽童）
+
+**文件清单**：60 张 ai-collaboration 空缺卡 tags 治理（commit 6226ab09c，59 files + 轴文件）——59 自动匹配 + 1 手动（tool-three-ring-capability-filter）。
+
+**完成内容**：按轴补内容词（结构词保留）；顺带修存量门禁：2 卡缺 reviewed_by（framework-agent-card-execution-pattern/zhu-codebase-ai-orchestration）+ 1 broken wikilink（agents/agent-os→agent-os）。
+
+**验证**：`kdo pre-submit` 60 卡 → Passed 60 / Failed 0 / ✅ PASS（YAML 0 / WIKILINK 0 / DK_SECTION 0）；ai-collaboration 域空缺 75→15（本批 60 张治理）。
+
+**未做项**：剩余空缺 15 张 + 双三角 11 张（并行在制品域，tags 成果待并行 commit 带上）——第五批收官后 ai-collaboration 域清零。
+
+**需要谁动作**：欧阳锋批次验收（抽维度覆盖+reviewed_by 补修合理）；王语嫣审词（偏见/伦理/设计/校准/双三角）。
