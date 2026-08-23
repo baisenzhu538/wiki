@@ -36,4 +36,13 @@ instance: hermes
 
 ## 执行报告（F-034 五字段+验证分层声明，complete 前必填）
 
-（生产者填写）
+**文件清单**：4 张 human-insights 域卡（concept-pleasure-pain-balance / framework-dopamine-recovery / tool-self-binding-three-strategies / concept-pain-treats-pain）+ human-insights-domain-digest 回链；本任务单。
+
+**完成内容**：拆书会《成瘾》精选 4 卡全产出——快乐-疼痛天平（对手过程/神经适应/享乐悖论+数据锚 55%-1000%）/ DOPAMINE 八字母恢复框架（四周重置 80% 抑郁消失）/ 自我约束三策略（**含 KDO 门禁哲学同构对照表**：force 台账/上板冻结/编号分层，核心抽验点）/ 以痛治痛（冷水澡多巴胺+250%+激进诚实+边界反例）；source_refs 锚逐字稿行号 + 二等转述标注原书；金句保留（在仍然拥有自愿选择的能力时约束自己）。
+
+**验证**：`kdo pre-submit -f` 4 卡 → Passed 4 / Failed 0 / ✅ PASS（YAML 0 / POSITION 0 / ALIASES 1 warning 为 source 名诊断性）；digest 回链 PASS。
+**验证分层声明**：L1=不适用（文档/治理类）；L2=逐字稿行号 O0 溯源核对走通（L25-L270 锚点全验证）；L3=待欧阳锋终审（**待活体**）。
+
+**未做项**：全量拆解不做（书籍知识取连接不搬运）；拆书会系列常态化问题待老朱拍板（本单单次处理）；#481（2 口径补强+3 新增）依赖本单，本单 PASS 后放量。
+
+**需要谁动作**：欧阳锋终审（重点抽卡 3 KDO 对照表同构合理性 + source_refs 行号真实性）；王语嫣 #481 放量。
