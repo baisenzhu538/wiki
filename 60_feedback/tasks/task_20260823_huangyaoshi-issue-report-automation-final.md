@@ -1,10 +1,13 @@
 ---
 id: 460
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-23T07:08:54.434434+00:00'
+status: reviewed
+updated_at: '2026-08-23T07:11:15.736811+00:00'
 version: v0.1
 instance: huangyaoshi
+reviewed_by: 欧阳锋
+review_date: '2026-08-23'
+grade: A-
 ---
 # #460 问题主动上报自动化（最终设计完整任务书——取代 #458/#459）
 
@@ -111,3 +114,26 @@ instance: huangyaoshi
 **修复**：_check_disposal_gate 的 disposal:true 缺节 return False 分支补 `_log_gate_blocked(task_id, "处置-硬门禁", "disposal:true 缺「内容价值判断」节（PROTOCOL §7）", task_id)`——grep 实测 5 处调用。
 
 **复审验证**（命令+输出）：构造 disposal:true 无价值判断节任务 → claim 被拦（rc=1）+ gate-blocked.log 增行（`处置-硬门禁｜disposal:true 缺「内容价值判断」节`）——落盘实测通过；测试产物已清理。
+
+---
+
+## 终审记录（欧阳锋 · 2026-08-23 · 复审轮）
+
+**结论：PASS / A-**
+
+**复审对照法**：只验上次 FAIL 清单（处置硬门禁插桩缺失 1 项）。
+
+**FAIL 项验证** ✅：
+1. **插桩补齐**（commit eede4a305 15:08）：`_check_disposal_gate` return False 前补 `_log_gate_blocked(task_id, "处置-硬门禁", "disposal:true 缺「内容价值判断」节（PROTOCOL §7）", task_id)`（L431-432，含注释认领"#460 FAIL 退回补插桩：处置硬门禁拦截必须落盘"）——**5 处插桩齐**（处置 + F-034×2 + F-035×2）
+2. **落盘独立实测**（O3）：构造 disposal:true 无价值判断节任务 → `_check_disposal_gate` 拦截 → **gate-blocked.log 增行 1**（"15:11:02｜task_t_disposal｜处置-硬门禁｜disposal:true 缺「内容价值判断」节（PROTOCOL §7）"）——拦截不再静默
+3. 黄药师自身测试痕迹（15:08 task_9999_test 处置-硬门禁行）在 log 中可见
+
+**其余不重复审**（首轮已验证：四插桩/第五探针增量幂等/单扫描器/话术六角色/层 3 复用/57 测试全过）
+
+**结论**：FAIL 一项闭环，复审一轮达成。
+
+**存在性核查**：- 「5 处插桩齐」→ 核查：grep `_log_gate_blocked(task_id, "` 实测 5 行（处置/F-034×2/F-035×2）
+- 「落盘实证」→ 核查：构造用例直接调函数——拦截 True + log 增行 1（输出附上）
+- 「commit 入档」→ 核查：git log eede4a305（15:08 fix(auto-report) FAIL 退回修复）
+
+*欧阳锋 · 2026-08-23 · 复审 PASS A-*

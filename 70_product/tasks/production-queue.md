@@ -95,7 +95,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 457 | `task_20260823_huangyaoshi-disposal-gate-structured` | 处置类门禁判定结构化（P1，误判两连发+可绕过漏判根治） | reviewed | huangyaoshi | 判定重构+回归用例 | 老顽童建议书采纳（方案1+2组合） | `60_feedback/tasks/task_20260823_huangyaoshi-disposal-gate-structured.md` | 显式标记 disposal:true 优先+关键词降级提示+只扫动作节；#189/#454 误判放行+真处置正反测；PROTOCOL §7 意图不变；欧阳锋终审 |
 | 458 | `task_20260823_huangyaoshi-friction-auto-report` | 问题主动上报自动化（P1，治沉没）：friction-log 统一+探针第四探针+复盘强制节 | pending_review | huangyaoshi | 摩擦探针+模板+review-check | 老朱核心关切（#454 靠翻上下文才发现） | `60_feedback/tasks/task_20260823_huangyaoshi-friction-auto-report.md` | 记录零成本（一行式）→传输全自动（探针扫增量不依赖建议书格式）→复盘必填问题节兜底；单扫描器纪律；欧阳锋终审 |
 | 459 | `task_20260823_huangyaoshi-friction-design-fix` | #458 设计修正（老朱质询采纳）：通道唯一化+机器自报层，与 #458 合并实施 | queued | huangyaoshi | 设计修正口径单（实施并入 #458） | #458 上板冻结——新增修订单 | `60_feedback/tasks/task_20260823_huangyaoshi-friction-design-fix.md` | friction 层作废改建议书最小三行形态；新增 gate-blocked.log 机器自报+探针第五探针；复盘问题节保留兜底；#458 任务 1 作废任务 2 改造任务 3 保留 |
-| 460 | `task_20260823_huangyaoshi-issue-report-automation-final` | 问题主动上报自动化·最终设计完整任务书（P1，取代 #458/#459） | pending_review | huangyaoshi | gate-blocked 自报+探针第五探针+复盘兜底 | 老朱纠偏：调整须另下任务编排书 | `60_feedback/tasks/task_20260823_huangyaoshi-issue-report-automation-final.md` | 三层=建议书最小三行唯一通道/gate-blocked.log 机器自报/复盘必填问题节；#459 越权裁决（作废改造+合并实施）撤销；#458/#459 冻结留档勿领取；验收=08-23 断链场景三环全通；欧阳锋终审 |
+| 460 | `task_20260823_huangyaoshi-issue-report-automation-final` | 问题主动上报自动化·最终设计完整任务书（P1，取代 #458/#459） | reviewed | huangyaoshi | gate-blocked 自报+探针第五探针+复盘兜底 | 老朱纠偏：调整须另下任务编排书 | `60_feedback/tasks/task_20260823_huangyaoshi-issue-report-automation-final.md` | 三层=建议书最小三行唯一通道/gate-blocked.log 机器自报/复盘必填问题节；#459 越权裁决（作废改造+合并实施）撤销；#458/#459 冻结留档勿领取；验收=08-23 断链场景三环全通；欧阳锋终审 |
 | 461 | `task_20260823_huangyaoshi-queue-cancel-command` | queue_transition cancel 命令（P1，queued 单取消/被取代状态） | queued | huangyaoshi | cancel 状态机+台账+下游适配+单测 | 老朱拍板立项（#460 取代场景暴露） | `60_feedback/tasks/task_20260823_huangyaoshi-queue-cancel-command.md` | 仅 queued 可 cancel+reason 必填入台账；cancelled=终态不删除；探针不通知/dashboard 不计活跃；首批执行=cancel #458/#459（被 #460 取代）；不可逆（重做=新单）；欧阳锋终审 |
 | 462 | `task_20260823_huangyaoshi-probe-review-done-signal` | 探针「流转完成」信号（P1，终审结果通知编排者——治编排者盲区） | queued | huangyaoshi | new_reviewed/new_failback 双信号+单测 | 老朱提问触发（#447 PASS 靠询问才知） | `60_feedback/tasks/task_20260823_huangyaoshi-probe-review-done-signal.md` | PASS→通知 wangyuyan 待部署；FAIL 退回→通知 assignee 返工；文案自足免翻文件；只推送不自动部署（判断留人）；单扫描器纪律；欧阳锋终审 |
 | 463 | `task_20260823_huangyaoshi-l1-full-context-capture` | L1 全量上下文采集基建（P1，甲会话原文+乙工作痕迹/D盘+镜像） | queued | huangyaoshi | 采集脚本+双盘+verify | 老朱拍板口径+风清扬建议书采纳 | `60_feedback/tasks/task_20260823_huangyaoshi-l1-full-context-capture.md` | 甲CLI会话原文+乙session trace/产出物变动；D盘git外；与事件指针库分层并存（L0→L1改名一并）；体积红线监控；欧阳锋终审 |
@@ -118,7 +118,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - #458 task_20260823_huangyaoshi-friction-auto-report｜huangyaoshi｜提审 08-23 14:05｜60_feedback/tasks/task_20260823_huangyaoshi-friction-auto-report.md
 - ~~#460 task_20260823_huangyaoshi-issue-report-automation-final｜huangyaoshi｜提审 08-23 14:15｜60_feedback/tasks/task_20260823_huangyaoshi-issue-report-automation-final.md~~ → 终审退回 queued（2026-08-23 欧阳锋）
 - ~~#448 task_20260823_laowantong-role-special-zhu｜wangyuyan｜提审 08-23 14:30｜60_feedback/tasks/task_20260823_laowantong-role-special-zhu.md~~ → 已终审 PASS A-（2026-08-23 欧阳锋）
-- #460 task_20260823_huangyaoshi-issue-report-automation-final｜huangyaoshi｜提审 08-23 15:08｜60_feedback/tasks/task_20260823_huangyaoshi-issue-report-automation-final.md
+- ~~#460 task_20260823_huangyaoshi-issue-report-automation-final｜huangyaoshi｜提审 08-23 15:08｜60_feedback/tasks/task_20260823_huangyaoshi-issue-report-automation-final.md~~ → 已终审 PASS A-（2026-08-23 欧阳锋）
 
 <!-- REVIEW-PENDING-END -->
 
@@ -134,6 +134,23 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - 00_inbox/半肥猫开放麦-AI知识库/AI知识库-知识库搭建与落地-半肥猫-笔记.txt｜P0｜9489B｜检测到 08-23 07:01｜待王语嫣编排
 - 00_inbox/半肥猫开放麦-AI知识库/一堂DOC-20260823145914.png｜P2｜1461080B｜检测到 08-23 07:01｜待王语嫣编排
 - 00_inbox/半肥猫开放麦-AI知识库/一堂DOC-20260823145932.png｜P2｜1650162B｜检测到 08-23 07:01｜待王语嫣编排
+- 00_inbox/半肥猫开放麦-AI知识库/_ocr_text.md｜P2｜9441B｜检测到 08-23 07:11｜待王语嫣编排
+- 00_inbox/半肥猫开放麦-AI知识库/_vlm_desc.md｜P2｜21773B｜检测到 08-23 07:11｜待王语嫣编排
+- 00_inbox/半肥猫开放麦-AI知识库/一堂DOC-20260823150146.png｜P2｜805084B｜检测到 08-23 07:11｜待王语嫣编排
+- 00_inbox/半肥猫开放麦-AI知识库/一堂DOC-20260823150154.png｜P2｜345935B｜检测到 08-23 07:11｜待王语嫣编排
+- 00_inbox/半肥猫开放麦-AI知识库/一堂DOC-20260823150203.png｜P2｜322050B｜检测到 08-23 07:11｜待王语嫣编排
+- 00_inbox/半肥猫开放麦-AI知识库/一堂DOC-20260823150216.png｜P2｜867325B｜检测到 08-23 07:11｜待王语嫣编排
+- 00_inbox/半肥猫开放麦-AI知识库/一堂DOC-20260823150223.png｜P2｜868352B｜检测到 08-23 07:11｜待王语嫣编排
+- 00_inbox/半肥猫开放麦-AI知识库/一堂DOC-20260823150231.png｜P2｜1407452B｜检测到 08-23 07:11｜待王语嫣编排
+- 00_inbox/半肥猫开放麦-AI知识库/一堂DOC-20260823150247.png｜P2｜1334738B｜检测到 08-23 07:11｜待王语嫣编排
+- 00_inbox/半肥猫开放麦-AI知识库/一堂DOC-20260823150307.png｜P2｜2117101B｜检测到 08-23 07:11｜待王语嫣编排
+- 00_inbox/半肥猫开放麦-AI知识库/一堂DOC-20260823150324.png｜P2｜2335680B｜检测到 08-23 07:11｜待王语嫣编排
+- 00_inbox/半肥猫开放麦-AI知识库/一堂DOC-20260823150336.png｜P2｜237804B｜检测到 08-23 07:11｜待王语嫣编排
+- 00_inbox/半肥猫开放麦-AI知识库/一堂DOC-20260823150342.png｜P2｜211502B｜检测到 08-23 07:11｜待王语嫣编排
+- 00_inbox/半肥猫开放麦-AI知识库/一堂DOC-20260823150350.png｜P2｜174736B｜检测到 08-23 07:11｜待王语嫣编排
+- 00_inbox/半肥猫开放麦-AI知识库/一堂DOC-20260823150358.png｜P2｜1326426B｜检测到 08-23 07:11｜待王语嫣编排
+- 00_inbox/半肥猫开放麦-AI知识库/一堂DOC-20260823150410.png｜P2｜1235595B｜检测到 08-23 07:11｜待王语嫣编排
+- 00_inbox/半肥猫开放麦-AI知识库/批注 2026-08-23 150123.png｜P2｜146628B｜检测到 08-23 07:11｜待王语嫣编排
 
 <!-- INBOX-PENDING-END -->
 
