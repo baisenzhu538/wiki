@@ -1,8 +1,8 @@
 ---
 id: 450
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-23T08:07:39.018141+00:00'
+status: pending_review
+updated_at: '2026-08-23T08:12:38.422223+00:00'
 version: v0.1
 instance: huangyaoshi
 ---
@@ -41,6 +41,27 @@ instance: huangyaoshi
 - 规范：#449（先序）；charter §3.15（总纲）
 - 实证：E046 吞节 / 黄药师 592559104 已交增补先例 / 欧阳锋 append-only 建议书
 
-## 执行报告（F-034 五字段+验证分层声明，complete 前必填）
+## 执行报告（2026-08-23 黄药师）
 
-（生产者填写）
+**完成内容**：《KDO 文件流转规范》v1.0（#449）落成机器检查——`kdo-tools/file-flow-check.py` 实现规范 §8 L1-L9 九项检查（doc_id 查重/格式、version、时间戳、命名、slug 禁词、冻结检测、amends 引用、三套编号不混用），向前生效口径（§9：created_at/文件名日期 ≥ 2026-08-23 严格判级，存量既往不咎仅 info）；conveyor_probe 登记口挂接 doc_id 查重（撞号当场拒绝登记）。
+
+**交付物**（改动文件清单）：
+1. `kdo-tools/file-flow-check.py`（新建）：L1-L9 检查器 + `--snapshot` 冻结基线 + `--json` 输出 + `find_duplicate_doc_ids(diag_dir)` 可注入查重（登记口复用）
+2. `kdo-tools/tests/test_file_flow_check.py`（新建）：17 用例（L1-L9 正反 + 向前生效 + 冻结基线 + amends 注释剥离）
+3. `kdo-tools/conveyor_probe.py`：`_reject_duplicate_doc_ids` 挂接（复用 find_duplicate_doc_ids 单一真相源；撞号剔除+stderr 报警；模块加载失败降级不阻断登记）
+4. `kdo-tools/tests/test_conveyor_probe.py`：挂接 2 用例（撞号全拒/唯一放行）
+5. `90_control/frozen-registry.json`：冻结基线快照（首次建立，7 个冻结文件）
+
+**验证**（命令+输出）：
+- L1 单测：`pytest tests/`（kdo-tools）→ **47 passed**（file_flow_check 17 + conveyor_probe 含挂接用例 + 既有全部）
+- L2 狗粮：①真实库首跑——216 文件 error=0 warning=52（**今日新件缺 version/updated_at 真实合规缺口**，检查器价值实证）info=88（存量按向前生效仅提示）；②L9 报出 **9 条任务单含 doc_id 真实违规**（E045，处置归编排）；③L8 误报消除（amends 带注释值剥离 D-编号前缀比对）；④冻结基线建立后 L7 正常（基线 7 文件，改动即报 error）；⑤`conveyor_probe --dry-run` 真实库冒烟——零登记零拒绝零崩溃
+- L3 待活体：下次真实建议书落盘+探针登记走通查重（撞号拒绝实测）；规范生效后首个订正件 amends 链走通
+
+**未做项**：
+- `kdo lint` 集成未做——当前为独立 `python kdo-tools/file-flow-check.py`（任务书二选一，选了独立命令；kdo lint 集成可后续挂）
+- wiki 卡侧 L9（30_wiki frontmatter 含 #队列号）未扫——扫描面 2000+ 卡成本高，当前只查任务单侧（规范 L9 两半之一），wiki 侧待立项
+- 任务单含 doc_id 的 9 条**只报不修**——处置归王语嫣编排（规范 §2 任务单沿用 #队列号，编排侧编号实践需对齐）
+
+**需要谁动作**：
+- 王语嫣：①处置 9 条任务单 doc_id 违规（对齐规范 E045 口径或修订规范）②新建议书登记注意 doc_id 唯一（撞号会被探针当场拒绝）
+- 欧阳锋：终审本单（抽「L1-L9 实现对照规范 §8/冻结检测正反/登记口挂接」）
