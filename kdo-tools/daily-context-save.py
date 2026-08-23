@@ -13,6 +13,7 @@ Usage:
 """
 
 import argparse
+import re
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -115,11 +116,35 @@ def _run_review_check(agent: str) -> str:
         return f"⚠️ {ex}"
 
 
+# #456：agent_id 口径——拼音角色名唯一（与 #444 frontmatter assignee 口径同族）
+AGENT_ID_CN_MAP = {
+    "老顽童": "laowantong", "欧阳锋": "ouyangfeng", "黄药师": "huangyaoshi",
+    "王语嫣": "wangyuyan", "洪七公": "hongqigong", "段王爷": "duanwangye",
+    "风清扬": "fengqingyang",
+}
+_AGENT_ID_TEST_RE = re.compile(r"__.*__$")
+
+
+def _normalize_agent_id(agent: str) -> str | None:
+    """#456：写入端口径对齐——中文角色名映射拼音；测试残留（__x__）拒绝写入。
+
+    返回 None = 拒绝（防 __test434__ 类测试残留继续混入 L1 库）。
+    """
+    agent = AGENT_ID_CN_MAP.get(agent, agent)
+    if _AGENT_ID_TEST_RE.match(agent):
+        return None
+    return agent
+
+
 def _write_l0_event(agent: str, desktop_path: Path, grade: str) -> None:
     """#434：复盘保存成功 → 写 L0 事件（event_type=review_saved）。
 
     失败不阻断复盘保存（复盘是主产物），但必须 stderr 醒目报警 + 落待收口记录——禁止静默吞。
     """
+    agent = _normalize_agent_id(agent)  # #456：口径对齐，None=测试残留拒绝
+    if agent is None:
+        print("⛔ 胶囊 L0 跳过写入：agent_id 为测试残留（__x__ 模式，#456 口径）", file=sys.stderr)
+        return
     try:
         sys.path.insert(0, str(Path(__file__).resolve().parent))
         import memory_capsule as mc

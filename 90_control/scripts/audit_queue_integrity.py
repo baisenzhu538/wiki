@@ -111,22 +111,43 @@ def find_review_file(task_id: str) -> Path | None:
     return None
 
 
-def parse_queue(path: Path = QUEUE_PATH) -> list[dict]:
-    rows = []
+def parse_queue(path: Path = QUEUE_PATH) -> tuple[list[dict], list[dict]]:
+    """Parse production-queue table rows, returning (rows, unresolved).
+
+    Detection is encoding-robust: uses the ASCII separator row ``|:---|``
+    (same as queue_gate.py) — the old ``| 队列序号`` header check silently
+    matched nothing after the queue file dropped that header, making the
+    whole audit a false-negative vacuum (#456: #188 pending_review 残留从未被抓).
+
+    Rows with an abnormal cell count (< 5) are collected into ``unresolved``
+    instead of being silently skipped — a skipped row hides real residual
+    status (e.g. a pending_review row inside the REVIEW-PENDING section is
+    not a queue row and must be reported, not ignored).
+    """
+    rows: list[dict] = []
+    unresolved: list[dict] = []
     in_table = False
     with open(path, "r", encoding="utf-8") as f:
-        for line in f:
+        for line_no, line in enumerate(f, start=1):
             line = line.rstrip("\n")
             if not in_table:
-                if line.startswith("| 队列序号"):
+                # Detect table by separator row — pure ASCII, immune to
+                # Mojibake / double-encoding issues on Chinese headers.
+                if re.match(r"^\|:---", line.strip()):
                     in_table = True
                 continue
-            if set(line.strip()) <= {"|", "-", ":", " "}:
+            # Skip separator / alignment rows (belt-and-suspenders)
+            if re.match(r"^\|:---", line.strip()):
                 continue
+            # Skip blank lines between rows
+            if line.strip() == "":
+                continue
+            # End of table
             if not line.startswith("|"):
                 break
             cells = [c.strip() for c in line.strip("|").split("|")]
             if len(cells) < 5:
+                unresolved.append({"line": line_no, "cells": len(cells), "raw": line})
                 continue
             rows.append({
                 "seq": cells[0],
@@ -136,7 +157,7 @@ def parse_queue(path: Path = QUEUE_PATH) -> list[dict]:
                 "assignee": cells[4] if len(cells) > 4 else "",
                 "source_file": cells[7] if len(cells) > 7 else "",
             })
-    return rows
+    return rows, unresolved
 
 
 REPORT_PATH = WIKI_ROOT / "20_memory" / "queue_integrity_audit_latest.md"
@@ -233,7 +254,7 @@ def main() -> int:
         print(f"Task directory not found: {', '.join(missing_dirs)}")
         return 1
 
-    queue_rows = parse_queue()
+    queue_rows, unresolved_rows = parse_queue()
     queue_by_id = {r["task_id"]: r for r in queue_rows}
 
     anomalies = []
@@ -315,7 +336,14 @@ def main() -> int:
     lines.append(f"- reviewed 任务单总数: {reviewed_count}")
     lines.append(f"- 任务单元数据异常数: {len(anomalies)}")
     lines.append(f"- 队列/任务单状态不一致数: {len(queue_anomalies)}")
+    lines.append(f"- 队列解析行数: {len(queue_rows)}")
+    lines.append(f"- 无法解析队列行数: {len(unresolved_rows)}（#456：行数异常禁静默跳过，列此清单）")
     lines.append("")
+    if unresolved_rows:
+        lines.append("## 无法解析队列行（单元格数异常，原静默跳过=假阴性盲区）")
+        for u in unresolved_rows:
+            lines.append(f"- L{u['line']}（{u['cells']} 列）: `{u['raw'][:120]}`")
+        lines.append("")
     if anomalies:
         lines.append("## 任务单元数据异常列表（缺 review_date / reviewer / review 文件）")
         for task_id, reason in anomalies:
@@ -340,7 +368,7 @@ def main() -> int:
     REPORT_PATH.write_text(report, encoding="utf-8")
     print(report)
 
-    return 1 if anomalies or queue_anomalies else 0
+    return 1 if anomalies or queue_anomalies or unresolved_rows else 0
 
 
 if __name__ == "__main__":
