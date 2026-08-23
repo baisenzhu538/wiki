@@ -296,3 +296,40 @@ class TestNegativeClaimGate(unittest.TestCase):
         text = "**结论**：PASS / A。无阻断项。"
         ok, msg = qt._check_negative_claims(text)
         self.assertTrue(ok)
+
+
+# ── #435 词表扩展回归（数据异常类：为空/空值强词 + 截断/损坏正则 + 正向声明不误伤）──
+
+class TestNegativeGateVocabData(unittest.TestCase):
+    """#435：数据异常类词表扩展。"""
+
+    def test_empty_value_blocked(self):
+        """正测：'grade 为空'（STRONG 子串）→ 被拦。"""
+        ok, msg = qt._check_negative_claims("**结论**：grade 为空。")
+        self.assertFalse(ok)
+        self.assertIn("为空", msg)
+
+    def test_data_damaged_pattern_blocked(self):
+        """正测：'数据已损坏'（断言句式正则）→ 被拦。"""
+        ok, msg = qt._check_negative_claims("**结论**：数据已损坏。")
+        self.assertFalse(ok)
+        self.assertIn("数据已损坏", msg)
+
+    def test_positive_no_truncation_not_blocked(self):
+        """反测：'无截断'正向声明 → 不硬拦（宽词仅提示）。"""
+        ok, _ = qt._check_negative_claims("**结论**：全程无截断，完整读取。")
+        self.assertTrue(ok)
+
+    def test_positive_no_damage_not_blocked(self):
+        """反测：'确认无损坏' → 正则不命中（无主语），仅宽词提示。"""
+        ok, msg = qt._check_negative_claims("**结论**：确认无损坏。")
+        self.assertTrue(ok)
+        self.assertIn("需人工", msg)
+
+    def test_with_anchor_pass(self):
+        """反测：数据异常断言 + 核查锚点（含完整读取证据）→ 通过。"""
+        text = ("**结论**：grade 为空。\n\n**存在性核查**：\n"
+                "- 查过形态：完整读取 SQLite（非截断视图），grade 列确为空\n"
+                "- 结论等级：确认缺失（全查过）")
+        ok, _ = qt._check_negative_claims(text)
+        self.assertTrue(ok)
