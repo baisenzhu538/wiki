@@ -1,10 +1,10 @@
 # 全库标签摸底体检报告（#474 · 2026-08-23）
 
-- 生成时间: 2026-08-23 23:55:42（治理进行中——数字随 #426 批次变动，收官以复扫归零为终态口径）
-- 扫描范围: `30_wiki/` 全部卡（2882 张，只读零修改）
-- 脏词率: 负向断言 0 + 课程名/来源混入 275（9.5%）| SOFT 观察: {} / 超长短语 {'>12字符': 6921}
-- 来源轴缺失: 1227 张
-- 空值/格式异常: 564 张（19.6%）
+- 生成时间: 2026-08-24 02:32:20（治理进行中——数字随 #426 批次变动，收官以复扫归零为终态口径）
+- 扫描范围: `30_wiki/` 全部卡（2883 张，只读零修改）
+- 脏词率: 负向断言 0 + 课程名/来源混入 276（9.6%）| SOFT 观察: {} / 超长短语 {'>12字符': 7426}
+- 来源轴缺失: 1183 张
+- 空值/格式异常: 396 张（13.7%）
 
 ## ①a 脏词·负向断言清单（STRONG+PATTERN，三层分档口径）
 - 无
@@ -139,6 +139,8 @@
 - `30_wiki\tools\tool-一堂-关键假设-ABCD场景分类器.md` `关键假设课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
 ### yitang, lean-startup（1）
 - `30_wiki\dark-knowledges\dk-tool-as-answer-trap.md` `关键假设课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+### yitang, management（1）
+- `30_wiki\tools\tool-yitang-project-gap-analysis.md` `后见之明` — X之Y 课程名前缀（应拆为内容词）
 ### yitang, research（15）
 - `30_wiki\cases\case-liutao-douyin-team-leader-9m.md` `高阶情报调研课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
 - `30_wiki\cases\case-liutao-electric-bike-localization.md` `高阶情报调研课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
@@ -166,7 +168,6 @@
 - `30_wiki\bridges\bridge-coaching-leadership-feature-layered.md` source_person=Truman source_context=教练式领导力探索营 × Feature分层体系 跨课桥接
 - `30_wiki\bridges\bridge-dual-track-feature-system.md` source_person=欧阳锋/王语嫣 source_context=欧阳锋洞察3：cap_hub质量门禁Feature ≠ 课程解题Feature—
 - `30_wiki\bridges\bridge-how-to-know-person-to-business.md` source_person=布鲁克斯 / 水水 source_context=
-- `30_wiki\bridges\bridge-meeting-leadership-coaching.md` source_person=Truman source_context=科学开会系列课（认知篇+武器库上下篇）× 教练式领导力探索营
 - `30_wiki\bridges\bridge-panproduct-kids-translation.md` source_person=崔磊 source_context=
 - `30_wiki\bridges\bridge-个人复盘×知识管理W-Z-K-P.md` source_person=Truman source_context=Truman复盘课批注图230938（W-Z-K-P模型）
 - `30_wiki\cases\case-4000-titles-ten-strategies.md` source_person=马易 source_context=Live259 爆炸式调研（2026-08-11 口述）——长期资产原型案例
@@ -202,7 +203,6 @@
 - `30_wiki\cases\case-ji-hao-skill-market-problem-validation.md` source_person=纪浩 source_context=AI俱乐部·AI协作方法论分享（2026年）
 - `30_wiki\cases\case-ji-hao-skills-market.md` source_person=纪浩 source_context=AI俱乐部-AI协作方法论 分享
 - `30_wiki\cases\case-ji-hao-ui-design-constraint-evolution.md` source_person=纪浩 source_context=AI俱乐部·AI协作方法论分享（2026年）
-- `30_wiki\cases\case-leadership-communication-failures.md` source_person=莫非 source_context=教练式领导力探索营——沟通失败案例分析
 - `30_wiki\cases\case-lean-2b-gray-test.md` source_person=一堂课程讲师（自身业务复盘） source_context=一堂精益创业·低成本验证课程讲义
 - `30_wiki\cases\case-lean-adult-education.md` source_person=一堂课程讲师（教学推演案例） source_context=一堂精益创业·低成本验证课程
 - `30_wiki\cases\case-lean-building-in-vacuum.md` source_person=一堂课程讲师（教学案例） source_context=一堂精益创业·低成本验证课程
@@ -210,7 +210,9 @@
 - `30_wiki\cases\case-lean-crayfish-combo-test.md` source_person=一堂课程讲师（教学案例） source_context=一堂精益创业·低成本验证·系统测试曲线课程讲义
 - `30_wiki\cases\case-lean-electric-scooter-mvp.md` source_person=一堂课程讲师（教学推演案例） source_context=一堂精益创业·低成本验证实操课程
 - `30_wiki\cases\case-lean-genki-forest-toolkit.md` source_person=一堂课程讲义/讲师案例 source_context=一堂精益创业·低成本验证课程（元气森林试错工具箱幻灯片）
-- …共 1227 条
+- `30_wiki\cases\case-lean-gray-test-paradigm.md` source_person=张磊/一堂讲师 source_context=一堂低成本验证·系统测试曲线课程案例
+- `30_wiki\cases\case-lean-medical-device-milestone.md` source_person=一堂课程讲师（教学推演案例） source_context=一堂精益创业·低成本验证课程·医疗器械案例
+- …共 1183 条
 
 ## ③ 域地图（有轴/无轴）
 
@@ -254,8 +256,8 @@
 | coaching | 20 | — |
 | critical-thinking | 20 | — |
 | business-judgment | 19 | — |
+| human-insights | 18 | ✅ |
 | system | 18 | — |
-| human-insights | 17 | ✅ |
 | time-management | 16 | — |
 | lean-startup | 15 | — |
 | profit-pricing | 15 | — |
@@ -458,7 +460,61 @@
 - `30_wiki\cases\case-yihang-dual-triangle-一堂双三角-AI时代的竞争力武器库.md`: tags 缺失
 - `30_wiki\cases\case-yihang-dual-triangle-一堂双三角-AI落地五部曲.md`: tags 缺失
 - `30_wiki\cases\case-yihang-dual-triangle-一堂双三角-一个引擎-三阶六变.md`: tags 缺失
-- …共 564 条
+- …共 396 条
+
+## ⑥ aliases 污染清单（#494：结构词/路径词禁入 aliases）
+
+- `30_wiki\agent-specs\agent-spec-laowantong-producer.md` `kdo-charter-v0.1-draft.md` — 路径词/文件名（#428/#431 同族——别名不应含路径）
+- `30_wiki\agent-specs\agent-spec-laowantong-producer.md` `diag_20260822_fengqingyang-5role-spec-workflow.md` — 路径词/文件名（#428/#431 同族——别名不应含路径）
+- `30_wiki\agent-specs\agent-spec-laowantong-producer.md` `laowantong.md` — 路径词/文件名（#428/#431 同族——别名不应含路径）
+- `30_wiki\agent-specs\agent-spec-laowantong-producer.md` `ouyangfeng.md` — 路径词/文件名（#428/#431 同族——别名不应含路径）
+- `30_wiki\agent-specs\agent-spec-laowantong-producer.md` `laowantong-context.md` — 路径词/文件名（#428/#431 同族——别名不应含路径）
+- `30_wiki\agent-specs\agent-spec-laowantong-producer.md` `20_memory` — 路径词/文件名（#428/#431 同族——别名不应含路径）
+- `30_wiki\agent-specs\agent-spec-laowantong-producer.md` `laowantong-amnesia-recovery.md` — 路径词/文件名（#428/#431 同族——别名不应含路径）
+- `30_wiki\cases\case-ai-assisted-review.md` `案例：一堂用AI做复盘从Before/After对比到AI自己复盘自己` — 路径词/文件名（#428/#431 同族——别名不应含路径）
+- `30_wiki\cases\case-ai-writing-homogenization.md` `一堂《吾辈如神》拆书会主讲人 / 老顽童整理` — 路径词/文件名（#428/#431 同族——别名不应含路径）
+- `30_wiki\cases\case-ban-fei-mao-skill-ab-test.md` `案例：SkillA/B测试用Skillvs不用Skill的12维度对比` — 路径词/文件名（#428/#431 同族——别名不应含路径）
+- `30_wiki\cases\case-child-drawing-rhyme.md` `{'framework_lens': '最小建模 / 口诀压缩'}` — 路径词/文件名（#428/#431 同族——别名不应含路径）
+- `30_wiki\cases\case-cross-xingangwan-pharma.md` `项目相关方（录音）/ 王语嫣（整理）` — 路径词/文件名（#428/#431 同族——别名不应含路径）
+- `30_wiki\cases\case-cross-yuanqi-forest.md` `一堂课程讲义/讲师案例` — 路径词/文件名（#428/#431 同族——别名不应含路径）
+- `30_wiki\cases\case-demand-equestrian-three-tasks.md` `功能/情感/社交的完美展演` — 路径词/文件名（#428/#431 同族——别名不应含路径）
+- `30_wiki\cases\case-demand-equestrian-three-tasks.md` `案例：马术三层任务功能/情感/社交的完美展演` — 路径词/文件名（#428/#431 同族——别名不应含路径）
+- `30_wiki\cases\case-demand-iceberg-few-shot.md` `奶昔/银发育儿/挂脖空调/马术课` — 路径词/文件名（#428/#431 同族——别名不应含路径）
+- `30_wiki\cases\case-demand-iceberg-few-shot.md` `需求冰山FewShot案例库：奶昔/银发育儿/挂脖空调/马术课` — 路径词/文件名（#428/#431 同族——别名不应含路径）
+- `30_wiki\cases\case-design-principles-90.md` `PDF文本_WhyAI爆炸式调研建模案例-学习设计原则.md` — 路径词/文件名（#428/#431 同族——别名不应含路径）
+- `30_wiki\cases\case-essence-humanity-trap.md` `招聘/股权/激励专家都把本质归为'人性` — 路径词/文件名（#428/#431 同族——别名不应含路径）
+- `30_wiki\cases\case-essence-humanity-trap.md` `案例：招聘/股权/激励专家都把本质归为'人性'解释性本质的陷阱` — 路径词/文件名（#428/#431 同族——别名不应含路径）
+- `30_wiki\cases\case-feishu-disruptive-innovation.md` `绕开WPS/Office开辟联网协作新赛道` — 路径词/文件名（#428/#431 同族——别名不应含路径）
+- `30_wiki\cases\case-feishu-disruptive-innovation.md` `飞书：绕开WPS/Office开辟联网协作新赛道` — 路径词/文件名（#428/#431 同族——别名不应含路径）
+- `30_wiki\cases\case-lean-electric-scooter-mvp.md` `案例：共享电动滑板车A/B/C/D四级MVP验证` — 路径词/文件名（#428/#431 同族——别名不应含路径）
+- `30_wiki\cases\case-lean-genki-forest-toolkit.md` `一堂课程讲义/讲师案例` — 路径词/文件名（#428/#431 同族——别名不应含路径）
+- `30_wiki\cases\case-lean-gray-test-paradigm.md` `张磊/一堂讲师` — 路径词/文件名（#428/#431 同族——别名不应含路径）
+- `30_wiki\cases\case-lean-premature-expansion.md` `一堂课程讲师/学员（教学案例）` — 路径词/文件名（#428/#431 同族——别名不应含路径）
+- `30_wiki\cases\case-lean-radish-channel-selection.md` `一堂课程讲师/学员（教学复盘案例）` — 路径词/文件名（#428/#431 同族——别名不应含路径）
+- `30_wiki\cases\case-lean-weak-solution.md` `一堂课程讲师/学员案例（教学案例集）` — 路径词/文件名（#428/#431 同族——别名不应含路径）
+- `30_wiki\cases\case-milktea-five-step.md` `Truman / 古董` — 路径词/文件名（#428/#431 同族——别名不应含路径）
+- `30_wiki\cases\case-modeling-gongjianhui-facilitation.md` `共建会/攻坚会流程建模` — 路径词/文件名（#428/#431 同族——别名不应含路径）
+- `30_wiki\cases\case-modeling-gongjianhui-facilitation.md` `共建会/攻坚会流程建模：从3050%成功率到80100%的89步法` — 路径词/文件名（#428/#431 同族——别名不应含路径）
+- `30_wiki\cases\case-opc-128-directions.md` `PDF文本_WhyAI爆炸式调研建模案例-opc一人公司调研.md` — 路径词/文件名（#428/#431 同族——别名不应含路径）
+- `30_wiki\cases\case-panproduct-lanyi-dahanghui-team.md` `兰毅 / 一堂` — 路径词/文件名（#428/#431 同族——别名不应含路径）
+- `30_wiki\cases\case-panproduct-lanyi-shidonghui-npc.md` `兰毅 / 一堂` — 路径词/文件名（#428/#431 同族——别名不应含路径）
+- `30_wiki\cases\case-panproduct-top135-selection-polish.md` `案例：top1/top3/top5筛选打磨` — 路径词/文件名（#428/#431 同族——别名不应含路径）
+- `30_wiki\cases\case-smart-medicine-cabinet-corporate-risk.md` `公司/股权/资金风险诊断` — 路径词/文件名（#428/#431 同族——别名不应含路径）
+- `30_wiki\cases\case-smart-medicine-cabinet-corporate-risk.md` `智能药柜推广项目：公司/股权/资金风险诊断` — 路径词/文件名（#428/#431 同族——别名不应含路径）
+- `30_wiki\cases\case-truman-ai-native-research-flow.md` `src_2026-08-20_wechat_2404c1658025473c.md` — 路径词/文件名（#428/#431 同族——别名不应含路径）
+- `30_wiki\cases\case-truman-shower-toilet-ideation.md` `案例：Truman洗澡/厕所灵感爆发暗时间如何在脑力CPU不饱和时产出高价值创意` — 路径词/文件名（#428/#431 同族——别名不应含路径）
+- `30_wiki\cases\case-truman-shower-toilet-ideation.md` `洗澡/厕所灵感爆发` — 路径词/文件名（#428/#431 同族——别名不应含路径）
+- `30_wiki\cases\case-truman-time-management-commute-experiment.md` `Truman（一堂学员/时间管理经验分享者）` — 路径词/文件名（#428/#431 同族——别名不应含路径）
+- `30_wiki\cases\case-vibecoding-one-week-delivery.md` `OCR_一堂DOC-20260816015547.md` — 路径词/文件名（#428/#431 同族——别名不应含路径）
+- `30_wiki\cases\case-vibecoding-one-week-delivery.md` `OCR_一堂DOC-20260816015601.md` — 路径词/文件名（#428/#431 同族——别名不应含路径）
+- `30_wiki\cases\case-xiaolong-ecommerce-foresight.md` `小龙（卖外/跨境创业者，一堂电商破局课讲师）` — 路径词/文件名（#428/#431 同族——别名不应含路径）
+- `30_wiki\cases\case-yihang-dual-triangle-AI三角-场景.md` `audience:general` — 结构词前缀（audience:/scene: 等——应移除或归位 tags）
+- `30_wiki\cases\case-yihang-dual-triangle-AI三角-场景.md` `scene:reference` — 结构词前缀（audience:/scene: 等——应移除或归位 tags）
+- `30_wiki\cases\case-yihang-dual-triangle-AI三角-场景.md` `skill-level:intermediate` — 结构词前缀（audience:/scene: 等——应移除或归位 tags）
+- `30_wiki\cases\case-yihang-dual-triangle-AI三角-基本功.md` `audience:general` — 结构词前缀（audience:/scene: 等——应移除或归位 tags）
+- `30_wiki\cases\case-yihang-dual-triangle-AI三角-基本功.md` `scene:reference` — 结构词前缀（audience:/scene: 等——应移除或归位 tags）
+- `30_wiki\cases\case-yihang-dual-triangle-AI三角-基本功.md` `skill-level:intermediate` — 结构词前缀（audience:/scene: 等——应移除或归位 tags）
+- …共 1555 条
 
 ## ⑤ 来源形态词黑名单（#484：独立出现=污染内容词池）
 

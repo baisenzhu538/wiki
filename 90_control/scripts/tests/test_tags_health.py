@@ -18,7 +18,7 @@ cth = importlib.util.module_from_spec(_SPEC2)
 _SPEC2.loader.exec_module(cth)
 
 
-def _fm(tags=None, domain=None, sp=None, sc=None):
+def _fm(tags=None, domain=None, sp=None, sc=None, aliases=None):
     fm = {}
     if tags is not None:
         fm["tags"] = tags
@@ -28,6 +28,8 @@ def _fm(tags=None, domain=None, sp=None, sc=None):
         fm["source_person"] = sp
     if sc:
         fm["source_context"] = sc
+    if aliases is not None:
+        fm["aliases"] = aliases
     return fm
 
 
@@ -158,3 +160,30 @@ class TestSourceWordBlacklist(AuditBase):
         self.write_card("b.md", _fm(tags=["科学决策"], domain=["decision-making"]))
         r = ta.audit(ta.scan_cards())
         self.assertEqual(r["source_word_rate"], 50.0)
+
+
+class TestAliasPollution(AuditBase):
+    """#494 第6指标：aliases 结构词/路径词污染（正反用例）。"""
+
+    def test_struct_prefix_reported(self):
+        self.write_card("a.md", _fm(tags=["科学决策"], domain=["decision-making"], aliases=["audience:executor", "好名"]))
+        r = ta.audit(ta.scan_cards())
+        hits = [h for h in r["alias_hits"] if "audience:executor" in h[1]]
+        self.assertEqual(len(hits), 1)
+
+    def test_path_word_reported(self):
+        self.write_card("a.md", _fm(tags=["x"], aliases=["decisions.md", "正常别名"]))
+        r = ta.audit(ta.scan_cards())
+        self.assertEqual(len(r["alias_hits"]), 1)
+        self.assertIn("路径词", r["alias_hits"][0][2])
+
+    def test_clean_aliases_not_reported(self):
+        self.write_card("a.md", _fm(tags=["x"], aliases=["科学决策", "拍板原则"]))
+        r = ta.audit(ta.scan_cards())
+        self.assertEqual(r["alias_hits"], [])
+
+    def test_alias_rate_computed(self):
+        self.write_card("a.md", _fm(tags=["x"], aliases=["decisions.md"]))
+        self.write_card("b.md", _fm(tags=["x"], aliases=["好名"]))
+        r = ta.audit(ta.scan_cards())
+        self.assertEqual(r["alias_rate"], 50.0)

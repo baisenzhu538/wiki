@@ -54,6 +54,11 @@ SOURCE_FORM_CONTROLLED = {"拆书会", "口述", "开放麦"}
 # 复合词白名单（含黑名单词但为合法内容词——只拦独立出现）
 SOURCE_FORM_WHITELIST = {"笔记法", "分享经济", "对话体", "口述史", "直播课", "拆书", "直播回放"}
 
+# ⑥ aliases 结构词污染（#494：结构词/路径词/文件名禁入 aliases——挤占别名语义+检索噪声）
+ALIAS_STRUCT_PREFIXES = ("audience:", "scene:", "skill-level:", "domain:", "type:", "status:", "confidence:")
+ALIAS_PATH_WORDS = ("20_memory", "30_wiki", "60_feedback", "70_product", "90_control", "kdo-tools",
+                    "decisions", "tasks", "agent复盘", "Desktop", "appdata")
+
 
 def read_frontmatter(fp: Path, max_lines: int = 300) -> dict | None:
     """逐行读到第二个 ---（frontmatter 可超 1500B，截断解析=yaml 崩溃——#168 教训）。"""
@@ -104,6 +109,7 @@ def audit(cards) -> dict:
     dirty = []           # (path, word, level) 负向断言类
     dirty_course = []    # (path, tag, reason) 课程名/来源混入类
     source_word_hits = []  # (path, word) #484 第5指标：来源形态词黑名单
+    alias_hits = []      # (path, alias, reason) #494 第6指标：aliases 结构词/路径词污染
     long_hits = Counter()  # 超长短语 SOFT 观察
     source_missing = []  # (path, source_person, source_context)
     domain_counts = Counter()
@@ -156,6 +162,16 @@ def audit(cards) -> dict:
                 if tag in SOURCE_FORM_WORDS:
                     source_word_hits.append((fp, tag))
 
+        # ⑥ aliases 结构词/路径词污染（#494：aliases 只承载别名语义）
+        al = fm.get("aliases")
+        if isinstance(al, list):
+            for a in al:
+                a = str(a)
+                if a.startswith(ALIAS_STRUCT_PREFIXES):
+                    alias_hits.append((fp, a, "结构词前缀（audience:/scene: 等——应移除或归位 tags）"))
+                elif a.endswith(".md") or "\\" in a or "/" in a or any(w in a for w in ALIAS_PATH_WORDS):
+                    alias_hits.append((fp, a, "路径词/文件名（#428/#431 同族——别名不应含路径）"))
+
         # ② 来源轴缺失
         sp = fm.get("source_person")
         sc = fm.get("source_context")
@@ -181,6 +197,8 @@ def audit(cards) -> dict:
         "long_hits": dict(long_hits),
         "source_word_hits": source_word_hits,
         "source_word_rate": round(len(source_word_hits) / total * 100, 2) if total else 0,
+        "alias_hits": alias_hits,
+        "alias_rate": round(len(alias_hits) / total * 100, 2) if total else 0,
         "source_missing": source_missing,
         "domain_counts": domain_counts,
         "empty_bad": empty_bad,
@@ -201,6 +219,7 @@ def main() -> int:
     print(f"③ 域分布: {len(r['domain_counts'])} 个域，词池轴域: {sorted(set(r['domain_counts']) & AXIS_DOMAINS)}")
     print(f"④ 空值/格式异常: {len(r['empty_bad'])}（空值率 {r['empty_rate']}%）")
     print(f"⑤ 来源形态词黑名单（#484）: {len(r['source_word_hits'])}（污染率 {r['source_word_rate']}%）")
+    print(f"⑥ aliases 污染（#494）: {len(r['alias_hits'])}（污染率 {r['alias_rate']}%）")
 
     if not args.domain:
         _write_report(r)
@@ -259,6 +278,13 @@ def _write_report(r: dict) -> None:
         lines.append(f"- `{fp.relative_to(WIKI_ROOT)}`: {reason}")
     if len(r["empty_bad"]) > 50:
         lines.append(f"- …共 {len(r['empty_bad'])} 条")
+    lines += ["", "## ⑥ aliases 污染清单（#494：结构词/路径词禁入 aliases）", ""]
+    if not r["alias_hits"]:
+        lines.append("- 无")
+    for fp, alias, reason in r["alias_hits"][:50]:
+        lines.append(f"- `{fp.relative_to(WIKI_ROOT)}` `{alias}` — {reason}")
+    if len(r["alias_hits"]) > 50:
+        lines.append(f"- …共 {len(r['alias_hits'])} 条")
     lines += ["", "## ⑤ 来源形态词黑名单（#484：独立出现=污染内容词池）", ""]
     if not r["source_word_hits"]:
         lines.append("- 无")
