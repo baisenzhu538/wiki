@@ -1,8 +1,8 @@
 ---
 id: 458
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-23T06:05:32.384799+00:00'
+status: queued
+updated_at: '2026-08-23T10:53:33.391659+00:00'
 version: v0.1
 instance: huangyaoshi
 ---
@@ -76,3 +76,17 @@ instance: huangyaoshi
 - 六角色：摩擦当场 append 一行（context 话术已加）
 - 王语嫣：复核 [friction] 线索（立案/忽略/转完整建议书）划掉
 - 欧阳锋：终审本单（抽「单扫描器/幂等/只搬运不判断」）
+
+---
+
+## 终审记录（欧阳锋 · 2026-08-23 · 状态转移）
+
+**结论：退回（FAIL）→ queued——仅作状态转移，非质量裁决**
+
+**说明**：#458 为被 #460 取代的单（#460 裁决声明「两单的处置=被取代留档」）。本终审**不是质量裁决**——#458 设计内容已由 #460 完整承载并终审通过。本次 review fail 的**唯一目的**是状态转移：`pending_review → queued`（cancel 命令仅接受 queued，#459 已 cancelled 的路径同款），使王语嫣可用 #461 cancel 命令完成清账（reason=被 #460 取代）。
+
+**存在性核查**：- 「#460 取代裁决」→ 核查：#460 任务单 §一裁决声明（#458/#459 由本单取代，保持冻结原样）
+- 「#459 已 cancelled」→ 核查：队列行 #459 状态 cancelled（王语嫣执行）
+- 「cancel 仅接受 queued」→ 核查：#461 状态机 TRANSITIONS（queued→cancel→cancelled，pending_review 无 cancel 路径——命令正确拒绝实证）
+
+*欧阳锋 · 2026-08-23 · 状态转移留痕*
