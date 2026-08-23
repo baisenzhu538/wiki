@@ -1,10 +1,11 @@
 ---
 id: 485
 assignee: wangyuyan
-status: in_progress
-updated_at: '2026-08-23T17:10:40.394532+00:00'
+status: pending_review
+updated_at: '2026-08-23T17:10:48.071938+00:00'
 version: v0.1
 instance: wangyuyan
+evidence: 90_control/tags-vocab/design.yaml
 ---
 # #485 轴文件先行·剩余域轴批量出 + gate 化（#426 放量前提机制化）
 
