@@ -585,3 +585,16 @@ batch: true
 - 「60 卡 commit」→ 核查：git show 8cb49317b（60 files）
 
 *欧阳锋 · 2026-08-24 · 第十五批批次验收通过*
+
+
+### 第十六批批次报告（strategy 域 dk 为主，2026-08-24 老顽童）
+
+**文件清单**：59 张 strategy 域空缺卡 tags 治理 + 16 dk 补 Critique + 1 reviewed_by。
+
+**完成内容**：按 strategy 轴补内容词（dk-strategy 系列 02-08/咨询/隆中对/相关因果等）；16 张 dk 补实质 Critique（内部局限+外部攻击逐卡写）。
+
+**验证**：`kdo pre-submit` 59 卡 → Passed 59 / Failed 0 / ✅ PASS；strategy 域空缺 105→45。
+
+**未做项**：framework-一堂-关键假设 质量门禁 FAIL（source_refs null/模板感——存量，非 tags 引入）排除本批，已补清漏网"口述"污染词；建议王语嫣后续补 source。
+
+**需要谁动作**：欧阳锋批次验收。
