@@ -34,3 +34,6 @@ migration:
 
 # 保留既有体系：audience:*/scene:*/skill-level:* 前缀词为结构化字段式标签，与本轴并行不冲突
 #（它们本质是受控维度——本轴 words 是内容词，两层并存）
+
+# 新词建议（#481 产卡上报，待王语嫣审词入轴 v0.2）：
+# 上瘾门槛/热销放大/盲盒/不确定性——concept-addiction-threshold + tool-blind-box-mechanism 新增
