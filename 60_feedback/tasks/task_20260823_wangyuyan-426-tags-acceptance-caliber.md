@@ -1,10 +1,11 @@
 ---
 id: 480
 assignee: wangyuyan
-status: in_progress
-updated_at: '2026-08-23T17:05:35.022696+00:00'
+status: pending_review
+updated_at: '2026-08-23T17:05:58.290550+00:00'
 version: v0.1
 instance: wangyuyan
+evidence: 60_feedback/tasks/task_20260822_laowantong-tags-judgment-batch.md
 ---
 # #480 #426 后续批次验收标准升级口径单（抽查读正文+机械辅助，E047 上板冻结传口径）
 
@@ -78,10 +79,11 @@ instance: wangyuyan
 
 ## 执行报告（F-034 五字段 + 验证分层声明）
 
-- **改动文件清单**：`60_feedback/tasks/task_20260822_laowantong-tags-judgment-batch.md`（#426 任务单 append #480 口径节，append-only 未吞节）；本任务单（执行报告）
-- **完成内容一句话**：口径三条款（抽查读正文≥3张/机械辅助高频词重叠/验收记录声明抽查范围 + 存量已治理批复查 10-15% + dk-research-decision-first-mapping 补词）append 落盘到 #426 任务单，传老顽童（执行）+欧阳锋（验收）
-- **验证命令+输出**：Python append 后 grep 校验——「抽查必须读正文」✅ /「存量已治理批复查」✅ /「dk-research-decision-first-mapping」✅ / 口径 1-3 ✅；append-only 未覆盖既有节（E046 合规）
-- **未做项/边界**：口径 2 存量复查排期由老顽童执行（王语嫣不改卡 O7）；机械辅助扩展挂 #474 后续（黄药师，可选）；未改 #426 本体（E047 上板冻结传口径）
+- **文件清单**（改动文件）：`60_feedback/tasks/task_20260822_laowantong-tags-judgment-batch.md`（#426 任务单 append #480 口径节，append-only 未吞节）；本任务单（执行报告）
+- **完成内容**：口径三条款（抽查读正文≥3张/机械辅助高频词重叠/验收记录声明抽查范围 + 存量已治理批复查 10-15% + dk-research-decision-first-mapping 补词）append 落盘到 #426 任务单，传老顽童（执行）+欧阳锋（验收）
+- **验证**（命令+输出）：Python append 后 grep 校验——「抽查必须读正文」✅ /「存量已治理批复查」✅ /「dk-research-decision-first-mapping」✅ / 口径 1-3 ✅；append-only 未覆盖既有节（E046 合规）
+- **未做项**：口径 2 存量复查排期由老顽童执行；机械辅助扩展挂 #474 后续（黄药师，可选）
+- **边界**：王语嫣不改卡（O7）；未改 #426 本体（E047 上板冻结传口径）
 - **需要谁动作**：欧阳锋终审本单（#480）；老顽童按口径 1/3 执行后续批次；老顽童排期口径 2 存量复查
 
 ### 验证分层声明
