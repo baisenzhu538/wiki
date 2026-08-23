@@ -1,8 +1,8 @@
 ---
 id: 442
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-23T03:23:19.345258+00:00'
+status: pending_review
+updated_at: '2026-08-23T03:23:52.820446+00:00'
 ---
 # #442 负向门禁强词误伤返工（#435 审计返工）
 
