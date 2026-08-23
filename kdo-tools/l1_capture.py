@@ -21,13 +21,21 @@ from pathlib import Path
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-# 甲类源（会话存储）；新增工具在此登记
+# 甲类源（会话存储）；新增工具在此登记（#489：codex/opencode/qwen 四源补全，
+# F-048 codex 定性=工厂角色工具，采集面纳全量）
 SOURCE_DIRS = {
     "claude": Path.home() / ".claude" / "projects" / "C--Users-Administrator",
     "kimi": Path.home() / ".kimi-code",
     "hermes": Path("C:/Users/Administrator/AppData/Local/hermes/profiles"),
+    "codex": Path.home() / ".codex",
+    "codex-homes": Path("D:/KDO-memory/codex-homes"),  # 角色隔离目录（未来主力，#490 切换后生效）
+    "opencode": Path.home() / ".config" / "opencode",
+    "qwen": Path.home() / ".qwen",
 }
-SESSION_EXTS = (".jsonl", ".md", ".json", ".txt", ".log")
+SESSION_EXTS = (".jsonl", ".md", ".json", ".txt", ".log", ".sqlite")  # .sqlite=codex state/logs
+# 敏感/非会话文件排除（凭证与安装元数据不进全量库）
+SESSION_SKIP_FILES = {"auth.json", "installation_id", "cap_sid", "opencode.json", "package.json",
+                      "package-lock.json", "config.toml"}
 L1_ROOT = Path("D:/KDO-memory/L1-full")
 MIRROR_ROOT = Path.home() / ".kdo-memory" / "L1-full-backup"
 
@@ -79,6 +87,8 @@ def _session_files(src: Path) -> list[Path]:
     for p in src.rglob("*"):
         try:
             if not p.is_file() or p.suffix not in SESSION_EXTS:
+                continue
+            if p.name in SESSION_SKIP_FILES:  # #489：敏感/非会话文件排除
                 continue
             if any(part in skip for part in p.parts):
                 continue

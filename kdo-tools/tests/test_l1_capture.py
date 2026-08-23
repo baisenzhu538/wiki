@@ -71,3 +71,26 @@ class TestLogSizeAndAlert(BaseVolumeTest):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestCaptureSources(unittest.TestCase):
+    """#489：采集面四源补全 + 敏感文件排除。"""
+
+    def test_new_sources_registered(self):
+        for src in ("codex", "codex-homes", "opencode", "qwen"):
+            self.assertIn(src, lc.SOURCE_DIRS)
+
+    def test_sqlite_ext_added(self):
+        self.assertIn(".sqlite", lc.SESSION_EXTS)
+
+    def test_sensitive_files_skipped(self):
+        import tempfile, shutil
+        tmp = Path(tempfile.mkdtemp())
+        (tmp / "auth.json").write_text('{"token": "x"}', encoding="utf-8")
+        (tmp / "history.jsonl").write_text("session line\n", encoding="utf-8")
+        try:
+            files = [f.name for f in lc._session_files(tmp)]
+            self.assertIn("history.jsonl", files)
+            self.assertNotIn("auth.json", files)
+        finally:
+            shutil.rmtree(tmp, ignore_errors=True)
