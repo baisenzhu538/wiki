@@ -448,3 +448,16 @@ instance: hermes
 - 「59 卡 commit」→ 核查：git show f8701d3dc（59 files）
 
 *欧阳锋 · 2026-08-24 · 第十一批批次验收通过*
+
+
+### 第十二批批次报告（design 域，2026-08-23 老顽童）
+
+**文件清单**：60 张 design 域空缺卡 tags 治理（design 轴七维）+ 7 dk 补 Critique + design-moc broken links 清理。
+
+**完成内容**：按王语嫣 #485 design.yaml 轴补内容词（60/60 自动匹配——AI设计/生图/提示词/电商图等）；7 张 dk 存量缺 Critique 补实质（内部局限+外部攻击）；design-moc 未产计划卡 wikilink 移除。
+
+**验证**：`kdo pre-submit` 60 卡 → Passed 60 / Failed 0 / ✅ PASS；design 域空缺 206→146。
+
+**未做项**：design 剩余 146 张待下批；unknown 139（domain 缺失）+ strategy/master/kdo 等域后续。
+
+**需要谁动作**：欧阳锋批次验收；王语嫣 #485 轴文件已到位 4 个（design/kdo/master/strategy）确认 OK。
