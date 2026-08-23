@@ -1,8 +1,8 @@
 ---
 id: 426
 assignee: laowantong
-status: in_progress
-updated_at: '2026-08-23T10:59:26.801884+00:00'
+status: pending_review
+updated_at: '2026-08-23T11:15:03.485732+00:00'
 instance: hermes
 ---
 # #426 739 张 tags 判断类分批治理（长程）
@@ -41,7 +41,7 @@ instance: hermes
 
 ---
 
-## 批次执行报告（首批=决策域试点批，2026-08-23 老顽童）
+## 执行报告（首批=决策域试点批，2026-08-23 老顽童）
 
 **文件清单**：44 张决策域卡 tags 治理（commit 1968d0b8a）：8 张 MISSING（补 tags 块）+ 36 张 STRUCT_ONLY（补内容词）；另修 3 张行尾/块替换 bug、2 张 dk 存量补 Critique。
 
@@ -49,6 +49,6 @@ instance: hermes
 
 **验证**：`kdo pre-submit -f <44卡>` → Passed 44 / Failed 0 / ✅ PASS（YAML 0 / DK_SECTION 0；ALIASES 18 warnings 为 source 名诊断性）；**决策域 tags 判断类空缺复扫归零（44→0）**（复扫口径=全库 30_wiki 所有 status 不过滤 + domain 列表含 decision/科学决策 值非只第一值）。
 
-**未做项/边界**：决策域 ~100 张池的其余非空缺卡不本批处理（本批只治理判断类空缺）；其他域（ai-collaboration/human-insights）待词表轴文件就绪后按域放量；#426 整单未闭环（试点批 PASS 后继续）。
+**未做项**：决策域 ~100 张池的其余非空缺卡不本批处理（本批只治理判断类空缺）；其他域（ai-collaboration/human-insights）待词表轴文件就绪后按域放量；#426 整单未闭环（试点批 PASS 后继续）。
 
 **需要谁动作**：欧阳锋批次验收（抽维度覆盖+迁移映射正确+tags 与卡内容一致）；验收 PASS 后队列行恢复 queued 继续下一批。
