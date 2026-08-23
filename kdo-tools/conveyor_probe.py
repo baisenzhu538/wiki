@@ -100,16 +100,29 @@ def _route_queued(rows: list) -> dict[str, list]:
 
 
 def _queue_signal(state: dict) -> dict:
-    """返回 [(task_id, seq)] 对（seq=队列序号，P2 修复：通知显示 #序号 非 slug 尾）。"""
+    """返回 [(task_id, seq)] 对（seq=队列序号）。#462 新增流转完成信号（治编排者盲区）。"""
     rows = parse_queue(QUEUE_FILE)
     review = [(r["task_id"], r["seq"]) for r in rows if r["status"] == "pending_review"]
     queued = [(r["task_id"], r["seq"], r.get("assignee", "")) for r in rows if r["status"] == "queued"]
+    reviewed = [(r["task_id"], r["seq"]) for r in rows if r["status"] == "reviewed"]
     last_review = state.get("last_review_pending", [])
     last_queued = state.get("last_queued", [])
+    last_reviewed = state.get("last_reviewed", [])
     new_review = [(t, s) for t, s in review if t not in last_review]
     new_queued = [(t, s, a) for t, s, a in queued if t not in last_queued]
+    # #462：流转完成信号——new_reviewed（新增终审通过）/ new_failback（pending_review→queued 退回）
+    new_reviewed = [(t, s) for t, s in reviewed if t not in last_reviewed]
+    now_pending = {t for t, _ in review}
+    new_failback = [(t, s) for t, s in review if False]  # 占位（failback 需对比上次 pending 快照）
+    # failback = 上次 pending_review 里的任务，现在既不在 pending 也不在 reviewed（=退回 queued）
+    failback_candidates = [t for t in last_review if t not in now_pending and t not in {x for x, _ in reviewed}]
+    new_failback = [(t, s, a) for t, s, a in queued if t in failback_candidates]
     state["last_review_pending"], state["last_queued"] = [t for t, _ in review], [t for t, _, _ in queued]
-    return {"new_review": new_review, "new_queued": new_queued}
+    state["last_reviewed"] = [t for t, _ in reviewed]
+    return {
+        "new_review": new_review, "new_queued": new_queued,
+        "new_reviewed": new_reviewed, "new_failback": new_failback,
+    }
 
 
 # ── 信号 3：建议书三元组检出 + PROPOSAL-PENDING 登记（幂等）──
@@ -428,6 +441,15 @@ def main() -> int:
         # #460：门禁拦截自动登记（[gate-blocked]）+ 通知——机器自报，零依赖 agent 自觉
         _update_proposal_board_gate(gate_new)
         messages["wangyuyan"] = f"⛔ KDO 门禁拦截 {len(gate_new)} 次（gate-blocked）：{gate_new[0][:70]}{'…' if len(gate_new) > 1 else ''}"
+    if queue_sig["new_reviewed"]:
+        # #462：终审完成 → 通知编排者（治编排者盲区——#447 PASS 靠老朱询问才知）
+        items = ", ".join(f"#{seq}" if seq else tid for tid, seq in queue_sig["new_reviewed"])
+        messages["wangyuyan"] = f"⚖️ KDO 已终审 {len(queue_sig['new_reviewed'])} 单：{items}（待部署/已闭环）"
+    if queue_sig["new_failback"]:
+        # #462：终审退回 → 按 assignee 路由通知（#443 同款；生产者返工不再靠自觉）
+        for tid, seq, assignee in queue_sig["new_failback"]:
+            role = ASSIGNEE_ROLE.get(str(assignee).strip(), "laowantong")
+            messages[role] = f"↩️ KDO 退回 1 单：#{seq}（{tid}），见任务单终审记录"
 
     # 幂等：同 id 不重推（登记与通知同源——registered 是本次扫描产物）
     notified = set(state.get("notified", []))

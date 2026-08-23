@@ -207,3 +207,43 @@ def test_gate_blocked_scan_and_registration(tmp_path, monkeypatch):
     assert "[gate-blocked] task_426" in text
     probe._update_proposal_board_gate(first)
     assert text.count("[gate-blocked]") == 1  # 幂等
+
+
+# ── #462 流转完成信号回归（new_reviewed→王语嫣 / new_failback→assignee）──
+
+def test_review_done_and_failback_signals(tmp_path, monkeypatch):
+    """状态对比：新增 reviewed 检出 + pending→queued 退回检出，幂等。"""
+    queue = tmp_path / "production-queue.md"
+    SEP = "|:---:|:---|:---|:---:|:---:|---:|:---|:---|:---|"
+    def write_queue(reviewed_ids, pending_ids, queued_ids):
+        rows = []
+        for i, t in enumerate(reviewed_ids):
+            rows.append(f"| {i+1} | `{t}` | t{i} | reviewed | laowantong | x | 无 | t.md | 测试 |")
+        for i, t in enumerate(pending_ids):
+            rows.append(f"| {i+10} | `{t}` | t{i} | pending_review | huangyaoshi | x | 无 | t.md | 测试 |")
+        for i, t in enumerate(queued_ids):
+            rows.append(f"| {i+20} | `{t}` | t{i} | queued | laowantong | x | 无 | t.md | 测试 |")
+        queue.write_text("# 队列\n\n| # | 任务 | 名称 | 状态 | 负责人 | 交付物 | 依赖 | 任务单 | 备注 |\n" + SEP + "\n" + "\n".join(rows) + "\n", encoding="utf-8")
+    monkeypatch.setattr(probe, "QUEUE_FILE", queue)
+
+    # 第一次扫描：task_a pending_review（快照）
+    write_queue(reviewed_ids=[], pending_ids=["task_a"], queued_ids=[])
+    state = {}
+    sig1 = probe._queue_signal(state)
+    assert sig1["new_reviewed"] == []
+    assert sig1["new_failback"] == []
+
+    # 第二次扫描：task_a 变 reviewed（终审 PASS）→ new_reviewed 检出
+    write_queue(reviewed_ids=["task_a"], pending_ids=[], queued_ids=[])
+    sig2 = probe._queue_signal(state)
+    assert [t for t, _ in sig2["new_reviewed"]] == ["task_a"]
+
+    # 第三次扫描：task_b pending_review → queued（退回）→ new_failback 检出（带 assignee）
+    write_queue(reviewed_ids=["task_a"], pending_ids=[], queued_ids=["task_b"])
+    state["last_review_pending"] = ["task_b"]  # 模拟上次快照含 task_b pending
+    sig3 = probe._queue_signal(state)
+    assert [t for t, _, _ in sig3["new_failback"]] == ["task_b"]
+
+    # 幂等：重扫不重复
+    sig4 = probe._queue_signal(state)
+    assert sig4["new_reviewed"] == [] and sig4["new_failback"] == []
