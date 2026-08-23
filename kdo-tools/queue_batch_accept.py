@@ -52,11 +52,16 @@ def _set_task_status(task_id: str, new_status: str) -> str:
     return _subn_assert(text, r"(?m)^(status:\s*)\S+", rf"\g<1>{new_status}", "frontmatter status")
 
 
+def _commit_add_paths(task_id: str) -> list[str]:
+    """#482：add 路径必须相对 WIKI 根（basename 会 pathspec 不匹配——
+    production-queue.md 实际在 70_product/tasks/ 子目录；且不依赖调用方 cwd）。"""
+    return [str(QUEUE_FILE.relative_to(WIKI)), f"60_feedback/tasks/{task_id}.md"]
+
+
 def _git_commit(task_id: str, grade: str) -> None:
     """#390 同款原子 commit：path-scoped add（严禁 add -A）。git 失败不阻断，报警+留痕。"""
     try:
-        subprocess.run(["git", "-C", str(WIKI), "add",
-                        QUEUE_FILE.name, f"60_feedback/tasks/{task_id}.md"],
+        subprocess.run(["git", "-C", str(WIKI), "add", *_commit_add_paths(task_id)],
                        check=True, capture_output=True)
         subprocess.run(["git", "-C", str(WIKI), "commit", "-m",
                         f"chore(queue): 批次验收 {task_id}（grade {grade}）— queue_batch_accept #479"],

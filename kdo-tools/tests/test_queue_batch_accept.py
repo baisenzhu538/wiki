@@ -96,3 +96,26 @@ class TestAccept(Base):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestCommitPaths(unittest.TestCase):
+    """#482：git add 路径必须相对 WIKI 根（basename 导致 pathspec 不匹配——从
+    非仓库根 cwd 调用时 E040 收口缺口，欧阳锋两次实证）。"""
+
+    def test_add_paths_relative_to_wiki_root(self):
+        paths = qba._commit_add_paths("task_test-batch")
+        posix = [Path(p).as_posix() for p in paths]
+        self.assertIn("70_product/tasks/production-queue.md", posix)  # 不是 basename！
+        self.assertIn("60_feedback/tasks/task_test-batch.md", posix)
+        for p in paths:
+            self.assertFalse(Path(p).is_absolute())
+
+    def test_real_git_add_dry_run_from_any_cwd(self):
+        """模拟从非仓库根 cwd 调用：真实队列文件相对路径 git add --dry-run 必须成功
+        （#482 根因回归：basename pathspec 失败 → relative_to(WIKI) 成功）。"""
+        import subprocess
+        r = subprocess.run(
+            ["git", "-C", str(qba.WIKI), "add", "--dry-run",
+             str(qba.QUEUE_FILE.relative_to(qba.WIKI))],
+            capture_output=True, text=True)
+        self.assertEqual(r.returncode, 0, r.stderr)  # 队列文件真实存在，add 必须成功
