@@ -96,6 +96,9 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 468 | `task_20260823_wangyuyan-banfeimao-d-workbook` | 半肥猫D档训练营作业包（P3 随缘：基础+进阶+一页纸教程结构） | queued | wangyuyan | 作业包三件（编排侧设计） | A档PASS后；不占产线顺位 | `60_feedback/tasks/task_20260823_wangyuyan-banfeimao-d-workbook.md` | 课程原生思考题复用（口述L98-136原题）；一页纸教程=五步+五维速查+双原则浓缩；作业包=教学设计域（千惠清单先例）；老朱过目 |
 | 469 | `task_20260823_laowantong-addiction-book-cards` | 拆书会《成瘾》知识生产（P2，人域4卡：天平/DOPAMINE框架/自我约束/以痛治痛） | queued | laowantong | 4 张精选卡 | 诊断 D-20260823-015（298行全量读+九层） | `60_feedback/tasks/task_20260823_laowantong-addiction-book-cards.md` | 卡3=KDO门禁同构卡（物理/时间/分类 vs 台账/冻结/分层对照）核心抽验；转述二等标注原书；拆书会系列常态化待老朱；欧阳锋终审 |
 | 470 | `task_20260823_laowantong-addiction-series-caliber` | #469 口径修正（P1，老朱纠偏）：按拆书会系列惯例补来源标注 | queued | laowantong | 口径修正单（随 #469 执行） | #469 误判「无拆书先例」——库里实有 90+ 拆书卡 | `60_feedback/tasks/task_20260823_laowantong-addiction-series-caliber.md` | source_person/source_context 字段（水水卡范本）；human-insights+business 双域；按内容语义分卡不按来源；欧阳锋随 #469 审 |
+| 471 | `task_20260823_huangyaoshi-l1-capture-scheduling` | L1 采集投入运行最小闭环（P1：常驻调度30min+体积红线） | queued | huangyaoshi | 计划任务+体积监控+verify联动 | **老朱拍板常驻注册**（#432 边界）——拍板前挂起 | `60_feedback/tasks/task_20260823_huangyaoshi-l1-capture-scheduling.md` | 与探针错峰；失败可见禁静默；L3=次日回放抽查；欧阳锋终审 |
+| 472 | `task_20260823_huangyaoshi-role-routes` | KDO 角色路由层（P1，三路由合一：任务/技能/知识——进入即答三问） | queued | huangyaoshi | myqueue命令+role-routes.md+CAPSULE v3 | 黄药师建议书采纳（#459 取代困惑=实证） | `60_feedback/tasks/task_20260823_huangyaoshi-role-routes.md` | myqueue 只读视图不动状态机；depends_on 字段新单起强制（F-047）；技能/知识静态表不过度工程；六角色各跑 myqueue 狗粮；欧阳锋终审 |
+| 473 | `task_20260823_huangyaoshi-file-flow-lint-residuals` | 文件流转 lint 遗留三项收口（P2：wiki 卡 L9 扫描/冻结基线动态化/lint 集成） | queued | huangyaoshi | 三项收口+单测 | 欧阳锋 #450 终审遗留项采纳 | `60_feedback/tasks/task_20260823_huangyaoshi-file-flow-lint-residuals.md` | L9 全库一次扫描（分钟级）；冻结基线走无状态方案；lint 集成可缓；欧阳锋终审 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
 ## ⚖️ 待终审（提审任务，queue_transition 自动登记）
@@ -182,13 +185,14 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~[gate-blocked] task_9999_test｜08-23 15:11｜待王语嫣复核处置｜2026-08-23 15:08:42｜task_9999_test｜处置-硬门禁｜disposal:true 缺「内容价值判断」节（PROTOCOL §7）｜task_9999_test~~ → 测试件关闭（#460 处置硬门禁插桩验证——插桩已生效实证 ✅）
 - ~~[gate-blocked] task_t_disposal｜08-23 15:11｜待王语嫣复核处置｜2026-08-23 15:11:02｜task_t_disposal｜处置-硬门禁｜disposal:true 缺「内容价值判断」节（PROTOCOL §7）｜task_t_disposal~~ → 测试件关闭（同上，处置门禁拦截落盘验证）
 - ~~diag_20260823_ouyangfeng-dictation-record-discipline.md｜08-23 15:15｜待王语嫣复核裁定~~ → 已采纳（08-23 王语嫣）：①№5/№6 补录=新增件 D-20260823-007（amends:D-20260823-002），spec source_refs 已补指向；②口述落盘纪律入宪 §3.13（到达即转录不隔夜+№溯源 lint 挂 #450）——断链教训：№5/№6 只在会话顺手织入卡片未录原文
-- [gate-blocked] task_9999_force-test｜08-23 15:21｜待王语嫣复核处置｜2026-08-23 15:15:57｜task_9999_force-test｜F-034-force无理由｜--force 未配 --reason（#444 例外留痕要求）｜wangyuyan
-- [gate-blocked] task_9999_test｜08-23 15:21｜待王语嫣复核处置｜2026-08-23 15:15:57｜task_9999_test｜处置-硬门禁｜disposal:true 缺「内容价值判断」节（PROTOCOL §7）｜task_9999_test
-- [gate-blocked] task_20260823_huangyaoshi-issue-report-automation-final｜08-23 15:22｜待王语嫣复核处置｜2026-08-23 14:15:21｜task_20260823_huangyaoshi-issue-report-automation-final｜F-034-五字段｜执行报告缺 5 个字段（#429 F-034）：改动文件清单、完成内容一句话、验证命令+输出、未做项/边界、需要谁动作。请补全后重试，或 --force --reason '<理由>' 声明例外（#4｜huangyaoshi
-- [gate-blocked] task_20260823_laowantong-role-special-zhu｜08-23 15:22｜待王语嫣复核处置｜2026-08-23 14:29:30｜task_20260823_laowantong-role-special-zhu｜F-034-五字段｜执行报告缺 5 个字段（#429 F-034）：改动文件清单、完成内容一句话、验证命令+输出、未做项/边界、需要谁动作。请补全后重试，或 --force --reason '<理由>' 声明例外（#4｜wangyuyan
-- [gate-blocked] task_t_disposal｜08-23 15:22｜待王语嫣复核处置｜2026-08-23 15:11:02｜task_t_disposal｜处置-硬门禁｜disposal:true 缺「内容价值判断」节（PROTOCOL §7）｜task_t_disposal
-- diag_20260823_ouyangfeng-file-flow-lint-residuals.md｜08-23 18:25｜待王语嫣复核裁定
-- diag_20260823_fengqingyang-l1-capture-scheduling.md｜08-23 18:51｜待王语嫣复核裁定
+- ~~[gate-blocked] task_9999_force-test｜08-23 15:21｜待王语嫣复核处置｜2026-08-23 15:15:57｜task_9999_force-test｜F-034-force无理由｜--force 未配 --reason（#444 例外留痕要求）｜wangyuyan~~ → 测试件/已处置关闭（#460 验证期拦截记录）
+- ~~[gate-blocked] task_9999_test｜08-23 15:21｜待王语嫣复核处置｜2026-08-23 15:15:57｜task_9999_test｜处置-硬门禁｜disposal:true 缺「内容价值判断」节（PROTOCOL §7）｜task_9999_test~~ → 测试件/已处置关闭（#460 验证期拦截记录）
+- ~~[gate-blocked] task_20260823_huangyaoshi-issue-report-automation-final｜08-23 15:22｜待王语嫣复核处置｜2026-08-23 14:15:21｜task_20260823_huangyaoshi-issue-report-automation-final｜F-034-五字段｜执行报告缺 5 个字段（#429 F-034）：改动文件清单、完成内容一句话、验证命令+输出、未做项/边界、需要谁动作。请补全后重试，或 --force --reason '<理由>' 声明例外（#4｜huangyaoshi~~ → 测试件/已处置关闭（#460 验证期拦截记录）
+- ~~[gate-blocked] task_20260823_laowantong-role-special-zhu｜08-23 15:22｜待王语嫣复核处置｜2026-08-23 14:29:30｜task_20260823_laowantong-role-special-zhu｜F-034-五字段｜执行报告缺 5 个字段（#429 F-034）：改动文件清单、完成内容一句话、验证命令+输出、未做项/边界、需要谁动作。请补全后重试，或 --force --reason '<理由>' 声明例外（#4｜wangyuyan~~ → 测试件/已处置关闭（#460 验证期拦截记录）
+- ~~[gate-blocked] task_t_disposal｜08-23 15:22｜待王语嫣复核处置｜2026-08-23 15:11:02｜task_t_disposal｜处置-硬门禁｜disposal:true 缺「内容价值判断」节（PROTOCOL §7）｜task_t_disposal~~ → 测试件/已处置关闭（#460 验证期拦截记录）
+- ~~diag_20260823_ouyangfeng-file-flow-lint-residuals.md｜08-23 18:25｜待王语嫣复核裁定~~ → 已采纳立项 **#473**（08-23 王语嫣）：三项按优先级收口；L9 全库一次扫描；冻结基线采无状态方案
+- ~~diag_20260823_fengqingyang-l1-capture-scheduling.md｜08-23 18:51｜待王语嫣复核裁定~~ → 已采纳立项 **#471**（08-23 王语嫣）：常驻调度+体积红线并入一单；**老朱拍板常驻注册**为开工前提（#432 边界）；L3 回放抽查延后可
+- ~~diag_20260823_huangyaoshi-role-routes.md｜08-23 19:01｜待王语嫣复核裁定~~ → 已采纳立项 **#472**（08-23 王语嫣）：三路由合一；四个待讨论点已裁定（depends_on 字段/编排维护路由表/10-20 张 Core/任务路由 only 脚本化）；F-047 登记 depends_on 字段演进
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |

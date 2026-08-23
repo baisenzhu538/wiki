@@ -4,7 +4,7 @@ title: L1 全量采集投入运行最小闭环建议（调度挂钩 + 体积红�
 type: proposal
 author: 风清扬（观察者 / 审计者）
 created_at: 2026-08-23
-status: pending_orchestration
+status: resolved
 audience: 王语嫣
 ---
 
