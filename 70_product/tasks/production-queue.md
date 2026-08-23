@@ -102,6 +102,10 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 474 | `task_20260823_huangyaoshi-tags-audit-fullscan` | 全库标签摸底体检（P1：四指标一次性扫描+标签健康并入 #425 常态监测） | reviewed | huangyaoshi | 体检报告+健康指标扩展+单测 | 老朱拍板立项（标签体系发现收口） | `60_feedback/tasks/task_20260823_huangyaoshi-tags-audit-fullscan.md` | 只读零修改；脏词率/来源轴覆盖/有轴域/空值率四指标；决策域已知答案做 L2 狗粮；治理批次后续按域排产；欧阳锋终审；脏词/空值吸收建议书2三层分档(STRONG/PATTERN进分母,SOFT只观察误报) |
 | 475 | `task_20260823_wangyuyan-472-coldstart-absorb` | 吸收#472路由层进六角色context冷启动链（恢复完直接答三问：领哪单/用什么招/先掌握什么） | reviewed | wangyuyan | 六spec冷启动段+role-routes衔接说明 | 用户令收口#472入口层 | `60_feedback/tasks/task_20260823_wangyuyan-472-coldstart-absorb.md` | 王语嫣自办不占黄药师；接#419冷启动铁律；解欧阳锋#472残余风险(spec↔role-routes同步纪律)；只读导航不改#472本体；欧阳锋终审 |
 | 476 | `task_20260823_wangyuyan-queue-status-check-discipline` | 队列状态核对纪律固化（禁用正则手搓，统一走queue_transition对账；E051闭环） | reviewed | wangyuyan | context/skill铁律+轻量包装命令 | E051误报#474状态用户纠正 | `60_feedback/tasks/task_20260823_wangyuyan-queue-status-check-discipline.md` | 王语嫣自办不占黄药师；任务1纪律固化立即可做；任务2方案A轻量/方案B留演进候选；与E041/E038/E017同族补全；欧阳锋终审 |
+| 477 | `task_20260823_huangyaoshi-task-docid-field-removal` | 任务单doc_id字段违规处置（模板移除+存量清理，E045闭环；#473工具实证） | queued | huangyaoshi | 模板改+存量批移除+spec卡doc_id | 欧阳锋建议书采纳方向①（纠偏非口径变更） | `60_feedback/tasks/task_20260823_huangyaoshi-task-docid-field-removal.md` | 只移除doc_id不动内容；#450lint已把门模板修掉断源；存量先清单→dry-run→单卡→人工审→批量；E003快照/E017yaml解析/E046不吞节/E050path-scoped；顺序#479→477→478禁同轮≥3；欧阳锋终审 |
+| 478 | `task_20260823_huangyaoshi-review-check-failure-detail` | review-check判B/C输出失败项明细（差异可自解释，E049同族） | queued | huangyaoshi | review-check.py失败项明细输出+单测 | 黄药师建议书部分采纳② | `60_feedback/tasks/task_20260823_huangyaoshi-review-check-failure-detail.md` | 只改输出层不动判定逻辑；①agent-os§10.4.1补问题节必填挂老朱拍板窗口不塞本单；王语嫣③自办重跑验证回A；顺序#479→477→478禁同轮≥3；欧阳锋终审 |
+| 479 | `task_20260823_huangyaoshi-queue-batch-accept` | 批次验收工具化queue_batch_accept.py（#426批次线，静默失败根治；复用#453模式） | queued | huangyaoshi | queue_batch_accept.py+单测+dry-run | 欧阳锋建议书采纳立项（#426第4次静默失败） | `60_feedback/tasks/task_20260823_huangyaoshi-queue-batch-accept.md` | 四步一体+每步断言+前后对账+dry-run+原子commit；不动queue_transition状态机；B2-4想犯错也犯不了；顺序#479(P1)→477→478禁同轮≥3；欧阳锋终审 |
+| 480 | `task_20260823_wangyuyan-426-tags-acceptance-caliber` | #426后续批次验收标准升级口径单（抽查读正文+机械辅助，E047上板冻结传口径） | queued | wangyuyan | 口径三条款落盘（append不吞节） | 欧阳锋建议书采纳（25%错配率实证） | `60_feedback/tasks/task_20260823_wangyuyan-426-tags-acceptance-caliber.md` | 不改#426本体（上板冻结传口径）；王语嫣不改卡O7补词归老顽童；机械辅助挂#474扩展；存量复查增量不推翻已验收；欧阳锋终审 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
 ## ⚖️ 待终审（提审任务，queue_transition 自动登记）
@@ -206,11 +210,11 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - [gate-blocked] task_20260822_laowantong-tags-judgment-batch｜08-23 19:21｜待王语嫣复核处置｜2026-08-23 19:13:58｜task_20260822_laowantong-tags-judgment-batch｜F-034-五字段｜任务单缺少「## 执行报告」节（#429 F-034：交付必须落执行报告，口头完成=未完成；#444：evidence 附件不能替代）｜hermes
 - [gate-blocked] task_9999_force-test｜08-23 19:31｜待王语嫣复核处置｜2026-08-23 19:29:12｜task_9999_force-test｜F-034-force无理由｜--force 未配 --reason（#444 例外留痕要求）｜wangyuyan
 - [gate-blocked] task_9999_test｜08-23 19:31｜待王语嫣复核处置｜2026-08-23 19:29:12｜task_9999_test｜处置-硬门禁｜disposal:true 缺「内容价值判断」节（PROTOCOL §7）｜task_9999_test
-- diag_20260823_ouyangfeng-task-docid-violation.md｜08-23 19:38｜待王语嫣复核裁定
-- diag_20260823_huangyaoshi-review-check-a-criteria.md｜08-23 19:58｜待王语嫣复核裁定
-- diag_20260823_fengqingyang-codex-instance-isolation.md｜08-23 20:11｜待王语嫣复核裁定
-- diag_20260823_ouyangfeng-batch-accept-tool.md｜08-23 20:15｜待王语嫣复核裁定
-- diag_20260823_ouyangfeng-tags-content-check-audit.md｜08-23 20:44｜待王语嫣复核裁定
+- ~~diag_20260823_ouyangfeng-task-docid-violation.md｜08-23 19:38｜待王语嫣复核裁定~~ → 编排决策（2026-08-23 王语嫣独立判断）：**采纳方向①**——任务单模板移除 doc_id 字段（回归规范 #449，E045 三套编号不混用维持）；存量 10+ 份 lint 全扫出清单→dry-run→单卡验证→人工审→批量移除；spec 卡 doc_id 同步移除；#450 lint 已把门，模板修掉断源；纠偏非口径变更不需老朱拍板 → 立项 **#477**（黄药师，P2）
+- ~~diag_20260823_huangyaoshi-review-check-a-criteria.md｜08-23 19:58｜待王语嫣复核裁定~~ → 编排决策（2026-08-23 王语嫣独立判断）：**部分采纳**——①agent-os §10.4.1 补「问题节必填(#458)」与探测器逻辑对齐（**改 agent-os 需老朱拍板窗口**，文档对齐非新规则）；②review-check 判 B/C 输出失败项明细（差异可自解释，E049 同族）立项 **#478**（黄药师，P2）；③王语嫣自办重跑 review-check 验证 08-23 复盘（晚间场已含问题节）能否回 A
+- ~~diag_20260823_fengqingyang-codex-instance-isolation.md｜08-23 20:11｜待王语嫣复核裁定~~ → 编排决策（2026-08-23 王语嫣独立判断）：**部分采纳**——建议1 CODEX_HOME 分家**缓议**（当前无角色用 codex，#445 映射证实；预防性基建无即时收益，触发=某角色切 codex）登记停车场 **F-048**；建议2 L1 采集面是否纳 Codex sessions **上报老朱拍板**（codex 定性=个人工具/工厂角色工具决定）；建议3 通用纪律（角色 CLI 实例独立+L1 采集面覆盖）**采纳方向**挂 F-043 charter v1.0 修订窗口
+- ~~diag_20260823_ouyangfeng-batch-accept-tool.md｜08-23 20:15｜待王语嫣复核裁定~~ → 编排决策（2026-08-23 王语嫣独立判断）：**采纳立项**——#426 剩余 100+ 张 tags 批次，批次验收静默失败已实证（漏恢复队列行，第 4 次执行输出与实测不符）；queue_batch_accept.py 复用 queue-archive(#453) 成熟模式（四步一体+每步断言+前后对账+dry-run+原子 commit）；治静默失败在工具层（B2-4 想犯错也犯不了） → 立项 **#479**（黄药师，P1，#426 批次线）
+- ~~diag_20260823_ouyangfeng-tags-content-check-audit.md｜08-23 20:44｜待王语嫣复核裁定~~ → 编排决策（2026-08-23 王语嫣独立判断）：**采纳**——1 #426 后续批次验收标准升级（抽查≥3 张读正文+机械辅助高频词重叠比对<50%标记+验收记录声明抽查范围）；2 存量决策域44+ai-collaboration35 按域抽 10-15% 读正文复查（机械辅助优先筛可疑卡，增量不推翻已验收）；3 dk-research-decision-first-mapping 补主题词（老顽童执行）。#426 上板冻结(E047)→走口径单传口径不改本体；机械辅助挂 #474 tags-audit 扩展 → 立项 **#480**（口径单，传老顽童+欧阳锋）
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
