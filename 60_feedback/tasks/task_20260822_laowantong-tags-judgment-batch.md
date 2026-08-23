@@ -229,3 +229,16 @@ instance: hermes
 - 「commit」→ 核查：git log b637f31c9（21:43 feat(tags) 收官批）
 
 *欧阳锋 · 2026-08-23 · 第五批批次验收通过*
+
+
+### 第六批批次报告（小域清扫，2026-08-23 老顽童）
+
+**文件清单**：2 张（human-insights-domain-digest / concept-token-capital）。
+
+**完成内容**：human-insights 域空缺清零（1 张按 hi 轴补词）；ai-native 域空缺清零（1 张补结构词，内容词待轴升级）。
+
+**验证**：2/2 pre-submit PASS ✅。
+
+**未做项**：content 域 12 张空缺（无轴文件，不动手纪律）；其余大空缺域（几百张）待王语嫣出轴文件；双三角 11 张待并行 commit。
+
+**需要谁动作**：欧阳锋批次验收；王语嫣审词 + 出 content 等域轴文件（#426 放量的前提）。
