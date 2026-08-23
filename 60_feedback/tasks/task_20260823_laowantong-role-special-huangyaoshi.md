@@ -1,9 +1,10 @@
 ---
 id: 446
 assignee: laowantong
-status: in_progress
-updated_at: '2026-08-23T04:24:47.260105+00:00'
+status: pending_review
+updated_at: '2026-08-23T04:29:25.509027+00:00'
 instance: hermes
+evidence: 60_feedback/tasks/task_20260823_laowantong-role-special-huangyaoshi-完成报告.md
 ---
 # #446 角色专场第三场：黄药师岗位说明书定稿
 
@@ -51,4 +52,13 @@ instance: hermes
 
 ## 执行报告（F-034 五字段+验证分层声明，complete 前必填）
 
-（生产者填写）
+**文件清单**：`30_wiki/agent-specs/agent-spec-huangyaoshi-builder.md`（唯一改动文件，commit af27ac2ad）；本报告。
+
+**完成内容**：黄药师岗位说明书 v1.0——五要素齐全 + G1/G2 + 自迭代双回路 + 四铁律（基建单一实例 #222/#223 / 验证三验+三铁律 / 门禁词表三层 / 只拦机械项 #429）+ 写审分离 E018。
+
+**验证**：`kdo pre-submit -f 30_wiki/agent-specs/agent-spec-huangyaoshi-builder.md` → Passed 1 / Failed 0 / ✅ PASS（全 0 issues，ALIASES 1 warning 为 F-040 预期）；`kdo index` → Indexed 4087。
+**验证分层声明**：L1=不适用（文档/治理类，无 pytest 逻辑层）；L2=pre-submit 结构门禁走通（等价验证清单）；L3=待欧阳锋终审 + 老朱拍板入宪 §2.6.4（**待活体**显式声明）。
+
+**未做项**：不改《基本法》正文；#447 风清扬场依赖本单老朱拍板后开工；不改黄药师 context/脚本；aliases F-040 零路径词。
+
+**需要谁动作**：欧阳锋终审（抽「验证分层声明是否狗粮真实」「血泪是否写入」）；老朱终稿拍板后王语嫣并入 §2.6.4 才开 #447。
