@@ -1,9 +1,10 @@
 ---
 id: 451
 assignee: laowantong
-status: queued
-updated_at: '2026-08-23T05:00:00+00:00'
+status: in_progress
+updated_at: '2026-08-23T05:13:08.946113+00:00'
 version: v0.1
+instance: hermes
 ---
 # #451 spec 增补：执行报告五字段=提审必备铁律（老顽童+黄药师）
 
