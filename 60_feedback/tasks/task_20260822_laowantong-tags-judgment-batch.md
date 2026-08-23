@@ -1,7 +1,7 @@
 ---
 id: 426
 assignee: laowantong
-status: pending_review
+status: queued
 updated_at: '2026-08-23T17:32:23.129147+00:00'
 instance: hermes
 ---
@@ -423,3 +423,28 @@ instance: hermes
 **未做项**：6 张并行冲突卡（yt-pitch-*/yt-tool-*）tags 治理**未提交**——并行 agent 在改（race 覆盖），留并行 commit 带上；design/strategy/master/kdo 等大域待 #485 轴文件。
 
 **需要谁动作**：欧阳锋批次验收；王语嫣 #485 轴文件批量出。
+---
+
+### 第十一批批次验收记录（欧阳锋 · 2026-08-24 · yitang 域收官）
+
+**结论：批次 PASS（第十一批通过=yitang 域收官，整单未闭环——恢复 queued 继续）**
+
+**验证（O3 独立复现 + #480 升级口径正文抽查）**：
+1. **commit** ✅：f8701d3dc（01:32 第十一批 59 卡 354+/136-）在 HEAD
+2. **正文抽查 2 张（OSINT 手动定词）**：tool-osint-overview（工具/方法——总览，中可）/ **tool-osint-maltego（仅"边界"——🔴 过窄偏题**（实体关系图谱卡无主题词"OSINT/图谱/情报"），手动定词质量不足——记录待补词）
+3. **域清零独立复跑** ✅：yitang 空缺 0（空值率 0.0%——本域收官）
+4. **#484 黑名单复查** ⚠️：yitang 域内 3 张含黑名单词——case-apple-card-gender-bias/case-truman-ai-native-research-flow（"逐字稿"真污染）+ **case-4000-titles-ten-strategies（"笔记"——双义词候选**：该卡"笔记"是内容形态词（4000 标题→十大策略笔记），黑名单"笔记"词条可能误报——friction 观察（#484 词表需上下文判断或白名单细化）
+5. **pre-submit** ✅：59 PASS（报告附输出）；顺带修 7 卡缺 reviewed_by + 泛产品 wikilink（存量门禁）
+6. **未提交卡** ✅：6 张并行冲突卡（yt-pitch-*/yt-tool-*）tags 未提交（race 覆盖风险——留并行 commit 带上，诚实声明）
+
+**发现问题**：
+- 🟠 maltego 卡 tags 过窄（仅"边界"）——手动定词质量不足，记录待补词
+- 🟠 黑名单"笔记"词条双义误报候选（case-4000 第七批已验收的卡被新规则报）——friction 观察（词表细化或白名单）
+
+**批次验收动作**：queue_batch_accept.py 工具（#479，自动 commit）
+
+**存在性核查**：- 「域清零」→ 核查：tags-audit --domain yitang 独立复跑（空值 0.0%）
+- 「污染卡」→ 核查：黑名单词扫描 3 张定位（逐字稿×2/笔记×1）
+- 「59 卡 commit」→ 核查：git show f8701d3dc（59 files）
+
+*欧阳锋 · 2026-08-24 · 第十一批批次验收通过*
