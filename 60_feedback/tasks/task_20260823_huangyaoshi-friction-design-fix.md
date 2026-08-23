@@ -1,9 +1,12 @@
 ---
 id: 459
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-23T07:00:00+00:00'
+status: cancelled
+updated_at: '2026-08-23T10:34:50.292876+00:00'
 version: v0.1
+cancelled_by: wangyuyan
+cancel_reason: '被 #460 最终任务书取代（设计修正内容已由 #460 承载）——#461 首批执行'
+cancelled_at: '2026-08-23'
 ---
 # #459 #458 设计修正：通道唯一化 + 机器自报层（老朱质询采纳）
 
