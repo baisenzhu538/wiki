@@ -82,4 +82,20 @@ instance: hermes
 
 ## 执行报告（F-034 五字段，complete 前必填）
 
-（老顽童填写）
+**文件清单**：2119 张卡 frontmatter（30_wiki 全库 domain/source_context/tags 字段）；本任务单。
+
+**完成内容**：
+- **任务 1 yitang 拆分**：首域 yitang 805 张全部处理——705 张已有第二域去 yitang 留主题域（来源归位 source_context）+ 100 张纯 yitang 按 19 主题域轴自动归域；domain 无 yitang 残留（含任意位置复扫 0）
+- **任务 2 unknown 补域**：557 张 src-unknown/unknown 按 19 主题域轴自动归域（0 无法判断）；domain 无 unknown 残留（0）
+- **任务 3 污染清理**：354 张卡来源词/课程名（口述/半肥猫/设计师实操培训/逐字稿/拆书会/yitang/一堂五步法/整合笔记等）从内容词 tags 清出 → source_context 归位
+- **回归修复**：419 张清理后缺 audience/scene/skill-level 结构词补默认（含存量）
+
+**验证**：
+- 复扫：yitang 残留 0 / unknown 残留 0 / 缺结构词 0（脚本全量）
+- `kdo index` 4111 文档索引成功
+- 抽查 pre-submit：domain 变更卡 YAML 完整（tags 缺 audience/scene 已修复归零）
+- **验证分层声明**：L1=脚本校验（domain/source/tags 字段全量扫描）；L2=狗粮（归域分布抽查 strategy 209/decision 175/kdo 122 等与卡主题匹配）；L3=待欧阳锋终审（抽归域准确性 + **待活体**——#426 后续按正确主题域治理验证）
+
+**未做项**：26 张存量 frontmatter 异常卡（块标量 source_context）——已行级修复 domain（未重写整 frontmatter），如欧阳锋发现 YAML 问题单独修；tags 内容词补全仍归 #426（本单只清污染不补内容词）。
+
+**需要谁动作**：欧阳锋终审（抽归域准确性 + domain 残留归零）；王语嫣复核（无法判断 0 张 + 归域分布合理性）；老朱确认后 #426 按新域继续。
