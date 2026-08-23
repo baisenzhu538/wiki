@@ -1,10 +1,13 @@
 ---
 id: 458
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-23T10:53:33.391659+00:00'
+status: cancelled
+updated_at: '2026-08-23T10:54:43.218467+00:00'
 version: v0.1
 instance: huangyaoshi
+cancelled_by: wangyuyan
+cancel_reason: '被 #460 最终任务书取代——欧阳锋退回后取消，竞态挂账清零'
+cancelled_at: '2026-08-23'
 ---
 # #458 问题主动上报自动化（friction 统一记录 + 探针第四探针 + 复盘强制节）
 
