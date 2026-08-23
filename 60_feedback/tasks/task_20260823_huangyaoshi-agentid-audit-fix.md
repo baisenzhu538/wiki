@@ -1,8 +1,8 @@
 ---
 id: 456
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-23T07:47:40.556053+00:00'
+status: pending_review
+updated_at: '2026-08-23T07:52:58.735273+00:00'
 version: v0.1
 instance: huangyaoshi
 ---
@@ -36,6 +36,27 @@ instance: huangyaoshi
 
 - 不做 query 命令（F-045 待拍板）；不动 memory_capsule.py 的 L0→L1 改名（F-044）；不碰队列状态机
 
-## 执行报告（F-034 五字段+验证分层声明，complete 前必填）
+## 执行报告（2026-08-23 黄药师）
 
-（生产者填写）
+**完成内容**：①审计器解析盲区修复——parse_queue 表检测改 `|:---` 分隔行（旧 `| 队列序号` 表头整表静默失败=审计假阴性，实测解析 0→61 行），行数异常（<5 列）禁静默跳过→收集进 unresolved 入报告；②agent_id 口径对齐——daily-context-save 写入端加 `_normalize_agent_id`（中文角色名映射拼音 + `__x__` 测试残留拒绝写入），L1 库数据清洗（删 `__test434__`/`__test464__` 残留 + `老顽童`→`laowantong`），A/B 镜像重跑 verify PASS。
+
+**交付物**（改动文件清单）：
+1. `90_control/scripts/audit_queue_integrity.py`：parse_queue 表检测 robust + 返回 (rows, unresolved) + 报告新增「无法解析队列行」节 + 退出码含 unresolved
+2. `kdo-tools/daily-context-save.py`：`_normalize_agent_id`（AGENT_ID_CN_MAP 中文→拼音 + `__.*__` 测试残留拒绝）+ `_write_l0_event` 入口规范化
+3. `90_control/scripts/tests/test_audit_queue_integrity.py`（新建）：6 用例（解析盲区回归 3 + agent_id 口径 3）
+4. `20_memory/queue_integrity_audit_latest.md`：修复后审计报告（脚本自动生成）
+5. 数据层：`~/.kdo-memory/L1/activity_log.db` 清洗（A 主库 7→5 行，无中文/测试残留 agent_id）
+
+**验证**（命令+输出）：
+- L1 单测：`pytest tests/test_audit_queue_integrity.py` → 6 passed；scripts 目录全量回归 `pytest tests/` → **56 passed**（含 queue_transition 45 + health_metrics 5）
+- L2 狗粮：①修复前 parse_queue 解析 **0 行**（假阴性实证）→ 修复后 **61 行**，真实不一致 **3 条**浮出（#319/#323/#331 队列 reviewed 但任务单 status=pending_review，即 #188 同族残留清单，交王语嫣处置）；②`audit_queue_integrity.py` 全量重跑落盘报告（exit=1=有残留需处置，符合预期）；③L1 库清洗后 `memory_capsule` status（A 5 行 integrity ok）+ 重镜像 + **verify PASS**（B 镜像 5 行 hash 全一致）
+- L3 待活体：下次真实 daily-context-save 写入的 agent_id 落库为新口径（中文名自动映射拼音，`__x__` 测试残留被拒绝）
+
+**未做项**：
+- query 命令不在本单（F-045 待老朱拍板 L1 开放口径）
+- 33 条任务单元数据历史欠账（缺 review_date/reviewer）不在本单范围——审计报告如实列出，处置待编排
+- 3 条真实残留（#319/#323/#331 frontmatter status 未同步）**只输出清单不自行修复**——交王语嫣编排处置（任务书边界）
+
+**需要谁动作**：
+- 王语嫣：处置 3 条真实残留（#319/#323/#331 任务单 status 同步 reviewed）——审计器修复后已可见
+- 欧阳锋：终审本单（抽「解析盲区回归用例/清洗后 status+verify/写入端口径」）
