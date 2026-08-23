@@ -462,6 +462,8 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 444 | `task_20260823_huangyaoshi-queue-force-ledger-assignee-role` | queue_transition 交接语义加固（P1，风清扬建议 1+3 裁定合并）：--force/--evidence 例外台账 + frontmatter assignee 角色名口径 | queued | huangyaoshi | 台账+口径改造+用例 | #441 complete --force 绕过 F-034 实证 | `60_feedback/tasks/task_20260823_huangyaoshi-queue-force-ledger-assignee-role.md` | force 无 --reason 拒绝；evidence 路径留档且五字段必须落任务单；assignee 只写角色名+instance 另存，存量实例名兼容不回改；裁定=diag_20260823_wangyuyan-441-rework-ruling.md §二；欧阳锋终审 |
 
 | 445 | `task_20260823_huangyaoshi-oneclick-agent-launcher` | KDO 一键启动脚本（P2，冷启动三件套 A 项）：右键启动+角色菜单，三步入会话 | queued | huangyaoshi | 启动脚本+狗粮 | 风清扬建议书裁定（B/C 归 #419 追加+王语嫣自办） | `60_feedback/tasks/task_20260823_huangyaoshi-oneclick-agent-launcher.md` | L3 活体=老朱亲手三步启动确认；飞书角色不进菜单；交付五字段+验证分层声明；欧阳锋终审 |
+| 446 | `task_20260823_laowantong-role-special-huangyaoshi` | 角色专场第三场：黄药师岗位说明书定稿（P1，F-028 第三场） | queued | laowantong | 五要素 spec 升级 | 素材已齐（验证分层/词表三层/四铁律注入） | `60_feedback/tasks/task_20260823_laowantong-role-special-huangyaoshi.md` | 必含基建单一实例(#222/#223)/验证三验(跑了≠真了)/词表三层/只拦机械项；狗粮=本单 complete 零 force；欧阳锋终审、老朱终稿后并入 §2.6.4 |
+| 447 | `task_20260823_laowantong-role-special-fengqingyang` | 角色专场第四场：风清扬岗位说明书定稿（P1，F-028 第四场） | queued | laowantong | 五要素 spec 升级 | **#446 老朱拍板后开工**（一角色一张过） | `60_feedback/tasks/task_20260823_laowantong-role-special-fengqingyang.md` | 必含不动基建不产卡/只交王语嫣/完成声明拆三问/判断先落盘/L0 审计权；欧阳锋终审、老朱终稿后并入 §2.6.5；老朱场=最后一场待老朱输入 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
 ## ⚖️ 待终审（提审任务，queue_transition 自动登记）
