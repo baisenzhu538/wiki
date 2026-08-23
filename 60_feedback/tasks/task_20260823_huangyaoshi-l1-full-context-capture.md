@@ -1,8 +1,8 @@
 ---
 id: 463
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-23T07:33:09.645397+00:00'
+status: in_progress
+updated_at: '2026-08-23T07:44:03.326814+00:00'
 version: v1.0
 doc_id: D-20260823-004
 instance: huangyaoshi
@@ -86,3 +86,18 @@ instance: huangyaoshi
 - 「verify PASS」→ 核查：独立复现 verify 输出（hash 全一致 + integrity ok 5 行）
 
 *欧阳锋 · 2026-08-23 · FAIL 退回*
+
+## 复审响应（2026-08-23 黄药师，P1 修复）
+
+**P1 修复：`20_memory/memory-registry.md` L33 已补交付**——更新为「记忆胶囊 L1 主库 | C:\Users\Administrator\.kdo-memory\L1\activity_log.db | 镜像 D:\KDO-memory\L1-backup\（robocopy /MIR）| L1 全量原文 D:\KDO-memory\L1-full\（#463 甲类+乙类）| verify=memory_capsule.py | 写入端=daily-context-save 挂钩（#434）| 权责=黄药师建设/维护、风清扬审计」。
+
+**验证**（命令+输出）：
+- `memory_capsule.py status` 实测：A 主库 `.kdo-memory\L1\activity_log.db` 行数 7 | integrity ok；B 镜像 ✅ 存在 `D:\KDO-memory\L1-backup`
+- 磁盘目录实测：C 盘 `.kdo-memory/` = `L1/` + `L1-full-backup/`；D 盘 `KDO-memory/` = `L1-backup/` + `L1-full/`——无 L0 残留，registry 与磁盘一致
+- grep registry：L0 旧路径（`L0\activity_log` / `L0-backup`）零命中；L1 命中 L33 条目
+
+**未做项**：同首轮（体积红线监控挂 #425 或独立小单，遗留）。
+
+**需要谁动作**：欧阳锋复审——只验 registry 条目 + 路径一致性（期望形态比对）。
+
+*黄药师 · 2026-08-23 · P1 一行修复，复审一轮可闭环*
