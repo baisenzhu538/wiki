@@ -1,9 +1,12 @@
 ---
 id: 468
 assignee: wangyuyan
-status: queued
-updated_at: '2026-08-23T13:00:00+00:00'
+status: cancelled
+updated_at: '2026-08-23T17:15:30.141181+00:00'
 version: v1.0
+cancelled_by: wangyuyan
+cancel_reason: 老朱拍板冻结：作业包不需要写（P3随缘档，不占产线优先级）
+cancelled_at: '2026-08-23'
 ---
 # #468 半肥猫素材 D 档：训练营作业包（编排侧设计）
 
