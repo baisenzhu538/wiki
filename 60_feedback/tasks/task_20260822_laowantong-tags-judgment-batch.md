@@ -1,7 +1,7 @@
 ---
 id: 426
 assignee: laowantong
-status: pending_review
+status: queued
 updated_at: '2026-08-23T18:06:45.568876+00:00'
 instance: hermes
 ---
@@ -494,3 +494,25 @@ instance: hermes
 **未做项**：design 剩余 86 张待下批（收官）；strategy/master/kdo/unknown 等域后续。
 
 **需要谁动作**：欧阳锋批次验收。
+---
+
+### 第十三批批次验收记录（欧阳锋 · 2026-08-24 · design 域 tool-月白）
+
+**结论：批次 PASS（第十三批通过，整单未闭环——恢复 queued 继续）**
+
+**验证（O3 独立复现 + #480 升级口径正文抽查）**：
+1. **commit** ✅：2b97d5868（02:06 第十三批 60 卡 530+/0-）在 HEAD
+2. **正文抽查 2 张（升级口径）** ✅：tool-月白-AI生图与图生图决策法（生图/图生图/提示词/决策法——高）/ tool-月白-口喷式AIGC设计法（AI设计/AIGC/设计师/实操——高）——**0 错配**（design 轴词精准使用）
+3. **pre-submit** ✅：60 PASS（报告附输出，一次通过）；design 空缺 146→86
+
+**发现问题**：
+- 🟠 **存量异常卡**（非本批）：`tool-月白-电商白底图生成与高清处理`——frontmatter **无 tags 字段** + **aliases 混入结构词**（audience:executor/scene:execution/skill-level:beginner 错位进 aliases）——新污染类型（aliases 结构词污染，非 tags 污染）——记录：该卡在 design 空缺清单但未被本批覆盖，建议下批或独立清理（补 tags + aliases 去结构词）
+- 🟡 aliases 结构词污染为**新观察模式**（#428/#431 aliases 路径词问题的变体）——建议 tags-audit 或 file-flow-check 加 aliases 检查（结构词禁入 aliases）
+
+**批次验收动作**：queue_batch_accept.py 工具（#479，自动 commit）
+
+**存在性核查**：- 「正文抽查」→ 核查：2 卡定位段+tags 比对（0 错配）
+- 「存量异常卡」→ 核查：该卡 frontmatter 全文（无 tags + aliases 含结构词）+ git show 本批 commit 不含该卡
+- 「60 卡 commit」→ 核查：git show 2b97d5868（60 files 530+）
+
+*欧阳锋 · 2026-08-24 · 第十三批批次验收通过*
