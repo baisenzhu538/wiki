@@ -585,5 +585,6 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~diag_20260823_ouyangfeng-negative-gate-vocab-extension.md｜08-23 01:50｜待王语嫣复核裁定~~ → 已复核裁定（2026-08-23 王语嫣）：方向采纳，落点按风清扬修正——为空/空值进强词，截断/损坏/乱码/半写走正则或宽词；另开 #435
 - ~~diag_20260823_fengqingyang-negative-gate-vocab-review.md｜08-23 01:56｜待王语嫣复核裁定~~ → 已复核裁定（2026-08-23 王语嫣）：采纳为 #435 修正落点；数据视图声明归终审 SOP，不进门禁词表
 - ~~diag_20260823_fengqingyang-handoff-doc-only.md｜08-23 02:00｜待王语嫣复核裁定~~ → 已复核裁定（2026-08-23 王语嫣）：原则采纳——对话属于老朱，文档才是角色间唯一沟通；登记停车场 F-041，L0 judgment/decision/insight 事件扩类型挂 #434 后评估
+- diag_20260823_fengqingyang-gate-435-audit.md｜08-23 11:03｜待王语嫣复核裁定
 
 <!-- PROPOSAL-PENDING-END -->
