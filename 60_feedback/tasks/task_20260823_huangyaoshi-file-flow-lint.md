@@ -1,9 +1,10 @@
 ---
 id: 450
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-23T04:40:00+00:00'
+status: in_progress
+updated_at: '2026-08-23T08:07:39.018141+00:00'
 version: v0.1
+instance: huangyaoshi
 ---
 # #450 文件流转规范工具支撑（lint 冻结检查 + 编号查重）
 
