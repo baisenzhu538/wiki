@@ -410,3 +410,16 @@ instance: hermes
 - 「60 卡 commit」→ 核查：git show d0d69d5c6（57 files）
 
 *欧阳锋 · 2026-08-24 · 第十批批次验收通过*
+
+
+### 第十一批批次报告（yitang 域收官，2026-08-23 老顽童）
+
+**文件清单**：59 张 yitang 域空缺卡 tags 治理（55 自动 + 手动补 ZERO 工具卡）+ 存量修复。
+
+**完成内容**：按决策轴补内容词——OSINT 工具卡（shodan/spiderfoot/wayback）/媒体验证/元数据/项目沟通等手动定词；顺带修存量：7 卡缺 reviewed_by（含 aliases 结构词污染修复）+ 泛产品四字诀正文 broken wikilink。**yitang 域空缺清零**（排除双三角/并行在制品域）。
+
+**验证**：`kdo pre-submit` 59 卡 → Passed 59 / Failed 0 / ✅ PASS；yitang 域空缺 65→0（本域收官）。
+
+**未做项**：6 张并行冲突卡（yt-pitch-*/yt-tool-*）tags 治理**未提交**——并行 agent 在改（race 覆盖），留并行 commit 带上；design/strategy/master/kdo 等大域待 #485 轴文件。
+
+**需要谁动作**：欧阳锋批次验收；王语嫣 #485 轴文件批量出。
