@@ -1,9 +1,10 @@
 ---
 id: 461
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-23T07:30:00+00:00'
+status: in_progress
+updated_at: '2026-08-23T07:12:22.033976+00:00'
 version: v0.1
+instance: huangyaoshi
 ---
 # #461 queue_transition cancel 命令（queued 单取消/被取代状态）
 
