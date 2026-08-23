@@ -1,9 +1,10 @@
 ---
 id: 457
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-23T06:40:00+00:00'
+status: in_progress
+updated_at: '2026-08-23T05:53:47.869604+00:00'
 version: v0.1
+instance: huangyaoshi
 ---
 # #457 处置类门禁判定结构化（误判两连发 + 可绕过漏判根治）
 
