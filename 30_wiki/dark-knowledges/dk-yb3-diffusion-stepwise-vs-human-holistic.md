@@ -48,9 +48,16 @@ diagnostic_signals:
   follow_up_question: 同样的提示词在不同工具（MJ/SD/DALL-E）上效果是否一致？不一致说明是工具差异，不是提示词问题。# AI生图"抽卡"本质：逐步拆解
     vs 人类整体构思
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 生图
+  - 提示词
+  - 提示词工程
+  - 机制
+  - 工具
+  - 方法
+  - 工作流
 ---
 
 ## 原始表述
@@ -93,6 +100,11 @@ tags:
 ## 为什么值钱
 
 公开资料多讲"抽卡"现象和提示词技巧，但极少有人从认知机制层面解释：扩散模型的逐步去噪过程与人类"先整体后局部"的构思方式存在根本性差异。这是模型架构决定的，不是用户操作问题。
+
+## Critique
+
+- **内部局限**："逐步拆解 vs 整体构思"的对比是认知层面的观察——对生图参数（步数/CFG/采样器）的实际调优指导有限；人类"整体构思"的不可分解性在 prompt 工程中已被部分绕过（多 prompt 融合/ControlNet）。
+- **外部攻击（认知科学视角）**：人类构思真的是"整体"的吗——设计思维研究显示专家也是"整体-局部"迭代（先整体后细节打磨）；扩散模型的逐步去噪与人类草图-细化的过程有相似性；"抽卡"的随机性标签忽略了可控生成（ControlNet/IP-Adapter）的进步，工具演进已缩小差距。
 
 ## 与其他知识的关联
 

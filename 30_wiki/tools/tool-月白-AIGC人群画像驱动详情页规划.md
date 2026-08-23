@@ -36,6 +36,15 @@ related:
 - 'tool-yitang-research-best-practice'
 - '[[dk-yb1-aigc-mvp-before-ps]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AIGC
+  - 详情页
+  - 文创
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：AIGC人群画像驱动详情页规划
 

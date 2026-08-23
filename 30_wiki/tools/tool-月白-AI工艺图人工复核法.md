@@ -36,6 +36,15 @@ related:
 - 'dk-three-context-formula'
 - '[[tool-月白-文件命名与平台适配规范]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 文创
+  - 工具
+  - 方法
+  - 设计师
+  - 实操
+  - 人工复核
 ---
 # 技能：AI工艺图人工复核法
 

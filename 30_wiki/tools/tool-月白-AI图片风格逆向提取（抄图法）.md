@@ -41,6 +41,16 @@ related:
 - '[[tool-月白-风格不变局部调整]]'
 - '[[tool-月白-风格探索试错法]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AI设计
+  - 提示词
+  - 图片
+  - 工具
+  - 方法
+  - 设计师
+  - 实操
 ---
 # 技能：AI图片风格逆向提取（抄图法）
 

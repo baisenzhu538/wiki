@@ -36,6 +36,16 @@ related:
 - 'dk-three-context-formula'
 - '[[dk-yb3-diffusion-stepwise-vs-human-holistic]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 生图
+  - 图生图
+  - 提示词
+  - 文创
+  - 工具
+  - 方法
+  - 决策法
 ---
 # 技能：AI生图与图生图决策法
 

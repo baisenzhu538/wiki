@@ -137,6 +137,14 @@ related:
 - '[[tool-月白-餐饮类线下设计调性把控]]'
 - '[[tool-纪浩-AI使用边界管理法]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AIGC
+  - 文创
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：AI对话情绪管理法
 

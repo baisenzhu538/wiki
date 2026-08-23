@@ -36,6 +36,16 @@ related:
 - 'dk-three-context-formula'
 - '[[dk-yb3-diffusion-stepwise-vs-human-holistic]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AI设计
+  - 提示词
+  - 图片
+  - 工具
+  - 方法
+  - 效率
+  - 设计师
 ---
 # 技能：AI抽卡效率控制法
 

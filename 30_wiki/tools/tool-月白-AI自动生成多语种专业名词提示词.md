@@ -37,6 +37,14 @@ related:
 - '[[dk-yb6-midjourney-chinese-text-fix]]'
 - '[[tool-月白-文件命名与平台适配规范]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 提示词
+  - 文创
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：AI自动生成多语种专业名词提示词
 

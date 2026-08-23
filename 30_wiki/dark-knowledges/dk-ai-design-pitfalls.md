@@ -27,7 +27,17 @@ domain: design
 discoverable_by:
 - AI 设计交付物的五个常见陷阱与反打
 - 设计交付物的五个常见陷阱与反打
-tags: null
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 海报
+  - 详情页
+  - 工具
+  - 方法
+  - 流程
+  - 边界
+  - 效率
 trust_level: medium
 reviewed_by: 欧阳锋
 related: null

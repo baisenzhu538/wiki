@@ -40,6 +40,14 @@ related:
 - '[[tool-Truman-科学提问法]]'
 - '[[yt-product-kernel-mvp-design]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AI设计
+  - 文创
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：AI设计反馈萃取法
 

@@ -37,6 +37,15 @@ related:
 - '[[tool-月白-跨境电商产品图替换法]]'
 - '[[tool-纪浩-处理AI生成代码运行异常]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AI设计
+  - 电商图
+  - 工具
+  - 方法
+  - 设计师
+  - 实操
 ---
 # 技能：AI电商图人工精修与平台合规发布
 

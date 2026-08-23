@@ -37,6 +37,14 @@ related:
 - '[[tool-月白-AI图片去文字处理]]'
 - '[[tool-月白-AI生成图片排版控制-尺寸优先法]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 文创
+  - 工具
+  - 方法
+  - 工作流
+  - 实操
 ---
 # 技能：AI去字+稿定设计加字工作流
 

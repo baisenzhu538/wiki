@@ -22,6 +22,15 @@ query_triggers:
 - 想判断当前项目属于磨设计/磨方案/磨创新哪一层
 - 磨创新层工具感觉"太虚"不知道怎么落地
 - 需要给新人一个产品打磨的标准工具箱
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 海报
+  - 工具
+  - 边界
+  - 效率
+  - 实操
 discoverable_by:
 - 泛产品设计·落地工具箱19张卡牌
 - 泛产品设计

@@ -37,6 +37,16 @@ related:
 - 'dk-aesthetic-redline-doc'
 - '[[tool-月白-课程资料文件命名规范]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 海报
+  - 文创
+  - 图片
+  - 工具
+  - 方法
+  - 效率
+  - 实操
 ---
 # 技能：AI对话式海报修改（免PS）
 

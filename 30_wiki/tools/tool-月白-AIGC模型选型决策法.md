@@ -41,6 +41,16 @@ related:
 - '[[tool-月白-模型识别与边界测试法]]'
 - '[[tool-月白-精准提示词消除模型幻觉]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AIGC
+  - 提示词
+  - 模型选型
+  - 文创
+  - 工具
+  - 方法
+  - 决策法
 ---
 # 技能：AIGC模型选型决策法
 

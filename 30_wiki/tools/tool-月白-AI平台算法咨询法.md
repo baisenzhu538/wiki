@@ -36,6 +36,15 @@ related:
 - 'dk-three-context-formula'
 - '[[case-toc-content-platform-correlation-trap]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 文创
+  - 封面
+  - 框架
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：AI平台算法咨询法
 

@@ -21,9 +21,14 @@ aliases:
 - 楚门-AI知识管理探索营-口述.txt
 - AI知识库
 tags:
-- audience:manager
-- scene:design
-- skill-level:advanced
+  - audience:manager
+  - scene:design
+  - skill-level:advanced
+  - 机制
+  - 工具
+  - 方法
+  - 边界
+  - 口述
 source_person: 楚门
 source_context: AI×知识管理探索营（2026-08-15 晚直播）——设计审美文档（L1586-1592）
 source_refs:

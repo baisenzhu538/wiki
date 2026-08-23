@@ -44,6 +44,15 @@ related:
 - '[[tool-月白-替换大法改图]]'
 - '[[tool-月白-精准改图提示词写法]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 文创
+  - 图片
+  - 工具
+  - 方法
+  - 效率
+  - 实操
 ---
 # 技能：AI一句话改图尺寸
 

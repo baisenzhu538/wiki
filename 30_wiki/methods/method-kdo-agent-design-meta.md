@@ -22,9 +22,14 @@ related:
 - '[[method-yihang-human-self-distillation]]'
 - '[[dk-skill-seven-elements-upgrade]]'
 tags:
-- audience:general
-- scene:diagnosis
-- skill-level:advanced
+  - audience:general
+  - scene:diagnosis
+  - skill-level:advanced
+  - 工具
+  - 方法
+  - 流程
+  - 边界
+  - 复盘
 discoverable_by:
 - Agent设计
 - 元方法

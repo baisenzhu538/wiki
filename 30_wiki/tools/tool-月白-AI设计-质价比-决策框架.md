@@ -35,6 +35,16 @@ related:
 - 'tool-月白-AI对话情绪管理法'
 - 'dk-three-context-formula'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AI设计
+  - 框架
+  - 工具
+  - 方法
+  - 实操
+  - 复盘
+  - 质价比
 ---
 # 技能：AI设计'质价比'决策框架
 

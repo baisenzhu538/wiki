@@ -40,6 +40,16 @@ related:
 - '[[tool-月白-文件命名与平台适配规范]]'
 - '[[yt-product-kernel-mvp-design]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AIGC
+  - 提示词
+  - 文创
+  - 工具
+  - 方法
+  - 实操
+  - 复盘
 ---
 # 技能：AIGC设计作业复盘法
 

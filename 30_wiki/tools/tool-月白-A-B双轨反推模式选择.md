@@ -59,6 +59,14 @@ related:
 - '[[tool-月白-设计项目里程碑拆解法]]'
 - '[[tool-月白-里程碑思维拆解设计流程]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AI设计
+  - 图片
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：A/B双轨反推模式选择
 

@@ -39,6 +39,16 @@ related:
 - '[[tool-月白-电商白底图生成与高清处理]]'
 - '[[tool-月白-电商白底图生成与高清重绘]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AIGC
+  - 提示词
+  - 白底图
+  - 文创
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：AIGC产品白底图制作
 

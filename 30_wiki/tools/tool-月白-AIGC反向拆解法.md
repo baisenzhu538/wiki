@@ -55,6 +55,16 @@ related:
 - '[[tool-月白-课程资料文件命名规范]]'
 - '[[tool-月白-里程碑思维拆解设计流程]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AIGC
+  - 提示词
+  - 海报
+  - 文创
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：AIGC反向拆解法
 

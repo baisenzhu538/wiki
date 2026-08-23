@@ -37,6 +37,16 @@ related:
 - 'case-truman-ai-image-workflow-evolution'
 - '[[modeling-scientific-milestones]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AI设计
+  - AIGC
+  - 提示词
+  - 工具
+  - 方法
+  - 流程
+  - 设计师
 ---
 # 技能：AI设计三段式里程碑流程
 

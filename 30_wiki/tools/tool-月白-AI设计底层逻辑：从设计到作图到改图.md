@@ -42,6 +42,15 @@ related:
 - '[[tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]'
 - '[[yt-product-kernel-mvp-design]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AI设计
+  - 文创
+  - 工具
+  - 方法
+  - 效率
+  - 实操
 ---
 # 技能：AI设计底层逻辑：从设计到作图到改图
 

@@ -45,9 +45,14 @@ diagnostic_signals:
   follow_up_question: 尝试用Nano Banana或其他风格聚焦模型跑同一prompt，对比稳定性差异。# Nano Banana 在特定艺术风格稳定复现上优于
     GPT-4o
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 工具
+  - 方法
+  - 边界
+  - 模板
+  - 设计师
 ---
 ## 原始表述
 
@@ -93,6 +98,11 @@ tags:
 1. 模型评测公开语料通常聚焦通用能力基准，极少覆盖"特定艺术家风格稳定复现"这一细分场景
 2. "新模型不如老模型"的逆向判断在营销话语中几乎不存在
 3. "nano banana"为社区/内部昵称，官方文档不会出现此类对比
+
+## Critique
+
+- **内部局限**："Nano Banana 优于 GPT-4o"的判断基于特定艺术风格复现测试——测试样本/风格范围有限，不能推广到所有生图任务；"优于"是相对特定模型版本（模型更新后结论可能失效）。
+- **外部攻击（评测视角）**：单一模型对比测试有"测试集偏差"——不同模型在不同风格/题材各有胜负（模型各有擅长域）；实际选择应"任务-模型匹配"而非品牌站队；且评测标准（风格复现 vs 创意 vs 细节）不统一，结论可被操纵。
 
 ## 与其他知识的关联
 

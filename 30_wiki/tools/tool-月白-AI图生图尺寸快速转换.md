@@ -45,6 +45,16 @@ related:
 - '[[tool-月白-替换大法改图]]'
 - '[[tool-月白-精准改图提示词写法]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 生图
+  - 图生图
+  - 文创
+  - 图片
+  - 工具
+  - 方法
+  - 效率
 ---
 # 技能：AI图生图尺寸快速转换
 

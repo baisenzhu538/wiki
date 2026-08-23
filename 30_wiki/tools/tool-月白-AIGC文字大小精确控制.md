@@ -37,6 +37,15 @@ related:
 - '[[tool-月白-AI图片去文字处理]]'
 - '[[tool-月白-AI生成图片排版控制-尺寸优先法]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AIGC
+  - 文创
+  - 工具
+  - 方法
+  - 边界
+  - 实操
 ---
 # 技能：AIGC文字大小精确控制
 

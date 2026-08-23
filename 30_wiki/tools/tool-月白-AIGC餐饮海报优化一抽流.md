@@ -45,6 +45,16 @@ related:
 - '[[tool-月白-社群直播海报利益点提炼法]]'
 - '[[tool-月白-餐饮海报AB测试法]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AI设计
+  - AIGC
+  - 提示词
+  - 海报
+  - 工具
+  - 方法
+  - 设计师
 ---
 # 技能：AIGC餐饮海报优化一抽流
 

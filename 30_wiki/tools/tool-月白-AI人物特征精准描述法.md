@@ -35,6 +35,15 @@ related:
 - 'dk-three-context-formula'
 - '[[dk-f11-encyclopedia-style]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AI设计
+  - 图片
+  - 工具
+  - 方法
+  - 设计师
+  - 实操
 ---
 # 技能：AI人物特征精准描述法
 

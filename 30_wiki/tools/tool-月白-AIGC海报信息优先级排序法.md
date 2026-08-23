@@ -45,6 +45,15 @@ related:
 - '[[tool-月白-社群直播海报利益点提炼法]]'
 - '[[tool-月白-餐饮海报AB测试法]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AIGC
+  - 海报
+  - 文创
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：AIGC海报信息优先级排序法
 

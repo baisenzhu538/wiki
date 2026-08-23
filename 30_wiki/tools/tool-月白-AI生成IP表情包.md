@@ -37,6 +37,14 @@ related:
 - 'dk-three-context-formula'
 - '[[tool-月白-基于基础形象做动作延展（1到10）]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 表情包
+  - 文创
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：AI生成IP表情包
 

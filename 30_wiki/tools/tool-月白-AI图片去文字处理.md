@@ -37,6 +37,15 @@ related:
 - 'dk-three-context-formula'
 - '[[tool-纪浩-处理AI生成代码运行异常]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AI设计
+  - 图片
+  - 工具
+  - 方法
+  - 设计师
+  - 实操
 ---
 # 技能：AI图片去文字处理
 

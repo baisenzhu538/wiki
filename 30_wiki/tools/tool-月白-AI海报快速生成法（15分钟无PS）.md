@@ -35,6 +35,16 @@ related:
 - 'tool-月白-AIGC餐饮海报优化一抽流'
 - 'dk-aesthetic-redline-doc'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AI设计
+  - 生图
+  - 提示词
+  - 海报
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：AI海报快速生成法（15分钟无PS）
 

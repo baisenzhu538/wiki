@@ -41,6 +41,15 @@ related:
 - '[[tool-月白-模型识别与边界测试法]]'
 - '[[tool-月白-精准提示词消除模型幻觉]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 提示词
+  - 文创
+  - 工具
+  - 方法
+  - 决策法
+  - 实操
 ---
 # 技能：AI模型选择决策法
 

@@ -36,6 +36,16 @@ related:
 - 'dk-three-context-formula'
 - '[[tool-月白-基于基础形象做动作延展（1到10）]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 提示词
+  - IP形象
+  - 文创
+  - 图片
+  - 工具
+  - 方法
+  - 模板
 ---
 # 技能：AI生成棉花娃娃形象
 

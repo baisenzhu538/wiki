@@ -138,6 +138,15 @@ related:
 - '[[tool-月白-餐饮类线下设计调性把控]]'
 - '[[tool-纪浩-处理AI生成代码运行异常]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AI设计
+  - 图片
+  - 工具
+  - 方法
+  - 设计师
+  - 实操
 ---
 # 技能：AI图片印刷落地预处理
 

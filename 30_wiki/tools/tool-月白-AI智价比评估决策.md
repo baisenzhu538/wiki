@@ -37,6 +37,15 @@ related:
 - 'dk-three-context-formula'
 - '[[tool-纪浩-项目启动五问法]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AIGC
+  - 文创
+  - 工具
+  - 方法
+  - 效率
+  - 实操
 ---
 # 技能：AI智价比评估决策
 

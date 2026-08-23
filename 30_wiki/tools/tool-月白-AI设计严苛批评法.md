@@ -36,6 +36,16 @@ related:
 - 'dk-three-context-formula'
 - '[[aigc设计基础01ai生图原理与提示词基本功]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AI设计
+  - AIGC
+  - 海报
+  - 文创
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：AI设计严苛批评法
 

@@ -36,6 +36,16 @@ related:
 - 'case-truman-ai-image-workflow-evolution'
 - '[[modeling-scientific-milestones]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AI设计
+  - AIGC
+  - 橱窗陈列
+  - 工具
+  - 方法
+  - 流程
+  - 设计师
 ---
 # 技能：AIGC橱窗陈列设计流程
 

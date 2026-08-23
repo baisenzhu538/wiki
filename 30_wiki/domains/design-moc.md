@@ -16,11 +16,16 @@ source_refs:
 created_at: 2026-08-06
 updated_at: 2026-08-06
 tags:
-- audience:hongqigong
-- audience:laowantong
-- audience:ouyangfeng
-- scene:reference
-- skill-level:intermediate
+  - audience:hongqigong
+  - audience:laowantong
+  - audience:ouyangfeng
+  - scene:reference
+  - skill-level:intermediate
+  - AI设计
+  - AIGC
+  - 生图
+  - 提示词
+  - 文创
 aliases:
 - design MOC
 - 设计索引
@@ -67,15 +72,15 @@ related:
 
 | 你问的是 | 看这里 |
 |:--|:--|
-| AI 生图怎么入门 | [[concept-AIGC设计基础01-AI生图原理与提示词基本功]] |
-| AI 辅助设计全流程怎么做 | [[concept-AIGC设计师实操培训01-设计品质控制与AI辅助全流程]] |
-| 文创/IP 设计从 0 到 1 | [[concept-AIGC的文创设计课-Leo文创IP从0到1全流程]] |
-| 视觉 Prompt 怎么写 | [[concept-视觉Prompt操作系统-SROM-Visual-OS]] |
-| AI 设计怎么练习 | [[dk-设计师AIGC练习方式-MVP快速上手]] |
-| AI 会取代设计师吗 | [[dk-AI时代设计师转型还是转行]] |
-| 泛产品设计全貌 | [[framework-一堂-泛产品设计36计-全套地图]] |
-| 设计落地工具箱 | [[dk-泛产品设计落地工具篇]] |
-| 有没有真实案例 | [[case-一堂Live81-AI设计马拉松全流程拆解]] |
+| AI 生图怎么入门 | concept-AIGC设计基础01-AI生图原理与提示词基本功 |
+| AI 辅助设计全流程怎么做 | concept-AIGC设计师实操培训01-设计品质控制与AI辅助全流程 |
+| 文创/IP 设计从 0 到 1 | concept-AIGC的文创设计课-Leo文创IP从0到1全流程 |
+| 视觉 Prompt 怎么写 | concept-视觉Prompt操作系统-SROM-Visual-OS |
+| AI 设计怎么练习 | dk-设计师AIGC练习方式-MVP快速上手 |
+| AI 会取代设计师吗 | dk-AI时代设计师转型还是转行 |
+| 泛产品设计全貌 | framework-一堂-泛产品设计36计-全套地图 |
+| 设计落地工具箱 | dk-泛产品设计落地工具篇 |
+| 有没有真实案例 | case-一堂Live81-AI设计马拉松全流程拆解 |
 | 设计 x 表达力 | [[framework-一堂-表达力火箭模型]] |
 
 ## 知识网络
