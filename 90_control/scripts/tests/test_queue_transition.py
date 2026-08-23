@@ -444,3 +444,57 @@ class TestForceLedgerAndEvidenceGate(unittest.TestCase):
                 qt.parse_queue, qt.find_task, qt._find_task_file_dual = old_pq, old_ft, old_fd
         self.assertFalse(ok)
         self.assertIn("--reason", msg)
+
+
+# ── #457 处置类门禁结构化回归（显式标记优先 + 关键词限定范围降级）──
+
+class TestDisposalGateStructured(unittest.TestCase):
+    """#457：disposal:true 硬门禁 + 关键词限定范围提示（#189/#454 误判根治）。"""
+
+    def _task(self, tmp, body="", disposal=None, title="测试任务"):
+        fm = f"---\nid: 9999\nassignee: huangyaoshi\nstatus: queued\ntitle: {title}\n"
+        if disposal is not None:
+            fm += f"disposal: {str(disposal).lower()}\n"
+        fp = tmp / "task_9999_test.md"
+        fp.write_text(fm + "---\n# 测试\n" + body, encoding="utf-8")
+        return fp
+
+    def test_189_misjudgment_pass(self):
+        """#189 误判场景：处置词只出现在正文叙述（"术语清理"不在动作/目标节）→ 放行零提示。"""
+        with tempfile.TemporaryDirectory() as d:
+            fp = self._task(Path(d), body="## 动作\n按新口径重写卡片。\n## 任务目标\n完成重写。\n## 背景\n术语清理由旧口径迁移完成。")
+            ok, msg = qt._check_disposal_gate(fp, {"title": "测试任务"}, "task_9999_test")
+        self.assertTrue(ok)
+        self.assertEqual(msg, "")  # "清理"在背景叙述 → 零提示
+
+    def test_454_keyword_in_body_only_pass(self):
+        """#454 同款：关键词只在独立背景节（"已废弃"），动作节干净 → 放行。"""
+        with tempfile.TemporaryDirectory() as d:
+            fp = self._task(Path(d), body="## 动作\n核对相关卡片并更新。\n## 背景\n旧方案已废弃。")
+            ok, msg = qt._check_disposal_gate(fp, {"title": "测试"}, "task_9999_test")
+        self.assertTrue(ok)
+        self.assertEqual(msg, "")
+
+    def test_marked_disposal_requires_judgement(self):
+        """正测：disposal:true 无内容价值判断节 → 硬拦。"""
+        with tempfile.TemporaryDirectory() as d:
+            fp = self._task(Path(d), body="## 动作\n删除素材文件 A。", disposal=True)
+            ok, msg = qt._check_disposal_gate(fp, {"title": "测试", "disposal": True}, "task_9999_test")
+        self.assertFalse(ok)
+        self.assertIn("内容价值判断", msg)
+
+    def test_marked_disposal_with_judgement_pass(self):
+        """正测：disposal:true + 内容价值判断节 → 通过 + 确认清单。"""
+        with tempfile.TemporaryDirectory() as d:
+            fp = self._task(Path(d), body="## 动作\n删除素材文件 A。\n## 内容价值判断\n已通读内容，删除逐件老朱亲批。")
+            ok, msg = qt._check_disposal_gate(fp, {"title": "测试", "disposal": True}, "task_9999_test")
+        self.assertTrue(ok)
+        self.assertIn("已领取", msg)
+
+    def test_unmarked_real_disposal_warns(self):
+        """未标记真处置：动作节含处置词 → 提示不硬拦，引导补标记。"""
+        with tempfile.TemporaryDirectory() as d:
+            fp = self._task(Path(d), body="## 动作\n删除 3 个素材文件并归档。")
+            ok, msg = qt._check_disposal_gate(fp, {"title": "测试"}, "task_9999_test")
+        self.assertTrue(ok)  # 不硬拦
+        self.assertIn("疑似处置未标记", msg)  # 提示引导补 disposal:true

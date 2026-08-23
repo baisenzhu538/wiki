@@ -383,8 +383,25 @@ def ensure_task_workspace(task_id: str, task_file: Path) -> str | None:
 DISPOSAL_KEYWORDS = ("删除", "清理", "归档", "废弃", "处置", "移除", "删除类")
 
 
+def _extract_action_scope(body: str) -> str:
+    """#457 方案 1（辅）：只提取「## 动作」节 + 「## 任务目标」节（不含全 body）——正文叙述不触发关键词。"""
+    scope = []
+    for sec in ("## 动作", "## 任务目标"):
+        idx = body.find(sec)
+        if idx == -1:
+            continue
+        nxt = body.find("\n## ", idx + 1)
+        scope.append(body[idx:nxt] if nxt > 0 else body[idx:])
+    return "\n".join(scope)
+
+
 def _check_disposal_gate(task_file: Path, fm: dict[str, Any], task_id: str) -> tuple[bool, str]:
-    """处置类任务 claim 检查：必须有内容价值判断节，输出确认清单。"""
+    """处置类任务 claim 检查（#457 结构化重构：显式标记优先 + 关键词限定范围降级为提示）。
+
+    - 显式标记 `disposal: true`（编排侧写任务单时标注）→ 硬门禁：必须带「内容价值判断」节
+    - 关键词（只扫动作节+任务目标节）→ 降级为提示（不硬拦），引导补标记
+    - 意图不变：PROTOCOL §7 素材删除禁令（逐件老朱亲批）；#189/#454 误判根治（术语词不误卡）
+    """
     body = task_file.read_text(encoding="utf-8", errors="replace")
     title = str(fm.get("title") or task_file.stem)
 
@@ -392,27 +409,34 @@ def _check_disposal_gate(task_file: Path, fm: dict[str, Any], task_id: str) -> t
     if fm.get("claim_gate_exempt"):
         return True, f"（claim_gate_exempt 豁免：{fm['claim_gate_exempt']}）"
 
-    is_disposal = any(k in title for k in DISPOSAL_KEYWORDS) or any(k in body for k in DISPOSAL_KEYWORDS)
-    if not is_disposal:
-        return True, ""
-
     has_value_judgement = "内容价值判断" in body
-    if not has_value_judgement:
-        return False, (
-            f"处置类任务 {task_id} 缺「内容价值判断」节——禁止领取。\n"
-            f"背景：PROTOCOL §7 素材删除禁令（08-19 英文壳事件）。\n"
-            f"请在任务单补充节：该任务涉及素材的内容价值判断（读过内容再定去向），"
-            f"并声明删除须逐件老朱亲批。"
+
+    # 1. 显式标记 → 硬门禁（方案 2，主）
+    if fm.get("disposal") is True:
+        if not has_value_judgement:
+            return False, (
+                f"处置类任务 {task_id}（frontmatter disposal: true）缺「内容价值判断」节——禁止领取。\n"
+                f"背景：PROTOCOL §7 素材删除禁令（08-19 英文壳事件）。\n"
+                f"请在任务单补充节：该任务涉及素材的内容价值判断（读过内容再定去向），"
+                f"并声明删除须逐件老朱亲批。"
+            )
+        return True, (
+            f"✅ {task_id} 已领取（处置类 disposal: true，已含内容价值判断节）。\n"
+            f"执行前确认清单：\n"
+            f"  ① 素材处置默认只有消化/归档原位保留，删除须逐件老朱亲批（PROTOCOL §7）\n"
+            f"  ② 批量三问：dry-run 预览 / 变更范围声明 / 非空值不覆盖\n"
+            f"  ③ 处置前通读内容（B5 牌：先读完整内容再下结论）"
         )
 
-    checklist = (
-        f"✅ {task_id} 已领取（处置类，已含内容价值判断节）。\n"
-        f"执行前确认清单：\n"
-        f"  ① 素材处置默认只有消化/归档原位保留，删除须逐件老朱亲批（PROTOCOL §7）\n"
-        f"  ② 批量三问：dry-run 预览 / 变更范围声明 / 非空值不覆盖\n"
-        f"  ③ 处置前通读内容（B5 牌：先读完整内容再下结论）"
-    )
-    return True, checklist
+    # 2. 关键词（限定范围）→ 降级为提示，不硬拦（方案 1，辅——#189/#454 误判根治）
+    scope = title + "\n" + _extract_action_scope(body)
+    hits = [k for k in DISPOSAL_KEYWORDS if k in scope]
+    if hits:
+        return True, (
+            f"⚠️ {task_id} 疑似处置未标记：动作/目标节命中 {hits}——如含素材处置动作，"
+            f"请补 frontmatter `disposal: true` + 「内容价值判断」节（#457；PROTOCOL §7 删除须老朱亲批）"
+        )
+    return True, ""
 
 
 # #444 instance→角色名映射：frontmatter assignee 只写角色名，instance 另存。
