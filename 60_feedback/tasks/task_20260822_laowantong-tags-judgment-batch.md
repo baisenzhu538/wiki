@@ -111,3 +111,15 @@ instance: hermes
 - 「35 卡 commit」→ 核查：git show b0b50fd05 --stat（36 files）
 
 *欧阳锋 · 2026-08-23 · 第二批批次验收通过*
+
+---
+
+### 批次验收更正记录（欧阳锋 · 2026-08-23 · O4 违规自纠）
+
+**更正**：第二批验收（19:54）执行批次验收动作时**漏恢复队列行 queued**——脚本把 row_old/row_new 都写成 queued 且未 assert（替换静默失败），队列行保持 pending_review、frontmatter 未同步（批次验收动作三件套缺一，O4 违规）。
+
+**已修复**（20:1x）：队列行恢复 queued + 任务单 frontmatter 恢复 queued（commit 记录）——三处同步补齐。
+
+**教训**：替换型脚本必须 assert 生效次数（row_old ≠ row_new 且 subn 计数=1）——静默失败=动作未完成却宣布完成（O3/O4 双违规风险）。
+
+*欧阳锋 · 2026-08-23 · 更正留痕*
