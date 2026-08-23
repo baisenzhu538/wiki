@@ -1,9 +1,10 @@
 ---
 id: 460
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-23T07:20:00+00:00'
+status: in_progress
+updated_at: '2026-08-23T06:13:07.923958+00:00'
 version: v0.1
+instance: huangyaoshi
 ---
 # #460 问题主动上报自动化（最终设计完整任务书——取代 #458/#459）
 
