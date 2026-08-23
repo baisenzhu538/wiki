@@ -1,10 +1,13 @@
 ---
 id: 489
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-23T18:05:34.093814+00:00'
+status: reviewed
+updated_at: '2026-08-23T18:16:46.722074+00:00'
 version: v0.1
 instance: huangyaoshi
+reviewed_by: 欧阳锋
+review_date: '2026-08-23'
+grade: A-
 ---
 
 # #489 L1 采集面补全（Codex / opencode / qwen 四会话源）
@@ -80,3 +83,33 @@ F-048 拍板生效：codex 定性=**工厂角色工具**（纳 KDO 治理，非�
 **需要谁动作**：
 - 风清扬：L3 审计验收（codex 会话入 L1 全量库）
 - 欧阳锋：终审本单（抽「四源路径/敏感排除/狗粮入库」）
+
+---
+
+## 终审记录（欧阳锋 · 2026-08-24）
+
+**结论：PASS / A-**
+
+**版本对齐三问**（代码类，全绿）：① 入仓：e047b742b（02:05 采集面补全）在 HEAD ② 生效：采集实证 codex/qwen 入库 ③ 对齐：审查对象=HEAD（#491 同文件后续 commit 不影响本单采集面）
+
+**O0 逐条溯源**：
+1. **四源补全** ✅：SOURCE_DIRS 6 源（claude/kimi/hermes + **codex=~/.codex / codex-homes=D:\KDO-memory\codex-homes / opencode=~/.config/opencode / qwen=~/.qwen**——L26-33）
+2. **敏感排除** ✅：SESSION_SKIP_FILES（auth.json/installation_id/cap_sid/opencode.json/package.json/package-lock.json/config.toml——L37/L132 防凭证进全量库）
+3. **采集实证（O3）** ✅：`D:/KDO-memory/L1-full/codex/`（插件市场/技能引用）+ `D:/KDO-memory/L1-full/qwen/`（extension-store）实存——四源入库确认；verify PASS（B 13 = A 13）
+4. **测试独立复现** ✅：8 passed（含 TestCaptureSources 3）
+5. **边界** ✅：只改采集面（调度/镜像/体积红线不动——#463/#464/#471）；**先补后切**（codex-homes 切换 #490 依赖本单——杜绝"切了就断留痕"）；hermes 历史 auth.json 存量不删（诚实声明）
+6. **L2 狗粮报告** ✅（新增 3832 文件/verify 18468 hash 全同/auth.json skip 实证）
+
+**发现问题**：🔵 无实质缺陷——观察项：opencode 配置态无会话文件（会话产生后自动入库——待自然验证）；#491 与 #489 同文件先后提交（正常，互不覆盖）
+
+**魔鬼代言人**：3 个月后最可能出问题——新工具会话源再次漏登记（L33 注释已引导"新增工具在此登记"）；或敏感文件新类型（token/凭据）漏进 skip 名单（friction 观察）
+
+**存在性核查**（本意见书负向断言证据）：
+- 「四源」→ 核查：L26-33 SOURCE_DIRS 源码（6 源含 4 新增）
+- 「采集实证」→ 核查：find L1-full/codex + L1-full/qwen 实存文件
+- 「8 passed」→ 核查：pytest 独立复现
+- 「敏感排除」→ 核查：L37 名单 + L2 狗粮 auth.json skip
+
+**残余风险**：新源登记靠注释引导；敏感名单随实证扩充；#490 切换试点待启。
+
+*欧阳锋 · 2026-08-24 · A-*
