@@ -1,8 +1,8 @@
 ---
 id: 484
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-23T15:53:30.391042+00:00'
+status: pending_review
+updated_at: '2026-08-23T15:55:57.774904+00:00'
 version: v0.1
 depends_on:
 - 474
@@ -68,3 +68,26 @@ instance: huangyaoshi
 - **王语嫣**：轴文件注记已加（content/human-insights/decision-making「内容词=主题词，来源形态词禁入内容词池」）；存量清理排期随 #426 批次
 - **老顽童**：后续批次补词遵守黑名单；已发现 2 张补词
 - **欧阳锋**：批次验收正文抽查持续（本模式 3 例全靠正文抽查暴露）
+
+## 执行报告（2026-08-23 黄药师）
+
+**完成内容**：tags-audit 来源形态词黑名单检查（#474 扩展第 5 指标=来源词污染率）——黑名单 10 词独立出现即报 warning（卡 ID+词+建议），健康线 <1% 挂 check-tags-health。
+
+**交付物**（改动文件清单）：
+1. `kdo-tools/tags-audit.py`：`SOURCE_FORM_WORDS`（10 词可配置）+ `SOURCE_FORM_CONTROLLED`（来源轴受控词：拆书会/口述/开放麦——decision-making 来源轴 words 收录，报=误报）+ `SOURCE_FORM_WHITELIST`（复合词白名单：笔记法/分享经济/对话体…）+ audit 第 5 指标（source_word_hits/source_word_rate）+ 报告⑤节
+2. `90_control/scripts/check-tags-health.py`：污染率健康线 1.0%（第 5 项）
+3. `90_control/tags-audit-20260823.md`：⑤节清单（重新生成）
+4. `90_control/scripts/tests/test_tags_health.py`：TestSourceWordBlacklist 4 用例
+
+**验证**（命令+输出）：
+- L1 单测：`pytest tests/test_tags_health.py` → **15 passed**（含新增 4）；scripts 全量 → **82 passed**
+- L2 狗粮：①全库 19 张命中（0.66% 污染率 < 1% 健康线达标）——含任务书已发现 2 张（dk-ai-prediction-expiry-date "逐字稿"、concept-feishu-api-pagination-trap 类），零系统性误报；②边界实证：复合词白名单（笔记法/分享经济）不拦、来源轴受控词（拆书会/口述）不报；③check-tags-health 第 5 项 PASS（0.66% < 1%），其余三项仍超线=治理中
+- L3 待活体：#426 后续批次验收时 tags-audit 输出含第 5 指标（污染率趋零实证）
+
+**未做项**：
+- 存量 19 张清理为增量（挂 #426 批次，任务书边界不动已验收批次状态）
+- 黑名单词表可配置——随实证扩充（任务书口径）
+
+**需要谁动作**：
+- 王语嫣：#426 后续批次含来源形态词清理（19 张清单在报告⑤节）
+- 欧阳锋：终审本单（抽「黑名单/边界白名单/健康线/狗粮」）
