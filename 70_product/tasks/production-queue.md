@@ -81,7 +81,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 
 | 426 | `task_20260822_laowantong-tags-judgment-batch` | 739 张 tags 判断类分批治理（P2 长程，老朱 08-20 拍板+08-22 二拍维持）：词表设计先行+按域分批 | queued | laowantong | 词表+分批治理 | 无 | `60_feedback/tasks/task_20260822_laowantong-tags-judgment-batch.md` | 词表未出不动手；首批=试点批；归零声明附 #399 工具输出；欧阳锋批次验收（#411 模式）；风清扬审计待修③收口 |
 
-| 445 | `task_20260823_huangyaoshi-oneclick-agent-launcher` | KDO 一键启动脚本（P2，冷启动三件套 A 项）：右键启动+角色菜单，三步入会话 | pending_review | huangyaoshi | 启动脚本+狗粮 | 风清扬建议书裁定（B/C 归 #419 追加+王语嫣自办） | `60_feedback/tasks/task_20260823_huangyaoshi-oneclick-agent-launcher.md` | L3 活体=老朱亲手三步启动确认；飞书角色不进菜单；交付五字段+验证分层声明；欧阳锋终审 |
+| 445 | `task_20260823_huangyaoshi-oneclick-agent-launcher` | KDO 一键启动脚本（P2，冷启动三件套 A 项）：右键启动+角色菜单，三步入会话 | reviewed | huangyaoshi | 启动脚本+狗粮 | 风清扬建议书裁定（B/C 归 #419 追加+王语嫣自办） | `60_feedback/tasks/task_20260823_huangyaoshi-oneclick-agent-launcher.md` | L3 活体=老朱亲手三步启动确认；飞书角色不进菜单；交付五字段+验证分层声明；欧阳锋终审 |
 | 446 | `task_20260823_laowantong-role-special-huangyaoshi` | 角色专场第三场：黄药师岗位说明书定稿（P1，F-028 第三场） | reviewed | laowantong | 五要素 spec 升级 | 素材已齐（验证分层/词表三层/四铁律注入） | `60_feedback/tasks/task_20260823_laowantong-role-special-huangyaoshi.md` | 必含基建单一实例(#222/#223)/验证三验(跑了≠真了)/词表三层/只拦机械项；狗粮=本单 complete 零 force；欧阳锋终审、老朱终稿后并入 §2.6.4 |
 | 447 | `task_20260823_laowantong-role-special-fengqingyang` | 角色专场第四场：风清扬岗位说明书定稿（P1，F-028 第四场） | queued | laowantong | 五要素 spec 升级 | **#446 老朱拍板后开工**（一角色一张过） | `60_feedback/tasks/task_20260823_laowantong-role-special-fengqingyang.md` | 必含不动基建不产卡/只交王语嫣/完成声明拆三问/判断先落盘/L0 审计权；欧阳锋终审、老朱终稿后并入 §2.6.5；老朱场=最后一场待老朱输入 |
 | 448 | `task_20260823_laowantong-role-special-zhu` | 角色专场第六场（终场）：老朱角色卡定稿（P1，F-028 收官） | queued | laowantong | 五要素 spec（人的角色重构） | 顺位 #446/#447 后；老朱口述通道即时开放（一等证据随时入） | `60_feedback/tasks/task_20260823_laowantong-role-special-zhu.md` | 写的是人不是 agent（纠偏者/拍板人/宪法来源不可委托内核）；红线清单全量提炼；老朱本人确认终稿；定稿后 F-028 出池 §2.6 六节全齐 |
@@ -98,7 +98,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 > 欧阳锋开工只看这段：有行就审，终审后自动划掉。历史任务不回填（#389，只向前生效）。
 
 - ~~#446 task_20260823_laowantong-role-special-huangyaoshi｜laowantong｜提审 08-23 12:29｜60_feedback/tasks/task_20260823_laowantong-role-special-huangyaoshi.md~~ → 已终审 PASS A（2026-08-23 欧阳锋）
-- #445 task_20260823_huangyaoshi-oneclick-agent-launcher｜huangyaoshi｜提审 08-23 12:46｜60_feedback/tasks/task_20260823_huangyaoshi-oneclick-agent-launcher.md
+- ~~#445 task_20260823_huangyaoshi-oneclick-agent-launcher｜huangyaoshi｜提审 08-23 12:46｜60_feedback/tasks/task_20260823_huangyaoshi-oneclick-agent-launcher.md~~ → 已终审 PASS A-（2026-08-23 欧阳锋）
 
 <!-- REVIEW-PENDING-END -->
 
