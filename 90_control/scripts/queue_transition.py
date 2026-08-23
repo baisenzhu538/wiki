@@ -5,7 +5,7 @@ All queue status changes MUST go through this script. Manual edits to
 
 Usage:
     python queue_transition.py claim <task-id> --instance <name> [--force] [--no-commit]
-    python queue_transition.py complete <task-id> --instance <name> [--evidence <path>] [--force] [--no-commit]
+    python queue_transition.py complete <task-id> --instance <name> [--evidence <path>] [--force --reason '<理由>'] [--no-commit]
     python queue_transition.py release <task-id> --instance <name> [--no-commit]
     python queue_transition.py review <task-id> --verdict pass|fail --reviewer 欧阳锋 [--grade A|A-|B+|B|B-|C] [--no-commit]
 
@@ -15,7 +15,7 @@ Exit codes:
 
 --force claim: 跳过队列前方 pending_review 阻塞（用于不同 assignee 的并行任务）
 --force complete: 允许从 queued 直接跳到 pending_review
-        （用于生产已完成但未通过脚本领取的场景）
+        （用于生产已完成但未通过脚本领取的场景；#444 起必须配 --reason，例外入台账 90_control/force-exceptions.log）
 --no-commit: 跳过流转后的自动 git 收口（#390 逃生门，特殊场景手工控制）
 
 #390：流转成功后自动 commit 本次触碰的文件（任务单+队列+dashboard），
@@ -415,6 +415,16 @@ def _check_disposal_gate(task_file: Path, fm: dict[str, Any], task_id: str) -> t
     return True, checklist
 
 
+# #444 instance→角色名映射：frontmatter assignee 只写角色名，instance 另存。
+# 老顽童多实例（hermes=飞书 / kimi=Kimi CLI）统一映射 laowantong；其余角色 instance 与角色名同形。
+# 存量任务单 assignee=实例名不回改（读侧兼容，历史既往不咎）。
+INSTANCE_ROLE_MAP = {"hermes": "laowantong", "kimi": "laowantong"}
+
+
+def _role_of(instance: str) -> str:
+    return INSTANCE_ROLE_MAP.get(instance, instance)
+
+
 def action_claim(task_id: str, instance: str, force: bool = False) -> tuple[bool, str]:
     """Claim a queued task for an instance.
 
@@ -445,7 +455,11 @@ def action_claim(task_id: str, instance: str, force: bool = False) -> tuple[bool
                 return False, reason
 
         new_status = f"claimed-{instance}"
-        apply_updates(task_id, new_status, task_file, assignee=instance, status="in_progress")
+        # #444 frontmatter 口径：assignee=角色名（文档署名单一口径，E020/E045 同病根治）；
+        # 实际执行实例另存 instance 字段。存量任务单 assignee=实例名（如 hermes）不回改——
+        # 读侧兼容（REVIEW-PENDING 登记显示原值），历史既往不咎。
+        apply_updates(task_id, new_status, task_file, assignee=_role_of(instance),
+                      instance=instance, status="in_progress")
 
     ws_note = ensure_task_workspace(task_id, task_file)
     if ws_note:
@@ -530,28 +544,48 @@ def _extract_exec_report(body: str) -> str:
 
 
 def _check_delivery_fields(task_file, evidence: str | None) -> tuple[bool, str]:
-    """F-034：交付五字段机读检查——缺项=拒收（--force 可跳过，语义=已声明例外）。"""
+    """F-034：交付五字段机读检查——缺项=拒收（--force --reason 可声明例外，#444 台账留痕）。
+
+    #444：evidence 不再作为五字段的替代检查面——五字段必须落在任务单「## 执行报告」节
+    （evidence 只是佐证附件，防止指向任务单外文件绕过交接语义——#441 实证侧门）。
+    """
     if evidence is not None:
+        # evidence 仅验证可读性（佐证附件），检查面恒为任务单执行报告节
         try:
-            ev_text = Path(evidence).read_text(encoding="utf-8", errors="ignore")
+            Path(evidence).read_text(encoding="utf-8", errors="ignore")
         except OSError:
             return False, f"--evidence 文件不可读: {evidence}"
-        check_text = ev_text
-    else:
-        body = task_file.read_text(encoding="utf-8", errors="ignore")
-        check_text = _extract_exec_report(body)
-        if not check_text:
-            return False, "任务单缺少「## 执行报告」节（#429 F-034：交付必须落执行报告，口头完成=未完成）"
+    body = task_file.read_text(encoding="utf-8", errors="ignore")
+    check_text = _extract_exec_report(body)
+    if not check_text:
+        return False, "任务单缺少「## 执行报告」节（#429 F-034：交付必须落执行报告，口头完成=未完成；#444：evidence 附件不能替代）"
     missing = [k for k, anchors in DELIVERY_FIELDS.items() if not any(a in check_text for a in anchors)]
     if missing:
-        return False, f"执行报告缺 {len(missing)} 个字段（#429 F-034）：{'、'.join(missing)}。请补全后重试，或 --force 声明例外。"
+        return False, f"执行报告缺 {len(missing)} 个字段（#429 F-034）：{'、'.join(missing)}。请补全后重试，或 --force --reason '<理由>' 声明例外（#444 台账留痕）。"
     return True, ""
 
 
-def action_complete(task_id: str, instance: str, evidence: str | None, force: bool = False) -> tuple[bool, str]:
+# #444 force 例外台账：--force 绕过 F-034 必须留痕（谁/何时/绕过哪条/为何）——「声明例外」不得无痕
+FORCE_LEDGER = _WIKI_ROOT / "90_control" / "force-exceptions.log"
+
+
+def _log_force_exception(task_id: str, instance: str, reason: str) -> str:
+    """#444：force 例外写入台账，终审可见。返回台账路径供提示。"""
+    line = (f"{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}｜task={task_id}｜instance={instance}"
+            f"｜bypass=F-034 交付五字段｜reason={reason.strip()}\n")
+    FORCE_LEDGER.parent.mkdir(parents=True, exist_ok=True)
+    with FORCE_LEDGER.open("a", encoding="utf-8") as f:
+        f.write(line)
+    return str(FORCE_LEDGER)
+
+
+def action_complete(task_id: str, instance: str, evidence: str | None, force: bool = False,
+                    reason: str | None = None) -> tuple[bool, str]:
     """Mark a claimed task as pending_review.
 
     --force: 允许从 queued 直接跳到 pending_review（用于生产已完成但未通过脚本领取的场景）
+    #444：--force 必须配 --reason（例外留痕，台账 90_control/force-exceptions.log）
+    #444：--evidence 路径留档任务单 frontmatter（佐证附件，不替代五字段检查面）
     """
     rows = parse_queue()
     task = find_task(task_id, rows)
@@ -564,6 +598,11 @@ def action_complete(task_id: str, instance: str, evidence: str | None, force: bo
     elif task["status"] != expected:
         return False, f"任务 {task_id} 状态为 {task['status']}，不是由 {instance} 领取的 {expected}"
 
+    # #444：force 无理由=拒绝（「声明例外」被当常规通道的根治——#441 实证）
+    if force and not (reason and reason.strip()):
+        return False, ("--force 绕过 F-034 交付五字段门禁，必须配 --reason '<理由>'"
+                       "（#444：例外留痕——谁/为何/绕过哪条/何时补，台账可溯）")
+
     task_file = _find_task_file_dual(task_id)
     if task_file is None:
         return False, f"找不到任务单文件: {task_id}（已按文件名和 frontmatter id 双重查找）"
@@ -574,6 +613,20 @@ def action_complete(task_id: str, instance: str, evidence: str | None, force: bo
         gate_ok, gate_msg = _check_delivery_fields(task_file, evidence)
         if not gate_ok:
             return False, gate_msg
+
+    # #444：force 例外入台账（终审可见）
+    force_note = ""
+    if force:
+        ledger = _log_force_exception(task_id, instance, reason or "")
+        force_note = f"\n⚠️ force 例外已留痕: {ledger}"
+
+    # #444：evidence 留档任务单 frontmatter（佐证附件可溯）
+    fm_evidence = None
+    if evidence:
+        try:
+            fm_evidence = str(Path(evidence).resolve().relative_to(_WIKI_ROOT)).replace("\\", "/")
+        except ValueError:
+            fm_evidence = evidence
 
     # 代码类提审门禁（#363）：code_files 未 commit → 拒绝流转
     gate_ok, gate_msg = _check_code_gate(task_file, fm)
@@ -589,7 +642,8 @@ def action_complete(task_id: str, instance: str, evidence: str | None, force: bo
         ):
             return False, "队列状态在加锁期间发生变化，请重试"
 
-        apply_updates(task_id, "pending_review", task_file, status="pending_review")
+        apply_updates(task_id, "pending_review", task_file, status="pending_review",
+                      evidence=fm_evidence)
 
     # #389：门禁通过后登记 REVIEW-PENDING 段（被门禁拦截的 complete 到不了这里）
     try:
@@ -602,7 +656,7 @@ def action_complete(task_id: str, instance: str, evidence: str | None, force: bo
         "task_file": rel_path,
     })
 
-    return True, f"✅ {task_id} 已提交为 pending_review，等待欧阳锋终审"
+    return True, f"✅ {task_id} 已提交为 pending_review，等待欧阳锋终审{force_note}"
 
 
 # #433 负向判词证据层门禁（风清扬建议书 diag_20260823_fengqingyang-negative-claim-evidence-gate.md 采纳）
@@ -838,6 +892,7 @@ def main() -> int:
     grade = None
     review_file = None
     note = None
+    reason = None
     force = False
     no_commit = False
 
@@ -854,6 +909,9 @@ def main() -> int:
             i += 1
         elif args[i] == "--evidence" and i + 1 < len(args):
             evidence = args[i + 1]
+            i += 2
+        elif args[i] == "--reason" and i + 1 < len(args):
+            reason = args[i + 1]  # #444：--force 例外声明（留痕台账）
             i += 2
         elif args[i] == "--verdict" and i + 1 < len(args):
             verdict = args[i + 1]
@@ -886,7 +944,7 @@ def main() -> int:
         if not instance:
             print("complete 需要 --instance <instance>", file=sys.stderr)
             return 1
-        ok, msg = action_complete(task_id, instance, evidence, force=force)
+        ok, msg = action_complete(task_id, instance, evidence, force=force, reason=reason)
     elif action == "release":
         if not instance:
             print("release 需要 --instance <instance>", file=sys.stderr)

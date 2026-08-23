@@ -350,3 +350,78 @@ class TestNegativeGateVocabData(unittest.TestCase):
                 "- 结论等级：确认缺失（全查过）")
         ok, _ = qt._check_negative_claims(text)
         self.assertTrue(ok)
+
+
+class TestForceLedgerAndEvidenceGate(unittest.TestCase):
+    """#444：--force 例外台账 + evidence 侧门封堵 + assignee 角色名口径。"""
+
+    def _make_task_file(self, with_report: bool) -> Path:
+        """构造临时任务单（含/不含五字段执行报告）。"""
+        report = ("\n## 执行报告\n\n**完成内容**：测试交付。\n**交付物**：tmp 文件。\n"
+                  "**验证**：pytest。\n**边界**：无。\n**需要谁动作**：欧阳锋终审。\n"
+                  ) if with_report else ""
+        content = ("---\nid: 444-test\nassignee: huangyaoshi\nstatus: in_progress\n---\n"
+                   "# 测试任务单\n" + report)
+        fd, name = tempfile.mkstemp(suffix=".md")
+        import os as _os
+        _os.close(fd)
+        f = Path(name)
+        f.write_text(content, encoding="utf-8")
+        self.addCleanup(_os.unlink, name)
+        return f
+
+    def test_evidence_side_door_sealed(self):
+        """#444 侧门封堵：任务单无执行报告时，evidence 指向含五字段锚点的外部文件也 FAIL。"""
+        task = self._make_task_file(with_report=False)
+        fd, evname = tempfile.mkstemp(suffix=".md")
+        import os as _os
+        _os.close(fd)
+        ev = Path(evname)
+        ev.write_text("**完成内容**：外部文件含全部锚点。**交付物**：x。**验证**：x。"
+                      "**边界**：x。**需要谁动作**：x。", encoding="utf-8")
+        self.addCleanup(_os.unlink, evname)
+        ok, msg = qt._check_delivery_fields(task, str(ev))
+        self.assertFalse(ok)
+        self.assertIn("执行报告", msg)
+
+    def test_exec_report_passes_without_evidence(self):
+        """正测：任务单执行报告五字段齐全 → PASS（evidence 非必需）。"""
+        task = self._make_task_file(with_report=True)
+        ok, msg = qt._check_delivery_fields(task, None)
+        self.assertTrue(ok)
+        self.assertEqual(msg, "")
+
+    def test_force_exception_ledger_written(self):
+        """#444 台账：force 例外写入 force-exceptions.log（谁/何时/绕过哪条/为何）。"""
+        with tempfile.TemporaryDirectory() as td:
+            ledger = Path(td) / "force-exceptions.log"
+            orig = qt.FORCE_LEDGER
+            qt.FORCE_LEDGER = ledger
+            try:
+                path = qt._log_force_exception("task_test_444", "wangyuyan", "生产已完成未走领取")
+                self.assertTrue(ledger.exists())
+                line = ledger.read_text(encoding="utf-8")
+                self.assertIn("task_test_444", line)
+                self.assertIn("wangyuyan", line)
+                self.assertIn("F-034", line)
+                self.assertIn("生产已完成未走领取", line)
+                self.assertEqual(path, str(ledger))
+            finally:
+                qt.FORCE_LEDGER = orig
+
+    def test_role_of_instance_mapping(self):
+        """#444 口径：instance→角色名映射（hermes/kimi→laowantong；其余同形）。"""
+        self.assertEqual(qt._role_of("hermes"), "laowantong")
+        self.assertEqual(qt._role_of("kimi"), "laowantong")
+        self.assertEqual(qt._role_of("huangyaoshi"), "huangyaoshi")
+        self.assertEqual(qt._role_of("wangyuyan"), "wangyuyan")
+        self.assertEqual(qt._role_of("ouyangfeng"), "ouyangfeng")
+
+    def test_force_complete_without_reason_rejected(self):
+        """#444 核心用例：force complete 无 --reason → 拒绝（#441 后门根治）。
+        用真实队列 #444（claimed-wangyuyan）测——校验在任何写入前返回，无副作用。"""
+        ok, msg = qt.action_complete(
+            "task_20260823_huangyaoshi-queue-force-ledger-assignee-role",
+            "wangyuyan", None, force=True, reason=None)
+        self.assertFalse(ok)
+        self.assertIn("--reason", msg)
