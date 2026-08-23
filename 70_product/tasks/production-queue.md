@@ -99,6 +99,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 461 | `task_20260823_huangyaoshi-queue-cancel-command` | queue_transition cancel 命令（P1，queued 单取消/被取代状态） | queued | huangyaoshi | cancel 状态机+台账+下游适配+单测 | 老朱拍板立项（#460 取代场景暴露） | `60_feedback/tasks/task_20260823_huangyaoshi-queue-cancel-command.md` | 仅 queued 可 cancel+reason 必填入台账；cancelled=终态不删除；探针不通知/dashboard 不计活跃；首批执行=cancel #458/#459（被 #460 取代）；不可逆（重做=新单）；欧阳锋终审 |
 | 462 | `task_20260823_huangyaoshi-probe-review-done-signal` | 探针「流转完成」信号（P1，终审结果通知编排者——治编排者盲区） | queued | huangyaoshi | new_reviewed/new_failback 双信号+单测 | 老朱提问触发（#447 PASS 靠询问才知） | `60_feedback/tasks/task_20260823_huangyaoshi-probe-review-done-signal.md` | PASS→通知 wangyuyan 待部署；FAIL 退回→通知 assignee 返工；文案自足免翻文件；只推送不自动部署（判断留人）；单扫描器纪律；欧阳锋终审 |
 | 463 | `task_20260823_huangyaoshi-l1-full-context-capture` | L1 全量上下文采集基建（P1，甲会话原文+乙工作痕迹/D盘+镜像） | queued | huangyaoshi | 采集脚本+双盘+verify | 老朱拍板口径+风清扬建议书采纳 | `60_feedback/tasks/task_20260823_huangyaoshi-l1-full-context-capture.md` | 甲CLI会话原文+乙session trace/产出物变动；D盘git外；与事件指针库分层并存（L0→L1改名一并）；体积红线监控；欧阳锋终审 |
+| 464 | `task_20260823_huangyaoshi-mirror-on-save` | 记忆胶囊镜像保存后联动（P1，save→log→mirror 一条链） | queued | huangyaoshi | 挂钩扩展+verify 联动+单测 | 老朱拍板时间锚「保存后联动」（#427 欠项结清） | `60_feedback/tasks/task_20260823_huangyaoshi-mirror-on-save.md` | 事件驱动非 cron；mirror 失败可见不阻断；verify 轻量联动报警治 backup-stale 复发；欧阳锋终审 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
 ## ⚖️ 待终审（提审任务，queue_transition 自动登记）
@@ -128,6 +129,10 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 
 - 00_inbox/半肥猫开放麦-AI知识库文件夹/AI×知识管理-开放麦-逐字稿.md｜P2｜59975B｜检测到 08-22 16:41｜待王语嫣编排
 - 00_inbox/半肥猫开放麦-AI知识库/AI×知识管理-开放麦-逐字稿.md｜P2｜59975B｜检测到 08-23 06:31｜待王语嫣编排
+- 00_inbox/半肥猫开放麦-AI知识库/AI知识库-知识库搭建与落地-半肥猫-口述.txt｜P0｜139481B｜检测到 08-23 07:01｜待王语嫣编排
+- 00_inbox/半肥猫开放麦-AI知识库/AI知识库-知识库搭建与落地-半肥猫-笔记.txt｜P0｜9489B｜检测到 08-23 07:01｜待王语嫣编排
+- 00_inbox/半肥猫开放麦-AI知识库/一堂DOC-20260823145914.png｜P2｜1461080B｜检测到 08-23 07:01｜待王语嫣编排
+- 00_inbox/半肥猫开放麦-AI知识库/一堂DOC-20260823145932.png｜P2｜1650162B｜检测到 08-23 07:01｜待王语嫣编排
 
 <!-- INBOX-PENDING-END -->
 
