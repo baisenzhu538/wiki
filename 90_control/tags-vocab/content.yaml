@@ -1,0 +1,38 @@
+# content-production 域维度轴 v0.1（#426 放量前提——content 域 12 张空缺等轴）
+# 维度框架：五维（专业/对象/性质/认知警示/使用者/经验）+ 来源轴（F-046）
+# 规则：细=维度覆盖，不堆量；每卡 5-8 个跨轴词；判断类走字段不进 tags；来源名禁入
+# 迭代规则：老顽童试点发现新词→王语嫣审词入轴→版本+0.1；索引不到→加词（双原则）
+# v0.1 依据：domain-mapping 内容生产域 21 张 + 库内 content-production 域卡实测主题（case-4000-titles 标题资产/ case-daxin-team-content-training-camp 团队内容训练营/ case-candy-problem-os 问题OS/ case-daxin-vikki-community 社区对比）
+version: 0.1
+updated: '2026-08-23'
+
+axes:
+  专业维度:      # 内容生产学科/方法论层
+    words: [内容生产, 知识萃取, 卡片化, 选题, 标题策略, 内容结构, 信息密度, 写作方法论, 知识沉淀, 内容资产, 一次建模]
+  对象维度:      # 产出物/讲什么
+    words: [文章, 卡片, 课程, 标题, 选题, 脚本, 交付物, 内容资产, 知识卡, 笔记, 索引]
+  性质维度:      # 机制/框架/工具/边界
+    words: [机制, 框架, 工具, 方法, 边界, 反例, 实证, 模板, 清单, 批量生产]
+  认知警示维度:  # 内容域风控轴=内容陷阱
+    words: [标题党, 信息过载, 碎片化, 虚假深度, 内容陷阱, 注意力掠夺, 上瘾设计, 知识错觉]
+  使用者维度:    # 给谁用/谁生产
+    words: [内容生产者, 知识工作者, 创作者, 教练, 团队, 编辑, IP, 知识经理]
+  经验维度:      # 隐性经验/实操词
+    words: [避坑, 踩坑, 实操, 模板复用, 内容资产复用, 批量, 一次建模, 长期资产]
+  来源维度:      # F-046 来源轴
+    words: [拆书会, 口述, 开放麦, Live, 外部报告, 书籍转述, 实战案例]
+
+# 迁移映射（v0.1 待试点反馈后补——老顽童 content 域 12 张空缺治理时实测高频脏词→受控词）
+migration: {}
+
+# 标签示范（content-production 域代表卡，跨轴组合 5-8 词）：
+# case-4000-titles:    [标题策略, 内容资产, 一次建模, 批量生产, 长期资产, 实操, 实战案例]
+# case-daxin-team-content-training-camp: [内容生产, 团队, 训练营, 卡片化, 模板, 实操, 避坑]
+# case-candy-problem-os: [问题OS, 内容结构, 工具, 方法, 边界, 实操]
+#
+# 跨域桥接词：
+# - 「上瘾设计」桥接 content-production ↔ human-insights（成瘾卡组：上瘾门槛论/盲盒机制）
+# - 「内容资产」桥接 content-production ↔ KDO（知识沉淀哲学）
+# - 「注意力掠夺」桥接 content-production ↔ decision-making（注意力经济决策）
+
+# 保留既有体系：audience:*/scene:*/skill-level:* 前缀词为结构化字段式标签，与本轴并行不冲突

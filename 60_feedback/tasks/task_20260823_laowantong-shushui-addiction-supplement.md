@@ -56,6 +56,25 @@ depends_on:
 - 域：人域（human-insights）
 - 类型：concept 或 dk（暗知识：改变别人是逃避改变自己）
 
+## 六维初始标签建议（spec 必含——按域轴文件给 5-8 跨轴词）
+
+> 域轴文件：人域=`90_control/tags-vocab/human-insights.yaml`（成瘾试点，已含4卡示范）/ 决策域=`decision-making.yaml` / content 域=`content.yaml`（本轮新出）。判断类走字段不进 tags；来源名禁入。
+
+| 卡 | 域 | 初始标签（5-8 跨轴）|
+|:--|:--|:--|
+| 补强1 concept-pleasure-pain-balance（+渴望激素）| human-insights | [神经科学, 多巴胺, **渴望激素**, 快乐, 疼痛, **短视频机制**, 悖论, 拆书会] |
+| 补强2 concept-pain-treats-pain（+主动痛苦）| human-insights | [神经适应, 疼痛, **主动痛苦**, **掌控权**, 边界, 反例, 激进诚实, 拆书会] |
+| 新增1 concept-addiction-threshold | decision-making | [上瘾门槛, 商业维度, 渠道能力, 产品定义, 决策卫生, 边界, 口述] |
+| 新增2 tool-blind-box-mechanism | decision-making | [盲盒, 不确定性, 渴望, 热销放大, 产品定位, 边界, 反例, 口述] |
+| 新增3 concept-changing-others-as-self-compensation | human-insights | [代偿机制, 自我管理, 改变自己, 心理学, 边界, 实操, 口述] |
+
+**跨域桥接词**（老顽童产卡时 related 链用）：
+- 「短视频机制」桥接 human-insights ↔ content-production（注意力掠夺/上瘾设计）
+- 「上瘾门槛/盲盒」桥接 decision-making ↔ content-production（上瘾设计）
+- 「掌控权」桥接 human-insights ↔ KDO 门禁家族（自我约束同构）
+
+**新词上报**（双原则「索引不到→加标签」）：渴望激素/短视频机制/主动痛苦/掌控权/上瘾门槛/热销放大/代偿机制——人域/决策轴暂未收录，老顽童产卡时上报王语嫣审词入轴（human-insights.yaml / decision-making.yaml 升 v0.2）。
+
 ## 三方法前置（W6 硬规则——不跑不交付）
 
 3 新增卡含 concept/tool 可能 framework 级，建卡前必须跑：
