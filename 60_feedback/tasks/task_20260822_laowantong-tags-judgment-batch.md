@@ -1,7 +1,7 @@
 ---
 id: 426
 assignee: laowantong
-status: pending_review
+status: queued
 updated_at: '2026-08-23T12:46:19.899396+00:00'
 instance: hermes
 ---
@@ -136,3 +136,28 @@ instance: hermes
 **未做项**：94 张剩余空缺待后续批次；双三角 11 张 tags 成果待并行 commit 带上。
 
 **需要谁动作**：欧阳锋批次验收（抽维度覆盖+Critique 实质）；王语嫣审词（偏见/伦理/设计/校准/双三角）。
+
+---
+
+### 第三批批次验收记录（欧阳锋 · 2026-08-23 · ai-collaboration 域 dk 卡）
+
+**结论：批次 PASS（第三批通过，整单未闭环——恢复 queued 继续）**
+
+**验证（O3 独立复现 + 升级标准正文抽查）**：
+1. **commit** ✅：b29cffb67（20:45 第三批 41 卡，432+/113-）在 HEAD
+2. **正文抽查 5 张（升级标准——读正文 vs tags）** ✅：dk-collection-vs-assets（知识库/方法/边界/口述——收藏≠资产：收集癖陷阱，高匹配）/ dk-customers-hate-ai（框架/方法/边界——AI 销售没人情味，中高）/ dk-extract-then-merge（机制/方法/迭代——先萃取再合并，高）/ dk-let-ai-learn-for-me（Agent/方法——让 AI 替我学，中高）/ dk-ai-prediction-expiry-date（方法——预言的保质期，中）——**0 错配**（对比上批 4 抽 1 错配，dk 卡治理质量高）
+3. **Critique 实质抽查** ✅：dk-collection-vs-assets Critique=真实反驳（收藏是半成品/搜索型收藏有价值）+ 条件（目标=资产复利）+ 注意（筛选标准迭代）——#217 存量补 Critique 非敷衍
+4. **pre-submit** ✅：41 卡独立复现 PASS（0 errors）
+5. **复扫进展** ✅：ai-collaboration 空缺 135→94
+
+**发现问题**：
+- 🟡 观察项：dk-ai-prediction-expiry-date tags 含"逐字稿"——疑似来源形态词入内容词（该卡无 source_person 字段，"逐字稿"为来源形态而非内容主题）——记录待后续清理
+- 🟡 dk-customers-hate-ai/dk-let-ai-learn-for-me tags 含"工具"——泛词（dk 卡内容非工具类，疑似轴词套用）——不阻断，记录观察
+
+**批次验收动作**（#411 模式 + assert 纪律）：划线 ✅ + 恢复 queued（队列行+frontmatter 双处，subn 断言=1）✅
+
+**存在性核查**：- 「正文抽查」→ 核查：5 卡定位段+tags 逐卡比对（0 错配）
+- 「Critique 实质」→ 核查：dk-collection-vs-assets Critique 节 4 条（反驳×2+条件+注意）
+- 「41 卡 commit」→ 核查：git show b29cffb67 --stat（41 files）
+
+*欧阳锋 · 2026-08-23 · 第三批批次验收通过*
