@@ -37,6 +37,24 @@ instance: huangyaoshi
 - 原始日志 D 盘 git 外（B3-1 口径）；体积红线监控（30min 频率注体积，超限告警降频）
 - 不做 L2-L4（已由风清扬口径+定期报告覆盖）；不动 #460（独立线）
 
-## 执行报告（F-034 五字段+验证分层声明，complete 前必填）
+## 执行报告（2026-08-23 黄药师）
 
-（生产者填写）
+**完成内容**：L1 全量上下文采集基建——甲类（CLI 会话原文）+ 乙类（工作痕迹）落 D 盘 + C 盘镜像 + verify 可恢复；F-044 L0→L1 改名顺带完成。
+
+**交付物**（改动文件清单）：
+1. `kdo-tools/l1_capture.py`：甲类采集（Claude Code projects/*.jsonl + kimi-code + hermes profiles 增量，mtime 对齐、OSError 容错）→ `D:\KDO-memory\L1-full\YYYY-MM-DD\<tool>\`；乙类 trace.md（文件清单+mtime+大小）；镜像（D → C 盘 `~/.kdo-memory/L1-full-backup`）+ verify（文件数+抽样 hash）
+2. `kdo-tools/memory_capsule.py` + 目录 + `20_memory/memory-registry.md`：**F-044 L0→L1 改名**（`.kdo-memory/L0`→`L1`、`D:/KDO-memory/L0-backup`→`L1-backup`，镜像重跑 verify PASS）
+
+**验证**（命令+输出）：
+- L1：采集脚本无 pytest（文件系统工具）——dry-run 增量断言 + 幂等（二扫零新增）
+- L2 狗粮：**真实采集全链路**——新增 5554 个会话文件 → D 盘 + trace.md + C 盘镜像 7310 文件 + **verify PASS**（文件数一致 + 抽样 hash 全同）；改名后 memory_capsule status（L1 主库 5 行 integrity ok）+ 重镜像后 verify PASS
+- L3 待活体：次日复盘自动含全量原文可回放（老朱或风清扬审计抽查）
+
+**未做项**：
+- 原始日志 D 盘 git 外（B3-1 口径）；体积红线监控（30min 频率注体积）未做——记遗留（可挂 #425 或独立小单）
+- 不做 L2-L4（风清扬口径+定期报告覆盖）；不动 #460
+
+**需要谁动作**：
+- 风清扬：L1 数据审计权履职（D 盘全量原文可查）
+- 欧阳锋：终审本单（抽「采集面正确/增量幂等/改名无破坏」）
+- 王语嫣：体积红线监控立项（可选）

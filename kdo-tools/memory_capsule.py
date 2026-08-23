@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""memory_capsule.py — 记忆胶囊 L0 最小实现（#432，F-027 第一阶段）。
+"""memory_capsule.py — 记忆胶囊事件库（#432/#463，F-044 改名 L1）。
 
-L0 = 全量留痕：SQLite 主库（git 外）+ 第二盘镜像 + verify 可恢复证明。
-只做 L0；L1 摘要 / L2 洞察 / L3 沉淀不在本单。
+事件指针层：SQLite 主库（git 外）+ 第二盘镜像 + verify 可恢复证明。
+L1 全量原文库见 l1_capture.py；L2/L3 不在本单。
 
 A 主库：C:\\Users\\Administrator\\.kdo-memory\\L0\\activity_log.db（WAL 模式，git 外）
 B 镜像：D:\\KDO-memory\\L0-backup\\（robocopy /MIR，先 checkpoint 再拷——WAL 合库防半写）
@@ -31,9 +31,9 @@ from pathlib import Path
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-A_DIR = Path.home() / ".kdo-memory" / "L0"
+A_DIR = Path.home() / ".kdo-memory" / "L1"  # F-044：L0→L1 改名（#463 顺带）
 A_DB = A_DIR / "activity_log.db"
-B_DIR = Path("D:/KDO-memory/L0-backup")
+B_DIR = Path("D:/KDO-memory/L1-backup")  # F-044
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS activity_log (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
