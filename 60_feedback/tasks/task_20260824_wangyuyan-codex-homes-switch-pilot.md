@@ -1,10 +1,11 @@
 ---
 id: 490
 assignee: wangyuyan
-status: in_progress
-updated_at: '2026-08-23T19:12:14.608879+00:00'
+status: pending_review
+updated_at: '2026-08-23T19:12:15.209622+00:00'
 version: v0.1
 instance: wangyuyan
+evidence: D:\KDO-memory\codex-homes\switch-codex.sh
 ---
 
 # #490 codex-homes 切换试点（风清扬先切，先补后切）
