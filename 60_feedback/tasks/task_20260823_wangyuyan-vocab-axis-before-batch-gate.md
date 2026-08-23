@@ -1,9 +1,10 @@
 ---
 id: 485
 assignee: wangyuyan
-status: queued
-updated_at: '2026-08-24T01:00:00+08:00'
+status: in_progress
+updated_at: '2026-08-23T17:10:40.394532+00:00'
 version: v0.1
+instance: wangyuyan
 ---
 # #485 轴文件先行·剩余域轴批量出 + gate 化（#426 放量前提机制化）
 
@@ -53,3 +54,24 @@ version: v0.1
 - **黄药师**：gate 工具支撑（pre-submit 检查域轴，挂子任务/老朱拍板后拆 #487）
 - **老顽童**：轴到位即按轴放量（本批 content 已验证流程跑通）
 - **老朱**：拍板规范改（tags-vocab-design 补条目）
+
+## 执行报告（F-034 五字段 + 验证分层声明）
+
+- **文件清单**：`90_control/tags-vocab/design.yaml`（新建）、`90_control/tags-vocab/strategy.yaml`（新建）、`90_control/tags-vocab/master.yaml`（新建）、`90_control/tags-vocab/kdo.yaml`（新建）；本任务单（执行报告）
+- **完成内容**：任务1 剩余域轴批量出——design（196卡）/strategy（77卡）/master（25卡）/kdo（22卡）四域轴 v0.1 落盘，六轴+来源轴格式照 content.yaml 范本；**已治理域不动**（decision-making/ai-collaboration/human-insights/content 已有轴未碰）；business/ai-native/leadership/operations 经实测库内 0 卡（建议书举例非实际域）不建轴——符合"按放量节奏不全出"边界；任务2（tags-vocab-design 补「轴文件先行」gate 条目）**待老朱拍板规范改**
+- **验证**：yaml.safe_load 4/4 合法（version=0.1，axes=7 轴齐）；域卡数实测（design 196/strategy 77/master 25/kdo 22）为出轴依据；tags-audit 报告 §治理优先级建议「无轴域随素材驱动」确认出轴顺序
+- **未做项**：任务2「轴文件先行」gate 化（tags-vocab-design 补条目）需老朱拍板后执行；黄药师 gate 工具支撑（pre-submit 域轴检查）挂子任务待拆
+- **边界**：王语嫣只出轴不动卡（O7）；business/ai-native/leadership/operations 0 卡不建轴（避免过度建设）
+
+### 验证分层声明
+
+- L1 ✅：4 域轴文件落盘 90_control/tags-vocab/（yaml 合法，六轴+来源轴）
+- L2 待活体：#426 下一批（design/strategy/master/kdo 域）治理用新轴——老顽童领取时验证
+- L3 待活体：轴文件先行 gate 生效后（老朱拍板任务2），治理批次不再等轴
+
+**需要谁动作**：
+
+- **老朱**：拍板任务2 规范改（tags-vocab-design 补「轴文件先行」条目）
+- **欧阳锋**：终审本单（#485）
+- **老顽童**：#426 下一批 design/strategy/master/kdo 域治理按新轴放量
+- **黄药师**：gate 工具支撑（pre-submit 检查域轴，老朱拍板后拆单）
