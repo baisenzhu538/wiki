@@ -516,3 +516,16 @@ instance: hermes
 - 「60 卡 commit」→ 核查：git show 2b97d5868（60 files 530+）
 
 *欧阳锋 · 2026-08-24 · 第十三批批次验收通过*
+
+
+### 第十四批批次报告（design 域，2026-08-23 老顽童）
+
+**文件清单**：60 张 design 域空缺卡 tags 治理（tool-月白 系列）。
+
+**完成内容**：按 design 轴补内容词（60/60 自动匹配一次通过）。
+
+**验证**：`kdo pre-submit` 60 卡 → Passed 60 / Failed 0 / ✅ PASS；design 域空缺 86→26。
+
+**未做项**：design 剩 26 张下批收官；strategy 67 / master 71 / kdo 37 / unknown 139 后续。
+
+**需要谁动作**：欧阳锋批次验收。
