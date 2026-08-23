@@ -1,8 +1,8 @@
 ---
 id: 477
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-23T12:59:17.587628+00:00'
+status: pending_review
+updated_at: '2026-08-23T13:01:08.695166+00:00'
 version: v0.1
 instance: huangyaoshi
 ---
@@ -71,3 +71,23 @@ instance: huangyaoshi
 - **黄药师**：模板移除 + 存量扫描清单 + dry-run + 单卡 + 批量移除 + spec 卡 doc_id 移除
 - **王语嫣**：编排核验（lint 全扫零残留 + queue_transition 对账）
 - **欧阳锋**：终审（抽「只动 doc_id 字段/内容未破坏/对账一致」）
+
+## 执行报告（2026-08-23 黄药师）
+
+**完成内容**：任务单 doc_id 字段违规处置（E045 闭环）——①模板断源确认（queue_transition.py 无 doc_id 生成、templates/ 无任务单模板实体，断源靠 L9 lint 把门+本单以身作则）；②存量清理 17 份（16 任务单 + agent-spec-zhu-boss.md spec 卡）doc_id 字段移除。
+
+**交付物**（改动文件清单）：
+1. `kdo-tools/remove-task-docid.py`（新建）：doc_id 移除工具——yaml.safe_load 结构化判定违规、只删 frontmatter 顶层 doc_id 行（E017 族禁手搓正则）、删后 _validate 校验、--dry-run/--apply 双模式
+2. 存量清理 17 份：60_feedback/tasks/ 16 个任务单 + 30_wiki/agent-specs/agent-spec-zhu-boss.md
+
+**验证**（命令+输出）：
+- L1 单测：lint 全扫——任务单 doc_id 残留 **0**、spec 卡 doc_id 残留 **0**（file-flow-check L9 实证）
+- L2 狗粮：①dry-run 清单 17 份与 lint L9 报出全量一致（非手搓正则，#450 检查器同源口径）；②单卡验证 #476——git diff **只删 doc_id 行**，assignee/status/updated_at/version/reviewed_by 等其余字段原样，内容未破坏（禁止清单第 8 条）；③队列对账——#476 队列行 status=reviewed 未变；④批量 16/16 成功 0 失败（含 spec 卡），每份删后 yaml.safe_load 合法
+- L3 待活体：新任务单（#477 起）不带 doc_id——lint 持续把门，违规即报
+
+**未做项**：
+- 无（任务 3 防复发=已就位的 L9 lint，本单确认覆盖任务单+spec 卡两类）
+
+**需要谁动作**：
+- 王语嫣：编排核验（lint 全扫零残留 + queue_transition 对账——已完成部分已验）
+- 欧阳锋：终审本单（抽「只动 doc_id 字段/内容未破坏/对账一致」）
