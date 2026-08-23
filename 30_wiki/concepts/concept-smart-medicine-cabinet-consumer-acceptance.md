@@ -35,9 +35,12 @@ related:
 - HIS系统深度调研
 - 互联网医院模式深度调研报告
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 市场
+  - 定价
+  - 渠道
 ---
 # 消费者购药行为与智能药柜接受度
 

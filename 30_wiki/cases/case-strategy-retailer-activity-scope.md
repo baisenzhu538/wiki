@@ -22,6 +22,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 战略
+  - 价值链
+  - 企业
+  - 行业
+  - 品牌
+  - 框架
+  - 边界
 discoverable_by:
   - 零售商 A/B/C：客户选择、价值主张与活动范围的三角对齐
   - 零售商

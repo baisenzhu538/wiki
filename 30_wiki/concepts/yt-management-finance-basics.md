@@ -35,9 +35,14 @@ source_refs:
 - 10_raw/sources/src_20260614_40afd886-theme-finance-legal-business-summary.md
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260614_40afd886）
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 产品线
+  - 渠道
+  - 方法
+  - 边界
+  - 创业者
 ---
 # 财务入门
 

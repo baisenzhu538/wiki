@@ -56,9 +56,15 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 组织
+  - 框架
+  - 工具
+  - 方法
+  - 模型
+  - 预测
 ---
 # 增长飞轮
 

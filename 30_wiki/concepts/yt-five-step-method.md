@@ -149,6 +149,13 @@ tags:
   - audience:ceo
   - scene:diagnosis
   - skill-level:intermediate
+  - 破坏性创新
+  - 商业模式
+  - 渠道
+  - 框架
+  - 工具
+  - 方法
+  - 创业者
 ---
 # 一堂五步法总纲
 

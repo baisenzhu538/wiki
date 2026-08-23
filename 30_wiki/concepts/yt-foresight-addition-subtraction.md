@@ -59,9 +59,16 @@ related:
 - '[[tool-一堂-机会预判-五步法预判]]'
 - '[[tool-一堂-机会预判-案例预判]]'
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 商业模式
+  - 行业
+  - 市场
+  - 定价
+  - 渠道
+  - 框架
+  - 模型
 ---
 # 加法减法实操：从100个选项到3个高概率方向
 

@@ -17,6 +17,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 战略
+  - 企业
+  - 市场
+  - 新业务
+  - 渠道
+  - 品牌
+  - 路径依赖
 discoverable_by:
 - 案例：家电公司G——路径错误。重渠道轻研发导致非核心品类失败
 - 家电公司G

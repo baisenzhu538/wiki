@@ -78,9 +78,15 @@ pipeline:
 - src_unknown
 author: 老顽童
 tags:
-- audience:ceo
-- scene:diagnosis
-- skill-level:intermediate
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:intermediate
+  - 护城河
+  - 行业
+  - 渠道
+  - 组织
+  - 框架
+  - 工具
 ---
 # 终局光谱图
 

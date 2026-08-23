@@ -66,9 +66,16 @@ diagnostic_signals:
 author: 老顽童
 trust_level: high
 tags:
-- audience:ceo
-- scene:diagnosis
-- skill-level:intermediate
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:intermediate
+  - 战略
+  - 单元模型
+  - 行业
+  - 渠道
+  - 组织
+  - 工具
+  - 方法
 ---
 # 一堂创业地图：高潜力创业者修炼全景图
 

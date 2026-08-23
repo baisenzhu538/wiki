@@ -51,9 +51,16 @@ related:
 - case-strategy-failure-04-appliance
 - '[[dk-strategy-stage-leverage-mismatch]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:advanced
+  - audience:general
+  - scene:reference
+  - skill-level:advanced
+  - 战略
+  - 护城河
+  - 企业
+  - 行业
+  - 市场
+  - 投资人
+  - 财报
 ---
 **表面问题**：增长停滞，利润也下降
 **战略根因**：目标错误——在高速增长期设了"追求盈利"的目标。正确的目标应该是"抢占市场份额"

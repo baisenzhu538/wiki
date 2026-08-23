@@ -66,9 +66,13 @@ diagnostic_signals:
 author: 老顽童
 reviewed_by: 欧阳锋
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 单元模型
+  - 新业务
+  - 工具
+  - 模型
 ---
 # 单元模型选择法：复制哪个算哪个，找到核心经济单元
 

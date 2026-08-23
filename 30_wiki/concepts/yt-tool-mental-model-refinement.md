@@ -65,9 +65,16 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: high
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 护城河
+  - 行业
+  - 框架
+  - 工具
+  - 方法
+  - 模型
+  - CEO
 ---
 ## Summary
 

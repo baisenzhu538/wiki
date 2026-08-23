@@ -58,9 +58,13 @@ yitang:
   level: core
   series: false
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 方法
+  - 模型
+  - 边界
+  - 复盘
 pipeline:
 - src_unknown
 - src_unknown

@@ -23,6 +23,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 战略
+  - 企业
+  - 行业
+  - 市场
+  - 组织
+  - 并购
+  - 机制
 discoverable_by:
   - 案例：IT公司H——共识不足。高层反复横跳致市值下降
   - 共识不足。高层反复横跳致市值下降

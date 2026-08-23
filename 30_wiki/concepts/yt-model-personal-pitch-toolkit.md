@@ -67,9 +67,12 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: high
 tags:
-- audience:ceo
-- scene:diagnosis
-- skill-level:intermediate
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:intermediate
+  - 框架
+  - 模型
+  - 边界
 ---
 # 十指讲香模型（框架）
 

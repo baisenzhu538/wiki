@@ -46,9 +46,13 @@ diagnostic_signals:
 - framework_lens: 商业模式结构性失败
   follow_up_question: 用保守客单价和复购频次做敏感性测算，回本周期是多少？是否预留6-12个月运营资金？
 tags:
-- audience:general
-- scene:reference
-- skill-level:advanced
+  - audience:general
+  - scene:reference
+  - skill-level:advanced
+  - 商业模式
+  - 行业
+  - 渠道
+  - 失败案例
 ---
 # 智能药柜失败模式案例库
 

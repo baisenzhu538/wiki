@@ -39,9 +39,15 @@ related:
 source_person: 王语嫣
 source_context: 听脑录音 1241665/1883124/2431721/2447560 交叉验证
 tags:
-- audience:general
-- scene:reference
-- skill-level:beginner
+  - audience:general
+  - scene:reference
+  - skill-level:beginner
+  - 战略
+  - 商业模式
+  - 行业
+  - 市场
+  - 模型
+  - 投资人
 ---
 > **核心定位**：本卡基于 4 条内部听脑录音（1241665、1883124、2431721、2447560）的原文与纪要，对项目相关方提出的商业模型、成本结构、盈利来源、门店/设备数量、毛利率、分成比例、关键假设等命题进行逐条提取与交叉验证。因来源多为单方面宣称且缺乏审计数据，本卡整体置信度较低，**只能作为内部诊断参考，不能作为对外商业计划依据**。
 

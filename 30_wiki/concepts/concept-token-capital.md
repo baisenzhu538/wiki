@@ -27,6 +27,12 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 企业
+  - 市场
+  - 组织
+  - 模型
+  - 边界
+  - 口述
 discoverable_by:
   - Token Capital：AI 时代的第三种资本结构
   - 时代的第三种资本结构

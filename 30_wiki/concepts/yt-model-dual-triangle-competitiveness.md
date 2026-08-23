@@ -53,9 +53,13 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: high
 tags:
-- audience:ceo
-- scene:diagnosis
-- skill-level:intermediate
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:intermediate
+  - 组织
+  - 工具
+  - 方法
+  - 模型
 ---
 # 双三角竞争力模型 (Yitang Dual Triangle Model)
 

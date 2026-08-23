@@ -42,9 +42,15 @@ yitang:
   module: 个人修炼
   course_type: explore_camp
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 框架
+  - 工具
+  - 模型
+  - 边界
+  - 预测
+  - 口述
 pipeline:
 - src_unknown
 - src_unknown

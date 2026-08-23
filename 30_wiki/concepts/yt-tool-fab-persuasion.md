@@ -48,9 +48,14 @@ title: FAB核心说服：从产品特性到用户利益的转化法
 type: tool
 version: 1
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 市场
+  - 框架
+  - 工具
+  - 方法
+  - 口述
 pipeline:
 - src_unknown
 - src_unknown

@@ -2,6 +2,7 @@
 id: 诊所o2o外卖平台业务深度调研报告
 updated_at: '2026-08-20'
 title: 诊所O2O外卖平台业务深度调研报告
+reviewed_by: 待审
 aliases:
 - 外卖平台业务深度调研报告
 - 诊所O2O外卖平台业务深度调研报告
@@ -19,9 +20,16 @@ related:
 - '[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]'
 - '[[诊所O2O项目]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 战略
+  - 企业
+  - 市场
+  - 转型
+  - 框架
+  - 模型
+  - 边界
 type: concept
 status: draft
 domain:

@@ -20,6 +20,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 战略
+  - 单元模型
+  - 企业
+  - 行业
+  - 市场
+  - 转型
+  - 渠道
 discoverable_by:
   - 案例：良品铺子——涨价暴跌→换代言+新媒体+品类拓展+区域扩
   - 良品铺子

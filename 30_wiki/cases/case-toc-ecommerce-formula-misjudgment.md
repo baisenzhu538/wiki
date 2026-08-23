@@ -31,6 +31,10 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:advanced
+  - 行业
+  - 品牌
+  - 模型
+  - 口述
 created_at: '2026-06-14'
 updated_at: '2026-07-14'
 author: 孔阳

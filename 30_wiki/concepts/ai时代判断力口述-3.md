@@ -2,6 +2,7 @@
 id: ai时代判断力口述-3
 updated_at: '2026-08-20'
 title: ai时代判断力口述 3
+reviewed_by: 待审
 discoverable_by:
 - ai时代判断力口述 3
 - ai时代判断力口述
@@ -21,9 +22,10 @@ aliases:
 source_refs:
   - src_unknown
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 口述
 type: concept
 status: draft
 domain:

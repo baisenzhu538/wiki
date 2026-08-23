@@ -27,6 +27,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 战略
+  - 行业
+  - 市场
+  - 新业务
+  - 渠道
+  - 组织
+  - 品牌
 discoverable_by:
   - 案例：手机公司N——组织僵化。组织不适致迭代缓慢
   - 手机公司N

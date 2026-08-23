@@ -18,6 +18,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 战略
+  - 企业
+  - 行业
+  - 转型
+  - 渠道
+  - 品牌
+  - 方法
 discoverable_by:
   - 案例：行业老三翻盘——2个月减亏7000万，10个月电商超竞
   - 行业老三翻盘

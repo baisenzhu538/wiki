@@ -36,9 +36,13 @@ related:
 - 互联网医院模式深度调研报告
 - '[[tool-clinic-cabinet-legal-contract-guide]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:advanced
+  - audience:general
+  - scene:reference
+  - skill-level:advanced
+  - 商业模式
+  - 市场
+  - 渠道
+  - 框架
 ---
 # 国际自动取药机/药房模式经验与启示
 

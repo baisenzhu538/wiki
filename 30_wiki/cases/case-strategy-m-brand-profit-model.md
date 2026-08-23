@@ -19,6 +19,12 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 战略
+  - 企业
+  - 定价
+  - 渠道
+  - 品牌
+  - 边界
 discoverable_by:
   - M品牌：从直营到代理加盟的连锁扩张盈利模式选择
   - 从直营到代理加盟的连锁扩张盈利模式选择

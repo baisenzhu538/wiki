@@ -75,6 +75,10 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 机制
+  - 工具
+  - 模型
+  - 边界
 ---
 # 最佳实践建模：用评价维度打磨产品
 

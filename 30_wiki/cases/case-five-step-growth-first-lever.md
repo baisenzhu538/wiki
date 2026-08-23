@@ -33,9 +33,16 @@ discoverable_by:
 - 案例：五步法中从产品内核到增长的第一次跨越
 - 五步法中从产品内核到增长的第一次跨越
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 商业模式
+  - 单元模型
+  - 渠道
+  - 工具
+  - 方法
+  - 模型
+  - 创业者
 pipeline:
 - src_unknown
 diagnostic_signals:

@@ -43,9 +43,16 @@ related:
 - '[[tool-game-environment-checklist]]'
 - '[[yt-tool-hiring-scorecard]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 战略
+  - 组织
+  - 并购
+  - 机制
+  - 工具
+  - 方法
+  - 边界
 ---
 # 公司文化
 

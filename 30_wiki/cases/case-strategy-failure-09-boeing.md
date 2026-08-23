@@ -20,6 +20,11 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 战略
+  - 企业
+  - 行业
+  - 组织
+  - 机制
 discoverable_by:
 - 案例：飞机制造公司——机制背离。激励偏财务致安全事故
 - 飞机制造公司

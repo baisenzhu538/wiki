@@ -53,9 +53,16 @@ reviewed_by: 欧阳锋
 confidence: 0.7
 trust_level: low
 tags:
-- audience:general
-- scene:reference
-- skill-level:beginner
+  - audience:general
+  - scene:reference
+  - skill-level:beginner
+  - 战略
+  - 定价
+  - 品牌
+  - 框架
+  - 方法
+  - 模型
+  - 边界
 ---
 # MECE 原则：相互独立、完全穷尽
 

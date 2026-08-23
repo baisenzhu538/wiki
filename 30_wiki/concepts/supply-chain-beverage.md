@@ -33,6 +33,11 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 定价
+  - 渠道
+  - 品牌
+  - 机制
+  - 边界
 created_at: '2026-06-14'
 quality_labels: null
 updated_at: '2026-06-28'

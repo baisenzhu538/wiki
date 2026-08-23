@@ -67,9 +67,13 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 行业
+  - 工具
+  - 边界
+  - 口述
 ---
 # 泛产品设计认知篇：重新理解泛化产品能力
 

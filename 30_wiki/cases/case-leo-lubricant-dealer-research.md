@@ -41,11 +41,14 @@ related:
 - dk-ai-builder-illusion
 - '[[case-4000-titles-ten-strategies]]'
 tags:
-- audience:manager
-- audience:executor
-- scene:diagnosis
-- scene:execution
-- skill-level:advanced
+  - audience:manager
+  - audience:executor
+  - scene:diagnosis
+  - scene:execution
+  - skill-level:advanced
+  - 渠道
+  - 品牌
+  - 模型
 ---
 
 # Leo×润滑油经销商：三轮 60 家调研找到因果模型

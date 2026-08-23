@@ -18,6 +18,11 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 战略
+  - 企业
+  - 方法
+  - 模型
+  - 预测
 discoverable_by:
   - 案例：央企新店零亏损——2015年后无亏店，大店年均盈利30
   - 央企新店零亏损

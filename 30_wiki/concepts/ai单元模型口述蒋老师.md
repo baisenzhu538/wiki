@@ -2,6 +2,7 @@
 id: ai单元模型口述蒋老师
 updated_at: '2026-08-20'
 title: ai单元模型口述蒋老师
+reviewed_by: 待审
 discoverable_by:
 - ai单元模型口述蒋老师
 related:
@@ -25,9 +26,15 @@ aliases:
 source_refs:
   - src_unknown
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 单元模型
+  - 行业
+  - 工具
+  - 模型
+  - 创业者
+  - 口述
 type: concept
 status: draft
 domain:

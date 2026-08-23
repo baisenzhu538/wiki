@@ -63,6 +63,13 @@ tags:
   - audience:ceo
   - scene:diagnosis
   - skill-level:intermediate
+  - 商业模式
+  - 护城河
+  - 单元模型
+  - 工具
+  - 方法
+  - 模型
+  - 创业者
 ---
 # 五步法画布 × 产品内核画布：从假设到壁垒的实操工具
 

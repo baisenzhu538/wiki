@@ -26,9 +26,16 @@ discoverable_by:
   - 新兴业务进化周期
   - 适者生存→绝望之谷→物种爆发→平台期
 tags:
-- audience:general
-- scene:reference
-- skill-level:advanced
+  - audience:general
+  - scene:reference
+  - skill-level:advanced
+  - 战略
+  - 商业模式
+  - 护城河
+  - 企业
+  - 行业
+  - 市场
+  - 工具
 ---
 
 # 新兴业务进化周期

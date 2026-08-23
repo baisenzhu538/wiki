@@ -39,9 +39,15 @@ query_triggers:
 - src_unknown
 - src_unknown
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 商业模式
+  - 企业
+  - 市场
+  - 品牌
+  - 模型
+  - 创业者
 pipeline:
 - src_unknown
 diagnostic_signals:

@@ -34,9 +34,15 @@ related:
 - '[[tool-demand-iceberg-l6-hypothesis]]'
 - '[[tool-smart-medicine-cabinet-compliance-checklist]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:ceo
+  - scene:execution
+  - skill-level:advanced
+  - 战略
+  - 合作
+  - 验证
+  - 商业模式
+  - 边界
+  - 决策
 ---
 
 # 智能药柜平台合作命题交叉验证

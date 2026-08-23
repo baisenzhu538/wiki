@@ -43,9 +43,11 @@ related:
 - '[[dk-p5-cc-connect-config]]'
 - '[[tool-clinic-cabinet-legal-contract-guide]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:advanced
+  - audience:general
+  - scene:reference
+  - skill-level:advanced
+  - 品牌
+  - 边界
 ---
 # 巨头为何不做诊所+智能药柜：竞争格局与壁垒分析
 

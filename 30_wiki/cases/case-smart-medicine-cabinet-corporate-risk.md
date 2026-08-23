@@ -38,9 +38,10 @@ related:
 source_person: 王语嫣
 source_context: 听脑录音 1422729/4376859/4873420/4785075/4880681/8020205 交叉验证
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 并购
 ---
 **卡片编号**：kc_itingnao_corporate-risk  
 **主题**：公司资金、股权架构、合作模式、法律合规风险  

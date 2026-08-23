@@ -47,9 +47,14 @@ related:
 - case-opc-agent-wave1-real-model-testing
 - case-strategy-practice-12-zero-loss
 tags:
-- audience:general
-- scene:reference
-- skill-level:advanced
+  - audience:general
+  - scene:reference
+  - skill-level:advanced
+  - 行业
+  - 市场
+  - 定价
+  - 渠道
+  - 边界
 ---
 **模式**：每个小镇只招一个经纪人→没有办公位→在家里办公→只做小镇客户
 **结果**：全美最大的券商之一，比高盛的网点还多

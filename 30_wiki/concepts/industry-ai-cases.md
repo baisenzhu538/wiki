@@ -28,6 +28,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 战略
+  - 企业
+  - 行业
+  - 市场
+  - 定价
+  - 组织
+  - 品牌
 created_at: '2026-06-14'
 quality_labels: null
 updated_at: '2026-06-28'

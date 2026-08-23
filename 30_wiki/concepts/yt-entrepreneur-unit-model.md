@@ -77,9 +77,16 @@ diagnostic_signals:
   follow_up_question: 如果对LTV、CAC、留存率分别做±10%的灵敏度测试，哪个变量变动会让模型从成立变为不成立？
 author: 老顽童
 tags:
-- audience:executor
-- scene:execution
-- skill-level:advanced
+  - audience:executor
+  - scene:execution
+  - skill-level:advanced
+  - 战略
+  - 商业模式
+  - 单元模型
+  - 市场
+  - 框架
+  - 工具
+  - 模型
 ---
 # 单元模型
 

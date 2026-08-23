@@ -52,9 +52,14 @@ author: 老顽童
 confidence: 0.85
 trust_level: high
 tags:
-- audience:general
-- scene:reference
-- skill-level:advanced
+  - audience:general
+  - scene:reference
+  - skill-level:advanced
+  - 渠道
+  - 品牌
+  - 框架
+  - 边界
+  - 财报
 ---
 # 一堂调研武器库课程
 

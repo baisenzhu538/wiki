@@ -36,9 +36,14 @@ discoverable_by:
 - 五步法衔接
 - 什么时候从增长切换到壁垒建设
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 护城河
+  - 市场
+  - 渠道
+  - 方法
+  - 创业者
 pipeline:
 - src_unknown
 diagnostic_signals:

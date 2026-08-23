@@ -60,6 +60,12 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 战略
+  - 市场
+  - 机制
+  - 工具
+  - 边界
+  - 复盘
 ---
 
 # 项目背景分析：综合用户/场景/商业考量

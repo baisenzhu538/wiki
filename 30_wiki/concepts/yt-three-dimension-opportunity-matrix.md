@@ -22,9 +22,14 @@ review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效
 discoverable_by:
   - 三维排列组合找机会
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 企业
+  - 行业
+  - 工具
+  - 方法
+  - 模型
 trust_level: medium
 version: 1
 yitang:
