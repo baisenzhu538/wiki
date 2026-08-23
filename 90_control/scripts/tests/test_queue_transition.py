@@ -304,10 +304,27 @@ class TestNegativeGateVocabData(unittest.TestCase):
     """#435：数据异常类词表扩展。"""
 
     def test_empty_value_blocked(self):
-        """正测：'grade 为空'（STRONG 子串）→ 被拦。"""
+        """正测：'grade 为空'（#442 后走断言句式正则）→ 被拦。"""
         ok, msg = qt._check_negative_claims("**结论**：grade 为空。")
         self.assertFalse(ok)
         self.assertIn("为空", msg)
+
+    def test_value_empty_blocked(self):
+        """正测：'值为空'（无空格紧邻）→ 被拦。"""
+        ok, msg = qt._check_negative_claims("**结论**：值为空。")
+        self.assertFalse(ok)
+
+    def test_not_empty_not_blocked(self):
+        """#442 否定式反例：'字段不为空'正向声明 → 不误伤（STRONG 已删子串；正则主语不匹配）。"""
+        ok, msg = qt._check_negative_claims("**结论**：字段不为空。")
+        self.assertTrue(ok)
+        self.assertEqual(msg, "")
+
+    def test_non_empty_value_not_blocked(self):
+        """#442 否定式反例：'非空值' → 不误伤。"""
+        ok, msg = qt._check_negative_claims("**结论**：非空值已确认。")
+        self.assertTrue(ok)
+        self.assertEqual(msg, "")
 
     def test_data_damaged_pattern_blocked(self):
         """正测：'数据已损坏'（断言句式正则）→ 被拦。"""
