@@ -113,7 +113,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 485 | `task_20260823_wangyuyan-vocab-axis-before-batch-gate` | 轴文件先行·剩余域轴批量出+gate化(#426放量前提机制化) | reviewed | wangyuyan | 剩余域轴+tags-vocab-design补条目+黄药师gate工具 | 老顽童建议书采纳(content卡点实证) | `60_feedback/tasks/task_20260823_wangyuyan-vocab-axis-before-batch-gate.md` | P1 #426堵点根治;与E054同根;执行前老朱拍板规范改;黄药师gate工具挂子任务/拆#487 |
 | 486 | `task_20260823_wangyuyan-gate-external-supervision` | 门禁外部监督维度·#442-464对照+规范落点(#469同构背书补差异) | reviewed | wangyuyan | 门禁清单对照表+file-flow-protocol/KF-024补条目 | 老顽童建议书采纳(#469Critique) | `60_feedback/tasks/task_20260823_wangyuyan-gate-external-supervision.md` | P2门禁维度扩展;防假门禁+监督盲区;执行前老朱拍板规范改;与#433/#435同族 |
 | 487 | `task_20260824_laowantong-oral-spray-live260-cards` | AI口喷必修课卡组·2迭代+5新增(Live260 Truman一等,段位修炼地图L1-L6+战略级基本功+OPT) | queued | laowantong | 2迭代(tool-ai-oral-spray补五大优势+心法/method-deliberate-practice补1+4应用)+5新增(cultivation-map/strategic-fundamental/multi-agent-parallel/newcomer-blockers/vs-typing-dialectics) | 老朱"深挖并编排入列" | `60_feedback/tasks/task_20260824_laowantong-oral-spray-live260-cards.md` | P1 Truman一等口述;口喷战略级第一基本功;ai-collaboration轴已有;W6三方法前置;7卡;欧阳锋终审 |
-| 488 | `task_20260824_huangyaoshi-infrastructure-inventory` | 基建资产总表建设（识别靠表不靠记忆）：90_control/infrastructure-inventory.md 总表 + kdo infra status 快照命令 + 路由层附录 + CAPSULE_STARTUP 入口 + 维护纪律入 lint | pending_review | huangyaoshi | 总表+快照+挂接+纪律 | 无 | `60_feedback/tasks/task_20260824_huangyaoshi-infrastructure-inventory.md` | 黄药师建议书 `diag_20260824_huangyaoshi-infrastructure-inventory.md`（08-24 00:30 实战 15 单后自盘）；王语嫣裁定 P1 治根型+边界合规；老朱拍板采纳；只建表+快照不动本体/不合并替代既有机制（memory-registry/cap_hub/README）；欧阳锋终审；#472 路由层互补、#485 并行不冲突 |
+| 488 | `task_20260824_huangyaoshi-infrastructure-inventory` | 基建资产总表建设（识别靠表不靠记忆）：90_control/infrastructure-inventory.md 总表 + kdo infra status 快照命令 + 路由层附录 + CAPSULE_STARTUP 入口 + 维护纪律入 lint | reviewed | huangyaoshi | 总表+快照+挂接+纪律 | 无 | `60_feedback/tasks/task_20260824_huangyaoshi-infrastructure-inventory.md` | 黄药师建议书 `diag_20260824_huangyaoshi-infrastructure-inventory.md`（08-24 00:30 实战 15 单后自盘）；王语嫣裁定 P1 治根型+边界合规；老朱拍板采纳；只建表+快照不动本体/不合并替代既有机制（memory-registry/cap_hub/README）；欧阳锋终审；#472 路由层互补、#485 并行不冲突 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
 ## ⚖️ 待终审（提审任务，queue_transition 自动登记）
@@ -166,7 +166,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#480 task_20260823_wangyuyan-426-tags-acceptance-caliber｜wangyuyan｜提审 08-24 01:05｜60_feedback/tasks/task_20260823_wangyuyan-426-tags-acceptance-caliber.md~~ → 已终审 PASS A-（2026-08-23 欧阳锋）
 - ~~#485 task_20260823_wangyuyan-vocab-axis-before-batch-gate｜wangyuyan｜提审 08-24 01:10｜60_feedback/tasks/task_20260823_wangyuyan-vocab-axis-before-batch-gate.md~~ → 已终审 PASS A-（2026-08-23 欧阳锋）
 - ~~#486 task_20260823_wangyuyan-gate-external-supervision｜wangyuyan｜提审 08-24 01:10｜60_feedback/tasks/task_20260823_wangyuyan-gate-external-supervision.md~~ → 已终审 PASS A-（2026-08-23 欧阳锋）
-- #488 task_20260824_huangyaoshi-infrastructure-inventory｜huangyaoshi｜提审 08-24 01:12｜60_feedback/tasks/task_20260824_huangyaoshi-infrastructure-inventory.md
+- ~~#488 task_20260824_huangyaoshi-infrastructure-inventory｜huangyaoshi｜提审 08-24 01:12｜60_feedback/tasks/task_20260824_huangyaoshi-infrastructure-inventory.md~~ → 已终审 PASS A-（2026-08-23 欧阳锋）
 
 <!-- REVIEW-PENDING-END -->
 
