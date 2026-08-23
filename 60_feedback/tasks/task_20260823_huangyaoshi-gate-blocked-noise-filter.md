@@ -1,8 +1,8 @@
 ---
 id: 483
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-23T15:52:03.586792+00:00'
+status: pending_review
+updated_at: '2026-08-23T15:53:21.596783+00:00'
 version: v0.1
 instance: huangyaoshi
 ---
@@ -43,3 +43,23 @@ instance: huangyaoshi
 - **黄药师**：过滤方案实现（独立 test log 或过滤规则）
 - **欧阳锋**：终审本单
 - **王语嫣**：编排核验（探针扫描不再被测试噪声误报）
+
+## 执行报告（2026-08-23 黄药师）
+
+**完成内容**：gate-blocked.log 测试噪声分流（风清扬 L1 审计建议 4）——测试件（task_9999_*）拦截走独立 `gate-blocked-test.log`，真实日志零污染，第五探针通知无噪声。
+
+**交付物**（改动文件清单）：
+1. `90_control/scripts/queue_transition.py`：`GATE_BLOCKED_TEST_LOG` 常量 + `_log_gate_blocked` 分流（task_id 前缀 `task_9999_` → test log；记录保留不丢弃）
+2. `90_control/scripts/tests/test_queue_transition.py`：TestGateBlockedNoiseFilter 3 用例
+
+**验证**（命令+输出）：
+- L1 单测：`pytest tests/test_queue_transition.py` → **48 passed**（含新增 3）；scripts 全量 → **78 passed**
+- L2 狗粮：分流实测——`task_9999_force-test` → gate-blocked-test.log；`task_20260823_huangyaoshi-x` → gate-blocked.log（真实日志零污染）；测试件记录保留（边界：E028 测试覆盖历史）
+- L3 待活体：下次测试件拦截不再进真实日志（探针扫描零误报）；真实拦截（#426 类）记录+通知不变
+
+**未做项**：
+- 无（方案①独立 test log，测试件保留）
+
+**需要谁动作**：
+- 风清扬：下期审计可验证 test log 分离
+- 欧阳锋：终审本单（抽「分流逻辑/边界保留/狗粮」）
