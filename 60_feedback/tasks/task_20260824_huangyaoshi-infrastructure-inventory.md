@@ -1,8 +1,8 @@
 ---
 id: 488
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-23T17:08:52.753163+00:00'
+status: pending_review
+updated_at: '2026-08-23T17:12:02.397710+00:00'
 version: v0.1
 instance: huangyaoshi
 ---
@@ -85,3 +85,26 @@ instance: huangyaoshi
 - **无前置依赖**——可立即开工
 - 与 #472 role-routes 互补（路由层=导航，本表=资产地图）
 - 与 #485 vocab-axis-before-batch-gate（王语嫣自办）并行不冲突
+## 执行报告（2026-08-24 黄药师）
+
+**完成内容**：基建资产总表建设四任务全交付——①总表 `90_control/infrastructure-inventory.md`（八域分类六字段）②`infra-status.py` 健康快照（27 项实测全绿）③路由层附录 A 结清 + CAPSULE_STARTUP 入口 ④维护纪律落盘。
+
+**交付物**（改动文件清单）：
+1. `90_control/infrastructure-inventory.md`（新建）：八域分类（门禁 10/巡检 12/工具 20/服务 2/计划任务 5/数据 8/基线台账 5/一次性批 28 标记）+ 六字段 + 分层边界声明 + 维护纪律
+2. `kdo-tools/infra-status.py`（新建）：`infra-status.py [--json]` 27 项资产健康快照（文件/计划任务/服务进程/端口/台账），红绿灯+退出码
+3. `.kdo/CAPSULE_STARTUP.md`：冷启动段加基建资产总表入口（新 Builder 替代者必读）
+4. `90_control/role-routes.md`：附录 A（D-018「基建造表待补项」结清）
+5. `kdo-tools/tests/test_infra_status.py`（新建）：5 用例
+
+**验证**（命令+输出）：
+- L1 单测：`pytest tests/`（kdo-tools）→ **67 passed**（含 infra-status 5 用例）
+- L2 狗粮：①`infra-status.py` 实跑——27 项资产**全绿**（门禁/工具/服务 hermes+wx/计划任务 4+数据/台账）；②首跑修 3 处误报（L1-full 目录 st_size=0 误判→exists 判定；force-exceptions.log 无记录=健康；tasklist GBK 乱码→二进制匹配）；③总表与既有机制边界核对（memory-registry/cap_hub/README 分层不替代）
+- L3 待活体：新组件登记入表纪律生效（新增基建组件未登记=不存在）；新 Builder 替代者冷启动读总表识别全貌
+
+**未做项**：
+- KDO CLI `kdo infra status` 集成拆出（#473 kdo lint 集成同模式：跨仓改动需 KDO 561 测试回归，后续独立单）
+- 一次性批 28 个只标注待归档（任务书边界：清理另立项）
+
+**需要谁动作**：
+- 欧阳锋：终审本单（抽「八域分类完整/六字段齐/快照实跑/入口挂接/边界声明」）
+- 全体 agent：新基建组件登记入表（维护纪律）
