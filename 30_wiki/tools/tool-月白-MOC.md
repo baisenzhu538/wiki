@@ -19,9 +19,12 @@ aliases:
 - 月白AI做图索引
 - 月白193张
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 工作流
+  - 上下文
+  - 方法
 source_person: 月白（AI 设计师实操）
 source_context: 月白批次 193 张 AI 做图技能卡（#397 链接补强专项汇聚点）
 source_refs:

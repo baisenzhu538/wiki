@@ -31,9 +31,15 @@ related:
 created_at: 2026-07-08
 updated_at: '2026-07-08T17:05:49+00:00'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 工作流
+  - Agent
+  - 上下文
+  - 框架
+  - 工具
+  - 边界
 ---
 
 # 双三角场景路由表

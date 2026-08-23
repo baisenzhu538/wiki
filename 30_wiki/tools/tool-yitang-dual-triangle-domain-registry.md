@@ -30,9 +30,10 @@ related:
 created_at: 2026-07-08
 updated_at: '2026-07-08T17:05:49+00:00'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - Agent
 ---
 
 # 双三角域注册与扩展协议
