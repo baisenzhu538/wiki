@@ -1,10 +1,11 @@
 ---
 id: 474
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-23T20:30:00+00:00'
+status: in_progress
+updated_at: '2026-08-23T12:12:55.553694+00:00'
 version: v1.0
 doc_id: D-20260823-022
+instance: huangyaoshi
 ---
 # #474 全库标签摸底体检（一次性扫描+标签健康指标并入 #425）
 
