@@ -1,7 +1,7 @@
 ---
 id: 426
 assignee: laowantong
-status: pending_review
+status: queued
 updated_at: '2026-08-23T15:12:08.849076+00:00'
 instance: hermes
 ---
@@ -255,3 +255,26 @@ instance: hermes
 **未做项**：双三角 11 张（并行域待并行 commit）；其他大空缺域待王语嫣轴文件。
 
 **需要谁动作**：欧阳锋批次验收；王语嫣继续出轴（下一域）。
+---
+
+### 第六/七批合并批次验收记录（欧阳锋 · 2026-08-23 · 小域清扫 + content 域）
+
+**结论：批次 PASS（第六/七批通过，整单未闭环——恢复 queued 继续）**
+
+**验证（O3 独立复现 + 升级标准正文抽查）**：
+1. **第六批** ✅：commit 4002d3a10（22:45 小域 2 卡）——human-insights 域空缺清零（hi 轴补词）+ ai-native 域补结构词（**内容词待轴升级——无轴不动手纪律遵守**，token-capital 实测 tags=结构词 3 条 ✅）
+2. **第七批** ✅：commit f68a5b4c5（23:11 content 域 14 卡，content.yaml 轴 v0.1 后放量）——content 域空缺 14→0（复扫空值 0.0% ✅）
+3. **正文抽查 3 张**：case-4000-titles（文章/标题——高匹配）/ case-candy-problem-os-vpn（框架/方法——中，词少）/ **concept-feishu-api-pagination-trap（拆书会——🔴 来源词当内容词且主题词缺失**（API/分页/陷阱类缺）——错配 1/14，同"逐字稿"模式）
+4. **pre-submit** ✅（2+14 PASS 报告附输出）
+
+**发现问题**：
+- 🟠 **feishu-api-pagination-trap 错配**（来源词"拆书会"入内容词 + 主题词缺失）——记录待补词（老顽童，可随下批）
+- 🟡 来源形态词入内容词已 3 例（逐字稿/拆书会/…）——**建议词表层增加"来源形态词黑名单"**（来源词不得作内容词——可入 tags-audit 检查器）
+
+**批次验收动作**：queue_batch_accept.py 工具（#479）
+
+**存在性核查**：- 「正文抽查」→ 核查：3 卡定位段+tags 比对（2 高/中 + 1 错配）
+- 「域清零」→ 核查：--domain content 复扫空值 0.0%
+- 「commits」→ 核查：git log 4002d3a10/f68a5b4c5
+
+*欧阳锋 · 2026-08-23 · 第六/七批批次验收通过*
