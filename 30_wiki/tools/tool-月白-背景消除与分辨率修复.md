@@ -36,6 +36,15 @@ related:
 - 'dk-three-context-formula'
 - '[[tool-月白-文件命名与存档规范（口述暗示）]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AI设计
+  - 工具
+  - 方法
+  - 边界
+  - 踩坑
+  - 实操
 ---
 # 技能：背景消除与分辨率修复
 

@@ -39,6 +39,15 @@ related:
 - '[[case-toc-content-platform-correlation-trap]]'
 - '[[yt-business-model-partnership]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 表情包
+  - 文创
+  - 工具
+  - 方法
+  - 模板
+  - 实操
 ---
 # 技能：小红书平台内容策略：从美图经济到沙雕梗图
 

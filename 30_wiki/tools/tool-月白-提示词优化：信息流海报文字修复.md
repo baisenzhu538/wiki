@@ -40,6 +40,15 @@ related:
 - '[[yt-business-model-channel-economics]]'
 - '[[tool-Truman-开源模型与商业模型融合方案]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AI设计
+  - 提示词
+  - 海报
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：提示词优化：信息流海报文字修复
 

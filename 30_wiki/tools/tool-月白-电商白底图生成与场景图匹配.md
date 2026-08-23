@@ -37,6 +37,16 @@ related:
 - '[[case-candy-problem-os-vpn]]'
 - '[[tool-strategy-customer-selection]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AI设计
+  - 白底图
+  - 图片
+  - 工具
+  - 方法
+  - 设计师
+  - 实操
 ---
 # 技能：电商白底图生成与场景图匹配
 

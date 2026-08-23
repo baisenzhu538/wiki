@@ -42,8 +42,16 @@ related:
 - '[[tool-Truman-本地记忆与云端记忆管理]]'
 - '[[dk-yb8-file-naming-eight-elements]]'
 tags:
-- audience:executor
-- scene:execution
+  - audience:executor
+  - scene:execution
+  - AI设计
+  - 提示词
+  - 海报
+  - 工具
+  - 方法
+  - 模板
+  - 效率
+  - 设计师
 quality_labels:
 - cited
 diagnostic_signals:

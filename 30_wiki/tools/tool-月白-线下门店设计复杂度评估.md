@@ -36,6 +36,15 @@ related:
 - 'dk-three-context-formula'
 - '[[yt-business-model-scalability]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AI设计
+  - 海报
+  - 工具
+  - 方法
+  - 设计师
+  - 实操
 ---
 # 技能：线下门店设计复杂度评估
 

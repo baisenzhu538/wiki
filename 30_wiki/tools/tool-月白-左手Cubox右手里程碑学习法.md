@@ -38,6 +38,14 @@ related:
 - '[[tool-月白-设计师AI资产四类型沉淀]]'
 - '[[tool-月白-课程资料文件命名规范]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 文创
+  - 框架
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：左手Cubox右手里程碑学习法
 

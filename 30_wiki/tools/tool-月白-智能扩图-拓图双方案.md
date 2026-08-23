@@ -36,6 +36,16 @@ related:
 - 'dk-three-context-formula'
 - '[[yt-product-kernel-definition]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AI设计
+  - 白底图
+  - 图片
+  - 工具
+  - 方法
+  - 设计师
+  - 实操
 ---
 # 技能：智能扩图/拓图双方案
 

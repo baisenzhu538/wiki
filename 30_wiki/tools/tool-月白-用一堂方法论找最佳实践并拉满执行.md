@@ -43,6 +43,14 @@ related:
 - '[[tool-月白-设计文件八要素命名法]]'
 - '[[yt-demand-quantitative-estimation]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AI设计
+  - 框架
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：用一堂方法论找最佳实践并拉满执行
 

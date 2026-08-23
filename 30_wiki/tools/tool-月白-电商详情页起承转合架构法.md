@@ -35,6 +35,16 @@ related:
 - 'tool-yitang-research-best-practice'
 - '[[aigc设计师实操培训01口喷设计范式与电商ai设计全流程]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AIGC
+  - 详情页
+  - 文创
+  - 图片
+  - 框架
+  - 工具
+  - 方法
 ---
 # 技能：电商详情页起承转合架构法
 

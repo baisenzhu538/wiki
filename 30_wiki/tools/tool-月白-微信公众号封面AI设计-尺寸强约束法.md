@@ -37,6 +37,16 @@ related:
 - 'tool-月白-AI图生图尺寸快速转换'
 - 'dk-three-context-formula'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AI设计
+  - 提示词
+  - 文创
+  - 封面
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：微信公众号封面AI设计-尺寸强约束法
 

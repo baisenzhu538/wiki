@@ -35,6 +35,14 @@ related:
 - 'tool-月白-AI对话情绪管理法'
 - 'dk-three-context-formula'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 文创
+  - 封面
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：短视频封面'音量战争'设计法
 

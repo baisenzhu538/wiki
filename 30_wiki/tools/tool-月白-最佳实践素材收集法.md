@@ -36,6 +36,14 @@ related:
 - 'dk-three-context-formula'
 - '[[yt-tool-best-practice-learning]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 海报
+  - 文创
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：最佳实践素材收集法
 

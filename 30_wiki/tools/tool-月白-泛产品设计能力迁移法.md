@@ -37,6 +37,14 @@ related:
 - '[[product-business-strategy]]'
 - '[[yt-note-problem-solving-capability]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AI设计
+  - 工具
+  - 方法
+  - 设计师
+  - 实操
 ---
 # 技能：泛产品设计能力迁移法
 

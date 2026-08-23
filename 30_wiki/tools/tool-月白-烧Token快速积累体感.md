@@ -38,6 +38,16 @@ related:
 - '[[dk-p13-token-burn]]'
 - '[[tool-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AI设计
+  - 提示词
+  - 框架
+  - 工具
+  - 方法
+  - 设计师
+  - 实操
 ---
 # 技能：烧Token快速积累体感
 

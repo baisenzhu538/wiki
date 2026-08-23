@@ -36,6 +36,16 @@ related:
 - 'case-truman-ai-image-workflow-evolution'
 - '[[dk-yb1-aigc-mvp-before-ps]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AIGC
+  - 提示词
+  - 海报
+  - 文创
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：用AIGC做设计专家批评复盘
 

@@ -38,6 +38,16 @@ related:
 - '[[yt-product-kernel-hypothesis-test]]'
 - '[[yt-growth-a-b-testing]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AI设计
+  - AIGC
+  - 工具
+  - 方法
+  - 边界
+  - 设计师
+  - 实操
 ---
 # 技能：模型识别与边界测试法
 

@@ -36,6 +36,13 @@ related:
 - 'dk-three-context-formula'
 - '[[tool-月白-80分效率设计策略]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 文创
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：文创材质成本调研与精益选择
 

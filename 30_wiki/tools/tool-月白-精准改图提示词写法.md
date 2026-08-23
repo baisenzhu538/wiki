@@ -38,6 +38,16 @@ related:
 - '[[dk-yb6-midjourney-chinese-text-fix]]'
 - '[[tool-月白-基于基础形象做动作延展（1到10）]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 提示词
+  - 海报
+  - 文创
+  - 图片
+  - 工具
+  - 方法
+  - 运营
 ---
 # 技能：精准改图提示词写法
 

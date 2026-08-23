@@ -36,6 +36,14 @@ related:
 - 'dk-three-context-formula'
 - '[[tool-月白-80分效率设计策略]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 文创
+  - 工具
+  - 方法
+  - 设计师
+  - 实操
 ---
 # 技能：新手设计师基本功训练法
 

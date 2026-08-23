@@ -36,6 +36,16 @@ related:
 - 'dk-aesthetic-redline-doc'
 - '[[tool-月白-基于基础形象做动作延展（1到10）]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AIGC
+  - 提示词
+  - 白底图
+  - 文创
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：电商白底图生成与高清重绘
 

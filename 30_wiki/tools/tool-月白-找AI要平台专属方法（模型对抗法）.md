@@ -37,6 +37,14 @@ related:
 - '[[tool-月白-基于基础形象做动作延展（1到10）]]'
 - '[[yt-demand-quantitative-estimation]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AIGC
+  - 文创
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：找AI要平台专属方法（模型对抗法）
 

@@ -37,6 +37,16 @@ related:
 - '[[dk-yb19-visual-strategy-price-match]]'
 - '[[yt-tob-customer-sabc]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AI设计
+  - 海报
+  - 详情页
+  - 文创
+  - 封面
+  - 工具
+  - 方法
 ---
 # 技能：普通人AI设计80分法则
 

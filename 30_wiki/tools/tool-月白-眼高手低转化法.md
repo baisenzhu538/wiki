@@ -38,6 +38,13 @@ related:
 - '[[yt-tool-fab-persuasion]]'
 - '[[tool-立即实践转化法]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AI设计
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：眼高手低转化法
 

@@ -37,6 +37,15 @@ related:
 - 'dk-three-context-formula'
 - '[[tool-月白-文件命名与图层命名规范]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AI设计
+  - 提示词
+  - 工具
+  - 方法
+  - 设计师
+  - 实操
 ---
 # 技能：眼高手低训练法
 

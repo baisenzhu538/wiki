@@ -36,6 +36,14 @@ related:
 - 'dk-three-context-formula'
 - '[[tool-月白-80分效率设计策略]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AI设计
+  - 文创
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：文创产品AI设计到生产的卡点预判
 

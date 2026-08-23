@@ -40,9 +40,16 @@ related:
 - '[[tool-月白-AI工艺图人工复核法]]'
 - '[[dk-yb8-file-naming-eight-elements]]'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:beginner
+  - audience:executor
+  - scene:execution
+  - skill-level:beginner
+  - 海报
+  - 文创
+  - 工具
+  - 方法
+  - 模板
+  - 效率
+  - 运营
 quality_labels:
 - cited
 diagnostic_signals:

@@ -36,6 +36,13 @@ related:
 - 'case-truman-ai-image-workflow-evolution'
 - '[[tool-月白-跨境电商产品图替换法]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 文创
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：电商场景图三类分类法
 

@@ -37,6 +37,14 @@ related:
 - '[[yt-tool-mental-model-refinement]]'
 - '[[tool-费曼简单提炼法]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 海报
+  - 文创
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：社群直播海报利益点提炼法
 

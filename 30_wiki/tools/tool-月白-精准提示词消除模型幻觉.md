@@ -37,6 +37,15 @@ related:
 - '[[aigc设计基础01ai生图原理与提示词基本功]]'
 - '[[dk-yb6-midjourney-chinese-text-fix]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 提示词
+  - 文创
+  - 工具
+  - 方法
+  - 模型幻觉
+  - 实操
 ---
 # 技能：精准提示词消除模型幻觉
 

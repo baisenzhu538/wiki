@@ -35,6 +35,15 @@ related:
 - 'tool-月白-AI对话情绪管理法'
 - 'dk-three-context-formula'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AI设计
+  - AIGC
+  - 工具
+  - 方法
+  - 设计师
+  - 实操
 ---
 # 技能：左脑画面描述训练法
 

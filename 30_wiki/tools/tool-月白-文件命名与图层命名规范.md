@@ -41,9 +41,16 @@ related:
 - 'tool-月白-PS图层规范管理'
 - '[[dk-yb8-file-naming-eight-elements]]'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:beginner
+  - audience:executor
+  - scene:execution
+  - skill-level:beginner
+  - AI设计
+  - AIGC
+  - 工具
+  - 方法
+  - 流程
+  - 设计师
+  - 实操
 quality_labels:
 - cited
 diagnostic_signals:

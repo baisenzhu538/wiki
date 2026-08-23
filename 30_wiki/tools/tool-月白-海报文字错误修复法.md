@@ -36,6 +36,16 @@ related:
 - 'tool-月白-AIGC餐饮海报优化一抽流'
 - 'dk-aesthetic-redline-doc'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AI设计
+  - 提示词
+  - 海报
+  - 图片
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：海报文字错误修复法
 

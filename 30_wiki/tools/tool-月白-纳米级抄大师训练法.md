@@ -36,6 +36,14 @@ related:
 - 'dk-three-context-formula'
 - '[[tool-ai-parallel-validation]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 文创
+  - 工具
+  - 方法
+  - 设计师
+  - 实操
 ---
 # 技能：纳米级抄大师训练法
 

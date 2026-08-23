@@ -36,6 +36,16 @@ related:
 - 'dk-three-context-formula'
 - '[[case-strategy-shell-oil]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AI设计
+  - 工具
+  - 方法
+  - AI感
+  - 去AI感
+  - 设计师
+  - 实操
 ---
 # 技能：服务体验类去AI感设计
 

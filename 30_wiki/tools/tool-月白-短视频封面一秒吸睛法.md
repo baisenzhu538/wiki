@@ -36,6 +36,16 @@ related:
 - 'dk-three-context-formula'
 - '[[tool-Truman-AI时代提示词优化法]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 生图
+  - 图生图
+  - 海报
+  - 文创
+  - 封面
+  - 工具
+  - 方法
 ---
 # 技能：短视频封面一秒吸睛法
 

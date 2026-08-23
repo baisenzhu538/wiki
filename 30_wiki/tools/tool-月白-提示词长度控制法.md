@@ -37,6 +37,14 @@ related:
 - '[[tool-月白-文件命名与存档规范（口述暗示）]]'
 - '[[tool-月白-设计文件八要素命名法]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AI设计
+  - 提示词
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：提示词长度控制法
 

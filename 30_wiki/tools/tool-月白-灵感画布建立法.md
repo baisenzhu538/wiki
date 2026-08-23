@@ -37,6 +37,15 @@ related:
 - '[[dk-modeling-expert-consensus-five-percent]]'
 - '[[tool-四层联系建立法]]'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - AI设计
+  - 工具
+  - 方法
+  - 版权风险
+  - 设计师
+  - 实操
 ---
 # 技能：灵感画布建立法
 

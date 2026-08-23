@@ -35,6 +35,14 @@ related:
 - 'tool-月白-AI模型选择决策法'
 - 'dk-three-context-formula'
 tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 文创
+  - 工具
+  - 方法
+  - 效率
+  - 实操
 ---
 # 技能：模型性价比选型决策
 
