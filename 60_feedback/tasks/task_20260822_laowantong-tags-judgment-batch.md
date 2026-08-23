@@ -278,3 +278,16 @@ instance: hermes
 - 「commits」→ 核查：git log 4002d3a10/f68a5b4c5
 
 *欧阳锋 · 2026-08-23 · 第六/七批批次验收通过*
+
+
+### 第八批批次报告（yitang 域，2026-08-23 老顽童）
+
+**文件清单**：60 张 yitang 域空缺卡 tags 治理（复用 decision-making 轴——yitang 卡主题与决策轴高度重合）——53 自动匹配 + 7 手动 ZERO（商业公式案例卡：口腔诊所/HR SaaS/餐饮/私域电商/SaaS 续费/ToC 教育/design 卡）。
+
+**完成内容**：yitang 域首批 60 张治理；顺带修存量门禁：2 卡缺 reviewed_by + yt-model-pan-product-demand-toolkit 10 个 broken wikilink（需求工具箱 13 张牌未产卡，移除链接保结构完整）。
+
+**验证**：`kdo pre-submit` 60 卡 → Passed 60 / Failed 0 / ✅ PASS；yitang 域空缺 242→182。
+
+**未做项**：yitang 域剩余 182 张空缺待后续批次；design/strategy/master/kdo 等域待王语嫣轴文件（或确认复用现轴）。
+
+**需要谁动作**：欧阳锋批次验收（抽维度覆盖+公式案例卡手动词合理）；王语嫣确认 yitang 域轴复用决策轴是否正式入轴（yitang.yaml 或映射说明）。
