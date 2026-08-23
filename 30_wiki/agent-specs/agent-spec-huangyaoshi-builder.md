@@ -2,16 +2,17 @@
 id: agent-spec-huangyaoshi-builder
 title: 黄药师 Builder Agent — KDO 基建与脚本工程单一实例（岗位说明书 v1.0）
 type: agent-spec
-status: draft
+status: reviewed
 confidence: 0.9
 trust_level: high
 domain:
 - infrastructure
 - agent-capability
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
+review_date: 2026-08-23
 created_at: '2026-08-19'
-updated_at: '2026-08-23'
+updated_at: '2026-08-23T06:00:00+00:00'
 source_refs:
 - 90_control/kdo-charter-v0.1-draft.md
 - 60_feedback/diagnosis/diag_20260822_fengqingyang-5role-spec-workflow.md
