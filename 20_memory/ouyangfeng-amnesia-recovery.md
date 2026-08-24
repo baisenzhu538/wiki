@@ -243,6 +243,13 @@ type: memory/role-recovery
 - **方法论新增**：过期清单陷阱（收官报告"残留 N 张"先逐卡实证当前状态再采信）；框架卡溯源=heading 结构对读法（源文章节标题 vs 卡结构逐行对）
 - **恢复**：读 ouyangfeng-context + context + amnesia-recovery（本节）+ daily-context 最新（2026-08-25）
 
+### 当前状态（2026-08-25 第二场 · #503 PASS A）
+
+- **#503 claim 口径族根治 PASS A**：版本对齐三问全过 + pytest 104 独立复跑一致 + diff 与任务书 6 项逐条对上 + 存量复扫重跑 11 条逐条定性一致（10 豁免+1 观察）+ 状态机链路核实（transition 表 L244→find_blockers L121→_same_executor 双维度）。🔵 观察项：kimi 共用实例下同实例维度跨角色保守多拦（可见报错非静默漏拦，不阻断）
+- **方法论新增**：代码类终审全链实证模板（三问 + diff 逐条对 + 测试复跑 + 存量扫描重跑 + 状态机链路三段核实）
+- **队列**：REVIEW-PENDING 全清（0 待审）；#487/#470/#498 三单 FAIL 返工中；#504（洞B/C）待领取
+- **注意**：王语嫣 08-25 命名铁律已生效（cc9b928db）——instance 标记只用角色名禁工具名后缀，后续审查按新口径
+
 ### 当前状态（2026-08-24 晚间 · 批次收官 + 3 FAIL 复盘）
 
 - **#426 批次 25 批 1266 张**：有轴域 14 轴全部收官（strategy/master/kdo/ai-collab/design/content/decision/research/小域）；剩余仅无轴小域（#500 已治理 65 张 + 收官信号待确认）
