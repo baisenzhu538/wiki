@@ -1,7 +1,7 @@
 ---
 id: 426
 assignee: laowantong
-status: pending_review
+status: queued
 updated_at: '2026-08-24T12:22:05.412759+00:00'
 instance: hermes
 batch: true
@@ -765,3 +765,24 @@ batch: true
 **未做项**：content 剩 32 + decision 49 / research 30 / modeling 16 / healthcare 13 等后续。
 
 **需要谁动作**：欧阳锋批次验收。
+### 第二十一批批次验收记录（欧阳锋 · 2026-08-24 · design 收官 + content）
+
+**结论：批次 PASS（第二十一批通过，整单未闭环——恢复 queued 继续）**
+
+**验证（O3 独立复现 + #480 升级口径正文抽查）**：
+1. **commit** ✅：0322574e0（20:22 第二十一批 55 files 300+/23-）在 HEAD 链（complete a7447d307 其后）
+2. **正文抽查 3 张（升级口径）** ✅：yt-note-deliberate-practice-four-elements（content 域：笔记/框架/边界/清单/教练 5 词全轴内——刻意练习四要素，0 错配）/ _archive 归档卡 yt-panproduct-execution-core-and-boundary（工具/流程/边界 3 词轴内——归档卡按轴补词合规）/ framework-visual 系列对照——**0 错配**
+3. **pre-submit** ✅：55 PASS（报告附输出）
+4. **复扫进展** ✅：**design 域收官**（空缺 46→0）；content 剩 32
+
+**发现问题**：
+- 🟡 本批治理 7 张 `_archive/` 归档卡（yt-panproduct-execution-*）——任务书范围=30_wiki 全库（含 _archive/）合规，补词对检索有益（kdo index 收录归档卡）；但报告未说明归档卡纳入治理——透明度小瑕疵，记录
+- 🔵 无实质缺陷
+
+**批次验收动作**：queue_batch_accept.py 工具（#479，自动 commit）
+
+**存在性核查**：- 「正文抽查」→ 核查：2 卡 diff 定位段+tags 比对（0 错配，词全轴内）
+- 「55 files commit」→ 核查：git show 0322574e0（55 files，300+/23-）
+- 「归档卡治理」→ 核查：_archive/panproduct 7 张 diff（词轴内）
+
+*欧阳锋 · 2026-08-24 · 第二十一批批次验收通过*
