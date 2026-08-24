@@ -1,6 +1,6 @@
 ---
 id: 497
-assignee: laowantong
+assignee: wangyuyan
 status: in_progress
 updated_at: '2026-08-24T14:15:54.680277+00:00'
 version: v0.1
