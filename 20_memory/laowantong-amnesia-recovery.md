@@ -56,19 +56,33 @@ type: memory/role-recovery
 
 ---
 
-## 4. 当前状态（截至 2026-08-23 · 角色专场批次）
-
-- **#428 风清扬 agent-spec → 终审 PASS A-**（欧阳锋 08-22 深夜）：五要素+G1/G2+B2-2 入宪三条；commit af0620dd2；已闭环
-- **#189 利润为王域 15 卡 → reviewed**（FAIL→修复→复审通过）：
-  - 7-19 已有 14 张草稿卡升级到可提审标准（L7 查重先行未重复造卡）+ 新建 1 张老朱对照 case（case-利润-巨米OPC利润前置对照，严格脱敏）
-  - 升级内容：framework frontmatter 全量重写 / 5 dk 补 Critique / 3 concept 补 Synthesis / 5 卡补定位声明 / source_refs 统一 #L 行号格式 / aliases 补 source 名
-  - 欧阳锋 FAIL 一次：framework 缺 KF-024 Synthesis+Action Triggers 两段 → 补齐后复审通过
-  - 20/20 pre-submit PASS；回链 5 张旧卡；commit 96a1eb99d/1dc9ec5eb
-- **#431 老顽童岗位说明书 v1.0 → PASS A- 老朱拍板入宪 §2.6.1**：五要素+G1/G2+自迭代双回路+四条专属门禁（领取前置精做笔记/claimed→in_progress/批次验收≠整单终审/审查者不直接编排）；欧阳锋 A- 扣分=aliases 路径污染 8/12 条（F-040 禁路径词教训，建议王语嫣立 aliases 规范清理批）；commit e52627bf8
-- **#441 欧阳锋岗位说明书 v1.0 → 复审中（pending_review）**：首提 FAIL（缺职责第 7 条「建议书断言回查数据层」）→ 已补 → 重提待复审；aliases F-040 零路径词；自迭代双回路三栏；commit d07d124d5/3c2381447
-- **队列实况（2026-08-23 实测）**：总 419 / pending_review=2（#188 王语嫣 / #443 黄药师）+ #441 复审中 / queued=3（#426 挂起等词表 + #444/#445 黄药师）——**老顽童名下无活待命**（#189/#431 已闭环，#441 等复审）
-- **复盘**：agent复盘/老顽童/daily-context/2026-08-23.md（Truman 11 章，🟡 B 级自检）
-- **踩坑沉淀**：#L 行号正则双 L（L2840-L2898 需 L\d+-L\d+）/ F-034 五字段锚点精确粗体匹配 / ALIASES 完整路径段（含 .md）匹配 vs F-040 禁路径词冲突（角色 spec 卡 F-040 优先）/ 批量 frontmatter 写入必 yaml.safe_load 验证 / 改卡后必 kdo index 再 pre-submit（索引新鲜度门禁）
+## 4. 当前状态（截至 2026-08-24 · #426 收官 + 任务清空）
+
+- **#426 tags 治理 → 收官**（pending_review 终验收）：26 批 + 收官批次，累计 ~1,500 张；**全库 2,799 卡 tags 判断类空缺归零**（非内容卡除外）
+- **#493 域归域 → reviewed**：2,119 卡 frontmatter——yitang 拆分 805（来源降级 source_context）+ unknown 补域 557 + 354 污染词清理 + 419 结构词修复；残留全归零
+- **#499 首批小域 → reviewed**：52 张映射治理 + 返工 7 张（4 遗漏 + rust 3 加词，王语嫣已补技术维度词）
+- **#500 第二批小域 → reviewed**：65 张映射治理（15 个小域语义最近轴）；#426 收官前置完成
+- **#470 成瘾口径修正 / #498 dk 词量口径 / #495 source_refs 补字段（369 张）→ reviewed**：#487 口喷卡组 7 卡（2 迭代+5 新增，Live260 一等）→ pending_review
+- **队列实况（2026-08-24 实测）**：总 86 / pending_review=2（#426 收官终验收 + #487）/ queued=3（黄药师 #503 等）——**老顽童名下无活待命**（全部提审/验收通过）
+- **复盘**：laowantong/daily_cognitive_review/每日复盘/2026-08-24.md + 技能进化日志（08-24 条目）
+- **恢复口令**：用户说"你是老顽童，继续"→ 读本锚点 §4（08-24 最新）+ queue_transition.py status 实测 + 复盘 08-24
+- **踩坑沉淀（08-24）**：建议书**只新建不修改**（王语嫣读新文件）/ CLI 是纠偏通道 agent 交流文件唯一载体 / YAML 重复键（reviewed_by 双键后者覆盖）/ source_refs 替换跳过旧列表项 / 临时脚本 hermes-verify- 前缀+Temp / no-domain 补域排除 index/README/pending_unknown（#384）
+
+---
+
+## 4. 当前状态（截至 2026-08-23 · 角色专场批次）
+
+- **#428 风清扬 agent-spec → 终审 PASS A-**（欧阳锋 08-22 深夜）：五要素+G1/G2+B2-2 入宪三条；commit af0620dd2；已闭环
+- **#189 利润为王域 15 卡 → reviewed**（FAIL→修复→复审通过）：
+  - 7-19 已有 14 张草稿卡升级到可提审标准（L7 查重先行未重复造卡）+ 新建 1 张老朱对照 case（case-利润-巨米OPC利润前置对照，严格脱敏）
+  - 升级内容：framework frontmatter 全量重写 / 5 dk 补 Critique / 3 concept 补 Synthesis / 5 卡补定位声明 / source_refs 统一 #L 行号格式 / aliases 补 source 名
+  - 欧阳锋 FAIL 一次：framework 缺 KF-024 Synthesis+Action Triggers 两段 → 补齐后复审通过
+  - 20/20 pre-submit PASS；回链 5 张旧卡；commit 96a1eb99d/1dc9ec5eb
+- **#431 老顽童岗位说明书 v1.0 → PASS A- 老朱拍板入宪 §2.6.1**：五要素+G1/G2+自迭代双回路+四条专属门禁（领取前置精做笔记/claimed→in_progress/批次验收≠整单终审/审查者不直接编排）；欧阳锋 A- 扣分=aliases 路径污染 8/12 条（F-040 禁路径词教训，建议王语嫣立 aliases 规范清理批）；commit e52627bf8
+- **#441 欧阳锋岗位说明书 v1.0 → 复审中（pending_review）**：首提 FAIL（缺职责第 7 条「建议书断言回查数据层」）→ 已补 → 重提待复审；aliases F-040 零路径词；自迭代双回路三栏；commit d07d124d5/3c2381447
+- **队列实况（2026-08-23 实测）**：总 419 / pending_review=2（#188 王语嫣 / #443 黄药师）+ #441 复审中 / queued=3（#426 挂起等词表 + #444/#445 黄药师）——**老顽童名下无活待命**（#189/#431 已闭环，#441 等复审）
+- **复盘**：agent复盘/老顽童/daily-context/2026-08-23.md（Truman 11 章，🟡 B 级自检）
+- **踩坑沉淀**：#L 行号正则双 L（L2840-L2898 需 L\d+-L\d+）/ F-034 五字段锚点精确粗体匹配 / ALIASES 完整路径段（含 .md）匹配 vs F-040 禁路径词冲突（角色 spec 卡 F-040 优先）/ 批量 frontmatter 写入必 yaml.safe_load 验证 / 改卡后必 kdo index 再 pre-submit（索引新鲜度门禁）
 ## 4. 当前状态（截至 2026-08-22 深夜 · 会话收尾）
 
 
