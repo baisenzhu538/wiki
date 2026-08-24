@@ -72,6 +72,7 @@ audience: 全体 agent
 | file-flow-check | kdo-tools/file-flow-check.py | 文件流转规范 lint（L1-L9 无状态冻结检测 #473） | 08-23 PASS A- | frozen 动态清单/git HEAD |
 | tags-audit | kdo-tools/tags-audit.py | 标签体检 5 指标（脏词/来源轴/域地图/空值/来源形态词） | 08-24 2876 卡 5.9s | check-tags-health |
 | queue_batch_accept | kdo-tools/queue_batch_accept.py | 批次验收四步一体（re.subn 断言禁静默 #479/#482） | 08-24 PASS A- | #426 批次线 |
+| daily-audit-digest | kdo-tools/daily-audit-digest.py | 每日审计轮段①抽数（#507：胶囊事件/daily-context/friction/队列四原料→D 盘 digest，零 LLM token） | 08-25 增量双向验证 | 计划任务 kdo-daily-audit-digest/D:\KDO-memory\L2-digest |
 | watch_inbox | kdo-tools/watch_inbox.py | inbox 监工（素材→编排登记） | 08-19 迁移 Windows | 计划任务 kdo-inbox-watch |
 | skill_bridge_sync | kdo-tools/skill_bridge_sync.py | 双轨 skill 桥接同步（#267） | 08-16 | .claude/skills |
 | feature_menu | kdo-tools/feature_menu.py | Feature 周期表查询 | 08-16 | cap_hub |
@@ -148,6 +149,7 @@ audience: 全体 agent
 | kdo-health-daily | 每日 02:07 | 健康检查（9 项+标签健康） | health-check |
 | KDO-Health-Check | 每日 08:47 | 健康检查计划任务（#364 漂移巡检） | health-check |
 | wechat-link-monitor | 每 10 分钟 | 微信链接监测（偶遇采集） | wechat_link_monitor |
+| kdo-daily-audit-digest | 每日 06:00 | 每日审计轮段①抽数（四原料→D 盘 digest） | daily-audit-digest |
 
 ## 6 · 数据资产
 
