@@ -1,9 +1,10 @@
 ---
 id: 509
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-24T16:00:00+00:00'
+status: in_progress
+updated_at: '2026-08-24T18:06:38.377886+00:00'
 version: v0.1
+instance: huangyaoshi
 ---
 
 # #509 新建飞书「黄药师」实例（老朱外出远程可用）
