@@ -1,8 +1,8 @@
 ---
 id: 487
 assignee: laowantong
-status: in_progress
-updated_at: '2026-08-24T15:00:52.575419+00:00'
+status: pending_review
+updated_at: '2026-08-24T15:05:54.346185+00:00'
 version: v0.1
 instance: hermes
 ---
