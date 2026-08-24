@@ -63,12 +63,12 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 </head>
 <body>
 <h1>KDO 生产看板</h1>
-<p class="subtitle">production-queue.md · 自动生成于 2026-08-25 01:03</p>
+<p class="subtitle">production-queue.md · 自动生成于 2026-08-25 01:05</p>
 
 <div class="stats">
-<div class="stat queued"><div class="stat-num">7</div><div class="stat-label">待领取 Queued</div></div>
-<div class="stat pending"><div class="stat-num">0</div><div class="stat-label">审查中 Review</div></div>
-<div class="stat active"><div class="stat-num">2</div><div class="stat-label">进行中 Active</div></div>
+<div class="stat queued"><div class="stat-num">9</div><div class="stat-label">待领取 Queued</div></div>
+<div class="stat pending"><div class="stat-num">1</div><div class="stat-label">审查中 Review</div></div>
+<div class="stat active"><div class="stat-num">1</div><div class="stat-label">进行中 Active</div></div>
 <div class="stat done"><div class="stat-num">87</div><div class="stat-label">已完成 Done</div></div>
 <div class="stat owner"><div class="stat-num">4</div><div class="stat-label">活跃角色</div></div>
 </div>
@@ -79,6 +79,20 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 </div>
 
 
+<div class="task-group">
+<div class="group-header pending">审查中 · 等待欧阳锋</div>
+<div class="task-card">
+<div class="task-prio p1">P1</div>
+<div class="task-info">
+<div class="task-id">#498</div>
+<div class="task-title">dk卡tags词量口径落地：轴文件+design补dk豁免条款(1-3词核心维度覆盖)+graph-rag回补至5-8</div>
+<div class="task-detail">欧阳锋建议书裁定采纳A+修正；王语嫣首轮直接改文件越界(老朱08-24纠偏)回滚重立执行单；普通卡维持5-8；#426批次线内不阻塞；欧阳锋终审</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee laowantong">老顽童</span>
+</div>
+</div>
+</div>
 <div class="task-group">
 <div class="group-header queued">待领取</div>
 <div class="task-card">
@@ -130,7 +144,7 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 <div class="task-info">
 <div class="task-id">#511</div>
 <div class="task-title">记忆胶囊事件层补4类事件：queue_transition/decision/friction/error（F-041钩子落地）</div>
-<div class="task-detail">风清扬capsule-audit F1裁定采纳；P2排#505-#510后不压基建线；只向前生效不回填；#507 digest消费端衔接；欧阳锋终审</div>
+<div class="task-detail">风清扬capsule-audit F1裁定采纳；只向前生效不回填；#507 digest消费端衔接；欧阳锋终审。**08-25 升 P1**（风清扬全自动专项审计：事件层=全自动可观测性硬前提，无事件层全自动=黑箱；#514 基线数据源之一…</div>
 </div>
 <div class="task-meta">
 <span class="task-assignee huangyaoshi">黄药师</span>
@@ -158,20 +172,31 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 <span class="task-assignee huangyaoshi">黄药师</span>
 </div>
 </div>
-</div>
-<div class="task-group">
-<div class="group-header active">进行中</div>
 <div class="task-card">
 <div class="task-prio p1">P1</div>
 <div class="task-info">
-<div class="task-id">#498</div>
-<div class="task-title">dk卡tags词量口径落地：轴文件+design补dk豁免条款(1-3词核心维度覆盖)+graph-rag回补至5-8</div>
-<div class="task-detail">欧阳锋建议书裁定采纳A+修正；王语嫣首轮直接改文件越界(老朱08-24纠偏)回滚重立执行单；普通卡维持5-8；#426批次线内不阻塞；欧阳锋终审</div>
+<div class="task-id">#514</div>
+<div class="task-title">质量指标基线：FAIL率/打回率/拦截率/误判率先跑2周纯统计（不改流程，出基线报告v1）</div>
+<div class="task-detail">风清扬全自动专项审计建议2采纳（老朱08-25令：终极目标只管输入+成果审核）；阶段0硬前提；数据源=gate-blocked/流转记录/force台账；欧阳锋终审</div>
 </div>
 <div class="task-meta">
-<span class="task-assignee laowantong">老顽童</span>
+<span class="task-assignee huangyaoshi">黄药师</span>
 </div>
 </div>
+<div class="task-card">
+<div class="task-prio p1">P1</div>
+<div class="task-info">
+<div class="task-id">#515</div>
+<div class="task-title">机器预审管线：提审单附预审报告（声称-交付差集+lint+负向判词+存在性核查），机器只参考不放行</div>
+<div class="task-detail">风清扬专项审计建议3采纳；判据欧阳锋定；防自动化偏见（机器建议不入档为结论）；降档需老朱拍板挂F-055；欧阳锋终审</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee huangyaoshi">黄药师</span>
+</div>
+</div>
+</div>
+<div class="task-group">
+<div class="group-header active">进行中</div>
 <div class="task-card">
 <div class="task-prio p1">P1</div>
 <div class="task-info">
@@ -199,7 +224,7 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 </div>
 </div>
 
-<header style="display:none"><!-- generated-by: generate-dashboard.py · updated_at: 2026-08-25 01:03 · git_head: 8ace438ae --></header>
-<footer>KDO 知识工厂 · 由 generate-dashboard.py 自动生成 · 2026-08-25 01:03</footer>
+<header style="display:none"><!-- generated-by: generate-dashboard.py · updated_at: 2026-08-25 01:05 · git_head: c2ea9a2df --></header>
+<footer>KDO 知识工厂 · 由 generate-dashboard.py 自动生成 · 2026-08-25 01:05</footer>
 </body>
 </html>

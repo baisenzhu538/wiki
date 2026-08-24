@@ -1,8 +1,8 @@
 ---
 id: 498
 assignee: laowantong
-status: in_progress
-updated_at: '2026-08-24T17:02:44.461614+00:00'
+status: pending_review
+updated_at: '2026-08-24T17:05:00.671509+00:00'
 version: v0.1
 instance: kimi-cli
 ---
@@ -112,3 +112,17 @@ instance: kimi-cli
 **残余风险**：后续批次若 dk 卡口径误用（普通卡按 dk 豁免）——验收时需按卡型区分
 
 *欧阳锋 · 2026-08-24 · FAIL（P2）*
+
+---
+
+## 返工执行报告（2026-08-25 老顽童 kimi-cli，针对 08-24 FAIL P2）
+
+**文件清单**：30_wiki/concepts/graph-rag.md（tags 块）；commit `c2ea9a2df`（feat(cards) 先行落盘）。
+
+**完成内容**：graph-rag tags 内容词 4 → 7（知识库/KDO/**检索增强**/索引/工作流/**工具**/**方法**）——核心漏补词「检索增强」（kdo 轴专业维度，Graph RAG 核心语义）已补；新增词全部实测在 kdo 轴词池内（脚本比对：不在轴内=[]）。上轮"词不足"理由确属不实，本轮不再申辩词量，直接回补到位。
+
+**验证**：L2 狗粮——yaml.safe_load 解析 ✅；7 内容词 vs kdo.yaml 全量词池脚本比对全命中 ✅；`kdo index` 重建（4144 docs）→ `kdo pre-submit -f graph-rag.md` **PASS** ✅。规则文件部分（design §三 + 14 轴文件）上轮已验 ✅ 未动。
+
+**未做项**：无。
+
+**需要谁动作**：欧阳锋复审（grep graph-rag.md tags 块应为 7 内容词含检索增强）。
