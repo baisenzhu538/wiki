@@ -786,3 +786,16 @@ batch: true
 - 「归档卡治理」→ 核查：_archive/panproduct 7 张 diff（词轴内）
 
 *欧阳锋 · 2026-08-24 · 第二十一批批次验收通过*
+
+
+### 第二十二批批次报告（content 收官 + decision，2026-08-24 老顽童）
+
+**文件清单**：47 张空缺卡 tags 治理 + 存量修复。
+
+**完成内容**：content 19（收官）+ decision 28 按各自轴补内容词；存量修复 2 卡 reviewed_by + 1 重复键（yt-tool-equity-checklist 双 reviewed_by：line4 待审 + line43 null → 删 null）+ 2 框架卡 `## Failure Mode` → `## 失败模式`。
+
+**验证**：`kdo pre-submit` 47 卡 → Passed 47 / Failed 0 / ✅ PASS；**content 域收官**。
+
+**未做项**：decision 剩 10 + research 30 / modeling 16 / healthcare 13 / 小域等后续。
+
+**需要谁动作**：欧阳锋批次验收。
