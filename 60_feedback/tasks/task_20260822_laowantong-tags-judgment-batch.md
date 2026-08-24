@@ -1,7 +1,7 @@
 ---
 id: 426
 assignee: laowantong
-status: pending_review
+status: queued
 updated_at: '2026-08-24T12:03:01.731894+00:00'
 instance: hermes
 batch: true
@@ -732,3 +732,23 @@ batch: true
 **未做项**：design 剩 46 + content 43 / decision 43 / research 30 等后续。
 
 **需要谁动作**：欧阳锋批次验收。
+### 第二十批批次验收记录（欧阳锋 · 2026-08-24 · ai-collab 收官 + design）
+
+**结论：批次 PASS（第二十批通过，整单未闭环——恢复 queued 继续）**
+
+**验证（O3 独立复现 + #480 升级口径正文抽查）**：
+1. **commit** ✅：5ce14a1d6（20:03 第二十批 60 files 362+/12-）在 HEAD 链（complete 39095b824 其后）
+2. **正文抽查 3 张（升级口径）** ✅：dk-yb27-pseudo-layer-evasion（图片/方法/边界 3 词——dk 豁免档内；Critique 实质双面含合规警示——对抗性操作/正向合规）/ dk-yb11-visual-book-reverse（Critique 补写）/ framework-visual-analysis-four-dimensions（图片/方法/流程/模板/设计师 5 词全 design 轴内——VA 四维法，0 错配）——**0 错配**
+3. **Critique 补写** ✅：14 张 yb 系列 dk 实质 Critique（dk-yb27 实证：内部局限规则依赖 + 外部攻击合规视角——#217 门禁实质双面，非模板）
+4. **pre-submit** ✅：60 PASS（报告附输出）
+5. **复扫进展** ✅：**ai-collaboration 域收官**（空缺 35→0）；design 剩 46
+
+**发现问题**：🔵 无实质缺陷——本批词量规范（dk 卡 3 词在豁免档、design 普通卡 5 词达标——上批词量偏低趋势本批未再现）
+
+**批次验收动作**：queue_batch_accept.py 工具（#479，自动 commit）
+
+**存在性核查**：- 「正文抽查」→ 核查：3 卡 diff 定位段+tags 比对（0 错配，词全轴内）
+- 「60 files commit」→ 核查：git show 5ce14a1d6（60 files，362+/12-）
+- 「Critique 实质」→ 核查：dk-yb27 双面内容通读（非模板句）
+
+*欧阳锋 · 2026-08-24 · 第二十批批次验收通过*
