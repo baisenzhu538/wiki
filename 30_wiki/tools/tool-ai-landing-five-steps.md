@@ -41,7 +41,6 @@ tags:
   - 方法
   - 边界
   - 反例
-  - 执行者
   - 口述
 pipeline: null
 reviewed_by: laowantong

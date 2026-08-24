@@ -37,7 +37,6 @@ tags:
   - scene:reference
   - skill-level:intermediate
   - 方法
-  - 清单
   - 口述
 pipeline: null
 reviewed_by: laowantong
