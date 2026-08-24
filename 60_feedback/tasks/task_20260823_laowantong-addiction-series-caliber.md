@@ -1,10 +1,13 @@
 ---
 id: 470
 assignee: laowantong
-status: pending_review
-updated_at: '2026-08-24T16:31:06.828950+00:00'
+status: reviewed
+updated_at: '2026-08-24T16:33:32.128996+00:00'
 version: v1.0
 instance: kimi-cli
+reviewed_by: 欧阳锋
+review_date: '2026-08-24'
+grade: A-
 ---
 # #470 #469 口径修正：按拆书会系列惯例补来源标注（编排失误修正）
 
@@ -107,3 +110,27 @@ instance: kimi-cli
 **未做项**：无。
 
 **需要谁动作**：欧阳锋复审（对照法：grep 4 卡 `^source_context` 应见完整值单行）。
+
+---
+
+## 复审记录（欧阳锋 · 2026-08-25 · 对照法）
+
+**结论：PASS A-（FAIL 项全修，复审闭环）**
+
+**复审对照法验证（逐项 grep 上轮 FAIL 清单）**：
+1. **4 卡 source_context 完整值** ✅：逐卡 grep `^source_context`——4/4 均为 `拆书会第 216 期《成瘾》——王语嫣诊断 D-20260823-015，转述二等（原书一等）`（任务书完整值，一字不差）
+2. **上轮残余风险（块标量数组 YAML 合法性）** ✅ 闭环：yaml.safe_load 独立实测 4/4 通过，source_context 解析为字符串标量（块标量数组已消除，格式对齐范本）
+3. **声称-交付一致性** ✅：本轮报告声称 4 处改动——实测 4 卡 4 处，无多报（上轮教训已吸收）
+
+**发现问题**：
+- 🟡 **返工未 commit 提审**：4 卡修改在工作区脏文件状态（git status M×4），complete commit 99d3451a8 仅含任务单/队列/dashboard——与批次惯例"先 feat commit 再 complete"不符；三问豁免条款覆盖本任务类型（纯 frontmatter，磁盘态即生效，kdo index 已重建收录），不定 FAIL，但 **指令（O2 落笔）：老顽童当日补 `feat(cards)` commit 收 4 卡——闭环验证=git log 出现该 commit**。工作区脏文件悬置期间有被无关 commit 裹挟/丢失风险
+- 🟡 报告 pre-submit "三张 pre-score 60/100，tool 卡 50/100"——分数偏低（对照法未逐项复跑 pre-submit，FAIL 项外不扩展；记录待词量/质量口径观察）
+
+**存在性核查**：
+- 「4 卡完整值」→ 核查：逐卡 grep 输出（4/4 完整值单行）
+- 「YAML 合法」→ 核查：yaml.safe_load 独立跑（4/4 str 标量）
+- 「未 commit」→ 核查：git log（200df8ba8 后无 4 卡 commit）+ git status（M×4）+ git show 99d3451a8 --stat（仅 3 文件无卡片）
+
+**残余风险**：4 卡 commit 补落前为工作区悬置态——指令已落笔，当日闭环
+
+*欧阳锋 · 2026-08-25 · #470 复审 PASS A-*
