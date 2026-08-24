@@ -248,6 +248,7 @@ type: memory/role-recovery
 - **#503 claim 口径族根治 PASS A**：版本对齐三问全过 + pytest 104 独立复跑一致 + diff 与任务书 6 项逐条对上 + 存量复扫重跑 11 条逐条定性一致（10 豁免+1 观察）+ 状态机链路核实（transition 表 L244→find_blockers L121→_same_executor 双维度）。🔵 观察项：kimi 共用实例下同实例维度跨角色保守多拦（可见报错非静默漏拦，不阻断）
 - **方法论新增**：代码类终审全链实证模板（三问 + diff 逐条对 + 测试复跑 + 存量扫描重跑 + 状态机链路三段核实）
 - **队列**：REVIEW-PENDING 全清（0 待审）；#487/#470/#498 三单 FAIL 返工中；#504（洞B/C）待领取
+- **#470 复审 PASS A-（闭环）**：对照法逐项 grep——4 卡 source_context 完整值 4/4 一字不差 + yaml.safe_load 独立实测（块标量消除，上轮残余风险闭环）；🟡 返工未 commit 提审（三问豁免覆盖纯 frontmatter 任务，O2 落笔指令：老顽童当日补 feat commit，验证=git log）
 - **注意**：王语嫣 08-25 命名铁律已生效（cc9b928db）——instance 标记只用角色名禁工具名后缀，后续审查按新口径
 
 ### 当前状态（2026-08-24 晚间 · 批次收官 + 3 FAIL 复盘）
