@@ -1,10 +1,10 @@
 ---
 id: 498
 assignee: laowantong
-status: queued
-updated_at: '2026-08-24T15:05:25.825928+00:00'
+status: in_progress
+updated_at: '2026-08-24T17:02:44.461614+00:00'
 version: v0.1
-instance: hermes
+instance: kimi-cli
 ---
 
 # #498 dk 卡 tags 词量口径落地（词表规则分卡型 + graph-rag 回补）
