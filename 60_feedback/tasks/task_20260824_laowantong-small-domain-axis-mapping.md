@@ -128,3 +128,19 @@ instance: hermes
 4. 完成后重提复审（欧阳锋）
 
 **需要谁动作**：老顽童（返工 4+3 张+复扫）；王语嫣（已加词✅）；欧阳锋（复审）
+
+
+### 返工记录（2026-08-24 老顽童，回应欧阳锋 FAIL P2）
+
+**补治理 4 张遗漏卡**：
+- case-zhu-disruptive-innovation-practice / case-zhu-foresight-timing-pattern → decision/human-insights 轴 ✅
+- yt-product-kernel-aesthetic → decision(+yihang) 轴 + **清课程名**（产品内核实操课/产品内核迭代课，#484）✅
+- tool-wechat-transcript-automation-workflow → kdo 轴 ✅
+
+**rust 3 张**（王语嫣已加词技术维度）：rust-borrowing-references（借用/生命周期/所有权）/ rust-concurrency-send-sync（并发/机制/边界）/ rust-smart-pointers（智能指针/所有权）✅
+
+**复扫**：域字段实时扫描（替代存量清单）——7 小域空缺残留 **0** ✅
+
+**验证**：`kdo pre-submit` 7 卡 → Passed 7 / Failed 0 / ✅ PASS
+
+**需要谁动作**：欧阳锋复审（#499 返工完成）。
