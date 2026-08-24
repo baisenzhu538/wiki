@@ -1,8 +1,8 @@
 ---
 id: 518
 assignee: laowantong
-status: pending_review
-updated_at: '2026-08-24T17:31:42.648794+00:00'
+status: queued
+updated_at: '2026-08-24T17:38:32.452991+00:00'
 version: v0.1
 instance: kimi-cli
 ---
@@ -72,3 +72,37 @@ instance: kimi-cli
 **未做项**：分批治理（等 #517 门禁上线 + 清单过目放行首批——任务书边界条款）；类3 段落级判定（随首批治理一并出判定口径）。
 
 **需要谁动作**：老朱/欧阳锋/王语嫣过目清单 → 放行首批（建议首批=design 域类1 子集 ≤200 卡，先高信任域）；黄药师 #517 门禁上线后启动写入。
+
+---
+
+## 终审记录（欧阳锋 · 2026-08-25 · 清单先行批）
+
+**结论：FAIL（打回——类1 判定漏洞，561 卡误分；清单是后续 1,551 卡治理的输入，错清单=错治理）**
+
+**对照验证（先列达标项，不假打回）**：
+- 总数独立复跑 ✅：1551 卡/22666 行/类分{1:907, 2:644}/48 域——与报告、scan-summary.json 完全一致（脚本重跑零写入，只读边界守住 ✅）
+- 口径差声明诚实 ✅（与我全库实测 22,871/1,524 差 205 行/27 卡，frontmatter 计入+文件集边界，清单头部已注明）
+- 类3 不硬凑 ✅（承认卡级启发式判不出空壳，留待段落级判定）——符合"不编造"纪律
+- 类2 抽查 ✅（truman-ai-partner：source_refs 空、7 行占位，归类正确）
+
+**FAIL 项（结构化四节）**：
+
+**P1-1 类1 判定逻辑漏洞**：source_refs 非空即判"可回填"，**未过滤占位值**——source_refs 全为 src_unknown/null 的卡被误判类1
+- 字段级定位：`_tmp/scan-518-src-unknown.py` 类1 判定段
+- 证据：独立复扫实测 **561 张误分**（body 含 src_unknown 且 source_refs 全占位的卡全在类1）——抽查实证：case-wanghuan-yiyu-qingji-medical-notes（source_refs=[src_unknown×2]，清单类1）/ case-ai-assisted-review（source_refs=[src_unknown]，清单类1 第 471 行）
+- 影响面：类1 真实规模 ≈907-561=**346**，类2 应为 ≈644+561=**1,205**——治理量预估和分批顺序全错
+- 期望形态：类1 判定改为"source_refs 至少 1 条为真实可达路径（非 src_unknown/null/非路径值）"→ 重出清单 → 复审（对照法：我的 561 检查脚本重跑应归零）
+
+**P1-2 可回填来源预览污染**：预览列混入**卡标题**（case-ai-assisted-review 预览="案例：一堂用 AI 做复盘——从 Before/After"）和 **lens 评注**（case-wanghuan 预览="lens: 伪需求/脱离真实场景"）冒充来源——标题/评注不是可回填 source_ref，清单 consumers 会误判治理可行性
+- 期望形态：预览列只放 Path.exists() 为真的路径；无真实路径的归入类2
+
+**P2-1 交付物未入仓**：清单（219KB）+ scan-summary.json untracked（git status ??），complete 3b432f426 仅含任务单/队列/dashboard——今晚第 2 次同族（#470 返工后复发），已触发铁律升级（另落建议书）
+
+**残余风险**：561 误分卡若按错清单治理=假回填（标题当来源写入正文）——本单 FAIL 挡在零写入阶段，边界纪律（未动 30_wiki）值得保持
+
+**存在性核查**：
+- 「561 误分」→ 核查：独立脚本全库复扫（body 含 src_unknown ∧ source_refs 全占位）+ 2 卡 frontmatter 直读
+- 「预览污染」→ 核查：清单 L471（标题冒充来源）+ case-wanghuan 行（lens 冒充来源）
+- 「未入仓」→ 核查：git ls-files 空 + git status ?? + git show 3b432f426 --stat 无交付物
+
+*欧阳锋 · 2026-08-25 · #518 清单批 FAIL（P1×2 + P2×1）*
