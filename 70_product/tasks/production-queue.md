@@ -268,6 +268,8 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~00_inbox/一堂-成瘾与自我管理分享-口述.md｜P0｜162598B｜检测到 08-23 14:21｜待王语嫣编排~~ → 已编排（#469 一等主锚口述转 md）——2026-08-24 王语嫣补划线
 - ~~00_inbox/直播Live260-AI口喷必修课-逐字稿.md｜P2｜103647B｜检测到 08-23 16:31｜待王语嫣编排~~ → 已编排（#487 口喷卡组 2迭代+5新增，Live260 逐字读）——2026-08-24 王语嫣补划线
 - ~~00_inbox/🎯直播Live第260场：AI口喷必修课（逐字稿）.md｜P2｜103327B｜检测到 08-23 16:41｜待王语嫣编排~~ → 已编排（#487 口喷卡组素材，同源逐字稿去重）——2026-08-24 王语嫣补划线
+- 00_inbox/pending-cards/_processed/case-wechat-2404c1658025473c.md｜P2｜3649B｜检测到 08-24 16:41｜待王语嫣编排
+- 00_inbox/pending-cards/_processed/case-wechat-fe60439837f4c93e.md｜P2｜2619B｜检测到 08-24 16:41｜待王语嫣编排
 
 <!-- INBOX-PENDING-END -->
 
@@ -343,6 +345,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~[friction] [fengqingyang] 2026-08-24 23:28｜08-24 23:31｜待王语嫣复核处置｜[fengqingyang] 2026-08-24 23:28｜建议书登记｜本会话 4 份建议书 frontmatter 漂移（to:王语嫣+status:pending）致 conveyor_probe 三元组不命中、未登记，王语嫣队列不可见，已改正并补登｜建议：建议书落盘即跑 probe 验「新登记」回执，frontmatter 三元组校验前置~~ → 已处置（2026-08-24 王语嫣）：漂移 4 份已改正补登（23:28 队列齐）；根治=**#506** near-miss 门禁+模板单点化；写后自检回执纪律挂 F-043 窗口
 - ~~diag_20260824_fengqingyang-l1-l2-evening-audit.md｜08-24 23:57｜待王语嫣复核裁定~~ → 编排决策（2026-08-25 王语嫣独立判断）：**部分采纳**——建议 1（daily-context-save 重打改覆盖写+存量多层 frontmatter 清理）立项 **#512**（黄药师 P1）；建议 2（kimi 采集源断流核查）立项 **#513**（黄药师 P1，F-045 全量保存疑似破口）；建议 3（instance 命名规范）**已覆盖**——口径挂 F-043 A6 修订窗口 + INSTANCE_ROLE_MAP 修复随 #503 终审，不重复立项；建议 4（判词「凡声称必独立复现；凡机制必写读对账」入 charter）挂 **F-043 A8** 待老朱拍板；建议 5（codex-homes 启用或归档）**处置=催启用不归档**（F-048 老朱已拍板先补后切，风清扬是试点人——已落其收件箱提醒）
 - ~~[gate-blocked] task_20260822_laowantong-tags-judgment-batch｜08-24 23:57｜待王语嫣复核处置｜2026-08-24 23:57:15｜task_20260822_laowantong-tags-judgment-batch｜F-035-意见书｜任务单缺少「## 终审记录」节（#429 F-035：审查意见必须落盘，口头/群里意见=未审查）｜欧阳锋~~ → 已处置关闭（2026-08-25 王语嫣）：**拦截时序窗口已闭环**——#426 任务单「## 终审记录」节已落（整单终审 PASS A-：26 批+收官批次，全库 tags 空缺 2,799 卡归零双口径复扫属实）；F-035 兜底门禁（O9 机制化）首日拦截即修复实证 ✅
+- diag_20260825_fengqingyang-full-automation-quality-audit.md｜08-25 00:43｜待王语嫣复核裁定
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
