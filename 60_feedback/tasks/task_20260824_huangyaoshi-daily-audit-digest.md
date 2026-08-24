@@ -1,9 +1,10 @@
 ---
 id: 507
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-24T16:00:00+00:00'
+status: in_progress
+updated_at: '2026-08-24T17:29:22.075201+00:00'
 version: v0.1
+instance: huangyaoshi
 ---
 
 # #507 每日审计轮段①：daily-audit-digest.py + kdo-daily-audit-digest 定时（06:00）
