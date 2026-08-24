@@ -1,9 +1,10 @@
 ---
 id: 510
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-24T16:00:00+00:00'
+status: in_progress
+updated_at: '2026-08-24T18:07:18.681476+00:00'
 version: v0.1
+instance: huangyaoshi
 ---
 
 # #510 CAPSULE_STARTUP 补「风清扬」路由行 + 身份卡（启动指针覆盖全角色）
