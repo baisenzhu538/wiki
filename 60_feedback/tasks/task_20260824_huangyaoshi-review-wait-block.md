@@ -1,14 +1,14 @@
 ---
 id: 504
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-24T16:29:41.948090+00:00'
+status: pending_review
+updated_at: '2026-08-24T16:35:47.619062+00:00'
 version: v0.2
 instance: huangyaoshi
 code_files:
-  - 90_control/scripts/queue_gate.py
-  - 90_control/scripts/queue_transition.py
-  - 90_control/scripts/tests/test_queue_transition.py
+- 90_control/scripts/queue_gate.py
+- 90_control/scripts/queue_transition.py
+- 90_control/scripts/tests/test_queue_transition.py
 ---
 
 # #504 审查等待期阻塞（同执行者 pending_review 占位）
