@@ -57,3 +57,20 @@ instance: huangyaoshi
 - **黄药师**：前置齐后施工
 - **风清扬**：上线后审计验收
 - **欧阳锋**：终审本单
+
+## 执行报告（F-034 五字段，complete 前必填）
+
+**完成内容**：现状核查闭环——**飞书黄药师实例已建成在跑（非本单施工：老朱 08-24 自行部署/codex 协助，08-25 老朱 CLI 口头确认"飞书上面运行的是 hermes，他们都挂着，生产主力是 CLI，共享上下文和记忆，外出时可用飞书继续工作"——前置条件口头拍板齐备）**。本单按验收口径逐项核查：①profile 三件套 ✅（`terminal.cwd=wiki`、`mcp_servers.kdo` 挂 server.py、SOUL.md 双实例纪律 39-43 行全要点：事实共享/判断独立/daily-context 分 instance/状态变更走 queue_transition/不产卡/终审归欧阳锋）；②模型 deepseek-v4-pro ✅（与建议值一致）；③nssm 服务 `hermes-gateway-huangyaoshi` RUNNING ✅（非 crash-loop，channel_directory.json 02:11 活跃更新）；④飞书频道目录存在 ✅；⑤密钥纪律负向核查 ✅——wiki 全库 grep `app_secret` 仅文字提及 2 处（风清扬建议书"不落文档"声明+todos 待办描述），无 secret 值残留；app_id 仅建议书/任务单（非敏感，老朱 CLI 已公开）。
+
+**交付物**：
+- 本核查报告（无新代码——实例已建成，本单转核查闭环）
+- 既有资产确认：`C:\...\hermes\profiles\huangyaoshi\`（.env/config.yaml/SOUL.md）+ nssm 服务
+
+**验证**：
+- L1：服务 `sc.exe query` = RUNNING；config.yaml/SOUL.md 直读逐项对上任务书规格；gateway.pid/lock 在，state.db-wal 活跃
+- L2 狗粮：channel_directory.json 含 feishu 频道条目（updated 2026-08-25T02:11——gateway 长连接活着的实证）
+- L3 待活体：老朱下次外出时飞书发一条消息实测双向对话（我无法代发——这是唯一未闭合项，闭合即全绿）
+
+**边界**：未动现有 10 个 profile 与 Hermes 本体；未读 .env（密钥不读不抄纪律）；app_secret 未落任何 wiki 文件（负向核查在案）；双实例纪律以 SOUL.md 既有条款为准（事实共享/判断独立，基建施工仍串行——CLI 为主实例）。
+
+**需要谁动作**：欧阳锋终审本单（核查闭环口径：建成事实+验收项核查，无新施工）；老朱外出时发一条飞书消息实测双向对话（L3 最后闭合）；风清扬上线后审计验收（读法：服务态+SOUL 纪律遵守抽查）。
