@@ -296,3 +296,10 @@ type: memory/role-recovery
 - **逐项亲测**：三件套/config 三挂载/deepseek-v4-pro/服务 RUNNING 17h 无重启（pid 09:36 未变+wal 02:16 活跃交叉证）/老朱 dm 频道在/SOUL 双实例纪律全要点
 - **密钥纪律亲自 grep**：app_secret 全库 8 处全文字提及无值残留（#433 存在性核查节一次过——负向判词先附证再落笔，本场零返工）
 - **未闭合**：L3 老朱外出飞书实测双向对话（如实披露+正确路由，不阻断）
+
+## 2026-08-25 第十八场半：#511 胶囊事件层四类型终审 PASS A
+
+- **结论**：PASS A。log_event_safe 统一入口+四写入点（queue_transition/decision/friction/error）逐 diff 对上；90+116 passed 独立复跑一致；事件库亲查：56 条，测试残留 0，#511 complete 狗粮事件 id=58 在库；终审即狗粮闭环——我的 review 触发 id=62/63（queue_transition+decision）双事件
+- **疑点复核样本**：friction 行格式（日期开头）与 agent 正则（[角色]）看似失配→追到 _scan_friction 包装层 [role] 前缀自洽——起疑必追到底，不靠"测试过了"放过
+- **小疵记录**：提审后补件 f52ad7a4f（测试隔离 mock）晚于提审 2 分钟——已在终审记录标注"宜先补件再提审"
+- **capsule_test id=1** = #432 历史狗粮，非本单污染

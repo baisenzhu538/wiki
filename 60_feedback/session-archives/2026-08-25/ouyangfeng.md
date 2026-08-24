@@ -2,247 +2,13 @@
 session_id: ouyangfeng-2026-08-25
 agent_id: ouyangfeng
 date: 2026-08-25
-created_at: 2026-08-24T18:28:00.515745+00:00
-updated_at: 2026-08-24T18:28:00.515745+00:00
-git_head: 33cf8506c
-content_hash: 795b2251b718
+created_at: 2026-08-24T18:39:01.798208+00:00
+updated_at: 2026-08-24T18:39:01.798208+00:00
+git_head: 5e795a1ec
+content_hash: 638650651823
 ---
 
 # ouyangfeng · 2026-08-25
-
----
-session_id: ouyangfeng-2026-08-25
-agent_id: ouyangfeng
-date: 2026-08-25
-created_at: 2026-08-24T18:21:56.505969+00:00
-updated_at: 2026-08-24T18:21:56.505969+00:00
-git_head: 98de3bfdc
-content_hash: 4daf65b147ef
----
-
-# ouyangfeng · 2026-08-25
-
----
-session_id: ouyangfeng-2026-08-25
-agent_id: ouyangfeng
-date: 2026-08-25
-created_at: 2026-08-24T18:14:46.314189+00:00
-updated_at: 2026-08-24T18:14:46.314189+00:00
-git_head: f7cd1890d
-content_hash: a4ad27d4a0dc
----
-
-# ouyangfeng · 2026-08-25
-
----
-session_id: ouyangfeng-2026-08-25
-agent_id: ouyangfeng
-date: 2026-08-25
-created_at: 2026-08-24T18:05:24.978753+00:00
-updated_at: 2026-08-24T18:05:24.978753+00:00
-git_head: cf0bfe4c7
-content_hash: 6ed100b87e84
----
-
-# ouyangfeng · 2026-08-25
-
----
-session_id: ouyangfeng-2026-08-25
-agent_id: ouyangfeng
-date: 2026-08-25
-created_at: 2026-08-24T17:52:00.862597+00:00
-updated_at: 2026-08-24T17:52:00.862597+00:00
-git_head: 9077e55bd
-content_hash: 60aa88fe9bde
----
-
-# ouyangfeng · 2026-08-25
-
----
-session_id: ouyangfeng-2026-08-25
-agent_id: ouyangfeng
-date: 2026-08-25
-created_at: 2026-08-24T17:41:37.843352+00:00
-updated_at: 2026-08-24T17:41:37.843352+00:00
-git_head: 156a7c353
-content_hash: ebe8d64a0a12
----
-
-# ouyangfeng · 2026-08-25
-
----
-session_id: ouyangfeng-2026-08-25
-agent_id: ouyangfeng
-date: 2026-08-25
-created_at: 2026-08-24T17:39:22.334459+00:00
-updated_at: 2026-08-24T17:39:22.334459+00:00
-git_head: 1ccb69b66
-content_hash: fbb2bffb43f9
----
-
-# ouyangfeng · 2026-08-25
-
----
-session_id: ouyangfeng-2026-08-25
-agent_id: ouyangfeng
-date: 2026-08-25
-created_at: 2026-08-24T17:33:20.367340+00:00
-updated_at: 2026-08-24T17:33:20.367340+00:00
-git_head: b92949efe
-content_hash: 25fed31a0da0
----
-
-# ouyangfeng · 2026-08-25
-
----
-session_id: ouyangfeng-2026-08-25
-agent_id: ouyangfeng
-date: 2026-08-25
-created_at: 2026-08-24T17:31:22.214556+00:00
-updated_at: 2026-08-24T17:31:22.214556+00:00
-git_head: 09c29a692
-content_hash: 4137cf3a64fb
----
-
-# ouyangfeng · 2026-08-25
-
----
-session_id: ouyangfeng-2026-08-25
-agent_id: ouyangfeng
-date: 2026-08-25
-created_at: 2026-08-24T17:24:56.879824+00:00
-updated_at: 2026-08-24T17:24:56.879824+00:00
-git_head: 889bc8872
-content_hash: d5f5f25bea95
----
-
-# ouyangfeng · 2026-08-25
-
----
-session_id: ouyangfeng-2026-08-25
-agent_id: ouyangfeng
-date: 2026-08-25
-created_at: 2026-08-24T17:18:57.382203+00:00
-updated_at: 2026-08-24T17:18:57.382203+00:00
-git_head: 6368bd9de
-content_hash: 41451ba66c33
----
-
-# ouyangfeng · 2026-08-25
-
----
-session_id: ouyangfeng-2026-08-25
-agent_id: ouyangfeng
-date: 2026-08-25
-created_at: 2026-08-24T17:13:05.077915+00:00
-updated_at: 2026-08-24T17:13:05.077915+00:00
-git_head: eef134aa9
-content_hash: c7a2f2d9ac75
----
-
-# ouyangfeng · 2026-08-25
-
----
-session_id: ouyangfeng-2026-08-25
-agent_id: ouyangfeng
-date: 2026-08-25
-created_at: 2026-08-24T17:11:37.532067+00:00
-updated_at: 2026-08-24T17:11:37.532067+00:00
-git_head: f3233b460
-content_hash: d106f4ef00e4
----
-
-# ouyangfeng · 2026-08-25
-
----
-session_id: ouyangfeng-2026-08-25
-agent_id: ouyangfeng
-date: 2026-08-25
-created_at: 2026-08-24T17:09:09.545102+00:00
-updated_at: 2026-08-24T17:09:09.545102+00:00
-git_head: 42749dd42
-content_hash: 50f72d84843e
----
-
-# ouyangfeng · 2026-08-25
-
----
-session_id: ouyangfeng-2026-08-25
-agent_id: ouyangfeng
-date: 2026-08-25
-created_at: 2026-08-24T17:01:14.306248+00:00
-updated_at: 2026-08-24T17:01:14.306248+00:00
-git_head: 347e64123
-content_hash: e142e07243f2
----
-
-# ouyangfeng · 2026-08-25
-
----
-session_id: ouyangfeng-2026-08-25
-agent_id: ouyangfeng
-date: 2026-08-25
-created_at: 2026-08-24T16:51:29.861825+00:00
-updated_at: 2026-08-24T16:51:29.861825+00:00
-git_head: de2e62142
-content_hash: 62f61be652fb
----
-
-# ouyangfeng · 2026-08-25
-
----
-session_id: ouyangfeng-2026-08-25
-agent_id: ouyangfeng
-date: 2026-08-25
-created_at: 2026-08-24T16:38:46.060777+00:00
-updated_at: 2026-08-24T16:38:46.060777+00:00
-git_head: 59ffcac11
-content_hash: 978757d8b68c
----
-
-# ouyangfeng · 2026-08-25
-
----
-session_id: ouyangfeng-2026-08-25
-agent_id: ouyangfeng
-date: 2026-08-25
-created_at: 2026-08-24T16:34:07.326963+00:00
-updated_at: 2026-08-24T16:34:07.326963+00:00
-git_head: 36cd5cfc4
-content_hash: 963920642719
----
-
-# ouyangfeng · 2026-08-25
-
----
-session_id: ouyangfeng-2026-08-25
-agent_id: ouyangfeng
-date: 2026-08-25
-created_at: 2026-08-24T16:13:44.921648+00:00
-updated_at: 2026-08-24T16:13:44.921648+00:00
-git_head: 04ceb6b7f
-content_hash: 7d5fb0ce942b
----
-
-# ouyangfeng · 2026-08-25
-
----
-session_id: ouyangfeng-2026-08-25
-agent_id: ouyangfeng
-date: 2026-08-25
-created_at: 2026-08-24T16:06:35.162483+00:00
-updated_at: 2026-08-24T16:06:35.162483+00:00
-git_head: 5ffb17ffa
-content_hash: 4bcbddc120ae
----
-
-# ouyangfeng · 2026-08-25
-
----
-session_id: ouyangfeng-2026-08-25
-agent_id: ouyangfeng
-date: 2026-08-25
----
 
 # 欧阳锋 · 2026-08-25（#426 整单收官终审 + #487 口喷卡组 FAIL 打回）
 
@@ -701,3 +467,21 @@ cron 例行扫描捕获 #508 提审（L1 全量上下文改日期增量目录+�
 - 方法论卡：O 牌组候选——「核查类闭环单审法」（现实先于流程时：披露诚实+证据互洽+验收项独立实证=合规裁定三步），待下一张同型单验证后正式入牌
 
 *欧阳锋 · 2026-08-25 · 第十八场完整 Truman 11 章*
+
+---
+
+# 第十九场（08-25 · #511 胶囊事件层四类型终审 PASS A）
+
+## 概要
+
+事件层从"只有 review_saved 登记簿"扩到四类关键事件（queue_transition/decision/friction/error）。逐 diff 溯源全对上；90+116 passed 独立复跑；sqlite 亲查：测试残留 0、本单 complete 狗粮事件在库；我的 review 触发 id=62/63 双事件——"终审即狗粮"设计闭环实证。**PASS A**。
+
+## 疑点复核
+
+friction-log 数据行是日期格式开头，而事件 agent 解析正则认 `[角色]`——表面失配，追到 `_scan_friction` 发现返回行统一包装 `[role] ` 前缀，自洽。教训：对"测试过了"的间接证据保持怀疑，直接证据追到包装层才算完。
+
+## 小疵
+
+提审后补件（测试隔离 mock）晚于提审 2 分钟——内容透明无隐瞒，但顺序应为"先补件再提审"，已在终审记录标注。
+
+*欧阳锋 · 2026-08-25 · #511 终审*
