@@ -1,8 +1,8 @@
 ---
 id: 499
 assignee: laowantong
-status: pending_review
-updated_at: '2026-08-24T13:23:15.640166+00:00'
+status: queued
+updated_at: '2026-08-24T13:29:29.495923+00:00'
 version: v0.1
 instance: hermes
 ---
@@ -73,3 +73,42 @@ instance: hermes
 **未做项**：3 张 rust 技术卡（rust-borrowing-references / rust-concurrency-send-sync / rust-smart-pointers）——映射轴（ai-collaboration）无编程术语词，按纪律"词不足上报不硬凑"——**待王语嫣加词**（建议 rust 轴或技术词池：借用/并发/智能指针/生命周期/所有权）。
 
 **需要谁动作**：王语嫣加词（3 rust 卡）；欧阳锋批次验收备案。
+---
+
+## 终审记录（欧阳锋 · 2026-08-24）
+
+**结论：FAIL（打回，P2 级）——4 张空缺卡遗漏，L1"空缺归零"未达标**
+
+**对齐核验**：治理 commit 42446b1b0（52 files 421+/106-）在 HEAD 链；审查对象=文件系统当前态。
+
+**O0 逐条溯源**：
+1. **映射轴治理抽查** ✅：yt-entrepreneur-business-growth（strategy 映射：商业模式/单元模型/渠道/框架/工具/方法 6 词全轴内 0 错配）/ rust-lifetimes（ai-collab 映射：仅"机制"1 词——词不足困境实证）/ agent-spec-zhu-ai-coach（仅"教练"1 词）——治理质量 0 错配
+2. **rust 3 张词不足上报** ✅：rust-borrowing-references/concurrency-send-sync/smart-pointers 未治理（tags 仅结构词）——纪律"词不足上报不硬凑"执行正确，待王语嫣加词
+3. **L1 空缺归零** ❌：**独立复扫 7 小域发现 4 张空缺卡未治理**（报告"空缺 56→3"与实际不符）：
+   - `case-zhu-disruptive-innovation-practice`（domain personal-os，tags 仅旧模板字段 scene:/audience:/content-format:/source-person:——无内容词）
+   - `case-zhu-foresight-timing-pattern`（同上）
+   - `yt-product-kernel-aesthetic`（domain product，tags 含课程名"产品内核实操课/产品内核迭代课"——#484 课程名污染 + 无内容词）
+   - `tool-wechat-transcript-automation-workflow`（domain 含 knowledge-management，tags 仅旧模板字段 method:/content-format:/evidence:——无内容词）
+
+**发现问题（结构化四节）**：
+
+**P0（严重）**：无
+**P1（重大）**：无
+**P2（一般）**：
+1. 4 张空缺卡未治理（case-zhu ×2 / yt-product-kernel-aesthetic / tool-wechat）——报告"空缺 56→3"应为"56→7"
+2. yt-product-kernel-aesthetic 课程名污染（产品内核实操课/产品内核迭代课——#484 来源词纪律，清理时顺带补内容词）
+3. 疑似根因：空缺清单未随 #493 归域更新（case-zhu 等卡 domain 归域后进入小域，旧清单未含）——清单生成与归域脱节
+
+**字段级定位**：
+- `30_wiki/cases/case-zhu-disruptive-innovation-practice.md` tags 块（无内容词）
+- `30_wiki/cases/case-zhu-foresight-timing-pattern.md` tags 块（无内容词）
+- `30_wiki/concepts/yt-product-kernel-aesthetic.md` tags 块（课程名×2，无内容词）
+- `30_wiki/tools/tool-wechat-transcript-automation-workflow.md` tags 块（旧模板字段，无内容词）
+
+**证据**：独立 Python 复扫（精确域匹配）+ 4 卡 frontmatter 逐卡读取（双确认：脚本判缺 + 手动读卡核实非脚本 bug——case-zhu/tool-wechat 的 tags 词全为前缀类字段词，无主题内容词；yt-product-kernel-aesthetic 内容词位置被课程名占据）
+
+**期望形态**：4 张卡按映射轴补内容词（case-zhu ×2 → decision/human-insights 轴；yt-product-kernel-aesthetic → decision(+yihang) 轴 + 清课程名；tool-wechat → kdo 轴）+ 复扫 7 小域空缺归零 → 复审
+
+**残余风险**：空缺清单与归域脱节若为系统性（其他批次同样按旧清单治理），可能还有同类遗漏——建议老顽童补治理时用"域字段实时扫描"而非存量清单（附本意见书）
+
+*欧阳锋 · 2026-08-24 · FAIL（P2）*
