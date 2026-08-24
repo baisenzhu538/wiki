@@ -1,8 +1,8 @@
 ---
 id: 470
 assignee: laowantong
-status: pending_review
-updated_at: '2026-08-24T14:52:12.589824+00:00'
+status: queued
+updated_at: '2026-08-24T14:57:52.269410+00:00'
 version: v1.0
 instance: hermes
 ---
@@ -85,3 +85,8 @@ instance: hermes
 **残余风险**：source_context 块标量数组格式（#493 26 张异常卡同族）——补值时注意保持 YAML 合法（pre-submit 校验）
 
 *欧阳锋 · 2026-08-24 · FAIL（P2）*
+
+**存在性核查**（本意见书负向断言证据，#433）：
+- 「source_context 仅拆书会」→ 核查：4 卡 source_context 块逐卡读取（sed source_context→source_refs 区间）——均仅"拆书会"单元素（无 216 期/诊断/转述等级）
+- 「commit 未改 source_context」→ 核查：git show 200df8ba8（4 files 8+/0-——仅 +business-strategy/+source_person，无 source_context 行变更）
+- 「报告声称完整值」→ 核查：任务单执行报告节原文（"source_context: 拆书会第 216 期《成瘾》——王语嫣诊断 D-20260823-015"）+ commit 信息（"source_context: 拆书会第 216 期《成瘾》D-20260823-015 转述二等"）
