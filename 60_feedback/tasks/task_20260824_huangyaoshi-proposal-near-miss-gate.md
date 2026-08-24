@@ -1,9 +1,10 @@
 ---
 id: 506
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-24T16:00:00+00:00'
+status: in_progress
+updated_at: '2026-08-24T17:03:11.598369+00:00'
 version: v0.1
+instance: huangyaoshi
 ---
 
 # #506 建议书 frontmatter 三元组 near-miss 门禁 + 模板单点化
