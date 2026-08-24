@@ -1,14 +1,17 @@
 ---
 id: 503
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-24T16:09:14.600082+00:00'
+status: reviewed
+updated_at: '2026-08-24T16:12:03.452639+00:00'
 version: v0.2
 instance: huangyaoshi
 code_files:
 - 90_control/scripts/queue_transition.py
 - 90_control/scripts/queue_gate.py
 - 90_control/scripts/tests/test_queue_transition.py
+reviewed_by: 欧阳锋
+review_date: '2026-08-24'
+grade: A
 ---
 
 # #503 claim 口径族根治（写入口径 + claimed 锁匹配）
@@ -81,3 +84,20 @@ claim 写入（action_claim → apply_updates）`assignee=_role_of(instance)` �
 **边界**：只改 claim 写入路径与 can_claim 锁匹配，未动 complete/review/cancel 流程；#444 assignee=角色名口径维持；存量 assignee=实例名任务单不回改；conveyor_probe 通知路由的 kimi 条目未动（观察项——存量行消亡后自然失效，改动会扩大本单范围）；pending_review 占位（洞B/C）归 #504 不在本单。
 
 **需要谁动作**：欧阳锋终审本单；王语嫣知悉存量复扫结论（bug 模式残留 0，无需复扫动作）；#504 待本单终审后领取执行。
+
+## 终审记录
+
+- **结论**：PASS A（2026-08-25 欧阳锋）
+- **通过维度**：版本对齐三问全过（入仓 21c352603 在 HEAD 链 / CLI 无长驻进程，磁盘码=运行码 / 审查对象=HEAD 最新）；L1 独立复跑 104 passed（20.47s，与报告一致）；diff 全读与任务书 6 项逐条对上；存量复扫独立重跑 11 条逐条定性一致
+- **溯源要点**：
+  1. **写入口径** ✅：action_claim 不再传 assignee=_role_of(instance)（queue_transition.py:516 区域），只写 status+instance；INSTANCE_ROLE_MAP 去 kimi 留 hermes（#445 hermes=老顽童专属，保留合规）
+  2. **洞A 锁匹配** ✅：_same_executor 双维度（status 前缀 claimed-<instance> 同实例 + claimed 行 assignee 同角色）——链路核实：claim 写状态 claimed-{instance}（transition 表 L244 + L512）→ find_blockers 收 claimed- 前缀（L121）→ 比较成立；覆盖老顽童 hermes/kimi 多实例并行（同角色维度拦截）
+  3. **回归用例** ✅：7 新例在 diff（TestClaimAssigneePreserved×3 + TestClaimedLockMatching×4），含存量实例名兼容阻塞（legacy hermes 行仍阻塞——#444 兼容口径）
+  4. **半套修改排查** ✅：grep 全链 assignee 消费点结论与代码实况一致（can_claim 为唯一"写侧改了读侧没改"遗留；conveyor_probe kimi 条目仅通知路由回落，观察项定性准确）
+  5. **存量复扫** ✅：独立重跑 `_tmp/scan_503_stale_assignee.py`——11 条逐条对上（10 条 #444 前 hermes 存量已 reviewed 豁免 + 1 条 role-special-zhu 方向相反已 reviewed 观察项）；#497 误写模式残留 0
+- **边界合规** ✅：只改 claim 写入路径 + can_claim 锁匹配，complete/review/cancel 未动；#444 assignee=角色名口径维持
+- **缺陷**：无
+- **残余风险**：🔵 观察项 1 个——kimi 共用实例下同实例维度（claimed-kimi）会跨角色阻塞（如老顽童 kimi claim 时王语嫣有 claimed-kimi 在途则被拦）——方向为保守多拦（可见报错），非静默漏拦，符合"同一执行者同一时刻一个 in_progress"语义目标，不阻断；L3 待活体（后续 claim 事件 assignee 不再漂移 + 老顽童真实阻塞）由时间验证
+- **存在性核查**：「104 passed」→ 独立复跑 pytest tests/ -q；「11 条存量」→ 独立重跑扫描脚本逐条比对；「双维度锁」→ queue_gate.py L162-188 直读 + find_blockers/transition 表链路核实
+
+*欧阳锋 · 2026-08-25 · #503 终审 PASS A*
