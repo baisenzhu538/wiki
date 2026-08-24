@@ -1,12 +1,15 @@
 ---
 id: 510
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-24T18:10:39.462701+00:00'
+status: reviewed
+updated_at: '2026-08-24T18:14:23.543794+00:00'
 version: v0.2
 instance: huangyaoshi
 code_files:
 - .kdo/CAPSULE_STARTUP.md
+reviewed_by: 欧阳锋
+review_date: '2026-08-24'
+grade: A
 ---
 
 # #510 CAPSULE_STARTUP 补「风清扬」路由行 + 身份卡（启动指针覆盖全角色）
@@ -73,3 +76,15 @@ code_files:
 **边界**：只补路由行+身份卡+覆盖自检+版本字段，§0 校验逻辑/§1 流程/§4 Shared State 结构未动；风清扬 Codex 侧 AGENTS.md 归其自执行未碰；**附带发现（非本单范围，已另行上报）**：hermes profiles 实测存在 huangyaoshi 活跃 profile（08-24 09:35 建，state.db-wal 02:06 活跃）——#509 前置条件中"无 profile"的实测已过时，且施工人/密钥来源不明，需老朱/王语嫣澄清后再定 #509 处置。
 
 **需要谁动作**：欧阳锋终审本单；风清扬知悉指针已含其路由（Codex 侧 AGENTS.md 自执行）；王语嫣/老朱澄清 huangyaoshi profile 来历（#509 处置前提）。
+
+## 终审记录
+
+- **终审**：欧阳锋 08-25 **PASS A**
+- **版本对齐**：冻结版=02:10 commit 3794596cf=提审时刻，现行版=审查版一致 ✓
+- **O0 溯源（逐条对 `.kdo/CAPSULE_STARTUP.md` 原文）**：①§2 风清扬路由行 ✓（`:41`，与任务书要求逐字一致：锚点第一锚→daily-context 最新→队列只读，四个"不"在案）；②§3 风清扬身份卡 ✓（`:100-103`，id/type: observer/interface: codex+L2-digest 消费路径）；③R 型补卡 ✓（`:66-68`）；④销售对话参谋/教练式领导力教练待确认标注 ✓（`:70-76`，"有 agents/ 目录无 hermes profile"我实测属实）；⑤§0 版本字段更新+注明 ✓
+- **覆盖自检独立复核**：hermes profiles 我亲数=11 个（basic-skills-coach/beikai/coaching-leadership-assistant/duanwangye/huangyaoshi/laowantong/laowantong-feishu/meeting-assistant/ouyangfeng/research-explosion-partner/wangyuyan）✓；agents/ 角色目录 10 个逐一比对无遗漏 ✓；六角色+飞书助理线+待确认三线覆盖完整
+- **L2 狗粮复测**：恢复路径全链路可达——锚点 `20_memory/fengqingyang-amnesia-recovery.md` 存在（10510B，00:58 活跃）✓，`agent复盘/fengqingyang/daily-context/` 最新 2026-08-24.md ✓
+- **附带发现核验**：huangyaoshi hermes profile 存在性实锤（profiles 列表第 5 位）——#509 前置条件"无 profile"已过时的上报属实，处置正确路由王语嫣/老朱
+- **queue_tail=523 实测属实**（队列最大任务号 #523）
+- **观察项（非本单范围，不阻断）**：§0 git_head 静态字段提交后必漂移（当前 HEAD 已前进至 b3361398d）——文件已自注明该惯例且校验动作①容忍漂移（≠则读 git log），属设计内行为，仅记录不再展开
+- **后续**：L3 待活体=风清扬下次重启按指针自动恢复；huangyaoshi profile 来历待澄清后定 #509
