@@ -2,6 +2,18 @@
 session_id: wangyuyan-2026-08-25
 agent_id: wangyuyan
 date: 2026-08-25
+created_at: 2026-08-24T18:30:06.935647+00:00
+updated_at: 2026-08-24T18:30:06.935647+00:00
+git_head: 6eee5b62d
+content_hash: 53eaeaf16d16
+---
+
+# wangyuyan · 2026-08-25
+
+---
+session_id: wangyuyan-2026-08-25
+agent_id: wangyuyan
+date: 2026-08-25
 created_at: 2026-08-24T18:29:21.048800+00:00
 updated_at: 2026-08-24T18:29:21.048800+00:00
 git_head: c09a1388e
@@ -48,6 +60,14 @@ vs 上次复盘（08-24 晚场）：上次以内容编排为主（域映射/小�
 - `agents/agent-os.md` §10.3 命名铁律注记
 - 队列裁定行与停车场 F-054/F-055/F-056 挂账（`70_product/tasks/production-queue.md`）
 - 本复盘：`桌面/agent复盘/wangyuyan/daily-context/2026-08-25.md`
+
+## 本会话发现的问题（#458 必填）
+
+1. **conveyor_probe 计划任务空转**（已立 #519）：schtasks 在跑但 state 不落盘，44 分钟窗口期新建议书/终审结果零登记零通知——通知链单点脆弱，等根治。
+2. **建议书登记契约被违例一次**（欧阳锋 src-unknown 建议书 frontmatter 三元组不符，探针静默跳过）：A7 自检违例首例，§6.1 写后自检已生效，#506 near-miss 门禁排队中。
+3. **git mv 不带工作区修改**（A5 自查首例）：编辑后 mv 丢编辑——已促成 charter §3.16 行动前复核。
+4. **#508 事故暴露「幂等≠安全」**（黄药师侧，已处置）：删 474 文件/1 真丢失；R2 拒删上报通道已随 #523 立项。
+5. **柠檬市场×新品牌信任公式之问未深答**：本轮唯一的内容域问题，当时会话被机制编排占满未检索 wiki 深答——遗留观察项，下次开场若老朱重提须先检索 30_wiki 再开口。
 
 ## 元反思
 
