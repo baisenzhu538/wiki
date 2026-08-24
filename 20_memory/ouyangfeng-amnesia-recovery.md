@@ -255,6 +255,7 @@ type: memory/role-recovery
 - **#505 并发写根治 PASS A + 增补件批准生效**：三问全过+pytest 116+21 复跑一致+guard 工具我侧 FRESH 复现+锁名两侧一致；approved_by 落笔欧阳锋，S2 三条约定生效（我自己 commit 已先行遵守 path-scoped+by 署名）
 - **审查卡点建议书已落**：diag_20260825_ouyangfeng-review-bottleneck-wakeup（R1 提审叫醒通道/R2 阻塞链标记/R3 pending_review 年龄 SLA/R4 应急 force）——老朱"反思卡点"指令闭环，待王语嫣裁定
 - **#498 复审 PASS A-（第 2 轮闭环）**：graph-rag tags 4→7 词（检索增强补回）+"词不足"申辩撤回——**08-24 晚 3 FAIL + #487 全部复审闭环，FAIL 在途清零**；观察项：graph-rag 正文 11 处 src_unknown 存量记 TODO（非本单范围）
+- **#518 复审 PASS A（清单批闭环）**：对照法 3 项全修（561 脚本重跑交集=0/预览 5 路径全存在/交付物入仓）；口径裁定：混合 refs 卡入类1 合理不重出；🔵 编排接缝已标注——后续治理批次归属待王语嫣裁定（#517 门禁后放行首批）
 - **#507 每日审计 digest PASS A-**：部署三态全验+dry-run 零副作用实证（队列 diff 引擎当场检出 #518 FAIL 流转）；P2 指令在案：游标回拨 regenerate 今日 digest（狗粮覆盖语义毁首跑成果，否则风清扬明早无料）
 - **#518 清单批 FAIL**（我的 src_unknown 建议书落地单）：类1 判定漏洞 561 卡误分（source_refs 全占位未过滤；真实类1≈346/类2≈1205）+ 预览列标题/lens 冒充来源；达标项（总数复跑一致/零写入/类3不硬凑）已列。待返工复审（对照法：561 检查脚本重跑应归零）
 - **complete 入仓门禁建议书**：diag_20260825_ouyangfeng-complete-deliverable-commit-gate（未 commit 提审一晚 2 次→铁律升级）
