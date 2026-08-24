@@ -1,15 +1,15 @@
 ---
 id: 505
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-24T16:40:54.387869+00:00'
+status: pending_review
+updated_at: '2026-08-24T16:51:55.359608+00:00'
 version: v0.2
 instance: huangyaoshi
 code_files:
-  - 90_control/scripts/shared_file_guard.py
-  - 90_control/scripts/tests/test_shared_file_guard.py
-  - kdo-tools/conveyor_probe.py
-  - 90_control/file-flow-protocol-amend-shared-file-write.md
+- 90_control/scripts/shared_file_guard.py
+- 90_control/scripts/tests/test_shared_file_guard.py
+- kdo-tools/conveyor_probe.py
+- 90_control/file-flow-protocol-amend-shared-file-write.md
 ---
 
 # #505 共享文件并发写根治（写前核最新编号 + 落盘即 commit + message 标 instance）
