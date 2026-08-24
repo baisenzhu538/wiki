@@ -2,13 +2,13 @@
 id: concept-oral-spray-multi-agent-parallel
 title: 多 Agent 并行口喷 + OPT：一人团队的协作范式
 type: concept
-status: draft
+status: reviewed
 confidence: 0.85
 trust_level: high
 domain:
 - ai-collaboration
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 created_at: '2026-08-24'
 updated_at: '2026-08-25'
 source_refs:
@@ -32,8 +32,8 @@ tags:
   - 脑力拉满
   - 多线程
   - 协作
+review_date: 2026-08-25
 ---
-
 # 多 Agent 并行口喷 + OPT
 
 ## 一句话

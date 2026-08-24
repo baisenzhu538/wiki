@@ -2,13 +2,13 @@
 id: framework-oral-spray-cultivation-map
 title: 口喷段位修炼地图 L1-L6：五次飞跃
 type: framework
-status: draft
+status: reviewed
 confidence: 0.85
 trust_level: high
 domain:
 - ai-collaboration
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 created_at: '2026-08-24'
 updated_at: '2026-08-25'
 source_refs:
@@ -33,8 +33,8 @@ tags:
   - OPT
   - 心流
   - 框架
+review_date: 2026-08-25
 ---
-
 # 口喷段位修炼地图 L1-L6：五次飞跃
 
 ## 一句话

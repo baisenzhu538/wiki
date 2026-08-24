@@ -5,9 +5,9 @@ type: tool
 domain:
 - ai-collaboration
 - ai-saas
-status: draft
+status: reviewed
 author: unknown
-reviewed_by: pending
+reviewed_by: 欧阳锋
 created_at: '2026-06-15'
 confidence: 0.6
 trust_level: low
@@ -50,6 +50,7 @@ tags:
   - skill-level:beginner
   - 提示词
   - 工具
+review_date: 2026-08-25
 ---
 # 技能：用口喷输入法生成高质量 AI 提示词
 

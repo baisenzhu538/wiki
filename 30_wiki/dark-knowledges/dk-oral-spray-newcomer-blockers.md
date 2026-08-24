@@ -2,13 +2,13 @@
 id: dk-oral-spray-newcomer-blockers
 title: 口喷新人四难：错别字/没逻辑/怕骚扰/不稳定 + 解法
 type: dark-knowledge
-status: draft
+status: reviewed
 confidence: 0.85
 trust_level: high
 domain:
 - ai-collaboration
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 created_at: '2026-08-24'
 updated_at: '2026-08-25'
 source_refs:
@@ -30,8 +30,8 @@ tags:
   - 怕骚扰
   - 解法
   - 避坑
+review_date: 2026-08-25
 ---
-
 # 口喷新人四难 + 解法
 
 ## 一句话

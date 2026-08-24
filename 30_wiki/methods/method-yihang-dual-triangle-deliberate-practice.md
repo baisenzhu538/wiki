@@ -2,9 +2,9 @@
 id: method-yihang-dual-triangle-deliberate-practice
 title: 双三角刻意练习法：长期追求 + 固定套路 × 非舒适区 × 及时反馈 × 大量重复
 type: method
-status: draft
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: high
 language: zh-CN
@@ -30,8 +30,8 @@ discoverable_by:
 - 双三角训练
 - 能力提升
 - 技能修炼
+review_date: 2026-08-25
 ---
-
 # 双三角刻意练习法：长期追求 + 固定套路 × 非舒适区 × 及时反馈 × 大量重复
 
 > **一句话定义**：Truman 在课后闲聊中给出的双三角刻意练习公式——长期追求 +（固定套路 × 非舒适区 × 及时反馈 × 大量重复）。用"刻意练习教练补丁"把通用教练升级为双三角版本。口喷次数、业务应用次数、公司月度轮次都可量化追踪。

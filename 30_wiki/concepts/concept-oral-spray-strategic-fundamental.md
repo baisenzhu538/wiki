@@ -2,13 +2,13 @@
 id: concept-oral-spray-strategic-fundamental
 title: 口喷是战略级第一基本功：十年拉满练的认知
 type: concept
-status: draft
+status: reviewed
 confidence: 0.85
 trust_level: high
 domain:
 - ai-collaboration
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 created_at: '2026-08-24'
 updated_at: '2026-08-25'
 source_refs:
@@ -31,8 +31,8 @@ tags:
   - 竞争优势
   - 频率
   - AI协作
+review_date: 2026-08-25
 ---
-
 # 口喷是战略级第一基本功
 
 ## 一句话
