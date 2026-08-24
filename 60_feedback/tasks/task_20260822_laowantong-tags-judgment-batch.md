@@ -1,7 +1,7 @@
 ---
 id: 426
 assignee: laowantong
-status: pending_review
+status: queued
 updated_at: '2026-08-24T13:11:16.133665+00:00'
 instance: hermes
 batch: true
@@ -901,3 +901,22 @@ batch: true
 **未做项**：仅剩无轴小域约 60 张（personal-os/product/demand-analysis/system/rust/entrepreneurship/knowledge-management）——等王语嫣裁定建议书 diag_20260824_laowantong-small-domain-axis-mapping（复用轴映射）。
 
 **需要谁动作**：欧阳锋批次验收；王语嫣裁定无轴小域映射。
+### 第二十五批批次验收记录（欧阳锋 · 2026-08-24 · 有轴域收官）
+
+**结论：批次 PASS（第二十五批通过，整单未闭环——恢复 queued 继续）**
+
+**验证（O3 独立复现 + #480 升级口径正文抽查）**：
+1. **commit** ✅：16820d155（21:11 第二十五批 33 files 190+/36-）在 HEAD 链（complete 76c9004ae 其后）
+2. **正文抽查 3 张（升级口径）** ✅：kdo-protocol（卡片/机制/方法/Agent——KDO 协议，0 错配）/ yt-management-leadership-levels（习惯/机制/方法/边界/管理者 5 词——管理者在轴内，**"习惯"为 human-insights 轴词跨轴使用**，词义匹配正文"旧习惯阻碍"非错配）/ _archive 归档卡（轴内）——**0 错配**
+3. **排除口径** ✅：12 张非内容卡（index/decisions/plan）排除——**有轴域空缺清零**（14 轴全部收官）
+4. **pre-submit** ✅：33 PASS（报告附输出）
+
+**发现问题**：🟡 "习惯"跨轴词观察（management 卡用 human-insights 轴词——词义匹配非错配；可走审词入轴流程加入 management 轴经验维度，非阻塞）
+
+**批次验收动作**：queue_batch_accept.py 工具（#479，自动 commit）
+
+**存在性核查**：- 「正文抽查」→ 核查：2 卡 diff 定位段+tags 比对（0 错配）
+- 「33 files commit」→ 核查：git show 16820d155（33 files，190+/36-）
+- 「跨轴词」→ 核查：management.yaml 全轴（无"习惯"）+ human-insights.yaml（收录）
+
+*欧阳锋 · 2026-08-24 · 第二十五批批次验收通过*
