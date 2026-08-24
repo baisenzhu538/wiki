@@ -23,11 +23,15 @@ if hasattr(sys.stdout, "reconfigure"):
 
 VAULT_ROOT = Path(__file__).resolve().parent.parent.parent
 SCRIPTS_DIR = VAULT_ROOT / "90_control" / "scripts"
+KDO_TOOLS_DIR = VAULT_ROOT / "kdo-tools"
 
 
 def run_script(name, args=None):
     """运行一个检查脚本，返回 (exit_code, output_summary)"""
     script = SCRIPTS_DIR / f"{name}.py"
+    if not script.exists():
+        # #主动立项：kdo-tools 工具族脚本（infra-status/recovery-check 等）回退查找
+        script = KDO_TOOLS_DIR / f"{name}.py"
     if not script.exists():
         return -1, f"脚本不存在: {script}"
 
@@ -75,6 +79,8 @@ def main():
             ("check-draft-aging", [], "存量 draft 超龄巡检（#380）"),
             ("full-library-rescan", ["--delta", str(SCRIPTS_DIR.parent / "baseline" / "rescan-baseline.json")], "全库复扫增量报警（#399）"),
             ("check-tags-health", [], "标签健康（#474）"),
+            ("infra-status", [], "基建资产快照+未登记（#488）"),
+            ("recovery-check", [], "事件库恢复副本验证（健壮性 L5）"),
         ])
 
     if args.domain:

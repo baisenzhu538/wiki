@@ -102,6 +102,7 @@ audience: 全体 agent
 - flywheel-export — Y 模型导出
 - hermes-profile-guard — Hermes profile 防护
 - infra-status — 基建健康快照（#488）
+- recovery-check — 事件库恢复副本验证（健壮性 L5 自动化）
 - mcp-reachability-check — MCP 可达性
 - research_adapter — 调研适配
 - scan-demo-sections — demo 节扫描
