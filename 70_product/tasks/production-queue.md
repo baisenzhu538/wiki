@@ -127,7 +127,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 499 | `task_20260824_laowantong-small-domain-axis-mapping` | 口径单：7无轴小域~60张按复用轴映射治理(收官堵点解封)+词不足上报 | reviewed | laowantong | 映射治理 | 无 | `60_feedback/tasks/task_20260824_laowantong-small-domain-axis-mapping.md` | 老顽童建议书裁定采纳方案1(复用轴映射零成本)；映射表王语嫣确认微调；不改domain字段(域归并挂F-051)；#426收官线内；欧阳锋验收备案。**FAIL返工中**(08-24欧阳锋：4张遗漏+清单与归域脱节)——返工节已追加(4+3张补治理+域字段实时扫描)，重提审后复审；24h未动升级(欧阳锋观察点) |
 | 500 | `task_20260824_laowantong-small-domain-batch2` | 第二批未覆盖小域~65张映射治理(收官冲刺)：确认映射+no-domain补域+未列域语义最近轴授权 | reviewed | laowantong | 映射治理+补域 | #499 返工完成 | `60_feedback/tasks/task_20260824_laowantong-small-domain-batch2.md` | 老顽童建议书追加裁定；no-domain 3张走补域不走映射(#493同族)；依赖#499(E019完成未闭环优先)；rust词池已补全；收官信号=全库tags空缺复扫归零；欧阳锋验收备案 |
 | 501 | `task_20260824_huangyaoshi-role-todos-inbox` | 角色待办收件箱泛化：conveyor_probe通知全角色落盘todos/<role>.md(双通道)+CAPSULE_STARTUP挂启动读+故障窗口补偿 | reviewed | huangyaoshi | probe扩展+入口挂载 | 无 | `60_feedback/tasks/task_20260824_huangyaoshi-role-todos-inbox.md` | 黄药师建议书裁定采纳；治编排者盲区(#499打回通知丢失实证)；复用F-036 _append_role_todo模式；不新增扫描器/不动#462；欧阳锋终审 |
-| 502 | `task_20260824_huangyaoshi-freeze-enforcement` | 落盘文件冻结机械化：file-flow-check加L10任务单正文冻结检测(4豁免)+health-check挂载+L7窗口口径 | claimed-huangyaoshi | huangyaoshi | L10检测器+挂载 | 无 | `60_feedback/tasks/task_20260824_huangyaoshi-freeze-enforcement.md` | 老朱08-24指令「已落盘必须冻结」机制化；实证=老顽童batch2原文件追加事件(已自我纠偏)；待讨论点已拍板(执行报告节complete前+返工节豁免/warning不拦流转)；只报不自动改；欧阳锋终审 |
+| 502 | `task_20260824_huangyaoshi-freeze-enforcement` | 落盘文件冻结机械化：file-flow-check加L10任务单正文冻结检测(4豁免)+health-check挂载+L7窗口口径 | pending_review | huangyaoshi | L10检测器+挂载 | 无 | `60_feedback/tasks/task_20260824_huangyaoshi-freeze-enforcement.md` | 老朱08-24指令「已落盘必须冻结」机制化；实证=老顽童batch2原文件追加事件(已自我纠偏)；待讨论点已拍板(执行报告节complete前+返工节豁免/warning不拦流转)；只报不自动改；欧阳锋终审 |
 | 503 | `task_20260824_huangyaoshi-claim-assignee-bug` | queue_transition claim assignee写入口径bug：kimi实例claim任务被误写laowantong(INSTANCE_ROLE_MAP错误反推) | queued | huangyaoshi | 写入口径修正+回归 | 无 | `60_feedback/tasks/task_20260824_huangyaoshi-claim-assignee-bug.md` | #497 claim实测发现(王语嫣kimi实例claim被改assignee)；claim应保持原assignee只写status+instance；INSTANCE_ROLE_MAP kimi映射移除；与#444口径对齐；欧阳锋终审 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
@@ -210,6 +210,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#496 task_20260824_huangyaoshi-source-refs-gate-fix｜huangyaoshi｜提审 08-24 22:30｜60_feedback/tasks/task_20260824_huangyaoshi-source-refs-gate-fix.md~~ → 已终审 PASS （2026-08-24 欧阳锋）
 - ~~#501 task_20260824_huangyaoshi-role-todos-inbox｜huangyaoshi｜提审 08-24 22:37｜60_feedback/tasks/task_20260824_huangyaoshi-role-todos-inbox.md~~ → 已终审 PASS （2026-08-24 欧阳锋）
 - ~~#500 task_20260824_laowantong-small-domain-batch2｜laowantong｜提审 08-24 22:37｜60_feedback/tasks/task_20260824_laowantong-small-domain-batch2.md~~ → 已终审 PASS （2026-08-24 欧阳锋）
+- #502 task_20260824_huangyaoshi-freeze-enforcement｜huangyaoshi｜提审 08-24 22:49｜60_feedback/tasks/task_20260824_huangyaoshi-freeze-enforcement.md
 
 <!-- REVIEW-PENDING-END -->
 

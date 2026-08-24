@@ -1,8 +1,8 @@
 ---
 id: 502
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-24T14:42:24.764600+00:00'
+status: pending_review
+updated_at: '2026-08-24T14:49:52.625626+00:00'
 version: v0.1
 instance: huangyaoshi
 ---
@@ -60,4 +60,24 @@ instance: huangyaoshi
 - **王语嫣**：验收（下次越界事件机器兜底）
 - **欧阳锋**：终审本单
 
-## 执行报告（F-034 五字段，complete 前必填）
+## 执行报告（2026-08-24 黄药师）
+
+**完成内容**：落盘文件冻结机械化（D-003 采纳落地）——file-flow-check 加 L10 任务单正文冻结检测 + 挂 health-check + L7 窗口口径补记。
+
+**交付物**（改动文件清单）：
+1. `kdo-tools/file-flow-check.py`：L10 `check_task_freeze`（queued/in_progress/pending_review/reviewed 任务单 git diff HEAD，非豁免区改动→warning）+ `_task_exempt_ranges`（四类豁免+执行报告节按状态收严）+ L7 窗口口径 docstring 补记
+2. `90_control/scripts/health-check.py`：加 file-flow-check 检查项（L1-L10 每日自动）
+3. `90_control/scripts/tests/test_tags_health.py`：TestTaskFreezeL10 2 用例
+
+**验证**（命令+输出）：
+- L1 单测：`pytest tests/test_tags_health.py` → **21 passed**；scripts 全量 → **97 passed**
+- L2 狗粮：①正文中间越界修改 → L10 报警（"上板冻结正文改动 L26:+越界修改测试行"）；还原后零命中 ②豁免节内改动不报（执行报告节 in_progress 可填/终审节 append 豁免）③修复 2 bug：frontmatter `in_progress`（claim 后状态）漏检、diff hunk 正则捕获组号错误（group(3) 越界被吞）
+- L3 待活体：后续任务单正文越界由机器兜底（health-check 每日自动，不再靠自觉/人工发现）
+
+**未做项**：
+- 只报不自动改（任务书边界：warning 级，不机械拦流转）
+- 待办收件箱 todos 清理标注各角色自管（#501 同款）
+
+**需要谁动作**：
+- 各角色：任务单提审后正文改动会被 L10 报警——只允许豁免节内写入
+- 欧阳锋：终审本单（抽「L10 判定/豁免收严/狗粮/2 bug 修复」）
