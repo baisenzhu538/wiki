@@ -304,3 +304,114 @@ def test_append_role_todo_appends_not_overwrites(tmp_path, monkeypatch):
     probe._append_role_todo("wangyuyan", "第二条")
     content = (tmp_path / "wangyuyan.md").read_text(encoding="utf-8")
     assert "第一条" in content and "第二条" in content
+
+
+# ── #506 建议书 near-miss 报警回归：三元组漂移当场可见（不静默 continue）──
+
+def _nm_setup(tmp_path, monkeypatch, files: dict[str, str]):
+    """注入 DIAG_DIR + 临时 gate-blocked log，返回 (state, log_path)。"""
+    monkeypatch.setattr(probe, "DIAG_DIR", tmp_path)
+    log = tmp_path / "gate-blocked.log"
+    monkeypatch.setattr(probe, "GATE_BLOCKED_LOG", log)
+    for name, content in files.items():
+        (tmp_path / name).write_text(content, encoding="utf-8")
+    return {}, log
+
+
+def _fm(type_="proposal", status="pending", audience=None, to=None, created="2026-08-25"):
+    lines = ["---", "id: x", "title: y", f"type: {type_}"]
+    if status is not None:
+        lines.append(f"status: {status}")
+    if audience:
+        lines.append(f"audience: {audience}")
+    if to:
+        lines.append(f"to: {to}")
+    if created:
+        lines.append(f"created_at: {created}")
+    lines += ["---", "", "正文。", ""]
+    return "\n".join(lines)
+
+
+def test_near_miss_deprecated_to_field_alarmed(tmp_path, monkeypatch):
+    """08-24 漂移同型：to:+status: pending+type: diagnosis → 报警+落 gate-blocked 记录。"""
+    state, log = _nm_setup(tmp_path, monkeypatch, {
+        "diag_20260825_drift-a.md": _fm(type_="diagnosis", status="pending", to="王语嫣"),
+    })
+    misses = probe._scan_proposal_near_miss(state)
+    assert len(misses) == 1 and "to:" in misses[0]
+    assert "near-miss-三元组" in log.read_text(encoding="utf-8")
+
+
+def test_near_miss_status_pending_alarmed(tmp_path, monkeypatch):
+    """audience 对但 status=pending（非 pending_orchestration）→ 报警。"""
+    state, log = _nm_setup(tmp_path, monkeypatch, {
+        "diag_20260825_drift-b.md": _fm(status="pending", audience="王语嫣"),
+    })
+    misses = probe._scan_proposal_near_miss(state)
+    assert len(misses) == 1 and "pending_orchestration" in misses[0]
+
+
+def test_near_miss_proposal_missing_audience_alarmed(tmp_path, monkeypatch):
+    """type: proposal 缺 audience → 报警。"""
+    state, _ = _nm_setup(tmp_path, monkeypatch, {
+        "diag_20260825_drift-c.md": _fm(status="pending_orchestration", audience=None),
+    })
+    misses = probe._scan_proposal_near_miss(state)
+    assert len(misses) == 1 and "缺 audience" in misses[0]
+
+
+def test_normal_triplet_no_false_alarm(tmp_path, monkeypatch):
+    """正常三元组 → 零报警（不误伤登记件）。"""
+    state, log = _nm_setup(tmp_path, monkeypatch, {
+        "diag_20260825_ok.md": TRIPLET,
+    })
+    misses = probe._scan_proposal_near_miss(state)
+    assert misses == []
+    assert not log.exists() or "near-miss" not in log.read_text(encoding="utf-8")
+
+
+def test_plain_diagnosis_report_no_alarm(tmp_path, monkeypatch):
+    """纯诊断报告（type: diagnosis，无 audience/to/status）→ 不报警（非建议书形态）。"""
+    state, _ = _nm_setup(tmp_path, monkeypatch, {
+        "diag_20260825_report.md": _fm(type_="diagnosis", status=None),
+    })
+    assert probe._scan_proposal_near_miss(state) == []
+
+
+def test_terminal_status_no_alarm(tmp_path, monkeypatch):
+    """终态件（status: resolved）→ 不报警。"""
+    state, _ = _nm_setup(tmp_path, monkeypatch, {
+        "diag_20260825_done.md": _fm(status="resolved", audience="王语嫣"),
+    })
+    assert probe._scan_proposal_near_miss(state) == []
+
+
+def test_historical_files_grandfathered(tmp_path, monkeypatch):
+    """向前生效：生效日前的漂移件既往不咎（53 条历史噪声洪泛根治）。"""
+    state, _ = _nm_setup(tmp_path, monkeypatch, {
+        "diag_20260824_old-drift.md": _fm(type_="diagnosis", status="pending", to="王语嫣",
+                                          created="2026-08-24"),
+    })
+    assert probe._scan_proposal_near_miss(state) == []
+    # 注入回放模式（effective_date 前移）→ 同件必须检出（L2 狗粮路径）
+    misses = probe._scan_proposal_near_miss(state, effective_date="20260101")
+    assert len(misses) == 1
+
+
+def test_near_miss_idempotent_log(tmp_path, monkeypatch):
+    """幂等：同一漂移件重跑不重复落 gate-blocked 记录（state 去重）。"""
+    state, log = _nm_setup(tmp_path, monkeypatch, {
+        "diag_20260825_drift-d.md": _fm(status="pending", audience="王语嫣"),
+    })
+    probe._scan_proposal_near_miss(state)
+    probe._scan_proposal_near_miss(state)
+    assert log.read_text(encoding="utf-8").count("drift-d") == 1
+
+
+def test_undated_file_falls_back_to_created_at(tmp_path, monkeypatch):
+    """无日期文件名：回落 created_at 判新旧（proposal-self-learning-cron 实证）。"""
+    state, _ = _nm_setup(tmp_path, monkeypatch, {
+        "proposal-old-design.md": _fm(status="pending_review", audience=None,
+                                      created="2026-06-11"),
+    })
+    assert probe._scan_proposal_near_miss(state) == []

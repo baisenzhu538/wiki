@@ -156,9 +156,122 @@ def _scan_proposals() -> list[str]:
             continue
         if not isinstance(fm, dict):
             continue
-        if "王语嫣" in str(fm.get("audience", "")) and str(fm.get("status", "")).strip() == "pending_orchestration":
+        if _is_triple_hit(fm):  # #506：三元组判定单点化（与 near-miss 同源，防双轨漂移）
             hits.append(fp.name)
     return hits
+
+
+# ── #506 建议书 near-miss 报警：疑似建议书但三元组不完整 → 显式报警，不静默 continue ──
+
+# 终态白名单：这些 status 不算"待编排漂移"（已裁定/已闭环件不回看，防历史件噪声）
+_PROPOSAL_TERMINAL_STATUS = {"resolved", "reviewed", "closed", "done", "orchestrated", "cancelled"}
+
+# #506 向前生效（file-flow-protocol §9 同款）：只对生效日及之后新建的建议书报警，
+# 存量历史 status 杂多（draft/completed/resolved/pending_laozhu…）既往不咎——
+# 否则首轮即 53 条历史噪声洪泛（2026-08-25 全量干跑实测）。
+_NEAR_MISS_EFFECTIVE_DATE = "20260825"
+
+import re as _re  # noqa: E402
+
+_DIAG_DATE_RE = _re.compile(r"^diag_(\d{8})_")
+
+
+def _diag_file_date(name: str) -> str:
+    """从文件名提取 diag_YYYYMMDD_ 日期（无日期返回 ''——调用方按'生效后'处理，畸形名正是漂移高发区）。"""
+    m = _DIAG_DATE_RE.match(name)
+    return m.group(1) if m else ""
+
+
+def _is_triple_hit(fm: dict) -> bool:
+    """三元组命中判定（与 _scan_proposals 同口径，单点定义防漂移）。"""
+    return ("王语嫣" in str(fm.get("audience", ""))
+            and str(fm.get("status", "")).strip() == "pending_orchestration")
+
+
+def _proposal_near_miss_reason(fm: dict) -> str | None:
+    """疑似建议书但三元组不完整 → 返回原因；非建议书形态/终态件 → None（不报警）。
+
+    单轨口径（王语嫣 08-24 裁）：type: proposal / status: pending_orchestration / audience: 王语嫣。
+    `to:` 与 `status: pending` 已 deprecated——命中即漂移（08-24 风清扬 4 份实证同型）。
+    """
+    aud = str(fm.get("audience", "")).strip()
+    to = str(fm.get("to", "")).strip()
+    status = str(fm.get("status", "")).strip()
+    typ = str(fm.get("type", "")).strip()
+    if to:
+        return "用了 deprecated 字段 to:（单轨=audience: 王语嫣）"
+    if status.lower() in _PROPOSAL_TERMINAL_STATUS:
+        return None  # 终态件不回看（type: proposal + status: resolved 等已闭环形态）
+    if typ == "proposal":
+        missing = []
+        if not aud:
+            missing.append("缺 audience")
+        if status != "pending_orchestration":
+            missing.append(f"status={status or '缺失'}（应 pending_orchestration）")
+        if missing:
+            return "type: proposal 但三元组不完整：" + "、".join(missing)
+        return None
+    if (aud and status and status != "pending_orchestration"
+            and status.lower() not in _PROPOSAL_TERMINAL_STATUS):
+        return f"有 audience 但 status={status}（应 pending_orchestration）"
+    if (status and status != "pending_orchestration"
+            and status.lower() not in _PROPOSAL_TERMINAL_STATUS
+            and ("pending" in status.lower() or "待" in status)):
+        return f"status={status} 疑似待编排但非 pending_orchestration"
+    return None
+
+
+def _scan_proposal_near_miss(state: dict, effective_date: str | None = None) -> list[str]:
+    """扫描 diagnosis/ 三元组漂移件：stderr 显式报警 + 新件落 gate-blocked 式记录（state 幂等）。
+
+    #506：登记链路不动（只通知只登记纪律）——本函数只让「写错 frontmatter」当场可见
+    （E052 同族根治：机制依赖契约，契约破时不再静默失效）。落 GATE_BLOCKED_LOG 后由
+    第五探针同事件拾取登记 PROPOSAL-PENDING + 通知王语嫣（闭环零新通道）。
+    effective_date：向前生效截止日（默认 _NEAR_MISS_EFFECTIVE_DATE；测试/回放可注入）。
+    """
+    eff = effective_date or _NEAR_MISS_EFFECTIVE_DATE
+    misses = []
+    seen = set(state.get("near_miss_seen", []))
+    new_seen = False
+    try:
+        log_f = GATE_BLOCKED_LOG.open("a", encoding="utf-8")
+    except OSError:
+        log_f = None
+    for fp in sorted(DIAG_DIR.glob("*.md")):
+        fdate = _diag_file_date(fp.name)
+        try:
+            fm = yaml.safe_load(fp.read_text(encoding="utf-8").split("---", 2)[1])
+        except Exception:
+            continue
+        if not isinstance(fm, dict) or _is_triple_hit(fm):
+            continue  # 正常登记件由 _scan_proposals 收，不重复报警
+        if not fdate:
+            # 无日期文件名：回落 frontmatter created_at/updated_at 判定新旧（proposal-self-learning-cron 实证）
+            for k in ("created_at", "updated_at"):
+                m = _re.search(r"(\d{4})-(\d{2})-(\d{2})", str(fm.get(k, "")))
+                if m:
+                    fdate = "".join(m.groups())
+                    break
+        if fdate and fdate < eff:
+            continue  # 向前生效：存量历史件既往不咎（#506 噪声洪泛根治）
+        reason = _proposal_near_miss_reason(fm)
+        if not reason:
+            continue
+        misses.append(f"{fp.name}｜{reason}")
+        print(f"⚠️ [near-miss] {fp.name} 疑似建议书但三元组不完整：{reason}"
+              f"——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）",
+              file=sys.stderr)
+        key = _sha256(f"{fp.name}｜{reason}")
+        if key not in seen and log_f is not None:
+            ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            log_f.write(f"{ts}｜{fp.name}｜near-miss-三元组（#506）｜{reason[:100]}｜conveyor_probe\n")
+            seen.add(key)
+            new_seen = True
+    if log_f is not None:
+        log_f.close()
+    if new_seen:
+        state["near_miss_seen"] = sorted(seen)[-500:]
+    return misses
 
 
 def _reject_duplicate_doc_ids(hits: list[str]) -> list[str]:
@@ -542,8 +655,10 @@ def main() -> int:
     queue_sig = _queue_signal(state)
     proposal_hits = _scan_proposals()
     registered = _update_proposal_board(proposal_hits)  # 登记（幂等）
+    # #506：三元组漂移 near-miss 显式报警（写 gate-blocked 式记录 → 下方第五探针同事件拾取闭环）
+    near_miss = _scan_proposal_near_miss(state)
     friction_new = _scan_friction(state)  # 增量检测（state 幂等）
-    gate_new = _scan_gate_blocked(state)  # 门禁拦截增量（#460 机器自报）
+    gate_new = _scan_gate_blocked(state)  # 门禁拦截增量（#460 机器自报 + #506 near-miss）
     # F-036 第七信号：新终审意见书含 🟠/🟡 但无落点 → 提醒欧阳锋补建议书（兜底）
     issue_no_disp = _scan_issue_no_disposition(state, queue_sig["new_reviewed"])
 
@@ -619,13 +734,14 @@ def main() -> int:
         "new_review": queue_sig["new_review"],
         "new_queued": queue_sig["new_queued"],
         "registered": registered,
+        "near_miss": near_miss,  # #506：三元组漂移件（当场可见，不靠事后捞）
         "notified": list(deduped.keys()),
         "silent": silent,
     }
     if args.json:
         print(json.dumps(summary, ensure_ascii=False, indent=2))
     else:
-        print(f"[conveyor_probe] 新提审 {len(queue_sig['new_review'])} / 新 queued {len(queue_sig['new_queued'])} / 新登记 {len(registered)} / 通知 {len(deduped)} 条{'（夜间静默）' if silent else ''}")
+        print(f"[conveyor_probe] 新提审 {len(queue_sig['new_review'])} / 新 queued {len(queue_sig['new_queued'])} / 新登记 {len(registered)} / near-miss {len(near_miss)} / 通知 {len(deduped)} 条{'（夜间静默）' if silent else ''}")
     return 0
 
 

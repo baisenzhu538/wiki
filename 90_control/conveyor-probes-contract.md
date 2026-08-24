@@ -24,6 +24,14 @@
 
 - 队列状态：只认 `queue_transition.py` 的状态机（探针经 `queue_gate.parse_queue` 读队列文件快照，自身零流转能力）
 - 建议书检出：只认 `yaml.safe_load` 结构化解析 frontmatter 三元组（`audience: 王语嫣` + `status: pending_orchestration`，`proposal-*` 文件名辅助）——禁 grep/正则（E017）
+- **建议书 frontmatter 单轨模板（#506，王语嫣 08-24 裁口径——唯一定义点，模板与契约不漂移）**：
+  ```yaml
+  type: proposal
+  status: pending_orchestration
+  audience: 王语嫣
+  ```
+  **deprecated（禁止双轨）**：`to: 王语嫣`（→ 用 `audience:`）、`status: pending`（→ 用 `pending_orchestration`）。
+  三元组不完整 = 探针不登记但 **near-miss 当场报警**（stderr + gate-blocked 式记录 → PROPOSAL-PENDING + 通知王语嫣）——漂移不再静默失效（E052 同族根治）。向前生效：2026-08-25 起新建件，存量历史件既往不咎。
 - 扫描面写死：`60_feedback/diagnosis/`
 
 ## 四、边界硬编码（不可突破）

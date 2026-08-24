@@ -36,6 +36,7 @@ audience: 全体 agent
 | queue_transition | 90_control/scripts/queue_transition.py | 队列状态机（claim/complete/review/cancel/myqueue）+ 门禁家族（五字段/意见书/负向判词/处置结构化） | 黄药师 | 08-23 全量 78 passed | queue_gate/queue_lock/gate-blocked.log |
 | queue_gate | 90_control/scripts/queue_gate.py | 队列解析唯一真相源（parse_queue/find_task/can_claim） | 黄药师 | 08-23 全链路 | queue_transition/audit/探针 |
 | queue_lock | 90_control/scripts/queue_lock.py | 队列写锁（防并发流转） | 黄药师 | 08-18 | queue_transition |
+| shared_file_guard | 90_control/scripts/shared_file_guard.py | 共享文件写前 stale 检测（#505：snapshot/verify 基线比对，STALE 报警退出 1） | 黄药师 | 08-25 7 例 passed | file-flow-protocol 增补件/conveyor_probe |
 | audit_queue_integrity | 90_control/scripts/audit_queue_integrity.py | 队列完整性审计（#456 盲区修复后：解析 0→61 行） | 黄药师 | 08-23 PASS A- | queue_gate/queue_integrity_audit_latest.md |
 | pre_submit | 90_control/scripts/pre_submit.py | ⚠️ DEPRECATED（#377 收敛，新工作走 kdo pre-submit） | 黄药师 | 08-19 | KDO CLI pre_submit.py |
 | health-check | 90_control/scripts/health-check.py | 健康检查统一入口（9 项：lint/source_refs/VLM/生产/配置/MCP/漂移/派生/复扫/标签健康） | 黄药师 | 08-23 每日自动 | check-* 族/计划任务 kdo-health-daily |
