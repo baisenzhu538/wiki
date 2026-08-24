@@ -63,12 +63,12 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 </head>
 <body>
 <h1>KDO 生产看板</h1>
-<p class="subtitle">production-queue.md · 自动生成于 2026-08-24 22:40</p>
+<p class="subtitle">production-queue.md · 自动生成于 2026-08-24 22:42</p>
 
 <div class="stats">
-<div class="stat queued"><div class="stat-num">7</div><div class="stat-label">待领取 Queued</div></div>
+<div class="stat queued"><div class="stat-num">6</div><div class="stat-label">待领取 Queued</div></div>
 <div class="stat pending"><div class="stat-num">2</div><div class="stat-label">审查中 Review</div></div>
-<div class="stat active"><div class="stat-num">0</div><div class="stat-label">进行中 Active</div></div>
+<div class="stat active"><div class="stat-num">1</div><div class="stat-label">进行中 Active</div></div>
 <div class="stat done"><div class="stat-num">77</div><div class="stat-label">已完成 Done</div></div>
 <div class="stat owner"><div class="stat-num">4</div><div class="stat-label">活跃角色</div></div>
 </div>
@@ -164,20 +164,23 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 <div class="task-card">
 <div class="task-prio p1">P1</div>
 <div class="task-info">
-<div class="task-id">#502</div>
-<div class="task-title">落盘文件冻结机械化：file-flow-check加L10任务单正文冻结检测(4豁免)+health-check挂载+L7窗口口径</div>
-<div class="task-detail">老朱08-24指令「已落盘必须冻结」机制化；实证=老顽童batch2原文件追加事件(已自我纠偏)；待讨论点已拍板(执行报告节complete前+返工节豁免/warning不拦流转)；只报不自动改；欧阳锋终审</div>
+<div class="task-id">#503</div>
+<div class="task-title">queue_transition claim assignee写入口径bug：kimi实例claim任务被误写laowantong(INSTANCE_ROLE_MAP错误反推)</div>
+<div class="task-detail">#497 claim实测发现(王语嫣kimi实例claim被改assignee)；claim应保持原assignee只写status+instance；INSTANCE_ROLE_MAP kimi映射移除；与#444口径对齐；欧阳锋终审</div>
 </div>
 <div class="task-meta">
 <span class="task-assignee huangyaoshi">黄药师</span>
 </div>
 </div>
+</div>
+<div class="task-group">
+<div class="group-header active">进行中</div>
 <div class="task-card">
 <div class="task-prio p1">P1</div>
 <div class="task-info">
-<div class="task-id">#503</div>
-<div class="task-title">queue_transition claim assignee写入口径bug：kimi实例claim任务被误写laowantong(INSTANCE_ROLE_MAP错误反推)</div>
-<div class="task-detail">#497 claim实测发现(王语嫣kimi实例claim被改assignee)；claim应保持原assignee只写status+instance；INSTANCE_ROLE_MAP kimi映射移除；与#444口径对齐；欧阳锋终审</div>
+<div class="task-id">#502</div>
+<div class="task-title">落盘文件冻结机械化：file-flow-check加L10任务单正文冻结检测(4豁免)+health-check挂载+L7窗口口径</div>
+<div class="task-detail">老朱08-24指令「已落盘必须冻结」机制化；实证=老顽童batch2原文件追加事件(已自我纠偏)；待讨论点已拍板(执行报告节complete前+返工节豁免/warning不拦流转)；只报不自动改；欧阳锋终审</div>
 </div>
 <div class="task-meta">
 <span class="task-assignee huangyaoshi">黄药师</span>
@@ -199,7 +202,7 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 </div>
 </div>
 
-<header style="display:none"><!-- generated-by: generate-dashboard.py · updated_at: 2026-08-24 22:40 · git_head: fbec5824f --></header>
-<footer>KDO 知识工厂 · 由 generate-dashboard.py 自动生成 · 2026-08-24 22:40</footer>
+<header style="display:none"><!-- generated-by: generate-dashboard.py · updated_at: 2026-08-24 22:42 · git_head: d9c13cc16 --></header>
+<footer>KDO 知识工厂 · 由 generate-dashboard.py 自动生成 · 2026-08-24 22:42</footer>
 </body>
 </html>
