@@ -179,7 +179,7 @@ def bootstrap_state(dry_run: bool = False) -> int:
             mt = f.stat().st_mtime
             old = state.get(rel)
             if old is None or float(old.split("|")[0]) < mt:
-                state[rel] = f"{mt:.0f}|{f.stat().st_size}"
+                state[rel] = f"{mt!r}|{f.stat().st_size}"
     if dry_run:
         print(f"[dry-run] 将重建游标 {len(state)} 条")
         return 0
@@ -218,11 +218,11 @@ def capture(dry_run: bool) -> int:
                 dest = dest_dir / rel
                 dest.parent.mkdir(parents=True, exist_ok=True)
                 shutil.copy2(f, dest)
-                state[key] = f"{fmt:.0f}|{f.stat().st_size}"
+                state[key] = f"{fmt!r}|{f.stat().st_size}"  # 全精度——:.0f 截断小数秒会恒判"源更新"整份重拷
                 copied += 1
             else:
                 skipped += 1
-            manifest.append(f"{rel}|{fmt:.0f}|{f.stat().st_size}")
+            manifest.append(f"{rel}|{fmt:.0f}|{f.stat().st_size}")  # trace 展示用整数秒即可
 
     if dry_run:
         print(f"[dry-run] 待采集 {copied} 个文件（日增量，{today} 目录）")
