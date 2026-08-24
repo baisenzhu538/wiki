@@ -155,6 +155,19 @@ def _write_l0_event(agent: str, desktop_path: Path, grade: str) -> None:
             f"path={desktop_path};grade={grade};size={len(text.encode('utf-8'))};"
             f"content_hash={mc._sha256(text)[:16]}"
         )
+        # #512：同内容重打不刷屏——同 agent+event_type+payload_hash 已存在则跳过
+        # （覆盖写后重打=同一文件替换，事件层只对"内容真实变化"留痕）
+        try:
+            con = mc._connect(mc.A_DB)
+            dup = con.execute(
+                "SELECT 1 FROM activity_log WHERE agent_id=? AND event_type=? AND payload_hash=? LIMIT 1",
+                (agent, "review_saved", mc._sha256(payload))).fetchone()
+            con.close()
+            if dup:
+                print("🧪 胶囊 L0 跳过：同内容事件已存在（#512 重打不刷屏）")
+                return
+        except Exception:
+            pass  # 查重失败不阻断写入（主流程=留痕）
         mc.cmd_log(agent=agent, event="review_saved", payload=payload, session=None)
         print("🧪 胶囊 L0 已留痕: agent=%s event=review_saved" % agent)
     except Exception as e:
@@ -181,6 +194,31 @@ def _write_l0_event(agent: str, desktop_path: Path, grade: str) -> None:
                 f.write(f"\n# {datetime.now().strftime('%Y-%m-%d %H:%M')} 胶囊镜像失败（#464）agent={agent}: {e}\n")
         except Exception:
             pass
+
+
+def _strip_existing_layers(body: str) -> str:
+    """#512 重打覆盖写：剥掉输入文件既有的 frontmatter 层与 save 生成的旧标题行
+    （可多层堆叠），只留正文内容，再套新 frontmatter——同 agent 同日同文件重打=替换不追加。
+
+    旧标题行只匹配 save 生成格式 `# <agent> · <YYYY-MM-DD>[-instance]`（日期结尾），
+    Truman 内容标题（`# Truman 11章复盘 · ...（后缀）`）不匹配不误伤。
+    """
+    import re
+    title_re = re.compile(r"^# [^·\n]+ · \d{4}-\d{2}-\d{2}(-[A-Za-z0-9]+)?\s*$")
+    text = body.strip()
+    changed = True
+    while changed:
+        changed = False
+        if text.startswith("---"):
+            parts = text.split("---", 2)
+            if len(parts) >= 3:
+                text = parts[2].strip()
+                changed = True
+        lines = text.splitlines()
+        if lines and title_re.match(lines[0]):
+            text = "\n".join(lines[1:]).strip()
+            changed = True
+    return text
 
 
 def cmd_save(args):
@@ -224,13 +262,15 @@ def cmd_save(args):
     fm = "\n".join(fm_lines)
 
     # Truman 模板模式：内容直接作为正文（不再套 Agent 输入壳）
+    # #512：重打覆盖写——--file 输入若带既有 frontmatter/旧标题层（上次 save 产物），
+    # 先剥层再套新 frontmatter（重打=替换不追加，多层堆叠根治）
     if getattr(args, "truman", False):
         if body.strip():
-            full_body = body.strip()
+            full_body = _strip_existing_layers(body)
         else:
             full_body = TRUMAN_TEMPLATE
     else:
-        full_body = body.strip() if body.strip() else "(无内容)"
+        full_body = _strip_existing_layers(body) if body.strip() else "(无内容)"
 
     content = f"{fm}\n\n# {agent} · {today}\n\n{full_body}\n"
     # #369：content_hash 基于最终正文（frontmatter 除 hash 行外）——手改可检测
