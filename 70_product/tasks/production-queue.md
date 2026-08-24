@@ -124,7 +124,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 496 | `task_20260824_huangyaoshi-source-refs-gate-fix` | pre-submit source_refs判定升级：判FAIL前先查正文「来源与口径」段(两处皆空才FAIL)+回归用例 | queued | huangyaoshi | 判定逻辑+用例 | 无 | `60_feedback/tasks/task_20260824_huangyaoshi-source-refs-gate-fix.md` | 欧阳锋建议书裁定采纳B；门禁意图是"无来源不进库"但字段空≠来源无；与#433负向判词同族；不阻塞#495；欧阳锋终审 |
 | 497 | `task_20260824_wangyuyan-zijing-product-level-prep` | 借鉴紫鲸产物级内容调研(产物形态/命名/复用机制→KDO产物级DAG落地准备报告) | queued | wangyuyan | 调研+准备报告 | 无 | `60_feedback/tasks/task_20260824_wangyuyan-zijing-product-level-prep.md` | 老朱08-24指令唯一先做项；F-049 7项已拍板但产品化进停车场；紫鲸3份调研桌面参考；对账#307模板机制+search_index；只出报告不立项改造；欧阳锋终审 |
 | 498 | `task_20260824_laowantong-dk-tags-word-count-caliber` | dk卡tags词量口径落地：轴文件+design补dk豁免条款(1-3词核心维度覆盖)+graph-rag回补至5-8 | queued | laowantong | 规则修改+回补 | 无 | `60_feedback/tasks/task_20260824_laowantong-dk-tags-word-count-caliber.md` | 欧阳锋建议书裁定采纳A+修正；王语嫣首轮直接改文件越界(老朱08-24纠偏)回滚重立执行单；普通卡维持5-8；#426批次线内不阻塞；欧阳锋终审 |
-| 499 | `task_20260824_laowantong-small-domain-axis-mapping` | 口径单：7无轴小域~60张按复用轴映射治理(收官堵点解封)+词不足上报 | queued | laowantong | 映射治理 | 无 | `60_feedback/tasks/task_20260824_laowantong-small-domain-axis-mapping.md` | 老顽童建议书裁定采纳方案1(复用轴映射零成本)；映射表王语嫣确认微调；不改domain字段(域归并挂F-051)；#426收官线内；欧阳锋验收备案 |
+| 499 | `task_20260824_laowantong-small-domain-axis-mapping` | 口径单：7无轴小域~60张按复用轴映射治理(收官堵点解封)+词不足上报 | claimed-hermes | laowantong | 映射治理 | 无 | `60_feedback/tasks/task_20260824_laowantong-small-domain-axis-mapping.md` | 老顽童建议书裁定采纳方案1(复用轴映射零成本)；映射表王语嫣确认微调；不改domain字段(域归并挂F-051)；#426收官线内；欧阳锋验收备案 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
 ## ⚖️ 待终审（提审任务，queue_transition 自动登记）
