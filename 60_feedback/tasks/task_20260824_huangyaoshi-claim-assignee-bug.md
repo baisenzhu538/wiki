@@ -30,6 +30,7 @@ claim 写入（action_claim → apply_updates）`assignee=_role_of(instance)` �
 3. **回归用例**：王语嫣(kimi) claim 王语嫣单 → assignee 保持 wangyuyan；老顽童(hermes) claim 老顽童单 → assignee 保持 laowantong；A 角色 claim B 角色单（非法场景）→ can_claim 拒绝或 assignee 保持 B
 4. **存量修正**：#497 frontmatter 已手工修正 assignee=wangyuyan（本单实证），其他任务单如被同样误写则复扫修正
 5. **claimed 锁匹配修复（洞A）**：can_claim 的 claimed 阻塞检查弃用 `instance in assignee` 子串匹配，改按执行者维度判定——取 claimed 行的执行实例（status `claimed-<instance>` 前缀或独立字段）与当前 instance 比较；老顽童多实例（hermes/kimi）并行风险可加角色归一（INSTANCE_ROLE_MAP 将实例归一为角色再比）。语义目标：**同一执行者同一时刻最多一个 in_progress**
+6. **半套修改排查（元凶 commit 读侧验证）**：根因=#444 commit `9d414dd62`（08-23 12:05）改 claim 写入口径（assignee=角色名）时**未同步读侧**（can_claim 锁匹配仍按实例名）→ 静默失效。排查 #444 触碰的写入口径是否还有**其他读侧消费点**未同步：grep 全链 `assignee` 消费处（find_blockers/can_claim/next_claimable/队列行解析），确认无同类"写侧改了读侧没改"的遗留
 
 ## 验证（验证分层）
 
@@ -50,6 +51,7 @@ claim 写入（action_claim → apply_updates）`assignee=_role_of(instance)` �
 - #445（角色实例分布映射）
 - E034/E038（执行状态核实纪律——本次发现=claim 后核 frontmatter）
 - 王语嫣 2026-08-24 锁诊断（老朱拍板：洞A 并入本单；洞B/C 另立 #504）
+- **元凶 commit**：`9d414dd62`（#444，08-23 12:05）——改写侧（assignee=角色名）未改读侧（锁匹配），静默失效只坑 laowantong（其他角色实例名=角色名同形不受影响）
 
 ## 需要谁动作
 
