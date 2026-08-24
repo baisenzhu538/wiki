@@ -1,14 +1,14 @@
 ---
 id: 503
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-24T15:52:49.988735+00:00'
+status: pending_review
+updated_at: '2026-08-24T16:09:14.600082+00:00'
 version: v0.2
 instance: huangyaoshi
 code_files:
-  - 90_control/scripts/queue_transition.py
-  - 90_control/scripts/queue_gate.py
-  - 90_control/scripts/tests/test_queue_transition.py
+- 90_control/scripts/queue_transition.py
+- 90_control/scripts/queue_gate.py
+- 90_control/scripts/tests/test_queue_transition.py
 ---
 
 # #503 claim 口径族根治（写入口径 + claimed 锁匹配）
