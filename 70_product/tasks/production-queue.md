@@ -144,6 +144,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 516 | `task_20260825_huangyaoshi-wechat-promote-dedup-processed` | wechat_promote去重键补_processed：已门禁判定隔离的卡不再生（一行级+回归） | queued | huangyaoshi | 去重修复+回归用例 | 无 | `60_feedback/tasks/task_20260825_huangyaoshi-wechat-promote-dedup-processed.md` | 王语嫣自办诊断立项（08-25隔离后当夜管线再生2张实证：去重只查PENDING/CASES/RERUN三处不查_processed）；门禁判定被再生击穿=E037隔离与去重键不兼容；欧阳锋终审 |
 | 517 | `task_20260825_huangyaoshi-src-unknown-body-gate` | pre-submit补「正文src_unknown占位」检查项：新卡ERROR/存量WARNING/只向前生效+安慰语口径核 | queued | huangyaoshi | 检查项+回归 | 无 | `60_feedback/tasks/task_20260825_huangyaoshi-src-unknown-body-gate.md` | 欧阳锋建议书R1裁定采纳（存量22871行/1524卡+PASS附安慰语=红线4误拦方向反了）；存量治理归#518；过渡口径R3已生效（欧阳锋见占位即FAIL）；欧阳锋终审 |
 | 518 | `task_20260825_laowantong-src-unknown-body-backfill` | 正文src_unknown存量治理（22871行/1524卡）：三类分流口径+清单先行+#426分批模式 | claimed-kimi-cli | laowantong | 清单+分批治理 | #517 门禁上线后启动（清单可先行） | `60_feedback/tasks/task_20260825_laowantong-src-unknown-body-backfill.md` | 欧阳锋建议书R2裁定采纳；口径王语嫣裁（可回填回填/无来源标待复核不编造/空壳节标欧阳锋裁定）；清单王语嫣过目后放首批；欧阳锋批次验收 |
+| 519 | `task_20260825_huangyaoshi-conveyor-probe-scheduled-noop` | 探针计划任务空转根治：运行但state不落盘（疑似GBK控制台emoji崩溃）+失败可见（崩溃落日志/空转报警） | queued | huangyaoshi | 环境修复+失败可见+回归 | 无 | `60_feedback/tasks/task_20260825_huangyaoshi-conveyor-probe-scheduled-noop.md` | 王语嫣自办诊断（老朱追问#498状态触发）：00:43后4个周期空转，#498终审+5新单全漏通知；手动跑正常=环境差异非代码；#501补偿机制崩溃盲区；欧阳锋终审 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
 ## ⚖️ 待终审（提审任务，queue_transition 自动登记）
