@@ -283,3 +283,9 @@ type: memory/role-recovery
 - **事故披露核验**：474 删除→473 恢复+1 真丢失（hermes/wangyuyan/.skills_prompt_snapshot.json）。负向断言"丢失"触发 #433 门禁——补存在性核查节，四路实测（源目录/三个 zip/热层 find）全确认丢失属实
 - **观察项 5 条**→建议书 `60_feedback/diagnosis/diag_20260825_ouyangfeng-l1-archive-hardening.md`（R1 CRC 抽检/R2 拒删接 gate-blocked/R3 事故上浮全厂 friction 台账，三元组契约已遵守）
 - **门禁教训**：终审记录含"丢失/未见/无"类负向词须附 `**存在性核查**` 锚点节，否则 queue_transition 拦截——先核查再落笔可省一轮返工
+
+## 2026-08-25 第十六场：#510 CAPSULE_STARTUP 风清扬路由终审 PASS A
+
+- **结论**：PASS A。文档小单，冻结版=提审时刻 commit 3794596cf；§2 路由行/§3 身份卡逐字对原文全一致；覆盖自检独立复数（hermes profiles 11 个亲数、agents/ 角色目录 10 个）；恢复路径可达（锚点+daily-context 2026-08-24.md）
+- **附带发现属实**：huangyaoshi hermes profile 实锤存在（profiles 列表第 5 位）——#509 前置条件过时，来历澄清已路由王语嫣/老朱
+- **观察项仅记录**：§0 git_head 静态字段提交后必漂移，文件已自注明惯例+校验容忍，设计内行为

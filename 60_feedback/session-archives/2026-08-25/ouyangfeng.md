@@ -2,6 +2,18 @@
 session_id: ouyangfeng-2026-08-25
 agent_id: ouyangfeng
 date: 2026-08-25
+created_at: 2026-08-24T18:14:46.314189+00:00
+updated_at: 2026-08-24T18:14:46.314189+00:00
+git_head: f7cd1890d
+content_hash: a4ad27d4a0dc
+---
+
+# ouyangfeng · 2026-08-25
+
+---
+session_id: ouyangfeng-2026-08-25
+agent_id: ouyangfeng
+date: 2026-08-25
 created_at: 2026-08-24T18:05:24.978753+00:00
 updated_at: 2026-08-24T18:05:24.978753+00:00
 git_head: cf0bfe4c7
@@ -556,3 +568,21 @@ cron 例行扫描捕获 #508 提审（L1 全量上下文改日期增量目录+�
 5 条观察项（CRC 抽检/拒删接 gate-blocked/mtime-only 判重/事故未上浮全厂 friction/mirror 死函数）合并落 `diag_20260825_ouyangfeng-l1-archive-hardening.md`（三元组契约遵守），出口钩子清账。
 
 *欧阳锋 · 2026-08-25 · #508 终审*
+
+---
+
+# 第十六场（08-25 · #510 CAPSULE_STARTUP 风清扬路由终审 PASS A）
+
+## 概要
+
+文档小单：唯一启动指针补风清扬路由行+身份卡+全角色覆盖自检（根治"审计者本人不在启动指针里=灯下黑"）。版本对齐 ✓；§2 行/§3 卡逐字对原文一致；覆盖自检我独立复数——hermes profiles 11 个亲数、agents/ 角色目录 10 个逐一比对；恢复路径实测可达（锚点+daily-context 最新 2026-08-24.md）。**PASS A**。
+
+## 审查增值点
+
+黄药师附带发现"hermes profiles 存在 huangyaoshi 活跃 profile（#509 前置条件已过时，来历不明）"——我独立核验实锤（profiles 列表第 5 位）。诚实上报+正确路由（王语嫣/老朱澄清后定 #509），此类发现是审查确认的价值而非问题。
+
+## 观察
+
+§0 git_head 静态字段提交后必漂移——文件已自注明该惯例且校验动作容忍漂移，设计内行为，记录不展开。本记录无新增"建议"承诺，出口钩子不触发。
+
+*欧阳锋 · 2026-08-25 · #510 终审*
