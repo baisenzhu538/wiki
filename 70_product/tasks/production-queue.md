@@ -126,7 +126,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 498 | `task_20260824_laowantong-dk-tags-word-count-caliber` | dk卡tags词量口径落地：轴文件+design补dk豁免条款(1-3词核心维度覆盖)+graph-rag回补至5-8 | queued | laowantong | 规则修改+回补 | 无 | `60_feedback/tasks/task_20260824_laowantong-dk-tags-word-count-caliber.md` | 欧阳锋建议书裁定采纳A+修正；王语嫣首轮直接改文件越界(老朱08-24纠偏)回滚重立执行单；普通卡维持5-8；#426批次线内不阻塞；欧阳锋终审 |
 | 499 | `task_20260824_laowantong-small-domain-axis-mapping` | 口径单：7无轴小域~60张按复用轴映射治理(收官堵点解封)+词不足上报 | pending_review | laowantong | 映射治理 | 无 | `60_feedback/tasks/task_20260824_laowantong-small-domain-axis-mapping.md` | 老顽童建议书裁定采纳方案1(复用轴映射零成本)；映射表王语嫣确认微调；不改domain字段(域归并挂F-051)；#426收官线内；欧阳锋验收备案。**FAIL返工中**(08-24欧阳锋：4张遗漏+清单与归域脱节)——返工节已追加(4+3张补治理+域字段实时扫描)，重提审后复审；24h未动升级(欧阳锋观察点) |
 | 500 | `task_20260824_laowantong-small-domain-batch2` | 第二批未覆盖小域~65张映射治理(收官冲刺)：确认映射+no-domain补域+未列域语义最近轴授权 | claimed-hermes | laowantong | 映射治理+补域 | #499 返工完成 | `60_feedback/tasks/task_20260824_laowantong-small-domain-batch2.md` | 老顽童建议书追加裁定；no-domain 3张走补域不走映射(#493同族)；依赖#499(E019完成未闭环优先)；rust词池已补全；收官信号=全库tags空缺复扫归零；欧阳锋验收备案 |
-| 501 | `task_20260824_huangyaoshi-role-todos-inbox` | 角色待办收件箱泛化：conveyor_probe通知全角色落盘todos/<role>.md(双通道)+CAPSULE_STARTUP挂启动读+故障窗口补偿 | claimed-huangyaoshi | huangyaoshi | probe扩展+入口挂载 | 无 | `60_feedback/tasks/task_20260824_huangyaoshi-role-todos-inbox.md` | 黄药师建议书裁定采纳；治编排者盲区(#499打回通知丢失实证)；复用F-036 _append_role_todo模式；不新增扫描器/不动#462；欧阳锋终审 |
+| 501 | `task_20260824_huangyaoshi-role-todos-inbox` | 角色待办收件箱泛化：conveyor_probe通知全角色落盘todos/<role>.md(双通道)+CAPSULE_STARTUP挂启动读+故障窗口补偿 | pending_review | huangyaoshi | probe扩展+入口挂载 | 无 | `60_feedback/tasks/task_20260824_huangyaoshi-role-todos-inbox.md` | 黄药师建议书裁定采纳；治编排者盲区(#499打回通知丢失实证)；复用F-036 _append_role_todo模式；不新增扫描器/不动#462；欧阳锋终审 |
 | 502 | `task_20260824_huangyaoshi-freeze-enforcement` | 落盘文件冻结机械化：file-flow-check加L10任务单正文冻结检测(4豁免)+health-check挂载+L7窗口口径 | queued | huangyaoshi | L10检测器+挂载 | 无 | `60_feedback/tasks/task_20260824_huangyaoshi-freeze-enforcement.md` | 老朱08-24指令「已落盘必须冻结」机制化；实证=老顽童batch2原文件追加事件(已自我纠偏)；待讨论点已拍板(执行报告节complete前+返工节豁免/warning不拦流转)；只报不自动改；欧阳锋终审 |
 | 503 | `task_20260824_huangyaoshi-claim-assignee-bug` | queue_transition claim assignee写入口径bug：kimi实例claim任务被误写laowantong(INSTANCE_ROLE_MAP错误反推) | queued | huangyaoshi | 写入口径修正+回归 | 无 | `60_feedback/tasks/task_20260824_huangyaoshi-claim-assignee-bug.md` | #497 claim实测发现(王语嫣kimi实例claim被改assignee)；claim应保持原assignee只写status+instance；INSTANCE_ROLE_MAP kimi映射移除；与#444口径对齐；欧阳锋终审 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
@@ -208,6 +208,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#497 task_20260824_wangyuyan-zijing-product-level-prep｜wangyuyan｜提审 08-24 22:18｜60_feedback/tasks/task_20260824_wangyuyan-zijing-product-level-prep.md~~ → 已终审 PASS （2026-08-24 欧阳锋）
 - #499 task_20260824_laowantong-small-domain-axis-mapping｜laowantong｜提审 08-24 22:23｜60_feedback/tasks/task_20260824_laowantong-small-domain-axis-mapping.md
 - #496 task_20260824_huangyaoshi-source-refs-gate-fix｜huangyaoshi｜提审 08-24 22:30｜60_feedback/tasks/task_20260824_huangyaoshi-source-refs-gate-fix.md
+- #501 task_20260824_huangyaoshi-role-todos-inbox｜huangyaoshi｜提审 08-24 22:37｜60_feedback/tasks/task_20260824_huangyaoshi-role-todos-inbox.md
 
 <!-- REVIEW-PENDING-END -->
 
@@ -309,6 +310,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~diag_20260824_huangyaoshi-role-todos-inbox.md｜08-24 待王语嫣复核裁定~~ → 编排决策（2026-08-24 王语嫣）：**采纳立项 #501**（黄药师）——conveyor_probe 通知全角色落盘 `90_control/todos/<role>.md`（复用 F-036 `_append_role_todo`，双通道：飞书推+CLI 拉）+ CAPSULE_STARTUP 各角色入口挂启动读 + 故障窗口补偿（探针间隔>2×周期提示补扫）；边界守住（不新增扫描器/不动 #462）；#499 打回已手动补录 `todos-wangyuyan.md` 作首例
 - ~~diag_20260824_ouyangfeng-499-rework-pending.md｜08-24 待王语嫣复核处置~~ → 处置（2026-08-24 王语嫣）：**采纳核实结论**——返工未完成属实（4+3 张 tags 原状/无提审），复审时机未到，不做无谓复审；返工完成信号=REVIEW-PENDING 出现 #499 重提审行；**24h 观察点**：08-25 仍未提审则升级处理；#499 返工优先级已通过 #500 依赖列锁定（E019 完成未闭环优先）
 - ~~diag_20260824_huangyaoshi-freeze-enforcement.md｜08-24 待王语嫣复核裁定~~ → 编排决策（2026-08-24 王语嫣）：**采纳立项 #502**（黄药师）——file-flow-check 加 L10「任务单正文冻结检测」（queued+ 状态 git diff HEAD，四类豁免：frontmatter 状态字段/执行报告节 complete 前/终审记录节/返工要求节）+ health-check 每日挂载 + L7「落盘即冻结」窗口口径（≤10min 登记前豁免）；待讨论点拍板：①执行报告节豁免=complete 前+FAIL 后返工节（提审后非返工追加报警）②报警 **warning 不拦流转**（冻结违反应人处置）；只报不自动改。实证=老顽童 batch2 原文件追加事件（已自我纠偏拆新文件）
+- [gate-blocked] task_20260824_huangyaoshi-source-refs-gate-fix｜08-24 22:36｜待王语嫣复核处置｜2026-08-24 22:29:40｜task_20260824_huangyaoshi-source-refs-gate-fix｜F-034-五字段｜执行报告缺 5 个字段（#429 F-034）：改动文件清单、完成内容一句话、验证命令+输出、未做项/边界、需要谁动作。请补全后重试，或 --force --reason '<理由>' 声明例外（#4｜huangyaoshi
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |

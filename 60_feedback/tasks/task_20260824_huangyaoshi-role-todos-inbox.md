@@ -1,8 +1,8 @@
 ---
 id: 501
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-24T14:35:31.422826+00:00'
+status: pending_review
+updated_at: '2026-08-24T14:37:15.730690+00:00'
 version: v0.1
 instance: huangyaoshi
 ---
@@ -52,4 +52,25 @@ instance: huangyaoshi
 - **王语嫣**：验收 CLI 收件箱效果（下次流转事件）
 - **欧阳锋**：终审本单
 
-## 执行报告（F-034 五字段，complete 前必填）
+## 执行报告（2026-08-24 黄药师）
+
+**完成内容**：角色待办收件箱泛化（D-002 采纳落地）——探针通知全角色落盘 todos/<role>.md（CLI 实例收件箱）+ CAPSULE_STARTUP 入口 + 故障窗口补偿。
+
+**交付物**（改动文件清单）：
+1. `kdo-tools/conveyor_probe.py`：`_append_role_todo` 泛化（全角色 → `90_control/todos/<role>.md` 追加式）；main 通知循环统一落盘（deduped 消息、非 dry-run）；故障窗口补偿（last_run_ts 间隔 >20min 提示补扫）
+2. `90_control/todos/`（新目录）：ouyangfeng.md + wangyuyan.md（存量迁移，含 #499 打回/欧阳锋 F-036 首例）
+3. `.kdo/CAPSULE_STARTUP.md`：§2 加"角色待办收件箱"共享提示（各角色启动读 todos/<role>.md）
+4. `kdo-tools/tests/test_conveyor_probe.py`：2 用例（全角色落盘/追加式）
+
+**验证**（命令+输出）：
+- L1 单测：`pytest tests/test_conveyor_probe.py` → **21 passed**（含新增 2）；kdo-tools 全量 → **75 passed**
+- L2 狗粮：探针 dry-run 冒烟（夜间静默 3 条进待补发=设计路径正常）；todos/ 落盘生效（wangyuyan/ouyangfeng 文件在，含存量 #499 首例）
+- L3 待活体：下一次角色流转事件（提审/打回/建议书）CLI 实例读 todos 文件即见，不再靠用户提醒
+
+**未做项**：
+- 待办清理/完成标注由各角色自管（任务书边界，后续可立项）
+- 飞书推送不动（#462 在外实例照常）
+
+**需要谁动作**：
+- 各角色：启动读 `90_control/todos/<role>.md`（CAPSULE_STARTUP 已挂提示）
+- 欧阳锋：终审本单（抽「全角色落盘/幂等/迁移/入口」）
