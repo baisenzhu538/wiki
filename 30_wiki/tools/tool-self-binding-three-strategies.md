@@ -11,7 +11,7 @@ domain:
 author: 老顽童
 reviewed_by: 待审
 created_at: '2026-08-23'
-updated_at: '2026-08-23'
+updated_at: '2026-08-25'
 quality_labels:
 - actionable
 - insight
@@ -25,8 +25,7 @@ aliases:
 - 拆书会第216期：《成瘾》逐字稿
 - 拆书会第216期
 - 转述自《成瘾》安娜·伦布克
-source_context:
-  - 拆书会
+source_context: 拆书会第 216 期《成瘾》——王语嫣诊断 D-20260823-015，转述二等（原书一等）
 source_person: 安娜·伦布克（原书作者）
 source_refs:
 - 00_inbox/拆书会第216期：《成瘾》逐字稿.md#L179-L215
