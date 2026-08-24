@@ -45,9 +45,11 @@ diagnostic_signals:
 - src_unknown
 - src_unknown# C-5：TODO 字符串匹配过宽→正文中的 TODOs/TODOable 被误报为占位符
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 方法
+  - 边界
 ---
 ## 原始表述/核心洞察
 
@@ -99,6 +101,11 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+
+## Critique
+
+- **内部局限**：TODO 匹配过宽（TODOs/TODOable 被误报）是字符串匹配的精度问题——本卡记录的修复方向（精确匹配/排除后缀）依赖正则边界设计；误报 vs 漏报的权衡需要团队定调（宁多报还是宁漏报）。
+- **外部攻击（静态分析视角）**：占位符检测不应依赖简单字符串匹配——应结合上下文（代码块内/注释内/正文标题）判断；现代做法是语法感知分析（AST）而非正则；误报清单应支持"用户确认后免报"机制（false positive 学习）。
 
 ## 与其他知识的关联
 

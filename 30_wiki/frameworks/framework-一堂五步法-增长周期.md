@@ -26,6 +26,11 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 第二曲线
+  - 市场
+  - 渠道
+  - 组织
+  - 品牌
 aliases: null
 ---
 # 一堂五步法·增长周期：获客驱动/系统驱动/对抗驱动三阶段

@@ -25,9 +25,13 @@ discoverable_by:
   - 战略四层结构
   - 集团→业务单元→职能→执行
 tags:
-- audience:executor
-- scene:execution
-- skill-level:advanced
+  - audience:executor
+  - scene:execution
+  - skill-level:advanced
+  - 战略
+  - 企业
+  - 市场
+  - 品牌
 related:
   - '[[case-strategy-walmart-vs-costco-pyramid]]'
 ---

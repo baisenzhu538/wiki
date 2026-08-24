@@ -27,9 +27,15 @@ discoverable_by:
   - 帕雷托图80/20法则
   - 识别库存/客户/品类的关键少数
 tags:
-- audience:executor
-- scene:execution
-- skill-level:advanced
+  - audience:executor
+  - scene:execution
+  - skill-level:advanced
+  - 战略
+  - 新业务
+  - 渠道
+  - 机制
+  - 边界
+  - 反例
 related:
   - '[[concept-feishu-api-pagination-trap]]'
   - '[[concept-strategy-framework-landscape]]'

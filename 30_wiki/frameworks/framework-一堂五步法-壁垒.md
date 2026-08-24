@@ -26,6 +26,12 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 护城河
+  - 市场
+  - 组织
+  - 品牌
+  - 方法
+  - 口述
 aliases: null
 ---
 # 一堂五步法·壁垒：六大护城河+真假壁垒判断

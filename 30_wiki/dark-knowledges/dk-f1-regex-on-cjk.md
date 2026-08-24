@@ -63,9 +63,12 @@ diagnostic_signals:
   follow_up_question: 审计所有基于 regex 的提取器，把 `\\b` 替换为 CJK-aware 模式或改用分词库，并在中文样本上回归测试
 review_date: '2026-06-28'
 tags:
-- audience:executor
-- scene:reference
-- skill-level:beginner
+  - audience:executor
+  - scene:reference
+  - skill-level:beginner
+  - 方法
+  - 边界
+  - Agent
 ---
 
 ## 原始表述
@@ -168,6 +171,11 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+
+## Critique
+
+- **内部局限**：F-KDO-001 记录 CJK regex 零返回的根因（regex 库对 CJK 的 Unicode 支持缺陷）——本卡是故障知识卡（诊断+修复方向）；卡内容依赖当时 KDO 版本的实现细节（版本演进后需更新）。
+- **外部攻击（工程视角）**：CJK 正则问题是国际化软件的经典坑——根治方案是"测试先行"（为 CJK 写单测）；Python re 对 CJK 的 \w 边界行为需显式处理（Unicode 标志）；"永远返回 0 pages"说明缺少 smoke test（每次发布前跑一次中文样例）。
 
 ## 与其他知识的关联
 

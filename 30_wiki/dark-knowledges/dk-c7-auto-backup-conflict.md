@@ -52,9 +52,12 @@ diagnostic_signals:
   follow_up_question: 该 backup commit 是否需要拆分重建，以恢复可检索、可回滚的历史？# C-7：Obsidian auto-backup
     干扰 commit 拆分→staged 文件被自动打包提交
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 工具
+  - 方法
+  - 边界
 ---
 
 ## 原始表述 / 核心洞察
@@ -106,6 +109,11 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+
+## Critique
+
+- **内部局限**：Obsidian auto-backup 干扰 commit 是环境冲突（第三方插件行为不可控）——本卡记录的是具体工作流的坑；修复方向（排除规则/提交策略）依赖用户的工具链配置。
+- **外部攻击（版本控制视角）**：自动提交/自动备份与手控 commit 混用是 git 工作流的大忌——应隔离（备份走独立分支/独立仓库）；"staged 文件被自动打包提交"说明缺少"提交前 diff 审查"习惯；正确做法是 commit 前总是 review diff。
 
 ## 与其他知识的关联
 

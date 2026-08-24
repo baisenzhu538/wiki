@@ -26,6 +26,9 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 行业
+  - 方法
+  - 模型
 aliases: null
 ---
 # 科学提问：AI时代提问=生产力入口

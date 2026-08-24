@@ -25,9 +25,16 @@ discoverable_by:
   - 九个常见战略问题
   - 方向/目标/定位/路径/共识/组织/能力/资源/机制
 tags:
-- audience:manager
-- scene:execution
-- skill-level:advanced
+  - audience:manager
+  - scene:execution
+  - skill-level:advanced
+  - 战略
+  - 企业
+  - 市场
+  - 渠道
+  - 组织
+  - 并购
+  - 品牌
 related:
   - '[[tool-ai-problem-question-check]]'
   - '[[tool-纪浩-problem-validation-four-checks]]'

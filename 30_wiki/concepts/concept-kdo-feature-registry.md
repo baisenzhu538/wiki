@@ -17,9 +17,14 @@ source_refs:
 created_at: 2026-08-08
 updated_at: 2026-08-16
 tags:
-- audience:huangyaoshi
-- scene:reference
-- skill-level:advanced
+  - audience:huangyaoshi
+  - scene:reference
+  - skill-level:advanced
+  - 文档
+  - 门禁
+  - 工具
+  - 复盘
+  - 口述
 aliases:
 - Feature注册表
 - KDO Feature

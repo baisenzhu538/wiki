@@ -36,9 +36,13 @@ related:
 - '[[yt-tool-knowledge-extraction]]'
 - '[[yt-tool-hiring-scorecard]]'
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 框架
+  - 方法
+  - 流程
+  - 边界
 ---
 # 新人落地
 

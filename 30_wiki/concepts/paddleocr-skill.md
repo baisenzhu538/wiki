@@ -30,9 +30,10 @@ related:
 - '[[tool-yitang-18-strategy-tool-mapping]]'
 - '[[tool-半肥猫-course-to-skill-workflow]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 文档
 ---
 # PaddleOCR — 本地 ONNX + 云端 API 双模 OCR Skill
 

@@ -11,6 +11,11 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 市场
+  - 组织
+  - 工具
+  - 方法
+  - 复盘
 source_person: Truman（一堂）+ Competitive Intelligence Alliance + BestBootcamps
 source_context: CI Operating Model Implement 阶段工具化实现
 aliases:

@@ -28,6 +28,9 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 工具
+  - 模型
+  - 投资人
 aliases: null
 ---
 # 表达力火箭模型：四要素递进

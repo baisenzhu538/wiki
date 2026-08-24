@@ -53,9 +53,14 @@ diagnostic_signals:
   follow_up_question: 强制分 session：当前 session 只完成编译和 angle 确认，新 session 负责 produce
     填充# C-6：大源文件导致 session 容量超载→produce 骨架生成但内容填不进去
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 卡片
+  - 源文件
+  - 方法
+  - 边界
+  - Agent
 ---
 
 ## 原始表述
@@ -108,6 +113,11 @@ C-6 的本质不是"文件太大"，而是**把两个高消耗阶段硬塞进同
 - src_unknown
 - src_unknown
 - src_unknown
+
+## Critique
+
+- **内部局限**：大源文件导致容量超载是 session 上下文限制的工程约束——本卡记录的是 KDO produce 的具体表现（骨架生成但内容填不进）；修复方向（分块处理/摘要中间层）依赖架构决策。
+- **外部攻击（LLM 工程视角）**：大源文件处理是 RAG 类系统的经典问题——正确做法是"分块+检索"而非全量塞入上下文；"骨架生成但内容填不进去"说明 pipeline 的中间状态管理缺失（部分失败应部分成功+报告）；容量管理应前置（输入时预估 token 超限即分流）。
 
 ## 与其他知识的关联
 

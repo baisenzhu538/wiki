@@ -37,6 +37,9 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 品牌
+  - 工具
+  - 口述
 ---
 # 一堂影响力 36 计：6 原则 × 6 强度
 

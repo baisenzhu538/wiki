@@ -54,9 +54,13 @@ diagnostic_signals:
 - src_unknown
 - src_unknown# F-KDO-010：溯源断裂→source_refs 为空，知识卡片无法追溯到原始材料
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 卡片
+  - 源文件
+  - 方法
+  - 边界
 ---
 
 ## 原始表述/核心洞察
@@ -119,6 +123,11 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+
+## Critique
+
+- **内部局限**：source_refs 为空是溯源断裂——本卡记录的是"知识卡片无法追溯原始材料"的失败模式；修复方向（强制 source 校验/迁移映射）依赖数据治理。
+- **外部攻击（知识管理视角）**：溯源断裂的根源是"产出时未记录来源"——应把 source 记录设为产出前置（无 source 不产卡）；存量卡溯源重建成本高（需回到原始素材）；"可追溯性"是知识资产价值的基石（没有来源的知识=不可验证的断言）。
 
 ## 与其他知识的关联
 

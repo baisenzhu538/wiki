@@ -51,9 +51,13 @@ diagnostic_signals:
 - src_unknown
 - src_unknown# F-KDO-011：百科词条化→概念卡写成定义→分类→特征→应用场景
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 知识萃取
+  - 卡片
+  - 方法
+  - 边界
 ---
 
 ## 原始表述
@@ -111,6 +115,11 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+
+## Critique
+
+- **内部局限**：百科词条化（定义→分类→特征→应用场景）是知识卡模板化的失败模式——本卡警示"写成百科而非决策工具"；修复方向（决策导向重构）依赖卡片定位（KDO 卡是行动工具不是百科全书）。
+- **外部攻击（知识表达视角）**：百科式结构并非全错——概念类卡片的"定义+分类"是必要基础；问题是缺少"决策/行动"锚点（读了能用吗？）；知识卡的价值在"连接决策场景"而非"完整描述概念"；应保留百科的清晰性，补上 KDO 的行动性。
 
 ## 与其他知识的关联
 

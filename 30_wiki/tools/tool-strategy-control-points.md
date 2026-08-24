@@ -31,6 +31,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 战略
+  - 护城河
+  - 企业
+  - 行业
+  - 市场
+  - 品牌
+  - 工具
 ---
 # 战略控制点设计工具：价值定位模型
 

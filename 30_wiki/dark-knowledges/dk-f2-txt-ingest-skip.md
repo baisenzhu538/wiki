@@ -44,9 +44,11 @@ confidence: 0.7
 trust_level: low
 review_date: '2026-06-28'
 tags:
-- audience:executor
-- scene:reference
-- skill-level:beginner
+  - audience:executor
+  - scene:reference
+  - skill-level:beginner
+  - 源文件
+  - 方法
 ---
 
 ## 原始表述
@@ -150,6 +152,11 @@ KDO ingest 的"静默跳过"不是 bug，而是**设计选择**：扩展名白�
 - src_unknown
 - src_unknown
 - src_unknown
+
+## Critique
+
+- **内部局限**：F-KDO-002 与 C-3 同类（非 .md 文件静默跳过）——本卡是故障系列卡；修复方向同 C-3（显式失败+文档边界）。
+- **外部攻击（用户视角）**：与 C-3 相同——工具应显式告知"不支持此格式"而非静默成功；用户预期管理（文档明确支持范围）比事后补救便宜；同族故障应合并修复（一次修复多处受益）。
 
 ## 与其他知识的关联
 

@@ -25,6 +25,12 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 行业
+  - 市场
+  - 方法
+  - 模型
+  - 边界
+  - 口述
 aliases: null
 ---
 # 五类工作 × 4化：基本功的进攻方向诊断图

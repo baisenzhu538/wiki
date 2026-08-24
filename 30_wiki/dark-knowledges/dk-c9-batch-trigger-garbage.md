@@ -48,9 +48,13 @@ diagnostic_signals:
   follow_up_question: 抽检 3 张卡的 query_triggers，逐条问'你会这样搜吗？'，有一条不合格就返工# C-9：批处理脚本提取
     query_triggers→格式合法但语义垃圾，真 trigger 被淹没
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 卡片
+  - 标签
+  - 工具
+  - 方法
 ---
 ## 原始表述/核心洞察
 
@@ -120,6 +124,11 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+
+## Critique
+
+- **内部局限**：批处理提取 query_triggers 产生语义垃圾是自动化提取的精度问题——本卡记录的是"格式合法但语义无用"的失败模式；修复方向（人工确认/词典约束）依赖流程设计。
+- **外部攻击（NLP 视角）**：自动提取关键词（trigger）本质是信息抽取任务——纯规则提取必然产生噪声；正确做法是"提取+过滤+人工确认"三阶段；"真 trigger 被淹没"说明缺少排序/打分机制；宁缺毋滥（少而准的 trigger 优于多而杂）。
 
 ## 与其他知识的关联
 

@@ -26,6 +26,11 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 行业
+  - 转型
+  - 框架
+  - 方法
+  - 模型
 aliases: null
 ---
 # 思维模型：项目随时换、模型永生

@@ -35,9 +35,15 @@ related:
 - '[[meta-prompt-eng]]'
 - '[[product-ux]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 卡片
+  - 框架
+  - 工具
+  - 方法
+  - 边界
+  - 复盘
 ---
 # Learning Thinking
 

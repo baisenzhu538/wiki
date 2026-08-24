@@ -25,9 +25,12 @@ discoverable_by:
   - 12词战略测试
   - 只有份额/收入/ROI/SWOT/OKR/数字化这些≠战略
 tags:
-- audience:executor
-- scene:execution
-- skill-level:advanced
+  - audience:executor
+  - scene:execution
+  - skill-level:advanced
+  - 战略
+  - 市场
+  - 工具
 related:
   - '[[dk-p11-regex-cutoff]]'
   - '[[tool-asset-file-naming-convention]]'

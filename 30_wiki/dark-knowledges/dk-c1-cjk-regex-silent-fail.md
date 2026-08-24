@@ -56,9 +56,15 @@ diagnostic_signals:
   framework_lens: 脚本复制了 extractors.py 的 \b / 英文 keyword / 长度阈值逻辑，继承了同样的 CJK 盲区
   follow_up_question: 审查脚本 regex，将 \b 替换为 CJK-aware 分词或改用 LLM/NLP 库；参考 F-KDO-001 防御模式
 tags:
-- audience:executor
-- scene:reference
-- skill-level:beginner
+  - audience:executor
+  - scene:reference
+  - skill-level:beginner
+  - 管线
+  - 工具
+  - 方法
+  - 边界
+  - 静默失败
+  - Agent
 ---
 
 ## 原始表述
@@ -140,6 +146,11 @@ CJK 正则静默失败不是单纯的“中文 bug”，而是一类**以英文�
 - src_unknown
 - src_unknown
 - src_unknown
+
+## Critique
+
+- **内部局限**：本卡记录的是 KDO v0.0.1 的已知缺陷（CJK regex 静默失败）——修复状态随版本演进变化（新版本可能已修复），卡内容需要持续维护；"0 pages enriched"的静默失败是 CLI 设计缺陷（无错误信号），修复优先级依赖维护者判断。
+- **外部攻击（测试视角）**：静默失败的根本问题是缺少"返回码/错误通道"契约——单元测试应覆盖 CJK 边界（中文/日文/emoji）；工具设计上"成功但没做事"比报错更危险（用户信任损耗）；防御式做法是 enrich 前先 dry-run 校验匹配数。
 
 ## 与其他知识的关联
 

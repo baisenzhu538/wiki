@@ -51,9 +51,12 @@ diagnostic_signals:
 - src_unknown
 - src_unknown# F-KDO-005：过期 feedback 引用残留→kdo lint 报错但文件已不存在
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 元数据
+  - 方法
+  - 边界
 ---
 
 ## 原始表述/核心洞察
@@ -115,6 +118,11 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+
+## Critique
+
+- **内部局限**：过期 feedback 引用残留是清理机制缺失——本卡记录的是"lint 报错但文件已不存在"（引用与文件生命周期不同步）；修复方向（lint 时校验引用存在性/自动清理）依赖工具。
+- **外部攻击（数据治理视角）**：引用完整性（referential integrity）是数据库的基本要求——文件系统的 wiki 缺少外键约束，需要 lint 工具补位；"残留引用"说明删除操作未级联清理引用方；正确做法是删除文件时自动扫描并更新引用（或 lint 标记孤儿引用）。
 
 ## 与其他知识的关联
 

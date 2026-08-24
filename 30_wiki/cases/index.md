@@ -18,9 +18,13 @@ source_context: （原始 source 无法追溯，已标记为 src_unknown，待�
 aliases:
   - 案例索引
 tags:
-- audience:manager
-- scene:reference
-- skill-level:beginner
+  - audience:manager
+  - scene:reference
+  - skill-level:beginner
+  - 工具
+  - 方法
+  - Agent
+  - 基线
 related:
   - '[[kdo-protocol]]'
 ---

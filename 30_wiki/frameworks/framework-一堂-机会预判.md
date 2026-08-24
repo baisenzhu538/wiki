@@ -48,6 +48,12 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 单元模型
+  - 行业
+  - 框架
+  - 模型
+  - CEO
+  - 口述
 aliases: null
 ---
 # 一堂·机会预判：CEO 的预判操作系统（总框架）

@@ -46,9 +46,14 @@ diagnostic_signals:
 - src_unknown
 - src_unknown# C-11：洪七公跳步——三段画面连续产出，三次提报全部跳过
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 机制
+  - 方法
+  - 流程
+  - 边界
+  - 审查者
 ---
 ## 原始表述 / 核心洞察
 
@@ -106,6 +111,11 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+
+## Critique
+
+- **内部局限**：本卡记录的是流程纪律问题（跳步/跳过提报）——复盘卡的价值依赖团队真的改变行为（仅记录不改变=自我感动）；"三段连续产出"的上下文是具体任务，不能泛化为所有任务都应逐段提报（过细提报拖慢效率）。
+- **外部攻击（流程设计视角）**：跳步的根源可能是提报成本过高（每段提报的往返开销）而非成员纪律问题——流程设计应平衡"检查点密度"与"产出效率"；更好的机制是"里程碑提报"（关键节点才报）而非"每段都报"；复盘归因不能只怪个人，要看系统是否激励了跳步。
 
 ## 与其他知识的关联
 

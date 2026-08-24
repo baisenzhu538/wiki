@@ -2,6 +2,7 @@
 id: ec工业化规范手册-v2.8.0
 updated_at: '2026-08-20'
 title: ec工业化规范手册 v2.8.0
+reviewed_by: 待审
 discoverable_by:
 - ec工业化规范手册 v2.8.0
 - ec工业化规范手册
@@ -21,9 +22,15 @@ aliases:
 source_refs:
   - src_unknown
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 文档
+  - 卡片
+  - 工具
+  - 验收
+  - 规范
+  - 审查者
 type: concept
 status: draft
 domain:

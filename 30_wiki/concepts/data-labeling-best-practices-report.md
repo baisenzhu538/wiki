@@ -34,9 +34,16 @@ related:
 - '[[dk-p17-accuracy-gap]]'
 - '[[fix-dark-knowledge-extractor-llm]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:beginner
+  - audience:general
+  - scene:reference
+  - skill-level:beginner
+  - 数据标注
+  - 标签体系
+  - 数据集
+  - 标签
+  - 管线
+  - 框架
+  - 方法
 ---
 # 数据标注最佳实践调研报告
 

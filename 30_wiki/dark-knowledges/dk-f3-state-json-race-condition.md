@@ -56,9 +56,11 @@ diagnostic_signals:
 - src_unknown
 - src_unknown# F-KDO-003：state.json 覆盖写竞态→improve 执行后 revision 记录丢失
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 方法
+  - 边界
 ---
 
 ## 原始表述
@@ -113,6 +115,11 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+
+## Critique
+
+- **内部局限**：state.json 覆盖写竞态是并发控制缺陷——本卡记录的是"improve 执行后 revision 丢失"（写后读不一致）；修复方向（锁/原子写/版本号）依赖架构。
+- **外部攻击（分布式系统视角）**：单文件状态存储的并发控制是经典问题——正确做法是"原子写（写临时文件+rename）"+"乐观锁（版本号冲突检测）"；"覆盖写竞态"说明缺少并发测试（多进程同时 improve）；更稳妥的是改为数据库/每任务独立状态文件。
 
 ## 与其他知识的关联
 

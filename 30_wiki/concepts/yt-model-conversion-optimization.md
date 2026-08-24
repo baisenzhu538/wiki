@@ -67,6 +67,7 @@ tags:
   - audience:ceo
   - scene:diagnosis
   - skill-level:intermediate
+  - 机制
 ---
 # 转化率优化：动力三曲线 × 十大浪费触点
 

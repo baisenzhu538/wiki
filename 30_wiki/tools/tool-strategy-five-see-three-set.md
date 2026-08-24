@@ -29,9 +29,16 @@ discoverable_by:
   - 看行业/市场/客户/竞争/自己
   - 定控制点/目标/路径
 tags:
-- audience:executor
-- scene:execution
-- skill-level:advanced
+  - audience:executor
+  - scene:execution
+  - skill-level:advanced
+  - 战略
+  - 商业模式
+  - 价值链
+  - 战略规划
+  - 护城河
+  - 企业
+  - 行业
 related:
   - '[[tool-strategy-market-opportunity-matrix]]'
 ---

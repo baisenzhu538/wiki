@@ -54,9 +54,12 @@ diagnostic_signals:
 - src_unknown
 - src_unknown# F-KDO-004：错误工作目录执行 pipeline 命令→命令静默失败、无报错、无文件变更
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 方法
+  - 边界
+  - 静默失败
 ---
 
 ## 原始表述/核心洞察
@@ -113,6 +116,11 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+
+## Critique
+
+- **内部局限**：错误工作目录执行命令是环境使用错误——本卡记录的是"命令静默失败无报错"的 UX 缺陷（无工作目录校验）；修复方向（启动时校验 cwd+明确报错）。
+- **外部攻击（CLI 设计视角）**：CLI 工具应在启动时验证环境前提（cwd 是否含 state.json/仓库）——缺前置校验的静默失败是最差的 UX；正确做法是"启动自检+失败明确提示"（如"未找到 KDO 仓库，请 cd 到正确目录"）；文档也应写明运行前提。
 
 ## 与其他知识的关联
 

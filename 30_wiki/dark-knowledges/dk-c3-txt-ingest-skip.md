@@ -65,9 +65,16 @@ diagnostic_signals:
   follow_up_question: 是否在 inbox 入口有 CONTRIBUTING/README 说明？是否在 CI/预提交钩子中跑 `find 00_inbox
     -type f ! -name '*.md'` 并阻塞合并？
 tags:
-- audience:executor
-- scene:reference
-- skill-level:beginner
+  - audience:executor
+  - scene:reference
+  - skill-level:beginner
+  - 元数据
+  - 卡片
+  - 源文件
+  - 管线
+  - 方法
+  - 流程
+  - 规范
 ---
 
 # C-3：.txt 文件被 kdo ingest 静默跳过→state.json 无变化但返回成功
@@ -165,6 +172,11 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+
+## Critique
+
+- **内部局限**：.txt 静默跳过是 ingest 支持的边界——记录本卡时的 KDO 版本只支持 .md；新增格式（txt/pdf）支持是路线图问题（有优先级竞争）；"返回成功但没做事"是 CLI 契约缺陷（应返回警告/非零码）。
+- **外部攻击（用户视角）**：工具行为应与用户预期一致——用户放入 .txt 期望被处理（至少明确提示"不支持"）；"静默跳过+成功返回"违反最小惊讶原则；工具设计应"显式失败"（报错比撒谎好）；文档应写明支持格式边界。
 
 ## 与其他知识的关联
 

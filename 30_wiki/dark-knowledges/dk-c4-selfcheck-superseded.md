@@ -51,9 +51,12 @@ diagnostic_signals:
   follow_up_question: 每新增一个 status，先判定是中间态还是终态；终态必须同步到所有检查函数的 skip 集合# C-4：自检误报 superseded
     页面→终态卡片被标记为未 enrich
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 卡片
+  - 方法
+  - 边界
 ---
 
 ## 原始表述
@@ -109,6 +112,11 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+
+## Critique
+
+- **内部局限**：自检误报 superseded 是状态判断逻辑的缺陷（把终态当未完成）——修复依赖状态语义的精确化；"终态卡片被标记为未 enrich"说明自检逻辑与状态机的耦合错误。
+- **外部攻击（测试视角）**：自检工具本身需要测试（对状态机的边界用例：终态/草稿/已废弃）——误报的根源是缺少"终态卡片不应触发 enrich 检查"的规则；自检误报比漏报更伤（用户对工具失去信任）；应记录误报率指标。
 
 ## 与其他知识的关联
 

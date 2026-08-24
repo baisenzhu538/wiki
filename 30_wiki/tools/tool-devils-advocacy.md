@@ -10,6 +10,8 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 工具
+  - 方法
 source_person: Richars J. Heuer Jr. + Truman（一堂）
 source_context: SATs 反向类技术工具化实现
 aliases:

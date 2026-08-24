@@ -25,6 +25,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 商业模式
+  - 单元模型
+  - 组织
+  - 工具
+  - 方法
+  - 模型
+  - 实战
 aliases: null
 ---
 # 苦练基本功总纲：人不是组织能力的最小单位，基本功才是

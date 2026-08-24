@@ -30,6 +30,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 战略
+  - 价值链
+  - 市场
+  - 渠道
+  - 组织
+  - 品牌
+  - 工具
 ---
 # 活动范围设计工具：What × How × Where 三问
 

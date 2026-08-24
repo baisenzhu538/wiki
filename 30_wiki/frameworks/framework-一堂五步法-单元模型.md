@@ -28,6 +28,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 单元模型
+  - 产品线
+  - 定价
+  - 渠道
+  - 组织
+  - 模型
+  - 口述
 aliases: null
 ---
 # 一堂五步法·单元模型：斧子/尺子/梯子三角色

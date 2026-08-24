@@ -25,6 +25,11 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 元数据
+  - 卡片
+  - 方法
+  - 规范
+  - 边界
 discoverable_by:
   - F-KDO-013：手写 YAML 解析器导致嵌套数据丢失
   - 解析器导致嵌套数据丢失
@@ -108,6 +113,11 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown
+
+## Critique
+
+- **内部局限**：手写 YAML 解析器导致嵌套数据丢失——本卡记录的是"自己造轮子"的代价（YAML 规范复杂，手写必有坑）；修复方向（用标准库/成熟库）依赖工程决策。
+- **外部攻击（软件工程视角）**：YAML 是出了名难解析的格式（别名/锚点/多文档）——手写解析器几乎必然在边界用例失败；正确做法是依赖 PyYAML/ruamel 等成熟库；"嵌套数据丢失"说明缺少集成测试（用复杂 YAML 夹具验证）；工具链应"站在巨人的肩膀上"。
 
 ## 与其他知识的关联
 

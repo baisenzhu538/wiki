@@ -52,9 +52,16 @@ diagnostic_signals:
 - src_unknown
 - src_unknown# C-8：批处理格式升级产生格式完整但思维空洞的卡片
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 卡片
+  - 标签
+  - 门禁
+  - 工具
+  - 方法
+  - 边界
+  - 反例
 ---
 ## 原始表述/核心洞察
 
@@ -103,6 +110,11 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+
+## Critique
+
+- **内部局限**：格式完整但思维空洞是模板化生产的副产物——本卡警示的是"检查项全过≠内容有价值"；修复方向（内容质量评审/暗知识门槛）依赖评审机制。
+- **外部攻击（知识管理视角）**：格式完整思维空洞的根源是"产出导向"压过"思考导向"——KPI 若按卡数/格式达标衡量，必然诱导模板填充；质量门禁应检查"实质内容"（新洞察/数据/反例）而非只有格式；"少而精"应优于"多而空"。
 
 ## 与其他知识的关联
 

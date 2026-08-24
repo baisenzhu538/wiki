@@ -46,9 +46,15 @@ diagnostic_signals:
 - src_unknown
 - src_unknown# C-10：基础设施工具改后直接跑批量→71张卡攻击者内容被清空
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 卡片
+  - 机制
+  - 工具
+  - 方法
+  - 流程
+  - 边界
 ---
 ## 原始表述/核心洞察
 

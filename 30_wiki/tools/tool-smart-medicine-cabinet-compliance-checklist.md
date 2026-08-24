@@ -32,9 +32,11 @@ related:
 - tool-strategy-gap-analysis
 - tool-ai-use-barbell-strategy
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 框架
+  - 工具
 ---
 ## 操作步骤
 

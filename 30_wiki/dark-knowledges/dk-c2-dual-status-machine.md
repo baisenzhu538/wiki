@@ -57,9 +57,13 @@ diagnostic_signals:
   follow_up_question: 在对外接口文档中写明 `status` 的双重语义和两张取值表；考虑对外暴露拆分后的字段（如 `compile_status`
     / `approval_status`）# C-2：Schema status 字段混用两个状态机→字段值互相污染
 tags:
-- audience:executor
-- scene:reference
-- skill-level:beginner
+  - audience:executor
+  - scene:reference
+  - skill-level:beginner
+  - 文档
+  - 方法
+  - 流程
+  - 边界
 ---
 ## 原始表述
 
@@ -135,6 +139,11 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+
+## Critique
+
+- **内部局限**：状态机混用是 schema 设计的经典错误——本卡记录的是 KDO 具体字段（status 字段两个状态机）问题；修复方向（字段拆分/状态机合并）依赖团队对状态语义的共识。
+- **外部攻击（领域建模视角）**：状态机冲突本质是"同一字段承载两个正交维度"（如"处理阶段"×"审核状态"）——正确建模是拆成两个字段而非一个；这类问题在 schema 评审时可通过"每个字段只属于一个状态机"的检查规则预防；"字段值互相污染"说明缺少枚举校验（lint 应检查字段值域）。
 
 ## 与其他知识的关联
 

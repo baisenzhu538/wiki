@@ -26,9 +26,13 @@ discoverable_by:
   - 竞争分析两大陷阱
   - 假空间表面有实际没有+假饱和表面没实际有
 tags:
-- audience:executor
-- scene:execution
-- skill-level:advanced
+  - audience:executor
+  - scene:execution
+  - skill-level:advanced
+  - 市场
+  - 渠道
+  - 品牌
+  - 模型
 ---
 
 # 竞争分析两大陷阱

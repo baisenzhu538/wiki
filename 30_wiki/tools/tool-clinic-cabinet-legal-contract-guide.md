@@ -34,9 +34,12 @@ related:
 - tool-ai-use-barbell-strategy
 - '[[dk-p5-cc-connect-config]]'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 框架
+  - 工具
+  - 边界
 ---
 ## 操作步骤
 

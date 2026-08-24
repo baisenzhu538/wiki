@@ -29,9 +29,16 @@ discoverable_by:
   - 战略的起点
   - 业绩差距内部+机会差距外部
 tags:
-- audience:executor
-- scene:execution
-- skill-level:advanced
+  - audience:executor
+  - scene:execution
+  - skill-level:advanced
+  - 战略
+  - 商业模式
+  - 企业
+  - 行业
+  - 市场
+  - 组织
+  - 模型
 related:
   - '[[tool-clinic-cabinet-legal-contract-guide]]'
   - '[[tool-smart-medicine-cabinet-compliance-checklist]]'

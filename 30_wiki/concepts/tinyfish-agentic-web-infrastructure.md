@@ -39,9 +39,12 @@ related:
 - '[[tool-Truman-复杂项目AI落地稳定性保障]]'
 - '[[tool-纪浩-Agent开工检查单制作法]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 文档
+  - 工具
+  - Agent
 ---
 # TinyFish — Agentic Web 基础设施建设层 Skill
 

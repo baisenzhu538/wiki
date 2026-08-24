@@ -26,9 +26,16 @@ discoverable_by:
   - 战略四招法
   - 小李飞刀/分筋错骨手/葵花点穴手/乾坤大挪移
 tags:
-- audience:executor
-- scene:execution
-- skill-level:advanced
+  - audience:executor
+  - scene:execution
+  - skill-level:advanced
+  - 战略
+  - 企业
+  - 行业
+  - 市场
+  - 渠道
+  - 并购
+  - 路径依赖
 related:
   - '[[concept-strategy-market-segmentation-yashili]]'
 ---

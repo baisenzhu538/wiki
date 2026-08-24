@@ -49,9 +49,16 @@ diagnostic_signals:
 - src_unknown
 - src_unknown# F-KDO-014：准确率声明的测量口径不一致
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 数据集
+  - 工具
+  - 方法
+  - 流程
+  - 边界
+  - Agent
+  - 基线
 ---
 
 ## 原始表述/核心洞察
@@ -113,6 +120,11 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+
+## Critique
+
+- **内部局限**：准确率声明口径不一致是评估规范缺失——本卡记录的是"不同场景说不同准确率"的失败模式；修复方向（统一口径/记录测量条件）依赖团队规范。
+- **外部攻击（评估视角）**：准确率必须有"测量条件"上下文（测试集/任务类型/版本）——脱离条件的准确率是无意义的数字；"口径不一致"可能是无意的（不同人不同理解）或误导的（选择性报告）；正确做法是"准确率+测量方法"打包声明。
 
 ## 与其他知识的关联
 
