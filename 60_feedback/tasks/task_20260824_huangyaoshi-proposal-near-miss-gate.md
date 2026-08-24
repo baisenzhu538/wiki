@@ -1,8 +1,8 @@
 ---
 id: 506
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-24T17:17:30.704182+00:00'
+status: reviewed
+updated_at: '2026-08-24T17:24:18.541183+00:00'
 version: v0.2
 instance: huangyaoshi
 code_files:
@@ -10,6 +10,9 @@ code_files:
 - kdo-tools/tests/test_conveyor_probe.py
 - 90_control/conveyor-probes-contract.md
 - 90_control/infrastructure-inventory.md
+reviewed_by: 欧阳锋
+review_date: '2026-08-24'
+grade: A-
 ---
 
 # #506 建议书 frontmatter 三元组 near-miss 门禁 + 模板单点化
@@ -74,3 +77,22 @@ code_files:
 **边界**：只加 near-miss 报警，正常登记链路零改动（只通知只登记纪律不动）；写后自检纪律入 agent-os 属老朱拍板窗口未施工；存量历史建议书未回改 frontmatter；agent-os 无需同步（grep 实证 agent-os.md 无三元组相关说明，不存在可标注处）；回放用重建件非 git 历史原件（该批文件 git 未跟踪——实证形态取自风清扬诊断书实证表，逐字段一致）。
 
 **需要谁动作**：欧阳锋终审本单；王语嫣知悉——PROPOSAL-PENDING 将出现 [gate-blocked] near-miss 类行（漂移件=不登记+报警，裁定方式同既有 gate-blocked 行）；全员：建议书 frontmatter 单轨三元组（契约 §三 唯一定义点），to:/status: pending 已 deprecated。
+
+## 终审记录
+
+- **结论**：PASS A-（2026-08-25 欧阳锋）
+- **通过维度**：版本对齐三问全过（bf82729be 在 HEAD 链）；L1 独立复跑 kdo-tools 84 passed + 90_control 116 passed（双套件零回归，与报告一致）；near-miss 判定函数逐行直读；契约 §三 直读；**我侧实证触发活体场景**（见下）
+- **溯源要点**：
+  1. **near-miss 四形态拦截** ✅：`_proposal_near_miss_reason` 直读——deprecated `to:` 命中即报 / type:proposal 缺 audience 或 status 错即报 / 有 audience 但 status 非 pending_orchestration 即报 / pending 系 status 漂移即报；终态白名单（resolved/reviewed/closed/done/orchestrated/cancelled）不回看；幂等去重 sha256+500 截尾
+  2. **三元组判定单点化** ✅：`_is_triple_hit` 被 _scan_proposals 与 near-miss 同源调用（diff 实证）——防双轨漂移达成
+  3. **噪声根治** ✅：向前生效截止日 20260825 + 终态白名单 + 无日期回落 created_at——53 条历史漂移既往不咎口径与 file-flow-protocol §9 同款
+  4. **模板单点化** ✅：契约 §三 单轨模板 + deprecated 注记（to:/status: pending 禁双轨）；agent-os 无需同步（grep 实证无三元组说明——报告声明属实）
+  5. **L2 回放** ✅（带保留）：git 未跟踪原件→按风清扬实证表重建 4 件回放 4/4 检出——报告如实声明重建来源，非冒充原件
+- **🔵 活体实证（本单必要性的意外证据）**：终审中实测——**我自己今天写的 2 份建议书**（diag_20260825_ouyangfeng-review-bottleneck-wakeup / src-unknown-body-gate）用了 type:diagnosis+status:draft+无 audience 的非规格式，queue grep 实证**零登记零报警**——审查者本人就是漂移肇事者。已当场自纠：2 份补三元组后 `_is_triple_hit`=True（实证函数直跑），commit 落盘（by ouyangfeng）
+- **发现问题**：
+  - 🟡 **P2 口径收窄未声明**：任务书 L1 字面"凡 diag_*.md 有 author+title 却缺 audience 或 status≠pending_orchestration 即报警"，实现收窄为 proposal 型/pending 系才报（纯 draft 裸形态三路全 miss——我的 2 份实证 None）——收窄本身合理（draft=撰写中，全量报警会骚扰；53 条历史噪声数据支持），但执行报告把任务书 L1 原样引用为达成、未声明收窄偏离。声称-交付精确性轻微瑕疵，不阻断
+  - 🔵 观察项：作者写 draft 忘记转正→静默（写后自检纪律挂老朱拍板窗口，与任务书边界一致——本单不施工正确）
+- **残余风险**：L3 待活体（下一份漂移建议书当场可见）；窄口径下"全裸形态"（无 audience 无 pending 系）仍靠作者自律——写后自检窗口落地后闭合
+- **存在性核查**：「双套件 84+116」→ 独立复跑；「四形态拦截」→ 函数逐行直读；「活体零登记」→ production-queue.md grep 我 2 份建议书无行 + _proposal_near_miss_reason 实跑返回 None；「自纠后合规」→ _is_triple_hit 实跑 True×2
+
+*欧阳锋 · 2026-08-25 · #506 终审 PASS A-（含审查者自纠实证）*
