@@ -147,6 +147,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 519 | `task_20260825_huangyaoshi-conveyor-probe-scheduled-noop` | 探针计划任务空转根治：运行但state不落盘（疑似GBK控制台emoji崩溃）+失败可见（崩溃落日志/空转报警） | queued | huangyaoshi | 环境修复+失败可见+回归 | 无 | `60_feedback/tasks/task_20260825_huangyaoshi-conveyor-probe-scheduled-noop.md` | 王语嫣自办诊断（老朱追问#498状态触发）：00:43后4个周期空转，#498终审+5新单全漏通知；手动跑正常=环境差异非代码；#501补偿机制崩溃盲区；欧阳锋终审 |
 | 520 | `task_20260825_huangyaoshi-review-wakeup-and-sla` | 审查供给端三件套：提审叫醒审查者+阻塞链🔴标记+pending_review最大年龄SLA观测 | queued | huangyaoshi | 叫醒通道+标记+指标 | #519 先行（探针同文件区） | `60_feedback/tasks/task_20260825_huangyaoshi-review-wakeup-and-sla.md` | 欧阳锋建议书R1-R3裁定采纳（#505实证：审查供给触发器=老朱发现）；R4应急通道涉审查权下放挂F-056待拍板；终审类豁免静默同#521口径；欧阳锋终审 |
 | 521 | `task_20260825_huangyaoshi-review-pass-routing` | 审查结果推送补全：PASS按assignee路由生产者（复用#443路由）+终审类信号豁免夜间静默 | queued | huangyaoshi | 路由扩展+静默分级 | #519 先行 | `60_feedback/tasks/task_20260825_huangyaoshi-review-pass-routing.md` | 欧阳锋建议书R1/R2采纳（老朱08-25指令+静默豁免已拍板）；R3(inbox必读)机制已闭环不立项；王语嫣抄送保留；欧阳锋终审 |
+| 522 | `task_20260825_huangyaoshi-complete-deliverable-commit-gate` | complete门禁增「交付物已入仓」校验：执行报告交付物git跟踪+无脏改动，未入仓即拦（豁免编排/诊断类） | queued | huangyaoshi | 门禁扩展+回归 | 无 | `60_feedback/tasks/task_20260825_huangyaoshi-complete-deliverable-commit-gate.md` | 欧阳锋建议书采纳（一晚2次实证：#470脏文件/#518清单untracked提审）；E040机器化前移；识别不出=WARNING不硬拦（红线4）；施工前读最新HEAD（§3.16）；欧阳锋终审 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
 ## ⚖️ 待终审（提审任务，queue_transition 自动登记）
@@ -369,6 +370,8 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~diag_20260825_ouyangfeng-src-unknown-body-gate.md｜08-25｜待王语嫣复核裁定（人工补登：frontmatter 三元组不符探针契约——type:diagnosis/status:draft 无 audience，探针静默跳过；08-25 老朱转达后对账发现）~~ → 编排决策（2026-08-25 王语嫣）：**R1/R2/R3 全采纳**——R1 立项 **#517**（pre-submit 正文占位检查：新卡 ERROR/存量 WARNING/只向前生效+安慰语口径核）；R2 立项 **#518**（存量 22,871 行/1,524 卡三类分流治理：可回填回填/无来源标待复核不编造/空壳节标欧阳锋裁定；清单先行+#426 分批；#517 上线后启动）；R3 **即刻生效**（过渡口径：#517 上线前欧阳锋终审新卡见正文占位即 FAIL——审查侧纪律不需立项）。**A7 自检违例首例**：建议书落盘未验登记回执（探针零登记零通知，靠老朱转达才发现）——已通知欧阳锋收件箱；near-miss 门禁 #506 排队中，此是第二个活体实证
 - ~~diag_20260825_ouyangfeng-review-bottleneck-wakeup.md｜08-25 01:27｜待王语嫣复核裁定~~ → 编排决策（2026-08-25 王语嫣独立判断）：**R1+R2+R3 采纳同批立项 #520**（提审叫醒+阻塞链🔴标记+审查SLA观测；依赖 #519 探针先行）；**R4（阻塞链超时 force 应急通道）挂 F-056 待老朱拍板**——涉审查权下放边界，我不代裁
 - ~~diag_20260825_ouyangfeng-review-result-push-gap.md｜08-25｜待王语嫣复核裁定（人工补登：frontmatter 合规，探针下个周期会登记——王语嫣裁定先行）~~ → 编排决策（2026-08-25 王语嫣独立判断）：**R1+R2 采纳立项 #521**（PASS 按 assignee 路由生产者+王语嫣抄送保留；终审类信号豁免夜间静默=老朱已拍板范围；依赖 #519 先行）；**R3（CLI inbox 必读纪律）不立项**——#501 机制+CAPSULE 启动读已闭环，执行纪律各角色自约束（王语嫣已纳入自身恢复口令；#498 误报实证「落盘≠被读」，纪律内化优先于再建机制）
+
+- ~~diag_20260825_ouyangfeng-complete-deliverable-commit-gate.md｜08-25｜待王语嫣复核裁定（人工补登：frontmatter 合规——探针空转修复前的窗口期，王语嫣裁定先行）~~ → 编排决策（2026-08-25 王语嫣独立判断）：**采纳立项 #522**（complete 门禁增「交付物已入仓」校验：git 跟踪+无脏改动，未入仓即拦；编排/诊断类豁免；识别不出=WARNING 不硬拦——红线 4 误拦优先）——E040「未 commit=未发生」从人审口径升级为机器兜底，与 #505 约定层互补不互替
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
