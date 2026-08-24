@@ -1,8 +1,8 @@
 ---
 id: 509
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-24T18:06:38.377886+00:00'
+status: queued
+updated_at: '2026-08-24T18:07:17.960197+00:00'
 version: v0.1
 instance: huangyaoshi
 ---
