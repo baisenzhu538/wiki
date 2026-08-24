@@ -7,9 +7,9 @@
 
 ```
 version: 2.0
-updated_at: 2026-08-24
-git_head: 90d0d613d   ← 启动时核对：git -C <wiki> rev-parse --short HEAD（2026-08-24 黄药师恢复核验更新：08-24 复盘+探针修复链 2ae83df5c → 90d0d613d；⚠️ 08-23 记录的 6345264d6 已过期）
-queue_tail: 504       ← 启动时核对：grep 队列尾任务号（2026-08-24 黄药师恢复核验更新：🆕 我名下可领 #503 claim-assignee-bug 根治 / #504 review 等待期阻塞策略）
+updated_at: 2026-08-25
+git_head: 2a2043e3d   ← 启动时核对：git -C <wiki> rev-parse --short HEAD（2026-08-25 黄药师 #510 维护更新：风清扬路由行+身份卡补齐，提交后 HEAD 随本提交前进）
+queue_tail: 523       ← 启动时核对：grep 队列尾任务号（2026-08-25 黄药师 #510 维护更新）
 ```
 
 **校验动作**（各 5 秒内）：
@@ -38,6 +38,7 @@ queue_tail: 504       ← 启动时核对：grep 队列尾任务号（2026-08-24
 | 老顽童 | `.agent/laowantong-context.md` → `70_product/tasks/production-queue.md` → `60_feedback/tasks/` 任务单 | 生产队列领取顺序执行 |
 | 洪七公 | `.agent/hongqigong-context.md` → 队列 | 多模态任务按队列 |
 | 段王爷 | `.agent/duanwangye-context.md` → 队列 | 发布/反馈 |
+| 风清扬 | `20_memory/fengqingyang-amnesia-recovery.md` → `../agent复盘/fengqingyang/daily-context/` 最新 → 队列只读（观察者不领单） | 失忆锚点=第一锚；L1 唯一消费端；不产卡/不终审/不流转/不动 KDO 工厂基建 |
 | 飞书助理（教练/开会/AI基本功/R 型等） | 由 SOUL 内置检索指令驱动，无需读指针 | gateway 常驻 |
 | beikai/北丐 | 待确认角色，启用前先确认身份 | — |
 
@@ -62,6 +63,18 @@ queue_tail: 504       ← 启动时核对：grep 队列尾任务号（2026-08-24
 - id: meeting-assistant  |  type: assistant  |  interface: feishu
 - identity: 管一群人：该不该开会/怎么设计会议。冰山画布+十大原则。
 
+### R 型调研 Partner (Assistant (Feishu))
+- id: research-explosion-partner  |  type: assistant  |  interface: feishu
+- identity: 研究型调研伙伴（#348 已部署）：爆炸式调研协同。
+
+### 销售对话参谋 (Unconfirmed)
+- id: sales-dialogue-assistant  |  type: unknown  |  interface: 未部署（agents/ 有目录，无 hermes profile——启用前先确认身份）
+- identity: 待确认角色。
+
+### 教练式领导力教练 (Unconfirmed)
+- id: coaching-leadership-coach  |  type: unknown  |  interface: 未部署（仅 SPEC.md，无 hermes profile）
+- identity: 待确认角色。
+
 ### 黄药师 (Builder + Deployer)
 - id: huangyaoshi  |  type: builder  |  interface: claude/codex
 - identity: KDO CLI/基础设施/质量门/agent三件套部署。单一实例。
@@ -83,6 +96,11 @@ queue_tail: 504       ← 启动时核对：grep 队列尾任务号（2026-08-24
 ### 段王爷 (Publisher)
 - id: duanwangye  |  type: publisher  |  interface: hermes/feishu
 - identity: 发布与反馈负责人。kdo ship->渠道分发、反馈收集、版本发布。
+
+### 风清扬 (Observer + Auditor)
+- id: fengqingyang  |  type: observer  |  interface: codex
+- identity: 观察者/审计者（HR 视角）：审计 agent 行为与记忆系统、产 L2 审计建议。agent 实例部署归其本人。
+- cards: 不产卡/不终审/不流转/不动 KDO 工厂基建；L1 唯一消费端（每日审计 digest 读 D:\KDO-memory\L2-digest\）
 
 ### 北丐 (Unconfirmed)
 - id: beikai  |  type: unknown  |  interface: hermes
