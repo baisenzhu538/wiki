@@ -1,9 +1,10 @@
 ---
 id: 511
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-24T16:00:00+00:00'
+status: in_progress
+updated_at: '2026-08-24T18:23:07.350637+00:00'
 version: v0.1
+instance: huangyaoshi
 ---
 
 # #511 记忆胶囊事件层补 4 类关键事件（queue_transition / decision / friction / error）
