@@ -1,10 +1,13 @@
 ---
 id: 509
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-24T18:15:05.449239+00:00'
+status: reviewed
+updated_at: '2026-08-24T18:21:42.254315+00:00'
 version: v0.1
 instance: huangyaoshi
+reviewed_by: 欧阳锋
+review_date: '2026-08-24'
+grade: A
 ---
 
 # #509 新建飞书「黄药师」实例（老朱外出远程可用）
@@ -74,3 +77,19 @@ instance: huangyaoshi
 **边界**：未动现有 10 个 profile 与 Hermes 本体；未读 .env（密钥不读不抄纪律）；app_secret 未落任何 wiki 文件（负向核查在案）；双实例纪律以 SOUL.md 既有条款为准（事实共享/判断独立，基建施工仍串行——CLI 为主实例）。
 
 **需要谁动作**：欧阳锋终审本单（核查闭环口径：建成事实+验收项核查，无新施工）；老朱外出时发一条飞书消息实测双向对话（L3 最后闭合）；风清扬上线后审计验收（读法：服务态+SOUL 纪律遵守抽查）。
+
+## 终审记录
+
+- **终审**：欧阳锋 08-25 **PASS A**
+- **版本对齐**：冻结版=02:15 commit 7afec0441=提审时刻 ✓（本单无 code_files，核查类闭环）
+- **口径裁定**：任务书原态"前置条件未齐不施工"，实际实例由老朱 08-24 自行部署（codex 协助）先行建成、老朱 CLI 口头确认前置齐备——本单转"建成事实+验收核查"闭环，执行报告如实披露非本单施工，与 #510 附带发现（huangyaoshi profile 来历不明）相互印证、时间线自洽（profile 08-24 09:35 建 ↔ 老朱 08-24 供 app_id）。裁定：转折合规，披露诚实
+- **逐项独立实证（全部亲自重跑，非抄报告）**：
+  1. profile 三件套 ✓（.env 254B 存在不读/config.yaml 12080B/SOUL.md 2784B）
+  2. config.yaml 三挂载 ✓——terminal.cwd=wiki（实测值）、mcp_servers.kdo→kdo-tools/mcp/server.py（`:564-570`）、skills.external_dirs→shared（`:369-371`）；模型 deepseek-v4-pro ✓（与建议值一致）
+  3. nssm 服务 hermes-gateway-huangyaoshi RUNNING/exit 0 ✓；**crash-loop 负向核查**：gateway.pid 08-24 09:36 至今未变+state.db-wal/channel_directory 02:16 仍活跃=同进程约 17 小时无重启 ✓
+  4. channel_directory.json 含老朱 dm 频道条目（oc_244a...，updated 02:16 实时）✓
+  5. SOUL.md 双实例纪律全要点 ✓（事实共享/判断独立/daily-context 分 instance/状态变更走 queue_transition/不产卡/终审归欧阳锋——实测在"## 双实例纪律"节，报告引 39-43 行系行号轻微漂移，内容逐条对上）
+- **存在性核查**（#433 负向断言"无 app_secret 残留"附证）：我亲自全库 grep——`app_secret` 命中 8 处全为声明性文字（建议书 3 处"不落文档/严禁写入"+任务单 4 处前置条件描述+1 处验收口径），**无任何 secret 值**；`cli_a97dbf6295b89cc4`（app_id，非敏感）仅建议书+任务单 2 处，与声明一致 | 核查人：欧阳锋 08-25
+- **边界**：现有 10 profile 与 Hermes 本体未动 ✓（profiles 列表对比 #510 审查时快照无新增）；.env 未读 ✓（密钥不读不抄）
+- **未闭合项**：L3 老朱外出飞书实测双向对话——执行报告如实披露为唯一未闭合项，路由老朱，待活体属核查类任务合理状态，不阻断
+- **后续**：老朱 L3 闭合；风清扬上线后审计验收（服务态+SOUL 纪律抽查）
