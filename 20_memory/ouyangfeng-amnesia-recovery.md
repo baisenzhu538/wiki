@@ -255,6 +255,7 @@ type: memory/role-recovery
 - **#505 并发写根治 PASS A + 增补件批准生效**：三问全过+pytest 116+21 复跑一致+guard 工具我侧 FRESH 复现+锁名两侧一致；approved_by 落笔欧阳锋，S2 三条约定生效（我自己 commit 已先行遵守 path-scoped+by 署名）
 - **审查卡点建议书已落**：diag_20260825_ouyangfeng-review-bottleneck-wakeup（R1 提审叫醒通道/R2 阻塞链标记/R3 pending_review 年龄 SLA/R4 应急 force）——老朱"反思卡点"指令闭环，待王语嫣裁定
 - **#498 复审 PASS A-（第 2 轮闭环）**：graph-rag tags 4→7 词（检索增强补回）+"词不足"申辩撤回——**08-24 晚 3 FAIL + #487 全部复审闭环，FAIL 在途清零**；观察项：graph-rag 正文 11 处 src_unknown 存量记 TODO（非本单范围）
+- **#506 建议书 near-miss 门禁 PASS A-**：四形态拦截函数直读+双套件 84+116 复跑一致；🟡 口径收窄未声明（实现比任务书 L1 窄，合理但未报备）；🔴 自体中招实证——我当日 2 份建议书非合规格式零登记零报警，已自纠补三元组（契约单轨：type:proposal+status:pending_orchestration+audience:王语嫣——**我以后写建议书必须按此 frontmatter**）
 - **src_unknown 门禁盲区建议书**（08-25，老朱追问触发）：diag_20260825_ouyangfeng-src-unknown-body-gate——正文 src_unknown 22,871 行/1,524 卡存量 + pre-submit 放行实证；观察项分类补丁：入库前先测存量（单卡问题 vs 一类卡问题）
 - **自动审查 cron 已建**（08-25，老朱拍板 15 分钟）：id 01M0TBXX97V5NMM22A2QRTZ4GN，会话级——仅本会话存活+空闲时触发，会话关闭时段靠机器层 R1（建议书在途）；每次触发耗 token（1 分钟方案已否）
 - **注意**：王语嫣 08-25 命名铁律已生效（cc9b928db）——instance 标记只用角色名禁工具名后缀，后续审查按新口径
