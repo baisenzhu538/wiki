@@ -67,7 +67,7 @@ audience: 全体 agent
 | conveyor_probe | kdo-tools/conveyor_probe.py | 传送带探针（六信号检出→登记→飞书通知，单扫描器纪律） | 08-23 六信号全通 | 计划任务 kdo-conveyor-probe/gate-blocked.log |
 | memory_capsule | kdo-tools/memory_capsule.py | 记忆胶囊（L1 主库/镜像/verify/事件写入+log_event_safe 四类事件统一入口 #511） | 08-25 6 例 passed | L1 库+D 盘镜像 |
 | l1_capture | kdo-tools/l1_capture.py | L1 全量采集（日期增量目录+判重游标+每日 zip 归档复活 #508） | 08-25 8 例 passed | 计划任务 kdo-l1-capture/kdo-l1-archive |
-| daily-context-save | kdo-tools/daily-context-save.py | 复盘保存（存档+review-check+L0 事件+镜像联动） | 08-23 🟢 A 级 | review-check/memory_capsule |
+| daily-context-save | kdo-tools/daily-context-save.py | 复盘保存（存档+review-check+L0 事件+镜像联动；#512 重打改覆盖写+事件去重） | 08-25 4 例 passed | review-check/memory_capsule |
 | review-check | kdo-tools/review-check.py | 复盘探测器（11 章判级+失败项明细 #478） | 08-23 PASS A- | daily-context-save |
 | file-flow-check | kdo-tools/file-flow-check.py | 文件流转规范 lint（L1-L9 无状态冻结检测 #473） | 08-23 PASS A- | frozen 动态清单/git HEAD |
 | tags-audit | kdo-tools/tags-audit.py | 标签体检 5 指标（脏词/来源轴/域地图/空值/来源形态词） | 08-24 2876 卡 5.9s | check-tags-health |
