@@ -34,6 +34,12 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 行业
+  - 公司
+  - 用户
+  - 数据
+  - 报告
+  - 情报
 ---
 # 穷尽手段：底线之上，努力拉满
 

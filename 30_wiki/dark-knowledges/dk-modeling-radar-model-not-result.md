@@ -31,6 +31,9 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 建模
+  - 模型
+  - 方法
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'
@@ -122,6 +125,11 @@ updated_at: '2026-06-18'
 - src_unknown
 - src_unknown
 - src_unknown
+
+## Critique
+
+- **内部局限**：复杂评选别让 CEO 拍结果只让 CEO 审模型——依赖模型设计的质量（模型错则评审全错）；"审模型"对 CEO 的模型理解力有要求（不懂模型就审不了）。
+- **外部攻击（组织治理视角）**：CEO 审模型 vs 审结果的分工本质是"治理结构"设计——审模型需要模型可解释（黑盒模型无法审）；实际中"模型+结果"一起审更常见（结果暴露模型问题）；关键是"决策权与信息权匹配"（CEO 需要模型级信息才能审模型级决策）。
 
 ## 与其他知识的关联
 

@@ -21,6 +21,11 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 行业
+  - 公司
+  - 数据
+  - 情报
+  - 方法
 discoverable_by:
   - 为获取封闭情报设计合法身份
 related:
@@ -116,6 +121,11 @@ related:
 4. **[[case-yitang-supplier-security-guard]]**：做萝卜干生意的创业者想了解目标工厂收购价，通过和保安混熟打听到工厂实际运营状况和老板心理价位[conf=0.85, source=case-yitang-supplier-security-guard]。关键不是找“对的人”，而是找“知道内情且愿意说的人”。
 
 5. **[[case-zhanglan-amusement-park-undercover]]**：以儿童游乐园店长/服务人员身份沉浸式工作 15 天，拿到真实客流数据、员工管理方式、供应链细节和顾客真实反馈[conf=0.85, source=case-zhanglan-amusement-park-undercover]。这是“用体力换信息质量”的极端版本。
+
+## Critique
+
+- **内部局限**：为封闭情报设计合法身份是 OSINT 的高级技巧——依赖合法合规边界（伪装身份可能触法，不同司法辖区标准不同）；"合法身份"的定义模糊（注册邮箱 vs 假身份是不同风险等级）。
+- **外部攻击（合规视角）**：封闭情报获取的合法身份设计有法律红线（虚假陈述/欺诈）——OSINT 业界共识是"用真实身份+正当理由"而非伪装；身份设计的边界应咨询法律而非技术（技术可行≠合法）；本卡应标注合规警示（仅限合法信息收集场景）。
 
 ## 与其他知识的关联
 

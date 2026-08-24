@@ -33,6 +33,11 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 市场
+  - 工具
+  - 方法
+  - 清单
+  - 定位
 ---
 # 按图索骥：根据定位寻找对标案例
 

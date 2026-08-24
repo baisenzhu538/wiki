@@ -29,9 +29,12 @@ discoverable_by:
 - Y 型创业模型 Y Model for Startups
 - 型创业模型
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 模型
+  - 方法
+  - 边界
 type: concept
 status: draft
 related:

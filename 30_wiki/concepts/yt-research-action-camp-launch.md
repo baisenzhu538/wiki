@@ -61,9 +61,15 @@ related:
 - '[[pending_unknown]]'
 - '[[yt-research-weaponry-course]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:advanced
+  - audience:general
+  - scene:reference
+  - skill-level:advanced
+  - 调研
+  - 框架
+  - 方法
+  - 边界
+  - 清单
+  - 信息过载
 ---
 
 # 一堂调研行动营 · 启动课（LLM 精炼）

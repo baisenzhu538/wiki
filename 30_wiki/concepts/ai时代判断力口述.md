@@ -37,6 +37,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 系统
+  - 机制
+  - 框架
+  - 工具
+  - 方法
+  - 边界
+  - 口述
 ---
 # AI时代判断力口述
 

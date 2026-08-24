@@ -57,6 +57,12 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 风险
+  - 拍板
+  - 机制
+  - 工具
+  - 边界
+  - 认知偏差
 ---
 
 

@@ -21,9 +21,16 @@ aliases:
 - 楚门-AI知识管理探索营-口述.txt
 - AI知识库
 tags:
-- audience:manager
-- scene:research
-- skill-level:intermediate
+  - audience:manager
+  - scene:research
+  - skill-level:intermediate
+  - 交叉验证
+  - 行业
+  - 公司
+  - 数据
+  - 方法
+  - 边界
+  - 定位
 source_person: 楚门
 source_context: AI×知识管理探索营（2026-08-15 晚直播）——事实核查案例（L2756-2784）
 source_refs:

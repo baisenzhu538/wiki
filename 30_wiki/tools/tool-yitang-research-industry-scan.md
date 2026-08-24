@@ -33,6 +33,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 调研
+  - 行业扫描
+  - 行业
+  - 用户
+  - 数据
+  - 工具
+  - 方法
 ---
 # 行业扫描：快速建立行业全貌认知
 

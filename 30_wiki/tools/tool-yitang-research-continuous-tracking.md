@@ -33,6 +33,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 调研
+  - 市场
+  - 用户
+  - 数据
+  - 机制
+  - 工具
+  - 清单
 ---
 # 持续跟踪：建立动态信息监控机制
 

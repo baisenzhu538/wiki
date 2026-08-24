@@ -5,6 +5,10 @@ tags:
   - audience:executor
   - scene:execution
   - skill-level:intermediate
+  - 风险
+  - 不确定性
+  - 工具
+  - 管理者
 type: tool
 aliases:
   - 项目健康度雷达
@@ -35,7 +39,7 @@ level: core
 created_at: 2026-05-20
 updated_at: '2026-06-16'
 estimated_tokens: 3500
-reviewed_by: null
+reviewed_by: 待审
 author: 老顽童
 ---
 # 项目健康度雷达

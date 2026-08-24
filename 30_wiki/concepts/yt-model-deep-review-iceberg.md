@@ -54,6 +54,12 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 模型
+  - 关系
+  - 数据
+  - 框架
+  - 方法
+  - 复盘
 type: concept
 ---
 # 深度复盘冰山图：从主观感受到能力建设的五层穿透

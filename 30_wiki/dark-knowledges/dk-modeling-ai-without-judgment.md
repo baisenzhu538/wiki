@@ -30,6 +30,10 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 建模
+  - 模型
+  - 方法
+  - 边界
 reviewed_by: 王语嫣
 review_date: '2026-06-16'
 author: 老顽童
@@ -223,6 +227,11 @@ Truman 同时用好几个 AI 工具做课程插图和 PPT，过程中不断纠�
 - src_unknown
 - src_unknown
 - src_unknown
+
+## Critique
+
+- **内部局限**：AI 加速跑偏的警示依赖"逻辑洁癖"能力——洁癖本身需要训练（不是人人都有）；"看着很厉害"的模型有表面说服力（对新手尤其危险），警示效果依赖读者的判断力。
+- **外部攻击（AI 工程视角）**：AI 生成模型的加速效应是双刃剑——没有判断力的使用者被加速跑偏，有判断力的使用者被加速产出；"逻辑洁癖"可以工具化（反例测试/假设检验清单）而非只靠天赋；建模教育应"先练判断力再用 AI 加速"。
 
 ## 与其他知识的关联
 

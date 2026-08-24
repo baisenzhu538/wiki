@@ -35,6 +35,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 调研
+  - OSCAR
+  - 数据
+  - 情报
+  - 机制
+  - 框架
+  - 方法
 ---
 # 四类调研模型：挖掘式·系统式·爆炸式·自动式
 

@@ -42,9 +42,12 @@ related:
 - '[[yt-model-progress-map]]'
 - '[[yt-personal-knowledge-extraction]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 业务
+  - 实操
+  - 复盘
 type: concept
 ---
 # 一堂管理地图：高潜力管理者修炼全景图

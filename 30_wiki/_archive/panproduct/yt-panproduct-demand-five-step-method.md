@@ -55,6 +55,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 五步法
+  - 投资
+  - 优先级
+  - 风险
+  - 框架
+  - 工具
+  - 方法
 ---
 
 # 一堂五步法：善于分析商业成败假设

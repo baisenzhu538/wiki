@@ -33,6 +33,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 交叉验证
+  - 行业
+  - 公司
+  - 市场
+  - 用户
+  - 报告
+  - 工具
 ---
 # 交叉验证：多源印证的信息可信度提升
 

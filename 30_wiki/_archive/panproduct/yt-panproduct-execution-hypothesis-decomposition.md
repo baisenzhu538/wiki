@@ -55,6 +55,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 投资
+  - 优先级
+  - 风险
+  - 不确定性
+  - 工具
+  - 边界
+  - 清单
 ---
 
 # 假设拆解：拆解出影响产品成败的关键假设

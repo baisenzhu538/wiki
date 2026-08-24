@@ -55,6 +55,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 调研
+  - OSCAR
+  - 行业
+  - 市场
+  - 用户
+  - 情报
+  - 框架
 aliases: []
 ---
 # OSCAR调研模型：从目标锁定到正确归因的五步法

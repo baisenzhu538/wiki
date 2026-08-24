@@ -35,6 +35,12 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 建模
+  - 关系探索
+  - 关系
+  - 业务
+  - 框架
+  - 口述
 ---
 # 流程建模的关系探索：关系 vs 规律，从并列到因果
 

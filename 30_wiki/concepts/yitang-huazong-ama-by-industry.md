@@ -24,9 +24,12 @@ discoverable_by:
 related:
 - '[[yitang-huazong-ama-summary]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 数据
+  - 工具
+  - 方法
 ---
 # 花总AMA按行业分类整理
 

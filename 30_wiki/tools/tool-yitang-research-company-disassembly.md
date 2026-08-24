@@ -33,6 +33,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 行业
+  - 公司
+  - 市场
+  - 用户
+  - 报告
+  - 框架
+  - 工具
 ---
 # 公司拆解：深度分析竞争对手的六维框架
 

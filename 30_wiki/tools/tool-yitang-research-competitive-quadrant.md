@@ -33,6 +33,12 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 市场
+  - 用户
+  - 数据
+  - 工具
+  - 方法
+  - 定位
 ---
 # 竞争象限：用二维矩阵可视化竞争格局
 

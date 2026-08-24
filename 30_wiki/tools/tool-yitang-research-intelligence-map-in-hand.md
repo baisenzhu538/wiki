@@ -33,6 +33,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 调研
+  - 行业
+  - 市场
+  - 用户
+  - 数据
+  - 工具
+  - 清单
 ---
 # 地图在手：建立全局信息获取体系
 

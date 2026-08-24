@@ -33,6 +33,12 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 调研
+  - 市场
+  - 用户
+  - 工具
+  - 方法
+  - 定位
 ---
 # 二维定位：找到差异化竞争的坐标
 

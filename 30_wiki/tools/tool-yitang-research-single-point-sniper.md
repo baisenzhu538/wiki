@@ -33,6 +33,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 调研
+  - 单点狙击
+  - 市场
+  - 用户
+  - 工具
+  - 方法
+  - 清单
 ---
 # 单点狙击：聚焦关键问题的深度验证
 

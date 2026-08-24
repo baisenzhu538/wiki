@@ -37,10 +37,16 @@ related:
 - bridge-how-to-know-person-to-business
 - case-cross-xingangwan-pharma
 tags:
-- audience:manager
-- audience:executor
-- scene:planning
-- skill-level:intermediate
+  - audience:manager
+  - audience:executor
+  - scene:planning
+  - skill-level:intermediate
+  - 调研
+  - 方法
+  - 边界
+  - 清单
+  - 定位
+  - 口述
 ---
 # 私有库调研总量锚定法：缺口清单逼近 vs 边际递减
 

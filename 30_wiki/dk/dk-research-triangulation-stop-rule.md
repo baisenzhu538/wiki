@@ -21,6 +21,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 调研
+  - 交叉验证
+  - 市场
+  - 用户
+  - 数据
+  - 情报
+  - 机制
 discoverable_by:
   - 多源交叉验证的停止规则
 related:
@@ -106,6 +113,11 @@ related:
 3. **[[case-liutao-douyin-team-leader-9m]]**：刘涛用加盟商、亏钱同行、面试者、客户四种身份交叉验证抖音团长赛道，最终发现红利退潮[conf=0.85, source=case-liutao-douyin-team-leader-9m]。他在四种身份视角趋同后停止，避免了 all in 错误赛道。
 4. **[[case-yitang-hardware-factory-photo]]**：创业者从朋友圈照片角落的工厂铭牌找到代工厂，用“照片 + 供应链访谈”两源验证[conf=0.88, source=case-yitang-hardware-factory-photo]。在找到铭牌并完成供应链确认后即可停止继续社交工程。
 5. **[[case-yitang-pet-fostering-user-research]]**：通过观察用户在没有产品时的替代方案（朋友、宠物店、寄养平台），用“行为证据”校正“用户口头需求”[conf=0.85, source=case-yitang-pet-fostering-user-research]。当替代方案图谱完整且矛盾消失时，即可停止访谈。
+
+## Critique
+
+- **内部局限**：多源交叉验证的停止规则依赖"证据充分"的判断——停止条件（2 来源/4 层验证）是经验值，不同主题（高风险的医疗/投资）需要更高标准；过度验证拖延决策（分析瘫痪）。
+- **外部攻击（决策理论视角）**：交叉验证的停止规则本质是"信息价值 vs 验证成本"的权衡——期望价值分析（EVSI）比固定规则更优；"多源验证"有确认偏误风险（找支持自己的来源）；停止规则应随决策重要性动态调整（小决策快停、大决策慢停）。
 
 ## 与其他知识的关联
 

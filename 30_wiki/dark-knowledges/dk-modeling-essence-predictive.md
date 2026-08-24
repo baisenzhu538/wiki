@@ -39,6 +39,8 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 方法
+  - 顾问
 reviewed_by: 欧阳锋
 review_date: '2026-06-17'
 author: 老顽童

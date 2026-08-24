@@ -7,6 +7,9 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 报告
+  - 框架
+  - 工具
 source_person: LangChain Team（Will Fu-Hinthorn）+ Truman（一堂）
 source_context: LangChain 官方多智能体架构 benchmark + 一堂调研武器库 Agent 化对接
 aliases:

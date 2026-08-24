@@ -59,6 +59,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 取舍
+  - 投资
+  - 机制
+  - 框架
+  - 工具
+  - 边界
+  - 清单
 ---
 
 # ROI分析：擅做投产比分析

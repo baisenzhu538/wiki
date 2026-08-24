@@ -2,6 +2,7 @@
 id: dk-modeling-business-visual-logic-match
 updated_at: '2026-08-20'
 title: 交互设计的精髓不是好看，是业务逻辑和视觉逻辑高度匹配
+reviewed_by: 待审
 discoverable_by:
 - 交互设计的精髓不是好看，是业务逻辑和视觉逻辑高度匹配
 related:
@@ -19,9 +20,14 @@ aliases:
 source_refs:
   - src_unknown
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 模型
+  - 关系
+  - 业务
+  - 方法
+  - 边界
 type: dk
 status: draft
 domain: modeling
@@ -120,6 +126,11 @@ domain: modeling
 - src_unknown
 - src_unknown
 - src_unknown
+
+## Critique
+
+- **内部局限**：业务逻辑与视觉逻辑匹配是交互设计核心原则——对纯品牌/艺术导向的设计（视觉先行）不适用；"匹配"的判断依赖业务理解（业务逻辑不清则匹配无从谈起）。
+- **外部攻击（设计视角）**：业务-视觉匹配与"视觉驱动业务"（视觉先行反向塑造业务）是双向的——优秀设计可重新定义业务表达；匹配原则在数字产品（UX）适用性强，在品牌/营销（传达）场景"视觉独立价值"更大；"好看"与"好用"的张力需要场景化权衡。
 
 ## 与其他知识的关联
 

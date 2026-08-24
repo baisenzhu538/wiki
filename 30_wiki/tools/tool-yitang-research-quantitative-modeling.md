@@ -33,6 +33,12 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 建模
+  - 定量建模
+  - 模型
+  - 数据
+  - 框架
+  - 工具
 ---
 # 定量建模：用数字说话的分析框架
 

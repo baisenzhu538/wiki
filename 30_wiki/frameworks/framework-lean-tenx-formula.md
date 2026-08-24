@@ -32,6 +32,12 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 调研
+  - 情报
+  - 框架
+  - 模型
+  - 样本偏差
+  - 定位
 ---
 # 十倍速公式：避免系统性失败
 

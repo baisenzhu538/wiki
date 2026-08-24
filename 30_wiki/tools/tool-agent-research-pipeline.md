@@ -10,6 +10,11 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 调研
+  - OSCAR
+  - 报告
+  - 工具
+  - 方法
 source_person: Truman（一堂）+ LangChain Team
 source_context: OSCAR 五步法的 Agent 自动化版本
 aliases:

@@ -58,9 +58,16 @@ prerequisites: smart-medicine-cabinet-national-policy-redlines
 source_person: 王语嫣
 source_context: 智能药柜五轮迭代调研与诊所访谈
 tags:
-- audience:general
-- scene:reference
-- skill-level:beginner
+  - audience:general
+  - scene:reference
+  - skill-level:beginner
+  - 医保
+  - 诊所
+  - 医院
+  - 药柜
+  - 患者
+  - 系统
+  - 药品
 ---
 # 诊所 + 智能药柜协同模式：一线观察与风险提示
 

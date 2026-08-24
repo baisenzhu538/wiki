@@ -2,6 +2,7 @@
 id: concept-smart-medicine-cabinet-supply-chain-validation
 updated_at: '2026-08-20'
 title: 智能药柜供应链/技术交叉验证（知识卡草稿）
+reviewed_by: 待审
 discoverable_by:
 - 智能药柜供应链/技术交叉验证知识卡草稿
 related:
@@ -19,9 +20,14 @@ aliases:
 source_refs:
   - src_unknown
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 供应链
+  - 医保
+  - 药柜
+  - 数据
+  - 边界
 type: concept
 status: draft
 domain: healthcare

@@ -10,6 +10,12 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 市场
+  - 工具
+  - 方法
+  - 实证
+  - 分析师
+  - 追踪
 source_person: Richars J. Heuer Jr. + Trumen（一堂）
 source_context: SATs 指标类技术工具化实现
 aliases:

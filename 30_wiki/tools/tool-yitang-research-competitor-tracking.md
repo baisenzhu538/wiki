@@ -33,6 +33,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 竞对跟踪
+  - 行业
+  - 竞对
+  - 市场
+  - 用户
+  - 机制
+  - 工具
 ---
 # 竞对跟踪：持续监控竞争对手的动态与策略
 

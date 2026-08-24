@@ -35,6 +35,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 模型
+  - 关系
+  - 数据
+  - 机制
+  - 工具
+  - 方法
+  - 边界
 type: concept
 status: draft
 related:

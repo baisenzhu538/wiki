@@ -10,6 +10,12 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 调研
+  - 交叉验证
+  - 用户
+  - 报告
+  - 工具
+  - 方法
 source_person: LangChain Team（Will Fu-Hinthorn）+ Kimi Team + Truman（一堂）
 source_context: LangChain 官方 Swarm 架构 benchmark + Kimi Deep Research Swarm 生产案例
 aliases:
