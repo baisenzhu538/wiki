@@ -1,8 +1,8 @@
 ---
 id: 511
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-24T18:31:23.300508+00:00'
+status: reviewed
+updated_at: '2026-08-24T18:38:36.839040+00:00'
 version: v0.2
 instance: huangyaoshi
 code_files:
@@ -12,6 +12,9 @@ code_files:
 - kdo-tools/tests/test_capsule_events.py
 - 90_control/scripts/tests/test_queue_transition.py
 - 90_control/infrastructure-inventory.md
+reviewed_by: 欧阳锋
+review_date: '2026-08-24'
+grade: A
 ---
 
 # #511 记忆胶囊事件层补 4 类关键事件（queue_transition / decision / friction / error）
@@ -78,3 +81,15 @@ code_files:
 **边界**：只做事件层补充，L1-full 采集未动；review_saved 既有写入未动；历史事件不回填（向前生效同 #389）；老朱口头拍板（非机器可捕获的 decision）维持现状不落事件——机器可捕获面=review 终审结论，口径已在案；digest 抽数源未改（事件层丰富其原料）。
 
 **需要谁动作**：欧阳锋终审本单（review 动作本身将触发首个真实 decision 事件——终审即狗粮）；风清扬知悉事件层已丰富（明早 digest ①节将出现非 review_saved 类型事件）。
+
+## 终审记录
+
+- **终审**：欧阳锋 08-25 **PASS A**
+- **版本对齐**：冻结版=02:31 commit cc0e52d3f=提审时刻；提审后补件 f52ad7a4f（02:33，测试隔离 mock，生产代码零改动）已在执行报告"测试污染事故防范"节如实声明——透明覆盖，裁定合规但记录：补件晚于提审 2 分钟，属提审后补丁，今后宜先补件再提审
+- **O0 溯源（逐条对 diff 原文）**：①`log_event_safe` 统一入口 ✓（失败 stderr 报警+pending-git-commits.log 待收口，不阻断主流程；写入点只调它不碰 sqlite=单写入面）；②queue_transition main() 钩 ✓（claim/complete/review→queue_transition 事件，review→decision 事件含 verdict/grade/reviewer，task_9999_ 分流不写）；③gate-blocked/force 例外→error 事件 ✓（同 #483 测试件分流纪律）；④conveyor_probe friction 新行逐条落 ✓——**我起疑复核的一点**：friction-log 数据行是 `YYYY-MM-DD｜场景｜…` 格式并非 `[角色]` 开头，但 `_scan_friction` 返回行包装为 `[{role}] {ln}`（`conveyor_probe.py:429` role 取目录名），正则 `^\[([^\]]+)\]` 正好匹配——设计与正则自洽 ✓；friction_seen state 幂等（只处理新行，重跑不重复）✓
+- **独立复跑**：kdo-tools 90 passed、90_control/scripts 116 passed，与声明一致 ✓
+- **事件库实测（亲自查 sqlite）**：56 条——review_saved 52（既有）+queue_transition 2（含 id=58 本单 complete 狗粮事件）+error 1（id=60 force-exception 真实拦截）——三类新事件活体在库 ✓
+- **存在性核查**（#433 负向断言"测试残留 0"附证）：亲自跑 `agent_id LIKE '%test%' OR payload LIKE '%task_test%'/'%task_9999%'` 计数=**0**；唯一 `capsule_test` 条目为 id=1（2026-08-22 #432 狗粮测试事件）=历史既有非本单污染 ✓ | 核查人：欧阳锋 08-25
+- **边界**：L1-full 采集未动、review_saved 既有写入未动、历史不回填 ✓；老朱口头拍板不落事件（机器不可捕获）口径在案合理
+- **观察项（非本单范围，不阻断）**：`_log_gate_blocked` 外层仍有 `except Exception: pass`（原状保留），事件写入失败可见性靠 log_event_safe/_capsule_event 内层双保险——若外层先失败（如日志文件不可写）事件钩不执行，静默风险在旧层不在新层，本单边界内不动它合理
+- **后续**：本 review 流转将触发首个真实 decision 事件（终审即狗粮），流转后我验证入库；明早 06:00 digest ①节=L3 活体验证点（风清扬）
