@@ -30,6 +30,10 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 工具
+  - 方法
+  - 实操
+  - 迭代
 ---
 # 技能：AI项目上线-先平行再独行
 

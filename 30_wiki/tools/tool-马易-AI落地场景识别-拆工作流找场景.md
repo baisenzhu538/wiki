@@ -31,6 +31,10 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 工作流
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：AI落地场景识别-拆工作流找场景
 

@@ -32,9 +32,12 @@ related:
 - '[[yt-management-company-culture]]'
 - '[[yt-tool-okr-cycle]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 方法
+  - 边界
+  - 运营
 ---
 # 战略会
 

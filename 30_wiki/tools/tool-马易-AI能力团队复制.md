@@ -28,6 +28,11 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 提示词
+  - 工具
+  - 方法
+  - 实操
+  - 迭代
 ---
 # 技能：AI能力团队复制
 

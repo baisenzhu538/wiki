@@ -54,6 +54,8 @@ tags:
   - audience:executor
   - scene:execution
   - skill-level:beginner
+  - 工具
+  - 方法
 ---
 # 技能：提升笔记练习频次的方法
 

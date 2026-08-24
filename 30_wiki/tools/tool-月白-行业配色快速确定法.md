@@ -38,6 +38,12 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 文创
+  - 工具
+  - 方法
+  - 效率
+  - 设计师
+  - 实操
 ---
 # 技能：行业配色快速确定法
 

@@ -30,6 +30,10 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 知识库
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：知识库+回答技巧双建设
 

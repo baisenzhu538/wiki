@@ -29,6 +29,9 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：痛点驱动的数字化
 

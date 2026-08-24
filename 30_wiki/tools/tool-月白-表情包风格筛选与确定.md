@@ -40,6 +40,11 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 表情包
+  - 文创
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：表情包风格筛选与确定
 

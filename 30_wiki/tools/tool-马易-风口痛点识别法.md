@@ -30,6 +30,9 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：风口痛点识别法
 

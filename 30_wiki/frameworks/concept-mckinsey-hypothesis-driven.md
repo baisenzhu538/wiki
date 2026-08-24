@@ -50,9 +50,16 @@ related:
 - '[[concept-toyota-5-whys]]'
 - '[[tool-mckinsey-hypothesis-driven-workflow]]'
 tags:
-- audience:ceo
-- scene:diagnosis
-- skill-level:intermediate
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:intermediate
+  - 框架
+  - 工具
+  - 方法
+  - 工作流
+  - 效率
+  - 创业者
+  - 运营
 version: 1
 created_at: 2026-06-11
 updated_at: '2026-06-16'

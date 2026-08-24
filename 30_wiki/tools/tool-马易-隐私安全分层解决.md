@@ -29,6 +29,9 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：隐私安全分层解决
 

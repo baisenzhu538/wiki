@@ -28,6 +28,10 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 标签体系
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：数据存储架构选择
 

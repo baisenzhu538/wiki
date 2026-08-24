@@ -28,6 +28,10 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 工具
+  - 方法
+  - 边界
+  - 实操
 ---
 # 技能：销售智能体体系搭建路径
 

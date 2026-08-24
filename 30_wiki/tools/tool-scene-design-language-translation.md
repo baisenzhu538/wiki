@@ -53,6 +53,12 @@ tags:
   - audience:executor
   - scene:execution
   - skill-level:intermediate
+  - 框架
+  - 工具
+  - 方法
+  - 流程
+  - 边界
+  - 反例
 ---
 
 # 场景设计语言转译：把场景需求变成可执行设计约束

@@ -29,6 +29,11 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 机制
+  - 工具
+  - 方法
+  - 边界
+  - 实操
 ---
 # 技能：AI搜索公网数据增强（合规边界）
 

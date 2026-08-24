@@ -34,9 +34,16 @@ discoverable_by:
 - 执行者型
 - 的交付规范
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 提示词
+  - 提示词工程
+  - 机制
+  - 方法
+  - 边界
+  - 模板
+  - 设计师
 status: draft
 related:
   - '[[design-ai-image-generation]]'

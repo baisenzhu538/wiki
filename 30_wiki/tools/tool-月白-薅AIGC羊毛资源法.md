@@ -38,6 +38,11 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - AI设计
+  - AIGC
+  - 工具
+  - 方法
+  - 边界
 ---
 # 技能：AIGC工具免费试用与入门资源整理
 

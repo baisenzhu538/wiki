@@ -31,6 +31,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - RAG
+  - 工作流
+  - Agent
+  - 上下文
+  - 提示词
+  - 协作
+  - 工具
 ---
 # 老朱 AI 能力刻意练习路线图：从工具使用到智能体搭建的 24 周
 

@@ -2,6 +2,7 @@
 id: tool-马易-业务为先的AI中台建设
 updated_at: '2026-08-20'
 title: tool 马易 业务为先的AI中台建设
+reviewed_by: 待审
 discoverable_by:
 - tool 马易 业务为先的AI中台建设
 - 业务为先的AI中台建设
@@ -18,6 +19,11 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 工作流
+  - 框架
+  - 工具
+  - 方法
+  - 实操
 type: tool
 status: draft
 domain:

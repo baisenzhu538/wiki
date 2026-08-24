@@ -30,6 +30,10 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 提示词
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：AI任务拆解提升控制度
 

@@ -39,6 +39,11 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - AI设计
+  - 工具
+  - 方法
+  - 设计师
+  - 实操
 ---
 # 技能：色块分区控制法
 

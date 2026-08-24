@@ -33,6 +33,11 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 图片
+  - 方法
+  - 流程
+  - 模板
+  - 设计师
 ---
 # VA 四维法——从图片到结构化视觉分析的通用方法论
 

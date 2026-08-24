@@ -28,6 +28,11 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 数字员工
+  - Agent
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：数字员工FD拆解落地
 

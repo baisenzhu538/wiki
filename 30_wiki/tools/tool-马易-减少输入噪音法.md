@@ -30,6 +30,10 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 机制
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：减少输入噪音法
 

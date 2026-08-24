@@ -2,6 +2,7 @@
 id: tool-纪浩-AI对话上下文隔离
 updated_at: '2026-08-20'
 title: tool 纪浩 AI对话上下文隔离
+reviewed_by: 待审
 discoverable_by:
 - tool 纪浩 AI对话上下文隔离
 - AI对话上下文隔离
@@ -18,6 +19,11 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 上下文
+  - 协作
+  - 工具
+  - 方法
+  - 实操
 type: tool
 status: draft
 domain:

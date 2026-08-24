@@ -28,6 +28,9 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：深度沉浸需求挖掘
 
