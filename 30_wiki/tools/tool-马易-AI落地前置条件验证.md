@@ -28,6 +28,11 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 结构化数据
+  - 工具
+  - 方法
+  - 流程
+  - 实测
 ---
 # 技能：AI落地前置条件验证
 

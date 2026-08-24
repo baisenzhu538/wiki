@@ -30,9 +30,10 @@ related:
 - '[[workflow-knowledge-collision]]'
 - '[[tool-纪浩-Agent开工检查单制作法]]'
 tags:
-- audience:manager
-- scene:reference
-- skill-level:intermediate
+  - audience:manager
+  - scene:reference
+  - skill-level:intermediate
+  - Agent
 discoverable_by:
 - 外部大脑
 - Agent设计

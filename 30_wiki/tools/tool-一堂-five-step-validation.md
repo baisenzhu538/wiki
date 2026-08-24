@@ -21,6 +21,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 调研
+  - 行业
+  - 市场
+  - 用户
+  - 数据
+  - 情报
+  - 工具
 type: tool
 domain:
 - research

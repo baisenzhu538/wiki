@@ -50,6 +50,8 @@ tags:
   - audience:executor
   - scene:execution
   - skill-level:beginner
+  - 工具
+  - 复盘
 ---
 # 技能：用Topdown方式整理内化笔记
 

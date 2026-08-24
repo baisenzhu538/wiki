@@ -59,6 +59,8 @@ tags:
   - audience:executor
   - scene:execution
   - skill-level:beginner
+  - 工具
+  - 模型
 ---
 # 技能：现场建模式萃取笔记
 

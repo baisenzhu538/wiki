@@ -32,6 +32,9 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 工具
+  - 模型
+  - 清单
 ---
 # 业务设计风险管理工具：ISO31000 四步闭环 × Grace LaConte 矩阵
 

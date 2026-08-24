@@ -81,6 +81,12 @@ tags:
   - audience:manager
   - scene:execution
   - skill-level:advanced
+  - 团队
+  - 目标
+  - 决策
+  - 框架
+  - 边界
+  - 管理者
 ---
 # 一堂销售业绩管理三步法
 

@@ -49,9 +49,15 @@ query_triggers:
 - src_unknown
 - src_unknown
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 文档
+  - 框架
+  - 工具
+  - 流程
+  - 复盘
+  - 对齐
 trust_level: medium
 yitang:
   map: management

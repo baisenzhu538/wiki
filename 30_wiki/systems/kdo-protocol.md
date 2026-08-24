@@ -37,9 +37,13 @@ related:
 - '[[business-formula-to-kdo-card-quality]]'
 - '[[modeling-to-kdo-toolchain]]'
 tags:
-- audience:manager
-- scene:reference
-- skill-level:intermediate
+  - audience:manager
+  - scene:reference
+  - skill-level:intermediate
+  - 卡片
+  - 机制
+  - 方法
+  - Agent
 trust_level: medium
 reviewed_by: Claude
 review_date: '2026-05-03'

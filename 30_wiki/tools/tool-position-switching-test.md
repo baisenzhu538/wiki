@@ -51,9 +51,11 @@ diagnostic_signals:
   follow_up: 红牌信号检查
 quality_labels: cited
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 工具
+  - 口述
 ---
 
 > **定位**：属于 [[concept-collaboration-philosophy-foundation]] 的工具卡。理论锚点——金句9"人所不欲，勿施于人"（8.2）+ 金句4"公平是正义的一部分"（7.6）。公平只保证执行一致，不保证规则本身公正。地位互换是检验规则本身的工具。

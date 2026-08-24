@@ -33,6 +33,9 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 渠道
+  - 品牌
+  - 工具
 ---
 # 价值主张设计工具：三问 + 六维排序法
 

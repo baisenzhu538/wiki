@@ -50,9 +50,16 @@ diagnostic_signals:
   follow_up: 对比"想要的行为"和"实际被奖励的行为"
 quality_labels: cited
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 反馈
+  - 信任
+  - 机制
+  - 工具
+  - 反例
+  - 清单
+  - 复盘
 ---
 
 > **定位**：属于 [[concept-collaboration-philosophy-foundation]] 的工具卡。理论锚点——金句3"政治的根本出路在于改善博弈条件"（7.7）+ 金句5"可信即可行"（5.4）+ 金句6"马基雅维利策略经不起普遍模仿"（6.3）。别试图改变人，改变他们面对的收益结构。

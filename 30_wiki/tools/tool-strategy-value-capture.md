@@ -32,6 +32,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 战略
+  - 价值链
+  - 护城河
+  - 企业
+  - 行业
+  - 市场
+  - 定价
 ---
 # 价值获取设计工具：8 问盈利模型
 

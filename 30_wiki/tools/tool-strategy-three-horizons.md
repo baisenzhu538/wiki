@@ -29,9 +29,12 @@ discoverable_by:
   - 现金流现在/增长1
   - 3年/种子3
 tags:
-- audience:executor
-- scene:execution
-- skill-level:advanced
+  - audience:executor
+  - scene:execution
+  - skill-level:advanced
+  - 企业
+  - 行业
+  - 市场
 related:
   - '[[tool-strategy-logistics-cost-planning]]'
   - '[[tool-strategy-market-opportunity-matrix]]'

@@ -32,9 +32,14 @@ related:
 - '[[concept-一堂-基本功-段位体系]]'
 - '[[framework-leadership-five-ladders]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 习惯
+  - 机制
+  - 方法
+  - 边界
+  - 管理者
 ---
 # 管理段位
 

@@ -34,9 +34,14 @@ related:
 - '[[pending_unknown]]'
 - '[[yt-model-conversion-optimization]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 动机
+  - 框架
+  - 方法
+  - 边界
+  - 实操
 ---
 # 转化率黑客
 

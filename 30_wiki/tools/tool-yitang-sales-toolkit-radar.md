@@ -67,6 +67,11 @@ tags:
   - audience:executor
   - scene:execution
   - skill-level:advanced
+  - 组织
+  - 框架
+  - 工具
+  - 方法
+  - 边界
 ---
 # 一堂销售工具箱六维雷达图
 

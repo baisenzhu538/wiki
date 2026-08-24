@@ -28,6 +28,10 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 情绪
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：面对过去错误的平静心法
 

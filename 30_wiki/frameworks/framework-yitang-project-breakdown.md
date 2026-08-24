@@ -18,6 +18,11 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 沟通
+  - 团队
+  - 信任
+  - 模型
+  - 清单
 aliases:
   - 项目拆计划：六维敏感度驱动的科学拆解
 discoverable_by:

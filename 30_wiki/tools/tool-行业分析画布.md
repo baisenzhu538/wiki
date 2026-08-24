@@ -28,6 +28,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 战略
+  - 战略规划
+  - 行业
+  - 市场
+  - 框架
+  - 工具
+  - 边界
 ---
 # 行业分析画布：系统性理解行业结构
 

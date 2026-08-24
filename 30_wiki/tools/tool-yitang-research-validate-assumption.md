@@ -33,6 +33,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 调研
+  - 假设验证
+  - 行业
+  - 市场
+  - 用户
+  - 数据
+  - 报告
 ---
 # 调研先行验证假设：在行动前杀死错误想法
 

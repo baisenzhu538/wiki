@@ -52,9 +52,11 @@ diagnostic_signals:
 updated_at: '2026-06-28'
 author: 老顽童
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 拖延
+  - 方法
 ---
 # PEAS核心洞察：决策系统的四槽诊断法
 

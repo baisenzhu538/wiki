@@ -21,9 +21,16 @@ aliases:
 - OCR_一堂DOC-20260816015204.md
 - AI知识库
 tags:
-- audience:manager
-- scene:execution
-- skill-level:beginner
+  - audience:manager
+  - scene:execution
+  - skill-level:beginner
+  - 沟通
+  - 团队
+  - 会议
+  - 工具
+  - 方法
+  - 模型
+  - 清单
 source_person: 楚门
 source_context: AI×知识管理探索营（2026-08-15 晚直播）——知识小抄（015204 图）
 source_refs:

@@ -28,6 +28,11 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 战略
+  - 企业
+  - 工具
+  - 方法
+  - 模型
 ---
 # 技能：中国企业AI落地五步法
 

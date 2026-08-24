@@ -29,6 +29,10 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 战略
+  - 市场
+  - 框架
+  - 方法
 ---
 # 项目背景分析：启动前的环境扫描
 

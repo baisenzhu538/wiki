@@ -78,6 +78,12 @@ tags:
   - audience:executor
   - scene:execution
   - skill-level:advanced
+  - 团队
+  - 目标
+  - 决策
+  - 框架
+  - 工具
+  - 清单
 ---
 # 一堂销售过程拆解三步法（用户决策路径地图）
 

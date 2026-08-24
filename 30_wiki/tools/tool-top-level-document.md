@@ -24,9 +24,13 @@ aliases:
 - OCR_批注 2026-08-15 213157.md
 - AI知识库
 tags:
-- audience:manager
-- scene:execution
-- skill-level:beginner
+  - audience:manager
+  - scene:execution
+  - skill-level:beginner
+  - 团队
+  - 目标
+  - 机制
+  - 工具
 source_person: 楚门
 source_context: AI×知识管理探索营（2026-08-15 晚直播）——顶层文档（L648-706 + 批注 213157）
 source_refs:

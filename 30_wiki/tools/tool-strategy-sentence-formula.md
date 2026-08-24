@@ -26,9 +26,16 @@ discoverable_by:
   - 战略造句公式
   - 聚焦X市场→达到Y竞争优势→选择不做Z→采取连贯活动
 tags:
-- audience:executor
-- scene:execution
-- skill-level:advanced
+  - audience:executor
+  - scene:execution
+  - skill-level:advanced
+  - 战略
+  - 护城河
+  - 企业
+  - 行业
+  - 市场
+  - 渠道
+  - 框架
 ---
 **造句公式**：聚焦X市场→通过Y达到竞争优势→选择不做Z→采取连贯活动A/B/C
 
