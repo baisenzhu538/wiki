@@ -66,7 +66,7 @@ audience: 全体 agent
 |:--|:--|:--|:--|:--|
 | conveyor_probe | kdo-tools/conveyor_probe.py | 传送带探针（六信号检出→登记→飞书通知，单扫描器纪律） | 08-23 六信号全通 | 计划任务 kdo-conveyor-probe/gate-blocked.log |
 | memory_capsule | kdo-tools/memory_capsule.py | 记忆胶囊（L1 主库/镜像/verify/事件写入） | 08-24 verify PASS 9 行 | L1 库+D 盘镜像 |
-| l1_capture | kdo-tools/l1_capture.py | L1 全量采集（甲会话原文+乙 trace+镜像+体积红线） | 08-23 7315 文件 verify PASS | 计划任务 kdo-l1-capture |
+| l1_capture | kdo-tools/l1_capture.py | L1 全量采集（日期增量目录+判重游标+每日 zip 归档复活 #508） | 08-25 8 例 passed | 计划任务 kdo-l1-capture/kdo-l1-archive |
 | daily-context-save | kdo-tools/daily-context-save.py | 复盘保存（存档+review-check+L0 事件+镜像联动） | 08-23 🟢 A 级 | review-check/memory_capsule |
 | review-check | kdo-tools/review-check.py | 复盘探测器（11 章判级+失败项明细 #478） | 08-23 PASS A- | daily-context-save |
 | file-flow-check | kdo-tools/file-flow-check.py | 文件流转规范 lint（L1-L9 无状态冻结检测 #473） | 08-23 PASS A- | frozen 动态清单/git HEAD |
@@ -150,6 +150,7 @@ audience: 全体 agent
 | KDO-Health-Check | 每日 08:47 | 健康检查计划任务（#364 漂移巡检） | health-check |
 | wechat-link-monitor | 每 10 分钟 | 微信链接监测（偶遇采集） | wechat_link_monitor |
 | kdo-daily-audit-digest | 每日 06:00 | 每日审计轮段①抽数（四原料→D 盘 digest） | daily-audit-digest |
+| kdo-l1-archive | 每日 06:00 | L1 旧天日期目录 zip 归档（核验覆盖才删目录 #508） | l1_capture --archive |
 
 ## 6 · 数据资产
 

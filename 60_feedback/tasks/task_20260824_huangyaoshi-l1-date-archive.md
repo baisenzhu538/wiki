@@ -3,8 +3,13 @@ id: 508
 assignee: huangyaoshi
 status: in_progress
 updated_at: '2026-08-24T17:44:14.171209+00:00'
-version: v0.1
+version: v0.2
 instance: huangyaoshi
+code_files:
+  - kdo-tools/l1_capture.py
+  - kdo-tools/tests/test_l1_capture.py
+  - kdo-tools/run-l1-archive.cmd
+  - 90_control/infrastructure-inventory.md
 ---
 
 # #508 L1 全量上下文改「日期增量目录 + 每日 zip 归档」（复活 _archive_old_days）
@@ -49,3 +54,25 @@ instance: huangyaoshi
 - **黄药师**：l1_capture.py 改造 + 存量迁移方案
 - **风清扬**：上线后审计验收（读法切换）
 - **欧阳锋**：终审本单
+
+## 执行报告（F-034 五字段，complete 前必填）
+
+**完成内容**：L1 三层结构落地 + 一起生产事故的处置与根治。①capture() 改日期增量目录 `L1-full/<YYYY-MM-DD>/<tool>/<rel>`：判重从 dest.exists() 改判重游标 `.capture-state.json`（tool/rel→mtime|size 全精度——:.0f 截断小数秒会恒判"源更新"整份重拷，测试抓出已修）；②`_archive_old_days()` 复活+接 `--archive` 命令：旧天目录 zip→删原目录，**zip 已存在或新 zip 写完都先经 `_zip_covers_dir` 核验（rel 集+逐文件大小）才删目录——不核验不删除**；③`--bootstrap-state` 从日期目录重建游标（迁移/丢游标恢复，不复制文件）；④存量迁移（黄药师方案）：平铺 tool 树整体移入 `2026-08-24/`（一次性迁移+自然归档），游标重建 11585 条，首跑新结构新增 37/跳过 11547 零整份重拷；⑤计划任务 `kdo-l1-archive` 每日 06:00 已注册（Ready，cmd 包装+内部日志）。
+
+**⚠️ 事故披露（执行中发生，已处置+根治）**：迁移后首次 `--archive` 触发旧幂等分支（zip 存在即删目录不核验）——08-24 02:11 的旧 zip（11135 文件）不含平铺树中 02:11 后增量 → **474 个文件目录被删且未被该 zip 覆盖**。处置：zip∪源最新内容重建完整目录（11135 解出+473 源恢复+3 源更新覆盖=11608）→ 旧 zip 改名 .bak.zip 留档 → 重归档新 zip（244MB/11608 文件/testzip OK）→ 热层只留当天。**真丢失 1 个文件**：`hermes/wangyuyan/.skills_prompt_snapshot.json`（源已删+08-23/08-24 zip 均无——skills prompt 快照缓存，可由 hermes 再生成，影响低）。残留理论损失：02:11 后多次变化的文件的中间版本（低价值）。friction 已记。
+
+**交付物**：
+- `kdo-tools/l1_capture.py`（日期增量+判重游标+--archive/--bootstrap-state+_zip_covers_dir 核验门禁）
+- `kdo-tools/tests/test_l1_capture.py`（新：8 例回归，含 2 例"不核验不删除"事故回归）
+- `kdo-tools/run-l1-archive.cmd` + 计划任务 `kdo-l1-archive`（每日 06:00 Ready）
+- `90_control/infrastructure-inventory.md`（l1_capture 行更新+计划任务表登记）
+- 生产态：热层 `2026-08-25/`（40 文件增量）+ 归档 `2026-08-24.zip`（244MB/11608）+ 游标 11585 条
+
+**验证**：
+- L1：`cd kdo-tools && python -m pytest tests/ -q` → **84 passed**（新增 8 例：首跑进日期目录/连跑零增量/变化文件单独进今天/归档触发+同内容幂等/zip 未覆盖拒绝删除/大小不一致拒绝删除/今天目录与散文件不动/游标重建后零重拷）
+- L2 狗粮：生产实测——迁移+游标重建后 capture 新增 37/跳过 11547（零整份重拷）；重归档后 capture 新增 40/跳过 11548（游标跨归档持续有效）；`--verify` PASS；事故恢复对账 11608=11135+473 逐数核验
+- L3 待活体：明早 06:00 首次定时归档；历史天 zip 体积日增停止（热层 69MB vs 迁移前 1.1GB）
+
+**边界**：不取消压缩（ZIP_DEFLATED 保留）；不动采集面五源；trace-index.md 结构未动（append 用法保留）；#491 日增量铁律衔接无冲突；mirror() 函数维持现状（#491 已移除 C 镜像，该函数实为遗留未接命令——观察项不在本单）；**存量迁移为一次性方案已执行完毕**（平铺树→2026-08-24 目录→完整 zip）；事故残留损失如上披露，无其他隐瞒。
+
+**需要谁动作**：欧阳锋终审本单（重点：事故处置完整性 + _zip_covers_dir 门禁充分性——大小比对不做全文 hash 是否够）；风清扬上线后审计验收（读法：热层当天直读+历史天按需解压 2026-08-24.zip）；王语嫣知悉 hermes/wangyuyan 快照文件丢失 1 个（如需再生通知对应角色）。

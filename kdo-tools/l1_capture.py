@@ -70,8 +70,40 @@ def _dir_size_mb(root: Path) -> float:
 ARCHIVE_ROOT = Path("D:/KDO-memory/L1-full-archive")  # #491：旧天目录压缩归档处
 
 
+def _zip_covers_dir(zip_path: Path, day_dir: Path) -> tuple[bool, str]:
+    """#508 事故根治：删目录前核验 zip 完整覆盖目录（rel 集一致 + 逐文件大小相等）。
+
+    返回 (covers, reason)。只做元数据比对（不解压全文 hash——1GB 级归档可承受）。
+    """
+    import zipfile
+    dir_files = {}
+    for f in day_dir.rglob("*"):
+        if f.is_file():
+            try:
+                dir_files[f.relative_to(L1_ROOT).as_posix()] = f.stat().st_size
+            except OSError:
+                return False, f"目录文件不可读: {f}"
+    try:
+        with zipfile.ZipFile(zip_path) as zf:
+            zip_files = {i.filename: i.file_size for i in zf.infolist() if not i.is_dir()}
+    except (OSError, zipfile.BadZipFile) as e:
+        return False, f"zip 不可读: {e}"
+    missing = set(dir_files) - set(zip_files)
+    if missing:
+        return False, f"zip 缺 {len(missing)} 个文件（如 {sorted(missing)[0]}）"
+    for rel, size in dir_files.items():
+        if zip_files[rel] != size:
+            return False, f"大小不一致: {rel}（目录 {size}B ≠ zip {zip_files[rel]}B）"
+    return True, ""
+
+
 def _archive_old_days() -> int:
-    """#491：非今天日期目录 zip 压缩归档（移出活跃统计），删原目录。返回归档数。"""
+    """#491：非今天日期目录 zip 压缩归档（移出活跃统计），删原目录。返回归档数。
+
+    #508：zip 已存在时的幂等分支必须先核验覆盖（_zip_covers_dir）再删目录——
+    旧实现"zip 存在即删目录"在存量迁移场景删掉了 zip 未覆盖的 474 个文件
+    （2026-08-25 事故实证：内容未被任何归档包含的目录不得删除）。
+    """
     import zipfile
     today = datetime.now().strftime("%Y-%m-%d")
     archived = 0
@@ -82,9 +114,14 @@ def _archive_old_days() -> int:
         if not d.is_dir() or d.name == today or not d.name.startswith("20"):
             continue
         zip_path = ARCHIVE_ROOT / f"{d.name}.zip"
-        if zip_path.exists():  # 已归档过（幂等）
-            shutil.rmtree(d, ignore_errors=True)
-            archived += 1
+        if zip_path.exists():  # 已归档过 → 核验覆盖再删（#508：不核验不删除）
+            covers, reason = _zip_covers_dir(zip_path, d)
+            if covers:
+                shutil.rmtree(d, ignore_errors=True)
+                archived += 1
+            else:
+                print(f"⛔ {d.name}: zip 已存在但未覆盖目录内容（{reason}）——"
+                      f"拒绝删除，请人工核查/重新归档", file=sys.stderr)
             continue
         with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as zf:
             for f in d.rglob("*"):
@@ -93,6 +130,11 @@ def _archive_old_days() -> int:
                         zf.write(f, f.relative_to(L1_ROOT).as_posix())
                     except OSError:
                         continue
+        # #508：新 zip 写完同样核验后再删源目录（写盘半成≠归档完成）
+        covers, reason = _zip_covers_dir(zip_path, d)
+        if not covers:
+            print(f"⛔ {d.name}: 新 zip 核验失败（{reason}）——保留原目录，请人工核查", file=sys.stderr)
+            continue
         shutil.rmtree(d, ignore_errors=True)
         archived += 1
         print(f"🗜 已归档: {d.name} → {zip_path.name}")

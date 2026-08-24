@@ -77,7 +77,7 @@ def test_changed_file_lands_in_today_dir(tmp_path, monkeypatch):
 
 
 def test_archive_old_days_zip_and_idempotent(tmp_path, monkeypatch):
-    """归档复活实测：旧天目录 → zip + 删原目录；重跑不重复 zip 不丢文件（幂等）。"""
+    """归档复活实测：旧天目录 → zip + 删原目录；同内容目录重跑 → 删目录不重复 zip（幂等）。"""
     src, l1root, archroot = _sandbox(tmp_path, monkeypatch)
     old_day = l1root / "2020-01-01" / "claude"
     old_day.mkdir(parents=True)
@@ -89,13 +89,50 @@ def test_archive_old_days_zip_and_idempotent(tmp_path, monkeypatch):
     import zipfile
     with zipfile.ZipFile(zip_path) as zf:
         assert "2020-01-01/claude/old.jsonl" in zf.namelist()
-    # 幂等：重建同名目录再跑——zip 已存在 → 只删目录不重复 zip（mtime 不变）
+    # 幂等：重建同名同内容目录再跑——zip 覆盖核验通过 → 删目录不重复 zip（mtime 不变）
     old_day.mkdir(parents=True)
     (old_day / "old.jsonl").write_text('{"old":1}\n', encoding="utf-8")
     mtime_before = zip_path.stat().st_mtime
     assert lc._archive_old_days() == 1
     assert zip_path.stat().st_mtime == mtime_before
     assert not (l1root / "2020-01-01").exists()
+
+
+def test_archive_refuses_delete_when_zip_not_covering(tmp_path, monkeypatch):
+    """#508 事故根治回归：zip 已存在但内容未覆盖目录 → 拒绝删除+报警（不核验不删除）。
+
+    事故原型：存量迁移把新内容放进旧日期目录，旧 zip 不含 → 旧实现直接 rmtree 删 474 文件。
+    """
+    src, l1root, archroot = _sandbox(tmp_path, monkeypatch)
+    archroot.mkdir(parents=True)
+    # 预置一个"旧" zip（只含 1 文件）
+    import zipfile
+    zip_path = archroot / "2020-01-01.zip"
+    with zipfile.ZipFile(zip_path, "w") as zf:
+        zf.writestr("2020-01-01/claude/old.jsonl", '{"old":1}\n')
+    # 目录里多出 zip 未覆盖的新文件
+    old_day = l1root / "2020-01-01" / "claude"
+    old_day.mkdir(parents=True)
+    (old_day / "old.jsonl").write_text('{"old":1}\n', encoding="utf-8")
+    (old_day / "new-not-in-zip.jsonl").write_text('{"new":2}\n', encoding="utf-8")
+    assert lc._archive_old_days() == 0          # 不归档不删除
+    assert (old_day / "new-not-in-zip.jsonl").exists()  # 目录保留
+    assert (old_day / "old.jsonl").exists()
+
+
+def test_archive_refuses_delete_on_size_mismatch(tmp_path, monkeypatch):
+    """同名文件但内容不同（大小不一致）→ 拒绝删除。"""
+    src, l1root, archroot = _sandbox(tmp_path, monkeypatch)
+    archroot.mkdir(parents=True)
+    import zipfile
+    zip_path = archroot / "2020-01-01.zip"
+    with zipfile.ZipFile(zip_path, "w") as zf:
+        zf.writestr("2020-01-01/claude/old.jsonl", '{"old":1}\n')
+    old_day = l1root / "2020-01-01" / "claude"
+    old_day.mkdir(parents=True)
+    (old_day / "old.jsonl").write_text('{"old":99999}\n', encoding="utf-8")  # 内容变了
+    assert lc._archive_old_days() == 0
+    assert (old_day / "old.jsonl").exists()
 
 
 def test_archive_skips_today_and_nondirs(tmp_path, monkeypatch):
