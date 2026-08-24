@@ -141,6 +141,10 @@ GATE_BLOCKED_LOG = _WIKI_ROOT / "90_control" / "gate-blocked.log"
 GATE_BLOCKED_TEST_LOG = _WIKI_ROOT / "90_control" / "gate-blocked-test.log"  # #483：测试件独立日志（task_9999_*，防第五探针误报）
 
 
+# F-036 问题落点判定在 queue_gate（共享真相源——门禁+探针第七信号同用，禁副本）
+from queue_gate import check_issue_disposition as _check_issue_disposition  # noqa: E402
+
+
 def _log_gate_blocked(task_id: str, gate: str, reason: str, instance: str = "") -> None:
     """每次门禁拦截自动 append 一行（时间/任务/门禁名/原因/instance）——探针第五探针扫描面。
 
@@ -918,6 +922,13 @@ def action_review(task_id: str, verdict: str, reviewer: str, grade: str | None =
     if not gate_ok:
         _log_gate_blocked(task_id, "F-035-负向判词", gate_msg, reviewer)
         return False, gate_msg
+
+    # F-036（#主动立项 2026-08-24）：审查发现必须给落点——发现问题节含 🟠/🟡
+    # 条目时必须注明去向（建议书/停车场 F-xxx/任务单立项），无落点=终审不闭环
+    disp_ok, disp_msg = _check_issue_disposition(opinion_text)
+    if not disp_ok:
+        _log_gate_blocked(task_id, "F-036-问题落点", disp_msg, reviewer)
+        return False, disp_msg
 
     with QueueLock("production-queue"):
         if verdict == "pass":

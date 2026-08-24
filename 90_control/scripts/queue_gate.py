@@ -239,3 +239,23 @@ def main() -> int:
 
 if __name__ == "__main__":
     sys.exit(main())
+
+
+# F-036 问题落点判定（#主动立项 2026-08-24 方案 C）：审查发现问题必须给出去向。
+# 放 queue_gate=共享真相源（queue_transition 门禁 + conveyor_probe 第七信号共用，禁副本）
+ISSUE_DISPOSITION_HINTS = ("建议书", "停车场", "F-", "立项", "另立项", "friction", "待王语嫣", "待老朱", "TODO")
+
+
+def check_issue_disposition(opinion_text: str) -> tuple[bool, str]:
+    """F-036：终审意见书"发现问题"节含 🟠/🟡 条目时必须注明落点。
+
+    判定：含 🟠 或 🟡（非仅 🔵 无实质缺陷）且不含落点词 → 拦截。
+    """
+    if "🟠" not in opinion_text and "🟡" not in opinion_text:
+        return True, ""
+    if any(h in opinion_text for h in ISSUE_DISPOSITION_HINTS):
+        return True, ""
+    lines = [l.strip() for l in opinion_text.splitlines() if "🟠" in l or "🟡" in l]
+    sample = "；".join(l[:60] for l in lines[:3])
+    return False, (f"审查发现问题未给落点（F-036）：{sample}——"
+                   "必须在意见书注明去向（建议书路径 / 停车场 F-xxx / 任务单立项），否则终审不闭环")

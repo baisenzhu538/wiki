@@ -31,6 +31,7 @@ if hasattr(sys.stdout, "reconfigure"):
 
 ROOT = Path(__file__).resolve().parent.parent
 DIAG_DIR = ROOT / "60_feedback" / "diagnosis"
+TASK_DIR = ROOT / "60_feedback" / "tasks"  # F-036 第七信号：终审意见落点扫描
 QUEUE_FILE = ROOT / "70_product" / "tasks" / "production-queue.md"
 STATE_FILE = ROOT / ".kdo" / "conveyor_state.json"
 HOOKS_FILE = Path(__file__).resolve().parent / ".feishu_webhooks.json"
@@ -298,6 +299,39 @@ def _scan_friction(state: dict) -> list[str]:
     return new_lines
 
 
+def _scan_issue_no_disposition(state: dict, new_reviewed: list) -> list[str]:
+    """F-036 第七信号兜底：新终审意见书含 🟠/🟡 但无落点 → 提醒欧阳锋补建议书。
+
+    判定复用 queue_gate.check_issue_disposition（共享真相源，探针边界=不 import
+    queue_transition——无流转能力）；state 去重（已提醒过的不重复）。"""
+    try:
+        sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "90_control" / "scripts"))
+        from queue_gate import check_issue_disposition
+    except Exception as e:
+        print(f"⚠️ [conveyor_probe] F-036 判定模块加载失败，跳过: {e}", file=sys.stderr)
+        return []
+    notified = set(state.get("issue_disposition_notified", []))
+    hits = []
+    for task_id, _seq in new_reviewed:
+        if task_id in notified:
+            continue
+        fp = TASK_DIR / f"{task_id}.md"
+        if not fp.exists():
+            continue
+        body = fp.read_text(encoding="utf-8", errors="ignore")
+        idx = body.find("## 终审记录")
+        if idx == -1:
+            continue
+        nxt = body.find("\n## ", idx + 1)
+        opinion = body[idx:nxt] if nxt > 0 else body[idx:]
+        ok, _msg = check_issue_disposition(opinion)
+        if not ok:
+            hits.append(task_id)
+            notified.add(task_id)
+    state["issue_disposition_notified"] = sorted(notified)
+    return hits
+
+
 def _scan_gate_blocked(state: dict) -> list[str]:
     """#460 第五探针：gate-blocked.log 增量扫描（行 hash 幂等）——门禁拦截自动上浮，零依赖 agent 自觉。"""
     if not GATE_BLOCKED_LOG.exists():
@@ -450,12 +484,14 @@ def main() -> int:
 
     state = _load_state()
 
-    # 一次扫描事件：检出五类信号（单份逻辑，#458 第四探针 + #460 第五探针同事件）
+    # 一次扫描事件：检出六类信号（单份逻辑，#458 第四探针 + #460 第五探针同事件）
     queue_sig = _queue_signal(state)
     proposal_hits = _scan_proposals()
     registered = _update_proposal_board(proposal_hits)  # 登记（幂等）
     friction_new = _scan_friction(state)  # 增量检测（state 幂等）
     gate_new = _scan_gate_blocked(state)  # 门禁拦截增量（#460 机器自报）
+    # F-036 第七信号：新终审意见书含 🟠/🟡 但无落点 → 提醒欧阳锋补建议书（兜底）
+    issue_no_disp = _scan_issue_no_disposition(state, queue_sig["new_reviewed"])
 
     messages: dict[str, str] = {}
     if queue_sig["new_review"]:
@@ -480,6 +516,10 @@ def main() -> int:
         # #462：终审完成 → 通知编排者（治编排者盲区——#447 PASS 靠老朱询问才知）
         items = ", ".join(f"#{seq}" if seq else tid for tid, seq in queue_sig["new_reviewed"])
         messages["wangyuyan"] = f"⚖️ KDO 已终审 {len(queue_sig['new_reviewed'])} 单：{items}（待部署/已闭环）"
+    if issue_no_disp:
+        # F-036 第七信号：终审意见 🟠/🟡 无落点 → 提醒欧阳锋补建议书（兜底，不靠用户提醒）
+        messages["ouyangfeng"] = (f"✍️ F-036 提醒：{len(issue_no_disp)} 单终审意见含 🟠/🟡 但未给落点"
+                                  f"（建议书/停车场/立项）：{', '.join(issue_no_disp[:3])}——请补落点")
     if queue_sig["new_failback"]:
         # #462：终审退回 → 按 assignee 路由通知（#443 同款；生产者返工不再靠自觉）
         for tid, seq, assignee in queue_sig["new_failback"]:

@@ -638,3 +638,32 @@ class TestBatchBlockingExemption(unittest.TestCase):
 
     def test_normal_task_not_batch(self):
         self.assertFalse(qg._is_batch_task("task_20260823_huangyaoshi-role-routes"))
+
+
+class TestIssueDispositionGate(unittest.TestCase):
+    """F-036 问题落点门禁（用户拍板方案 C）：审查发现问题必须给落点。"""
+
+    def test_orange_without_disposition_blocked(self):
+        opinion = "**发现问题**：\n- 🟠 全库数字两次运行微差——需确认扫描器判定\n"
+        ok, msg = qt._check_issue_disposition(opinion)
+        self.assertFalse(ok)
+        self.assertIn("F-036", msg)
+
+    def test_orange_with_disposition_passed(self):
+        opinion = "**发现问题**：\n- 🟠 微差待校准——另立项（#474 校准响应）\n"
+        ok, _ = qt._check_issue_disposition(opinion)
+        self.assertTrue(ok)
+
+    def test_blue_only_passed(self):
+        opinion = "**发现问题**：🔵 无实质缺陷——观察项\n"
+        ok, _ = qt._check_issue_disposition(opinion)
+        self.assertTrue(ok)
+
+    def test_yellow_with_f_parking_passed(self):
+        opinion = "**发现问题**：\n- 🟡 观察项——登记停车场 F-048\n"
+        ok, _ = qt._check_issue_disposition(opinion)
+        self.assertTrue(ok)
+
+    def test_no_issue_section_passed(self):
+        ok, _ = qt._check_issue_disposition("**结论**：PASS / A-\n")
+        self.assertTrue(ok)
