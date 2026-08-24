@@ -28,6 +28,7 @@ def _args(**kw):
 def _sandbox(tmp_path, monkeypatch):
     monkeypatch.setattr(dcs, "REVIEW_DIR", tmp_path / "retro")
     monkeypatch.setattr(dcs, "ARCHIVE_DIR", tmp_path / "archive")
+    monkeypatch.setattr(dcs, "WIKI", tmp_path)  # relative_to(WIKI) 打印路径用
     monkeypatch.setattr(dcs, "_run_review_check", lambda agent: "🟢 A")
     monkeypatch.setattr(mc, "A_DIR", tmp_path / "capsule")
     monkeypatch.setattr(mc, "A_DB", tmp_path / "capsule" / "activity_log.db")

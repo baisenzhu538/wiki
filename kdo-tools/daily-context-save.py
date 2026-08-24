@@ -151,9 +151,12 @@ def _write_l0_event(agent: str, desktop_path: Path, grade: str) -> None:
         if not mc.A_DB.exists():
             mc.cmd_init()
         text = desktop_path.read_text(encoding="utf-8", errors="ignore")
+        # #512：去重签名基于正文（剥 frontmatter/标题层）——重打只变时间戳时签名不变，
+        # 同内容重打不刷屏；正文真实变化 → 签名变 → 正常留新事件
+        content_sig = mc._sha256(_strip_existing_layers(text))[:16]
         payload = (
             f"path={desktop_path};grade={grade};size={len(text.encode('utf-8'))};"
-            f"content_hash={mc._sha256(text)[:16]}"
+            f"content_hash={content_sig}"
         )
         # #512：同内容重打不刷屏——同 agent+event_type+payload_hash 已存在则跳过
         # （覆盖写后重打=同一文件替换，事件层只对"内容真实变化"留痕）
