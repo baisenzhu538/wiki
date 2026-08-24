@@ -1,9 +1,10 @@
 ---
 id: 512
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-24T16:20:00+00:00'
+status: in_progress
+updated_at: '2026-08-24T18:36:39.789804+00:00'
 version: v0.1
+instance: huangyaoshi
 ---
 
 # #512 daily-context-save 重打改覆盖写 + 存量多层 frontmatter 清理
