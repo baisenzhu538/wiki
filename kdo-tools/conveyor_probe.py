@@ -421,6 +421,27 @@ def _feishu_sign(ts: str, key: str) -> str:
     return base64.b64encode(digest).decode("utf-8")
 
 
+OUYANGFENG_TODOS = Path(__file__).resolve().parent.parent / "90_control" / "ouyangfeng-todos.md"
+
+
+def _append_role_todo(role: str, text: str) -> None:
+    """F-036 双实例通道：欧阳锋在家=本地 CLI（不看飞书）——提醒同时落盘待办文件，
+    共享上下文=两个实例启动都可查。追加式（防覆盖），重复由 state 去重兜底。"""
+    if role != "ouyangfeng":
+        return
+    try:
+        OUYANGFENG_TODOS.parent.mkdir(parents=True, exist_ok=True)
+        ts = datetime.now().strftime("%Y-%m-%d %H:%M")
+        if not OUYANGFENG_TODOS.exists():
+            OUYANGFENG_TODOS.write_text(
+                "# 欧阳锋待办（F-036 双实例共享——本地 CLI 启动读此文件；在外走飞书）\n\n",
+                encoding="utf-8")
+        with OUYANGFENG_TODOS.open("a", encoding="utf-8") as f:
+            f.write(f"- [{ts}] {text}\n")
+    except OSError as e:
+        print(f"⚠️ 待办文件写入失败: {e}", file=sys.stderr)
+
+
 def _send_hook(url: str, text: str, key: str | None = None) -> bool:
     """发送飞书消息。**必须校验响应 body 的 code**——飞书业务失败也返回 HTTP 200（2026-08-23 实证：
     签名错误 code 19021 曾被当成功，全部消息假发送）。"""
@@ -518,8 +539,10 @@ def main() -> int:
         messages["wangyuyan"] = f"⚖️ KDO 已终审 {len(queue_sig['new_reviewed'])} 单：{items}（待部署/已闭环）"
     if issue_no_disp:
         # F-036 第七信号：终审意见 🟠/🟡 无落点 → 提醒欧阳锋补建议书（兜底，不靠用户提醒）
-        messages["ouyangfeng"] = (f"✍️ F-036 提醒：{len(issue_no_disp)} 单终审意见含 🟠/🟡 但未给落点"
-                                  f"（建议书/停车场/立项）：{', '.join(issue_no_disp[:3])}——请补落点")
+        todo = (f"{len(issue_no_disp)} 单终审意见含 🟠/🟡 但未给落点"
+                f"（建议书/停车场/立项）：{', '.join(issue_no_disp[:3])}——请补落点")
+        messages["ouyangfeng"] = f"✍️ F-036 提醒：{todo}"
+        _append_role_todo("ouyangfeng", f"F-036 提醒：{todo}")  # 双实例：本地 CLI 落盘可查
     if queue_sig["new_failback"]:
         # #462：终审退回 → 按 assignee 路由通知（#443 同款；生产者返工不再靠自觉）
         for tid, seq, assignee in queue_sig["new_failback"]:

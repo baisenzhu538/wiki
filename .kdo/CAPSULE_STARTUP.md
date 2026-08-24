@@ -31,7 +31,7 @@ queue_tail: 468       ← 启动时核对：grep 队列尾任务号（2026-08-23
 
 | 角色 | 必读文件（按序） | 备注 |
 |:--|:--|:--|
-| 欧阳锋 | `.agent/ouyangfeng-context.md` → `.agent/context.md` → `70_product/tasks/production-queue.md` → `../agent复盘/ouyangfeng/daily-context/` 最新 | 审查前必读 `90_control/vault-status.md`；复盘目录在 Desktop 级（wiki 外） |
+| 欧阳锋 | `.agent/ouyangfeng-context.md` → `.agent/context.md` → `70_product/tasks/production-queue.md` → `../agent复盘/ouyangfeng/daily-context/` 最新 | 审查前必读 `90_control/vault-status.md`；复盘目录在 Desktop 级（wiki 外）；**双实例待办**：本地 CLI 启动另读 `90_control/ouyangfeng-todos.md`（F-036 提醒落盘，在外实例走飞书——两实例共享上下文） |
 | 黄药师 | `.agent/huangyaoshi-context.md` → `.agent/context.md` → 队列 → `../agent复盘/huangyaoshi/daily-context/` 最新 | 行为牌 B1-B6；失忆恢复锚点 `20_memory/huangyaoshi-amnesia-recovery.md`；认知复盘中文目录 `../agent复盘/黄药师/daily_cognitive_review/` |
 | 王语嫣 | `.agent/wangyuyan-context.md` → `.agent/context.md` → 队列 + `60_feedback/tasks/` | 编排者，dashboard 由队列生成 |
 | 老顽童 | `.agent/laowantong-context.md` → `70_product/tasks/production-queue.md` → `60_feedback/tasks/` 任务单 | 生产队列领取顺序执行 |
