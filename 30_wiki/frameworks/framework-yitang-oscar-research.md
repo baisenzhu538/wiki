@@ -17,7 +17,11 @@ difficulty: intermediate
 estimated_tokens: 3500
 version: 1
 query_triggers: null
-source_refs: null
+source_refs:
+- ## 来源与验证
+- - 一堂系统式调研口述稿（`00_inbox/调研专题/一堂-系统式调研-口述.txt`）：OSCAR框架原始出处
+- - Business Research Skill v2.1.0（`10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md`）：13武器体系的KDO实现
+- - 系统调研高水平计划/执行 VLM 描述（`00_inbox/调研专题/`）：实战案例验证
 related:
 - framework-baozhashidiaochan-five-step
 - concept-research-saturation-coverage

@@ -13,7 +13,12 @@ created_at: 2026-07-09
 updated_at: 2026-07-09
 domain:
 - content
-source_refs: null
+source_refs:
+- ｜ 步 ｜ 做什么 ｜ 典型动作 ｜ L1-L6工具 ｜
+- 1. **快速上手**：有学习框架不迷茫——知道"先I再P再O再F"（口述L18-L32）
+- 2. **科学体系**：不是凭感觉学——每步有方法有工具（口述L33-L48）
+- 3. **无限进步**：学会学习=学会了学任何东西（口述L49-L58）
+- ## 三、L1-L6进阶
 related: null
 discoverable_by:
 - IPO学习闭环

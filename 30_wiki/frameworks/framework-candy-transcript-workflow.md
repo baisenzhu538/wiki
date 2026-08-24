@@ -23,7 +23,12 @@ aliases:
 - 材到可交付内容的生产流程
 - 生产流程
 - 逐字稿九步法
-source_refs: null
+source_refs:
+- ## 参考案例：Problem OS 的诞生
+- Candy 用 9 步法完成了《Problem OS——用 ESR 的提问智慧，构建你的问题操作系统》逐字稿：
+- ｜ 步骤 ｜ 在 Problem OS 中的对应 ｜
+- ｜:---｜:---｜
+- ｜ 1 搭参考系 ｜ 整理 ESR 原文+译本+《学会提问》拆书会+情报调研课+MBA 提问课 ｜
 related: null
 discoverable_by:
 - Candy逐字稿九步法

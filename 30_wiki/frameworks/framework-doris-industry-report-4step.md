@@ -19,7 +19,12 @@ estimated_tokens: 3500
 version: 1
 query_triggers: null
 aliases: []
-source_refs: null
+source_refs:
+- ## 来源与验证
+- - src_unknown
+- - src_unknown
+- - src_unknown
+- - src_unknown
 related: null
 discoverable_by:
 - 行业报告调研

@@ -29,7 +29,12 @@ aliases:
 - 外部知识探索
 - 阶段工具
 - 驱动的问题定义
-source_refs: null
+source_refs:
+- ## 来源与验证
+- ｜ 断言 ｜ 来源 ｜ 可信度 ｜
+- ｜:---｜:---｜:---｜
+- ｜ KITs/KIQs 方法是 CI Define 阶段标准工具 ｜ Competitive Intelligence Alliance 框架指南 ｜ A（专业机构文献） ｜
+- ｜ "想知道"vs"需要知道"的区分是 CI 入门关键 ｜ BestBootcamps CI 框架指南 ｜ A（行业最佳实践） ｜
 related: null
 status: reviewed
 reviewed_by: 欧阳锋

@@ -24,6 +24,8 @@ tags:
   - 定价
   - 方法
   - 反例
+source_refs:
+- ｜ 收入来源 ｜ 毛利 ｜ 收费方式 ｜ 现金流设计 ｜
 discoverable_by:
 - 经验教训
 - 老朱复盘

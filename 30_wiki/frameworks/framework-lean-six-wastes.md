@@ -22,7 +22,9 @@ aliases:
 - 大浪费
 - 方案做错
 - 益六大浪费
-source_refs: null
+source_refs:
+- ｜ 维度 ｜ 经典理论来源 ｜ 一堂六宗罪的本土化/归纳部分 ｜
+- ｜ 原创性声明 ｜ — ｜ "最 XX"标签与案例组合为一堂教学归纳，非学术原创模型，使用时应注明来源 [conf=0.80, source=任务指令 1.3] ｜
 related: null
 discoverable_by:
 - 精益六大浪费

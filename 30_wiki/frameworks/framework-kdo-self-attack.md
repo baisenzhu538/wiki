@@ -31,7 +31,11 @@ aliases:
 - 用对抗
 - 知识自攻击框架
 - 自攻击框架
-source_refs: null
+source_refs:
+- - 把讲师口述数字当成已核实事实；
+- ｜ source_refs 覆盖 ｜ 每条关键 Claim 是否有对应来源？ ｜
+- ｜ 数字可追溯 ｜ 关键数字是官方数据、多源交叉，还是讲师口述？ ｜
+- ｜ 来源层级 ｜ 核心结论是否至少达到 L2 权威或 L3 多源？ ｜
 related: null
 discoverable_by:
 - KDO自攻击框架

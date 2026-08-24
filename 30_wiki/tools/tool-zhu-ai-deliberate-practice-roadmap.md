@@ -25,7 +25,12 @@ discoverable_by:
 - 能力刻意练习路线图
 - 从工具使用到智能体搭建的
 quality_labels: null
-source_refs: null
+source_refs:
+- ｜ L1 工具使用 ｜ 多模型协作（Kimi/DeepSeek/Claude）、提示词工程、RAG/搜索、上下文工程 ｜ 用 AI 完成一次调研/分析/文档输出 ｜ 🟢 已具备 ｜
+- ｜ L2 工作流搭建 ｜ 低代码/脚本化自动化、多步骤串联、用 AI 辅助写代码/调试 ｜ 搭建一个可复用的业务工作流（如 AI 辅助拆解口述稿→卡片） ｜ 🟡 进行中 ｜
+- ｜ L3 智能体设计 ｜ agent-spec 编写、system prompt 设计、工具调用、对话协议 ｜ 产出并验证一个可用智能体规格 ｜ 🔴 待开始 ｜
+- ｜ L4 业务嵌入 ｜ 把智能体落到鑫港湾/OPC/润心堂的真实场景中，跑通人机协作闭环 ｜ 智能体在真实业务中产生可度量的效率提升 ｜ 🔴 待开始 ｜
+- ｜ 1 ｜ 用 Kimi 做一次完整口述稿拆解（选 C 域或 D 域素材），贴到 wiki ｜ 1 份拆解文档 ｜ ≥ 5 条暗知识被标记，每条附行号 ｜
 related: null
 tags:
   - audience:general

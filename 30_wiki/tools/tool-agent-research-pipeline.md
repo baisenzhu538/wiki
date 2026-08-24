@@ -30,7 +30,12 @@ aliases:
 - 外部知识探索
 - 模式工具
 - 调研
-source_refs: null
+source_refs:
+- ## 来源与验证
+- ｜ 断言 ｜ 来源 ｜ 可信度 ｜
+- ｜:---｜:---｜:---｜
+- ｜ Pipeline 模式对应 OSCAR 五步法 ｜ 一堂 OSCAR 方法论 + 诊断报告 ｜ A（方法论同源） ｜
+- ｜ Pipeline 的可预测性优于 Swarm ｜ LangChain benchmark（2025-06） ｜ A（实验数据） ｜
 related:
 - 'case-truman-ai-native-research-flow'
 - '[[case-demand-travel-agent]]'

@@ -16,7 +16,12 @@ difficulty: intermediate
 estimated_tokens: 3000
 version: 1
 query_triggers: null
-source_refs: null
+source_refs:
+- ## 来源与验证
+- - 一堂调研武器库培训口述记录：单元模型是调研的核心工具，用于判断业务是否可持续
+- - 商业研究技能文档 SKILL.md：单元模型分析框架和模板
+- - 验证案例：三节课（单元模型失败）、Uber（单元模型成功）、SaaS 行业（LTV/CAC 标准）
+- - 交叉验证：与财务指标、公司拆解、假设验证方法交叉验证，确保单元模型准确性
 aliases:
 - audience:executor
 - scene:execution

@@ -13,7 +13,11 @@ created_at: 2026-07-09
 updated_at: 2026-07-09
 domain:
 - content
-source_refs: null
+source_refs:
+- ｜ 价值 ｜ 含义 ｜ 口述出处 ｜
+- ｜ **快速上手** ｜ 有学习框架不迷茫——知道"先做什么再做什么" ｜ IPO口述 L18-L32 ｜
+- ｜ **科学体系** ｜ 不是凭感觉学——输入/处理/输出/反馈有方法 ｜ IPO口述 L33-L48 ｜
+- ｜ **无限进步** ｜ 学会学习=学会了学任何东西——这是元能力 ｜ IPO口述 L49-L58 ｜
 related: null
 discoverable_by:
 - 个人学习方法总框架

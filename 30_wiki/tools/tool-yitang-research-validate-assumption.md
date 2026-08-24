@@ -16,7 +16,9 @@ difficulty: beginner
 estimated_tokens: 3000
 version: 1
 query_triggers: null
-source_refs: null
+source_refs:
+- ### 数据来源
+- [信息来源]
 aliases:
 - audience:executor
 - scene:execution

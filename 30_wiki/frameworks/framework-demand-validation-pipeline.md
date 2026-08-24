@@ -25,7 +25,8 @@ aliases:
 - 证流水线
 - 证流程
 - 需求验证流水线
-source_refs: null
+source_refs:
+- ｜ 信号类型 ｜ 来源 ｜ 可信度 ｜ 适用阶段 ｜
 related: null
 discoverable_by:
 - 需求验证流水线

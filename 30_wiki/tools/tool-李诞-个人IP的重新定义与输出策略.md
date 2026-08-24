@@ -19,6 +19,8 @@ aliases:
   - 技能
   - 技能：个人IP的重新定义与输出策略
 source_refs:
+- ## 来源
+- - src_unknown
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 discoverable_by:

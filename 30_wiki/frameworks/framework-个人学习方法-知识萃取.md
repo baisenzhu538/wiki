@@ -13,7 +13,10 @@ created_at: 2026-07-09
 updated_at: 2026-07-09
 domain:
 - content
-source_refs: null
+source_refs:
+- 1. **收集碎片**：最近做的项目/任务中学到了什么？写下来（口述L22-L36）
+- 2. **找模式**：有没有重复出现的规律？"每次XX情况，我都做了YY"（口述L48-L80）
+- 3. **写成可执行**：不是"要注意沟通"而是"每周五下午发进度总结给相关人"（口述L96）
 related: null
 discoverable_by:
 - 知识萃取

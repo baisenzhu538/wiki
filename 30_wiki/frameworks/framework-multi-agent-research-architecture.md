@@ -20,7 +20,12 @@ aliases:
 - 多智能体研究架构模式MultiAgentResearchArchitecture
 - 能体研究架构模式
 - 调研架构
-source_refs: null
+source_refs:
+- ## 来源与验证
+- ｜ 断言 ｜ 来源 ｜ 可信度 ｜
+- ｜:---｜:---｜:---｜
+- ｜ Swarm 比 Supervisor token 使用更少 ｜ LangChain 官方博客（2025-06） ｜ A（官方 benchmark） ｜
+- ｜ Supervisor 优化后性能提升 ~50% ｜ 同上 ｜ A ｜
 related:
 - 'case-truman-ai-native-research-flow'
 - '[[concept-mcp-protocol]]'

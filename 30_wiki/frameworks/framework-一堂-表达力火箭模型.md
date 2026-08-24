@@ -15,7 +15,8 @@ domain:
 - ai-collaboration
 - content
 - strategy
-source_refs: null
+source_refs:
+- ｜ OCR本体升级 ｜ 已有工具卡 ｜
 related: null
 discoverable_by:
 - 表达力火箭模型

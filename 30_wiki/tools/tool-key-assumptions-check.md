@@ -37,7 +37,12 @@ aliases:
 source_context:
   - SATs 诊断类技术工具化实现
   - yitang
-source_refs: null
+source_refs:
+- ## 来源与验证
+- ｜ 断言 ｜ 来源 ｜ 可信度 ｜
+- ｜:---｜:---｜:---｜
+- ｜ Key Assumptions Check 是 SATs 诊断类核心工具 ｜ Heuer & Pherson《Structured Analytic Techniques》 ｜ A（权威原著） ｜
+- ｜ "证伪比证实更可靠" ｜ 同上 + 科学哲学（Popper） ｜ A ｜
 related: null
 status: reviewed
 reviewed_by: 欧阳锋

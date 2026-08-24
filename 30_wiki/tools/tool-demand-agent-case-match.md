@@ -23,7 +23,9 @@ aliases:
   - 步地图
 source_context:
   - yitang
-source_refs: null
+source_refs:
+- # Agent L4案例匹配
+- 1. Agent根据L3的核心任务在案例库中检索相似案例
 discoverable_by:
   - Agent L4案例匹配：以历史摩擦点为起点填充8步地图
   - L4案例匹配

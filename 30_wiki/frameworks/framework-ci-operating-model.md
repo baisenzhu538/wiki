@@ -26,7 +26,12 @@ aliases:
 - 情报操作系统
 - 竞争情报操作系统CI
 - 竞争情报操作系统CIOperatingModel
-source_refs: null
+source_refs:
+- ## 来源与验证
+- ｜ 断言 ｜ 来源 ｜ 可信度 ｜
+- ｜:---｜:---｜:---｜
+- ｜ "If output does not change a decision, you gathered trivia" ｜ Competitive Intelligence Alliance 框架指南 ｜ A（专业机构公开文献） ｜
+- ｜ CI 四阶段循环（Define→Gather→Analyze→Implement） ｜ 同上 + BestBootcamps CI 框架指南 ｜ A（多独立源一致） ｜
 related: null
 discoverable_by:
 - 竞争情报OS

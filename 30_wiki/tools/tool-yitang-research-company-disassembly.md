@@ -16,7 +16,12 @@ difficulty: intermediate
 estimated_tokens: 3500
 version: 1
 query_triggers: null
-source_refs: null
+source_refs:
+- ## 来源与验证
+- - src_unknown
+- - src_unknown
+- - src_unknown
+- - src_unknown
 aliases:
 - audience:executor
 - scene:execution

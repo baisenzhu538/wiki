@@ -17,7 +17,8 @@ aliases:
   - 残留是自动化系统里最隐蔽的
   - 状态残留是自动化系统里最隐蔽的
   - 状态残留是自动化系统里最隐蔽的bug
-source_refs: null
+source_refs:
+- - src_unknown（待补充来源原话）
 discoverable_by:
   - 状态残留是自动化系统里最隐蔽的 bug
   - 状态残留是自动化系统里最隐蔽的

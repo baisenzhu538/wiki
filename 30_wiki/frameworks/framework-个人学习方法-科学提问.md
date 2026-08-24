@@ -13,7 +13,11 @@ created_at: 2026-07-09
 updated_at: 2026-07-09
 domain:
 - strategy
-source_refs: null
+source_refs:
+- ｜ L1 业务 ｜ 能问出业务中的具体问题 ｜ "这个环节为什么效率低？" ｜ IPO+Y ｜
+- ｜ L2 辅导 ｜ 能帮别人问出他的问题 ｜ "你刚才说的XX，深层原因是什么？" ｜ IPO ｜
+- ｜ L3 咨询 ｜ 能诊断陌生领域的问题 ｜ "这个行业的底层逻辑是什么？" ｜ IPO+Y ｜
+- ｜ L4 萃取 ｜ 能从问题中提炼方法论 ｜ "这类问题的共同模式是什么？" ｜ IPO+Y ｜
 related: null
 discoverable_by:
 - 科学提问

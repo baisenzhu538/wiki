@@ -31,7 +31,12 @@ aliases:
 - 外部知识探索
 - 模式工具
 - 调研
-source_refs: null
+source_refs:
+- ## 来源与验证
+- ｜ 断言 ｜ 来源 ｜ 可信度 ｜
+- ｜:---｜:---｜:---｜
+- ｜ Swarm 比 Supervisor Token 使用更少 ｜ LangChain 官方博客（2025-06） ｜ A（官方 Benchmark） ｜
+- ｜ Swarm 性能略优于 Supervisor ｜ 同上 ｜ A ｜
 related: null
 status: reviewed
 reviewed_by: 欧阳锋

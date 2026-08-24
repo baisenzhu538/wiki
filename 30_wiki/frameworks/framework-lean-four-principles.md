@@ -23,7 +23,8 @@ aliases:
 - 益验证四大原则
 - 精益创业低成本验证四大原则
 - 证四大原则
-source_refs: null
+source_refs:
+- ｜ 原则 ｜ 经典理论来源 ｜ 一堂本土化/操作化 ｜
 related: null
 discoverable_by:
 - 精益验证四大原则

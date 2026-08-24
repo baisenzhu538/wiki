@@ -28,6 +28,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 工具
+  - 方法
+  - 反例
+  - 清单
+  - 决策者
+  - 口述
+  - 画布
 discoverable_by:
   - 产品内核 — 用户愿意选择你的最小解决方案
   - 产品内核

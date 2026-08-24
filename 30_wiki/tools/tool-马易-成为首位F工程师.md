@@ -18,7 +18,9 @@ aliases:
 - 成为首位F工程师
 - 技能
 - 技能：成为首位F工程师
-source_refs: null
+source_refs:
+- ## 来源
+- - src_unknown
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-29'
 discoverable_by:

@@ -18,7 +18,8 @@ aliases:
   - 基础设施工具不能只有检查清单，还必须有硬护栏
   - 还必须有硬护栏
   - 须有硬护栏
-source_refs: null
+source_refs:
+- - src_unknown（待补充来源原话）
 discoverable_by:
   - 基础设施工具不能只有检查清单，还必须有硬护栏
 related:

@@ -12,7 +12,9 @@ aliases:
 - 商业预判15字诀
 - 技能
 - 技能：商业预判15字诀
-source_refs: null
+source_refs:
+- ## 来源
+- - src_unknown
 updated_at: '2026-06-29'
 status: enriched
 reviewed_by: 老顽童

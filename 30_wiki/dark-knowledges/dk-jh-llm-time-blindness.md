@@ -13,7 +13,8 @@ aliases:
   - 不知道现在是什么时候
   - 的隐形风险识别
   - 纪浩的隐形风险识别
-source_refs: null
+source_refs:
+- 2. **追问时间来源**：当AI给出时间敏感信息时，追问"这个信息的时间点是什么？"
 created_at: '2026-06-09'
 author: 纪浩
 reviewed_by: pending

@@ -22,7 +22,8 @@ aliases:
   - 新范式
 source_context:
   - yitang
-source_refs: null
+source_refs:
+- ｜ 反爬升级 ｜ 某些网站开始封锁Agent请求 ｜ 轮换IP/UA，降级到截图+OCR ｜
 discoverable_by:
   - Agent原生调研工具总览：2025-2026新范式
   - Agent原生调研工具总览

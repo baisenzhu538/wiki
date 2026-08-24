@@ -19,7 +19,12 @@ version: 1
 query_triggers: null
 source_context:
   - yitang
-source_refs: null
+source_refs:
+- ### 数据来源
+- ｜ 数据 ｜ 来源 ｜ 可信度 ｜
+- ｜:---｜:---｜:---:｜
+- ｜ [数据1] ｜ [来源] ｜ 高/中/低 ｜
+- ｜ [数据2] ｜ [来源] ｜ 高/中/低 ｜
 aliases:
 - audience:executor
 - scene:execution

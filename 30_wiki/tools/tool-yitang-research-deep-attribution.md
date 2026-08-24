@@ -16,7 +16,12 @@ difficulty: intermediate
 estimated_tokens: 2500
 version: 1
 query_triggers: null
-source_refs: null
+source_refs:
+- ## 来源与验证
+- - 一堂调研武器库培训口述（2026-06-20）
+- - 商业调研技能 SKILL 文档 v2.1.0
+- - 5Why 案例：某 SaaS 公司用户流失分析（追到根因： onboarding 流程缺失）
+- - 归因失败案例：某电商公司只追了 2 次 Why，错失根因（实际是物流体验差，不是产品问题）
 aliases:
 - audience:executor
 - scene:execution

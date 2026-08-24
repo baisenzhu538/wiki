@@ -21,7 +21,10 @@ aliases:
 - 没有人呀现在
 - 证据核查三问法
 - 输出证据核查三问法
-source_refs: null
+source_refs:
+- ## 来源
+- - src_unknown
+- - 10_raw/sources/src_20260606_90b44191-没有人呀现在.md
 wiki_refs: null
 discoverable_by:
 - 技能：AI输出证据核查三问法

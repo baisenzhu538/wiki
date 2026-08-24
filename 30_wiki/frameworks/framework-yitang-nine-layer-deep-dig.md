@@ -33,7 +33,12 @@ aliases:
 - 深挖框架
 source_context:
   - yitang
-source_refs: null
+source_refs:
+- ## 来源与验证
+- - src_unknown
+- - src_unknown
+- - src_unknown
+- - src_unknown
 related:
   - framework-AI知识库-五阶段演进
   - framework-AI知识库-加卡片加标签双原则

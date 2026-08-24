@@ -22,7 +22,8 @@ aliases:
 - 略体系
 - 略系统建设
 - 统建设
-source_refs: null
+source_refs:
+- ｜ 壁垒来源 ｜ 协作效率、质量稳定性、关系深度 ｜ 网络效应、转换成本、品牌忠诚度 ｜
 related: null
 discoverable_by:
 - 战略体系

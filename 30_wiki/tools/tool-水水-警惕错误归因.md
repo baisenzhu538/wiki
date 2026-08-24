@@ -16,7 +16,9 @@ aliases:
 - 技能
 - 技能：警惕错误归因
 - 警惕错误归因
-source_refs: null
+source_refs:
+- ## 来源
+- - src_unknown
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 discoverable_by:
@@ -27,6 +29,11 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 注意力
+  - 工具
+  - 方法
+  - 实操
+  - 拆书会
 ---
 # 技能：警惕错误归因
 

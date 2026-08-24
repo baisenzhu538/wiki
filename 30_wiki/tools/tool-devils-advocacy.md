@@ -24,7 +24,12 @@ aliases:
 - 三个新盲区
 - 外部知识探索
 - 魔鬼代言人
-source_refs: null
+source_refs:
+- ## 来源与验证
+- ｜ 断言 ｜ 来源 ｜ 可信度 ｜
+- ｜:---｜:---｜:---｜
+- ｜ Devil's Advocacy 是 SATs 反向类核心工具 ｜ Heuer & Pherson《Structured Analytic Techniques》 ｜ A（权威原著） ｜
+- ｜ 标准操作步骤（60-90分钟） ｜ 同上 + CIA 培训材料 ｜ A ｜
 related: null
 status: reviewed
 reviewed_by: 欧阳锋

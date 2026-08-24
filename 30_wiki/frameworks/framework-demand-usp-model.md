@@ -25,7 +25,8 @@ aliases:
 - 需求分析
 - 需求模型
 - 需求洞察模型
-source_refs: null
+source_refs:
+- USP是需求分析的"入口公式"，冰山模型的L1-L6是需求分析的"深度展开工具"。USP帮你快速定位需求，冰山模型帮你系统化验证。
 related: null
 discoverable_by:
 - USP需求模型

@@ -16,7 +16,8 @@ domain:
 - management
 - modeling
 - strategy
-source_refs: null
+source_refs:
+- ｜ **工作类型** ｜ L3-L5深度工作（分析/创造/突破） ｜ 会议、1on1、沟通、信息同步、轻度执行 ｜
 related: null
 discoverable_by:
 - 双峰时间哲学

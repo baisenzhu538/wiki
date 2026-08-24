@@ -18,7 +18,9 @@ aliases:
 - 研究型课程无法提前排课表
 - 研究型课程无法提前排课表：只能等菜熟了再摘
 - 等菜熟了再摘
-source_refs: null
+source_refs:
+- ｜ 到点交付的内容被专家或学员找出明显反例、低阶错误 ｜ 硬排课表导致未成熟的内容被提前摘下 ｜ 设置品控红线（L4/L5 标准），未达标准宁可不开 ｜
+- 没达到 L4/L5 标准、还存在可见反例的内容，宁可不开。
 confidence: 0.8
 trust_level: medium
 discoverable_by:

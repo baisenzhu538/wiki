@@ -24,6 +24,7 @@ aliases:
   - 阶段生命周期
   - 鹏企业生命周期
 source_refs:
+- ｜ 主张 ｜ 验证结果 ｜ 来源 ｜
 related:
 discoverable_by:
   - "六阶段生命周期"

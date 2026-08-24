@@ -16,6 +16,8 @@ aliases:
   - 技能：AI生成图片排版控制尺寸优先法
   - 月白
 source_refs:
+- ## 来源
+- - src_unknown
 wiki_refs: null
 definition_of_done:
 tools_required: null

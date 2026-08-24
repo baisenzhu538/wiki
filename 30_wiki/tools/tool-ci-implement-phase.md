@@ -31,7 +31,12 @@ aliases:
 - 嵌入运营节奏
 - 洞见嵌入运营节奏
 - 阶段工具
-source_refs: null
+source_refs:
+- ## 来源与验证
+- ｜ 断言 ｜ 来源 ｜ 可信度 ｜
+- ｜:---｜:---｜:---｜
+- ｜ CI 洞见必须嵌入决策场景，不能只存在文件夹里 ｜ BestBootcamps CI 框架指南 + CI Alliance ｜ A（行业最佳实践，多独立源一致） ｜
+- ｜ Battlecard 是 CI 落地核心交付物 ｜ 同上 ｜ A ｜
 related: null
 status: reviewed
 reviewed_by: 欧阳锋

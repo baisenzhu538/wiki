@@ -16,7 +16,12 @@ difficulty: advanced
 estimated_tokens: 3000
 version: 1
 query_triggers: null
-source_refs: null
+source_refs:
+- ## 来源与验证
+- - 一堂调研武器库培训口述（2026-06-20）
+- - 商业调研技能 SKILL 文档 v2.1.0
+- - 穷尽手段案例：某投资机构尽调某 AI 公司（用了 5 个层次手段，发现财务造假）
+- - 合规风险案例：某咨询公司用"假装客户"手段获取竞品信息，被起诉商业欺诈
 aliases:
 - audience:executor
 - scene:execution

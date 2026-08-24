@@ -13,7 +13,9 @@ created_at: 2026-07-09
 updated_at: 2026-07-09
 domain:
 - strategy
-source_refs: null
+source_refs:
+- ｜ 来源 ｜ "我做过所以我知道" ｜ 结构化的思考框架 ｜
+- ｜ 来源 ｜ 方法 ｜
 related: null
 discoverable_by:
 - 思维模型

@@ -18,7 +18,12 @@ estimated_tokens: 4000
 version: 1
 query_triggers: null
 aliases: []
-source_refs: null
+source_refs:
+- ## 来源与验证
+- - 待补充链接
+- - 待补充链接
+- - 待补充链接
+- - 待补充链接
 related: null
 discoverable_by:
 - 降龙十八掌

@@ -29,7 +29,12 @@ aliases:
 - 外部知识探索
 - 竞对视角模拟
 - 红队分析
-source_refs: null
+source_refs:
+- ## 来源与验证
+- ｜ 断言 ｜ 来源 ｜ 可信度 ｜
+- ｜:---｜:---｜:---｜
+- ｜ Red Team Analysis 是 SATs 反向类技术 ｜ Heuer & Pherson《Structured Analytic Techniques》 ｜ A（权威原著） ｜
+- ｜ Red Team 和"竞对跟踪"的区别 ｜ diag_20260621_外部知识探索_三个新盲区.md ｜ A（诊断报告，已交叉验证） ｜
 related: null
 status: reviewed
 reviewed_by: 欧阳锋

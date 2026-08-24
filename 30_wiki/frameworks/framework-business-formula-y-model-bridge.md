@@ -11,7 +11,12 @@ language: zh-CN
 created_at: 2026-07-12
 updated_at: 2026-07-12
 domain: business-formula
-source_refs: null
+source_refs:
+- 理论 ──→ 关键假设 ──→ 验证      参数挖掘六层（L1-L6）
+- ↑                    │        逻辑关系六层（L1-L6）
+- - 理论 → 框架性认知 → 对应 **L1 基础参数 + L2 财务参数**（初阶靠经验）
+- - 事实 → 数据与观察 → 对应 **L3 分层参数 + L4 转化参数**（进阶靠分析）
+- - 理论与事实交叉 → 涌现 → 对应 **L5 创新参数 + L6 魔法参数**（高阶靠创新）
 related: null
 discoverable_by:
 - 业务公式Y模型桥接

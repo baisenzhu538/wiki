@@ -24,7 +24,12 @@ aliases:
 - 析技术
 - 策分析技术
 - 结构化分析技术SATs总览
-source_refs: null
+source_refs:
+- ## 来源与验证
+- ｜ 断言 ｜ 来源 ｜ 可信度 ｜
+- ｜:---｜:---｜:---｜
+- ｜ SATs 八类技术分类 ｜ Heuer & Pherson《Structured Analytic Techniques for Intelligence Analysis》｜ A（权威原著） ｜
+- ｜ ACH 核心原则"找反驳证据" ｜ 同上 ｜ A ｜
 related: null
 discoverable_by:
 - 结构化分析技术

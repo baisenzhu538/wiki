@@ -12,7 +12,9 @@ aliases:
 - 技能
 - 技能：聊问查测盘五步验证法
 - 聊问查测盘五步验证法
-source_refs: null
+source_refs:
+- ## 来源
+- - src_unknown
 updated_at: '2026-06-29'
 status: enriched
 reviewed_by: 老顽童

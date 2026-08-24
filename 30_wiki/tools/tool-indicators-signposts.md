@@ -27,7 +27,12 @@ aliases:
 - 三个新盲区
 - 外部知识探索
 - 指标与信号
-source_refs: null
+source_refs:
+- ## 来源与验证
+- ｜ 断言 ｜ 来源 ｜ 可信度 ｜
+- ｜:---｜:---｜:---｜
+- ｜ Indicators & Signposts 是 SATs 指标类核心工具 ｜ Heuer & Pherson《Structured Analytic Techniques》 ｜ A（权威原著） ｜
+- ｜ "假设 → Indicator → 触发行动"映射关系 ｜ 同上 + CIA 情报分析培训材料 ｜ A ｜
 related: null
 status: reviewed
 reviewed_by: 欧阳锋

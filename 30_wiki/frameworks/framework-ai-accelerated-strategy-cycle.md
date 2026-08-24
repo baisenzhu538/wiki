@@ -26,7 +26,8 @@ aliases:
 - 张磊教练
 - 的战略
 - 验证闭环
-source_refs: null
+source_refs:
+- ｜ 战略分析 ｜ 信息收集 ｜ 扫描、聚合、摘要 ｜ 判断信息来源可信度 ｜
 discoverable_by: null
 tags:
 - method:ai-strategy

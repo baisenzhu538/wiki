@@ -13,7 +13,7 @@ language: zh-CN
 created_at: 2026-07-08
 updated_at: 2026-07-08
 domain:
-- five-step-method
+- yihang
 aliases:
   - 五步法换档检查清单
   - 五步法换档检查清单：每步的验收条件与常见卡点
@@ -49,9 +49,13 @@ diagnostic_signals:
 quality_labels:
 - actionable
 tags:
-  - audience:executor
-  - scene:execution
-  - skill-level:advanced
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 数据
+  - 模型
+  - 清单
+  - 预判
 ---
 
 # 五步法换档检查清单

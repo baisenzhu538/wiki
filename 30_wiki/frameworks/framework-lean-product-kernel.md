@@ -21,7 +21,8 @@ aliases:
 - 益产品内核
 - 精益创业
 - 过早细化未经思考的内核
-source_refs: null
+source_refs:
+- ｜ 模块 ｜ 来源 ｜ 说明 ｜
 related: null
 discoverable_by:
 - 精益产品内核

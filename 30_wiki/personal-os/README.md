@@ -18,6 +18,9 @@ tags:
   - 口述
 domain:
 - kdo
+source_refs:
+- ｜ `zhu-future-directions.md` ｜ 未来10年方向蓄水池（来源+状态+关键假设+验证动作） ｜ 王语嫣 ｜ 老朱想到新方向时 ｜
+- ｜ 偏好/盲区/习惯 ｜ `zhu-feedback-patterns.md` ｜ "口述稿优先"、"每次只问一条" ｜
 ---
 # 老朱个人域 (personal-os)
 

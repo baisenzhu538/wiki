@@ -16,7 +16,12 @@ difficulty: intermediate
 estimated_tokens: 3000
 version: 1
 query_triggers: null
-source_refs: null
+source_refs:
+- ## 来源与验证
+- - 一堂-调研武器库培训-口述.txt（竞对跟踪系统化方法：监控清单→信息收集→分析判断→预警通知→响应行动）
+- - 实战关键认知：预警等级需要"角色视角校准"——销售看到竞品降价是"红色"，产品看到同样是"黄色"；让四方一起定义预警等级
+- - 响应决策框架：什么情况下跟进（竞对动作影响自身核心指标）/不跟进（竞对动作是噪音或战略干扰）/差异化响应（竞对降价，我们提升服务而非降价）
+- - 监控工具验证：Google Alerts 对英文媒体效果好，中文需加百度指数+微信搜一搜；RSS 适合行业博客；爬虫需注意目标网站 ToS
 aliases:
 - audience:executor
 - scene:execution

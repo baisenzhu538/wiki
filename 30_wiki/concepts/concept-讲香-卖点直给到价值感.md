@@ -12,10 +12,7 @@ language: zh-CN
 created_at: 2026-07-10
 updated_at: 2026-08-02
 domain:
-- personal-expression
-- 卖点直给
-- 价值感
-- 讲香价值
+- kdo
 aliases:
   - 为什么十指讲香不是花活
   - 么十指讲香不是花活
@@ -56,7 +53,11 @@ quality_labels:
 tags:
   - audience:general
   - scene:reference
-  - skill-level:advanced
+  - skill-level:intermediate
+  - MCP
+  - 协议
+  - 用户
+  - 口述
 discoverable_by:
 - "讲香是什么"
 - "十指讲香为什么不是花活"

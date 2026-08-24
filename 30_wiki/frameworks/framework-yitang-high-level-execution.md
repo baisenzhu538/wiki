@@ -22,7 +22,12 @@ query_triggers: null
 aliases: []
 source_context:
   - yitang
-source_refs: null
+source_refs:
+- ## 来源与验证
+- - src_unknown
+- - src_unknown
+- - src_unknown
+- - src_unknown
 related:
   - concept-利润-风险报偿本质
 discoverable_by:

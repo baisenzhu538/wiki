@@ -12,7 +12,8 @@ aliases:
   - 许楚思维操作系统
 source_context:
   - yitang
-source_refs: null
+source_refs:
+- ｜ 模型 ｜ 一句话 ｜ 来源证据 ｜
 created_at: '2026-06-20'
 updated_at: '2026-07-04'
 author: 老顽童
