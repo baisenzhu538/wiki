@@ -582,12 +582,14 @@ class TestGateBlockedNoiseFilter(unittest.TestCase):
         import tempfile
         self.tmp = Path(tempfile.mkdtemp())
         self._orig = (qt.GATE_BLOCKED_LOG, qt.GATE_BLOCKED_TEST_LOG)
+        self._orig_capsule = qt._capsule_event  # #511：_capsule_event 保存/恢复（测试隔离配套）
         qt.GATE_BLOCKED_LOG = self.tmp / "gate-blocked.log"
         qt.GATE_BLOCKED_TEST_LOG = self.tmp / "gate-blocked-test.log"
 
     def tearDown(self):
         import shutil
         qt.GATE_BLOCKED_LOG, qt.GATE_BLOCKED_TEST_LOG = self._orig
+        qt._capsule_event = self._orig_capsule
         shutil.rmtree(self.tmp, ignore_errors=True)
 
     def test_test_task_goes_to_test_log(self):
@@ -597,7 +599,11 @@ class TestGateBlockedNoiseFilter(unittest.TestCase):
         self.assertIn("task_9999_force-test", qt.GATE_BLOCKED_TEST_LOG.read_text(encoding="utf-8"))
 
     def test_real_task_stays_in_real_log(self):
-        qt._log_gate_blocked("task_20260823_huangyaoshi-x", "F-034-五字段", "缺字段", "huangyaoshi")
+        qt._capsule_event = lambda *a: None  # #511：测试隔离——真实库零污染（id=54/56 实证后补）
+        try:
+            qt._log_gate_blocked("task_20260823_huangyaoshi-x", "F-034-五字段", "缺字段", "huangyaoshi")
+        finally:
+            qt._capsule_event = self._orig_capsule
         self.assertTrue(qt.GATE_BLOCKED_LOG.exists())
         self.assertIn("task_20260823_huangyaoshi-x", qt.GATE_BLOCKED_LOG.read_text(encoding="utf-8"))
         self.assertFalse(qt.GATE_BLOCKED_TEST_LOG.exists())
