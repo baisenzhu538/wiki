@@ -24,7 +24,7 @@ status: enriched
 title: Graph RAG — Knowledge-Graph-Powered Retrieval
 trust_level: medium
 type: concept
-updated_at: '2026-06-16'
+updated_at: '2026-08-25'
 pipeline: null
 author: unknown
 confidence: 0.75
@@ -39,8 +39,11 @@ tags:
   - skill-level:intermediate
   - 知识库
   - KDO
+  - 检索增强
   - 索引
   - 工作流
+  - 工具
+  - 方法
 ---
 
 ## Claims
