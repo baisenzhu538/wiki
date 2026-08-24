@@ -122,6 +122,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 494 | `task_20260824_huangyaoshi-aliases-pollution-checker` | aliases结构词污染检查器：tags-audit第6指标(结构词/路径词禁入aliases)+存量扫描清单 | reviewed | huangyaoshi | 检查器+清单+单测 | 无 | `60_feedback/tasks/task_20260824_huangyaoshi-aliases-pollution-checker.md` | 欧阳锋建议书裁定采纳；与#428/#431路径词同族合并治理；指标落点=tags-audit第6指标；存量清理归老顽童随#426/#493；欧阳锋终审 |
 | 495 | `task_20260824_laowantong-source-refs-backfill` | 存量source_refs:null补字段(332张)：正文来源段机械迁移frontmatter+同族null清+无来源标记 | queued | laowantong | 补字段+抽验 | 无 | `60_feedback/tasks/task_20260824_laowantong-source-refs-backfill.md` | 欧阳锋建议书裁定采纳A+C；#493归域模式(扫描清单→批量→抽验)；不阻塞#426当前批次；无来源卡不编造标记待复核；欧阳锋终审 |
 | 496 | `task_20260824_huangyaoshi-source-refs-gate-fix` | pre-submit source_refs判定升级：判FAIL前先查正文「来源与口径」段(两处皆空才FAIL)+回归用例 | queued | huangyaoshi | 判定逻辑+用例 | 无 | `60_feedback/tasks/task_20260824_huangyaoshi-source-refs-gate-fix.md` | 欧阳锋建议书裁定采纳B；门禁意图是"无来源不进库"但字段空≠来源无；与#433负向判词同族；不阻塞#495；欧阳锋终审 |
+| 497 | `task_20260824_wangyuyan-zijing-product-level-prep` | 借鉴紫鲸产物级内容调研(产物形态/命名/复用机制→KDO产物级DAG落地准备报告) | queued | wangyuyan | 调研+准备报告 | 无 | `60_feedback/tasks/task_20260824_wangyuyan-zijing-product-level-prep.md` | 老朱08-24指令唯一先做项；F-049 7项已拍板但产品化进停车场；紫鲸3份调研桌面参考；对账#307模板机制+search_index；只出报告不立项改造；欧阳锋终审 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
 ## ⚖️ 待终审（提审任务，queue_transition 自动登记）
