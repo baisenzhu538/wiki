@@ -27,6 +27,11 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 时间管理
+  - 沟通
+  - 会议
+  - 决策
+  - 模型
 aliases: null
 ---
 # 时间管理双循环矩阵：独立/协作 × 重点/效率

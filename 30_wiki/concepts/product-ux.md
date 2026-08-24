@@ -27,9 +27,15 @@ related:
 - yt-system-course-map-lecture
 - yt-case-mandatory-cases
 tags:
-- audience:general
-- scene:reference
-- skill-level:beginner
+  - audience:general
+  - scene:reference
+  - skill-level:beginner
+  - 产品设计
+  - 产品
+  - 框架
+  - 工具
+  - 方法
+  - 边界
 ---
 # Product Ux
 

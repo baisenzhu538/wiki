@@ -38,6 +38,8 @@ related:
 tags:
   - audience:ceo
   - scene:diagnosis
+  - 框架
+  - 工具
 discoverable_by:
   - "冰火拆本罗盘"
   - "短剧剧本拆解"

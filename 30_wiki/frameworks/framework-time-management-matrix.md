@@ -25,6 +25,11 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 时间管理
+  - 会议
+  - 目标
+  - 模型
+  - 管理者
 aliases: null
 ---
 # 重要/紧急四象限（艾森豪威尔矩阵）

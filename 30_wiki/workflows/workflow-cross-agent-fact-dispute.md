@@ -30,7 +30,7 @@ related:
 - '[[dk-P42-agent-fact-check-gap]]'
 - '[[framework-kdo-self-attack]]'
 - '[[dk-E010-duplicate-key-detection]]'
-- '[[dk-P15-false-completion-report]]'
+- dk-P15-false-completion-report（计划卡，未产出）
 - '[[framework-kdo-modeling-methodology]]'
 - '[[dk-c5-todo-false-positive]]'
 - '[[kdo-moc]]'
@@ -39,9 +39,16 @@ created_at: 2026-08-04
 updated_at: 2026-08-04
 review_date: 2026-08-04
 tags:
-- audience:ouyangfeng
-- scene:review
-- skill-level:intermediate
+  - audience:ouyangfeng
+  - scene:review
+  - skill-level:intermediate
+  - KDO
+  - Agent
+  - 机制
+  - 方法
+  - 流程
+  - 协议
+  - 标准
 discoverable_by:
 - 争议裁决
 - git字节验证

@@ -27,6 +27,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 人机协作
+  - 任务
+  - 产品
+  - 模型
+  - 框架
+  - 复盘
+  - 迭代
 diagnostic_signals: null
 follow_up: 每次行动是否设计了明确的反馈信号，并写入了下一轮观察清单？
 ---

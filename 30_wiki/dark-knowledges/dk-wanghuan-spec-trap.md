@@ -39,6 +39,11 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 任务
+  - 产品
+  - 方法
+  - 边界
+  - 迭代
 review_date: '2026-06-28'
 ---
 # 王欢暗知识：Spec 陷阱——过度拆解会锁死 AI 上限

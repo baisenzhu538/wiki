@@ -21,6 +21,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 产品设计
+  - 产品
+  - 工作流
+  - 组织
+  - 用户
+  - 机制
+  - 工具
 ---
 # Obsidian + KDO 内容产出工作流 — 产品设计大纲
 

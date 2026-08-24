@@ -33,6 +33,11 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 产品
+  - 模型
+  - 工作流
+  - 工具
+  - 口述
 ---
 # 王欢AI能力五层跃迁模型
 

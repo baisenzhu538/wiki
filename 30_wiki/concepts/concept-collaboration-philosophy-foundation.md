@@ -59,9 +59,16 @@ diagnostic_signals:
   follow_up: 换椅子重新评估规则本身
 quality_labels: cited
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 冲突
+  - 工具
+  - 方法
+  - 边界
+  - 清单
+  - 实操
+  - 口述
 ---
 
 > **定位**：属于 management 域·协作管理底层哲学。不教具体管理工具——教的是「为什么协作工具会失效」的底层逻辑。来源：莫非口述解读赵汀阳《坏世界研究》（二手来源）。

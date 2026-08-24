@@ -25,9 +25,12 @@ related:
 - '[[case-yitang-double-triangle-confidence]]'
 - '[[yitang-huazong-ama-by-industry]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 数据
+  - 框架
+  - 方法
 ---
 # 花总AMA精华摘要
 

@@ -28,6 +28,12 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 卡片
+  - 框架
+  - 工具
+  - 标准
+  - 边界
+  - 用户
 ---
 # 用户分层：按价值和行为细分用户群
 

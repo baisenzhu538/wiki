@@ -20,6 +20,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 产品设计
+  - 深度调研
+  - 智能体
+  - 产品
+  - Agent
+  - 工具
+  - 方法
 ---
 # Kimi 深度调研集群方法论 (Deep-Research-Swarm)
 

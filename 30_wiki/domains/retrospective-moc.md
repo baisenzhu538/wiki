@@ -18,11 +18,15 @@ source_refs:
 created_at: 2026-08-06
 updated_at: 2026-08-06
 tags:
-- audience:ouyangfeng
-- audience:wangyuyan
-- audience:laowantong
-- scene:reference
-- skill-level:intermediate
+  - audience:ouyangfeng
+  - audience:wangyuyan
+  - audience:laowantong
+  - scene:reference
+  - skill-level:intermediate
+  - 团队
+  - 决策
+  - 清单
+  - 复盘
 aliases:
 - 复盘MOC
 - 复盘索引

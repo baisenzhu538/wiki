@@ -53,9 +53,16 @@ related:
 - '[[ouyangfeng-data-alignment-response]]'
 - '[[tool-纪浩-Agent开工检查单制作法]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 产品设计
+  - 产品
+  - 工作流
+  - 用户
+  - 机制
+  - 工具
+  - 方法
 ---
 
 # Obsidian + KDO 内容产出工作流 — 产品设计大纲 (v1.0完整版)

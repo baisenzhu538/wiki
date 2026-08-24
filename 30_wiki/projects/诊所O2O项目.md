@@ -22,6 +22,10 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 诊所
+  - 医院
+  - 框架
+  - 调研
 author: unknown
 source_context: KDO internal decision record （原 legacy，已从 title/context/filename 推断为
   src_20260501_dfa19257）

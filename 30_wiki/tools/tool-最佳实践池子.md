@@ -29,6 +29,12 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 知识库
+  - 卡片
+  - 方法
+  - 标准
+  - 边界
+  - 反例
 ---
 # 最佳实践池子：建立你的最佳实践知识库
 

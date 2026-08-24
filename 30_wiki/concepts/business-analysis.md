@@ -26,9 +26,15 @@ related:
 - yt-case-mandatory-cases
 - '[[存储策略]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:beginner
+  - audience:general
+  - scene:reference
+  - skill-level:beginner
+  - 产品设计
+  - 产品
+  - 框架
+  - 工具
+  - 方法
+  - 边界
 ---
 # Business Analysis
 

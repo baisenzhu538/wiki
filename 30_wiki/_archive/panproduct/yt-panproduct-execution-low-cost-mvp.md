@@ -56,6 +56,12 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 卡片
+  - 工具
+  - 标准
+  - 边界
+  - 用户
+  - 复盘
 ---
 
 # 低成本测试MVP：用实验思维10倍速验证假设

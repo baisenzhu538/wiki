@@ -38,9 +38,13 @@ related:
 - '[[ai-short-drama-conflict-three-axes]]'
 - '[[yt-note-ai-human-division]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 平台
+  - 组织
+  - 框架
+  - 边界
 diagnostic_signals:
 - framework_lens: 全本策划五维框架
   follow_up_question: 你的题材、受众、核心冲突和情绪价值是否已经明确？

@@ -18,6 +18,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 诊所
+  - 数据
+  - 药品
+  - 框架
+  - 工具
+  - 方案
+  - 边界
 aliases:
   - 诊所医疗短视频/个人 IP 合规边界
 discoverable_by:

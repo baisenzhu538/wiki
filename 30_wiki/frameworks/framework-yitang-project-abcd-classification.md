@@ -19,6 +19,9 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 沟通
+  - 目标
+  - 工具
 aliases:
   - 项目ABCD复杂度分类：工具跟着复杂度走
 discoverable_by:

@@ -30,6 +30,8 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 产品
+  - 模型
 ---
 # 王欢：Harness 七阶段 AI 构建流程
 

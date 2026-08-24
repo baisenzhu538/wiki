@@ -18,6 +18,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 药柜
+  - 数据
+  - 框架
+  - 工具
+  - 方法
+  - 边界
+  - 决策者
 aliases:
   - 智能药柜选址深度指南：场景、指标与验证方法
 discoverable_by:

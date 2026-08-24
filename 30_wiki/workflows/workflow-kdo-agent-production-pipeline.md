@@ -20,11 +20,16 @@ source_refs:
 created_at: 2026-08-09
 updated_at: 2026-08-09
 tags:
-- audience:huangyaoshi
-- audience:laowantong
-- audience:wangyuyan
-- scene:reference
-- skill-level:advanced
+  - audience:huangyaoshi
+  - audience:laowantong
+  - audience:wangyuyan
+  - scene:reference
+  - skill-level:advanced
+  - KDO
+  - Agent
+  - 工具
+  - 流程
+  - 标准
 aliases:
 - Agent生产流水线
 - Agent自举

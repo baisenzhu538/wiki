@@ -57,9 +57,16 @@ related:
 - '[[tool-一堂-基本功-推动七式]]'
 - '[[tool-一堂-基本功-练习二十法]]'
 tags:
-- audience:manager
-- scene:reference
-- skill-level:advanced
+  - audience:manager
+  - scene:reference
+  - skill-level:advanced
+  - 领导力
+  - 时间管理
+  - 团队
+  - 目标
+  - 冲突
+  - 决策
+  - 工具
 discoverable_by:
 - 管理方法论
 - 管理地图

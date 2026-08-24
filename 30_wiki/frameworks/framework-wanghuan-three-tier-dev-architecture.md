@@ -36,6 +36,12 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 开发架构
+  - 人机协作
+  - 任务
+  - 架构
+  - 工具
+  - 边界
 ---
 # 王欢三层开发架构：需求拆解→AI开发→哨兵质检
 

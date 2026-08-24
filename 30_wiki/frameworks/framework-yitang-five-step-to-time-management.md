@@ -36,6 +36,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 时间管理
+  - 团队
+  - 目标
+  - 模型
+  - 边界
+  - 管理者
+  - 创业者
 ---
 # 一堂五步法在时间管理中的应用：自管理场景的完整实例化
 

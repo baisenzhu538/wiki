@@ -31,6 +31,10 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 人机协作
+  - 框架
+  - 工具
+  - 边界
 diagnostic_signals: null
 follow_up: 是否重新定义了角色——从“执行者”变成“让 AI 把事做好的质量守门人”？
 ---

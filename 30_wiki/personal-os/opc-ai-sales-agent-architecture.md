@@ -59,9 +59,14 @@ related:
 - '[[tool-yitang-sales-toolkit-maturity-60-75-85]]'
 - '[[tool-yitang-three-second-opening-scripts]]'
 tags:
-- audience:manager
-- scene:reference
-- skill-level:advanced
+  - audience:manager
+  - scene:reference
+  - skill-level:advanced
+  - 智能体
+  - 用户
+  - 框架
+  - 工具
+  - 复盘
 discoverable_by:
 - OPC销售Agent
 - AI销售架构

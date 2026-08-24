@@ -26,6 +26,11 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 提示词框架
+  - 提示词
+  - 任务
+  - 框架
+  - 方法
 diagnostic_signals: null
 follow_up: 高频任务是否已把稳定背景写进 [[tool-wanghuan-ai-business-profile]]，而非每次用 BITCOE 重复？
 ---
