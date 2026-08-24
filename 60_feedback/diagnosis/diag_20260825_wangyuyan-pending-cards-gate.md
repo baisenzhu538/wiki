@@ -30,6 +30,11 @@ date: 2026-08-25
 - **在哪发现**：本次门禁比对读卡时发现（块标量/重复键=老顽童 YAML 格式边界家族病，风清扬晚间审计 F3 同族）。
 - **建议方向**：该卡 pending_review 中，欧阳锋终审时一并核 frontmatter；存量同类（重复键）可挂 #512 黄药师存量清理顺带扫。
 
+### 副产观察 2（桥接缺口）
+
+- **现象**：`framework-lemon-market-new-brand-trust` 的 related/关联节未链接 `framework-一堂-转化率黑客-总纲` 与 `framework-一堂-触点本质论`——两卡实质同域互补（信任公式=转化率「阻力」维度的信任子模型 + 触点维度的质量属性），见本次会话王语嫣对老朱的关系解说。
+- **建议方向**：该卡 pending_review 中，欧阳锋终审时补 related 桥接（不改内容主体，仅补链）。
+
 ## 处置动作
 
 - 两卡 git mv → `00_inbox/pending-cards/_processed/`（00_inbox 只增不删=不删除，隔离到已处理子目录）
