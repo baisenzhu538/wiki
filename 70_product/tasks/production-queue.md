@@ -120,7 +120,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 492 | `task_20260824_huangyaoshi-batch-blocking-exemption` | 长程分批任务阻塞豁免（F-050方案一）：can_claim跳过batch:true任务的pending_review阻塞+#426加batch标记 | reviewed | huangyaoshi | can_claim改+标记+单测 | 无 | `60_feedback/tasks/task_20260824_huangyaoshi-batch-blocking-exemption.md` | 老朱08-24拍板方案一；只改can_claim一处不动其他语义；只跳过batch任务非batch仍阻塞；与F-029同族不合并；欧阳锋终审 |
 | 493 | `task_20260824_laowantong-domain-reclassification` | 域归域治理：src-unknown/unknown补域(523张)+yitang来源降级(99张)+来源词/课程名清出tags(202张污染) | reviewed | laowantong | 补域+拆分+污染清理 | 无 | `60_feedback/tasks/task_20260824_laowantong-domain-reclassification.md` | 老朱08-24诊断yitang域太大(一堂是来源不是主题域)；与#484同族(来源不当域推到domain层)；只改frontmatter domain/source不动正文；归域是#426治理前置；欧阳锋终审 |
 | 494 | `task_20260824_huangyaoshi-aliases-pollution-checker` | aliases结构词污染检查器：tags-audit第6指标(结构词/路径词禁入aliases)+存量扫描清单 | reviewed | huangyaoshi | 检查器+清单+单测 | 无 | `60_feedback/tasks/task_20260824_huangyaoshi-aliases-pollution-checker.md` | 欧阳锋建议书裁定采纳；与#428/#431路径词同族合并治理；指标落点=tags-audit第6指标；存量清理归老顽童随#426/#493；欧阳锋终审 |
-| 495 | `task_20260824_laowantong-source-refs-backfill` | 存量source_refs:null补字段(332张)：正文来源段机械迁移frontmatter+同族null清+无来源标记 | pending_review | laowantong | 补字段+抽验 | 无 | `60_feedback/tasks/task_20260824_laowantong-source-refs-backfill.md` | 欧阳锋建议书裁定采纳A+C；#493归域模式(扫描清单→批量→抽验)；不阻塞#426当前批次；无来源卡不编造标记待复核；欧阳锋终审 |
+| 495 | `task_20260824_laowantong-source-refs-backfill` | 存量source_refs:null补字段(332张)：正文来源段机械迁移frontmatter+同族null清+无来源标记 | reviewed | laowantong | 补字段+抽验 | 无 | `60_feedback/tasks/task_20260824_laowantong-source-refs-backfill.md` | 欧阳锋建议书裁定采纳A+C；#493归域模式(扫描清单→批量→抽验)；不阻塞#426当前批次；无来源卡不编造标记待复核；欧阳锋终审 |
 | 496 | `task_20260824_huangyaoshi-source-refs-gate-fix` | pre-submit source_refs判定升级：判FAIL前先查正文「来源与口径」段(两处皆空才FAIL)+回归用例 | reviewed | huangyaoshi | 判定逻辑+用例 | 无 | `60_feedback/tasks/task_20260824_huangyaoshi-source-refs-gate-fix.md` | 欧阳锋建议书裁定采纳B；门禁意图是"无来源不进库"但字段空≠来源无；与#433负向判词同族；不阻塞#495；欧阳锋终审 |
 | 497 | `task_20260824_wangyuyan-zijing-product-level-prep` | 借鉴紫鲸产物级内容调研(产物形态/命名/复用机制→KDO产物级DAG落地准备报告) | reviewed | wangyuyan | 调研+准备报告 | 无 | `60_feedback/tasks/task_20260824_wangyuyan-zijing-product-level-prep.md` | 老朱08-24指令唯一先做项；F-049 7项已拍板但产品化进停车场；紫鲸3份调研桌面参考；对账#307模板机制+search_index；只出报告不立项改造；欧阳锋终审 |
 | 498 | `task_20260824_laowantong-dk-tags-word-count-caliber` | dk卡tags词量口径落地：轴文件+design补dk豁免条款(1-3词核心维度覆盖)+graph-rag回补至5-8 | pending_review | laowantong | 规则修改+回补 | 无 | `60_feedback/tasks/task_20260824_laowantong-dk-tags-word-count-caliber.md` | 欧阳锋建议书裁定采纳A+修正；王语嫣首轮直接改文件越界(老朱08-24纠偏)回滚重立执行单；普通卡维持5-8；#426批次线内不阻塞；欧阳锋终审 |
@@ -213,7 +213,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#502 task_20260824_huangyaoshi-freeze-enforcement｜huangyaoshi｜提审 08-24 22:49｜60_feedback/tasks/task_20260824_huangyaoshi-freeze-enforcement.md~~ → 已终审 PASS （2026-08-24 欧阳锋）
 - ~~#470 task_20260823_laowantong-addiction-series-caliber｜laowantong｜提审 08-24 22:52｜60_feedback/tasks/task_20260823_laowantong-addiction-series-caliber.md~~ → 终审退回 queued（2026-08-24 欧阳锋）
 - #498 task_20260824_laowantong-dk-tags-word-count-caliber｜laowantong｜提审 08-24 22:56｜60_feedback/tasks/task_20260824_laowantong-dk-tags-word-count-caliber.md
-- #495 task_20260824_laowantong-source-refs-backfill｜laowantong｜提审 08-24 23:00｜60_feedback/tasks/task_20260824_laowantong-source-refs-backfill.md
+- ~~#495 task_20260824_laowantong-source-refs-backfill｜laowantong｜提审 08-24 23:00｜60_feedback/tasks/task_20260824_laowantong-source-refs-backfill.md~~ → 已终审 PASS （2026-08-24 欧阳锋）
 
 <!-- REVIEW-PENDING-END -->
 
