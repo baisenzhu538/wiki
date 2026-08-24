@@ -141,6 +141,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 513 | `task_20260825_huangyaoshi-kimi-capture-gap-check` | kimi采集源断流核查：L1疑似未覆盖Kimi Code会话存储（活跃会话7.5h无新文件） | queued | huangyaoshi | 路径对账+补缺/落口径 | 无 | `60_feedback/tasks/task_20260825_huangyaoshi-kimi-capture-gap-check.md` | 风清扬晚间审计建议2采纳；F-045全量保存硬约束疑似破口；缺口型补路径/滞后型落口径二选一闭环；风清扬下轮复核；欧阳锋终审 |
 | 514 | `task_20260825_huangyaoshi-quality-metrics-baseline` | 质量指标基线：FAIL率/打回率/拦截率/误判率先跑2周纯统计（不改流程，出基线报告v1） | queued | huangyaoshi | 统计脚本+定时+基线报告 | 风清扬定口径先行 | `60_feedback/tasks/task_20260825_huangyaoshi-quality-metrics-baseline.md` | 风清扬全自动专项审计建议2采纳（老朱08-25令：终极目标只管输入+成果审核）；阶段0硬前提；数据源=gate-blocked/流转记录/force台账；欧阳锋终审 |
 | 515 | `task_20260825_huangyaoshi-machine-pre-review-pipeline` | 机器预审管线：提审单附预审报告（声称-交付差集+lint+负向判词+存在性核查），机器只参考不放行 | queued | huangyaoshi | 预审管线+报告附件 | #514 基线先跑（一致率对照用） | `60_feedback/tasks/task_20260825_huangyaoshi-machine-pre-review-pipeline.md` | 风清扬专项审计建议3采纳；判据欧阳锋定；防自动化偏见（机器建议不入档为结论）；降档需老朱拍板挂F-055；欧阳锋终审 |
+| 516 | `task_20260825_huangyaoshi-wechat-promote-dedup-processed` | wechat_promote去重键补_processed：已门禁判定隔离的卡不再生（一行级+回归） | queued | huangyaoshi | 去重修复+回归用例 | 无 | `60_feedback/tasks/task_20260825_huangyaoshi-wechat-promote-dedup-processed.md` | 王语嫣自办诊断立项（08-25隔离后当夜管线再生2张实证：去重只查PENDING/CASES/RERUN三处不查_processed）；门禁判定被再生击穿=E037隔离与去重键不兼容；欧阳锋终审 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
 ## ⚖️ 待终审（提审任务，queue_transition 自动登记）
@@ -273,10 +274,10 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~00_inbox/一堂-成瘾与自我管理分享-口述.md｜P0｜162598B｜检测到 08-23 14:21｜待王语嫣编排~~ → 已编排（#469 一等主锚口述转 md）——2026-08-24 王语嫣补划线
 - ~~00_inbox/直播Live260-AI口喷必修课-逐字稿.md｜P2｜103647B｜检测到 08-23 16:31｜待王语嫣编排~~ → 已编排（#487 口喷卡组 2迭代+5新增，Live260 逐字读）——2026-08-24 王语嫣补划线
 - ~~00_inbox/🎯直播Live第260场：AI口喷必修课（逐字稿）.md｜P2｜103327B｜检测到 08-23 16:41｜待王语嫣编排~~ → 已编排（#487 口喷卡组素材，同源逐字稿去重）——2026-08-24 王语嫣补划线
-- 00_inbox/pending-cards/_processed/case-wechat-2404c1658025473c.md｜P2｜3649B｜检测到 08-24 16:41｜待王语嫣编排
-- 00_inbox/pending-cards/_processed/case-wechat-fe60439837f4c93e.md｜P2｜2619B｜检测到 08-24 16:41｜待王语嫣编排
-- 00_inbox/pending-cards/case-wechat-2404c1658025473c.md｜P2｜3247B｜检测到 08-24 16:51｜待王语嫣编排
-- 00_inbox/pending-cards/case-wechat-fe60439837f4c93e.md｜P2｜2361B｜检测到 08-24 16:51｜待王语嫣编排
+- ~~00_inbox/pending-cards/_processed/case-wechat-2404c1658025473c.md｜P2｜3649B｜检测到 08-24 16:41｜待王语嫣编排~~ → 已编排（08-25 王语嫣：门禁判定合并→framework-lemon-market-new-brand-trust，见 diag_20260825_wangyuyan-pending-cards-gate）
+- ~~00_inbox/pending-cards/_processed/case-wechat-fe60439837f4c93e.md｜P2｜2619B｜检测到 08-24 16:41｜待王语嫣编排~~ → 已编排（08-25 王语嫣：维持 08-21 原判合并→tool-pdf-inspector，同上判定书）
+- ~~00_inbox/pending-cards/case-wechat-2404c1658025473c.md｜P2｜3247B｜检测到 08-24 16:51｜待王语嫣编排~~ → 已处置（08-25 王语嫣：管线再生副本——同案已判定合并，副本隔离 _processed/*.regen-20260825；再生根因=wechat_promote 去重键不查 _processed，立项 #516 根治）
+- ~~00_inbox/pending-cards/case-wechat-fe60439837f4c93e.md｜P2｜2361B｜检测到 08-24 16:51｜待王语嫣编排~~ → 已处置（同上，#516 根治）
 
 <!-- INBOX-PENDING-END -->
 

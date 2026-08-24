@@ -1,0 +1,48 @@
+---
+id: 516
+assignee: huangyaoshi
+status: queued
+updated_at: '2026-08-24T17:10:00+00:00'
+version: v0.1
+---
+
+# #516 wechat_promote 去重键补 _processed（已门禁判定的卡不再生）
+
+- **任务号**：#516
+- **状态**：queued
+- **assignee**：huangyaoshi（一行级修复+回归；欧阳锋终审）
+- **优先级**：P1（编排门禁被管线再生击穿——不修复则每次管线运行都抵消门禁判定）
+- **立项**：2026-08-25 王语嫣（自办诊断：隔离动作暴露管线去重缺口）
+
+## 背景
+
+王语嫣 08-25 门禁判定 2 张 pending-cards 合并（superseded）并隔离到 `_processed/`（E037 三步走）。当夜 00:41 `wechat_promote.py` 管线再生同 2 张 draft 到待编排区——根因：管线去重检查（L108）只查 `PENDING_DIR / CASES_DIR / RERUN_DIR` 三处，**不查 `_processed/`**。门禁判定的隔离动作反而让管线「看不见」已判定卡 → 再生循环。E037 隔离与管线去重键不兼容（我隔离时未核管线去重逻辑——A5 行动前复核最新态实证，记入个人复盘）。
+
+## 任务
+
+1. `kdo-tools/wechat_promote.py` 去重检查补 `_processed/` 目录（L108 一族，一行级：`或 (PENDING_DIR / "_processed" / f.name).exists()`——含 regen 后缀变体可按源文件 stems 匹配，黄药师定实现）
+2. 回归用例：已隔离到 _processed 的源（`src_wechat_2404c1658025473c` / `src_wechat_fe60439837f4c93e`）重跑管线 → skip 不再生
+3. 通用性检查：其他写 pending-cards 的入口（如有）同口径补齐
+
+## 验证（验证分层）
+
+- L1：单测——_processed 有同名卡的源被 skip
+- L2 狗粮：实跑一次管线（或 dry-run），2 张 wechat 源输出 skip 计数
+- L3 待活体：管线下次运行待编排区不再出现已判定卡
+
+## 边界
+
+- 一行级修复，不动管线其他逻辑（promote 只到素材层/待编排区路由不变）
+- 不回改 `_processed/` 存量文件命名
+- 若发现其他管线（非 wechat）有同族去重缺口，登记不扩展（另立单）
+
+## 关联
+
+- 王语嫣门禁判定 `diag_20260825_wangyuyan-pending-cards-gate.md`（含再生事件记录）
+- #380（偶遇管线 A 方案：pending-cards=待编排区过王语嫣门禁）/ E037（判定→隔离→git 固化）
+- charter §3.16（A8：机制改动写读对账——本单=隔离写侧与管线读侧对账缺失的修复）
+
+## 需要谁动作
+
+- **黄药师**：去重键补齐 + 回归
+- **欧阳锋**：终审本单
