@@ -1,17 +1,17 @@
 ---
 id: 511
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-24T18:23:07.350637+00:00'
+status: pending_review
+updated_at: '2026-08-24T18:31:23.300508+00:00'
 version: v0.2
 instance: huangyaoshi
 code_files:
-  - kdo-tools/memory_capsule.py
-  - 90_control/scripts/queue_transition.py
-  - kdo-tools/conveyor_probe.py
-  - kdo-tools/tests/test_capsule_events.py
-  - 90_control/scripts/tests/test_queue_transition.py
-  - 90_control/infrastructure-inventory.md
+- kdo-tools/memory_capsule.py
+- 90_control/scripts/queue_transition.py
+- kdo-tools/conveyor_probe.py
+- kdo-tools/tests/test_capsule_events.py
+- 90_control/scripts/tests/test_queue_transition.py
+- 90_control/infrastructure-inventory.md
 ---
 
 # #511 记忆胶囊事件层补 4 类关键事件（queue_transition / decision / friction / error）
