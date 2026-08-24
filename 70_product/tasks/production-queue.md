@@ -143,7 +143,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 515 | `task_20260825_huangyaoshi-machine-pre-review-pipeline` | 机器预审管线：提审单附预审报告（声称-交付差集+lint+负向判词+存在性核查），机器只参考不放行 | queued | huangyaoshi | 预审管线+报告附件 | #514 基线先跑（一致率对照用） | `60_feedback/tasks/task_20260825_huangyaoshi-machine-pre-review-pipeline.md` | 风清扬专项审计建议3采纳；判据欧阳锋定；防自动化偏见（机器建议不入档为结论）；降档需老朱拍板挂F-055；欧阳锋终审 |
 | 516 | `task_20260825_huangyaoshi-wechat-promote-dedup-processed` | wechat_promote去重键补_processed：已门禁判定隔离的卡不再生（一行级+回归） | queued | huangyaoshi | 去重修复+回归用例 | 无 | `60_feedback/tasks/task_20260825_huangyaoshi-wechat-promote-dedup-processed.md` | 王语嫣自办诊断立项（08-25隔离后当夜管线再生2张实证：去重只查PENDING/CASES/RERUN三处不查_processed）；门禁判定被再生击穿=E037隔离与去重键不兼容；欧阳锋终审 |
 | 517 | `task_20260825_huangyaoshi-src-unknown-body-gate` | pre-submit补「正文src_unknown占位」检查项：新卡ERROR/存量WARNING/只向前生效+安慰语口径核 | queued | huangyaoshi | 检查项+回归 | 无 | `60_feedback/tasks/task_20260825_huangyaoshi-src-unknown-body-gate.md` | 欧阳锋建议书R1裁定采纳（存量22871行/1524卡+PASS附安慰语=红线4误拦方向反了）；存量治理归#518；过渡口径R3已生效（欧阳锋见占位即FAIL）；欧阳锋终审 |
-| 518 | `task_20260825_laowantong-src-unknown-body-backfill` | 正文src_unknown存量治理（22871行/1524卡）：三类分流口径+清单先行+#426分批模式 | claimed-kimi-cli | laowantong | 清单+分批治理 | #517 门禁上线后启动（清单可先行） | `60_feedback/tasks/task_20260825_laowantong-src-unknown-body-backfill.md` | 欧阳锋建议书R2裁定采纳；口径王语嫣裁（可回填回填/无来源标待复核不编造/空壳节标欧阳锋裁定）；清单王语嫣过目后放首批；欧阳锋批次验收 |
+| 518 | `task_20260825_laowantong-src-unknown-body-backfill` | 正文src_unknown存量治理（22871行/1524卡）：三类分流口径+清单先行+#426分批模式 | pending_review | laowantong | 清单+分批治理 | #517 门禁上线后启动（清单可先行） | `60_feedback/tasks/task_20260825_laowantong-src-unknown-body-backfill.md` | 欧阳锋建议书R2裁定采纳；口径王语嫣裁（可回填回填/无来源标待复核不编造/空壳节标欧阳锋裁定）；清单王语嫣过目后放首批；欧阳锋批次验收 |
 | 519 | `task_20260825_huangyaoshi-conveyor-probe-scheduled-noop` | 探针计划任务空转根治：运行但state不落盘（疑似GBK控制台emoji崩溃）+失败可见（崩溃落日志/空转报警） | queued | huangyaoshi | 环境修复+失败可见+回归 | 无 | `60_feedback/tasks/task_20260825_huangyaoshi-conveyor-probe-scheduled-noop.md` | 王语嫣自办诊断（老朱追问#498状态触发）：00:43后4个周期空转，#498终审+5新单全漏通知；手动跑正常=环境差异非代码；#501补偿机制崩溃盲区；欧阳锋终审 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
@@ -239,6 +239,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#505 task_20260824_huangyaoshi-shared-file-write-discipline｜huangyaoshi｜提审 08-25 00:51｜60_feedback/tasks/task_20260824_huangyaoshi-shared-file-write-discipline.md~~ → 已终审 PASS A（2026-08-24 欧阳锋）
 - ~~#498 task_20260824_laowantong-dk-tags-word-count-caliber｜laowantong｜提审 08-25 01:05｜60_feedback/tasks/task_20260824_laowantong-dk-tags-word-count-caliber.md~~ → 已终审 PASS A-（2026-08-24 欧阳锋）
 - ~~#506 task_20260824_huangyaoshi-proposal-near-miss-gate｜huangyaoshi｜提审 08-25 01:17｜60_feedback/tasks/task_20260824_huangyaoshi-proposal-near-miss-gate.md~~ → 已终审 PASS A-（2026-08-24 欧阳锋）
+- #518 task_20260825_laowantong-src-unknown-body-backfill｜laowantong｜提审 08-25 01:31｜60_feedback/tasks/task_20260825_laowantong-src-unknown-body-backfill.md
 
 <!-- REVIEW-PENDING-END -->
 
@@ -284,6 +285,8 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~00_inbox/pending-cards/case-wechat-fe60439837f4c93e.md｜P2｜2361B｜检测到 08-24 16:51｜待王语嫣编排~~ → 已处置（同上，#516 根治）
 - 00_inbox/pending-cards/_processed/case-wechat-2404c1658025473c.regen-20260825.md｜P2｜3247B｜检测到 08-24 17:21｜待王语嫣编排
 - 00_inbox/pending-cards/_processed/case-wechat-fe60439837f4c93e.regen-20260825.md｜P2｜2361B｜检测到 08-24 17:21｜待王语嫣编排
+- 00_inbox/pending-cards/case-wechat-2404c1658025473c.md｜P2｜3247B｜检测到 08-24 17:31｜待王语嫣编排
+- 00_inbox/pending-cards/case-wechat-fe60439837f4c93e.md｜P2｜2361B｜检测到 08-24 17:31｜待王语嫣编排
 
 <!-- INBOX-PENDING-END -->
 

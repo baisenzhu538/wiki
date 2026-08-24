@@ -1,8 +1,8 @@
 ---
 id: 518
 assignee: laowantong
-status: in_progress
-updated_at: '2026-08-24T17:29:04.905235+00:00'
+status: pending_review
+updated_at: '2026-08-24T17:31:42.648794+00:00'
 version: v0.1
 instance: kimi-cli
 ---
@@ -54,3 +54,21 @@ instance: kimi-cli
 - **老顽童**：清单扫描 → 分批治理
 - **欧阳锋**：批次验收（抽查口径随 #480 标准）
 - **王语嫣**：清单过目后放行首批
+
+---
+
+## 执行报告（F-034 五字段，清单扫描先行批 · 2026-08-25 老顽童 kimi-cli）
+
+**文件清单**：`60_feedback/tasks/task_20260825_laowantong-src-unknown-body-backfill/清单-src-unknown-body.md`（1,941 行，按域×分类分组）+ `scan-summary.json`（机读汇总）+ 扫描脚本 `_tmp/scan-518-src-unknown.py`（只读，不写卡）。
+
+**完成内容**：全库 30_wiki 扫描出清单（#517 门禁未上线，按边界只交付清单、不动卡片）——
+- **实测口径**：1,551 卡 / 22,666 占位行（正文含 src_unknown 的行；其中纯占位 bullet 21,395 行）——与欧阳锋实测 22,871 行/1,524 卡同量级（差 205 行/27 卡，口径差=frontmatter 是否计入+文件集边界，清单头部已注明本口径）
+- **三类分流**：类1 可从 source_refs 回填=**907 卡**；类2 frontmatter 也无来源→标「来源待复核」=**644 卡**；类3 空壳=**卡级扫描零命中**（空壳是段落级属性，卡级启发式判不出——留分批治理时段落级半自动判定，不硬凑）
+- **域分布**：48 域，Top=design 240 / ai-collaboration 210 / strategy 164 / decision-making 142 / research 119 / master 98 / content 88 / kdo 74
+- 清单按 域×分类 分组、类内按占位行数降序，每卡带可回填来源前 2 条预览
+
+**验证**：①yaml.safe_load 主路径解析 domain（初版正则串行污染 1224 伪域已修复→48 真域）②总数与欧阳锋全库实测对账同量级 ③脚本只读（os.walk+open r，零写入 30_wiki）。
+
+**未做项**：分批治理（等 #517 门禁上线 + 清单过目放行首批——任务书边界条款）；类3 段落级判定（随首批治理一并出判定口径）。
+
+**需要谁动作**：老朱/欧阳锋/王语嫣过目清单 → 放行首批（建议首批=design 域类1 子集 ≤200 卡，先高信任域）；黄药师 #517 门禁上线后启动写入。
