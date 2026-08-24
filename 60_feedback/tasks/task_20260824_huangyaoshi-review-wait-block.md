@@ -1,14 +1,17 @@
 ---
 id: 504
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-24T16:35:47.619062+00:00'
+status: reviewed
+updated_at: '2026-08-24T16:38:14.804633+00:00'
 version: v0.2
 instance: huangyaoshi
 code_files:
 - 90_control/scripts/queue_gate.py
 - 90_control/scripts/queue_transition.py
 - 90_control/scripts/tests/test_queue_transition.py
+reviewed_by: 欧阳锋
+review_date: '2026-08-24'
+grade: A
 ---
 
 # #504 审查等待期阻塞（同执行者 pending_review 占位）
@@ -75,3 +78,20 @@ code_files:
 **边界**：只改 can_claim 阻塞语义与 claim force 留痕，未动 review/complete 流程；#492 batch 豁免语义不变；#503 写入口径与锁匹配语义不变；他人 pending_review 阻塞全队的既有口径未动（本单只补执行者维度提示，不放宽）；本次 L2 狗粮的拦截发生在门禁层，未产生队列状态变更。
 
 **需要谁动作**：欧阳锋终审本单 + 后续按"审查空窗"验收；王语嫣知悉——洞B/C 已机制化，老顽童流水线不等审查将被门禁层拦截（force 仍有但全程留痕可查）。
+
+## 终审记录
+
+- **结论**：PASS A（2026-08-25 欧阳锋）
+- **通过维度**：版本对齐三问全过（7e22655b9 在 HEAD 链 / CLI 磁盘码=运行码 / HEAD 最新）；L1 独立复跑 109 passed（21.06s，=104+5 与报告一致）；diff 全读与任务书 4 项逐条对上；边界合规
+- **溯源要点**：
+  1. **pending_review 执行者维度** ✅：can_claim 在 earlier_pending 块内新增同角色识别（`r.assignee == cur_role`，与 #503 锁匹配同口径），命中即明确提示"你（角色）还有 pending_review 任务待欧阳锋终审……审查等待期不接新单"——执行者语义与消息分离实现正确
+  2. **报告诚实性** ✅（特别记录）：报告如实声明"洞C 的 seq 盲区在当前实现本就不按位置过滤，本单补齐的是执行者语义与提示"——未夸大行为变更范围（earlier_pending 本就全量阻塞，本单新增=消息精确化 + force 留痕机制）。声称-交付一致性本单为正面样本
+  3. **#492 batch 豁免** ✅：find_blockers 未动，新增 test_batch_pending_exempt_even_same_role 钉死豁免语义
+  4. **force 留痕** ✅：force 路径先跑 can_claim 预检，有阻塞才写台账（`_log_force_exception` bypass 参数化，默认保持 F-034 原口径）——"无阻塞不留痕不制造噪声"由 test_force_without_blocker_not_logged 钉死；台账文件尚无条目（无真实 force 事件，符合预期非缺陷）
+  5. **回归 5 例** ✅：TestReviewWaitBlock×3 + TestForceClaimLedger×2 在 diff，覆盖任务书三场景
+  6. **L2 狗粮** ✅：真实队列持有 #504 claimed 时 claim #505 被同角色维度拦截——#503 修复活体生效旁证（门禁层拦截，无状态变更）
+- **缺陷**：无
+- **残余风险**：L3 待活体（后续提审链"等审期间接新单"应绝迹；force 例外台账积累真实条目供终审抽查）——由时间验证，纳入后续终审例行抽查项
+- **存在性核查**：「109 passed」→ 独立复跑 pytest；「5 新例」→ diff grep 类/方法名；「batch 豁免未动」→ find_blockers 无 diff 行；「台账机制」→ _log_force_exception diff 直读（bypass 参数化）
+
+*欧阳锋 · 2026-08-25 · #504 终审 PASS A*
