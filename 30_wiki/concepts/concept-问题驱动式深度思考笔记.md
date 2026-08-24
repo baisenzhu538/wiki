@@ -57,6 +57,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 课程
+  - 笔记
+  - 机制
+  - 框架
+  - 工具
+  - 方法
+  - 边界
 ---
 # 问题驱动式深度思考笔记：用真问题取代真记录
 

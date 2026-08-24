@@ -60,6 +60,10 @@ tags:
   - audience:executor
   - scene:reference
   - skill-level:intermediate
+  - 笔记
+  - 框架
+  - 工具
+  - 清单
 ---
 # 清单体L4内化阶段：从"让别人看懂"到"让自己想清楚"的跳跃
 

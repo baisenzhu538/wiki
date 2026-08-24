@@ -41,6 +41,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 提示词
+  - 文创
+  - 工具
+  - 方法
+  - 效率
+  - 设计师
+  - 实操
 ---
 # 技能：资深设计师AI工具切换法
 

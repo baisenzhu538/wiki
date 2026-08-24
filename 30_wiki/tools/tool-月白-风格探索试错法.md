@@ -40,6 +40,11 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 提示词
+  - 文创
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：风格探索试错法
 

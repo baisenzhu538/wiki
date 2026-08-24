@@ -36,9 +36,14 @@ related:
 - '[[tool-yitang-practice-20hour-starter]]'
 - '[[yt-note-five-levels-training]]'
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 笔记
+  - 框架
+  - 边界
+  - 清单
+  - 教练
 ---
 # 四要素诊断模型——刻意练习的笔记落地框架
 

@@ -40,6 +40,12 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - AI设计
+  - 白底图
+  - 工具
+  - 方法
+  - 设计师
+  - 实操
 ---
 # 技能：跨境电商产品图替换法
 

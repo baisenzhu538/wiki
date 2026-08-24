@@ -42,8 +42,16 @@ related:
 - '[[case-yitang-model-asset-inventory]]'
 - '[[dk-yb1-aigc-mvp-before-ps]]'
 tags:
-- audience:executor
-- scene:execution
+  - audience:executor
+  - scene:execution
+  - AI设计
+  - AIGC
+  - 提示词
+  - 工具
+  - 方法
+  - 设计师
+  - 实操
+  - 口述
 quality_labels:
 - cited
 diagnostic_signals:

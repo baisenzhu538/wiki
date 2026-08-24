@@ -31,6 +31,11 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 机制
+  - 工具
+  - 方法
+  - 实操
+  - 拆书会
 ---
 # 技能：利用基因漂变视角
 

@@ -61,9 +61,16 @@ diagnostic_signals:
 author: 老顽童
 trust_level: medium
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 知识萃取
+  - 工具
+  - 方法
+  - 边界
+  - 反例
+  - 实证
+  - 清单
 ---
 # 一堂知识萃取探索营：从碎片经验到确定模型
 

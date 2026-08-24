@@ -74,6 +74,13 @@ tags:
   - audience:executor
   - scene:reference
   - skill-level:intermediate
+  - 卡片
+  - 课程
+  - 笔记
+  - 索引
+  - 工具
+  - 方法
+  - 边界
 ---
 # 一堂笔记法：清单体笔记的核心概念与原理
 

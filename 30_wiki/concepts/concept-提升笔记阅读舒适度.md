@@ -59,6 +59,11 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 课程
+  - 笔记
+  - 清单
+  - 团队
+  - 编辑
 ---
 # 提升笔记阅读舒适度：用产品意识和视觉编码降低认知摩擦
 

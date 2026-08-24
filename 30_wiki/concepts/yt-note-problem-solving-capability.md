@@ -60,6 +60,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 文章
+  - 课程
+  - 笔记
+  - 框架
+  - 工具
+  - 边界
+  - 清单
 ---
 # 笔记能力=解决问题能力：从备忘工具到问题解决系统
 

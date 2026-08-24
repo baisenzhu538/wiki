@@ -33,6 +33,8 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 课程
+  - IP
 quality_labels: null
 related: null
 discoverable_by:

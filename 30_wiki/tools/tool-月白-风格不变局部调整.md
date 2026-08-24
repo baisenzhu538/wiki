@@ -39,6 +39,12 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - AI设计
+  - 提示词
+  - 工具
+  - 方法
+  - 设计师
+  - 实操
 ---
 # 技能：风格不变局部调整
 

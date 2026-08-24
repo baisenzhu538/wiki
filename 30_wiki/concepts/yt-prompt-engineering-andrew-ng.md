@@ -62,9 +62,16 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: high
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 卡片
+  - 课程
+  - 笔记
+  - 方法
+  - 边界
+  - 模板
+  - 知识工作者
 ---
 # 吴恩达提示词课程·一堂拆书精华
 

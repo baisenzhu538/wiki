@@ -38,6 +38,10 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 文创
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：设计项目里程碑拆解法
 

@@ -40,6 +40,10 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 文创
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：里程碑思维-找对标优先于做设计
 

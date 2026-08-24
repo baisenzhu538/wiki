@@ -48,6 +48,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - AI设计
+  - 海报
+  - 白底图
+  - 表情包
+  - IP形象
+  - 文创
+  - 工具
 ---
 # 技能：设计项目MVP拆解法
 

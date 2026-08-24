@@ -43,6 +43,11 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - AI设计
+  - 白底图
+  - 工具
+  - 方法
+  - 实操
 ---
 # 技能：课程问题预埋法
 

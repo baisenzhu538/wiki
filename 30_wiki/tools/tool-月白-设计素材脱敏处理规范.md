@@ -40,6 +40,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - AI设计
+  - 图片
+  - 机制
+  - 工具
+  - 方法
+  - 设计师
+  - 实操
 ---
 # 技能：设计素材脱敏处理规范
 

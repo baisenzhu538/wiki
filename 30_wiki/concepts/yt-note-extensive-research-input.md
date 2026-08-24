@@ -56,6 +56,11 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 信息密度
+  - 课程
+  - 笔记
+  - 边界
+  - 清单
 ---
 # 广泛涉猎式笔记：以问题为入口的多源交叉认知法
 

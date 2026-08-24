@@ -38,6 +38,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - AI设计
+  - 提示词
+  - 工具
+  - 方法
+  - 模板
+  - 设计师
+  - 实操
 ---
 # 技能：视角替换专用提示法
 

@@ -47,9 +47,16 @@ related:
 - '[[yt-growth-user-onboarding]]'
 - '[[yt-product-kernel-mvp-design]]'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:beginner
+  - audience:executor
+  - scene:execution
+  - skill-level:beginner
+  - AI设计
+  - AIGC
+  - 海报
+  - 详情页
+  - 工具
+  - 方法
+  - 设计师
 quality_labels:
 - cited
 diagnostic_signals:

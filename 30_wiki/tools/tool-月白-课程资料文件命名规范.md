@@ -41,9 +41,15 @@ related:
 - '[[dk-f2-txt-ingest-skip]]'
 - '[[dk-yb8-file-naming-eight-elements]]'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:beginner
+  - audience:executor
+  - scene:execution
+  - skill-level:beginner
+  - 文创
+  - 工具
+  - 方法
+  - 效率
+  - 实操
+  - 复盘
 quality_labels:
 - cited
 diagnostic_signals:

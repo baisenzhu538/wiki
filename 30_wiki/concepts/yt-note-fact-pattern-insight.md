@@ -55,6 +55,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 课程
+  - 笔记
+  - 方法
+  - 边界
+  - 反例
+  - 模板
+  - 清单
 ---
 # 事实→规律→见解：深度思考笔记的三段论结构
 

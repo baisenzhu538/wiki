@@ -39,6 +39,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - AI设计
+  - 提示词
+  - 海报
+  - 白底图
+  - 文创
+  - 图片
+  - 工具
 ---
 # 技能：里程碑思维拆解设计流程
 

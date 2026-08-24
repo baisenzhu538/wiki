@@ -38,6 +38,11 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 文创
+  - 工具
+  - 方法
+  - 设计师
+  - 实操
 ---
 # 技能：设计基本功回归法
 

@@ -32,6 +32,11 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 框架
+  - 工具
+  - 方法
+  - 实操
+  - 拆书会
 ---
 # 技能：利用叙事驱动决策
 

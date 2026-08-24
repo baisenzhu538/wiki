@@ -28,6 +28,11 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 机制
+  - 工具
+  - 方法
+  - 实操
+  - 人工复核
 ---
 # 技能：低置信度样本黄金漏斗处理
 

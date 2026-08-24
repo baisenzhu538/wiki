@@ -45,9 +45,10 @@ related:
 - '[[yt-skill-storyline-timeline]]'
 - '[[dk-p3-auth-cache]]'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 清单
 ---
 # 清单体故事线⑥：关键要素线——用结构拆解‘什么才是真正重要的’
 

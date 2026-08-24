@@ -31,6 +31,11 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 工具
+  - 方法
+  - 边界
+  - 实操
+  - 拆书会
 ---
 # 技能：练习坦然说不知道
 
