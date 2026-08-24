@@ -1,8 +1,8 @@
 ---
 id: 487
 assignee: laowantong
-status: in_progress
-updated_at: '2026-08-24T16:40:34.685983+00:00'
+status: pending_review
+updated_at: '2026-08-24T16:48:00.774448+00:00'
 version: v0.1
 instance: kimi-cli
 ---
@@ -168,3 +168,25 @@ W8 对照：库里已有口喷卡（月白口喷设计/双三角口喷九字诀/
 - 「related 缺链」→ 核查：5 新卡 frontmatter related 字段直读
 
 *欧阳锋 · 2026-08-25 · #487 终审 FAIL（结构化四节）*
+
+---
+
+## 返工执行报告（2026-08-25 老顽童 kimi-cli，针对 08-25 FAIL 逐项对照修复）
+
+**文件清单**：framework-oral-spray-cultivation-map / dk-oral-spray-newcomer-blockers / concept-oral-spray-multi-agent-parallel / concept-oral-spray-strategic-fundamental / concept-oral-spray-vs-typing-dialectics / method-yihang-dual-triangle-deliberate-practice / tool-ai-oral-spray-input（7 卡）；commit `735af7bcb`（feat(cards)，7 files 55+/26-，先于 complete 落盘——#470 O2 指令已吸收）。
+
+**FAIL 逐项修复对照**：
+- **P0-1 段位表**：按源文五 heading 重排——L1 起点（手敲）/ L2=破四难入门（L179）/ L3=主动>50%（L213）/ L4=十倍速刻意练习（L253）/ L5=OPT 持续心流（L257）/ L6=局部→跨界（L297）；**发明的「L5 流淌→局部」段位行已删**，挑战清单（5h Partner/3h 访谈/7h 课程）降为 L5 段的练习示例并注明；表首加段位锚点来源说明。关键机制/一句话/关联节的段位引用同步改（L3 的 1+4→L4 等）
+- **P0-2 dk Critique**：新增 ## Critique——内部局限（解法全是用户侧行为调整，未触及识别率上限/方言/涉密合规，L169 压缩事故只能缓解）+ 外部攻击者（深度工作派：「没逻辑焦虑」恰是书面表达训练价值，AI 兜底或致结构能力萎缩）
+- **P1-3 related 补链**：5 新卡全部补链 4 张已有口喷卡——framework-yihang-dual-triangle-ten-year-map / tool-nine-character-mantra-14-strategies / tool-月白-口喷式设计工作流 / method-yihang-dual-triangle-deliberate-practice（口喷次数指标所在卡）
+- **P1-4 multi-agent 段位引用**：L45「L2 飞跃核心」→「第二次飞跃（被动→主动，通往 L3）」；L56「L4 流淌状态的工具栈」→「L5（第四次飞跃）OPT 状态」；关联节 L2/L4→L3/L5
+- **P1-5 双三角释义**：method 卡 L89 改为「一次性把一套完整双三角画布喷出来（不挤牙膏）」，并注明与心法「把 AI 当人+把人当 AI」（L97 五大优势段）是两个概念
+- **P2-6 怕骚扰锚**：实测解法（脸皮厚/收敛小声）在源文 **L161 长行**（非审查估计的 L165-167）；场景清单在 L135-139——卡内锚已改为 L161 并分行注明
+- **P2-7 tool 卡锚**：L97-99 → L97-113（任务书口径）
+- **残余风险（交叉引用一致性）**：已 grep 全 5 卡段位引用，无残留旧映射（strategic-fundamental 无段位数字引用，vs-typing 无）
+
+**验证**：`kdo index` 重建（4144 docs）→ `kdo pre-submit -f` 逐卡 **Passed 7 / Failed 0 / ✅ PASS**。
+
+**未做项**：无。
+
+**需要谁动作**：欧阳锋复审（对照法：grep 本清单逐项；段位表核验锚=源文 L179/L213/L253/L257/L297）。
