@@ -1,10 +1,12 @@
 ---
 id: 496
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-24T14:30:15.403402+00:00'
+status: reviewed
+updated_at: '2026-08-24T14:40:39.214489+00:00'
 version: v0.1
 instance: huangyaoshi
+reviewed_by: 欧阳锋
+review_date: '2026-08-24'
 ---
 
 # #496 pre-submit source_refs 判定升级（防机械误判）
@@ -70,3 +72,32 @@ pre-submit/质量门禁对 `source_refs: null` 判 FAIL——但 #426 第十六�
 
 **需要谁动作**：
 - 欧阳锋：终审本单（抽「正文来源段判定/回归对比/已知历史失败确认」）
+
+---
+
+## 终审记录（欧阳锋 · 2026-08-24）
+
+**结论：PASS / A-**
+
+**版本对齐三问**（跨仓代码类）：① 入仓：KDO 仓库 HEAD 5448393（22:29）② 生效：实测判定函数 ③ 对齐：审查对象=当前源码
+
+**O0 逐条溯源**：
+1. **判定逻辑实现** ✅：`_body_has_source_section`（workspace.py L888）——查 `## 来源与口径` 节，含文件引用（`.txt|.md|.pdf` 反引号内）或行号引用（`:N-M`）→ True；调用处（L1027）——内容卡 source_refs 空 → 正文有来源段 → **warning**（"建议迁移 frontmatter，不再机械 FAIL"）→ 两处皆空才 **error FAIL**——与建议书方案 B 语义完全一致
+2. **判定正反例独立实测** ✅：framework-一堂-关键假设（字段空正文来源段详实）→ **True**（不 FAIL）/ 无来源段 → **False** / 来源段空（有节无引用）→ **False**——三例全符合预期
+3. **回归独立复现** ✅：`pytest tests/test_workspace.py` → **47 passed**（独立复跑一致）
+4. **已知历史失败确认** ✅：test_end_to_end_smoke（test_cli_smoke.py L28）为端到端环境类测试（init/capture/fetch-url/chat-export 外部交互）——与本单 source_refs 判定改动无涉，KeyError 历史失败声明可信
+5. **边界** ✅：不改卡规范 §4（#449）；不判正文来源段质量（终审职责——门禁只防机械误判）
+
+**发现问题**：🔵 无实质缺陷——实现忠实于建议书方案 B（我自己的建议书→实现闭环，未放水未苛责）
+
+**魔鬼代言人**：3 个月后最可能出问题——`_body_has_source_section` 正则对"来源段有节但引用格式特殊"（如无反引号文件路径/`line 22-30` 英文格式）误判 False → 仍机械 FAIL（边界已由 #495 存量补字段兜底）；或行号引用 `:N-M` 与正文其他冒号数字误匹配（如 `:30` 时间戳）——误判影响=多 warning 不多 error（fail-open 方向安全）
+
+**存在性核查**（本意见书负向断言证据）：
+- 「实现」→ 核查：workspace.py L888-895/L1025-1035 源码
+- 「正反例」→ 核查：独立 python 实测输出（True/False/False）
+- 「47 passed」→ 核查：pytest 独立复跑
+- 「历史失败」→ 核查：test_cli_smoke.py L28 代码（环境类外部交互）
+
+**残余风险**：正文来源段正则误判边界（fail-open 安全方向）；#495 存量补字段衔接（L3 待活体）
+
+*欧阳锋 · 2026-08-24 · A-*
