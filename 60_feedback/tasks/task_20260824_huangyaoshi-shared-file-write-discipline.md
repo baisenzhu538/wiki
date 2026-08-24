@@ -1,8 +1,8 @@
 ---
 id: 505
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-24T16:51:55.359608+00:00'
+status: reviewed
+updated_at: '2026-08-24T17:00:15.428811+00:00'
 version: v0.2
 instance: huangyaoshi
 code_files:
@@ -10,6 +10,9 @@ code_files:
 - 90_control/scripts/tests/test_shared_file_guard.py
 - kdo-tools/conveyor_probe.py
 - 90_control/file-flow-protocol-amend-shared-file-write.md
+reviewed_by: 欧阳锋
+review_date: '2026-08-24'
+grade: A
 ---
 
 # #505 共享文件并发写根治（写前核最新编号 + 落盘即 commit + message 标 instance）
@@ -71,3 +74,19 @@ code_files:
 **边界**：未改 git 工作流大框架（无锁服务/无强制 rebase）；queue_transition 写路径未动（评估已合规）；实例隔离（F-048）不在本单；增补件规范效力以欧阳锋终审为准（原件 §9——老朱拍板若需另行触发，已在增补件 frontmatter 标注 approved_by 待终审）；conveyor_probe 的非队列文件写点（state 文件等）不在共享文件一族，未加锁。
 
 **需要谁动作**：欧阳锋终审本单（增补件规范地位一并裁定）；王语嫣知悉三条约定（编排侧手工写队列前 snapshot/verify 可选但推荐，queue_transition 路径已全自动合规）；全员：手工写共享文件遵循 S2 三条。
+
+## 终审记录
+
+- **结论**：PASS A（2026-08-25 欧阳锋）；**增补件规范地位裁定：批准生效**（approved_by 已落笔欧阳锋，原件 §9 程序完成）
+- **通过维度**：版本对齐三问全过（63bebec17 在 HEAD 链 / CLI+计划任务探针磁盘码=运行码 / HEAD 最新）；L1 独立复跑 116 passed（20.85s）+ probe 21 passed 零回归——双套件与报告一致；L2 狗粮我侧独立复现（snapshot→verify FRESH exit=0）
+- **溯源要点**：
+  1. **约定固化** ✅：增补件 S1 适用文件/S2 三条约定（写前核最新态/落盘即 path-scoped commit/message 标 by instance）/S3 工具落点/S4 外部监督者齐全——三条约定与根因（E050 反向变体/#488 错位）一一对应
+  2. **工具兜底 A** ✅：conveyor_probe 3 写函数（4 写点）装饰器注入 QueueLock("production-queue")——与 queue_transition 锁名一致（L513/709/814 实证）；装饰器注入零函数体改动，既有 21 例零回归佐证兼容；写点直读确为 QUEUE_FILE（production-queue.md）
+  3. **工具兜底 B** ✅：shared_file_guard.py snapshot/verify 我侧实跑——snapshot 出基线（HEAD|filehash）→ verify FRESH exit=0；7 例回归覆盖并发改文件/HEAD 移动/零变更/fail-open/格式错/文件被删/probe 锁行为
+  4. **评估结论核实** ✅：queue_transition 写路径未动——其既有 QueueLock+原子读写+#390 path-scoped commit 合规判断属实（diff 零 touch 该区）
+  5. **L2 狗粮副产品** ✅：工具自身 GBK 崩溃 bug 当场抓当场修——狗粮真跑过的证据（非纸面声称）
+- **缺陷**：无
+- **残余风险**：L3 待活体（下一并发窗口不再行被带走/错位；probe 每 10 分钟带锁运行无死锁——QueueLock 300s 自过期兜底已在）；增补件遵守情况由 S4 抽查机制承接（我终审共享文件任务时查 commit path-scoped+by 署名）
+- **存在性核查**：「116+21 passed」→ 双套件独立复跑；「锁名一致」→ 两侧 QueueLock("production-queue") grep 实证；「guard 工具可用」→ 我侧 snapshot/verify 实跑 FRESH；「增补件格式」→ 全文直读（S1-S4 齐）
+
+*欧阳锋 · 2026-08-25 · #505 终审 PASS A + 增补件批准生效*
