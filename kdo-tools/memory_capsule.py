@@ -90,6 +90,37 @@ def cmd_log(agent: str, event: str, payload: str | None, session: str | None) ->
     return 0
 
 
+def log_event_safe(agent: str, event: str, payload: str | None, session: str | None = None) -> bool:
+    """#511：事件写入安全封装（失败可见不静默，不阻断主流程）。
+
+    四类新事件统一入口（queue_transition/decision/friction/error——#434 review_saved 同款口径）：
+    各写入点（queue_transition 流转钩/conveyor_probe friction 扫描/gate-blocked+force 台账）
+    只调本函数，不直接碰 sqlite——单写入面纪律。
+    返回是否写入成功；失败 stderr 醒目报警 + 落 pending-git-commits.log 待收口。
+    """
+    try:
+        if not A_DB.exists():
+            cmd_init()
+        conn = _connect(A_DB)
+        summary = (payload or "")[:1000]
+        conn.execute(
+            "INSERT INTO activity_log (agent_id, session_id, ts, event_type, payload_summary, payload_hash) VALUES (?,?,?,?,?,?)",
+            (agent, session, _utcnow(), event, summary, _sha256(payload or "")),
+        )
+        conn.commit()
+        conn.close()
+        return True
+    except Exception as e:
+        print(f"⛔ 胶囊事件写入失败（不阻断主流程）：agent={agent} event={event}: {e}", file=sys.stderr)
+        try:
+            log_path = Path(__file__).resolve().parent.parent / "90_control" / "pending-git-commits.log"
+            with open(log_path, "a", encoding="utf-8") as f:
+                f.write(f"\n# {datetime.now().strftime('%Y-%m-%d %H:%M')} 胶囊事件写入失败（#511）agent={agent} event={event}: {e}\n")
+        except Exception:
+            pass
+        return False
+
+
 def _checkpoint(conn: sqlite3.Connection) -> None:
     """WAL 合库（TRUNCATE）——镜像前调用，防备份到半写 WAL。"""
     try:

@@ -145,17 +145,36 @@ GATE_BLOCKED_TEST_LOG = _WIKI_ROOT / "90_control" / "gate-blocked-test.log"  # #
 from queue_gate import check_issue_disposition as _check_issue_disposition  # noqa: E402
 
 
+def _capsule_event(agent: str, event: str, payload: str) -> None:
+    """#511：胶囊事件层统一写入钩（queue_transition 侧单写入面）。
+
+    懒加载 memory_capsule.log_event_safe（失败可见不静默、不阻断流转主流程——
+    #434 同款口径）。本函数自身也不再吞错：log_event_safe 内部已报警+落待收口。
+    """
+    try:
+        sys.path.insert(0, str(_WIKI_ROOT / "kdo-tools"))
+        import memory_capsule as mc
+        mc.log_event_safe(agent, event, payload)
+    except Exception as e:
+        print(f"⛔ 胶囊事件钩异常（流转/台账已成功，不阻断）：agent={agent} event={event}: {e}",
+              file=sys.stderr)
+
+
 def _log_gate_blocked(task_id: str, gate: str, reason: str, instance: str = "") -> None:
     """每次门禁拦截自动 append 一行（时间/任务/门禁名/原因/instance）——探针第五探针扫描面。
 
     #483：测试件（task_9999_*）走独立 gate-blocked-test.log——记录保留（E028 测试覆盖
     历史），但不进真实日志，防第五探针把测试噪声当真实拦截通知王语嫣。
+    #511：真实拦截同步写胶囊事件层（event_type=error；测试件不写——同 #483 噪声分流纪律）。
     """
     try:
         ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         target = GATE_BLOCKED_TEST_LOG if task_id.startswith("task_9999_") else GATE_BLOCKED_LOG
         with target.open("a", encoding="utf-8") as f:
             f.write(f"{ts}｜{task_id}｜{gate}｜{reason[:100]}｜{instance}\n")
+        if not task_id.startswith("task_9999_"):
+            _capsule_event(instance or "unknown", "error",
+                           f"gate-blocked;task={task_id};gate={gate};reason={reason[:200]}")
     except Exception:
         pass
 
@@ -647,6 +666,10 @@ def _log_force_exception(task_id: str, instance: str, reason: str,
     FORCE_LEDGER.parent.mkdir(parents=True, exist_ok=True)
     with FORCE_LEDGER.open("a", encoding="utf-8") as f:
         f.write(line)
+    # #511：force 例外同步写胶囊事件层（event_type=error——例外即风险事件；测试件同 #483 分流不写）
+    if not task_id.startswith("task_9999_"):
+        _capsule_event(instance or "unknown", "error",
+                       f"force-exception;task={task_id};bypass={bypass};reason={reason.strip()[:200]}")
     return str(FORCE_LEDGER)
 
 
@@ -1172,6 +1195,14 @@ def main() -> int:
         if not no_commit and action in ("claim", "complete", "release", "review", "mark-waiting", "resume", "cancel"):
             actor = reviewer if action == "review" else instance
             _git_commit_transition(task_id, action, actor or "")
+        # #511：流转事件层（单写入面=本钩；失败可见不阻断）——测试件（task_9999_）不写胶囊
+        if action in ("claim", "complete", "review") and not task_id.startswith("task_9999_"):
+            actor = reviewer if action == "review" else (instance or "")
+            _capsule_event(actor or "unknown", "queue_transition",
+                           f"task={task_id};action={action};actor={actor}")
+            if action == "review":
+                _capsule_event(reviewer or "ouyangfeng", "decision",
+                               f"task={task_id};verdict={verdict};grade={grade or '-'};reviewer={reviewer}")
     return 0 if ok else 1
 
 

@@ -401,7 +401,9 @@ class TestForceLedgerAndEvidenceGate(unittest.TestCase):
         with tempfile.TemporaryDirectory() as td:
             ledger = Path(td) / "force-exceptions.log"
             orig = qt.FORCE_LEDGER
+            orig_capsule = qt._capsule_event  # #511：测试隔离——台账测试不写真实胶囊事件库
             qt.FORCE_LEDGER = ledger
+            qt._capsule_event = lambda *a: None
             try:
                 path = qt._log_force_exception("task_test_444", "wangyuyan", "生产已完成未走领取")
                 self.assertTrue(ledger.exists())
@@ -413,6 +415,7 @@ class TestForceLedgerAndEvidenceGate(unittest.TestCase):
                 self.assertEqual(path, str(ledger))
             finally:
                 qt.FORCE_LEDGER = orig
+                qt._capsule_event = orig_capsule
 
     def test_role_of_instance_mapping(self):
         """#444 口径 + #503 修正：hermes→laowantong（专属实例）；kimi 多角色共用不再反推（回退同形）。"""

@@ -52,6 +52,8 @@ SILENT_START_HOUR, SILENT_END_HOUR = 22, 8  # 夜间静默 22:00–08:00（登�
 sys.path.insert(0, str(ROOT / "90_control" / "scripts"))
 from queue_gate import parse_queue  # noqa: E402   # 唯一真相源读口，探针零写路径
 from queue_lock import QueueLock  # noqa: E402   # #505：队列文件写点与 queue_transition 同锁
+sys.path.insert(0, str(ROOT / "kdo-tools"))
+import memory_capsule as mc  # noqa: E402   # #511：friction 事件层写入（log_event_safe 失败可见不阻断）
 
 import functools  # noqa: E402
 
@@ -676,6 +678,10 @@ def main() -> int:
     if friction_new:
         # #458：friction 线索登记 PROPOSAL-PENDING（[friction] 类型）+ 通知王语嫣
         _update_proposal_board_friction(friction_new)
+        # #511：friction 事件层（单写入面=本扫描——friction_seen state 幂等，重跑不重复事件）
+        for ln in friction_new:
+            m = _re.match(r"^\[([^\]]+)\]", ln)
+            mc.log_event_safe(m.group(1) if m else "conveyor_probe", "friction", ln[:300])
         messages["wangyuyan"] = f"🩹 KDO 新问题线索 {len(friction_new)} 条（friction）：{friction_new[0][:60]}{'…' if len(friction_new) > 1 else ''}"
     if gate_new:
         # #460：门禁拦截自动登记（[gate-blocked]）+ 通知——机器自报，零依赖 agent 自觉
