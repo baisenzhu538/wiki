@@ -100,3 +100,25 @@ W8 对照：库里已有口喷卡（月白口喷设计/双三角口喷九字诀/
 - **老顽童**：跑三方法→产2迭代+5新增→pre-submit→提审
 - **王语嫣**：编排诊断已落盘；核验source_refs行号+域归属；ai-collaboration轴若不存在先建（#485同族）
 - **欧阳锋**：终审（抽"三方法证据齐全/补强非重复/新增卡域归属"）
+
+
+### 执行报告（F-034 五字段）
+
+**文件清单**：7 卡（2 迭代补强 + 5 新增）。
+
+**完成内容**：
+- 1a tool-ai-oral-spray-input 补五大优势（启动快/信息全/速度快/能流淌/阻力低）+ 心法（把 AI 当人 + 把人当 AI）+ 流式输出哲学（L97-101）
+- 1b method-yihang-dual-triangle-deliberate-practice 补 1+4 完整应用（三阶套路：最终意图→九字诀→口喷双三角；三挑战：7000 字/300 字min/8-10 Agent）（L229-249）
+- 2a framework-oral-spray-cultivation-map 段位修炼 L1-L6 五次飞跃（核心卡）（L127-299）
+- 2b concept-oral-spray-strategic-fundamental 战略级第一基本功（记笔记类比/频率 5000-10000/竞争优势）（L219-227/L301-327）
+- 2c concept-oral-spray-multi-agent-parallel 多 Agent 并行 + OPT + 360 内训课案例（L181-197/L255-269）
+- 2d dk-oral-spray-newcomer-blockers 新人四难 + 解法（错别字/没逻辑/怕骚扰/不稳定）（L143-179）
+- 2e concept-oral-spray-vs-typing-dialectics 口喷 vs 手写场景取舍（口喷优先 80-90%）（L103-113）
+
+**验证**：`kdo pre-submit` 7 卡 → Passed 7 / Failed 0 / ✅ PASS；source_refs 锚 Live260 行号（一等口述）；related 互链（段位地图↔战略级↔四难↔刻意练习↔多Agent）。
+
+**三方法前置**：①全网调研**网络受限**（curl 不可达）——诚实降级：认知科学断言标"共识级/二等"未虚构检索结果（流式输出技术定义直接引 L101 原文）；②6 层交叉 ≥4 层（一等来源+360 实证+逻辑+反例）；③9 层深挖：L1 口喷=语音协作 AI 速度 3-10 倍/L4 新人四难失败模式/L9 口喷优先 80-90%+段位修炼决策。
+
+**未做项**：新词（段位修炼/五次飞跃/战略级基本功/OPT/多Agent并行/流式输出/脑力拉满）待王语嫣审词入 ai-collaboration 轴（已按诊断标注）。
+
+**需要谁动作**：欧阳锋终审；王语嫣审词。
