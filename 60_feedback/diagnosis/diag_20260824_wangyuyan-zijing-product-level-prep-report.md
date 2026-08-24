@@ -34,7 +34,7 @@ related:
 | 任务依赖 | frontmatter `depends_on` 已落地（F-047/#472：task_20260823_huangyaoshi-role-routes.md 等已在用） | 任务级依赖有了，**产物级复用无显式机制**（同批卡→多文章缺 result_id 链） |
 | 产物类型 | 卡类型轴已成熟（concept/framework/case/tool/dk/agent-spec/article/diagnosis/review/delivery） | output_kind 可直接复用此轴，**不新增维度**（9 层 L9 第二步） |
 | 交付物模板 | `40_outputs/capabilities/templates` + skills 各 templates（#307 6 模板机制，业务 agent 交付物模板） | 模板机制在，缺 result_id 字段接入 |
-| 索引基建 | `.kdo/search_index.json`（4111 文档/54 万 token 全文索引）+ state.sqlite + doc_mtimes/doc_lengths | **字段名不索引**（source_refs/result_id 字段名无 token）；字段值命中率**待试点验证**（9 层 F4：result_id 按索引可查性=最大风险点） |
+| 索引基建 | `.kdo/search_index.json`（4111 文档/54 万 token 全文索引）+ state.sqlite + doc_mtimes/doc_lengths | **确证两个障碍（2026-08-24 探针实测）**：①frontmatter 自定义字段（result_id 等）不入索引——索引器只提取 title/aliases/tags/discoverable_by 四字段，正文从 frontmatter 后开始；②**下划线被分词拆分**（`card_20260824_x`→card/20260824/x 多 token），连字符保留完整（aliases 实证）。⇒ 按完整 result_id 精确查询**不可行**，需索引器补字段提取（9 层 F4：确证需改造，非待验证） |
 | 流转协议 | queue_transition 状态机 + Manual edits forbidden | result_id 字段需脚本化流转（不手改）——queue_transition/parse_queue 兼容改造（9 层 L3/L6） |
 | 冻结纪律 | #449 §6.1/§6.2 + L10 机械化（#502 立项中） | 产物文件=已落盘即冻结——result_id 落盘后不可改，与冻结兼容 |
 | 跨任务复用先例 | 半肥猫 #465(A 档卡)→#466(B 档手册)→#467(C 档案例) 同素材链 | **天然试点场景**（9 层 L9 第四步试点 2） |
@@ -42,14 +42,14 @@ related:
 ## 三、落地准备清单（产品化时直接拆任务）
 
 ### 契约层（王语嫣起草→老朱拍板）
-1. `result_id` 命名：`<output_kind>_<YYYYMMDD>_<short>`（如 `card_20260823_zijing-dag-upgrade`）
+1. `result_id` 命名：`<output_kind>-<YYYYMMDD>-<short>`（如 `card-20260824-zijing-prep`）——**用连字符不用下划线**（2026-08-24 探针实测：下划线被分词拆分，连字符保留完整；修正 9 层方案 L9 原建议的 `card_20260823_xxx` 下划线命名）
 2. `output_kind` 取值：复用现有卡类型轴（10 类），不新增
 3. `upstream_result_ids`：frontmatter 列表字段，软依赖可选（不强制 downstream 邻接表，避 F6）
 
 ### 基建层（黄药师，复用 #453/#479 模式，排队不抢线）
 4. queue_transition/parse_queue 兼容三字段（yaml.safe_load，禁正则 E017）
-5. lint 扩展：result_id 命名校验 + output_kind 合法集校验
-6. **索引命中率验证**（最大风险 F4）：state.sqlite/search_index 按 result_id 查——查不到则索引器需补 frontmatter 值索引（准备期可先做一次探针测试）
+5. lint 扩展：result_id 命名校验（连字符格式）+ output_kind 合法集校验
+6. **索引器补 result_id 字段提取**（最大风险 F4，**必做非待验证**——2026-08-24 探针确证：frontmatter 自定义字段不入索引 + 下划线拆分）：`search_index.py` `_index_doc` 加 result_id 加权入索引（仿 aliases 路径）+ 单测 + 全量回归（4111 文档 doc_count 不变）
 
 ### 试点层（2 单狗粮）
 7. 试点 1：落地单自举（该单自己带 result_id + output_kind=diagnosis）
@@ -62,9 +62,18 @@ related:
 ### 边界（不做清单，9 层 L9 已定）
 - 不引独立 result_id DB / 不照搬紫鲸远程 MCP / 不做 pack_only 双形态 / 不做 gateway 自动路由 / 不强制造 downstream
 
-## 四、准备期可先做的一件事（不等产品化）
+## 四、准备期探针——已完成（2026-08-24）
 
-**索引命中率探针**：用现有 search_index 测"frontmatter 字段值能否按 token 检索"（构造一个带 result_id 格式值的测试文档 → 索引 → 查询 → 命中率）。此结果直接决定 F4 风险等级，产品化拍板前就该有数。建议并入 #503 之后黄药师基建线（小单，不抢 #426）。
+**探针实测**（2 张对照测试卡：正常/损坏 frontmatter，各带 result_id marker + 唯一正文词 → 全量索引 4113 → 查 4 类 marker → 清理恢复 4111）：
+
+| 查询词 | 结果 | 原因 |
+|:--|:--|:--|
+| frontmatter result_id（正常卡） | ❌ MISS | frontmatter 非提取字段不入索引 |
+| frontmatter result_id（损坏卡） | ❌ MISS | 同上 + 下划线拆分 |
+| aliases marker | ✅ HIT | aliases 3x 加权入索引，连字符保留 |
+| 正文下划线 marker | ❌ 完整词 MISS | 下划线被分词拆成多 token |
+
+**探针结论**：①frontmatter 自定义字段（result_id）不入索引——索引器必须补字段提取（黄药师小单，必做）；②result_id 命名规范用连字符（下划线搜不到完整串）；③现有 `kdo query` 语义检索不受影响（只影响"按 result_id 精确取物"新机制）。
 
 ## 五、待老朱拍板（产品化时）
 
