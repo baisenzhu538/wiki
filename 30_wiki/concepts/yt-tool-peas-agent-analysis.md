@@ -73,9 +73,12 @@ diagnostic_signals:
 updated_at: '2026-06-28'
 author: 老顽童
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - Agent
+  - 机制
+  - 工具
 ---
 # PEAS 智能体分析：用 AI 工程师的眼睛诊断任何决策系统
 

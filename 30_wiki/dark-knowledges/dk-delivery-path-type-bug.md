@@ -40,9 +40,16 @@ created_at: 2026-08-04
 updated_at: 2026-08-04
 review_date: 2026-08-04
 tags:
-- audience:builder
-- scene:debugging
-- skill-level:advanced
+  - audience:builder
+  - scene:debugging
+  - skill-level:advanced
+  - KDO
+  - Agent
+  - 索引
+  - 方法
+  - 边界
+  - 静默失败
+  - 实测
 discoverable_by:
 - delivery bug
 - Path类型

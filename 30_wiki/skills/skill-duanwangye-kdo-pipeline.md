@@ -21,9 +21,15 @@ related:
 - '[[agent-spec-duanwangye-publisher]]'
 - '[[skill-duanwangye-prezi]]'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:advanced
+  - audience:executor
+  - scene:execution
+  - skill-level:advanced
+  - KDO
+  - Agent
+  - 卡片
+  - 管线
+  - 流程
+  - 用户
 discoverable_by:
 - KDO管线
 - 文章生产

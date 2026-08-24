@@ -27,6 +27,12 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 知识库
+  - KDO
+  - 索引
+  - 机制
+  - 标准
+  - 边界
 ---
 # YAML 标注对 KDO 知识库的启发
 

@@ -2,6 +2,7 @@
 id: 鑫港湾his系统分阶段整改报告
 updated_at: '2026-08-20'
 title: 鑫港湾HIS系统分阶段整改报告
+reviewed_by: 待审
 discoverable_by:
 - 鑫港湾HIS系统分阶段整改报告
 related:
@@ -26,9 +27,16 @@ aliases:
 source_refs:
   - src_unknown
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 工作流
+  - 上下文
+  - 协作
+  - 机制
+  - 框架
+  - 工具
+  - 方法
 type: concept
 status: draft
 domain:

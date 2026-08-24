@@ -37,9 +37,14 @@ quality_labels:
 - actionable
 - principle
 tags:
-- audience:executor
-- scene:diagnosis
-- skill-level:advanced
+  - audience:executor
+  - scene:diagnosis
+  - skill-level:advanced
+  - KDO
+  - 外部探索
+  - 框架
+  - 流程
+  - 标准
 discoverable_by:
 - 外部探索
 - 调研SOP

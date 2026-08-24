@@ -39,6 +39,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - KDO
+  - 卡片
+  - 管线
+  - 门禁
+  - 机制
+  - 方法
+  - 标准
 ---
 # EC工业化规范 → KDO管线迁移方案（征求意见稿）
 

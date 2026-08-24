@@ -43,9 +43,15 @@ related:
 - '[[business-formula-to-kdo-card-quality]]'
 - '[[modeling-to-kdo-toolchain]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:beginner
+  - audience:general
+  - scene:reference
+  - skill-level:beginner
+  - KDO
+  - 工作流
+  - 框架
+  - 工具
+  - 方法
+  - 用户
 discoverable_by:
 - 批量生产
 - KDO生产

@@ -45,6 +45,9 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - KDO
+  - MCP
+  - 用户
 ---
 # KDO 输入渠道策略：飞书、微信、听脑如何接入
 

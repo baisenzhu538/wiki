@@ -34,9 +34,11 @@ diagnostic_signals:
 - framework_lens: 流式提取模式——逐页拉取→逐页转换→逐批写入，类比浏览器虚拟滚动
   follow_up_question: 你的提取是等全部加载完再处理，还是一页一页流式处理？
 tags:
-- audience:executor
-- scene:execution
-- skill-level:advanced
+  - audience:executor
+  - scene:execution
+  - skill-level:advanced
+  - 拆书会
+  - 实战案例
 discoverable_by:
 - 飞书API
 - 分页提取

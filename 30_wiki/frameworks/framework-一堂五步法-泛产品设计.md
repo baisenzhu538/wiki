@@ -31,6 +31,9 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 方法
+  - 用户
+  - 复盘
 discoverable_by:
 - 五步法泛产品设计
 - 五步法产品应用

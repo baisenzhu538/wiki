@@ -34,6 +34,8 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - KDO
+  - Agent
 discoverable_by:
 - KDO Bad Case
 - Bad Case反馈机制

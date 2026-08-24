@@ -22,6 +22,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 知识库
+  - Agent
+  - 卡片
+  - 工具
+  - 边界
+  - 用户
+  - 口述
 ---
 # 高密度素材编译策略 v2.0
 

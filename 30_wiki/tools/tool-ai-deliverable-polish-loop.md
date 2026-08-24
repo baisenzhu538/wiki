@@ -74,6 +74,13 @@ tags:
   - audience:executor
   - scene:execution
   - skill-level:intermediate
+  - 工作流
+  - 框架
+  - 工具
+  - 方法
+  - 边界
+  - 反例
+  - 迭代
 ---
 # AI 交付物打磨循环：从模糊需求到 60 分可用版本
 

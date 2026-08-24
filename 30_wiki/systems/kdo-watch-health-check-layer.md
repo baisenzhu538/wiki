@@ -33,9 +33,11 @@ related:
 - '[[dk-f8-phony-wikilink]]'
 - '[[dk-f9-generic-critique]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:beginner
+  - audience:general
+  - scene:reference
+  - skill-level:beginner
+  - 知识库
+  - 源文件
 discoverable_by:
 - KDO监控
 - 健康检查

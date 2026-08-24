@@ -26,9 +26,11 @@ related:
 - '[[proposal-kdo-flywheel-infrastructure]]'
 - '[[kdo-watch-health-check-layer]]'
 tags:
-- audience:manager
-- scene:reference
-- skill-level:beginner
+  - audience:manager
+  - scene:reference
+  - skill-level:beginner
+  - 源文件
+  - 门禁
 discoverable_by:
 - Sprint门禁
 - 证据充实

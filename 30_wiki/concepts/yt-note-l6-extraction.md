@@ -63,6 +63,10 @@ tags:
   - audience:executor
   - scene:reference
   - skill-level:intermediate
+  - 上下文
+  - 工具
+  - 问题驱动
+  - 迭代
 ---
 # 清单体L6萃取阶段：笔记即资产——从个人工具到可复用知识产品
 

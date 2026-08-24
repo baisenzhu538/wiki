@@ -38,9 +38,14 @@ created_at: 2026-08-04
 updated_at: 2026-08-04
 review_date: 2026-08-04
 tags:
-- audience:external-agent
-- scene:onboarding
-- skill-level:beginner
+  - audience:external-agent
+  - scene:onboarding
+  - skill-level:beginner
+  - KDO
+  - MCP
+  - Agent
+  - 工具
+  - 方法
 discoverable_by:
 - kdo_help
 - 新人引导

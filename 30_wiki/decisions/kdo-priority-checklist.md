@@ -30,6 +30,12 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - KDO
+  - 索引
+  - 卡片
+  - 工具
+  - 协议
+  - 标准
 trust_level: medium
 author: unknown
 source_context: KDO improvement plan — internal process record （原始 source 无法追溯，已标记为

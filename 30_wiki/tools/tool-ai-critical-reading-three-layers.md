@@ -47,6 +47,7 @@ tags:
   - audience:executor
   - scene:execution
   - skill-level:intermediate
+  - 逐字稿
 ---
 # 三层拆书批判法
 

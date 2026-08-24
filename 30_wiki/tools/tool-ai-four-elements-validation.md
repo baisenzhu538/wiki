@@ -40,9 +40,13 @@ prerequisite_skills:
 created_at: '2026-06-11'
 updated_at: '2026-06-29'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 协作
+  - 方法
+  - 边界
+  - 口述
 pipeline:
 - src_unknown
 reviewed_by: 欧阳锋

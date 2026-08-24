@@ -34,9 +34,11 @@ related:
 - '[[proposal-graph-rag-star-fix]]'
 - '[[kdo-watch-health-check-layer]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - Agent
+  - 体检
 discoverable_by:
 - Graph RAG
 - 知识检索

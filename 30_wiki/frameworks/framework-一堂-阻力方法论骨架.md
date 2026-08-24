@@ -39,6 +39,9 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 方法
+  - 用户
+  - 口述
 ---
 # 一堂阻力方法论骨架
 

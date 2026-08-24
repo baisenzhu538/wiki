@@ -16,10 +16,15 @@ source_refs:
 created_at: 2026-08-06
 updated_at: 2026-08-06
 tags:
-- audience:huangyaoshi
-- audience:wangyuyan
-- scene:reference
-- skill-level:intermediate
+  - audience:huangyaoshi
+  - audience:wangyuyan
+  - scene:reference
+  - skill-level:intermediate
+  - KDO
+  - Agent
+  - 卡片
+  - 工具
+  - 方法
 aliases:
 - kdo MOC
 - KDO基建

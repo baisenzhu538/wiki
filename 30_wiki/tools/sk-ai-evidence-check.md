@@ -31,6 +31,8 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 上下文
+  - 边界
 created_at: '2026-06-06'
 updated_at: '2026-06-18'
 tools_required: null

@@ -14,6 +14,7 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - KDO
 trust_level: medium
 reviewed_by: Claude
 review_date: '2026-05-03'

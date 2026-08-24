@@ -75,6 +75,9 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 协作
+  - 边界
+  - 逐字稿
 ---
 # AI时代笔记分工边界：人在哪里，AI在哪里
 

@@ -58,9 +58,11 @@ diagnostic_signals:
 updated_at: '2026-06-28'
 author: 老顽童
 tags:
-- audience:ceo
-- scene:diagnosis
-- skill-level:intermediate
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:intermediate
+  - Agent
+  - 机制
 ---
 # 智能体架构：PEAS与五层Agent模型
 

@@ -46,9 +46,13 @@ related:
 - '[[tool-openmontage-video-factory]]'
 - '[[tool-osint-spiderfoot]]'
 tags:
-- audience:manager
-- scene:reference
-- skill-level:intermediate
+  - audience:manager
+  - scene:reference
+  - skill-level:intermediate
+  - MCP
+  - Agent
+  - 索引
+  - 卡片
 discoverable_by:
 - Agent原生卡片
 - 卡片设计

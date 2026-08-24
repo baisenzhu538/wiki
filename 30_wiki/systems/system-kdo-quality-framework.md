@@ -17,10 +17,16 @@ source_refs:
 created_at: 2026-08-08
 updated_at: 2026-08-08
 tags:
-- audience:huangyaoshi
-- audience:ouyangfeng
-- scene:reference
-- skill-level:advanced
+  - audience:huangyaoshi
+  - audience:ouyangfeng
+  - scene:reference
+  - skill-level:advanced
+  - KDO
+  - Agent
+  - 索引
+  - 卡片
+  - 管线
+  - 门禁
 aliases:
 - KDO质量体系
 - KDO双三角

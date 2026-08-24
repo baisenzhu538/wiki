@@ -66,6 +66,12 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 工作流
+  - 协作
+  - 框架
+  - 方法
+  - 迭代
+  - 逐字稿
 ---
 
 # 案例：Live81 AI 赋能喵善养商标设计

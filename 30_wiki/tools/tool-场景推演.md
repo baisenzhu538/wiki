@@ -30,6 +30,11 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 卡片
+  - 框架
+  - 方法
+  - 流程
+  - 用户
 ---
 # 场景推演：还原用户真实使用场景
 

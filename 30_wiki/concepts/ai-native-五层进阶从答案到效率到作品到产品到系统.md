@@ -55,9 +55,15 @@ diagnostic_signals:
 - lens: 标准化缺失
   follow_up: 在L3建立统一的Skill/模板资产，而非放任个体工具选择
 tags:
-- audience:ceo
-- scene:diagnosis
-- skill-level:intermediate
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:intermediate
+  - 工作流
+  - 上下文
+  - 框架
+  - 工具
+  - 边界
+  - 口述
 ---
 # AI Native 五层进阶：从答案，到效率，到作品，到产品，到系统
 

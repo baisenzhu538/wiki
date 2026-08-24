@@ -1,6 +1,7 @@
 ---
 id: framework-kdo-mcp-server
 title: KDO MCP Server — 知识库能力的外部协议暴露层
+reviewed_by: 待审
 type: framework
 status: draft
 confidence: 0.88
@@ -31,6 +32,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 知识库
+  - KDO
+  - MCP
+  - Agent
+  - 卡片
+  - 工具
+  - 方法
 ---
 # KDO MCP Server — 知识库能力的外部协议暴露层
 

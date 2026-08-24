@@ -37,9 +37,15 @@ related:
 - '[[concept-mckinsey-hypothesis-driven]]'
 - '[[yt-entrepreneur-lean-validation]]'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 机制
+  - 工具
+  - 方法
+  - 流程
+  - 标准
+  - 用户
 version: 1
 created_at: 2026-06-11
 updated_at: '2026-06-16'

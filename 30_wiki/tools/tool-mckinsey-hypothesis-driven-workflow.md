@@ -39,9 +39,16 @@ related:
 - '[[yt-entrepreneur-lean-validation]]'
 - '[[dk-p6-session-resume-fail]]'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 工作流
+  - 框架
+  - 工具
+  - 方法
+  - 流程
+  - 标准
+  - 用户
 version: 1
 created_at: 2026-06-11
 updated_at: '2026-06-16'

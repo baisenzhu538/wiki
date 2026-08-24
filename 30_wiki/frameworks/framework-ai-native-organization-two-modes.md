@@ -30,6 +30,10 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - Agent
+  - 流程
+  - 标准
+  - 口述
 discoverable_by:
 - AI原生组织
 - AI控制台vs Agent平台

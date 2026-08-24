@@ -55,6 +55,7 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 映射表
 ---
 # AI 刻意练习闭环：把 AI 当作按需生成的练习伙伴
 

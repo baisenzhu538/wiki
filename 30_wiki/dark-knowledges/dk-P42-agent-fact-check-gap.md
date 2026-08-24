@@ -30,7 +30,7 @@ related:
 - '[[dk-E010-duplicate-key-detection]]'
 - '[[framework-kdo-self-attack]]'
 - '[[workflow-cross-agent-fact-dispute]]'
-- '[[dk-P15-false-completion-report]]'
+- dk-P15-false-completion-report（计划卡，未产出）
 - '[[framework-kdo-modeling-methodology]]'
 - '[[dk-c5-todo-false-positive]]'
 - '[[dk-delivery-path-type-bug]]'
@@ -42,9 +42,16 @@ created_at: 2026-08-04
 updated_at: 2026-08-04
 review_date: 2026-08-04
 tags:
-- audience:builder
-- scene:reference
-- skill-level:advanced
+  - audience:builder
+  - scene:reference
+  - skill-level:advanced
+  - KDO
+  - Agent
+  - 方法
+  - 协议
+  - 标准
+  - 边界
+  - 审查者
 discoverable_by:
 - P-42
 - 事实争议

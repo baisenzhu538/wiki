@@ -33,6 +33,12 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 知识管理
+  - 知识卡片
+  - 卡片
+  - 框架
+  - 方法
+  - 边界
 ---
 # 个人成长五步法
 

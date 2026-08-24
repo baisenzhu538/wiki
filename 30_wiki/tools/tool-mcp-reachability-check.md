@@ -39,9 +39,16 @@ created_at: 2026-08-04
 updated_at: 2026-08-04
 review_date: 2026-08-04
 tags:
-- audience:producer
-- scene:pre-submit
-- skill-level:beginner
+  - audience:producer
+  - scene:pre-submit
+  - skill-level:beginner
+  - KDO
+  - MCP
+  - Agent
+  - 卡片
+  - 工具
+  - 用户
+  - 自查
 discoverable_by:
 - 可发现性自查
 - reachability

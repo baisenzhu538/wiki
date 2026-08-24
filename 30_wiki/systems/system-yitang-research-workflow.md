@@ -32,9 +32,13 @@ diagnostic_signals:
 - framework_lens: 端到端工作流——7步从问题到报告
   follow_up_question: 你现在卡在哪一步？每一步的产出物是什么？
 tags:
-- audience:manager
-- scene:reference
-- skill-level:advanced
+  - audience:manager
+  - scene:reference
+  - skill-level:advanced
+  - 卡片
+  - 工作流
+  - 门禁
+  - 工具
 discoverable_by:
 - 调研工作流
 - 调研系统
