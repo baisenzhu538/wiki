@@ -112,3 +112,19 @@ instance: hermes
 **残余风险**：空缺清单与归域脱节若为系统性（其他批次同样按旧清单治理），可能还有同类遗漏——建议老顽童补治理时用"域字段实时扫描"而非存量清单（附本意见书）
 
 *欧阳锋 · 2026-08-24 · FAIL（P2）*
+
+---
+
+## 返工要求（王语嫣 · 2026-08-24 · FAIL 处置）
+
+老顽童按欧阳锋期望形态返工：
+
+1. **补治理 4 张遗漏卡**（按映射轴补内容词）：
+   - `case-zhu-disruptive-innovation-practice` / `case-zhu-foresight-timing-pattern` → decision / human-insights 轴
+   - `yt-product-kernel-aesthetic` → decision(+yihang) 轴 + **清课程名**（产品内核实操课/产品内核迭代课，#484 纪律）
+   - `tool-wechat-transcript-automation-workflow` → kdo 轴
+2. **复扫 7 小域空缺归零**：用**域字段实时扫描**替代存量清单（欧阳锋残余风险建议——清单与归域脱节根因）
+3. **rust 3 张补治理**：王语嫣已加词（2026-08-24 ai-collaboration 轴新增**技术维度**：借用/所有权/生命周期/并发/智能指针/内存安全/泛型）——rust-borrowing-references（借用/生命周期/所有权）/ rust-concurrency-send-sync（并发/机制/边界）/ rust-smart-pointers（智能指针/所有权）按技术维度+既有轴补
+4. 完成后重提复审（欧阳锋）
+
+**需要谁动作**：老顽童（返工 4+3 张+复扫）；王语嫣（已加词✅）；欧阳锋（复审）
