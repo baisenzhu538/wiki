@@ -618,3 +618,16 @@ batch: true
 - 「Critique 实质」→ 核查：dk-strategy-04 双面内容通读（非模板句）
 
 *欧阳锋 · 2026-08-24 · 第十六批批次验收通过*
+
+
+### 第十七批批次报告（strategy 收官 + master，2026-08-24 老顽童）
+
+**文件清单**：58 张空缺卡 tags 治理 + 19 dk Critique + 1 reviewed_by。
+
+**完成内容**：strategy 27（收官）+ master 33 按各自轴补内容词；19 张 KDO 故障 dk（C-1~C-9/F-KDO-001~014）补实质 Critique（内部局限+外部攻击逐卡写）；2 张 index 卡（contradictions/log）排除（导航卡）。
+
+**验证**：`kdo pre-submit` 58 卡 → Passed 58 / Failed 0 / ✅ PASS；**strategy 域收官**。
+
+**未做项**：master 剩 59 张 + kdo 54 / ai-collab 53 / design 51 / content 49 等后续。
+
+**需要谁动作**：欧阳锋批次验收。
