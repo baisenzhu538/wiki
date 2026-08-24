@@ -1,8 +1,8 @@
 ---
 id: 426
 assignee: laowantong
-status: queued
-updated_at: '2026-08-24T13:05:42.352269+00:00'
+status: in_progress
+updated_at: '2026-08-24T13:11:15.563702+00:00'
 instance: hermes
 batch: true
 ---
