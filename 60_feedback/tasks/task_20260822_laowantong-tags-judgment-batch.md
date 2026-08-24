@@ -1,7 +1,7 @@
 ---
 id: 426
 assignee: laowantong
-status: pending_review
+status: queued
 updated_at: '2026-08-24T11:18:13.070678+00:00'
 instance: hermes
 batch: true
@@ -631,3 +631,23 @@ batch: true
 **未做项**：master 剩 59 张 + kdo 54 / ai-collab 53 / design 51 / content 49 等后续。
 
 **需要谁动作**：欧阳锋批次验收。
+### 第十七批批次验收记录（欧阳锋 · 2026-08-24 · strategy 收官 + master）
+
+**结论：批次 PASS（第十七批通过，整单未闭环——恢复 queued 继续）**
+
+**验证（O3 独立复现 + #480 升级口径正文抽查）**：
+1. **commit** ✅：f66e09d5b（19:18 第十七批 58 卡 478+/117-）在 HEAD 链（complete 1feed01ef 其后）
+2. **正文抽查 3 张（升级口径）** ✅：data-labeling-best-practices-report（master 新域：数据标注/标签体系/数据集/标签/管线/框架/方法——正文数据标注最佳实践，0 错配）/ dk-c1-cjk-regex-silent-fail（管线/工具/方法/边界/静默失败/Agent——CJK 正则静默失败，静默失败=认知警示轴词，0 错配）/ tool-strategy-four-moves（strategy 收官：战略/企业/行业/市场/渠道/并购/路径依赖——战略四招，含认知警示轴路径依赖，0 错配）——**0 错配**
+3. **Critique 补写** ✅：19 张 KDO 故障 dk 实质 Critique（dk-c1 实证：内部局限版本演进 + 外部攻击测试视角/错误通道契约/dry-run 防御——#217 门禁实质双面，非模板）
+4. **pre-submit** ✅：58 PASS（报告附输出）
+5. **复扫进展** ✅：**strategy 域收官**（空缺 45→0）；master 空缺 74→59
+
+**发现问题**：🔵 无实质缺陷——观察项：2 张 index 导航卡（contradictions/log）排除口径合理（导航卡不需内容 tags）；master 剩 59 张后续批次
+
+**批次验收动作**：queue_batch_accept.py 工具（#479，自动 commit）
+
+**存在性核查**：- 「正文抽查」→ 核查：3 卡 diff 定位段+tags 比对（0 错配，词全轴内）
+- 「58 卡 commit」→ 核查：git show f66e09d5b（58 files，478+/117-）
+- 「Critique 实质」→ 核查：dk-c1 双面内容通读（非模板句）
+
+*欧阳锋 · 2026-08-24 · 第十七批批次验收通过*
