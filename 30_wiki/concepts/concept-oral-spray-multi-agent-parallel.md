@@ -10,7 +10,7 @@ domain:
 author: 老顽童
 reviewed_by: 待审
 created_at: '2026-08-24'
-updated_at: '2026-08-24'
+updated_at: '2026-08-25'
 source_refs:
 - Live260 L181-197（多 Agent 并行）
 - Live260 L255-269（OPT 一人团队）
@@ -18,6 +18,10 @@ source_refs:
 related:
 - '[[framework-oral-spray-cultivation-map]]'
 - '[[tool-ai-oral-spray-input]]'
+- '[[framework-yihang-dual-triangle-ten-year-map]]'
+- '[[tool-nine-character-mantra-14-strategies]]'
+- '[[tool-月白-口喷式设计工作流]]'
+- '[[method-yihang-dual-triangle-deliberate-practice]]'
 tags:
   - audience:general
   - scene:execution
@@ -38,7 +42,7 @@ tags:
 
 ## 多 Agent 并行的关键（Live260 L181-197）
 
-L2 飞跃核心：从"被动等 AI 回答"到"主动像嘱咐人一样派活"——5 个关键补充逻辑（示例）：
+第二次飞跃（被动→主动，通往 L3）的核心：从"被动等 AI 回答"到"主动像嘱咐人一样派活"——5 个关键补充逻辑（示例）：
 1. 背景定位：你的定位是 xx、职责是 xx
 2. 对象区分：一定要搞清楚两个对象，不要搞错
 3. 知识库利用：后台 Obsidian 知识库有没有类似经验
@@ -49,7 +53,7 @@ L2 飞跃核心：从"被动等 AI 回答"到"主动像嘱咐人一样派活"—
 
 ## OPT 一人团队（Live260 L255-269）
 
-L4 流淌状态的工具栈：一个飞书（交付文稿 + Feishu2Slide 自动 PPT）+ 一个 Obsidian（核心文档）+ 一个 Codex（5-7 个 Agent 随时待命）+ 笔记本备用 + 沉浸 BGM。**脑力拉满 + 多 Agent 并行 = 一个人一支队伍**。
+L5（第四次飞跃：单项→流淌）OPT 状态的工具栈：一个飞书（交付文稿 + Feishu2Slide 自动 PPT）+ 一个 Obsidian（核心文档）+ 一个 Codex（5-7 个 Agent 随时待命）+ 笔记本备用 + 沉浸 BGM。**脑力拉满 + 多 Agent 并行 = 一个人一支队伍**。
 
 ## 实证案例：一晚做 360 内训课（L255-269）
 
@@ -69,5 +73,5 @@ L4 流淌状态的工具栈：一个飞书（交付文稿 + Feishu2Slide 自动 
 
 ## 与其他知识的关联
 
-- 关联 framework-oral-spray-cultivation-map（多 Agent 是 L2/L4 的段位能力）
+- 关联 framework-oral-spray-cultivation-map（多 Agent 并行是 L3 起步、L5 OPT 拉满的段位能力）
 - 关联 tool-ai-oral-spray-input（并行派活的输入侧基础）

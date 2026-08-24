@@ -10,13 +10,17 @@ domain:
 author: 老顽童
 reviewed_by: 待审
 created_at: '2026-08-24'
-updated_at: '2026-08-24'
+updated_at: '2026-08-25'
 source_refs:
 - Live260 L219-227（战略级判断）
 - Live260 L301-327（记笔记类比/十年战略）
 related:
 - '[[framework-oral-spray-cultivation-map]]'
 - '[[tool-ai-oral-spray-input]]'
+- '[[framework-yihang-dual-triangle-ten-year-map]]'
+- '[[tool-nine-character-mantra-14-strategies]]'
+- '[[tool-月白-口喷式设计工作流]]'
+- '[[method-yihang-dual-triangle-deliberate-practice]]'
 tags:
   - audience:general
   - scene:reference

@@ -10,12 +10,17 @@ domain:
 author: 老顽童
 reviewed_by: 待审
 created_at: '2026-08-24'
-updated_at: '2026-08-24'
+updated_at: '2026-08-25'
 source_refs:
 - Live260 L103-113（口喷 vs 手写辩证+场景取舍，Truman 一等口述）
 related:
 - '[[tool-ai-oral-spray-input]]'
 - '[[concept-oral-spray-strategic-fundamental]]'
+- '[[framework-oral-spray-cultivation-map]]'
+- '[[framework-yihang-dual-triangle-ten-year-map]]'
+- '[[tool-nine-character-mantra-14-strategies]]'
+- '[[tool-月白-口喷式设计工作流]]'
+- '[[method-yihang-dual-triangle-deliberate-practice]]'
 tags:
   - audience:general
   - scene:reference
