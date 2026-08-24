@@ -38,6 +38,9 @@ SESSION_SKIP_FILES = {"auth.json", "installation_id", "cap_sid", "opencode.json"
                       "package-lock.json", "config.toml"}
 L1_ROOT = Path("D:/KDO-memory/L1-full")
 MIRROR_ROOT = Path.home() / ".kdo-memory" / "L1-full-backup"
+# #508：日增量判重游标（tool/rel → mtime|size）——跨天目录取代平铺后，
+# 不再靠 dest.exists() 判重（昨天目录里的同名文件不能阻止今天变化文件入今天目录）
+STATE_FILE = L1_ROOT / ".capture-state.json"
 
 # #471 体积红线（建议 2）：每次采集后注体积；超限 → gate-blocked.log 机器自报
 # （conveyor_probe 第五探针扫到 → 飞书通知王语嫣，禁新造扫描器——复用既有通道）
@@ -140,35 +143,92 @@ def _session_files(src: Path) -> list[Path]:
     return out
 
 
+def _load_state() -> dict:
+    """#508：日增量判重游标 {tool/rel: "mtime|size"}。缺失=空（首次/迁移后由 --bootstrap-state 建立）。"""
+    import json
+    if STATE_FILE.exists():
+        try:
+            return json.loads(STATE_FILE.read_text(encoding="utf-8"))
+        except Exception:
+            pass
+    return {}
+
+
+def _save_state(state: dict) -> None:
+    import json
+    STATE_FILE.parent.mkdir(parents=True, exist_ok=True)
+    STATE_FILE.write_text(json.dumps(state, ensure_ascii=False), encoding="utf-8")
+
+
+def bootstrap_state(dry_run: bool = False) -> int:
+    """#508：从既有日期目录重建判重游标（存量迁移/游标丢失恢复——不复制文件）。
+
+    扫描 L1_ROOT 下所有 <YYYY-MM-DD>/<tool>/<rel>，取每 rel 最新 mtime 写入游标。
+    """
+    state = {}
+    if not L1_ROOT.exists():
+        print("L1 主库不存在", file=sys.stderr)
+        return 1
+    for day_dir in sorted(L1_ROOT.iterdir()):
+        if not day_dir.is_dir() or not day_dir.name.startswith("20"):
+            continue
+        for f in day_dir.rglob("*"):
+            if not f.is_file():
+                continue
+            rel = f.relative_to(day_dir).as_posix()
+            mt = f.stat().st_mtime
+            old = state.get(rel)
+            if old is None or float(old.split("|")[0]) < mt:
+                state[rel] = f"{mt:.0f}|{f.stat().st_size}"
+    if dry_run:
+        print(f"[dry-run] 将重建游标 {len(state)} 条")
+        return 0
+    _save_state(state)
+    print(f"✅ 判重游标已重建: {len(state)} 条 → {STATE_FILE}")
+    return 0
+
+
 def capture(dry_run: bool) -> int:
-    """#491 任务2（老朱硬性）：日增量结构——去按日整份目录（L1_ROOT/<tool>/<rel>
-    直接存储，mtime 增量跨天只复制变化文件），trace-index.md append 式索引保可回溯。"""
+    """#508：日期增量目录结构——L1_ROOT/<YYYY-MM-DD>/<tool>/<rel>（三层结构热层）。
+
+    mtime 判重走游标（.capture-state.json）：只有自上次采集以来变化的文件进今天目录，
+    不整份重拷（#491 日增量铁律）；trace-index.md append 式索引保可回溯（不动结构）。
+    归档层：--archive 每日 06:00 把昨天目录 zip 到 L1-full-archive/（_archive_old_days 复活）。
+    """
+    today = datetime.now().strftime("%Y-%m-%d")
+    state = _load_state()
     copied, skipped = 0, 0
     manifest = []
     for tool, src in SOURCE_DIRS.items():
         if not src.exists():
             continue
-        dest_dir = L1_ROOT / tool
+        dest_dir = L1_ROOT / today / tool
         for f in _session_files(src):
             rel = f.relative_to(src)
-            dest = dest_dir / rel
-            need = not dest.exists() or dest.stat().st_mtime < f.stat().st_mtime
+            key = f"{tool}/{rel.as_posix()}"
+            fmt = f.stat().st_mtime
+            old = state.get(key)
+            need = old is None or float(old.split("|")[0]) < fmt
             if dry_run:
                 if need:
-                    print(f"[dry-run] 将采集: {tool}/{rel}")
+                    print(f"[dry-run] 将采集: {today}/{key}")
                     copied += 1
                 continue
             if need:
+                dest = dest_dir / rel
                 dest.parent.mkdir(parents=True, exist_ok=True)
                 shutil.copy2(f, dest)
+                state[key] = f"{fmt:.0f}|{f.stat().st_size}"
                 copied += 1
             else:
                 skipped += 1
-            manifest.append(f"{rel}|{f.stat().st_mtime:.0f}|{f.stat().st_size}")
+            manifest.append(f"{rel}|{fmt:.0f}|{f.stat().st_size}")
 
     if dry_run:
-        print(f"[dry-run] 待采集 {copied} 个文件（增量）")
+        print(f"[dry-run] 待采集 {copied} 个文件（日增量，{today} 目录）")
         return 0
+
+    _save_state(state)
 
     # 乙类：trace 索引（append 式——日增量+trace 保证可回溯，#491 任务2-4）
     trace = L1_ROOT / "trace-index.md"
@@ -181,7 +241,7 @@ def capture(dry_run: bool) -> int:
         for line in sorted(manifest):
             rel, mt, size = line.split("|")
             f.write(f"| {rel} | {mt} | {size}B |\n")
-    print(f"✅ 采集完成: 新增 {copied} / 跳过 {skipped} → {L1_ROOT}（日增量口径，#491）")
+    print(f"✅ 采集完成: 新增 {copied} / 跳过 {skipped} → {L1_ROOT / today}（日期增量口径，#508）")
     print(f"✅ trace 索引已追加: {trace}")
 
     # #491：C 盘镜像已移除（老朱 01:23 拍板——L1 全量原文单盘 D，事件库仍 C+D 双盘）
@@ -233,12 +293,22 @@ def verify() -> int:
 
 
 def main() -> int:
-    p = argparse.ArgumentParser(description="L1 全量上下文采集（#463）")
+    p = argparse.ArgumentParser(description="L1 全量上下文采集（#463/#508 日期增量+归档）")
     p.add_argument("--dry-run", action="store_true", help="演练：只打印将采集的")
     p.add_argument("--verify", action="store_true", help="只跑镜像校验")
+    p.add_argument("--archive", action="store_true",
+                   help="#508：归档非今天日期目录 → zip 到 L1-full-archive/ 删原目录（幂等，每日 06:00 锚点）")
+    p.add_argument("--bootstrap-state", action="store_true",
+                   help="#508：从既有日期目录重建判重游标（存量迁移/游标丢失恢复，不复制文件）")
     args = p.parse_args()
     if args.verify:
         return verify()
+    if args.archive:
+        n = _archive_old_days()
+        print(f"✅ 归档检查完成: {n} 个旧天目录（幂等）")
+        return 0
+    if args.bootstrap_state:
+        return bootstrap_state(args.dry_run)
     return capture(args.dry_run)
 
 

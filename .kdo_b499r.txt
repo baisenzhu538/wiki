@@ -1,0 +1,7 @@
+30_wiki/cases/case-zhu-disruptive-innovation-practice.md
+30_wiki/cases/case-zhu-foresight-timing-pattern.md
+30_wiki/concepts/yt-product-kernel-aesthetic.md
+30_wiki/tools/tool-wechat-transcript-automation-workflow.md
+30_wiki/concepts/rust-borrowing-references.md
+30_wiki/concepts/rust-concurrency-send-sync.md
+30_wiki/concepts/rust-smart-pointers.md

@@ -24,3 +24,24 @@
 2026-08-23 15:20:46｜task_9999_test｜处置-硬门禁｜disposal:true 缺「内容价值判断」节（PROTOCOL §7）｜task_9999_test
 2026-08-23 15:52:12｜task_9999_force-test｜F-034-force无理由｜--force 未配 --reason（#444 例外留痕要求）｜wangyuyan
 2026-08-23 15:52:12｜task_9999_test｜处置-硬门禁｜disposal:true 缺「内容价值判断」节（PROTOCOL §7）｜task_9999_test
+2026-08-23 19:13:58｜task_20260822_laowantong-tags-judgment-batch｜F-034-五字段｜任务单缺少「## 执行报告」节（#429 F-034：交付必须落执行报告，口头完成=未完成；#444：evidence 附件不能替代）｜hermes
+2026-08-23 19:14:30｜task_20260822_laowantong-tags-judgment-batch｜F-034-五字段｜执行报告缺 1 个字段（#429 F-034）：未做项/边界。请补全后重试，或 --force --reason '<理由>' 声明例外（#444 台账留痕）。｜hermes
+2026-08-23 19:29:12｜task_9999_force-test｜F-034-force无理由｜--force 未配 --reason（#444 例外留痕要求）｜wangyuyan
+2026-08-23 19:29:12｜task_9999_test｜处置-硬门禁｜disposal:true 缺「内容价值判断」节（PROTOCOL §7）｜task_9999_test
+2026-08-23 19:29:46｜task_9999_force-test｜F-034-force无理由｜--force 未配 --reason（#444 例外留痕要求）｜wangyuyan
+2026-08-23 19:29:46｜task_9999_test｜处置-硬门禁｜disposal:true 缺「内容价值判断」节（PROTOCOL §7）｜task_9999_test
+2026-08-23 20:18:02｜task_9999_force-test｜F-034-force无理由｜--force 未配 --reason（#444 例外留痕要求）｜wangyuyan
+2026-08-23 20:18:02｜task_9999_test｜处置-硬门禁｜disposal:true 缺「内容价值判断」节（PROTOCOL §7）｜task_9999_test
+2026-08-24 00:01:18｜task_20260823_laowantong-shushui-addiction-supplement｜F-034-五字段｜任务单缺少「## 执行报告」节（#429 F-034：交付必须落执行报告，口头完成=未完成；#444：evidence 附件不能替代）｜hermes
+2026-08-24 00:27:43｜task_20260824_real_check｜F-034-五字段｜独立验证真实件｜real
+2026-08-24 01:05:37｜task_20260823_wangyuyan-426-tags-acceptance-caliber｜F-034-五字段｜执行报告缺 4 个字段（#429 F-034）：改动文件清单、完成内容一句话、验证命令+输出、未做项/边界。请补全后重试，或 --force --reason '<理由>' 声明例外（#444 台账留｜wangyuyan
+2026-08-24 02:05:01｜task_20260824_huangyaoshi-l1-capture-codex-opencode-qwen｜F-034-五字段｜执行报告缺 5 个字段（#429 F-034）：改动文件清单、完成内容一句话、验证命令+输出、未做项/边界、需要谁动作。请补全后重试，或 --force --reason '<理由>' 声明例外（#4｜huangyaoshi
+2026-08-24 02:08:37｜task_20260824_huangyaoshi-l1-volume-mirror-governance｜F-034-五字段｜执行报告缺 5 个字段（#429 F-034）：改动文件清单、完成内容一句话、验证命令+输出、未做项/边界、需要谁动作。请补全后重试，或 --force --reason '<理由>' 声明例外（#4｜huangyaoshi
+2026-08-24 02:21:26｜task_20260824_huangyaoshi-batch-blocking-exemption｜F-034-五字段｜执行报告缺 5 个字段（#429 F-034）：改动文件清单、完成内容一句话、验证命令+输出、未做项/边界、需要谁动作。请补全后重试，或 --force --reason '<理由>' 声明例外（#4｜huangyaoshi
+2026-08-24 02:33:49｜task_20260824_huangyaoshi-aliases-pollution-checker｜F-034-五字段｜执行报告缺 5 个字段（#429 F-034）：改动文件清单、完成内容一句话、验证命令+输出、未做项/边界、需要谁动作。请补全后重试，或 --force --reason '<理由>' 声明例外（#4｜huangyaoshi
+2026-08-24 22:29:40｜task_20260824_huangyaoshi-source-refs-gate-fix｜F-034-五字段｜执行报告缺 5 个字段（#429 F-034）：改动文件清单、完成内容一句话、验证命令+输出、未做项/边界、需要谁动作。请补全后重试，或 --force --reason '<理由>' 声明例外（#4｜huangyaoshi
+2026-08-24 22:29:52｜task_20260824_huangyaoshi-source-refs-gate-fix｜F-034-五字段｜执行报告缺 5 个字段（#429 F-034）：改动文件清单、完成内容一句话、验证命令+输出、未做项/边界、需要谁动作。请补全后重试，或 --force --reason '<理由>' 声明例外（#4｜huangyaoshi
+2026-08-24 22:37:04｜task_20260824_huangyaoshi-role-todos-inbox｜F-034-五字段｜执行报告缺 5 个字段（#429 F-034）：改动文件清单、完成内容一句话、验证命令+输出、未做项/边界、需要谁动作。请补全后重试，或 --force --reason '<理由>' 声明例外（#4｜huangyaoshi
+2026-08-24 22:49:42｜task_20260824_huangyaoshi-freeze-enforcement｜F-034-五字段｜执行报告缺 5 个字段（#429 F-034）：改动文件清单、完成内容一句话、验证命令+输出、未做项/边界、需要谁动作。请补全后重试，或 --force --reason '<理由>' 声明例外（#4｜huangyaoshi
+2026-08-24 22:57:35｜task_20260823_laowantong-addiction-series-caliber｜F-035-负向判词｜意见书含负向断言（缺失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋
+2026-08-24 23:57:15｜task_20260822_laowantong-tags-judgment-batch｜F-035-意见书｜任务单缺少「## 终审记录」节（#429 F-035：审查意见必须落盘，口头/群里意见=未审查）｜欧阳锋

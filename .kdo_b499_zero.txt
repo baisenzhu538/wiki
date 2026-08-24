@@ -1,0 +1,3 @@
+30_wiki\concepts\rust-borrowing-references.md	rust
+30_wiki\concepts\rust-concurrency-send-sync.md	rust
+30_wiki\concepts\rust-smart-pointers.md	rust

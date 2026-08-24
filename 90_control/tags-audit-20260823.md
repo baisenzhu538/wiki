@@ -1,10 +1,10 @@
 # 全库标签摸底体检报告（#474 · 2026-08-23）
 
-- 生成时间: 2026-08-24 02:32:20（治理进行中——数字随 #426 批次变动，收官以复扫归零为终态口径）
-- 扫描范围: `30_wiki/` 全部卡（2883 张，只读零修改）
-- 脏词率: 负向断言 0 + 课程名/来源混入 276（9.6%）| SOFT 观察: {} / 超长短语 {'>12字符': 7426}
-- 来源轴缺失: 1183 张
-- 空值/格式异常: 396 张（13.7%）
+- 生成时间: 2026-08-24 23:55:15（治理进行中——数字随 #426 批次变动，收官以复扫归零为终态口径）
+- 扫描范围: `30_wiki/` 全部卡（2888 张，只读零修改）
+- 脏词率: 负向断言 0 + 课程名/来源混入 233（8.1%）| SOFT 观察: {} / 超长短语 {'>12字符': 8680}
+- 来源轴缺失: 2060 张
+- 空值/格式异常: 0 张（0.0%）
 
 ## ①a 脏词·负向断言清单（STRONG+PATTERN，三层分档口径）
 - 无
@@ -13,93 +13,119 @@
 
 ### ai-basic, ecommerce（1）
 - `30_wiki\cases\case-live258-livestream-prompt-v1-v5.md` `scene:livestream` — 来源词混入内容 tag（应拆出来源词）
-### ai-collaboration, yitang（3）
-- `30_wiki\cases\case-ai-agent-milestone-design.md` `决策高度实操课口述` — 来源词混入内容 tag（应拆出来源词）
-- `30_wiki\cases\case-yihang-dual-triangle-ai-organizational-behavior.md` `组织行为学的口述` — 来源词混入内容 tag（应拆出来源词）
-- `30_wiki\cases\case-yihang-dual-triangle-tanzhaichao-ai-growth.md` `谭再超案例口述` — 来源词混入内容 tag（应拆出来源词）
-### ai-saas, design（1）
-- `30_wiki\concepts\aigc文创案例设计课leo文创ip从0到1全流程.md` `文创案例设计课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
-### ai-saas, yitang（2）
-- `30_wiki\dark-knowledges\dk-ai-judgment-human-responsibility.md` `时代判断力口述` — 来源词混入内容 tag（应拆出来源词）
-- `30_wiki\dark-knowledges\dk-ai-judgment-programmer-paradox.md` `时代判断力口述` — 来源词混入内容 tag（应拆出来源词）
-### content-production, marketing（1）
-- `30_wiki\tools\tool-李诞-销售闭环验证：从0到1的重新定义.md` `文创案例设计课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
-### decision-making, modeling（1）
-- `30_wiki\tools\tool-cognitive-bias-12-check.md` `后见之明` — X之Y 课程名前缀（应拆为内容词）
-### decision-science, ai-collaboration（1）
-- `30_wiki\cases\case-decision-ai-assisted-vs-human.md` `决策高度实操课口述` — 来源词混入内容 tag（应拆出来源词）
-### decision-science, yitang（3）
-- `30_wiki\cases\case-decision-science-lunch-break-compression.md` `决策深度实操课口述` — 来源词混入内容 tag（应拆出来源词）
-- `30_wiki\cases\case-decision-science-topcity-negative-revenue-rank.md` `决策实践实操课口述` — 来源词混入内容 tag（应拆出来源词）
-- `30_wiki\dark-knowledges\dk-decision-when-to-defer.md` `决策高度实操课口述` — 来源词混入内容 tag（应拆出来源词）
-### demand-analysis, yitang（3）
-- `30_wiki\cases\case-demand-b2b-enterprise-erp.md` `决策高度实操课口述` — 来源词混入内容 tag（应拆出来源词）
-- `30_wiki\cases\case-demand-b2c-consumer-insight.md` `决策高度实操课口述` — 来源词混入内容 tag（应拆出来源词）
-- `30_wiki\dark-knowledges\dk-demand-signal-vs-noise.md` `决策高度实操课口述` — 来源词混入内容 tag（应拆出来源词）
-### design（1）
-- `30_wiki\tools\tool-月白-基于基础形象做动作延展（1到10）.md` `文创案例设计课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
-### entrepreneurship（1）
-- `30_wiki\concepts\yt-entrepreneur-research-camp.md` `调研行动营口述` — 来源词混入内容 tag（应拆出来源词）
-### entrepreneurship, epistemic-foundations（1）
-- `30_wiki\concepts\yt-entrepreneur-scientific-method.md` `第二节课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
-### healthcare（1）
-- `30_wiki\concepts\ai时代判断力口述.md` `时代判断力口述` — 来源词混入内容 tag（应拆出来源词）
-### master（2）
-- `30_wiki\concepts\master-antifragile-checklist.md` `决策高度实操课口述` — 来源词混入内容 tag（应拆出来源词）
-- `30_wiki\concepts\master-decision-hygiene.md` `决策高度实操课口述` — 来源词混入内容 tag（应拆出来源词）
-### product（2）
-- `30_wiki\concepts\yt-product-kernel-aesthetic.md` `产品内核实操课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
-- `30_wiki\concepts\yt-product-kernel-aesthetic.md` `产品内核迭代课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
-### product, yitang（2）
-- `30_wiki\dark-knowledges\yt-product-kernel-cost-sensitive-default-no.md` `{'signal': '成本敏感默认不——想加"高成本低信息"项', 'framework_lens': '这个价值项的成本高吗？对转化率的影响你确定吗？', 'follow_up_question': '如果加上去之后收入几乎不动、服务成本直接乘2-3倍，你还加吗？'}` — X之Y 课程名前缀（应拆为内容词）
-- `30_wiki\frameworks\yt-product-kernel-iteration.md` `产品内核迭代课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
-### src-unknown（151）
-- `30_wiki\cases\case-truman-motivation-map-12-versions.md` `泛产品设计工具篇口述版` — 来源词混入内容 tag（应拆出来源词）
-- `30_wiki\cases\case-truman-poker-deck-roi.md` `决策高度实操课口述` — 来源词混入内容 tag（应拆出来源词）
-- `30_wiki\cases\case-一堂-陈贤敏汉堡-hypothesis-validation.md` `关键假设课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+### ai-collaboration, business-formula（2）
+- `30_wiki\concepts\yt-product-kernel-user-perspective.md` `产品内核实操课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\concepts\yt-product-kernel-user-perspective.md` `产品内核验证课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+### ai-collaboration, content（1）
+- `30_wiki\tools\yt-product-kernel-canvas.md` `产品内核实操课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+### ai-collaboration, decision-making（2）
+- `30_wiki\concepts\yt-barrier-technology-moat.md` `产品内核实操课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\concepts\yt-barrier-technology-moat.md` `产品内核验证课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+### ai-collaboration, design（1）
+- `30_wiki\tools\tool-prompt-usp-quick-scan.md` `五步法之需求分析` — X之Y 课程名前缀（应拆为内容词）
+### ai-collaboration, strategy（3）
 - `30_wiki\concepts\concept-一堂-hypothesis-driven-business-methodology.md` `产品内核实操课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
 - `30_wiki\concepts\concept-一堂-hypothesis-driven-business-methodology.md` `产品内核迭代课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
 - `30_wiki\concepts\concept-一堂-hypothesis-driven-business-methodology.md` `产品内核验证课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
-- `30_wiki\concepts\yt-barrier-brand-equity.md` `产品内核实操课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
-- `30_wiki\concepts\yt-barrier-brand-equity.md` `产品内核验证课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
-- `30_wiki\concepts\yt-barrier-culture-moat.md` `产品内核实操课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
-- `30_wiki\concepts\yt-barrier-culture-moat.md` `产品内核验证课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
-- `30_wiki\concepts\yt-barrier-data-assets.md` `产品内核实操课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
-- `30_wiki\concepts\yt-barrier-data-assets.md` `产品内核验证课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
-- `30_wiki\concepts\yt-barrier-defensive-strategy.md` `产品内核实操课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
-- `30_wiki\concepts\yt-barrier-defensive-strategy.md` `产品内核验证课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
-- `30_wiki\concepts\yt-barrier-network-effects-deep.md` `产品内核实操课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
-- …共 151 条
-### time-management, marketing（2）
-- `30_wiki\cases\case-yitang-copywriting-time-decomposition.md` `底层逻辑之一` — X之Y 课程名前缀（应拆为内容词）
-- `30_wiki\cases\case-yitang-copywriting-time-decomposition.md` `底层逻辑之一-Y模型` — X之Y 课程名前缀（应拆为内容词）
-### yitang（8）
-- `30_wiki\cases\case-gudong-tea-shop-foresight.md` `机会预判课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
-- `30_wiki\cases\case-truman-yitang-foresight.md` `机会预判课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
-- `30_wiki\cases\case-xiaolong-ecommerce-foresight.md` `机会预判课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
-- `30_wiki\tools\tool-prompt-iceberg-demand-analysis.md` `五步法之需求分析` — X之Y 课程名前缀（应拆为内容词）
-- `30_wiki\tools\tool-prompt-jtbd-scenario-coach.md` `五步法之需求分析` — X之Y 课程名前缀（应拆为内容词）
-- `30_wiki\tools\tool-prompt-usp-quick-scan.md` `五步法之需求分析` — X之Y 课程名前缀（应拆为内容词）
-- `30_wiki\tools\tool-一堂-product-kernel-add-subtract.md` `00_inbox/一堂-产品内核实操课-Truman-口述.txt L2378-L2416` — 来源词混入内容 tag（应拆出来源词）
-- `30_wiki\tools\tool-一堂-product-kernel-add-subtract.md` `00_inbox/一堂-产品内核实操课-Truman-口述.txt L190-L194` — 来源词混入内容 tag（应拆出来源词）
-### yitang, business-formula（1）
+### ai-saas, design（1）
+- `30_wiki\concepts\aigc文创案例设计课leo文创ip从0到1全流程.md` `文创案例设计课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+### business-formula（1）
 - `30_wiki\dark-knowledges\dk-yitang-business-formula-cd-loop-undo-key.md` `落地之夜第六场` — X之Y 课程名前缀（应拆为内容词）
-### yitang, business-strategy（4）
+### business-strategy（4）
 - `30_wiki\cases\case-yitang-dongyuan-dance-retention-c-vs-d.md` `落地之夜第六场` — X之Y 课程名前缀（应拆为内容词）
 - `30_wiki\cases\case-yitang-xiezefeng-clothing-innovation-param.md` `落地之夜第六场` — X之Y 课程名前缀（应拆为内容词）
 - `30_wiki\cases\case-yitang-yewenbin-archery-business-formula.md` `落地之夜第六场` — X之Y 课程名前缀（应拆为内容词）
 - `30_wiki\cases\case-一堂-无人餐厅-hypothesis-failure.md` `关键假设课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
-### yitang, decision-science（2）
+### content-production, marketing（1）
+- `30_wiki\tools\tool-李诞-销售闭环验证：从0到1的重新定义.md` `文创案例设计课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+### conversion-rate, five-step-method（2）
+- `30_wiki\concepts\yt-growth-sales-led-growth.md` `产品内核实操课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\concepts\yt-growth-sales-led-growth.md` `产品内核验证课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+### conversion-rate, strategy（2）
+- `30_wiki\frameworks\yt-growth-funnel-optimization.md` `产品内核实操课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\frameworks\yt-growth-funnel-optimization.md` `产品内核验证课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+### decision-making（21）
+- `30_wiki\concepts\yt-business-model-pricing-psychology.md` `产品内核实操课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\concepts\yt-business-model-pricing-psychology.md` `产品内核验证课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\concepts\yt-foresight-probability-engineering.md` `机会预判课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\concepts\yt-growth-acquisition-channels.md` `产品内核实操课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\concepts\yt-growth-acquisition-channels.md` `产品内核验证课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\concepts\yt-product-kernel-boundary.md` `产品内核实操课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\concepts\yt-product-kernel-definition.md` `产品内核实操课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\concepts\yt-product-kernel-definition.md` `产品内核迭代课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\concepts\yt-product-kernel-definition.md` `产品内核验证课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\concepts\yt-product-kernel-key-conversion.md` `产品内核实操课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\concepts\yt-product-kernel-key-conversion.md` `产品内核验证课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\frameworks\yt-growth-data-driven-decision.md` `产品内核实操课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\frameworks\yt-growth-data-driven-decision.md` `产品内核验证课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\frameworks\yt-product-kernel-hypothesis-test.md` `产品内核实操课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\frameworks\yt-product-kernel-hypothesis-test.md` `产品内核验证课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- …共 21 条
+### decision-making, design（13）
+- `30_wiki\concepts\yt-barrier-supply-chain.md` `产品内核实操课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\concepts\yt-barrier-supply-chain.md` `产品内核验证课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\concepts\yt-business-model-asset-light.md` `产品内核实操课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\concepts\yt-business-model-asset-light.md` `产品内核验证课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\concepts\yt-business-model-margin-structure.md` `产品内核实操课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\concepts\yt-business-model-margin-structure.md` `产品内核验证课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\concepts\yt-growth-activation-rate.md` `产品内核实操课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\concepts\yt-growth-activation-rate.md` `产品内核验证课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\concepts\yt-growth-user-onboarding.md` `产品内核实操课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\concepts\yt-growth-user-onboarding.md` `产品内核验证课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\frameworks\yt-growth-retention-metrics.md` `产品内核实操课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\frameworks\yt-growth-retention-metrics.md` `产品内核验证课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\tools\tool-prompt-iceberg-demand-analysis.md` `五步法之需求分析` — X之Y 课程名前缀（应拆为内容词）
+### decision-making, five-step-method（2）
+- `30_wiki\concepts\yt-growth-product-led-growth.md` `产品内核实操课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\concepts\yt-growth-product-led-growth.md` `产品内核验证课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+### decision-making, human-insights（1）
+- `30_wiki\tools\tool-prompt-jtbd-scenario-coach.md` `五步法之需求分析` — X之Y 课程名前缀（应拆为内容词）
+### decision-making, kdo（6）
+- `30_wiki\concepts\yt-product-kernel-add-subtract.md` `产品内核实操课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\concepts\yt-product-kernel-add-subtract.md` `产品内核迭代课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\frameworks\yt-five-step-cross-step-1.md` `产品内核实操课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\frameworks\yt-five-step-cross-step-1.md` `产品内核验证课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\tools\tool-一堂-product-kernel-canvas.md` `产品内核实操课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\tools\tool-一堂-product-kernel-canvas.md` `产品内核迭代课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+### decision-making, modeling（1）
+- `30_wiki\tools\tool-cognitive-bias-12-check.md` `后见之明` — X之Y 课程名前缀（应拆为内容词）
+### decision-making, strategy（21）
+- `30_wiki\cases\case-truman-yitang-foresight.md` `机会预判课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\concepts\yt-barrier-talent-density.md` `产品内核实操课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\concepts\yt-barrier-talent-density.md` `产品内核验证课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\concepts\yt-business-model-b2b-pricing.md` `产品内核实操课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\concepts\yt-business-model-b2b-pricing.md` `产品内核验证课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\concepts\yt-business-model-cash-flow.md` `产品内核实操课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\concepts\yt-business-model-cash-flow.md` `产品内核验证课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\concepts\yt-foresight-deliverables-four-levels.md` `机会预判课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\concepts\yt-foresight-ten-fatal-flaws.md` `机会预判课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\concepts\yt-growth-growth-hacking.md` `产品内核实操课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\concepts\yt-growth-growth-hacking.md` `产品内核验证课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\concepts\yt-growth-market-led-growth.md` `产品内核实操课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\concepts\yt-growth-market-led-growth.md` `产品内核验证课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\frameworks\yt-business-model-channel-economics.md` `产品内核实操课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\frameworks\yt-business-model-channel-economics.md` `产品内核验证课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- …共 21 条
+### decision-science（2）
 - `30_wiki\cases\case-yitang-shishi-qiushi-pitfall-2-ignore-facts.md` `大坑之二` — X之Y 课程名前缀（应拆为内容词）
 - `30_wiki\cases\case-yitang-shishi-qiushi-pitfall-5-over-prediction.md` `大坑之五` — X之Y 课程名前缀（应拆为内容词）
-### yitang, demand-analysis（6）
+### demand-analysis（6）
 - `30_wiki\cases\case-demand-iceberg-few-shot.md` `五步法之需求分析` — X之Y 课程名前缀（应拆为内容词）
 - `30_wiki\tools\tool-demand-chai-tui-ping-suan-guide.md` `五步法之需求分析` — X之Y 课程名前缀（应拆为内容词）
 - `30_wiki\tools\tool-demand-micro-experience-script.md` `五步法之需求分析` — X之Y 课程名前缀（应拆为内容词）
 - `30_wiki\tools\tool-demand-option-explorer.md` `五步法之需求分析` — X之Y 课程名前缀（应拆为内容词）
 - `30_wiki\tools\tool-demand-rat-generator.md` `五步法之需求分析` — X之Y 课程名前缀（应拆为内容词）
 - `30_wiki\tools\tool-demand-report-template.md` `五步法之需求分析` — X之Y 课程名前缀（应拆为内容词）
-### yitang, five-step-method（34）
+### design（6）
+- `30_wiki\concepts\yt-growth-viral-mechanism.md` `产品内核实操课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\concepts\yt-growth-viral-mechanism.md` `产品内核验证课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\tools\tool-prompt-usp-demand-analysis.md` `五步法之需求分析` — X之Y 课程名前缀（应拆为内容词）
+- `30_wiki\tools\tool-月白-基于基础形象做动作延展（1到10）.md` `文创案例设计课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\tools\yt-growth-referral-system.md` `产品内核实操课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\tools\yt-growth-referral-system.md` `产品内核验证课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+### entrepreneurship, epistemic-foundations（1）
+- `30_wiki\concepts\yt-entrepreneur-scientific-method.md` `第二节课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+### five-step-method（36）
 - `30_wiki\cases\case-demand-ai-fitness-four-forces.md` `五步法之需求分析` — X之Y 课程名前缀（应拆为内容词）
 - `30_wiki\cases\case-demand-dialer.md` `五步法之需求分析` — X之Y 课程名前缀（应拆为内容词）
 - `30_wiki\cases\case-demand-elderly-smart-device.md` `五步法之需求分析` — X之Y 课程名前缀（应拆为内容词）
@@ -113,35 +139,39 @@
 - `30_wiki\cases\case-demand-silver-parenting.md` `五步法之需求分析` — X之Y 课程名前缀（应拆为内容词）
 - `30_wiki\cases\case-demand-tier4-housekeeping.md` `五步法之需求分析` — X之Y 课程名前缀（应拆为内容词）
 - `30_wiki\cases\case-demand-travel-agent.md` `五步法之需求分析` — X之Y 课程名前缀（应拆为内容词）
-- `30_wiki\dark-knowledges\dk-demand-feature-stacking.md` `五步法之需求分析` — X之Y 课程名前缀（应拆为内容词）
-- `30_wiki\dark-knowledges\dk-demand-hidden-need.md` `五步法之需求分析` — X之Y 课程名前缀（应拆为内容词）
-- …共 34 条
-### yitang, growth（21）
-- `30_wiki\cases\case-yitang-amazon-growth-flywheel.md` `一堂五步法之增长` — X之Y 课程名前缀（应拆为内容词）
-- `30_wiki\cases\case-yitang-lianjia-site-selection-industrialization.md` `一堂五步法之增长` — X之Y 课程名前缀（应拆为内容词）
-- `30_wiki\cases\case-yitang-maiyi-cloud-computer-channel.md` `一堂五步法之增长` — X之Y 课程名前缀（应拆为内容词）
-- `30_wiki\cases\case-yitang-novel-app-flywheel.md` `一堂五步法之增长` — X之Y 课程名前缀（应拆为内容词）
-- `30_wiki\cases\case-yitang-redburger-selection-industrialization.md` `一堂五步法之增长` — X之Y 课程名前缀（应拆为内容词）
-- `30_wiki\cases\case-yitang-shuzu-channel-scan-test.md` `一堂五步法之增长` — X之Y 课程名前缀（应拆为内容词）
-- `30_wiki\cases\case-yitang-solid-redbull-channel.md` `一堂五步法之增长` — X之Y 课程名前缀（应拆为内容词）
-- `30_wiki\cases\case-yitang-topcity-growth-flywheel.md` `一堂五步法之增长` — X之Y 课程名前缀（应拆为内容词）
-- `30_wiki\cases\case-yitang-xujian-invoice-saas-channel.md` `一堂五步法之增长` — X之Y 课程名前缀（应拆为内容词）
-- `30_wiki\cases\case-yitang-yitang-course-industrialization.md` `一堂五步法之增长` — X之Y 课程名前缀（应拆为内容词）
-- `30_wiki\cases\case-yitang-yitang-self-growth-channel.md` `一堂五步法之增长` — X之Y 课程名前缀（应拆为内容词）
-- `30_wiki\cases\case-yitang-yitang-shortvideo-industrialization.md` `一堂五步法之增长` — X之Y 课程名前缀（应拆为内容词）
-- `30_wiki\cases\case-yitang-yitu-lead-industrialization.md` `一堂五步法之增长` — X之Y 课程名前缀（应拆为内容词）
-- `30_wiki\concepts\concept-yitang-channel-lean-validation-bridge.md` `一堂五步法之增长` — X之Y 课程名前缀（应拆为内容词）
-- `30_wiki\dark-knowledges\dk-yitang-channel-exploration-traps.md` `一堂五步法之增长` — X之Y 课程名前缀（应拆为内容词）
-- …共 21 条
-### yitang, key-assumptions（3）
+- `30_wiki\concepts\yt-barrier-network-effects-deep.md` `产品内核实操课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\concepts\yt-barrier-network-effects-deep.md` `产品内核验证课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- …共 36 条
+### five-step-method, kdo（2）
+- `30_wiki\frameworks\yt-barrier-ecosystem-lock-in.md` `产品内核实操课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\frameworks\yt-barrier-ecosystem-lock-in.md` `产品内核验证课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+### five-step-method, strategy（4）
+- `30_wiki\concepts\yt-barrier-data-assets.md` `产品内核实操课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\concepts\yt-barrier-data-assets.md` `产品内核验证课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\concepts\yt-business-model-network-effects.md` `产品内核实操课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\concepts\yt-business-model-network-effects.md` `产品内核验证课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+### human-insights（2）
+- `30_wiki\frameworks\yt-growth-engagement-loop.md` `产品内核实操课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\frameworks\yt-growth-engagement-loop.md` `产品内核验证课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+### kdo（6）
+- `30_wiki\concepts\yt-barrier-switching-costs.md` `产品内核实操课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\concepts\yt-barrier-switching-costs.md` `产品内核验证课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\concepts\yt-growth-monetization-optimization.md` `产品内核实操课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\concepts\yt-growth-monetization-optimization.md` `产品内核验证课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\tools\yt-product-kernel-mvp-design.md` `产品内核实操课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\tools\yt-product-kernel-mvp-design.md` `产品内核验证课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+### key-assumptions（3）
 - `30_wiki\concepts\concept-一堂-key-assumptions.md` `关键假设课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
 - `30_wiki\frameworks\framework-一堂-关键假设-ABCD模型.md` `关键假设课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
 - `30_wiki\tools\tool-一堂-关键假设-ABCD场景分类器.md` `关键假设课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
-### yitang, lean-startup（1）
+### lean-startup, tob（1）
 - `30_wiki\dark-knowledges\dk-tool-as-answer-trap.md` `关键假设课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
-### yitang, management（1）
+### management（1）
 - `30_wiki\tools\tool-yitang-project-gap-analysis.md` `后见之明` — X之Y 课程名前缀（应拆为内容词）
-### yitang, research（15）
+### product（2）
+- `30_wiki\dark-knowledges\yt-product-kernel-cost-sensitive-default-no.md` `{'signal': '成本敏感默认不——想加"高成本低信息"项', 'framework_lens': '这个价值项的成本高吗？对转化率的影响你确定吗？', 'follow_up_question': '如果加上去之后收入几乎不动、服务成本直接乘2-3倍，你还加吗？'}` — X之Y 课程名前缀（应拆为内容词）
+- `30_wiki\frameworks\yt-product-kernel-iteration.md` `产品内核迭代课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+### research（15）
 - `30_wiki\cases\case-liutao-douyin-team-leader-9m.md` `高阶情报调研课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
 - `30_wiki\cases\case-liutao-electric-bike-localization.md` `高阶情报调研课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
 - `30_wiki\cases\case-yitang-competitor-pricing-intelligence.md` `高阶情报调研课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
@@ -157,135 +187,152 @@
 - `30_wiki\concepts\concept-ceo-must-do-user-research.md` `用户调研实操课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
 - `30_wiki\concepts\concept-research-delegation-in-scaling.md` `用户调研实操课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
 - `30_wiki\tools\tool-yitang-user-interview-5steps.md` `用户调研实操课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
-### yitang, sales（1）
+### sales, business-strategy（1）
 - `30_wiki\tools\tool-yitang-payment-collection-playbook.md` `销售体系之二` — X之Y 课程名前缀（应拆为内容词）
+### strategy（57）
+- `30_wiki\cases\case-gudong-tea-shop-foresight.md` `机会预判课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\cases\case-xiaolong-ecommerce-foresight.md` `机会预判课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\cases\case-一堂-陈贤敏汉堡-hypothesis-validation.md` `关键假设课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\concepts\yt-barrier-brand-equity.md` `产品内核实操课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\concepts\yt-barrier-brand-equity.md` `产品内核验证课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\concepts\yt-barrier-culture-moat.md` `产品内核实操课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\concepts\yt-barrier-culture-moat.md` `产品内核验证课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\concepts\yt-barrier-defensive-strategy.md` `产品内核实操课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\concepts\yt-barrier-defensive-strategy.md` `产品内核验证课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\concepts\yt-barrier-offensive-strategy.md` `产品内核实操课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\concepts\yt-barrier-offensive-strategy.md` `产品内核验证课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\concepts\yt-barrier-regulatory.md` `产品内核实操课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\concepts\yt-barrier-regulatory.md` `产品内核验证课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\concepts\yt-barrier-scale-economies.md` `产品内核实操课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- `30_wiki\concepts\yt-barrier-scale-economies.md` `产品内核验证课` — 课程名结尾（禁入 tags，source_refs 唯一归宿）
+- …共 57 条
+### time-management, marketing（2）
+- `30_wiki\cases\case-yitang-copywriting-time-decomposition.md` `底层逻辑之一` — X之Y 课程名前缀（应拆为内容词）
+- `30_wiki\cases\case-yitang-copywriting-time-decomposition.md` `底层逻辑之一-Y模型` — X之Y 课程名前缀（应拆为内容词）
 
 ## ② 来源轴缺失清单
 
-- `30_wiki\_archive\concept-一堂-business-prediction.md` source_person=Truman source_context=一堂商业预判课（2026年）
+- `30_wiki\_archive\concept-一堂-business-prediction.md` source_person=Truman source_context=['一堂商业预判课（2026年）', 'yitang']
 - `30_wiki\_archive\plan_20260531_data-curator-v1.md` source_person=- source_context=（原 legacy，已从 title/context/filename 推断为 
 - `30_wiki\_archive\research_methodology.md` source_person=- source_context=（原 legacy，已从 title/context/filename 推断为 
-- `30_wiki\bridges\bridge-coaching-leadership-feature-layered.md` source_person=Truman source_context=教练式领导力探索营 × Feature分层体系 跨课桥接
+- `30_wiki\bridges\bridge-coaching-leadership-feature-layered.md` source_person=Truman source_context=['教练式领导力探索营 × Feature分层体系 跨课桥接', 'yitang
 - `30_wiki\bridges\bridge-dual-track-feature-system.md` source_person=欧阳锋/王语嫣 source_context=欧阳锋洞察3：cap_hub质量门禁Feature ≠ 课程解题Feature—
 - `30_wiki\bridges\bridge-how-to-know-person-to-business.md` source_person=布鲁克斯 / 水水 source_context=
+- `30_wiki\bridges\bridge-meeting-leadership-coaching.md` source_person=Truman source_context=['科学开会系列课（认知篇+武器库上下篇）× 教练式领导力探索营', '口述',
 - `30_wiki\bridges\bridge-panproduct-kids-translation.md` source_person=崔磊 source_context=
 - `30_wiki\bridges\bridge-个人复盘×知识管理W-Z-K-P.md` source_person=Truman source_context=Truman复盘课批注图230938（W-Z-K-P模型）
-- `30_wiki\cases\case-4000-titles-ten-strategies.md` source_person=马易 source_context=Live259 爆炸式调研（2026-08-11 口述）——长期资产原型案例
+- `30_wiki\cases\case-4000-titles-ten-strategies.md` source_person=马易 source_context=['Live259 爆炸式调研（2026-08-11 口述）——长期资产原型案例
+- `30_wiki\cases\case-ai-agent-milestone-design.md` source_person=- source_context=['决策高度实操课口述', 'yitang']
 - `30_wiki\cases\case-ai-assisted-review.md` source_person=Truman source_context=一堂高阶建模能力培训（AI 辅助复盘案例） （单一 source 为完整长文档，
-- `30_wiki\cases\case-ai-learning-series-modeling.md` source_person=马易 source_context=Live259 爆炸式调研（2026-08-11 口述）——AI 学习各案例的量
+- `30_wiki\cases\case-ai-companion-emotional.md` source_person=- source_context=['逐字稿']
+- `30_wiki\cases\case-ai-job-displacement-wef.md` source_person=- source_context=['逐字稿']
+- `30_wiki\cases\case-ai-learning-series-modeling.md` source_person=马易 source_context=['Live259 爆炸式调研（2026-08-11 口述）——AI 学习各案例
 - `30_wiki\cases\case-ai-pet-emotional-product.md` source_person=水水 source_context=水水一堂拆书会 AI宠物案例（L940-990）
+- `30_wiki\cases\case-ai-search-commerce-platform-hedge.md` source_person=- source_context=['口述']
+- `30_wiki\cases\case-ai-time-management-tiered-growth.md` source_person=- source_context=['yitang']
 - `30_wiki\cases\case-ai-writing-homogenization.md` source_person=一堂《吾辈如神》拆书会主讲人 / 老顽童整理 source_context=一堂《吾辈如神》拆书会（2026-07-01），讨论 AI 生成内容对表达多样性
-- `30_wiki\cases\case-bmw-human-ai-collaboration-idle-time.md` source_person=《吾辈如神》拆书会主讲人 source_context=一堂《吾辈如神》拆书会（2026-07-01），讨论 AI 时代人机协作的未来
+- `30_wiki\cases\case-apple-card-gender-bias.md` source_person=- source_context=['逐字稿']
+- `30_wiki\cases\case-ban-fei-mao-conversion-hacker-skill.md` source_person=半肥猫 source_context=['AI俱乐部-AI学习落地 分享', '半肥猫', 'yitang']
+- `30_wiki\cases\case-ban-fei-mao-from-assignment-to-tool.md` source_person=半肥猫 source_context=['AI俱乐部·AI学习落地（2026-06分享）', '半肥猫']
+- `30_wiki\cases\case-ban-fei-mao-skill-ab-test.md` source_person=半肥猫 source_context=['AI俱乐部-AI学习落地 分享', '半肥猫', 'yitang']
+- `30_wiki\cases\case-bmw-human-ai-collaboration-idle-time.md` source_person=《吾辈如神》拆书会主讲人 source_context=['一堂《吾辈如神》拆书会（2026-07-01），讨论 AI 时代人机协作的未
+- `30_wiki\cases\case-cambridge-novelists-survey.md` source_person=- source_context=['逐字稿']
+- `30_wiki\cases\case-candy-problem-os-vpn.md` source_person=- source_context=['yitang']
+- `30_wiki\cases\case-chen-qiufan-ai-writing.md` source_person=- source_context=['逐字稿']
 - `30_wiki\cases\case-child-drawing-rhyme.md` source_person=Truman source_context=一堂高阶建模能力培训（最小建模案例）。单一来源为完整口述稿，内容充分支撑 med
-- `30_wiki\cases\case-coaching-dialogue-three-versions.md` source_person=莫非 source_context=教练式领导力探索营——三版本对话案例集
+- `30_wiki\cases\case-coaching-dialogue-three-versions.md` source_person=莫非 source_context=['教练式领导力探索营——三版本对话案例集', 'yitang']
+- `30_wiki\cases\case-coffee-shop-foresight.md` source_person=- source_context=['yitang']
+- `30_wiki\cases\case-compas-racial-bias.md` source_person=- source_context=['逐字稿']
 - `30_wiki\cases\case-course-milestone-model.md` source_person=Truman source_context=一堂高阶建模能力培训（课程里程碑模型案例），单一口述来源，内容支撑充分但待第二来
 - `30_wiki\cases\case-cross-xingangwan-pharma.md` source_person=项目相关方（录音）/ 王语嫣（整理） source_context=跨域融合计划（策略 A）P1 案例卡；素材来自鑫港湾智慧药柜项目多份内部录音与 
-- `30_wiki\cases\case-cross-yuanqi-forest.md` source_person=一堂课程讲义/讲师案例 source_context=一堂精益创业·低成本验证课程（元气森林试错工具箱幻灯片）+ 冉鹏战略课程战略选择
+- `30_wiki\cases\case-cross-yuanqi-forest.md` source_person=一堂课程讲义/讲师案例 source_context=['一堂精益创业·低成本验证课程（元气森林试错工具箱幻灯片）+ 冉鹏战略课程战略
 - `30_wiki\cases\case-cui-lei-kids-ai-design-class.md` source_person=崔磊 source_context=
-- `30_wiki\cases\case-dental-clinic-formula.md` source_person=孔阳 source_context=一堂 2026-06-13 业务公式拆解培训，连锁口腔诊所案例（单次成交 & 长
-- `30_wiki\cases\case-design-principles-90.md` source_person=马易 source_context=Live259 爆炸式调研（2026-08-11 口述）——AI demo 最完
-- `30_wiki\cases\case-essence-education-strategy.md` source_person=Truman source_context=一堂高阶建模能力培训（本质建模案例）
-- `30_wiki\cases\case-essence-entrepreneurship.md` source_person=Truman 的早期领导 source_context=一堂高阶建模能力培训（本质建模案例）（单一 source 为完整长文档，内容充分
-- `30_wiki\cases\case-essence-humanity-trap.md` source_person=Truman source_context=一堂高阶建模能力培训（本质建模案例）（单一 source 为完整长文档，内容充分
-- `30_wiki\cases\case-ether-online-acquisition.md` source_person=Truman source_context=一堂课程，规模经济章节；以太资本对接平台用全网调研能力扫描新上创业项目并自动化跟
-- `30_wiki\cases\case-feishu-live259-l3-extraction.md` source_person=段王爷（南帝）实战 source_context=2026-08-15 提取 yitang.top/fs-doc Live259《
-- `30_wiki\cases\case-feishu-minutes-extraction-attempt.md` source_person=段王爷（南帝）实战 source_context=2026-08-16 尝试提取 yitanger.feishu.cn 妙记逐字稿
-- `30_wiki\cases\case-five-step-fake-vs-real-barriers.md` source_person=Truman source_context=一堂五步法壁垒篇
-- `30_wiki\cases\case-five-step-growth-first-lever.md` source_person=Truman source_context=一堂五步法增长篇 + 增长周期模型
-- `30_wiki\cases\case-friend-circle-aigc-transformation.md` source_person=楚门 source_context=AI×知识管理探索营（2026-08-15 晚直播）——朋友圈 AIGC 转型分
-- `30_wiki\cases\case-guang-leng-dian-zi-hx-smj.md` source_person=黄药师 source_context=广冷电子 HX-SMJ 闸机红外光栅项目——四板卡（主控+红外A+红外B+继电器
-- `30_wiki\cases\case-gudong-tea-shop-foresight.md` source_person=古董（一堂青岛中心主理人） source_context=Truman在商业预判课第一节课中讲解的预判案例，古董本人有独立完整课程
-- `30_wiki\cases\case-gym-membership-formula.md` source_person=孔阳 source_context=一堂 2026-06-13 业务公式拆解培训，线下连锁健身续卡案例（持续复购型）
-- `30_wiki\cases\case-hr-saas-feature-usage-trap.md` source_person=孔阳 source_context=一堂 2026-06-13 业务公式拆解培训，逻辑关系章节中的错误示范
-- `30_wiki\cases\case-investment-claim-fact-check.md` source_person=楚门 source_context=AI×知识管理探索营（2026-08-15 晚直播）——事实核查案例（L2756
-- `30_wiki\cases\case-jh-yitang-vs-sqlhelper.md` source_person=纪浩 source_context=AI俱乐部·人和AI协作（第六期AI共创社，2026-06）
-- `30_wiki\cases\case-ji-hao-ai-workspace-chaos.md` source_person=纪浩 source_context=AI俱乐部·AI协作方法论分享（2026年）
-- `30_wiki\cases\case-ji-hao-skill-market-problem-validation.md` source_person=纪浩 source_context=AI俱乐部·AI协作方法论分享（2026年）
-- `30_wiki\cases\case-ji-hao-skills-market.md` source_person=纪浩 source_context=AI俱乐部-AI协作方法论 分享
-- `30_wiki\cases\case-ji-hao-ui-design-constraint-evolution.md` source_person=纪浩 source_context=AI俱乐部·AI协作方法论分享（2026年）
-- `30_wiki\cases\case-lean-2b-gray-test.md` source_person=一堂课程讲师（自身业务复盘） source_context=一堂精益创业·低成本验证课程讲义
-- `30_wiki\cases\case-lean-adult-education.md` source_person=一堂课程讲师（教学推演案例） source_context=一堂精益创业·低成本验证课程
-- `30_wiki\cases\case-lean-building-in-vacuum.md` source_person=一堂课程讲师（教学案例） source_context=一堂精益创业·低成本验证课程
-- `30_wiki\cases\case-lean-combination-test-paradigm.md` source_person=一堂课程讲师（含张磊洗发水项目复盘） source_context=一堂精益创业·低成本验证·系统测试曲线课程讲义
-- `30_wiki\cases\case-lean-crayfish-combo-test.md` source_person=一堂课程讲师（教学案例） source_context=一堂精益创业·低成本验证·系统测试曲线课程讲义
-- `30_wiki\cases\case-lean-electric-scooter-mvp.md` source_person=一堂课程讲师（教学推演案例） source_context=一堂精益创业·低成本验证实操课程
-- `30_wiki\cases\case-lean-genki-forest-toolkit.md` source_person=一堂课程讲义/讲师案例 source_context=一堂精益创业·低成本验证课程（元气森林试错工具箱幻灯片）
-- `30_wiki\cases\case-lean-gray-test-paradigm.md` source_person=张磊/一堂讲师 source_context=一堂低成本验证·系统测试曲线课程案例
-- `30_wiki\cases\case-lean-medical-device-milestone.md` source_person=一堂课程讲师（教学推演案例） source_context=一堂精益创业·低成本验证课程·医疗器械案例
-- …共 1183 条
+- `30_wiki\cases\case-decision-ai-assisted-vs-human.md` source_person=- source_context=['决策高度实操课口述']
+- `30_wiki\cases\case-decision-science-lunch-break-compression.md` source_person=- source_context=['决策深度实操课口述', 'yitang']
+- `30_wiki\cases\case-decision-science-topcity-negative-revenue-rank.md` source_person=- source_context=['决策实践实操课口述', 'yitang']
+- `30_wiki\cases\case-decision-science-universal-salary-raise-roi.md` source_person=- source_context=['yitang']
+- `30_wiki\cases\case-deepfake-market-misuse.md` source_person=- source_context=['逐字稿']
+- `30_wiki\cases\case-demand-ai-fitness-four-forces.md` source_person=- source_context=['yitang']
+- `30_wiki\cases\case-demand-b2b-enterprise-erp.md` source_person=- source_context=['决策高度实操课口述', 'yitang']
+- `30_wiki\cases\case-demand-b2c-consumer-insight.md` source_person=- source_context=['决策高度实操课口述', 'yitang']
+- `30_wiki\cases\case-demand-dialer.md` source_person=- source_context=['yitang']
+- `30_wiki\cases\case-demand-elderly-smart-device.md` source_person=- source_context=['yitang']
+- `30_wiki\cases\case-demand-equestrian-three-tasks.md` source_person=- source_context=['yitang']
+- `30_wiki\cases\case-demand-financial-literacy.md` source_person=- source_context=['yitang']
+- `30_wiki\cases\case-demand-iceberg-few-shot.md` source_person=- source_context=['yitang']
+- `30_wiki\cases\case-demand-indonesia-insurance.md` source_person=- source_context=['yitang']
+- `30_wiki\cases\case-demand-milkshake-jtbd.md` source_person=- source_context=['yitang']
+- …共 2060 条
 
 ## ③ 域地图（有轴/无轴）
 
 | 域 | 卡数 | 词池轴 |
 |:--|--:|:--|
-| yitang | 1182 | — |
-| src-unknown | 388 | — |
-| ai-collaboration | 354 | ✅ |
-| design | 285 | — |
-| research | 247 | — |
-| management | 162 | — |
-| strategy | 159 | — |
-| unknown | 144 | — |
-| master | 114 | — |
+| ai-collaboration | 459 | ✅ |
+| strategy | 417 | — |
+| design | 367 | — |
+| research | 261 | — |
+| decision-making | 243 | ✅ |
+| kdo | 208 | — |
+| management | 167 | — |
+| master | 162 | — |
+| content | 133 | — |
 | decision-science | 112 | — |
-| business-strategy | 103 | — |
+| business-strategy | 107 | — |
 | product | 97 | — |
-| ai-saas | 96 | — |
+| ai-saas | 97 | — |
+| business-formula | 72 | — |
 | knowledge-management | 71 | — |
-| kdo | 66 | — |
-| business-formula | 66 | — |
+| modeling | 65 | — |
+| human-insights | 64 | ✅ |
 | learning-methodology | 59 | — |
-| modeling | 55 | — |
-| conversion-rate | 50 | — |
+| five-step-method | 58 | — |
+| conversion-rate | 52 | — |
 | healthcare | 45 | — |
-| five-step-method | 45 | — |
 | personal-os | 43 | — |
 | entrepreneurship | 42 | — |
-| decision-making | 40 | ✅ |
-| yihang | 36 | — |
+| yihang | 39 | — |
 | personal-growth | 35 | — |
 | content-production | 34 | — |
 | sales | 33 | — |
-| panproduct | 32 | — |
-| src_unknown | 27 | — |
+| panproduct | 31 | — |
 | growth | 27 | — |
 | demand-analysis | 26 | — |
 | innovation | 25 | — |
 | ai-basic | 23 | — |
-| methodology | 21 | — |
 | coaching | 20 | — |
+| methodology | 20 | — |
 | critical-thinking | 20 | — |
 | business-judgment | 19 | — |
-| human-insights | 18 | ✅ |
 | system | 18 | — |
 | time-management | 16 | — |
 | lean-startup | 15 | — |
 | profit-pricing | 15 | — |
 | personal | 14 | — |
-| agent-capability | 13 | — |
-| ai | 13 | — |
+| wanghuan | 14 | — |
+| agent-capability | 12 | — |
+| ai | 12 | — |
 | product-kernel | 12 | — |
 | entrepreneur | 11 | — |
 | ai-knowledge | 11 | — |
-| wanghuan | 11 | — |
 | pharmaceutical-retail | 10 | — |
 | epistemic-foundations | 10 | — |
-| personal-expression | 10 | — |
 | human-ai-collaboration | 10 | — |
 | agent | 10 | — |
 | publishing | 9 | — |
 | infrastructure | 9 | — |
+| personal-expression | 9 | — |
 | organization | 8 | — |
 | operations | 8 | — |
 | rust | 8 | — |
 | note-taking | 8 | — |
 | education | 7 | — |
 | skill-building | 7 | — |
-| feishu | 6 | — |
 | marketing | 6 | — |
 | b2b | 6 | — |
 | concepts | 6 | — |
 | e-commerce | 5 | — |
+| feishu | 5 | — |
 | organizational-transformation | 5 | — |
 | wechat-video | 5 | — |
 | key-assumptions | 5 | — |
@@ -295,8 +342,6 @@
 | cross-domain | 4 | — |
 | leadership | 4 | — |
 | multimodal | 3 | — |
-| extraction | 3 | — |
-| browser-automation | 3 | — |
 | saas | 3 | — |
 | policy-compliance | 3 | — |
 | business | 3 | — |
@@ -307,6 +352,8 @@
 | finance-legal | 3 | — |
 | research-methodology | 3 | — |
 | unit-economics | 2 | — |
+| extraction | 2 | — |
+| browser-automation | 2 | — |
 | communication | 2 | — |
 | supply-chain | 2 | — |
 | risk-warning | 2 | — |
@@ -316,7 +363,6 @@
 | hermes | 2 | — |
 | mcp | 2 | — |
 | psychology | 2 | — |
-| agent-infrastructure | 2 | — |
 | kdo-infrastructure | 2 | — |
 | bridge | 2 | — |
 | decision | 2 | — |
@@ -331,12 +377,9 @@
 | ecommerce | 1 | — |
 | user-research | 1 | — |
 | talent | 1 | — |
-| content | 1 | — |
 | 工作汇报 | 1 | — |
 | 复盘结构化 | 1 | — |
 | personal-productivity | 1 | — |
-| wechat-article | 1 | — |
-| toutiao-video | 1 | — |
 | real-estate | 1 | — |
 | call-center | 1 | — |
 | personal-knowledge-management | 1 | — |
@@ -357,9 +400,6 @@
 | validation | 1 | — |
 | economics | 1 | — |
 | architecture | 1 | — |
-| 卖点直给 | 1 | — |
-| 价值感 | 1 | — |
-| 讲香价值 | 1 | — |
 | o2o | 1 | — |
 | 软件交付 | 1 | — |
 | pan-product-design | 1 | — |
@@ -368,9 +408,8 @@
 | needs-review | 1 | — |
 | skill-engineering | 1 | — |
 | tob | 1 | — |
-| business-model | 1 | — |
+| agent-infrastructure | 1 | — |
 | capability-hub | 1 | — |
-| knowledge-graph | 1 | — |
 | workflow | 1 | — |
 | quality | 1 | — |
 | meta-methodology | 1 | — |
@@ -387,8 +426,6 @@
 | ai-tooling | 1 | — |
 | html | 1 | — |
 | prezi | 1 | — |
-| wechat | 1 | — |
-| data-extraction | 1 | — |
 | meta | 1 | — |
 | engineering | 1 | — |
 | team | 1 | — |
@@ -410,57 +447,7 @@
 
 ## ④ 空值/格式异常清单
 
-- `30_wiki\_archive\obsidian-kdo-内容产出工作流-产品设计大纲.md`: tags 缺失
-- `30_wiki\_archive\panproduct\yt-panproduct-demand-five-step-method.md`: tags 缺失
-- `30_wiki\_archive\panproduct\yt-panproduct-execution-10x-validation.md`: tags 缺失
-- `30_wiki\_archive\panproduct\yt-panproduct-execution-business-modeling.md`: tags 缺失
-- `30_wiki\_archive\panproduct\yt-panproduct-execution-core-and-boundary.md`: tags 缺失
-- `30_wiki\_archive\panproduct\yt-panproduct-execution-design-principles.md`: tags 缺失
-- `30_wiki\_archive\panproduct\yt-panproduct-execution-good-tools.md`: tags 缺失
-- `30_wiki\_archive\panproduct\yt-panproduct-execution-hypothesis-decomposition.md`: tags 缺失
-- `30_wiki\_archive\panproduct\yt-panproduct-execution-idea-spark.md`: tags 缺失
-- `30_wiki\_archive\panproduct\yt-panproduct-execution-incubation-polish.md`: tags 缺失
-- `30_wiki\_archive\panproduct\yt-panproduct-execution-liberate-thinking.md`: tags 缺失
-- `30_wiki\_archive\panproduct\yt-panproduct-execution-logic-mece.md`: tags 缺失
-- `30_wiki\_archive\panproduct\yt-panproduct-execution-low-cost-mvp.md`: tags 缺失
-- `30_wiki\_archive\panproduct\yt-panproduct-execution-management-trilogy.md`: tags 缺失
-- `30_wiki\_archive\panproduct\yt-panproduct-execution-milestone-breakdown.md`: tags 缺失
-- `30_wiki\_archive\panproduct\yt-panproduct-execution-realistic-simulation.md`: tags 缺失
-- `30_wiki\_archive\panproduct\yt-panproduct-execution-review-iteration.md`: tags 缺失
-- `30_wiki\_archive\panproduct\yt-panproduct-execution-risk-management.md`: tags 缺失
-- `30_wiki\_archive\panproduct\yt-panproduct-execution-roi-analysis.md`: tags 缺失
-- `30_wiki\_archive\panproduct\yt-panproduct-execution-war-room.md`: tags 缺失
-- `30_wiki\_archive\research_methodology.md`: tags 缺失
-- `30_wiki\_archive\紫鲸ai_智能体工作流平台_深度分析与产品设计.md`: tags 缺失
-- `30_wiki\cases\case-strategy-failure-04-appliance.md`: tags 缺失
-- `30_wiki\cases\case-strategy-failure-05-it.md`: tags 缺失
-- `30_wiki\cases\case-strategy-failure-06-phone-n.md`: tags 缺失
-- `30_wiki\cases\case-strategy-failure-09-boeing.md`: tags 缺失
-- `30_wiki\cases\case-strategy-m-brand-profit-model.md`: tags 缺失
-- `30_wiki\cases\case-strategy-practice-11-third-place.md`: tags 缺失
-- `30_wiki\cases\case-strategy-practice-12-zero-loss.md`: tags 缺失
-- `30_wiki\cases\case-strategy-retailer-activity-scope.md`: tags 缺失
-- `30_wiki\cases\case-strategy-revival-13-bestore.md`: tags 缺失
-- `30_wiki\cases\case-wechat-5291b61bc722d90d.md`: tags 缺失
-- `30_wiki\cases\case-wechat-6725b942182f6277.md`: tags 缺失
-- `30_wiki\cases\case-wechat-article_4dd7be7cd82f7e80.md`: tags 缺失
-- `30_wiki\cases\case-wechat-AWyGiJIRgc.md`: tags 缺失
-- `30_wiki\cases\case-wechat-dy_7666832665312982138.md`: tags 缺失
-- `30_wiki\cases\case-wechat-f4faadff37c0b43b.md`: tags 缺失
-- `30_wiki\cases\case-wechat-tt_7666646931699367986.md`: tags 缺失
-- `30_wiki\cases\case-yihang-dual-triangle-AI三角-场景.md`: tags 缺失
-- `30_wiki\cases\case-yihang-dual-triangle-AI三角-基本功.md`: tags 缺失
-- `30_wiki\cases\case-yihang-dual-triangle-AI三角-数据.md`: tags 缺失
-- `30_wiki\cases\case-yihang-dual-triangle-AI可以落地的场景假设.md`: tags 缺失
-- `30_wiki\cases\case-yihang-dual-triangle-AI场景.md`: tags 缺失
-- `30_wiki\cases\case-yihang-dual-triangle-AI基本功.md`: tags 缺失
-- `30_wiki\cases\case-yihang-dual-triangle-AI数据.md`: tags 缺失
-- `30_wiki\cases\case-yihang-dual-triangle-一堂DOC-20260704025752.md`: tags 缺失
-- `30_wiki\cases\case-yihang-dual-triangle-一堂双三角-AI企业经营数据分析.md`: tags 缺失
-- `30_wiki\cases\case-yihang-dual-triangle-一堂双三角-AI时代的竞争力武器库.md`: tags 缺失
-- `30_wiki\cases\case-yihang-dual-triangle-一堂双三角-AI落地五部曲.md`: tags 缺失
-- `30_wiki\cases\case-yihang-dual-triangle-一堂双三角-一个引擎-三阶六变.md`: tags 缺失
-- …共 396 条
+- 无
 
 ## ⑥ aliases 污染清单（#494：结构词/路径词禁入 aliases）
 
@@ -518,25 +505,29 @@
 
 ## ⑤ 来源形态词黑名单（#484：独立出现=污染内容词池）
 
-- `30_wiki\cases\case-4000-titles-ten-strategies.md` `笔记`（建议移除或移入 source 字段/来源轴）
-- `30_wiki\cases\case-ai-companion-emotional.md` `逐字稿`（建议移除或移入 source 字段/来源轴）
-- `30_wiki\cases\case-ai-job-displacement-wef.md` `逐字稿`（建议移除或移入 source 字段/来源轴）
-- `30_wiki\cases\case-apple-card-gender-bias.md` `逐字稿`（建议移除或移入 source 字段/来源轴）
-- `30_wiki\cases\case-cambridge-novelists-survey.md` `逐字稿`（建议移除或移入 source 字段/来源轴）
-- `30_wiki\cases\case-chen-qiufan-ai-writing.md` `逐字稿`（建议移除或移入 source 字段/来源轴）
-- `30_wiki\cases\case-compas-racial-bias.md` `逐字稿`（建议移除或移入 source 字段/来源轴）
-- `30_wiki\cases\case-deepfake-market-misuse.md` `逐字稿`（建议移除或移入 source 字段/来源轴）
+- `30_wiki\agent-specs\agent-spec-laowantong-producer.md` `笔记`（建议移除或移入 source 字段/来源轴）
 - `30_wiki\cases\case-dutch-childcare-scandal.md` `逐字稿`（建议移除或移入 source 字段/来源轴）
-- `30_wiki\cases\case-truman-ai-native-research-flow.md` `逐字稿`（建议移除或移入 source 字段/来源轴）
-- `30_wiki\concepts\concept-ai-chair-determines-view.md` `逐字稿`（建议移除或移入 source 字段/来源轴）
-- `30_wiki\concepts\concept-ai-information-quality-ladder.md` `逐字稿`（建议移除或移入 source 字段/来源轴）
-- `30_wiki\dk\dk-ai-prediction-expiry-date.md` `逐字稿`（建议移除或移入 source 字段/来源轴）
-- `30_wiki\dk\dk-ai-scarcest-resource-is-self.md` `逐字稿`（建议移除或移入 source 字段/来源轴）
-- `30_wiki\dk\dk-ai-social-progress-not-automatic.md` `逐字稿`（建议移除或移入 source 字段/来源轴）
-- `30_wiki\frameworks\framework-serendipity-five-channels.md` `逐字稿`（建议移除或移入 source 字段/来源轴）
+- `30_wiki\cases\case-live81-ai-trademark-design.md` `逐字稿`（建议移除或移入 source 字段/来源轴）
+- `30_wiki\concepts\concept-提升笔记阅读舒适度.md` `笔记`（建议移除或移入 source 字段/来源轴）
+- `30_wiki\concepts\concept-问题驱动式深度思考笔记.md` `笔记`（建议移除或移入 source 字段/来源轴）
+- `30_wiki\concepts\yt-note-ai-human-division.md` `逐字稿`（建议移除或移入 source 字段/来源轴）
+- `30_wiki\concepts\yt-note-checklist-concept.md` `笔记`（建议移除或移入 source 字段/来源轴）
+- `30_wiki\concepts\yt-note-deliberate-practice-four-elements.md` `笔记`（建议移除或移入 source 字段/来源轴）
+- `30_wiki\concepts\yt-note-extensive-research-input.md` `笔记`（建议移除或移入 source 字段/来源轴）
+- `30_wiki\concepts\yt-note-fact-pattern-insight.md` `笔记`（建议移除或移入 source 字段/来源轴）
+- `30_wiki\concepts\yt-note-l4-internalization.md` `笔记`（建议移除或移入 source 字段/来源轴）
+- `30_wiki\concepts\yt-note-problem-solving-capability.md` `笔记`（建议移除或移入 source 字段/来源轴）
+- `30_wiki\concepts\yt-prompt-engineering-andrew-ng.md` `笔记`（建议移除或移入 source 字段/来源轴）
+- `30_wiki\frameworks\framework-一堂-动力三曲线.md` `笔记`（建议移除或移入 source 字段/来源轴）
+- `30_wiki\frameworks\framework-一堂-基本功-九层金字塔.md` `笔记`（建议移除或移入 source 字段/来源轴）
+- `30_wiki\frameworks\framework-一堂-转化基本功七个自我修养.md` `笔记`（建议移除或移入 source 字段/来源轴）
+- `30_wiki\frameworks\framework-一堂-转化率提升六步法.md` `笔记`（建议移除或移入 source 字段/来源轴）
+- `30_wiki\frameworks\framework-个人学习方法-IPO学习闭环.md` `笔记`（建议移除或移入 source 字段/来源轴）
+- `30_wiki\frameworks\framework-个人学习方法-知识萃取.md` `笔记`（建议移除或移入 source 字段/来源轴）
 - `30_wiki\tools\tool-ai-critical-reading-three-layers.md` `逐字稿`（建议移除或移入 source 字段/来源轴）
-- `30_wiki\tools\tool-ai-cross-reading-method.md` `逐字稿`（建议移除或移入 source 字段/来源轴）
-- `30_wiki\tools\tool-ai2041-source-verification-checklist.md` `逐字稿`（建议移除或移入 source 字段/来源轴）
+- `30_wiki\tools\tool-使用一页纸速查卡快速调用框架.md` `笔记`（建议移除或移入 source 字段/来源轴）
+- `30_wiki\tools\tool-自我反馈修正笔记姿势.md` `笔记`（建议移除或移入 source 字段/来源轴）
+- `30_wiki\tools\tool-获取他人反馈优化笔记.md` `笔记`（建议移除或移入 source 字段/来源轴）
 
 ## 治理优先级建议
 

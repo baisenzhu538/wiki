@@ -1,0 +1,12 @@
+30_wiki\decisions\plan_20260501_05858800-improvement-plan.md
+30_wiki\decisions\plan_20260501_47264869-improvement-plan.md
+30_wiki\decisions\plan_20260501_8001399c-improvement-plan.md
+30_wiki\decisions\plan_20260501_85a84b92-improvement-plan.md
+30_wiki\decisions\plan_20260501_8ecb74e3-improvement-plan.md
+30_wiki\decisions\plan_20260501_97170532-improvement-plan.md
+30_wiki\decisions\plan_20260501_ca61cdd7-improvement-plan.md
+30_wiki\decisions\plan_20260501_e1e150b9-improvement-plan.md
+30_wiki\contradictions.md
+30_wiki\log.md
+30_wiki\decisions\fix-dark-knowledge-extractor-llm.md
+30_wiki\decisions\fix-data-curator-parse-bug.md

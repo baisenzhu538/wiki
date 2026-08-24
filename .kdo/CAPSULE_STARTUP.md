@@ -7,9 +7,9 @@
 
 ```
 version: 2.0
-updated_at: 2026-08-23
-git_head: 6345264d6   ← 启动时核对：git -C <wiki> rev-parse --short HEAD（2026-08-23 黄药师恢复会话更新：08-23 收官 51e0668b3 + #426 词表 5a32150c3 + 半肥猫立单 6345264d6）
-queue_tail: 468       ← 启动时核对：grep 队列尾任务号（2026-08-23 黄药师恢复会话更新：半肥猫 D 档 #468）
+updated_at: 2026-08-24
+git_head: 90d0d613d   ← 启动时核对：git -C <wiki> rev-parse --short HEAD（2026-08-24 黄药师恢复核验更新：08-24 复盘+探针修复链 2ae83df5c → 90d0d613d；⚠️ 08-23 记录的 6345264d6 已过期）
+queue_tail: 504       ← 启动时核对：grep 队列尾任务号（2026-08-24 黄药师恢复核验更新：🆕 我名下可领 #503 claim-assignee-bug 根治 / #504 review 等待期阻塞策略）
 ```
 
 **校验动作**（各 5 秒内）：
