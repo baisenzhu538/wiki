@@ -3,8 +3,12 @@ id: 512
 assignee: huangyaoshi
 status: in_progress
 updated_at: '2026-08-24T18:36:39.789804+00:00'
-version: v0.1
+version: v0.2
 instance: huangyaoshi
+code_files:
+  - kdo-tools/daily-context-save.py
+  - kdo-tools/tests/test_daily_context_save.py
+  - 90_control/infrastructure-inventory.md
 ---
 
 # #512 daily-context-save 重打改覆盖写 + 存量多层 frontmatter 清理
@@ -47,3 +51,22 @@ instance: huangyaoshi
 
 - **黄药师**：脚本修复 + 存量清理（先清单后动手）
 - **欧阳锋**：终审本单
+
+## 执行报告（F-034 五字段，complete 前必填）
+
+**完成内容**：重打改覆盖写 + 存量 47 文件清理——①根因定位：cmd_save 本身 write_text 覆盖，但 `--file` 重打时把上次 save 产物（含 frontmatter+标题）原样包进新 frontmatter → 层叠；修复=新增 `_strip_existing_layers()`（循环剥 frontmatter 层+save 生成格式标题行，Truman 内容标题带后缀不匹配不误伤），重打=剥层后套新层=替换；②事件刷屏治理：`_write_l0_event` 去重签名改基于正文（剥层后 hash——重打只变 frontmatter 时间戳时签名不变，同内容重打不刷屏；正文真实变化正常留新事件）；③存量清理：全量扫描实测 **47 个多层文件**（2-30 层，远超审计 4 样本——申报范围已用户确认），保留最外层（实测时间戳证明最新层在最外，laowantong 15:31:44>15:31:05>15:30:00）+剥内层+重算 content_hash/updated_at；清单 NUL 分隔 UTF-8 + apply 后逐行复核 47/47（存在性/单层/yaml.safe_load）；agent复盘仓 path-scoped commit `a29c2d9` by huangyaoshi（该仓其他角色在制品文件未触碰）。
+
+**交付物**：
+- `kdo-tools/daily-context-save.py`（_strip_existing_layers + 事件去重签名）
+- `kdo-tools/tests/test_daily_context_save.py`（新：4 例回归）
+- 存量清理：agent复盘仓 47 文件（commit a29c2d9）+ 清理脚本 `_tmp/512_clean_multilayer.py` + 复核清单 `_tmp/512_multilayer_files.nul` / `_tmp/512_cleanup_result.json`
+- `90_control/infrastructure-inventory.md`（daily-context-save 行更新）
+
+**验证**：
+- L1：`cd kdo-tools && python -m pytest tests/ -q` → **94 passed**（新增 4 例：重打单层覆盖/三层剥层保 Truman 标题/同内容重打 1 事件/内容变化重打 2 事件）
+- L2 狗粮：laowantong 2026-08-24-hermes.md 清理后 yaml.safe_load 单层 dict 解析 ✅、session_id=laowantong-2026-08-24-hermes ✅、content_hash 在 ✅；与 git 历史版 diff 逐行核——删除行除 frontmatter 字段/标题行/空行外**零正文删除**；apply 后 47/47 复核通过
+- L3 待活体：下次复盘打回重打，文件不再堆层、事件库不再 6 分钟 8 条（同内容重打零事件）
+
+**边界**：只改重打语义与事件去重签名，自检门禁规则未动；存量清理限多层 frontmatter 文件（47 个全在 daily-context/，正常复盘未动）；content_hash/updated_at 重算=清理动作本身目的（元数据失真修复，已在用户确认的范围声明中）；agent复盘仓其他角色未提交的 in-progress 文件（技能进化日志等）未纳入 commit；#369 手改检测对清理后文件的 git_head 为历史值（最后一次 save 的 HEAD——保留未动，如欧阳锋要求可全量刷新但会制造元数据噪声）。
+
+**需要谁动作**：欧阳锋终审本单；各角色知悉——重打复盘现在=覆盖写（旧文件直接 --file 重打即可，不再堆层）；风清扬复核清理后文件 YAML 元数据与事件库 grade 对齐。
