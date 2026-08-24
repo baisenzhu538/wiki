@@ -1,9 +1,10 @@
 ---
 id: 518
 assignee: laowantong
-status: queued
-updated_at: '2026-08-24T17:40:00+00:00'
+status: in_progress
+updated_at: '2026-08-24T17:29:04.905235+00:00'
 version: v0.1
+instance: kimi-cli
 ---
 
 # #518 正文 src_unknown 存量治理（22,871 行/1,524 卡，先口径后分批，参照 #426 模式）
