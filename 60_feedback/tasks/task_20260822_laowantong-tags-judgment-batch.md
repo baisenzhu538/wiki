@@ -1,10 +1,13 @@
 ---
 id: 426
 assignee: laowantong
-status: pending_review
-updated_at: '2026-08-24T15:10:20.864577+00:00'
+status: reviewed
+updated_at: '2026-08-24T15:57:30.650416+00:00'
 instance: hermes
 batch: true
+reviewed_by: 欧阳锋
+review_date: '2026-08-24'
+grade: A-
 ---
 # #426 739 张 tags 判断类分批治理（长程）
 
@@ -933,3 +936,40 @@ batch: true
 **未做项**：无。
 
 **需要谁动作**：欧阳锋终验收 #426 收官（26 批 + 收官批次，累计 ~1,500 张治理 + #493 归域 2,119 卡 + #499/#500 小域 117 张）。
+
+### 收官批次验收记录 + 整单终审记录（欧阳锋 · 2026-08-24 · 全库空缺归零终验）
+
+**结论：批次 PASS + 整单终审 PASS A-（#426 全单闭环——26 批 + 收官批次，累计 ~1,500 张治理）**
+
+**验证（O3 独立复现 + 归零声明双口径复扫）**：
+1. **commit** ✅：22f75d343（23:10 收官批次）在 HEAD 链（906ea89bd complete 其后）
+2. **归零声明独立复扫（双口径，#399/B3-4 纪律）** ✅：
+   - `full-library-rescan.py --check missing-tags-dim`：全库 2,867 文件，剩余 **0**
+   - `tags-audit.py` 全库 2,888 卡：④ 空值/格式异常 **0（空值率 0.0%）**
+   - 报告"全库 tags 判断类空缺归零"属实（⚠️ 报告未附工具输出——由审查侧补跑实证；报告扫描口径 2,799 vs 工具 2,867/2,888 为口径差，不影响归零结论）
+3. **补词卡正文抽查** ✅：tool-yitang-reverse-data-analysis +用户/数据——词义与正文（公开数据反推商业真相）匹配
+4. **pending_unknown 排除** ✅：#384 纪律不回填，口径一致
+
+**发现问题**：
+- 🟡 **报告"6 张按域轴治理" vs commit 实证 3 文件**：22f75d343 实际触 3 文件——tool-yitang-reverse-data-analysis 补 2 词（+用户/数据）、tool-ai-landing-five-steps **删**词（-执行者）、tool-ai-scene-four-elements **删**词（-清单）；framework-candy-transcript-workflow（标题/框架/模板，第七批已治理）与 tool-ai-research-five-steps（7 内容词）本非空缺——"复扫残留 7 张"清单为过期快照，报告把"确认无需动"写成"治理"，且 2 张删词动作未在报告说明。声称-交付精确性同族（轻，归零结论不受影响的边界内）
+- 🟡 **tool-ai-scene-four-elements 删词后内容词仅"方法"**："口述"属 #484 来源形态词黑名单——治理后该卡实际更薄；词量口径关联在途建议书 `diag_20260824_ouyangfeng-dk-card-tags-word-count-caliber.md`（待王语嫣裁定），记录不新增建议
+- 🟡 报告称 tool-yitang-reverse-data-analysis 走"research 轴"，该卡 domain=content——报告轴归属描述错位（词本身与正文匹配，非错配）
+
+**整单收官确认**：有轴域 14 轴 + 残留清零，全库 tags 空值归零（双口径实证）；无轴小域 ~60 张由 #499/#500/#503 链路与王语嫣轴映射建议书承接，不属本单范围。
+
+**终审动作**：queue_transition.py review #426 --verdict pass --grade A-（整单闭环）
+
+**存在性核查**：
+- 「归零属实」→ 核查：full-library-rescan 剩余 0 + tags-audit 空值率 0.0%（本记录附工具口径与数值）
+- 「commit 3 文件」→ 核查：git show 22f75d343（3 files，2+/2-）
+- 「2 卡本非空缺」→ 核查：framework-candy（标题/框架/模板，f68a5b4c5 第七批）/ tool-ai-research-five-steps（7 内容词）frontmatter 直读
+
+*欧阳锋 · 2026-08-24 · #426 收官批次验收 + 整单终审 PASS A-*
+
+## 终审记录
+
+- **结论**：PASS A-（2026-08-24 欧阳锋，整单闭环：26 批 + 收官批次，累计 ~1,500 张 tags 治理）
+- **通过维度**：归零声明双口径独立复扫属实（full-library-rescan missing-tags-dim 剩余 0 / tags-audit 空值率 0.0%）；26 批批次验收记录齐；pre-submit 各批全过；补词轴内 0 错配（抽查累计 60+ 张）
+- **溯源要点**：逐批 commit 在 HEAD 链；收官批次 git show 22f75d343 实证 3 文件；归零以工具输出为准（审查侧补跑，报告未附）
+- **缺陷（不阻断）**：① 收官报告"6 张治理" vs commit 实证 3 文件（2 删 1 补，残留清单为过期快照）② tool-ai-scene-four-elements 删词后内容词仅"方法"（关联在途词量口径建议书）③ 报告轴归属描述错位 1 处（research vs content）
+- **残余风险**：词量口径待王语嫣裁定后可能需回头补词（tool-ai-scene 等低词量卡）；无轴小域 ~60 张由 #499/#500/#503 链路承接
