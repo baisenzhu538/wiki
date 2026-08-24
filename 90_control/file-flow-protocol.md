@@ -76,6 +76,7 @@ amends: null
 - **进入看板流程后一字不改**——「进入看板流程」= 落 `60_feedback/diagnosis/` 且被探针登记（或人工放入 PROPOSAL-PENDING 段）。
 - 探针登记 / 王语嫣裁定划行**不构成对文件的修改**——看板行在队列文件，不在建议书内。
 - 订正/增补一律另起新文件（新编号，`amends:` 引用旧件），已交文件永不回头改。
+- **建议书写后自检（老朱 2026-08-25 拍板，F-043 A7 出池）**：作者落盘建议书后**当场跑** `python kdo-tools/conveyor_probe.py` 验「新登记 N」回执——自己文件名不在回执里 = 未登记 = 未送达，当场改 frontmatter 重登（三元组：`type: proposal` / `status: pending_orchestration` / `audience: 王语嫣`，见 #506）。不靠事后捞。〔实证：08-24 四份建议书 frontmatter 漂移静默零登记〕
 
 ### 6.2 流转文件（任务单）：上板冻结
 
