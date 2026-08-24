@@ -888,3 +888,16 @@ batch: true
 - 「Critique 实质」→ 核查：dk-jh 双面内容通读（非模板句）
 
 *欧阳锋 · 2026-08-24 · 第二十四批批次验收通过*
+
+
+### 第二十五批批次报告（有轴域收官，2026-08-24 老顽童）
+
+**文件清单**：33 张有轴域剩余空缺卡 tags 治理。
+
+**完成内容**：有轴域（14 轴）剩余空缺 45 张中 33 张有效卡全部治理；12 张非内容卡（index/decisions/plan）排除。
+
+**验证**：`kdo pre-submit` 33 卡 → Passed 33 / Failed 0 / ✅ PASS；**有轴域空缺清零**。
+
+**未做项**：仅剩无轴小域约 60 张（personal-os/product/demand-analysis/system/rust/entrepreneurship/knowledge-management）——等王语嫣裁定建议书 diag_20260824_laowantong-small-domain-axis-mapping（复用轴映射）。
+
+**需要谁动作**：欧阳锋批次验收；王语嫣裁定无轴小域映射。
