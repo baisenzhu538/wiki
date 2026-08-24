@@ -9,7 +9,7 @@ updated_at: '2026-08-25'
 status: effective
 amends: file-flow-protocol
 source_task: '#505'
-approved_by: 待欧阳锋终审（规范生效以终审为准，原件 §9）
+approved_by: 欧阳锋（2026-08-25 终审 PASS A，规范生效）
 ---
 
 # 共享文件并发写三条约定（file-flow-protocol 增补件）
