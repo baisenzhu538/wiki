@@ -1,8 +1,8 @@
 ---
 id: 499
 assignee: laowantong
-status: queued
-updated_at: '2026-08-24T13:29:29.495923+00:00'
+status: in_progress
+updated_at: '2026-08-24T14:16:42.412449+00:00'
 version: v0.1
 instance: hermes
 ---
