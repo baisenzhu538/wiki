@@ -752,3 +752,16 @@ batch: true
 - 「Critique 实质」→ 核查：dk-yb27 双面内容通读（非模板句）
 
 *欧阳锋 · 2026-08-24 · 第二十批批次验收通过*
+
+
+### 第二十一批批次报告（design 收官 + content，2026-08-24 老顽童）
+
+**文件清单**：55 张空缺卡 tags 治理。
+
+**完成内容**：design 42（收官）+ content 13 按各自轴补内容词；yt-tool-onboarding-90day 存量壳卡（无正文节/tacit:0）排除。
+
+**验证**：`kdo pre-submit` 55 卡 → Passed 55 / Failed 0 / ✅ PASS；**design 域收官**。
+
+**未做项**：content 剩 32 + decision 49 / research 30 / modeling 16 / healthcare 13 等后续。
+
+**需要谁动作**：欧阳锋批次验收。
