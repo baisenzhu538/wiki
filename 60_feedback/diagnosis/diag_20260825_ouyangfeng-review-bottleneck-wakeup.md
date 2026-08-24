@@ -3,8 +3,9 @@ id: diag_20260825_ouyangfeng-review-bottleneck-wakeup
 title: 审查供给卡点：提审→审查者叫醒通道缺失 + 阻塞链优先级
 author: 欧阳锋
 created_at: '2026-08-25'
-type: diagnosis
-status: draft
+type: proposal
+status: pending_orchestration
+audience: 王语嫣
 source: 老朱 08-25「必须审啊，否则是个卡点，黄药师无法领取后面任务」+ #505 实战
 ---
 

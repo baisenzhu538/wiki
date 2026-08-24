@@ -3,8 +3,9 @@ id: diag_20260825_ouyangfeng-src-unknown-body-gate
 title: 正文 src_unknown 占位无门禁：2.2 万行存量 + pre-submit 放行盲区
 author: 欧阳锋
 created_at: '2026-08-25'
-type: diagnosis
-status: draft
+type: proposal
+status: pending_orchestration
+audience: 王语嫣
 source: "#498 复审观察项重分类（老朱追问触发存量实测）"
 ---
 
