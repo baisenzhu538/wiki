@@ -2,6 +2,7 @@
 
 id: rust-smart-pointers
 title: "Rust 智能指针：超越引用的所有权管理"
+reviewed_by: 待审
 type: concept
 status: draft
 domain:
@@ -19,6 +20,11 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 借用
+  - 引用
+  - 所有权
+  - 线程安全
+  - 智能指针
 discoverable_by:
   - Rust 智能指针：超越引用的所有权管理
   - 智能指针

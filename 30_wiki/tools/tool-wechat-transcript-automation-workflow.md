@@ -50,14 +50,16 @@ related:
   - bridge-how-to-know-person-to-business
   - '[[tool-kdo-wechat-serendipity-collect]]'
 tags:
-- audience:practitioner
-- audience:ceo
-- scene:execution
-- scene:planning
-- skill-level:intermediate
-- method:research
-- content-format:tool
-- evidence:cited
+  - audience:practitioner
+  - audience:ceo
+  - scene:execution
+  - scene:planning
+  - skill-level:intermediate
+  - method:research
+  - content-format:tool
+  - evidence:cited
+  - 知识库
+  - Agent
 quality_labels:
 - actionable
 - cited

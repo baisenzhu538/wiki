@@ -2,6 +2,7 @@
 
 id: rust-borrowing-references
 title: "Rust 借用与引用：不转移所有权的访问"
+reviewed_by: 待审
 type: concept
 status: draft
 domain:
@@ -20,6 +21,10 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 借用
+  - 引用
+  - 所有权
+  - 并发
 discoverable_by:
   - Rust 借用与引用：不转移所有权的访问
   - 借用与引用

@@ -2,6 +2,7 @@
 
 id: rust-concurrency-send-sync
 title: "Rust 并发安全：Send 与 Sync 的编译期保证"
+reviewed_by: 待审
 type: concept
 status: draft
 domain:
@@ -19,6 +20,11 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 借用
+  - 引用
+  - 所有权
+  - 并发
+  - 线程安全
 discoverable_by:
   - Rust 并发安全：Send 与 Sync 的编译期保证
   - 并发安全

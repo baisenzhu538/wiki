@@ -37,10 +37,12 @@ created_at: 2026-08-04
 updated_at: 2026-08-04
 quality_labels: cited
 tags:
-- scene:失败模式识别
-- audience:一号位
-- content-format:case
-- source-person:老朱
+  - scene:失败模式识别
+  - audience:一号位
+  - content-format:case
+  - source-person:老朱
+  - 方法
+  - 创业者
 discoverable_by:
 - 前瞻性预判时机错位
 - 老朱失败案例

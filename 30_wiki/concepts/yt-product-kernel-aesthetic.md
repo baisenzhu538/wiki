@@ -47,11 +47,12 @@ diagnostic_signals:
 - framework_lens: 产品内核与审美——审美不能替代功能
   follow_up_question: 如果产品很好看但功能不好用，用户会留存吗？
 tags:
-- audience:general
-- scene:reference
-- skill-level:advanced
-- 产品内核实操课
-- 产品内核迭代课
+  - audience:general
+  - scene:reference
+  - skill-level:advanced
+  - 五步法
+  - 框架
+  - 工具
 ---
 
 

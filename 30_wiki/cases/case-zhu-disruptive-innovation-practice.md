@@ -35,10 +35,16 @@ created_at: 2026-08-04
 updated_at: 2026-08-04
 quality_labels: cited
 tags:
-- scene:破坏性创新判断
-- audience:一号位
-- content-format:case
-- source-person:老朱
+  - scene:破坏性创新判断
+  - audience:一号位
+  - content-format:case
+  - source-person:老朱
+  - 定价
+  - 资源分配
+  - 框架
+  - 实证
+  - 创业者
+  - 口述
 discoverable_by:
 - 破坏性创新实战案例
 - 药店即时零售
