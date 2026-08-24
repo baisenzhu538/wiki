@@ -156,6 +156,17 @@ def can_claim(task_id: str, rows: list[dict] | None = None, instance: str = "") 
     earlier_pending = [r for r in pending if r["task_id"] != task_id]
 
     if earlier_pending:
+        # #504 洞B/C：pending_review 占执行者位——执行者有自己的待终审任务（不论队列前后，
+        # 角色维度与 #503 锁匹配一致）→ 审查等待期不接新单，提示等待欧阳锋终审
+        # （08-24 实证：37 分钟提审 4 单不等审查，#498 FAIL = 质量无人把关代价）。
+        # batch:true 任务的 pending_review 豁免（#492/F-050，find_blockers 已过滤）。
+        cur_role = (task.get("assignee") or "").strip()
+        own = [r for r in earlier_pending
+               if cur_role and r.get("assignee", "").strip() == cur_role]
+        if own:
+            own_ids = ", ".join(f"#{r['seq']} {r['task_id']}" for r in own)
+            return False, (f"你（{cur_role}）还有 pending_review 任务待欧阳锋终审：{own_ids}。"
+                           f"审查等待期不接新单（#504）——等终审后再领取 {task_id}")
         ids = ", ".join(f"#{r['seq']} {r['task_id']}" for r in earlier_pending)
         return False, f"队列前方还有 pending_review 任务未终审：{ids}。必须等它们 reviewed 后才能领取 {task_id}"
 

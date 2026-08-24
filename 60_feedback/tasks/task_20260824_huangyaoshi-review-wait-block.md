@@ -3,8 +3,12 @@ id: 504
 assignee: huangyaoshi
 status: in_progress
 updated_at: '2026-08-24T16:29:41.948090+00:00'
-version: v0.1
+version: v0.2
 instance: huangyaoshi
+code_files:
+  - 90_control/scripts/queue_gate.py
+  - 90_control/scripts/queue_transition.py
+  - 90_control/scripts/tests/test_queue_transition.py
 ---
 
 # #504 审查等待期阻塞（同执行者 pending_review 占位）
@@ -55,3 +59,19 @@ instance: huangyaoshi
 - **欧阳锋**：终审本单 + 后续按"审查空窗"验收
 
 ## 执行报告（F-034 五字段，complete 前必填）
+
+**完成内容**：审查等待期占位阻塞落地——①can_claim 的 pending_review 阻塞增加执行者维度识别：阻塞项中含自己（同角色，与 #503 锁匹配口径一致）的待终审任务时，消息明确"你（角色）还有 pending_review 任务待欧阳锋终审：审查等待期不接新单"（不论队列前后——洞C 的 seq 盲区在当前实现本就不按位置过滤，本单补齐的是执行者语义与提示）；②batch:true 豁免语义不变（find_blockers 既有过滤，新增同角色 batch 豁免用例钉死）；③--force 放行保留但留痕：claim --force 绕过任何阻塞时写 `90_control/force-exceptions.log`（_log_force_exception 增加 bypass 参数，默认保持 #444 F-034 原口径；无阻塞可绕时不留痕不制造噪声）。
+
+**交付物**：
+- `90_control/scripts/queue_gate.py`（can_claim pending_review 执行者维度+终审提示）
+- `90_control/scripts/queue_transition.py`（_log_force_exception bypass 参数化 + action_claim force 留痕）
+- `90_control/scripts/tests/test_queue_transition.py`（TestReviewWaitBlock 3 例 + TestForceClaimLedger 2 例）
+
+**验证**：
+- L1：`cd 90_control/scripts && python -m pytest tests/ -q` → **109 passed**（新增 5 例：自己 pending_review 阻塞含终审提示/他人 pending 保持原口径/同角色 batch 豁免/force 绕过留痕/无阻塞 force 不留痕）
+- L2 狗粮：真实队列实测——持有 #504 claimed 时尝试 claim #505，被同角色维度拦截（"你（实例 huangyaoshi / 同角色）还有 claimed 任务未释放：#504"）——同函数区 #503 修复同步活体生效
+- L3 待活体：后续提审链不再出现"等审期间接新单"；force 例外台账积累真实条目供终审查阅
+
+**边界**：只改 can_claim 阻塞语义与 claim force 留痕，未动 review/complete 流程；#492 batch 豁免语义不变；#503 写入口径与锁匹配语义不变；他人 pending_review 阻塞全队的既有口径未动（本单只补执行者维度提示，不放宽）；本次 L2 狗粮的拦截发生在门禁层，未产生队列状态变更。
+
+**需要谁动作**：欧阳锋终审本单 + 后续按"审查空窗"验收；王语嫣知悉——洞B/C 已机制化，老顽童流水线不等审查将被门禁层拦截（force 仍有但全程留痕可查）。

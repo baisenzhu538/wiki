@@ -787,3 +787,110 @@ class TestClaimedLockMatching(unittest.TestCase):
         ok, msg = qg.can_claim("task_b", rows, "hermes")
         self.assertFalse(ok)
         self.assertIn("task_a", msg)
+
+
+# ── #504 审查等待期占位阻塞回归（pending_review 占执行者位 + force 留痕）──
+
+class TestReviewWaitBlock(unittest.TestCase):
+    """#504：同执行者已有 pending_review（不论队列前后）→ 阻塞 claim 新任务；
+    batch:true 豁免（#492 语义不变）；--force 放行但留痕（例外不得无痕）。"""
+
+    def _rows(self, entries):
+        return [{"seq": str(i), "task_id": tid, "name": "n", "status": s,
+                 "assignee": a, "raw": f"| {i} | `{tid}` | n | {s} | {a} |"}
+                for i, (tid, s, a) in enumerate(entries)]
+
+    def test_own_pending_review_blocks_claim(self):
+        """场景①：自己已有 pending_review（队列后方）→ claim 前方新单被拒，提示等欧阳锋终审。"""
+        rows = self._rows([
+            ("task_new_front", "queued", "huangyaoshi"),
+            ("task_own_pending", "pending_review", "huangyaoshi"),
+        ])
+        ok, msg = qg.can_claim("task_new_front", rows, "huangyaoshi")
+        self.assertFalse(ok)
+        self.assertIn("待欧阳锋终审", msg)
+        self.assertIn("task_own_pending", msg)
+
+    def test_other_role_pending_keeps_generic_message(self):
+        """他人 pending_review 仍按原口径阻塞（队列整体等待终审），消息不冒充"自己"。"""
+        rows = self._rows([
+            ("task_other_pending", "pending_review", "laowantong"),
+            ("task_mine", "queued", "huangyaoshi"),
+        ])
+        ok, msg = qg.can_claim("task_mine", rows, "huangyaoshi")
+        self.assertFalse(ok)
+        self.assertIn("pending_review", msg)
+        self.assertNotIn("待欧阳锋终审：", msg.replace("任务待欧阳锋终审", ""))
+
+    def test_batch_pending_exempt_even_same_role(self):
+        """场景②：batch:true 任务（#426 真实单）pending_review → 同角色也不阻塞（#492 语义不变）。"""
+        rows = self._rows([
+            ("task_20260822_laowantong-tags-judgment-batch", "pending_review", "laowantong"),
+            ("task_main", "queued", "laowantong"),
+        ])
+        ok, msg = qg.can_claim("task_main", rows, "hermes")
+        self.assertTrue(ok, msg)
+
+
+class TestForceClaimLedger(unittest.TestCase):
+    """#504 场景③：claim --force 放行保留，但绕过阻塞必须写 force-exceptions.log 台账。"""
+
+    def _setup(self, rows):
+        self._tmpdir = Path(tempfile.mkdtemp())
+        self._task_fp = self._tmpdir / "task_9999_504test.md"
+        self._task_fp.write_text(
+            "---\nid: 9999\nassignee: huangyaoshi\nstatus: queued\n---\n# t\n",
+            encoding="utf-8")
+        self._queue_fp = self._tmpdir / "production-queue.md"
+        self._queue_fp.write_text("# 队列\n", encoding="utf-8")
+        self._ledger = self._tmpdir / "force-exceptions.log"
+        self._rows = rows
+        self._olds = (qt.parse_queue, qt.find_task, qt._find_task_file_dual,
+                      qt.update_queue_status, qt.QUEUE_PATH, qt.FORCE_LEDGER)
+        qt.parse_queue = lambda: self._rows
+        qt.find_task = lambda tid, rows=None: (
+            next((r for r in self._rows if r["task_id"] == tid), None))
+        qt._find_task_file_dual = lambda tid: self._task_fp
+        qt.update_queue_status = lambda tid, st: None
+        qt.QUEUE_PATH = self._queue_fp
+        qt.FORCE_LEDGER = self._ledger
+
+    def _teardown(self):
+        (qt.parse_queue, qt.find_task, qt._find_task_file_dual,
+         qt.update_queue_status, qt.QUEUE_PATH, qt.FORCE_LEDGER) = self._olds
+
+    def _mkrows(self, entries):
+        return [{"seq": str(i), "task_id": tid, "name": "n", "status": s,
+                 "assignee": a, "raw": f"| {i} | `{tid}` | n | {s} | {a} |"}
+                for i, (tid, s, a) in enumerate(entries)]
+
+    def test_force_bypass_logged(self):
+        """force 绕过 pending_review 阻塞 → 放行 + 台账留痕（绕过原因写入）。"""
+        rows = self._mkrows([
+            ("task_9999_504test", "queued", "huangyaoshi"),
+            ("task_pending", "pending_review", "huangyaoshi"),
+        ])
+        self._setup(rows)
+        try:
+            ok, msg = qt.action_claim("task_9999_504test", "huangyaoshi", force=True)
+        finally:
+            self._teardown()
+        self.assertTrue(ok, msg)
+        self.assertIn("留痕", msg)
+        line = self._ledger.read_text(encoding="utf-8")
+        self.assertIn("task_9999_504test", line)
+        self.assertIn("pending_review 阻塞", line)
+        self.assertIn("huangyaoshi", line)
+
+    def test_force_without_blocker_not_logged(self):
+        """无可绕过的阻塞时 force 不留痕（台账不制造噪声）。"""
+        rows = self._mkrows([
+            ("task_9999_504test", "queued", "huangyaoshi"),
+        ])
+        self._setup(rows)
+        try:
+            ok, msg = qt.action_claim("task_9999_504test", "huangyaoshi", force=True)
+        finally:
+            self._teardown()
+        self.assertTrue(ok, msg)
+        self.assertFalse(self._ledger.exists())

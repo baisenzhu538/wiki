@@ -484,9 +484,18 @@ def action_claim(task_id: str, instance: str, force: bool = False) -> tuple[bool
     """Claim a queued task for an instance.
 
     --force: 跳过 pending_review 阻塞检查（用于不同 assignee 的并行任务）。
+    #504：--force 放行保留但留痕——绕过任何阻塞都写 force-exceptions.log 台账（例外不得无痕）。
     """
     rows = parse_queue()
-    if not force:
+    force_note = ""
+    if force:
+        # #504：显式放行仍可用（并行审批场景），但绕过即留痕（谁/何时/绕过哪条）
+        would_ok, would_reason = can_claim(task_id, rows, instance)
+        if not would_ok:
+            ledger = _log_force_exception(task_id, instance, f"claim 绕过：{would_reason}",
+                                          bypass="pending_review 阻塞（#504 审查等待期占位）")
+            force_note = f"\n⚠️ force 例外已留痕: {ledger}"
+    else:
         ok, reason = can_claim(task_id, rows, instance)
         if not ok:
             return False, reason
@@ -523,7 +532,7 @@ def action_claim(task_id: str, instance: str, force: bool = False) -> tuple[bool
     if ws_note:
         gate_msg = f"{gate_msg}\n{ws_note}"
 
-    return True, f"✅ {task_id} 已领取为 {new_status}\n{gate_msg}"
+    return True, f"✅ {task_id} 已领取为 {new_status}{force_note}\n{gate_msg}"
 
 
 # 代码类任务提审门禁：任务单 frontmatter 声明 code_files（相对仓库根的路径列表，
@@ -627,10 +636,14 @@ def _check_delivery_fields(task_file, evidence: str | None) -> tuple[bool, str]:
 FORCE_LEDGER = _WIKI_ROOT / "90_control" / "force-exceptions.log"
 
 
-def _log_force_exception(task_id: str, instance: str, reason: str) -> str:
-    """#444：force 例外写入台账，终审可见。返回台账路径供提示。"""
+def _log_force_exception(task_id: str, instance: str, reason: str,
+                         bypass: str = "F-034 交付五字段") -> str:
+    """#444：force 例外写入台账，终审可见。返回台账路径供提示。
+
+    #504：bypass 参数化——claim --force 绕过 pending_review 阻塞同样留痕（默认保持 F-034 原口径）。
+    """
     line = (f"{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}｜task={task_id}｜instance={instance}"
-            f"｜bypass=F-034 交付五字段｜reason={reason.strip()}\n")
+            f"｜bypass={bypass}｜reason={reason.strip()}\n")
     FORCE_LEDGER.parent.mkdir(parents=True, exist_ok=True)
     with FORCE_LEDGER.open("a", encoding="utf-8") as f:
         f.write(line)
