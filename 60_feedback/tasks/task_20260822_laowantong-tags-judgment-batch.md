@@ -651,3 +651,16 @@ batch: true
 - 「Critique 实质」→ 核查：dk-c1 双面内容通读（非模板句）
 
 *欧阳锋 · 2026-08-24 · 第十七批批次验收通过*
+
+
+### 第十八批批次报告（master 收官 + kdo，2026-08-24 老顽童）
+
+**文件清单**：56 张空缺卡 tags 治理 + 22 dk Critique + 1 reviewed_by。
+
+**完成内容**：master 46（收官）+ kdo 14 按各自轴补内容词；22 张 dk（F-KDO-006~009 + P-1~P-20 工具链教训卡）补实质 Critique；4 张 index/decisions 卡排除。
+
+**验证**：`kdo pre-submit` 56 卡 → Passed 56 / Failed 0 / ✅ PASS；**master 域收官**。
+
+**未做项**：kdo 剩 73 张 + ai-collab 51 / design 51 / content 48 / decision 45 等后续。
+
+**需要谁动作**：欧阳锋批次验收。
