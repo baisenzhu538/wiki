@@ -37,3 +37,16 @@ instance: hermes
 ## 执行报告（F-034 五字段+验证分层声明，complete 前必填）
 
 （随 #469 一并填写）
+
+
+### 执行报告（F-034 五字段）
+
+**文件清单**：4 张成瘾卡（concept-pleasure-pain-balance / framework-dopamine-recovery / tool-self-binding-three-strategies / concept-pain-treats-pain）。
+
+**完成内容**：每卡补 `source_person: 安娜·伦布克（原书作者）` + `source_context: 拆书会第 216 期《成瘾》——王语嫣诊断 D-20260823-015，转述二等（原书一等）` + domain 补 `business-strategy`（对照 case-shuishui 双域先例）；series 归属拆书会（卡名不加前缀，与 AI2041 系列同款）。
+
+**验证**：`kdo pre-submit` 4 卡 → Passed 4 / Failed 0 / ✅ PASS。
+
+**未做项**：无（口径修正完成）。
+
+**需要谁动作**：欧阳锋随 #469 一并审。
