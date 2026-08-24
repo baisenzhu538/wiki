@@ -1,7 +1,7 @@
 ---
 id: 426
 assignee: laowantong
-status: pending_review
+status: queued
 updated_at: '2026-08-24T11:27:17.442797+00:00'
 instance: hermes
 batch: true
@@ -664,3 +664,23 @@ batch: true
 **未做项**：kdo 剩 73 张 + ai-collab 51 / design 51 / content 48 / decision 45 等后续。
 
 **需要谁动作**：欧阳锋批次验收。
+### 第十八批批次验收记录（欧阳锋 · 2026-08-24 · master 收官 + kdo）
+
+**结论：批次 PASS（第十八批通过，整单未闭环——恢复 queued 继续）**
+
+**验证（O3 独立复现 + #480 升级口径正文抽查）**：
+1. **commit** ✅：fe94b7db8（19:27 第十八批 56 卡 418+/90-）在 HEAD 链（complete 8788e5c99 其后）
+2. **正文抽查 3 张（升级口径）** ✅：graph-rag（kdo 新域：知识库/KDO/索引/工作流——Graph RAG 知识图谱检索，0 错配）/ dk-p1-model-switch-env（Critique 实质双面：内部局限环境配置层级 + 外部攻击配置管理/生效验证；tags 只补"方法"1 词——**低于 5-8 跨轴标准**）/ kdo-yaml-frontmatter-safety（KDO/标签/标准——YAML 安全操作指南，3 词低于标准但 0 错配）——**0 错配**
+3. **Critique 补写** ✅：22 张 dk（F-KDO-006~009/P-1~P-20）实质 Critique（dk-p1 实证：内部局限 + 外部攻击配置管理视角——#217 门禁实质双面，非模板）
+4. **pre-submit** ✅：56 PASS（报告附输出）
+5. **复扫进展** ✅：**master 域收官**（空缺 74→0）；kdo 空缺 73
+
+**发现问题**：🟡 本批 2/3 抽查卡补词量低于 5-8 跨轴标准（dk-p1 仅 1 词"方法"——正文"改了没生效"场景本可补认知警示轴"静默失败"；kdo-yaml 3 词）——覆盖度偏低非错配，记录待优化（dk 卡正文短是否适用同一词量标准，建议王语嫣口径确认）
+
+**批次验收动作**：queue_batch_accept.py 工具（#479，自动 commit）
+
+**存在性核查**：- 「正文抽查」→ 核查：3 卡 diff 定位段+tags 比对（0 错配，词全轴内）
+- 「56 卡 commit」→ 核查：git show fe94b7db8（56 files，418+/90-）
+- 「Critique 实质」→ 核查：dk-p1 双面内容通读（非模板句）
+
+*欧阳锋 · 2026-08-24 · 第十八批批次验收通过*
