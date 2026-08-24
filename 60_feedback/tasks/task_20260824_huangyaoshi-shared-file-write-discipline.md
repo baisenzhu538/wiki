@@ -1,9 +1,10 @@
 ---
 id: 505
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-24T16:00:00+00:00'
+status: in_progress
+updated_at: '2026-08-24T16:40:54.387869+00:00'
 version: v0.1
+instance: huangyaoshi
 ---
 
 # #505 共享文件并发写根治（写前核最新编号 + 落盘即 commit + message 标 instance）
