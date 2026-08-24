@@ -1,15 +1,15 @@
 ---
 id: 506
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-24T17:03:11.598369+00:00'
+status: pending_review
+updated_at: '2026-08-24T17:17:30.704182+00:00'
 version: v0.2
 instance: huangyaoshi
 code_files:
-  - kdo-tools/conveyor_probe.py
-  - kdo-tools/tests/test_conveyor_probe.py
-  - 90_control/conveyor-probes-contract.md
-  - 90_control/infrastructure-inventory.md
+- kdo-tools/conveyor_probe.py
+- kdo-tools/tests/test_conveyor_probe.py
+- 90_control/conveyor-probes-contract.md
+- 90_control/infrastructure-inventory.md
 ---
 
 # #506 建议书 frontmatter 三元组 near-miss 门禁 + 模板单点化
