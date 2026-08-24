@@ -1,10 +1,10 @@
 ---
 id: 470
 assignee: laowantong
-status: queued
-updated_at: '2026-08-24T14:57:52.269410+00:00'
+status: in_progress
+updated_at: '2026-08-24T16:28:29.817227+00:00'
 version: v1.0
-instance: hermes
+instance: kimi-cli
 ---
 # #470 #469 口径修正：按拆书会系列惯例补来源标注（编排失误修正）
 
