@@ -3,8 +3,13 @@ id: 505
 assignee: huangyaoshi
 status: in_progress
 updated_at: '2026-08-24T16:40:54.387869+00:00'
-version: v0.1
+version: v0.2
 instance: huangyaoshi
+code_files:
+  - 90_control/scripts/shared_file_guard.py
+  - 90_control/scripts/tests/test_shared_file_guard.py
+  - kdo-tools/conveyor_probe.py
+  - 90_control/file-flow-protocol-amend-shared-file-write.md
 ---
 
 # #505 共享文件并发写根治（写前核最新编号 + 落盘即 commit + message 标 instance）
@@ -47,3 +52,22 @@ instance: huangyaoshi
 
 - **黄药师**：约定固化 + stale 检测兜底
 - **欧阳锋**：终审本单
+
+## 执行报告（F-034 五字段，complete 前必填）
+
+**完成内容**：共享文件并发写根治三层落地——①约定固化：三条约定（写前核最新态/落盘即 path-scoped commit/message 标 by instance）以增补件 `90_control/file-flow-protocol-amend-shared-file-write.md` 落规范（原件 v1.0 已冻结，按 §3 增补件路径订立，含 S4 外部监督者）；②工具兜底 A：conveyor_probe 队列文件 3 个写函数（4 个写点）统一套 QueueLock（与 queue_transition 同锁名，装饰器注入零函数体改动）——消除 probe×transition read-modify-write 竞态（probe 读旧版→transition 改状态→probe 写回 = 状态被吞，E050 同族温床）；③工具兜底 B：新建 `shared_file_guard.py`（snapshot/verify，git HEAD+文件 hash 基线比对，STALE 报警退出 1，stdlib 零依赖）——编排侧/手工写共享文件的 stale 检测。评估结论：queue_transition 自身写路径已合规（QueueLock+原子读写+#390 path-scoped commit+by actor message），无需加检测；stale 风险集中在 probe 写点与手工编排两处，均已兜底。
+
+**交付物**：
+- `90_control/file-flow-protocol-amend-shared-file-write.md`（三条约定+工具落点+外部监督者，amends: file-flow-protocol）
+- `90_control/scripts/shared_file_guard.py`（新：snapshot/verify 两命令）
+- `kdo-tools/conveyor_probe.py`（3 写函数套 QueueLock，装饰器注入）
+- `90_control/scripts/tests/test_shared_file_guard.py`（新：7 例回归）
+
+**验证**：
+- L1：`cd 90_control/scripts && python -m pytest tests/ -q` → **116 passed**（新增 7 例：并发改文件→STALE/HEAD 移动→STALE/零变更→FRESH/unknown fail-open/格式错拒绝/文件被删→STALE + probe 三写函数锁行为验证）；`kdo-tools/tests/test_conveyor_probe.py` 21 passed（既有探针用例零回归）
+- L2 狗粮：本任务自身按新约定执行——commit 前 `shared_file_guard.py snapshot+verify production-queue.md` → FRESH（基线 `393e849ab|fe814990ef2705f7`）；交付 commit 走 path-scoped + message 标 by huangyaoshi；狗粮中抓到工具自身 bug 一个（GBK 控制台输出崩溃+全角分隔符被 shell 捕获层破坏 → stdout reconfigure+ASCII 分隔符修复，当场验证）
+- L3 待活体：下一次并发窗口（多实例同写队列/探针与流转同刻）不再出现行被带走/错位；probe 每 10 分钟计划任务带锁运行无死锁（QueueLock 300s 自过期兜底）
+
+**边界**：未改 git 工作流大框架（无锁服务/无强制 rebase）；queue_transition 写路径未动（评估已合规）；实例隔离（F-048）不在本单；增补件规范效力以欧阳锋终审为准（原件 §9——老朱拍板若需另行触发，已在增补件 frontmatter 标注 approved_by 待终审）；conveyor_probe 的非队列文件写点（state 文件等）不在共享文件一族，未加锁。
+
+**需要谁动作**：欧阳锋终审本单（增补件规范地位一并裁定）；王语嫣知悉三条约定（编排侧手工写队列前 snapshot/verify 可选但推荐，queue_transition 路径已全自动合规）；全员：手工写共享文件遵循 S2 三条。

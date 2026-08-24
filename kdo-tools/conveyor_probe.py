@@ -51,6 +51,23 @@ SILENT_START_HOUR, SILENT_END_HOUR = 22, 8  # 夜间静默 22:00–08:00（登�
 
 sys.path.insert(0, str(ROOT / "90_control" / "scripts"))
 from queue_gate import parse_queue  # noqa: E402   # 唯一真相源读口，探针零写路径
+from queue_lock import QueueLock  # noqa: E402   # #505：队列文件写点与 queue_transition 同锁
+
+import functools  # noqa: E402
+
+
+def _with_queue_lock(fn):
+    """#505：队列文件写函数统一套 QueueLock（与 queue_transition 同锁名 production-queue）。
+
+    消除 probe×transition read-modify-write 竞态（E050 反向变体/#488 行错位同族）：
+    probe 读到旧版 → transition 改状态 → probe 写回旧版+段改动 = 状态变更被吞。
+    装饰器注入而非改函数体：diff 最小，既有测试以函数对象调用不受影响。
+    """
+    @functools.wraps(fn)
+    def wrapper(*args, **kwargs):
+        with QueueLock("production-queue"):
+            return fn(*args, **kwargs)
+    return wrapper
 
 
 def _load_state() -> dict:
@@ -389,6 +406,13 @@ def _update_proposal_board_gate(new_lines: list[str]) -> None:
         new_text = text.rstrip() + "\n\n" + "\n".join(board) + "\n"
     QUEUE_FILE.write_text(new_text, encoding="utf-8")
     print(f"⛔ gate-blocked 登记: +{added} → PROPOSAL-PENDING")
+
+
+# #505：队列文件 4 个写点（3 个写函数）统一过 QueueLock——与 queue_transition 同锁，
+# 并发写一族的工具层兜底（约定见 90_control/file-flow-protocol-amend-shared-file-write.md）。
+_update_proposal_board = _with_queue_lock(_update_proposal_board)
+_update_proposal_board_friction = _with_queue_lock(_update_proposal_board_friction)
+_update_proposal_board_gate = _with_queue_lock(_update_proposal_board_gate)
 
 
 # ── 通知：飞书群机器人 webhook（配置驱动；缺失 → dry-run 打印）──
