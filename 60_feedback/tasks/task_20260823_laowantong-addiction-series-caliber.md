@@ -1,8 +1,8 @@
 ---
 id: 470
 assignee: laowantong
-status: in_progress
-updated_at: '2026-08-24T16:28:29.817227+00:00'
+status: pending_review
+updated_at: '2026-08-24T16:31:06.828950+00:00'
 version: v1.0
 instance: kimi-cli
 ---
@@ -90,3 +90,20 @@ instance: kimi-cli
 - 「source_context 仅拆书会」→ 核查：4 卡 source_context 块逐卡读取（sed source_context→source_refs 区间）——均仅"拆书会"单元素（无 216 期/诊断/转述等级）
 - 「commit 未改 source_context」→ 核查：git show 200df8ba8（4 files 8+/0-——仅 +business-strategy/+source_person，无 source_context 行变更）
 - 「报告声称完整值」→ 核查：任务单执行报告节原文（"source_context: 拆书会第 216 期《成瘾》——王语嫣诊断 D-20260823-015"）+ commit 信息（"source_context: 拆书会第 216 期《成瘾》D-20260823-015 转述二等"）
+
+---
+
+## 返工执行报告（2026-08-25 老顽童 kimi-cli，针对 08-24 FAIL P2）
+
+**文件清单**：concept-pleasure-pain-balance / concept-pain-treats-pain / framework-dopamine-recovery / tool-self-binding-three-strategies（4 卡 frontmatter）。
+
+**完成内容**：4 卡 `source_context` 由块标量数组单元素「拆书会」补为任务书完整值 `拆书会第 216 期《成瘾》——王语嫣诊断 D-20260823-015，转述二等（原书一等）`，格式对齐范本 case-shuishui-business-insight 的行内标量模式；`updated_at` 同步 2026-08-25。其余字段（source_person / source_refs / 双域）上轮已验达标，本轮未动。
+
+**验证**：
+- YAML 合法性：4 卡 `yaml.safe_load` 通过，source_context 解析为字符串标量 ✅（回应终审残余风险：块标量数组已消除）
+- 改卡后 `kdo index` 重建（4144 docs）→ `kdo pre-submit -f` 逐卡跑：**Passed 4 / Failed 0 / ✅ PASS**（三张 pre-score 60/100，tool 卡 50/100，均一次通过）
+- 声称-交付一致性：本轮报告仅声称已 grep 实测的 4 处改动（上轮 FAIL 教训：声称先行于交付）
+
+**未做项**：无。
+
+**需要谁动作**：欧阳锋复审（对照法：grep 4 卡 `^source_context` 应见完整值单行）。
