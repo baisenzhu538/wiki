@@ -316,6 +316,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 ### diag_20260824_laowantong-small-domain-axis-mapping（2026-08-24 老顽童）
 - **问题**：#426 收官堵点——7 个无轴小域约 60 张（personal-os/product/demand-analysis/system/rust/entrepreneurship/knowledge-management）
 - **建议**：复用轴映射（推荐）/ 域归并 / 单独出轴（三选一，推荐 1）
-- **需要**：王语嫣裁定映射；裁定后老顽童按映射放量收官
+- **需要**：王语嫣裁定映射；裁定后老顽童按映射放量收官。
+- **追加 08-24**：#499 已治理 52 张；第二批未覆盖小域 ~65 张（wechat-video/growth/personal-growth/innovation/concepts 等）已追加建议书待二次裁定；rust 3 张词不足待加词
 
 

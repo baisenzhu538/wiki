@@ -49,3 +49,32 @@ audience: 王语嫣（编排裁定）→ 欧阳锋（备案）
 - #485（15 主题域轴已出齐）
 - #426（tags 治理收官堵点）
 - #493（域归域治理——小域归并同族）
+
+---
+
+## 追加（2026-08-24 老顽童）：第二批未覆盖小域 ~65 张——待王语嫣二次裁定
+
+#499 已按首批裁定治理 52 张（7 小域 → 56→3，剩 3 rust 词不足）；**有轴域+映射小域已清零**。复扫发现**第二批未覆盖小域 65 张**（库增长/新 domain）：
+
+| 小域 | 空缺 | 候选映射 |
+|:--|:--|:--|
+| wechat-video | 5 | content（短视频/内容生产） |
+| growth | 5 | strategy（增长/五步法） |
+| personal-growth | 5 | human-insights（个人成长） |
+| innovation | 4 | strategy（创新/预判） |
+| concepts | 4 | decision-making（概念卡兜底） |
+| methodology | 4 | decision-making（方法论） |
+| business-formula | 4 | decision-making（单元模型/公式） |
+| no-domain | 3 | 待王语嫣定（domain 缺失卡） |
+| publishing | 3 | content（发布/渠道） |
+| governance | 3 | kdo（治理/流程） |
+| learning-methodology | 3 | human-insights（学习方法） |
+| infrastructure | 2 | kdo（基建） |
+| saas | 2 | ai-saas |
+| note-taking | 2 | human-insights（笔记） |
+| multimodal | 1 | ai-collaboration（多模态） |
+| 其他小域 | ~15 | 逐域映射 |
+
+**请求**：王语嫣裁定第二批映射（或确认复用第一批逻辑"小域→语义最近轴"）——裁定后 #426 全库 tags 判断类空缺**真正收官**。
+
+**附带**：3 张 rust 词不足（borrowing/concurrency/smart-pointers）仍待加词（见 #499 执行报告）。
