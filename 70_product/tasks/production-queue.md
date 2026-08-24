@@ -148,6 +148,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 520 | `task_20260825_huangyaoshi-review-wakeup-and-sla` | 审查供给端三件套：提审叫醒审查者+阻塞链🔴标记+pending_review最大年龄SLA观测 | queued | huangyaoshi | 叫醒通道+标记+指标 | #519 先行（探针同文件区） | `60_feedback/tasks/task_20260825_huangyaoshi-review-wakeup-and-sla.md` | 欧阳锋建议书R1-R3裁定采纳（#505实证：审查供给触发器=老朱发现）；R4应急通道涉审查权下放挂F-056待拍板；终审类豁免静默同#521口径；欧阳锋终审 |
 | 521 | `task_20260825_huangyaoshi-review-pass-routing` | 审查结果推送补全：PASS按assignee路由生产者（复用#443路由）+终审类信号豁免夜间静默 | queued | huangyaoshi | 路由扩展+静默分级 | #519 先行 | `60_feedback/tasks/task_20260825_huangyaoshi-review-pass-routing.md` | 欧阳锋建议书R1/R2采纳（老朱08-25指令+静默豁免已拍板）；R3(inbox必读)机制已闭环不立项；王语嫣抄送保留；欧阳锋终审 |
 | 522 | `task_20260825_huangyaoshi-complete-deliverable-commit-gate` | complete门禁增「交付物已入仓」校验：执行报告交付物git跟踪+无脏改动，未入仓即拦（豁免编排/诊断类） | queued | huangyaoshi | 门禁扩展+回归 | 无 | `60_feedback/tasks/task_20260825_huangyaoshi-complete-deliverable-commit-gate.md` | 欧阳锋建议书采纳（一晚2次实证：#470脏文件/#518清单untracked提审）；E040机器化前移；识别不出=WARNING不硬拦（红线4）；施工前读最新HEAD（§3.16）；欧阳锋终审 |
+| 523 | `task_20260825_huangyaoshi-l1-archive-hardening` | L1归档链路三项加固：CRC抽检入核验+拒删接gate-blocked通道+事故上浮全厂friction台账（#508终审观察项打包） | queued | huangyaoshi | 加固+回归+规范落文件 | 无（探针同文件区让#519先合入） | `60_feedback/tasks/task_20260825_huangyaoshi-l1-archive-hardening.md` | 欧阳锋建议书R1/R2/R3裁定采纳（#508终审PASS A观察项，不阻断）；R2复用#471通道；R3=O-15同族（事故级双记规范）；观察项2条（游标size/mirror死函数）不立项；欧阳锋终审 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
 ## ⚖️ 待终审（提审任务，queue_transition 自动登记）
@@ -374,6 +375,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~diag_20260825_ouyangfeng-review-result-push-gap.md｜08-25｜待王语嫣复核裁定（人工补登：frontmatter 合规，探针下个周期会登记——王语嫣裁定先行）~~ → 编排决策（2026-08-25 王语嫣独立判断）：**R1+R2 采纳立项 #521**（PASS 按 assignee 路由生产者+王语嫣抄送保留；终审类信号豁免夜间静默=老朱已拍板范围；依赖 #519 先行）；**R3（CLI inbox 必读纪律）不立项**——#501 机制+CAPSULE 启动读已闭环，执行纪律各角色自约束（王语嫣已纳入自身恢复口令；#498 误报实证「落盘≠被读」，纪律内化优先于再建机制）
 
 - ~~diag_20260825_ouyangfeng-complete-deliverable-commit-gate.md｜08-25｜待王语嫣复核裁定（人工补登：frontmatter 合规——探针空转修复前的窗口期，王语嫣裁定先行）~~ → 编排决策（2026-08-25 王语嫣独立判断）：**采纳立项 #522**（complete 门禁增「交付物已入仓」校验：git 跟踪+无脏改动，未入仓即拦；编排/诊断类豁免；识别不出=WARNING 不硬拦——红线 4 误拦优先）——E040「未 commit=未发生」从人审口径升级为机器兜底，与 #505 约定层互补不互替
+- ~~diag_20260825_ouyangfeng-l1-archive-hardening.md｜08-25｜待王语嫣复核裁定（人工补登：frontmatter 三元组合规，探针下个周期会登记——老朱转达后王语嫣裁定先行）~~ → 编排决策（2026-08-25 王语嫣独立判断）：**R1/R2/R3 全采纳打包立项 #523**（黄药师 P2）——R1 归档核验补 CRC 校验（testzip 代码化，人工处置时已验过）；R2 拒删事件接 gate-blocked 通道复用 #471 先例（拒删=数据安全事件＞体积超限，半夜无人知不可接受；与 #519/#520 同探针文件区，施工让 #519 先合入）；R3 #508 事故补录全厂 friction 台账+事故级双记规范落 agent-os（O-15 同族）。观察项 2 条（判重游标不比 size／mirror 死函数）**不立项**——先观察/留下个卫生批
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
