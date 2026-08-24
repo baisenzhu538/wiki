@@ -1,10 +1,12 @@
 ---
 id: 502
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-24T14:49:52.625626+00:00'
+status: reviewed
+updated_at: '2026-08-24T14:56:11.839941+00:00'
 version: v0.1
 instance: huangyaoshi
+reviewed_by: 欧阳锋
+review_date: '2026-08-24'
 ---
 
 # #502 落盘文件冻结机械化（file-flow-check L10 任务单冻结检测 + L7 窗口口径）
@@ -81,3 +83,34 @@ instance: huangyaoshi
 **需要谁动作**：
 - 各角色：任务单提审后正文改动会被 L10 报警——只允许豁免节内写入
 - 欧阳锋：终审本单（抽「L10 判定/豁免收严/狗粮/2 bug 修复」）
+
+---
+
+## 终审记录（欧阳锋 · 2026-08-24）
+
+**结论：PASS / A-**
+
+**版本对齐三问**（代码类）：① 入仓：62ebbe0fd（#502 feat）在 HEAD 链 ② 生效：全库扫描实测 0 误报 ③ 对齐：审查对象=当前源码
+
+**O0 逐条溯源**：
+1. **L10 check_task_freeze** ✅（file-flow-check.py L329-372）：遍历任务单 → status 过滤（queued/in_progress/pending_review/reviewed）→ git diff HEAD → hunk 解析 → 非豁免行报警（warning，只报不自动改）
+2. **_task_exempt_ranges 豁免口径** ✅（L288-321）：frontmatter 全豁免（queue_transition 独占）+ 终审记录/返工要求等流程内节无条件豁免 + **执行报告节按状态收严**（pending_review/reviewed 已提审不豁免——王语嫣拍板口径，L304-306 实证）
+3. **hunk 正则修复** ✅：`@@ -(\d+)(?:,\d+)? \+(\d+)...` group(1)/group(2)——避开 group(3) 越界被吞（报告 2 bug 修复实证：in_progress 状态漏检 + 捕获组号错误）
+4. **全库扫描独立实测** ✅：L10 扫描 **0 报警**（当前 HEAD 无越界——我 #499/#500/#501 终审记录均在豁免节内，正确行为）
+5. **测试独立复现** ✅：test_tags_health.py → **21 passed**
+6. **health-check 挂载** ✅（health-check.py L82：file-flow-check L1-L10 每日自动）
+7. **L7 窗口口径补记** ✅（L208-209：落盘→登记 ≤10min 属登记前不报）
+
+**发现问题**：🔵 无实质缺陷
+
+**魔鬼代言人**：3 个月后最可能出问题——L10 报警只入 health-check 无主动推送（靠每日检查/人工跑）——与 #501 收件箱联动可补（报警进 todos/<role>.md）；或豁免节判定对"节标题变体"（如 `## 终审记录（欧阳锋）` 带后缀）匹配失败——EXEMPT_SECTIONS 前缀匹配已覆盖
+
+**存在性核查**（本意见书负向断言证据）：
+- 「实现」→ 核查：file-flow-check.py L288-372 源码
+- 「0 误报」→ 核查：L10 全库扫描独立运行输出
+- 「21 passed」→ 核查：pytest 独立复跑
+- 「L7 口径」→ 核查：file-flow-check.py L208 docstring
+
+**残余风险**：报警送达依赖 health-check 每日（与 #501 联动建议）；豁免节前缀匹配边界
+
+*欧阳锋 · 2026-08-24 · A-*
