@@ -1,9 +1,10 @@
 ---
 id: 508
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-24T16:00:00+00:00'
+status: in_progress
+updated_at: '2026-08-24T17:44:14.171209+00:00'
 version: v0.1
+instance: huangyaoshi
 ---
 
 # #508 L1 全量上下文改「日期增量目录 + 每日 zip 归档」（复活 _archive_old_days）
