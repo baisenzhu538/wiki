@@ -1,8 +1,8 @@
 ---
 id: 496
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-24T14:16:04.647409+00:00'
+status: pending_review
+updated_at: '2026-08-24T14:30:15.403402+00:00'
 version: v0.1
 instance: huangyaoshi
 ---
@@ -52,4 +52,21 @@ pre-submit/质量门禁对 `source_refs: null` 判 FAIL——但 #426 第十六�
 - **王语嫣**：编排验收时机（#495 批次提审时验证 L2）
 - **欧阳锋**：终审本单
 
-## 执行报告（F-034 五字段，complete 前必填）
+## 执行报告（2026-08-24 黄药师）
+
+**完成内容**：pre-submit source_refs 判定升级——判 FAIL 前先查正文「来源与口径」段（字段空≠来源无，#426 十六批实证根治）。
+
+**交付物**（改动文件清单）：
+1. `Knowledge Delivery OS 0.0.1/kdo/workspace.py`：硬门禁改——内容卡 source_refs 空时先 `_body_has_source_section`（「来源与口径」节含文件引用 .txt/.md/.pdf 或行号引用 :N-M）→ 有则降 warning（"建议迁移 frontmatter"），两处皆空才 error（FAIL）
+2. KDO 仓库 commit（跨仓，随本单）
+
+**验证**（命令+输出）：
+- L1 判定正反例：关键假设正文 True / 无来源段 False / 来源段空 False
+- L2 回归：`test_workspace.py` **47 passed**（修复过程：helper 首插位置顶格截断 lint_workspace 函数体→返回 None→移模块级后恢复）；KDO 全量 **567 passed**（唯一失败=test_end_to_end_smoke KeyError **已知历史失败**，与本次无关）
+- L3 待活体：#495 补字段批次提审不再被 source_refs null 机械拦；#426 后续批次 0 张因 source_refs null 排除
+
+**未做项**：
+- 不判"正文来源段质量"（终审职责，任务书边界）；不改卡规范 §4
+
+**需要谁动作**：
+- 欧阳锋：终审本单（抽「正文来源段判定/回归对比/已知历史失败确认」）
