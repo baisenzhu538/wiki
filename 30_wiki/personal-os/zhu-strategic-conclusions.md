@@ -9,9 +9,16 @@ reviewed_by: pending
 domain:
 - personal-os
 tags:
-- audience:manager
-- scene:reference
-- skill-level:advanced
+  - audience:manager
+  - scene:reference
+  - skill-level:advanced
+  - 五步法
+  - 优先级
+  - 机制
+  - 框架
+  - 工具
+  - 方法
+  - 复盘
 discoverable_by:
 - 战略结论
 - 老朱决策

@@ -35,9 +35,16 @@ diagnostic_signals:
   - 41 条 pitfalls 是后知后觉的积累，尚未转化为 Agent 自主进化引擎
 quality_labels: cited
 tags:
-- audience:manager
-- scene:reference
-- skill-level:advanced
+  - audience:manager
+  - scene:reference
+  - skill-level:advanced
+  - KDO
+  - Agent
+  - 门禁
+  - 框架
+  - 工具
+  - 流程
+  - 边界
 discoverable_by:
 - 闪电模型
 - Agent进化

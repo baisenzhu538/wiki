@@ -33,9 +33,16 @@ discoverable_by:
   - 大航海项目路演
   - 主题综合索引卡
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 企业
+  - 渠道
+  - 组织
+  - 机制
+  - 框架
+  - 工具
+  - 方法
 created_at: '2026-06-14'
 updated_at: '2026-06-28'
 author: 老顽童

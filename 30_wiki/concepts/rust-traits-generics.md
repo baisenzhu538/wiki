@@ -2,6 +2,7 @@
 
 id: rust-traits-generics
 title: "Rust Trait 与泛型：零成本抽象的接口设计"
+reviewed_by: 待审
 type: concept
 status: draft
 domain:
@@ -19,6 +20,8 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 机制
+  - 方法
 discoverable_by:
   - Rust Trait 与泛型：零成本抽象的接口设计
   - 与泛型

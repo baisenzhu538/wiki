@@ -31,6 +31,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 优先级
+  - 转型
+  - 框架
+  - 工具
+  - 方法
+  - 边界
+  - 模型
 ---
 # 产品内核：不要过早细化未经思考的内核
 

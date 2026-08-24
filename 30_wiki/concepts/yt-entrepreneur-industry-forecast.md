@@ -3,6 +3,7 @@ domain:
 - entrepreneurship
 id: yt-entrepreneur-industry-forecast
 title: 商业预判15字诀
+reviewed_by: 待审
 confidence: 0.85
 created_at: 2026-05-06
 updated_at: '2026-08-20'
@@ -29,9 +30,16 @@ source_refs:
 discoverable_by:
 - 商业预判15字诀
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 商业模式
+  - 单元模型
+  - 行业
+  - 框架
+  - 工具
+  - 方法
+  - 模型
 type: concept
 status: draft
 related:

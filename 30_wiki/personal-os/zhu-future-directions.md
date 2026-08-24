@@ -1,6 +1,7 @@
 ---
 id: zhu-future-directions
 title: 老朱未来10年方向清单
+reviewed_by: 待审
 type: system
 status: enriched
 created_at: 2026-07-19
@@ -14,9 +15,15 @@ related:
 - '[[user-insight-profile]]'
 - '[[agent-spec-zhu-ai-coach]]'
 tags:
-- audience:manager
-- scene:reference
-- skill-level:intermediate
+  - audience:manager
+  - scene:reference
+  - skill-level:intermediate
+  - 优先级
+  - 风险
+  - 框架
+  - 工具
+  - 方法
+  - 清单
 discoverable_by:
 - 未来方向
 - 老朱规划

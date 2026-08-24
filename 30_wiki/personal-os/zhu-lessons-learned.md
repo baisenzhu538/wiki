@@ -18,9 +18,12 @@ related:
 - '[[zhu-future-directions]]'
 - '[[zhu-weekly-reflections]]'
 tags:
-- audience:manager
-- scene:reference
-- skill-level:intermediate
+  - audience:manager
+  - scene:reference
+  - skill-level:intermediate
+  - 定价
+  - 方法
+  - 反例
 discoverable_by:
 - 经验教训
 - 老朱复盘

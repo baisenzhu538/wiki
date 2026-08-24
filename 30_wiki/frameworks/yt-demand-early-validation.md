@@ -47,6 +47,10 @@ tags:
   - audience:ceo
   - scene:diagnosis
   - skill-level:intermediate
+  - 五步法
+  - 框架
+  - 方法
+  - 数据
 discoverable_by:
 - 需求早期验证
 - 需求假设测试

@@ -2,6 +2,7 @@
 
 id: rust-domain-overview
 title: "Rust 编程语言：零成本抽象与内存安全的系统编程"
+reviewed_by: 待审
 type: framework
 status: draft
 domain:
@@ -19,6 +20,8 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 机制
+  - 工具
 discoverable_by:
   - Rust 编程语言：零成本抽象与内存安全的系统编程
   - 编程语言

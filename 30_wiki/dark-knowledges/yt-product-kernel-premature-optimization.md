@@ -53,9 +53,14 @@ diagnostic_signals:
   framework_lens: 过早细化——在错误的时间关注错误的事情
   follow_up_question: 核心流程是否已验证？如果核心流程不成立，UI细节还有意义吗？
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 五步法
+  - 方法
+  - 数据
+  - 场景
+  - 迭代
 ---
 
 
@@ -125,6 +130,11 @@ tags:
 2. **验证优先**：P0验证核心假设，P1开发MVP，P2优化核心功能，P3完善细节
 3. **成本意识**：识别过早细化的四种成本：时间、资金、机会、士气
 4. **根源修复**：系统化的过早细化根源识别和修复方法
+
+## Critique
+
+- **内部局限**：过早优化（premature optimization）的警示依赖"过早"的判定——过早 vs 及时边界模糊（优化时机判断依赖业务阶段）；"不过早优化"可能变成"永远不优化"（借口）。
+- **外部攻击（工程视角）**：过早优化是工程经典反模式（Knuth："过早优化是万恶之源"）——但"正确优化"与"过早优化"的区分是"证据"（有数据支撑的优化不算过早）；产品内核阶段的优化应"数据驱动"（用户量/留存达到阈值再优化）；"不过早优化"不应成为"不做性能设计"的借口（架构层面要有前瞻性）。
 
 ## 与其他知识的关联
 

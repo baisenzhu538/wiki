@@ -32,9 +32,12 @@ related:
 created_at: 2026-05-06
 updated_at: '2026-07-03'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 行业
+  - 方法
+  - 模型
 ---
 > 📝 **本卡内容将被 `framework-yitang-jiefang-sixiang` 重写升级。** 当前内容仍保留供参考，但建议优先使用 [[yt-decision-y-model]] 和 [[tool-yitang-Y-model-application]]。
 

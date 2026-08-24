@@ -50,9 +50,14 @@ diagnostic_signals:
   framework_lens: 需求蔓延——只加不减，产品臃肿
   follow_up_question: 过去6个月，你们砍掉了哪些功能？为什么？
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 五步法
+  - 取舍
+  - 优先级
+  - 方法
+  - 场景
 ---
 
 
@@ -157,6 +162,11 @@ MVP（Minimum Viable Product）的 M 是 Minimum：
 | **功能竞赛** | 功能比竞品多 | 聚焦核心功能，做到10倍好 |
 | **只加不减** | 从未砍掉功能 | 定期做需求减法测试 |
 | **核心未验证就扩展** | 核心需求还没验证，就加新功能 | 先验证核心，再扩展 |
+
+## Critique
+
+- **内部局限**：需求范围蔓延（scope creep）的警示依赖范围定义——范围定义过死会扼杀有效需求演化（早期需求本就不清晰）；"蔓延"与"迭代"的边界模糊（加了需求算蔓延还是算迭代？）。
+- **外部攻击（敏捷视角）**：范围蔓延在敏捷语境是"需求优先级问题"——每次新增需求应"排优先级"而非"全盘接受"；蔓延的根源是"缺乏变更控制"（没有流程判断新增需求的价值）；"范围蔓延" vs "需求学习"的区分标准是"是否经过价值评估"（评估过的新需求是学习，没评估的是蔓延）。
 
 ## 与其他知识的关联
 

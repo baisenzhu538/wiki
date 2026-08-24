@@ -2,6 +2,7 @@
 id: yt-demand-analysis-hiking-map
 updated_at: '2026-08-20'
 title: 需求分析爬山地图
+reviewed_by: 待审
 discoverable_by:
 - 需求分析爬山地图
 related:
@@ -22,9 +23,15 @@ aliases:
 source_refs:
   - src_unknown
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 五步法
+  - 取舍
+  - 优先级
+  - 需求分析
+  - 方法
+  - 场景
 type: concept
 status: draft
 domain: demand-analysis

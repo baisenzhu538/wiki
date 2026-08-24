@@ -35,6 +35,11 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 机制
+  - 复盘
+  - 口述
+  - 场景
+  - 迭代
 ---
 # 泛产品组织设计：把团队当成产品来打磨
 

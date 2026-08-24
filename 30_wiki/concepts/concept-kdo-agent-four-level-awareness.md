@@ -45,9 +45,16 @@ diagnostic_signals:
 - 新 Agent 上线仍需「边踩坑边补 context」
 quality_labels: cited
 tags:
-- audience:general
-- scene:reference
-- skill-level:advanced
+  - audience:general
+  - scene:reference
+  - skill-level:advanced
+  - KDO
+  - Agent
+  - 机制
+  - 框架
+  - 工具
+  - 流程
+  - 踩坑
 ---
 
 ## 核心主张

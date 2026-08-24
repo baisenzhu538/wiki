@@ -29,9 +29,16 @@ source_refs:
 discoverable_by:
 - 业务增长
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 商业模式
+  - 单元模型
+  - 渠道
+  - 框架
+  - 工具
+  - 方法
+  - 模型
 type: concept
 status: draft
 related:

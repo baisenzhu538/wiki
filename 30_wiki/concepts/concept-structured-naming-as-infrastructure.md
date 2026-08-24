@@ -54,9 +54,16 @@ diagnostic_signals:
   follow_up: 逐字稿L698-704
 quality_labels: cited
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 知识库
+  - KDO
+  - 索引
+  - 卡片
+  - 源文件
+  - 方法
+  - 标准
 ---
 
 > **定位**：属于 system 域·KDO 基础设施。核心洞察来自于陆 Live83 分享与月白设计域八要素命名法的独立共振——命名不是为了整洁，是为了使人和 AI 都能「扫读文件夹、批量操作、无需逐文件打开」。

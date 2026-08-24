@@ -41,6 +41,11 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 框架
+  - 工具
+  - 方法
+  - 复盘
+  - 口述
 query_triggers: null
 ---
 # AI产品开发·审美与体系的分工

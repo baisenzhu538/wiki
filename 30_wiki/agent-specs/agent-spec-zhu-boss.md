@@ -26,8 +26,13 @@ related:
 - agent-spec-huangyaoshi-builder
 - agent-spec-fengqingyang-observer
 tags:
-- audience:manager
-- scene:governance
+  - audience:manager
+  - scene:governance
+  - 优先级
+  - 拍板
+  - 工具
+  - 边界
+  - 口述
 ---
 
 # 老朱 Boss — KDO 老板·纠偏者·宪法来源（岗位说明书 v1.0）

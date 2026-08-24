@@ -47,6 +47,11 @@ tags:
   - audience:ceo
   - scene:diagnosis
   - skill-level:intermediate
+  - 五步法
+  - 需求分析
+  - 框架
+  - 口述
+  - 场景
 discoverable_by:
 - 场景重建
 - 用户场景还原

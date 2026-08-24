@@ -1,6 +1,7 @@
 ---
 id: zhu-weekly-reflections
 title: 老朱周度思考汇编
+reviewed_by: 待审
 type: system
 status: enriched
 created_at: 2026-07-19
@@ -13,9 +14,12 @@ related:
 - '[[zhu-network-resources]]'
 - '[[zhu-project-board]]'
 tags:
-- audience:manager
-- scene:reference
-- skill-level:beginner
+  - audience:manager
+  - scene:reference
+  - skill-level:beginner
+  - 定价
+  - 风险
+  - 复盘
 discoverable_by:
 - 周复盘
 - 老朱周记

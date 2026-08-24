@@ -1,6 +1,7 @@
 ---
 id: zhu-time-os
 title: "老朱个人时间操作系统"
+reviewed_by: 待审
 type: system
 status: draft
 created_at: 2026-07-01
@@ -26,9 +27,11 @@ related:
   - '[[tool-agent-spec-yitang-value-proposition]]'
   - '[[tool-opc-sales-dialogue-assistant]]'
 tags:
-- audience:manager
-- scene:howto
-- skill-level:intermediate
+  - audience:manager
+  - scene:howto
+  - skill-level:intermediate
+  - 工具
+  - 复盘
 discoverable_by:
 - 时间OS
 - 个人时间管理

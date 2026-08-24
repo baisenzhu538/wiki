@@ -1,6 +1,7 @@
 ---
 id: zhu-domain-index
 title: 老朱个人域索引
+reviewed_by: 待审
 type: system
 status: enriched
 created_at: 2026-07-01 17:19:35+00:00
@@ -8,9 +9,13 @@ updated_at: 2026-07-19 02:15:00+00:00
 domain:
 - personal-os
 tags:
-- audience:manager
-- scene:reference
-- skill-level:beginner
+  - audience:manager
+  - scene:reference
+  - skill-level:beginner
+  - 框架
+  - 方法
+  - 边界
+  - 复盘
 discoverable_by:
 - 老朱域索引
 - 个人知识体系

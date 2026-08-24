@@ -1,6 +1,7 @@
 ---
 id: wangyuyan-working-protocols
 title: 王语嫣工作协议集
+reviewed_by: 待审
 type: system
 status: enriched
 created_at: 2026-07-12 01:40:00+00:00
@@ -8,9 +9,14 @@ updated_at: 2026-08-22
 domain:
 - personal-os
 tags:
-- audience:manager
-- scene:reference
-- skill-level:intermediate
+  - audience:manager
+  - scene:reference
+  - skill-level:intermediate
+  - 优先级
+  - 边界
+  - 清单
+  - 复盘
+  - 口述
 discoverable_by:
 - 王语嫣协议
 - 工作规范

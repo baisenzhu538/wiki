@@ -27,9 +27,13 @@ discoverable_by:
   - 设备运营、方向取舍与产品开发
   - 主题综合索引卡
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 取舍
+  - 机制
+  - 框架
+  - 场景
 created_at: '2026-06-14'
 quality_labels:
 - cited

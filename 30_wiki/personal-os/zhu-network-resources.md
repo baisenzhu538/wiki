@@ -1,6 +1,7 @@
 ---
 id: zhu-network-resources
 title: 老朱关键关系与资源档案
+reviewed_by: 待审
 type: system
 status: enriched
 created_at: 2026-07-19
@@ -14,9 +15,10 @@ related:
 - '[[zhu-lessons-learned]]'
 - '[[zhu-weekly-reflections]]'
 tags:
-- audience:manager
-- scene:reference
-- skill-level:beginner
+  - audience:manager
+  - scene:reference
+  - skill-level:beginner
+  - 风险
 discoverable_by:
 - 网络资源
 - 学习资源

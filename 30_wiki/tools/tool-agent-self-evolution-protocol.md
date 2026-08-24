@@ -42,9 +42,16 @@ diagnostic_signals:
 - Agent 改进完全依赖人类推动
 quality_labels: cited
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - Agent
+  - 框架
+  - 工具
+  - 流程
+  - 协议
+  - 标准
+  - 用户
 ---
 
 ## 核心主张

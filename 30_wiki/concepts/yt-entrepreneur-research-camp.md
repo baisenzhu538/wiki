@@ -37,6 +37,10 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 行业
+  - 工具
+  - 方法
+  - 口述
 type: concept
 status: draft
 related:

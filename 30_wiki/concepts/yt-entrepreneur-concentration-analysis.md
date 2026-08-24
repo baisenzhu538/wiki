@@ -30,9 +30,16 @@ source_refs:
 discoverable_by:
 - 集中度分析
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 颠覆式创新
+  - 行业
+  - 市场
+  - 框架
+  - 工具
+  - 方法
+  - 边界
 type: concept
 status: draft
 ---

@@ -3,6 +3,7 @@ domain:
 - entrepreneurship
 id: yt-entrepreneur-product-core
 title: 产品内核定义、迭代与验证方法论
+reviewed_by: 待审
 confidence: 0.85
 created_at: 2026-05-06
 updated_at: '2026-08-20'
@@ -34,9 +35,16 @@ source_refs:
 discoverable_by:
 - 产品内核定义、迭代与验证方法论
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 商业模式
+  - 单元模型
+  - 市场
+  - 工具
+  - 方法
+  - 模型
+  - 创业者
 type: concept
 status: draft
 related:

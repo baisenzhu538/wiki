@@ -16,10 +16,15 @@ source_refs:
 created_at: 2026-08-06
 updated_at: 2026-08-06
 tags:
-- audience:laowantong
-- audience:ouyangfeng
-- scene:reference
-- skill-level:intermediate
+  - audience:laowantong
+  - audience:ouyangfeng
+  - scene:reference
+  - skill-level:intermediate
+  - 方法
+  - 边界
+  - 用户
+  - 实操
+  - 迭代
 aliases:
 - product MOC
 - 产品索引

@@ -30,9 +30,10 @@ related:
 - '[[tool-skill-packaging-eight-steps]]'
 - '[[workflow-kdo-agent-production-pipeline]]'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:advanced
+  - audience:executor
+  - scene:execution
+  - skill-level:advanced
+  - 教练
 discoverable_by:
 - AI学习教练
 - 刻意练习陪跑

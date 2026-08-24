@@ -17,9 +17,16 @@ source_refs:
 created_at: 2026-08-08
 updated_at: 2026-08-08
 tags:
-- audience:huangyaoshi
-- scene:reference
-- skill-level:intermediate
+  - audience:huangyaoshi
+  - scene:reference
+  - skill-level:intermediate
+  - KDO
+  - Agent
+  - 卡片
+  - 工具
+  - 方法
+  - 协议
+  - 口述
 aliases:
 - AI基本功域
 - ai-basic

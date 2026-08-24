@@ -1,6 +1,7 @@
 ---
 id: zhu-feedback-patterns
 title: 老朱反馈模式库
+reviewed_by: 待审
 type: system
 status: enriched
 created_at: 2026-07-01 17:19:35+00:00
@@ -8,9 +9,16 @@ updated_at: 2026-07-19
 domain:
 - personal-os
 tags:
-- audience:manager
-- scene:reference
-- skill-level:intermediate
+  - audience:manager
+  - scene:reference
+  - skill-level:intermediate
+  - 取舍
+  - 优先级
+  - 拍板
+  - 方法
+  - 边界
+  - 复盘
+  - 口述
 discoverable_by:
 - 反馈模式
 - 学习反馈

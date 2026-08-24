@@ -45,9 +45,16 @@ diagnostic_signals:
   follow_up: 用Markdown+文件而非平台锁定
 quality_labels: cited
 tags:
-- audience:general
-- scene:diagnosis
-- skill-level:intermediate
+  - audience:general
+  - scene:diagnosis
+  - skill-level:intermediate
+  - KDO
+  - 工具
+  - 标准
+  - 口述
+  - Live
+  - 上下文
+  - 提示词
 ---
 
 > **定位**：属于 system 域·KDO 基础设施。来自于陆 Live83「探索AI协作新范式」——一堂内部三阶段 AI 协作实践经验。核心洞察：**YAI是长出来的不是设计出来的、聊天≠长期记忆工具、人外包的是维护不是判断**。

@@ -2,6 +2,7 @@
 
 id: rust-lifetimes
 title: "Rust 生命周期：引用有效性的编译期保证"
+reviewed_by: 待审
 type: concept
 status: draft
 domain:
@@ -19,6 +20,7 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 机制
 discoverable_by:
   - Rust 生命周期：引用有效性的编译期保证
   - 生命周期

@@ -2,6 +2,7 @@
 
 id: rust-error-handling
 title: "Rust 错误处理：Result、? 与分层策略"
+reviewed_by: 待审
 type: concept
 status: draft
 domain:
@@ -19,6 +20,7 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 上下文
 discoverable_by:
   - Rust 错误处理：Result、? 与分层策略
   - 错误处理

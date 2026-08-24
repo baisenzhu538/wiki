@@ -54,9 +54,14 @@ diagnostic_signals:
   framework_lens: 静态假设——市场是会变化的
   follow_up_question: 这个市场过去3年的增长率是多少？未来3年预计有多少新进入者？
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 五步法
+  - 定价
+  - 投资
+  - 方法
+  - 场景
 ---
 
 
@@ -172,6 +177,11 @@ tags:
 | **假设过于乐观** | 所有假设都取上限 | 用历史数据验证假设合理性 |
 | **忽视时间维度** | 假设市场静态 | 考虑增长率、竞争、技术替代 |
 | **TAM当融资依据** | 用TAM说服投资人 | 用SOM证明短期可行性，TAM证明长期空间 |
+
+## Critique
+
+- **内部局限**：市场规模测算陷阱（top-down/bottom-up 口径混用）依赖口径选择——口径选择错误导致量级误判（TAM/SAM/SOM 混淆）；市场规模是"估算"非"精确值"（区间思维优于单点）。
+- **外部攻击（投资视角）**：市场规模测算的陷阱还包括"可达市场 vs 目标市场"（可服务性过滤）——VC 常用 TAM 叙事（讲大故事），运营用 SAM/SOM（算实际盘）；测算陷阱的根治是"明确口径+敏感性分析"（假设变化对结果的影响）；市场规模本身不是机会证明（大市场也有红海）。
 
 ## 与其他知识的关联
 

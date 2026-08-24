@@ -9,9 +9,15 @@ reviewed_by: pending
 domain:
 - personal-os
 tags:
-- audience:manager
-- scene:reference
-- skill-level:beginner
+  - audience:manager
+  - scene:reference
+  - skill-level:beginner
+  - 五步法
+  - 取舍
+  - 机制
+  - 框架
+  - 方法
+  - 清单
 discoverable_by:
 - 项目看板
 - 老朱项目

@@ -48,6 +48,13 @@ tags:
   - audience:ceo
   - scene:diagnosis
   - skill-level:advanced
+  - 五步法
+  - 投资
+  - 风险
+  - 需求分析
+  - 框架
+  - 方法
+  - 决策者
 discoverable_by:
 - 需求决策链
 - 需求分析链路
