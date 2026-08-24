@@ -69,7 +69,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 
 
 
-| 426 | `task_20260822_laowantong-tags-judgment-batch` | 739 张 tags 判断类分批治理（P2 长程，老朱 08-20 拍板+08-22 二拍维持）：词表设计先行+按域分批 | pending_review | laowantong | 词表+分批治理 | 无 | `60_feedback/tasks/task_20260822_laowantong-tags-judgment-batch.md` | 词表未出不动手；首批=试点批；归零声明附 #399 工具输出；欧阳锋批次验收（#411 模式）；风清扬审计待修③收口；**08-23 挂起解除**（半肥猫素材到位→三方法诊断→词表 v0.3 正式稿（90_control/tags-vocab-design.md）老朱确认；词表设计节=该文件；试点批=决策域 50 张，排 #465 后领取） |
+| 426 | `task_20260822_laowantong-tags-judgment-batch` | 739 张 tags 判断类分批治理（P2 长程，老朱 08-20 拍板+08-22 二拍维持）：词表设计先行+按域分批 | queued | laowantong | 词表+分批治理 | 无 | `60_feedback/tasks/task_20260822_laowantong-tags-judgment-batch.md` | 词表未出不动手；首批=试点批；归零声明附 #399 工具输出；欧阳锋批次验收（#411 模式）；风清扬审计待修③收口；**08-23 挂起解除**（半肥猫素材到位→三方法诊断→词表 v0.3 正式稿（90_control/tags-vocab-design.md）老朱确认；词表设计节=该文件；试点批=决策域 50 张，排 #465 后领取） |
 
 | 445 | `task_20260823_huangyaoshi-oneclick-agent-launcher` | KDO 一键启动脚本（P2，冷启动三件套 A 项）：右键启动+角色菜单，三步入会话 | reviewed | huangyaoshi | 启动脚本+狗粮 | 风清扬建议书裁定（B/C 归 #419 追加+王语嫣自办） | `60_feedback/tasks/task_20260823_huangyaoshi-oneclick-agent-launcher.md` | L3 活体=老朱亲手三步启动确认；飞书角色不进菜单；交付五字段+验证分层声明；欧阳锋终审 |
 | 446 | `task_20260823_laowantong-role-special-huangyaoshi` | 角色专场第三场：黄药师岗位说明书定稿（P1，F-028 第三场） | reviewed | laowantong | 五要素 spec 升级 | 素材已齐（验证分层/词表三层/四铁律注入） | `60_feedback/tasks/task_20260823_laowantong-role-special-huangyaoshi.md` | 必含基建单一实例(#222/#223)/验证三验(跑了≠真了)/词表三层/只拦机械项；狗粮=本单 complete 零 force；欧阳锋终审、老朱终稿后并入 §2.6.4 |
@@ -196,7 +196,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#426 task_20260822_laowantong-tags-judgment-batch｜laowantong｜提审 08-24 20:03｜60_feedback/tasks/task_20260822_laowantong-tags-judgment-batch.md~~ → 批次验收（A）（2026-08-24）
 - ~~#426 task_20260822_laowantong-tags-judgment-batch｜laowantong｜提审 08-24 20:22｜60_feedback/tasks/task_20260822_laowantong-tags-judgment-batch.md~~ → 批次验收（A）（2026-08-24）
 - ~~#426 task_20260822_laowantong-tags-judgment-batch｜laowantong｜提审 08-24 20:34｜60_feedback/tasks/task_20260822_laowantong-tags-judgment-batch.md~~ → 批次验收（A）（2026-08-24）
-- #426 task_20260822_laowantong-tags-judgment-batch｜laowantong｜提审 08-24 20:48｜60_feedback/tasks/task_20260822_laowantong-tags-judgment-batch.md
+- ~~#426 task_20260822_laowantong-tags-judgment-batch｜laowantong｜提审 08-24 20:48｜60_feedback/tasks/task_20260822_laowantong-tags-judgment-batch.md~~ → 批次验收（A）（2026-08-24）
 
 <!-- REVIEW-PENDING-END -->
 
@@ -292,6 +292,8 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~[gate-blocked] task_20260824_huangyaoshi-l1-volume-mirror-governance｜08-24 02:13｜待王语嫣复核处置｜2026-08-24 02:08:37｜task_20260824_huangyaoshi-l1-volume-mirror-governance｜F-034-五字段｜执行报告缺 5 个字段（#429 F-034）：改动文件清单、完成内容一句话、验证命令+输出、未做项/边界、需要谁动作。请补全后重试，或 --force --reason '<理由>' 声明例外（#4｜huangyaoshi~~ → 已处置关闭（#491 补五字段后重提，欧阳锋终审 PASS A-——历史拦截记录）
 - ~~diag_20260824_ouyangfeng-source-refs-null-gate-misfire.md｜08-24 18:55｜待王语嫣复核裁定~~ → 编排决策（2026-08-24 王语嫣）：**采纳 A+B+C 组合**——A 存量 332 张 null 补字段立项 **#495**（老顽童，#493 归域模式：扫描清单→批量→抽验；无来源卡不编造标记待复核）；B 门禁升级立项 **#496**（黄药师，判 FAIL 前先查正文「来源与口径」段，两处皆空才 FAIL）；C 同族 null（related/quality_labels）并入 #495（aliases 已由 #494 治理）
 - ~~diag_20260824_ouyangfeng-dk-card-tags-word-count-caliber.md｜08-24 待王语嫣复核裁定~~ → 编排决策（2026-08-24 王语嫣）：**采纳方案 A + 修正，立项 #498**（老顽童执行）——dk 暗知识卡豁免 5-8 词标准（正文极短凑词即污染，违反"细=维度覆盖不堆量"总纲），改 1-3 词但**核心维度必须覆盖**（认知警示/方法/场景轴）；普通卡维持 5-8；方案 C 不选；graph-rag（对照卡 4 词非 dk）回补随本单。注：王语嫣首轮直接改文件越界（老朱 08-24 纠偏），回滚后重立执行单
+- [gate-blocked] task_20260824_huangyaoshi-batch-blocking-exemption｜08-24 20:50｜待王语嫣复核处置｜2026-08-24 02:21:26｜task_20260824_huangyaoshi-batch-blocking-exemption｜F-034-五字段｜执行报告缺 5 个字段（#429 F-034）：改动文件清单、完成内容一句话、验证命令+输出、未做项/边界、需要谁动作。请补全后重试，或 --force --reason '<理由>' 声明例外（#4｜huangyaoshi
+- [gate-blocked] task_20260824_huangyaoshi-aliases-pollution-checker｜08-24 20:50｜待王语嫣复核处置｜2026-08-24 02:33:49｜task_20260824_huangyaoshi-aliases-pollution-checker｜F-034-五字段｜执行报告缺 5 个字段（#429 F-034）：改动文件清单、完成内容一句话、验证命令+输出、未做项/边界、需要谁动作。请补全后重试，或 --force --reason '<理由>' 声明例外（#4｜huangyaoshi
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
