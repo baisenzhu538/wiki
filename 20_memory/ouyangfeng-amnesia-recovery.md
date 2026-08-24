@@ -235,6 +235,14 @@ type: memory/role-recovery
 - **待清理存量**：aliases 污染 1555 张（#494 清单）+ 来源词 19 张（#484）+ #426 剩 design 26/strategy/master/kdo/unknown 139
 - **恢复**：读 ouyangfeng-context + context + amnesia-recovery（本节）+ daily-context 最新（2026-08-24）
 
+### 当前状态（2026-08-25 · #426 整单收官 + #487 FAIL 打回）
+
+- **#426 整单终审 PASS A-（闭环）**：26 批 + 收官批次累计 ~1,500 张 tags 治理；归零声明双口径独立复扫实证（full-library-rescan missing-tags-dim 剩余 0 / tags-audit 空值率 0.0%）——报告未附工具输出由审查侧补跑。🟡 收官报告"6 张治理" vs commit 实证 3 文件（残留清单为过期快照，framework-candy/tool-ai-research 本非空缺；2 张为删词未说明）；tool-ai-scene 删词后内容词仅"方法"（关联在途词量口径建议书）
+- **#487 口喷卡组 FAIL 打回**（Live260 卡组 2 迭代+5 新增）：P0×2——① framework-cultivation-map 段位映射错位+发明"L5 流淌→局部"段位（源文五次飞跃 heading L127/181/229/255/297 对读实证，L253/L257 段位归属铁证）② dk-newcomer-blockers 缺 Critique 节（#217 门禁同族复发）；P1×3——related 未链已有口喷卡（ten-year-map/月白/九字诀/口喷次数，spec L2 验收项）/ concept-parallel 段位引用同族错位 / 1b 迭代卡"口喷双三角"释义错误（≠心法）。已验证达标：锚点 L97-327 逐段实证 ✅、append-only ✅、诚实降级 ✅——待老顽童返工复审（对照法）
+- **队列**：REVIEW-PENDING 段全清（0 待审）；#487 退回 queued；#470/#498 FAIL 返工中
+- **方法论新增**：过期清单陷阱（收官报告"残留 N 张"先逐卡实证当前状态再采信）；框架卡溯源=heading 结构对读法（源文章节标题 vs 卡结构逐行对）
+- **恢复**：读 ouyangfeng-context + context + amnesia-recovery（本节）+ daily-context 最新（2026-08-25）
+
 ### 当前状态（2026-08-24 晚间 · 批次收官 + 3 FAIL 复盘）
 
 - **#426 批次 25 批 1266 张**：有轴域 14 轴全部收官（strategy/master/kdo/ai-collab/design/content/decision/research/小域）；剩余仅无轴小域（#500 已治理 65 张 + 收官信号待确认）
