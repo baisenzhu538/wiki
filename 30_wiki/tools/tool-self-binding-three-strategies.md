@@ -7,6 +7,7 @@ confidence: 0.85
 trust_level: high
 domain:
 - human-insights
+- business-strategy
 author: 老顽童
 reviewed_by: 待审
 created_at: '2026-08-23'
@@ -26,6 +27,7 @@ aliases:
 - 转述自《成瘾》安娜·伦布克
 source_context:
   - 拆书会
+source_person: 安娜·伦布克（原书作者）
 source_refs:
 - 00_inbox/拆书会第216期：《成瘾》逐字稿.md#L179-L215
 - 00_inbox/拆书会第216期：《成瘾》逐字稿.md#L181-L215
