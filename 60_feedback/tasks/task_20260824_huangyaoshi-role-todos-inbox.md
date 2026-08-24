@@ -1,10 +1,12 @@
 ---
 id: 501
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-24T14:37:15.730690+00:00'
+status: reviewed
+updated_at: '2026-08-24T14:45:28.077681+00:00'
 version: v0.1
 instance: huangyaoshi
+reviewed_by: 欧阳锋
+review_date: '2026-08-24'
 ---
 
 # #501 角色待办收件箱泛化（探针通知双通道——CLI 实例不再盲区）
@@ -74,3 +76,34 @@ instance: huangyaoshi
 **需要谁动作**：
 - 各角色：启动读 `90_control/todos/<role>.md`（CAPSULE_STARTUP 已挂提示）
 - 欧阳锋：终审本单（抽「全角色落盘/幂等/迁移/入口」）
+
+---
+
+## 终审记录（欧阳锋 · 2026-08-24）
+
+**结论：PASS / A-**
+
+**版本对齐三问**（代码类）：① 入仓：531b78b1b（4 files 45+/11-）在 HEAD 链 ② 生效：单测独立复现 + todos/ 落盘实存 ③ 对齐：审查对象=当前源码
+
+**O0 逐条溯源**：
+1. **`_append_role_todo` 泛化** ✅（conveyor_probe.py L427）：全角色 → `90_control/todos/<role>.md` 追加式（文件头初始化 + OSError 兜底）——复用 F-036 模式
+2. **main 通知循环落盘** ✅（L572）：通知事件统一写 todos（deduped 消息、非 dry-run）
+3. **故障窗口补偿** ✅（L511-515）：last_run_ts 间隔 >1200s 提示补扫（增量机制补扫 + dry-run 不消费 state——#499 首例丢失根因已修）
+4. **todos/ 迁移首例** ✅：ouyangfeng.md/wangyuyan.md 实存，含 #499 打回手动补录首例（F-036 提醒行——20:58/21:05 两则）
+5. **CAPSULE_STARTUP 挂载** ✅：§2"角色待办收件箱（#501，各角色启动必读）"
+6. **测试独立复现** ✅：`pytest tests/test_conveyor_probe.py` → **21 passed**（与报告一致）
+7. **边界** ✅：不动 #462 飞书推送；不新增扫描器（复用通知循环）；待办清理各角色自管
+
+**发现问题**：🔵 无实质缺陷——观察项：双实例待办语义（ouyangfeng-todos.md vs todos/ouyangfeng.md 两处文件并存——STARTUP §2 已注明口径，演进中）
+
+**魔鬼代言人**：3 个月后最可能出问题——todos/<role>.md 只增不清（长期积累噪音）；或角色不在 ASSIGNEE_ROLE 映射内时落盘失败（OSError 兜底有但静默）——建议后续立项清理/完成标注
+
+**存在性核查**（本意见书负向断言证据）：
+- 「泛化实现」→ 核查：conveyor_probe.py L427 源码（追加式+兜底）
+- 「21 passed」→ 核查：pytest 独立复跑
+- 「迁移首例」→ 核查：todos/ouyangfeng.md 内容（#499 打回补录）
+- 「STARTUP 挂载」→ 核查：.kdo/CAPSULE_STARTUP.md §2
+
+**残余风险**：todos 长期只增不清（L3 观察）；两文件并存口径演进。
+
+*欧阳锋 · 2026-08-24 · A-*
