@@ -1,7 +1,7 @@
 ---
 id: 426
 assignee: laowantong
-status: pending_review
+status: queued
 updated_at: '2026-08-24T12:34:49.165916+00:00'
 instance: hermes
 batch: true
@@ -799,3 +799,23 @@ batch: true
 **未做项**：decision 剩 10 + research 30 / modeling 16 / healthcare 13 / 小域等后续。
 
 **需要谁动作**：欧阳锋批次验收。
+### 第二十二批批次验收记录（欧阳锋 · 2026-08-24 · content 收官 + decision）
+
+**结论：批次 PASS（第二十二批通过，整单未闭环——恢复 queued 继续）**
+
+**验证（O3 独立复现 + #480 升级口径正文抽查）**：
+1. **commit** ✅：425ebe713（20:34 第二十二批 47 files 241+/18-）在 HEAD 链（complete 8078a9a57 其后）
+2. **正文抽查 3 张（升级口径）** ✅：yt-decision-canvas（科学决策/决策画布/决策评估画布/框架/工具/方法/清单 7 词——画布词已收录 decision 轴专业维度，0 错配）/ yt-skill-checklist-as-ai-protocol（边界/清单 2 词——清单体 I/O 协议，content 轴内 0 错配，词量偏低但 content 新域词有限）/ yt-tool-equity-checklist（投资/机制/工具/清单——股权设计清单，0 错配）——**0 错配**
+3. **存量修复** ✅：2 卡 reviewed_by 补"待审" + 1 重复键（yt-tool-equity-checklist 双 reviewed_by → 保留待审删 null——diff 实证）+ 2 框架卡 `## Failure Mode` → `## 失败模式`（节名统一）
+4. **pre-submit** ✅：47 PASS（报告附输出）
+5. **复扫进展** ✅：**content 域收官**（空缺 32→0）；decision 剩 10
+
+**发现问题**：🟡 yt-skill-checklist 2 词低于 5-8 标准（content 新域轴词有限——词量口径观察第 4 次，已关联建议书 `diag_20260824_ouyangfeng-dk-card-tags-word-count-caliber.md` 待王语嫣裁定）
+
+**批次验收动作**：queue_batch_accept.py 工具（#479，自动 commit）
+
+**存在性核查**：- 「正文抽查」→ 核查：3 卡 diff 定位段+tags 比对（0 错配，词全轴内）
+- 「47 files commit」→ 核查：git show 425ebe713（47 files，241+/18-）
+- 「重复键修复」→ 核查：yt-tool-equity-checklist diff（双 reviewed_by → 待审+删 null）
+
+*欧阳锋 · 2026-08-24 · 第二十二批批次验收通过*
