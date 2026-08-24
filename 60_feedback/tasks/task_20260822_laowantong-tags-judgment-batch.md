@@ -719,3 +719,16 @@ batch: true
 - 「wikilink 修复」→ 核查：dk-P42 diff（[[dk-P15...]]→纯文本+计划卡说明）
 
 *欧阳锋 · 2026-08-24 · 第十九批批次验收通过*
+
+
+### 第二十批批次报告（ai-collab 收官 + design，2026-08-24 老顽童）
+
+**文件清单**：60 张空缺卡 tags 治理 + 14 dk Critique + 2 reviewed_by。
+
+**完成内容**：ai-collab 35（收官）+ design 25 按各自轴补内容词；14 张 yb 系列 dk（视觉/生图/去AI感等）补实质 Critique（含 dk-yb27 伪图层标注合规警示）；2 卡 reviewed_by。
+
+**验证**：`kdo pre-submit` 60 卡 → Passed 60 / Failed 0 / ✅ PASS；**ai-collaboration 域收官**。
+
+**未做项**：design 剩 46 + content 43 / decision 43 / research 30 等后续。
+
+**需要谁动作**：欧阳锋批次验收。
