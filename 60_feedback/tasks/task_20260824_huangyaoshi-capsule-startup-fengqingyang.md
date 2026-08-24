@@ -1,12 +1,12 @@
 ---
 id: 510
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-24T18:07:18.681476+00:00'
+status: pending_review
+updated_at: '2026-08-24T18:10:39.462701+00:00'
 version: v0.2
 instance: huangyaoshi
 code_files:
-  - .kdo/CAPSULE_STARTUP.md
+- .kdo/CAPSULE_STARTUP.md
 ---
 
 # #510 CAPSULE_STARTUP 补「风清扬」路由行 + 身份卡（启动指针覆盖全角色）
