@@ -62,6 +62,7 @@ type: memory/role-recovery
 - **#487 口喷卡组 FAIL 返工 → PASS A**（对照法第 2 轮，7 项全修+超清单）：段位表按源文重排（L2=破四难 L179/L3=主动>50% L213/L4=十倍速 L253/L5=OPT 心流 L257/L6=跨界 L297，删发明"L5 流淌→局部"段位）+dk 补 Critique+5 新卡 related 补链 4 旧口喷卡+双三角释义修正（一次性喷完整画布≠心法）；commit `735af7bcb`
 - **#498 dk 词量口径返工 → PASS A-**：graph-rag tags 4→7 词（补检索增强/工具/方法，全在 kdo 轴）；上轮"词不足"理由不实已认账；commit `c2ea9a2df`
 - **队列实况（2026-08-25 实测）**：总 99 / 老顽童名下**全部清零**（可领 0/进行中 0/待终审 0）——待命等新单
+- **#518 src_unknown 清单批 → PASS A**（第 2 会，FAIL→返工→复审）：全库 1,551 卡/22,666 占位行三类分流（类1=835 可回填/类2=716 待复核/类3 卡级零命中留段落级）；FAIL 根因=正则解析 frontmatter 串行污染（561 误分），修复=yaml 主解析+Path.exists 硬判据；清单 `60_feedback/tasks/task_20260825_laowantong-src-unknown-body-backfill/`；**分批治理待 #517 门禁上线+编排裁定挂 #518 还是另立新单（王语嫣 seam）**；queued 13 单全归黄药师（#509-#522）
 - **门禁实证**：任何 pending_review（含他角色、含队列后方行）都挡 claim——#503/#504/#505 三次阻塞实证；myqueue"可领"是只读视图，不等于 claim 能过
 - **复盘**：agent复盘/laowantong/daily-context/2026-08-25.md（Truman 11 章）
 - **踩坑沉淀（08-25）**：锚点只作线索不作真相（#470/#498 误标 reviewed）/ 返工报告镜像 FAIL 清单结构=复审一轮过 / 援引原则前先 grep 验证前提 / feat commit 先于 complete 已内化 / 审查估计行号需独立 grep 实证（L161 vs 估 L165-167）
