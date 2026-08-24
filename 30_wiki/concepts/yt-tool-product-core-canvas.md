@@ -69,6 +69,11 @@ tags:
   - audience:executor
   - scene:execution
   - skill-level:intermediate
+  - 五步法
+  - 取舍
+  - 框架
+  - 工具
+  - 方法
 ---
 # 产品内核画布与九大原则
 

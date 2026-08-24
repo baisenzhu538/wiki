@@ -1,10 +1,15 @@
 ---
 id: yt-tool-equity-checklist
 title: 股权设计检查清单
+reviewed_by: 待审
 tags:
   - audience:executor
   - scene:execution
   - skill-level:intermediate
+  - 投资
+  - 机制
+  - 工具
+  - 清单
 type: tool
 aliases:
   - 股权设计检查清单
@@ -35,7 +40,6 @@ level: advanced
 created_at: 2026-05-20
 updated_at: '2026-06-16'
 estimated_tokens: 3400
-reviewed_by: null
 author: 老顽童
 ---
 # 股权设计检查清单

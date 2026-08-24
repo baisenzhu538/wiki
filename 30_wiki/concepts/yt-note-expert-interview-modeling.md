@@ -61,6 +61,12 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 五步法
+  - 单元模型
+  - 框架
+  - 边界
+  - 反例
+  - 清单
 ---
 # 专家访谈式笔记：边聊边建模的高阶认知工作流
 

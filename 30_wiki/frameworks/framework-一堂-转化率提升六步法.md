@@ -35,6 +35,12 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 笔记
+  - 框架
+  - 工具
+  - 清单
+  - 团队
+  - 口述
 ---
 # 一堂转化率提升六步法
 

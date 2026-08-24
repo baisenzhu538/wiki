@@ -34,6 +34,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 课程
+  - 笔记
+  - 工具
+  - 方法
+  - 清单
+  - 团队
+  - 口述
 ---
 # 一堂转化基本功七个自我修养
 

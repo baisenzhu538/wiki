@@ -30,6 +30,10 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 卡片
+  - 框架
+  - 工具
+  - 团队
 ---
 # 需求挖掘：从用户身上挖出真实需求
 

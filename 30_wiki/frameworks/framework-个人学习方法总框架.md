@@ -26,6 +26,10 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 知识萃取
+  - 框架
+  - 方法
+  - IP
 aliases: null
 ---
 # 个人学习方法总框架：IPO×四环闭环

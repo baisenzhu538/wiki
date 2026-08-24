@@ -55,6 +55,8 @@ tags:
   - audience:executor
   - scene:execution
   - skill-level:beginner
+  - 工具
+  - 清单
 ---
 # 技能：用清单体记备忘笔记
 

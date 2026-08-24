@@ -50,6 +50,8 @@ tags:
   - audience:executor
   - scene:execution
   - skill-level:beginner
+  - 笔记
+  - 工具
 ---
 # 技能：自我反馈修正笔记姿势
 

@@ -8,6 +8,10 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 单元模型
+  - 框架
+  - 工具
+  - 认知偏差
 source_person: Richards J. Heuer Jr. + Randolph H. Pherson + Truman（一堂）
 source_context: SATs 文献综述 + 一堂九层深挖/交叉验证的 SATs 同构映射
 aliases:

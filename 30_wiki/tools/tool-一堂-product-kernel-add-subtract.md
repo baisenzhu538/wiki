@@ -40,6 +40,11 @@ source_refs:
 tags:
   - audience:executor
   - scene:execution
+  - 取舍
+  - 工具
+  - 方法
+  - 边界
+  - 认知偏差
 ---
 
 # 技能：产品内核加减法

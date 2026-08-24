@@ -21,6 +21,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 单元模型
+  - 定价
+  - 投资
+  - 优先级
+  - 转型
+  - 框架
+  - 工具
 type: tool
 domain:
 - decision-making

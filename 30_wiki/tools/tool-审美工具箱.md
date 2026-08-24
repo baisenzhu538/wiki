@@ -29,6 +29,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 信息密度
+  - 卡片
+  - 框架
+  - 工具
+  - 方法
+  - 边界
+  - 反例
 ---
 # 审美工具箱：产品审美的诊断和提升工具集合
 

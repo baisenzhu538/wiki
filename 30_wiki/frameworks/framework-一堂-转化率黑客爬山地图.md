@@ -35,6 +35,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 课程
+  - 框架
+  - 工具
+  - 清单
+  - 碎片化
+  - 实操
+  - 口述
 ---
 # 一堂转化率黑客爬山地图：六段 L1-L6 与三次跨越
 

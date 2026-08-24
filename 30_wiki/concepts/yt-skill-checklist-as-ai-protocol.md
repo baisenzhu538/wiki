@@ -70,6 +70,8 @@ tags:
   - audience:executor
   - scene:reference
   - skill-level:intermediate
+  - 边界
+  - 清单
 ---
 # 清单体作为AI的I/O协议——用笔记替代prompt工程
 

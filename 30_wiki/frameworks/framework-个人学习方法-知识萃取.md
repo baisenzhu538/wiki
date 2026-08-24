@@ -26,6 +26,11 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 知识萃取
+  - 笔记
+  - 边界
+  - IP
+  - 口述
 aliases: null
 ---
 # 知识萃取：碎片经验→可落地模型

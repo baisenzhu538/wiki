@@ -30,6 +30,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 卡片
+  - 框架
+  - 方法
+  - 边界
+  - 反例
+  - 清单
+  - 团队
 ---
 # 最佳实践收集：系统性收集团队/行业的最佳做法
 

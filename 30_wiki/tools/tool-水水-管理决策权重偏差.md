@@ -25,6 +25,12 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 投资
+  - 优先级
+  - 资源分配
+  - 方法
+  - 边界
+  - 拆书会
 discoverable_by:
 - 技能：管理决策权重偏差
 - 管理决策权重偏差

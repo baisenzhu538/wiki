@@ -29,6 +29,12 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 知识萃取
+  - 工具
+  - 方法
+  - 清单
+  - 团队
+  - 实操
 ---
 # 技能：隐性知识萃取与模型化
 

@@ -26,6 +26,12 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 笔记
+  - 框架
+  - 工具
+  - 方法
+  - IP
+  - 口述
 aliases: null
 ---
 # IPO学习闭环：Input→Process→Output→Feedback全景

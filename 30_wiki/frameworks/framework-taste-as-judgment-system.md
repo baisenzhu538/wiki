@@ -29,6 +29,9 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 优先级
+  - 复盘
+  - 口述
 discoverable_by:
 - 品味系统
 - 判断力审美系统

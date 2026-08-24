@@ -44,9 +44,13 @@ query_triggers:
 - src_unknown
 - src_unknown
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 投资
+  - 招聘
+  - 机制
+  - 工具
 trust_level: medium
 yitang:
   map: management

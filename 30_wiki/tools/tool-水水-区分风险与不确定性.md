@@ -29,6 +29,12 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 风险
+  - 不确定性
+  - 机制
+  - 工具
+  - 方法
+  - 拆书会
 ---
 # 技能：区分风险与不确定性
 

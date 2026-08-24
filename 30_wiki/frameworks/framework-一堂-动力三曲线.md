@@ -36,6 +36,8 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 笔记
+  - 口述
 ---
 # 一堂动力三曲线：FAB / 名利权情 / 影响力法则
 

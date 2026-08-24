@@ -28,6 +28,8 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 工具
+  - 方法
 ---
 # 技能：判断工作价值的交易成本视角
 

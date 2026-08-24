@@ -52,6 +52,9 @@ tags:
   - audience:executor
   - scene:execution
   - skill-level:beginner
+  - 笔记
+  - 工具
+  - 团队
 ---
 # 技能：获取他人反馈优化笔记
 

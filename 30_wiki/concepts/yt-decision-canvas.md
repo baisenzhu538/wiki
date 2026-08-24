@@ -104,6 +104,13 @@ tags:
   - audience:executor
   - scene:execution
   - skill-level:intermediate
+  - 科学决策
+  - 决策画布
+  - 决策评估画布
+  - 框架
+  - 工具
+  - 方法
+  - 清单
 ---
 # Y模型决策画布（一页纸工具）
 

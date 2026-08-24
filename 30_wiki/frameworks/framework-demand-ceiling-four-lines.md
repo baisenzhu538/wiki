@@ -28,6 +28,11 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 五步法
+  - 投资
+  - 需求分析
+  - 创业者
+  - 口述
 aliases: null
 ---
 # 需求天花板四层线：TAM/SAM/SOM/CR1/BEL

@@ -28,6 +28,9 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 工具
+  - 方法
+  - 拆书会
 ---
 # 技能：识别饥饿效应
 

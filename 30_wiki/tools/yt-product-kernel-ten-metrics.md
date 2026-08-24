@@ -51,6 +51,10 @@ tags:
   - audience:executor
   - scene:execution
   - skill-level:advanced
+  - 五步法
+  - 定价
+  - 框架
+  - 口述
 ---
 # 产品内核十大典型指标：从假设到验证的数据体系
 

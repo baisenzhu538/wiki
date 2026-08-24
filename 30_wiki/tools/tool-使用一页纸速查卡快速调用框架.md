@@ -2,6 +2,7 @@
 id: tool-使用一页纸速查卡快速调用框架
 updated_at: '2026-08-20'
 title: tool 使用一页纸速查卡快速调用框架
+reviewed_by: 待审
 discoverable_by:
 - tool 使用一页纸速查卡快速调用框架
 - 使用一页纸速查卡快速调用框架
@@ -17,6 +18,11 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 课程
+  - 标题
+  - 笔记
+  - 框架
+  - 工具
 type: tool
 status: draft
 domain:

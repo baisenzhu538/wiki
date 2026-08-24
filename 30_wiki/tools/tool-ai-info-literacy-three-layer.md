@@ -40,9 +40,14 @@ prerequisite_skills:
 created_at: '2026-06-11'
 updated_at: '2026-06-17'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 文章
+  - 课程
+  - 索引
+  - 框架
+  - 方法
 pipeline:
 - src_unknown
 reviewed_by: 欧阳锋

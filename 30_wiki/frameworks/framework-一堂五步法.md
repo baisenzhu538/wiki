@@ -26,6 +26,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 五步法
+  - 单元模型
+  - 需求分析
+  - 框架
+  - 方法
+  - 清单
+  - 教练
 aliases: null
 ---
 # 一堂五步法：从机会预判到规模化的五步闭环

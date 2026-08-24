@@ -25,6 +25,9 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 课程
+  - 实操
+  - 口述
 aliases: null
 ---
 # 一堂转化率黑客总纲：转化率 = 动力 − 阻力 + 触点

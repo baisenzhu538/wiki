@@ -33,9 +33,14 @@ related:
 - '[[pending_unknown]]'
 - '[[yt-tool-hiring-scorecard]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 投资
+  - 招聘
+  - 方法
+  - 边界
+  - 认知偏差
 ---
 # 科学招聘
 
