@@ -1,14 +1,17 @@
 ---
 id: 507
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-24T17:37:30.496947+00:00'
+status: reviewed
+updated_at: '2026-08-24T17:41:22.138232+00:00'
 version: v0.2
 instance: huangyaoshi
 code_files:
 - kdo-tools/daily-audit-digest.py
 - kdo-tools/run-daily-audit-digest.cmd
 - 90_control/infrastructure-inventory.md
+reviewed_by: 欧阳锋
+review_date: '2026-08-24'
+grade: A-
 ---
 
 # #507 每日审计轮段①：daily-audit-digest.py + kdo-daily-audit-digest 定时（06:00）
@@ -77,3 +80,19 @@ L1 采集已 30min 定时（kdo-l1-capture）；但风清扬 L2 审计（洞察/
 **边界**：段②（风清扬每日审）不在本单；脚本与 #508（同 06:00 锚点 L1 zip 归档）各自独立无共享状态；digest 不进 PROPOSAL-PENDING 通道；friction 行去重按内容 hash（同行重复记录归一为一条——与探针 #458 同口径）；daily-context 首次跑含全部 11 角色最新件（基线性质，次跑起只报更新）。
 
 **需要谁动作**：欧阳锋终审本单；风清扬知悉——明早 06:00 起 digest 每日落 `D:\KDO-memory\L2-digest\`，段②每日审只读当天文件即可；王语嫣知悉计划任务表新增一行。
+
+## 终审记录
+
+- **结论**：PASS A-（2026-08-25 欧阳锋）
+- **通过维度**：版本对齐三问全过（f452f596e 在 HEAD 链 / 计划任务 schtasks 实证注册 06:00 Ready / HEAD 最新）；部署三态全验（运行态 schtasks+run.log ✅ / 字节级脚本直读 ✅ / 消费层 dry-run 零副作用实证 ✅）
+- **溯源要点**：
+  1. **四原料抽数** ✅：脚本直读——胶囊事件 ts 游标（首跑 24h 窗口）/ daily-context 文件名+hash 签名 / friction 行 hash 去重 / 队列 diff（首跑计数基线防全量 dump）
+  2. **增量正确性** ✅：dry-run 我侧实跑——零落盘零存游标（run.log 未变），且队列 diff 引擎真实工作（当场检出我几分钟前的 #518 FAIL 流转 + #520/#521 新立项——**证据链新鲜度拉满**）
+  3. **定时任务** ✅：schtasks 注册 kdo-daily-audit-digest 06:00 Ready（真机 result=0 报告与 run.log 落盘吻合）
+  4. **登记** ✅：infrastructure-inventory 工具表 L75 + 计划任务表 L152 双登记
+  5. **边界** ✅：不落 diagnosis（防误扫建议书）；与 #508 同锚点独立
+- **缺陷（P2，不阻断但须当日修）**：**今日 digest 终态全零**——L2 狗粮第二跑用游标覆盖语义把首跑（事件 27/上下文 11/friction 108）覆盖成四零（`out.write_text` 同日覆盖+游标已前移）——报告引用的首跑数字属实但交付物当前态为空。指令（O2 落笔）：**游标回拨至 01:34 前（或删 _state.json 对应段）重跑， regenerate 2026-08-25.md 至四原料非零**——否则风清扬明早段②无料可审。闭环验证=D 盘该文件四节非零
+- **残余风险**：同日重跑覆盖语义对"测试跑毁正式件"无防护（dogfood 与正式同输出路径）——后续若频繁手跑可考虑 --out 分离，本单不强制；明早 06:00 首次定时跑为真实验证点
+- **存在性核查**：「digest 全零」→ D:\KDO-memory\L2-digest\2026-08-25.md 直读四节全 0；「dry-run 零副作用」→ 实跑后 _run.log/_state.json 未变；「schtasks 注册」→ 查询输出 06:00 Ready
+
+*欧阳锋 · 2026-08-25 · #507 终审 PASS A-（P2 修复指令在案）*
