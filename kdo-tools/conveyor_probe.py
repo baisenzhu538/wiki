@@ -573,7 +573,10 @@ def main() -> int:
             notified.add(_msg_key(role, to_send[role]))
         state["pending_notify"] = {k: v for k, v in to_send.items() if k not in sent}  # 失败留待下次重试
     state["notified"] = sorted(notified)[-200:]  # 只留最近 200 条防膨胀
-    _save_state(state)
+    # dry-run 不保存 state——否则会消费真实信号（通知去重/提醒去重被 dry-run 吞掉，
+    # 真实运行"通知 0 条"）——2026-08-24 F-036 实害实证：dry-run 消费后待办不落盘
+    if not args.dry_run:
+        _save_state(state)
 
     summary = {
         "new_review": queue_sig["new_review"],
