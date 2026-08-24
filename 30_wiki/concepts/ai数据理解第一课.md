@@ -2,6 +2,7 @@
 id: ai数据理解第一课
 updated_at: '2026-08-20'
 title: ai数据理解第一课
+reviewed_by: 待审
 discoverable_by:
 - ai数据理解第一课
 related:
@@ -17,9 +18,12 @@ aliases:
 source_refs:
   - src_unknown
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 工作流
+  - 框架
+  - 边界
 type: concept
 status: draft
 domain:

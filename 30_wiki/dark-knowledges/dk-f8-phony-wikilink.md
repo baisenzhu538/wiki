@@ -53,9 +53,12 @@ diagnostic_signals:
 - src_unknown
 - src_unknown# F-KDO-008：虚假关联→wikilink 指向自身或堆砌无关链接凑数
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 卡片
+  - 方法
+  - 边界
 ---
 
 ## 原始表述/核心洞察
@@ -116,6 +119,11 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+
+## Critique
+
+- **内部局限**：虚假关联（wikilink 指向自身/堆砌无关）是链接质量缺陷——本卡警示"凑数链接"污染图谱；修复方向（链接语义校验）依赖工具。
+- **外部攻击（图谱视角）**：虚假链接比无链接更糟（污染网络结构/误导检索）——应校验"链接目标与内容主题相关"（语义检查而非只查存在性）；"指向自身"是明显的低级错误（应 lint 拦截）；链接质量应纳入卡片评审维度。
 
 ## 与其他知识的关联
 

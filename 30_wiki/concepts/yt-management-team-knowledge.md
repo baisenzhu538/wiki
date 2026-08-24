@@ -40,9 +40,16 @@ related:
 - '[[yt-tool-knowledge-extraction]]'
 - '[[yt-note-three-level-evolution]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 知识库
+  - 知识管理
+  - 工具
+  - 方法
+  - 边界
+  - 踩坑
+  - 复盘
 ---
 # 团队知识管理
 

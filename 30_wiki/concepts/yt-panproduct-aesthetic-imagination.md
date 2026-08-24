@@ -62,6 +62,11 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 卡片
+  - 机制
+  - 工具
+  - 边界
+  - 用户
 ---
 
 # 美好作品想象：缺对标就自己想象

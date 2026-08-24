@@ -56,9 +56,16 @@ diagnostic_signals:
   follow_up_question: 这本书对你的当前问题有多重要？如果不重要，用简化版或跳过某些步骤
 author: 老顽童
 tags:
-- audience:ceo
-- scene:diagnosis
-- skill-level:intermediate
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:intermediate
+  - KDO
+  - Agent
+  - 管线
+  - 机制
+  - 框架
+  - 方法
+  - 流程
 ---
 # 认知升级十步框架：从「读书」到「安装认知补丁」
 

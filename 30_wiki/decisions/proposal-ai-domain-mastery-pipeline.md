@@ -37,6 +37,11 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 源文件
+  - 管线
+  - 工具
+  - 方法
+  - Agent
 ---
 # 提案：AI 快速精通领域知识管线
 

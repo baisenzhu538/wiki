@@ -33,6 +33,11 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 标签体系
+  - 卡片
+  - 标签
+  - 管线
+  - 方法
 ---
 # 标签方案 + 暗知识全量范围
 

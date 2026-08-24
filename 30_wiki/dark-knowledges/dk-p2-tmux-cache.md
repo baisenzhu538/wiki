@@ -42,9 +42,12 @@ diagnostic_signals:
 - src_unknown
 - src_unknown# P-2：tmux session 缓存旧配置
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 方法
+  - 流程
+  - 边界
 ---
 
 ## 原始表述 / 核心洞察
@@ -103,6 +106,11 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+
+## Critique
+
+- **内部局限**：P-2 记录 tmux session 缓存旧配置——会话状态残留；修复方向（配置重载/重启会话）依赖使用习惯。
+- **外部攻击（环境管理视角）**：缓存/会话残留是"环境未隔离"的代价——tmux 长会话会保留启动时的环境；正确做法是"配置变更后重启相关进程/会话"；"缓存旧配置"应在排障手册中作为第一检查项（改配置无效先查会话）。
 
 ## 与其他知识的关联
 

@@ -32,6 +32,9 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 卡片
+  - 框架
+  - 工具
 ---
 # 知识卡片 → Claude Code Skill 迭代标准
 

@@ -43,9 +43,11 @@ reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 方法
+  - 边界
 ---
 
 ## 原始表述
@@ -118,6 +120,11 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+
+## Critique
+
+- **内部局限**：P-11 记录 validator regex 在 `###` 处截断——正则边界设计缺陷；修复方向（分隔符感知解析）依赖工具实现。
+- **外部攻击（解析器视角）**：用正则解析结构化文档（markdown 节）本质脆弱——节标题层级（##/###）需要感知；正确做法是"行级扫描找节边界"而非正则贪婪匹配；"截断"导致静默错误（内容丢失无提示），应加"节完整性校验"。
 
 ## 与其他知识的关联
 

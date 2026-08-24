@@ -29,6 +29,12 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 卡片
+  - 门禁
+  - 框架
+  - 流程
+  - 边界
+  - 反例
 ---
 # 基础设施升级提案：深度合成产线
 

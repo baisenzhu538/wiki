@@ -56,9 +56,12 @@ diagnostic_signals:
 author: 老顽童
 trust_level: high
 tags:
-- audience:ceo
-- scene:diagnosis
-- skill-level:intermediate
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:intermediate
+  - 知识管理
+  - 飞轮
+  - 复盘
 ---
 # 一堂个人地图：高潜力成长者修炼全景图
 

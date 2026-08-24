@@ -40,9 +40,14 @@ diagnostic_signals:
 - src_unknown
 - src_unknown# P-7：素材预处理缺少 OCR 强制检查——执行者跳过图片
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 管线
+  - 框架
+  - 方法
+  - 流程
+  - 口述
 ---
 
 ## 原始表述/核心洞察
@@ -117,6 +122,11 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+
+## Critique
+
+- **内部局限**：P-7 记录素材预处理跳过 OCR——流程执行不完整；修复方向（OCR 强制检查）依赖流程强制。
+- **外部攻击（流程设计视角）**：跳过 OCR 是"流程节点可绕过"的问题——应把 OCR 设为"不可跳过"（gate 而非步骤）；"执行者跳过图片"说明流程没有强制校验（素材完整性检查应在入口拦截）；自动化检查（图片未 OCR 则拒绝进入下环节）。
 
 ## 与其他知识的关联
 

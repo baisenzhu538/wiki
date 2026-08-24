@@ -45,9 +45,10 @@ diagnostic_signals:
 - src_unknown
 - src_unknown# P-1：切模型改环境变量无效——Claude Code 走全局设置
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 方法
 ---
 
 ## 原始表述/核心洞察
@@ -114,6 +115,11 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+
+## Critique
+
+- **内部局限**：P-1 记录切模型改环境变量无效（Claude Code 走全局设置）——环境配置的层级关系（全局/项目/会话）是工程常识；卡的价值在记录具体工具链的坑。
+- **外部攻击（配置管理视角）**：环境变量层级混乱是配置管理的经典问题——正确做法是"配置优先级文档化+生效验证"；"改了没生效"应先查配置来源（env | config file | 全局）；工具应提供"当前生效配置"查询命令（debug 友好）。
 
 ## 与其他知识的关联
 

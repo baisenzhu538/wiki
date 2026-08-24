@@ -43,9 +43,12 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 机制
+  - 方法
+  - 边界
 ---
 
 # P-16：validate 优先读取 state.json 而非文件 frontmatter
@@ -98,6 +101,11 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+
+## Critique
+
+- **内部局限**：P-16 记录 validate 读 state.json 而非 frontmatter——数据源不一致缺陷；修复方向（统一数据源）依赖架构。
+- **外部攻击（一致性视角）**：双数据源（state.json vs frontmatter）必然漂移——validate 应以"文件本身"为准（frontmatter 是真相源）；state.json 是缓存/索引（可重建）；"读错源"导致验证结果失真（改 frontmatter 无效）——工具设计应明确"单一真相源"原则。
 
 ## 与其他知识的关联
 

@@ -57,9 +57,10 @@ diagnostic_signals:
   follow_up_question: 在 pre-screen 前后分别抽样检查候选集语言分布；若中文候选显著缺失，改为全量直送 LLM 或引入中文 Embedding#
     P-20：pre-screen bigram 匹配对中文文本完全失效
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 方法
 ---
 
 ## 原始表述
@@ -141,6 +142,11 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+
+## Critique
+
+- **内部局限**：P-20 记录 pre-screen bigram 匹配对中文失效——NLP 技术选型缺陷；修复方向（中文分词适配）依赖技术方案。
+- **外部攻击（NLP 视角）**：bigram 是英文语境的词粒度方案——中文没有空格分词，bigram 匹配必然失效；正确做法是中文分词（jieba）或字符级 n-gram；"完全失效"说明缺少中文测试用例（测试集语言覆盖不足）。
 
 ## 与其他知识的关联
 

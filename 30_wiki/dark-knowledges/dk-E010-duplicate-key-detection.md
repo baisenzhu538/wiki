@@ -43,9 +43,14 @@ created_at: 2026-08-04
 updated_at: 2026-08-04
 review_date: 2026-08-04
 tags:
-- audience:builder
-- scene:reference
-- skill-level:advanced
+  - audience:builder
+  - scene:reference
+  - skill-level:advanced
+  - KDO
+  - 门禁
+  - 方法
+  - 标准
+  - 边界
 discoverable_by:
 - E010
 - 重复键检测

@@ -46,9 +46,11 @@ diagnostic_signals:
 - src_unknown
 - src_unknown# P-5：cc-connect 切模型后 CLI 正常但飞书 401 + 找不到文件夹
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 方法
+  - Agent
 ---
 
 ## 原始表述/核心洞察
@@ -122,6 +124,11 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+
+## Critique
+
+- **内部局限**：P-5 记录 cc-connect 切模型后 CLI 正常但飞书 401 + 找不到文件夹——多端配置不同步；修复方向（配置同步机制）依赖架构。
+- **外部攻击（集成视角）**：多端（CLI/飞书）配置不一致是集成系统的常见病——配置应集中管理（一份配置多端读取）而非各端独立；"CLI 正常但飞书失败"说明两端配置路径不同；应提供"配置一致性检查"（两端配置 diff）。
 
 ## 与其他知识的关联
 

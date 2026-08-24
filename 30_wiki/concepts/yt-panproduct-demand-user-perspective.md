@@ -67,6 +67,11 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 卡片
+  - 机制
+  - 工具
+  - 边界
+  - 用户
 ---
 
 # 用户视角：一秒转化用户视角

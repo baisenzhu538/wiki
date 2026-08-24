@@ -48,9 +48,12 @@ diagnostic_signals:
 - src_unknown
 - src_unknown# P-8：欧阳锋忘记本地已有武器——重新调研已部署工具
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 文档
+  - 工具
+  - 方法
 ---
 ## 原始表述/核心洞察
 
@@ -126,6 +129,11 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+
+## Critique
+
+- **内部局限**：P-8 记录欧阳锋忘记已有武器（重新调研已部署工具）——知识检索失败；修复方向（工具注册表/检索入口）。
+- **外部攻击（知识管理视角）**：已有工具被忘记是"工具知识未沉淀/不可检索"——应有"工具注册表"（工具名+能力+使用方式）并可检索；"重新调研已部署工具"是重复劳动（浪费）；知识库的价值在"用已有知识避免重造轮子"——检索入口（KDO search）应覆盖工具资产。
 
 ## 与其他知识的关联
 

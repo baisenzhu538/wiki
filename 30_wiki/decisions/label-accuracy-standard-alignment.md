@@ -31,6 +31,11 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 标签
+  - 门禁
+  - 管线
+  - 实测
+  - 对齐
 ---
 # 标注准确率标准对齐
 

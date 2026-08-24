@@ -45,9 +45,11 @@ diagnostic_signals:
 - src_unknown
 - src_unknown# P-13：长会话 = token黑洞 — 一晚上烧掉80元
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 工具
+  - 方法
 ---
 
 ## 原始表述/核心洞察
@@ -125,6 +127,11 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+
+## Critique
+
+- **内部局限**：P-13 记录长会话 token 黑洞（一晚上 80 元）——会话成本管理缺失；修复方向（会话长度上限/定期总结）依赖使用习惯。
+- **外部攻击（成本管理视角）**：LLM 使用成本是"按 token 计费"的实时消耗——长会话不总结=上下文无限膨胀=成本线性增长；正确做法是"会话预算制"（定 token 上限，超限强制总结新开会话）；成本看板（每会话 token 统计）应作为基础设施。
 
 ## 与其他知识的关联
 

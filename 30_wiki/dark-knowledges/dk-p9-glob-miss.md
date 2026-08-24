@@ -41,9 +41,12 @@ diagnostic_signals:
 - src_unknown
 - src_unknown# P-9：Glob 漏扫子目录 → 误判文件缺失 → 来回打脸
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 工具
+  - 方法
+  - 流程
 ---
 ## 原始表述 / 核心洞察
 
@@ -122,6 +125,11 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+
+## Critique
+
+- **内部局限**：P-9 记录 Glob 漏扫子目录误判文件缺失——glob 模式缺陷；修复方向（递归 glob/**）依赖实现。
+- **外部攻击（文件系统视角）**：glob 默认不递归是常见陷阱——`*.md` 只匹配当前目录；正确做法是 `**/*.md` 或显式递归；"来回打脸"说明错误信息误导（"文件缺失"实际是"没找到"）；文件操作工具应默认递归或明确提示范围。
 
 ## 与其他知识的关联
 

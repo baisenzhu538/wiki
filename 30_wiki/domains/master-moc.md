@@ -21,6 +21,10 @@ tags:
   - audience:wangyuyan
   - scene:reference
   - skill-level:intermediate
+  - 方法
+  - 流程
+  - Agent
+  - 踩坑
 aliases:
   - master MOC
   - KDO运营知识

@@ -49,9 +49,14 @@ diagnostic_signals:
   framework_lens: 格式复杂度低估
   follow_up_question: 这个格式是否有官方/成熟库？为什么没用？# P-18：手写YAML解析器导致嵌套数据丢失 — 97行bug → 15行修复
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 工具
+  - 方法
+  - 流程
+  - 规范
+  - 边界
 ---
 
 ## 原始表述 / 核心洞察
@@ -127,6 +132,11 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+
+## Critique
+
+- **内部局限**：P-18 与 F-KDO-013 同类（手写 YAML 解析器）——97 行 bug 15 行修复；卡的价值在"自己造轮子"的教训。
+- **外部攻击（工程视角）**：同 F-13——YAML 解析必须用成熟库；"97 行 bug 15 行修复"是手写轮子的典型代价（调试时间远大于实现时间）；教训是"先用库，遇到不满足再评估自研"。
 
 ## 与其他知识的关联
 

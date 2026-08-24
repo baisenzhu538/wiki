@@ -45,6 +45,7 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - Agent
 ---
 # 提案：提示词自动注入体系
 

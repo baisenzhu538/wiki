@@ -36,9 +36,13 @@ diagnostic_signals:
 - src_unknown
 - src_unknown# P-4：批量格式升级产生"格式完整但思维空洞"卡片 (C-8)
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 卡片
+  - 门禁
+  - 方法
+  - 反例
 ---
 
 ## 原始表述/核心洞察
@@ -107,6 +111,11 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+
+## Critique
+
+- **内部局限**：P-4 与 C-8/F-KDO 系列同类（格式完整思维空洞）——批量格式升级的副产物；修复方向同 C-8。
+- **外部攻击（流程视角）**：批量操作"只改格式不改内容"是工具化的陷阱——格式升级应触发内容质量复检；"批量"放大质量问题（一次格式化 100 张空洞卡）；流程应"格式升级 + 内容抽查"绑定。
 
 ## 与其他知识的关联
 

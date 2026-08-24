@@ -52,9 +52,15 @@ diagnostic_signals:
 - src_unknown
 - src_unknown# F-KDO-009：无质疑接受→Critique 段全是万能废话，可粘贴到任何卡片上
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 卡片
+  - 框架
+  - 工具
+  - 方法
+  - 边界
+  - 反例
 ---
 
 ## 原始表述/核心洞察
@@ -108,6 +114,11 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+
+## Critique
+
+- **内部局限**：万能废话 Critique（可粘贴任何卡）是批判性思维缺失——本卡警示"无质疑接受"；修复方向（实质 Critique 标准）依赖评审机制。
+- **外部攻击（批判思维视角）**：Critique 的价值在"指出该卡的具体边界/反例"——万能话术说明批判者（AI）没真正理解卡内容；防废话应要求 Critique 引用卡内具体论点反驳；"可粘贴任何卡"是检测废话的试金石——评审时应抽查此特征。
 
 ## 与其他知识的关联
 

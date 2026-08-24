@@ -35,6 +35,12 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 卡片
+  - 标签
+  - 框架
+  - 工具
+  - 反例
+  - 口述
 ---
 # Gold Standard — 欧阳锋手工标注 15 条 chunk
 

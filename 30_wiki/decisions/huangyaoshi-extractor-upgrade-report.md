@@ -29,6 +29,10 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 知识萃取
+  - 卡片
+  - 方法
+  - 口述
 ---
 # 暗知识萃取器 B+→A 升级报告
 

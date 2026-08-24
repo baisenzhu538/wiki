@@ -58,9 +58,14 @@ diagnostic_signals:
 updated_at: '2026-06-28'
 author: 老顽童
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - Agent
+  - 卡片
+  - 机制
+  - 方法
+  - 边界
 ---
 # AI思维卡：从「读书」到「安装认知补丁」
 

@@ -59,9 +59,13 @@ diagnostic_signals:
   follow_up_question: 确认源文件本身可读；若源文件正常，则判定为 extractor 问题，直接重写页面并记录为 F-KDO-006# F-KDO-006：骨架页面
     CJK 内容损毁→ingest 后中文摘要变成随机碎片
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 源文件
+  - 方法
+  - 边界
+  - Agent
 ---
 
 ## 原始表述
@@ -126,6 +130,11 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+
+## Critique
+
+- **内部局限**：F-KDO-006 记录骨架 CJK 损毁（中文摘要变随机碎片）——根因是编码/正则对 CJK 的处理缺陷；修复状态随 KDO 版本演进，卡内容需维护更新。
+- **外部攻击（工程视角）**：CJK 内容损毁是"以 ASCII 假设写代码"的典型症状——应全链路用 Unicode 感知（编码声明/正则 flag/长度计算）；"随机碎片"说明损坏静默发生（无校验），应加"写后读回校验"（内容完整性检查）；中文测试用例应进 CI。
 
 ## 与其他知识的关联
 

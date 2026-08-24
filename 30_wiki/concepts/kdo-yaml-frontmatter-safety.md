@@ -75,9 +75,12 @@ diagnostic_signals:
 - lens: round-trip失败
   follow_up: 写文件前做round-trip校验：读回来确认嵌套结构无损
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - KDO
+  - 标签
+  - 标准
 ---
 # KDO YAML Frontmatter 安全操作指南
 

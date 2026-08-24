@@ -27,6 +27,12 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 卡片
+  - 框架
+  - 工具
+  - 方法
+  - Agent
+  - 实测
 ---
 # 检索架构升级方案
 

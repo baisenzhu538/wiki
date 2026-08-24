@@ -58,9 +58,11 @@ diagnostic_signals:
 - src_unknown# P-6：cc-connect 修好 work_dir + API Key 后仍然空响应 — session 缓存了失效的 Claude
   Code session ID
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 方法
+  - 静默失败
 ---
 
 ## 原始表述/核心洞察
@@ -130,6 +132,11 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+
+## Critique
+
+- **内部局限**：P-6 记录修好配置后仍空响应（session 缓存）——会话状态残留的又一例；修复方向（会话重置机制）。
+- **外部攻击（状态管理视角）**：修配置后"旧会话仍用旧状态"是状态缓存问题——应"配置变更即失效会话"；"空响应"错误信息太弱（应提示"会话已失效，请新开"）；与 P-2 同族（环境/会话残留）。
 
 ## 与其他知识的关联
 

@@ -64,6 +64,11 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 卡片
+  - 机制
+  - 工具
+  - 边界
+  - 用户
 ---
 
 # 场景推演：细颗粒度推演

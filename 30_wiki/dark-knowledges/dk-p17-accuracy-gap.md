@@ -48,9 +48,15 @@ diagnostic_signals:
 - src_unknown
 - src_unknown# P-17：auto_label 声称“85%准确率”——实测34.8%，差距来自被忽略的5个维度
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 数据集
+  - 管线
+  - 方法
+  - 流程
+  - 实测
+  - 基线
 ---
 
 ## 原始表述/核心洞察
@@ -128,6 +134,11 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+
+## Critique
+
+- **内部局限**：P-17 记录 auto_label 声称 85% 实际 34.8%——准确率声明与实测差距来自被忽略的维度；修复方向（全面评估）依赖测试规范。
+- **外部攻击（评估视角）**：声称 85% 实测 34.8% 是"评估维度不全"的典型——只测了容易的样本（幸存者偏差）；准确率必须按"类别/难度/场景"分层报告；"被忽略的 5 个维度"说明评估设计有缺陷——评估集应覆盖全部使用场景。
 
 ## 与其他知识的关联
 

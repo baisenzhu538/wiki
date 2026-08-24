@@ -27,6 +27,9 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 卡片
+  - 框架
+  - 工具
 ---
 # 域索引入口卡 —— 大规模域建制的基础设施方案
 

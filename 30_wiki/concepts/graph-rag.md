@@ -34,9 +34,13 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）# Graph RAG — Knowledge-Graph-Powered
   Retrieval
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 知识库
+  - KDO
+  - 索引
+  - 工作流
 ---
 
 ## Claims

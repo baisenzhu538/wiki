@@ -63,6 +63,12 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 卡片
+  - 机制
+  - 工具
+  - 流程
+  - 边界
+  - 用户
 ---
 
 # 动力阻力：理解转化率的本质

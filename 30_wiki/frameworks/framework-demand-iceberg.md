@@ -38,6 +38,12 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 卡片
+  - 标签
+  - 框架
+  - 工具
+  - 流程
+  - Agent
 ---
 # 需求洞察冰山模型
 

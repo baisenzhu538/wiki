@@ -69,6 +69,10 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 飞轮
+  - 框架
+  - 标准
+  - 用户
 ---
 
 # 案例：知乎vs得到——网络效应壁垒的对比分析

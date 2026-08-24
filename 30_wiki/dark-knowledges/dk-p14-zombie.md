@@ -40,9 +40,10 @@ diagnostic_signals:
 - src_unknown
 - src_unknown# P-14：僵尸 claude 进程默默烧钱 — Obsidian Claudian + vault backup 死循环
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 方法
 ---
 
 ## 原始表述/核心洞察
@@ -119,6 +120,11 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+
+## Critique
+
+- **内部局限**：P-14 记录僵尸 claude 进程烧钱——后台进程清理缺失；修复方向（进程监控/超时回收）依赖运维习惯。
+- **外部攻击（运维视角）**：僵尸进程是资源管理问题——后台进程应有生命周期管理（超时自动退出）；"默默烧钱"说明缺少成本告警（进程存活时长×费率）；工具链应提供"进程审计"（列出所有后台会话及其消耗）。
 
 ## 与其他知识的关联
 

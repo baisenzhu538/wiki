@@ -56,9 +56,11 @@ diagnostic_signals:
 - src_unknown
 - src_unknown# F-KDO-007：表层翻译式提炼→Condense 段变成课程目录改写
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 方法
+  - 边界
 ---
 
 ## 原始表述/核心洞察
@@ -120,6 +122,11 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+
+## Critique
+
+- **内部局限**：表层翻译式提炼（Condense 变目录改写）是提炼质量缺陷——本卡警示"改写≠提炼"；修复方向（信息密度标准/示例对比）依赖提炼规范。
+- **外部攻击（知识管理视角）**：Condense 的核心价值是"压缩保留洞察"——目录改写只保留结构丢了洞察，等于没提炼；判断标准应看"读提炼版能否复现决策"；防表层翻译需给提炼者（AI）明确的"信息保留清单"（数据/反例/边界必留）。
 
 ## 与其他知识的关联
 

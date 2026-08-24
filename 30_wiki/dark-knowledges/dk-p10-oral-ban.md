@@ -49,9 +49,11 @@ diagnostic_signals:
 - src_unknown
 - src_unknown# P-10：口头禁令 vs 书面约束——审查意见必须落笔到任务文件
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 方法
+  - 审查者
 ---
 ## 原始表述/核心洞察
 
@@ -128,6 +130,11 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+
+## Critique
+
+- **内部局限**：口头禁令 vs 书面约束（审查意见必须落笔）是流程纪律——本卡警示"口头说了不算"；修复方向（书面化强制）依赖流程规范。
+- **外部攻击（组织视角）**：口头禁令失效是知识流失问题——口头信息不进入系统=不存在（下一个会话无法追溯）；书面化的成本（写文档）低于返工成本（重建上下文）；"审查意见落笔到任务文件"应作为硬规则（未落笔=未审查）。
 
 ## 与其他知识的关联
 

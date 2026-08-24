@@ -50,9 +50,10 @@ diagnostic_signals:
 - src_unknown
 - src_unknown# P-3：Hermes 换 API Key 后仍然 401 — auth.json 缓存覆盖 .env
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 方法
 ---
 
 ## 原始表述/核心洞察
@@ -120,6 +121,11 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+
+## Critique
+
+- **内部局限**：P-3 记录换 API Key 后仍 401（auth.json 缓存覆盖 .env）——缓存优先级缺陷；修复方向（缓存失效机制）依赖实现。
+- **外部攻击（安全视角）**：凭据缓存是安全与可用性的平衡——换 Key 应立即生效（缓存应有版本/时间戳失效）；"401 却不知道原因"说明错误信息不含配置来源提示；凭据管理应"单一来源"（环境变量或配置文件，不混用）。
 
 ## 与其他知识的关联
 

@@ -29,6 +29,11 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 卡片
+  - 门禁
+  - 管线
+  - 反例
+  - Agent
 ---
 # KDO 质量体系升级——Harness Engineering 三原则落地
 

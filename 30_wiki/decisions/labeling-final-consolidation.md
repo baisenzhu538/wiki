@@ -39,6 +39,12 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 数据标注
+  - 标签体系
+  - 标签
+  - 管线
+  - 框架
+  - 边界
 ---
 > 汇总人：黄药师
 > 审查人：用户（决策者）、欧阳锋（Architect）

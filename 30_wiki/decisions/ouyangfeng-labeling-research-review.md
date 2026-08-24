@@ -34,6 +34,10 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 数据标注
+  - 标签体系
+  - 元数据
+  - 标签
 ---
 # 欧阳锋：数据标注全网调研 + 对 15 维度方案的补充建议
 
