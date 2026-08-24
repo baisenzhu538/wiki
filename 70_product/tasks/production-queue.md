@@ -128,7 +128,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 500 | `task_20260824_laowantong-small-domain-batch2` | 第二批未覆盖小域~65张映射治理(收官冲刺)：确认映射+no-domain补域+未列域语义最近轴授权 | reviewed | laowantong | 映射治理+补域 | #499 返工完成 | `60_feedback/tasks/task_20260824_laowantong-small-domain-batch2.md` | 老顽童建议书追加裁定；no-domain 3张走补域不走映射(#493同族)；依赖#499(E019完成未闭环优先)；rust词池已补全；收官信号=全库tags空缺复扫归零；欧阳锋验收备案 |
 | 501 | `task_20260824_huangyaoshi-role-todos-inbox` | 角色待办收件箱泛化：conveyor_probe通知全角色落盘todos/<role>.md(双通道)+CAPSULE_STARTUP挂启动读+故障窗口补偿 | reviewed | huangyaoshi | probe扩展+入口挂载 | 无 | `60_feedback/tasks/task_20260824_huangyaoshi-role-todos-inbox.md` | 黄药师建议书裁定采纳；治编排者盲区(#499打回通知丢失实证)；复用F-036 _append_role_todo模式；不新增扫描器/不动#462；欧阳锋终审 |
 | 502 | `task_20260824_huangyaoshi-freeze-enforcement` | 落盘文件冻结机械化：file-flow-check加L10任务单正文冻结检测(4豁免)+health-check挂载+L7窗口口径 | reviewed | huangyaoshi | L10检测器+挂载 | 无 | `60_feedback/tasks/task_20260824_huangyaoshi-freeze-enforcement.md` | 老朱08-24指令「已落盘必须冻结」机制化；实证=老顽童batch2原文件追加事件(已自我纠偏)；待讨论点已拍板(执行报告节complete前+返工节豁免/warning不拦流转)；只报不自动改；欧阳锋终审 |
-| 503 | `task_20260824_huangyaoshi-claim-assignee-bug` | claim口径族根治：写入口径(kimi实例误写laowantong)+claimed锁匹配失效(instance in assignee匹配不上角色名→老顽童in_progress不阻塞自己) | queued | huangyaoshi | 写入口径+锁匹配修正+回归 | 无 | `60_feedback/tasks/task_20260824_huangyaoshi-claim-assignee-bug.md` | #497 claim实测发现(王语嫣kimi实例claim被改assignee)；claim应保持原assignee只写status+instance；INSTANCE_ROLE_MAP kimi映射移除；与#444口径对齐；**洞A并入**(老朱08-24拍板：锁三洞诊断，37分钟提审4单实证)；欧阳锋终审 |
+| 503 | `task_20260824_huangyaoshi-claim-assignee-bug` | claim口径族根治：写入口径(kimi实例误写laowantong)+claimed锁匹配失效(instance in assignee匹配不上角色名→老顽童in_progress不阻塞自己) | claimed-huangyaoshi | huangyaoshi | 写入口径+锁匹配修正+回归 | 无 | `60_feedback/tasks/task_20260824_huangyaoshi-claim-assignee-bug.md` | #497 claim实测发现(王语嫣kimi实例claim被改assignee)；claim应保持原assignee只写status+instance；INSTANCE_ROLE_MAP kimi映射移除；与#444口径对齐；**洞A并入**(老朱08-24拍板：锁三洞诊断，37分钟提审4单实证)；欧阳锋终审 |
 | 504 | `task_20260824_huangyaoshi-review-wait-block` | 审查等待期阻塞策略：同执行者已有pending_review(不论队列前后)阻塞claim新任务(batch豁免+force留痕) | queued | huangyaoshi | can_claim扩展+用例 | #503 | `60_feedback/tasks/task_20260824_huangyaoshi-review-wait-block.md` | 老朱08-24报"老顽童串行任务"(22:23-23:00提审4单不等审查+#498 FAIL质量实证)；王语嫣锁诊断洞B/C；#492 batch豁免衔接；依赖#503(同函数区防冲突)；欧阳锋终审 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
@@ -319,6 +319,16 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~diag_20260824_ouyangfeng-499-rework-pending.md｜08-24 待王语嫣复核处置~~ → 处置（2026-08-24 王语嫣）：**采纳核实结论**——返工未完成属实（4+3 张 tags 原状/无提审），复审时机未到，不做无谓复审；返工完成信号=REVIEW-PENDING 出现 #499 重提审行；**24h 观察点**：08-25 仍未提审则升级处理；#499 返工优先级已通过 #500 依赖列锁定（E019 完成未闭环优先）
 - ~~diag_20260824_huangyaoshi-freeze-enforcement.md｜08-24 待王语嫣复核裁定~~ → 编排决策（2026-08-24 王语嫣）：**采纳立项 #502**（黄药师）——file-flow-check 加 L10「任务单正文冻结检测」（queued+ 状态 git diff HEAD，四类豁免：frontmatter 状态字段/执行报告节 complete 前/终审记录节/返工要求节）+ health-check 每日挂载 + L7「落盘即冻结」窗口口径（≤10min 登记前豁免）；待讨论点拍板：①执行报告节豁免=complete 前+FAIL 后返工节（提审后非返工追加报警）②报警 **warning 不拦流转**（冻结违反应人处置）；只报不自动改。实证=老顽童 batch2 原文件追加事件（已自我纠偏拆新文件）
 - [gate-blocked] task_20260824_huangyaoshi-source-refs-gate-fix｜08-24 22:36｜待王语嫣复核处置｜2026-08-24 22:29:40｜task_20260824_huangyaoshi-source-refs-gate-fix｜F-034-五字段｜执行报告缺 5 个字段（#429 F-034）：改动文件清单、完成内容一句话、验证命令+输出、未做项/边界、需要谁动作。请补全后重试，或 --force --reason '<理由>' 声明例外（#4｜huangyaoshi
+- diag_20260824_fengqingyang-capsule-audit-08-24.md｜08-24 23:28｜待王语嫣复核裁定
+- diag_20260824_fengqingyang-daily-audit-round.md｜08-24 23:28｜待王语嫣复核裁定
+- diag_20260824_fengqingyang-feishu-huangyaoshi-instance.md｜08-24 23:28｜待王语嫣复核裁定
+- diag_20260824_fengqingyang-l1-date-archive.md｜08-24 23:28｜待王语嫣复核裁定
+- diag_20260824_fengqingyang-startup-memory-recovery-path.md｜08-24 23:28｜待王语嫣复核裁定
+- [gate-blocked] task_20260824_huangyaoshi-role-todos-inbox｜08-24 23:28｜待王语嫣复核处置｜2026-08-24 22:37:04｜task_20260824_huangyaoshi-role-todos-inbox｜F-034-五字段｜执行报告缺 5 个字段（#429 F-034）：改动文件清单、完成内容一句话、验证命令+输出、未做项/边界、需要谁动作。请补全后重试，或 --force --reason '<理由>' 声明例外（#4｜huangyaoshi
+- [gate-blocked] task_20260824_huangyaoshi-freeze-enforcement｜08-24 23:28｜待王语嫣复核处置｜2026-08-24 22:49:42｜task_20260824_huangyaoshi-freeze-enforcement｜F-034-五字段｜执行报告缺 5 个字段（#429 F-034）：改动文件清单、完成内容一句话、验证命令+输出、未做项/边界、需要谁动作。请补全后重试，或 --force --reason '<理由>' 声明例外（#4｜huangyaoshi
+- [gate-blocked] task_20260823_laowantong-addiction-series-caliber｜08-24 23:28｜待王语嫣复核处置｜2026-08-24 22:57:35｜task_20260823_laowantong-addiction-series-caliber｜F-035-负向判词｜意见书含负向断言（缺失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋
+- diag_20260824_fengqingyang-proposal-frontmatter-gate.md｜08-24 23:31｜待王语嫣复核裁定
+- [friction] [fengqingyang] 2026-08-24 23:28｜08-24 23:31｜待王语嫣复核处置｜[fengqingyang] 2026-08-24 23:28｜建议书登记｜本会话 4 份建议书 frontmatter 漂移（to:王语嫣+status:pending）致 conveyor_probe 三元组不命中、未登记，王语嫣队列不可见，已改正并补登｜建议：建议书落盘即跑 probe 验「新登记」回执，frontmatter 三元组校验前置
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |

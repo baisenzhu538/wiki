@@ -63,12 +63,12 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 </head>
 <body>
 <h1>KDO 生产看板</h1>
-<p class="subtitle">production-queue.md · 自动生成于 2026-08-24 23:10</p>
+<p class="subtitle">production-queue.md · 自动生成于 2026-08-24 23:52</p>
 
 <div class="stats">
 <div class="stat queued"><div class="stat-num">3</div><div class="stat-label">待领取 Queued</div></div>
 <div class="stat pending"><div class="stat-num">2</div><div class="stat-label">审查中 Review</div></div>
-<div class="stat active"><div class="stat-num">0</div><div class="stat-label">进行中 Active</div></div>
+<div class="stat active"><div class="stat-num">1</div><div class="stat-label">进行中 Active</div></div>
 <div class="stat done"><div class="stat-num">81</div><div class="stat-label">已完成 Done</div></div>
 <div class="stat owner"><div class="stat-num">4</div><div class="stat-label">活跃角色</div></div>
 </div>
@@ -131,9 +131,23 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 <div class="task-card">
 <div class="task-prio p1">P1</div>
 <div class="task-info">
+<div class="task-id">#504</div>
+<div class="task-title">审查等待期阻塞策略：同执行者已有pending_review(不论队列前后)阻塞claim新任务(batch豁免+force留痕)</div>
+<div class="task-detail">老朱08-24报"老顽童串行任务"(22:23-23:00提审4单不等审查+#498 FAIL质量实证)；王语嫣锁诊断洞B/C；#492 batch豁免衔接；依赖#503(同函数区防冲突)；欧阳锋终审</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee huangyaoshi">黄药师</span>
+</div>
+</div>
+</div>
+<div class="task-group">
+<div class="group-header active">进行中</div>
+<div class="task-card">
+<div class="task-prio p1">P1</div>
+<div class="task-info">
 <div class="task-id">#503</div>
-<div class="task-title">queue_transition claim assignee写入口径bug：kimi实例claim任务被误写laowantong(INSTANCE_ROLE_MAP错误反推)</div>
-<div class="task-detail">#497 claim实测发现(王语嫣kimi实例claim被改assignee)；claim应保持原assignee只写status+instance；INSTANCE_ROLE_MAP kimi映射移除；与#444口径对齐；欧阳锋终审</div>
+<div class="task-title">claim口径族根治：写入口径(kimi实例误写laowantong)+claimed锁匹配失效(instance in assignee匹配不上角色名→老顽童in_progress不阻塞自己)</div>
+<div class="task-detail">#497 claim实测发现(王语嫣kimi实例claim被改assignee)；claim应保持原assignee只写status+instance；INSTANCE_ROLE_MAP kimi映射移除；与#444口径对齐；**洞A并入*…</div>
 </div>
 <div class="task-meta">
 <span class="task-assignee huangyaoshi">黄药师</span>
@@ -155,7 +169,7 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 </div>
 </div>
 
-<header style="display:none"><!-- generated-by: generate-dashboard.py · updated_at: 2026-08-24 23:10 · git_head: 5815d3eb0 --></header>
-<footer>KDO 知识工厂 · 由 generate-dashboard.py 自动生成 · 2026-08-24 23:10</footer>
+<header style="display:none"><!-- generated-by: generate-dashboard.py · updated_at: 2026-08-24 23:52 · git_head: 8fbefc164 --></header>
+<footer>KDO 知识工厂 · 由 generate-dashboard.py 自动生成 · 2026-08-24 23:52</footer>
 </body>
 </html>
