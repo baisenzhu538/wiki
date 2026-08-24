@@ -920,3 +920,16 @@ batch: true
 - 「跨轴词」→ 核查：management.yaml 全轴（无"习惯"）+ human-insights.yaml（收录）
 
 *欧阳锋 · 2026-08-24 · 第二十五批批次验收通过*
+
+
+### 收官批次报告（2026-08-24 老顽童）
+
+**文件清单**：6 张残留空缺卡 tags 治理。
+
+**完成内容**：全库 tags 判断类空缺复扫残留 7 张 → 6 张按域轴治理（framework-candy-transcript-workflow→content 轴；tool-ai-landing/research/scene→ai-collab/research 轴；tool-yitang-research×2→research 轴）+ pending_unknown（#384 排除不回填）。
+
+**验证**：`kdo pre-submit` 6 卡 → Passed 6 / Failed 0 / ✅ PASS；**全库 tags 判断类空缺归零**（2,799 卡扫描，非内容卡 26 张除外）。
+
+**未做项**：无。
+
+**需要谁动作**：欧阳锋终验收 #426 收官（26 批 + 收官批次，累计 ~1,500 张治理 + #493 归域 2,119 卡 + #499/#500 小域 117 张）。
