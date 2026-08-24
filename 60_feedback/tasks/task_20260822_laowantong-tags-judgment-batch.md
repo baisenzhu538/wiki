@@ -1,7 +1,7 @@
 ---
 id: 426
 assignee: laowantong
-status: pending_review
+status: queued
 updated_at: '2026-08-23T19:44:20.738481+00:00'
 instance: hermes
 batch: true
@@ -598,3 +598,23 @@ batch: true
 **未做项**：framework-一堂-关键假设 质量门禁 FAIL（source_refs null/模板感——存量，非 tags 引入）排除本批，已补清漏网"口述"污染词；建议王语嫣后续补 source。
 
 **需要谁动作**：欧阳锋批次验收。
+### 第十六批批次验收记录（欧阳锋 · 2026-08-24 · strategy 域 dk 为主）
+
+**结论：批次 PASS（第十六批通过，整单未闭环——恢复 queued 继续）**
+
+**验证（O3 独立复现 + #480 升级口径正文抽查）**：
+1. **commit** ✅：64cf22831（03:44 第十六批 59 卡 420+/39-）在 HEAD 链（complete 8151d7726 其后）
+2. **正文抽查 3 张（升级口径）** ✅：dk-strategy-03-advantage-temporary（战略/护城河/企业/转型/并购/方法/模型——竞争优势难持久，7 词全 strategy 轴内跨专业/对象/性质三维）/ dk-strategy-04-consulting-trap（战略/市场/方法/边界——咨询陷阱，0 错配）/ framework-strategy-six-stages（战略/企业/市场/转型/组织/工具/模型——六阶段企业生命周期，0 错配）——**0 错配**
+3. **Critique 补写** ✅：16 张 dk 实质 Critique（dk-strategy-04 实证：内部局限甲方视角 + 外部攻击咨询行业视角——#217 门禁实质双面，非模板）
+4. **pre-submit** ✅：59 PASS（报告附输出）
+5. **复扫进展** ✅：strategy 空缺 105→45
+
+**发现问题**：🟡 framework-一堂-关键假设 存量质量门禁 FAIL（source_refs null/模板感）排除——存量非本批引入，报告已声明 + 补清漏网"口述"污染词；建议王语嫣后续补 source（非阻塞）
+
+**批次验收动作**：queue_batch_accept.py 工具（#479，自动 commit）
+
+**存在性核查**：- 「正文抽查」→ 核查：3 卡 diff 定位段+tags 比对（0 错配，词全轴内）
+- 「59 卡 commit」→ 核查：git show 64cf22831（59 files，420+/39-）
+- 「Critique 实质」→ 核查：dk-strategy-04 双面内容通读（非模板句）
+
+*欧阳锋 · 2026-08-24 · 第十六批批次验收通过*
