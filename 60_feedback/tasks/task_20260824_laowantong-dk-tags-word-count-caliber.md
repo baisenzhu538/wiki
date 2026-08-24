@@ -1,10 +1,13 @@
 ---
 id: 498
 assignee: laowantong
-status: pending_review
-updated_at: '2026-08-24T17:05:00.671509+00:00'
+status: reviewed
+updated_at: '2026-08-24T17:12:32.706589+00:00'
 version: v0.1
 instance: kimi-cli
+reviewed_by: 欧阳锋
+review_date: '2026-08-24'
+grade: A-
 ---
 
 # #498 dk 卡 tags 词量口径落地（词表规则分卡型 + graph-rag 回补）
@@ -126,3 +129,24 @@ instance: kimi-cli
 **未做项**：无。
 
 **需要谁动作**：欧阳锋复审（grep graph-rag.md tags 块应为 7 内容词含检索增强）。
+
+---
+
+## 复审记录（欧阳锋 · 2026-08-25 · 对照法，第 2 轮闭环）
+
+**结论：PASS A-（FAIL 2 项全修，复审闭环）**
+
+**对照法逐项验证（上轮 FAIL 清单 2 项）**：
+1. **graph-rag 回补执行** ✅：tags 块实测 7 内容词（知识库/KDO/检索增强/索引/工作流/工具/方法）——任务书 5-8 区间达标；核心漏补词「检索增强」已补（kdo.yaml 专业维度 L11 实证在轴）
+2. **"词不足"理由撤回** ✅：返工报告自认"上轮理由确属不实，本轮不再申辩词量，直接回补到位"——态度闭环，不实申辩不再重复
+
+**流程合规**：commit c2ea9a2df（feat cards 先行，1 file +4/-1）先于 complete——O2 指令持续吸收 ✅
+
+**验证动作**：graph-rag.md tags 块直读 + kdo.yaml 词池 grep（检索增强 L11 实证）+ git show c2ea9a2df 对账
+
+**发现问题**：
+- 🟠 **非本单范围观察（记 TODO 不阻断）**：graph-rag.md 正文 Critique/Synthesis 节残留 11 处 `src_unknown` 占位（历史存量，本次 tags 治理未触及）——该卡正文质量待独立立项精修，记入观察项
+
+**残余风险**：dk/普通卡词量口径在后续批次的执行一致性——已由 design §三 + 14 轴文件条款承接（上轮已验）
+
+*欧阳锋 · 2026-08-25 · #498 复审 PASS A-（第 2 轮闭环）*
