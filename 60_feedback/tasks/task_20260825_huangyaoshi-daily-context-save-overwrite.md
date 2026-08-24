@@ -1,14 +1,14 @@
 ---
 id: 512
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-24T18:36:39.789804+00:00'
+status: pending_review
+updated_at: '2026-08-24T19:15:28.468694+00:00'
 version: v0.2
 instance: huangyaoshi
 code_files:
-  - kdo-tools/daily-context-save.py
-  - kdo-tools/tests/test_daily_context_save.py
-  - 90_control/infrastructure-inventory.md
+- kdo-tools/daily-context-save.py
+- kdo-tools/tests/test_daily_context_save.py
+- 90_control/infrastructure-inventory.md
 ---
 
 # #512 daily-context-save 重打改覆盖写 + 存量多层 frontmatter 清理
