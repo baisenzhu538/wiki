@@ -1,15 +1,15 @@
 ---
 id: 508
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-24T17:44:14.171209+00:00'
+status: pending_review
+updated_at: '2026-08-24T17:59:57.427792+00:00'
 version: v0.2
 instance: huangyaoshi
 code_files:
-  - kdo-tools/l1_capture.py
-  - kdo-tools/tests/test_l1_capture.py
-  - kdo-tools/run-l1-archive.cmd
-  - 90_control/infrastructure-inventory.md
+- kdo-tools/l1_capture.py
+- kdo-tools/tests/test_l1_capture.py
+- kdo-tools/run-l1-archive.cmd
+- 90_control/infrastructure-inventory.md
 ---
 
 # #508 L1 全量上下文改「日期增量目录 + 每日 zip 归档」（复活 _archive_old_days）
