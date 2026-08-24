@@ -285,3 +285,22 @@ def test_reject_duplicate_doc_ids_unique_passthrough(tmp_path, monkeypatch):
         encoding="utf-8")
     hits = ["diag_20260823_a-ok.md"]
     assert probe._reject_duplicate_doc_ids(hits) == hits
+
+
+def test_append_role_todo_all_roles(tmp_path, monkeypatch):
+    """#501 角色待办收件箱：任意角色落盘 todos/<role>.md。"""
+    monkeypatch.setattr(probe, "TODOS_DIR", tmp_path)
+    probe._append_role_todo("wangyuyan", "⚖️ 测试终审")
+    probe._append_role_todo("ouyangfeng", "✍️ F-036 测试")
+    assert (tmp_path / "wangyuyan.md").exists()
+    assert (tmp_path / "ouyangfeng.md").exists()
+    assert "测试终审" in (tmp_path / "wangyuyan.md").read_text(encoding="utf-8")
+
+
+def test_append_role_todo_appends_not_overwrites(tmp_path, monkeypatch):
+    """#501 追加式留痕（防覆盖）。"""
+    monkeypatch.setattr(probe, "TODOS_DIR", tmp_path)
+    probe._append_role_todo("wangyuyan", "第一条")
+    probe._append_role_todo("wangyuyan", "第二条")
+    content = (tmp_path / "wangyuyan.md").read_text(encoding="utf-8")
+    assert "第一条" in content and "第二条" in content

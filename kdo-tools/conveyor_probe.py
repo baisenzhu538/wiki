@@ -421,22 +421,21 @@ def _feishu_sign(ts: str, key: str) -> str:
     return base64.b64encode(digest).decode("utf-8")
 
 
-OUYANGFENG_TODOS = Path(__file__).resolve().parent.parent / "90_control" / "ouyangfeng-todos.md"
+TODOS_DIR = Path(__file__).resolve().parent.parent / "90_control" / "todos"
 
 
 def _append_role_todo(role: str, text: str) -> None:
-    """F-036 双实例通道：欧阳锋在家=本地 CLI（不看飞书）——提醒同时落盘待办文件，
-    共享上下文=两个实例启动都可查。追加式（防覆盖），重复由 state 去重兜底。"""
-    if role != "ouyangfeng":
-        return
+    """#501 角色待办收件箱：探针通知双通道——飞书（在外实例）+ todos/<role>.md
+    落盘（CLI 实例收件箱，启动读）。追加式防覆盖，重复由 state 去重兜底。"""
     try:
-        OUYANGFENG_TODOS.parent.mkdir(parents=True, exist_ok=True)
+        TODOS_DIR.mkdir(parents=True, exist_ok=True)
         ts = datetime.now().strftime("%Y-%m-%d %H:%M")
-        if not OUYANGFENG_TODOS.exists():
-            OUYANGFENG_TODOS.write_text(
-                "# 欧阳锋待办（F-036 双实例共享——本地 CLI 启动读此文件；在外走飞书）\n\n",
+        fp = TODOS_DIR / f"{role}.md"
+        if not fp.exists():
+            fp.write_text(
+                f"# {role} 待办（探针通知 CLI 收件箱——启动读此文件；在外实例走飞书）\n\n",
                 encoding="utf-8")
-        with OUYANGFENG_TODOS.open("a", encoding="utf-8") as f:
+        with fp.open("a", encoding="utf-8") as f:
             f.write(f"- [{ts}] {text}\n")
     except OSError as e:
         print(f"⚠️ 待办文件写入失败: {e}", file=sys.stderr)
@@ -505,6 +504,16 @@ def main() -> int:
 
     state = _load_state()
 
+    # #501 故障窗口补偿：运行间隔 > 2×周期（20 分钟）提示补扫（增量机制自动补，
+    # 只要 state 未被消费；此检查只做提示，日志有痕）
+    import time as _time
+    now_ts = _time.time()
+    last_ts = state.get("last_run_ts")
+    if last_ts and now_ts - last_ts > 1200:
+        print(f"⚠️ [conveyor_probe] 距上次运行 {int(now_ts - last_ts)}s（>20min）——"
+              f"期间信号已由增量机制补扫（dry-run 已修不消费 state）", file=sys.stderr)
+    state["last_run_ts"] = now_ts
+
     # 一次扫描事件：检出六类信号（单份逻辑，#458 第四探针 + #460 第五探针同事件）
     queue_sig = _queue_signal(state)
     proposal_hits = _scan_proposals()
@@ -542,7 +551,6 @@ def main() -> int:
         todo = (f"{len(issue_no_disp)} 单终审意见含 🟠/🟡 但未给落点"
                 f"（建议书/停车场/立项）：{', '.join(issue_no_disp[:3])}——请补落点")
         messages["ouyangfeng"] = f"✍️ F-036 提醒：{todo}"
-        _append_role_todo("ouyangfeng", f"F-036 提醒：{todo}")  # 双实例：本地 CLI 落盘可查
     if queue_sig["new_failback"]:
         # #462：终审退回 → 按 assignee 路由通知（#443 同款；生产者返工不再靠自觉）
         for tid, seq, assignee in queue_sig["new_failback"]:
@@ -557,6 +565,11 @@ def main() -> int:
         if key in notified:
             continue
         deduped[role] = text
+
+    # #501 角色待办收件箱：所有将发送通知同时落盘 todos/<role>.md（CLI 实例收件箱）
+    if not args.dry_run:
+        for role, text in deduped.items():
+            _append_role_todo(role, text)
 
     hour = datetime.now().hour
     silent = (hour >= SILENT_START_HOUR or hour < SILENT_END_HOUR) and not args.force_notify

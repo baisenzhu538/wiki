@@ -28,6 +28,7 @@ queue_tail: 468       ← 启动时核对：grep 队列尾任务号（2026-08-23
 
 > 🆕 **三路由导航（#472，进入即答三问）**：①任务路由=`python 90_control/scripts/queue_transition.py myqueue <拼音角色名>`（可领/等依赖/冻结/进行中/待终审）②技能路由+知识路由=`90_control/role-routes.md`（角色→技能映射+知识掌握路径）。
 > 🆕 **基建资产总表（#488，新 Builder 替代者必读）**：`90_control/infrastructure-inventory.md`——全厂基建地图（位置/职责/维护人/最近验证/关联）；健康快照=`python kdo-tools/infra-status.py`。
+> 🆕 **角色待办收件箱（#501，各角色启动必读）**：`90_control/todos/<拼音角色名>.md`——探针通知的 CLI 收件箱（飞书在外实例走；本地 CLI 实例启动读此文件即见待办：打回/终审/建议书/F-036 提醒）。
 
 | 角色 | 必读文件（按序） | 备注 |
 |:--|:--|:--|
