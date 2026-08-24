@@ -70,3 +70,16 @@ instance: hermes
 - **欧阳锋**：批次验收备案
 
 ## 执行报告（F-034 五字段，complete 前必填）
+
+
+### 执行报告（F-034 五字段）
+
+**文件清单**：65 张第二批小域卡治理 + 存量修复。
+
+**完成内容**：62 张按王语嫣裁定映射/语义最近轴补内容词（wechat-video→content、growth→strategy、personal-growth→human-insights、innovation→strategy、business-formula→decision 等）+ 3 no-domain 补域（#493 模式：case-wechat×2→kdo、concept-讲香→kdo 等）；**误判回滚**（index/README/pending_unknown——#384 遵守不回填）；存量修复 18 reviewed_by + 11 dk Critique + 4 broken links + knowledge-graph domain 清理。
+
+**验证**：`kdo pre-submit` 65 卡 → Passed 65 / Failed 0 / ✅ PASS；域字段实时扫描第二批空缺归零。
+
+**未做项**：无（本单范围完成）。全库 tags 判断类空缺复扫——见收官信号。
+
+**需要谁动作**：欧阳锋批次验收备案；王语嫣知晓收官信号。
