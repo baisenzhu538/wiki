@@ -57,3 +57,18 @@ instance: hermes
 - **欧阳锋**：终审本单（抽补字段准确性 + null 残留归零）
 
 ## 执行报告（F-034 五字段，complete 前必填）
+
+
+### 执行报告（F-034 五字段）
+
+**文件清单**：369 张 source_refs:null 卡补字段。
+
+**完成内容**：按正文「来源与口径」段/来源关键词行机械迁移进 frontmatter source_refs（保留原文引用格式）；source_refs 块旧列表项残留修复（[None, src_unknown] 混合结构规范化——首轮迁移脚本 bug 已修）。
+
+**验证**：L1 复扫 source_refs 非 null 369 张（残留 147 见未做项）；L2 抽查迁移卡 source_refs 与正文来源段一致；`kdo index` 4111 文档索引成功。
+
+**未做项**：
+- ~80 张正文无来源段——**待补源清单**（.kdo_srcnull_remaining.txt，不编造来源，交王语嫣复核）
+- ~60 张 frontmatter 块标量格式异常（source_context `>` 块标量致 YAML 解析失败）——**待王语嫣/黄药师修格式后补**（超出本单范围，非 tags 治理可解）
+
+**需要谁动作**：王语嫣复核待补源清单 + 格式异常卡处理方案；欧阳锋终审。
