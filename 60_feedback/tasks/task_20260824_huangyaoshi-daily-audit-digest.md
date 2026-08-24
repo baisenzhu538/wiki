@@ -1,14 +1,14 @@
 ---
 id: 507
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-24T17:29:22.075201+00:00'
+status: pending_review
+updated_at: '2026-08-24T17:37:30.496947+00:00'
 version: v0.2
 instance: huangyaoshi
 code_files:
-  - kdo-tools/daily-audit-digest.py
-  - kdo-tools/run-daily-audit-digest.cmd
-  - 90_control/infrastructure-inventory.md
+- kdo-tools/daily-audit-digest.py
+- kdo-tools/run-daily-audit-digest.cmd
+- 90_control/infrastructure-inventory.md
 ---
 
 # #507 每日审计轮段①：daily-audit-digest.py + kdo-daily-audit-digest 定时（06:00）
