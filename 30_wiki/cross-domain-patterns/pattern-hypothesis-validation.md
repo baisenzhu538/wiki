@@ -1,6 +1,7 @@
 ---
 id: pattern-hypothesis-validation
 title: 跨域模式：假设+验证
+reviewed_by: 待审
 type: pattern-index
 status: draft
 domain:
@@ -21,6 +22,8 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 定价
+  - 方法
 ---
 
 # 跨域模式：假设+验证

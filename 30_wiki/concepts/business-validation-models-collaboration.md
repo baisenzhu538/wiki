@@ -33,9 +33,16 @@ discoverable_by:
   - 时代的业务验证、商业模式与组织协作
   - 主题综合索引卡
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 战略
+  - 商业模式
+  - 企业
+  - 行业
+  - 出海
+  - 组织
+  - 方法
 created_at: '2026-06-14'
 updated_at: '2026-06-28'
 author: 老顽童

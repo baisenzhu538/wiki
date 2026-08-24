@@ -1,6 +1,7 @@
 ---
 id: pattern-layered-matching
 title: 跨域模式：分层+匹配
+reviewed_by: 待审
 type: pattern-index
 status: draft
 domain:
@@ -20,6 +21,10 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 需求分析
+  - 框架
+  - 工具
+  - 方法
 ---
 
 # 跨域模式：分层+匹配

@@ -32,9 +32,13 @@ related:
 - '[[yt-management-team-knowledge]]'
 - '[[yt-note-ai-p-role-not-c-role]]'
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 习惯
+  - 机制
+  - 框架
+  - 方法
 ---
 - "[[dk-note-rookie-disaster-veteran-heaven]]"
 
@@ -95,6 +99,11 @@ tags:
 2. **避免伪结构化陷阱**：很多人把信息放进漂亮盒子就以为懂了，实则未内化
 3. **学习体系设计**：三级进化是设计训练体系（如一堂六段位）的底层逻辑
 4. **组织知识资产**：把个人碎片化经验转化为团队可复用的体系化知识
+
+## Critique
+
+- **内部局限**：三级进化（记录→提炼→决策）的层级模型依赖层级定义的清晰——层级边界模糊（哪一级算提炼/决策）；"进化"是理想路径（多数笔记停在记录级）。
+- **外部攻击（知识管理视角）**：三级进化是"笔记价值分层"——但知识工作的价值不只在"决策级"（记录级有检索/记忆价值）；层级模型的"进化"叙事有线性假设（实际是"场景匹配"——不同笔记按场景取层级）；笔记体系应"分层共存"而非"进化升级"。
 
 ## 与其他知识的关联
 

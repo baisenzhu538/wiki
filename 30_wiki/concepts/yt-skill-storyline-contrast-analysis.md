@@ -42,9 +42,12 @@ related:
 - '[[yt-skill-storyline-target-tradeoff]]'
 - '[[yt-skill-storyline-timeline]]'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 框架
+  - 清单
+  - 认知偏差
 ---
 
 

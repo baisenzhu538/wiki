@@ -41,9 +41,13 @@ related:
 - '[[yt-skill-storyline-key-elements]]'
 - '[[yt-skill-storyline-problem-solving]]'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 取舍
+  - 不确定性
+  - 框架
+  - 清单
 ---
 
 

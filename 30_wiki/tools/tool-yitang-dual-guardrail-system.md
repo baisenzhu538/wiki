@@ -49,9 +49,10 @@ diagnostic_signals:
   lens: 培训不够或框架表达不清晰
   follow_up: 用十层解读法重新学习框架
 tags:
-- audience:executor
-- scene:execution
-- skill-level:advanced
+  - audience:executor
+  - scene:execution
+  - skill-level:advanced
+  - 方法
 ---
 
 > 定位：属于 [[framework-yitang-thought-liberation-lightning]] 的第 3 步「假设试错」。

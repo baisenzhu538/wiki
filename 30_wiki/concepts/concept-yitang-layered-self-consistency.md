@@ -51,9 +51,12 @@ diagnostic_signals:
   lens: 培训不够或框架表达不清晰
   follow_up: 用十层解读法重新学习框架
 tags:
-- audience:general
-- scene:reference
-- skill-level:advanced
+  - audience:general
+  - scene:reference
+  - skill-level:advanced
+  - 机制
+  - 方法
+  - 反例
 ---
 
 > 定位：属于 [[framework-yitang-thought-liberation-lightning]] 的第 2 步「底层自洽」。

@@ -1,12 +1,23 @@
 ---
 id: README
+updated_at: '2026-08-24'
 title: README.md
+reviewed_by: 待审
 type: index
 status: stable
 tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 知识库
+  - KDO
+  - 索引
+  - 框架
+  - 方法
+  - 协议
+  - 口述
+domain:
+- kdo
 ---
 # 老朱个人域 (personal-os)
 

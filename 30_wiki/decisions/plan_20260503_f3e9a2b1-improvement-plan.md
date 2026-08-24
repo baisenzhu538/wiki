@@ -33,6 +33,11 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 知识卡片
+  - 卡片
+  - 标准
+  - 边界
+  - 反例
 ---
 - "[[dk-kdo-leaky-pipe-pressure]]"
 

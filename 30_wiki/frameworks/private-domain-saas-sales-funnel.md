@@ -43,9 +43,11 @@ related:
 - '[[dk-wanghuan-tacit-decision-extraction-cross-domain]]'
 - '[[framework-sales-funnel-full]]'
 tags:
-- audience:ceo
-- scene:diagnosis
-- skill-level:intermediate
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:intermediate
+  - 机制
+  - 框架
 discoverable_by:
 - 私域销售
 - SaaS销售流程

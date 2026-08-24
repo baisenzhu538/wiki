@@ -15,7 +15,7 @@ source_refs:
 - capability/duanwangye/prezi
 author: 段王爷（南帝）
 adapted_from: infinite-canvas-prezi (王欢, huanwang.org)
-reviewed_by: null
+reviewed_by: 待审
 review_date: null
 created: '2026-07-20'
 related:
@@ -23,9 +23,12 @@ related:
 - '[[skill-duanwangye-kdo-pipeline]]'
 - '[[agent-spec-duanwangye-publisher]]'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 文章
+  - 工具
+  - 模板
 discoverable_by:
 - Prezi
 - 无限画布

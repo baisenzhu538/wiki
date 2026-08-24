@@ -1,6 +1,7 @@
 ---
 id: pattern-tool-vs-model
 title: 跨域模式：工具→建模
+reviewed_by: 待审
 type: pattern-index
 status: draft
 domain:
@@ -22,6 +23,11 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 框架
+  - 工具
+  - 方法
+  - 边界
+  - 复盘
 ---
 
 # 跨域模式：工具→建模

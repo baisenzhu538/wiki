@@ -29,9 +29,12 @@ discoverable_by:
   - 商务运营实务
   - 主题综合索引卡
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 定价
+  - 风险
+  - 边界
 quality_labels:
 - cited
 - principle

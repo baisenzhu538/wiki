@@ -1,5 +1,6 @@
 ---
 title: "AWyGiJIRgc"
+reviewed_by: 待审
 type: case
 status: draft
 domain: wechat-video
@@ -13,6 +14,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 内容生产
+  - 脚本
+  - 框架
+  - 工具
+  - 方法
+  - 模板
+  - 批量
 ---
 
 # AWyGiJIRgc

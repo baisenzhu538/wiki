@@ -1,6 +1,7 @@
 ---
 id: cross-domain-patterns-index
 title: 跨域模式层索引
+reviewed_by: 待审
 type: index
 status: draft
 domain:
@@ -13,6 +14,8 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 工具
+  - 方法
 ---
 
 # 跨域模式层
@@ -56,4 +59,4 @@ tags:
 
 - [[concept-yitang-model-system-boundary]] — 每个模式也有边界
 - [[dk-yitang-methodology-stack-fallacy]] — 不要把这些模式当金句堆叠
-- [[30_wiki/index]] — 域索引
+- 30_wiki/index — 域索引

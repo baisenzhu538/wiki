@@ -1,8 +1,10 @@
 ---
 title: "重构协同：关于AI Native团队的思考"
+reviewed_by: 待审
 type: case
 status: draft
-domain: wechat-article
+domain:
+- kdo
 source_refs:
 - 00_inbox/wechat-collect/src_wechat_article_4dd7be7cd82f7e80.md
 created_at: 2026-08-19
@@ -14,6 +16,12 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - Agent
+  - 框架
+  - 工具
+  - 方法
+  - 流程
+  - 用户
 ---
 
 # 重构协同：关于AI Native团队的思考

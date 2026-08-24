@@ -4,8 +4,7 @@ title: AI 方法论与工具栈：主题综合知识卡
 type: framework
 status: reviewed
 domain:
-- ai
-- methodology
+- yihang
 source_person: 王语嫣
 source_context: 听脑 AI AI 方法论与工具栈主题摘要综合提炼
 aliases:
@@ -29,9 +28,16 @@ source_refs:
 - 10_raw/sources/src_20260614_329d0e0c-theme-ai-methodology-tools-summary.md
 - 10_raw/sources/src_20260614_5f13a66f-何老师-智能入口开发会议.md
 tags:
-- audience:ceo
-- scene:diagnosis
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 双三角
+  - 数据
+  - 场景
+  - 创造力
+  - 基本功
+  - 框架
+  - 工具
 quality_labels:
   - cited
   - insight

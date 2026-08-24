@@ -1,5 +1,6 @@
 ---
 title: "5291b61bc722d90d"
+reviewed_by: 待审
 type: case
 status: draft
 domain: wechat-video
@@ -13,6 +14,9 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 课程
+  - 框架
+  - 方法
 ---
 
 # 5291b61bc722d90d

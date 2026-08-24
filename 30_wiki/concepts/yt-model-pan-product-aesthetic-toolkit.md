@@ -1,14 +1,15 @@
 ---
 id: yt-model-pan-product-aesthetic-toolkit
 component_of:
-- '[[yt-panproduct-best-practice-collection]]'
+- 'yt-panproduct-best-practice-collection（计划卡）'
 - '[[yt-panproduct-aesthetic-pool]]'
 - '[[yt-panproduct-aesthetic-modeling]]'
 - '[[yt-panproduct-aesthetic-imagination]]'
 confidence: 0.85
 created_at: 2026-05-11
 difficulty: intermediate
-domain: panproduct
+domain:
+- research
 estimated_tokens: 1600
 language: zh-CN
 prerequisites:
@@ -26,6 +27,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 调研
+  - 行业
+  - 用户
+  - 工具
+  - 方法
+  - 模型
+  - 边界
 discoverable_by:
 - 泛产品设计·审美工具箱4张卡牌
 - 泛产品设计

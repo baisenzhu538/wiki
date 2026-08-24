@@ -1,10 +1,16 @@
 ---
 id: yt-tool-onboarding-90day
 title: 新人 90 天融入加速器
+reviewed_by: 待审
 tags:
   - audience:executor
   - scene:execution
   - skill-level:intermediate
+  - 框架
+  - 工具
+  - 模板
+  - 效率
+  - 复盘
 type: tool
 aliases:
   - 天融入加速器
@@ -38,7 +44,7 @@ level: core
 created_at: 2026-05-20
 updated_at: '2026-06-16'
 estimated_tokens: 3200
-reviewed_by: null
+reviewed_by: 待审
 author: 老顽童
 ---
 # 新人 90 天融入加速器

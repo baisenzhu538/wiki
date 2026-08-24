@@ -29,9 +29,13 @@ related:
 - '[[dk-modeling-ai-judgment-limit]]'
 - '[[tool-wanghuan-ai-dual-role-coach]]'
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 方法
+  - 边界
+  - 管理者
+  - 创业者
 ---
 - "[[yt-skill-p-role-prompt-design]]"
 
@@ -88,6 +92,11 @@ tags:
 2. **发现盲区**：C 角色的"不舒适"设计能强迫用户面对不愿面对的真相
 3. **降低表达摩擦**：P 角色让已清晰的内容立即落地为可传播格式
 4. **组织风险预警**："切清楔"和"想清楔"的区别在组织层面可能导致重大决策失误
+
+## Critique
+
+- **内部局限**：P/C 角色边界（AI 是 producer 不是 critic）在真实世界场景的观察——边界随 AI 能力演进（模型增强后 C 角色能力提升）；"真实世界"样本有限（特定场景），泛化需谨慎。
+- **外部攻击（人机协作视角）**：P/C 边界是动态的——AI 的批判能力（红队/审查）已实用化，纯"P 非 C"叙事过时；真实世界的有效协作是"角色轮换"（AI P 后人 C，或 AI 双角色）；边界判断应按任务类型（创作 vs 审查）而非 AI 身份。
 
 ## 与其他知识的关联
 

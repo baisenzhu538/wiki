@@ -5,7 +5,7 @@ type: improvement-plan
 status: draft
 domain:
 - infrastructure
-- knowledge-graph
+- kdo
 created_at: 2026-06-11
 author: unknown
 source_context: KDO improvement plan — internal process record （原始 source 无法追溯，已标记为
@@ -27,6 +27,9 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 索引
+  - 卡片
+  - 提案
 ---
 # Graph RAG 放射状图谱修复提案
 

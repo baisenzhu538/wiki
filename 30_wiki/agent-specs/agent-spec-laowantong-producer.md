@@ -48,9 +48,16 @@ aliases:
 - laowantong-amnesia-recovery
 - laowantong-amnesia-recovery.md
 tags:
-- audience:executor
-- scene:execution
-- skill-level:advanced
+  - audience:executor
+  - scene:execution
+  - skill-level:advanced
+  - 文章
+  - 卡片
+  - 脚本
+  - 笔记
+  - 索引
+  - 边界
+  - 批量生产
 ---
 
 # 老顽童 Producer Agent — KDO 卡片产能主力（岗位说明书 v1.1）

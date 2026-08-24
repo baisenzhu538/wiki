@@ -5,6 +5,10 @@ tags:
   - audience:executor
   - scene:execution
   - skill-level:intermediate
+  - 框架
+  - 工具
+  - 标准
+  - 用户
 type: tool
 aliases:
 - 个人修炼
@@ -34,7 +38,7 @@ query_triggers: null
 created_at: 2026-05-13
 updated_at: '2026-06-16'
 estimated_tokens: 2500
-reviewed_by: null
+reviewed_by: 待审
 author: 老顽童
 trust_level: high
 ---

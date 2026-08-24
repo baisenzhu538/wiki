@@ -64,6 +64,11 @@ tags:
   - audience:executor
   - scene:execution
   - skill-level:intermediate
+  - 市场
+  - 渠道
+  - 工具
+  - 模型
+  - 口述
 ---
 
 

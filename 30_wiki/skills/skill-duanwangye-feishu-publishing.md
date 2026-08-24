@@ -27,9 +27,12 @@ related:
 - '[[skill-duanwangye-prezi]]'
 - '[[skill-feishu-doc-l3-extraction]]'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:advanced
+  - audience:executor
+  - scene:execution
+  - skill-level:advanced
+  - 文章
+  - 标题
+  - 批量
 discoverable_by:
 - 段王爷发布
 - 飞书文档

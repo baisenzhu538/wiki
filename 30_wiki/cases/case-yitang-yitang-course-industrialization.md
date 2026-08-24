@@ -55,6 +55,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 护城河
+  - 市场
+  - 渠道
+  - 品牌
+  - 方法
+  - 模型
+  - 边界
 ---
 
 # 案例：一堂如何用工业化生产保证每周高质量做课

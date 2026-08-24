@@ -36,9 +36,16 @@ aliases:
 - 终审执法者
 - ouyangfeng-reviewer
 tags:
-- audience:executor
-- scene:review
-- skill-level:advanced
+  - audience:executor
+  - scene:review
+  - skill-level:advanced
+  - KDO
+  - Agent
+  - 卡片
+  - 工作流
+  - 门禁
+  - 机制
+  - 流程
 ---
 
 # 欧阳锋 Reviewer Agent — KDO 终审与质量门禁执法者（岗位说明书 v1.0）

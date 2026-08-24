@@ -37,9 +37,12 @@ related:
 - '[[framework-sales-funnel-full]]'
 - '[[sales-domain-digest]]'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:beginner
+  - audience:executor
+  - scene:execution
+  - skill-level:beginner
+  - 方法
+  - 反例
+  - 口述
 ---
 
 # 异议处理：承认→稀释→调动，转化而非消除

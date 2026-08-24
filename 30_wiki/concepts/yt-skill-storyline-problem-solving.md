@@ -45,9 +45,14 @@ related:
 - '[[yt-skill-storyline-timeline]]'
 - '[[tool-纪浩-problem-validation-four-checks]]'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 工具
+  - 方法
+  - 清单
+  - 执行者
+  - 复盘
 ---
 
 

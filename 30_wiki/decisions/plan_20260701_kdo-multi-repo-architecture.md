@@ -27,6 +27,12 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - KDO
+  - Agent
+  - 框架
+  - 方法
+  - 用户
+  - 复盘
 ---
 # KDO 多库架构设计方案
 

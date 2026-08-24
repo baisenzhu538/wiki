@@ -40,9 +40,11 @@ related:
 - 'framework-truman-agent-team-architecture'
 - agent-spec-fengqingyang-observer
 tags:
-- audience:executor
-- scene:execution
-- skill-level:advanced
+  - audience:executor
+  - scene:execution
+  - skill-level:advanced
+  - Agent
+  - 方法
 discoverable_by:
 - 洪七公
 - 多模态渲染

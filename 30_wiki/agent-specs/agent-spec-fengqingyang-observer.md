@@ -35,9 +35,16 @@ aliases:
 - observer
 - fengqingyang-observer
 tags:
-- audience:executor
-- scene:audit
-- skill-level:advanced
+  - audience:executor
+  - scene:audit
+  - skill-level:advanced
+  - KDO
+  - Agent
+  - 索引
+  - 标签
+  - 工作流
+  - 门禁
+  - 工具
 ---
 
 # 风清扬 Observer Agent — KDO 观察者（审计 + 记忆维护 + Agent 部署）（岗位说明书 v1.0）

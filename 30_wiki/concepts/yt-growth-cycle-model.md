@@ -27,9 +27,16 @@ reviewed_by: 老顽童
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 updated_at: '2026-07-12'
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 商业模式
+  - 单元模型
+  - 市场
+  - 渠道
+  - 框架
+  - 方法
+  - 模型
 type: concept
 domain: growth
 ---

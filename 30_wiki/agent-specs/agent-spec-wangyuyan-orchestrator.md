@@ -25,8 +25,16 @@ related:
 - agent-spec-fengqingyang-observer
 - framework-truman-agent-team-architecture
 tags:
-- audience:executor
-- scene:orchestration
+  - audience:executor
+  - scene:orchestration
+  - KDO
+  - Agent
+  - 知识卡片
+  - 卡片
+  - 标签
+  - 工作流
+  - 门禁
+  - 流程
 ---
 
 # 王语嫣 Orchestrator Agent — KDO 编排与队列治理者

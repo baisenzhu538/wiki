@@ -36,9 +36,11 @@ related:
 - '[[dk-publish-collapse-to-iterate]]'
 - agent-spec-fengqingyang-observer
 tags:
-- audience:executor
-- scene:execution
-- skill-level:advanced
+  - audience:executor
+  - scene:execution
+  - skill-level:advanced
+  - 文章
+  - 卡片
 discoverable_by:
 - 段王爷
 - 内容发布

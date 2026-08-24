@@ -29,9 +29,12 @@ source_refs:
 discoverable_by:
 - 逐字稿
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 方法
+  - 边界
+  - 实操
 type: concept
 status: draft
 related:

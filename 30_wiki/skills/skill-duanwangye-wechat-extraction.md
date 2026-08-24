@@ -7,9 +7,7 @@ status: reviewed
 confidence: 0.9
 trust_level: high
 domain:
-- wechat
-- data-extraction
-- agent-capability
+- yihang
 source_refs:
 - capability/duanwangye/wechat-mcp
 author: 段王爷（南帝）
@@ -21,9 +19,11 @@ related:
 - '[[agent-spec-duanwangye-publisher]]'
 - '[[skill-feishu-doc-l3-extraction]]'
 tags:
-- audience:executor
-- scene:execution
-- skill-level:advanced
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 数据
+  - 场景
 discoverable_by:
 - 微信消息解密
 - 微信提取

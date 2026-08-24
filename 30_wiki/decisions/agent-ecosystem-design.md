@@ -6,7 +6,7 @@ title: KDO Agent 体系建设方案（草案）
 type: proposal
 status: draft
 domain:
-- agent-infrastructure
+- kdo
 created_at: '2026-06-10'
 updated_at: '2026-06-16'
 author: 黄药师
@@ -38,6 +38,13 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
+  - 知识库
+  - KDO
+  - Agent
+  - 知识卡片
+  - 卡片
+  - 机制
+  - 框架
 ---
 # KDO Agent 体系建设方案
 

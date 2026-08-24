@@ -34,9 +34,11 @@ related:
 - '[[truman-ai-partner-design-analysis]]'
 - '[[yt-note-three-level-evolution]]'
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 方法
+  - 边界
 ---
 - "[[yt-note-three-level-evolution]]"
 
@@ -102,6 +104,11 @@ Truman的AI Partner（阿蕊老师）最反常识的设计选择，不是"用什
 2. **越界风险可控**：P角色只做执行，不进入判断和决策领域
 3. **质量反馈即时**：P角色的失败是"交付质量不好"，一眼可见；C角色的失败是"引导错误方向"，代价巨大
 4. **防御体系**：P角色+清单体I/O+L1-L2边界构成三层防御，不依赖单一机制
+
+## Critique
+
+- **内部局限**：AI 是 P 角色（producer）不是 C 角色（critic）的判断依赖"角色分工"的共识——AI 的 C 角色能力（批判/审查）在增强（模型推理能力提升）；"P 非 C"的断言可能低估 AI 的批判价值。
+- **外部攻击（人机协作视角）**：AI 作为 C 角色（审稿/批判）已有成熟应用（红队/审查工具）——P/C 二分是"当前能力"快照不是"本质限制"；人机协作的最佳实践是"AI 先 P + 人 C"或"AI P + AI C 双引擎"；"AI 非 C"的极端化会放弃 AI 的批判价值（AI 作为"外部视角"有独立价值）。
 
 ## 与其他知识的关联
 

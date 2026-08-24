@@ -47,9 +47,12 @@ related:
 - yt-panproduct-demand-user-perspective
 - '[[dk-p1-model-switch-env]]'
 tags:
-- audience:general
-- scene:reference
-- skill-level:advanced
+  - audience:general
+  - scene:reference
+  - skill-level:advanced
+  - 产品
+  - 工具
+  - 边界
 ---
 # 源码交付模式
 

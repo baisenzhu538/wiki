@@ -7,9 +7,7 @@ status: reviewed
 confidence: 0.95
 trust_level: high
 domain:
-- feishu
-- extraction
-- browser-automation
+- kdo
 source_context:
   - Live
   - yitang
@@ -31,9 +29,13 @@ related:
 - '[[case-feishu-minutes-extraction-attempt]]'
 - '[[dk-mcp-pythonpath-pollution]]'
 tags:
-  - audience:executor
-  - scene:execution
-  - skill-level:advanced
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - MCP
+  - Agent
+  - 用户
+  - Live
 discoverable_by:
 - 飞书文档提取
 - L3提取

@@ -36,9 +36,16 @@ aliases:
 - 基建唯一执行者
 - huangyaoshi-builder
 tags:
-- audience:executor
-- scene:execution
-- skill-level:advanced
+  - audience:executor
+  - scene:execution
+  - skill-level:advanced
+  - KDO
+  - MCP
+  - Agent
+  - 索引
+  - 卡片
+  - 工作流
+  - 门禁
 ---
 
 # 黄药师 Builder Agent — KDO 基建与脚本工程单一实例（岗位说明书 v1.0）

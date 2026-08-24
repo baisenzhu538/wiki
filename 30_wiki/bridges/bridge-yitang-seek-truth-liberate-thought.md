@@ -39,9 +39,11 @@ diagnostic_signals:
     lens: 培训不够或框架表达不清晰
     follow_up: 用十层解读法重新学习框架
 tags:
-- audience:manager
-- scene:reference
-- skill-level:advanced
+  - audience:manager
+  - scene:reference
+  - skill-level:advanced
+  - 行业
+  - 模型
 discoverable_by:
 - 实事求是
 - 解放思想桥接

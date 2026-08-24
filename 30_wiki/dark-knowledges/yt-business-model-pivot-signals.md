@@ -1,7 +1,7 @@
 ---
 
 domain:
-- business-model
+- strategy
 id: yt-business-model-pivot-signals
 title: 商业模式转型信号：何时该 pivot
 type: dk
@@ -50,9 +50,16 @@ diagnostic_signals:
   framework_lens: 商业模式转型信号——团队信心是转型的重要信号
   follow_up_question: 团队为什么失去信心？是对产品、市场、还是商业模式失去信心？
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 战略
+  - 商业模式
+  - 单元模型
+  - 市场
+  - 转型
+  - 方法
+  - 模型
 ---
 
 
@@ -124,6 +131,11 @@ tags:
 2. **转型时机判断**：及时转型比坚持错误方向更明智
 3. **转型类型指导**：Zoom-in、Zoom-out、客户细分、客户需求、平台、商业模式
 4. **转型决策流程**：识别信号→分析原因→定义方向→验证假设→执行→验证效果
+
+## Critique
+
+- **内部局限**：业务模型 pivot 信号依赖信号识别能力——信号误判（把波动当信号）导致错误 pivot；"pivot 信号"是事后归纳（事前难判断），信号清单有幸存者偏差。
+- **外部攻击（精益视角）**：pivot 决策是精益创业核心（persevere vs pivot）——信号判断应"数据驱动"（指标阈值）而非直觉；"pivot 信号"清单有价值但应配合"验证成本评估"（pivot 太频繁=摇摆，太少=错失）；关键信号（客户留存/付费意愿）权重高于次要信号。
 
 ## 与其他知识的关联
 
