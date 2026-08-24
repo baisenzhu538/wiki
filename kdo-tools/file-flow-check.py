@@ -205,6 +205,8 @@ def check_frozen(files: list[tuple[Path, dict]]) -> list[tuple[str, str, str]]:
     冻结清单运行时从 PROPOSAL-PENDING 段+探针登记历史动态生成（无持久化基线，
     无同步漂移）；改动检测锚点=git HEAD（冻结文件自登记后不应再改，任何未提交
     改动即 diff 命中）。--snapshot/frozen-registry.json 已废弃。
+    窗口口径（#502 补记）：建议书"落盘即冻结"——落盘→探针登记 ≤10min 内
+    改动属登记前（未进冻结清单，不报）；登记后改动才报。
     """
     frozen = frozen_files_from_queue()
     if not frozen:
@@ -279,7 +281,99 @@ def check_id_namespace(files: list[tuple[Path, dict]]) -> list[tuple[str, str, s
     return out
 
 
+# L10 豁免节（#502：任务单冻结检测——四类豁免）
+EXEMPT_SECTIONS = ("## 执行报告", "## 终审记录", "## 返工要求", "## 批次验收记录")
+
+
+def _task_exempt_ranges(text: str, status: str) -> list[tuple[int, int]]:
+    """豁免行范围（#502 王语嫣拍板收严口径）。
+
+    frontmatter 状态字段=queue_transition 独占；终审记录/返工要求/批次验收=
+    流程内写入（无条件豁免）；执行报告节按状态：queued/in_progress（未提审）
+    豁免（complete 前可填），pending_review/reviewed（已提审）**不豁免**
+    （提审后非返工追加→报警）。
+    """
+    lines = text.splitlines()
+    ranges: list[tuple[int, int]] = []
+    # frontmatter：行 1 到第二个 ---
+    fm_end = -1
+    for i, l in enumerate(lines):
+        if i > 0 and l.strip() == "---":
+            fm_end = i
+            break
+    if fm_end != -1:
+        ranges.append((1, fm_end + 1))
+    # 豁免节：节标题到下一个 ##（或文件尾）
+    n = len(lines)
+    posted = status in ("pending_review", "reviewed")
+    for i, l in enumerate(lines):
+        for sec in EXEMPT_SECTIONS:
+            if not l.strip().startswith(sec):
+                continue
+            if sec == "## 执行报告" and posted:
+                continue  # 提审后执行报告节不豁免（#502 拍板收严）
+            end = n
+            for j in range(i + 1, n):
+                if lines[j].strip().startswith("## "):
+                    end = j
+                    break
+            ranges.append((i + 1, end))
+            break
+    return ranges
+
+
+def _in_exempt(line_no: int, ranges: list[tuple[int, int]]) -> bool:
+    return any(s <= line_no <= e for s, e in ranges)
+
+
+def check_task_freeze(files: list[tuple[Path, dict]] | None = None) -> list[tuple[str, str, str]]:
+    """L10（#502）：任务单正文冻结检测——活跃/已闭环任务单 git diff HEAD，
+    非豁免区改动（追加/删节/修改）→ 报警"上板冻结禁止回头改"。只报不自动改。"""
+    import subprocess
+    out = []
+    for fp in sorted(TASK_DIR.glob("task_*.md")):
+        fm = parse_frontmatter(fp)
+        status = fm.get("status", "")
+        # frontmatter 状态值：queued/in_progress（claim 后）/pending_review/reviewed
+        if status not in ("queued", "in_progress", "pending_review", "reviewed"):
+            continue
+        try:
+            r = subprocess.run(["git", "-C", str(WIKI_ROOT), "diff", "--unified=0", "HEAD", "--", str(fp)],
+                               capture_output=True, text=True, encoding="utf-8", errors="ignore",
+                               timeout=30)
+        except OSError:
+            continue
+        if r.returncode != 0 or not r.stdout.strip():
+            continue
+        text = fp.read_text(encoding="utf-8", errors="ignore")
+        exempt = _task_exempt_ranges(text, status)
+        old_line = new_line = None
+        for line in r.stdout.splitlines():
+            if line.startswith("@@"):
+                m = re.match(r"@@ -(\d+)(?:,\d+)? \+(\d+)(?:,\d+)? @@", line)
+                if m:
+                    old_line, new_line = int(m.group(1)), int(m.group(2))
+                continue
+            if old_line is None:
+                continue
+            if line.startswith("+"):
+                ln = new_line
+                new_line += 1
+                if not _in_exempt(ln, exempt):
+                    out.append(("warning", "L10", f"任务单 `{fp.name}` 上板冻结正文改动 L{ln}: +{line[1:55]}"))
+            elif line.startswith("-"):
+                ln = old_line
+                old_line += 1
+                if not _in_exempt(ln, exempt):
+                    out.append(("warning", "L10", f"任务单 `{fp.name}` 上板冻结正文改动 L{ln}: -{line[1:55]}"))
+            elif line.startswith(" "):
+                old_line += 1
+                new_line += 1
+    return out
+
+
 CHECKS = [
+    ("L10 任务单冻结", check_task_freeze),
     ("L1 doc_id 查重", check_doc_id_duplicates),
     ("L2 doc_id 格式", check_doc_id_format),
     ("L3 版本号存在", check_version),

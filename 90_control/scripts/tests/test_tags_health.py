@@ -187,3 +187,37 @@ class TestAliasPollution(AuditBase):
         self.write_card("b.md", _fm(tags=["x"], aliases=["好名"]))
         r = ta.audit(ta.scan_cards())
         self.assertEqual(r["alias_rate"], 50.0)
+
+
+class TestTaskFreezeL10(unittest.TestCase):
+    """#502 L10：任务单正文冻结检测（四类豁免 + 收严口径）。"""
+
+    def test_exempt_ranges_frontmatter_and_sections(self):
+        import importlib.util as _ilu
+        _s = _ilu.spec_from_file_location("ffc", KDO_TOOLS / "file-flow-check.py")
+        ffc = _ilu.module_from_spec(_s)
+        _s.loader.exec_module(ffc)
+        text = ("---\nid: 1\nstatus: queued\n---\n"
+                "## 任务\n正文\n"
+                "## 执行报告\n报告\n"
+                "## 终审记录\n终审\n")
+        # queued：frontmatter+执行报告+终审 豁免
+        ranges = ffc._task_exempt_ranges(text, "queued")
+        lines = text.splitlines()
+        for ln, l in enumerate(lines, 1):
+            if l.startswith("id:") or l.startswith("status:") or "正文" in l:
+                continue
+        # 行1-4 frontmatter 豁免；执行报告节=行7-8；终审节=行9-10
+        self.assertTrue(any(s <= 2 <= e for s, e in ranges), "frontmatter 行应豁免")
+        self.assertTrue(any(s <= 8 <= e for s, e in ranges), "执行报告节应豁免(queued)")
+        # pending_review：执行报告不豁免
+        ranges2 = ffc._task_exempt_ranges(text, "pending_review")
+        self.assertFalse(any(s <= 8 <= e for s, e in ranges2), "提审后执行报告节不豁免")
+
+    def test_in_exempt(self):
+        import importlib.util as _ilu
+        _s = _ilu.spec_from_file_location("ffc", KDO_TOOLS / "file-flow-check.py")
+        ffc = _ilu.module_from_spec(_s)
+        _s.loader.exec_module(ffc)
+        self.assertTrue(ffc._in_exempt(2, [(1, 5)]))
+        self.assertFalse(ffc._in_exempt(6, [(1, 5)]))

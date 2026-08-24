@@ -79,6 +79,7 @@ def main():
             ("check-draft-aging", [], "存量 draft 超龄巡检（#380）"),
             ("full-library-rescan", ["--delta", str(SCRIPTS_DIR.parent / "baseline" / "rescan-baseline.json")], "全库复扫增量报警（#399）"),
             ("check-tags-health", [], "标签健康（#474）"),
+            ("file-flow-check", [], "文件流转规范 L1-L10（#450/#502 含任务单冻结）"),
             ("infra-status", [], "基建资产快照+未登记（#488）"),
             ("recovery-check", [], "事件库恢复副本验证（健壮性 L5）"),
         ])
