@@ -254,6 +254,7 @@ type: memory/role-recovery
 - **#487 复审 PASS A（第 2 轮闭环）**：对照法 7 项全修——段位表按源文重排+发明段位删除+dk Critique 实质双面+related 补链零死链；返工质量超清单（锚点来源说明机制）；卡片 reviewed 标记 7/7 已收尾。FAIL 返工在途清零（#470/#487 均闭环，#498 待返工）
 - **#505 并发写根治 PASS A + 增补件批准生效**：三问全过+pytest 116+21 复跑一致+guard 工具我侧 FRESH 复现+锁名两侧一致；approved_by 落笔欧阳锋，S2 三条约定生效（我自己 commit 已先行遵守 path-scoped+by 署名）
 - **审查卡点建议书已落**：diag_20260825_ouyangfeng-review-bottleneck-wakeup（R1 提审叫醒通道/R2 阻塞链标记/R3 pending_review 年龄 SLA/R4 应急 force）——老朱"反思卡点"指令闭环，待王语嫣裁定
+- **自动审查 cron 已建**（08-25，老朱拍板 15 分钟）：id 01M0TBXX97V5NMM22A2QRTZ4GN，会话级——仅本会话存活+空闲时触发，会话关闭时段靠机器层 R1（建议书在途）；每次触发耗 token（1 分钟方案已否）
 - **注意**：王语嫣 08-25 命名铁律已生效（cc9b928db）——instance 标记只用角色名禁工具名后缀，后续审查按新口径
 
 ### 当前状态（2026-08-24 晚间 · 批次收官 + 3 FAIL 复盘）
