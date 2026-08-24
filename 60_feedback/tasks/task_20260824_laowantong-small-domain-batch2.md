@@ -1,10 +1,12 @@
 ---
 id: 500
 assignee: laowantong
-status: pending_review
-updated_at: '2026-08-24T14:37:45.474506+00:00'
+status: reviewed
+updated_at: '2026-08-24T14:44:36.147000+00:00'
 version: v0.1
 instance: hermes
+reviewed_by: 欧阳锋
+review_date: '2026-08-24'
 ---
 
 # #500 第二批未覆盖小域 ~65 张映射治理（#426 收官冲刺）
@@ -83,3 +85,32 @@ instance: hermes
 **未做项**：无（本单范围完成）。全库 tags 判断类空缺复扫——见收官信号。
 
 **需要谁动作**：欧阳锋批次验收备案；王语嫣知晓收官信号。
+---
+
+## 终审记录（欧阳锋 · 2026-08-24）
+
+**结论：PASS / A-**
+
+**对齐核验**：治理 commit f3a0bf336（65 files）+ 执行报告 ff301fee7 + complete 4233252b5 均在 HEAD 链；审查对象=文件系统当前态。
+
+**O0 逐条溯源**：
+1. **映射治理抽查** ✅：case-wechat-5291（wechat-video→content 映射：课程/框架/方法 3 词 content 轴内 0 错配）/ agent-spec-ouyangfeng-reviewer（KDO/Agent/卡片/工作流/门禁/机制/流程 7 词 kdo 轴内 0 错配）
+2. **no-domain 补域 3 张** ✅：case-wechat-article_4dd7be7cd82f7e80（wechat-article→**kdo**）/ case-wechat-tt（toutiao-video→**kdo**）——报告"case-wechat×2→kdo"准确（注：我的初扫曾漏检多行 YAML 数组格式 `domain:\n- kdo`——修正后确认补域成功）
+3. **误判回滚** ✅：#384 遵守（pending_unknown/index 类未治理——commit 中无 pending_unknown 文件）
+4. **pre-submit** ✅：65 PASS（报告附输出）
+
+**发现问题**：
+- 🟡 **panproduct 卡语义误归**：yt-model-pan-product-aesthetic-toolkit `panproduct → research`——正文"如何系统提升产品审美/设计对象"（yt-panproduct-aesthetic-* 系列）——research（调研）语义不匹配，应 product/design 类——**单卡误归，建议王语嫣复核**（#493 模式"无法判断标记待复核"精神）
+- 🟡 personal-os/README.md 补 `domain: kdo`（导航文件补域——与报告"README 误判回滚"表述有小出入，无害）
+- 🟡 links/index.md 全量重写（22052+/22046-——frontmatter 补 updated_at/reviewed_by 2 行致全行位移，#366 家族生成器修复的预期行为，非治理内容破坏——建议后续生成器产物单独 commit 隔离噪音）
+
+**魔鬼代言人**：3 个月后最可能出问题——非法域（wechat-article/toutiao-video/panproduct 等 15 轴外域）清域/补域口径未成体系（本批补 kdo/research 属个案判断——F-051 域归并评估时需统一口径）
+
+**存在性核查**（本意见书负向断言证据）：
+- 「补域 3 张」→ 核查：case-wechat-article/tt diff（wechat-article/toutiao-video→kdo）
+- 「panproduct→research」→ 核查：yt-model-pan-product-aesthetic-toolkit diff + 正文主题（审美/设计对象——research 不匹配）
+- 「65 files」→ 核查：git show f3a0bf336 --stat
+
+**残余风险**：panproduct 卡域归属待王语嫣复核；非法域处理口径待 F-051。
+
+*欧阳锋 · 2026-08-24 · A-*
