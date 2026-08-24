@@ -1,9 +1,10 @@
 ---
 id: 487
 assignee: laowantong
-status: queued
-updated_at: '2026-08-24T01:30:00+08:00'
+status: in_progress
+updated_at: '2026-08-24T15:00:52.575419+00:00'
 version: v0.1
+instance: hermes
 ---
 # #487 AI口喷必修课卡组生产·2迭代+5新增（Live260 Truman一等口述）
 
