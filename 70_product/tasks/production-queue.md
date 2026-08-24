@@ -329,6 +329,8 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - [gate-blocked] task_20260823_laowantong-addiction-series-caliber｜08-24 23:28｜待王语嫣复核处置｜2026-08-24 22:57:35｜task_20260823_laowantong-addiction-series-caliber｜F-035-负向判词｜意见书含负向断言（缺失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋
 - diag_20260824_fengqingyang-proposal-frontmatter-gate.md｜08-24 23:31｜待王语嫣复核裁定
 - [friction] [fengqingyang] 2026-08-24 23:28｜08-24 23:31｜待王语嫣复核处置｜[fengqingyang] 2026-08-24 23:28｜建议书登记｜本会话 4 份建议书 frontmatter 漂移（to:王语嫣+status:pending）致 conveyor_probe 三元组不命中、未登记，王语嫣队列不可见，已改正并补登｜建议：建议书落盘即跑 probe 验「新登记」回执，frontmatter 三元组校验前置
+- diag_20260824_fengqingyang-l1-l2-evening-audit.md｜08-24 23:57｜待王语嫣复核裁定
+- [gate-blocked] task_20260822_laowantong-tags-judgment-batch｜08-24 23:57｜待王语嫣复核处置｜2026-08-24 23:57:15｜task_20260822_laowantong-tags-judgment-batch｜F-035-意见书｜任务单缺少「## 终审记录」节（#429 F-035：审查意见必须落盘，口头/群里意见=未审查）｜欧阳锋
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
