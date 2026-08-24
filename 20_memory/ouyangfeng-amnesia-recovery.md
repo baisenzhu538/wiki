@@ -276,3 +276,10 @@ type: memory/role-recovery
 - **观察项待办**：37 张双三角卡漏清单（#495 差集 160-147）待王语嫣补列；framework-一堂-关键假设（发起实证卡）未闭环；todos 只增不清
 - **建议书闭环 3 单**：source-refs-null-gate（#495/#496）/ dk-card-tags-word-count（#498 FAIL 返工中）/ 499-rework-pending（情况报告）
 - **恢复**：读 ouyangfeng-context（含出口钩子）+ context + amnesia-recovery（本节）+ daily-context 最新（2026-08-24-claude.md）
+
+## 2026-08-25 第十五场：#508 L1 日期归档终审 PASS A
+
+- **结论**：PASS A。版本对齐（冻结版=01:59 commit 4f6a181f9=提审时刻）；O0 逐行溯源 l1_capture.py 358 行；pytest 84 passed 独立复跑一致；生产态实测：热层仅 2026-08-25/、2026-08-24.zip 11608 文件 testzip 我亲自重跑 OK、游标 11589 条、kdo-l1-archive 计划任务 06:00 已启用
+- **事故披露核验**：474 删除→473 恢复+1 真丢失（hermes/wangyuyan/.skills_prompt_snapshot.json）。负向断言"丢失"触发 #433 门禁——补存在性核查节，四路实测（源目录/三个 zip/热层 find）全确认丢失属实
+- **观察项 5 条**→建议书 `60_feedback/diagnosis/diag_20260825_ouyangfeng-l1-archive-hardening.md`（R1 CRC 抽检/R2 拒删接 gate-blocked/R3 事故上浮全厂 friction 台账，三元组契约已遵守）
+- **门禁教训**：终审记录含"丢失/未见/无"类负向词须附 `**存在性核查**` 锚点节，否则 queue_transition 拦截——先核查再落笔可省一轮返工
