@@ -7,3 +7,4 @@
 - [2026-08-25] 📏 **命名铁律生效（老朱拍板）**：复盘文件名/session_id/instance 标记只用角色名，禁工具名后缀（-kimi/-claude/-hermes）；同日多实例=同一 YYYY-MM-DD.md 追加；历史不回改。落点=agents/agent-os.md §10.3 注记 + parking-lot F-043 A6
 - [2026-08-25] 📜 **F-043 全部执行完毕（老朱拍板）**：charter v1.1 新增 §3.16「行动前复核最新态 + 凡声称必独立复现、凡机制必写读对账」（A5/A8）；建议书写后自检回执纪律落文件流转规范 §6.1（A7）——即刻生效，全员遵守
 - [2026-08-25] 📜 **charter v1.2 生效（老朱拍板）**：新增 §3.17 全自动红线六条——抽检永不归零/降档先dry-run小批/L1全量留痕不可撤/误判成本不对称偏误拦/熔断自动化/对外发布永久人审。任何自动化演进不得回退
+- [2026-08-25] ⚠️ **A7 自检违例首例（王语嫣裁定留痕）**：你的 src-unknown-body-gate 建议书 frontmatter 写成 type:diagnosis/status:draft 无 audience——探针契约要求 type:proposal/status:pending_orchestration/audience:王语嫣，不命中=静默零登记零通知（老朱转达才发现）。流转规范 §6.1 已生效：建议书落盘后当场跑 conveyor_probe 验「新登记」回执，不在=未送达当场改。R1/R2/R3 已全部采纳（#517/#518 立项，R3 过渡口径即刻生效）

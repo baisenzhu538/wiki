@@ -142,6 +142,8 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 514 | `task_20260825_huangyaoshi-quality-metrics-baseline` | 质量指标基线：FAIL率/打回率/拦截率/误判率先跑2周纯统计（不改流程，出基线报告v1） | queued | huangyaoshi | 统计脚本+定时+基线报告 | 风清扬定口径先行 | `60_feedback/tasks/task_20260825_huangyaoshi-quality-metrics-baseline.md` | 风清扬全自动专项审计建议2采纳（老朱08-25令：终极目标只管输入+成果审核）；阶段0硬前提；数据源=gate-blocked/流转记录/force台账；欧阳锋终审 |
 | 515 | `task_20260825_huangyaoshi-machine-pre-review-pipeline` | 机器预审管线：提审单附预审报告（声称-交付差集+lint+负向判词+存在性核查），机器只参考不放行 | queued | huangyaoshi | 预审管线+报告附件 | #514 基线先跑（一致率对照用） | `60_feedback/tasks/task_20260825_huangyaoshi-machine-pre-review-pipeline.md` | 风清扬专项审计建议3采纳；判据欧阳锋定；防自动化偏见（机器建议不入档为结论）；降档需老朱拍板挂F-055；欧阳锋终审 |
 | 516 | `task_20260825_huangyaoshi-wechat-promote-dedup-processed` | wechat_promote去重键补_processed：已门禁判定隔离的卡不再生（一行级+回归） | queued | huangyaoshi | 去重修复+回归用例 | 无 | `60_feedback/tasks/task_20260825_huangyaoshi-wechat-promote-dedup-processed.md` | 王语嫣自办诊断立项（08-25隔离后当夜管线再生2张实证：去重只查PENDING/CASES/RERUN三处不查_processed）；门禁判定被再生击穿=E037隔离与去重键不兼容；欧阳锋终审 |
+| 517 | `task_20260825_huangyaoshi-src-unknown-body-gate` | pre-submit补「正文src_unknown占位」检查项：新卡ERROR/存量WARNING/只向前生效+安慰语口径核 | queued | huangyaoshi | 检查项+回归 | 无 | `60_feedback/tasks/task_20260825_huangyaoshi-src-unknown-body-gate.md` | 欧阳锋建议书R1裁定采纳（存量22871行/1524卡+PASS附安慰语=红线4误拦方向反了）；存量治理归#518；过渡口径R3已生效（欧阳锋见占位即FAIL）；欧阳锋终审 |
+| 518 | `task_20260825_laowantong-src-unknown-body-backfill` | 正文src_unknown存量治理（22871行/1524卡）：三类分流口径+清单先行+#426分批模式 | queued | laowantong | 清单+分批治理 | #517 门禁上线后启动（清单可先行） | `60_feedback/tasks/task_20260825_laowantong-src-unknown-body-backfill.md` | 欧阳锋建议书R2裁定采纳；口径王语嫣裁（可回填回填/无来源标待复核不编造/空壳节标欧阳锋裁定）；清单王语嫣过目后放首批；欧阳锋批次验收 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
 ## ⚖️ 待终审（提审任务，queue_transition 自动登记）
@@ -279,6 +281,8 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~00_inbox/pending-cards/_processed/case-wechat-fe60439837f4c93e.md｜P2｜2619B｜检测到 08-24 16:41｜待王语嫣编排~~ → 已编排（08-25 王语嫣：维持 08-21 原判合并→tool-pdf-inspector，同上判定书）
 - ~~00_inbox/pending-cards/case-wechat-2404c1658025473c.md｜P2｜3247B｜检测到 08-24 16:51｜待王语嫣编排~~ → 已处置（08-25 王语嫣：管线再生副本——同案已判定合并，副本隔离 _processed/*.regen-20260825；再生根因=wechat_promote 去重键不查 _processed，立项 #516 根治）
 - ~~00_inbox/pending-cards/case-wechat-fe60439837f4c93e.md｜P2｜2361B｜检测到 08-24 16:51｜待王语嫣编排~~ → 已处置（同上，#516 根治）
+- 00_inbox/pending-cards/_processed/case-wechat-2404c1658025473c.regen-20260825.md｜P2｜3247B｜检测到 08-24 17:21｜待王语嫣编排
+- 00_inbox/pending-cards/_processed/case-wechat-fe60439837f4c93e.regen-20260825.md｜P2｜2361B｜检测到 08-24 17:21｜待王语嫣编排
 
 <!-- INBOX-PENDING-END -->
 
@@ -355,6 +359,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~diag_20260824_fengqingyang-l1-l2-evening-audit.md｜08-24 23:57｜待王语嫣复核裁定~~ → 编排决策（2026-08-25 王语嫣独立判断）：**部分采纳**——建议 1（daily-context-save 重打改覆盖写+存量多层 frontmatter 清理）立项 **#512**（黄药师 P1）；建议 2（kimi 采集源断流核查）立项 **#513**（黄药师 P1，F-045 全量保存疑似破口）；建议 3（instance 命名规范）**已覆盖**——口径挂 F-043 A6 修订窗口 + INSTANCE_ROLE_MAP 修复随 #503 终审，不重复立项；建议 4（判词「凡声称必独立复现；凡机制必写读对账」入 charter）挂 **F-043 A8** 待老朱拍板；建议 5（codex-homes 启用或归档）**处置=催启用不归档**（F-048 老朱已拍板先补后切，风清扬是试点人——已落其收件箱提醒）
 - ~~[gate-blocked] task_20260822_laowantong-tags-judgment-batch｜08-24 23:57｜待王语嫣复核处置｜2026-08-24 23:57:15｜task_20260822_laowantong-tags-judgment-batch｜F-035-意见书｜任务单缺少「## 终审记录」节（#429 F-035：审查意见必须落盘，口头/群里意见=未审查）｜欧阳锋~~ → 已处置关闭（2026-08-25 王语嫣）：**拦截时序窗口已闭环**——#426 任务单「## 终审记录」节已落（整单终审 PASS A-：26 批+收官批次，全库 tags 空缺 2,799 卡归零双口径复扫属实）；F-035 兜底门禁（O9 机制化）首日拦截即修复实证 ✅
 - ~~diag_20260825_fengqingyang-full-automation-quality-audit.md｜08-25 00:43｜待王语嫣复核裁定~~ → 编排决策（2026-08-25 王语嫣独立判断）：**阶段 0 采纳，分阶段推进不扩范围**——建议 1（事件层升 P1）**#511 已升 P1**；建议 2（质量指标基线）立项 **#514**；建议 3（机器预审管线）立项 **#515**（判据欧阳锋定，依赖 #514 基线对照）；建议 4（写读对账进健康检查）**已覆盖**（#503 已终审闭环，不重复立项）；建议 5（终审抽检降档 100→30→10%）+建议 6（每日成果简报/异常上浮=老朱终态界面）挂停车场 **F-055**（阶段 2/3 内容，降档门槛需老朱拍板）；建议 7（六条红线条款入 charter）**待老朱直接确认**——建议书 §八载明拍板系风清扬转述，生效路径需老朱向王语嫣直证（08-24 拍板转述悬空教训），确认后即入 charter v1.2
+- ~~diag_20260825_ouyangfeng-src-unknown-body-gate.md｜08-25｜待王语嫣复核裁定（人工补登：frontmatter 三元组不符探针契约——type:diagnosis/status:draft 无 audience，探针静默跳过；08-25 老朱转达后对账发现）~~ → 编排决策（2026-08-25 王语嫣）：**R1/R2/R3 全采纳**——R1 立项 **#517**（pre-submit 正文占位检查：新卡 ERROR/存量 WARNING/只向前生效+安慰语口径核）；R2 立项 **#518**（存量 22,871 行/1,524 卡三类分流治理：可回填回填/无来源标待复核不编造/空壳节标欧阳锋裁定；清单先行+#426 分批；#517 上线后启动）；R3 **即刻生效**（过渡口径：#517 上线前欧阳锋终审新卡见正文占位即 FAIL——审查侧纪律不需立项）。**A7 自检违例首例**：建议书落盘未验登记回执（探针零登记零通知，靠老朱转达才发现）——已通知欧阳锋收件箱；near-miss 门禁 #506 排队中，此是第二个活体实证
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
