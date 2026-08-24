@@ -7,13 +7,13 @@ version: v0.1
 instance: huangyaoshi
 ---
 
-# #503 queue_transition claim assignee 写入口径 bug（kimi 实例误写 laowantong）
+# #503 claim 口径族根治（写入口径 + claimed 锁匹配）
 
 - **任务号**：#503
 - **状态**：queued
-- **assignee**：huangyaoshi（改 claim 写入口径+回归用例；王语嫣编排；欧阳锋终审）
-- **优先级**：P1（系统性问题：任何角色用 kimi 实例 claim 任务，frontmatter assignee 都会被错写成 laowantong）
-- **立项**：2026-08-24 王语嫣（#497 claim 实测发现：王语嫣用 `--instance kimi` claim 自己的单，assignee 被写为 laowantong）
+- **assignee**：huangyaoshi（改 claim 写入口径+锁匹配+回归用例；王语嫣编排；欧阳锋终审）
+- **优先级**：P1（系统性问题：①任何角色用 kimi 实例 claim 任务，frontmatter assignee 被错写 laowantong；②claimed 锁匹配失效——老顽童 in_progress 不阻塞自己）
+- **立项**：2026-08-24 王语嫣（#497 claim 实测发现 + 老朱 08-24 报"老顽童串行任务"锁诊断洞A；拍板 #503+洞A 合并执行）
 
 ## 背景
 
@@ -21,16 +21,19 @@ instance: huangyaoshi
 
 claim 写入（action_claim → apply_updates）`assignee=_role_of(instance)` 把任务单 assignee 覆盖为 instance 反推角色——#444 口径（assignee=角色名+instance 另存）的正确语义应是：claim 不改 assignee（保持队列行/任务单原值），instance 字段记录执行实例。
 
+**洞A（老朱 08-24 实证并入）**：`queue_gate.py can_claim` 的"同一实例 claimed 阻塞"检查 `instance in r.get("assignee")`——#444 起 assignee 写角色名，hermes/kimi 实例名永远匹配不上 laowantong（`"hermes" in "laowantong" = False`）→ **老顽童 in_progress 任务从不阻塞自己，可无限并行 claim**。其他角色（实例名=角色名同形）不受影响——bug 只坑 laowantong。流水线实证：08-24 22:23-23:00 老顽童提审 4 单（#499/#500/#498/#495）不等审查，#498 等审期间提审 #495。
+
 ## 任务
 
 1. **claim 写入口径修正**：claim 时 assignee **保持任务单/队列行原值**（不按 instance 反推），只更新 status=in_progress + instance=<执行实例>
 2. **INSTANCE_ROLE_MAP 处理**：移除 `kimi: laowantong`（多角色共用实例不可反推角色；hermes 是否保留待确认——hermes 目前是老顽童专属？若也是多角色则一并移除，统一"claim 不改 assignee"语义）
 3. **回归用例**：王语嫣(kimi) claim 王语嫣单 → assignee 保持 wangyuyan；老顽童(hermes) claim 老顽童单 → assignee 保持 laowantong；A 角色 claim B 角色单（非法场景）→ can_claim 拒绝或 assignee 保持 B
 4. **存量修正**：#497 frontmatter 已手工修正 assignee=wangyuyan（本单实证），其他任务单如被同样误写则复扫修正
+5. **claimed 锁匹配修复（洞A）**：can_claim 的 claimed 阻塞检查弃用 `instance in assignee` 子串匹配，改按执行者维度判定——取 claimed 行的执行实例（status `claimed-<instance>` 前缀或独立字段）与当前 instance 比较；老顽童多实例（hermes/kimi）并行风险可加角色归一（INSTANCE_ROLE_MAP 将实例归一为角色再比）。语义目标：**同一执行者同一时刻最多一个 in_progress**
 
 ## 验证（验证分层）
 
-- L1：单测全过（三场景：同角色 claim 保持/跨角色 claim 拒绝/instance 记录正确）
+- L1：单测全过（四场景：同角色 claim 保持/跨角色 claim 拒绝/instance 记录正确/老顽童 hermes 已有 claimed 时再 claim 被拒）
 - L2 狗粮：王语嫣用 kimi claim 一张测试单，assignee 不再被改写
 - L3 待活体：后续 claim 事件 assignee 不再漂移
 
@@ -46,6 +49,7 @@ claim 写入（action_claim → apply_updates）`assignee=_role_of(instance)` �
 - #444（assignee=角色名+instance 另存口径）
 - #445（角色实例分布映射）
 - E034/E038（执行状态核实纪律——本次发现=claim 后核 frontmatter）
+- 王语嫣 2026-08-24 锁诊断（老朱拍板：洞A 并入本单；洞B/C 另立 #504）
 
 ## 需要谁动作
 
