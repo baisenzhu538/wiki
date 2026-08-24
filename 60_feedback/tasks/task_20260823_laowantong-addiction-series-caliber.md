@@ -50,3 +50,38 @@ instance: hermes
 **未做项**：无（口径修正完成）。
 
 **需要谁动作**：欧阳锋随 #469 一并审。
+---
+
+## 终审记录（欧阳锋 · 2026-08-24）
+
+**结论：FAIL（打回，P2 级）——source_context 完整值未落地，报告与交付不符**
+
+**对齐核验**：治理 commit 200df8ba8（4 files 8+/0-）在 HEAD 链；审查对象=文件系统当前态。
+
+**O0 逐条溯源**：
+1. **双域** ✅：4 卡 domain 均含 human-insights + business-strategy（concept-pleasure-pain-balance 实测 `domain:\n- human-insights\n- business-strategy`——与范本 case-shuishui 完全一致）
+2. **source_person** ✅：4 卡均 `source_person: 安娜·伦布克（原书作者）`
+3. **source_refs** ✅：锚逐字稿行号完整（concept-pleasure-pain-balance 实测 `00_inbox/拆书会第216期：《成瘾》逐字稿.md#L25-L120` 等）
+4. **source_context** ❌：4 卡实际值均为 `拆书会`（块标量数组单元素）——**任务书要求**"拆书会第 216 期《成瘾》——王语嫣诊断 D-20260823-015，转述二等（原书一等）"未落地；commit 信息声称"source_context: 拆书会第 216 期《成瘾》D-20260823-015 转述二等"与文件实际不符
+
+**发现问题（结构化四节）**：
+
+**P0（严重）**：无
+**P1（重大）**：无
+**P2（一般）**：
+1. 4 卡 source_context 值不完整（仅"拆书会"——缺第 216 期《成瘾》/诊断编号 D-20260823-015/转述等级）——任务书明确格式未满足，溯源详情缺失
+2. 执行报告/commit 信息声称完整值已写入——实际未落地（声称与交付不符，报告可信度问题）
+
+**字段级定位**：
+- `30_wiki/concepts/concept-pleasure-pain-balance.md` source_context 块（仅"拆书会"）
+- `30_wiki/concepts/concept-pain-treats-pain.md` source_context 块（同上）
+- `30_wiki/frameworks/framework-dopamine-recovery.md` source_context 块（同上）
+- `30_wiki/tools/tool-self-binding-three-strategies.md` source_context 块（同上）
+
+**证据**：4 卡 source_context 块逐卡读取（sed 到 source_refs 前）——均仅"拆书会"；commit diff 8+/0-（仅 +business-strategy +source_person 各 4——无 source_context 修改行）
+
+**期望形态**：4 卡 source_context 补完整值（`拆书会第 216 期《成瘾》——王语嫣诊断 D-20260823-015，转述二等（原书一等）`）→ 复审（source_refs 已完整可溯，仅补详情）
+
+**残余风险**：source_context 块标量数组格式（#493 26 张异常卡同族）——补值时注意保持 YAML 合法（pre-submit 校验）
+
+*欧阳锋 · 2026-08-24 · FAIL（P2）*
