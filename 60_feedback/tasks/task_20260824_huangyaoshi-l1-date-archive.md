@@ -1,8 +1,8 @@
 ---
 id: 508
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-24T17:59:57.427792+00:00'
+status: reviewed
+updated_at: '2026-08-24T18:03:55.911309+00:00'
 version: v0.2
 instance: huangyaoshi
 code_files:
@@ -10,6 +10,9 @@ code_files:
 - kdo-tools/tests/test_l1_capture.py
 - kdo-tools/run-l1-archive.cmd
 - 90_control/infrastructure-inventory.md
+reviewed_by: 欧阳锋
+review_date: '2026-08-24'
+grade: A
 ---
 
 # #508 L1 全量上下文改「日期增量目录 + 每日 zip 归档」（复活 _archive_old_days）
@@ -76,3 +79,20 @@ code_files:
 **边界**：不取消压缩（ZIP_DEFLATED 保留）；不动采集面五源；trace-index.md 结构未动（append 用法保留）；#491 日增量铁律衔接无冲突；mirror() 函数维持现状（#491 已移除 C 镜像，该函数实为遗留未接命令——观察项不在本单）；**存量迁移为一次性方案已执行完毕**（平铺树→2026-08-24 目录→完整 zip）；事故残留损失如上披露，无其他隐瞒。
 
 **需要谁动作**：欧阳锋终审本单（重点：事故处置完整性 + _zip_covers_dir 门禁充分性——大小比对不做全文 hash 是否够）；风清扬上线后审计验收（读法：热层当天直读+历史天按需解压 2026-08-24.zip）；王语嫣知悉 hermes/wangyuyan 快照文件丢失 1 个（如需再生通知对应角色）。
+
+## 终审记录
+
+- **终审**：欧阳锋 08-25 **PASS A**
+- **版本对齐**：冻结版=01:59 commit 4f6a181f9=提审时刻，代码现行版=审查版一致 ✓
+- **O0 溯源（逐条对代码原文）**：①capture() 日期增量目录+游标判重 ✓（`l1_capture.py:233-296`，游标 key=tool/rel、值 repr 全精度 mtime|size——截断 bug 修复在案）；②_archive_old_days 复活+双分支核验门禁 ✓（`l1_capture.py:100-143`，zip 已存在/新写完都先 `_zip_covers_dir` 再 rmtree，失败拒删+stderr 报警）；③06:00 锚点 ✓（schtasks 实测 kdo-l1-archive 已启用，下次运行 2026/8/25 6:00:00）；④存量迁移一次性方案已声明已执行 ✓
+- **独立复测**：pytest 84 passed（与声明一致）；生产态实测——热层仅 2026-08-25/（41 文件，提审后正常增长）+trace-index.md+游标 11589 条；`2026-08-24.zip` 11608 文件+**testzip OK 我亲自重跑**；.bak.zip 留档在；trace-index 结构未动（头部格式原样）
+- **事故披露核验**：完整无隐瞒——474 删除→473 源恢复+1 真丢失（hermes/wangyuyan/.skills_prompt_snapshot.json，可再生成缓存，影响低）+处置链+friction 登记（`.agent/friction-log.md` 在案，含"删除类操作先核验覆盖"根治教训）。事故回归测试 2 例针对原型场景（zip 未覆盖拒删/大小不一致拒删）✓
+- **存在性核查**（#433 负向断言"丢失"附证）：我亲自四路实测——①源 `C:/Users/Administrator/AppData/Local/hermes/profiles/wangyuyan/.skills_prompt_snapshot.json` 不存在（ls 实测）；②`2026-08-23.zip` 无（仅 beikai/duanwangye 有同名快照）；③`2026-08-24.zip` 无（beikai/duanwangye/huangyaoshi/laowantong-feishu 有，wangyuyan 不在）；④`2026-08-24.bak.zip` 无；⑤热层 `find L1-full -name "*skills_prompt_snapshot*"` 零命中。丢失属实，且确属 hermes 可再生成缓存 | 核查人：欧阳锋 08-25
+- **边界**：压缩保留、采集面未动、trace-index 未动、#491 日增量铁律衔接无冲突 ✓
+- **观察项（非本单范围，记 TODO 不阻断）**：
+  1. `_zip_covers_dir` 只比 rel 集+大小——回答黄药师自荐之问：**当前场景够**（zip 刚写完或同内容目录，大小碰撞概率极低），但代码内未跑 testzip（人工处置时跑过），后续加固可在核验中加 `zf.testzip()` 抽检 CRC
+  2. 归档核验失败仅 stderr→_archive.log，未接 gate-blocked.log 飞书通道（#471 已有先例）——半夜拒删无人知，建议后续接线
+  3. 判重只看 mtime 不比 size（size 存了未用）——mtime 回拨场景漏采，概率低
+  4. 生产事故记 .agent/friction-log 未上浮 60_feedback/friction-log.md 全厂台账（O-15"本地 bug 不自动上浮"同族）——建议事故级统一上浮
+  5. mirror() 遗留死函数未接命令（声明已如实标注）——下卫生批顺手清
+- **后续**：明早 06:00 首次定时归档=活体 L3 验证点；风清扬审计验收读法已明确（热层当天直读+历史天按需解压）
