@@ -159,18 +159,32 @@ def can_claim(task_id: str, rows: list[dict] | None = None, instance: str = "") 
         ids = ", ".join(f"#{r['seq']} {r['task_id']}" for r in earlier_pending)
         return False, f"队列前方还有 pending_review 任务未终审：{ids}。必须等它们 reviewed 后才能领取 {task_id}"
 
-    # claimed 阻塞规则：只有同一实例的 claimed 才阻塞
+    # claimed 阻塞规则（#503 洞A 根治）：同一执行者同一时刻最多一个 in_progress。
+    # 旧实现 `instance in r.get("assignee")` 子串匹配在 #444 写侧改角色名后静默失效
+    # （"hermes" in "laowantong" = False → 老顽童 in_progress 从不阻塞自己，可无限并行）。
+    # 修复后按两个维度判定"同一执行者"：
+    #   ① status 前缀 claimed-<instance> 与当前 instance 相同（同实例）；
+    #   ② claimed 行 assignee（#444 起为角色名）与本次领取任务的 assignee 相同
+    #      （同角色——覆盖老顽童 hermes/kimi 多实例并行；kimi 多角色共用场景按任务
+    #      归属角色判定，领取谁的单就以谁的角色身份入锁）。
+    def _same_executor(r: dict) -> bool:
+        if r["task_id"] == task_id:
+            return False
+        if r["status"] == f"claimed-{instance}":
+            return True
+        cur_role = (task.get("assignee") or "").strip()
+        if cur_role and r.get("assignee", "").strip() == cur_role:
+            return True
+        return False
+
     if instance:
-        same_instance_claimed = [
-            r for r in claimed
-            if r["task_id"] != task_id and instance in r.get("assignee", "")
-        ]
+        same_instance_claimed = [r for r in claimed if _same_executor(r)]
     else:
         same_instance_claimed = [r for r in claimed if r["task_id"] != task_id]
 
     if same_instance_claimed:
         ids = ", ".join(f"#{r['seq']} {r['task_id']}" for r in same_instance_claimed)
-        return False, f"你的实例 {instance} 还有 claimed 任务未释放：{ids}。必须等它们释放后才能领取 {task_id}"
+        return False, f"你（实例 {instance} / 同角色）还有 claimed 任务未释放：{ids}。必须等它们释放后才能领取 {task_id}"
 
     return True, f"任务 {task_id} 可领取"
 

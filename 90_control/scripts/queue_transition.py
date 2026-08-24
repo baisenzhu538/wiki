@@ -468,9 +468,12 @@ def _check_disposal_gate(task_file: Path, fm: dict[str, Any], task_id: str) -> t
 
 
 # #444 instance→角色名映射：frontmatter assignee 只写角色名，instance 另存。
-# 老顽童多实例（hermes=飞书 / kimi=Kimi CLI）统一映射 laowantong；其余角色 instance 与角色名同形。
+# 老顽童 Hermes CLI 实例映射 laowantong（#445：hermes=老顽童专属）；其余角色 instance 与角色名同形。
+# #503 修正：kimi 是多角色共用实例（王语嫣/欧阳锋/老顽童均用 Kimi CLI，#445）——
+# 按 instance 反推角色在 kimi 上是系统性错误（#497 claim 实测：王语嫣单被错写 laowantong），
+# 已从映射移除。claim 写侧不再按 instance 反推覆盖 assignee（保持任务单/队列行原值）。
 # 存量任务单 assignee=实例名不回改（读侧兼容，历史既往不咎）。
-INSTANCE_ROLE_MAP = {"hermes": "laowantong", "kimi": "laowantong"}
+INSTANCE_ROLE_MAP = {"hermes": "laowantong"}
 
 
 def _role_of(instance: str) -> str:
@@ -510,7 +513,10 @@ def action_claim(task_id: str, instance: str, force: bool = False) -> tuple[bool
         # #444 frontmatter 口径：assignee=角色名（文档署名单一口径，E020/E045 同病根治）；
         # 实际执行实例另存 instance 字段。存量任务单 assignee=实例名（如 hermes）不回改——
         # 读侧兼容（REVIEW-PENDING 登记显示原值），历史既往不咎。
-        apply_updates(task_id, new_status, task_file, assignee=_role_of(instance),
+        # #503 口径修正：claim 不改 assignee（保持任务单/队列行原值）——kimi 是多角色共用
+        # 实例，按 instance 反推角色必然错写（#497 实证：王语嫣单被覆盖成 laowantong）。
+        # claim 只更新 status=in_progress + instance=<执行实例>。
+        apply_updates(task_id, new_status, task_file,
                       instance=instance, status="in_progress")
 
     ws_note = ensure_task_workspace(task_id, task_file)

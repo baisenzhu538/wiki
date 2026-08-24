@@ -415,9 +415,9 @@ class TestForceLedgerAndEvidenceGate(unittest.TestCase):
                 qt.FORCE_LEDGER = orig
 
     def test_role_of_instance_mapping(self):
-        """#444 口径：instance→角色名映射（hermes/kimi→laowantong；其余同形）。"""
+        """#444 口径 + #503 修正：hermes→laowantong（专属实例）；kimi 多角色共用不再反推（回退同形）。"""
         self.assertEqual(qt._role_of("hermes"), "laowantong")
-        self.assertEqual(qt._role_of("kimi"), "laowantong")
+        self.assertEqual(qt._role_of("kimi"), "kimi")  # #503：kimi=王语嫣/欧阳锋/老顽童共用，不可反推
         self.assertEqual(qt._role_of("huangyaoshi"), "huangyaoshi")
         self.assertEqual(qt._role_of("wangyuyan"), "wangyuyan")
         self.assertEqual(qt._role_of("ouyangfeng"), "ouyangfeng")
@@ -667,3 +667,123 @@ class TestIssueDispositionGate(unittest.TestCase):
     def test_no_issue_section_passed(self):
         ok, _ = qt._check_issue_disposition("**结论**：PASS / A-\n")
         self.assertTrue(ok)
+
+
+# ── #503 claim 口径族根治回归（claim 保持 assignee 原值 + claimed 锁匹配洞A）──
+
+class TestClaimAssigneePreserved(unittest.TestCase):
+    """#503：claim 不按 instance 反推覆盖 assignee——只写 status + instance。"""
+
+    def _setup(self, assignee):
+        self._tmpdir = Path(tempfile.mkdtemp())
+        self._task_fp = self._tmpdir / "task_9999_503test.md"
+        self._task_fp.write_text(
+            f"---\nid: 9999\nassignee: {assignee}\nstatus: queued\n---\n# t\n",
+            encoding="utf-8")
+        self._queue_fp = self._tmpdir / "production-queue.md"
+        self._queue_fp.write_text("# 队列\n", encoding="utf-8")
+        self._rows = [{
+            "seq": "9999", "task_id": "task_9999_503test", "name": "测试",
+            "status": "queued", "assignee": assignee, "raw": "",
+        }]
+        self._olds = (qt.parse_queue, qt.find_task, qt._find_task_file_dual,
+                      qt.update_queue_status, qt.QUEUE_PATH)
+        qt.parse_queue = lambda: self._rows
+        qt.find_task = lambda tid, rows=None: (
+            self._rows[0] if tid == "task_9999_503test" else None)
+        qt._find_task_file_dual = lambda tid: self._task_fp
+        qt.update_queue_status = lambda tid, st: None
+        qt.QUEUE_PATH = self._queue_fp
+
+    def _teardown(self):
+        (qt.parse_queue, qt.find_task, qt._find_task_file_dual,
+         qt.update_queue_status, qt.QUEUE_PATH) = self._olds
+
+    def _fm(self):
+        fm, _ = qt.parse_frontmatter(self._task_fp)
+        return fm.get("assignee"), fm.get("instance"), fm.get("status")
+
+    def test_kimi_claim_keeps_wangyuyan(self):
+        """#497 实证场景：王语嫣(kimi) claim 王语嫣单 → assignee 保持 wangyuyan，instance 记 kimi。"""
+        self._setup("wangyuyan")
+        try:
+            ok, msg = qt.action_claim("task_9999_503test", "kimi")
+        finally:
+            self._teardown()
+        self.assertTrue(ok, msg)
+        assignee, instance, status = self._fm()
+        self.assertEqual(assignee, "wangyuyan")
+        self.assertEqual(instance, "kimi")
+        self.assertEqual(status, "in_progress")
+
+    def test_hermes_claim_keeps_laowantong(self):
+        """老顽童(hermes) claim 老顽童单 → assignee 保持 laowantong，instance 记 hermes。"""
+        self._setup("laowantong")
+        try:
+            ok, msg = qt.action_claim("task_9999_503test", "hermes")
+        finally:
+            self._teardown()
+        self.assertTrue(ok, msg)
+        assignee, instance, status = self._fm()
+        self.assertEqual(assignee, "laowantong")
+        self.assertEqual(instance, "hermes")
+
+    def test_cross_role_claim_keeps_original_assignee(self):
+        """跨角色 claim：assignee 保持任务单原值（不被执行实例反推覆盖）。"""
+        self._setup("wangyuyan")
+        try:
+            ok, msg = qt.action_claim("task_9999_503test", "huangyaoshi")
+        finally:
+            self._teardown()
+        self.assertTrue(ok, msg)
+        assignee, instance, _ = self._fm()
+        self.assertEqual(assignee, "wangyuyan")
+        self.assertEqual(instance, "huangyaoshi")
+
+
+class TestClaimedLockMatching(unittest.TestCase):
+    """#503 洞A：同一执行者（同实例或同角色）已有 claimed → 阻塞；不同角色不阻塞。"""
+
+    def _rows(self, entries):
+        return [{"seq": str(i), "task_id": tid, "name": "n", "status": s,
+                 "assignee": a, "raw": f"| {i} | `{tid}` | n | {s} | {a} |"}
+                for i, (tid, s, a) in enumerate(entries)]
+
+    def test_same_role_blocks_multi_instance(self):
+        """洞A 实证场景：kimi 已 claim 老顽童单 → hermes 再 claim 另一张老顽童单被拒。"""
+        rows = self._rows([
+            ("task_a", "claimed-kimi", "laowantong"),
+            ("task_b", "queued", "laowantong"),
+        ])
+        ok, msg = qg.can_claim("task_b", rows, "hermes")
+        self.assertFalse(ok)
+        self.assertIn("task_a", msg)
+
+    def test_same_instance_blocks(self):
+        """同实例：claimed-hermes 在前 → hermes 再 claim 被拒（旧子串匹配失效点）。"""
+        rows = self._rows([
+            ("task_a", "claimed-hermes", "laowantong"),
+            ("task_b", "queued", "laowantong"),
+        ])
+        ok, msg = qg.can_claim("task_b", rows, "hermes")
+        self.assertFalse(ok)
+        self.assertIn("task_a", msg)
+
+    def test_different_role_not_blocked(self):
+        """不同角色的 claimed 不阻塞：王语嫣单 claimed-kimi → 黄药师 claim 黄药师单放行。"""
+        rows = self._rows([
+            ("task_a", "claimed-kimi", "wangyuyan"),
+            ("task_b", "queued", "huangyaoshi"),
+        ])
+        ok, msg = qg.can_claim("task_b", rows, "huangyaoshi")
+        self.assertTrue(ok, msg)
+
+    def test_legacy_instance_name_assignee_still_blocks(self):
+        """存量兼容：claimed 行 assignee 是旧实例名（未回改）→ status 前缀维度仍拦住同实例。"""
+        rows = self._rows([
+            ("task_a", "claimed-hermes", "hermes"),
+            ("task_b", "queued", "laowantong"),
+        ])
+        ok, msg = qg.can_claim("task_b", rows, "hermes")
+        self.assertFalse(ok)
+        self.assertIn("task_a", msg)
