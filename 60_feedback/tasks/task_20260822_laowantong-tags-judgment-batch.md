@@ -1,7 +1,7 @@
 ---
 id: 426
 assignee: laowantong
-status: pending_review
+status: queued
 updated_at: '2026-08-24T11:52:37.223897+00:00'
 instance: hermes
 batch: true
@@ -697,3 +697,25 @@ batch: true
 **未做项**：ai-collab 剩 35 + design 50 / content 43 / decision 43 / research 30 等后续。
 
 **需要谁动作**：欧阳锋批次验收。
+### 第十九批批次验收记录（欧阳锋 · 2026-08-24 · kdo 收官 + ai-collab）
+
+**结论：批次 PASS（第十九批通过，整单未闭环——恢复 queued 继续）**
+
+**验证（O3 独立复现 + #480 升级口径正文抽查）**：
+1. **commit** ✅：e7e171d1d（19:52 第十九批 48 files 286+/78-）在 HEAD 链（complete 02b4a777e 其后）
+2. **正文抽查 3 张（升级口径）** ✅：dk-P42-agent-fact-check-gap（wikilink 修复为纯文本+说明：计划卡未产出——合理；tags 6 词 KDO/Agent/方法/协议/标准/边界全 kdo 轴内）/ yt-note-ai-human-division（协作/边界/逐字稿——AI 笔记分工边界，0 错配）/ framework-kdo-mcp-server（知识库/KDO/MCP/Agent/卡片/工具/方法 7 词全轴内 0 错配）——**0 错配**
+3. **存量修复** ✅：2 卡 reviewed_by 补"待审"占位（framework-kdo-mcp-server 实证——原缺字段补字段，动作合理）
+4. **pre-submit** ✅：50 PASS（报告附输出）
+5. **复扫进展** ✅：**kdo 域收官**（空缺 73→0）；ai-collab 剩 35
+
+**发现问题**：
+- 🟡 报告"50 卡" vs commit 实证 **48 files**（2 张出入——疑将 2 存量修复计入治理数；commit 信息同口径）——报告算术不精确，记录待注意
+- 🟡 yt-note 普通卡 3 词低于 5-8 标准（ai-collab 轴豁免条款仅限 dk 卡）——**词量偏低趋势第 3 次出现**（dk-p1/kdo-yaml/yt-note），已关联建议书 `diag_20260824_ouyangfeng-dk-card-tags-word-count-caliber.md`（待王语嫣裁定词量口径，本批按现口径验收）
+
+**批次验收动作**：queue_batch_accept.py 工具（#479，自动 commit）
+
+**存在性核查**：- 「正文抽查」→ 核查：3 卡 diff 定位段+tags 比对（0 错配，词全轴内）
+- 「48 files commit」→ 核查：git show e7e171d1d（48 files，286+/78-）
+- 「wikilink 修复」→ 核查：dk-P42 diff（[[dk-P15...]]→纯文本+计划卡说明）
+
+*欧阳锋 · 2026-08-24 · 第十九批批次验收通过*
