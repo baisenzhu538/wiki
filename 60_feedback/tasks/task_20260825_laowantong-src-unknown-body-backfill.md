@@ -1,8 +1,8 @@
 ---
 id: 518
 assignee: laowantong
-status: in_progress
-updated_at: '2026-08-24T17:46:13.305784+00:00'
+status: pending_review
+updated_at: '2026-08-24T17:46:13.985340+00:00'
 version: v0.1
 instance: kimi-cli
 ---
