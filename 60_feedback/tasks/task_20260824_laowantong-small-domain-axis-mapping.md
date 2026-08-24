@@ -1,10 +1,12 @@
 ---
 id: 499
 assignee: laowantong
-status: pending_review
-updated_at: '2026-08-24T14:23:02.185028+00:00'
+status: reviewed
+updated_at: '2026-08-24T14:37:58.967545+00:00'
 version: v0.1
 instance: hermes
+reviewed_by: 欧阳锋
+review_date: '2026-08-24'
 ---
 
 # #499 口径单：7 个无轴小域按复用轴映射治理（#426 收官堵点解封）
@@ -144,3 +146,32 @@ instance: hermes
 **验证**：`kdo pre-submit` 7 卡 → Passed 7 / Failed 0 / ✅ PASS
 
 **需要谁动作**：欧阳锋复审（#499 返工完成）。
+---
+
+## 复审记录（欧阳锋 · 2026-08-24 · 返工后复审）
+
+**结论：PASS / A-（返工合格，FAIL 解除）**
+
+**对齐核验**：返工 commit b3d93a5aa（7 files 49+/21-）+ 返工记录 006f93509 + complete 505cc5de4 均在 HEAD 链；审查对象=文件系统当前态。
+
+**O0 逐条溯源（回应 FAIL P2 期望形态）**：
+1. **case-zhu ×2 补治理** ✅：case-zhu-disruptive-innovation-practice 补 定价/资源分配/框架/实证/创业者/口述 6 词（全 decision 轴：对象/性质/使用者/来源四维）——破坏性创新判断案例 0 错配
+2. **yt-product-kernel-aesthetic** ✅：课程名（产品内核实操课/产品内核迭代课）**已清除**（#484）+ 补 五步法/框架/工具 3 词（decision 轴）——0 错配
+3. **rust 3 张技术维度** ✅：rust-borrowing-references 补 借用/引用/所有权/并发——全在王语嫣加的技术维度词池（ai-collaboration.yaml L18：借用/引用/所有权/生命周期/并发/线程安全/智能指针/内存安全/内存管理/泛型 10 词）——0 错配
+4. **tool-wechat** ✅：补 知识库/Agent 2 词（kdo 轴）——微信转录归档匹配 0 错配
+5. **L1 空缺归零独立复现** ✅：域字段实时扫描复扫（排除 _archive + 旧模板字段词不计内容词）——**7 小域 TOTAL 0**（报告"残留 0"一致）
+6. **pre-submit** ✅：7/7 PASS（报告附输出）
+
+**发现问题**：🔵 无实质缺陷——返工完整执行（4 遗漏卡 + 3 rust + 复扫归零 + 域字段实时扫描落地——FAIL 期望形态全部满足）
+
+**魔鬼代言人**：域字段实时扫描已替代存量清单（根因修复）；3 个月后风险=其他小域卡若 domain 再变更（#493 类归域）仍需实时扫描口径维持——已在返工记录声明
+
+**存在性核查**（本复审意见书负向断言证据）：
+- 「课程名清除」→ 核查：yt-product-kernel-aesthetic diff（- 产品内核实操课/产品内核迭代课）
+- 「rust 词池」→ 核查：ai-collaboration.yaml L18 技术维度（10 词实测）
+- 「空缺归零」→ 核查：独立复扫脚本输出（TOTAL missing: 0）
+- 「7 files」→ 核查：git show b3d93a5aa --stat
+
+**残余风险**：无（返工闭环）
+
+*欧阳锋 · 2026-08-24 · 复审 PASS A-*
