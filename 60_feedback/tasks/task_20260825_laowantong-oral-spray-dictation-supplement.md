@@ -1,8 +1,8 @@
 ---
 id: 529
 assignee: laowantong
-status: in_progress
-updated_at: '2026-08-25T15:23:12.007324+00:00'
+status: pending_review
+updated_at: '2026-08-25T15:32:53.771561+00:00'
 version: v0.1
 instance: kimi-cli
 code_files:
@@ -49,3 +49,33 @@ code_files:
 
 - 同构映射表+新增 3 张+补强 3 张；专名校核记录（哪些按 Live260 改正）
 - pre-submit 通过；欧阳锋批次验收
+
+---
+
+## 执行报告（F-034 五字段 · 2026-08-25 老顽童 kimi-cli）
+
+**文件清单**：新增 3 张（tool-oral-spray-demo-prompts-3samples / tool-oral-spray-into-doc-not-chatbox / dk-oral-spray-training-vs-task-optimal）+ 补强 3 张（framework-oral-spray-cultivation-map / dk-oral-spray-newcomer-blockers / concept-oral-spray-multi-agent-parallel，均追加节不覆写）。
+
+**完成内容**：新增 3 张卡（示范提示词三样本/喷文档不喷聊天框/训练 vs 任务最优 dk）+ 补强 3 张卡（段位判据/错别字二分+防丢稿/00 文档工作法），同构映射表+专名校核记录如下；~95% 重复内容未重复建卡。
+
+**同构映射表**（口述 6424 行 ~95% 与 Live260 重复部分逐条去向）：
+
+| 素材内容 | 处置 | 落点 |
+|:--|:--|:--|
+| 五大优势/四难/五次飞跃/段位地图/OPT/战略级基本功（A+B 版主体 ~95%） | 已有卡覆盖，不重复建卡 | Live260 卡组（#487 已终审 PASS A） |
+| 三段即兴示范提示词原文（A264-308/A378-436/A502-568） | **新增** | tool-oral-spray-demo-prompts-3samples |
+| 喷文档不喷聊天框+配套提示词（A1622-1672） | **新增** | tool-oral-spray-into-doc-not-chatbox |
+| 喷干净=训练最优≠任务最优（A2716-2726）+500=5000（A1094-1098） | **新增** | dk-oral-spray-training-vs-task-optimal |
+| L3 可检测线/L4 五分钟判定/L5 五配套/独家数据（A2184/A2448/B5616-5630/B6066-6082/B6010-6016） | 补强 | framework-oral-spray-cultivation-map（追加节） |
+| 错别字二分标准（A1500-1506）+防丢稿四招细节（A1864-1880） | 补强 | dk-oral-spray-newcomer-blockers（追加节） |
+| 00 顶层文档工作法（B5812-5840）+设备贡献<10%（B6126） | 补强 | concept-oral-spray-multi-agent-parallel（追加节） |
+
+**专名校核记录**（按 Live260 精编版口径校，STT 仅作行号定位）：Open Cloud→OpenClaw / harmless、C Harness→Hermes / Abacc、SBC→ABACC（SBC 待核已注明）/ 九四九→九字诀 / 智谱·质谱→智谱、搜狗说法→搜狗输入法 / 文身图→文生图 / A 站→Agent / 《麻烦脑》文档名待核未改原文。校注表嵌在 tool-oral-spray-demo-prompts-3samples 卡内。
+
+**诚实标注**：B6014「150 分钟喷两万多次」与「均 153 字」乘积不合理（≈300 万字），按口述原文引用并加注「数字待核」（疑为「两万多字」或「一百三十多次」——130×153≈2 万字自洽）。
+
+**验证**：`kdo index` 重建（4149 docs）→ pre-submit 6 文件 **Passed 6 / Failed 0**（WARNING 为存量级不阻断）；锚点区间逐字精读（A264-568/A1094/A1500-1506/A1622-1672/A1864-1880/A2184/A2448/A2716-2726/B5616-5630/B5812-5840/B6010-6016/B6066-6082/B6124-6128）；feat commit 先行（6 文件 path-scoped）。
+
+**未做项**：无（B 版 >2802 已按任务书先去重，仅取 5614 起 B 独有段）。
+
+**需要谁动作**：欧阳锋批次验收（P1 口径：6 层交叉过来源/逻辑两层——来源=口述原文逐字锚，逻辑=同构映射不重复建卡）。
