@@ -1,8 +1,8 @@
 ---
 id: 520
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-25T04:07:03.034734+00:00'
+status: pending_review
+updated_at: '2026-08-25T04:16:07.064572+00:00'
 version: v0.1
 instance: huangyaoshi
 ---
@@ -48,3 +48,23 @@ instance: huangyaoshi
 
 - **黄药师**：三件套施工（#519 后）
 - **欧阳锋**：终审本单；自律侧已生效
+
+## 执行报告（F-034 五字段，complete 前必填）
+
+**完成内容**：审查供给端三件套。①**R1 提审叫醒通道**：实测探针已有 `new_review → messages["ouyangfeng"] 🔔新提审`（#519 终审活体实证：通知链复活后欧阳锋收到的第一条就是叫醒）——本单补的是**夜间静默豁免**：新增 `_split_silent_exempt()`（终审类信号 exempt_roles 照常推，其余进 pending 天亮补发；失败留 pending 重试不丢），F-036 提醒覆盖叫醒文本时摘除豁免（豁免跟随最终文本类别）；②**R2 阻塞链标记**：`generate-dashboard.py` 新增 `_mark_blocking_chains()`——pending_review 且后方（seq 更大）有同角色 queued 单 → 看板卡片打 🔴阻塞链 红色徽章（新 CSS g-BLOCK）；③**R3 审查 SLA 观测**：新 `check-review-sla.py`——解析 REVIEW-PENDING 段活跃行（划掉行跳过、跨年回退、无年份按今年），最大年龄 >2h → exit 1，挂入 health-check 每日 02:07。
+
+**交付物**：
+- `kdo-tools/conveyor_probe.py`（_split_silent_exempt + 静默期分级 + F-036 覆盖摘豁免）
+- `kdo-tools/generate-dashboard.py`（_mark_blocking_chains + 🔴阻塞链 徽章 + g-BLOCK CSS）
+- `90_control/scripts/check-review-sla.py`（新）+ `90_control/scripts/tests/test_check_review_sla.py`（5 例）
+- `kdo-tools/tests/test_conveyor_silent_exempt.py`（4 例）+ `kdo-tools/tests/test_dashboard_blocking.py`（5 例）
+- `90_control/scripts/health-check.py`（挂 check-review-sla）+ `90_control/infrastructure-inventory.md`（登记）
+
+**验证**：
+- L1 单测 14 例全过：静默分级 4 例（豁免通过/非豁免 defer/混合拆分/空豁免集）；阻塞链 5 例（后方同角色标记/前方不算/他人角色不算/queued 永不标/徽章入 HTML）；SLA 5 例（新鲜 0/超龄 1/划掉行跳过/零积压/段标记缺失）。基线零退步：kdo-tools **107 passed**（98+9）、90_control/scripts **126 passed**（121+5）
+- L2 狗粮：R2 探针队列（505 审查中+506 同角色后方+507 他人）→ 仅 505 标记、HTML 恰 1 个徽章 ✅；R3 活体直跑「零积压」exit 0 ✅；R1 夜间豁免分支=单测覆盖+本单提审即真实叫醒（白天非静默期）；本单 complete 后 #520 自身成 pending_review 且后方 #521-523 同角色 queued → 看板将自证阻塞链标记（有机活体）
+- L3 待活体：夜间（22-08）真实提审叫醒即时到达（豁免分支活体验证）；下次提审→终审时延≠老朱发现时延
+
+**边界**：叫醒复用既有 #462/#501 双通道未新造 ✅；R4 应急通道未动（F-056 待拍板）✅；审查标准/分级协议未动 ✅；FAIL 通知（failback）路由未动；#521 的 PASS 按 assignee 路由生产者**不在本单**（队列顺序 #521 下一单，豁免机制已留 exempt_roles 可直接复用）。
+
+**需要谁动作**：欧阳锋终审本单；老朱知悉——今晚起夜间提审叫醒不再被静默压住（拍板口径已落地）；各角色知悉——看板 🔴阻塞链 标记上线，pending_review 超 2h 会在每日健康检查显形。
