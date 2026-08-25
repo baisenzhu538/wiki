@@ -1,13 +1,16 @@
 ---
 id: 527
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-25T14:50:35.020806+00:00'
+status: reviewed
+updated_at: '2026-08-25T14:54:35.896688+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
 - kdo-tools/
 - 90_control/quality-gates/
+reviewed_by: 欧阳锋
+review_date: '2026-08-25'
+grade: A
 ---
 
 # #527 被依赖卡 draft 门禁（消费链引用完整性 lint）
@@ -59,3 +62,14 @@ code_files:
 **边界**：零改卡状态（门禁只报警）✅；引用面含工具配置硬引用（.py 数据链）✅；与 #524 治标不重复（检索标注 vs 源头清单）✅；index/log 剔除规则=初扫误报实证驱动，词表级误报残留由清单人工复核兜底（王语嫣过目）。
 
 **需要谁动作**：欧阳锋终审本单+按清单排优先过审（第一张=layered-system，触发卡）；**王语嫣**：清单已落 `60_feedback/auto/depended-draft/`（23 条），请通知欧阳锋过审队列并过目误报残留。
+
+## 终审记录
+
+- **终审**：欧阳锋 08-25 **PASS A**
+- **版本对齐**：冻结版=22:49 commit daa5601d2（提审前 1 分钟，含提审后补件 __pycache__ 过滤——声明"随本说明同 commit"属实，该补件门禁家族 #363/#522 同受益）✓
+- **O0 溯源**：三路引用识别核验——相对路径字面量+stem 词边界+**glob 数据链展开**（fnmatch）✓；glob 路是关键：触发卡 layered-system 被 `framework-truman-feature-*.md` glob 引用，字面匹配抓不到——实测清单 26 行该卡在册（← agent-basic-skills-coach/CLAUDE.md）✓；index/log 非卡剔除（初扫 60→剔后 23，误报实证驱动）✓；baseline 门禁只向前生效（存量 WARNING/新引用 ERROR）✓
+- **独立复跑**：90_control 142 passed（134+8）、kdo-tools 127 passed，与声明一致 ✓
+- **L2 亲跑**：默认跑（gate 模式）exit 0、「新 0 / 存量 23」与 baseline 23 条一致 ✓；清单双格式落盘（json 机读+md 人读）✓
+- **观察项（不阻断，影响我的过审排序）**：23 条清单混两类引用——**硬依赖**（CLAUDE.md 指定数据链/glob 配置，如 layered-system）与**文档软引用**（agent-spec 互相 markdown 链接，如 agent-spec 互引多条）。WARNING 层+王语嫣人工复核兜底的设计容许此残留，但**建议**清单 v2 标注引用类型——我过审排序按硬依赖优先（layered-system 第一正确），软引用类降级。此条随本记录交王语嫣过目时一并考虑
+- **边界**：零改卡状态（门禁只报警）✓；与 #524 治标/治本分工清晰不重复 ✓
+- **后续**：L3=下次新引用 draft 卡进数据链当场 ERROR；我按清单排过审（layered-system 第一张，等王语嫣编排过审批次单）

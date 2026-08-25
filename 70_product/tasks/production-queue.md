@@ -152,7 +152,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 524 | `task_20260825_huangyaoshi-kdo-search-status-labeling` | kdo_search消费端契约：结果标status/confidence+draft⚠️前缀+非卡来源层标注+reviewed排序加权（降权不剔除） | reviewed | huangyaoshi | 渲染/排序层+回归 | 无 | `60_feedback/tasks/task_20260825_huangyaoshi-kdo-search-status-labeling.md` | 王语嫣依消费端实况立项（老朱授权自行入列；依据=analysis/2026-08-25-xiaozhao-consumer-side-kb-usage证据1/2/3/11：小昭「draft当定论」风险实证）；不动召回算法只动渲染排序；欧阳锋终审 |
 | 525 | `task_20260825_huangyaoshi-role-clock-architecture` | 角色级时钟与探针架构设计稿：活性注册表+角色心跳调度+唤醒语义统一+工具接入契约（工具可换工作流不变） | reviewed | huangyaoshi | 设计稿（不施工） | 无（拍板后拆实施单） | `60_feedback/tasks/task_20260825_huangyaoshi-role-clock-architecture.md` | 老朱直令（08-25）：时钟/探针归角色不挂工具，工具随订阅轮换（kimi/claude/codex/hermes/CodeBuddy）工作流不变——命名铁律同哲学；核心验收=工具切换演练剧本无断点；含#501/#520/#509/F-036/F-048现状统图；风清扬审计报王语嫣裁决（charter §3.18：审计只呈王语嫣，裁决=标准）+老朱拍板后拆实施；欧阳锋终审 |
 | 526 | `task_20260825_laowantong-feature-domain-signpost-batch` | Feature域入口路标收尾批：OCR卡挂链+inbox三处指路+问法回填discoverable_by+两套Feature澄清卡+digest路标+类比遮蔽dk卡 | reviewed | laowantong | 内容批+复测 | 无 | `60_feedback/tasks/task_20260825_laowantong-feature-domain-signpost-batch.md` | 小昭检索检测报告建议1/2/3/7裁定采纳（老朱对齐确认；盲测第1问未命中=无声的错误实证）；问法回填复用#315模式；dk卡署名小昭（消费端贡献首例）；OCR卡守10_raw层不升30_wiki；欧阳锋批次验收 |
-| 527 | `task_20260825_huangyaoshi-depended-draft-card-gate` | 被依赖卡draft门禁：被agent-spec/CLAUDE.md/数据链引用的卡status:draft即报警（WARNING起步+存量清单） | pending_review | huangyaoshi | lint+存量清单+回归 | 无 | `60_feedback/tasks/task_20260825_huangyaoshi-depended-draft-card-gate.md` | 小昭检索检测报告建议4裁定采纳（盲测P4：layered-system系draft但被basic-skills-coach活依赖，违反E018精神）；治本=#524标注治标互补；清单交王语嫣→欧阳锋按优先级过审（首张=layered-system，已预告）；不自动改状态；欧阳锋终审 |
+| 527 | `task_20260825_huangyaoshi-depended-draft-card-gate` | 被依赖卡draft门禁：被agent-spec/CLAUDE.md/数据链引用的卡status:draft即报警（WARNING起步+存量清单） | reviewed | huangyaoshi | lint+存量清单+回归 | 无 | `60_feedback/tasks/task_20260825_huangyaoshi-depended-draft-card-gate.md` | 小昭检索检测报告建议4裁定采纳（盲测P4：layered-system系draft但被basic-skills-coach活依赖，违反E018精神）；治本=#524标注治标互补；清单交王语嫣→欧阳锋按优先级过审（首张=layered-system，已预告）；不自动改状态；欧阳锋终审 |
 | 528 | `task_20260825_huangyaoshi-island-card-scan` | 孤岛卡扫描lint：30_wiki无出链无入链卡定期出清单（豁免agent-spec类，WARNING制不拦流转） | queued | huangyaoshi | 扫描器+清单+挂载 | 无 | `60_feedback/tasks/task_20260825_huangyaoshi-island-card-scan.md` | 老朱追问「知识卡解决不了，还有什么办法」裁定补结构层（盲测P1同族：dk管认知/盲测管兜底/本单管结构）；清单交王语嫣编排挂链批次；与#527分工=被依赖draft vs 无人依赖孤岛；欧阳锋终审 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
@@ -268,7 +268,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#514 task_20260825_huangyaoshi-quality-metrics-baseline｜huangyaoshi｜提审 08-25 21:41｜60_feedback/tasks/task_20260825_huangyaoshi-quality-metrics-baseline.md~~ → 已终审 PASS A（2026-08-25 欧阳锋）
 - ~~#525 task_20260825_huangyaoshi-role-clock-architecture｜huangyaoshi｜提审 08-25 22:11｜60_feedback/tasks/task_20260825_huangyaoshi-role-clock-architecture.md~~ → 已终审 PASS A（2026-08-25 欧阳锋）
 - ~~#526 task_20260825_laowantong-feature-domain-signpost-batch｜laowantong｜提审 08-25 22:20｜60_feedback/tasks/task_20260825_laowantong-feature-domain-signpost-batch.md~~ → 已终审 PASS A（2026-08-25 欧阳锋）
-- #527 task_20260825_huangyaoshi-depended-draft-card-gate｜huangyaoshi｜提审 08-25 22:50｜60_feedback/tasks/task_20260825_huangyaoshi-depended-draft-card-gate.md
+- ~~#527 task_20260825_huangyaoshi-depended-draft-card-gate｜huangyaoshi｜提审 08-25 22:50｜60_feedback/tasks/task_20260825_huangyaoshi-depended-draft-card-gate.md~~ → 已终审 PASS A（2026-08-25 欧阳锋）
 
 <!-- REVIEW-PENDING-END -->
 
