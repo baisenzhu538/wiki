@@ -16,6 +16,7 @@
   python 90_control/scripts/pre_review.py <task_id>          # 打印预审报告
   queue_transition complete 内部自动调用（预审报告随提审 commit 入冻结版）
 """
+import re
 import sys
 from pathlib import Path
 
@@ -28,6 +29,9 @@ sys.path.insert(0, str(_SCRIPT_DIR))
 import queue_transition as qt  # 复用既有检查器（单一真相源，不另写判据）
 
 PRE_REVIEW_HEADER = "## 机器预审报告"
+# #515 返工修复（欧阳锋终审 FAIL 实证）：既有节检测必须行首标题匹配——
+# 正文 prose 里引用「## 机器预审报告」字样（说明文字）不得当节标题吞掉后续内容
+PRE_REVIEW_RE = re.compile(r"(?m)^## 机器预审报告[ \t]*$")
 PRE_REVIEW_DISCLAIMER = "> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截"
 
 
@@ -100,18 +104,30 @@ def attach_pre_review(task_file: Path, report: str) -> None:
 
     插入位置：「## 终审记录」前；无则文件尾。complete 流转的自动 commit 会把它
     收进提审冻结版（预审报告=提审版本的一部分，版本对齐不破）。
+
+    #515 返工双保险（欧阳锋 FAIL 修法②）：①既有节检测行首标题匹配（防 prose 引用
+    误识别）；②写后自检——F-034 五字段锚点写后仍在位，缺失即抛错拒绝落盘
+    （attach 变可证安全，任何未来吞内容 bug 当场爆炸不静默）。
     """
     body = task_file.read_text(encoding="utf-8")
-    idx = body.find(PRE_REVIEW_HEADER)
-    if idx != -1:
-        nxt = body.find("\n## ", idx + 1)
-        body = body[:idx] + (body[nxt + 1:] if nxt > 0 else "")
+    m = PRE_REVIEW_RE.search(body)
+    if m:
+        nxt = body.find("\n## ", m.end())
+        body = body[:m.start()] + (body[nxt + 1:] if nxt > 0 else "")
         body = body.rstrip("\n") + "\n\n"
     anchor = body.find("\n## 终审记录")
     if anchor > 0:
         body = body[:anchor] + "\n" + report + body[anchor:]
     else:
         body = body.rstrip("\n") + "\n\n" + report
+
+    # 写后自检：执行报告五字段锚点必须在位（防吞内容）
+    exec_report = qt._extract_exec_report(body)
+    missing = [name for name, anchors in qt.DELIVERY_FIELDS.items()
+               if not any(a in exec_report for a in anchors)]
+    if missing:
+        raise ValueError(
+            f"attach_pre_review 写后自检失败：执行报告缺 {missing}——拒绝落盘（#515 防吞内容）")
     task_file.write_text(body, encoding="utf-8")
 
 

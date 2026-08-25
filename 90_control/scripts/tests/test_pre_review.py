@@ -106,3 +106,31 @@ def test_attach_idempotent_and_before_review_section(tmp_path):
     assert body.index(pre_review.PRE_REVIEW_HEADER) < body.index("## 终审记录")
     # 终审记录内容完整保留
     assert "终审：待审" in body
+
+
+# ── #515 终审 FAIL 返工回归：attach 防吞内容 ──
+
+def test_prose_header_mention_no_swallow(tmp_path):
+    """正文 prose 行内提及「## 机器预审报告」字样 → attach 正常且四字段存活
+    （FAIL 根因：裸 find 把说明文字当既有节，删至文件尾吞掉五字段）。"""
+    report = GOOD_REPORT + "\n管线行为说明：attach 幂等写入「## 机器预审报告」节（prose 提及非标题）。\n"
+    tf = _task(tmp_path, report)
+    pre_review.attach_pre_review(tf, pre_review.run_pre_review(tf, wiki_root=_repo_with_file(tmp_path)))
+    body = tf.read_text(encoding="utf-8")
+    for anchor in ("**交付物**", "**验证**", "**边界**", "**需要谁动作**", "**完成内容**"):
+        assert anchor in body, f"{anchor} 被吞"
+    assert body.count(pre_review.PRE_REVIEW_HEADER) == 2  # prose 提及 + 真实节
+    assert "管线行为说明" in body  # prose 行完整存活
+
+
+def test_fake_line_start_header_raises_no_write(tmp_path):
+    """执行报告中段出现行首假标题（FAIL 原型形态）→ 截断吃掉后续字段时
+    写后自检抛错拒绝落盘，原文件不动。"""
+    report = ("**完成内容**：x。\n\n## 机器预审报告\n\n（生产者误手写的假标题行）\n\n"
+              "**交付物**：本报告（纯任务单修改）\n\n**验证**：过\n\n**边界**：无\n\n**需要谁动作**：审\n")
+    tf = _task(tmp_path, report)
+    before = tf.read_text(encoding="utf-8")
+    import pytest
+    with pytest.raises(ValueError, match="防吞内容"):
+        pre_review.attach_pre_review(tf, "x")
+    assert tf.read_text(encoding="utf-8") == before  # 拒绝落盘=原文件零改动
