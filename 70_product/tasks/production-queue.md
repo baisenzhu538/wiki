@@ -12,7 +12,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 > 老顽童按队列顺序领取，一次只做一件；欧阳锋按队列顺序审核。
 > 任务来源：历史批量工单、新域诊断任务、跨域桥接任务。
 |:---:|:---|:---|:---:|:---:|---:|:---|:---|:---|
-| 187 | `task_20260714_wangyuyan-material-gaps-tracking` | 素材缺口追踪与回源登记（4类缺口：复盘合集7案例/征文十篇+邱淼案例集/双三角/刻意练习；blocked等老朱） | blocked | 老顽童 | 缺口登记卡+素材到位后24h内评估入队 | 老朱提供素材 |
+| 187 | `task_20260714_wangyuyan-material-gaps-tracking` | 素材缺口追踪与回源登记（4类缺口：复盘合集7案例/征文十篇+邱淼案例集/双三角/刻意练习；blocked等老朱） | suspended | 老顽童 | 缺口登记卡+素材到位后24h内评估入队 | 老朱提供素材 | `70_product/tasks/task-187-material-gaps-tracking.md` | **2026-08-26 老朱拍板：冻结下板不用老挂着**——长期缺口登记转停车场 **F-059**（缺口明细见任务单：真缺=复盘合集7案例正文/征文十篇/邱淼案例集/千惠复盘输入；双三角+刻意练习素材已在库仅待整理）；素材到位由老朱触发，王语嫣 24h 内评估入队；不占主板不计待领取 |
 
 
 | 290 | `task_20260711_wangyuyan-fundamentals-to-dual-triangle-migration` | task_20260711_wangyuyan-fundamentals-to-dual-（#284补登记）queued/? | closed_superseded | ? | 补登记 | 无 | `60_feedback/tasks/task_20260711_wangyuyan-fundamentals-to-dual-triangle-migration.md` | 任务单已存在但队列无行（E019 家族变体）——#284 补入队
