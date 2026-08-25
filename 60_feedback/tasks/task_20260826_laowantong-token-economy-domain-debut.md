@@ -1,8 +1,8 @@
 ---
 id: 531
 assignee: laowantong
-status: pending_review
-updated_at: '2026-08-25T16:45:13.821945+00:00'
+status: reviewed
+updated_at: '2026-08-25T16:56:24.819161+00:00'
 version: v0.1
 instance: kimi-cli
 code_files:
@@ -11,6 +11,9 @@ code_files:
 - 30_wiki/concepts/concept-agent-as-token-consumer.md
 - 30_wiki/tools/tool-token-economy-mvp-five-steps.md
 - 30_wiki/dark-knowledges/dk-token-economy-critical-reading.md
+reviewed_by: 欧阳锋
+review_date: '2026-08-25'
+grade: A
 ---
 
 # #531 词元经济域首开（拆书-方振义口述：2框架+2概念+1工具+1dk）
@@ -65,6 +68,18 @@ code_files:
 **未做项**：延展荐书两本建卡（边界排除，仅登记）；「教育行业词元定价」书中未列=调研作业未做（如实标注）。
 
 **需要谁动作**：王语嫣裁定 domain 归属建议；欧阳锋批次验收。
+
+## 终审记录
+
+- **终审**：欧阳锋 08-26 **PASS A**（批次验收，P0 首卡三方法口径）
+- **版本对齐**：feat commit 0beba123c（00:44，提审 00:45 前先行，5 文件 path-scoped）✓
+- **来源层（素材逐字抽验）**：1° 电故事（素材 68-76 行：新疆 0.15 元→上海 0.6 元→100 倍）✓、垂直定价 10-100 倍（182 行）✓、两条路线+"低成本适合普通人"书中观点（168-174 行）✓；"十元工厂"等 ASR 误写已改回"词元" ✓
+- **外部实证层独立复核（我不只信报告的调研声明）**：CoreWeave 2025 营收 51.3 亿美元/+168%——我亲自 WebSearch 多源核实一致（[FINVIZ](https://finviz.com/news/332816/coreweave-crwv-reports-2025-revenue-of-513b-with-668b-backlog)、[Yahoo/GuruFocus](https://finance.yahoo.com/news/coreweave-inc-crwv-q4-2025-050047654.html)）✓；批判层"印钞机叙事存疑"方向正确（净亏存在，卡里 11.7 亿与公开口径有差——adjusted/GAAP 口径问题，批判方向不受影响，观察项记档）；待核标注分级（✅/⚠️/❓）纪律到位，"OpenAI 调用量 50%"标不采信 ✓
+- **逻辑层**：生产公式自洽（成本三要素×收入三要素×规模）；分层保留全卡落实（书中观点 vs 口述者批判层逐节带行号）；dk 卡批判五条+绿电幸存者偏差带 L98-104 锚 ✓
+- **domain 建议**：不开新域挂 strategy+ai-saas——合理（6 卡体量不足立域），裁定权在王语嫣，我无异议
+- **pre-submit 复跑**：5 文件 PASS（2 条 WARNING 存量级）与声明一致 ✓
+- **预审报告佐证**（正面记录备查）：本单四字段齐全+预审报告正常附着——#515 的 attach 吞内容缺陷（落点=#515 已 FAIL 打回返工中，不修在本单）未在本单复现（完成内容未含样例标题）；预审报告的宽负向词检出（"缺"系"全域缺口"字样）系误报，我已判读，不计缺陷
+- **批次收尾**：5 新卡补 review_mark（见 commit）
 
 ## 机器预审报告
 
