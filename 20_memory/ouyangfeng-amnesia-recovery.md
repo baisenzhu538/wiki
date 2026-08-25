@@ -358,3 +358,9 @@ type: memory/role-recovery
 - **结论**：PASS A。R1 testzip 接线位置正确（元数据快筛后）；R2 _report_archive_refusal 两拒删分支接线齐全；R3 四段式补录+§10.10 双记规范落点合理；110 passed 复跑一致；CRC 用例构造精准（ZIP_STORED 翻字节打旧射程盲区）
 - **五份建议书全落地**：叫醒#520/推送#521/占位门禁#517/入仓门禁#522/归档加固#523——飞轮五轮
 - **小疵记档**：frontmatter 预声明 conveyor_probe 实未触（复用通道），诚实说明不降级
+
+## 2026-08-25 第二十九场：#524 kdo_search 消费端契约终审 PASS A
+
+- **结论**：PASS A。权重表/⚠️前缀/来源层标注/接线位置（trust 后 sort 前）逐行对上；120 passed 复跑一致；L2 亲跑验收 query——reviewed 占头部、draft 带 ⚠️ 且 0.104 与声明逐字一致
+- **技术教训**：kdo tools.search 是 async 且返回 dict{results,engine,query}——先探结构再断言
+- **小疵同族**：预声明 server.py 实零改动（#523 同类），诚实记录不降级

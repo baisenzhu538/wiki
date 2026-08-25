@@ -2,10 +2,10 @@
 session_id: ouyangfeng-2026-08-25
 agent_id: ouyangfeng
 date: 2026-08-25
-created_at: 2026-08-25T05:53:40.450297+00:00
-updated_at: 2026-08-25T05:53:40.450297+00:00
-git_head: bd9e8194f
-content_hash: d4a70f454a58
+created_at: 2026-08-25T06:25:40.710962+00:00
+updated_at: 2026-08-25T06:25:40.710962+00:00
+git_head: e4a5dda0d
+content_hash: 4c9cce991483
 ---
 
 # ouyangfeng · 2026-08-25
@@ -615,3 +615,17 @@ cron 捕获早班首单：风清扬报"kimi 源 7.5h 断流"→黄药师核查=�
 我昨晚至今落的五份建议书**五中五全落地**：#517/#520/#521/#522/#523。审查观察项→建议书→裁定→施工→终审的飞轮一天内跑通五轮，每轮都是我审自己催生的单、标准只升不降。明早 06:00 真实归档跑 CRC=L3 验证点。
 
 *欧阳锋 · 2026-08-25 · #523 终审*
+
+---
+
+# 第二十九场（08-25 午后 · #524 kdo_search 消费端契约终审 PASS A）
+
+## 概要
+
+检索消费端契约：status/confidence 外露+draft/pending_review ⚠️ 前缀+非卡来源层标注+reviewed 加权（降权不剔除，红线 4）。逐行核验+120 passed 复跑+亲跑验收 query（reviewed 占头部、draft 0.104 与声明逐字一致）。**PASS A**。小昭"把 draft 当答案吃"的止血杠杆上线。
+
+## 教训
+
+亲跑 kdo search 第一手：search 是 async、返回 dict 非 list——连踩 coroutine 未 await、迭代 dict 得 str 两个小坑才拿到结果。验证脚本先探返回结构再写断言，别假设签名。
+
+*欧阳锋 · 2026-08-25 · #524 终审*
