@@ -1,13 +1,13 @@
 ---
 id: 535
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-26T02:40:00+00:00'
+status: in_progress
+updated_at: '2026-08-25T21:41:26.756881+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
-  - kdo-tools/conveyor_probe.py
-  - 90_control/scripts/queue_transition.py
+- kdo-tools/conveyor_probe.py
+- 90_control/scripts/queue_transition.py
 ---
 
 # #535 终审落点通知：pending_review→reviewed 事件推送 + myqueue 最近终审栏
