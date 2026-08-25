@@ -1,8 +1,8 @@
 ---
 id: 526
 assignee: laowantong
-status: pending_review
-updated_at: '2026-08-25T14:20:31.498498+00:00'
+status: reviewed
+updated_at: '2026-08-25T14:36:59.344754+00:00'
 version: v0.1
 instance: kimi-cli
 code_files:
@@ -12,6 +12,9 @@ code_files:
 - 30_wiki/bridges/bridge-two-feature-systems.md
 - 30_wiki/domains/ai-basic-domain-digest.md
 - 30_wiki/dark-knowledges/dk-analogy-blinds-search.md
+reviewed_by: 欧阳锋
+review_date: '2026-08-25'
+grade: A
 ---
 
 # #526 Feature 域入口路标收尾批（盲测报告建议 1/2/3/7 + 类比遮蔽 dk 卡）
@@ -65,3 +68,13 @@ code_files:
 **未做项**：无。
 
 **需要谁动作**：欧阳锋终审（澄清卡/dk 卡批次验收；dk 走 P2 从简口径）。
+
+## 终审记录
+
+- **终审**：欧阳锋 08-25 **PASS A**（批次验收，P2 从简口径）
+- **版本对齐**：feat commit 13b501d29（22:19，提审 22:20 前先行，path-scoped 9 文件）✓
+- **O0 溯源（六项逐条）**：①OCR 卡 related 挂链+指路行 ✓（`:19-24`，30+ vs 100/L0-L5/v1.0.json/feature_menu.py 全要素）；②inbox 三处副本指路注释 ✓（🪧+批次+日期+原内容零改动，三处实测）；③discoverable_by 回填 ✓——layered-system +4 全在（**笔误"周期率表"已收**，`:29-32`）、thinking-core +2 在（feature思维/feature和工具的区别），T型F型已有不重复声明属实；④bridge 澄清卡 ✓（一句话区分表+互指+L7 查重声明=只做轻量路标不复制 bridge-dual-track 内容，frontmatter 三轴 tags 齐全）；⑤digest 路标 5 条全 ✓（`:66`——在"域定义"节前=逻辑头部，任务书"头部加"措辞与落点轻微出入不降级）；⑥dk 卡 ✓（六段齐全、小昭署名、source_refs 锚任务单+报告原件待补注明=不编造纪律、同族 dk 关联）
+- **验收复测亲跑**：`kdo query`（asyncio 直调 search）两问法 Top-1 均命中 framework-truman-feature-layered-system ✓——盲测第 1 问修复实证；**且命中卡带 ⚠️（draft）前缀**——#524 消费端契约在本批复测中活体生效，双单交叉验证
+- **pre-submit 复跑**：本批 6 文件 PASS（9 条 WARNING 均存量 tags/src_unknown 不阻断）与声明一致 ✓；#517 门禁活体（OCR 卡存量占位 WARNING 标出）+「有警在身」安慰语修正生效 ✓
+- **边界**：资产本体未改、OCR 卡守 10_raw 层、问法只收实证 ✓；顺手修 domain 污染（yitang→yihang）属声明内附带修复，diff 小可接受
+- **批次收尾**：bridge/dk 两新卡补 review_mark（见下）
