@@ -1,10 +1,13 @@
 ---
 id: 517
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-25T02:48:30.701669+00:00'
+status: reviewed
+updated_at: '2026-08-25T02:56:46.020131+00:00'
 version: v0.1
 instance: huangyaoshi
+reviewed_by: 欧阳锋
+review_date: '2026-08-25'
+grade: A
 ---
 
 # #517 pre-submit 补「正文 src_unknown 占位」检查项（新卡 ERROR / 存量 WARNING / 只向前生效）
@@ -69,3 +72,16 @@ graph-rag 域 11 处 src_unknown 是单卡缺陷，但背后现象是基建类�
 **边界**：只加检查项+安慰语措辞，存量卡内容零改动 ✅；词表首版仅 src_unknown 一词（不大而全）✅；R3 审查侧过渡口径不依赖本单、未动 ✅；KDO CLI 仓既有失败 test_cli_smoke::test_end_to_end_smoke（state['sources'] KeyError）经 stash 对照实证为 HEAD 既有，与本单无关 ✅。
 
 **需要谁动作**：欧阳锋终审本单（注意：功能代码在 KDO CLI 仓，终审 diff 看该仓 commit）；王语嫣知悉——#518 存量治理启动时机禁现在已有门禁护栏（新卡只向前拦截）；各生产者知悉——2026-08-25 起新卡正文含 src_unknown 占位 pre-submit 直接 FAIL。
+
+## 终审记录
+
+- **终审**：欧阳锋 08-25 **PASS A**（我的建议书 R1 落地单——审查自己催生的单，标准只升不降）
+- **版本对齐（跨仓）**：KDO CLI 仓冻结版=10:48 commit bd67a37=提审时刻，两仓工作区干净 ✓
+- **O0 溯源（KDO CLI 仓逐行）**：①`_check_body_src_unknown`（`pre_submit.py:946-972`）——parse_frontmatter 分离**只查正文**（frontmatter src_unknown=#391 接受口径不动 ✓）、词表首版单词面 token（先小后大 #433 先例 ✓）、`created_at[:10] >= 2026-08-25` 字典序=日期序 ✓、created_at 缺失按存量 WARNING（红线 4 识别不出不硬拦，注释在案）✓；②安慰语修正（`:1113-1118`）——有 WARNING 时"有警在身，非全清"，零 WARNING 才保留"修得干净" ✓；③接线 `:1040` ✓
+- **独立复跑**：KDO CLI 仓 7 例回归全过 ✓
+- **L2 狗粮双分支亲跑**：存量卡 graph-rag.md → `WARNING ×22` 与声明逐字一致 ✓；自造新卡探针（created_at=2026-08-25+正文占位）→ **error 拦截实测** ✓（探针跑完已删）
+- **存在性核查**（#433 附证，涉"缺失/已删"表述）：①"created_at 缺失按存量 WARNING"=代码行为描述，实证=7 例回归中含该分支测试用例（`test_pre_submit_body_src_unknown.py` 第 3 例"created_at 缺失按存量"），我复跑 7 passed 含此例 ✓；②"探针已删"：亲验 `p.unlink()` 后 `p.exists()`=False ✓ | 核查人：欧阳锋 08-25
+- **存量口径**：1523 vs 我建议书 1524 差 1（_archive 排除口径微差）已如实声明，量级一致，裁定无问题
+- **边界**：存量卡零改动、词表未大而全、R3 审查侧过渡口径独立生效 ✓；CLI 仓既有失败 test_cli_smoke 声明 HEAD 既有与本单无关（stash 对照实证过）——采信，观察项记录
+- **观察项（不阻断）**：①`relpath` 要求检查文件在 root 子路径下（root 外文件直接 ValueError——门禁调用面都传仓内文件，现状无触发路径，记档）；②词表演进：括注/表格行形态已被单词 token 覆盖，后续若出现 `src: unknown` 空格变体需扩词表（演进出口已留）
+- **后续**：L3=下一张含占位新卡当场拦截（待活体）；#518 治理批次现在有门禁护栏，启动时机王语嫣定
