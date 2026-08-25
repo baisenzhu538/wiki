@@ -27,6 +27,8 @@ INBOX = ROOT / "00_inbox"
 STATE_FILE = ROOT / ".kdo" / "inbox_state.json"
 QUEUE_DIR = ROOT / "60_feedback" / "inbox-queue"
 PROD_QUEUE = ROOT / "70_product" / "tasks" / "production-queue.md"
+TODOS_WANGYUYAN = ROOT / "90_control" / "todos" / "wangyuyan.md"
+SILENT_START_HOUR, SILENT_END_HOUR = 22, 8  # 夜间静默 22:00–08:00（与 conveyor_probe 同口径）
 BOARD_BEGIN = "<!-- INBOX-PENDING-BEGIN（watch_inbox 自动维护，勿手改） -->"
 BOARD_END = "<!-- INBOX-PENDING-END -->"
 
@@ -116,6 +118,31 @@ def dispatch(discoveries: list[dict]):
     dispatch_file.write_text("\n".join(lines), encoding="utf-8")
     print(f"dispatched: {dispatch_file.name}（{len(discoveries)} 项 → 王语嫣质量门）")
     update_orchestration_board(discoveries)
+    _notify_inbox(discoveries)
+
+
+def _notify_inbox(discoveries: list[dict]):
+    """#530：检测到→推王语嫣收件箱（编排触发器补推送通道——队列类事件全有推送，
+    唯独编排触发器没有；08-25 词元经济素材躺看板 50 分钟实证）。
+
+    幂等=scan() state 判重同键（discoveries 只含新文件，重跑天然不重复推）。
+    夜间静默口径（任务书拍板）：素材类非终审信号，**P0 也静默**——落盘不丢+
+    🔕 标记，不写飞书（飞书通道随 #525 统一层接管）。
+    """
+    TODOS_WANGYUYAN.parent.mkdir(parents=True, exist_ok=True)
+    if not TODOS_WANGYUYAN.exists():
+        TODOS_WANGYUYAN.write_text("# 王语嫣待办\n\n", encoding="utf-8")
+    now = datetime.now()
+    silent = now.hour >= SILENT_START_HOUR or now.hour < SILENT_END_HOUR
+    n = len(discoveries)
+    p0 = sum(1 for d in discoveries if d["priority"] == "P0")
+    names = "、".join(Path(d["file"]).name for d in discoveries[:3])
+    bell = "🔕" if silent else "📥"
+    line = (f"- [{now.strftime('%Y-%m-%d %H:%M')}] {bell} 新素材 {n} 项（P0 {p0}）："
+            f"{names}{'…' if n > 3 else ''}——请诊断编排（看板待编排段）\n")
+    with TODOS_WANGYUYAN.open("a", encoding="utf-8") as f:
+        f.write(line)
+    print(f"{bell} 王语嫣收件箱已通知（{n} 项{'，夜间静默落盘' if silent else ''}）")
 
 
 def update_orchestration_board(discoveries: list[dict]):
