@@ -1,13 +1,13 @@
 ---
 id: 525
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-24T19:20:00+00:00'
+status: in_progress
+updated_at: '2026-08-25T14:08:41.904692+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
-  - 90_control/role-clock-architecture.md
-  - 90_control/infrastructure-inventory.md
+- 90_control/role-clock-architecture.md
+- 90_control/infrastructure-inventory.md
 ---
 
 # #525 角色级时钟与探针架构设计（工具可换，自动化工作流不变）
