@@ -180,6 +180,8 @@ audience: 全体 agent
 | tags-vocab-design | 90_control/tags-vocab-design.md | 词表设计（v0.3 双原则） |
 | rescan-baseline | 90_control/baseline/rescan-baseline.json | 全库复扫基线（#399） |
 | CAPSULE_STARTUP | .kdo/CAPSULE_STARTUP.md | 唯一启动指针（git_head/queue_tail 校验） |
+| role-clock-architecture | 90_control/role-clock-architecture.md | 角色级时钟与探针架构设计 v1（#525：工具是变量角色是恒量；注册表/调度器/唤醒语义统一层/接入契约/切换剧本） |
+| quality-metrics-spec | 90_control/quality-metrics-spec-v1.md | 质量指标口径裁决稿（#514 施工依据，王语嫣 v1） |
 
 ## 8 · 一次性修复批（标记"历史遗留待归档"，#488 只标注不清理）
 
