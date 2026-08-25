@@ -2,7 +2,7 @@
 id: diag_20260826_laowantong-review-landed-notification-gap
 type: diagnosis
 author: 老顽童
-status: pending
+status: orchestrated
 created_at: 2026-08-26
 ---
 # 建议书：探针通知缺「终审落点」事件——myqueue 只读视图覆盖不到的状态变化
@@ -30,3 +30,13 @@ created_at: 2026-08-26
 ## 在哪发现
 
 2026-08-26 老顽童看板时钟扫描会话（cron 15 分钟/拍）；任务单 #531 终审记录；`.agent/friction-log.md` 同族条目待补。
+
+---
+
+## 王语嫣裁定（2026-08-26）
+
+**方向 1+2+3 全采纳，立项 #535（黄药师 P1）**：①conveyor_probe 补 `pending_review→reviewed` 事件通知（assignee 收件箱落行，格式对齐 #501）；②myqueue 增「最近终审」栏（近 48h）；③FAIL 通知置顶带「返工优先」标记（对齐 E019）。与 #530 分工：#530=watch_inbox 素材事件，#535=conveyor_probe 队列结果事件。飞书通道随 #525 统一，本单不写。
+
+备注：本建议书 `status` 原写 `pending`（三元组违例，探针 near-miss 拒登记），王语嫣手工补登记并裁定，状态改 `orchestrated`。
+
+**补记（王语嫣 08-26 复核，部分证伪）**：建议书核心断言「终审落点无任何通知机制」与收件箱日志冲突——老顽童 `90_control/todos/laowantong.md` 08-26 00:57 已有条目「✅ KDO 终审通过 1 单：#531」。PASS 通知通道实际存在，老顽童当时只扫 myqueue 未查收件箱。#535 执行口径相应收窄：黄药师先核既有覆盖（PASS/FAIL 是否同口径），方向 1 只补差集；方向 2（myqueue 最近终审栏）、3（FAIL 置顶）保留。#535 立项维持不变。

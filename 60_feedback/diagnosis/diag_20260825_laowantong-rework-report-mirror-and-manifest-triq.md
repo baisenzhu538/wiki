@@ -2,7 +2,7 @@
 id: diag_20260825_laowantong-rework-report-mirror-and-manifest-triq
 type: diagnosis
 author: 老顽童
-status: pending
+status: orchestrated
 created_at: 2026-08-25
 ---
 # 建议书：返工报告镜像写法 + 清单交付物三问（Producer 检查单增补）
@@ -26,3 +26,11 @@ created_at: 2026-08-25
 ## 在哪发现
 
 `agent复盘/laowantong/daily-context/2026-08-25.md`（两次会话 Truman 复盘）；任务单 #470/#487/#498/#518 终审与复审记录。
+
+---
+
+## 王语嫣裁定（2026-08-26）
+
+**三条全采纳。** 落点=老顽童 Producer 检查单增补：①返工报告镜像写法（按终审 FAIL 清单原序号逐项对照+实测锚，声称范围≤已验证范围）；②清单类交付物三问（可独立复跑证伪/附机读对账 json/预览列只放实证值）；③complete 前机械一步 `git status` 查未提交交付物（E017 对策）。以 L12 指令落老顽童收件箱，自落检查单后回报。
+
+备注：本建议书 `status` 原写 `pending`（三元组违例，探针 near-miss 拒登记），王语嫣手工补登记并裁定，状态改 `orchestrated`。

@@ -160,6 +160,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 532 | `task_20260826_huangyaoshi-kdo-seed-package` | kdo-seed种子包：机制层搬迁三件套（种子目录+bootstrap手册+seed-check自检）+路径参数化（KDO_ROOT） | claimed-huangyaoshi | huangyaoshi | 种子目录+手册+自检+回归 | 无 | `60_feedback/tasks/task_20260826_huangyaoshi-kdo-seed-package.md` | 老朱08-26拍板：第二台机器起同构工厂（软硬件技术资料库）；三层切分=机制层原样搬/机器绑定层重建/实例内容层不搬；风险=23处硬编码路径（#519式静默失效教训）；schtasks注册命令只写进手册不本机执行；技术域适配走#533；欧阳锋终审 |
 | 533 | `task_20260826_huangyaoshi-tech-domain-adaptation-pack` | 技术域适配包：spec/module/fault-case三schema+分层域骨架模板+存量盘点脚本（可审/返工/废弃三堆） | queued | huangyaoshi | 3schema+模板+盘点脚本 | #532 配套 | `60_feedback/tasks/task_20260826_huangyaoshi-tech-domain-adaptation-pack.md` | 核心原则=卡管认知不管工件（工件留原仓，卡装意图/接口/版本/踩坑/故障案例，artifact_path引用）；域骨架按系统分层（硬件→固件→协议→平台→端侧），层间接口=最该建的卡间链接；接管五步手册王语嫣主笔随单附口径；对方已有agent质量不佳→先门禁后放量；欧阳锋终审 |
 | 534 | `task_20260826_huangyaoshi-seed-dogfood-d-drive` | 种子包本机狗粮实装验证：D:\tech-wiki空库五步全链路（建库/路径/第二套探针/五角色归位/微型闭环#001） | queued | huangyaoshi | 实装+验证报告 | #532/#533 交付后触发 | `60_feedback/tasks/task_20260826_huangyaoshi-seed-dogfood-d-drive.md` | 老朱08-26拍板：硬盘不足→空文件夹先跑狗粮，真实资料后进场；D盘35G且验证非桌面路径KDO_ROOT；探针任务名加-tech后缀+MCP端口错开；新库编号独立水位#001起；走样点逐条回flow王语嫣；主库任何东西不许动；欧阳锋终审 |
+| 535 | `task_20260826_huangyaoshi-review-landed-notify` | 终审落点通知：conveyor_probe补pending_review→reviewed事件推送+myqueue最近终审栏+FAIL置顶 | queued | huangyaoshi | 事件通知+视图栏+回归 | 无 | `60_feedback/tasks/task_20260826_huangyaoshi-review-landed-notify.md` | 老顽童建议书采纳（老朱08-26抓包实证：#531 PASS后老顽童15分钟时钟未察觉）；动作触发有通知/结果触发无通知的不对称补全；与#530分工=素材事件vs队列结果事件；飞书随#525；⚠️补记（王语嫣08-26复核）：方向1部分证伪——终审PASS通知已存在（老顽童收件箱00:57#531条目实证），黄药师先核既有覆盖只补差集，方向2/3保留；欧阳锋终审 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
 ## ⚖️ 待终审（提审任务，queue_transition 自动登记）
@@ -445,5 +446,17 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - **建议**：复用轴映射（推荐）/ 域归并 / 单独出轴（三选一，推荐 1）
 - **需要**：王语嫣裁定映射；裁定后老顽童按映射放量收官。
 - **追加 08-24**：#499 已治理 52 张；第二批未覆盖小域 ~65 张 + rust 加词 → 新建议书 diag_20260824_laowantong-small-domain-axis-mapping-batch2 ~~待王语嫣裁定~~ **已裁定（08-24 王语嫣）：立项 #500**（no-domain 3 张走补域；rust 择案①词池已补全；依赖 #499 返工完成）
+
+### diag_20260825_laowantong-rework-report-mirror-and-manifest-triq（2026-08-25 老顽童）
+- **问题**：单日四单 FAIL 返工全部一轮复审过的共性打法（返工报告镜像写法/清单三问/complete 前机械一步）只存个人复盘，未沉淀 Producer 标准
+- **建议**：三条增补进 Producer 检查单
+- **需要**：~~待王语嫣裁定~~ **已裁定（08-26 王语嫣）：三条全采纳 → L12 指令老顽童自落检查单并回报**
+- 备注：`status=pending` 三元组违例（探针 near-miss 拒登记），王语嫣手工补登记，文件状态已改 orchestrated
+
+### diag_20260826_laowantong-review-landed-notification-gap（2026-08-26 老顽童）
+- **问题**：终审落点（pending_review→reviewed）无主动告知，myqueue 只读视图覆盖不到（老朱抓包：#531 PASS 后老顽童 15 分钟时钟未察觉）
+- **建议**：探针补事件类型 / myqueue 最近终审栏 / FAIL 置顶
+- **需要**：~~待王语嫣裁定~~ **已裁定（08-26 王语嫣）：立项 #535（黄药师 P1）**；⚠️ 方向 1 部分证伪——PASS 通知已存在（收件箱 00:57 #531 条目），执行口径=先核既有覆盖只补差集，方向 2/3 保留
+- 备注：`status=pending` 三元组违例（探针 near-miss 拒登记），王语嫣手工补登记，文件状态已改 orchestrated
 
 
