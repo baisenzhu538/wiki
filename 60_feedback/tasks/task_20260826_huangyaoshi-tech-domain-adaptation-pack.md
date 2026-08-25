@@ -1,13 +1,13 @@
 ---
 id: 533
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-26T01:30:00+00:00'
+status: in_progress
+updated_at: '2026-08-25T18:52:18.186891+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
-  - 90_control/schemas/
-  - 90_control/kdo-seed/
+- 90_control/schemas/
+- 90_control/kdo-seed/
 ---
 
 # #533 技术域适配包：软硬件库卡片 schema 扩展 + 域骨架模板 + 存量盘点脚本
