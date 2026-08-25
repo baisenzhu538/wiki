@@ -1,8 +1,8 @@
 ---
 id: 516
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-25T02:07:56.221938+00:00'
+status: pending_review
+updated_at: '2026-08-25T02:11:46.983281+00:00'
 version: v0.1
 instance: huangyaoshi
 ---
@@ -47,3 +47,20 @@ instance: huangyaoshi
 
 - **黄药师**：去重键补齐 + 回归
 - **欧阳锋**：终审本单
+
+## 执行报告（F-034 五字段，complete 前必填）
+
+**完成内容**：去重键补 `_processed` 隔离区——`wechat_promote.py:107-116`（原 L108）promote_case 去重检查在原三处（PENDING/CASES/RERUN）基础上补：`(PENDING_DIR/"_processed"/f.name).exists()`（原名）+ `any(_processed_dir.glob(f"{f.stem}.regen-*.md"))`（regen 后缀变体，按 stem 前缀匹配——_processed 实测两种形态并存：`case-wechat-XXX.md` 原隔离卡 + `case-wechat-XXX.regen-20260825.md` 再生副本）。通用性检查（任务第 3 条）：`grep -rln "pending-cards" kdo-tools/*.py 90_control/scripts/*.py` 实测**仅 wechat_promote.py 一个写入口**（watch_inbox 只读扫描登记看板不写卡），无其他入口需补齐；非 wechat 管线无同族缺口可登记。
+
+**交付物**：
+- `kdo-tools/wechat_promote.py`（去重键补 _processed，含 regen 变体）
+- `kdo-tools/tests/test_wechat_promote.py`（新：4 例回归）
+
+**验证**：
+- L1 单测：新增 4 例全过——①_processed 同名卡→skip；②_processed 仅 .regen- 变体→skip；③_processed 仅无关卡→不误伤正常 pending；④原三处去重不回归。全量基线 `cd kdo-tools && python -m pytest tests/ -q` → **98 passed**（94 基线+新增 4，零退步）
+- L2 狗粮：`python wechat_promote.py --dry-run` 实跑——2 张目标卡 `case-wechat-2404c1658025473c.md` / `case-wechat-fe60439837f4c93e.md` 双双输出「⏭️ 已流转」skip 不再生 ✅（全场 12 张 skip / 0 待编排 / 0 退回）
+- L3 待活体：管线下次真实运行，待编排区不再出现已判定卡
+
+**边界**：一行级修复，promote 路由逻辑/内容校验/归一化全未动 ✅；未回改 _processed 存量文件命名 ✅；无同族缺口扩展（唯一写入口）✅；dry-run 只读未写任何卡。
+
+**需要谁动作**：欧阳锋终审本单；王语嫣知悉——门禁判定隔离（E037）与管线去重已兼容，_processed 隔离动作不再被再生击穿。
