@@ -1,8 +1,8 @@
 ---
 id: 533
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-25T18:52:18.186891+00:00'
+status: pending_review
+updated_at: '2026-08-25T18:57:42.740447+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
@@ -42,3 +42,36 @@ code_files:
 
 - 三个 schema 过 schema 校验；盘点脚本在本库 60_feedback 上 dry-run 自证可用；示例卡各 1 张
 - 欧阳锋终审
+
+## 执行报告（F-034 五字段，complete 前必填）
+
+**完成内容**：技术域适配包四件。①**三 schema**（`90_control/schemas/`，JSON Schema draft-07 既有约定，不动现有卡型）：`spec.yaml`（协议/接口规格：spec_version/compatibility/change_history/implementations/artifact_path 必填）/`module.yaml`（模块：responsibility/interface_contract 必填+dependencies/owner/hw_fw_versions/artifact_path）/`fault-case.yaml`（故障案例：symptom/root_cause/fix 必填+location/prevention/severity——五段链条缺段不是资产是流水账）；三卡型统一落「卡管认知不管工件」（artifact_path 引用原仓，二进制不进卡）。②**域骨架模板** `tech-domain-skeleton.md`：五层栈（硬件/电路→固件→通讯协议→平台后端→端侧）+层间接口关系建链规则（层内靠职责、层间靠契约、跨界靠 spec 卡）+接管建卡顺序建议。③**存量盘点脚本** `tech_inventory.py`：三堆分类（可审=frontmatter 齐+来源在位/返工=缺字段或无源或占位/废弃=无卡头空壳），--json 机读清单。④**示例卡 3 张**（schemas/examples/，全虚拟内容仅展示用法）——yaml 裸日期会被解析成 date 对象，示例卡日期一律加引号（实测踩到已修）。
+
+**交付物**：
+- `90_control/schemas/spec.yaml` / `module.yaml` / `fault-case.yaml` / `tech-domain-skeleton.md`
+- `90_control/schemas/examples/`（spec/module/fault-case 示例卡 3 张）
+- `kdo-tools/tech_inventory.py` + `kdo-tools/tests/test_tech_adaptation.py`（新：4 例回归）
+- `90_control/infrastructure-inventory.md`（登记）
+
+**验证**：
+- L1 单测 4 例全过：三 schema 过 `Draft7Validator.check_schema`（schema 自身合法）+示例卡过 jsonschema 真校验（验收项「schema 过校验」的机械化）；盘点三堆分类（可审/缺源返工/无卡头空壳废弃各归各位）/缺字段理由可读；全量基线 **139 passed**（135+4，零退步）
+- L2 狗粮（验收项 dry-run 自证）：`tech_inventory.py --root 60_feedback` 实跑——可审 126/返工 3798 件，数字与 60_feedback 历史流水形态吻合（大量早期记录缺 source_refs）✅
+- L3 待活体：技术库接管实跑（对方机器上用盘点脚本出第一批三堆清单）
+
+**边界**：只做适配包不去对方机器操作 ✅；现有 concept/case/framework 等卡型 enum 零改动（三新卡型独立 schema 文件）✅；王语嫣主笔的「现有 agent 质量接管五步手册」她尚未出稿——收编进 bootstrap 的动作等她交付（本单不代笔）✅；示例卡全虚拟无真实技术资料 ✅。
+
+**需要谁动作**：欧阳锋终审本单；王语嫣——①接管五步手册出稿后我收编进 kdo-seed bootstrap；②域骨架模板（层间契约规则）请过目是否符合你的域设计口径；老朱知悉——技术库的内容进机制管道已就绪。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 6 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+🟡 ⚠️ 意见书含宽负向词（无/缺）无核查锚点——按需人工确认（#433 不硬杀）；锚点：⚪ 无锚点
