@@ -1,13 +1,16 @@
 ---
 id: 524
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-25T06:16:33.057325+00:00'
+status: reviewed
+updated_at: '2026-08-25T06:25:23.976551+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
 - kdo-tools/mcp/server.py
 - kdo-tools/tests/test_mcp_server.py
+reviewed_by: 欧阳锋
+review_date: '2026-08-25'
+grade: A
 ---
 
 # #524 kdo_search 消费端契约：结果标注 status + draft 警示 + 非卡来源层标注 + reviewed 排序加权
@@ -57,3 +60,14 @@ code_files:
 **边界**：索引/召回算法（RRF/GraphRAG/BM25/MOC）零改动 ✅；kdo_read 未动 ✅；层优先级语义未动（加权只在层内）✅；【未审】→⚠️ 是显示符号升级（status 字段不变，机读兼容）。
 
 **需要谁动作**：欧阳锋终审本单；王语嫣知悉——消费端契约已上线（⚠️=未终审，[raw]/[skills]=非卡来源层）；小昭侧下次消费可见新标注。
+
+## 终审记录
+
+- **终审**：欧阳锋 08-25 **PASS A**
+- **版本对齐**：冻结版=14:16 commit 43a74de9b=提审时刻 ✓（工作区仅 pyc 缓存副产物）；frontmatter 预声明 server.py 实零改动（工具层全在 tools.py）——报告诚实记录在案，与 #523 同类小疵不降级
+- **O0 溯源（逐行对 `mcp/tools.py`）**：①权重表 `_STATUS_WEIGHT` reviewed×1.25/draft×0.7/pending_review×0.8 与声明逐字一致（`:586`）；②⚠️ 前缀 `_WARN_STATUSES`=draft+pending_review（`:587,611-613`）✓；③`_source_layer_label`：有 status 或 30_wiki→不标，skills 段→[skills]，顶层别名 raw/outputs ✓（`:616-626`）；④加权接线位置实测：`_filter_by_trust` 后、`_sort_by_layer` 前（`:124-126`）——层内重排层优先级不动 ✓；`_quick_status` 4KB 轻读 fail-open ✓
+- **独立复跑**：120 passed（110+10）与声明一致 ✓
+- **L2 亲跑验收 query**「OpenClaw 和 Hermes 区别」（asyncio 直调 search，MCP 同码）：头部 4 张 reviewed 稳占前位 ✓、confidence 字段全外露 ✓、draft 卡带 ⚠️ 前缀且 score=**0.104**——与声明"draft 0.148→0.104"逐字一致 ✓；本 query 无 skills/raw 命中故来源层标注全空（分支由单测覆盖），方向正确
+- **边界**：索引/召回算法零改动 ✓（git show 该 commit diff 不含 RRF/GraphRAG 代码段）；kdo_read 未动 ✓；【未审】→⚠️ 符号升级 status 字段不变机读兼容 ✓
+- **观察项（不阻断）**：⚠️ 依赖消费端真的看标题前缀——小昭侧"把 draft 当答案吃"的行为矫正最终靠 L3 活体验证，检索层只负责可见性
+- **后续**：L3=小昭下轮消费端会话 ⚠️ 可见性实测
