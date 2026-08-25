@@ -1,13 +1,13 @@
 ---
 id: 530
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-24T22:30:00+00:00'
+status: in_progress
+updated_at: '2026-08-25T17:37:26.665244+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
-  - kdo-tools/watch_inbox.py
-  - kdo-tools/tests/
+- kdo-tools/watch_inbox.py
+- kdo-tools/tests/
 ---
 
 # #530 inbox 新素材通知通道补漏（检测到→推王语嫣收件箱）
