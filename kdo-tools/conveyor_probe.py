@@ -43,6 +43,7 @@ FRICTION_ROLES = ["ouyangfeng", "huangyaoshi", "wangyuyan", "laowantong", "hongq
 SHARED_FRICTION = Path(__file__).resolve().parent.parent / ".agent" / "friction-log.md"
 # #460 第五探针：门禁拦截日志（queue_transition 自动落盘，机器自报——零依赖自觉）
 GATE_BLOCKED_LOG = Path(__file__).resolve().parent.parent / "90_control" / "gate-blocked.log"
+FORCE_LEDGER = Path(__file__).resolve().parent.parent / "90_control" / "force-exceptions.log"  # #537 豁免留痕
 
 PROPOSAL_BEGIN = "<!-- PROPOSAL-PENDING-BEGIN（自动登记：conveyor_probe.py；勿手改——王语嫣复核后划掉） -->"
 PROPOSAL_BEGIN_OLD = "<!-- PROPOSAL-PENDING-BEGIN（建议书作者自登，王语嫣复核后划掉） -->"  # 迁移兼容旧段头
@@ -432,6 +433,64 @@ def _scan_friction(state: dict) -> list[str]:
     return new_lines
 
 
+# ── #537 第七信号：总账登记机器核查（基础设施单 reviewed 时矩阵未同步→提醒）──
+
+# 基础设施面清单（初版宁窄勿宽，误报比漏报贵；扩充走后续单）
+INFRA_WATCH = [
+    "kdo-tools/conveyor_probe.py",
+    "kdo-tools/watch_inbox.py",
+    "90_control/scripts/queue_transition.py",
+    "kdo-tools/generate-dashboard.py",
+]
+MATRIX_FILE = "90_control/notification-coverage-matrix.md"
+
+
+def _matrix_sync_check(task_id: str, root: Path) -> str | None:
+    """基础设施单 reviewed 时核查矩阵同步。返回问题文案（None=通过/不适用）。
+
+    口径：任务单 code_files 触及 INFRA_WATCH → 该任务单最近 3 笔 commit 须同改矩阵；
+    frontmatter `matrix_exempt: true` → 跳过+豁免留痕（#444 台账同款）。
+    机器只查「登没登」（存在性），不判「登得对不对」（#433 同哲学）。
+    """
+    fp = TASK_DIR / f"{task_id}.md"
+    if not fp.exists():
+        return None
+    try:
+        import yaml as _yaml
+        fm = _yaml.safe_load(fp.read_text(encoding="utf-8").split("---", 2)[1]) or {}
+    except Exception:
+        return None
+    if fm.get("matrix_exempt") is True:
+        return "EXEMPT"
+    code_files = fm.get("code_files") or []
+    if isinstance(code_files, str):
+        code_files = [code_files]
+    touched = [c for c in map(str, code_files) if c in INFRA_WATCH]
+    if not touched:
+        return None
+    try:
+        import subprocess as _sp
+        hashes = _sp.run(
+            ["git", "-C", str(root), "log", "-n", "3", "--format=%H",
+             "--", f"60_feedback/tasks/{task_id}.md"],
+            capture_output=True, text=True, timeout=15).stdout.split()
+        # 逐 commit 查全量文件清单（pathspec 过滤会连名单一起过滤——#537 测试实证，
+        # 不能用 git log --name-only -- <任务单> 一步查）
+        names = []
+        for h in hashes:
+            names += _sp.run(
+                ["git", "-C", str(root), "diff-tree", "--no-commit-id", "--name-only", "-r", h],
+                capture_output=True, text=True, timeout=15).stdout.split()
+    except Exception:
+        return None  # git 异常 fail-open
+    if MATRIX_FILE not in names:
+        seq = task_id.split("_")[0].replace("task_", "")
+        return (f"⛔ 总账未同步：#{seq} 触碰基础设施"
+                f"（{Path(touched[0]).name}）但 notification-coverage-matrix 未同改——"
+                f"终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）")
+    return None
+
+
 def _escalate_near_miss(state: dict, misses: list[str], dry_run: bool, silent: bool) -> None:
     """#536：near-miss 超期升级推送——同一文件 ≥3 轮（≈30 分钟）仍未修正 → 推王语嫣收件箱。
 
@@ -813,6 +872,32 @@ def main() -> int:
             brief = _review_brief(tid)
             messages[role] = f"🔴 KDO 退回 1 单（返工优先）：#{seq}（{tid}）{f'〔{brief}〕' if brief else ''}，见任务单终审记录"
             failback_roles.add(role)
+
+    # #537 第七信号：总账登记核查——基础设施单 reviewed 时矩阵未同步 → 双推欧阳锋+抄送王语嫣
+    # （非终审类信号：不豁免夜间静默；幂等=matrix_checked 每单只查一次）
+    matrix_checked = set(state.get("matrix_checked", []))
+    matrix_dirty = False
+    for tid, _seq, _a in queue_sig["new_reviewed"]:
+        if tid in matrix_checked:
+            continue
+        issue = _matrix_sync_check(tid, ROOT)
+        matrix_checked.add(tid)
+        matrix_dirty = True
+        if issue == "EXEMPT":
+            try:  # 豁免留痕（#444 台账同款）
+                with FORCE_LEDGER.open("a", encoding="utf-8") as f:
+                    f.write(f"{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}｜task={tid}｜"
+                            f"instance=conveyor_probe｜bypass=matrix 登记核查（matrix_exempt）｜"
+                            f"reason=任务单声明豁免（§3.19 例外）\n")
+            except OSError as e:
+                print(f"⚠️ 豁免台账写入失败: {e}", file=sys.stderr)
+        elif issue:
+            messages["ouyangfeng"] = issue
+            exempt_roles.discard("ouyangfeng")  # 非终审类：摘除可能残留的豁免标记
+            cc = f"📋 抄送：{issue[:60]}…"
+            messages["wangyuyan"] = (messages["wangyuyan"] + "；" + cc) if "wangyuyan" in messages else cc
+    if matrix_dirty:
+        state["matrix_checked"] = sorted(matrix_checked)[-300:]
 
     # 幂等：同 id 不重推（登记与通知同源——registered 是本次扫描产物）
     notified = set(state.get("notified", []))
