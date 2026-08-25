@@ -154,6 +154,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 526 | `task_20260825_laowantong-feature-domain-signpost-batch` | Feature域入口路标收尾批：OCR卡挂链+inbox三处指路+问法回填discoverable_by+两套Feature澄清卡+digest路标+类比遮蔽dk卡 | reviewed | laowantong | 内容批+复测 | 无 | `60_feedback/tasks/task_20260825_laowantong-feature-domain-signpost-batch.md` | 小昭检索检测报告建议1/2/3/7裁定采纳（老朱对齐确认；盲测第1问未命中=无声的错误实证）；问法回填复用#315模式；dk卡署名小昭（消费端贡献首例）；OCR卡守10_raw层不升30_wiki；欧阳锋批次验收 |
 | 527 | `task_20260825_huangyaoshi-depended-draft-card-gate` | 被依赖卡draft门禁：被agent-spec/CLAUDE.md/数据链引用的卡status:draft即报警（WARNING起步+存量清单） | reviewed | huangyaoshi | lint+存量清单+回归 | 无 | `60_feedback/tasks/task_20260825_huangyaoshi-depended-draft-card-gate.md` | 小昭检索检测报告建议4裁定采纳（盲测P4：layered-system系draft但被basic-skills-coach活依赖，违反E018精神）；治本=#524标注治标互补；清单交王语嫣→欧阳锋按优先级过审（首张=layered-system，已预告）；不自动改状态；欧阳锋终审 |
 | 528 | `task_20260825_huangyaoshi-island-card-scan` | 孤岛卡扫描lint：30_wiki无出链无入链卡定期出清单（豁免agent-spec类，WARNING制不拦流转） | queued | huangyaoshi | 扫描器+清单+挂载 | 无 | `60_feedback/tasks/task_20260825_huangyaoshi-island-card-scan.md` | 老朱追问「知识卡解决不了，还有什么办法」裁定补结构层（盲测P1同族：dk管认知/盲测管兜底/本单管结构）；清单交王语嫣编排挂链批次；与#527分工=被依赖draft vs 无人依赖孤岛；欧阳锋终审 |
+| 529 | `task_20260825_laowantong-oral-spray-dictation-supplement` | 口喷全阶指南口述补充生产：新增3张（示范提示词三样本/喷文档不喷聊天框/训练vs任务最优）+补强3张（段位图/新人四难/多Agent并行） | queued | laowantong | 同构映射+3新3补 | 无 | `60_feedback/tasks/task_20260825_laowantong-oral-spray-dictation-supplement.md` | 老朱判定「更多暗知识」诊断属实（~95%与Live260重复，增量=提示词原文+操作层暗知识+独家数据）；⚠️素材=两遍STT拼接，专名以Live260精编版校核、>2802行先去重；P1卡级三方法；欧阳锋批次验收 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
 ## ⚖️ 待终审（提审任务，queue_transition 自动登记）
@@ -321,6 +322,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - 00_inbox/AI-study/一堂-AI学习-truman自用的AI FeatureSet_paddle_ocr.txt｜P0｜1312B｜检测到 08-25 14:21｜待王语嫣编排
 - 00_inbox/ocr_ingest/src_ocr_一堂_AI学习_truman自用的AI_FeatureSet.md｜P0｜2307B｜检测到 08-25 14:21｜待王语嫣编排
 - 00_inbox/paddle_batch/一堂-AI学习-truman自用的AI FeatureSet_paddle_ocr.md｜P0｜1897B｜检测到 08-25 14:21｜待王语嫣编排
+- 00_inbox/AI口喷能力训练全阶指南-口述.txt｜P0｜342105B｜检测到 08-25 15:01｜待王语嫣编排
 
 <!-- INBOX-PENDING-END -->
 
