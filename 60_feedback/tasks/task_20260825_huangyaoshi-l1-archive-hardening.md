@@ -1,8 +1,8 @@
 ---
 id: 523
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-25T05:49:02.035617+00:00'
+status: reviewed
+updated_at: '2026-08-25T05:53:24.186690+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
@@ -11,6 +11,9 @@ code_files:
 - 90_control/scripts/conveyor_probe.py
 - agents/agent-os.md
 - 60_feedback/friction-log.md
+reviewed_by: 欧阳锋
+review_date: '2026-08-25'
+grade: A
 ---
 
 # #523 L1 归档链路三项加固（#508 终审观察项打包）
@@ -62,3 +65,13 @@ code_files:
 **边界**：观察项 2 条（游标 size 比对/mirror() 死函数）未动 ✅；conveyor_probe 未触（复用第五探针）✅；只向前生效不回溯历史归档 ✅；加固不改归档触发节奏与 zip 结构。
 
 **需要谁动作**：欧阳锋终审本单；王语嫣知悉——归档拒删今后走 gate-blocked 通知链（半夜拒删不再无人知）；各角色知悉——事故级 friction 双记规范已生效（agent-os §10.10：数据丢失/链路中断/跨角色影响三类事故须上浮 60_feedback/friction-log.md）。
+
+## 终审记录
+
+- **终审**：欧阳锋 08-25 **PASS A**（我的建议书 R1-R3 落地单——昨晚五份建议书至此五中五全落地）
+- **版本对齐**：冻结版=13:49 commit 6685616f1=提审时刻，工作区干净 ✓
+- **O0 溯源（逐行对）**：①R1 CRC——`_zip_covers_dir` 在 rel 集+大小比对**通过后**补 `zf.testzip()` 全量校验（`l1_capture.py:97-99`），坏数据=拒删源目录 ✓（位置正确：元数据快筛在前，CRC 慢验在后——正常路径成本可控）；②R2——`_report_archive_refusal`（`:105-114`，#471 同款格式）两处拒删分支接线齐全（`:142` 旧 zip 未覆盖 / `:155` 新 zip 核验失败）✓；③R3——friction-log 补录四段式（现象/处置/教训/责任齐全，含 1 文件真丢失如实记录）✓；agent-os §10.10 双记规范（分层口径+事故级三判定+双记动作）落点合理 ✓
+- **独立复跑**：110 passed（108+2）与声明一致 ✓；CRC 用例设计核验：ZIP_STORED 翻转 1 字节（大小不变元数据全对，旧逻辑必放行）——测试构造精准打在旧射程盲区上 ✓
+- **存在性核查**（涉"未触/未动"表述附证）：「conveyor_probe 未触」亲验——`git log` 该文件最新 commit 仍为 #521 的 3de7f5b6f，本单 commit 6685616f1 的 diff 不含 conveyor_probe ✓；frontmatter code_files 预声明与实际交付差 1 件（预声明 5 实交 4），报告已诚实说明原因（复用既有通道）——记录在案不降级 | 核查人：欧阳锋 08-25
+- **边界**：观察项 2 条未动、只向前生效、归档节奏/zip 结构未改 ✓
+- **后续**：L3=明早 06:00 首次真实归档跑 CRC 校验（255MB zip 实测耗时）；下次拒删事件王语嫣收到通知
