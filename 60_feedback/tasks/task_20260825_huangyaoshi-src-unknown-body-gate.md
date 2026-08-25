@@ -1,8 +1,8 @@
 ---
 id: 517
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-25T02:37:24.667268+00:00'
+status: pending_review
+updated_at: '2026-08-25T02:48:30.701669+00:00'
 version: v0.1
 instance: huangyaoshi
 ---
@@ -51,3 +51,21 @@ graph-rag 域 11 处 src_unknown 是单卡缺陷，但背后现象是基建类�
 
 - **黄药师**：pre-submit 检查项 + 回归
 - **欧阳锋**：终审本单；过渡口径（见占位即 FAIL）已生效
+
+## 执行报告（F-034 五字段，complete 前必填）
+
+**完成内容**：`kdo pre-submit` 新增正文 src_unknown 占位门禁（KDO CLI 仓 `kdo/pre_submit.py`）——①新检查 `_check_body_src_unknown`：parse_frontmatter 分离后**只查正文**（frontmatter src_unknown=#391 接受口径不动），占位词表首版=字面 token `src_unknown`（先小后大 #433 先例；实测该 token 覆盖存量全部形态：`- src_unknown` 列表项 21,152 行/括注/表格行）；②新卡判定 `created_at[:10] ≥ BODY_SRC_UNKNOWN_GATE_DATE(2026-08-25)` → ERROR 拦截，更早或缺失 → WARNING 计数输出（红线 4：识别不出不硬拦）；③安慰语口径修正（任务第 4 条）：format_report 在 all_pass 但存在 WARNING 时不再输出「修得干净」，改「有警在身，非全清，终审前自行掂量」（§3.11 归零声明纪律同族）；④存量实测复核：正文占位 1,523 卡（与欧阳锋 1,524 差 1——_archive 排除口径微差，量级一致）。
+
+**交付物**：
+- `kdo/pre_submit.py`（KDO CLI 仓：`Knowledge Delivery OS 0.0.1`，新检查+接线+报告格式+安慰语修正）
+- `tests/test_pre_submit_body_src_unknown.py`（KDO CLI 仓，新：7 例回归）
+- `90_control/infrastructure-inventory.md`（pre_submit 行注 #517 门禁上线）
+
+**验证**：
+- L1 单测 7 例全过：新卡 ERROR/存量 WARNING/created_at 缺失按存量/清洁卡零 issue/frontmatter src_unknown 不误伤（#391 边界）/WARNING 在列无安慰语/info-only 保留原文案
+- L2 狗粮：存量卡 `30_wiki/concepts/graph-rag.md` 实跑 → `🟡 正文 src_unknown 占位 ×22（存量不拦截，治理归 #518 分批）`+PASS 输出「3 条 WARNING 在列——有警在身，非全清」✅（×22 vs 建议书 11 处=token 计数 vs 节计数口径差，方向一致）；临时新卡探针（created_at=2026-08-25+占位）实跑 → 🔴 ERROR 拦截 FAIL ✅（探针文件已删）
+- L3 待活体：下一张含占位新卡被当场拦下且不带安慰语
+
+**边界**：只加检查项+安慰语措辞，存量卡内容零改动 ✅；词表首版仅 src_unknown 一词（不大而全）✅；R3 审查侧过渡口径不依赖本单、未动 ✅；KDO CLI 仓既有失败 test_cli_smoke::test_end_to_end_smoke（state['sources'] KeyError）经 stash 对照实证为 HEAD 既有，与本单无关 ✅。
+
+**需要谁动作**：欧阳锋终审本单（注意：功能代码在 KDO CLI 仓，终审 diff 看该仓 commit）；王语嫣知悉——#518 存量治理启动时机禁现在已有门禁护栏（新卡只向前拦截）；各生产者知悉——2026-08-25 起新卡正文含 src_unknown 占位 pre-submit 直接 FAIL。
