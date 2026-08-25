@@ -19,7 +19,8 @@ if hasattr(sys.stdout, "reconfigure"):
 
 ROLES = ["huangyaoshi", "laowantong", "wangyuyan", "ouyangfeng", "fengqingyang"]
 NINE_LAYERS = ["00_inbox", "10_raw", "20_memory", "30_wiki", "40_outputs",
-               "50_delivery", "60_feedback", "70_product", "90_control", ".kdo"]
+               "50_delivery", "60_feedback", "70_product", "90_control", ".kdo",
+               "logs"]  # logs=运行时日志目录（#534：.cmd 重定向目标，缺它探针静默不跑）
 KEY_FILES = [
     "kdo-tools/conveyor_probe.py", "kdo-tools/l1_capture.py",
     "kdo-tools/daily-context-save.py", "90_control/scripts/queue_transition.py",
@@ -62,14 +63,15 @@ def check(root: Path) -> list[str]:
     return problems
 
 
-def check_scheduled_tasks() -> list[str]:
-    """schtasks 注册核查（环境问题不硬失败——WSL/无权限环境返回提示）。"""
+def check_scheduled_tasks(suffix: str = "") -> list[str]:
+    """schtasks 注册核查（环境问题不硬失败——WSL/无权限环境返回提示）。
+    suffix：第二套库任务名后缀（如 -tech，#534 狗粮实证任务名需可配）。"""
     problems = []
     for tn in SCHED_TASKS:
-        r = subprocess.run(["schtasks", "/query", "/tn", tn],
+        r = subprocess.run(["schtasks", "/query", "/tn", tn + suffix],
                            capture_output=True, timeout=15)
         if r.returncode != 0:
-            problems.append(f"计划任务未注册: {tn}")
+            problems.append(f"计划任务未注册: {tn}{suffix}")
     return problems
 
 
@@ -77,12 +79,13 @@ def main() -> int:
     ap = argparse.ArgumentParser(description="kdo-seed 装机自检（#532）")
     ap.add_argument("--root", help="库根（默认 KDO_ROOT 或脚本祖父目录）")
     ap.add_argument("--skip-tasks", action="store_true", help="跳过 schtasks 核查（种子目录内预检）")
+    ap.add_argument("--task-suffix", default="", help="第二套库任务名后缀（如 -tech）")
     args = ap.parse_args()
     import os
     root = Path(args.root or os.environ.get("KDO_ROOT") or Path(__file__).resolve().parent.parent)
 
     problems = check(root)
-    task_problems = [] if args.skip_tasks else check_scheduled_tasks()
+    task_problems = [] if args.skip_tasks else check_scheduled_tasks(args.task_suffix)
 
     for p in problems + task_problems:
         print(f"🔴 {p}")

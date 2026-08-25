@@ -1,0 +1,57 @@
+# Spec Card JSON Schema（#533 技术域适配包）
+# 协议/接口规格卡：版本、兼容性、变更历史、双方实现状态。
+# 卡管认知不管工件——协议原文/PDF 留原仓，artifact_path 引用。
+
+$id: "kdo://schemas/spec"
+$schema: "http://json-schema.org/draft-07/schema#"
+title: "KDO Tech Spec Card"
+description: >
+  Schema for protocol/interface spec cards (30_wiki/specs/).
+  电路图/协议原文/二进制工件不进卡，frontmatter artifact_path 引用原仓路径。
+
+type: object
+required:
+  - title
+  - type
+  - created_at
+  - updated_at
+  - status
+  - spec_version
+  - artifact_path
+
+properties:
+  title:
+    type: string
+    minLength: 1
+    maxLength: 120
+  type:
+    type: string
+    const: spec
+  created_at: {type: string}
+  updated_at: {type: string}
+  status:
+    type: string
+    enum: [draft, enriched, reviewed, stable, deprecated, superseded]
+  source_refs:
+    type: array
+    items: {type: string}
+    description: "认知来源（讨论/文档/实测），无来源标 src_unknown 走既有口径"
+
+  spec_version:
+    type: string
+    description: "协议/接口版本号（如 v2.1 / 2024-11）"
+  compatibility:
+    type: array
+    items: {type: string}
+    description: "兼容性声明（向下兼容到哪个版本/与谁互操作实测过）"
+  change_history:
+    type: array
+    items: {type: string}
+    description: "版本变更历史（每条=版本+变更点+日期），认知核心=为什么变"
+  implementations:
+    type: array
+    items: {type: string}
+    description: "双方/多方实现状态（谁实现了、到哪版本、实测互操作结果）"
+  artifact_path:
+    type: string
+    description: "协议原文/工件路径（原仓相对或绝对路径；工件本体不进卡）"

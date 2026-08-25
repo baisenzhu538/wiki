@@ -36,6 +36,9 @@ CONTROL_SCRIPTS = [
     "pre_review.py", "audit_queue_integrity.py", "shared_file_guard.py",
     "full-library-rescan.py", "check-runtime-drift.py", "check-derivatives.py",
     "check-draft-aging.py", "check-tags-health.py", "file-flow-check.py",
+    # health-check 子检查全家（#534 狗粮实证：缺 kdo_lint 健康检查即 FAIL）
+    "kdo_lint.py", "check-source-refs.py", "scan-vlm-parse-errors.py",
+    "track-production-progress.py", "check-agent-config.py", "check-mcp-roaming.py",
 ]
 CMD_WRAPPERS = [
     "kdo-conveyor-probe.cmd", "kdo-l1-capture.cmd", "kdo-quality-metrics.cmd",
@@ -49,7 +52,27 @@ GOVERNANCE = [
 ]
 GOVERNANCE_DIRS = ["90_control/schemas", "90_control/quality-gates"]
 NINE_LAYERS = ["00_inbox", "10_raw", "20_memory", "30_wiki", "40_outputs",
-               "50_delivery", "60_feedback", "70_product", "90_control", ".kdo"]
+               "50_delivery", "60_feedback", "70_product", "90_control", ".kdo",
+               "logs"]  # logs=运行时日志目录（#534 狗粮实证：缺它 .cmd 重定向失败探针静默不跑）
+
+# 机制初始文件模板（#534 狗粮实证：缺它们探针首轮即崩——FileNotFoundError）
+QUEUE_TEMPLATE = """# 生产队列
+
+| 序号 | 任务 | 名称 | 状态 | 负责 | 交付物 | 依赖 | 任务单 | 备注 |
+|:---|:---|:---|:---|:---|:---|:---|:---|:---|
+
+<!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
+
+## ⚖️ 待终审（提审任务，queue_transition 自动登记）
+
+<!-- REVIEW-PENDING-END -->
+
+<!-- INBOX-PENDING-BEGIN（watch_inbox 自动维护，勿手改） -->
+
+## 📥 待编排（inbox 新素材，watch_inbox 自动登记）
+
+<!-- INBOX-PENDING-END -->
+"""
 
 
 def build(out_dir: Path) -> dict:
@@ -101,12 +124,16 @@ def build(out_dir: Path) -> dict:
         if (ROOT / "kdo-tools" / f).exists():
             cp(f"kdo-tools/{f}", f"seed/kdo-tools/{f}")
 
-    # 4. 九层空骨架 + agent复盘骨架
+    # 4. 九层空骨架 + agent复盘骨架 + 机制初始文件（queue 模板——#534 狗粮实证缺它探针首轮崩）
     for layer in NINE_LAYERS:
         d = out_dir / "seed" / layer
         d.mkdir(parents=True, exist_ok=True)
         (d / ".gitkeep").write_text("", encoding="utf-8")
         stats["dirs"] += 1
+    qt = out_dir / "seed" / "70_product" / "tasks"
+    qt.mkdir(parents=True, exist_ok=True)
+    (qt / "production-queue.md").write_text(QUEUE_TEMPLATE, encoding="utf-8")
+    stats["files"] += 1
     for role in ROLES:
         d = out_dir / "seed" / "agent复盘" / role / "daily-context"
         d.mkdir(parents=True, exist_ok=True)
