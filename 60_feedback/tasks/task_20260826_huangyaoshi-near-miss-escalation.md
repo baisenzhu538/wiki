@@ -1,12 +1,12 @@
 ---
 id: 536
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-26T03:05:00+00:00'
+status: in_progress
+updated_at: '2026-08-25T22:22:12.850840+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
-  - kdo-tools/conveyor_probe.py
+- kdo-tools/conveyor_probe.py
 ---
 
 # #536 near-miss 超期升级推送：三元组违例不再只靠日志留痕
