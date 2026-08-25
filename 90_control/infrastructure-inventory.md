@@ -67,6 +67,7 @@ audience: 全体 agent
 | conveyor_probe | kdo-tools/conveyor_probe.py | 传送带探针（六信号检出→登记→飞书通知，单扫描器纪律） | 08-25 #519 修复后计划触发实跑 PASS | 计划任务 kdo-conveyor-probe/gate-blocked.log |
 | check-conveyor-state | 90_control/scripts/check-conveyor-state.py | 探针空转报警（#519：state 年龄>2×周期→exit 1，health-check 带动） | 08-25 5 例 passed | health-check/.kdo/conveyor_state.json |
 | check-review-sla | 90_control/scripts/check-review-sla.py | 审查 SLA 观测（#520 R3：REVIEW-PENDING 最大年龄>2h→exit 1） | 08-25 5 例 passed | health-check/production-queue.md |
+| quality_metrics | kdo-tools/quality_metrics.py | 质量指标基线周报（#514：FAIL率/打回率/拦截率/误判率代理，口径=quality-metrics-spec-v1） | 08-25 7 例 passed | 计划任务 kdo-quality-metrics/60_feedback/auto/quality-metrics |
 | memory_capsule | kdo-tools/memory_capsule.py | 记忆胶囊（L1 主库/镜像/verify/事件写入+log_event_safe 四类事件统一入口 #511） | 08-25 6 例 passed | L1 库+D 盘镜像 |
 | l1_capture | kdo-tools/l1_capture.py | L1 全量采集（日期增量目录+判重游标+每日 zip 归档复活 #508） | 08-25 8 例 passed | 计划任务 kdo-l1-capture/kdo-l1-archive |
 | daily-context-save | kdo-tools/daily-context-save.py | 复盘保存（存档+review-check+L0 事件+镜像联动；#512 重打改覆盖写+事件去重） | 08-25 4 例 passed | review-check/memory_capsule |
@@ -153,6 +154,7 @@ audience: 全体 agent
 | wechat-link-monitor | 每 10 分钟 | 微信链接监测（偶遇采集） | wechat_link_monitor |
 | kdo-daily-audit-digest | 每日 06:00 | 每日审计轮段①抽数（四原料→D 盘 digest） | daily-audit-digest |
 | kdo-l1-archive | 每日 06:00 | L1 旧天日期目录 zip 归档（核验覆盖才删目录 #508） | l1_capture --archive |
+| kdo-quality-metrics | 每周一 06:35 | 质量指标周报（上周一~周日，#514 阶段 0 纯统计） | quality_metrics |
 
 **L1 断流判读口径（#513 落档，08-25 黄药师核查闭环）**：判读某源「断流」前必须三对照——①该源 sessions 存储目录在窗口期是否有 mtime 活动（无活动=正常空转，非断流）；②检查时刻距会话启动是否 <30min 采集节拍（节拍内未采到属正常滞后）；③kdo-l1-capture 各拍是否在 `90_control/l1-size.log` 连续在跑。kimi 源实证：CLI 活跃期间 wire.jsonl/state.json/logs 实时写盘（非退出才写），采集路径 `~/.kimi-code` 全目录覆盖 sessions/ 无缺口；08-24「7.5h 断流」实为无活动窗口+节拍内检查的复合误判（zip 内 workspaces.json=23:39 版本实证 00:07 拍已采到）。
 
