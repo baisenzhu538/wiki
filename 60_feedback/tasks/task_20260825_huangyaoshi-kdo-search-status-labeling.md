@@ -1,13 +1,13 @@
 ---
 id: 524
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-24T18:30:00+00:00'
+status: in_progress
+updated_at: '2026-08-25T06:08:12.753344+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
-  - kdo-tools/mcp/server.py
-  - kdo-tools/tests/test_mcp_server.py
+- kdo-tools/mcp/server.py
+- kdo-tools/tests/test_mcp_server.py
 ---
 
 # #524 kdo_search 消费端契约：结果标注 status + draft 警示 + 非卡来源层标注 + reviewed 排序加权
