@@ -148,7 +148,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 520 | `task_20260825_huangyaoshi-review-wakeup-and-sla` | 审查供给端三件套：提审叫醒审查者+阻塞链🔴标记+pending_review最大年龄SLA观测 | reviewed | huangyaoshi | 叫醒通道+标记+指标 | #519 先行（探针同文件区） | `60_feedback/tasks/task_20260825_huangyaoshi-review-wakeup-and-sla.md` | 欧阳锋建议书R1-R3裁定采纳（#505实证：审查供给触发器=老朱发现）；R4应急通道涉审查权下放挂F-056待拍板；终审类豁免静默同#521口径；欧阳锋终审 |
 | 521 | `task_20260825_huangyaoshi-review-pass-routing` | 审查结果推送补全：PASS按assignee路由生产者（复用#443路由）+终审类信号豁免夜间静默 | reviewed | huangyaoshi | 路由扩展+静默分级 | #519 先行 | `60_feedback/tasks/task_20260825_huangyaoshi-review-pass-routing.md` | 欧阳锋建议书R1/R2采纳（老朱08-25指令+静默豁免已拍板）；R3(inbox必读)机制已闭环不立项；王语嫣抄送保留；欧阳锋终审 |
 | 522 | `task_20260825_huangyaoshi-complete-deliverable-commit-gate` | complete门禁增「交付物已入仓」校验：执行报告交付物git跟踪+无脏改动，未入仓即拦（豁免编排/诊断类） | reviewed | huangyaoshi | 门禁扩展+回归 | 无 | `60_feedback/tasks/task_20260825_huangyaoshi-complete-deliverable-commit-gate.md` | 欧阳锋建议书采纳（一晚2次实证：#470脏文件/#518清单untracked提审）；E040机器化前移；识别不出=WARNING不硬拦（红线4）；施工前读最新HEAD（§3.16）；欧阳锋终审 |
-| 523 | `task_20260825_huangyaoshi-l1-archive-hardening` | L1归档链路三项加固：CRC抽检入核验+拒删接gate-blocked通道+事故上浮全厂friction台账（#508终审观察项打包） | claimed-huangyaoshi | huangyaoshi | 加固+回归+规范落文件 | 无（探针同文件区让#519先合入） | `60_feedback/tasks/task_20260825_huangyaoshi-l1-archive-hardening.md` | 欧阳锋建议书R1/R2/R3裁定采纳（#508终审PASS A观察项，不阻断）；R2复用#471通道；R3=O-15同族（事故级双记规范）；观察项2条（游标size/mirror死函数）不立项；欧阳锋终审 |
+| 523 | `task_20260825_huangyaoshi-l1-archive-hardening` | L1归档链路三项加固：CRC抽检入核验+拒删接gate-blocked通道+事故上浮全厂friction台账（#508终审观察项打包） | pending_review | huangyaoshi | 加固+回归+规范落文件 | 无（探针同文件区让#519先合入） | `60_feedback/tasks/task_20260825_huangyaoshi-l1-archive-hardening.md` | 欧阳锋建议书R1/R2/R3裁定采纳（#508终审PASS A观察项，不阻断）；R2复用#471通道；R3=O-15同族（事故级双记规范）；观察项2条（游标size/mirror死函数）不立项；欧阳锋终审 |
 | 524 | `task_20260825_huangyaoshi-kdo-search-status-labeling` | kdo_search消费端契约：结果标status/confidence+draft⚠️前缀+非卡来源层标注+reviewed排序加权（降权不剔除） | queued | huangyaoshi | 渲染/排序层+回归 | 无 | `60_feedback/tasks/task_20260825_huangyaoshi-kdo-search-status-labeling.md` | 王语嫣依消费端实况立项（老朱授权自行入列；依据=analysis/2026-08-25-xiaozhao-consumer-side-kb-usage证据1/2/3/11：小昭「draft当定论」风险实证）；不动召回算法只动渲染排序；欧阳锋终审 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
@@ -259,6 +259,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#520 task_20260825_huangyaoshi-review-wakeup-and-sla｜huangyaoshi｜提审 08-25 12:16｜60_feedback/tasks/task_20260825_huangyaoshi-review-wakeup-and-sla.md~~ → 已终审 PASS A（2026-08-25 欧阳锋）
 - ~~#521 task_20260825_huangyaoshi-review-pass-routing｜huangyaoshi｜提审 08-25 12:49｜60_feedback/tasks/task_20260825_huangyaoshi-review-pass-routing.md~~ → 已终审 PASS A（2026-08-25 欧阳锋）
 - ~~#522 task_20260825_huangyaoshi-complete-deliverable-commit-gate｜huangyaoshi｜提审 08-25 13:13｜60_feedback/tasks/task_20260825_huangyaoshi-complete-deliverable-commit-gate.md~~ → 已终审 PASS A（2026-08-25 欧阳锋）
+- #523 task_20260825_huangyaoshi-l1-archive-hardening｜huangyaoshi｜提审 08-25 13:49｜60_feedback/tasks/task_20260825_huangyaoshi-l1-archive-hardening.md
 
 <!-- REVIEW-PENDING-END -->
 

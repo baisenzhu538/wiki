@@ -1,8 +1,8 @@
 ---
 id: 523
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-25T05:38:03.409412+00:00'
+status: pending_review
+updated_at: '2026-08-25T05:49:02.035617+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
@@ -43,3 +43,22 @@ code_files:
 - R2：构造核验失败场景，gate-blocked.log 有记录且探针可达（附验证输出）
 - R3：#508 事故已补录 `60_feedback/friction-log.md`；双记规范已落纪律文件（注明落点路径+节号）
 - 欧阳锋终审
+
+## 执行报告（F-034 五字段，complete 前必填）
+
+**完成内容**：#508 终审观察项三项打包加固。①**R1 CRC 校验**：`_zip_covers_dir` 元数据比对（rel 集+大小）通过后补 `zf.testzip()` 全量 CRC 校验——infolist 不校验 CRC，写盘半成/坏块原不在射程，现在坏数据=拒删源目录；②**R2 拒删接 gate-blocked**：新 `_report_archive_refusal()`——两处拒删分支（旧 zip 未覆盖/新 zip 核验失败）除 stderr 外写 `90_control/gate-blocked.log`（#471 同款格式：ts｜l1-capture｜L1-归档拒删｜详情｜huangyaoshi），conveyor_probe 第五探针既有扫描自动拾取→通知王语嫣，**探针侧零改动**（frontmatter code_files 预声明的 conveyor_probe.py 实际未触——接线复用既有通道）；③**R3 事故上浮+规范**：#508 事故四段式补录 `60_feedback/friction-log.md`（自 .agent/friction-log 双记）；双记规范落 `agents/agent-os.md` §10.10（事故级判定三标准：数据丢失/链路中断/跨角色影响；agent 级照旧一行、全厂台账四段式——回源确认：agent-os 原无 friction 节，friction 机制定义在 .agent/friction-log.md 头部，规范落点选在复盘飞轮协议 §10 家族内）。
+
+**交付物**：
+- `kdo-tools/l1_capture.py`（_zip_covers_dir 加 CRC + _report_archive_refusal 两处接线）
+- `kdo-tools/tests/test_l1_capture.py`（新增 2 例：CRC 损坏拦截/拒删写 gate-blocked）
+- `60_feedback/friction-log.md`（#508 事故上浮补录）
+- `agents/agent-os.md`（§10.10 事故级 friction 双记规范）
+
+**验证**：
+- L1 单测：新增 2 例全过——①CRC 用例构造 ZIP_STORED 裸数据翻转 1 字节（大小不变元数据全对，旧逻辑必放行），新核验拒删并报「CRC 校验失败」✅；②拒删场景 gate-blocked.log 实测含「L1-归档拒删」+目录名+责任人行 ✅。全量基线 **110 passed**（108+2，零退步）
+- L2 狗粮：R2 探针可达性=通道实证复用（#519 修复后探针 11:37 起每 10 分钟正常扫 gate-blocked.log——今晨 near-miss/gate 信号均在流水线上）；R3 上浮条目与 §10.10 规范已落盘可读
+- L3 待活体：明早 06:00 kdo-l1-archive 跑真实归档（CRC 校验在真实 255MB zip 上的耗时/通过）；下次拒删事件王语嫣收到通知
+
+**边界**：观察项 2 条（游标 size 比对/mirror() 死函数）未动 ✅；conveyor_probe 未触（复用第五探针）✅；只向前生效不回溯历史归档 ✅；加固不改归档触发节奏与 zip 结构。
+
+**需要谁动作**：欧阳锋终审本单；王语嫣知悉——归档拒删今后走 gate-blocked 通知链（半夜拒删不再无人知）；各角色知悉——事故级 friction 双记规范已生效（agent-os §10.10：数据丢失/链路中断/跨角色影响三类事故须上浮 60_feedback/friction-log.md）。
