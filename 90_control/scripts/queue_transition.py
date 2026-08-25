@@ -609,6 +609,103 @@ def _check_code_gate(task_file: Path, fm: dict[str, Any]) -> tuple[bool, str]:
     return True, ""
 
 
+# ---------------------------------------------------------------------------
+# #522 complete 门禁：交付物已入仓校验（E040 机器兜底）
+# ---------------------------------------------------------------------------
+
+# 豁免声明关键词（任务单执行报告明确声明以下口径 → 跳过校验：编排/诊断类无代码交付物）
+DELIVERABLE_EXEMPT_MARKERS = ("纯任务单修改", "纯任务单", "无代码交付物", "零代码改动")
+# 自动收口文件不算交付物（complete 流转本身会 commit 它们）
+_DELIVERABLE_AUTO_COMMIT = {"production-queue.md", "dashboard.html"}
+
+# 交付物节内容里的反引号路径：含 / 且有扩展名才认（防命令/字段名误识别）
+_DELIVERABLE_PATH_RE = re.compile(r"`([^`\n]+)`")
+
+
+def _extract_deliverable_paths(report: str, task_file_name: str) -> list[str]:
+    """从执行报告「交付物」节提取反引号包裹的文件路径（启发式，识别不出=返回空→WARNING 不硬拦）。"""
+    paths: list[str] = []
+    for anchor in DELIVERY_FIELDS["改动文件清单"]:  # **交付物** / **改动文件** / **文件清单**
+        idx = report.find(anchor)
+        if idx == -1:
+            continue
+        # 节边界：下一个 **粗体字段** 或 ## 标题
+        rest = report[idx + len(anchor):]
+        nxt_field = rest.find("\n**")
+        nxt_head = rest.find("\n##")
+        stops = [p for p in (nxt_field, nxt_head) if p > 0]
+        section = rest[:min(stops)] if stops else rest
+        for tok in _DELIVERABLE_PATH_RE.findall(section):
+            tok = tok.strip()
+            if "/" not in tok and "\\" not in tok:
+                continue
+            if not re.search(r"\.[A-Za-z0-9]{1,10}$", tok):
+                continue
+            norm = tok.replace("\\", "/")
+            base = norm.rsplit("/", 1)[-1]
+            if base in _DELIVERABLE_AUTO_COMMIT or norm == task_file_name or base == task_file_name:
+                continue
+            if norm not in paths:
+                paths.append(norm)
+        break  # 只取第一个命中的字段锚点
+    return paths
+
+
+def _git_tracked(repo_root: Path, rel: str) -> bool:
+    """git ls-files 校验路径已跟踪；git 异常时 fail-open 返回 True（不拦）。"""
+    try:
+        r = subprocess.run(
+            ["git", "-C", str(repo_root), "ls-files", "--error-unmatch", "--", rel],
+            capture_output=True, text=True, timeout=15,
+        )
+        return r.returncode == 0
+    except Exception:
+        return True
+
+
+def _check_deliverables_committed(task_file: Path, fm: dict[str, Any],
+                                  wiki_root: Path | None = None) -> tuple[bool, str, str]:
+    """#522：执行报告交付物必须已入仓（已跟踪+无未提交改动），未入仓即拦。
+
+    返回 (ok, block_msg, warn_msg)。识别不出路径/豁免声明 → ok=True + warn（红线 4：
+    识别不出=WARNING 不硬拦）。code_files 声明的由 #363 门禁已管，本查报告交付物节。
+    """
+    wiki_root = wiki_root or _WIKI_ROOT
+    try:
+        body = task_file.read_text(encoding="utf-8", errors="ignore")
+    except OSError:
+        return True, "", "任务单不可读，交付物校验跳过"
+    report = _extract_exec_report(body)
+    if not report:
+        return True, "", "无执行报告节（F-034 门禁已拦在前）"
+    if any(m in report for m in DELIVERABLE_EXEMPT_MARKERS):
+        return True, "", "任务单声明纯任务单修改/无代码交付物——交付物入仓校验豁免"
+
+    paths = _extract_deliverable_paths(report, task_file.name)
+    if not paths:
+        return True, "", "交付物节未识别出文件路径（启发式覆盖外）——人工自核已入仓"
+
+    problems: list[str] = []
+    for rel in paths:
+        repo = KDO_REPO_ROOT if "Knowledge Delivery OS" in rel else wiki_root
+        # KDO 仓路径给的是绝对/仓外相对——取仓内相对部分
+        repo_rel = rel.split("Knowledge Delivery OS 0.0.1/")[-1] if repo == KDO_REPO_ROOT else rel
+        if not _git_tracked(repo, repo_rel):
+            problems.append(f"untracked: {rel}")
+            continue
+        dirty = _git_uncommitted(repo, [repo_rel])
+        if dirty:
+            problems.append(f"未提交改动: {rel}")
+
+    if problems:
+        msg = ("E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生\n"
+               + "\n".join(f"  - {p}" for p in problems)
+               + "\n补救：git add <路径> && git commit -m '#<任务号> <交付说明> by <instance>' 后重跑 complete")
+        return False, msg, ""
+    return True, "", f"交付物入仓核验通过（{len(paths)} 个路径已跟踪且无脏改动）"
+
+
+
 # #429 F-034 交付五字段硬格式（老朱拍板「想犯错也犯不了」，停车场 F-034 收口）
 # 机读锚点：执行报告节或 --evidence 文件含以下标记即算该字段存在（只验存在性，不判内容质量——只拦机械项不碰判断）
 DELIVERY_FIELDS: dict[str, tuple[str, ...]] = {
@@ -729,6 +826,13 @@ def action_complete(task_id: str, instance: str, evidence: str | None, force: bo
     if not gate_ok:
         return False, gate_msg
 
+    # #522：交付物已入仓校验（E040 机器兜底）——识别不出/豁免声明=WARNING 不硬拦（红线 4）
+    dlv_ok, dlv_msg, dlv_warn = _check_deliverables_committed(task_file, fm)
+    if not dlv_ok:
+        _log_gate_blocked(task_id, "E040-交付物未入仓", dlv_msg, instance)
+        return False, dlv_msg
+    dlv_note = f"\n📦 交付物校验: {dlv_warn}" if dlv_warn else ""
+
     with QueueLock("production-queue"):
         rows = parse_queue()
         task = find_task(task_id, rows)
@@ -752,7 +856,7 @@ def action_complete(task_id: str, instance: str, evidence: str | None, force: bo
         "task_file": rel_path,
     })
 
-    return True, f"✅ {task_id} 已提交为 pending_review，等待欧阳锋终审{force_note}"
+    return True, f"✅ {task_id} 已提交为 pending_review，等待欧阳锋终审{force_note}{dlv_note}"
 
 
 # #433 负向判词证据层门禁（风清扬建议书 diag_20260823_fengqingyang-negative-claim-evidence-gate.md 采纳）
