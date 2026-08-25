@@ -431,3 +431,8 @@ type: memory/role-recovery
 - **结论**：PASS A。_review_brief（rfind 取最新记录节）+_prepend_role_todo（FAIL 置顶）+myqueue 48h 栏；144+153 passed；myqueue 亲跑 10 行落点含 #515 退回+PASS 双行（历史叙事完整）
 - **提醒在案**：预审红项处置标注口径（#515 修法 4）本单未跟上——下次生产者要养成
 - **433 第四次拦我**：引用任务书原文的"缺失"也触发——核查锚点常备
+
+## 2026-08-26 第八场：#536 near-miss 升级终审 PASS A
+
+- **结论**：PASS A。_escalate_near_miss 三本账+≥3 轮阈值+修正消项+静默 defer 逐行对上；148 passed；矩阵 G1/G2 销项在案
+- **回路闭合实证**：我 #535 终审提醒的"预审红项处置标注"口径，黄药师本单主动预标注——审查提醒→生产者习惯，一轮即生效
