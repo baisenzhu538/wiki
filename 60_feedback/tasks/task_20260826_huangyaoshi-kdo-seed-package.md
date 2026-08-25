@@ -1,8 +1,8 @@
 ---
 id: 532
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-25T18:12:04.824228+00:00'
+status: pending_review
+updated_at: '2026-08-25T18:35:57.845238+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
@@ -41,3 +41,37 @@ KDO 基础设施实测拆三层：**A 机制层**（角色文件 `.agent/`+`agen
 
 - 种子目录完整（seed-check 自证）；本机既有探针/门禁/队列脚本回归全过；手册经王语嫣过一遍可执行性
 - 欧阳锋终审
+
+## 执行报告（F-034 五字段，complete 前必填）
+
+**完成内容**：种子包三件套+路径参数化。①**种子目录** `90_control/kdo-seed/`（97 文件+15 骨架目录）：由 `build_seed.py` 清单化构建（可重复构建，清单即文档）——.agent/*.md+agents/{五角色}+20_memory 失忆锚点/制度层（charter/schemas/quality-gates/spec 三件）/工具层（kdo-tools 核心 13 件+90_control/scripts 16 件+6 .cmd）/九层空骨架/agent复盘五角色骨架；域采集（wechat/douyin/利润为王系）与一次性修复批（fix-*/stage4-*）剔除；②**bootstrap 手册** `BOOTSTRAP.md`：五步（放种子→setx KDO_ROOT→seed-check→schtasks 五条现成注册模板→五角色五连读）+不搬清单+故障排查表（含 #519 嵌套引号教训）；③**seed-check.py** 四查（骨架层/关键件/五角色可读/脚本可编译）+schtasks 在册核查（可 --skip-tasks）；④**路径参数化**：6 个 .cmd 全部 `KDO_ROOT 优先+%~dp0.. 回退`（位置无关）、agent-activity-check.py/sync-hermes-mcp.py 改 env 优先+__file__ 回退（mcp/tools.py 本已 env 化）——回退值与原硬编码逐字一致（本机零行为变化实测）；一次性修复批 12 件与域采集脚本的硬编码不参数化（历史遗留待归档族，不进种子不改行为）。
+
+**交付物**：
+- `kdo-tools/build_seed.py` + `kdo-tools/seed-check.py`（新）
+- `90_control/kdo-seed/`（种子目录 97 文件 + BOOTSTRAP.md）
+- 参数化：6 .cmd + `agent-activity-check.py` + `sync-hermes-mcp.py`
+- `kdo-tools/tests/test_seed_package.py`（新：5 例回归）+ `90_control/infrastructure-inventory.md`（登记）
+
+**验证**：
+- L1 单测 5 例全过：种子构建完整性（九层/五角色/关键件）/seed-check 真库全过/缺层负向必报/.cmd 参数化断言（KDO_ROOT+%~dp0.. 在、硬编码 cd 无）/py 回退值=真库根
+- L2 狗粮：本机 seed-check 全过（含五计划任务在册）✅；参数化后 conveyor .cmd 实跑 exit 0、probe state 落盘（age 0s）✅；sync-hermes-mcp 参数化后 WIKI/WSL_WIKI 推导值与原硬编码逐字一致 ✅
+- 本机回归全绿：kdo-tools **135 passed**（130+5）、90_control/scripts **150 passed**——参数化零行为回归
+- L3 待活体：#534 D 盘空库五步实装（狗粮单已排在我队列下下位）
+
+**边界**：零内容数据搬迁（C 层不碰）✅；本机脚本行为不变（回退一致+双仓回归绿）✅；schtasks 注册仅手册模板未在本机新注册 ✅；技术域适配归 #533 未染指 ✅；种子为快照——机制层后续演进用 build_seed.py 重构建刷新（免维护漂移）。
+
+**需要谁动作**：欧阳锋终审本单；**王语嫣**：BOOTSTRAP.md 过一遍可执行性（验收项）；老朱知悉——第二台机器五步起厂的种子已备，#534 本机狗粮实装紧接验证。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 6 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+🟡 ⚠️ 意见书含宽负向词（无/缺）无核查锚点——按需人工确认（#433 不硬杀）；锚点：⚪ 无锚点
