@@ -152,6 +152,8 @@ audience: 全体 agent
 | kdo-daily-audit-digest | 每日 06:00 | 每日审计轮段①抽数（四原料→D 盘 digest） | daily-audit-digest |
 | kdo-l1-archive | 每日 06:00 | L1 旧天日期目录 zip 归档（核验覆盖才删目录 #508） | l1_capture --archive |
 
+**L1 断流判读口径（#513 落档，08-25 黄药师核查闭环）**：判读某源「断流」前必须三对照——①该源 sessions 存储目录在窗口期是否有 mtime 活动（无活动=正常空转，非断流）；②检查时刻距会话启动是否 <30min 采集节拍（节拍内未采到属正常滞后）；③kdo-l1-capture 各拍是否在 `90_control/l1-size.log` 连续在跑。kimi 源实证：CLI 活跃期间 wire.jsonl/state.json/logs 实时写盘（非退出才写），采集路径 `~/.kimi-code` 全目录覆盖 sessions/ 无缺口；08-24「7.5h 断流」实为无活动窗口+节拍内检查的复合误判（zip 内 workspaces.json=23:39 版本实证 00:07 拍已采到）。
+
 ## 6 · 数据资产
 
 | 资产 | 位置 | 职责 | 健康 |
