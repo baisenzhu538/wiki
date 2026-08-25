@@ -1,8 +1,8 @@
 ---
 id: 537
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-25T22:53:03.879574+00:00'
+status: pending_review
+updated_at: '2026-08-25T23:00:19.805303+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
@@ -39,3 +39,36 @@ code_files:
 ## 验收
 
 - 三类用例实测输出；矩阵补第七信号行+G 台账口径更新；欧阳锋终审
+
+## 执行报告（F-034 五字段，complete 前必填）
+
+**完成内容**：conveyor_probe 第七信号「总账登记核查」。①`_matrix_sync_check()`：reviewed 任务单 code_files 触及基础设施面清单（INFRA_WATCH 初版 4 件宁窄勿宽）→ 该任务单最近 3 笔 commit 须同改矩阵——git 查法修正：**pathspec 过滤会连 diff 名单一起过滤**（测试实证 `git log --name-only -- <任务单>` 永远不含矩阵），改 `log --format=%H` 取 hash + 逐 commit `diff-tree --name-only` 查全量；②未同步→双推：messages 欧阳锋「⛔ 总账未同步…终审暂缓闭环」+ 王语嫣抄送（与既有 ⚖️ 消息合并不覆盖）；同步/不适用→静默通过；③豁免：`matrix_exempt: true` → 跳过+写 force-exceptions 台账留痕（#444 同款格式）；④幂等=matrix_checked 每单只查一次；夜间静默 defer（非终审类不入 exempt_roles，且摘除残留标记防误豁免）；⑤**元狗粮**：本单 code_files 含 conveyor_probe.py（INFRA_WATCH 在册）——本单被审时即第七信号首个被查对象，矩阵第七信号行（事件 11）已先补。
+
+**交付物**：
+- `kdo-tools/conveyor_probe.py`（INFRA_WATCH + _matrix_sync_check + main 接线 + FORCE_LEDGER 豁免留痕）
+- `kdo-tools/tests/test_matrix_sync_gate.py`（新：5 例回归）
+- `90_control/notification-coverage-matrix.md`（第七信号行=事件 11）
+
+**验证**：
+- L1 单测 5 例全过（tmp git 仓沙盒）：未同步→⛔触发/已同步→通过/豁免→EXEMPT/非基础设施单→不适用/任务单缺失→fail-open；基线 **153 passed**（148+5，零退步）
+- L2 狗粮=元狗粮：本单终审流转时第七信号自体核查（矩阵已同改→应静默通过）；核查逻辑本身的 L2=单测沙盒 git 仓三态
+- L3 待活体：下一次基础设施单 reviewed 未同步矩阵 → 10 分钟内欧阳锋+王语嫣双到
+- **预审红项预标注**（#535 口径）：本单预审若检「不同步/未同改」类词=机制描述文字误报，预标注在此
+
+**边界**：只查「登没登」存在性不判内容质量 ✅；INFRA_WATCH 初版 4 件宁窄勿宽（扩充走后续单）✅；WARNING 级推送层不硬拦流转 ✅；只向前生效不回扫历史（matrix_checked 从启用起计）✅；豁免留痕不静默 ✅。
+
+**需要谁动作**：欧阳锋终审本单（顺带验收元狗粮：本单应被第七信号核查且因矩阵已同改而静默通过）；王语嫣知悉——§3.19 登记纪律从此有机器兜底，矩阵事件表新增行/销项时记得同步（忘了会被机器 10 分钟内点名）。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 3 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+🔴 意见书含负向断言（未同步/缺失/「未同步」）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
