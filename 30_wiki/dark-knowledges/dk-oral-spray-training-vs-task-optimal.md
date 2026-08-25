@@ -2,13 +2,13 @@
 id: dk-oral-spray-training-vs-task-optimal
 title: 喷干净=训练最优≠任务最优：目标函数切换的练习方法论
 type: dark-knowledge
-status: draft
+status: reviewed
 confidence: 0.85
 trust_level: high
 domain:
 - ai-collaboration
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 created_at: '2026-08-25'
 updated_at: '2026-08-25'
 source_person: Truman（一堂）

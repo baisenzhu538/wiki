@@ -2,13 +2,13 @@
 id: tool-oral-spray-demo-prompts-3samples
 title: 口喷示范提示词三样本：调研类/方案类/封装类（教科书级原文）
 type: tool
-status: draft
+status: reviewed
 confidence: 0.9
 trust_level: high
 domain:
 - ai-collaboration
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 created_at: '2026-08-25'
 updated_at: '2026-08-25'
 source_refs:

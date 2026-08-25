@@ -2,13 +2,13 @@
 id: tool-oral-spray-into-doc-not-chatbox
 title: 喷文档里不喷聊天框：口喷出素材、AI 出结构（含配套提示词原文）
 type: tool
-status: draft
+status: reviewed
 confidence: 0.9
 trust_level: high
 domain:
 - ai-collaboration
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 created_at: '2026-08-25'
 updated_at: '2026-08-25'
 source_refs:
