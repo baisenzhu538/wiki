@@ -23,9 +23,11 @@ from pathlib import Path
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-WIKI = Path(r"C:\Users\Administrator\Desktop\wiki")
+# #532 路径参数化：KDO_ROOT 环境变量优先，缺省回退脚本相对位置推导（种子包可移植）
+import os
+WIKI = Path(os.environ.get("KDO_ROOT") or Path(__file__).resolve().parent.parent)
 REVIEW_DIR = WIKI.parent / "agent复盘"
-PROFILES_DIR = Path(r"C:\Users\Administrator\AppData\Local\hermes\profiles")
+PROFILES_DIR = Path(os.environ.get("LOCALAPPDATA", Path.home() / "AppData/Local")) / "hermes" / "profiles"
 
 
 def _now_epoch() -> float:

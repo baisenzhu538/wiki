@@ -1,0 +1,360 @@
+#!/usr/bin/env python3
+"""
+Agent 每日上下文自动存储——双写管线 + Truman 模板 + 自动自检。
+
+每次保存同时写入两个位置：
+  1. 桌面 agent复盘/<agent>/daily-context/YYYY-MM-DD.md  （人看）
+  2. 60_feedback/session-archives/YYYY-MM-DD/{agent-id}.md （Agent检索+kdo query可查）
+
+Usage:
+  python kdo-tools/daily-context-save.py save --agent <id> --truman --stdin  # 从 stdin 读复盘（推荐）
+  python kdo-tools/daily-context-save.py save --agent <id> --text "<摘要>" [--truman]
+  python kdo-tools/daily-context-save.py list --agent <id>
+"""
+
+import argparse
+import re
+import sys
+from datetime import datetime, timezone
+from pathlib import Path
+
+WIKI = Path(__file__).resolve().parent.parent
+REVIEW_DIR = Path.home() / "Desktop" / "agent复盘"
+ARCHIVE_DIR = WIKI / "60_feedback" / "session-archives"
+
+TRUMAN_TEMPLATE = """## 差异栏
+> #268：本次 vs 上次复盘哪里不同——新的视角/复发的模式/被打破的假设。空白 = 重复自审 = C 级。
+
+1.
+
+## 概要
+> 一句话：今天做了什么？
+
+
+
+## 关键决策
+
+| 决策 | 理由 | 结果 |
+|:---|:---|:---|
+| | | |
+
+## 思维盲点
+> ≥1条：什么被漏掉了？每条追问"为什么漏掉"。
+
+1.
+
+## 顿悟
+> ≥1条：什么基础认知被推翻了？
+
+1.
+
+## 过程资产
+
+| 新增/更新 | 路径 |
+|:---|:---|
+| | |
+
+## 元反思
+> 下次怎么做才能不一样？
+
+1.
+
+---
+
+## Truman复盘
+
+### 逐轮映射
+
+| 轮次 | 人做了什么 | 双三角 | AI做了什么 | 双三角 |
+|:---|:---|:---|:---|:---|
+| 1 | | | | |
+
+### 飞轮效应
+> 本轮加速了哪个回路？
+
+
+
+### 对照实验
+- 无人协作：人需要____小时
+- 无AI协作：AI只能产出____分
+- 合在一起：____分钟，质量____
+
+### 下次改进
+- Agent自身：____
+- 方法论卡更新：____
+"""
+
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
+
+
+def now_iso():
+    return datetime.now(timezone.utc).isoformat()
+
+
+def _run_review_check(agent: str) -> str:
+    """运行 review-check.py 并返回等级字符串。"""
+    try:
+        import importlib.util
+        rc_path = Path(__file__).parent / "review-check.py"
+        spec = importlib.util.spec_from_file_location("review_check", str(rc_path))
+        rc = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(rc)
+        today = datetime.now().strftime("%Y-%m-%d")
+        results = rc.check_agent(agent, today)
+        if not results or results[0]["status"] != "ok":
+            return "❌ 未复盘"
+        result = results[0]  # 取第一个实例的结果用于自检显示
+        g = result.get("grade", "?")
+        e = result.get("emoji", "")
+        if result.get("retrieval", {}).get("has_discovery"):
+            return f"{e} {g}级 📚检索有发现"
+        elif result.get("retrieval", {}).get("has_retrieval"):
+            return f"{e} {g}级 ✅已检索"
+        return f"{e} {g}级 ⚠️未检索wiki"
+    except Exception as ex:
+        return f"⚠️ {ex}"
+
+
+# #456：agent_id 口径——拼音角色名唯一（与 #444 frontmatter assignee 口径同族）
+AGENT_ID_CN_MAP = {
+    "老顽童": "laowantong", "欧阳锋": "ouyangfeng", "黄药师": "huangyaoshi",
+    "王语嫣": "wangyuyan", "洪七公": "hongqigong", "段王爷": "duanwangye",
+    "风清扬": "fengqingyang",
+}
+_AGENT_ID_TEST_RE = re.compile(r"__.*__$")
+
+
+def _normalize_agent_id(agent: str) -> str | None:
+    """#456：写入端口径对齐——中文角色名映射拼音；测试残留（__x__）拒绝写入。
+
+    返回 None = 拒绝（防 __test434__ 类测试残留继续混入 L1 库）。
+    """
+    agent = AGENT_ID_CN_MAP.get(agent, agent)
+    if _AGENT_ID_TEST_RE.match(agent):
+        return None
+    return agent
+
+
+def _write_l0_event(agent: str, desktop_path: Path, grade: str) -> None:
+    """#434：复盘保存成功 → 写 L0 事件（event_type=review_saved）。
+
+    失败不阻断复盘保存（复盘是主产物），但必须 stderr 醒目报警 + 落待收口记录——禁止静默吞。
+    """
+    agent = _normalize_agent_id(agent)  # #456：口径对齐，None=测试残留拒绝
+    if agent is None:
+        print("⛔ 胶囊 L0 跳过写入：agent_id 为测试残留（__x__ 模式，#456 口径）", file=sys.stderr)
+        return
+    try:
+        sys.path.insert(0, str(Path(__file__).resolve().parent))
+        import memory_capsule as mc
+        if not mc.A_DB.exists():
+            mc.cmd_init()
+        text = desktop_path.read_text(encoding="utf-8", errors="ignore")
+        # #512：去重签名基于正文（剥 frontmatter/标题层）——重打只变时间戳时签名不变，
+        # 同内容重打不刷屏；正文真实变化 → 签名变 → 正常留新事件
+        content_sig = mc._sha256(_strip_existing_layers(text))[:16]
+        payload = (
+            f"path={desktop_path};grade={grade};size={len(text.encode('utf-8'))};"
+            f"content_hash={content_sig}"
+        )
+        # #512：同内容重打不刷屏——同 agent+event_type+payload_hash 已存在则跳过
+        # （覆盖写后重打=同一文件替换，事件层只对"内容真实变化"留痕）
+        try:
+            con = mc._connect(mc.A_DB)
+            dup = con.execute(
+                "SELECT 1 FROM activity_log WHERE agent_id=? AND event_type=? AND payload_hash=? LIMIT 1",
+                (agent, "review_saved", mc._sha256(payload))).fetchone()
+            con.close()
+            if dup:
+                print("🧪 胶囊 L0 跳过：同内容事件已存在（#512 重打不刷屏）")
+                return
+        except Exception:
+            pass  # 查重失败不阻断写入（主流程=留痕）
+        mc.cmd_log(agent=agent, event="review_saved", payload=payload, session=None)
+        print("🧪 胶囊 L0 已留痕: agent=%s event=review_saved" % agent)
+    except Exception as e:
+        print(f"⛔ 胶囊 L0 写入失败（复盘已保存，不阻断）：{e}", file=sys.stderr)
+        try:
+            log_path = Path(__file__).resolve().parent.parent / "90_control" / "pending-git-commits.log"
+            with open(log_path, "a", encoding="utf-8") as f:
+                f.write(f"\n# {datetime.now().strftime('%Y-%m-%d %H:%M')} 胶囊 L0 写入失败（#434）agent={agent} grade={grade}: {e}\n")
+        except Exception:
+            pass
+
+    # #464：镜像保存后联动——save→log→mirror 一条链（事件驱动非 cron，老朱时间锚）
+    try:
+        import memory_capsule as mc
+        mc.cmd_mirror()
+        ok = mc.cmd_verify() == 0
+        if not ok:
+            print("⛔ 胶囊镜像 verify 不一致（#464）——B 镜像滞后，请手动检查", file=sys.stderr)
+    except Exception as e:
+        print(f"⛔ 胶囊镜像失败（复盘已保存，不阻断）：{e}", file=sys.stderr)
+        try:
+            log_path = Path(__file__).resolve().parent.parent / "90_control" / "pending-git-commits.log"
+            with open(log_path, "a", encoding="utf-8") as f:
+                f.write(f"\n# {datetime.now().strftime('%Y-%m-%d %H:%M')} 胶囊镜像失败（#464）agent={agent}: {e}\n")
+        except Exception:
+            pass
+
+
+def _strip_existing_layers(body: str) -> str:
+    """#512 重打覆盖写：剥掉输入文件既有的 frontmatter 层与 save 生成的旧标题行
+    （可多层堆叠），只留正文内容，再套新 frontmatter——同 agent 同日同文件重打=替换不追加。
+
+    旧标题行只匹配 save 生成格式 `# <agent> · <YYYY-MM-DD>[-instance]`（日期结尾），
+    Truman 内容标题（`# Truman 11章复盘 · ...（后缀）`）不匹配不误伤。
+    """
+    import re
+    title_re = re.compile(r"^# [^·\n]+ · \d{4}-\d{2}-\d{2}(-[A-Za-z0-9]+)?\s*$")
+    text = body.strip()
+    changed = True
+    while changed:
+        changed = False
+        if text.startswith("---"):
+            parts = text.split("---", 2)
+            if len(parts) >= 3:
+                text = parts[2].strip()
+                changed = True
+        lines = text.splitlines()
+        if lines and title_re.match(lines[0]):
+            text = "\n".join(lines[1:]).strip()
+            changed = True
+    return text
+
+
+def cmd_save(args):
+    agent = args.agent
+    today = datetime.now().strftime("%Y-%m-%d")
+    instance = getattr(args, "instance", "") or ""
+    ts = now_iso()
+    session_id = f"{agent}-{today}" + (f"-{instance}" if instance else "")
+
+    # 读取复盘内容：优先级 --file > --stdin > --text
+    body = ""
+    if getattr(args, "file", ""):
+        fp = Path(args.file)
+        if fp.exists():
+            body = fp.read_text(encoding="utf-8")
+        else:
+            print(f"❌ 文件不存在：{args.file}", file=sys.stderr)
+            return 1
+    elif getattr(args, "stdin", False):
+        body = sys.stdin.read()
+    else:
+        body = args.text or ""
+
+    fm_lines = [
+        "---",
+        f"session_id: {session_id}",
+        f"agent_id: {agent}",
+        f"date: {today}",
+        f"created_at: {ts}",
+        f"updated_at: {ts}",
+    ]
+    # #369：留痕——wiki 仓 git_head + 正文 content_hash（手改可检测）
+    try:
+        import hashlib, subprocess as _sp
+        head = _sp.run(["git", "-C", str(WIKI), "rev-parse", "--short", "HEAD"],
+                       capture_output=True, text=True, timeout=10).stdout.strip()
+    except Exception:
+        head = "unknown"
+    fm_lines.append(f"git_head: {head or 'unknown'}")
+    fm_lines.append("---")
+    fm = "\n".join(fm_lines)
+
+    # Truman 模板模式：内容直接作为正文（不再套 Agent 输入壳）
+    # #512：重打覆盖写——--file 输入若带既有 frontmatter/旧标题层（上次 save 产物），
+    # 先剥层再套新 frontmatter（重打=替换不追加，多层堆叠根治）
+    if getattr(args, "truman", False):
+        if body.strip():
+            full_body = _strip_existing_layers(body)
+        else:
+            full_body = TRUMAN_TEMPLATE
+    else:
+        full_body = _strip_existing_layers(body) if body.strip() else "(无内容)"
+
+    content = f"{fm}\n\n# {agent} · {today}\n\n{full_body}\n"
+    # #369：content_hash 基于最终正文（frontmatter 除 hash 行外）——手改可检测
+    try:
+        import hashlib
+        content_hash = hashlib.sha256(content.encode("utf-8")).hexdigest()[:12]
+        content = content.replace("---\n\n# ", f"content_hash: {content_hash}\n---\n\n# ", 1)
+    except Exception:
+        pass
+
+    # Write 1: Desktop (human-readable)
+    desktop_dir = REVIEW_DIR / agent / "daily-context"
+    desktop_dir.mkdir(parents=True, exist_ok=True)
+    filename = f"{today}-{instance}.md" if instance else f"{today}.md"
+    desktop_path = desktop_dir / filename
+    desktop_path.write_text(content, encoding="utf-8")
+
+    # Write 2: Archive (agent-searchable, kdo query can find)
+    archive_dir = ARCHIVE_DIR / today
+    archive_dir.mkdir(parents=True, exist_ok=True)
+    archive_name = f"{agent}-{instance}.md" if instance else f"{agent}.md"
+    archive_path = archive_dir / archive_name
+    archive_path.write_text(content, encoding="utf-8")
+
+    print(f"✅ 已保存：{desktop_path}")
+    print(f"✅ 已存档：{archive_path.relative_to(WIKI)}")
+
+    # 自动跑 review-check 并显示等级
+    grade = _run_review_check(agent)
+    print(f"📋 自检：{grade}")
+
+    if grade.startswith("🔴"):
+        print(f"⛔ C 级不合格——请用 Write 工具打开上述文件，补充缺失章节后重跑：")
+        print(f"   python {Path(__file__).name} save --agent {agent} --truman --file {desktop_path}")
+
+    # #434：L0 自动写入端——save 成功即写胶囊事件（失败不阻断保存，stderr 醒目报警，禁静默吞）
+    _write_l0_event(agent, desktop_path, grade)
+
+    return 0
+
+
+def cmd_list(args):
+    agent = args.agent
+    d = REVIEW_DIR / agent / "daily-context"
+    if not d.exists():
+        print("暂无上下文记录")
+        return 0
+    files = sorted(d.glob("*.md"), reverse=True)
+    print(f"{agent} 每日上下文（{len(files)} 条）")
+    for f in files[:10]:
+        size = f.stat().st_size
+        fname = f.stem
+        # Quick quality check
+        content = f.read_text(encoding="utf-8", errors="ignore")
+        ch_count = sum(1 for ch in ["概要", "关键决策", "思维盲点", "顿悟", "逐轮映射"] if ch in content)
+        flag = "✅" if ch_count >= 5 else "⚠️" if ch_count >= 3 else "❌"
+        print(f"  {fname} — {size}B {flag} ({ch_count}/5 关键章)")
+    return 0
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Agent 每日上下文存储")
+    sub = parser.add_subparsers(dest="cmd", required=True)
+
+    p_save = sub.add_parser("save", help="保存今日上下文")
+    p_save.add_argument("--agent", required=True)
+    p_save.add_argument("--instance", default="", help="实例标识（如 hermes/kimi/claude）——多实例 Agent 按实例分文件，避免互相覆盖")
+    p_save.add_argument("--text", default="", help="上下文摘要（短内容用；长内容用 --stdin 或 --file）")
+    p_save.add_argument("--stdin", action="store_true", help="从标准输入读取复盘内容（管道输入）")
+    p_save.add_argument("--file", default="", help="从指定文件读取复盘内容（Agent 先 Write 到此路径）")
+    p_save.add_argument("--truman", action="store_true", help="Truman 11章模式：纯模板 / 配合 --stdin/--file 保存复盘")
+
+    p_list = sub.add_parser("list", help="列出历史上下文")
+    p_list.add_argument("--agent", required=True)
+
+    args = parser.parse_args()
+    if args.cmd == "save":
+        return cmd_save(args)
+    elif args.cmd == "list":
+        return cmd_list(args)
+
+
+if __name__ == "__main__":
+    sys.exit(main())

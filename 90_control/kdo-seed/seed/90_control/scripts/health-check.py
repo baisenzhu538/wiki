@@ -1,0 +1,165 @@
+#!/usr/bin/env python3
+"""
+KDO 健康检查统一入口
+一键运行全部质量检查：lint + source_refs + VLM quality + production progress + agent config。
+输出统一报告，退出码反映最高严重级别。
+
+用法：
+    python 90_control/scripts/health-check.py                    # 全部检查
+    python 90_control/scripts/health-check.py --quick             # 快速模式（仅 lint + source_refs）
+    python 90_control/scripts/health-check.py --domain yitang     # 仅检查指定域
+    python 90_control/scripts/health-check.py --json              # JSON 输出
+"""
+
+import argparse
+import json
+import subprocess
+import sys
+from pathlib import Path
+
+# Ensure UTF-8 stdout
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+
+VAULT_ROOT = Path(__file__).resolve().parent.parent.parent
+SCRIPTS_DIR = VAULT_ROOT / "90_control" / "scripts"
+KDO_TOOLS_DIR = VAULT_ROOT / "kdo-tools"
+
+
+def run_script(name, args=None):
+    """运行一个检查脚本，返回 (exit_code, output_summary)"""
+    script = SCRIPTS_DIR / f"{name}.py"
+    if not script.exists():
+        # #主动立项：kdo-tools 工具族脚本（infra-status/recovery-check 等）回退查找
+        script = KDO_TOOLS_DIR / f"{name}.py"
+    if not script.exists():
+        return -1, f"脚本不存在: {script}"
+
+    cmd = ["python", str(script)]
+    if args:
+        cmd.extend(args)
+    try:
+        result = subprocess.run(cmd, capture_output=True, text=True, timeout=120,
+                                cwd=str(VAULT_ROOT), encoding="utf-8")
+        # 提取关键统计行
+        lines = result.stdout.strip().split("\n")
+        stat_lines = [l for l in lines if "Files checked" in l or "扫描" in l or "P0" in l or "整体进度" in l or "正常" in l]
+        if stat_lines:
+            summary = stat_lines[0][:120]
+        else:
+            summary = [l for l in lines if l and not l.startswith("=")][:2]
+            summary = summary[-1][:120] if summary else "no output"
+        return result.returncode, summary
+    except subprocess.TimeoutExpired:
+        return -1, "超时"
+    except Exception as e:
+        return -1, str(e)
+
+
+def main():
+    parser = argparse.ArgumentParser(description="KDO 健康检查统一入口")
+    parser.add_argument("--quick", action="store_true", help="快速模式")
+    parser.add_argument("--domain", help="仅检查指定域")
+    parser.add_argument("--json", action="store_true")
+    args = parser.parse_args()
+
+    checks = [
+        ("kdo_lint", [], "Lint 格式校验"),
+    ]
+
+    if not args.quick:
+        checks.extend([
+            ("check-source-refs", ["--json"] if args.json else [], "source_refs 健康检查"),
+            ("scan-vlm-parse-errors", [], "VLM 描述质量"),
+            ("track-production-progress", ["--json"] if args.json else [], "生产进度"),
+            ("check-agent-config", [], "Agent 配置自检"),
+            ("check-mcp-roaming", ["--json"] if args.json else [], "MCP 挂载巡检（#326）"),
+            ("check-runtime-drift", [], "运行时漂移巡检（#364）"),
+            ("check-derivatives", [], "派生副本手改检测（#369）"),
+            ("check-draft-aging", [], "存量 draft 超龄巡检（#380）"),
+            ("full-library-rescan", ["--delta", str(SCRIPTS_DIR.parent / "baseline" / "rescan-baseline.json")], "全库复扫增量报警（#399）"),
+            ("check-tags-health", [], "标签健康（#474）"),
+            ("file-flow-check", [], "文件流转规范 L1-L10（#450/#502 含任务单冻结）"),
+            ("infra-status", [], "基建资产快照+未登记（#488）"),
+            ("recovery-check", [], "事件库恢复副本验证（健壮性 L5）"),
+            ("check-conveyor-state", [], "探针空转报警（#519：state 年龄>2×周期）"),
+            ("check-review-sla", [], "审查 SLA 观测（#520 R3：pending_review 最大年龄>2h）"),
+            ("check-depended-draft", [], "被依赖卡 draft 门禁（#527：新引用 ERROR/存量 WARNING）"),
+        ])
+
+    if args.domain:
+        for i, (name, cargs, desc) in enumerate(checks):
+            if name == "check-source-refs":
+                checks[i] = (name, ["--domain", args.domain], desc)
+
+    if args.json:
+        results = {}
+        for name, cargs, desc in checks:
+            ec, summary = run_script(name, cargs)
+            results[name] = {"exit_code": ec, "summary": summary}
+            print(json.dumps(results, ensure_ascii=False, indent=2))
+        sys.exit(0 if all(r["exit_code"] == 0 for r in results.values()) else 1)
+
+    # 人类可读报告（讲香升级：场景化输出）
+    check_results = []
+    worst = 0
+    all_ok = True
+    passed = 0
+    for name, cargs, desc in checks:
+        ec, summary = run_script(name, cargs)
+        status_icon = "[PASS]" if ec == 0 else ("[WARN]" if ec < 0 else "[FAIL]")
+        if ec > 0:
+            all_ok = False
+            worst = max(worst, ec)
+        elif ec < 0:
+            all_ok = False
+            worst = 1
+        else:
+            passed += 1
+        check_results.append({"desc": desc, "status": status_icon, "summary": summary[:120]})
+
+    total = len(check_results)
+    health_pct = int(passed / total * 100) if total else 0
+
+    verdict = "PASS" if all_ok else "FAIL"
+    lines = [
+        "=" * 60,
+        f"  KDO Health Check  |  {passed}/{total} passed  |  score {health_pct}/100  |  {verdict}",
+        "=" * 60,
+        "",
+    ]
+
+    # Add scenario-based context for each check
+    hints = {
+        "Lint 格式校验": "门禁第一关——frontmatter 格式、dk 七段、section 拼写、搜索可达性。红灯=老顽童提交前必须修。",
+        "source_refs 健康检查": "溯源链是否完整——每张卡能不能追溯到原始素材。断链=欧阳锋无法验证事实。",
+        "VLM 描述质量": "OCR/VLM 解析是否正常——影响洪七公的图片→prompt 管线。",
+        "生产进度": "老顽童的产能仪表盘——多少卡在生产/待审/入库。红灯=队列堵塞。",
+        "Agent 配置自检": "各 Agent 的 context/skill/权限是否一致——配置漂移=Agent 行为不可预期。",
+        "MCP 挂载巡检（#326）": "16 个 Hermes profile 的 mcp_servers.kdo 挂载 + 新卡可检索抽查（按 WorkingDirectory 实证）——红灯=某 agent 检索断了。",
+        "运行时漂移巡检（#364）": "MCP server 进程 vs 源码 commit 时间 + 双索引同步 + 启动指针有效——红灯=生产跑旧代码/索引不同步，先处置再作业。",
+        "派生副本手改检测（#369）": "dashboard/vault-status/agent-contexts-summary 与生成基线 hash 比对——红灯=派生物被手改，重新生成而非手改。",
+        "存量 draft 超龄巡检（#380）": "30_wiki 内 status=draft 超 24h 未审卡清单——接收方=王语嫣（编排门禁逐张判定退回/留存），只报警不自动改。advisory 恒 PASS，清单才是本体。",
+        "全库复扫增量报警（#399）": "归零声明唯一口径：任何「全库归零」声明必须附 full-library-rescan 输出。delta 模式只报基线之外的新增违规——存量债封存在 baseline/rescan-baseline.json，新增实时报警。",
+    }
+
+    for r in check_results:
+        hint = hints.get(r["desc"], "")
+        lines.append(f"  {r['status']} {r['desc']}")
+        if r["summary"] and r["summary"] != "no output":
+            lines.append(f"     {r['summary']}")
+        if hint:
+            lines.append(f"     {hint}")
+        lines.append("")
+
+    if all_ok:
+        lines.append("[PASS] All green — safe to submit.")
+    else:
+        lines.append(f"[FAIL] {total - passed}/{total} checks failed. See hints above for what each means. Fix and re-run.")
+
+    print("\n".join(lines))
+    sys.exit(worst)
+
+
+if __name__ == "__main__":
+    main()

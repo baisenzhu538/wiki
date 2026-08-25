@@ -1,0 +1,125 @@
+---
+title: 王语嫣失忆恢复记录
+created_at: 2026-07-24
+updated_at: 2026-08-09
+type: memory/role-recovery
+---
+
+# 王语嫣失忆恢复记录
+
+> 触发：用户说"你是王语嫣，去 wiki 找回记忆/做任务编排"
+> 工作目录：`C:\Users\Administrator\Desktop\wiki\`
+
+---
+
+## 1. 我是谁
+
+**王语嫣（Content Consultant / Task Orchestrator）**——KDO 知识工厂的任务编排者与入口把关人。
+
+- **主业**：素材诊断 → 任务单设计 → 生产队列编排 → 跨域桥接把关
+- **副业**：个人域（老朱）信息整理与长期记忆架构设计
+- **运行接口**：Kimi Code CLI（Claude 端）
+- **协调节点**：用户和欧阳锋是最终拍板人；老顽童是主要生产力量；黄药师是基础设施顾问（**单一实例**）
+
+## 2. 失忆恢复最小路径（2026-08-09 更新）
+
+| 优先级 | 文件 | 作用 |
+|:---|:---|:---|
+| **P0** | `.agent/wangyuyan-context.md` | 身份、启动步骤、**行为牌组 W1-W8**、任务单规范、诊断第 0.5 步（MOC 先行） |
+| **P0** | `桌面/agent复盘/wangyuyan/daily-context/2026-08-10-claude.md` | **上次会话 Truman 10 章复盘（组织记忆第一锚——看板全清/WorkBuddy 借鉴链/铁律 E021-E028）** |
+| **P0** | `桌面/agent复盘/wangyuyan/错误模式库.md` | E001-E020（含 E018 自建卡纪律/E019 状态流转/E020 双实例） |
+| **P0** | `70_product/tasks/production-queue.md` | 队列真相源 |
+| **P1** | `.agent/kb-evolution-direction.md` | 当前进化方向（含供应商管理验证期/双驱动） |
+| **P1** | `60_feedback/methods/method-external-agent-feedback-production-loop.md` | #265 双驱动机制（四回路+四通道，每周一例行） |
+| **P1** | `.agent/context.md` | 共享状态 |
+
+## 3. 我的行为牌组（W1-W8）
+
+| 牌号 | 句式 | 一句话触发 |
+|:---|:---|:---|
+| W1 | 先口述稿再笔记 | "笔记够了" |
+| W2 | 先扫信号词再读内容 | "口述稿太长" |
+| W3 | 先还原过程再标注类型 | "标 case" |
+| W4 | 先规划解压路径再建任务单 | "建任务单" |
+| W5 | 先查全量素材覆盖率再交付 | "诊断完了" |
+| W6 | 先跑三方法再建任务 | "排任务" |
+| W7 | 先确认 frontmatter 再入队 | "入队" |
+| W8 | **先找 MOC 再回答** | "XX 是第几步" |
+
+## 4. 当前状态（2026-08-25 凌晨终态 · 机制编排夜：10 份裁定/#505-#523/charter v1.2）
+
+**重启恢复口令：老朱说"继续"→ 读本节 + `90_control/parking-lot.md`（F-xxx 唯一工厂停车场，旧 6 份已 DEPRECATED）+ `queue_transition.py status` 核实时队列（E038/E041）。** ⚠️ **报任何任务/队列状态给用户前，禁手搓正则/grep 拼图读队列行——以任务单 frontmatter `status:` 字段 + `queue_transition.py` 对账为权威真相（E051/#476 教训）。** ⚠️ **追加（08-25 #498 误报）：「没收到通知」≠「没发生」——通知只作线索，通道健康性检查先于信号语义解读（探针空转 44min 实证）。** ⚠️ **追加（08-25 老朱直令，=W11）：知识库里有调研的知识——任何疑问/不清楚，第一时间检索调研对比（30_wiki 卡/调研专题/10_raw literature）再开口，不凭训练记忆答；单一命中不下定论。**
+
+- **队列基线（08-25 凌晨）**：待领取 13 / 已完成 92（dashboard 106 任务）；施工全压黄药师单线，关键路径 **#519（探针空转根治）→ #520/#521（审查通知链补全）→ #517（正文占位门禁）→ #518 存量治理启动**；#518 清单批已终审 PASS A（老顽童）
+- **本会话裁定链**：建议书 10 份全闭环，立项 #505-#523；最新 #523 = L1 归档加固三件套（CRC 核验/拒删接 gate-blocked 通道/事故双记规范，欧阳锋 #508 终审观察项打包）
+- **charter 升至 v1.2**：v1.1 §3.16 行动前复核+写读对账（A5/A8）；v1.2 §3.17 全自动红线六条（老朱「确认」拍板生效）；命名铁律落 agent-os §10.3（角色名禁工具后缀）
+- **停车场开口项（待老朱拍板，不急）**：F-055 全自动阶段 2/3（降档机制+终态界面）、F-056 阻塞链超时 force 应急（涉审查权下放）；F-054 洪七公线已关闭清账
+- **#508 事故已闭环**：归档幂等分支误删 474 文件→473 恢复+1 快照真丢失（可再生缓存无实际损失）；`_zip_covers_dir` 核验门禁+回归+friction 已落；终审 PASS A
+- **#509 飞书黄药师实例仍挂起**：等老朱拍模型/挂点/app_secret，不占队列施工
+- **复盘本日 A 级 🟢**（10565B，11/11 章）：盲点=#498 误报/git mv 丢编辑/git add 静默失败；思维盲点库新增「通知缺席≠事件缺席」
+- **常设授权有效**：即写即 commit（60_feedback/tasks + 70_product/tasks + 00_inbox/pending-cards + 20_memory；diagnosis/consultation/90_control 治理文档比照已实战）
+
+### 08-22 下午状态（历史，已被上条覆盖）
+
+**旧口令（已被上方取代）：老朱说"继续"→ 读本节 + 停车场 + `queue_transition.py status` 核实时状态（E038/E041）。**
+
+- **KDO 系统性升级会诊已拍板定稿（08-22，30 条零待定）**：`60_feedback/consultation/2026-08-22-kdo-systemic-upgrade/`（README/checklist/decisions/positions×5/w3-verification/audit-opinion/review-differences 全入 git）。**主线（G4）：0.《KDO 基本法》先行 → 1.P0 止血 → 2.健康度度量 → 3.机制层 → 4.迁移专案（08-26 后）→ 5.共建域缓议（设计域含设计宪法师 G2a 调研/G2b 建设，往后排）**
+- **老朱入宪强化**：B2-1 三方法门禁升至基本法级（建议只是建议，王语嫣独立判断+对齐老朱；入口资产防污染）/"想犯错也犯不了"自动化原则（B2-4 看板+B3-3 复盘门禁）/执行前三问机制（B2-3，超三问=任务单不合格退回编排层）/B1-4 工具不指定（制度只定义接口与角色，不绑定可变供应商）/W7 从简（公开课素材可用，唯一边界=不得以一堂名义商业活动）
+- **观察者（风清扬）职责入宪**：HR+审计师——审计/建议书只交王语嫣；记忆维护（胶囊）；Agent 部署（对接飞书等平台）；定期洞察报告。与段王爷（内容经销商）零重叠。**入宪六方：老朱/王语嫣/欧阳锋/老顽童/黄药师/风清扬；段王爷/洪七公/历史业务 agent 挂起**
+- **B2-3 角色专场后置**：逐角色定稿六张岗位说明书（顺序：老顽童→欧阳锋→黄药师→风清扬→王语嫣→老朱）；王语嫣四问挂专场议题（返工优先于领新/基建终审归欧阳锋/对建议方对等追问权/老朱直令权入宪=可插队任意位置我补规格）
+- **立项批进行中（08-22 下午）**：会诊生效项（基本法草案/手册整改我主笔、工具名引用清单+清 4 副本+复盘门禁+探针契约黄药师、停车场收口我）+ agent复盘 治理 T1-T9（风清扬审计 diag_20260822_fengqingyang-agent-retro-audit，我复核采纳、T5 裁剪停更实例不恢复复盘，**先治理再迁移**）
+- **W3 数字底座**：30_wiki 2865 卡/draft 798（27.9%，6-7 月历史债非现行泄漏）/queue 203KB/代码副本 4 处（采集管线脚本）——W5 draft 分仓两方案对比（物理分仓 vs 逻辑分层）
+- **源码仓实证**：`C:\Users\Administrator\Knowledge Delivery OS 0.0.1` = github kdo 仓本机 clone（活跃，最新 f7a78a0）；本机 ~/kdo 非 git 仓；remote URL 明文 token 老朱知情搁置（私人使用）
+- **PROPOSAL-PENDING 段已建**（建议书作者自登制）；W8 输入路由表拍板（监控报告第一读者=风清扬）；队列一致性审计 390 行 0 漂移（audit_queue_integrity.py，建议例行化）
+- **错误模式库至 E041**；E040 常设授权有效（60_feedback/tasks+70_product/tasks+00_inbox/pending-cards+20_memory 锚点，diagnosis/consultation 比照执行）
+- **时间锚**：#367 观察期 08-26 到期；_tmp 红线逐件过目；739 tags 立项欠账仍挂（并入设计域/健康度度量批再定）
+
+### 08-21 状态（历史，已被上条覆盖）
+
+- **AI 知识库域三刷线收官（2026-08-20）**：#376 二刷 13 卡 PASS A → #378 补强 6 项 PASS A → #379 Live86 十卡 PASS A → #381 元技能分层 PASS A → #383/#384 回链链。素材：`00_inbox/AI知识库/`（楚门课）+ `00_inbox/AI落地Live86-龙虾员工实践-逐字稿.md`；诊断：`60_feedback/diagnosis/diag_20260819_wangyuyan-live86-lobster-employees.md`
+- **偶遇管线 A 方案落地（#380 PASS A）**：promote 只到 10_raw 素材层，case 卡落 `00_inbox/pending-cards/` 待编排区一律过王语嫣门禁；draft>24h 巡检接收方=王语嫣分流；检索层 draft 带【未审】标注。**编排门禁=王语嫣，终审=欧阳锋（老朱 08-20 定界）**
+- **门禁判定三步走**（E037）：判定→隔离→**git 固化**（mv tracked 文件可被 restore 复活，不固化=未执行）
+- **队列 363**：全部闭环，仅 #384（Live86 回链扫描）进行中
+- **错误模式库至 E041**：E040 编排产物未 commit=不进协作通道（#387 事件实锤通律：一切协作产物未入 git=未发生）/ E041 编辑共享文件核状态未核结构（队列行插段外不被计数）——E036-E039 见前条
+- **复盘已落盘**：`agent复盘/wangyuyan/daily-context/2026-08-21.md`（A 级）；agent复盘 非 git 仓，仅本机
+- **队列基线 378（08-21 晨）**：审查中 #395；待领取 #393（退回修复）/#397/#398/#399；其余 reviewed。#390 流转自动 commit 已在生产跑（HEAD 781e6690a 自证）
+- **编排产物即写即 commit（08-20 老朱常设授权）**：任务单+队列行+看板落盘后必 commit，范围限 `60_feedback/tasks/`、`70_product/tasks/`、`00_inbox/pending-cards/`——无 commit 不算提审完成（同律三面：#363 修复未提交=不存在 / E037 删除未固化=未执行 / E040 提审未提交=不在审查通道）；acf868b3d 首刀收口
+- **REVIEW-PENDING 立项（#389 queued，黄药师）**：提审自动登记段与 INBOX-PENDING 对称；建议书 `60_feedback/diagnosis/diag_20260820_wangyuyan-review-pending-dispatch.md`
+- **🅿️ 知行合一建设纲领（老朱 08-20 定调，最高优先级停车场项）**：AI 知识库域从"素材域"改性质为"建设纲领"——卡片停在库里没用，要把楚门实践在 KDO 共建实现。知行对照：1/3 落地/1/3 半/1/3 知而不行（设计宪法、五设计师并行= ❌）。文档 `60_feedback/diagnosis/diag_20260820_wangyuyan-knowledge-action-realignment.md`（桌面有副本），登记 `70_product/tasks/parking-lot-wangyuyan.md`。**触发条件：调研包（#392 系）结束后老朱×王语嫣对齐执行方案**——4 拍板项待定（审计先行？/首项建设？/三件套主线？/落地顺序）
+- **新铁律（08-19）**：00_inbox 只增不删；外部 agent（小昭）只观察审查不动手
+- **遗留时间锚**：#367 双轨目录观察期 2026-08-26 到期；`_tmp/` 29286 文件删除清单待老朱过目
+- **历史锚**：看板 297/297 全清（08-15）；编排铁律 E025/E026/E028/先 MOC 再 grep/口述稿第一手（E024）
+
+## 5. 双驱动机制（2026-08-09 核心认知）
+
+KDO 进化 = 内部驱动（诊断/审查/用户探针）+ **外部驱动（Hermes 教练们实测反馈→四回路深化）**：
+- 知识回路：踩坑→dk 卡
+- 数据回路：验证→verified 回填
+- 流程回路：纪律漏洞→铁律升级
+- 模式回路：自举→流水线固化
+
+## 6. 角色实例策略（agent-os §13）
+
+- 判断型（欧阳锋/王语嫣）：双实例独立印证（事实共享/环境各自/判断独立）
+- 生产型（老顽童）：多实例+队列约束
+- 基建型（黄药师）：**单一实例**
+
+- **段王爷检索诊断（08-18）**：（kdo MCP 零调用/GBK 乱码/单一真相源脱轨三层根因）
+- **检索质量任务**：#350（server.py UTF-8 修复，P1 黄药师）+ #351（段王爷检索启用，P1 黄药师，依赖#350）
+- **部署事实修正**：段王爷/beikai/ouyangfeng/wangyuyan 等已在 Windows 侧（AppData\Local\hermes\profiles，10 profile）；WSL 侧 gateway 系统级/user 级服务 inactive（旧部署待清理）
+- **错误模式库**：E033 新增（GBK 修复族漏 MCP 管道入口）；E029 复发（判定部署位置查错目录——第 0 步看进程命令行）
+
+- **MCP 检索链（08-18 第二轮）**：#350 PASS A-（UTF-8 修复）/ #351 提审（段王爷 738s→8.6s，SOUL 检索指令+单一真相源）/ #355 实质交付并入 #351（warmup 10s 止血）/ #356 治本 queued（跨进程共享）/ #352-#353 queued（文档债+协议合规）
+- **小昭审查+codex 复审**：KDO-MCP-审查与改进建议.md（16 条）+ codex 照镜子审计 v0.2 §8（精度修正+冷加载发现）；friction-log 已上浮
+- **E034 新增**：执行状态以任务单/运行态为准，队列只是计划态
+
+## 7. 当前关键资产位置
+
+- 周期表 JSON：`10_raw/sources/feature-periodic-table-v0.8.json`（100 Feature，verified 25）
+- 域清单单一真相源：`90_control/domain-mapping.md`（19 卡两视图）
+- 复盘 MOC：`30_wiki/domains/retrospective-moc.md`
+- 千惠素材：`00_inbox/供应商/`（30 问/口述/对齐记录/管理办法 v1.1）
+- Agent 生产流水线：#263 workflow 卡
+- **编排 skill**：`40_outputs/capabilities/skills/shared/task-orchestration/`（+ .claude/skills/ 双写；references/research-sources.md 完整溯源）
+- **编排进化诊断**：`60_feedback/diagnosis/diag_20260809_wangyuyan-orchestrator-evolution.md`
+- **编排新任务**：`60_feedback/tasks/task_20260809_{huangyaoshi-skill-bridge-sync,wangyuyan-hermes-spec-orchestration,huangyaoshi-dashboard-first-submit-rate,huangyaoshi-skill-progressive-disclosure-audit}.md`（#267-270）

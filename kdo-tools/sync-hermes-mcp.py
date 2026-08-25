@@ -25,12 +25,18 @@ import re
 import shutil
 import subprocess
 import sys
+from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-WIKI = r"C:\Users\Administrator\Desktop\wiki"
+# #532 路径参数化：KDO_ROOT 环境变量优先，缺省回退脚本相对位置推导（种子包可移植）
+WIKI = os.environ.get("KDO_ROOT") or str(Path(__file__).resolve().parent.parent)
 TEMPLATE = os.path.join(WIKI, "agents", "hermes-mcp-template.yaml")
-WSL_WIKI = "/mnt/c/Users/Administrator/Desktop/wiki"
+# WSL 映射：KDO_ROOT 在 C 盘则推 /mnt/c 路径，否则读 KDO_WSL_ROOT 或置 None
+if WIKI.startswith("C:\\") or WIKI.startswith("C:/"):
+    WSL_WIKI = "/mnt/c/" + WIKI.replace("\\", "/")[3:]
+else:
+    WSL_WIKI = os.environ.get("KDO_WSL_ROOT", "")
 WSL_HOME = subprocess.run(["wsl", "-e", "bash", "-c", "echo $HOME"], capture_output=True, timeout=30).stdout.decode().strip()
 
 WINDOWS_PROFILES = [

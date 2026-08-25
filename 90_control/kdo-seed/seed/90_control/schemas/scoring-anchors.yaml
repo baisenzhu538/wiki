@@ -1,0 +1,66 @@
+# KDO 锚定评分标准 v1.0
+# 来源：Harness Engineering 1-5 锚点评分 + KDO 卡片质量体系
+# 规则：多路评审取较低值(min)，不允许高分冲平低分
+
+version: "1.0.0"
+scoring_system: anchored_1_5
+merge_rule: take_lower_score  # 取各路评审的较低值
+
+anchors:
+  5:
+    label: "可发布"
+    description: "无已知缺陷，已通过对抗测试"
+    card_criteria:
+      - 四路评审全部 ≥4
+      - 零 CRITICAL 级对抗发现
+      - source_refs 全部真实存在
+      - ≥2 外部攻击者，不同范式
+      - 有独立案例验证
+
+  4:
+    label: "可靠"
+    description: "有小问题但不影响使用"
+    card_criteria:
+      - 核心框架完整
+      - source_refs 真实
+      - ≥2 外部攻击者
+      - Critique/Boundary/Action Triggers 完整
+      - 与域内 ≥3 张卡互链
+
+  3:
+    label: "可用"
+    description: "骨架完整但深度不足"
+    card_criteria:
+      - Claims 清晰，有 Evidence
+      - Critique 存在但攻击者可能不够深入
+      - source_refs 非空
+      - 与域内 ≥1 张卡互链
+
+  2:
+    label: "草稿"
+    description: "需要大量修改"
+    card_criteria:
+      - 有内容框架
+      - 但缺 Critique 或 Boundary 或 Action Triggers
+      - source_refs 可能为空或不完整
+
+  1:
+    label: "不可用"
+    description: "需要重写"
+    card_criteria:
+      - 空壳卡片
+      - 纯摘录无加工
+      - 违反铁律（如 author == reviewed_by）
+
+pass_threshold:
+  min_per_dimension: 2    # 任何维度不低于 2 分
+  overall_min: 3           # 最终分数 ≥ 3（取较低值）
+  zero_critical: true      # 零个 CRITICAL 级对抗发现
+
+# 旧 confidence → 新 anchored 映射（向后兼容）
+confidence_to_anchor:
+  "0.0-0.3": 1
+  "0.3-0.5": 2
+  "0.5-0.7": 3
+  "0.7-0.9": 4
+  "0.9-1.0": 5

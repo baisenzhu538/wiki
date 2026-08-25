@@ -1,0 +1,403 @@
+# Concept Card JSON Schema
+# Used by AI agents to validate frontmatter before creating/updating concept pages.
+# File: 90_control/schemas/concept.yaml
+# Reference: PROTOCOL.md Section 4
+
+$id: "kdo://schemas/concept"
+$schema: "http://json-schema.org/draft-07/schema#"
+title: "KDO Concept Card"
+description: >
+  Schema for knowledge cards stored in 30_wiki/concepts/ and 30_wiki/entities/.
+  Every concept MUST pass this validation before being written to disk.
+
+type: object
+required:
+  - title
+  - type
+  - created_at
+  - updated_at
+
+properties:
+  title:
+    type: string
+    minLength: 1
+    maxLength: 120
+    description: "Human-readable title. Use sentence case. No trailing period."
+
+  type:
+    type: string
+    enum:
+      - concept
+      - entity
+      - framework
+      - tool
+      - case
+      - dark-knowledge
+      - comparison
+      - decision
+      - improvement-plan
+      - system
+      - trend
+      - analysis
+      - report
+      - requirement
+      - index
+      - query
+      - proposal
+      - skill
+      - prompt-template
+      - tool-agent-spec
+      - system-agent-spec
+    description: >
+      concept: abstract idea or knowledge card
+      framework: multi-card methodology or knowledge map
+      tool: single-card knowledge map or checklist
+      case: real-world case study
+      dark-knowledge: single insight or pitfall pattern
+      decision: decision record
+      improvement-plan: actionable plan from feedback
+      system: architecture or workflow
+      tool-agent-spec: executable agent specification derived from a tool/framework card
+      system-agent-spec: executable agent specification derived from a system card
+      others: comparison/trend/analysis/report/requirement/index/query/proposal/skill (deprecated)
+
+  status:
+    type: string
+    enum:
+      - draft
+      - enriched
+      - reviewed
+      - stable
+      - proposed
+      - needs-review
+      - pending
+      - revised
+      - active
+      - deprecated
+      - deprecated
+      - superseded
+      - redirect
+    description: >
+      draft/enriched/reviewed/stable: standard lifecycle
+      proposed/pending/revised: workflow states
+      active: currently in use (systems/workflows)
+      deprecated/superseded: retired cards
+      redirect: points to replacement card
+
+  source_refs:
+    type: array
+    minItems: 0
+    items:
+      type: string
+    description: >
+      Array of source references.
+      Accepts: src_* IDs, [[wikilinks]], file paths, URLs, ISBNs, or descriptive strings.
+      Draft cards may have empty source_refs.
+
+  created_at:
+    type: string
+    format: date
+    pattern: ".*"
+    description: "Date or ISO timestamp. Example: 2026-05-02 or 2026-06-09T14:05:52+00:00"
+
+  updated_at:
+    type: string
+    format: date
+    pattern: "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    description: "ISO 8601 date. Update on every modification."
+
+  aliases:
+    type: array
+    items:
+      type: string
+    description: "Alternative search names for this card. Improves search recall."
+    maxItems: 10
+
+  related:
+    type: array
+    items:
+      type: string
+      pattern: "^\\[\\[.+\\]\\]$"
+    description: >
+      Optional bidirectional links to other wiki pages.
+      Format: [[Concept Name]] or [[folder/Concept Name]]
+
+  quality_labels:
+    type: array
+    items:
+      type: string
+      enum:
+        - insight
+        - hypothesis
+        - actionable
+        - quotable
+        - principle
+        - cited
+        - quality
+        - validated
+    maxItems: 8
+    description: >
+      Optional. Quality labels combining Vikki's five-tag system (content type)
+      and Daxin's brand three-degree framework (quality tier).
+
+      Content type (Vikki 五标签):
+        insight     — 💡 有新洞察/有价值的发现
+        hypothesis  — 🎯 待验证判断/假设
+        actionable  — ✅ 可落地执行的方法/步骤
+        quotable    — 🔥 高传播性表述/金句
+        principle   — ❤️ 解释因果机制/底层逻辑
+
+      Quality tier (大馨品牌三度):
+        cited       — 知名度：被多次引用，入度高
+        quality     — 美誉度：lint/审查质量评分高
+        validated   — 信任度：有实战验证，source_refs 可信
+
+  tags:
+    type: array
+    items:
+      type: string
+      pattern: "^#[a-z0-9/_-]+$"
+    description: "Optional tags for filtering. Lowercase with hyphens, underscores, and slashes."
+
+  domain:
+    type: array
+    minItems: 1
+    items:
+      type: string
+      enum:
+        - master
+        - yitang
+        - design
+        - consulting
+        - ai
+        - ai-collaboration
+        - business-strategy
+        - product
+        - entrepreneur
+        - management
+        - personal-growth
+        - learning-methodology
+        - lean-manufacturing
+        - ai-models
+        - healthcare
+        - ai-saas
+        - sales
+        - personal-os
+        - epistemic-foundations
+        - decision-science
+        - marketing
+    description: >
+      Knowledge domain classification. Multiple domains allowed.
+
+      ⚠️ 标注规则：标内容，不标出身。
+      第一个 domain = 主要话题域（卡片内容主要属于哪个领域）
+      第二及以后 = 涉及的关联域（卡片讨论到了哪个域的概念）
+      不是"来源是谁"而是"内容关于什么"。
+
+      判定方法：读 Summary + 第一个 Claim + Critique 第一句话。
+      如果这三处中出现了另一个域的核心概念，就应加上那个域的 domain。
+
+      已有 domain 说明：
+      master: 元方法/元认知（PEAS、认知升级、反脆弱等跨域通用框架）
+      yitang: 一堂创业/管理/个人修炼方法论
+      design: 设计方法、AIGC 工作流、审美
+      consulting: 管理咨询经典工具（MECE、Issue Tree 等）
+      ai: AI 技术概念
+      ai-collaboration: 人机协作方法论（纪浩、半肥猫等）
+      business-strategy: 商业战略、壁垒、增长
+      product: 产品设计与产品内核
+      entrepreneur: 创业
+      management: 团队管理与组织
+      personal-growth: 个人修炼、学习、笔记
+      learning-methodology: 学习方法论
+      lean-manufacturing: 精益制造（5 Whys 等）
+      ai-models: AI 模型架构
+      healthcare: 医疗健康
+      ai-saas: AI 产品和公司
+
+  yitang:
+    type: object
+    description: >
+      Optional. 一堂 (Yitang) course-specific metadata.
+      Only present when domain includes 'yitang'.
+    properties:
+      map:
+        type: string
+        enum:
+          - personal
+          - management
+          - entrepreneur
+          - infinite
+        description: >
+          Which of the four maps this course belongs to:
+          personal (个人修炼), management (管理修炼),
+          entrepreneur (创业修炼), infinite (无限修炼)
+      module:
+        type: string
+        description: "Course module name in Chinese, e.g. 时间管理"
+      course_id:
+        type: string
+        description: "Course selection number in 一堂's system, e.g. 401"
+      course_type:
+        type: string
+        enum:
+          - method
+          - case
+          - tool
+        description: "method: methodology course | case: case study | tool: tool/practice"
+      level:
+        type: string
+        enum:
+          - foundational
+          - core
+          - advanced
+        description: "foundational: required basics | core: core curriculum | advanced: advanced topics"
+      prerequisites:
+        type: array
+        items:
+          type: string
+        description: "List of prerequisite course_ids"
+      credits:
+        type: integer
+        minimum: 1
+        description: "Course credits in 一堂's system"
+      series:
+        type: boolean
+        description: "Whether this is a series course (multiple sessions)"
+
+  trust_level:
+    type: string
+    enum:
+      - high
+      - medium
+      - low
+    description: >
+      Optional. Self-assessed reliability of the knowledge.
+      high: multiple verified sources, direct experience
+      medium: single strong source or indirect evidence
+      low: hypothesis, speculation, unverified claim
+
+  confidence:
+    type: number
+    minimum: 0
+    maximum: 1
+    description: "Optional numeric confidence (0.0-1.0). Overrides trust_level if present."
+
+  reviewed_by:
+    type: string
+    description: "Optional. Name of human or AI agent that last reviewed this card."
+
+  review_date:
+    type: string
+    format: date
+    pattern: "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    description: "Date of last review. Required if status is reviewed or stable."
+
+  reverify_by:
+    type: string
+    format: date
+    pattern: "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    description: >
+      Optional. 认证到期日（#272 新鲜度 SLA）——review_date + 6 个月。
+      P0 framework 卡 + 新域首卡终审 PASS 时写入；过期未复验 → 降级 stale（不删除，消费端标记"证据待复验"）。
+
+  superseded_by:
+    type: array
+    items:
+      type: string
+    description: >
+      Optional. IDs of newer cards that replace this card.
+      When adding a new card that covers the same topic as an old card,
+      add this field to the old card pointing to the new one, and set
+      status to 'deprecated'.
+
+  diagnostic_signals:
+    type: array
+    items:
+      type: object
+      required:
+        - signal
+        - framework_lens
+        - follow_up_question
+      properties:
+        signal:
+          type: string
+          description: "触发场景——用户说什么话/什么情境时触发"
+        framework_lens:
+          type: string
+          description: "框架视角——这个信号下框架提供什么视角"
+        follow_up_question:
+          type: string
+          description: "第一个追问"
+    description: >
+      Optional. Diagnostic signals for framework/tool/case cards.
+      Each signal describes a triggering scenario, the framework's lens,
+      and the first follow-up question. Enables dialogue-based diagnosis.
+
+  bridges_to:
+    type: array
+    items:
+      type: object
+      required:
+        - target
+        - relation
+        - description
+      properties:
+        target:
+          type: string
+          description: "目标卡 ID"
+        relation:
+          type: string
+          description: "关系类型（如 provides_foundation_for / applies_to / complements）"
+        description:
+          type: string
+          description: "桥接说明"
+        context:
+          type: string
+          description: "上下文背景"
+    description: >
+      Optional. Cross-system bridge links. Use only for cross-domain/cross-system
+      connections (e.g. 一堂体系 ↔ 经典商业框架). Intra-yitang relationships
+      should use the existing 'related' field.
+
+  diagnostic_relations:
+    type: array
+    items:
+      type: object
+      properties:
+        target:
+          type: string
+          description: "目标卡 ID"
+        relation:
+          type: string
+          description: "关系类型（applies_when / contrasts_with / requires_input）"
+        description:
+          type: string
+          description: "描述在什么场景下触发"
+    description: >
+      Optional. Diagnostic graph edges for Graph RAG.
+      Used for query-time diagnostic candidate matching.
+
+dependencies:
+  reviewed_by:
+    - review_date
+
+additionalProperties: false
+
+examples:
+  - title: "Graph RAG for Knowledge Management"
+    type: concept
+    status: reviewed
+    source_refs:
+      - "src_20260502_7d7c1b7c"
+    created_at: "2026-05-02"
+    updated_at: "2026-05-02"
+    related:
+      - "[[Obsidian + KDO 内容产出工作流]]"
+      - "[[KDO Protocol]]"
+    tags:
+      - #ai
+      - #knowledge-graph
+    trust_level: medium
+    reviewed_by: "Claude"
+    review_date: "2026-05-02"
