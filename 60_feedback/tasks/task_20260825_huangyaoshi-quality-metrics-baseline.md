@@ -1,9 +1,10 @@
 ---
 id: 514
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-24T16:50:00+00:00'
+status: in_progress
+updated_at: '2026-08-25T13:37:14.094567+00:00'
 version: v0.1
+instance: huangyaoshi
 ---
 
 # #514 质量指标基线建设（FAIL 率/打回率/门禁拦截率/误判率，先跑纯统计）
