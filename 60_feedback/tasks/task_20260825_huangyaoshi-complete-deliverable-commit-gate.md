@@ -1,9 +1,10 @@
 ---
 id: 522
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-24T18:25:00+00:00'
+status: in_progress
+updated_at: '2026-08-25T05:07:14.969520+00:00'
 version: v0.1
+instance: huangyaoshi
 ---
 
 # #522 complete 提审门禁增「交付物已入仓」校验（E040 机器兜底）
