@@ -1,0 +1,64 @@
+# Fault-Case Card JSON Schema（#533 技术域适配包）
+# 故障排查案例卡：现象→定位→根因→修复→预防。技术团队最值钱的暗知识卡型。
+# 五段链条必填——缺段的故障记录不是资产是流水账。
+
+$id: "kdo://schemas/fault-case"
+$schema: "http://json-schema.org/draft-07/schema#"
+title: "KDO Tech Fault Case Card"
+description: >
+  Schema for fault troubleshooting case cards (30_wiki/fault-cases/).
+  复现证据/日志附件留原仓，artifact_path 引用。
+
+type: object
+required:
+  - title
+  - type
+  - created_at
+  - updated_at
+  - status
+  - symptom
+  - root_cause
+  - fix
+
+properties:
+  title:
+    type: string
+    minLength: 1
+    maxLength: 120
+  type:
+    type: string
+    const: fault-case
+  created_at: {type: string}
+  updated_at: {type: string}
+  status:
+    type: string
+    enum: [draft, enriched, reviewed, stable, deprecated, superseded]
+  source_refs:
+    type: array
+    items: {type: string}
+
+  symptom:
+    type: string
+    minLength: 1
+    description: "现象（可观测的异常表现，含环境/版本前提）"
+  location:
+    type: string
+    description: "定位过程（怎么收窄到嫌疑点的——排查路径本身是暗知识）"
+  root_cause:
+    type: string
+    minLength: 1
+    description: "根因（机制级解释，不是表象复述）"
+  fix:
+    type: string
+    minLength: 1
+    description: "修复动作（实际生效的那个，含验证方式）"
+  prevention:
+    type: array
+    items: {type: string}
+    description: "预防（测试/检查项/设计变更——下次怎么不再犯）"
+  severity:
+    type: string
+    enum: [critical, major, minor]
+  artifact_path:
+    type: string
+    description: "日志/复现工程/截图路径（证据工件不进卡）"

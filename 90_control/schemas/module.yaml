@@ -1,0 +1,61 @@
+# Module Card JSON Schema（#533 技术域适配包）
+# 软硬件模块卡：职责、接口契约、依赖、owner、固件/硬件版本关联。
+# 卡管认知不管工件——EDA 工程/代码仓/固件留原仓，artifact_path 引用。
+
+$id: "kdo://schemas/module"
+$schema: "http://json-schema.org/draft-07/schema#"
+title: "KDO Tech Module Card"
+description: >
+  Schema for hardware/software module cards (30_wiki/modules/).
+  层间接口关系是卡间最该建的链接——interface_contract 里写清对上游/下游的承诺。
+
+type: object
+required:
+  - title
+  - type
+  - created_at
+  - updated_at
+  - status
+  - responsibility
+  - interface_contract
+
+properties:
+  title:
+    type: string
+    minLength: 1
+    maxLength: 120
+  type:
+    type: string
+    const: module
+  created_at: {type: string}
+  updated_at: {type: string}
+  status:
+    type: string
+    enum: [draft, enriched, reviewed, stable, deprecated, superseded]
+  source_refs:
+    type: array
+    items: {type: string}
+
+  responsibility:
+    type: string
+    minLength: 1
+    description: "模块职责一句话（它保证什么）"
+  interface_contract:
+    type: array
+    minItems: 1
+    items: {type: string}
+    description: "接口契约（对上游/下游的承诺：信号/协议/数据格式/时序）"
+  dependencies:
+    type: array
+    items: {type: string}
+    description: "依赖的模块/卡（wiki 链接或工件路径）"
+  owner:
+    type: string
+    description: "负责人/负责团队（能找到人问的那种）"
+  hw_fw_versions:
+    type: array
+    items: {type: string}
+    description: "关联硬件/固件版本（如 PCB revC + FW 1.4.2）"
+  artifact_path:
+    type: string
+    description: "EDA 工程/代码仓/固件路径（工件本体不进卡）"
