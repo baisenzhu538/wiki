@@ -1,13 +1,13 @@
 ---
 id: 527
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-24T20:10:00+00:00'
+status: in_progress
+updated_at: '2026-08-25T14:39:53.753752+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
-  - kdo-tools/
-  - 90_control/quality-gates/
+- kdo-tools/
+- 90_control/quality-gates/
 ---
 
 # #527 被依赖卡 draft 门禁（消费链引用完整性 lint）
