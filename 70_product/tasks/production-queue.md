@@ -420,6 +420,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - [gate-blocked] task_20260825_laowantong-oral-spray-dictation-supplement｜08-25 23:37｜待王语嫣复核处置｜2026-08-25 23:32:32｜task_20260825_laowantong-oral-spray-dictation-supplement｜F-034-五字段｜执行报告缺 1 个字段（#429 F-034）：完成内容一句话。请补全后重试，或 --force --reason '<理由>' 声明例外（#444 台账留痕）。｜kimi-cli
 - [gate-blocked] task_20260825_huangyaoshi-machine-pre-review-pipeline｜08-26 00:27｜待王语嫣复核处置｜2026-08-26 00:25:41｜task_20260825_huangyaoshi-machine-pre-review-pipeline｜F-035-负向判词｜意见书含负向断言（不存在/「无历史」）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋
 - [gate-blocked] task_20260826_laowantong-token-economy-domain-debut｜08-26 00:57｜待王语嫣复核处置｜2026-08-26 00:54:30｜task_20260826_laowantong-token-economy-domain-debut｜F-036-问题落点｜审查发现问题未给落点（F-036）：- **预审报告观察**：本单四字段齐全+预审报告正常附着——#515 的 attach 吞内容 bug 未在本单复现（——必须在意见书注明去向（建议书路径 / 停｜欧阳锋
+- diag_20260826_fengqingyang-capsule-infra-self-audit.md｜08-26 01:03｜待王语嫣复核裁定
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
