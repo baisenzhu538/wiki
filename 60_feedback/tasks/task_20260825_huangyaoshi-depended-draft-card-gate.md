@@ -54,6 +54,7 @@ code_files:
 - L1 单测 8 例全过：被引 draft 报警/孤立 draft 不报警（draft 本身无罪）/reviewed 不报警/裸 stem 引用/glob 引用/index 非卡剔除/baseline 存量 exit 0+新引用 exit 1/清单输出。基线零退步：90_control **142 passed**（134+8）、kdo-tools **127 passed**
 - L2 狗粮：真库实跑——初扫 60 条（含 log.md 误报噪声）→ 剔除 index/log 后 **23 条真违例**，触发卡 `framework-truman-feature-layered-system` 在册（glob 引用路径实测抓回）✅；门禁三跑：inventory→update-baseline→gate exit 0（全量在册）✅
 - L3 待活体：下一次新引用 draft 卡进数据链当场 ERROR；欧阳锋按清单优先过审（第一张=layered-system）
+- **提审后补件声明**（透明先例 #511/#522）：本单 complete 首跑被 #363 code gate 拦下——任务书 code_files 声明目录级 `kdo-tools/`，pytest 运行产生的 __pycache__ 新变体被当脏交付物；修复=`_git_uncommitted` 过滤 __pycache__/.pyc 构建产物（机器生成非交付物，门禁家族 #363/#522 同受益），补件随本说明同 commit
 
 **边界**：零改卡状态（门禁只报警）✅；引用面含工具配置硬引用（.py 数据链）✅；与 #524 治标不重复（检索标注 vs 源头清单）✅；index/log 剔除规则=初扫误报实证驱动，词表级误报残留由清单人工复核兜底（王语嫣过目）。
 

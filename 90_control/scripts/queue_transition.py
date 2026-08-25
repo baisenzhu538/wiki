@@ -578,9 +578,15 @@ def _git_uncommitted(repo_root: Path, paths: list[str]) -> list[str]:
     for line in out.splitlines():
         # porcelain line: "XY path" — strip the 2-char status column
         if len(line) >= 3 and line[2] == " ":
-            dirty.append(line[3:])
+            path = line[3:]
         elif line.startswith("??"):
-            dirty.append(line[3:])
+            path = line[3:]
+        else:
+            continue
+        # 构建产物不算脏（#527 实证：__pycache__ 随 pytest 版本变脸，目录级 code_files 被噪声误拦）
+        if "__pycache__" in path or path.endswith(".pyc"):
+            continue
+        dirty.append(path)
     return dirty
 
 
