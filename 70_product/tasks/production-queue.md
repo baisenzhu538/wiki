@@ -305,8 +305,8 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~00_inbox/pending-cards/_processed/case-wechat-fe60439837f4c93e.md｜P2｜2619B｜检测到 08-24 16:41｜待王语嫣编排~~ → 已编排（08-25 王语嫣：维持 08-21 原判合并→tool-pdf-inspector，同上判定书）
 - ~~00_inbox/pending-cards/case-wechat-2404c1658025473c.md｜P2｜3247B｜检测到 08-24 16:51｜待王语嫣编排~~ → 已处置（08-25 王语嫣：管线再生副本——同案已判定合并，副本隔离 _processed/*.regen-20260825；再生根因=wechat_promote 去重键不查 _processed，立项 #516 根治）
 - ~~00_inbox/pending-cards/case-wechat-fe60439837f4c93e.md｜P2｜2361B｜检测到 08-24 16:51｜待王语嫣编排~~ → 已处置（同上，#516 根治）
-- 00_inbox/pending-cards/_processed/case-wechat-2404c1658025473c.regen-20260825.md｜P2｜3247B｜检测到 08-24 17:21｜待王语嫣编排
-- 00_inbox/pending-cards/_processed/case-wechat-fe60439837f4c93e.regen-20260825.md｜P2｜2361B｜检测到 08-24 17:21｜待王语嫣编排
+- ~~00_inbox/pending-cards/_processed/case-wechat-2404c1658025473c.regen-20260825.md｜P2｜3247B｜检测到 08-24 17:21｜待王语嫣编排~~ → 已处置（08-25 王语嫣：第三次再生=01:21 修复前最后发作——#516 于 10:11 落修复含 regen 变体去重，此后 11h 零再生；探针登记隔离件属正常灵敏，同案已判定合并不重复编排；01:21 根目录副本已再隔离 _processed/*.regen2-20260825-0121）
+- ~~00_inbox/pending-cards/_processed/case-wechat-fe60439837f4c93e.regen-20260825.md｜P2｜2361B｜检测到 08-24 17:21｜待王语嫣编排~~ → 已处置（同上）
 - 00_inbox/pending-cards/case-wechat-2404c1658025473c.md｜P2｜3247B｜检测到 08-24 17:31｜待王语嫣编排
 - 00_inbox/pending-cards/case-wechat-fe60439837f4c93e.md｜P2｜2361B｜检测到 08-24 17:31｜待王语嫣编排
 
