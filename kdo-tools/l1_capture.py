@@ -73,7 +73,9 @@ ARCHIVE_ROOT = Path("D:/KDO-memory/L1-full-archive")  # #491：旧天目录压�
 def _zip_covers_dir(zip_path: Path, day_dir: Path) -> tuple[bool, str]:
     """#508 事故根治：删目录前核验 zip 完整覆盖目录（rel 集一致 + 逐文件大小相等）。
 
-    返回 (covers, reason)。只做元数据比对（不解压全文 hash——1GB 级归档可承受）。
+    #523 R1 加固：元数据比对通过后补 CRC 全量校验（zf.testzip——infolist 不校验
+    CRC，zip 写盘半成/坏块不在元数据射程内；半夜无人值守场景宁慢勿漏）。
+    返回 (covers, reason)。
     """
     import zipfile
     dir_files = {}
@@ -86,15 +88,30 @@ def _zip_covers_dir(zip_path: Path, day_dir: Path) -> tuple[bool, str]:
     try:
         with zipfile.ZipFile(zip_path) as zf:
             zip_files = {i.filename: i.file_size for i in zf.infolist() if not i.is_dir()}
+            missing = set(dir_files) - set(zip_files)
+            if missing:
+                return False, f"zip 缺 {len(missing)} 个文件（如 {sorted(missing)[0]}）"
+            for rel, size in dir_files.items():
+                if zip_files[rel] != size:
+                    return False, f"大小不一致: {rel}（目录 {size}B ≠ zip {zip_files[rel]}B）"
+            bad = zf.testzip()  # #523 R1：CRC 全量校验（返回首个坏文件名/None）
+            if bad:
+                return False, f"CRC 校验失败: {bad}（zip 数据损坏，拒绝删除源目录）"
     except (OSError, zipfile.BadZipFile) as e:
         return False, f"zip 不可读: {e}"
-    missing = set(dir_files) - set(zip_files)
-    if missing:
-        return False, f"zip 缺 {len(missing)} 个文件（如 {sorted(missing)[0]}）"
-    for rel, size in dir_files.items():
-        if zip_files[rel] != size:
-            return False, f"大小不一致: {rel}（目录 {size}B ≠ zip {zip_files[rel]}B）"
     return True, ""
+
+
+def _report_archive_refusal(day_name: str, reason: str) -> None:
+    """#523 R2：归档拒删=数据安全事件——除 stderr 外写 gate-blocked.log（#471 通道），
+    conveyor_probe 第五探针拾取 → 通知王语嫣。半夜拒删不再无人知。"""
+    ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    line = f"{ts}｜l1-capture｜L1-归档拒删｜{day_name} 核验未过拒绝删除源目录（{reason}），请人工核查（#508/#523）｜huangyaoshi\n"
+    try:
+        with GATE_BLOCKED_LOG.open("a", encoding="utf-8") as f:
+            f.write(line)
+    except OSError as e:
+        print(f"⛔ gate-blocked 写入失败: {e}", file=sys.stderr)
 
 
 def _archive_old_days() -> int:
@@ -122,6 +139,7 @@ def _archive_old_days() -> int:
             else:
                 print(f"⛔ {d.name}: zip 已存在但未覆盖目录内容（{reason}）——"
                       f"拒绝删除，请人工核查/重新归档", file=sys.stderr)
+                _report_archive_refusal(d.name, reason)  # #523 R2
             continue
         with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as zf:
             for f in d.rglob("*"):
@@ -134,6 +152,7 @@ def _archive_old_days() -> int:
         covers, reason = _zip_covers_dir(zip_path, d)
         if not covers:
             print(f"⛔ {d.name}: 新 zip 核验失败（{reason}）——保留原目录，请人工核查", file=sys.stderr)
+            _report_archive_refusal(d.name, reason)  # #523 R2
             continue
         shutil.rmtree(d, ignore_errors=True)
         archived += 1

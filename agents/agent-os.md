@@ -319,6 +319,16 @@ python kdo-tools/flywheel.py pattern --days 21 --agent <agent-id>
 
 模板：`templates/daily-context-template.md`（含长期资产更新检查单）。
 
+### 10.10 事故级 friction 双记规范（2026-08-25 #523，O-15 同族）
+
+**分层口径**：
+- `.agent/friction-log.md`（#276 机制）：日常工作摩擦——一行一条，当下追加，agent 级
+- `60_feedback/friction-log.md`：全厂台账——**事故级** friction 必须上浮双记
+
+**事故级判定**（满足其一即上浮）：涉及数据丢失/删除｜生产链路中断（计划任务空转、通知链断流等）｜影响跨角色协作的事件。
+
+**双记动作**：agent 级照旧记一行；全厂台账补一节（现象/处置/教训/责任四段式）。只记 agent 级=事故沉没（#508 实证：474 文件误删事故 8 小时后才由终审上浮）。
+
 ---
 
 ## 11. KDO Agent 建设标准（三步闭环）

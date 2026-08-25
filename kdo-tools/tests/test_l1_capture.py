@@ -157,3 +157,54 @@ def test_bootstrap_state_rebuilds_cursor(tmp_path, monkeypatch):
     lc.capture(dry_run=False)  # 重跑：游标已重建 → 零新增目录变化
     after = list((l1root / _today()).rglob("*"))
     assert len(before) == len(after)
+
+
+# ── #523 R1/R2 回归：CRC 校验 + 拒删接 gate-blocked 通道 ──
+
+def _corrupt_zip_byte(zip_path):
+    """把 zip 里第一个文件的存储数据翻转 1 字节（ZIP_STORED 裸数据，
+    元数据大小不变、CRC 必坏——元数据比对管不着的坏法）。"""
+    import struct
+    raw = bytearray(zip_path.read_bytes())
+    assert raw[:4] == b"PK\x03\x04"
+    name_len, extra_len = struct.unpack_from("<HH", raw, 26)
+    data_off = 30 + name_len + extra_len
+    raw[data_off] ^= 0xFF
+    zip_path.write_bytes(bytes(raw))
+
+
+def test_zip_covers_dir_catches_crc_corruption(tmp_path, monkeypatch):
+    """#523 R1：元数据全对但数据坏 1 字节 → 核验拒绝（testzip 射程）。"""
+    import zipfile
+    src, l1root, archroot = _sandbox(tmp_path, monkeypatch)
+    archroot.mkdir(parents=True)
+    day = l1root / "2020-01-01" / "claude"
+    day.mkdir(parents=True)
+    (day / "a.jsonl").write_text('{"a":1}\n', encoding="utf-8")
+    zip_path = archroot / "2020-01-01.zip"
+    with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_STORED) as zf:
+        zf.write(day / "a.jsonl", "2020-01-01/claude/a.jsonl")
+    # 未损坏：核验通过
+    covers, _ = lc._zip_covers_dir(zip_path, l1root / "2020-01-01")
+    assert covers
+    # 损坏 1 字节：大小不变（元数据过），CRC 拦下
+    _corrupt_zip_byte(zip_path)
+    covers, reason = lc._zip_covers_dir(zip_path, l1root / "2020-01-01")
+    assert not covers and "CRC" in reason
+
+
+def test_archive_refusal_writes_gate_blocked(tmp_path, monkeypatch):
+    """#523 R2：核验失败拒删 → gate-blocked.log 有「L1-归档拒删」记录（探针第五探针可达）。"""
+    import zipfile
+    src, l1root, archroot = _sandbox(tmp_path, monkeypatch)
+    archroot.mkdir(parents=True)
+    zip_path = archroot / "2020-01-01.zip"
+    with zipfile.ZipFile(zip_path, "w") as zf:
+        zf.writestr("2020-01-01/claude/old.jsonl", '{"old":1}\n')
+    day = l1root / "2020-01-01" / "claude"
+    day.mkdir(parents=True)
+    (day / "old.jsonl").write_text('{"old":1}\n', encoding="utf-8")
+    (day / "extra.jsonl").write_text('{"x":1}\n', encoding="utf-8")  # zip 未覆盖
+    assert lc._archive_old_days() == 0
+    gb = (tmp_path / "gate-blocked.log").read_text(encoding="utf-8")
+    assert "L1-归档拒删" in gb and "2020-01-01" in gb and "huangyaoshi" in gb

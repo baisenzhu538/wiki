@@ -10,3 +10,9 @@
 - **背景**：R 型 Partner memories 有 2026-08-16 修复记录（mcp 2.0.0→1.28.1），但全厂 friction-log 无此条目——本次上浮补录
 - **教训**：Agent 本地记忆的 bug 不自动上浮工厂层；#338 PatrolKit 要解决的"Session 精华丢失"正是此场景
 - **责任**：排黄药师
+
+## 2026-08-25 #508 归档幂等分支误删 474 文件（事故级上浮补录，自 .agent/friction-log 双记 #523）
+- **现象**：`_archive_old_days` 旧幂等分支「zip 存在即 rmtree 目录」——存量迁移把平铺树（含 zip 未覆盖的 474 个增量文件）移入 2026-08-24/ 后被直接删除；473 从源恢复，1 文件真丢失（hermes/wangyuyan/.skills_prompt_snapshot.json，可再生缓存）
+- **处置**：`_zip_covers_dir` 核验门禁化（rel 集+逐文件大小比对，不核验不删除）；#523 再加固：CRC 全量校验入核验+拒删除 stderr 外写 gate-blocked.log 通知链
+- **教训**：幂等≠安全——「已处理过」的判断必须基于内容核验不是路径存在；删除类操作先核验覆盖再执行；事故只记 agent 级会沉没，事故级 friction 须上浮全厂台账（双记规范落 agent-os §10.10）
+- **责任**：黄药师（事故引入+根治+加固）
