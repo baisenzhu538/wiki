@@ -1,12 +1,12 @@
 ---
 id: 534
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-26T02:10:00+00:00'
+status: in_progress
+updated_at: '2026-08-25T19:23:09.643995+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
-  - D:/tech-wiki/
+- D:/tech-wiki/
 ---
 
 # #534 种子包本机狗粮实装验证：D:\tech-wiki 空库全链路
