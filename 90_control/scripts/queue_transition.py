@@ -1202,7 +1202,42 @@ def action_myqueue(role: str) -> int:
     print(f"🧊 冻结 {len(frozen)}:"); print(fmt(frozen))
     print(f"🚧 进行中 {len(doing)}:"); print(fmt(doing))
     print(f"⏳ 待终审 {len(reviewing)}:"); print(fmt(reviewing))
+    _print_recent_reviews(role)
     return 0
+
+
+# #535 myqueue「最近终审」栏：REVIEW-PENDING 段划掉行里的终审落点（48h 内，本角色）
+_REVIEW_DONE_RE = re.compile(
+    r"^- ~~#(\d+) (\S+?)｜(\S+?)｜提审 .*?~~ → (已终审 (?:PASS\s*[A-]*|FAIL)|终审退回)"
+    r".*?（(\d{4}-\d{2}-\d{2})")
+
+
+def _print_recent_reviews(role: str, hours: int = 48) -> None:
+    """近 48h 我名下终审落点——只读视图顺手查，不把「没有变化」误读为「仍在审」。"""
+    from datetime import datetime as _dt, timedelta as _td
+    try:
+        text = QUEUE_PATH.read_text(encoding="utf-8")
+    except OSError:
+        text = ""
+    block = ""
+    if REVIEW_BEGIN in text and REVIEW_END in text:
+        block = text.split(REVIEW_BEGIN)[1].split(REVIEW_END)[0]
+    cutoff = _dt.now() - _td(hours=hours)
+    rows = []
+    for line in block.splitlines():
+        m = _REVIEW_DONE_RE.match(line.strip())
+        if not m or m.group(3) != role:
+            continue
+        seq, tid, _a, verdict, dstr = m.groups()
+        try:
+            d = _dt.strptime(dstr, "%Y-%m-%d")
+        except ValueError:
+            continue
+        if d >= cutoff:
+            tag = "🔴退回返工" if "退回" in verdict or "FAIL" in verdict else f"✅{verdict.replace('已终审 ', '')}"
+            rows.append(f"  #{seq} {tid} — {tag}（{dstr}）")
+    print(f"⚖️ 最近终审（{hours}h） {len(rows)}:")
+    print("\n".join(rows) if rows else "  (无)")
 
 
 def main() -> int:

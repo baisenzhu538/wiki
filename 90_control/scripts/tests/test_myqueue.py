@@ -113,3 +113,58 @@ class TestTaskDependsOn(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestRecentReviews(unittest.TestCase):
+    """#535：myqueue「最近终审」栏——48h 内本角色终审落点可见。"""
+
+    def _write_queue(self, tmp: Path, lines: list[str]):
+        qf = tmp / "production-queue.md"
+        qf.write_text(
+            "# 队列\n\n" + qt.REVIEW_BEGIN + "\n\n" + "\n".join(lines) + "\n\n" + qt.REVIEW_END + "\n",
+            encoding="utf-8")
+        return qf
+
+    def test_recent_reviews_section(self):
+        import tempfile
+        from datetime import datetime, timedelta
+        today = datetime.now().strftime("%Y-%m-%d")
+        old = (datetime.now() - timedelta(hours=72)).strftime("%Y-%m-%d")
+        lines = [
+            f"- ~~#100 task_pass｜huangyaoshi｜提审 08-25 10:00｜p.md~~ → 已终审 PASS A（{today} 欧阳锋）",
+            f"- ~~#101 task_fail｜huangyaoshi｜提审 08-25 11:00｜p.md~~ → 终审退回 queued（{today} 欧阳锋）",
+            f"- ~~#102 task_other｜laowantong｜提审 08-25 12:00｜p.md~~ → 已终审 PASS A-（{today} 欧阳锋）",
+            f"- ~~#103 task_old｜huangyaoshi｜提审 08-20 10:00｜p.md~~ → 已终审 PASS A（{old} 欧阳锋）",
+        ]
+        with tempfile.TemporaryDirectory() as td:
+            qf = self._write_queue(Path(td), lines)
+            orig = qt.QUEUE_PATH
+            qt.QUEUE_PATH = qf
+            try:
+                buf = io.StringIO()
+                with redirect_stdout(buf):
+                    qt._print_recent_reviews("huangyaoshi")
+                out = buf.getvalue()
+            finally:
+                qt.QUEUE_PATH = orig
+        self.assertIn("#100 task_pass", out)
+        self.assertIn("✅PASS A", out)
+        self.assertIn("#101 task_fail", out)
+        self.assertIn("🔴退回返工", out)
+        self.assertNotIn("#102", out)   # 其他角色不入栏
+        self.assertNotIn("#103", out)   # 超 48h 不入栏
+
+    def test_no_section_no_crash(self):
+        import tempfile
+        with tempfile.TemporaryDirectory() as td:
+            qf = Path(td) / "production-queue.md"
+            qf.write_text("# 队列（无 REVIEW-PENDING 段）\n", encoding="utf-8")
+            orig = qt.QUEUE_PATH
+            qt.QUEUE_PATH = qf
+            try:
+                buf = io.StringIO()
+                with redirect_stdout(buf):
+                    qt._print_recent_reviews("huangyaoshi")
+                self.assertIn("最近终审", buf.getvalue())
+            finally:
+                qt.QUEUE_PATH = orig

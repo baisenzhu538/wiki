@@ -581,6 +581,49 @@ def _append_role_todo(role: str, text: str) -> None:
         print(f"⚠️ 待办文件写入失败: {e}", file=sys.stderr)
 
 
+def _review_brief(task_id: str) -> str:
+    """#535：终审落点简报——读任务单终审/复审记录节，提取 结论+等级+返工项/O2 标记。
+    格式：PASS A / FAIL / PASS A-·O2（无记录返回空串）。"""
+    fp = TASK_DIR / f"{task_id}.md"
+    if not fp.exists():
+        return ""
+    try:
+        body = fp.read_text(encoding="utf-8", errors="ignore")
+    except OSError:
+        return ""
+    idx = max(body.rfind("## 终审记录"), body.rfind("## 复审记录"))
+    if idx == -1:
+        return ""
+    section = body[idx:idx + 2500]
+    m = _re.search(r"\*\*(PASS(?:\s*A-?|B[+-]?|C)?|FAIL)\*\*", section)
+    verdict = m.group(1).replace("  ", " ") if m else ""
+    marks = []
+    if "O2" in section:
+        marks.append("O2")
+    if verdict == "FAIL" or "返工" in section:
+        marks.append("有返工项")
+    return ("·".join([verdict] + marks)) if verdict else ""
+
+
+def _prepend_role_todo(role: str, text: str) -> None:
+    """#535 FAIL 置顶：终审退回通知插到收件箱条目区最顶（标题行之后）——
+    返工优先（E019 完成未闭环优先），不等扫到底才看见。"""
+    try:
+        TODOS_DIR.mkdir(parents=True, exist_ok=True)
+        ts = datetime.now().strftime("%Y-%m-%d %H:%M")
+        fp = TODOS_DIR / f"{role}.md"
+        if not fp.exists():
+            fp.write_text(
+                f"# {role} 待办（探针通知 CLI 收件箱——启动读此文件；在外实例走飞书）\n\n",
+                encoding="utf-8")
+        body = fp.read_text(encoding="utf-8")
+        head, sep, rest = body.partition("\n\n")
+        line = f"- [{ts}] {text}\n"
+        fp.write_text(head + sep + line + rest, encoding="utf-8")
+    except OSError as e:
+        print(f"⚠️ 待办文件置顶写入失败: {e}", file=sys.stderr)
+
+
 def _send_hook(url: str, text: str, key: str | None = None) -> bool:
     """发送飞书消息。**必须校验响应 body 的 code**——飞书业务失败也返回 HTTP 200（2026-08-23 实证：
     签名错误 code 19021 曾被当成功，全部消息假发送）。"""
@@ -677,6 +720,7 @@ def main() -> int:
     issue_no_disp = _scan_issue_no_disposition(state, queue_sig["new_reviewed"])
 
     messages: dict[str, str] = {}
+    failback_roles: set[str] = set()  # #535：退回角色收件箱置顶写
     # #520 R1：终审类信号豁免夜间静默（老朱 08-25 拍板，与 #521 同口径）——
     # 提审叫醒（→审查者）/终审完成（→生产者路由 #521）照常推，可领取/建议书等维持静默。
     # 跟随最终文本类别：非豁免类别覆盖同角色消息时摘除豁免标记。
@@ -711,7 +755,10 @@ def main() -> int:
         messages["wangyuyan"] = f"⚖️ KDO 已终审 {len(queue_sig['new_reviewed'])} 单：{items}（待部署/已闭环）"
         exempt_roles.add("wangyuyan")  # 终审抄送=终审类信号，豁免静默
         for role, items_r in _route_queued(queue_sig["new_reviewed"]).items():
-            ids = ", ".join(f"#{seq}" if seq else tid for tid, seq in items_r)
+            # #535：落点简报——每单带 结论+等级+返工项/O2 标记（扫描者不再把「没变化」误读为「仍在审」）
+            ids = ", ".join(
+                (f"#{seq}" if seq else tid) + (f"（{_review_brief(tid)}）" if _review_brief(tid) else "")
+                for tid, seq in items_r)
             messages[role] = f"✅ KDO 终审通过 {len(items_r)} 单：{ids}——你的单过了，见任务单终审记录"
             exempt_roles.add(role)  # PASS 生产者路由=终审类信号，豁免静默
     if issue_no_disp:
@@ -722,9 +769,12 @@ def main() -> int:
         exempt_roles.discard("ouyangfeng")  # F-036 非终审类信号：覆盖叫醒文本时摘除豁免
     if queue_sig["new_failback"]:
         # #462：终审退回 → 按 assignee 路由通知（#443 同款；生产者返工不再靠自觉）
+        # #535：FAIL 通知带「返工优先」标记，收件箱置顶（E019 完成未闭环优先）
         for tid, seq, assignee in queue_sig["new_failback"]:
             role = ASSIGNEE_ROLE.get(str(assignee).strip(), "laowantong")
-            messages[role] = f"↩️ KDO 退回 1 单：#{seq}（{tid}），见任务单终审记录"
+            brief = _review_brief(tid)
+            messages[role] = f"🔴 KDO 退回 1 单（返工优先）：#{seq}（{tid}）{f'〔{brief}〕' if brief else ''}，见任务单终审记录"
+            failback_roles.add(role)
 
     # 幂等：同 id 不重推（登记与通知同源——registered 是本次扫描产物）
     notified = set(state.get("notified", []))
@@ -736,9 +786,13 @@ def main() -> int:
         deduped[role] = text
 
     # #501 角色待办收件箱：所有将发送通知同时落盘 todos/<role>.md（CLI 实例收件箱）
+    # #535：FAIL 退回通知置顶（返工优先），其余追加
     if not args.dry_run:
         for role, text in deduped.items():
-            _append_role_todo(role, text)
+            if role in failback_roles:
+                _prepend_role_todo(role, text)
+            else:
+                _append_role_todo(role, text)
 
     hour = datetime.now().hour
     silent = (hour >= SILENT_START_HOUR or hour < SILENT_END_HOUR) and not args.force_notify
