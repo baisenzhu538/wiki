@@ -63,6 +63,14 @@ related:
 > **来源**：Truman 双三角课程——AI 基本功 = AI 三角的基础模块（口述 L1188-1468）。
 > **状态**：骨架已立，内容待生产（#248-#252 编排中）。
 
+## 本域核心资产路标
+
+- Feature 思维根卡：`30_wiki/frameworks/framework-truman-feature-thinking-core.md`
+- Feature 分层体系（周期表框架卡，L0-L5 六层）：`30_wiki/frameworks/framework-truman-feature-layered-system.md`
+- 周期表数据源（100 Feature）：`10_raw/sources/feature-periodic-table-v1.0.json`
+- 点菜式查询工具：`kdo-tools/feature_menu.py`
+- 两套 Feature 体系澄清（KDO 工程 vs AI 能力）：`30_wiki/bridges/bridge-two-feature-systems.md`
+
 ## 域定义
 
 ai-basic = AI 基本功 = AI 三角的"基本功"角。核心方法论：Feature 思维——把 AI 工具拆成原子化最小技术单位（口述 L1402-1450）。

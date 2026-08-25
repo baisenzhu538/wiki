@@ -27,6 +27,8 @@ discoverable_by:
   - T型F型
   - 五大学派
   - AI基本功
+  - feature思维
+  - feature和工具的区别
 related:
   - framework-truman-feature-layered-system
   - concept-truman-feature-four-scenarios

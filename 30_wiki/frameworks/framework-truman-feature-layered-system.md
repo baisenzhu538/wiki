@@ -26,6 +26,10 @@ discoverable_by:
   - 分层自洽
   - 周期表
   - AI能力体系
+  - truman的feature分类
+  - feature有哪些
+  - feature怎么分
+  - 周期率表
 related:
   - framework-truman-feature-thinking-core
   - concept-truman-feature-four-scenarios

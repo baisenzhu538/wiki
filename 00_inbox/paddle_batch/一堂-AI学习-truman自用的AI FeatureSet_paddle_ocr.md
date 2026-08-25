@@ -43,3 +43,6 @@ AI高阶角色 ●拆分任务 ●做工作流 ●效率提升
 - 本文件由 PaddleOCR ONNX pipeline 自动提取
 - 可能存在连字/误识，需要人工校对
 - 视觉结构信息（标题/正文/表格分块）未在 OCR 中体现，需要结合原图理解
+
+---
+🪧 指路（#526 入口路标批，2026-08-25 追加，不改原内容）：本文件为 Truman 自用精简版 FeatureSet（30+ 项）OCR 转录。完整 Feature 周期表（100 项，L0-L5 分层）见框架卡 30_wiki/frameworks/framework-truman-feature-layered-system.md；数据源 10_raw/sources/feature-periodic-table-v1.0.json；点菜式查询 kdo-tools/feature_menu.py。
