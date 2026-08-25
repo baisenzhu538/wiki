@@ -2,14 +2,14 @@
 id: dk-token-economy-critical-reading
 title: 批判性拆书五条：事实层 vs 营销层分离（词元经济）
 type: dark-knowledge
-status: draft
+status: reviewed
 confidence: 0.85
 trust_level: high
 domain:
 - strategy
 - ai-saas
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 created_at: '2026-08-26'
 updated_at: '2026-08-26'
 source_person: 方振义（拆书口述者）

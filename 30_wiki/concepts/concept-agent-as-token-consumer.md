@@ -2,14 +2,14 @@
 id: concept-agent-as-token-consumer
 title: 智能体是词元最大消费者：×100 倍消耗与「模型要为智能体而造」
 type: concept
-status: draft
+status: reviewed
 confidence: 0.85
 trust_level: high
 domain:
 - strategy
 - ai-saas
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 created_at: '2026-08-26'
 updated_at: '2026-08-26'
 source_person: 方振义（拆书口述者）

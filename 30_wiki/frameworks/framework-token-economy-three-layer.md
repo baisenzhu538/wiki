@@ -2,14 +2,14 @@
 id: framework-token-economy-three-layer
 title: 词元经济三层格局：生产者/供应商/消费者 + 词元生产公式
 type: framework
-status: draft
+status: reviewed
 confidence: 0.85
 trust_level: high
 domain:
 - strategy
 - ai-saas
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 created_at: '2026-08-26'
 updated_at: '2026-08-26'
 source_person: 方振义（拆书口述者）

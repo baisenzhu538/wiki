@@ -2,14 +2,14 @@
 id: concept-token-per-watt
 title: Token per Watt：词元经济的核心 KPI 与电力定价权
 type: concept
-status: draft
+status: reviewed
 confidence: 0.85
 trust_level: high
 domain:
 - strategy
 - ai-saas
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 created_at: '2026-08-26'
 updated_at: '2026-08-26'
 source_person: 方振义（拆书口述者）

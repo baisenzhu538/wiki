@@ -2,14 +2,14 @@
 id: tool-token-economy-mvp-five-steps
 title: 垂直小模型 MVP 五步法 + 算力四途径 + 模型优化五法 + 五大变现模式
 type: tool
-status: draft
+status: reviewed
 confidence: 0.85
 trust_level: high
 domain:
 - strategy
 - ai-saas
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 created_at: '2026-08-26'
 updated_at: '2026-08-26'
 source_person: 方振义（拆书口述者）
