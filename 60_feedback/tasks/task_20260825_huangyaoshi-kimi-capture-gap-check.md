@@ -1,9 +1,10 @@
 ---
 id: 513
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-24T16:20:00+00:00'
+status: in_progress
+updated_at: '2026-08-25T01:24:47.242525+00:00'
 version: v0.1
+instance: huangyaoshi
 ---
 
 # #513 kimi 采集源断流核查（L1 采集面疑似未覆盖 Kimi Code 会话存储）
