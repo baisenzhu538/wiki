@@ -1,8 +1,8 @@
 ---
 id: 535
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-25T21:41:26.756881+00:00'
+status: pending_review
+updated_at: '2026-08-25T21:58:00.949976+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
@@ -38,3 +38,35 @@ code_files:
 
 - 构造一轮模拟终审流转 → assignee 收件箱有通知行 + myqueue 最近终审栏可见；FAIL 用例置顶；重跑幂等
 - 欧阳锋终审
+
+## 执行报告（F-034 五字段，complete 前必填）
+
+**完成内容**：终审落点通知三件套。①**conveyor_probe 结果触发推送补全**：新 `_review_brief()` 读任务单终审/复审记录节提取 结论+等级+O2 指令+返工项标记——PASS 路由消息从「#ids 裸列表」升级为「#534（PASS A）」逐单简报（#521 通道之上加信息密度）；FAIL 退回消息升级「🔴 返工优先」+ 新 `_prepend_role_todo()` 收件箱**置顶**（标题行后插入，E019 完成未闭环优先），failback_roles 集合驱动写路径分流；幂等/夜间静默沿用既有 state+exempt 机制零改动。②**myqueue 最近终审栏**：`_print_recent_reviews()`——REVIEW-PENDING 段划掉行解析（结论/日期/角色），近 48h 本角色落点展示（✅PASS A / 🔴退回返工），缺段/文件缺失不崩打印（无）；③回归 7 例。
+
+**交付物**：
+- `kdo-tools/conveyor_probe.py`（_review_brief + _prepend_role_todo + FAIL 置顶分流 + PASS 简报）
+- `90_control/scripts/queue_transition.py`（myqueue 最近终审栏）
+- `kdo-tools/tests/test_review_landed_notify.py`（新：5 例）+ `90_control/scripts/tests/test_myqueue.py`（+2 例）
+
+**验证**：
+- L1 单测 7 例全过：PASS 带等级/FAIL 带 O2+返工标记/无文件空串/FAIL 置顶在既有条目之上/收件箱新建/近 48h 栏（PASS 与退回分行、他角色不入栏、超 48h 不入栏、缺段不崩）；基线零退步：kdo-tools **144 passed**（139+5）、90_control **153 passed**（151+2）
+- L2 狗粮：`queue_transition.py myqueue huangyaoshi` 实跑——最近终审栏列出 #515/#530/#532/#533/#534 五条 ✅PASS A 落点（只读视图顺手查实证）✅；通知侧活体=下一单终审流转自动出简报
+- L3 待活体：老顽童时钟下次扫到我的 PASS 简报不再误读「仍在审」（08-26 抓包场景不再复现）
+
+**边界**：终审流程本身零改动 ✅；飞书通道未新写（既有 _notify 复用，统一层随 #525）✅；与 #530 分工不重叠（素材事件 vs 队列结果事件）✅；幂等键格式未变（消息文本变化会产生一次性新键=内容升级的正常重推一次）。
+
+**需要谁动作**：欧阳锋终审本单；老顽童知悉——你的收件箱今后 FAIL 置顶 🔴 返工优先、PASS 带等级简报，myqueue <role> 有最近终审栏可查；王语嫣知悉。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 4 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+🔴 意见书含负向断言（缺失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
