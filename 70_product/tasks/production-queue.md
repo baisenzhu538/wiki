@@ -156,7 +156,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 528 | `task_20260825_huangyaoshi-island-card-scan` | 孤岛卡扫描lint：30_wiki无出链无入链卡定期出清单（豁免agent-spec类，WARNING制不拦流转） | queued | huangyaoshi | 扫描器+清单+挂载 | 无 | `60_feedback/tasks/task_20260825_huangyaoshi-island-card-scan.md` | 老朱追问「知识卡解决不了，还有什么办法」裁定补结构层（盲测P1同族：dk管认知/盲测管兜底/本单管结构）；清单交王语嫣编排挂链批次；与#527分工=被依赖draft vs 无人依赖孤岛；欧阳锋终审 |
 | 529 | `task_20260825_laowantong-oral-spray-dictation-supplement` | 口喷全阶指南口述补充生产：新增3张（示范提示词三样本/喷文档不喷聊天框/训练vs任务最优）+补强3张（段位图/新人四难/多Agent并行） | reviewed | laowantong | 同构映射+3新3补 | 无 | `60_feedback/tasks/task_20260825_laowantong-oral-spray-dictation-supplement.md` | 老朱判定「更多暗知识」诊断属实（~95%与Live260重复，增量=提示词原文+操作层暗知识+独家数据）；⚠️素材=两遍STT拼接，专名以Live260精编版校核、>2802行先去重；P1卡级三方法；欧阳锋批次验收 |
 | 530 | `task_20260826_huangyaoshi-inbox-notify-channel` | inbox新素材通知通道补漏：检测到→推王语嫣收件箱（挂夜间静默+幂等，一行级止血） | queued | huangyaoshi | 通知通道+回归 | 无 | `60_feedback/tasks/task_20260826_huangyaoshi-inbox-notify-channel.md` | 老朱追问「探针为什么没发现」（08-25 23:23词元经济口述）——检测正常（8分钟登记），缺口=watch_inbox只写看板不推收件箱；P0也静默（登记不丢）；飞书通道随#525；欧阳锋终审 |
-| 531 | `task_20260826_laowantong-token-economy-domain-debut` | 词元经济域首开：三层格局框架（P0首卡三方法全套）+Token-per-watt+智能体消费入口+MVP五步工具卡+批判性拆书dk | queued | laowantong | 6卡+同构映射 | 无 | `60_feedback/tasks/task_20260826_laowantong-token-economy-domain-debut.md` | 老朱23:23投递素材；新域首开（全库零命中）；ASR变体7种+数据待核口径随单；保留「书中观点vs口述者批判/补充」分层；domain归属老顽童提建议王语嫣裁（W10）；欧阳锋批次验收 |
+| 531 | `task_20260826_laowantong-token-economy-domain-debut` | 词元经济域首开：三层格局框架（P0首卡三方法全套）+Token-per-watt+智能体消费入口+MVP五步工具卡+批判性拆书dk | claimed-kimi-cli | laowantong | 6卡+同构映射 | 无 | `60_feedback/tasks/task_20260826_laowantong-token-economy-domain-debut.md` | 老朱23:23投递素材；新域首开（全库零命中）；ASR变体7种+数据待核口径随单；保留「书中观点vs口述者批判/补充」分层；domain归属老顽童提建议王语嫣裁（W10）；欧阳锋批次验收 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
 ## ⚖️ 待终审（提审任务，queue_transition 自动登记）
@@ -416,6 +416,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - diag_20260825_ouyangfeng-l1-capture-console-killer.md｜08-25 11:57｜待王语嫣复核裁定
 - diag_20260825_fengqingyang-automation-cost-audit.md｜08-25 21:44｜待王语嫣复核裁定
 - [gate-blocked] task_20260825_laowantong-oral-spray-dictation-supplement｜08-25 23:37｜待王语嫣复核处置｜2026-08-25 23:32:32｜task_20260825_laowantong-oral-spray-dictation-supplement｜F-034-五字段｜执行报告缺 1 个字段（#429 F-034）：完成内容一句话。请补全后重试，或 --force --reason '<理由>' 声明例外（#444 台账留痕）。｜kimi-cli
+- [gate-blocked] task_20260825_huangyaoshi-machine-pre-review-pipeline｜08-26 00:27｜待王语嫣复核处置｜2026-08-26 00:25:41｜task_20260825_huangyaoshi-machine-pre-review-pipeline｜F-035-负向判词｜意见书含负向断言（不存在/「无历史」）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |

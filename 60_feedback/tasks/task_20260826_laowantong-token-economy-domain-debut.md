@@ -1,16 +1,16 @@
 ---
 id: 531
 assignee: laowantong
-status: queued
-updated_at: '2026-08-24T22:50:00+00:00'
+status: in_progress
+updated_at: '2026-08-25T16:37:38.037202+00:00'
 version: v0.1
-instance: laowantong
+instance: kimi-cli
 code_files:
-  - 30_wiki/frameworks/framework-token-economy-three-layer.md
-  - 30_wiki/concepts/concept-token-per-watt.md
-  - 30_wiki/concepts/concept-agent-as-token-consumer.md
-  - 30_wiki/tools/tool-token-economy-mvp-five-steps.md
-  - 30_wiki/dark-knowledges/dk-token-economy-critical-reading.md
+- 30_wiki/frameworks/framework-token-economy-three-layer.md
+- 30_wiki/concepts/concept-token-per-watt.md
+- 30_wiki/concepts/concept-agent-as-token-consumer.md
+- 30_wiki/tools/tool-token-economy-mvp-five-steps.md
+- 30_wiki/dark-knowledges/dk-token-economy-critical-reading.md
 ---
 
 # #531 词元经济域首开（拆书-方振义口述：2框架+2概念+1工具+1dk）
