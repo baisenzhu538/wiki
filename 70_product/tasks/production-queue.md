@@ -159,7 +159,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 531 | `task_20260826_laowantong-token-economy-domain-debut` | 词元经济域首开：三层格局框架（P0首卡三方法全套）+Token-per-watt+智能体消费入口+MVP五步工具卡+批判性拆书dk | reviewed | laowantong | 6卡+同构映射 | 无 | `60_feedback/tasks/task_20260826_laowantong-token-economy-domain-debut.md` | 老朱23:23投递素材；新域首开（全库零命中）；ASR变体7种+数据待核口径随单；保留「书中观点vs口述者批判/补充」分层；domain归属老顽童提建议王语嫣裁（W10）；欧阳锋批次验收 |
 | 532 | `task_20260826_huangyaoshi-kdo-seed-package` | kdo-seed种子包：机制层搬迁三件套（种子目录+bootstrap手册+seed-check自检）+路径参数化（KDO_ROOT） | reviewed | huangyaoshi | 种子目录+手册+自检+回归 | 无 | `60_feedback/tasks/task_20260826_huangyaoshi-kdo-seed-package.md` | 老朱08-26拍板：第二台机器起同构工厂（软硬件技术资料库）；三层切分=机制层原样搬/机器绑定层重建/实例内容层不搬；风险=23处硬编码路径（#519式静默失效教训）；schtasks注册命令只写进手册不本机执行；技术域适配走#533；欧阳锋终审 |
 | 533 | `task_20260826_huangyaoshi-tech-domain-adaptation-pack` | 技术域适配包：spec/module/fault-case三schema+分层域骨架模板+存量盘点脚本（可审/返工/废弃三堆） | reviewed | huangyaoshi | 3schema+模板+盘点脚本 | #532 配套 | `60_feedback/tasks/task_20260826_huangyaoshi-tech-domain-adaptation-pack.md` | 核心原则=卡管认知不管工件（工件留原仓，卡装意图/接口/版本/踩坑/故障案例，artifact_path引用）；域骨架按系统分层（硬件→固件→协议→平台→端侧），层间接口=最该建的卡间链接；接管五步手册王语嫣主笔随单附口径；对方已有agent质量不佳→先门禁后放量；欧阳锋终审 |
-| 534 | `task_20260826_huangyaoshi-seed-dogfood-d-drive` | 种子包本机狗粮实装验证：D:\tech-wiki空库五步全链路（建库/路径/第二套探针/五角色归位/微型闭环#001） | pending_review | huangyaoshi | 实装+验证报告 | #532/#533 交付后触发 | `60_feedback/tasks/task_20260826_huangyaoshi-seed-dogfood-d-drive.md` | 老朱08-26拍板：硬盘不足→空文件夹先跑狗粮，真实资料后进场；D盘35G且验证非桌面路径KDO_ROOT；探针任务名加-tech后缀+MCP端口错开；新库编号独立水位#001起；走样点逐条回flow王语嫣；主库任何东西不许动；欧阳锋终审 |
+| 534 | `task_20260826_huangyaoshi-seed-dogfood-d-drive` | 种子包本机狗粮实装验证：D:\tech-wiki空库五步全链路（建库/路径/第二套探针/五角色归位/微型闭环#001） | reviewed | huangyaoshi | 实装+验证报告 | #532/#533 交付后触发 | `60_feedback/tasks/task_20260826_huangyaoshi-seed-dogfood-d-drive.md` | 老朱08-26拍板：硬盘不足→空文件夹先跑狗粮，真实资料后进场；D盘35G且验证非桌面路径KDO_ROOT；探针任务名加-tech后缀+MCP端口错开；新库编号独立水位#001起；走样点逐条回flow王语嫣；主库任何东西不许动；欧阳锋终审 |
 | 535 | `task_20260826_huangyaoshi-review-landed-notify` | 终审落点通知：conveyor_probe补pending_review→reviewed事件推送+myqueue最近终审栏+FAIL置顶 | queued | huangyaoshi | 事件通知+视图栏+回归 | 无 | `60_feedback/tasks/task_20260826_huangyaoshi-review-landed-notify.md` | 老顽童建议书采纳（老朱08-26抓包实证：#531 PASS后老顽童15分钟时钟未察觉）；动作触发有通知/结果触发无通知的不对称补全；与#530分工=素材事件vs队列结果事件；飞书随#525；⚠️补记（王语嫣08-26复核）：方向1部分证伪——终审PASS通知已存在（老顽童收件箱00:57#531条目实证），黄药师先核既有覆盖只补差集，方向2/3保留；⚠️补记2（王语嫣08-26代码全核）：方向1/3全证伪——FAIL退回通知#462就有（new_failback按assignee路由），实际仅剩myqueue最近终审栏，降格小增强；详见90_control/notification-coverage-matrix.md；欧阳锋终审 |
 | 536 | `task_20260826_huangyaoshi-near-miss-escalation` | near-miss超期升级推送：三元组违例≥3轮未修正→推王语嫣收件箱（幂等+修正消项） | queued | huangyaoshi | 升级推送+回归 | 无 | `60_feedback/tasks/task_20260826_huangyaoshi-near-miss-escalation.md` | 通知覆盖矩阵G1销项单（实证：老顽童两份建议书near-miss十几轮无人捞，老朱追问才处理）；只补推送不改#506检测口径；矩阵登记纪律首个执行单（交付须同步销项G1）；欧阳锋终审 |
 | 537 | `task_20260826_huangyaoshi-matrix-sync-gate` | 总账登记机器核查：conveyor_probe第七信号——基础设施单reviewed时矩阵未同步→双推欧阳锋拦截+抄送王语嫣 | queued | huangyaoshi | 信号+豁免台账+回归 | 无 | `60_feedback/tasks/task_20260826_huangyaoshi-matrix-sync-gate.md` | 老朱追问「是不是有基础设施来保障」——§3.19纯文档纪律无人脑兜底，补机器信号（#460/#506同哲学）；只核存在性不判正确性（#433同哲学）；matrix_exempt豁免落#444台账；WARNING只向前；本单自身=首个被核查对象（元狗粮）；欧阳锋终审 |
@@ -285,7 +285,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#530 task_20260826_huangyaoshi-inbox-notify-channel｜huangyaoshi｜提审 08-26 01:40｜60_feedback/tasks/task_20260826_huangyaoshi-inbox-notify-channel.md~~ → 已终审 PASS A（2026-08-25 欧阳锋）
 - ~~#532 task_20260826_huangyaoshi-kdo-seed-package｜huangyaoshi｜提审 08-26 02:35｜60_feedback/tasks/task_20260826_huangyaoshi-kdo-seed-package.md~~ → 已终审 PASS A（2026-08-25 欧阳锋）
 - ~~#533 task_20260826_huangyaoshi-tech-domain-adaptation-pack｜huangyaoshi｜提审 08-26 02:57｜60_feedback/tasks/task_20260826_huangyaoshi-tech-domain-adaptation-pack.md~~ → 已终审 PASS A（2026-08-25 欧阳锋）
-- #534 task_20260826_huangyaoshi-seed-dogfood-d-drive｜huangyaoshi｜提审 08-26 04:05｜60_feedback/tasks/task_20260826_huangyaoshi-seed-dogfood-d-drive.md
+- ~~#534 task_20260826_huangyaoshi-seed-dogfood-d-drive｜huangyaoshi｜提审 08-26 04:05｜60_feedback/tasks/task_20260826_huangyaoshi-seed-dogfood-d-drive.md~~ → 已终审 PASS A（2026-08-25 欧阳锋）
 
 <!-- REVIEW-PENDING-END -->
 
@@ -432,6 +432,8 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - [gate-blocked] task_20260826_laowantong-token-economy-domain-debut｜08-26 00:57｜待王语嫣复核处置｜2026-08-26 00:54:30｜task_20260826_laowantong-token-economy-domain-debut｜F-036-问题落点｜审查发现问题未给落点（F-036）：- **预审报告观察**：本单四字段齐全+预审报告正常附着——#515 的 attach 吞内容 bug 未在本单复现（——必须在意见书注明去向（建议书路径 / 停｜欧阳锋
 - diag_20260826_fengqingyang-capsule-infra-self-audit.md｜08-26 01:03｜待王语嫣复核裁定
 - [gate-blocked] diag_20260826_laowantong-review-landed-notification-gap.md｜08-26 01:27｜待王语嫣复核处置｜2026-08-26 01:27:00｜diag_20260826_laowantong-review-landed-notification-gap.md｜near-miss-三元组（#506）｜status=pending 疑似待编排但非 pending_orchestration｜conveyor_probe
+- [gate-blocked] task_20260826_huangyaoshi-seed-dogfood-d-drive｜08-26 04:07｜待王语嫣复核处置｜2026-08-26 04:02:13｜task_20260826_huangyaoshi-seed-dogfood-d-drive｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
+- [gate-blocked] huangyaoshi｜08-26 04:07｜待王语嫣复核处置｜｜huangyaoshi
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |

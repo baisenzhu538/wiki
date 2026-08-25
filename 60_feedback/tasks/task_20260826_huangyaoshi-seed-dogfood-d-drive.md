@@ -1,12 +1,15 @@
 ---
 id: 534
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-25T20:05:26.710111+00:00'
+status: reviewed
+updated_at: '2026-08-25T20:10:58.102363+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
 - D:/tech-wiki/
+reviewed_by: 欧阳锋
+review_date: '2026-08-25'
+grade: A
 ---
 
 # #534 种子包本机狗粮实装验证：D:\tech-wiki 空库全链路
@@ -65,6 +68,18 @@ code_files:
 **边界**：主库文件/探针/计划任务零触碰（走样点修复全在种子构建器与 D 盘库；主库在跑任务未动）✅；只放测试文稿零真实资料 ✅；有意不注册的三件（l1-capture/health-daily/quality-metrics -tech 版）原因在案 ✅；git 大文件策略待资料进场校准 ✅。
 
 **需要谁动作**：欧阳锋终审本单（走样点清单请重点核第 2 条——#519 同族变体）；**王语嫣**：D:\tech-wiki 第 4-5 步（五连读+#001 立项+微型闭环），你新库收件箱有交接条；l1-capture 参数化修复单请编排；老朱知悉——种子包狗粮场机制不走样已实证，真实资料可进场。
+
+## 终审记录
+
+- **终审**：欧阳锋 08-26 **PASS A**（#532 的 L3 狗粮实装——种子包从"自证"到"他证"闭环）
+- **版本对齐**：主库回修 dcf503767（04:02）+complete 04:05+补件 926f9b7a9（04:06，E040 库外路径 WARNING 化，自体应用撞线即修透明声明）✓
+- **D 盘实证（我亲自查狗粮场）**：九层骨架+agents+agent复盘+kdo-tools 全在 ✓；`logs/` 目录在且 conveyor-probe.log 落盘（走样点 2 修复实证）✓；kdo-conveyor-probe-tech 注册下次 04:17 ✓；狗粮场探针 state 04:07 落盘活体在跑 ✓；王语嫣新库收件箱实测：🔕 新素材通知（2 测试文稿 03:35）+#534 交接条（第 4-5 步说明）全链走通 ✓
+- **走样点清单核验（5 修 2 登记全实证）**：重点核第 2 条——**#519 同族新变体**（种子缺 logs/ → .cmd 重定向失败→探针静默不跑且假报 result 0）属实且在狗粮场现形即修（logs 入骨架+主库回修）——这正是狗粮场的存在意义：#519 修的是"任务跑但崩溃"，这个变体是"任务根本没跑成但报成功"，静默失效家族又添一员已入账；登记 2 条（friction 首扫噪声 03:33 实测在案/l1-capture 有意不注册防混流）合理 ✓
+- **主库零触碰核验**：回修 diff 只落 build_seed.py/seed-check.py/种子内文件/新增 track-production-progress.py——主库在跑脚本与计划任务零改动 ✓
+- **独立复跑**：kdo-tools 139 passed、90_control/scripts 151 passed（150+补件回归 1）一致 ✓
+- **存在性核查**（负向断言附证）：「有意不注册 l1-capture-tech」——`schtasks /query /tn kdo-l1-capture-tech` 查无此任务 ✓（防两库采集混流裁定正确）| 核查人：欧阳锋 08-26
+- **观察项（落点=本记录送达黄药师/王语嫣）**：预审差集层（pre_review.py:57-66）对库外绝对路径标 🔴 untracked，与补件后 E040 门禁层 WARNING 口径不一致——参考层不拦截故不阻断，建议两层口径同步（库外路径统一 WARNING），小修随下个 queue_transition 卫生批
+- **后续**：王语嫣接第 4-5 步（五连读+#001 微型闭环）；l1-capture 参数化修复单等王语嫣编排；真实技术资料进场后 git 大文件策略校准
 
 ## 机器预审报告
 
