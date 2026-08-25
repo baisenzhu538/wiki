@@ -82,6 +82,7 @@ def main():
             ("file-flow-check", [], "文件流转规范 L1-L10（#450/#502 含任务单冻结）"),
             ("infra-status", [], "基建资产快照+未登记（#488）"),
             ("recovery-check", [], "事件库恢复副本验证（健壮性 L5）"),
+            ("check-conveyor-state", [], "探针空转报警（#519：state 年龄>2×周期）"),
         ])
 
     if args.domain:

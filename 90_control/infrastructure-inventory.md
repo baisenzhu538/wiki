@@ -64,7 +64,8 @@ audience: 全体 agent
 
 | 资产 | 位置 | 职责 | 最近验证 | 关联 |
 |:--|:--|:--|:--|:--|
-| conveyor_probe | kdo-tools/conveyor_probe.py | 传送带探针（六信号检出→登记→飞书通知，单扫描器纪律） | 08-23 六信号全通 | 计划任务 kdo-conveyor-probe/gate-blocked.log |
+| conveyor_probe | kdo-tools/conveyor_probe.py | 传送带探针（六信号检出→登记→飞书通知，单扫描器纪律） | 08-25 #519 修复后计划触发实跑 PASS | 计划任务 kdo-conveyor-probe/gate-blocked.log |
+| check-conveyor-state | 90_control/scripts/check-conveyor-state.py | 探针空转报警（#519：state 年龄>2×周期→exit 1，health-check 带动） | 08-25 5 例 passed | health-check/.kdo/conveyor_state.json |
 | memory_capsule | kdo-tools/memory_capsule.py | 记忆胶囊（L1 主库/镜像/verify/事件写入+log_event_safe 四类事件统一入口 #511） | 08-25 6 例 passed | L1 库+D 盘镜像 |
 | l1_capture | kdo-tools/l1_capture.py | L1 全量采集（日期增量目录+判重游标+每日 zip 归档复活 #508） | 08-25 8 例 passed | 计划任务 kdo-l1-capture/kdo-l1-archive |
 | daily-context-save | kdo-tools/daily-context-save.py | 复盘保存（存档+review-check+L0 事件+镜像联动；#512 重打改覆盖写+事件去重） | 08-25 4 例 passed | review-check/memory_capsule |
@@ -143,7 +144,7 @@ audience: 全体 agent
 
 | 任务 | 频率 | 职责 | 关联 |
 |:--|:--|:--|:--|
-| kdo-conveyor-probe | 每 10 分钟 | 探针扫描（队列/建议书/friction/gate-blocked→通知） | conveyor_probe |
+| kdo-conveyor-probe | 每 10 分钟 | 探针扫描（队列/建议书/friction/gate-blocked→通知） | conveyor_probe（#519：TR 改 kdo-conveyor-probe.cmd 包装——嵌套引号 TR 被 cmd 剥壳静默失败 15h 根治） |
 | kdo-l1-capture | 每 30 分钟（:07/:37 错峰） | L1 全量采集+镜像+verify+体积红线 | l1_capture |
 | kdo-inbox-watch | 每 10 分钟 | inbox 素材监工 | watch_inbox |
 | kdo-health-daily | 每日 02:07 | 健康检查（9 项+标签健康） | health-check |
