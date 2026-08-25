@@ -847,6 +847,15 @@ def action_complete(task_id: str, instance: str, evidence: str | None, force: bo
         return False, dlv_msg
     dlv_note = f"\n📦 交付物校验: {dlv_warn}" if dlv_warn else ""
 
+    # #515：机器预审报告随提审附任务单（参考层——不放行不拦截；失败不阻断流转，
+    # 预审失败本身写入报告让终审可见）。报告进任务单→随 complete 自动 commit 进冻结版
+    try:
+        import pre_review
+        pre_review.attach_pre_review(task_file, pre_review.run_pre_review(task_file))
+    except Exception as e:  # 预审层故障不阻断生产流转（参考层纪律），stderr 留痕
+        import sys as _sys
+        print(f"⚠️ 机器预审层故障（不阻断提转）: {e}", file=_sys.stderr)
+
     with QueueLock("production-queue"):
         rows = parse_queue()
         task = find_task(task_id, rows)
