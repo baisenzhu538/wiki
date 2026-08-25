@@ -1,8 +1,8 @@
 ---
 id: 514
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-25T13:37:14.094567+00:00'
+status: pending_review
+updated_at: '2026-08-25T13:41:16.853303+00:00'
 version: v0.1
 instance: huangyaoshi
 ---
@@ -99,3 +99,23 @@ instance: huangyaoshi
 - **风清扬**：指标口径定义（先行一节）
 - **黄药师**：统计脚本 + 定时挂载
 - **欧阳锋**：终审本单
+
+## 执行报告（F-034 五字段，complete 前必填）
+
+**完成内容**：质量指标基线统计管线（口径=`90_control/quality-metrics-spec-v1.md` 王语嫣裁决稿——21:18 落盘，明确「黄药师按此施工，不等风清扬」，前置闭环）。①统计脚本 `quality_metrics.py`：三数据源只读解析——队列历史划掉行（提审 MM-DD 无年份从终审日推/跨年回退，旧格式行不误配）、gate-blocked.log（拦截分类 F-034/F-035/E040/pre-submit/其他）、force-exceptions.log；四指标按 spec v1 逐条：FAIL 率动作级（退回÷终审动作）/打回率单级（被打回单÷提审单去重）/拦截率（拦截÷流转动作，代理分母=提审+终审，claim 无机器留痕如实标注代理）/误判率代理（force÷拦截）；样本不足显式标「样本不足」不编数。②产出：Markdown 周报落 `60_feedback/auto/quality-metrics/<起>_<止>.md`；③定时：schtasks `kdo-quality-metrics` 每周一 06:35（.cmd 包装——#519 嵌套引号教训同款先例，失败→pending-git-commits.log #434 口径）。
+
+**交付物**：
+- `kdo-tools/quality_metrics.py`（解析+计算+渲染+CLI）
+- `kdo-tools/tests/test_quality_metrics.py`（新：7 例回归）
+- `kdo-tools/kdo-quality-metrics.cmd`（计划任务包装）+ schtasks kdo-quality-metrics（每周一 06:35）
+- `60_feedback/auto/quality-metrics/2026-08-17_2026-08-23.md`（首份上周报实跑落盘）
+- `90_control/infrastructure-inventory.md`（工具+计划任务两行登记）
+
+**验证**：
+- L1 单测 7 例全过：队列行解析（含旧格式不误配/年份推断）/拦截分类归并/force 解析/**动作级 vs 单级差异用例**（spec 原文案例：一单三轮 FAIL→FAIL 率计 2 退回动作、打回率计 1 单）/拦截率+force 代理数学/空窗口零崩溃样本不足/周界周一~周日；全量基线 **127 passed**（120+7，零退步）
+- L2 狗粮（回溯 08-23~08-25 三天与实录对账）：FAIL 率 9.9%（退回 8÷动作 81）/打回率 13.5%（7÷52）/拦截率 36.8%（50÷136）/force 代理 2.0%（**1÷50——唯一 force 例外=我 #512 凌晨 02:36 那次 claim 绕过，与实录逐条吻合**）；拦截分类 F-034 30/F-035 4/其他 16，E040=0 与「#522 门禁今天下午才上线」事实一致 ✅；首份周报实跑落盘成功 ✅
+- L3 待活体：下周一 06:35 首次定时出报；2 周后基线报告 v1 作阶段 1 升降档对照
+
+**边界**：只读统计零流程改动 ✅；拦截≠终审 FAIL 两事件流分开（spec v1 修正原任务书数据源混淆已遵循）✅；真误判标注方案未做（spec 明确基线期用代理、方案入基线报告 v1——2 周后到期时补）✅；claim 动作无机器留痕=分母代理已在报告口径注记声明 ✅。
+
+**需要谁动作**：欧阳锋终审本单；王语嫣知悉——口径 v1 已落成机器，每周一 06:35 自动出上周报（首份 08-17~08-23 已在 60_feedback/auto/quality-metrics/）；风清扬知悉——口径若出建议稿走 §3.18 王语嫣裁决后修订 spec 文件（changelog 节）。
