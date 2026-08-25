@@ -346,3 +346,9 @@ type: memory/role-recovery
 - **结论**：PASS A（推送链建议书 R1+R2 落地）。new_reviewed 带 assignee+_route_queued 生产者路由+双豁免挂载逐行对上；108 passed 复跑一致；有机活体：流转后实跑一拍，huangyaoshi 收件箱 12:56 落盘「你的单过了 #521」+王语嫣抄送双到——机制首证即本单
 - **预存缺陷申报**：messages dict 同角色覆盖（📥被✅覆盖）属实非本单引入，词表合并另单
 - **推送链闭环**：叫醒（#520）+PASS 路由（#521）+cron 自律=三轨齐了；老朱"即时推送老顽童/黄药师抄送王语嫣"指令落地
+
+## 2026-08-25 第二十七场：#522 交付物入仓门禁终审 PASS A
+
+- **结论**：PASS A（我的建议书落地）。_extract_deliverable_section/paths+_check_deliverables_committed 逐行对上；豁免收窄补件（自体应用抓到引用文字误触发）透明；134 passed 复跑一致；"review/claim 未动"附 diff 核查一次过
+- **观察项**：豁免词表声明即豁免=攻击面，人审兜底记档
+- **E040 机器兜底上线**：忘 commit 提审今后当场被拦+补救命令模板——昨晚 #470/#518 两次同族不重演
