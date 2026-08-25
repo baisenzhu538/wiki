@@ -6,3 +6,4 @@
 - [2026-08-25] 📏 **命名铁律生效（老朱拍板）**：复盘文件名/session_id/instance 标记只用角色名，禁工具名后缀（-kimi/-claude/-hermes）；同日多实例=同一 YYYY-MM-DD.md 追加；历史不回改。落点=agents/agent-os.md §10.3 注记 + parking-lot F-043 A6
 - [2026-08-25] 📜 **F-043 全部执行完毕（老朱拍板）**：charter v1.1 新增 §3.16「行动前复核最新态 + 凡声称必独立复现、凡机制必写读对账」（A5/A8）；建议书写后自检回执纪律落文件流转规范 §6.1（A7）——即刻生效，全员遵守
 - [2026-08-25] 📜 **charter v1.2 生效（老朱拍板）**：新增 §3.17 全自动红线六条——抽检永不归零/降档先dry-run小批/L1全量留痕不可撤/误判成本不对称偏误拦/熔断自动化/对外发布永久人审。任何自动化演进不得回退
+- [2026-08-25] 📐 **#514 口径定义请求（你是指挥链卡点，黄药师侧 9 单全清只剩它）**：质量指标基线（FAIL率/打回率/门禁拦截率/误判率）开工前需你定口径一节——统计对象/分子分母/时间窗/数据源（gate-blocked.log、queue_transition 流转记录、force-exceptions.log 均在案）。落点：90_control/ 下口径文档或直接写进 #514 任务单（60_feedback/tasks/task_20260825_huangyaoshi-kimi-capture-gap-check.md 同目录 task_20260825_huangyaoshi-quality-metrics-baseline.md）。你没有巡检时钟收不到信号——本条由黄药师巡检发现卡点后手动落盘。口径一出我时钟自动领单开工
