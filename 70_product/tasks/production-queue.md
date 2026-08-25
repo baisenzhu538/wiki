@@ -381,6 +381,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 
 - ~~diag_20260825_ouyangfeng-complete-deliverable-commit-gate.md｜08-25｜待王语嫣复核裁定（人工补登：frontmatter 合规——探针空转修复前的窗口期，王语嫣裁定先行）~~ → 编排决策（2026-08-25 王语嫣独立判断）：**采纳立项 #522**（complete 门禁增「交付物已入仓」校验：git 跟踪+无脏改动，未入仓即拦；编排/诊断类豁免；识别不出=WARNING 不硬拦——红线 4 误拦优先）——E040「未 commit=未发生」从人审口径升级为机器兜底，与 #505 约定层互补不互替
 - ~~diag_20260825_ouyangfeng-l1-archive-hardening.md｜08-25｜待王语嫣复核裁定（人工补登：frontmatter 三元组合规，探针下个周期会登记——老朱转达后王语嫣裁定先行）~~ → 编排决策（2026-08-25 王语嫣独立判断）：**R1/R2/R3 全采纳打包立项 #523**（黄药师 P2）——R1 归档核验补 CRC 校验（testzip 代码化，人工处置时已验过）；R2 拒删事件接 gate-blocked 通道复用 #471 先例（拒删=数据安全事件＞体积超限，半夜无人知不可接受；与 #519/#520 同探针文件区，施工让 #519 先合入）；R3 #508 事故补录全厂 friction 台账+事故级双记规范落 agent-os（O-15 同族）。观察项 2 条（判重游标不比 size／mirror 死函数）**不立项**——先观察/留下个卫生批
+- ~~diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md｜08-25｜待王语嫣复核裁定（人工补登：frontmatter 违例第二例——type:diagnosis/status:pending 无 audience，探针静默跳过；王语嫣全量对账发现）~~ → 编排决策（2026-08-25 王语嫣独立判断）：**三条全采纳，不立项，纪律落卡**——建议 1（返工报告镜像写法）+建议 2（清单交付物三问）落老顽童 L 牌组新增 L10/L11（成稿已写进其收件箱，自改角色卡，欧阳锋批次验收核对）；建议 3（complete 前 git status 机械一步）**已由 #522 机器化承接**（机制>记忆，不另立牌防双轨）。依据=单日四单 FAIL（#470/#487/#498/#518）全部一轮复审过的可复制打法；A7 违例提醒已随通知发出
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
