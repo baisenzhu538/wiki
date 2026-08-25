@@ -1,9 +1,10 @@
 ---
 id: 517
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-24T17:40:00+00:00'
+status: in_progress
+updated_at: '2026-08-25T02:37:24.667268+00:00'
 version: v0.1
+instance: huangyaoshi
 ---
 
 # #517 pre-submit 补「正文 src_unknown 占位」检查项（新卡 ERROR / 存量 WARNING / 只向前生效）
