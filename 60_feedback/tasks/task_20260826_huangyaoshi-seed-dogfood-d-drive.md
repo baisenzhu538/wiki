@@ -60,6 +60,7 @@ code_files:
 - L1：种子重建回归全绿（kdo-tools 139 passed 含 test_seed_package 5 例）；主库 90_control 150 passed 零退步
 - L2 狗粮实测链：seed-check 全过→探针计划触发 03:52 state 落盘+log 留痕（修 logs 后）→watch_inbox 检测 2 文稿→看板待编排段 +2→王语嫣收件箱 🔕 行→health-check --quick PASS（修清单后）→quality_metrics 空库出「样本不足」不编数 ✅
 - L3 待活体：那边王语嫣启动五连读+微型闭环 #001（交接已落她新库收件箱）；老朱进场真实技术资料
+- **提审后补件声明**（透明先例）：complete 首跑被 E040 门禁拦——交付物含库外绝对路径（D:/tech-wiki 他库文件）git 无法核验被当 untracked 硬拦；修复=库外路径 WARNING 不拦（红线 4）+回归 1 例，commit 926f9b7a9 晚于提审 1 分钟（自体应用撞线即修）
 
 **边界**：主库文件/探针/计划任务零触碰（走样点修复全在种子构建器与 D 盘库；主库在跑任务未动）✅；只放测试文稿零真实资料 ✅；有意不注册的三件（l1-capture/health-daily/quality-metrics -tech 版）原因在案 ✅；git 大文件策略待资料进场校准 ✅。
 
