@@ -83,6 +83,7 @@ def main():
             ("infra-status", [], "基建资产快照+未登记（#488）"),
             ("recovery-check", [], "事件库恢复副本验证（健壮性 L5）"),
             ("check-conveyor-state", [], "探针空转报警（#519：state 年龄>2×周期）"),
+            ("check-review-sla", [], "审查 SLA 观测（#520 R3：pending_review 最大年龄>2h）"),
         ])
 
     if args.domain:

@@ -246,6 +246,20 @@ def first_submit_rate_html(months: dict[str, dict]) -> str:
 </div>"""
 
 
+def _mark_blocking_chains(tasks: list[dict]) -> None:
+    """#520 R2 阻塞链标记：pending_review 行后方（seq 更大）有同角色 queued 单
+    → 该审查单阻塞整条链，打 🔴阻塞链 标记——审查者进队列先审阻塞单
+    （#505 实证：挂着 6 个依赖单的关键单在 REVIEW-PENDING 段内同权看不出）。"""
+    for t in tasks:
+        t["blocking"] = (
+            t["status"] == "pending_review"
+            and any(
+                o["status"] == "queued" and o["assignee"] == t["assignee"] and o["seq"] > t["seq"]
+                for o in tasks
+            )
+        )
+
+
 def _task_card_html(task: dict, show_group: str) -> str:
     p = task["priority"].lower()
     status_groups = {
@@ -257,10 +271,11 @@ def _task_card_html(task: dict, show_group: str) -> str:
     if task.get("grade"):
         cond_mark = "⚠" if task.get("conditional") else ""
         grade_badge = f'<span class="task-grade g-{task["grade"].replace("+", "p")}">{task["grade"]}{cond_mark}</span>'
+    blocking_badge = '<span class="task-grade g-BLOCK">🔴阻塞链</span>' if task.get("blocking") else ""
     return f"""<div class="task-card">
 <div class="task-prio {p}">{task['priority']}</div>
 <div class="task-info">
-<div class="task-id">#{task['seq']}{grade_badge}</div>
+<div class="task-id">#{task['seq']}{grade_badge}{blocking_badge}</div>
 <div class="task-title">{task['name']}</div>
 <div class="task-detail">{task['notes'] or task['cards'] + ' 张卡' if task['cards'] and task['cards'] != '0' else ''}</div>
 </div>
@@ -382,6 +397,7 @@ h1{{font-size:20px;font-weight:700;margin-bottom:4px;letter-spacing:-0.3px}}
 .task-grade.g-Bp{{background:rgba(240,173,78,.3);color:#d99a2b}}
 .task-grade.g-B{{background:rgba(240,173,78,.2);color:#c98a1e}}
 .task-grade.g-C{{background:rgba(217,83,79,.25);color:var(--blocked)}}
+.task-grade.g-BLOCK{{background:rgba(217,83,79,.35);color:#d9534f}}
 .task-title{{font-size:14px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}}
 .task-detail{{font-size:12px;color:var(--muted);margin-top:4px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}}
 .task-meta{{display:flex;gap:12px;align-items:center;flex-shrink:0}}
@@ -433,6 +449,7 @@ def main(input_path=None, output_path=None):
         print(f"❌ 找不到 {input_path}", file=sys.stderr)
         sys.exit(1)
     tasks = parse_queue(input_path)
+    _mark_blocking_chains(tasks)  # #520 R2：阻塞链标记（pending_review 后方有同角色 queued）
     generate_html(tasks, output_path)
 
 

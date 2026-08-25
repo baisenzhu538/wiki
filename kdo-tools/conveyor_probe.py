@@ -606,6 +606,17 @@ def _send_hook(url: str, text: str, key: str | None = None) -> bool:
         return False
 
 
+def _split_silent_exempt(to_send: dict[str, str], exempt_roles: set[str]) -> tuple[dict[str, str], dict[str, str]]:
+    """#520 R1 夜间静默分级：终审类信号（exempt_roles）豁免静默照常推，其余进待补发。
+
+    老朱 08-25 拍板豁免范围（与 #521 同口径）：终审完成类信号（提审叫醒/PASS 路由）
+    豁免 22-08 静默；可领取/建议书等维持静默。返回 (待补发, 豁免发)。
+    """
+    defer = {r: t for r, t in to_send.items() if r not in exempt_roles}
+    exempt = {r: t for r, t in to_send.items() if r in exempt_roles}
+    return defer, exempt
+
+
 def _notify(messages: dict[str, str], dry_run: bool, silent: bool) -> list[str]:
     """发送通知，返回**真正发送成功**的 role 列表（#421 终审 P1 修复）。
 
@@ -665,9 +676,14 @@ def main() -> int:
     issue_no_disp = _scan_issue_no_disposition(state, queue_sig["new_reviewed"])
 
     messages: dict[str, str] = {}
+    # #520 R1：终审类信号豁免夜间静默（老朱 08-25 拍板，与 #521 同口径）——
+    # 提审叫醒（→审查者）/终审完成（→生产者路由 #521）照常推，可领取/建议书等维持静默。
+    # 跟随最终文本类别：非豁免类别覆盖同角色消息时摘除豁免标记。
+    exempt_roles: set[str] = set()
     if queue_sig["new_review"]:
         ids = ", ".join(f"#{seq}" if seq else tid for tid, seq in queue_sig["new_review"])
         messages["ouyangfeng"] = f"🔔 KDO 新提审 {len(queue_sig['new_review'])} 单：{ids}，请终审"
+        exempt_roles.add("ouyangfeng")  # #520 R1：提审叫醒=终审类信号，豁免静默
     if queue_sig["new_queued"]:
         # #443：按 assignee 路由分桶（修硬编码 laowantong——#442 实证通知错人）
         for role, items in _route_queued(queue_sig["new_queued"]).items():
@@ -696,6 +712,7 @@ def main() -> int:
         todo = (f"{len(issue_no_disp)} 单终审意见含 🟠/🟡 但未给落点"
                 f"（建议书/停车场/立项）：{', '.join(issue_no_disp[:3])}——请补落点")
         messages["ouyangfeng"] = f"✍️ F-036 提醒：{todo}"
+        exempt_roles.discard("ouyangfeng")  # F-036 非终审类信号：覆盖叫醒文本时摘除豁免
     if queue_sig["new_failback"]:
         # #462：终审退回 → 按 assignee 路由通知（#443 同款；生产者返工不再靠自觉）
         for tid, seq, assignee in queue_sig["new_failback"]:
@@ -723,8 +740,18 @@ def main() -> int:
     pending = state.get("pending_notify", {})
     to_send = {**pending, **deduped}
     if silent:
-        state["pending_notify"] = to_send
-        print(f"🔕 夜间静默：{len(to_send)} 条变更进待补发（天亮自动补发）")
+        # #520 R1：终审类信号（提审叫醒等，exempt_roles）豁免静默照常推；其余进待补发
+        to_defer, to_exempt = _split_silent_exempt(to_send, exempt_roles)
+        state["pending_notify"] = to_defer
+        if to_defer:
+            print(f"🔕 夜间静默：{len(to_defer)} 条变更进待补发（天亮自动补发）")
+        if to_exempt:
+            sent = _notify(to_exempt, args.dry_run, silent=False)
+            for role in sent:
+                notified.add(_msg_key(role, to_exempt[role]))
+            state["pending_notify"].update({k: v for k, v in to_exempt.items() if k not in sent})
+            if sent:
+                print(f"🔔 夜间静默豁免：终审类信号照常推 {sorted(sent)}（#520 老朱拍板口径）")
     else:
         sent = _notify(to_send, args.dry_run, silent=False)
         for role in sent:

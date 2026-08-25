@@ -66,6 +66,7 @@ audience: 全体 agent
 |:--|:--|:--|:--|:--|
 | conveyor_probe | kdo-tools/conveyor_probe.py | 传送带探针（六信号检出→登记→飞书通知，单扫描器纪律） | 08-25 #519 修复后计划触发实跑 PASS | 计划任务 kdo-conveyor-probe/gate-blocked.log |
 | check-conveyor-state | 90_control/scripts/check-conveyor-state.py | 探针空转报警（#519：state 年龄>2×周期→exit 1，health-check 带动） | 08-25 5 例 passed | health-check/.kdo/conveyor_state.json |
+| check-review-sla | 90_control/scripts/check-review-sla.py | 审查 SLA 观测（#520 R3：REVIEW-PENDING 最大年龄>2h→exit 1） | 08-25 5 例 passed | health-check/production-queue.md |
 | memory_capsule | kdo-tools/memory_capsule.py | 记忆胶囊（L1 主库/镜像/verify/事件写入+log_event_safe 四类事件统一入口 #511） | 08-25 6 例 passed | L1 库+D 盘镜像 |
 | l1_capture | kdo-tools/l1_capture.py | L1 全量采集（日期增量目录+判重游标+每日 zip 归档复活 #508） | 08-25 8 例 passed | 计划任务 kdo-l1-capture/kdo-l1-archive |
 | daily-context-save | kdo-tools/daily-context-save.py | 复盘保存（存档+review-check+L0 事件+镜像联动；#512 重打改覆盖写+事件去重） | 08-25 4 例 passed | review-check/memory_capsule |
