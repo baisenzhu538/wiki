@@ -398,6 +398,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - [gate-blocked] task_20260825_huangyaoshi-src-unknown-body-gate｜08-25 11:18｜待王语嫣复核处置｜2026-08-25 10:55:42｜task_20260825_huangyaoshi-src-unknown-body-gate｜F-035-负向判词｜意见书含负向断言（缺失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋
 - [gate-blocked] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md｜08-25 11:18｜待王语嫣复核处置｜2026-08-25 11:18:56｜diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md｜near-miss-三元组（#506）｜status=pending 疑似待编排但非 pending_orchestration｜conveyor_probe
 - diag_20260825_ouyangfeng-l1-capture-console-killer.md｜08-25 11:57｜待王语嫣复核裁定
+- diag_20260825_fengqingyang-automation-cost-audit.md｜08-25 21:44｜待王语嫣复核裁定
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
