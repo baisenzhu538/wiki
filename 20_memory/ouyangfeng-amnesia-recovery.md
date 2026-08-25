@@ -352,3 +352,9 @@ type: memory/role-recovery
 - **结论**：PASS A（我的建议书落地）。_extract_deliverable_section/paths+_check_deliverables_committed 逐行对上；豁免收窄补件（自体应用抓到引用文字误触发）透明；134 passed 复跑一致；"review/claim 未动"附 diff 核查一次过
 - **观察项**：豁免词表声明即豁免=攻击面，人审兜底记档
 - **E040 机器兜底上线**：忘 commit 提审今后当场被拦+补救命令模板——昨晚 #470/#518 两次同族不重演
+
+## 2026-08-25 第二十八场：#523 L1 归档加固终审 PASS A（建议书五中五）
+
+- **结论**：PASS A。R1 testzip 接线位置正确（元数据快筛后）；R2 _report_archive_refusal 两拒删分支接线齐全；R3 四段式补录+§10.10 双记规范落点合理；110 passed 复跑一致；CRC 用例构造精准（ZIP_STORED 翻字节打旧射程盲区）
+- **五份建议书全落地**：叫醒#520/推送#521/占位门禁#517/入仓门禁#522/归档加固#523——飞轮五轮
+- **小疵记档**：frontmatter 预声明 conveyor_probe 实未触（复用通道），诚实说明不降级
