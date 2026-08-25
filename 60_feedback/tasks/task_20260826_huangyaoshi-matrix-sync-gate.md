@@ -1,13 +1,13 @@
 ---
 id: 537
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-26T03:30:00+00:00'
+status: in_progress
+updated_at: '2026-08-25T22:53:03.879574+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
-  - kdo-tools/conveyor_probe.py
-  - 90_control/notification-coverage-matrix.md
+- kdo-tools/conveyor_probe.py
+- 90_control/notification-coverage-matrix.md
 ---
 
 # #537 总账登记机器核查：基础设施单 reviewed 时矩阵未同步→拦截提醒
