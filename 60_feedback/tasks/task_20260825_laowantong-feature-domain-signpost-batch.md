@@ -1,17 +1,17 @@
 ---
 id: 526
 assignee: laowantong
-status: queued
-updated_at: '2026-08-24T20:10:00+00:00'
+status: in_progress
+updated_at: '2026-08-25T14:07:44.749175+00:00'
 version: v0.1
-instance: laowantong
+instance: kimi-cli
 code_files:
-  - 10_raw/ocr-cards/ocr-一堂-ai学习-truman自用的ai-featureset.md
-  - 30_wiki/frameworks/framework-truman-feature-layered-system.md
-  - 30_wiki/frameworks/framework-truman-feature-thinking-core.md
-  - 30_wiki/bridges/bridge-two-feature-systems.md
-  - 30_wiki/domains/ai-basic-domain-digest.md
-  - 30_wiki/dark-knowledges/dk-analogy-blinds-search.md
+- 10_raw/ocr-cards/ocr-一堂-ai学习-truman自用的ai-featureset.md
+- 30_wiki/frameworks/framework-truman-feature-layered-system.md
+- 30_wiki/frameworks/framework-truman-feature-thinking-core.md
+- 30_wiki/bridges/bridge-two-feature-systems.md
+- 30_wiki/domains/ai-basic-domain-digest.md
+- 30_wiki/dark-knowledges/dk-analogy-blinds-search.md
 ---
 
 # #526 Feature 域入口路标收尾批（盲测报告建议 1/2/3/7 + 类比遮蔽 dk 卡）
