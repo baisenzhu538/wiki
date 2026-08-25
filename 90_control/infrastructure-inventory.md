@@ -81,7 +81,7 @@ audience: 全体 agent
 | generate-dashboard | kdo-tools/generate-dashboard.py | 看板生成（队列→dashboard） | 08-23 流转自动 | production-queue.md |
 | queue_audit / hook_queue_audit | kdo-tools/queue_audit.py | 队列审计辅助 | 08-16 | queue_gate |
 | web_search / web_fetch | kdo-tools/web_search.py | 联网检索（研究用） | 按需 | research 系 |
-| collect_wechat / wechat_knowledge / wechat_link_monitor | kdo-tools/wechat_*.py | 视频号偶遇采集管线 | 08-17 全自动链路 | 计划任务 wechat-link-monitor |
+| collect_wechat / wechat_knowledge / wechat_link_monitor / wechat_promote | kdo-tools/wechat_*.py | 视频号偶遇采集管线+转正（#516 去重键补 _processed 隔离区含 regen 变体） | 08-25 4 例 passed | 计划任务 wechat-link-monitor |
 | skill_crystallize / skill_lifecycle / distill-own-skill | kdo-tools/skill_*.py | 技能结晶/生命周期 | 按需 | skills |
 
 ## 3b · 辅助工具族（#488 登记纪律存量补登记，按族）

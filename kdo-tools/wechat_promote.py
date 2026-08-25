@@ -105,7 +105,12 @@ def promote_case(f: Path, dry_run: bool) -> str:
         return "skip"
 
     # 已流转过的卡不重复登记：待编排区/正式层/退回区已有同名卡 → 跳过
-    if (PENDING_DIR / f.name).exists() or (CASES_DIR / f.name).exists() or (RERUN_DIR / f.name).exists():
+    # #516：补 _processed 隔离区（E037 门禁判定隔离后管线「看不见」已判定卡 → 再生循环），
+    # 原名与 .regen-* 后缀变体都算已判定（按 stem 前缀匹配）
+    _processed_dir = PENDING_DIR / "_processed"
+    if ((PENDING_DIR / f.name).exists() or (CASES_DIR / f.name).exists() or (RERUN_DIR / f.name).exists()
+            or (_processed_dir / f.name).exists()
+            or any(_processed_dir.glob(f"{f.stem}.regen-*.md"))):
         print(f"⏭️  已流转: {f.name}")
         return "skip"
 
