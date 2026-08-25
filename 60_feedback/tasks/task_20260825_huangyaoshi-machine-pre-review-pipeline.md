@@ -1,9 +1,10 @@
 ---
 id: 515
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-24T16:50:00+00:00'
+status: in_progress
+updated_at: '2026-08-25T14:07:02.765631+00:00'
 version: v0.1
+instance: huangyaoshi
 ---
 
 # #515 机器预审管线（提审单机器层预审报告：声称-交付差集 + lint + 负向判词 + 存在性核查）
