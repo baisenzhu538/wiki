@@ -1,0 +1,27 @@
+{
+  "violations": [
+    "30_wiki/agent-specs/agent-spec-duanwangye-publisher.md → 30_wiki/dark-knowledges/dk-publish-collapse-to-iterate.md",
+    "30_wiki/agent-specs/agent-spec-duanwangye-publisher.md → 30_wiki/skills/skill-duanwangye-prezi.md",
+    "30_wiki/agent-specs/agent-spec-duanwangye-publisher.md → 30_wiki/tools/agent-spec-duanwangye-publisher.md",
+    "30_wiki/agent-specs/agent-spec-duanwangye-publisher.md → 30_wiki/tools/agent-spec-hongqigong-multimodal.md",
+    "30_wiki/agent-specs/agent-spec-fengqingyang-observer.md → 30_wiki/agent-specs/agent-spec-laowantong-producer.md",
+    "30_wiki/agent-specs/agent-spec-fengqingyang-observer.md → 30_wiki/tools/agent-spec-duanwangye-publisher.md",
+    "30_wiki/agent-specs/agent-spec-fengqingyang-observer.md → 30_wiki/tools/agent-spec-hongqigong-multimodal.md",
+    "30_wiki/agent-specs/agent-spec-hongqigong-multimodal.md → 30_wiki/agent-specs/agent-spec-laowantong-producer.md",
+    "30_wiki/agent-specs/agent-spec-hongqigong-multimodal.md → 30_wiki/frameworks/framework-visual-analysis-four-dimensions.md",
+    "30_wiki/agent-specs/agent-spec-hongqigong-multimodal.md → 30_wiki/tools/agent-spec-duanwangye-publisher.md",
+    "30_wiki/agent-specs/agent-spec-hongqigong-multimodal.md → 30_wiki/tools/agent-spec-hongqigong-multimodal.md",
+    "30_wiki/agent-specs/agent-spec-huangyaoshi-builder.md → 30_wiki/agent-specs/agent-spec-laowantong-producer.md",
+    "30_wiki/agent-specs/agent-spec-huangyaoshi-builder.md → 30_wiki/tools/agent-spec-hongqigong-multimodal.md",
+    "30_wiki/agent-specs/agent-spec-laowantong-producer.md → 30_wiki/tools/agent-spec-hongqigong-multimodal.md",
+    "30_wiki/agent-specs/agent-spec-ouyangfeng-reviewer.md → 30_wiki/agent-specs/agent-spec-laowantong-producer.md",
+    "30_wiki/agent-specs/agent-spec-ouyangfeng-reviewer.md → 30_wiki/tools/agent-spec-hongqigong-multimodal.md",
+    "30_wiki/agent-specs/agent-spec-wangyuyan-orchestrator.md → 30_wiki/agent-specs/agent-spec-laowantong-producer.md",
+    "30_wiki/agent-specs/agent-spec-wangyuyan-orchestrator.md → 30_wiki/tools/agent-spec-hongqigong-multimodal.md",
+    "30_wiki/agent-specs/agent-spec-zhu-ai-coach.md → 30_wiki/tools/tool-zhu-ai-deliberate-practice-roadmap.md",
+    "30_wiki/agent-specs/agent-spec-zhu-boss.md → 30_wiki/agent-specs/agent-spec-laowantong-producer.md",
+    "30_wiki/agent-specs/agent-spec-zhu-boss.md → 30_wiki/personal-os/zhu-time-os.md",
+    "agents/agent-basic-skills-coach/CLAUDE.md → 30_wiki/frameworks/framework-truman-feature-layered-system.md",
+    "agents/agent-basic-skills-coach/CLAUDE.md → 30_wiki/frameworks/framework-truman-feature-thinking-core.md"
+  ]
+}

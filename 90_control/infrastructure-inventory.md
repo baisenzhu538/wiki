@@ -68,6 +68,7 @@ audience: 全体 agent
 | check-conveyor-state | 90_control/scripts/check-conveyor-state.py | 探针空转报警（#519：state 年龄>2×周期→exit 1，health-check 带动） | 08-25 5 例 passed | health-check/.kdo/conveyor_state.json |
 | check-review-sla | 90_control/scripts/check-review-sla.py | 审查 SLA 观测（#520 R3：REVIEW-PENDING 最大年龄>2h→exit 1） | 08-25 5 例 passed | health-check/production-queue.md |
 | quality_metrics | kdo-tools/quality_metrics.py | 质量指标基线周报（#514：FAIL率/打回率/拦截率/误判率代理，口径=quality-metrics-spec-v1） | 08-25 7 例 passed | 计划任务 kdo-quality-metrics/60_feedback/auto/quality-metrics |
+| check-depended-draft | 90_control/scripts/check-depended-draft.py | 被依赖卡 draft 门禁（#527：引用面三路识别含 glob 数据链；baseline 存量 WARNING/新引用 ERROR） | 08-25 8 例 passed | health-check/quality-gates/depended-draft-baseline.json |
 | memory_capsule | kdo-tools/memory_capsule.py | 记忆胶囊（L1 主库/镜像/verify/事件写入+log_event_safe 四类事件统一入口 #511） | 08-25 6 例 passed | L1 库+D 盘镜像 |
 | l1_capture | kdo-tools/l1_capture.py | L1 全量采集（日期增量目录+判重游标+每日 zip 归档复活 #508） | 08-25 8 例 passed | 计划任务 kdo-l1-capture/kdo-l1-archive |
 | daily-context-save | kdo-tools/daily-context-save.py | 复盘保存（存档+review-check+L0 事件+镜像联动；#512 重打改覆盖写+事件去重） | 08-25 4 例 passed | review-check/memory_capsule |

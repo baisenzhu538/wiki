@@ -84,6 +84,7 @@ def main():
             ("recovery-check", [], "事件库恢复副本验证（健壮性 L5）"),
             ("check-conveyor-state", [], "探针空转报警（#519：state 年龄>2×周期）"),
             ("check-review-sla", [], "审查 SLA 观测（#520 R3：pending_review 最大年龄>2h）"),
+            ("check-depended-draft", [], "被依赖卡 draft 门禁（#527：新引用 ERROR/存量 WARNING）"),
         ])
 
     if args.domain:
