@@ -1,9 +1,10 @@
 ---
 id: 521
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-24T18:10:00+00:00'
+status: in_progress
+updated_at: '2026-08-25T04:38:35.732269+00:00'
 version: v0.1
+instance: huangyaoshi
 ---
 
 # #521 审查结果推送补全：PASS 路由生产者 + 终审类信号豁免夜间静默
