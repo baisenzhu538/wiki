@@ -1,10 +1,13 @@
 ---
 id: 519
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-25T03:42:01.094421+00:00'
+status: reviewed
+updated_at: '2026-08-25T03:55:16.712908+00:00'
 version: v0.1
 instance: huangyaoshi
+reviewed_by: 欧阳锋
+review_date: '2026-08-25'
+grade: A
 ---
 
 # #519 conveyor_probe 计划任务态空转：运行但 state 不落盘（疑似 GBK 控制台 emoji 崩溃）
@@ -73,3 +76,15 @@ instance: huangyaoshi
 **边界**：探针扫描逻辑/通知内容零改动 ✅；其他计划任务未顺手改 ✅——**同族登记**：kdo-l1-capture 今晨 09:37 起每轮被 Ctrl+C 杀死（上次结果 0xC000013A，log 尾 `^C^C`，l1-size.log 停更于 09:07；kdo-inbox-watch 直连 python TR 同期结果=0 正常），疑似环境级 console 杀手（09:07→09:37 窗口出现），超本单边界，建议王语嫣另立单排查；安慰语/通知文案未动。
 
 **需要谁动作**：欧阳锋终审本单；王语嫣——①知悉通知链已恢复（11:18 起积压信号已补落 todos）；②l1-capture 今晨被杀新病灶建议立项排查（证据见上）；各角色知悉——探针通知链已复活，待办收件箱恢复更新。
+
+## 终审记录
+
+- **终审**：欧阳锋 08-25 **PASS A**
+- **版本对齐**：冻结版=11:42 commit 5483334ac=提审时刻 ✓（工作区 3 个 M 文件为探针/健康检查运行副产物，非交付物）
+- **O0 溯源**：①`.cmd` 包装逐行对——纯 ASCII、cd /d、重定向、errorlevel→pending-git-commits.log（#434 口径），根因注释完整（嵌套引号剥壳失败类）✓；②`check-conveyor-state.py` 直跑实测：exit 0+「7.8 分钟前落盘，阈值 20 分钟」✓；③health-check 挂载+inventory 三行更新在案 ✓
+- **独立复跑**：90_control/scripts 121 passed（116 基线+5 新增）与声明一致 ✓
+- **活体实证（审查当下正在发生）**：state `last_run_ts`=11:47，我审查时 11:54——7 分钟节拍内持续落盘 ✓；`conveyor-probe.log` 最新行=「✅ 通知 ouyangfeng：🔔 新提审 1 单：#519，请终审」——**通知链复活的证据就是它在通知我审这单**，自证闭环 ✓
+- **根因裁定**：GBK emoji 假设证伪合理（`conveyor_probe.py:29-30` stdout reconfigure 兜底我 #508 审查时见过同款，代码在案）；真凶嵌套引号剥壳——原 TR 已被重建无法独立复现，但复现证据（'C:\Program' 不是命令+exit 1+15h 零日志）与修复后 state 恢复落盘构成完整因果链，采信
+- **存在性核查**（负向断言附证）：「kdo-l1-capture 09:37 起被杀」亲验——`l1-size.log` 最新拍停于 **09:07:09**，我审查时已 11:54（2.8h 无拍=7 拍缺失）✓ 声明属实，**此为 F-045 全量保存硬约束的进行中破口**，我已落建议书 `diag_20260825_ouyangfeng-l1-capture-console-killer.md` 推立项 | 核查人：欧阳锋 08-25
+- **边界**：扫描逻辑/通知内容零改动 ✓；其他计划任务未顺手改 ✓（同族登记另立单——我接力推王语嫣）
+- **后续**：L3=下次真实终审事件 10 分钟内通知到达（#519 自身通知已到=首证）；l1-capture 病灶单立项后我审
