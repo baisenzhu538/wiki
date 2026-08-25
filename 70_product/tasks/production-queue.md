@@ -154,7 +154,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 526 | `task_20260825_laowantong-feature-domain-signpost-batch` | Feature域入口路标收尾批：OCR卡挂链+inbox三处指路+问法回填discoverable_by+两套Feature澄清卡+digest路标+类比遮蔽dk卡 | reviewed | laowantong | 内容批+复测 | 无 | `60_feedback/tasks/task_20260825_laowantong-feature-domain-signpost-batch.md` | 小昭检索检测报告建议1/2/3/7裁定采纳（老朱对齐确认；盲测第1问未命中=无声的错误实证）；问法回填复用#315模式；dk卡署名小昭（消费端贡献首例）；OCR卡守10_raw层不升30_wiki；欧阳锋批次验收 |
 | 527 | `task_20260825_huangyaoshi-depended-draft-card-gate` | 被依赖卡draft门禁：被agent-spec/CLAUDE.md/数据链引用的卡status:draft即报警（WARNING起步+存量清单） | reviewed | huangyaoshi | lint+存量清单+回归 | 无 | `60_feedback/tasks/task_20260825_huangyaoshi-depended-draft-card-gate.md` | 小昭检索检测报告建议4裁定采纳（盲测P4：layered-system系draft但被basic-skills-coach活依赖，违反E018精神）；治本=#524标注治标互补；清单交王语嫣→欧阳锋按优先级过审（首张=layered-system，已预告）；不自动改状态；欧阳锋终审 |
 | 528 | `task_20260825_huangyaoshi-island-card-scan` | 孤岛卡扫描lint：30_wiki无出链无入链卡定期出清单（豁免agent-spec类，WARNING制不拦流转） | queued | huangyaoshi | 扫描器+清单+挂载 | 无 | `60_feedback/tasks/task_20260825_huangyaoshi-island-card-scan.md` | 老朱追问「知识卡解决不了，还有什么办法」裁定补结构层（盲测P1同族：dk管认知/盲测管兜底/本单管结构）；清单交王语嫣编排挂链批次；与#527分工=被依赖draft vs 无人依赖孤岛；欧阳锋终审 |
-| 529 | `task_20260825_laowantong-oral-spray-dictation-supplement` | 口喷全阶指南口述补充生产：新增3张（示范提示词三样本/喷文档不喷聊天框/训练vs任务最优）+补强3张（段位图/新人四难/多Agent并行） | pending_review | laowantong | 同构映射+3新3补 | 无 | `60_feedback/tasks/task_20260825_laowantong-oral-spray-dictation-supplement.md` | 老朱判定「更多暗知识」诊断属实（~95%与Live260重复，增量=提示词原文+操作层暗知识+独家数据）；⚠️素材=两遍STT拼接，专名以Live260精编版校核、>2802行先去重；P1卡级三方法；欧阳锋批次验收 |
+| 529 | `task_20260825_laowantong-oral-spray-dictation-supplement` | 口喷全阶指南口述补充生产：新增3张（示范提示词三样本/喷文档不喷聊天框/训练vs任务最优）+补强3张（段位图/新人四难/多Agent并行） | reviewed | laowantong | 同构映射+3新3补 | 无 | `60_feedback/tasks/task_20260825_laowantong-oral-spray-dictation-supplement.md` | 老朱判定「更多暗知识」诊断属实（~95%与Live260重复，增量=提示词原文+操作层暗知识+独家数据）；⚠️素材=两遍STT拼接，专名以Live260精编版校核、>2802行先去重；P1卡级三方法；欧阳锋批次验收 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
 ## ⚖️ 待终审（提审任务，queue_transition 自动登记）
@@ -270,7 +270,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#525 task_20260825_huangyaoshi-role-clock-architecture｜huangyaoshi｜提审 08-25 22:11｜60_feedback/tasks/task_20260825_huangyaoshi-role-clock-architecture.md~~ → 已终审 PASS A（2026-08-25 欧阳锋）
 - ~~#526 task_20260825_laowantong-feature-domain-signpost-batch｜laowantong｜提审 08-25 22:20｜60_feedback/tasks/task_20260825_laowantong-feature-domain-signpost-batch.md~~ → 已终审 PASS A（2026-08-25 欧阳锋）
 - ~~#527 task_20260825_huangyaoshi-depended-draft-card-gate｜huangyaoshi｜提审 08-25 22:50｜60_feedback/tasks/task_20260825_huangyaoshi-depended-draft-card-gate.md~~ → 已终审 PASS A（2026-08-25 欧阳锋）
-- #529 task_20260825_laowantong-oral-spray-dictation-supplement｜laowantong｜提审 08-25 23:32｜60_feedback/tasks/task_20260825_laowantong-oral-spray-dictation-supplement.md
+- ~~#529 task_20260825_laowantong-oral-spray-dictation-supplement｜laowantong｜提审 08-25 23:32｜60_feedback/tasks/task_20260825_laowantong-oral-spray-dictation-supplement.md~~ → 已终审 PASS A（2026-08-25 欧阳锋）
 
 <!-- REVIEW-PENDING-END -->
 
@@ -412,6 +412,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - [gate-blocked] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md｜08-25 11:18｜待王语嫣复核处置｜2026-08-25 11:18:56｜diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md｜near-miss-三元组（#506）｜status=pending 疑似待编排但非 pending_orchestration｜conveyor_probe
 - diag_20260825_ouyangfeng-l1-capture-console-killer.md｜08-25 11:57｜待王语嫣复核裁定
 - diag_20260825_fengqingyang-automation-cost-audit.md｜08-25 21:44｜待王语嫣复核裁定
+- [gate-blocked] task_20260825_laowantong-oral-spray-dictation-supplement｜08-25 23:37｜待王语嫣复核处置｜2026-08-25 23:32:32｜task_20260825_laowantong-oral-spray-dictation-supplement｜F-034-五字段｜执行报告缺 1 个字段（#429 F-034）：完成内容一句话。请补全后重试，或 --force --reason '<理由>' 声明例外（#444 台账留痕）。｜kimi-cli
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |

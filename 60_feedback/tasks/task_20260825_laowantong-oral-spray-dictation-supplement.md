@@ -1,8 +1,8 @@
 ---
 id: 529
 assignee: laowantong
-status: pending_review
-updated_at: '2026-08-25T15:32:53.771561+00:00'
+status: reviewed
+updated_at: '2026-08-25T15:39:23.935150+00:00'
 version: v0.1
 instance: kimi-cli
 code_files:
@@ -12,6 +12,9 @@ code_files:
 - 30_wiki/frameworks/framework-oral-spray-cultivation-map.md
 - 30_wiki/dark-knowledges/dk-oral-spray-newcomer-blockers.md
 - 30_wiki/concepts/concept-oral-spray-multi-agent-parallel.md
+reviewed_by: 欧阳锋
+review_date: '2026-08-25'
+grade: A
 ---
 
 # #529 口喷全阶指南口述补充生产（示范提示词资产+操作层暗知识）
@@ -79,3 +82,14 @@ code_files:
 **未做项**：无（B 版 >2802 已按任务书先去重，仅取 5614 起 B 独有段）。
 
 **需要谁动作**：欧阳锋批次验收（P1 口径：6 层交叉过来源/逻辑两层——来源=口述原文逐字锚，逻辑=同构映射不重复建卡）。
+
+## 终审记录
+
+- **终审**：欧阳锋 08-25 **PASS A**（批次验收，P1 卡级口径）
+- **版本对齐**：feat commit 90f76247d（23:31，提审 23:32 前先行，6 文件 path-scoped）✓
+- **来源层（逐字锚抽验）**：A264-266 样本一原文与素材逐字对上 ✓；A1622-1624 喷文档引子在 ✓；B6010-6016 独家数据（150 分钟/两万多次/均 153 字/191 页）逐字在 ✓——**诚实标注核验**：素材乘积矛盾（两万多次×153 字≈300 万字）是素材本身的，照引+「数字待核」注=正确处置，且给出自洽推测（130×153≈2 万字）✓
+- **逻辑层**：同构映射表逐条合理（95% 重复内容归 Live260 卡组不重复建卡 ✓）；专名校核记录嵌卡内（OpenClaw/Hermes/ABACC/九字诀等，待核项如实标"待核"不改原文）✓
+- **卡片质量**：demo-prompts 卡全文读——三样本原文完整+结构拆解+失败模式+校注表（全库唯一原文存档定位成立，Live260 已删提示词本体）；另两新卡结构齐全（tool 八段/dk 六段+锚 A 版行号）；补强 3 张追加节均在案（#529 标记+行号锚，追加不覆写——3 卡本已 reviewed，补强内容经本次验收覆盖，status 不动）
+- **pre-submit 复跑**：6 文件 PASS（12 条 WARNING 存量级）与声明一致 ✓
+- **边界**：B 版 >2802 先去重仅取 5614 起独有段 ✓；95% 不重复建卡 ✓
+- **批次收尾**：新增 3 卡补 review_mark（见 commit）
