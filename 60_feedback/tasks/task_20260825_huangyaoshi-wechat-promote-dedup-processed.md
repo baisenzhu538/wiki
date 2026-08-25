@@ -1,9 +1,10 @@
 ---
 id: 516
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-24T17:10:00+00:00'
+status: in_progress
+updated_at: '2026-08-25T02:07:56.221938+00:00'
 version: v0.1
+instance: huangyaoshi
 ---
 
 # #516 wechat_promote 去重键补 _processed（已门禁判定的卡不再生）
