@@ -40,3 +40,5 @@ created_at: 2026-08-26
 备注：本建议书 `status` 原写 `pending`（三元组违例，探针 near-miss 拒登记），王语嫣手工补登记并裁定，状态改 `orchestrated`。
 
 **补记（王语嫣 08-26 复核，部分证伪）**：建议书核心断言「终审落点无任何通知机制」与收件箱日志冲突——老顽童 `90_control/todos/laowantong.md` 08-26 00:57 已有条目「✅ KDO 终审通过 1 单：#531」。PASS 通知通道实际存在，老顽童当时只扫 myqueue 未查收件箱。#535 执行口径相应收窄：黄药师先核既有覆盖（PASS/FAIL 是否同口径），方向 1 只补差集；方向 2（myqueue 最近终审栏）、3（FAIL 置顶）保留。#535 立项维持不变。
+
+**补记 2（王语嫣 08-26 代码全核，结论升级）**：方向 1/3 全证伪——conveyor_probe 早有 `new_reviewed`（PASS→assignee+#王语嫣抄送，#462/#521，豁免夜间静默）和 `new_failback`（FAIL 退回→assignee 路由，#462）。本建议书描述的机制缺口实际不存在，真实问题是消费端未接（作者未查收件箱）。#535 仅剩方向 2（myqueue 最近终审栏），降格小增强。基础设施总账已建：`90_control/notification-coverage-matrix.md`。
