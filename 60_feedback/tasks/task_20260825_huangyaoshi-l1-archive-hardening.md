@@ -1,16 +1,16 @@
 ---
 id: 523
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-24T18:07:22+00:00'
+status: in_progress
+updated_at: '2026-08-25T05:38:03.409412+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
-  - kdo-tools/l1_capture.py
-  - kdo-tools/tests/test_l1_capture.py
-  - 90_control/scripts/conveyor_probe.py
-  - agents/agent-os.md
-  - 60_feedback/friction-log.md
+- kdo-tools/l1_capture.py
+- kdo-tools/tests/test_l1_capture.py
+- 90_control/scripts/conveyor_probe.py
+- agents/agent-os.md
+- 60_feedback/friction-log.md
 ---
 
 # #523 L1 归档链路三项加固（#508 终审观察项打包）
