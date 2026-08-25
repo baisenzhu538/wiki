@@ -1,17 +1,17 @@
 ---
 id: 529
 assignee: laowantong
-status: queued
-updated_at: '2026-08-24T21:20:00+00:00'
+status: in_progress
+updated_at: '2026-08-25T15:23:12.007324+00:00'
 version: v0.1
-instance: laowantong
+instance: kimi-cli
 code_files:
-  - 30_wiki/tools/tool-oral-spray-demo-prompts-3samples.md
-  - 30_wiki/tools/tool-oral-spray-into-doc-not-chatbox.md
-  - 30_wiki/dark-knowledges/dk-oral-spray-training-vs-task-optimal.md
-  - 30_wiki/frameworks/framework-oral-spray-cultivation-map.md
-  - 30_wiki/dark-knowledges/dk-oral-spray-newcomer-blockers.md
-  - 30_wiki/concepts/concept-oral-spray-multi-agent-parallel.md
+- 30_wiki/tools/tool-oral-spray-demo-prompts-3samples.md
+- 30_wiki/tools/tool-oral-spray-into-doc-not-chatbox.md
+- 30_wiki/dark-knowledges/dk-oral-spray-training-vs-task-optimal.md
+- 30_wiki/frameworks/framework-oral-spray-cultivation-map.md
+- 30_wiki/dark-knowledges/dk-oral-spray-newcomer-blockers.md
+- 30_wiki/concepts/concept-oral-spray-multi-agent-parallel.md
 ---
 
 # #529 口喷全阶指南口述补充生产（示范提示词资产+操作层暗知识）
