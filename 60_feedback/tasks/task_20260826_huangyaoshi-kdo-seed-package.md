@@ -1,13 +1,13 @@
 ---
 id: 532
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-26T01:30:00+00:00'
+status: in_progress
+updated_at: '2026-08-25T18:12:04.824228+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
-  - 90_control/kdo-seed/
-  - kdo-tools/
+- 90_control/kdo-seed/
+- kdo-tools/
 ---
 
 # #532 kdo-seed 种子包：机制层整体搬迁三件套 + 路径参数化
