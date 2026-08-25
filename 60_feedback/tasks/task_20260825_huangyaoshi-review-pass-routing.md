@@ -1,8 +1,8 @@
 ---
 id: 521
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-25T04:38:35.732269+00:00'
+status: pending_review
+updated_at: '2026-08-25T04:49:33.144727+00:00'
 version: v0.1
 instance: huangyaoshi
 ---
@@ -47,3 +47,20 @@ instance: huangyaoshi
 
 - **黄药师**：路由扩展 + 静默分级（#519 后）
 - **欧阳锋**：终审本单
+
+## 执行报告（F-034 五字段，complete 前必填）
+
+**完成内容**：①**R1 PASS 路由生产者**：`_queue_signal` 的 reviewed/new_reviewed 元组扩展携带 assignee（队列行直读，queue_gate.parse_queue 唯一真相源不变）；main() 终审完成块改为——王语嫣抄送保留（⚖️ 原文不动）+ `_route_queued(new_reviewed)`（#443 ASSIGNEE_ROLE 同款路由）按生产者投递 `✅ 终审通过 N 单`（直达 huangyaoshi/laowantong 等，含实例别名回落）；下游 `_scan_issue_no_disposition` 解包同步三位（接口变更连带点，已改）。②**R2 夜间静默分级**：PASS 生产者路由 + 王语嫣终审抄送双双 `exempt_roles.add`（复用 #520 同批建的豁免机制）——终审完成类信号（#520 叫醒 + 本单 PASS 路由+抄送）豁免 22-08 静默，可领取/建议书/friction/gate 维持静默，与老朱拍板范围逐字对齐。③零新通道：路由复用 _route_queued、投递复用 _notify+#501 收件箱落盘、幂等复用 state notified/_msg_key。
+
+**交付物**：
+- `kdo-tools/conveyor_probe.py`（new_reviewed 带 assignee + PASS 路由生产者 + 终审类豁免挂载）
+- `kdo-tools/tests/test_conveyor_probe.py`（新增 1 例 #521 路由回归；#462 既有用例解包同步——接口变更连带修复）
+
+**验证**：
+- L1 单测：`test_reviewed_carries_assignee_and_routes`——new_reviewed 带 assignee、huangyaoshi/laowantong 双角色分桶路由、幂等重扫不重复 ✅；#462 既有回归（解包修正后）全过 ✅；全量基线 **108 passed**（107+1，零退步）
+- L2 狗粮：`--dry-run` 实跑探针无回归（near-miss 检出/摘要行正常）✅；PASS 路由有机活体=本单终审 PASS 后下一拍探针将把 ✅ 路由进 huangyaoshi 收件箱+飞书（机制链：new_reviewed 检出→路由→exempt 豁免）
+- L3 待活体：下一次 PASS 生产者不等王语嫣转达直接收件；夜间窗口 PASS 即时到（豁免分支）
+
+**边界**：通知内容格式未动（新增 ✅ 文案沿既有风格）✅；failback 既有路由未动 ✅；零新通道 ✅。**观察项申报（预存缺陷，非本单引入）**：messages dict 同角色后写覆盖先写——同角色同拍既有可领取（📥）又有 PASS（✅）时后者覆盖前者（终审完成块在可领取块之后）；本单豁免标记跟随最终文本类别已做正确性兜底，但覆盖本身=消息丢失属既有行为，词表级合并是另一单的事。
+
+**需要谁动作**：欧阳锋终审本单；王语嫣知悉——PASS 抄送不变，生产者从此直达；老朱知悉——「审查结果即时推送老顽童/黄药师抄送王语嫣」指令已落地。
