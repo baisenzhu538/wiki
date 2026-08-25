@@ -122,6 +122,7 @@ async def search(query: str, domain: str | None = None, limit: int = 10) -> dict
             }
 
         fused = _filter_by_trust(root, fused, "medium")
+        fused = _apply_status_weights(fused)  # #524：status 加权（层内重排，层优先级不动）
         fused = _sort_by_layer(root, fused)
 
         max_score = max((s for s, _, _ in fused), default=0.0)
@@ -146,6 +147,7 @@ async def search(query: str, domain: str | None = None, limit: int = 10) -> dict
             tags = []
             position = ""
             card_status = ""
+            card_confidence = ""
 
             try:
                 # utf-8-sig strips BOM; normalize CRLF so frontmatter and
@@ -155,6 +157,7 @@ async def search(query: str, domain: str | None = None, limit: int = 10) -> dict
                 aliases = fm.get("aliases") or []
                 tags = fm.get("tags") or []
                 card_status = str(fm.get("status", "") or "")
+                card_confidence = str(fm.get("confidence", "") or "")
                 if isinstance(aliases, str): aliases = [aliases]
                 if isinstance(tags, str): tags = [tags]
 
@@ -210,11 +213,13 @@ async def search(query: str, domain: str | None = None, limit: int = 10) -> dict
 
             results.append({
                 "id": card_id,
-                # #380 检索层未审标注：draft 卡标题带【未审】标记 + status 字段外露，
-                # 只标注不降权（护存量 draft 可用性），消费方自行判断是否采信
-                "title": ("【未审】 " + title) if card_status == "draft" else title,
+                # #524 消费端契约：draft/pending_review 标题 ⚠️ 前缀 + status/confidence 外露
+                # + 非卡命中来源层标注（#380【未审】升级为 ⚠️ 符号，覆盖 pending_review）
+                "title": _display_title(title, card_status),
                 "type": card_type,
                 "status": card_status,
+                "confidence": card_confidence,
+                "source_layer": _source_layer_label(path_str, card_status),
                 "aliases": aliases[:8],
                 "tags": tags,
                 "scene": scene,
@@ -574,3 +579,47 @@ def _parse_frontmatter(text: str) -> dict:
         return yaml.safe_load(text[4:end]) or {}
     except Exception:
         return {}
+
+
+# ── #524 消费端契约：status 标注 + 来源层标注 + reviewed 排序加权 ──
+# 降权不剔除（红线 4：误拦优先不误伤——有些 query 只有 draft 命中，剔除=召回损失）
+_STATUS_WEIGHT = {"reviewed": 1.25, "draft": 0.7, "pending_review": 0.8}
+_WARN_STATUSES = {"draft", "pending_review"}  # 标题 ⚠️ 前缀：消费端一眼可辨未终审
+
+
+def _quick_status(p: Path) -> str:
+    """轻读 frontmatter 头部取 status（排序加权用——只读前 4KB，不全文解析）。"""
+    try:
+        with p.open("r", encoding="utf-8-sig", errors="replace") as f:
+            head = f.read(4096)
+        fm = _parse_frontmatter(head.replace("\r\n", "\n"))
+        return str(fm.get("status", "") or "")
+    except OSError:
+        return ""
+
+
+def _apply_status_weights(fused: list) -> list:
+    """按 status 加权调整 score：reviewed 上调 / draft·pending_review 降权（不剔除）。
+    返回同结构 [(score, path, snippet)]，供 _sort_by_layer 在层内按加权分排序
+    （层优先级不动——框架层仍在工具层前）。"""
+    return [
+        (score * _STATUS_WEIGHT.get(_quick_status(Path(path_str)), 1.0), path_str, snippet)
+        for score, path_str, snippet in fused
+    ]
+
+
+def _display_title(title: str, status: str) -> str:
+    """#524：draft/pending_review 卡标题加 ⚠️ 前缀（#380【未审】标记的符号升级）。"""
+    return f"⚠️ {title}" if status in _WARN_STATUSES else title
+
+
+def _source_layer_label(path_str: str, status: str) -> str:
+    """无 status 的非 30_wiki 命中标注来源层（[skills]/[raw]/[outputs]…），不与卡片混淆。"""
+    norm = path_str.replace("\\", "/").lstrip("./")
+    if status or norm.startswith("30_wiki/") or "/30_wiki/" in norm:
+        return ""
+    parts = norm.split("/")
+    if "skills" in parts:
+        return "[skills]"
+    alias = {"10_raw": "raw", "40_outputs": "outputs"}
+    return f"[{alias.get(parts[0], parts[0])}]"
