@@ -1,9 +1,10 @@
 ---
 id: 520
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-24T18:10:00+00:00'
+status: in_progress
+updated_at: '2026-08-25T04:07:03.034734+00:00'
 version: v0.1
+instance: huangyaoshi
 ---
 
 # #520 审查供给端三件套：提审叫醒审查者 + 阻塞链标记 + 审查 SLA 观测
