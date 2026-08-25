@@ -120,3 +120,13 @@ def test_marker_inside_deliverable_section_exempts(tmp_path):
     tf = _task(tmp_path, "**完成内容**：x\n\n**交付物**：纯任务单修改，无文件\n\n**验证**：过\n")
     ok, _msg, warn = qt._check_deliverables_committed(tf, {}, wiki_root=repo)
     assert ok and "豁免" in warn
+
+
+def test_external_absolute_path_warns_not_blocks(tmp_path):
+    """#534 实证：库外绝对路径交付物（D:/tech-wiki 等他库）git 无法核验
+    → WARNING 不拦（红线 4 识别不出不误拦）。"""
+    repo = _repo(tmp_path)
+    tf = _task(tmp_path, "**完成内容**：x\n\n**交付物**：\n- `kdo-tools/tool.py`\n- `D:/tech-wiki/90_control/todos/wangyuyan.md`\n\n**验证**：过\n")
+    ok, _msg, warn = qt._check_deliverables_committed(tf, {}, wiki_root=repo)
+    assert ok
+    assert "核验通过" in warn and "库外绝对路径" in warn and "D:/tech-wiki" in warn

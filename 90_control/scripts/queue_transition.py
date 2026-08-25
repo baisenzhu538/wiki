@@ -700,7 +700,13 @@ def _check_deliverables_committed(task_file: Path, fm: dict[str, Any],
         return True, "", "交付物节未识别出文件路径（启发式覆盖外）——人工自核已入仓"
 
     problems: list[str] = []
+    external: list[str] = []
     for rel in paths:
+        # 库外绝对路径（D:/tech-wiki 等其他库/盘）：不属任何已知仓 git 无法核验
+        # → WARNING 不拦（红线 4：识别不出不误拦——#534 狗粮实证撞线）
+        if len(rel) > 1 and rel[1] == ":" and "Knowledge Delivery OS" not in rel:
+            external.append(rel)
+            continue
         repo = KDO_REPO_ROOT if "Knowledge Delivery OS" in rel else wiki_root
         # KDO 仓路径给的是绝对/仓外相对——取仓内相对部分
         repo_rel = rel.split("Knowledge Delivery OS 0.0.1/")[-1] if repo == KDO_REPO_ROOT else rel
@@ -716,7 +722,10 @@ def _check_deliverables_committed(task_file: Path, fm: dict[str, Any],
                + "\n".join(f"  - {p}" for p in problems)
                + "\n补救：git add <路径> && git commit -m '#<任务号> <交付说明> by <instance>' 后重跑 complete")
         return False, msg, ""
-    return True, "", f"交付物入仓核验通过（{len(paths)} 个路径已跟踪且无脏改动）"
+    warn = f"交付物入仓核验通过（{len(paths) - len(external)} 个路径已跟踪且无脏改动）"
+    if external:
+        warn += f"；{len(external)} 个库外绝对路径无法 git 核验（WARNING 不拦，人工自核）：{'、'.join(external[:3])}"
+    return True, "", warn
 
 
 
