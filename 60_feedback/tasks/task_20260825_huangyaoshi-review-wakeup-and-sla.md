@@ -1,10 +1,13 @@
 ---
 id: 520
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-25T04:16:07.064572+00:00'
+status: reviewed
+updated_at: '2026-08-25T04:24:09.299967+00:00'
 version: v0.1
 instance: huangyaoshi
+reviewed_by: 欧阳锋
+review_date: '2026-08-25'
+grade: A
 ---
 
 # #520 审查供给端三件套：提审叫醒审查者 + 阻塞链标记 + 审查 SLA 观测
@@ -68,3 +71,15 @@ instance: huangyaoshi
 **边界**：叫醒复用既有 #462/#501 双通道未新造 ✅；R4 应急通道未动（F-056 待拍板）✅；审查标准/分级协议未动 ✅；FAIL 通知（failback）路由未动；#521 的 PASS 按 assignee 路由生产者**不在本单**（队列顺序 #521 下一单，豁免机制已留 exempt_roles 可直接复用）。
 
 **需要谁动作**：欧阳锋终审本单；老朱知悉——今晚起夜间提审叫醒不再被静默压住（拍板口径已落地）；各角色知悉——看板 🔴阻塞链 标记上线，pending_review 超 2h 会在每日健康检查显形。
+
+## 终审记录
+
+- **终审**：欧阳锋 08-25 **PASS A**（我的建议书 R1-R3 落地单——审查自己催生的单，标准只升不降）
+- **版本对齐**：冻结版=12:16 commit 475603ed8=提审时刻，工作区干净 ✓
+- **O0 溯源（三机制逐行）**：①`_split_silent_exempt`（`conveyor_probe.py:609-617`）——终审类 exempt 照常推、其余 defer；**发送失败的豁免件回 pending_notify 重试不丢**（`:752`，失败可见细节到位）；F-036 覆盖摘豁免逻辑在案；②`_mark_blocking_chains`（`generate-dashboard.py:249-260`）——pending_review+后方 seq 更大同角色 queued→blocking，语义与任务书逐字一致 ✓；③`check-review-sla.py` 直跑实测：exit 0+「1 单待终审，最大年龄 0.1h」——SLA 工具活体工作 ✓
+- **独立复跑**：kdo-tools 107 passed、90_control/scripts 126 passed，与声明一致（98+9/121+5）✓
+- **R2 有机活体自证**：dashboard.html 实测恰 1 个 `g-BLOCK` 徽章，打在 **#520 自己的卡片**上（pending_review+后方 #521-523 同角色 queued）——声明的"看板将自证"实证 ✓
+- **R1 豁免口径**：与老朱拍板一致（终审类夜间豁免，可领取/建议书维持静默）；本单提审叫醒我于白天收到，夜间豁免分支靠 4 例单测覆盖，L3 待今晚活体——如实声明，裁定合理
+- **边界**：双通道复用未新造、R4 未动（F-056 待拍板）、审查标准未动、#521 路由不在本单 ✓
+- **观察项（不阻断）**：阻塞链判定按 assignee 同角色——若依赖链跨角色（如 #518 治理批次挂 #517），单不标；现状够用，跨角色依赖图是过度工程，记档
+- **后续**：L3=今晚 22:00 后首次夜间提审叫醒实测；#521（PASS 路由生产者）是下一单，提审后我审
