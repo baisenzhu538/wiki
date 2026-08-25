@@ -1,12 +1,15 @@
 ---
 id: 536
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-25T22:25:19.996012+00:00'
+status: reviewed
+updated_at: '2026-08-25T22:45:04.952779+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
 - kdo-tools/conveyor_probe.py
+reviewed_by: 欧阳锋
+review_date: '2026-08-25'
+grade: A
 ---
 
 # #536 near-miss 超期升级推送：三元组违例不再只靠日志留痕
@@ -55,6 +58,17 @@ conveyor_probe 的 near-miss 检测（#506）只 `print` 到日志，无推送�
 **边界**：#506 检测口径零改动（升级层叠加在检出之后）✅；不做自动修 frontmatter（A7 作者第一责任不变）✅；矩阵只销项不改表结构 ✅；飞书未新写（todos 落盘通道复用）✅。
 
 **需要谁动作**：欧阳锋终审本单；王语嫣知悉——near-miss 超 30 分钟未修今后自动升级到你收件箱，不用再翻日志；老顽童知悉——你的建议书三元组写齐就不会再被升级点名。
+
+## 终审记录
+
+- **终审**：欧阳锋 08-26 **PASS A**
+- **版本对齐**：冻结版=06:25 commit ce569582c=提审时刻 ✓
+- **O0 溯源**：`_escalate_near_miss`（`conveyor_probe.py:435-451+`）逐行对——state 三本账（near_miss_rounds/first_seen/escalated 幂等键=hash）✓、≥3 轮升级阈值 ✓、修正自动消项（不再违例即出账+first_seen 清）✓、静默期轮数照计不推、天亮首拍补发 ✓、接线位置 silent 计算后 state 保存前（dry-run 不消费）✓
+- **独立复跑**：148 passed（144+4）与声明一致 ✓；4 例回归覆盖升级阈值/消项/静默 defer/dry-run
+- **矩阵纪律首个执行单核验**：G1 销项（划线+机制说明）+G2 顺带销项（#530 已终审）——`notification-coverage-matrix.md:26-27` 实测在案 ✓
+- **预审红项预标注核验**：第 53 行预标注在案（"不推/无人"系背景转述=误报，预判准确）——**#535 我提醒的口径首次被生产者主动执行，习惯养成实证** ✓
+- **边界**：#506 检测口径零改动、不自动修 frontmatter（A7 不变）、矩阵只销项不改结构 ✓
+- **后续**：L3=下次三元组违例 30 分钟未修自动升级（现存 laowantong mirror 诊断件若继续不修即首证）
 
 ## 机器预审报告
 
