@@ -65,8 +65,9 @@ def test_clean_deliverable_passes(tmp_path):
 
 
 def test_exempt_declaration_passes(tmp_path):
+    """豁免声明须在「交付物」节内（编排/诊断类口径）。"""
     repo = _repo(tmp_path)
-    tf = _task(tmp_path, "**完成内容**：纯任务单修改（诊断类）\n\n**交付物**：本报告\n\n**验证**：过\n")
+    tf = _task(tmp_path, "**完成内容**：诊断结论落档\n\n**交付物**：本报告（纯任务单修改）\n\n**验证**：过\n")
     ok, _msg, warn = qt._check_deliverables_committed(tf, {}, wiki_root=repo)
     assert ok and "豁免" in warn
 
@@ -98,3 +99,24 @@ def test_auto_commit_files_excluded(tmp_path):
         "task_test_522.md",
     )
     assert paths == ["kdo-tools/tool.py"]
+
+
+def test_marker_meta_mention_outside_section_not_exempt(tmp_path):
+    """#522 自体应用实证修复：豁免词在其他节被引用（说明文字）不得触发豁免——
+    只有「交付物」节内的声明才算数。"""
+    repo = _repo(tmp_path)
+    tf = _task(
+        tmp_path,
+        "**完成内容**：豁免声明关键词（纯任务单修改/无代码交付物等）……\n\n"
+        "**交付物**：\n- `kdo-tools/tool.py`\n\n"
+        "**验证**：过\n\n**需要谁动作**：写「纯任务单修改」即走豁免通道\n",
+    )
+    ok, _msg, warn = qt._check_deliverables_committed(tf, {}, wiki_root=repo)
+    assert ok and "核验通过" in warn  # 走了真校验而非豁免
+
+
+def test_marker_inside_deliverable_section_exempts(tmp_path):
+    repo = _repo(tmp_path)
+    tf = _task(tmp_path, "**完成内容**：x\n\n**交付物**：纯任务单修改，无文件\n\n**验证**：过\n")
+    ok, _msg, warn = qt._check_deliverables_committed(tf, {}, wiki_root=repo)
+    assert ok and "豁免" in warn

@@ -622,19 +622,26 @@ _DELIVERABLE_AUTO_COMMIT = {"production-queue.md", "dashboard.html"}
 _DELIVERABLE_PATH_RE = re.compile(r"`([^`\n]+)`")
 
 
-def _extract_deliverable_paths(report: str, task_file_name: str) -> list[str]:
-    """从执行报告「交付物」节提取反引号包裹的文件路径（启发式，识别不出=返回空→WARNING 不硬拦）。"""
-    paths: list[str] = []
+def _extract_deliverable_section(report: str) -> str:
+    """提取执行报告「交付物」节文本（锚点=DELIVERY_FIELDS 改动文件清单三写法；
+    节边界=下一粗体字段/## 标题）。无该节返回空串。"""
     for anchor in DELIVERY_FIELDS["改动文件清单"]:  # **交付物** / **改动文件** / **文件清单**
         idx = report.find(anchor)
         if idx == -1:
             continue
-        # 节边界：下一个 **粗体字段** 或 ## 标题
         rest = report[idx + len(anchor):]
         nxt_field = rest.find("\n**")
         nxt_head = rest.find("\n##")
         stops = [p for p in (nxt_field, nxt_head) if p > 0]
-        section = rest[:min(stops)] if stops else rest
+        return rest[:min(stops)] if stops else rest
+    return ""
+
+
+def _extract_deliverable_paths(report: str, task_file_name: str) -> list[str]:
+    """从执行报告「交付物」节提取反引号包裹的文件路径（启发式，识别不出=返回空→WARNING 不硬拦）。"""
+    section = _extract_deliverable_section(report)
+    paths: list[str] = []
+    if section:
         for tok in _DELIVERABLE_PATH_RE.findall(section):
             tok = tok.strip()
             if "/" not in tok and "\\" not in tok:
@@ -647,7 +654,6 @@ def _extract_deliverable_paths(report: str, task_file_name: str) -> list[str]:
                 continue
             if norm not in paths:
                 paths.append(norm)
-        break  # 只取第一个命中的字段锚点
     return paths
 
 
@@ -678,7 +684,9 @@ def _check_deliverables_committed(task_file: Path, fm: dict[str, Any],
     report = _extract_exec_report(body)
     if not report:
         return True, "", "无执行报告节（F-034 门禁已拦在前）"
-    if any(m in report for m in DELIVERABLE_EXEMPT_MARKERS):
+    # 豁免判定收窄到「交付物」节内声明（#522 自体应用实证：完成内容/需要谁动作里
+    # 引用豁免词作为说明文字也会命中全报告匹配——豁免词出现在交付物节才算声明）
+    if any(m in _extract_deliverable_section(report) for m in DELIVERABLE_EXEMPT_MARKERS):
         return True, "", "任务单声明纯任务单修改/无代码交付物——交付物入仓校验豁免"
 
     paths = _extract_deliverable_paths(report, task_file.name)
