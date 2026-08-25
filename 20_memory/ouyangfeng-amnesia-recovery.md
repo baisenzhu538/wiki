@@ -333,3 +333,10 @@ type: memory/role-recovery
 - **结论**：PASS A。根因=schtasks TR 嵌套引号剥壳（GBK emoji 假设证伪合理——stdout reconfigure 兜底在案）；.cmd 包装+check-conveyor-state 空转报警+121 passed 复跑一致；活体实证=state 7 分钟节拍内落盘+探针通知我审 #519（通知链自证闭环）
 - **接力动作**：l1-capture 09:37 起被 Ctrl+C 杀（l1-size.log 停更 09:07 亲验=F-045 进行中破口）——队列无对应单，落建议书 `diag_20260825_ouyangfeng-l1-capture-console-killer.md`（R1 排查杀手/R2 空转报警泛化/R3 恢复后游标自动补采）
 - **方法**：执行报告的"另立单建议"不依赖编排者捡——基建硬约束破口终审者当轮接力落书
+
+## 2026-08-25 第二十五场：#520 审查供给端三件套终审 PASS A
+
+- **结论**：PASS A（我的建议书 R1-R3 落地单）。三机制逐行对上：_split_silent_exempt（发送失败的豁免件回 pending 重试不丢=细节到位）、_mark_blocking_chains（语义逐字一致）、check-review-sla 直跑检出本单 0.1h；107+126 passed 复跑一致
+- **有机活体**：R2 徽章打在 #520 自己卡片上（dashboard 恰 1 个 g-BLOCK）；R1 叫醒通道#519 时已活体自证（通知我审单）
+- **观察项**：阻塞链判定按 assignee 同角色，跨角色依赖不标——够用不扩
+- **待活体**：今晚 22:00 后夜间提审叫醒=豁免分支 L3
