@@ -234,9 +234,10 @@ def test_review_done_and_failback_signals(tmp_path, monkeypatch):
     assert sig1["new_failback"] == []
 
     # 第二次扫描：task_a 变 reviewed（终审 PASS）→ new_reviewed 检出
+    # #521 R1：reviewed 元组带 assignee（PASS 路由生产者用），解包三位
     write_queue(reviewed_ids=["task_a"], pending_ids=[], queued_ids=[])
     sig2 = probe._queue_signal(state)
-    assert [t for t, _ in sig2["new_reviewed"]] == ["task_a"]
+    assert [t for t, _, _ in sig2["new_reviewed"]] == ["task_a"]
 
     # 第三次扫描：task_b pending_review → queued（退回）→ new_failback 检出（带 assignee）
     write_queue(reviewed_ids=["task_a"], pending_ids=[], queued_ids=["task_b"])
@@ -415,3 +416,30 @@ def test_undated_file_falls_back_to_created_at(tmp_path, monkeypatch):
                                       created="2026-06-11"),
     })
     assert probe._scan_proposal_near_miss(state) == []
+
+
+# ── #521 R1 回归：PASS 路由生产者（new_reviewed 带 assignee）──
+
+def test_reviewed_carries_assignee_and_routes(tmp_path, monkeypatch):
+    """new_reviewed 元组携带 assignee；按 #443 ASSIGNEE_ROLE 路由到生产者双角色。"""
+    queue = tmp_path / "production-queue.md"
+    SEP = "|:---:|:---|:---|:---:|:---:|---:|:---|:---|:---|"
+    rows = [
+        "| 1 | `task_p_h` | t1 | reviewed | huangyaoshi | x | 无 | t.md | 测试 |",
+        "| 2 | `task_p_l` | t2 | reviewed | laowantong | x | 无 | t.md | 测试 |",
+    ]
+    queue.write_text("# 队列\n\n| # | 任务 | 名称 | 状态 | 负责人 | 交付物 | 依赖 | 任务单 | 备注 |\n"
+                     + SEP + "\n" + "\n".join(rows) + "\n", encoding="utf-8")
+    monkeypatch.setattr(probe, "QUEUE_FILE", queue)
+
+    sig = probe._queue_signal({})
+    assert [(t, a) for t, _s, a in sig["new_reviewed"]] == [
+        ("task_p_h", "huangyaoshi"), ("task_p_l", "laowantong")]
+    buckets = probe._route_queued(sig["new_reviewed"])
+    assert [t for t, _ in buckets["huangyaoshi"]] == ["task_p_h"]
+    assert [t for t, _ in buckets["laowantong"]] == ["task_p_l"]
+
+    # 幂等：重扫不重复检出
+    state2 = {}
+    probe._queue_signal(state2)
+    assert probe._queue_signal(state2)["new_reviewed"] == []

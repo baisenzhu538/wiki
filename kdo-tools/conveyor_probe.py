@@ -124,21 +124,22 @@ def _queue_signal(state: dict) -> dict:
     rows = parse_queue(QUEUE_FILE)
     review = [(r["task_id"], r["seq"]) for r in rows if r["status"] == "pending_review"]
     queued = [(r["task_id"], r["seq"], r.get("assignee", "")) for r in rows if r["status"] == "queued"]
-    reviewed = [(r["task_id"], r["seq"]) for r in rows if r["status"] == "reviewed"]
+    reviewed = [(r["task_id"], r["seq"], r.get("assignee", "")) for r in rows if r["status"] == "reviewed"]
     last_review = state.get("last_review_pending", [])
     last_queued = state.get("last_queued", [])
     last_reviewed = state.get("last_reviewed", [])
     new_review = [(t, s) for t, s in review if t not in last_review]
     new_queued = [(t, s, a) for t, s, a in queued if t not in last_queued]
     # #462：流转完成信号——new_reviewed（新增终审通过）/ new_failback（pending_review→queued 退回）
-    new_reviewed = [(t, s) for t, s in reviewed if t not in last_reviewed]
+    # #521 R1：reviewed 携带 assignee（PASS 按生产者路由，复用 #443 ASSIGNEE_ROLE）
+    new_reviewed = [(t, s, a) for t, s, a in reviewed if t not in last_reviewed]
     now_pending = {t for t, _ in review}
     new_failback = [(t, s) for t, s in review if False]  # 占位（failback 需对比上次 pending 快照）
     # failback = 上次 pending_review 里的任务，现在既不在 pending 也不在 reviewed（=退回 queued）
-    failback_candidates = [t for t in last_review if t not in now_pending and t not in {x for x, _ in reviewed}]
+    failback_candidates = [t for t in last_review if t not in now_pending and t not in {x for x, _, _ in reviewed}]
     new_failback = [(t, s, a) for t, s, a in queued if t in failback_candidates]
     state["last_review_pending"], state["last_queued"] = [t for t, _ in review], [t for t, _, _ in queued]
-    state["last_reviewed"] = [t for t, _ in reviewed]
+    state["last_reviewed"] = [t for t, _, _ in reviewed]
     return {
         "new_review": new_review, "new_queued": new_queued,
         "new_reviewed": new_reviewed, "new_failback": new_failback,
@@ -444,7 +445,7 @@ def _scan_issue_no_disposition(state: dict, new_reviewed: list) -> list[str]:
         return []
     notified = set(state.get("issue_disposition_notified", []))
     hits = []
-    for task_id, _seq in new_reviewed:
+    for task_id, _seq, _assignee in new_reviewed:
         if task_id in notified:
             continue
         fp = TASK_DIR / f"{task_id}.md"
@@ -704,9 +705,15 @@ def main() -> int:
         _update_proposal_board_gate(gate_new)
         messages["wangyuyan"] = f"⛔ KDO 门禁拦截 {len(gate_new)} 次（gate-blocked）：{gate_new[0][:70]}{'…' if len(gate_new) > 1 else ''}"
     if queue_sig["new_reviewed"]:
-        # #462：终审完成 → 通知编排者（治编排者盲区——#447 PASS 靠老朱询问才知）
-        items = ", ".join(f"#{seq}" if seq else tid for tid, seq in queue_sig["new_reviewed"])
+        # #521 R1：PASS 按 assignee 路由生产者（复用 #443 ASSIGNEE_ROLE）+ 王语嫣抄送保留；
+        # R2：终审完成类信号豁免夜间静默（老朱 08-25 拍板，exempt_roles 机制 #520 同批建）
+        items = ", ".join(f"#{seq}" if seq else tid for tid, seq, _a in queue_sig["new_reviewed"])
         messages["wangyuyan"] = f"⚖️ KDO 已终审 {len(queue_sig['new_reviewed'])} 单：{items}（待部署/已闭环）"
+        exempt_roles.add("wangyuyan")  # 终审抄送=终审类信号，豁免静默
+        for role, items_r in _route_queued(queue_sig["new_reviewed"]).items():
+            ids = ", ".join(f"#{seq}" if seq else tid for tid, seq in items_r)
+            messages[role] = f"✅ KDO 终审通过 {len(items_r)} 单：{ids}——你的单过了，见任务单终审记录"
+            exempt_roles.add(role)  # PASS 生产者路由=终审类信号，豁免静默
     if issue_no_disp:
         # F-036 第七信号：终审意见 🟠/🟡 无落点 → 提醒欧阳锋补建议书（兜底，不靠用户提醒）
         todo = (f"{len(issue_no_disp)} 单终审意见含 🟠/🟡 但未给落点"
