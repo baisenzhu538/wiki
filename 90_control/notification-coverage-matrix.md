@@ -17,15 +17,15 @@
 | 5 | 门禁拦截（gate-blocked） | conveyor_probe | 推送+看板登记 | 王语嫣 | — | #460 |
 | 6 | 建议书登记（三元组命中） | conveyor_probe `_scan_proposals` | 推送+PROPOSAL-PENDING 登记 | 王语嫣 | — | #421/#506 |
 | 7 | 审查意见 🟠/🟡 无落点 | conveyor_probe F-036 | 推送 | 欧阳锋 | 不豁免 | F-036 第七信号 |
-| 8 | near-miss 三元组违例 | conveyor_probe `_proposal_near_miss` | **仅日志 print** | **无推送对象** | — | ❌ 缺口 G1 |
-| 9 | inbox 新素材 | watch_inbox | **无推送（只写看板待编排区）** | **无推送对象** | — | ❌ 缺口 G2（#530 修复中） |
+| 8 | near-miss 三元组违例 | conveyor_probe `_proposal_near_miss` + `_escalate_near_miss` | 仅日志 print + **≥3 轮未修正升级推王语嫣收件箱**（修正自动消项） | 王语嫣 | defer（非终审类） | ✅ #536 销项 |
+| 9 | inbox 新素材 | watch_inbox `_notify_inbox` | 看板待编排区 + **王语嫣收件箱推送** | 王语嫣 | defer（P0 也静默落盘带 🔕） | ✅ #530 销项 |
 | 10 | friction 事件 | conveyor_probe `_scan_friction` | memory_capsule 事件层 | 复盘层可见 | — | #511 |
 
 ## 缺口台账
 
-- **G1**：near-miss 只留日志不推送，无处置 SLA——2026-08-26 实证：老顽童两份建议书 near-miss 报了十几轮无人捞，靠老朱追问才处理。待立项：超 N 轮未处置升级推王语嫣收件箱。
-- **G2**：inbox 素材检测到→只写看板——#530 已立项修复中（黄药师 P1）。
-- **O1（观察项）**：FAIL 退回通知夜间静默 defer 到天亮——FAIL 是「返工优先」却延迟送达，口径待裁（非阻塞，夜间本就不开工）。
+- ~~**G1**：near-miss 只留日志不推送~~ → **已销项（2026-08-26 #536）**：≥3 轮未修正升级推王语嫣收件箱+修正自动消项+静默 defer 天亮补发，回归 4 例锁定
+- ~~**G2**：inbox 素材检测到→只写看板~~ → **已销项（2026-08-26 #530，终审 PASS A）**：检测到即推王语嫣收件箱，幂等同 scan 判重键
+- **O1（观察项）**：FAIL 退回通知夜间静默 defer 到天亮——FAIL 是「返工优先」却延迟送达，口径待裁（非阻塞，夜间本就不开工）。#535 已加收件箱置顶，推送层 defer 口径仍留本项
 
 ## 消费端纪律（机制送达 ≠ 被消费）
 

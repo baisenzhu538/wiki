@@ -432,6 +432,44 @@ def _scan_friction(state: dict) -> list[str]:
     return new_lines
 
 
+def _escalate_near_miss(state: dict, misses: list[str], dry_run: bool, silent: bool) -> None:
+    """#536：near-miss 超期升级推送——同一文件 ≥3 轮（≈30 分钟）仍未修正 → 推王语嫣收件箱。
+
+    - state 记账：near_miss_rounds（轮数）/near_miss_first_seen（首次检出 ts）/
+      near_miss_escalated（幂等：同文件同理由不重复推）
+    - 修正消项：不再违例的 key 出账（三元组补齐或转终态后自动消，不重复推）
+    - 夜间静默：near-miss 非终审类——静默期跳过，轮数照计，天亮后首个非静默拍补发
+    """
+    rounds = state.get("near_miss_rounds", {})
+    first_seen = state.get("near_miss_first_seen", {})
+    escalated = set(state.get("near_miss_escalated", []))
+    current = {}
+    for m in misses:
+        key = _sha256(m)
+        fname, _, reason = m.partition("｜")
+        rounds[key] = rounds.get(key, 0) + 1
+        first_seen.setdefault(key, datetime.now().strftime("%Y-%m-%d %H:%M"))
+        current[key] = (fname, reason)
+    for key in list(rounds):  # 修正消项：不再违例即出账
+        if key not in current:
+            rounds.pop(key)
+            first_seen.pop(key, None)
+    fired = [(k, *v) for k, v in current.items() if rounds[k] >= 3 and k not in escalated]
+    if fired and not dry_run and not silent:
+        for key, fname, reason in fired:
+            _append_role_todo(
+                "wangyuyan",
+                f"⚠️ near-miss 超期升级：{fname} 三元组违例已 {rounds[key]} 轮未修正"
+                f"（首检出 {first_seen[key]}；{reason[:60]}）——请捞处置（#536）")
+            escalated.add(key)
+            print(f"📤 near-miss 升级推送: {fname}（{rounds[key]} 轮未修正）")
+    elif fired and silent:
+        print(f"🔕 near-miss 升级 {len(fired)} 件 defer 天亮补发（轮数照计）")
+    state["near_miss_rounds"] = rounds
+    state["near_miss_first_seen"] = first_seen
+    state["near_miss_escalated"] = sorted(escalated)[-200:]
+
+
 def _scan_issue_no_disposition(state: dict, new_reviewed: list) -> list[str]:
     """F-036 第七信号兜底：新终审意见书含 🟠/🟡 但无落点 → 提醒欧阳锋补建议书。
 
@@ -819,6 +857,8 @@ def main() -> int:
             notified.add(_msg_key(role, to_send[role]))
         state["pending_notify"] = {k: v for k, v in to_send.items() if k not in sent}  # 失败留待下次重试
     state["notified"] = sorted(notified)[-200:]  # 只留最近 200 条防膨胀
+    # #536：near-miss 超期升级（≥3 轮未修正推王语嫣收件箱；修正自动消项；静默期 defer）
+    _escalate_near_miss(state, near_miss, args.dry_run, silent)
     # dry-run 不保存 state——否则会消费真实信号（通知去重/提醒去重被 dry-run 吞掉，
     # 真实运行"通知 0 条"）——2026-08-24 F-036 实害实证：dry-run 消费后待办不落盘
     if not args.dry_run:
