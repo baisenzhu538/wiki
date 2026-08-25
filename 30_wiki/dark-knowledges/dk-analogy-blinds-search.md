@@ -2,14 +2,14 @@
 id: dk-analogy-blinds-search
 title: 类比遮蔽检索：比喻带来「已理解」错觉，跳过实体验证
 type: dark-knowledge
-status: draft
+status: reviewed
 confidence: 0.85
 trust_level: high
 domain:
 - ai-basic
 - kdo
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 created_at: '2026-08-25'
 updated_at: '2026-08-25'
 source_person: 小昭（消费端贡献首例——检索检测报告发现者）

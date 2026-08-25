@@ -2,14 +2,14 @@
 id: bridge-two-feature-systems
 title: 「澄清：两套 Feature 体系——KDO 工程 Feature vs AI 能力 Feature」
 type: bridge
-status: draft
+status: reviewed
 confidence: 0.9
 trust_level: high
 domain:
 - ai-basic
 - kdo
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 created_at: '2026-08-25'
 updated_at: '2026-08-25'
 source_refs:
