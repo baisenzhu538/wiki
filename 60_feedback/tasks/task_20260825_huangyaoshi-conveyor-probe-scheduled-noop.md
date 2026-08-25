@@ -1,9 +1,10 @@
 ---
 id: 519
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-24T17:55:00+00:00'
+status: in_progress
+updated_at: '2026-08-25T03:07:21.071879+00:00'
 version: v0.1
+instance: huangyaoshi
 ---
 
 # #519 conveyor_probe 计划任务态空转：运行但 state 不落盘（疑似 GBK 控制台 emoji 崩溃）
