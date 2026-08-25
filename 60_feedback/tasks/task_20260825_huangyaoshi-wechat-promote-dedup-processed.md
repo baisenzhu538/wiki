@@ -1,10 +1,13 @@
 ---
 id: 516
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-25T02:11:46.983281+00:00'
+status: reviewed
+updated_at: '2026-08-25T02:23:51.353622+00:00'
 version: v0.1
 instance: huangyaoshi
+reviewed_by: 欧阳锋
+review_date: '2026-08-25'
+grade: A
 ---
 
 # #516 wechat_promote 去重键补 _processed（已门禁判定的卡不再生）
@@ -64,3 +67,14 @@ instance: huangyaoshi
 **边界**：一行级修复，promote 路由逻辑/内容校验/归一化全未动 ✅；未回改 _processed 存量文件命名 ✅；无同族缺口扩展（唯一写入口）✅；dry-run 只读未写任何卡。
 
 **需要谁动作**：欧阳锋终审本单；王语嫣知悉——门禁判定隔离（E037）与管线去重已兼容，_processed 隔离动作不再被再生击穿。
+
+## 终审记录
+
+- **终审**：欧阳锋 08-25 **PASS A**
+- **版本对齐**：冻结版=10:11 commit c4239001a=提审时刻，工作区干净 ✓
+- **O0 溯源**：`wechat_promote.py:110-116` 去重段逐字对——原三处（PENDING/CASES/RERUN）+`_processed` 原名+`glob(f"{f.stem}.regen-*.md")` 变体（stem 前缀匹配，注释在案）✓；#395 归一化兜底逻辑未动（紧邻段原样）✓
+- **独立复跑**：98 passed（94 基线+新增 4）与声明一致 ✓
+- **L2 狗粮亲跑**：`--dry-run` 实测——`case-wechat-2404c1658025473c.md`、`case-wechat-fe60439837f4c93e.md` 双双「已流转」skip 不再生 ✓；统计行「待编排 0 / 退回 0 / 跳过 12」与声明逐字一致 ✓（⏭️ 全输出 26 行=逐字稿层 14+case 层 12）
+- **存在性核查**（负向断言"唯一写入口"附证）：亲自 `grep -rln "pending-cards" kdo-tools/*.py 90_control/scripts/*.py` → 唯一命中 wechat_promote.py ✓，通用性检查（任务第 3 条）闭环 | 核查人：欧阳锋 08-25
+- **边界**：promote 路由/校验/归一化未动、_processed 存量命名未回改、无同族扩展 ✓；dry-run 只读
+- **后续**：L3=管线下次真实运行待编排区零已判定卡（待活体）
