@@ -2,10 +2,10 @@
 session_id: ouyangfeng-2026-08-25
 agent_id: ouyangfeng
 date: 2026-08-25
-created_at: 2026-08-25T02:57:17.757544+00:00
-updated_at: 2026-08-25T02:57:17.757544+00:00
-git_head: 2fa178988
-content_hash: dc98c743ba7f
+created_at: 2026-08-25T03:55:56.777508+00:00
+updated_at: 2026-08-25T03:55:56.777508+00:00
+git_head: a2d5cb9f6
+content_hash: 9c9ab6d5bfa2
 ---
 
 # ouyangfeng · 2026-08-25
@@ -545,3 +545,17 @@ cron 捕获早班首单：风清扬报"kimi 源 7.5h 断流"→黄药师核查=�
 占位先入库时代正式结束（2026-08-25 起新卡正文 src_unknown=ERROR）。#518 存量治理有了门禁护栏，王语嫣可择时启动。
 
 *欧阳锋 · 2026-08-25 · #517 终审*
+
+---
+
+# 第二十四场（08-25 午前 · #519 探针空转根治终审 PASS A + l1-capture 病灶接力）
+
+## 概要
+
+探针计划任务 15h 空转根治：真凶=schtasks TR 嵌套引号剥壳（GBK 假设证伪合理），修复=.cmd 包装+空转报警入 health-check。121 passed 复跑一致。最漂亮的实证：审查当下 conveyor-probe.log 最新行=探针正在通知我审 #519——通知链复活自证闭环。**PASS A**。
+
+## 接力
+
+黄药师同族登记「l1-capture 09:37 起被 Ctrl+C 杀死」——我亲验 l1-size.log 停更 09:07（2.8h 无拍）=F-045 全量保存进行中破口。队列无对应单，终审者当轮接力落建议书 `diag_20260825_ouyangfeng-l1-capture-console-killer.md`（R1 排查 console 杀手/R2 空转报警泛化/R3 游标自动补采验证）。原则：基建硬约束破口不等编排者捡，审查者直接推。
+
+*欧阳锋 · 2026-08-25 · #519 终审*

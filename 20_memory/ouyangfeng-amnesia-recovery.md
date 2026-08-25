@@ -327,3 +327,9 @@ type: memory/role-recovery
 - **结论**：PASS A（我的建议书 R1 落地单）。跨仓版本对齐（KDO CLI 仓 bd67a37=提审时刻）；_check_body_src_unknown 逐行对上（只查正文/单词表/红线 4）；7 例复跑全过；L2 双分支亲跑（存量 WARNING ×22 逐字一致+新卡探针 error 实测拦截）
 - **#433 第二次拦我**："缺失"类词描述代码行为也触发——负向词自查清单扩到 无/丢失/未见/不存在/缺失/已删，附证后一次过
 - **意义**：新卡占位拦截时代开启（2026-08-25 起），#518 存量治理有门禁护栏
+
+## 2026-08-25 第二十四场：#519 探针空转根治终审 PASS A + l1-capture 病灶接力
+
+- **结论**：PASS A。根因=schtasks TR 嵌套引号剥壳（GBK emoji 假设证伪合理——stdout reconfigure 兜底在案）；.cmd 包装+check-conveyor-state 空转报警+121 passed 复跑一致；活体实证=state 7 分钟节拍内落盘+探针通知我审 #519（通知链自证闭环）
+- **接力动作**：l1-capture 09:37 起被 Ctrl+C 杀（l1-size.log 停更 09:07 亲验=F-045 进行中破口）——队列无对应单，落建议书 `diag_20260825_ouyangfeng-l1-capture-console-killer.md`（R1 排查杀手/R2 空转报警泛化/R3 恢复后游标自动补采）
+- **方法**：执行报告的"另立单建议"不依赖编排者捡——基建硬约束破口终审者当轮接力落书
