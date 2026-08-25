@@ -383,3 +383,9 @@ type: memory/role-recovery
 - **结论**：PASS A。三路引用识别（字面/stem/glob 展开——glob 是关键，触发卡 layered-system 字面抓不到 glob 抓到）；142+127 passed 复跑一致；gate 亲跑 exit 0 新 0/存量 23 与 baseline 一致；清单双格式落盘
 - **观察项**：23 条混硬依赖（CLAUDE.md 数据链）与软引用（agent-spec 互链）——过审排序按硬依赖优先，清单 v2 宜标引用类型（已嵌入终审记录送达王语嫣，未另立建议书——责任人本单有动作项=落点已有）
 - **我的欠账**：layered-system 等 23 张被依赖 draft 卡等我过审——等王语嫣编排过审批次单
+
+## 2026-08-25 第三十三场：#529 口喷口述补充批终审 PASS A
+
+- **结论**：PASS A（P1 口径）。来源层抽验 3 处锚点逐字全对（A264/A1622/B6010——B6014 数字矛盾系素材本身，照引+待核注=正确处置）；逻辑层同构映射表 95% 不重复建卡成立；专名校注表嵌卡（待核项不改原文）
+- **review_mark 细则**：补强 3 卡本已 reviewed（#487 批）status 不动；新增 3 卡补 mark
+- **pre-submit 复跑 6 文件 PASS**（12 WARNING 存量级）
