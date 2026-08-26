@@ -1,12 +1,12 @@
 ---
 id: 541
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-26T11:00:00+00:00'
+status: in_progress
+updated_at: '2026-08-26T15:02:02.801340+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
-  - kdo-tools/mcp/
+- kdo-tools/mcp/
 ---
 
 # #541 检索层 trust_level 加权 + 低置信冲突警告（小昭事故根因 2，工具层）
