@@ -23,9 +23,9 @@ aliases:
 source_context:
   - yitang
 source_refs:
-- 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功方法论入门-口述.txt L1570-L1662
-- 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功拆解-口述.txt L1150-L1206
-- 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功方法论武器库-口述.txt L156-L196
+- 10_raw/sources/manage-the-team/Fundamentals Seminar/一堂-基本功方法论入门-口述.txt:1570-1662
+- 10_raw/sources/manage-the-team/Fundamentals Seminar/一堂-基本功拆解-口述.txt:1150-1206
+- 10_raw/sources/manage-the-team/Fundamentals Seminar/一堂-基本功方法论武器库-口述.txt:156-196
 - 00_inbox/Manage the team/Fundamentals Seminar/_vlm_output/一堂DOC-20260711110401_vlm.md
 discoverable_by:
   - 基本功段位体系：L1-L6 爬山图 × SABC 岗位阶段

@@ -24,7 +24,7 @@ aliases:
 source_context:
   - yitang
 source_refs:
-- 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功落地案例篇-春萍-口述.txt L1810-L2117
+- 10_raw/sources/manage-the-team/Fundamentals Seminar/一堂-基本功落地案例篇-春萍-口述.txt:1810-2117
 discoverable_by:
   - AI 时代基本功的变与不变：拆建不变，推练变形，AI 是外骨
   - 时代基本功的变与不变

@@ -23,7 +23,7 @@ aliases:
 source_context:
   - yitang
 source_refs:
-- 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功方法论入门-口述.txt L104-L360
+- 10_raw/sources/manage-the-team/Fundamentals Seminar/一堂-基本功方法论入门-口述.txt:104-360
 - 00_inbox/Manage the team/Fundamentals Seminar/_vlm_output/整合笔记_苦练基本功完整版.md
 discoverable_by:
   - 基本功定义：针对具体场景的独立可检验动作，重复形成复利

@@ -24,7 +24,7 @@ aliases:
 source_context:
   - yitang
 source_refs:
-- 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功落地案例篇-春萍-口述.txt L654-L866
+- 10_raw/sources/manage-the-team/Fundamentals Seminar/一堂-基本功落地案例篇-春萍-口述.txt:654-866
 - 30_wiki/personal-os/zhu-feedback-patterns.md
 - 70_product/tasks/task_20260711_wangyuyan-agent-fundamentals-cultivation.md
 discoverable_by:

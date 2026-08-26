@@ -20,7 +20,7 @@ aliases:
 source_context:
   - yitang
 source_refs:
-- 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功方法论入门-口述.txt L240-L300
+- 10_raw/sources/manage-the-team/Fundamentals Seminar/一堂-基本功方法论入门-口述.txt:240-300
 - 00_inbox/Manage the team/Fundamentals Seminar/_vlm_output/拆解卡-六维分析-05_vlm.md
 - 00_inbox/Manage the team/Fundamentals Seminar/_vlm_output/基本功武器库_vlm.md
 discoverable_by:
