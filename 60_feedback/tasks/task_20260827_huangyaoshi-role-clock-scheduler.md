@@ -1,12 +1,12 @@
 ---
 id: 553
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-27T01:05:00+00:00'
+status: in_progress
+updated_at: '2026-08-26T21:52:58.183162+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
-  - kdo-tools/role_clock.py
+- kdo-tools/role_clock.py
 ---
 
 # #553 role_clock 角色心跳调度器 + schtasks 挂载（#525 四拆之二）
