@@ -24,8 +24,8 @@ aliases:
 source_context:
   - yitang
 source_refs:
-- 00_inbox/一堂-机会预判-咖啡店案例-五步法预判_paddle_ocr.txt L1-L5
-- 00_inbox/一堂-机会预判-咖啡案例01_paddle_ocr.txt L1-L20
+- 10_raw/sources/yitang-lectures/一堂-机会预判-咖啡店案例-五步法预判_paddle_ocr.txt:1-5
+- 10_raw/sources/yitang-lectures/一堂-机会预判-咖啡案例01_paddle_ocr.txt:1-20
 discoverable_by:
   - 机会预判·五步法预判：选项池收敛为店型剧本 × 五步矩阵出口
   - 机会预判

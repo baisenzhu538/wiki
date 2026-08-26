@@ -24,8 +24,8 @@ aliases:
 source_context:
   - 口述
 source_refs:
-- 00_inbox/一堂-成瘾与自我管理分享-口述.md#L1255-L1387
-- 00_inbox/一堂-成瘾与自我管理分享-口述.md#L1261-L1387
+- 10_raw/sources/yitang-lectures/一堂-成瘾与自我管理分享-口述.md:1255-1387
+- 10_raw/sources/yitang-lectures/一堂-成瘾与自我管理分享-口述.md:1261-1387
 - 60_feedback/diagnosis/diag_20260823_wangyuyan-shushui-addiction-supplement.md#L1-L60
 related:
 - concept-addiction-threshold

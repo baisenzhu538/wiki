@@ -38,7 +38,7 @@ source_context:
   - 口述
   - yitang
 source_refs:
-- 00_inbox/一堂-个人修炼-讲香十指模型口述版.txt L36-L80
+- 10_raw/sources/yitang-lectures/一堂-个人修炼-讲香十指模型口述版.txt:36-80
 - 00_inbox/一堂-个人修炼-讲香基本功_paddle_ocr.txt
 - 00_inbox/一堂-个人修炼-表达力火箭模型_paddle_ocr.txt
 - 00_inbox/一堂-个人修炼-表达力火箭模型-执行武器库_paddle_ocr.txt

@@ -57,7 +57,13 @@ aliases:
 - 落地工具箱19张卡牌
 source_refs:
 - 10_raw/sources/src_20260510_f2a1d58b-一堂泛产品设计落地工具箱指南-堂.md
-- 00_inbox/一堂-个人修身-泛产品设计实操口述版.md L2750-L2920,L4082-L4140,L4234-L4348,L4456-L4588,L4716-L4870,L5066-L5080,L5100-L5170
+- 10_raw/sources/yitang-lectures/一堂-个人修身-泛产品设计实操口述版.md:2750-2920
+- 10_raw/sources/yitang-lectures/一堂-个人修身-泛产品设计实操口述版.md:4082-4140
+- 10_raw/sources/yitang-lectures/一堂-个人修身-泛产品设计实操口述版.md:4234-4348
+- 10_raw/sources/yitang-lectures/一堂-个人修身-泛产品设计实操口述版.md:4456-4588
+- 10_raw/sources/yitang-lectures/一堂-个人修身-泛产品设计实操口述版.md:4716-4870
+- 10_raw/sources/yitang-lectures/一堂-个人修身-泛产品设计实操口述版.md:5066-5080
+- 10_raw/sources/yitang-lectures/一堂-个人修身-泛产品设计实操口述版.md:5100-5170
 status: reviewed
 title: 泛产品设计·落地工具箱（19张卡牌）
 type: framework

@@ -28,10 +28,10 @@ aliases:
 source_context: 拆书会第 216 期《成瘾》——王语嫣诊断 D-20260823-015，转述二等（原书一等）
 source_person: 安娜·伦布克（原书作者）
 source_refs:
-- 00_inbox/拆书会第216期：《成瘾》逐字稿.md#L179-L215
-- 00_inbox/拆书会第216期：《成瘾》逐字稿.md#L181-L215
-- 00_inbox/拆书会第216期：《成瘾》逐字稿.md#L185-L215
-- 00_inbox/拆书会第216期：《成瘾》逐字稿.md#L193-L215
+- 10_raw/sources/yitang-lectures/拆书会第216期：《成瘾》逐字稿.md:179-215
+- 10_raw/sources/yitang-lectures/拆书会第216期：《成瘾》逐字稿.md:181-215
+- 10_raw/sources/yitang-lectures/拆书会第216期：《成瘾》逐字稿.md:185-215
+- 10_raw/sources/yitang-lectures/拆书会第216期：《成瘾》逐字稿.md:193-215
 - 60_feedback/diagnosis/diag_20260823_wangyuyan-addiction-book-diagnosis.md#L20-L40
 related:
 - concept-pleasure-pain-balance

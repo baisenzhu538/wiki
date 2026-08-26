@@ -48,7 +48,7 @@ related:
 reviewed_by: 欧阳锋
 source_refs:
 - 10_raw/sources/src_20260522_89529426-ocr-泛产品设计-审美卡片-最佳实践建模.md
-- 00_inbox/一堂-个人修身-泛产品设计审美口述.md L3424-L3600
+- 10_raw/sources/yitang-lectures/一堂-个人修身-泛产品设计审美口述.md:3424-3600
 status: reviewed
 title: yt-panproduct-aesthetic-modeling
 type: concept

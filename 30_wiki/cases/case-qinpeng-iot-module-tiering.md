@@ -21,8 +21,8 @@ source_context:
   - 一堂产品内核验证课 - 产品内核分层+过度细化案例
   - yitang
 source_refs:
-- 00_inbox/一堂-产品内核验证课-Truman-口述.txt L1300-L1658
-- 00_inbox/一堂-产品内核验证课-Truman-口述.txt L1714-L2070
+- 10_raw/sources/yitang-lectures/一堂-产品内核验证课-Truman-口述.txt:1300-1658
+- 10_raw/sources/yitang-lectures/一堂-产品内核验证课-Truman-口述.txt:1714-2070
 created_at: '2026-07-08'
 updated_at: '2026-07-08'
 author: 老顽童

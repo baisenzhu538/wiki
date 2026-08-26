@@ -21,9 +21,9 @@ source_context:
   - 一堂产品内核验证课 - 洗发水产品内核验证完整案例 + 一堂产品内核系列课
   - yitang
 source_refs:
-- 00_inbox/一堂-产品内核验证课-Truman-口述.txt L1026-L1296
-- 00_inbox/一堂-产品内核迭代课-Truman-口述.txt L1304-L1346
-- 00_inbox/一堂-产品内核迭代课-Truman-口述.txt L3018-L3400
+- 10_raw/sources/yitang-lectures/一堂-产品内核验证课-Truman-口述.txt:1026-1296
+- 10_raw/sources/yitang-lectures/一堂-产品内核迭代课-Truman-口述.txt:1304-1346
+- 10_raw/sources/yitang-lectures/一堂-产品内核迭代课-Truman-口述.txt:3018-3400
   - src_unknown
   - src_unknown
 created_at: '2026-06-11'

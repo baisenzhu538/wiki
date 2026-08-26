@@ -38,7 +38,7 @@ related:
 reviewed_by: 欧阳锋
 source_refs:
 - 10_raw/sources/src_20260522_3bc67cbd-ocr-泛产品设计-用户卡片-场景推演.md
-- 00_inbox/一堂-个人修身-泛产品设计实操口述版.md L2750-L2936
+- 10_raw/sources/yitang-lectures/一堂-个人修身-泛产品设计实操口述版.md:2750-2936
 status: reviewed
 title: yt-panproduct-demand-scenario-walkthrough
 type: concept

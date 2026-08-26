@@ -28,10 +28,10 @@ aliases:
 source_context: 拆书会第 216 期《成瘾》——王语嫣诊断 D-20260823-015，转述二等（原书一等）
 source_person: 安娜·伦布克（原书作者）
 source_refs:
-- 00_inbox/拆书会第216期：《成瘾》逐字稿.md#L220-L265
-- 00_inbox/拆书会第216期：《成瘾》逐字稿.md#L227-L245
-- 00_inbox/拆书会第216期：《成瘾》逐字稿.md#L250-L270
-- 00_inbox/拆书会第216期：《成瘾》逐字稿.md#L258-L270
+- 10_raw/sources/yitang-lectures/拆书会第216期：《成瘾》逐字稿.md:220-265
+- 10_raw/sources/yitang-lectures/拆书会第216期：《成瘾》逐字稿.md:227-245
+- 10_raw/sources/yitang-lectures/拆书会第216期：《成瘾》逐字稿.md:250-270
+- 10_raw/sources/yitang-lectures/拆书会第216期：《成瘾》逐字稿.md:258-270
 related:
 - concept-pleasure-pain-balance
 - framework-dopamine-recovery

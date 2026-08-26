@@ -21,8 +21,8 @@ source_context:
   - 一堂产品内核迭代课 - 产品内核加法→减法案例
   - yitang
 source_refs:
-- 00_inbox/一堂-产品内核迭代课-Truman-口述.txt L194-L657
-- 00_inbox/一堂-产品内核迭代课-Truman-口述.txt L700-L1150
+- 10_raw/sources/yitang-lectures/一堂-产品内核迭代课-Truman-口述.txt:194-657
+- 10_raw/sources/yitang-lectures/一堂-产品内核迭代课-Truman-口述.txt:700-1150
 created_at: '2026-07-08'
 updated_at: '2026-07-08'
 author: 老顽童

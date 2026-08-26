@@ -14,7 +14,7 @@ source_context:
   - 一堂产品内核验证课（2024年新课·五步法实操篇第二课）
   - yitang
 source_refs:
-- 00_inbox/一堂-产品内核验证课-Truman-口述.txt
+- 10_raw/sources/yitang-lectures/一堂-产品内核验证课-Truman-口述.txt
 - 00_inbox/一堂-产品内核验证课-truman-笔记.txt
 - 00_inbox/精益创业/一堂-低成本验证-认知篇-口述.txt
 - 00_inbox/精益创业/一堂-低成本验证-实操篇-口述.txt

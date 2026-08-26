@@ -23,8 +23,8 @@ aliases:
 source_context:
   - 口述
 source_refs:
-- 00_inbox/一堂-成瘾与自我管理分享-口述.md#L187-L325
-- 00_inbox/一堂-成瘾与自我管理分享-口述.md#L187-L260
+- 10_raw/sources/yitang-lectures/一堂-成瘾与自我管理分享-口述.md:187-325
+- 10_raw/sources/yitang-lectures/一堂-成瘾与自我管理分享-口述.md:187-260
 - 60_feedback/diagnosis/diag_20260823_wangyuyan-shushui-addiction-supplement.md#L1-L60
 related:
 - concept-pleasure-pain-balance

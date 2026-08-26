@@ -64,7 +64,13 @@ source_context:
   - yitang
 source_refs:
 - 10_raw/sources/src_20260522_726a6a3b-ocr-泛产品设计-需求工具箱指南.md
-- 00_inbox/一堂-个人修身-泛产品设计实操口述版.md L1796,L1808-L1870,L1936-L2096,L2370-L2417,L4350-L4450,L5070-L5170,L5420-L5460
+- 10_raw/sources/yitang-lectures/一堂-个人修身-泛产品设计实操口述版.md:1796
+- 10_raw/sources/yitang-lectures/一堂-个人修身-泛产品设计实操口述版.md:1808-1870
+- 10_raw/sources/yitang-lectures/一堂-个人修身-泛产品设计实操口述版.md:1936-2096
+- 10_raw/sources/yitang-lectures/一堂-个人修身-泛产品设计实操口述版.md:2370-2417
+- 10_raw/sources/yitang-lectures/一堂-个人修身-泛产品设计实操口述版.md:4350-4450
+- 10_raw/sources/yitang-lectures/一堂-个人修身-泛产品设计实操口述版.md:5070-5170
+- 10_raw/sources/yitang-lectures/一堂-个人修身-泛产品设计实操口述版.md:5420-5460
 status: reviewed
 title: 泛产品设计·需求工具箱（13张卡牌）
 type: framework

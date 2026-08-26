@@ -27,14 +27,14 @@ aliases:
   - 技能
   - 产品内核加减法
 source_context:
-  - 00_inbox/一堂-产品内核实操课-Truman-口述.txt L2378-L2416
-  - 00_inbox/一堂-产品内核实操课-Truman-口述.txt L190-L194
+  - 10_raw/sources/yitang-lectures/一堂-产品内核实操课-Truman-口述.txt:2378-2416
+  - 10_raw/sources/yitang-lectures/一堂-产品内核实操课-Truman-口述.txt:190-194
   - yitang
-  - 00_inbox/一堂-产品内核实操课-Truman-口述.txt L2378-L2416
-  - 00_inbox/一堂-产品内核实操课-Truman-口述.txt L190-L194
+  - 10_raw/sources/yitang-lectures/一堂-产品内核实操课-Truman-口述.txt:2378-2416
+  - 10_raw/sources/yitang-lectures/一堂-产品内核实操课-Truman-口述.txt:190-194
 source_context:
-  - 00_inbox/一堂-产品内核实操课-Truman-口述.txt L2378-L2416
-  - 00_inbox/一堂-产品内核实操课-Truman-口述.txt L190-L194
+  - 10_raw/sources/yitang-lectures/一堂-产品内核实操课-Truman-口述.txt:2378-2416
+  - 10_raw/sources/yitang-lectures/一堂-产品内核实操课-Truman-口述.txt:190-194
   - yitang
 source_refs:
 - ## 来源

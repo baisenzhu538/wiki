@@ -28,7 +28,7 @@ source_context:
   - 口述
   - yitang
 source_refs:
-- 00_inbox/一堂-个人修炼-讲香十指模型口述版.txt L36-L80
+- 10_raw/sources/yitang-lectures/一堂-个人修炼-讲香十指模型口述版.txt:36-80
 - 10_raw/sources/src_20260802_讲香基本功-李頔-口述.txt
 related:
 - framework-一堂-个人表达力

@@ -41,7 +41,7 @@ related:
 reviewed_by: 欧阳锋
 source_refs:
 - 10_raw/sources/src_20260522_11d721ac-ocr-泛产品设计-用户卡片-用户视角.md
-- 00_inbox/一堂-个人修身-泛产品设计实操口述版.md L1936-L2115
+- 10_raw/sources/yitang-lectures/一堂-个人修身-泛产品设计实操口述版.md:1936-2115
 status: reviewed
 title: yt-panproduct-demand-user-perspective
 type: concept

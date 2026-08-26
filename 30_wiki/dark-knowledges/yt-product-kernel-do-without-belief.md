@@ -18,8 +18,8 @@ aliases:
   - 执行了流程
   - 相信结果
 source_refs:
-- 00_inbox/一堂-产品内核实操课-Truman-口述.txt L2776-L2806
-- 00_inbox/一堂-产品内核实操课-Truman-口述.txt L2782-L2796
+- 10_raw/sources/yitang-lectures/一堂-产品内核实操课-Truman-口述.txt:2776-2806
+- 10_raw/sources/yitang-lectures/一堂-产品内核实操课-Truman-口述.txt:2782-2796
 created_at: '2026-06-19'
 updated_at: '2026-07-08'
 author: 老顽童

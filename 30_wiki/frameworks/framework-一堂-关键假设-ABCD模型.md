@@ -23,7 +23,8 @@ source_context:
   - yitang
 source_refs:
 - 00_inbox/一堂-关键假设-关键假设ABCD模型_paddle_ocr.txt
-- 00_inbox/一堂-关键假设课-truman-口述.txt L364-L402,L1064-L1074
+- 10_raw/sources/yitang-lectures/一堂-关键假设课-truman-口述.txt:364-402
+- 10_raw/sources/yitang-lectures/一堂-关键假设课-truman-口述.txt:1064-1074
 related:
 - '[[framework-一堂-关键假设]]'
 - '[[tool-一堂-关键假设-ABCD场景分类器]]'

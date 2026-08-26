@@ -24,7 +24,7 @@ source_context:
   - yitang
 source_refs:
 - 00_inbox/一堂-关键假设-关键假设ABCD模型_paddle_ocr.txt
-- 00_inbox/一堂-关键假设课-truman-口述.txt L1064-L1074
+- 10_raw/sources/yitang-lectures/一堂-关键假设课-truman-口述.txt:1064-1074
 discoverable_by:
   - 工具：关键假设 ABCD 场景分类器——把问题分到商业/决策
   - 关键假设

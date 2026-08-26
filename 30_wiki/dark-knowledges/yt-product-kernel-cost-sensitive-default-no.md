@@ -22,7 +22,7 @@ source_context:
   - 一堂产品内核实操课——九大原则之成本敏感原则
   - yitang
 source_refs:
-- 00_inbox/一堂-产品内核实操课-Truman-口述.txt
+- 10_raw/sources/yitang-lectures/一堂-产品内核实操课-Truman-口述.txt
 - 00_inbox/一堂-产品内核实操课-truman-笔记.txt
 created_at: '2026-07-08'
 updated_at: '2026-07-08'

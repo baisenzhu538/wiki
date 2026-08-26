@@ -22,7 +22,7 @@ aliases:
   - 愿意选择你的最小解决方案
   - 用户愿意选择你的最小解决方案
 source_refs:
-- 00_inbox/一堂-产品内核实操课-Truman-口述.txt
+- 10_raw/sources/yitang-lectures/一堂-产品内核实操课-Truman-口述.txt
 - 00_inbox/一堂-产品内核实操课-truman-笔记.txt
 tags:
   - audience:general

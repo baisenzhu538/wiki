@@ -21,8 +21,8 @@ source_context:
   - 一堂产品内核迭代课 - 立体车库项目从0到1产品内核迭代案例
   - yitang
 source_refs:
-- 00_inbox/一堂-产品内核迭代课-Truman-口述.txt L700-L1150
-- 00_inbox/一堂-产品内核迭代课-Truman-口述.txt L2069-L2253
+- 10_raw/sources/yitang-lectures/一堂-产品内核迭代课-Truman-口述.txt:700-1150
+- 10_raw/sources/yitang-lectures/一堂-产品内核迭代课-Truman-口述.txt:2069-2253
 created_at: '2026-07-08'
 updated_at: '2026-07-08'
 author: 老顽童

@@ -24,8 +24,8 @@ aliases:
 source_context:
   - yitang
 source_refs:
-- 00_inbox/一堂-机会预判-终局光谱图解读-truman-02_paddle_ocr.txt L1-L5
-- 00_inbox/一堂-机会预判-终局光谱图示例-truman-图01_paddle_ocr.txt L1-L14
+- 10_raw/sources/yitang-lectures/一堂-机会预判-终局光谱图解读-truman-02_paddle_ocr.txt:1-5
+- 10_raw/sources/yitang-lectures/一堂-机会预判-终局光谱图示例-truman-图01_paddle_ocr.txt:1-14
 - 00_inbox/一堂-机会预判-终局光谱图-truman-图01_paddle_ocr.txt
 discoverable_by:
   - 终局光谱图解读：五条读法 + 七段风险/收益量化

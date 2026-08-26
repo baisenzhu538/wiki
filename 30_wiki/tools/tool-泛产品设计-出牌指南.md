@@ -20,7 +20,7 @@ source_refs:
 - 30_wiki/concepts/yt-model-pan-product-demand-toolkit.md
 - 10_raw/ocr-cards/ocr-一堂泛产品设计-多出牌多练习.md
 - 30_wiki/concepts/yt-personal-pan-product-practice.md
-- 00_inbox/一堂-个人修身-泛产品设计实操口述版.md
+- 10_raw/sources/yitang-lectures/一堂-个人修身-泛产品设计实操口述版.md
 discoverable_by:
 - 泛产品设计·出牌指南
 - 泛产品设计

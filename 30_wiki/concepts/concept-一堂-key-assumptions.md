@@ -21,7 +21,11 @@ aliases:
 source_context:
   - yitang
 source_refs:
-- 00_inbox/一堂-关键假设课-truman-口述.txt L364-L402,L584,L818,L1064-L1074,L2460-L2482
+- 10_raw/sources/yitang-lectures/一堂-关键假设课-truman-口述.txt:364-402
+- 10_raw/sources/yitang-lectures/一堂-关键假设课-truman-口述.txt:584
+- 10_raw/sources/yitang-lectures/一堂-关键假设课-truman-口述.txt:818
+- 10_raw/sources/yitang-lectures/一堂-关键假设课-truman-口述.txt:1064-1074
+- 10_raw/sources/yitang-lectures/一堂-关键假设课-truman-口述.txt:2460-2482
 discoverable_by:
   - 关键假设Key Assumption：业务成功依赖的核心前提
   - 关键假设Key

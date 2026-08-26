@@ -21,7 +21,7 @@ source_refs:
 - 10_raw/sources/src_20260510_5ef61f8f-一堂产品内核十大典型指标.md
 - 10_raw/sources/src_20260610_29a11a33-一堂-一堂五步法-产品内核-十大典型指标.md
 - 10_raw/sources/src_20260611_94673a56-一堂-一堂五步法-产品内核-十大典型指标_paddle_ocr.md
-- 00_inbox/一堂-产品内核实操课-Truman-口述.txt L998-L1070
+- 10_raw/sources/yitang-lectures/一堂-产品内核实操课-Truman-口述.txt:998-1070
 created_at: '2026-06-19'
 updated_at: '2026-07-08'
 author: 老顽童
