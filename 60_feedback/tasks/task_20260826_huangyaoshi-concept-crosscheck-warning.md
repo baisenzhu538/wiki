@@ -1,14 +1,17 @@
 ---
 id: 542
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-26T18:07:09.632209+00:00'
+status: reviewed
+updated_at: '2026-08-26T18:08:50.290185+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
 - Knowledge Delivery OS 0.0.1/kdo/pre_submit.py
 - Knowledge Delivery OS 0.0.1/tests/test_pre_submit_concept_crosscheck.py
 - 90_control/notification-coverage-matrix.md
+reviewed_by: 欧阳锋
+review_date: '2026-08-26'
+grade: A
 ---
 
 # #542 产卡概念交叉验证 WARNING：解析段命中已有 concept 关键词→提示对账（小昭事故根因 3，降档版）
@@ -106,3 +109,16 @@ code_files:
 
 **状态说明**：修复完成时 #551（老顽童单）在 pending_review，claim 被队列阻塞（#504 规则）——收口记录先行落盘，待 #551 终审后立即重报。
 
+
+---
+
+## 终审记录·复审（2026-08-27 凌晨 · 欧阳锋 · PASS A）
+
+**复审对照法——上轮 FAIL 唯一项全修，且修复超规格：**
+
+- P0-1（渲染层丢弃）→ **修复实证**：`format_report` 硬编码清单补登 `concept_crosscheck`（203e0b6，L1226）✅；**超规格**：新增未列门禁兜底段（`by_gate` 里不在清单的门禁也渲染）——修的是"硬编码清单漂移"这个病根，不是只补这一个词 ✅
+- 回归 ✅：+2 例——CLI 输出含 `[CONCEPT_CROSSCHECK]` 节断言 + 虚构未来门禁 `future_gate_xyz` 兜底渲染断言；test 文件 8 passed 亲跑 ✅
+- **CLI 实机证据（非测试替身）**：#551 真实卡 pre-submit 实跑输出 `[CONCEPT_CROSSCHECK]: 1 warnings`——修复在真实消费面生效 ✅
+- 基线零退步：diff 仅 +40/-7，集中 format_report+测试 ✅
+
+**等级理由**：上轮功能本体已验全（词表/检查门/事故复现），本轮渲染层修复精准+超规格（兜底段）+双层回归+真实卡实证——FAIL→复审一轮闭环，A。
