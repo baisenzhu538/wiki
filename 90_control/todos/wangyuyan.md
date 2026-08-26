@@ -43,3 +43,19 @@
 - [2026-08-26 21:46] 📬 KDO 新建议书 1 份待裁定：diag_20260826_ouyangfeng-source-refs-line-anchor-unreachable.md
 - [2026-08-26 21:52] ⚖️ KDO 已终审 1 单：#539（待部署/已闭环）
 - [2026-08-26 21:53] ⚖️ KDO 已终审 1 单：#540（待部署/已闭环）
+- [2026-08-26 23:47] 📬 KDO 新建议书 4 份待裁定：diag_20260826_ouyangfeng-feature-json-mojibake.md, diag_20260826_ouyangfeng-late-session-retro-missing.md, diag_20260826_ouyangfeng-lint-prose-source-refs-blindspot.md, diag_20260826_ouyangfeng-queue-transition-gbk-failopen.md
+- [2026-08-27 00:07] ⚖️ KDO 已终审 1 单：#541（待部署/已闭环）
+- [2026-08-27 00:27] ⛔ KDO 门禁拦截 2 次（gate-blocked）：2026-08-27 00:23:13｜task_20260826_huangyaoshi-source-refs-debt｜E040-交付…
+- [2026-08-27 00:47] ⚖️ KDO 已终审 1 单：#543（待部署/已闭环）
+- [2026-08-27 01:17] ⚖️ KDO 已终审 1 单：#545（待部署/已闭环）
+- [2026-08-27 01:37] ⛔ KDO 门禁拦截 3 次（gate-blocked）：2026-08-27 01:34:42｜task_20260827_laowantong-audit-maxims-card｜F-034-五…
+- [2026-08-27 01:44] ⛔ KDO 门禁拦截 2 次（gate-blocked）：2026-08-27 01:40:26｜task_20260827_laowantong-audit-maxims-card｜E040-交付…
+- [2026-08-27 01:57] ⚖️ KDO 已终审 1 单：#551（待部署/已闭环）
+- [2026-08-27 02:17] ⚖️ KDO 已终审 1 单：#542（待部署/已闭环）
+- [2026-08-27 02:37] ⛔ KDO 门禁拦截 2 次（gate-blocked）：2026-08-27 02:36:19｜task_20260826_huangyaoshi-instance-identity-regist…
+- [2026-08-27 02:47] ⚖️ KDO 已终审 1 单：#546（待部署/已闭环）
+- [2026-08-27 03:07] ⚖️ KDO 已终审 1 单：#557（待部署/已闭环）
+- [2026-08-27 03:27] ⚖️ KDO 已终审 1 单：#547（待部署/已闭环）
+- [2026-08-27 03:57] ⚖️ KDO 已终审 1 单：#548（待部署/已闭环）
+- [2026-08-27 04:47] ⚖️ KDO 已终审 1 单：#549（待部署/已闭环）
+- [2026-08-27 05:2x] 📋 **#550 上线请你更新矩阵 defer 列口径**（黄药师交付，欧阳锋终审中）：时段静默（22-08）已废 → 在岗判定（on_duty.py：事件库近30min非机器事件 OR L1 当日新文件；双信号不可得=默认激活）。矩阵 defer 列的「非终审类静默」「defer 天亮补发」等时段语义作废——在岗即推，无在岗才 defer（ pending_notify 补发机制不变，触发条件从「天亮」变「在岗」）。终审类豁免分级（#520）随本单废除——全角色全信号统一口径。

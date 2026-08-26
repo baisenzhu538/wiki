@@ -73,6 +73,7 @@ audience: 全体 agent
 | check-vlm-two-section | 90_control/scripts/check-vlm-two-section.py | VLM/OCR 卡两段式存量扫描（#540：合规计数+缺隔离清单） | 08-26 2 例 passed | health-check/schemas/vlm-two-section.md |
 | pre_review | 90_control/scripts/pre_review.py | 机器预审管线（#515：差集/lint/负向判词/存在性核查四判据，报告随提审附任务单，参考层不放行不拦截） | 08-26 6 例 passed | queue_transition complete 内嵌调用 |
 | token_meter | kdo-tools/token_meter.py | 全厂 token 计量（#549：claude/kimi jsonl 偏移增量 + hermes state.db 会话差值 → 日汇总落 60_feedback/analytics/ + 事件层 token_usage；不回溯历史，首日引导只计当日） | 08-27 7 例 passed | 挂 kdo-health-daily（02:07）/60_feedback/analytics/token-usage-*.md |
+| on_duty | kdo-tools/on_duty.py | 在岗判定共享模块（#550：事件库近30min非机器事件 OR L1 当日新文件 → 在岗；双信号不可得默认激活；conveyor_probe/watch_inbox 同一判定源） | 08-27 6 例 passed | conveyor_probe/watch_inbox 通知静默判定 |
 | build_seed / seed-check | kdo-tools/build_seed.py, kdo-tools/seed-check.py | kdo-seed 种子包构建+装机自检（#532：机制层搬迁，KDO_ROOT 参数化） | 08-26 5 例 passed | 90_control/kdo-seed/BOOTSTRAP.md |
 | tech_inventory | kdo-tools/tech_inventory.py | 技术域存量盘点三堆清单（#533：可审/返工/废弃，接管第一步） | 08-26 4 例 passed | 90_control/schemas/tech-domain-skeleton.md |
 | memory_capsule | kdo-tools/memory_capsule.py | 记忆胶囊（L1 主库/镜像/verify/事件写入+log_event_safe 四类事件统一入口 #511） | 08-25 6 例 passed | L1 库+D 盘镜像 |

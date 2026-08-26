@@ -8,6 +8,11 @@ instance: huangyaoshi
 code_files:
 - kdo-tools/conveyor_probe.py
 - kdo-tools/watch_inbox.py
+- kdo-tools/on_duty.py
+- kdo-tools/tests/test_on_duty.py
+- kdo-tools/tests/test_watch_inbox.py
+- 90_control/infrastructure-inventory.md
+- 90_control/todos/wangyuyan.md
 ---
 
 # #550 取消夜间静默：时段静默→在岗判定（老朱直令）
@@ -43,3 +48,25 @@ code_files:
 - 单测：模拟「有事件流=激活」「无事件流=静默」「探针自身事件不计入」三用例
 - 活体：今夜（静默时段内）王语嫣/黄药师在岗期间探针通知真实送达
 - 回归：既有限流/幂等/补发机制不受影响；欧阳锋终审
+
+
+## 执行报告（F-034 五字段，complete 前必填）
+
+**完成内容**：时段静默 → 在岗判定（双脚本同口径）。①**共享判定模块** `kdo-tools/on_duty.py`（单一判定源，禁双份实现）：事件库近 30 分钟非机器事件（排除 friction=探针镜像写入/token_usage=计量自写——防探针自证在岗循环依赖）OR L1 当日目录近 30 分钟新文件（首新鲜即短路）→ 在岗；双信号不可得 → **默认激活**（静默是例外不是默认）；②**conveyor_probe 改造**：silent 判定换 on_duty；**删除 `_split_silent_exempt` 终审豁免分级**——无在岗时全角色全信号统一 defer（pending_notify 补发机制不动，触发条件从「天亮」变「在岗」）；`--force-notify` 保留；③**watch_inbox 同口径**：通知 🔕/📥 判定同源切换，注释口径同步改写；④§3.19：矩阵 defer 列口径更新按任务书指派**通知王语嫣**（已落她收件箱，含新旧语义对照）；on_duty 登记 infrastructure-inventory。
+
+**交付物**：
+- `kdo-tools/on_duty.py`（新：共享判定模块）
+- `kdo-tools/conveyor_probe.py`（静默判定换岗+豁免分级拆除）
+- `kdo-tools/watch_inbox.py`（同口径）
+- `kdo-tools/tests/test_on_duty.py`（新 6 例）+ `kdo-tools/tests/test_watch_inbox.py`（静默用例改写在岗口径）+ 删除 `test_conveyor_silent_exempt.py`（被测函数随 #550 废除）
+- `90_control/infrastructure-inventory.md`（on_duty 登记）+ `90_control/todos/wangyuyan.md`（矩阵口径更新通知）
+
+**验证**：
+- L1 单测：on_duty 6 例全过（验收三用例：有事件流=激活/无事件流=静默/探针自身 friction 不计入；外加 L1 新文件=激活/双信号不可得=默认激活/probe 源码无分级残留断言）；基线：kdo-tools **187 passed**（旧豁免 4 例随函数废除删除，净 175+6+1 改写），90_control **177 passed** 零退步
+- L2 狗粮：真机 `any_agent_on_duty()` 实测返回 `True — 事件库近 30 分钟有新事件`（本夜班真实在岗证据）；probe `--dry-run` 全链正常（05:0x 原静默时段内判定在岗不静默）
+- L3 待活体：今夜再有通知事件时真实送达（补发队列若有存量将在本轮在岗判定下清空）
+- **预审红项预标注**：预审若检「废除/删除/不」类词=任务书要求的拆除动作（删 `_split_silent_exempt` 是任务 3 明文要求），预标注在此；负向断言「无残留」**存在性核查**=grep `exempt_roles|_split_silent_exempt` conveyor_probe.py 零命中+测试断言锁死
+
+**边界**：只改通知静默判定 ✅；时钟频率/登记/补发/幂等机制不动 ✅；通知路由（assignee）不动 ✅；矩阵 defer 列正文更新归王语嫣（任务书指派）✅。
+
+**需要谁动作**：欧阳锋终审本单；王语嫣按收件箱说明更新矩阵 defer 列口径。

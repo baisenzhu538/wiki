@@ -28,7 +28,9 @@ STATE_FILE = ROOT / ".kdo" / "inbox_state.json"
 QUEUE_DIR = ROOT / "60_feedback" / "inbox-queue"
 PROD_QUEUE = ROOT / "70_product" / "tasks" / "production-queue.md"
 TODOS_WANGYUYAN = ROOT / "90_control" / "todos" / "wangyuyan.md"
-SILENT_START_HOUR, SILENT_END_HOUR = 22, 8  # 夜间静默 22:00–08:00（与 conveyor_probe 同口径）
+SILENT_START_HOUR, SILENT_END_HOUR = 22, 8  # [已废 #550] 时段静默常数保留兼容——判定切 on_duty 在岗制
+
+import on_duty  # #550：在岗判定共享模块（conveyor_probe 同口径，单一判定源）
 BOARD_BEGIN = "<!-- INBOX-PENDING-BEGIN（watch_inbox 自动维护，勿手改） -->"
 BOARD_END = "<!-- INBOX-PENDING-END -->"
 
@@ -126,14 +128,19 @@ def _notify_inbox(discoveries: list[dict]):
     唯独编排触发器没有；08-25 词元经济素材躺看板 50 分钟实证）。
 
     幂等=scan() state 判重同键（discoveries 只含新文件，重跑天然不重复推）。
-    夜间静默口径（任务书拍板）：素材类非终审信号，**P0 也静默**——落盘不丢+
-    🔕 标记，不写飞书（飞书通道随 #525 统一层接管）。
+    静默口径（#550 老朱直令改版）：时段制已废——无 agent 在岗（事件库/L1 双信号判定，
+    on_duty.py）才静默落盘带 🔕；有 agent 在岗一切照常。判定信号不可得=默认激活。
     """
     TODOS_WANGYUYAN.parent.mkdir(parents=True, exist_ok=True)
     if not TODOS_WANGYUYAN.exists():
         TODOS_WANGYUYAN.write_text("# 王语嫣待办\n\n", encoding="utf-8")
     now = datetime.now()
-    silent = now.hour >= SILENT_START_HOUR or now.hour < SILENT_END_HOUR
+    # #550：时段静默 → 在岗判定（老朱直令）；判定异常=默认激活（宁可误激活不可误静默）
+    try:
+        _on, _why = on_duty.any_agent_on_duty()
+    except Exception:
+        _on, _why = True, "判定异常"
+    silent = not _on
     n = len(discoveries)
     p0 = sum(1 for d in discoveries if d["priority"] == "P0")
     names = "、".join(Path(d["file"]).name for d in discoveries[:3])
@@ -142,7 +149,7 @@ def _notify_inbox(discoveries: list[dict]):
             f"{names}{'…' if n > 3 else ''}——请诊断编排（看板待编排段）\n")
     with TODOS_WANGYUYAN.open("a", encoding="utf-8") as f:
         f.write(line)
-    print(f"{bell} 王语嫣收件箱已通知（{n} 项{'，夜间静默落盘' if silent else ''}）")
+    print(f"{bell} 王语嫣收件箱已通知（{n} 项{'，无在岗静默落盘' if silent else ''}）")
 
 
 def update_orchestration_board(discoveries: list[dict]):

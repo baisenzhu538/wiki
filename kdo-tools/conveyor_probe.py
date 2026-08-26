@@ -48,13 +48,14 @@ FORCE_LEDGER = Path(__file__).resolve().parent.parent / "90_control" / "force-ex
 PROPOSAL_BEGIN = "<!-- PROPOSAL-PENDING-BEGIN（自动登记：conveyor_probe.py；勿手改——王语嫣复核后划掉） -->"
 PROPOSAL_BEGIN_OLD = "<!-- PROPOSAL-PENDING-BEGIN（建议书作者自登，王语嫣复核后划掉） -->"  # 迁移兼容旧段头
 PROPOSAL_END = "<!-- PROPOSAL-PENDING-END -->"
-SILENT_START_HOUR, SILENT_END_HOUR = 22, 8  # 夜间静默 22:00–08:00（登记照常，通知不发）
+SILENT_START_HOUR, SILENT_END_HOUR = 22, 8  # [已废 #550] 时段静默常数保留兼容引用——判定已切 on_duty 在岗制
 
 sys.path.insert(0, str(ROOT / "90_control" / "scripts"))
 from queue_gate import parse_queue  # noqa: E402   # 唯一真相源读口，探针零写路径
 from queue_lock import QueueLock  # noqa: E402   # #505：队列文件写点与 queue_transition 同锁
 sys.path.insert(0, str(ROOT / "kdo-tools"))
 import memory_capsule as mc  # noqa: E402   # #511：friction 事件层写入（log_event_safe 失败可见不阻断）
+import on_duty  # noqa: E402   # #550：在岗判定共享模块（时段静默已废——老朱直令，watch_inbox 同口径）
 
 import functools  # noqa: E402
 
@@ -760,16 +761,6 @@ def _send_hook(url: str, text: str, key: str | None = None) -> bool:
         return False
 
 
-def _split_silent_exempt(to_send: dict[str, str], exempt_roles: set[str]) -> tuple[dict[str, str], dict[str, str]]:
-    """#520 R1 夜间静默分级：终审类信号（exempt_roles）豁免静默照常推，其余进待补发。
-
-    老朱 08-25 拍板豁免范围（与 #521 同口径）：终审完成类信号（提审叫醒/PASS 路由）
-    豁免 22-08 静默；可领取/建议书等维持静默。返回 (待补发, 豁免发)。
-    """
-    defer = {r: t for r, t in to_send.items() if r not in exempt_roles}
-    exempt = {r: t for r, t in to_send.items() if r in exempt_roles}
-    return defer, exempt
-
 
 def _notify(messages: dict[str, str], dry_run: bool, silent: bool) -> list[str]:
     """发送通知，返回**真正发送成功**的 role 列表（#421 终审 P1 修复）。
@@ -896,11 +887,9 @@ def main() -> int:
     # #520 R1：终审类信号豁免夜间静默（老朱 08-25 拍板，与 #521 同口径）——
     # 提审叫醒（→审查者）/终审完成（→生产者路由 #521）照常推，可领取/建议书等维持静默。
     # 跟随最终文本类别：非豁免类别覆盖同角色消息时摘除豁免标记。
-    exempt_roles: set[str] = set()
     if queue_sig["new_review"]:
         ids = ", ".join(f"#{seq}" if seq else tid for tid, seq in queue_sig["new_review"])
         messages["ouyangfeng"] = f"🔔 KDO 新提审 {len(queue_sig['new_review'])} 单：{ids}，请终审"
-        exempt_roles.add("ouyangfeng")  # #520 R1：提审叫醒=终审类信号，豁免静默
     if queue_sig["new_queued"]:
         # #443：按 assignee 路由分桶（修硬编码 laowantong——#442 实证通知错人）
         for role, items in _route_queued(queue_sig["new_queued"]).items():
@@ -934,23 +923,19 @@ def main() -> int:
                                  f"{'…' if len(infra_alerts) > 1 else ''}（台账 gate-blocked.log）")
     if queue_sig["new_reviewed"]:
         # #521 R1：PASS 按 assignee 路由生产者（复用 #443 ASSIGNEE_ROLE）+ 王语嫣抄送保留；
-        # R2：终审完成类信号豁免夜间静默（老朱 08-25 拍板，exempt_roles 机制 #520 同批建）
         items = ", ".join(f"#{seq}" if seq else tid for tid, seq, _a in queue_sig["new_reviewed"])
         messages["wangyuyan"] = f"⚖️ KDO 已终审 {len(queue_sig['new_reviewed'])} 单：{items}（待部署/已闭环）"
-        exempt_roles.add("wangyuyan")  # 终审抄送=终审类信号，豁免静默
         for role, items_r in _route_queued(queue_sig["new_reviewed"]).items():
             # #535：落点简报——每单带 结论+等级+返工项/O2 标记（扫描者不再把「没变化」误读为「仍在审」）
             ids = ", ".join(
                 (f"#{seq}" if seq else tid) + (f"（{_review_brief(tid)}）" if _review_brief(tid) else "")
                 for tid, seq in items_r)
             messages[role] = f"✅ KDO 终审通过 {len(items_r)} 单：{ids}——你的单过了，见任务单终审记录"
-            exempt_roles.add(role)  # PASS 生产者路由=终审类信号，豁免静默
     if issue_no_disp:
         # F-036 第七信号：终审意见 🟠/🟡 无落点 → 提醒欧阳锋补建议书（兜底，不靠用户提醒）
         todo = (f"{len(issue_no_disp)} 单终审意见含 🟠/🟡 但未给落点"
                 f"（建议书/停车场/立项）：{', '.join(issue_no_disp[:3])}——请补落点")
         messages["ouyangfeng"] = f"✍️ F-036 提醒：{todo}"
-        exempt_roles.discard("ouyangfeng")  # F-036 非终审类信号：覆盖叫醒文本时摘除豁免
     if queue_sig["new_failback"]:
         # #462：终审退回 → 按 assignee 路由通知（#443 同款；生产者返工不再靠自觉）
         # #535：FAIL 通知带「返工优先」标记，收件箱置顶（E019 完成未闭环优先）
@@ -980,7 +965,6 @@ def main() -> int:
                 print(f"⚠️ 豁免台账写入失败: {e}", file=sys.stderr)
         elif issue:
             messages["ouyangfeng"] = issue
-            exempt_roles.discard("ouyangfeng")  # 非终审类：摘除可能残留的豁免标记
             cc = f"📋 抄送：{issue[:60]}…"
             messages["wangyuyan"] = (messages["wangyuyan"] + "；" + cc) if "wangyuyan" in messages else cc
     if matrix_dirty:
@@ -1005,24 +989,22 @@ def main() -> int:
                 _append_role_todo(role, text)
 
     hour = datetime.now().hour
-    silent = (hour >= SILENT_START_HOUR or hour < SILENT_END_HOUR) and not args.force_notify
+    # #550：时段静默 → 在岗判定（老朱直令）。宁可误激活不可误静默；判定异常=默认激活
+    try:
+        _on_duty, _duty_reason = on_duty.any_agent_on_duty()
+    except Exception:
+        _on_duty, _duty_reason = True, "在岗判定异常"
+    silent = (not _on_duty) and not args.force_notify
 
     # P1 修复（终审）：静默期/dry-run 不消耗配额——静默期变更进 pending 天亮补发，发送成功才记 notified
     pending = state.get("pending_notify", {})
     to_send = {**pending, **deduped}
     if silent:
-        # #520 R1：终审类信号（提审叫醒等，exempt_roles）豁免静默照常推；其余进待补发
-        to_defer, to_exempt = _split_silent_exempt(to_send, exempt_roles)
-        state["pending_notify"] = to_defer
-        if to_defer:
-            print(f"🔕 夜间静默：{len(to_defer)} 条变更进待补发（天亮自动补发）")
-        if to_exempt:
-            sent = _notify(to_exempt, args.dry_run, silent=False)
-            for role in sent:
-                notified.add(_msg_key(role, to_exempt[role]))
-            state["pending_notify"].update({k: v for k, v in to_exempt.items() if k not in sent})
-            if sent:
-                print(f"🔔 夜间静默豁免：终审类信号照常推 {sorted(sent)}（#520 老朱拍板口径）")
+        # #550：角色级别统一——无 agent 在岗时全角色全信号 defer（不分级，豁免分级已废），
+        # 任一 agent 在岗信号出现即随下一轮补发（pending_notify 机制不动）
+        state["pending_notify"] = to_send
+        if to_send:
+            print(f"🔕 无 agent 在岗（{_duty_reason}）：{len(to_send)} 条变更进待补发（在岗即补发）")
     else:
         sent = _notify(to_send, args.dry_run, silent=False)
         for role in sent:
@@ -1049,7 +1031,7 @@ def main() -> int:
     if args.json:
         print(json.dumps(summary, ensure_ascii=False, indent=2))
     else:
-        print(f"[conveyor_probe] 新提审 {len(queue_sig['new_review'])} / 新 queued {len(queue_sig['new_queued'])} / 新登记 {len(registered)} / near-miss {len(near_miss)} / 通知 {len(deduped)} 条{'（夜间静默）' if silent else ''}"
+        print(f"[conveyor_probe] 新提审 {len(queue_sig['new_review'])} / 新 queued {len(queue_sig['new_queued'])} / 新登记 {len(registered)} / near-miss {len(near_miss)} / 通知 {len(deduped)} 条{'（无在岗静默）' if silent else ''}"
               f" / 活性实例 {activity['count']}（{','.join(activity['roles']) or '-'}）")
     return 0
 

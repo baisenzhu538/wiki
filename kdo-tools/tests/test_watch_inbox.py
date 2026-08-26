@@ -49,13 +49,15 @@ def test_rerun_no_duplicate(tmp_path, monkeypatch):
 
 
 def test_night_silent_marker(tmp_path, monkeypatch):
-    """夜间静默（22-08）：落盘不丢+🔕 标记（P0 也静默，任务书口径）。"""
+    """无 agent 在岗=静默落盘带 🔕；有 agent 在岗=正常 📥（#550 在岗判定口径，时段制已废）。"""
     inbox, todos = _sandbox(tmp_path, monkeypatch)
     (inbox / "口述-课程.txt").write_text("y" * 300, encoding="utf-8")  # P0 关键词命中
-    monkeypatch.setattr(wi, "datetime", type("dt", (), {
-        "now": staticmethod(lambda *a, **k: datetime(2026, 8, 26, 23, 30)),
-        "strftime": datetime.strftime,
-    }))
+    monkeypatch.setattr(wi.on_duty, "any_agent_on_duty", lambda **k: (False, "测试静默"))
     wi._notify_inbox([{"file": "00_inbox/口述-课程.txt", "priority": "P0"}])
     text = todos.read_text(encoding="utf-8")
     assert "🔕" in text and "P0 1" in text
+    # 在岗 → 不静默
+    monkeypatch.setattr(wi.on_duty, "any_agent_on_duty", lambda **k: (True, "测试在岗"))
+    todos.write_text("", encoding="utf-8")
+    wi._notify_inbox([{"file": "00_inbox/口述-课程2.txt", "priority": "P0"}])
+    assert "📥" in todos.read_text(encoding="utf-8")
