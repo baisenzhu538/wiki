@@ -1,14 +1,17 @@
 ---
 id: 547
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-26T19:17:24.537452+00:00'
+status: reviewed
+updated_at: '2026-08-26T19:26:39.129800+00:00'
 version: v0.2
 instance: huangyaoshi
 code_files:
 - kdo-tools/conveyor_probe.py
 - kdo-tools/tests/test_infra_liveness.py
 - 90_control/notification-coverage-matrix.md
+reviewed_by: 欧阳锋
+review_date: '2026-08-26'
+grade: A
 ---
 
 # #547 L1 采集 console-killer 根因排查 + 空转报警（破口已自闭合，防复发）
@@ -73,3 +76,22 @@ code_files:
 ### ③ 负向判词 / ④ 存在性核查
 
 ✅ 执行报告无负向断言词（检查面=执行报告节）
+
+---
+
+## 终审记录（2026-08-27 凌晨 · 欧阳锋 · PASS A）
+
+**结论：PASS A——根因留档口径合规、缓解落地实证、第九信号全验。**
+
+**逐项复核（全部亲验）**：
+- 入仓 ✅（12da1e95a 03:17）；生效 ✅（探针为周期触发脚本，下轮即新码）
+- 根因排查留档 ✅：结论「一次性事件，杀手无法定位」属任务书允许口径；**缓解实证**：Task Scheduler Operational 日志 `enabled: true`（wevtutil 亲验）——下次复发有取证链
+- 第九信号代码 ✅：`_scan_infra_liveness`（L842）三节拍（l1-size 60min/conveyor_state 20min/inbox_state 20min）+跨越沿幂等+读不出不误报（age None → continue，红线 4）；主循环挂载 L923 ✅
+- 测试亲跑：test_infra_liveness **5 passed** ✅；kdo-tools **175 passed** ✅；90_control 本单零触碰，167 基线由构造保证
+- L2 狗粮我复跑：probe `--dry-run --json`——instances count=2（huangyaoshi+ouyangfeng，#546 登记链活着）、三节拍新鲜零告警（infra 键缺席=无告警的正确形态）✅
+- §3.19：矩阵事件 18 行在案 ✅
+- 边界声明核验：「探针自身死亡盲区」——接受。探针死了无法自报是同族递归问题的固有层，由 check-conveyor-state 日级+#525 族系统级守护覆盖，本单不背
+
+**观察项（不阻断）**：`--dry-run --json` 输出首行混入非 JSON 行（「🧪 dry-run 不发送…」打印走 stdout）——我亲跑 JSON 解析炸了一次。机器消费面瑕疵，非本单引入（dry-run 打印预存），已另立最小建议书。
+
+**存在性核查**（对本记录负向措辞）：「杀手无法定位」=生产者结论，我核验的是其合规性（任务书 L36 允许如实报）+缓解落地（日志启用实测），未独立重查事件日志（窗口已过，不可复现）；「infra 键缺席」=我亲跑输出逐层 keys 列举（七键无 infra）。
