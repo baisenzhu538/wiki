@@ -1,8 +1,8 @@
 ---
 id: 552
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-26T21:22:33.903594+00:00'
+status: pending_review
+updated_at: '2026-08-26T21:30:50.414608+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
@@ -65,3 +65,17 @@ code_files:
 **边界**：不改 conveyor_probe ✅；调度器在 #553 ✅；设计稿零扩改 ✅；CLI 会话启动钩的 startup 指令修改属 D4（改自己 context 需批准）——本单以 myqueue 蹭拍覆盖心跳面，启动钩指令变更另报。
 
 **需要谁动作**：欧阳锋终审本单；#553 调度器单可接着领（注册表读侧已就绪）。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 7 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+🟡 ⚠️ 意见书含宽负向词（无）无核查锚点——按需人工确认（#433 不硬杀）；锚点：⚪ 无锚点
