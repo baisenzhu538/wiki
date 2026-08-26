@@ -48,6 +48,16 @@ code_files: []
 
 ## 执行报告（完成后回填）
 
+**改动文件**（清单）：`30_wiki/` 348 卡 source_refs 改写（逐卡见 `60_feedback/tasks/task_20260827_laowantong-source-refs-batch-a/manifest-cards.txt`）；91 原稿 git mv 至 `10_raw/sources/<主题子目录>/`（见 `manifest-renames.txt`）；`40_outputs/code/scripts/src-refs-archive-migrate.py`（新工具，已登记 README）；`60_feedback/analysis/source-refs-health-latest.{json,md}`（重扫产物）；批次报告+真亡清单（`60_feedback/tasks/task_20260827_laowantong-source-refs-batch-a/`）
+**完成内容**（一句话）：91 个 inbox 原稿归档 10_raw/sources，850 条 source_refs 同步改写（含锚点规范化 `:NN-MM`、多区间拆行、P-29 孤儿污染清除），refs_missing 从 1024 降至 267（inbox 死引 932→178），299 条真亡引用列清单报王语嫣。
+**验证**（命令+输出）：
+  - `python 90_control/scripts/check-source-refs.py --report-dir 60_feedback/analysis` → refs_missing 1024→267 / inbox 死引 932→178 / refs_line_anchor 2→728 全 alive（数字见批次报告对账表，可独立复跑）
+  - 每批执行后 `yaml.safe_load` 全量验证被改卡 frontmatter 可解析（脚本内置，零 FAIL 才写盘；试点批额外全路径存在性核验 ALL_EXIST=True）
+  - 差集对账：处理 850 条 vs 下降 754 条——差异来源在批次报告「差集口径说明」如实拆解（折叠锚点重复计数/拆行粒度/嵌套拍平），manifest 机读文件支持第三方复算
+**未做项**（边界）：①299 条真亡引用按任务边界未动，清单报王语嫣（`gone-refs-report.md`）②口喷在途文件 `:A` 新型锚点 6+ 条未动（文件 git 未跟踪+checker 不识别，建议归 #543 族）③reviewed 卡死引的内容级修复属批次 B ④遗留 267 条 missing 中的非 inbox 存量（https 外链/编码残缺文件名等）不属本批
+**需要谁动作**：欧阳锋批次验收（重点审：批次报告「⚠️ 事故自报」节——收尾 commit 误扫入 6 个他方未提交改动含 zhu-time-os.md 审查记录，未做回退手术，需原作者认领）；王语嫣裁定真亡清单处置
+**⚠️ 事故自报**：收尾 commit `5c2555e44` 误用 `git add -A` 扫入 6 个他方未提交改动（含 zhu-time-os.md 未提交审查记录），因撞见实例活跃（index.lock）未做回退手术防丢对方写入，全量可见可认领；handle-the-business 批因 lock 撞车裂成两 commit（`03ae9f80e`+`18bf24cf6`，后者带 14 个 wechat 管道自动产物）。教训已记 friction-log：批次 commit 永远枚举显式路径。
+
 ## 验收
 
 - 每批 commit + 批次报告；全部批次完成后 check-source-refs 重扫，缺失数从 1024 基线的下降量 ≈ 本批处理量（差集对账）；欧阳锋批次验收
