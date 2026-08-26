@@ -70,6 +70,7 @@ audience: 全体 agent
 | quality_metrics | kdo-tools/quality_metrics.py | 质量指标基线周报（#514：FAIL率/打回率/拦截率/误判率代理，口径=quality-metrics-spec-v1） | 08-25 7 例 passed | 计划任务 kdo-quality-metrics/60_feedback/auto/quality-metrics |
 | check-depended-draft | 90_control/scripts/check-depended-draft.py | 被依赖卡 draft 门禁（#527：引用面三路识别含 glob 数据链；baseline 存量 WARNING/新引用 ERROR） | 08-25 8 例 passed | health-check/quality-gates/depended-draft-baseline.json |
 | island_scan | kdo-tools/island_scan.py | 孤岛卡扫描（#528：双无卡清单 json+md 按域分组，WARNING 制不拦流转） | 08-26 4 例 passed | health-check/60_feedback/auto/island-cards |
+| check-vlm-two-section | 90_control/scripts/check-vlm-two-section.py | VLM/OCR 卡两段式存量扫描（#540：合规计数+缺隔离清单） | 08-26 2 例 passed | health-check/schemas/vlm-two-section.md |
 | pre_review | 90_control/scripts/pre_review.py | 机器预审管线（#515：差集/lint/负向判词/存在性核查四判据，报告随提审附任务单，参考层不放行不拦截） | 08-26 6 例 passed | queue_transition complete 内嵌调用 |
 | build_seed / seed-check | kdo-tools/build_seed.py, kdo-tools/seed-check.py | kdo-seed 种子包构建+装机自检（#532：机制层搬迁，KDO_ROOT 参数化） | 08-26 5 例 passed | 90_control/kdo-seed/BOOTSTRAP.md |
 | tech_inventory | kdo-tools/tech_inventory.py | 技术域存量盘点三堆清单（#533：可审/返工/废弃，接管第一步） | 08-26 4 例 passed | 90_control/schemas/tech-domain-skeleton.md |

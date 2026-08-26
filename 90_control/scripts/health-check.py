@@ -86,6 +86,7 @@ def main():
             ("check-review-sla", [], "审查 SLA 观测（#520 R3：pending_review 最大年龄>2h）"),
             ("check-depended-draft", [], "被依赖卡 draft 门禁（#527：新引用 ERROR/存量 WARNING）"),
             ("island_scan", [], "孤岛卡扫描（#528：双无卡清单，WARNING 制不拦）"),
+            ("check-vlm-two-section", [], "VLM 两段式存量（#540：缺隔离计数可见）"),
         ])
 
     if args.domain:
