@@ -1,12 +1,12 @@
 ---
 id: 538
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-26T07:30:00+00:00'
+status: in_progress
+updated_at: '2026-08-26T00:53:48.797516+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
-  - 90_control/scripts/queue_transition.py
+- 90_control/scripts/queue_transition.py
 ---
 
 # #538 queue_transition 补改判通道：reviewed→queued 机器流转（终审自我纠错用）
