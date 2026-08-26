@@ -1,4 +1,4 @@
-﻿# KDO 开机必读
+# KDO 开机必读
 
 > 🆕 **启动先读 `.kdo/CAPSULE_STARTUP.md`（唯一启动指针 v2，#366）**——本文件为其薄壳，含版本校验与角色路由；真相源定位见 `20_memory/memory-registry.md`。
 
@@ -50,7 +50,7 @@
 6. **🆕 读核心铁律** → Read 90_control/rules-core.md（10 条不可逆底线，1 分钟）
 7. **领任务** → 老顽童/欧阳锋按 `production-queue.md` 顺序领取/审核；其他角色读 `70_product/tasks/dashboard.md`
 
-> ⚠️ **本次会话结束前，必须回答三问（见 CLAUDE.md 末尾）**：
+> ⚠️ **本次会话结束前，必须回答三问（见角色入口文件末尾——AGENTS.md / CLAUDE.md，随当前工具而定）**：
 > ① 今天产生了什么新资产？ ② 今天发现了什么新问题/阻塞？ ③ 下次启动最需要记住什么？**不答完不算完成。**
 >
 > 💡 **用户失忆恢复口令速查**：`.agent/amnesia-recovery-one-liners.md`
@@ -68,8 +68,8 @@
 | **Vault 快照** 🆕 | `90_control/scripts/vault-snapshot.py` | `python 90_control/scripts/vault-snapshot.py`（产出 `90_control/vault-status.md`） | 全员（审前必跑） |
 | **Graph RAG** | KDO CLI | `kdo graph query "<问题>" --json` | 黄药师 / 王语嫣 |
 | **联网搜索** | `kdo-tools/web_search.py` | `python kdo-tools/web_search.py "query" --json` | 王语嫣 / 老顽童 |
-| **域迭代五阶段法** 🆕 | `.claude/skills/domain-iteration/` | `/domain-iteration` → 自动按阶段调用子 Skill | 全员（收到新域任务时调用） |
-| **知识自攻击** 🆕 | `.claude/skills/kdo-self-attack/` | `/kdo-self-attack <card-id>` 四路Agent攻击→人只审报告 | 欧阳锋 / 老顽童 / 黄药师 |
+| **域迭代五阶段法** 🆕 | skill（目录随工具：`.claude/skills/` 或工具自带 skill 路径） | `domain-iteration` → 自动按阶段调用子 Skill | 全员（收到新域任务时调用） |
+| **知识自攻击** 🆕 | skill（目录随工具，同上） | `kdo-self-attack <card-id>` 四路Agent攻击→人只审报告 | 欧阳锋 / 老顽童 / 黄药师 |
 | **质量门禁** | `90_control/scripts/` | `python 90_control/scripts/kcard-quality-gate.py` | 黄药师 / 王语嫣 |
 | **Lint** | KDO CLI | `kdo lint` 或 `python 90_control/scripts/kdo_lint.py` | 黄药师 |
 | **卡片骨架** | KDO CLI | `kdo scaffold --new --card <id> --type <type>` | 老顽童 |
@@ -116,9 +116,11 @@
 
 ---
 
-## 三、当前谁在做什么？（2026-06-27）
+## 三、当前谁在做什么？（2026-06-27 快照）
 
-| 角色 | 代号 | 运行位置 | 当前任务 | 状态 |
+> ⚠️ **「运行位置」列是 06-27 历史快照**：工具=变量、角色=恒量（命名铁律 agent-os §10.3 + charter B1-4）。换工具实验期间以此为准：**任何工具的新实例上线，instance 标记一律只用角色名**（hermes/kimi 系 INSTANCE_ROLE_MAP 是 legacy shim，不再扩）。当前谁在什么工具上跑，看本表不如问王语嫣或查探针日志。
+
+| 角色 | 代号 | 运行位置（06-27 快照） | 当前任务 | 状态 |
 |:--|:--|:--|:--|:--:|
 | 架构师 | 欧阳锋 | Kimi Code CLI | 月度抽检模式；按需终审 P0 级 framework 卡 | ✅ |
 | 构建者 | 黄药师 | Claude Code（Windows 终端） | KDO 基建 / kdo index --rebuild / kdo lint / 决策域+需求分析域+五步法子域 domain digest 待建 | 🟡 |

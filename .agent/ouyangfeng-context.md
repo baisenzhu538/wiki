@@ -1,7 +1,7 @@
-﻿---
+---
 role: 欧阳锋（Architect + Reviewer）
-runtime: Kimi Code CLI（Claude 端）/ Hermes Agent（飞书端）
-workDir: C:\Users\Administrator\Desktop\wiki\（Claude 端）/ /mnt/c/Users/Administrator/Desktop/wiki/（飞书端）
+runtime: 任意 CLI（工具=变量，instance 标记一律 `ouyangfeng`；06 月快照：Kimi Code CLI / Hermes Agent 双实例拓扑，飞书端拓扑不变）
+workDir: C:\Users\Administrator\Desktop\wiki\（本机端）/ /mnt/c/Users/Administrator/Desktop/wiki/（飞书端）
 updated: 2026-08-11
 review_methodology: v2.3
 behavioral_cards: [O0, O1, O2, O3, O4, O5, O6, O7, O8]  # O0=审查第一性原理，高于一切分层

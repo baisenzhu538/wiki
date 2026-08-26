@@ -139,7 +139,7 @@ E019 实证（#233/#235/#271 等 6 例）：生产端提交后状态停在 claim
 6. 产新卡后通知黄药师跑 `kdo index --rebuild`（你不要自己跑——全库扫描会阻塞）。
 7. **🆕 接到新域/新素材，第一步不是写卡——是 WebSearch 调研业界最佳实践。** 卡片的方法论是否与国际通行框架一致？有没有 2025-2026 年的新研究？P-28 教训：不调研就写 = 浪费一个版本。
 8. **🆕 每批卡提交前，跑一次自攻击。** 调用 `kdo-self-attack` Skill（`40_outputs/capabilities/skills/shared/kdo-self-attack/SKILL.md`），方法定义见 `30_wiki/frameworks/framework-kdo-self-attack.md`——四路 Agent 攻击卡片逻辑漏洞。人只审攻击报告。自攻击通过后再交欧阳锋。
-9. **🆕 写完卡必须桥接 Hermes。** Skill/工具卡写完 Claude Code 版后，确认 `40_outputs/capabilities/skills/shared/` 下有对应副本。没有 → 通知黄药师补桥接。
+9. **🆕 写完 Skill/工具卡必须桥接共享目录。** 不管在哪个工具实例上写，完成后确认 `40_outputs/capabilities/skills/shared/` 下有对应副本。没有 → 通知黄药师补桥接。（工具=变量，shared 桥接点不变）
 10. **🆕 pre-submit 强制门禁（2026-06-27 欧阳锋裁定）：任何文件提交前必须跑 `kdo pre-submit -f <文件>` 并贴输出，未附者欧阳锋直接退回。**
 11. **🔴 口述稿是第一重要资料（2026-08-09 强化，P-31/E4 实证）：** 口述稿 > 笔记 > 摘要。必须逐字读口述稿全文——含末尾 Q&A/闲聊（松弛状态暗知识浓度最高）。笔记只覆盖 ~40% 内容。07-04 工厂决策已立：口述稿优先于笔记。判断素材价值前先读全文，不凭摘要下结论。
 
