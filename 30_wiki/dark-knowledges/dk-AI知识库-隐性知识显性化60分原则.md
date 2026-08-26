@@ -23,8 +23,8 @@ aliases:
 - AI×知识管理-开放麦-逐字稿
 - AI知识库-知识库搭建与落地-半肥猫-口述
 source_refs:
-- 00_inbox/半肥猫开放麦-AI知识库/AI知识库-知识库搭建与落地-半肥猫-口述.txt#L1004-L1014
-- 00_inbox/半肥猫开放麦-AI知识库/AI×知识管理-开放麦-逐字稿.md#L1-L2751
+- 10_raw/sources/banfeimao-openmic/AI知识库-知识库搭建与落地-半肥猫-口述.txt:1004-1014
+- 10_raw/sources/banfeimao-openmic/AI×知识管理-开放麦-逐字稿.md:1-2751
 - 60_feedback/diagnosis/diag_20260823_wangyuyan-banfeimao-ai-kb-diagnosis.md#L1-L100
 related:
 - framework-AI知识库-Workflow六要素

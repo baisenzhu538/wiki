@@ -23,8 +23,8 @@ aliases:
 - AI×知识管理-开放麦-逐字稿
 - AI知识库-知识库搭建与落地-半肥猫-口述
 source_refs:
-- 00_inbox/半肥猫开放麦-AI知识库/AI知识库-知识库搭建与落地-半肥猫-口述.txt#L48-L62
-- 00_inbox/半肥猫开放麦-AI知识库/给王语嫣的任务编排建议-半肥猫开放麦-AI知识库.md#L96-L110
+- 10_raw/sources/banfeimao-openmic/AI知识库-知识库搭建与落地-半肥猫-口述.txt:48-62
+- 10_raw/sources/banfeimao-openmic/给王语嫣的任务编排建议-半肥猫开放麦-AI知识库.md:96-110
 - 60_feedback/diagnosis/diag_20260823_wangyuyan-banfeimao-ai-kb-diagnosis.md#L1-L100
 related:
 - framework-AI知识库-五阶段演进

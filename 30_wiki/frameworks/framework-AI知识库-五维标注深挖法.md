@@ -24,10 +24,10 @@ aliases:
 - AI×知识管理-开放麦-逐字稿
 - AI知识库-知识库搭建与落地-半肥猫-口述
 source_refs:
-- 00_inbox/半肥猫开放麦-AI知识库/AI知识库-知识库搭建与落地-半肥猫-口述.txt#L582-L598
-- 00_inbox/半肥猫开放麦-AI知识库/_vlm_desc.md#L2788-L2890
-- 00_inbox/半肥猫开放麦-AI知识库/标签示例.yaml#L1-L40
-- 00_inbox/半肥猫开放麦-AI知识库/AI×知识管理-开放麦-逐字稿.md#L1-L2751
+- 10_raw/sources/banfeimao-openmic/AI知识库-知识库搭建与落地-半肥猫-口述.txt:582-598
+- 10_raw/sources/banfeimao-openmic/_vlm_desc.md:2788-2890
+- 10_raw/sources/banfeimao-openmic/标签示例.yaml:1-40
+- 10_raw/sources/banfeimao-openmic/AI×知识管理-开放麦-逐字稿.md:1-2751
 related:
 - framework-AI知识库-加卡片加标签双原则
 - framework-AI知识库-知识卡片公式

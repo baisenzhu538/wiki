@@ -24,9 +24,9 @@ aliases:
 - AI×知识管理-开放麦-逐字稿
 - AI知识库-知识库搭建与落地-半肥猫-口述
 source_refs:
-- 00_inbox/半肥猫开放麦-AI知识库/AI×知识管理-开放麦-逐字稿.md#L1-L2751
-- 00_inbox/半肥猫开放麦-AI知识库/AI知识库-知识库搭建与落地-半肥猫-口述.txt#L48-L62
-- 00_inbox/半肥猫开放麦-AI知识库/给王语嫣的任务编排建议-半肥猫开放麦-AI知识库.md#L15-L40
+- 10_raw/sources/banfeimao-openmic/AI×知识管理-开放麦-逐字稿.md:1-2751
+- 10_raw/sources/banfeimao-openmic/AI知识库-知识库搭建与落地-半肥猫-口述.txt:48-62
+- 10_raw/sources/banfeimao-openmic/给王语嫣的任务编排建议-半肥猫开放麦-AI知识库.md:15-40
 related:
 - framework-AI知识库-知识卡片公式
 - framework-AI知识库-加卡片加标签双原则
