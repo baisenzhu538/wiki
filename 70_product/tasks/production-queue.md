@@ -183,6 +183,8 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 555 | `task_20260827_huangyaoshi-role-clock-rollout` | 四角色时钟开通：老顽童15min/王语嫣30min/风清扬日2拍/欧阳锋事件驱动+黄药师欧阳锋会话级旧cron换轨停用 | queued | huangyaoshi | 配置+换轨+活体 | #553 | `60_feedback/tasks/task_20260827_huangyaoshi-role-clock-rollout.md` | #525四拆之四·收官（「角色级时钟不存在」缺口关闭）；顺手修设计稿§5统图失真（欧阳锋终审指出）；唤醒只叫醒+指路判断留人（§3.17）；§3.19矩阵登记；欧阳锋终审 |
 | 556 | `task_20260827_huangyaoshi-pending-laozhu-decision-signal` | 待老朱拍板事项上浮：conveyor_probe第八信号检出「reviewed+含拍板字样」→即时推+daily digest固定栏直到消项 | queued | huangyaoshi | 信号+通道+回归 | 无 | `60_feedback/tasks/task_20260827_huangyaoshi-pending-laozhu-decision-signal.md` | **老朱08-27拍板直令**；#525设计稿等拍板躺两天实证——设计→拍板→实施链断在拍板环节无信号面；只向前生效不回扫存量；§3.19矩阵登记；欧阳锋终审 |
 | 557 | `task_20260827_laowantong-source-refs-batch-a` | 死引治理批次A：934条/319卡inbox原稿归档10_raw/sources+引用校正（机械化不补内容） | queued | laowantong | 归档+校正+批次报告 | #551 | `60_feedback/tasks/task_20260827_laowantong-source-refs-batch-a.md` | #543治理方案王语嫣裁定（08-27）：批次A采纳口径=归档到10_raw再改引用（inbox是流转区非存储区，KF-020先例）；批次B reviewed卡441条另立单待A完；批次C长尾随域顺带；附带裁定=src_id注册挂pre-submit走WARNING起步（#542同哲学）；原稿真不在的列清单报裁不硬修；欧阳锋批次验收 |
+| 558 | `task_20260827_huangyaoshi-hermes-tools-double-bug` | Hermes工具层双bug排查：search_files正则|失效（静默0命中）+read_file长行CRLF误判二进制 | queued | huangyaoshi | 排查+修复+回归 | 无 | `60_feedback/tasks/task_20260827_huangyaoshi-hermes-tools-double-bug.md` | 飞书欧阳锋洞察报告裁定（08-27王语嫣独立判断）：影响面收窄=hermes侧工具问题（kimi侧Grep/Read实测免疫302命中正常），报告原判「全厂」修正；修复前hermes侧分次单搜规避通报落profile层；欧阳锋终审 |
+| 559 | `task_20260827_huangyaoshi-profile-config-patrol` | profile配置巡检+manual残留止血（huangyaoshi/laowantong仍manual）+SOUL.md真相源指针全profile覆盖 | queued | huangyaoshi | 止血+巡检+指针 | 无 | `60_feedback/tasks/task_20260827_huangyaoshi-profile-config-patrol.md` | 同报告P1-1/P1-3裁定：「知道≠生效」——dk卡沉淀17天只修1个profile=半套修改实证（判词B1）；巡检挂kdo-health-daily日级只报漂移不自动改；欧阳锋终审 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
 ## ⚖️ 待终审（提审任务，queue_transition 自动登记）
@@ -547,3 +549,6 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - **需要**：~~待王语嫣裁定~~ **已裁定（08-26 王语嫣）**：①形态=30_wiki/frameworks/ 判词库 framework 卡（可检索）+ agent-os 引用——王语嫣按「方法论框架卡」例外自产，走 pre-submit+欧阳锋终审，下一动作落卡；②归口=判词库卡为认知层单一真相源，#433 族门禁词表是实现层——从判词提取但不合并维护，词表变更引用判词编号；B/C 组进角色 spec 方法论节缓议（随各角色自迭代引入，不批量改 spec）；③常态动作确认——审计件附「可固化资产候选」节自本文起常态执行
 
 
+### diag_20260826_ouyangfeng-infra-insight-search-chain（2026-08-26 飞书欧阳锋，老朱桌面转递）
+- **问题**：查基本法四层受阻——search_files `|` 静默 0 命中 + read_file 误判二进制 + 审批 manual 拦 60s + 基本法未入 MOC；SOUL.md 角色定义与 charter 漂移
+- **需要**：~~待王语嫣裁定~~ **已裁定（08-27 王语嫣独立判断，断言逐条核查）**：①P0-1/P0-2 **影响面收窄**——hermes 侧工具问题（kimi 侧 Grep 302 命中/Read charter 实测免疫），立项 **#558**（黄药师 P1）；②P1-1 配置巡检采纳且实证残留（huangyaoshi/laowantong 仍 manual）→ 立项 **#559**（止血+日级巡检+SOUL 真相源指针）；③P1-2 成立（kdo-moc 零命中实测）→ 王语嫣自落 MOC 补 charter 条目（已落盘）；④P1-3 防漂移并入 #559。报告已归档 diagnosis/（三元组补齐+orchestrated）

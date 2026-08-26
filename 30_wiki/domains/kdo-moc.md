@@ -77,6 +77,7 @@ related:
 
 | 你问的是 | 看这里 |
 |:--|:--|:--|
+| **工厂宪法/角色定义/铁律出处** | **[[kdo-charter-v01-draft]]**（《KDO 基本法》——角色岗位说明书在 §2.6，治理条文 §3） |
 | KDO 工厂怎么建 | [[framework-kdo-modeling-methodology]] |
 | 怎么防止批量事故重演 | [[dk-E010-duplicate-key-detection]] |
 | Agent 间事实争议怎么裁决 | [[workflow-cross-agent-fact-dispute]] |
@@ -93,6 +94,7 @@ related:
 KDO 主题域 MOC（本卡）
 │
 ├── 工厂建设层
+│   ├── kdo-charter-v01-draft                 ← 《KDO 基本法》：角色定义/铁律/治理条文唯一真相源（§2.6 岗位说明书/§3 治理）
 │   ├── framework-kdo-modeling-methodology    ← 建模方法论在 KDO 的应用
 │   ├── framework-kdo-self-attack             ← 自攻击：四路 Agent 攻击卡片
 │   ├── concept-kdo-component-library         ← KDO 17 张建模牌组
