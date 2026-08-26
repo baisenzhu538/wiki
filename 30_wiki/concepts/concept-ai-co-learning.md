@@ -24,9 +24,9 @@ aliases:
 - 缺了共学的第二步
 - 识库建了但没产生新
 source_refs:
-- 00_inbox/半肥猫月白老朱线下聚会/AI应用研讨-半肥猫月白老朱-交流录音.txt#L6752-6756
-- 00_inbox/半肥猫月白老朱线下聚会/AI应用研讨-半肥猫月白老朱-交流录音.txt#L6746-6750
-- 00_inbox/半肥猫月白老朱线下聚会/AI应用研讨-半肥猫月白老朱-事后笔记.txt#L55
+- 10_raw/sources/banfeimao-offline/AI应用研讨-半肥猫月白老朱-交流录音.txt:6752-6756
+- 10_raw/sources/banfeimao-offline/AI应用研讨-半肥猫月白老朱-交流录音.txt:6746-6750
+- 10_raw/sources/banfeimao-offline/AI应用研讨-半肥猫月白老朱-事后笔记.txt:55
 tags:
   - audience:general
   - scene:reference

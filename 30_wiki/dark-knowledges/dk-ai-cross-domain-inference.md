@@ -23,8 +23,8 @@ aliases:
 - 课程推导出
 - 跨域推导
 source_refs:
-- 00_inbox/半肥猫月白老朱线下聚会/AI应用研讨-半肥猫月白老朱-交流录音.txt#L6820-6842
-- 00_inbox/半肥猫月白老朱线下聚会/AI应用研讨-半肥猫月白老朱-交流录音.txt#L6820-6824
+- 10_raw/sources/banfeimao-offline/AI应用研讨-半肥猫月白老朱-交流录音.txt:6820-6842
+- 10_raw/sources/banfeimao-offline/AI应用研讨-半肥猫月白老朱-交流录音.txt:6820-6824
 tags:
   - audience:general
   - scene:reference

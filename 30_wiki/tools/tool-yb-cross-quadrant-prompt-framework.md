@@ -28,10 +28,10 @@ aliases:
 - 轴是否方向反了
 - 风格总偏离预期
 source_refs:
-- 00_inbox/半肥猫月白老朱线下聚会/AI应用研讨-半肥猫月白老朱-交流录音.txt#L782-884
-- 00_inbox/半肥猫月白老朱线下聚会/AI应用研讨-半肥猫月白老朱-交流录音.txt#L660-674
-- 00_inbox/半肥猫月白老朱线下聚会/AI应用研讨-半肥猫月白老朱-交流录音.txt#L720-748
-- 00_inbox/半肥猫月白老朱线下聚会/AI应用研讨-半肥猫月白老朱-事后笔记.txt#L47
+- 10_raw/sources/banfeimao-offline/AI应用研讨-半肥猫月白老朱-交流录音.txt:782-884
+- 10_raw/sources/banfeimao-offline/AI应用研讨-半肥猫月白老朱-交流录音.txt:660-674
+- 10_raw/sources/banfeimao-offline/AI应用研讨-半肥猫月白老朱-交流录音.txt:720-748
+- 10_raw/sources/banfeimao-offline/AI应用研讨-半肥猫月白老朱-事后笔记.txt:47
 tags:
   - audience:general
   - scene:reference
