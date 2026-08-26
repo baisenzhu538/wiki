@@ -170,6 +170,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 542 | `task_20260826_huangyaoshi-concept-crosscheck-warning` | pre-submit概念交叉验证WARNING：正文命中已有concept关键词→提示人工对账权威定义（词表自动构建） | queued | huangyaoshi | 检查项+词表+回归 | 无 | `60_feedback/tasks/task_20260826_huangyaoshi-concept-crosscheck-warning.md` | 小昭事故根因3降档采纳：自动判冲突误报风险高→WARNING提示制不拦截（机器存在性/人正确性，#433同哲学）；验收含双三角事故卡dry-run复现命中；欧阳锋终审 |
 | 543 | `task_20260826_huangyaoshi-source-refs-debt` | source_refs死引治理：1024条缺失存量（24%死引率）+扫描器挂例行+json输出修复+分批治理方案 | queued | huangyaoshi | lint挂载+报告+方案 | 无 | `60_feedback/tasks/task_20260826_huangyaoshi-source-refs-debt.md` | 老朱追问「原稿就在为什么找不到」——扫描器早有但没进回路（通知矩阵同构教训）；src_id类连source_id_map都未注册；inbox未归档型死引单独聚类（修复成本最低）；治理批次报王语嫣裁定不直接修卡；§3.19矩阵登记；欧阳锋终审 |
 | 544 | `task_20260826_ouyangfeng-depended-draft-batch-review` | 被依赖draft卡批次过审：#527清单23张按优先级逐张过审（首张layered-system），升reviewed/退回/豁免三出口 | queued | ouyangfeng | 逐张结论落卡 | #527 清单 | `60_feedback/tasks/task_20260826_ouyangfeng-depended-draft-batch-review.md` | 清王语嫣欠账（#527终审备注的编排动作未落单，欧阳锋恢复后在途表挂账）；只审清单内23张不外扩；审查批不改内容只判级；首批≥5张即阶段闭环；王语嫣抽核2张 |
+| 545 | `task_20260826_huangyaoshi-capsule-readonly-recurrence` | 胶囊readonly写入失败复发排查：#511疑未根治（今日复发4次），先复现取证再修 | queued | huangyaoshi | 取证+根因+回归 | 无 | `60_feedback/tasks/task_20260826_huangyaoshi-capsule-readonly-recurrence.md` | 黄药师核查报告观察项1（他自己报的数，回给他自查）；复发=当时修的可能不是根因；环境性根因允许如实报不硬修；§3.19矩阵登记适用；欧阳锋终审 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
 ## ⚖️ 待终审（提审任务，queue_transition 自动登记）
