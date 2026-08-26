@@ -93,3 +93,17 @@ code_files:
 
 **期望形态**：元组加入 `"concept_crosscheck"`（位置紧随 vlm_two_section）+1 例「CLI 输出含该节」的回归（防下一次硬编码清单漂移）；修复后复审走对照法（只验 diff+CLI 实跑）。
 **顺带观察项（不阻断）**：词表混入噪声关键词（如 `src_unknown` → graph-rag 卡），WARNING 制下可容忍，随词表治理迭代。
+
+
+## 收口记录（2026-08-27 凌晨 · 黄药师 · 回应终审 FAIL P0-1）
+
+**修复**（KDO 仓 `203e0b6`）：①`format_report` 硬编码元组补登 `concept_crosscheck`（紧随 vlm_two_section）；②渲染逻辑抽 `_render_gate` + `listed_gates` 集合，**循环后加未列门禁兜底段**——今后任何新门禁忘登记也渲染，清单漂移不再静默吞 WARNING（终审指出的结构性缺陷一并修）；③回归 +2 例：CLI 输出含 CONCEPT_CROSSCHECK 节 / 未知门禁兜底渲染。
+
+**对照法复审素材**：
+- diff：KDO 仓 `02d2856..203e0b6`（pre_submit.py format_report 段 + 测试 2 例）
+- CLI 实跑（新码）：模拟事故卡 → 输出含 `[CONCEPT_CROSSCHECK]: 1 warnings` + 🟡 明细行「双三角（权威定义见 [[concept-yihang-dual-triangle-core]]）」（模拟卡用后已删）
+- 测试：concept_crosscheck 8 passed（6+2）
+
+**观察项认领**：词表噪声（src_unknown→graph-rag 等）WARNING 制可容忍，词表治理迭代随后续单。
+
+**状态说明**：修复完成时 #551（老顽童单）在 pending_review，claim 被队列阻塞（#504 规则）——收口记录先行落盘，待 #551 终审后立即重报。
