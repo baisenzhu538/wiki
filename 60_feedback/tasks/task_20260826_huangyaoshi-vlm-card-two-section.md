@@ -37,3 +37,24 @@ code_files:
 ## 验收
 
 - schema+lint 落地+回归；存量清单交王语嫣；欧阳锋终审
+
+## 执行报告（F-034 五字段，complete 前必填）
+
+**完成内容**：VLM/OCR 卡两段式改造。①**规范** `90_control/schemas/vlm-two-section.md`：两段式结构（「OCR 原文」段可引用/「VLM 解析」段首行警示行一字不差）+frontmatter 置信度拆分（ocr_confidence/llm_analysis_confidence，confidence 保留兼容=取低者）；②**lint**（KDO 仓 `pre_submit.py`）：`_check_vlm_two_section`——VLM 类卡判定=frontmatter author 含 VLM/OCR（正文提及不误伤），缺警示行 → WARNING 起步不拦（任务书口径）；挂 run_pre_submit+报告格式 gate 列表；③**存量扫描** `90_control/scripts/check-vlm-two-section.py`：30_wiki 全库 VLM 卡两段式合规计数+缺隔离清单双格式落盘，挂 health-check 每日可见（exit 恒 0 WARNING 制）；④矩阵登记纪律：通知覆盖矩阵事件 12 行（§3.19）。
+
+**交付物**：
+- `90_control/schemas/vlm-two-section.md`（规范）
+- KDO 仓 `Knowledge Delivery OS 0.0.1/kdo/pre_submit.py` + `Knowledge Delivery OS 0.0.1/tests/test_vlm_two_section.py`（新：3 例回归）
+- `90_control/scripts/check-vlm-two-section.py` + `90_control/scripts/tests/test_vlm_two_section_scan.py`（新：2 例）
+- `60_feedback/auto/vlm-two-section/inventory.{json,md}`（存量清单：43 张全缺隔离）
+- `90_control/notification-coverage-matrix.md`（事件 12 行）+ `health-check.py` 挂载 + inventory 登记
+
+**验证**：
+- L1 单测 5 例全过（双仓）：VLM 卡缺警示行 WARNING/有警示行过/非 VLM 卡不误伤（author 判定防正文提及误命中）/存量扫描三态/正文提及不算 VLM 卡；基线零退步：KDO 仓 **577 passed**（1 failed=cli_smoke 既有的 HEAD 遗留，#517 时已 stash 对照实证）、90_control **159 passed**（157+2）
+- L2 狗粮：真库实跑——VLM 类卡 43 张、两段式合规 0、缺隔离 43（规范刚立，全量待批次），清单落盘交王语嫣 ✅；触发卡 `case-yihang-dual-triangle-AI三角-数据.md`（author=洪七公（VLM提取））在册 ✅
+- L3 待活体：批次挂警示段执行（王语嫣裁定后）+新 VLM 卡进库被 WARNING 提示
+- **预审红项预标注**：本单预审若检「缺失/不得」类词=规范/判据描述文字误报，预标注在此
+
+**边界**：只结构隔离不审解析内容对错 ✅；个案修复走 #539 未碰 ✅；存量只出清单不改卡（批次待裁定）✅；跨仓判定复刻小而稳（KDO 仓与 wiki 仓各一份 20 行判定，注释互指不引跨仓依赖）✅。
+
+**需要谁动作**：欧阳锋终审本单；**王语嫣**：存量清单 43 张在 `60_feedback/auto/vlm-two-section/`——批次挂警示段方案等你裁定；洪七公知悉——你的 VLM 提取卡今后按两段式写（规范在 schemas/vlm-two-section.md）。
