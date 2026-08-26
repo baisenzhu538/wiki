@@ -23,7 +23,7 @@ aliases:
 source_context:
   - yitang
 source_refs:
-- 00_inbox/调研专题/调研超级武器库_ocr_text.md
+- 10_raw/sources/research-topics/调研超级武器库_ocr_text.md
 discoverable_by:
   - 合作方案数据：从合作方拿到的真实数字
   - 合作方案数据

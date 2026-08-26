@@ -22,7 +22,7 @@ aliases:
 source_context:
   - yitang
 source_refs:
-- 00_inbox/调研专题/调研超级武器库_ocr_text.md
+- 10_raw/sources/research-topics/调研超级武器库_ocr_text.md
 discoverable_by:
   - 抖音数据：直播电商和短视频趋势追踪
   - 抖音数据

@@ -21,7 +21,7 @@ aliases:
 source_context:
   - yitang
 source_refs:
-- 00_inbox/调研专题/调研超级武器库_ocr_text.md
+- 10_raw/sources/research-topics/调研超级武器库_ocr_text.md
 discoverable_by:
   - 股票/上市公司数据：从二级市场看一级市场
   - 股票/上市公司数据

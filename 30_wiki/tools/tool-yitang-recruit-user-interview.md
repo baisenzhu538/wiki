@@ -21,7 +21,7 @@ aliases:
 source_context:
   - yitang
 source_refs:
-- 00_inbox/调研专题/调研超级武器库_ocr_text.md
+- 10_raw/sources/research-topics/调研超级武器库_ocr_text.md
 discoverable_by:
   - 招募用户访谈：公开招募+激励设计
   - 招募用户访谈

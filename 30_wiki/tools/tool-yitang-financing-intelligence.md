@@ -22,7 +22,7 @@ aliases:
 source_context:
   - yitang
 source_refs:
-- 00_inbox/调研专题/调研超级武器库_ocr_text.md
+- 10_raw/sources/research-topics/调研超级武器库_ocr_text.md
 discoverable_by:
   - 融资信息分析：从融资事件反推竞对状态
   - 融资信息分析

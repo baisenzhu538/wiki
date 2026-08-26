@@ -23,7 +23,7 @@ aliases:
 source_context:
   - yitang
 source_refs:
-- 00_inbox/调研专题/调研超级武器库_ocr_text.md
+- 10_raw/sources/research-topics/调研超级武器库_ocr_text.md
 discoverable_by:
   - 行业报告搜索：拓宽关键词+多平台交叉
   - 行业报告搜索
