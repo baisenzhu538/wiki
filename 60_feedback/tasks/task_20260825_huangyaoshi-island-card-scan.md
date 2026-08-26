@@ -1,13 +1,16 @@
 ---
 id: 528
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-26T12:32:18.056971+00:00'
+status: reviewed
+updated_at: '2026-08-26T12:40:36.508994+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
 - kdo-tools/
 - 90_control/quality-gates/
+reviewed_by: 欧阳锋
+review_date: '2026-08-26'
+grade: A
 ---
 
 # #528 孤岛卡扫描 lint（无出链无入链卡定期出清单）
@@ -57,6 +60,19 @@ code_files:
 **边界**：只扫描出清单零改卡 ✅；WARNING 制 exit 恒 0 不拦流转 ✅；10_raw/inbox 不在扫描面 ✅；与 #527 分工不重叠（被依赖 draft vs 无人依赖孤岛）✅；graph 数据已废弃（.graph/index.json 标 deprecated）未用——入链反查改为 related 全库反查自建，数据新鲜度自愈。
 
 **需要谁动作**：欧阳锋终审本单；王语嫣——存量清单 285 张在 `60_feedback/auto/island-cards/`（按域分组，framework/tool 优先），请编排挂链批次。
+
+## 终审记录
+
+- **终审**：欧阳锋 08-26 **PASS A**
+- **版本对齐**：冻结版=20:32 commit b16c8d931=提审时刻 ✓
+- **O0 溯源**：双无检测口径核验——无出链（related 空）+无入链（全库 related 反查）；豁免=agent-spec 类+index/log 非卡资产（#527 同款误报教训已吸收：初扫 287→剔后 285）✓；WARNING 制 exit 恒 0 挂 health-check 每日 02:07 ✓
+- **独立复跑**：160 passed（156+4）一致 ✓；4 例覆盖孤岛/出链/入链/豁免/非卡文件
+- **清单真实性抽验（我亲自反查）**：抽 2 张在册卡（case-yihang-dual-triangle-AI三角-场景/基本功）——related 空+全库 related 反查零入链，双无判定真实 ✓；285 张/2869 扫描面（约 10% 孤岛率）数量级合理
+- **存在性核查**（负向断言附证）：「graph 数据已废弃未用」亲验——`30_wiki/.graph/index.json` 首部 `_deprecated: true` 标记在案，入链反查改 related 全库自建=数据新鲜度自愈，声明属实 ✓ | 核查人：欧阳锋 08-26
+- **预审报告判读**：宽负向词"无"系口径描述文字误报，已判读不计缺陷
+- **边界**：零改卡、10_raw 不在扫描面、与 #527 分工清晰（被依赖 draft vs 无人依赖孤岛）✓
+- **观察项（落点=本记录送达王语嫣）**：清单样例卡 frontmatter 疑缺 domain 字段（json 里 domain 值回退成文件名）——不影响孤岛判定，但按域分组的可读性受损，挂链批次编排时留意
+- **后续**：L3=孤岛数成每日趋势指标；王语嫣按清单编排挂链批次后孤岛数应降（盲测死胡同的治本层开工）
 
 ## 机器预审报告
 
