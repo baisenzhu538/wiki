@@ -461,3 +461,12 @@ type: memory/role-recovery
 - **结论**：PASS A。双无检测口径核验+抽 2 在册卡亲自反查（related 空+零入链真实）；160 passed；graph deprecated 声明亲验标记原件；清单 285 张/2869 面双格式落盘
 - **观察项**：样例卡 frontmatter 疑缺 domain（json 回退成文件名）——送达王语嫣挂链批次时留意
 - **链路**：盲测死胡同治本层开工——#526 手工补一张/#527 被依赖 draft/#528 孤岛扫描，三层齐了
+
+## 🔌 重启恢复点（2026-08-26 晚，老朱重启前封存）
+
+**读我即可恢复**。当前状态：
+- **队列零积压**：08-25 审 13 单全绿（1 个 A-），08-26 审 9 单（#515 FAIL→复审 A、#537 自我改判 FAIL→复审 A、其余 PASS A）+收官 11 章已落 `agent复盘/ouyangfeng/daily-context/2026-08-26.md`
+- **cron 已死**：我的 15 分钟审查 cron 绑本会话，重启即失效——**说"继续"后第一件事：重建 cron**（CronCreate `7-59/15 * * * *`，提示词见上轮会话/或简版：扫 REVIEW-PENDING 段，空一句话收工，有按 O0 流程审）。机制轨兜底已在：#520 探针提审叫醒（10 分钟）+收件箱 `90_control/todos/ouyangfeng.md`
+- **在途事项**：①#515 判据清单校准（我欠的作业：差集 _tmp 口径/宽词阈值）；②#527 清单 23 张被依赖 draft 卡等我过审（等王语嫣编排批次单）；③#525 时钟架构设计稿等老朱拍板拆实施单；④#534 第 4-5 步在王语嫣（D:\tech-wiki 新库 #001 微型闭环）；⑤graph-rag 正文 src_unknown 存量精修待立项
+- **审查纪律速记**：O0 先溯源；负向断言必附 `**存在性核查**` 粗体锚点（#433）；实证句先跑后写（#537 血泪）；PASS 后留实跑验证窗；措辞先扫触发词（🟡/无/缺/未/丢失/不存在/缺失）；流转 `python 90_control/scripts/queue_transition.py review <id> --verdict pass|fail --reviewer 欧阳锋 --grade A`；改判用 `--override --reason`（#538）
+- **收尾四件**：技能进化日志+amnesia+daily-context 追加+`python kdo-tools/daily-context-save.py save --agent ouyangfeng --truman --file <当天文件>` 自检须 🟢/🟡
