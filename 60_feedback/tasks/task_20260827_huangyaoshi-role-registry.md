@@ -1,12 +1,12 @@
 ---
 id: 552
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-27T01:05:00+00:00'
+status: in_progress
+updated_at: '2026-08-26T21:22:33.903594+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
-  - 90_control/role-registry.json
+- 90_control/role-registry.json
 ---
 
 # #552 角色活性注册表 + 心跳写钩（#525 四拆之一）
