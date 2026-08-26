@@ -1,7 +1,7 @@
----
+﻿---
 title: 老顽童失忆恢复记录
 created_at: 2026-07-24
-updated_at: 2026-08-22
+updated_at: 2026-08-26
 type: memory/role-recovery
 ---
 
@@ -55,6 +55,8 @@ type: memory/role-recovery
 > L8 核心：生产任何属于更大框架的 tool/concept/case/dk 子卡时，标题下第一行必须写"本卡属于 `framework-xxx` 的第 Y 步"，再展开正文。
 
 ---
+
+> ⚠️ **08-26 晚 hermes 恢复会话确认**：队列实测总 126/queued=3（#541/#542/#543 全黄药师）/pending_review=2（#539 我+#540 黄药师），myqueue 可领 0/待终审 1（#539）——老顽童名下无活待命。#539 未被终审（任务单无终审记录、队列行仍 pending_review）。收件箱待办 L10/L11/L12 已补入 .agent/laowantong-context.md 行为牌组。恢复口令更新：启动必读 90_control/todos/laowantong.md 收件箱。
 
 ## 4. 当前状态（截至 2026-08-26 · 词元经济域首开 PASS A + 时钟 v2 + E018）
 

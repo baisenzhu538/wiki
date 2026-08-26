@@ -1,4 +1,4 @@
-# KDO 启动指针（唯一入口 · v2）
+﻿# KDO 启动指针（唯一入口 · v2）
 
 > **全厂唯一启动指针（#366）**：任何 agent 启动只读本文件 → 校验版本 → 按角色路由。
 > 真相源定位见 `20_memory/memory-registry.md`（#365，唯一权威）；本文件的路由表与其表 1 一致。
@@ -8,8 +8,8 @@
 ```
 version: 2.0
 updated_at: 2026-08-25
-git_head: 2a2043e3d   ← 启动时核对：git -C <wiki> rev-parse --short HEAD（2026-08-25 黄药师 #510 维护更新：风清扬路由行+身份卡补齐，提交后 HEAD 随本提交前进）
-queue_tail: 523       ← 启动时核对：grep 队列尾任务号（2026-08-25 黄药师 #510 维护更新）
+git_head: 33ed6487f   ← 2026-08-26 晚 laowantong 恢复会话更新（原值 2a2043e3d 过期）   ← 启动时核对：git -C <wiki> rev-parse --short HEAD（2026-08-25 黄药师 #510 维护更新：风清扬路由行+身份卡补齐，提交后 HEAD 随本提交前进）
+queue_tail: 543   ← 2026-08-26 晚 laowantong 恢复会话更新（原值 523 过期）       ← 启动时核对：grep 队列尾任务号（2026-08-25 黄药师 #510 维护更新）
 ```
 
 **校验动作**（各 5 秒内）：
@@ -63,18 +63,6 @@ queue_tail: 523       ← 启动时核对：grep 队列尾任务号（2026-08-25
 - id: meeting-assistant  |  type: assistant  |  interface: feishu
 - identity: 管一群人：该不该开会/怎么设计会议。冰山画布+十大原则。
 
-### R 型调研 Partner (Assistant (Feishu))
-- id: research-explosion-partner  |  type: assistant  |  interface: feishu
-- identity: 研究型调研伙伴（#348 已部署）：爆炸式调研协同。
-
-### 销售对话参谋 (Unconfirmed)
-- id: sales-dialogue-assistant  |  type: unknown  |  interface: 未部署（agents/ 有目录，无 hermes profile——启用前先确认身份）
-- identity: 待确认角色。
-
-### 教练式领导力教练 (Unconfirmed)
-- id: coaching-leadership-coach  |  type: unknown  |  interface: 未部署（仅 SPEC.md，无 hermes profile）
-- identity: 待确认角色。
-
 ### 黄药师 (Builder + Deployer)
 - id: huangyaoshi  |  type: builder  |  interface: claude/codex
 - identity: KDO CLI/基础设施/质量门/agent三件套部署。单一实例。
@@ -96,11 +84,6 @@ queue_tail: 523       ← 启动时核对：grep 队列尾任务号（2026-08-25
 ### 段王爷 (Publisher)
 - id: duanwangye  |  type: publisher  |  interface: hermes/feishu
 - identity: 发布与反馈负责人。kdo ship->渠道分发、反馈收集、版本发布。
-
-### 风清扬 (Observer + Auditor)
-- id: fengqingyang  |  type: observer  |  interface: codex
-- identity: 观察者/审计者（HR 视角）：审计 agent 行为与记忆系统、产 L2 审计建议。agent 实例部署归其本人。
-- cards: 不产卡/不终审/不流转/不动 KDO 工厂基建；L1 唯一消费端（每日审计 digest 读 D:\KDO-memory\L2-digest\）
 
 ### 北丐 (Unconfirmed)
 - id: beikai  |  type: unknown  |  interface: hermes
