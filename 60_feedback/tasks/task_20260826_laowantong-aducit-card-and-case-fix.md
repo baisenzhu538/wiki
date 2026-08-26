@@ -1,13 +1,16 @@
 ---
 id: 539
 assignee: laowantong
-status: pending_review
-updated_at: '2026-08-26T12:58:26.360905+00:00'
+status: reviewed
+updated_at: '2026-08-26T13:47:31.758232+00:00'
 version: v0.1
 instance: kimi-cli
 code_files:
 - 30_wiki/concepts/concept-aducit-six-step.md
 - 30_wiki/cases/case-yihang-dual-triangle-AI三角-数据.md
+reviewed_by: 欧阳锋
+review_date: '2026-08-26'
+grade: A-
 ---
 
 # #539 ADUCIT 概念卡 + 双三角 case 卡 VLM 臆测表处置（小昭误诊事故内容层修复）
@@ -67,3 +70,19 @@ code_files:
 ### ③ 负向判词 / ④ 存在性核查
 
 ✅ 执行报告无负向断言词（检查面=执行报告节）
+
+## 终审记录
+
+- **终审**：欧阳锋 08-26 **PASS A-**
+- **版本对齐**：a9ac29e45=三卡最后改动=提审时刻 ✓；提审后无新 commit 触及（git log a9ac29e45..HEAD 三路径空）✓；plan 仅 v1.3 单版本、art 单版本，无多版本冲突 ✓
+- **O0 溯源**：
+  - 英文全称逐字母对账 plan_20260531_data-curator-v1.3.md:81：`预判(Anticipate)→识别(Detect)→收集(Unearth)→处理(Clean)→使用(Implement)→反馈(Track)` + line 83 `治理(Governance)←贯穿全程`——卡内表格 A/D/U/C/I/T/+1 全中，中文映射正确 ✓
+  - art_20260602_three_deep_questions.md:91 锚=「D/U 鸡生蛋」问题起始；109-127 行含「D 和 U 同时启动/冷启动手动 5-10 个/稳态无需全量扫描」——卡内本土演绎与原文一致，官方版 vs 本土版分层标注到位 ✓
+  - case 卡 L145 显式警示+frontmatter `conflict_with` 在位；core 卡双链回填（line 56）✓；源债登记（itingnao 7685126）在位 ✓；commit a9ac29e45 三文件与执行报告文件清单一致 ✓
+- **独立复跑**：`kdo pre-submit` 3 文件 PASS 6 WARNING——其中 SOURCE_REACHABILITY 2/2「unreachable」为**检查器口径缺陷**（不剥离 `:行号` 锚，带行号锚必误报；实读+逐字母对账均确认锚点真实）→ 已出建议书 `diag_20260826_ouyangfeng-source-refs-line-anchor-unreachable.md` 待王语嫣裁定；VLM_TWO_SECTION 黄灯=#540 两段式范围预期（见后续）；其余为存量级（core 卡定位声明/core 卡 src_unknown×4 归 #518）
+- **缺陷（C 级）**：frontmatter `code_files` 只列 2 文件，实际改动 3 文件（core 卡双链回填未列入）——机器预审「声称-交付差集」检查面随 code_files 收窄到 2/3。执行报告正文已全列，无隐瞒；仅元数据不完备，提审前补全 code_files 可消除
+- **存在性核查**（负向断言锚点）：
+  - 「小昭推断版英文（U/C/I/T 错版）未进任何卡」→ grep 30_wiki 全库：唯一命中=源文档 plan 自身 + 本卡考证警示引述（任务书允许的「进复盘当反面教材」用途），无第二张卡携带错误版本 ✓
+  - 「提审后三卡无新改动」→ git log a9ac29e45..HEAD 三路径 0 commit ✓
+  - 「版本无多版本冲突」→ `30_wiki/decisions/` 仅 plan v1.3 单文件、`40_outputs/` 仅 art 单文件 ✓
+- **后续**：#539 任务书警示文案（`> ⚠️ AI 推断（VLM 臆测），与权威卡冲突…`）与 #540 检查器字面锚（`⚠️ 以下为 AI 推断，未经交叉验证…`）不一致——非本单缺陷（老顽童按任务书执行），#540 审查时核两段式改造是否统一标准行
