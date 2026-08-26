@@ -1,13 +1,13 @@
 ---
 id: 528
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-24T20:45:00+00:00'
+status: in_progress
+updated_at: '2026-08-26T12:28:03.114462+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
-  - kdo-tools/
-  - 90_control/quality-gates/
+- kdo-tools/
+- 90_control/quality-gates/
 ---
 
 # #528 孤岛卡扫描 lint（无出链无入链卡定期出清单）
