@@ -1,12 +1,12 @@
 ---
 id: 543
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-26T23:15:00+00:00'
+status: in_progress
+updated_at: '2026-08-26T16:07:15.082715+00:00'
 version: v0.2
 instance: huangyaoshi
 code_files:
-  - 90_control/scripts/check-source-refs.py
+- 90_control/scripts/check-source-refs.py
 ---
 
 # #543 source_refs 死引治理：1024 条缺失存量 + 扫描器挂例行 + json 输出修复
