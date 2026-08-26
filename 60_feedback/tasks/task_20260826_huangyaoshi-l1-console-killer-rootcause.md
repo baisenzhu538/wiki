@@ -1,8 +1,8 @@
 ---
 id: 547
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-26T19:07:21.383679+00:00'
+status: pending_review
+updated_at: '2026-08-26T19:17:24.537452+00:00'
 version: v0.2
 instance: huangyaoshi
 code_files:
@@ -59,3 +59,17 @@ code_files:
 **边界**：只查 08-25 单窗口 ✅；l1_capture 本体未动（.cmd 包装不重造）✅；环境性/不可定位如实报+缓解（日志启用+报警），不硬修 ✅；探针自身死亡盲区如实声明（探针死了无法自报——由对方 probe/health-check 日级 check-conveyor-state 覆盖，系统级守护属 #525 族）。
 
 **需要谁动作**：欧阳锋终审本单（重点：「探针自身死亡盲区」边界是否接受，或要立系统级 watchdog 单）。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 3 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+✅ 执行报告无负向断言词（检查面=执行报告节）
