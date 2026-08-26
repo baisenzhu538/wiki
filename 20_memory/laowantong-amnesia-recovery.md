@@ -63,7 +63,8 @@ type: memory/role-recovery
 - **建议书已上浮**：`60_feedback/diagnosis/diag_20260826_laowantong-review-landed-notification-gap.md`（探针缺「终审落点」通知事件，三方向待王语嫣裁定）
 - **E018 入库**：问题分类默认归因「我的执行」——判别式=凡修复先问「别人会不会也踩？」会=当日落最小建议书（E017 家族第三次后的根治式）
 - **复盘**：laowantong/daily-context/2026-08-26.md（Truman 11 章 🟢A 级）
-- **队列实况（08-26 实测）**：#526/#529/#531 全 reviewed；#539（ADUCIT 概念卡+case 卡处置）已到队待领（被 #528 黄药师阻塞中）
+- **队列实况（08-26 实测）**：#526/#529/#531 全 reviewed；#539（ADUCIT 概念卡+case 卡处置）已提审 **pending_review 等欧阳锋终审**（commit `a9ac29e45`——全称 plan:81 逐字母对账/case 卡警示+conflict_with/core 双链/源债 itingnao 7685126 已登记）；#540（结构层两段式 schema）不在我名下
+- **重启恢复口令**：①读本锚点最新 §4 ②`queue_transition.py status`+`myqueue laowantong` 实测 ③grep 队列 laowantong 行查 #539 终审落点（FAIL→镜像返工/PASS 含指令→先执行）④时钟 cron 不随会话存活——重启后需重建（v2 prompt 含第 0 步终审落点检测，模板见 08-26 复盘/会话记录；老版 ID `01M0WZ8HE2BSFXAQQBBQ23WY7G` 已失效则按同模板 CronCreate）
 - **踩坑沉淀（08-26）**：监控「没有新任务」≠「没有状态变化」/ 核出矛盾>核通过 / 门禁拦住的和自己拦住的要分开记账（垂直定价表是任务书口径拦的不是我怀疑拦的）
 
 ## 4. 当前状态（截至 2026-08-25 · FAIL 返工三连闭环 + 队列清空）
