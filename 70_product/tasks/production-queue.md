@@ -163,7 +163,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 535 | `task_20260826_huangyaoshi-review-landed-notify` | 终审落点通知：conveyor_probe补pending_review→reviewed事件推送+myqueue最近终审栏+FAIL置顶 | reviewed | huangyaoshi | 事件通知+视图栏+回归 | 无 | `60_feedback/tasks/task_20260826_huangyaoshi-review-landed-notify.md` | 老顽童建议书采纳（老朱08-26抓包实证：#531 PASS后老顽童15分钟时钟未察觉）；动作触发有通知/结果触发无通知的不对称补全；与#530分工=素材事件vs队列结果事件；飞书随#525；⚠️补记（王语嫣08-26复核）：方向1部分证伪——终审PASS通知已存在（老顽童收件箱00:57#531条目实证），黄药师先核既有覆盖只补差集，方向2/3保留；⚠️补记2（王语嫣08-26代码全核）：方向1/3全证伪——FAIL退回通知#462就有（new_failback按assignee路由），实际仅剩myqueue最近终审栏，降格小增强；详见90_control/notification-coverage-matrix.md；欧阳锋终审 |
 | 536 | `task_20260826_huangyaoshi-near-miss-escalation` | near-miss超期升级推送：三元组违例≥3轮未修正→推王语嫣收件箱（幂等+修正消项） | reviewed | huangyaoshi | 升级推送+回归 | 无 | `60_feedback/tasks/task_20260826_huangyaoshi-near-miss-escalation.md` | 通知覆盖矩阵G1销项单（实证：老顽童两份建议书near-miss十几轮无人捞，老朱追问才处理）；只补推送不改#506检测口径；矩阵登记纪律首个执行单（交付须同步销项G1）；欧阳锋终审 |
 | 537 | `task_20260826_huangyaoshi-matrix-sync-gate` | 总账登记机器核查：conveyor_probe第七信号——基础设施单reviewed时矩阵未同步→双推欧阳锋拦截+抄送王语嫣 | reviewed | huangyaoshi | 信号+豁免台账+回归 | 无 | `60_feedback/tasks/task_20260826_huangyaoshi-matrix-sync-gate.md` | 老朱追问「是不是有基础设施来保障」——§3.19纯文档纪律无人脑兜底，补机器信号（#460/#506同哲学）；只核存在性不判正确性（#433同哲学）；matrix_exempt豁免落#444台账；WARNING只向前；本单自身=首个被核查对象（元狗粮）；⚠️08-26欧阳锋终审PASS后实跑改判FAIL：第七信号首日误报双bug（窗口口径被chore commit插队+seq推导恒得"task"显示#task字面）——返工修复重提，改判通道缺口→#538；欧阳锋复终审 |
-| 538 | `task_20260826_huangyaoshi-review-override-channel` | queue_transition补改判通道：review --verdict fail --override（reviewed→queued，--reason必填+台账+任务单追记） | pending_review | huangyaoshi | 改判流转+回归 | 无 | `60_feedback/tasks/task_20260826_huangyaoshi-review-override-channel.md` | 欧阳锋建议落点（#537实证：PASS后实跑改判FAIL无机器通道，王语嫣破窗手改+force-exceptions留痕）；改判权=终审者专用；只支持reviewed→queued单方向，grade更正走追记不动状态机；failback信号覆盖「曾reviewed」场景需回归验证；欧阳锋终审 |
+| 538 | `task_20260826_huangyaoshi-review-override-channel` | queue_transition补改判通道：review --verdict fail --override（reviewed→queued，--reason必填+台账+任务单追记） | reviewed | huangyaoshi | 改判流转+回归 | 无 | `60_feedback/tasks/task_20260826_huangyaoshi-review-override-channel.md` | 欧阳锋建议落点（#537实证：PASS后实跑改判FAIL无机器通道，王语嫣破窗手改+force-exceptions留痕）；改判权=终审者专用；只支持reviewed→queued单方向，grade更正走追记不动状态机；failback信号覆盖「曾reviewed」场景需回归验证；欧阳锋终审 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
 ## ⚖️ 待终审（提审任务，queue_transition 自动登记）
@@ -291,7 +291,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#536 task_20260826_huangyaoshi-near-miss-escalation｜huangyaoshi｜提审 08-26 06:25｜60_feedback/tasks/task_20260826_huangyaoshi-near-miss-escalation.md~~ → 已终审 PASS A（2026-08-25 欧阳锋）
 - ~~#537 task_20260826_huangyaoshi-matrix-sync-gate｜huangyaoshi｜提审 08-26 07:00｜60_feedback/tasks/task_20260826_huangyaoshi-matrix-sync-gate.md~~ → 已终审 PASS A（2026-08-25 欧阳锋）
 - ~~#537 task_20260826_huangyaoshi-matrix-sync-gate｜huangyaoshi｜提审 08-26 09:11｜60_feedback/tasks/task_20260826_huangyaoshi-matrix-sync-gate.md~~ → 已终审 PASS A（2026-08-26 欧阳锋）
-- #538 task_20260826_huangyaoshi-review-override-channel｜huangyaoshi｜提审 08-26 10:14｜60_feedback/tasks/task_20260826_huangyaoshi-review-override-channel.md
+- ~~#538 task_20260826_huangyaoshi-review-override-channel｜huangyaoshi｜提审 08-26 10:14｜60_feedback/tasks/task_20260826_huangyaoshi-review-override-channel.md~~ → 已终审 PASS A（2026-08-26 欧阳锋）
 
 <!-- REVIEW-PENDING-END -->
 
