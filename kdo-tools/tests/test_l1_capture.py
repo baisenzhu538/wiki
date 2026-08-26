@@ -136,12 +136,12 @@ def test_archive_refuses_delete_on_size_mismatch(tmp_path, monkeypatch):
 
 
 def test_archive_skips_today_and_nondirs(tmp_path, monkeypatch):
-    """今天目录不归档；trace-index.md/.capture-state.json 等散文件不动。"""
+    """今天目录不归档；trace-index-<当日>.md/.capture-state.json 等散文件不动（#548 日轮转口径）。"""
     src, l1root, archroot = _sandbox(tmp_path, monkeypatch)
     lc.capture(dry_run=False)
     assert lc._archive_old_days() == 0
     assert (l1root / _today()).exists()
-    assert (l1root / "trace-index.md").exists()
+    assert (l1root / f"trace-index-{_today()}.md").exists()  # #548：当日卷
     assert (l1root / ".capture-state.json").exists()
 
 
@@ -208,3 +208,66 @@ def test_archive_refusal_writes_gate_blocked(tmp_path, monkeypatch):
     assert lc._archive_old_days() == 0
     gb = (tmp_path / "gate-blocked.log").read_text(encoding="utf-8")
     assert "L1-归档拒删" in gb and "2020-01-01" in gb and "huangyaoshi" in gb
+
+
+# ── #548 回归：trace-index 按日轮转 + 自我喂养排除 + 旧卷随日归档 ──
+
+class _FakeDatetime:
+    """capture() 的 today 走 datetime.now()——伪造日期模拟跨日。"""
+
+    def __init__(self, day):
+        self._day = day
+
+    def now(self, tz=None):
+        from datetime import datetime as _real
+        return _real.strptime(self._day + " 12:00:00", "%Y-%m-%d %H:%M:%S")
+
+    @staticmethod
+    def strptime(s, fmt):
+        from datetime import datetime as _real
+        return _real.strptime(s, fmt)
+
+
+def _capture_as(tmp_path, monkeypatch, day):
+    monkeypatch.setattr(lc, "datetime", _FakeDatetime(day))
+    rc = lc.capture(dry_run=False)
+    assert rc == 0
+
+
+def test_trace_index_daily_rotation(tmp_path, monkeypatch):
+    """跨日轮转：day1/day2 各自开卷，活跃层无 trace-index.md 单卷。"""
+    src, l1root, _ = _sandbox(tmp_path, monkeypatch)
+    _capture_as(tmp_path, monkeypatch, "2026-08-26")
+    _capture_as(tmp_path, monkeypatch, "2026-08-27")
+    assert (l1root / "trace-index-2026-08-26.md").exists()
+    assert (l1root / "trace-index-2026-08-27.md").exists()
+    assert not (l1root / "trace-index.md").exists()
+    # 当日卷含表头 + 追加段
+    body = (l1root / "trace-index-2026-08-27.md").read_text(encoding="utf-8")
+    assert "当日卷" in body and "## 2026-08-27" in body
+
+
+def test_trace_index_excluded_from_capture(tmp_path, monkeypatch):
+    """自我喂养排除：源目录里的 trace-index*.md 不进采集面。"""
+    src, l1root, _ = _sandbox(tmp_path, monkeypatch)
+    (src / "trace-index-2026-08-26.md").write_text("# 索引", encoding="utf-8")
+    _capture_as(tmp_path, monkeypatch, "2026-08-27")
+    day = l1root / "2026-08-27" / "claude"
+    assert not (day / "trace-index-2026-08-26.md").exists()
+    assert (day / "s1.jsonl").exists()  # 正常文件照采
+
+
+def test_old_trace_volume_archived_with_day_zip(tmp_path, monkeypatch):
+    """旧卷随日归档：昨天目录 zip 含 trace-index-<昨天>.md + 活跃层卷被清。"""
+    src, l1root, archroot = _sandbox(tmp_path, monkeypatch)
+    _capture_as(tmp_path, monkeypatch, "2026-08-26")  # 昨天的目录+卷
+    _capture_as(tmp_path, monkeypatch, "2026-08-27")  # 今天（不归档）
+    n = lc._archive_old_days()
+    assert n == 1
+    import zipfile
+    zf = zipfile.ZipFile(archroot / "2026-08-26.zip")
+    assert "trace-index-2026-08-26.md" in zf.namelist()
+    zf.close()
+    assert not (l1root / "trace-index-2026-08-26.md").exists()   # 旧卷移出活跃层
+    assert (l1root / "trace-index-2026-08-27.md").exists()       # 当日卷保留
+    assert not (l1root / "2026-08-26").exists()                  # 旧目录已清
