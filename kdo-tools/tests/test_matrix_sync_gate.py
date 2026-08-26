@@ -59,7 +59,7 @@ def test_unsynced_infra_task_flagged(tmp_path, monkeypatch):
     _task(repo, "task_a", ["kdo-tools/conveyor_probe.py"])
     _commit_task(repo, "task_a", with_matrix=False)
     monkeypatch.setattr(probe, "TASK_DIR", repo / "60_feedback" / "tasks")
-    out = probe._matrix_sync_check("task_a", repo)
+    out = probe._matrix_sync_check("task_a", "100", repo)
     assert out and "总账未同步" in out and "conveyor_probe.py" in out
 
 
@@ -69,7 +69,7 @@ def test_synced_task_passes(tmp_path, monkeypatch):
     _task(repo, "task_b", ["kdo-tools/conveyor_probe.py"])
     _commit_task(repo, "task_b", with_matrix=True)
     monkeypatch.setattr(probe, "TASK_DIR", repo / "60_feedback" / "tasks")
-    assert probe._matrix_sync_check("task_b", repo) is None
+    assert probe._matrix_sync_check("task_b", "101", repo) is None
 
 
 def test_exempt_task_skips(tmp_path, monkeypatch):
@@ -77,7 +77,7 @@ def test_exempt_task_skips(tmp_path, monkeypatch):
     _task(repo, "task_c", ["kdo-tools/conveyor_probe.py"], exempt=True)
     _commit_task(repo, "task_c", with_matrix=False)
     monkeypatch.setattr(probe, "TASK_DIR", repo / "60_feedback" / "tasks")
-    assert probe._matrix_sync_check("task_c", repo) == "EXEMPT"
+    assert probe._matrix_sync_check("task_c", "102", repo) == "EXEMPT"
 
 
 def test_non_infra_task_passes(tmp_path, monkeypatch):
@@ -85,10 +85,41 @@ def test_non_infra_task_passes(tmp_path, monkeypatch):
     _task(repo, "task_d", ["kdo-tools/quality_metrics.py"])  # 不在 INFRA_WATCH
     _commit_task(repo, "task_d", with_matrix=False)
     monkeypatch.setattr(probe, "TASK_DIR", repo / "60_feedback" / "tasks")
-    assert probe._matrix_sync_check("task_d", repo) is None
+    assert probe._matrix_sync_check("task_d", "103", repo) is None
 
 
 def test_missing_task_file_passes(tmp_path, monkeypatch):
     repo = _repo(tmp_path)
     monkeypatch.setattr(probe, "TASK_DIR", repo / "60_feedback" / "tasks")
-    assert probe._matrix_sync_check("task_ghost", repo) is None
+    assert probe._matrix_sync_check("task_ghost", "999", repo) is None
+
+
+def _commit_chore(repo, task_id):
+    """流转 chore commit（claim/complete/review 自动收口形态——只碰任务单）。"""
+    fp = repo / "60_feedback" / "tasks" / f"{task_id}.md"
+    with fp.open("a", encoding="utf-8") as f:
+        f.write("status 流转\n")
+    _git(repo, "add", f"60_feedback/tasks/{task_id}.md")
+    _git(repo, "commit", "-m", f"chore(queue): {task_id} complete by huangyaoshi")
+
+
+def test_chore_commits_dont_push_functional_out(tmp_path, monkeypatch):
+    """#537 改判 FAIL 根因回归：流转 chore 三连插队在功能 commit 之后——
+    修复前窗口被 chore 占满误报；修复后剔除 chore 查到功能笔 → 静默通过。"""
+    repo = _repo(tmp_path)
+    _task(repo, "task_e", ["kdo-tools/conveyor_probe.py"])
+    _commit_task(repo, "task_e", with_matrix=True)      # 功能笔（含矩阵同改）
+    for _ in range(3):                                    # 流转三连插队（#537 实况原型）
+        _commit_chore(repo, "task_e")
+    monkeypatch.setattr(probe, "TASK_DIR", repo / "60_feedback" / "tasks")
+    assert probe._matrix_sync_check("task_e", "537", repo) is None  # 静默通过
+
+
+def test_chore_only_no_functional_no_flag(tmp_path, monkeypatch):
+    """功能笔不存在（全流转笔）→ 不告警（fail-open，没功能面可查）。"""
+    repo = _repo(tmp_path)
+    _task(repo, "task_f", ["kdo-tools/conveyor_probe.py"])
+    _git(repo, "add", f"60_feedback/tasks/task_f.md")
+    _git(repo, "commit", "-m", "chore(queue): task_f claim by x")
+    monkeypatch.setattr(probe, "TASK_DIR", repo / "60_feedback" / "tasks")
+    assert probe._matrix_sync_check("task_f", "540", repo) is None

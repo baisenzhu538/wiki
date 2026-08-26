@@ -445,12 +445,17 @@ INFRA_WATCH = [
 MATRIX_FILE = "90_control/notification-coverage-matrix.md"
 
 
-def _matrix_sync_check(task_id: str, root: Path) -> str | None:
+def _matrix_sync_check(task_id: str, seq: str, root: Path) -> str | None:
     """基础设施单 reviewed 时核查矩阵同步。返回问题文案（None=通过/不适用）。
 
-    口径：任务单 code_files 触及 INFRA_WATCH → 该任务单最近 3 笔 commit 须同改矩阵；
-    frontmatter `matrix_exempt: true` → 跳过+豁免留痕（#444 台账同款）。
+    口径：任务单 code_files 触及 INFRA_WATCH → 该单**功能 commit**（非流转 chore）
+    须同改矩阵；frontmatter `matrix_exempt: true` → 跳过+豁免留痕（#444 台账同款）。
     机器只查「登没登」（存在性），不判「登得对不对」（#433 同哲学）。
+
+    #537 改判 FAIL 双 bug 修复（欧阳锋 08-26 自我纠错附证）：
+    ①窗口口径——流转 commit（chore(queue)/vault backup）必然插队把功能 commit 挤出
+    窗口，改查「该单的功能笔」（流转/备份笔剔除后取近 3 笔，log 窗口放宽 10 笔再滤）；
+    ②seq 从调用点元组传入（task_id 不含序号，split 推导恒错成「#task」）。
     """
     fp = TASK_DIR / f"{task_id}.md"
     if not fp.exists():
@@ -470,21 +475,24 @@ def _matrix_sync_check(task_id: str, root: Path) -> str | None:
         return None
     try:
         import subprocess as _sp
-        hashes = _sp.run(
-            ["git", "-C", str(root), "log", "-n", "3", "--format=%H",
+        lines = _sp.run(
+            ["git", "-C", str(root), "log", "-n", "10", "--format=%H%x1f%s",
              "--", f"60_feedback/tasks/{task_id}.md"],
-            capture_output=True, text=True, timeout=15).stdout.split()
-        # 逐 commit 查全量文件清单（pathspec 过滤会连名单一起过滤——#537 测试实证，
-        # 不能用 git log --name-only -- <任务单> 一步查）
+            capture_output=True, text=True, timeout=15,
+            encoding="utf-8", errors="replace").stdout.splitlines()
+        # 流转/备份 commit 剔除（只碰状态字段，与功能交付无关）
+        functional = [ln.split("\x1f")[0] for ln in lines
+                      if ln.strip() and not ln.split("\x1f", 1)[1].startswith(("chore(queue)", "vault backup"))]
+        # 逐功能 commit 查全量文件清单（pathspec 过滤会连名单一起过滤——须两段查）
         names = []
-        for h in hashes:
+        for h in functional[:3]:
             names += _sp.run(
                 ["git", "-C", str(root), "diff-tree", "--no-commit-id", "--name-only", "-r", h],
-                capture_output=True, text=True, timeout=15).stdout.split()
+                capture_output=True, text=True, timeout=15,
+                encoding="utf-8", errors="replace").stdout.split()
     except Exception:
         return None  # git 异常 fail-open
-    if MATRIX_FILE not in names:
-        seq = task_id.split("_")[0].replace("task_", "")
+    if functional and MATRIX_FILE not in names:
         return (f"⛔ 总账未同步：#{seq} 触碰基础设施"
                 f"（{Path(touched[0]).name}）但 notification-coverage-matrix 未同改——"
                 f"终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）")
@@ -880,7 +888,7 @@ def main() -> int:
     for tid, _seq, _a in queue_sig["new_reviewed"]:
         if tid in matrix_checked:
             continue
-        issue = _matrix_sync_check(tid, ROOT)
+        issue = _matrix_sync_check(tid, _seq, ROOT)
         matrix_checked.add(tid)
         matrix_dirty = True
         if issue == "EXEMPT":
