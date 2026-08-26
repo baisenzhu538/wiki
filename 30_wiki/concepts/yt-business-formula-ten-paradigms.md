@@ -35,8 +35,6 @@ source_refs:
 - 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:2848-2952
 - 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:2982-3034
 - 10_raw/sources/handle-the-business/Business formula/_vlm_output/业务公式十大经典范式_vlm.md
-  - src_unknown
-  - src_unknown
 discoverable_by:
   - 一堂业务公式十大经典范式收入/竞争/运营三环完整版
 related:

@@ -2,9 +2,9 @@
 id: framework-audit-maxims-library
 title: 审计判词库：风清扬两日审计提取的 13 条可训练认知资产
 type: framework
-status: draft
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: medium
 domain:
@@ -55,8 +55,8 @@ tags:
 - method:audit
 - method:governance
 - source-person:风清扬
+review_date: 2026-08-27
 ---
-
 # 审计判词库（13 条）
 
 > **定位声明**：本卡属审查/治理方法论域，是审计判词的**认知层单一真相源**。与 #433 族门禁词表（`90_control/scripts/queue_transition.py` 的 `NEGATIVE_CLAIM_STRONG`/`NEGATIVE_CLAIM_SOFT` 常量——检索常量名定位，行号随版本漂移）的关系：**词表=实现层；存量词条（08-23 随 #433 落地）先于本卡存在，判词 A3 是从其实践回溯提取的——自本卡起（as of 2026-08-27），词表变更须引用判词编号**，不与本卡合并维护。与 charter（`kdo-charter-v0.1-draft.md`，正文版本 v1.2）的关系：A1 已入 §3.16、C2 已入 §3.17 红线 1（均 08-25 老朱拍板）、A6=§3.18 第 3 条原文——本卡是入宪判词的完整版+适用边界说明；A5 未入宪，仅与 §3.18 第 1 条机制配套关联。

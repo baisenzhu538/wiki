@@ -22,8 +22,7 @@ source_context:
   - 一堂业务公式孔源篇B版（2026-06-13），ToC在线教育案例：把定性参数「信任度」拆成可观察行为指标，找到业务抓手
   - yitang
 source_refs:
-- 10_raw/sources/src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral.md
-  L1412-L1518
+- 10_raw/sources/src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral.md:1412-1518
 discoverable_by:
   - ToC在线教育：把信任度拆成4个可定量行为指标，对话率10%
   - ToC在线教育

@@ -195,3 +195,19 @@ tags:
 | 2 | **agent-spec** | `agent-spec-hongqigong-multimodal` | ✅ 已建 |
 | 3 | **tool** | VA 四维法标准模板（本文 §三） | ✅ 本文 |
 | 4 | **case** | 单元模型域 VA 审查记录（task-20260528） | ✅ 已有 |
+
+---
+
+## 终审记录（#544 批次 · 2026-08-26 · 欧阳锋）
+
+**结论：退回补内容（不升 reviewed）**
+
+**P0-1 source_refs 为散文（L28）**：唯一 source_ref 是一段叙述文字非文件路径——O0 溯源无法执行。kdo_lint 实测 PASS（lint 跳过无「/」的 ref，kdo_lint.py L174-175）——lint 覆盖缺口已另立建议书。
+
+**P0-2 related: null（L29）**。
+
+**P1-1 aliases 污染（L16-25）**：audience:ceo/capabilities/outputs 非别名；「片到结构化视觉分析的通用方法论」等为标题截断碎片。
+
+**通过维度**：内容结构达标（四维表/质量门禁/实战验证/Critique 含 Gestalt 外部攻击/Action Triggers/解压路径 1:3 合规）；§五实战验证的审查史实（单元模型域 A-、3 处颜色违规）与工厂记忆一致。
+
+**期望形态**：① source_refs 落真实路径（单元模型 VA 审查任务单、讲香域四卡、agent-spec-hongqigong-multimodal §4）；② related 补 skill/agent-spec/case 解压资产；③ aliases 清洗。

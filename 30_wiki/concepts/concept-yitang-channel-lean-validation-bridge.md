@@ -28,8 +28,6 @@ source_context:
   - yitang
 source_refs:
 - 10_raw/sources/yitang-five-step-growth/truman-渠道探索方法论-口述.txt
-  - src_unknown
-  - src_unknown
 - 10_raw/sources/yitang-five-step-growth/truman-渠道探索方法论-口述.txt
 - lean-startup-domain-digest
 - diag_20260627_wangyuyan-cross-domain-bridge-supplement

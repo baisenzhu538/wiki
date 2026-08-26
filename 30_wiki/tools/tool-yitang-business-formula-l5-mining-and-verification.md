@@ -19,8 +19,7 @@ source_context:
   - C 域实战反哺——参数挖掘武器库 L5 层 + 参数冰山双向八路 + Live255 谢泽丰（挖）/董原（验）两案例互补
   - yitang
 source_refs:
-- 10_raw/sources/handle-the-business/Business formula/_vlm_output/一堂业务公式-参数挖掘武器库（极其重要，需要精细识别）_vlm.md
-  L164-L190
+- 10_raw/sources/handle-the-business/Business formula/_vlm_output/一堂业务公式-参数挖掘武器库（极其重要，需要精细识别）_vlm.md:164-190
 - 10_raw/sources/handle-the-business/Business formula/_vlm_output/业务公式的参数冰山_vlm.md:23-25
 - 10_raw/sources/case-study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md:2442-2448
 - 10_raw/sources/case-study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md:2466-2508

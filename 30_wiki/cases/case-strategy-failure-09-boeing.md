@@ -12,9 +12,6 @@ language: zh-CN
 domain: strategy
 source_refs:
 - 10_raw/sources/strategy/冉鹏战略课逐字稿_ocr.md
-  - src_unknown
-  - src_unknown
-  - src_unknown
 updated_at: 2026-06-29
 tags:
   - audience:general

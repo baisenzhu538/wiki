@@ -24,8 +24,6 @@ source_refs:
 - 10_raw/sources/yitang-lectures/一堂-产品内核验证课-Truman-口述.txt:1026-1296
 - 10_raw/sources/yitang-lectures/一堂-产品内核迭代课-Truman-口述.txt:1304-1346
 - 10_raw/sources/yitang-lectures/一堂-产品内核迭代课-Truman-口述.txt:3018-3400
-  - src_unknown
-  - src_unknown
 created_at: '2026-06-11'
 updated_at: '2026-07-08'
 author: 老顽童（合并升级）

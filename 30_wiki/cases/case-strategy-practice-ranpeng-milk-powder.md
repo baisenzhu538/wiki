@@ -21,7 +21,6 @@ source_context:
   - 冉鹏战略课逐字稿
 source_refs:
 - 10_raw/sources/strategy/冉鹏战略课逐字稿_ocr.md
-  - src_unknown
 reviewed_by: pending
 updated_at: '2026-06-29'
 discoverable_by:

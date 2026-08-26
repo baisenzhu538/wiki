@@ -26,10 +26,11 @@ source_context:
   - yitang
 source_refs:
 - 10_raw/sources/sales/李蕊-科学销售方法论-口述.txt:800-814
-  - 00_inbox/销售专题/李蕊-销售系统之五-销售工具箱-口述.txt L720,L2276-L2282
+- 10_raw/sources/sales/李蕊-销售系统之五-销售工具箱-口述.txt:720
+- 10_raw/sources/sales/李蕊-销售系统之五-销售工具箱-口述.txt:2276-2282
 - 10_raw/sources/sales/李蕊-销售体系之二-销售过程拆解-口述.txt:764
-  - 60_feedback/diagnosis/diag_20260708_yitang-sales-domain-oral-deep-dive-v2.md
-  - 70_product/tasks/task_20260708_wangyuyan-sales-domain-deep-dive-supplement.md
+- 60_feedback/diagnosis/diag_20260708_yitang-sales-domain-oral-deep-dive-v2.md
+- 70_product/tasks/task_20260708_wangyuyan-sales-domain-deep-dive-supplement.md
 discoverable_by:
   - 一通电话前三秒话术优化卡
 related:

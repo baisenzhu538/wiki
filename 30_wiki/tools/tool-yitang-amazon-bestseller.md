@@ -23,7 +23,6 @@ source_context:
   - yitang
 source_refs:
 - 10_raw/sources/research-topics/调研超级武器库_ocr_text.md
-  - src_unknown
 discoverable_by:
   - 亚马逊榜单：海外市场的品类趋势
   - 亚马逊榜单

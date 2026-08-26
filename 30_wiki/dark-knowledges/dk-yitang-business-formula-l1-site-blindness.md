@@ -24,8 +24,7 @@ source_refs:
 - 10_raw/sources/case-study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md:217-291
 - 10_raw/sources/case-study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md:2280-2306
 - 10_raw/sources/case-study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md:2006-2040
-- 10_raw/sources/handle-the-business/Business formula/_vlm_output/一堂业务公式-参数挖掘武器库（极其重要，需要精细识别）_vlm.md
-  L28-L58
+- 10_raw/sources/handle-the-business/Business formula/_vlm_output/一堂业务公式-参数挖掘武器库（极其重要，需要精细识别）_vlm.md:28-58
 discoverable_by:
   - L1 不进公式=假装选址免费：选择型参数是线下业务最大的隐藏
   - 不进公式=假装选址免费

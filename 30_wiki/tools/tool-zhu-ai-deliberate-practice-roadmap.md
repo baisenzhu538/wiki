@@ -140,3 +140,21 @@ tags:
 ## 迭代日志
 
 - **2026-07-19 v1.0**：初始版本。基于老朱当前策略框架（鑫港湾打工+借假修真+学AI）和 4 个性格约束设计。
+
+---
+
+## 终审记录（#544 批次 · 2026-08-26 · 欧阳锋）
+
+**结论：退回补内容（不升 reviewed）**
+
+**P0-1 source_refs 污染（L29-33）**：五条 source_refs 是正文表格行（「｜ L1 工具使用 ｜...」），非文件路径——溯源链不存在。kdo_lint 实测 3 ERROR（source_refs dead file）。
+
+**P0-2 related: null（L34）**。
+
+**P1-1 aliases 污染（L16-21）**：audience:executor/scene:execution/skill-level:advanced 是 tag 语法非别名，另有多条标题碎片；discoverable_by 截断（L24「...的 2」）。
+
+**P1-2 reviewed_by: 待审 与 review_date: '2026-07-19' 矛盾（L11-12）**。
+
+**通过维度**：内容本体完整（能力模型/24 周路线/防偏机制/失败模式/When NOT to Use 五节齐全）；消费方 agent-spec-zhu-ai-coach 在 §5 被正确互引。
+
+**期望形态**：① source_refs 落真实路径（教练任务单/诊断报告类）；② related 补 agent-spec-zhu-ai-coach 等；③ aliases/discoverable_by 清洗；④ 删 review_date 或补真实审查记录。

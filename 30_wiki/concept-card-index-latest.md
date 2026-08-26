@@ -1,4 +1,4 @@
-# Concept Card Index — 2026-08-25 18:07 UTC
+# Concept Card Index — 2026-08-26 18:07 UTC
 
 | ID | Title | Type | Domain |
 |---|---|---|---|
@@ -33,6 +33,7 @@
 | completion-criteria-design | 完成标准设定 | tool | learning-methodology, personal-growth |
 | concept-abundance-paradox | 富足悖论：为什么技术越富足，新问题越多 | concept | decision-making |
 | concept-addiction-threshold | 上瘾门槛论：让人上瘾的生意门槛极高——商业维度优先 | concept | decision-making |
+| concept-aducit-six-step | ADUCIT 六步数据飞轮：预判→识别→收集→处理→使用→反馈（+治理贯穿） | concept | yihang, kdo |
 | concept-agent-as-token-consumer | 智能体是词元最大消费者：×100 倍消耗与「模型要为智能体而造」 | concept | strategy, ai-saas |
 | concept-ai-amara-law-business-judgment | 阿马拉定律与商业判断校准 | concept | ai-collaboration, critical-thinking, business-judgment |
 | concept-ai-chair-determines-view | 椅子决定视角 | concept | ai-collaboration, critical-thinking, business-judgment |
@@ -551,6 +552,7 @@
 | framework-AI知识库-加卡片加标签双原则 | 加卡片加标签双原则：知识不够加卡片，索引不到加标签 | framework | ai-knowledge, knowledge-management |
 | framework-AI知识库-四象限资产 | 知识库四象限资产：私有事实/经验判断/业务边界/可复用输出 | framework | ai-knowledge, knowledge-management |
 | framework-AI知识库-知识卡片公式 | 知识卡片公式：YAML 标签（给 AI 看）+ 原子化正文（给人看） | framework | ai-knowledge, knowledge-management |
+| framework-audit-maxims-library | 审计判词库：风清扬两日审计提取的 13 条可训练认知资产 | framework | kdo, knowledge-management |
 | framework-baozhashidiaochan-five-step | 爆炸式调研五步法：目标→范围→搜索⇄建模→交付 | framework | research |
 | framework-big-five-personality | 「框架：大五人格——只有开放性和尽责性越高越好」 | framework | human-insights, psychology |
 | framework-bimodal-time-philosophy | 双峰时间哲学模型 | framework | ai-collaboration, management, modeling, strategy |

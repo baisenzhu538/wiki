@@ -28,14 +28,10 @@ source_context:
   - 一堂《优秀转化率复盘合集》首个案例，政府某部门出资的 2 天 1 夜封闭式中小企业高级管理辅导班
   - yitang
 source_refs:
-- 10_raw/sources/handle-the-business/conversion rate/_vlm_native_text/优秀转化率复盘合集/p001.txt
-  L5-L23
-- 10_raw/sources/handle-the-business/conversion rate/_vlm_native_text/优秀转化率复盘合集/p002.txt
-  L1-L22
-- 10_raw/sources/handle-the-business/conversion rate/_vlm_native_text/优秀转化率复盘合集/p003.txt
-  L1-L26
-- 10_raw/sources/handle-the-business/conversion rate/_vlm_native_text/优秀转化率复盘合集/p004.txt
-  L1-L16
+- 10_raw/sources/handle-the-business/conversion rate/_vlm_native_text/优秀转化率复盘合集/p001.txt:5-23
+- 10_raw/sources/handle-the-business/conversion rate/_vlm_native_text/优秀转化率复盘合集/p002.txt:1-22
+- 10_raw/sources/handle-the-business/conversion rate/_vlm_native_text/优秀转化率复盘合集/p003.txt:1-26
+- 10_raw/sources/handle-the-business/conversion rate/_vlm_native_text/优秀转化率复盘合集/p004.txt:1-16
 discoverable_by:
   - 邹韵涛：政府出资的中小企业高管封闭培训会，106 人报名、5
   - 邹韵涛
