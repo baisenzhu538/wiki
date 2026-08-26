@@ -23,6 +23,8 @@ aliases:
 - 数据
 - 角案例
 source_refs: null
+conflict_with:
+- '[[concept-yihang-dual-triangle-core]]'
 discoverable_by:
 - AI三角-数据 — 双三角案例
 - 双三角案例
@@ -143,6 +145,8 @@ reviewed_by: pending
 ## 三、在双三角体系中的位置
 
 ### 双三角模型定位
+
+> ⚠️ **AI 推断（VLM 臆测），与权威卡冲突，以 [[concept-yihang-dual-triangle-core]] 为准**——权威版 AI 三角=**场景/数据/基本功**（非本表的「数据/算法/算力」）。本表保留作事故化石（#539 小昭误诊事故内容层处置，2026-08-26），不得引用。
 
 | 维度 | 人类三角 | AI三角 |
 |------|---------|--------|

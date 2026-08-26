@@ -53,6 +53,7 @@ related:
 - '[[concept-AI时代双三角竞争力]]'
 - '[[concept-一堂-AI时代基本功变与不变]]'
 - '[[yt-decision-y-model]]'
+- '[[concept-aducit-six-step]]'
 - '[[system-yitang-Y-model-os]]'
 - '"[[case-yihang-dual-triangle-tianmo-design-delivery]]"'
 - '"[[case-yihang-dual-triangle-ahao-product-selection]]"'
