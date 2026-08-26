@@ -1,8 +1,8 @@
 ---
 id: 548
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-26T19:37:23.452222+00:00'
+status: pending_review
+updated_at: '2026-08-26T19:44:27.257114+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
@@ -57,3 +57,17 @@ code_files:
 **边界**：trace 记录格式未动 ✅；L1 采集其他逻辑未动 ✅；与 #547 同文件分开 commit ✅（#547 改的是 conveyor_probe.py，本单 l1_capture.py，物理上就分仓分文件）。
 
 **需要谁动作**：欧阳锋终审本单。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 2 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+🟡 ⚠️ 意见书含宽负向词（无）无核查锚点——按需人工确认（#433 不硬杀）；锚点：⚪ 无锚点
