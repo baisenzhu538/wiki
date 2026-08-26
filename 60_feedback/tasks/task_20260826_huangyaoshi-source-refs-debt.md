@@ -1,8 +1,8 @@
 ---
 id: 543
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-26T16:24:16.377768+00:00'
+status: reviewed
+updated_at: '2026-08-26T16:44:59.517035+00:00'
 version: v0.2
 instance: huangyaoshi
 code_files:
@@ -15,6 +15,9 @@ code_files:
 - 60_feedback/analysis/source-refs-debt-governance-20260827.md
 - Knowledge Delivery OS 0.0.1/kdo/pre_submit.py
 - Knowledge Delivery OS 0.0.1/tests/test_pre_submit_source_anchor.py
+reviewed_by: 欧阳锋
+review_date: '2026-08-26'
+grade: A-
 ---
 
 # #543 source_refs 死引治理：1024 条缺失存量 + 扫描器挂例行 + json 输出修复
@@ -85,3 +88,25 @@ check-source-refs.py 扫描器早已存在，但**没进任何例行**：不跑�
 ### ③ 负向判词 / ④ 存在性核查
 
 🔴 意见书含负向断言（缺失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
+
+---
+
+## 终审记录（2026-08-27 凌晨 · 欧阳锋 · PASS A-）
+
+**结论：PASS A-——双仓交付全量独立复核通过，1 处口径小遗漏（观察项不阻断）。**
+
+**版本对齐三问**：①入仓 ✅——wiki 仓 404893a9b+9754ce414（00:24）、KDO 仓 0175a89（00:23）双仓在链；②生效 ✅——health-check 为每日 02:07 定时脚本（非长驻进程，fresh load 无 #541 类旧码问题），L3 待活体声明合理；③对齐 ✅——HEAD 81282af65 在交付之后。
+
+**逐项复核（全部亲跑，非采信报告）**：
+- 双仓锚剥除同口径 ✅：wiki `strip_line_anchor`（check-source-refs.py L81，regex `^(.*?):\d+(?:-\d+)?$`，盘符安全）× KDO `pre_submit.py`（0175a89 diff 实证，先剥锚再判存在）——我行号锚建议书的诊断被准确修复
+- 测试三数全中：90_control **167 passed**（亲跑）✅；KDO 仓 **580 passed + 1 failed**（test_cli_smoke 既有遗留——该测试最后改动 8bc5645 与本单文件不相交，遗留声明成立）✅
+- json 输出修复实测 ✅：--json 输出 414KB 合法 JSON（stats/contaminated/missing/clusters 四键），UTF-8 零替换字符——agent 消费面恢复
+- 统计口径全对：2878 卡/5910 条/缺失 1024/污染 8/冒号锚 2 条全存活 ✅；inbox 簇 934 条 ✅；聚类三主线与治理报告一致 ✅
+- §3.19：矩阵事件 14 行在案（L27）✅；health-check 挂载（L74-76 阈值 1024/8）✅
+- 预审 🔴 预标注核验：「缺失」为报告主题词非负向断言，预标注成立 ✅
+
+**观察项（🟠 不阻断，TODO 级）**：`strip_line_anchor` 只剥冒号锚（`path:NN`），**空格锚（`path L14`/`path L946-1278`）未剥**——亲测全库 15 条空格锚被计入缺失（样例 `00_inbox/解放思想探索营/…口述.txt L14` 文件实测存在）。
+**存在性核查**：计数方法=json 落盘文件 `missing_source_cards` 逐条 regex `\s+L\d+(-\d+)?$`；文件存在性用 ls 逐一抽验；对照组=kdo_lint.py L186-189 已有④号空格锚剥除模式（两检查器口径不齐）。
+**影响**：真实挤占量 17 条（1.7%）而非报告的 2 条（0.2%）——结论方向不变（死引主体仍是真实缺失），但治理清单里有 15 条假死引，批次 A 执行前宜补剥空格锚重扫。已记入观察项，随治理批次裁定一并处理，不另立建议书（单工具缺陷，属本单后续治理范围）。
+
+**等级理由**：交付物全验通过+跨仓同口径+证据链完整，唯挤占量口径小遗漏（2→17）+扫描器残留盲区各计一处，A-。
