@@ -1,11 +1,14 @@
 ---
 id: 551
 assignee: laowantong
-status: pending_review
-updated_at: '2026-08-26T17:41:58.180369+00:00'
+status: reviewed
+updated_at: '2026-08-26T17:56:37.959111+00:00'
 version: v0.1
 instance: laowantong
 code_files: []
+reviewed_by: 欧阳锋
+review_date: '2026-08-26'
+grade: A-
 ---
 
 # #551 审计判词库卡：13 条判词落 30_wiki/frameworks/（认知闭环补接）
@@ -104,3 +107,28 @@ framework 卡 1 张 → 解压资产：①agent-os 引用节（终审后王语�
 ### ③ 负向判词 / ④ 存在性核查
 
 🟡 ⚠️ 意见书含宽负向词（缺）无核查锚点——按需人工确认（#433 不硬杀）；锚点：⚪ 无锚点
+
+---
+
+## 终审记录（2026-08-27 凌晨 · 欧阳锋 · PASS A-）
+
+**结论：PASS A-——13 条判词逐字保真+出处抽验全中+自攻击修复真实可见。**
+
+**O0 溯源（核心动作）**：底本 `diag_20260826_fengqingyang-audit-maxims-library.md` 与卡片 A6/B5/C2 全 13 条逐条对账——判词措辞零漂移（与 Attacker B 的 13/13 结论互证）；卡面新增内容（C 组边界列/出处文件级回链/Synthesis）均有标注未冒充底本。
+
+**出处抽验（自选 5 条，非沿用生产者抽验的 3 条）**：
+- A2「建好壳≠在记账」→ `90_control/parking-lot.md` F-027 行原文在（「别把『建好壳』当『在记账』」）✅
+- A5 投信纠偏 → `20_memory/fengqingyang-amnesia-recovery.md` 第 17 条含 #514 实录 ✅
+- B2 差集 160-147=37 → `60_feedback/session-archives/2026-08-24/ouyangfeng-claude.md` L35 原文在 ✅
+- C1 → `diag_20260825_fengqingyang-full-automation-quality-audit.md` 存在 ✅
+- charter 三锚：A1=§3.16（内编号 A8，v1.1 修订记录互证）✅、C2=§3.17 红线 1（v1.2「抽检永不归零」）✅、A6=§3.18 第 3 条逐字同义 ✅
+
+**结构/门禁**：定位声明（L62，与 #433 词表因果方向「回溯提取」表述正确——自攻击修正落痕可见）✅；KF-024 三要件齐（Synthesis/When NOT to Use 6 条/Action Triggers 9 条）✅；失败模式 6 条 ✅；Critique 4 条为真局限（样本期/单点出处/外部对标刻意缺失系任务单裁定形态/C1 全称断言张力自曝）✅；pre-submit 亲跑复现 PASS（2 WARNING 在列）✅；自攻击报告在案（🔴1 Synthesis 伞命题证伪改写+🟡9 类全修，修复逐条卡面可见）✅；source_refs 6/6 路径有效 ✅。
+
+**观察项（不阻断）**：①B3/B4 出处「会话实录待回链」已在卡内标注，随回链补上后消除；②related 4 条全同域——治理域框架卡的跨域链接偏弱，随使用时补；③本卡触发的 CONCEPT_CROSSCHECK 警告 5 词中 4 词为词表噪声（control/作方法/最佳实践/验证技术）——词表数据源（各卡 aliases 卫生）问题，已在 #542 终审记录观察项在案，不重复立。
+
+**附带确认**：本卡 pre-submit 输出首次实机渲染出 [CONCEPT_CROSSCHECK] 节——#542 返工修复（203e0b6）在真实卡上生效，为该单复审的预证据。
+
+**存在性核查**（对本记录负向措辞）：①「措辞零漂移」=我逐条比对底本 60 行版与卡面 13 行的判词列文本，人工对账记录=本记录「O0 溯源」节；②「外部对标刻意缺失」=引述卡片 Critique §3 自述+任务单 L37 裁定原文（「外部调研不适用」），非我的独立断言；③「B3/B4 回链待补」=卡片 L90-91 原文标注「会话实录待回链」，ls 验证 session-archives 目录存在（B3/B4 具体文件未指名，故卡内已标待补）。
+
+**等级理由**：溯源保真度满分+自攻击真实深度+Critique 诚实；A- 而非 A：外部对标按任务单裁定刻意不做（A 标准要求完整），B3/B4 回链待补。
