@@ -169,6 +169,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 541 | `task_20260826_huangyaoshi-retrieval-trust-weighting` | MCP检索trust_level加权+conflict_with冲突警告：reviewed/high优先，draft/medium垫后标低置信 | queued | huangyaoshi | 排序+警告+回归 | #539 的 conflict_with 字段做首用例 | `60_feedback/tasks/task_20260826_huangyaoshi-retrieval-trust-weighting.md` | 小昭事故根因2工具层落地（协议层→工具层：自觉靠不住实证）；只改MCP检索输出层不改卡；§3.19矩阵/协议互链；欧阳锋终审 |
 | 542 | `task_20260826_huangyaoshi-concept-crosscheck-warning` | pre-submit概念交叉验证WARNING：正文命中已有concept关键词→提示人工对账权威定义（词表自动构建） | queued | huangyaoshi | 检查项+词表+回归 | 无 | `60_feedback/tasks/task_20260826_huangyaoshi-concept-crosscheck-warning.md` | 小昭事故根因3降档采纳：自动判冲突误报风险高→WARNING提示制不拦截（机器存在性/人正确性，#433同哲学）；验收含双三角事故卡dry-run复现命中；欧阳锋终审 |
 | 543 | `task_20260826_huangyaoshi-source-refs-debt` | source_refs死引治理：1024条缺失存量（24%死引率）+扫描器挂例行+json输出修复+分批治理方案 | queued | huangyaoshi | lint挂载+报告+方案 | 无 | `60_feedback/tasks/task_20260826_huangyaoshi-source-refs-debt.md` | 老朱追问「原稿就在为什么找不到」——扫描器早有但没进回路（通知矩阵同构教训）；src_id类连source_id_map都未注册；inbox未归档型死引单独聚类（修复成本最低）；治理批次报王语嫣裁定不直接修卡；§3.19矩阵登记；欧阳锋终审 |
+| 544 | `task_20260826_ouyangfeng-depended-draft-batch-review` | 被依赖draft卡批次过审：#527清单23张按优先级逐张过审（首张layered-system），升reviewed/退回/豁免三出口 | queued | ouyangfeng | 逐张结论落卡 | #527 清单 | `60_feedback/tasks/task_20260826_ouyangfeng-depended-draft-batch-review.md` | 清王语嫣欠账（#527终审备注的编排动作未落单，欧阳锋恢复后在途表挂账）；只审清单内23张不外扩；审查批不改内容只判级；首批≥5张即阶段闭环；王语嫣抽核2张 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
 ## ⚖️ 待终审（提审任务，queue_transition 自动登记）
@@ -452,6 +453,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - [gate-blocked] task_20260826_huangyaoshi-matrix-sync-gate｜08-26 07:12｜待王语嫣复核处置｜2026-08-26 07:11:34｜task_20260826_huangyaoshi-matrix-sync-gate｜F-035-负向判词｜意见书含负向断言（未同步/缺失/「未同步」）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋
 - diag_20260826_huangyaoshi-clock-myqueue-standard.md｜08-26 20:37｜待王语嫣复核裁定
 - diag_20260826_fengqingyang-audit-maxims-library.md｜08-26 20:48｜待王语嫣复核裁定
+- [gate-blocked] task_20260826_huangyaoshi-vlm-card-two-section｜08-26 21:07｜待王语嫣复核处置｜2026-08-26 21:00:20｜task_20260826_huangyaoshi-vlm-card-two-section｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
