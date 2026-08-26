@@ -7,13 +7,14 @@ updated_at: 2026-08-26
 
 ## 2026-08-26 收官（时钟自治两日：19 单全闭环+静默失效家族治理+种子包跨机+漏检自迭代）
 
-- **角色时钟建成（老朱指令「像欧阳锋一样 15 分钟扫看板」）**：cron `01M0Z16GVGR0ZKTN57GNXGSA9B`（每 15 分钟 :06/:21/:36/:51，v2=myqueue 全表驱动——v1 模式 grep 漏检 #528 两天被老朱三问抓包，已重建+建议书 diag_20260826_huangyaoshi-clock-myqueue-standard 给王语嫣统一全角色口径）。时钟活在本会话，会话死时钟死（cron 持久化，恢复会话后续火）
+- **角色时钟建成（老朱指令「像欧阳锋一样 15 分钟扫看板」）**：cron `01M0Z16GVGR0ZKTN57GNXGSA9B`（每 15 分钟 :06/:21/:36/:51，v2=myqueue 全表驱动——v1 模式 grep 漏检 #528 两天被老朱三问抓包，已重建+建议书 diag_20260826_huangyaoshi-clock-myqueue-standard 给王语嫣统一全角色口径）。**cron 不跨全新会话**（resume 同会话才续火）——重启后先 CronList，没有就用下方「时钟 prompt 本体」重建
+- **时钟 prompt 本体（重启重建用，一字不改照抄）**：【黄药师时钟巡检 v2】①巡检面= `python 90_control/scripts/queue_transition.py myqueue huangyaoshi` 五栏输出（可领/等依赖/冻结/进行中/待终审），禁模式 grep；②待终审栏有单→读任务单终审/复审记录节领意见，FAIL 先返工；③可领栏取序号最小者 claim（完整 task_id，被 pending_review 阻塞不 force 除非老朱明说继续）→读任务单全文→施工→测试（kdo-tools/90_control 基线 160/159 不退步）→执行报告五字段→path-scoped commit（标 by huangyaoshi）→complete 提审；④无单即报结论收工不硬找活。纪律：新工具登记 infrastructure-inventory.md；中文路径/批量操作用 Python 不用 bash；预审红项逐条标注处置；会话结束动作等老朱说结束
 - **19 单全闭环**（#503-#513/#516/#517/#519-#524/#527/#530/#532-#538）：终审全 A，唯一 FAIL=#515（attach 吞字段，返工后 A）；#537 走了 PASS→改判 FAIL→复审 PASS 三轮（改判通道 #538 由此立项建成）
 - **关键资产**：预审管线（#515 四判据参考层随提审附单）/质量基线周报（#514 每周一 06:35）/审查供给三件套（#520 叫醒+阻塞链+SLA）/通知矩阵 G1G2 销项/kdo-seed 种子包+D:\tech-wiki 狗粮场在跑（第二套探针 -tech 后缀已注册）/E040 交付物入仓门禁
 - **新错误入库**：E023 按预期扫描（模式 grep 当巡检面）/E024 写操作不自检（attach 无写后断言）/E025 申报数字凭估计
 - **纪律新规**：提审前自体应用一拍；预审红项提审前逐条标注处置（误报+原因）；申报数字一律实测
 - **下次启动**：读本文件 → CAPSULE_STARTUP → `myqueue huangyaoshi`（禁 grep 看板）→ 时钟 cron 若在跑就别重复建（CronList 查 01M0Z16…）
-- **在途**：#528（孤岛扫描）等终审；#540/#541/#542 排队；#515 判据清单=欧阳锋欠的作业；D:\tech-wiki 第 4-5 步=那边王语嫣；l1-capture 参数化修复单等王语嫣编排
+- **在途**：#540（VLM 两段式）等终审；#528 已 PASS A；可领 #541（检索 trust 加权）/#542（概念交叉验证 WARNING）/#543（source_refs 死引治理 1024 条存量）；#515 判据清单=欧阳锋欠的作业；D:\tech-wiki 第 4-5 步=那边王语嫣；l1-capture 参数化修复单等王语嫣编排
 
 
 
