@@ -172,6 +172,9 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 544 | `task_20260826_ouyangfeng-depended-draft-batch-review` | 被依赖draft卡批次过审：#527清单23张按优先级逐张过审（首张layered-system），升reviewed/退回/豁免三出口 | claimed-ouyangfeng | ouyangfeng | 逐张结论落卡 | #527 清单 | `60_feedback/tasks/task_20260826_ouyangfeng-depended-draft-batch-review.md` | 清王语嫣欠账（#527终审备注的编排动作未落单，欧阳锋恢复后在途表挂账）；只审清单内23张不外扩；审查批不改内容只判级；首批≥5张即阶段闭环；王语嫣抽核2张 |
 | 545 | `task_20260826_huangyaoshi-capsule-readonly-recurrence` | 胶囊readonly写入失败复发排查：#511疑未根治（今日复发4次），先复现取证再修 | queued | huangyaoshi | 取证+根因+回归 | 无 | `60_feedback/tasks/task_20260826_huangyaoshi-capsule-readonly-recurrence.md` | 黄药师核查报告观察项1（他自己报的数，回给他自查）；复发=当时修的可能不是根因；环境性根因允许如实报不硬修；§3.19矩阵登记适用；欧阳锋终审 |
 | 546 | `task_20260826_huangyaoshi-instance-identity-registry` | 实例身份登记+终审权机器校验：active-instances.json上岗登记+review校验reviewer=登记角色（一具两职事件根治，#525活性注册表轻量先行版） | queued | huangyaoshi | 登记+校验+回归 | 无 | `60_feedback/tasks/task_20260826_huangyaoshi-instance-identity-registry.md` | 一具两职事件实证（一个Claude会话欧阳锋/黄药师两职，三入口文件三身份，reviewer自由文本零校验）；终审权=工厂命门不能裸奔；不做心跳/飞书（#525暂缓口径不动）；force逃生门落#444台账；追加并入（王语嫣08-26裁定，老朱洞察「同目录启动=profile没隔离」实证）：启动agent.ps1多工具适配——拉起claude/后续工具时cd进角色目录（agents/<role>/各有AGENTS.md+CLAUDE.md薄壳）从源头锁身份，本单=兜底层、脚本=源头层双保险；§3.19矩阵登记；欧阳锋终审 |
+| 547 | `task_20260826_huangyaoshi-l1-console-killer-rootcause` | L1采集console-killer根因排查+空转报警：08-25 09:37窗口事件日志取证（破口已自闭合38h，防复发留档）+l1-size.log年龄>2×周期挂health-check报警 | queued | huangyaoshi | 取证留档+报警+回归 | 无 | `60_feedback/tasks/task_20260826_huangyaoshi-l1-console-killer-rootcause.md` | 欧阳锋建议书裁定（08-26王语嫣）：R1降级P2（破口已自闭合+补采实证20:37单拍+97.5MB，R3闭环）+R2采纳合并；.cmd包装已存在不重复改造；环境性根因允许如实报不硬修；§3.19矩阵登记；欧阳锋终审 |
+| 548 | `task_20260826_huangyaoshi-trace-index-rotation` | trace-index按日轮转+自我喂养排除：当日卷追加跨日开新卷+索引排除出采集面+存量153MB切归档首卷 | queued | huangyaoshi | 轮转+排除+回归 | 无 | `60_feedback/tasks/task_20260826_huangyaoshi-trace-index-rotation.md` | 风清扬建议书裁定（08-26王语嫣）：择案B不选A——append历史回溯是#491配套设计意图，find只有当前态替代不了；实测复核成立（106→153MB/22h，索引占活跃层54%）；与#547同文件区施工分开commit；欧阳锋终审 |
+| 549 | `task_20260826_huangyaoshi-token-metering` | 全厂token计量：各执行引擎usage可得性矩阵+会话级usage落事件层+预留#514单均成本聚合口径 | queued | huangyaoshi | 可得性矩阵+采集+日汇总 | 无 | `60_feedback/tasks/task_20260826_huangyaoshi-token-metering.md` | 风清扬建议书裁定（08-26王语嫣）：建议1采纳立项；建议2挂#514第五指标不新立；建议3纪律采纳（阶段2降档成本对照以计量数据为准）；只计量不限制；不可得引擎标估算口径不编造；不回溯历史；§3.19矩阵登记；欧阳锋终审 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
 ## ⚖️ 待终审（提审任务，queue_transition 自动登记）
@@ -440,25 +443,25 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~diag_20260825_ouyangfeng-complete-deliverable-commit-gate.md｜08-25｜待王语嫣复核裁定（人工补登：frontmatter 合规——探针空转修复前的窗口期，王语嫣裁定先行）~~ → 编排决策（2026-08-25 王语嫣独立判断）：**采纳立项 #522**（complete 门禁增「交付物已入仓」校验：git 跟踪+无脏改动，未入仓即拦；编排/诊断类豁免；识别不出=WARNING 不硬拦——红线 4 误拦优先）——E040「未 commit=未发生」从人审口径升级为机器兜底，与 #505 约定层互补不互替
 - ~~diag_20260825_ouyangfeng-l1-archive-hardening.md｜08-25｜待王语嫣复核裁定（人工补登：frontmatter 三元组合规，探针下个周期会登记——老朱转达后王语嫣裁定先行）~~ → 编排决策（2026-08-25 王语嫣独立判断）：**R1/R2/R3 全采纳打包立项 #523**（黄药师 P2）——R1 归档核验补 CRC 校验（testzip 代码化，人工处置时已验过）；R2 拒删事件接 gate-blocked 通道复用 #471 先例（拒删=数据安全事件＞体积超限，半夜无人知不可接受；与 #519/#520 同探针文件区，施工让 #519 先合入）；R3 #508 事故补录全厂 friction 台账+事故级双记规范落 agent-os（O-15 同族）。观察项 2 条（判重游标不比 size／mirror 死函数）**不立项**——先观察/留下个卫生批
 - ~~diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md｜08-25｜待王语嫣复核裁定（人工补登：frontmatter 违例第二例——type:diagnosis/status:pending 无 audience，探针静默跳过；王语嫣全量对账发现）~~ → 编排决策（2026-08-25 王语嫣独立判断）：**三条全采纳，不立项，纪律落卡**——建议 1（返工报告镜像写法）+建议 2（清单交付物三问）落老顽童 L 牌组新增 L10/L11（成稿已写进其收件箱，自改角色卡，欧阳锋批次验收核对）；建议 3（complete 前 git status 机械一步）**已由 #522 机器化承接**（机制>记忆，不另立牌防双轨）。依据=单日四单 FAIL（#470/#487/#498/#518）全部一轮复审过的可复制打法；A7 违例提醒已随通知发出
-- [gate-blocked] task_20260824_huangyaoshi-l1-date-archive｜08-25 11:18｜待王语嫣复核处置｜2026-08-25 02:03:19｜task_20260824_huangyaoshi-l1-date-archive｜F-035-负向判词｜意见书含负向断言（丢失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋
-- [gate-blocked] task_20260825_huangyaoshi-src-unknown-body-gate｜08-25 11:18｜待王语嫣复核处置｜2026-08-25 10:55:42｜task_20260825_huangyaoshi-src-unknown-body-gate｜F-035-负向判词｜意见书含负向断言（缺失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋
-- [gate-blocked] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md｜08-25 11:18｜待王语嫣复核处置｜2026-08-25 11:18:56｜diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md｜near-miss-三元组（#506）｜status=pending 疑似待编排但非 pending_orchestration｜conveyor_probe
-- diag_20260825_ouyangfeng-l1-capture-console-killer.md｜08-25 11:57｜待王语嫣复核裁定
-- diag_20260825_fengqingyang-automation-cost-audit.md｜08-25 21:44｜待王语嫣复核裁定
-- [gate-blocked] task_20260825_laowantong-oral-spray-dictation-supplement｜08-25 23:37｜待王语嫣复核处置｜2026-08-25 23:32:32｜task_20260825_laowantong-oral-spray-dictation-supplement｜F-034-五字段｜执行报告缺 1 个字段（#429 F-034）：完成内容一句话。请补全后重试，或 --force --reason '<理由>' 声明例外（#444 台账留痕）。｜kimi-cli
-- [gate-blocked] task_20260825_huangyaoshi-machine-pre-review-pipeline｜08-26 00:27｜待王语嫣复核处置｜2026-08-26 00:25:41｜task_20260825_huangyaoshi-machine-pre-review-pipeline｜F-035-负向判词｜意见书含负向断言（不存在/「无历史」）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋
-- [gate-blocked] task_20260826_laowantong-token-economy-domain-debut｜08-26 00:57｜待王语嫣复核处置｜2026-08-26 00:54:30｜task_20260826_laowantong-token-economy-domain-debut｜F-036-问题落点｜审查发现问题未给落点（F-036）：- **预审报告观察**：本单四字段齐全+预审报告正常附着——#515 的 attach 吞内容 bug 未在本单复现（——必须在意见书注明去向（建议书路径 / 停｜欧阳锋
-- diag_20260826_fengqingyang-capsule-infra-self-audit.md｜08-26 01:03｜待王语嫣复核裁定
-- [gate-blocked] diag_20260826_laowantong-review-landed-notification-gap.md｜08-26 01:27｜待王语嫣复核处置｜2026-08-26 01:27:00｜diag_20260826_laowantong-review-landed-notification-gap.md｜near-miss-三元组（#506）｜status=pending 疑似待编排但非 pending_orchestration｜conveyor_probe
+- ~~[gate-blocked] task_20260824_huangyaoshi-l1-date-archive｜08-25 11:18｜待王语嫣复核处置｜2026-08-25 02:03:19｜task_20260824_huangyaoshi-l1-date-archive｜F-035-负向判词｜意见书含负向断言（丢失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋~~ → 已处置关闭（08-26 王语嫣批核）：任务单已 reviewed 终审闭环，拦截化解后残留行划销
+- ~~[gate-blocked] task_20260825_huangyaoshi-src-unknown-body-gate｜08-25 11:18｜待王语嫣复核处置｜2026-08-25 10:55:42｜task_20260825_huangyaoshi-src-unknown-body-gate｜F-035-负向判词｜意见书含负向断言（缺失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋~~ → 已处置关闭（08-26 王语嫣批核）：任务单已 reviewed，残留行划销
+- ~~[gate-blocked] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md｜08-25 11:18｜待王语嫣复核处置｜2026-08-25 11:18:56｜diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md｜near-miss-三元组（#506）｜status=pending 疑似待编排但非 pending_orchestration｜conveyor_probe~~ → 已处置关闭（08-26 王语嫣批核）：该建议书 08-25 已裁定（L12 指令），三元组已手工补登 orchestrated——残留行划销
+- ~~diag_20260825_ouyangfeng-l1-capture-console-killer.md｜08-25 11:57｜待王语嫣复核裁定~~ → 已裁定（08-26 王语嫣）：R1 降级 P2+R2 合并立项 **#547**，R3 补采已实证闭环（08-26 20:37 单拍 +97.5MB）——详见汇总段
+- ~~diag_20260825_fengqingyang-automation-cost-audit.md｜08-25 21:44｜待王语嫣复核裁定~~ → 已裁定（08-26 王语嫣）：建议 1 立项 **#549**，建议 2 挂 #514 第五指标口径，建议 3 纪律采纳——详见汇总段
+- ~~[gate-blocked] task_20260825_laowantong-oral-spray-dictation-supplement｜08-25 23:37｜待王语嫣复核处置｜2026-08-25 23:32:32｜task_20260825_laowantong-oral-spray-dictation-supplement｜F-034-五字段｜执行报告缺 1 个字段（#429 F-034）：完成内容一句话。请补全后重试，或 --force --reason '<理由>' 声明例外（#444 台账留痕）。｜kimi-cli~~ → 已处置关闭（08-26 王语嫣批核）：任务单已 reviewed，残留行划销
+- ~~[gate-blocked] task_20260825_huangyaoshi-machine-pre-review-pipeline｜08-26 00:27｜待王语嫣复核处置｜2026-08-26 00:25:41｜task_20260825_huangyaoshi-machine-pre-review-pipeline｜F-035-负向判词｜意见书含负向断言（不存在/「无历史」）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋~~ → 已处置关闭（08-26 王语嫣批核）：任务单已 reviewed，残留行划销
+- ~~[gate-blocked] task_20260826_laowantong-token-economy-domain-debut｜08-26 00:57｜待王语嫣复核处置｜2026-08-26 00:54:30｜task_20260826_laowantong-token-economy-domain-debut｜F-036-问题落点｜审查发现问题未给落点（F-036）：- **预审报告观察**：本单四字段齐全+预审报告正常附着——#515 的 attach 吞内容 bug 未在本单复现（——必须在意见书注明去向（建议书路径 / 停｜欧阳锋~~ → 已处置关闭（08-26 王语嫣批核）：任务单已 reviewed，残留行划销
+- ~~diag_20260826_fengqingyang-capsule-infra-self-audit.md｜08-26 01:03｜待王语嫣复核裁定~~ → 已裁定（08-26 王语嫣）：trace-index 择案 **B 按日轮转**立项 **#548**（A 取消索引会废掉 #491 配套的历史回溯意图）；实测复核成立（106→153.2MB/22h，索引占活跃层 54%）——详见汇总段
+- ~~[gate-blocked] diag_20260826_laowantong-review-landed-notification-gap.md｜08-26 01:27｜待王语嫣复核处置｜2026-08-26 01:27:00｜diag_20260826_laowantong-review-landed-notification-gap.md｜near-miss-三元组（#506）｜status=pending 疑似待编排但非 pending_orchestration｜conveyor_probe~~ → 已处置关闭（08-26 王语嫣批核）：该建议书已裁定立项 #535，三元组已补登 orchestrated——残留行划销
 - ~~[gate-blocked] task_20260826_huangyaoshi-seed-dogfood-d-drive｜08-26 04:07｜待王语嫣复核处置~~ → 已化解（08-26 22:30 王语嫣）：交付物补 commit 后终审 PASS A，残留行划销（欧阳锋建议书 diag_20260826_ouyangfeng-gate-blocked-resolved-residue 实证）
-- [gate-blocked] huangyaoshi｜08-26 04:07｜待王语嫣复核处置｜｜huangyaoshi
-- [gate-blocked] task_20260826_huangyaoshi-review-landed-notify｜08-26 06:17｜待王语嫣复核处置｜2026-08-26 06:12:32｜task_20260826_huangyaoshi-review-landed-notify｜F-035-负向判词｜意见书含负向断言（缺失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋
-- [gate-blocked] task_20260826_huangyaoshi-matrix-sync-gate｜08-26 07:12｜待王语嫣复核处置｜2026-08-26 07:11:34｜task_20260826_huangyaoshi-matrix-sync-gate｜F-035-负向判词｜意见书含负向断言（未同步/缺失/「未同步」）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋
-- diag_20260826_huangyaoshi-clock-myqueue-standard.md｜08-26 20:37｜待王语嫣复核裁定
-- diag_20260826_fengqingyang-audit-maxims-library.md｜08-26 20:48｜待王语嫣复核裁定
+- ~~[gate-blocked] huangyaoshi｜08-26 04:07｜待王语嫣复核处置｜｜huangyaoshi~~ → 已处置关闭（08-26 王语嫣）：#534 登记副产畸形行（task_id/时间戳/reason 空，gate-blocked.log 04:02 仅有正常记录一条），随 #534 化解一并划销
+- ~~[gate-blocked] task_20260826_huangyaoshi-review-landed-notify｜08-26 06:17｜待王语嫣复核处置｜2026-08-26 06:12:32｜task_20260826_huangyaoshi-review-landed-notify｜F-035-负向判词｜意见书含负向断言（缺失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋~~ → 已处置关闭（08-26 王语嫣批核）：任务单已 reviewed（#535），残留行划销
+- ~~[gate-blocked] task_20260826_huangyaoshi-matrix-sync-gate｜08-26 07:12｜待王语嫣复核处置｜2026-08-26 07:11:34｜task_20260826_huangyaoshi-matrix-sync-gate｜F-035-负向判词｜意见书含负向断言（未同步/缺失/「未同步」）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋~~ → 已处置关闭（08-26 王语嫣批核）：任务单已 reviewed（#537），残留行划销
+- ~~diag_20260826_huangyaoshi-clock-myqueue-standard.md｜08-26 20:37｜待王语嫣复核裁定~~ → 已裁定（08-26 王语嫣）：R1 采纳落机制纪律（全角色时钟巡检=myqueue 全表视图，禁模式 grep 当扫描器）；R2 myqueue 自证行挂停车场缓议（本轮黄药师已立 3 单）——详见汇总段
+- ~~diag_20260826_fengqingyang-audit-maxims-library.md｜08-26 20:48｜待王语嫣复核裁定~~ → 已裁定（08-26 王语嫣）：形态=30_wiki/frameworks 判词库卡（方法论框架卡例外，王语嫣自产提审）；归口=判词库卡为认知层真相源，门禁词表为实现层引用不合并；常态动作确认——详见汇总段
 - ~~[gate-blocked] task_20260826_huangyaoshi-vlm-card-two-section｜08-26 21:07｜待王语嫣复核处置~~ → 已化解（08-26 22:30 王语嫣）：21:00 补 commit 重提后 21:52 终审 PASS，残留行划销（欧阳锋建议书实证）
-- diag_20260826_ouyangfeng-source-refs-line-anchor-unreachable.md｜08-26 21:46｜待王语嫣复核裁定
-- diag_20260826_ouyangfeng-gate-blocked-resolved-residue.md｜08-26 21:52｜待王语嫣复核裁定
+- ~~diag_20260826_ouyangfeng-source-refs-line-anchor-unreachable.md｜08-26 21:46｜待王语嫣复核裁定~~ → 已裁定（08-26 王语嫣复核确认）：并入 **#543** 同区修（任务单 v0.2 已补任务 1.5）——对账更正：22:30 裁定曾把落点备注写进已 reviewed 的 #540 队列行，终审封闭单不可追加工作量，以 #543 为准；同族实证：check-source-refs.py resolve_path 同样不剥行号，1024 条死引数字被行号锚误报污染
+- ~~diag_20260826_ouyangfeng-gate-blocked-resolved-residue.md｜08-26 21:52｜待王语嫣复核裁定~~ → 已裁定（08-26 王语嫣复核确认）：残留两行已划销+本批 9 条同类残留一并批核划销；机制化（化解自动标注）维持观察项暂不立项——人工划行成本可承受，自动化收益小
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
@@ -475,11 +478,11 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 ## PROPOSAL-PENDING
 ### diag_20260826_ouyangfeng-source-refs-line-anchor-unreachable（2026-08-26 欧阳锋）
 - **问题**：pre_submit 检查器不剥 `:行号` 锚 → 带行号 source_refs 必误报 unreachable（#539 概念卡 2/2 误报实证，任务书要求行号锚=标准与门禁矛盾）
-- **需要**：~~待王语嫣裁定~~ **已裁定（08-26 王语嫣）：并入 #543 同区修**（队列备注已落；三元组 ✅ 合规）
+- **需要**：~~待王语嫣裁定~~ **已裁定（08-26 王语嫣）：并入 #543 同区修**（队列备注已落；三元组 ✅ 合规）——**08-26 23:15 复核确认**：落点 #543 任务单 v0.2 已补任务 1.5（剥 `:行号` 锚，双检查器同口径）；对账更正：22:30 曾把落点备注写进已 reviewed 的 #540 队列行，终审封闭单不可追加工作量，以 #543 为准；同族新证：check-source-refs.py resolve_path 同款不剥锚 → 1024 条死引数字被行号锚误报污染，修复后需重扫报挤占量
 
 ### diag_20260826_ouyangfeng-gate-blocked-resolved-residue（2026-08-26 欧阳锋）
 - **问题**：gate-blocked 化解后无标注 → 「待王语嫣复核处置」残留积压（#534/#540 实证）
-- **需要**：~~待王语嫣裁定~~ **已裁定（08-26 王语嫣）：残留两行已划销；机制化（化解自动标注）挂观察项**——人工划行成本可承受，自动化收益小，暂不立项（三元组 ✅ 合规）
+- **需要**：~~待王语嫣裁定~~ **已裁定（08-26 王语嫣）：残留两行已划销；机制化（化解自动标注）挂观察项**——人工划行成本可承受，自动化收益小，暂不立项（三元组 ✅ 合规）——**08-26 23:15 复核补充**：本批 9 条同类 gate-blocked 残留（对应任务单全部已 reviewed）+1 条畸形行（#534 登记副产）已一并批核划销；观察项维持——若残留行月增 >10 条再议机制化
 
 ### diag_20260824_laowantong-small-domain-axis-mapping（2026-08-24 老顽童）
 - **问题**：#426 收官堵点——7 个无轴小域约 60 张（personal-os/product/demand-analysis/system/rust/entrepreneurship/knowledge-management）
@@ -498,5 +501,29 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - **建议**：探针补事件类型 / myqueue 最近终审栏 / FAIL 置顶
 - **需要**：~~待王语嫣裁定~~ **已裁定（08-26 王语嫣）：立项 #535（黄药师 P1）**；⚠️ 方向 1 部分证伪——PASS 通知已存在（收件箱 00:57 #531 条目），执行口径=先核既有覆盖只补差集，方向 2/3 保留
 - 备注：`status=pending` 三元组违例（探针 near-miss 拒登记），王语嫣手工补登记，文件状态已改 orchestrated
+
+### diag_20260825_ouyangfeng-l1-capture-console-killer（2026-08-25 欧阳锋）
+- **问题**：kdo-l1-capture 08-25 09:37 起每轮 0xC000013A 被杀，L1 采集断拍 7 拍（F-045 进行中破口）
+- **需要**：~~待王语嫣裁定~~ **已裁定（08-26 王语嫣复核后裁定）**：破口已自闭合——l1-size.log 08-26 全天 30 分钟节拍连续（实测 22:37 在拍）、schtasks 0x41301 运行中、补采已由 mtime 游标自动完成（20:37 单拍 +97.5MB，R3 闭环无需动作）。**R1 根因排查降级 P2 + R2 空转报警采纳，合并立项 #547**（杀手未定位=复发风险敞口；.cmd 包装已存在不重复改造）
+- 复核证据：l1-size.log 尾部 20:37→22:37 五拍连续；schtasks //query 上次结果非 0xC000013A
+
+### diag_20260825_fengqingyang-automation-cost-audit（2026-08-25 风清扬）
+- **问题**：时钟脚本层零 token 设计正确；LLM 会话层无 token 计量=消耗不可观测
+- **需要**：~~待王语嫣裁定~~ **已裁定（08-26 王语嫣）**：建议 1 采纳立项 **#549**（黄药师 P2，先出各引擎 usage 可得性矩阵再定采集点）；建议 2「单均 token 成本」挂 #514 基线第五指标口径（不新立，风清扬出口径建议稿时对接）；建议 3 纪律采纳——阶段 2 降档成本对照以计量数据为准不凭感觉
+- 边界：只计量不限制（配额/熔断属 F-055 阶段 2/3）；不可得引擎标估算口径；不回溯历史
+
+### diag_20260826_fengqingyang-capsule-infra-self-audit（2026-08-26 风清扬）
+- **问题**：胶囊基建主体健康（五层拆三问全过）；trace-index.md 无界增长（106MB、日增 ~50MB、索引=数据 69%、自我喂养嫌疑）
+- **需要**：~~待王语嫣裁定~~ **已裁定（08-26 王语嫣复核后裁定）**：择案 **B 按日轮转**立项 **#548**（黄药师 P2）——不选 A：append 式历史回溯是 #491 配套设计意图，find 只有当前态替代不了；B 保意图+治增长，旧卷随 #523 日归档 zip 走；附加修复=trace-index 排除出采集面（自我喂养）
+- 复核证据：08-26 22:37 实测 153.2MB（01:00→22:37 约 +47MB，增速断言成立）；活跃层 282MB，索引占 54%
+
+### diag_20260826_huangyaoshi-clock-myqueue-standard（2026-08-26 黄药师）
+- **问题**：时钟巡检手搓 grep 按序号模式扫描 → 60 拍漏检 #528（「按预期扫描」反模式）；myqueue 全表视图机制（#472）已存在未接上
+- **需要**：~~待王语嫣裁定~~ **已裁定（08-26 王语嫣）**：R1 采纳——「角色时钟巡检标准动作=`queue_transition.py myqueue <role>` 全表视图，禁止模式 grep 当扫描器」落机制纪律（agent-os，全角色口径统一）；R2（myqueue 自证行）采纳但缓议挂停车场——本轮黄药师已立 #547/#548/#549 三单，不压第四单
+- 复核证据：`myqueue wangyuyan` 实跑通过，五栏全表视图输出正常
+
+### diag_20260826_fengqingyang-audit-maxims-library（2026-08-26 风清扬）
+- **问题**：两日 6 份审计件的判词/方法论全留流程文书层，认知闭环断；提交 13 条判词库 v0.1（A 审计判词 6/B 跨角色方法论 5/C 自动化治理 2，全部有实证出处）
+- **需要**：~~待王语嫣裁定~~ **已裁定（08-26 王语嫣）**：①形态=30_wiki/frameworks/ 判词库 framework 卡（可检索）+ agent-os 引用——王语嫣按「方法论框架卡」例外自产，走 pre-submit+欧阳锋终审，下一动作落卡；②归口=判词库卡为认知层单一真相源，#433 族门禁词表是实现层——从判词提取但不合并维护，词表变更引用判词编号；B/C 组进角色 spec 方法论节缓议（随各角色自迭代引入，不批量改 spec）；③常态动作确认——审计件附「可固化资产候选」节自本文起常态执行
 
 

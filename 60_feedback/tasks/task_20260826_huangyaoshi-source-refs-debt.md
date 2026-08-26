@@ -2,8 +2,8 @@
 id: 543
 assignee: huangyaoshi
 status: queued
-updated_at: '2026-08-26T11:40:00+00:00'
-version: v0.1
+updated_at: '2026-08-26T23:15:00+00:00'
+version: v0.2
 instance: huangyaoshi
 code_files:
   - 90_control/scripts/check-source-refs.py
@@ -24,6 +24,7 @@ check-source-refs.py 扫描器早已存在，但**没进任何例行**：不跑�
 ## 任务
 
 1. **修 json 输出 bug**（--json 输出 line 2245 格式错误，agent 消费面断的）
+1.5. **剥 `:行号` 锚（同族双检查器，08-26 王语嫣裁定补入）**：`resolve_path` 直接拼路径不剥 `path:NN` 后缀 → 带行号锚引用全被误判缺失，**1024 条死引数字本身被污染**（ADUCIT 卡 2 条带锚引用实证在内）。本脚本修复 + KDO 仓 `pre_submit.py::_check_source_reachability`（907 行同款 bug，欧阳锋建议书 diag_20260826_ouyangfeng-source-refs-line-anchor-unreachable）同口径修复——先剥锚再判存在，行号正确性不在检查器职责。回归用例：带行号锚卡 0 误报 + 真缺失文件仍报。修复后重跑全量扫描，报「行号锚误报挤占量」（1024 里有多少是误报）
 2. **报告落盘+挂例行**：扫描报告落 `60_feedback/analysis/`，挂周例行（或随 daily-audit-digest），缺失数>阈值报警
 3. **死引分批治理方案**：1024 条按域/卡片 status 聚类出报告，参照 #426 分批模式提治理方案（reviewed 卡优先——已审卡带死引=终审漏项）；方案报王语嫣裁定后分批执行
 4. **inbox 未归档检测**：死引中指向 00_inbox 的（原稿在 inbox 未入 raw 型，ADUCIT 同款）单独聚一类——这类修复成本最低（归档即可，不用补内容）
