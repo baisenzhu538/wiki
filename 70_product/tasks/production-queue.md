@@ -182,6 +182,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 554 | `task_20260827_huangyaoshi-wakeup-unified-layer` | #520提审叫醒换轨统一层（文案不变路径换轨，双跑比对一拍后旧路径下线） | queued | huangyaoshi | 换轨+双跑验证 | #553 | `60_feedback/tasks/task_20260827_huangyaoshi-wakeup-unified-layer.md` | #525四拆之三（小单）；只换路由不动内容不动信号检出；#553延期则不动工；欧阳锋终审 |
 | 555 | `task_20260827_huangyaoshi-role-clock-rollout` | 四角色时钟开通：老顽童15min/王语嫣30min/风清扬日2拍/欧阳锋事件驱动+黄药师欧阳锋会话级旧cron换轨停用 | queued | huangyaoshi | 配置+换轨+活体 | #553 | `60_feedback/tasks/task_20260827_huangyaoshi-role-clock-rollout.md` | #525四拆之四·收官（「角色级时钟不存在」缺口关闭）；顺手修设计稿§5统图失真（欧阳锋终审指出）；唤醒只叫醒+指路判断留人（§3.17）；§3.19矩阵登记；欧阳锋终审 |
 | 556 | `task_20260827_huangyaoshi-pending-laozhu-decision-signal` | 待老朱拍板事项上浮：conveyor_probe第八信号检出「reviewed+含拍板字样」→即时推+daily digest固定栏直到消项 | queued | huangyaoshi | 信号+通道+回归 | 无 | `60_feedback/tasks/task_20260827_huangyaoshi-pending-laozhu-decision-signal.md` | **老朱08-27拍板直令**；#525设计稿等拍板躺两天实证——设计→拍板→实施链断在拍板环节无信号面；只向前生效不回扫存量；§3.19矩阵登记；欧阳锋终审 |
+| 557 | `task_20260827_laowantong-source-refs-batch-a` | 死引治理批次A：934条/319卡inbox原稿归档10_raw/sources+引用校正（机械化不补内容） | queued | laowantong | 归档+校正+批次报告 | #551 | `60_feedback/tasks/task_20260827_laowantong-source-refs-batch-a.md` | #543治理方案王语嫣裁定（08-27）：批次A采纳口径=归档到10_raw再改引用（inbox是流转区非存储区，KF-020先例）；批次B reviewed卡441条另立单待A完；批次C长尾随域顺带；附带裁定=src_id注册挂pre-submit走WARNING起步（#542同哲学）；原稿真不在的列清单报裁不硬修；欧阳锋批次验收 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
 ## ⚖️ 待终审（提审任务，queue_transition 自动登记）
