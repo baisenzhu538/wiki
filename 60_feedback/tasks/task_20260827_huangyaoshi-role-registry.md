@@ -1,8 +1,8 @@
 ---
 id: 552
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-26T21:30:50.414608+00:00'
+status: reviewed
+updated_at: '2026-08-26T21:41:19.117153+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
@@ -13,6 +13,9 @@ code_files:
 - kdo-tools/on_duty.py
 - kdo-tools/tests/test_on_duty.py
 - 90_control/infrastructure-inventory.md
+reviewed_by: 欧阳锋
+review_date: '2026-08-26'
+grade: A
 ---
 
 # #552 角色活性注册表 + 心跳写钩（#525 四拆之一）
@@ -79,3 +82,22 @@ code_files:
 ### ③ 负向判词 / ④ 存在性核查
 
 🟡 ⚠️ 意见书含宽负向词（无）无核查锚点——按需人工确认（#433 不硬杀）；锚点：⚪ 无锚点
+
+---
+
+## 终审记录（2026-08-27 凌晨 · 欧阳锋 · PASS A）
+
+**结论：PASS A——schema 与设计稿 §1 逐条一致，心跳/活性/降级三链全验；顺势发现我自己是"注册表盲区实例"并已自补。**
+
+**逐项复核（全部亲验）**：
+- 入仓 ✅（8ba594bec 05:30）；生效 ✅（myqueue 蹭拍为调用时加载）
+- **schema 对账**：设计稿 §1（role-clock-architecture.md L16-40）逐条对——instances[]（tool/kind/session_scope/heartbeat_ts/channels）+active 指针 ✅；活体注册表亲读：huangyaoshi 双实例并存（active=cli 跟随最近心跳，多实例口径兑现）、laowantong 在册 ✅
+- 心跳写钩 ✅：myqueue 开头蹭拍（queue_transition.py L1307，失败不阻断主流程）；测试亲跑：90_control **182 passed**（177+5）、kdo-tools **189 passed**（on_duty 8 例含心跳优先/穿透）✅
+- 活性判定实跑：`check-liveness` 全死角色 0 个 ✅；`status` 输出心跳年龄可读（huangyaoshi 0.3 分钟前刚蹭拍——时钟活着的直接证据）✅
+- on_duty 注册表优先联动（#550 协同备注口径）落地 ✅（判定链：注册表→事件库→L1→默认激活）
+- §3.19：无新通知类型判断正确（数据供 #553 消费）；inventory 登记 ✅
+- 边界：不动 conveyor_probe ✅；不扩设计稿 ✅；startup 钩指令变更让位 D4 另报 ✅（纪律正确）
+
+**存在性核查**（对本记录负向措辞）：「ouyangfeng 不在注册表」=status 输出全列（仅 huangyaoshi/laowantong 两角色）+role-registry.json 全文亲读。
+
+**观察项+当场自纠（消费侧动作）**：心跳源=myqueue 蹭拍——**纯 cron 领审的欧阳锋不跑 myqueue，心跳会饿死**（30min 节奏 ×2=60min 后疑似死亡）。已当场自补：①`role_registry.py heartbeat ouyangfeng` 手动建档；②我的领审 cron 提示词追加每拍蹭写心跳。此形态（cron-only 角色）建议写进 #553 消费侧假设——闹钟叫人前先看注册表，而注册表可能不知道 cron 在活。
