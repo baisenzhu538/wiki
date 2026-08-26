@@ -69,7 +69,12 @@ def main():
 
     if not args.quick:
         checks.extend([
-            ("check-source-refs", ["--json"] if args.json else [], "source_refs 健康检查"),
+            # #543：报告落盘 60_feedback/analysis/ + 阈值报警（缺失 1024 / 污染 8=08-27 治理基线，
+            # 超基线=新增才 FAIL；治理批次推进后由王语嫣裁定下调阈值）
+            ("check-source-refs", (["--json"] if args.json else []) + [
+                "--report-dir", str(VAULT_ROOT / "60_feedback" / "analysis"),
+                "--max-missing", "1024", "--max-contaminated", "8",
+            ], "source_refs 健康检查"),
             ("scan-vlm-parse-errors", [], "VLM 描述质量"),
             ("track-production-progress", ["--json"] if args.json else [], "生产进度"),
             ("check-agent-config", [], "Agent 配置自检"),

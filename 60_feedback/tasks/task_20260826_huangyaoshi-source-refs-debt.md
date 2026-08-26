@@ -7,6 +7,14 @@ version: v0.2
 instance: huangyaoshi
 code_files:
 - 90_control/scripts/check-source-refs.py
+- 90_control/scripts/health-check.py
+- 90_control/scripts/tests/test_check_source_refs.py
+- 90_control/notification-coverage-matrix.md
+- 60_feedback/analysis/source-refs-health-latest.md
+- 60_feedback/analysis/source-refs-health-latest.json
+- 60_feedback/analysis/source-refs-debt-governance-20260827.md
+- Knowledge Delivery OS 0.0.1/kdo/pre_submit.py
+- Knowledge Delivery OS 0.0.1/tests/test_pre_submit_source_anchor.py
 ---
 
 # #543 source_refs 死引治理：1024 条缺失存量 + 扫描器挂例行 + json 输出修复
@@ -38,3 +46,23 @@ check-source-refs.py 扫描器早已存在，但**没进任何例行**：不跑�
 ## 验收
 
 - json 输出修复实测；报告落盘+例行挂载证明；分类治理报告交王语嫣；欧阳锋终审
+
+
+## 执行报告（F-034 五字段，complete 前必填）
+
+**完成内容**：source_refs 死引治理四件套。①**json bug 修复**（`check-source-refs.py`）：根因=`io.TextIOWrapper(sys.stdout.buffer)` 在无 .buffer 的 agent 宿主 stdout 下 AttributeError 崩溃→JSON 零输出；改 `sys.stdout.reconfigure` try/except 兜底；**顺带修真 bug**：`scan()` 忽略 vault_root 参数用模块级 WIKI_DIR（测试/多库场景扫错库）；②**行号锚剥除（双检查器同口径）**：`strip_line_anchor`（`path:NN`/`path:NN-MM` 剥除，Windows 盘符不误伤）挂入本脚本 `resolve_path` + KDO 仓 `pre_submit.py::_check_source_reachability`（re.sub 同口径）；剥锚后重扫：**挤占量仅 2 条（0.2%）**——1024 口径基本未被锚污染，死引是真实缺失；③**报告落盘+挂例行**：`--report-dir` 落 `60_feedback/analysis/source-refs-health-latest.{md,json}`（含治理聚类段），挂 health-check 每日 02:07 例行；`--max-missing 1024/--max-contaminated 8` 阈值制——超基线=新增才 FAIL，存量不扰（治理后王语嫣裁定下调）；④**聚类治理报告**：`60_feedback/analysis/source-refs-debt-governance-20260827.md`——934/1024（91.2%）指向 00_inbox（归档即修，成本最低）、reviewed 卡 441 条（终审漏项优先）、business-formula+conversion-rate 两域占 51%（疑似同源批量入库事故）；⑤§3.19：矩阵事件 14 行。
+
+**交付物**：
+- wiki 仓：`90_control/scripts/check-source-refs.py` / `health-check.py` / `tests/test_check_source_refs.py`（8 例）/ `notification-coverage-matrix.md` / `60_feedback/analysis/`×3
+- KDO 仓：`kdo/pre_submit.py` + `tests/test_pre_submit_source_anchor.py`（3 例）
+
+**验证**：
+- L1 单测：wiki 侧 8 例全过（锚剥除四态/挤占量统计/StringIO 宿主 json 不崩/阈值三态/落盘含聚类）；KDO 侧 3 例全过（锚定存在零误报/锚定缺失仍报/裸缺失仍报）
+- 基线零退步：90_control **167 passed**（159+8）；KDO 仓 **580 passed**（577+3），1 failed=test_cli_smoke 既有 HEAD 遗留（#540 同口径）
+- L2 狗粮：真库全扫 2878 卡/5910 条实测——剥锚后缺失 1024、锚引用 2 条全存活、inbox 簇 934 条/319 卡、聚类透视落盘；阈值实跑 exit=0（1024 不超基线）
+- L3 待活体：health-check 02:07 例行首跑（本轮已手动全量验证 source_refs 项挂载）
+- **预审红项预标注**：本单预审若检「缺失/不得」类词=报告/方案描述文字误报，预标注在此
+
+**边界**：未批量修卡（治理待裁定另立执行单）✅；src_id 注册表挂钩仅报裁未实施 ✅；grep 裸检索不动 ✅。
+
+**需要谁动作**：欧阳锋终审本单；**王语嫣**：治理方案 `60_feedback/analysis/source-refs-debt-governance-20260827.md` 等你裁定（批次 A inbox 归档口径 + src_id 注册表是否挂 pre-submit）。

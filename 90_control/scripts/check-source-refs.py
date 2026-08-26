@@ -64,10 +64,28 @@ def is_src_id(ref):
 
 
 def resolve_path(ref, vault_root):
-    """将 source_ref 解析为绝对路径。支持相对路径（从 vault 根）。"""
+    """将 source_ref 解析为绝对路径。支持相对路径（从 vault 根）。
+    #543：先剥 `:NN` 行号锚后缀（`path:2245` → `path`）——行号是定位信息，
+    不参与存在性判定；带锚引用此前全被误判缺失（1024 条死引数字被污染的根因之一）。"""
     s = str(ref).strip()
+    s = strip_line_anchor(s)
     candidate = vault_root / s
     return candidate
+
+
+import re as _re
+
+_LINE_ANCHOR_RE = _re.compile(r"^(.*?):\d+(?:-\d+)?$")
+
+
+def strip_line_anchor(ref):
+    """剥除 `path:NN` / `path:NN-MM` 行号锚后缀，返回 (纯路径)。
+    只剥数字锚（`x.md:2245`）；Windows 盘符 `C:/...` 不误伤（盘符后非数字）。
+    无锚 → 原样返回。"""
+    m = _LINE_ANCHOR_RE.match(ref)
+    if m and m.group(1):
+        return m.group(1)
+    return ref
 
 
 def check_card(file_path, vault_root):
@@ -103,8 +121,10 @@ def check_card(file_path, vault_root):
                 break
         entry["contaminated"] = contaminated
 
-        # 检查路径是否存在
+        # 检查路径是否存在（#543：剥行号锚后判定，锚本身记录供误报挤占量统计）
         if is_file_path(s):
+            stripped = strip_line_anchor(s)
+            entry["had_line_anchor"] = stripped != s
             abs_path = resolve_path(s, vault_root)
             exists = abs_path.exists()
             entry["resolved_path"] = abs_path.as_posix()
@@ -134,9 +154,11 @@ def check_card(file_path, vault_root):
 
 
 def scan(vault_root, domain_filter=None, card_filter=None):
-    """扫描全库"""
+    """扫描指定 vault 的 30_wiki（#543：原实现忽略 vault_root 参数用模块级 WIKI_DIR，
+    测试/多库场景下扫错库——改为参数驱动）。"""
+    wiki_dir = Path(vault_root) / "30_wiki"
     files = [
-        f for f in WIKI_DIR.rglob("*.md")
+        f for f in wiki_dir.rglob("*.md")
         if "_archive" not in f.parts and "raw" not in f.parts
     ]
     results = []
@@ -166,6 +188,8 @@ def summarize(results):
     refs_contaminated = 0
     refs_file_path = 0
     refs_ok = 0
+    refs_line_anchor = 0          # #543：带行号锚的引用总数
+    refs_line_anchor_alive = 0    # #543：剥锚后文件存在（此前被误判缺失）的数量
 
     contaminated_cards = []
     missing_source_cards = []
@@ -179,8 +203,12 @@ def summarize(results):
                 card_contaminated = True
             if s.get("kind") == "file_path":
                 refs_file_path += 1
+                if s.get("had_line_anchor"):
+                    refs_line_anchor += 1
                 if s.get("exists") is True:
                     refs_ok += 1
+                    if s.get("had_line_anchor"):
+                        refs_line_anchor_alive += 1
                 elif s.get("exists") is False:
                     refs_missing += 1
                     card_missing.append(s["raw"])
@@ -199,8 +227,41 @@ def summarize(results):
         "refs_ok": refs_ok,
         "refs_missing": refs_missing,
         "refs_contaminated": refs_contaminated,
+        "refs_line_anchor": refs_line_anchor,
+        "refs_line_anchor_alive": refs_line_anchor_alive,
         "contaminated_cards": contaminated_cards,
         "missing_source_cards": missing_source_cards,
+    }
+
+
+def cluster_missing(stats):
+    """#543 死引治理聚类：域 × status 透视 + 指向 00_inbox 的最低成本修复簇。
+    返回 {by_domain_status, inbox_pointing, top_cards}（只统计文件缺失类）。"""
+    by_domain_status = defaultdict(int)
+    inbox_pointing = []
+    card_missing_counts = []
+    for r, missing in stats["missing_source_cards"]:
+        domains = r.get("domain") or ["<none>"]
+        if isinstance(domains, str):
+            domains = [domains]
+        status = r.get("status") or "<none>"
+        for d in domains:
+            by_domain_status[(str(d), status)] += len(missing)
+        for m in missing:
+            if "00_inbox" in m.replace("\\", "/"):
+                inbox_pointing.append({"card_id": r["card_id"], "status": status, "missing": m})
+        card_missing_counts.append((r["card_id"], status, domains, len(missing)))
+    card_missing_counts.sort(key=lambda x: -x[3])
+    return {
+        "by_domain_status": [
+            {"domain": d, "status": s, "missing": n}
+            for (d, s), n in sorted(by_domain_status.items(), key=lambda kv: -kv[1])
+        ],
+        "inbox_pointing": inbox_pointing,
+        "top_cards": [
+            {"card_id": c, "status": s, "domain": d, "missing": n}
+            for c, s, d, n in card_missing_counts[:50]
+        ],
     }
 
 
@@ -217,6 +278,7 @@ def generate_report(results, stats, vault_root):
         f"**✅ 文件存在**：{stats['refs_ok']} 条",
         f"**❌ 文件缺失**：{stats['refs_missing']} 条",
         f"**⚠️ 污染引用**：{stats['refs_contaminated']} 条",
+        f"**🔗 行号锚引用**：{stats['refs_line_anchor']} 条（剥锚后存在 {stats['refs_line_anchor_alive']} 条——剥锚修复前全被误判缺失，#543）",
         "",
         "---",
         "",
@@ -293,15 +355,63 @@ def generate_report(results, stats, vault_root):
     return "\n".join(lines)
 
 
+def generate_cluster_section(stats):
+    """#543：死引治理聚类段（域×status 透视 + inbox 指向簇 + Top 缺引卡）。"""
+    cl = cluster_missing(stats)
+    lines = [
+        "## 死引治理聚类（#543：分批方案输入）",
+        "",
+        "### 域 × status 透视（reviewed 卡带死引=终审漏项，优先治理）",
+        "",
+        "| 域 | status | 缺失条数 |",
+        "|---|---|---|",
+    ]
+    for row in cl["by_domain_status"]:
+        lines.append(f"| {row['domain']} | {row['status']} | {row['missing']} |")
+    lines.append("")
+    lines.append(f"### 指向 00_inbox 的死引（{len(cl['inbox_pointing'])} 条——修复成本最低：归档即可）")
+    lines.append("")
+    lines.append("| 卡片 ID | status | 缺失路径 |")
+    lines.append("|---|---|---|")
+    for it in cl["inbox_pointing"][:100]:
+        lines.append(f"| `{it['card_id']}` | {it['status']} | `{it['missing']}` |")
+    if len(cl["inbox_pointing"]) > 100:
+        lines.append(f"| ... | 省略 {len(cl['inbox_pointing']) - 100} 条，见 JSON | |")
+    lines.append("")
+    lines.append("### 缺引最多卡片 Top 50")
+    lines.append("")
+    lines.append("| 卡片 ID | status | 缺失条数 |")
+    lines.append("|---|---|---|")
+    for it in cl["top_cards"]:
+        lines.append(f"| `{it['card_id']}` | {it['status']} | {it['missing']} |")
+    lines.append("")
+    return lines, cl
+
+
 def cmd_scan(args, vault_root):
     results = scan(vault_root, args.domain, args.card)
     stats = summarize(results)
 
-    # Windows PowerShell GBK 编码兼容
-    import io
-    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+    # Windows PowerShell GBK 编码兼容（#543：无 .buffer/reconfigure 的 agent 宿主 stdout
+    # 不崩——此前 io.TextIOWrapper(sys.stdout.buffer) 直接 AttributeError，JSON 零输出=消费面断）
+    try:
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    except Exception:
+        pass
 
-    if args.json:
+    clusters = None
+    if args.report_dir:
+        cluster_lines, clusters = generate_cluster_section(stats)
+        out_dir = Path(args.report_dir)
+        out_dir.mkdir(parents=True, exist_ok=True)
+        md = generate_report(results, stats, vault_root)
+        # 聚类段插在「修复优先级」之前
+        marker = "## 修复优先级"
+        if marker in md:
+            md = md.replace(marker, "\n".join(cluster_lines) + "\n---\n\n" + marker, 1)
+        (out_dir / "source-refs-health-latest.md").write_text(md, encoding="utf-8")
+
+    if args.json or args.report_dir:
         output = {
             "stats": {k: v for k, v in stats.items() if k not in ("contaminated_cards", "missing_source_cards")},
             "contaminated_cards": [
@@ -314,14 +424,25 @@ def cmd_scan(args, vault_root):
                  "missing": [s["raw"] for s in r["sources"] if s.get("exists") is False]}
                 for r, missing in stats["missing_source_cards"]
             ],
+            "clusters": clusters if clusters is not None else cluster_missing(stats),
         }
-        print(json.dumps(output, ensure_ascii=False, indent=2))
+        if args.report_dir:
+            (Path(args.report_dir) / "source-refs-health-latest.json").write_text(
+                json.dumps(output, ensure_ascii=False, indent=2), encoding="utf-8")
+        if args.json:
+            print(json.dumps(output, ensure_ascii=False, indent=2))
     else:
         report = generate_report(results, stats, vault_root)
         print(report)
 
-    # 退出码：有问题则非零
-    if stats["refs_missing"] > 0 or stats["refs_contaminated"] > 0:
+    # 退出码：缺失/污染超阈值才报警（#543：阈值=治理基线，防增量不扰存量；
+    # 默认 None=有任何缺失/污染即 exit 1，旧行为）
+    if args.max_missing is not None or args.max_contaminated is not None:
+        miss_over = stats["refs_missing"] > (args.max_missing if args.max_missing is not None else 0)
+        cont_over = stats["refs_contaminated"] > (args.max_contaminated if args.max_contaminated is not None else 0)
+        if miss_over or cont_over:
+            sys.exit(1)
+    elif stats["refs_missing"] > 0 or stats["refs_contaminated"] > 0:
         sys.exit(1)
 
 
@@ -330,6 +451,11 @@ def main():
     parser.add_argument("--domain", help="仅扫描指定 domain（如 yitang）")
     parser.add_argument("--card", help="仅检查指定卡片 ID")
     parser.add_argument("--json", action="store_true", help="JSON 输出")
+    parser.add_argument("--report-dir", help="#543：报告落盘目录（写 source-refs-health-latest.{md,json}，含治理聚类）")
+    parser.add_argument("--max-missing", type=int, default=None,
+                        help="#543：缺失数阈值——超过才 exit 1（默认 None=有任何缺失即 exit 1，旧行为）")
+    parser.add_argument("--max-contaminated", type=int, default=None,
+                        help="#543：污染数阈值——超过才 exit 1（默认 None=有任何污染即 exit 1，旧行为）")
     args = parser.parse_args()
     cmd_scan(args, VAULT_ROOT)
 
