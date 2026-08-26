@@ -64,6 +64,7 @@ framework 卡 1 张 → 解压资产：①agent-os 引用节（终审后王语�
 
 ## 执行报告（完成后回填）
 
+- **改动文件清单**：`30_wiki/frameworks/framework-audit-maxims-library.md`（新建，交付物）；`60_feedback/adversarial/atk_framework-audit-maxims-library_20260827.md`（新建，自攻击报告）；`60_feedback/tasks/task_20260827_laowantong-audit-maxims-card.md`（本任务单：建模方案+执行报告）；`.kdo/CAPSULE_STARTUP.md`（git_head/queue_tail 字段过期更新，启动校验动作）
 - **完成内容一句话**：风清扬 13 条审计判词（A6/B5/C2）已结构化为 `30_wiki/frameworks/framework-audit-maxims-library.md` v0.1，经四路自攻击修复 1🔴+9🟡 类问题，pre-submit PASS，已 commit。
 - **验证命令+输出**：
   - `kdo pre-submit -f 30_wiki/frameworks/framework-audit-maxims-library.md` → `Files checked: 1 / Passed: 1 / Failed: 0 / ✅ Result: PASS（2 条 WARNING 在列）`（全文见下）
