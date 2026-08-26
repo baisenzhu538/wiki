@@ -1,12 +1,12 @@
 ---
 id: 542
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-26T11:00:00+00:00'
+status: in_progress
+updated_at: '2026-08-26T17:23:02.060369+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
-  - 90_control/scripts/
+- 90_control/scripts/
 ---
 
 # #542 产卡概念交叉验证 WARNING：解析段命中已有 concept 关键词→提示对账（小昭事故根因 3，降档版）
