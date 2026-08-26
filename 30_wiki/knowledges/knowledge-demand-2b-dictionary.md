@@ -16,7 +16,7 @@ domain:
 source_context:
   - yitang
 source_refs:
-- 00_inbox/五步法之需求分析/一堂-需求分析-方法论-口述.txt
+- 10_raw/sources/demand-analysis/一堂-需求分析-方法论-口述.txt
 - 00_inbox/五步法之需求分析/一堂-需求分析-剥离需求-口述.txt
 related:
 - '[[framework-demand-iceberg]]'

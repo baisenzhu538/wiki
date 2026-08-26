@@ -19,7 +19,7 @@ aliases:
   - 需求分析提示词模板
 source_refs:
 - 00_inbox/五步法之需求分析/需求分析提示词.txt
-- 00_inbox/五步法之需求分析/一堂-需求分析-方法论-口述.txt
+- 10_raw/sources/demand-analysis/一堂-需求分析-方法论-口述.txt
 created_at: '2026-06-21'
 updated_at: '2026-06-29'
 author: 黄药师（从 inbox 提示词提取 + 结构化）

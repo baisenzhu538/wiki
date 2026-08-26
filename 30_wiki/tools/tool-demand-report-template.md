@@ -24,7 +24,7 @@ source_context:
   - yitang
 source_refs:
 - 00_inbox/五步法之需求分析/需求分析提示词.txt
-- 00_inbox/五步法之需求分析/一堂-需求分析-需求评估-口述.txt
+- 10_raw/sources/demand-analysis/一堂-需求分析-需求评估-口述.txt
 discoverable_by:
   - 需求分析报告模板：融资版与经营版双版本
   - 需求分析报告模板

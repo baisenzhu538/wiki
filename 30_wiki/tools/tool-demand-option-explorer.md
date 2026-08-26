@@ -25,7 +25,7 @@ source_context:
   - yitang
 source_refs:
 - 00_inbox/五步法之需求分析/AI辅助探讨需求选项的提示词.md
-- 00_inbox/五步法之需求分析/一堂-需求分析-需求评估-口述.txt L1104-L1186
+- 10_raw/sources/demand-analysis/一堂-需求分析-需求评估-口述.txt:1104-1186
 discoverable_by:
   - 需求选项探讨工具：USP追问+控变量+找盲区
   - 需求选项探讨工具
