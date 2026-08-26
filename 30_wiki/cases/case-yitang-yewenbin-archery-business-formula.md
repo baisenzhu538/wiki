@@ -18,13 +18,13 @@ aliases:
   - 把等客流变成经营转化率
   - 用业务公式四参数串起动力阻力触点
 source_refs:
-- 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L73-L135
-- 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L161-L215
-- 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L217-L291
-- 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L321-L413
-- 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L429-L619
-- 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L621-L887
-- 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L891-L997
+- 10_raw/sources/case-study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md:73-135
+- 10_raw/sources/case-study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md:161-215
+- 10_raw/sources/case-study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md:217-291
+- 10_raw/sources/case-study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md:321-413
+- 10_raw/sources/case-study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md:429-619
+- 10_raw/sources/case-study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md:621-887
+- 10_raw/sources/case-study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md:891-997
 discoverable_by:
   - 射箭馆：用业务公式四参数串起动力阻力触点，把等客流变成经营转
   - 射箭馆

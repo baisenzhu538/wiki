@@ -21,9 +21,9 @@ source_context:
   - C 域实战反哺——Live255 落地之夜第六场三案例（叶文彬射箭馆/董原舞蹈学校/谢泽丰服装店）对照孔源 ABC 模型图
   - yitang
 source_refs:
-- 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L429-L619
-- 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1257-L1285
-- 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1575-L1661
+- 10_raw/sources/case-study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md:429-619
+- 10_raw/sources/case-study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md:1257-1285
+- 10_raw/sources/case-study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md:1575-1661
 - 10_raw/assets/yitang-business-formula/孔源-业务公式拆解-ABC模型图-ocr.md
 discoverable_by:
   - A 缺失的并发症：没有锚定目标的公式无法排优先级

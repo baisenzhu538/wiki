@@ -22,8 +22,8 @@ source_context:
   - yitang
 source_refs:
 - 10_raw/assets/yitang-business-formula/孔源-业务公式拆解-6层逻辑关系图-ocr.md
-- 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1605-L1609
-- 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L2328-L2350
+- 10_raw/sources/case-study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md:1605-1609
+- 10_raw/sources/case-study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md:2328-2350
 - 60_feedback/analysis/c-domain-mastery-review-and-agent-design-2026-07-12.md
 discoverable_by:
   - 定量与动态的正名：逻辑冰山 L5=基准值与判断空间，L6=公
