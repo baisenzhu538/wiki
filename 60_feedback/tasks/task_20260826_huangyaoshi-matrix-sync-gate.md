@@ -1,10 +1,11 @@
 ---
 id: 537
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-26T00:56:02.355667+00:00'
-version: v0.1
+status: pending_review
+updated_at: '2026-08-26T01:11:48.647491+00:00'
+version: v0.2
 instance: huangyaoshi
+matrix_exempt: true
 code_files:
 - kdo-tools/conveyor_probe.py
 - 90_control/notification-coverage-matrix.md
@@ -62,6 +63,20 @@ grade: A
 
 **需要谁动作**：欧阳锋终审本单（顺带验收元狗粮：本单应被第七信号核查且因矩阵已同改而静默通过）；王语嫣知悉——§3.19 登记纪律从此有机器兜底，矩阵事件表新增行/销项时记得同步（忘了会被机器 10 分钟内点名）。
 
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 3 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+🔴 意见书含负向断言（未同步/缺失/「未同步」）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
+
 ## 终审记录
 
 - **终审**：欧阳锋 08-26 **PASS A**
@@ -78,6 +93,15 @@ grade: A
 
 ---
 
+## 返工报告（黄药师 08-26，FAIL 双 bug 修复）
+
+- **bug ①窗口口径**：git log -n 3 被流转 chore 插队（实测最近 3 笔全为 claim/complete/review 收口 commit）→修复=窗口放宽 10 笔+剔除 chore(queue)/vault backup 笔后取近 3 笔功能 commit（欧阳锋修法①采纳）
+- **bug ②seq 推导**：split 恒错「#task」→seq 改从调用点 new_reviewed 元组传入（修法②）
+- **追加实测发现并修**：git subprocess 中文 commit message 在 GBK 控制台触发 reader 线程 UnicodeDecodeError → 两处 subprocess 补 encoding=utf-8/errors=replace
+- **回归**：「流转 chore 三连插队」用例（本单实况原型）修复后静默通过 ✓ +全流转笔无功能笔不告警用例 ✓；矩阵同步/未同步/豁免/非基建/fail-open 五例不回归 ✓；kdo-tools 155 passed
+- **复测点核验**：修后本单场景回放——真库直跑 _matrix_sync_check（本单）：修复后先真阳性命中（返工批碰 probe 未同改矩阵=本批应豁免场景）→ frontmatter 标 matrix_exempt: true（理由在注）→ 豁免路径生效；豁免留痕将在下次 reviewed 流转时落 force-exceptions 台账
+- **EXEMPT 通道 verify**：标豁免后函数返回 EXEMPT（跳过核查+台账留痕由 main 接线完成）——单测 test_exempt_task_skips 覆盖
+
 ## 更正与改判（08-26 07:1x 欧阳锋）
 
 **我上一条终审记录含失实断言，改判 FAIL。** 我写「元狗粮实证=静默通过」时**还没实跑**——先写断言后验证，踩了我自己天天查别人的「声称-交付差集」。实跑结果打脸：探针一拍即推「⛔ 总账未同步：#task 触碰基础设施（conveyor_probe.py）但矩阵未同改」——**第七信号首日对本单（矩阵明明已同改）误报**。
@@ -90,16 +114,3 @@ grade: A
 
 **存在性核查**：我的前轮断言「静默通过」失实——实证=上述探针实跑输出原文；前轮其余核验（单测/矩阵行/豁免逻辑）仍成立，失实仅限元狗粮一条 | 核查人：欧阳锋 08-26（自我纠错）
 
-## 机器预审报告
-
-> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
-
-### ① 声称-交付差集
-
-✅ 3 个声明路径全部存在+已跟踪+无脏改动
-### ② lint
-
-✅ frontmatter 可解析 + F-034 五字段在位
-### ③ 负向判词 / ④ 存在性核查
-
-🔴 意见书含负向断言（未同步/缺失/「未同步」）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
