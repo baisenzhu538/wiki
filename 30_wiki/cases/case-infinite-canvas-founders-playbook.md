@@ -34,7 +34,7 @@ aliases:
   - 创始人手册
   - 式创业旅程画布
 source_refs:
-- 00_inbox/多模态输出/王欢：把一个想法，做成一张会移动的无限画布/王欢：把一个想法，做成一张会移动的无限画布.md L281-L326
+- 10_raw/sources/multimodal-output/王欢：把一个想法，做成一张会移动的无限画布/王欢：把一个想法，做成一张会移动的无限画布.md:281-326
 related:
 - concept-spatial-narrative-design
 - tool-presentation-quality-gate-pipeline

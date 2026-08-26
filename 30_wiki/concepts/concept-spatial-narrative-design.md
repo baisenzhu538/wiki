@@ -36,7 +36,7 @@ aliases:
   - 空间即逻辑
   - 空间即逻辑：内容结构→画布空间的四结构+四原则映射
 source_refs:
-- 00_inbox/多模态输出/王欢：把一个想法，做成一张会移动的无限画布/王欢：把一个想法，做成一张会移动的无限画布.md L105-L145
+- 10_raw/sources/multimodal-output/王欢：把一个想法，做成一张会移动的无限画布/王欢：把一个想法，做成一张会移动的无限画布.md:105-145
 related:
 - tool-presentation-quality-gate-pipeline
 - framework-一堂-表达力火箭模型

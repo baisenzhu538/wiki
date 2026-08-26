@@ -36,7 +36,7 @@ aliases:
   - 演示产线双防线质量控制：四道机械闸门+七维独立终审
   - 独立终审
 source_refs:
-- 00_inbox/多模态输出/王欢：把一个想法，做成一张会移动的无限画布/王欢：把一个想法，做成一张会移动的无限画布.md L235-L278
+- 10_raw/sources/multimodal-output/王欢：把一个想法，做成一张会移动的无限画布/王欢：把一个想法，做成一张会移动的无限画布.md:235-278
 related:
 - concept-spatial-narrative-design
 - framework-ouyangfeng-review-methodology
