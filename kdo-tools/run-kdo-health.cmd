@@ -5,3 +5,5 @@ rem #532: KDO_ROOT env first, fallback to script-relative root (portable seed)
 if "%KDO_ROOT%"=="" set "KDO_ROOT=%~dp0.."
 cd /d "%KDO_ROOT%"
 "C:\Program Files\Python312\python.exe" -m kdo watch --health >> logs\kdo-health-cron.log 2>&1
+rem #549: daily token metering (delta cursor, no history backfill)
+"C:\Program Files\Python312\python.exe" kdo-tools\token_meter.py >> logs\kdo-health-cron.log 2>&1

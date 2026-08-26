@@ -1,0 +1,56 @@
+{
+  "date": "2026-08-27",
+  "collected_at": "2026-08-27T04:24:21",
+  "usage": {
+    "kimi": {
+      "session_6c3ded32-0e90-4822-a93c-a9b506cd9685/main": {
+        "input": 261681,
+        "output": 132239,
+        "cache_read": 80305152,
+        "cache_write": 0
+      },
+      "session_b4f040ba-62c4-491c-9ca8-820fb840f445/main": {
+        "input": 110462,
+        "output": 58545,
+        "cache_read": 20628224,
+        "cache_write": 0
+      },
+      "session_d389a44a-5161-433b-9ae2-9ebc9c0feb19/agent-0": {
+        "input": 17733,
+        "output": 8833,
+        "cache_read": 102912,
+        "cache_write": 0
+      },
+      "session_d389a44a-5161-433b-9ae2-9ebc9c0feb19/agent-1": {
+        "input": 42254,
+        "output": 9537,
+        "cache_read": 193792,
+        "cache_write": 0
+      },
+      "session_d389a44a-5161-433b-9ae2-9ebc9c0feb19/agent-2": {
+        "input": 45752,
+        "output": 11482,
+        "cache_read": 355840,
+        "cache_write": 0
+      },
+      "session_d389a44a-5161-433b-9ae2-9ebc9c0feb19/agent-3": {
+        "input": 40818,
+        "output": 6872,
+        "cache_read": 114432,
+        "cache_write": 0
+      },
+      "session_d389a44a-5161-433b-9ae2-9ebc9c0feb19/main": {
+        "input": 257107,
+        "output": 107923,
+        "cache_read": 36819456,
+        "cache_write": 0
+      },
+      "session_e47b0886-2b35-40ca-ab68-be1302787f47/main": {
+        "input": 135658,
+        "output": 59066,
+        "cache_read": 32991488,
+        "cache_write": 0
+      }
+    }
+  }
+}
