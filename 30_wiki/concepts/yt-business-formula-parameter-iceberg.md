@@ -22,17 +22,17 @@ source_context:
   - 一堂业务公式课程（孔阳），参数探索篇「参数冰山」+「参数挖掘武器库」原图
   - yitang
 source_refs:
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1012-L1058
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1130-L1294
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1298-L1460
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2002-L2058
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2178-L2192
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2278-L2356
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2830-L2850
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L3120-L3210
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L2586-L2616
-- 00_inbox/Handle the business/Business formula/_vlm_output/业务公式的参数冰山_vlm.md
-- 00_inbox/Handle the business/Business formula/_vlm_output/一堂业务公式-参数挖掘武器库（极其重要，需要精细识别）_vlm.md
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:1012-1058
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:1130-1294
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:1298-1460
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:2002-2058
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:2178-2192
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:2278-2356
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:2830-2850
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:3120-3210
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-实操篇-口述.txt:2586-2616
+- 10_raw/sources/handle-the-business/Business formula/_vlm_output/业务公式的参数冰山_vlm.md
+- 10_raw/sources/handle-the-business/Business formula/_vlm_output/一堂业务公式-参数挖掘武器库（极其重要，需要精细识别）_vlm.md
 - 30_wiki/cases/case-yitang-xiezefeng-clothing-innovation-param.md
 confidence: 0.9
 trust_level: high

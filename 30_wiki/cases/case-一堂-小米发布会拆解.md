@@ -25,25 +25,25 @@ aliases:
   - 用动力/阻力/触点框架解析一场标杆产品发布会
   - 触点框架解析一场标杆产品发布会
 source_refs:
-- 00_inbox/Handle the business/conversion rate/_vlm_native_text/小米发布会拆解练习/p001.txt
+- 10_raw/sources/handle-the-business/conversion rate/_vlm_native_text/小米发布会拆解练习/p001.txt
   L1-L32
-- 00_inbox/Handle the business/conversion rate/_vlm_native_text/小米发布会拆解练习/p002.txt
+- 10_raw/sources/handle-the-business/conversion rate/_vlm_native_text/小米发布会拆解练习/p002.txt
   L12-L24
-- 00_inbox/Handle the business/conversion rate/_vlm_native_text/小米发布会拆解练习/p003.txt
+- 10_raw/sources/handle-the-business/conversion rate/_vlm_native_text/小米发布会拆解练习/p003.txt
   L1-L23
-- 00_inbox/Handle the business/conversion rate/_vlm_native_text/小米发布会拆解练习/p004.txt
+- 10_raw/sources/handle-the-business/conversion rate/_vlm_native_text/小米发布会拆解练习/p004.txt
   L22-L31
-- 00_inbox/Handle the business/conversion rate/_vlm_native_text/小米发布会拆解练习/p005.txt
+- 10_raw/sources/handle-the-business/conversion rate/_vlm_native_text/小米发布会拆解练习/p005.txt
   L6-L31
-- 00_inbox/Handle the business/conversion rate/_vlm_native_text/小米发布会拆解练习/p006.txt
+- 10_raw/sources/handle-the-business/conversion rate/_vlm_native_text/小米发布会拆解练习/p006.txt
   L1-L22
-- 00_inbox/Handle the business/conversion rate/_vlm_native_text/小米发布会拆解练习/p007.txt
+- 10_raw/sources/handle-the-business/conversion rate/_vlm_native_text/小米发布会拆解练习/p007.txt
   L1-L26
-- 00_inbox/Handle the business/conversion rate/_vlm_native_text/小米发布会拆解练习/p008.txt
+- 10_raw/sources/handle-the-business/conversion rate/_vlm_native_text/小米发布会拆解练习/p008.txt
   L1-L5
-- 00_inbox/Handle the business/conversion rate/_vlm_native_text/小米发布会拆解练习/p062.txt
+- 10_raw/sources/handle-the-business/conversion rate/_vlm_native_text/小米发布会拆解练习/p062.txt
   L1-L12
-- 00_inbox/Handle the business/conversion rate/_vlm_native_text/小米发布会拆解练习/p063.txt
+- 10_raw/sources/handle-the-business/conversion rate/_vlm_native_text/小米发布会拆解练习/p063.txt
   L1-L11
 discoverable_by:
   - 小米汽车发布会拆解：用动力/阻力/触点框架解析一场标杆产品发

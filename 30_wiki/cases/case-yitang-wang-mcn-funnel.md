@@ -18,12 +18,12 @@ aliases:
   - 王同学（一堂学员，MCN 教育行业团队）
   - 签素人六环漏斗
 source_refs:
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1314-L1320
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1322-L1330
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1332-L1348
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1350-L1362
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1364-L1370
-- 00_inbox/Handle the business/Business formula/_vlm_output/王语嫣_五篇逐字稿精读索引.md L42-L42
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-管理篇-口述.txt:1314-1320
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-管理篇-口述.txt:1322-1330
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-管理篇-口述.txt:1332-1348
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-管理篇-口述.txt:1350-1362
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-管理篇-口述.txt:1364-1370
+- 10_raw/sources/handle-the-business/Business formula/_vlm_output/王语嫣_五篇逐字稿精读索引.md:42-42
 discoverable_by:
   - 王同学
   - 签素人六环漏斗

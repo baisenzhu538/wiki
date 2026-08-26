@@ -30,17 +30,17 @@ source_refs:
 - 00_inbox/关键假设C-拆解业务公式/孔源-业务公式拆解-冰山模型图_paddle_ocr.txt
 - 00_inbox/关键假设C-拆解业务公式/孔源-业务公式拆解-6层逻辑关系图_paddle_ocr.txt
 - 00_inbox/关键假设C-拆解业务公式/孔源-业务公式拆解-十大业务公式范式_paddle_ocr.txt
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L2-L30
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L64-L172
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L1050-L1074
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L3400-L3444
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L3486-L3590
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L12-L28
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L46-L100
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L880-L902
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L3420-L3466
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L2-L36
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L12-L40
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-实操篇-口述.txt:2-30
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-实操篇-口述.txt:64-172
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-实操篇-口述.txt:1050-1074
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-进阶篇-口述.txt:3400-3444
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-进阶篇-口述.txt:3486-3590
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:12-28
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:46-100
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:880-902
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:3420-3466
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt:2-36
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-管理篇-口述.txt:12-40
 - 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712001212_vlm.md
 - 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712001737_vlm.md
 - 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712001240_vlm.md

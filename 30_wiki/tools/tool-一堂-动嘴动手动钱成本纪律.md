@@ -20,7 +20,7 @@ aliases:
 source_context:
   - yitang
 source_refs:
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-阻力篇-口述.txt L3228-L3300
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力阻力触点-阻力篇-口述.txt:3228-3300
 discoverable_by:
   - 一堂动嘴动手动钱成本纪律：按成本由低到高选择阻力消除手段
   - 一堂动嘴动手动钱成本纪律

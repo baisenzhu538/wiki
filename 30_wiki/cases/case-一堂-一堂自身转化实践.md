@@ -23,28 +23,28 @@ source_context:
   - 扫描五篇口述稿中「一堂自己/我们自己/我们内部」相关内容，汇总一堂在作业率、推荐率、入职率、加微信率、文案、触点等方面的自身转化实践
   - yitang
 source_refs:
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L36-L60
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L424-L448
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L736-L788
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-阻力篇-口述.txt L168-L182
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-阻力篇-口述.txt L1992-L2036
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L922-L946
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L1024-L1094
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L1346-L1364
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L2106-L2114
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L2464-L2620
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L2980-L3022
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L3132-L3186
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L3224-L3258
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L3680-L3714
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L554-L602
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L922-L944
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L1082-L1142
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L1192-L1210
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L1300-L1308
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L3478-L3484
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-入门篇-口述.txt L4400-L4530
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-入门篇-口述.txt L4594-L4714
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt:36-60
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt:424-448
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt:736-788
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力阻力触点-阻力篇-口述.txt:168-182
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力阻力触点-阻力篇-口述.txt:1992-2036
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt:922-946
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt:1024-1094
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt:1346-1364
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt:2106-2114
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt:2464-2620
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt:2980-3022
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt:3132-3186
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt:3224-3258
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt:3680-3714
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt:554-602
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt:922-944
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt:1082-1142
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt:1192-1210
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt:1300-1308
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt:3478-3484
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力阻力触点-入门篇-口述.txt:4400-4530
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力阻力触点-入门篇-口述.txt:4594-4714
 related:
 - '[[framework-一堂-转化率黑客-总纲]]'
 - '[[framework-一堂-转化率提升六步法]]'

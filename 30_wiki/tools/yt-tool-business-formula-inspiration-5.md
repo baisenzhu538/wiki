@@ -20,8 +20,8 @@ source_context:
   - yitang
 source_refs:
 - 00_inbox/Handle the business/Business formula/_vlm_output/批注 2026-07-12 002100_vlm.md
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L2658-L2726
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1238-L1250
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-进阶篇-口述.txt:2658-2726
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-管理篇-口述.txt:1238-1250
 discoverable_by:
   - 灵感闪现五字诀：压 / 看 / 聚 / 拆 / 再
   - 灵感闪现五字诀

@@ -28,7 +28,7 @@ source_context:
   - 口述
   - yitang
 source_refs:
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L1538-L1551
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt:1538-1551
 discoverable_by:
   - 业务公式跳级起手：成熟业务不必从 L1 开始
   - 业务公式跳级起手

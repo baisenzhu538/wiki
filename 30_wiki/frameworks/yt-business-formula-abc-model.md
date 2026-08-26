@@ -16,12 +16,12 @@ source_context:
   - 一堂业务公式系列课（导入/实操/进阶/参数探索/逻辑关系/管理），ABC 模型框架
   - yitang
 source_refs:
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L164-L184
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L1400-L1658
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L42-L58
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L3395-L3444
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L1744-L1758
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L2208-L2212
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-进阶篇-口述.txt:164-184
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-进阶篇-口述.txt:1400-1658
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-进阶篇-口述.txt:42-58
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-进阶篇-口述.txt:3395-3444
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt:1744-1758
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-实操篇-口述.txt:2208-2212
 - 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712001737_vlm.md
 - 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712001212_vlm.md
 - 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712002307_vlm.md

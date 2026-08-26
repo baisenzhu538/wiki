@@ -21,7 +21,7 @@ source_context:
   - 一堂业务公式参数探索篇（2026-07-12），ToB农业双边平台案例：用自定义动作指标预测续费结果
   - yitang
 source_refs:
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L3246-L3278
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:3246-3278
 discoverable_by:
   - 农机撮合平台：从续费率10%到新客一月5次撮合率的因果验证
   - 农机撮合平台

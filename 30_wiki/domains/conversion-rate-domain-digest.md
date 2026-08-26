@@ -11,18 +11,18 @@ source_context: 一堂转化率黑客系列大课五篇（入门/动力/阻力/�
   - yitang
   ABCD 体系中 D 域的完整骨架
 source_refs:
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-入门篇-口述.txt L3052-L3054
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-入门篇-口述.txt L4924-L4964
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-入门篇-口述.txt L2916-L2918
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L296-L312
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L5744-L5782
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-阻力篇-口述.txt L1714-L1930
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-阻力篇-口述.txt L2108-L2116
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L1200-L1206
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L328-L352
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L746-L756
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L3394-L3410
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L2732-L2736
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力阻力触点-入门篇-口述.txt:3052-3054
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力阻力触点-入门篇-口述.txt:4924-4964
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力阻力触点-入门篇-口述.txt:2916-2918
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt:296-312
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt:5744-5782
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力阻力触点-阻力篇-口述.txt:1714-1930
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力阻力触点-阻力篇-口述.txt:2108-2116
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt:1200-1206
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt:328-352
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt:746-756
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt:3394-3410
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt:2732-2736
 - 00_inbox/Handle the business/conversion rate/_vlm_output/images/转化率黑客的爬山地图_vlm.md
 - 00_inbox/Handle the business/conversion rate/_vlm_output/images/最佳转化率-动力三曲线_vlm.md
 - 00_inbox/Handle the business/conversion rate/_vlm_output/images/转化率黑客-影响力36计-极其重要-逐字扫描_vlm.md

@@ -22,11 +22,11 @@ aliases:
 source_context:
   - yitang
 source_refs:
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L400-L432
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L1152-L1332
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L1332-L1636
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L1638-L1760
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L1048-L1074
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-实操篇-口述.txt:400-432
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-实操篇-口述.txt:1152-1332
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-实操篇-口述.txt:1332-1636
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-实操篇-口述.txt:1638-1760
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-实操篇-口述.txt:1048-1074
 - 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712002759_vlm.md
 related:
 - '[[framework-一堂-业务公式拆解-总纲]]'

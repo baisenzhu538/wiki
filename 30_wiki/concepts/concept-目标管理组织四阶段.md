@@ -27,7 +27,7 @@ aliases:
   - 管理组织四阶段
 source_refs:
 - 00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-笔记.txt §7.1
-- 00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-口述.txt L1360-L1416
+- 10_raw/sources/handle-the-business/Target goal/目标管理-底层逻辑与实践-周子敬-口述.txt:1360-1416
 related:
 - yt-management-goal-management
 - framework-目标三层拆解

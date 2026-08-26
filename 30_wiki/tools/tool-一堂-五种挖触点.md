@@ -20,7 +20,7 @@ aliases:
 source_context:
   - yitang
 source_refs:
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L1022-L1180
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt:1022-1180
 discoverable_by:
   - 一堂五种挖触点：推演/同行/用户/创造/清单的双向触点挖掘法
   - 一堂五种挖触点

@@ -22,15 +22,15 @@ aliases:
 source_context:
   - yitang
 source_refs:
-- 00_inbox/Handle the business/Business formula/_vlm_output/一堂业务公式-参数挖掘武器库（极其重要，需要精细识别）_vlm.md
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1180-L1290
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1298-L1374
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1386-L1470
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2562-L2628
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2630-L2828
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2842-L3032
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L3080-L3176
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L3232-L3298
+- 10_raw/sources/handle-the-business/Business formula/_vlm_output/一堂业务公式-参数挖掘武器库（极其重要，需要精细识别）_vlm.md
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:1180-1290
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:1298-1374
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:1386-1470
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:2562-2628
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:2630-2828
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:2842-3032
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:3080-3176
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:3232-3298
 discoverable_by:
   - 参数挖掘武器库：6 策略 → 22 动作 → 100+ 参数
   - 参数挖掘武器库

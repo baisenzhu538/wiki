@@ -20,7 +20,7 @@ aliases:
 source_context:
   - yitang
 source_refs:
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L3310-L3628
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt:3310-3628
 discoverable_by:
   - 一堂名利权情动力法：名 / 利 / 权 / 情 四张内驱牌
   - 一堂名利权情动力法

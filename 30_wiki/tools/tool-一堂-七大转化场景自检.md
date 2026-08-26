@@ -23,8 +23,8 @@ aliases:
 source_context:
   - yitang
 source_refs:
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-入门篇-口述.txt L954-L970
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L1172-L1176
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力阻力触点-入门篇-口述.txt:954-970
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt:1172-1176
 discoverable_by:
   - 一堂七大转化场景自检：流量 / 一对多 / 一对一 / 门店
   - 一堂七大转化场景自检

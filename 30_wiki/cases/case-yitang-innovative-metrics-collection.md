@@ -20,13 +20,13 @@ source_context:
   - 一堂「关键假设-业务公式-参数探索篇」口述逐字稿 L4 拆动作与 L5 创新参数两节中的 11 个学员/自营小案例。主题：行业里没有现成指标时，业务负责人自己定义动作侧、数值侧、组合侧的创新参数，参数一定义出来，动力阻力触点和假设就跟着长出来
   - yitang
 source_refs:
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2180-L2230
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2260-L2296
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2400-L2440
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2562-L2614
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2630-L2690
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2692-L2754
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2756-L2828
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:2180-2230
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:2260-2296
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:2400-2440
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:2562-2614
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:2630-2690
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:2692-2754
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:2756-2828
 discoverable_by:
   - 创新参数与动作案例集
   - 把没被命名过的率挖出来

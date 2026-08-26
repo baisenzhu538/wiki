@@ -17,7 +17,7 @@ aliases:
 source_context:
   - yitang
 source_refs:
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-入门篇-口述.txt L3052-L3054
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力阻力触点-入门篇-口述.txt:3052-3054
 - 00_inbox/Handle the business/conversion rate/_vlm_output/images/转化率黑客的爬山地图_vlm.md
 discoverable_by:
 - 动力阻力分析：用户行为的推拉模型

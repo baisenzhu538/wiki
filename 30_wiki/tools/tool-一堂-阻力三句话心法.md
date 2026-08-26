@@ -22,7 +22,7 @@ aliases:
 source_context:
   - yitang
 source_refs:
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-入门篇-口述.txt L1898-L1956
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力阻力触点-入门篇-口述.txt:1898-1956
 discoverable_by:
   - 一堂阻力三句话心法：至少降低它 / 争取消除它 / 挑战逆转
   - 一堂阻力三句话心法

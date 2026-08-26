@@ -18,10 +18,10 @@ aliases:
   - 邵同学（一堂学员，成人培训运营总监）
   - 靠分层切片找到反常识机会
 source_refs:
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1944-L1948
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1952-L1956
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1958-L1966
-- 00_inbox/Handle the business/Business formula/_vlm_output/王语嫣_五篇逐字稿精读索引.md L246-L246
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:1944-1948
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:1952-1956
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:1958-1966
+- 10_raw/sources/handle-the-business/Business formula/_vlm_output/王语嫣_五篇逐字稿精读索引.md:246-246
 discoverable_by:
   - 邵同学考研：GMV +50% 目标靠分层切片找到反常识机会，
   - 邵同学考研

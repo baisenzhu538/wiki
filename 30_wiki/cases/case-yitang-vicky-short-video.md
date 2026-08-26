@@ -21,11 +21,11 @@ source_context:
   - 一堂「关键假设·业务公式」管理篇入门案例 1（L776-L880）：Vicky 从"盯结果、抄同行、成败像掷骰子"的传统做生意心态，转为把业务转成一组假设定期复盘，借鉴一堂建测试群（只扔假设不讨论不点赞）和飞书团队假设池，团队心力从"出错白干"逆转为"越挫越勇"
   - yitang
 source_refs:
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L776-L796
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L798-L814
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L816-L836
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L838-L868
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L870-L880
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-管理篇-口述.txt:776-796
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-管理篇-口述.txt:798-814
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-管理篇-口述.txt:816-836
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-管理篇-口述.txt:838-868
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-管理篇-口述.txt:870-880
 discoverable_by:
   - 短视频
 quality_labels:

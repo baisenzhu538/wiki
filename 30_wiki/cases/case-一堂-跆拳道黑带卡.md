@@ -28,10 +28,10 @@ source_context:
   - 一堂「转化率黑客-动力篇」618大促8.8万黑带卡销售话术迭代案例
   - yitang
 source_refs:
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L808-L856
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L3234-L3296
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L3632-L3660
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L5806-L5844
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt:808-856
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt:3234-3296
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt:3632-3660
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt:5806-5844
 discoverable_by:
   - 跆拳道黑带卡从1.0平铺卖点到4.0影响力六连招，8.8万课
 related:

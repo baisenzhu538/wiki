@@ -20,7 +20,7 @@ aliases:
 source_context:
   - yitang
 source_refs:
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L3538-L3662
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt:3538-3662
 - 00_inbox/Handle the business/conversion rate/_vlm_output/images/触点质量五维模型_vlm.md
 discoverable_by:
   - 一堂触点质量五维：宽度/深度/承载力/主动被动/情绪的雷达评

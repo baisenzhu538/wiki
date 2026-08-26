@@ -28,8 +28,8 @@ source_context:
   - 口述
   - yitang
 source_refs:
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L2572-L2614
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2306-L2352
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-实操篇-口述.txt:2572-2614
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:2306-2352
 discoverable_by:
   - 不可统计指标也要写：公式归公式，数字归数字
   - 不可统计指标也要写

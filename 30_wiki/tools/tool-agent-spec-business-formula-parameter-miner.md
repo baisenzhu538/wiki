@@ -20,19 +20,19 @@ aliases:
 source_context:
   - yitang
 source_refs:
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L954-L960
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1200-L1250
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1280-L1290
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1420-L1430
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L1362-L1452
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L2208-L2210
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L28-L124
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L700
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L820-L876
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1398-L1580
-- 00_inbox/Handle the business/Business formula/_vlm_output/一堂业务公式-参数挖掘武器库（极其重要，需要精细识别）_vlm.md
-- 00_inbox/Handle the business/Business formula/_vlm_output/业务公式十大经典范式_vlm.md
-- 00_inbox/Handle the business/Business formula/_vlm_output/业务公式的参数冰山_vlm.md
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:954-960
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:1200-1250
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:1280-1290
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:1420-1430
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt:1362-1452
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-实操篇-口述.txt:2208-2210
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-管理篇-口述.txt:28-124
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-管理篇-口述.txt:700
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-管理篇-口述.txt:820-876
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-管理篇-口述.txt:1398-1580
+- 10_raw/sources/handle-the-business/Business formula/_vlm_output/一堂业务公式-参数挖掘武器库（极其重要，需要精细识别）_vlm.md
+- 10_raw/sources/handle-the-business/Business formula/_vlm_output/业务公式十大经典范式_vlm.md
+- 10_raw/sources/handle-the-business/Business formula/_vlm_output/业务公式的参数冰山_vlm.md
 - 00_inbox/Handle the business/Business formula/_vlm_output/业务公式的逻辑关系探索地图_vlm.md
 - 00_inbox/Handle the business/Business formula/_vlm_output/业务公式-落地策略集_vlm.md
 - 30_wiki/systems/system-yitang-Y-model-os.md

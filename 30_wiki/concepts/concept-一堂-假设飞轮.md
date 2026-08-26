@@ -25,11 +25,11 @@ source_context:
   - 一堂业务公式课程（孔阳），进阶篇降龙十八掌第18招「假设飞轮」+管理篇「团队假设/共识飞轮」原图002258+默认失败共识三段论述
   - yitang
 source_refs:
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L3294-L3384
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L2536-L2564
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1158-L1184
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1192-L1218
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1436-L1452
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-进阶篇-口述.txt:3294-3384
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-进阶篇-口述.txt:2536-2564
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-管理篇-口述.txt:1158-1184
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-管理篇-口述.txt:1192-1218
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-管理篇-口述.txt:1436-1452
 - 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712002258_vlm.md
 discoverable_by:
   - 假设飞轮：假设→结果→激励→更多假设的团队侧增强回路

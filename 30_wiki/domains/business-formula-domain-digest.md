@@ -18,13 +18,13 @@ source_context:
   - 口述
   - yitang
 source_refs:
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L1050-L1074
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L16-L16
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L3574-L3574
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L880-L902
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L3436-L3455
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L3580-L3592
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1700-L1760
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-实操篇-口述.txt:1050-1074
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:16-16
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:3574-3574
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:880-902
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:3436-3455
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-进阶篇-口述.txt:3580-3592
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-管理篇-口述.txt:1700-1760
 - 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712001240_vlm.md
 - 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712002307_vlm.md
 - 60_feedback/diagnosis/c-domain-business-formula-2026-07-12.md

@@ -23,11 +23,11 @@ aliases:
 source_context:
   - yitang
 source_refs:
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L340-L368
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L410-L414
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L2364-L2372
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L2474-L2568
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L3284-L3292
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-管理篇-口述.txt:340-368
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-管理篇-口述.txt:410-414
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-管理篇-口述.txt:2364-2372
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-管理篇-口述.txt:2474-2568
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-进阶篇-口述.txt:3284-3292
 - 00_inbox/Handle the business/Business formula/_vlm_output/业务公式-落地策略集_vlm.md
 discoverable_by:
   - 攻坚会：5-15 人封闭 4-18 小时、不解决不出门、民主

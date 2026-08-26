@@ -21,9 +21,9 @@ source_context:
   - 一堂业务公式课程（2026-07-12），三篇共用标准例题：邀约+30% vs PR稿+30% vs 抖音+30%，用来说明关键路径乘法杠杆
   - yitang
 source_refs:
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L3042-L3074
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L2812-L2848
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L3018-L3036
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-实操篇-口述.txt:3042-3074
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-进阶篇-口述.txt:2812-2848
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt:3018-3036
 discoverable_by:
   - 汉堡店加盟三渠道关键路径：同样的30%提升，为什么优先做邀约
   - 汉堡店加盟三渠道关键路径

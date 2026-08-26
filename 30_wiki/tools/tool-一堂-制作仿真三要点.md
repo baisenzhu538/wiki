@@ -20,7 +20,7 @@ aliases:
 source_context:
   - yitang
 source_refs:
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L4082-L4142
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt:4082-4142
 discoverable_by:
   - 一堂制作仿真三要点：在真实视角下打磨细节并沉淀过程资产
   - 一堂制作仿真三要点

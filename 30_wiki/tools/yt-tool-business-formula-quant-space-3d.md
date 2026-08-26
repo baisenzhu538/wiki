@@ -23,12 +23,12 @@ aliases:
 source_context:
   - yitang
 source_refs:
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1838-L1856
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L3118-L3148
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L1760-L1766
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L3060-L3086
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L3286-L3314
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L2934-L2975
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-管理篇-口述.txt:1838-1856
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-实操篇-口述.txt:3118-3148
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt:1760-1766
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt:3060-3086
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt:3286-3314
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-进阶篇-口述.txt:2934-2975
 discoverable_by:
   - 定量空间三维评估：差距 × 对标 × 成熟度，判断一个参数还
   - 定量空间三维评估

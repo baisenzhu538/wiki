@@ -22,14 +22,14 @@ aliases:
 source_context:
   - yitang
 source_refs:
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L3394-L3410
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L3412-L3502
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L3504-L3682
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L3684-L3774
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L3776-L3828
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L3830-L3896
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L3898-L3964
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-笔记.txt L88-L93
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt:3394-3410
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt:3412-3502
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt:3504-3682
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt:3684-3774
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt:3776-3828
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt:3830-3896
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt:3898-3964
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力阻力触点-组合篇-笔记.txt:88-93
 related:
 - '[[framework-一堂-转化率黑客-总纲]]'
 - '[[framework-一堂-转化率提升六步法]]'

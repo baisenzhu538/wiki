@@ -29,7 +29,7 @@ aliases:
   - 经验主义
 source_refs:
 - 00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-笔记.txt §2.1
-- 00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-口述.txt L1-L28
+- 10_raw/sources/handle-the-business/Target goal/目标管理-底层逻辑与实践-周子敬-口述.txt:1-28
 related:
 - yt-management-goal-management
 - concept-目标-北极星型vs探索型

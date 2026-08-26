@@ -21,8 +21,8 @@ source_context:
   - 一堂「关键假设·业务公式」实操篇与参数探索篇课程案例：老带新裂变产品「我请客」的推荐率从 3%→5%→15%→40% 的攻坚全过程，后半段（15%→40%）是业务公式三层展开+假设池驱动的系统化工程
   - yitang
 source_refs:
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L318-L568
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2444-L2512
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-实操篇-口述.txt:318-568
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:2444-2512
 - 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712002650_vlm.md
 discoverable_by:
   - 一堂我请客推荐率攻坚：三层公式展开把 15% 干到 40%，

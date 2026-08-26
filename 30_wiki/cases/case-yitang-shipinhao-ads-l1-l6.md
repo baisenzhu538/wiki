@@ -18,8 +18,8 @@ aliases:
   - 好友率
   - 脚本寿命
 source_refs:
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L3194-L3356
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L1626-L1630
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt:3194-3356
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt:1626-1630
 - 00_inbox/Handle the business/Business formula/_vlm_output/案例1_vlm.md
 - 00_inbox/Handle the business/Business formula/案例1.png
 discoverable_by:

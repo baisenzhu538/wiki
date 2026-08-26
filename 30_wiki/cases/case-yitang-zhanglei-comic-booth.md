@@ -23,11 +23,11 @@ aliases:
   - 漫展展位
   - 靠一张业务公式+摄像头复盘把展位做到200平米盈利
 source_refs:
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L1090-L1116
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L1138-L1156
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L1158-L1176
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L1190-L1254
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L1270-L1324
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-进阶篇-口述.txt:1090-1116
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-进阶篇-口述.txt:1138-1156
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-进阶篇-口述.txt:1158-1176
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-进阶篇-口述.txt:1190-1254
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-进阶篇-口述.txt:1270-1324
 - 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712001710_vlm.md
 confidence: 0.85
 trust_level: medium

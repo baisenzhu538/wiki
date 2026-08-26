@@ -25,21 +25,21 @@ source_context:
   - 一堂「转化率黑客」课程案例，学而思乐外教线下招商/引流课成交链路
   - yitang
 source_refs:
-- 00_inbox/Handle the business/conversion rate/_vlm_output/晓莉案例/晓莉-转化率黑客-案例-图-01_vlm.md
+- 10_raw/sources/handle-the-business/conversion rate/_vlm_output/晓莉案例/晓莉-转化率黑客-案例-图-01_vlm.md
   L7-L21
-- 00_inbox/Handle the business/conversion rate/_vlm_output/晓莉案例/晓莉-转化率黑客-选对人-图-01_vlm.md
+- 10_raw/sources/handle-the-business/conversion rate/_vlm_output/晓莉案例/晓莉-转化率黑客-选对人-图-01_vlm.md
   L15-L39
-- 00_inbox/Handle the business/conversion rate/_vlm_output/晓莉案例/晓莉-转化率黑客-敲开门-图-01_vlm.md
+- 10_raw/sources/handle-the-business/conversion rate/_vlm_output/晓莉案例/晓莉-转化率黑客-敲开门-图-01_vlm.md
   L15-L22
-- 00_inbox/Handle the business/conversion rate/_vlm_output/晓莉案例/晓莉-转化率黑客-触点拆解表-图-01_vlm.md
+- 10_raw/sources/handle-the-business/conversion rate/_vlm_output/晓莉案例/晓莉-转化率黑客-触点拆解表-图-01_vlm.md
   L13-L18
-- 00_inbox/Handle the business/conversion rate/_vlm_output/晓莉案例/晓莉-转化率黑客-现场触点拆解-01_vlm.md
+- 10_raw/sources/handle-the-business/conversion rate/_vlm_output/晓莉案例/晓莉-转化率黑客-现场触点拆解-01_vlm.md
   L13-L20
-- 00_inbox/Handle the business/conversion rate/_vlm_output/晓莉案例/晓莉-转化率黑客-阻力消除法-图-01_vlm.md
+- 10_raw/sources/handle-the-business/conversion rate/_vlm_output/晓莉案例/晓莉-转化率黑客-阻力消除法-图-01_vlm.md
   L13-L20
-- 00_inbox/Handle the business/conversion rate/_vlm_output/晓莉案例/晓莉-转化率黑客-成交触点-01_vlm.md
+- 10_raw/sources/handle-the-business/conversion rate/_vlm_output/晓莉案例/晓莉-转化率黑客-成交触点-01_vlm.md
   L12-L20
-- 00_inbox/Handle the business/conversion rate/_vlm_output/晓莉案例/晓莉-转化率黑客-FAB基础价值-图-01_vlm.md
+- 10_raw/sources/handle-the-business/conversion rate/_vlm_output/晓莉案例/晓莉-转化率黑客-FAB基础价值-图-01_vlm.md
   L7-L11
 discoverable_by:
   - 晓莉用四阶段触点链+5000元意向金把学而思线下引流课从筛选

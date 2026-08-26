@@ -21,12 +21,12 @@ source_context:
   - 一堂「关键假设·业务公式」系列课进阶篇核心案例（复盘营五年四阶段全案）+ 参数探索篇参数演化复盘；附批注截图与假设实验结果表
   - yitang
 source_refs:
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L314-L404
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L414-L530
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L542-L612
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L618-L764
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L768-L1074
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L432-L632
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-进阶篇-口述.txt:314-404
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-进阶篇-口述.txt:414-530
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-进阶篇-口述.txt:542-612
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-进阶篇-口述.txt:618-764
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-进阶篇-口述.txt:768-1074
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:432-632
 - 00_inbox/Handle the business/Business formula/_vlm_output/批注 2026-07-12 001416_vlm.md
 - 00_inbox/Handle the business/Business formula/_vlm_output/批注 2026-07-12 001533_vlm.md
 - 00_inbox/Handle the business/Business formula/_vlm_output/批注 2026-07-12 001550_vlm.md

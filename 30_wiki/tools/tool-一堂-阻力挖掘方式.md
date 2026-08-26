@@ -20,7 +20,7 @@ aliases:
 source_context:
   - yitang
 source_refs:
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-阻力篇-口述.txt L712-L800
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力阻力触点-阻力篇-口述.txt:712-800
 discoverable_by:
   - 一堂阻力挖掘方式：把阻力当关键假设来定位
   - 一堂阻力挖掘方式

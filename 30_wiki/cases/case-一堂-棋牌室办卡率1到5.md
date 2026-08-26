@@ -28,8 +28,8 @@ source_context:
   - 一堂线下课“棋牌室新客办卡”触点优化真实案例
   - yitang
 source_refs:
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L462-L486
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L4012-L4080
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt:462-486
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt:4012-4080
 discoverable_by:
   - 棋牌室新客办卡率从1%到5%：主路径加触点+提升密度+直接号
   - 棋牌室新客办卡率从1%到5%

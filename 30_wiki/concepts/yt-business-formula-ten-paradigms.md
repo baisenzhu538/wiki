@@ -20,21 +20,21 @@ aliases:
 source_context:
   - yitang
 source_refs:
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L2208-L2950
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L320-L568
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L1476-L1488
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L2592-L2746
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L2960-L2964
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L1090-L1328
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L2304-L2338
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1314-L1370
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L844-L1018
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L2868-L2874
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L654-L764
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2106-L2176
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2848-L2952
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2982-L3034
-- 00_inbox/Handle the business/Business formula/_vlm_output/业务公式十大经典范式_vlm.md
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-实操篇-口述.txt:2208-2950
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-实操篇-口述.txt:320-568
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-实操篇-口述.txt:1476-1488
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-实操篇-口述.txt:2592-2746
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-实操篇-口述.txt:2960-2964
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-进阶篇-口述.txt:1090-1328
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-进阶篇-口述.txt:2304-2338
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-管理篇-口述.txt:1314-1370
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt:844-1018
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt:2868-2874
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:654-764
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:2106-2176
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:2848-2952
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:2982-3034
+- 10_raw/sources/handle-the-business/Business formula/_vlm_output/业务公式十大经典范式_vlm.md
   - src_unknown
   - src_unknown
 discoverable_by:

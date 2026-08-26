@@ -30,7 +30,7 @@ aliases:
   - 类与动态切换
 source_refs:
 - 00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-笔记.txt §3.2
-- 00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-口述.txt L254-L300
+- 10_raw/sources/handle-the-business/Target goal/目标管理-底层逻辑与实践-周子敬-口述.txt:254-300
 related:
 - concept-一堂-三类目标策略
 - dk-目标管理四大病

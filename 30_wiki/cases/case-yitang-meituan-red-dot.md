@@ -22,7 +22,7 @@ source_context:
   - 一堂业务公式进阶篇（2026-07-12），讲师亲历最小项目最大杠杆案例：在投资人APP上加「待查看项目数量」小红点
   - yitang
 source_refs:
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L2306-L2338
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-进阶篇-口述.txt:2306-2338
 discoverable_by:
   - 美团意向优选小红点：一个触点假设把APP活跃度提升30%-4
   - 美团意向优选小红点

@@ -25,14 +25,14 @@ source_refs:
 - 00_inbox/Handle the business/Business formula/_vlm_output/业务公式-落地策略集_vlm.md
 - 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712005240_vlm.md
 - 00_inbox/Handle the business/Business formula/_vlm_output/以业务公式为中心的统一管理_vlm.md
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L659-L766
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1017-L1300
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1459-L1636
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1638-L1916
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1919-L2458
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L2459-L2730
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L2734-L3076
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L3081-L3227
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-管理篇-口述.txt:659-766
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-管理篇-口述.txt:1017-1300
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-管理篇-口述.txt:1459-1636
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-管理篇-口述.txt:1638-1916
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-管理篇-口述.txt:1919-2458
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-管理篇-口述.txt:2459-2730
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-管理篇-口述.txt:2734-3076
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-管理篇-口述.txt:3081-3227
 related:
 - '[[framework-一堂-业务公式拆解-总纲]]'
 - '[[yt-business-formula-abc-model]]'

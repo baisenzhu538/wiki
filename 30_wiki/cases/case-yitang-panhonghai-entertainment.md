@@ -18,13 +18,13 @@ aliases:
   - 潘鸿海娱乐店：涨价拆成三个子假设小范围测，GMV+1520%，半年业绩+50%
   - 潘鸿海（一堂学员，线下娱乐综合店增长负责人）
 source_refs:
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1380-L1394
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1396-L1404
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1410-L1428
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1430-L1440
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1442-L1448
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1450-L1452
-- 00_inbox/Handle the business/Business formula/_vlm_output/王语嫣_五篇逐字稿精读索引.md L43-L43
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-管理篇-口述.txt:1380-1394
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-管理篇-口述.txt:1396-1404
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-管理篇-口述.txt:1410-1428
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-管理篇-口述.txt:1430-1440
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-管理篇-口述.txt:1442-1448
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-管理篇-口述.txt:1450-1452
+- 10_raw/sources/handle-the-business/Business formula/_vlm_output/王语嫣_五篇逐字稿精读索引.md:43-43
 discoverable_by:
   - 潘鸿海娱乐店：涨价拆成三个子假设小范围测，GMV +15-2
   - 潘鸿海娱乐店

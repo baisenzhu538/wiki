@@ -20,7 +20,7 @@ aliases:
 source_context:
   - yitang
 source_refs:
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L3234-L3384
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt:3234-3384
 discoverable_by:
   - 一堂经典故事线框架库：N个为什么/清单体/时间线/BP模板/
   - 一堂经典故事线框架库

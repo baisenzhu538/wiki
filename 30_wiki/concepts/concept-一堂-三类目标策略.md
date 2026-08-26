@@ -27,9 +27,9 @@ source_context:
   - 一堂业务公式课程（孔阳），管理篇「假设池·目标三策略」+ 实操篇「A 阶段·三种目标策略」口述逐字稿，落地策略集原图辅证
   - yitang
 source_refs:
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L294-L298
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1538-L1566
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L1700-L1756
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-管理篇-口述.txt:294-298
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-管理篇-口述.txt:1538-1566
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-实操篇-口述.txt:1700-1756
 - 00_inbox/Handle the business/Business formula/_vlm_output/业务公式-落地策略集_vlm.md
 discoverable_by:
   - 三类目标策略：必胜型严管、挑战型激驱、探索型留白

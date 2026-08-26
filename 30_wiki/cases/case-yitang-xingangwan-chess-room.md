@@ -18,13 +18,13 @@ aliases:
   - 西安全国第一
   - 鑫港湾自助棋牌室
 source_refs:
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L654-L718
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L720-L760
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L762-L790
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L792-L860
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L862-L876
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L878-L886
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L888-L902
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:654-718
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:720-760
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:762-790
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:792-860
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:862-876
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:878-886
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:888-902
 discoverable_by:
   - 鑫港湾自助棋牌室
 quality_labels:

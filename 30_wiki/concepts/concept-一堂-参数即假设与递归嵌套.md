@@ -27,9 +27,9 @@ source_context:
   - 一堂业务公式课程（孔阳），参数探索篇「两个底层逻辑」（公式递归嵌套 + 每个参数都是假设）+ 复盘营参数演化案例
   - yitang
 source_refs:
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1012-L1058
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L592-L630
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L704-L718
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:1012-1058
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:592-630
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:704-718
 discoverable_by:
   - 参数即假设与递归嵌套
   - 公式里每个参数都是一条假设，参数是下一级的目标

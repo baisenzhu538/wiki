@@ -20,7 +20,7 @@ aliases:
 source_context:
   - yitang
 source_refs:
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L2422-L2730
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt:2422-2730
 discoverable_by:
   - 一堂讲香双策略：具体化+抽象化与波峰波谷的张力表达
   - 一堂讲香双策略

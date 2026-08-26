@@ -21,8 +21,8 @@ source_context:
   - yitang
 source_refs:
 - 00_inbox/Handle the business/Business formula/_vlm_output/业务公式-落地策略集_vlm.md
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L2374-L2460
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L2536-L2552
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-管理篇-口述.txt:2374-2460
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-管理篇-口述.txt:2536-2552
 related:
 - '[[yt-business-formula-hypothesis-management-playbook]]'
 - '[[framework-一堂-业务公式拆解-总纲]]'

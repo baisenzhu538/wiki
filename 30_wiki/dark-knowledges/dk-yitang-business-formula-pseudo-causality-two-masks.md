@@ -24,7 +24,7 @@ source_refs:
 - 10_raw/sources/case-study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md:2442-2448
 - 10_raw/sources/case-study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md:1467-1503
 - 10_raw/sources/case-study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md:1615-1629
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L2326-L2380
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt:2326-2380
 discoverable_by:
   - 伪因果的两个伪装
   - 自我选择偏差与中间变量，都穿正相关+符合常识的外衣

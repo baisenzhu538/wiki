@@ -23,7 +23,7 @@ aliases:
   - 管理工具
 source_refs:
 - 00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-笔记.txt §4.1
-- 00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-口述.txt L646-L656
+- 10_raw/sources/handle-the-business/Target goal/目标管理-底层逻辑与实践-周子敬-口述.txt:646-656
 related:
 - framework-目标三层拆解
 - yt-tool-okr-cycle

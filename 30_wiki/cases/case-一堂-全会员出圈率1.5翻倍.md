@@ -28,8 +28,8 @@ source_context:
   - 一堂年度大课“全会员出圈”活动转化优化案例
   - yitang
 source_refs:
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L424-L458
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L3988-L4010
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt:424-458
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt:3988-4010
 discoverable_by:
   - 全会员出圈率从1.5%翻一倍：承诺一致+降低阻力+奖项素材+
   - 全会员出圈率从1.5%翻一倍

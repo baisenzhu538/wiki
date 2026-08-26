@@ -21,7 +21,7 @@ aliases:
 source_context:
   - yitang
 source_refs:
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L668-L788
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt:668-788
 discoverable_by:
   - 一堂心理激励优先机制：先名/权/情，后利
   - 一堂心理激励优先机制

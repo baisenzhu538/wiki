@@ -27,9 +27,9 @@ source_context:
   - 一堂业务公式课程（孔阳），进阶篇收尾「三句话」+管理篇收尾升华+参数探索篇收尾「最远的路」三段同源论述；原图 003303/003311/003318
   - yitang
 source_refs:
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L3490-L3578
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L3206-L3212
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L3482-L3500
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-进阶篇-口述.txt:3490-3578
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-管理篇-口述.txt:3206-3212
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:3482-3500
 - 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712003303_vlm.md
 - 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712003311_vlm.md
 - 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712003318_vlm.md

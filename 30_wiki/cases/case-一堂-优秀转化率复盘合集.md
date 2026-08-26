@@ -28,17 +28,17 @@ source_context:
   - 一堂《优秀转化率复盘合集》PDF 24 页，VLM 已跑完全部页面，但正文大量空白，仅邹韵涛案例完整、沈伟杰案例部分背景可见
   - yitang
 source_refs:
-- 00_inbox/Handle the business/conversion rate/_vlm_native_text/优秀转化率复盘合集/p001.txt
+- 10_raw/sources/handle-the-business/conversion rate/_vlm_native_text/优秀转化率复盘合集/p001.txt
   L1-L23
-- 00_inbox/Handle the business/conversion rate/_vlm_native_text/优秀转化率复盘合集/p002.txt
+- 10_raw/sources/handle-the-business/conversion rate/_vlm_native_text/优秀转化率复盘合集/p002.txt
   L1-L22
-- 00_inbox/Handle the business/conversion rate/_vlm_native_text/优秀转化率复盘合集/p003.txt
+- 10_raw/sources/handle-the-business/conversion rate/_vlm_native_text/优秀转化率复盘合集/p003.txt
   L1-L26
-- 00_inbox/Handle the business/conversion rate/_vlm_native_text/优秀转化率复盘合集/p004.txt
+- 10_raw/sources/handle-the-business/conversion rate/_vlm_native_text/优秀转化率复盘合集/p004.txt
   L1-L16
-- 00_inbox/Handle the business/conversion rate/_vlm_native_text/优秀转化率复盘合集/p005.txt
+- 10_raw/sources/handle-the-business/conversion rate/_vlm_native_text/优秀转化率复盘合集/p005.txt
   L1-L8
-- 00_inbox/Handle the business/conversion rate/_vlm_native_text/优秀转化率复盘合集/p006.txt
+- 10_raw/sources/handle-the-business/conversion rate/_vlm_native_text/优秀转化率复盘合集/p006.txt
   L1-L44
 discoverable_by:
   - 一堂优秀转化率复盘合集索引：8 位学员案例的内容可用性边界

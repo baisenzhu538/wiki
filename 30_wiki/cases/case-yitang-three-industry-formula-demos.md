@@ -22,8 +22,8 @@ source_context:
 source_refs:
 - 00_inbox/Handle the business/Business formula/批注 2026-07-12 001958.png
 - 00_inbox/Handle the business/Business formula/_vlm_output/批注 2026-07-12 001958_vlm.md
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L2062-L2110
-- 00_inbox/Handle the business/Business formula/_vlm_output/整合笔记_业务公式完整版.md L206-L217
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-进阶篇-口述.txt:2062-2110
+- 10_raw/sources/handle-the-business/Business formula/_vlm_output/整合笔记_业务公式完整版.md:206-217
 discoverable_by:
   - 三行业公式拆解示范
   - 民营眼科医院、篮球培训、ToB

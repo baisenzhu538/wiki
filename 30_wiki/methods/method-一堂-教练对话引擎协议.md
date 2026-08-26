@@ -16,7 +16,7 @@ source_context:
 source_refs:
 - C:/Users/Administrator/Desktop/YAI/关键决策agent-我现在面临重大的人生方向选择的 (1).md
 - C:/Users/Administrator/Desktop/YAI/analysis_architecture.md
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-阻力篇-口述.txt
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力阻力触点-阻力篇-口述.txt
 - 10_raw/sources/src_20260609_818119f0-ocr-一堂-tcpr模型-皇冠模型.md
 - 70_product/tasks/task-177-coach-dialogue-engine-protocol.md
 related:

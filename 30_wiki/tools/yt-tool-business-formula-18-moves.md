@@ -22,20 +22,20 @@ source_context:
   - yitang
 source_refs:
 - 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712001759_vlm.md
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L1668-L1748
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L1750-L2114
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L2172-L2288
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L2288-L2528
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L2528-L2656
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L2658-L2740
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L2806-L2922
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L2926-L3024
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L3048-L3148
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L3150-L3192
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L3202-L3264
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L3266-L3292
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L3294-L3386
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L2756-L2902
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-进阶篇-口述.txt:1668-1748
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-进阶篇-口述.txt:1750-2114
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-进阶篇-口述.txt:2172-2288
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-进阶篇-口述.txt:2288-2528
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-进阶篇-口述.txt:2528-2656
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-进阶篇-口述.txt:2658-2740
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-进阶篇-口述.txt:2806-2922
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-进阶篇-口述.txt:2926-3024
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-进阶篇-口述.txt:3048-3148
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-进阶篇-口述.txt:3150-3192
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-进阶篇-口述.txt:3202-3264
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-进阶篇-口述.txt:3266-3292
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-进阶篇-口述.txt:3294-3386
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-管理篇-口述.txt:2756-2902
 discoverable_by:
   - 降龙十八掌：假设驱动业务增长的 18 招全清单五环节 3/4
   - 降龙十八掌

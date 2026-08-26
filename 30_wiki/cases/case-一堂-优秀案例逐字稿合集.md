@@ -25,9 +25,9 @@ source_context:
   - 收录 Truman 常用经典故事线框架笔记与转化率域 PDF 案例合集的逐字稿/校验结论，作为动力提升/阻力分析/触点案例的原文索引
   - yitang
 source_refs:
-- 00_inbox/Handle the business/conversion rate/Truman常用经典故事线框架笔记_逐字稿.md L1-L92
-- 00_inbox/Handle the business/conversion rate/_vlm_output/质检报告_PDF案例合集校验.md L1-L58
-- 00_inbox/Handle the business/conversion rate/_vlm_output/PDF校验_修正清单.md L1-L58
+- 10_raw/sources/handle-the-business/conversion rate/Truman常用经典故事线框架笔记_逐字稿.md:1-92
+- 10_raw/sources/handle-the-business/conversion rate/_vlm_output/质检报告_PDF案例合集校验.md:1-58
+- 10_raw/sources/handle-the-business/conversion rate/_vlm_output/PDF校验_修正清单.md:1-58
 discoverable_by:
   - 一堂转化率黑客优秀案例逐字稿合集索引Truman 故事线 +
   - 一堂转化率黑客优秀案例逐字稿合集索引Truman

@@ -27,7 +27,7 @@ aliases:
   - 管控vs协同：目标执行的二元选择框架
 source_refs:
 - 00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-笔记.txt §5.1
-- 00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-口述.txt L802-L928
+- 10_raw/sources/handle-the-business/Target goal/目标管理-底层逻辑与实践-周子敬-口述.txt:802-928
 related:
 - framework-目标三层拆解
 - concept-目标-北极星型vs探索型

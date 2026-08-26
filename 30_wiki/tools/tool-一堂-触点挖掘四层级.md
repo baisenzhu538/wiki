@@ -20,7 +20,7 @@ aliases:
 source_context:
   - yitang
 source_refs:
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L512-L774
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt:512-774
 - 00_inbox/Handle the business/conversion rate/_vlm_output/images/触点挖掘冰山图_vlm.md
 discoverable_by:
   - 一堂触点挖掘四层级：从狭义销售点到创新接触机会的冰山洞察力

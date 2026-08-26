@@ -28,7 +28,7 @@ source_context:
   - 一堂《优秀触点案例合集》逐字稿，收录三位学员真实业务的触点优化案例
   - yitang
 source_refs:
-- 00_inbox/Handle the business/conversion rate/优秀触点案例合集_逐字稿.md L17-L122
+- 10_raw/sources/handle-the-business/conversion rate/优秀触点案例合集_逐字稿.md:17-122
 discoverable_by:
   - 优秀触点案例合集：射箭办卡率、黄金推荐率、烘焙触点分析三案例
   - 优秀触点案例合集

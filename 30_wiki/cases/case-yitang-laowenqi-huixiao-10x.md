@@ -18,12 +18,12 @@ aliases:
   - 劳文启（口述逐字稿 ASR 作"老文企"，按任务单勘误）
   - 单场10万干到近百万
 source_refs:
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L782-L816
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L820-L870
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L872-L916
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L918-L986
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L988-L1016
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L1024-L1034
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-实操篇-口述.txt:782-816
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-实操篇-口述.txt:820-870
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-实操篇-口述.txt:872-916
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-实操篇-口述.txt:918-986
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-实操篇-口述.txt:988-1016
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-实操篇-口述.txt:1024-1034
 - 00_inbox/Handle the business/Business formula/_vlm_output/批注 2026-07-12 002716_vlm.md
 - 00_inbox/Handle the business/Business formula/_vlm_output/批注 2026-07-12 002734_vlm.md
 discoverable_by:

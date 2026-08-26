@@ -24,7 +24,7 @@ aliases:
   - 项目层→业务层→组织层
 source_refs:
 - 00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-笔记.txt §4
-- 00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-口述.txt L460-L750
+- 10_raw/sources/handle-the-business/Target goal/目标管理-底层逻辑与实践-周子敬-口述.txt:460-750
 related:
 - framework-yitang-project-breakdown
 - concept-目标-北极星型vs探索型

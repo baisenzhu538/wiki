@@ -23,12 +23,12 @@ aliases:
 source_context:
   - yitang
 source_refs:
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L900-L966
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L1036-L1070
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L1134-L1146
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L2958-L2970
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L3024-L3146
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1838-L1898
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt:900-966
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt:1036-1070
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-实操篇-口述.txt:1134-1146
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-实操篇-口述.txt:2958-2970
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-实操篇-口述.txt:3024-3146
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-管理篇-口述.txt:1838-1898
 discoverable_by:
   - 关键路径与乘法杠杆：乘法必经优先，定量后分支可反超
   - 关键路径与乘法杠杆

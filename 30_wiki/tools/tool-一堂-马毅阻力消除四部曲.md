@@ -21,7 +21,7 @@ aliases:
 source_context:
   - yitang
 source_refs:
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-阻力篇-口述.txt L2974-L3016
+- 10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力阻力触点-阻力篇-口述.txt:2974-3016
 discoverable_by:
 - 一堂马毅阻力消除四部曲：赞 / 肯定 / 换角度 / 上价值
 - 一堂马毅阻力消除四部曲

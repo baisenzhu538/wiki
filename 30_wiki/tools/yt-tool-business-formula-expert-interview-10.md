@@ -24,9 +24,9 @@ source_context:
   - yitang
 source_refs:
 - 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712002213_vlm.md
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L3028-L3068
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L3120-L3152
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L3154-L3188
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-进阶篇-口述.txt:3028-3068
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-进阶篇-口述.txt:3120-3152
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-进阶篇-口述.txt:3154-3188
 discoverable_by:
   - 专家访谈黄金 10 步法：分析 3 + 准备 3 + 执行
   - 专家访谈黄金

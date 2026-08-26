@@ -22,10 +22,10 @@ aliases:
 source_context:
   - yitang
 source_refs:
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L776-L880
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1490-L1518
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1570-L1636
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L3202-L3264
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-管理篇-口述.txt:776-880
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-管理篇-口述.txt:1490-1518
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-管理篇-口述.txt:1570-1636
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-进阶篇-口述.txt:3202-3264
 - 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712002232_vlm.md
 - 00_inbox/Handle the business/Business formula/_vlm_output/以业务公式为中心的统一管理_vlm.md
 discoverable_by:

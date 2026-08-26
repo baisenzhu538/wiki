@@ -23,7 +23,7 @@ aliases:
   - 点位扭蛋机
   - 课程为方便学习对业务做了改造
 source_refs:
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L3358-L3416
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt:3358-3416
 - 00_inbox/Handle the business/Business formula/案例2.png
 - 00_inbox/Handle the business/Business formula/_vlm_output/案例2_vlm.md
 confidence: 0.85

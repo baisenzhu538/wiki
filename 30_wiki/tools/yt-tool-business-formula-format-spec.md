@@ -22,8 +22,8 @@ aliases:
 source_context:
   - yitang
 source_refs:
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L1762-L2206
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L2580-L2614
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-实操篇-口述.txt:1762-2206
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-实操篇-口述.txt:2580-2614
 - 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712002832_vlm.md
 - 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712002843_vlm.md
 discoverable_by:

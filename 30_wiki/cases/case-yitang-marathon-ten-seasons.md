@@ -18,16 +18,16 @@ aliases:
   - 用假设驱动把年度续费大课做成一条稳定向上的曲线
   - 维切片
 source_refs:
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1918-L2038
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L2060-L2148
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L2154-L2204
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L2208-L2314
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L2340-L2462
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L2474-L2564
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L2576-L2710
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1696-L1790
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1812-L1906
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1916-L1942
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-管理篇-口述.txt:1918-2038
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-管理篇-口述.txt:2060-2148
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-管理篇-口述.txt:2154-2204
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-管理篇-口述.txt:2208-2314
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-管理篇-口述.txt:2340-2462
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-管理篇-口述.txt:2474-2564
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-管理篇-口述.txt:2576-2710
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:1696-1790
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:1812-1906
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:1916-1942
 discoverable_by:
   - 一堂马拉松十期
 quality_labels:

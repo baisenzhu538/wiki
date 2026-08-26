@@ -28,7 +28,7 @@ source_context:
   - 口述
   - yitang
 source_refs:
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L1833-L1892
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt:1833-1892
 discoverable_by:
   - 业务公式分型递归：每一层都是独立公式，只看一层
   - 业务公式分型递归

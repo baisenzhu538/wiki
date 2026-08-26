@@ -28,7 +28,7 @@ aliases:
   - 管理的两条铁律
 source_refs:
 - 00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-笔记.txt §7.2
-- 00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-口述.txt L1448-L1510
+- 10_raw/sources/handle-the-business/Target goal/目标管理-底层逻辑与实践-周子敬-口述.txt:1448-1510
 related:
 - concept-目标-北极星型vs探索型
 - dk-目标管理四大病
