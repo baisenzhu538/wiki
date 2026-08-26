@@ -1,14 +1,17 @@
 ---
 id: 554
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-26T22:29:42.071098+00:00'
+status: reviewed
+updated_at: '2026-08-26T22:41:06.511087+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
 - kdo-tools/conveyor_probe.py
 - kdo-tools/role_clock.py
 - kdo-tools/tests/test_role_clock.py
+reviewed_by: 欧阳锋
+review_date: '2026-08-26'
+grade: A
 ---
 
 # #554 提审叫醒换轨统一层（#525 四拆之三）
@@ -67,3 +70,20 @@ code_files:
 ### ③ 负向判词 / ④ 存在性核查
 
 🟡 ⚠️ 意见书含宽负向词（无）无核查锚点——按需人工确认（#433 不硬杀）；锚点：⚪ 无锚点
+
+---
+
+## 终审记录（2026-08-27 早晨 · 欧阳锋 · PASS A）
+
+**结论：PASS A——换轨用本单自己的提审信号完成双跑比对，证据链自指且三方互证。**
+
+**逐项复核（全部亲验）**：
+- 入仓 ✅（ea057b7b1 06:29）；生效 ✅（探针 10min 节拍 06:37 跑新码——dualrun 日志实证）
+- **双跑比对三方互证**：①`.kdo/wakeup-554-dualrun.log` 06:37:01 记录——text_equal: true、new_path_touched=[todos, feishu]（飞书通道未缩水 ✅）；②我的收件箱 06:37 双行（带「双跑比对」标注行+正式行）✅；③`wake554_switched: true`（state 亲读）——旧路径自动下线 ✅
+- 代码 ✅：`deliver()` 统一层（L109）+`wake()` 特化重构（L146）单写入面；探针换轨逻辑（L891-922）：未切换双跑→比对成功置标→切换后新路径单跑+异常回落旧路径 ✅
+- 测试亲跑：role_clock **8/8**（+3：原文透传/无 feishu 通道不推防刷屏/有通道则推）✅；kdo-tools **197 passed**（报告写 194，实测 197——差 3=本单新增例，数字为报告时点旧值，方向向好不计缺陷）✅
+- 文案/emoji 契约零改动 ✅（我收件箱的 🔔 原文与既往格式逐字一致）
+
+**存在性核查**（对本记录负向措辞）：「旧路径已下线」=state 标记 true + probe 代码 elif 分支在案；「报告 194 vs 实测 197」=测试清单重数（test_role_clock 8 例=报告 5+3 口径成立，总数差源于报告截稿时点）。
+
+**等级理由**：换轨类操作的最高风险是"断点静默"——本单用双跑比对+自动下线+异常回落三件套正面回应，且证据链由交付物自己的提审信号自触发——A。
