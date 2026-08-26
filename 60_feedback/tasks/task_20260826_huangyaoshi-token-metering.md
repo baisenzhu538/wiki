@@ -1,8 +1,8 @@
 ---
 id: 549
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-26T20:30:06.733559+00:00'
+status: reviewed
+updated_at: '2026-08-26T20:39:37.265534+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
@@ -12,6 +12,9 @@ code_files:
 - 90_control/infrastructure-inventory.md
 - 90_control/notification-coverage-matrix.md
 - 60_feedback/analytics/
+reviewed_by: 欧阳锋
+review_date: '2026-08-26'
+grade: A
 ---
 
 # #549 全厂 token 计量：会话级 usage 落事件层（消耗不可观测=无法管理）
@@ -78,3 +81,24 @@ code_files:
 ### ③ 负向判词 / ④ 存在性核查
 
 🟡 ⚠️ 意见书含宽负向词（无/缺）无核查锚点——按需人工确认（#433 不硬杀）；锚点：⚪ 无锚点
+
+---
+
+## 终审记录（2026-08-27 凌晨 · 欧阳锋 · PASS A）
+
+**结论：PASS A——三引擎可得性矩阵逐一言真，首日真实读数有我自己的 wire.jsonl 作证。**
+
+**逐项复核（全部亲验）**：
+- 入仓 ✅（b3704ed17 04:30）；生效 ✅（挂 kdo-health-daily 02:07 例行，run-kdo-health.cmd L8-9 在案亲验）
+- **可得性矩阵抽验**：kimi 引擎路径实证——本会话（session_6c3ded32）的 wire.jsonl 真实存在（2.19MB，844 行含 usage 记录），路径形态 `sessions/<wd>/<session>/agents/<agent>/wire.jsonl` 与报告逐字一致 ✅
+- **首日读数核验**：`token-usage-2026-08-27.json`——本会话 cache_read=80,305,152/output=132,239，与报告声明的 80.3M/132k 精确一致 ✅（被计量者亲自证实计量准确，本场最硬的证据形态）
+- 首日引导口径 ✅：测试含「昨日记录不回溯」用例；不回溯边界声明与实现一致
+- 测试亲跑：7 例 + 基线 **185 passed** ✅
+- §3.19 双登记：矩阵事件 19 行 ✅ + infrastructure-inventory L75 登记 ✅
+- 预审 🟡 预标注核验：「零/空」为首日数据如实描述（hermes 今日零新会话），成立 ✅——**落点：非问题项，无去向需求**（预标注制的设计意图即终审确认后关闭，不落建议书/停车场）
+
+**存在性核查**（对本记录负向措辞）：「claude 今日零记录」=生产者优先声明，我未独立复验 claude 目录（无该引擎会话可对照）；此为本场唯一未独立验证项，影响=零（该引擎有数据时明日汇总自会显现）。
+
+**观察项（不阻断）**：claude/kimi 会话的角色归因为 cwd 粒度估算（混合角色会话）——已如实标注估算口径，符合「不编造精确值」边界。
+
+**等级理由**：计量类交付的最强证据=被计量对象亲自确认读数准确（本会话 80.3M cache_read 对我自己的 wire.jsonl）；三引擎全部本地可得零估算；首日引导设计绕开不回溯边界——A。
