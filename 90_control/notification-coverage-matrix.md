@@ -30,6 +30,7 @@
 | 17 | 终审权校验拒止（未登记实例 review） | queue_transition `_check_review_authority`（#546：cwd 无 ouyangfeng 登记 → 拒止；force 逃生落 force 台账） | 终端拒止提示 + gate-blocked 台账（第五探针可见） | 欧阳锋（登记一次即可） | — | #546（一具两职事件根治轻量版；登记表 .kdo/active-instances.json 供探针活性展示） |
 | 18 | 基建停拍报警（l1-capture/conveyor/inbox-watch 停拍>2×周期） | conveyor_probe 第九信号 `_scan_infra_liveness`（10 分钟级，跨越沿幂等） | 推王语嫣 + gate-blocked.log 台账 | 王语嫣 | defer（夜间静默口径不动，台账恒写） | #547（console-killer 事件防复发；17h 延迟教训：health-check 日级太慢） |
 | 19 | token 日计量汇总 | token_meter.py（挂 kdo-health-daily 02:07；三引擎增量游标，不回溯历史） | 日汇总落 60_feedback/analytics/token-usage-*.md/json + 事件层 token_usage | 黄药师/风清扬（#514 基线接口） | — | #549（只计量不限制；配额熔断属 F-055 阶段 2/3） |
+| 20 | 角色时钟唤醒（【叫醒】） | role_clock.py（schtasks kdo-role-clock 5min；pace 到点/欧阳锋事件驱动） | todos/<role>.md 恒落 + active 实例 feishu 适配；唤醒日志 .kdo/role-clock.log（不进胶囊——防 on_duty 自欺） | 全角色 | 不适用（唤醒本身就是在岗激活器） | #553（#525 四拆之二；误发>漏发，降级不切执行权） |
 
 ## 缺口台账
 

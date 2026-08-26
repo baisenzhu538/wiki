@@ -75,6 +75,7 @@ audience: 全体 agent
 | token_meter | kdo-tools/token_meter.py | 全厂 token 计量（#549：claude/kimi jsonl 偏移增量 + hermes state.db 会话差值 → 日汇总落 60_feedback/analytics/ + 事件层 token_usage；不回溯历史，首日引导只计当日） | 08-27 7 例 passed | 挂 kdo-health-daily（02:07）/60_feedback/analytics/token-usage-*.md |
 | on_duty | kdo-tools/on_duty.py | 在岗判定共享模块（#550：事件库近30min非机器事件 OR L1 当日新文件 → 在岗；双信号不可得默认激活；conveyor_probe/watch_inbox 同一判定源） | 08-27 6 例 passed | conveyor_probe/watch_inbox 通知静默判定 |
 | role_registry | 90_control/scripts/role_registry.py + 90_control/role-registry.json | 角色活性注册表+心跳写钩（#552，#525 四拆之一：heartbeat/status/check-liveness；myqueue 蹭拍写钩；全死→gate-blocked 自报） | 08-27 5 例 passed + 狗粮实跑 | queue_transition myqueue 钩/on_duty 心跳优先判定 |
+| role_clock | kdo-tools/role_clock.py + kdo-role-clock.cmd | 角色心跳调度器（#553，#525 四拆之二：pace 到点/欧阳锋事件驱动唤醒→todos 恒落+feishu 适配；唤醒日志 .kdo/role-clock.log 不进胶囊——防 on_duty 自欺） | 08-27 5 例 passed + 活体唤醒老顽童实测 | 计划任务 kdo-role-clock（5min）/90_control/todos/ |
 | build_seed / seed-check | kdo-tools/build_seed.py, kdo-tools/seed-check.py | kdo-seed 种子包构建+装机自检（#532：机制层搬迁，KDO_ROOT 参数化） | 08-26 5 例 passed | 90_control/kdo-seed/BOOTSTRAP.md |
 | tech_inventory | kdo-tools/tech_inventory.py | 技术域存量盘点三堆清单（#533：可审/返工/废弃，接管第一步） | 08-26 4 例 passed | 90_control/schemas/tech-domain-skeleton.md |
 | memory_capsule | kdo-tools/memory_capsule.py | 记忆胶囊（L1 主库/镜像/verify/事件写入+log_event_safe 四类事件统一入口 #511） | 08-25 6 例 passed | L1 库+D 盘镜像 |
