@@ -1,13 +1,13 @@
 ---
 id: 540
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-26T11:00:00+00:00'
+status: in_progress
+updated_at: '2026-08-26T12:52:17.071251+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
-  - 90_control/schemas/
-  - 90_control/scripts/
+- 90_control/schemas/
+- 90_control/scripts/
 ---
 
 # #540 VLM/OCR 卡两段式结构改造：原文与 AI 推断隔离（小昭事故根因 1）
