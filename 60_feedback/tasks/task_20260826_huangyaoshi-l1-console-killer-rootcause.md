@@ -6,7 +6,9 @@ updated_at: '2026-08-26T19:07:21.383679+00:00'
 version: v0.2
 instance: huangyaoshi
 code_files:
-- kdo-tools/l1_capture.py
+- kdo-tools/conveyor_probe.py
+- kdo-tools/tests/test_infra_liveness.py
+- 90_control/notification-coverage-matrix.md
 ---
 
 # #547 L1 采集 console-killer 根因排查 + 空转报警（破口已自闭合，防复发）
@@ -36,3 +38,24 @@ code_files:
 ## 验收
 
 - 事件日志排查结论落档（定位 or 一次性事件）；空转报警挂入 health-check 并有模拟触发用例；欧阳锋终审
+
+
+## 执行报告（F-034 五字段，complete 前必填）
+
+**完成内容**：①**根因排查（留档）**：08-25 09:00-10:00 窗口三路取证——Application 日志零相关事件；System 日志仅 2 条 DistributedCOM 10016 噪声（与 console kill 无因果）；Defender Operational 零事件；**Task Scheduler Operational 日志=禁用状态**（该窗口零记录的直接原因——取证链在此断裂）。结论：**一次性事件留档，杀手无法定位**（任务书允许口径）；**缓解已落地**：`wevtutil` 启用 Task Scheduler Operational 日志（下次复发有取证链）；②**基建运行态报警（第九信号，10 分钟级）**：conveyor_probe `_scan_infra_liveness`——三节拍文件（l1-size.log 末行时间戳口径 60min / conveyor_state.json mtime 20min / inbox_state.json mtime 20min）停拍 >2×周期 → gate-blocked.log 台账 + 推王语嫣；跨越沿幂等（持续停拍不重复报，恢复再停拍可重报）；读不出不误报（红线 4）；夜间静默 defer 口径不动（台账恒写）；③§3.19：矩阵事件 18 行。
+
+**交付物**：
+- `kdo-tools/conveyor_probe.py`（第九信号 + 接入主循环 + 台账写入）
+- `kdo-tools/tests/test_infra_liveness.py`（5 例回归）
+- `90_control/notification-coverage-matrix.md`（事件 18 行，§3.19）
+
+**验证**：
+- L1 单测 5 例全过：停拍触发/新鲜不报/幂等+恢复重报/末行时间戳口径/读不出不误报/文件不存在告警一次
+- 基线零退步：kdo-tools **175 passed**（170+5）；90_control 本单零改动（167 不涉）
+- L2 狗粮：probe `--dry-run --json` 实跑——summary 含 instances（2 实例：huangyaoshi+ouyangfeng，后者 03:07 已登记=#546 门禁生效实证）+ 三节拍新鲜零告警（l1-size 最近拍 03:07）
+- L3 待活体：下次停拍（或模拟）时第九信号实发；TaskScheduler 日志启用后复发可取证
+- **预审红项预标注**：本单预审若检「不/无/未」类词=排查结论与口径描述（如「无法定位」「不误报」），预标注在此；负向断言「Application/System/Defender 日志无相关事件」**存在性核查**=本单执行报告取证命令可复跑（Get-WinEvent 三日志+窗口过滤，输出已述）
+
+**边界**：只查 08-25 单窗口 ✅；l1_capture 本体未动（.cmd 包装不重造）✅；环境性/不可定位如实报+缓解（日志启用+报警），不硬修 ✅；探针自身死亡盲区如实声明（探针死了无法自报——由对方 probe/health-check 日级 check-conveyor-state 覆盖，系统级守护属 #525 族）。
+
+**需要谁动作**：欧阳锋终审本单（重点：「探针自身死亡盲区」边界是否接受，或要立系统级 watchdog 单）。

@@ -814,6 +814,53 @@ def _instance_activity() -> dict:
         return {"count": 0, "roles": [], "latest": ""}
 
 
+# #547 第九信号：基建运行态报警（10 分钟级，health-check 日级太慢——
+# console-killer 09:37 断拍等到次日 02:07=17h 延迟的教训）。
+# 关键节拍文件停拍 >2×周期 → 台账（gate-blocked 同族）+ 推王语嫣。
+INFRA_BEATS = [
+    ("l1-capture", ROOT / "90_control" / "l1-size.log", 60),   # 30min 周期×2
+    ("conveyor-probe", STATE_FILE, 20),                        # 10min 周期×2
+    ("inbox-watch", ROOT / ".kdo" / "inbox_state.json", 20),   # 10min 周期×2
+]
+
+
+def _beat_age_minutes(name: str, path: Path) -> float | None:
+    """节拍年龄（分钟）。l1-capture 用末行时间戳（比 mtime 准），其余用文件 mtime。
+    文件不存在 → inf；读不出 → None（不误报，红线 4）。"""
+    if not path.exists():
+        return float("inf")
+    try:
+        if name == "l1-capture":
+            lines = [l for l in path.read_text(encoding="utf-8", errors="ignore").splitlines() if l.strip()]
+            ts = datetime.strptime(lines[-1].split("|")[0].strip(), "%Y-%m-%d %H:%M:%S")
+            return (datetime.now() - ts).total_seconds() / 60
+        return (time.time() - path.stat().st_mtime) / 60
+    except Exception:
+        return None
+
+
+def _scan_infra_liveness(state: dict) -> list[str]:
+    """#547：基建停拍检测。幂等——同一文件持续停拍只报一次（阈值跨越沿触发，
+    恢复后再次停拍会重报）。"""
+    alerts = []
+    still_stale = []
+    flagged = set(state.get("infra_stale", []))
+    for name, path, max_age in INFRA_BEATS:
+        age = _beat_age_minutes(name, path)
+        if age is None:
+            continue
+        if age > max_age:
+            still_stale.append(name)
+            if name not in flagged:
+                age_txt = "文件不存在" if age == float("inf") else f"停拍 {int(age)} 分钟"
+                alerts.append(f"{name}｜{age_txt}（阈值 {max_age} 分钟）")
+    state["infra_stale"] = still_stale
+    return alerts
+
+
+
+
+
 def main() -> int:
     p = argparse.ArgumentParser(description="KDO 传送带探针（#421）")
     p.add_argument("--dry-run", action="store_true", help="登记照做，通知只打印")
@@ -873,6 +920,18 @@ def main() -> int:
         # #460：门禁拦截自动登记（[gate-blocked]）+ 通知——机器自报，零依赖 agent 自觉
         _update_proposal_board_gate(gate_new)
         messages["wangyuyan"] = f"⛔ KDO 门禁拦截 {len(gate_new)} 次（gate-blocked）：{gate_new[0][:70]}{'…' if len(gate_new) > 1 else ''}"
+    infra_alerts = _scan_infra_liveness(state)
+    if infra_alerts:
+        # #547 第九信号：基建停拍 → gate-blocked 同族台账 + 推王语嫣（静默期 defer 口径不动，台账恒写）
+        ts_now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        try:
+            with GATE_BLOCKED_LOG.open("a", encoding="utf-8") as f:
+                for a in infra_alerts:
+                    f.write(f"{ts_now}｜infra-liveness｜基建停拍报警｜{a}｜conveyor_probe\n")
+        except OSError as e:
+            print(f"⚠️ infra 停拍台账写入失败: {e}", file=sys.stderr)
+        messages["wangyuyan"] = (f"🛑 KDO 基建停拍报警 {len(infra_alerts)} 项：{infra_alerts[0][:60]}"
+                                 f"{'…' if len(infra_alerts) > 1 else ''}（台账 gate-blocked.log）")
     if queue_sig["new_reviewed"]:
         # #521 R1：PASS 按 assignee 路由生产者（复用 #443 ASSIGNEE_ROLE）+ 王语嫣抄送保留；
         # R2：终审完成类信号豁免夜间静默（老朱 08-25 拍板，exempt_roles 机制 #520 同批建）

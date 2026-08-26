@@ -28,6 +28,7 @@
 | 15 | 胶囊写入失败/只读自愈 | memory_capsule `log_event_safe`（#545：清只读属性自愈+退避重试+取证升级） | stderr + pending-git-commits.log（含 payload+db/wal/shm 属性快照） | 黄药师 | — | #545（readonly 复发 14 次根因取证：db 被外部置只读属性，置位者未抓到现行=环境性） |
 | 16 | 产卡概念交叉验证 WARNING | kdo pre-submit `_check_concept_crosscheck`（#542：正文命中已有 concept/framework 概念词→提示对账，词表自动构建+mtime 缓存） | pre-submit WARNING（提审输出可见，不拦截） | 生产者 | — | #542（小昭事故根因 3 降档版：机器做存在性，人做正确性） |
 | 17 | 终审权校验拒止（未登记实例 review） | queue_transition `_check_review_authority`（#546：cwd 无 ouyangfeng 登记 → 拒止；force 逃生落 force 台账） | 终端拒止提示 + gate-blocked 台账（第五探针可见） | 欧阳锋（登记一次即可） | — | #546（一具两职事件根治轻量版；登记表 .kdo/active-instances.json 供探针活性展示） |
+| 18 | 基建停拍报警（l1-capture/conveyor/inbox-watch 停拍>2×周期） | conveyor_probe 第九信号 `_scan_infra_liveness`（10 分钟级，跨越沿幂等） | 推王语嫣 + gate-blocked.log 台账 | 王语嫣 | defer（夜间静默口径不动，台账恒写） | #547（console-killer 事件防复发；17h 延迟教训：health-check 日级太慢） |
 
 ## 缺口台账
 
