@@ -181,6 +181,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 553 | `task_20260827_huangyaoshi-role-clock-scheduler` | role_clock心跳调度器+schtasks 5min系统级挂载（查注册表→路由唤醒active实例；唤醒语义统一payload；降级复用gate-blocked通道） | queued | huangyaoshi | 调度器+挂载+回归 | #552 | `60_feedback/tasks/task_20260827_huangyaoshi-role-clock-scheduler.md` | #525四拆之二（核心中单）；红线：只做唤醒无裁决/误发>漏发/全留日志；与conveyor_probe分工=探针看信号调度器催人；活体验收=老顽童时钟真实唤醒一次；欧阳锋终审 |
 | 554 | `task_20260827_huangyaoshi-wakeup-unified-layer` | #520提审叫醒换轨统一层（文案不变路径换轨，双跑比对一拍后旧路径下线） | queued | huangyaoshi | 换轨+双跑验证 | #553 | `60_feedback/tasks/task_20260827_huangyaoshi-wakeup-unified-layer.md` | #525四拆之三（小单）；只换路由不动内容不动信号检出；#553延期则不动工；欧阳锋终审 |
 | 555 | `task_20260827_huangyaoshi-role-clock-rollout` | 四角色时钟开通：老顽童15min/王语嫣30min/风清扬日2拍/欧阳锋事件驱动+黄药师欧阳锋会话级旧cron换轨停用 | queued | huangyaoshi | 配置+换轨+活体 | #553 | `60_feedback/tasks/task_20260827_huangyaoshi-role-clock-rollout.md` | #525四拆之四·收官（「角色级时钟不存在」缺口关闭）；顺手修设计稿§5统图失真（欧阳锋终审指出）；唤醒只叫醒+指路判断留人（§3.17）；§3.19矩阵登记；欧阳锋终审 |
+| 556 | `task_20260827_huangyaoshi-pending-laozhu-decision-signal` | 待老朱拍板事项上浮：conveyor_probe第八信号检出「reviewed+含拍板字样」→即时推+daily digest固定栏直到消项 | queued | huangyaoshi | 信号+通道+回归 | 无 | `60_feedback/tasks/task_20260827_huangyaoshi-pending-laozhu-decision-signal.md` | **老朱08-27拍板直令**；#525设计稿等拍板躺两天实证——设计→拍板→实施链断在拍板环节无信号面；只向前生效不回扫存量；§3.19矩阵登记；欧阳锋终审 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
 ## ⚖️ 待终审（提审任务，queue_transition 自动登记）
