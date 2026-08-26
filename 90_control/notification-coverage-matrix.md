@@ -27,6 +27,7 @@
 | 14 | source_refs 死引超基线 | check-source-refs（health-check 每日 02:07，--max-missing 1024/--max-contaminated 8 阈值制） | health-check FAIL + 报告落盘 60_feedback/analysis/source-refs-health-latest.{md,json} | 黄药师（治理）/王语嫣（阈值下调裁定） | — | #543（行号锚剥除+聚类治理报告；治理批次待王语嫣裁定） |
 | 15 | 胶囊写入失败/只读自愈 | memory_capsule `log_event_safe`（#545：清只读属性自愈+退避重试+取证升级） | stderr + pending-git-commits.log（含 payload+db/wal/shm 属性快照） | 黄药师 | — | #545（readonly 复发 14 次根因取证：db 被外部置只读属性，置位者未抓到现行=环境性） |
 | 16 | 产卡概念交叉验证 WARNING | kdo pre-submit `_check_concept_crosscheck`（#542：正文命中已有 concept/framework 概念词→提示对账，词表自动构建+mtime 缓存） | pre-submit WARNING（提审输出可见，不拦截） | 生产者 | — | #542（小昭事故根因 3 降档版：机器做存在性，人做正确性） |
+| 17 | 终审权校验拒止（未登记实例 review） | queue_transition `_check_review_authority`（#546：cwd 无 ouyangfeng 登记 → 拒止；force 逃生落 force 台账） | 终端拒止提示 + gate-blocked 台账（第五探针可见） | 欧阳锋（登记一次即可） | — | #546（一具两职事件根治轻量版；登记表 .kdo/active-instances.json 供探针活性展示） |
 
 ## 缺口台账
 

@@ -27,12 +27,16 @@ class TestReviewOverride(unittest.TestCase):
         qt._find_task_file_dual = lambda tid: self._task_fp
         qt.apply_updates = lambda *a, **k: None  # 状态机写入点 stub（本批只验门禁/台账/追记）
         qt.QueueLock = _NullLock
+        # #546：终审权校验另测（test_instance_registry.py），本批聚焦改判通道——stub 放行
+        self._old_auth = qt._check_review_authority
+        qt._check_review_authority = lambda *a, **k: (True, "")
 
     def _teardown(self):
         (qt.parse_queue, qt.find_task, qt._find_task_file_dual,
          qt.QUEUE_PATH, qt.FORCE_LEDGER) = self._olds
         qt.apply_updates = self._orig_apply
         qt.QueueLock = _OrigLock
+        qt._check_review_authority = self._old_auth
 
     def _mk(self, td, status="reviewed"):
         qf = Path(td) / "queue.md"

@@ -799,6 +799,21 @@ def _notify(messages: dict[str, str], dry_run: bool, silent: bool) -> list[str]:
 
 # ── main ──────────────────────────────────────────────────
 
+def _instance_activity() -> dict:
+    """#546：读实例登记表（.kdo/active-instances.json）做活性展示——只读消费，
+    不做心跳调度（那是 #525 正单的活）。读不到/解析失败 → 空（fail-open）。"""
+    try:
+        reg = json.loads((ROOT / ".kdo" / "active-instances.json").read_text(encoding="utf-8"))
+        instances = reg.get("instances", {})
+        return {
+            "count": len(instances),
+            "roles": sorted({(e.get("role") or name) for name, e in instances.items()}),
+            "latest": max((e.get("ts", "") for e in instances.values()), default=""),
+        }
+    except Exception:
+        return {"count": 0, "roles": [], "latest": ""}
+
+
 def main() -> int:
     p = argparse.ArgumentParser(description="KDO 传送带探针（#421）")
     p.add_argument("--dry-run", action="store_true", help="登记照做，通知只打印")
@@ -962,6 +977,7 @@ def main() -> int:
     if not args.dry_run:
         _save_state(state)
 
+    activity = _instance_activity()  # #546：实例活性展示（只读登记表）
     summary = {
         "new_review": queue_sig["new_review"],
         "new_queued": queue_sig["new_queued"],
@@ -969,11 +985,13 @@ def main() -> int:
         "near_miss": near_miss,  # #506：三元组漂移件（当场可见，不靠事后捞）
         "notified": list(deduped.keys()),
         "silent": silent,
+        "instances": activity,
     }
     if args.json:
         print(json.dumps(summary, ensure_ascii=False, indent=2))
     else:
-        print(f"[conveyor_probe] 新提审 {len(queue_sig['new_review'])} / 新 queued {len(queue_sig['new_queued'])} / 新登记 {len(registered)} / near-miss {len(near_miss)} / 通知 {len(deduped)} 条{'（夜间静默）' if silent else ''}")
+        print(f"[conveyor_probe] 新提审 {len(queue_sig['new_review'])} / 新 queued {len(queue_sig['new_queued'])} / 新登记 {len(registered)} / near-miss {len(near_miss)} / 通知 {len(deduped)} 条{'（夜间静默）' if silent else ''}"
+              f" / 活性实例 {activity['count']}（{','.join(activity['roles']) or '-'}）")
     return 0
 
 

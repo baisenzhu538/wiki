@@ -28,6 +28,7 @@ from __future__ import annotations
 
 import os
 import re
+import json
 import subprocess
 import sys
 from datetime import datetime, timezone
@@ -499,6 +500,83 @@ def _role_of(instance: str) -> str:
     return INSTANCE_ROLE_MAP.get(instance, instance)
 
 
+# ── #546：实例身份登记 + 终审权机器校验（一具两职事件根治，#525 轻量先行版）──
+# 登记表是纯本地 json（.kdo/active-instances.json），claim 时无感写入；
+# review 校验「当前 cwd 有 ouyangfeng 角色登记实例」才放行 --reviewer 欧阳锋。
+# 能力边界（诚实口径）：多实例共享 cwd 时只能证明「该工作目录有 ouyangfeng 上岗登记」，
+# 会话级身份绑定（真·一具两职防控）属 #525 正单（心跳/会话绑定），本单不做。
+INSTANCE_REGISTRY = _WIKI_ROOT / ".kdo" / "active-instances.json"
+
+
+def _load_registry() -> dict:
+    try:
+        data = json.loads(INSTANCE_REGISTRY.read_text(encoding="utf-8"))
+        return data if isinstance(data, dict) else {"instances": {}}
+    except Exception:
+        return {"instances": {}}
+
+
+def _save_registry(reg: dict) -> None:
+    INSTANCE_REGISTRY.parent.mkdir(parents=True, exist_ok=True)
+    tmp = INSTANCE_REGISTRY.with_suffix(".tmp")
+    tmp.write_text(json.dumps(reg, ensure_ascii=False, indent=2), encoding="utf-8")
+    tmp.replace(INSTANCE_REGISTRY)  # 原子替换防半写
+
+
+def _register_instance(task_id: str, instance: str) -> None:
+    """#546：claim/register 时登记/更新实例身份（角色/cwd/工具/会话/时间）。
+    登记失败不阻断流转；测试件 task_9999_ 不登记（#483 噪声分流纪律）。"""
+    if task_id.startswith("task_9999_"):
+        return
+    try:
+        reg = _load_registry()
+        reg.setdefault("instances", {})[instance] = {
+            "role": _role_of(instance),
+            "cwd": os.getcwd(),
+            "tool": os.environ.get("KDO_TOOL", ""),
+            "session": os.environ.get("KDO_SESSION_ID", ""),
+            "ts": datetime.now().isoformat(timespec="seconds"),
+        }
+        _save_registry(reg)
+    except Exception:
+        pass
+
+
+def _check_review_authority(task_id: str, reviewer: str,
+                            force: bool = False, reason: str | None = None) -> tuple[bool, str]:
+    """#546：终审权机器校验——当前 cwd 须有 role=ouyangfeng 的登记实例才放行。
+    未登记/不符 → 拒止 + 提示 register；--force --reason 逃生门落 #444 台账。"""
+    reg = _load_registry()
+    cwd = os.path.normcase(os.path.normpath(os.getcwd()))
+    for name, e in reg.get("instances", {}).items():
+        role = e.get("role") or _role_of(name)
+        entry_cwd = os.path.normcase(os.path.normpath(e.get("cwd", "") or "/"))
+        if role == "ouyangfeng" and entry_cwd == cwd:
+            return True, ""
+    if force:
+        if not (reason and reason.strip()):
+            return False, "终审权校验 force 逃生必须配 --reason '<理由>'（#444：例外留痕——谁/为何/何时）"
+        ledger = _log_force_exception(task_id, reviewer,
+                                      f"终审权校验绕过：{reason.strip()}",
+                                      bypass="#546 终审权校验")
+        return True, f"⚠️ 终审权校验 force 例外已留痕: {ledger}"
+    return False, (
+        "终审权校验拒止（#546 一具两职根治）：当前工作目录无 ouyangfeng 角色登记实例。"
+        "欧阳锋上岗先登记：python 90_control/scripts/queue_transition.py register ouyangfeng；"
+        "紧急绕过：review 加 --force --reason '<理由>'（落 force-exceptions.log 台账）"
+    )
+
+
+def action_register(instance: str) -> tuple[bool, str]:
+    """#546：实例上岗手动登记（claim 之外的登记入口——欧阳锋等纯审查角色不 claim）。"""
+    _register_instance("manual-register", instance)
+    e = _load_registry().get("instances", {}).get(instance, {})
+    if not e:
+        return False, f"登记失败（详见 stderr/权限）：{instance}"
+    return True, (f"✅ 实例已登记: {instance}（role={e['role']} cwd={e['cwd']} ts={e['ts']}）\n"
+                  f"   登记表: {INSTANCE_REGISTRY}")
+
+
 def action_claim(task_id: str, instance: str, force: bool = False) -> tuple[bool, str]:
     """Claim a queued task for an instance.
 
@@ -550,6 +628,8 @@ def action_claim(task_id: str, instance: str, force: bool = False) -> tuple[bool
     ws_note = ensure_task_workspace(task_id, task_file)
     if ws_note:
         gate_msg = f"{gate_msg}\n{ws_note}"
+
+    _register_instance(task_id, instance)  # #546：claim 即上岗登记（无感）
 
     return True, f"✅ {task_id} 已领取为 {new_status}{force_note}\n{gate_msg}"
 
@@ -1102,10 +1182,17 @@ def _action_review_override(task: dict, task_file: Path, reviewer: str, reason: 
 
 def action_review(task_id: str, verdict: str, reviewer: str, grade: str | None = None,
                   review_file: str | None = None, override: bool = False,
-                  reason: str | None = None) -> tuple[bool, str]:
+                  reason: str | None = None, force: bool = False) -> tuple[bool, str]:
     """Ouyangfeng-only: review a pending_review task."""
     if reviewer != "欧阳锋":
         return False, "只有欧阳锋可以执行 review 操作"
+    # #546：终审权机器校验（一具两职根治）——当前 cwd 须有 ouyangfeng 登记实例
+    auth_ok, auth_msg = _check_review_authority(task_id, reviewer, force=force, reason=reason)
+    if not auth_ok:
+        _log_gate_blocked(task_id, "#546-终审权校验", auth_msg, reviewer)
+        return False, auth_msg
+    if auth_msg:  # force 逃生门留痕提示随成功消息透传
+        print(auth_msg, file=sys.stderr)
 
     rows = parse_queue()
     task = find_task(task_id, rows)
@@ -1306,6 +1393,15 @@ def main() -> int:
             return 1
         return action_myqueue(args[1])
 
+    if action == "register":
+        # #546：实例上岗登记（欧阳锋等纯审查角色不 claim，从这里登记）
+        if len(args) < 2:
+            print("用法: queue_transition.py register <instance>", file=sys.stderr)
+            return 1
+        ok, msg = action_register(args[1])
+        print(msg)
+        return 0 if ok else 1
+
     if action == "status":
         rows = parse_queue()
         pending = [r for r in rows if r["status"] == "pending_review"]
@@ -1401,7 +1497,7 @@ def main() -> int:
         if not reviewer:
             reviewer = "欧阳锋"
         ok, msg = action_review(task_id, verdict, reviewer, grade, review_file=review_file,
-                                override=override, reason=reason)
+                                override=override, reason=reason, force=force)
     elif action in ("mark-waiting", "mark_waiting"):
         ok, msg = action_mark_waiting(task_id, note)
     elif action in ("resume",):

@@ -7,7 +7,11 @@ version: v0.1
 instance: huangyaoshi
 code_files:
 - 90_control/scripts/queue_transition.py
-- .kdo/
+- 90_control/scripts/tests/test_instance_registry.py
+- 90_control/scripts/tests/test_review_override.py
+- kdo-tools/conveyor_probe.py
+- 90_control/notification-coverage-matrix.md
+- 90_control/todos/ouyangfeng.md
 ---
 
 # #546 实例身份登记 + 终审权机器校验（一具两职事件根治，#525 活性注册表轻量先行版）
@@ -38,3 +42,29 @@ code_files:
 ## 验收
 
 - 三类用例实测；一具两职场景重演（同会话先登记欧阳锋再以黄药师 claim → 行为符合口径）；欧阳锋终审
+
+
+## 执行报告（F-034 五字段，complete 前必填）
+
+**完成内容**：实例身份登记 + 终审权机器校验（`queue_transition.py`）。①**登记表** `.kdo/active-instances.json`（纯本地 json，原子替换写入防半写）——记录 角色/cwd/工具/会话/时间；②**claim 无感登记**（`_register_instance`，测试件 task_9999_ 不登记 #483 纪律，登记失败不阻断流转）；③**register 命令**（`register <instance>` 早处理分支——欧阳锋等纯审查角色不 claim 的上岗入口）；④**终审权校验**（`_check_review_authority` 挂 action_review 最前）：当前 cwd 有 role=ouyangfeng 登记实例才放行 `--reviewer 欧阳锋`；未登记/不符 → 拒止+gate-blocked 台账+提示 register；`--force --reason` 逃生门落 #444 force 台账；⑤**conveyor_probe 活性展示**：`_instance_activity()` 只读登记表进 summary（计数+角色+最近登记时间），不做心跳调度（#525 正单边界不动）；⑥§3.19：矩阵事件 17 行 + 欧阳锋收件箱使用说明（消费端知晓纪律——他不 claim，需手动 register 一次，否则下次 review 被拦）。
+
+**诚实能力边界**（写进代码注释）：多实例共享 cwd=wiki，校验只能证明「该工作目录有 ouyangfeng 上岗登记」；真·会话级身份绑定（一具两职完全防控）属 #525 正单（心跳/会话绑定）。本单价值=未登记裸奔封死 + 登记审计轨。
+
+**交付物**：
+- `90_control/scripts/queue_transition.py`（登记表读写/register 命令/终审权校验/claim 登记钩）
+- `90_control/scripts/tests/test_instance_registry.py`（10 例回归）
+- `90_control/scripts/tests/test_review_override.py`（fixture 补 stub——新门禁挂上后改判通道测试的配套更新）
+- `kdo-tools/conveyor_probe.py`（活性展示只读钩）
+- `90_control/notification-coverage-matrix.md`（事件 17 行）+ `90_control/todos/ouyangfeng.md`（登记说明）
+- 运行时产物：`.kdo/active-instances.json`（登记表本体，git 外运行时状态——.kdo/* 在 gitignore，与 state.json 同口径；huangyaoshi 已狗粮登记）
+
+**验证**：
+- L1 单测 10 例全过：claim 登记/legacy 别名映射（hermes→laowantong）/task_9999 不登记/register 回读/已登记放行/未登记拒止/异 cwd 拒止/force 逃生（无 reason 拒+有 reason 放+台账留痕）/一具两职重演（双角色登记审计轨+口径行为）/probe 活性读取+fail-open
+- 基线零退步：90_control **177 passed**（167+10）；kdo-tools 不动代码（170 基线不涉）
+- L2 狗粮（真实登记表演出）：`register huangyaoshi` 成功落盘（role/cwd/ts 全字段）；`review task_9999_546demo` 在无 ouyangfeng 登记下**正确拒止 exit=1**（task_9999_ 分流进测试台账不污染真实日志）
+- L3 待活体：欧阳锋下次 review 前先 register（已落其收件箱）；老顽童/王语嫣 claim 即自动登记
+- **预审红项预标注**：本单预审若检「拒止/不得/缺失」类词=校验提示文案/报告描述误报，预标注在此
+
+**边界**：不做心跳/唤起/飞书通道 ✅（#525 暂缓口径不动）；登记表纯本地 ✅；存量未登记实例拒止时给 register 指引，不回溯 ✅。
+
+**需要谁动作**：欧阳锋终审本单；终审后请先跑 `register ouyangfeng` 再 review 其他单（否则被自己的新门禁拦）。
