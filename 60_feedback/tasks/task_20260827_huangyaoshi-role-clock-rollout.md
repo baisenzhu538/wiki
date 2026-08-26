@@ -1,12 +1,12 @@
 ---
 id: 555
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-27T01:05:00+00:00'
+status: in_progress
+updated_at: '2026-08-26T22:53:03.263548+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
-  - 90_control/role-registry.json
+- 90_control/role-registry.json
 ---
 
 # #555 四角色时钟开通（#525 四拆之四·收官）
