@@ -165,12 +165,13 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 537 | `task_20260826_huangyaoshi-matrix-sync-gate` | 总账登记机器核查：conveyor_probe第七信号——基础设施单reviewed时矩阵未同步→双推欧阳锋拦截+抄送王语嫣 | reviewed | huangyaoshi | 信号+豁免台账+回归 | 无 | `60_feedback/tasks/task_20260826_huangyaoshi-matrix-sync-gate.md` | 老朱追问「是不是有基础设施来保障」——§3.19纯文档纪律无人脑兜底，补机器信号（#460/#506同哲学）；只核存在性不判正确性（#433同哲学）；matrix_exempt豁免落#444台账；WARNING只向前；本单自身=首个被核查对象（元狗粮）；⚠️08-26欧阳锋终审PASS后实跑改判FAIL：第七信号首日误报双bug（窗口口径被chore commit插队+seq推导恒得"task"显示#task字面）——返工修复重提，改判通道缺口→#538；欧阳锋复终审 |
 | 538 | `task_20260826_huangyaoshi-review-override-channel` | queue_transition补改判通道：review --verdict fail --override（reviewed→queued，--reason必填+台账+任务单追记） | reviewed | huangyaoshi | 改判流转+回归 | 无 | `60_feedback/tasks/task_20260826_huangyaoshi-review-override-channel.md` | 欧阳锋建议落点（#537实证：PASS后实跑改判FAIL无机器通道，王语嫣破窗手改+force-exceptions留痕）；改判权=终审者专用；只支持reviewed→queued单方向，grade更正走追记不动状态机；failback信号覆盖「曾reviewed」场景需回归验证；欧阳锋终审 |
 | 539 | `task_20260826_laowantong-aducit-card-and-case-fix` | ADUCIT概念卡+双三角case卡VLM臆测表处置：英文全称官方版入卡（Anticipate/Detect/Unearth/Clean/Implement/Track+Governance）+臆测表挂冲突警示不删 | reviewed | laowantong | P0三方法+双链+警示 | 无 | `60_feedback/tasks/task_20260826_laowantong-aducit-card-and-case-fix.md` | 小昭误诊事故内容层止血（错误事实已传到老朱一次）；⚠️小昭「英文零命中」断言证伪——plan_20260531_data-curator-v1.3.md:81有官方版，她推断6错4（Unearth/Clean/Implement/Track），英文以plan文档逐字母对账为准；臆测表留事故化石+conflict_with；7685126全文源债销项（老朱08-26指路：原稿在00_inbox/AI-study/AI数据/，口述02=飞轮课原文，line216-332含六步+合规护栏+双循环；老顽童对账口述原文产卡，ASR变体纪律适用；顺手把三份口述+表格归档10_raw——素材消化过但原稿未入raw属流转漏环）；欧阳锋终审重点核英文 |
-| 540 | `task_20260826_huangyaoshi-vlm-card-two-section` | VLM/OCR卡两段式改造：OCR原文与VLM解析隔离（双置信度+⚠️AI推断警示段）+lint+存量批次清单 | reviewed | huangyaoshi | schema+lint+存量批次 | 无 | `60_feedback/tasks/task_20260826_huangyaoshi-vlm-card-two-section.md` | 小昭事故根因1：VLM臆测与OCR原文混在单一confidence下被当事实采信；批次方案报王语嫣裁定后执行；个案修复走#539不重复动；§3.19矩阵登记适用；欧阳锋终审 |
+| 540 | `task_20260826_huangyaoshi-vlm-card-two-section` | VLM/OCR卡两段式改造：OCR原文与VLM解析隔离（双置信度+⚠️AI推断警示段）+lint+存量批次清单 | reviewed | huangyaoshi | schema+lint+存量批次 | 无 | `60_feedback/tasks/task_20260826_huangyaoshi-vlm-card-two-section.md` | 小昭事故根因1：VLM臆测与OCR原文混在单一confidence下被当事实采信；批次方案报王语嫣裁定后执行；个案修复走#539不重复动；§3.19矩阵登记适用；追加并入（王语嫣08-26裁定，欧阳锋建议书 diag_20260826_ouyangfeng-source-refs-line-anchor-unreachable）：pre_submit.py `_check_source_reachability` 不剥 `:行号` 后缀→带行号锚必误报 unreachable，同区同单修（907-919行）；欧阳锋终审 |
 | 541 | `task_20260826_huangyaoshi-retrieval-trust-weighting` | MCP检索trust_level加权+conflict_with冲突警告：reviewed/high优先，draft/medium垫后标低置信 | queued | huangyaoshi | 排序+警告+回归 | #539 的 conflict_with 字段做首用例 | `60_feedback/tasks/task_20260826_huangyaoshi-retrieval-trust-weighting.md` | 小昭事故根因2工具层落地（协议层→工具层：自觉靠不住实证）；只改MCP检索输出层不改卡；§3.19矩阵/协议互链；欧阳锋终审 |
 | 542 | `task_20260826_huangyaoshi-concept-crosscheck-warning` | pre-submit概念交叉验证WARNING：正文命中已有concept关键词→提示人工对账权威定义（词表自动构建） | queued | huangyaoshi | 检查项+词表+回归 | 无 | `60_feedback/tasks/task_20260826_huangyaoshi-concept-crosscheck-warning.md` | 小昭事故根因3降档采纳：自动判冲突误报风险高→WARNING提示制不拦截（机器存在性/人正确性，#433同哲学）；验收含双三角事故卡dry-run复现命中；欧阳锋终审 |
 | 543 | `task_20260826_huangyaoshi-source-refs-debt` | source_refs死引治理：1024条缺失存量（24%死引率）+扫描器挂例行+json输出修复+分批治理方案 | queued | huangyaoshi | lint挂载+报告+方案 | 无 | `60_feedback/tasks/task_20260826_huangyaoshi-source-refs-debt.md` | 老朱追问「原稿就在为什么找不到」——扫描器早有但没进回路（通知矩阵同构教训）；src_id类连source_id_map都未注册；inbox未归档型死引单独聚类（修复成本最低）；治理批次报王语嫣裁定不直接修卡；§3.19矩阵登记；欧阳锋终审 |
 | 544 | `task_20260826_ouyangfeng-depended-draft-batch-review` | 被依赖draft卡批次过审：#527清单23张按优先级逐张过审（首张layered-system），升reviewed/退回/豁免三出口 | queued | ouyangfeng | 逐张结论落卡 | #527 清单 | `60_feedback/tasks/task_20260826_ouyangfeng-depended-draft-batch-review.md` | 清王语嫣欠账（#527终审备注的编排动作未落单，欧阳锋恢复后在途表挂账）；只审清单内23张不外扩；审查批不改内容只判级；首批≥5张即阶段闭环；王语嫣抽核2张 |
 | 545 | `task_20260826_huangyaoshi-capsule-readonly-recurrence` | 胶囊readonly写入失败复发排查：#511疑未根治（今日复发4次），先复现取证再修 | queued | huangyaoshi | 取证+根因+回归 | 无 | `60_feedback/tasks/task_20260826_huangyaoshi-capsule-readonly-recurrence.md` | 黄药师核查报告观察项1（他自己报的数，回给他自查）；复发=当时修的可能不是根因；环境性根因允许如实报不硬修；§3.19矩阵登记适用；欧阳锋终审 |
+| 546 | `task_20260826_huangyaoshi-instance-identity-registry` | 实例身份登记+终审权机器校验：active-instances.json上岗登记+review校验reviewer=登记角色（一具两职事件根治，#525活性注册表轻量先行版） | queued | huangyaoshi | 登记+校验+回归 | 无 | `60_feedback/tasks/task_20260826_huangyaoshi-instance-identity-registry.md` | 一具两职事件实证（一个Claude会话欧阳锋/黄药师两职，三入口文件三身份，reviewer自由文本零校验）；终审权=工厂命门不能裸奔；不做心跳/飞书（#525暂缓口径不动）；force逃生门落#444台账；§3.19矩阵登记；欧阳锋终审 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
 ## ⚖️ 待终审（提审任务，queue_transition 自动登记）
@@ -448,13 +449,13 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - [gate-blocked] task_20260826_laowantong-token-economy-domain-debut｜08-26 00:57｜待王语嫣复核处置｜2026-08-26 00:54:30｜task_20260826_laowantong-token-economy-domain-debut｜F-036-问题落点｜审查发现问题未给落点（F-036）：- **预审报告观察**：本单四字段齐全+预审报告正常附着——#515 的 attach 吞内容 bug 未在本单复现（——必须在意见书注明去向（建议书路径 / 停｜欧阳锋
 - diag_20260826_fengqingyang-capsule-infra-self-audit.md｜08-26 01:03｜待王语嫣复核裁定
 - [gate-blocked] diag_20260826_laowantong-review-landed-notification-gap.md｜08-26 01:27｜待王语嫣复核处置｜2026-08-26 01:27:00｜diag_20260826_laowantong-review-landed-notification-gap.md｜near-miss-三元组（#506）｜status=pending 疑似待编排但非 pending_orchestration｜conveyor_probe
-- [gate-blocked] task_20260826_huangyaoshi-seed-dogfood-d-drive｜08-26 04:07｜待王语嫣复核处置｜2026-08-26 04:02:13｜task_20260826_huangyaoshi-seed-dogfood-d-drive｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
+- ~~[gate-blocked] task_20260826_huangyaoshi-seed-dogfood-d-drive｜08-26 04:07｜待王语嫣复核处置~~ → 已化解（08-26 22:30 王语嫣）：交付物补 commit 后终审 PASS A，残留行划销（欧阳锋建议书 diag_20260826_ouyangfeng-gate-blocked-resolved-residue 实证）
 - [gate-blocked] huangyaoshi｜08-26 04:07｜待王语嫣复核处置｜｜huangyaoshi
 - [gate-blocked] task_20260826_huangyaoshi-review-landed-notify｜08-26 06:17｜待王语嫣复核处置｜2026-08-26 06:12:32｜task_20260826_huangyaoshi-review-landed-notify｜F-035-负向判词｜意见书含负向断言（缺失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋
 - [gate-blocked] task_20260826_huangyaoshi-matrix-sync-gate｜08-26 07:12｜待王语嫣复核处置｜2026-08-26 07:11:34｜task_20260826_huangyaoshi-matrix-sync-gate｜F-035-负向判词｜意见书含负向断言（未同步/缺失/「未同步」）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋
 - diag_20260826_huangyaoshi-clock-myqueue-standard.md｜08-26 20:37｜待王语嫣复核裁定
 - diag_20260826_fengqingyang-audit-maxims-library.md｜08-26 20:48｜待王语嫣复核裁定
-- [gate-blocked] task_20260826_huangyaoshi-vlm-card-two-section｜08-26 21:07｜待王语嫣复核处置｜2026-08-26 21:00:20｜task_20260826_huangyaoshi-vlm-card-two-section｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
+- ~~[gate-blocked] task_20260826_huangyaoshi-vlm-card-two-section｜08-26 21:07｜待王语嫣复核处置~~ → 已化解（08-26 22:30 王语嫣）：21:00 补 commit 重提后 21:52 终审 PASS，残留行划销（欧阳锋建议书实证）
 - diag_20260826_ouyangfeng-source-refs-line-anchor-unreachable.md｜08-26 21:46｜待王语嫣复核裁定
 - diag_20260826_ouyangfeng-gate-blocked-resolved-residue.md｜08-26 21:52｜待王语嫣复核裁定
 
@@ -471,6 +472,14 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 444 | `task_20260823_huangyaoshi-queue-force-ledger-assignee-role` | queue_transition 交接语义加固（P1，风清扬建议 1+3 裁定合并）：--force/--evidence 例外台账 + frontmatter assignee 角色名口径 | reviewed | huangyaoshi | 台账+口径改造+用例 | #441 complete --force 绕过 F-034 实证 | `60_feedback/tasks/task_20260823_huangyaoshi-queue-force-ledger-assignee-role.md` | force 无 --reason 拒绝；evidence 路径留档且五字段必须落任务单；assignee 只写角色名+instance 另存，存量实例名兼容不回改；裁定=diag_20260823_wangyuyan-441-rework-ruling.md §二；欧阳锋终审 |
 
 ## PROPOSAL-PENDING
+### diag_20260826_ouyangfeng-source-refs-line-anchor-unreachable（2026-08-26 欧阳锋）
+- **问题**：pre_submit 检查器不剥 `:行号` 锚 → 带行号 source_refs 必误报 unreachable（#539 概念卡 2/2 误报实证，任务书要求行号锚=标准与门禁矛盾）
+- **需要**：~~待王语嫣裁定~~ **已裁定（08-26 王语嫣）：并入 #543 同区修**（队列备注已落；三元组 ✅ 合规）
+
+### diag_20260826_ouyangfeng-gate-blocked-resolved-residue（2026-08-26 欧阳锋）
+- **问题**：gate-blocked 化解后无标注 → 「待王语嫣复核处置」残留积压（#534/#540 实证）
+- **需要**：~~待王语嫣裁定~~ **已裁定（08-26 王语嫣）：残留两行已划销；机制化（化解自动标注）挂观察项**——人工划行成本可承受，自动化收益小，暂不立项（三元组 ✅ 合规）
+
 ### diag_20260824_laowantong-small-domain-axis-mapping（2026-08-24 老顽童）
 - **问题**：#426 收官堵点——7 个无轴小域约 60 张（personal-os/product/demand-analysis/system/rust/entrepreneurship/knowledge-management）
 - **建议**：复用轴映射（推荐）/ 域归并 / 单独出轴（三选一，推荐 1）
