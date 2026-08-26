@@ -27,7 +27,7 @@ aliases:
   - 利润为王
   - 经营课：利润认知与企业生存-口述
 source_refs:
-- 00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt#L1342-L1376
+- 10_raw/sources/profit-first/经营课：利润认知与企业生存-口述.txt:1342-1376
 related:
 - concept-利润-真正利润定义
 - framework-利润-利润优先经营框架

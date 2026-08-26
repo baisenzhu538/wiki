@@ -29,7 +29,7 @@ aliases:
   - 利润为王
   - 《真正的利润》拆书逐字稿 — 水水｜战略定价顾问
 source_refs:
-- 00_inbox/利润为王/《真正的利润》拆书逐字稿 — 水水｜战略定价顾问.md L75
+- 10_raw/sources/profit-first/《真正的利润》拆书逐字稿 — 水水｜战略定价顾问.md:75
 - 00_inbox/利润为王/笔记2.txt
 related:
 - framework-利润-利润优先经营框架

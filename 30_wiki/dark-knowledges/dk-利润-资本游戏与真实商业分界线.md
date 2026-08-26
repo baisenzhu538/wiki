@@ -30,8 +30,8 @@ aliases:
   - 利润为王
   - 经营课：利润认知与企业生存-口述
 source_refs:
-- 00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt#L1198-L1266
-- 00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt#L1390-L1400
+- 10_raw/sources/profit-first/经营课：利润认知与企业生存-口述.txt:1198-1266
+- 10_raw/sources/profit-first/经营课：利润认知与企业生存-口述.txt:1390-1400
 related:
 - framework-利润-利润优先经营框架
 - concept-利润-真正利润定义

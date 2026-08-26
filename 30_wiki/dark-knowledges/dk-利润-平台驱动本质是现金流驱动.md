@@ -28,7 +28,7 @@ aliases:
   - 利润为王
   - 经营课：利润认知与企业生存-口述
 source_refs:
-- 00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt#L1320-L1376
+- 10_raw/sources/profit-first/经营课：利润认知与企业生存-口述.txt:1320-1376
 related:
 - dk-利润-利润敏感度非对称性
 - case-利润-白牌珠宝流量上瘾症

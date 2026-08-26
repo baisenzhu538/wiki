@@ -29,8 +29,8 @@ aliases:
   - 利润为王
   - 经营课：利润认知与企业生存-口述
 source_refs:
-- 00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt#L800-L816
-- 00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt#L2200-L2216
+- 10_raw/sources/profit-first/经营课：利润认知与企业生存-口述.txt:800-816
+- 10_raw/sources/profit-first/经营课：利润认知与企业生存-口述.txt:2200-2216
 related:
 - concept-利润-风险报偿本质
 - dk-利润-定价恐惧三段式反问

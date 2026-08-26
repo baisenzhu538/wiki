@@ -29,7 +29,7 @@ aliases:
   - 利润为王
   - 经营课：利润认知与企业生存-口述
 source_refs:
-- 00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt#L2840-L2898
+- 10_raw/sources/profit-first/经营课：利润认知与企业生存-口述.txt:2840-2898
 related:
 - concept-定价-价格杠杆
 - concept-利润-风险报偿本质

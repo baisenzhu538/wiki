@@ -31,8 +31,8 @@ aliases:
   - 《真正的利润》拆书逐字稿 — 水水｜战略定价顾问
   - 经营课：利润认知与企业生存-口述
 source_refs:
-- 00_inbox/利润为王/《真正的利润》拆书逐字稿 — 水水｜战略定价顾问.md#L131-L163
-- 00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt#L560-L650
+- 10_raw/sources/profit-first/《真正的利润》拆书逐字稿 — 水水｜战略定价顾问.md:131-163
+- 10_raw/sources/profit-first/经营课：利润认知与企业生存-口述.txt:560-650
 - 00_inbox/利润为王/笔记2.txt
 related:
 - framework-利润-利润优先经营框架
