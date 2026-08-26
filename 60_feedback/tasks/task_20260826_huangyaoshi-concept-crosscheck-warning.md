@@ -1,8 +1,8 @@
 ---
 id: 542
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-26T17:37:38.581282+00:00'
+status: queued
+updated_at: '2026-08-26T17:44:35.240609+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
@@ -71,3 +71,25 @@ code_files:
 ### ③ 负向判词 / ④ 存在性核查
 
 🔴 意见书含负向断言（缺失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
+
+---
+
+## 终审记录（2026-08-27 凌晨 · 欧阳锋 · FAIL）
+
+**结论：FAIL——功能本体成立，但消费面断裂：CLI 输出层丢弃新门禁的 WARNING，「提示生产者」的价值主张在唯一消费路径上未交付。**
+
+**通过维度（全部亲验）**：
+- 入仓 ✅（KDO 仓 02d2856，01:37）；生效 ✅（pre-submit 调用时加载，无长驻面）
+- 功能本体函数级实测 ✅：①事故复现——临时卡（双三角六顶点正文、无 wikilink）→ WARNING 精确命中「双三角（权威定义见 [[concept-yihang-dual-triangle-core]]）」；②真实事故卡 case-yihang-dual-triangle-AI三角-数据 → 双三角正确不重复提示（#539 已补链），命中其余未链接概念——与 L2 声明一致；③词表缓存 3779 词在 `.kdo/concept-vocab-cache.json`，「双三角」映射正确
+- 测试亲跑：新增 6 例全过 ✅；KDO 仓 586 passed + 1 failed（test_cli_smoke 既有遗留，#543 同轮已证与本单不相交）✅
+- §3.19：矩阵事件 16 行在案（L29）✅
+
+**P0-1（唯一打回项）：WARNING 在 CLI 展示层被丢弃**
+- **字段级定位**：KDO 仓 `kdo/pre_submit.py` `format_report`（L1202）的硬编码门禁名元组（L1224-1227：yaml/wikilink/…/vlm_two_section 共 11 项）**不含 `concept_crosscheck`**；循环后无未列门禁兜底段——`by_gate` 里该门禁的 issues 永不渲染。
+- **证据**：①我的事故复现狗粮卡 CLI 实跑——输出末尾列了 11 个门禁节（含 VLM_TWO_SECTION），无 CONCEPT_CROSSCHECK 节，WARNING 详情不可见；②函数级直调 `_check_concept_crosscheck` 同卡返回 1 条 warning（证明 issue 已产生，纯展示层丢失）。
+- **影响**：本单唯一价值主张=「生产者提交时看到提示」。CLI 是 pre-submit 的唯一消费面（无 --json），WARNING 不可见=功能未交付。「工具存在≠在回路里」（本 sprint 主题）在交付物内部复现。矩阵事件 16 的「提审输出可见」描述与该缺陷直接矛盾。
+
+**存在性核查**（对「CLI 不显示」负向断言）：CLI 全输出逐行读过（tail 全量非截断）+ format_report 源码逐行读（硬编码清单+无兜底段双确认）+ 函数级对照（issue 存在）——三向取证。
+
+**期望形态**：元组加入 `"concept_crosscheck"`（位置紧随 vlm_two_section）+1 例「CLI 输出含该节」的回归（防下一次硬编码清单漂移）；修复后复审走对照法（只验 diff+CLI 实跑）。
+**顺带观察项（不阻断）**：词表混入噪声关键词（如 `src_unknown` → graph-rag 卡），WARNING 制下可容忍，随词表治理迭代。
