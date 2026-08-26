@@ -443,3 +443,30 @@ def test_reviewed_carries_assignee_and_routes(tmp_path, monkeypatch):
     state2 = {}
     probe._queue_signal(state2)
     assert probe._queue_signal(state2)["new_reviewed"] == []
+
+
+def test_override_failback_signal(tmp_path, monkeypatch):
+    """#538：曾 reviewed 的单回到 queued → new_failback 检出（改判退回信号口径）。
+
+    原型：#537 首日改判——任务终审 PASS 后改判 FAIL 回 queued，failback 原口径
+    （pending 快照对比）捕不到，须靠 last_reviewed 交集。
+    """
+    queue = tmp_path / "production-queue.md"
+    SEP = "|:---:|:---|:---|:---:|:---:|---:|:---|:---|:---|"
+
+    def write(rows):
+        queue.write_text("# 队列\n\n| # | 任务 | 名称 | 状态 | 负责人 | 交付物 | 依赖 | 任务单 | 备注 |\n"
+                         + SEP + "\n" + "\n".join(rows) + "\n", encoding="utf-8")
+
+    monkeypatch.setattr(probe, "QUEUE_FILE", queue)
+    # 第一拍：task_x reviewed（快照 last_reviewed）
+    write(["| 1 | `task_x` | t | reviewed | huangyaoshi | x | 无 | t.md | n |"])
+    state = {}
+    probe._queue_signal(state)
+    assert "task_x" in state["last_reviewed"]
+    # 第二拍：改判 → task_x 回 queued → failback 检出（带 assignee）
+    write(["| 1 | `task_x` | t | queued | huangyaoshi | x | 无 | t.md | n |"])
+    sig = probe._queue_signal(state)
+    assert [t for t, _, _ in sig["new_failback"]] == ["task_x"]
+    # 幂等：再扫不重复
+    assert probe._queue_signal(state)["new_failback"] == []

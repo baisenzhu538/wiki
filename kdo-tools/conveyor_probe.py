@@ -139,6 +139,11 @@ def _queue_signal(state: dict) -> dict:
     # failback = 上次 pending_review 里的任务，现在既不在 pending 也不在 reviewed（=退回 queued）
     failback_candidates = [t for t in last_review if t not in now_pending and t not in {x for x, _, _ in reviewed}]
     new_failback = [(t, s, a) for t, s, a in queued if t in failback_candidates]
+    # #538 改判信号：曾 reviewed 的单回到 queued = 终审改判退回（原 failback 口径只覆盖
+    # pending→queued；改判场景任务已不在 last_review 快照，须用 last_reviewed 口径捕）
+    override_back = [(t, s, a) for t, s, a in queued
+                     if t in set(last_reviewed) and t not in failback_candidates]
+    new_failback += override_back
     state["last_review_pending"], state["last_queued"] = [t for t, _ in review], [t for t, _, _ in queued]
     state["last_reviewed"] = [t for t, _, _ in reviewed]
     return {

@@ -1063,7 +1063,46 @@ def action_release(task_id: str, instance: str) -> tuple[bool, str]:
     return True, f"✅ {task_id} 已释放回 queued"
 
 
-def action_review(task_id: str, verdict: str, reviewer: str, grade: str | None = None, review_file: str | None = None) -> tuple[bool, str]:
+def _action_review_override(task: dict, task_file: Path, reviewer: str, reason: str) -> tuple[bool, str]:
+    """#538 改判通道：reviewed→queued（终审自我纠错机器通道——破窗手改的根治）。
+
+    纪律：--reason 必填；例外落 force-exceptions 台账（#444 同款）；任务单追记
+    「## 改判记录」节（时间/原 verdict/理由）；只支持 reviewed→queued 一个方向
+    （grade 更正走任务单追记，不动状态机）。改判后探针 new_failback 口径已覆盖
+    「曾 reviewed」场景（#538 任务 2，queued ∩ last_reviewed 即改判信号）。
+    """
+    task_id = task["task_id"]
+    fm, _ = parse_frontmatter(task_file)
+    orig = f"PASS {fm.get('grade', '')}".strip()
+    ts = datetime.now().strftime("%Y-%m-%d %H:%M")
+
+    # 任务单追记改判节（幂等：多次改判逐条追加）
+    body = task_file.read_text(encoding="utf-8")
+    entry = (f"- [{ts}] **{reviewer}改判**：{orig} → FAIL（返工）｜理由：{reason.strip()}\n")
+    if "## 改判记录" in body:
+        idx = body.find("## 改判记录")
+        nxt = body.find("\n## ", idx + 1)
+        insert_at = nxt if nxt > 0 else len(body.rstrip("\n"))
+        body = body[:insert_at].rstrip("\n") + "\n\n" + entry + ("\n" + body[insert_at:] if nxt > 0 else "\n")
+    else:
+        body = body.rstrip("\n") + f"\n\n## 改判记录\n\n{entry}"
+    task_file.write_text(body, encoding="utf-8")
+
+    ledger = _log_force_exception(task_id, reviewer, reason,
+                                  bypass="reviewed→queued 改判（#538 终审自我纠错通道）")
+    with QueueLock("production-queue"):
+        rows = parse_queue()
+        task2 = find_task(task_id, rows)
+        if task2 is None or task2["status"] != "reviewed":
+            return False, "队列状态在加锁期间发生变化，请重试"
+        apply_updates(task_id, "queued", task_file, status="queued")
+    return True, (f"↩️ {task_id} 已改判：{orig} → FAIL，状态回 queued（返工）\n"
+                  f"⚠️ 改判例外已留痕: {ledger}\n任务单已追记「## 改判记录」节")
+
+
+def action_review(task_id: str, verdict: str, reviewer: str, grade: str | None = None,
+                  review_file: str | None = None, override: bool = False,
+                  reason: str | None = None) -> tuple[bool, str]:
     """Ouyangfeng-only: review a pending_review task."""
     if reviewer != "欧阳锋":
         return False, "只有欧阳锋可以执行 review 操作"
@@ -1073,6 +1112,15 @@ def action_review(task_id: str, verdict: str, reviewer: str, grade: str | None =
     if task is None:
         return False, f"任务 {task_id} 不在队列中"
     if task["status"] != "pending_review":
+        # #538：改判通道——reviewed→queued（verdict=fail + --override + --reason 必填）
+        if override and verdict == "fail" and task["status"] == "reviewed":
+            if not (reason and reason.strip()):
+                return False, ("改判必须配 --reason '<理由>'（#538：例外留痕——"
+                               "谁/为何/何时，台账可溯；无正当理由不改判）")
+            tf = _find_task_file_dual(task_id)
+            if tf is None:
+                return False, f"找不到任务单文件: {task_id}"
+            return _action_review_override(task, tf, reviewer, reason)
         return False, f"任务 {task_id} 状态为 {task['status']}，不是 pending_review，无法终审"
 
     task_file = _find_task_file_dual(task_id)
@@ -1286,6 +1334,7 @@ def main() -> int:
     note = None
     reason = None
     force = False
+    override = False
     no_commit = False
 
     i = 2
@@ -1295,6 +1344,9 @@ def main() -> int:
             i += 2
         elif args[i] == "--force":
             force = True
+            i += 1
+        elif args[i] == "--override":
+            override = True  # #538：reviewed→queued 改判通道（需 --verdict fail --reason）
             i += 1
         elif args[i] == "--no-commit":
             no_commit = True
@@ -1348,7 +1400,8 @@ def main() -> int:
             return 1
         if not reviewer:
             reviewer = "欧阳锋"
-        ok, msg = action_review(task_id, verdict, reviewer, grade, review_file=review_file)
+        ok, msg = action_review(task_id, verdict, reviewer, grade, review_file=review_file,
+                                override=override, reason=reason)
     elif action in ("mark-waiting", "mark_waiting"):
         ok, msg = action_mark_waiting(task_id, note)
     elif action in ("resume",):
