@@ -33,8 +33,11 @@ source_context:
   - 口述
   - yitang
 source_refs:
-  - 00_inbox/销售专题/李蕊-销售体系之一-客户分层和卖点提炼-口述.txt L280-L282,L392-L394,L470-L500,L508-L520
-  - 00_inbox/销售专题/李蕊-销售体系之四-激励体系搭建-口述.txt L1586-L1590
+  - 10_raw/sources/sales/李蕊-销售体系之一-客户分层和卖点提炼-口述.txt:280-282
+  - 10_raw/sources/sales/李蕊-销售体系之一-客户分层和卖点提炼-口述.txt:392-394
+  - 10_raw/sources/sales/李蕊-销售体系之一-客户分层和卖点提炼-口述.txt:470-500
+  - 10_raw/sources/sales/李蕊-销售体系之一-客户分层和卖点提炼-口述.txt:508-520
+  - 10_raw/sources/sales/李蕊-销售体系之四-激励体系搭建-口述.txt:1586-1590
   - 60_feedback/diagnosis/diag_20260708_yitang-sales-domain-oral-deep-dive-v2.md
 related:
   - "[[framework-yitang-scientific-sales-five-step]]"

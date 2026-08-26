@@ -30,8 +30,9 @@ source_context:
   - yitang
 source_refs:
   - 00_inbox/销售专题/李蕊-销售体系之三-销售过程管理-口述.txt L1426-L1462,L1488-L1490
-  - 00_inbox/销售专题/李蕊-科学销售方法论-口述.txt L246,L954-L970
-  - 00_inbox/销售专题/李蕊-销售系统之五-销售工具箱-口述.txt L2150-L2154
+  - 10_raw/sources/sales/李蕊-科学销售方法论-口述.txt:246
+  - 10_raw/sources/sales/李蕊-科学销售方法论-口述.txt:954-970
+  - 10_raw/sources/sales/李蕊-销售系统之五-销售工具箱-口述.txt:2150-2154
 discoverable_by:
   - 日会 / 周会 SOP 与主持模板
   - 与主持模板
