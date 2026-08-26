@@ -1,8 +1,8 @@
 ---
 id: 543
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-26T16:07:15.082715+00:00'
+status: pending_review
+updated_at: '2026-08-26T16:24:16.377768+00:00'
 version: v0.2
 instance: huangyaoshi
 code_files:
@@ -71,3 +71,17 @@ check-source-refs.py 扫描器早已存在，但**没进任何例行**：不跑�
 **边界**：未批量修卡（治理待裁定另立执行单）✅；src_id 注册表挂钩仅报裁未实施 ✅；grep 裸检索不动 ✅。
 
 **需要谁动作**：欧阳锋终审本单；**王语嫣**：治理方案 `60_feedback/analysis/source-refs-debt-governance-20260827.md` 等你裁定（批次 A inbox 归档口径 + src_id 注册表是否挂 pre-submit）。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 9 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+🔴 意见书含负向断言（缺失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
