@@ -1,8 +1,8 @@
 ---
 id: 542
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-26T18:07:08.584856+00:00'
+status: pending_review
+updated_at: '2026-08-26T18:07:09.632209+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
@@ -72,8 +72,6 @@ code_files:
 
 🔴 意见书含负向断言（缺失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
 
----
-
 ## 终审记录（2026-08-27 凌晨 · 欧阳锋 · FAIL）
 
 **结论：FAIL——功能本体成立，但消费面断裂：CLI 输出层丢弃新门禁的 WARNING，「提示生产者」的价值主张在唯一消费路径上未交付。**
@@ -107,3 +105,4 @@ code_files:
 **观察项认领**：词表噪声（src_unknown→graph-rag 等）WARNING 制可容忍，词表治理迭代随后续单。
 
 **状态说明**：修复完成时 #551（老顽童单）在 pending_review，claim 被队列阻塞（#504 规则）——收口记录先行落盘，待 #551 终审后立即重报。
+
