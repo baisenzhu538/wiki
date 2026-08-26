@@ -1,1 +1,442 @@
 [conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / 通知 0 条
+⚠️ [conveyor_probe] 距上次运行 35483s（>20min）——期间信号已由增量机制补扫（dry-run 已修不消费 state）
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⛔ gate-blocked 登记: +3 → PROPOSAL-PENDING
+✅ 通知 ouyangfeng：🔔 KDO 新提审 2 单：#426, #487，请终审
+✅ 通知 huangyaoshi：📥 KDO 可领取 5 单：#520, #521, #522, #523, #524
+✅ 通知 wangyuyan：⚖️ KDO 已终审 10 单：#507, #508, #509, #510, #511, #512, #513, #516, #517, #518（待部署/已闭环）
+✅ 通知 laowantong：📥 KDO 可领取 1 单：#518
+[conveyor_probe] 新提审 0 / 新 queued 5 / 新登记 0 / near-miss 1 / 通知 2 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 0 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+✅ 通知 ouyangfeng：🔔 KDO 新提审 1 单：#519，请终审
+[conveyor_probe] 新提审 1 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 1 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+✅ 通知 wangyuyan：⚖️ KDO 已终审 1 单：#519（待部署/已闭环）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 1 / near-miss 1 / 通知 1 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 0 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+✅ 通知 ouyangfeng：🔔 KDO 新提审 1 单：#520，请终审
+[conveyor_probe] 新提审 1 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 1 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+✅ 通知 wangyuyan：⚖️ KDO 已终审 1 单：#520（待部署/已闭环）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 1 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 0 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 0 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 0 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 0 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+✅ 通知 ouyangfeng：🔔 KDO 新提审 1 单：#522，请终审
+[conveyor_probe] 新提审 1 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 1 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+✅ 通知 wangyuyan：⚖️ KDO 已终审 1 单：#522（待部署/已闭环）
+✅ 通知 huangyaoshi：✅ KDO 终审通过 1 单：#522——你的单过了，见任务单终审记录
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 2 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 0 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 0 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+✅ 通知 wangyuyan：⚖️ KDO 已终审 1 单：#523（待部署/已闭环）
+✅ 通知 huangyaoshi：✅ KDO 终审通过 1 单：#523——你的单过了，见任务单终审记录
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 2 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 0 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+✅ 通知 ouyangfeng：🔔 KDO 新提审 1 单：#524，请终审
+[conveyor_probe] 新提审 1 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 1 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+✅ 通知 wangyuyan：⚖️ KDO 已终审 1 单：#524（待部署/已闭环）
+✅ 通知 huangyaoshi：✅ KDO 终审通过 1 单：#524——你的单过了，见任务单终审记录
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 2 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 0 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 0 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 0 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 0 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 0 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 0 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 0 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 0 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 0 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 0 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 0 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 0 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 0 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 0 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 0 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 0 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 0 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 0 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 0 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 0 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 0 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 0 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 0 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 0 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 0 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 0 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 0 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 0 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 0 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 0 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 0 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 0 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 0 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 0 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 0 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 0 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 0 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 0 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 0 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 0 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+✅ 通知 huangyaoshi：📥 KDO 可领取 1 单：#525
+[conveyor_probe] 新提审 0 / 新 queued 1 / 新登记 0 / near-miss 1 / 通知 1 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 0 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 0 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 0 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+✅ 通知 laowantong：📥 KDO 可领取 1 单：#526
+✅ 通知 huangyaoshi：📥 KDO 可领取 1 单：#527
+[conveyor_probe] 新提审 0 / 新 queued 2 / 新登记 0 / near-miss 1 / 通知 2 条
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+✅ 通知 wangyuyan：⚖️ KDO 已终审 1 单：#514（待部署/已闭环）
+✅ 通知 huangyaoshi：✅ KDO 终审通过 1 单：#514——你的单过了，见任务单终审记录
+🔔 夜间静默豁免：终审类信号照常推 ['huangyaoshi', 'wangyuyan']（#520 老朱拍板口径）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 2 条（夜间静默）
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+✅ 通知 ouyangfeng：🔔 KDO 新提审 1 单：#525，请终审
+🔔 夜间静默豁免：终审类信号照常推 ['ouyangfeng']（#520 老朱拍板口径）
+[conveyor_probe] 新提审 1 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 1 条（夜间静默）
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+✅ 通知 ouyangfeng：🔔 KDO 新提审 1 单：#526，请终审
+🔔 夜间静默豁免：终审类信号照常推 ['ouyangfeng']（#520 老朱拍板口径）
+[conveyor_probe] 新提审 1 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 1 条（夜间静默）
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+✅ 通知 wangyuyan：⚖️ KDO 已终审 2 单：#525, #526（待部署/已闭环）
+✅ 通知 huangyaoshi：✅ KDO 终审通过 1 单：#525——你的单过了，见任务单终审记录
+✅ 通知 laowantong：✅ KDO 终审通过 1 单：#526——你的单过了，见任务单终审记录
+🔔 夜间静默豁免：终审类信号照常推 ['huangyaoshi', 'laowantong', 'wangyuyan']（#520 老朱拍板口径）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 3 条（夜间静默）
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+🔕 夜间静默：1 条变更进待补发（天亮自动补发）
+[conveyor_probe] 新提审 0 / 新 queued 1 / 新登记 0 / near-miss 1 / 通知 1 条（夜间静默）
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+✅ 通知 huangyaoshi：✅ KDO 终审通过 1 单：#527——你的单过了，见任务单终审记录
+✅ 通知 wangyuyan：⚖️ KDO 已终审 1 单：#527（待部署/已闭环）
+🔔 夜间静默豁免：终审类信号照常推 ['huangyaoshi', 'wangyuyan']（#520 老朱拍板口径）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 2 条（夜间静默）
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 0 条（夜间静默）
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+🔕 夜间静默：1 条变更进待补发（天亮自动补发）
+[conveyor_probe] 新提审 0 / 新 queued 1 / 新登记 0 / near-miss 1 / 通知 1 条（夜间静默）
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+🔕 夜间静默：1 条变更进待补发（天亮自动补发）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 0 条（夜间静默）
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⛔ gate-blocked 登记: +1 → PROPOSAL-PENDING
+🔕 夜间静默：2 条变更进待补发（天亮自动补发）
+✅ 通知 ouyangfeng：🔔 KDO 新提审 1 单：#529，请终审
+🔔 夜间静默豁免：终审类信号照常推 ['ouyangfeng']（#520 老朱拍板口径）
+[conveyor_probe] 新提审 1 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 2 条（夜间静默）
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+✅ 通知 laowantong：✅ KDO 终审通过 1 单：#529——你的单过了，见任务单终审记录
+✅ 通知 wangyuyan：⚖️ KDO 已终审 1 单：#529（待部署/已闭环）
+🔔 夜间静默豁免：终审类信号照常推 ['laowantong', 'wangyuyan']（#520 老朱拍板口径）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 2 条（夜间静默）
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 0 条（夜间静默）
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 0 条（夜间静默）
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+✅ 通知 ouyangfeng：🔔 KDO 新提审 1 单：#515，请终审
+🔔 夜间静默豁免：终审类信号照常推 ['ouyangfeng']（#520 老朱拍板口径）
+[conveyor_probe] 新提审 1 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 1 条（夜间静默）
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⛔ gate-blocked 登记: +1 → PROPOSAL-PENDING
+🔕 夜间静默：3 条变更进待补发（天亮自动补发）
+[conveyor_probe] 新提审 0 / 新 queued 3 / 新登记 0 / near-miss 1 / 通知 3 条（夜间静默）
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+🔕 夜间静默：3 条变更进待补发（天亮自动补发）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 0 条（夜间静默）
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+🔕 夜间静默：3 条变更进待补发（天亮自动补发）
+✅ 通知 ouyangfeng：🔔 KDO 新提审 1 单：#531，请终审
+🔔 夜间静默豁免：终审类信号照常推 ['ouyangfeng']（#520 老朱拍板口径）
+[conveyor_probe] 新提审 1 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 1 条（夜间静默）
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⛔ gate-blocked 登记: +1 → PROPOSAL-PENDING
+🔕 夜间静默：1 条变更进待补发（天亮自动补发）
+✅ 通知 laowantong：✅ KDO 终审通过 1 单：#531——你的单过了，见任务单终审记录
+✅ 通知 wangyuyan：⚖️ KDO 已终审 1 单：#531（待部署/已闭环）
+🔔 夜间静默豁免：终审类信号照常推 ['laowantong', 'wangyuyan']（#520 老朱拍板口径）
+[conveyor_probe] 新提审 1 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 2 条（夜间静默）
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 1 / 通知 0 条（夜间静默）
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+🔕 夜间静默：1 条变更进待补发（天亮自动补发）
+[conveyor_probe] 新提审 0 / 新 queued 2 / 新登记 0 / near-miss 1 / 通知 1 条（夜间静默）
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260826_laowantong-review-landed-notification-gap.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⛔ gate-blocked 登记: +1 → PROPOSAL-PENDING
+🔕 夜间静默：2 条变更进待补发（天亮自动补发）
+[conveyor_probe] 新提审 0 / 新 queued 1 / 新登记 0 / near-miss 2 / 通知 2 条（夜间静默）
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260826_laowantong-review-landed-notification-gap.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+🔕 夜间静默：2 条变更进待补发（天亮自动补发）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 0 条（夜间静默）
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260826_laowantong-review-landed-notification-gap.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+🔕 夜间静默：2 条变更进待补发（天亮自动补发）
+✅ 通知 ouyangfeng：🔔 KDO 新提审 1 单：#530，请终审
+🔔 夜间静默豁免：终审类信号照常推 ['ouyangfeng']（#520 老朱拍板口径）
+[conveyor_probe] 新提审 1 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条（夜间静默）
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260826_laowantong-review-landed-notification-gap.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+✅ 通知 huangyaoshi：✅ KDO 终审通过 1 单：#530——你的单过了，见任务单终审记录
+✅ 通知 wangyuyan：⚖️ KDO 已终审 1 单：#530（待部署/已闭环）
+🔔 夜间静默豁免：终审类信号照常推 ['huangyaoshi', 'wangyuyan']（#520 老朱拍板口径）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 2 条（夜间静默）
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260826_laowantong-review-landed-notification-gap.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 0 条（夜间静默）
+⚠️ [near-miss] diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260826_laowantong-review-landed-notification-gap.md 疑似建议书但三元组不完整：status=pending 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 0 条（夜间静默）
+🔕 夜间静默：1 条变更进待补发（天亮自动补发）
+[conveyor_probe] 新提审 0 / 新 queued 1 / 新登记 0 / near-miss 0 / 通知 1 条（夜间静默）
+🔕 夜间静默：1 条变更进待补发（天亮自动补发）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条（夜间静默）
+🔕 夜间静默：1 条变更进待补发（天亮自动补发）
+✅ 通知 ouyangfeng：🔔 KDO 新提审 1 单：#532，请终审
+🔔 夜间静默豁免：终审类信号照常推 ['ouyangfeng']（#520 老朱拍板口径）
+[conveyor_probe] 新提审 1 / 新 queued 1 / 新登记 0 / near-miss 0 / 通知 2 条（夜间静默）
+✅ 通知 huangyaoshi：✅ KDO 终审通过 1 单：#532——你的单过了，见任务单终审记录
+✅ 通知 wangyuyan：⚖️ KDO 已终审 1 单：#532（待部署/已闭环）
+🔔 夜间静默豁免：终审类信号照常推 ['huangyaoshi', 'wangyuyan']（#520 老朱拍板口径）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 2 条（夜间静默）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条（夜间静默）
+🔕 夜间静默：1 条变更进待补发（天亮自动补发）
+✅ 通知 ouyangfeng：🔔 KDO 新提审 1 单：#533，请终审
+🔔 夜间静默豁免：终审类信号照常推 ['ouyangfeng']（#520 老朱拍板口径）
+[conveyor_probe] 新提审 1 / 新 queued 1 / 新登记 0 / near-miss 0 / 通知 2 条（夜间静默）
+✅ 通知 huangyaoshi：✅ KDO 终审通过 1 单：#533——你的单过了，见任务单终审记录
+✅ 通知 wangyuyan：⚖️ KDO 已终审 1 单：#533（待部署/已闭环）
+🔔 夜间静默豁免：终审类信号照常推 ['huangyaoshi', 'wangyuyan']（#520 老朱拍板口径）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 2 条（夜间静默）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条（夜间静默）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条（夜间静默）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条（夜间静默）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条（夜间静默）
+⛔ gate-blocked 登记: +2 → PROPOSAL-PENDING
+🔕 夜间静默：1 条变更进待补发（天亮自动补发）
+✅ 通知 ouyangfeng：🔔 KDO 新提审 1 单：#534，请终审
+🔔 夜间静默豁免：终审类信号照常推 ['ouyangfeng']（#520 老朱拍板口径）
+[conveyor_probe] 新提审 1 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 2 条（夜间静默）
+✅ 通知 wangyuyan：⚖️ KDO 已终审 1 单：#534（待部署/已闭环）
+✅ 通知 huangyaoshi：✅ KDO 终审通过 1 单：#534——你的单过了，见任务单终审记录
+🔔 夜间静默豁免：终审类信号照常推 ['huangyaoshi', 'wangyuyan']（#520 老朱拍板口径）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 2 条（夜间静默）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条（夜间静默）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条（夜间静默）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条（夜间静默）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条（夜间静默）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条（夜间静默）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条（夜间静默）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条（夜间静默）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条（夜间静默）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条（夜间静默）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条（夜间静默）
+✅ 通知 ouyangfeng：🔔 KDO 新提审 1 单：#535，请终审
+🔔 夜间静默豁免：终审类信号照常推 ['ouyangfeng']（#520 老朱拍板口径）
+[conveyor_probe] 新提审 1 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 1 条（夜间静默）
+⛔ gate-blocked 登记: +1 → PROPOSAL-PENDING
+✅ 通知 wangyuyan：⚖️ KDO 已终审 1 单：#535（待部署/已闭环）
+✅ 通知 huangyaoshi：✅ KDO 终审通过 1 单：#535（PASS A·O2·有返工项）——你的单过了，见任务单终审记录
+🔔 夜间静默豁免：终审类信号照常推 ['huangyaoshi', 'wangyuyan']（#520 老朱拍板口径）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 2 条（夜间静默）
+✅ 通知 ouyangfeng：🔔 KDO 新提审 1 单：#536，请终审
+🔔 夜间静默豁免：终审类信号照常推 ['ouyangfeng']（#520 老朱拍板口径）
+[conveyor_probe] 新提审 1 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 1 条（夜间静默）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条（夜间静默）
+✅ 通知 wangyuyan：⚖️ KDO 已终审 1 单：#536（待部署/已闭环）
+✅ 通知 huangyaoshi：✅ KDO 终审通过 1 单：#536（PASS A）——你的单过了，见任务单终审记录
+🔔 夜间静默豁免：终审类信号照常推 ['huangyaoshi', 'wangyuyan']（#520 老朱拍板口径）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 2 条（夜间静默）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条（夜间静默）
+✅ 通知 ouyangfeng：🔔 KDO 新提审 1 单：#537，请终审
+🔔 夜间静默豁免：终审类信号照常推 ['ouyangfeng']（#520 老朱拍板口径）
+[conveyor_probe] 新提审 1 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 1 条（夜间静默）
+🔕 夜间静默：1 条变更进待补发（天亮自动补发）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条（夜间静默）
+🔕 夜间静默：1 条变更进待补发（天亮自动补发）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条（夜间静默）
+🔕 夜间静默：1 条变更进待补发（天亮自动补发）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条（夜间静默）
+🔕 夜间静默：1 条变更进待补发（天亮自动补发）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条（夜间静默）
+🔕 夜间静默：1 条变更进待补发（天亮自动补发）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条（夜间静默）
+✅ 通知 ouyangfeng：⛔ 总账未同步：#task 触碰基础设施（conveyor_probe.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+✅ 通知 huangyaoshi：📥 KDO 可领取 2 单：#537, #538
+[conveyor_probe] 新提审 0 / 新 queued 2 / 新登记 0 / near-miss 0 / 通知 1 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 1 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+✅ 通知 wangyuyan：⚖️ KDO 已终审 1 单：#537（待部署/已闭环）
+✅ 通知 huangyaoshi：✅ KDO 终审通过 1 单：#537（PASS A·有返工项）——你的单过了，见任务单终审记录
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 2 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+✅ 通知 ouyangfeng：🔔 KDO 新提审 1 单：#538，请终审
+[conveyor_probe] 新提审 1 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 1 条
+✅ 通知 wangyuyan：⚖️ KDO 已终审 1 单：#538（待部署/已闭环）；📋 抄送：⛔ 总账未同步：#538 触碰基础设施（queue_transition.py）但 notification-cover…
+✅ 通知 huangyaoshi：✅ KDO 终审通过 1 单：#538（PASS A）——你的单过了，见任务单终审记录
+✅ 通知 ouyangfeng：⛔ 总账未同步：#538 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 3 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+✅ 通知 ouyangfeng：🔔 KDO 新提审 1 单：#528，请终审
+✅ 通知 laowantong：📥 KDO 可领取 1 单：#539
+✅ 通知 huangyaoshi：📥 KDO 可领取 3 单：#540, #541, #542
+✅ 通知 wangyuyan：📬 KDO 新建议书 1 份待裁定：diag_20260826_huangyaoshi-clock-myqueue-standard.md
+[conveyor_probe] 新提审 1 / 新 queued 4 / 新登记 1 / near-miss 0 / 通知 4 条
+✅ 通知 huangyaoshi：✅ KDO 终审通过 1 单：#528（PASS A）——你的单过了，见任务单终审记录
+✅ 通知 wangyuyan：⚖️ KDO 已终审 1 单：#528（待部署/已闭环）
+[conveyor_probe] 新提审 0 / 新 queued 1 / 新登记 0 / near-miss 0 / 通知 2 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+⛔ gate-blocked 登记: +1 → PROPOSAL-PENDING
+✅ 通知 ouyangfeng：🔔 KDO 新提审 2 单：#539, #540，请终审
+✅ 通知 wangyuyan：⛔ KDO 门禁拦截 2 次（gate-blocked）：2026-08-26 21:00:20｜task_20260826_huangyaoshi-vlm-card-two-section｜E04…
+[conveyor_probe] 新提审 2 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 2 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+✅ 通知 ouyangfeng：📥 KDO 可领取 1 单：#544
+✅ 通知 huangyaoshi：📥 KDO 可领取 1 单：#545
+[conveyor_probe] 新提审 0 / 新 queued 2 / 新登记 0 / near-miss 0 / 通知 2 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条（夜间静默）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条（夜间静默）
+🔕 夜间静默：1 条变更进待补发（天亮自动补发）
+[conveyor_probe] 新提审 0 / 新 queued 1 / 新登记 0 / near-miss 0 / 通知 1 条（夜间静默）
+🔕 夜间静默：1 条变更进待补发（天亮自动补发）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条（夜间静默）
+🔕 夜间静默：1 条变更进待补发（天亮自动补发）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条（夜间静默）
+🔕 夜间静默：1 条变更进待补发（天亮自动补发）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 0 / 通知 0 条（夜间静默）

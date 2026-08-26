@@ -34,3 +34,12 @@
 - [2026-08-26 06:47] ⚖️ KDO 已终审 1 单：#536（待部署/已闭环）
 - [2026-08-26 07:12] ⚖️ KDO 已终审 1 单：#537（待部署/已闭环）；📋 抄送：⛔ 总账未同步：#task 触碰基础设施（conveyor_probe.py）但 notification-covera…
 - [2026-08-26 07:20] ⚠️ **#537 改判知会**：欧阳锋终审 PASS 后实跑发现第七信号首日误报（双 bug 实证），已在任务单留「更正与改判」节。另发现机制缺口：reviewed 后无机器改判通道（review --force 不接）——建议立项或在 #537 修复单顺带处理。
+- [2026-08-26 09:37] ⚖️ KDO 已终审 1 单：#537（待部署/已闭环）
+- [2026-08-26 10:27] ⚖️ KDO 已终审 1 单：#538（待部署/已闭环）；📋 抄送：⛔ 总账未同步：#538 触碰基础设施（queue_transition.py）但 notification-cover…
+- [2026-08-26 20:37] 📬 KDO 新建议书 1 份待裁定：diag_20260826_huangyaoshi-clock-myqueue-standard.md
+- [2026-08-26 20:47] ⚖️ KDO 已终审 1 单：#528（待部署/已闭环）
+- [2026-08-26 20:48] 📬 KDO 新建议书 1 份待裁定：diag_20260826_fengqingyang-audit-maxims-library.md
+- [2026-08-26 21:07] ⛔ KDO 门禁拦截 2 次（gate-blocked）：2026-08-26 21:00:20｜task_20260826_huangyaoshi-vlm-card-two-section｜E04…
+- [2026-08-26 21:46] 📬 KDO 新建议书 1 份待裁定：diag_20260826_ouyangfeng-source-refs-line-anchor-unreachable.md
+- [2026-08-26 21:52] ⚖️ KDO 已终审 1 单：#539（待部署/已闭环）
+- [2026-08-26 21:53] ⚖️ KDO 已终审 1 单：#540（待部署/已闭环）

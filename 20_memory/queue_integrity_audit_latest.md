@@ -1,10 +1,10 @@
 # 队列完整性审计报告
 
 - 审计范围: `C:\Users\Administrator\Desktop\wiki\60_feedback\tasks`, `C:\Users\Administrator\Desktop\wiki\70_product\tasks`
-- reviewed 任务单总数: 445
+- reviewed 任务单总数: 473
 - 任务单元数据异常数: 33
 - 队列/任务单状态不一致数: 3
-- 队列解析行数: 106
+- 队列解析行数: 128
 - 无法解析队列行数: 0（#456：行数异常禁静默跳过，列此清单）
 
 ## 任务单元数据异常列表（缺 review_date / reviewer / review 文件）

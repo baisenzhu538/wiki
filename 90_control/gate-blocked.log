@@ -46,3 +46,21 @@
 2026-08-24 22:57:35｜task_20260823_laowantong-addiction-series-caliber｜F-035-负向判词｜意见书含负向断言（缺失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋
 2026-08-24 23:57:15｜task_20260822_laowantong-tags-judgment-batch｜F-035-意见书｜任务单缺少「## 终审记录」节（#429 F-035：审查意见必须落盘，口头/群里意见=未审查）｜欧阳锋
 2026-08-25 02:03:19｜task_20260824_huangyaoshi-l1-date-archive｜F-035-负向判词｜意见书含负向断言（丢失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋
+2026-08-25 10:55:42｜task_20260825_huangyaoshi-src-unknown-body-gate｜F-035-负向判词｜意见书含负向断言（缺失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋
+2026-08-25 11:18:56｜diag_20260825_laowantong-rework-report-mirror-and-manifest-triq.md｜near-miss-三元组（#506）｜status=pending 疑似待编排但非 pending_orchestration｜conveyor_probe
+2026-08-25 23:32:32｜task_20260825_laowantong-oral-spray-dictation-supplement｜F-034-五字段｜执行报告缺 1 个字段（#429 F-034）：完成内容一句话。请补全后重试，或 --force --reason '<理由>' 声明例外（#444 台账留痕）。｜kimi-cli
+2026-08-26 00:25:41｜task_20260825_huangyaoshi-machine-pre-review-pipeline｜F-035-负向判词｜意见书含负向断言（不存在/「无历史」）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋
+2026-08-26 00:26:05｜task_20260825_huangyaoshi-machine-pre-review-pipeline｜F-035-负向判词｜意见书含负向断言（不存在/「无历史」）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋
+2026-08-26 00:54:30｜task_20260826_laowantong-token-economy-domain-debut｜F-036-问题落点｜审查发现问题未给落点（F-036）：- **预审报告观察**：本单四字段齐全+预审报告正常附着——#515 的 attach 吞内容 bug 未在本单复现（——必须在意见书注明去向（建议书路径 / 停｜欧阳锋
+2026-08-26 00:54:50｜task_20260826_laowantong-token-economy-domain-debut｜F-035-负向判词｜意见书含负向断言（「无需落点——记录」）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋
+2026-08-26 00:55:09｜task_20260826_laowantong-token-economy-domain-debut｜F-036-问题落点｜审查发现问题未给落点（F-036）：- **预审报告佐证**（正面记录备查）：本单四字段齐全+预审报告正常附着——#515 的 attach 吞内容 bug——必须在意见书注明去向（建议书路径 / 停｜欧阳锋
+2026-08-26 00:55:37｜task_20260826_laowantong-token-economy-domain-debut｜F-036-问题落点｜审查发现问题未给落点（F-036）：- **预审报告佐证**（正面记录备查）：本单四字段齐全+预审报告正常附着——#515 的 attach 吞内容缺陷（落——必须在意见书注明去向（建议书路径 / 停｜欧阳锋
+2026-08-26 01:27:00｜diag_20260826_laowantong-review-landed-notification-gap.md｜near-miss-三元组（#506）｜status=pending 疑似待编排但非 pending_orchestration｜conveyor_probe
+2026-08-26 04:02:13｜task_20260826_huangyaoshi-seed-dogfood-d-drive｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
+  - untracked: D:/tech-wiki/90_control/todos/wangyuyan.md
+｜huangyaoshi
+2026-08-26 06:12:32｜task_20260826_huangyaoshi-review-landed-notify｜F-035-负向判词｜意见书含负向断言（缺失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋
+2026-08-26 07:11:34｜task_20260826_huangyaoshi-matrix-sync-gate｜F-035-负向判词｜意见书含负向断言（未同步/缺失/「未同步」）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋
+2026-08-26 21:00:20｜task_20260826_huangyaoshi-vlm-card-two-section｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
+  - untracked: kdo/pre_submit.py
+  - untracked: tests/test｜huangyaoshi

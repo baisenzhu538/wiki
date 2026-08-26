@@ -4,7 +4,7 @@ updated_at: 2026-08-22T00:00:00+00:00
 status: active
 reviewed_by: 欧阳锋
 active_branch: main
-active_task: "2026-08-24 凌晨会话（五十闭环+批次验收）：#421-484 批量终审（含 #469 成瘾 4 卡/#481 水水一等证据补强 3+2/#482-484 我的建议书落地：commit bug 修复/噪声过滤/来源词黑名单）+ #426 七批批次验收（决策域 44/ai-collaboration 200 收官/content 14 等）——来源词黑名单 3 例实证→建议书→#484 工具化（污染率 0.66%）；批次阻塞豁免建议书。🔴 批次验收及时性纪律（批次优先）。TODO 移交：#417 版本脚本校验/#428+#431 aliases 清理/旧轨 08-26 归档/#421 跨夜实证/#429 waiting 巡检/#432+#434 mirror 待老朱/#426 双三角 11 张+剩余域待轴/#484 存量 19 张清理挂 #426/queue_batch_accept commit bug 已修（#482）。恢复：读 ouyangfeng-context + context + amnesia-recovery + daily-context 最新。"
+active_task: "2026-08-26 晚场自动领审（欧阳锋）：#539 终审 PASS A-（ADUCIT 概念卡英文逐字母对账全中；缺陷 C=frontmatter code_files 2/3 未列 core 卡回填；发现预审 SOURCE_REACHABILITY 不剥离 :行号 锚必误报→建议书）+ #540 终审 PASS A（VLM 两段式 schema/lint/存量 43 张清单全验；负向断言三连存在性核查过；E040 门禁拦截→补 commit 重提成功 32 秒闭环，但 gate-blocked 台账无化解标注→建议书）。两建议书 diag_20260826_ouyangfeng-source-refs-line-anchor-unreachable + diag_20260826_ouyangfeng-gate-blocked-resolved-residue 待王语嫣裁定。队列 pending_review 已清零。恢复：读 ouyangfeng-context + context + amnesia-recovery + daily-context 最新。"
 blockers:
   - "~~production-queue.md mojibake~~ 已闭环：#410 终审 PASS A（08-22 git 字节对齐恢复 186 行，残留 0，结构零变化）"
   - "O-3 已知 bug：queue_transition.py complete --force 对 queued 任务锁内 re-check 必失败——review 路径实测可用（2026-08-18 四单全通，含 --grade）"

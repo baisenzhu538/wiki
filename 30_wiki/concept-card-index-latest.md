@@ -1,4 +1,4 @@
-# Concept Card Index — 2026-08-24 18:08 UTC
+# Concept Card Index — 2026-08-25 18:07 UTC
 
 | ID | Title | Type | Domain |
 |---|---|---|---|
@@ -33,6 +33,7 @@
 | completion-criteria-design | 完成标准设定 | tool | learning-methodology, personal-growth |
 | concept-abundance-paradox | 富足悖论：为什么技术越富足，新问题越多 | concept | decision-making |
 | concept-addiction-threshold | 上瘾门槛论：让人上瘾的生意门槛极高——商业维度优先 | concept | decision-making |
+| concept-agent-as-token-consumer | 智能体是词元最大消费者：×100 倍消耗与「模型要为智能体而造」 | concept | strategy, ai-saas |
 | concept-ai-amara-law-business-judgment | 阿马拉定律与商业判断校准 | concept | ai-collaboration, critical-thinking, business-judgment |
 | concept-ai-chair-determines-view | 椅子决定视角 | concept | ai-collaboration, critical-thinking, business-judgment |
 | concept-ai-co-learning | AI共学模式：人+AI共学课程→固化知识→产生Skill | concept |  |
@@ -97,6 +98,7 @@
 | concept-structured-naming-as-infrastructure | 结构化命名即基础设施：人机共识的文件系统设计 | concept | system |
 | concept-thousand-people-square | 千人广场模型：一堂做课背后的统计建模理念 | concept | content, strategy |
 | concept-token-capital | Token Capital：AI 时代的第三种资本结构 | concept | ai-native, management, strategy |
+| concept-token-per-watt | Token per Watt：词元经济的核心 KPI 与电力定价权 | concept | strategy, ai-saas |
 | concept-truman-18-component-cards | Truman 原 18 组件源框架：五维度 × 每维 4 张牌 | concept | modeling |
 | concept-truman-feature-four-scenarios | 「概念：Feature四大应用场景——解题地图·调优·练习·坐标系」 | concept | ai-basic, methodology |
 | concept-truman-feature-six-stages | 「概念：Feature学习六阶段——从偶遇到肌肉记忆」 | concept | ai-basic, methodology |
@@ -635,6 +637,7 @@
 | framework-TCPR皇冠模型 | TCP-R皇冠模型：教学·咨询·实践·研究的统一框架 | framework | decision-science |
 | framework-time-management-dual-loop-matrix | 时间管理双循环矩阵：独立/协作 × 重点/效率 | framework |  |
 | framework-time-management-matrix | 重要/紧急四象限（艾森豪威尔矩阵） | framework |  |
+| framework-token-economy-three-layer | 词元经济三层格局：生产者/供应商/消费者 + 词元生产公式 | framework | strategy, ai-saas |
 | framework-truman-agent-team-architecture | Truman Agent 团队系统架构：缓冲站→Library→三团队→四库 | framework | knowledge-management, ai-collaboration |
 | framework-truman-feature-layered-system | 「框架：Feature分层体系——L0-L5六层+分层自洽」 | framework | ai-basic, methodology |
 | framework-truman-feature-thinking-core | 「框架：Feature思维——提升AI解题水平的最小实践单位」 | framework | ai-basic, methodology |
@@ -1040,6 +1043,8 @@
 | tool-opc-sales-dialogue-assistant | OPC 销售对话助手智能体 | tool | ai-collaboration, business-strategy |
 | tool-open-closed-problem-classifier | 开放/封闭问题分类器：判断任务该交给 AI 控制台还是 Agent 平台 | tool | ai-collaboration, ai-native, decision-making |
 | tool-openmontage-video-factory | OpenMontage 中文 MCP 版：AI 视频工厂 | tool | video-production, multimodal, ai-agent, mcp |
+| tool-oral-spray-demo-prompts-3samples | 口喷示范提示词三样本：调研类/方案类/封装类（教科书级原文） | tool | ai-collaboration |
+| tool-oral-spray-into-doc-not-chatbox | 喷文档里不喷聊天框：口喷出素材、AI 出结构（含配套提示词原文） | tool | ai-collaboration |
 | tool-oscar-kdo-external-exploration | OSCAR-KDO 融合：一堂 OSCAR 在 KDO 外部探索中的具体落地 | tool | research |
 | tool-osint-maltego | Maltego：实体关系图谱——画出目标公司的隐藏网络 | tool | research |
 | tool-osint-overview | OSINT工具总览：情报界的调研武器库 | tool | research |
@@ -1113,6 +1118,7 @@
 | tool-team-task-pool | 团队任务池 (Team Task Pool) | tool | time-management |
 | tool-tech-probability-80-filter | 李开复 80% 概率过滤器 | tool | ai-collaboration, critical-thinking, business-judgment |
 | tool-three-ring-capability-filter | cap_hub 三环过滤器——能力注册准入 checklist | tool | infrastructure, ai-collaboration |
+| tool-token-economy-mvp-five-steps | 垂直小模型 MVP 五步法 + 算力四途径 + 模型优化五法 + 五大变现模式 | tool | strategy, ai-saas |
 | tool-top-level-document | 顶层文档制度：每个项目有且只有一个入口 | tool | knowledge-management, management |
 | tool-trr-maturity-scale | TRR技术成熟度量表 | tool | innovation |
 | tool-Truman-AI场景探索STAR模型 | 技能：AI场景探索STAR模型 | tool | ai-collaboration |
@@ -2346,6 +2352,7 @@
 | dk-ai-self-evolution-prompt | AI 自进化话术：复盘末尾补一句"下次你可以更主动"——让 AI 每次变聪明一点 | dk | knowledge-management, ai-collaboration |
 | dk-ai-video-common-pitfalls | AI视频工具开发五大失败模式 | dk | ai-collaboration |
 | dk-AI知识库-隐性知识显性化60分原则 | 隐性知识显性化 60 分原则：先 60 分能解 60-70% 问题即值得 | dk | ai-knowledge, knowledge-management |
+| dk-analogy-blinds-search | 类比遮蔽检索：比喻带来「已理解」错觉，跳过实体验证 | dark-knowledge | ai-basic, kdo |
 | dk-anti-human-ux-is-feature | 反人性工具设计是特性：给 AI 用的笔记不需要人好写 | dk | knowledge-management, ai-collaboration |
 | dk-ban-fei-mao-atomic-no-standard | 暗知识：原子化没有固定标准 | dk | ai-collaboration |
 | dk-ban-fei-mao-real-business-is-the-engine | 暗知：真实业务是唯一的燃料——没有真实问题，工具化就是空中楼阁 | dk | ai-collaboration |
@@ -2475,6 +2482,7 @@
 | dk-occhams-knife-tool-migration | 除非必要勿增实体：工具迁移的保守原则（被震撼≠要迁移） | dk | knowledge-management, management |
 | dk-one-sentence-handover | 四棒接力"每次交接只说一句话"：无文档交接、无提示词传递 | dk | knowledge-management, ai-collaboration |
 | dk-oral-spray-newcomer-blockers | 口喷新人四难：错别字/没逻辑/怕骚扰/不稳定 + 解法 | dark-knowledge | ai-collaboration |
+| dk-oral-spray-training-vs-task-optimal | 喷干净=训练最优≠任务最优：目标函数切换的练习方法论 | dark-knowledge | ai-collaboration |
 | dk-p1-model-switch-env | P-1：切模型改环境变量无效——Claude Code 走全局设置 | dk | master |
 | dk-p10-oral-ban | P-10：口头禁令 vs 书面约束——审查意见必须落笔到任务文件 | dk | master |
 | dk-p11-regex-cutoff | P-11：validator `section_content` regex 在 `###` 处截断——所有文章 word count 失效 | dk | master |
@@ -2535,6 +2543,7 @@
 | dk-strategy-longzhong-four-failures | 隆中对失败四因：资源/联盟/执行/环境——诸葛亮都栽了 | dk | strategy |
 | dk-strategy-three-must-do-moments | 三种必做战略的时刻：快速扩张/业务平台期/行业下行期 | dk | strategy |
 | dk-three-context-formula | 15 秒做图三上下文公式：知道我是谁+检索项目文档+读取设计宪法 | dk | ai-collaboration, design |
+| dk-token-economy-critical-reading | 批判性拆书五条：事实层 vs 营销层分离（词元经济） | dark-knowledge | strategy, ai-saas |
 | dk-tool-adoption-by-force | 工具落地靠硬推不靠倡议："你不用 Obsidian 我没法跟你协作" | dk | knowledge-management, management |
 | dk-tool-as-answer-trap | 把工具/框架当成答案，而不是提问的脚手架 | dk | lean-startup, tob, modeling |
 | dk-tool-as-phased-validator | 把 AI/工具当成分阶段校验器，而不是一次性生成器 | dk | ai-collaboration, product, modeling |
