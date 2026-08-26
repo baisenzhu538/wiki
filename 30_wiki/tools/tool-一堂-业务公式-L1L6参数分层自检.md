@@ -26,8 +26,8 @@ source_context:
 source_refs:
 - 00_inbox/关键假设C-拆解业务公式/孔源-业务公式拆解-冰山模型图_paddle_ocr.txt
 - 00_inbox/关键假设C-拆解业务公式/孔源-业务公式拆解-6层逻辑关系图_paddle_ocr.txt
-- 00_inbox/关键假设C-拆解业务公式/孔源-业务公式拆解-口述.txt L178-L194
-- 00_inbox/关键假设C-拆解业务公式/孔源-业务公式拆解-笔记.txt L31-L71
+- 10_raw/sources/key-assumptions/孔源-业务公式拆解-口述.txt:178-194
+- 10_raw/sources/key-assumptions/孔源-业务公式拆解-笔记.txt:31-71
 discoverable_by:
   - 工具：业务公式 L1-L6 参数分层自检——看得清/讲得明/
   - 业务公式

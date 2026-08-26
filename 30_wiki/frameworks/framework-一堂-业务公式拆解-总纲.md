@@ -23,9 +23,9 @@ aliases:
 source_context:
   - yitang
 source_refs:
-- 00_inbox/关键假设C-拆解业务公式/孔源-业务公式拆解-口述.txt L178-L194
-- 00_inbox/关键假设C-拆解业务公式/孔源-业务公式拆解-口述.txt L2474-L2500
-- 00_inbox/关键假设C-拆解业务公式/孔源-业务公式拆解-笔记.txt L15-L86
+- 10_raw/sources/key-assumptions/孔源-业务公式拆解-口述.txt:178-194
+- 10_raw/sources/key-assumptions/孔源-业务公式拆解-口述.txt:2474-2500
+- 10_raw/sources/key-assumptions/孔源-业务公式拆解-笔记.txt:15-86
 - 00_inbox/关键假设C-拆解业务公式/孔源-业务公式拆解-ABC模型图_paddle_ocr.txt
 - 00_inbox/关键假设C-拆解业务公式/孔源-业务公式拆解-冰山模型图_paddle_ocr.txt
 - 00_inbox/关键假设C-拆解业务公式/孔源-业务公式拆解-6层逻辑关系图_paddle_ocr.txt
