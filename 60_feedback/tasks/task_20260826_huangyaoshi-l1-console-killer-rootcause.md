@@ -2,8 +2,8 @@
 id: 547
 assignee: huangyaoshi
 status: queued
-updated_at: '2026-08-26T23:10:00+00:00'
-version: v0.1
+updated_at: '2026-08-26T23:30:00+00:00'
+version: v0.2
 instance: huangyaoshi
 code_files:
   - kdo-tools/l1_capture.py
@@ -24,7 +24,7 @@ code_files:
 ## 任务
 
 1. **根因排查（留档即可，不硬修）**：查 08-25 09:07→09:37 窗口的 Windows 事件日志（Application/System）、新进程安装/更新、Defender/杀软排除项变化——定位或排除 console 杀手；若无法定位，如实记「一次性事件留档」
-2. **空转报警**：l1-size.log 最新拍年龄 >2×周期（60 分钟）→ health-check 报警（复用 #519 check-conveyor-state.py 模式泛化，不新造轮子）
+2. **基建运行态报警（10 分钟级，不是日级）**：l1-size.log 最新拍年龄 >2×周期（60 分钟）→ 报警。**挂载点=conveyor_probe 新信号（10 分钟级）**，不是 health-check（日级 02:07——console-killer 09:37 断拍要等到次日 02:07=17h 延迟，不可接受）。同模式顺带覆盖关键计划任务状态年龄：conveyor_state（check-conveyor-state.py 已有逻辑，从日级提升到探针同频——探针崩了不能等 24h）+ inbox-watch 落盘年龄。报警通道复用 gate-blocked 同族（推王语嫣+台账）
 3. §3.19：若涉及事件/信号变更 → 同步通知覆盖矩阵
 
 ## 边界
