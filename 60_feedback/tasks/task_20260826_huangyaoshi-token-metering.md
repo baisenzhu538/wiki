@@ -1,12 +1,12 @@
 ---
 id: 549
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-26T23:10:00+00:00'
+status: in_progress
+updated_at: '2026-08-26T20:07:35.343451+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
-  - 90_control/scripts/
+- 90_control/scripts/
 ---
 
 # #549 全厂 token 计量：会话级 usage 落事件层（消耗不可观测=无法管理）
