@@ -90,6 +90,59 @@ def cmd_log(agent: str, event: str, payload: str | None, session: str | None) ->
     return 0
 
 
+def _insert_event(agent: str, event: str, payload: str | None, session: str | None) -> None:
+    """单写入面的实际 INSERT（#545 拆出供重试复用）。失败抛异常给调用方。"""
+    conn = _connect(A_DB)
+    try:
+        summary = (payload or "")[:1000]
+        conn.execute(
+            "INSERT INTO activity_log (agent_id, session_id, ts, event_type, payload_summary, payload_hash) VALUES (?,?,?,?,?,?)",
+            (agent, session, _utcnow(), event, summary, _sha256(payload or "")),
+        )
+        conn.commit()
+    finally:
+        conn.close()
+
+
+def _readonly_forensics(db_path: Path) -> str:
+    """#545：readonly 失败取证——db/wal/shm 属性快照（置位=外部因素实证）。"""
+    import stat as _stat
+    parts = []
+    for suffix in ("", "-wal", "-shm"):
+        f = Path(str(db_path) + suffix)
+        if f.exists():
+            ro = not bool(f.stat().st_mode & _stat.S_IWRITE)
+            parts.append(f"{f.name}:{'READONLY' if ro else 'writable'}")
+        else:
+            parts.append(f"{f.name}:missing")
+    return ",".join(parts)
+
+
+def _clear_readonly(db_path: Path) -> bool:
+    """#545：清 db/wal/shm 只读属性。返回是否有清除动作。"""
+    import stat as _stat
+    cleared = False
+    for suffix in ("", "-wal", "-shm"):
+        f = Path(str(db_path) + suffix)
+        try:
+            if f.exists() and not (f.stat().st_mode & _stat.S_IWRITE):
+                f.chmod(f.stat().st_mode | _stat.S_IWRITE)
+                cleared = True
+        except OSError:
+            pass
+    return cleared
+
+
+def _pending_log(line: str) -> None:
+    """失败/自愈留痕（90_control/pending-git-commits.log）。"""
+    try:
+        log_path = Path(__file__).resolve().parent.parent / "90_control" / "pending-git-commits.log"
+        with open(log_path, "a", encoding="utf-8") as f:
+            f.write(f"\n# {datetime.now().strftime('%Y-%m-%d %H:%M')} {line}\n")
+    except Exception:
+        pass
+
+
 def log_event_safe(agent: str, event: str, payload: str | None, session: str | None = None) -> bool:
     """#511：事件写入安全封装（失败可见不静默，不阻断主流程）。
 
@@ -97,27 +150,41 @@ def log_event_safe(agent: str, event: str, payload: str | None, session: str | N
     各写入点（queue_transition 流转钩/conveyor_probe friction 扫描/gate-blocked+force 台账）
     只调本函数，不直接碰 sqlite——单写入面纪律。
     返回是否写入成功；失败 stderr 醒目报警 + 落 pending-git-commits.log 待收口。
+
+    #545：readonly 复发根治——①readonly 语义先清只读属性自愈重试；②任意失败 0.5s 退避再试一次；
+    ③最终失败取证升级（payload + db/wal/shm 属性快照），复发时可直接定位置位者。
     """
     try:
         if not A_DB.exists():
             cmd_init()
-        conn = _connect(A_DB)
-        summary = (payload or "")[:1000]
-        conn.execute(
-            "INSERT INTO activity_log (agent_id, session_id, ts, event_type, payload_summary, payload_hash) VALUES (?,?,?,?,?,?)",
-            (agent, session, _utcnow(), event, summary, _sha256(payload or "")),
-        )
-        conn.commit()
-        conn.close()
+        _insert_event(agent, event, payload, session)
         return True
     except Exception as e:
-        print(f"⛔ 胶囊事件写入失败（不阻断主流程）：agent={agent} event={event}: {e}", file=sys.stderr)
+        first_err = e
+
+    # 自愈路径 1：readonly → 清属性重试
+    if "readonly" in str(first_err).lower():
+        cleared = _clear_readonly(A_DB)
         try:
-            log_path = Path(__file__).resolve().parent.parent / "90_control" / "pending-git-commits.log"
-            with open(log_path, "a", encoding="utf-8") as f:
-                f.write(f"\n# {datetime.now().strftime('%Y-%m-%d %H:%M')} 胶囊事件写入失败（#511）agent={agent} event={event}: {e}\n")
+            _insert_event(agent, event, payload, session)
+            msg = (f"胶囊只读自愈成功（#545）agent={agent} event={event} "
+                   f"cleared={cleared} attrs=[{_readonly_forensics(A_DB)}] payload={str(payload)[:200]}")
+            print(f"⚠️ {msg}", file=sys.stderr)
+            _pending_log(msg)
+            return True
         except Exception:
             pass
+
+    # 自愈路径 2：瞬时占用/锁 → 退避重试一次
+    time.sleep(0.5)
+    try:
+        _insert_event(agent, event, payload, session)
+        return True
+    except Exception as e2:
+        msg = (f"胶囊事件写入失败（#511/#545）agent={agent} event={event}: {e2} "
+               f"attrs=[{_readonly_forensics(A_DB)}] payload={str(payload)[:200]}")
+        print(f"⛔ {msg}（不阻断主流程）", file=sys.stderr)
+        _pending_log(msg)
         return False
 
 

@@ -25,6 +25,7 @@
 | 12 | 终审改判（review --override，reviewed→queued） | queue_transition | 任务单改判记录节+台账（--reason 必填）+failback 通知 | 改判权=终审者专用 | — | #538（⚠️交付漏登，第七信号真阳性拦获，王语嫣 08-26 补登） |
 | 13 | 检索结果低置信/冲突警告 | kdo_search 输出字段（confidence_flag/trust_level/conflict_warning）+标题后缀 | MCP 检索响应（消费 agent 可见） | 全体消费 agent | — | #541（trust 加权排序+conflict_with 警告，协议互链 consumer-retrieval-protocol） |
 | 14 | source_refs 死引超基线 | check-source-refs（health-check 每日 02:07，--max-missing 1024/--max-contaminated 8 阈值制） | health-check FAIL + 报告落盘 60_feedback/analysis/source-refs-health-latest.{md,json} | 黄药师（治理）/王语嫣（阈值下调裁定） | — | #543（行号锚剥除+聚类治理报告；治理批次待王语嫣裁定） |
+| 15 | 胶囊写入失败/只读自愈 | memory_capsule `log_event_safe`（#545：清只读属性自愈+退避重试+取证升级） | stderr + pending-git-commits.log（含 payload+db/wal/shm 属性快照） | 黄药师 | — | #545（readonly 复发 14 次根因取证：db 被外部置只读属性，置位者未抓到现行=环境性） |
 
 ## 缺口台账
 

@@ -39,17 +39,48 @@ def test_log_event_safe_writes_row(tmp_path, monkeypatch):
 
 
 def test_log_event_safe_failure_visible_not_silent(tmp_path, monkeypatch):
-    """失败可见不静默：DB 不可写 → 返回 False + 不抛异常（不阻断主流程）。"""
-    db = tmp_path / "activity_log.db"
-    monkeypatch.setattr(mc, "A_DIR", tmp_path)
-    monkeypatch.setattr(mc, "A_DB", db)
-    mc.cmd_init()
-    db.chmod(0o444)  # 只读 → INSERT 失败
-    try:
-        ok = mc.log_event_safe("huangyaoshi", "error", "x")
-    finally:
-        db.chmod(0o644)
+    """失败可见不静默：写入面永久故障（非属性可自愈）→ 返回 False + 不抛异常（不阻断主流程）。
+    #545：只读属性场景已升级为自愈（见下一条）；本例用 monkeypatch 模拟持续失败。"""
+    db = _tmp_db(tmp_path, monkeypatch)
+    def _always_fail(*a, **kw):
+        raise sqlite3.OperationalError("attempt to write a readonly database")
+    monkeypatch.setattr(mc, "_insert_event", _always_fail)
+    monkeypatch.setattr(mc.time, "sleep", lambda *_: None)  # 测试不等退避
+    monkeypatch.setattr(mc, "_pending_log", lambda *_: None)  # 不污染真实待收口日志
+    ok = mc.log_event_safe("huangyaoshi", "error", "x")
     assert ok is False
+
+
+def test_log_event_safe_readonly_attr_self_heals(tmp_path, monkeypatch):
+    """#545 主回归：db 文件被置只读属性 → 自动清属性 + 重试写入成功（08-26 14 次复发的场景）。"""
+    db = _tmp_db(tmp_path, monkeypatch)
+    db.chmod(0o444)  # 外部因素置只读（复现 "attempt to write a readonly database"）
+    monkeypatch.setattr(mc.time, "sleep", lambda *_: None)
+    monkeypatch.setattr(mc, "_pending_log", lambda *_: None)  # 不污染真实待收口日志
+    try:
+        ok = mc.log_event_safe("huangyaoshi", "error", "gate-blocked;task=t1")
+    finally:
+        db.chmod(0o644)  # 清理，防 tmp 目录删除失败
+    assert ok is True
+    rows = _events(db)
+    assert rows == [("huangyaoshi", "error", "gate-blocked;task=t1")]
+    assert db.stat().st_mode & 0o200  # 只读属性已被清除
+
+
+def test_log_event_safe_transient_lock_retry(tmp_path, monkeypatch):
+    """#545：瞬时失败（锁/占用）→ 退避重试一次后成功。"""
+    db = _tmp_db(tmp_path, monkeypatch)
+    calls = {"n": 0}
+    real_insert = mc._insert_event
+    def _flaky(*a, **kw):
+        calls["n"] += 1
+        if calls["n"] == 1:
+            raise sqlite3.OperationalError("database is locked")
+        return real_insert(*a, **kw)
+    monkeypatch.setattr(mc, "_insert_event", _flaky)
+    monkeypatch.setattr(mc.time, "sleep", lambda *_: None)
+    ok = mc.log_event_safe("huangyaoshi", "friction", "f1")
+    assert ok is True and calls["n"] == 2
 
 
 def test_transition_hook_writes_queue_and_decision_events(tmp_path, monkeypatch):
