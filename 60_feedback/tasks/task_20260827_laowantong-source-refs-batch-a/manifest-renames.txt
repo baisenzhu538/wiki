@@ -1,0 +1,111 @@
+COMMIT 18bf24cf6 #557 批次A（handle-the-business）：归档45文件+120卡529引用改写 by laowantong
+COMMIT 03ae9f80e #557 批次A（handle-the-business）：归档45文件+引用改写 by laowantong
+R100	00_inbox/Handle the business/Business formula/_vlm_output/一堂业务公式-参数挖掘武器库（极其重要，需要精细识别）_vlm.md	10_raw/sources/handle-the-business/Business formula/_vlm_output/一堂业务公式-参数挖掘武器库（极其重要，需要精细识别）_vlm.md
+R100	00_inbox/Handle the business/Business formula/_vlm_output/业务公式十大经典范式_vlm.md	10_raw/sources/handle-the-business/Business formula/_vlm_output/业务公式十大经典范式_vlm.md
+R100	00_inbox/Handle the business/Business formula/_vlm_output/业务公式的参数冰山_vlm.md	10_raw/sources/handle-the-business/Business formula/_vlm_output/业务公式的参数冰山_vlm.md
+R100	00_inbox/Handle the business/Business formula/_vlm_output/整合笔记_业务公式完整版.md	10_raw/sources/handle-the-business/Business formula/_vlm_output/整合笔记_业务公式完整版.md
+R100	00_inbox/Handle the business/Business formula/_vlm_output/王语嫣_五篇逐字稿精读索引.md	10_raw/sources/handle-the-business/Business formula/_vlm_output/王语嫣_五篇逐字稿精读索引.md
+R100	00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt	10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-参数探索篇-口述.txt
+R100	00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt	10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-实操篇-口述.txt
+R100	00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt	10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-管理篇-口述.txt
+R100	00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt	10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-进阶篇-口述.txt
+R100	00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt	10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt
+R100	00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-口述.txt	10_raw/sources/handle-the-business/Target goal/目标管理-底层逻辑与实践-周子敬-口述.txt
+R100	00_inbox/Handle the business/conversion rate/Truman常用经典故事线框架笔记_逐字稿.md	10_raw/sources/handle-the-business/conversion rate/Truman常用经典故事线框架笔记_逐字稿.md
+R100	00_inbox/Handle the business/conversion rate/_vlm_native_text/优秀转化率复盘合集/p001.txt	10_raw/sources/handle-the-business/conversion rate/_vlm_native_text/优秀转化率复盘合集/p001.txt
+R100	00_inbox/Handle the business/conversion rate/_vlm_native_text/优秀转化率复盘合集/p002.txt	10_raw/sources/handle-the-business/conversion rate/_vlm_native_text/优秀转化率复盘合集/p002.txt
+R100	00_inbox/Handle the business/conversion rate/_vlm_native_text/优秀转化率复盘合集/p003.txt	10_raw/sources/handle-the-business/conversion rate/_vlm_native_text/优秀转化率复盘合集/p003.txt
+R100	00_inbox/Handle the business/conversion rate/_vlm_native_text/优秀转化率复盘合集/p004.txt	10_raw/sources/handle-the-business/conversion rate/_vlm_native_text/优秀转化率复盘合集/p004.txt
+R100	00_inbox/Handle the business/conversion rate/_vlm_native_text/优秀转化率复盘合集/p005.txt	10_raw/sources/handle-the-business/conversion rate/_vlm_native_text/优秀转化率复盘合集/p005.txt
+R100	00_inbox/Handle the business/conversion rate/_vlm_native_text/优秀转化率复盘合集/p006.txt	10_raw/sources/handle-the-business/conversion rate/_vlm_native_text/优秀转化率复盘合集/p006.txt
+R100	00_inbox/Handle the business/conversion rate/_vlm_native_text/小米发布会拆解练习/p001.txt	10_raw/sources/handle-the-business/conversion rate/_vlm_native_text/小米发布会拆解练习/p001.txt
+R100	00_inbox/Handle the business/conversion rate/_vlm_native_text/小米发布会拆解练习/p002.txt	10_raw/sources/handle-the-business/conversion rate/_vlm_native_text/小米发布会拆解练习/p002.txt
+R100	00_inbox/Handle the business/conversion rate/_vlm_native_text/小米发布会拆解练习/p003.txt	10_raw/sources/handle-the-business/conversion rate/_vlm_native_text/小米发布会拆解练习/p003.txt
+R100	00_inbox/Handle the business/conversion rate/_vlm_native_text/小米发布会拆解练习/p004.txt	10_raw/sources/handle-the-business/conversion rate/_vlm_native_text/小米发布会拆解练习/p004.txt
+R100	00_inbox/Handle the business/conversion rate/_vlm_native_text/小米发布会拆解练习/p005.txt	10_raw/sources/handle-the-business/conversion rate/_vlm_native_text/小米发布会拆解练习/p005.txt
+R100	00_inbox/Handle the business/conversion rate/_vlm_native_text/小米发布会拆解练习/p006.txt	10_raw/sources/handle-the-business/conversion rate/_vlm_native_text/小米发布会拆解练习/p006.txt
+R100	00_inbox/Handle the business/conversion rate/_vlm_native_text/小米发布会拆解练习/p007.txt	10_raw/sources/handle-the-business/conversion rate/_vlm_native_text/小米发布会拆解练习/p007.txt
+R100	00_inbox/Handle the business/conversion rate/_vlm_native_text/小米发布会拆解练习/p008.txt	10_raw/sources/handle-the-business/conversion rate/_vlm_native_text/小米发布会拆解练习/p008.txt
+R100	00_inbox/Handle the business/conversion rate/_vlm_native_text/小米发布会拆解练习/p062.txt	10_raw/sources/handle-the-business/conversion rate/_vlm_native_text/小米发布会拆解练习/p062.txt
+R100	00_inbox/Handle the business/conversion rate/_vlm_native_text/小米发布会拆解练习/p063.txt	10_raw/sources/handle-the-business/conversion rate/_vlm_native_text/小米发布会拆解练习/p063.txt
+R100	00_inbox/Handle the business/conversion rate/_vlm_output/PDF校验_修正清单.md	10_raw/sources/handle-the-business/conversion rate/_vlm_output/PDF校验_修正清单.md
+R100	00_inbox/Handle the business/conversion rate/_vlm_output/晓莉案例/晓莉-转化率黑客-FAB基础价值-图-01_vlm.md	10_raw/sources/handle-the-business/conversion rate/_vlm_output/晓莉案例/晓莉-转化率黑客-FAB基础价值-图-01_vlm.md
+R100	00_inbox/Handle the business/conversion rate/_vlm_output/晓莉案例/晓莉-转化率黑客-成交触点-01_vlm.md	10_raw/sources/handle-the-business/conversion rate/_vlm_output/晓莉案例/晓莉-转化率黑客-成交触点-01_vlm.md
+R100	00_inbox/Handle the business/conversion rate/_vlm_output/晓莉案例/晓莉-转化率黑客-敲开门-图-01_vlm.md	10_raw/sources/handle-the-business/conversion rate/_vlm_output/晓莉案例/晓莉-转化率黑客-敲开门-图-01_vlm.md
+R100	00_inbox/Handle the business/conversion rate/_vlm_output/晓莉案例/晓莉-转化率黑客-案例-图-01_vlm.md	10_raw/sources/handle-the-business/conversion rate/_vlm_output/晓莉案例/晓莉-转化率黑客-案例-图-01_vlm.md
+R100	00_inbox/Handle the business/conversion rate/_vlm_output/晓莉案例/晓莉-转化率黑客-现场触点拆解-01_vlm.md	10_raw/sources/handle-the-business/conversion rate/_vlm_output/晓莉案例/晓莉-转化率黑客-现场触点拆解-01_vlm.md
+R100	00_inbox/Handle the business/conversion rate/_vlm_output/晓莉案例/晓莉-转化率黑客-触点拆解表-图-01_vlm.md	10_raw/sources/handle-the-business/conversion rate/_vlm_output/晓莉案例/晓莉-转化率黑客-触点拆解表-图-01_vlm.md
+R100	00_inbox/Handle the business/conversion rate/_vlm_output/晓莉案例/晓莉-转化率黑客-选对人-图-01_vlm.md	10_raw/sources/handle-the-business/conversion rate/_vlm_output/晓莉案例/晓莉-转化率黑客-选对人-图-01_vlm.md
+R100	00_inbox/Handle the business/conversion rate/_vlm_output/晓莉案例/晓莉-转化率黑客-阻力消除法-图-01_vlm.md	10_raw/sources/handle-the-business/conversion rate/_vlm_output/晓莉案例/晓莉-转化率黑客-阻力消除法-图-01_vlm.md
+R100	00_inbox/Handle the business/conversion rate/_vlm_output/质检报告_PDF案例合集校验.md	10_raw/sources/handle-the-business/conversion rate/_vlm_output/质检报告_PDF案例合集校验.md
+R100	00_inbox/Handle the business/conversion rate/优秀触点案例合集_逐字稿.md	10_raw/sources/handle-the-business/conversion rate/优秀触点案例合集_逐字稿.md
+R100	00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt	10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt
+R100	00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-入门篇-口述.txt	10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力阻力触点-入门篇-口述.txt
+R100	00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt	10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt
+R100	00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt	10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt
+R100	00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-笔记.txt	10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力阻力触点-组合篇-笔记.txt
+R100	00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-阻力篇-口述.txt	10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力阻力触点-阻力篇-口述.txt
+COMMIT 695a2e67b #557 批次A（yitang-lectures 根目录散文件）：归档+引用改写 by laowantong
+R100	00_inbox/一堂-个人修炼-讲香十指模型口述版.txt	10_raw/sources/yitang-lectures/一堂-个人修炼-讲香十指模型口述版.txt
+R100	00_inbox/一堂-个人修身-泛产品设计实操口述版.md	10_raw/sources/yitang-lectures/一堂-个人修身-泛产品设计实操口述版.md
+R100	00_inbox/一堂-个人修身-泛产品设计审美口述.md	10_raw/sources/yitang-lectures/一堂-个人修身-泛产品设计审美口述.md
+R100	00_inbox/一堂-产品内核实操课-Truman-口述.txt	10_raw/sources/yitang-lectures/一堂-产品内核实操课-Truman-口述.txt
+R100	00_inbox/一堂-产品内核迭代课-Truman-口述.txt	10_raw/sources/yitang-lectures/一堂-产品内核迭代课-Truman-口述.txt
+R100	00_inbox/一堂-产品内核验证课-Truman-口述.txt	10_raw/sources/yitang-lectures/一堂-产品内核验证课-Truman-口述.txt
+R100	00_inbox/一堂-关键假设课-truman-口述.txt	10_raw/sources/yitang-lectures/一堂-关键假设课-truman-口述.txt
+R100	00_inbox/一堂-成瘾与自我管理分享-口述.md	10_raw/sources/yitang-lectures/一堂-成瘾与自我管理分享-口述.md
+R100	00_inbox/一堂-机会预判-咖啡店案例-五步法预判_paddle_ocr.txt	10_raw/sources/yitang-lectures/一堂-机会预判-咖啡店案例-五步法预判_paddle_ocr.txt
+R100	00_inbox/一堂-机会预判-咖啡案例01_paddle_ocr.txt	10_raw/sources/yitang-lectures/一堂-机会预判-咖啡案例01_paddle_ocr.txt
+R100	00_inbox/一堂-机会预判-终局光谱图示例-truman-图01_paddle_ocr.txt	10_raw/sources/yitang-lectures/一堂-机会预判-终局光谱图示例-truman-图01_paddle_ocr.txt
+R100	00_inbox/一堂-机会预判-终局光谱图解读-truman-02_paddle_ocr.txt	10_raw/sources/yitang-lectures/一堂-机会预判-终局光谱图解读-truman-02_paddle_ocr.txt
+R100	00_inbox/拆书会第216期：《成瘾》逐字稿.md	10_raw/sources/yitang-lectures/拆书会第216期：《成瘾》逐字稿.md
+COMMIT 37f5257cc #557 批次A（yitang-five-step-growth）：归档+引用改写 by laowantong
+R100	00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt	10_raw/sources/yitang-five-step-growth/truman-渠道探索方法论-口述.txt
+COMMIT 6c54019b8 #557 批次A（yitang-five-step）：归档+引用改写 by laowantong
+R100	00_inbox/一堂五步法/一堂-一堂五步法-增长-口述.txt	10_raw/sources/yitang-five-step/一堂-一堂五步法-增长-口述.txt
+COMMIT 890b90d19 #557 批次A（banfeimao-offline）：归档+引用改写 by laowantong
+R100	00_inbox/半肥猫月白老朱线下聚会/AI应用研讨-半肥猫月白老朱-事后笔记.txt	10_raw/sources/banfeimao-offline/AI应用研讨-半肥猫月白老朱-事后笔记.txt
+R100	00_inbox/半肥猫月白老朱线下聚会/AI应用研讨-半肥猫月白老朱-交流录音.txt	10_raw/sources/banfeimao-offline/AI应用研讨-半肥猫月白老朱-交流录音.txt
+COMMIT d51bd2c7c #557 批次A（multimodal-output）：归档+引用改写 by laowantong
+R100	00_inbox/多模态输出/王欢：把一个想法，做成一张会移动的无限画布/王欢：把一个想法，做成一张会移动的无限画布.md	10_raw/sources/multimodal-output/王欢：把一个想法，做成一张会移动的无限画布/王欢：把一个想法，做成一张会移动的无限画布.md
+COMMIT cb69a703f #557 批次A（thought-liberation）：归档+引用改写 by laowantong
+R100	00_inbox/解放思想探索营/解放思想创新体系-探索营-口述.txt	10_raw/sources/thought-liberation/解放思想创新体系-探索营-口述.txt
+COMMIT 519973f89 #557 批次A（research-topics）：归档+引用改写 by laowantong
+R100	00_inbox/调研专题/调研超级武器库_ocr_text.md	10_raw/sources/research-topics/调研超级武器库_ocr_text.md
+COMMIT 1ce8ea1b8 #557 批次A（strategy）：归档+引用改写 by laowantong
+R100	00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md	10_raw/sources/strategy/冉鹏战略课逐字稿_ocr.md
+COMMIT 24c9f5e74 #557 批次A（ai-outpost-ep2）：归档+引用改写 by laowantong
+R100	00_inbox/AI前哨站第2集/水水-AI前哨-第二期-口述.txt	10_raw/sources/ai-outpost-ep2/水水-AI前哨-第二期-口述.txt
+COMMIT 5dbf2e1c7 #557 批次A（key-assumptions）：归档+引用改写 by laowantong
+R100	00_inbox/关键假设C-拆解业务公式/孔源-业务公式拆解-口述.txt	10_raw/sources/key-assumptions/孔源-业务公式拆解-口述.txt
+R100	00_inbox/关键假设C-拆解业务公式/孔源-业务公式拆解-笔记.txt	10_raw/sources/key-assumptions/孔源-业务公式拆解-笔记.txt
+COMMIT 516be73f6 #557 批次A（profit-first）：归档+引用改写 by laowantong
+R100	00_inbox/利润为王/《真正的利润》拆书逐字稿 — 水水｜战略定价顾问.md	10_raw/sources/profit-first/《真正的利润》拆书逐字稿 — 水水｜战略定价顾问.md
+R100	00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt	10_raw/sources/profit-first/经营课：利润认知与企业生存-口述.txt
+COMMIT d0af843dd #557 批次A（sales 补漏）：2张缩进卡手修+多区间锚拆行 by laowantong
+COMMIT 311ec7441 #557 批次A（demand-analysis）：归档+引用改写 by laowantong
+R100	00_inbox/五步法之需求分析/一堂-需求分析-JTBD理论-口述.txt	10_raw/sources/demand-analysis/一堂-需求分析-JTBD理论-口述.txt
+R100	00_inbox/五步法之需求分析/一堂-需求分析-方法论-口述.txt	10_raw/sources/demand-analysis/一堂-需求分析-方法论-口述.txt
+R100	00_inbox/五步法之需求分析/一堂-需求分析-需求评估-口述.txt	10_raw/sources/demand-analysis/一堂-需求分析-需求评估-口述.txt
+COMMIT 6b38c83be #557 批次A（manage-the-team）：归档+引用改写 by laowantong
+R100	00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功拆解-口述.txt	10_raw/sources/manage-the-team/Fundamentals Seminar/一堂-基本功拆解-口述.txt
+R100	00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功方法论入门-口述.txt	10_raw/sources/manage-the-team/Fundamentals Seminar/一堂-基本功方法论入门-口述.txt
+R100	00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功方法论武器库-口述.txt	10_raw/sources/manage-the-team/Fundamentals Seminar/一堂-基本功方法论武器库-口述.txt
+R100	00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功落地案例篇-春萍-口述.txt	10_raw/sources/manage-the-team/Fundamentals Seminar/一堂-基本功落地案例篇-春萍-口述.txt
+COMMIT 66a7cdf50 #557 批次A（banfeimao-openmic）：归档+引用改写 by laowantong
+R100	00_inbox/半肥猫开放麦-AI知识库/AI×知识管理-开放麦-逐字稿.md	10_raw/sources/banfeimao-openmic/AI×知识管理-开放麦-逐字稿.md
+R100	00_inbox/半肥猫开放麦-AI知识库/AI知识库-知识库搭建与落地-半肥猫-口述.txt	10_raw/sources/banfeimao-openmic/AI知识库-知识库搭建与落地-半肥猫-口述.txt
+R100	00_inbox/半肥猫开放麦-AI知识库/_vlm_desc.md	10_raw/sources/banfeimao-openmic/_vlm_desc.md
+R100	00_inbox/半肥猫开放麦-AI知识库/标签示例.yaml	10_raw/sources/banfeimao-openmic/标签示例.yaml
+R100	00_inbox/半肥猫开放麦-AI知识库/给王语嫣的任务编排建议-半肥猫开放麦-AI知识库.md	10_raw/sources/banfeimao-openmic/给王语嫣的任务编排建议-半肥猫开放麦-AI知识库.md
+COMMIT f0ecfe665 #557 批次A（sales）：归档+引用改写 by laowantong
+R100	00_inbox/销售专题/_processed/销售体系之一-益涂工业化筛选线索模型_vlm.md	10_raw/sources/sales/_processed/销售体系之一-益涂工业化筛选线索模型_vlm.md
+R100	00_inbox/销售专题/_processed/销售工具武器库_vlm.md	10_raw/sources/sales/_processed/销售工具武器库_vlm.md
+R100	00_inbox/销售专题/_processed/销售有工具-阿里铁军的三七法则_vlm.md	10_raw/sources/sales/_processed/销售有工具-阿里铁军的三七法则_vlm.md
+R100	00_inbox/销售专题/李蕊-科学销售方法论-口述.txt	10_raw/sources/sales/李蕊-科学销售方法论-口述.txt
+R100	00_inbox/销售专题/李蕊-销售体系之一-客户分层和卖点提炼-口述.txt	10_raw/sources/sales/李蕊-销售体系之一-客户分层和卖点提炼-口述.txt
+R100	00_inbox/销售专题/李蕊-销售体系之二-销售过程拆解-口述.txt	10_raw/sources/sales/李蕊-销售体系之二-销售过程拆解-口述.txt
+R100	00_inbox/销售专题/李蕊-销售体系之四-激励体系搭建-口述.txt	10_raw/sources/sales/李蕊-销售体系之四-激励体系搭建-口述.txt
+R100	00_inbox/销售专题/李蕊-销售系统之五-销售工具箱-口述.txt	10_raw/sources/sales/李蕊-销售系统之五-销售工具箱-口述.txt
+COMMIT a43a70f60 #557 批次A试点（Case study）：归档1文件+9卡42引用改写（锚点规范化:NN-MM） by laowantong
+R100	00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md	10_raw/sources/case-study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md

@@ -289,6 +289,7 @@
 |:--|:--|:--|
 | `tools.py` / `server.py` / `feishu_doc_server.py` / `openmontage_compact_server.py` / `config.yaml` | `kdo-tools/mcp/`（启动入口 `run_kdo_mcp.cmd`） | kdo 检索 / feishu_doc 操作 / openmontage MCP 服务器 |
 | `sync-hermes-mcp.py` | `kdo-tools/sync-hermes-mcp.py` | Hermes MCP 配置单一真相源同步（WINDOWS_PROFILES/WSL_PROFILES） |
+| `src-refs-archive-migrate.py` | `40_outputs/code/scripts/src-refs-archive-migrate.py` | #557 死引治理：00_inbox 原稿 git mv 归档 10_raw/sources + 全库 source_refs 同步改写（锚点规范化 `:NN-MM`）。`--only=<子目录>` 分批，`--apply` 才动手，默认 dry-run |
 
 > 2026-08-18 #359 处置：`40_outputs/code/scripts/` 下的 `tools.py`/`server.py`/`sync-hermes-mcp.py` 副本已删除——此前与活代码漂移 70 行导致两次 stale-copy 误诊（E034 家族）。
 
