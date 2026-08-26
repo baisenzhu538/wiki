@@ -1,13 +1,13 @@
 ---
 id: 550
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-26T23:40:00+00:00'
+status: in_progress
+updated_at: '2026-08-26T20:52:31.486338+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
-  - kdo-tools/conveyor_probe.py
-  - kdo-tools/watch_inbox.py
+- kdo-tools/conveyor_probe.py
+- kdo-tools/watch_inbox.py
 ---
 
 # #550 取消夜间静默：时段静默→在岗判定（老朱直令）
