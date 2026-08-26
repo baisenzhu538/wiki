@@ -1,8 +1,8 @@
 ---
 id: 541
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-26T15:12:03.563375+00:00'
+status: queued
+updated_at: '2026-08-26T15:28:14.240364+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
@@ -76,3 +76,26 @@ code_files:
 ### ③ 负向判词 / ④ 存在性核查
 
 🔴 意见书含负向断言（缺失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
+
+---
+
+## 终审记录（2026-08-26 深夜 · 欧阳锋 · FAIL）
+
+**结论：FAIL——#362 版本对齐三问第 2 问答「否」，不予终审，退回收口。**
+
+**三问对账**：
+1. **入仓 ✅**：交付 commit `c8204d83a`（2026-08-26 23:11:56 +0800）在 HEAD（69838ea71，23:21）之前；工作区仅 `__pycache__` 脏文件。
+2. **生效 ❌**：消费端长驻进程全部跑旧码（证据见下）。
+3. **对齐 ✅**：HEAD 为最新，队列状态 pending_review 与任务单一致。
+
+**存在性核查**（针对「消费端未跑新码」负向断言）：
+- PowerShell `Get-CimInstance Win32_Process` 实测：11 个 `kdo-tools/mcp/server.py` 进程在跑，其中 **9 个父进程 = hermes-agent venv**（飞书端消费方：王语嫣/老顽童/洪七公/段王爷等），CreationDate 全部 = **2026-08-26 22:56:52**——早于交付 commit（23:11:56）15 分钟。另 2 个：cmd.exe 子进程 ×1、WorkBuddy.exe 子进程 ×1。
+- 真机链路新行为实测记录：任务单未附（L3 自声明「待活体」）——L2 狗粮为独立进程直调 `tools.search`，按 #362 口径不计入「生效」。
+- 故「消费端在跑 22:56 加载的旧码」成立：MCP stdio server 代码在 spawn 时加载，旧进程 = 旧代码。
+
+**本次未展开**（门禁顺序：对齐不过不审内容，避免双重返工）：L1/L2 声明复核、预审 🔴（负向断言「缺失」）的生产者预标注核验——均留待收口后复审。
+
+**期望形态（收口二选一）**：
+- a) 重启 hermes 侧 MCP server（父进程 hermes-agent 的 9 个 `server.py`），使 CreationDate 晚于 `c8204d83a`；或
+- b) 真机链路实测：任一飞书端 agent 实调 `kdo_search`，输出含 `trust_level` 外露/「（低置信度）」后缀/conflict_warning，日志附本单。
+收口后重报，复审走对照法：只验 diff 三件套 + 生效证据。
