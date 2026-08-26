@@ -96,3 +96,44 @@ def test_all_dead_still_wakes_and_reports(tmp_path, monkeypatch):
     rc.run(now=time.time())
     assert called["n"] >= 1  # 降级报警触发
     assert (tmp_path / "todos" / "huangyaoshi.md").exists()  # 唤醒照发
+
+
+# ── #554 换轨：deliver 给定文本投递 + 通道口径 ──
+
+def test_deliver_custom_text_feishu_by_hook(tmp_path, monkeypatch):
+    """事件通知换轨：feishu_by_hook=True + webhook 配置在 → feishu 触达（通道不缩水）。"""
+    _wire(tmp_path, monkeypatch, _REG)
+    sent = []
+    import conveyor_probe as cp
+    monkeypatch.setattr(cp, "_load_hooks", lambda: {"ouyangfeng": {"url": "http://x", "key": "k"}})
+    monkeypatch.setattr(cp, "_send_hook", lambda url, text, key: sent.append(text) or True)
+    touched = rc.deliver("ouyangfeng", "🔔 KDO 新提审 1 单：#9，请终审", "新提审",
+                         feishu_by_hook=True)
+    assert touched == ["todos", "feishu"]
+    assert sent and "新提审" in sent[0]
+    text = (tmp_path / "todos" / "ouyangfeng.md").read_text(encoding="utf-8")
+    assert "🔔 KDO 新提审" in text  # 原文不动（emoji 契约）
+
+
+def test_wake_periodic_no_feishu_without_channel(tmp_path, monkeypatch):
+    """周期叫醒不回归：active 实例 channels 无 feishu → 即使有 hook 也不推（防 15min 刷屏）。"""
+    _wire(tmp_path, monkeypatch, _REG)
+    sent = []
+    import conveyor_probe as cp
+    monkeypatch.setattr(cp, "_load_hooks", lambda: {"huangyaoshi": {"url": "http://x", "key": "k"}})
+    monkeypatch.setattr(cp, "_send_hook", lambda url, text, key: sent.append(text) or True)
+    touched = rc.wake("huangyaoshi", "到点", {"active": "cli", "instances": [{"tool": "cli", "channels": ["todos"]}]})
+    assert touched == ["todos"]
+    assert sent == []
+
+
+def test_wake_with_feishu_channel_pushes(tmp_path, monkeypatch):
+    """周期叫醒正向：实例注册 feishu 通道 → 推（hermes 平台实例路径）。"""
+    _wire(tmp_path, monkeypatch, _REG)
+    sent = []
+    import conveyor_probe as cp
+    monkeypatch.setattr(cp, "_load_hooks", lambda: {"laowantong": {"url": "http://x", "key": "k"}})
+    monkeypatch.setattr(cp, "_send_hook", lambda url, text, key: sent.append(text) or True)
+    entry = {"active": "hermes", "instances": [{"tool": "hermes", "channels": ["feishu"]}]}
+    touched = rc.wake("laowantong", "到点", entry)
+    assert "feishu" in touched and sent

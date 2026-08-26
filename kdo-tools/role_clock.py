@@ -106,11 +106,14 @@ def due_roles(now: float | None = None, registry: dict | None = None,
     return due
 
 
-def wake(role: str, reason: str, entry: dict | None = None, dry_run: bool = False) -> list[str]:
-    """唤醒单角色：todos 落盘（恒）+ active 实例含 feishu 通道则推 webhook。
-    返回实际触达的通道列表。"""
-    payload = WAKE_PAYLOAD.format(role=role)
-    line = f"- [{datetime.now().strftime('%Y-%m-%d %H:%M')}] {payload}（{reason}）\n"
+def deliver(role: str, text: str, reason: str, entry: dict | None = None,
+            dry_run: bool = False, feishu_by_hook: bool = False) -> list[str]:
+    """统一层消息投递（#554 换轨落点）：todos 落盘 + feishu 适配。
+    与 wake() 的固定模板不同——本函数投递调用方给定文本（🔔/⚖️/📥 emoji 契约不动）。
+    feishu 通道二选一触发：feishu_by_hook=True（事件通知换轨：webhook 配置可得即推，
+    通道不缩水原则）或 active 实例 channels 含 feishu（周期叫醒：按注册表面向实例路由）。
+    返回实际触达通道列表。"""
+    line = f"- [{datetime.now().strftime('%Y-%m-%d %H:%M')}] {text}（{reason}）\n"
     touched = []
     if not dry_run:
         todos = TODOS_DIR / f"{role}.md"
@@ -124,19 +127,25 @@ def wake(role: str, reason: str, entry: dict | None = None, dry_run: bool = Fals
     entry = entry or _load_json(REGISTRY, {}).get(role, {})
     active = entry.get("active")
     inst = next((i for i in entry.get("instances", []) if i.get("tool") == active), None)
-    if inst and "feishu" in (inst.get("channels") or []):
+    want_feishu = feishu_by_hook or (inst and "feishu" in (inst.get("channels") or []))
+    if want_feishu:
         try:
             import conveyor_probe as cp
             hooks = cp._load_hooks()
             hook = hooks.get(role)
             if hook:
-                ok = cp._send_hook(hook["url"], f"{payload}（{reason}）", hook["key"])
+                ok = cp._send_hook(hook["url"], f"{text}（{reason}）", hook["key"])
                 if ok:
                     touched.append("feishu")
         except Exception as e:
             print(f"⚠️ feishu 适配器失败（todos 已落，不阻断）: {e}", file=sys.stderr)
     _log_wake(role, reason, touched)
     return touched
+
+
+def wake(role: str, reason: str, entry: dict | None = None, dry_run: bool = False) -> list[str]:
+    """唤醒单角色：统一模板文案走 deliver（#554 后 wake=deliver 的模板特化）。"""
+    return deliver(role, WAKE_PAYLOAD.format(role=role), reason, entry, dry_run)
 
 
 def run(dry_run: bool = False, now: float | None = None) -> int:

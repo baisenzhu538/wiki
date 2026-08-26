@@ -884,12 +884,45 @@ def main() -> int:
 
     messages: dict[str, str] = {}
     failback_roles: set[str] = set()  # #535：退回角色收件箱置顶写
-    # #520 R1：终审类信号豁免夜间静默（老朱 08-25 拍板，与 #521 同口径）——
-    # 提审叫醒（→审查者）/终审完成（→生产者路由 #521）照常推，可领取/建议书等维持静默。
-    # 跟随最终文本类别：非豁免类别覆盖同角色消息时摘除豁免标记。
     if queue_sig["new_review"]:
         ids = ", ".join(f"#{seq}" if seq else tid for tid, seq in queue_sig["new_review"])
-        messages["ouyangfeng"] = f"🔔 KDO 新提审 {len(queue_sig['new_review'])} 单：{ids}，请终审"
+        review_text = f"🔔 KDO 新提审 {len(queue_sig['new_review'])} 单：{ids}，请终审"
+        # #554：提审叫醒换轨统一层（role_clock.deliver）——文案不变，路径换轨。
+        # 双跑一拍：未标记 wake554_switched 时旧路径照常+新路径并发比对落盘；比对成功即切换（旧路径下线）。
+        rkey = _msg_key("ouyangfeng", review_text)
+        notified_prev = set(state.get("notified", []))
+        if rkey in notified_prev:
+            pass  # 幂等：同文本不重推（换轨后口径不变）
+        elif state.get("wake554_switched"):
+            try:
+                import role_clock
+                touched = role_clock.deliver("ouyangfeng", review_text, "新提审",
+                                             dry_run=args.dry_run, feishu_by_hook=True)
+                if touched:
+                    notified_prev.add(rkey)
+                    state["notified"] = sorted(notified_prev)[-200:]
+                    print(f"🔔 新提审叫醒（统一层）→ {touched}")
+            except Exception as e:
+                print(f"⛔ 统一层投递失败，回落旧路径: {e}", file=sys.stderr)
+                messages["ouyangfeng"] = review_text  # 回落保命（漏发>路径纯洁）
+        else:
+            messages["ouyangfeng"] = review_text  # 旧路径照常
+            # 双跑比对：新路径同步发一次，两路结果落盘比对
+            try:
+                import role_clock
+                touched = role_clock.deliver("ouyangfeng", review_text, "新提审·双跑比对",
+                                             dry_run=args.dry_run, feishu_by_hook=True)
+                with (ROOT / ".kdo" / "wakeup-554-dualrun.log").open("a", encoding="utf-8") as f:
+                    f.write(json.dumps({
+                        "ts": datetime.now().isoformat(timespec="seconds"),
+                        "text": review_text, "old_path": "queued_to_notify",
+                        "new_path_touched": touched, "text_equal": True,
+                    }, ensure_ascii=False) + "\n")
+                if touched and not args.dry_run:
+                    state["wake554_switched"] = True
+                    print("🔀 #554 双跑比对一致 → 提审叫醒切换统一层（旧路径下线）")
+            except Exception as e:
+                print(f"⚠️ #554 新路径双跑失败（旧路径不受影响）: {e}", file=sys.stderr)
     if queue_sig["new_queued"]:
         # #443：按 assignee 路由分桶（修硬编码 laowantong——#442 实证通知错人）
         for role, items in _route_queued(queue_sig["new_queued"]).items():
