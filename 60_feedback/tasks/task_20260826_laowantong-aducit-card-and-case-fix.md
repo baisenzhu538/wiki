@@ -1,13 +1,13 @@
 ---
 id: 539
 assignee: laowantong
-status: queued
-updated_at: '2026-08-26T11:00:00+00:00'
+status: in_progress
+updated_at: '2026-08-26T12:52:27.746241+00:00'
 version: v0.1
-instance: laowantong
+instance: kimi-cli
 code_files:
-  - 30_wiki/concepts/concept-aducit-six-step.md
-  - 30_wiki/cases/case-yihang-dual-triangle-AI三角-数据.md
+- 30_wiki/concepts/concept-aducit-six-step.md
+- 30_wiki/cases/case-yihang-dual-triangle-AI三角-数据.md
 ---
 
 # #539 ADUCIT 概念卡 + 双三角 case 卡 VLM 臆测表处置（小昭误诊事故内容层修复）
