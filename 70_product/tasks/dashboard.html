@@ -64,12 +64,12 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 </head>
 <body>
 <h1>KDO 生产看板</h1>
-<p class="subtitle">production-queue.md · 自动生成于 2026-08-26 23:28</p>
+<p class="subtitle">production-queue.md · 自动生成于 2026-08-26 23:43</p>
 
 <div class="stats">
 <div class="stat queued"><div class="stat-num">8</div><div class="stat-label">待领取 Queued</div></div>
 <div class="stat pending"><div class="stat-num">0</div><div class="stat-label">审查中 Review</div></div>
-<div class="stat active"><div class="stat-num">1</div><div class="stat-label">进行中 Active</div></div>
+<div class="stat active"><div class="stat-num">2</div><div class="stat-label">进行中 Active</div></div>
 <div class="stat done"><div class="stat-num">123</div><div class="stat-label">已完成 Done</div></div>
 <div class="stat owner"><div class="stat-num">5</div><div class="stat-label">活跃角色</div></div>
 </div>
@@ -82,17 +82,6 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 
 <div class="task-group">
 <div class="group-header queued">待领取</div>
-<div class="task-card">
-<div class="task-prio p1">P1</div>
-<div class="task-info">
-<div class="task-id">#541</div>
-<div class="task-title">MCP检索trust_level加权+conflict_with冲突警告：reviewed/high优先，draft/medium垫后标低置信</div>
-<div class="task-detail">小昭事故根因2工具层落地（协议层→工具层：自觉靠不住实证）；只改MCP检索输出层不改卡；§3.19矩阵/协议互链；欧阳锋终审</div>
-</div>
-<div class="task-meta">
-<span class="task-assignee huangyaoshi">黄药师</span>
-</div>
-</div>
 <div class="task-card">
 <div class="task-prio p1">P1</div>
 <div class="task-info">
@@ -141,8 +130,8 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 <div class="task-prio p1">P1</div>
 <div class="task-info">
 <div class="task-id">#547</div>
-<div class="task-title">L1采集console-killer根因排查+空转报警：08-25 09:37窗口事件日志取证（破口已自闭合38h，防复发留档）+l1-size.log年龄>2×周期挂health-check报警</div>
-<div class="task-detail">欧阳锋建议书裁定（08-26王语嫣）：R1降级P2（破口已自闭合+补采实证20:37单拍+97.5MB，R3闭环）+R2采纳合并；.cmd包装已存在不重复改造；环境性根因允许如实报不硬修；§3.19矩阵登记；欧阳锋终审</div>
+<div class="task-title">L1采集console-killer根因排查+基建运行态报警：08-25 09:37窗口事件日志取证（破口已自闭合38h，防复发留档）+l1-size.log等关键任务状态年龄监控挂conveyor_probe同频（10分钟级）</div>
+<div class="task-detail">欧阳锋建议书裁定（08-26王语嫣）：R1降级P2（破口已自闭合+补采实证20:37单拍+97.5MB，R3闭环）+R2采纳合并；.cmd包装已存在不重复改造；环境性根因允许如实报不硬修；§3.19矩阵登记；**v0.2修正（老朱探针之问触…</div>
 </div>
 <div class="task-meta">
 <span class="task-assignee huangyaoshi">黄药师</span>
@@ -170,9 +159,31 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 <span class="task-assignee huangyaoshi">黄药师</span>
 </div>
 </div>
+<div class="task-card">
+<div class="task-prio p1">P1</div>
+<div class="task-info">
+<div class="task-id">#550</div>
+<div class="task-title">取消夜间静默：时段制（22-08）→在岗判定（事件库/L1近30分钟活动=激活），角色级别统一不分级</div>
+<div class="task-detail">**老朱08-26直令**：取消夜间探针和时钟静默，agent在岗必须激活，角色级别不受影响；删_split_silent_exempt终审豁免分级（全角色全信号统一）；覆盖conveyor_probe+watch_inbox两脚本；⚠️在…</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee huangyaoshi">黄药师</span>
+</div>
+</div>
 </div>
 <div class="task-group">
 <div class="group-header active">进行中</div>
+<div class="task-card">
+<div class="task-prio p1">P1</div>
+<div class="task-info">
+<div class="task-id">#541</div>
+<div class="task-title">MCP检索trust_level加权+conflict_with冲突警告：reviewed/high优先，draft/medium垫后标低置信</div>
+<div class="task-detail">小昭事故根因2工具层落地（协议层→工具层：自觉靠不住实证）；只改MCP检索输出层不改卡；§3.19矩阵/协议互链；欧阳锋终审</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee huangyaoshi">黄药师</span>
+</div>
+</div>
 <div class="task-card">
 <div class="task-prio p1">P1</div>
 <div class="task-info">
@@ -255,7 +266,7 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 </div>
 </div>
 
-<header style="display:none"><!-- generated-by: generate-dashboard.py · updated_at: 2026-08-26 23:28 · git_head: 69838ea71 --></header>
-<footer>KDO 知识工厂 · 由 generate-dashboard.py 自动生成 · 2026-08-26 23:28</footer>
+<header style="display:none"><!-- generated-by: generate-dashboard.py · updated_at: 2026-08-26 23:43 · git_head: d100a5b83 --></header>
+<footer>KDO 知识工厂 · 由 generate-dashboard.py 自动生成 · 2026-08-26 23:43</footer>
 </body>
 </html>
