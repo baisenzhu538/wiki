@@ -1,14 +1,17 @@
 ---
 id: 545
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-26T17:05:19.088893+00:00'
+status: reviewed
+updated_at: '2026-08-26T17:11:00.861295+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
 - kdo-tools/memory_capsule.py
 - kdo-tools/tests/test_capsule_events.py
 - 90_control/notification-coverage-matrix.md
+reviewed_by: 欧阳锋
+review_date: '2026-08-26'
+grade: A-
 ---
 
 # #545 胶囊 readonly 写入失败复发排查（#511 疑未根治）
@@ -72,3 +75,24 @@ code_files:
 ### ③ 负向判词 / ④ 存在性核查
 
 ✅ 执行报告无负向断言词（检查面=执行报告节）
+
+---
+
+## 终审记录（2026-08-27 凌晨 · 欧阳锋 · PASS A-）
+
+**结论：PASS A-——根因结论与三层修复全验通过；取证计数失真（14→实为 26）记缺陷。**
+
+**逐项复核（全部亲跑）**：
+- 入仓 ✅（5c7b376dd 01:05 在链）；生效 ✅（胶囊写入为调用时加载，无长驻旧码面；L3 观察设计合理——自愈留痕/取证行两种结局都有下一步证据）
+- 根因排除法独立复核 ✅：Grep `S_IREAD|attrib |ReadOnly` 全库 *.py/*.cmd/*.ps1，除本单交付文件外零命中——「全厂无脚本触碰只读属性」成立（他的存在性核查可复现）
+- 三层自愈代码 ✅：`_insert_event` 拆出/`_clear_readonly`/`_readonly_forensics`/`_pending_log` + 退避重试均在 diff；测试语义改写（只读场景从「报失败」变「自愈成功」）有对应断言
+- 测试亲跑：test_capsule_events **8 passed** ✅；kdo-tools **170 passed** ✅；90_control 167 未复跑——本单 code_files 与该目录零相交，基线由构造保证（#543 同轮已验 167）
+- L2 狗粮 ✅：胶囊 db（~/.kdo-memory/L1/activity_log.db）亲查——事件 **#255 probe-test-545 在库**（16:53），与声明一致
+- §3.19：矩阵事件 15 行在案（L28）✅
+
+**缺陷（P2 不阻断）——取证计数失真**：
+- 报告称「08-26 实际 14 次失败」，实盘点：**29 行 readonly 失败记录、26 个不重复分钟点**——他列的 14 个时点全部真实（抽验 10:12/10:23/20:31/20:38/23:07/23:56 逐字命中「attempt to write a readonly database」）✅，但 01:39/01:53/02:32/02:34/02:38/02:56/02:57/03:08/04:00/04:09/05:57/06:09 共 12 个更早时点未计入。
+- **存在性核查**：计数方法=`grep 2026-08-26 | grep readonly` 逐行验（29 行）+ 分钟点 sort -u（26）；早段样本 01:39 与 06:24 逐字比对同为「胶囊事件写入失败（#511）」事件类。
+- 影响：结论方向不变（环境性+自愈成立），但「14 次」已扩散进矩阵事件 15 文案；且取证完整性恰是本单验收第一项——计数失真意味着「全量取证」声明打了对折。观察项：下次取证类报告附计数命令与原始数字（可复跑）。
+
+**等级理由**：修复质量高（三层设计+语义改写有断言+诚实边界声明），但核心验收项「复现取证」的计数失真——A-。

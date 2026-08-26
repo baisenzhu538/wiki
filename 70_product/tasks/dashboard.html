@@ -64,13 +64,13 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 </head>
 <body>
 <h1>KDO 生产看板</h1>
-<p class="subtitle">production-queue.md · 自动生成于 2026-08-27 01:05</p>
+<p class="subtitle">production-queue.md · 自动生成于 2026-08-27 01:11</p>
 
 <div class="stats">
-<div class="stat queued"><div class="stat-num">6</div><div class="stat-label">待领取 Queued</div></div>
-<div class="stat pending"><div class="stat-num">1</div><div class="stat-label">审查中 Review</div></div>
+<div class="stat queued"><div class="stat-num">10</div><div class="stat-label">待领取 Queued</div></div>
+<div class="stat pending"><div class="stat-num">0</div><div class="stat-label">审查中 Review</div></div>
 <div class="stat active"><div class="stat-num">2</div><div class="stat-label">进行中 Active</div></div>
-<div class="stat done"><div class="stat-num">125</div><div class="stat-label">已完成 Done</div></div>
+<div class="stat done"><div class="stat-num">126</div><div class="stat-label">已完成 Done</div></div>
 <div class="stat owner"><div class="stat-num">5</div><div class="stat-label">活跃角色</div></div>
 </div>
 
@@ -80,20 +80,6 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 </div>
 
 
-<div class="task-group">
-<div class="group-header pending">审查中 · 等待欧阳锋</div>
-<div class="task-card">
-<div class="task-prio p1">P1</div>
-<div class="task-info">
-<div class="task-id">#545<span class="task-grade g-BLOCK">🔴阻塞链</span></div>
-<div class="task-title">胶囊readonly写入失败复发排查：#511疑未根治（今日复发4次），先复现取证再修</div>
-<div class="task-detail">黄药师核查报告观察项1（他自己报的数，回给他自查）；复发=当时修的可能不是根因；环境性根因允许如实报不硬修；§3.19矩阵登记适用；欧阳锋终审</div>
-</div>
-<div class="task-meta">
-<span class="task-assignee huangyaoshi">黄药师</span>
-</div>
-</div>
-</div>
 <div class="task-group">
 <div class="group-header queued">待领取</div>
 <div class="task-card">
@@ -157,6 +143,50 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 <div class="task-id">#550</div>
 <div class="task-title">取消夜间静默：时段制（22-08）→在岗判定（事件库/L1近30分钟活动=激活），角色级别统一不分级</div>
 <div class="task-detail">**老朱08-26直令**：取消夜间探针和时钟静默，agent在岗必须激活，角色级别不受影响；删_split_silent_exempt终审豁免分级（全角色全信号统一）；覆盖conveyor_probe+watch_inbox两脚本；⚠️在…</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee huangyaoshi">黄药师</span>
+</div>
+</div>
+<div class="task-card">
+<div class="task-prio p1">P1</div>
+<div class="task-info">
+<div class="task-id">#552<span class="task-grade g-A">A</span></div>
+<div class="task-title">角色活性注册表role-registry.json+心跳写钩（启动写+时钟蹭拍；活性判定复用#519口径；多实例双发+active单执行者）</div>
+<div class="task-detail">#525四拆之一（老朱08-27拍板落地；设计稿08-25终审PASS A——「工具是变量角色是恒量」，系统级时钟地基单）；协同：#550在岗判定若本单先交付则优先读注册表心跳；欧阳锋终审</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee huangyaoshi">黄药师</span>
+</div>
+</div>
+<div class="task-card">
+<div class="task-prio p1">P1</div>
+<div class="task-info">
+<div class="task-id">#553</div>
+<div class="task-title">role_clock心跳调度器+schtasks 5min系统级挂载（查注册表→路由唤醒active实例；唤醒语义统一payload；降级复用gate-blocked通道）</div>
+<div class="task-detail">#525四拆之二（核心中单）；红线：只做唤醒无裁决/误发>漏发/全留日志；与conveyor_probe分工=探针看信号调度器催人；活体验收=老顽童时钟真实唤醒一次；欧阳锋终审</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee huangyaoshi">黄药师</span>
+</div>
+</div>
+<div class="task-card">
+<div class="task-prio p1">P1</div>
+<div class="task-info">
+<div class="task-id">#554</div>
+<div class="task-title">#520提审叫醒换轨统一层（文案不变路径换轨，双跑比对一拍后旧路径下线）</div>
+<div class="task-detail">#525四拆之三（小单）；只换路由不动内容不动信号检出；#553延期则不动工；欧阳锋终审</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee huangyaoshi">黄药师</span>
+</div>
+</div>
+<div class="task-card">
+<div class="task-prio p1">P1</div>
+<div class="task-info">
+<div class="task-id">#555</div>
+<div class="task-title">四角色时钟开通：老顽童15min/王语嫣30min/风清扬日2拍/欧阳锋事件驱动+黄药师欧阳锋会话级旧cron换轨停用</div>
+<div class="task-detail">#525四拆之四·收官（「角色级时钟不存在」缺口关闭）；顺手修设计稿§5统图失真（欧阳锋终审指出）；唤醒只叫醒+指路判断留人（§3.17）；§3.19矩阵登记；欧阳锋终审</div>
 </div>
 <div class="task-meta">
 <span class="task-assignee huangyaoshi">黄药师</span>
@@ -258,7 +288,7 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 </div>
 </div>
 
-<header style="display:none"><!-- generated-by: generate-dashboard.py · updated_at: 2026-08-27 01:05 · git_head: 5c7b376dd --></header>
-<footer>KDO 知识工厂 · 由 generate-dashboard.py 自动生成 · 2026-08-27 01:05</footer>
+<header style="display:none"><!-- generated-by: generate-dashboard.py · updated_at: 2026-08-27 01:11 · git_head: 1c060232a --></header>
+<footer>KDO 知识工厂 · 由 generate-dashboard.py 自动生成 · 2026-08-27 01:11</footer>
 </body>
 </html>
