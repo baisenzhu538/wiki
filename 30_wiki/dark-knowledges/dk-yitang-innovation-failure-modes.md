@@ -23,7 +23,7 @@ aliases:
   - 解放思想六大失败模式
 source_refs:
 - 00_inbox/解放思想探索营/解放思想创新体系-探索营-笔记.txt
-- 00_inbox/解放思想探索营/解放思想创新体系-探索营-口述.txt
+- 10_raw/sources/thought-liberation/解放思想创新体系-探索营-口述.txt
 related:
 - framework-yitang-thought-liberation-lightning
 - bridge-yitang-seek-truth-liberate-thought

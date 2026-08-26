@@ -18,7 +18,7 @@ quality_labels:
   - insight
   - principle
 source_refs:
-  - "00_inbox/解放思想探索营/解放思想创新体系-探索营-口述.txt L14"
+  - 10_raw/sources/thought-liberation/解放思想创新体系-探索营-口述.txt:14
   - "00_inbox/解放思想探索营/解放思想创新体系-探索营-笔记.txt §一"
 related:
   - framework-yitang-thought-liberation-lightning

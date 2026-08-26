@@ -33,7 +33,7 @@ aliases:
   - 逻辑护栏+事实护栏
 source_refs:
 - 00_inbox/解放思想探索营/解放思想创新体系-探索营-笔记.txt §4.3
-- 00_inbox/解放思想探索营/解放思想创新体系-探索营-口述.txt
+- 10_raw/sources/thought-liberation/解放思想创新体系-探索营-口述.txt
 related:
 - framework-yitang-thought-liberation-lightning
 - concept-yitang-layered-self-consistency

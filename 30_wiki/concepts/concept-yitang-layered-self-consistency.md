@@ -29,7 +29,7 @@ aliases:
   - 分层自洽
   - 分层自洽：五层击穿与双向推导
 source_refs:
-- 00_inbox/解放思想探索营/解放思想创新体系-探索营-口述.txt L513-517
+- 10_raw/sources/thought-liberation/解放思想创新体系-探索营-口述.txt:513-517
 - 00_inbox/解放思想探索营/解放思想创新体系-探索营-笔记.txt §4.2
 related:
 - framework-yitang-thought-liberation-lightning

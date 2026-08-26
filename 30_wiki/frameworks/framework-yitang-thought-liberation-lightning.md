@@ -39,7 +39,7 @@ aliases:
   - 闪电模型：解放思想创新四阶体系
 source_refs:
 - 00_inbox/解放思想探索营/解放思想创新体系-探索营-笔记.txt
-- 00_inbox/解放思想探索营/解放思想创新体系-探索营-口述.txt L496-568
+- 10_raw/sources/thought-liberation/解放思想创新体系-探索营-口述.txt:496-568
 related:
 - concept-yitang-layered-self-consistency
 - bridge-yitang-seek-truth-liberate-thought
