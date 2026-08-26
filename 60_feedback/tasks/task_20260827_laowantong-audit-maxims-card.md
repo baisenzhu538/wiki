@@ -1,8 +1,8 @@
 ---
 id: 551
 assignee: laowantong
-status: in_progress
-updated_at: '2026-08-26T17:01:58.700663+00:00'
+status: pending_review
+updated_at: '2026-08-26T17:41:58.180369+00:00'
 version: v0.1
 instance: laowantong
 code_files: []
@@ -90,3 +90,17 @@ framework 卡 1 张 → 解压资产：①agent-os 引用节（终审后王语�
 ```
 
 - **过程发现（建议书素材）**：pre-submit 的 ALIASES 检查对新卡必须先跑 `kdo index --incremental` 才认 aliases——新卡未入索引时必 FAIL，且索引后警告仍残留（误报）。已记 friction-log，建议落最小建议书待评估
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 3 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+🟡 ⚠️ 意见书含宽负向词（缺）无核查锚点——按需人工确认（#433 不硬杀）；锚点：⚪ 无锚点
