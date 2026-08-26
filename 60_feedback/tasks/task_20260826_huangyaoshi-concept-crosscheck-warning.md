@@ -6,7 +6,9 @@ updated_at: '2026-08-26T17:23:02.060369+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
-- 90_control/scripts/
+- Knowledge Delivery OS 0.0.1/kdo/pre_submit.py
+- Knowledge Delivery OS 0.0.1/tests/test_pre_submit_concept_crosscheck.py
+- 90_control/notification-coverage-matrix.md
 ---
 
 # #542 产卡概念交叉验证 WARNING：解析段命中已有 concept 关键词→提示对账（小昭事故根因 3，降档版）
@@ -35,3 +37,23 @@ code_files:
 ## 验收
 
 - 三类用例实测；双三角案例卡 dry-run 能命中提示（事故复现验证）；欧阳锋终审
+
+
+## 执行报告（F-034 五字段，complete 前必填）
+
+**完成内容**：pre-submit 概念交叉验证 WARNING（KDO 仓 `kdo/pre_submit.py`，挂 run_pre_submit 主链）。①**词表自动构建**：`_concept_vocab`——30_wiki/concepts+frameworks 卡 title+aliases → {关键词: 卡 id}（最短 3 字防高频噪声），文件缓存 `.kdo/concept-vocab-cache.json` + 目录 mtime 签名失效重建（concept 卡变更即重建，实测词表 3779 词）；②**检查门 `_check_concept_crosscheck`**：提交中的 30_wiki 卡正文命中概念词且未 [[wikilink]] 引用权威卡 → WARNING「本卡涉及概念 X（权威定义见 [[卡]]），请人工核对一致性」不拦截；主题词优先排序（卡自身 title/aliases 含有的概念排最前——卡「讲的就是它」时最需核对，小昭事故场景）；概念卡自身不提示；已 wikilink 引用的不重复提示；每卡最多 5 条；③§3.19：矩阵事件 16 行。
+
+**交付物**：
+- `Knowledge Delivery OS 0.0.1/kdo/pre_submit.py`（词表构建+检查门+主链挂载）
+- `Knowledge Delivery OS 0.0.1/tests/test_pre_submit_concept_crosscheck.py`（6 例回归）
+- `90_control/notification-coverage-matrix.md`（事件 16 行，§3.19）
+
+**验证**：
+- L1 单测 6 例全过：命中（含权威卡链接）/未命中/已链接不重复提示/概念卡自身不误报/词表缓存失效重建（新增 concept 卡后新词可命中）/非 30_wiki 文件不查
+- L2 狗粮（真库）：①真实事故卡 `case-yihang-dual-triangle-AI三角-数据`——因其正文已被 #539 补 [[concept-yihang-dual-triangle-core]] 链接，按「已引用不重复提示」设计正确不再提示该词（命中其余未链接概念：人机协作双三角/双三角模型等）；②**事故复现**：假想未补链的 VLM 解析卡（六顶点组合正文）→ WARNING 精确命中「双三角（权威定义见 [[concept-yihang-dual-triangle-core]]）」——事故若重演，生产者提交时即被提示 ✅（模拟卡用后已删）
+- L3 待活体：老顽童下次产卡提审时 WARNING 实机出现
+- **预审红项预标注**：本单预审若检「缺失/不得」类词=提示文案/报告描述误报，预标注在此
+
+**边界**：只提示不判定 ✅（一致性留人）；只向前生效 ✅（pre-submit 只管提交中的卡）；词表只读不写卡 ✅。
+
+**需要谁动作**：欧阳锋终审本单。
