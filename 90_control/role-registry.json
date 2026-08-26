@@ -16,7 +16,7 @@
         "channels": [
           "todos"
         ],
-        "heartbeat_ts": 1787779759.2488828,
+        "heartbeat_ts": 1787784744.6091635,
         "session_scope": "C:\\Users\\Administrator\\Desktop\\wiki"
       }
     ],
@@ -30,10 +30,62 @@
         "channels": [
           "todos"
         ],
-        "heartbeat_ts": 1787779840.8676946,
+        "heartbeat_ts": 1787784341.342201,
         "session_scope": "C:\\Users\\Administrator\\Desktop\\wiki"
+      },
+      {
+        "tool": "hermes",
+        "kind": "platform",
+        "channels": [
+          "feishu",
+          "todos"
+        ],
+        "heartbeat_ts": 1787784865.4325962,
+        "profile": "laowantong"
       }
     ],
-    "active": "cli"
+    "active": "hermes",
+    "wake_pace_min": 15
+  },
+  "ouyangfeng": {
+    "instances": [
+      {
+        "tool": "kimi-cli",
+        "kind": "cli",
+        "channels": [
+          "todos"
+        ],
+        "heartbeat_ts": 1787784836.9982724
+      }
+    ],
+    "active": "kimi-cli"
+  },
+  "wangyuyan": {
+    "instances": [
+      {
+        "tool": "kimi-cli",
+        "kind": "cli",
+        "channels": [
+          "todos"
+        ],
+        "heartbeat_ts": 1787784865.4345944
+      }
+    ],
+    "active": "kimi-cli",
+    "wake_pace_min": 30
+  },
+  "fengqingyang": {
+    "instances": [
+      {
+        "tool": "codex",
+        "kind": "cli",
+        "channels": [
+          "todos"
+        ],
+        "heartbeat_ts": 1787784865.4365942
+      }
+    ],
+    "active": "codex",
+    "wake_pace_min": 720
   }
 }
