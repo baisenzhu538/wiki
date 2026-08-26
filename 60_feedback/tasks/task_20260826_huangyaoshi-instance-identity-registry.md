@@ -1,13 +1,13 @@
 ---
 id: 546
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-26T22:35:00+00:00'
+status: in_progress
+updated_at: '2026-08-26T18:22:28.727780+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
-  - 90_control/scripts/queue_transition.py
-  - .kdo/
+- 90_control/scripts/queue_transition.py
+- .kdo/
 ---
 
 # #546 实例身份登记 + 终审权机器校验（一具两职事件根治，#525 活性注册表轻量先行版）
