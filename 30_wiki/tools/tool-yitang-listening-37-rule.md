@@ -34,8 +34,8 @@ source_context:
   - 口述
   - yitang
 source_refs:
-  - 00_inbox/销售专题/李蕊-销售系统之五-销售工具箱-口述.txt L1488-L1524
-  - 00_inbox/销售专题/_processed/销售有工具-阿里铁军的三七法则_vlm.md L5-L27
+- 10_raw/sources/sales/李蕊-销售系统之五-销售工具箱-口述.txt:1488-1524
+- 10_raw/sources/sales/_processed/销售有工具-阿里铁军的三七法则_vlm.md:5-27
   - 60_feedback/diagnosis/diag_20260708_yitang-sales-domain-oral-deep-dive-v2.md
   - 70_product/tasks/task_20260708_wangyuyan-sales-domain-deep-dive-supplement.md
 discoverable_by:

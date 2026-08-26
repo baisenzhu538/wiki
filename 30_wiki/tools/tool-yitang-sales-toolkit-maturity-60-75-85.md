@@ -21,7 +21,7 @@ source_context:
   - 一堂科学销售方法论课程（2026-07-08），销售专题口述稿二次深挖诊断
   - yitang
 source_refs:
-  - 00_inbox/销售专题/_processed/销售工具武器库_vlm.md L8-L52
+- 10_raw/sources/sales/_processed/销售工具武器库_vlm.md:8-52
   - 00_inbox/销售专题/李蕊-销售系统之五-销售工具箱-口述.txt L34,L1314,L1434-L1446
   - 60_feedback/diagnosis/diag_20260708_yitang-sales-domain-oral-deep-dive-v2.md
 discoverable_by:

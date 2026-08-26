@@ -39,8 +39,8 @@ source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道工业化生产-口述.txt
 - 00_inbox/一堂五步法之增长/truman-渠道工业化生产-案例-益涂-线索模型.png
 - 00_inbox/一堂五步法之增长/truman-渠道工业化生产-案例-益涂-线索模型_vlm_desc.md
-- 00_inbox/销售专题/李蕊-销售体系之一-客户分层和卖点提炼-口述.txt L432-L440
-- 00_inbox/销售专题/_processed/销售体系之一-益涂工业化筛选线索模型_vlm.md L8-L12
+- 10_raw/sources/sales/李蕊-销售体系之一-客户分层和卖点提炼-口述.txt:432-440
+- 10_raw/sources/sales/_processed/销售体系之一-益涂工业化筛选线索模型_vlm.md:8-12
 source_person: Truman
 related:
 - '[[case-yitang-lianjia-site-selection-industrialization]]'

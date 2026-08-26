@@ -29,7 +29,7 @@ source_context:
 source_refs:
 - 00_inbox/销售专题/_processed/销售专题_整合笔记.md
 - 60_feedback/diagnosis/diag_20260702_yitang-scientific-sales-methodology.md
-- 00_inbox/销售专题/李蕊-科学销售方法论-口述.txt
+- 10_raw/sources/sales/李蕊-科学销售方法论-口述.txt
 - 00_inbox/销售专题/李蕊-科学销售方法论-笔记.txt
 - 00_inbox/销售专题/_processed/销售体系之序-案例-剧本杀-销售阶段拆解_vlm.md
 - 00_inbox/销售专题/_processed/销售体系之序-案例-剧本杀-产品卖给谁_vlm.md

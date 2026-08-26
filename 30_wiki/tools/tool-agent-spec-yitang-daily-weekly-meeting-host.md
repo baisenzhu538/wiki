@@ -29,7 +29,7 @@ source_context:
 source_refs:
 - 00_inbox/销售专题/李蕊-销售体系之三-销售过程管理-口述.txt L1426-L1462,L1488-L1490
 - 00_inbox/销售专题/李蕊-科学销售方法论-口述.txt L246,L954-L970
-- 00_inbox/销售专题/李蕊-销售系统之五-销售工具箱-口述.txt L2150-L2154
+- 10_raw/sources/sales/李蕊-销售系统之五-销售工具箱-口述.txt:2150-2154
 - 60_feedback/diagnosis/diag_20260708_yitang-sales-domain-oral-deep-dive-v2.md
 - 70_product/tasks/task_20260708_wangyuyan-sales-domain-deep-dive-supplement.md
 - 30_wiki/tools/tool-yitang-daily-weekly-meeting-hosting.md

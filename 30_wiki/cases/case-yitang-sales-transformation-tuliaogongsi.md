@@ -29,7 +29,7 @@ source_context:
 source_refs:
 - 00_inbox/销售专题/_processed/销售专题_整合笔记.md
 - 60_feedback/diagnosis/diag_20260702_yitang-scientific-sales-methodology.md
-- 00_inbox/销售专题/李蕊-销售体系之一-客户分层和卖点提炼-口述.txt
+- 10_raw/sources/sales/李蕊-销售体系之一-客户分层和卖点提炼-口述.txt
 - 00_inbox/销售专题/李蕊-销售体系之一-客户分层和卖点提炼-笔记.txt
 discoverable_by:
   - 案例：涂料公司“意图”——从 10 万线索中筛出 220 个
