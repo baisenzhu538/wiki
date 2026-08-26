@@ -1,12 +1,12 @@
 ---
 id: 544
 assignee: ouyangfeng
-status: queued
-updated_at: '2026-08-26T19:30:00+00:00'
+status: in_progress
+updated_at: '2026-08-26T15:03:02.279895+00:00'
 version: v0.1
 instance: ouyangfeng
 code_files:
-  - 30_wiki/
+- 30_wiki/
 ---
 
 # #544 被依赖 draft 卡批次过审（#527 清单 23 张，欧阳锋按优先级过审）
