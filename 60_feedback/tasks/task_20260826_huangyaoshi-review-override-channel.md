@@ -1,8 +1,8 @@
 ---
 id: 538
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-26T00:56:01.547943+00:00'
+status: in_progress
+updated_at: '2026-08-26T01:39:38.857744+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
