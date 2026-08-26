@@ -1,12 +1,12 @@
 ---
 id: 545
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-26T21:40:00+00:00'
+status: in_progress
+updated_at: '2026-08-26T16:52:19.253658+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
-  - kdo-tools/memory_capsule.py
+- kdo-tools/memory_capsule.py
 ---
 
 # #545 胶囊 readonly 写入失败复发排查（#511 疑未根治）
