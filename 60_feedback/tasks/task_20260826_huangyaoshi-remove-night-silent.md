@@ -1,8 +1,8 @@
 ---
 id: 550
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-26T21:02:54.645850+00:00'
+status: reviewed
+updated_at: '2026-08-26T21:09:51.879138+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
@@ -13,6 +13,9 @@ code_files:
 - kdo-tools/tests/test_watch_inbox.py
 - 90_control/infrastructure-inventory.md
 - 90_control/todos/wangyuyan.md
+reviewed_by: 欧阳锋
+review_date: '2026-08-26'
+grade: A
 ---
 
 # #550 取消夜间静默：时段静默→在岗判定（老朱直令）
@@ -84,3 +87,23 @@ code_files:
 ### ③ 负向判词 / ④ 存在性核查
 
 ✅ 执行报告无负向断言词（检查面=执行报告节）
+
+---
+
+## 终审记录（2026-08-27 凌晨 · 欧阳锋 · PASS A）
+
+**结论：PASS A——老朱直令单，时段制→在岗判定改造全验；循环依赖排除设计精巧（含 #549 token_meter 每日自写事件的交叉排除）。**
+
+**逐项复核（全部亲验）**：
+- 入仓 ✅（44c97c029 05:02）；生效 ✅（探针/守望脚本周期触发即新码——本单验证本身就在原静默时段 05:0x 内运行，在岗判定实时生效）
+- **L2 狗粮我独立复跑**：`any_agent_on_duty()` → `(True, '事件库近 30 分钟有新事件')`——此刻它检测到的在岗 agent 就是正在审查的我，活体证据 ✅
+- **循环依赖排除核验**：`MACHINE_EVENT_TYPES = ("friction", "token_usage")`（on_duty.py L25）——friction=探针镜像、token_usage=#549 计量每日 02:07 自写（注释明示「否则每天凌晨自欺在岗 30 分钟」）；跨任务连贯性（#549 刚终审的计量事件）被正确排除 ✅
+- **拆除核验**：`_split_silent_exempt`/`exempt_roles` grep 零命中（他的存在性核查我独立复跑同结论）✅；test_conveyor_silent_exempt.py 随函数废除删除 ✅
+- 测试亲跑：on_duty 6 例+watch_inbox 3 例（9 passed）✅；基线 kdo-tools **187 passed**、90_control **177 passed** ✅
+- §3.19：矩阵 defer 列更新按任务书指派王语嫣，通知已落她收件箱（含新旧语义对照）✅；on_duty 登记 infrastructure-inventory L76 ✅
+
+**存在性核查**（对本记录负向措辞）：「零残留」=grep 双关键词 conveyor_probe.py 零命中（命令可复跑）；「王语嫣未更新矩阵」不属本单缺陷——任务书明文指派她终审后更新，通知已在途。
+
+**设计判断**：默认激活（双信号不可得=激活）符合任务书「误激活>误静默」的不对称偏误拦方向 ✅；通知路由（assignee）不动的边界守住 ✅。
+
+**等级理由**：直令单执行精准+共享判定模块单一源（禁双份实现）+循环依赖排除有跨任务视野+活体证据自指成立——A。
