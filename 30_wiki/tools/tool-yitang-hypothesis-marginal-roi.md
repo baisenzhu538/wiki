@@ -23,7 +23,7 @@ aliases:
 source_context:
   - yitang
 source_refs:
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L2960-L3076
+- 10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-管理篇-口述.txt:2960-3076
 discoverable_by:
   - 工具：测试三难题 + 边际 ROI 决策框架
   - 测试三难题
