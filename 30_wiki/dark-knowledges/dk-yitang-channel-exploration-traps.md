@@ -35,7 +35,7 @@ source_context:
   - 一堂五步法之增长
   - yitang
 source_refs:
-- 00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt
+- 10_raw/sources/yitang-five-step-growth/truman-渠道探索方法论-口述.txt
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-反案例-渠道扫描错误案例.png
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-反案例-渠道预判踩坑.png
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-反案例-渠道建模踩坑.png

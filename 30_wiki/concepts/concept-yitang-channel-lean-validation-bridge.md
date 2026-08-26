@@ -27,10 +27,10 @@ source_context:
   - 一堂五步法之增长
   - yitang
 source_refs:
-- 00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt
+- 10_raw/sources/yitang-five-step-growth/truman-渠道探索方法论-口述.txt
   - src_unknown
   - src_unknown
-- 00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt
+- 10_raw/sources/yitang-five-step-growth/truman-渠道探索方法论-口述.txt
 - lean-startup-domain-digest
 - diag_20260627_wangyuyan-cross-domain-bridge-supplement
 source_person: Truman

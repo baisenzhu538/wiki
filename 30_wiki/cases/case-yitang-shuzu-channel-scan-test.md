@@ -37,7 +37,7 @@ source_context:
   - 一堂五步法之增长
   - yitang
 source_refs:
-- 00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt
+- 10_raw/sources/yitang-five-step-growth/truman-渠道探索方法论-口述.txt
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-案例-数族-渠道扫描.png
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-案例-数族-渠道测试.png
 source_person: Truman
