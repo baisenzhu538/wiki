@@ -19,6 +19,8 @@ from pathlib import Path
 
 EVENT_DB = Path.home() / ".kdo-memory" / "L1" / "activity_log.db"
 L1_ROOT = Path("D:/KDO-memory/L1-full")
+# #552 协同：注册表心跳优先（在岗判定主信号），事件库/L1 降为兜底
+REGISTRY = Path(__file__).resolve().parent.parent / "90_control" / "role-registry.json"
 WINDOW_MIN = 30
 # 机器自写事件类型（不计入在岗证据）：friction=conveyor_probe 镜像写入；
 # token_usage=token_meter 每日 02:07 自写（否则每天凌晨自欺在岗 30 分钟）
@@ -60,22 +62,46 @@ def _recent_l1_file(l1_root: Path, cutoff_ts: float) -> bool | None:
         return None
 
 
+def _recent_heartbeat(registry: Path, cutoff_ts: float) -> bool | None:
+    """#552 协同：注册表心跳优先——任一实例 heartbeat 在窗口内即在岗。
+    注册表不存在 → None（降级到事件库/L1 兜底）。"""
+    if not registry.exists():
+        return None
+    try:
+        import json as _json
+        reg = _json.loads(registry.read_text(encoding="utf-8"))
+        for entry in reg.values():
+            for inst in (entry or {}).get("instances", []):
+                if float(inst.get("heartbeat_ts", 0)) >= cutoff_ts:
+                    return True
+        return False
+    except Exception:
+        return None
+
+
 def any_agent_on_duty(event_db: Path | None = None, l1_root: Path | None = None,
-                      window_min: int = WINDOW_MIN, now: datetime | None = None) -> tuple[bool, str]:
-    """返回 (在岗?, 判定依据)。两路都不可得 → 默认在岗（True, "信号不可得默认激活"）。"""
+                      registry: Path | None = None, window_min: int = WINDOW_MIN,
+                      now: datetime | None = None) -> tuple[bool, str]:
+    """返回 (在岗?, 判定依据)。信号优先级（#552 协同口径）：注册表心跳 → 事件库 → L1；
+    全部不可得 → 默认在岗（True, "信号不可得默认激活"）。"""
     now = now or datetime.now()
     event_db = event_db or EVENT_DB
     l1_root = l1_root or L1_ROOT
-    # 事件库 ts 是 UTC ISO 8601——cutoff 转 UTC ISO 对齐
+    registry = registry or REGISTRY
+    cutoff_ts = now.timestamp() - window_min * 60
+
+    hb = _recent_heartbeat(registry, cutoff_ts)
+    if hb is True:
+        return True, f"注册表心跳近 {window_min} 分钟内有实例活跃"
+
     import datetime as _dt
     cutoff_utc = (now.astimezone(_dt.timezone.utc) - _dt.timedelta(minutes=window_min)).isoformat()
-
     ev = _recent_event(event_db, cutoff_utc)
     if ev is True:
         return True, f"事件库近 {window_min} 分钟有新事件"
-    l1 = _recent_l1_file(l1_root, time.time() - window_min * 60)
+    l1 = _recent_l1_file(l1_root, cutoff_ts)
     if l1 is True:
         return True, f"L1 采集层近 {window_min} 分钟有新会话文件"
-    if ev is None and l1 is None:
-        return True, "事件库与 L1 均读不到 → 默认激活（静默是例外）"
-    return False, f"事件库近 {window_min} 分钟无新事件且 L1 无新文件"
+    if hb is None and ev is None and l1 is None:
+        return True, "注册表/事件库/L1 均读不到 → 默认激活（静默是例外）"
+    return False, f"注册表/事件库/L1 近 {window_min} 分钟均无活动"

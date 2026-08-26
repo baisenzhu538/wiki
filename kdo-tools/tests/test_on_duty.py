@@ -38,7 +38,7 @@ def _iso(dt: datetime) -> str:
 def test_active_when_recent_events(tmp_path):
     """有事件流=激活：近窗口有真实事件（queue_transition）。"""
     db = _mk_db(tmp_path, [(_iso(datetime.now() - timedelta(minutes=5)), "queue_transition")])
-    on, reason = od.any_agent_on_duty(event_db=db, l1_root=tmp_path / "no-l1")
+    on, reason = od.any_agent_on_duty(event_db=db, l1_root=tmp_path / "no-l1", registry=tmp_path / "no-reg.json")
     assert on and "事件库" in reason
 
 
@@ -53,14 +53,14 @@ def test_silent_when_no_activity(tmp_path):
     old_ts = time.time() - 3600
     import os
     os.utime(old_file, (old_ts, old_ts))
-    on, reason = od.any_agent_on_duty(event_db=db, l1_root=l1)
+    on, reason = od.any_agent_on_duty(event_db=db, l1_root=l1, registry=tmp_path / "no-reg.json")
     assert not on
 
 
 def test_probe_own_events_not_counted(tmp_path):
     """探针自身事件不计入：近窗口只有 friction（探针镜像写入）→ 仍静默。"""
     db = _mk_db(tmp_path, [(_iso(datetime.now() - timedelta(minutes=2)), "friction")])
-    on, _ = od.any_agent_on_duty(event_db=db, l1_root=tmp_path / "no-l1")
+    on, _ = od.any_agent_on_duty(event_db=db, l1_root=tmp_path / "no-l1", registry=tmp_path / "no-reg.json")
     assert not on
 
 
@@ -71,13 +71,13 @@ def test_l1_fresh_file_marks_active(tmp_path):
     day = l1 / datetime.now().strftime("%Y-%m-%d")
     day.mkdir(parents=True)
     (day / "fresh.jsonl").write_text("x", encoding="utf-8")
-    on, reason = od.any_agent_on_duty(event_db=db, l1_root=l1)
+    on, reason = od.any_agent_on_duty(event_db=db, l1_root=l1, registry=tmp_path / "no-reg.json")
     assert on and "L1" in reason
 
 
 def test_default_active_when_signals_unreadable(tmp_path):
     """双信号不可得（库不存在+L1 不存在）→ 默认激活（静默是例外不是默认）。"""
-    on, reason = od.any_agent_on_duty(event_db=tmp_path / "no.db", l1_root=tmp_path / "no-l1")
+    on, reason = od.any_agent_on_duty(event_db=tmp_path / "no.db", l1_root=tmp_path / "no-l1", registry=tmp_path / "no-reg.json")
     assert on and "默认激活" in reason
 
 
@@ -95,3 +95,23 @@ def test_probe_silent_branch_defers_all_uniformly(tmp_path, monkeypatch):
     src = (Path(__file__).resolve().parent.parent / "conveyor_probe.py").read_text(encoding="utf-8")
     assert "_split_silent_exempt" not in src
     assert "exempt_roles" not in src
+
+
+def test_registry_heartbeat_preferred(tmp_path):
+    """#552 协同：注册表有新鲜心跳即在岗（事件库/L1 全空也激活）。"""
+    db = _mk_db(tmp_path, [])  # 空事件库
+    reg = tmp_path / "role-registry.json"
+    reg.write_text(json.dumps({"huangyaoshi": {"active": "cli", "instances": [
+        {"tool": "cli", "kind": "cli", "heartbeat_ts": time.time()}]}}), encoding="utf-8")
+    on, reason = od.any_agent_on_duty(event_db=db, l1_root=tmp_path / "no-l1", registry=reg)
+    assert on and "注册表心跳" in reason
+
+
+def test_registry_stale_heartbeat_falls_through(tmp_path):
+    """注册表心跳全过期 → 穿透到事件库/L1 判定（新鲜心跳才有话语权）。"""
+    db = _mk_db(tmp_path, [])
+    reg = tmp_path / "role-registry.json"
+    reg.write_text(json.dumps({"huangyaoshi": {"active": "cli", "instances": [
+        {"tool": "cli", "kind": "cli", "heartbeat_ts": time.time() - 7200}]}}), encoding="utf-8")
+    on, _ = od.any_agent_on_duty(event_db=db, l1_root=tmp_path / "no-l1", registry=reg)
+    assert not on

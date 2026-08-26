@@ -1300,6 +1300,15 @@ def action_myqueue(role: str) -> int:
     冻结（队列行标注勿领/冻结留档——含被取代挂账）/ 进行中（claimed-<role>）/
     待终审（pending_review）。
     """
+    # #552：时钟蹭拍——myqueue 是角色时钟每拍必跑的唯一命令，顺手写注册表心跳
+    # （零成本心跳钩；失败不阻断查询主流程）
+    try:
+        sys.path.insert(0, str(_WIKI_ROOT / "90_control" / "scripts"))
+        import role_registry
+        role_registry.heartbeat(role, tool=os.environ.get("KDO_TOOL", "cli"),
+                                session_scope=os.getcwd())
+    except Exception:
+        pass
     rows = parse_queue()
     mine = [r for r in rows if r["assignee"] == role]
     todo, wait, frozen, doing, reviewing = [], [], [], [], []

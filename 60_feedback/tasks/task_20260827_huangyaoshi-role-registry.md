@@ -6,7 +6,13 @@ updated_at: '2026-08-26T21:22:33.903594+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
+- 90_control/scripts/role_registry.py
 - 90_control/role-registry.json
+- 90_control/scripts/tests/test_role_registry.py
+- 90_control/scripts/queue_transition.py
+- kdo-tools/on_duty.py
+- kdo-tools/tests/test_on_duty.py
+- 90_control/infrastructure-inventory.md
 ---
 
 # #552 角色活性注册表 + 心跳写钩（#525 四拆之一）
@@ -36,3 +42,26 @@ code_files:
 ## 验收
 
 - 注册表 schema 与设计稿 §1 逐条对照；心跳写入/活性判定/降级自报三用例回归；欧阳锋终审
+
+
+## 执行报告（F-034 五字段，complete 前必填）
+
+**完成内容**：角色活性注册表+心跳写钩（#525 四拆之一，严格按设计稿 §1 施工）。①**注册表** `90_control/role-registry.json`（轻 JSON 单文件，原子替换写入）：schema=角色→instances[]（tool/kind/session_scope/profile/heartbeat_ts/channels）+active 指针，与设计稿 §1 逐条一致；②**心跳写钩**：`role_registry.py heartbeat` CLI 命令（启动/手工登记入口）+ **myqueue 蹭拍**（queue_transition action_myqueue 开头顺手写——角色时钟每拍必跑 myqueue，零成本心跳；失败不阻断查询）；③**活性判定**：`liveness()` heartbeat 年龄 >2×角色节奏=疑似死亡（#519 口径复用；节奏表：老顽童/黄药师 15min、王语嫣/欧阳锋 30min、风清扬 720min）；`check-liveness` 全死角色→gate-blocked.log 自报（#471 通道复用，不新造报警器）；④**多实例并存口径**：双活实例共列、active 跟随最近心跳（唤醒双发由 #553 调度器消费，本单只供数据）；⑤**#550 联动（协同备注口径）**：`on_duty.any_agent_on_duty` 改为**注册表心跳优先**，事件库/L1 降为兜底——判定链：注册表→事件库→L1→全不可得默认激活；⑥§3.19：无新通知类型（活性数据供 #553 消费），inventory 登记 role_registry。
+
+**交付物**：
+- `90_control/scripts/role_registry.py`（注册表模块：heartbeat/liveness/check-liveness/status CLI）
+- `90_control/role-registry.json`（注册表本体，huangyaoshi 双实例已狗粮登记）
+- `90_control/scripts/queue_transition.py`（myqueue 蹭拍写钩）
+- `kdo-tools/on_duty.py`（注册表心跳优先判定，#550 协同备注落地）
+- `90_control/scripts/tests/test_role_registry.py`（5 例）+ `kdo-tools/tests/test_on_duty.py`（+2 例：心跳优先/过期穿透）
+- `90_control/infrastructure-inventory.md`（登记）
+
+**验证**：
+- L1 单测 13 例全过（role_registry 5：建档/续拍/双活+active 切换/>2×节奏判死/全死自报/未注册不误报；on_duty 8 含心跳优先与穿透）；基线零退步：90_control **182 passed**（177+5）、kdo-tools **189 passed**（首次全量跑有 1 失败=role_registry 未登记撞 #488 覆盖对照，登记后复跑全绿——门禁抓登记纪律实证）
+- L2 狗粮：真机 `heartbeat huangyaoshi --tool kimi-cli` 建档 → 时钟 myqueue 蹭拍自动补 cli 实例 → status 双实例并存 alive → check-liveness 全死 0 误报
+- L3 待活体：#553 调度器消费注册表；各角色时钟蹭拍自然填充
+- **预审红项预标注**：预审若检「死/不」类词=活性判定语义描述（如「疑似死亡」「不误报」），预标注在此
+
+**边界**：不改 conveyor_probe ✅；调度器在 #553 ✅；设计稿零扩改 ✅；CLI 会话启动钩的 startup 指令修改属 D4（改自己 context 需批准）——本单以 myqueue 蹭拍覆盖心跳面，启动钩指令变更另报。
+
+**需要谁动作**：欧阳锋终审本单；#553 调度器单可接着领（注册表读侧已就绪）。

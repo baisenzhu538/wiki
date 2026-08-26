@@ -1,0 +1,39 @@
+{
+  "huangyaoshi": {
+    "instances": [
+      {
+        "tool": "kimi-cli",
+        "kind": "cli",
+        "channels": [
+          "todos"
+        ],
+        "heartbeat_ts": 1787779711.115667,
+        "session_scope": "C:/Users/Administrator/Desktop/wiki"
+      },
+      {
+        "tool": "cli",
+        "kind": "cli",
+        "channels": [
+          "todos"
+        ],
+        "heartbeat_ts": 1787779759.2488828,
+        "session_scope": "C:\\Users\\Administrator\\Desktop\\wiki"
+      }
+    ],
+    "active": "cli"
+  },
+  "laowantong": {
+    "instances": [
+      {
+        "tool": "cli",
+        "kind": "cli",
+        "channels": [
+          "todos"
+        ],
+        "heartbeat_ts": 1787779840.8676946,
+        "session_scope": "C:\\Users\\Administrator\\Desktop\\wiki"
+      }
+    ],
+    "active": "cli"
+  }
+}
