@@ -23,6 +23,7 @@
 | 11 | 基础设施单 reviewed 总账未同步 | conveyor_probe `_matrix_sync_check`（第七信号） | 推送 | 欧阳锋+抄送王语嫣 | defer（非终审类） | #537（本单=元狗粮首查对象） |
 | 12 | VLM/OCR 卡缺两段式隔离 | kdo pre-submit `_check_vlm_two_section`（#540） | pre-submit WARNING（提审输出可见） | 生产者 | — | #540（WARNING 起步，存量批次王语嫣裁定） |
 | 12 | 终审改判（review --override，reviewed→queued） | queue_transition | 任务单改判记录节+台账（--reason 必填）+failback 通知 | 改判权=终审者专用 | — | #538（⚠️交付漏登，第七信号真阳性拦获，王语嫣 08-26 补登） |
+| 13 | 检索结果低置信/冲突警告 | kdo_search 输出字段（confidence_flag/trust_level/conflict_warning）+标题后缀 | MCP 检索响应（消费 agent 可见） | 全体消费 agent | — | #541（trust 加权排序+conflict_with 警告，协议互链 consumer-retrieval-protocol） |
 
 ## 缺口台账
 

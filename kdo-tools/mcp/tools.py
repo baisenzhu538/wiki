@@ -148,6 +148,9 @@ async def search(query: str, domain: str | None = None, limit: int = 10) -> dict
             position = ""
             card_status = ""
             card_confidence = ""
+            card_trust = ""
+            conflict_with = []
+            conflict_warning = ""
 
             try:
                 # utf-8-sig strips BOM; normalize CRLF so frontmatter and
@@ -158,6 +161,8 @@ async def search(query: str, domain: str | None = None, limit: int = 10) -> dict
                 tags = fm.get("tags") or []
                 card_status = str(fm.get("status", "") or "")
                 card_confidence = str(fm.get("confidence", "") or "")
+                card_trust = str(fm.get("trust_level", "") or "").strip().lower()
+                conflict_with, conflict_warning = _conflict_warning(fm)  # #541
                 if isinstance(aliases, str): aliases = [aliases]
                 if isinstance(tags, str): tags = [tags]
 
@@ -211,14 +216,20 @@ async def search(query: str, domain: str | None = None, limit: int = 10) -> dict
                 # there is no similarity signal, so don't mislabel as "low"
                 score_label = "unknown"
 
+            conf_flag = _confidence_flag(card_status, card_trust)  # #541
             results.append({
                 "id": card_id,
                 # #524 消费端契约：draft/pending_review 标题 ⚠️ 前缀 + status/confidence 外露
                 # + 非卡命中来源层标注（#380【未审】升级为 ⚠️ 符号，覆盖 pending_review）
-                "title": _display_title(title, card_status),
+                # #541：trust_level 外露 + 低置信度标题后缀 + conflict_with 冲突警告
+                "title": _display_title(title, card_status, bool(conf_flag)),
                 "type": card_type,
                 "status": card_status,
                 "confidence": card_confidence,
+                "trust_level": card_trust,
+                "confidence_flag": conf_flag,
+                "conflict_with": conflict_with,
+                "conflict_warning": conflict_warning,
                 "source_layer": _source_layer_label(path_str, card_status),
                 "aliases": aliases[:8],
                 "tags": tags,
@@ -584,33 +595,71 @@ def _parse_frontmatter(text: str) -> dict:
 # ── #524 消费端契约：status 标注 + 来源层标注 + reviewed 排序加权 ──
 # 降权不剔除（红线 4：误拦优先不误伤——有些 query 只有 draft 命中，剔除=召回损失）
 _STATUS_WEIGHT = {"reviewed": 1.25, "draft": 0.7, "pending_review": 0.8}
+# #541：trust_level 加权（与 status 权重相乘）——reviewed+high 置顶、draft/medium 垫后。
+# 缺 trust_level 的非卡文档（10_raw 素材等）fail-open 权重 1.0（#382 同口径）。
+_TRUST_WEIGHT = {"high": 1.2, "medium-high": 1.1, "medium": 0.9, "medium-low": 0.8, "low": 0.6}
 _WARN_STATUSES = {"draft", "pending_review"}  # 标题 ⚠️ 前缀：消费端一眼可辨未终审
+_LOW_TRUST = {"low", "medium-low"}  # #541：低置信标记阈值
 
 
-def _quick_status(p: Path) -> str:
-    """轻读 frontmatter 头部取 status（排序加权用——只读前 4KB，不全文解析）。"""
+def _quick_status_trust(p: Path) -> tuple:
+    """轻读 frontmatter 头部取 (status, trust_level)——排序加权用，只读前 4KB，不全文解析。"""
     try:
         with p.open("r", encoding="utf-8-sig", errors="replace") as f:
             head = f.read(4096)
         fm = _parse_frontmatter(head.replace("\r\n", "\n"))
-        return str(fm.get("status", "") or "")
+        return (
+            str(fm.get("status", "") or ""),
+            str(fm.get("trust_level", "") or "").strip().lower(),
+        )
     except OSError:
-        return ""
+        return "", ""
 
 
 def _apply_status_weights(fused: list) -> list:
-    """按 status 加权调整 score：reviewed 上调 / draft·pending_review 降权（不剔除）。
+    """按 status+trust_level 加权调整 score：reviewed/high 上调、draft·pending_review/low 降权（不剔除）。
     返回同结构 [(score, path, snippet)]，供 _sort_by_layer 在层内按加权分排序
     （层优先级不动——框架层仍在工具层前）。"""
-    return [
-        (score * _STATUS_WEIGHT.get(_quick_status(Path(path_str)), 1.0), path_str, snippet)
-        for score, path_str, snippet in fused
-    ]
+    out = []
+    for score, path_str, snippet in fused:
+        status, trust = _quick_status_trust(Path(path_str))
+        weight = _STATUS_WEIGHT.get(status, 1.0) * _TRUST_WEIGHT.get(trust, 1.0)
+        out.append((score * weight, path_str, snippet))
+    return out
 
 
-def _display_title(title: str, status: str) -> str:
-    """#524：draft/pending_review 卡标题加 ⚠️ 前缀（#380【未审】标记的符号升级）。"""
-    return f"⚠️ {title}" if status in _WARN_STATUSES else title
+def _confidence_flag(status: str, trust_level: str) -> str:
+    """#541：低置信标记——未终审（draft/pending_review）、低 trust（low/medium-low）、
+    或未终审的 medium trust，一律标「低置信度」让消费端垫后采信。"""
+    if status in _WARN_STATUSES:
+        return "低置信度"
+    t = trust_level.strip().lower()
+    if t in _LOW_TRUST:
+        return "低置信度"
+    if t == "medium" and status != "reviewed":
+        return "低置信度"
+    return ""
+
+
+def _conflict_warning(fm: dict) -> tuple:
+    """#541：conflict_with 字段 → (links, 警告文案)。#539 挂的首个用例字段。"""
+    links = fm.get("conflict_with") or []
+    if isinstance(links, str):
+        links = [links]
+    links = [str(x) for x in links if x]
+    if not links:
+        return [], ""
+    return links, f"⚠️ 此卡与 {'、'.join(links)} 冲突，以权威卡为准"
+
+
+def _display_title(title: str, status: str, low_confidence: bool = False) -> str:
+    """#524：draft/pending_review 卡标题加 ⚠️ 前缀（#380【未审】标记的符号升级）。
+    #541：低置信卡追加（低置信度）后缀。"""
+    if status in _WARN_STATUSES:
+        title = f"⚠️ {title}"
+    if low_confidence:
+        title = f"{title}（低置信度）"
+    return title
 
 
 def _source_layer_label(path_str: str, status: str) -> str:

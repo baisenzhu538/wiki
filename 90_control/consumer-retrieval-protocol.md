@@ -18,6 +18,7 @@
 ## 配套机制索引
 
 - kdo_search 结果标注（status/⚠️/来源层）：#524（已闭环）
+- kdo_search trust_level 加权排序 + 低置信度标记 + conflict_with 冲突警告：#541（工具层落地本协议第 3 条「结果看 status」——reviewed+high 置顶、draft/medium 垫后、冲突卡附「以权威卡为准」警告）
 - 被依赖卡 draft 门禁+存量清单：#527（在队）
 - 孤岛卡扫描 lint：#528（在队）
 - 盲测 QA 例行（每日一问）：`90_control/retrieval-qa-log.md`

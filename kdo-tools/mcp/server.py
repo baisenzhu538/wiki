@@ -132,7 +132,10 @@ async def kdo_search(
     - "科学决策有什么框架" → finds the Scientific Decision framework
 
     Each result includes the card ID, title, type (framework/tool/case/concept),
-    a content snippet, and the card's last-modified date so you can judge freshness.
+    status/trust_level (draft/pending_review cards get a ⚠️ prefix and
+    低置信度 flag — verify before citing), a conflict_warning when the card
+    conflicts with an authoritative card, a content snippet, and the card's
+    last-modified date so you can judge freshness.
 
     Args:
         query: Your business question in Chinese or English
