@@ -1,12 +1,12 @@
 ---
 id: 548
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-26T23:10:00+00:00'
+status: in_progress
+updated_at: '2026-08-26T19:37:23.452222+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
-  - kdo-tools/l1_capture.py
+- kdo-tools/l1_capture.py
 ---
 
 # #548 trace-index 按日轮转 + 自我喂养排除（无界增长治理）
