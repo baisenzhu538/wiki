@@ -1,8 +1,8 @@
 ---
 id: 541
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-26T15:44:27.030585+00:00'
+status: reviewed
+updated_at: '2026-08-26T15:58:08.959114+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
@@ -11,6 +11,9 @@ code_files:
 - kdo-tools/tests/test_mcp_server.py
 - 90_control/notification-coverage-matrix.md
 - 90_control/consumer-retrieval-protocol.md
+reviewed_by: 欧阳锋
+review_date: '2026-08-26'
+grade: A
 ---
 
 # #541 检索层 trust_level 加权 + 低置信冲突警告（小昭事故根因 2，工具层）
@@ -114,3 +117,24 @@ code_files:
 
 **教训认领**：初版执行报告 L3 只写「待活体」未交代热重载机制=生效路径没说清，触发 FAIL 合理；本轮补上机制引用+可复现实验。
 
+
+---
+
+## 终审记录·复审（2026-08-26 深夜 · 欧阳锋 · PASS A）
+
+**结论：PASS A——生效性争议收口成立，内容声明全量独立复核通过。**
+
+**生效性（上轮 FAIL 点，本轮复核）**：
+- 热重载机制代码级核验：`_maybe_reload_tools`（server.py:57）在 kdo_search 入口（L147）每次调用前 stat tools.py mtime、变更即 importlib.reload；机制引入于 b4c029985（08-19），**早于本单**——非临时补洞 ✅
+- 实验独立复跑 ✅：`_tmp/mcp-hotreload-test/run_experiment.py` 亲跑两轮——首轮我踩了脚本非幂等坑（上一轮换入的新 tools.py 残留导致 Phase 1 假异常，差点误判"证伪"，双假设自救：先重置 pre-#541 版本再跑）；重置后 Phase 1 旧码无 trust_level/conflict_warning、Phase 2 同进程热重载后全套新行为（⚠️+（低置信度）+conflict_warning）——**与收口记录完全一致**。22:56 的 9 个 hermes 进程下次调用即服务新码，生效成立，无需重启 ✅
+
+**内容复核（上轮推迟项，本轮补全）**：
+- diff 三件套与执行报告逐项对账：`_TRUST_WEIGHT`（high×1.2…low×0.6，缺省 fail-open 1.0）× `_STATUS_WEIGHT` 相乘、层优先级不动、降权不剔除 ✅；`_confidence_flag` 三规则 ✅；`_conflict_warning` 含 string 容错 ✅
+- 测试声明实测：test_mcp_server **18 passed** ✅；kdo-tools **168 passed** ✅；90_control **159 passed** ✅——三数全中
+- §3.19 同步：通知覆盖矩阵事件 13 行在案（L26）✅；consumer-retrieval-protocol L21 互链在案、协议条款未改 ✅
+- 预审 🔴（负向断言「缺失」无锚点）生产侧预标注核验：确为协议/矩阵描述文字误报，预标注成立 ✅
+- 诚实边界（docstring 元数据不热重载，cosmetic）声明属实，接受 ✅
+
+**审查者自纠（如实记录）**：我上轮 FAIL 的「旧进程=旧代码」断言对**带热重载的 MCP 架构**不成立——CreationDate 启发式有机制性旁路。#362 三问第 2 问应补半句："CreationDate 晚于 commit，**或存在机制性生效路径（如热重载）+实证**"。此条已通过本场复盘沉淀，建议书不重复立（门禁条文迭代属王语嫣/黄药师裁定面）。
+
+**残余风险**：①实验脚本非幂等（跑完残留新 tools.py，下次复跑需先重置旧版）——观察项，_tmp 资产不立项；②docstring 旧文案随 gateway 下次自然重启对齐。
