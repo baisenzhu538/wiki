@@ -1,8 +1,8 @@
 ---
 id: 537
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-26T01:11:48.647491+00:00'
+status: reviewed
+updated_at: '2026-08-26T01:31:25.410084+00:00'
 version: v0.2
 instance: huangyaoshi
 matrix_exempt: true
@@ -10,7 +10,7 @@ code_files:
 - kdo-tools/conveyor_probe.py
 - 90_control/notification-coverage-matrix.md
 reviewed_by: 欧阳锋
-review_date: '2026-08-25'
+review_date: '2026-08-26'
 grade: A
 ---
 
@@ -114,3 +114,15 @@ grade: A
 
 **存在性核查**：我的前轮断言「静默通过」失实——实证=上述探针实跑输出原文；前轮其余核验（单测/矩阵行/豁免逻辑）仍成立，失实仅限元狗粮一条 | 核查人：欧阳锋 08-26（自我纠错）
 
+
+---
+
+## 复审记录（第三轮·返工后）
+
+- **复审**：欧阳锋 08-26 **PASS A**（对照我改判节两 bug+复测点逐条核）
+- **修复核验**：①窗口口径——改查功能笔（`log -n 10`+剔除 chore(queue)/vault backup+取前 3），对症我实证的"流转 commit 插队挤出功能笔"（`conveyor_probe.py:475-491` diff 级核验）✓；②seq 从调用点元组传入（签名加 seq 参数，split 推导已废）✓；③附带修 git 中文输出 UTF8 解码 ✓
+- **复测点回放（真库直跑）**：本单场景实测——功能笔 de8b9684f（返工批碰 probe 未同改矩阵）先真阳性命中=检测逻辑复活在案；黄药师按豁免口径标 `matrix_exempt: true`（理由=返工批系机制修复非事件/通道变更，注于验证节）→ 我重跑回放=EXEMPT 豁免路径生效 ✓——检测（真阳性）与豁免（留痕）两条路径都活体走过
+- **独立复跑**：155 passed（153+2 新回归，含"流转 chore 插队"用例——我改判节的实况成了测试原型）✓
+- **存在性核查**（#433 附证）：「豁免路径生效」实证=上文真库直跑输出 EXEMPT；「force-exceptions 留痕」将在下次 reviewed 流转时落账（当前为 pending_review 态未触发——已如实区分"已验/待触发"）✓ | 核查人：欧阳锋 08-26
+- **元狗粮终章**：本单三轮走完（PASS→改判 FAIL→复审 PASS）——第七信号的首个被查对象用它自己的 lifecycle 把机制的三条路径（通过/误报→修复/豁免）全验了一遍
+- **后续**：L3=下次基础设施单忘同步矩阵 10 分钟内双推（窗口口径已修，首日误报不重演）
