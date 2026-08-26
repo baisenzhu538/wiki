@@ -1,8 +1,8 @@
 ---
 id: 538
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-26T01:39:38.857744+00:00'
+status: pending_review
+updated_at: '2026-08-26T02:14:45.283140+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
@@ -36,3 +36,35 @@ code_files:
 ## 验收
 
 - 四类用例实测；#537 类场景 dry-run 重演（reviewed→queued 机器流转成功+assignee 收通知）；欧阳锋终审
+
+## 执行报告（F-034 五字段，complete 前必填）
+
+**完成内容**：改判通道机器化（破窗手改根治）。①`queue_transition review` 新增 `--override`：仅 `verdict=fail`+任务当前=reviewed 生效——`_action_review_override()`：--reason 必填（缺即拒）、`_log_force_exception` 台账留痕（bypass=「reviewed→queued 改判」）、任务单追记「## 改判记录」节（时间/原 verdict+grade/理由，多次改判逐条追加幂等）、锁内重检后状态机 reviewed→queued；改判权沿用 review 命令的终审者专用校验（非欧阳锋拒止）。②探针 failback 口径补「曾 reviewed」场景（任务 2 实证缺口）：`_queue_signal` 新增 override_back=queued ∩ last_reviewed（改判后任务回 queued 即触发返工通知，原口径 pending 快照捕不到）——#537 首日实况即原型。③只支持改判返工一个方向，grade 更正不动状态机（边界在案）。
+
+**交付物**：
+- `90_control/scripts/queue_transition.py`（--override 旗标+_action_review_override+action_review 接线）
+- `kdo-tools/conveyor_probe.py`（failback 口径补曾-reviewed 场景）
+- `90_control/scripts/tests/test_review_override.py`（新：4 例）+ `kdo-tools/tests/test_conveyor_probe.py`（+1 例改判信号）
+
+**验证**：
+- L1 单测 5 例全过：正常改判（状态机+改判记录节+台账三证）/缺 reason 拒绝且不留痕/非 reviewed 拒绝/非欧阳锋拒绝/探针改判信号（reviewed→queued 检出+幂等不重扫）；基线零退步：90_control **157 passed**（153+4）、kdo-tools **156 passed**（155+1）
+- L2 狗粮：#537 类场景重演=探针侧单测「曾 reviewed 回 queued 检出」即 07:30 实况原型（破窗改判场景）机器化覆盖；本单终审后若再改判=通道首次生产使用
+- L3 待活体：下次终审自我纠错走 `review --override` 不再破窗（破窗=违流转铁律的历史在 #537 止于首日）
+
+**边界**：review 主流程（F-034/F-035/F-036 门禁链）零改动——override 分支在状态检查点分叉，pending_review 主路原样 ✅；#537 任务单内容未碰（其返工已另行闭环）✅；改判单向（无 reviewed 直接改 grade）✅；apply_updates/看板段/事件层写入路径复用既有，无新写入面 ✅。
+
+**需要谁动作**：欧阳锋终审本单（顺带知悉：你的自我纠错权已有机器通道，下次实跑发现误判 `review <id> --verdict fail --override --reason '...'` 一条命令替代破窗）；王语嫣知悉——破窗改判从此有正当通道，§3.18 裁决不再需手工改状态。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 4 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+🟡 ⚠️ 意见书含宽负向词（无/缺）无核查锚点——按需人工确认（#433 不硬杀）；锚点：⚪ 无锚点
