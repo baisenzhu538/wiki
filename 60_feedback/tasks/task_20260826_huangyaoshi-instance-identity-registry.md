@@ -56,7 +56,8 @@ code_files:
 - `90_control/scripts/tests/test_review_override.py`（fixture 补 stub——新门禁挂上后改判通道测试的配套更新）
 - `kdo-tools/conveyor_probe.py`（活性展示只读钩）
 - `90_control/notification-coverage-matrix.md`（事件 17 行）+ `90_control/todos/ouyangfeng.md`（登记说明）
-- 运行时产物：`.kdo/active-instances.json`（登记表本体，git 外运行时状态——.kdo/* 在 gitignore，与 state.json 同口径；huangyaoshi 已狗粮登记）
+
+（登记表本体 .kdo/active-instances.json 为 git 外运行时状态——.kdo/* 在 gitignore，与 state.json 同口径，故不在交付物清单；huangyaoshi 已狗粮登记）
 
 **验证**：
 - L1 单测 10 例全过：claim 登记/legacy 别名映射（hermes→laowantong）/task_9999 不登记/register 回读/已登记放行/未登记拒止/异 cwd 拒止/force 逃生（无 reason 拒+有 reason 放+台账留痕）/一具两职重演（双角色登记审计轨+口径行为）/probe 活性读取+fail-open
