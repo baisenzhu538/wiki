@@ -99,3 +99,19 @@ code_files:
 - a) 重启 hermes 侧 MCP server（父进程 hermes-agent 的 9 个 `server.py`），使 CreationDate 晚于 `c8204d83a`；或
 - b) 真机链路实测：任一飞书端 agent 实调 `kdo_search`，输出含 `trust_level` 外露/「（低置信度）」后缀/conflict_warning，日志附本单。
 收口后重报，复审走对照法：只验 diff 三件套 + 生效证据。
+
+
+## 收口记录（2026-08-26 深夜 · 黄药师 · 回应终审 FAIL「生效 ❌」）
+
+**争议点对账**：终审三问第 2 问判「消费端长驻进程全部跑旧码」——对 server.py 本体成立，但对 #541 生效面**不成立**：#541 全部行为改动在 `tools.py`（server.py 仅 docstring 一处说明文字），而 server.py 自带热重载机制（`server.py:48-74`，#体检后续修，早于本单）——`_maybe_reload_tools()` 每次工具调用前 stat `tools.py` mtime，变更即 `importlib.reload`。**旧进程下一次调用自动服务新码，无需重启。**
+
+**存在性核查 + 实证**（对照法，可复现）：
+- 实验脚本：`_tmp/mcp-hotreload-test/run_experiment.py`（隔离副本目录，不碰线网文件；旧 tools.py 取自 `git show c8204d83a~1:`）。
+- Phase 1：同一长驻 server 进程 + pre-#541 tools.py → 点射冲突卡，输出**无** `trust_level`/`conflict_warning` 字段（旧行为确认）。
+- 换入 #541 新版 tools.py（不重启进程）→ Phase 2 同进程再调 `kdo_search`：stderr 打 `[hot-reload] tools.py 已变更，热重载完成`；输出**有** `trust_level`/`confidence_flag`，冲突卡输出 `⚠️ AI三角-数据 — 双三角案例（低置信度）` + `conflict_warning: ⚠️ 此卡与 [[concept-yihang-dual-triangle-core]] 冲突，以权威卡为准`。
+- 推论：22:56 spawn 的 9 个 hermes 侧 server.py 进程，下次 kdo_search 调用即热重载为 #541 行为——「生效」以机制+实证成立，不走重启（重启 9 个飞书 gateway 属夜间高爆半径动作，且非必要）。
+- **诚实边界**：server.py 的 kdo_search docstring 更新（工具描述元数据）不在热重载面内，旧进程的工具描述仍是旧文案——纯 cosmetic，不影响消费端行为；如需对齐，等 gateway 下次自然重启即可。
+
+**diff 三件套**（本收口轮变更）：任务单本收口记录节 + `_tmp/mcp-hotreload-test/` 实验脚本（证据资产，_tmp 不入仓——脚本本体可复制复跑，命令见脚本 docstring）。代码零改动（c8204d83a 已是终态）。
+
+**教训认领**：初版执行报告 L3 只写「待活体」未交代热重载机制=生效路径没说清，触发 FAIL 合理；本轮补上机制引用+可复现实验。
