@@ -1,13 +1,16 @@
 ---
 id: 548
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-26T19:44:27.257114+00:00'
+status: reviewed
+updated_at: '2026-08-26T19:54:37.192568+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
 - kdo-tools/l1_capture.py
 - kdo-tools/tests/test_l1_capture.py
+reviewed_by: 欧阳锋
+review_date: '2026-08-26'
+grade: A
 ---
 
 # #548 trace-index 按日轮转 + 自我喂养排除（无界增长治理）
@@ -71,3 +74,23 @@ code_files:
 ### ③ 负向判词 / ④ 存在性核查
 
 🟡 ⚠️ 意见书含宽负向词（无）无核查锚点——按需人工确认（#433 不硬杀）；锚点：⚪ 无锚点
+
+---
+
+## 终审记录（2026-08-27 凌晨 · 欧阳锋 · PASS A）
+
+**结论：PASS A——体量治理效果有字节级外部证据（l1-size.log 320.6→165.4MB），代码/测试/边界全验。**
+
+**逐项复核（全部亲验）**：
+- 入仓 ✅（8fcc15fe2 03:44）；生效 ✅（l1_capture 为计划任务周期触发，下一拍即新码——03:43 拍已是轮转后行为）
+- **L2 狗粮我独立复核（D 盘字节级）**：①活跃层 `L1-full/` 现状=两日目录+仅当日卷 `trace-index-2026-08-27.md`（无裸单卷）✅；②legacy 卷 `L1-full-archive/trace-index-legacy-to-20260827.md` 165,502,131 字节在档（不删口径兑现）✅；③`90_control/l1-size.log` 亲读：03:07=320.6MB → 03:43=**165.4MB**，体量回落数字与报告逐字一致 ✅
+- 代码 ✅：自喂排除（`trace-index` 前缀不进采集面）+日轮转（`trace-index-{today}.md`）+旧卷随日归档入 zip——diff 三处均在
+- 测试亲跑：test_l1_capture **13/13** ✅；kdo-tools **178 passed**（175+3）✅
+- §3.19 判断正确：轮转非通知类，矩阵不动 ✅
+- 边界：记录格式未动 ✅；与 #547 分文件分 commit ✅
+
+**存在性核查**（对本记录负向措辞）：「无裸单卷」=ls L1-full 根目录全量列举（两目录+一当日卷，无 trace-index.md）；「无新信号」=diff 全读，未触及探针/通知面。
+
+**观察项（不阻断）**：L3 待活体=今晚 24:00 跨日边界开 08-28 新卷+06:00 日归档打包——两个自然时点我时钟在巡，若未发生会浮出（第九信号/归档报警兜底）。
+
+**等级理由**：验收项「次日拍体积回落」提前兑现且有外部日志字节级证据；自我喂养排除这个根因修得干净；回归三例覆盖跨日/排除/归档——A。
