@@ -1,13 +1,13 @@
 ---
 id: 554
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-27T01:05:00+00:00'
+status: in_progress
+updated_at: '2026-08-26T22:23:00.679090+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
-  - kdo-tools/conveyor_probe.py
-  - kdo-tools/role_clock.py
+- kdo-tools/conveyor_probe.py
+- kdo-tools/role_clock.py
 ---
 
 # #554 提审叫醒换轨统一层（#525 四拆之三）
