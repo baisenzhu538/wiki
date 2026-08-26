@@ -23,7 +23,7 @@ source_context:
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_239_vlm_desc.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_239_ocr_text.md
-- 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md
+- 10_raw/sources/strategy/冉鹏战略课逐字稿_ocr.md
 reviewed_by: pending
 updated_at: '2026-06-29'
 discoverable_by:

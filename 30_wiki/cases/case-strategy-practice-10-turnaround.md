@@ -22,7 +22,7 @@ source_context:
   - 一堂五步法
   - 冉鹏战略课逐字稿
 source_refs:
-- 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md
+- 10_raw/sources/strategy/冉鹏战略课逐字稿_ocr.md
 - 00_inbox/一堂五步法/一堂-一堂五步法-单元模型-口述.txt
 reviewed_by: pending
 updated_at: '2026-06-29'

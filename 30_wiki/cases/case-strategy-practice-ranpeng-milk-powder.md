@@ -20,7 +20,7 @@ aliases:
 source_context:
   - 冉鹏战略课逐字稿
 source_refs:
-- 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md
+- 10_raw/sources/strategy/冉鹏战略课逐字稿_ocr.md
   - src_unknown
 reviewed_by: pending
 updated_at: '2026-06-29'

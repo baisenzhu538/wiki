@@ -15,7 +15,7 @@ domain: strategy
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_43_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_43_vlm_desc.md
-- 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md
+- 10_raw/sources/strategy/冉鹏战略课逐字稿_ocr.md
 tags:
   - audience:general
   - scene:reference
