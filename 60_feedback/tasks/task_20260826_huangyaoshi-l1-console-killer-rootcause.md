@@ -1,12 +1,12 @@
 ---
 id: 547
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-26T23:30:00+00:00'
+status: in_progress
+updated_at: '2026-08-26T19:07:21.383679+00:00'
 version: v0.2
 instance: huangyaoshi
 code_files:
-  - kdo-tools/l1_capture.py
+- kdo-tools/l1_capture.py
 ---
 
 # #547 L1 采集 console-killer 根因排查 + 空转报警（破口已自闭合，防复发）
