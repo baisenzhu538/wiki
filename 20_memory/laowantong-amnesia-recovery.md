@@ -56,6 +56,16 @@ type: memory/role-recovery
 
 ---
 
+## 4. 当前状态（截至 2026-08-26 · 词元经济域首开 PASS A + 时钟 v2 + E018）
+
+- **#531 词元经济域首开 → PASS A**（欧阳锋 08-26 批次验收，P0 首卡三方法口径）：5 卡（三层格局/token-per-watt/智能体消费/MVP 五步法/批判性拆书 dk）；三方法核验=CoreWeave 营收 51.3 亿美元实证✅（但净亏 11.7 亿→印钞机叙事入批判层）+推理芯片 1450 亿/52%✅+垂直定价表/MiniMax 定价/「OpenAI 50%」标待核不硬写；domain 建议不开新域挂 strategy+ai-saas（待王语嫣裁定）；commit `0beba123c`
+- **时钟 v2**（cron ID `01M0WZ8HE2BSFXAQQBBQ23WY7G`，15 分钟/拍）：v1 漏报 #531 终审落点被老朱抓包——myqueue 快照覆盖不到 pending_review→reviewed 跃迁；v2 第 0 步=终审落点检测（grep 队列 laowantong 行+Read 任务单终审记录）
+- **建议书已上浮**：`60_feedback/diagnosis/diag_20260826_laowantong-review-landed-notification-gap.md`（探针缺「终审落点」通知事件，三方向待王语嫣裁定）
+- **E018 入库**：问题分类默认归因「我的执行」——判别式=凡修复先问「别人会不会也踩？」会=当日落最小建议书（E017 家族第三次后的根治式）
+- **复盘**：laowantong/daily-context/2026-08-26.md（Truman 11 章 🟢A 级）
+- **队列实况（08-26 实测）**：#526/#529/#531 全 reviewed；#539（ADUCIT 概念卡+case 卡处置）已到队待领（被 #528 黄药师阻塞中）
+- **踩坑沉淀（08-26）**：监控「没有新任务」≠「没有状态变化」/ 核出矛盾>核通过 / 门禁拦住的和自己拦住的要分开记账（垂直定价表是任务书口径拦的不是我怀疑拦的）
+
 ## 4. 当前状态（截至 2026-08-25 · FAIL 返工三连闭环 + 队列清空）
 
 - **#470 成瘾口径修正返工 → PASS A-**（欧阳锋 08-25 复审，对照法）：4 卡 source_context 补完整值（拆书会216期+D-20260823-015+转述二等，对齐水水范本行内标量）；O2 指令闭环=feat(cards) commit `19a59e778` 补落
