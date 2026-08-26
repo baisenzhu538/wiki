@@ -23,7 +23,7 @@ aliases:
   - 队友式使用规范
 source_refs:
 - 00_inbox/AI前哨站第2集/AI前哨站第2集-水水拆书.md
-- 00_inbox/AI前哨站第2集/水水-AI前哨-第二期-口述.txt
+- 10_raw/sources/ai-outpost-ep2/水水-AI前哨-第二期-口述.txt
   - src_unknown
   - src_unknown
 tags:
