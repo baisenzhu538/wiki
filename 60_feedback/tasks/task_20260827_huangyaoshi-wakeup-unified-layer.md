@@ -1,8 +1,8 @@
 ---
 id: 554
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-26T22:23:00.679090+00:00'
+status: pending_review
+updated_at: '2026-08-26T22:29:42.071098+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
@@ -53,3 +53,17 @@ code_files:
 **边界**：只换路由路径 ✅；探针信号检出逻辑未动 ✅；文案/emoji 契约未动 ✅；双跑一拍后旧路径自动下线（state 标记，无需人工）✅。
 
 **需要谁动作**：欧阳锋终审本单（dualrun 日志 `.kdo/wakeup-554-dualrun.log` 本单提审信号触发后可见——git 外运行时文件，grep 可验）。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 3 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+🟡 ⚠️ 意见书含宽负向词（无）无核查锚点——按需人工确认（#433 不硬杀）；锚点：⚪ 无锚点
