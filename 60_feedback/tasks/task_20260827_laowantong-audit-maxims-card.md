@@ -64,14 +64,14 @@ framework 卡 1 张 → 解压资产：①agent-os 引用节（终审后王语�
 
 ## 执行报告（完成后回填）
 
-- **改动文件**（清单）：`30_wiki/frameworks/framework-audit-maxims-library.md`（新建，交付物）；`60_feedback/adversarial/atk_framework-audit-maxims-library_20260827.md`（新建，自攻击报告）；`60_feedback/tasks/task_20260827_laowantong-audit-maxims-card.md`（本任务单：建模方案+执行报告）；`.kdo/CAPSULE_STARTUP.md`（git_head/queue_tail 字段过期更新，启动校验动作）
-- **完成内容**（一句话）：风清扬 13 条审计判词（A6/B5/C2）已结构化为 `30_wiki/frameworks/framework-audit-maxims-library.md` v0.1，经四路自攻击修复 1🔴+9🟡 类问题，pre-submit PASS，已 commit。
-- **验证**（命令+输出）：
+**改动文件**（清单）：`30_wiki/frameworks/framework-audit-maxims-library.md`（新建，交付物）；`60_feedback/adversarial/atk_framework-audit-maxims-library_20260827.md`（新建，自攻击报告）；`60_feedback/tasks/task_20260827_laowantong-audit-maxims-card.md`（本任务单：建模方案+执行报告）；`.kdo/CAPSULE_STARTUP.md`（git_head/queue_tail 字段过期更新，启动校验动作）
+**完成内容**（一句话）：风清扬 13 条审计判词（A6/B5/C2）已结构化为 `30_wiki/frameworks/framework-audit-maxims-library.md` v0.1，经四路自攻击修复 1🔴+9🟡 类问题，pre-submit PASS，已 commit。
+**验证**（命令+输出）：
   - `kdo pre-submit -f 30_wiki/frameworks/framework-audit-maxims-library.md` → `Files checked: 1 / Passed: 1 / Failed: 0 / ✅ Result: PASS（2 条 WARNING 在列）`（全文见下）
   - 出处抽验 `ls 60_feedback/tasks/task_20260823_huangyaoshi-{memory-capsule-l0-minimal,negative-claim-gate,queue-force-ledger-assignee-role}.md` → 三文件均存在，内容与判词对得上
   - `git log --oneline -1` → 交付 commit 已入仓
-- **未做项**（边界）：①agent-os 引用节 + ②#433 词表引用判词编号——按任务单边界不占本单，终审后王语嫣落；B3/B4 出处为会话实录，文件级回链待补（已在卡内标注「待回链」）
-- **需要谁动作**：欧阳锋终审本卡；终审通过后王语嫣落解压资产①②
+**未做项**（边界）：①agent-os 引用节 + ②#433 词表引用判词编号——按任务单边界不占本单，终审后王语嫣落；B3/B4 出处为会话实录，文件级回链待补（已在卡内标注「待回链」）
+**需要谁动作**：欧阳锋终审本卡；终审通过后王语嫣落解压资产①②
 - **自攻击**：四路 AgentSwarm 并行攻击，报告落 `60_feedback/adversarial/atk_framework-audit-maxims-library_20260827.md`。🔴×1（Synthesis 伞命题被 5/13 反例证伪）+🟡×9 类+🟢×6 类全部修复/标注：词表-判词因果方向修正、A5 入宪状态纠偏、B2 算术改写、B1/B5/C1 出处补文件级回链、失败模式补 charter 漂移、When NOT to Use 补效力层级、行号锚点改常量名
 - **出处抽验 3 条**（验收要求）：A2→#432 ✓（任务单存在+语录真实出处在 parking-lot F-027）/ A3→#433 ✓（任务单与判词完全互证）/ B1→#444 ✓（元凶单，事件实录在 session-archives/2026-08-24/wangyuyan-claude.md）。补链 5 个路径全部 `ls` 复验存在
 - **三方法适配声明**：判词=内部制度提炼非外部事实断言，WebSearch 外部调研不适用；验证走出处回链（任务单规格 L37 裁定）
