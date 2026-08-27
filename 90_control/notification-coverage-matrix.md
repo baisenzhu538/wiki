@@ -14,7 +14,7 @@
 | 2 | 新提审（pending_review） | conveyor_probe | 叫醒推送 | 欧阳锋 | 豁免（终审类） | #421/#520 |
 | 3 | 终审 PASS（reviewed） | conveyor_probe `new_reviewed` | todos 推送 | assignee + 抄送王语嫣 | 豁免（终审类） | #462/#521 R1/R2 |
 | 4 | 终审退回 FAIL（failback） | conveyor_probe `new_failback` | todos 推送 | assignee 路由 | defer（未豁免，观察项 O1） | #462；#538 补「曾 reviewed」场景 |
-| 5 | 门禁拦截（gate-blocked） | conveyor_probe | 推送+看板登记 | 王语嫣 | — | #460 |
+| 5 | 门禁拦截（gate-blocked） | conveyor_probe `_scan_gate_blocked`（#562：时间戳锚定记录聚合——多行拦截消息（如 E040 交付物清单）续行并入首记录，不再按物理行切出垃圾残片；状态键 gate_seen_v2，旧行级方案升级首跑静默吸收存量防重报） | 推送+看板登记 | 王语嫣 | — | #460；#562 多行解析修复 |
 | 6 | 建议书登记（三元组命中） | conveyor_probe `_scan_proposals` | 推送+PROPOSAL-PENDING 登记 | 王语嫣 | — | #421/#506 |
 | 7 | 审查意见 🟠/🟡 无落点 | conveyor_probe F-036 | 推送 | 欧阳锋 | 不豁免 | F-036 第七信号 |
 | 8 | near-miss 三元组违例 | conveyor_probe `_proposal_near_miss` + `_escalate_near_miss` | 仅日志 print + **≥3 轮未修正升级推王语嫣收件箱**（修正自动消项） | 王语嫣 | defer（非终审类） | ✅ #536 销项 |
@@ -32,6 +32,7 @@
 | 19 | token 日计量汇总 | token_meter.py（挂 kdo-health-daily 02:07；三引擎增量游标，不回溯历史） | 日汇总落 60_feedback/analytics/token-usage-*.md/json + 事件层 token_usage | 黄药师/风清扬（#514 基线接口） | — | #549（只计量不限制；配额熔断属 F-055 阶段 2/3） |
 | 20 | 角色时钟唤醒（【叫醒】） | role_clock.py（schtasks kdo-role-clock 5min；pace 到点/欧阳锋事件驱动） | todos/<role>.md 恒落 + active 实例 feishu 适配；唤醒日志 .kdo/role-clock.log（不进胶囊——防 on_duty 自欺） | 全角色 | 不适用（唤醒本身就是在岗激活器） | #553+#555（四角色全开通：老顽童15/王语嫣30/风清扬720/欧阳锋事件驱动；会话级 cron 已换轨停用；误发>漏发，降级不切执行权） |
 | 21 | 待老朱拍板上浮（reviewed + 拍板关键词） | conveyor_probe 第八信号 `_scan_pending_decision`（关键词前挂形态：老朱拍板/待老朱/需老朱/待拍板/需拍板/请老朱/待你拍板；向前生效 20260827 不回扫存量；队列侧只匹配备注列防名称列自举） | 新增即时推飞书 wangyuyan 群（老朱在群实测可达，本人 08-27 确认）+ todos 落盘 + daily-audit-digest ⑤「待你拍板」固定栏（每日在列直到字样移除/状态离开 reviewed 自动消项） | 老朱 | 无在岗 defer 同 #550 统一口径 | #556（#525 拍板断链两天实证；干跑校准：bare「拍板」命中已决归因→改前挂形态，「老朱已拍板」天然不匹配；消项不推送仅 stdout 留痕） |
+| 22 | 角色全死自报（role-liveness） | role_registry `check_liveness`（挂 role_clock 5min；heartbeat 年龄 >2×该角色节奏=疑似死亡；**#562 起同角色 2h 报警冷却——只压频不删报、首次必报、恢复清零重新武装**；心跳写面=queue_transition 消费回执（myqueue/claim/complete/release/review）+ kimi-cli SessionHeartbeat 钩，消费回执=心跳） | gate-blocked.log 台账 → 第五探针拾取推送 | 王语嫣 | — | #552 信号上线（#562 前漏登矩阵，08-28 终审抄送补课）；#562 冷却+心跳语义修复（08-27 报警风暴 25+ 条误报止血） |
 
 ## 缺口台账
 
