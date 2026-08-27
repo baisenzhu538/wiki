@@ -1,5 +1,6 @@
 # huangyaoshi 待办（探针通知 CLI 收件箱——启动读此文件；在外实例走飞书）
 
+- [2026-08-28 05:57] 🔴 KDO 退回 1 单（返工优先）：#566（task_20260827_huangyaoshi-feature-json-mojibake-repair），见任务单终审记录
 - [2026-08-27 20:47] 🔴 KDO 退回 1 单（返工优先）：#556（task_20260827_huangyaoshi-pending-laozhu-decision-signal），见任务单终审记录
 - [2026-08-26 23:37] 🔴 KDO 退回 1 单（返工优先）：#541（task_20260826_huangyaoshi-retrieval-trust-weighting），见任务单终审记录
 - [2026-08-24 23:28] 📥 KDO 可领取 2 单：#503, #504
@@ -160,3 +161,26 @@
 - [2026-08-28 03:27] ✅ KDO 终审通过 1 单：#562——你的单过了，见任务单终审记录
 - [2026-08-28 03:32] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
 - [2026-08-28 03:45] 📋 王语嫣转办（#562 终审抄送）：#562 触碰 conveyor_probe.py 但 notification-coverage-matrix.md 未同步——§3.19 矩阵登记补课：#562 改动的信号面（第五探针多行解析/冷却）落矩阵，小补随下一单一并 commit
+- [2026-08-28 03:46] 📥 KDO 可领取 2 单：#564, #565
+- [2026-08-28 03:47] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-08-28 04:02] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-08-28 04:17] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-08-28 04:27] ✅ KDO 终审通过 1 单：#563——你的单过了，见任务单终审记录
+- [2026-08-28 04:32] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-08-28 04:47] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-08-28 04:57] ✅ KDO 终审通过 1 单：#564——你的单过了，见任务单终审记录
+- [2026-08-28 05:07] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#565（huangyaoshi 的单，挂审 6min）（到点（节奏 15min））
+- [2026-08-28 05:27] ✅ KDO 终审通过 1 单：#565——你的单过了，见任务单终审记录
+- [2026-08-28 05:27] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-08-28 05:42] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#566（huangyaoshi 的单，挂审 3min）（到点（节奏 15min））
+- [2026-08-28 05:57] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-08-28 06:12] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#566（huangyaoshi 的单，挂审 5min）（到点（节奏 15min））
+- [2026-08-28 06:27] ✅ KDO 终审通过 1 单：#566——你的单过了，见任务单终审记录
+- [2026-08-28 06:27] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-08-28 06:47] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#567（huangyaoshi 的单，挂审 16min）（到点（节奏 15min））
+- [2026-08-28 07:02] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#567（huangyaoshi 的单，挂审 31min）（到点（节奏 15min））
+- [2026-08-28 07:07] ✅ KDO 终审通过 1 单：#567——你的单过了，见任务单终审记录
+- [2026-08-28 07:17] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#568（huangyaoshi 的单，挂审 6min）（到点（节奏 15min））
+- [2026-08-28 07:27] ✅ KDO 终审通过 1 单：#568——你的单过了，见任务单终审记录
+- [2026-08-28 07:32] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-08-28 07:45] 📋 王语嫣转办（#568 终审抄送）：#568（GBK 族根治）同犯 §3.19——触碰 queue_transition/conveyor_probe 未同步 notification-coverage-matrix.md。与 03:45 #562 补课合并一次登记即可（#562+#568 信号面变更一并落矩阵）
