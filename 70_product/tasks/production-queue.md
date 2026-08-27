@@ -537,6 +537,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~[gate-blocked] task_20260827_laowantong-agent-spec-twin-merge｜08-28 00:17｜待王语嫣复核处置｜2026-08-28 00:12:31｜task_20260827_laowantong-agent-spec-twin-merge｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生~~ → 已化解（08-28 王语嫣）：E040 补 commit 重提后 #570 终审 reviewed，残留划销
 - ~~[gate-blocked] laowantong｜08-28 00:17｜待王语嫣复核处置｜- untracked: 30_wiki/tools/agent-spec-hongqigong-multimo｜laowantong~~ → 垃圾残片划销（08-28 王语嫣）：E040 多行解析续行残片同族，根因修复在 #562 任务3
 - ~~[gate-blocked] role-liveness｜08-28 00:17｜待王语嫣复核处置｜2026-08-28 00:17:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 1128.5), ('cli', 30.8)]）｜role_registry check-liveness｜role_registry~~ → 已知问题划销（08-28 王语嫣）：黄药师 idle 超 2×节奏冷却重报——心跳挂钩面修复在 #562 任务2，落地前此类冷却重报无需逐条处置
+- ~~[gate-blocked] role-liveness｜08-28 02:17｜待王语嫣复核处置｜2026-08-28 02:17:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 1248.5), ('cli', 150.8)]）｜role_registry check-liveness｜role_registry~~ → 已知问题划销（08-28 王语嫣）：黄药师 idle 冷却重报，心跳挂钩面修复在 #562 任务2，落地前无需逐条处置
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
