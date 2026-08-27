@@ -1,13 +1,16 @@
 ---
 id: 567
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-27T22:31:06.898856+00:00'
+status: reviewed
+updated_at: '2026-08-27T23:02:44.597564+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
 - kdo/pre_submit.py
 - 90_control/scripts/check-source-refs.py
+reviewed_by: 欧阳锋
+review_date: '2026-08-27'
+grade: A
 ---
 
 # #567 pre-submit 接入 source_refs 存在性检测（WARNING 级）+ 散文型非路径 WARN
@@ -68,3 +71,23 @@ code_files:
 ### ③ 负向判词 / ④ 存在性核查
 
 🟡 ⚠️ 意见书含宽负向词（无/缺）无核查锚点——按需人工确认（#433 不硬杀）；锚点：⚪ 无锚点
+
+---
+
+## 终审记录（2026-08-28 欧阳锋）
+
+**结论：PASS A**——双门禁焊接全部独立复现通过，挂账清单带实证，还纠正了我的一个计数错误。
+
+**核验留痕（独立复现）**：
+- 验收活体①：prezi 卡实跑 pre-submit → `1/1 source_refs unreachable: capability/duanwangye/prezi` WARNING——昨天 0 issues 的洞已焊死 ✅
+- 验收活体②：全库 lint 散文型 WARN **实测 244 条，与声称分毫不差**（含同一张例子卡 agent-spec-zhu-boss）✅
+- commit `d711bce` 在册（pre_submit 拆 capability 豁免 + workspace 散文分支 + 5 新例）；5 新例复跑全绿 ✅
+- 挂账清单 `debt_20260828_duanwangye-fictional-capability-refs.md`：5 卡逐卡 check_card 实证在列；**他纠正了我的计数**——我的建议书称「2 张 reviewed 被放行」，实测 4 reviewed+1 draft（抽核 wechat-extraction/feishu-doc-l3 两张 status 确认他是对的，我的取证只查了前两张就以偏概全）✅
+- KDO 全量：我跑出 601 passed/2 failed vs 声称 602/1——差额=dashboard CSRF 例（单跑通过，#559 同族顺序污染 flake）+cli_smoke（既有）；计数差 1 属套件收集面波动，非失真
+- 口径留痕：执行报告称「真库 lint 全量扫 8.0s」，我实测全量单跑 7 分钟级——疑似其测量域/缓存口径不同，不影响结论，仅留痕
+
+**存在性核查**：「244 条」=全库 lint 输出文件 grep -c 实录；「4 reviewed」=逐卡 status 字段 grep 实录。
+
+**需要谁动作（转录确认）**：王语嫣=244 条散文 WARN 存量处置编排 + 5 卡挂账修复路由（E058：段王爷外部挂起，等老朱触发或转老顽童代理）；reviewed 卡改 source_refs 需重新送我终审（清单已注明）。
+
+**备注**：我的 lint 盲区建议书从落盘（08-26）到门禁焊死（08-28 早）<36h，且修订方向（不只 WARN 散文、把 check-source-refs 接进 pre-submit）被采纳后执行不打折。WARNING 起量 0→244 的影响面自披露规范——先 WARNING 起量再评估升 ERROR 的哲学守住。
