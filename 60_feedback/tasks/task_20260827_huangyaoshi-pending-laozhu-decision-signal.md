@@ -36,3 +36,35 @@ code_files:
 ## 验收
 
 - 复现用例：构造 reviewed+含拍板字样任务单 → 探针下一拍检出并推送；消项用例；欧阳锋终审
+
+## 执行报告（2026-08-27 黄药师）
+
+### 交付物
+
+- `kdo-tools/conveyor_probe.py` — 第八信号 `_scan_pending_decision` + `_decision_hit`（检出/即时推/消项/state 在列集合）
+- `kdo-tools/daily-audit-digest.py` — ⑤「待你拍板」固定栏（`_pending_decisions`，只读消费 conveyor state，单扫描器纪律）
+- `kdo-tools/tests/test_conveyor_probe.py` — +7 回归用例
+- `kdo-tools/tests/test_daily_audit_digest.py` — 新增 3 例
+- `90_control/notification-coverage-matrix.md` — §3.19 第 21 行登记
+
+### 实现要点
+
+1. **检出**：队列 reviewed + 任务单立案日 ≥ 20260827（向前生效不回扫存量，#506 同款）+ 关键词前挂形态正则（`老朱拍板|待老朱|需老朱|待拍板|需拍板|请老朱|待你拍板`）命中三处之一：任务单 `## 终审记录` 节 / 全文「需要谁动作」行 / 队列**备注列**（cells[8:]，不匹配名称列——防 #556 本单自举永在列）
+2. **上浮**：新增项即时推飞书 wangyuyan 群 + todos 落盘（老朱在群实测可达，本人 08-27 确认「探针消息飞书能收到」；如需专属通道=hooks 加 laozhu 键即切换，代码不动）；存量在列项挂 digest ⑤ 栏每日列出
+3. **消项**：字样移除 / 状态离开 reviewed（进实施/退回/归档）→ 下一拍自动出列，stdout 留痕不推送
+4. **幂等**：state["pending_decisions"] 在列全集 diff（新增才推，since 记首检出时间）；digest ⑤ 栏读集合零游标
+
+### 验证
+
+- 回归 7+3 例全绿；全量 kdo-tools 207 passed / 90_control 183 passed（基线 194/182 全绿不含新例）
+- **活体干跑双轮校准**：首跑检出 #551/#552（备注「老朱08-27拍板落地/拍板『可以迭代任务』」= 已决归因，双误报）→ bare「拍板」改前挂形态；19:27 计划任务真拍曾把校准前版本即时推落盘 wangyuyan todos + 飞书群（推送通道端到端活体达成，内容系校准前误报版）；校准后干跑正确消项 2 项（消项路径活体达成）；state 文件 UTF-8 干净（控制台 GBK 显示乱码为展示层）
+- 验收用例映射：构造 reviewed+拍板字样→检出推送 = 单测 7 例 + 活体 19:27 真拍；消项 = 单测 2 路 + 活体校准后消项
+
+### 边界
+
+- 只检出+上浮，不替老朱拍板 ✅；无 claim/review/complete 能力（既有边界测试护住）
+- 不回扫历史任务单（生效日 20260827，存量 53 条级噪声洪泛防住）✅
+- 运行时产物 `.kdo/conveyor_state.json`（pending_decisions 在列集合）为 gitignore 运行时文件，不入交付物清单，特此说明
+- 未配 laozhu 专属 webhook（老朱确认现有通道可达）；near-miss/friction 等其他信号逻辑零改动
+
+**需要谁动作**：欧阳锋终审本单；老朱知悉——今晚起 reviewed 单写「老朱拍板/待拍板」类字样会自动上浮到飞书+每日 digest，拍板后把字样改成「老朱已拍板」或移除即自动消项。

@@ -470,3 +470,133 @@ def test_override_failback_signal(tmp_path, monkeypatch):
     assert [t for t, _, _ in sig["new_failback"]] == ["task_x"]
     # 幂等：再扫不重复
     assert probe._queue_signal(state)["new_failback"] == []
+
+
+# ── #556 第八信号：待老朱拍板检出/幂等/向前生效/消项/名称列防自举 ──
+
+def _write_queue_556(queue: Path, rows: list[str]):
+    SEP = "|:---:|:---|:---|:---:|:---:|---:|:---|:---|:---|"
+    queue.write_text(
+        "# 队列\n\n| # | 任务 | 名称 | 状态 | 负责人 | 交付物 | 依赖 | 任务单 | 备注 |\n"
+        + SEP + "\n" + "\n".join(rows) + "\n", encoding="utf-8")
+
+
+def _write_task_556(task_dir: Path, task_id: str, review_section: str):
+    (task_dir / f"{task_id}.md").write_text(
+        f"---\nid: 1\n---\n\n# t\n\n## 终审记录\n\n{review_section}\n", encoding="utf-8")
+
+
+def test_decision_detects_reviewed_task_file_hit(tmp_path, monkeypatch):
+    """reviewed + 终审记录节含拍板字样 → 新增检出；重扫幂等不重复。"""
+    queue, tdir = tmp_path / "q.md", tmp_path / "tasks"
+    tdir.mkdir()
+    monkeypatch.setattr(probe, "QUEUE_FILE", queue)
+    monkeypatch.setattr(probe, "TASK_DIR", tdir)
+    _write_task_556(tdir, "task_20260827_a-decide", "**PASS A**。需要谁动作：老朱拍板。")
+    _write_queue_556(queue, ["| 556 | `task_20260827_a-decide` | t | reviewed | huangyaoshi | x | 无 | t.md | 无 |"])
+    state = {}
+    new, cleared = probe._scan_pending_decision(state)
+    assert [(t, s) for t, s, _ in new] == [("task_20260827_a-decide", "556")]
+    assert new[0][2] == "终审记录节"
+    assert cleared == []
+    assert state["pending_decisions"]["task_20260827_a-decide"]["since"]
+    # 幂等：重扫无新增无消项
+    new2, cleared2 = probe._scan_pending_decision(state)
+    assert new2 == [] and cleared2 == []
+
+
+def test_decision_queue_note_hit_without_task_file(tmp_path, monkeypatch):
+    """队列备注列命中（任务单不存在也检）。"""
+    queue, tdir = tmp_path / "q.md", tmp_path / "tasks"
+    tdir.mkdir()
+    monkeypatch.setattr(probe, "QUEUE_FILE", queue)
+    monkeypatch.setattr(probe, "TASK_DIR", tdir)
+    _write_queue_556(queue, ["| 557 | `task_20260827_b-note` | t | reviewed | huangyaoshi | x | 无 | t.md | 需老朱确认后实施 |"])
+    new, _ = probe._scan_pending_decision({})
+    assert [(t, s, src) for t, s, src in new] == [("task_20260827_b-note", "557", "队列备注")]
+
+
+def test_decision_grandfathered_and_queued_not_flagged(tmp_path, monkeypatch):
+    """向前生效：生效日前任务单不扫；非 reviewed 状态不检。"""
+    queue, tdir = tmp_path / "q.md", tmp_path / "tasks"
+    tdir.mkdir()
+    monkeypatch.setattr(probe, "QUEUE_FILE", queue)
+    monkeypatch.setattr(probe, "TASK_DIR", tdir)
+    _write_task_556(tdir, "task_20260820_old-decide", "**PASS A**。待老朱拍板。")
+    _write_task_556(tdir, "task_20260827_c-queued", "待老朱拍板")
+    _write_queue_556(queue, [
+        "| 100 | `task_20260820_old-decide` | t | reviewed | huangyaoshi | x | 无 | t.md | 无 |",
+        "| 101 | `task_20260827_c-queued` | t | queued | huangyaoshi | x | 无 | t.md | 无 |",
+    ])
+    new, _ = probe._scan_pending_decision({})
+    assert new == []
+
+
+def test_decision_name_column_not_matched(tmp_path, monkeypatch):
+    """名称列含「待老朱拍板」不检（防 #556 本单自举永在列）——只匹配备注列。"""
+    queue, tdir = tmp_path / "q.md", tmp_path / "tasks"
+    tdir.mkdir()
+    monkeypatch.setattr(probe, "QUEUE_FILE", queue)
+    monkeypatch.setattr(probe, "TASK_DIR", tdir)
+    _write_task_556(tdir, "task_20260827_d-name", "**PASS A** 终审通过，无待办。")
+    _write_queue_556(queue, ["| 558 | `task_20260827_d-name` | 待老朱拍板事项上浮 | reviewed | huangyaoshi | x | 无 | t.md | 无 |"])
+    new, _ = probe._scan_pending_decision({})
+    assert new == []
+
+
+def test_decision_cleared_on_keyword_removed_or_status_change(tmp_path, monkeypatch):
+    """消项两路：字样移除 → 出列；状态离开 reviewed（进入实施/退回）→ 出列。"""
+    queue, tdir = tmp_path / "q.md", tmp_path / "tasks"
+    tdir.mkdir()
+    monkeypatch.setattr(probe, "QUEUE_FILE", queue)
+    monkeypatch.setattr(probe, "TASK_DIR", tdir)
+    _write_task_556(tdir, "task_20260827_e-clear", "**PASS A**。需要谁动作：老朱拍板。")
+    _write_task_556(tdir, "task_20260827_f-implement", "**PASS A**。需老朱确认。")
+    _write_queue_556(queue, [
+        "| 200 | `task_20260827_e-clear` | t | reviewed | huangyaoshi | x | 无 | t.md | 无 |",
+        "| 201 | `task_20260827_f-implement` | t | reviewed | huangyaoshi | x | 无 | t.md | 无 |",
+    ])
+    state = {}
+    new, _ = probe._scan_pending_decision(state)
+    assert len(new) == 2
+    # 字样移除 + 状态变 claimed（进入实施）
+    _write_task_556(tdir, "task_20260827_e-clear", "**PASS A**。老朱已拍板立项为 #999。")
+    _write_queue_556(queue, [
+        "| 200 | `task_20260827_e-clear` | t | reviewed | huangyaoshi | x | 无 | t.md | 无 |",
+        "| 201 | `task_20260827_f-implement` | t | claimed | huangyaoshi | x | 无 | t.md | 无 |",
+    ])
+    new2, cleared2 = probe._scan_pending_decision(state)
+    assert new2 == []
+    assert sorted(cleared2) == ["task_20260827_e-clear", "task_20260827_f-implement"]
+    assert state["pending_decisions"] == {}
+
+
+def test_decision_decided_record_not_flagged(tmp_path, monkeypatch):
+    """已决归因 wording 不误报：「老朱08-27拍板落地」「老朱已拍板」均不在列
+    （活体干跑 #551/#552 双误报实证后校准）。"""
+    queue, tdir = tmp_path / "q.md", tmp_path / "tasks"
+    tdir.mkdir()
+    monkeypatch.setattr(probe, "QUEUE_FILE", queue)
+    monkeypatch.setattr(probe, "TASK_DIR", tdir)
+    _write_task_556(tdir, "task_20260827_g-decided", "**PASS A**。老朱已拍板，按口径实施。")
+    _write_queue_556(queue, [
+        "| 300 | `task_20260827_g-decided` | t | reviewed | huangyaoshi | x | 无 | t.md | 老朱08-27拍板落地 |",
+    ])
+    new, _ = probe._scan_pending_decision({})
+    assert new == []
+
+
+def test_decision_needs_action_line_hit(tmp_path, monkeypatch):
+    """「需要谁动作」行命中（#525 原案 wording 落点=执行报告节，不在终审记录节）。"""
+    queue, tdir = tmp_path / "q.md", tmp_path / "tasks"
+    tdir.mkdir()
+    monkeypatch.setattr(probe, "QUEUE_FILE", queue)
+    monkeypatch.setattr(probe, "TASK_DIR", tdir)
+    (tdir / "task_20260827_h-action.md").write_text(
+        "---\nid: 1\n---\n\n# t\n\n## 执行报告\n\n**需要谁动作**：**老朱拍板**（拍板后拆实施单）\n",
+        encoding="utf-8")
+    _write_queue_556(queue, [
+        "| 301 | `task_20260827_h-action` | t | reviewed | huangyaoshi | x | 无 | t.md | 无 |",
+    ])
+    new, _ = probe._scan_pending_decision({})
+    assert [(t, s, src) for t, s, src in new] == [("task_20260827_h-action", "301", "需要谁动作行")]

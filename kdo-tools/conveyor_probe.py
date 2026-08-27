@@ -849,6 +849,89 @@ def _scan_infra_liveness(state: dict) -> list[str]:
     return alerts
 
 
+# ── #556 第八信号：待老朱拍板事项上浮（设计→拍板→实施断链修复）──
+# #525 PASS A 后「需要谁动作：老朱拍板」沉在任务单里两天无人上浮——待拍板=流程咽喉但没有信号面。
+# 检出：队列 reviewed 且（任务单终审记录节 or 队列备注列）含拍板关键词 → 在列；
+# 上浮：新增即时推飞书（老朱在群实测可达）+ daily-audit-digest ⑤ 固定栏每日在列；
+# 消项：字样移除 / 状态离开 reviewed（进入实施/退回/归档）→ 下一拍自动出列。
+
+# 任务书口径：从简，误报宁可多。两个防噪声校准（2026-08-27 活体干跑实证）：
+# ①「拍板」只认前挂形态（老朱拍板/待拍板/需拍板）—— bare「拍板」会命中已决记录
+#   （「老朱08-27拍板落地」= 拍板动作的历史归因，非待决），干跑实测 #551/#552 双误报；
+# ②「老朱已拍板」天然不匹配（「已」隔断「老朱拍板」）——已决标记不写排除规则也安全。
+_DECISION_RE = _re.compile(r"老朱拍板|待老朱|需老朱|待拍板|需拍板|请老朱|待你拍板")
+# 向前生效（#506 同款）：只扫生效日及之后立案的任务单，存量历史单既往不咎防首轮噪声洪泛
+_DECISION_EFFECTIVE_DATE = "20260827"
+_TASK_DATE_RE = _re.compile(r"^task_(\d{8})_")
+
+
+def _decision_effective(task_id: str) -> bool:
+    """任务单立案日期 >= 生效日才扫（无日期名=不规范命名，保守不扫）。"""
+    m = _TASK_DATE_RE.match(task_id)
+    return bool(m) and m.group(1) >= _DECISION_EFFECTIVE_DATE
+
+
+def _decision_hit(task_id: str, row: dict) -> str | None:
+    """返回命中来源（"队列备注"/"终审记录节"），未命中 None。
+
+    队列侧只匹配**备注列**（cells[8:]）——不匹配名称列：#556 自身名称含「待老朱拍板」，
+    若匹配名称列会自我永久在列（名称不会随拍板消字），备注才是会随处置改写的字段。
+    任务单侧扫「## 终审记录」节 + 全文「需要谁动作」行（#525 实证：待拍板 wording
+    写在执行报告的需要谁动作行，只扫终审记录节会漏掉本信号的原案）。
+    """
+    def _kw(s: str) -> bool:
+        return bool(_DECISION_RE.search(s))
+
+    cells = [c.strip() for c in row.get("raw", "").strip().strip("|").split("|")]
+    note = "｜".join(cells[8:]) if len(cells) > 8 else ""
+    if note and _kw(note):
+        return "队列备注"
+    fp = TASK_DIR / f"{task_id}.md"
+    if fp.exists():
+        try:
+            body = fp.read_text(encoding="utf-8", errors="ignore")
+        except OSError:
+            return None
+        idx = body.find("## 终审记录")
+        if idx != -1:
+            nxt = body.find("\n## ", idx + 1)
+            sec = body[idx:nxt] if nxt > 0 else body[idx:]
+            if _kw(sec):
+                return "终审记录节"
+        for ln in body.splitlines():
+            if "需要谁动作" in ln and _kw(ln):
+                return "需要谁动作行"
+    return None
+
+
+def _scan_pending_decision(state: dict) -> tuple[list, list]:
+    """第八信号主扫描。返回 (新增 [(task_id, seq, source)], 消项 [task_id])。
+
+    state["pending_decisions"] 维护当前在列全集 {task_id: {seq, source, since}}——
+    daily-audit-digest ⑤ 栏只读本集合（单扫描器纪律：digest 消费不检出）。
+    幂等：重扫 diff 为空不重复推；since 记首次检出时间（在列时长可查）。
+    """
+    rows = parse_queue(QUEUE_FILE)
+    current: dict[str, dict] = {}
+    for r in rows:
+        if r["status"] != "reviewed":
+            continue
+        tid = r["task_id"]
+        if not _decision_effective(tid):
+            continue
+        src = _decision_hit(tid, r)
+        if src:
+            current[tid] = {"seq": r["seq"], "source": src}
+    prev = state.get("pending_decisions", {})
+    now_str = datetime.now().strftime("%Y-%m-%d %H:%M")
+    for t, c in current.items():
+        c["since"] = prev.get(t, {}).get("since") or now_str
+    new = [(t, c["seq"], c["source"]) for t, c in current.items() if t not in prev]
+    cleared = [t for t in prev if t not in current]
+    state["pending_decisions"] = current
+    return new, cleared
+
+
 
 
 
@@ -881,6 +964,8 @@ def main() -> int:
     gate_new = _scan_gate_blocked(state)  # 门禁拦截增量（#460 机器自报 + #506 near-miss）
     # F-036 第七信号：新终审意见书含 🟠/🟡 但无落点 → 提醒欧阳锋补建议书（兜底）
     issue_no_disp = _scan_issue_no_disposition(state, queue_sig["new_reviewed"])
+    # #556 第八信号：待老朱拍板检出（reviewed+拍板字样；向前生效不回扫存量）
+    decision_new, decision_cleared = _scan_pending_decision(state)
 
     messages: dict[str, str] = {}
     failback_roles: set[str] = set()  # #535：退回角色收件箱置顶写
@@ -969,6 +1054,17 @@ def main() -> int:
         todo = (f"{len(issue_no_disp)} 单终审意见含 🟠/🟡 但未给落点"
                 f"（建议书/停车场/立项）：{', '.join(issue_no_disp[:3])}——请补落点")
         messages["ouyangfeng"] = f"✍️ F-036 提醒：{todo}"
+    if decision_new:
+        # #556 第八信号：新待拍板项即时推——老朱在 wangyuyan 群实测可达
+        #（本人 08-27 确认「探针消息飞书能收到」）；如需专属通道=hooks 加 laozhu 键即可，代码不动
+        ids = ", ".join(f"#{s}" for _t, s, _src in decision_new[:5])
+        srcs = "、".join(sorted({src for _t, _s, src in decision_new}))
+        txt = (f"👤 KDO 待老朱拍板 {len(decision_new)} 项：{ids}"
+               f"（命中：{srcs}）——拍板或移除字样后自动消项；digest ⑤ 栏每日在列")
+        messages["wangyuyan"] = (messages["wangyuyan"] + "；" + txt) if "wangyuyan" in messages else txt
+    if decision_cleared:
+        # 消项不推送（非事件，digest 栏自然消失）；stdout 留痕可查
+        print(f"✅ 待拍板消项 {len(decision_cleared)} 项：{', '.join(decision_cleared)}")
     if queue_sig["new_failback"]:
         # #462：终审退回 → 按 assignee 路由通知（#443 同款；生产者返工不再靠自觉）
         # #535：FAIL 通知带「返工优先」标记，收件箱置顶（E019 完成未闭环优先）
@@ -1057,6 +1153,7 @@ def main() -> int:
         "new_queued": queue_sig["new_queued"],
         "registered": registered,
         "near_miss": near_miss,  # #506：三元组漂移件（当场可见，不靠事后捞）
+        "pending_decisions": len(state.get("pending_decisions", {})),  # #556：待拍板在列数
         "notified": list(deduped.keys()),
         "silent": silent,
         "instances": activity,

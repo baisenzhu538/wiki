@@ -6,6 +6,7 @@
   ② 各角色 daily-context：最新文件清单 + 差异栏摘要
   ③ friction-log：新增行（共享 + 各角色）
   ④ production-queue：状态变更（新立项/领单/提审/终审/退回）
+  ⑤ 待你拍板（#556）：conveyor_probe 第八信号在列集合——每日在列直到拍板或撤销
 
 落盘：D:\\KDO-memory\\L2-digest\\YYYY-MM-DD.md（D 盘与 L1 同区；**不落 60_feedback/diagnosis**——
 避免被探针误扫成建议书）。状态：同目录 _state.json（增量游标，重跑幂等）。
@@ -33,6 +34,7 @@ ACTIVITY_DB = Path.home() / ".kdo-memory" / "L1" / "activity_log.db"  # 主库�
 RETRO_ROOT = Path.home() / "Desktop" / "agent复盘"
 SHARED_FRICTION = WIKI / ".agent" / "friction-log.md"
 QUEUE_PATH = WIKI / "70_product" / "tasks" / "production-queue.md"
+CONVEYOR_STATE = WIKI / ".kdo" / "conveyor_state.json"  # #556 ⑤栏：第八信号在列集合（只读消费）
 OUT_DIR = Path("D:/KDO-memory/L2-digest")
 STATE_FILE = OUT_DIR / "_state.json"
 
@@ -186,6 +188,21 @@ def _queue_diff(state: dict) -> list[str]:
     return lines
 
 
+# ── ⑤ 待你拍板（#556）──
+
+def _pending_decisions() -> list[str]:
+    """读 conveyor_probe 第八信号在列集合（单扫描器纪律：digest 只消费不检出）。
+    幂等：每日在列直到拍板或撤销（探针侧自动消项后本栏自然清空）。"""
+    if not CONVEYOR_STATE.exists():
+        return ["（conveyor state 不存在——探针未跑过？）"]
+    try:
+        items = json.loads(CONVEYOR_STATE.read_text(encoding="utf-8")).get("pending_decisions", {})
+    except Exception:
+        return ["⚠️ conveyor state 解析失败"]
+    return [f"- #{c.get('seq', '?')} `{tid}`（首检出 {c.get('since', '?')}，命中：{c.get('source', '?')}）"
+            for tid, c in sorted(items.items(), key=lambda kv: kv[1].get("since", ""))]
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--dry-run", action="store_true", help="只打印不落盘不存游标")
@@ -199,6 +216,7 @@ def main() -> int:
     contexts = _daily_contexts(state)
     friction = _friction_new(state)
     queue_changes = _queue_diff(state)
+    decisions = _pending_decisions()  # #556：⑤ 待你拍板（不耗游标，读探针在列集合）
 
     parts = [
         f"# 每日审计 digest · {date_str}",
@@ -222,6 +240,10 @@ def main() -> int:
         "",
         *(queue_changes or ["（无变更）"]),
         "",
+        f"## ⑤ 待你拍板（{len(decisions)} 项——每日在列直到拍板或撤销，#556）",
+        "",
+        *(decisions or ["（无在列项）"]),
+        "",
     ]
     digest = "\n".join(parts)
 
@@ -236,7 +258,7 @@ def main() -> int:
     out = OUT_DIR / f"{date_str}.md"
     out.write_text(digest, encoding="utf-8")  # 同日重跑覆盖（幂等，不 append 重复）
     _save_state(state)
-    print(f"✅ digest 落盘: {out}（事件 {len(events)} / 上下文 {len(contexts)} / friction {len(friction)} / 队列 {len(queue_changes)}）")
+    print(f"✅ digest 落盘: {out}（事件 {len(events)} / 上下文 {len(contexts)} / friction {len(friction)} / 队列 {len(queue_changes)} / 待拍板 {len(decisions)}）")
     return 0
 
 
