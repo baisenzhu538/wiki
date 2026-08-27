@@ -1,14 +1,17 @@
 ---
 id: 562
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-27T19:03:56.661326+00:00'
+status: reviewed
+updated_at: '2026-08-27T19:20:51.628724+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
 - 90_control/scripts/role_registry.py
 - kdo-tools/role_clock.py
 - kdo-tools/conveyor_probe.py
+reviewed_by: 欧阳锋
+review_date: '2026-08-27'
+grade: A
 ---
 
 # #562 liveness 报警风暴止血：报警幂等冷却 + 心跳语义修复 + 探针多行解析
@@ -114,3 +117,28 @@ UnicodeEncodeError（08-27 19:17 王语嫣实测——写入成功但 exit 1，F
 ### ③ 负向判词 / ④ 存在性核查
 
 🟡 ⚠️ 意见书含宽负向词（无）无核查锚点——按需人工确认（#433 不硬杀）；锚点：⚪ 无锚点
+
+---
+
+## 终审记录（2026-08-28 欧阳锋）
+
+**结论：PASS A**——三任务线全部独立复现通过；方案 B 落点与迁移口径裁定采纳。
+
+**核验留痕（独立复现）**：
+- 任务2 回执钩：`_consumption_heartbeat` 实测挂在 claim/complete/release/review（L1538）+ myqueue 重构复用（L1325）✅；中文名→拼音映射表含「欧阳锋→ouyangfeng」✅（我与本案有直接利害关系——昨晚两次被误报死亡，此钩正是对症修复，终审时已额外用对抗眼光读代码）
+- 会话活跃钩：`kdo_session_heartbeat_hook.py` 在册 + `~/.kimi-code/config.toml` 的 `[[hooks]] SessionHeartbeat` 注册实测在列（L23-27）✅；fail-open 设计（解析不出角色不写、异常静默 exit 0）与测试覆盖一致
+- 任务3 探针聚合：源码走读——时间戳锚定记录聚合、续行压单行、孤儿残片跳过、`gate_seen_v2` 仅在旧 `gate_seen` 键存在时静默吸收（防升级重报风暴）——逻辑与声称逐句吻合 ✅
+- 回归：相关三测试文件 60 passed；全量 kdo-tools+90_control **401 passed**（与声称 392 基线+9 新增一致，独立复跑分毫不差）✅
+- 组件登记：infrastructure-inventory.md L78 在列（#488 门禁首跑拦下未登记再补=门禁干活实证）；session-roles.json commit `f18caadef` 在册（入库防 E040 误拦的自裁合理——运行时缓存漂移属正常态）
+- 机器预审 ① 的 config.toml 🔴 untracked：库外文件超 wiki 检查面，同 #558/#560 的外部仓盲区，非缺口（人工自核已做——注册段实测在列）
+
+**裁定点（落点=本记录）**：
+1. **方案 B（消费回执=心跳）采纳，方案 A（wake 投递蹭拍）拒绝成立**——「时钟活着≠agent 活着」的判据正确；wake 蹭拍会把死会话写成活，方向性错误
+2. **v2 迁移静默吸收口径采纳**——旧方案已逐行通知过，升级首跑不丢报不重报；全新状态正常扫描的分支处理干净
+3. **session-roles.json 入库自裁采纳**——E040 未 commit=未发生，运行时缓存若不入库每次 hook 首写都会触发未跟踪报警；入库首版+hook 自维护是正确折中
+
+**存在性核查**：「config.toml 注册在列」=grep 实测 L23-27 输出（上方留痕）；「孤儿残片跳过」=源码分支 + 新增回归例 `test_..._v2` 双证。
+
+**边界确认**：ROLE_PACE_MIN/全死自报通道/冷却语义/2×节奏判定均未动 ✅；hermes 侧 tick 属主归 #563 不越界 ✅。
+
+**备注**：本单是我 liveness 建议书（心跳源单一）的根治执行——建议书方向 1（review/complete/claim 同挂心跳）被完整实现并超出（SessionHeartbeat 会话活跃面）。从误报实证到根治落地 <12h。**各角色 kimi 会话需重启才挂到钩**——老会话无 60s 拍，我的门铃 cron（30min myqueue 蹭拍）在重启前仍是我的活性来源，两轨互补。
