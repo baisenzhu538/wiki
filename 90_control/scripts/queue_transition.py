@@ -718,7 +718,8 @@ def _extract_deliverable_section(report: str) -> str:
         if idx == -1:
             continue
         rest = report[idx + len(anchor):]
-        nxt_field = rest.find("\n**")
+        m_field = re.search(r"\n\s*(?:-\s*)?\*\*", rest)  # #569：`- **` 子弹行也算字段行起始（#551 节延展误吞实证）
+        nxt_field = m_field.start() if m_field else -1
         nxt_head = rest.find("\n##")
         stops = [p for p in (nxt_field, nxt_head) if p > 0]
         return rest[:min(stops)] if stops else rest
@@ -804,7 +805,11 @@ def _check_deliverables_committed(task_file: Path, fm: dict[str, Any],
     if problems:
         msg = ("E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生\n"
                + "\n".join(f"  - {p}" for p in problems)
-               + "\n补救：git add <路径> && git commit -m '#<任务号> <交付说明> by <instance>' 后重跑 complete")
+               + "\n补救：git add <路径> && git commit -m '#<任务号> <交付说明> by <instance>' 后重跑 complete"
+               # #569：报错可操作化——节边界规则+期望格式样例
+               + "\n期望格式样例：执行报告内 **交付物** 字段节（`- **` 子弹行起也算字段行），"
+                 "节内路径用反引号包裹（如 `90_control/x.py`），下一粗体字段/## 标题即节边界；"
+                 "命令文本（如 kdo pre-submit -f <路径>）勿放交付物节")
         return False, msg, ""
     warn = f"交付物入仓核验通过（{len(paths) - len(external)} 个路径已跟踪且无脏改动）"
     if external:
@@ -849,9 +854,18 @@ def _check_delivery_fields(task_file, evidence: str | None) -> tuple[bool, str]:
     check_text = _extract_exec_report(body)
     if not check_text:
         return False, "任务单缺少「## 执行报告」节（#429 F-034：交付必须落执行报告，口头完成=未完成；#444：evidence 附件不能替代）"
-    missing = [k for k, anchors in DELIVERY_FIELDS.items() if not any(a in check_text for a in anchors)]
+    # #569：前缀匹配——剥锚词尾部星号做前缀子串判定，`**改动文件清单**` 命中 `**改动文件`（闭合 ** 不再阻断合法后缀）
+    missing = [k for k, anchors in DELIVERY_FIELDS.items()
+               if not any(a.rstrip("*") in check_text for a in anchors)]
     if missing:
-        return False, f"执行报告缺 {len(missing)} 个字段（#429 F-034）：{'、'.join(missing)}。请补全后重试，或 --force --reason '<理由>' 声明例外（#444 台账留痕）。"
+        sample = ("合法写法样例（五字段各起一行，粗体锚词开头即可）：" + "\n"
+                  "  **交付物**：`路径/文件` ……" + "\n"
+                  "  **完成内容**：一句话……" + "\n"
+                  "  **验证**：命令 + 输出……" + "\n"
+                  "  **边界**：……" + "\n"
+                  "  **需要谁动作**：……")
+        return False, (f"执行报告缺 {len(missing)} 个字段（#429 F-034）：{'、'.join(missing)}。请补全后重试，"
+                       f"或 --force --reason '<理由>' 声明例外（#444 台账留痕）。" + "\n" + sample)
     return True, ""
 
 

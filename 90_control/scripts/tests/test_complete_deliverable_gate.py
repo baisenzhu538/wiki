@@ -130,3 +130,41 @@ def test_external_absolute_path_warns_not_blocks(tmp_path):
     ok, _msg, warn = qt._check_deliverables_committed(tf, {}, wiki_root=repo)
     assert ok
     assert "核验通过" in warn and "库外绝对路径" in warn and "D:/tech-wiki" in warn
+
+
+def test_569_bullet_field_line_section_boundary(tmp_path):
+    """#569③：`- **` 子弹字段行也算节边界——交付物节后的验证行命令文本不误判交付物。"""
+    repo = _repo(tmp_path)
+    tf = _task(tmp_path,
+               "**完成内容**：改工具\n\n"
+               "- **交付物**：\n  - `kdo-tools/tool.py`\n"
+               "- **验证**：`kdo pre-submit -f kdo-tools/tool.py` 通过\n\n"
+               "**边界**：无\n")
+    ok, msg, warn = qt._check_deliverables_committed(tf, {}, wiki_root=repo)
+    assert ok, f"子弹行节边界误判: {msg}"
+    assert "kdo" not in msg  # pre-submit 命令未被当交付物路径
+
+
+def test_569_f034_prefix_match_suffixed_field():
+    """#569②：`**改动文件清单**` 后缀写法命中前缀锚 `**改动文件`——不再误报缺字段。"""
+    body = ("**改动文件清单**：`x.py`\n**完成内容**：做了\n**验证**：过了\n"
+            "**边界**：无\n**需要谁动作**：欧阳锋\n")
+    ok, msg = qt._check_delivery_fields.__wrapped__(body) if hasattr(qt._check_delivery_fields, "__wrapped__") else (None, None)
+    # _check_delivery_fields 签名是 (task_file, evidence)——走文件路径
+    import tempfile
+    with tempfile.TemporaryDirectory() as d:
+        tf = Path(d) / "task_t.md"
+        tf.write_text("---\nid: 1\n---\n\n## 执行报告\n\n" + body, encoding="utf-8")
+        ok, msg = qt._check_delivery_fields(tf, None)
+    assert ok, f"前缀匹配未生效: {msg}"
+
+
+def test_569_f034_missing_field_error_has_sample():
+    """#569④：缺字段报错附合法写法样例。"""
+    import tempfile
+    with tempfile.TemporaryDirectory() as d:
+        tf = Path(d) / "task_t.md"
+        tf.write_text("---\nid: 1\n---\n\n## 执行报告\n\n**完成内容**：做了\n", encoding="utf-8")
+        ok, msg = qt._check_delivery_fields(tf, None)
+    assert not ok
+    assert "合法写法样例" in msg and "**交付物**" in msg
