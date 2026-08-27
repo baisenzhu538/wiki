@@ -55,7 +55,7 @@ code_files: []
 - **活体复现原场景**：造 UTF-8+CRLF+461 字符超长行密集中文 charter → read_file 正常返回全文 ✓；强制无 rg 走 grep 兜底搜 `宪法|基本法` → 6 命中 ✓；latin-1 文件仍正确判 binary（防乱码保护未削弱）✓
 - kimi 侧未动（实测健康，任务书边界）
 
-**边界/未做项**：
+**边界**：
 
 - 只修 hermes 工具封装层 ✅；kimi 侧零改动 ✅
 - 在跑 hermes 进程需重启才吃到修复（editable install，新进程即生效）；重启前规避=分次单搜，已通报 5 profile SOUL
