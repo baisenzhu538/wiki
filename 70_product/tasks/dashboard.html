@@ -64,12 +64,12 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 </head>
 <body>
 <h1>KDO 生产看板</h1>
-<p class="subtitle">production-queue.md · 自动生成于 2026-08-27 23:04</p>
+<p class="subtitle">production-queue.md · 自动生成于 2026-08-27 23:14</p>
 
 <div class="stats">
-<div class="stat queued"><div class="stat-num">5</div><div class="stat-label">待领取 Queued</div></div>
+<div class="stat queued"><div class="stat-num">6</div><div class="stat-label">待领取 Queued</div></div>
 <div class="stat pending"><div class="stat-num">1</div><div class="stat-label">审查中 Review</div></div>
-<div class="stat active"><div class="stat-num">0</div><div class="stat-label">进行中 Active</div></div>
+<div class="stat active"><div class="stat-num">1</div><div class="stat-label">进行中 Active</div></div>
 <div class="stat done"><div class="stat-num">140</div><div class="stat-label">已完成 Done</div></div>
 <div class="stat owner"><div class="stat-num">5</div><div class="stat-label">活跃角色</div></div>
 </div>
@@ -96,17 +96,6 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 </div>
 <div class="task-group">
 <div class="group-header queued">待领取</div>
-<div class="task-card">
-<div class="task-prio p1">P1</div>
-<div class="task-info">
-<div class="task-id">#559</div>
-<div class="task-title">profile配置巡检+manual残留止血（huangyaoshi/laowantong仍manual）+SOUL.md真相源指针全profile覆盖</div>
-<div class="task-detail">同报告P1-1/P1-3裁定：「知道≠生效」——dk卡沉淀17天只修1个profile=半套修改实证（判词B1）；巡检挂kdo-health-daily日级只报漂移不自动改；欧阳锋终审</div>
-</div>
-<div class="task-meta">
-<span class="task-assignee huangyaoshi">黄药师</span>
-</div>
-</div>
 <div class="task-card">
 <div class="task-prio p1">P1</div>
 <div class="task-info">
@@ -146,6 +135,42 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 <div class="task-id">#563</div>
 <div class="task-title">hermes飞书四实例时钟配置：ouyangfeng/huangyaoshi/wangyuyan三profile裸奔补齐+laowantong卡死恢复+心跳入注册表</div>
 <div class="task-detail">**老朱08-27直令**「飞书四个角色都需要配置时钟」；实证：三profile连cron/jobs.json都没有，唯一有的laowantong卡死08-26 22:30；节奏口径同#555（15/30/事件驱动+30兜底/15）；与#5…</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee huangyaoshi">黄药师</span>
+</div>
+</div>
+<div class="task-card">
+<div class="task-prio p1">P1</div>
+<div class="task-info">
+<div class="task-id">#564<span class="task-grade g-A-">A-</span></div>
+<div class="task-title">hermes read_file尾部U+FFFD豁免收紧：仅满采样截断时生效（对抗样本bytes(range(256))滑判漏洞）</div>
+<div class="task-detail">#558终审PASS A-观察项转办（08-27王语嫣）；欧阳锋一行修法随单；施工仓=hermes-agent外部仓；执行报告须自我披露语义代价；欧阳锋终审</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee huangyaoshi">黄药师</span>
+</div>
+</div>
+<div class="task-card">
+<div class="task-prio p1">P1</div>
+<div class="task-info">
+<div class="task-id">#565</div>
+<div class="task-title">唤醒送达面断点修复：kimi-cli门铃机制（会话级最小cron恢复，只按门铃不调度）+唤醒载荷带待审明细</div>
+<div class="task-detail">老朱质问#558延迟（08-27）；v0.2根因更正：#555停用会话cron后todos落盘≠会话唤醒，全角色CLI只靠人肉按门铃（王语嫣CronList实测0）；v0.1王语嫣误判载荷为主因被纠偏；与#555防双时钟协调口径=决策在系统…</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee huangyaoshi">黄药师</span>
+</div>
+</div>
+</div>
+<div class="task-group">
+<div class="group-header active">进行中</div>
+<div class="task-card">
+<div class="task-prio p1">P1</div>
+<div class="task-info">
+<div class="task-id">#559</div>
+<div class="task-title">profile配置巡检+manual残留止血（huangyaoshi/laowantong仍manual）+SOUL.md真相源指针全profile覆盖</div>
+<div class="task-detail">同报告P1-1/P1-3裁定：「知道≠生效」——dk卡沉淀17天只修1个profile=半套修改实证（判词B1）；巡检挂kdo-health-daily日级只报漂移不自动改；欧阳锋终审</div>
 </div>
 <div class="task-meta">
 <span class="task-assignee huangyaoshi">黄药师</span>
@@ -233,7 +258,7 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 </div>
 </div>
 
-<header style="display:none"><!-- generated-by: generate-dashboard.py · updated_at: 2026-08-27 23:04 · git_head: fdca0ab9f --></header>
-<footer>KDO 知识工厂 · 由 generate-dashboard.py 自动生成 · 2026-08-27 23:04</footer>
+<header style="display:none"><!-- generated-by: generate-dashboard.py · updated_at: 2026-08-27 23:14 · git_head: f1ee98955 --></header>
+<footer>KDO 知识工厂 · 由 generate-dashboard.py 自动生成 · 2026-08-27 23:14</footer>
 </body>
 </html>
