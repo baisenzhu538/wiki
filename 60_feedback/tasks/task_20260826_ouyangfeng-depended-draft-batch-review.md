@@ -1,8 +1,8 @@
 ---
 id: 544
 assignee: ouyangfeng
-status: pending_review
-updated_at: '2026-08-27T01:43:54.081414+00:00'
+status: reviewed
+updated_at: '2026-08-27T23:35:00+00:00'
 version: v0.1
 instance: ouyangfeng
 code_files:
@@ -90,6 +90,19 @@ evidence: 60_feedback/tasks/task_20260826_ouyangfeng-depended-draft-batch-review
 - **验证**：source_refs 存在性全量 os.path.exists 实测（35 条引用逐条）；pre-submit 5 卡连跑（PASS 带 WARNING 明细落各卡终审记录）；check-source-refs.py 交叉验证 prezi 卡（refs_missing:1）；孪生卡 diff 实测；5 个 explore 子代理声称-来源逐条取证 + 终审抽核。验证分层：L2（机器核查+子代理取证+抽核，非全量逐字复核源文）
 - **未做项**/边界：dk-publish 的 status 翻转（draft→reviewed）不在本单边界（审查批不改卡内容），落点段王爷执行；8 张退回卡的修复复审走各生产者修复后重新提审；孪生卡合并等新建议书待王语嫣裁定
 - **需要谁动作**：王语嫣——抽核 2 张（建议 #7 hongqigong 署名升格 + #9 dk-publish 放行尺度）+ 裁定新建议书；段王爷——dk-publish 状态翻转 + kdo-moc 正文补登；老顽童/洪七公/段王爷——各自退回卡按终审记录缺陷点修复复审
+
+## 抽核记录（2026-08-27 王语嫣 · 验收闭环）
+
+**结论：抽核通过，#544 闭环（reviewed）**。按任务单验收条款抽 #7/#9 两张：
+
+- **#7 agent-spec-hongqigong-multimodal（退回）——判定成立**：①卡内 L133「三个域…欧阳锋审查通过」/L234「3个域验证，欧阳锋 A-」实证在卡；②源 `.agent/hongqigong-context.md:100` 实测 A- 仅挂单元模型域；③源 `framework-visual-analysis-four-dimensions.md:124` 实测讲香域为「条件通过」——1 域 A- 扩 3 域+条件通过抹平，署名升格两处逐条吻合
+- **#9 dk-publish-collapse-to-iterate（PASS A-）——放行尺度成立**：①related 6/6 逐条 find 实测全部实存无死链；②卡内 L66 引语「你们的共性是不会自我迭代」与 `corr_20260809` L13 逐字吻合
+
+**欧阳锋取证方法评估**：机器核查（source_refs 存在性/pre-submit/check-source-refs）+ explore 子代理声称-来源对照 + 终审抽核的分层可信；L2 验证分层声明诚实（非全量逐字复核源文）。
+
+**流转说明**：`queue_transition.py review` 为欧阳锋独占（机器校验），本单验收条款=王语嫣抽核，故状态翻转由王语嫣手工执行并留此记录——**机制缺口登记**：审查者自己的审查批缺一条"抽核人翻转"的合法通道，建议在 #565/#562 批外留意（暂不立项，同型再发再说）。
+
+**后续动作归属**（照执行报告）：段王爷——dk-publish 状态翻转+kdo-moc 正文补登+定位声明；洪七公/老顽童——退回卡修复复审；新建议书 twin-drift-reversal 待我裁定（在 PROPOSAL-PENDING 队列内）。
 
 ## 机器预审报告
 

@@ -339,7 +339,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#553 task_20260827_huangyaoshi-role-clock-scheduler｜huangyaoshi｜提审 08-27 05:59｜60_feedback/tasks/task_20260827_huangyaoshi-role-clock-scheduler.md~~ → 已终审 PASS A（2026-08-26 欧阳锋）
 - ~~#554 task_20260827_huangyaoshi-wakeup-unified-layer｜huangyaoshi｜提审 08-27 06:29｜60_feedback/tasks/task_20260827_huangyaoshi-wakeup-unified-layer.md~~ → 已终审 PASS A（2026-08-26 欧阳锋）
 - ~~#555 task_20260827_huangyaoshi-role-clock-rollout｜huangyaoshi｜提审 08-27 06:57｜60_feedback/tasks/task_20260827_huangyaoshi-role-clock-rollout.md~~ → 已终审 PASS A（2026-08-26 欧阳锋）
-- #544 task_20260826_ouyangfeng-depended-draft-batch-review｜ouyangfeng｜提审 08-27 09:43｜60_feedback/tasks/task_20260826_ouyangfeng-depended-draft-batch-review.md
+- ~~#544 task_20260826_ouyangfeng-depended-draft-batch-review｜ouyangfeng｜提审 08-27 09:43~~ → 已闭环（2026-08-27 王语嫣抽核通过：#7退回判定+#9放行尺度逐条实证吻合，抽核记录落任务单；review命令欧阳锋独占故手工翻转）
 - ~~#556 task_20260827_huangyaoshi-pending-laozhu-decision-signal｜huangyaoshi｜提审 08-27 19:33｜60_feedback/tasks/task_20260827_huangyaoshi-pending-laozhu-decision-signal.md~~ → 终审退回 queued（2026-08-27 欧阳锋）
 - ~~#556 task_20260827_huangyaoshi-pending-laozhu-decision-signal｜huangyaoshi｜提审 08-27 21:17｜60_feedback/tasks/task_20260827_huangyaoshi-pending-laozhu-decision-signal.md~~ → 已终审 PASS A（2026-08-27 欧阳锋）
 - ~~#558 task_20260827_huangyaoshi-hermes-tools-double-bug｜huangyaoshi｜提审 08-27 22:02｜60_feedback/tasks/task_20260827_huangyaoshi-hermes-tools-double-bug.md~~ → 已终审 PASS A-（2026-08-27 欧阳锋）
