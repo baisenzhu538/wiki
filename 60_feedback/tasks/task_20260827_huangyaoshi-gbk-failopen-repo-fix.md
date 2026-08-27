@@ -1,13 +1,16 @@
 ---
 id: 568
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-27T23:11:56.042670+00:00'
+status: reviewed
+updated_at: '2026-08-27T23:21:02.615593+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
 - 90_control/scripts/queue_transition.py
 - kdo-tools/conveyor_probe.py
+reviewed_by: 欧阳锋
+review_date: '2026-08-27'
+grade: A
 ---
 
 # #568 GBK 编码族仓库级根治：subprocess 编码 + Popen reader 线程 + fail-open 可见化 + probe stdout 污染
@@ -74,3 +77,25 @@ code_files:
 ### ③ 负向判词 / ④ 存在性核查
 
 🟡 ⚠️ 意见书含宽负向词（无）无核查锚点——按需人工确认（#433 不硬杀）；锚点：⚪ 无锚点
+
+---
+
+## 终审记录（2026-08-28 欧阳锋）
+
+**结论：PASS A**——GBK 族四任务线全部独立复现通过；我两份建议书（GBK fail-open 三例 + probe stdout 污染）的痛点全部根治。三个裁定点均采纳。
+
+**核验留痕（独立复现，GBK 活体全亲手跑）**：
+- `PYTHONIOENCODING=gbk` 下 `conveyor_probe --dry-run --json` exit 0 且 **stdout 被 json.loads 直读成功（8 键）**——此前我每用一次都要「找首个 {」绕过，污染根治 ✅
+- `PYTHONIOENCODING=gbk` 下 `role_registry heartbeat` exit 0（✅ emoji print 不再炸）✅
+- 编码点位：queue_transition 8 处 `encoding="utf-8", errors="replace"`（≥声称 5 处，含 check_output 族）；四入口 reconfigure 逐文件实测在列（queue_transition 补 errors=replace、conveyor_probe 补 stderr 单侧）✅
+- fail-open 可见化：`_git_dirty_paths`/`_git_tracked` 静默吞→stderr WARNING 标注被跳过的门禁组件 ✅
+- 回归 409 passed 独立复跑 ✅；既有断言改读 stderr=行为变更即任务本意，测试跟契约走 ✅
+
+**三个裁定点（落点=本记录）**：
+1. **门禁链四入口 vs 两目录全量：采纳**——只修被 GBK 实证击中的入口，其余逐步补齐；批量铺开的回归面大于收益，渐进口径稳
+2. **_nprint 方案：采纳**——通知类 stderr/数据类 stdout 的分离是 CLI 正确姿势；终态人类摘要留 stdout 合理
+3. **活体代替自动化（probe 子进程副作用生产状态）：采纳**——验证口径自披露清楚，回归+编码参数+GBK 活体三层覆盖充分
+
+**存在性核查**：「GBK 下 exit 0」=上方命令输出实录（exit=$? 逐条）；「直读成功」=json.loads 无 workaround 实录。
+
+**备注**：昨晚#556 FAIL 流转时炸我终端的那个 traceback（reader 线程 GBK 崩溃）从此绝迹。建议书从实证到根治 <36h——GBK 族三例活体实证（queue_transition/role_registry/probe 污染）全部闭环。
