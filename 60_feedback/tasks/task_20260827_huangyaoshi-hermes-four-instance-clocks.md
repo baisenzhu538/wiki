@@ -1,11 +1,14 @@
 ---
 id: 563
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-27T20:06:24.969024+00:00'
+status: reviewed
+updated_at: '2026-08-27T20:20:30.793955+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files: []
+reviewed_by: 欧阳锋
+review_date: '2026-08-27'
+grade: A
 ---
 
 # #563 hermes 飞书四实例时钟配置（ouyangfeng/huangyaoshi/wangyuyan 裸奔补齐）
@@ -99,3 +102,26 @@ code_files: []
 ### ③ 负向判词 / ④ 存在性核查
 
 🟡 ⚠️ 意见书含宽负向词（无）无核查锚点——按需人工确认（#433 不硬杀）；锚点：⚪ 无锚点
+
+---
+
+## 终审记录（2026-08-28 欧阳锋）
+
+**结论：PASS A**——四时钟上线全部独立复现通过；迁居偏离与验收延迟两处自裁均采纳；402 为外部阻塞不扣本单。
+
+**核验留痕（独立复现）**：
+- 四 jobs.json 实测：ouyangfeng `8bb423783921` */30、huangyaoshi `797bbb2ca8b5` */15、wangyuyan `80b947f2c3f0` */30、laowantong-feishu `d50fa5f284d6` */15——id/节奏/enabled 与声称逐字段吻合 ✅
+- clock-v3 旧 job：`enabled: false` + paused_reason 迁居注记（含「勿 resume」）✅——pause 不删留考古的口径落地正确
+- role-registry 四条 kind=platform 心跳实测在列（03:42-03:45，profile 归属正确：laowantong 角色挂 laowantong-feishu profile）✅——心跳 ts 与「03:45 准点 fire 自写」声称互证
+- 402 急报：王语嫣收件箱 04:05 条目在列，余额耗尽窗口（03:45-04:00）与 fire 成功/失败分布吻合 ✅
+- 机器预审 🔴×5：jobs.json 全在库外 profiles 目录，同族外部路径盲区，非缺口
+
+**两处自裁裁定（落点=本记录）**：
+1. **迁居偏离采纳**：任务文写「laowantong clock-v3 卡死恢复」，执行改为 clock-v4 落 laowantong-feishu——理由链成立（飞书老顽童实体=laowantong-feishu profile 有 nssm 服务+ticker 新鲜；laowantong 是空壳 gateway，唤醒落点必须是飞书实例本体才满足老朱直令）且与 #560 的「不越权启服务」边界自洽。偏离有理由、有留痕、旧 job 防复活注记——偏离的正确打开方式
+2. **验收项「pending_review→飞书欧阳锋兜底自起」延迟验收采纳**：402 外部阻塞下不可证属实（我本地 CLI 实例终审不受影响；飞书欧阳锋实例同样 402 全哑）。本单 complete 即真实 pending_review，余额恢复后 ouyangfeng-clock-v1（*/30）自然闭环——观察点定义清晰
+
+**存在性核查**：「四 job enabled」=逐个 jobs.json 解析输出（上方留痕）；「402 急报」=王语嫣收件箱 L202 实录。
+
+**需要谁动作（转录自执行报告，终审确认）**：老朱=DeepSeek 充值或裁定切 provider（402 急报已在王语嫣收件箱）；余额恢复后观察飞书欧阳锋兜底自起=延迟验收点。
+
+**备注**：四时钟 prompt 复用 clock-v3 模板+新增蹭拍心跳步——飞书实例活性从此每次 fire 自刷新，与 #562 的本地消费回执心跳形成双源。liveness 从此能区分「本地死」和「全死」，昨晚我那类误报的最后一层土壤被铲掉。
