@@ -183,7 +183,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 555 | `task_20260827_huangyaoshi-role-clock-rollout` | 四角色时钟开通：老顽童15min/王语嫣30min/风清扬日2拍/欧阳锋事件驱动+黄药师欧阳锋会话级旧cron换轨停用 | reviewed | huangyaoshi | 配置+换轨+活体 | #553 | `60_feedback/tasks/task_20260827_huangyaoshi-role-clock-rollout.md` | #525四拆之四·收官（「角色级时钟不存在」缺口关闭）；顺手修设计稿§5统图失真（欧阳锋终审指出）；唤醒只叫醒+指路判断留人（§3.17）；§3.19矩阵登记；欧阳锋终审 |
 | 556 | `task_20260827_huangyaoshi-pending-laozhu-decision-signal` | 待老朱拍板事项上浮：conveyor_probe第八信号检出「reviewed+含拍板字样」→即时推+daily digest固定栏直到消项 | claimed-huangyaoshi | huangyaoshi | 信号+通道+回归 | 无 | `60_feedback/tasks/task_20260827_huangyaoshi-pending-laozhu-decision-signal.md` | **老朱08-27拍板直令**；#525设计稿等拍板躺两天实证——设计→拍板→实施链断在拍板环节无信号面；只向前生效不回扫存量；§3.19矩阵登记；欧阳锋终审 |
 | 557 | `task_20260827_laowantong-source-refs-batch-a` | 死引治理批次A：934条/319卡inbox原稿归档10_raw/sources+引用校正（机械化不补内容） | reviewed | laowantong | 归档+校正+批次报告 | #551 | `60_feedback/tasks/task_20260827_laowantong-source-refs-batch-a.md` | #543治理方案王语嫣裁定（08-27）：批次A采纳口径=归档到10_raw再改引用（inbox是流转区非存储区，KF-020先例）；批次B reviewed卡441条另立单待A完；批次C长尾随域顺带；附带裁定=src_id注册挂pre-submit走WARNING起步（#542同哲学）；原稿真不在的列清单报裁不硬修；欧阳锋批次验收 |
-| 558 | `task_20260827_huangyaoshi-hermes-tools-double-bug` | Hermes工具层双bug排查：search_files正则|失效（静默0命中）+read_file长行CRLF误判二进制 | queued | huangyaoshi | 排查+修复+回归 | 无 | `60_feedback/tasks/task_20260827_huangyaoshi-hermes-tools-double-bug.md` | 飞书欧阳锋洞察报告裁定（08-27王语嫣独立判断）：影响面收窄=hermes侧工具问题（kimi侧Grep/Read实测免疫302命中正常），报告原判「全厂」修正；修复前hermes侧分次单搜规避通报落profile层；欧阳锋终审 |
+| 558 | `task_20260827_huangyaoshi-hermes-tools-double-bug` | Hermes工具层双bug排查：search_files正则失效（静默0命中）+read_file长行CRLF误判二进制 | queued | huangyaoshi | 排查+修复+回归 | 无 | `60_feedback/tasks/task_20260827_huangyaoshi-hermes-tools-double-bug.md` | 飞书欧阳锋洞察报告裁定（08-27王语嫣独立判断）：影响面收窄=hermes侧工具问题（kimi侧Grep/Read实测免疫302命中正常），报告原判「全厂」修正；修复前hermes侧分次单搜规避通报落profile层；欧阳锋终审 |
 | 559 | `task_20260827_huangyaoshi-profile-config-patrol` | profile配置巡检+manual残留止血（huangyaoshi/laowantong仍manual）+SOUL.md真相源指针全profile覆盖 | queued | huangyaoshi | 止血+巡检+指针 | 无 | `60_feedback/tasks/task_20260827_huangyaoshi-profile-config-patrol.md` | 同报告P1-1/P1-3裁定：「知道≠生效」——dk卡沉淀17天只修1个profile=半套修改实证（判词B1）；巡检挂kdo-health-daily日级只报漂移不自动改；欧阳锋终审 |
 | 560 | `task_20260827_huangyaoshi-hermes-cron-restart-recovery` | hermes cron调度器重启不恢复排查：job错过fire点后next_run卡死（laowantong-clock-v3 22:56后停跑实证） | queued | huangyaoshi | 根因+修复+回归 | 无 | `60_feedback/tasks/task_20260827_huangyaoshi-hermes-cron-restart-recovery.md` | 飞书三共享诊断发现1（08-27王语嫣）：ticker心跳活/job任务死=恢复逻辑不对称；飞书侧唯一任务时钟卡死=今晚老顽童装死的hermes侧真相；与#558同hermes层可同批分开commit；欧阳锋终审 |
 | 561 | `task_20260827_huangyaoshi-feishu-soul-alignment` | 飞书四实例SOUL.md对齐刷新：记忆锚点三补一+wangyuyan角色重写（旧诊断咨询者→操作系统）+laowantong路径Windows化+统一收件箱/myqueue协议段 | queued | huangyaoshi | 口径施工+漂移扫描 | 无 | `60_feedback/tasks/task_20260827_huangyaoshi-feishu-soul-alignment.md` | 飞书三共享诊断发现2/3/4（08-27王语嫣口径随单附）；SOUL只留最小身份+指针（真相源=charter §2.6+.agent/context，复制必漂）；改前备份profile内；不动config/cron；欧阳锋终审 |
@@ -391,6 +391,12 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - 00_inbox/paddle_batch/一堂-AI学习-truman自用的AI FeatureSet_paddle_ocr.md｜P0｜1897B｜检测到 08-25 14:21｜待王语嫣编排
 - 00_inbox/AI口喷能力训练全阶指南-口述.txt｜P0｜342105B｜检测到 08-25 15:01｜待王语嫣编排
 - ~~00_inbox/拆书-词元经济-方振义-口述.txt｜P0｜42716B｜检测到 08-25 15:31｜待王语嫣编排~~ → 已编排（08-26 王语嫣：词元经济域首开 **#531**——2框架+2概念+1工具+1dk；ASR 校核+数据待核口径随单。附：本素材暴露 watch_inbox 只写看板不推收件箱的机制缺口，立项 **#530** 补漏）
+- 00_inbox/KDO自动化多Agent工作流/00_状态跟踪.md｜P2｜3251B｜检测到 08-27 04:51｜待王语嫣编排
+- 00_inbox/KDO自动化多Agent工作流/01_资产报告_KDO自动化多Agent工作流.md｜P2｜20255B｜检测到 08-27 06:41｜待王语嫣编排
+- 00_inbox/知识卡片标签标注/00_状态跟踪.md｜P2｜2905B｜检测到 08-27 07:21｜待王语嫣编排
+- 00_inbox/知识卡片标签标注/01_资产报告_KDO标签标注规范v1.md｜P2｜23386B｜检测到 08-27 07:51｜待王语嫣编排
+- 00_inbox/知识卡片标签标注/02_打标示范_3张真实卡.md｜P2｜8174B｜检测到 08-27 08:01｜待王语嫣编排
+- 00_inbox/Live260-口喷到全新范式优秀作业-逐字稿.md｜P2｜65364B｜检测到 08-27 09:31｜待王语嫣编排
 
 <!-- INBOX-PENDING-END -->
 
@@ -506,6 +512,9 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~[gate-blocked] task_20260826_huangyaoshi-token-metering｜08-27 04:47｜待王语嫣复核处置~~ → 已化解（08-27 09:05 王语嫣批核）：F-036 落点补注后 #549 终审 PASS A，残留划销
 - ~~[gate-blocked] role-liveness｜08-27 07:47｜待王语嫣复核处置~~ → 误报划销（08-27 王语嫣）：role-liveness 报警风暴（07:42 起每 5min，25+ 条）——活跃≠心跳的系统性误报，止血+根因修复入 **#562**；止血落地前台账仍会持续新增，新增行无需逐条处置
 - [gate-blocked] role-liveness｜08-27 09:13｜待王语嫣复核处置｜2026-08-27 09:12:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 223.5), ('cli', 139.6)]）｜role_registry check-liveness｜role_registry
+- diag_20260827_ouyangfeng-agent-spec-twin-drift-reversal.md｜08-27 09:47｜待王语嫣复核裁定
+- [gate-blocked] task_20260826_ouyangfeng-depended-draft-batch-review｜08-27 09:47｜待王语嫣复核处置｜2026-08-27 09:41:02｜task_20260826_ouyangfeng-depended-draft-batch-review｜F-034-五字段｜任务单缺少「## 执行报告」节（#429 F-034：交付必须落执行报告，口头完成=未完成；#444：evidence 附件不能替代）｜ouyangfeng
+- [gate-blocked] infra-liveness｜08-27 10:57｜待王语嫣复核处置｜2026-08-27 10:47:01｜infra-liveness｜基建停拍报警｜l1-capture｜停拍 69 分钟（阈值 60 分钟）｜conveyor_probe
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
