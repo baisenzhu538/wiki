@@ -1,13 +1,13 @@
 ---
 id: 567
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-27T23:55:00+00:00'
+status: in_progress
+updated_at: '2026-08-27T22:20:45.585911+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
-  - kdo/pre_submit.py
-  - 90_control/scripts/check-source-refs.py
+- kdo/pre_submit.py
+- 90_control/scripts/check-source-refs.py
 ---
 
 # #567 pre-submit 接入 source_refs 存在性检测（WARNING 级）+ 散文型非路径 WARN
