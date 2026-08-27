@@ -1,14 +1,14 @@
 ---
 id: 562
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-27T09:05:00+00:00'
+status: in_progress
+updated_at: '2026-08-27T18:48:55.188927+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
-  - 90_control/scripts/role_registry.py
-  - kdo-tools/role_clock.py
-  - kdo-tools/conveyor_probe.py
+- 90_control/scripts/role_registry.py
+- kdo-tools/role_clock.py
+- kdo-tools/conveyor_probe.py
 ---
 
 # #562 liveness 报警风暴止血：报警幂等冷却 + 心跳语义修复 + 探针多行解析
