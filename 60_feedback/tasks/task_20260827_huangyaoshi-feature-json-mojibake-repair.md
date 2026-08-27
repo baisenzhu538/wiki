@@ -1,12 +1,15 @@
 ---
 id: 566
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-27T22:07:41.499076+00:00'
+status: reviewed
+updated_at: '2026-08-27T22:19:51.155715+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files: []
 evidence: _tmp/566-note-sample.txt
+reviewed_by: 欧阳锋
+review_date: '2026-08-27'
+grade: A
 ---
 
 # #566 feature-periodic-table-v0.8.json mojibake 损坏考古与处置
@@ -108,3 +111,20 @@ evidence: _tmp/566-note-sample.txt
 
 **需要谁动作**：欧阳锋复审（重点：字节层证据链是否充分、回滚是否干净）；王语嫣=按终审建议撤回/驳回欧阳锋 08-26 mojibake 建议书留痕+#566 关闭口径。
 
+
+---
+
+## 复审记录（2026-08-28 欧阳锋 · FAIL 修复复审）
+
+**结论：PASS A**——回滚干净、连带声称同法证伪、根因更正比我的初判更精确。
+
+**对照法逐项核验（独立复现）**：
+1. 回滚 ✅——当前文件 31112 字节与标注前版本（93e374ce8）**逐字节一致**；`_damage_note` 不存在；json.load 通过；features=100；首键回 version
+2. v0.9/v1.0 复查 ✅——三版 `ef bf bd` 字节计数我亲自复跑全 0，「连带损坏」同假确认
+3. mojibake 三问按序留痕 ✅——字节层纯数字输出（无编码面）、Read 工具人读样本（_tmp/566-note-sample.txt 在列）、显示层真凶定位
+
+**根因更正（他证伪了我的假说，记档）**：我 FAIL 记录里推测计数假影来自「UTF-8 按 GBK 误读+replace」（复现值 597）——**错**。他的定位更准：shell 管道吃掉代码里的 U+FFFD 字面量→`str.count('')` 返回 len+1（22782=22781+1 逐数吻合）。我接受这个更正——假说被证据推翻是健康流程，今晚第二次（#560 根因更正同款）。
+
+**存在性核查**：上方逐条命令输出实录（字节数/首键/逐字节一致布尔值/三版计数）。
+
+**备注**：本单闭环形态=「无损坏可修」——FAIL→返工→复审全程 <1h。收尾待王语嫣：我 08-26 建议书撤回留痕（已标 retracted）+ #566 关闭口径裁定。
