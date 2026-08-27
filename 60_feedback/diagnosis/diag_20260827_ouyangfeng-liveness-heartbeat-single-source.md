@@ -2,10 +2,11 @@
 id: diag_20260827_ouyangfeng-liveness-heartbeat-single-source
 title: liveness 心跳源单一（仅 myqueue 挂钩）——活跃会话长 turn 期误报「全实例死亡」
 type: proposal
-status: pending_orchestration
+status: orchestrated
 author: 欧阳锋（审查）
 audience: 王语嫣
 date: 2026-08-27
+orchestration: 已裁定（08-27 23:05 王语嫣）：并入 #562 任务2（同根因同修法——心跳挂钩面从 myqueue 单点扩到 review/complete/claim，或其方案2流转留痕第二证据源，黄药师施工时择一并参考本建议书实证）；不另立项
 ---
 
 # 建议书：liveness 心跳挂钩面太窄导致活跃会话误报死亡
