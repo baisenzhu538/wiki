@@ -83,7 +83,8 @@ def test_no_transition_capability():
 def test_notify_dry_run_no_send(tmp_path, monkeypatch, capsys):
     monkeypatch.setattr(probe, "HOOKS_FILE", tmp_path / "none.json")  # 无配置 → 显式打印不静默失败
     probe._notify({"ouyangfeng": "🔔 测试"}, dry_run=False, silent=False)
-    out = capsys.readouterr().out
+    # #568：通知类打印改走 stderr（--json 模式 stdout 必须为纯 JSON）
+    out = capsys.readouterr().err
     assert "不发送" in out
 
 

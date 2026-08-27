@@ -25,6 +25,12 @@ import time
 from datetime import datetime
 from pathlib import Path
 
+# #568：GBK 控制台根治——stdout/stderr 统一 UTF-8（emoji/中文打印不再 UnicodeEncodeError；模式抄 watch_inbox.py）
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+if hasattr(sys.stderr, "reconfigure"):
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "90_control" / "scripts"))
 sys.path.insert(0, str(ROOT / "kdo-tools"))

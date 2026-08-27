@@ -42,9 +42,9 @@ except ImportError:  # pragma: no cover
 
 # Ensure UTF-8 stdout to avoid UnicodeEncodeError on Windows Git Bash
 if hasattr(sys.stdout, "reconfigure"):
-    sys.stdout.reconfigure(encoding="utf-8")
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")  # #568：补 errors=replace（GBK 遇不可映射字符也不炸）
 if hasattr(sys.stderr, "reconfigure"):
-    sys.stderr.reconfigure(encoding="utf-8")
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 
 # Make queue_gate importable from the same directory
 SCRIPT_DIR = Path(__file__).resolve().parent
@@ -224,13 +224,13 @@ def _git_commit_transition(task_id: str, action: str, actor: str) -> None:
             return
         status = subprocess.run(
             ["git", "-C", str(_WIKI_ROOT), "status", "--porcelain", "--", *rels],
-            capture_output=True, text=True, timeout=15,
+            capture_output=True, text=True, encoding="utf-8", errors="replace", timeout=15,  # #568：GBK 控制台不指定 encoding 即炸
         ).stdout
         if not status.strip():
             return  # 触碰文件均无未提交变更（如重复流转/手工已收口）
         subprocess.run(
             ["git", "-C", str(_WIKI_ROOT), "add", "--", *rels],
-            check=True, capture_output=True, text=True, timeout=15,
+            check=True, capture_output=True, text=True, encoding="utf-8", errors="replace", timeout=15,  # #568：GBK 控制台不指定 encoding 即炸
         )
         rows = parse_queue()
         task = find_task(task_id, rows)
@@ -238,7 +238,7 @@ def _git_commit_transition(task_id: str, action: str, actor: str) -> None:
         subprocess.run(
             ["git", "-C", str(_WIKI_ROOT), "commit", "-m",
              f"chore(queue): {ref} {action} by {actor}", "--", *rels],
-            check=True, capture_output=True, text=True, timeout=15,
+            check=True, capture_output=True, text=True, encoding="utf-8", errors="replace", timeout=15,  # #568：GBK 控制台不指定 encoding 即炸
         )
     except Exception as e:
         print(
@@ -650,9 +650,11 @@ def _git_uncommitted(repo_root: Path, paths: list[str]) -> list[str]:
     try:
         out = subprocess.run(
             ["git", "-C", str(repo_root), "status", "--porcelain", "--", *paths],
-            capture_output=True, text=True, timeout=15,
+            capture_output=True, text=True, encoding="utf-8", errors="replace", timeout=15,  # #568：GBK 控制台不指定 encoding 即炸
         ).stdout
-    except Exception:
+    except Exception as e:
+        # #568：fail-open 可见化——E040 脏改动检测被跳过必须留痕（静默=门禁致盲）
+        print(f"[warn] E040 门禁组件 _git_dirty_paths 异常跳过（按无脏改动放行）: {e}", file=sys.stderr)
         return []
     dirty = []
     for line in out.splitlines():
@@ -748,10 +750,12 @@ def _git_tracked(repo_root: Path, rel: str) -> bool:
     try:
         r = subprocess.run(
             ["git", "-C", str(repo_root), "ls-files", "--error-unmatch", "--", rel],
-            capture_output=True, text=True, timeout=15,
+            capture_output=True, text=True, encoding="utf-8", errors="replace", timeout=15,  # #568：GBK 控制台不指定 encoding 即炸
         )
         return r.returncode == 0
-    except Exception:
+    except Exception as e:
+        # #568：fail-open 可见化——E040 已跟踪校验被跳过必须留痕
+        print(f"[warn] E040 门禁组件 _git_tracked({rel}) 异常跳过（按已跟踪放行）: {e}", file=sys.stderr)
         return True
 
 

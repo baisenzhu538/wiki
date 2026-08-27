@@ -28,6 +28,9 @@ from pathlib import Path
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+# #568：stderr 同步 UTF-8（通知类打印已改走 stderr，GBK 下同炸）
+if hasattr(sys.stderr, "reconfigure"):
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 
 ROOT = Path(__file__).resolve().parent.parent
 DIAG_DIR = ROOT / "60_feedback" / "diagnosis"
@@ -88,6 +91,12 @@ def _save_state(state: dict) -> None:
 
 
 # ── 信号 1/2：队列状态 diff（相对上次快照）───────────────────
+
+def _nprint(*args, **kwargs):
+    """#568：通知类打印一律 stderr——--json 模式 stdout 必须是纯 JSON（机器消费者 json.loads 必炸实证）。"""
+    kwargs.setdefault("file", sys.stderr)
+    print(*args, **kwargs)
+
 
 def _sha256(text: str) -> str:
     import hashlib as _hl
@@ -268,7 +277,7 @@ def _scan_proposal_near_miss(state: dict, effective_date: str | None = None) -> 
         if not reason:
             continue
         misses.append(f"{fp.name}｜{reason}")
-        print(f"⚠️ [near-miss] {fp.name} 疑似建议书但三元组不完整：{reason}"
+        _nprint(f"⚠️ [near-miss] {fp.name} 疑似建议书但三元组不完整：{reason}"
               f"——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）",
               file=sys.stderr)
         key = _sha256(f"{fp.name}｜{reason}")
@@ -311,7 +320,7 @@ def _reject_duplicate_doc_ids(hits: list[str]) -> list[str]:
             rejected.append(f"{name} (doc_id={doc_id})")
             hits.remove(name)
     if rejected:
-        print(f"⛔ [conveyor_probe] doc_id 重复拒绝登记: {'; '.join(rejected)}（E045 撞号，先订正再落盘）",
+        _nprint(f"⛔ [conveyor_probe] doc_id 重复拒绝登记: {'; '.join(rejected)}（E045 撞号，先订正再落盘）",
               file=sys.stderr)
     return hits
 
@@ -407,7 +416,7 @@ def _update_proposal_board_friction(new_lines: list[str]) -> None:
     else:
         new_text = text.rstrip() + "\n\n" + "\n".join(board) + "\n"
     QUEUE_FILE.write_text(new_text, encoding="utf-8")
-    print(f"🩹 friction 线索登记: +{added}（累计 {len(items)} 条）→ PROPOSAL-PENDING")
+    _nprint(f"🩹 friction 线索登记: +{added}（累计 {len(items)} 条）→ PROPOSAL-PENDING")
 
 
 def _scan_friction(state: dict) -> list[str]:
@@ -535,9 +544,9 @@ def _escalate_near_miss(state: dict, misses: list[str], dry_run: bool, silent: b
                 f"⚠️ near-miss 超期升级：{fname} 三元组违例已 {rounds[key]} 轮未修正"
                 f"（首检出 {first_seen[key]}；{reason[:60]}）——请捞处置（#536）")
             escalated.add(key)
-            print(f"📤 near-miss 升级推送: {fname}（{rounds[key]} 轮未修正）")
+            _nprint(f"📤 near-miss 升级推送: {fname}（{rounds[key]} 轮未修正）")
     elif fired and silent:
-        print(f"🔕 near-miss 升级 {len(fired)} 件 defer 天亮补发（轮数照计）")
+        _nprint(f"🔕 near-miss 升级 {len(fired)} 件 defer 天亮补发（轮数照计）")
     state["near_miss_rounds"] = rounds
     state["near_miss_first_seen"] = first_seen
     state["near_miss_escalated"] = sorted(escalated)[-200:]
@@ -659,7 +668,7 @@ def _update_proposal_board_gate(new_lines: list[str]) -> None:
     else:
         new_text = text.rstrip() + "\n\n" + "\n".join(board) + "\n"
     QUEUE_FILE.write_text(new_text, encoding="utf-8")
-    print(f"⛔ gate-blocked 登记: +{added} → PROPOSAL-PENDING")
+    _nprint(f"⛔ gate-blocked 登记: +{added} → PROPOSAL-PENDING")
 
 
 # #505：队列文件 4 个写点（3 个写函数）统一过 QueueLock——与 queue_transition 同锁，
@@ -799,17 +808,17 @@ def _notify(messages: dict[str, str], dry_run: bool, silent: bool) -> list[str]:
     sent = []
     for role, text in messages.items():
         if silent:
-            print(f"🔕 夜间静默，跳过通知：{role} → {text}")
+            _nprint(f"🔕 夜间静默，跳过通知：{role} → {text}")
             continue
         hook = hooks.get(role)
         if not hook:
-            print(f"⚠️ 无 webhook 配置（不发送）：{role} → {text}")
+            _nprint(f"⚠️ 无 webhook 配置（不发送）：{role} → {text}")
             continue
         if dry_run:
-            print(f"🧪 dry-run 不发送：{role} → {text}")
+            _nprint(f"🧪 dry-run 不发送：{role} → {text}")
             continue
         ok = _send_hook(hook["url"], text, hook["key"])
-        print(f"{'✅' if ok else '❌'} 通知 {role}：{text}")
+        _nprint(f"{'✅' if ok else '❌'} 通知 {role}：{text}")
         if ok:
             sent.append(role)
     return sent
@@ -988,7 +997,7 @@ def main() -> int:
     now_ts = _time.time()
     last_ts = state.get("last_run_ts")
     if last_ts and now_ts - last_ts > 1200:
-        print(f"⚠️ [conveyor_probe] 距上次运行 {int(now_ts - last_ts)}s（>20min）——"
+        _nprint(f"⚠️ [conveyor_probe] 距上次运行 {int(now_ts - last_ts)}s（>20min）——"
               f"期间信号已由增量机制补扫（dry-run 已修不消费 state）", file=sys.stderr)
     state["last_run_ts"] = now_ts
 
@@ -1024,7 +1033,7 @@ def main() -> int:
                 if touched:
                     notified_prev.add(rkey)
                     state["notified"] = sorted(notified_prev)[-200:]
-                    print(f"🔔 新提审叫醒（统一层）→ {touched}")
+                    _nprint(f"🔔 新提审叫醒（统一层）→ {touched}")
             except Exception as e:
                 print(f"⛔ 统一层投递失败，回落旧路径: {e}", file=sys.stderr)
                 messages["ouyangfeng"] = review_text  # 回落保命（漏发>路径纯洁）
@@ -1043,7 +1052,7 @@ def main() -> int:
                     }, ensure_ascii=False) + "\n")
                 if touched and not args.dry_run:
                     state["wake554_switched"] = True
-                    print("🔀 #554 双跑比对一致 → 提审叫醒切换统一层（旧路径下线）")
+                    _nprint("🔀 #554 双跑比对一致 → 提审叫醒切换统一层（旧路径下线）")
             except Exception as e:
                 print(f"⚠️ #554 新路径双跑失败（旧路径不受影响）: {e}", file=sys.stderr)
     if queue_sig["new_queued"]:
@@ -1102,7 +1111,7 @@ def main() -> int:
         messages["wangyuyan"] = (messages["wangyuyan"] + "；" + txt) if "wangyuyan" in messages else txt
     if decision_cleared:
         # 消项不推送（非事件，digest 栏自然消失）；stdout 留痕可查
-        print(f"✅ 待拍板消项 {len(decision_cleared)} 项：{', '.join(decision_cleared)}")
+        _nprint(f"✅ 待拍板消项 {len(decision_cleared)} 项：{', '.join(decision_cleared)}")
     if queue_sig["new_failback"]:
         # #462：终审退回 → 按 assignee 路由通知（#443 同款；生产者返工不再靠自觉）
         # #535：FAIL 通知带「返工优先」标记，收件箱置顶（E019 完成未闭环优先）
@@ -1171,7 +1180,7 @@ def main() -> int:
         # 任一 agent 在岗信号出现即随下一轮补发（pending_notify 机制不动）
         state["pending_notify"] = to_send
         if to_send:
-            print(f"🔕 无 agent 在岗（{_duty_reason}）：{len(to_send)} 条变更进待补发（在岗即补发）")
+            _nprint(f"🔕 无 agent 在岗（{_duty_reason}）：{len(to_send)} 条变更进待补发（在岗即补发）")
     else:
         sent = _notify(to_send, args.dry_run, silent=False)
         for role in sent:
