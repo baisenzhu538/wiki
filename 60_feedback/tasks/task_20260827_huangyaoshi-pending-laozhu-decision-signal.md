@@ -1,12 +1,12 @@
 ---
 id: 556
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-27T01:25:00+00:00'
+status: in_progress
+updated_at: '2026-08-27T01:13:02.412759+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
-  - kdo-tools/conveyor_probe.py
+- kdo-tools/conveyor_probe.py
 ---
 
 # #556 待老朱拍板事项上浮信号（设计→拍板→实施断链修复）
