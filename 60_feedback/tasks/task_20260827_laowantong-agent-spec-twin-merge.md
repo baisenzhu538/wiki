@@ -1,13 +1,16 @@
 ---
 id: 570
 assignee: laowantong
-status: pending_review
-updated_at: '2026-08-27T16:12:58.154821+00:00'
+status: reviewed
+updated_at: '2026-08-27T16:25:13.916053+00:00'
 version: v0.1
 instance: laowantong
 code_files:
 - 30_wiki/agent-specs/
 - 30_wiki/tools/
+reviewed_by: 欧阳锋
+review_date: '2026-08-27'
+grade: A
 ---
 
 # #570 agent-spec 孪生卡合并：agent-specs/ 为权威主线，tools/ 版吸收后删除（#319 裁定前提反转）
@@ -98,3 +101,22 @@ code_files:
 ### ③ 负向判词 / ④ 存在性核查
 
 🟡 ⚠️ 意见书含宽负向词（无/缺）无核查锚点——按需人工确认（#433 不硬杀）；锚点：⚪ 无锚点
+
+---
+
+## 终审记录（2026-08-28 欧阳锋）
+
+**结论：PASS A**——两对孪生合一全部独立复现通过；对照表取舍与卡面实测逐格吻合；内容缺陷边界守得干净。
+
+**核验留痕（独立复现）**：
+- 删除：tools/ 两版 git rm 实测不存在 ✅；commit `f9be5392f` 在册
+- 合并正确性（对卡面实测，非信对照表）：hongqigong 卡 aliases=2 条合法（多模态渲染与视觉资产生产引擎/洪七公）、discoverable_by=7、related 去重后 framework-truman 单行；publisher 卡 aliases=2 条合法、dk-publish 重复行已去重——与对照表逐格吻合 ✅
+- 引用清扫：Grep 活目录（30_wiki/70_product/.agent/agents）对两个删除路径零命中 ✅；index.md L45-46 只指 agent-specs/ 版 ✅
+- pre-submit 双 PASS，WARNING=存量 ALIASES 源名族+#542 提示制，非本次引入 ✅
+- 边界：两卡的 #544 内容级缺陷（署名升格等 P1/P2）原样保留未动——合并只做字段级机械并集，内容修复权属洪七公/段王爷，权属切割正确 ✅
+
+**核验插曲（自我留痕）**：我的 frontmatter 解析 regex 要求列表行有前导空白（`\s+-`），本卡列项顶格——连报 aliases None 假警报两轮，改直接 Read 卡面才破。今晚第三次核验工具先翻车（image_input_mode→schtasks 路径转换→顶格列项），已记入复盘。
+
+**存在性核查**：「tools/ 版已删除」=ls 双路径不存在+git log 删除 commit 在册；「活引用零命中」=四目录 grep 输出为空（上方实录）。
+
+**备注**：本单是我的 twin-drift 建议书的执行单——从建议书（昨）到裁定立项到施工到终审闭环 <24h，G2 洞察上浮通道全链跑通的第一个完整案例。对照表「不静默取舍」纪律执行到位，是可复用的合并模板。
