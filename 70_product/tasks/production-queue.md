@@ -187,6 +187,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 559 | `task_20260827_huangyaoshi-profile-config-patrol` | profile配置巡检+manual残留止血（huangyaoshi/laowantong仍manual）+SOUL.md真相源指针全profile覆盖 | queued | huangyaoshi | 止血+巡检+指针 | 无 | `60_feedback/tasks/task_20260827_huangyaoshi-profile-config-patrol.md` | 同报告P1-1/P1-3裁定：「知道≠生效」——dk卡沉淀17天只修1个profile=半套修改实证（判词B1）；巡检挂kdo-health-daily日级只报漂移不自动改；欧阳锋终审 |
 | 560 | `task_20260827_huangyaoshi-hermes-cron-restart-recovery` | hermes cron调度器重启不恢复排查：job错过fire点后next_run卡死（laowantong-clock-v3 22:56后停跑实证） | queued | huangyaoshi | 根因+修复+回归 | 无 | `60_feedback/tasks/task_20260827_huangyaoshi-hermes-cron-restart-recovery.md` | 飞书三共享诊断发现1（08-27王语嫣）：ticker心跳活/job任务死=恢复逻辑不对称；飞书侧唯一任务时钟卡死=今晚老顽童装死的hermes侧真相；与#558同hermes层可同批分开commit；欧阳锋终审 |
 | 561 | `task_20260827_huangyaoshi-feishu-soul-alignment` | 飞书四实例SOUL.md对齐刷新：记忆锚点三补一+wangyuyan角色重写（旧诊断咨询者→操作系统）+laowantong路径Windows化+统一收件箱/myqueue协议段 | queued | huangyaoshi | 口径施工+漂移扫描 | 无 | `60_feedback/tasks/task_20260827_huangyaoshi-feishu-soul-alignment.md` | 飞书三共享诊断发现2/3/4（08-27王语嫣口径随单附）；SOUL只留最小身份+指针（真相源=charter §2.6+.agent/context，复制必漂）；改前备份profile内；不动config/cron；欧阳锋终审 |
+| 562 | `task_20260827_huangyaoshi-liveness-alert-storm-fix` | liveness报警风暴止血：check_liveness幂等冷却（同角色2h）+心跳语义修复（消费回执=心跳）+第五探针多行解析 | queued | huangyaoshi | 止血+修复+回归 | #553 | `60_feedback/tasks/task_20260827_huangyaoshi-liveness-alert-storm-fix.md` | 老朱质询KDO秘书推送异常诊断（08-27王语嫣）：07:42起每5分钟误报25+条——活跃≠心跳（本人回话中被判死亡实证），时钟蹭拍设计有未实现；附带E040多行残片登记bug；只压频不删报；欧阳锋终审 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
 ## ⚖️ 待终审（提审任务，queue_transition 自动登记）
@@ -494,14 +495,15 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - diag_20260826_ouyangfeng-late-session-retro-missing.md｜08-26 23:47｜待王语嫣复核裁定
 - diag_20260826_ouyangfeng-lint-prose-source-refs-blindspot.md｜08-26 23:47｜待王语嫣复核裁定
 - diag_20260826_ouyangfeng-queue-transition-gbk-failopen.md｜08-26 23:47｜待王语嫣复核裁定
-- [gate-blocked] task_20260826_huangyaoshi-source-refs-debt｜08-27 00:27｜待王语嫣复核处置｜2026-08-27 00:23:13｜task_20260826_huangyaoshi-source-refs-debt｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
-- [gate-blocked] huangyaoshi｜08-27 00:27｜待王语嫣复核处置｜- untrack｜huangyaoshi
-- [gate-blocked] task_20260827_laowantong-audit-maxims-card｜08-27 01:37｜待王语嫣复核处置｜2026-08-27 01:34:42｜task_20260827_laowantong-audit-maxims-card｜F-034-五字段｜执行报告缺 4 个字段（#429 F-034）：完成内容一句话、验证命令+输出、未做项/边界、需要谁动作。请补全后重试，或 --force --reason '<理由>' 声明例外（#444 台账留痕｜laowantong
+- ~~[gate-blocked] task_20260826_huangyaoshi-source-refs-debt｜08-27 00:27｜待王语嫣复核处置~~ → 已化解（08-27 09:05 王语嫣批核）：拦截后补 commit 重提，#543 终审 PASS A-，残留划销
+- ~~[gate-blocked] huangyaoshi｜08-27 00:27｜待王语嫣复核处置~~ → 垃圾残片划销（08-27 王语嫣）：E040 多行消息被第五探针按物理行切分的续行残片，根因修复入 **#562** 任务3
+- ~~[gate-blocked] task_20260827_laowantong-audit-maxims-card｜08-27 01:37｜待王语嫣复核处置~~ → 已化解（08-27 09:05 王语嫣批核）：F-034 缺字段补全后重提，#551 终审 PASS A-，残留划销
 - diag_20260827_laowantong-gate-anchor-format-pitfalls.md｜08-27 01:44｜待王语嫣复核裁定
-- [gate-blocked] laowantong｜08-27 01:44｜待王语嫣复核处置｜- untracked: kdo pre-submit -f 30_wiki/frameworks/framew｜laowantong
-- [gate-blocked] task_20260826_huangyaoshi-instance-identity-registry｜08-27 02:37｜待王语嫣复核处置｜2026-08-27 02:36:19｜task_20260826_huangyaoshi-instance-identity-registry｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
+- ~~[gate-blocked] laowantong｜08-27 01:44｜待王语嫣复核处置~~ → 垃圾残片划销（08-27 王语嫣）：同上 E040 续行残片（且残片内容暴露 pre-submit 把命令行当交付物路径的另一解析瑕疵，一并入 #562 排查视野）
+- ~~[gate-blocked] task_20260826_huangyaoshi-instance-identity-registry｜08-27 02:37｜待王语嫣复核处置~~ → 已化解（08-27 09:05 王语嫣批核）：#546 终审 PASS A，残留划销
 - diag_20260827_ouyangfeng-probe-json-stdout-pollution.md｜08-27 03:27｜待王语嫣复核裁定
-- [gate-blocked] task_20260826_huangyaoshi-token-metering｜08-27 04:47｜待王语嫣复核处置｜2026-08-27 04:39:18｜task_20260826_huangyaoshi-token-metering｜F-036-问题落点｜审查发现问题未给落点（F-036）：- 预审 🟡 预标注核验：「零/空」为首日数据如实描述（hermes 今日零新会话），成立 ✅——必须在意见书注明去向（建议书路径 / 停车场 F-xxx / 任务｜欧阳锋
+- ~~[gate-blocked] task_20260826_huangyaoshi-token-metering｜08-27 04:47｜待王语嫣复核处置~~ → 已化解（08-27 09:05 王语嫣批核）：F-036 落点补注后 #549 终审 PASS A，残留划销
+- ~~[gate-blocked] role-liveness｜08-27 07:47｜待王语嫣复核处置~~ → 误报划销（08-27 王语嫣）：role-liveness 报警风暴（07:42 起每 5min，25+ 条）——活跃≠心跳的系统性误报，止血+根因修复入 **#562**；止血落地前台账仍会持续新增，新增行无需逐条处置
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
