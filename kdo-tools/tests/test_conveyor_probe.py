@@ -600,3 +600,38 @@ def test_decision_needs_action_line_hit(tmp_path, monkeypatch):
     ])
     new, _ = probe._scan_pending_decision({})
     assert [(t, s, src) for t, s, src in new] == [("task_20260827_h-action", "301", "需要谁动作行")]
+
+
+# ── #556 终审 FAIL 修复回归（P1 自举自排 + P2 节检测行首锚定）──
+
+def test_decision_self_excluded_task_never_hit(tmp_path, monkeypatch):
+    """P1：信号自身任务单永真命中（教学示例关键词）→ 按 task_id 自排，直接 None。"""
+    queue, tdir = tmp_path / "q.md", tmp_path / "tasks"
+    tdir.mkdir()
+    monkeypatch.setattr(probe, "QUEUE_FILE", queue)
+    monkeypatch.setattr(probe, "TASK_DIR", tdir)
+    self_id = "task_20260827_huangyaoshi-pending-laozhu-decision-signal"
+    _write_task_556(tdir, self_id, "**PASS A**。需要谁动作：老朱拍板。")
+    _write_queue_556(queue, [f"| 556 | `{self_id}` | t | reviewed | huangyaoshi | x | 无 | t.md | 待老朱拍板 |"])
+    row = {"raw": f"| 556 | `{self_id}` | t | reviewed | huangyaoshi | x | 无 | t.md | 待老朱拍板 |"}
+    assert probe._decision_hit(self_id, row) is None  # 双通道都堵（备注列+任务单）
+    new, _ = probe._scan_pending_decision({})
+    assert new == []
+
+
+def test_decision_section_anchor_ignores_inline_quote(tmp_path, monkeypatch):
+    """P2：正文反引号内的 `` `## 终审记录` `` 伪标题不当节首——节检测行首锚定。"""
+    queue, tdir = tmp_path / "q.md", tmp_path / "tasks"
+    tdir.mkdir()
+    monkeypatch.setattr(probe, "QUEUE_FILE", queue)
+    monkeypatch.setattr(probe, "TASK_DIR", tdir)
+    # 正文在真终审记录节之前引用节名（反引号行内），引用段后方含关键词——
+    # 不锚行首的旧实现会从伪标题切节，把关键词圈进「终审记录节」误报
+    (tdir / "task_20260827_i-anchor.md").write_text(
+        "---\nid: 1\n---\n\n# t\n\n## 执行报告\n\n"
+        "命中 `## 终审记录` 节的说明文字，下同 老朱拍板 示例。\n\n"
+        "## 终审记录\n\n**PASS A** 终审通过，无待办。\n",
+        encoding="utf-8")
+    _write_queue_556(queue, ["| 400 | `task_20260827_i-anchor` | t | reviewed | huangyaoshi | x | 无 | t.md | 无 |"])
+    row = {"raw": "| 400 | `task_20260827_i-anchor` | t | reviewed | huangyaoshi | x | 无 | t.md | 无 |"}
+    assert probe._decision_hit("task_20260827_i-anchor", row) is None

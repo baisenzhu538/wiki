@@ -863,6 +863,10 @@ _DECISION_RE = _re.compile(r"老朱拍板|待老朱|需老朱|待拍板|需拍�
 # 向前生效（#506 同款）：只扫生效日及之后立案的任务单，存量历史单既往不咎防首轮噪声洪泛
 _DECISION_EFFECTIVE_DATE = "20260827"
 _TASK_DATE_RE = _re.compile(r"^task_(\d{8})_")
+# #556 终审 FAIL P1 修复：信号自身任务单自排——本单正文/终审记录含教学示例关键词永真命中，
+# 两条消项路径（字样移除/状态翻 reviewed）对它都无效 = 永久自举误推。后续改造本信号的单
+# 同样含示例 wording，同法自排登记在此。
+_DECISION_SELF_EXCLUDE = {"task_20260827_huangyaoshi-pending-laozhu-decision-signal"}
 
 
 def _decision_effective(task_id: str) -> bool:
@@ -876,9 +880,14 @@ def _decision_hit(task_id: str, row: dict) -> str | None:
 
     队列侧只匹配**备注列**（cells[8:]）——不匹配名称列：#556 自身名称含「待老朱拍板」，
     若匹配名称列会自我永久在列（名称不会随拍板消字），备注才是会随处置改写的字段。
-    任务单侧扫「## 终审记录」节 + 全文「需要谁动作」行（#525 实证：待拍板 wording
-    写在执行报告的需要谁动作行，只扫终审记录节会漏掉本信号的原案）。
+    任务单侧扫「## 终审记录」节（**行首锚定**——FAIL P2 修复：不锚行首会把正文反引号
+    内的 `` `## 终审记录` `` 伪标题当节首误切节）+ 全文「需要谁动作」行（#525 实证：
+    待拍板 wording 写在执行报告的需要谁动作行，只扫终审记录节会漏掉本信号的原案）。
+    自排：_DECISION_SELF_EXCLUDE 内任务单直接 None（FAIL P1：信号自身任务单永真命中）。
     """
+    if task_id in _DECISION_SELF_EXCLUDE:
+        return None
+
     def _kw(s: str) -> bool:
         return bool(_DECISION_RE.search(s))
 
@@ -892,12 +901,14 @@ def _decision_hit(task_id: str, row: dict) -> str | None:
             body = fp.read_text(encoding="utf-8", errors="ignore")
         except OSError:
             return None
-        idx = body.find("## 终审记录")
-        if idx != -1:
-            nxt = body.find("\n## ", idx + 1)
-            sec = body[idx:nxt] if nxt > 0 else body[idx:]
-            if _kw(sec):
-                return "终审记录节"
+        # 行首锚定切节：定位真标题行，切到下一个行首 ## 标题为止
+        heads = list(_re.finditer(r"(?m)^## .+$", body))
+        for i, h in enumerate(heads):
+            if h.group().startswith("## 终审记录"):
+                end = heads[i + 1].start() if i + 1 < len(heads) else len(body)
+                if _kw(body[h.start():end]):
+                    return "终审记录节"
+                break
         for ln in body.splitlines():
             if "需要谁动作" in ln and _kw(ln):
                 return "需要谁动作行"

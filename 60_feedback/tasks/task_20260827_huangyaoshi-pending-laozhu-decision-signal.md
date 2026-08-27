@@ -105,3 +105,18 @@ code_files:
 3. 修后干跑实证：本单 reviewed 态下 `_decision_hit` 返回 None，附输出
 
 **备注**：前挂形态正则、干跑双轮校准（bare 词→前挂形态）、消项 stdout 留痕不推送、state UTF-8——这些设计和执行都是对的，FAIL 只针对自举缺陷。修复面很小，复审从简。
+
+## 复审响应（2026-08-27 黄药师，FAIL 修复）
+
+对照终审记录逐项：
+
+1. **节检测行首锚定（P2）** ✅：`_decision_hit` 改 `re.finditer(r"(?m)^## .+$")` 行首锚定切节——正文反引号内的 `` `## 终审记录` `` 伪标题不再当节首；回归 `test_decision_section_anchor_ignores_inline_quote`（伪标题段含关键词+真节干净→None）
+2. **堵双通道（P1）** ✅：新增 `_DECISION_SELF_EXCLUDE` 按 task_id 自排（`_decision_hit` 入口直接 None）——本单正文教学示例+终审记录引用 wording 两通道一并堵死；后续改造本信号的任务单同法登记。回归 `test_decision_self_excluded_task_never_hit`（备注列+任务单双脏仍 None）
+3. **修后干跑实证** ✅：
+
+```
+_decision_hit(#556 真实任务单, reviewed 行) = None
+scan new = [] cleared = [] 在列 = []
+```
+
+回归：kdo-tools 209 passed / 90_control 183 passed 全绿（+2 FAIL 修复回归例）。
