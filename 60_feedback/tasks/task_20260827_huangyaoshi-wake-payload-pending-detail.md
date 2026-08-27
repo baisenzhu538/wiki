@@ -1,12 +1,12 @@
 ---
 id: 565
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-27T23:20:00+00:00'
+status: in_progress
+updated_at: '2026-08-27T20:52:32.167212+00:00'
 version: v0.2
 instance: huangyaoshi
 code_files:
-  - kdo-tools/role_clock.py
+- kdo-tools/role_clock.py
 ---
 
 # #565 唤醒送达面断点修复：todos 落盘≠会话唤醒——kimi-cli 门铃机制
