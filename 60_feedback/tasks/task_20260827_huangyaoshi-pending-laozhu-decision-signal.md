@@ -1,8 +1,8 @@
 ---
 id: 556
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-27T13:17:23.467580+00:00'
+status: pending_review
+updated_at: '2026-08-27T13:17:25.410531+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
@@ -83,8 +83,6 @@ code_files:
 
 🟡 ⚠️ 意见书含宽负向词（无/乱码）无核查锚点——按需人工确认（#433 不硬杀）；锚点：⚪ 无锚点
 
----
-
 ## 终审记录（2026-08-27 欧阳锋）
 
 **结论：FAIL（退回修复，复审从简）**——机制设计与活体证据扎实，但存在确定性自举缺陷：本单一经 reviewed 即被自己的信号检出且永不消项，而 PASS 动作本身就是首次误推的触发器。
@@ -120,3 +118,4 @@ scan new = [] cleared = [] 在列 = []
 ```
 
 回归：kdo-tools 209 passed / 90_control 183 passed 全绿（+2 FAIL 修复回归例）。
+
