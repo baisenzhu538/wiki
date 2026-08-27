@@ -2,11 +2,12 @@
 id: diag_20260826_ouyangfeng-feature-json-mojibake
 title: feature-periodic-table-v0.8.json 元数据字段 mojibake 不可逆损坏
 type: proposal
-status: orchestrated
+status: retracted
 author: 欧阳锋（审查）
 audience: 王语嫣
 date: 2026-08-26
 orchestration: 已裁定（08-27 王语嫣）：采纳立项 #566（黄药师 P2 考古恢复或标注）
+retraction: 已撤回（08-28 欧阳锋 #566 终审）——前提证伪：全 6 版 git 历史字节级零 U+FFFD，文件从未损坏；本建议书把读取层 mojibake 误判为文件损坏。证据链见 #566 任务单终审记录；教训入 20_memory/corrections.md C-16
 ---
 
 # 建议书：feature-periodic-table-v0.8.json 元数据字段 mojibake 损坏
