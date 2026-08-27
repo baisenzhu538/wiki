@@ -7,7 +7,7 @@
         "channels": [
           "todos"
         ],
-        "heartbeat_ts": 1787779711.115667,
+        "heartbeat_ts": 1787857093.2912502,
         "session_scope": "C:/Users/Administrator/Desktop/wiki"
       },
       {
@@ -16,8 +16,18 @@
         "channels": [
           "todos"
         ],
-        "heartbeat_ts": 1787784744.6091635,
+        "heartbeat_ts": 1787861141.4418674,
         "session_scope": "C:\\Users\\Administrator\\Desktop\\wiki"
+      },
+      {
+        "tool": "hermes",
+        "kind": "platform",
+        "channels": [
+          "feishu",
+          "todos"
+        ],
+        "heartbeat_ts": 1787859951.8948011,
+        "profile": "huangyaoshi"
       }
     ],
     "active": "cli"
@@ -30,7 +40,7 @@
         "channels": [
           "todos"
         ],
-        "heartbeat_ts": 1787784341.342201,
+        "heartbeat_ts": 1787860849.9038157,
         "session_scope": "C:\\Users\\Administrator\\Desktop\\wiki"
       },
       {
@@ -40,11 +50,11 @@
           "feishu",
           "todos"
         ],
-        "heartbeat_ts": 1787784865.4325962,
-        "profile": "laowantong"
+        "heartbeat_ts": 1787859943.0413005,
+        "profile": "laowantong-feishu"
       }
     ],
-    "active": "hermes",
+    "active": "cli",
     "wake_pace_min": 15
   },
   "ouyangfeng": {
@@ -55,7 +65,26 @@
         "channels": [
           "todos"
         ],
-        "heartbeat_ts": 1787784836.9982724
+        "heartbeat_ts": 1787860117.2874327
+      },
+      {
+        "tool": "cli",
+        "kind": "cli",
+        "channels": [
+          "todos"
+        ],
+        "heartbeat_ts": 1787858451.6367235,
+        "session_scope": "C:\\Users\\Administrator\\Desktop\\wiki"
+      },
+      {
+        "tool": "hermes",
+        "kind": "platform",
+        "channels": [
+          "feishu",
+          "todos"
+        ],
+        "heartbeat_ts": 1787859756.6339724,
+        "profile": "ouyangfeng"
       }
     ],
     "active": "kimi-cli"
@@ -68,7 +97,26 @@
         "channels": [
           "todos"
         ],
-        "heartbeat_ts": 1787784865.4345944
+        "heartbeat_ts": 1787859852.0164866
+      },
+      {
+        "tool": "hermes",
+        "kind": "platform",
+        "channels": [
+          "feishu",
+          "todos"
+        ],
+        "heartbeat_ts": 1787859820.6626549,
+        "profile": "wangyuyan"
+      },
+      {
+        "tool": "cli",
+        "kind": "cli",
+        "channels": [
+          "todos"
+        ],
+        "heartbeat_ts": 1787859820.2730412,
+        "session_scope": "C:\\Users\\Administrator\\Desktop\\wiki"
       }
     ],
     "active": "kimi-cli",
