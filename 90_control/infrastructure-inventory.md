@@ -25,7 +25,7 @@ audience: 全体 agent
 | 工具族 | 20 | 🟢 | conveyor_probe/胶囊/采集/lint 工具（kdo-tools 核心） |
 | 一次性修复批 | 28 | 🟡 | fix-*/repair-*（历史遗留待归档，#488 只标注不清理） |
 | 服务 | 2 | 🟢 | hermes gateway（多实例）/ wx_video_download |
-| 计划任务 | 5 | 🟢 | conveyor/l1-capture/inbox-watch/health-daily/health-check |
+| 计划任务 | 12 | 🟢 | conveyor(×2)/inbox-watch(×2)/role-clock/l1-capture/l1-archive/health-daily/health-check/quality-metrics/daily-audit-digest/wechat-link-monitor——**08-27 全部转 S4U 会话 0 无窗运行**（原 Interactive 每次触发弹黑框干扰桌面，老朱反馈后王语嫣转换+实跑验证 exit 0；今后新建计划任务硬纪律：LogonType 必须 S4U，禁 Interactive） |
 | 数据资产 | 8 | 🟢 | L1 库+镜像+全量/索引/台账/基线 |
 | 基线/轴文件 | 5 | 🟢 | tags-vocab 轴/role-routes/rescan-baseline 等 |
 
