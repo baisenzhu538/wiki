@@ -1,13 +1,13 @@
 ---
 id: 570
 assignee: laowantong
-status: queued
-updated_at: '2026-08-27T23:55:00+00:00'
+status: in_progress
+updated_at: '2026-08-27T16:01:25.610490+00:00'
 version: v0.1
 instance: laowantong
 code_files:
-  - 30_wiki/agent-specs/
-  - 30_wiki/tools/
+- 30_wiki/agent-specs/
+- 30_wiki/tools/
 ---
 
 # #570 agent-spec 孪生卡合并：agent-specs/ 为权威主线，tools/ 版吸收后删除（#319 裁定前提反转）

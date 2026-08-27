@@ -64,13 +64,13 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 </head>
 <body>
 <h1>KDO 生产看板</h1>
-<p class="subtitle">production-queue.md · 自动生成于 2026-08-27 23:46</p>
+<p class="subtitle">production-queue.md · 自动生成于 2026-08-28 00:01</p>
 
 <div class="stats">
-<div class="stat queued"><div class="stat-num">5</div><div class="stat-label">待领取 Queued</div></div>
-<div class="stat pending"><div class="stat-num">1</div><div class="stat-label">审查中 Review</div></div>
-<div class="stat active"><div class="stat-num">1</div><div class="stat-label">进行中 Active</div></div>
-<div class="stat done"><div class="stat-num">141</div><div class="stat-label">已完成 Done</div></div>
+<div class="stat queued"><div class="stat-num">9</div><div class="stat-label">待领取 Queued</div></div>
+<div class="stat pending"><div class="stat-num">0</div><div class="stat-label">审查中 Review</div></div>
+<div class="stat active"><div class="stat-num">2</div><div class="stat-label">进行中 Active</div></div>
+<div class="stat done"><div class="stat-num">142</div><div class="stat-label">已完成 Done</div></div>
 <div class="stat owner"><div class="stat-num">5</div><div class="stat-label">活跃角色</div></div>
 </div>
 
@@ -80,20 +80,6 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 </div>
 
 
-<div class="task-group">
-<div class="group-header pending">审查中 · 等待欧阳锋</div>
-<div class="task-card">
-<div class="task-prio p1">P1</div>
-<div class="task-info">
-<div class="task-id">#544</div>
-<div class="task-title">被依赖draft卡批次过审：#527清单23张按优先级逐张过审（首张layered-system），升reviewed/退回/豁免三出口</div>
-<div class="task-detail">清王语嫣欠账（#527终审备注的编排动作未落单，欧阳锋恢复后在途表挂账）；只审清单内23张不外扩；审查批不改内容只判级；首批≥5张即阶段闭环；王语嫣抽核2张</div>
-</div>
-<div class="task-meta">
-<span class="task-assignee ouyangfeng">欧阳锋</span>
-</div>
-</div>
-</div>
 <div class="task-group">
 <div class="group-header queued">待领取</div>
 <div class="task-card">
@@ -145,7 +131,51 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 <div class="task-info">
 <div class="task-id">#565</div>
 <div class="task-title">唤醒送达面断点修复：kimi-cli门铃机制（会话级最小cron恢复，只按门铃不调度）+唤醒载荷带待审明细</div>
-<div class="task-detail">老朱质问#558延迟（08-27）；v0.2根因更正：#555停用会话cron后todos落盘≠会话唤醒，全角色CLI只靠人肉按门铃（王语嫣CronList实测0）；v0.1王语嫣误判载荷为主因被纠偏；与#555防双时钟协调口径=决策在系统…</div>
+<div class="task-detail">老朱质问#558延迟（08-27）；v0.2根因更正：#555停用会话cron后todos落盘≠会话唤醒，全角色CLI只靠人肉按门铃（王语嫣CronList实测0）；v0.1王语嫣误判载荷为主因被纠偏；欧阳锋送达面建议书并入任务3选型；与#…</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee huangyaoshi">黄药师</span>
+</div>
+</div>
+<div class="task-card">
+<div class="task-prio p2">P2</div>
+<div class="task-info">
+<div class="task-id">#566</div>
+<div class="task-title">feature-periodic-table-v0.8.json mojibake考古：git定位损坏时点，恢复或标注「以口述稿为准」</div>
+<div class="task-detail">欧阳锋建议书裁定（08-27王语嫣）；P2；只动单文件不重造数据；欧阳锋终审</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee huangyaoshi">黄药师</span>
+</div>
+</div>
+<div class="task-card">
+<div class="task-prio p1">P1</div>
+<div class="task-info">
+<div class="task-id">#567</div>
+<div class="task-title">pre-submit接入check-source-refs存在性检测（WARNING级）+散文型非路径WARN+段王爷系存量污染清单挂账</div>
+<div class="task-detail">欧阳锋建议书修订方向裁定（08-27王语嫣）：检查器存在但未入门禁链（prezi卡实证）；WARNING起步同#542哲学；段王爷外部挂起不派活（E058）；欧阳锋终审</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee huangyaoshi">黄药师</span>
+</div>
+</div>
+<div class="task-card">
+<div class="task-prio p1">P1</div>
+<div class="task-info">
+<div class="task-id">#568</div>
+<div class="task-title">GBK族仓库级根治：subprocess编码+Popen reader线程+fail-open吞异常可见化+probe stdout污染（通知走stderr）</div>
+<div class="task-detail">欧阳锋两建议书合并裁定（08-27王语嫣）P1门禁静默致盲风险；三例活体实证（含#556 FAIL流转reader线程炸）；CLI入口统一reconfigure utf-8；欧阳锋终审</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee huangyaoshi">黄药师</span>
+</div>
+</div>
+<div class="task-card">
+<div class="task-prio p1">P1</div>
+<div class="task-info">
+<div class="task-id">#569</div>
+<div class="task-title">门禁锚点三层修复：ALIASES读文件不读索引/F-034前缀匹配/E040节边界放宽+报错带期望格式样例</div>
+<div class="task-detail">老顽童建议书裁定（08-27王语嫣）：#551连拦三次全是锚点格式非内容；机器可读性原则不动只让报错可操作；tools/垃圾aliases生成源排查挂此；欧阳锋终审</div>
 </div>
 <div class="task-meta">
 <span class="task-assignee huangyaoshi">黄药师</span>
@@ -163,6 +193,17 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 </div>
 <div class="task-meta">
 <span class="task-assignee huangyaoshi">黄药师</span>
+</div>
+</div>
+<div class="task-card">
+<div class="task-prio p1">P1</div>
+<div class="task-info">
+<div class="task-id">#570</div>
+<div class="task-title">agent-spec孪生卡合并：agent-specs/为权威主线，tools/版diff吸收后删除+引用清扫（hongqigong/duanwangye两对）</div>
+<div class="task-detail">欧阳锋twin-drift建议书裁定（08-27王语嫣）：#319「tools/为权威」前提被#472/#475反转（§0冷启动只在agent-specs/版），TODO另立项未落单今补；取舍对照表留痕不静默；欧阳锋终审</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee laowantong">老顽童</span>
 </div>
 </div>
 </div>
@@ -247,7 +288,7 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 </div>
 </div>
 
-<header style="display:none"><!-- generated-by: generate-dashboard.py · updated_at: 2026-08-27 23:46 · git_head: 1cb1552cb --></header>
-<footer>KDO 知识工厂 · 由 generate-dashboard.py 自动生成 · 2026-08-27 23:46</footer>
+<header style="display:none"><!-- generated-by: generate-dashboard.py · updated_at: 2026-08-28 00:01 · git_head: aeeadedd7 --></header>
+<footer>KDO 知识工厂 · 由 generate-dashboard.py 自动生成 · 2026-08-28 00:01</footer>
 </body>
 </html>
