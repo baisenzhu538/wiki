@@ -1,13 +1,13 @@
 ---
 id: 568
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-27T23:55:00+00:00'
+status: in_progress
+updated_at: '2026-08-27T23:05:46.193646+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
-  - 90_control/scripts/queue_transition.py
-  - kdo-tools/conveyor_probe.py
+- 90_control/scripts/queue_transition.py
+- kdo-tools/conveyor_probe.py
 ---
 
 # #568 GBK 编码族仓库级根治：subprocess 编码 + Popen reader 线程 + fail-open 可见化 + probe stdout 污染
