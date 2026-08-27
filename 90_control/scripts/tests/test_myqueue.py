@@ -168,3 +168,44 @@ class TestRecentReviews(unittest.TestCase):
                 self.assertIn("最近终审", buf.getvalue())
             finally:
                 qt.QUEUE_PATH = orig
+
+
+class ConsumptionHeartbeatTest(unittest.TestCase):
+    """#562 任务2：消费回执=心跳——_consumption_heartbeat 角色映射与五角色门禁。"""
+
+    def _run(self, role, reg):
+        import types
+        fake = types.SimpleNamespace(
+            ROLE_PACE_MIN={"huangyaoshi": 15, "ouyangfeng": 30, "wangyuyan": 30,
+                           "laowantong": 15, "fengqingyang": 720},
+            heartbeat=lambda r, **kw: reg.append(r),
+        )
+        orig = sys.modules.get("role_registry")
+        sys.modules["role_registry"] = fake
+        try:
+            qt._consumption_heartbeat(role)
+        finally:
+            if orig is not None:
+                sys.modules["role_registry"] = orig
+            else:
+                del sys.modules["role_registry"]
+
+    def test_pinyin_role_accepted(self):
+        reg = []
+        self._run("huangyaoshi", reg)
+        self.assertEqual(reg, ["huangyaoshi"])
+
+    def test_chinese_reviewer_mapped(self):
+        reg = []
+        self._run("欧阳锋", reg)
+        self.assertEqual(reg, ["ouyangfeng"])
+
+    def test_non_role_skipped(self):
+        reg = []
+        self._run("capsule-bot", reg)
+        self.assertEqual(reg, [])
+
+    def test_none_skipped(self):
+        reg = []
+        self._run(None, reg)
+        self.assertEqual(reg, [])

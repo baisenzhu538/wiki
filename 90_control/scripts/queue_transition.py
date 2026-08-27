@@ -1293,6 +1293,26 @@ def _is_active_task(task_id: str, rows: list) -> bool:
     return False  # 队列无行=已结束，视为满足
 
 
+def _consumption_heartbeat(role: str | None) -> None:
+    """#562 任务2（方案B 落点）：消费回执=心跳——myqueue/claim/complete/release/review
+    都是 agent 真实消费队列的动作时刻，顺手蹭拍注册表心跳。
+    时钟活着≠agent 活着，但「消费动作发生」=agent 活着的最硬证据。
+    零成本钩；失败不阻断主流程。仅限五个 KDO 角色（拼音），其余 instance 不入注册表。"""
+    if not role:
+        return
+    _CN_TO_PINYIN = {"欧阳锋": "ouyangfeng", "王语嫣": "wangyuyan", "黄药师": "huangyaoshi",
+                     "老顽童": "laowantong", "风清扬": "fengqingyang"}
+    role = _CN_TO_PINYIN.get(role, role)
+    try:
+        import role_registry
+        if role not in role_registry.ROLE_PACE_MIN:
+            return
+        role_registry.heartbeat(role, tool=os.environ.get("KDO_TOOL", "cli"),
+                                session_scope=os.getcwd())
+    except Exception:
+        pass
+
+
 def action_myqueue(role: str) -> int:
     """#472 任务路由：角色视角的队列视图（只读，不动状态机）。
 
@@ -1301,14 +1321,8 @@ def action_myqueue(role: str) -> int:
     待终审（pending_review）。
     """
     # #552：时钟蹭拍——myqueue 是角色时钟每拍必跑的唯一命令，顺手写注册表心跳
-    # （零成本心跳钩；失败不阻断查询主流程）
-    try:
-        sys.path.insert(0, str(_WIKI_ROOT / "90_control" / "scripts"))
-        import role_registry
-        role_registry.heartbeat(role, tool=os.environ.get("KDO_TOOL", "cli"),
-                                session_scope=os.getcwd())
-    except Exception:
-        pass
+    # #562：蹭拍逻辑上提为 _consumption_heartbeat，claim/complete/release/review 共用
+    _consumption_heartbeat(role)
     rows = parse_queue()
     mine = [r for r in rows if r["assignee"] == role]
     todo, wait, frozen, doing, reviewing = [], [], [], [], []
@@ -1519,6 +1533,9 @@ def main() -> int:
 
     print(msg)
     if ok:
+        # #562：流转成功=消费回执，蹭拍心跳（review 归 reviewer，其余归 instance）
+        if action in ("claim", "complete", "release", "review"):
+            _consumption_heartbeat(reviewer if action == "review" else instance)
         _refresh_dashboard()
         # #390：流转成功（含 dashboard 刷新）后自动 git 收口；门禁拦截的流转到不了这里
         if not no_commit and action in ("claim", "complete", "release", "review", "mark-waiting", "resume", "cancel"):

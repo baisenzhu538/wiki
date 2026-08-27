@@ -576,26 +576,53 @@ def _scan_issue_no_disposition(state: dict, new_reviewed: list) -> list[str]:
     return hits
 
 
+# #562 任务3：记录起始行（时间戳锚）聚合续行——E040 等多行拦截消息不再被按物理行切片
+_GATE_REC_START_RE = _re.compile(r"^\d{4}-\d{2}-\d{2} \d{2}:\d{2}(:\d{2})?｜")
+
+
 def _scan_gate_blocked(state: dict) -> list[str]:
-    """#460 第五探针：gate-blocked.log 增量扫描（行 hash 幂等）——门禁拦截自动上浮，零依赖 agent 自觉。"""
+    """#460 第五探针：gate-blocked.log 增量扫描（记录 hash 幂等）——门禁拦截自动上浮，零依赖 agent 自觉。
+
+    #562：按「记录」而非物理行扫描。记录=时间戳起始行 + 其后续行（写侧 reason 字段
+    可含内嵌换行，如 E040 的多行交付物清单）。续行不再被登记成独立垃圾建议。
+    状态键升级 gate_seen_v2：首跑静默吸收存量记录（旧方案已逐行见过并通知过，不丢报）。
+    """
     if not GATE_BLOCKED_LOG.exists():
         return []
-    seen = state.setdefault("gate_seen", [])
-    known = set(seen)
-    new_lines = []
     try:
-        for ln in GATE_BLOCKED_LOG.read_text(encoding="utf-8", errors="ignore").splitlines():
-            line = ln.strip()
-            if not line or "｜" not in line:
-                continue
-            h = _sha256(line)
-            if h not in known:
-                known.add(h)
-                new_lines.append(line)
+        raw_lines = GATE_BLOCKED_LOG.read_text(encoding="utf-8", errors="ignore").splitlines()
     except OSError:
         return []
-    state["gate_seen"] = sorted(known)[-500:]
-    return new_lines
+
+    # 聚合成记录：时间戳锚定新记录，其余非空行并入上一条
+    records: list[str] = []
+    for ln in raw_lines:
+        line = ln.strip()
+        if not line:
+            continue
+        if _GATE_REC_START_RE.match(line):
+            records.append(line)
+        elif records:
+            records[-1] += " / " + line  # 续行压成单行，保 board 一行一记录结构
+        # 首个记录前的孤儿行（历史残片）跳过
+    records = [r for r in records if "｜" in r]
+
+    # #562 迁移：仅当旧行级方案的 gate_seen 存在时才静默吸收存量（它们已被旧方案
+    # 逐行见过+通知过），防升级后首跑重报/重登记风暴；全新状态（无 gate_seen）直接正常扫描
+    if "gate_seen_v2" not in state and "gate_seen" in state:
+        state["gate_seen_v2"] = sorted(_sha256(r) for r in records)[-500:]
+        return []
+
+    seen = state.setdefault("gate_seen_v2", [])
+    known = set(seen)
+    new_records = []
+    for rec in records:
+        h = _sha256(rec)
+        if h not in known:
+            known.add(h)
+            new_records.append(rec)
+    state["gate_seen_v2"] = sorted(known)[-500:]
+    return new_records
 
 
 def _update_proposal_board_gate(new_lines: list[str]) -> None:

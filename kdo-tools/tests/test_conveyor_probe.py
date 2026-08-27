@@ -635,3 +635,53 @@ def test_decision_section_anchor_ignores_inline_quote(tmp_path, monkeypatch):
     _write_queue_556(queue, ["| 400 | `task_20260827_i-anchor` | t | reviewed | huangyaoshi | x | 无 | t.md | 无 |"])
     row = {"raw": "| 400 | `task_20260827_i-anchor` | t | reviewed | huangyaoshi | x | 无 | t.md | 无 |"}
     assert probe._decision_hit("task_20260827_i-anchor", row) is None
+
+
+# ── #562 任务3：第五探针多行记录聚合回归 ──
+
+def test_gate_blocked_multiline_record_aggregates(tmp_path, monkeypatch):
+    """E040 多行拦截消息（reason 内嵌换行）= 1 条记录，续行不切成独立残片。"""
+    gb = tmp_path / "gate-blocked.log"
+    gb.write_text(
+        "2026-08-27 23:34:56｜task_559｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：未 commit=未发生\n"
+        "  - untracked: kdo/health_check.py\n"
+        "  - untracked: tests/test_health.py｜huangyaoshi\n"
+        "2026-08-28 00:17:00｜role-liveness｜huangyaoshi 全实例疑似死亡｜role_registry check-liveness｜role_registry\n",
+        encoding="utf-8")
+    monkeypatch.setattr(probe, "GATE_BLOCKED_LOG", gb)
+
+    state = {}
+    first = probe._scan_gate_blocked(state)
+    assert len(first) == 2  # 2 条记录，不是 4 行
+    assert "untracked" in first[0]  # 续行并入首记录（压单行）
+    assert first[0].count("untracked") == 2
+    assert probe._scan_gate_blocked(state) == []  # 幂等
+
+    queue = tmp_path / "production-queue.md"
+    queue.write_text(f"# 队列\n\n{probe.PROPOSAL_BEGIN}\n{probe.PROPOSAL_END}\n", encoding="utf-8")
+    monkeypatch.setattr(probe, "QUEUE_FILE", queue)
+    probe._update_proposal_board_gate(first)
+    text = queue.read_text(encoding="utf-8")
+    assert "[gate-blocked] task_559" in text
+    assert "[gate-blocked] role-liveness" in text
+    assert "untracked: kdo/health_check.py｜" not in text  # 无续行残片独立登记
+    for ln in text.splitlines():
+        if ln.startswith("- [gate-blocked]"):
+            assert "\n" not in ln  # board 一行一记录
+
+
+def test_gate_blocked_v1_to_v2_migration_absorbs_silently(tmp_path, monkeypatch):
+    """旧行级方案升级：gate_seen 存在 → 首跑静默吸收存量（防重报风暴）；后续新增正常报。"""
+    gb = tmp_path / "gate-blocked.log"
+    old = "2026-08-27 20:00｜task_555｜E040｜历史拦截｜huangyaoshi\n"
+    gb.write_text(old, encoding="utf-8")
+    monkeypatch.setattr(probe, "GATE_BLOCKED_LOG", gb)
+
+    state = {"gate_seen": ["some-old-line-hash"]}  # 旧方案遗留键
+    assert probe._scan_gate_blocked(state) == []  # 迁移首跑静默吸收
+    assert "gate_seen_v2" in state
+
+    with gb.open("a", encoding="utf-8") as f:
+        f.write("2026-08-28 01:00｜task_562｜E040｜新拦截｜laowantong\n")
+    new = probe._scan_gate_blocked(state)
+    assert len(new) == 1 and "task_562" in new[0]  # 新增正常上浮
