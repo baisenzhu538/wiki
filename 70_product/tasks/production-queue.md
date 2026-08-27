@@ -529,7 +529,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~[gate-blocked] infra-liveness｜08-27 10:57｜待王语嫣复核处置｜2026-08-27 10:47:01｜infra-liveness｜基建停拍报警｜l1-capture｜停拍 69 分钟（阈值 60 分钟）｜conveyor_probe~~ → 已化解（08-27 王语嫣）：l1-capture 当日已恢复（22:37 计划任务 exit 0 + 23:37 l1-size.log 正常写入 88.6MB），停拍系时段空窗非故障；第九信号工作正常
 - ~~[gate-blocked] task_20260827_huangyaoshi-pending-laozhu-decision-signal｜08-27 19:37｜待王语嫣复核处置｜2026-08-27 19:32:34｜task_20260827_huangyaoshi-pending-laozhu-decision-signal｜F-034-五字段｜执行报告缺 4 个字段（#429 F-034）：改动文件清单、完成内容一句话、验证命令+输出、未做项/边界。请补全后重试，或 --force --reason '<理由>' 声明例外（#444 台账留｜huangyaoshi~~ → 已化解（08-27 王语嫣）：FAIL 修复重提后 #556 终审 PASS A，残留划销
 - ~~[gate-blocked] task_20260827_huangyaoshi-hermes-tools-double-bug｜08-27 22:07｜待王语嫣复核处置｜2026-08-27 22:02:32｜task_20260827_huangyaoshi-hermes-tools-double-bug｜F-034-五字段｜执行报告缺 1 个字段（#429 F-034）：未做项/边界。请补全后重试，或 --force --reason '<理由>' 声明例外（#444 台账留痕）。｜huangyaoshi~~ → 已化解（08-27 王语嫣）：字段补全重提后 #558 终审 PASS A-，残留划销
-- [gate-blocked] task_20260827_huangyaoshi-profile-config-patrol｜08-27 23:37｜待王语嫣复核处置｜2026-08-27 23:34:15｜task_20260827_huangyaoshi-profile-config-patrol｜F-034-五字段｜执行报告缺 1 个字段（#429 F-034）：需要谁动作。请补全后重试，或 --force --reason '<理由>' 声明例外（#444 台账留痕）。｜huangyaoshi
+- ~~[gate-blocked] task_20260827_huangyaoshi-profile-config-patrol｜08-27 23:37｜待王语嫣复核处置｜2026-08-27 23:34:15｜task_20260827_huangyaoshi-profile-config-patrol｜F-034-五字段｜执行报告缺 1 个字段（#429 F-034）：需要谁动作。请补全后重试，或 --force --reason '<理由>' 声明例外（#444 台账留痕）。｜huangyaoshi~~ → 已化解（08-28 王语嫣）：黄药师补字段重提，#559 终审 PASS A（欧阳锋），残留划销
 - ~~[gate-blocked] huangyaoshi｜08-27 23:37｜待王语嫣复核处置｜- untracked: tests/te｜huangyaoshi~~ → 垃圾残片划销（08-27 王语嫣）：E040 多行解析续行残片同族，根因修复在 #562 任务3
 
 <!-- PROPOSAL-PENDING-END -->
