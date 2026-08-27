@@ -1,5 +1,4 @@
 {
-  "_damage_note": "【#566 损坏标注 2026-08-28】本文件 note 族字段（gap_note/missing_note/inferred_from_oral_note/c3_reconciliation）及 features F097-F100 name 已不可逆损坏：GB18030 误解码+replace 写入致 U+FFFD 替换字符固化（全文件 25000+ 处），内容以口述稿为准。考古结论：损坏早于入库——git 首提交 c7fe7be4c（2026-08-09 00:54）即带 FFFD，全部 5 个历史版本均损坏，无干净版本可恢复；v0.9/v1.0 同字段为同源复制，同样损坏（修复它们超出 #566 边界）。features 数组主体机器可读不受影响。",
   "version": "V0.8",
   "total": 100,
   "features": [
