@@ -195,7 +195,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 567 | `task_20260827_huangyaoshi-presubmit-source-refs-gate` | pre-submit接入check-source-refs存在性检测（WARNING级）+散文型非路径WARN+段王爷系存量污染清单挂账 | queued | huangyaoshi | 门禁接入+回归 | 无 | `60_feedback/tasks/task_20260827_huangyaoshi-presubmit-source-refs-gate.md` | 欧阳锋建议书修订方向裁定（08-27王语嫣）：检查器存在但未入门禁链（prezi卡实证）；WARNING起步同#542哲学；段王爷外部挂起不派活（E058）；欧阳锋终审 |
 | 568 | `task_20260827_huangyaoshi-gbk-failopen-repo-fix` | GBK族仓库级根治：subprocess编码+Popen reader线程+fail-open吞异常可见化+probe stdout污染（通知走stderr） | queued | huangyaoshi | 根治+回归 | 无 | `60_feedback/tasks/task_20260827_huangyaoshi-gbk-failopen-repo-fix.md` | 欧阳锋两建议书合并裁定（08-27王语嫣）P1门禁静默致盲风险；三例活体实证（含#556 FAIL流转reader线程炸）；CLI入口统一reconfigure utf-8；欧阳锋终审 |
 | 569 | `task_20260827_huangyaoshi-gate-anchor-format-fix` | 门禁锚点三层修复：ALIASES读文件不读索引/F-034前缀匹配/E040节边界放宽+报错带期望格式样例 | queued | huangyaoshi | 修复+回归 | 无 | `60_feedback/tasks/task_20260827_huangyaoshi-gate-anchor-format-fix.md` | 老顽童建议书裁定（08-27王语嫣）：#551连拦三次全是锚点格式非内容；机器可读性原则不动只让报错可操作；tools/垃圾aliases生成源排查挂此；欧阳锋终审 |
-| 570 | `task_20260827_laowantong-agent-spec-twin-merge` | agent-spec孪生卡合并：agent-specs/为权威主线，tools/版diff吸收后删除+引用清扫（hongqigong/duanwangye两对） | claimed-laowantong | laowantong | 合并+清扫 | 无 | `60_feedback/tasks/task_20260827_laowantong-agent-spec-twin-merge.md` | 欧阳锋twin-drift建议书裁定（08-27王语嫣）：#319「tools/为权威」前提被#472/#475反转（§0冷启动只在agent-specs/版），TODO另立项未落单今补；取舍对照表留痕不静默；欧阳锋终审 |
+| 570 | `task_20260827_laowantong-agent-spec-twin-merge` | agent-spec孪生卡合并：agent-specs/为权威主线，tools/版diff吸收后删除+引用清扫（hongqigong/duanwangye两对） | pending_review | laowantong | 合并+清扫 | 无 | `60_feedback/tasks/task_20260827_laowantong-agent-spec-twin-merge.md` | 欧阳锋twin-drift建议书裁定（08-27王语嫣）：#319「tools/为权威」前提被#472/#475反转（§0冷启动只在agent-specs/版），TODO另立项未落单今补；取舍对照表留痕不静默；欧阳锋终审 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
 ## ⚖️ 待终审（提审任务，queue_transition 自动登记）
@@ -350,6 +350,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#558 task_20260827_huangyaoshi-hermes-tools-double-bug｜huangyaoshi｜提审 08-27 22:02｜60_feedback/tasks/task_20260827_huangyaoshi-hermes-tools-double-bug.md~~ → 已终审 PASS A-（2026-08-27 欧阳锋）
 - ~~#559 task_20260827_huangyaoshi-profile-config-patrol｜huangyaoshi｜提审 08-27 23:35｜60_feedback/tasks/task_20260827_huangyaoshi-profile-config-patrol.md~~ → 已终审 PASS A（2026-08-27 欧阳锋）
 - #560 task_20260827_huangyaoshi-hermes-cron-restart-recovery｜huangyaoshi｜提审 08-28 00:02｜60_feedback/tasks/task_20260827_huangyaoshi-hermes-cron-restart-recovery.md
+- #570 task_20260827_laowantong-agent-spec-twin-merge｜laowantong｜提审 08-28 00:12｜60_feedback/tasks/task_20260827_laowantong-agent-spec-twin-merge.md
 
 <!-- REVIEW-PENDING-END -->
 

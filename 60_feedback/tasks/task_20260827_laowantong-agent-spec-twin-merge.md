@@ -1,8 +1,8 @@
 ---
 id: 570
 assignee: laowantong
-status: in_progress
-updated_at: '2026-08-27T16:01:25.610490+00:00'
+status: pending_review
+updated_at: '2026-08-27T16:12:58.154821+00:00'
 version: v0.1
 instance: laowantong
 code_files:
@@ -84,3 +84,17 @@ code_files:
 | related | dk-publish-collapse-to-iterate×2 重复 | 无重复 | 机械去重 |
 | tags | 文章/卡片 | capabilities/content/outputs | 留主线 |
 | 正文 | 与 tools/ 逐字节一致 + 终审记录节 | — | 主线保留 |
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 5 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+🟡 ⚠️ 意见书含宽负向词（无/缺）无核查锚点——按需人工确认（#433 不硬杀）；锚点：⚪ 无锚点
