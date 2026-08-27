@@ -42,6 +42,7 @@
 
 ## 零、启动动作（5 步，5 分钟）
 
+0. **🆕 本地 CLI 实例先装门铃**（kimi-cli 会话，2026-08-28 黄药师立）→ `CronList` 查自己的临时时钟在不在；**不在就立即 `CronCreate` 重建**：每 15min 一拍，prompt=「读 `90_control/todos/<角色>.md` 未读段 + `python 90_control/scripts/queue_transition.py myqueue <角色>`，有事施工无事待命」。会话级 cron 随会话死——**换会话=时钟丢，自己装回来，不等谁提醒**（08-26 黄药师时钟巡航 v2 随旧会话死亡、新会话聋了 5 小时的实证）。系统级 role_clock 只落盘不叫进程，门铃是本地实例自己的责任。#565 落地后以其机制为准
 1. **确认你是谁** → 读 `.agent/<角色>-context.md`（不知道角色？先读 `90_control/AGENTS.md` 判断）
 2. **🆕 读 Vault 实时状态** → `Read 90_control/vault-status.md`（一页纸：域×类型矩阵 + 最近 48h 变更 + 质量提示。**审查/裁决前必读，避免基于过时信息做判断**）
 3. **🆕 读知识库进化方向** → `Read .agent/kb-evolution-direction.md`（当前进化方向、方法论、各角色职责）
