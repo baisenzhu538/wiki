@@ -11,7 +11,10 @@ domain:
 author: 黄药师
 reviewed_by: 待审
 created_at: '2026-07-21'
-updated_at: '2026-07-21'
+updated_at: '2026-08-28'
+aliases:
+- 内容发布与渠道分发引擎
+- 段王爷
 quality_labels:
 - actionable
 source_refs:
@@ -33,7 +36,6 @@ related:
 - '[[agent-spec-ouyangfeng-reviewer]]'
 - '[[case-duanwangye-self-iteration-closed-loop]]'
 - '[[dk-publish-collapse-to-iterate]]'
-- '[[dk-publish-collapse-to-iterate]]'
 - agent-spec-fengqingyang-observer
 tags:
   - audience:executor
@@ -47,6 +49,8 @@ discoverable_by:
 - 渠道分发
 - KDO发布
 - 飞书发布
+- 段王爷 Publisher Agent — KDO 内容发布
+- 内容发布与渠道分发引擎
 ---
 
 # 段王爷 Publisher Agent — KDO 内容发布与渠道分发引擎

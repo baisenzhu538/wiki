@@ -1800,8 +1800,6 @@ _Last updated: 2026-08-22T03:30:22+00:00_
 - [[tools/agent-spec-coaching-leadership-assistant|「Agent Spec：教练式领导力助理——五阶梯定位+硬币诊断+沟通话术（TCPR 角色可切换）」]] — source `30_wiki/workflows/workflow-kdo-agent-production-pipeline.md`
 - [[tools/agent-spec-codex-teammate|Codex 队友式使用规范]] — source `00_inbox/AI前哨站第2集/AI前哨站第2集-水水拆书.md`
 - [[tools/agent-spec-dual-triangle-canvas-filler|双三角画布填充 Agent（对话教练版）v4]] — source `00_inbox/人机协作双三角/YAI双三角agent对话记录.md`
-- [[tools/agent-spec-duanwangye-publisher|段王爷 Publisher Agent — KDO 内容发布与渠道分发引擎]] — source `.agent/duanwangye-context.md`
-- [[tools/agent-spec-hongqigong-multimodal|洪七公 Multimodal Agent — KDO 多模态渲染与视觉资产生产引擎]] — source `.agent/hongqigong-context.md`
 - [[tools/agent-spec-meeting-assistant|「Agent Spec：科学开会助理——该不该开+冰山画布+原则匹配+可照抄话术」]] — source `30_wiki/workflows/workflow-kdo-agent-production-pipeline.md`
 - [[tools/agent-spec-project-management-assistant|项目管理助手 Agent（对话教练版）]] — source `00_inbox/管项目/项目管理-入门篇-口述.txt`
 - [[tools/agent-spec-research-explosion-partner|「Agent Spec：R 型爆炸式调研 Partner——五状态机饱和建模产出知识资产」]] — source `agents/research-explosion-partner/SPEC.md`

@@ -11,7 +11,10 @@ domain:
 author: 黄药师
 reviewed_by: 待审
 created_at: '2026-07-21'
-updated_at: '2026-07-21'
+updated_at: '2026-08-28'
+aliases:
+- 多模态渲染与视觉资产生产引擎
+- 洪七公
 quality_labels:
 - actionable
 source_refs:
@@ -37,7 +40,6 @@ related:
 - 'agent-spec-huangyaoshi-builder'
 - 'agent-spec-ouyangfeng-reviewer'
 - 'framework-truman-agent-team-architecture'
-- 'framework-truman-agent-team-architecture'
 - agent-spec-fengqingyang-observer
 tags:
   - audience:executor
@@ -51,6 +53,8 @@ discoverable_by:
 - 视觉资产
 - ComfyUI
 - 视频生产
+- 洪七公 Multimodal Agent — KDO 多模态
+- 多模态渲染与视觉资产生产引擎
 ---
 
 # 洪七公 Multimodal Agent — KDO 多模态渲染与视觉资产生产引擎
