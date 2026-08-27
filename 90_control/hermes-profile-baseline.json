@@ -1,0 +1,129 @@
+{
+  "_meta": {
+    "version": "1.0",
+    "created": "2026-08-27",
+    "task": "#559",
+    "note": "profile config baseline after approvals.mode stopgap; patrol reports drift, never auto-fixes"
+  },
+  "profiles": {
+    "appdata/basic-skills-coach": {
+      "approvals.mode": "smart",
+      "approvals.timeout": 60,
+      "approvals.cron_mode": null,
+      "command_allowlist": null
+    },
+    "appdata/beikai": {
+      "approvals.mode": "smart",
+      "approvals.timeout": 60,
+      "approvals.cron_mode": "deny",
+      "command_allowlist": []
+    },
+    "appdata/coaching-leadership-assistant": {
+      "approvals.mode": "smart",
+      "approvals.timeout": 60,
+      "approvals.cron_mode": null,
+      "command_allowlist": null
+    },
+    "appdata/duanwangye": {
+      "approvals.mode": "smart",
+      "approvals.timeout": 60,
+      "approvals.cron_mode": "deny",
+      "command_allowlist": [
+        "stop/restart system service",
+        "kill hermes/gateway process (self-termination)",
+        "script execution via heredoc",
+        "git force push (rewrites remote history)",
+        "start gateway outside systemd (use 'systemctl --user restart hermes-gateway')",
+        "script execution via -e/-c flag"
+      ]
+    },
+    "appdata/huangyaoshi": {
+      "approvals.mode": "smart",
+      "approvals.timeout": 60,
+      "approvals.cron_mode": "deny",
+      "command_allowlist": []
+    },
+    "appdata/laowantong-feishu": {
+      "approvals.mode": "smart",
+      "approvals.timeout": 60,
+      "approvals.cron_mode": "deny",
+      "command_allowlist": []
+    },
+    "appdata/laowantong": {
+      "approvals.mode": "smart",
+      "approvals.timeout": 60,
+      "approvals.cron_mode": null,
+      "command_allowlist": [
+        "script execution via -e/-c flag"
+      ]
+    },
+    "appdata/meeting-assistant": {
+      "approvals.mode": "smart",
+      "approvals.timeout": 60,
+      "approvals.cron_mode": null,
+      "command_allowlist": null
+    },
+    "appdata/ouyangfeng": {
+      "approvals.mode": "smart",
+      "approvals.timeout": 60,
+      "approvals.cron_mode": "deny",
+      "command_allowlist": []
+    },
+    "appdata/research-explosion-partner": {
+      "approvals.mode": "smart",
+      "approvals.timeout": 60,
+      "approvals.cron_mode": null,
+      "command_allowlist": null
+    },
+    "appdata/wangyuyan": {
+      "approvals.mode": "smart",
+      "approvals.timeout": 60,
+      "approvals.cron_mode": "deny",
+      "command_allowlist": []
+    },
+    "home/basic-skills-coach": {
+      "approvals.mode": "smart",
+      "approvals.timeout": 60,
+      "approvals.cron_mode": null,
+      "command_allowlist": null
+    },
+    "home/coaching-leadership-assistant": {
+      "approvals.mode": "smart",
+      "approvals.timeout": 60,
+      "approvals.cron_mode": null,
+      "command_allowlist": null
+    },
+    "home/hongqigong": {
+      "approvals.mode": "smart",
+      "approvals.timeout": 60,
+      "approvals.cron_mode": "deny",
+      "command_allowlist": [
+        "stop/restart system service",
+        "kill hermes/gateway process (self-termination)",
+        "script execution via heredoc",
+        "git force push (rewrites remote history)",
+        "start gateway outside systemd (use 'systemctl --user restart hermes-gateway')",
+        "script execution via -e/-c flag"
+      ]
+    },
+    "home/laowantong": {
+      "approvals.mode": "smart",
+      "approvals.timeout": 60,
+      "approvals.cron_mode": "deny",
+      "command_allowlist": [
+        "stop/restart system service",
+        "kill hermes/gateway process (self-termination)",
+        "script execution via heredoc",
+        "git force push (rewrites remote history)",
+        "start gateway outside systemd (use 'systemctl --user restart hermes-gateway')",
+        "script execution via -e/-c flag"
+      ]
+    },
+    "home/meeting-assistant": {
+      "approvals.mode": "smart",
+      "approvals.timeout": 60,
+      "approvals.cron_mode": null,
+      "command_allowlist": null
+    }
+  }
+}
