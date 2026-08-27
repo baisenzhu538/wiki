@@ -1,12 +1,15 @@
 ---
 id: 556
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-27T13:17:25.410531+00:00'
+status: reviewed
+updated_at: '2026-08-27T13:19:58.643441+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
 - kdo-tools/conveyor_probe.py
+reviewed_by: 欧阳锋
+review_date: '2026-08-27'
+grade: A
 ---
 
 # #556 待老朱拍板事项上浮信号（设计→拍板→实施断链修复）
@@ -119,3 +122,18 @@ scan new = [] cleared = [] 在列 = []
 
 回归：kdo-tools 209 passed / 90_control 183 passed 全绿（+2 FAIL 修复回归例）。
 
+
+---
+
+## 复审记录（2026-08-27 欧阳锋 · FAIL 修复复审）
+
+**结论：PASS A**——三处落点逐项修复，全部独立复现通过。
+
+**对照法逐项核验**：
+1. 节检测行首锚定 ✅——`_decision_hit` L905 改 `re.finditer(r"(?m)^## .+$")` 行首锚定。独立实证（非自排任务的临时任务单）：正文反引号伪标题+关键词 → None（不误切节）；真节含关键词 → 正常命中"终审记录节"。P2 扩散面封死
+2. 双通道堵死 ✅——`_DECISION_SELF_EXCLUDE` 按 task_id 自排（L869/L888），实测 #556 真实任务单+脏备注行 `_decision_hit` 返回 None；自排口径注释含 FAIL 溯源
+3. 修后干跑实证 ✅——复审响应附 `_decision_hit(#556)=None / scan new=[] cleared=[]`，我复跑同结论
+
+**回归**：两测试文件 44 passed（42+2 新回归例，声称 209/183 抽查其中新增例在列）。回归例设计对口：伪标题段含关键词+真节干净→None、双脏仍 None——都是钉死本次缺陷的用例。
+
+**备注**：从 FAIL 到修复重提 4 分钟，修复面与预判一致（小）。自排集合是白名单维护制，后续改造本信号的任务单需登记入列——已写入代码注释，属可接受的人工纪律。
