@@ -64,3 +64,339 @@
 2026-08-26 21:00:20｜task_20260826_huangyaoshi-vlm-card-two-section｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
   - untracked: kdo/pre_submit.py
   - untracked: tests/test｜huangyaoshi
+2026-08-27 00:23:13｜task_20260826_huangyaoshi-source-refs-debt｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
+  - untracked: tests/test_check_source_refs.py
+  - untrack｜huangyaoshi
+2026-08-27 01:34:42｜task_20260827_laowantong-audit-maxims-card｜F-034-五字段｜执行报告缺 4 个字段（#429 F-034）：完成内容一句话、验证命令+输出、未做项/边界、需要谁动作。请补全后重试，或 --force --reason '<理由>' 声明例外（#444 台账留痕｜laowantong
+2026-08-27 01:35:44｜task_20260827_laowantong-audit-maxims-card｜F-034-五字段｜执行报告缺 4 个字段（#429 F-034）：改动文件清单、完成内容一句话、验证命令+输出、未做项/边界。请补全后重试，或 --force --reason '<理由>' 声明例外（#444 台账留｜laowantong
+2026-08-27 01:36:05｜task_20260827_laowantong-audit-maxims-card｜F-034-五字段｜执行报告缺 4 个字段（#429 F-034）：改动文件清单、完成内容一句话、验证命令+输出、未做项/边界。请补全后重试，或 --force --reason '<理由>' 声明例外（#444 台账留｜laowantong
+2026-08-27 01:40:26｜task_20260827_laowantong-audit-maxims-card｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
+  - untracked: kdo pre-submit -f 30_wiki/frameworks/framew｜laowantong
+2026-08-27 01:56:14｜task_20260827_laowantong-audit-maxims-card｜F-035-负向判词｜意见书含负向断言（缺失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋
+2026-08-27 02:36:19｜task_20260826_huangyaoshi-instance-identity-registry｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
+  - untracked: .kdo/active-instances.json
+补救：git add <路径> ｜huangyaoshi
+2026-08-27 04:39:18｜task_20260826_huangyaoshi-token-metering｜F-036-问题落点｜审查发现问题未给落点（F-036）：- 预审 🟡 预标注核验：「零/空」为首日数据如实描述（hermes 今日零新会话），成立 ✅——必须在意见书注明去向（建议书路径 / 停车场 F-xxx / 任务｜欧阳锋
+2026-08-27 07:42:01｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 133.5), ('cli', 49.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 07:57:01｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 148.5), ('cli', 64.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 07:57:01｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 62.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 08:02:01｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 153.5), ('cli', 69.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 08:02:01｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 67.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 08:22:01｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 173.5), ('cli', 89.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 08:22:01｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 73.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 08:22:01｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 87.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 08:27:01｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 178.5), ('cli', 94.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 08:27:01｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 78.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 08:27:01｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 92.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 08:37:01｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 188.5), ('cli', 104.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 08:37:01｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 88.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 08:37:01｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 102.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 08:42:01｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 193.5), ('cli', 109.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 08:42:01｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 93.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 08:42:01｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 107.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 08:57:01｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 208.5), ('cli', 124.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 08:57:01｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 108.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 08:57:01｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 122.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 08:57:01｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 208.5), ('cli', 124.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 08:57:01｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 108.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 08:57:01｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 122.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 09:12:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 223.5), ('cli', 139.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 09:12:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 123.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 09:12:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 137.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 09:32:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 143.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 09:32:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 157.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 09:41:02｜task_20260826_ouyangfeng-depended-draft-batch-review｜F-034-五字段｜任务单缺少「## 执行报告」节（#429 F-034：交付必须落执行报告，口头完成=未完成；#444：evidence 附件不能替代）｜ouyangfeng
+2026-08-27 09:42:01｜task_20260826_ouyangfeng-depended-draft-batch-review｜F-034-五字段｜执行报告缺 2 个字段（#429 F-034）：改动文件清单、未做项/边界。请补全后重试，或 --force --reason '<理由>' 声明例外（#444 台账留痕）。｜ouyangfeng
+2026-08-27 09:42:28｜task_20260826_ouyangfeng-depended-draft-batch-review｜F-034-五字段｜执行报告缺 2 个字段（#429 F-034）：改动文件清单、未做项/边界。请补全后重试，或 --force --reason '<理由>' 声明例外（#444 台账留痕）。｜ouyangfeng
+2026-08-27 09:47:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 258.5), ('cli', 34.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 09:47:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 172.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 10:02:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 273.5), ('cli', 49.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 10:02:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 187.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 10:02:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 273.5), ('cli', 49.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 10:02:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 187.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 10:22:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 293.5), ('cli', 69.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 10:22:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 207.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 10:32:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 303.5), ('cli', 79.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 10:32:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 217.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 10:42:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 313.5), ('cli', 89.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 10:42:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 213.1), ('cli', 62.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 10:42:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 227.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 10:47:01｜infra-liveness｜基建停拍报警｜l1-capture｜停拍 69 分钟（阈值 60 分钟）｜conveyor_probe
+2026-08-27 10:52:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 323.5), ('cli', 99.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 10:52:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 223.1), ('cli', 72.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 10:52:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 237.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 10:57:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 328.5), ('cli', 104.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 10:57:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 228.1), ('cli', 77.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 10:57:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 242.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 11:07:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 338.5), ('cli', 114.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 11:07:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 238.1), ('cli', 87.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 11:07:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 252.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 11:07:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 338.5), ('cli', 114.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 11:07:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 238.1), ('cli', 87.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 11:07:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 252.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 11:17:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 348.5), ('cli', 124.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 11:17:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 248.1), ('cli', 97.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 11:17:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 262.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 11:17:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 348.5), ('cli', 124.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 11:17:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 248.1), ('cli', 97.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 11:17:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 262.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 11:27:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 358.5), ('cli', 134.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 11:27:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 258.1), ('cli', 107.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 11:27:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 272.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 11:32:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 363.5), ('cli', 139.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 11:32:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 263.1), ('cli', 112.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 11:32:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 277.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 11:37:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 368.5), ('cli', 144.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 11:37:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 268.1), ('cli', 117.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 11:37:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 282.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 11:37:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 368.5), ('cli', 144.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 11:37:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 268.1), ('cli', 117.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 11:37:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 282.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 11:47:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 378.5), ('cli', 154.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 11:47:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 278.1), ('cli', 127.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 11:47:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 292.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 11:47:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 378.5), ('cli', 154.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 11:47:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 278.1), ('cli', 127.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 11:47:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 292.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 12:02:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 393.5), ('cli', 169.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 12:02:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 293.1), ('cli', 142.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 12:02:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 307.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 12:07:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 398.5), ('cli', 174.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 12:07:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 298.1), ('cli', 147.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 12:07:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 312.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 12:07:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 398.5), ('cli', 174.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 12:07:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 298.1), ('cli', 147.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 12:07:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 312.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 12:12:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 403.5), ('cli', 179.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 12:12:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 303.1), ('cli', 152.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 12:12:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 317.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 12:22:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 413.5), ('cli', 189.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 12:22:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 313.1), ('cli', 162.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 12:22:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 327.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 12:22:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 413.5), ('cli', 189.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 12:22:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 313.1), ('cli', 162.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 12:22:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 327.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 12:32:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 423.5), ('cli', 199.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 12:32:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 323.1), ('cli', 172.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 12:32:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 337.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 12:37:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 428.5), ('cli', 204.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 12:37:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 328.1), ('cli', 177.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 12:37:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 342.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 12:37:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 428.5), ('cli', 204.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 12:37:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 328.1), ('cli', 177.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 12:37:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 342.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 12:42:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 433.5), ('cli', 209.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 12:42:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 333.1), ('cli', 182.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 12:42:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 347.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 12:52:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 443.5), ('cli', 219.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 12:52:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 343.1), ('cli', 192.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 12:52:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 357.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 12:52:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 443.5), ('cli', 219.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 12:52:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 343.1), ('cli', 192.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 12:52:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 357.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 13:02:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 453.5), ('cli', 229.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 13:02:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 353.1), ('cli', 202.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 13:02:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 367.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 13:07:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 458.5), ('cli', 234.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 13:07:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 358.1), ('cli', 207.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 13:07:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 372.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 13:07:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 458.5), ('cli', 234.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 13:07:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 358.1), ('cli', 207.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 13:07:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 372.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 13:17:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 468.5), ('cli', 244.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 13:17:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 368.1), ('cli', 217.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 13:17:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 382.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 13:22:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 473.5), ('cli', 249.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 13:22:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 373.1), ('cli', 222.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 13:22:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 387.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 13:27:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 478.5), ('cli', 254.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 13:27:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 378.1), ('cli', 227.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 13:27:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 392.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 13:37:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 488.5), ('cli', 264.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 13:37:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 388.1), ('cli', 237.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 13:37:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 402.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 13:37:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 488.5), ('cli', 264.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 13:37:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 388.1), ('cli', 237.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 13:37:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 402.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 13:37:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 488.5), ('cli', 264.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 13:37:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 388.1), ('cli', 237.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 13:37:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 402.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 13:47:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 498.5), ('cli', 274.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 13:47:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 398.1), ('cli', 247.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 13:47:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 412.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 13:52:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 503.5), ('cli', 279.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 13:52:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 403.1), ('cli', 252.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 13:52:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 417.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 14:02:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 513.5), ('cli', 289.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 14:02:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 413.1), ('cli', 262.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 14:02:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 427.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 14:07:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 518.5), ('cli', 294.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 14:07:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 418.1), ('cli', 267.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 14:07:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 432.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 14:07:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 518.5), ('cli', 294.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 14:07:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 418.1), ('cli', 267.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 14:07:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 432.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 14:12:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 523.5), ('cli', 299.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 14:12:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 423.1), ('cli', 272.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 14:12:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 437.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 14:22:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 533.5), ('cli', 309.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 14:22:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 433.1), ('cli', 282.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 14:22:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 447.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 14:22:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 533.5), ('cli', 309.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 14:22:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 433.1), ('cli', 282.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 14:22:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 447.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 14:32:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 543.5), ('cli', 319.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 14:32:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 443.1), ('cli', 292.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 14:32:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 457.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 14:37:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 548.5), ('cli', 324.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 14:37:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 448.1), ('cli', 297.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 14:37:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 462.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 14:42:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 553.5), ('cli', 329.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 14:42:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 453.1), ('cli', 302.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 14:42:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 467.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 14:47:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 558.5), ('cli', 334.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 14:47:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 458.1), ('cli', 307.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 14:47:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 472.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 14:57:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 568.5), ('cli', 344.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 14:57:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 468.1), ('cli', 317.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 14:57:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 482.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 15:02:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 573.5), ('cli', 349.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 15:02:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 473.1), ('cli', 322.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 15:02:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 487.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 15:07:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 578.5), ('cli', 354.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 15:07:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 478.1), ('cli', 327.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 15:07:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 492.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 15:07:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 578.5), ('cli', 354.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 15:07:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 478.1), ('cli', 327.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 15:07:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 492.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 15:17:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 588.5), ('cli', 364.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 15:17:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 488.1), ('cli', 337.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 15:17:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 502.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 15:22:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 593.5), ('cli', 369.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 15:22:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 493.1), ('cli', 342.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 15:22:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 507.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 15:27:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 598.5), ('cli', 374.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 15:27:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 498.1), ('cli', 347.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 15:27:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 512.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 15:37:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 608.5), ('cli', 384.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 15:37:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 508.1), ('cli', 357.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 15:37:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 522.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 15:42:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 613.5), ('cli', 389.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 15:42:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 513.1), ('cli', 362.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 15:42:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 527.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 15:42:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 613.5), ('cli', 389.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 15:42:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 513.1), ('cli', 362.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 15:42:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 527.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 15:57:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 628.5), ('cli', 404.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 15:57:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 528.1), ('cli', 377.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 15:57:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 542.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 15:57:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 628.5), ('cli', 404.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 15:57:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 528.1), ('cli', 377.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 15:57:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 542.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 16:07:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 638.5), ('cli', 414.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 16:07:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 538.1), ('cli', 387.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 16:07:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 552.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 16:12:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 643.5), ('cli', 419.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 16:12:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 543.1), ('cli', 392.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 16:12:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 557.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 16:12:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 643.5), ('cli', 419.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 16:12:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 543.1), ('cli', 392.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 16:12:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 557.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 16:22:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 653.5), ('cli', 429.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 16:22:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 553.1), ('cli', 402.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 16:22:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 567.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 16:32:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 663.5), ('cli', 439.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 16:32:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 563.1), ('cli', 412.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 16:32:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 577.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 16:32:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 663.5), ('cli', 439.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 16:32:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 563.1), ('cli', 412.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 16:32:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 577.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 16:37:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 668.5), ('cli', 444.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 16:37:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 568.1), ('cli', 417.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 16:37:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 582.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 16:47:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 678.5), ('cli', 454.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 16:47:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 578.1), ('cli', 427.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 16:47:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 592.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 16:52:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 683.5), ('cli', 459.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 16:52:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 583.1), ('cli', 432.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 16:52:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 597.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 16:57:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 688.5), ('cli', 464.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 16:57:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 588.1), ('cli', 437.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 16:57:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 602.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 17:07:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 698.5), ('cli', 474.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 17:07:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 598.1), ('cli', 447.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 17:07:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 612.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 17:07:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 698.5), ('cli', 474.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 17:07:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 598.1), ('cli', 447.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 17:07:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 612.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 17:07:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 698.5), ('cli', 474.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 17:07:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 598.1), ('cli', 447.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 17:07:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 612.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 17:22:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 713.5), ('cli', 489.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 17:22:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 613.1), ('cli', 462.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 17:22:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 627.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 17:22:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 713.5), ('cli', 489.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 17:22:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 613.1), ('cli', 462.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 17:22:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 627.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 17:32:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 723.5), ('cli', 499.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 17:32:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 623.1), ('cli', 472.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 17:32:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 637.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 17:37:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 728.5), ('cli', 504.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 17:37:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 628.1), ('cli', 477.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 17:37:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 642.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 17:42:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 733.5), ('cli', 509.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 17:42:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 633.1), ('cli', 482.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 17:42:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 647.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 17:47:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 738.5), ('cli', 514.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 17:47:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 638.1), ('cli', 487.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 17:47:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 652.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 17:57:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 748.5), ('cli', 524.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 17:57:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 648.1), ('cli', 497.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 17:57:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 662.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 17:57:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 748.5), ('cli', 524.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 17:57:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 648.1), ('cli', 497.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 17:57:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 662.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 18:07:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 758.5), ('cli', 534.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 18:07:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 658.1), ('cli', 507.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 18:07:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 672.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 18:12:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 763.5), ('cli', 539.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 18:12:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 663.1), ('cli', 512.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 18:12:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 677.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 18:12:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 763.5), ('cli', 539.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 18:12:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 663.1), ('cli', 512.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 18:12:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 677.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 18:27:01｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 778.5), ('cli', 554.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 18:27:01｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 678.1), ('cli', 527.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 18:27:01｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 692.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 18:27:01｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 778.5), ('cli', 554.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 18:27:01｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 678.1), ('cli', 527.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 18:27:01｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 692.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 18:37:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 788.5), ('cli', 564.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 18:37:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 688.1), ('cli', 537.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 18:37:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 702.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 18:42:01｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 793.5), ('cli', 569.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 18:42:01｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 693.1), ('cli', 542.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 18:42:01｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 707.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 18:42:01｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 793.5), ('cli', 569.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 18:42:01｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 693.1), ('cli', 542.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 18:42:01｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 707.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 18:57:01｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 808.5), ('cli', 584.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 18:57:01｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 708.1), ('cli', 557.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 18:57:01｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 722.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 19:02:01｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 813.5), ('cli', 589.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 19:02:01｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 713.1), ('cli', 562.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 19:02:01｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 727.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 19:07:01｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 818.5), ('cli', 594.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 19:07:01｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 718.1), ('cli', 567.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 19:07:01｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 732.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 19:07:01｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 818.5), ('cli', 594.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 19:07:01｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 718.1), ('cli', 567.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 19:07:01｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 732.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 19:17:01｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 828.5), ('cli', 604.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 19:17:01｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 728.1), ('cli', 577.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 19:17:01｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 742.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 19:17:01｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 828.5), ('cli', 604.5)]）｜role_registry check-liveness｜role_registry
+2026-08-27 19:17:01｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 728.1), ('cli', 577.1)]）｜role_registry check-liveness｜role_registry
+2026-08-27 19:17:01｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 742.6)]）｜role_registry check-liveness｜role_registry
+2026-08-27 19:20:53｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 832.4), ('cli', 608.3)]）｜role_registry check-liveness｜role_registry
+2026-08-27 19:20:53｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 732.0), ('cli', 580.9)]）｜role_registry check-liveness｜role_registry

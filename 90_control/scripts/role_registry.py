@@ -30,6 +30,26 @@ ROLE_PACE_MIN = {
 }
 DEFAULT_PACE_MIN = 30
 
+# #562 止血：报警冷却——同角色 2h 内不重复自报；恢复（有活口）后清零重新武装。
+# 只压频不删报：首次必报、恢复后再死必报。
+ALERT_COOLDOWN_SEC = 2 * 3600
+ALERT_STATE = ROOT / ".kdo" / "role-liveness-alert-state.json"
+
+
+def _load_alert_state() -> dict:
+    try:
+        data = json.loads(ALERT_STATE.read_text(encoding="utf-8"))
+        return data if isinstance(data, dict) else {}
+    except Exception:
+        return {}
+
+
+def _save_alert_state(state: dict) -> None:
+    ALERT_STATE.parent.mkdir(parents=True, exist_ok=True)
+    tmp = ALERT_STATE.with_suffix(".tmp")
+    tmp.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
+    tmp.replace(ALERT_STATE)
+
 
 def _load() -> dict:
     try:
@@ -90,16 +110,29 @@ def liveness(role: str, now: float | None = None, reg: dict | None = None) -> di
 
 def check_liveness(now: float | None = None) -> list[str]:
     """全角色扫描：已注册但全死 → gate-blocked.log 自报（#471 通道复用，不新造报警器）。
-    返回报警行列表（幂等由调用方/台账消费侧处理）。"""
+    #562：同角色 2h 冷却（ALERT_STATE 记 last_alert_ts），恢复后清零重新武装。
+    返回本次实际新报警的角色列表（冷却抑制的不在内）。"""
+    now = now or time.time()
     reg = _load()
+    state = _load_alert_state()
     alerts = []
+    suppressed = []
     lines = []
     for role in reg:
         lv = liveness(role, now=now, reg=reg)
-        if lv["registered"] and lv["all_dead"]:
-            line = f"role-liveness｜{role} 全实例疑似死亡（stale: {lv['stale']}）"
-            alerts.append(role)
-            lines.append(line)
+        if not lv["registered"]:
+            continue
+        if not lv["all_dead"]:
+            state.pop(role, None)  # 恢复 → 清零重新武装
+            continue
+        if role in state and now - float(state[role]) < ALERT_COOLDOWN_SEC:
+            suppressed.append(role)
+            continue
+        state[role] = now
+        line = f"role-liveness｜{role} 全实例疑似死亡（stale: {lv['stale']}）"
+        alerts.append(role)
+        lines.append(line)
+    _save_alert_state(state)
     if lines:
         ts = time.strftime("%Y-%m-%d %H:%M:%S")
         try:
@@ -107,7 +140,9 @@ def check_liveness(now: float | None = None) -> list[str]:
                 for ln in lines:
                     f.write(f"{ts}｜{ln}｜role_registry check-liveness｜role_registry\n")
         except OSError as e:
-            print(f"⚠️ gate-blocked 台账写入失败: {e}", file=sys.stderr)
+            print(f"[warn] gate-blocked 台账写入失败: {e}", file=sys.stderr)
+    if suppressed:
+        print(f"[info] 冷却抑制 {len(suppressed)} 角色（2h 内已报过）: {suppressed}")
     return alerts
 
 
@@ -128,7 +163,7 @@ def main() -> int:
     if args.cmd == "heartbeat":
         channels = args.channels.split(",") if args.channels else None
         e = heartbeat(args.role, args.tool, args.kind, args.session_scope, args.profile, channels)
-        print(f"✅ 心跳已写: {args.role}/{args.tool}（active={e['active']}，实例 {len(e['instances'])} 个）")
+        print(f"[ok] 心跳已写: {args.role}/{args.tool}（active={e['active']}，实例 {len(e['instances'])} 个）")
         return 0
     if args.cmd == "status":
         reg = _load()

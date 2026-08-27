@@ -20,6 +20,7 @@ def _wire(tmp_path, monkeypatch):
     ledger = tmp_path / "gate-blocked.log"
     monkeypatch.setattr(rr, "REGISTRY", reg)
     monkeypatch.setattr(rr, "GATE_BLOCKED_LOG", ledger)
+    monkeypatch.setattr(rr, "ALERT_STATE", tmp_path / "alert-state.json")
     return reg, ledger
 
 
@@ -72,3 +73,27 @@ def test_check_liveness_reports_all_dead(tmp_path, monkeypatch):
     text = ledger.read_text(encoding="utf-8")
     assert "role-liveness" in text and "huangyaoshi" in text
     assert "wangyuyan" not in text
+
+
+def test_check_liveness_cooldown_suppresses_repeat(tmp_path, monkeypatch):
+    """#562：同角色 2h 冷却——连跑 3 拍仅首拍报警；恢复清零后再死重新报警。"""
+    _, ledger = _wire(tmp_path, monkeypatch)
+    t0 = 1000.0
+    rr.heartbeat("huangyaoshi", "cli", now=t0)
+    dead = t0 + 60 * 60
+    a1 = rr.check_liveness(now=dead)                 # 首报
+    a2 = rr.check_liveness(now=dead + 5 * 60)        # 5min 后：冷却抑制
+    a3 = rr.check_liveness(now=dead + 30 * 60)       # 30min 后：仍抑制
+    assert a1 == ["huangyaoshi"] and a2 == [] and a3 == []
+    text = ledger.read_text(encoding="utf-8")
+    assert text.count("role-liveness") == 1
+    # 冷却期过后再报
+    a4 = rr.check_liveness(now=dead + 3 * 3600)
+    assert a4 == ["huangyaoshi"]
+    assert ledger.read_text(encoding="utf-8").count("role-liveness") == 2
+    # 恢复 → 清零重新武装：再死立即报不等冷却
+    rr.heartbeat("huangyaoshi", "cli", now=dead + 4 * 3600)
+    assert rr.check_liveness(now=dead + 4 * 3600) == []       # 活着不报
+    a5 = rr.check_liveness(now=dead + 5 * 3600)               # 又死 → 立即报
+    assert a5 == ["huangyaoshi"]
+    assert ledger.read_text(encoding="utf-8").count("role-liveness") == 3

@@ -44,6 +44,10 @@ UnicodeEncodeError（08-27 19:17 王语嫣实测——写入成功但 exit 1，F
 
 1. **止血（先行）**：`check_liveness` 加报警冷却——同角色报警后 2h 内不重报（state 记 last_alert_ts，
    恢复后清零重新武装）；台账行追加「(冷却中 N 次抑制)」汇总数，不丢信息
+   > ✅ 已完成（08-27 19:21 王语嫣应急止血先行，老朱被飞书轰炸直催）：冷却落 `.kdo/role-liveness-alert-state.json`，
+   > 恢复清零重新武装；抑制角色打 stdout 不落台账（汇总数方案简化为冷却窗内零新行）；GBK emoji print 一并修。
+   > 回归 6/6 过（新增 test_check_liveness_cooldown_suppresses_repeat）；活体两拍验证：首拍报 2 角色、次拍全抑制。
+   > 黄药师接手任务 2/3 + 终审流。
 2. **心跳语义修复（设计选择，倾向后者）**：
    - 方案 A：wake 投递成功即蹭拍 heartbeat——实现一行，但时钟活着≠agent 活着，liveness 失真
    - 方案 B（倾向）：消费回执=心跳——agent 处理 todos/时钟拍后由 queue_transition 或 myqueue 消费点蹭拍；
