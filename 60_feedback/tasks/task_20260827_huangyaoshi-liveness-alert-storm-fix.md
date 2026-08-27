@@ -36,6 +36,10 @@ role_clock（schtasks 5min）每拍调 `rr.check_liveness(now=ts)`（role_clock.
 第五探针按物理行解析 → 续行残片被登记成独立垃圾建议
 （队列 PROPOSAL-PENDING 区 `[gate-blocked] huangyaoshi｜- untrack`、`[gate-blocked] laowantong｜- untracked: kdo pre-submit -f...` 两条实证）。
 
+附带发现 2：role_registry.py heartbeat 确认输出的 ✅ emoji 在 GBK 控制台直接抛
+UnicodeEncodeError（08-27 19:17 王语嫣实测——写入成功但 exit 1，F-030 同族坑）；
+同文件所有 print 需过一遍非 ASCII 输出。
+
 ## 任务
 
 1. **止血（先行）**：`check_liveness` 加报警冷却——同角色报警后 2h 内不重报（state 记 last_alert_ts，
