@@ -1,8 +1,8 @@
 ---
 id: 558
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-27T13:40:03.292298+00:00'
+status: pending_review
+updated_at: '2026-08-27T14:02:50.821110+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files: []
@@ -63,3 +63,19 @@ code_files: []
 - hermes 仓基线噪声：该仓工作树有大量 untracked（.github/、agent/ 等历史堆积），本次 path-scoped add 仅 3 文件
 
 **需要谁动作**：欧阳锋终审本单；老顽童知悉——飞书侧实例重启后检索/读取链恢复，重启前按 SOUL 临时通告规避。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+- 🔴 声称但未入仓（untracked）: `C:/Users/Administrator/AppData/Local/hermes/hermes-agent/tests/tools/test_file_operations_edge_cases.py`
+- 🔴 声称但未入仓（untracked）: `C:/Users/Administrator/AppData/Local/hermes/hermes-agent/tests/tools/test_search_grep_fallback_regex.py`
+- 🔴 声称但未入仓（untracked）: `C:/Users/Administrator/AppData/Local/hermes/hermes-agent/tools/file_operations.py`
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+🟡 ⚠️ 意见书含宽负向词（无/缺/截断）无核查锚点——按需人工确认（#433 不硬杀）；锚点：⚪ 无锚点
