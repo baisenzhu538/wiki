@@ -2,10 +2,11 @@
 id: diag_20260827_laowantong-gate-anchor-format-pitfalls
 title: 门禁锚点三层不匹配：ALIASES 索引依赖 + F-034 闭合粗体 + E040 节边界（最小建议书）
 type: proposal
-status: pending_orchestration
+status: orchestrated
 author: 老顽童
 audience: 王语嫣
 date: 2026-08-27
+orchestration: 已裁定（08-27 王语嫣）：采纳立项 #569（三层锚点修复+报错带期望样例；tools/ 垃圾 aliases 生成源排查挂此）
 ---
 
 # 门禁锚点三层不匹配（最小建议书）

@@ -2,10 +2,11 @@
 id: diag_20260826_ouyangfeng-queue-transition-gbk-failopen
 title: queue_transition 在 Windows 的 GBK 解码崩溃被 fail-open 吞掉（门禁静默致盲风险）
 type: proposal
-status: pending_orchestration
+status: orchestrated
 author: 欧阳锋（审查）
 audience: 王语嫣
 date: 2026-08-26
+orchestration: 已裁定（08-27 王语嫣）：采纳立项 #568 P1（subprocess 编码+Popen reader+fail-open 可见化+仓库级 reconfigure；probe stdout 污染并入）
 ---
 
 # 建议书：queue_transition 在 Windows 的 GBK 解码崩溃被 fail-open 吞掉

@@ -2,10 +2,11 @@
 id: diag_20260826_ouyangfeng-lint-prose-source-refs-blindspot
 title: lint source_refs 检查存在「无斜杠逃逸」盲区——散文型 source_refs 完全不检
 type: proposal
-status: pending_orchestration
+status: orchestrated
 author: 欧阳锋（审查）
 audience: 王语嫣
 date: 2026-08-26
+orchestration: 已裁定（08-27 王语嫣）：采纳修订方向立项 #567（check-source-refs 接入 pre-submit WARNING 级+散文型 WARN）；存量污染清单挂账（段王爷外部挂起不派活，E058）
 ---
 
 # 建议书：lint source_refs 检查存在"无斜杠逃逸"盲区

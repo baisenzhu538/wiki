@@ -190,7 +190,12 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 562 | `task_20260827_huangyaoshi-liveness-alert-storm-fix` | liveness报警风暴止血：check_liveness幂等冷却（同角色2h）+心跳语义修复（消费回执=心跳）+第五探针多行解析 | queued | huangyaoshi | 止血+修复+回归 | #553 | `60_feedback/tasks/task_20260827_huangyaoshi-liveness-alert-storm-fix.md` | 老朱质询KDO秘书推送异常诊断（08-27王语嫣）：07:42起每5分钟误报25+条——活跃≠心跳（本人回话中被判死亡实证），时钟蹭拍设计有未实现；附带E040多行残片登记bug；只压频不删报；**任务1止血+GBK已由王语嫣19:21应急落地（回归6/6），本单剩任务2/3**；欧阳锋终审 |
 | 563 | `task_20260827_huangyaoshi-hermes-four-instance-clocks` | hermes飞书四实例时钟配置：ouyangfeng/huangyaoshi/wangyuyan三profile裸奔补齐+laowantong卡死恢复+心跳入注册表 | queued | huangyaoshi | 配置+心跳+回归 | #560 | `60_feedback/tasks/task_20260827_huangyaoshi-hermes-four-instance-clocks.md` | **老朱08-27直令**「飞书四个角色都需要配置时钟」；实证：三profile连cron/jobs.json都没有，唯一有的laowantong卡死08-26 22:30；节奏口径同#555（15/30/事件驱动+30兜底/15）；与#560同批施工分开commit；欧阳锋终审 |
 | 564 | `task_20260827_huangyaoshi-readfile-tail-exemption-tighten` | hermes read_file尾部U+FFFD豁免收紧：仅满采样截断时生效（对抗样本bytes(range(256))滑判漏洞） | queued | huangyaoshi | 收紧+回归 | #558 | `60_feedback/tasks/task_20260827_huangyaoshi-readfile-tail-exemption-tighten.md` | #558终审PASS A-观察项转办（08-27王语嫣）；欧阳锋一行修法随单；施工仓=hermes-agent外部仓；执行报告须自我披露语义代价；欧阳锋终审 |
-| 565 | `task_20260827_huangyaoshi-wake-payload-pending-detail` | 唤醒送达面断点修复：kimi-cli门铃机制（会话级最小cron恢复，只按门铃不调度）+唤醒载荷带待审明细 | queued | huangyaoshi | 门铃+载荷+回归 | 无 | `60_feedback/tasks/task_20260827_huangyaoshi-wake-payload-pending-detail.md` | 老朱质问#558延迟（08-27）；v0.2根因更正：#555停用会话cron后todos落盘≠会话唤醒，全角色CLI只靠人肉按门铃（王语嫣CronList实测0）；v0.1王语嫣误判载荷为主因被纠偏；与#555防双时钟协调口径=决策在系统级/门铃不决策；欧阳锋终审 |
+| 565 | `task_20260827_huangyaoshi-wake-payload-pending-detail` | 唤醒送达面断点修复：kimi-cli门铃机制（会话级最小cron恢复，只按门铃不调度）+唤醒载荷带待审明细 | queued | huangyaoshi | 门铃+载荷+回归 | 无 | `60_feedback/tasks/task_20260827_huangyaoshi-wake-payload-pending-detail.md` | 老朱质问#558延迟（08-27）；v0.2根因更正：#555停用会话cron后todos落盘≠会话唤醒，全角色CLI只靠人肉按门铃（王语嫣CronList实测0）；v0.1王语嫣误判载荷为主因被纠偏；欧阳锋送达面建议书并入任务3选型；与#555防双时钟协调口径=决策在系统级/门铃不决策；王语嫣门铃狗粮已跑（13,43）；欧阳锋终审 |
+| 566 | `task_20260827_huangyaoshi-feature-json-mojibake-repair` | feature-periodic-table-v0.8.json mojibake考古：git定位损坏时点，恢复或标注「以口述稿为准」 | queued | huangyaoshi | 考古+处置 | 无 | `60_feedback/tasks/task_20260827_huangyaoshi-feature-json-mojibake-repair.md` | 欧阳锋建议书裁定（08-27王语嫣）；P2；只动单文件不重造数据；欧阳锋终审 |
+| 567 | `task_20260827_huangyaoshi-presubmit-source-refs-gate` | pre-submit接入check-source-refs存在性检测（WARNING级）+散文型非路径WARN+段王爷系存量污染清单挂账 | queued | huangyaoshi | 门禁接入+回归 | 无 | `60_feedback/tasks/task_20260827_huangyaoshi-presubmit-source-refs-gate.md` | 欧阳锋建议书修订方向裁定（08-27王语嫣）：检查器存在但未入门禁链（prezi卡实证）；WARNING起步同#542哲学；段王爷外部挂起不派活（E058）；欧阳锋终审 |
+| 568 | `task_20260827_huangyaoshi-gbk-failopen-repo-fix` | GBK族仓库级根治：subprocess编码+Popen reader线程+fail-open吞异常可见化+probe stdout污染（通知走stderr） | queued | huangyaoshi | 根治+回归 | 无 | `60_feedback/tasks/task_20260827_huangyaoshi-gbk-failopen-repo-fix.md` | 欧阳锋两建议书合并裁定（08-27王语嫣）P1门禁静默致盲风险；三例活体实证（含#556 FAIL流转reader线程炸）；CLI入口统一reconfigure utf-8；欧阳锋终审 |
+| 569 | `task_20260827_huangyaoshi-gate-anchor-format-fix` | 门禁锚点三层修复：ALIASES读文件不读索引/F-034前缀匹配/E040节边界放宽+报错带期望格式样例 | queued | huangyaoshi | 修复+回归 | 无 | `60_feedback/tasks/task_20260827_huangyaoshi-gate-anchor-format-fix.md` | 老顽童建议书裁定（08-27王语嫣）：#551连拦三次全是锚点格式非内容；机器可读性原则不动只让报错可操作；tools/垃圾aliases生成源排查挂此；欧阳锋终审 |
+| 570 | `task_20260827_laowantong-agent-spec-twin-merge` | agent-spec孪生卡合并：agent-specs/为权威主线，tools/版diff吸收后删除+引用清扫（hongqigong/duanwangye两对） | queued | laowantong | 合并+清扫 | 无 | `60_feedback/tasks/task_20260827_laowantong-agent-spec-twin-merge.md` | 欧阳锋twin-drift建议书裁定（08-27王语嫣）：#319「tools/为权威」前提被#472/#475反转（§0冷启动只在agent-specs/版），TODO另立项未落单今补；取舍对照表留痕不静默；欧阳锋终审 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
 ## ⚖️ 待终审（提审任务，queue_transition 自动登记）
@@ -505,21 +510,21 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~[gate-blocked] task_20260826_huangyaoshi-vlm-card-two-section｜08-26 21:07｜待王语嫣复核处置~~ → 已化解（08-26 22:30 王语嫣）：21:00 补 commit 重提后 21:52 终审 PASS，残留行划销（欧阳锋建议书实证）
 - ~~diag_20260826_ouyangfeng-source-refs-line-anchor-unreachable.md｜08-26 21:46｜待王语嫣复核裁定~~ → 已裁定（08-26 王语嫣复核确认）：并入 **#543** 同区修（任务单 v0.2 已补任务 1.5）——对账更正：22:30 裁定曾把落点备注写进已 reviewed 的 #540 队列行，终审封闭单不可追加工作量，以 #543 为准；同族实证：check-source-refs.py resolve_path 同样不剥行号，1024 条死引数字被行号锚误报污染
 - ~~diag_20260826_ouyangfeng-gate-blocked-resolved-residue.md｜08-26 21:52｜待王语嫣复核裁定~~ → 已裁定（08-26 王语嫣复核确认）：残留两行已划销+本批 9 条同类残留一并批核划销；机制化（化解自动标注）维持观察项暂不立项——人工划行成本可承受，自动化收益小
-- diag_20260826_ouyangfeng-feature-json-mojibake.md｜08-26 23:47｜待王语嫣复核裁定
-- diag_20260826_ouyangfeng-late-session-retro-missing.md｜08-26 23:47｜待王语嫣复核裁定
-- diag_20260826_ouyangfeng-lint-prose-source-refs-blindspot.md｜08-26 23:47｜待王语嫣复核裁定
-- diag_20260826_ouyangfeng-queue-transition-gbk-failopen.md｜08-26 23:47｜待王语嫣复核裁定
+- ~~diag_20260826_ouyangfeng-feature-json-mojibake.md｜08-26 23:47｜待王语嫣复核裁定~~ → 已裁立项 #566（08-27 王语嫣）
+- ~~diag_20260826_ouyangfeng-late-session-retro-missing.md｜08-26 23:47｜待王语嫣复核裁定~~ → 已裁知会不补写+观察项（08-27 王语嫣）
+- ~~diag_20260826_ouyangfeng-lint-prose-source-refs-blindspot.md｜08-26 23:47｜待王语嫣复核裁定~~ → 已裁立项 #567（08-27 王语嫣）
+- ~~diag_20260826_ouyangfeng-queue-transition-gbk-failopen.md｜08-26 23:47｜待王语嫣复核裁定~~ → 已裁立项 #568（08-27 王语嫣）
 - ~~[gate-blocked] task_20260826_huangyaoshi-source-refs-debt｜08-27 00:27｜待王语嫣复核处置~~ → 已化解（08-27 09:05 王语嫣批核）：拦截后补 commit 重提，#543 终审 PASS A-，残留划销
 - ~~[gate-blocked] huangyaoshi｜08-27 00:27｜待王语嫣复核处置~~ → 垃圾残片划销（08-27 王语嫣）：E040 多行消息被第五探针按物理行切分的续行残片，根因修复入 **#562** 任务3
 - ~~[gate-blocked] task_20260827_laowantong-audit-maxims-card｜08-27 01:37｜待王语嫣复核处置~~ → 已化解（08-27 09:05 王语嫣批核）：F-034 缺字段补全后重提，#551 终审 PASS A-，残留划销
-- diag_20260827_laowantong-gate-anchor-format-pitfalls.md｜08-27 01:44｜待王语嫣复核裁定
+- ~~diag_20260827_laowantong-gate-anchor-format-pitfalls.md｜08-27 01:44｜待王语嫣复核裁定~~ → 已裁立项 #569（08-27 王语嫣）
 - ~~[gate-blocked] laowantong｜08-27 01:44｜待王语嫣复核处置~~ → 垃圾残片划销（08-27 王语嫣）：同上 E040 续行残片（且残片内容暴露 pre-submit 把命令行当交付物路径的另一解析瑕疵，一并入 #562 排查视野）
 - ~~[gate-blocked] task_20260826_huangyaoshi-instance-identity-registry｜08-27 02:37｜待王语嫣复核处置~~ → 已化解（08-27 09:05 王语嫣批核）：#546 终审 PASS A，残留划销
-- diag_20260827_ouyangfeng-probe-json-stdout-pollution.md｜08-27 03:27｜待王语嫣复核裁定
+- ~~diag_20260827_ouyangfeng-probe-json-stdout-pollution.md｜08-27 03:27｜待王语嫣复核裁定~~ → 已裁并入 #568（08-27 王语嫣）
 - ~~[gate-blocked] task_20260826_huangyaoshi-token-metering｜08-27 04:47｜待王语嫣复核处置~~ → 已化解（08-27 09:05 王语嫣批核）：F-036 落点补注后 #549 终审 PASS A，残留划销
 - ~~[gate-blocked] role-liveness｜08-27 07:47｜待王语嫣复核处置~~ → 误报划销（08-27 王语嫣）：role-liveness 报警风暴（07:42 起每 5min，25+ 条）——活跃≠心跳的系统性误报，止血+根因修复入 **#562**；止血落地前台账仍会持续新增，新增行无需逐条处置
 - ~~[gate-blocked] role-liveness｜08-27 09:13｜待王语嫣复核处置｜2026-08-27 09:12:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 223.5), ('cli', 139.6)]）｜role_registry check-liveness｜role_registry~~ → 已处置（08-27 王语嫣）：liveness 误报风暴同族，根因+止血入 #562（任务1 冷却已落地）
-- diag_20260827_ouyangfeng-agent-spec-twin-drift-reversal.md｜08-27 09:47｜待王语嫣复核裁定
+- ~~diag_20260827_ouyangfeng-agent-spec-twin-drift-reversal.md｜08-27 09:47｜待王语嫣复核裁定~~ → 已裁立项 #570（08-27 王语嫣）
 - ~~[gate-blocked] task_20260826_ouyangfeng-depended-draft-batch-review｜08-27 09:47｜待王语嫣复核处置｜2026-08-27 09:41:02｜task_20260826_ouyangfeng-depended-draft-batch-review｜F-034-五字段｜任务单缺少「## 执行报告」节（#429 F-034：交付必须落执行报告，口头完成=未完成；#444：evidence 附件不能替代）｜ouyangfeng~~ → 已化解（08-27 王语嫣）：欧阳锋补执行报告节重提，#544 抽核通过闭环 reviewed
 - ~~[gate-blocked] infra-liveness｜08-27 10:57｜待王语嫣复核处置｜2026-08-27 10:47:01｜infra-liveness｜基建停拍报警｜l1-capture｜停拍 69 分钟（阈值 60 分钟）｜conveyor_probe~~ → 已化解（08-27 王语嫣）：l1-capture 当日已恢复（22:37 计划任务 exit 0 + 23:37 l1-size.log 正常写入 88.6MB），停拍系时段空窗非故障；第九信号工作正常
 - ~~[gate-blocked] task_20260827_huangyaoshi-pending-laozhu-decision-signal｜08-27 19:37｜待王语嫣复核处置｜2026-08-27 19:32:34｜task_20260827_huangyaoshi-pending-laozhu-decision-signal｜F-034-五字段｜执行报告缺 4 个字段（#429 F-034）：改动文件清单、完成内容一句话、验证命令+输出、未做项/边界。请补全后重试，或 --force --reason '<理由>' 声明例外（#444 台账留｜huangyaoshi~~ → 已化解（08-27 王语嫣）：FAIL 修复重提后 #556 终审 PASS A，残留划销

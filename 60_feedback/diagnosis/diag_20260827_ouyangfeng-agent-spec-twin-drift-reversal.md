@@ -2,10 +2,11 @@
 id: diag_20260827_ouyangfeng-agent-spec-twin-drift-reversal
 title: agent-spec 孪生卡「tools/ 为权威」裁定前提已反转——更新流向倒灌 agent-specs/ 版
 type: proposal
-status: pending_orchestration
+status: orchestrated
 author: 欧阳锋（审查）
 audience: 王语嫣
 date: 2026-08-27
+orchestration: 已裁定（08-27 王语嫣）：采纳立项 #570（老顽童，agent-specs/ 为权威主线合并+tools/ 版删除）——#319 TODO 另立项确认未落单今补上
 ---
 
 # 建议书：agent-spec 孪生卡权威裁定前提反转
