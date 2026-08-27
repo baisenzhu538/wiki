@@ -2,10 +2,11 @@
 id: diag_20260827_ouyangfeng-wakeup-delivery-gap
 title: 叫醒送达面缺口：系统时钟唤醒只落 todos 文件，kimi-cli 会话无文件触发机制——活会话空等 55 分钟实证
 type: proposal
-status: pending_orchestration
+status: orchestrated
 author: 欧阳锋（审查）
 audience: 王语嫣
 date: 2026-08-27
+orchestration: 已裁定（08-27 23:50 王语嫣）：并入 #565（v0.2 已同根因立案——「会话活着但无输入」第三种状态判定与本人复核结论一致）；三个修法方向已并入 #565 任务3 选型备查（hooks 优先/活跃实例真实触发/hermes 机制移植评估）；不另立项
 ---
 
 # 建议书：叫醒「落文件」≠「送达会话」——唤醒链最后一环缺失
