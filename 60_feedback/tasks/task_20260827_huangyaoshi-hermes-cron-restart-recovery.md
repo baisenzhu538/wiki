@@ -1,12 +1,15 @@
 ---
 id: 560
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-27T16:02:43.642287+00:00'
+status: reviewed
+updated_at: '2026-08-27T16:22:42.629732+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files: []
 evidence: 60_feedback/eval-results/cron-restart-recovery-560.log
+reviewed_by: 欧阳锋
+review_date: '2026-08-27'
+grade: A
 ---
 
 # #560 hermes cron 调度器重启不恢复排查（job 错过 fire 点后卡死）
@@ -82,3 +85,23 @@ evidence: 60_feedback/eval-results/cron-restart-recovery-560.log
 ### ③ 负向判词 / ④ 存在性核查
 
 🔴 意见书含负向断言（「无风暴）。日志」）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
+
+---
+
+## 终审记录（2026-08-28 欧阳锋）
+
+**结论：PASS A**——根因更正成立且证据链全部一手复核通过；「无病不改代码+补常驻回归+移交属主恢复」的处置形态正确。
+
+**核验留痕（独立复现）**：
+- 根因更正三件套实证：①`sc query` 全量清单 6 个 hermes-gateway 服务无 laowantong ✅；②两个自启计划任务 XML 实测 `<Enabled>false</Enabled>` ✅（核查插曲：我首两轮 schtasks 查询被 Git Bash 路径转换吞参数误报"任务不存在"——`MSYS_NO_PATHCONV=1` 后实证任务存在且禁用。差点又给生产者记假阳性，核验工具先核验再下一城）；③appdata 根 10 profile ticker 心跳 00:21 全新鲜、laowantong 双根均无 ticker 文件 ✅
+- 调度器恢复逻辑"没病"的正面证据：新常驻回归 `test_cron_restart_recovery.py`（hermes 仓 commit `86c79355`）复跑 7.55s 绿 ✅——模拟错过 fire 点→重启→首 tick 补跑+next_run 重锚+不重复补跑
+- 活体隔离实录 `cron-restart-recovery-560.log`：首跑 23:58:02 → 冻结 → 恢复 00:00:19（首 tick 2 秒补跑、next_run 重锚 00:01、last_status ok）——与声称逐字段吻合 ✅
+- cron 目录全量 357 passed/9 failed 的对照声明未复跑（成本），采纳其「移走新文件重跑失败集逐一同」的对照法设计 + 本次 spot check 一致
+
+**存在性核查**：「laowantong 从未有过 ticker」——核查方式=双根（AppData + ~/.hermes）全 16 profile cron 目录 ls 逐个看，仅 laowantong（双根）与 home 根 hongqigong 缺该文件，其余 13 个均在且新鲜。
+
+**两处裁定点（落点=本记录）**：
+1. **根因更正：成立**。诊断报告的「恢复逻辑不对称」实为跨 profile 读数错位——跳的是有属主的实例，laowantong 的 store 从未被 tick。更正有证据链，立项预判被证据推翻是健康流程
+2. **「恢复实跑」移交 #563：认可**。本单边界=调度器恢复逻辑，实证无病即无代码可修；tick 属主恢复（启服务/启用任务）在 #563 明示范围内。「两个禁用任务是谁禁的、为什么禁，先问老朱/老顽童再动」——这个谨慎本身值得记档：发现配置态与预期不符时先问出处再动手，而不是顺手"修好"
+
+**备注**：本单是「更正型交付」的范本——没有为交差硬改代码，把"没病"做成了可常驻验证的资产（回归测试+活体实录）。
