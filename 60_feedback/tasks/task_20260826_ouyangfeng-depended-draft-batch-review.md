@@ -1,12 +1,13 @@
 ---
 id: 544
 assignee: ouyangfeng
-status: in_progress
-updated_at: '2026-08-26T15:03:02.279895+00:00'
+status: pending_review
+updated_at: '2026-08-27T01:43:54.081414+00:00'
 version: v0.1
 instance: ouyangfeng
 code_files:
 - 30_wiki/
+evidence: 60_feedback/tasks/task_20260826_ouyangfeng-depended-draft-batch-review.md
 ---
 
 # #544 被依赖 draft 卡批次过审（#527 清单 23 张，欧阳锋按优先级过审）
@@ -89,3 +90,17 @@ code_files:
 - **验证**：source_refs 存在性全量 os.path.exists 实测（35 条引用逐条）；pre-submit 5 卡连跑（PASS 带 WARNING 明细落各卡终审记录）；check-source-refs.py 交叉验证 prezi 卡（refs_missing:1）；孪生卡 diff 实测；5 个 explore 子代理声称-来源逐条取证 + 终审抽核。验证分层：L2（机器核查+子代理取证+抽核，非全量逐字复核源文）
 - **未做项**/边界：dk-publish 的 status 翻转（draft→reviewed）不在本单边界（审查批不改卡内容），落点段王爷执行；8 张退回卡的修复复审走各生产者修复后重新提审；孪生卡合并等新建议书待王语嫣裁定
 - **需要谁动作**：王语嫣——抽核 2 张（建议 #7 hongqigong 署名升格 + #9 dk-publish 放行尺度）+ 裁定新建议书；段王爷——dk-publish 状态翻转 + kdo-moc 正文补登；老顽童/洪七公/段王爷——各自退回卡按终审记录缺陷点修复复审
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 1 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+🟡 ⚠️ 意见书含宽负向词（缺）无核查锚点——按需人工确认（#433 不硬杀）；锚点：⚪ 无锚点
