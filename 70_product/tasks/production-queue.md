@@ -518,12 +518,14 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - diag_20260827_ouyangfeng-probe-json-stdout-pollution.md｜08-27 03:27｜待王语嫣复核裁定
 - ~~[gate-blocked] task_20260826_huangyaoshi-token-metering｜08-27 04:47｜待王语嫣复核处置~~ → 已化解（08-27 09:05 王语嫣批核）：F-036 落点补注后 #549 终审 PASS A，残留划销
 - ~~[gate-blocked] role-liveness｜08-27 07:47｜待王语嫣复核处置~~ → 误报划销（08-27 王语嫣）：role-liveness 报警风暴（07:42 起每 5min，25+ 条）——活跃≠心跳的系统性误报，止血+根因修复入 **#562**；止血落地前台账仍会持续新增，新增行无需逐条处置
-- [gate-blocked] role-liveness｜08-27 09:13｜待王语嫣复核处置｜2026-08-27 09:12:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 223.5), ('cli', 139.6)]）｜role_registry check-liveness｜role_registry
+- ~~[gate-blocked] role-liveness｜08-27 09:13｜待王语嫣复核处置｜2026-08-27 09:12:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 223.5), ('cli', 139.6)]）｜role_registry check-liveness｜role_registry~~ → 已处置（08-27 王语嫣）：liveness 误报风暴同族，根因+止血入 #562（任务1 冷却已落地）
 - diag_20260827_ouyangfeng-agent-spec-twin-drift-reversal.md｜08-27 09:47｜待王语嫣复核裁定
-- [gate-blocked] task_20260826_ouyangfeng-depended-draft-batch-review｜08-27 09:47｜待王语嫣复核处置｜2026-08-27 09:41:02｜task_20260826_ouyangfeng-depended-draft-batch-review｜F-034-五字段｜任务单缺少「## 执行报告」节（#429 F-034：交付必须落执行报告，口头完成=未完成；#444：evidence 附件不能替代）｜ouyangfeng
-- [gate-blocked] infra-liveness｜08-27 10:57｜待王语嫣复核处置｜2026-08-27 10:47:01｜infra-liveness｜基建停拍报警｜l1-capture｜停拍 69 分钟（阈值 60 分钟）｜conveyor_probe
-- [gate-blocked] task_20260827_huangyaoshi-pending-laozhu-decision-signal｜08-27 19:37｜待王语嫣复核处置｜2026-08-27 19:32:34｜task_20260827_huangyaoshi-pending-laozhu-decision-signal｜F-034-五字段｜执行报告缺 4 个字段（#429 F-034）：改动文件清单、完成内容一句话、验证命令+输出、未做项/边界。请补全后重试，或 --force --reason '<理由>' 声明例外（#444 台账留｜huangyaoshi
-- [gate-blocked] task_20260827_huangyaoshi-hermes-tools-double-bug｜08-27 22:07｜待王语嫣复核处置｜2026-08-27 22:02:32｜task_20260827_huangyaoshi-hermes-tools-double-bug｜F-034-五字段｜执行报告缺 1 个字段（#429 F-034）：未做项/边界。请补全后重试，或 --force --reason '<理由>' 声明例外（#444 台账留痕）。｜huangyaoshi
+- ~~[gate-blocked] task_20260826_ouyangfeng-depended-draft-batch-review｜08-27 09:47｜待王语嫣复核处置｜2026-08-27 09:41:02｜task_20260826_ouyangfeng-depended-draft-batch-review｜F-034-五字段｜任务单缺少「## 执行报告」节（#429 F-034：交付必须落执行报告，口头完成=未完成；#444：evidence 附件不能替代）｜ouyangfeng~~ → 已化解（08-27 王语嫣）：欧阳锋补执行报告节重提，#544 抽核通过闭环 reviewed
+- ~~[gate-blocked] infra-liveness｜08-27 10:57｜待王语嫣复核处置｜2026-08-27 10:47:01｜infra-liveness｜基建停拍报警｜l1-capture｜停拍 69 分钟（阈值 60 分钟）｜conveyor_probe~~ → 已化解（08-27 王语嫣）：l1-capture 当日已恢复（22:37 计划任务 exit 0 + 23:37 l1-size.log 正常写入 88.6MB），停拍系时段空窗非故障；第九信号工作正常
+- ~~[gate-blocked] task_20260827_huangyaoshi-pending-laozhu-decision-signal｜08-27 19:37｜待王语嫣复核处置｜2026-08-27 19:32:34｜task_20260827_huangyaoshi-pending-laozhu-decision-signal｜F-034-五字段｜执行报告缺 4 个字段（#429 F-034）：改动文件清单、完成内容一句话、验证命令+输出、未做项/边界。请补全后重试，或 --force --reason '<理由>' 声明例外（#444 台账留｜huangyaoshi~~ → 已化解（08-27 王语嫣）：FAIL 修复重提后 #556 终审 PASS A，残留划销
+- ~~[gate-blocked] task_20260827_huangyaoshi-hermes-tools-double-bug｜08-27 22:07｜待王语嫣复核处置｜2026-08-27 22:02:32｜task_20260827_huangyaoshi-hermes-tools-double-bug｜F-034-五字段｜执行报告缺 1 个字段（#429 F-034）：未做项/边界。请补全后重试，或 --force --reason '<理由>' 声明例外（#444 台账留痕）。｜huangyaoshi~~ → 已化解（08-27 王语嫣）：字段补全重提后 #558 终审 PASS A-，残留划销
+- [gate-blocked] task_20260827_huangyaoshi-profile-config-patrol｜08-27 23:37｜待王语嫣复核处置｜2026-08-27 23:34:15｜task_20260827_huangyaoshi-profile-config-patrol｜F-034-五字段｜执行报告缺 1 个字段（#429 F-034）：需要谁动作。请补全后重试，或 --force --reason '<理由>' 声明例外（#444 台账留痕）。｜huangyaoshi
+- ~~[gate-blocked] huangyaoshi｜08-27 23:37｜待王语嫣复核处置｜- untracked: tests/te｜huangyaoshi~~ → 垃圾残片划销（08-27 王语嫣）：E040 多行解析续行残片同族，根因修复在 #562 任务3
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
