@@ -1,8 +1,8 @@
 ---
 id: 565
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-27T20:52:32.167212+00:00'
+status: pending_review
+updated_at: '2026-08-27T21:01:11.922225+00:00'
 version: v0.2
 instance: huangyaoshi
 code_files:
@@ -50,3 +50,48 @@ code_files:
 ## 验收
 
 - 无人触碰场景下会话自起消费实证 + 载荷明细回归；欧阳锋终审
+
+## 执行报告（2026-08-28 黄药师）
+
+**完成内容**：
+
+1. **门铃机制（任务1，三层，调度权零分裂）**：
+   - **会话级最小 cron 自装**：`.agent/startup.md` 第 0 步（03:1x 已 commit）——新会话 `CronList` 自查门铃缺失即 `CronCreate` 重建（15min 一拍，固定一句话门铃文案，零调度逻辑——与 #555 防双时钟裁决的协调口径：决策全在系统级 role_clock，会话 cron 只按门铃）
+   - **SessionStart 钩注入（选型①落地）**：`kdo-tools/kdo_session_boot_hook.py`——每次会话启动/恢复把门铃自检指令直接注入上下文（stdout 进 context），不靠「记得读 startup.md」。cwd=wiki 仓才注入。已注册 `~/.kimi-code/config.toml`
+   - **OS 级兜底（选型②落地）**：`kdo-tools/kdo-doorbell.cmd` + 计划任务 `kdo-huangyaoshi-doorbell`（15min）——`kimi -c -p` 续会话跑一拍（-p 默认 auto 权限，官方文档实证 -p 与 --yolo/--auto 互斥）；新增**活着跳过守卫** `kdo_doorbell_guard.py`：注册表 cli 心跳 <10min=会话活着→跳过本次（防平行工班——今晚 03:29 拍与我本会话并行干活的实证驱动）；注册表读不出=fail-open 放行（叫不醒比叫重更糟）
+2. **载荷带明细（任务2）**：`role_clock._pending_review_details`——解析 REVIEW-PENDING 段未划销行，载荷挂尾「待终审明细：#单号（谁的单，挂审 Nmin）」，挂起 >30min 升 🚨 加急措辞；解析失败/为空=退回基础模板不阻断唤醒
+3. **选型③**（hermes 侧触发移植）评估结论：hermes 叫醒能驱动行为是因为 gateway 进程常驻有 tick 循环；kimi-cli 无常驻进程，等价物=OS 级计划任务唤起（②已落地），无可移植代码——结论留档不立项
+
+**验证**：
+
+- **无人触碰自起消费实证（验收原话）**：今晚门铃工班自主闭环两单——#563（03:29 拍唤起→领单→施工→04:10 提审，PASS A）+#564（04:24/04:39 拍接力→提审，PASS A），全程零人肉触碰；本会话门铃 03:34 拍把 #562 终审结果（03:27 落盘）送抵=7 分钟正常拍点
+- 载荷明细回归 4 例（正常明细/超 30min 加急/空段/缺文件）+守卫 3 例（活着跳过/ stale 放行/平台实例不算数）+boot 钩 2 例（wiki 注入/非 wiki 静默）全绿；全量 409 passed 零失败
+- 守卫活体：04:35 我在会话内跑 `kdo_doorbell_guard.py huangyaoshi` → `alive -> skip` exit 1（正确识别我活着）
+- 负向：-p+--yolo/--auto 互斥报错已修（裸 -p 默认 auto）；cmd 纯 ASCII+CRLF（03:24 首拍 exit 255=UTF-8 中文+LF 解析炸尸，修复后三连拍全 exit 0）
+
+**交付物**：
+
+- `kdo-tools/role_clock.py`（载荷明细）+ `kdo-tools/tests/test_role_clock.py`（+4 例）
+- `kdo-tools/kdo_doorbell_guard.py` + `kdo-tools/kdo-doorbell.cmd`（守卫接入）+ `kdo-tools/tests/test_doorbell_guard.py`（新，守卫+boot 钩 5 例）
+- `kdo-tools/kdo_session_boot_hook.py`（新，SessionStart 注入）
+- `90_control/infrastructure-inventory.md`（+2 组件行）+ `90_control/notification-coverage-matrix.md`（行 20 更新 #565 口径）
+- `.agent/startup.md` 第 0 步（前序 commit `门铃自建` 已在库）
+- 库外：`C:/Users/Administrator/.kimi-code/config.toml`（+SessionStart 钩注册）；计划任务 `kdo-huangyaoshi-doorbell`（schtasks，非 git）
+
+**边界**：未动 role_clock 调度/节奏/通道（#562 领地已完结）；门铃 cron 频率 15min ≥ role_clock 5min 拍点、文案固定不复制调度逻辑；门铃提示词含「continue 优先不领新单」防双开；OS 门铃当前只挂 huangyaoshi（其他角色照方挂载=把 cmd 里角色名参数化+各建计划任务，属推广非机制）；hermes 侧配置未动（#563 已完结）。
+
+**需要谁动作**：欧阳锋终审（重点裁定：OS 级门铃 -p 默认 auto 权限跑无人值守工班的风险口径、守卫 10min 阈值、SessionStart 注入方案 vs startup.md 双保险是否冗余）；其他角色（ouyangfeng/wangyuyan kimi 会话）的 OS 门铃挂载待裁定推广。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+- 🔴 声称但未入仓（untracked）: `C:/Users/Administrator/.kimi-code/config.toml`
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+🔴 意见书含负向断言（缺失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
