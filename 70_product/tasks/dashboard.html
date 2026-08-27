@@ -64,12 +64,12 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 </head>
 <body>
 <h1>KDO 生产看板</h1>
-<p class="subtitle">production-queue.md · 自动生成于 2026-08-28 00:01</p>
+<p class="subtitle">production-queue.md · 自动生成于 2026-08-28 00:02</p>
 
 <div class="stats">
 <div class="stat queued"><div class="stat-num">9</div><div class="stat-label">待领取 Queued</div></div>
-<div class="stat pending"><div class="stat-num">0</div><div class="stat-label">审查中 Review</div></div>
-<div class="stat active"><div class="stat-num">2</div><div class="stat-label">进行中 Active</div></div>
+<div class="stat pending"><div class="stat-num">1</div><div class="stat-label">审查中 Review</div></div>
+<div class="stat active"><div class="stat-num">1</div><div class="stat-label">进行中 Active</div></div>
 <div class="stat done"><div class="stat-num">142</div><div class="stat-label">已完成 Done</div></div>
 <div class="stat owner"><div class="stat-num">5</div><div class="stat-label">活跃角色</div></div>
 </div>
@@ -80,6 +80,20 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 </div>
 
 
+<div class="task-group">
+<div class="group-header pending">审查中 · 等待欧阳锋</div>
+<div class="task-card">
+<div class="task-prio p1">P1</div>
+<div class="task-info">
+<div class="task-id">#560<span class="task-grade g-BLOCK">🔴阻塞链</span></div>
+<div class="task-title">hermes cron调度器重启不恢复排查：job错过fire点后next_run卡死（laowantong-clock-v3 22:56后停跑实证）</div>
+<div class="task-detail">飞书三共享诊断发现1（08-27王语嫣）：ticker心跳活/job任务死=恢复逻辑不对称；飞书侧唯一任务时钟卡死=今晚老顽童装死的hermes侧真相；与#558同hermes层可同批分开commit；欧阳锋终审</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee huangyaoshi">黄药师</span>
+</div>
+</div>
+</div>
 <div class="task-group">
 <div class="group-header queued">待领取</div>
 <div class="task-card">
@@ -187,17 +201,6 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 <div class="task-card">
 <div class="task-prio p1">P1</div>
 <div class="task-info">
-<div class="task-id">#560</div>
-<div class="task-title">hermes cron调度器重启不恢复排查：job错过fire点后next_run卡死（laowantong-clock-v3 22:56后停跑实证）</div>
-<div class="task-detail">飞书三共享诊断发现1（08-27王语嫣）：ticker心跳活/job任务死=恢复逻辑不对称；飞书侧唯一任务时钟卡死=今晚老顽童装死的hermes侧真相；与#558同hermes层可同批分开commit；欧阳锋终审</div>
-</div>
-<div class="task-meta">
-<span class="task-assignee huangyaoshi">黄药师</span>
-</div>
-</div>
-<div class="task-card">
-<div class="task-prio p1">P1</div>
-<div class="task-info">
 <div class="task-id">#570</div>
 <div class="task-title">agent-spec孪生卡合并：agent-specs/为权威主线，tools/版diff吸收后删除+引用清扫（hongqigong/duanwangye两对）</div>
 <div class="task-detail">欧阳锋twin-drift建议书裁定（08-27王语嫣）：#319「tools/为权威」前提被#472/#475反转（§0冷启动只在agent-specs/版），TODO另立项未落单今补；取舍对照表留痕不静默；欧阳锋终审</div>
@@ -288,7 +291,7 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 </div>
 </div>
 
-<header style="display:none"><!-- generated-by: generate-dashboard.py · updated_at: 2026-08-28 00:01 · git_head: aeeadedd7 --></header>
-<footer>KDO 知识工厂 · 由 generate-dashboard.py 自动生成 · 2026-08-28 00:01</footer>
+<header style="display:none"><!-- generated-by: generate-dashboard.py · updated_at: 2026-08-28 00:02 · git_head: 6f78f5824 --></header>
+<footer>KDO 知识工厂 · 由 generate-dashboard.py 自动生成 · 2026-08-28 00:02</footer>
 </body>
 </html>
