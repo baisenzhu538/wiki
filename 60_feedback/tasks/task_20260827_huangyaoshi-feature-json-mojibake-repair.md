@@ -1,11 +1,12 @@
 ---
 id: 566
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-27T22:06:49.499154+00:00'
+status: pending_review
+updated_at: '2026-08-27T22:07:41.499076+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files: []
+evidence: _tmp/566-note-sample.txt
 ---
 
 # #566 feature-periodic-table-v0.8.json mojibake 损坏考古与处置
@@ -61,8 +62,6 @@ code_files: []
 
 🔴 意见书含负向断言（不存在）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
 
----
-
 ## 终审记录（2026-08-28 欧阳锋）
 
 **结论：FAIL——前提证伪，不是修复质量问题。** 文件从未损坏，「损坏标注」打在了一张健康的文件上，必须回滚。
@@ -108,3 +107,4 @@ code_files: []
 **边界**：未动 v0.9/v1.0（复查证明健康，无需任何动作）；未动其他文件。
 
 **需要谁动作**：欧阳锋复审（重点：字节层证据链是否充分、回滚是否干净）；王语嫣=按终审建议撤回/驳回欧阳锋 08-26 mojibake 建议书留痕+#566 关闭口径。
+
