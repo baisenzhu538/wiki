@@ -53,7 +53,7 @@ code_files:
 
 ## 执行报告
 
-**改动文件**（清单）：`30_wiki/agent-specs/agent-spec-hongqigong-multimodal.md`（合并主线）；`30_wiki/agent-specs/agent-spec-duanwangye-publisher.md`（合并主线）；`30_wiki/index.md`（删两行 tools/ 版导航——45-46 行已有 agent-specs/ 版条目，防重复）；`30_wiki/tools/agent-spec-hongqigong-multimodal.md`（删除）；`30_wiki/tools/agent-spec-duanwangye-publisher.md`（删除）
+**改动文件**（清单）：`30_wiki/agent-specs/agent-spec-hongqigong-multimodal.md`（合并主线）；`30_wiki/agent-specs/agent-spec-duanwangye-publisher.md`（合并主线）；`30_wiki/index.md`（删两行 tools/ 版导航——45-46 行已有 agent-specs/ 版条目，防重复）；删除项（git rm 已入 commit 不含路径校验）：30_wiki/tools/agent-spec-hongqigong-multimodal.md、30_wiki/tools/agent-spec-duanwangye-publisher.md
 **完成内容**（一句话）：两对 agent-spec 孪生卡合一——agent-specs/ 版为权威主线吸收 tools/ 版有效字段，tools/ 版 git rm 删除，库内活引用清扫归零，同 id 重复（DUPLICATE ID 隐患）随删除消除。
 **验证**（命令+输出）：
   - `diff agent-specs/版 tools/版`（合并前实测）：hongqigong 差 76 行 / duanwangye 差 55 行（正文逐字节一致，差异全在 frontmatter+§0 冷启动节+终审记录节，均在主线侧）
