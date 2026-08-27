@@ -63,8 +63,9 @@ type: memory/role-recovery
 - **#551 审计判词库卡 → pending_review**（等欧阳锋终审）：`framework-audit-maxims-library` v0.1 落 `30_wiki/frameworks/`（风清扬 13 判词 A6/B5/C2 结构化，认知层真相源 vs #433 词表实现层）；四路 AgentSwarm 自攻击修 1🔴（Synthesis 伞命题被 5/13 证伪→改默认零信任五立场）+9🟡 类（词表因果方向/A5 入宪状态/B2 算术/出处回链）；pre-submit PASS；攻击报告 `60_feedback/adversarial/atk_framework-audit-maxims-library_20260827.md`
 - **门禁机读锚点三层课（新坑）**：①pre-submit ALIASES 检查读搜索索引不读文件——新卡必须先 `kdo index --incremental` 再 pre-submit，否则 FAIL；索引后警告残留=已知误报 ②F-034 五字段锚点=**闭合粗体精确匹配**：写 `**改动文件**` 不写 `**改动文件清单**`（闭合 `**` 被后缀阻断）③E040 交付物节边界=行首 `\n**`——字段行顶格写（不带 `- `），否则节延展吞掉验证命令行，反引号命令被判未入仓交付物
 - **建议书已上浮**：`60_feedback/diagnosis/diag_20260827_laowantong-gate-anchor-format-pitfalls.md`（三元组齐；conveyor_probe 当场验登记回执=新登记 1 ✅）
-- **队列实况（08-27 01:2x 实测）**：总 140/queued 11；#557（死引治理批次A，934条/319卡）可领但被 #504 挡——自己名下 #551 pending_review 即锁 claim；等终审落地后领 #557
-- **复盘**：agent复盘/laowantong/daily-context/2026-08-27.md（Truman 11 章）
+- **队列实况（08-27 03:0x 实测）**：#557（死引治理批次A）**PASS A-**（欧阳锋独立复跑 1024→267 全中；zhu-time-os.md 误扫入的审查记录=欧阳锋本人 #544 在途工作，已认领无损无需回退）——名下清零；🟡 教训：报告锚点数 728 系转抄中间态，终态 771，次级指标以终态扫描为准
+- **新增教训（#557）**：批次 commit 永远枚举显式路径禁 `git add -A`（收尾批扫入他方改动）；"教训已记 friction-log"类声称写前先 grep 验证落盘（自己踩穿 A1 一次）
+- **复盘**：agent复盘/laowantong/daily-context/2026-08-27.md（Truman 11 章 ×2 部分：#551 凌晨段 + #557 批次段）
 
 ## 4. 当前状态（截至 2026-08-26 · 词元经济域首开 PASS A + 时钟 v2 + E018）
 
