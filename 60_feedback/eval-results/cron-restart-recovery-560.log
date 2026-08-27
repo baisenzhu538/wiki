@@ -1,0 +1,16 @@
+[2026-08-27T23:57:20+08:00] job created id=49f3a701e580 next_run_at=2026-08-27T23:58:00+08:00
+[2026-08-27T23:58:02+08:00] FIRST FIRE ok, count=1, next_run_at=2026-08-27T23:59:00+08:00
+[2026-08-27T23:58:02+08:00] scheduler stopped (simulated crash); sleeping 130s to miss fire points
+[2026-08-28T00:00:12+08:00] after outage: next_run_at=2026-08-27T23:59:00+08:00 (stale), fires=1
+[2026-08-28T00:00:19+08:00] RECOVERY FIRE ok after 2s; next_run_at=2026-08-28T00:01:00+08:00 last_status=ok
+[2026-08-28T00:00:44+08:00] post-recovery 25s: extra fires=0 (0 expected; boundary fire may add 1 legitimately)
+[2026-08-28T00:00:44+08:00] ALL ASSERTIONS PASSED
+{
+ "job_id": "49f3a701e580",
+ "first_fire": true,
+ "stale_next_run_at": "2026-08-27T23:59:00+08:00",
+ "recovery_fire": true,
+ "final_next_run_at": "2026-08-28T00:01:00+08:00",
+ "last_status": "ok",
+ "total_fires": 2
+}
