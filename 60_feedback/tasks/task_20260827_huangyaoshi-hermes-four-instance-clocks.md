@@ -1,8 +1,8 @@
 ---
 id: 563
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-27T19:32:19.819408+00:00'
+status: queued
+updated_at: '2026-08-27T19:32:28.324890+00:00'
 version: v0.1
 instance: huangyaoshi-kimi
 code_files: []
