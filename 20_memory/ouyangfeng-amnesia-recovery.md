@@ -470,3 +470,16 @@ type: memory/role-recovery
 - **在途事项**：①#515 判据清单校准（我欠的作业：差集 _tmp 口径/宽词阈值）；②#527 清单 23 张被依赖 draft 卡等我过审（等王语嫣编排批次单）；③#525 时钟架构设计稿等老朱拍板拆实施单；④#534 第 4-5 步在王语嫣（D:\tech-wiki 新库 #001 微型闭环）；⑤graph-rag 正文 src_unknown 存量精修待立项
 - **审查纪律速记**：O0 先溯源；负向断言必附 `**存在性核查**` 粗体锚点（#433）；实证句先跑后写（#537 血泪）；PASS 后留实跑验证窗；措辞先扫触发词（🟡/无/缺/未/丢失/不存在/缺失）；流转 `python 90_control/scripts/queue_transition.py review <id> --verdict pass|fail --reviewer 欧阳锋 --grade A`；改判用 `--override --reason`（#538）
 - **收尾四件**：技能进化日志+amnesia+daily-context 追加+`python kdo-tools/daily-context-save.py save --agent ouyangfeng --truman --file <当天文件>` 自检须 🟢/🟡
+
+## 🔌 重启恢复点（2026-08-26 深夜第十三场后更新）
+
+- **#544 在途（claimed-ouyangfeng）**：#527 清单批次过审，首批 5/10 张完成（全退回，终审记录已落各卡+批次记录落任务单）。**余 5 张续下批**：agent-spec-duanwangye-publisher / agent-spec-hongqigong-multimodal / agent-spec-laowantong-producer / dk-publish-collapse-to-iterate / skill-duanwangye-prezi（agent-spec 互引软引用簇，优先级低于已审的硬依赖）。恢复动作：读 #544 任务单「批次记录」节 → 直接续审
+- **#541 已闭环（PASS A，15a7971cb）**：黄药师收口=热重载机制（server.py:57，08-19 引入）+实验实证——我的「旧进程=旧代码」被证伪，CreationDate 启发式有热重载旁路；复审复跑踩过脚本非幂等坑（_tmp 残留新 tools.py 致 Phase 1 假异常，重置前置条件后全中）。#362 三问第 2 问待补失效条件栏（不越界，待裁定）
+- **领审 cron 已重建**：id 01M0ZAQ3KF3YWTAM7410MQ2XTJ（7-59/15），绑本会话，重启即死需再建
+- **新坑**：lint 单文件模式 F2 断链必误报（card_ids 只含被检卡）——单卡 lint 只能信 frontmatter 类检查；lint source_refs 无斜杠跳过=散文逃逸盲区（建议书已落）
+- **待王语嫣**：3 份新建议书（lint 盲区/JSON mojibake/晚场复盘缺失）+ #544 抽核 2 张
+- **建议书格式铁律（08-26 深夜实证）**：frontmatter 三元组不可省——`type: proposal` / `status: pending_orchestration` / `audience: 王语嫣`，否则探针静默跳过（near-miss 都报不了）。#460 三行制只管正文。今晚 4 份已补齐+复验命中
+- **#543 已闭环（PASS A-，08-27 00:5x）**：死引治理双仓交付全验通过；观察项=空格锚（`path L14` 形态）15 条假死引混在 1024 里，治理批次执行前宜补剥重扫。队列 pending_review 清零。cron 领审首次实战命中（01M0ZAQ3KF3YWTAM7410MQ2XTJ）
+- **会话领审 cron 已退役（08-27 早 #555）**：勿重建。唤醒=系统级 kdo-role-clock（schtasks 5min）→ 90_control/todos/ouyangfeng.md 落盘；我事件驱动（有提审即醒）。活跃时读收件箱补审即可。若唤醒没到：查 90_control/role-registry.json 我的条目 + .kdo/role-clock.log，不建 cron
+- **会话门铃 cron 已装（08-27 23:48 首拍，王语嫣 #565 裁定口径）**：id 01M11XVGE85403EZ4QRX8YEXSG（:17/:47 每 30min，错开系统时钟 :12/:42 落盘拍）——读 todos 未读段+myqueue，有活干活无活待命。与已退役的领审 cron 不同物：那个是替系统时钟（勿重建仍有效），这个是补「todos 落盘≠会话触发」的最后一环（wakeup-delivery-gap 建议书已并入 #565）。会话重启即死，说'继续'后重建同款
+- **#544 闭环（08-27 23:35 王语嫣抽核通过 reviewed）**：10 张全清（退 8/PASS 1/豁免 0+批次二退 4/PASS A- 1）。等抽核不自审=对的
