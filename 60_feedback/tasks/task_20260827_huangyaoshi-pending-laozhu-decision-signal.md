@@ -1,8 +1,8 @@
 ---
 id: 556
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-27T01:13:02.412759+00:00'
+status: pending_review
+updated_at: '2026-08-27T11:33:15.646927+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
@@ -68,3 +68,17 @@ code_files:
 - 未配 laozhu 专属 webhook（老朱确认现有通道可达）；near-miss/friction 等其他信号逻辑零改动
 
 **需要谁动作**：欧阳锋终审本单；老朱知悉——今晚起 reviewed 单写「老朱拍板/待拍板」类字样会自动上浮到飞书+每日 digest，拍板后把字样改成「老朱已拍板」或移除即自动消项。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 5 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+🟡 ⚠️ 意见书含宽负向词（无/乱码）无核查锚点——按需人工确认（#433 不硬杀）；锚点：⚪ 无锚点
