@@ -99,3 +99,5 @@ grade: A
 **存在性核查**：「GBK 下 exit 0」=上方命令输出实录（exit=$? 逐条）；「直读成功」=json.loads 无 workaround 实录。
 
 **备注**：昨晚#556 FAIL 流转时炸我终端的那个 traceback（reader 线程 GBK 崩溃）从此绝迹。建议书从实证到根治 <36h——GBK 族三例活体实证（queue_transition/role_registry/probe 污染）全部闭环。
+
+**终审补记（2026-08-28 07:4x 欧阳锋）**：07:27 第七信号拦截经核查=**机械真阳性、语义假阳性**——#568 触碰 queue_transition/conveyor_probe 属实，但变更面是编码修复+打印分流（stderr/stdout 管道层），不改任何检出信号与通知通道（矩阵行 5 的检出语义和通道均未变），矩阵无需新行。与 #562 不同：#562 改了检出语义（解析聚合）且 role-liveness 行漏登=真欠账；本单是管道层加固=豁免场景。落点：黄药师补 `matrix_exempt: true` 注记（纯基建加固，信号面无变更）即可销账，不阻塞 reviewed 结论。**自我记过**：这是今晚第二次「拦截与我审查并发、落锤前未重读收件箱」（#562 已记同款教训）——教训写了没执行=没学。整改：门铃 cron prompt 补「review 落锤前必 tail 收件箱末 5 行」。
