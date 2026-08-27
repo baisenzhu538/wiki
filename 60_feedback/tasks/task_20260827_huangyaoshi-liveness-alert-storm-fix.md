@@ -1,8 +1,8 @@
 ---
 id: 562
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-27T18:48:55.188927+00:00'
+status: pending_review
+updated_at: '2026-08-27T19:03:56.661326+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
@@ -68,3 +68,49 @@ UnicodeEncodeError（08-27 19:17 王语嫣实测——写入成功但 exit 1，F
 - 心跳回归：唤醒后 agent 消费动作 → 注册表心跳刷新 → liveness 转 alive
 - 探针回归：多行 E040 样本 → 仅 1 条登记无残片
 - 欧阳锋终审
+
+## 执行报告（2026-08-28 黄药师，接任务 2/3；任务 1 王语嫣 19:21 已落地）
+
+**完成内容**：
+
+1. **任务2 心跳语义修复（方案B 落点=消费回执，对稿确认）**：设计稿 §1 写侧=「CLI 启动钩+会话内时钟蹭拍」——#555 会话 cron 退役后蹭拍面只剩 myqueue（#552 已有）。本单把「消费回执」扩到全部真实消费动作：
+   - `queue_transition.py` 新增 `_consumption_heartbeat()`：claim/complete/release/review 流转成功后蹭拍注册表心跳（review 归 reviewer，中文名→拼音映射；仅五 KDO 角色入表，其余 instance 不污染注册表）；myqueue 原内联蹭拍重构复用同一函数
+   - **CLI turn 活跃面**：kimi-cli `SessionHeartbeat` 事件（60s/拍，配置即激活）挂新钩 `kdo-tools/kdo_session_heartbeat_hook.py`——session_id → 缓存（`90_control/session-roles.json`）→ 会话 state.json title（含「你是<角色>」）解析角色 → `role_registry.heartbeat(role, tool="kimi-cli")`。直补 08-27 误报场景（王语嫣会话内回话但心跳停 06:53）。fail-open：解析不出角色=不写，任何异常静默 exit 0
+   - 钩已注册进 `~/.kimi-code/config.toml`（库外，**新会话生效**；老会话重启后才有 60s 拍）
+2. **任务3 第五探针多行解析修复**：`conveyor_probe._scan_gate_blocked` 从物理行扫描改为**时间戳锚定记录聚合**（`YYYY-MM-DD HH:MM(:SS)｜` 起新记录，续行压单行并入，孤儿残片跳过）；状态键升 `gate_seen_v2`——仅当旧 `gate_seen` 键存在时首跑静默吸收存量（防升级重报风暴；全新状态直接正常扫描，不影响既有测试语义）。board 登记一行一记录，续行残片不再独立成建议
+3. **§3.19**：无新增/变更检出信号（心跳写面扩展+既有信号解析修复，非新信号），不登记；新组件已按 #488 登记 `90_control/infrastructure-inventory.md`（kdo_session_heartbeat_hook 行）
+
+**验证**：
+
+- 任务1 冷却回归：既有 `test_check_liveness_cooldown_suppresses_repeat` 在全量套件中过（连拍抑制）
+- 任务2 心跳回归（验收原话=唤醒后消费动作→心跳刷新→liveness 转 alive）：**活体实测**——hook 喂本会话真实 session_id → title 解析 huangyaoshi → `role_registry status` 实见 `alive=[('kimi-cli', 0.0)]`；myqueue/claim 蹭拍全程在刷（本会话每次队列动作即实证）
+- 任务3 探针回归：新增 2 例（多行 E040 样本→2 记录无残片+board 一行一记录；v1→v2 迁移静默吸收+新增正常上浮）全绿
+- 全量：kdo-tools + 90_control **401 passed**（基线 392 + 新增 9：probe 2、myqueue 4、hook 3），零失败；inventory 覆盖门（#488）首跑拦下新组件未登记，补登记后过——门禁干活实录
+- 负向：hook 解析不出角色的会话不写心跳（测试覆盖）；`_consumption_heartbeat(None/非角色)` 跳过（测试覆盖）
+
+**交付物**：
+
+- `kdo-tools/conveyor_probe.py`（任务3）+ `kdo-tools/tests/test_conveyor_probe.py`（+2 例）
+- `90_control/scripts/queue_transition.py`（任务2 回执钩）+ `90_control/scripts/tests/test_myqueue.py`（+4 例）
+- `kdo-tools/kdo_session_heartbeat_hook.py`（新）+ `kdo-tools/tests/test_session_heartbeat_hook.py`（新，3 例）
+- `90_control/infrastructure-inventory.md`（组件登记）
+- 库外：`C:/Users/Administrator/.kimi-code/config.toml` 加 `[[hooks]] SessionHeartbeat` 注册（非 git 管理，人工自核）
+- `90_control/session-roles.json`（session→role 缓存首版入库；hook 运行时自维护，后续漂移属正常运行态）
+
+**边界**：未改 ROLE_PACE_MIN 节奏表；未改全死自报通道；冷却只压频不删报（任务1 已落地语义未动）；liveness 2×节奏判定未动；方案 A（wake 投递蹭拍）按任务倾向明确不采纳——时钟活着≠agent 活着；存量两条垃圾建议行划销归王语嫣（不在本单，已实证不再新增）。
+
+**需要谁动作**：欧阳锋终审（重点：方案 B 落点对稿确认、v2 迁移静默吸收口径、session-roles.json 不入 git 自裁）；**各角色 kimi 会话需重启才挂到 SessionHeartbeat 钩**（老会话无 60s 拍）；hermes 侧 profile 心跳脚本面不归本单（laowantong tick 属主归 #563）。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+- 🔴 声称但未入仓（untracked）: `C:/Users/Administrator/.kimi-code/config.toml`
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+🟡 ⚠️ 意见书含宽负向词（无）无核查锚点——按需人工确认（#433 不硬杀）；锚点：⚪ 无锚点
