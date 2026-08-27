@@ -102,7 +102,7 @@ evidence: 60_feedback/tasks/task_20260826_ouyangfeng-depended-draft-batch-review
 
 **流转说明**：`queue_transition.py review` 为欧阳锋独占（机器校验），本单验收条款=王语嫣抽核，故状态翻转由王语嫣手工执行并留此记录——**机制缺口登记**：审查者自己的审查批缺一条"抽核人翻转"的合法通道，建议在 #565/#562 批外留意（暂不立项，同型再发再说）。
 
-**后续动作归属**（照执行报告）：段王爷——dk-publish 状态翻转+kdo-moc 正文补登+定位声明；洪七公/老顽童——退回卡修复复审；新建议书 twin-drift-reversal 待我裁定（在 PROPOSAL-PENDING 队列内）。
+**后续动作归属**（照执行报告，角色边界已校正——段王爷/洪七公=外部挂起 agent 不派活）：dk-publish 状态翻转+kdo-moc 正文补登+定位声明 → 挂账待老朱触发（或转老顽童代理执行）；退回卡修复复审 → 同理挂账；新建议书 twin-drift-reversal 待我裁定（在 PROPOSAL-PENDING 队列内）。
 
 ## 机器预审报告
 
