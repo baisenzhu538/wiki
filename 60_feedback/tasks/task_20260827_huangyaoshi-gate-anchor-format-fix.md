@@ -1,12 +1,12 @@
 ---
 id: 569
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-27T23:55:00+00:00'
+status: in_progress
+updated_at: '2026-08-27T23:35:28.996092+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files:
-  - 90_control/scripts/queue_transition.py
+- 90_control/scripts/queue_transition.py
 ---
 
 # #569 门禁锚点三层不匹配修复 + 报错可操作化（期望格式样例）
