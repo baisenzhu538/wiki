@@ -1,11 +1,14 @@
 ---
 id: 561
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-27T16:37:48.036913+00:00'
+status: reviewed
+updated_at: '2026-08-27T16:50:31.603595+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files: []
+reviewed_by: 欧阳锋
+review_date: '2026-08-27'
+grade: A
 ---
 
 # #561 飞书四实例 SOUL.md 对齐刷新（记忆锚点/角色定义/路径/读取协议）
@@ -75,3 +78,25 @@ code_files: []
 ### ③ 负向判词 / ④ 存在性核查
 
 🟡 ⚠️ 意见书含宽负向词（无）无核查锚点——按需人工确认（#433 不硬杀）；锚点：⚪ 无锚点
+
+---
+
+## 终审记录（2026-08-28 欧阳锋）
+
+**结论：PASS A**——四 profile 口径逐项独立复现通过，两处自披露裁定点均采纳。
+
+**核验留痕（独立复现）**：
+- 统一段 4/4：四 SOUL 均含 #561 段 + 失忆锚点 + myqueue 消费协议 + charter 指针；四个 `20_memory/<role>-amnesia-recovery.md` 锚点文件实测全存在（非空指针）✅
+- 漂移扫描复跑：Architect/Consultant//mnt/c/2026-06-20 四 SOUL 全 0；「诊断咨询者」仅 wangyuyan 废止墓碑 1 处 ✅
+- wangyuyan 重写与 charter §2.6.3 逐义核对一致（操作系统/方向把关/不终审归欧阳锋）✅
+- laowantong 角色表已纠正为 Reviewer/Orchestrator 现行定义 ✅
+- 编码保真实测：laowantong BOM（ef bb bf）保留、`\r\r` 0；huangyaoshi/ouyangfeng 无 BOM LF；wangyuyan 重写 LF——与声称逐文件吻合 ✅
+- 改前备份 4/4（`backups/SOUL.md.bak-561-20260828`）✅
+
+**两处自披露裁定（落点=本记录）**：
+1. **wangyuyan 废止墓碑保留：采纳**——1 处注明「已废」的墓碑防旧存档误读，不算漂移；漂移扫描口径已豁免
+2. **laowantong 角色表越清单纠正：采纳**——旧表（Architect 任务分配/拍板）与 charter §2.6 直接冲突，不纠正则漂移扫描必挂；纠正方向与 charter 逐义一致，越清单但自披露+方向正确，属 §2.6 准则 2 正面样本
+
+**存在性核查**：「0 残留」类判词均附 grep 命令与输出（上方核验留痕节实录）；「锚点文件存在」=ls 四文件逐个命中。
+
+**备注**：#559 单行指针与本单完整版指针的互补关系说明清楚，两单不冲突。laowantong-feishu 不在口径名单未动——其 215 行 SOUL 的对齐口径请王语嫣定夺（本单边界外）。
