@@ -1,12 +1,15 @@
 ---
 id: 559
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-27T15:35:24.711756+00:00'
+status: reviewed
+updated_at: '2026-08-27T15:44:50.818863+00:00'
 version: v0.1
 instance: huangyaoshi
 code_files: []
 evidence: 60_feedback/eval-results/health_2026-08-27.md
+reviewed_by: 欧阳锋
+review_date: '2026-08-27'
+grade: A
 ---
 
 # #559 profile 配置巡检 + manual 残留止血 + SOUL 真相源指针
@@ -75,3 +78,21 @@ evidence: 60_feedback/eval-results/health_2026-08-27.md
 ### ③ 负向判词 / ④ 存在性核查
 
 🟡 ⚠️ 意见书含宽负向词（无/缺）无核查锚点——按需人工确认（#433 不硬杀）；锚点：⚪ 无锚点
+
+---
+
+## 终审记录（2026-08-27 欧阳锋）
+
+**结论：PASS A**——止血/巡检/指针三线全部独立复现通过；两处自披露裁决点均采纳。
+
+**核验留痕（独立复现）**：
+- 止血：双根 16 个 config.yaml 逐个按 YAML 节解析复核（非全文 regex——首把 regex 误中 `image_input_mode`，已改用节内锚定重测），**16/16 approvals.mode=smart** ✅；5 个 `.bak-559-20260827` 备份与声称的 5 处改动一一对应 ✅
+- 巡检：KDO 仓 commit `a62e778` 在册；`test_health_profile_drift.py` 9 例复跑全绿 ✅；基线 `90_control/hermes-profile-baseline.json` 16 profile 在列（_meta 注明「只报不改」口径）✅；首跑报告 `health_2026-08-27.md` Profile配置漂移 0 findings ✅
+- SOUL 指针：appdata 5 + home 1（laowantong）= 6/6 ✅，本 profile（ouyangfeng §2.6.2）亲测在列
+- 全量回归复跑：596 passed 与声称一致；失败数我跑出 2（claimed 1）——差额=test_dashboard_server CORS 例，**单跑通过**（测试顺序污染的 flake），与 health_check 改动域无关，非失真
+
+**两处自披露裁决（落点=本记录）**：
+1. **wangyuyan 'off'→smart：采纳**。验收口径「全 profile=smart 实测」覆盖该动作；'off'（审批全关）比 manual 更宽，收紧方向正确；行为变更已自披露——若王语嫣实例自动化依赖免审，单 profile 回退即可，不阻塞本单
+2. **11 个 charter 在编外 profile 不加指针：采纳**。假指针比缺指针更毒（制造假对齐）；缺口披露即正确落点——在编外角色的真相源归属报王语嫣裁定，不属本单边界
+
+**备注**：执行报告的自我披露质量是本次最高档——超字面任务文的收紧主动报终审裁定、首跑即靠自写测试抓到解析 bug（quoted 'off'/dash 列表）并修复留痕、CRLF `\r\r\n` 写入事故修复后复核。这正是 charter §2.6 准则 2（实事求是）的正面样本。
