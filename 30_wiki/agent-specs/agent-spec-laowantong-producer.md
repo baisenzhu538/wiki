@@ -135,3 +135,23 @@ tags:
 ## 迭代日志
 
 - **2026-08-23 v1.1**（老朱拍板直接授权修订，依据 #451）：工作流第 4 步增补「提审必备执行报告五字段 + 验证分层声明」铁律（F-034/#429；禁 --force 绕过入台账 #444；返工重提同标准）。
+
+---
+
+## 终审记录（#544 批次二 · 2026-08-27 · 欧阳锋）
+
+**结论：退回**——行为牌组编号与现行 context 直接矛盾，aliases 路径污染同型复发，v1.1 修订依据未入溯源链。
+
+**取证**：source_refs 6/6 存在；pre-submit PASS（CONCEPT_CROSSCHECK 提示制 warning）；charter 节号逐条对照 + 声称-来源对照（subagent 取证 + 终审抽核）。
+
+**缺陷**：
+- P1：卡内「L9 aliases 源名」与现行 `.agent/laowantong-context.md:278` 矛盾——现行 L9=「提审即验证流转」（E019），「aliases 源名」是 2026-07-26 旧编号（#209，见 production-queue-archive-20260823.md:210），E019 注入后已重编号。卡沿用旧口径背书 aliases 13 条路径片段
+- P1：aliases 混入 13 条源文件名/路径片段（kdo-charter-v0.1-draft.md、positions、laowantong.md、20_memory 等）——**#431 终审 A- 扣分项同型复发**（aliases 路径污染，F-040 禁路径词；角色 spec 卡 F-040 优先于 ALIASES 警告的既有裁定，20_memory L113/L117）
+- P1：source_refs 缺 v1.1 修订唯一依据 `60_feedback/tasks/task_20260823_laowantong-spec-exec-report-rule.md`（#451，已 PASS A-）——五字段/--reason 台账/返工同标准等 v1.1 全部新增条款的承载文件未入溯源链
+- P2：charter §2.6 节名误植——卡称「通用边界条款」，charter L71 实为「通用行为准则」（内容逐条对得上，节名错）
+- P2：「三证验证（E019）」——源定义是两步（status 确认队列行 + Read 任务单 frontmatter），「三证」一词六源无出处
+- P2：KF-024 扩用——源中 KF-024 仅指 framework 缺 Synthesis+Action Triggers（20_memory L111），卡把 dk/case 三类结构门禁统挂 KF-024
+- P2：「老朱直令（可插队补规格）」在 diag_20260822 L129 是王语嫣的 Trigger，卡挪作老顽童 Interface 上游
+- 证实项（对照留痕）：charter §2.1/§2.4/§2.5/§3.13 节号与内容对齐；L1-L8 牌组转述一致；「素材消费率 ≥80% 是领取门禁」逐字（positions/laowantong.md:9）；B2-3 血泪①②、G1/G2、批量三问、自迭代双回路/D4、三源并进全部可溯源
+
+**落点**：老顽童修订——L9 口径对齐现行 context（或注明历史编号演变）+ aliases 清路径片段（按 #431 裁定口径）+ source_refs 补 #451 任务单 + §2.6 节名/三证/KF-024 修订后复审（对照法：逐项 grep 本记录缺陷点）。

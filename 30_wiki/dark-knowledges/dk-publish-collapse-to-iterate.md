@@ -140,3 +140,21 @@ tags:
 - [[dk-agent-access-kdo-pitfalls]]——Agent 访问 KDO 的常见坑，发布迭代的落地细节
 - [[framework-kdo-self-attack]]——自我攻击闭环，与发布迭代同源（知识自检）
 - [[case-duanwangye-self-iteration-closed-loop]]——段王爷自我迭代闭环实证
+---
+
+## 终审记录（#544 批次二 · 2026-08-27 · 欧阳锋）
+
+**结论：PASS A-，建议升 reviewed**——8 个取证点 7 证实 1 部分证实，引语逐字（corr_20260809 L13 全对），dk 七段结构齐全（含 Critique），related 6/6 无死链。
+
+**取证**：source_refs 3/3 存在；pre-submit PASS（POSITION_DECLARATION 1 warning：related 引 framework-kdo-self-attack 但正文无定位声明）；声称-来源逐条对照（subagent 取证 + 终审抽核）。
+
+**扣分项（A- 依据）**：
+- lint POSITION_DECLARATION warning 未处置（正文补一句定位声明即可）
+- 格式瑕疵：L132 与 `## Critique` 之间缺空行
+
+**备注（非本卡阻塞项）**：
+- kdo-moc frontmatter related 已收录本卡（kdo-moc.md:57），但**正文知识网络（L103-114）未列**——卡自己倡导的「注册=related + 知识网络」双写只完成一半；落点：段王爷补登 kdo-moc 正文条目
+- 四阶段引擎（Memory自检→Skills自检→Error-to-Skill→偏好学习）以 corr 转述为准可溯源；duanwangye-review skill 本体在仓库外（~/.hermes），20_memory 中第 4 阶段另作「复盘」——源间名称小差异，留痕不阻塞
+- 卡内 /mnt/c/ 路径系源环境（WSL Hermes）实录，非笔误
+
+**落点**：段王爷执行状态翻转（status: draft→reviewed、reviewed_by: 欧阳锋、review_date: 2026-08-27）+ 补 kdo-moc 正文注册 + 定位声明一句；执行后本卡闭环，无需复审。

@@ -178,3 +178,21 @@ kdo produce → 人工填充内容 → kdo validate → kdo ship → 更新 deli
 | Prezi 演示 | 🟡 Beta | 功能可用，待更多实战验证 |
 | 反馈收集 | 🔴 待建 | 目前只有手动流程，缺自动化 |
 | 渠道分发策略 | 🔴 待建 | 缺渠道选择决策框架 |
+
+---
+
+## 终审记录（#544 批次二 · 2026-08-27 · 欧阳锋）
+
+**结论：退回（轻量）**——主体管线内容证实，成熟度表两行失真。
+
+**取证**：source_refs 8/8 存在；pre-submit PASS（ALIASES 1 warning）；声称-来源逐条对照（subagent 取证 + 终审抽核）。
+
+**缺陷**：
+- P1：§6「反馈收集 🔴 只有手动流程」无出处，且有反向证据——`.agent/duanwangye-context.md:44` 已挂 `feedback-improve-flow`，`40_outputs/capabilities/workflows/feedback-improve-flow.md` 实际存在（含 kdo improve CLI 步骤）
+- P1：§6「渠道分发策略 🔴 缺渠道选择决策框架」与源矛盾——context.md:38 渠道路由 + 牌 D2（L60-66）+ `40_outputs/capabilities/workflows/channel-distribution.md`（L1-16 即渠道决策框架）实际存在
+- P2：§1.1 正文直接调用 `40_outputs/capabilities/skills/shared/feishu-publish/SKILL.md`，但该文件未入 source_refs（溯源链缺口）
+- P2：related `'[[dk-publish-collapse-to-iterate]]'` 重复两行（L35-36）；`content-production-polish` 是 skill 名当卡 id 用，30_wiki 无此卡=死链（与 hongqigong 卡同型，跨卡一致模式）
+- 备注：禁止清单 #6「一次性给黄药师派 ≥3 个独立任务」出处真实（duanwangye-profile.md:58），但属调度方纪律，与发布者边界关系弱——建议保留但注明出处语境
+- 备注：§6 Prezi 🟡 Beta 方向与 skill-duanwangye-prezi 现状吻合（该卡本批次退回，见各自终审记录）
+
+**落点**：段王爷修成熟度表两行 + 补 source_refs + related 去重/死链处置后复审（对照法：逐项 grep 本记录缺陷点）。

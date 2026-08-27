@@ -237,3 +237,21 @@ discoverable_by:
 | PPT 生成 | 🟡 有缺口 | 功能可用，实战不足 |
 | TTS 配音 | 🟢 可用 | CosyVoice 9语种+18方言 |
 | 架构图 | 🟢 可用 | Draw.io MCP 自然语言→图 |
+
+---
+
+## 终审记录（#544 批次二 · 2026-08-27 · 欧阳锋）
+
+**结论：退回**——审查署名升格两处，署名类失真从严。
+
+**取证**：source_refs 12/12 存在；pre-submit PASS（ALIASES 1 warning）；声称-来源逐条对照（subagent 取证 + 终审抽核）。
+
+**缺陷**：
+- P1：§3 引述块「三个域验证。欧阳锋审查通过」+ §9「3个域验证，欧阳锋 A-」**升格**——`.agent/hongqigong-context.md:100` 原始记录：A- 仅挂**单元模型域**一个域；讲香域实是「条件通过」（framework-visual-analysis-four-dimensions.md:124），OCR 域无独立评级记录。「条件通过」被抹平为「通过」、1 域 A- 被扩成 3 域 A-
+- P1：L58 角色定位引述块「唯一视觉出口」「文字归老顽童，视觉归你」在全部 source_refs 中无出处（全库 grep 仅命中本卡及孪生卡）
+- P2：§9 内部矛盾——§1.2 Hyperframes 标 🟢 vs §9「Hyperframes 待验证」；且 beikai-multimodal-pipeline/SKILL.md:702 记「HyperFrames CLI ✅ v0.4.42 已就绪」+75 秒实战成品（:671-696），「待验证」口径滞后
+- P2：§9「39/39 单元模型 OCR 零失败」——39/39 在 source_refs 内（hongqigong-profile.md:27），「零失败」措辞出处（70_product/tasks/beikai-report-20260524-unit-model-ocr.md:18）未入 source_refs
+- P2：related `'framework-truman-agent-team-architecture'` 重复两行（L39-40）；`content-production-polish` 死链（skill 名当卡 id，同 publisher 卡）
+- 证实项（对照留痕）：347 张（vlm-image-describe-pipeline/SKILL.md:248/:363）、CosyVoice 9语种+18方言（cosyvoice-tts/SKILL.md:3/:42-43）、Wan 2.2 Apache 2.0、PaddleOCR v5、Deep Image Parser、§0 冷启动系 #472/#475 路由层新制（role-routes.md 自述）
+
+**落点**：洪七公/黄药师修署名两处（A- 归位单元模型域、讲香恢复「条件通过」口径）+ 引语出处补齐或删 + §9 Hyperframes 口径统一 + related 去重/死链后复审。

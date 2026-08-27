@@ -86,3 +86,20 @@ discoverable_by:
 - AI 生图依赖外部管线（Evan-gpt-image / ComfyUI），本 skill 不内置
 - impress.js 依赖 CDN（jsDelivr），纯离线需手动内联 JS
 - 浏览器兼容：需现代浏览器（Chrome/Firefox/Safari/Edge），不支持 IE
+
+---
+
+## 终审记录（#544 批次二 · 2026-08-27 · 欧阳锋）
+
+**结论：退回**——source_refs 唯一条目非仓库路径（P0），两处能力声称失真。
+
+**取证**：source_refs 0/1 有效（`capability/duanwangye/prezi` 磁盘不存在，check-source-refs.py 实证 refs_missing:1）；pre-submit PASS（SOURCE_REACHABILITY 未拦——门禁链缺口，见 lint 盲区建议书追加实证）；声称-来源对照（subagent 取证 + 终审抽核）。
+
+**缺陷**：
+- P0：source_refs 唯一条目 `capability/duanwangye/prezi` 非仓库路径。真实出处实存：`10_raw/sources/multimodal-output/王欢：把一个想法，做成一张会移动的无限画布/王欢：把一个想法，做成一张会移动的无限画布.md` + `40_outputs/capabilities/skills/infinite-canvas-prezi/`（adapted_from 所指）。**同主题四张姊妹卡（concept/tool/dk/case，2026-07-21 批次已 PASS A-）均引 10_raw 真路径，本卡是例外**。注意：段王爷系另 4 张 skill 卡（含 2 张已 reviewed）也用同款虚构路径——家族性惯例，已单列建议
+- P1：「画布策划（5种：中心辐射/线性/左右/环形/Z字形）」无出处且与源矛盾——源文与已审 concept 卡（concept-spatial-narrative-design.md:61-68）均为**四种**（路径/嵌套/对比/环形）；「Z字形」源文完全不出现；「中心辐射」仅是某案例的结构描述（源文 L287）非分类枚举项
+- P1：「独立终审 ✅ delegate_task 起独立子Agent」——delegate_task 在库内无机制定义，且知识状态是**待验证**（diag_20260721_wangyuyan-infinite-canvas-kdo-factory.md:114 原文是疑问句「能否复用 delegate_task？」）；卡标 ✅ 属能力虚标
+- P2：卡自称「当前人工核验」比原 skill 红线宽松——infinite-canvas-prezi/SKILL.md:120 要求「闸门脚本未就绪时不得跳过闸门直接交付」
+- 证实项（对照留痕）：防晕规则（源文 L161 逐条对应）、聚簇四原则（L115/L119）、impress.js 2.0.0（源文 L377 + manifest.yaml:6）、prezi_gate.py 待迁移（全库无此文件，SKILL.md:120 同口径）、related 3/3 无死链、被 agent-spec-duanwangye-publisher 依赖关系真实
+
+**落点**：段王爷修 source_refs（引 10_raw 真路径 + infinite-canvas-prezi 包）+ 空间结构改四种对齐已审 concept 卡 + delegate_task 降 ⚠️ 注明待验证 + 人工核验口径对齐原 skill 红线后复审。
