@@ -19,6 +19,7 @@
 """
 import argparse
 import json
+import re
 import sys
 import time
 from datetime import datetime
@@ -35,6 +36,51 @@ TODOS_DIR = ROOT / "90_control" / "todos"
 
 WAKE_PAYLOAD = ("【叫醒】{role}：读 todos/{role}.md 未读段 + 看板名下状态"
                 "（有任务按队列序施工；无任务报告待命）")
+
+QUEUE_FILE = ROOT / "70_product" / "tasks" / "production-queue.md"
+_REVIEW_LINE_RE = re.compile(
+    r"^- #(\d+) (\S+)｜(\S+)｜提审 (\d{2})-(\d{2}) (\d{2}):(\d{2})")
+
+
+def _pending_review_details(now: float | None = None) -> str:
+    """#565 任务2：唤醒载荷附 REVIEW-PENDING 明细（单号+挂起时长+阻塞谁=任务属主）。
+
+    挂起超 30min 升级 🚨 加急措辞。解析 production-queue.md REVIEW-PENDING 段
+    （未划销行）；解析失败/为空=返回空串，载荷退回基础模板（不阻断唤醒）。
+    """
+    try:
+        text = QUEUE_FILE.read_text(encoding="utf-8")
+    except OSError:
+        return ""
+    m = re.search(r"<!-- REVIEW-PENDING-BEGIN[^>]*-->(.*?)<!-- REVIEW-PENDING-END",
+                  text, re.S)
+    if not m:
+        return ""
+    now_dt = datetime.fromtimestamp(now or time.time())
+    items = []
+    for ln in m.group(1).splitlines():
+        ln = ln.strip()
+        if ln.startswith("- ~~"):  # 已终审划销行
+            continue
+        mm = _REVIEW_LINE_RE.match(ln)
+        if not mm:
+            continue
+        seq, _tid, assignee, mo, dd, hh, mi = mm.groups()
+        try:
+            submitted = datetime(now_dt.year, int(mo), int(dd), int(hh), int(mi))
+        except ValueError:
+            continue
+        age_min = int((now_dt - submitted).total_seconds() // 60)
+        if age_min < 0:  # 跨年/时钟异常的负年龄不当挂起
+            age_min = 0
+        items.append((seq, assignee, age_min))
+    if not items:
+        return ""
+    worst = max(i[2] for i in items)
+    detail = "；".join(f"#{s}（{a} 的单，挂审 {age}min）" for s, a, age in items)
+    if worst > 30:
+        return f"🚨 待终审挂起超 30min：{detail}"
+    return f"待终审明细：{detail}"
 
 # 事件驱动角色：pending_review 非空即醒（设计稿 §3 欧阳锋口径）；最小间隔防抖
 EVENT_DRIVEN = {"ouyangfeng": {"signal": "pending_review", "min_interval_min": 10}}
@@ -144,8 +190,13 @@ def deliver(role: str, text: str, reason: str, entry: dict | None = None,
 
 
 def wake(role: str, reason: str, entry: dict | None = None, dry_run: bool = False) -> list[str]:
-    """唤醒单角色：统一模板文案走 deliver（#554 后 wake=deliver 的模板特化）。"""
-    return deliver(role, WAKE_PAYLOAD.format(role=role), reason, entry, dry_run)
+    """唤醒单角色：统一模板文案走 deliver（#554 后 wake=deliver 的模板特化）。
+    #565：载荷附 REVIEW-PENDING 明细（有则挂尾，无则基础模板）。"""
+    payload = WAKE_PAYLOAD.format(role=role)
+    details = _pending_review_details()
+    if details:
+        payload = f"{payload}——{details}"
+    return deliver(role, payload, reason, entry, dry_run)
 
 
 def run(dry_run: bool = False, now: float | None = None) -> int:

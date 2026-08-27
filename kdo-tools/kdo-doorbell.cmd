@@ -1,16 +1,21 @@
 @echo off
 rem KDO huangyaoshi OS-level doorbell (2026-08-28, #565 preview).
-rem Fired by schtasks every 15min: resume the wiki session and run one wake turn.
-rem Session lock conflict (interactive session alive) = harmless fail-open: exit, next beat retries.
-rem Keep this file pure ASCII (cmd reads ANSI).
+rem schtasks every 15min: resume wiki session, run one wake turn.
+rem Session lock conflict (interactive alive) = fail-open: exit, next beat retries.
+rem Pure ASCII + CRLF (cmd reads ANSI; LF-only batch mis-parses).
 set KIMI=C:\Users\Administrator\.kimi-code\bin\kimi.exe
 set ROOT=C:\Users\Administrator\Desktop\wiki
 set LOG=%ROOT%\logs\kimi-doorbell.log
 cd /d %ROOT%
+python "%ROOT%\kdo-tools\kdo_doorbell_guard.py" huangyaoshi
+if errorlevel 1 (
+  echo %time% session alive, skip >> %LOG%
+  exit /b 0
+)
 echo === %date% %time% doorbell fire === >> %LOG%
-"%KIMI%" -c --auto -p "门铃自检：读 90_control/todos/huangyaoshi.md 未读段 + 跑 python 90_control/scripts/queue_transition.py myqueue huangyaoshi。有新终审/新任务/新消息→按队列序施工或响应；无事→一句话待命并立即结束。" >> %LOG% 2>&1
+"%KIMI%" -c -p "Menling self-check: read unread segment of 90_control/todos/huangyaoshi.md + run python 90_control/scripts/queue_transition.py myqueue huangyaoshi. If myqueue shows an in-progress (claimed-huangyaoshi) task -> CONTINUE that task (read its task file, keep building, do not claim new). Else if claimable tasks exist -> claim the first in queue order and work it. New reviews/messages -> respond. Nothing -> one-line standby and end." >> %LOG% 2>&1
 if errorlevel 1 (
   echo %time% resume failed, starting fresh session >> %LOG%
-  "%KIMI%" --auto -p "你是黄药师（Builder）：先读 AGENTS.md + .agent/startup.md 开机（含第0步门铃自查）。然后门铃自检：读 90_control/todos/huangyaoshi.md 未读段 + 跑 python 90_control/scripts/queue_transition.py myqueue huangyaoshi，有事施工无事待命即结束。" >> %LOG% 2>&1
+  "%KIMI%" -p "You are huangyaoshi (Builder): first read AGENTS.md + .agent/startup.md (incl. step-0 doorbell self-check). Then: read unread segment of 90_control/todos/huangyaoshi.md + run python 90_control/scripts/queue_transition.py myqueue huangyaoshi. If myqueue shows an in-progress task -> continue it, do not claim new. Else claim first claimable and work it. Nothing -> standby and end." >> %LOG% 2>&1
 )
-echo === %date% %time% doorbell done (exit %errorlevel%) === >> %LOG%
+echo === %date% %time% doorbell done exit=%errorlevel% === >> %LOG%

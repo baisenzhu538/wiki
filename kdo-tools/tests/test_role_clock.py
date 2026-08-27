@@ -137,3 +137,50 @@ def test_wake_with_feishu_channel_pushes(tmp_path, monkeypatch):
     entry = {"active": "hermes", "instances": [{"tool": "hermes", "channels": ["feishu"]}]}
     touched = rc.wake("laowantong", "到点", entry)
     assert "feishu" in touched and sent
+
+
+# ── #565 任务2：唤醒载荷带 REVIEW-PENDING 明细回归 ──
+
+def _queue_with_review(tmp_path, age_min):
+    from datetime import datetime, timedelta
+    submitted = datetime.now() - timedelta(minutes=age_min)
+    q = tmp_path / "production-queue.md"
+    q.write_text(
+        "<!-- REVIEW-PENDING-BEGIN -->\n"
+        f"- #563 task_x｜huangyaoshi｜提审 {submitted.strftime('%m-%d %H:%M')}｜p\n"
+        "- ~~#562 task_y｜huangyaoshi｜提审 08-27 20:00｜p~~ → 已终审 PASS A\n"
+        "<!-- REVIEW-PENDING-END -->\n", encoding="utf-8")
+    return q
+
+
+def test_pending_review_details_normal(tmp_path, monkeypatch):
+    monkeypatch.setattr(rc, "QUEUE_FILE", _queue_with_review(tmp_path, 12))
+    d = rc._pending_review_details()
+    assert "#563" in d and "huangyaoshi" in d and "挂审 12min" in d
+    assert not d.startswith("🚨")  # 12min 不升级
+    assert "#562" not in d  # 划销行不进明细
+
+
+def test_pending_review_details_escalate_over_30min(tmp_path, monkeypatch):
+    monkeypatch.setattr(rc, "QUEUE_FILE", _queue_with_review(tmp_path, 45))
+    d = rc._pending_review_details()
+    assert d.startswith("🚨") and "45min" in d
+
+
+def test_pending_review_details_empty_and_missing(tmp_path, monkeypatch):
+    monkeypatch.setattr(rc, "QUEUE_FILE", tmp_path / "nonexistent.md")
+    assert rc._pending_review_details() == ""  # 缺文件不阻断
+    q = tmp_path / "q.md"
+    q.write_text("<!-- REVIEW-PENDING-BEGIN -->\n\n<!-- REVIEW-PENDING-END -->\n", encoding="utf-8")
+    monkeypatch.setattr(rc, "QUEUE_FILE", q)
+    assert rc._pending_review_details() == ""
+
+
+def test_wake_payload_carries_details(tmp_path, monkeypatch):
+    """wake 载荷挂明细尾：有待终审 → todos 落盘文本含单号；无 → 基础模板。"""
+    _wire(tmp_path, monkeypatch, _REG)
+    monkeypatch.setattr(rc, "QUEUE_FILE", _queue_with_review(tmp_path, 40))
+    rc.wake("laowantong", "事件驱动：有待终审",
+            {"active": "cli", "instances": [{"tool": "cli", "channels": ["todos"]}]})
+    text = (tmp_path / "todos" / "laowantong.md").read_text(encoding="utf-8")
+    assert "🚨" in text and "#563" in text
