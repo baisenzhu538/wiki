@@ -64,11 +64,11 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 </head>
 <body>
 <h1>KDO 生产看板</h1>
-<p class="subtitle">production-queue.md · 自动生成于 2026-08-27 19:33</p>
+<p class="subtitle">production-queue.md · 自动生成于 2026-08-27 20:46</p>
 
 <div class="stats">
-<div class="stat queued"><div class="stat-num">5</div><div class="stat-label">待领取 Queued</div></div>
-<div class="stat pending"><div class="stat-num">2</div><div class="stat-label">审查中 Review</div></div>
+<div class="stat queued"><div class="stat-num">7</div><div class="stat-label">待领取 Queued</div></div>
+<div class="stat pending"><div class="stat-num">1</div><div class="stat-label">审查中 Review</div></div>
 <div class="stat active"><div class="stat-num">0</div><div class="stat-label">进行中 Active</div></div>
 <div class="stat done"><div class="stat-num">138</div><div class="stat-label">已完成 Done</div></div>
 <div class="stat owner"><div class="stat-num">5</div><div class="stat-label">活跃角色</div></div>
@@ -93,10 +93,13 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 <span class="task-assignee ouyangfeng">欧阳锋</span>
 </div>
 </div>
+</div>
+<div class="task-group">
+<div class="group-header queued">待领取</div>
 <div class="task-card">
 <div class="task-prio p1">P1</div>
 <div class="task-info">
-<div class="task-id">#556<span class="task-grade g-BLOCK">🔴阻塞链</span></div>
+<div class="task-id">#556</div>
 <div class="task-title">待老朱拍板事项上浮：conveyor_probe第八信号检出「reviewed+含拍板字样」→即时推+daily digest固定栏直到消项</div>
 <div class="task-detail">**老朱08-27拍板直令**；#525设计稿等拍板躺两天实证——设计→拍板→实施链断在拍板环节无信号面；只向前生效不回扫存量；§3.19矩阵登记；欧阳锋终审</div>
 </div>
@@ -104,9 +107,6 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 <span class="task-assignee huangyaoshi">黄药师</span>
 </div>
 </div>
-</div>
-<div class="task-group">
-<div class="group-header queued">待领取</div>
 <div class="task-card">
 <div class="task-prio p1">P1</div>
 <div class="task-info">
@@ -156,7 +156,18 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 <div class="task-info">
 <div class="task-id">#562</div>
 <div class="task-title">liveness报警风暴止血：check_liveness幂等冷却（同角色2h）+心跳语义修复（消费回执=心跳）+第五探针多行解析</div>
-<div class="task-detail">老朱质询KDO秘书推送异常诊断（08-27王语嫣）：07:42起每5分钟误报25+条——活跃≠心跳（本人回话中被判死亡实证），时钟蹭拍设计有未实现；附带E040多行残片登记bug；只压频不删报；欧阳锋终审</div>
+<div class="task-detail">老朱质询KDO秘书推送异常诊断（08-27王语嫣）：07:42起每5分钟误报25+条——活跃≠心跳（本人回话中被判死亡实证），时钟蹭拍设计有未实现；附带E040多行残片登记bug；只压频不删报；**任务1止血+GBK已由王语嫣19:21应急…</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee huangyaoshi">黄药师</span>
+</div>
+</div>
+<div class="task-card">
+<div class="task-prio p1">P1</div>
+<div class="task-info">
+<div class="task-id">#563</div>
+<div class="task-title">hermes飞书四实例时钟配置：ouyangfeng/huangyaoshi/wangyuyan三profile裸奔补齐+laowantong卡死恢复+心跳入注册表</div>
+<div class="task-detail">**老朱08-27直令**「飞书四个角色都需要配置时钟」；实证：三profile连cron/jobs.json都没有，唯一有的laowantong卡死08-26 22:30；节奏口径同#555（15/30/事件驱动+30兜底/15）；与#5…</div>
 </div>
 <div class="task-meta">
 <span class="task-assignee huangyaoshi">黄药师</span>
@@ -244,7 +255,7 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 </div>
 </div>
 
-<header style="display:none"><!-- generated-by: generate-dashboard.py · updated_at: 2026-08-27 19:33 · git_head: 4e16fe565 --></header>
-<footer>KDO 知识工厂 · 由 generate-dashboard.py 自动生成 · 2026-08-27 19:33</footer>
+<header style="display:none"><!-- generated-by: generate-dashboard.py · updated_at: 2026-08-27 20:46 · git_head: 089cc8ff2 --></header>
+<footer>KDO 知识工厂 · 由 generate-dashboard.py 自动生成 · 2026-08-27 20:46</footer>
 </body>
 </html>
