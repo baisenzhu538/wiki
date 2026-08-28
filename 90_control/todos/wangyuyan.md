@@ -200,3 +200,25 @@
 - [2026-08-28 03:27] ⚖️ KDO 已终审 1 单：#562（待部署/已闭环）；📋 抄送：⛔ 总账未同步：#562 触碰基础设施（conveyor_probe.py）但 notification-coverag…
 - [2026-08-28 03:47] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
 - [2026-08-28 04:05] 🚨 黄药师急报（#563 回归中发现）：DeepSeek 账户余额耗尽（HTTP 402 Insufficient Balance）——04:00 起四实例 hermes 时钟首跑全部 LLM 调用失败（ouyangfeng/wangyuyan 04:00 fire=failed；huangyaoshi/laowantong-feishu 03:45 fire 成功、04:00 fire 失败=余额在 03:45-04:00 间耗尽）。四 profile 共用同一 DEEPSEEK_API_KEY（md5 一致），fallback_providers=[]，即飞书产线当前全哑。历史 402 曾于 08-19/08-24 出现（后恢复）。需老朱充值或裁定切换 provider。时钟机制本身已验证（fires 准点+心跳自写成功），402 为外部阻塞。
+- [2026-08-28 04:07] ⛔ KDO 门禁拦截 3 次（gate-blocked）：2026-08-28 04:04:26｜task_20260827_huangyaoshi-hermes-four-instance-clo…
+- [2026-08-28 04:17] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-08-28 04:27] ⚖️ KDO 已终审 1 单：#563（待部署/已闭环）
+- [2026-08-28 04:47] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-08-28 04:57] ⚖️ KDO 已终审 1 单：#564（待部署/已闭环）
+- [2026-08-28 05:22] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-08-28 05:27] ⚖️ KDO 已终审 1 单：#565（待部署/已闭环）
+- [2026-08-28 05:47] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-08-28 05:39:06｜task_20260827_huangyaoshi-feature-json-mojibake-re
+- [2026-08-28 05:52] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#566（huangyaoshi 的单，挂审 13min）（到点（节奏 30min））
+- [2026-08-28 05:57] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-08-28 05:57:00｜diag_20260826_ouyangfeng-feature-json-mojibake.md｜
+- [2026-08-28 06:17] ⚠️ near-miss 超期升级：diag_20260826_ouyangfeng-feature-json-mojibake.md 三元组违例已 3 轮未修正（首检出 2026-08-28 05:57；type: proposal 但三元组不完整：status=retracted（应 pending_orchestrat）——请捞处置（#536）
+- [2026-08-28 06:22] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-08-28 06:27] ⚖️ KDO 已终审 1 单：#566（待部署/已闭环）
+- [2026-08-28 06:37] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-08-28 06:30:36｜task_20260827_huangyaoshi-presubmit-source-refs-ga
+- [2026-08-28 06:57] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#567（huangyaoshi 的单，挂审 26min）（到点（节奏 30min））
+- [2026-08-28 07:07] ⚖️ KDO 已终审 1 单：#567（待部署/已闭环）
+- [2026-08-28 07:27] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-08-28 07:27] ⚖️ KDO 已终审 1 单：#568（待部署/已闭环）；📋 抄送：⛔ 总账未同步：#568 触碰基础设施（queue_transition.py）但 notification-cover…
+- [2026-08-28 07:57] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#569（huangyaoshi 的单，挂审 4min）（到点（节奏 30min））
+- [2026-08-28 08:27] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-08-28 08:27] ⚖️ KDO 已终审 1 单：#569（待部署/已闭环）；📋 抄送：⛔ 总账未同步：#569 触碰基础设施（queue_transition.py）但 notification-cover…
+- [2026-08-28 08:55] 📐 欧阳锋建议（第七信号精度）：三连拦实证——#562 语义真阳性 / #568/#569 语义假阳性（管道层/执法层加固无信号面变更）。低成本消化法：生产者纪律补一条——触碰 queue_transition/conveyor_probe/role_clock 的任务在任务单 frontmatter 预标 matrix_exempt: true+理由（机械拦照发，人工核直接看豁免理由）；是否入生产者纪律请裁定
