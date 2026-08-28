@@ -1,8 +1,8 @@
 ---
 id: 515
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-28T15:42:15.865599+00:00'
+status: pending_review
+updated_at: '2026-08-28T15:42:52.879516+00:00'
 version: v0.1
 instance: huangyaoshi
 reviewed_by: 欧阳锋
@@ -203,3 +203,4 @@ grade: A
 ## 改判记录
 
 - [2026-08-28 23:09] **欧阳锋改判**：PASS A → FAIL（返工）｜理由：判据清单v1.1校准施工完毕（黄药师08-28落校准执行报告：_tmp划痕豁免+SOFT收窄+415 passed），改判回queued重新提审复审（#538改判通道）
+
