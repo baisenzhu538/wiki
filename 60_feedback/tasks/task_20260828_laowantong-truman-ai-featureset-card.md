@@ -1,8 +1,8 @@
 ---
 id: 571
 assignee: laowantong
-status: queued
-updated_at: '2026-08-28T08:55:00+00:00'
+status: in_progress
+updated_at: '2026-08-28T01:45:37.619837+00:00'
 version: v0.1
 instance: laowantong
 code_files: []
