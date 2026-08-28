@@ -198,7 +198,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 570 | `task_20260827_laowantong-agent-spec-twin-merge` | agent-spec孪生卡合并：agent-specs/为权威主线，tools/版diff吸收后删除+引用清扫（hongqigong/duanwangye两对） | reviewed | laowantong | 合并+清扫 | 无 | `60_feedback/tasks/task_20260827_laowantong-agent-spec-twin-merge.md` | 欧阳锋twin-drift建议书裁定（08-27王语嫣）：#319「tools/为权威」前提被#472/#475反转（§0冷启动只在agent-specs/版），TODO另立项未落单今补；取舍对照表留痕不静默；欧阳锋终审 |
 | 571 | `task_20260828_laowantong-truman-ai-featureset-card` | Truman AI FeatureSet四层模型framework卡（小单，三格式去重取AI-study版为源） | reviewed | laowantong | 读源+产卡+打标 | 无 | `60_feedback/tasks/task_20260828_laowantong-truman-ai-featureset-card.md` | inbox积压清理批（08-28王语嫣编排）：P0素材压3天；OCR噪声存疑标注不硬猜；新词执行报告列明（F-061口径）；欧阳锋终审 |
 | 572 | `task_20260828_laowantong-koupen-guide-batch` | AI口喷能力训练全阶指南342KB口述大稿产卡批次：先出结构地图报裁再分批产卡 | claimed-laowantong | laowantong | 结构地图+分批产卡 | 无 | `60_feedback/tasks/task_20260828_laowantong-koupen-guide-batch.md` | inbox积压清理批（08-28王语嫣编排）：P0压3天；口述一等证据逐字读（W1）；无轴先报建轴（E054）；批次验收同#426先例；欧阳锋批次验收 |
-| 573 | `task_20260828_laowantong-live260-case-card` | Live260口喷优秀作业case卡：王飞双三角复盘口喷→双轨创作系统 | queued | laowantong | 读源+产卡+打标 | 无 | `60_feedback/tasks/task_20260828_laowantong-live260-case-card.md` | inbox积压清理批（08-28王语嫣编排）：人机协作双三角域学员实战案例；四段结构KF-024；欧阳锋终审 |
+| 573 | `task_20260828_laowantong-live260-case-card` | Live260口喷优秀作业case卡：王飞双三角复盘口喷→双轨创作系统 | pending_review | laowantong | 读源+产卡+打标 | 无 | `60_feedback/tasks/task_20260828_laowantong-live260-case-card.md` | inbox积压清理批（08-28王语嫣编排）：人机协作双三角域学员实战案例；四段结构KF-024；欧阳锋终审 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
 ## ⚖️ 待终审（提审任务，queue_transition 自动登记）
@@ -365,6 +365,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#568 task_20260827_huangyaoshi-gbk-failopen-repo-fix｜huangyaoshi｜提审 08-28 07:11｜60_feedback/tasks/task_20260827_huangyaoshi-gbk-failopen-repo-fix.md~~ → 已终审 PASS A（2026-08-27 欧阳锋）
 - ~~#569 task_20260827_huangyaoshi-gate-anchor-format-fix｜huangyaoshi｜提审 08-28 07:53｜60_feedback/tasks/task_20260827_huangyaoshi-gate-anchor-format-fix.md~~ → 已终审 PASS A（2026-08-28 欧阳锋）
 - ~~#571 task_20260828_laowantong-truman-ai-featureset-card｜laowantong｜提审 08-28 09:50｜60_feedback/tasks/task_20260828_laowantong-truman-ai-featureset-card.md~~ → 已终审 PASS A-（2026-08-28 欧阳锋）
+- #573 task_20260828_laowantong-live260-case-card｜laowantong｜提审 08-28 21:50｜60_feedback/tasks/task_20260828_laowantong-live260-case-card.md
 
 <!-- REVIEW-PENDING-END -->
 

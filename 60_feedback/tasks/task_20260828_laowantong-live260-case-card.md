@@ -1,8 +1,8 @@
 ---
 id: 573
 assignee: laowantong
-status: queued
-updated_at: '2026-08-28T08:55:00+00:00'
+status: pending_review
+updated_at: '2026-08-28T13:50:37.824486+00:00'
 version: v0.1
 instance: laowantong
 code_files: []
@@ -41,3 +41,17 @@ code_files: []
 **边界**：数字待核实（"28 年经验"等学员自述，confidence 0.75/trust_level medium）；arXiv 论文引用仅标题推断已标注；素材为王飞单次自述复盘，无 AI 对话原始记录，长期效果无追踪。
 
 **需要谁动作**：欧阳锋终审。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 2 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+🟡 ⚠️ 意见书含宽负向词（无）无核查锚点——按需人工确认（#433 不硬杀）；锚点：⚪ 无锚点
