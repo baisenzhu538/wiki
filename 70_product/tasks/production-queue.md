@@ -196,6 +196,9 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 568 | `task_20260827_huangyaoshi-gbk-failopen-repo-fix` | GBK族仓库级根治：subprocess编码+Popen reader线程+fail-open吞异常可见化+probe stdout污染（通知走stderr） | reviewed | huangyaoshi | 根治+回归 | 无 | `60_feedback/tasks/task_20260827_huangyaoshi-gbk-failopen-repo-fix.md` | 欧阳锋两建议书合并裁定（08-27王语嫣）P1门禁静默致盲风险；三例活体实证（含#556 FAIL流转reader线程炸）；CLI入口统一reconfigure utf-8；欧阳锋终审 |
 | 569 | `task_20260827_huangyaoshi-gate-anchor-format-fix` | 门禁锚点三层修复：ALIASES读文件不读索引/F-034前缀匹配/E040节边界放宽+报错带期望格式样例 | reviewed | huangyaoshi | 修复+回归 | 无 | `60_feedback/tasks/task_20260827_huangyaoshi-gate-anchor-format-fix.md` | 老顽童建议书裁定（08-27王语嫣）：#551连拦三次全是锚点格式非内容；机器可读性原则不动只让报错可操作；tools/垃圾aliases生成源排查挂此；欧阳锋终审 |
 | 570 | `task_20260827_laowantong-agent-spec-twin-merge` | agent-spec孪生卡合并：agent-specs/为权威主线，tools/版diff吸收后删除+引用清扫（hongqigong/duanwangye两对） | reviewed | laowantong | 合并+清扫 | 无 | `60_feedback/tasks/task_20260827_laowantong-agent-spec-twin-merge.md` | 欧阳锋twin-drift建议书裁定（08-27王语嫣）：#319「tools/为权威」前提被#472/#475反转（§0冷启动只在agent-specs/版），TODO另立项未落单今补；取舍对照表留痕不静默；欧阳锋终审 |
+| 571 | `task_20260828_laowantong-truman-ai-featureset-card` | Truman AI FeatureSet四层模型framework卡（小单，三格式去重取AI-study版为源） | queued | laowantong | 读源+产卡+打标 | 无 | `60_feedback/tasks/task_20260828_laowantong-truman-ai-featureset-card.md` | inbox积压清理批（08-28王语嫣编排）：P0素材压3天；OCR噪声存疑标注不硬猜；新词执行报告列明（F-061口径）；欧阳锋终审 |
+| 572 | `task_20260828_laowantong-koupen-guide-batch` | AI口喷能力训练全阶指南342KB口述大稿产卡批次：先出结构地图报裁再分批产卡 | queued | laowantong | 结构地图+分批产卡 | 无 | `60_feedback/tasks/task_20260828_laowantong-koupen-guide-batch.md` | inbox积压清理批（08-28王语嫣编排）：P0压3天；口述一等证据逐字读（W1）；无轴先报建轴（E054）；批次验收同#426先例；欧阳锋批次验收 |
+| 573 | `task_20260828_laowantong-live260-case-card` | Live260口喷优秀作业case卡：王飞双三角复盘口喷→双轨创作系统 | queued | laowantong | 读源+产卡+打标 | 无 | `60_feedback/tasks/task_20260828_laowantong-live260-case-card.md` | inbox积压清理批（08-28王语嫣编排）：人机协作双三角域学员实战案例；四段结构KF-024；欧阳锋终审 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
 ## ⚖️ 待终审（提审任务，queue_transition 自动登记）
@@ -406,21 +409,21 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~00_inbox/pending-cards/case-wechat-fe60439837f4c93e.md｜P2｜2361B｜检测到 08-24 16:51｜待王语嫣编排~~ → 已处置（同上，#516 根治）
 - ~~00_inbox/pending-cards/_processed/case-wechat-2404c1658025473c.regen-20260825.md｜P2｜3247B｜检测到 08-24 17:21｜待王语嫣编排~~ → 已处置（08-25 王语嫣：第三次再生=01:21 修复前最后发作——#516 于 10:11 落修复含 regen 变体去重，此后 11h 零再生；探针登记隔离件属正常灵敏，同案已判定合并不重复编排；01:21 根目录副本已再隔离 _processed/*.regen2-20260825-0121）
 - ~~00_inbox/pending-cards/_processed/case-wechat-fe60439837f4c93e.regen-20260825.md｜P2｜2361B｜检测到 08-24 17:21｜待王语嫣编排~~ → 已处置（同上）
-- 00_inbox/pending-cards/case-wechat-2404c1658025473c.md｜P2｜3247B｜检测到 08-24 17:31｜待王语嫣编排
-- 00_inbox/pending-cards/case-wechat-fe60439837f4c93e.md｜P2｜2361B｜检测到 08-24 17:31｜待王语嫣编排
-- 00_inbox/pending-cards/_processed/case-wechat-2404c1658025473c.regen2-20260825-0121.md｜P2｜3247B｜检测到 08-25 13:31｜待王语嫣编排
-- 00_inbox/pending-cards/_processed/case-wechat-fe60439837f4c93e.regen2-20260825-0121.md｜P2｜2361B｜检测到 08-25 13:31｜待王语嫣编排
-- 00_inbox/AI-study/一堂-AI学习-truman自用的AI FeatureSet_paddle_ocr.txt｜P0｜1312B｜检测到 08-25 14:21｜待王语嫣编排
-- 00_inbox/ocr_ingest/src_ocr_一堂_AI学习_truman自用的AI_FeatureSet.md｜P0｜2307B｜检测到 08-25 14:21｜待王语嫣编排
-- 00_inbox/paddle_batch/一堂-AI学习-truman自用的AI FeatureSet_paddle_ocr.md｜P0｜1897B｜检测到 08-25 14:21｜待王语嫣编排
-- 00_inbox/AI口喷能力训练全阶指南-口述.txt｜P0｜342105B｜检测到 08-25 15:01｜待王语嫣编排
+- ~~00_inbox/pending-cards/case-wechat-2404c1658025473c.md｜P2｜3247B｜检测到 08-24 17:31｜待王语嫣编排~~ → 已处置（08-28 王语嫣编排判定：退回不产卡）——偶遇视频号OCR草稿音译污染重（喬治阿克爾/碰東來/農夫山全）+常识级内容（柠檬市场/信任模型），源留 wechat-collect 不产卡；regen 变体同案并轨
+- ~~00_inbox/pending-cards/case-wechat-fe60439837f4c93e.md｜P2｜2361B｜检测到 08-24 17:31｜待王语嫣编排~~ → 已处置（08-28 王语嫣编排判定：退回不产卡）——偶遇视频号OCR草稿音译污染重（喬治阿克爾/碰東來/農夫山全）+常识级内容（柠檬市场/信任模型），源留 wechat-collect 不产卡；regen 变体同案并轨
+- ~~00_inbox/pending-cards/_processed/case-wechat-2404c1658025473c.regen2-20260825-0121.md｜P2｜3247B｜检测到 08-25 13:31｜待王语嫣编排~~ → 已处置（08-28 王语嫣编排判定：退回不产卡）——偶遇视频号OCR草稿音译污染重（喬治阿克爾/碰東來/農夫山全）+常识级内容（柠檬市场/信任模型），源留 wechat-collect 不产卡；regen 变体同案并轨
+- ~~00_inbox/pending-cards/_processed/case-wechat-fe60439837f4c93e.regen2-20260825-0121.md｜P2｜2361B｜检测到 08-25 13:31｜待王语嫣编排~~ → 已处置（08-28 王语嫣编排判定：退回不产卡）——偶遇视频号OCR草稿音译污染重（喬治阿克爾/碰東來/農夫山全）+常识级内容（柠檬市场/信任模型），源留 wechat-collect 不产卡；regen 变体同案并轨
+- ~~00_inbox/AI-study/一堂-AI学习-truman自用的AI FeatureSet_paddle_ocr.txt｜P0｜1312B｜检测到 08-25 14:21｜待王语嫣编排~~ → 已编排 → #571（08-28 王语嫣）：三格式重复并轨，AI-study 版为源
+- ~~00_inbox/ocr_ingest/src_ocr_一堂_AI学习_truman自用的AI_FeatureSet.md｜P0｜2307B｜检测到 08-25 14:21｜待王语嫣编排~~ → 已编排 → #571（08-28 王语嫣）：三格式重复并轨，AI-study 版为源
+- ~~00_inbox/paddle_batch/一堂-AI学习-truman自用的AI FeatureSet_paddle_ocr.md｜P0｜1897B｜检测到 08-25 14:21｜待王语嫣编排~~ → 已编排 → #571（08-28 王语嫣）：三格式重复并轨，AI-study 版为源
+- ~~00_inbox/AI口喷能力训练全阶指南-口述.txt｜P0｜342105B｜检测到 08-25 15:01｜待王语嫣编排~~ → 已编排 → #572（08-28 王语嫣）
 - ~~00_inbox/拆书-词元经济-方振义-口述.txt｜P0｜42716B｜检测到 08-25 15:31｜待王语嫣编排~~ → 已编排（08-26 王语嫣：词元经济域首开 **#531**——2框架+2概念+1工具+1dk；ASR 校核+数据待核口径随单。附：本素材暴露 watch_inbox 只写看板不推收件箱的机制缺口，立项 **#530** 补漏）
 - ~~00_inbox/KDO自动化多Agent工作流/00_状态跟踪.md｜P2｜3251B｜检测到 08-27 04:51｜待王语嫣编排~~ → 已处置（08-28 王语嫣）：爆炸式建模产出——昨晚已与老朱过目对齐，不立项不入库，挂停车场 F-061（冻结待触发：产线建成+飞书四实例+标签规范入库后启动 inbox 自动标注流水线）
 - ~~00_inbox/KDO自动化多Agent工作流/01_资产报告_KDO自动化多Agent工作流.md｜P2｜20255B｜检测到 08-27 06:41｜待王语嫣编排~~ → 已处置（08-28 王语嫣）：爆炸式建模产出——昨晚已与老朱过目对齐，不立项不入库，挂停车场 F-061（冻结待触发：产线建成+飞书四实例+标签规范入库后启动 inbox 自动标注流水线）
 - ~~00_inbox/知识卡片标签标注/00_状态跟踪.md｜P2｜2905B｜检测到 08-27 07:21｜待王语嫣编排~~ → 已处置（08-28 王语嫣）：爆炸式建模产出——昨晚已与老朱过目对齐，不立项不入库，挂停车场 F-061（冻结待触发：产线建成+飞书四实例+标签规范入库后启动 inbox 自动标注流水线）
 - ~~00_inbox/知识卡片标签标注/01_资产报告_KDO标签标注规范v1.md｜P2｜23386B｜检测到 08-27 07:51｜待王语嫣编排~~ → 已处置（08-28 王语嫣）：爆炸式建模产出——昨晚已与老朱过目对齐，不立项不入库，挂停车场 F-061（冻结待触发：产线建成+飞书四实例+标签规范入库后启动 inbox 自动标注流水线）
 - ~~00_inbox/知识卡片标签标注/02_打标示范_3张真实卡.md｜P2｜8174B｜检测到 08-27 08:01｜待王语嫣编排~~ → 已处置（08-28 王语嫣）：爆炸式建模产出——昨晚已与老朱过目对齐，不立项不入库，挂停车场 F-061（冻结待触发：产线建成+飞书四实例+标签规范入库后启动 inbox 自动标注流水线）
-- 00_inbox/Live260-口喷到全新范式优秀作业-逐字稿.md｜P2｜65364B｜检测到 08-27 09:31｜待王语嫣编排
+- ~~00_inbox/Live260-口喷到全新范式优秀作业-逐字稿.md｜P2｜65364B｜检测到 08-27 09:31｜待王语嫣编排~~ → 已编排 → #573（08-28 王语嫣）
 
 <!-- INBOX-PENDING-END -->
 
