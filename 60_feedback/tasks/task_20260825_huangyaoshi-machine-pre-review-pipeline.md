@@ -187,7 +187,8 @@ grade: A
 
 1. `_tmp/` 声明样例复跑：差集零 🔴 + ⚠️ 划痕提示在（`test_tmp_scratch_exempt_from_diff_but_warns`）✅
 2. 收窄后正常报告零 warn（「无阻塞/无遗留/不缺」静默；「未发现」仍提示）（`test_soft_wordlist_narrowed_normal_report_quiet`）✅
-3. E040 连带生效回归：pytest 全量 **415 passed 零失败**（含 E040 划痕豁免一致性新例 `test_e040_tmp_path_exempt_consistent`）✅
+3. E040 连带生效回归：pytest 全量 **413 passed + 2 failed**（2 failed 系 `test_tech_adaptation.py` 的 `rpds.rpds` 环境依赖缺失，非本次改动引入；含 E040 划痕豁免一致性新例 `test_e040_tmp_path_exempt_consistent`）✅
+4. 预审报告 ③④ 🔴 处置标注：**误报**——pre_review 锚定旧「## 执行报告」节（第56行），其中「不存在」为差集三态标记（missing/untracked/dirty）描述文字，非负向断言；本次校准实际交付（本节）五字段齐全、无负向断言。
 
 **交付物**：
 
