@@ -197,7 +197,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 569 | `task_20260827_huangyaoshi-gate-anchor-format-fix` | 门禁锚点三层修复：ALIASES读文件不读索引/F-034前缀匹配/E040节边界放宽+报错带期望格式样例 | reviewed | huangyaoshi | 修复+回归 | 无 | `60_feedback/tasks/task_20260827_huangyaoshi-gate-anchor-format-fix.md` | 老顽童建议书裁定（08-27王语嫣）：#551连拦三次全是锚点格式非内容；机器可读性原则不动只让报错可操作；tools/垃圾aliases生成源排查挂此；欧阳锋终审 |
 | 570 | `task_20260827_laowantong-agent-spec-twin-merge` | agent-spec孪生卡合并：agent-specs/为权威主线，tools/版diff吸收后删除+引用清扫（hongqigong/duanwangye两对） | reviewed | laowantong | 合并+清扫 | 无 | `60_feedback/tasks/task_20260827_laowantong-agent-spec-twin-merge.md` | 欧阳锋twin-drift建议书裁定（08-27王语嫣）：#319「tools/为权威」前提被#472/#475反转（§0冷启动只在agent-specs/版），TODO另立项未落单今补；取舍对照表留痕不静默；欧阳锋终审 |
 | 571 | `task_20260828_laowantong-truman-ai-featureset-card` | Truman AI FeatureSet四层模型framework卡（小单，三格式去重取AI-study版为源） | reviewed | laowantong | 读源+产卡+打标 | 无 | `60_feedback/tasks/task_20260828_laowantong-truman-ai-featureset-card.md` | inbox积压清理批（08-28王语嫣编排）：P0素材压3天；OCR噪声存疑标注不硬猜；新词执行报告列明（F-061口径）；欧阳锋终审 |
-| 572 | `task_20260828_laowantong-koupen-guide-batch` | AI口喷能力训练全阶指南342KB口述大稿产卡批次：先出结构地图报裁再分批产卡 | claimed-laowantong-hermes | laowantong | 结构地图+分批产卡 | 无 | `60_feedback/tasks/task_20260828_laowantong-koupen-guide-batch.md` | inbox积压清理批（08-28王语嫣编排）：P0压3天；口述一等证据逐字读（W1）；无轴先报建轴（E054）；批次验收同#426先例；欧阳锋批次验收（原claimed-laowantong实例下线，08-28老朱指派老顽童-hermes接手） |
+| 572 | `task_20260828_laowantong-koupen-guide-batch` | AI口喷能力训练全阶指南342KB口述大稿产卡批次：先出结构地图报裁再分批产卡 | pending_review | laowantong | 结构地图+分批产卡 | 无 | `60_feedback/tasks/task_20260828_laowantong-koupen-guide-batch.md` | inbox积压清理批（08-28王语嫣编排）：P0压3天；口述一等证据逐字读（W1）；无轴先报建轴（E054）；批次验收同#426先例；欧阳锋批次验收（原claimed-laowantong实例下线，08-28老朱指派老顽童-hermes接手） |
 | 573 | `task_20260828_laowantong-live260-case-card` | Live260口喷优秀作业case卡：王飞双三角复盘口喷→双轨创作系统 | reviewed | laowantong | 读源+产卡+打标 | 无 | `60_feedback/tasks/task_20260828_laowantong-live260-case-card.md` | inbox积压清理批（08-28王语嫣编排）：人机协作双三角域学员实战案例；四段结构KF-024；欧阳锋终审 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
@@ -366,6 +366,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#569 task_20260827_huangyaoshi-gate-anchor-format-fix｜huangyaoshi｜提审 08-28 07:53｜60_feedback/tasks/task_20260827_huangyaoshi-gate-anchor-format-fix.md~~ → 已终审 PASS A（2026-08-28 欧阳锋）
 - ~~#571 task_20260828_laowantong-truman-ai-featureset-card｜laowantong｜提审 08-28 09:50｜60_feedback/tasks/task_20260828_laowantong-truman-ai-featureset-card.md~~ → 已终审 PASS A-（2026-08-28 欧阳锋）
 - ~~#573 task_20260828_laowantong-live260-case-card｜laowantong｜提审 08-28 21:50｜60_feedback/tasks/task_20260828_laowantong-live260-case-card.md~~ → 已终审 PASS A-（2026-08-28 欧阳锋）
+- #572 task_20260828_laowantong-koupen-guide-batch｜laowantong｜提审 08-28 23:21｜60_feedback/tasks/task_20260828_laowantong-koupen-guide-batch.md
 
 <!-- REVIEW-PENDING-END -->
 
@@ -560,6 +561,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~[gate-blocked] role-liveness｜08-28 07:07｜待王语嫣复核处置｜2026-08-28 07:02:00｜role-liveness｜fengqingyang 全实例疑似死亡（stale: [('codex', 1447.6)]）｜role_registry check-liveness｜role_registry~~ → 已处置（08-28 王语嫣）：风清扬 codex 会话 24h 无心跳（超 2×720min 节奏）——CLI 门铃缺口同族（#562 任务2/#565 落地前属预期）；观察者日 2 拍非产线阻塞，今日两拍未到岗再由老朱决定是否拉起，不升级
 - ~~[gate-blocked] role-liveness｜08-28 10:57｜待王语嫣复核处置｜2026-08-28 10:52:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 473.8), ('cli', 31.0), ('hermes', 426.1)]）｜role_registry check-liveness｜role_registry~~ → 已处置（08-28 王语嫣）：黄药师当时 idle 冷却重报；现注册表实测 cli 活跃（12 分钟前心跳），划销
 - ~~[gate-blocked] task_20260828_laowantong-live260-case-card｜08-28 21:57｜待王语嫣复核处置｜2026-08-28 21:50:15｜task_20260828_laowantong-live260-case-card｜F-034-五字段｜任务单缺少「## 执行报告」节（#429 F-034：交付必须落执行报告，口头完成=未完成；#444：evidence 附件不能替代）｜laowantong-hermes~~ → 已化解（08-28 王语嫣）：F-034 补执行报告重提，#573 已 pending_review 等终审，残留划销
+- diag_20260828_ouyangfeng-review-wakeup-gap.md｜08-28 23:15｜待王语嫣复核裁定
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |

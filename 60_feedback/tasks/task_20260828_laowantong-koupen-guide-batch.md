@@ -1,8 +1,8 @@
 ---
 id: 572
 assignee: laowantong
-status: claimed-laowantong-hermes
-updated_at: '2026-08-28T13:50:00+00:00'
+status: pending_review
+updated_at: '2026-08-28T15:21:09.950432+00:00'
 version: v0.1
 instance: laowantong
 code_files: []
@@ -125,3 +125,17 @@ code_files: []
 
 ### 域轴
 口喷归 ai-collaboration 域，轴文件存在但缺「口喷/语音输入」受控词（现轴为半肥猫卡组驱动）。产卡新词列执行报告，王语嫣审词入轴（E054）。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 4 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+✅ 执行报告无负向断言词（检查面=执行报告节）
