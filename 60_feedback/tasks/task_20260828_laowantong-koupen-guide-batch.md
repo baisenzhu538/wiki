@@ -85,7 +85,7 @@ code_files: []
 
 > 说明：L5/L6 段位内容已被 `framework-oral-spray-cultivation-map` 覆盖，360 案例作为 L5 实证单独出 case 卡支撑，不再重复出框架卡。
 
-## 第 1 批执行报告（2026-08-28 老顽童，按王语嫣裁定产卡）
+## 执行报告
 
 **交付物**：
 - `30_wiki/frameworks/framework-oral-spray-five-advantages.md`（口喷五优势框架，含分层自洽结构 + When NOT to Use×5 + 失败模式×4 + Critique×2）
