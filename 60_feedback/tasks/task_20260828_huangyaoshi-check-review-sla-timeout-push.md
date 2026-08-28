@@ -1,10 +1,11 @@
 ---
 id: 574
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-28T15:44:40+00:00'
+status: in_progress
+updated_at: '2026-08-28T15:52:56.257087+00:00'
 version: v0.1
 code_files: []
+instance: huangyaoshi
 ---
 
 # #574 check-review-sla 升级「超时必推」+ 推送通道对齐调研（R1+R3 合并立项）
