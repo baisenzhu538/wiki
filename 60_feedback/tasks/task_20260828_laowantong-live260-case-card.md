@@ -34,7 +34,7 @@ grade: A-
 ## 执行报告
 
 **交付物**：
-- `30_wiki/cases/case-wangfei-koupen-dual-track-writing.md`（新建 case 卡，正文约 250 行）
+- `30_wiki/cases/case-wangfei-koupen-dual-track-writing.md`（新建 case 卡，正文 318 行）
 - `60_feedback/adversarial/atk_case-wangfei-koupen-dual-track-writing_20260828.md`（自攻击报告）
 
 **完成内容**：王飞双三角复盘口喷 case 卡——四元概念体系（ContentType/Topic/Angle/Headline）+ 双轨创作系统，四段结构 KF-024（背景/打法/结果/迁移点）全含，附 Critique×2 外部攻击者 + 失败模式×5 + When NOT to Use×5 + L5 隐性成本 + 事故预演 + Action Triggers×5 + Synthesis。
