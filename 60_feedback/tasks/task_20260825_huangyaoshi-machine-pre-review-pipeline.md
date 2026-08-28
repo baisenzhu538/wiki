@@ -194,7 +194,8 @@ grade: A
 - `90_control/scripts/queue_transition.py`（词表收窄+`_tmp` 提取层过滤）
 - `90_control/scripts/pre_review.py`（划痕 WARNING+F-034 前缀对齐）
 - `90_control/scripts/tests/test_pre_review.py`（+3 例校准回归）
+- `90_control/notification-coverage-matrix.md`（§3.19 补登：信号5 门禁拦截追加 #515 E040 `_tmp/` 划痕豁免）
 
 **边界**：PATTERN 1 窗口/PATTERN 2 主语词表未动（清单明示保持）；判据语义未动只修匹配层与噪音面；对照基线 2 周窗口自本校准重启（#514 周报数据源）。
 
-**需要谁动作**：欧阳锋按判据清单 v1.1 逐条复审本校准（复审验收三条全绿在测）；王语嫣知悉 soft warn 命中率新观察项（>30% 再收窄）已随清单在案。
+**需要谁动作**：欧阳锋按判据清单 v1.1 逐条复审本校准（复审验收三条全绿在测）；王语嫣知悉 soft warn 命中率新观察项（>30% 再收窄）已随清单在案；§3.19 矩阵同步已补登（信号5 E040 `_tmp/` 豁免，与 #562/#568/#569 同账，08-28）。
