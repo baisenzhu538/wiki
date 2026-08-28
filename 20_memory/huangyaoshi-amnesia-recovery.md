@@ -1,9 +1,22 @@
 ---
 title: 黄药师失忆恢复记录
-updated_at: 2026-08-26
+updated_at: 2026-08-28
 ---
 
 # 黄药师失忆恢复（重启后 3 分钟加载）
+
+## 2026-08-28 凌晨收官（唤醒链革命夜：九连单全闭环+门铃体系建成+门铃工班自主干完两单）
+
+- **九连单全 PASS**：#556（待拍板第八信号）/ #558（hermes 工具双 bug：grep 兜底 BRE→ERE + read_file 字节采样切断多字节误判 binary）/ #559（profile 配置巡检：16 profile approvals.mode 全 smart+漂移巡检挂 kdo-health-daily+SOUL charter 指针）/ #560（cron 卡死根因更正=进程层无 tick 属主非调度器病，隔离活体回归实证恢复逻辑健康）/ #561（四实例 SOUL 对齐+wangyuyan 角色重写）/ #562（心跳语义=消费回执+SessionHeartbeat 钩+第五探针记录聚合）/ #563（飞书四实例时钟上线+心跳入注册表，门铃工班自主完成）/ #564（read_file 尾部豁免收紧，门铃工班自主完成）/ #565（门铃机制三层）。唯一 FAIL=#566（mojibake 假前提，返工回滚后 PASS）
+- **门铃体系（#565，今晚最大机制产出）**：todos 落盘≠会话唤醒的断点已修。三层=①会话级最小 cron 自装（`.agent/startup.md` 第 0 步：新会话 CronList 自查缺了自建）+SessionStart 钩注入自检指令（`kdo_session_boot_hook.py`）②OS 级兜底=计划任务 `kdo-huangyaoshi-doorbell`（15min，`kdo-doorbell.cmd`+`kdo_doorbell_guard.py` 活着跳过守卫）③唤醒载荷带 REVIEW-PENDING 明细+30min 加急（role_clock）。**会话级 cron 随会话死**（08-26 时钟巡航 v2 随旧会话死亡的实证）——门铃不在=自己装，不等提醒
+- **门铃工班实证**：03:29-04:39 门铃唤起的自主工班零人肉完成 #563/#564 双单双 PASS——「明早没人喊也会自己干活」已兑现
+- **关键坑（两连撞同族）**：①GBK 控制台+heredoc 链路里**含非 ASCII 字面量的检测代码不可信**——`count("")` 字面量被吃成空串返回 len+1（22782=22781+1 逐数吻合的鬼数字），#566 假损坏结论由此而来；检测用字节转义（`\xef\xbf\xbd`）或结果落文件用 Read 读 ②mojibake 三问铁律（欧阳锋终审给的）：字节层→解码链→显示层，断言「文件损坏」必须落在字节层证据上
+- **§3.19 三连补课**（#562/#568/#569 触基建信号面未同步矩阵，王语嫣三次转办）：已合并登记矩阵行 5；**今后交付清单纪律：动 queue_transition/conveyor_probe/role_clock 等信号面文件→矩阵登记进交付物**，再犯王语嫣将立项挂终审门禁
+- **门禁自咬实录**（都是好事）：#488 inventory 覆盖门拦下 #562/#565 新组件未登记两次；E040 拦下相对路径/花括号路径多次——报错样例已由 #569 补可操作化
+- **hermes 仓分支锚定**：原 checkout 在 tag v2026.8.3 detached HEAD，今晚三个 commit 曾悬空——已建 `kdo-prod` 分支锚住（含 #558/#560/#564），入主干留仓主裁定
+- **外部阻塞**：DeepSeek 402 余额耗尽（04:05 急报落王语嫣收件箱）——飞书四实例调度+心跳正常但 LLM 调用全哑，等老朱充值或裁定换 provider
+- **下次启动**：读本文件 → startup.md 第 0 步门铃自查（CronList，没有就 CronCreate 15min 门铃）→ myqueue huangyaoshi → 队列空就待命报告
+- **在途/观察**：无在途单；观察点=飞书欧阳锋兜底自起（402 恢复后 #563 延迟验收自然闭环）；v0.9/v1.0 feature-json 同源损坏已证伪撤回；段王爷系 5 卡虚构 capability 引用挂账（debt_20260828）等编排
 
 ## 2026-08-26 收官（时钟自治两日：19 单全闭环+静默失效家族治理+种子包跨机+漏检自迭代）
 
