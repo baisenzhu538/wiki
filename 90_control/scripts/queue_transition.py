@@ -738,6 +738,10 @@ def _extract_deliverable_paths(report: str, task_file_name: str) -> list[str]:
             if not re.search(r"\.[A-Za-z0-9]{1,10}$", tok):
                 continue
             norm = tok.replace("\\", "/")
+            # #515 判据 v1.1 校准点 1：`_tmp/` 划痕路径（前缀或路径段）豁免——
+            # 中间产物非交付物，三态检查无意义（E040 与 pre_review 同源生效）
+            if norm.startswith("_tmp/") or "/_tmp/" in norm:
+                continue
             base = norm.rsplit("/", 1)[-1]
             if base in _DELIVERABLE_AUTO_COMMIT or norm == task_file_name or base == task_file_name:
                 continue
@@ -1001,7 +1005,9 @@ NEGATIVE_CLAIM_PATTERN = re.compile(r"(?:无|缺|没有|未)(?:任何|远程|本
 # 模式 2（#435）：数据异常断言句式——主语 + 0-3 字 + 异常词。配断言句式防"无截断/确认无损坏"正向声明自伤（无主语匹配）
 NEGATIVE_CLAIM_PATTERN_DATA = re.compile(r"(?:grade|字段|值|数据|内容|文件|路径|事件|记录)[ _]{0,3}(?:为空|空值|已损坏|被损坏|已截断|乱码|半写)")
 # 宽词：单字级（无阻断项等合法短语只给需人工提示，不硬杀）。#435 扩展：截断/损坏/乱码/半写观察（正向声明"无截断"也会提示，不拦截）
-NEGATIVE_CLAIM_SOFT = ["无", "缺", "没有", "未发现", "截断", "损坏", "乱码", "半写"]
+# #515 判据 v1.1（08-28 欧阳锋校准）：「无/缺/没有」删除——组合断言已由 PATTERN 1 硬拦，
+# 单字出现只制造 warn 噪音（狼来了效应实证）；「未发现」保留（意见书「我没看到」嫌疑有提示价值）
+NEGATIVE_CLAIM_SOFT = ["未发现", "截断", "损坏", "乱码", "半写"]
 
 
 def _check_negative_claims(text: str) -> tuple[bool, str]:

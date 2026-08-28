@@ -134,3 +134,46 @@ def test_fake_line_start_header_raises_no_write(tmp_path):
     with pytest.raises(ValueError, match="防吞内容"):
         pre_review.attach_pre_review(tf, "x")
     assert tf.read_text(encoding="utf-8") == before  # 拒绝落盘=原文件零改动
+
+
+# ── #515 判据清单 v1.1（08-28 欧阳锋校准稿）回归 ──
+
+def test_tmp_scratch_exempt_from_diff_but_warns(tmp_path):
+    """校准点1：`_tmp/` 声明豁免差集三态（不出🔴），但预审出 ⚠️ 划痕提示。"""
+    tf = tmp_path / "task_t.md"
+    tf.write_text(
+        "---\nid: 1\nassignee: huangyaoshi\n---\n\n## 执行报告\n\n"
+        "**交付物**：\n- `_tmp/debug_copy.py`\n\n**完成内容**：x\n**验证**：y\n**边界**：z\n**需要谁动作**：w\n",
+        encoding="utf-8")
+    report = pre_review.run_pre_review(tf, wiki_root=tmp_path)
+    assert "🔴" not in report  # 划痕不进差集红项
+    assert "划痕路径 `_tmp/debug_copy.py`" in report  # WARNING 可见化在
+    assert "⚠️" in report
+
+
+def test_soft_wordlist_narrowed_normal_report_quiet():
+    """校准点2：「无阻塞/无遗留/缺什么」类正常表述不再出 soft warn。"""
+    ok, msg = qt._check_negative_claims("完成内容：全部交付。无阻塞。无遗留。什么都不缺。")
+    assert ok and msg == ""
+    # 「未发现」保留提示价值
+    ok2, msg2 = qt._check_negative_claims("逐条核查，未发现异常。")
+    assert ok2 and "未发现" in msg2
+
+
+def test_e040_tmp_path_exempt_consistent(tmp_path):
+    """校准点1 连带面：E040 完整门禁链对 _tmp/ 声明同样豁免（单一真相源同源生效）。"""
+    repo = tmp_path / "wiki"
+    repo.mkdir()
+    import subprocess
+    for cmd in (["git", "init"], ["git", "-C", str(repo), "config", "user.email", "t@t"],
+                ["git", "-C", str(repo), "config", "user.name", "t"]):
+        subprocess.run(cmd if cmd[1] == "-C" else ["git", "-C", str(repo)] + cmd[1:],
+                       check=True, capture_output=True)
+    tf = tmp_path / "task_t.md"
+    tf.write_text(
+        "---\nid: 1\n---\n\n## 执行报告\n\n"
+        "**交付物**：`_tmp/scratch.py`\n\n**完成内容**：x\n**验证**：y\n**边界**：z\n**需要谁动作**：w\n",
+        encoding="utf-8")
+    ok, msg, warn = qt._check_deliverables_committed(tf, {}, wiki_root=repo)
+    assert ok  # 划痕豁免——不拦
+    assert "未识别出文件路径" in warn  # 提取层过滤后无检查面

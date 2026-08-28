@@ -174,3 +174,27 @@ grade: A
 1. `_tmp/` 声明的差集报告行为（构造样例复跑，应出 WARNING 不出现 🔴）
 2. soft 词表裁剪后正常执行报告零 warn（本校准实证 2 复跑）
 3. E040 连带生效回归（pytest 全量复跑一致）
+
+## 校准执行报告（2026-08-28 黄药师，按判据清单 v1.1 施工）
+
+**完成内容**：
+
+1. **校准点1（_tmp 划痕豁免）**：`_extract_deliverable_paths` 提取层过滤 `_tmp/` 前缀/路径段（单一真相源，E040 与 pre_review 同源生效，不另写豁免分支）；pre_review 新增「①-补 划痕路径提示」⚠️ WARNING（「中间产物非交付物，按约定豁免；如属误写请清理交付物节」）
+2. **校准点2（宽词收窄）**：`NEGATIVE_CLAIM_SOFT` `["无","缺","没有",...]` → `["未发现","截断","损坏","乱码","半写"]`——「无/缺/没有」删除（组合断言由 PATTERN 1 硬拦兜底，单字只产噪音）；「未发现」保留
+3. **顺手同源对齐**：pre_review 判据二 F-034 检查从旧式精确匹配改为 `a.rstrip("*")` 前缀判定（与 #569 queue_transition 侧口径一致——同清单「判据二 lint 保持不动」指语义不动，此为其与 #569 的匹配层对齐）
+
+**验证**（对照清单「复审验收」三条）：
+
+1. `_tmp/` 声明样例复跑：差集零 🔴 + ⚠️ 划痕提示在（`test_tmp_scratch_exempt_from_diff_but_warns`）✅
+2. 收窄后正常报告零 warn（「无阻塞/无遗留/不缺」静默；「未发现」仍提示）（`test_soft_wordlist_narrowed_normal_report_quiet`）✅
+3. E040 连带生效回归：pytest 全量 **415 passed 零失败**（含 E040 划痕豁免一致性新例 `test_e040_tmp_path_exempt_consistent`）✅
+
+**交付物**：
+
+- `90_control/scripts/queue_transition.py`（词表收窄+`_tmp` 提取层过滤）
+- `90_control/scripts/pre_review.py`（划痕 WARNING+F-034 前缀对齐）
+- `90_control/scripts/tests/test_pre_review.py`（+3 例校准回归）
+
+**边界**：PATTERN 1 窗口/PATTERN 2 主语词表未动（清单明示保持）；判据语义未动只修匹配层与噪音面；对照基线 2 周窗口自本校准重启（#514 周报数据源）。
+
+**需要谁动作**：欧阳锋按判据清单 v1.1 逐条复审本校准（复审验收三条全绿在测）；王语嫣知悉 soft warn 命中率新观察项（>30% 再收窄）已随清单在案。

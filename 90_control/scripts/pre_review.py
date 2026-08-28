@@ -45,6 +45,16 @@ def run_pre_review(task_file: Path, wiki_root: Path | None = None) -> str:
     lines = [PRE_REVIEW_HEADER, "", PRE_REVIEW_DISCLAIMER, ""]
 
     # ① 声称-交付差集：报告声称的交付物路径 vs 文件实测
+    # #515 判据 v1.1：`_tmp/` 划痕声明已在提取层豁免（qt 同源），此处补 WARNING 可见化
+    if report:
+        section = qt._extract_deliverable_section(report)
+        scratch = sorted({m for m in qt._DELIVERABLE_PATH_RE.findall(section)
+                          if (m.strip().replace("\\", "/").startswith("_tmp/")
+                              or "/_tmp/" in m.strip().replace("\\", "/"))})
+        if scratch:
+            lines.append("### ①-补 划痕路径提示\n\n"
+                         + "\n".join(f"- ⚠️ 交付物节含划痕路径 `{s}`（中间产物非交付物，按约定豁免三态检查；如属误写请清理交付物节）"
+                                     for s in scratch))
     claimed = qt._extract_deliverable_paths(report, task_file.name) if report else []
     code_files = fm.get("code_files") or []
     if isinstance(code_files, str):
@@ -77,10 +87,10 @@ def run_pre_review(task_file: Path, wiki_root: Path | None = None) -> str:
             for r in dirty:
                 lines.append(f"- 🟡 声称但有未提交改动: `{r}`")
 
-    # ② lint：任务单 frontmatter 可解析 + F-034 五字段在位
+    # ② lint：任务单 frontmatter 可解析 + F-034 五字段在位（#569 前缀口径同源：剥尾部星号前缀判定）
     fm_ok = bool(fm.get("id") and fm.get("assignee"))
     fields_missing = [name for name, anchors in qt.DELIVERY_FIELDS.items()
-                      if not any(a in report for a in anchors)] if report else list(qt.DELIVERY_FIELDS)
+                      if not any(a.rstrip("*") in report for a in anchors)] if report else list(qt.DELIVERY_FIELDS)
     lint_ok = fm_ok and not fields_missing
     lines.append("### ② lint\n\n"
                  + ("✅ frontmatter 可解析 + F-034 五字段在位" if lint_ok else
