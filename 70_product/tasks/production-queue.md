@@ -197,7 +197,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 569 | `task_20260827_huangyaoshi-gate-anchor-format-fix` | 门禁锚点三层修复：ALIASES读文件不读索引/F-034前缀匹配/E040节边界放宽+报错带期望格式样例 | reviewed | huangyaoshi | 修复+回归 | 无 | `60_feedback/tasks/task_20260827_huangyaoshi-gate-anchor-format-fix.md` | 老顽童建议书裁定（08-27王语嫣）：#551连拦三次全是锚点格式非内容；机器可读性原则不动只让报错可操作；tools/垃圾aliases生成源排查挂此；欧阳锋终审 |
 | 570 | `task_20260827_laowantong-agent-spec-twin-merge` | agent-spec孪生卡合并：agent-specs/为权威主线，tools/版diff吸收后删除+引用清扫（hongqigong/duanwangye两对） | reviewed | laowantong | 合并+清扫 | 无 | `60_feedback/tasks/task_20260827_laowantong-agent-spec-twin-merge.md` | 欧阳锋twin-drift建议书裁定（08-27王语嫣）：#319「tools/为权威」前提被#472/#475反转（§0冷启动只在agent-specs/版），TODO另立项未落单今补；取舍对照表留痕不静默；欧阳锋终审 |
 | 571 | `task_20260828_laowantong-truman-ai-featureset-card` | Truman AI FeatureSet四层模型framework卡（小单，三格式去重取AI-study版为源） | reviewed | laowantong | 读源+产卡+打标 | 无 | `60_feedback/tasks/task_20260828_laowantong-truman-ai-featureset-card.md` | inbox积压清理批（08-28王语嫣编排）：P0素材压3天；OCR噪声存疑标注不硬猜；新词执行报告列明（F-061口径）；欧阳锋终审 |
-| 572 | `task_20260828_laowantong-koupen-guide-batch` | AI口喷能力训练全阶指南342KB口述大稿产卡批次：先出结构地图报裁再分批产卡 | pending_review | laowantong | 结构地图+分批产卡 | 无 | `60_feedback/tasks/task_20260828_laowantong-koupen-guide-batch.md` | inbox积压清理批（08-28王语嫣编排）：P0压3天；口述一等证据逐字读（W1）；无轴先报建轴（E054）；批次验收同#426先例；欧阳锋批次验收（原claimed-laowantong实例下线，08-28老朱指派老顽童-hermes接手） |
+| 572 | `task_20260828_laowantong-koupen-guide-batch` | AI口喷能力训练全阶指南342KB口述大稿产卡批次：先出结构地图报裁再分批产卡 | queued | laowantong | 结构地图+分批产卡 | 无 | `60_feedback/tasks/task_20260828_laowantong-koupen-guide-batch.md` | inbox积压清理批（08-28王语嫣编排）：P0压3天；口述一等证据逐字读（W1）；无轴先报建轴（E054）；批次验收同#426先例；欧阳锋批次验收（原claimed-laowantong实例下线，08-28老朱指派老顽童-hermes接手） |
 | 573 | `task_20260828_laowantong-live260-case-card` | Live260口喷优秀作业case卡：王飞双三角复盘口喷→双轨创作系统 | reviewed | laowantong | 读源+产卡+打标 | 无 | `60_feedback/tasks/task_20260828_laowantong-live260-case-card.md` | inbox积压清理批（08-28王语嫣编排）：人机协作双三角域学员实战案例；四段结构KF-024；欧阳锋终审 |
 | 574 | `task_20260828_huangyaoshi-check-review-sla-timeout-push` | check-review-sla升级「超时必推」+推送通道对齐调研（R1+R3合并，R2欧阳锋自改） | queued | huangyaoshi | 升级+调研+回归 | 无 | `60_feedback/tasks/task_20260828_huangyaoshi-check-review-sla-timeout-push.md` | 欧阳锋建议书diag_20260828_ouyangfeng-review-wakeup-gap裁定（08-28王语嫣）：R1+R3合并立项，R2欧阳锋自改deliver→feishu；R1落实#521 R2老朱已拍板「终审类通知不静默」；复用#519空转报警同族；欧阳锋终审 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
@@ -367,7 +367,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#569 task_20260827_huangyaoshi-gate-anchor-format-fix｜huangyaoshi｜提审 08-28 07:53｜60_feedback/tasks/task_20260827_huangyaoshi-gate-anchor-format-fix.md~~ → 已终审 PASS A（2026-08-28 欧阳锋）
 - ~~#571 task_20260828_laowantong-truman-ai-featureset-card｜laowantong｜提审 08-28 09:50｜60_feedback/tasks/task_20260828_laowantong-truman-ai-featureset-card.md~~ → 已终审 PASS A-（2026-08-28 欧阳锋）
 - ~~#573 task_20260828_laowantong-live260-case-card｜laowantong｜提审 08-28 21:50｜60_feedback/tasks/task_20260828_laowantong-live260-case-card.md~~ → 已终审 PASS A-（2026-08-28 欧阳锋）
-- #572 task_20260828_laowantong-koupen-guide-batch｜laowantong｜提审 08-28 23:21｜60_feedback/tasks/task_20260828_laowantong-koupen-guide-batch.md
+- ~~#572 task_20260828_laowantong-koupen-guide-batch｜laowantong｜提审 08-28 23:21｜60_feedback/tasks/task_20260828_laowantong-koupen-guide-batch.md~~ → 批次验收（A-）（2026-08-28）
 - #515 task_20260825_huangyaoshi-machine-pre-review-pipeline｜huangyaoshi｜提审 08-28 23:42｜60_feedback/tasks/task_20260825_huangyaoshi-machine-pre-review-pipeline.md
 
 <!-- REVIEW-PENDING-END -->
