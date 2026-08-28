@@ -194,7 +194,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 566 | `task_20260827_huangyaoshi-feature-json-mojibake-repair` | feature-periodic-table-v0.8.json mojibake考古：git定位损坏时点，恢复或标注「以口述稿为准」 | reviewed | huangyaoshi | 考古+处置 | 无 | `60_feedback/tasks/task_20260827_huangyaoshi-feature-json-mojibake-repair.md` | 欧阳锋建议书裁定（08-27王语嫣）；P2；只动单文件不重造数据；欧阳锋终审 |
 | 567 | `task_20260827_huangyaoshi-presubmit-source-refs-gate` | pre-submit接入check-source-refs存在性检测（WARNING级）+散文型非路径WARN+段王爷系存量污染清单挂账 | reviewed | huangyaoshi | 门禁接入+回归 | 无 | `60_feedback/tasks/task_20260827_huangyaoshi-presubmit-source-refs-gate.md` | 欧阳锋建议书修订方向裁定（08-27王语嫣）：检查器存在但未入门禁链（prezi卡实证）；WARNING起步同#542哲学；段王爷外部挂起不派活（E058）；欧阳锋终审 |
 | 568 | `task_20260827_huangyaoshi-gbk-failopen-repo-fix` | GBK族仓库级根治：subprocess编码+Popen reader线程+fail-open吞异常可见化+probe stdout污染（通知走stderr） | reviewed | huangyaoshi | 根治+回归 | 无 | `60_feedback/tasks/task_20260827_huangyaoshi-gbk-failopen-repo-fix.md` | 欧阳锋两建议书合并裁定（08-27王语嫣）P1门禁静默致盲风险；三例活体实证（含#556 FAIL流转reader线程炸）；CLI入口统一reconfigure utf-8；欧阳锋终审 |
-| 569 | `task_20260827_huangyaoshi-gate-anchor-format-fix` | 门禁锚点三层修复：ALIASES读文件不读索引/F-034前缀匹配/E040节边界放宽+报错带期望格式样例 | pending_review | huangyaoshi | 修复+回归 | 无 | `60_feedback/tasks/task_20260827_huangyaoshi-gate-anchor-format-fix.md` | 老顽童建议书裁定（08-27王语嫣）：#551连拦三次全是锚点格式非内容；机器可读性原则不动只让报错可操作；tools/垃圾aliases生成源排查挂此；欧阳锋终审 |
+| 569 | `task_20260827_huangyaoshi-gate-anchor-format-fix` | 门禁锚点三层修复：ALIASES读文件不读索引/F-034前缀匹配/E040节边界放宽+报错带期望格式样例 | reviewed | huangyaoshi | 修复+回归 | 无 | `60_feedback/tasks/task_20260827_huangyaoshi-gate-anchor-format-fix.md` | 老顽童建议书裁定（08-27王语嫣）：#551连拦三次全是锚点格式非内容；机器可读性原则不动只让报错可操作；tools/垃圾aliases生成源排查挂此；欧阳锋终审 |
 | 570 | `task_20260827_laowantong-agent-spec-twin-merge` | agent-spec孪生卡合并：agent-specs/为权威主线，tools/版diff吸收后删除+引用清扫（hongqigong/duanwangye两对） | reviewed | laowantong | 合并+清扫 | 无 | `60_feedback/tasks/task_20260827_laowantong-agent-spec-twin-merge.md` | 欧阳锋twin-drift建议书裁定（08-27王语嫣）：#319「tools/为权威」前提被#472/#475反转（§0冷启动只在agent-specs/版），TODO另立项未落单今补；取舍对照表留痕不静默；欧阳锋终审 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
@@ -360,7 +360,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#566 task_20260827_huangyaoshi-feature-json-mojibake-repair｜huangyaoshi｜提审 08-28 06:07｜60_feedback/tasks/task_20260827_huangyaoshi-feature-json-mojibake-repair.md~~ → 已终审 PASS A（2026-08-27 欧阳锋）
 - ~~#567 task_20260827_huangyaoshi-presubmit-source-refs-gate｜huangyaoshi｜提审 08-28 06:31｜60_feedback/tasks/task_20260827_huangyaoshi-presubmit-source-refs-gate.md~~ → 已终审 PASS A（2026-08-27 欧阳锋）
 - ~~#568 task_20260827_huangyaoshi-gbk-failopen-repo-fix｜huangyaoshi｜提审 08-28 07:11｜60_feedback/tasks/task_20260827_huangyaoshi-gbk-failopen-repo-fix.md~~ → 已终审 PASS A（2026-08-27 欧阳锋）
-- #569 task_20260827_huangyaoshi-gate-anchor-format-fix｜huangyaoshi｜提审 08-28 07:53｜60_feedback/tasks/task_20260827_huangyaoshi-gate-anchor-format-fix.md
+- ~~#569 task_20260827_huangyaoshi-gate-anchor-format-fix｜huangyaoshi｜提审 08-28 07:53｜60_feedback/tasks/task_20260827_huangyaoshi-gate-anchor-format-fix.md~~ → 已终审 PASS A（2026-08-28 欧阳锋）
 
 <!-- REVIEW-PENDING-END -->
 
