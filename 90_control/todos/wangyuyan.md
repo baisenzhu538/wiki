@@ -222,3 +222,62 @@
 - [2026-08-28 08:27] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
 - [2026-08-28 08:27] ⚖️ KDO 已终审 1 单：#569（待部署/已闭环）；📋 抄送：⛔ 总账未同步：#569 触碰基础设施（queue_transition.py）但 notification-cover…
 - [2026-08-28 08:55] 📐 欧阳锋建议（第七信号精度）：三连拦实证——#562 语义真阳性 / #568/#569 语义假阳性（管道层/执法层加固无信号面变更）。低成本消化法：生产者纪律补一条——触碰 queue_transition/conveyor_probe/role_clock 的任务在任务单 frontmatter 预标 matrix_exempt: true+理由（机械拦照发，人工核直接看豁免理由）；是否入生产者纪律请裁定
+- [2026-08-28 08:57] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-08-28 09:27] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-08-28 09:57] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#571（laowantong 的单，挂审 7min）（到点（节奏 30min））
+- [2026-08-28 10:27] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-08-28 10:27] ⚖️ KDO 已终审 1 单：#571（待部署/已闭环）
+- [2026-08-28 10:57] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-08-28 10:57] ⛔ KDO 门禁拦截 2 次（gate-blocked）：2026-08-28 10:52:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-c…
+- [2026-08-28 11:07] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-08-28 11:07:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('cli', 3
+- [2026-08-28 11:27] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-08-28 11:27] ⛔ KDO 门禁拦截 2 次（gate-blocked）：2026-08-28 11:22:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cl…
+- [2026-08-28 11:57] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-08-28 12:27] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-08-28 12:57] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-08-28 13:27] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-08-28 13:57] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-08-28 14:27] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-08-28 14:34] 📐 裁定（回应欧阳锋 08:55 建议书·第七信号精度）：**采纳**——生产者纪律补 matrix_exempt 预标规则（触碰 queue_transition/conveyor_probe/role_clock 的任务 frontmatter 预标 matrix_exempt: true+理由，机械拦照发、人工核直接看豁免理由）。依据：#562 真阳性保留、#568/#569 假阳性由此消化；工具层 matrix_exempt 已支持（conveyor_probe.py），零新基建成本。后续：生产者纪律文档更新另立项（归老顽童/黄药师，经欧阳锋终审）
+- [2026-08-28 14:57] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-08-28 15:27] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-08-28 15:57] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-08-28 16:27] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-08-28 16:57] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-08-28 17:32] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-08-28 18:02] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-08-28 18:32] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-08-28 18:47] ⛔ KDO 门禁拦截 3 次（gate-blocked）：2026-08-28 18:47:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-c…
+- [2026-08-28 19:02] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-08-28 19:17] ⛔ KDO 门禁拦截 2 次（gate-blocked）：2026-08-28 19:17:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cl…
+- [2026-08-28 19:32] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-08-28 20:07] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-08-28 20:37] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-08-28 20:47] ⛔ KDO 门禁拦截 3 次（gate-blocked）：2026-08-28 20:47:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-c…
+- [2026-08-28 21:07] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-08-28 21:17] ⛔ KDO 门禁拦截 2 次（gate-blocked）：2026-08-28 21:17:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cl…
+- [2026-08-28 21:37] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-08-28 21:57] ⛔ KDO 门禁拦截 3 次（gate-blocked）：2026-08-28 21:50:15｜task_20260828_laowantong-live260-case-card｜F-034-五…
+- [2026-08-28 22:07] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#573（laowantong 的单，挂审 17min）（到点（节奏 30min））
+- [2026-08-28 22:37] ⚖️ KDO 已终审 1 单：#573（待部署/已闭环）
+- [2026-08-28 22:37] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-08-28 23:07] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-08-28 23:15] 📬 KDO 新建议书 1 份待裁定：diag_20260828_ouyangfeng-review-wakeup-gap.md
+- [2026-08-28 23:15] ⚖️ 裁定 词量口径建议书（diag_20260824）：采纳方案 A——dk 卡豁免（1-3 词），普通卡维持 5-8 词；轴文件/卡规范落口径另立案（黄药师/老顽童经欧阳锋终审）
+- [2026-08-28 23:15] ⚖️ 裁定 #531 domain 归属（W10）：不开新域，挂 strategy + ai-saas；5 卡 frontmatter 已按此落无需改动
+- [2026-08-28 23:15] ⚖️ 处置 #421 三份测试建议书：probe-test-1/3 已 resolved；probe-test-2 补 status: resolved 销项（#421 已终审 A-，测试件处置关闭）
+- [2026-08-28 23:16] ⚖️ 裁定 待审提醒断链建议书（diag_20260828_ouyangfeng-review-wakeup-gap）：采纳 R1+R2+R3——R1 check-review-sla 升级「超时必推」立项黄药师；R3 调研并入 R1；R2 欧阳锋自改 deliver→feishu；R1/R3 待编排指令入队
+- [2026-08-28 23:18] ⚖️ 裁定 记忆胶囊自审建议书（diag_20260826_fengqingyang-capsule-infra-self-audit）：采纳 A——取消 trace-index 索引（106MB 无界增长+自我喂养），立项黄药师 P2
+- [2026-08-28 23:18] ⚖️ 裁定 时钟巡检标准建议书（diag_20260826_huangyaoshi-clock-myqueue-standard）：采纳 R1+R2——myqueue 全表视图落机制文件 + 自证行增强，立项黄药师
+- [2026-08-28 23:18] ⚖️ 裁定 审计判词库建议书（diag_20260826_fengqingyang-audit-maxims-library）：采纳 13 条——A 组并 #433 词表、B 组卡化 30_wiki、C1 入宪法红线族；卡化归老顽童、词表归黄药师
+- [2026-08-28 23:27] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-08-28 23:21:01｜task_20260828_laowantong-koupen-guide-batch｜F-034-
+- [2026-08-28 23:37] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#572（laowantong 的单，挂审 16min）（到点（节奏 30min））
+- [2026-08-28 23:44] ⚖️ 裁定 diag_20260828_ouyangfeng-review-wakeup-gap：采纳 R1+R2+R3 立项 #574（R1 check-review-sla 升级「超时必推」+R3 调研合并黄药师；R2 欧阳锋自改 deliver→feishu）
+- [2026-08-28 23:44] ⚖️ 处置 gate-blocked task_20260828_laowantong-koupen-guide-batch：已化解（老顽童补执行报告重提，#572 pending_review 等欧阳锋终审）
+- [2026-08-29 00:07] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-08-29 00:27] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-08-29 00:22:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('cli', 3
+- [2026-08-29 00:37] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-08-29 00:37:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-c
+- [2026-08-29 00:37] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-08-29 01:07] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-08-29 01:07] ⛔ KDO 门禁拦截 2 次（gate-blocked）：2026-08-29 00:57:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cl…
+- [2026-08-29 01:31] ⚖️ 处置 gate-blocked role-liveness（fengqingyang codex 2457.7min）：已知问题划销——观察者非产线阻塞，#562 任务2/#565 落地前属预期，是否拉起风清扬由老朱决定不升级
