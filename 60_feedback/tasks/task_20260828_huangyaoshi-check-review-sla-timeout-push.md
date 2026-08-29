@@ -1,14 +1,17 @@
 ---
 id: 574
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-29T05:36:59.459585+00:00'
+status: reviewed
+updated_at: '2026-08-29T05:40:34.416938+00:00'
 version: v0.1
 code_files:
 - 90_control/scripts/check-review-sla.py
 - 90_control/scripts/tests/test_check_review_sla.py
 - 90_control/scripts/health-check.py
 instance: huangyaoshi
+reviewed_by: 欧阳锋
+review_date: '2026-08-29'
+grade: A-
 ---
 
 # #574 check-review-sla 升级「超时必推」+ 推送通道对齐调研（R1+R3 合并立项）
@@ -94,3 +97,48 @@ instance: huangyaoshi
 ### ③ 负向判词 / ④ 存在性核查
 
 🔴 意见书含负向断言（缺失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
+
+## 终审记录（2026-08-29 欧阳锋）
+
+**结论：PASS A-**（#574 R1+R3 合并单闭环；R1 调度缺口为条件项，已如实声明并路由王语嫣裁决）
+
+### 通过维度（全部 O3 独立复验，非采信报告）
+
+| 验收项 | 证据 | 状态 |
+|:--|:--|:--|
+| R1 30min 提醒：推审查者 webhook + todos 落盘 | L1 test_remind_over_30min 独立复跑过；L2 狗粮 31min 独立复现——dry-run 消息含「#505 + 挂审 31min + 任务单路径」三要素；check-review-sla.py L112-120 提醒分支、L107-108 todos 落盘（`if not dry_run` 保护） | ✅ |
+| R1 2h 升级：@ 标记 + 双通道 | L1 test_escalate_over_2h 独立复跑过（roles=[ouyangfeng,wangyuyan] 且 "@" in msg）；L2 狗粮 121min 复现 rc=1、消息「🚨 @负责人 @老朱」 | ✅ |
+| R1 边界与零副作用 | 29min 不推 / 10min 不推 / 划销行跳过 / 零积压 / 段标记缺失 exit 1 / dry-run 不落 todos——7 例全过；真实队列 --dry-run 实测「1 单待终审，最大年龄 3min」exit 0 零副作用（#574 自身即活体行） | ✅ |
+| R3 调研落档 | diag_20260829 四节：①webhook 出站单向、无 chat_id 元数据（.feishu_webhooks.json 四角色 {url,key} 亲验）、#573 实证非常驻可见 ②gateway platforms.webhook 未启用、三通道区分表、正确路径厘清 ③clock 规范过时标注 ④待裁定项清晰 | ✅ |
+| 矩阵同步（§3.19 铁律1） | notification-coverage-matrix.md 信号 23 登账（含豁免理由标注）；本单未触碰 conveyor_probe/queue_transition/role_clock 三基础设施文件（仅 import 复用函数），无 matrix_exempt 预标合理 | ✅ |
+| 交付入仓（#522 门禁） | 67f9b51eb（feat R1+R3）+ e726d85be（complete）双 commit；六交付物 git status 零未提交改动 | ✅ |
+
+### 代码审查要点
+
+- 复用 conveyor_probe._load_hooks/_send_hook/_append_role_todo（L683/L714/L774 亲验，签名逐参匹配）；_send_hook 校验响应 body code（2026-08-23 假发送教训在案）——推送层可靠
+- 分级阈值严格大于：30min 整点不推 31min 推、120min 整点不升 121min 升，与测试/狗粮输出逐字一致
+- 跨年回退（submitted > now → year-1）、划销行跳过（`- ~~` 前缀）、通知类打印走 stderr（#568 族）逻辑完备
+- dry-run 双保护：_push dry 分支不发送 + todos 落盘有 `if not dry_run` 守卫——零副作用实证
+
+### 降级 A- 理由（非质量瑕疵——端到端生效依赖后续立项）
+
+- 验收项 3「#573 回归：30min 内真实唤醒」为**条件性达成**：check-review-sla 仍挂日级 health-check（02:07），「30min 提醒」不会在 30min 实时触发。分钟级调度需触碰 conveyor_probe.py（三基础设施文件之一），超出本单「R1 照做 + R3 调研」明确边界。黄药师在「未做项」如实声明并路由王语嫣裁决——声明诚实、边界守纪（未越界施工），不构成 FAIL；但端到端「超时必推」的实时性留待立项，故记条件项降 A-。
+
+### 存在性核查（负向表述锚点，F-035/#433）
+
+**存在性核查**
+
+| 负向表述 | 核查证据 |
+|:--|:--|
+| 「30min 提醒未实时接线」 | health-check.py L91 挂载行仅日级描述；check-review-sla.py 无独立分钟级计划任务注册（grep 计划任务目录零命中）；conveyor_probe.py 无调用点（复用仅限 import 函数，非挂载） |
+| 「产线三角色 clock 配置规范未产出」 | diag §三 明确标注「过时跳过」及原因（08-29 老朱定调时钟停用）；任务单「未做项」段同声明——前提消失=规范过时，边界声明合理，不构成缺失 |
+
+### 残余风险 / 观察项
+
+- **R1-1（P2，路由王语嫣裁决）**：30min 实时提醒依赖高频调度立项（建议挂 conveyor_probe 10min 探针或独立计划任务）
+- R1-2（P3）：webhook 群接收端「常驻可见」需老朱/用户口头确认（代码侧无法判断，R3 §一）
+- R1-3（P3）：R2 ouyangfeng-clock-v1 deliver→feishu 是否随时钟停用下线，交欧阳锋/王语嫣确认（diag §三 残留有效性）
+
+### 反馈路由
+
+反馈编排者王语嫣（R1-1 裁决待办 + 提醒即唤醒 tier 拍板）+ 抄送生产者黄药师（闭环确认）。
