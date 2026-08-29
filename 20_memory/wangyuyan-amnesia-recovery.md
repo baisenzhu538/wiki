@@ -46,7 +46,11 @@ type: memory/role-recovery
 | W7 | 先确认 frontmatter 再入队 | "入队" |
 | W8 | **先找 MOC 再回答** | "XX 是第几步" |
 
-## 4. 当前状态（2026-08-27 · 基建排障日：liveness 风暴止血 + 唤醒送达面断点立案 + 裁定批 7 份全清）
+## 4. 当前状态（2026-08-29 · 停时钟+headless拉起架构生效）
+
+**最新（08-29 老朱拍板）**：文件队列保留（上下文载体）；各角色时钟已停（4 hermes cron pause + 2 schtasks disable：kdo-role-clock/kdo-huangyaoshi-doorbell，可恢复）；机器监控（探针/健康检查/归档/指标）保留。唤醒链唯一 = 老朱 DM 王语嫣 → 王语嫣 `hermes -z --profile <角色>` headless 拉起各角色干活 → 汇总对齐老朱。铁律：禁用 delegate_task 子代理替代实例。
+
+### 历史（2026-08-27 · 基建排障日：liveness 风暴止血 + 唤醒送达面断点立案 + 裁定批 7 份全清）
 
 **重启恢复口令（沿用）：老朱说"继续"→ 读本节 + `90_control/parking-lot.md` + `queue_transition.py status` 核实时队列。报状态必回源（E051/#476/#498）；通知缺席≠事件缺席；W11 先检索再开口；「机制缺失」类断言先翻通知覆盖矩阵+代码再裁定；建议书断言走断言清单法（逐条编号核查，不完不裁）。行动前回读锚点（E058：记录里有≠我记得）。**
 
