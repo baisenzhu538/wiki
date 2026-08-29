@@ -566,6 +566,8 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~diag_20260828_ouyangfeng-review-wakeup-gap.md｜08-28 23:15｜待王语嫣复核裁定~~ → 编排决策（08-28 王语嫣）：**采纳 R1+R2+R3，立项 #574**——R1 check-review-sla 升级「超时必推」+R3 调研合并立项黄药师（本单）；R2 欧阳锋自改 ouyangfeng-clock-v1 deliver→feishu
 - ~~[gate-blocked] task_20260828_laowantong-koupen-guide-batch｜08-28 23:27｜待王语嫣复核处置｜2026-08-28 23:21:01｜task_20260828_laowantong-koupen-guide-batch｜F-034-五字段｜任务单缺少「## 执行报告」节（#429 F-034：交付必须落执行报告，口头完成=未完成；#444：evidence 附件不能替代）｜laowantong-hermes~~ → 已化解（08-28 王语嫣）：老顽童补执行报告节重提，#572 已 pending_review 等欧阳锋终审，残留划销
 - ~~[gate-blocked] role-liveness｜08-28 23:57｜待王语嫣复核处置｜2026-08-28 23:52:05｜role-liveness｜fengqingyang 全实例疑似死亡（stale: [('codex', 2457.7)]）｜role_registry check-liveness｜role_registry~~ → 已知问题划销（08-29 王语嫣）：风清扬 codex 会话持续无心跳（~42h），观察者非产线阻塞，#562 任务2/#565 落地前属预期；是否拉起风清扬由老朱决定，不升级
+- ~~[gate-blocked] role-liveness｜08-29 03:17｜待王语嫣复核处置｜2026-08-29 03:07:58｜role-liveness｜fengqingyang 全实例疑似死亡（stale: [('codex', 2653.5)]）｜role_registry check-liveness｜role_registry~~ → 已知问题划销（08-29 王语嫣）：风清扬 codex 会话持续无心跳（~44h），观察者非产线阻塞，#562 任务2/#565 落地前属预期；是否拉起风清扬由老朱决定，不升级
+- ~~[gate-blocked] role-liveness｜08-29 11:37｜待王语嫣复核处置｜2026-08-29 11:33:31｜role-liveness｜fengqingyang 全实例疑似死亡（stale: [('codex', 3159.1)]）｜role_registry check-liveness｜role_registry~~ → 已知问题划销（08-29 王语嫣）：风清扬 codex 会话持续无心跳（~52h），观察者非产线阻塞，#562 任务2/#565 落地前属预期；是否拉起风清扬由老朱决定，不升级
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |

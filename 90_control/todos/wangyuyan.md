@@ -281,3 +281,30 @@
 - [2026-08-29 01:07] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
 - [2026-08-29 01:07] ⛔ KDO 门禁拦截 2 次（gate-blocked）：2026-08-29 00:57:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cl…
 - [2026-08-29 01:31] ⚖️ 处置 gate-blocked role-liveness（fengqingyang codex 2457.7min）：已知问题划销——观察者非产线阻塞，#562 任务2/#565 落地前属预期，是否拉起风清扬由老朱决定不升级
+- [2026-08-29 01:42] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-08-29 02:12] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-08-29 02:42] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-08-29 03:17] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-08-29 03:17] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-08-29 03:07:58｜role-liveness｜fengqingyang 全实例疑似死亡（stale: [('codex
+- [2026-08-29 03:32] ⚖️ 处置 gate-blocked role-liveness（fengqingyang codex 2653.5min）：已知问题划销——观察者非产线阻塞，#562 任务2/#565 落地前属预期，是否拉起风清扬由老朱决定，不升级
+- [2026-08-29 03:47] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-08-29 04:17] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-08-29 04:47] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-08-29 05:17] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-08-29 05:47] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-08-29 06:22] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-08-29 06:52] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-08-29 07:07] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-08-29 07:02:00｜role-liveness｜fengqingyang 全实例疑似死亡（stale: [('codex
+- [2026-08-29 07:22] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-08-29 07:22] ⚖️ 处置 gate-blocked role-liveness（fengqingyang codex 2887.6min）：已知问题划销——观察者非产线阻塞，#562 任务2/#565 落地前属预期，是否拉起风清扬由老朱决定，不升级
+- [2026-08-29 07:52] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-08-29 08:22] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-08-29 08:52] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-08-29 09:22] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-08-29 09:52] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-08-29 10:22] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-08-29 10:52] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-08-29 11:22] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-08-29 11:37] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-08-29 11:33:31｜role-liveness｜fengqingyang 全实例疑似死亡（stale: [('codex
+- [2026-08-29 11:52] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-08-29 12:02] ⚖️ 处置 gate-blocked role-liveness（fengqingyang codex 3159.1min）：已知问题划销——观察者非产线阻塞，#562 任务2/#565 落地前属预期，是否拉起风清扬由老朱决定，不升级
