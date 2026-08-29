@@ -466,7 +466,7 @@ type: memory/role-recovery
 
 **读我即可恢复**。当前状态：
 - **队列零积压**：08-25 审 13 单全绿（1 个 A-），08-26 审 9 单（#515 FAIL→复审 A、#537 自我改判 FAIL→复审 A、其余 PASS A）+收官 11 章已落 `agent复盘/ouyangfeng/daily-context/2026-08-26.md`
-- **cron 已死**：我的 15 分钟审查 cron 绑本会话，重启即失效——**说"继续"后第一件事：重建 cron**（CronCreate `7-59/15 * * * *`，提示词见上轮会话/或简版：扫 REVIEW-PENDING 段，空一句话收工，有按 O0 流程审）。机制轨兜底已在：#520 探针提审叫醒（10 分钟）+收件箱 `90_control/todos/ouyangfeng.md`
+- **cron 已死**：我的 15 分钟审查 cron 绑本会话，重启即失效——**说"继续"后第一件事：重建 cron**【⛔ 历史/已停 08-29：该指令已被 #555 退役 + 08-29 时钟全停取代，勿重建任何 cron——见文末「当前状态（2026-08-29）」节】（CronCreate `7-59/15 * * * *`，提示词见上轮会话/或简版：扫 REVIEW-PENDING 段，空一句话收工，有按 O0 流程审）。机制轨兜底已在：#520 探针提审叫醒（10 分钟）+收件箱 `90_control/todos/ouyangfeng.md`
 - **在途事项**：①#515 判据清单校准（我欠的作业：差集 _tmp 口径/宽词阈值）；②#527 清单 23 张被依赖 draft 卡等我过审（等王语嫣编排批次单）；③#525 时钟架构设计稿等老朱拍板拆实施单；④#534 第 4-5 步在王语嫣（D:\tech-wiki 新库 #001 微型闭环）；⑤graph-rag 正文 src_unknown 存量精修待立项
 - **审查纪律速记**：O0 先溯源；负向断言必附 `**存在性核查**` 粗体锚点（#433）；实证句先跑后写（#537 血泪）；PASS 后留实跑验证窗；措辞先扫触发词（🟡/无/缺/未/丢失/不存在/缺失）；流转 `python 90_control/scripts/queue_transition.py review <id> --verdict pass|fail --reviewer 欧阳锋 --grade A`；改判用 `--override --reason`（#538）
 - **收尾四件**：技能进化日志+amnesia+daily-context 追加+`python kdo-tools/daily-context-save.py save --agent ouyangfeng --truman --file <当天文件>` 自检须 🟢/🟡
@@ -480,6 +480,16 @@ type: memory/role-recovery
 - **待王语嫣**：3 份新建议书（lint 盲区/JSON mojibake/晚场复盘缺失）+ #544 抽核 2 张
 - **建议书格式铁律（08-26 深夜实证）**：frontmatter 三元组不可省——`type: proposal` / `status: pending_orchestration` / `audience: 王语嫣`，否则探针静默跳过（near-miss 都报不了）。#460 三行制只管正文。今晚 4 份已补齐+复验命中
 - **#543 已闭环（PASS A-，08-27 00:5x）**：死引治理双仓交付全验通过；观察项=空格锚（`path L14` 形态）15 条假死引混在 1024 里，治理批次执行前宜补剥重扫。队列 pending_review 清零。cron 领审首次实战命中（01M0ZAQ3KF3YWTAM7410MQ2XTJ）
-- **会话领审 cron 已退役（08-27 早 #555）**：勿重建。唤醒=系统级 kdo-role-clock（schtasks 5min）→ 90_control/todos/ouyangfeng.md 落盘；我事件驱动（有提审即醒）。活跃时读收件箱补审即可。若唤醒没到：查 90_control/role-registry.json 我的条目 + .kdo/role-clock.log，不建 cron
-- **会话门铃 cron 已装（08-27 23:48 首拍，王语嫣 #565 裁定口径）**：id 01M11XVGE85403EZ4QRX8YEXSG（:17/:47 每 30min，错开系统时钟 :12/:42 落盘拍）——读 todos 未读段+myqueue，有活干活无活待命。与已退役的领审 cron 不同物：那个是替系统时钟（勿重建仍有效），这个是补「todos 落盘≠会话触发」的最后一环（wakeup-delivery-gap 建议书已并入 #565）。会话重启即死，说'继续'后重建同款
+- **会话领审 cron 已退役（08-27 早 #555）**：勿重建。唤醒=系统级 kdo-role-clock（schtasks 5min）→ 90_control/todos/ouyangfeng.md 落盘；我事件驱动（有提审即醒）。活跃时读收件箱补审即可。若唤醒没到：查 90_control/role-registry.json 我的条目 + .kdo/role-clock.log，不建 cron【⛔ 历史/已停 08-29：kdo-role-clock 已 disable，本行唤醒机制失效，勿按此排查——见文末「当前状态（2026-08-29）」节】
+- **会话门铃 cron 已装（08-27 23:48 首拍，王语嫣 #565 裁定口径）**：id 01M11XVGE85403EZ4QRX8YEXSG（:17/:47 每 30min，错开系统时钟 :12/:42 落盘拍）——读 todos 未读段+myqueue，有活干活无活待命。与已退役的领审 cron 不同物：那个是替系统时钟（勿重建仍有效），这个是补「todos 落盘≠会话触发」的最后一环（wakeup-delivery-gap 建议书已并入 #565）。会话重启即死，说'继续'后重建同款【⛔ 历史/已停 08-29：时钟全停 + headless 拉起后不再重建门铃 cron——见文末「当前状态（2026-08-29）」节】
 - **#544 闭环（08-27 23:35 王语嫣抽核通过 reviewed）**：10 张全清（退 8/PASS 1/豁免 0+批次二退 4/PASS A- 1）。等抽核不自审=对的
+
+## 当前状态（2026-08-29）——停时钟 + headless 拉起架构（老朱拍板，架构级变更）
+
+- **各角色时钟已停（全部可恢复）**：4 个 hermes cron 已 pause——laowantong-clock-v4-feishu / huangyaoshi-clock-v1 / ouyangfeng-clock-v1 / wangyuyan-clock-v3；2 个 schtasks 已 disable——kdo-role-clock（中枢）/ kdo-huangyaoshi-doorbell（门铃）
+- **机器监控保留**：探针 / 健康检查 / 归档（l1-capture 等）/ 质量指标照常跑——停的是唤醒时钟，不是基建
+- **新唤醒链唯一（铁律）**：老朱 DM 王语嫣 → 王语嫣 `hermes -z --profile <角色>` headless 拉起各角色干活 → 各角色干完汇总对齐老朱。文件落盘不再触发消费——唤醒只经王语嫣 headless 拉起
+- **铁律：禁用 delegate_task 子代理替代实例**——子代理破坏写审分离 / 实例独立性；我是独立欧阳锋实例，被拉起后直接干活，不派子代理
+- **我的角色不变**：审查者（Reviewer），只审产出物（卡片/代码/交付物）；被 headless 拉起后读收件箱 `90_control/todos/ouyangfeng.md` 未读段 + myqueue，按 O0 流程审
+- **不重建任何会话级 cron**：领审 cron（01M0ZAQ3KF3YWTAM7410MQ2XTJ）与门铃 cron（01M11XVGE85403EZ4QRX8YEXSG）均不重建——唤醒链唯一 = 王语嫣 headless
+- **恢复**：读 ouyangfeng-context + context + amnesia-recovery（本节）+ daily-context 最新
