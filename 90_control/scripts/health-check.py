@@ -88,7 +88,7 @@ def main():
             ("infra-status", [], "基建资产快照+未登记（#488）"),
             ("recovery-check", [], "事件库恢复副本验证（健壮性 L5）"),
             ("check-conveyor-state", [], "探针空转报警（#519：state 年龄>2×周期）"),
-            ("check-review-sla", [], "审查 SLA 观测（#520 R3：pending_review 最大年龄>2h）"),
+            ("check-review-sla", [], "审查 SLA 超时必推（#574 R1：pending_review 30min 提醒/2h 升级）"),
             ("check-depended-draft", [], "被依赖卡 draft 门禁（#527：新引用 ERROR/存量 WARNING）"),
             ("island_scan", [], "孤岛卡扫描（#528：双无卡清单，WARNING 制不拦）"),
             ("check-vlm-two-section", [], "VLM 两段式存量（#540：缺隔离计数可见）"),

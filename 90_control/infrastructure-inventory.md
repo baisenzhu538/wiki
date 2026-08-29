@@ -66,7 +66,7 @@ audience: 全体 agent
 |:--|:--|:--|:--|:--|
 | conveyor_probe | kdo-tools/conveyor_probe.py | 传送带探针（六信号检出→登记→飞书通知，单扫描器纪律） | 08-25 #519 修复后计划触发实跑 PASS | 计划任务 kdo-conveyor-probe/gate-blocked.log |
 | check-conveyor-state | 90_control/scripts/check-conveyor-state.py | 探针空转报警（#519：state 年龄>2×周期→exit 1，health-check 带动） | 08-25 5 例 passed | health-check/.kdo/conveyor_state.json |
-| check-review-sla | 90_control/scripts/check-review-sla.py | 审查 SLA 观测（#520 R3：REVIEW-PENDING 最大年龄>2h→exit 1） | 08-25 5 例 passed | health-check/production-queue.md |
+| check-review-sla | 90_control/scripts/check-review-sla.py | 审查 SLA 超时必推（#574 R1：REVIEW-PENDING 最大年龄 30min→提醒/2h→升级，复用 conveyor 加签+todos 落盘） | 08-29 7 例 passed | health-check/production-queue.md |
 | quality_metrics | kdo-tools/quality_metrics.py | 质量指标基线周报（#514：FAIL率/打回率/拦截率/误判率代理，口径=quality-metrics-spec-v1） | 08-25 7 例 passed | 计划任务 kdo-quality-metrics/60_feedback/auto/quality-metrics |
 | check-depended-draft | 90_control/scripts/check-depended-draft.py | 被依赖卡 draft 门禁（#527：引用面三路识别含 glob 数据链；baseline 存量 WARNING/新引用 ERROR） | 08-25 8 例 passed | health-check/quality-gates/depended-draft-baseline.json |
 | island_scan | kdo-tools/island_scan.py | 孤岛卡扫描（#528：双无卡清单 json+md 按域分组，WARNING 制不拦流转） | 08-26 4 例 passed | health-check/60_feedback/auto/island-cards |
