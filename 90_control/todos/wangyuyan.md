@@ -308,3 +308,7 @@
 - [2026-08-29 11:37] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-08-29 11:33:31｜role-liveness｜fengqingyang 全实例疑似死亡（stale: [('codex
 - [2026-08-29 11:52] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
 - [2026-08-29 12:02] ⚖️ 处置 gate-blocked role-liveness（fengqingyang codex 3159.1min）：已知问题划销——观察者非产线阻塞，#562 任务2/#565 落地前属预期，是否拉起风清扬由老朱决定，不升级
+- [2026-08-29 12:22] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-08-29 12:52] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-08-29 13:27] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-08-29 13:31] 📥 新发现 #574 R3 调研 finding（diag_20260829_huangyaoshi-review-wakeup-gateway-inbound，type:finding/status:done，黄药师交付，audience 欧阳锋终审+王语嫣编排）：待裁定②「提醒即唤醒」tier（webhook入站重 vs R2值守拍轻）→ 待老朱拍板（finding 自建议先 R2 轻量、webhook 入站观察再立项，明确非 #574 范围=后续立项）；另「08-29 老朱定调各角色时钟停用、改王语嫣 headless 拉起」系黄药师转述 → 待老朱直证确认后再动我自身值守模式
