@@ -1,10 +1,13 @@
 ---
 id: 574
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-28T15:52:56.257087+00:00'
+status: pending_review
+updated_at: '2026-08-29T05:36:59.459585+00:00'
 version: v0.1
-code_files: []
+code_files:
+- 90_control/scripts/check-review-sla.py
+- 90_control/scripts/tests/test_check_review_sla.py
+- 90_control/scripts/health-check.py
 instance: huangyaoshi
 ---
 
@@ -44,3 +47,50 @@ instance: huangyaoshi
 
 - **黄药师**：R1+R3 施工，回归验证
 - **欧阳锋**：终审本单；R2 自改 ouyangfeng-clock-v1 deliver→feishu（与本单并行，不占产线）
+
+## 补充要求（2026-08-28 王语嫣追加，老朱指令）
+
+**断链治理范围收窄**：只覆盖产线三角色（老顽童/欧阳锋/黄药师），**风清扬排除**——观察者、日 2 拍、不阻塞产线，不纳入 clock deliver→feishu + 收件箱消费改造。
+
+**R3 落地扩一档**：调研结论落档后，产出「产线三角色 clock 配置规范」——各角色 clock cron ① deliver local→feishu（值守结果直达飞书 Home，无新事 [SILENT] 静默，有实质动作才推）② prompt 加「主动读 90_control/todos/<role>.md 收件箱并执行待办」。R2（欧阳锋自改 ouyangfeng-clock-v1 deliver→feishu）即首例，老顽童/黄药师按此规范对齐。
+
+> 依据：老朱反馈「文件到收件箱，接收方视而不见」——单靠王语嫣时钟自动干活不够，接收方不消费即断链。治本链 = 各角色 clock deliver→feishu（R2 模式）+ 主动消费收件箱（prompt 环节）+ R3 gateway 入站（提醒即唤醒）。
+
+## 执行报告
+
+**文件清单**：
+- `90_control/scripts/check-review-sla.py`（R1 主体：分级推送 30min 提醒 / 2h 升级）
+- `90_control/scripts/tests/test_check_review_sla.py`（7 例重写）
+- `90_control/scripts/health-check.py`（check-review-sla 描述更新）
+- `90_control/notification-coverage-matrix.md`（新增信号 23「挂审超时必推」）
+- `90_control/infrastructure-inventory.md`（check-review-sla 行描述 + 测试数更新）
+- `60_feedback/diagnosis/diag_20260829_huangyaoshi-review-wakeup-gateway-inbound.md`（R3 调研，新建）
+- `60_feedback/tasks/task_20260828_huangyaoshi-check-review-sla-timeout-push.md`（本任务单）
+
+**完成内容**：R1 照做 + R3 gateway 入站调研（clock 规范因时钟停用过时跳过）。①R1：check-review-sla.py 升级「超时必推」——pending_review 最大年龄 30min→推审查者（ouyangfeng）webhook + todos 落盘；2h→升级推 ouyangfeng + wangyuyan 群（@负责人/老板，老朱在群可达）；复用 conveyor_probe._send_hook/_load_hooks/_append_role_todo 加签（零新基建）；--dry-run 只打印；通知类打印走 stderr（#568 族）。②R3：调研落档——webhook 群机器人接收端=出站单向、无 chat_id 元数据、#573 实证非常驻可见；Hermes gateway 入站=支持独立 webhook 平台（platforms.webhook）但本机未启用，正确路径已厘清待裁定档次。③矩阵同步：新增信号 23（§3.19 铁律1 登账；本单未触碰 conveyor_probe/queue_transition/role_clock 三基础设施文件，故无 matrix_exempt 预标）。
+
+**验证**：
+- L1 单测：test_check_review_sla.py **7 例全过**（31min 提醒推 ouyangfeng / 3h 升级推两通道含 @ / 划掉行跳过 / 零积压 / 段标记缺失 / dry-run 无副作用 / 10min 不推）。
+- L2 狗粮：dry-run 构造样例实测——31min→提醒分支 exit 0、121min→升级分支 exit 1 含 @、29min→不推；真实队列 --dry-run「零积压」exit 0。
+- 回归 #573 同场景：当前队列 REVIEW-PENDING 零活跃行，无法真实重演「提审→30min→唤醒」；L3 活体留待本单提审后（#574 自身成 pending_review，超时后触发提醒）。
+
+**未做项**：
+- **R1 调度缺口（如实声明）**：check-review-sla 仍挂 health-check 日级（每日 02:07），「30min 提醒」不会在 30min 实时触发（日级只保证每日检查一次）。分钟级调度原挂 role_clock（5min，矩阵信号 20）已随 08-29 老朱定调时钟停用下线。若「30min 提醒」要实时生效，需后续立项把 check-review-sla 挂 conveyor_probe（10min 探针）或独立计划任务——这会触碰 conveyor_probe.py（三基础设施文件之一），超出本单「R1 照做 + R3 调研」明确范围，留王语嫣编排决策。
+- 「产线三角色 clock 配置规范」过时跳过（时钟停用，08-29 老朱定调）。
+- webhook 群接收端「是否常驻可见」需用户/老朱口头确认（代码侧无法判断，见 R3 调研 §一）。
+
+**需要谁动作**：欧阳锋终审本单；王语嫣裁决 R1 调度缺口（是否立项高频调度）+「提醒即唤醒」落地档次（webhook 入站重 / R2 值守拍轻）。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 6 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+🔴 意见书含负向断言（缺失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
