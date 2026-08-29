@@ -1,0 +1,38 @@
+---
+delivery_id: "del_20260827_d5f3e9a1"
+artifact_id: "art_20260827_live260_homework"
+channel: "feishu_doc"
+shipped_at: "2026-08-27T17:35:00+08:00"
+feedback_status: "无反馈"
+source_url: "https://yitang.top/fs-doc/186f0cc5c36b233acda111930d7aecc0/SFJ1dQQWzoIW36xvAakcXqTJn6e?"
+extraction_method: "L3 (SSO登录态复用 + CDP单章节逐节点击DOM提取)"
+doc_id: "DQcnd1s2XofOluxdTfUcwIw0nvg"
+url: "https://yitanger.feishu.cn/docx/DQcnd1s2XofOluxdTfUcwIw0nvg"
+local_copy: "00_inbox/Live260-口喷到全新范式优秀作业-逐字稿.md"
+permission: "anyone_readable"
+validation_snapshot:
+  passed: 454
+  failed: 0
+  warnings: 0
+---
+
+# Delivery Manifest: del_20260827_d5f3e9a1
+
+## Artifact Info
+
+- title: Live260：口喷到全新范式优秀作业（逐字稿）
+- chapters: 10
+- chars: 23525
+- verify: raw_content 回读首尾完整，22947 字符
+
+## Extraction
+
+- source: yitang.top/fs-doc 非公开文档
+- method: TAT raw_content 403 → L3 SSO 登录态复用 + CDP 单章节逐节点击 DOM 提取
+- result: 初始 120 + 逐节累积 → 455 blocks → 去重 455 → Markdown 10 章节 23525 字符
+
+## Publishing
+
+- blocks_ok: 454/454（10 批零失败）
+- permission: anyone_readable
+- url: https://yitanger.feishu.cn/docx/DQcnd1s2XofOluxdTfUcwIw0nvg

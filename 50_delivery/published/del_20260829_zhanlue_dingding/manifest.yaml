@@ -1,0 +1,16 @@
+---
+delivery_id: "del_20260829_7b3d2c41"
+artifact_id: "art_20260829_zhanlue_dingding"
+channel: "feishu_doc"
+shipped_at: "2026-08-29T23:50:00+08:00"
+feedback_status: "无反馈"
+validation_snapshot:
+  passed: 567
+  failed: 0
+  warnings: 0
+---
+- title: "🎯特别计划：我用一堂做一堂-战略笃定篇（逐字稿）"
+- source: "https://yitang.top/fs-doc/6cc61cd78884167e31402ed42fc23268/UrApd3CbcoosFAxDdfpcG0eJnJg"
+- local_md: "00_inbox/我用一堂做一堂-战略笃定篇-逐字稿.md"
+- doc_url: "https://yitanger.feishu.cn/docx/Pf5Odsy0boCG7YxyZ9BcUeVWncU"
+- method: "L3（登录态复用零扫码 + window 分段滚动提取）"
