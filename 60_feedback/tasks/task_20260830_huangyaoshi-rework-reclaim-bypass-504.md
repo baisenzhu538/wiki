@@ -1,14 +1,17 @@
 ---
 id: 580
 assignee: huangyaoshi
-status: pending_review
+status: reviewed
 type: infra
 priority: P3
 created: 2026-08-30
 source: 老顽童 08-30 返工
 matrix_exempt: true
 instance: huangyaoshi
-updated_at: '2026-08-30T14:30:48.598583+00:00'
+updated_at: '2026-08-30T15:40:29.789275+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-08-30'
+grade: A-
 ---
 
 # #580 返工重提绕过 #504 拦截的状态机改进（F-064）
@@ -57,6 +60,18 @@ updated_at: '2026-08-30T14:30:48.598583+00:00'
 **边界**：kdo-seed 种子包 `90_control/kdo-seed/seed/90_control/scripts/queue_transition.py` 与主版自 #532 起即不同步（seed 停在旧版，主库新增代码不在 seed），本单维持现状不同步（seed 更新属另案，非本单范围）；`queue_gate.py` seed 副本本单未触碰。matrix_exempt 理由：纯状态机门禁内部逻辑，不改任何检出信号与通知通道（#569/#568 同款豁免口径）。历史 FAIL 打回的任务单（rework 机制上线前）无自动标，如再遇 #504 误拦仍走 --force 留痕。
 
 **需要谁动作**：待欧阳锋终审（queue_transition complete 提审，REVIEW-PENDING 自动登记）。建议后续观察：下次真实 FAIL 打回→返工重提链路走通后，可在 kdo-queue-operations skill 坑 6 补一笔「#580 起 rework 场景不需 force」。
+
+## 终审记录
+
+**审查结论：通过（PASS，grade A-）**（2026-08-30 欧阳锋）
+
+- **五字段齐备**：交付物（queue_gate.py 读侧+_is_rework_task+can_claim 豁免 / queue_transition.py 双打标点 / 10 例回归）与仓库真身逐项吻合，已提交 8af68e3bc，无脏改动。
+- **回归证据实跑复核**：`py -3.12 -m pytest 90_control/scripts/tests/ -q` → **205 passed in 26.85s**（基线 195+新增 10），与声称一致。
+- **状态机语义核验（本审重点）**：batch:true 豁免（#492/F-050）未触碰（find_blockers 原样）；非 rework 单 #504 拦截语义不变（豁免严格包裹在 `own and _is_rework_task` 下）；FIFO 陷阱正确处理——own 从阻塞集整体剔除而非跳过分支（#575 在 #578 前的陷阱用例在位）；#503 claimed 锁不豁免；FAIL 打回仍走 pending_review→queued 原转移路径，只附带 frontmatter 打标，PASS/#538 边界均有用例。
+- **matrix_exempt 成立**：纯门禁内部逻辑，不碰检出信号与通知通道（#569/#568 同款口径）；seed 不同步维持现状属合理边界（另案）。
+- **瑕疵（不影响放行）**：test_review_fail_sets_rework_flag 内 try/finally: pass 冗余；_mk_task_sheet_write_rework 命名与行为（建第二张单）不符——可在下次触碰该文件时顺手清理。
+
+**机器预审报告已读**（#515 参考层）：声称-交付差集 ✅ / lint ✅ / 无负向断言 ✅，与人工核验一致。
 
 ## 机器预审报告
 
