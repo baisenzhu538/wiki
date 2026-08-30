@@ -2,7 +2,7 @@
 id: 583
 task_id: task_20260831_huangyaoshi-mnemosyne-memory-cache-pilot
 assignee: huangyaoshi
-status: pending_review
+status: reviewed
 created_at: 2026-08-31
 created_by: 王语嫣
 trigger: 老朱 08-31 直令（「立项让黄药师试点，同时需要他跑狗粮测试来验证」）
@@ -10,8 +10,11 @@ priority: P1
 batch: true
 depends: 无（#582 是老顽童生产单，与本单无阻塞关系）
 instance: huangyaoshi
-updated_at: '2026-08-30T19:00:10.522708+00:00'
+updated_at: '2026-08-30T19:10:21.392352+00:00'
 evidence: 60_feedback/diagnosis/diag_20260831_huangyaoshi-mnemosyne-dogfood.md
+reviewed_by: 欧阳锋
+review_date: '2026-08-30'
+grade: A-
 ---
 
 # 任务单 #583：Mnemosyne 记忆缓存层试点 + 狗粮测试（黄药师）
@@ -112,3 +115,37 @@ evidence: 60_feedback/diagnosis/diag_20260831_huangyaoshi-mnemosyne-dogfood.md
 ### ③ 负向判词 / ④ 存在性核查
 
 ✅ 执行报告无负向断言词（检查面=执行报告节）
+
+## 终审记录（2026-08-31 欧阳锋）
+
+**判定：PASS A-**——「部分采用」判定成立，数字抽验 5 组全对上，事故披露诚实，准予闭环；场景①施工（90_control/mnemo_cache/）另行走立项流程，本单不含施工授权。
+
+### 数字抽验（5 组，全部独立复算）
+
+1. **summary 指标复算**：从 ab_results.json 20 条原始 rank 逐条重算 hit@1/hit@5/MRR/中位延迟——A组 mnemo 0.8/1.0/0.875/102.3ms、kdo 0.7/0.8/0.733/1253.4ms；B组 mnemo 0.3/0.4/0.325/84.4ms、kdo 0.3/0.4/0.35/1208.8ms——与诊断 §1 表、任务单执行报告、JSON summary 三方逐项一致 ✅
+2. **token 均值复算**：A组 full 18,406.1 / compressed 17,409.9（-5.41%）/ kdo 1,055.2；B组 16,288 / 15,423.9（-5.31%）/ 634——诊断表口径 -5.4% 为四舍五入，成立 ✅
+3. **F1/F2 案例引用核对**：A4（专家访谈十步法）kdo rank=0（top_paths 无目标卡）、mnemo rank=1 ✅；A8 mnemo rank=4、kdo rank=0 ✅——「kdo 完全 miss」表述与原始数据吻合 ✅
+4. **146 tok 标题路由量级自测**：25,637 与 k=5 全文单条区间（14,048-30,433）吻合；标题路由 146 按同语料 top5 常客卡标题行 tiktoken 实测 102 tok，同数量级成立 ✅（但见观察项 O1：此二数非交付脚本产出）
+5. **库清洁度+语料清单**：memory.db 实查 50 条 memories、可提取 id 49 条全唯一、0 重复——「重复入库事故已修复」声明属实；manifest 50 卡 bytes 加总 437,346 与声明一致、字符加总 222,880 与诊断 §0 一致 ✅
+
+### 「部分采用」判定依据链审查
+
+- **场景①采用（附条件）**：F1 召回反超（hit@5 100% vs 80%）+ F5 延迟 1/12 + F4 注入策略（标题路由 146 vs 全文 25,637）→ 条件「标题路由注入、禁 compress_text 依赖」与 F3/F4 证据一一对应，依据链完整 ✅
+- **场景②不采用**：强结构化单文件直读更准更省 + F2 精确 ID 恰为弱项（hit@5 双方均 0.4）✅ 成立
+- **场景③不采用**：B 组失败面重叠（兜不住）+ A 组 kdo 已 0.8 增量有限 + 双引擎运维成本 ✅ 成立
+- **预期收益 50-90%** 为推算值，但已显式标注「按本测试量级推算，需试点期实测校准」——估算声明为估算，符合「验证=实跑复现」铁律的诚实边界 ✅
+- **边界遵守**：queue_transition.py/conveyor_probe.py 最近 commit（#568/#562/#556）均在本任务之前，本轮零改动 ✅；mnemo_store/ 5.5MB 局部 .gitignore 实测生效（git check-ignore 命中）✅
+
+**存在性核查**（负向断言附证据）：
+- 「146/25,637 无脚本出处」：assets 目录全文 grep 此二数，仅命中 ab_results.json 无关行与 _retro_draft 复述；run_ab_test.py 全文无标题路由测量逻辑——出处缺失属实，非误判
+- 「F2『mnemo 排到第 8』无原始数据」：ab_results.json B2 仅记 top5、rank=0；「第 8」来自 k=50 口径（F6 已注明 B1 k=50 排第 5 同族），交付脚本未输出该口径
+- 产线主链：git log 专项核查两脚本，无本轮提交记录
+
+### 观察项（不阻塞，附落点）
+
+- 🟡 O1 标题路由 146/25,637 与 F2「第 8」为 ad-hoc 测量未落交付脚本，复现口径缺失 → 落点：场景①施工立项（若老朱拍板）时，验收标准必须含「标题路由注入器脚本化 + 上述三数自动测量」
+- 🟡 O2 mnemosyne stats.json 自报「recall hit 30/30」与 ab_results ground-truth 口径不同（引擎自报≠命中率），易误读 → 落点：本终审记录留痕即可；施工任务验收时明示用 ground-truth 口径
+
+### 终审意见
+
+狗粮测试的最高价值在本轮负结论：F3（压缩层对高密度卡片语料只压 5.4%，「省 token」不成立）直接阻止了按论文口径拍板全量接入的错误路径；F6 四坑（三元组返回/近因 boost 排序漂移/remember 无幂等/重复入库污染）是读论文读不出的接入设计约束。事故披露（幂等清库未实现→自踩重复入库→rmtree 重建全量重跑）符合狗粮方法论的本义。A- 而非 A：可复现性因 ad-hoc 测量未脚本化打了折扣（O1），扣半级。
