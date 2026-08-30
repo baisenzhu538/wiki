@@ -104,6 +104,25 @@ def _is_batch_task(task_id: str) -> bool:
     return bool(_re.search(r"^batch:\s*(true|True|1)\s*$", text, _re.M))
 
 
+# #580（F-064）：任务单目录提为模块级——_is_rework_task 读侧可注入（测试用临时目录）
+TASKS_DIR = Path(__file__).resolve().parent.parent.parent / "60_feedback" / "tasks"
+
+
+def _is_rework_task(task_id: str) -> bool:
+    """#580（F-064）：任务单 frontmatter `rework: true` → 终审 FAIL 打回的返工重提单。
+
+    打标由 queue_transition.action_review 在 FAIL 打回/#538 改判时自动写入任务单——
+    重提≠接新单，claim 不触发 #504 own-pending 阻塞。TASKS_DIR 模块级，测试可替换。
+    """
+    import re as _re
+    fp = TASKS_DIR / f"{task_id}.md"
+    try:
+        text = fp.read_text(encoding="utf-8", errors="ignore")
+    except OSError:
+        return False
+    return bool(_re.search(r"^rework:\s*(true|True|1)\s*$", text, _re.M))
+
+
 def find_blockers(rows: list[dict] | None = None) -> tuple[list[dict], list[dict]]:
     """Return (pending_review_tasks, claimed_tasks) that block queue advance.
 
@@ -163,12 +182,22 @@ def can_claim(task_id: str, rows: list[dict] | None = None, instance: str = "") 
         cur_role = (task.get("assignee") or "").strip()
         own = [r for r in earlier_pending
                if cur_role and r.get("assignee", "").strip() == cur_role]
+        if own and _is_rework_task(task_id):
+            # #580（F-064）：rework:true 单 = 终审 FAIL 打回后的返工重提，重提≠接新单——
+            # own pending 不阻塞（08-30 实证：#578 返工 claim 被 #504 误拦只能 --force；
+            # 注意 #575 在 #578 队列位之前，仅跳过 own 分支会跌入下方 FIFO 分支照样被拦，
+            # 故须把 own 从阻塞集剔除）。他人前方 pending 仍按 FIFO 阻塞、#503 claimed 锁照旧。
+            own_ids = {o["task_id"] for o in own}
+            earlier_pending = [r for r in earlier_pending
+                               if r["task_id"] not in own_ids]
+            own = []
         if own:
             own_ids = ", ".join(f"#{r['seq']} {r['task_id']}" for r in own)
             return False, (f"你（{cur_role}）还有 pending_review 任务待欧阳锋终审：{own_ids}。"
                            f"审查等待期不接新单（#504）——等终审后再领取 {task_id}")
-        ids = ", ".join(f"#{r['seq']} {r['task_id']}" for r in earlier_pending)
-        return False, f"队列前方还有 pending_review 任务未终审：{ids}。必须等它们 reviewed 后才能领取 {task_id}"
+        if earlier_pending:
+            ids = ", ".join(f"#{r['seq']} {r['task_id']}" for r in earlier_pending)
+            return False, f"队列前方还有 pending_review 任务未终审：{ids}。必须等它们 reviewed 后才能领取 {task_id}"
 
     # claimed 阻塞规则（#503 洞A 根治）：同一执行者同一时刻最多一个 in_progress。
     # 旧实现 `instance in r.get("assignee")` 子串匹配在 #444 写侧改角色名后静默失效

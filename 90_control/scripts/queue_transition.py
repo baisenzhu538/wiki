@@ -1194,14 +1194,16 @@ def _action_review_override(task: dict, task_file: Path, reviewer: str, reason: 
 
     ledger = _log_force_exception(task_id, reviewer, reason,
                                   bypass="reviewed→queued 改判（#538 终审自我纠错通道）")
+    # #580（F-064）：改判=FAIL 打回同族——同样自动打 rework:true 标，返工重提豁免 #504
     with QueueLock("production-queue"):
         rows = parse_queue()
         task2 = find_task(task_id, rows)
         if task2 is None or task2["status"] != "reviewed":
             return False, "队列状态在加锁期间发生变化，请重试"
-        apply_updates(task_id, "queued", task_file, status="queued")
+        apply_updates(task_id, "queued", task_file, status="queued", rework=True)
     return True, (f"↩️ {task_id} 已改判：{orig} → FAIL，状态回 queued（返工）\n"
-                  f"⚠️ 改判例外已留痕: {ledger}\n任务单已追记「## 改判记录」节")
+                  f"⚠️ 改判例外已留痕: {ledger}\n任务单已追记「## 改判记录」节"
+                  f"（已自动标 rework:true——返工重提不再触发 #504 拦截，#580 F-064）")
 
 
 def action_review(task_id: str, verdict: str, reviewer: str, grade: str | None = None,
@@ -1285,13 +1287,17 @@ def action_review(task_id: str, verdict: str, reviewer: str, grade: str | None =
             )
             return True, f"✅ {task_id} 终审通过，状态更新为 reviewed{grade_note}"
         else:
-            apply_updates(task_id, "queued", task_file, status="queued")
+            # #580（F-064）：FAIL 打回时自动打 rework:true 标——返工重提 claim 时
+            # _is_rework_task 读到该标即豁免 #504 own-pending 阻塞（重提≠接新单）。
+            # 走 apply_updates 写 frontmatter（幂等，多轮返工重复写 true 无副作用）。
+            apply_updates(task_id, "queued", task_file, status="queued", rework=True)
             # #389：终审退回 → 同样划掉登记行（任务回 queued，不再待终审）
             _review_board_update(
                 strike=task_id,
                 strike_note=f" → 终审退回 queued（{current_utc_date()} 欧阳锋）",
             )
-            return True, f"⚠️ {task_id} 终审不通过，状态退回 queued"
+            return True, (f"⚠️ {task_id} 终审不通过，状态退回 queued"
+                          f"（已自动标 rework:true——返工完成后重提不再触发 #504 拦截，#580 F-064）")
 
 
 def _task_depends_on(task_id: str) -> list[str]:
