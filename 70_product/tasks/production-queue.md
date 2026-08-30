@@ -206,6 +206,8 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 578 | `task_20260830_laowantong-dk-replicable-ops` | 可复刻dk卡组4张：多线程打地鼠/项目→Skill→Agent闭环/ROI三步/借假修真重立 | reviewed | laowantong | 4张dk卡 | 无 | `60_feedback/tasks/task_20260830_laowantong-dk-replicable-ops.md` | 战略笃定篇编排（08-30王语嫣）：老朱口径暗知识=可复刻操作非口水化；每卡含操作步骤≥3步；欧阳锋终审 |
 | 579 | `task_20260830_laowantong-strategy-conviction-framework` | 战略笃定框架卡：战略+笃定定义+七轮决策表+攒牌心态+不要撒胡椒面 | reviewed | laowantong | framework卡 | 无 | `60_feedback/tasks/task_20260830_laowantong-strategy-conviction-framework.md` | 战略笃定篇编排（08-30王语嫣）：七轮决策实证；传播限制注记（Truman阅后即焚，老朱学员无碍）；欧阳锋终审 |
 | 580 | `task_20260830_huangyaoshi-rework-reclaim-bypass-504` | 返工重提绕过#504拦截（F-064：FAIL打回自动rework标记，claim不触发pending_review阻塞） | queued | huangyaoshi | queue_transition.py + 测试 | F-064 | `60_feedback/tasks/task_20260830_huangyaoshi-rework-reclaim-bypass-504.md` | 老顽童08-30上报+王语嫣立项 |
+| 581 | `task_20260830_laowantong-private-board-conversion-case` | 一堂转化率私董会真实案例卡（叶柳清古法护肤）：三轮共创实录提炼+幕僚收敛样本+可迁移原则 | queued | laowantong | 1张case卡 | 无 | `60_feedback/tasks/task_20260830_laowantong-private-board-conversion-case.md` | 私董会素材编排（08-30王语嫣）；脱敏+传播限制标注必附（保密承诺）；欧阳锋终审 |
+
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
 ## ⚖️ 待终审（提审任务，queue_transition 自动登记）
@@ -487,6 +489,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~00_inbox/我用一堂做一堂/OCR_批注 2026-08-30 115217.md｜P2｜532B｜检测到 08-30 04:11｜待王语嫣编排~~ → 已编排 → #575-#579（08-30 王语嫣）
 - ~~00_inbox/我用一堂做一堂/OCR_案例-Truman的agent团队系统架构设计图-我用一堂做一堂.md｜P0｜2441B｜检测到 08-30 04:11｜待王语嫣编排~~ → 已编排 → #575-#579（08-30 王语嫣）
 - ~~00_inbox/我用一堂做一堂/_context-术语.txt｜P2｜1270B｜检测到 08-30 04:11｜待王语嫣编排~~ → 已编排 → #575-#579（08-30 王语嫣）
+~~- 00_inbox/私董会/叶柳清私董会/第6期 55班 转化率私董会v1.0（投屏文档）｜1场 【高强版】 副本 叶老师.md｜P2｜26995B｜检测到 08-30 13:41｜待王语嫣编排~~ → 已编排 → #581（08-30 王语嫣：产 case-private-board-conversion-skincare，脱敏+传播限制标注）
 
 <!-- INBOX-PENDING-END -->
 
@@ -626,9 +629,9 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~[gate-blocked] role-liveness｜08-28 23:57｜待王语嫣复核处置｜2026-08-28 23:52:05｜role-liveness｜fengqingyang 全实例疑似死亡（stale: [('codex', 2457.7)]）｜role_registry check-liveness｜role_registry~~ → 已知问题划销（08-29 王语嫣）：风清扬 codex 会话持续无心跳（~42h），观察者非产线阻塞，#562 任务2/#565 落地前属预期；是否拉起风清扬由老朱决定，不升级
 - ~~[gate-blocked] role-liveness｜08-29 03:17｜待王语嫣复核处置｜2026-08-29 03:07:58｜role-liveness｜fengqingyang 全实例疑似死亡（stale: [('codex', 2653.5)]）｜role_registry check-liveness｜role_registry~~ → 已知问题划销（08-29 王语嫣）：风清扬 codex 会话持续无心跳（~44h），观察者非产线阻塞，#562 任务2/#565 落地前属预期；是否拉起风清扬由老朱决定，不升级
 - ~~[gate-blocked] role-liveness｜08-29 11:37｜待王语嫣复核处置｜2026-08-29 11:33:31｜role-liveness｜fengqingyang 全实例疑似死亡（stale: [('codex', 3159.1)]）｜role_registry check-liveness｜role_registry~~ → 已知问题划销（08-29 王语嫣）：风清扬 codex 会话持续无心跳（~52h），观察者非产线阻塞，#562 任务2/#565 落地前属预期；是否拉起风清扬由老朱决定，不升级
-- [gate-blocked] task_20260828_huangyaoshi-check-review-sla-timeout-push｜08-29 13:47｜待王语嫣复核处置｜2026-08-29 13:40:27｜task_20260828_huangyaoshi-check-review-sla-timeout-push｜F-035-负向判词｜意见书含负向断言（缺失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋
-- [gate-blocked] task_20260830_laowantong-openclaw-harness-selection｜08-30 13:37｜待王语嫣复核处置｜2026-08-30 13:34:54｜task_20260830_laowantong-openclaw-harness-selection｜F-034-五字段｜执行报告缺 1 个字段（#429 F-034）：需要谁动作。请补全后重试，或 --force --reason '<理由>' 声明例外（#444 台账留痕）。 / 合法写法样例（五字段各起一行，粗体锚词开｜laowantong
-- [gate-blocked] task_20260830_huangyaoshi-kdo-three-artifacts｜08-30 14:47｜待王语嫣复核处置｜2026-08-30 14:43:20｜task_20260830_huangyaoshi-kdo-three-artifacts｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生 / - 未提交改动: 90_control/top-level-document-protocol.md / - 未｜huangyaoshi
+~~- [gate-blocked] task_20260828_huangyaoshi-check-review-sla-timeout-push｜08-29 13:47｜待王语嫣复核处置｜2026-08-29 13:40:27｜task_20260828_huangyaoshi-check-review-sla-timeout-push｜F-035-负向判词｜意见书含负向断言（缺失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋~~ → 已化解（08-30 王语嫣批核）：欧阳锋意见书补存在性核查锚点后终审 PASS A-（08-29），#574 闭环，残留划销
+~~- [gate-blocked] task_20260830_laowantong-openclaw-harness-selection｜08-30 13:37｜待王语嫣复核处置｜2026-08-30 13:34:54｜task_20260830_laowantong-openclaw-harness-selection｜F-034-五字段｜执行报告缺 1 个字段（#429 F-034）：需要谁动作。请补全后重试，或 --force --reason '<理由>' 声明例外（#444 台账留痕）。 / 合法写法样例（五字段各起一行，粗体锚词开｜laowantong~~ → 已化解（08-30 王语嫣批核）：老顽童补「需要谁动作」字段后重提，#575 终审 PASS A（08-30），残留划销
+~~- [gate-blocked] task_20260830_huangyaoshi-kdo-three-artifacts｜08-30 14:47｜待王语嫣复核处置｜2026-08-30 14:43:20｜task_20260830_huangyaoshi-kdo-three-artifacts｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生 / - 未提交改动: 90_control/top-level-document-protocol.md / - 未｜huangyaoshi~~ → 已化解（08-30 王语嫣批核）：黄药师补 commit 交付物入仓后重提，#577 终审 PASS A-（08-30），残留划销
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
