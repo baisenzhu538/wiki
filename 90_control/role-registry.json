@@ -16,7 +16,7 @@
         "channels": [
           "todos"
         ],
-        "heartbeat_ts": 1787861141.4418674,
+        "heartbeat_ts": 1788114725.8921804,
         "session_scope": "C:\\Users\\Administrator\\Desktop\\wiki"
       },
       {
@@ -40,7 +40,7 @@
         "channels": [
           "todos"
         ],
-        "heartbeat_ts": 1787860849.9038157,
+        "heartbeat_ts": 1788114726.0070233,
         "session_scope": "C:\\Users\\Administrator\\Desktop\\wiki"
       },
       {
@@ -73,7 +73,7 @@
         "channels": [
           "todos"
         ],
-        "heartbeat_ts": 1787858451.6367235,
+        "heartbeat_ts": 1788115040.4459386,
         "session_scope": "C:\\Users\\Administrator\\Desktop\\wiki"
       },
       {
@@ -87,7 +87,7 @@
         "profile": "ouyangfeng"
       }
     ],
-    "active": "kimi-cli"
+    "active": "cli"
   },
   "wangyuyan": {
     "instances": [
@@ -106,7 +106,7 @@
           "feishu",
           "todos"
         ],
-        "heartbeat_ts": 1787859820.6626549,
+        "heartbeat_ts": 1788114800.9933336,
         "profile": "wangyuyan"
       },
       {
@@ -119,7 +119,7 @@
         "session_scope": "C:\\Users\\Administrator\\Desktop\\wiki"
       }
     ],
-    "active": "kimi-cli",
+    "active": "hermes",
     "wake_pace_min": 30
   },
   "fengqingyang": {
