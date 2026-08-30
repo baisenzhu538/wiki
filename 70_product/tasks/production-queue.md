@@ -205,6 +205,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 577 | `task_20260830_huangyaoshi-kdo-three-artifacts` | KDO落地三件套：顶层文档规范+编号依赖规范+设计宪法（方案B覆盖卡片/视觉/Agent spec） | reviewed | huangyaoshi | 三份规范+模板 | 无 | `60_feedback/tasks/task_20260830_huangyaoshi-kdo-three-artifacts.md` | 战略笃定篇编排（08-30王语嫣）：老朱直指「KDO案子没照着做」；设计宪法方案B；渐进过渡不推翻现有编号；欧阳锋终审 |
 | 578 | `task_20260830_laowantong-dk-replicable-ops` | 可复刻dk卡组4张：多线程打地鼠/项目→Skill→Agent闭环/ROI三步/借假修真重立 | reviewed | laowantong | 4张dk卡 | 无 | `60_feedback/tasks/task_20260830_laowantong-dk-replicable-ops.md` | 战略笃定篇编排（08-30王语嫣）：老朱口径暗知识=可复刻操作非口水化；每卡含操作步骤≥3步；欧阳锋终审 |
 | 579 | `task_20260830_laowantong-strategy-conviction-framework` | 战略笃定框架卡：战略+笃定定义+七轮决策表+攒牌心态+不要撒胡椒面 | reviewed | laowantong | framework卡 | 无 | `60_feedback/tasks/task_20260830_laowantong-strategy-conviction-framework.md` | 战略笃定篇编排（08-30王语嫣）：七轮决策实证；传播限制注记（Truman阅后即焚，老朱学员无碍）；欧阳锋终审 |
+| 580 | `task_20260830_huangyaoshi-rework-reclaim-bypass-504` | 返工重提绕过#504拦截（F-064：FAIL打回自动rework标记，claim不触发pending_review阻塞） | queued | huangyaoshi | queue_transition.py + 测试 | F-064 | `60_feedback/tasks/task_20260830_huangyaoshi-rework-reclaim-bypass-504.md` | 老顽童08-30上报+王语嫣立项 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
 ## ⚖️ 待终审（提审任务，queue_transition 自动登记）
