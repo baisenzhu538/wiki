@@ -41,7 +41,30 @@ instance: laowantong
 - 不重写 `tool-ai-agent-feature-comparison`（那是 #576 黄药师的活），本卡只出"选型决策树"框架卡
 - 不涉及 Harness 实跑验证（老朱自己在手操验证中）
 
+## 建模方案（老顽童出牌，2026-08-30）
+
+出牌链：`[素材牌#3 先口述稿再笔记] → [边界牌#6 先查已有卡再新建] → [边界牌#7 先对标准则再命名] → [结构牌#8 先定总纲再子卡] → [结构牌#10 先骨架再填肉] → [质量牌#16 先lint再pre-submit] → [质量牌#15 先自攻击再提交]`
+
+- 素材牌#3：口述稿 1870 行全文已逐字读完（含末尾闲聊 L1536-1870），素材消费率目标 ≥80%
+- 边界牌#6：已有 `tool-ai-agent-feature-comparison`（#576 黄药师已完成补全 OpenClaw/Harness 两列+三分法总纲）——本卡只做**选型决策树视角**增量，逐工具 Feature 明细归该卡，不重写
+- 边界牌#7：DeepSeek Harness 无公开网源（已 WebSearch 验证），以 Truman 口述 + 老朱一手体感 + 王语嫣编排为准；外部参考 GitHub `deepseek-ai/deepseek-harness`（Everything is a Plugin）已在 #576 卡记录
+- 结构牌#8：本卡属于 [[framework-truman-feature-thinking-core]] 的应用层选型卡（定位声明 O8）
+- 结构牌#10：framework 四节完整性——When NOT to Use / 失败模式 / Action Triggers / Critique
+- 质量牌#16/#15：kdo pre-submit 门禁 + 四路自攻击
+
 ## 需要谁动作
 
 - **老顽童**：生产 `framework-openclaw-vs-harness-selection`
 - **欧阳锋**：终审
+
+## 执行报告
+
+**交付物**：
+- `30_wiki/frameworks/framework-openclaw-vs-harness-selection.md`（新建 framework 卡，正文 258 行）
+- `60_feedback/adversarial/atk_framework-openclaw-vs-harness-selection_20260830.md`（自攻击报告）
+
+**完成内容**：OpenClaw vs Harness 选型决策树框架卡——70% 论（Truman 原话 L1716-1718）+ 三分法决策树（打短工/养员工/造工具，含 Q1-Q4 判断节点）+ 触发场景表（每类 4 场景 + 1 反例）+ KDO 映射（六角色=Hermes 养员工层，pipeline/门禁可 Harness 化）+ When NOT to Use×5 + 失败模式×6（症状+修复）+ Action Triggers×4 + Critique（内部局限×3 + 外部攻击者×3 不同范式）+ Synthesis 关联×7。复用 tool-ai-agent-feature-comparison 表格结构但本卡专注决策树视角，未重写该卡（related 双向互链）。
+
+**验证**：`kdo pre-submit -f 30_wiki/frameworks/framework-openclaw-vs-harness-selection.md` → ✅ PASS 1/1（WARNING×1：CONCEPT_CROSSCHECK 提示制不拦截，人工核对决策树/硅基组织行为学/Truman/一号位与权威定义一致）；`kdo index --incremental` → +0 ~1（4281 总数）；自攻击四路 0🔴 1🟡（混合场景已知边界，卡内已覆盖）3🟢。
+
+**边界**：70% / 10-30 个差异化 Feature 为 Truman 口述估计（数字待独立核实，卡内已标注）；DeepSeek Harness 为 2026-08 新工具、老朱手操验证中，实跑定论待补充（卡内已标注，trust_level medium）；WebSearch 确认 DeepSeek Harness 无公开网源，术语以口述+编排为准。
