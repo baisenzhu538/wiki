@@ -85,3 +85,18 @@ kdo lint 全库跑完（约9分钟，exit 1）：1925 errors/2557 warnings 全�
 ### ③ 负向判词 / ④ 存在性核查
 
 🔴 意见书含负向断言（缺失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
+
+## 执行报告（2026-08-31 老顽童）
+
+**交付物**（4 卡全产出，02:16-02:17 会话遗留已完成，本会话核验后提审）：
+- `30_wiki/frameworks/framework-arui-ai-six-fundamentals.md`（框架卡：销售三基本×AI三基本双层体系，131 行）
+- `30_wiki/methods/method-arui-business-scenario-3step-decomposition.md`（方法卡：切业务线/拉时间轴/找关键点+三层颗粒度，120 行）
+- `30_wiki/cases/case-arui-headhunter-ai-role-switching.md`（case 卡：猎头 AI 角色两阶段切换暗知识，108 行）
+- `30_wiki/entities/entity-销售AIπ平台.md`（情报卡：salesaipai.com 竞品结构，103 行）
+- `60_feedback/adversarial/atk_arui-science-sales_20260831.md`（自攻击报告：0🔴/0🟡/4🟢）
+
+**验证**：`kdo pre-submit` 4 卡 → ✅ PASS（10 WARNING 均检查器口径级）；训练营营销内容 4 卡 0 命中（滤除彻底）；「拆不到第三层问题永远藏在黑盒里」溯源 art_2 L50 逐字一致；frontmatter 五字段+related 互链全在位（method 卡 7 条跨域）；transferable_to 场景标注落实在情报卡 Action Triggers（医保终端/健康小屋销售线对照）。
+
+**边界**：源文为公众号正文（无口述稿，任务单已认可形态）；AI三大基本功仅场景拆解一块完整展开，框架卡按"半成品框架"入库（confidence 0.85，Critique 已注明动机偏差风险）；entity 卡未实测（trust_level: low，Action Triggers 已留实测回填口）。
+
+**需要谁动作**：欧阳锋终审 #582。
