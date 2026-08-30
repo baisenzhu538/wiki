@@ -1,0 +1,257 @@
+{
+ "seed": 20260831,
+ "count": 50,
+ "total_bytes": 437346,
+ "cards": [
+  {
+   "path": "30_wiki/frameworks/framework-strategy-basics-05-change.md",
+   "stratum": "frameworks",
+   "bytes": 2968
+  },
+  {
+   "path": "30_wiki/frameworks/framework-serendipity-five-channels.md",
+   "stratum": "frameworks",
+   "bytes": 5886
+  },
+  {
+   "path": "30_wiki/frameworks/yt-growth-funnel-optimization.md",
+   "stratum": "frameworks",
+   "bytes": 5553
+  },
+  {
+   "path": "30_wiki/frameworks/framework-yitang-expert-interview-10steps.md",
+   "stratum": "frameworks",
+   "bytes": 10164
+  },
+  {
+   "path": "30_wiki/frameworks/xingangwan-pharma-business-model-calc.md",
+   "stratum": "frameworks",
+   "bytes": 28549
+  },
+  {
+   "path": "30_wiki/frameworks/framework-christensen-disruptive-innovation.md",
+   "stratum": "frameworks",
+   "bytes": 16733
+  },
+  {
+   "path": "30_wiki/frameworks/modeling-scientific-milestones.md",
+   "stratum": "frameworks",
+   "bytes": 5605
+  },
+  {
+   "path": "30_wiki/frameworks/yt-tob-solution-model.md",
+   "stratum": "frameworks",
+   "bytes": 10868
+  },
+  {
+   "path": "30_wiki/frameworks/yt-unit-model-ladder.md",
+   "stratum": "frameworks",
+   "bytes": 7413
+  },
+  {
+   "path": "30_wiki/frameworks/framework-一堂五步法-壁垒.md",
+   "stratum": "frameworks",
+   "bytes": 2858
+  },
+  {
+   "path": "30_wiki/frameworks/framework-coaching-leadership-core.md",
+   "stratum": "frameworks",
+   "bytes": 12845
+  },
+  {
+   "path": "30_wiki/frameworks/framework-一堂-关键假设.md",
+   "stratum": "frameworks",
+   "bytes": 14966
+  },
+  {
+   "path": "30_wiki/concepts/yt-entrepreneur-spin-selling.md",
+   "stratum": "concepts",
+   "bytes": 13205
+  },
+  {
+   "path": "30_wiki/concepts/数据标注维度最佳实践调研报告.md",
+   "stratum": "concepts",
+   "bytes": 2937
+  },
+  {
+   "path": "30_wiki/concepts/tools-workflows.md",
+   "stratum": "concepts",
+   "bytes": 2639
+  },
+  {
+   "path": "30_wiki/concepts/yt-personal-knowledge-management.md",
+   "stratum": "concepts",
+   "bytes": 11962
+  },
+  {
+   "path": "30_wiki/concepts/yt-business-model-asset-light.md",
+   "stratum": "concepts",
+   "bytes": 5829
+  },
+  {
+   "path": "30_wiki/concepts/concept-单元模型-学练用.md",
+   "stratum": "concepts",
+   "bytes": 2643
+  },
+  {
+   "path": "30_wiki/concepts/yt-business-model-freemium.md",
+   "stratum": "concepts",
+   "bytes": 6047
+  },
+  {
+   "path": "30_wiki/concepts/yt-model-personal-pitch-toolkit.md",
+   "stratum": "concepts",
+   "bytes": 15559
+  },
+  {
+   "path": "30_wiki/concepts/concept-ceo-must-do-user-research.md",
+   "stratum": "concepts",
+   "bytes": 2932
+  },
+  {
+   "path": "30_wiki/concepts/concept-一堂-Agent基本功修炼.md",
+   "stratum": "concepts",
+   "bytes": 14705
+  },
+  {
+   "path": "30_wiki/concepts/concept-thousand-people-square.md",
+   "stratum": "concepts",
+   "bytes": 6632
+  },
+  {
+   "path": "30_wiki/concepts/structured-ai-workspace.md",
+   "stratum": "concepts",
+   "bytes": 6682
+  },
+  {
+   "path": "30_wiki/concepts/business-analysis.md",
+   "stratum": "concepts",
+   "bytes": 2158
+  },
+  {
+   "path": "30_wiki/concepts/master-first-principles.md",
+   "stratum": "concepts",
+   "bytes": 18481
+  },
+  {
+   "path": "30_wiki/cases/case-yitang-2022-annual-lessons.md",
+   "stratum": "cases",
+   "bytes": 18763
+  },
+  {
+   "path": "30_wiki/cases/case-yitang-jiangxiang-cli-three-versions.md",
+   "stratum": "cases",
+   "bytes": 6833
+  },
+  {
+   "path": "30_wiki/cases/case-yitang-tob-smart-park.md",
+   "stratum": "cases",
+   "bytes": 9854
+  },
+  {
+   "path": "30_wiki/cases/case-千惠供应链复盘.md",
+   "stratum": "cases",
+   "bytes": 9016
+  },
+  {
+   "path": "30_wiki/cases/case-yitang-single-course-199-failure.md",
+   "stratum": "cases",
+   "bytes": 2313
+  },
+  {
+   "path": "30_wiki/cases/case-yitang-yewenbin-archery-business-formula.md",
+   "stratum": "cases",
+   "bytes": 17163
+  },
+  {
+   "path": "30_wiki/cases/case-yitang-shuzu-channel-scan-test.md",
+   "stratum": "cases",
+   "bytes": 15713
+  },
+  {
+   "path": "30_wiki/cases/case-strategy-failure-04-appliance.md",
+   "stratum": "cases",
+   "bytes": 7834
+  },
+  {
+   "path": "30_wiki/cases/case-doris-catering-chain-benchmark.md",
+   "stratum": "cases",
+   "bytes": 1935
+  },
+  {
+   "path": "30_wiki/cases/case-wechat-article_4dd7be7cd82f7e80.md",
+   "stratum": "cases",
+   "bytes": 3288
+  },
+  {
+   "path": "30_wiki/cases/case-yitang-truman-time-management-transformation.md",
+   "stratum": "cases",
+   "bytes": 9708
+  },
+  {
+   "path": "30_wiki/cases/case-truman-ai-skill-engineering-guide.md",
+   "stratum": "cases",
+   "bytes": 20022
+  },
+  {
+   "path": "30_wiki/dark-knowledges/dk-customers-hate-ai.md",
+   "stratum": "dark-knowledges",
+   "bytes": 6075
+  },
+  {
+   "path": "30_wiki/dark-knowledges/dk-oral-spray-newcomer-blockers.md",
+   "stratum": "dark-knowledges",
+   "bytes": 4877
+  },
+  {
+   "path": "30_wiki/dark-knowledges/dk-signal-cluster-illusion.md",
+   "stratum": "dark-knowledges",
+   "bytes": 4649
+  },
+  {
+   "path": "30_wiki/dark-knowledges/dk-yihang-report-book-learner.md",
+   "stratum": "dark-knowledges",
+   "bytes": 5112
+  },
+  {
+   "path": "30_wiki/dark-knowledges/dk-p8-toolkit-forget.md",
+   "stratum": "dark-knowledges",
+   "bytes": 5317
+  },
+  {
+   "path": "30_wiki/dark-knowledges/dk-wanghuan-magic-defeats-magic.md",
+   "stratum": "dark-knowledges",
+   "bytes": 9025
+  },
+  {
+   "path": "30_wiki/dark-knowledges/dk-yihang-non-expert-judgment.md",
+   "stratum": "dark-knowledges",
+   "bytes": 3571
+  },
+  {
+   "path": "30_wiki/dark-knowledges/dk-ji-hao-pdca-starts-from-do.md",
+   "stratum": "dark-knowledges",
+   "bytes": 6182
+  },
+  {
+   "path": "30_wiki/methods/method-yihang-human-self-distillation.md",
+   "stratum": "methods",
+   "bytes": 11904
+  },
+  {
+   "path": "30_wiki/methods/method-yihang-dual-triangle-deliberate-practice.md",
+   "stratum": "methods",
+   "bytes": 4546
+  },
+  {
+   "path": "30_wiki/methods/method-yihang-agent-hr-role.md",
+   "stratum": "methods",
+   "bytes": 3134
+  },
+  {
+   "path": "30_wiki/methods/method-kdo-inbox-annotation.md",
+   "stratum": "methods",
+   "bytes": 13693
+  }
+ ]
+}

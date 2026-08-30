@@ -1,0 +1,641 @@
+{
+ "meta": {
+  "engine": "mnemosyne-os 7.0.0 + kdo query(vault全库)",
+  "k": 5,
+  "tokenizer": "tiktoken cl100k_base",
+  "corpus": "50卡/222880字符",
+  "ts": "2026-08-31 02:52:33"
+ },
+ "A": [
+  {
+   "id": "A1",
+   "query": "哪些卡讲过怎么把日常刷到的文章视频自动收集进知识库？",
+   "target": "framework-serendipity-five-channels",
+   "mnemo": {
+    "rank": 1,
+    "latency_ms": 108.1,
+    "tokens_full": 18855,
+    "tokens_compressed": 17824,
+    "top_ids": [
+     "framework-serendipity-five-channels",
+     "dk-oral-spray-newcomer-blockers",
+     "dk-wanghuan-magic-defeats-magic",
+     "framework-一堂-关键假设",
+     "framework-coaching-leadership-core"
+    ]
+   },
+   "kdo": {
+    "rank": 3,
+    "latency_ms": 1211.4,
+    "tokens_context": 912,
+    "top_paths": [
+     "10_raw/sources/src_20260524_3cadf228-ai-native-五层进阶从答案到效率到作品到产品到系统.md",
+     "30_wiki/tools/tool-wechat-transcript-automation-workflow.md",
+     "30_wiki/frameworks/framework-serendipity-five-channels.md",
+     "30_wiki/tools/tool-oral-spray-demo-prompts-3samples.md",
+     "10_raw/sources/src_20260522_65a78106-ocr-泛产品设计-审美工具箱指南.md"
+    ]
+   }
+  },
+  {
+   "id": "A2",
+   "query": "公司到了要变革的阶段，加外挂还是换路子怎么判断？",
+   "target": "framework-strategy-basics-05-change",
+   "mnemo": {
+    "rank": 1,
+    "latency_ms": 96.7,
+    "tokens_full": 16611,
+    "tokens_compressed": 15615,
+    "top_ids": [
+     "framework-strategy-basics-05-change",
+     "framework-coaching-leadership-core",
+     "yt-tob-solution-model",
+     "case-yitang-jiangxiang-cli-three-versions",
+     "case-千惠供应链复盘"
+    ]
+   },
+   "kdo": {
+    "rank": 1,
+    "latency_ms": 1250.1,
+    "tokens_context": 825,
+    "top_paths": [
+     "30_wiki/frameworks/framework-strategy-basics-05-change.md",
+     "30_wiki/frameworks/framework-strategy-five-basics.md",
+     "40_outputs/capabilities/skills/shared/strategy-brm/SKILL.md",
+     "10_raw/sources/src_20260614_dcf9d023-战略培训-案例分析.md",
+     "40_outputs/content/articles/art_20260529_ai_design_reading_notes.md"
+    ]
+   }
+  },
+  {
+   "id": "A3",
+   "query": "增长漏斗每个环节都在流失，怎么优化？",
+   "target": "yt-growth-funnel-optimization",
+   "mnemo": {
+    "rank": 1,
+    "latency_ms": 98.7,
+    "tokens_full": 14284,
+    "tokens_compressed": 13526,
+    "top_ids": [
+     "yt-growth-funnel-optimization",
+     "framework-serendipity-five-channels",
+     "framework-coaching-leadership-core",
+     "dk-oral-spray-newcomer-blockers",
+     "case-yitang-jiangxiang-cli-three-versions"
+    ]
+   },
+   "kdo": {
+    "rank": 1,
+    "latency_ms": 1196.5,
+    "tokens_context": 1061,
+    "top_paths": [
+     "30_wiki/frameworks/yt-growth-funnel-optimization.md",
+     "30_wiki/frameworks/framework-sales-funnel-full.md",
+     "30_wiki/cases/case-yitang-burger-franchise-key-path.md",
+     "10_raw/sources/src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript.md",
+     "40_outputs/capabilities/skills/shared/five-step-growth/SKILL.md"
+    ]
+   }
+  },
+  {
+   "id": "A4",
+   "query": "做专家访谈有没有系统的流程和方法？",
+   "target": "framework-yitang-expert-interview-10steps",
+   "mnemo": {
+    "rank": 1,
+    "latency_ms": 98.7,
+    "tokens_full": 22248,
+    "tokens_compressed": 20947,
+    "top_ids": [
+     "framework-yitang-expert-interview-10steps",
+     "dk-oral-spray-newcomer-blockers",
+     "dk-customers-hate-ai",
+     "framework-christensen-disruptive-innovation",
+     "case-yitang-2022-annual-lessons"
+    ]
+   },
+   "kdo": {
+    "rank": 0,
+    "latency_ms": 1219.7,
+    "tokens_context": 1087,
+    "top_paths": [
+     "30_wiki/tools/yt-tool-business-formula-expert-interview-10.md",
+     "10_raw/sources/src_20260620_business-research-skill-v2.1.0/references/weapon-action-templates.md",
+     "40_outputs/capabilities/skills/business-research/references/weapon-action-templates.md",
+     "10_raw/sources/corr_20260613_clinic-boss-interview-insights.md",
+     "30_wiki/concepts/concept-一堂-kernel-validation.md"
+    ]
+   }
+  },
+  {
+   "id": "A5",
+   "query": "医药零售小程序加实体药店的模式，利润怎么算、多久回本？",
+   "target": "xingangwan-pharma-business-model-calc",
+   "mnemo": {
+    "rank": 2,
+    "latency_ms": 114.6,
+    "tokens_full": 30433,
+    "tokens_compressed": 29203,
+    "top_ids": [
+     "framework-coaching-leadership-core",
+     "xingangwan-pharma-business-model-calc",
+     "case-千惠供应链复盘",
+     "framework-serendipity-five-channels",
+     "case-yitang-2022-annual-lessons"
+    ]
+   },
+   "kdo": {
+    "rank": 1,
+    "latency_ms": 1273.9,
+    "tokens_context": 1034,
+    "top_paths": [
+     "30_wiki/frameworks/xingangwan-pharma-business-model-calc.md",
+     "30_wiki/frameworks/xingangwan-pharma-business-formulas.md",
+     "30_wiki/frameworks/xingangwan-pharma-business-model-formulas.md",
+     "10_raw/sources/src_20260613_fb0e6521-corr_20260613_smart-medicine-cabinet-iteration-9-tier-cities-and-special-scenes.md",
+     "10_raw/sources/corr_20260613_smart-medicine-cabinet-iteration-2-financial-model.md"
+    ]
+   }
+  },
+  {
+   "id": "A6",
+   "query": "颠覆式创新和延续性创新怎么区分？",
+   "target": "framework-christensen-disruptive-innovation",
+   "mnemo": {
+    "rank": 1,
+    "latency_ms": 153.8,
+    "tokens_full": 18609,
+    "tokens_compressed": 17502,
+    "top_ids": [
+     "framework-christensen-disruptive-innovation",
+     "framework-serendipity-five-channels",
+     "framework-coaching-leadership-core",
+     "dk-oral-spray-newcomer-blockers",
+     "case-yitang-jiangxiang-cli-three-versions"
+    ]
+   },
+   "kdo": {
+    "rank": 1,
+    "latency_ms": 1266.3,
+    "tokens_context": 1014,
+    "top_paths": [
+     "30_wiki/frameworks/framework-christensen-disruptive-innovation.md",
+     "30_wiki/cases/case-feishu-disruptive-innovation.md",
+     "30_wiki/tools/sk-ai-old-small-checklist.md",
+     "30_wiki/cases/case-wangfei-newyear-event-diagnosis.md",
+     "10_raw/sources/laozhu-insights-202608/作业1-创新者的窘境-分析题.md"
+    ]
+   }
+  },
+  {
+   "id": "A7",
+   "query": "To B 业务怎么判断该做标品、服务还是定制项目？",
+   "target": "yt-tob-solution-model",
+   "mnemo": {
+    "rank": 1,
+    "latency_ms": 105.9,
+    "tokens_full": 17686,
+    "tokens_compressed": 16620,
+    "top_ids": [
+     "yt-tob-solution-model",
+     "framework-coaching-leadership-core",
+     "framework-serendipity-five-channels",
+     "dk-wanghuan-magic-defeats-magic",
+     "case-yitang-jiangxiang-cli-three-versions"
+    ]
+   },
+   "kdo": {
+    "rank": 1,
+    "latency_ms": 1323.9,
+    "tokens_context": 874,
+    "top_paths": [
+     "30_wiki/frameworks/yt-tob-solution-model.md",
+     "10_raw/sources/src_20260614_909802bd-智能设备-外卖对接方案讨论.md",
+     "10_raw/sources/xujian-tob-fivestep-oral.md",
+     "30_wiki/cases/case-一堂-春萍-刘伟tob销售标准化.md"
+    ]
+   }
+  },
+  {
+   "id": "A8",
+   "query": "单元模型算账水平从差到好分几个阶段？",
+   "target": "yt-unit-model-ladder",
+   "mnemo": {
+    "rank": 4,
+    "latency_ms": 94.9,
+    "tokens_full": 15130,
+    "tokens_compressed": 14316,
+    "top_ids": [
+     "framework-serendipity-five-channels",
+     "dk-oral-spray-newcomer-blockers",
+     "framework-coaching-leadership-core",
+     "yt-unit-model-ladder",
+     "case-yitang-jiangxiang-cli-three-versions"
+    ]
+   },
+   "kdo": {
+    "rank": 0,
+    "latency_ms": 1273.8,
+    "tokens_context": 1705,
+    "top_paths": [
+     "10_raw/sources/src_20260611_c0e6e182-一堂-一堂五步法-单元模型-口述.md",
+     "10_raw/sources/src_20260610_be139711-一堂-一堂五步法-单元模型-口述.md",
+     "10_raw/sources/src_20260611_7c893d19-一堂-一堂五步法-落地实操-口述.md",
+     "10_raw/sources/src_20260611_f500a6ea-一堂-一堂五步法-落地实操-口述.md",
+     "10_raw/sources/一堂-单元模型01口述_cleaned.md"
+    ]
+   }
+  },
+  {
+   "id": "A9",
+   "query": "客户觉得AI生成的销售内容没人情味、胡说八道怎么办？",
+   "target": "dk-customers-hate-ai",
+   "mnemo": {
+    "rank": 1,
+    "latency_ms": 97.2,
+    "tokens_full": 14497,
+    "tokens_compressed": 13682,
+    "top_ids": [
+     "dk-customers-hate-ai",
+     "framework-serendipity-five-channels",
+     "framework-coaching-leadership-core",
+     "dk-oral-spray-newcomer-blockers",
+     "case-yitang-jiangxiang-cli-three-versions"
+    ]
+   },
+   "kdo": {
+    "rank": 1,
+    "latency_ms": 1256.8,
+    "tokens_context": 894,
+    "top_paths": [
+     "30_wiki/dark-knowledges/dk-customers-hate-ai.md",
+     "30_wiki/domains/sales-domain-digest.md",
+     "10_raw/sources/src_20260606_ef4877d0-所以90的核心问题.md",
+     "30_wiki/cases/case-ban-fei-mao-skill-ab-test.md",
+     "10_raw/sources/src_20260614_071928f4-AI场景落地方法分享.md"
+    ]
+   }
+  },
+  {
+   "id": "A10",
+   "query": "供应商合作失控了，复盘时责任怎么划分？",
+   "target": "case-千惠供应链复盘",
+   "mnemo": {
+    "rank": 1,
+    "latency_ms": 145.5,
+    "tokens_full": 15708,
+    "tokens_compressed": 14864,
+    "top_ids": [
+     "case-千惠供应链复盘",
+     "framework-coaching-leadership-core",
+     "framework-serendipity-five-channels",
+     "case-yitang-jiangxiang-cli-three-versions",
+     "dk-oral-spray-newcomer-blockers"
+    ]
+   },
+   "kdo": {
+    "rank": 1,
+    "latency_ms": 1243.6,
+    "tokens_context": 1146,
+    "top_paths": [
+     "30_wiki/cases/case-千惠供应链复盘.md",
+     "40_outputs/供应商管理手册-v1.0-20260807.md",
+     "30_wiki/concepts/yt-barrier-supply-chain.md",
+     "30_wiki/concepts/yt-business-model-partnership.md",
+     "10_raw/sources/src_20260614_40afd886-theme-finance-legal-business-summary.md"
+    ]
+   }
+  }
+ ],
+ "B": [
+  {
+   "id": "B1",
+   "query": "framework-yitang-expert-interview-10steps",
+   "target": "framework-yitang-expert-interview-10steps",
+   "mnemo": {
+    "rank": 0,
+    "latency_ms": 81.9,
+    "tokens_full": 15708,
+    "tokens_compressed": 14864,
+    "top_ids": [
+     "framework-coaching-leadership-core",
+     "framework-serendipity-five-channels",
+     "dk-oral-spray-newcomer-blockers",
+     "case-yitang-jiangxiang-cli-three-versions",
+     "case-千惠供应链复盘"
+    ]
+   },
+   "kdo": {
+    "rank": 0,
+    "latency_ms": 1212.2,
+    "tokens_context": 474,
+    "top_paths": [
+     "30_wiki/tools/tool-yitang-anonymous-roundtable.md",
+     "30_wiki/domains/yitang-research-domain-digest.md",
+     "30_wiki/concept-card-index-latest.md"
+    ]
+   }
+  },
+  {
+   "id": "B2",
+   "query": "yt-unit-model-ladder",
+   "target": "yt-unit-model-ladder",
+   "mnemo": {
+    "rank": 0,
+    "latency_ms": 83.0,
+    "tokens_full": 15708,
+    "tokens_compressed": 14864,
+    "top_ids": [
+     "framework-coaching-leadership-core",
+     "framework-serendipity-five-channels",
+     "case-千惠供应链复盘",
+     "case-yitang-jiangxiang-cli-three-versions",
+     "dk-oral-spray-newcomer-blockers"
+    ]
+   },
+   "kdo": {
+    "rank": 0,
+    "latency_ms": 1217.6,
+    "tokens_context": 690,
+    "top_paths": [
+     "30_wiki/domains/five-step-domain-digest.md",
+     "30_wiki/concepts/yt-unit-model-build.md",
+     "30_wiki/concepts/ai单元模型口述蒋老师.md",
+     "30_wiki/domains/decision-science-domain-digest.md",
+     "30_wiki/concepts/yt-unit-model-ai-assisted.md"
+    ]
+   }
+  },
+  {
+   "id": "B3",
+   "query": "case-yitang-single-course-199-failure",
+   "target": "case-yitang-single-course-199-failure",
+   "mnemo": {
+    "rank": 0,
+    "latency_ms": 82.3,
+    "tokens_full": 16096,
+    "tokens_compressed": 15256,
+    "top_ids": [
+     "framework-coaching-leadership-core",
+     "dk-oral-spray-newcomer-blockers",
+     "framework-serendipity-five-channels",
+     "case-yitang-jiangxiang-cli-three-versions",
+     "framework-yitang-expert-interview-10steps"
+    ]
+   },
+   "kdo": {
+    "rank": 0,
+    "latency_ms": 1171.0,
+    "tokens_context": 148,
+    "top_paths": [
+     "30_wiki/concept-card-index-latest.md"
+    ]
+   }
+  },
+  {
+   "id": "B4",
+   "query": "xingangwan-pharma-business-model-calc",
+   "target": "xingangwan-pharma-business-model-calc",
+   "mnemo": {
+    "rank": 4,
+    "latency_ms": 83.5,
+    "tokens_full": 24068,
+    "tokens_compressed": 23151,
+    "top_ids": [
+     "framework-serendipity-five-channels",
+     "framework-coaching-leadership-core",
+     "case-yitang-jiangxiang-cli-three-versions",
+     "xingangwan-pharma-business-model-calc",
+     "dk-oral-spray-newcomer-blockers"
+    ]
+   },
+   "kdo": {
+    "rank": 0,
+    "latency_ms": 1209.0,
+    "tokens_context": 569,
+    "top_paths": [
+     "30_wiki/60_feedback/usage-logs/session-20260619-xingangwan-business-formula-reconstruction.md",
+     "30_wiki/frameworks/xingangwan-pharma-business-formulas.md",
+     "30_wiki/projects/parking-lot.md",
+     "30_wiki/concept-card-index-latest.md"
+    ]
+   }
+  },
+  {
+   "id": "B5",
+   "query": "dk-signal-cluster-illusion",
+   "target": "dk-signal-cluster-illusion",
+   "mnemo": {
+    "rank": 0,
+    "latency_ms": 83.6,
+    "tokens_full": 15671,
+    "tokens_compressed": 14762,
+    "top_ids": [
+     "framework-serendipity-five-channels",
+     "framework-coaching-leadership-core",
+     "dk-oral-spray-newcomer-blockers",
+     "case-yitang-jiangxiang-cli-three-versions",
+     "dk-wanghuan-magic-defeats-magic"
+    ]
+   },
+   "kdo": {
+    "rank": 0,
+    "latency_ms": 1180.4,
+    "tokens_context": 154,
+    "top_paths": [
+     "40_outputs/articles/article-opportunity-foresight-complete-guide.md"
+    ]
+   }
+  },
+  {
+   "id": "B6",
+   "query": "千人广场模型",
+   "target": "concept-thousand-people-square",
+   "mnemo": {
+    "rank": 1,
+    "latency_ms": 152.2,
+    "tokens_full": 14531,
+    "tokens_compressed": 13703,
+    "top_ids": [
+     "concept-thousand-people-square",
+     "framework-serendipity-five-channels",
+     "framework-coaching-leadership-core",
+     "dk-oral-spray-newcomer-blockers",
+     "case-yitang-jiangxiang-cli-three-versions"
+    ]
+   },
+   "kdo": {
+    "rank": 2,
+    "latency_ms": 1219.1,
+    "tokens_context": 900,
+    "top_paths": [
+     "30_wiki/cases/case-thousand-people-square.md",
+     "30_wiki/concepts/concept-thousand-people-square.md",
+     "30_wiki/frameworks/model-quality-four-levels.md",
+     "30_wiki/dark-knowledges/dk-modeling-counterexample-driven.md",
+     "30_wiki/concepts/yitang-methodology-system.md"
+    ]
+   }
+  },
+  {
+   "id": "B7",
+   "query": "口喷新人四难",
+   "target": "dk-oral-spray-newcomer-blockers",
+   "mnemo": {
+    "rank": 1,
+    "latency_ms": 88.3,
+    "tokens_full": 15708,
+    "tokens_compressed": 14864,
+    "top_ids": [
+     "dk-oral-spray-newcomer-blockers",
+     "framework-serendipity-five-channels",
+     "framework-coaching-leadership-core",
+     "case-千惠供应链复盘",
+     "case-yitang-jiangxiang-cli-three-versions"
+    ]
+   },
+   "kdo": {
+    "rank": 1,
+    "latency_ms": 1238.5,
+    "tokens_context": 861,
+    "top_paths": [
+     "30_wiki/dark-knowledges/dk-oral-spray-newcomer-blockers.md",
+     "30_wiki/tools/tool-oral-spray-into-doc-not-chatbox.md",
+     "30_wiki/dark-knowledges/dk-koupen-input-method-loss.md",
+     "30_wiki/dark-knowledges/dk-oral-spray-training-vs-task-optimal.md",
+     "30_wiki/dark-knowledges/dk-koupen-500-vs-5000.md"
+    ]
+   }
+  },
+  {
+   "id": "B8",
+   "query": "PaddleOCR v5",
+   "target": "dk-p8-toolkit-forget",
+   "mnemo": {
+    "rank": 1,
+    "latency_ms": 86.0,
+    "tokens_full": 14048,
+    "tokens_compressed": 13251,
+    "top_ids": [
+     "dk-p8-toolkit-forget",
+     "framework-serendipity-five-channels",
+     "framework-coaching-leadership-core",
+     "case-yitang-jiangxiang-cli-three-versions",
+     "dk-oral-spray-newcomer-blockers"
+    ]
+   },
+   "kdo": {
+    "rank": 0,
+    "latency_ms": 1208.7,
+    "tokens_context": 873,
+    "top_paths": [
+     "40_outputs/capabilities/skills/image-understanding-pipeline/SKILL.md",
+     "30_wiki/concepts/paddleocr-skill.md",
+     "40_outputs/capabilities/skills/image-ocr/SKILL.md",
+     "10_raw/sources/src_20260619_ad98829e_60_feedback_corrections_corr_20260611_hongqigong_机会预判域_OCR流程盲区.md",
+     "30_wiki/agent-specs/agent-spec-hongqigong-multimodal.md"
+    ]
+   }
+  },
+  {
+   "id": "B9",
+   "query": "TBox ABox",
+   "target": "case-wechat-article_4dd7be7cd82f7e80",
+   "mnemo": {
+    "rank": 0,
+    "latency_ms": 85.2,
+    "tokens_full": 15671,
+    "tokens_compressed": 14762,
+    "top_ids": [
+     "framework-serendipity-five-channels",
+     "dk-oral-spray-newcomer-blockers",
+     "framework-coaching-leadership-core",
+     "case-yitang-jiangxiang-cli-three-versions",
+     "dk-wanghuan-magic-defeats-magic"
+    ]
+   },
+   "kdo": {
+    "rank": 1,
+    "latency_ms": 1204.2,
+    "tokens_context": 942,
+    "top_paths": [
+     "30_wiki/cases/case-wechat-article_4dd7be7cd82f7e80.md",
+     "10_raw/sources/src_2026-08-19_wechat_4dd7be7cd82f7e80.md",
+     "10_raw/sources/src_2026-08-19_wechat_832f2544fc7bb16a.md",
+     "10_raw/sources/src_2026-08-20_wechat_4dd7be7cd82f7e80.md",
+     "10_raw/sources/src_2026-08-20_wechat_832f2544fc7bb16a.md"
+    ]
+   }
+  },
+  {
+   "id": "B10",
+   "query": "src_20260606_42e11f09",
+   "target": "structured-ai-workspace",
+   "mnemo": {
+    "rank": 0,
+    "latency_ms": 87.8,
+    "tokens_full": 15671,
+    "tokens_compressed": 14762,
+    "top_ids": [
+     "framework-coaching-leadership-core",
+     "framework-serendipity-five-channels",
+     "case-yitang-jiangxiang-cli-three-versions",
+     "dk-oral-spray-newcomer-blockers",
+     "dk-wanghuan-magic-defeats-magic"
+    ]
+   },
+   "kdo": {
+    "rank": 1,
+    "latency_ms": 1203.4,
+    "tokens_context": 729,
+    "top_paths": [
+     "30_wiki/concepts/structured-ai-workspace.md",
+     "30_wiki/concepts/ai-collaboration-mindset-shift.md",
+     "30_wiki/concepts/voice-input-doubao.md",
+     "30_wiki/tools/sk-ai-evidence-check.md",
+     "30_wiki/tools/sk-ai-problem-validation.md"
+    ]
+   }
+  }
+ ],
+ "summary": {
+  "A": {
+   "mnemo": {
+    "hit@1": 0.8,
+    "hit@3": 0.9,
+    "hit@5": 1.0,
+    "mrr": 0.875,
+    "median_latency_ms": 102.30000000000001
+   },
+   "kdo": {
+    "hit@1": 0.7,
+    "hit@3": 0.8,
+    "hit@5": 0.8,
+    "mrr": 0.7333333333333333,
+    "median_latency_ms": 1253.4499999999998
+   },
+   "mnemo_tokens_full_avg": 18406.1,
+   "mnemo_tokens_compressed_avg": 17409.9,
+   "kdo_tokens_context_avg": 1055.2
+  },
+  "B": {
+   "mnemo": {
+    "hit@1": 0.3,
+    "hit@3": 0.3,
+    "hit@5": 0.4,
+    "mrr": 0.325,
+    "median_latency_ms": 84.4
+   },
+   "kdo": {
+    "hit@1": 0.3,
+    "hit@3": 0.4,
+    "hit@5": 0.4,
+    "mrr": 0.35,
+    "median_latency_ms": 1208.85
+   },
+   "mnemo_tokens_full_avg": 16288,
+   "mnemo_tokens_compressed_avg": 15423.9,
+   "kdo_tokens_context_avg": 634
+  }
+ }
+}
