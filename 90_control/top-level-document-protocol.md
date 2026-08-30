@@ -1,12 +1,14 @@
 ---
 id: top-level-document-protocol
-title: 《KDO 顶层文档规范》v0.1
+title: 《KDO 顶层文档规范》v1.0
 type: protocol
-version: v0.1
+version: v1.0
 author: 黄药师
 created_at: '2026-08-30'
 updated_at: '2026-08-30'
-status: pending_review
+approved_by: 老朱
+approved_at: '2026-08-30'
+status: active
 audience: 六角色
 supersedes: null
 amends: null
@@ -17,10 +19,10 @@ source_refs:
 - 00_inbox/AI知识库/楚门-AI知识管理探索营-口述.txt
 ---
 
-# KDO 顶层文档规范 v0.1
+# KDO 顶层文档规范 v1.0
 
 > 把 Truman「顶层文档」暗知识制度化为 KDO 可执行规范。素材锚点：战略笃定口述（L618-620「我先打开了最顶层文档」、L1620「反复跟你们说要建顶层文档」）+ 楚门口述（L648-710，`tool-top-level-document` 卡引用）。
-> 生效链：欧阳锋终审 → 老朱拍板 → v1.0 生效。本稿 v0.1 提审中。
+> 生效链：欧阳锋终审 ✅ → 老朱拍板 ✅ → v1.0 已生效（2026-08-30）。v1.0 已生效（老朱 2026-08-30 拍板）。
 
 ## 1. 目的与定位
 

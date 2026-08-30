@@ -1,12 +1,14 @@
 ---
 id: numbering-dependency-protocol
-title: 《KDO 编号依赖规范》v0.1
+title: 《KDO 编号依赖规范》v1.0
 type: protocol
-version: v0.1
+version: v1.0
 author: 黄药师
 created_at: '2026-08-30'
 updated_at: '2026-08-30'
-status: pending_review
+approved_by: 老朱
+approved_at: '2026-08-30'
+status: active
 audience: 六角色
 supersedes: null
 amends: null
@@ -17,10 +19,10 @@ source_refs:
 - 00_inbox/AI知识库/楚门-AI知识管理探索营-口述.txt
 ---
 
-# KDO 编号依赖规范 v0.1
+# KDO 编号依赖规范 v1.0
 
 > 把 Truman「编号=谁决定谁」暗知识制度化为 KDO 规范。素材锚点：战略笃定口述（L1644-1646「基于 Obsidian 的严格编号管理作为里程碑模型……彼此有推导关系」）+ 楚门口述（L1160-1174，`dk-doc-numbering-business-logic` 卡引用）+ `case-ai-agent-milestone-design` 卡（1.x-9.x 分层实证）。
-> 生效链：欧阳锋终审 → 老朱拍板 → v1.0 生效。本稿 v0.1 提审中。
+> 生效链：欧阳锋终审 ✅ → 老朱拍板 ✅ → v1.0 已生效（2026-08-30）。v1.0 已生效（老朱 2026-08-30 拍板）。
 
 ## 1. 目的
 
