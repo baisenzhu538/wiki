@@ -68,3 +68,5 @@ instance: laowantong
 **验证**：`kdo pre-submit -f 30_wiki/frameworks/framework-openclaw-vs-harness-selection.md` → ✅ PASS 1/1（WARNING×1：CONCEPT_CROSSCHECK 提示制不拦截，人工核对决策树/硅基组织行为学/Truman/一号位与权威定义一致）；`kdo index --incremental` → +0 ~1（4281 总数）；自攻击四路 0🔴 1🟡（混合场景已知边界，卡内已覆盖）3🟢。
 
 **边界**：70% / 10-30 个差异化 Feature 为 Truman 口述估计（数字待独立核实，卡内已标注）；DeepSeek Harness 为 2026-08 新工具、老朱手操验证中，实跑定论待补充（卡内已标注，trust_level medium）；WebSearch 确认 DeepSeek Harness 无公开网源，术语以口述+编排为准。
+
+**需要谁动作**：欧阳锋终审 #575。
