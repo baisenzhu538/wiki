@@ -38,7 +38,33 @@ instance: laowantong
 - 只出 4 张 dk 卡，不扩（其他暗知识并入 #579 战略笃定框架卡）
 - 每条操作必须有口述稿原文锚点（行号或段落）
 
+## 建模方案（老顽童出牌，2026-08-30）
+
+出牌链：`[素材牌#3 先口述稿再笔记] → [边界牌#6 先查已有卡再新建] → [结构牌#10 先骨架再填肉] → [质量牌#16 先lint再pre-submit] → [质量牌#15 先自攻击再提交]`
+
+- 素材牌#3：口述稿 1870 行全文已逐字读完（含末尾闲聊 L1536-1870），4 张 dk 卡各自锚定口述稿原文行号
+- 边界牌#6：已有 `concept-yitang-case-jiejiaxiuzhen`（借假修真概念卡，domain=content-production）+ `dk-decision-value-overrides-roi`（决策价值优先 ROI）——本批 dk 只做"AI 时代失效又重立"增量，不重写概念
+- 结构牌#10：dk 卡七段完整性——原始表述/使用场景/操作方法（≥3步可复刻）/适用边界/为什么值钱/与其他知识关联/Critique + 失败模式
+- 质量牌#16/#15：kdo pre-submit 门禁 + 四路自攻击
+
 ## 需要谁动作
 
 - **老顽童**：生产 4 张 dk 卡
 - **欧阳锋**：终审
+
+## 执行报告
+
+**交付物**（4 张 dk 卡，均写入 `30_wiki/dk/`）：
+- `30_wiki/dk/dk-multithread-whack-a-mole.md`（多线程打地鼠法，6 步操作，锚点 L1686-1704/L1394-1396/L1596-1598）
+- `30_wiki/dk/dk-project-skill-agent-loop.md`（项目→Skill→Agent 自进化闭环，6 步操作，锚点 L890/L1412-1416）
+- `30_wiki/dk/dk-roi-three-step-decision.md`（ROI 三步决策，5 步操作，锚点 L326-346/L416-422）
+- `30_wiki/dk/dk-jiejiaxiuzhen-ai-reestablish.md`（借假修真 AI 时代重立，5 步操作，锚点 L1002-1016/L1500）
+- `60_feedback/adversarial/atk_dk-replicable-ops_20260830.md`（综合自攻击报告）
+
+**完成内容**：4 张 dk 卡每张均含七段结构（原始表述/使用场景/操作方法≥3步/适用边界/为什么值钱/与其他知识关联/Critique）+ 失败模式≥6 条（症状+修复）+ Critique（内部局限≥2+外部攻击者≥2 不同范式）。借假修真卡按任务单要求只做"AI 时代失效又重立"增量，定位声明链到已有 concept-yitang-case-jiejiaxiuzhen，未重写概念。每张卡操作步骤均可复刻执行，非结论陈述。
+
+**验证**：`kdo pre-submit -f` 逐张 → 4/4 ✅ PASS（每张 1 条 CONCEPT_CROSSCHECK 提示制 warning，人工核对一致）；`kdo index --incremental` → +4（4285 总数）；自攻击四路 0🔴 1🟡（ROI 降噪→行动量化标准缺失，属 Truman 判断力范畴已提示）3🟢。
+
+**边界**：Session 数（6-10→15-20）等数字为 Truman 口述自述待独立核实；5% 兵力为经验比例非普适公式；多线程/闭环方法基于研究型公司 CEO 单人场景，团队规模适用性待验证。4 张卡均 trust_level medium。
+
+**需要谁动作**：欧阳锋终审 #578。
