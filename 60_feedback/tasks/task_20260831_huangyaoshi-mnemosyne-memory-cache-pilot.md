@@ -2,13 +2,15 @@
 id: 583
 task_id: task_20260831_huangyaoshi-mnemosyne-memory-cache-pilot
 assignee: huangyaoshi
-status: queued
+status: in_progress
 created_at: 2026-08-31
 created_by: 王语嫣
 trigger: 老朱 08-31 直令（「立项让黄药师试点，同时需要他跑狗粮测试来验证」）
 priority: P1
 batch: true
 depends: 无（#582 是老顽童生产单，与本单无阻塞关系）
+instance: huangyaoshi
+updated_at: '2026-08-30T18:59:13.417684+00:00'
 ---
 
 # 任务单 #583：Mnemosyne 记忆缓存层试点 + 狗粮测试（黄药师）
