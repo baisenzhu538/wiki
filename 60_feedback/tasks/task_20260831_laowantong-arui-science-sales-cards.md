@@ -2,13 +2,16 @@
 id: 582
 task_id: task_20260831_laowantong-arui-science-sales-cards
 assignee: laowantong
-status: pending_review
+status: reviewed
 created_at: 2026-08-31
 created_by: 王语嫣
 trigger: 老朱 08-31 直令（「把她排前3的内容拔下来逐字稿，拉起自动化工作流干活」）
 priority: P1
 instance: laowantong
-updated_at: '2026-08-30T18:29:47.390463+00:00'
+updated_at: '2026-08-30T18:37:20.438131+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-08-30'
+grade: A-
 ---
 
 # 任务单 #582：阿蕊科学销售体系——前排内容产卡（老顽童）
@@ -100,3 +103,35 @@ kdo lint 全库跑完（约9分钟，exit 1）：1925 errors/2557 warnings 全�
 **边界**：源文为公众号正文（无口述稿，任务单已认可形态）；AI三大基本功仅场景拆解一块完整展开，框架卡按"半成品框架"入库（confidence 0.85，Critique 已注明动机偏差风险）；entity 卡未实测（trust_level: low，Action Triggers 已留实测回填口）。
 
 **需要谁动作**：欧阳锋终审 #582。
+
+## 终审记录（欧阳锋 2026-08-31）
+
+**结论：PASS A-**
+
+**审查方式**：实卡 4 张全文读 + 素材锚点独立抽验 + check-source-refs / pre-submit 独立复跑 + 撞车面全库扫描（审而不改，未动任何卡片）。
+
+**逐项核查**
+1. 溯源零编造：锚点抽验 5 组全命中——「拆不到第三层问题永远藏在黑盒里」art_2 L50 逐字；三步动作 art_2 L18-20；猎头案例安安原话 art_0 L13-30（提示词原文 L30 逐字）；「验证期=专家参谋/增长期=提效工具」art_2 L102-103（同学A/同学B 称谓与卡内注释一致）；AIπ平台四件套 art_1 L15-47。check-source-refs 独立复跑：framework 4/4、method 2/2、case 2/2、entity 1/1，❌0 ⚠️0，与执行报告自报一致。
+2. 一卡一事：框架=双层体系总览 / 方法=三步拆解+三层颗粒度 / case=猎头AI角色随阶段切换 / entity=竞品平台情报，四卡无内容重叠，互链总链框架卡成立。
+3. 营销滤除：4 卡全库扫描「训练营/招募/报名/优惠」等营销词，唯一命中=框架卡 Critique「已滤除」元记录一句，合规。
+4. 撞车核查：30_wiki 引用 _arui_art 素材的仅本批 4 卡自身，无历史同源卡。指派指令所称「#575-579 阿蕊逐字稿族卡」查证为误记——#575-579 实为战略笃定篇（OpenClaw选型/工具对比/KDO三件套/dk复刻/战略笃定），与本批无涉；真实撞车面对象=一堂五步法（李蕊，framework-yitang-scientific-sales-five-step），本批框架卡 §四已显式桥接（前三步同构+第二层分岔差异），方法卡/实体卡亦挂 related 区分——交叉印证非撞车，处置正确。
+5. related 死链：4 卡 22 条 related 目标逐一 grep，0 死链。
+6. 独立验证复跑：kdo pre-submit 4 卡 ✅ PASS（10 条 WARNING 与生产者自报口径一致）；#546 终审权校验过（register ouyangfeng 后流转）。
+7. 诚实度：entity 卡 trust_level=low+「10倍为宣传口径未验证」、框架卡 confidence 0.85+「半成品框架随连载补全」、执行报告「未做项」如实列 5 项（含 lint 存量剥离声明）——质量声明可信。
+
+**存在性核查**（#433 负向判词证据层，2026-08-31 实跑）
+- 「30_wiki 无 _arui_art 同源历史卡」：`grep -rl '_arui_art' 30_wiki/` → 命中 4 文件=本批 case/entity/framework/method 自身，0 张他卡。
+- 「#575-579 非阿蕊族卡」：production-queue.md #575-579 行描述实读——OpenClaw选型/工具Feature对比/KDO三件套/dk复刻4卡/战略笃定框架，全部战略笃定篇，0 张涉阿蕊素材。
+- 「营销词滤除」：`grep -n '训练营|招募|报名|课程价|学员价|扫码|优惠'` 4 卡 → 唯一命中=框架卡 L120 Critique「已滤除」元记录。
+- 「related 0 死链」：22 条 wikilink 目标逐一 `grep -rl "id: <target>$" 30_wiki` → 0 条死链。
+
+**扣分点（-0.5 → A- 非 A）**
+- 🟡 case 卡缺定位声明（pre-submit POSITION_DECLARATION 明示「body has no positioning declaration」未补）；
+- 🟡 entity/case 卡 aliases 未含「阿蕊科学销售」路径段词（pre-submit SOURCE_NAMES 提示在列，可发现性降档）；
+- 🟡 框架卡 quality pre-score 50/100 偏低（pos/tacit 段缺）。
+
+**修复项**（不阻塞 PASS，落点=归老顽童下次触碰本批卡时顺手批 TODO，不另立项）：三卡补定位声明一行；entity/case aliases 补 1-2 词；框架卡 pos/tacit 段。
+
+**观察项**：pre-submit CONCEPT_CROSSCHECK 4 卡提示与既有概念对账（一堂五步法/AI基本功等）——#542 提示制不拦截，建议老顽童下次触碰本批卡时顺手人工核对权威定义一致性。
+
+终审流程：queue_transition review --verdict pass --grade A-（2026-08-31 欧阳锋）。

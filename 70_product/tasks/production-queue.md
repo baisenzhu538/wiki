@@ -208,7 +208,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 580 | `task_20260830_huangyaoshi-rework-reclaim-bypass-504` | 返工重提绕过#504拦截（F-064：FAIL打回自动rework标记，claim不触发pending_review阻塞） | reviewed | huangyaoshi | queue_transition.py + 测试 | F-064 | `60_feedback/tasks/task_20260830_huangyaoshi-rework-reclaim-bypass-504.md` | 老顽童08-30上报+王语嫣立项 |
 | 581 | `task_20260830_laowantong-private-board-conversion-case` | 一堂转化率私董会真实案例卡（叶柳清古法护肤）：三轮共创实录提炼+幕僚收敛样本+可迁移原则 | reviewed | laowantong | 1张case卡 | 无 | `60_feedback/tasks/task_20260830_laowantong-private-board-conversion-case.md` | 私董会素材编排（08-30王语嫣）；脱敏+传播限制标注必附（保密承诺）；欧阳锋终审 |
 
-| 582 | `task_20260831_laowantong-arui-science-sales-cards` | 阿蕊科学销售体系4卡：框架卡(AI落地六块基本功)/方法卡(业务场景三步拆解法)/case卡(猎头-AI角色随阶段切换)/情报卡(销售AIπ平台对标) | pending_review | laowantong | 4张卡 | 老朱0831直令 | `60_feedback/tasks/task_20260831_laowantong-arui-science-sales-cards.md` | 素材已抓取落inbox(公众号正文4篇2701-3935字)；欧阳锋终审 |
+| 582 | `task_20260831_laowantong-arui-science-sales-cards` | 阿蕊科学销售体系4卡：框架卡(AI落地六块基本功)/方法卡(业务场景三步拆解法)/case卡(猎头-AI角色随阶段切换)/情报卡(销售AIπ平台对标) | reviewed | laowantong | 4张卡 | 老朱0831直令 | `60_feedback/tasks/task_20260831_laowantong-arui-science-sales-cards.md` | 素材已抓取落inbox(公众号正文4篇2701-3935字)；欧阳锋终审 |
 | 583 | `task_20260831_huangyaoshi-mnemosyne-memory-cache-pilot` | Mnemosyne记忆缓存层试点+狗粮测试：50张真卡语料A/B查询集对比kdo query(命中率/召回/延迟/token4维)→试点场景三选一判定 | queued | huangyaoshi | 对比表+判定+diagnosis | 老朱0831直令 | `60_feedback/tasks/task_20260831_huangyaoshi-mnemosyne-memory-cache-pilot.md` | 王语嫣初测79.9%压缩已实证；词法检索弱项已标注；结论欧阳锋终审后进产线 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
@@ -390,7 +390,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#577 task_20260830_huangyaoshi-kdo-three-artifacts｜huangyaoshi｜提审 08-30 14:44｜60_feedback/tasks/task_20260830_huangyaoshi-kdo-three-artifacts.md~~ → 已终审 PASS A-（2026-08-30 欧阳锋）
 - ~~#580 task_20260830_huangyaoshi-rework-reclaim-bypass-504｜huangyaoshi｜提审 08-30 22:30｜60_feedback/tasks/task_20260830_huangyaoshi-rework-reclaim-bypass-504.md~~ → 已终审 PASS A-（2026-08-30 欧阳锋）
 - ~~#581 task_20260830_laowantong-private-board-conversion-case｜laowantong｜提审 08-30 22:50｜60_feedback/tasks/task_20260830_laowantong-private-board-conversion-case.md~~ → 已终审 PASS A-（2026-08-30 欧阳锋）
-- #582 task_20260831_laowantong-arui-science-sales-cards｜laowantong｜提审 08-31 02:29｜60_feedback/tasks/task_20260831_laowantong-arui-science-sales-cards.md
+- ~~#582 task_20260831_laowantong-arui-science-sales-cards｜laowantong｜提审 08-31 02:29｜60_feedback/tasks/task_20260831_laowantong-arui-science-sales-cards.md~~ → 已终审 PASS A-（2026-08-30 欧阳锋）
 
 <!-- REVIEW-PENDING-END -->
 
@@ -583,6 +583,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - [gate-blocked] task_20260826_ouyangfeng-depended-draft-batch-review｜08-31 02:17｜待王语嫣复核处置｜2026-08-27 09:41:02｜task_20260826_ouyangfeng-depended-draft-batch-review｜F-034-五字段｜任务单缺少「## 执行报告」节（#429 F-034：交付必须落执行报告，口头完成=未完成；#444：evidence 附件不能替代）｜ouyangfeng
 - [gate-blocked] infra-liveness｜08-31 02:17｜待王语嫣复核处置｜2026-08-27 10:47:01｜infra-liveness｜基建停拍报警｜l1-capture｜停拍 69 分钟（阈值 60 分钟）｜conveyor_probe
 - [gate-blocked] diag_20260826_ouyangfeng-feature-json-mojibake.md｜08-31 02:17｜待王语嫣复核处置｜2026-08-31 02:17:01｜diag_20260826_ouyangfeng-feature-json-mojibake.md｜near-miss-三元组（#506）｜type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）｜conveyor_probe
+- [gate-blocked] task_20260831_laowantong-arui-science-sales-cards｜08-31 02:37｜待王语嫣复核处置｜2026-08-31 02:36:07｜task_20260831_laowantong-arui-science-sales-cards｜#546-终审权校验｜终审权校验拒止（#546 一具两职根治）：当前工作目录无 ouyangfeng 角色登记实例。欧阳锋上岗先登记：python 90_control/scripts/queue_transition.p｜欧阳锋
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
