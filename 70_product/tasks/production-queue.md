@@ -391,7 +391,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#580 task_20260830_huangyaoshi-rework-reclaim-bypass-504｜huangyaoshi｜提审 08-30 22:30｜60_feedback/tasks/task_20260830_huangyaoshi-rework-reclaim-bypass-504.md~~ → 已终审 PASS A-（2026-08-30 欧阳锋）
 - ~~#581 task_20260830_laowantong-private-board-conversion-case｜laowantong｜提审 08-30 22:50｜60_feedback/tasks/task_20260830_laowantong-private-board-conversion-case.md~~ → 已终审 PASS A-（2026-08-30 欧阳锋）
 - ~~#582 task_20260831_laowantong-arui-science-sales-cards｜laowantong｜提审 08-31 02:29｜60_feedback/tasks/task_20260831_laowantong-arui-science-sales-cards.md~~ → 已终审 PASS A-（2026-08-31 欧阳锋）
-- ~~#583 task_20260831_huangyaoshi-mnemosyne-memory-cache-pilot｜huangyaoshi｜提审 08-31 03:00｜60_feedback/tasks/task_20260831_huangyaoshi-mnemosyne-memory-cache-pilot.md~~ → 已终审 PASS A-（2026-08-30 欧阳锋）
+- ~~#583 task_20260831_huangyaoshi-mnemosyne-memory-cache-pilot｜huangyaoshi｜提审 08-31 03:00｜60_feedback/tasks/task_20260831_huangyaoshi-mnemosyne-memory-cache-pilot.md~~ → 已终审 PASS A-（2026-08-31 欧阳锋；双实例独立印证一致，交叉印证补记+O3量具发现见任务单「## 终审记录」节）
 
 <!-- REVIEW-PENDING-END -->
 
