@@ -332,4 +332,14 @@
 
 [2026-08-30 22:20] ⚖️ 处置 gate-blocked 残留 3 行批核划销：#574/#575/#577 对应任务单均已终审 PASS（08-29/08-30），已化解型残留
 [2026-08-30 22:20] ⚖️ 编排私董会素材 → 立项 #581（老顽童，case-private-board-conversion-skincare，脱敏+传播限制标注）
-[2026-08-30 22:20] 🚀 已拉起 huangyaoshi：#580（headless）
+[2026-08-30 22:20] 🚀 已拉起 huangyaoshi：#580（headless）- [2026-08-30 22:21] 📥 新素材 1 项（P0 0）：老朱-未来一年战略卡.md——请诊断编排（看板待编排段）
+[2026-08-30 22:50] 📥 处置新素材「老朱-未来一年战略卡.md」（老朱个人域，战略笃定篇衍生自用文档）：主线（经验资产化→智能体服务→行业级交付）已由今日 #575-#579 五单全覆盖（战略笃定框架/OpenClaw选型/dk可复刻/工具对比/KDO三件套，全 reviewed），不重复立项；老朱个人战略意图属个人域自用，非工厂生产对象
+[2026-08-30 22:50] 🚀 已拉起 laowantong：#581（私董会转化案例卡，headless 后台 proc_7dc464484926）
+[2026-08-30 22:52] 🚀 已拉起 laowantong：#581（headless，profile use 后 -z 正常启动，后台 proc_eed80f72f01e；22:50 首次拉起因 -z/--profile 参数解析失败已纠正重拉）
+[2026-08-30 22:55] 🕐 时钟值守拍：全链路核查完毕——PROPOSAL-PENDING 全划销零残留；「待王语嫣裁定」7 命中全为历史文本残留（#572 结构地图已有裁定节）；#580/#581 均已提审 pending_review 等欧阳锋终审；黄药师/老顽童名下无可领任务（两单已交付提审退出）；无新素材未编排；心跳已写。无编排动作。
+- [2026-08-30 22:57] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-08-30 22:50:01｜task_20260830_laowantong-private-board-conversion-
+
+[2026-08-30 22:58] 🔧 时钟护栏故障修复：22:41 jobs.json 被外部写入 base_url=open.bigmodel.cn（zai 注册端点为 api.z.ai，host 不匹配）→ credential-exfil 护栏 fail-closed 拦截 22:48 起所有拍（手动+定时同拦）；已清 base_url 回 null 走 profile 配置链路（护栏自验证 PASS），22:56 手动拍 ok+五步全跑，23:00 定时拍复验中；deliver=local 系 22:41 有意变更未回滚
+
+[2026-08-30 23:01] ⚖️ 处置 gate-blocked task_20260830_laowantong-private-board-conversion-case：已化解（E040 补 commit 重提成功，#581 pending_review 等欧阳锋终审，残留划销）
+[2026-08-30 23:01] 🕐 时钟值守拍（23:00 定时复验）：PROPOSAL-PENDING 清零（唯一未划行 #581 E040 残留已划销）；待王语嫣裁定无新增（#580/#581 均非结构地图类）；终审无跃迁（pending_review=2 持平）；queued=0 无可领不拉起；心跳已写
