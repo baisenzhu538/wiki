@@ -16,11 +16,12 @@ source_refs:
 - 30_wiki/concepts/concept-kdo-agent-design-principles.md
 - 90_control/quality-gates/kcard.md
 - 00_inbox/我用一堂做一堂/战略笃定-一堂AI转型复盘-口述.txt
+- 00_inbox/AI知识库/楚门-AI知识管理探索营-口述.txt
 ---
 
 # KDO 设计宪法 v0.1
 
-> 域级宪法（charter §1「域级宪法（如设计宪法）在本法之下」）。把 Truman「设计宪法」暗知识落地为 KDO 的设计边界/审美红线 Data Pack。素材锚点：战略笃定篇口述（L1622-1628「设计宪法就是界定 AI，尤其设计类 AI 设计边界的东西……做了设计宪法的 Data Pack 存本地，它自己学一下」）。
+> 域级宪法（charter §1「域级宪法（如设计宪法）在本法之下」）。把 Truman「设计宪法」暗知识落地为 KDO 的设计边界/审美红线 Data Pack。素材锚点：战略笃定口述（L1622-1628「设计宪法就是界定 AI，尤其设计类 AI 设计边界的东西……做了设计宪法的 Data Pack 存本地，它自己学一下」）+ 楚门口述（L1588/L1590「只讲一次 + 每次查一遍」）。
 > 生效链：欧阳锋终审 → 老朱拍板 → v1.0 生效。本稿 v0.1 提审中（红线清单先行，审美样例后补）。
 
 ## 1. 定位
@@ -39,8 +40,8 @@ source_refs:
 
 ## 3. 核心机制（只讲一次 + 强制检查）
 
-1. **只讲一次落文档**：红线写成「不允许出现什么」清单，一次说清，不再重复（口述 L1588「我只说你一次，我说完了你给我记到系统里」）。
-2. **AI 强制检查**：红线进 AI 的 ToDo/检查清单，每次产出都查一遍（口述 L1590「新 To-Do list 以后每次都给我查一遍」）。
+1. **只讲一次落文档**：红线写成「不允许出现什么」清单，一次说清，不再重复（楚门口述 L1588「我只说你一次，我说完了你给我记到系统里」）。
+2. **AI 强制检查**：红线进 AI 的 ToDo/检查清单，每次产出都查一遍（楚门口述 L1590「新 To-Do list 以后每次都给我查一遍」）。
 3. **定期刷新**：新红线追加（同文档叠加），过期红线合并/删减，保持清单可执行（`dk-aesthetic-redline-doc` Critique）。
 
 ## 4. 三类产出物红线清单（「不允许出现什么」）
@@ -99,4 +100,4 @@ source_refs:
 
 ---
 
-*黄药师主笔 · 2026-08-30 · 依据 dk-aesthetic-redline-doc + concept-ai-style-knowledge-docs + kcard gate + charter 红线；无出处不写入*
+*黄药师主笔 · 2026-08-30 · 依据 dk-aesthetic-redline-doc + concept-ai-style-knowledge-docs + kcard gate + charter 红线 + 战略笃定口述 + 楚门口述；无出处不写入*
