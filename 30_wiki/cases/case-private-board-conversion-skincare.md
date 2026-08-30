@@ -2,14 +2,14 @@
 id: case-private-board-conversion-skincare
 title: 转化率私董会实录：古法护肤祛斑项目的动力/阻力/触点三轮共创与幕僚收敛（脱敏版）
 type: case
-status: draft
+status: reviewed
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: medium
 language: zh-CN
 created_at: 2026-08-30
-updated_at: 2026-08-30
+updated_at: 2026-08-31
 domain:
 - conversion-rate
 source_person: 叶老师（一堂私董会案主，去全名）
