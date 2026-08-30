@@ -14,6 +14,7 @@ domain:
 - sales
 - ai-collaboration
 aliases:
+- 阿蕊科学销售
 - 阿蕊猎头案例
 - AI角色随业务阶段切换
 - 验证期专家参谋增长期提效工具
@@ -49,6 +50,8 @@ tags:
 ---
 
 # 猎头案例——AI角色随业务阶段切换
+
+> **定位**：属于 [[framework-arui-ai-six-fundamentals]] 的案例支撑层——第二层「AI三大基本功·场景拆解」的实证案例，方法实操见 [[method-arui-business-scenario-3step-decomposition]]。
 
 > 文章最深的暗知识：AI该扮演什么角色，取决于你的业务在什么阶段。阶段判断错了，方法论再好也不匹配——产品还没验证清楚就急着设计全自动Agent，等于地基没打就盖楼。
 

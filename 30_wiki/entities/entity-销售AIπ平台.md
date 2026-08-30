@@ -16,6 +16,7 @@ domain:
 - ai-saas
 - business-strategy
 aliases:
+- 阿蕊科学销售
 - 销售AI派
 - salesaipai
 - 销售AIπ

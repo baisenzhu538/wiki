@@ -15,6 +15,7 @@ domain:
 - ai-collaboration
 - business-strategy
 aliases:
+- 阿蕊科学销售
 - 业务场景拆解三步法
 - 三步拆解法
 - 切业务线拉时间轴找关键点
