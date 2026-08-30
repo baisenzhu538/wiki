@@ -7,6 +7,7 @@ created_at: 2026-08-31
 created_by: 王语嫣
 trigger: 老朱 08-31 直令（「立项让黄药师试点，同时需要他跑狗粮测试来验证」）
 priority: P1
+batch: true
 depends: 无（#582 是老顽童生产单，与本单无阻塞关系）
 ---
 

@@ -209,7 +209,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 581 | `task_20260830_laowantong-private-board-conversion-case` | 一堂转化率私董会真实案例卡（叶柳清古法护肤）：三轮共创实录提炼+幕僚收敛样本+可迁移原则 | reviewed | laowantong | 1张case卡 | 无 | `60_feedback/tasks/task_20260830_laowantong-private-board-conversion-case.md` | 私董会素材编排（08-30王语嫣）；脱敏+传播限制标注必附（保密承诺）；欧阳锋终审 |
 
 | 582 | `task_20260831_laowantong-arui-science-sales-cards` | 阿蕊科学销售体系4卡：框架卡(AI落地六块基本功)/方法卡(业务场景三步拆解法)/case卡(猎头-AI角色随阶段切换)/情报卡(销售AIπ平台对标) | pending_review | laowantong | 4张卡 | 老朱0831直令 | `60_feedback/tasks/task_20260831_laowantong-arui-science-sales-cards.md` | 素材已抓取落inbox(公众号正文4篇2701-3935字)；欧阳锋终审 |
-| 583 | `task_20260831_huangyaoshi-mnemosyne-memory-cache-pilot` | Mnemosyne记忆缓存层试点+狗粮测试：50张真卡语料A/B查询集对比kdo query(命中率/召回/延迟/token4维)→试点场景三选一判定 | queued 🅱️batch | huangyaoshi | 对比表+判定+diagnosis | 老朱0831直令 | `60_feedback/tasks/task_20260831_huangyaoshi-mnemosyne-memory-cache-pilot.md` | 王语嫣初测79.9%压缩已实证；词法检索弱项已标注；结论欧阳锋终审后进产线 |
+| 583 | `task_20260831_huangyaoshi-mnemosyne-memory-cache-pilot` | Mnemosyne记忆缓存层试点+狗粮测试：50张真卡语料A/B查询集对比kdo query(命中率/召回/延迟/token4维)→试点场景三选一判定 | queued | huangyaoshi | 对比表+判定+diagnosis | 老朱0831直令 | `60_feedback/tasks/task_20260831_huangyaoshi-mnemosyne-memory-cache-pilot.md` | 王语嫣初测79.9%压缩已实证；词法检索弱项已标注；结论欧阳锋终审后进产线 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
 ## ⚖️ 待终审（提审任务，queue_transition 自动登记）
