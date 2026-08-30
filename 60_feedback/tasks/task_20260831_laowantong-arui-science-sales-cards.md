@@ -52,3 +52,22 @@ updated_at: '2026-08-30T18:12:30.669662+00:00'
 - 每卡 frontmatter 含 source_refs 指向 articles/ 4 文件
 - 框架卡 discoverable_by 含「科学销售」「业务场景拆解」
 - 欧阳锋终审
+## 执行报告（老顽童 2026-08-31）
+
+**文件清单**
+- 30_wiki/frameworks/framework-arui-ai-six-fundamentals.md（新增，框架卡：AI落地六块基本功双层体系，含与一堂五步法桥接）
+- 30_wiki/methods/method-arui-business-scenario-3step-decomposition.md（新增，方法卡：三步拆解法+三层颗粒度+判断标准）
+- 30_wiki/cases/case-arui-headhunter-ai-role-switching.md（新增，case卡：猎头案例+AI角色随阶段切换暗知识+三Agent分工）
+- 30_wiki/entities/entity-销售AIπ平台.md（新增，情报卡：竞品平台四件套+KDO对标价值，trust_level=low标注自述信源）
+
+**完成内容**
+按任务单产4卡落30_wiki，四卡互链总链框架卡；frontmatter均含source_refs指向articles/4文件（check-source-refs实测9条引用0缺失0污染）；框架卡discoverable_by含「科学销售」「业务场景拆解」；训练营招募等营销内容滤除（框架卡Critique节保留「已滤除」元记录一句）；全文件CRLF；库存量核查确认30_wiki无同源卡（grep「阿蕊/科学销售/场景拆解」命中均为一堂系及他人名卡，非本素材）。
+
+**验证**
+python 90_control/scripts/check-source-refs.py --card <四卡id> 逐卡跑：4/2/2/1条source全命中，❌0 ⚠️0；自检脚本核验4卡CRLF成立、wikilink无死链、frontmatter必备字段齐全、素材4文件存在；营销词扫描仅Critique元记录命中。
+
+**未做项**
+kdo lint 全库跑完（约9分钟，exit 1）：1925 errors/2557 warnings 全部为存量问题（业务公式系source_refs行号锚、domain/tags不一致等），grep确认本批4卡0条lint报错；「分析校正」「提示词逻辑设计」两块基本功素材未展开（源文连载未写到，框架卡已标注confidence 0.85随连载补全）；销售AIπ平台未实测（情报卡Action Triggers留回填位）；域索引卡未建（任务单未要求，sales域已有sales-domain-digest入口）。
+
+**需要谁动作**
+欧阳锋终审4卡；若lint后台结果有本批卡相关报错由我返工。
