@@ -200,7 +200,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 572 | `task_20260828_laowantong-koupen-guide-batch` | AI口喷能力训练全阶指南342KB口述大稿产卡批次：先出结构地图报裁再分批产卡 | queued | laowantong | 结构地图+分批产卡 | 无 | `60_feedback/tasks/task_20260828_laowantong-koupen-guide-batch.md` | inbox积压清理批（08-28王语嫣编排）：P0压3天；口述一等证据逐字读（W1）；无轴先报建轴（E054）；批次验收同#426先例；欧阳锋批次验收（原claimed-laowantong实例下线，08-28老朱指派老顽童-hermes接手） |
 | 573 | `task_20260828_laowantong-live260-case-card` | Live260口喷优秀作业case卡：王飞双三角复盘口喷→双轨创作系统 | reviewed | laowantong | 读源+产卡+打标 | 无 | `60_feedback/tasks/task_20260828_laowantong-live260-case-card.md` | inbox积压清理批（08-28王语嫣编排）：人机协作双三角域学员实战案例；四段结构KF-024；欧阳锋终审 |
 | 574 | `task_20260828_huangyaoshi-check-review-sla-timeout-push` | check-review-sla升级「超时必推」+推送通道对齐调研（R1+R3合并，R2欧阳锋自改） | reviewed | huangyaoshi | 升级+调研+回归 | 无 | `60_feedback/tasks/task_20260828_huangyaoshi-check-review-sla-timeout-push.md` | 欧阳锋建议书diag_20260828_ouyangfeng-review-wakeup-gap裁定（08-28王语嫣）：R1+R3合并立项，R2欧阳锋自改deliver→feishu；R1落实#521 R2老朱已拍板「终审类通知不静默」；复用#519空转报警同族；欧阳锋终审 |
-| 575 | `task_20260830_laowantong-openclaw-harness-selection` | OpenClaw vs Harness 选型决策树卡：70%论+三分法（养员工/造工具/打短工）+触发场景+KDO映射 | claimed-laowantong | laowantong | framework卡 | 无 | `60_feedback/tasks/task_20260830_laowantong-openclaw-harness-selection.md` | 战略笃定篇编排（08-30王语嫣）：老朱核心问题「什么情况用OpenClaw/Harness」；GitHub实证deepseek-harness=Everything is a Plugin；欧阳锋终审 |
+| 575 | `task_20260830_laowantong-openclaw-harness-selection` | OpenClaw vs Harness 选型决策树卡：70%论+三分法（养员工/造工具/打短工）+触发场景+KDO映射 | pending_review | laowantong | framework卡 | 无 | `60_feedback/tasks/task_20260830_laowantong-openclaw-harness-selection.md` | 战略笃定篇编排（08-30王语嫣）：老朱核心问题「什么情况用OpenClaw/Harness」；GitHub实证deepseek-harness=Everything is a Plugin；欧阳锋终审 |
 | 576 | `task_20260830_huangyaoshi-tool-feature-comparison-supplement` | 工具Feature对比卡补全：补OpenClaw+DeepSeek Harness两列+三分法总纲 | pending_review | huangyaoshi | 补全工具卡 | #575并行 | `60_feedback/tasks/task_20260830_huangyaoshi-tool-feature-comparison-supplement.md` | 战略笃定篇编排（08-30王语嫣）：已有卡缺OpenClaw/Harness；只补两列+三分法不动四工具；欧阳锋终审 |
 | 577 | `task_20260830_huangyaoshi-kdo-three-artifacts` | KDO落地三件套：顶层文档规范+编号依赖规范+设计宪法（方案B覆盖卡片/视觉/Agent spec） | pending_review | huangyaoshi | 三份规范+模板 | 无 | `60_feedback/tasks/task_20260830_huangyaoshi-kdo-three-artifacts.md` | 战略笃定篇编排（08-30王语嫣）：老朱直指「KDO案子没照着做」；设计宪法方案B；渐进过渡不推翻现有编号；欧阳锋终审 |
 | 578 | `task_20260830_laowantong-dk-replicable-ops` | 可复刻dk卡组4张：多线程打地鼠/项目→Skill→Agent闭环/ROI三步/借假修真重立 | queued | laowantong | 4张dk卡 | 无 | `60_feedback/tasks/task_20260830_laowantong-dk-replicable-ops.md` | 战略笃定篇编排（08-30王语嫣）：老朱口径暗知识=可复刻操作非口水化；每卡含操作步骤≥3步；欧阳锋终审 |
@@ -377,6 +377,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#574 task_20260828_huangyaoshi-check-review-sla-timeout-push｜huangyaoshi｜提审 08-29 13:36｜60_feedback/tasks/task_20260828_huangyaoshi-check-review-sla-timeout-push.md~~ → 已终审 PASS A-（2026-08-29 欧阳锋）
 - #576 task_20260830_huangyaoshi-tool-feature-comparison-supplement｜huangyaoshi｜提审 08-30 13:27｜60_feedback/tasks/task_20260830_huangyaoshi-tool-feature-comparison-supplement.md
 - #577 task_20260830_huangyaoshi-kdo-three-artifacts｜huangyaoshi｜提审 08-30 13:31｜60_feedback/tasks/task_20260830_huangyaoshi-kdo-three-artifacts.md
+- #575 task_20260830_laowantong-openclaw-harness-selection｜laowantong｜提审 08-30 13:35｜60_feedback/tasks/task_20260830_laowantong-openclaw-harness-selection.md
 
 <!-- REVIEW-PENDING-END -->
 

@@ -1,8 +1,8 @@
 ---
 id: 575
 assignee: laowantong
-status: in_progress
-updated_at: '2026-08-30T05:31:05.774877+00:00'
+status: pending_review
+updated_at: '2026-08-30T05:35:03.147072+00:00'
 version: v0.1
 instance: laowantong
 ---
@@ -70,3 +70,17 @@ instance: laowantong
 **边界**：70% / 10-30 个差异化 Feature 为 Truman 口述估计（数字待独立核实，卡内已标注）；DeepSeek Harness 为 2026-08 新工具、老朱手操验证中，实跑定论待补充（卡内已标注，trust_level medium）；WebSearch 确认 DeepSeek Harness 无公开网源，术语以口述+编排为准。
 
 **需要谁动作**：欧阳锋终审 #575。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 2 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+✅ 执行报告无负向断言词（检查面=执行报告节）
