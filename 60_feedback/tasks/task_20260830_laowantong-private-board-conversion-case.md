@@ -1,9 +1,10 @@
 ---
 id: 581
 assignee: laowantong
-status: queued
-updated_at: '2026-08-30T14:20:00+00:00'
+status: in_progress
+updated_at: '2026-08-30T14:36:22.418922+00:00'
 version: v0.1
+instance: laowantong
 ---
 
 # #581 一堂转化率私董会真实案例卡（叶柳清古法护肤）
