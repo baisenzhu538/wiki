@@ -191,6 +191,19 @@ def update_orchestration_board(discoveries: list[dict]):
     if not added and BOARD_BEGIN in text:
         return  # 无新增且 section 已存在——不重写
 
+    # 2026-08-31 看板瘦身护栏（老朱直令：token/上下文成本控制）：
+    # 登记条目超 SOFT_CAP 时截断保留最新，整段迁入 archive 并留指针——防 state 重建后的全量重扫洪水（08-31 实证 7907 行/58万 tokens）
+    SOFT_CAP = 120
+    if len(items) > SOFT_CAP:
+        overflow = items[:-SOFT_CAP]
+        items = items[-SOFT_CAP:]
+        arch_dir = PROD_QUEUE.parent / "archive"
+        arch_dir.mkdir(exist_ok=True)
+        arch_file = arch_dir / "inbox-pending-overflow.md"
+        with open(arch_file, "a", encoding="utf-8") as af:
+            af.write(f"\n## 溢出归档 {now}（{len(overflow)} 行）\n" + "\n".join(overflow) + "\n")
+        print(f"📦 看板登记超 {SOFT_CAP} 行，{len(overflow)} 行溢出归档 → {arch_file.name}")
+
     board = [
         BOARD_BEGIN, "",
         "## 📥 待编排（inbox 新素材，watch_inbox 自动登记）", "",
