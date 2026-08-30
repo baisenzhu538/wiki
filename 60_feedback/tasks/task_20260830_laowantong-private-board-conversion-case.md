@@ -49,7 +49,7 @@ instance: laowantong
 - **文件清单**：
   - 新增 `30_wiki/cases/case-private-board-conversion-skincare.md`（交付物主卡）
   - 追加 `60_feedback/tasks/task_20260830_laowantong-private-board-conversion-case.md`（本执行报告）
-  - 增量更新 `.kdo/search_index.json`（kdo index --incremental，提审前可检索性）
+  - 注：kdo index --incremental 已跑（提审前可检索性），search_index.json 为 gitignore 编译产物不入仓
 
 - **验证**：
   - O0 溯源锚点抽验 16/16 命中（sed 逐行实测：L27 保密条款/L49 目标未量化/L133 案主画像/L142 罗幕僚首单阻力分层/L157-L164 动力四类/L171-L178 阻力配消减/L187-L193 触点配价值/L205-L218 收敛建议/L235-L238 复盘闭环）——零编造
