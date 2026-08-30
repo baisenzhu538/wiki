@@ -2,9 +2,9 @@
 id: case-arui-headhunter-ai-role-switching
 title: 猎头案例——AI角色随业务阶段切换（验证期=专家参谋/增长期=提效工具）
 type: case
-status: draft
+status: reviewed
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: medium
 language: zh-CN

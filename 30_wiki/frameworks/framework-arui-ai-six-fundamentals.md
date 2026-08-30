@@ -2,9 +2,9 @@
 id: framework-arui-ai-six-fundamentals
 title: 阿蕊AI落地六块基本功——销售三基本×AI三基本双层体系
 type: framework
-status: draft
+status: reviewed
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: medium
 language: zh-CN

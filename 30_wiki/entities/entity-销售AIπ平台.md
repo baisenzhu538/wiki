@@ -3,9 +3,9 @@ id: entity-销售AIπ平台
 title: 销售AIπ（salesaipai.com）——销售场景Agent工具平台竞品情报
 type: entity
 entity_type: product
-status: draft
+status: reviewed
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: low
 language: zh-CN

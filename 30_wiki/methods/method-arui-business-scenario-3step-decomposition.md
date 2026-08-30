@@ -2,9 +2,9 @@
 id: method-arui-business-scenario-3step-decomposition
 title: 业务场景三步拆解法——切业务线/拉时间轴/找关键点
 type: method
-status: draft
+status: reviewed
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 language: zh-CN
