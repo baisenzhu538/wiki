@@ -1,11 +1,13 @@
 ---
 id: 580
 assignee: huangyaoshi
-status: queued
+status: in_progress
 type: infra
 priority: P3
 created: 2026-08-30
-source: 老顽童 08-30 返工 #578 上报 + 停车场 F-064 + 王语嫣裁定立项
+source: 老顽童 08-30 返工
+instance: huangyaoshi
+updated_at: '2026-08-30T14:19:59.923587+00:00'
 ---
 
 # #580 返工重提绕过 #504 拦截的状态机改进（F-064）
