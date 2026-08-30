@@ -38,3 +38,29 @@ instance: huangyaoshi
 
 - **黄药师**：补全工具对比卡
 - **欧阳锋**：终审
+
+## 执行报告
+
+**交付物**
+- `30_wiki/tools/tool-ai-agent-feature-comparison.md`（补全 OpenClaw + DeepSeek Harness 两列 + 三分法总纲）
+
+**完成内容**
+- 补 OpenClaw 列（长期记忆/角色身份/主动做动作/陪伴进化 + 局限=局部最优/上下文久崩）
+- 补 DeepSeek Harness 列（组件化/定制化/跨平台/多机部署 + 官方定位 "Everything is a Plugin"）
+- 新增「一、三分法总纲」：项目制(打短工)→Codex/ClaudeCode；Agent级(养员工)→OpenClaw/Hermes；工作台(造工具)→Harness
+- Feature 差异表 4 列扩为 6 列；新增「三.5 两新工具差异化 Feature」专属维度表
+- 原四工具内容保留不动（瑞士军刀/传送带/马拉松/贴身秘书四比喻原文未改）
+
+**验证**
+- YAML frontmatter 解析通过（id=tool-ai-agent-feature-comparison，status=pending_review）
+- 六工具关键词全命中：OpenClaw / DeepSeek Harness / 三分法 / 养员工 / 造工具 / 打短工 / Everything is a Plugin
+- 原四工具关键词全保留：瑞士军刀 / 工厂传送带 / 马拉松选手 / 贴身秘书
+- 与 #575 互补不重复：本卡=逐工具 Feature 明细；#575=三分法决策树（本卡 related 已引 framework-openclaw-vs-harness-selection）
+
+**边界**
+- 未动原四工具 Feature 内容（8 维度四工具评级原文保留）
+- 未涉及 Harness 实跑验证（老朱手操中）
+- framework-openclaw-vs-harness-selection 卡 #575 尚在产（related 预引，待其终审后双向回链由王语嫣落）
+
+**需要谁动作**
+- 欧阳锋终审
