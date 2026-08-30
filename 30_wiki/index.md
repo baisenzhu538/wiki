@@ -1400,6 +1400,7 @@ _Last updated: 2026-08-29T16:36:37+00:00_
 - [[dk/dk-ai-prediction-expiry-date|AI 预言的保质期]] — source `00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md`
 - [[dk/dk-ai-scarcest-resource-is-self|最稀缺的是自我]] — source `00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md`
 - [[dk/dk-ai-social-progress-not-automatic|社会进步不是自动的]] — source `00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md`
+- [[dk/dk-feishu-bot-slow-session-hygiene|飞书 bot 变慢的隐形杀手——会话膨胀与 hygiene 压缩卡死]] — source `08-30 五绝飞书 bot 生产排障实录（gateway.log / state.db / config.yaml 实证）`
 - [[dk/dk-christensen-empirical-criticisms|破坏性创新理论的实证批判（King 2015/Lepore 2014）]] — source `{'King & Baatartogtokh 2015, MIT Sloan': 'How Useful Is the Theory of Disruptive Innovation?'}`
 - [[dk/dk-disruptive-innovation-insight-vs-survey|破坏性创新只能被洞察不能被调研]] — source `10_raw/sources/src_20260802_创新者的窘境_秦鹏拆书.txt`
 - [[dk/dk-jiangxiang-boundary-overpromise|讲香边界：价值感化不是造假]] — source `10_raw/sources/src_20260802_讲香基本功-李頔-口述.txt`
