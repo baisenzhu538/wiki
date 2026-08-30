@@ -204,7 +204,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 576 | `task_20260830_huangyaoshi-tool-feature-comparison-supplement` | 工具Feature对比卡补全：补OpenClaw+DeepSeek Harness两列+三分法总纲 | reviewed | huangyaoshi | 补全工具卡 | #575并行 | `60_feedback/tasks/task_20260830_huangyaoshi-tool-feature-comparison-supplement.md` | 战略笃定篇编排（08-30王语嫣）：已有卡缺OpenClaw/Harness；只补两列+三分法不动四工具；欧阳锋终审 |
 | 577 | `task_20260830_huangyaoshi-kdo-three-artifacts` | KDO落地三件套：顶层文档规范+编号依赖规范+设计宪法（方案B覆盖卡片/视觉/Agent spec） | queued | huangyaoshi | 三份规范+模板 | 无 | `60_feedback/tasks/task_20260830_huangyaoshi-kdo-three-artifacts.md` | 战略笃定篇编排（08-30王语嫣）：老朱直指「KDO案子没照着做」；设计宪法方案B；渐进过渡不推翻现有编号；欧阳锋终审 |
 | 578 | `task_20260830_laowantong-dk-replicable-ops` | 可复刻dk卡组4张：多线程打地鼠/项目→Skill→Agent闭环/ROI三步/借假修真重立 | queued | laowantong | 4张dk卡 | 无 | `60_feedback/tasks/task_20260830_laowantong-dk-replicable-ops.md` | 战略笃定篇编排（08-30王语嫣）：老朱口径暗知识=可复刻操作非口水化；每卡含操作步骤≥3步；欧阳锋终审 |
-| 579 | `task_20260830_laowantong-strategy-conviction-framework` | 战略笃定框架卡：战略+笃定定义+七轮决策表+攒牌心态+不要撒胡椒面 | pending_review | laowantong | framework卡 | 无 | `60_feedback/tasks/task_20260830_laowantong-strategy-conviction-framework.md` | 战略笃定篇编排（08-30王语嫣）：七轮决策实证；传播限制注记（Truman阅后即焚，老朱学员无碍）；欧阳锋终审 |
+| 579 | `task_20260830_laowantong-strategy-conviction-framework` | 战略笃定框架卡：战略+笃定定义+七轮决策表+攒牌心态+不要撒胡椒面 | reviewed | laowantong | framework卡 | 无 | `60_feedback/tasks/task_20260830_laowantong-strategy-conviction-framework.md` | 战略笃定篇编排（08-30王语嫣）：七轮决策实证；传播限制注记（Truman阅后即焚，老朱学员无碍）；欧阳锋终审 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
 ## ⚖️ 待终审（提审任务，queue_transition 自动登记）
@@ -379,7 +379,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#577 task_20260830_huangyaoshi-kdo-three-artifacts｜huangyaoshi｜提审 08-30 13:31｜60_feedback/tasks/task_20260830_huangyaoshi-kdo-three-artifacts.md~~ → 终审退回 queued（2026-08-30 欧阳锋）
 - ~~#575 task_20260830_laowantong-openclaw-harness-selection｜laowantong｜提审 08-30 13:35｜60_feedback/tasks/task_20260830_laowantong-openclaw-harness-selection.md~~ → 已终审 PASS A（2026-08-30 欧阳锋）
 - ~~#578 task_20260830_laowantong-dk-replicable-ops｜laowantong｜提审 08-30 13:40｜60_feedback/tasks/task_20260830_laowantong-dk-replicable-ops.md~~ → 终审退回 queued（2026-08-30 欧阳锋）
-- #579 task_20260830_laowantong-strategy-conviction-framework｜laowantong｜提审 08-30 13:42｜60_feedback/tasks/task_20260830_laowantong-strategy-conviction-framework.md
+- ~~#579 task_20260830_laowantong-strategy-conviction-framework｜laowantong｜提审 08-30 13:42｜60_feedback/tasks/task_20260830_laowantong-strategy-conviction-framework.md~~ → 已终审 PASS A-（2026-08-30 欧阳锋）
 - #572 task_20260828_laowantong-koupen-guide-batch｜laowantong｜提审 08-30 14:29｜60_feedback/tasks/task_20260828_laowantong-koupen-guide-batch.md
 
 <!-- REVIEW-PENDING-END -->
