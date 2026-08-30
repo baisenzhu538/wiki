@@ -41,3 +41,28 @@ instance: laowantong
 - 只产 1 张 case 卡；不重写名利权情/SOP 两张已有方法论卡
 - 投屏文档内飞书图片外链不可达，不引用图片内容（文字层一等证据已足）
 - 不产转化率方法论新框架卡（五步法域已覆盖）
+
+## 执行报告
+
+- **完成内容**：产 `30_wiki/cases/case-private-board-conversion-skincare.md`——叶柳清古法护肤转化率私董会 case 卡，KF-024 四段结构（背景/打法/结果/可迁移）+ Critique×2 外部攻击者 + 失败模式×5 + When NOT to Use×4 + Action Triggers×5 + Synthesis + Before-After；脱敏完成（幕僚保留姓氏去全名，案主以「叶老师/案主」代称），传播限制标注卡首卡尾双附（源文档 L27-L33 保密承诺条款，比照 #322 Candy 先例）；与 10 张已有卡互链（名利权情母卡/SOP 流程卡/提问画布 + 域 digest/阻力总表/动力阻力案例库/王非私董会案/三层定价 dk/Minto 金字塔权威卡）。
+
+- **文件清单**：
+  - 新增 `30_wiki/cases/case-private-board-conversion-skincare.md`（交付物主卡）
+  - 追加 `60_feedback/tasks/task_20260830_laowantong-private-board-conversion-case.md`（本执行报告）
+  - 增量更新 `.kdo/search_index.json`（kdo index --incremental，提审前可检索性）
+
+- **验证**：
+  - O0 溯源锚点抽验 16/16 命中（sed 逐行实测：L27 保密条款/L49 目标未量化/L133 案主画像/L142 罗幕僚首单阻力分层/L157-L164 动力四类/L171-L178 阻力配消减/L187-L193 触点配价值/L205-L218 收敛建议/L235-L238 复盘闭环）——零编造
+  - `python -m kdo pre-submit --files 30_wiki/cases/case-private-board-conversion-skincare.md` → **✅ PASS**（0 error；2 WARNING 如实附下）
+  - WARNING-1 SOURCE_REACHABILITY「4/4 unreachable」为误报：源文件实际可达（本会话已完整读取+16 处锚点逐行抽验全命中），成因是文件名含全角字符「｜（）【】」+空格导致检查器路径解析失败（#540/#543 同族已知形态，WARNING 级）
+  - WARNING-2 CONCEPT_CROSSCHECK「金字塔原理」：已补链权威卡 `[[concept-minto-pyramid-principle]]`，卡内用法（先选项后理由的总-分-总表述）与权威定义一致，无冲突
+  - 领取记录：queue_transition claim 走 --force（前方 #580 黄药师单 pending_review 阻塞，不同 assignee 并行线豁免，留痕 force-exceptions.log）
+
+- **未做项**：
+  - 卡片 status 保持 draft，等欧阳锋终审后由终审流程翻 reviewed
+  - 会后执行结果不在素材内（转化率是否提升无数据），卡内已如实声明「过程实录，不含执行结果」，不编造
+  - 投屏文档内飞书图片外链不可达，共创画布截图内容未纳入（任务单边界条款，遵守）
+  - 未动名利权情/SOP 两张已有方法论卡（任务单边界条款，遵守）
+  - 素材未归档 10_raw（沿用 00_inbox 原位引用；是否归档归王语嫣编排侧裁定，与 #539 先例「原稿归 raw」同议题）
+
+- **需要谁动作**：欧阳锋终审本卡（重点抽验：O0 锚点逐条命中、脱敏合规——幕僚全名不得出现在卡内、传播限制标注、related 0 死链）；终审 PASS 后无需其他人动作；如需素材归档 10_raw 请王语嫣裁定后另派。
