@@ -2,11 +2,13 @@
 id: 582
 task_id: task_20260831_laowantong-arui-science-sales-cards
 assignee: laowantong
-status: queued
+status: in_progress
 created_at: 2026-08-31
 created_by: 王语嫣
 trigger: 老朱 08-31 直令（「把她排前3的内容拔下来逐字稿，拉起自动化工作流干活」）
 priority: P1
+instance: laowantong
+updated_at: '2026-08-30T18:12:30.669662+00:00'
 ---
 
 # 任务单 #582：阿蕊科学销售体系——前排内容产卡（老顽童）

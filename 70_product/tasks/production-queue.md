@@ -208,7 +208,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 580 | `task_20260830_huangyaoshi-rework-reclaim-bypass-504` | 返工重提绕过#504拦截（F-064：FAIL打回自动rework标记，claim不触发pending_review阻塞） | reviewed | huangyaoshi | queue_transition.py + 测试 | F-064 | `60_feedback/tasks/task_20260830_huangyaoshi-rework-reclaim-bypass-504.md` | 老顽童08-30上报+王语嫣立项 |
 | 581 | `task_20260830_laowantong-private-board-conversion-case` | 一堂转化率私董会真实案例卡（叶柳清古法护肤）：三轮共创实录提炼+幕僚收敛样本+可迁移原则 | reviewed | laowantong | 1张case卡 | 无 | `60_feedback/tasks/task_20260830_laowantong-private-board-conversion-case.md` | 私董会素材编排（08-30王语嫣）；脱敏+传播限制标注必附（保密承诺）；欧阳锋终审 |
 
-| 582 | `task_20260831_laowantong-arui-science-sales-cards` | 阿蕊科学销售体系4卡：框架卡(AI落地六块基本功)/方法卡(业务场景三步拆解法)/case卡(猎头-AI角色随阶段切换)/情报卡(销售AIπ平台对标) | queued | laowantong | 4张卡 | 老朱0831直令 | `60_feedback/tasks/task_20260831_laowantong-arui-science-sales-cards.md` | 素材已抓取落inbox(公众号正文4篇2701-3935字)；欧阳锋终审 |
+| 582 | `task_20260831_laowantong-arui-science-sales-cards` | 阿蕊科学销售体系4卡：框架卡(AI落地六块基本功)/方法卡(业务场景三步拆解法)/case卡(猎头-AI角色随阶段切换)/情报卡(销售AIπ平台对标) | claimed-laowantong | laowantong | 4张卡 | 老朱0831直令 | `60_feedback/tasks/task_20260831_laowantong-arui-science-sales-cards.md` | 素材已抓取落inbox(公众号正文4篇2701-3935字)；欧阳锋终审 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
 ## ⚖️ 待终审（提审任务，queue_transition 自动登记）
