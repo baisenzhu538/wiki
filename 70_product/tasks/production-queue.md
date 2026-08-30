@@ -202,7 +202,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 574 | `task_20260828_huangyaoshi-check-review-sla-timeout-push` | check-review-sla升级「超时必推」+推送通道对齐调研（R1+R3合并，R2欧阳锋自改） | reviewed | huangyaoshi | 升级+调研+回归 | 无 | `60_feedback/tasks/task_20260828_huangyaoshi-check-review-sla-timeout-push.md` | 欧阳锋建议书diag_20260828_ouyangfeng-review-wakeup-gap裁定（08-28王语嫣）：R1+R3合并立项，R2欧阳锋自改deliver→feishu；R1落实#521 R2老朱已拍板「终审类通知不静默」；复用#519空转报警同族；欧阳锋终审 |
 | 575 | `task_20260830_laowantong-openclaw-harness-selection` | OpenClaw vs Harness 选型决策树卡：70%论+三分法（养员工/造工具/打短工）+触发场景+KDO映射 | reviewed | laowantong | framework卡 | 无 | `60_feedback/tasks/task_20260830_laowantong-openclaw-harness-selection.md` | 战略笃定篇编排（08-30王语嫣）：老朱核心问题「什么情况用OpenClaw/Harness」；GitHub实证deepseek-harness=Everything is a Plugin；欧阳锋终审 |
 | 576 | `task_20260830_huangyaoshi-tool-feature-comparison-supplement` | 工具Feature对比卡补全：补OpenClaw+DeepSeek Harness两列+三分法总纲 | reviewed | huangyaoshi | 补全工具卡 | #575并行 | `60_feedback/tasks/task_20260830_huangyaoshi-tool-feature-comparison-supplement.md` | 战略笃定篇编排（08-30王语嫣）：已有卡缺OpenClaw/Harness；只补两列+三分法不动四工具；欧阳锋终审 |
-| 577 | `task_20260830_huangyaoshi-kdo-three-artifacts` | KDO落地三件套：顶层文档规范+编号依赖规范+设计宪法（方案B覆盖卡片/视觉/Agent spec） | pending_review | huangyaoshi | 三份规范+模板 | 无 | `60_feedback/tasks/task_20260830_huangyaoshi-kdo-three-artifacts.md` | 战略笃定篇编排（08-30王语嫣）：老朱直指「KDO案子没照着做」；设计宪法方案B；渐进过渡不推翻现有编号；欧阳锋终审 |
+| 577 | `task_20260830_huangyaoshi-kdo-three-artifacts` | KDO落地三件套：顶层文档规范+编号依赖规范+设计宪法（方案B覆盖卡片/视觉/Agent spec） | reviewed | huangyaoshi | 三份规范+模板 | 无 | `60_feedback/tasks/task_20260830_huangyaoshi-kdo-three-artifacts.md` | 战略笃定篇编排（08-30王语嫣）：老朱直指「KDO案子没照着做」；设计宪法方案B；渐进过渡不推翻现有编号；欧阳锋终审 |
 | 578 | `task_20260830_laowantong-dk-replicable-ops` | 可复刻dk卡组4张：多线程打地鼠/项目→Skill→Agent闭环/ROI三步/借假修真重立 | pending_review | laowantong | 4张dk卡 | 无 | `60_feedback/tasks/task_20260830_laowantong-dk-replicable-ops.md` | 战略笃定篇编排（08-30王语嫣）：老朱口径暗知识=可复刻操作非口水化；每卡含操作步骤≥3步；欧阳锋终审 |
 | 579 | `task_20260830_laowantong-strategy-conviction-framework` | 战略笃定框架卡：战略+笃定定义+七轮决策表+攒牌心态+不要撒胡椒面 | reviewed | laowantong | framework卡 | 无 | `60_feedback/tasks/task_20260830_laowantong-strategy-conviction-framework.md` | 战略笃定篇编排（08-30王语嫣）：七轮决策实证；传播限制注记（Truman阅后即焚，老朱学员无碍）；欧阳锋终审 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
@@ -382,7 +382,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#579 task_20260830_laowantong-strategy-conviction-framework｜laowantong｜提审 08-30 13:42｜60_feedback/tasks/task_20260830_laowantong-strategy-conviction-framework.md~~ → 已终审 PASS A-（2026-08-30 欧阳锋）
 - ~~#572 task_20260828_laowantong-koupen-guide-batch｜laowantong｜提审 08-30 14:29｜60_feedback/tasks/task_20260828_laowantong-koupen-guide-batch.md~~ → 已终审 PASS A-（2026-08-30 欧阳锋）
 - #578 task_20260830_laowantong-dk-replicable-ops｜laowantong｜提审 08-30 14:40｜60_feedback/tasks/task_20260830_laowantong-dk-replicable-ops.md
-- #577 task_20260830_huangyaoshi-kdo-three-artifacts｜huangyaoshi｜提审 08-30 14:44｜60_feedback/tasks/task_20260830_huangyaoshi-kdo-three-artifacts.md
+- ~~#577 task_20260830_huangyaoshi-kdo-three-artifacts｜huangyaoshi｜提审 08-30 14:44｜60_feedback/tasks/task_20260830_huangyaoshi-kdo-three-artifacts.md~~ → 已终审 PASS A-（2026-08-30 欧阳锋）
 
 <!-- REVIEW-PENDING-END -->
 
@@ -627,6 +627,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~[gate-blocked] role-liveness｜08-29 11:37｜待王语嫣复核处置｜2026-08-29 11:33:31｜role-liveness｜fengqingyang 全实例疑似死亡（stale: [('codex', 3159.1)]）｜role_registry check-liveness｜role_registry~~ → 已知问题划销（08-29 王语嫣）：风清扬 codex 会话持续无心跳（~52h），观察者非产线阻塞，#562 任务2/#565 落地前属预期；是否拉起风清扬由老朱决定，不升级
 - [gate-blocked] task_20260828_huangyaoshi-check-review-sla-timeout-push｜08-29 13:47｜待王语嫣复核处置｜2026-08-29 13:40:27｜task_20260828_huangyaoshi-check-review-sla-timeout-push｜F-035-负向判词｜意见书含负向断言（缺失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋
 - [gate-blocked] task_20260830_laowantong-openclaw-harness-selection｜08-30 13:37｜待王语嫣复核处置｜2026-08-30 13:34:54｜task_20260830_laowantong-openclaw-harness-selection｜F-034-五字段｜执行报告缺 1 个字段（#429 F-034）：需要谁动作。请补全后重试，或 --force --reason '<理由>' 声明例外（#444 台账留痕）。 / 合法写法样例（五字段各起一行，粗体锚词开｜laowantong
+- [gate-blocked] task_20260830_huangyaoshi-kdo-three-artifacts｜08-30 14:47｜待王语嫣复核处置｜2026-08-30 14:43:20｜task_20260830_huangyaoshi-kdo-three-artifacts｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生 / - 未提交改动: 90_control/top-level-document-protocol.md / - 未｜huangyaoshi
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
