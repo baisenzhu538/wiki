@@ -110,3 +110,12 @@ grade: A
 - 理由：①6 卡体量不足立域（立域门槛=独立来源≥2×卡量≥10）；②词元经济内容本质=AI 产业格局/商业形态判断，strategy（139 卡有 digest）+ai-saas 两域均已在 domain-mapping.md 枚举内且有承接面；③frontmatter 实核 5 卡已按此落域（framework=strategy+ai-saas，concept/dk=strategy），欧阳锋终审 PASS A 无异议
 - 触发复评：词元经济类再进 ≥2 个独立来源素材或卡量 ≥10 张时，重新评估开 domain:token-economy
 - 终审记录「裁定权在王语嫣，我无异议」悬空项就此闭环
+
+## W10 域归属复核勘误（2026-08-31 22:01 王语嫣）
+
+**结论：维持 21:31 裁定——5 卡挂 strategy+ai-saas 维持现状；04:40「剔除 ai-saas」勘误指令作废（幸未执行，5 卡 frontmatter 实核原样未动）。**
+
+对账更正（两裁理由各有一处事实错误，结论以本节为准）：
+- **04:40「幽灵域」论据有误**：ai-saas 实为 schema 官方枚举合法域（`90_control/schemas/concept.yaml` L183 枚举值+L216「ai-saas: AI 产品和公司」），全库 110 卡 frontmatter 在用——仅查 domain-mapping.md 零命中即判幽灵域，犯「单一命中不下定论」（W11）错误。
+- **21:31 理由②表述有误**：「两域均已在 domain-mapping.md 枚举内」不成立——实测 ai-saas 在 domain-mapping.md 零命中；但结论不受影响（schema 合法+110 卡在用+体量不足立域，维持现状正确）。
+- **真实缺口（上浮不立项）**：ai-saas 110 卡在 domain-mapping.md 无登记（无路由行/无 digest 卡/无表行）=域导航面缺口——补登记属结构变更（建议先行等老朱）+建 digest 属生产工作（走正常编排），本拍不自动立项。
