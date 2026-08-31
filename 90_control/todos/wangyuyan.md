@@ -172,3 +172,6 @@
 [2026-09-01 07:03] 🕐 时钟值守拍（2026-09-01 07:03）收口：①终审落点——#586 pending_review→reviewed（欧阳锋 06:40 独立复跑 FAIL 退回：16 件 pre-submit 12 PASS/4 FAIL+4 概念框架卡无外部验证源+执行报告证据误引驳斥），返工清单 6 项在任务单终审记录节；②拉起——老顽童无活跃实例（registry 心跳 245min 前旧记录），headless 拉起返工 proc_50d63c52fa71（P0 老朱明早汇报件）；③划销——gate-blocked role-liveness 06:37 ouyangfeng 冷却重报（实测全死 0，终审后正常收工），首写被并行会话整块重写覆盖后重写已固化 commit；④PROPOSAL/INBOX 0 未划销；⑤结构地图例行单搜 7 命中=同名单历史残留（#572 裁定节在，6 单无结构地图节，老单冻结不回注）；⑥#587 名下 queued 等专项会话（防双实例），#588 依赖 #587 维持暂缓；⑦心跳已写
 - [2026-09-01 07:07] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
 - [2026-09-01 07:17] ⛔ KDO 门禁拦截 2 次（gate-blocked）：2026-09-01 07:17:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-c…
+
+[2026-09-01 07:33] 🚀 已拉起 ouyangfeng：#586 返工终审（07:20 老顽童返工重提 pre-submit 16/16 PASS 自报，欧阳锋前实例 06:40 FAIL 终审后已收工，v4.2 直令 pending_review>0 即拉，proc_e67ae169641d）
+[2026-09-01 07:33] 🕐 时钟值守拍（07:30）：①终审落点核——#586 FAIL 退回后 07:20 返工重提回 pending_review，六项清单自报全修（dk-brooks 三节/死链 3 处/4 卡外部验证节/deep-debug frontmatter），欧阳锋实例已拉起终审，落点下拍核；②PROPOSAL-PENDING 划销 1 行——role-liveness 07:17 huangyaoshi 冷却重报（实测 check-liveness 冷却抑制同角色+全死角色 0，非产线阻塞）；③INBOX-PENDING 0 未划销；④结构地图例行 grep 6 命中=同名单历史残留（全部 reviewed 老单无「## 结构地图」节，#572 已裁定，老单冻结不回注）；⑤#587 名下 queued 等专项会话（防双实例），#588 依赖 #587 维持暂缓；⑥心跳已写
