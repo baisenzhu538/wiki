@@ -178,3 +178,7 @@ P0-P2 全部可走昨晚验证过的夜班链：老朱睡前一句话授权 → 
 ## 九、种子包交付（2026-09-01 已落盘）
 
 桌面《素材库工具包》= kdo-seed 三层切分的执行载体：README（启动词+角色编制）/ INSTALL（安装清单）/ skills×5（主流程+命名法+五维标注+图像选型+设计资产）/ scripts（asset_inventory.py 零依赖盘点脚本已实测 + describe-images-minimax.py）/ prompts（设计素材打标 prompt）。角色编制：那边 1 执行 agent + 这边王语嫣编排质检 = 2 角色，老朱 3 触点。MINIMAX_API_KEY 不随包走，手动复制。
+
+## 十、远程组网配套（2026-09-01 老朱追加：跨机指挥+在家远程）
+
+Tailscale 虚拟内网（非向日葵/ToDesk 远控桌面——组网≠看屏幕，agent 通道要的是网络层）。四通道：kimi web（人指挥）/ MCP HTTP（agent 互查）/ 文件队列+计划任务（无人值守）/ OpenSSH（备用）。双向对称：老朱任意设备可指挥任意机器。安全红线：token 常开/禁 bypass-auth/只在 Tailscale 网内暴露。完整文档=桌面《远程组网方案-v1.0.md》。
