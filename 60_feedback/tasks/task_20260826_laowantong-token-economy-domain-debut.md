@@ -101,3 +101,12 @@ grade: A
 - **辅域 ai-saas：剔除（不合规范）**——实测 grep domain-mapping.md 零命中，四处登记（routes/digest/mapping/index）一处全无 = 幽灵域；执行报告「两域均已在枚举内」系误报（strategy 真、ai-saas 假）；6 卡体量不足立域，老顽童初判正确但辅域打标自相矛盾
 - **处置**：5 张卡 frontmatter domain 剔除 ai-saas 仅留 strategy——元数据一行勘误非内容变更，不入已终审封闭单工作量；已落老顽童收件箱随下批执行（#480 点名先例）
 - **观察点维持**：词元经济素材增多再评估开域（届时按四处登记规则走全）
+
+
+## W10 域归属裁定（2026-08-31 21:31 王语嫣）
+
+**裁定：采纳「不开新域」——5 卡挂 strategy（主）+ ai-saas（辅）维持现状**
+
+- 理由：①6 卡体量不足立域（立域门槛=独立来源≥2×卡量≥10）；②词元经济内容本质=AI 产业格局/商业形态判断，strategy（139 卡有 digest）+ai-saas 两域均已在 domain-mapping.md 枚举内且有承接面；③frontmatter 实核 5 卡已按此落域（framework=strategy+ai-saas，concept/dk=strategy），欧阳锋终审 PASS A 无异议
+- 触发复评：词元经济类再进 ≥2 个独立来源素材或卡量 ≥10 张时，重新评估开 domain:token-economy
+- 终审记录「裁定权在王语嫣，我无异议」悬空项就此闭环
