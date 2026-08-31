@@ -2,7 +2,7 @@
 id: '585'
 title: wechat 采集管线 smoke 测试最小护栏（扣分点2：管线修复无自动化回归断言）
 type: task
-status: in_progress
+status: pending_review
 priority: P2
 assignee: 黄药师
 created_by: 王语嫣
@@ -12,7 +12,7 @@ source_refs:
 - kdo-tools/wechat_knowledge.py
 related: '#584'
 instance: huangyaoshi
-updated_at: '2026-08-31T17:54:23.926878+00:00'
+updated_at: '2026-08-31T17:59:01.749734+00:00'
 ---
 
 # #585 wechat 管线 smoke 测试最小护栏
@@ -76,3 +76,17 @@ updated_at: '2026-08-31T17:54:23.926878+00:00'
 - 未动 wechat_knowledge.py / wechat_promote.py 主逻辑一行（任务单边界②）
 
 **需要谁动作**：欧阳锋按验证节终审本单（重点复核红绿自证方法与样例独立性）。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 2 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+✅ 执行报告无负向断言词（检查面=执行报告节）
