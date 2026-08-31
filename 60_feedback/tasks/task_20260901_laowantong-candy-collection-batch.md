@@ -2,12 +2,15 @@
 id: '586'
 title: 学习candy合集+两天inbox素材批量产卡（翻译→调研→六层交叉→九层深挖→产卡入库）
 type: production
-status: pending_review
+status: reviewed
 priority: P0
 assignee: 老顽童
 created_by: 王语嫣
 created_at: 2026-09-01
-updated_at: '2026-08-31T23:20:20.763172+00:00'
+updated_at: '2026-08-31T23:36:37.619068+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-08-31'
+grade: A-
 source_refs:
 - 00_inbox/学习candy合集/
 - 00_inbox/video_transcripts/
@@ -168,4 +171,26 @@ rework: true
 6. 全部修完重跑 `kdo pre-submit -f <卡>` 至 16/16 PASS，重走 complete 提审（同 assignee 返工重提按 #504 惯例 --force）
 
 **P0 时效说明**：老朱明早汇报件——返工项 1-4 为机械修复（约 30 分钟量级），建议优先清掉；项 5 如外部检索受阻可先标「外部验证待补+理由」提审，终审按豁免口径复核，不让汇报件卡死在外部检索上。
+
+### 返工复审（2026-09-01 07:45 欧阳锋终审，结论：PASS A-）
+
+> 独立复跑实测（终审者亲跑，非采信自报）。返工清单 6 项逐项核验，对照 06:40 FAIL 记录原路径原行号。
+
+| # | 返工项 | 核验方法（亲跑） | 实测结果 | 判定 |
+|:--|:--|:--|:--|:--|
+| 1 | dk-brooks 补三节 | grep `^## ` 逐节清点 | `## 使用场景`L79 / `## 操作方法`L89 / `## 为什么值钱`L97 全在，dk 结构完整 | ✅ 修复 |
+| 2 | lobster 死链 2 处 | `grep -c wujue-architecture` 全卡 | 仅剩 L176 Synthesis 表勘误说明文字（自证死链历史，非活链）；活链接全改指 `[[framework-community-knowledge-production-failure-modes]]`（vault 实存，终审者验存在）——生产者自报「第 3 处在说明文字一并修复」属实 | ✅ 修复 |
+| 3 | agent-university 死链 | 同上 | 0 残留，related 首位死链已移除 | ✅ 修复 |
+| 4 | deep-debug frontmatter | head -20 亲读 + yaml.safe_load 解析 | status/reviewed_by/updated_at/title 四字段全补（title=「Deep Debug 深度调试技能」）+ tags audience/scene/skill-level；YAML 解析 13 keys 无误 | ✅ 修复 |
+| 5 | 4 卡外部验证节 | 逐卡读节内容 + 终审者亲 curl 复现 | 4 卡 `## 外部验证` 全落；brooks TED 官方页亲测 HTTP 200 + og:title「The lies our culture tells us about what matters -- and a better way to live」与卡内声称逐字一致 + 页内 David Brooks 3 处；4 卡均带层级标注/降级声明/无源主张 ❌ 如实标注，符合豁免口径（内部设想稿=学理对齐 L2 替代，不冒充产品实证） | ✅ 修复（合格） |
+| 6 | pre-submit 16/16 | 终审者亲跑 `python -m kdo pre-submit -f <16件>`（分两批 8+8） | **16/16 PASS**（26 条 WARNING 均 #542 提示制不拦截级） | ✅ 达标 |
+
+**复核证据链**：返工 commit `faa13f1ff`（07:20）改动 6 目标文件+任务单，与声称一致；pre-submit 初跑报索引过期→生产者跑 `kdo index --incremental` 处置合理；6 文件 src_unknown 计数全 0；返工未引入新缺陷。
+
+**质量亮点保留**：①外部验证三通道全故障下（web_search/web_extract/browsers）改用 curl 直连锚点实测并逐条记录 HTTP 码+标题，L1 存在性+标题核对是合规的降级路径；②无外部独立源的 2 张内部设想稿卡（lobster/agent-university）诚实降级声明+学理对齐 L2 替代，把「验证不了什么」写清楚了；③Sam Altman 域级验证/Weave 403 反爬/市场空缺未穷证均如实标注不确定性，不冒充穷证。
+
+**遗留小项（🟡 不阻塞，落点=停车场 O-18，后续债务清理）**：①Sam Altman 博客为域级验证，具体篇目未定位（卡内已标「引用需回源」，O-18①）；②外部锚点为 09-01 单次实测快照，链接rot风险随时间增长，下次触碰该批卡时建议复验锚点活性（O-18②）。
+
+**结论**：**PASS A-**。15 卡+1 skill（deep-debug 433 行）+Wave0 翻译 3 篇全部入库合规，任务闭环。流转由 queue_transition.py 执行，队列行 reviewed、本记录落任务单、todos 留痕三写完成。
+
 
