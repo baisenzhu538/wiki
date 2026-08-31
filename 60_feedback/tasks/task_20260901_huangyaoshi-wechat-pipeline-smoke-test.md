@@ -106,7 +106,7 @@ updated_at: '2026-08-31T19:24:21.933210+00:00'
 | 2 | pytest 单文件兼容 | 亲跑 `python -m pytest kdo-tools/test_wechat_knowledge_smoke.py -q` → 6 passed in 0.11s | ✅ |
 | 3 | 红绿自证（测试自身有效性） | 亲跑 monkeypatch `SKELETON_MARKERS=('<!--',)` 模拟泛匹配回归 → 3/6 红 EXIT=1，红项=`test_skeleton_marker_exact_match`（完整卡误判为骨架）+`test_skip_complete_card_no_llm_call`（完整卡仍调 LLM 1 次）+`test_skeleton_card_triggers_rerun`——断言精确命中 #584 两修复点，报错文案与执行报告声称逐字一致 | ✅ |
 | 4 | 样例独立性（不碰真库） | 断言用例全落 tempfile 临时目录（红跑输出实证 `%TEMP%\tmp*` 路径），真库 00_inbox/wechat-collect/ 零触碰；LLM 调用全 mock（绿跑中 llm_summarize 均为桩返回，零网络零 key） | ✅ |
-| 5 | 主逻辑零改动（边界②） | `git diff HEAD -- kdo-tools/wechat_knowledge.py kdo-tools/wechat_promote.py` 空输出——wech knowledge/promote 两主逻辑文件工作区无脏改动 | ✅ |
+| 5 | 主逻辑零改动（边界②） | `git diff HEAD -- kdo-tools/wechat_knowledge.py kdo-tools/wechat_promote.py` 空输出——wechat_knowledge / wechat_promote 两主逻辑文件工作区无脏改动 | ✅ |
 | 6 | 双副本覆盖（任务单第 4 条） | 亲读 40_outputs/code/scripts/wechat_knowledge.py：runpy 转发桩指向 `kdo-tools/wechat_knowledge.py` 同一真身（L18 `_CANON` 路径解析逐行核对），桩=真身同码，对真身测即对桩测——执行报告「参数化路径无必要」的边界声明成立 | ✅ |
 | 7 | 基建登记（§3.19 纪律） | `90_control/infrastructure-inventory.md` L131 已登记 smoke 脚本一行，交付面与差集一致 | ✅ |
 
