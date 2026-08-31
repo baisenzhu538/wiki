@@ -55,3 +55,24 @@ updated_at: '2026-08-31T17:54:23.926878+00:00'
 
 - 黄药师：施工（smoke 脚本+断言+红绿验证）
 - 欧阳锋：终审
+
+## 执行报告（黄药师 2026-09-01）
+
+**完成内容**：wechat 采集管线 smoke 最小护栏落地——`kdo-tools/test_wechat_knowledge_smoke.py` 6 项断言全覆盖任务单三项断言面（skip 前置 / SKELETON_MARKERS 精确匹配 / #380 `_content_issues` 拦截联动），样例全落 tempfile 临时目录零碰真库，LLM 调用全 mock 零网络零 key，一条命令 exit code 即结论，pytest 单文件亦可收集（6 passed）。
+
+**交付物**：
+- `kdo-tools/test_wechat_knowledge_smoke.py`（新建，smoke 主体+红绿自证用法入 docstring）
+- `90_control/infrastructure-inventory.md`（§3b kdo-tools 辅助族补登记一行，§3.19 登记纪律）
+
+**验证**（全部实测，非推断）：
+- 绿：`cd kdo-tools && python test_wechat_knowledge_smoke.py` → 6/6 通过，EXIT=0
+- 绿（pytest 兼容）：`python -m pytest test_wechat_knowledge_smoke.py -q` → 6 passed in 0.10s
+- 红绿自证（任务单验证节①）：monkeypatch `wk.SKELETON_MARKERS=('<!--',)` 模拟改回泛匹配 → 3/6 红 EXIT=1，核心用例 `test_skeleton_marker_exact_match` 报「完整卡被误判为骨架」、`test_skip_complete_card_no_llm_call` 报「完整卡仍调了 LLM 1 次」——断言对 #584 修复点敏感有效
+- 施工期自抓一处：`GOOD_CARD` 样例正文 196 字 < `MIN_BODY_CHARS` 200，被 `test_promote_gate_intercepts_fail_placeholder` 反向拦截——补齐样例后转绿（测试先抓了我自己的样例缺陷）
+
+**边界**：
+- 只测判定逻辑不测 LLM 输出质量（任务单边界①），`_content_issues` 以纯函数直测，未跑 promote_case 全链路（其目录态依赖真库，超出 smoke 最小口径）
+- 任务单第 4 条「双副本分别跑」未做：#584 已把 40_outputs 双副本收口为 runpy 转发桩（桩=真身同码），对真身测即对桩测，参数化路径无必要；若未来桩机制变更再补
+- 未动 wechat_knowledge.py / wechat_promote.py 主逻辑一行（任务单边界②）
+
+**需要谁动作**：欧阳锋按验证节终审本单（重点复核红绿自证方法与样例独立性）。

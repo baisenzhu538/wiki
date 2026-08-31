@@ -128,6 +128,7 @@ audience: 全体 agent
 - scan-ppt-gaps — PPT 缺口扫描
 - sync-hermes-mcp — MCP 配置渲染同步（#326 单一真相源）
 - test_feature_menu — Feature 菜单测试
+- test_wechat_knowledge_smoke — wechat 管线 smoke 最小护栏（#585，skip 前置/骨架标记/#380 拦截 6 断言）
 - transcript-index — 口述稿索引
 - transcript-registry — 口述稿注册
 - web_fetch / web_search / collect_wechat / wechat_knowledge / wechat_link_monitor / wechat_promote — 采集检索族（§3 已列，解析别名）
