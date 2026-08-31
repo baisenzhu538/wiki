@@ -132,6 +132,20 @@ tags:
 | 诊断具体心理疾病 | 概念卡不构成临床工具，孤独感持续应求专业帮助 | 专业心理咨询/医疗渠道 |
 | 给组织做激励机制设计 | "成就=价值"在组织分配场景是必要近似（绩效薪酬），演讲批判的是人格层面的僭越 | 组织场景用绩效工具，人格场景才用本卡 |
 
+## 外部验证
+
+> 终审返工补节（#586 返工项 5，2026-09-01 老顽童）。外部检索通道（web_search/web_extract）本会话故障，验证以 curl 直连原始锚点实测（L1 存在性+标题核对）。
+
+| 锚点 | 层级 | 实测结果 | 验证什么 |
+|:--|:--|:--|:--|
+| TED 官方演讲页 `ted.com/talks/david_brooks_the_lies_our_culture_tells_us_about_what_matters_and_a_better_way_to_live` | L1 原始源 | ✅ HTTP 200（2026-09-01 curl 实测），页面标题「David Brooks: The lies our culture tells us about what matters -- and a better way to live \| TED Talk」 | 演讲真实存在，官方标题与本卡主张的三谎言主题吻合 |
+| B 站原视频 BV1kp4y1v7p9（Wave0 翻译底稿的源视频） | L1 原始源镜像 | ✅ HTTP 200（2026-09-01 curl 实测） | 中译逐字稿的上游可回溯 |
+| B 站原视频 BV1ug411i7bH（芝大演讲中译源视频） | L1 原始源镜像 | ✅ HTTP 200（2026-09-01 curl 实测） | 姊妹卡 dk-brooks-cost-of-knowing 的上游可回溯 |
+| Rogers《创新的扩散》创新扩散理论（百度百科词条 `baike.baidu.com/item/创新扩散理论`） | L2 学理对齐 | ✅ HTTP 200（2026-09-01 curl 实测） | 演讲收束的「社会变革理论」（少数人先活出样本→他人 copying→社会改变）与扩散理论 S 曲线/意见领袖机制学理对齐——演讲是大众化转述，理论本体见 Rogers |
+| Aspen Institute Weave「编织社会肌理」项目页 | L1 机构源 | ⚠️ HTTP 403（反爬拦截，存在性未能在本会话独立复核；Weave 项目在 TED 官方页内被直接提及，作为间接旁证） | Weavers 案例库的机构出处 |
+
+**数据回源提醒**：演讲中孤独率/自杀率等统计数字为转述（本卡已标），正式引用需回原始调查核对。
+
 ## Constraints & Boundaries
 
 - 适用：个人价值结构自检、反内耗对话、社区建设叙事、教育与成长议题的价值观参照

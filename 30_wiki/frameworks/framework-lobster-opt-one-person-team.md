@@ -35,7 +35,7 @@ related:
 - '[[framework-truman-agent-team-architecture]]'
 - '[[case-opc-agent-wave1-real-model-testing]]'
 - '[[method-kdo-agent-design-meta]]'
-- '[[wujue-architecture]]'
+- '[[framework-community-knowledge-production-failure-modes]]'
 - '[[tool-ai-koupen-training-partner-design]]'
 - '[[case-kdo-agent-factory-dual-triangle-practice]]'
 discoverable_by:
@@ -147,6 +147,19 @@ OPT（One Person Team）是对 OPC（One Person Company）的升维：一个人�
 | 无知识库底座的冷启动 | 五角色的输入是 Datapack，没有知识注入=空壳团队 | 先建知识底座（KDO 先例：先有 30_wiki 后有五绝） |
 | 高合规决策（法律/医疗/财务签字） | 责任链不能外包，AI 团队只能做前置情报 | AI 情报+专业人士签字的双层结构 |
 
+## 外部验证
+
+> 终审返工补节（#586 返工项 5，2026-09-01 老顽童）。外部检索通道（web_search/web_extract）本会话故障，验证以 curl 直连锚点实测。
+
+**来源性质降级声明**：本卡素材为内部产品设想稿（非上线产品），**无外部独立源可验证其产品能力主张**——按返工清单口径以「学理对齐 L2」作替代验证并标注层级，不冒充产品实证。
+
+| 锚点 | 层级 | 实测结果 | 验证什么 |
+|:--|:--|:--|:--|
+| Anthropic《Building Effective Agents》（`anthropic.com/engineering/building-effective-agents`） | L2 学理对齐 | ✅ HTTP 200（2026-09-01 curl 实测） | 「反通用虾」与业界多 Agent 分工范式（可组合的专用组件优于单一万能 Agent）学理对齐——注意 Anthropic 同时保留单 Agent+工具路线，本卡「一类目标=一个循环」是其特化，非业界共识全文 |
+| KDO 五绝运行实证（库内）：[[framework-community-knowledge-production-failure-modes]]（Claim 4 五绝架构镜像）/ [[case-opc-agent-wave1-real-model-testing]] / [[case-kdo-agent-factory-dual-triangle-practice]] | L2 内部实证 | 库内亲验存在（2026-09-01） | 「专业分工的 Agent 团队优于单全能 Agent」假设的已运行样本——写审分离/角色路径/禁越界均源于实战教训 |
+| CEO 关键错误学费量化表述（选错赛道损 2 年/招错高管损 100 万） | — | ❌ 无外部独立源 | 设想稿修辞，量级待独立核实（正文已标注）；引用必须保留该标注 |
+| 「成本不到一个初级员工月薪」TCO 主张 | — | ❌ 无外部独立源 | Critique 攻击者 1 已论证其不完整（隐性成本清单）；引用须附带该攻击结论 |
+
 ## Constraints & Boundaries
 
 - 适用：个人/小微决策系统的角色规划、Agent 团队产品设想评审、AI 组织形态研究
@@ -160,7 +173,7 @@ OPT（One Person Team）是对 OPC（One Person Company）的升维：一个人�
 | 同批设想 | [[concept-agent-university]] | OPT 管"给谁配团队"，Agent 大学管"团队受什么教育"——同一愿景的两半 |
 | 上位坐标系 | [[framework-muse-ai-full-map-v1]] | OPT 主层=S（创业层）设想，其长期叙事伸入 M 层 |
 | 实证样本 | [[case-opc-agent-wave1-real-model-testing]] / [[case-kdo-agent-factory-dual-triangle-practice]] | 库内 Agent 团队实测与 KDO 工厂实践——OPT 假设的落地证据链 |
-| 架构同源 | [[framework-truman-agent-team-architecture]] / [[wujue-architecture]] | 多 Agent 分工的既有架构卡 |
+| 架构同源 | [[framework-truman-agent-team-architecture]] / [[framework-community-knowledge-production-failure-modes]] | 多 Agent 分工的既有架构卡（后者 Claim 4 即「KDO 五绝架构镜像」——本卡原引的 wujue-architecture 系死链，#586 终审返工改指真实载体） |
 
 **跨域观察**：OPT 的"最小工作循环"与 KDO 的"一次只领一件"是同一条纪律的两个人机版本——认知框架不可复用是跨物种约束（人对多任务、AI 对多角色同样成立）。框架卡最有传播力的判断是**反直觉的"反通用虾"**：在所有人堆"全能助手"的赛道里，"分工的团队"是差异化叙事，且有 KDO 实证背书。
 

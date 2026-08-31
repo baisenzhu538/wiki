@@ -1,15 +1,23 @@
 ---
 name: deep-debug
+title: Deep Debug 深度调试技能
 description: "Use this skill when encountering complex system problems that cannot be quickly resolved. Applies scientific debugging methodology: hypothesis-driven investigation, cross-validation through multiple evidence sources, and minimal scoped fixes. DO NOT modify code until root cause is confirmed through evidence. Triggers: complex bugs with unclear causes, intermittent issues, performance problems, data inconsistencies, problems that resist quick fixes."
 version: 1.1.0
 author: ECC（原版）/ 老顽童（KDO 桥接入库）
 license: MIT
 origin: ECC
+status: enriched
+reviewed_by: pending
+updated_at: 2026-09-01
+tags:
+  - audience:builder
+  - scene:debugging
+  - skill-level:intermediate
 metadata:
   hermes:
     tags: [debugging, hypothesis-driven, root-cause, six-layer, methodology]
     related_skills: [systematic-debugging, debugging, kdo-v15-batch-repair]
-source_context: 学习candy合集《技能：deep-debug深度调试技能》ECC 原版，#586 任务 skill 化入库（2026-09-01）
+source_context: 学习candy合集《技能：deep-debug深度调试技能》ECC 原版，#586 任务 skill 化入库（2026-09-01，同日终审返工补 frontmatter 必需字段）
 ---
 
 # 深度调试技能 (Deep Debug)

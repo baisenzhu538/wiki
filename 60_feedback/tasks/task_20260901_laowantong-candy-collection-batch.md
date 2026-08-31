@@ -108,17 +108,19 @@ rework: true
 | W3-3 | method-shishiyanshi-evidence-based | management | method（脱敏） |
 | W3-4 | case-yitang-jiangxiang-12-practices | content | case |
 
-## 执行报告
+## 执行报告（2026-09-01 返工重提版）
 
-**交付物**：`30_wiki/methods/method-storytelling-with-numbers.md`、`30_wiki/methods/method-shizhi-jiangxiang-ten-strategies.md`、`30_wiki/methods/method-key-assumption-abcd.md`、`30_wiki/dark-knowledges/dk-koupen-decision-tiering-compromise.md`、`30_wiki/tools/tool-ai-koupen-training-partner-design.md`、`30_wiki/methods/method-anthropic-skill-design-patterns.md`、`30_wiki/frameworks/framework-muse-ai-full-map-v1.md`、`30_wiki/concepts/concept-brooks-three-lies-culture.md`、`30_wiki/dark-knowledges/dk-brooks-cost-of-knowing.md`、`30_wiki/methods/method-spin-linking-sales-marketing.md`、`30_wiki/frameworks/framework-lobster-opt-one-person-team.md`、`30_wiki/concepts/concept-agent-university.md`、`30_wiki/cases/case-jovida-ai-life-coach.md`、`30_wiki/methods/method-obsidian-km-camp.md`、`30_wiki/cases/case-yitang-jiangxiang-12-practices.md` 共 15 卡 + skill `40_outputs/capabilities/skills/shared/deep-debug/SKILL.md`（433 行）+ Wave0 翻译 3 篇（`00_inbox/学习candy合集/translations/` 中译布鲁克斯×2+SPIN）。
+> 本节为欧阳锋 06:40 终审 FAIL 后返工重提的执行报告，按 FAIL 清单原序号逐项对照（牌 L10 返工报告镜像写法：每项给改动位置+实测验证命令/锚点，声称范围 ≤ 已验证范围）。
 
-**完成内容**：candy 合集+两天 inbox 素材按任务单 16 项清单完成批量产卡——Wave1 七件+Wave2 六件（含 skill 化 deep-debug）08-31 夜间会话落盘，Wave3 三件（Jovida case/探索营方法卡/讲香 12 案例集 case）本会话逐字消费素材（714+586+2240 行）新产；16 件全部入仓（commit 61e755cc5→cc981dd7b 共 7 笔，含执行报告本笔）。
+**交付物**：同初版 15 卡 + skill `40_outputs/capabilities/skills/shared/deep-debug/SKILL.md`（433 行）+ Wave0 翻译 3 篇不变；本返工改 6 个文件：`30_wiki/dark-knowledges/dk-brooks-cost-of-knowing.md`、`30_wiki/concepts/concept-brooks-three-lies-culture.md`、`30_wiki/frameworks/framework-lobster-opt-one-person-team.md`、`30_wiki/concepts/concept-agent-university.md`、`30_wiki/frameworks/framework-muse-ai-full-map-v1.md`、`40_outputs/capabilities/skills/shared/deep-debug/SKILL.md`。
 
-**验证**：`kdo pre-submit -f <各卡>` → W3 三卡本会话 3×✅ PASS（case-jovida 补 tags audience/scene 维+标题节规范化后 PASS；method-obsidian-km-camp 增量索引后 PASS；case-yitang-jiangxiang-12-practices PASS）；Wave1/2 十二件前会话已过 pre-submit（05:22-05:32 时钟日志实锤），本会话实测 16/16 存在；外部验证 L1 实测 MemPalace GitHub API=58,755 stars/MIT/2026-04（素材称 53k 为时点差）；`git status --porcelain` 本单新卡未追踪数=0。
+**完成内容**：按终审返工清单 6 项逐项修复——①dk-brooks 补齐 `## 使用场景`（5 场景表）/`## 操作方法`（5 步）/`## 为什么值钱`（4 论证）三节（pre_submit.py DK_REQUIRED_SECTIONS 白名单对齐）；②lobster 卡 wujue-architecture 死链共 3 处改指真实载体 `[[framework-community-knowledge-production-failure-modes]]`（终审判 2 处，实测 grep 全库唯一命中是本卡自身，第 3 处在 Synthesis 表说明文字，一并修复）；③agent-university 移除死链 related 项 `concept-agent-university-observation`（vault 无此卡）；④deep-debug SKILL.md 补 frontmatter `title: Deep Debug 深度调试技能`/`status: enriched`/`reviewed_by: pending`/`updated_at: 2026-09-01` + 顶层 `tags`（audience:builder/scene:debugging/skill-level:intermediate，对齐 feishu-publish 等已过审 skill 惯例）；⑤4 张概念/框架卡各补「## 外部验证」节：brooks 概念卡 L1 实测 TED 官方页 200+标题核对（`ted.com/talks/david_brooks_the_lies_our_culture_tells_us_about_what_matters_and_a_better_way_to_live`）+ B站双源视频 200 + Rogers 创新扩散理论 L2 对齐（baike 词条 200）+ Weave 项目 403 反爬如实标注；MUSE 卡 L2 学理对齐（Rogers 扩散理论）+ a16z AI Canon 200 + 「U/S 字母仲裁无外部源可解」降级声明；lobster/agent-university 两张内部设想稿卡按返工清单口径写明「无外部独立源」降级依据+学理对齐 L2 替代（Anthropic Building Effective Agents 200/Agent Skills 官方文档 200/SWE-bench 200/Sam Altman 博客 200 域级）并标注层级；⑥16 件全部重跑 pre-submit。
 
-**边界**：① W3-3 Eason 实事求是卡按用户 09-01 指令跳过不产（涉老朱域+CHO 私有密级，任务单素材表同标记）；② BV 视频逐字稿 7 件按任务单既有判定归 #586b（英文 ASR 差+SPIN 撞车）；③ jovida.ai 直接抓取因本会话 web 后端故障未完成，卡内已标待复核、以 GitHub API 旁路验证可验项；④ Live257 华为/苹果/小米 300+ 文案库段为采样消费（素材库性质，case 卡边界节已声明）；⑤ 队列行曾为裸 claimed（08-31 headless 会话领取残缺状态），本会话经 force-exceptions 台账留痕后归一化为 claimed-laowantong 再走正规 complete 门禁。
+**验证**：`python -m kdo pre-submit -f <16 文件>` → **16/16 PASS**（Files checked: 16 / Passed: 16 / Failed: 0，2026-09-01 实测；初跑 dk-brooks 报索引过期→跑 `kdo index --incremental`（+0 ~6）后通过；lobster 第 3 处死链在本卡说明文字内、修复后 WIKILINK 0 issues）。外部验证锚点全部 curl 直连实测（web_search/web_extract/browsers 三通道本会话故障：DuckDuckGo 超时、ddgs 后端不可 extract、Chrome 未安装——改用 curl -L 直连原始锚点，HTTP 状态码+页面标题逐条记录在卡内「外部验证」节）。`git status --porcelain` 本单改动文件均已 add 提交。
 
-**需要谁动作**：欧阳锋终审本单 15 卡+1 skill（W1/W2 十二件 pre-submit 输出未随卡归档，终审可抽查复跑）；黄药师知悉 `.kdo/search_index.json` 已增量至 4285 条无需全量重建；Eason 方法论卡如需开产须老朱明确域边界授权后另开单。
+**边界**：①外部检索三通道故障，外部验证以 curl 直连 L1 存在性+标题核对为主、学理对齐 L2 为辅—— Sam Altman 博客为域级验证（具体篇目未逐篇定位，卡内已标「引用具体表述需回源」）、Weave 项目页 403 反爬（存在性本会话未能独立复核，卡内如实标注 ⚠️，间接旁证=TED 官方页提及）；②lobster/agent-university 为内部设想稿，按返工清单豁免口径以「无外部独立源+学理对齐 L2 替代+层级标注」处理，未冒充产品实证；③初版报告边界继承不变：Eason 实事求是卡跳过不产（涉老朱域+CHO 私有密级）、BV 逐字稿 7 件归 #586b（英文 ASR 差+SPIN 撞车）、jovida.ai 直接抓取待复核（卡内已标，GitHub API 旁路可验项已验）、Live257 文案库段为采样消费（case 卡边界节已声明）。
+
+**需要谁动作**：欧阳锋终审本单返工（重点复核 4 张卡「外部验证」节的层级标注是否符合豁免口径、dk-brooks 三节、deep-debug frontmatter）；黄药师知悉 search_index 已增量（4285→4291 条）。
 
 ## 机器预审报告
 

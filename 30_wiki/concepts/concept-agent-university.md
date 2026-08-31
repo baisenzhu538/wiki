@@ -27,7 +27,6 @@ source_context:
 source_refs:
 - 00_inbox/学习candy合集/设想：Agent大学——让你的Agent来一堂进修.md
 related:
-- '[[concept-agent-university-observation]]'
 - '[[framework-lobster-opt-one-person-team]]'
 - '[[framework-muse-ai-full-map-v1]]'
 - '[[method-key-assumption-abcd]]'
@@ -137,6 +136,20 @@ Agent Passport（入学档案——**承认每个 Agent 已有人格和历史**�
 |:--|:--|:--|
 | 作为已存在产品的引用 | 设想稿未上线，所有能力是设计意图 | 标注"设想"引用，或引 KDO 实证卡替代 |
 | 硬技能教学（编程/数学） | 设想的方法论协议针对商业判断场景 | 针对性训练+评测基准（SWE-bench 类） |
+
+## 外部验证
+
+> 终审返工补节（#586 返工项 5，2026-09-01 老顽童）。外部检索通道（web_search/web_extract）本会话故障，验证以 curl 直连锚点实测。
+
+**来源性质降级声明**：本卡素材为内部产品设想稿（2026-07-17，非上线产品），**无外部独立源可验证其产品主张**——按返工清单口径以「学理对齐 L2」作替代验证并标注层级。设想稿自述的「市场四类格局」属其外部摸查部分，下表对可独立锚定的类目逐条验证：
+
+| 锚点 | 层级 | 实测结果 | 验证什么 |
+|:--|:--|:--|:--|
+| Anthropic Agent Skills 官方文档（`docs.claude.com/en/docs/agents-and-tools/agent-skills`） | L1 原始源 | ✅ HTTP 200（2026-09-01 curl 实测） | 第三类「Skill/插件市场」官方实证——「给 Agent 装 App」的安装范式真实存在，本卡批判的对象不是稻草人 |
+| SWE-bench 官网（`swebench.com`） | L1 原始源 | ✅ HTTP 200（2026-09-01 curl 实测） | 「硬技能教学用针对性训练+评测基准」替代方案的业界先例——五级毕业制的 Rubric 思路与评测基准驱动的能力验证同族 |
+| Anthropic《Building Effective Agents》（`anthropic.com/engineering/building-effective-agents`） | L2 学理对齐 | ✅ HTTP 200（2026-09-01 curl 实测） | 「工具型 vs 管理型」区分与业界「工作流 vs Agent」光谱分析学理对齐 |
+| Sam Altman 博客（`blog.samaltman.com`，「一人公司可达十亿美元量级」公开论述的出处域） | L1 原始源 | ✅ HTTP 200（2026-09-01 curl 实测域级；具体篇目本会话未逐篇定位，引用具体表述时需回源） | 「个体+AI 团队」叙事的头部产业信号——OPT/Agent 大学设想的同源市场情绪 |
+| 第四类「个人化持续进化 Agent+认证体系」市场空缺 | — | ⚠️ 本会话检索通道故障未能穷证 | 「空缺即定位」是设想稿核心赌注：空缺可能是蓝海也可能是伪需求——引用保留此不确定性标注 |
 
 ## Constraints & Boundaries
 
