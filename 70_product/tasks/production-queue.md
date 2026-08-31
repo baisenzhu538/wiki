@@ -449,7 +449,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~00_inbox/video_transcripts_small/BV1kp4y1v7p9_p2-逐字稿.md~~ → 撞车划销（2026-09-01 02:1x 王语嫣）：faster-whisper-small 重转写双采，与 video_transcripts/p2（tiny 版）同视频同内容（开头逐字一致实测），诊断沿用 01:12 拍 big 版结论（BV1kp4y1v7p9 三采撞车三取一以 p1 为准），不单独立项｜P2｜18789B｜检测到 08-31 17:41｜待王语嫣编排
 - ~~00_inbox/video_transcripts_small/BV1kp4y1v7p9_p3-逐字稿.md~~ → 撞车划销（2026-09-01 02:1x 王语嫣）：同上重转写双采，同视频 p3（tiny 版）已在册三采撞车族，五取一以 video_transcripts/p1 为准，不单独立项｜P2｜18397B｜检测到 08-31 17:41｜待王语嫣编排
 - ~~00_inbox/video_transcripts_small/BV1rp4y1e76Y-逐字稿.md~~ → 撞车划销（2026-09-01 02:1x 王语嫣）：faster-whisper-small 重转写双采，与 video_transcripts/BV1rp4y1e76Y（tiny 版）同演讲同内容（开头逐字一致实测），诊断沿用 01:12 拍（芝加哥大学 class day 演讲，与 BV1ug411i7bH 双采双取一以本件 big 版为准），不单独立项｜P2｜34305B｜检测到 08-31 17:51｜待王语嫣编排
-- 00_inbox/video_transcripts_small/BV1ug411i7bH-逐字稿.md｜P2｜33578B｜检测到 08-31 18:01｜待王语嫣编排
+- ~~00_inbox/video_transcripts_small/BV1ug411i7bH-逐字稿.md｜P2｜33578B｜检测到 08-31 18:01｜待王语嫣编排~~ → 撞车划销（2026-09-01 02:08 王语嫣）：芝加哥大学 class day 演讲的 faster-whisper-small 重转写版（开头逐字确认同源）——tiny 版双采已于 01:12 划销（BV1rp4y1e76Y+BV1ug411i7bH），本件为同族 small 重跑，非新素材，不单独立项
 
 <!-- INBOX-PENDING-END -->
 
