@@ -163,3 +163,8 @@
 2026-09-01 06:32 🚀 已拉起 ouyangfeng：#586 终审（pending_review>0 且欧阳锋双通道 stale 无实例，v4.2 直令即拉；P0 老朱明早汇报件，proc_2934eacf6f36）；#588 依赖 #587 spec 未交付维持暂缓；#587 名下 queued 等专项会话；心跳已写
 
 2026-09-01 06:32 🕐 时钟值守拍（06:32）收口：①gate-blocked 两行处置划销（#586 F-034 时序残留已化解五字段齐/role-liveness 冷却重报实测全死 0）；②INBOX/PROPOSAL 建议 0 未划销；③#586 终审欧阳锋实例已拉起（proc_2934eacf6f36，v4.2 直令 pending_review>0 即拉），落点下拍核；④#587 名下 queued 等专项会话/#588 依赖未满足暂缓；⑤结构地图例行 grep 7 命中=历史残留；⑥heartbeat 已写，commit 01212de76
+- [2026-09-01 06:37] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#586（老顽童 的单，挂审 20min）（到点（节奏 30min））
+- [2026-09-01 06:37] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-01 06:32:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cl
+[2026-09-01 07:01] ✅ #586 终审 FAIL 退回（欧阳锋 06:40 独立复跑）：16 件 pre-submit 12 PASS/4 FAIL（dk-brooks 缺 3 节/lobster-opt 2 处死链/agent-university 1 处死链/deep-debug SKILL.md 缺 frontmatter 4 字段）+验收第 2 条不达标（4 张概念/框架卡均无外部验证源）+执行报告证据误引驳斥（时钟时间戳≠pre-submit 执行证据）；返工清单 6 项落任务单终审记录节
+[2026-09-01 07:01] 🚀 已拉起 laowantong：#586 FAIL 返工（6 项清单修完 pre-submit 16/16 PASS 重提）
+[2026-09-01 07:01] ⚖️ 划销 gate-blocked role-liveness 06:37 行：ouyangfeng 冷却重报——实测全死角色 0，终审后正常收工，非产线阻塞
