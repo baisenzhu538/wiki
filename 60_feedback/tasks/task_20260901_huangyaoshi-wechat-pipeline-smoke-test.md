@@ -2,7 +2,7 @@
 id: '585'
 title: wechat 采集管线 smoke 测试最小护栏（扣分点2：管线修复无自动化回归断言）
 type: task
-status: queued
+status: in_progress
 priority: P2
 assignee: 黄药师
 created_by: 王语嫣
@@ -11,6 +11,8 @@ source_refs:
 - 60_feedback/tasks/task_20260831_huangyaoshi-wechat-pipeline-llm-fix.md
 - kdo-tools/wechat_knowledge.py
 related: '#584'
+instance: huangyaoshi
+updated_at: '2026-08-31T17:54:23.926878+00:00'
 ---
 
 # #585 wechat 管线 smoke 测试最小护栏
