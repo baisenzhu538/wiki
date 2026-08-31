@@ -210,7 +210,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 
 | 582 | `task_20260831_laowantong-arui-science-sales-cards` | 阿蕊科学销售体系4卡：框架卡(AI落地六块基本功)/方法卡(业务场景三步拆解法)/case卡(猎头-AI角色随阶段切换)/情报卡(销售AIπ平台对标) | reviewed | laowantong | 4张卡 | 老朱0831直令 | `60_feedback/tasks/task_20260831_laowantong-arui-science-sales-cards.md` | 素材已抓取落inbox(公众号正文4篇2701-3935字)；欧阳锋终审 |
 | 583 | `task_20260831_huangyaoshi-mnemosyne-memory-cache-pilot` | Mnemosyne记忆缓存层试点+狗粮测试：50张真卡语料A/B查询集对比kdo query(命中率/召回/延迟/token4维)→试点场景三选一判定 | reviewed | huangyaoshi | 对比表+判定+diagnosis | 老朱0831直令 | `60_feedback/tasks/task_20260831_huangyaoshi-mnemosyne-memory-cache-pilot.md` | 王语嫣初测79.9%压缩已实证；词法检索弱项已标注；结论欧阳锋终审后进产线 |
-| 584 | `task_20260831_huangyaoshi-wechat-pipeline-llm-fix` | wechat-collect管线LLM空总结根因修复+回归（王语嫣已应急落地：max_tokens 1500→8192推理模型思考链爆预算+注册副本路径锚点修复，5卡重产已入pending-cards）：黄药师跑--all全量回归+双副本同步机制评估 | claimed-huangyaoshi | huangyaoshi | 回归+机制评估 | 王语嫣0831编排（22:09事故实证） | `60_feedback/tasks/task_20260831_huangyaoshi-wechat-pipeline-llm-fix.md` | 欧阳锋终审 |
+| 584 | `task_20260831_huangyaoshi-wechat-pipeline-llm-fix` | wechat-collect管线LLM空总结根因修复+回归（王语嫣已应急落地：max_tokens 1500→8192推理模型思考链爆预算+注册副本路径锚点修复，5卡重产已入pending-cards）：黄药师跑--all全量回归+双副本同步机制评估 | pending_review | huangyaoshi | 回归+机制评估 | 王语嫣0831编排（22:09事故实证） | `60_feedback/tasks/task_20260831_huangyaoshi-wechat-pipeline-llm-fix.md` | 欧阳锋终审 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
 ## ⚖️ 待终审（提审任务，queue_transition 自动登记）
@@ -393,6 +393,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#581 task_20260830_laowantong-private-board-conversion-case｜laowantong｜提审 08-30 22:50｜60_feedback/tasks/task_20260830_laowantong-private-board-conversion-case.md~~ → 已终审 PASS A-（2026-08-30 欧阳锋）
 - ~~#582 task_20260831_laowantong-arui-science-sales-cards｜laowantong｜提审 08-31 02:29｜60_feedback/tasks/task_20260831_laowantong-arui-science-sales-cards.md~~ → 已终审 PASS A-（2026-08-31 欧阳锋）
 - ~~#583 task_20260831_huangyaoshi-mnemosyne-memory-cache-pilot｜huangyaoshi｜提审 08-31 03:00｜60_feedback/tasks/task_20260831_huangyaoshi-mnemosyne-memory-cache-pilot.md~~ → 已终审 PASS A-（2026-08-31 欧阳锋；双实例独立印证一致，交叉印证补记+O3量具发现见任务单「## 终审记录」节）
+- #584 task_20260831_huangyaoshi-wechat-pipeline-llm-fix｜黄药师｜提审 08-31 23:37｜60_feedback/tasks/task_20260831_huangyaoshi-wechat-pipeline-llm-fix.md
 
 <!-- REVIEW-PENDING-END -->
 
@@ -588,6 +589,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~[gate-blocked] diag_20260826_ouyangfeng-feature-json-mojibake.md｜08-31 02:17｜待王语嫣复核处置｜2026-08-31 02:17:01｜diag_20260826_ouyangfeng-feature-json-mojibake.md｜near-miss-三元组（#506）｜type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）｜conveyor_probe~~ → 垃圾残片划销（08-31 02:35 王语嫣）：02:00 事故恢复自 bundle 的 gate-blocked 旧台账行（实际拦截均已在 08-23~08-27 逐条处置闭环），02:17 风清扬审计重启被 E040 误重登（未做登记去重防 00_inbox 只增不删铁律）——根因修复挂 #562 任务3
 - ~~[gate-blocked] task_20260831_huangyaoshi-mnemosyne-memory-cache-pilot｜08-31 03:07｜待王语嫣复核处置｜2026-08-31 02:59:14｜task_20260831_huangyaoshi-mnemosyne-memory-cache-pilot｜F-034-五字段｜任务单缺少「## 执行报告」节（#429 F-034：交付必须落执行报告，口头完成=未完成；#444：evidence 附件不能替代）｜huangyaoshi~~ → 已化解（2026-08-31 03:30 王语嫣）：实核任务单执行报告已落盘（黄药师完工时补齐五字段）且 #583 已终审 PASS A- 双实例印证——时序窗口残留，划销
 - ~~[gate-blocked] diag_20260831_huangyaoshi-mnemosyne-dogfood.md｜08-31 03:07｜待王语嫣复核处置｜2026-08-31 03:07:01｜diag_20260831_huangyaoshi-mnemosyne-dogfood.md｜near-miss-三元组（#506）｜status=REVIEW-PENDING 疑似待编排但非 pending_orchestration｜conveyor_probe~~ → 已化解（2026-08-31 03:30 王语嫣）：该诊断已欧阳锋终审 PASS A- 闭环（queue 状态 reviewed），near-miss 三元组为 status 口径误配非真待编排，划销
+- [gate-blocked] task_20260831_huangyaoshi-wechat-pipeline-llm-fix｜08-31 23:37｜待王语嫣复核处置｜2026-08-31 23:36:32｜task_20260831_huangyaoshi-wechat-pipeline-llm-fix｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生 / - 未提交改动: kdo-tools/wechat_knowledge.py / - 未提交改动: 40_out｜huangyaoshi
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |

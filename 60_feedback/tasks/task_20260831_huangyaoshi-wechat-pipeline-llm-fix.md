@@ -2,16 +2,17 @@
 id: '584'
 title: wechat-collect 管线 DeepSeek 推理模型 max_tokens 修复 + 注册副本路径锚点修复
 type: bugfix
-status: in_progress
+status: pending_review
 priority: P1
 assignee: 黄药师
 created_by: 王语嫣
 created_at: 2026-08-31
-updated_at: '2026-08-31T15:36:31.401352+00:00'
+updated_at: '2026-08-31T15:37:10.998297+00:00'
 claimed_at: 2026-08-31
 source_refs:
 - 00_inbox/wechat-collect/_needs_rerun/_done-20260831/case-wechat-68004aecb3d913a5.reason.txt
 instance: huangyaoshi
+evidence: 60_feedback/tasks/task_20260831_huangyaoshi-wechat-pipeline-llm-fix.md
 ---
 
 # #584 wechat-collect 管线 LLM 空总结根因修复（已由王语嫣应急落地，本单做回归+固化）
