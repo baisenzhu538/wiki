@@ -121,3 +121,5 @@
 - [2026-09-01 01:47] ⚖️ KDO 已终审 1 单：#584（待部署/已闭环）
 - [2026-09-01 01:51] 📥 新素材 1 项（P0 0）：BV1rp4y1e76Y-逐字稿.md——请诊断编排（看板待编排段）
 [2026-09-01 02:00] 🌐 远程组网本机侧落地（老朱直令「先配置好这台电脑」）：①Tailscale 发现已接入老朱账号 tailnet（baisenzhu538@），本机=pc-202604161729=100.107.106.10，未重复安装；②kimi web 服务起在 0.0.0.0:58629（--no-open，token 鉴权，~/.kimi-code/server.token），127.0.0.1 和 Tailscale IP 两路实测 200；③持久化=计划任务 kdo-kimi-web（S4U 无窗，AtStartup，包 90_control/scripts/kimi-web-58629.bat，已 commit 5a93df667）；④当前 tailnet 仅此一台设备在线——设计师电脑/家用设备装 Tailscale 登同账号即互通
+- [2026-09-01 02:01] 📥 新素材 1 项（P0 0）：BV1ug411i7bH-逐字稿.md——请诊断编排（看板待编排段）
+[2026-09-01 02:20] 🕐 时钟值守拍（02:20）：INBOX-PENDING 补漏 3 行划销——video_transcripts_small p2/p3/BV1rp4y1e76Y 三件=faster-whisper-small 重转写双采（文件头转写器标记+开头逐字一致实测），撞车划销诊断沿用 big 版（01:12/01:40 拍已录），五取一以 video_transcripts/p1 与 BV1rp4y1e76Y big 版为准；PROPOSAL-PENDING 0 未划销；结构地图例行单搜 7 命中=同名单历史残留（6 单无结构地图节，#572 已裁定）；产线 #585 pending_review（09-01 01:59 黄药师提审，#584 终审扣分点转办），欧阳锋 kimi-cli 心跳 0min 前在岗等终审，下拍核落点；四角色心跳全新鲜无 queued 可领不拉起；心跳已写

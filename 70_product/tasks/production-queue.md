@@ -446,9 +446,10 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~00_inbox/学习candy合集/调研：Jovida AI竞争力双三角洞察报告.md｜P2｜17946B｜检测到 08-31 17:31｜待王语嫣编排~~ → 已处置（2026-09-01 01:40 王语嫣）：目录迁移重登记——同名同字节（17946B）实证，诊断沿用（双三角模型，#539 同族），非新素材
 - ~~00_inbox/学习candy合集/调研：Jovida 深度产品调研报告.md｜P2｜12795B｜检测到 08-31 17:31｜待王语嫣编排~~ → 已处置（2026-09-01 01:40 王语嫣）：目录迁移重登记——同名同字节（12795B）实证，诊断沿用（Jovida 调研与双三角同源），非新素材
 - ~~00_inbox/学习candy合集/顶层：我对WAIC的顶层思考和学习框架.md｜P2｜11327B｜检测到 08-31 17:31｜待王语嫣编排~~ → 已处置（2026-09-01 01:40 王语嫣）：目录迁移重登记——同名同字节（11327B）实证，诊断沿用（strategy，WAIC 顶层框架），非新素材
-- 00_inbox/video_transcripts_small/BV1kp4y1v7p9_p2-逐字稿.md｜P2｜18789B｜检测到 08-31 17:41｜待王语嫣编排
-- 00_inbox/video_transcripts_small/BV1kp4y1v7p9_p3-逐字稿.md｜P2｜18397B｜检测到 08-31 17:41｜待王语嫣编排
-- 00_inbox/video_transcripts_small/BV1rp4y1e76Y-逐字稿.md｜P2｜34305B｜检测到 08-31 17:51｜待王语嫣编排
+- ~~00_inbox/video_transcripts_small/BV1kp4y1v7p9_p2-逐字稿.md~~ → 撞车划销（2026-09-01 02:1x 王语嫣）：faster-whisper-small 重转写双采，与 video_transcripts/p2（tiny 版）同视频同内容（开头逐字一致实测），诊断沿用 01:12 拍 big 版结论（BV1kp4y1v7p9 三采撞车三取一以 p1 为准），不单独立项｜P2｜18789B｜检测到 08-31 17:41｜待王语嫣编排
+- ~~00_inbox/video_transcripts_small/BV1kp4y1v7p9_p3-逐字稿.md~~ → 撞车划销（2026-09-01 02:1x 王语嫣）：同上重转写双采，同视频 p3（tiny 版）已在册三采撞车族，五取一以 video_transcripts/p1 为准，不单独立项｜P2｜18397B｜检测到 08-31 17:41｜待王语嫣编排
+- ~~00_inbox/video_transcripts_small/BV1rp4y1e76Y-逐字稿.md~~ → 撞车划销（2026-09-01 02:1x 王语嫣）：faster-whisper-small 重转写双采，与 video_transcripts/BV1rp4y1e76Y（tiny 版）同演讲同内容（开头逐字一致实测），诊断沿用 01:12 拍（芝加哥大学 class day 演讲，与 BV1ug411i7bH 双采双取一以本件 big 版为准），不单独立项｜P2｜34305B｜检测到 08-31 17:51｜待王语嫣编排
+- 00_inbox/video_transcripts_small/BV1ug411i7bH-逐字稿.md｜P2｜33578B｜检测到 08-31 18:01｜待王语嫣编排
 
 <!-- INBOX-PENDING-END -->
 
