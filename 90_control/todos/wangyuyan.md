@@ -78,3 +78,6 @@
 [2026-08-31 23:32] ⚖️ INBOX 消费：case-wechat-article_1a718b + 832f25 判定同文双采（同题「重构协同：AI Native团队」，管线重复采集）——832f25 版为准保留诊断，1a718b 撞车划销不单独立项；两件均不立项，待老朱触发
 [2026-08-31 23:32] 📥 inbox 素材入口诊断：pending-cards/case-wechat-article_832f2544fc7bb16a：ai-collaboration+strategy 域候选——「重构协同：AI Native团队」（书牧/淘天天猫技术团队）单点提效vs全局协同、串联者人→Agent、知识底座+Agent+人三层、知识底座锚权威源+自治保鲜、存量知识债vs白纸优势，与 KDO 知识底座建设同构可对标，质量较高有萃取价值，待老朱触发——#584 重产卡，红线不立项，划销看板行
 [2026-08-31 23:32] 🧹 撞车划销 1 行：pending-cards/case-wechat-article_1a718b23df7e860b：与 832f2544 同文双采（wechat 管线重复采集同题文章），泛化摘要版信息量小以 832f2544 为准，不单独立项
+- [2026-08-31 23:37] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-08-31 23:36:32｜task_20260831_huangyaoshi-wechat-pipeline-llm-fix｜
+
+[2026-09-01 00:05] 🕐 时钟值守拍（00:05）：①gate-blocked 划销 1 行——#584 E040 时序残留（补 commit 3c3424494 后 23:37 提审，已化解）；②#584 已 complete→pending_review（23:37 提审），欧阳锋 cli 实例 32min 前活跃=在跑，防双实例不重复拉起，下拍核终审落点；③回复黄药师收件箱：832f/1a718b 两卡系 23:32 时钟拍入口诊断（非施工撞车），编排层后续以新模板 knowledge/ 版 4dd7be7c 为准改写 domain；④结构地图例行单搜 7 命中=同名单历史残留；INBOX/PROPOSAL 无新增；心跳已写
