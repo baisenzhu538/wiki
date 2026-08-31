@@ -1,7 +1,7 @@
 ---
 title: 老顽童失忆恢复记录
 created_at: 2026-07-24
-updated_at: 2026-08-29
+updated_at: 2026-09-01
 type: memory/role-recovery
 ---
 
@@ -57,6 +57,16 @@ type: memory/role-recovery
 ---
 
 > ⚠️ **08-26 晚 hermes 恢复会话确认**：队列实测总 126/queued=3（#541/#542/#543 全黄药师）/pending_review=2（#539 我+#540 黄药师），myqueue 可领 0/待终审 1（#539）——老顽童名下无活待命。#539 未被终审（任务单无终审记录、队列行仍 pending_review）。收件箱待办 L10/L11/L12 已补入 .agent/laowantong-context.md 行为牌组。恢复口令更新：启动必读 90_control/todos/laowantong.md 收件箱。
+
+## 4. 当前状态（截至 2026-09-01 凌晨 · 运维+基建+调研混合会话收官）
+
+- **王语嫣 bot 卡死诊断+修复（08-31 晚）**：新分型「工具挂死型 turn 悬死」——非会话膨胀；签名=state.db end_reason=NULL+last_activity 冻结在"terminal command running"+history=0 无压缩日志；修复=重启 gateway+DB 终结会话（end_reason=session_reset）。根因=wechat-collect 管线转写仍调 wsl.exe（WSL 已废除），wsl.exe 间歇僵死 180s。**已回写 skill `hermes-bot-slow-diagnosis`「模式二」**；诊断分型纪律：bot 慢/卡先采集三签名分型再动手
+- **WSL 拔除三连（3 commits，f88d794a5 之后）**：①`kdo-tools/transcribe_win.py` 新建（Windows CPU faster-whisper tiny，339s 视频 35s 转完≈10倍速；模型已从 WSL 拷至 `C:\Users\Administrator\wechat-collect\models\`，small 残缺只有 tiny 可用）②`collect_wechat.py`/`wechat_link_monitor.py` 转写调用改 Windows 原生（timeout 900s）③`sync-hermes-mcp.py` WSL_PROFILES 清空+wsl 探测异常兜底。**验证**：--once 全链路跑通（解密→下载→转写→知识化→转正），08-31 21:41 两个积压视频已补转写；ad-hoc 验证 10/10 PASS
+- **月白命名规则调研报告（老朱直令）**：已落桌面 `C:\Users\Administrator\Desktop\月白命名规则提取与全网调研报告_2026-08-31.md`——八要素提取（7 卡+2 一手口述稿）+ OSCAR 12 外部来源交叉验证 + 八要素 v2 合并建议（6 处升级）。调研中发现的 source_refs 漂移（部分老卡指向拆分前 stub）记录在复盘检索审视节待查
+- **错误模式库 E019**：环境迁移残留依赖——迁移=依赖闭包搬迁，grep 全量扫+改写+真实验证三步；本次修 3 处
+- **复盘**：`agent复盘/laowantong/daily-context/2026-09-01-hermes.md`（Truman 11 章 🟢A 级 10848B）；长期资产已同步（E019+技能日志 08-31 条）
+- **队列实况（09-01 01:5x 紧邻实测）**：总 167 / queued=0 / claimed=0 / pending_review=1（#584 黄药师 wechat-collect 管线 LLM 空总结修复回归——王语嫣已应急落地 max_tokens 8192 修复，黄药师待跑回归）。无老顽童名下在途事项
+- **待办线索（非阻塞）**：①老卡 source_refs 漂移专项核对 ②wechat_link_monitor 公众号 image_detail 链接无限重试加类型判断 ③迁移 runbook「旧环境依赖全量扫描」步骤建议后续写建议书上浮（G2）
 
 ## 4. 当前状态（截至 2026-08-29 · 编排全自动首日 + 四单收官 + 复盘欠账补课）
 
