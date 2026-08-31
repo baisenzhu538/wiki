@@ -32,3 +32,28 @@
 
 [2026-08-31 04:40] ⚖️ 裁定 #531 W10 domain 归属：主域 strategy 维持；辅域 ai-saas 剔除（实测不在 domain-mapping.md 枚举，四处登记全无=幽灵域，报告「已枚举」系误报）——5 卡一行勘误传老顽童下批执行，不碰封闭单
 [2026-08-31 04:40] ✅ 02:15 事故待办闭环：备份 bundle verify PASS（D:/KDO-memory/wiki-bundle-20260831-0215.bundle 2.3GB 完整历史 sha1 ok，HEAD=2764248716）；l1-capture「停拍 5979min」误报确认化解——03:07/03:37/04:07 三拍连续写入（167.3→169.9MB），根因系 wiki 内 l1-size.log 被事故恢复回滚到 bundle 快照，日志线本身健康，不立项
+[2026-08-31 06:32] 🕐 时钟值守拍（06:25-06:32）全清：INBOX-PENDING 6 行全划销/PROPOSAL-PENDING 0 未划销；产线 queued·claimed·pending_review 全 0，三角色无可领不拉起；L1 173.7→56.3MB 骤降核实=06:00 例行日轮转归档（2026-08-30.zip 落盘+归档健康），非异常；#562 整单已终审 PASS A（liveness 任务2/3 随单闭环）；near-miss 2 件=已处置已知件（mojibake retracted 合法终态/mnemosyne REVIEW-PENDING 审查态误配启发式），探针 state 幂等不扩登记；心跳已写
+[2026-08-31 08:01] 🕐 时钟值守拍（07:30-08:01 拍）：全清——PROPOSAL-PENDING 0 未划销/INBOX-PENDING 0 未划销；结构地图例行单搜 6 命中=同名单历史残留（均无「## 结构地图」节，老单冻结不回注）；产线 queued·claimed·pending_review 全 0，三角色无可领不拉起；_arui 两行 staged 删除核实=采集线 txt→json 换格式正常替换（art_0..3+real_urls.json 02:06 均在盘），非事故复发；心跳已写
+[2026-08-31 08:31] 🕐 时钟值守拍（08:31）：全清——PROPOSAL-PENDING 0 未划销/INBOX-PENDING 0 未划销；结构地图例行单搜 6 命中=同名单历史残留（短语均在已闭环单叙述内，无「## 结构地图」节，老单冻结不回注；#531 W10 已 04:40 裁定）；产线 queued·claimed·pending_review 全 0，三角色无可领不拉起；心跳已写
+[2026-08-31 09:01] 🕐 时钟值守拍（09:01）：全清——PROPOSAL-PENDING 0 未划销/INBOX-PENDING 0 未划销；结构地图例行单搜 7 命中=同名单历史残留（6 单无结构地图节，#572 已有裁定节均闭环）；产线 queued·claimed·pending_review 全 0，三角色无可领不拉起；#583 终审 PASS A- 闭环已记（03:17）；心跳已写
+
+[2026-08-31 11:01] 🕐 时钟值守拍（11:01）：全清——PROPOSAL-PENDING 0 未划销/INBOX-PENDING 0 未划销；结构地图例行单搜 7 命中=同名单历史残留（6 单无结构地图节，#572 已有裁定节均闭环）；产线 queued·claimed·pending_review 全 0，三角色无可领不拉起；心跳已写
+
+[2026-08-31 11:31] 🕐 时钟值守拍（11:31）：全清——PROPOSAL-PENDING 0 未划销/INBOX-PENDING 0 未划销；结构地图例行单搜 7 命中=1 单含节已裁定（#572 第 107 行裁定节在）+6 单历史残留（无结构地图节，老单冻结不回注）；产线 queued·claimed·pending_review 全 0，三角色无可领不拉起；心跳已写
+[2026-08-31 12:31] 🕐 时钟值守拍（12:31）：全清——PROPOSAL-PENDING 0 未划销/INBOX-PENDING 0 未划销；结构地图例行单搜 7 命中=同名单历史残留（6 单无结构地图节+1 单 #572 已裁定，老单冻结不回注）；产线 queued·claimed·pending_review 全 0，三角色无可领不拉起；心跳已写
+[2026-08-31 13:31] 🕐 时钟值守拍（13:31）：全清——PROPOSAL-PENDING 0 未划销/INBOX-PENDING 0 未划销；结构地图例行单搜 7 命中=同名单历史残留（6 单无结构地图节，#572 已裁定节在，老单冻结不回注）；产线 queued·claimed·pending_review 全 0，三角色无可领不拉起；#577 退回后已复终审 PASS A-、#578 同样闭环（48h 面可见），无新落点变化；心跳已写
+[2026-08-31 14:01] 🕐 时钟值守拍（14:01）：全清——PROPOSAL-PENDING 0 未划销/INBOX-PENDING 0 未划销；结构地图例行单搜 7 命中=同名单历史残留（6 单无结构地图节，#572 已裁定节在，老单冻结不回注）；产线 queued·claimed·pending_review 全 0，三角色无可领不拉起；心跳已写
+[2026-08-31 14:31] 🕐 时钟值守拍（14:31）：全清——PROPOSAL-PENDING 0 未划销/INBOX-PENDING 0 未划销；结构地图例行单搜 7 命中=同名单历史残留（6 单无结构地图节，#572 已裁定节在，老单冻结不回注）；产线 queued·claimed·pending_review 全 0，三角色无可领不拉起；心跳已写
+[2026-08-31 15:02] 🕐 时钟值守拍（15:02）：全清——PROPOSAL-PENDING 0 未划销/INBOX-PENDING 0 未划销；结构地图例行单搜 7 命中=同名单历史残留（6 单无结构地图节，#572 已裁定节在，老单冻结不回注）；产线 queued·claimed·pending_review 全 0，三角色无可领不拉起；心跳已写
+
+[2026-08-31 15:31] 🕐 时钟值守拍（15:31）：全清——PROPOSAL-PENDING 0 未划销/INBOX-PENDING 0 未划销；结构地图例行单搜 7 命中=同名单历史残留（6 单无结构地图节，#572 已裁定节在，老单冻结不回注）；产线 queued·claimed·pending_review 全 0，三角色无可领不拉起；心跳已写
+[2026-08-31 16:01] 🕐 时钟值守拍（16:01）：全清——PROPOSAL-PENDING 0 未划销/INBOX-PENDING 0 未划销；结构地图例行单搜 7 命中=同名单历史残留（6 单无结构地图节，#572 已裁定节在，老单冻结不回注）；产线 queued·claimed·pending_review 全 0，三角色无可领不拉起；心跳已写
+[2026-08-31 16:31] 🕐 时钟值守拍（16:31）：全清——PROPOSAL-PENDING 0 未划销/INBOX-PENDING 0 未划销；结构地图例行单搜 7 命中=同名单历史残留（6 单无结构地图节，#572 已裁定节在，老单冻结不回注）；产线 queued·claimed·pending_review 全 0，三角色无可领不拉起；心跳已写
+[2026-08-31 17:02] 🕐 时钟值守拍（17:02）：全清——PROPOSAL-PENDING 0 未划销/INBOX-PENDING 0 未划销；结构地图例行单搜 7 命中=同名单历史残留（6 单无结构地图节，#572 已裁定节在，老单冻结不回注）；产线 queued·claimed·pending_review 全 0，三角色无可领不拉起；心跳已写
+[2026-08-31 17:32] 🕐 时钟值守拍（17:32）：全清——PROPOSAL-PENDING 0 未划销/INBOX-PENDING 0 未划销；结构地图例行单搜 7 命中=同名单历史残留（6 单无结构地图节，#572 已裁定节在，老单冻结不回注）；产线 queued·claimed·pending_review 全 0，三角色无可领不拉起；心跳已写
+[2026-08-31 18:01] 🕐 时钟值守拍（18:01）：全清——PROPOSAL-PENDING 0 未划销/INBOX-PENDING 0 未划销；结构地图例行单搜 7 命中=同名单历史残留（6 单无结构地图节，#572 已裁定节在，老单冻结不回注）；产线 queued·claimed·pending_review 全 0，三角色无可领不拉起；心跳已写
+[2026-08-31 18:31] 🕐 时钟值守拍（18:31）：全清——PROPOSAL-PENDING 0 未划销/INBOX-PENDING 0 未划销；结构地图例行单搜 7 命中=同名单历史残留（6 单无结构地图节，#572 已裁定节在，老单冻结不回注）；产线 queued·claimed·pending_review 全 0，三角色无可领不拉起；心跳已写
+
+[2026-08-31 19:01] 🕐 时钟值守拍（19:01）：全清——PROPOSAL-PENDING 0 未划销/INBOX-PENDING 0 未划销；结构地图例行单搜 7 命中=同名单历史残留（6 单无结构地图节，#572 已裁定节在，老单冻结不回注）；产线 queued·claimed·pending_review 全 0，三角色无可领不拉起；心跳已写
+[2026-08-31 19:30] 🕐 时钟值守拍（19:30）：全清——PROPOSAL-PENDING 0 未划销/INBOX-PENDING 0 未划销；结构地图例行单搜 7 命中=同名单历史残留（6 单无结构地图节，#572 已裁定节在，老单冻结不回注）；产线 queued·claimed·pending_review 全 0，三角色无可领不拉起；心跳已写
+[2026-08-31 20:00] 🕐 时钟值守拍（20:00）：全清——PROPOSAL-PENDING 0 未划销/INBOX-PENDING 0 未划销；结构地图例行单搜 7 命中=同名单历史残留（6 单无结构地图节，#572 已裁定节在，老单冻结不回注）；产线 queued·claimed·pending_review 全 0，三角色无可领不拉起；心跳已写
