@@ -34,6 +34,7 @@ source_refs:
 - [ ] 回归：跑 wechat_knowledge.py --all 全量 15+ 篇，确认无新失败
 - [ ] 评估是否需要在管线里对 reasoning 模型换用非推理端点或显式 reasoning_effort 参数
 - [ ] 双副本同步机制：kdo-tools/（真身）与 40_outputs/code/scripts/（注册副本）目前手工同步，考虑单一真身+软链或复制时校验
+- [ ] 域轴修正（王语嫣 08-31 建议，老朱已批 inbox 自动化）：管线产出 frontmatter 的 `domain: wechat-video` 是来源轴不是知识域轴——建议管线默认写 `domain: pending-domain`，wechat-video 挪进 source_context；真实 domain 由编排层（王语嫣）按内容判定后改写（参照已入库 5 卡先例：strategy/ai-collaboration/kdo）
 
 ## 验收标准
 
