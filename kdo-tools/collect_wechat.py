@@ -16,7 +16,7 @@
   ③ TikHub API（--author，需 TIKHUB_API_TOKEN env）——博主定向备选
 
 架构:
-  Windows CLI 控制 + WSL GPU 转写（faster-whisper，WSL 无 agent 但工具可用）
+  Windows 原生管线：CLI 控制 + Windows faster-whisper CPU 转写（2026-08-31 从 WSL 迁出，WSL 已废除）
 """
 import argparse
 import json
@@ -164,13 +164,15 @@ def _win_to_wsl(p: Path) -> str:
 
 
 def transcribe_video(video_path: Path, output_md: Path) -> bool:
-    """通道：调用 WSL faster-whisper（GPU）转写。"""
-    wsl_video = _win_to_wsl(video_path)
-    wsl_out = _win_to_wsl(output_md)
-    cmd = ["wsl", "-e", "bash", "-c",
-           f"python3 {WSL_WHISPER} \"{wsl_video}\" \"{wsl_out}\""]
+    """通道：Windows 原生 faster-whisper（CPU）转写。
+
+    2026-08-31 迁移：五绝已全量 Windows 侧，WSL 废除。
+    旧 WSL 通道（wsl -e bash ...）在 wsl.exe 僵死时会把调用方挂死 180s+（王语嫣 turn 卡死实证）。
+    """
+    win_script = WIKI / "kdo-tools" / "transcribe_win.py"
+    cmd = [sys.executable, str(win_script), str(video_path), str(output_md)]
     try:
-        r = subprocess.run(cmd, capture_output=True, timeout=600)
+        r = subprocess.run(cmd, capture_output=True, timeout=900)
         if r.returncode == 0 and output_md.exists():
             return True
         print(f"  ⚠️ 转写失败: {r.stderr.decode('utf-8', errors='replace')[-200:]}")

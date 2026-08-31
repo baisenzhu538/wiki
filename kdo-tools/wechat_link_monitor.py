@@ -5,7 +5,7 @@
   手机转发链接到文件传输助手 → PC 微信数据库（SQLCipher 4）
   → 本脚本：解密+读文件传输助手消息 → 提取视频号链接
   → 调本地 wx_channels_download parse_sph（元宝 Cookie）拿直链
-  → 下载 mp4 → WSL faster-whisper 转写 → LLM 三层次知识化
+  → 下载 mp4 → Windows faster-whisper 转写（2026-08-31 迁出 WSL）→ LLM 三层次知识化
   → 全部产物落 00_inbox/wechat-collect/（铁律：第一站 inbox，未经处理不入库）
 
 用法:
@@ -16,7 +16,7 @@
 依赖:
   - wx_channels_download 本地服务: http://127.0.0.1:2022（config.yaml cloudflare.sphCookie 已配）
   - wechat-decrypt 密钥: C:\\Users\\Administrator\\wechat-decrypt\\build_keys.py 的 passphrase
-  - WSL 转写: /home/dministrator/wechat-collect/transcribe.py
+  - Windows 转写: kdo-tools/transcribe_win.py（模型 C:/Users/Administrator/wechat-collect/models/）
 """
 import argparse
 import hashlib
@@ -410,15 +410,10 @@ def scan_downloaded_videos() -> int:
         print(f"🎬 发现下载器产物: {v.name}（{v.stat().st_size//1024//1024}MB）")
         stem = hashlib.md5(v.name.encode()).hexdigest()[:16]
         out_md = INBOX_DIR / f"src_wechat_{stem}.md"
-        wsl_v = str(v).replace("\\", "/")
-        import re as _re
-        m = _re.match(r"^([A-Za-z]):/(.*)$", wsl_v)
-        wsl_v = f"/mnt/{m.group(1).lower()}/{m.group(2)}" if m else wsl_v
-        wsl_out = str(out_md).replace("\\", "/")
-        m2 = _re.match(r"^([A-Za-z]):/(.*)$", wsl_out)
-        wsl_out = f"/mnt/{m2.group(1).lower()}/{m2.group(2)}" if m2 else wsl_out
-        cmd = ["wsl", "-e", "bash", "-c", f"python3 /home/dministrator/wechat-collect/transcribe.py \"{wsl_v}\" \"{wsl_out}\""]
-        r = subprocess.run(cmd, capture_output=True, timeout=600)
+        # 2026-08-31 迁移：Windows 原生转写（WSL 已废除，wsl.exe 僵死会挂死调用方）
+        win_script = WIKI / "kdo-tools" / "transcribe_win.py"
+        cmd = [sys.executable, str(win_script), str(v), str(out_md)]
+        r = subprocess.run(cmd, capture_output=True, timeout=900)
         if r.returncode == 0 and out_md.exists():
             print(f"  ✅ 转写完成: {out_md}")
             kscript = WIKI / "kdo-tools" / "wechat_knowledge.py"
@@ -499,16 +494,11 @@ def main():
         if not download(info["url"], video_file):
             continue
         # 转写 → inbox
-        wsl_v = str(video_file).replace("\\", "/")
-        import re as _re
-        m = _re.match(r"^([A-Za-z]):/(.*)$", wsl_v)
-        wsl_v = f"/mnt/{m.group(1).lower()}/{m.group(2)}" if m else wsl_v
         out_md = INBOX_DIR / f"src_wechat_{stem}.md"
-        wsl_out = str(out_md).replace("\\", "/")
-        m2 = _re.match(r"^([A-Za-z]):/(.*)$", wsl_out)
-        wsl_out = f"/mnt/{m2.group(1).lower()}/{m2.group(2)}" if m2 else wsl_out
-        cmd = ["wsl", "-e", "bash", "-c", f"python3 /home/dministrator/wechat-collect/transcribe.py \"{wsl_v}\" \"{wsl_out}\""]
-        r = subprocess.run(cmd, capture_output=True, timeout=600)
+        # 2026-08-31 迁移：Windows 原生转写（WSL 已废除，wsl.exe 僵死会挂死调用方）
+        win_script = WIKI / "kdo-tools" / "transcribe_win.py"
+        cmd = [sys.executable, str(win_script), str(video_file), str(out_md)]
+        r = subprocess.run(cmd, capture_output=True, timeout=900)
         if r.returncode == 0 and out_md.exists():
             print(f"  ✅ 转写完成: {out_md}")
             # 知识化
