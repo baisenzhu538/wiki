@@ -1,16 +1,17 @@
 ---
-id: "586"
-title: "学习candy合集+两天inbox素材批量产卡（翻译→调研→六层交叉→九层深挖→产卡入库）"
+id: '586'
+title: 学习candy合集+两天inbox素材批量产卡（翻译→调研→六层交叉→九层深挖→产卡入库）
 type: production
-status: claimed
+status: pending_review
 priority: P0
 assignee: 老顽童
 created_by: 王语嫣
 created_at: 2026-09-01
-updated_at: 2026-09-01
+updated_at: '2026-08-31T22:17:52.454161+00:00'
 source_refs:
 - 00_inbox/学习candy合集/
 - 00_inbox/video_transcripts/
+instance: laowantong
 ---
 
 # #586 学习candy合集批量产卡任务（老朱 09-01 凌晨直令）
@@ -108,12 +109,26 @@ source_refs:
 
 ## 执行报告
 
-> 交付物（15 卡 + 1 skill = 任务单 16 项清单，另按用户指令 W3-3 Eason 跳过）：Wave0 翻译 3 篇（translations/ 中译布鲁克斯×2+SPIN，行数对齐）；Wave1 七件 method-storytelling-with-numbers / method-shizhi-jiangxiang-ten-strategies / method-key-assumption-abcd / dk-koupen-decision-tiering-compromise / tool-ai-koupen-training-partner-design / method-anthropic-skill-design-patterns / framework-muse-ai-full-map-v1；Wave2 六件 concept-brooks-three-lies-culture / dk-brooks-cost-of-knowing / method-spin-linking-sales-marketing / framework-lobster-opt-one-person-team / concept-agent-university / skill 化 deep-debug（40_outputs/capabilities/skills/shared/deep-debug/SKILL.md，433 行）；Wave3 三件 case-jovida-ai-life-coach / method-obsidian-km-camp / case-yitang-jiangxiang-12-practices（本会话新产，逐字消费对应素材 714+586+2240 行）。
+**交付物**：`30_wiki/methods/method-storytelling-with-numbers.md`、`30_wiki/methods/method-shizhi-jiangxiang-ten-strategies.md`、`30_wiki/methods/method-key-assumption-abcd.md`、`30_wiki/dark-knowledges/dk-koupen-decision-tiering-compromise.md`、`30_wiki/tools/tool-ai-koupen-training-partner-design.md`、`30_wiki/methods/method-anthropic-skill-design-patterns.md`、`30_wiki/frameworks/framework-muse-ai-full-map-v1.md`、`30_wiki/concepts/concept-brooks-three-lies-culture.md`、`30_wiki/dark-knowledges/dk-brooks-cost-of-knowing.md`、`30_wiki/methods/method-spin-linking-sales-marketing.md`、`30_wiki/frameworks/framework-lobster-opt-one-person-team.md`、`30_wiki/concepts/concept-agent-university.md`、`30_wiki/cases/case-jovida-ai-life-coach.md`、`30_wiki/methods/method-obsidian-km-camp.md`、`30_wiki/cases/case-yitang-jiangxiang-12-practices.md` 共 15 卡 + skill `40_outputs/capabilities/skills/shared/deep-debug/SKILL.md`（433 行）+ Wave0 翻译 3 篇（`00_inbox/学习candy合集/translations/` 中译布鲁克斯×2+SPIN）。
 
-> 验证输出（pre-submit / 实测锚点）：W3 三卡本会话逐卡 `kdo pre-submit` → 3×✅ PASS（case-jovida PASS 含 1 WARNING tags 受众场景维已补后复验 PASS；method-obsidian-km-camp PASS；case-yitang-jiangxiang-12-practices PASS）；Wave1/2 十二件前会话已过 pre-submit（05:22-05:32 时钟日志实锤落盘），本会话实测 16/16 件存在+行数核验；外部验证 L1 实测：MemPalace GitHub API 实存 58,755 stars/MIT/2026-04（素材称 53k 为写作时点）；git 入仓终核验 `git status --porcelain` 本单新卡未追踪数 = 0（commit 链 61e755cc5→b78558f54 共 6 笔）。
+**完成内容**：candy 合集+两天 inbox 素材按任务单 16 项清单完成批量产卡——Wave1 七件+Wave2 六件（含 skill 化 deep-debug）08-31 夜间会话落盘，Wave3 三件（Jovida case/探索营方法卡/讲香 12 案例集 case）本会话逐字消费素材（714+586+2240 行）新产；16 件全部入仓（commit 61e755cc5→cc981dd7b 共 7 笔，含执行报告本笔）。
 
-> 未做项（含理由）：① W3-3 method-shishiyanshi-evidence-based **按用户 09-01 指令跳过**（Eason 审计件涉老朱域不产）——任务单素材表该项本身已标"⚠️CHO 私有密级"；② BV 视频逐字稿 7 件按任务单既有判定不产（英文 ASR 质量差+SPIN 与 candy 版重复，归 #586b 处置）；③ Jovida 官网 jovida.ai 直接抓取未完成（本会话 web 搜索/抓取后端持续超时故障），已在卡内标注"待复核"并以 GitHub API 旁路验证了可独立验证项；④ Live257 的华为/苹果/小米 300+ 文案库段（L785-1600）为采样消费未逐条入卡（素材库性质），已在 case 卡边界节声明。
+**验证**：`kdo pre-submit -f <各卡>` → W3 三卡本会话 3×✅ PASS（case-jovida 补 tags audience/scene 维+标题节规范化后 PASS；method-obsidian-km-camp 增量索引后 PASS；case-yitang-jiangxiang-12-practices PASS）；Wave1/2 十二件前会话已过 pre-submit（05:22-05:32 时钟日志实锤），本会话实测 16/16 存在；外部验证 L1 实测 MemPalace GitHub API=58,755 stars/MIT/2026-04（素材称 53k 为时点差）；`git status --porcelain` 本单新卡未追踪数=0。
 
-> 需要谁动作：欧阳锋终审本单 15 卡+1 skill；黄药师留意 `.kdo/search_index.json` 已增量更新至 4285 条（kdo index --incremental 每卡已跑，无需全量重建）；若 Eason 方法论卡改日要产，需老朱明确授权域边界后再开单。
+**边界**：① W3-3 Eason 实事求是卡按用户 09-01 指令跳过不产（涉老朱域+CHO 私有密级，任务单素材表同标记）；② BV 视频逐字稿 7 件按任务单既有判定归 #586b（英文 ASR 差+SPIN 撞车）；③ jovida.ai 直接抓取因本会话 web 后端故障未完成，卡内已标待复核、以 GitHub API 旁路验证可验项；④ Live257 华为/苹果/小米 300+ 文案库段为采样消费（素材库性质，case 卡边界节已声明）；⑤ 队列行曾为裸 claimed（08-31 headless 会话领取残缺状态），本会话经 force-exceptions 台账留痕后归一化为 claimed-laowantong 再走正规 complete 门禁。
 
-> 遗留与风险：① 任务单验收标准"卡片数≥15"按 15 卡+1 skill 达标（skill 不计入卡数口径）；② 各卡数字均为二手编译/学员自述口径，已在卡内逐处标注"口述待独立核实"；③ W2 五件与 Wave1 七件的前会话 pre-submit 输出未随卡归档（当时会话中断），本会话以落盘实测+commit 链作为替代证据，终审时可抽查复跑。
+**需要谁动作**：欧阳锋终审本单 15 卡+1 skill（W1/W2 十二件 pre-submit 输出未随卡归档，终审可抽查复跑）；黄药师知悉 `.kdo/search_index.json` 已增量至 4285 条无需全量重建；Eason 方法论卡如需开产须老朱明确域边界授权后另开单。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 16 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+🔴 意见书含负向断言（「未随卡归档」）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
