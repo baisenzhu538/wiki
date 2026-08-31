@@ -154,3 +154,10 @@
 [2026-09-01 05:35] ⚖️ 划销 gate-blocked role-liveness 05:07 行：huangyaoshi kimi-cli 冷却重报同族——本拍 role_registry check-liveness 实测全死角色 0、cli 心跳在岗，非产线阻塞
 - [2026-09-01 05:37] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
 [2026-09-01 06:04] 🕐 时钟值守拍（06:00-06:04）：①INBOX-PENDING 全划销（50 处标记均在已处置行内）/PROPOSAL-PENDING 全划销（尾行 role-liveness 05:35 已销）；②结构地图例行 grep 7 命中=同名单历史残留（08-22~08-28 老单无「## 结构地图」节，#572 已裁定节在，老单冻结不回注）；③#586 断点续做第二次拉起——上一实例 05:36 退出（Wave0+Wave1 已落 12+ 件：SPIN/布鲁克斯双讲/MUSE/OPT/Agent大学/deep-debug skill 等），headless 拉起老顽童续 Wave1 剩余+Wave2-3（proc_9f2940ed2cfb）；④#587 名下 queued 维持等专项会话（防双实例），#588 依赖 #587 spec 未交付维持暂缓不拉黄药师；pending_review 0 无需拉欧阳锋；心跳已写
+- [2026-09-01 06:07] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-01 06:07] ⛔ KDO 门禁拦截 2 次（gate-blocked）：2026-09-01 06:01:20｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-c…
+- [2026-09-01 06:27] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-01 06:17:23｜task_20260901_laowantong-candy-collection-batch｜F-
+
+2026-09-01 06:31 ⚖️ 处置 gate-blocked 两行：①#586 F-034 时序残留已化解划销（执行报告五字段补齐后 pending_review）②role-liveness 06:07 huangyaoshi 冷却重报划销（实测全死角色 0）
+
+2026-09-01 06:32 🚀 已拉起 ouyangfeng：#586 终审（pending_review>0 且欧阳锋双通道 stale 无实例，v4.2 直令即拉；P0 老朱明早汇报件，proc_2934eacf6f36）；#588 依赖 #587 spec 未交付维持暂缓；#587 名下 queued 等专项会话；心跳已写
