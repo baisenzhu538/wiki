@@ -37,17 +37,20 @@ if WIKI.startswith("C:\\") or WIKI.startswith("C:/"):
     WSL_WIKI = "/mnt/c/" + WIKI.replace("\\", "/")[3:]
 else:
     WSL_WIKI = os.environ.get("KDO_WSL_ROOT", "")
-WSL_HOME = subprocess.run(["wsl", "-e", "bash", "-c", "echo $HOME"], capture_output=True, timeout=30).stdout.decode().strip()
+WSL_HOME = ""
+try:
+    WSL_HOME = subprocess.run(["wsl", "-e", "bash", "-c", "echo $HOME"], capture_output=True, timeout=30).stdout.decode().strip()
+except Exception:
+    pass  # 2026-08-31: WSL 已废除，wsl.exe 可能僵死/不存在——WSL 侧分发自动跳过
 
 WINDOWS_PROFILES = [
     "basic-skills-coach", "coaching-leadership-assistant", "duanwangye",
     "hongqigong", "laowantong", "meeting-assistant", "note-coach", "wangyuyan",
     "beikai",  # #351 遗留③：洪七公迁 Windows 后收口（欧阳锋 2026-08-18）
 ]
-WSL_PROFILES = [
-    "beikai", "duan", "duanwangye", "kimi-test",
-    "laowantong", "laowantong-feishu", "ouyangfeng", "wangyuyan",
-]
+# 2026-08-31: WSL 已废除——清空此列表。旧值留档：beikai/duan/duanwangye/kimi-test/
+# laowantong/laowantong-feishu/ouyangfeng/wangyuyan（均已迁 Windows 侧）
+WSL_PROFILES = []
 
 WINDOWS_PY = r"C:\Program Files\Python312\python.exe"
 WSL_PY = "/home/dministrator/.hermes/hermes-agent/venv/bin/python"  # 系统 python3 无 mcp 包（狗粮实测）；Hermes venv 含 mcp
