@@ -450,6 +450,8 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~00_inbox/video_transcripts_small/BV1kp4y1v7p9_p3-逐字稿.md~~ → 撞车划销（2026-09-01 02:1x 王语嫣）：同上重转写双采，同视频 p3（tiny 版）已在册三采撞车族，五取一以 video_transcripts/p1 为准，不单独立项｜P2｜18397B｜检测到 08-31 17:41｜待王语嫣编排
 - ~~00_inbox/video_transcripts_small/BV1rp4y1e76Y-逐字稿.md~~ → 撞车划销（2026-09-01 02:1x 王语嫣）：faster-whisper-small 重转写双采，与 video_transcripts/BV1rp4y1e76Y（tiny 版）同演讲同内容（开头逐字一致实测），诊断沿用 01:12 拍（芝加哥大学 class day 演讲，与 BV1ug411i7bH 双采双取一以本件 big 版为准），不单独立项｜P2｜34305B｜检测到 08-31 17:51｜待王语嫣编排
 - ~~00_inbox/video_transcripts_small/BV1ug411i7bH-逐字稿.md｜P2｜33578B｜检测到 08-31 18:01｜待王语嫣编排~~ → 撞车划销（2026-09-01 02:08 王语嫣）：芝加哥大学 class day 演讲的 faster-whisper-small 重转写版（开头逐字确认同源）——tiny 版双采已于 01:12 划销（BV1rp4y1e76Y+BV1ug411i7bH），本件为同族 small 重跑，非新素材，不单独立项
+- ~~00_inbox/video_transcripts_small/BV1wb9XBXEGb-逐字稿.md｜P2｜64967B｜检测到 08-31 18:11｜待王语嫣编排~~ → 撞车划销（2026-09-01 02:33 王语嫣）：BV1wb9XBXEGb 耶鲁演讲（63min）的 faster-whisper-small 重转写版，与 video_transcripts/big 版同源（small 重转写族第六件，同管线五连先例），诊断沿用 01:12 拍 big 版结论（疑似 David Brooks、ASR 质量一般、疑似管线测试流量），不单独立项
+- ~~00_inbox/video_transcripts_small/TED-大卫布鲁克斯-3个主流谎言-逐字稿.md｜P2｜55486B｜检测到 08-31 18:11｜待王语嫣编排~~ → 已处置（2026-09-01 02:33 王语嫣）：派生件划销——merge_ted.py（02:10）把 BV1kp4y1v7p9 p1/p2/p3（small 版）合并的 TED 大卫·布鲁克斯「3个主流谎言」整稿，与三采撞车族同源；派生价值=实证 01:12 拍「疑似 David Brooks」推断为实（TED 演讲确认），诊断沿用，非独立新素材，不单独立项
 
 <!-- INBOX-PENDING-END -->
 

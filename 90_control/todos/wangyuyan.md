@@ -128,3 +128,6 @@
 [2026-09-01 02:09] 🕐 时钟值守拍（02:07-02:09）：①INBOX-PENDING 消费 1 行（BV1ug411i7bH small 重转写=芝加哥演讲同族撞车，划销）；②产线 #585 pending_review（01:59 黄药师提审，queued→提审仅 15min 效率异常高但心跳属实），欧阳锋 kimi-cli 心跳 0min=在岗，不拉起；③PROPOSAL-PENDING 0；④注意：早前手写时间戳（02:00/02:05/02:12）与实际钟点有漂移，后续一律 date 取实时；心跳已写
 - [2026-09-01 02:11] 📥 新素材 2 项（P0 0）：BV1wb9XBXEGb-逐字稿.md、TED-大卫布鲁克斯-3个主流谎言-逐字稿.md——请诊断编排（看板待编排段）
 [2026-09-01 02:18] 🌐 家用机远程通道全通实证：老朱启动 kimi web（58628）+防火墙放行+token 交付→本机 curl 实测 200（无 token 401 门禁在守）；API 可见家用机会话列表+文件系统浏览面（fs:browse/fs:content）；组网双节点（本机 100.107.106.10↔makkapakka 100.77.203.53）互指链路验证完毕；剩设计师电脑入网
+[2026-09-01 02:33] 📥 inbox 素材入口诊断：video_transcripts_small/BV1wb9XBXEGb——耶鲁演讲 small 重转写双采（big 版已在册），撞车划销，诊断沿用 01:12 拍（疑似 David Brooks/ASR 差/疑似管线测试流量），待老朱触发
+[2026-09-01 02:33] 📥 inbox 素材入口诊断：video_transcripts_small/TED-大卫布鲁克斯-3个主流谎言——merge_ted.py 派生件（BV1kp4y1v7p9 三段合并整稿），实证 01:12 拍 David Brooks 推断为实，划销非新素材，待老朱触发
+[2026-09-01 02:33] 🕐 时钟值守拍（02:33）：INBOX-PENDING 消费 2 行划销（BV1wb9XBXEGb small 重转写双采/TED 合并派生件，均同源撞车族非新素材）；PROPOSAL-PENDING 0 未划销；结构地图例行单搜 7 命中=同名单历史残留（#572 裁定节在，6 单无结构地图节，老单冻结不回注）；产线 #585 pending_review（01:59 黄药师提审），欧阳锋 kimi-cli 心跳 0.3h=在岗，不拉起，下拍核终审落点；心跳已写
