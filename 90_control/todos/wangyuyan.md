@@ -72,3 +72,9 @@
 [2026-08-31 23:05] 📥 inbox 素材入口诊断：pending-cards/case-wechat-dy_7654610643165120177：ai-collaboration——「Agent三要素」入门科普级（大模型大脑+Agent手脚+MCP工具/Workflow vs Agent），与库内 ai-collaboration 域已有大量同类卡重叠，常识级增量低，疑似撞车，生产价值存疑待老朱触发——#584 重产卡，红线不立项，划销看板行
 [2026-08-31 23:05] 📥 inbox 素材入口诊断：pending-cards/case-wechat-dy_7671986884592010673：ai-collaboration——十本书书单（控制论/系统之美/第一性原理）+书转Skill/Harness工程控制论类比，跨域素材中等价值，与 e7536b Skill征留同族可合并观察，待老朱触发——#584 重产卡，红线不立项，划销看板行
 [2026-08-31 23:05] 📥 inbox 素材入口诊断：pending-cards/case-wechat-e7536bf1d8f1a7b1：ai-collaboration+kdo——「Skill征留」书/方法论封装成技能包+成长反馈迭代，与 KDO 自身 skills 体系同构可对标，且与 #583 Mnemosyne 知识封装线同族，中等偏上价值，待老朱触发——#584 重产卡，红线不立项，划销看板行
+- [2026-08-31 23:31] 📥 新素材 2 项（P0 0）：case-wechat-article_1a718b23df7e860b.md、case-wechat-article_832f2544fc7bb16a.md——请诊断编排（看板待编排段）
+
+[2026-08-31 23:32] 🕐 时钟值守拍（23:32）：INBOX-PENDING 消费 2 行（1a718b+832f25 同文双采判定，见下）/PROPOSAL-PENDING 0 未划销；结构地图例行单搜 7 命中=同名单历史残留（#572 裁定节在，6 单无结构地图节，老单冻结不回注）；#584 黄药师 headless 实例确认在跑（PID 27660，23:04 拉起，指令与 #584 吻合）不重复拉起；心跳已写
+[2026-08-31 23:32] ⚖️ INBOX 消费：case-wechat-article_1a718b + 832f25 判定同文双采（同题「重构协同：AI Native团队」，管线重复采集）——832f25 版为准保留诊断，1a718b 撞车划销不单独立项；两件均不立项，待老朱触发
+[2026-08-31 23:32] 📥 inbox 素材入口诊断：pending-cards/case-wechat-article_832f2544fc7bb16a：ai-collaboration+strategy 域候选——「重构协同：AI Native团队」（书牧/淘天天猫技术团队）单点提效vs全局协同、串联者人→Agent、知识底座+Agent+人三层、知识底座锚权威源+自治保鲜、存量知识债vs白纸优势，与 KDO 知识底座建设同构可对标，质量较高有萃取价值，待老朱触发——#584 重产卡，红线不立项，划销看板行
+[2026-08-31 23:32] 🧹 撞车划销 1 行：pending-cards/case-wechat-article_1a718b23df7e860b：与 832f2544 同文双采（wechat 管线重复采集同题文章），泛化摘要版信息量小以 832f2544 为准，不单独立项
