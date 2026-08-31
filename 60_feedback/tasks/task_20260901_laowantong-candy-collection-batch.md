@@ -1,5 +1,5 @@
 ---
-id: "585"
+id: "586"
 title: "学习candy合集+两天inbox素材批量产卡（翻译→调研→六层交叉→九层深挖→产卡入库）"
 type: production
 status: claimed
@@ -13,7 +13,7 @@ source_refs:
 - 00_inbox/video_transcripts/
 ---
 
-# #585 学习candy合集批量产卡任务（老朱 09-01 凌晨直令）
+# #586 学习candy合集批量产卡任务（老朱 09-01 凌晨直令）
 
 ## 任务来源
 
@@ -36,7 +36,7 @@ source_refs:
 | 龙虾团队 OPT | strategy/management | 框架卡（One Person Team） | 产品设想稿 |
 | Agent 大学 | ai-collaboration | 概念卡+情报卡 | 产品设想稿 |
 | Eason 文化审计 DataPack | management | 方法卡（实事求是方法论） | ⚠️CHO 私有密级——只产方法论卡，人物细节脱敏 |
-| BV 视频逐字稿 7 件 | sales/decision | 已由 01:14 值守拍诊断（英文 ASR 质量差）——SPIN 访谈与 candy 版重复，其余按 #585b 处置 | 撞车件不重复产卡 |
+| BV 视频逐字稿 7 件 | sales/decision | 已由 01:14 值守拍诊断（英文 ASR 质量差）——SPIN 访谈与 candy 版重复，其余按 #586b 处置 | 撞车件不重复产卡 |
 
 ## 生产顺序（Wave 结构）
 
