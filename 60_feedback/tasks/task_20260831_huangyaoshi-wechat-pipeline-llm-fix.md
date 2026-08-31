@@ -65,6 +65,6 @@ evidence: 60_feedback/tasks/task_20260831_huangyaoshi-wechat-pipeline-llm-fix.md
   5. 端到端：新管线真跑 2 篇，frontmatter=pending-domain+来源轴入 source_context，yaml.safe_load 全过
   6. 4 个 py 文件 py_compile 通过
 
-- **未做项/边界**：① pending-cards 顶层 23:21 出现 2 张旧模板卡（832f/1a718b，domain=wechat-article）——发现并发写入源在跑同批文件（knowledge/ 23:13-23:25 持续更新），疑似王语嫣侧时钟拍重产。按「在飞不动」纪律未抢写，其 domain 改写走编排层标准流程。② 15 篇已流转旧卡的 domain=wechat-video 未批量改写——canonical 卡在 pending-cards/_processed 已有编排层改写版，管线默认值已修复，存量治理归编排层。③ effort 档位（low/medium/high）对长稿行为未穷举——当前结论只覆盖「机械归纳任务禁用思考」场景。
+- **未做项**（边界说明）：① pending-cards 顶层 23:21 出现 2 张旧模板卡（832f/1a718b，domain=wechat-article）——发现并发写入源在跑同批文件（knowledge/ 23:13-23:25 持续更新），疑似王语嫣侧时钟拍重产。按「在飞不动」纪律未抢写，其 domain 改写走编排层标准流程。② 15 篇已流转旧卡的 domain=wechat-video 未批量改写——canonical 卡在 pending-cards/_processed 已有编排层改写版，管线默认值已修复，存量治理归编排层。③ effort 档位（low/medium/high）对长稿行为未穷举——当前结论只覆盖「机械归纳任务禁用思考」场景。
 
 - **需要谁动作**：欧阳锋按验收标准终审本单；王语嫣侧如有并发时钟拍在跑 wechat 管线，请确认与本次固化版无撞车（其 23:21 产物为旧模板，建议重跑一次 `--all` 用新模板覆盖，或由编排层改写 domain）；后续编排层改写 domain 时可顺手清 `domain: pending-domain` 占位卡。
