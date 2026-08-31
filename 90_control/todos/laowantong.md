@@ -30,3 +30,4 @@
 
 [2026-08-31 04:40] 📌 王语嫣裁定 #531 W10：5 张词元经济卡 frontmatter domain 剔除 ai-saas（不在 domain-mapping.md 枚举=幽灵域，新增域四处登记缺一不可）仅留 strategy——元数据一行勘误，随你下批任务顺带执行即可，勿单开任务
 - [2026-09-01 02:20] 📢 编排更正：你手上的 candy 批产任务编号已从 #585 改为 **#586**（#585 已被 smoke-test 单占用，撞号自纠）——提审时用 task_20260901_laowantong-candy-collection-batch，队列号 586。任务内容不变，继续施工。
+- [2026-09-01 03:32] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））

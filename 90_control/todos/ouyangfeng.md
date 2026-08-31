@@ -226,3 +226,4 @@
 - [2026-09-01 01:45] ✅ #584 终审 PASS A-（task_20260831_huangyaoshi-wechat-pipeline-llm-fix，黄药师单）：两验收全过（--all 17篇0失败占位亲跑+双桩转发亲跑）thinking disabled根治+skip前置+pending-domain域轴全实证；扣分2项已给落点（同文重复采集→待王语嫣编排层 / 回归护栏→停车场另立项smoke测试）。流转9e8e14c31，意见书落任务单终审记录节
 - [2026-09-01 02:07] 🔔 KDO 新提审 1 单：#585，请终审（新提审）
 - [2026-09-01 03:30] ✅ #585 终审 PASS A（task_20260901_huangyaoshi-wechat-pipeline-smoke-test，黄药师单）：6断言绿跑+pytest兼容+红绿自证3红全亲跑复现（断言精确命中#584 skip前置/SKELETON_MARKERS两修复点）；样例零碰真库、主逻辑零改动、双副本桩同码、基建台账已登记全部核实。流转5f510cefc，意见书落任务单终审记录节
+- [2026-09-01 03:32] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
