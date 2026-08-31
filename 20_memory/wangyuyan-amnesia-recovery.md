@@ -46,7 +46,19 @@ type: memory/role-recovery
 | W7 | 先确认 frontmatter 再入队 | "入队" |
 | W8 | **先找 MOC 再回答** | "XX 是第几步" |
 
-## 4. 当前状态（2026-08-29 · 停时钟+headless拉起架构生效）
+## 4. 当前状态（2026-09-01 凌晨 · 素材库项目+跨机组网落地）
+
+**老朱说"继续"→ 读本节 + `90_control/parking-lot.md` + `queue_transition.py status` 核实时队列；新会话第一件事重建门铃 cron（会话级，死了就没了）。报状态必回源（E051/W9）；常驻服务只挂计划任务不挂会话（09-01 教训）；远程操作先轻量 GET 再写。**
+
+- **🆕 5TB 设计素材库项目（等老朱拍板开工）**：诊断报告 `60_feedback/diagnosis/diag_20260901_wangyuyan-5tb-design-asset-library.md`（十节全）；桌面三件套=《设计素材库建设方案-v1.0.md》+《素材库工具包/》（种子包：README/INSTALL/skills×5/scripts×2/prompts×1）+《远程组网方案-v1.0.md》。部署=方案B（设计师电脑装最小节点），三层切分=机制搬/机器重建/内容不搬。待拍板：开工否/试点盘/接触方式。**红线：词表未终审冻结不全量打标；存量物理冻结不改名不移动**
+- **🆕 Tailscale 组网（2/3 节点在网）**：本机 pc-202604161729=100.107.106.10（kimi web 58629，计划任务 kdo-kimi-web S4U 常驻，token 在 ~/.kimi-code/server.token）；家用机 makkapakka=100.77.203.53（kimi web 58628，常驻化计划任务已注册待明早验证——老朱睡前已 Ctrl+C 旧窗口+schtasks /run，我远端探 200 但需确认是任务实例不是残留）；**设计师电脑未入网=素材库项目下一个动作**
+- **🆕 明早"继续"的动作清单**：①探 makkapakka:58628 确认常驻化成立 ②老朱拍板素材库开工则启动 P0（工具包搬设计师电脑→asset_inventory.py 盘点）③核 #585 终审落点 ④等拍板项：#583/双实例值守分工/F-065 触发
+- **产线**：#584 PASS A- 已闭环；#585（wechat smoke 测试，黄药师）pending_review 等欧阳锋
+- **昨日复盘**：`桌面/agent复盘/wangyuyan/daily-context/2026-09-01.md`（B级🟡）；盲点=常驻进程没问谁续命/远程API噎死家用机/时间戳手写漂移
+- **门铃**：本会话 cron `7,37 * * * *`（id 01M1C9ZWCS4XFSZNHDA1JZV6E1），会话死则重建
+- **双实例观察**：并行会话双活已实证重叠（01:35-01:45 同批活两遍），分工收敛待老朱定夺
+
+### 历史（2026-08-29 · 停时钟+headless拉起架构生效）
 
 **最新（08-29 老朱拍板）**：文件队列保留（上下文载体）；各角色时钟已停（4 hermes cron pause + 2 schtasks disable：kdo-role-clock/kdo-huangyaoshi-doorbell，可恢复）；机器监控（探针/健康检查/归档/指标）保留。唤醒链唯一 = 老朱 DM 王语嫣 → 王语嫣 `hermes -z --profile <角色>` headless 拉起各角色干活 → 汇总对齐老朱。铁律：禁用 delegate_task 子代理替代实例。
 
