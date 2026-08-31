@@ -2,17 +2,20 @@
 id: '585'
 title: wechat 采集管线 smoke 测试最小护栏（扣分点2：管线修复无自动化回归断言）
 type: task
-status: pending_review
+status: reviewed
 priority: P2
 assignee: 黄药师
 created_by: 王语嫣
 created_at: 2026-09-01
+reviewed_by: 欧阳锋
+review_date: '2026-08-31'
+grade: A
 source_refs:
 - 60_feedback/tasks/task_20260831_huangyaoshi-wechat-pipeline-llm-fix.md
 - kdo-tools/wechat_knowledge.py
 related: '#584'
 instance: huangyaoshi
-updated_at: '2026-08-31T17:59:01.749734+00:00'
+updated_at: '2026-08-31T19:24:21.933210+00:00'
 ---
 
 # #585 wechat 管线 smoke 测试最小护栏
@@ -90,3 +93,27 @@ updated_at: '2026-08-31T17:59:01.749734+00:00'
 ### ③ 负向判词 / ④ 存在性核查
 
 ✅ 执行报告无负向断言词（检查面=执行报告节）
+
+## 终审记录（欧阳锋 2026-09-01）
+
+**结论：PASS / A**
+
+### 验收核验（规格对照法，全部欧阳锋独立复跑，非采信执行报告）
+
+| # | 验收项 | 证据 | 状态 |
+|:--|:--|:--|:--|
+| 1 | 绿跑：一条命令 exit code 即结论 | 亲跑 `cd kdo-tools && python test_wechat_knowledge_smoke.py` → 6/6 通过，EXIT=0，断言明细逐条输出 | ✅ |
+| 2 | pytest 单文件兼容 | 亲跑 `python -m pytest kdo-tools/test_wechat_knowledge_smoke.py -q` → 6 passed in 0.11s | ✅ |
+| 3 | 红绿自证（测试自身有效性） | 亲跑 monkeypatch `SKELETON_MARKERS=('<!--',)` 模拟泛匹配回归 → 3/6 红 EXIT=1，红项=`test_skeleton_marker_exact_match`（完整卡误判为骨架）+`test_skip_complete_card_no_llm_call`（完整卡仍调 LLM 1 次）+`test_skeleton_card_triggers_rerun`——断言精确命中 #584 两修复点，报错文案与执行报告声称逐字一致 | ✅ |
+| 4 | 样例独立性（不碰真库） | 断言用例全落 tempfile 临时目录（红跑输出实证 `%TEMP%\tmp*` 路径），真库 00_inbox/wechat-collect/ 零触碰；LLM 调用全 mock（绿跑中 llm_summarize 均为桩返回，零网络零 key） | ✅ |
+| 5 | 主逻辑零改动（边界②） | `git diff HEAD -- kdo-tools/wechat_knowledge.py kdo-tools/wechat_promote.py` 空输出——wech knowledge/promote 两主逻辑文件工作区无脏改动 | ✅ |
+| 6 | 双副本覆盖（任务单第 4 条） | 亲读 40_outputs/code/scripts/wechat_knowledge.py：runpy 转发桩指向 `kdo-tools/wechat_knowledge.py` 同一真身（L18 `_CANON` 路径解析逐行核对），桩=真身同码，对真身测即对桩测——执行报告「参数化路径无必要」的边界声明成立 | ✅ |
+| 7 | 基建登记（§3.19 纪律） | `90_control/infrastructure-inventory.md` L131 已登记 smoke 脚本一行，交付面与差集一致 | ✅ |
+
+### 审查意见
+
+- **加分项**：施工期自抓样例缺陷（GOOD_CARD 196 字 < MIN_BODY_CHARS 200 被 promote 门禁反向拦截）并如实写进执行报告——红绿自证不是事后补做，测试先抓了自己的样例问题，这是测试有效性最硬的实证。
+- **口径确认**：`_content_issues` 纯函数直测不跑 promote_case 全链路，符合任务单边界①（只测判定逻辑，不测 LLM 输出质量/不碰真库目录态）——非偷工。
+- 扣分点无阻断项。对比 #584（A-）本单交付面更小且六断言全部实证可复跑，给 **A**。
+
+**终审落点**：task_20260901_huangyaoshi-wechat-pipeline-smoke-test.md（本节）；队列流转由 queue_transition.py review 完成。
