@@ -426,8 +426,13 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~00_inbox/Live257-重讲十指讲香模型内测Candy_v5.json｜P2｜199616B｜检测到 08-31 16:41~~ → 已处置（2026-09-01 01:01 王语嫣）：上行的结构化源数据（v5 allBlocks JSON），同源成对划销，归属判定以上行为准
 - ~~00_inbox/Live260-AI口喷基本功内测candy-逐字稿.md｜P2｜36201B｜检测到 08-31 16:41~~ → 已诊断（2026-09-01 01:01 王语嫣）：域归属=ai-collaboration——Live260「AI口喷基本功」内测 Candy（36KB）：Truman 教研内部 Partner 口喷私密案例（科学决策ROI搭档+AI口喷高阶陪练官双 Partner 原文）；⚠️ 素材自带传播限制标注「仅限内部不要外传」×3；口喷域已有 #487/#529 卡组在库，本件为 Partner 原文层增量；待老朱触发编排
 - ~~00_inbox/Live260-AI口喷基本功内测candy_v5.json｜P2｜41496B｜检测到 08-31 16:41~~ → 已处置（2026-09-01 01:01 王语嫣）：上行的结构化源数据（v5 allBlocks JSON），同源成对划销，归属判定以上行为准
-- 00_inbox/video_transcripts/BV1JsgQzWEuD-逐字稿.md｜P2｜15760B｜检测到 08-31 17:01｜待王语嫣编排
-- 00_inbox/video_transcripts/BV1kp4y1v7p9_p1-逐字稿.md｜P2｜18179B｜检测到 08-31 17:01｜待王语嫣编排
+- ~~00_inbox/video_transcripts/BV1JsgQzWEuD-逐字稿.md｜P2｜15760B｜检测到 08-31 17:01｜待王语嫣编排~~ → 已诊断（2026-09-01 01:12 王语嫣）：sales 域候选——Neil Rackham（SPIN Selling 作者）访谈，创业者销售话题；英文 faster-whisper-tiny 转写质量一般；疑似视频转写管线测试流量，生产价值待老朱触发确认
+- ~~00_inbox/video_transcripts/BV1kp4y1v7p9_p1-逐字稿.md｜P2｜18179B｜检测到 08-31 17:01｜待王语嫣编排~~ → 已诊断（2026-09-01 01:12 王语嫣）：与 p2/p3 同视频三采（开头段落逐字相同），人生低谷叙事演讲（2013 婚变/保守派裂变，疑似 David Brooks）；human-insights 候选但 ASR 质量差；撞车件，三取一，待老朱触发
+- ~~00_inbox/video_transcripts/BV1kp4y1v7p9_p2-逐字稿.md｜P2｜16794B｜检测到 08-31 17:11｜待王语嫣编排~~ → 撞车划销（2026-09-01 01:12 王语嫣）：与 p1 同视频重复转写，不单独立项
+- ~~00_inbox/video_transcripts/BV1kp4y1v7p9_p3-逐字稿.md｜P2｜18179B｜检测到 08-31 17:11｜待王语嫣编排~~ → 撞车划销（2026-09-01 01:12 王语嫣）：与 p1 同视频重复转写，不单独立项
+- ~~00_inbox/video_transcripts/BV1rp4y1e76Y-逐字稿.md｜P2｜30332B｜检测到 08-31 17:11｜待王语嫣编排~~ → 已诊断（2026-09-01 01:12 王语嫣）：与 BV1ug411i7bH 同演讲双采（芝加哥大学 class day 毕业演讲，31min，文本逐字相同）；content 价值中等（演讲技巧域候选）；双取一，待老朱触发
+- ~~00_inbox/video_transcripts/BV1ug411i7bH-逐字稿.md｜P2｜30515B｜检测到 08-31 17:11｜待王语嫣编排~~ → 撞车划销（2026-09-01 01:12 王语嫣）：与 BV1rp4y1e76Y 同演讲重复转写，不单独立项
+- ~~00_inbox/video_transcripts/BV1wb9XBXEGb-逐字稿.md｜P2｜63363B｜检测到 08-31 17:11｜待王语嫣编排~~ → 已诊断（2026-09-01 01:12 王语嫣）：耶鲁演讲 63min（华盛顿往返/任教 90 年代起，疑似 David Brooks）；英文 ASR 质量一般；疑似管线测试流量，待老朱触发
 
 <!-- INBOX-PENDING-END -->
 

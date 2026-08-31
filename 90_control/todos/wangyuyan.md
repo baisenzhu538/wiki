@@ -101,3 +101,5 @@
 [2026-09-01 01:01] 📥 inbox 素材入口诊断：Live257-重讲十指讲香模型内测Candy-逐字稿.md（131KB）：域归属=拆书会/decision-making——开头=水水拆书第109期《用数字讲故事》（大脑不爱数字/四原则/数字转换技术），十指讲香模型正文在后段；拆书会系列 90+ 卡先例，有萃取价值；待老朱触发编排
 [2026-09-01 01:01] 📥 inbox 素材入口诊断：Live260-AI口喷基本功内测candy-逐字稿.md（36KB）：域归属=ai-collaboration——Truman 教研内部 Partner 口喷私密案例（科学决策ROI搭档+高阶陪练官双 Partner 原文）；⚠️ 素材自带传播限制「仅限内部不要外传」；口喷域已有 #487/#529 卡组，本件为 Partner 原文层增量；待老朱触发编排
 [2026-09-01 01:01] 📥 3 个 _v5.json（探索营/Live257/Live260）= 对应逐字稿的结构化源数据（allBlocks），非独立内容素材，成对划销不入编排
+- [2026-09-01 01:11] 📥 新素材 5 项（P0 0）：BV1kp4y1v7p9_p2-逐字稿.md、BV1kp4y1v7p9_p3-逐字稿.md、BV1rp4y1e76Y-逐字稿.md…——请诊断编排（看板待编排段）
+[2026-09-01 01:14] 🕐 时钟值守拍（01:07-01:14）：INBOX-PENDING 消费 7 行 BV 视频逐字稿——①BV1JsgQzWEuD=Neil Rackham SPIN Selling 访谈（sales 候选）②BV1kp4y1v7p9 p1/p2/p3=同视频三采撞车（三取一）③BV1rp4y1e76Y+BV1ug411i7bH=芝加哥大学演讲双采撞车（双取一）④BV1wb9XBXEGb=耶鲁 63min 演讲——整批 faster-whisper-tiny 英文 ASR 质量差，疑似视频转写管线测试流量，均只诊断不立项待老朱触发；PROPOSAL-PENDING 0；产线 #584 pending_review，role-registry 显示欧阳锋 kimi-cli 心跳 01:10 新鲜=实例在岗，不重复拉起，下拍核终审落点；心跳已写
