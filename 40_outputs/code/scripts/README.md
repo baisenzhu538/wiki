@@ -242,7 +242,8 @@
 - **运行**：计划任务 `kdo-inbox-watch` 每 10 分钟（2026-08-19 从 WSL cron 迁移——WSL 不常驻导致 cron 静默失效的教训）
 - **注意**：2026-08-20 #380 删除本目录下的 stale 副本（违 #359 副本禁放裁定），只留本指针
 
-### `wechat_promote.py`（指针引用——活代码 `kdo-tools/wechat_promote.py`）
+### `wechat_promote.py`（转发桩——活代码 `kdo-tools/wechat_promote.py`，#584 08-31）
+> 🔗 #584 起本文件=runpy 转发桩（非副本非纯指针）：调用即转发真身执行。改代码只改 kdo-tools/ 真身，本桩永不修改（手工同步已漂移 3 代实证：缺 #380 门禁/#395 updated_at/#516 隔离区，跑旧副本会绕过编排门禁直写 30_wiki/cases/）
 - **功能**：偶遇采集产物转正——逐字稿 → `10_raw/sources/`（零摩擦）；case 卡 → **`00_inbox/pending-cards/` 待编排区**（#380 A 方案，王语嫣 2026-08-20 改判：不再直入 `30_wiki/cases/`，一律过编排门禁；watch_inbox 自动登记 INBOX-PENDING 看板段）
 - **内容校验前置**：标题乱码（U+FFFD/拉丁区堆叠）/LLM 总结失败占位/正文 <200 字 → 落 `00_inbox/wechat-collect/_needs_rerun/` + `.reason.txt` 原因文件
 - **运行**：`python kdo-tools/wechat_promote.py [--dry-run]`；逐字稿入仓后自动 `kdo index --incremental`（L1 索引钩子）
@@ -256,10 +257,10 @@
 - **运行**：计划任务 `kdo-health-daily`（每日 02:07）+ `hermes-laowantong-backup`（每小时）
 - **注意**：.ps1 必须带 BOM 保存（PS 5.1 无 BOM 按 GBK 解析会吞字符）；.cmd 保持纯 ASCII（cmd 按 ANSI 读）
 
-### `wechat_knowledge.py`
-- **功能**：逐字稿/文章正文 → LLM 三层次知识化（事实/规律/洞察，楚门框架，视频+文章通用），覆盖保护（失败不覆盖旧文件）+ 跳过已知识化（幂等）
-- **运行**：`python kdo-tools/wechat_knowledge.py <逐字稿.md>` 或 `--all`
-- **注意**：已内置 `NO_PROXY=api.deepseek.com,api.minimaxi.com` 绕过 MITM 系统代理
+### `wechat_knowledge.py`（转发桩——活代码 `kdo-tools/wechat_knowledge.py`，#584 08-31）
+- **功能**：逐字稿/文章正文 → LLM 三层次知识化（事实/规律/洞察，楚门框架，视频+文章通用），覆盖保护（失败不覆盖旧文件）+ 跳过已知识化（幂等，#584 起判定前置到 LLM 调用前——空跑 0 次 LLM 调用）
+- **运行**：`python kdo-tools/wechat_knowledge.py <逐字稿.md>` 或 `--all`（本目录同名文件=runpy 转发桩，语义同上 promote 条目）
+- **注意**：已内置 `NO_PROXY=api.deepseek.com,api.minimaxi.com` 绕过 MITM 系统代理；#584 起 payload 显式 `thinking: {"type":"disabled"}`（deepseek-v4 系默认开思考且烧 completion_tokens，22:09 空总结事故根因；实测 effort=low 不可控，禁用思考才是根治）+ 模板 `domain: pending-domain`（来源轴 wechat-video 等挪 source_context，真域由编排层改写）
 
 ### `collect_wechat.py`（指针引用）
 > 🔗 活代码单一真相源：`kdo-tools/collect_wechat.py`（#414 副本清理后此处禁副本）

@@ -46,6 +46,14 @@ TRIPLE_FRAMEWORK_PROMPT = """你是知识萃取专家。把下面的内容（视
 内容：
 {transcript}"""
 
+# 骨架占位标记（#584 固化）：产出含任一标记 = 未完成知识化，允许/需要重跑。
+# 不能拿 '<!--' 泛匹配判定骨架——五段模板自带的 '<!-- 见上方 LLM 总结 -->' 注释
+# 会把好卡误判成骨架，--all 每轮全量重烧 LLM（08-31 实测 15 次无效调用）。
+SKELETON_MARKERS = (
+    "<!-- LLM 总结失败",
+    "<!-- TODO: 配置 DEEPSEEK_API_KEY",
+)
+
 
 def get_api_key() -> str:
     # 从 Hermes profile env 或环境变量读
@@ -66,9 +74,13 @@ def get_api_key() -> str:
 def llm_summarize(transcript: str, api_key: str) -> str:
     """调用 DeepSeek 三层次总结。
 
-    #584（2026-08-31）：deepseek-v4-flash 是推理模型——思考链计入 completion_tokens，
-    1500 预算会被 reasoning 烧光导致 content=''（finish_reason=length，22:09 两篇实证）。
-    提到 8192 并对空 content 显式报错（不再静默落骨架）。
+    #584 固化（2026-08-31，黄药师）：deepseek-v4 系默认开启 thinking（官方文档
+    Thinking Mode：默认 enabled、默认 effort=high），思考链计入 completion_tokens。
+    王语嫣应急止血 = max_tokens 1500→8192（思考长仍可能烧穿）；本固化版根治 =
+    显式 `thinking: {"type": "disabled"}`（API 实测：同任务 baseline 69 reasoning
+    tokens / disabled 0，effort=low 仍烧 519 且不可控——机械归纳任务思考无增益）。
+    注意：thinking 开启时 temperature 无效（官方文档明示），禁用后 0.3 恢复生效。
+    8192 预算保留为兜底（防极长逐字稿总结被截断），空 content 显式报错不静默。
     """
     payload = {
         "model": MODEL,
@@ -78,6 +90,8 @@ def llm_summarize(transcript: str, api_key: str) -> str:
         ],
         "temperature": 0.3,
         "max_tokens": 8192,
+        # 根治：关闭思考模式，completion_tokens 全部留给正文（#584 固化）
+        "thinking": {"type": "disabled"},
     }
     req = urllib.request.Request(
         API_URL,
@@ -137,6 +151,18 @@ def knowledge_ize(transcript_md: Path, output_path: Path | None = None) -> bool:
                 title = m.group(1).strip()[:50]
                 break
 
+    if output_path is None:
+        OUTPUTS_DIR.mkdir(parents=True, exist_ok=True)
+        output_path = OUTPUTS_DIR / f"case-wechat-{transcript_md.stem.replace('src_wechat_', '')}.md"
+
+    # 跳过判定必须放在 LLM 调用之前（#584 固化）：判定在后的版本每次 --all 空跑
+    # 仍白烧 17 次 LLM 调用（08-31 实测 97 秒）——省钱的跳过才是真跳过。
+    # 已有产出且非骨架 → 跳过（防 --all 重复调用浪费 LLM）
+    # 判定用骨架标记精确匹配，不再 '<!--' 泛匹配（模板自带注释会把好卡误判成骨架）
+    if output_path.exists() and not any(m in output_path.read_text(encoding="utf-8") for m in SKELETON_MARKERS):
+        print(f"⏭️  已知识化，跳过: {output_path.name}")
+        return True
+
     api_key = get_api_key()
     if not api_key:
         print("⚠️ 未找到 DeepSeek API key——跳过 LLM 总结，只生成骨架")
@@ -148,16 +174,8 @@ def knowledge_ize(transcript_md: Path, output_path: Path | None = None) -> bool:
             print("⚠️ LLM 总结失败——只生成骨架")
             summary = "<!-- LLM 总结失败，请重试 -->"
 
-    if output_path is None:
-        OUTPUTS_DIR.mkdir(parents=True, exist_ok=True)
-        output_path = OUTPUTS_DIR / f"case-wechat-{transcript_md.stem.replace('src_wechat_', '')}.md"
-
-    # 已有产出且非骨架 → 跳过（防 --all 重复调用浪费 LLM）
-    if output_path.exists() and "<!--" not in output_path.read_text(encoding="utf-8"):
-        print(f"⏭️  已知识化，跳过: {output_path.name}")
-        return True
     # LLM 失败且已有产出文件 → 保留旧文件不覆盖（防 --all 重跑把好 case 降级成骨架）
-    if ("<!--" in summary and output_path.exists()):
+    if (output_path.exists() and any(m in summary for m in SKELETON_MARKERS)):
         print(f"⚠️ LLM 总结失败且已有旧文件——保留: {output_path}")
         return True
 
@@ -165,7 +183,11 @@ def knowledge_ize(transcript_md: Path, output_path: Path | None = None) -> bool:
 title: "{title}"
 type: case
 status: draft
-domain: {src_kind}
+domain: pending-domain
+aliases: []
+discoverable_by: []
+source_context:
+- 来源轴: {src_kind}（wechat-collect 偶遇采集管线）
 source_refs:
 - 00_inbox/wechat-collect/{transcript_md.name}
 created_at: {date.today().isoformat()}
