@@ -2,17 +2,20 @@
 id: '584'
 title: wechat-collect 管线 DeepSeek 推理模型 max_tokens 修复 + 注册副本路径锚点修复
 type: bugfix
-status: pending_review
+status: reviewed
 priority: P1
 assignee: 黄药师
 created_by: 王语嫣
 created_at: 2026-08-31
-updated_at: '2026-08-31T15:37:10.998297+00:00'
+updated_at: '2026-08-31T17:37:37.255447+00:00'
 claimed_at: 2026-08-31
 source_refs:
 - 00_inbox/wechat-collect/_needs_rerun/_done-20260831/case-wechat-68004aecb3d913a5.reason.txt
 instance: huangyaoshi
 evidence: 60_feedback/tasks/task_20260831_huangyaoshi-wechat-pipeline-llm-fix.md
+reviewed_by: 欧阳锋
+review_date: '2026-08-31'
+grade: A-
 ---
 
 # #584 wechat-collect 管线 LLM 空总结根因修复（已由王语嫣应急落地，本单做回归+固化）
@@ -82,3 +85,44 @@ evidence: 60_feedback/tasks/task_20260831_huangyaoshi-wechat-pipeline-llm-fix.md
 ### ③ 负向判词 / ④ 存在性核查
 
 ✅ 执行报告无负向断言词（检查面=执行报告节）
+
+## 终审记录（欧阳锋 2026-09-01）
+
+**结论：PASS / A-**
+
+### 验收核验（规格对照法，全部欧阳锋独立复跑）
+
+| # | 验收项 | 证据 | 状态 |
+|:--|:--|:--|:--|
+| 1 | `--all` 0 失败占位 | 亲跑 `python kdo-tools/wechat_knowledge.py --all`：17 篇全部「已知识化，跳过」、0.22s 完成、grep `LLM 总结失败` 0 命中——与执行报告声称的幂等空跑一致 | ✅ |
+| 2 | 注册副本单独调用正确 | 双桩亲跑通过（knowledge `--all` 完成 17 个 / promote 转发正常）；runpy 转发路径解析（scripts→code→40_outputs→wiki 根）逐行核对正确 | ✅ |
+| 3 | 代码级根因修复 | L94 `thinking: {"type":"disabled"}` 根治 + L92 max_tokens 8192 兜底 + L106-110 空 content 显式报 finish_reason/usage 不静默 + timeout 180 | ✅ |
+| 4 | skip 判定前置 | L158-164 判定移到 LLM 调用前 + L52-55 骨架标记精确匹配（SKELETON_MARKERS），`<!--` 泛匹配误判已消除 | ✅ |
+| 5 | 域轴修正 | 新管线产出卡 frontmatter 实证：`domain: pending-domain` + `来源轴: wechat-article` 入 source_context（1a718b/4dd7be 双卡抽验） | ✅ |
+| 6 | 交付物入仓 | 7 声明路径 git status 全干净，无脏改动（机器预审①差集独立复核通过） | ✅ |
+| 7 | git 链路 | bae2b5900 施工 → E040 拦截 → c3d605431 补件 → 3c3424494 预审重挂 → 23:37 重提，链条完整可溯 | ✅ |
+
+### 加分项
+
+- 根治优于止血：待办②原文只要求「评估」，黄药师直接以 API 三档实测（baseline 69 / disabled 0 / effort_low 519）锁定禁用思考为唯一根治并落地
+- 转发桩让双副本漂移「结构性不可能」，附旧副本漂移 3 代实证（缺 #380/#395/#516 三代修复）——收口语义准确
+- 失败保留旧文件（L177-180）防 `--all` 重跑把好卡降级成骨架，边界考虑周全
+- 执行报告「未做项」三条边界如实声明（并发写入不抢写/存量不批量改/effort 档位未穷举）——诚实降级正面样本
+
+### **存在性核查**
+
+| 负向断言 | 核查方法 | 结果 |
+|:--|:--|:--|
+| 失败占位 0 | `grep -rc "LLM 总结失败" 00_inbox/wechat-collect/knowledge/`，逐文件计数 | 0 命中 |
+| `_needs_rerun` 已归档 | `ls 00_inbox/wechat-collect/_needs_rerun/` | 仅 `_done-20260831/` 目录 |
+| 交付物无脏改动 | `git status --short` 限定 7 声明路径 | 全部干净 |
+
+### 扣分点（-0.5 → A-）
+
+1. 🟡 同文重复采集未提级：1a718b 与 4dd7be 两卡 title 同为「重构协同：关于AI Native团队的思考」（同文章两次采集、hash 不同）——属采集去重范畴非本单修复引入，但终审发现的相邻问题宜登记。**处置**：记观察项，待王语嫣编排层处置（与执行报告未做项①的并发时钟拍问题同族，一并处理）
+2. 🟡 无自动化回归护栏：管线修复验证全靠手工实跑（py_compile 通过但无测试断言），下次改动仍无机器兜底——记停车场（O 系列），另立项最小 smoke 测试单（构造骨架标记样例文件断言 skip 行为）
+3. 观察项：用户侧验收指令提及的 `--dry-run` 参数实际不存在（usage 仅 `--all/--output/transcript`）——本终审以 `--all` 幂等空跑达成同等验收语义（0 失败占位核查），不影响结论
+
+### 流转
+
+verdict=pass / grade=A- / reviewed_by=欧阳锋 / review_date=2026-09-01。

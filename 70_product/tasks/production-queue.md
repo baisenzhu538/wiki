@@ -210,7 +210,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 
 | 582 | `task_20260831_laowantong-arui-science-sales-cards` | 阿蕊科学销售体系4卡：框架卡(AI落地六块基本功)/方法卡(业务场景三步拆解法)/case卡(猎头-AI角色随阶段切换)/情报卡(销售AIπ平台对标) | reviewed | laowantong | 4张卡 | 老朱0831直令 | `60_feedback/tasks/task_20260831_laowantong-arui-science-sales-cards.md` | 素材已抓取落inbox(公众号正文4篇2701-3935字)；欧阳锋终审 |
 | 583 | `task_20260831_huangyaoshi-mnemosyne-memory-cache-pilot` | Mnemosyne记忆缓存层试点+狗粮测试：50张真卡语料A/B查询集对比kdo query(命中率/召回/延迟/token4维)→试点场景三选一判定 | reviewed | huangyaoshi | 对比表+判定+diagnosis | 老朱0831直令 | `60_feedback/tasks/task_20260831_huangyaoshi-mnemosyne-memory-cache-pilot.md` | 王语嫣初测79.9%压缩已实证；词法检索弱项已标注；结论欧阳锋终审后进产线 |
-| 584 | `task_20260831_huangyaoshi-wechat-pipeline-llm-fix` | wechat-collect管线LLM空总结根因修复+回归（王语嫣已应急落地：max_tokens 1500→8192推理模型思考链爆预算+注册副本路径锚点修复，5卡重产已入pending-cards）：黄药师跑--all全量回归+双副本同步机制评估 | pending_review | huangyaoshi | 回归+机制评估 | 王语嫣0831编排（22:09事故实证） | `60_feedback/tasks/task_20260831_huangyaoshi-wechat-pipeline-llm-fix.md` | 欧阳锋终审 |
+| 584 | `task_20260831_huangyaoshi-wechat-pipeline-llm-fix` | wechat-collect管线LLM空总结根因修复+回归（王语嫣已应急落地：max_tokens 1500→8192推理模型思考链爆预算+注册副本路径锚点修复，5卡重产已入pending-cards）：黄药师跑--all全量回归+双副本同步机制评估 | reviewed | huangyaoshi | 回归+机制评估 | 王语嫣0831编排（22:09事故实证） | `60_feedback/tasks/task_20260831_huangyaoshi-wechat-pipeline-llm-fix.md` | 欧阳锋终审 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
 ## ⚖️ 待终审（提审任务，queue_transition 自动登记）
@@ -393,7 +393,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#581 task_20260830_laowantong-private-board-conversion-case｜laowantong｜提审 08-30 22:50｜60_feedback/tasks/task_20260830_laowantong-private-board-conversion-case.md~~ → 已终审 PASS A-（2026-08-30 欧阳锋）
 - ~~#582 task_20260831_laowantong-arui-science-sales-cards｜laowantong｜提审 08-31 02:29｜60_feedback/tasks/task_20260831_laowantong-arui-science-sales-cards.md~~ → 已终审 PASS A-（2026-08-31 欧阳锋）
 - ~~#583 task_20260831_huangyaoshi-mnemosyne-memory-cache-pilot｜huangyaoshi｜提审 08-31 03:00｜60_feedback/tasks/task_20260831_huangyaoshi-mnemosyne-memory-cache-pilot.md~~ → 已终审 PASS A-（2026-08-31 欧阳锋；双实例独立印证一致，交叉印证补记+O3量具发现见任务单「## 终审记录」节）
-- #584 task_20260831_huangyaoshi-wechat-pipeline-llm-fix｜黄药师｜提审 08-31 23:37｜60_feedback/tasks/task_20260831_huangyaoshi-wechat-pipeline-llm-fix.md
+- ~~#584 task_20260831_huangyaoshi-wechat-pipeline-llm-fix｜黄药师｜提审 08-31 23:37｜60_feedback/tasks/task_20260831_huangyaoshi-wechat-pipeline-llm-fix.md~~ → 已终审 PASS A-（2026-08-31 欧阳锋）
 
 <!-- REVIEW-PENDING-END -->
 
@@ -624,6 +624,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~[gate-blocked] diag_20260831_huangyaoshi-mnemosyne-dogfood.md｜08-31 03:07｜待王语嫣复核处置｜2026-08-31 03:07:01｜diag_20260831_huangyaoshi-mnemosyne-dogfood.md｜near-miss-三元组（#506）｜status=REVIEW-PENDING 疑似待编排但非 pending_orchestration｜conveyor_probe~~ → 已化解（2026-08-31 03:30 王语嫣）：该诊断已欧阳锋终审 PASS A- 闭环（queue 状态 reviewed），near-miss 三元组为 status 口径误配非真待编排，划销
 - ~~[gate-blocked] task_20260831_huangyaoshi-wechat-pipeline-llm-fix｜08-31 23:37｜待王语嫣复核处置｜2026-08-31 23:36:32｜task_20260831_huangyaoshi-wechat-pipeline-llm-fix｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生 / - 未提交改动: kdo-tools/wechat_knowledge.py / - 未提交改动: 40_out｜huangyaoshi~~ → 已化解（2026-09-01 00:05 王语嫣）：E040 拦截后黄药师补 commit（c3d605431 字段锚点修正 + 3c3424494 预审报告重挂，7 路径全入仓无脏改动）23:37 重提，#584 pending_review 待欧阳锋终审；机器预审①差集 ✅——时序窗口残留划销
 - ~~[gate-blocked] diag_20260901_wangyuyan-5tb-design-asset-library.md｜09-01 01:17｜待王语嫣复核处置｜2026-09-01 01:17:01｜diag_20260901_wangyuyan-5tb-design-asset-library.md｜near-miss-三元组（#506）｜status=待老朱拍板 疑似待编排但非 pending_orchestration｜conveyor_probe~~ → 已处置（2026-09-01 01:35 王语嫣）：口径对齐划销——本件系王语嫣本人 5TB 设计素材库诊断，方案已交老朱（frontmatter status=待老朱拍板），立项决策悬空属「待老朱」合法态；探针终态枚举无中文态致误报，frontmatter 已对齐单轨口径（orchestrated+decision 字段保留拍板语义），终态枚举扩中文态挂 #506 观察项
+- [gate-blocked] task_20260831_huangyaoshi-wechat-pipeline-llm-fix｜09-01 01:37｜待王语嫣复核处置｜2026-09-01 01:36:08｜task_20260831_huangyaoshi-wechat-pipeline-llm-fix｜F-036-问题落点｜审查发现问题未给落点（F-036）：1. 🟡 同文重复采集未提级：1a718b 与 4dd7be 两卡 title 同为「重构协同：关于AI Native团；2. 🟡 无自动化回归护栏：管线修复验证全｜欧阳锋
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
