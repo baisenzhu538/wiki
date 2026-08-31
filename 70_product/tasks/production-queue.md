@@ -212,6 +212,8 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 583 | `task_20260831_huangyaoshi-mnemosyne-memory-cache-pilot` | Mnemosyne记忆缓存层试点+狗粮测试：50张真卡语料A/B查询集对比kdo query(命中率/召回/延迟/token4维)→试点场景三选一判定 | reviewed | huangyaoshi | 对比表+判定+diagnosis | 老朱0831直令 | `60_feedback/tasks/task_20260831_huangyaoshi-mnemosyne-memory-cache-pilot.md` | 王语嫣初测79.9%压缩已实证；词法检索弱项已标注；结论欧阳锋终审后进产线 |
 | 584 | `task_20260831_huangyaoshi-wechat-pipeline-llm-fix` | wechat-collect管线LLM空总结根因修复+回归（王语嫣已应急落地：max_tokens 1500→8192推理模型思考链爆预算+注册副本路径锚点修复，5卡重产已入pending-cards）：黄药师跑--all全量回归+双副本同步机制评估 | reviewed | huangyaoshi | 回归+机制评估 | 王语嫣0831编排（22:09事故实证） | `60_feedback/tasks/task_20260831_huangyaoshi-wechat-pipeline-llm-fix.md` | 欧阳锋终审 |
 | 586 | `task_20260901_laowantong-candy-collection-batch` | 学习candy合集+两天inbox批量产卡（翻译→全网调研→六层交叉→九层深挖→15+卡/skill化）：Wave0翻译3篇英文稿/Wave1数字讲故事+口喷脱敏+Skill设计+MUSE/Wave2-3其余 | claimed | laowantong | 15+卡+skill+workflow | 老朱0901直令（明早汇报） | `60_feedback/tasks/task_20260901_laowantong-candy-collection-batch.md` | 欧阳锋终审 |
+| 587 | `task_20260901_wangyuyan-skills-assistant-spec` | Skills助理Agent spec（老朱0901拍板第7角色：Skill生产+配置中枢）——卡→skill行为化产线衔接（欧阳锋终审出口判断触发入队）+73存量skill目录菜单+agent×skill挂载矩阵；spec→终审→部署走Agent生产流水线标准 | queued | wangyuyan | spec文件+基线用例 | 老朱0901直令 | `60_feedback/tasks/task_20260901_wangyuyan-skills-assistant-spec.md` | 欧阳锋终审；部署另立项 |
+| 588 | `task_20260901_huangyaoshi-skill-registry-mount-matrix` | Skill目录与挂载矩阵机制（Skills助理基建配套）：73存量skill自动扫描生成目录（名称/触发词/适用agent）+agent-spec「已挂载skills」节标准化+挂载登记制；黄药师基建单 | queued | huangyaoshi | 扫描脚本+目录生成+spec模板增补 | 老朱0901直令；依赖#587 spec | `60_feedback/tasks/task_20260901_huangyaoshi-skill-registry-mount-matrix.md` | 欧阳锋终审 |
 | 585 | `task_20260901_huangyaoshi-wechat-pipeline-smoke-test` | wechat采集管线smoke测试最小护栏：骨架标记skip判定断言+失败占位拦截联动+红绿自验（LLM全桩化） | pending_review | huangyaoshi | smoke脚本+断言+红绿验证 | #584终审扣分点2（欧阳锋明示立项） | `60_feedback/tasks/task_20260901_huangyaoshi-wechat-pipeline-smoke-test.md` | #584终审PASS A-指令执行（09-01王语嫣编排）；P2不插队；欧阳锋终审 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
@@ -461,6 +463,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~00_inbox/学习candy合集/尼尔·雷克汉姆：联结销售与营销（SPIN创始人）-视频逐字稿.md｜P2｜16894B｜检测到 08-31 18:41｜待王语嫣编排~~ → 已处置（2026-09-01 09-01 03:05 王语嫣）：同源整理版重登记——SPIN 访谈已 01:12 诊断（BV1JsgQzWEuD，sales 候选 ASR 差疑似管线测试流量；本件文件头自证同源 faster-whisper-small），诊断沿用，不入编排；本目录=#586 施工素材面（老朱 0901 直令，老顽童 claimed 施工中），无需另立项
 - 00_inbox/学习candy合集/translations/中译-大卫·布鲁克斯：芝大毕业演讲（求知是有代价的）-视频逐字稿.md｜P2｜31438B｜检测到 08-31 19:01｜待王语嫣编排
 - 00_inbox/学习candy合集/translations/中译-尼尔·雷克汉姆：联结销售与营销（SPIN创始人）-视频逐字稿.md｜P2｜14353B｜检测到 08-31 19:01｜待王语嫣编排
+- 00_inbox/学习candy合集/translations/中译-大卫·布鲁克斯：当代文化的3个主流谎言（TED）-视频逐字稿.md｜P2｜50158B｜检测到 08-31 19:11｜待王语嫣编排
 
 <!-- INBOX-PENDING-END -->
 
