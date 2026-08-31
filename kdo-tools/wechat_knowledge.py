@@ -64,15 +64,20 @@ def get_api_key() -> str:
 
 
 def llm_summarize(transcript: str, api_key: str) -> str:
-    """调用 DeepSeek 三层次总结。"""
+    """调用 DeepSeek 三层次总结。
+
+    #584（2026-08-31）：deepseek-v4-flash 是推理模型——思考链计入 completion_tokens，
+    1500 预算会被 reasoning 烧光导致 content=''（finish_reason=length，22:09 两篇实证）。
+    提到 8192 并对空 content 显式报错（不再静默落骨架）。
+    """
     payload = {
         "model": MODEL,
         "messages": [
-            {"role": "system", "content": "你是严谨的知识萃取专家，只依据给定文本总结，不编造。"},
+            {"role": "system", "content": "你是严谨的知识萃取专家，只依据给定文本总结，不编造。请直接输出三层次内容，不要输出思考过程。"},
             {"role": "user", "content": TRIPLE_FRAMEWORK_PROMPT.format(transcript=transcript[:20000])},
         ],
         "temperature": 0.3,
-        "max_tokens": 1500,
+        "max_tokens": 8192,
     }
     req = urllib.request.Request(
         API_URL,
@@ -80,9 +85,16 @@ def llm_summarize(transcript: str, api_key: str) -> str:
         headers={"Content-Type": "application/json", "Authorization": f"Bearer {api_key}"},
     )
     try:
-        with urllib.request.urlopen(req, timeout=120) as resp:
+        with urllib.request.urlopen(req, timeout=180) as resp:
             data = json.loads(resp.read().decode("utf-8"))
-        return data["choices"][0]["message"]["content"]
+        choice = data["choices"][0]
+        content = choice.get("message", {}).get("content") or ""
+        if not content.strip():
+            finish = choice.get("finish_reason", "?")
+            usage = data.get("usage", {})
+            print(f"  ⚠️ LLM 返回空内容（finish_reason={finish}, usage={usage}）——大概率 max_tokens 被 reasoning 耗尽或内容审查拦截")
+            return ""
+        return content
     except Exception as e:
         print(f"  ⚠️ LLM 调用失败: {e}")
         return ""

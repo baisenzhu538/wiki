@@ -210,6 +210,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 
 | 582 | `task_20260831_laowantong-arui-science-sales-cards` | 阿蕊科学销售体系4卡：框架卡(AI落地六块基本功)/方法卡(业务场景三步拆解法)/case卡(猎头-AI角色随阶段切换)/情报卡(销售AIπ平台对标) | reviewed | laowantong | 4张卡 | 老朱0831直令 | `60_feedback/tasks/task_20260831_laowantong-arui-science-sales-cards.md` | 素材已抓取落inbox(公众号正文4篇2701-3935字)；欧阳锋终审 |
 | 583 | `task_20260831_huangyaoshi-mnemosyne-memory-cache-pilot` | Mnemosyne记忆缓存层试点+狗粮测试：50张真卡语料A/B查询集对比kdo query(命中率/召回/延迟/token4维)→试点场景三选一判定 | reviewed | huangyaoshi | 对比表+判定+diagnosis | 老朱0831直令 | `60_feedback/tasks/task_20260831_huangyaoshi-mnemosyne-memory-cache-pilot.md` | 王语嫣初测79.9%压缩已实证；词法检索弱项已标注；结论欧阳锋终审后进产线 |
+| 584 | `task_20260831_huangyaoshi-wechat-pipeline-llm-fix` | wechat-collect管线LLM空总结根因修复+回归（王语嫣已应急落地：max_tokens 1500→8192推理模型思考链爆预算+注册副本路径锚点修复，5卡重产已入pending-cards）：黄药师跑--all全量回归+双副本同步机制评估 | queued | huangyaoshi | 回归+机制评估 | 王语嫣0831编排（22:09事故实证） | `60_feedback/tasks/task_20260831_huangyaoshi-wechat-pipeline-llm-fix.md` | 欧阳锋终审 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
 ## ⚖️ 待终审（提审任务，queue_transition 自动登记）
@@ -399,8 +400,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 
 ## 📥 待编排（inbox 新素材，watch_inbox 自动登记）
 
-> 王语嫣维护看板时处理：诊断 → 写任务单 → 入队后把对应行划掉。
-> 🩹 2026-08-31 瘦身：清理探针洪水登记 7901 行 + 归档处置留痕 97 行 → `archive/inbox-pending-slim-20260831.md`（state 防重登，git history 可溯）
+> 王语嫣维护看板时处理：诊断 → 写任务单 → 入队后把对应行划掉。编排规则不变，这里只解决「没人被通知」。
 
 - ~~00_inbox/《真正的利润》拆书逐字稿 — 水水｜战略定价顾问.md｜P0｜14770B｜检测到 08-30 18:11｜待王语嫣编排~~ → 已诊断（08-31 02:35 王语嫣）：域归属=商业/strategy 候选素材（赫尔曼·西蒙隐形冠军定价/利润系统，水水拆书稿，14770B 完整逐字稿）；初判=有萃取价值（定价/利润框架可出概念+方法卡候选），待老朱触发编排
 - ~~00_inbox/智能纪要：思存｜知识库管理二重奏 2026年6月15日 副本.md｜P2｜14299B｜检测到 08-30 18:11｜待王语嫣编排~~ → 已诊断（08-31 02:35 王语嫣）：域归属=kdo/知识管理域外部参照（张若微元数据搭建+蓝宇实操，124人直播课，含 skill 化交付/存用分离方法论）；初判=与 KDO 自身方法同构可对标，待老朱触发编排
@@ -408,6 +408,11 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~00_inbox/内容生产域/专家分享｜AI x 内容工业化生产（熙熙）— 逐字稿.md｜P2｜39395B｜检测到 08-30 18:11｜待王语嫣编排~~ → 已诊断（08-31 02:35 王语嫣）：域归属=content/内容生产域（AI 内容工业化流水线：公域获客×AI 生产稳定性，熙熙，39KB 逐字稿）；初判=与 KDO 产线理念同构，可出概念+方法卡候选，待老朱触发编排
 - ~~00_inbox/私董会/罗毅-三阴交/文字记录：55组第3次会议｜S级私董会第6期（可编辑时间） 2026年7月30日.md｜P2｜244349B｜检测到 08-30 18:11｜待王语嫣编排~~ → 已诊断（08-31 03:10 王语嫣）：55组第3次私董会逐字稿（244KB，罗意案主·元气达人三阴交贴视频号项目问诊，与已产 #581 叶柳清案例同属 S级私董会第6期系列）；含保密承诺，素材原文不动；待老朱触发编排
 - ~~00_inbox/私董会/罗毅-三阴交/智能纪要：55组第3次会议｜S级私董会第6期（可编辑时间） 2026年7月30日.md｜P2｜11661B｜检测到 08-30 18:11｜待王语嫣编排~~ → 已诊断（08-31 03:10 王语嫣）：同场会议 AI 智能纪要（11.6KB）——12年电商操盘案主背景/三 SKU 定价/内容审核·投流·主播承接三卡点/多轮幕僚共创，结构化素材，与逐字稿同源互证；待老朱触发编排
+- 00_inbox/pending-cards/case-wechat-346efef2737b383b.md｜P2｜3478B｜检测到 08-31 14:41｜待王语嫣编排
+- 00_inbox/pending-cards/case-wechat-68004aecb3d913a5.md｜P2｜4020B｜检测到 08-31 14:41｜待王语嫣编排
+- 00_inbox/pending-cards/case-wechat-dy_7654610643165120177.md｜P2｜3689B｜检测到 08-31 14:41｜待王语嫣编排
+- 00_inbox/pending-cards/case-wechat-dy_7671986884592010673.md｜P2｜3333B｜检测到 08-31 14:41｜待王语嫣编排
+- 00_inbox/pending-cards/case-wechat-e7536bf1d8f1a7b1.md｜P2｜3575B｜检测到 08-31 14:41｜待王语嫣编排
 
 <!-- INBOX-PENDING-END -->
 

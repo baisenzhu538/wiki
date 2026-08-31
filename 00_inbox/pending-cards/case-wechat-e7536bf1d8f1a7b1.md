@@ -1,8 +1,24 @@
 ---
-title: "征留就是AI时代的合法强迹"
+title: "Skill征留——把书和方法论封装成AI技能包"
 type: case
 status: draft
-domain: wechat-video
+domain:
+- ai-collaboration
+- kdo
+aliases:
+- Skill征留
+- 技能包
+- 一战神灯Skill
+- 书转Skill
+- 知识封装
+discoverable_by:
+- Skill征留
+- 技能包
+- 一战神灯Skill
+- 书转Skill
+source_context:
+- 视频号偶遇采集（wechat-collect 管线），老朱 inbox 已筛选
+- 2026-08-31 王语嫣编排入库
 source_refs:
 - 00_inbox/wechat-collect/src_wechat_e7536bf1d8f1a7b1.md
 created_at: 2026-08-31

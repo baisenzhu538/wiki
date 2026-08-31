@@ -20,7 +20,11 @@ from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-WIKI = Path(__file__).resolve().parent.parent
+# 路径锚点（#584 修复，2026-08-31）：同 wechat_knowledge.py——注册副本锚点硬指 wiki 根
+_WIKI = Path(__file__).resolve()
+while _WIKI.name != "wiki" and _WIKI.parent != _WIKI:
+    _WIKI = _WIKI.parent
+WIKI = _WIKI
 INBOX_DIR = WIKI / "00_inbox" / "wechat-collect"
 SOURCES_DIR = WIKI / "10_raw" / "sources"
 CASES_DIR = WIKI / "30_wiki" / "cases"
