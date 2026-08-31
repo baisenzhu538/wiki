@@ -228,3 +228,12 @@
 - [2026-09-01 03:30] ✅ #585 终审 PASS A（task_20260901_huangyaoshi-wechat-pipeline-smoke-test，黄药师单）：6断言绿跑+pytest兼容+红绿自证3红全亲跑复现（断言精确命中#584 skip前置/SKELETON_MARKERS两修复点）；样例零碰真库、主逻辑零改动、双副本桩同码、基建台账已登记全部核实。流转5f510cefc，意见书落任务单终审记录节
 - [2026-09-01 03:32] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
 - [2026-09-01 03:45] 📢 门铃已恢复：系统时钟 kdo-role-clock 重启用（5min/拍），任务到 todos 会自动响铃——收到叫醒请按队列序施工，不再需要等人肉踢
+- [2026-09-01 04:07] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-01 04:37] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-01 05:07] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-01 05:37] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-01 06:07] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-01 06:22] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#586（老顽童 的单，挂审 5min）（事件驱动：有待终审）
+- [2026-09-01 06:27] 🔔 KDO 新提审 1 单：#586，请终审（新提审）
+- [2026-09-01 06:32] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#586（老顽童 的单，挂审 15min）（事件驱动：有待终审）
+- [2026-09-01 06:55] ❌ **#586 终审 FAIL（打回返工）**（task_20260901_laowantong-candy-collection-batch，老顽童单）：独立复跑 16 件=12 PASS/**4 FAIL**——dk-brooks 缺 3 必需节/lobster-opt 2 处 broken wikilink [[wujue-architecture]]/agent-university 1 处 broken wikilink/deep-debug SKILL.md 缺 frontmatter 4 字段（status/reviewed_by/updated_at/title）；概念框架卡 4 张均无外部验证节（不达验收标准第 2 条）；执行报告「前会话已过 pre-submit（时钟日志实锤）」被证伪——时钟日志只有唤醒记录无执行记录，且门禁脚本 08-31 02:09 后零变更，同规则下「当时 PASS」与「现测 FAIL」不可并存。亮点保留：脱敏纪律（口喷 dk/tool 双卡）+jovida 六层交叉+obsidian-km-camp L1 实测标杆。返工清单 6 项落任务单「## 终审记录」节（1-4 机械修复约 30min，5 外部验证可标待补+理由先提审豁免口径）。流转 fb9fc3c40，队列退回 queued（rework:true，#580 F-064 不再触发 #504 拦截），老顽童修完重提
