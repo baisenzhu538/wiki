@@ -461,9 +461,9 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~00_inbox/学习candy合集/大卫·布鲁克斯：当代文化的3个主流谎言（TED）-视频逐字稿.md｜P2｜56103B｜检测到 08-31 18:41｜待王语嫣编排~~ → 已处置（2026-09-01 09-01 03:05 王语嫣）：同源整理版重登记——TED 主流谎言已 02:33 处置（BV1kp4y1v7p9 三采族同源派生，David Brooks 实证），诊断沿用，不入编排；本目录=#586 施工素材面（老朱 0901 直令，老顽童 claimed 施工中），无需另立项
 - ~~00_inbox/学习candy合集/大卫·布鲁克斯：芝大毕业演讲（求知是有代价的）-视频逐字稿.md｜P2｜33816B｜检测到 08-31 18:41｜待王语嫣编排~~ → 已处置（2026-09-01 09-01 03:05 王语嫣）：同源整理版重登记——芝大毕业演讲已 01:12/02:20 诊断（BV1rp4y1e76Y big 版为准，双采撞车族），诊断沿用，不入编排；本目录=#586 施工素材面（老朱 0901 直令，老顽童 claimed 施工中），无需另立项
 - ~~00_inbox/学习candy合集/尼尔·雷克汉姆：联结销售与营销（SPIN创始人）-视频逐字稿.md｜P2｜16894B｜检测到 08-31 18:41｜待王语嫣编排~~ → 已处置（2026-09-01 09-01 03:05 王语嫣）：同源整理版重登记——SPIN 访谈已 01:12 诊断（BV1JsgQzWEuD，sales 候选 ASR 差疑似管线测试流量；本件文件头自证同源 faster-whisper-small），诊断沿用，不入编排；本目录=#586 施工素材面（老朱 0901 直令，老顽童 claimed 施工中），无需另立项
-- 00_inbox/学习candy合集/translations/中译-大卫·布鲁克斯：芝大毕业演讲（求知是有代价的）-视频逐字稿.md｜P2｜31438B｜检测到 08-31 19:01｜待王语嫣编排
-- 00_inbox/学习candy合集/translations/中译-尼尔·雷克汉姆：联结销售与营销（SPIN创始人）-视频逐字稿.md｜P2｜14353B｜检测到 08-31 19:01｜待王语嫣编排
-- 00_inbox/学习candy合集/translations/中译-大卫·布鲁克斯：当代文化的3个主流谎言（TED）-视频逐字稿.md｜P2｜50158B｜检测到 08-31 19:11｜待王语嫣编排
+- ~~00_inbox/学习candy合集/translations/中译-大卫·布鲁克斯：芝大毕业演讲（求知是有代价的）-视频逐字稿.md｜P2｜31438B｜检测到 08-31 19:01｜待王语嫣编排~~ → 已处置（2026-09-01 03:35 王语嫣）：#586 Wave0 翻译施工产物（文件头自证「中译：2026-09-01 王语嫣编排」，三件=芝大/SPIN/TED主流谎言中译稿，对应 big 版逐字稿已 01:12/02:33 诊断在册），施工产物非新素材，不入编排；原文不动
+- ~~00_inbox/学习candy合集/translations/中译-尼尔·雷克汉姆：联结销售与营销（SPIN创始人）-视频逐字稿.md｜P2｜14353B｜检测到 08-31 19:01｜待王语嫣编排~~ → 已处置（2026-09-01 03:35 王语嫣）：#586 Wave0 翻译施工产物（文件头自证「中译：2026-09-01 王语嫣编排」，三件=芝大/SPIN/TED主流谎言中译稿，对应 big 版逐字稿已 01:12/02:33 诊断在册），施工产物非新素材，不入编排；原文不动
+- ~~00_inbox/学习candy合集/translations/中译-大卫·布鲁克斯：当代文化的3个主流谎言（TED）-视频逐字稿.md｜P2｜50158B｜检测到 08-31 19:11｜待王语嫣编排~~ → 已处置（2026-09-01 03:35 王语嫣）：#586 Wave0 翻译施工产物（文件头自证「中译：2026-09-01 王语嫣编排」，三件=芝大/SPIN/TED主流谎言中译稿，对应 big 版逐字稿已 01:12/02:33 诊断在册），施工产物非新素材，不入编排；原文不动
 
 <!-- INBOX-PENDING-END -->
 
@@ -645,6 +645,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~[gate-blocked] task_20260831_huangyaoshi-wechat-pipeline-llm-fix｜08-31 23:37｜待王语嫣复核处置｜2026-08-31 23:36:32｜task_20260831_huangyaoshi-wechat-pipeline-llm-fix｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生 / - 未提交改动: kdo-tools/wechat_knowledge.py / - 未提交改动: 40_out｜huangyaoshi~~ → 已化解（2026-09-01 00:05 王语嫣）：E040 拦截后黄药师补 commit（c3d605431 字段锚点修正 + 3c3424494 预审报告重挂，7 路径全入仓无脏改动）23:37 重提，#584 pending_review 待欧阳锋终审；机器预审①差集 ✅——时序窗口残留划销
 - ~~[gate-blocked] diag_20260901_wangyuyan-5tb-design-asset-library.md｜09-01 01:17｜待王语嫣复核处置｜2026-09-01 01:17:01｜diag_20260901_wangyuyan-5tb-design-asset-library.md｜near-miss-三元组（#506）｜status=待老朱拍板 疑似待编排但非 pending_orchestration｜conveyor_probe~~ → 已处置（2026-09-01 01:35 王语嫣）：口径对齐划销——本件系王语嫣本人 5TB 设计素材库诊断，方案已交老朱（frontmatter status=待老朱拍板），立项决策悬空属「待老朱」合法态；探针终态枚举无中文态致误报，frontmatter 已对齐单轨口径（orchestrated+decision 字段保留拍板语义），终态枚举扩中文态挂 #506 观察项
 - ~~[gate-blocked] task_20260831_huangyaoshi-wechat-pipeline-llm-fix｜09-01 01:37｜待王语嫣复核处置｜2026-09-01 01:36:08｜task_20260831_huangyaoshi-wechat-pipeline-llm-fix｜F-036-问题落点｜审查发现问题未给落点（F-036）：1. 🟡 同文重复采集未提级：1a718b 与 4dd7be 两卡 title 同为「重构协同：关于AI Native团；2. 🟡 无自动化回归护栏：管线修复验证全｜欧阳锋~~ → 已处置关闭（2026-09-01 01:45 王语嫣）：#584 终审 PASS A- 时序残留——欧阳锋 01:36 预审意见两问题均已给落点：①同文重复采集=编排层已处置（1a718b 撞车划销 08-31 23:32 在案；4dd7be promote 版为 canonical，30_wiki 不动）②smoke 护栏=已立项 **#585**（P2 黄药师）
+~~[gate-blocked] role-liveness｜09-01 05:07｜待王语嫣复核处置｜2026-09-01 05:01:39｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 125.4), ('cli', 30.6)]）｜role_registry check-liveness｜role_registry~~ → 已知问题划销（2026-09-01 05:35 王语嫣）：huangyaoshi kimi-cli 长期无心跳冷却重报同族（08-28 起多拍先例）——本拍实测 role_registry check-liveness 全死角色 0、cli 实例在岗；#562 任务2 心跳挂钩已修，kimi-cli 残留无产线阻塞，划销
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |

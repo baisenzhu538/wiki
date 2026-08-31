@@ -1,5 +1,5 @@
 {
-  "huangyaoshi": {
+  "wangyuyan": {
     "instances": [
       {
         "tool": "kimi-cli",
@@ -7,17 +7,8 @@
         "channels": [
           "todos"
         ],
-        "heartbeat_ts": 1787857093.2912502,
-        "session_scope": "C:/Users/Administrator/Desktop/wiki"
-      },
-      {
-        "tool": "cli",
-        "kind": "cli",
-        "channels": [
-          "todos"
-        ],
-        "heartbeat_ts": 1788114725.8921804,
-        "session_scope": "C:\\Users\\Administrator\\Desktop\\wiki"
+        "heartbeat_ts": 1788212082.34051,
+        "session_scope": "C:/Users/Administrator"
       },
       {
         "tool": "hermes",
@@ -26,36 +17,20 @@
           "feishu",
           "todos"
         ],
-        "heartbeat_ts": 1787859951.8948011,
-        "profile": "huangyaoshi"
-      }
-    ],
-    "active": "cli"
-  },
-  "laowantong": {
-    "instances": [
+        "heartbeat_ts": 1788212098.9685163,
+        "profile": "wangyuyan"
+      },
       {
         "tool": "cli",
         "kind": "cli",
         "channels": [
           "todos"
         ],
-        "heartbeat_ts": 1788114726.0070233,
+        "heartbeat_ts": 1788211824.9627707,
         "session_scope": "C:\\Users\\Administrator\\Desktop\\wiki"
-      },
-      {
-        "tool": "hermes",
-        "kind": "platform",
-        "channels": [
-          "feishu",
-          "todos"
-        ],
-        "heartbeat_ts": 1787859943.0413005,
-        "profile": "laowantong-feishu"
       }
     ],
-    "active": "cli",
-    "wake_pace_min": 15
+    "active": "hermes"
   },
   "ouyangfeng": {
     "instances": [
@@ -65,7 +40,8 @@
         "channels": [
           "todos"
         ],
-        "heartbeat_ts": 1787860117.2874327
+        "heartbeat_ts": 1788202606.9391618,
+        "session_scope": "C:/Users/Administrator/Desktop/wiki"
       },
       {
         "tool": "cli",
@@ -73,23 +49,13 @@
         "channels": [
           "todos"
         ],
-        "heartbeat_ts": 1788115040.4459386,
+        "heartbeat_ts": 1788211863.661122,
         "session_scope": "C:\\Users\\Administrator\\Desktop\\wiki"
-      },
-      {
-        "tool": "hermes",
-        "kind": "platform",
-        "channels": [
-          "feishu",
-          "todos"
-        ],
-        "heartbeat_ts": 1787859756.6339724,
-        "profile": "ouyangfeng"
       }
     ],
     "active": "cli"
   },
-  "wangyuyan": {
+  "fengqingyang": {
     "instances": [
       {
         "tool": "kimi-cli",
@@ -97,17 +63,22 @@
         "channels": [
           "todos"
         ],
-        "heartbeat_ts": 1787859852.0164866
-      },
+        "heartbeat_ts": 1788202555.6540036,
+        "session_scope": "C:/Users/Administrator/Desktop/wiki"
+      }
+    ],
+    "active": "kimi-cli"
+  },
+  "huangyaoshi": {
+    "instances": [
       {
-        "tool": "hermes",
-        "kind": "platform",
+        "tool": "kimi-cli",
+        "kind": "cli",
         "channels": [
-          "feishu",
           "todos"
         ],
-        "heartbeat_ts": 1788114800.9933336,
-        "profile": "wangyuyan"
+        "heartbeat_ts": 1788202577.522073,
+        "session_scope": "C:/Users/Administrator/Desktop/wiki"
       },
       {
         "tool": "cli",
@@ -115,25 +86,33 @@
         "channels": [
           "todos"
         ],
-        "heartbeat_ts": 1787859820.2730412,
+        "heartbeat_ts": 1788211863.4322004,
         "session_scope": "C:\\Users\\Administrator\\Desktop\\wiki"
       }
     ],
-    "active": "hermes",
-    "wake_pace_min": 30
+    "active": "cli"
   },
-  "fengqingyang": {
+  "laowantong": {
     "instances": [
       {
-        "tool": "codex",
+        "tool": "kimi-cli",
         "kind": "cli",
         "channels": [
           "todos"
         ],
-        "heartbeat_ts": 1787784865.4365942
+        "heartbeat_ts": 1788202585.658435,
+        "session_scope": "C:/Users/Administrator/Desktop/wiki"
+      },
+      {
+        "tool": "cli",
+        "kind": "cli",
+        "channels": [
+          "todos"
+        ],
+        "heartbeat_ts": 1788211863.546831,
+        "session_scope": "C:\\Users\\Administrator\\Desktop\\wiki"
       }
     ],
-    "active": "codex",
-    "wake_pace_min": 720
+    "active": "cli"
   }
 }

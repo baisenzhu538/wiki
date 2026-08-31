@@ -148,3 +148,7 @@
 - [2026-09-01 04:37] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
 [2026-09-01 05:01] 🕐 时钟值守拍（05:01）：①INBOX/PROPOSAL 0 未划销（04:32 后无新增）；②产线实核：#586 claimed 但施工中断实锤——Wave0 翻译 03:08 落盘后 81min 零产出（translations 后无新文件/git 停 03:39/liveness 判 laowantong 死），P0 明早汇报单 → headless 拉起老顽童续做（proc_a7c9918b4c58）；③#587 名下 queued 等专项会话（不占时钟拍），#588 依赖 #587 spec 未交付维持暂不拉起；④pending_review 0 不拉欧阳锋；⑤结构地图例行单搜 7 命中=同名单历史残留（老单冻结不回注）；⑥心跳已写
 [2026-09-01 05:01] 🚀 已拉起 laowantong：#586 续做（上一实例 03:08 后中断，Wave1 起）
+- [2026-09-01 05:07] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-01 05:07] ⛔ KDO 门禁拦截 2 次（gate-blocked）：2026-09-01 05:01:39｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-c…
+[2026-09-01 05:35] 🕐 时钟值守拍（05:32-05:35）：①PROPOSAL-PENDING 消费 1 行划销（05:07 role-liveness 黄药师冷却重报，实测 check-liveness 全死角色 0，见下）；②INBOX-PENDING 0 未划销；③产线：#586 claimed 施工恢复实锤——05:22-05:32 五张新卡落盘（MUSE 框架/数字讲故事/口喷工具+dk/Brooks 概念），05:01 拉起实例在产不重复拉起；#587 名下 queued 维持等专项会话（防双 wangyuyan 实例），#588 依赖 #587 spec 未交付维持暂不拉起黄药师；pending_review 0 无需拉欧阳锋；④结构地图例行 grep 7 命中=历史残留（6 单无结构地图节，#572 已裁定，老单冻结不回注）；⑤心跳已写
+[2026-09-01 05:35] ⚖️ 划销 gate-blocked role-liveness 05:07 行：huangyaoshi kimi-cli 冷却重报同族——本拍 role_registry check-liveness 实测全死角色 0、cli 心跳在岗，非产线阻塞
