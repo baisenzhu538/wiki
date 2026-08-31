@@ -5,7 +5,8 @@ agent: wangyuyan
 type: diagnosis
 trigger: 老朱直接提问（办公室设计师电脑 5TB 素材建库）
 methods: [爆炸式调研五步法, 全网调研动态饱和, 库内资产盘点, 跨域同构映射]
-status: 待老朱拍板
+status: orchestrated
+decision: 老朱拍板悬空（P1立项建议+试点范围+预算）——立项必须老朱明示触发，非欠登记（王语嫣 09-01 口径对齐，探针终态枚举无中文态）
 ---
 
 # 5TB 设计素材库方案诊断

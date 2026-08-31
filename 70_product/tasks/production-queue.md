@@ -433,6 +433,17 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~00_inbox/video_transcripts/BV1rp4y1e76Y-逐字稿.md｜P2｜30332B｜检测到 08-31 17:11｜待王语嫣编排~~ → 已诊断（2026-09-01 01:12 王语嫣）：与 BV1ug411i7bH 同演讲双采（芝加哥大学 class day 毕业演讲，31min，文本逐字相同）；content 价值中等（演讲技巧域候选）；双取一，待老朱触发
 - ~~00_inbox/video_transcripts/BV1ug411i7bH-逐字稿.md｜P2｜30515B｜检测到 08-31 17:11｜待王语嫣编排~~ → 撞车划销（2026-09-01 01:12 王语嫣）：与 BV1rp4y1e76Y 同演讲重复转写，不单独立项
 - ~~00_inbox/video_transcripts/BV1wb9XBXEGb-逐字稿.md｜P2｜63363B｜检测到 08-31 17:11｜待王语嫣编排~~ → 已诊断（2026-09-01 01:12 王语嫣）：耶鲁演讲 63min（华盛顿往返/任教 90 年代起，疑似 David Brooks）；英文 ASR 质量一般；疑似管线测试流量，待老朱触发
+- 00_inbox/video_transcripts_small/BV1JsgQzWEuD-逐字稿.md｜P2｜16657B｜检测到 08-31 17:31｜待王语嫣编排
+- 00_inbox/video_transcripts_small/BV1kp4y1v7p9_p1-逐字稿.md｜P2｜18397B｜检测到 08-31 17:31｜待王语嫣编排
+- 00_inbox/学习candy合集/审计：Eason文化审计与实事求是DataPack.md｜P2｜19350B｜检测到 08-31 17:31｜待王语嫣编排
+- 00_inbox/学习candy合集/技能：deep-debug深度调试技能.md｜P2｜9424B｜检测到 08-31 17:31｜待王语嫣编排
+- 00_inbox/学习candy合集/指南：高阶 Skill 设计指南.md｜P2｜23507B｜检测到 08-31 17:31｜待王语嫣编排
+- 00_inbox/学习candy合集/数据包：MUSE模型.md｜P2｜34793B｜检测到 08-31 17:31｜待王语嫣编排
+- 00_inbox/学习candy合集/架构：产品设想：龙虾团队OPT.md｜P2｜16302B｜检测到 08-31 17:31｜待王语嫣编排
+- 00_inbox/学习candy合集/设想：Agent大学——让你的Agent来一堂进修.md｜P2｜23791B｜检测到 08-31 17:31｜待王语嫣编排
+- 00_inbox/学习candy合集/调研：Jovida AI竞争力双三角洞察报告.md｜P2｜17946B｜检测到 08-31 17:31｜待王语嫣编排
+- 00_inbox/学习candy合集/调研：Jovida 深度产品调研报告.md｜P2｜12795B｜检测到 08-31 17:31｜待王语嫣编排
+- 00_inbox/学习candy合集/顶层：我对WAIC的顶层思考和学习框架.md｜P2｜11327B｜检测到 08-31 17:31｜待王语嫣编排
 
 <!-- INBOX-PENDING-END -->
 
@@ -612,6 +623,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~[gate-blocked] task_20260831_huangyaoshi-mnemosyne-memory-cache-pilot｜08-31 03:07｜待王语嫣复核处置｜2026-08-31 02:59:14｜task_20260831_huangyaoshi-mnemosyne-memory-cache-pilot｜F-034-五字段｜任务单缺少「## 执行报告」节（#429 F-034：交付必须落执行报告，口头完成=未完成；#444：evidence 附件不能替代）｜huangyaoshi~~ → 已化解（2026-08-31 03:30 王语嫣）：实核任务单执行报告已落盘（黄药师完工时补齐五字段）且 #583 已终审 PASS A- 双实例印证——时序窗口残留，划销
 - ~~[gate-blocked] diag_20260831_huangyaoshi-mnemosyne-dogfood.md｜08-31 03:07｜待王语嫣复核处置｜2026-08-31 03:07:01｜diag_20260831_huangyaoshi-mnemosyne-dogfood.md｜near-miss-三元组（#506）｜status=REVIEW-PENDING 疑似待编排但非 pending_orchestration｜conveyor_probe~~ → 已化解（2026-08-31 03:30 王语嫣）：该诊断已欧阳锋终审 PASS A- 闭环（queue 状态 reviewed），near-miss 三元组为 status 口径误配非真待编排，划销
 - ~~[gate-blocked] task_20260831_huangyaoshi-wechat-pipeline-llm-fix｜08-31 23:37｜待王语嫣复核处置｜2026-08-31 23:36:32｜task_20260831_huangyaoshi-wechat-pipeline-llm-fix｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生 / - 未提交改动: kdo-tools/wechat_knowledge.py / - 未提交改动: 40_out｜huangyaoshi~~ → 已化解（2026-09-01 00:05 王语嫣）：E040 拦截后黄药师补 commit（c3d605431 字段锚点修正 + 3c3424494 预审报告重挂，7 路径全入仓无脏改动）23:37 重提，#584 pending_review 待欧阳锋终审；机器预审①差集 ✅——时序窗口残留划销
+- ~~[gate-blocked] diag_20260901_wangyuyan-5tb-design-asset-library.md｜09-01 01:17｜待王语嫣复核处置｜2026-09-01 01:17:01｜diag_20260901_wangyuyan-5tb-design-asset-library.md｜near-miss-三元组（#506）｜status=待老朱拍板 疑似待编排但非 pending_orchestration｜conveyor_probe~~ → 已处置（2026-09-01 01:35 王语嫣）：口径对齐划销——本件系王语嫣本人 5TB 设计素材库诊断，方案已交老朱（frontmatter status=待老朱拍板），立项决策悬空属「待老朱」合法态；探针终态枚举无中文态致误报，frontmatter 已对齐单轨口径（orchestrated+decision 字段保留拍板语义），终态枚举扩中文态挂 #506 观察项
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |

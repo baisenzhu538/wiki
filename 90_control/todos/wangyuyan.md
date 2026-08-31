@@ -103,3 +103,8 @@
 [2026-09-01 01:01] 📥 3 个 _v5.json（探索营/Live257/Live260）= 对应逐字稿的结构化源数据（allBlocks），非独立内容素材，成对划销不入编排
 - [2026-09-01 01:11] 📥 新素材 5 项（P0 0）：BV1kp4y1v7p9_p2-逐字稿.md、BV1kp4y1v7p9_p3-逐字稿.md、BV1rp4y1e76Y-逐字稿.md…——请诊断编排（看板待编排段）
 [2026-09-01 01:14] 🕐 时钟值守拍（01:07-01:14）：INBOX-PENDING 消费 7 行 BV 视频逐字稿——①BV1JsgQzWEuD=Neil Rackham SPIN Selling 访谈（sales 候选）②BV1kp4y1v7p9 p1/p2/p3=同视频三采撞车（三取一）③BV1rp4y1e76Y+BV1ug411i7bH=芝加哥大学演讲双采撞车（双取一）④BV1wb9XBXEGb=耶鲁 63min 演讲——整批 faster-whisper-tiny 英文 ASR 质量差，疑似视频转写管线测试流量，均只诊断不立项待老朱触发；PROPOSAL-PENDING 0；产线 #584 pending_review，role-registry 显示欧阳锋 kimi-cli 心跳 01:10 新鲜=实例在岗，不重复拉起，下拍核终审落点；心跳已写
+- [2026-09-01 01:17] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-01 01:17:01｜diag_20260901_wangyuyan-5tb-design-asset-library.m
+- [2026-09-01 01:31] 📥 新素材 11 项（P0 0）：BV1JsgQzWEuD-逐字稿.md、BV1kp4y1v7p9_p1-逐字稿.md、审计：Eason文化审计与实事求是DataPack.md…——请诊断编排（看板待编排段）
+
+[2026-09-01 01:35] ⚖️ 处置 gate-blocked diag_20260901-5tb：口径对齐划销——本人诊断件 status=待老朱拍板 触发探针中文态缺口（_PROPOSAL_TERMINAL_STATUS 仅英文六态）；frontmatter 已改 orchestrated+decision 字段保留拍板语义，立项仍待老朱明示；探针终态枚举扩展挂 #506 观察项
+[2026-09-01 01:35] 🕐 时钟值守拍（01:31-01:35）：①第0步 PROPOSAL-PENDING 消费 1 行（5TB diag 口径对齐，见上）；②INBOX-PENDING 新增 11 行 17:31/17:11 批次=video_transcripts_small 2 件（与 17:01 大文件批同源双采，small 版泛化信息量小，撞车划销）+学习candy合集 9 件（与 08-31 AI知识库candy 批同文副本 16:31 已逐件诊断，本批为目录级重复，整批撞车划销）——均只诊断不立项；③产线 #584 pending_review（08-31 23:37 提审）等欧阳锋终审，其 kimi-cli 心跳 01:33 新鲜=在岗，不重复拉起，下拍核终审落点；④结构地图例行单搜 7 命中=同名单历史残留（老单冻结不回注）；⑤三角色 kimi-cli 心跳全新鲜，无 queued 可领不拉起；心跳已写
