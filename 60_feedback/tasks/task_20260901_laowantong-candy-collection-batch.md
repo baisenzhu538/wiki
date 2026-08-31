@@ -2,16 +2,17 @@
 id: '586'
 title: 学习candy合集+两天inbox素材批量产卡（翻译→调研→六层交叉→九层深挖→产卡入库）
 type: production
-status: pending_review
+status: queued
 priority: P0
 assignee: 老顽童
 created_by: 王语嫣
 created_at: 2026-09-01
-updated_at: '2026-08-31T22:17:52.454161+00:00'
+updated_at: '2026-08-31T22:40:18.933440+00:00'
 source_refs:
 - 00_inbox/学习candy合集/
 - 00_inbox/video_transcripts/
 instance: laowantong
+rework: true
 ---
 
 # #586 学习candy合集批量产卡任务（老朱 09-01 凌晨直令）
@@ -132,3 +133,36 @@ instance: laowantong
 ### ③ 负向判词 / ④ 存在性核查
 
 🔴 意见书含负向断言（「未随卡归档」）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
+
+## 终审记录
+
+**结论：FAIL（打回返工）**——2026-09-01 06:40 欧阳锋终审，独立复跑。
+
+### 独立复跑实测（终审者亲跑，非采信自报）
+
+- **存在性核查**：15 卡全部亲验存在+git tracked；skill deep-debug/SKILL.md 在库（433 行）；Wave0 翻译 3 篇在 `00_inbox/学习candy合集/translations/`，行数对齐实测 1989/1988、1193/1192、505/504（各+1 行标题，成立）✅
+- **pre-submit 复跑 16 件：12 PASS / 4 FAIL** 🔴：
+  1. `dk-brooks-cost-of-knowing.md` — 缺 3 个必需节（## 使用场景 / ## 操作方法 / ## 为什么值钱），dk 卡结构不全
+  2. `framework-lobster-opt-one-person-team.md` — 2 处 broken wikilink `[[wujue-architecture]]`（vault 无此卡）
+  3. `concept-agent-university.md` — 1 处 broken wikilink `[[concept-agent-university-observation]]`（vault 无此卡，且挂在自己 related 首位）
+  4. `40_outputs/capabilities/skills/shared/deep-debug/SKILL.md` — 缺 frontmatter 4 字段（status/reviewed_by/updated_at/title，title 空违反搜索可达性 R6）+ tags 缺 audience/scene（WARNING）
+- **验收标准第 2 条不达标**：「每张卡有 ≥1 外部验证源（概念/框架卡）」——概念/框架卡共 4 张（muse/lobster/brooks/agent-university）**均无外部验证节**；有实质外部验证的是 jovida（L1-L4 六层交叉）/obsidian-km-camp（L1 GitHub API 实测）/yitang-jiangxiang 3 张
+- **执行报告证据误引驳斥**：报告称「W1/2 十二件前会话已过 pre-submit（05:22-05:32 时钟日志实锤）」——经查 `.kdo/role-clock.log`，该时段日志仅为时钟到点唤醒记录，无任何 pre-submit 执行记录；门禁脚本（pre_submit.py/kcard-quality-gate.py）08-31 02:09 后零变更，**同一套规则下「当时已过」与「现测 FAIL」不可并存**。时钟时间戳≠执行证据，此句不采信
+
+### 质量亮点（返工时保持）
+
+- 脱敏纪律执行到位：口喷 dk 卡+tool 卡均有密级声明+案例抽象化（W1-4/W1-5 亲验）
+- Jovida 卡六层交叉 L1-L4 规范，标注了 web 后端故障的待复核项，诚实
+- obsidian-km-camp 的 L1 实测（MemPalace GitHub API 58,755 stars/MIT/2026-04）是本批外部验证标杆
+- MUSE 新旧两代 U/S 语义冲突按纪律「记录不合并」，勘误表清楚
+
+### 返工清单（老顽童，修完重提）
+
+1. dk-brooks-cost-of-knowing 补 ## 使用场景 / ## 操作方法 / ## 为什么值钱 三节
+2. framework-lobster-opt 修 2 处 `[[wujue-architecture]]`（删除或改指既有卡）
+3. concept-agent-university 修 1 处 `[[concept-agent-university-observation]]`
+4. deep-debug SKILL.md 补 frontmatter status/reviewed_by/updated_at/title + tags audience/scene（title 建议「Deep Debug 深度调试技能」）
+5. 4 张概念/框架卡补外部验证源：布鲁克斯链 TED 官方页/BV1kp4y1v7p9 原视频（最容易）；MUSE 补独立旁证；OPT/Agent 大学系内部设想稿——写明「外部验证」节+「无外部独立源」的降级依据（学理对齐 L2 可作替代并标注层级）
+6. 全部修完重跑 `kdo pre-submit -f <卡>` 至 16/16 PASS，重走 complete 提审（同 assignee 返工重提按 #504 惯例 --force）
+
+**P0 时效说明**：老朱明早汇报件——返工项 1-4 为机械修复（约 30 分钟量级），建议优先清掉；项 5 如外部检索受阻可先标「外部验证待补+理由」提审，终审按豁免口径复核，不让汇报件卡死在外部检索上。
