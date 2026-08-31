@@ -211,6 +211,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 582 | `task_20260831_laowantong-arui-science-sales-cards` | 阿蕊科学销售体系4卡：框架卡(AI落地六块基本功)/方法卡(业务场景三步拆解法)/case卡(猎头-AI角色随阶段切换)/情报卡(销售AIπ平台对标) | reviewed | laowantong | 4张卡 | 老朱0831直令 | `60_feedback/tasks/task_20260831_laowantong-arui-science-sales-cards.md` | 素材已抓取落inbox(公众号正文4篇2701-3935字)；欧阳锋终审 |
 | 583 | `task_20260831_huangyaoshi-mnemosyne-memory-cache-pilot` | Mnemosyne记忆缓存层试点+狗粮测试：50张真卡语料A/B查询集对比kdo query(命中率/召回/延迟/token4维)→试点场景三选一判定 | reviewed | huangyaoshi | 对比表+判定+diagnosis | 老朱0831直令 | `60_feedback/tasks/task_20260831_huangyaoshi-mnemosyne-memory-cache-pilot.md` | 王语嫣初测79.9%压缩已实证；词法检索弱项已标注；结论欧阳锋终审后进产线 |
 | 584 | `task_20260831_huangyaoshi-wechat-pipeline-llm-fix` | wechat-collect管线LLM空总结根因修复+回归（王语嫣已应急落地：max_tokens 1500→8192推理模型思考链爆预算+注册副本路径锚点修复，5卡重产已入pending-cards）：黄药师跑--all全量回归+双副本同步机制评估 | reviewed | huangyaoshi | 回归+机制评估 | 王语嫣0831编排（22:09事故实证） | `60_feedback/tasks/task_20260831_huangyaoshi-wechat-pipeline-llm-fix.md` | 欧阳锋终审 |
+| 585 | `task_20260901_laowantong-candy-collection-batch` | 学习candy合集+两天inbox批量产卡（翻译→全网调研→六层交叉→九层深挖→15+卡/skill化）：Wave0翻译3篇英文稿/Wave1数字讲故事+口喷脱敏+Skill设计+MUSE/Wave2-3其余 | claimed | laowantong | 15+卡+skill+workflow | 老朱0901直令（明早汇报） | `60_feedback/tasks/task_20260901_laowantong-candy-collection-batch.md` | 欧阳锋终审 |
 | 585 | `task_20260901_huangyaoshi-wechat-pipeline-smoke-test` | wechat采集管线smoke测试最小护栏：骨架标记skip判定断言+失败占位拦截联动+红绿自验（LLM全桩化） | pending_review | huangyaoshi | smoke脚本+断言+红绿验证 | #584终审扣分点2（欧阳锋明示立项） | `60_feedback/tasks/task_20260901_huangyaoshi-wechat-pipeline-smoke-test.md` | #584终审PASS A-指令执行（09-01王语嫣编排）；P2不插队；欧阳锋终审 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
@@ -452,6 +453,12 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~00_inbox/video_transcripts_small/BV1ug411i7bH-逐字稿.md｜P2｜33578B｜检测到 08-31 18:01｜待王语嫣编排~~ → 撞车划销（2026-09-01 02:08 王语嫣）：芝加哥大学 class day 演讲的 faster-whisper-small 重转写版（开头逐字确认同源）——tiny 版双采已于 01:12 划销（BV1rp4y1e76Y+BV1ug411i7bH），本件为同族 small 重跑，非新素材，不单独立项
 - ~~00_inbox/video_transcripts_small/BV1wb9XBXEGb-逐字稿.md｜P2｜64967B｜检测到 08-31 18:11｜待王语嫣编排~~ → 撞车划销（2026-09-01 02:33 王语嫣）：BV1wb9XBXEGb 耶鲁演讲（63min）的 faster-whisper-small 重转写版，与 video_transcripts/big 版同源（small 重转写族第六件，同管线五连先例），诊断沿用 01:12 拍 big 版结论（疑似 David Brooks、ASR 质量一般、疑似管线测试流量），不单独立项
 - ~~00_inbox/video_transcripts_small/TED-大卫布鲁克斯-3个主流谎言-逐字稿.md｜P2｜55486B｜检测到 08-31 18:11｜待王语嫣编排~~ → 已处置（2026-09-01 02:33 王语嫣）：派生件划销——merge_ted.py（02:10）把 BV1kp4y1v7p9 p1/p2/p3（small 版）合并的 TED 大卫·布鲁克斯「3个主流谎言」整稿，与三采撞车族同源；派生价值=实证 01:12 拍「疑似 David Brooks」推断为实（TED 演讲确认），诊断沿用，非独立新素材，不单独立项
+- 00_inbox/学习candy合集/AI×知识管理 探索营内测 Candy-逐字稿.md｜P2｜27150B｜检测到 08-31 18:41｜待王语嫣编排
+- 00_inbox/学习candy合集/Live257：重讲十指讲香模型 内测 Candy-逐字稿.md｜P2｜131317B｜检测到 08-31 18:41｜待王语嫣编排
+- 00_inbox/学习candy合集/Live260：AI口喷基本功内测 Candy-逐字稿.md｜P2｜36134B｜检测到 08-31 18:41｜待王语嫣编排
+- 00_inbox/学习candy合集/大卫·布鲁克斯：当代文化的3个主流谎言（TED）-视频逐字稿.md｜P2｜56103B｜检测到 08-31 18:41｜待王语嫣编排
+- 00_inbox/学习candy合集/大卫·布鲁克斯：芝大毕业演讲（求知是有代价的）-视频逐字稿.md｜P2｜33816B｜检测到 08-31 18:41｜待王语嫣编排
+- 00_inbox/学习candy合集/尼尔·雷克汉姆：联结销售与营销（SPIN创始人）-视频逐字稿.md｜P2｜16894B｜检测到 08-31 18:41｜待王语嫣编排
 
 <!-- INBOX-PENDING-END -->
 
