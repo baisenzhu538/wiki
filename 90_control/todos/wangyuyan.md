@@ -170,3 +170,5 @@
 [2026-09-01 07:01] ⚖️ 划销 gate-blocked role-liveness 06:37 行：ouyangfeng 冷却重报——实测全死角色 0，终审后正常收工，非产线阻塞
 [2026-09-01 07:02] 🚀 已拉起 laowantong：#586 FAIL 返工（欧阳锋 06:40 退回 6 项清单，修完 pre-submit 16/16 PASS 重提；headless 后台执行）
 [2026-09-01 07:03] 🕐 时钟值守拍（2026-09-01 07:03）收口：①终审落点——#586 pending_review→reviewed（欧阳锋 06:40 独立复跑 FAIL 退回：16 件 pre-submit 12 PASS/4 FAIL+4 概念框架卡无外部验证源+执行报告证据误引驳斥），返工清单 6 项在任务单终审记录节；②拉起——老顽童无活跃实例（registry 心跳 245min 前旧记录），headless 拉起返工 proc_50d63c52fa71（P0 老朱明早汇报件）；③划销——gate-blocked role-liveness 06:37 ouyangfeng 冷却重报（实测全死 0，终审后正常收工），首写被并行会话整块重写覆盖后重写已固化 commit；④PROPOSAL/INBOX 0 未划销；⑤结构地图例行单搜 7 命中=同名单历史残留（#572 裁定节在，6 单无结构地图节，老单冻结不回注）；⑥#587 名下 queued 等专项会话（防双实例），#588 依赖 #587 维持暂缓；⑦心跳已写
+- [2026-09-01 07:07] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-01 07:17] ⛔ KDO 门禁拦截 2 次（gate-blocked）：2026-09-01 07:17:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-c…
