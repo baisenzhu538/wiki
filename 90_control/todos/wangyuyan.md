@@ -261,3 +261,5 @@
 - [2026-09-01 12:17] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-01 12:17:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cl
 [2026-09-01 12:35] ⚖️ 处置 gate-blocked 两行：vault-integrity 12:07 bundle 过期（实跑三查全绿 exit 0——20260901 bundle 2,316,604,477B verify 过+异机在位，系 #592 R1 落地前时序空窗）划销；role-liveness 12:17 ouyangfeng 疑死（11:17 上一实例正常收工空窗，12:20 新终审实例在审 #591/#592 wmic 实证，check-liveness 全死 0）划销
 [2026-09-01 12:35] 🕐 时钟值守拍（12:35）：①gate-blocked 两行划销（见上），INBOX-PENDING 0 未划销/PROPOSAL-PENDING 本拍清零；②终审面：#591/#592 pending_review 欧阳锋实例在审（12:20 拉起，防双实例不重复拉），落点下拍核；③拉起面：三角色 queued 全 0 无需拉起，黄药师/老顽童空闲无单；④产线：#583-#590 全 reviewed 闭环，在审仅 #591/#592；⑤心跳已写
+- [2026-09-01 12:47] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#591（黄药师 的单，挂审 59min）；#592（黄药师 的单，挂审 45min）（到点（节奏 30min））
+[2026-09-01 13:03] 🕐 时钟值守拍（13:03）：全清——INBOX-PENDING 0 未划销/PROPOSAL-PENDING 0 未划销；结构地图例行单搜 7 命中=同名单历史残留（唯一含节的 koupen 单裁定节在 L107，老单冻结不回注）；终审面：#591/#592 pending_review 仍挂审（欧阳锋 12:20 联审实例进程组活跃 wmic 实证，大单正常审程非挂死，防双实例不重复拉，落点下拍核）；拉起面：三角色 queued 全 0 无需拉起；心跳已写
