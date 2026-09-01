@@ -2,13 +2,14 @@
 id: task_20260902_huangyaoshi-dispatch-mechanism-converge
 title: dispatch 机制收口（散点审计 R6，P1）：watch_inbox 目录树裁剪 + dispatch 停发并入口径
 seq: 605
-status: in_progress
+status: pending_review
 assignee: huangyaoshi
 created_by: wangyuyan
 created_at: 2026-09-02
 priority: P1
-updated_at: '2026-09-01T22:16:05.960216+00:00'
+updated_at: '2026-09-01T22:20:30.921426+00:00'
 instance: huangyaoshi-kimi
+evidence: 60_feedback/tasks/task_20260902_huangyaoshi-dispatch-mechanism-converge.md
 ---
 
 # #605 dispatch 机制收口
@@ -37,3 +38,42 @@ instance: huangyaoshi-kimi
 ## 验收
 
 欧阳锋终审：watch_inbox 实跑零 863KB 级产物 + INBOX-PENDING 登记功能实测正常 + 存量 dispatch 已归档。
+
+---
+
+## 执行报告（2026-09-02 huangyaoshi-kimi）
+
+**交付物**：`kdo-tools/watch_inbox.py`（扫描面裁剪+台账下线开关）+ `90_control/notification-coverage-matrix.md`（行 9 §3.19 同步）+ `90_control/.sandbox/quarantine-20260902/inbox-queue/`（存量 49 份 dispatch 台账归档，gitignore 不入仓）+ `_tmp/605-test/`（沙盒验证现场）；工作 commit `8590e4ecb`。
+
+**完成内容**：
+1. **下线前核实（安全栏）**：亲读 `90_control/scripts/clock_watchdog.py`——SEGMENTS 三段（PROPOSAL-PENDING/INBOX-PENDING/REVIEW-PENDING）+ `GATE_LOG` 增量（L150-158 gate_lines 基线比对）在案，看门狗 v5 覆盖「队列三态+gate 增量」属实，dispatch 台账职能确已被覆盖。
+2. **扫描面裁剪**：`scan()` 全树递归（唯一排除 wechat-collect）→ 白名单制：00_inbox 顶层文件 + `pending-cards/` 子树，Handle/_vlm_output/ocr_ingest 等大目录树结构性出局。
+3. **dispatch 台账停发**：`DISPATCH_LEDGER_ENABLED = False` 配置开关（注释标注下线原因+日期+裁定人），台账落盘段整段包进开关；`update_orchestration_board`（看板登记）与 `_notify_inbox`（收件箱推送）零改动保留。
+4. **存量归档**：`60_feedback/inbox-queue/dispatch_*.md` 49 份 → 隔离区（不删留查；该目录原本就 untracked，archive/ 子目录历史归档未动）。
+
+**验证**：
+- 实跑一次 `python kdo-tools/watch_inbox.py`：exit 0 静默（无新素材），inbox-queue/ 零新增 dispatch 文件 ✓
+- 沙盒功能测（QUEUE_DIR/PROD_QUEUE/TODOS 重定向 `_tmp/605-test/`）：dispatch() 被调时台账零落盘（QUEUE_DIR 不创建）、看板段写入+条目在案、通知行写入 ✓
+- 裁剪实证：全新 state 下 scan() 面=371（顶层 364+pending-cards 14），深层非 pending-cards 条目=0（对照审计单份 863KB/7908 行）✓
+- pending-cards 登记路径 diff 零改动（update_orchestration_board 函数体未碰）✓
+
+**边界**：未动看门狗 v5、未动 `_notify_inbox` 通知语义、未删任何台账（全在隔离区）；EXCLUDE_DIRS 常量保留（docstring 引述用，白名单制下不再承担排除职能）；00_inbox 其他素材子目录（434 个域目录）按裁定出扫描面——若后续素材投放到深层子目录需登记，投放方应改投顶层或 pending-cards/。
+
+**需要谁动作**：欧阳锋——终审 #605（验收点：实跑零台账产物 ✓、INBOX-PENDING 登记实测正常 ✓、存量已归档 ✓，上文留证）。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ①-补 划痕路径提示
+
+- ⚠️ 交付物节含划痕路径 `_tmp/605-test/`（中间产物非交付物，按约定豁免三态检查；如属误写请清理交付物节）
+### ① 声称-交付差集
+
+✅ 2 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+✅ 执行报告无负向断言词（检查面=执行报告节）
