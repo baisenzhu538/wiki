@@ -66,7 +66,31 @@ instance: huangyaoshi
 
 ## 执行报告
 
-（完工后填写）
+> 详情见 `60_feedback/tasks/report_20260901_huangyaoshi-vault-incident-rootcause.md`（两棒证据链合并）
+
+- **文件清单**：
+  - `60_feedback/tasks/report_20260901_huangyaoshi-vault-incident-rootcause.md`（根因报告，本棒新增）
+  - `90_control/scripts/wiki-bundle-backup.bat`（每日 bundle 备份脚本，本棒新增）
+  - 计划任务 `kdo-wiki-bundle-backup`（SYSTEM 身份注册，非文件，注册于任务计划程序库）
+  - 运行留痕 `D:\KDO-memory\wiki-bundle-daily.log` + `wiki-bundle-daily.last-result.txt`（脚本产出，不入库）
+  - 只读副本 `C:\Windows\TEMP\ns_probe\`（坚果云 nutstore.db/event.db 副本+探查脚本，原件未动）
+- **完成内容**：
+  1. 坚果云铁证收口：沙箱全量穷尽=4 个（无 wiki）+ event.db 41393 条服务端事件镜像全史零 wiki、事故窗口（08-31 01:30-02:15）零事件零删除 + 客户端主日志窗口静默——「同步盘机制」头号嫌疑高置信排除，定性降级；
+  2. 影子仓同型掏空实锤（`wiki\wiki\.git` 只剩 objects、mtime 同为 02:00）——操作者 git-plumbing 感知的第二物证；
+  3. 02:00 特异性排除：Windows 计划任务（第一棒 223 个）+ Hermes 全部 11 profile cron（无 02:00 表达式）+ 工具链自删路径 grep 零命中；
+  4. 前天对齐扩展：event.db 08-29/08-30 双凌晨零事件（老朱线索窗口一并覆盖）；
+  5. 防再发交付：每日 02:30 bundle 备份计划任务注册并 `schtasks /run` 实跑验证（Last Result=0，bundle verify PASS，HEAD=014daeec1 一致，滚动保留 7 份）；
+  6. 债务汇总：Desktop 6 个 lint 基线孤儿 worktree + 影子仓路径清单入报告待拍板。
+- **验证**：L1 证据链每条附原始命令+输出（报告第二节 16 条）；备份脚本前台实跑 EXIT=0 + 计划任务调度器实跑 Last Result=0（Last Run 09-01 09:47:34）+ `git bundle verify` "complete history" + HEAD 比对一致；回收站 `$Recycle.Bin` 08-31 窗口 0 文件实查补齐；L2 脚本为可恢复品标准（verify+HEAD 比对+FAIL 结果文件）；L3 明日 02:30 首次定时实跑待 log 留痕复核。
+- **未做项**：
+  1. 操作者进程名铁证（USN 机制不记进程，本机无文件删除审计/Sysmon——取证能力空白，非本单可补）；
+  2. 坚果云云端回收站查询（本地无凭据，待老朱登录网页版确认，操作指引在报告七.1）；
+  3. 债务清理（6 个孤儿 worktree+影子仓）——编排层留档待老朱拍板，本单不执行；
+  4. Sysmon/删除审计加固建议——是否立项待编排层拍板。
+- **需要谁动作**：
+  - 老朱：登录坚果云网页版查云端回收站 08-31 01:30-02:30 有无 wiki 删除记录（指引：报告七.1，一行操作）；前天（08-29/08-30）印象中事故的现象/时间点仍待提供；
+  - 欧阳锋：根因报告+防再发交付终审；
+  - 编排层：USN dump 归档决策、影子仓取证 vs 清理拍板、审计加固是否立项。
 
 ## 编排层补充（2026-09-01 09:40 老朱反馈）
 
