@@ -219,7 +219,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 590 | `task_20260901_huangyaoshi-vault-incident-candidate-b` | 候选b显式收口：08-31 01:30-02:05本机agent会话存在面重建+危险命令痕迹扫描+lint基线worktree关联性——证实或排除「agent会话执行危险命令」；若排除则候选c（外部入侵）升级评估 | reviewed | huangyaoshi | 候选b证据链报告（证实/排除双向）+候选c升级建议 | #589终审欧阳锋追加指令「候选b显式立项或显式关闭」 | `60_feedback/tasks/task_20260901_huangyaoshi-vault-incident-candidate-b.md` | P0；不重复#589考古；欧阳锋终审 |
 | 591 | `task_20260901_huangyaoshi-vault-hypothesis-sweep` | 假说①②收敛排查+Sysmon前置取证：常驻服务/驱动/启动项审计过筛三要素+历史登录回查（08-01起4624类型3/10+4625+7045）+Sysmon部署自证（23事件抓进程名） | reviewed | huangyaoshi | 假说收敛报告+嫌疑Top10三要素评分+Sysmon部署证据 | 老朱0901直令「立项」；P0插队在#588前 | `60_feedback/tasks/task_20260901_huangyaoshi-vault-hypothesis-sweep.md` | 取证先于清除（欧阳锋序）；欧阳锋终审 |
 | 592 | `task_20260901_huangyaoshi-vault-resilience-trio` | wiki恢复力三件套：R1异机备份（最新bundle自动推坚果云目录保留3份）+R2快速重建脚本固化（bundle→临时目录演练）+R3完整性自检例行（异常走gate-blocked通知面） | reviewed | huangyaoshi | 三件全实跑自证+演练对照报告 | 老朱0901直令「加强基础设施确保能恢复」；P0 | `60_feedback/tasks/task_20260901_huangyaoshi-vault-resilience-trio.md` | 坚果云只收bundle不做wiki同步（#589铁律）；欧阳锋终审 |
-| 593 | `task_20260901_huangyaoshi-skills-assistant-deploy` | Skills助理Agent部署+U1-U3实跑验收（两阶段第二阶段，#587终审指令立项）：agent实体部署面（比照#303/#304先例）+mount-matrix大小写对齐+三用例逐条实跑 | claimed-huangyaoshi | huangyaoshi | 部署+U1-U3实跑留痕+执行报告五字段 | #587 reviewed ✅ + #588 reviewed ✅ | `60_feedback/tasks/task_20260901_huangyaoshi-skills-assistant-deploy.md` | SPEC第八节用例=验收门；不含飞书壳（远期老朱拍板）；欧阳锋终审 |
+| 593 | `task_20260901_huangyaoshi-skills-assistant-deploy` | Skills助理Agent部署+U1-U3实跑验收（两阶段第二阶段，#587终审指令立项）：agent实体部署面（比照#303/#304先例）+mount-matrix大小写对齐+三用例逐条实跑 | pending_review | huangyaoshi | 部署+U1-U3实跑留痕+执行报告五字段 | #587 reviewed ✅ + #588 reviewed ✅ | `60_feedback/tasks/task_20260901_huangyaoshi-skills-assistant-deploy.md` | SPEC第八节用例=验收门；不含飞书壳（远期老朱拍板）；欧阳锋终审 |
 
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
@@ -413,6 +413,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#588 task_20260901_huangyaoshi-skill-registry-mount-matrix｜黄药师｜提审 09-01 10:56｜60_feedback/tasks/task_20260901_huangyaoshi-skill-registry-mount-matrix.md~~ → 已终审 PASS A-（2026-09-01 欧阳锋）
 - ~~#591 task_20260901_huangyaoshi-vault-hypothesis-sweep｜黄药师｜提审 09-01 11:48｜60_feedback/tasks/task_20260901_huangyaoshi-vault-hypothesis-sweep.md~~ → 已终审 PASS A-（2026-09-01 欧阳锋）
 - ~~#592 task_20260901_huangyaoshi-vault-resilience-trio｜黄药师｜提审 09-01 12:02｜60_feedback/tasks/task_20260901_huangyaoshi-vault-resilience-trio.md~~ → 已终审 PASS B+（2026-09-01 欧阳锋）
+- #593 task_20260901_huangyaoshi-skills-assistant-deploy｜黄药师｜提审 09-01 14:46｜60_feedback/tasks/task_20260901_huangyaoshi-skills-assistant-deploy.md
 
 <!-- REVIEW-PENDING-END -->
 

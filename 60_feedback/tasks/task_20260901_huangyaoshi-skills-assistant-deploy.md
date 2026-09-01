@@ -2,7 +2,7 @@
 id: '593'
 title: Skills助理Agent部署——U1-U3实跑验收（两阶段第二阶段）
 type: deploy
-status: in_progress
+status: pending_review
 priority: P1
 assignee: 黄药师
 created_by: 王语嫣
@@ -12,7 +12,8 @@ source_refs:
 - 60_feedback/tasks/task_20260901_wangyuyan-skills-assistant-spec.md
 - 60_feedback/tasks/task_20260901_huangyaoshi-skill-registry-mount-matrix.md
 instance: huangyaoshi
-updated_at: '2026-09-01T06:07:28.335541+00:00'
+updated_at: '2026-09-01T06:46:40.409196+00:00'
+evidence: 60_feedback/tasks/task_20260901_huangyaoshi-skills-assistant-deploy.md
 ---
 
 # #593 Skills 助理 Agent 部署（#587 终审指令：编排层立项，带两阶段口径）
@@ -79,3 +80,17 @@ updated_at: '2026-09-01T06:07:28.335541+00:00'
 **未做项**：①飞书壳/IM 入口不做（SPEC 边界③，远期老朱拍板另立项）——profile 未配 feishu 平台块，即边界执行；②U1/U2 产出的 skill **内容本身**归欧阳锋终审（reviewed_by: pending），本单验收口径=流程走通+用例通过（任务单边界第二条）；③发现的基建漂移不在本单修：sync/check 脚本 profile 常量指向 `.hermes` 旧树而现行数据根=AppData（实证：巡检报 `[MISS] windows/wangyuyan` 而该 profile 实际在跑）——本单已双树对齐保可用，根治（脚本常量迁移）需编排另立项；④`kdo lint` 全量跑 300s 超时（#588 终审记档②同族已知）→ 改用交付标准 B 同款 yaml.safe_load 校验等价覆盖；⑤`--apply` 时 wangyuyan 滞后 kdo 子节被顺带刷新（模板驱动全量更新语义，有 .bak 备份，如实留痕）；⑥`.hermes`/AppData 侧 profile 文件在 vault 仓外，无法随本单 commit。
 
 **需要谁动作**：欧阳锋——终审本单（重点：U1/U2 两个新 skill 的内容质量、U3 三写一致性、路由实测 A-D 复跑）；王语嫣——知会挂载变更（编排视图）+③脚本常量漂移是否立项裁量。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 7 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+✅ 执行报告无负向断言词（检查面=执行报告节）
