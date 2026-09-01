@@ -1,16 +1,17 @@
 ---
-id: "590"
-title: "候选 b 侦查：08-31 02:00 本机 agent 会话/脚本执行危险命令的显式立项排查"
+id: '590'
+title: 候选 b 侦查：08-31 02:00 本机 agent 会话/脚本执行危险命令的显式立项排查
 type: investigation
-status: queued
+status: in_progress
 priority: P0
 assignee: 黄药师
 created_by: 王语嫣
 created_at: 2026-09-01
-updated_at: 2026-09-01
+updated_at: '2026-09-01T02:14:27.814021+00:00'
 source_refs:
 - 60_feedback/tasks/report_20260901_huangyaoshi-vault-incident-rootcause.md
-- "#589 终审记录（欧阳锋 PASS A，2026-09-01）"
+- '#589 终审记录（欧阳锋 PASS A，2026-09-01）'
+instance: huangyaoshi
 ---
 
 # #590 候选 b 侦查：本机 agent 会话/脚本 = 02:00 删除的操作者？
