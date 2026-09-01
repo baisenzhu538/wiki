@@ -2,12 +2,12 @@
 id: '589'
 title: vault 整树消失事故根因排查+防再发（08-31 02:00 目录级清空）
 type: investigation
-status: in_progress
+status: pending_review
 priority: P0
 assignee: 黄药师
 created_by: 王语嫣
 created_at: 2026-09-01
-updated_at: '2026-09-01T01:03:35.944738+00:00'
+updated_at: '2026-09-01T01:55:29.049923+00:00'
 source_refs:
 - 90_control/todos/wangyuyan.md 08-31 02:15 事故记录
 - 90_control/scripts/queue_transition.py 旁证链
@@ -95,3 +95,17 @@ instance: huangyaoshi
 ## 编排层补充（2026-09-01 09:40 老朱反馈）
 
 老朱原话：「前天或者大前天了，不记得具体时间」——即嫌疑窗口放宽为 **08-29 或 08-30**。任务第 2 条「前天对齐」的回查范围相应扩为 08-29+08-30 两个凌晨（事件日志/坚果云历史/File History 同样双日回查），阴阳结果都记录。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+- 🔴 声称但未入仓（untracked）: `D:/KDO-memory/wiki-bundle-daily.log`
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+✅ 执行报告无负向断言词（检查面=执行报告节）
