@@ -54,7 +54,7 @@ instance: huangyaoshi
 **交付物**：
 - `90_control/.sandbox/quarantine-20260902/`（隔离区，含 douyin-cookie--help.txt / _sg_cookie.txt / feishu_user_token.json 三件，物理保留零删除）
 - `.gitignore`（新增 `90_control/.sandbox/quarantine-*/` 封口规则）
-- git 索引清除 commit：`--help` + `duanzhixing/feishu_user_token.json` 从索引移除（delete mode，工作树经隔离区物理保留）
+- git 索引清除 commit：根目录 --help 与 duanzhixing/ 下飞书 token 两件从索引移除（delete mode，物理件保留在隔离区）
 
 **完成内容**：P0 凭据三件套处置完毕——①`./--help`（douyin 会话 cookie，git 已跟踪）：git rm --cached 清索引 → 移隔离区（更名 douyin-cookie--help.txt 消除 `--` 选项解析风险）；②`60_feedback/_sg_cookie.txt`（未跟踪）：直接移隔离区；③`duanzhixing/feishu_user_token.json`（git 已跟踪）：git rm --cached → 移隔离区；④.gitignore 补 quarantine-*/ 规则防再入库。全程未打印/未复制任何凭据内容；移动用 Python shutil（中文路径纪律），逐件 exists() 双向复核。
 
