@@ -227,7 +227,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 
 | 597 | `task_20260902_skills-assistant-skill-manifest-batch1` | skill登记面批1：72个manifest.yaml补建+2个name不一致修复（健康度建议书动作1+2） | queued | skills-assistant | 72 manifest+2修复+三写一致 | **#595 reviewed ✅（同域错峰）** | `60_feedback/tasks/task_20260902_skills-assistant-skill-manifest-batch1.md` | skill健康度勘察裁定（09-02王语嫣）；adapted_from无卡不编造标待复核；欧阳锋终审 |
 
-| 598 | `task_20260902_huangyaoshi-bom-cleanup-health-radar` | skill文件37个BOM批量清理+8维健康检测并入#588扫描脚本例行化（建议书动作3+9） | queued | huangyaoshi | BOM清零+8维检测+回归 | 无（与#597不同文件层可并行） | `60_feedback/tasks/task_20260902_huangyaoshi-bom-cleanup-health-radar.md` | skill健康度勘察裁定（09-02王语嫣）；只动编码层不动内容；欧阳锋终审 |
+| 598 | `task_20260902_huangyaoshi-bom-cleanup-health-radar` | skill文件37个BOM批量清理+8维健康检测并入#588扫描脚本例行化（建议书动作3+9） | claimed-wyy-cli-0902 | huangyaoshi | BOM清零+8维检测+回归 | 无（与#597不同文件层可并行） | `60_feedback/tasks/task_20260902_huangyaoshi-bom-cleanup-health-radar.md` | skill健康度勘察裁定（09-02王语嫣）；只动编码层不动内容；欧阳锋终审 |
 
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
