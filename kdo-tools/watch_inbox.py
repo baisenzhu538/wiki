@@ -43,6 +43,11 @@ WATCH_EXTS = {".txt", ".md", ".json", ".pdf", ".docx", ".png", ".jpg"}
 # 已有独立自动化管线处理的目录，不再重复派发
 EXCLUDE_DIRS = {"wechat-collect"}
 
+# #605（2026-09-02 王语嫣裁定）：dispatch 台账停发——17 份零签收，队列/收件箱监控
+# 职能已由看门狗 v5（90_control/scripts/clock_watchdog.py：队列三段+gate 增量）覆盖；
+# 保留 pending-cards 登记（update_orchestration_board）与王语嫣收件箱通知（_notify_inbox）。
+DISPATCH_LEDGER_ENABLED = False
+
 
 def _hash_file(path: Path) -> str:
     """Cheap file identity: size + mtime."""
@@ -73,25 +78,31 @@ def scan() -> list[dict]:
     state = json.loads(STATE_FILE.read_text(encoding="utf-8") or "{}")
     discoveries = []
 
-    for root, dirs, files in os.walk(INBOX):
-        dirs[:] = [d for d in dirs if not d.startswith(".") and d not in EXCLUDE_DIRS]
-        for fname in files:
-            ext = os.path.splitext(fname)[1].lower()
-            if ext not in WATCH_EXTS:
-                continue
-            path = Path(root) / fname
-            file_hash = _hash_file(path)
-            key = str(path.relative_to(ROOT))
-            if state.get(key) != file_hash:
-                priority = _classify(fname)
-                discoveries.append({
-                    "file": key,
-                    "priority": priority,
-                    "size": path.stat().st_size,
-                    "ext": ext,
-                    "detected_at": datetime.now(timezone.utc).isoformat(),
-                })
-                state[key] = file_hash
+    # #605（2026-09-02 王语嫣裁定）：目录树裁剪——只扫 00_inbox 顶层新素材 +
+    # pending-cards/（Handle/_vlm_output/ocr_ingest 等大目录树出扫描面；
+    # 全树递归曾产出单份 863KB/7908 行 dispatch，无人消费）
+    scan_files = [p for p in INBOX.iterdir() if p.is_file()]
+    pending_dir = INBOX / "pending-cards"
+    if pending_dir.exists():
+        scan_files += [p for p in pending_dir.rglob("*") if p.is_file()]
+
+    for path in scan_files:
+        fname = path.name
+        ext = os.path.splitext(fname)[1].lower()
+        if ext not in WATCH_EXTS:
+            continue
+        file_hash = _hash_file(path)
+        key = str(path.relative_to(ROOT))
+        if state.get(key) != file_hash:
+            priority = _classify(fname)
+            discoveries.append({
+                "file": key,
+                "priority": priority,
+                "size": path.stat().st_size,
+                "ext": ext,
+                "detected_at": datetime.now(timezone.utc).isoformat(),
+            })
+            state[key] = file_hash
 
     STATE_FILE.write_text(json.dumps(state, indent=2, ensure_ascii=False), encoding="utf-8")
     return discoveries
@@ -99,26 +110,30 @@ def scan() -> list[dict]:
 
 def dispatch(discoveries: list[dict]):
     """写 dispatch 文件——2026-08-19 用户拍板：所有进入知识库的必须走质量门，
-    取消 P2 直达老顽童的旁路。一律派给王语嫣（质量门+编排）；P0/P2 标签仅作信息参考。"""
-    QUEUE_DIR.mkdir(parents=True, exist_ok=True)
+    取消 P2 直达老顽童的旁路。一律派给王语嫣（质量门+编排）；P0/P2 标签仅作信息参考。
+
+    #605（2026-09-02 王语嫣裁定）：台账落盘下线（17 份零签收 + 单份可达 863KB），
+    默认 DISPATCH_LEDGER_ENABLED=False；登记（看板）与通知职能保留不变。"""
     now = datetime.now(timezone.utc).strftime("%Y%m%d_%H%M%S")
 
     if not discoveries:
         return
 
-    dispatch_file = QUEUE_DIR / f"dispatch_{now}.md"
-    lines = [
-        "# Inbox Dispatch\n",
-        f"检测时间：{now}\n",
-        "## 新素材（一律走王语嫣质量门——2026-08-19 起无例外）\n",
-        "| 文件 | 参考优先级 | 大小 | 类型 |",
-        "|------|------|------|------|",
-    ]
-    for d in discoveries:
-        lines.append(f"| {d['file']} | {d['priority']} | {d['size']}B | {d['ext']} |")
-    lines.append(f"\n**动作**：王语嫣诊断编排（六层交叉比对/质量门）→ 任务单入队 → 老顽童生产。任何素材不得绕过质量门直接产卡。\n")
-    dispatch_file.write_text("\n".join(lines), encoding="utf-8")
-    print(f"dispatched: {dispatch_file.name}（{len(discoveries)} 项 → 王语嫣质量门）")
+    if DISPATCH_LEDGER_ENABLED:
+        QUEUE_DIR.mkdir(parents=True, exist_ok=True)
+        dispatch_file = QUEUE_DIR / f"dispatch_{now}.md"
+        lines = [
+            "# Inbox Dispatch\n",
+            f"检测时间：{now}\n",
+            "## 新素材（一律走王语嫣质量门——2026-08-19 起无例外）\n",
+            "| 文件 | 参考优先级 | 大小 | 类型 |",
+            "|------|------|------|------|",
+        ]
+        for d in discoveries:
+            lines.append(f"| {d['file']} | {d['priority']} | {d['size']}B | {d['ext']} |")
+        lines.append(f"\n**动作**：王语嫣诊断编排（六层交叉比对/质量门）→ 任务单入队 → 老顽童生产。任何素材不得绕过质量门直接产卡。\n")
+        dispatch_file.write_text("\n".join(lines), encoding="utf-8")
+        print(f"dispatched: {dispatch_file.name}（{len(discoveries)} 项 → 王语嫣质量门）")
     update_orchestration_board(discoveries)
     _notify_inbox(discoveries)
 
