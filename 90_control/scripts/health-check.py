@@ -24,6 +24,7 @@ if hasattr(sys.stdout, "reconfigure"):
 VAULT_ROOT = Path(__file__).resolve().parent.parent.parent
 SCRIPTS_DIR = VAULT_ROOT / "90_control" / "scripts"
 KDO_TOOLS_DIR = VAULT_ROOT / "kdo-tools"
+CODE_SCRIPTS_DIR = VAULT_ROOT / "40_outputs" / "code" / "scripts"
 
 
 def run_script(name, args=None):
@@ -32,6 +33,9 @@ def run_script(name, args=None):
     if not script.exists():
         # #主动立项：kdo-tools 工具族脚本（infra-status/recovery-check 等）回退查找
         script = KDO_TOOLS_DIR / f"{name}.py"
+    if not script.exists():
+        # #588：40_outputs/code/scripts 工具族脚本（scan_skills_registry 等）回退查找
+        script = CODE_SCRIPTS_DIR / f"{name}.py"
     if not script.exists():
         return -1, f"脚本不存在: {script}"
 
@@ -92,6 +96,7 @@ def main():
             ("check-depended-draft", [], "被依赖卡 draft 门禁（#527：新引用 ERROR/存量 WARNING）"),
             ("island_scan", [], "孤岛卡扫描（#528：双无卡清单，WARNING 制不拦）"),
             ("check-vlm-two-section", [], "VLM 两段式存量（#540：缺隔离计数可见）"),
+            ("scan_skills_registry", ["--check"], "Skill 目录+挂载矩阵新鲜度（#588：stale→重跑刷新）"),
         ])
 
     if args.domain:
@@ -148,6 +153,7 @@ def main():
         "派生副本手改检测（#369）": "dashboard/vault-status/agent-contexts-summary 与生成基线 hash 比对——红灯=派生物被手改，重新生成而非手改。",
         "存量 draft 超龄巡检（#380）": "30_wiki 内 status=draft 超 24h 未审卡清单——接收方=王语嫣（编排门禁逐张判定退回/留存），只报警不自动改。advisory 恒 PASS，清单才是本体。",
         "全库复扫增量报警（#399）": "归零声明唯一口径：任何「全库归零」声明必须附 full-library-rescan 输出。delta 模式只报基线之外的新增违规——存量债封存在 baseline/rescan-baseline.json，新增实时报警。",
+        "Skill 目录+挂载矩阵新鲜度（#588：stale→重跑刷新）": "skills 登记面新鲜度——INDEX.md/MOUNT-MATRIX.md 是否落后于 SKILL.md/manifest 变更。红灯=有新 skill 未入目录：跑 python 40_outputs/code/scripts/scan_skills_registry.py 刷新。",
     }
 
     for r in check_results:

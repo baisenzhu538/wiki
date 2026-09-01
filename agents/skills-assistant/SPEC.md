@@ -96,7 +96,7 @@ source_refs:
 ## 六、挂载配置
 
 - agent-spec 模板增补「已挂载skills」标准节（格式：`- skill-name: 用途一句话`），由黄药师在 #588 中落到 spec 模板
-- 全局 agent×skill 挂载矩阵：`40_outputs/capabilities/skills/mount-matrix.md`（Skills 助理维护）
+- 全局 agent×skill 挂载矩阵：`40_outputs/capabilities/skills/MOUNT-MATRIX.md`（#588 扫描生成，重跑 `python 40_outputs/code/scripts/scan_skills_registry.py` 刷新；登记维护归 Skills 助理——终审记档小项①已对齐：生成物统一大写命名）
 - 挂载原则：默认 shared 全员可见；专属 skill（如欧阳锋终审链专用）标 `scope: <角色>`；挂载变更留痕 manifest.yaml changelog
 
 ## 七、边界（When NOT）

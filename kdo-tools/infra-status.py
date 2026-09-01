@@ -130,6 +130,7 @@ ASSETS: list[tuple[str, str, object]] = [
     ("queue_batch_accept", "工具", KDO_TOOLS / "queue_batch_accept.py"),
     ("infrastructure-inventory", "总表", WIKI / "90_control" / "infrastructure-inventory.md"),
     ("role-routes", "路由层", WIKI / "90_control" / "role-routes.md"),
+    ("skills-registry", "巡检", WIKI / "40_outputs" / "capabilities" / "skills" / "INDEX.md"),
     ("CAPSULE_STARTUP", "入口", WIKI / ".kdo" / "CAPSULE_STARTUP.md"),
     ("L1 主库", "数据", MEM / "L1" / "activity_log.db"),
     ("L1-full 主库", "数据", D_MEM / "L1-full"),

@@ -39,3 +39,6 @@ temp_*_paddle_ocr.txt
 !.kdo/CAPSULE_STARTUP.md
 !.kdo/*.py
 kdo-tools/.feishu_webhooks.json
+
+# #588 skills registry 扫描时间戳（生成物）
+40_outputs/capabilities/skills/.registry-last-scan

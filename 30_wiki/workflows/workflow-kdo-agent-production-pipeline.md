@@ -113,6 +113,17 @@ domain: [<领域>, agent-capability]
 author: 老顽童
 ```
 
+spec 固定必含「已挂载skills」标准节（#588 增补，2026-09-01；格式：`- skill-name: 用途一句话`）：
+
+```markdown
+## 已挂载skills
+- kdo-self-attack: 终审前四路对抗自攻击
+- six-layer-cross-validation: 结论六层交叉验证核证
+```
+
+- skill 名必须已在 `40_outputs/capabilities/skills/INDEX.md` 注册（未注册 = 先走 #587 Skills 助理行为化流程，不挂虚空 skill）
+- 初始挂载在 spec 定稿时登记；此后挂载变更 = 配置变更，走 #587 Skills 助理（三写一致：spec 节 / MOUNT-MATRIX.md / skill manifest）
+
 spec 只需定义：角色身份（TCPR）+ 核心能力 + 输入输出格式。不需要写"怎么在 KDO 里操作"——那是三件套的事。
 
 ### Step 2：黄药师 —— 注入三件套
@@ -129,6 +140,13 @@ spec 只需定义：角色身份（TCPR）+ 核心能力 + 输入输出格式。
 > 3. 跑 `python 90_control/scripts/check-mcp-roaming.py` 验证挂载 + 检索抽查
 >
 > 模板/脚本是 MCP 配置的**唯一真相源**——16 个 profile 全部为生成物，手改不再需要；改模板重跑即全量更新（漂移根治，O-12 从"正确性修复"降级为"纯性能优化"）。
+
+> 🔴 **Skills 挂载 = 固定动作，不是可选件（2026-09-01 #588 机制化）**：新 agent 部署时同步登记「已挂载skills」：
+> 1. 按职责从 `40_outputs/capabilities/skills/INDEX.md` 选定该 agent 的 skill 集（spec「已挂载skills」节已定初集）
+> 2. spec 节 / manifest 适用agent 落齐后重跑 `python 40_outputs/code/scripts/scan_skills_registry.py` → MOUNT-MATRIX.md 自动纳入新 agent
+> 3. 跑 `python 40_outputs/code/scripts/scan_skills_registry.py --check` 确认矩阵新鲜度（🟢 fresh 才算登记完成）
+>
+> 挂载登记的真相源是 spec 节 + manifest（#587 Skills 助理维护），MOUNT-MATRIX.md 是扫描生成物——先改真相源再刷新生成物，不手改生成物。
 
 三件套模板（直接复用）：
 - 认知件：见 `agents/agent-basic-skills-coach/system-prompt.md` 的"KDO 知识库接入"段（5 MOC + 检索规则 + 生产纪律）——实现规范见 #260（Agent 知识接入）
