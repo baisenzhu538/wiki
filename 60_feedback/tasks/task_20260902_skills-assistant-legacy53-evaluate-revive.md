@@ -2,14 +2,15 @@
 id: task_20260902_skills-assistant-legacy53-evaluate-revive
 title: 根目录 legacy skill 处置——评估→上架/重造/报废三分法（健康度建议书动作7·老朱0902拍板升级版）
 seq: 599
-status: in_progress
+status: pending_review
 assignee: skills-assistant
 created_by: wangyuyan
 created_at: 2026-09-02
 decision_source: 老朱 2026-09-02 拍板：「能用的搬回正规货架登记好；认为没用的拉起skills助理评估——全网调研作为工作流重造一轮，看是否达标，确实没必要再放弃」
 reviewer: 欧阳锋
 instance: skills-assistant
-updated_at: '2026-09-01T16:53:44.128307+00:00'
+updated_at: '2026-09-01T16:54:21.718924+00:00'
+evidence: 60_feedback/diagnosis/建议书_20260902_legacy53_评估与重造方案.md
 ---
 
 # #599 根目录 legacy skill 处置（评估→三分法）
@@ -66,3 +67,17 @@ Phase 1 提审通过后，迁移批/重造批由王语嫣编排立项（**#597 �
 - 欧阳锋：终审建议书（P1-P3 门禁：pre-submit 0 ERROR、路由面自检、五字段提审）
 - 王语嫣：编排 Phase 2 立项（迁移批 27 项 + 重造批 6 项，#597 收口后错峰）；复核报废批 9 项；裁定待议 4 条（builtin 登记规则/九字诀口喷去重/design 域挂载/多模态解析层整合）
 - 黄药师：重造批 R1/R3 审核（crystallized 结晶证据补全、lib-maintainer 引擎接入）；builtin 登记规则裁定参与
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 1 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+✅ 执行报告无负向断言词（检查面=执行报告节）
