@@ -2,7 +2,7 @@
 id: 597
 task_id: task_20260902_skills-assistant-skill-manifest-batch1
 title: skill登记面批1：72个manifest.yaml补建+2个name不一致修复
-status: in_progress
+status: pending_review
 assignee: skills-assistant
 created_by: wangyuyan
 created_at: 2026-09-02
@@ -15,7 +15,8 @@ related_tasks:
 - '#594'
 - '#595'
 instance: skills-assistant-kimi
-updated_at: '2026-09-01T18:55:26.611926+00:00'
+updated_at: '2026-09-01T21:16:24.770745+00:00'
+evidence: _tmp/evidence_597.md
 ---
 
 # 任务：skill 登记面批 1（建议书动作 1+2）
@@ -58,3 +59,20 @@ updated_at: '2026-09-01T18:55:26.611926+00:00'
 **边界**：未动任何 SKILL.md 正文（仅 2 个 name 单行）；未做 description <80 字符补齐（顺手项，为避免虚构触发场景本批未做，留待内容层批次）；E 维 `adapted_from` 待复核项需来源卡归属裁定后回填；本单不触碰动作 4/5/6 编排判定。
 
 **需要谁动作**：欧阳锋终审（重点复核：触发词提炼质量抽样、null 待复核口径是否符合 #495）；王语嫣复核 72 个 `adapted_from: null` 的来源卡归属 + 动作 4/5/6 编排判定。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ①-补 划痕路径提示
+
+- ⚠️ 交付物节含划痕路径 `_tmp/gen_manifests_597.py`（中间产物非交付物，按约定豁免三态检查；如属误写请清理交付物节）
+### ① 声称-交付差集
+
+- 🔴 声称但文件不存在: `40_outputs/capabilities/skills/shared/*/manifest.yaml`
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+✅ 执行报告无负向断言词（检查面=执行报告节）

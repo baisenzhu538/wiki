@@ -225,7 +225,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 
 | 596 | `task_20260902_laowantong-popmart-uniqueness-book-cards` | 拆书会218《因为独特》卡组4张：长期主义经营framework/减宽加深method/满足感×存在感concept/品牌包裹感dk——strategy+拆书会系列 | reviewed | laowantong | 4张卡 | 无（素材已诊断不撞车） | `60_feedback/tasks/task_20260902_laowantong-popmart-uniqueness-book-cards.md` | inbox自动化流水线（09-02王语嫣编排）；转述二等标注（#470口径）；欧阳锋终审 |
 
-| 597 | `task_20260902_skills-assistant-skill-manifest-batch1` | skill登记面批1：72个manifest.yaml补建+2个name不一致修复（健康度建议书动作1+2） | claimed-skills-assistant-kimi | skills-assistant | 72 manifest+2修复+三写一致 | **#595 reviewed ✅（同域错峰）** | `60_feedback/tasks/task_20260902_skills-assistant-skill-manifest-batch1.md` | skill健康度勘察裁定（09-02王语嫣）；adapted_from无卡不编造标待复核；欧阳锋终审 |
+| 597 | `task_20260902_skills-assistant-skill-manifest-batch1` | skill登记面批1：72个manifest.yaml补建+2个name不一致修复（健康度建议书动作1+2） | pending_review | skills-assistant | 72 manifest+2修复+三写一致 | **#595 reviewed ✅（同域错峰）** | `60_feedback/tasks/task_20260902_skills-assistant-skill-manifest-batch1.md` | skill健康度勘察裁定（09-02王语嫣）；adapted_from无卡不编造标待复核；欧阳锋终审 |
 
 | 598 | `task_20260902_huangyaoshi-bom-cleanup-health-radar` | skill文件37个BOM批量清理+8维健康检测并入#588扫描脚本例行化（建议书动作3+9） | reviewed | huangyaoshi | BOM清零+8维检测+回归 | 无（与#597不同文件层可并行） | `60_feedback/tasks/task_20260902_huangyaoshi-bom-cleanup-health-radar.md` | skill健康度勘察裁定（09-02王语嫣）；只动编码层不动内容；欧阳锋终审 |
 
@@ -447,6 +447,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#601 task_20260902_huangyaoshi-wechat-promote-dedup-fix｜huangyaoshi｜提审 09-02 01:55｜60_feedback/tasks/task_20260902_huangyaoshi-wechat-promote-dedup-fix.md~~ → 已终审 PASS A-（2026-09-01 欧阳锋）
 - #603 task_20260902_huangyaoshi-tmp-script-cleanup｜huangyaoshi｜提审 09-02 04:53｜60_feedback/tasks/task_20260902_huangyaoshi-tmp-script-cleanup.md
 - #606 task_20260902_laowantong-graph-scatter-cleanup｜laowantong｜提审 09-02 04:55｜60_feedback/tasks/task_20260902_laowantong-graph-scatter-cleanup.md
+- #597 task_20260902_skills-assistant-skill-manifest-batch1｜skills-assistant｜提审 09-02 05:16｜60_feedback/tasks/task_20260902_skills-assistant-skill-manifest-batch1.md
 
 <!-- REVIEW-PENDING-END -->
 
@@ -774,6 +775,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - diag_20260902_laowantong-graph-scatter-task-collision.md｜09-02 02:18｜待王语嫣复核裁定
 - diag_20260902_ouyangfeng-queue-transition-reviewdate-utc.md｜09-02 02:36｜待王语嫣复核裁定
 - [gate-blocked] role-liveness｜09-02 02:36｜待王语嫣复核处置｜2026-09-02 02:32:19｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 37.1), ('cli', 37.0)]）｜role_registry check-liveness｜role_registry
+- [gate-blocked] task_20260902_huangyaoshi-tmp-script-cleanup｜09-02 04:57｜待王语嫣复核处置｜2026-09-02 04:53:03｜task_20260902_huangyaoshi-tmp-script-cleanup｜F-034-五字段｜--evidence 文件不可读: 60_feedback/tasks/task_20260902_huangyaoshi-tmp-script-cleanup.md 执行报告节；工作commit e｜huangyaoshi-kimi
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
