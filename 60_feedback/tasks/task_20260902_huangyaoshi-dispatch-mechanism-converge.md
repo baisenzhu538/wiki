@@ -2,12 +2,12 @@
 id: task_20260902_huangyaoshi-dispatch-mechanism-converge
 title: dispatch 机制收口（散点审计 R6，P1）：watch_inbox 目录树裁剪 + dispatch 停发并入口径
 seq: 605
-status: queued
+status: in_progress
 assignee: huangyaoshi
 created_by: wangyuyan
 created_at: 2026-09-02
 priority: P1
-updated_at: '2026-09-01T22:43:41.395264+00:00'
+updated_at: '2026-09-01T22:44:30.660661+00:00'
 instance: huangyaoshi-kimi
 evidence: 60_feedback/tasks/task_20260902_huangyaoshi-dispatch-mechanism-converge.md
 rework: true
