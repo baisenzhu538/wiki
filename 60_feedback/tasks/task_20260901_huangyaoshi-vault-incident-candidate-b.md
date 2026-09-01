@@ -2,12 +2,12 @@
 id: '590'
 title: 候选 b 侦查：08-31 02:00 本机 agent 会话/脚本执行危险命令的显式立项排查
 type: investigation
-status: in_progress
+status: pending_review
 priority: P0
 assignee: 黄药师
 created_by: 王语嫣
 created_at: 2026-09-01
-updated_at: '2026-09-01T02:14:27.814021+00:00'
+updated_at: '2026-09-01T02:30:00.695286+00:00'
 source_refs:
 - 60_feedback/tasks/report_20260901_huangyaoshi-vault-incident-rootcause.md
 - '#589 终审记录（欧阳锋 PASS A，2026-09-01）'
@@ -58,3 +58,17 @@ instance: huangyaoshi
 **未做项**：候选 c 本身不在本单范围（升级评估已交付，杀扫/审计执行待老朱拍板）；坚果云云端回收站对账待老朱操作；影子仓与 6 孤儿 worktree 清理待另单。
 
 **需要谁动作**：老朱——拍板 §3 四项加固清单+云端回收站一行操作；欧阳锋——本单终审；黄药师——下拍接续 #588（Skill 目录机制，带 #587 终审两个记档项）。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 1 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+✅ 执行报告无负向断言词（检查面=执行报告节）
