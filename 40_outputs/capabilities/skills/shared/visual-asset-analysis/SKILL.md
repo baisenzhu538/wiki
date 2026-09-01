@@ -3,7 +3,7 @@ name: visual-asset-analysis
 description: "Unified visual asset analysis pipeline. Routes images through OCR (text extraction), VLM (semantic understanding), and VA四维法 (structural design analysis). Use when any agent needs to analyze images, screenshots, diagrams, or infographics — '分析这张图', '跑视觉分析', 'VA this image'. Routes through 洪七公."
 version: 1.0.0
 author: 洪七公
-status: enriched
+status: draft
 reviewed_by: 待审
 updated_at: 2026-07-21
 metadata:
@@ -15,6 +15,8 @@ metadata:
       - image-ocr
       - deep-image-parser
     caller: [huangyaoshi, laowantong, wangyuyan, ouyangfeng]
+review_date: 
+grade: 
 ---
 
 # 视觉资产统一分析管线

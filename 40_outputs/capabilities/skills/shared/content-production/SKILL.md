@@ -9,6 +9,11 @@ metadata:
   hermes:
     tags: [内容生产, 逐字稿, 写作, Candy, 九步法]
     related_skills: [content-production]
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # Content Production（内容生产总入口）

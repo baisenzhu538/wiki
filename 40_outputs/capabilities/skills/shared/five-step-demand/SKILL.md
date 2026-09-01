@@ -9,6 +9,11 @@ metadata:
   hermes:
     tags: [需求分析, 真需求, 市场规模, 用户画像]
     related_skills: [five-step]
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # 五步法 Step 1: 需求分析

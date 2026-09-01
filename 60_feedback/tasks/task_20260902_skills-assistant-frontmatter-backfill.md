@@ -36,4 +36,12 @@ updated_at: '2026-09-01T15:12:46.012741+00:00'
 
 ## 执行报告
 
-（待施工后补）
+**交付物**：76 个 shared skill 的 `SKILL.md` frontmatter 补齐四字段（`status`/`reviewed_by`/`review_date`/`grade`）+ 缺失 `updated_at` 补登 + 重跑 `scan_skills_registry.py` 刷新 `INDEX.md`/`MOUNT-MATRIX.md`（76 skills，🟢 fresh）。
+
+**完成内容**：#595 全厂 skill frontmatter 四字段补齐施工完成——①判定口径：按真实终审记录判定（任务单终审 PASS 记录实证，非 MOUNT-MATRIX 挂载登记——挂载=引用登记≠终审）：6 张有欧阳锋终审在案 → `enriched/reviewed + reviewed_by: 欧阳锋 + 实际日期 + grade`（research-core/research 系 #594 PASS A 2026-09-01；nine-character-ai-collaboration/skill-architecture-design 系 #593 PASS A 2026-09-01；feishu-publish 系 2026-07-07 历史终审 grade 历史未留档留空不虚构；deep-debug 系 #586 PASS A- 2026-09-01）；其余 70 张无终审记录 → `status: draft + reviewed_by: 待审（库内 agent-spec draft 先例占位，非虚构）+ review_date/grade 留空`，零虚构；②红线执行：git diff 全量核查 76 文件 351 增/6 删全部为 frontmatter 四字段+updated_at 行，正文零改动（脚本断言非四字段变更行=0）；③门禁：`scan_skills_registry.py --check` 🟢 fresh（76 skills，状态分布 33 已挂载/12 单点/31 无主，与 #594 终审基线一致）；`kdo pre-submit -f` 抽验 5 张核心卡 5/5 PASS（research-core/research/deep-debug/nine-character-ai-collaboration/skill-architecture-design，0 ERROR）。
+
+**验证**：①四字段齐全自检脚本：76/76 全在位，YAML 可解析 0 异常；②git diff 逐文件核查：76 文件变更行均命中 `^(status|reviewed_by|review_date|grade|updated_at):` 白名单，正文零触碰；③`python 40_outputs/code/scripts/scan_skills_registry.py` 全量重扫 → INDEX.md 76 skills / MOUNT-MATRIX.md 27 挂载单元，`--check` 🟢 fresh；④pre-submit 抽验 5/5 PASS 0 ERROR；⑤既有 FAIL 甄别：content-production（BOM 头）与 feishu-publish（缺 title）pre-submit 报错经 `git show HEAD:` 比对实证为 HEAD 既有状态（BOM=True/缺 title 均 HEAD 在案），非本单引入，按任务单「只动 frontmatter 四字段」边界不越权修补。
+
+**未做项**：①content-production 等 37 张带 BOM 头 + 71 张缺 title 的 pre-submit 既有问题未修（超出本单「只动 frontmatter 四字段」边界，HEAD 既有欠账，建议另立项归口）；②4 张原 `status: enriched + reviewed_by: pending/待审`（content-production-polish/pre-ship-check/visual-asset-analysis/visual-polish）按真实状态降为 draft（无终审记录，不虚构）——如编排层认为应保留 enriched 语义需另行裁定；③MOUNT-MATRIX 无主 31 张归属登记未动（非本单范围，归属建议已在矩阵中）。
+
+**需要谁动作**：欧阳锋——终审 #595（重点：76/76 四字段齐全、零虚构判定口径、git diff 仅 frontmatter 核查、--check fresh）；王语嫣——知会编排视图（INDEX/MOUNT-MATRIX 已刷新，状态分布无变化）；黄药师——知会基建视图（BOM/缺 title 既有欠账候选立项）。

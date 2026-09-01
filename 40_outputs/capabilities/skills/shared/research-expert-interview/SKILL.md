@@ -9,6 +9,11 @@ metadata:
   hermes:
     tags: [research, 专家访谈, 访谈, 采访, expert-interview]
     related_skills: [research, research-cross-validation]
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # 专家访谈调研

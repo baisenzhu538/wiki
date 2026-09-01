@@ -9,6 +9,11 @@ metadata:
   hermes:
     tags: [Y模型, 知行合一, 矛盾论, 实践论, 科学决策]
     related_skills: [decision]
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # Y 模型实操

@@ -9,6 +9,11 @@ metadata:
   hermes:
     tags: [research, 行业报告, 市场研究, 市场规模, 赛道分析, 产业链]
     related_skills: [research, research-cross-validation]
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # 行业报告调研

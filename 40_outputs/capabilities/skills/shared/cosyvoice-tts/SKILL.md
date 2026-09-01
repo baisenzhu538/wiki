@@ -12,6 +12,11 @@ metadata:
       - audiocraft-audio-generation
   env:
     COSYVOICE_MODEL_DIR: "CosyVoice 模型目录路径"
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # CosyVoice 3.0 — 中文 TTS 与声音克隆

@@ -15,6 +15,7 @@ tags:
   - Skill工程
   - 架构
 review_date: 2026-09-01
+grade: A
 ---
 # Skill 架构设计模式（Anthropic 范式执行版）
 

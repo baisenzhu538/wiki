@@ -9,6 +9,11 @@ metadata:
   hermes:
     tags: [自攻击, 对抗审查, 质量, 自我迭代, GAN, SATs]
     related_skills: [research-sats, ai-collaboration-gan]
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # KDO 知识自攻击

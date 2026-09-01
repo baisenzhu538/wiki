@@ -9,6 +9,11 @@ metadata:
   hermes:
     tags: [需求分析, USP, 冰山, JTBD, 评估三角形]
     related_skills: [demand-analysis]
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # Demand Analysis（需求分析总入口）

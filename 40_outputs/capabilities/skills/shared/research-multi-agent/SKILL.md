@@ -9,6 +9,11 @@ metadata:
   hermes:
     tags: [多智能体, multi-agent, Supervisor, Swarm, Pipeline, CrewAI]
     related_skills: [research]
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # 多 Agent 协作调研

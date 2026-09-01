@@ -7,6 +7,11 @@ metadata:
   hermes:
     tags: [编排, 任务单, 队列, 分诊, 轮次护栏, 首交率, 编排者]
     related_skills: [entry-quality-gate, stage-1-diagnose, agent-self-iteration, six-layer-cross-validation, method-external-agent-feedback-production-loop]
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # 任务编排者工作台（Task Orchestration）

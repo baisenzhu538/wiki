@@ -9,6 +9,11 @@ metadata:
   hermes:
     tags: [草稿, 框架, 案例, 大纲, 结构]
     related_skills: [content-production]
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # 内容草稿生产（Step 3-6）

@@ -9,6 +9,11 @@ metadata:
   hermes:
     tags: [产品内核, 价值主张, 差异化, MVP]
     related_skills: [five-step]
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # 五步法 Step 2: 产品内核

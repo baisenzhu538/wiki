@@ -9,6 +9,11 @@ metadata:
   hermes:
     tags: [KDO, 验证, 测试, Agent实测, DDC]
     related_skills: [domain-iteration, stage-3-tooling, stage-5-assetize]
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # Stage 4: 域验证

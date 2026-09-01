@@ -10,6 +10,11 @@ metadata:
       - beikai-multimodal-pipeline
       - architecture-diagram
       - excalidraw
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # Draw.io MCP — AI 图表生成

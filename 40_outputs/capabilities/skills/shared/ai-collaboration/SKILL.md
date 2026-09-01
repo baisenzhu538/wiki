@@ -9,6 +9,11 @@ metadata:
   hermes:
     tags: [AI协作, 王欢, 导演模式, Harness, BITCOE, OODA, GAN]
     related_skills: [ai-collaboration]
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # AI Collaboration（人机协作总入口）

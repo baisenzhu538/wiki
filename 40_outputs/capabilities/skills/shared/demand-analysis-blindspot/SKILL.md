@@ -9,6 +9,11 @@ metadata:
   hermes:
     tags: [盲区, 穷举, MECE, 2B, 2C, 全量字典]
     related_skills: [demand-analysis]
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # 需求盲区扫描

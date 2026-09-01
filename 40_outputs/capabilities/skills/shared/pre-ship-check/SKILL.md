@@ -3,7 +3,7 @@ name: pre-ship-check
 description: "Pre-publish gate check for content before shipping to any channel. Checks channel-format match, review status, GEO/SEO readiness, and sensitive content — without modifying the content itself. Use when段王爷 or any agent is about to publish — '发布前检查', 'pre-ship check', 'ready to publish?'. Routes through 段王爷."
 version: 1.0.0
 author: 黄药师
-status: enriched
+status: draft
 reviewed_by: 待审
 updated_at: 2026-07-21
 metadata:
@@ -14,6 +14,8 @@ metadata:
       - content-production-polish
       - kdo-self-attack
     caller: [duanwangye, huangyaoshi, laowantong, wangyuyan]
+review_date: 
+grade: 
 ---
 
 # 发布前检查门禁

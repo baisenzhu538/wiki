@@ -9,6 +9,11 @@ metadata:
   hermes:
     tags: [SATs, 魔鬼代言人, Red Team, 关键假设, 结构化分析]
     related_skills: [research]
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # SATs 结构化分析技术

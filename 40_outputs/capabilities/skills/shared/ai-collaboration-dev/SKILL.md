@@ -9,6 +9,11 @@ metadata:
   hermes:
     tags: [AI开发, 三层架构, 哨兵质检, AI coding, 软件工程]
     related_skills: [ai-collaboration]
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # 三层开发架构

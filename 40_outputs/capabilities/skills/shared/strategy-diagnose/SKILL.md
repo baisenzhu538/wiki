@@ -9,6 +9,11 @@ metadata:
   hermes:
     tags: [战略诊断, 战略问题, 九问题, 战略失败]
     related_skills: [strategy]
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # 战略九问题诊断

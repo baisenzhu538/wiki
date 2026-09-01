@@ -3,7 +3,7 @@ name: visual-polish
 description: "Polish AI-generated visual assets to remove AI-feel and template-feel. The visual parallel to content-production-polish — checks images, diagrams, slides, and charts for common AI artifacts. Use when 洪七公 or any agent produces AI-generated visuals that look 'too AI' — '去AI味', 'visual polish', 'make it look human-made', '这个图太AI了'. Routes through 洪七公."
 version: 1.0.0
 author: 黄药师
-status: enriched
+status: draft
 reviewed_by: 待审
 updated_at: 2026-07-21
 metadata:
@@ -16,6 +16,8 @@ metadata:
       - drawio-mcp-diagrams
       - presenton-ppt-generator
     caller: [hongqigong, huangyaoshi, laowantong]
+review_date: 
+grade: 
 ---
 
 # 视觉去 AI 味检查

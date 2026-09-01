@@ -9,6 +9,11 @@ metadata:
   hermes:
     tags: [research, OSINT, 开源情报, Maltego, Shodan, Sherlock, Wayback]
     related_skills: [research, research-web-scraping, research-cross-validation]
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # OSINT 开源情报工具链

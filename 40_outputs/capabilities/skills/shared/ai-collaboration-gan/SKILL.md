@@ -9,6 +9,11 @@ metadata:
   hermes:
     tags: [GAN, 三角色, 对抗验证, 多Agent, 自检]
     related_skills: [ai-collaboration]
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # GAN 三角色架构

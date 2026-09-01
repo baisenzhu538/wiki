@@ -7,6 +7,11 @@ metadata:
   hermes:
     tags: [自我迭代, 自我进化, 配置诊断, 工具故障, 沉淀, 闭环]
     related_skills: [entry-quality-gate, six-layer-cross-validation, self-evolution, kdo-self-attack]
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # Agent 自我迭代闭环

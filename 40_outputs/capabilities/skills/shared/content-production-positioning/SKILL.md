@@ -9,6 +9,11 @@ metadata:
   hermes:
     tags: [定位, 差异化, 参考系, 选题, 内容方向]
     related_skills: [content-production]
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # 内容差异化定位（Step 1-2）

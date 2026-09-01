@@ -7,7 +7,7 @@ author: ECC（原版）/ 老顽童（KDO 桥接入库）
 license: MIT
 origin: ECC
 status: enriched
-reviewed_by: pending
+reviewed_by: 欧阳锋
 updated_at: 2026-09-01
 tags:
   - audience:builder
@@ -18,6 +18,8 @@ metadata:
     tags: [debugging, hypothesis-driven, root-cause, six-layer, methodology]
     related_skills: [systematic-debugging, debugging, kdo-v15-batch-repair]
 source_context: 学习candy合集《技能：deep-debug深度调试技能》ECC 原版，#586 任务 skill 化入库（2026-09-01，同日终审返工补 frontmatter 必需字段）
+review_date: 2026-09-01
+grade: A-
 ---
 
 # 深度调试技能 (Deep Debug)

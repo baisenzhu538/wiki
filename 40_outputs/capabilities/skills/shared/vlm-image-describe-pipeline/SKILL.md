@@ -14,6 +14,11 @@ metadata:
   env:
     MINIMAX_API_KEY: "MiniMax 平台 API Key（从 https://platform.minimax.chat 获取）"
     SILICONFLOW_API_KEY: "SiliconFlow 平台 API Key（从 https://siliconflow.cn 获取）"
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # VLM 批量识图管线

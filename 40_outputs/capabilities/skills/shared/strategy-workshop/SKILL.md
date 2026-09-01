@@ -9,6 +9,11 @@ metadata:
   hermes:
     tags: [战略会议, 战略工作坊, workshop, 战略规划, 冉鹏]
     related_skills: [strategy, strategy-brm, strategy-lifecycle, strategy-diagnose]
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # Strategy Workshop（战略会议准备包）

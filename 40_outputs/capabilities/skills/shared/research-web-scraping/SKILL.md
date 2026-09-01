@@ -9,6 +9,11 @@ metadata:
   hermes:
     tags: [research, 爬虫, 数据采集, scraping, crawl, 公开信息]
     related_skills: [research, research-osint]
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # 全网爬虫调研

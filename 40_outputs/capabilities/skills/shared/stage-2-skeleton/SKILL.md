@@ -9,6 +9,11 @@ metadata:
   hermes:
     tags: [KDO, 骨架, 框架卡, 索引入口, 老顽童]
     related_skills: [domain-iteration, stage-1-diagnose, stage-3-tooling]
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # Stage 2: 域骨架建设

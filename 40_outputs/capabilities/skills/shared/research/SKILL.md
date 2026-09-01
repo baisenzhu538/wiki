@@ -20,6 +20,7 @@ metadata:
     tags: [research, 调研, OSCAR, 尽调, 行业分析, 竞品分析]
     related_skills: [research-core, research-financial-report, research-industry-report, research-web-scraping, research-cross-validation, research-expert-interview, research-osint]
 review_date: 2026-09-01
+grade: A
 ---
 # 商业调研入口（已并入 research-core）
 

@@ -4,6 +4,11 @@ description: Self-iterating evolution skill — periodic memory/self-check, erro
 version: 1.0.0
 author: Hermes Agent
 tags: [self-management, memory, skills, auto-improvement]
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # Self-Evolution Skill

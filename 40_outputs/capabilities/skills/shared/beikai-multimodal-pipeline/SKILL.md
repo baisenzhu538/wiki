@@ -30,6 +30,11 @@ metadata:
       - wan-video-generation
       - presenton-ppt-generator
       - multi-page-article-capture
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # 北丐多模态渲染总纲

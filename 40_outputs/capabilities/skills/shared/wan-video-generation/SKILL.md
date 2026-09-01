@@ -13,6 +13,11 @@ metadata:
       - cosyvoice-tts
   env:
     WAN_MODEL_DIR: "Wan 模型存放目录"
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # Wan 2.2 — 开源 AI 视频生成

@@ -9,6 +9,11 @@ metadata:
   hermes:
     tags: [需求评估, 真需求, 评估三角形, 四种力量, 刚性]
     related_skills: [demand-analysis]
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # 需求评估：真伪 × 大小 × 紧迫

@@ -9,6 +9,11 @@ metadata:
   hermes:
     tags: [BRM, 差距分析, 战略规划, 战略执行, 鱼骨图]
     related_skills: [strategy]
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # BRM 战略框架

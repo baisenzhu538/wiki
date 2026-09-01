@@ -9,6 +9,11 @@ metadata:
   hermes:
     tags: [决策, Y模型, 决策卫生, 预判, 偏见, 科学决策]
     related_skills: [decision]
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # Decision（科学决策总入口）

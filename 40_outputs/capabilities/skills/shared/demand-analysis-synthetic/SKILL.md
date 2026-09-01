@@ -9,6 +9,11 @@ metadata:
   hermes:
     tags: [用户调研, synthetic research, 角色扮演, Agent调研, 需求验证]
     related_skills: [demand-analysis, demand-analysis-iceberg, research-sats]
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # Synthetic User Research（合成用户调研）

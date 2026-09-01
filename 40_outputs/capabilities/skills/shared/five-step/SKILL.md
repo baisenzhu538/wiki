@@ -9,6 +9,11 @@ metadata:
   hermes:
     tags: [五步法, 创业, 商业分析, 商业模式, 增长, 壁垒]
     related_skills: [five-step]
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # 五步法（Five-Step Method）

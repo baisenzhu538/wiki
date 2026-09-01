@@ -9,6 +9,11 @@ metadata:
   hermes:
     tags: [KDO, 诊断, 素材验收, 把关, 王语嫣]
     related_skills: [domain-iteration, stage-2-skeleton]
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # Stage 1: 域诊断

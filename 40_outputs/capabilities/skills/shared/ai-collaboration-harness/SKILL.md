@@ -9,6 +9,11 @@ metadata:
   hermes:
     tags: [Harness, AI产品, AI开发, 七阶段, Agent开发]
     related_skills: [ai-collaboration]
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # Harness 七阶段 AI 构建流程

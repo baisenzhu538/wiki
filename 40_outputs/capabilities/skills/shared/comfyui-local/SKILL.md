@@ -14,6 +14,11 @@ metadata:
   env:
     COMFYUI_DIR: "ComfyUI 安装目录"
     COMFYUI_PORT: "服务端口（默认 8188）"
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # ComfyUI — 多模态 AI 编排中枢

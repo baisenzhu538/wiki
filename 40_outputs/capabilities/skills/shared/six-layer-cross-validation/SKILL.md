@@ -7,6 +7,11 @@ metadata:
   hermes:
     tags: [交叉验证, 可信度, 验证, fact-check, 信息质量]
     related_skills: [nine-layer-deep-dig, research-cross-validation]
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # 六层交叉验证

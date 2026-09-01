@@ -9,6 +9,11 @@ metadata:
   hermes:
     tags: [KDO, 资产化, 发布, Workflow, 模板, Ship]
     related_skills: [domain-iteration, stage-4-validate]
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # Stage 5: 域资产化

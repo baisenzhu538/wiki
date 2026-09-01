@@ -24,6 +24,7 @@ metadata:
     tags: [research, 调研, 统一入口, OSCAR, 基础能力层, 交叉验证, 深挖]
     related_skills: [research-cross-validation, six-layer-cross-validation, research-quality-gate, nine-layer-deep-dig, research-sats, research-industry-report, research-financial-report, research-expert-interview, research-alt-data, research-osint, research-web-scraping, research-google-dorking, research-media-verification, research-multi-agent, research-ci-framework]
 review_date: 2026-09-01
+grade: A
 ---
 # research-core 统一调研入口
 

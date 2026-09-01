@@ -9,6 +9,11 @@ metadata:
   hermes:
     tags: [偏见, 认知偏差, bias, 决策陷阱, 暗知识]
     related_skills: [decision]
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # 决策偏见速查

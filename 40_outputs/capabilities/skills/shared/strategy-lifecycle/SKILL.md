@@ -9,6 +9,11 @@ metadata:
   hermes:
     tags: [六阶段, 生命周期, 初创, 成长, 转型, 退出]
     related_skills: [strategy]
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # 战略六阶段模型

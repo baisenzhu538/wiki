@@ -9,6 +9,11 @@ metadata:
   hermes:
     tags: [战略, 冉鹏, BRM, 六阶段, 战略规划]
     related_skills: [strategy]
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # Strategy（企业战略总入口）

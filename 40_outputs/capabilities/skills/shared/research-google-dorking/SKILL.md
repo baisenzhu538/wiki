@@ -9,6 +9,11 @@ metadata:
   hermes:
     tags: [Google Dorking, 高级搜索, WHOIS, DNS, SSL, crt.sh]
     related_skills: [research]
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # Google Dorking + DNS/SSL 域名情报

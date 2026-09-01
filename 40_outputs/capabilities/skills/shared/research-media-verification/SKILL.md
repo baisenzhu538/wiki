@@ -9,6 +9,11 @@ metadata:
   hermes:
     tags: [媒体验证, 反向搜索, ExifTool, GPS, 照片真伪]
     related_skills: [research]
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # 媒体验证链

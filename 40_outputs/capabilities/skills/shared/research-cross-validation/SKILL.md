@@ -9,6 +9,11 @@ metadata:
   hermes:
     tags: [research, 验证, 核实, fact-check, 信源可信度]
     related_skills: [research, research-financial-report, research-industry-report]
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # 调研交叉验证

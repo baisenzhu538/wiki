@@ -9,6 +9,11 @@ metadata:
   hermes:
     tags: [冰山模型, L1-L6, 任务地图, 四种力量, 需求假设]
     related_skills: [demand-analysis]
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # 冰山六层需求深挖

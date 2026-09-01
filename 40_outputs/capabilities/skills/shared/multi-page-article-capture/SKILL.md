@@ -10,6 +10,11 @@ metadata:
       - beikai-multimodal-pipeline
       - vlm-image-describe-pipeline
       - batch-paddleocr-js
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # 多页文章自动抓取拼接

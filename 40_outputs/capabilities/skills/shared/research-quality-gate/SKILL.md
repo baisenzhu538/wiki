@@ -9,6 +9,11 @@ metadata:
   hermes:
     tags: [调研质量, 自检, 质量门禁, 六维检查]
     related_skills: [research]
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # 调研质量门禁

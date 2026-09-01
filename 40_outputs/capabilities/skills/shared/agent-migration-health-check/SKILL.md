@@ -7,6 +7,11 @@ related_skills:
   - agent-self-iteration
   - self-evolution
   - entry-quality-gate
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # Agent 环境迁移全面体检

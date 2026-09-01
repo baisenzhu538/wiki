@@ -11,6 +11,11 @@ metadata:
       - markdown-to-ppt-pipeline
       - baoyu-infographic
       - cosyvoice-tts
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # Presenton — 开源 AI PPT 生成器

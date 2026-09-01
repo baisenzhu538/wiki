@@ -9,6 +9,11 @@ metadata:
   hermes:
     tags: [KDO, 工具化, Skill, 提示词, tooling]
     related_skills: [domain-iteration, stage-2-skeleton, stage-4-validate]
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # Stage 3: 域工具化

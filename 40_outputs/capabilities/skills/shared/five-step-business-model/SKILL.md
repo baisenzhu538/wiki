@@ -9,6 +9,11 @@ metadata:
   hermes:
     tags: [商业模式, UE, 单元模型, LTV, CAC, 盈利]
     related_skills: [five-step]
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # 五步法 Step 3: 商业模式

@@ -7,6 +7,11 @@ metadata:
   hermes:
     tags: [深挖, 商业分析, 投资判断, 风险画像, 九层, 决策]
     related_skills: [six-layer-cross-validation, research-cross-validation, research-sats]
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # 九层深挖法

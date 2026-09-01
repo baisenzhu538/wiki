@@ -15,6 +15,11 @@ trigger_keywords:
   - 帮我写
   - 帮我分析
   - 帮我评估
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # 知识碰撞工作流：先用知识库，再动笔

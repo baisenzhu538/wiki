@@ -9,6 +9,11 @@ metadata:
   hermes:
     tags: [预判, 预测, 趋势, 15字诀, 情景分析]
     related_skills: [decision]
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # 预判模型

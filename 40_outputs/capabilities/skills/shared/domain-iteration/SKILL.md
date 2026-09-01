@@ -9,6 +9,11 @@ metadata:
   hermes:
     tags: [KDO, 域迭代, 新域上线, 素材验收, 知识工程]
     related_skills: [stage-1-diagnose, stage-2-skeleton, stage-3-tooling, stage-4-validate, stage-5-assetize]
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # KDO 域迭代五阶段法

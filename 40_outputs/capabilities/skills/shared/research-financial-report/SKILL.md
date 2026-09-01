@@ -9,6 +9,11 @@ metadata:
   hermes:
     tags: [research, 财报, 招股书, 上市公司, 年报, 财务分析]
     related_skills: [research, research-cross-validation]
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # 财报/招股书深度解读

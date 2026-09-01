@@ -9,6 +9,11 @@ metadata:
   hermes:
     tags: [替代数据, Google Trends, Reddit, Glassdoor, alt data]
     related_skills: [research]
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # 替代数据调研

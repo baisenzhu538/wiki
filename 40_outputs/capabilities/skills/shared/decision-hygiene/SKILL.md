@@ -9,6 +9,11 @@ metadata:
   hermes:
     tags: [决策卫生, 噪声, 团队决策, 独立判断, Kahneman]
     related_skills: [decision]
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # 决策卫生五步法

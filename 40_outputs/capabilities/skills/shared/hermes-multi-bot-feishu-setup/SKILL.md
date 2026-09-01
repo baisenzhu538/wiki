@@ -3,6 +3,11 @@ name: hermes-multi-bot-feishu-setup
 description: Hermes 多 bot 飞书独立配置 — 每个 bot 独立飞书 app + 独立 LLM API
 version: 1.0
 tags: [hermes, multi-agent, feishu, profile, websocket]
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # Hermes 多 Bot 飞书独立配置指南

@@ -9,6 +9,11 @@ metadata:
   hermes:
     tags: [提示词, prompt, BITCOE, prompt engineering]
     related_skills: [ai-collaboration]
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
 ---
 
 # BITCOE 提示词框架

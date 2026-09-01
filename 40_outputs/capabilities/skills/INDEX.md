@@ -1,6 +1,6 @@
 # Skills 目录索引（INDEX）
 
-> #588 扫描生成物（生成时间 2026-09-01 22:53，共 76 个 skill）。
+> #588 扫描生成物（生成时间 2026-09-01 23:28，共 76 个 skill）。
 > **真相源 = 各 skill 的 SKILL.md frontmatter**；本文件是生成物，勿手改——
 > 新增/下架 skill 后重跑 `python 40_outputs/code/scripts/scan_skills_registry.py` 刷新。
 > 挂载现状对照见同目录 `MOUNT-MATRIX.md`；登记/维护归 Skills 助理（#587 分工表）。
