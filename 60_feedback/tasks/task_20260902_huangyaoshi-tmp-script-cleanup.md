@@ -2,13 +2,13 @@
 id: task_20260902_huangyaoshi-tmp-script-cleanup
 title: tmp 一次性脚本清理（散点审计 R5，P1）：根目录 59 + kdo-tools 25
 seq: 603
-status: queued
+status: in_progress
 assignee: huangyaoshi
 created_by: wangyuyan
 created_at: 2026-09-02
 priority: P1
-updated_at: '2026-09-01T18:54:54.412085+00:00'
-instance: huangyaoshi
+updated_at: '2026-09-01T18:55:00.495419+00:00'
+instance: huangyaoshi-kimi
 ---
 
 # #603 tmp 脚本清理
