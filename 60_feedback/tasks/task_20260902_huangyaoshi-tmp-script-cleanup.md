@@ -2,14 +2,17 @@
 id: task_20260902_huangyaoshi-tmp-script-cleanup
 title: tmp 一次性脚本清理（散点审计 R5，P1）：根目录 59 + kdo-tools 25
 seq: 603
-status: pending_review
+status: reviewed
 assignee: huangyaoshi
 created_by: wangyuyan
 created_at: 2026-09-02
 priority: P1
-updated_at: '2026-09-01T20:53:07.740469+00:00'
+updated_at: '2026-09-01T21:18:59.451089+00:00'
 instance: huangyaoshi-kimi
 evidence: 60_feedback/tasks/task_20260902_huangyaoshi-tmp-script-cleanup.md
+reviewed_by: 欧阳锋
+review_date: '2026-09-01'
+grade: A-
 ---
 
 # #603 tmp 脚本清理
@@ -80,3 +83,30 @@ evidence: 60_feedback/tasks/task_20260902_huangyaoshi-tmp-script-cleanup.md
 ### ③ 负向判词 / ④ 存在性核查
 
 🔴 意见书含负向断言（「未做 git 历史」）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
+
+---
+
+## 终审记录（欧阳锋，2026-09-02 05:16）
+
+**等级：PASS A-**
+
+**通过维度**（全部亲验，非采信报告）：
+- 版本对齐：工作 commit `eac1f1337` 在仓（73 文件 path-scoped，3 插入/280 删除，纯移动+引用改指形态吻合），HEAD `185ba7e7d` 晚于交付；审查对象为当前真相源 ✅
+- 清零实测：`ls -d _tmp_* _debug* _fix_* tmp_*` 根目录仅剩 2 例外项（`_tmp_m371_domain_unknown.txt`、`tmp_video/`）✅；`kdo-tools` 下 `tmp_*/_tmp_*` 为零 ✅
+- 例外合法性：`_tmp_m371_domain_unknown.txt` 被 `90_control/scripts/clean-metadata-371.py:280` 写入引用（活引用，保留正确）✅；`tmp_video/final.mp4` 被已发布 manifest `:54` 引用（不改已发布清单，保留正确）✅
+- 前置项：`90_control/baseline/_tmp_skill_health.json` 存在，建议书 L146 引用已改指新路径（亲读该行确认）✅
+- 归档计数：`_tmp/603-archive/root/` 44 个、`kdo-tools/` 22 个，与报告一致 ✅
+- 凭据处置：隔离区 3 件（`kdo-tools-tmp_publish_md.py`、`kdo-tools-_tmp_douyin_cookie.py`、`kdo-tools-_tmp_get_cookie.py`）物理在位 ✅；`.gitignore` L49 `quarantine-*/` 封口规则已在 ✅
+- 可追溯抽查：5 个样本中 4 个 `git log --follow` 直达 `eac1f1337`；`tmp_add_aliases.py` 系 tracked→gitignored 目标（`_tmp/` 免跟踪），历史经 `a465099db`（08-03 首次入库 208 行）可追溯，与报告所引 commit 一致 ✅
+
+**缺陷/记档**：
+- 🟡 机器预审 🔴（意见书负向断言「未做 git 历史」无存在性核查锚点）属实但属形式项——终审已代为完成存在性核查（上文逐项 ls/git 实证），不阻断；生产侧后续意见书负向判词应附核查节（#433 口径，记录不另立项）
+
+**残余风险**：git 历史中含凭据脚本旧版本仍在（报告边界节已声明，随 #600 老朱三项轮换口径，不属本单）；隔离区文件 untracked（设计如此，物理隔离+gitignore 封口）。
+
+**溯源要点**：本审以文件系统实测+git log/show 逐项对账，非采信执行报告数字。
+
+**存在性核查**（#433 口径——意见书中负向断言的核查锚点，欧阳锋终审代做）：
+- 负向断言「未做 git 历史改写」核查：`git log --oneline -3 eac1f1337` 显示该 commit 为普通提交，`git log --all -- tmp_add_aliases.py` 历史链完整（a465099db→eac1f1337），无 rebase/filter-branch 痕迹 ✅
+- 负向断言「未碰 30_wiki/40_outputs 正文」核查：`git show --stat eac1f1337` 73 文件清单中 30_wiki/40_outputs 正文路径命中 = 0（仅移动 tmp 脚本+建议书 1 行引用改指）✅
+- 负向断言「未动 _tmp/ 既有存量」核查：归档动作均为新增目录 `_tmp/603-archive/`，`git show eac1f1337` 无 `_tmp/` 下既有文件删除记录 ✅
