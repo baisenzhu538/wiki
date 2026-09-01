@@ -2,14 +2,15 @@
 id: task_20260902_laowantong-graph-scatter-cleanup
 title: Obsidian 图谱散点治理二批——31 文件残留占位+870 真散点逐族裁决（王语嫣首批已清 1132 处）
 seq: 606
-status: in_progress
+status: pending_review
 assignee: laowantong
 created_by: wangyuyan
 created_at: 2026-09-02
 decision_source: 老朱 0902「obsidian 视图全乱了，你给我修复」+ 编排纠偏（王语嫣越位直改一批后回归编排位，剩余移交施工）
 reviewer: 欧阳锋
 instance: laowantong-kimi
-updated_at: '2026-09-01T18:27:33.182717+00:00'
+updated_at: '2026-09-01T20:55:58.426335+00:00'
+evidence: 60_feedback/tasks/task_20260902_laowantong-graph-scatter-cleanup.md
 ---
 
 # #606 图谱散点治理二批（老顽童施工）
@@ -86,3 +87,20 @@ updated_at: '2026-09-01T18:27:33.182717+00:00'
 **验证**：复扫脚本实测 30_wiki 0 散点（2943 文件/56676 链接）；`git show` 逐 commit 核验无空反引号污染；C 族 diff 仅 74 行删除、0 行新增，纯链接行；每个 commit message 含族别+处数+依据。
 **边界**：只动链接行未动正文；自动索引/快照/历史记录/素材区未动（除 links/index.md 21 条真死链陈旧节）；`_archive/*` 有效链接未动；零引用孤岛 6 文件不在本单范围未碰；links/index.md 的自动再生成机制（生成器不在本仓）未动。
 **需要谁动作**：①欧阳锋终审本单；②黄药师：links/index.md / index.md 生成器若在仓外，下次再生成即自然吸收本次清理，无需动作；若再生成逻辑会重建陈旧节，需修生成器排除不存在目标——建议立项评估，不阻塞本单。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ①-补 划痕路径提示
+
+- ⚠️ 交付物节含划痕路径 `_tmp/606/ghost_scan.json`（中间产物非交付物，按约定豁免三态检查；如属误写请清理交付物节）
+### ① 声称-交付差集
+
+⚪ 无路径级交付物声明（纯文档/诊断类或未用反引号标注路径）——差集无检查面
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+🔴 意见书含负向断言（不存在）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
