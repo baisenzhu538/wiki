@@ -268,3 +268,13 @@
 
 [2026-09-01 13:25] 🔧 #592-P1-1 编码缺陷根治（抢在今晚02:30前，欧阳锋终审PASS B+打回项）：offsite bat 中文DEST在调度环境证伪两次（黄药师首跑埋乱码目录+我BOM方案受控复测仍写乱码=证伪），根治=junction C:\kdo-offsite（纯ASCII）指向坚果云目录，bat DEST全ASCII化。受控复测：干净环境直跑rc=0+落地字节等大2,316,604,477+乱码零复发+穿透写入真实目录实证+R3三查OK。中途发现并修掉双层kdo-backup结构问题（junction指深了一层，R3自检曾报FAIL——恰好证明告警链路活着）。P1-2（上传事件验证被sndobject替代未声明）已随R3 gate-blocked活体告警自然闭环。
 [2026-09-01 13:25] ✅ #591 PASS A-/#592 PASS B+（P1-1已修待复验）终审落点收妥：清除序四条待老朱拍板（1即刻改密Windows+坚果云 2sshd收紧四步顺序不可倒：装公钥→验密钥登录→关密码认证→防火墙限tailnet 3Nutstore watcher压测另单 4杀扫可后置因Sysmon已接防）。欧阳锋P1抓到#591报告§5前提失实（authorized_keys空集，直接关密码认证=SSH锁死）——存在性核查又一次立功。
+- [2026-09-01 13:27] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-01 13:19:09｜vault-integrity｜异机副本缺失｜no bundle in C:\Users\Admin
+- [2026-09-01 13:37] ⛔ KDO 门禁拦截 2 次（gate-blocked）：2026-09-01 13:37:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-c…
+[2026-09-01 13:35] ⚖️ 处置 gate-blocked 2 行：①#591 F-036「问题未给落点」=格式误报——终审记录「**落点**」节实存（sshd 正确执行序并入给老朱清除序待拍板，EID23 口径自洽收口），划销；②vault-integrity 13:19 异机副本缺失=复跑三查全绿 exit 0（bundle verify 过+offsite 2,316,604,477B 在位），系 #592-P1-1 junction 双层修正施工窗口时序空窗，划销
+[2026-09-01 13:35] ✅ #592-P1-1 修复实证核验（本拍亲验）：DEST=C:\kdo-offsite\kdo-backup 纯 ASCII（bat L16）、junction 在位、复测 rc=0 零乱码——欧阳锋「明日 02:30 静默失效」预测已根治；P1-2 上传事件证据挂今晚 02:30 调度实跑后补追记（时钟值守明日晨拍核）
+- [2026-09-01 13:47] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+
+[2026-09-01 14:05] ✅ 终审通过 #587 Skills助理SPEC补记执行（本拍）：终审残余指令「部署另立项+带两阶段口径」已执行——**#593 立项**（Skills助理Agent部署+U1-U3实跑验收，黄药师，P1，任务单+队列行 seq 593，commit 7c1220ab5）；#593已入myqueue可领1
+[2026-09-01 14:05] 🚀 已拉起 huangyaoshi：#593 施工（headless，proc_e02f1fa0bb43，无双实例——wmic核实仅gateway常驻）
+[2026-09-01 14:05] ⚖️ 已知问题划销 1 行：role-liveness 13:37 huangyaoshi 疑死（冷却重报，check-liveness 实测冷却抑制2角色/全死0；queued=0 无施工实例=08-29架构常态非事故，同型12:01/12:35两例）
+[2026-09-01 14:05] 🕐 时钟值守拍（14:05）：①INBOX-PENDING 0 未划销/PROPOSAL-PENDING role-liveness 1 行已划销；②结构地图例行单搜 7 命中=同名单历史残留（6单无结构地图节，老单冻结不回注）；③终审面：#585-#592 全落点已收妥（上拍13:35），pending_review=0；④#593 立项+拉起（见上）；⑤心跳已写
