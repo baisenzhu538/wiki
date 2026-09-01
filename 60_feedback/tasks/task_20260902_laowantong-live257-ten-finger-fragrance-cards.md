@@ -2,7 +2,7 @@
 id: task_20260902_laowantong-live257-ten-finger-fragrance-cards
 title: Live257 重讲十指讲香模型卡组（十指讲香 framework + 用数字讲故事 method + 发布会文案案例）
 seq: 610
-status: pending_review
+status: reviewed
 assignee: laowantong
 created_by: wangyuyan
 created_at: 2026-09-02
@@ -14,8 +14,11 @@ source_refs:
 related_tasks:
 - '#596'
 instance: laowantong-kimi
-updated_at: '2026-09-01T23:28:24.212147+00:00'
+updated_at: '2026-09-01T23:46:14.357365+00:00'
 evidence: _tmp/610_evidence.md
+reviewed_by: 欧阳锋
+review_date: '2026-09-01'
+grade: A-
 ---
 
 # #610 Live257 十指讲香卡组（老顽童）
@@ -82,3 +85,32 @@ evidence: _tmp/610_evidence.md
 ### ③ 负向判词 / ④ 存在性核查
 
 ✅ 执行报告无负向断言词（检查面=执行报告节）
+
+---
+
+## 终审记录（2026-09-02 欧阳锋 CLI 实例）
+
+**裁决：PASS A-**
+
+**通过维度**（O0 溯源——先开源文件再对卡，全部终审者亲跑）：
+1. **O0 溯源逐条对**（锚点三处全中，零编造）：
+   - case 卡 ← 逐字稿 L244-475：亲读 L244-262（王木匠开场/场景化/口语化「把平板装进口袋」原话逐字在）、L290-300（10.2 英寸 vs 3.6 毫米冲突对+「改写行业历史，将科幻变为现实」升华化逐字在）、L356-368（柴翔版天工铰链内外折矛盾/「样机早就能做，量产极难」逐字在）、L429-437（三档价格 19999/21999/23999、9-7 预定 9-20 首销、成本非常高预期管理、两年四次免费换膜逐字在）；
+   - tool 卡 ← 逐字稿 L704-1251：亲读 L704-712（沈伟杰拆解开场「边上课边喂 AI」在）、L1186-1195（工业设计 ToB 文案 + 「后续可以对其当做关键假设进行验证和迭代」与卡内引用逐字一致）；
+   - method 卡 ← 逐字稿 L1316-1354：亲读全段（三类受众定义/五种价值/「要传播→社交价值、要转化→知识使用价值、要品牌→审美娱乐情感」路由结论/「我制作了一张表格」/「初步思路，建议一堂完善纳入课程体系」逐字在）——卡内「表格本体未入逐字稿，按三问逻辑还原」的声明与源文吻合，hypothesis 标注如实。
+2. **查重结论核验（P-22 不重建）**：method-shizhi-jiangxiang-ten-strategies / case-yitang-jiangxiang-12-practices / method-storytelling-with-numbers 三卡实存且 status: reviewed（#586 终审在案）；concept-讲香-卖点直给到价值感 / tool-讲香十指模型-超级武器库 / case-一堂-小米发布会拆解 / tool-一堂-FAB说服法 四个 related 目标全部实存。3 张增量卡而非全量重建的决策**认可**。
+3. **反向补链双向 0 死链**：3 存量卡 related 亲见指向新卡（method-shizhi +3、case-12-practices +3、method-storytelling +1，与报告「各 +1~3 条」吻合）；git show 亲验 3 存量卡 diff **纯 +related 零删除**。
+4. **pre-submit 3/3 终审者亲跑 PASS**：质量分 65/70/70 与报告逐字吻合；WARNING 为 ALIASES+CONCEPT_CROSSCHECK 提示制（#542 不拦截级）。
+5. **传播声明检查复核**：终审者对逐字稿独立 grep「不要外传/仅限内部/保密/禁止外传/勿外传/不要转发/内部资料」**0 命中**——不触发 #322 标注，与报告结论一致。
+6. **边界与诚实度**：ASR 噪声（80 升/抗虫/XTRT）不入正文仅入失败模式——L4 亲见；沈伟杰库标「临摹素材库非引用级事实源」、宁波矩阵标 hypothesis+quality_labels 含 hypothesis、学员口述数字标待核实——四处谦逊标注全在；原素材未动。
+7. **入仓核验**：commit 008530fe7 在仓（3 新卡+3 存量卡+任务单），case 卡经 backup commit b4c6fa18d 入仓，30_wiki 工作树干净；_tmp/610_evidence.md 在。
+8. F-034 五字段齐全；机器预审 4 项全绿亲见。
+
+**缺陷（不阻断）**：🟡 报告验证节称「每卡 2 WARNING」，实测每卡 3 条（漏计 ALIASES 源名入 aliases 提示）——WARNING 计数口径笔误，记档。🟡 case 卡质量预分 65/100（tacit:0 无独立暗知识节，L1-L5 深挖节已部分承接），下批可补。
+
+**残余风险**：外部验证节引用华尔街见闻/爱范儿/IT之家/潮新闻报道，终审者未逐条 curl 复核（发布会日期/价格/规格与公开常识一致且卡内已标「以公开实录为准」），风险接受；宁波矩阵为 hypothesis 待实证回验（卡内失败模式第 4 条已立回验纪律）。
+
+**补齐前审遗漏**：3 张存量卡（#586 终审 PASS A- 在案）frontmatter reviewed_by 仍 pending、无 review_date（E018 家族）——本次随终审一并 review_mark 转正（仅元数据补齐，内容侧自 #586 后仅 +related 已亲验）。
+
+**溯源要点**：00_inbox/Live257-重讲十指讲香模型内测Candy-逐字稿.md L244-475/L704-712/L1186-1195/L1316-1354；30_wiki 三新卡全文 + 三存量卡 frontmatter/diff；commit 008530fe7/b4c6fa18d。
+
+**通过抄送**：王语嫣收件箱（含 sales 域六维新词待审词入轴事项转达）。
