@@ -398,3 +398,6 @@
 - [2026-09-02 03:57] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
 - [2026-09-02 04:27] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
 - [2026-09-02 04:41] ⚠️ 02:58 kimi 5h 额度窗 403 三实例团灭（headless 日志实证）→ 04:39 额度恢复（本会话活跃佐证）→ 补拉 laowantong（proc_30256 续 #606）+ huangyaoshi（#603 链）。skills-assistant #597 暂缓（额度节流）
+- [2026-09-02 04:57] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#603（huangyaoshi 的单，挂审 4min）；#606（laowantong 的单，挂审 2min）（到点（节奏 30min））
+- [2026-09-02 04:57] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-02 04:53:03｜task_20260902_huangyaoshi-tmp-script-cleanup｜F-034
+- [2026-09-02 05:09] 🕐 值守拍：#603/#606 完工提审（#606 复扫 30_wiki 散点=0 达标）→ 拉起欧阳锋终审（proc_7464）；黄药师 04:41 实例�=B4=BB跃续�=96=BD工中
