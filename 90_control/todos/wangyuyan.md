@@ -336,3 +336,8 @@
 - [2026-09-01 22:22] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
 [2026-09-01 22:32] 🚀 已拉起 skills-assistant：#594 生产首单（老朱09-02直令「调研能力=全agent基础能力」：17 skill整合research-core三层结构+全员挂载；proc_b7f441dc9bb0，headless 后台）——新角色 #593 部署后首次施工
 [2026-09-01 22:32] 🕐 时钟值守拍（22:31）：①PROPOSAL/INBOX/REVIEW 三段 0 未划销（脚本精确扫描，22:01 拍扫描正则误报全清修正）；②产线 queued 1=#594 skills-assistant 已拉起（见上）；③三老角色可领 0 无拉起，pending_review 0 不拉欧阳锋；④结构地图例行 grep 7 命中=同名单历史残留（老单冻结不回注）；⑤心跳已写
+- [2026-09-01 22:52] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-01 22:57] ⛔ KDO 门禁拦截 2 次（gate-blocked）：2026-09-01 22:55:09｜task_20260902_skills-assistant-research-core-integ…
+[2026-09-01 23:02] 🚀 已拉起 ouyangfeng：终审 #594（proc_3f8f7d64d962，headless 后台）——pending_review 1 单 22:55 提审挂审至今，欧阳锋实例 07:36 收工后无新终审，按 0901 直令「任务到了马上滚起来」必拉
+[2026-09-01 23:02] ⚖️ E040 残留划销：#594 交付物 shared/research/SKILL.md 已入仓（git ls-files 实证 tracked，skills 目录无脏改动）——22:57 拦截系提审前时序窗口，条件已不复存在；时间戳手写漂移 1 次自纠（23:35→23:02）
+[2026-09-01 23:02] 🕐 时钟值守拍（23:02）：①PROPOSAL-PENDING #594 E040 残留 1 行已划销（全清）②INBOX-PENDING 0 未划销 ③产线 queued 0/claimed 0/pending_review 1=#594 → 已拉欧阳锋终审 ④三老角色可领 0 不拉起 ⑤心跳已写（hermes 实例 3 个）
