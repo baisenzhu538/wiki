@@ -11,8 +11,6 @@ source_refs:
   - "src_20260503_52ae08ba"
   - "src_20260501_58b6edef"
 wiki_refs:
-  - "[[obsidian-kdo-内容产出工作流-产品设计大纲]]"
-  - "[[obsidian-kdo-内容产出工作流-产品设计大纲]]"
   - "[[kdo-protocol]]"
 created_at: "2026-05-03"
 domain: ['ai-saas', 'master']

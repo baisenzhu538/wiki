@@ -21,7 +21,6 @@ related:
 - '[[tool-泛产品设计-需求工具箱指南]]'
 - '[[HIS系统开发实现方案-架构师指南]]'
 - '[[kdo-15-dimension-label-spec]]'
-- '[[obsidian-kdo-内容产出工作流-产品设计大纲]]'
 - '[[framework-kdo-self-attack]]'
 - '[[kdo-priority-checklist]]'
 - '[[dk-p19-quote-yaml]]'

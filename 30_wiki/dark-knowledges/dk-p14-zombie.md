@@ -24,7 +24,6 @@ discoverable_by:
   - 进程默默烧钱
   - 死循环
 related:
-- '[[obsidian-kdo-内容产出工作流-产品设计大纲]]'
 - '[[dk-c7-auto-backup-conflict]]'
 - '[[obsidian-git-sync-protocol]]'
 pipeline:

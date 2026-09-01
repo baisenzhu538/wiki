@@ -30,7 +30,6 @@ related:
 - '[[modeling-to-kdo-toolchain]]'
 - '[[kdo-batch-produce-req014]]'
 - '[[kdo-15-dimension-label-spec]]'
-- '[[obsidian-kdo-内容产出工作流-产品设计大纲]]'
 - '[[tool-月白-课程资料文件命名规范]]'
 - '[[存储策略]]'
 - '[[proposal-ai-domain-mastery-pipeline]]'

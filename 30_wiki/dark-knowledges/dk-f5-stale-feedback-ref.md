@@ -31,7 +31,6 @@ related:
 - '[[modeling-to-kdo-toolchain]]'
 - '[[kdo-batch-produce-req014]]'
 - '[[kdo-15-dimension-label-spec]]'
-- '[[obsidian-kdo-内容产出工作流-产品设计大纲]]'
 - '[[tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]'
 - '[[framework-kdo-self-attack]]'
 - '[[kdo-yaml-frontmatter-safety]]'

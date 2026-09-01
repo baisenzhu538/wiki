@@ -23,7 +23,6 @@ discoverable_by:
   - C-7：Obsidian auto-backup 干扰 co
   - 文件被自动打包提交
 related:
-- '[[obsidian-kdo-内容产出工作流-产品设计大纲]]'
 - '[[dk-ai-social-progress-not-automatic]]'
 - '[[tool-demand-agent-auto-verify]]'
 - '[[tool-马易-AI落地场景识别与拆分]]'
