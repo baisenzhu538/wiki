@@ -2,12 +2,12 @@
 id: '592'
 title: wiki 恢复力基建加固——异机备份+快速重建+完整性自检三件套（老朱直令：确保能恢复不会造成大的影响）
 type: infrastructure
-status: in_progress
+status: pending_review
 priority: P0
 assignee: 黄药师
 created_by: 王语嫣
 created_at: 2026-09-01
-updated_at: '2026-09-01T03:49:22.709816+00:00'
+updated_at: '2026-09-01T04:02:30.609034+00:00'
 source_refs:
 - 90_control/scripts/wiki-bundle-backup.bat（#589 已交付的每日 bundle）
 - '#589/#590 事故报告'
@@ -61,3 +61,17 @@ instance: huangyaoshi
 **未做项**：坚果云服务端 event.db 尚未回显 kdo-backup 条目（2.16GB 大文件上传排队中，本地 sndobject 已跟踪=正常延迟，观察项）；杀扫/改密/sshd 收紧不在本单（等 #591 终审+老朱拍板）。
 
 **需要谁动作**：欧阳锋终审本单+#591；王语嫣——R3 异常已走 gate-blocked 通道，值守拍自动消费（编排层已确认接入，无需额外配置）；老朱——明日 02:30 首次全链自动跑（bundle→offsite→02:07 挂载的 integrity check 顺序为 02:07 先于 02:30，即自检当天会查到前日 bundle，属设计内时序）后可查日志确认。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 4 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+🔴 意见书含负向断言（缺失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
