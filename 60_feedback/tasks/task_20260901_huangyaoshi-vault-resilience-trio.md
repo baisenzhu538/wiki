@@ -1,16 +1,17 @@
 ---
-id: "592"
-title: "wiki 恢复力基建加固——异机备份+快速重建+完整性自检三件套（老朱直令：确保能恢复不会造成大的影响）"
+id: '592'
+title: wiki 恢复力基建加固——异机备份+快速重建+完整性自检三件套（老朱直令：确保能恢复不会造成大的影响）
 type: infrastructure
-status: queued
+status: in_progress
 priority: P0
 assignee: 黄药师
 created_by: 王语嫣
 created_at: 2026-09-01
-updated_at: 2026-09-01
+updated_at: '2026-09-01T03:49:22.709816+00:00'
 source_refs:
 - 90_control/scripts/wiki-bundle-backup.bat（#589 已交付的每日 bundle）
-- "#589/#590 事故报告"
+- '#589/#590 事故报告'
+instance: huangyaoshi
 ---
 
 # #592 wiki 恢复力三件套（老朱 09-01 直令「加强基础设施，确保能恢复」）
