@@ -221,7 +221,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 592 | `task_20260901_huangyaoshi-vault-resilience-trio` | wiki恢复力三件套：R1异机备份（最新bundle自动推坚果云目录保留3份）+R2快速重建脚本固化（bundle→临时目录演练）+R3完整性自检例行（异常走gate-blocked通知面） | reviewed | huangyaoshi | 三件全实跑自证+演练对照报告 | 老朱0901直令「加强基础设施确保能恢复」；P0 | `60_feedback/tasks/task_20260901_huangyaoshi-vault-resilience-trio.md` | 坚果云只收bundle不做wiki同步（#589铁律）；欧阳锋终审 |
 | 593 | `task_20260901_huangyaoshi-skills-assistant-deploy` | Skills助理Agent部署+U1-U3实跑验收（两阶段第二阶段，#587终审指令立项）：agent实体部署面（比照#303/#304先例）+mount-matrix大小写对齐+三用例逐条实跑 | reviewed | huangyaoshi | 部署+U1-U3实跑留痕+执行报告五字段 | #587 reviewed ✅ + #588 reviewed ✅ | `60_feedback/tasks/task_20260901_huangyaoshi-skills-assistant-deploy.md` | SPEC第八节用例=验收门；不含飞书壳（远期老朱拍板）；欧阳锋终审 |
 | 594 | `task_20260902_skills-assistant-research-core-integration` | 调研能力层整合（Skills助理生产首单，老朱09-02拍板「调研能力是最基础的必备能力」）：17 skill（14 research系+3近亲）P1评审三层结构→research-core统一入口生产→路由面盲测→全agent挂载（消灭43无主中最大族） | reviewed | skills-assistant | 三层判定书+research-core skill+盲测3/3+全员挂载三写一致 | 老朱09-02直令拍板；#587/#588/#593 reviewed ✅ | `60_feedback/tasks/task_20260902_skills-assistant-research-core-integration.md` | 不改子策略正文；不扩军只整合；欧阳锋终审 |
-| 595 | `task_20260902_skills-assistant-frontmatter-backfill` | 全厂skill frontmatter补齐（#594终审遗留①，老朱09-02拍板「立」）：66/76缺status四字段按真实状态补齐（有终审=enriched/无=draft不虚构），只动frontmatter正文零改动 | claimed-skills-assistant | skills-assistant | 76/76字段齐+零虚构+diff仅frontmatter+--check fresh | 老朱09-02直令；#594 PASS A ✅ | `60_feedback/tasks/task_20260902_skills-assistant-frontmatter-backfill.md` | 不虚构审查状态；欧阳锋终审 |
+| 595 | `task_20260902_skills-assistant-frontmatter-backfill` | 全厂skill frontmatter补齐（#594终审遗留①，老朱09-02拍板「立」）：66/76缺status四字段按真实状态补齐（有终审=enriched/无=draft不虚构），只动frontmatter正文零改动 | pending_review | skills-assistant | 76/76字段齐+零虚构+diff仅frontmatter+--check fresh | 老朱09-02直令；#594 PASS A ✅ | `60_feedback/tasks/task_20260902_skills-assistant-frontmatter-backfill.md` | 不虚构审查状态；欧阳锋终审 |
 
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
@@ -417,6 +417,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#592 task_20260901_huangyaoshi-vault-resilience-trio｜黄药师｜提审 09-01 12:02｜60_feedback/tasks/task_20260901_huangyaoshi-vault-resilience-trio.md~~ → 已终审 PASS B+（2026-09-01 欧阳锋）
 - ~~#593 task_20260901_huangyaoshi-skills-assistant-deploy｜黄药师｜提审 09-01 14:46｜60_feedback/tasks/task_20260901_huangyaoshi-skills-assistant-deploy.md~~ → 已终审 PASS A（2026-09-01 欧阳锋）
 - ~~#594 task_20260902_skills-assistant-research-core-integration｜skills-assistant｜提审 09-01 22:55｜60_feedback/tasks/task_20260902_skills-assistant-research-core-integration.md~~ → 已终审 PASS A（2026-09-01 欧阳锋）
+- #595 task_20260902_skills-assistant-frontmatter-backfill｜skills-assistant｜提审 09-01 23:30｜60_feedback/tasks/task_20260902_skills-assistant-frontmatter-backfill.md
 
 <!-- REVIEW-PENDING-END -->
 

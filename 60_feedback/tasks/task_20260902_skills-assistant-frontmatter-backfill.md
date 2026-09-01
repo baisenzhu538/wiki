@@ -2,7 +2,7 @@
 id: '595'
 title: 全厂 skill frontmatter 字段补齐（66/76 缺 status，Skills助理第二单）
 type: skill-production
-status: in_progress
+status: pending_review
 priority: P2
 assignee: skills-assistant
 created_by: 王语嫣
@@ -11,7 +11,7 @@ source_refs:
 - 60_feedback/tasks/task_20260902_skills-assistant-research-core-integration.md
 - 40_outputs/capabilities/skills/INDEX.md
 instance: skills-assistant
-updated_at: '2026-09-01T15:12:46.012741+00:00'
+updated_at: '2026-09-01T15:30:30.753481+00:00'
 ---
 
 # #595 全厂 skill frontmatter 字段补齐（老朱 09-02 拍板「立」）
@@ -45,3 +45,17 @@ updated_at: '2026-09-01T15:12:46.012741+00:00'
 **未做项**：①content-production 等 37 张带 BOM 头 + 71 张缺 title 的 pre-submit 既有问题未修（超出本单「只动 frontmatter 四字段」边界，HEAD 既有欠账，建议另立项归口）；②4 张原 `status: enriched + reviewed_by: pending/待审`（content-production-polish/pre-ship-check/visual-asset-analysis/visual-polish）按真实状态降为 draft（无终审记录，不虚构）——如编排层认为应保留 enriched 语义需另行裁定；③MOUNT-MATRIX 无主 31 张归属登记未动（非本单范围，归属建议已在矩阵中）。
 
 **需要谁动作**：欧阳锋——终审 #595（重点：76/76 四字段齐全、零虚构判定口径、git diff 仅 frontmatter 核查、--check fresh）；王语嫣——知会编排视图（INDEX/MOUNT-MATRIX 已刷新，状态分布无变化）；黄药师——知会基建视图（BOM/缺 title 既有欠账候选立项）。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+⚪ 无路径级交付物声明（纯文档/诊断类或未用反引号标注路径）——差集无检查面
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+🔴 意见书含负向断言（缺失/「无终审记录」）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
