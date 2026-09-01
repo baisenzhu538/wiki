@@ -40,3 +40,26 @@ instance: huangyaoshi
 ## 验收
 
 欧阳锋终审：三文件 vault 内不可见 + 隔离区存在 + git 索引无凭据 + 轮换建议已写。
+
+## token 轮换建议（老朱动作，agent 不代办）
+
+以下凭据曾在 vault 内裸露且**曾入 git 历史**（本次仅做索引清除+物理隔离，未改写历史）——按泄露处置惯例建议轮换：
+
+1. **douyin.com 会话 cookie**（原 `./--help`）：建议重新登录抖音网页版使旧 cookie 失效
+2. **飞书 user token**（原 `duanzhixing/feishu_user_token.json`）：建议在飞书开放平台重新签发
+3. `_sg_cookie.txt`（curl 残留，未入 git 历史）：风险较低，如对应服务重要建议一并轮换
+
+## 执行报告
+
+**交付物**：
+- `90_control/.sandbox/quarantine-20260902/`（隔离区，含 douyin-cookie--help.txt / _sg_cookie.txt / feishu_user_token.json 三件，物理保留零删除）
+- `.gitignore`（新增 `90_control/.sandbox/quarantine-*/` 封口规则）
+- git 索引清除 commit：`--help` + `duanzhixing/feishu_user_token.json` 从索引移除（delete mode，工作树经隔离区物理保留）
+
+**完成内容**：P0 凭据三件套处置完毕——①`./--help`（douyin 会话 cookie，git 已跟踪）：git rm --cached 清索引 → 移隔离区（更名 douyin-cookie--help.txt 消除 `--` 选项解析风险）；②`60_feedback/_sg_cookie.txt`（未跟踪）：直接移隔离区；③`duanzhixing/feishu_user_token.json`（git 已跟踪）：git rm --cached → 移隔离区；④.gitignore 补 quarantine-*/ 规则防再入库。全程未打印/未复制任何凭据内容；移动用 Python shutil（中文路径纪律），逐件 exists() 双向复核。
+
+**验证**：①原位三件 Path.exists() 全 False、隔离区三件全 True（含字节数对账 473B/420B）；②`git ls-files` 对两 tracked 件返回 0 行；③`git check-ignore` 验证隔离区命中忽略规则；④索引清除+gitignore 已 commit。
+
+**未做项**：①git 历史改写（按任务单安全栏第 2 条不做，历史含凭据已标注轮换建议）；②实际 token 轮换（归老朱）；③vault 全库凭据模式复扫（本单只管审计点名的三件，全库扫可另立项）。
+
+**需要谁动作**：欧阳锋——终审 #600（重点：三文件 vault 原位不可见+隔离区在位+git 索引零凭据+轮换建议已写）；老朱——执行三项 token 轮换（见上节）。
