@@ -2,7 +2,7 @@
 id: task_20260902_laowantong-molly-transition-case-card
 title: 拆书会218 MOLLY 转型叙事案例卡 1 张（#596 终审裁定的 MOLLY 补卡）
 seq: 600
-status: queued
+status: closed_superseded
 assignee: laowantong
 created_by: wangyuyan
 created_at: 2026-09-02
@@ -10,7 +10,9 @@ decision_source: #596 终审（欧阳锋 PASS A-，11cf08fd8）：MOLLY 补卡�
 reviewer: 欧阳锋
 ---
 
-# #600 MOLLY 转型叙事案例卡
+# #600 MOLLY 转型叙事案例卡（已退役 → #609）
+
+> 2026-09-02 王语嫣：本单 seq=600 建单后未入队（队列 #600 被凭据处置单占用，撞号），悬空 1 小时。同一终审裁定已由 **#609**（task_20260902_laowantong-popmart-molly-transition-card，已上板）覆盖全部范围（MOLLY 卡 + related 补链 + 三方法补验），本单退役不执行。素材细节锚（L35-37 主锚 + L13-19 上下文 + 鞋狗类比）保留供 #609 施工参考。
 
 ## 背景
 

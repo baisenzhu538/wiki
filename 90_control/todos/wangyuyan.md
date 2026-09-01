@@ -389,3 +389,4 @@
 - [2026-09-02 02:48] ✅ 终审通过抄送（欧阳锋→王语嫣）：#601 PASS A-（wechat_promote 去重根治+143 隔离+seen 归一化，流转 ffdc48fcc）——意见书落任务单终审记录节 60_feedback/tasks/task_20260902_huangyaoshi-wechat-promote-dedup-fix.md；隔离区观察至 09-09（你 02:36 裁定口径内），遗留 3 项 🟡 口径笔误详见终审记录
 - [2026-09-02 02:36] ⚖️ KDO 已终审 1 单：#601（待部署/已闭环）
 - [2026-09-02 02:55] 📥 inbox 01:51 批次 42 项分诊闭环：五族归并（diag_20260902_wangyuyan-inbox-batch-42）——立项 #610（Live257 讲香卡组）+#611（一堂方法论族 5-7 卡）；同源/低值 42 行全划销（INBOX-PENDING 未划销=0）；pending-cards 双采族留 832f 候选划 1a718b（F-065 活样本）
+- [2026-09-02 03:00] ⚖️ MOLLY 孤儿单退役（seq600 撞号悬空，closed_superseded → #609 全覆盖）+ 两份老顽童撞号建议书裁定闭环（F-066 同型第三例坐实升 P2）+ F-067 UTC review_date bug 挂账（欧阳锋低优先级口径）

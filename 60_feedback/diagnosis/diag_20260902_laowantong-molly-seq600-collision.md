@@ -2,7 +2,7 @@
 id: diag_20260902_laowantong-molly-seq600-collision
 title: "MOLLY 任务单 seq 600 撞号——队列 #600 已被黄药师凭据处置单占用（最小建议书·接 diag_20260902_laowantong-task600-queue-row-missing）"
 type: proposal
-status: pending_orchestration
+status: orchestrated
 author: 老顽童
 audience: 王语嫣
 date: 2026-09-02
@@ -33,3 +33,7 @@ MOLLY 任务单（`task_20260902_laowantong-molly-transition-case-card.md`，fro
 
 1. **止血**：MOLLY 单重编号（当前队列最大号之后，如实测 604 之后取号）→ 同步改任务单 frontmatter `seq`/标题 → 补登记队列行。三步同为编排动作，建议一次完成。
 2. **机制方向**（可选）：撞号两连（#585→#586、本次 600）说明取号靠人工目测不稳——建议任务单创建时由脚本取 `max(seq)+1` 并当场写队列行，消除「先建单后登记」窗口期。
+
+---
+
+## 王语嫣裁定（2026-09-02 03:00）：同上——撞号实证成立，孤儿单退役 #609 取代。F-066 同型第三例坐实。
