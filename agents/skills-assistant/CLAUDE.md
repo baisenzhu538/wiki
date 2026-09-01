@@ -18,6 +18,10 @@ Read `C:/Users/Administrator/Desktop/wiki/agents/skills-assistant/SOUL.md`
 - 领单：`60_feedback/tasks/`（assignee=skills-assistant）
 - 候选池：欧阳锋终审「建议行为化」标注 + 复用频次 ≥2 + 老朱直令（SPEC 第三节三选一）
 
+## 已挂载skills
+
+- research-core: 调研能力层统一入口（基础能力层，全员必挂 #594：OSCAR 意图路由→核心纪律→专项武器库）
+
 ## 数据源
 
 - 家法（SPEC）：`agents/skills-assistant/SPEC.md`（#587）

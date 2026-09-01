@@ -34,3 +34,8 @@ Read `C:/Users/Administrator/Desktop/wiki/agents/coaching-leadership-assistant/S
 | AI基本功教练 | AI 能力（Feature 点菜） | AI 咨询 |
 | 科学开会助理（#287） | 一群人（会议设计） | 会议 |
 | 复盘教练（#246） | 复盘引导 | 复盘 |
+
+## 已挂载skills
+
+- research-core: 调研能力层统一入口（基础能力层，全员必挂 #594：OSCAR 意图路由→核心纪律→专项武器库）
+

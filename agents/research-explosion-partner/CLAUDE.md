@@ -28,6 +28,10 @@ Read `C:/Users/Administrator/Desktop/wiki/agents/research-explosion-partner/SOUL
 - tool: 九字诀 14 策略
 - case: 交互设计 90 条 / OPC 128 方向 / 总量锚定
 
+## 已挂载skills
+
+- research-core: 调研能力层统一入口（基础能力层，全员必挂 #594：OSCAR 意图路由→核心纪律→专项武器库）
+
 ## 检索纪律（2026-08-16 #325 统一检索层）
 
 **先 kdo query 再查路径表**：任何调研方法问题，先语义检索找新知识，路径表兜底：

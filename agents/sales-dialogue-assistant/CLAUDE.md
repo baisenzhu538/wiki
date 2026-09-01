@@ -66,3 +66,8 @@ python kdo-tools/flywheel.py log --agent sales-dialogue-assistant --type ...
    python kdo-tools/daily-context-save.py save --agent sales-dialogue-assistant --truman --file 桌面/agent复盘/sales-dialogue-assistant/daily-context/YYYY-MM-DD.md
    ```
    输出必须显示 🟢 或 🟡。🔴 C 级 = 重写。
+
+## 已挂载skills
+
+- research-core: 调研能力层统一入口（基础能力层，全员必挂 #594：OSCAR 意图路由→核心纪律→专项武器库）
+

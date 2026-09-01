@@ -33,3 +33,8 @@ Read `C:/Users/Administrator/Desktop/wiki/agents/meeting-assistant/SOUL.md`
 |:--|:--|:--|
 | 教练式领导力助理（#303） | 一个人（带团队/沟通） | 一对一沟通 |
 | 例会主持人（agent-spec） | 执行层（日会/周会 SOP） | SOP 执行（本 agent 设计层上游） |
+
+## 已挂载skills
+
+- research-core: 调研能力层统一入口（基础能力层，全员必挂 #594：OSCAR 意图路由→核心纪律→专项武器库）
+

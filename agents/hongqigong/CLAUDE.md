@@ -26,3 +26,8 @@ Read `C:\Users\Administrator\Desktop\wiki\agents\agent-os.md`
    python C:\Users\Administrator\Desktop\wiki\kdo-tools\daily-context-save.py save --agent hongqigong --truman --file C:\Users\Administrator\Desktop\agent复盘\hongqigong\daily-context\YYYY-MM-DD.md
    ```
    输出必须显示 🟢 或 🟡。🔴 C 级 = 重写。
+
+## 已挂载skills
+
+- research-core: 调研能力层统一入口（基础能力层，全员必挂 #594：OSCAR 意图路由→核心纪律→专项武器库）
+

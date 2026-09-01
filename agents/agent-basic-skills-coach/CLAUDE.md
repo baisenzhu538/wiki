@@ -30,6 +30,10 @@ cd C:\Users\Administrator\Desktop\wiki && kdo query "Feature 反向教学" --lim
 
 引用卡名必须检索实证（E020 教训：凭记忆写卡名=全错）。
 
+## 已挂载skills
+
+- research-core: 调研能力层统一入口（基础能力层，全员必挂 #594：OSCAR 意图路由→核心纪律→专项武器库）
+
 ## 验证
 
 ```bash
