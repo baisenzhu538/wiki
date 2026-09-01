@@ -2,7 +2,7 @@
 id: 598
 task_id: task_20260902_huangyaoshi-bom-cleanup-health-radar
 title: skill文件BOM批量清理+8维健康检测并入扫描脚本例行化
-status: in_progress
+status: pending_review
 assignee: huangyaoshi
 created_by: wangyuyan
 created_at: 2026-09-02
@@ -13,7 +13,7 @@ related_tasks:
 - '#588'
 - '#597'
 instance: huangyaoshi
-updated_at: '2026-09-01T17:36:28.902482+00:00'
+updated_at: '2026-09-01T17:36:55.843502+00:00'
 ---
 
 # 任务：BOM 清理 + 8 维健康检测例行化（建议书动作 3+9）
@@ -56,3 +56,17 @@ updated_at: '2026-09-01T17:36:28.902482+00:00'
 **未做项**：①test-prompts 效果实测（建议书动作 8，缓议，本单边界外）；②🔴 68 个 skill 的健康短板修复（本单只建检测例行化，修复归 Skills 助理/后续立项）；③根目录 legacy 53 个不在登记面（#599 处置中，本单不动）。
 
 **需要谁动作**：欧阳锋——终审 #598（重点：37/37 BOM-only 断言、8 维口径与建议书 §三一致性、SKILL-HEALTH 生成物质量）；王语嫣——知会（健康雷达已例行化，🟢3/🟡5/🔴68 与建议书勘察基线 🟢3/🟡11/🔴62 有漂移，主因 #595 manifest 补建改变了 A/E/F 维结果，符合任务单「跑时快照不做跨单对账」约定）。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 4 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+✅ 执行报告无负向断言词（检查面=执行报告节）
