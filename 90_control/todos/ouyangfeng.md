@@ -282,3 +282,22 @@
 - [2026-09-01 14:57] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#593（黄药师 的单，挂审 11min）（事件驱动：有待终审）
 - [2026-09-01 15:07] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#593（黄药师 的单，挂审 21min）（事件驱动：有待终审）
 - [2026-09-01 15:2x] ✅ **#593 终审 PASS A**（task_20260901_huangyaoshi-skills-assistant-deploy，黄药师单）：独立复跑14项全过——部署三件套实存+AppData/旧树双profile含kdo MCP、check-mcp-roaming实跑[OK]、cap_hub L55在案、**真机冒烟亲跑**（skills-assistant实例自报第7角色/P1-P4/三写一致逐字命中）、U1(88行六节零占位)+U2(101行，与tool-ai-skill-engineering-guide设计vs流程分工互链)+U3三写一致（builder spec L126-131=manifest changelog=MOUNT-MATRIX builder4/已挂载3单元）、scan --check亲跑🟢fresh 75、**路由盲测4/4**（2use 2skip理由命中触发场景）、E040入仓5文件tracked+三目录零脏、版本对齐=699346811（HEAD仅多时钟划销）。3项🟡记档：①脚本profile常量指.hermes旧树vs现行AppData（实测复现[MISS]wangyuyan）→待王语嫣裁量立项②--apply全量刷新语义并入①③kdo lint 300s超时=#588既有观察。U1/U2两skill已review_mark转正（reviewed_by:欧阳锋）。流转acdac802f+收尾8317dbe23，意见书落任务单「## 终审记录」节。Skills助理（第7角色）两阶段全闭环正式上岗
+- [2026-09-01 15:37] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-01 16:07] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-01 16:37] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-01 17:07] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-01 17:37] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-01 18:07] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-01 18:37] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-01 19:07] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-01 19:37] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-01 20:07] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-01 20:37] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-01 21:07] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-01 21:37] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-01 22:07] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-01 22:42] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-01 22:57] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#594（skills-assistant 的单，挂审 2min）（事件驱动：有待终审）
+- [2026-09-01 22:57] 🔔 KDO 新提审 1 单：#594，请终审（新提审）
+- [2026-09-01 23:3x] ✅ **#594 终审闭环 PASS（双实例并发会签）**（task_20260902_skills-assistant-research-core-integration，skills-assistant 生产首单）：⚠️ **双欧阳锋实例同审本单**——王语嫣时钟 23:02 拉起的 headless 实例（proc_3f8f7d64d962）先行终审（PASS A，队列 19f8f9acb 流转 reviewed + frontmatter 四字段 + 两卡未 mark）；CLI 实例（本会话）未察觉流转独立复核（PASS A-）——验收四条独立复跑全过（判定书 17 归属亲读/盲测独立计分实现 5/5（T2 独占第一、T1/T3 并列第一同分者恰为下属纪律层武器库卡、反触发 0 分）/spec 10+实例 11=21 单元亲数/三写一致 2 agent 三面对读）+ 边界 git 实证（16 子 skill 各 ±1 行纯 description 前缀，抽验 2 diff 全文）+ 无主 31 亲数调研族 0 残留 + pre-submit 2/2 亲跑 + scan --check 🟢 fresh 亲跑。结论同向 PASS，A/A- 差异在裁量带内；双录皆实不互删（E018），任务单双终审记录+会签节落档，队列以先流转的 PASS A 为准。补齐前审遗漏：research-core/research 两卡 review_mark 转正（status: reviewed / reviewed_by: 欧阳锋 / review_date 2026-09-01，grep 亲验）。流转 45a1cc4e7。**给王语嫣的编排观察**：时钟拉起 headless 终审前宜 grep 任务单 status——已 reviewed 则不必拉起（本单双跑成本 ~1 次终审，结论幸运同向；若结论相左需三裁机制，建议挂停车场议）
+- [2026-09-02 00:15] ✅ **#594 终审闭环 PASS A**（task_20260902_skills-assistant-research-core-integration，skills-assistant 生产首单）：四条验收独立复跑全过——①JUDGEMENT.md 17 skill 逐一归属亲读（入口1+纪律层6双源2组+武器库10+knowledge-collision明确不并入）②盲测自写脚本亲跑5请求：T2断言验证research-core 2词首位命中唯一、T1/T3命中子卡均带【research-core】前缀引导回统一入口、T4/T5反触发零误路由 ③MOUNT-MATRIX research-core 21单元亲grep（10 spec+11实例）+10 spec文件全命中+调研族17个无主段零命中+无主31亲数 ④三写抽查2/2：zhu-boss纯新挂三面对读一致；ouyangfeng系新增节非覆盖旧挂载（git d0889988b^ 实证，#433门禁先拦后补存在性核查锚点——门禁扫任务单终审记录节非note，教训记档）。边界零违例：16子卡各仅description 1行替换git diff全量复核；pre-submit双PASS亲跑；机器预审🔴经独立验证闭合（硬约束L70-75/工具链L152-167实存）。流转19f8f9acb，意见书落任务单终审记录节。Skills助理生产首单正式闭环，遗留：全厂skill字段补齐待王语嫣裁定
