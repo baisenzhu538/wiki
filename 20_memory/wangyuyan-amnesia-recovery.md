@@ -60,7 +60,7 @@ type: memory/role-recovery
 
 ### 历史（2026-08-29 · 停时钟+headless拉起架构生效）
 
-**⚠️ 已被 09-02 最终口径取代（下两条为旧制，仅存档）**：~~唤醒链 = `hermes -z --profile <角色>` headless 拉起~~ → ~~各 CLI 常驻实例自行领单、编排不拉起~~。**09-02 01:46 老朱定稿：工作流=自动化拉起制——①时钟只有王语嫣有（其他角色一律不准设时钟/门铃）②探针保留（监控告警）③王语嫣用 `kimi -p` 无头模式拉起其他角色干活，拉起器=`90_control/scripts/kimi-headless-launch.py <role> "<指令>"`（DETACHED 后台+logs/headless-<role>-<ts>.log+proc id 落 todos）；严禁再用 hermes（飞书端已全停）。**首拉实证 01:46 ouyangfeng 终审批（proc_ouyangfeng_3856）。（09-02 01:38 我曾误用 hermes 拉 huangyaoshi，进程 0 输出当场杀掉。教训=E0xx 候选：拉起机制随工具栈切换已变，行动前回读当前架构不凭旧锚点。）
+**⚠️ 已被 09-02 最终口径取代（下两条为旧制，仅存档）**：~~唤醒链 = `hermes -z --profile <角色>` headless 拉起~~ → ~~各 CLI 常驻实例自行领单、编排不拉起~~。**09-02 01:46 老朱定稿：工作流=自动化拉起制——①时钟只有王语嫣有（其他角色一律不准设时钟/门铃）②探针保留（监控告警）③王语嫣用 `kimi -p` 无头模式拉起其他角色干活，拉起器=`90_control/scripts/kimi-headless-launch.py <role> "<指令>" [--tool kimi]`（DETACHED 后台+logs/headless-<role>-<ts>.log+proc id 落 todos）；严禁再用 hermes（飞书端已全停）。**09-02 02:00 老朱追加：未来多实例多工具（kimi/codex/其他）——拉起器已做工具路由表（TOOLS 登记制，新工具先实测无头模式再登记）；王语嫣=唯一时钟+探针出口+对老朱的实时沟通通道，状态变化主动汇报。**首拉实证 01:46 ouyangfeng 终审批（proc_ouyangfeng_3856）。（09-02 01:38 我曾误用 hermes 拉 huangyaoshi，进程 0 输出当场杀掉。教训=E0xx 候选：拉起机制随工具栈切换已变，行动前回读当前架构不凭旧锚点。）
 
 ### 历史（2026-08-27 · 基建排障日：liveness 风暴止血 + 唤醒送达面断点立案 + 裁定批 7 份全清）
 
