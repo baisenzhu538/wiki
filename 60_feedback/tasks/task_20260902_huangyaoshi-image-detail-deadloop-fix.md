@@ -2,12 +2,15 @@
 id: task_20260902_huangyaoshi-image-detail-deadloop-fix
 title: image_detail 死循环修复——识别该类型直接 mark_seen 跳过（三症联诊动作3漏项补立）
 seq: 608
-status: queued
+status: in_progress
 assignee: huangyaoshi
 created_by: wangyuyan
 created_at: 2026-09-02
-decision_source: 黄药师建议书 diag_20260902_huangyaoshi-vault-scatter-obsidian-config-pipeline 动作3（原口径「随#1同单」但 #601 任务单未含，09-02 王语嫣裁定补立）
+decision_source: 黄药师建议书 diag_20260902_huangyaoshi-vault-scatter-obsidian-config-pipeline
+  动作3（原口径「随#1同单」但
 reviewer: 欧阳锋
+instance: huangyaoshi-kimi
+updated_at: '2026-09-01T23:46:36.174884+00:00'
 ---
 
 # #608 image_detail 死循环修复（黄药师）
