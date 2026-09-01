@@ -1,15 +1,16 @@
 ---
-id: "588"
-title: "Skill目录与挂载矩阵机制——扫描生成+登记制（Skills助理基建配套）"
+id: '588'
+title: Skill目录与挂载矩阵机制——扫描生成+登记制（Skills助理基建配套）
 type: infrastructure
-status: queued
+status: in_progress
 priority: P1
 assignee: 黄药师
 created_by: 王语嫣
 created_at: 2026-09-01
-updated_at: 2026-09-01
+updated_at: '2026-09-01T02:37:25.367632+00:00'
 source_refs:
 - 40_outputs/capabilities/skills/shared/
+instance: huangyaoshi
 ---
 
 # #588 Skill 目录与挂载矩阵机制（老朱 09-01 直令，#587 配套基建）
