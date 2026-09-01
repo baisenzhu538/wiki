@@ -256,3 +256,8 @@
 
 [2026-09-01 12:20] 🚀 #591 第二棒+#592 第三棒收工（proc_1b1c99e4af80，编排层核验通过）：#591 报告落盘提审（Sysmon部署证据+嫌疑Top10三要素评分+历史登录对账+sshd遗留风险建议）。#592 三件全建成+实跑自证：R1 坚果云 kdo-backup 字节等大 2,316,604,477+WAL 实证同步引擎已跟踪（顺带修了乱码目录）；R2 重建演练 24,896 文件 dirty=0；R3 注入测试双报警正确。编排层代收尾：R3 挂载 run-kdo-health.cmd（明早 02:07 生效）+实跑三查 OK exit 0+五字段+提审。双单 pending_review。
 [2026-09-01 12:20] 🚀 已拉起 ouyangfeng：#591+#592 一并终审（proc_15a56c68b58b）。
+- [2026-09-01 12:07] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-01 12:00:38｜vault-integrity｜bundle 过期｜wiki-bundle-20260831-021
+- [2026-09-01 12:17] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#591（黄药师 的单，挂审 29min）；#592（黄药师 的单，挂审 15min）（到点（节奏 30min））
+- [2026-09-01 12:17] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-01 12:17:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cl
+[2026-09-01 12:35] ⚖️ 处置 gate-blocked 两行：vault-integrity 12:07 bundle 过期（实跑三查全绿 exit 0——20260901 bundle 2,316,604,477B verify 过+异机在位，系 #592 R1 落地前时序空窗）划销；role-liveness 12:17 ouyangfeng 疑死（11:17 上一实例正常收工空窗，12:20 新终审实例在审 #591/#592 wmic 实证，check-liveness 全死 0）划销
+[2026-09-01 12:35] 🕐 时钟值守拍（12:35）：①gate-blocked 两行划销（见上），INBOX-PENDING 0 未划销/PROPOSAL-PENDING 本拍清零；②终审面：#591/#592 pending_review 欧阳锋实例在审（12:20 拉起，防双实例不重复拉），落点下拍核；③拉起面：三角色 queued 全 0 无需拉起，黄药师/老顽童空闲无单；④产线：#583-#590 全 reviewed 闭环，在审仅 #591/#592；⑤心跳已写
