@@ -288,3 +288,7 @@
 - [2026-09-01 14:47] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-01 14:46:24｜task_20260901_huangyaoshi-skills-assistant-deploy｜
 [2026-09-01 15:05] ⚖️ 处置 gate-blocked #593 E040 一行：已化解划销——deep-debug/manifest.yaml 已随 699346811（14:46:21）入仓（git ls-files 实证 tracked），#593 已 complete 重提 pending_review，拦截条件不复存在（时序窗口）
 [2026-09-01 15:05] 🕐 时钟值守拍（15:05）：①PROPOSAL-PENDING 消费 1 行（见上）；②INBOX-PENDING 0 未划销；③终审面：#593 pending_review（14:46:40 提审），无欧阳锋施工实例（wmic 仅 gateway 常驻），v4.2 直令拉起终审；④结构地图例行 grep 7 命中=同名单历史残留（6 单无结构地图节，#572 已裁定，老单冻结不回注）；⑤产线：#583-#592 全闭环，#593 在审唯一；⑥心跳已写
+- [2026-09-01 15:17] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-01 15:17] ⚖️ KDO 已终审 1 单：#593（待部署/已闭环）；👤 KDO 待老朱拍板 1 项：#593（命中：队列备注）——拍板或移除字样后自动消项；digest ⑤ 栏每日在列
+
+[2026-09-01 15:35] ⚖️ 处置 gate-blocked 两行：①role-liveness 15:17 huangyaoshi 冷却重报划销（check-liveness 实测冷却抑制 2 角色/全死 0，收工空窗）②#593 E040 行漏删除线格式补齐（划销内容早在，非新事件）；终审落点 #593 PASS A 已记（15:17，14/14 独立复跑，Skills助理部署+U1-U3 全过）；产线全清 queued/claimed/pending_review 全 0
