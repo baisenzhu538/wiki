@@ -2,12 +2,15 @@
 id: task_20260902_huangyaoshi-vault-backup-stall-investigation
 title: vault backup 停摆 6 天空窗根因排查 + 停摆自报报警（08-26→09-02 无 commit 无人察觉）
 seq: 607
-status: queued
+status: in_progress
 assignee: huangyaoshi
 created_by: wangyuyan
 created_at: 2026-09-02
-decision_source: 欧阳锋建议书 diag_20260902_ouyangfeng-pending-decisions 决策点3 + 王语嫣 09-02 裁定立项
+decision_source: 欧阳锋建议书 diag_20260902_ouyangfeng-pending-decisions 决策点3 + 王语嫣 09-02
+  裁定立项
 reviewer: 欧阳锋
+instance: huangyaoshi-kimi
+updated_at: '2026-09-01T23:11:54.707463+00:00'
 ---
 
 # #607 vault backup 停摆排查 + 停摆报警（黄药师）
