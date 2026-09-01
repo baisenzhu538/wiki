@@ -33,6 +33,8 @@ related:
 - '[[yitang-research-domain-digest]]'
 - '[[pending_unknown]]'
 - case-opc-agent-wave1-real-model-testing
+- framework-popmart-long-termism-operating-philosophy
+- case-popmart-brand-sensory-wrap
 updated_at: '2026-06-29'
 tags:
 - audience:general

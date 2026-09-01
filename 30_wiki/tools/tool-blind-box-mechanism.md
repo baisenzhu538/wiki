@@ -31,6 +31,8 @@ related:
 - concept-addiction-threshold
 - concept-pleasure-pain-balance
 - framework-yitang-six-layer-cross-validation
+- framework-popmart-long-termism-operating-philosophy
+- tool-popmart-narrow-and-deep
 tags:
   - audience:ceo
   - scene:execution
