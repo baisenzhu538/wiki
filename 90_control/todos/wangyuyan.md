@@ -355,3 +355,7 @@
 [2026-09-02 00:02] 🚀 已拉起 huangyaoshi：#598 BOM+健康雷达
 - [2026-09-02 00:07] ⛔ KDO 门禁拦截 2 次（gate-blocked）：2026-09-02 00:01:07｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-c…
 [2026-09-02 00:20] 🚀 值守换班 no_agent 看门狗 v5 上线（老朱拍板①）：clock_watchdog.py 每30min只探测不决策——队列三态×心跳/看板三段未划销/gate增量/队列骤降/文件清零岗哨；无事stdout空=SILENT，有事简报deliver=origin+落todos。实证：真实抓活（gate+2/三新单）+误报自修（REVIEW双报/ROLE_MAP ASCII盲区）+全静默验证0B；#597 skip登记（依赖#595终审收口，reviewed后放行）；欧阳锋在审#595（心跳42min窗内）；顺手修deliver=local回归→origin；旧LLM时钟00:00收官拍已交接（#596/#598在产）
+- [2026-09-02 00:27] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#596（laowantong 的单，挂审 1min）（到点（节奏 30min））
+- [2026-09-02 00:27] ⚖️ KDO 已终审 1 单：#595（待部署/已闭环）
+- [2026-09-02 00:35] 🚀 已立项 #599（skills-assistant）：根目录54个legacy skill处置——老朱拍板升级版「能用的上架登记；认为没用的先全网调研按工作流标准重造评估，确实没救才报废」；Phase1只读评估立即可跑，Phase2物理搬移等#597收口错峰；报废零执行+王语嫣复核；任务单 60_feedback/tasks/task_20260902_skills-assistant-legacy53-evaluate-revive.md
+- [2026-09-02 00:40] 🚀 已拉起 skills-assistant headless 执行 #599 Phase1（proc_31602953892d，探针先通后发正式长任务）：54个legacy skill逐个评估三分法，产出建议书 60_feedback/diagnosis/建议书_20260902_legacy53_评估与重造方案.md；预期产物=裁决表+三批立项建议；完成后 complete 599 提审
