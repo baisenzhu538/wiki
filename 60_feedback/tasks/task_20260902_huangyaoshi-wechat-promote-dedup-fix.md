@@ -2,12 +2,13 @@
 id: task_20260902_huangyaoshi-wechat-promote-dedup-fix
 title: wechat_promote 去重根治 + sources 存量 147 份重复处置（散点审计 R2/R3 + 欧阳锋建议书，P0）
 seq: 601
-status: queued
+status: in_progress
 assignee: huangyaoshi
 created_by: wangyuyan
 created_at: 2026-09-02
 priority: P0
-updated_at: '2026-09-02T01:25:00+08:00'
+updated_at: '2026-09-01T17:39:42.641152+00:00'
+instance: huangyaoshi
 ---
 
 # #601 wechat_promote 去重根治 + 存量去重
