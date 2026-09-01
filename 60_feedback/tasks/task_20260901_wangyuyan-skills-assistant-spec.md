@@ -2,12 +2,12 @@
 id: '587'
 title: Skills助理Agent spec——Skill生产+配置中枢（工厂第7角色）
 type: spec
-status: in_progress
+status: pending_review
 priority: P1
 assignee: 王语嫣
 created_by: 王语嫣
 created_at: 2026-09-01
-updated_at: '2026-09-01T01:22:51.013843+00:00'
+updated_at: '2026-09-01T02:07:18.594600+00:00'
 source_refs:
 - 30_wiki/workflows/workflow-kdo-agent-production-pipeline.md
 - agents/research-explosion-partner/SPEC.md
@@ -52,3 +52,17 @@ instance: wangyuyan
 **边界**：U1-U3 为部署验收用例（本单只定义不实跑，部署另立项走流水线）；agent-spec 模板增补「已挂载skills」节落点在 #588（黄药师）；73 存量 skill 目录生成属 #588 扫描脚本职责，本 SPEC 只定格式。
 
 **需要谁动作**：欧阳锋——按 #335 同款标准终审本 SPEC（终审 PASS 后 #588 依赖解除，黄药师可开工）。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 1 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+✅ 执行报告无负向断言词（检查面=执行报告节）
