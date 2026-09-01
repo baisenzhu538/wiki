@@ -414,6 +414,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#591 task_20260901_huangyaoshi-vault-hypothesis-sweep｜黄药师｜提审 09-01 11:48｜60_feedback/tasks/task_20260901_huangyaoshi-vault-hypothesis-sweep.md~~ → 已终审 PASS A-（2026-09-01 欧阳锋）
 - ~~#592 task_20260901_huangyaoshi-vault-resilience-trio｜黄药师｜提审 09-01 12:02｜60_feedback/tasks/task_20260901_huangyaoshi-vault-resilience-trio.md~~ → 已终审 PASS B+（2026-09-01 欧阳锋）
 - ~~#593 task_20260901_huangyaoshi-skills-assistant-deploy｜黄药师｜提审 09-01 14:46｜60_feedback/tasks/task_20260901_huangyaoshi-skills-assistant-deploy.md~~ → 已终审 PASS A（2026-09-01 欧阳锋）
+- #594 task_20260902_skills-assistant-research-core-integration｜skills-assistant｜立项 09-02｜60_feedback/tasks/task_20260902_skills-assistant-research-core-integration.md｜调研能力层整合：17 skill 综合深挖为全 agent 基础能力层（Skills助理生产首单，老朱 09-02 拍板「调研能力是最基础的必备能力」）
 
 <!-- REVIEW-PENDING-END -->
 
@@ -677,6 +678,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~[gate-blocked] role-liveness｜09-01 18:37｜待王语嫣复核处置｜2026-09-01 18:32:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 935.2), ('cli', 202.8), ('hermes', 439.1)]）｜role_registry check-liveness｜role_registry~~ → 冷却重报划销（2026-09-01 19:01 王语嫣）：本拍 check-liveness 实测冷却抑制 3 角色（ouyangfeng/huangyaoshi/laowantong 2h 窗）、全死角色 0——#593 已 15:17 终审 PASS A 闭环，queued 0 无施工实例=收工空窗架构常态，非产线阻塞
 - ~~[gate-blocked] role-liveness｜09-01 19:37｜待王语嫣复核处置｜2026-09-01 19:37:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 1000.7), ('cli', 290.3)]）｜role_registry check-liveness｜role_registry~~ → 冷却重报划销（2026-09-01 20:01 王语嫣）：本拍 check-liveness 实测冷却抑制 2 角色（ouyangfeng/huangyaoshi 2h 窗）、全死角色 1（laowantong——queued 0 无施工实例，#586 已 08:01 闭环=收工空窗架构常态，同 17:57/18:37 划销先例），非产线阻塞
 - ~~[gate-blocked] role-liveness｜09-01 20:07｜待王语嫣复核处置｜2026-09-01 20:00:27｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 1024.0), ('cli', 329.1)]）｜role_registry check-liveness｜role_registry~~ → 已知问题划销（2026-09-01 20:31 王语嫣）：laowantong 冷却重报（17:57/19:37 同族，2h 冷却窗内）——本拍 check-liveness 实测全死角色 0，#586 已 08:01 PASS A- 闭环，queued 0 无施工实例=收工空窗架构常态，非产线阻塞
+- ~~[gate-blocked] role-liveness｜09-01 21:07｜待王语嫣复核处置｜2026-09-01 21:07:01｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 1090.7), ('cli', 36.5)]）｜role_registry check-liveness｜role_registry~~ → 冷却重报划销（2026-09-01 21:32 王语嫣）：本拍 check-liveness 实测全死角色 0（huangyaoshi 2h 冷却窗内，kimi-cli 长闲置+cli 心跳在岗）——queued 0 无施工实例=#593 15:17 闭环后收工空窗架构常态，非产线阻塞
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
