@@ -1,4 +1,4 @@
-﻿---
+---
 name: research-quality-gate
 description: 【research-core 纪律层·质量门禁】调研质量自检——六维门禁，提交前的最后一道关
 version: 1.0.0

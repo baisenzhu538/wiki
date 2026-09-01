@@ -1,4 +1,4 @@
-﻿---
+---
 name: ai-collaboration-dev
 description: 三层开发架构——需求拆解→AI开发→哨兵质检，AI时代的软件工程
 version: 1.0.0

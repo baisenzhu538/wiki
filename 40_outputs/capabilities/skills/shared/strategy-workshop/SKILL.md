@@ -1,4 +1,4 @@
-﻿---
+---
 name: strategy-workshop
 description: 战略会议准备包——基于冉鹏30年方法论，输出议程+预诊断+六要素工作坊模板+执行方针
 version: 1.0.0

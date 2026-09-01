@@ -1,4 +1,4 @@
-﻿---
+---
 name: research-media-verification
 description: 【research-core 武器库·媒体验证】OSINT媒体验证链——反向图片搜索→元数据提取→时间/天气/阴影验证
 version: 1.0.0

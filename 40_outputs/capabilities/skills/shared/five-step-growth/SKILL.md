@@ -1,4 +1,4 @@
-﻿---
+---
 name: five-step-growth
 description: 五步法第四步：增长——增长引擎是什么？怎么规模化？
 version: 1.0.0

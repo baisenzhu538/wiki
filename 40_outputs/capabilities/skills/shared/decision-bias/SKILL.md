@@ -1,4 +1,4 @@
-﻿---
+---
 name: decision-bias
 description: 决策偏见速查——9种常见决策暗知识，决策前必过一遍
 version: 1.0.0

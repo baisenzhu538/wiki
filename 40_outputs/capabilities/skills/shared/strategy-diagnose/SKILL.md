@@ -1,4 +1,4 @@
-﻿---
+---
 name: strategy-diagnose
 description: 战略九问题诊断——方向/目标/定位/路径/共识/组织/能力/资源/机制
 version: 1.0.0

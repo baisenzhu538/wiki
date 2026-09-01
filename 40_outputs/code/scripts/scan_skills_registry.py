@@ -48,6 +48,7 @@ WIKI = Path(__file__).resolve().parents[3]
 SKILLS_DIR = WIKI / "40_outputs" / "capabilities" / "skills"
 INDEX_FILE = SKILLS_DIR / "INDEX.md"
 MATRIX_FILE = SKILLS_DIR / "MOUNT-MATRIX.md"
+HEALTH_FILE = SKILLS_DIR / "SKILL-HEALTH.md"
 ROLE_ROUTES = WIKI / "90_control" / "role-routes.md"
 AGENT_SPECS_DIR = WIKI / "30_wiki" / "agent-specs"
 AGENTS_DIR = WIKI / "agents"
@@ -200,6 +201,134 @@ def status_of(n_units: int, in_routes: bool) -> str:
     return "无主"
 
 
+# ============================================================
+# 8 维健康雷达（#598 动作9：并入扫描例行化）
+# 口径 = 60_feedback/diagnosis/建议书_20260901_skill健康度勘察与检测方法论.md §三
+# 溯源 = darwin-skill 9 维 rubric（SkillLens arXiv 2605.23899）
+#        + skill-architecture-design 五维量化（#593）+ 健康雷达 3 色信号
+# 档位：≥6/8 🟢 健康；4-5/8 🟡 亚健康；≤3/8 🔴 不健康
+# 性质：结构层 triage——不替代实测（test-prompts 效果实测=建议书动作8，缓议）
+# ============================================================
+
+HEALTH_DESC_RE = re.compile(r"触发|适用|何时用|什么场景|用于|当你|遇到", re.U)
+HEALTH_BOUNDARY_RE = re.compile(r"适用边界|不适用|不要|禁止|边界|反例|反面|误区|失败模式|非目标|不路由|不进入", re.U)
+HEALTH_STEP_RE = re.compile(r"^\s*(?:\d+[.、)．]|步骤\s*\d|[-*]\s*\*\*)", re.M | re.U)
+
+
+def health_check(skill: dict) -> dict:
+    """对单个 skill 记录跑 8 维机械检测，返回 {dims: {A..H: (bool, 证据一句话)}, score, grade}。"""
+    sm: Path = skill["path"] / "SKILL.md"
+    raw = sm.read_bytes()
+    text = read_text(sm)
+    fm = parse_frontmatter(text)
+    man = skill.get("_manifest") or load_manifest(skill["path"])
+
+    dims: dict[str, tuple[bool, str]] = {}
+
+    # A 触发词可路由：manifest.trigger.natural_language 非空（frontmatter trigger 亦计）
+    trig = []
+    for src in (fm.get("trigger"), man.get("trigger")):
+        if isinstance(src, dict):
+            nl = src.get("natural_language") or []
+            if isinstance(nl, list):
+                trig.extend(x for x in nl if str(x).strip())
+    dims["A"] = (bool(trig), f"trigger 词组 {len(trig)} 组" if trig else "无 trigger.natural_language")
+
+    # B 描述信息量：description ≥80 字符且含触发场景语汇
+    desc = str(fm.get("description") or man.get("description") or "").strip()
+    b_len = len(desc) >= 80
+    b_scene = bool(HEALTH_DESC_RE.search(desc))
+    dims["B"] = (b_len and b_scene, f"{len(desc)} 字" + ("" if b_scene else "，无触发场景语汇"))
+
+    # C 失败模式编码：正文含失败模式表/分支（表头或标题任一命中）
+    c_hit = bool(re.search(r"失败模式|failure.?mode|踩坑|故障表|常见错误", text, re.I))
+    dims["C"] = (c_hit, "正文含失败模式面" if c_hit else "无失败模式表/分支")
+
+    # D 边界与反例：有「不适用/不要做/反例」语义章节
+    d_hit = bool(HEALTH_BOUNDARY_RE.search(text))
+    dims["D"] = (d_hit, "有边界/反例语义段" if d_hit else "无边界反例段")
+
+    # E 来源可追溯：adapted_from 非空（frontmatter 或 manifest）
+    adapted = str(fm.get("adapted_from") or man.get("adapted_from") or "").strip()
+    dims["E"] = (bool(adapted), adapted[:40] if adapted else "无 adapted_from 来源卡")
+
+    # F 三写一致：manifest.yaml 存在（真相源侧存在性——挂载同步面由 MOUNT-MATRIX 呈现）
+    has_man = (skill["path"] / "manifest.yaml").exists()
+    dims["F"] = (has_man, "manifest.yaml 存在" if has_man else "缺 manifest.yaml")
+
+    # G 主文件克制：≤300 行（500 行为护栏预警线，300-500 记半通过只计警示不计分）
+    n_lines = text.count("\n") + 1
+    g_ok = n_lines <= 300
+    dims["G"] = (g_ok, f"{n_lines} 行" + ("（超500护栏）" if n_lines > 500 else "（300-500 护栏预警）" if not g_ok else ""))
+
+    # H 操作可执行：有编号步骤或加粗操作条目
+    h_hit = bool(HEALTH_STEP_RE.search(text))
+    dims["H"] = (h_hit, "有编号步骤/操作条目" if h_hit else "无编号步骤")
+
+    score = sum(1 for ok, _ in dims.values() if ok)
+    grade = "🟢" if score >= 6 else ("🟡" if score >= 4 else "🔴")
+    return {"dims": dims, "score": score, "grade": grade, "lines": n_lines,
+            "has_bom": raw.startswith(b"\xef\xbb\xbf")}
+
+
+def gen_health(skills: list[dict]) -> str:
+    """生成 SKILL-HEALTH.md：8 维档位总表 + 不健康短板清单（actionable）。"""
+    now = datetime.now().strftime("%Y-%m-%d %H:%M")
+    results = {s["dir"]: health_check(s) for s in skills}
+    grades = {"🟢": 0, "🟡": 0, "🔴": 0}
+    for r in results.values():
+        grades[r["grade"]] += 1
+
+    L = []
+    L.append("# Skill 健康雷达（SKILL-HEALTH）")
+    L.append("")
+    L.append(f"> #598 扫描生成物（生成时间 {now}，共 {len(skills)} 个 skill）。")
+    L.append("> 8 维口径 = 建议书_20260901_skill健康度勘察与检测方法论 §三；溯源 darwin-skill 9 维 rubric + skill-architecture-design 五维量化。")
+    L.append("> 档位：≥6/8 🟢 健康；4-5/8 🟡 亚健康（补短板即可）；≤3/8 🔴 不健康（路由/内容至少一项阻塞）。")
+    L.append("> **结构层 triage，不替代实测**（test-prompts 效果实测=建议书动作8 缓议）；生成物勿手改，")
+    L.append("> 重跑 `python 40_outputs/code/scripts/scan_skills_registry.py` 刷新。")
+    L.append("")
+    L.append(f"**总览：🟢 {grades['🟢']} / 🟡 {grades['🟡']} / 🔴 {grades['🔴']}（共 {len(skills)}）**")
+    L.append("")
+    L.append("| skill | 档位 | 得分 | A触发 | B描述 | C失败 | D边界 | E来源 | F三写 | G克制 | H步骤 | 主文件行数 |")
+    L.append("|:--|:--|--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|--:|")
+    for s in sorted(skills, key=lambda x: (-results[x["dir"]]["score"], x["dir"])):
+        r = results[s["dir"]]
+        marks = "".join("✅" if r["dims"][k][0] else "❌" for k in "ABCDEFGH")
+        L.append(f"| `{s['dir']}` | {r['grade']} | {r['score']}/8 | {marks[0]} | {marks[1]} | {marks[2]} | {marks[3]} | {marks[4]} | {marks[5]} | {marks[6]} | {marks[7]} | {r['lines']} |")
+    L.append("")
+    # 短板聚合（不健康/亚健康的共性欠账 = 修复优先级）
+    dim_fail: dict[str, list[str]] = {k: [] for k in "ABCDEFGH"}
+    for s in skills:
+        r = results[s["dir"]]
+        if r["grade"] != "🟢":
+            for k in "ABCDEFGH":
+                if not r["dims"][k][0]:
+                    dim_fail[k].append(s["dir"])
+    L.append("## 短板聚合（非 🟢 的共性欠账，修复优先级参考）")
+    L.append("")
+    dim_names = {"A": "触发词可路由", "B": "描述信息量≥80字+场景", "C": "失败模式编码",
+                 "D": "边界与反例", "E": "来源可追溯", "F": "三写一致(manifest)",
+                 "G": "主文件克制≤300行", "H": "操作可执行(编号步骤)"}
+    for k in "ABCDEFGH":
+        if dim_fail[k]:
+            show = "、".join(f"`{d}`" for d in dim_fail[k][:10]) + ("…" if len(dim_fail[k]) > 10 else "")
+            L.append(f"- {k} {dim_names[k]}：缺 {len(dim_fail[k])} 个——{show}")
+    L.append("")
+    L.append("## 维度判定说明（机械规则，与建议书 §三对齐）")
+    L.append("")
+    L.append("- A：manifest/frontmatter `trigger.natural_language` 非空")
+    L.append("- B：`description` ≥80 字符且含触发场景语汇（触发/适用/何时用/场景…）")
+    L.append("- C：正文含「失败模式/踩坑/故障表/常见错误」任一面")
+    L.append("- D：正文含「适用边界/不适用/不要/禁止/反例/误区」任一语义段")
+    L.append("- E：`adapted_from` 非空（frontmatter 或 manifest）")
+    L.append("- F：`manifest.yaml` 存在（挂载同步面见 MOUNT-MATRIX）")
+    L.append("- G：SKILL.md ≤300 行（300-500 护栏预警不计分，>500 超护栏）")
+    L.append("- H：正文有编号步骤（`1.`/`步骤 N`）或加粗操作条目")
+    L.append("")
+    return "\r\n".join(L) + "\r\n"
+
+
 def suggest_role(skill: dict, mounted: list[str]) -> str:
     if mounted:
         return "—"
@@ -324,12 +453,15 @@ def check_stale(skills: list[dict]) -> int:
     if n_index != len(skills):
         print(f"🔴 计数漂移：INDEX 行数 {n_index} ≠ 实测 skill {len(skills)}")
         return 1
-    print(f"🟢 fresh：{len(skills)} skills，INDEX/MOUNT 与源一致")
+    if HEALTH_FILE.exists() and INDEX_FILE.stat().st_mtime > HEALTH_FILE.stat().st_mtime:
+        print("🔴 stale：SKILL-HEALTH.md 早于 INDEX.md——重跑 scan_skills_registry.py")
+        return 1
+    print(f"🟢 fresh：{len(skills)} skills，INDEX/MOUNT/SKILL-HEALTH 与源一致")
     return 0
 
 
 def main() -> int:
-    ap = argparse.ArgumentParser(description="#588 skills 目录+挂载矩阵扫描")
+    ap = argparse.ArgumentParser(description="#588 skills 目录+挂载矩阵扫描（#598 并入 8 维健康雷达）")
     ap.add_argument("--check", action="store_true", help="只做新鲜度检查（stale→exit 1）")
     args = ap.parse_args()
 
@@ -347,10 +479,17 @@ def main() -> int:
 
     INDEX_FILE.write_text(gen_index(skills, mounted_by), encoding="utf-8", newline="")
     MATRIX_FILE.write_text(gen_matrix(skills, units), encoding="utf-8", newline="")
+    HEALTH_FILE.write_text(gen_health(skills), encoding="utf-8", newline="")
     write_stale_marker()
 
     print(f"✅ INDEX.md：{len(skills)} skills → {INDEX_FILE}")
     print(f"✅ MOUNT-MATRIX.md：{len(units)} 挂载单元 × {len(skills)} skills → {MATRIX_FILE}")
+    print(f"✅ SKILL-HEALTH.md：8 维健康雷达 → {HEALTH_FILE}")
+    # #598：档位分布汇总
+    grades = {"🟢": 0, "🟡": 0, "🔴": 0}
+    for s in skills:
+        grades[health_check(s)["grade"]] += 1
+    print(f"   健康档位：🟢 {grades['🟢']} / 🟡 {grades['🟡']} / 🔴 {grades['🔴']}（共 {len(skills)}）")
     st_counts = {"已挂载": 0, "单点挂载": 0, "无主": 0}
     routes_roles = {u for u, v in units.items() if v["layer"].startswith("角色路由")}
     for s in skills:

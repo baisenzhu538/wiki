@@ -1,4 +1,4 @@
-﻿---
+---
 name: decision-hygiene
 description: 决策卫生五步法——团队判断降噪，减少噪声而非偏差
 version: 1.0.0

@@ -1,4 +1,4 @@
-﻿---
+---
 name: strategy
 description: 企业战略总入口——冉鹏30年经验，判断阶段+路由子Skill
 version: 1.0.0

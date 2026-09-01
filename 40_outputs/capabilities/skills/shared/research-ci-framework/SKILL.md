@@ -1,4 +1,4 @@
-﻿---
+---
 name: research-ci-framework
 description: 【research-core 武器库·CI情报】CI竞争情报系统——Define→Gather→Analyze→Implement持续循环
 version: 1.0.0

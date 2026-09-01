@@ -1,4 +1,4 @@
-﻿---
+---
 name: strategy-lifecycle
 description: 战略六阶段模型——初创→吃饱→吃好→吃撑→吃吐，不同阶段不同打法
 version: 1.0.0

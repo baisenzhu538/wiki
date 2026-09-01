@@ -1,4 +1,4 @@
-﻿---
+---
 name: content-production-draft
 description: 草稿生产——框架先成立+案例激活+结构归位+主语校准
 version: 1.0.0

@@ -1,4 +1,4 @@
-﻿---
+---
 name: decision-prediction
 description: 预判模型——从最糙版到复杂版的三种预判范式
 version: 1.0.0

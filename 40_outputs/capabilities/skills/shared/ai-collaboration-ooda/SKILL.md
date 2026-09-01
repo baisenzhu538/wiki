@@ -1,4 +1,4 @@
-﻿---
+---
 name: ai-collaboration-ooda
 description: OODA人机协作决策闭环——Observe/Orient/Decide/Act迭代循环
 version: 1.0.0

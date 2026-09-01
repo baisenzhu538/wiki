@@ -1,4 +1,4 @@
-﻿---
+---
 name: demand-analysis-blindspot
 description: 需求盲区扫描——2B/2C全量维度检查，MECE穷举
 version: 1.0.0

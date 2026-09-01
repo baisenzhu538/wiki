@@ -1,4 +1,4 @@
-﻿---
+---
 name: demand-analysis-iceberg
 description: 冰山六层需求深挖——L1→L6 Pipeline，从表层标签到可验证假设
 version: 1.0.0

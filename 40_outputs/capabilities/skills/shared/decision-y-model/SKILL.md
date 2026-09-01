@@ -1,4 +1,4 @@
-﻿---
+---
 name: decision-y-model
 description: Y模型实操——知行合一+矛盾论+实践论，科学成事的底层操作系统
 version: 1.0.0

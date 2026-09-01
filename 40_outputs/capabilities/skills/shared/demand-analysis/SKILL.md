@@ -1,4 +1,4 @@
-﻿---
+---
 name: demand-analysis
 description: 需求分析总入口——USP快速拆解+冰山六层深挖+JTBD教练+评估三角形
 version: 1.0.0

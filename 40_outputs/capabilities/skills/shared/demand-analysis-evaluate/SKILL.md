@@ -1,4 +1,4 @@
-﻿---
+---
 name: demand-analysis-evaluate
 description: 需求评估——判断真伪/大小/紧迫，评估三角形+四种力量
 version: 1.0.0

@@ -1,4 +1,4 @@
-﻿---
+---
 name: strategy-brm
 description: BRM战略框架——差距分析→战略规划→执行，冉鹏方法论核心闭环
 version: 1.0.0

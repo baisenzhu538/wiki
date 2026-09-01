@@ -1,4 +1,4 @@
-﻿---
+---
 name: content-production
 description: 内容生产总入口——Candy九步法：从素材到可交付内容
 version: 1.0.0

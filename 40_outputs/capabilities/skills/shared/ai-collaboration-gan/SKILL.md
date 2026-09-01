@@ -1,4 +1,4 @@
-﻿---
+---
 name: ai-collaboration-gan
 description: GAN三角色架构——生成器/判别器/合成器，多模型协作提升AI输出质量
 version: 1.0.0

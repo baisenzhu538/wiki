@@ -1,4 +1,4 @@
-﻿---
+---
 name: decision
 description: 科学决策总入口——Y模型+决策卫生+预判模型+偏见速查
 version: 1.0.0

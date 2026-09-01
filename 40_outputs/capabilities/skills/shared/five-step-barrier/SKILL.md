@@ -1,4 +1,4 @@
-﻿---
+---
 name: five-step-barrier
 description: 五步法第五步：壁垒——能守多久？护城河在哪？
 version: 1.0.0

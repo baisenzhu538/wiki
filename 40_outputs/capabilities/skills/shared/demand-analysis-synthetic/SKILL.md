@@ -1,4 +1,4 @@
-﻿---
+---
 name: demand-analysis-synthetic
 description: 合成用户调研——多Agent角色扮演+案例检索+全网数据交叉验证，输出结构化需求报告
 version: 1.0.0

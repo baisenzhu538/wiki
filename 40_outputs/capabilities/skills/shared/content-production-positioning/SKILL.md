@@ -1,4 +1,4 @@
-﻿---
+---
 name: content-production-positioning
 description: 差异化定位——搭参考系+四象限画布，回答凭什么存在
 version: 1.0.0

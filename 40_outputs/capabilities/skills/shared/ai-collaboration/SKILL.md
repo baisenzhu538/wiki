@@ -1,4 +1,4 @@
-﻿---
+---
 name: ai-collaboration
 description: 人机协作总入口——从演员到导演，从任务到系统
 version: 1.0.0

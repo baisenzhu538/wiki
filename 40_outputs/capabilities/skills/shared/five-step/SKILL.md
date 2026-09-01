@@ -1,4 +1,4 @@
-﻿---
+---
 name: five-step
 description: 一堂五步法总入口——需求→产品内核→商业模式→增长→壁垒
 version: 1.0.0

@@ -1,4 +1,4 @@
-﻿---
+---
 name: ai-collaboration-bitcoe
 description: BITCOE提示词框架——六要素写出高质量AI提示词
 version: 1.0.0

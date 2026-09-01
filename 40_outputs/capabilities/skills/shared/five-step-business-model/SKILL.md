@@ -1,4 +1,4 @@
-﻿---
+---
 name: five-step-business-model
 description: 五步法第三步：商业模式——怎么赚钱？单元模型成立？
 version: 1.0.0

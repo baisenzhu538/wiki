@@ -1,4 +1,4 @@
-﻿---
+---
 name: ai-collaboration-harness
 description: Harness七阶段AI构建流程——从想法到AI产品的完整工程方法
 version: 1.0.0
