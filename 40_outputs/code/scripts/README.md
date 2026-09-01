@@ -314,3 +314,9 @@
 - **受管环境**：`wiki/_tmp/pdf-inspector/` venv（Python 3.12.3，pdf-inspector 1.15.0）；CLI（pdf2md/detect-pdf）需 `cargo install`，KDO 流水线用 `process_pdf` API 即可
 - **实测（狗粮）**：5 份真实 PDF 5/5 分类正确（conf 0.875-1.0），中文无乱码，混合页正确标出
 - **关联**：工具卡 `30_wiki/tools/tool-pdf-inspector.md`（待编排入队）；选型手册 `40_outputs/capabilities/skills/document-parsing-toolkit/`（路由矩阵）
+
+#### 更新（2026-09-02 黄药师 · #598 BOM清理+健康雷达例行化 / 补 #588 登记欠账）
+- **`scan_skills_registry.py`**（#588 产物，#598 扩展）：skills 目录+挂载矩阵+8维健康雷达三合一扫描生成器——扫 `40_outputs/capabilities/skills/`（shared/+根目录）生成 INDEX.md / MOUNT-MATRIX.md / SKILL-HEALTH.md 三份登记物；`--check` 新鲜度门禁（stale→exit 1）
+- 8 维健康雷达口径 = `60_feedback/diagnosis/建议书_20260901_skill健康度勘察与检测方法论.md` §三（A触发词/B描述/C失败模式/D边界/E来源/F三写/G≤300行/H编号步骤；🟢≥6 🟡4-5 🔴≤3），结构层 triage 不替代实测
+- **`strip_skill_bom.py`**（#598）：SKILL.md UTF-8 BOM 批量清理——只删文件头 EF BB BF 三字节，转换前后字节级断言（new == old[3:]）；`--check` 只读模式供回归/门禁（exit 1 = 仍有 BOM）
+- 实测：37 个 BOM 清洗 37/37 BOM-only 断言通过（commit 1692bae6b）；扫描 76 skills 全量重生成 + --check fresh
