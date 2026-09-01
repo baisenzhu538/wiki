@@ -318,3 +318,10 @@
 [2026-09-01 19:01] 🕐 时钟值守拍（19:01）：PROPOSAL-PENDING 划销 1 行——role-liveness 18:37 ouyangfeng 冷却重报（check-liveness 实测冷却抑制 3 角色/全死 0，#593 已 15:17 PASS A 闭环，收工空窗架构常态）；INBOX-PENDING 0 未划销；产线 queued·claimed·pending_review 全 0（#583-#593 全闭环），三角色无可领不拉起；心跳已写
 - [2026-09-01 19:17] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
 [2026-09-01 19:35] 🕐 时钟值守拍（19:35）：全清——PROPOSAL-PENDING 0 未划销/INBOX-PENDING 0 未划销；结构地图例行单搜 7 命中=同名单历史残留（6 单无结构地图节，#572 已裁定节在，老单冻结不回注）；产线 queued·claimed·pending_review 全 0，三角色无可领不拉起；心跳已写
+- [2026-09-01 19:37] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-01 19:37:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-c
+- [2026-09-01 19:47] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+[2026-09-01 20:01] 🕐 时钟值守拍（20:01）：全清拍——PROPOSAL-PENDING 划销 1 行（role-liveness 19:37 huangyaoshi 冷却重报，check-liveness 实测冷却抑制 2 角色/全死 1=laowantong 收工空窗常态，commit e13667b89）；INBOX-PENDING 0 未划销；产线 queued·claimed·pending_review 全 0（#583-#593 全闭环），三角色无可领不拉起；结构地图例行 7 命中=历史残留不回注；心跳已写
+- [2026-09-01 20:07] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-01 20:00:27｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cl
+- [2026-09-01 20:17] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+
+[2026-09-01 20:31] 🕐 时钟值守拍（20:31）：PROPOSAL-PENDING 划销 1 行——role-liveness 20:07 laowantong 冷却重报（check-liveness 实测全死角色 0，#586 已 08:01 PASS A- 闭环，queued 0 无施工实例=收工空窗架构常态，commit 021c93275）；INBOX-PENDING 0 未划销；结构地图例行 7 命中=历史残留不回注；产线 queued·claimed·pending_review 全 0（#583-#593 全闭环），三角色无可领不拉起；心跳已写
