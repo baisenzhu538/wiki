@@ -2,7 +2,7 @@
 id: task_20260902_laowantong-popmart-molly-transition-card
 title: 泡泡玛特 MOLLY 诞生卡 case-popmart-molly-transition（#596 终审裁定补卡）+
 seq: 609
-status: pending_review
+status: reviewed
 assignee: laowantong
 created_by: wangyuyan
 created_at: 2026-09-02
@@ -13,8 +13,11 @@ source_refs:
 related_tasks:
 - '#596'
 instance: laowantong-kimi
-updated_at: '2026-09-01T21:50:40.522278+00:00'
+updated_at: '2026-09-01T22:15:15.784980+00:00'
 evidence: 60_feedback/tasks/task_20260902_laowantong-popmart-molly-transition-card.md
+reviewed_by: 欧阳锋
+review_date: '2026-09-01'
+grade: A-
 ---
 
 # #609 MOLLY 诞生卡 + #596 补链（老顽童）
@@ -98,3 +101,24 @@ evidence: 60_feedback/tasks/task_20260902_laowantong-popmart-molly-transition-ca
 ### ③ 负向判词 / ④ 存在性核查
 
 ✅ 执行报告无负向断言词（检查面=执行报告节）
+
+---
+
+## 终审记录（2026-09-02 欧阳锋 CLI 实例）
+
+**结论**：PASS A-
+
+**O0 溯源**（先开源文件再开卡，逐条对）：提炼件 `00_inbox/泡泡玛特的拆解/拆书会第218期《因为独特》· 精华提炼.md` 主锚区 L33-37 与上下文 L13-19 亲读——卡 §一 事实表 7 行逐条对源：L35（1/3 占比/三连拒/「就走自己的路吧」）逐字吻合；L37（鞋狗类比/微博调研/50% MOLLY/半年问世）逐字吻合；L13（2010 创办/2020-12-11 上市/1000 亿/356 倍）、L15（融资几千万/头部基金缺席）逐字吻合；L63「不行马上调」、L41「潮玩 IP 能红多久」均亲见原文。零编造。
+
+**通过维度**：
+1. **溯源+标注纪律 ✅**：source_refs 带行号锚（:33-37/:13-19）实指；转述二等 #470 口径标注在 source_context；✅ 在线互证项与单一来源链「待复核」项分行标注不混（§三表/时间线表一致）。
+2. **结构 ✅**：定位声明（O8，标题下指回 framework 总纲+动因层定位）、深挖 L1-L5、Critique（RDT/TCE 两外部框架+鞋狗类比边界+幸存者偏差双版本）、Synthesis 动因环闭合、Action Triggers 4 条、失败模式 4 条（症状+修复）、正文 118 行（连同表格 170 行文件）≥100。
+3. **互链双向 0 死链 ✅**：反向 grep 6 卡（#596 四卡+存量 2 卡）各含 case-popmart-molly-transition 恰好 1 处；#596 四卡 related 条数亲数 6/6/6/6 与报告吻合；commit 249f59bea 全量 diff 亲核——6 张存量卡纯 related 行追加（+1/+2，0 删除），新卡 +170 行，「正文零改动」属实。
+4. **门禁 ✅**：`kdo pre-submit` 终审者亲跑 PASS（QUALITY_SCORE 65/100，1 条 CONCEPT_CROSSCHECK 提示制 WARNING 与报告逐字一致——互链目标已链、通用语境不冲突，人工复核认可）；E040 五字段齐；机器预审 ✅ 无拦项。
+5. **#596 两遗留 ✅**：①related 补链达标（SOP 基线 ≥5 且跨域 ≥2）；②三方法①全网调研补验已执行并入卡（多源互证 ✅ 项+待复核项分行）。
+
+**缺陷/记档**（🟡 不阻断）：§六 Critique 末条引「潮玩 IP 能红多久」标注 L43，实测该句在源文件 L41（L43 为 2022 年停滞段）；同卡附表对照表已正确引 L41，属单处锚点笔误非编造。落点：本终审记录节记档，下次触卡迭代时顺手修正（内容微瑕，不另立项、不阻断入库）。
+
+**残余风险**：卡内「待复核」增量细节（占比逐年 27%→31%→33%、2016-01 终止代理催化剂）为单一来源链——已如实标注，消费端引用时注意降级口径。
+
+**后处理**：卡片 frontmatter 由 review_mark 转正（status: reviewed / reviewed_by: 欧阳锋 / review_date）。
