@@ -35,7 +35,7 @@ discoverable_by:
   - hygiene 压缩
   - 智谱 code plan 端点
 related:
-- '[[framework-hermes-multi-bot-feishu-setup]]'
+- 'framework-hermes-multi-bot-feishu-setup'
 quality_labels:
 - cited
 - validated

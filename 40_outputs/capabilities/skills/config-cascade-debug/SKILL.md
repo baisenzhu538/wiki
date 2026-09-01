@@ -152,7 +152,7 @@ skill
 
 - `pitfalls.md` P-1 / P-2 / P-3 / P-4
 - `decisions.md` 2026-05-16 (DeepSeek vs Kimi —— 诊断修正)
-- [[hermes-gateway-revival|Hermes Gateway Revival Skill]]（Hermes 专项修复）
+- Hermes Gateway Revival Skill（Hermes 专项修复）
 
 ## 触发词
 

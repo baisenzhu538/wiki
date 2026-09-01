@@ -4,7 +4,7 @@ workflow_name: ai-short-drama-creation-workflow
 status: stable  
 scope: Content Producer / 老顽童  
 last_verified: 2026-06-14  
-skill_ref: "[[ai-short-drama-creation]]"
+skill_ref: "ai-short-drama-creation"
 
 ---
 
@@ -233,5 +233,5 @@ skill_ref: "[[ai-short-drama-creation]]"
 
 ## 参考
 
-- 完整提示词与检查清单见：[[ai-short-drama-creation]]
+- 完整提示词与检查清单见：ai-short-drama-creation
 - 平台政策对比见：[[concepts/ai-short-drama-platform-policy-comparison]]

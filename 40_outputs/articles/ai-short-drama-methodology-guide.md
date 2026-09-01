@@ -154,7 +154,7 @@ AI 短剧创作不是「 prompts 越多越牛」，而是「框架越清晰，AI
 - [[tools/ai-short-drama-framework-three-axes]]
 - [[tools/ai-short-drama-conflict-three-axes]]
 - [[concepts/ai-short-drama-platform-policy-comparison]]
-- [[ai-short-drama-creation]]
+- ai-short-drama-creation
 - [[ai-short-drama-creation-workflow]]
 
 ---

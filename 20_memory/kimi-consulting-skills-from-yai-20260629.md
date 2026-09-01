@@ -10,7 +10,7 @@ source_refs:
 - method-systematic-dialogue-kb-evolution-hybrid
 related:
 - [[user-insight-profile]]
-- [[consultant-mode-yai-style]]
+- consultant-mode-yai-style
 - [[method-dialogue-driven-kb-evolution]]
 - [[method-systematic-dialogue-kb-evolution-hybrid]]
 ---

@@ -16,7 +16,7 @@ source_refs:
 related:
   - "[[user-preferences]]"
   - "[[yai-tcp-teacher-role]]"
-  - "[[consultant-mode-yai-style]]"
+  - "consultant-mode-yai-style"
 ---
 
 # 用户洞察档案 / User Insight Profile
