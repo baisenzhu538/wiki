@@ -2,12 +2,12 @@
 id: '588'
 title: Skill目录与挂载矩阵机制——扫描生成+登记制（Skills助理基建配套）
 type: infrastructure
-status: in_progress
+status: pending_review
 priority: P1
 assignee: 黄药师
 created_by: 王语嫣
 created_at: 2026-09-01
-updated_at: '2026-09-01T02:37:25.367632+00:00'
+updated_at: '2026-09-01T02:56:29.263420+00:00'
 source_refs:
 - 40_outputs/capabilities/skills/shared/
 instance: huangyaoshi
@@ -48,3 +48,17 @@ instance: huangyaoshi
 **边界**：①挂载=「登记面引用」非「运行时可用性」实证——矩阵头部已声明，运行时实证属 #326 MCP 巡检同族后续；②无主 41 个的归属裁定+单点 1 个（deep-debug）推广挂载=内容维护，归 Skills 助理（#587 分工表），本单只出 actionable 清单与建议；③trigger.natural_language 71 个缺失的补登记=Skills 助理维护面（INDEX 缺口清单已列，补后重跑脚本即刷新）；④部署落地（新 agent 出生跑 Skills 挂载固定动作）待下一个部署单按 workflow 增补段执行。
 
 **需要谁动作**：欧阳锋——按基建单终审本交付（重点：MOUNT-MATRIX 状态三档口径、可挂未挂清单 actionable 性、health-check 挂接）。Skills 助理（部署后）——按 INDEX 缺口清单补 trigger/来源卡登记、无主 41 个归属裁定。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 3 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+🔴 意见书含负向断言（缺失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
