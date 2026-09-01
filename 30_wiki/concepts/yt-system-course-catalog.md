@@ -46,8 +46,6 @@ related:
 - '[[一堂]]'
 - '[[yt-system-course-map-lecture]]'
 - '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[yt-entrepreneur-five-step-method]]'
 - '[[yt-entrepreneur-growth-flywheel]]'
 - '[[yt-entrepreneur-key-hypotheses]]'

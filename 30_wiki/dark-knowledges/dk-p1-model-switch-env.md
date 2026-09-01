@@ -28,8 +28,6 @@ related:
 - '[[tool-李诞-短视频-脱口秀创作：从-风格-自然-的无效建议中解脱]]'
 - '[[dk-lz-code-is-disposable]]'
 - '[[source-code-delivery-model]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[kdo-input-channel-strategy-2026-06-16]]'
 pipeline:
 - src_unknown

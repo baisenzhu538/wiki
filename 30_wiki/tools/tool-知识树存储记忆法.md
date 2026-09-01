@@ -23,10 +23,6 @@ discoverable_by:
   - 知识树存储记忆法
 related:
 - '[[tool-纪浩-Agent技能市场设计法]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 definition_of_done:
 - src_unknown
 - src_unknown

@@ -33,9 +33,6 @@ trust_level: high
 related:
 - '[[case-yitang-tob-artificial-bone]]'
 - '[[case-yitang-tob-smart-park]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[dk-tool-as-phased-validator]]'
 diagnostic_signals:
 - framework_lens: 壁垒类型选择

@@ -40,7 +40,6 @@ discoverable_by:
 related:
 - '[[lean-startup-domain-digest]]'
 - '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
 - framework-strategy-lean-validation
 - '[[dk-tool-as-phased-validator]]'
 - '[[dk-ai-entrepreneur-technical-blindspot]]'

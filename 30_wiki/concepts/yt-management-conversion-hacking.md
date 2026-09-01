@@ -30,8 +30,6 @@ related:
 - '[[一堂方法论体系总图]]'
 - '[[yitang-course-map]]'
 - '[[yt-system-course-catalog]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[yt-model-conversion-optimization]]'
 tags:
   - audience:general

@@ -25,10 +25,6 @@ discoverable_by:
   - 企业生命周期战略
 related:
 - '[[strategy-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - case-essence-entrepreneurship
 tags:
 - audience:executor

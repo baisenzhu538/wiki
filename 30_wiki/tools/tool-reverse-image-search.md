@@ -31,9 +31,6 @@ discoverable_by:
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - tinyfish-agentic-web-infrastructure
 - '[[design-ai-image-generation]]'
 updated_at: '2026-06-29'

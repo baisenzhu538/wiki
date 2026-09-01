@@ -14,7 +14,6 @@ related:
 - '[[case-toy-cabinet-business-model]]'
 - '[[case-treadmill-demand-analysis]]'
 - '[[yt-business-formula-abc-model]]'
-- '[[pending_unknown]]'
 - '[[case-five-step-growth-first-lever]]'
 - '[[case-toy-cabinet-barrier]]'
 - '[[tools-workflows]]'

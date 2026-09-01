@@ -37,7 +37,6 @@ related:
 - '[[tool-李诞-销售闭环验证：从0到1的重新定义]]'
 - '[[aigc设计师实操培训01口喷设计范式与电商ai设计全流程]]'
 - '[[tool-马易-销售智能体体系搭建路径]]'
-- '[[pending_unknown]]'
 - '[[concept-ai-native-organization-five-steps]]'
 - '[[knowledge-delivery-os-快速体验指南-飞书云文档]]'
 - '[[dk-wanghuan-tacit-decision-extraction-cross-domain]]'

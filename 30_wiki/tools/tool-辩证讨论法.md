@@ -26,9 +26,6 @@ discoverable_by:
 related:
 - '[[tool-纪浩-Agent技能市场设计法]]'
 - '[[tool-辩证讨论深化]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 definition_of_done:
 - src_unknown
 - src_unknown

@@ -27,8 +27,6 @@ related:
 - '[[strategy-domain-digest]]'
 - '[[anthropic-官方发布创始人手册打造-ai-原生初创公司]]'
 - '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - tool-strategy-pareto
 tags:
 - audience:executor

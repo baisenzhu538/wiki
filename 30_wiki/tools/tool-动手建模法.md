@@ -24,9 +24,6 @@ discoverable_by:
 related:
 - '[[tool-动手建模提炼]]'
 - '[[tool-纪浩-Agent技能市场设计法]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[tool-binary-quadrant-modeling]]'
 - '[[tool-demand-four-forces]]'
 - '[[tool-iceberg-triangle-modeling]]'

@@ -28,10 +28,6 @@ discoverable_by:
   - 现金流管理
   - 商业模式的血液循环
 related:
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 diagnostic_signals:
 - framework_lens: 现金流管理——利润≠现金流，需要关注现金周期
   follow_up_question: 你的现金周期多长？应收账款、库存、应付账款各占多少？

@@ -38,9 +38,6 @@ trust_level: high
 related:
 - '[[yt-tob-customer-sabc]]'
 - '[[yt-tob-demand-metrics]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[case-yitang-tob-artificial-bone]]'
 - '[[case-yitang-tob-smart-park]]'
 - '[[dk-sales-big-deal-vs-small-deal]]'

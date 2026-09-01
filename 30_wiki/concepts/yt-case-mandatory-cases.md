@@ -43,10 +43,6 @@ confidence: 0.85
 trust_level: high
 related:
 - '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[business-analysis]]'
 - '[[meta-prompt-eng]]'
 - '[[product-ux]]'

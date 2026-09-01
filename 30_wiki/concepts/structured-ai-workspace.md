@@ -20,8 +20,6 @@ related:
 - '[[ai-collaboration-mindset-shift]]'
 - '[[prd-as-ai-instruction]]'
 - '[[ai-learning-closed-loop]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[dk-lz-code-is-disposable]]'
 - '[[tool-ai-ai-workspace-setup]]'
 query_triggers:

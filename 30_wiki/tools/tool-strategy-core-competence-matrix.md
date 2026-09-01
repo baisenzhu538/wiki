@@ -29,10 +29,6 @@ discoverable_by:
   - 急迫性
 related:
 - '[[strategy-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 tags:
 - audience:executor
 - scene:execution

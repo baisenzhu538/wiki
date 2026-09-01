@@ -39,9 +39,6 @@ discoverable_by:
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - tool-yitang-research-competitive-quadrant
 - framework-yitang-growth-flywheel
 tags:

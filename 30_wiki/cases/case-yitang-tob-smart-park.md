@@ -37,7 +37,6 @@ trust_level: medium
 related:
 - '[[yt-tob-sales-unit-model]]'
 - '[[yt-tob-cash-flow]]'
-- '[[pending_unknown]]'
 - '[[case-yitang-tob-grinding-machine]]'
 - '[[case-yitang-zhongzheng-parking-garage]]'
 - '[[yt-tob-barriers]]'

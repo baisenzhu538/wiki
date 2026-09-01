@@ -37,9 +37,6 @@ source_refs:
 related:
 - '[[strategy-domain-digest]]'
 - '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - tool-lean-leverage-tools
 - tool-lean-minimum-version
 - '[[dk-p20-bigram-fail]]'

@@ -23,10 +23,6 @@ discoverable_by:
   - 零售品类角色矩阵
 related:
 - '[[strategy-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[tool-strategy-value-capture]]'
 tags:
 - audience:executor

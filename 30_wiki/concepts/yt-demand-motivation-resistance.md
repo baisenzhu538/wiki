@@ -28,10 +28,6 @@ discoverable_by:
   - 为什么用户需要但不用
 related:
 - '[[dk-ai-entrepreneur-technical-blindspot]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[case-demand-b2c-consumer-insight]]'
 diagnostic_signals:
 - framework_lens: 动机阻力分析——有动机但有阻力

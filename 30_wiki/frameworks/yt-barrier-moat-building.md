@@ -20,10 +20,6 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 diagnostic_signals:
 - framework_lens: 壁垒建设路线图——壁垒建设需要基于现有优势，逐步积累
   follow_up_question: 你现有的优势是什么？用户、数据、技术、品牌？从哪个优势开始建设？

@@ -10,7 +10,6 @@ related:
 - '[[yt-market-size-estimation]]'
 - '[[case-treadmill-demand-analysis]]'
 - '[[yt-foresight-business-spectrum]]'
-- '[[pending_unknown]]'
 - '[[yt-business-analysis-cognitive-biases]]'
 - '[[yt-entrepreneur-five-step-method]]'
 - '[[yt-five-step-common-pitfalls]]'

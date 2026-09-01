@@ -35,7 +35,6 @@ discoverable_by:
 related:
 - '[[strategy-domain-digest]]'
 - '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
 - '[[case-lean-2b-gray-test]]'
 - '[[case-lean-adult-education]]'
 - '[[case-lean-crayfish-combo-test]]'

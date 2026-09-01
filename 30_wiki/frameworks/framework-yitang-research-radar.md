@@ -36,9 +36,6 @@ source_refs:
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[framework-yitang-high-level-execution]]'
 - '[[framework-yitang-high-level-plan]]'
 - '[[framework-yitang-oscar-research]]'

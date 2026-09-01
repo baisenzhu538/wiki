@@ -28,10 +28,6 @@ discoverable_by:
   - 平台型商业模式的核心
 related:
 - '[[tool-使用优先级快筛卡锁定核心矛盾]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[dk-p6-session-resume-fail]]'
 diagnostic_signals:
 - framework_lens: 网络效应——平台需要明确的网络效应类型

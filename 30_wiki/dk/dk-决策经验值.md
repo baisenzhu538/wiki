@@ -31,9 +31,6 @@ discoverable_by:
 related:
 - '[[yitang-domain-digest]]'
 - '[[decision-science-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[dk-decision-when-to-defer]]'
 tags:
   - audience:executor

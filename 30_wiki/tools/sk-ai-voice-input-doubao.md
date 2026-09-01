@@ -43,10 +43,6 @@ tools_required:
 prerequisite_skills: []
 related:
 - '[[tool-纪浩-Agent技能市场设计法]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[voice-input-doubao]]'
 - '[[tool-ai-voice-input-doubao]]'
 author: 半肥猫

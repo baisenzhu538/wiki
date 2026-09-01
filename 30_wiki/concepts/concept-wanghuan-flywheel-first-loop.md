@@ -38,7 +38,6 @@ related:
 - '[[case-wanghuan-education-sales-paced]]'
 - '[[case-wanghuan-shenyang-software-3x-efficiency]]'
 - '[[sprint-6-cli-gap-proposal]]'
-- '[[pending_unknown]]'
 tags:
 - src_unknown
 - src_unknown

@@ -20,10 +20,6 @@ discoverable_by:
   - 真需求四要素验证法
 related:
 - '[[tool-纪浩-Agent技能市场设计法]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[tool-ai-four-elements-validation]]'
 - '[[tool-demand-iceberg-l2-scenario]]'
 - '[[concept-ji-hao-ai-collaboration-methodology]]'

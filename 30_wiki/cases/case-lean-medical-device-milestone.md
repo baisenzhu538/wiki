@@ -41,7 +41,6 @@ discoverable_by:
 related:
 - '[[strategy-domain-digest]]'
 - '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
 - case-lean-building-in-vacuum
 tags:
 - audience:general

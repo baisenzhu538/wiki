@@ -26,9 +26,6 @@ discoverable_by:
 related:
 - '[[sk-ai-old-small-checklist]]'
 - '[[sk-ai-parallel-validation]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 tags:
 - src_unknown
 - src_unknown

@@ -31,7 +31,6 @@ related:
 - '[[yt-model-pan-product-36-strategies]]'
 - '[[一堂]]'
 - '[[yt-model-aesthetic-progression]]'
-- '[[pending_unknown]]'
 - '[[bridge-panproduct-kids-translation]]'
 - '[[yt-panproduct-aesthetic-pool]]'
 - '[[tool-panproduct-kids-card-naming]]'

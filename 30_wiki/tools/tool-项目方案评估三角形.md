@@ -26,9 +26,6 @@ discoverable_by:
 related:
 - '[[yitang-domain-digest]]'
 - '[[decision-science-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[tool-demand-assessment-triangle]]'
 - concept-X型Y型决策习惯
 - concept-发现决策

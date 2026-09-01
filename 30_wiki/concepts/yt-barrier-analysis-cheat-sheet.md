@@ -10,7 +10,6 @@ related:
 - '[[yt-scale-economy-weapon-library]]'
 - '[[yt-unit-model-three-tools]]'
 - '[[case-toy-cabinet-business-model]]'
-- '[[pending_unknown]]'
 - '[[case-five-step-fake-vs-real-barriers]]'
 - '[[case-toy-cabinet-barrier]]'
 - '[[case-zhihu-vs-degetao-network-effect]]'

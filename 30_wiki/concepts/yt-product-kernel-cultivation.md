@@ -10,7 +10,6 @@ related:
 - '[[yt-product-ten-metrics]]'
 - '[[case-shampoo-product-kernel]]'
 - '[[case-treadmill-demand-analysis]]'
-- '[[pending_unknown]]'
 - '[[case-five-step-growth-first-lever]]'
 - '[[concept-一堂-kernel-iteration]]'
 - '[[yt-five-step-common-pitfalls]]'

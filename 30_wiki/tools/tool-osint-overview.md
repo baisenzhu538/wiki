@@ -31,9 +31,6 @@ discoverable_by:
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - tool-yitang-research-exhaust-means
 - framework-doris-industry-report-4step
 - '[[framework-yitang-research-weapon-supplement-2026]]'

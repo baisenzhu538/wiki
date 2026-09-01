@@ -26,9 +26,6 @@ related:
 - '[[tool-复盘推演练习]]'
 - '[[framework-一堂-复盘本质与三要素]]'
 - '[[framework-一堂-四象限复盘法]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[retrospective-moc]]'
 definition_of_done:
 - src_unknown

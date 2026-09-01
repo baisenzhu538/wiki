@@ -28,7 +28,6 @@ discoverable_by:
 related:
 - '[[yitang-domain-digest]]'
 - '[[decision-science-domain-digest]]'
-- '[[pending_unknown]]'
 - yt-decision-height-toolkit
 - '[[yt-growth-channel-roi]]'
 updated_at: '2026-06-29'

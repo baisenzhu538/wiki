@@ -32,9 +32,6 @@ discoverable_by:
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - business-research-skill-oscar-13-weapon-system
 - tool-yitang-app-store-data
 - '[[framework-yitang-research-weapon-supplement-2026]]'

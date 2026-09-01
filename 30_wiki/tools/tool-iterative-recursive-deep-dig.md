@@ -28,9 +28,6 @@ discoverable_by:
 related:
 - '[[case-truman-livestream-sop-iteration]]'
 - '[[framework-yitang-iterative-recursive-digging]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[case-ai-agent-milestone-design]]'
 tags:
 - src_unknown

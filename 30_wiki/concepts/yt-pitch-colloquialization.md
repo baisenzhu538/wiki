@@ -24,8 +24,6 @@ related:
 - '[[yt-model-personal-pitch-toolkit]]'
 - '[[yt-personal-scientific-expression]]'
 - '[[yt-concept-weapon-arsenal]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 aliases:

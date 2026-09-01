@@ -25,7 +25,6 @@ related:
 - '[[prd-as-ai-instruction]]'
 - '[[voice-input-doubao]]'
 - '[[ai-landing-scene-selection]]'
-- '[[pending_unknown]]'
 - '[[find-old-do-small]]'
 - '[[tool-ai-skill-engineering-guide]]'
 - '[[tool-ai-skill-engineering-method]]'

@@ -36,7 +36,6 @@ discoverable_by:
   - 产品内核实战
   - 从去屑到专业形象
 related:
-- '[[pending_unknown]]'
 - '[[case-truman-ai-skill-self-packaging]]'
 - '[[yt-product-kernel-aesthetic]]'
 - '[[yt-product-kernel-boundary]]'

@@ -24,8 +24,6 @@ related:
 - '[[dk-p3-auth-cache]]'
 - '[[dk-p2-tmux-cache]]'
 - '[[tool-devils-advocacy]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[yt-business-model-unit-economics]]'
 diagnostic_signals:
 - framework_lens: CAC与LTV计算——CAC需要包含所有获客成本

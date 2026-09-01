@@ -40,9 +40,6 @@ discoverable_by:
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[concept-yitang-facts-first]]'
 - '[[business-research-skill-oscar-13-weapon-system]]'
 - '[[tool-纪浩-Do-first-PDCA渐进迭代法]]'

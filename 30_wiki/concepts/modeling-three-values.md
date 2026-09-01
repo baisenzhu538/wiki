@@ -30,10 +30,6 @@ discoverable_by:
   - 确定性、框架性、迁移性
 related:
 - '[[tool-水水-区分风险与不确定性]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - modeling-to-kdo-toolchain
 - '[[tool-sabc-tier-modeling]]'
 tags:

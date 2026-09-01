@@ -24,9 +24,6 @@ discoverable_by:
 related:
 - '[[tool-纪浩-真需求四要素验证法]]'
 - '[[tool-纪浩-Agent技能市场设计法]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - tool-ai-problem-validation
 - tool-ai-problem-question-check
 definition_of_done:

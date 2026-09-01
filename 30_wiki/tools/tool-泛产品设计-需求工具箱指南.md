@@ -23,9 +23,6 @@ discoverable_by:
 related:
 - '[[yitang-domain-digest]]'
 - '[[decision-science-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]'
 - '[[tool-demand-iceberg-l2-scenario]]'
 - '[[tool-strategy-blue-ocean-canvas]]'

@@ -29,9 +29,6 @@ discoverable_by:
   - 用户记住的不是平均，而是峰值和终点
 related:
 - '[[concept-峰终定律]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[case-demand-b2c-consumer-insight]]'
 - '[[yt-demand-scenario-reconstruction]]'
 diagnostic_signals:

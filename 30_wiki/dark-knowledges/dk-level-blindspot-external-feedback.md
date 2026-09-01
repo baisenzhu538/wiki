@@ -31,10 +31,6 @@ discoverable_by:
   - 低段位者高估自己，因为没见过高段位的具体打法
 related:
 - '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[dk-f5-stale-feedback-ref]]'
 tags:
 - src_unknown

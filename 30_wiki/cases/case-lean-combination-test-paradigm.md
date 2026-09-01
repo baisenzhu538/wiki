@@ -40,7 +40,6 @@ discoverable_by:
 related:
 - '[[lean-startup-domain-digest]]'
 - '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
 - case-shampoo-product-kernel
 tags:
 - audience:executor

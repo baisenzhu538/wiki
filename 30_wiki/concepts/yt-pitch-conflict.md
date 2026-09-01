@@ -24,9 +24,6 @@ discoverable_by:
 related:
 - '[[yt-model-personal-pitch-toolkit]]'
 - '[[yt-concept-weapon-arsenal]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[case-yitang-jiangxiang-cli-three-versions]]'
 - '[[yt-lean-flower-mom-group-leader]]'
 reviewed_by: 黄药师

@@ -24,10 +24,6 @@ discoverable_by:
   - 以问题为入口的多源交叉认知法
 related:
 - '[[tool-清单式笔记法]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[voice-input-doubao]]'
 query_triggers:
 - src_unknown

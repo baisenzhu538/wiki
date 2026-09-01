@@ -28,7 +28,6 @@ discoverable_by:
   - 做重要设计前先摸行业最佳实践
   - 认知套利
 related:
-  - "[[pending_unknown]]"
   - "[[case-live81-ai-trademark-design]]"
   - "[[tool-ai-deliverable-polish-loop]]"
   - "[[yitang-domain-digest]]"

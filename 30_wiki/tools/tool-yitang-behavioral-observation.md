@@ -31,9 +31,6 @@ discoverable_by:
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 updated_at: '2026-06-30T16:07:51+00:00'
 tags:
 - audience:executor

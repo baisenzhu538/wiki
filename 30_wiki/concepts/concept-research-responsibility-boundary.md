@@ -32,9 +32,6 @@ discoverable_by:
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - tool-yitang-amazon-bestseller
 - tool-yitang-ai-monitoring-alert
 updated_at: '2026-06-29'

@@ -29,9 +29,6 @@ discoverable_by:
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - tool-ai-prd-for-ai
 - tool-yitang-business-registration-check
 updated_at: '2026-06-29'

@@ -63,7 +63,6 @@ related:
 - '[[yt-prompt-iterative-prompting]]'
 - '[[yt-model-personal-pitch-toolkit]]'
 - '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
 - '[[yt-decision-ai-partner]]'
 - '[[yt-prompt-brainstorming]]'
 tags:

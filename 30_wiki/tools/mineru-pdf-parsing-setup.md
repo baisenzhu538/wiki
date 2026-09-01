@@ -25,10 +25,6 @@ discoverable_by:
   - 解析工具安装与使用
 related:
 - '[[dk-wanghuan-magic-defeats-magic]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - tool-ban-fei-mao-an-yu-yi-qie-fen-wen-dang-zuo-xiang-liang-hua
 - '[[tool-pdf-inspector]]'
 tags:

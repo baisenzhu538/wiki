@@ -30,8 +30,6 @@ related:
 - '[[case-lean-electric-scooter-mvp]]'
 - '[[strategy-domain-digest]]'
 - '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[tool-lean-fake-marketing]]'
 - '[[tool-lean-fake-product]]'
 - '[[tool-lean-human-replace-system]]'

@@ -24,9 +24,6 @@ discoverable_by:
   - 找单元模型实操难点
 related:
 - '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[case-thousand-people-square]]'
 - '[[concept-thousand-people-square]]'
 - '[[concept-最简单元模型]]'

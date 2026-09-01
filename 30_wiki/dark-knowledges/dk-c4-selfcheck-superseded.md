@@ -25,10 +25,6 @@ discoverable_by:
   - 页面→终态卡片被标记为未
 related:
 - '[[sprint-2-gate-enrich-evidence]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[dk-c2-dual-status-machine]]'
 - '[[dk-c5-todo-false-positive]]'
 pipeline:

@@ -42,8 +42,6 @@ discoverable_by:
   - 0办公位的券商模式
 related:
 - '[[strategy-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - case-opc-agent-wave1-real-model-testing
 - case-strategy-practice-12-zero-loss
 tags:

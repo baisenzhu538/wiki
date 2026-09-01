@@ -25,7 +25,6 @@ discoverable_by:
   - AI协作思维转变
   - 从新手到管理者
 related:
-- '[[pending_unknown]]'
 - '[[ai-learning-closed-loop]]'
 - '[[structured-ai-workspace]]'
 - '[[ai-landing-scene-selection]]'

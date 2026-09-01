@@ -10,7 +10,6 @@ related:
 - '[[ai-native-五层进阶从答案到效率到作品到产品到系统]]'
 - '[[数据标注维度最佳实践调研报告]]'
 - '[[yt-unit-model-ai-assisted]]'
-- '[[pending_unknown]]'
 - '[[case-strategy-wuxi-suntech]]'
 aliases:
 - ai数据理解第一课

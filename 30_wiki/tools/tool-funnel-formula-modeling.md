@@ -32,10 +32,6 @@ trust_level: high
 confidence: 0.89
 related:
 - '[[case-private-domain-ecommerce-formula]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[tool-scenario-selector-modeling]]'
 tags:
 - src_unknown

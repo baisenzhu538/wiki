@@ -25,7 +25,6 @@ related:
 - '[[yt-business-model-cac-ltv]]'
 - '[[dk-p2-tmux-cache]]'
 - '[[tool-devils-advocacy]]'
-- '[[pending_unknown]]'
 - '[[case-cross-xingangwan-pharma]]'
 - '[[yt-business-model-pivot-signals]]'
 - '[[tool-yitang-financial-report-intelligence]]'

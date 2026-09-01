@@ -18,8 +18,6 @@ related:
 - '[[yt-note-checklist-concept]]'
 - '[[yt-note-five-levels-training]]'
 - '[[yt-note-ai-human-division]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 prerequisites:
 - src_unknown
 - src_unknown

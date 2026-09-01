@@ -29,9 +29,6 @@ discoverable_by:
 related:
 - '[[tool-Truman-个人判断力系统建设（达克效应应对）]]'
 - '[[tool-水水-识别饥饿效应]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[yt-barrier-brand-equity]]'
 - '[[yt-barrier-culture-moat]]'
 - '[[yt-barrier-defensive-strategy]]'

@@ -30,8 +30,6 @@ related:
 - '[[framework-wanghuan-bitcoe-prompt-framework]]'
 - '[[framework-wanghuan-task-product-system]]'
 - '[[framework-wanghuan-actor-director-mode]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[dk-wanghuan-standard-by-iteration]]'
 - '[[human-ai-collaboration-double-triangle]]'
 diagnostic_signals:

@@ -31,7 +31,6 @@ discoverable_by:
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
 - case-opc-agent-wave1-real-model-testing
 - '[[HIS系统开发实现方案-架构师指南]]'
 - '[[HIS系统深度调研]]'

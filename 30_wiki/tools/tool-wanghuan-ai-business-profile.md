@@ -35,10 +35,6 @@ discoverable_by:
   - 王欢AI业务档案5字段工具
 related:
 - '[[concept-wanghuan-tacit-knowledge-examples]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[tool-ai-critical-reading-three-layers]]'
 - '[[dk-wanghuan-creativity-in-description-and-taste]]'
 - '[[human-ai-collaboration-double-triangle]]'

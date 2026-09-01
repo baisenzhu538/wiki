@@ -44,10 +44,6 @@ tools_required: []
 prerequisite_skills: null
 related:
 - '[[tool-纪浩-Agent技能市场设计法]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[tool-ai-narrative-test]]'
 - '[[tool-demand-iceberg-l6-hypothesis]]'
 author: unknown

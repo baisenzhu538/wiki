@@ -22,10 +22,6 @@ discoverable_by:
   - EC工业化规范手册
 related:
 - '[[ec工业化规范手册-v2.8.0]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[kdo-ec-industrialization-migration-proposal]]'
 - '[[鑫港湾HIS项目]]'
 tags:

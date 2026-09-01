@@ -34,9 +34,6 @@ discoverable_by:
 related:
 - '[[dk-note-maximum-common-divisor]]'
 - '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[dk-c6-large-source-overflow]]'
 - '[[dk-p2-tmux-cache]]'
 - '[[dk-p6-session-resume-fail]]'

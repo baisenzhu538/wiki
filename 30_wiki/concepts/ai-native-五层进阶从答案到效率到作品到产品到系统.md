@@ -17,9 +17,6 @@ discoverable_by:
 related:
 - '[[yt-research-osl-framework]]'
 - '[[yt-note-checklist-concept]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[ai数据理解第一课]]'
 - '[[concept-wanghuan-ai-native-definition]]'
 - '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'

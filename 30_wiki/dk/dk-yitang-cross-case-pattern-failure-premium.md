@@ -34,9 +34,6 @@ discoverable_by:
 related:
   - "[[yitang-domain-digest]]"
   - "[[yitang-research-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
   - '[[dk-p20-bigram-fail]]'
 tags:
   - audience:executor

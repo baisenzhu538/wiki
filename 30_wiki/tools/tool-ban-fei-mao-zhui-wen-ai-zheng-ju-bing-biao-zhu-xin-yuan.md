@@ -36,9 +36,6 @@ discoverable_by:
 related:
 - '[[tool-纪浩-Agent技能市场设计法]]'
 - '[[tool-三阶追问法穷尽决策要素]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[tool-ban-fei-mao-gao-su-ai-dang-qian-ri-qi-xian-zhi-shu-ju-shi-xiao]]'
 - '[[tool-ban-fei-mao-pan-duan-ke-cheng-shi-fou-zhi-de-zuo-cheng-skill]]'
 - '[[tool-半肥猫-边学边练边沉淀的AI学习法]]'

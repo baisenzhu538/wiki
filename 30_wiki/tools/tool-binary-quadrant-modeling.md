@@ -31,10 +31,6 @@ trust_level: medium
 confidence: 0.91
 related:
 - '[[tool-动手建模法]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[tool-scenario-selector-modeling]]'
 tags:
 - src_unknown

@@ -44,10 +44,6 @@ diagnostic_signals:
 - framework_lens: 混合业务未分层拆解
   follow_up_question: 把收入拆成“首单收入”和“后续复购/续费收入”后，两段各自的瓶颈分别是什么？
 related:
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - case-private-domain-ecommerce-formula
 - case-saas-renewal-formula
 - framework-一堂-业务公式拆解-总纲

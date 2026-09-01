@@ -38,8 +38,6 @@ related:
 - '[[master-decision-hygiene]]'
 - '[[master-cognitive-bias-checklist]]'
 - '[[yt-decision-y-model]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[concept-strategy-2024-2026-supplement]]'
 - '[[modeling-capability-for-kdo]]'
 - '[[dk-research-decision-first-mapping]]'

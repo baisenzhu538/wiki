@@ -27,10 +27,6 @@ discoverable_by:
   - 商业模式护城河
   - 持续竞争优势
 related:
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 diagnostic_signals:
 - framework_lens: 商业模式护城河——技术优势不是护城河，需要持续创新
   follow_up_question: 你的技术优势能被竞品复制吗？复制周期多长？

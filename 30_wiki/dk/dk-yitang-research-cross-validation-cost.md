@@ -35,9 +35,6 @@ source_refs:
 related:
   - "[[yitang-domain-digest]]"
   - "[[yitang-research-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
 tags:
   - audience:executor
   - scene:diagnosis

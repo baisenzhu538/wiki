@@ -28,7 +28,6 @@ discoverable_by:
 related:
 - '[[yitang-domain-digest]]'
 - '[[decision-science-domain-digest]]'
-- '[[pending_unknown]]'
 - concept-X型Y型决策习惯
 - concept-发现决策
 updated_at: '2026-06-29'

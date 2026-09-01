@@ -25,10 +25,6 @@ discoverable_by:
   - 从四象限到行动策略
 related:
 - '[[strategy-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - tool-strategy-12-word-test
 tags:
 - audience:executor

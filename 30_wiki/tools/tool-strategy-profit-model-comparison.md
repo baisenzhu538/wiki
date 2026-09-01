@@ -30,7 +30,6 @@ related:
 - '[[framework-yitang-channel-partnership-map]]'
 - '[[case-yitang-goat-milk-channel-partnership]]'
 - '[[tool-yitang-channel-partnership-design]]'
-- '[[pending_unknown]]'
 - case-strategy-m-brand-profit-model
 tags:
 - audience:executor

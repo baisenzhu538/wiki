@@ -27,7 +27,6 @@ related:
 - '[[yt-unit-model-construction]]'
 - '[[yt-unit-model-ladder]]'
 - '[[yt-unit-model-ai-assisted]]'
-- '[[pending_unknown]]'
 - '[[ai单元模型口述蒋老师]]'
 aliases:
   - 动态单元模型

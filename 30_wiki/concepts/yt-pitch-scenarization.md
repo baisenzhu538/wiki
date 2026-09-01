@@ -26,8 +26,6 @@ related:
 - '[[yt-model-personal-pitch-toolkit]]'
 - '[[yt-panproduct-demand-scenario-walkthrough]]'
 - '[[yt-concept-weapon-arsenal]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[case-yitang-jiangxiang-cli-three-versions]]'
 - '[[case-yitang-jiangxiang-scene-montage]]'
 - '[[case-yitang-jiangxiang-tianmu-balcony]]'

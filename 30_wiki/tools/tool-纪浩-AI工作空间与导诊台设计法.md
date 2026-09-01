@@ -30,8 +30,6 @@ related:
 - '[[case-lean-adult-education]]'
 - '[[case-truman-ai-skill-self-packaging]]'
 - '[[yt-barrier-identification-skill]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[tool-纪浩-AI对话上下文隔离]]'
 - '[[case-纪浩-from-zip-to-five-layers]]'
 - '[[concept-ji-hao-ai-collaboration-methodology]]'

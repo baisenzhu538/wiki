@@ -36,9 +36,6 @@ discoverable_by:
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - tool-yitang-business-registration-check
 - '[[framework-yitang-research-weapon-supplement-2026]]'
 tags:

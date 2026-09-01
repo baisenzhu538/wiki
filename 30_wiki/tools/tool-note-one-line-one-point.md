@@ -19,7 +19,6 @@ related:
 - '[[tool-note-keyword-bolding]]'
 - '[[dk-note-surplus-brainpower]]'
 - '[[dk-note-maximum-common-divisor]]'
-- '[[pending_unknown]]'
 aliases:
   - 一行一点精简法则
   - 一行一点精简法则：砍掉语气词、括号、修饰语，只留主语+关键词+关键动作

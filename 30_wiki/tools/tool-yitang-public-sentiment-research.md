@@ -40,9 +40,6 @@ discoverable_by:
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - tool-yitang-research-unit-model
 - tool-yitang-research-competitor-tracking
 - '[[kimi-深度调研集群方法论-deep-research-swarm]]'

@@ -24,10 +24,6 @@ discoverable_by:
 related:
 - '[[tool-纪浩-Agent技能市场设计法]]'
 - '[[concept-一堂-双目标法]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[case-strategy-failure-05-it]]'
 - '[[case-strategy-failure-06-phone-n]]'
 - '[[case-strategy-failure-07-phone-l]]'

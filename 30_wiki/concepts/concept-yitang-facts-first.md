@@ -30,9 +30,6 @@ discoverable_by:
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[concept-kdo-review-workflow]]'
 - concept-yitang-research-facts-first
 - '[[tool-纪浩-Do-first-PDCA渐进迭代法]]'

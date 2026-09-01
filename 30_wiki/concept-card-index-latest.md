@@ -1,4 +1,4 @@
-# Concept Card Index — 2026-08-31 18:08 UTC
+# Concept Card Index — 2026-09-01 18:07 UTC
 
 | ID | Title | Type | Domain |
 |---|---|---|---|
@@ -35,6 +35,7 @@
 | concept-addiction-threshold | 上瘾门槛论：让人上瘾的生意门槛极高——商业维度优先 | concept | decision-making |
 | concept-aducit-six-step | ADUCIT 六步数据飞轮：预判→识别→收集→处理→使用→反馈（+治理贯穿） | concept | yihang, kdo |
 | concept-agent-as-token-consumer | 智能体是词元最大消费者：×100 倍消耗与「模型要为智能体而造」 | concept | strategy, ai-saas |
+| concept-agent-university | Agent 大学——让 Agent 受教育的产品设想（Skill 市场之外的第三条路） | concept | ai-collaboration, strategy |
 | concept-ai-amara-law-business-judgment | 阿马拉定律与商业判断校准 | concept | ai-collaboration, critical-thinking, business-judgment |
 | concept-ai-chair-determines-view | 椅子决定视角 | concept | ai-collaboration, critical-thinking, business-judgment |
 | concept-ai-co-learning | AI共学模式：人+AI共学课程→固化知识→产生Skill | concept |  |
@@ -47,6 +48,7 @@
 | concept-AI知识库-KDO传承溯源 | KDO 传承溯源：楚门-半肥猫「笨办法有点意思」 | concept | ai-knowledge, knowledge-management |
 | concept-AI知识库-原子化拆分 | 原子化拆分：按语义切分，拆到歧义为止 | concept | ai-knowledge, knowledge-management |
 | concept-AI知识库-四关键词 | AI 知识管理四关键词：协作桥梁/问题驱动/范式复利/拒绝焦虑 | concept | ai-knowledge, knowledge-management |
+| concept-brooks-three-lies-culture | 布鲁克斯当代文化三谎言——成功自给与精英制的幻觉 | concept | strategy |
 | concept-candy-ai-as-collaborator | Candy：AI是协作者而非代写工具 | concept | content-production, ai-collaboration |
 | concept-ceo-must-do-user-research | CEO必须亲自做用户调研 | concept | research |
 | concept-changing-others-as-self-compensation | 改变别人是改变自己的代偿：搞天搞地不如搞自己 | concept | human-insights |
@@ -82,6 +84,7 @@
 | concept-research-delegation-in-scaling | 规模化中的调研委派：从"自己做"到"建机制" | concept | research |
 | concept-research-responsibility-boundary | 调研责任边界：道德、法律与生存的平衡 | concept | research |
 | concept-research-saturation-coverage | 饱和覆盖：不以数量决定，以规律稳定为目标 | concept | research |
+| concept-satisfaction-vs-existence | 满足感×存在感——消费解决两件事（近视眼镜 vs 黑框眼镜） | concept | strategy |
 | concept-session-vs-memory-vs-document | Session << AI 记忆 << 文档知识库：降 Session 依赖 | concept | knowledge-management, ai-collaboration |
 | concept-smart-medicine-cabinet-consumer-acceptance | 消费者购药行为与智能药柜接受度 | concept | healthcare, business-strategy, product |
 | concept-smart-medicine-cabinet-digital-pharmacy-diagnosis | 智能药柜/数字药房项目诊断：大院处方、小院续方模式 | concept | healthcare, business-strategy |
@@ -604,18 +607,21 @@
 | framework-lean-systematic-test-curve | 系统测试曲线与三大测试范式 | framework | strategy |
 | framework-lean-tenx-formula | 十倍速公式：避免系统性失败 | framework | research |
 | framework-lemon-market-new-brand-trust | 柠檬市场×新品牌信任公式：信任 =（能力+善意+可预测性）×触点一致性 | framework | marketing, decision-making |
+| framework-lobster-opt-one-person-team | OPT One Person Team——一人 AI 团队的五角色最小决策系统 | framework | strategy, ai-collaboration |
 | framework-logic-cleanliness-five-levels | 逻辑洁癖五段位：从散点堆到逻辑链的建模审美标准 | framework | decision-making, strategy |
 | framework-meeting-iceberg-canvas | 会议冰山模型 × 科学开会思考画布 | framework | management |
 | framework-meeting-ten-principles | 科学开会十大原则（人×事花瓣图） | framework | management |
 | framework-modeling-relation-exploration | 流程建模的关系探索：关系vs规律，从并列到因果 | framework |  |
 | framework-multi-agent-collab-chain-six | 多 Agent 协作链六环节：管理读写关系，让上下文一轮轮变厚 | framework | knowledge-management, ai-collaboration |
 | framework-multi-agent-research-architecture | 多智能体研究架构模式（Multi-Agent Research Architecture） | framework |  |
+| framework-muse-ai-full-map-v1 | MUSE AI 全景坐标系 v1（DataPack 版）——四层主层判断与跨层证据门槛 | framework | strategy, ai-collaboration |
 | framework-openclaw-vs-harness-selection | OpenClaw vs Harness 选型决策树——70% 论 × 三分法（养员工/造工具/打短工） | framework | ai-basic, ai-collaboration |
 | framework-oral-spray-cultivation-map | 口喷段位修炼地图 L1-L6：五次飞跃 | framework | ai-collaboration |
 | framework-oral-spray-five-advantages | 口喷五优势框架：启动快·信息全·速度快·能流淌·阻力低 | framework | ai-collaboration, content-creation |
 | framework-ouyangfeng-review-methodology | 欧阳锋审查方法论：三阶段架构评审框架 | framework | kdo, master, strategy |
 | framework-pan-product-organization | 泛产品组织设计：把团队当成产品来打磨 | framework |  |
 | framework-patrolkit-radar | PatrolKit 知识资产雷达：自动巡查与资产回收系统 | framework | knowledge-management, ai-collaboration |
+| framework-popmart-long-termism-operating-philosophy | 尊重时间尊重经营——泡泡玛特长期主义经营框架（该十年做成的事就十年） | framework | strategy |
 | framework-r-type-research-partner-five-state | R 型研究 Partner 五状态机：从课题到知识资产 | framework | research, ai-collaboration |
 | framework-sales-funnel-full | 销售漏斗全貌：正梯形复购裂变 + 每层配套动作 | framework | sales, growth |
 | framework-serendipity-five-channels | 偶遇自动采集五通道：让偶遇成为资产 | framework | knowledge-management, ai-collaboration |
@@ -897,6 +903,7 @@
 | tool-ai-feature-inventory | AI 工具特性清单——原子化 Feature 分类框架 | tool | ai-collaboration |
 | tool-ai-four-elements-validation | 技能：真需求验证法 | tool | ai-collaboration |
 | tool-ai-info-literacy-three-layer | 技能：AI输出三层防护检查法 | tool | content |
+| tool-ai-koupen-training-partner-design | AI 口喷训练场 Partner 设计模式——不执行只评估的陪练架构 | tool | ai-collaboration, kdo |
 | tool-ai-landing-five-steps | 技能：AI落地五步执行流程 | tool | decision-making |
 | tool-ai-narrative-test | 技能：你的方案有叙事力吗？快速测试 | tool | ai-collaboration, ai-saas |
 | tool-ai-old-small-checklist | 技能："找老的干小的"场景评估清单 | tool | ai-collaboration, ai-saas |
@@ -1063,6 +1070,7 @@
 | tool-pdf-inspector | PDF-Inspector (Firecrawl)：先分类再提取的极速 PDF→Markdown 解析器 | tool |  |
 | tool-personal-time-audit-loop | 个人时间审计与实验循环 | tool | personal-growth |
 | tool-platform-requirement-eight-sections | 平台需求梳理 8 节模板：解决什么/用户场景/界面/成功标准/边界/依赖/不做/优先级 | tool | ai-collaboration, product |
+| tool-popmart-narrow-and-deep | 减宽加深判断法：砍掉80%外采聚焦潮玩×每年100个系列上限×七分饱 | tool | strategy |
 | tool-position-switching-test | 地位互换测试：规则公正性一分钟自检 | tool | management |
 | tool-presentation-quality-gate-pipeline | 演示产线双防线质量控制：四道机械闸门 + 七维独立终审 | tool | content-production |
 | tool-private-board-facilitation-sop | 私董会主持SOP：七步结构化流程 | tool |  |
@@ -1935,6 +1943,7 @@
 | case-ji-hao-skill-market-problem-validation | 案例：一堂Skill市场从伪需求到真实需求的四问验证 | case | ai-collaboration |
 | case-ji-hao-skills-market | 案例：一堂内部 Skills 分发平台——从微信传 zip 到 Agent 自助 | case | ai-collaboration |
 | case-ji-hao-ui-design-constraint-evolution | 案例：纪浩从'求你了'到1100行约束文档的UI设计迭代 | case | ai-collaboration |
+| case-jovida-ai-life-coach | Jovida：用「Human Loop 范式 + 上下文飞轮」押注生活 16 小时的 AI Life Coach | case | ai-collaboration, product |
 | case-kdo-agent-factory-dual-triangle-practice | KDO 多 Agent 工厂：人机协作双三角的组织化实践 | case | ai-saas, personal-os |
 | case-kinda-digital-employees-fullview | kinda 数字员工体系全景：从一个具体问题长出 7+ Agent（问题→工具失败→AI 代学→体系→闭环） | case | ai-collaboration, knowledge-management |
 | case-laozhu-hongqigong-human-ai-partner-evolution | 从Copilot到Partner：老朱×洪七公的人机协作跃迁诊断 | case | ai-collaboration, personal-os, organizational-transformation |
@@ -1995,6 +2004,7 @@
 | case-panproduct-top135-selection-polish | 案例：top 1/top 3/top 5 筛选打磨 | case | product, design |
 | case-panproduct-yitao-project-background | 案例：一淘项目背景与三大难题 | case | product, design |
 | case-personal-map-modeling | 案例：一堂个人地图的完整建模过程（方法论视角） | case | content, master |
+| case-popmart-brand-sensory-wrap | 案例：泡泡玛特品牌感官包裹感——盖住logo也认得×门店如教堂×唱片公司模式 | case | strategy |
 | case-popmart-prospectus-pricing | 案例：泡泡玛特招股书——IP产品毛利率60-70% | case | research |
 | case-private-board-conversion-skincare | 转化率私董会实录：古法护肤祛斑项目的动力/阻力/触点三轮共创与幕僚收敛（脱敏版） | case | conversion-rate |
 | case-private-domain-ecommerce-formula | 私域电商 10W 人社群：从"拉人发广告"到"信任 × 用户升级路径" | case | e-commerce, business-strategy |
@@ -2178,6 +2188,7 @@
 | case-yitang-homestay-reception-design | 案例：民宿接待方案——用调研优化服务体验设计 | case | research |
 | case-yitang-homework-six-owners | 一堂作业数六负责人推演：同一个作业率目标，六种业务理解深度决定六种操盘高度 | case | business-formula |
 | case-yitang-innovative-metrics-collection | 创新参数与动作案例集：把"没被命名过的率"挖出来——鞋店连带率、伸手接传单率、进会议室率、夸孩子率与一堂自定义参数群 | case | business-formula |
+| case-yitang-jiangxiang-12-practices | 讲香 12 学员实战案例集——十策略从发布会到朋友圈成交的落地光谱 | case | content, sales |
 | case-yitang-jiangxiang-cli-three-versions | CLI三版话术：技术产品从读天书到万能插座 | case |  |
 | case-yitang-jiangxiang-scene-montage | 场景化蒙太奇：王牌书12.0/探月夏令营/复盘营200期 | case |  |
 | case-yitang-jiangxiang-tianmu-balcony | 天幕阳台：同一产品40分vs90分A/B对照 | case |  |
@@ -2372,6 +2383,7 @@
 | dk-ban-fei-mao-skill-rejection-value | 暗知识：Skill 的最大价值不是生成，是拒绝 | dk | ai-collaboration |
 | dk-best-datasource-is-floor | 最佳数据源=AI 产出下限：搜索引擎给注水文章，垂直源+本地克隆才保质 | dk | ai-collaboration, knowledge-management |
 | dk-bfm-compression-path | 压缩路径：从万字规范到40条铁规 | dk |  |
+| dk-brooks-cost-of-knowing | 求知是有代价的——播种式教学与甜蜜的强迫（布鲁克斯芝大演讲暗知识） | dk | decision, strategy |
 | dk-c1-cjk-regex-silent-fail | C-1：enrich 中文内容不能用 CLI regex→0 pages enriched 静默失败 | dk | master |
 | dk-c10-batch-tool-no-dry-run | C-10：基础设施工具改后直接跑批量→71张卡攻击者内容被清空 | dk | master |
 | dk-c11-hongqigong-skip-review | C-11：洪七公跳步——三段画面连续产出，三次提报全部跳过 | dk | master |
@@ -2453,6 +2465,7 @@
 | dk-kdo-leaky-pipe-pressure | 暗知识：在漏水的管子上加压——基础链路没跑通时，硬门禁不是质量控制，而是流程卡死 | dk | kdo, master |
 | dk-key-hypothesis-still-hope | 「暗知识：只要还有关键假设就还有机会——Feature无限调优的底气」 | dk | ai-basic |
 | dk-koupen-500-vs-5000 | 暗知识：口喷 500 条与 5000 条无差别——没刻意练习等于原地踏步 | dk | ai-collaboration |
+| dk-koupen-decision-tiering-compromise | 口喷科学决策的暗知识——决策分档直觉与一半决策是妥协决策 | dk | decision, ai-collaboration |
 | dk-koupen-input-method-loss | 暗知识：输入法压缩丢稿——不是工具的错，是「一口气长喷」的错 | dk | ai-collaboration |
 | dk-leadership-trust-coin-sensitivity | 信任硬币敏感性（暗知识：领导力=加减币觉察） | dk | management, coaching |
 | dk-let-ai-learn-for-me | 让 AI 替我学：自己学太慢时的转向点（自学失败→训练 AI 代学） | dk | ai-collaboration, knowledge-management |

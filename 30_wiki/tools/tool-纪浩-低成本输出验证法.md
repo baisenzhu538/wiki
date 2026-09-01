@@ -26,10 +26,6 @@ discoverable_by:
   - 低成本输出验证法
 related:
 - '[[tool-纪浩-Agent技能市场设计法]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[sk-ai-parallel-validation]]'
 diagnostic_signals:
 - lens: 迭代成本高

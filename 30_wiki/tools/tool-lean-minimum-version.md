@@ -27,7 +27,6 @@ related:
 - '[[framework-lean-six-wastes]]'
 - '[[strategy-domain-digest]]'
 - '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
 - '[[tool-lean-ai-accelerated-validation]]'
 - '[[tool-lean-human-replace-rnd]]'
 - '[[tool-lean-presell]]'

@@ -49,10 +49,6 @@ discoverable_by:
   - 真正值钱的本质必须能预测下一次实践
 related:
 - '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[yt-foresight-deliverables-four-levels]]'
 - '[[yt-model-cognitive-upgrade-framework]]'
 - '[[dk-modeling-question-scaffold-not-answer]]'

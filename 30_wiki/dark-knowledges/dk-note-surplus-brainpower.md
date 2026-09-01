@@ -39,10 +39,6 @@ discoverable_by:
   - 高阶笔记的唯一货币与分水岭
 related:
 - '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[yt-note-l4-internalization]]'
 - '[[yt-note-l6-extraction]]'
 - '[[tool-note-keyword-bolding]]'

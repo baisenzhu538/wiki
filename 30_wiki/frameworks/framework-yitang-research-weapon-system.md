@@ -37,9 +37,6 @@ source_refs:
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[framework-ci-operating-model]]'
 - '[[framework-ouyangfeng-review-methodology]]'
 - '[[framework-yitang-research-weapon-supplement-2026]]'

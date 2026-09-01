@@ -35,9 +35,6 @@ trust_level: high
 related:
 - '[[yt-tob-revenue-is-customer-cost]]'
 - '[[yt-tob-demand-scenarios]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[case-demand-b2b-enterprise-erp]]'
 - '[[yt-tob-cash-flow]]'
 - '[[yt-tob-sales-unit-model]]'

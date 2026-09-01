@@ -39,9 +39,6 @@ discoverable_by:
 related:
 - '[[dk-wanghuan-magic-defeats-magic]]'
 - '[[dk-wanghuan-spec-trap]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[concept-ai-native-organization-five-steps]]'
 tags:
 - src_unknown

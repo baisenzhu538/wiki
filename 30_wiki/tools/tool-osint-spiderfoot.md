@@ -29,9 +29,6 @@ discoverable_by:
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - agent-native-card-design
 - tinyfish-agentic-web-infrastructure
 updated_at: '2026-06-29'

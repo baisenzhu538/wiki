@@ -44,9 +44,6 @@ discoverable_by:
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[tool-yitang-consulting-business-research]]'
 - '[[tool-yitang-consumer-goods-research]]'
 - '[[tool-yitang-tech-project-research]]'

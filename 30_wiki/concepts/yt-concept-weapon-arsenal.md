@@ -22,8 +22,6 @@ related:
 - '[[yt-model-personal-pitch-toolkit]]'
 - '[[yt-personal-scientific-expression]]'
 - '[[yt-composite-pan-product-methodology]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[yt-concept-ai-guard-brain]]'
 - '[[yt-concept-context-engineering]]'
 - '[[yt-pitch-aphorism]]'

@@ -31,9 +31,6 @@ discoverable_by:
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - proposal-prompt-injection-infrastructure
 - tool-agent-spec-yitang-objection-handler
 - '[[high-density-composite-compilation-strategy]]'

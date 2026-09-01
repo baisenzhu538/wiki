@@ -20,8 +20,6 @@ related:
 - '[[一堂方法论体系总图]]'
 - '[[yitang-course-map]]'
 - '[[yt-system-course-catalog]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 updated_at: '2026-06-16'
 id: yt-management-finance-basics
 author: 老顽童

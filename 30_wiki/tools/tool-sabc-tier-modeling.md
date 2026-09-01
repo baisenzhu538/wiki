@@ -35,8 +35,6 @@ related:
 - '[[case-yitang-weekly-modeling-engine]]'
 - '[[modeling-three-values]]'
 - '[[tool-checklist-cheatsheet-modeling]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[tool-scenario-selector-modeling]]'
 - '[[yt-foresight-deliverables-four-levels]]'
 - '[[business-formula-to-kdo-card-quality]]'

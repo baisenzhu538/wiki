@@ -22,8 +22,6 @@ author: 黄药师
 reviewed_by: 欧阳锋
 related:
 - '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[case-doris-2014-music-streaming-prediction]]'
 - '[[case-doris-beauty-ecommerce-channel]]'
 - '[[case-doris-catering-chain-benchmark]]'

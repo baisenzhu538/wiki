@@ -29,9 +29,6 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[yt-product-kernel-iteration]]'
 - '[[yt-product-kernel-validation]]'
 diagnostic_signals:

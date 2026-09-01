@@ -24,7 +24,6 @@ related:
 - '[[yt-model-progress-map]]'
 - '[[yt-model-y-organization]]'
 - '[[yt-model-ipo-learning-strategy]]'
-- '[[pending_unknown]]'
 - '[[yt-management-toolkit-overview]]'
 - '[[yt-model-entrepreneur-map]]'
 - '[[yt-personal-knowledge-extraction]]'

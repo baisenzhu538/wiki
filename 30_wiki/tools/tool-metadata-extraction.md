@@ -31,9 +31,6 @@ discoverable_by:
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - proposal-prompt-injection-infrastructure
 - concept-ai-native-organization-five-steps
 updated_at: '2026-06-29'

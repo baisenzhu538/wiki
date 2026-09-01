@@ -31,7 +31,6 @@ discoverable_by:
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
 - case-opc-agent-wave1-real-model-testing
 - framework-popmart-long-termism-operating-philosophy
 - case-popmart-brand-sensory-wrap

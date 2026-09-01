@@ -30,9 +30,6 @@ discoverable_by:
 related:
 - '[[strategy-domain-digest]]'
 - '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - framework-lean-four-principles
 review_date: '2026-06-29'
 updated_at: '2026-06-29'

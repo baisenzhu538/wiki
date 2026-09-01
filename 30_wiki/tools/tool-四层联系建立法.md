@@ -26,9 +26,6 @@ discoverable_by:
 related:
 - '[[tool-纪浩-Agent技能市场设计法]]'
 - '[[tool-月白-灵感画布建立法]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[tool-建立知识联系]]'
 definition_of_done:
 - src_unknown

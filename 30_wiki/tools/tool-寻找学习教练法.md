@@ -23,10 +23,6 @@ discoverable_by:
   - 寻找学习教练法
 related:
 - '[[tool-纪浩-Agent技能市场设计法]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[tool-专家访谈学习]]'
 - '[[tool-从案例中学习正反案例法]]'
 - '[[prompt-demand-ai-coach]]'

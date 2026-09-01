@@ -23,8 +23,6 @@ related:
 - '[[find-old-do-small]]'
 - '[[ai-learning-closed-loop]]'
 - '[[course-to-skill-conversion]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[ai-collaboration-mindset-shift]]'
 - '[[ai-hackathon-pitches]]'
 - '[[business-validation-models-collaboration]]'

@@ -28,9 +28,6 @@ reviewed_by: 欧阳锋
 related:
 - '[[strategy-domain-digest]]'
 - '[[tool-水水-识别关键偶然因素]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[tool-demand-iceberg-l6-hypothesis]]'
 tags:
 - audience:executor

@@ -23,10 +23,6 @@ discoverable_by:
   - 分享输出检验法
 related:
 - '[[tool-纪浩-Agent技能市场设计法]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[tool-strategy-business-summary]]'
 - '[[tool-费曼学习法实践讲香课题]]'
 definition_of_done:

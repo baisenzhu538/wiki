@@ -29,7 +29,6 @@ related:
 - '[[tool-月白-文件命名与图层命名规范]]'
 - '[[tool-月白-文件命名与存档规范（口述暗示）]]'
 - '[[tool-月白-文件命名与平台适配规范]]'
-- '[[pending_unknown]]'
 - '[[那今天不会]]'
 pipeline:
 - src_unknown

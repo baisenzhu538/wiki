@@ -27,8 +27,6 @@ related:
 - '[[obsidian-kdo-内容产出工作流-产品设计大纲]]'
 - '[[dk-c7-auto-backup-conflict]]'
 - '[[obsidian-git-sync-protocol]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 pipeline:
 - src_unknown
 - src_unknown

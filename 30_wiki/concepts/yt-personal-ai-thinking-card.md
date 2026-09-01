@@ -24,10 +24,6 @@ discoverable_by:
   - 从读书到安装认知补丁
 related:
 - aima-ai思维卡-外部链接归档
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[case-apple-card-gender-bias]]'
 - '[[learning-thinking]]'
 review_date: 2026-05-15

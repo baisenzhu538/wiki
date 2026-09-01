@@ -23,10 +23,6 @@ discoverable_by:
   - 平台商业模式地图
 related:
 - '[[strategy-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[tool-strategy-value-capture]]'
 tags:
 - audience:executor

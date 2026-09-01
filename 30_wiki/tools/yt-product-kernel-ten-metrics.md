@@ -33,8 +33,6 @@ discoverable_by:
   - 从假设到验证的数据体系
 related:
 - '[[tool-设定管理杠杆率指标评估效率]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[yt-product-ten-metrics]]'
 diagnostic_signals:
 - framework_lens: 产品内核指标——缺乏数据验证体系

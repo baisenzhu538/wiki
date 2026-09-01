@@ -27,9 +27,6 @@ discoverable_by:
   - 突破竞品壁垒
 related:
 - '[[tool-单元模型-壁垒预判]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 diagnostic_signals:
 - framework_lens: 进攻策略——突破竞品壁垒需要找到壁垒的弱点或绕过壁垒
   follow_up_question: 竞品的壁垒是什么？弱点在哪里？能否绕过或差异化？

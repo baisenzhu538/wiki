@@ -30,7 +30,6 @@ discoverable_by:
   - 玩具店规模化扩张三阶段决策
 related:
 - '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
 - '[[case-treadmill-demand-analysis]]'
 - concept-X型Y型决策习惯
 - concept-发现决策

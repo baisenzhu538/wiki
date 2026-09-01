@@ -27,7 +27,6 @@ related:
 - '[[tool-泛产品落地-低成本测试MVP]]'
 - '[[tool-月白-模型识别与边界测试法]]'
 - '[[tool-月白-餐饮海报AB测试法]]'
-- '[[pending_unknown]]'
 diagnostic_signals:
 - framework_lens: A/B测试——任何改动都需要A/B测试验证，不能凭感觉
   follow_up_question: 你的改动是否设计了A/B测试？对照组和实验组的样本量是否足够？

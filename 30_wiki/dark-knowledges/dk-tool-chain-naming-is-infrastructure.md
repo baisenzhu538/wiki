@@ -26,10 +26,6 @@ discoverable_by:
   - 命名不规范会让整条工具链失明
 related:
 - '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[concept-kdo-feature-registry]]'
 - '[[proposal-yaml-frontmatter-standardization]]'
 - '[[kdo-moc]]'

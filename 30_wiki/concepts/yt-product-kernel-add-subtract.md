@@ -28,9 +28,6 @@ discoverable_by:
   - 产品内核的加减法
   - 什么该加，什么该减
 related:
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[bridge-panproduct-kids-translation]]'
 - '[[yt-product-kernel-boundary]]'
 - '[[yt-product-kernel-evolution]]'

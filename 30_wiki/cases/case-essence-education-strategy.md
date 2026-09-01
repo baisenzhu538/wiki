@@ -35,7 +35,6 @@ discoverable_by:
 related:
 - '[[yitang-domain-digest]]'
 - '[[strategy-domain-digest]]'
-- '[[pending_unknown]]'
 - '[[tool-essence-nfactor-modeling]]'
 tags:
 - src_unknown

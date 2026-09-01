@@ -26,9 +26,6 @@ discoverable_by:
 related:
 - '[[strategy-domain-digest]]'
 - '[[tool-react行动推理循环]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - framework-yitang-sales-incentive-6d
 reviewed_by: 欧阳锋
 review_date: '2026-06-29'

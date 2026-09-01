@@ -20,8 +20,6 @@ author: 黄药师
 reviewed_by: 欧阳锋
 related:
 - '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[case-cross-yuanqi-forest]]'
 - '[[case-essence-education-strategy]]'
 - '[[case-lean-2b-gray-test]]'

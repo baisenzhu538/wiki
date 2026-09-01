@@ -53,8 +53,6 @@ discoverable_by:
 - 五层筛选的加法减法实战
 related:
 - '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[case-truman-yitang-foresight]]'
 - '[[yt-foresight-addition-subtraction]]'
 tags:

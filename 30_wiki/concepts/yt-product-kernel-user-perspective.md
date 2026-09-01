@@ -35,9 +35,6 @@ discoverable_by:
   - 为什么我觉得好不等于用户觉得好
 related:
 - '[[tool-用户视角]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 diagnostic_signals:
 - framework_lens: 用户视角 vs 产品视角——团队觉得好，用户不觉得
   follow_up_question: 用户实际使用这个功能的比例是多少？如果低，说明'好'是团队视角，不是用户视角。

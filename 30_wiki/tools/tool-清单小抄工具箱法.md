@@ -24,9 +24,6 @@ discoverable_by:
 related:
 - '[[tool-纪浩-Agent技能市场设计法]]'
 - '[[tool-清单小抄制作]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[tool-checklist-cheatsheet-modeling]]'
 - '[[tool-strategy-blue-ocean-canvas]]'
 - '[[tool-strategy-industry-chain-analysis]]'

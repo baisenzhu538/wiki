@@ -35,8 +35,6 @@ related:
 - '[[一堂方法论体系总图]]'
 - '[[yitang-course-map]]'
 - '[[yt-system-course-catalog]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[case-smart-medicine-cabinet-corporate-risk]]'
 - '[[case-truman-yitang-foresight]]'
 - '[[concept-collaboration-philosophy-foundation]]'

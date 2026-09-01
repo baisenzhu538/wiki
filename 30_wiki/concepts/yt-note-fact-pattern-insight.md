@@ -23,10 +23,6 @@ discoverable_by:
   - 深度思考笔记的三段论结构
 related:
 - '[[concept-问题驱动式深度思考笔记]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[yt-note-checklist-concept]]'
 query_triggers:
 - src_unknown

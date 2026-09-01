@@ -24,9 +24,6 @@ discoverable_by:
 related:
 - '[[tool-纪浩-Agent技能市场设计法]]'
 - '[[tool-月白-社群直播海报利益点提炼法]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[tool-费曼学习法三句话提炼]]'
 - '[[yt-tool-mental-model-refinement]]'
 definition_of_done:

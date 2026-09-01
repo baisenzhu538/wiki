@@ -34,7 +34,6 @@ discoverable_by:
 related:
 - '[[strategy-domain-digest]]'
 - '[[aigc设计师实操培训01口喷设计范式与电商ai设计全流程]]'
-- '[[pending_unknown]]'
 - case-strategy-practice-12-zero-loss
 tags:
   - audience:general

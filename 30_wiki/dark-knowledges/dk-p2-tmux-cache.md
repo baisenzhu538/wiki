@@ -25,8 +25,6 @@ related:
 - '[[dk-modeling-timely-review-session-window]]'
 - '[[session-20260619-xingangwan-business-formula-reconstruction]]'
 - '[[dk-p6-session-resume-fail]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[dk-c11-hongqigong-skip-review]]'
 - '[[dk-p8-toolkit-forget]]'
 - '[[yt-business-model-unit-economics]]'

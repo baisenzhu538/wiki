@@ -31,8 +31,6 @@ related:
 - '[[case-lean-electric-scooter-mvp]]'
 - '[[strategy-domain-digest]]'
 - '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 tags:

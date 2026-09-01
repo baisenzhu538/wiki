@@ -28,10 +28,6 @@ discoverable_by:
   - 维度判断该不该进、用什么进
 related:
 - '[[strategy-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - tool-strategy-three-horizons
 - tool-strategy-five-see-three-set
 tags:

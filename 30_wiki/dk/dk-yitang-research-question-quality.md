@@ -34,9 +34,6 @@ discoverable_by:
 related:
   - "[[yitang-domain-digest]]"
   - "[[yitang-research-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
   - '[[tool-ai-problem-question-check]]'
   - '[[tool-纪浩-Problem与Question区分法]]'
 tags:

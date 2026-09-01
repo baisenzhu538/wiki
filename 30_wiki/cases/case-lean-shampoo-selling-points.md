@@ -36,7 +36,6 @@ discoverable_by:
 related:
 - '[[lean-startup-domain-digest]]'
 - '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
 - case-lean-building-in-vacuum
 - case-yitang-redburger-selection-industrialization
 - '[[case-shampoo-product-kernel]]'

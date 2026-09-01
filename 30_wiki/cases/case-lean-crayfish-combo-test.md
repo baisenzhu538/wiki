@@ -38,7 +38,6 @@ discoverable_by:
 related:
 - '[[lean-startup-domain-digest]]'
 - '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
 - tool-yitang-channel-scan-cheat-sheet
 - case-lean-building-in-vacuum
 tags:

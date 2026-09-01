@@ -55,8 +55,6 @@ discoverable_by:
 - 从服装到正装裤
 related:
 - '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 tags:
 - audience:general
 - scene:reference

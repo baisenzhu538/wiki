@@ -29,10 +29,6 @@ discoverable_by:
   - 用量化目标倒逼笔记中的真实思考量
 related:
 - '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 query_triggers:
 - src_unknown
 - src_unknown

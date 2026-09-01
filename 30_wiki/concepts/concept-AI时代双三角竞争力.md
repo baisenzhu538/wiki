@@ -26,7 +26,6 @@ discoverable_by:
   - AI时代的双三角竞争力
   - 人+AI协作决策
 related:
-- '[[pending_unknown]]'
 - '[[decision-science-domain-digest]]'
 - '[[case-live81-ai-trademark-design]]'
 - '[[tool-ai-deliverable-polish-loop]]'

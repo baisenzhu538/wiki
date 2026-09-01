@@ -16,10 +16,6 @@ confidence: 0.89
 trust_level: medium
 related:
 - '[[xingangwan-pharma-business-formulas]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]'
 - '[[xingangwan-pharma-business-model-formulas]]'
 - '[[parking-lot]]'

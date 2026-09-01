@@ -23,10 +23,6 @@ discoverable_by:
   - 用产品意识和视觉编码降低认知摩擦
 related:
 - '[[tool-提升笔记练习频次的方法]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 query_triggers:
 - src_unknown
 - src_unknown

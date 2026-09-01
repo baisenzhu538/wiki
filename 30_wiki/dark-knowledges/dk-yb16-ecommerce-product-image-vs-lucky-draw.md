@@ -39,10 +39,6 @@ discoverable_by:
   - 抽卡图≠产品图，白底图才是交付标准
 related:
 - '[[tool-月白-跨境电商产品图替换法]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[dk-yb22-visual-presentation-scene-match]]'
 - '[[dk-yb27-pseudo-layer-evasion]]'
 - '[[dk-yb30-ecommerce-channel-version]]'

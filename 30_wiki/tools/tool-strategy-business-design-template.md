@@ -23,9 +23,6 @@ discoverable_by:
 related:
 - '[[strategy-domain-digest]]'
 - '[[tool-按图索骥改良外部模板]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[tool-strategy-value-capture]]'
 - yt-business-model-definition
 tags:

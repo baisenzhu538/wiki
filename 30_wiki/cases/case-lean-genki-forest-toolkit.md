@@ -35,7 +35,6 @@ discoverable_by:
 related:
 - '[[strategy-domain-digest]]'
 - '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
 - '[[case-dutch-childcare-scandal]]'
 - case-cross-yuanqi-forest
 - '[[product-moc]]'

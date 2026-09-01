@@ -25,10 +25,6 @@ reviewed_by: 待审
 review_date: '2026-06-20'
 related:
 - '[[case-lean-zhanglei-failure-counterfactual]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[dk-demand-pitfall-indonesia-insurance]]'
 diagnostic_signals:
 - framework_lens: 跨步一——从0到1需要验证需求、内核、商业模式

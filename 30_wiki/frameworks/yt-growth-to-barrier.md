@@ -23,9 +23,6 @@ reviewed_by: 待审
 review_date: '2026-06-20'
 related:
 - '[[tool-单元模型-壁垒预判]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[yt-business-model-to-growth]]'
 diagnostic_signals:
 - framework_lens: 从增长到壁垒——增长需要壁垒保护，否则增长成果被竞品收割

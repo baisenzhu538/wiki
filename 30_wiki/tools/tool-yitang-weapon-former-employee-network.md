@@ -32,9 +32,6 @@ discoverable_by:
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - tool-ai-prd-for-ai
 - '[[dk-p6-session-resume-fail]]'
 updated_at: '2026-06-29'

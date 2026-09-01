@@ -30,7 +30,6 @@ related:
 - '[[tool-李诞-销售闭环验证：从0到1的重新定义]]'
 - '[[tool-李诞-个人IP的重新定义与输出策略]]'
 - '[[tool-Truman-问题定义澄清法]]'
-- '[[pending_unknown]]'
 - '[[yt-business-model-pivot-signals]]'
 - '[[tool-strategy-business-design-template]]'
 diagnostic_signals:

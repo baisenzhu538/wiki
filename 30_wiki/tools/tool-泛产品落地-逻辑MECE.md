@@ -26,9 +26,6 @@ discoverable_by:
 related:
 - '[[yitang-domain-digest]]'
 - '[[decision-science-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - concept-mckinsey-mece
 - tool-mece体系框架法
 updated_at: '2026-06-29'

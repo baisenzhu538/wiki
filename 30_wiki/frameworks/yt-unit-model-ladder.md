@@ -30,8 +30,6 @@ related:
 - '[[dk-modeling-logical-cleanliness-root]]'
 - '[[yitang-domain-digest]]'
 - '[[decision-science-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[ai单元模型口述蒋老师]]'
 - '[[yt-unit-model-ai-assisted]]'
 - '[[yt-unit-model-build]]'

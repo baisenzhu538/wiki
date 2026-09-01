@@ -26,9 +26,6 @@ discoverable_by:
 related:
 - '[[tool-纪浩-Agent技能市场设计法]]'
 - '[[tool-月白-AI对话情绪管理法]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[case-纪浩-from-zip-to-five-layers]]'
 diagnostic_signals:
 - lens: 过度依赖

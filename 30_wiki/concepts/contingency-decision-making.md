@@ -23,8 +23,6 @@ related:
 - '[[ai-collaboration-mindset-shift]]'
 - '[[ai-landing-scene-selection]]'
 - '[[find-old-do-small]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 query_triggers:
 - src_unknown
 - src_unknown

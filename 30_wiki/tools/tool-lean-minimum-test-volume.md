@@ -34,7 +34,6 @@ related:
 - '[[framework-lean-six-wastes]]'
 - '[[strategy-domain-digest]]'
 - '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
 created_at: '2026-06-30'
 tags:
 - audience:executor

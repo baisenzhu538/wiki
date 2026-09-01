@@ -33,7 +33,6 @@ related:
 - '[[yt-five-step-method]]'
 - '[[case-treadmill-demand-analysis]]'
 - '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
 - '[[yt-unit-model-build]]'
 - '[[yt-unit-model-concept]]'
 - '[[tool-demand-assessment-triangle]]'

@@ -28,8 +28,6 @@ related:
 - '[[case-lean-adult-education]]'
 - '[[case-truman-ai-skill-self-packaging]]'
 - '[[yt-barrier-identification-skill]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[concept-ji-hao-ai-collaboration-methodology]]'
 created_at: '2026-06-08'
 updated_at: '2026-06-17'

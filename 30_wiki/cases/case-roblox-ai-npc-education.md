@@ -27,8 +27,6 @@ discoverable_by:
   - 与教育场景
 related:
 - '[[case-panproduct-lanyi-shidonghui-npc]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - agent-native-card-design
 - tinyfish-agentic-web-infrastructure
 tags:

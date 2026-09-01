@@ -29,9 +29,6 @@ discoverable_by:
 related:
 - '[[strategy-domain-digest]]'
 - '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - tool-lean-premium-service
 review_date: '2026-06-29'
 updated_at: '2026-06-29'

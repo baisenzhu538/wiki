@@ -18,8 +18,6 @@ related:
 - '[[tool-note-one-line-one-point]]'
 - '[[tool-note-layer-constraint]]'
 - '[[dk-note-surplus-brainpower]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[dk-p11-regex-cutoff]]'
 - '[[dk-p3-auth-cache]]'
 aliases:

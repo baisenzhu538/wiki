@@ -26,9 +26,6 @@ discoverable_by:
 related:
 - '[[yitang-domain-digest]]'
 - '[[decision-science-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[tool-checklist-cheatsheet-modeling]]'
 - tool-ai-prd-for-ai
 - concept-X型Y型决策习惯

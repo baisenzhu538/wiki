@@ -25,10 +25,6 @@ discoverable_by:
   - AI时代判断力口述
 related:
 - '[[ai时代判断力口述-3]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - yt-system-course-map-lecture
 - '[[2026-05-17-深夜感想]]'
 - '[[老朱的水感-2026年5月]]'

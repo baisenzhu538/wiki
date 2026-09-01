@@ -29,7 +29,6 @@ discoverable_by:
 related:
 - '[[yitang-domain-digest]]'
 - '[[decision-science-domain-digest]]'
-- '[[pending_unknown]]'
 - '[[case-decision-ai-assisted-vs-human]]'
 - concept-X型Y型决策习惯
 - concept-发现决策

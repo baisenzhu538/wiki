@@ -21,7 +21,6 @@ discoverable_by:
 related:
 - '[[case-personal-map-modeling]]'
 - '[[dk-modeling-ai-without-judgment]]'
-- '[[pending_unknown]]'
 - '[[case-truman-ai-skill-self-packaging]]'
 - '[[case-truman-motivation-map-12-versions]]'
 - '[[case-yitang-radar-chart-selection]]'

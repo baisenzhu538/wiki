@@ -29,7 +29,6 @@ related:
 - '[[tool-prompt-jtbd-scenario-coach]]'
 - '[[case-demand-milkshake-jtbd]]'
 - '[[case-yitang-jtbd-story-formula]]'
-- '[[pending_unknown]]'
 - '[[yt-demand-competitive-displacement]]'
 - '[[yt-demand-fake-demand-detection]]'
 - '[[domain-demand-analysis-index]]'

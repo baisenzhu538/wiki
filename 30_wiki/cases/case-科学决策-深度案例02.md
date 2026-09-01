@@ -29,7 +29,6 @@ discoverable_by:
 related:
 - '[[yitang-domain-digest]]'
 - '[[decision-science-domain-digest]]'
-- '[[pending_unknown]]'
 - '[[case-ai-assisted-review]]'
 - '[[case-ban-fei-mao-from-assignment-to-tool]]'
 - '[[case-child-drawing-rhyme]]'

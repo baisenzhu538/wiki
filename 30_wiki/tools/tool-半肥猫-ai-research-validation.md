@@ -24,10 +24,6 @@ discoverable_by:
   - 从'丝滑回答'到'证据决策'的六步闭环
 related:
 - '[[case-ban-fei-mao-from-assignment-to-tool]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[tool-devils-advocacy]]'
 - '[[tool-key-assumptions-check]]'
 wiki_refs:

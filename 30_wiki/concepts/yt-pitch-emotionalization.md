@@ -24,9 +24,6 @@ discoverable_by:
 related:
 - '[[yt-model-personal-pitch-toolkit]]'
 - '[[yt-concept-weapon-arsenal]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[case-yitang-jiangxiang-scene-montage]]'
 - '[[case-yitang-jiangxiang-tianmu-balcony]]'
 - '[[concept-讲香-卖点直给到价值感]]'

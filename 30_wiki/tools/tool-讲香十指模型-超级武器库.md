@@ -28,9 +28,6 @@ discoverable_by:
 related:
 - '[[yitang-domain-digest]]'
 - '[[decision-science-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[framework-一堂-个人表达力]]'
 - tool-ai-prd-for-ai
 - concept-X型Y型决策习惯

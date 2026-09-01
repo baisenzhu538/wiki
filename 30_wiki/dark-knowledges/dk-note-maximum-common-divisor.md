@@ -35,10 +35,6 @@ discoverable_by:
   - 结构降级即认知升级
 related:
 - '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[dk-modeling-timely-review-session-window]]'
 - '[[tool-note-one-line-one-point]]'
 pipeline:

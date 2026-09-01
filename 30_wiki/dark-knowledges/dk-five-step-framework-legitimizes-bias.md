@@ -32,10 +32,6 @@ discoverable_by:
   - 用了五步法不代表科学分析
 related:
 - '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 tags:
 - src_unknown
 - src_unknown

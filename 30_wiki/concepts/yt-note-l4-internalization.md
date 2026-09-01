@@ -26,8 +26,6 @@ related:
 - '[[yt-note-checklist-concept]]'
 - '[[yt-note-five-levels-training]]'
 - '[[dk-note-surplus-brainpower]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[yt-note-l6-extraction]]'
 - '[[yt-note-ai-p-role-not-c-role]]'
 - '[[yt-note-three-level-evolution]]'

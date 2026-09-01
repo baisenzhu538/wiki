@@ -9,7 +9,6 @@ related:
 - '[[yt-customer-acquisition-toolkit]]'
 - '[[yt-barrier-analysis-cheat-sheet]]'
 - '[[yt-business-formula-ten-paradigms]]'
-- '[[pending_unknown]]'
 - '[[case-five-step-growth-first-lever]]'
 - '[[concept-five-step-growth-to-barrier-transition]]'
 - '[[yt-business-analysis-cognitive-biases]]'

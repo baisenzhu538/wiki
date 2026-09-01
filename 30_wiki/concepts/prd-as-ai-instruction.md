@@ -20,8 +20,6 @@ related:
 - '[[course-to-skill-conversion]]'
 - '[[voice-input-doubao]]'
 - '[[structured-ai-workspace]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[dk-ai-builder-illusion]]'
 - '[[agent-spec-codex-teammate]]'
 - '[[case-truman-prd-checklist-evolution]]'

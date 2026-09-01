@@ -31,7 +31,6 @@ related:
 - '[[yt-note-l4-internalization]]'
 - '[[yt-model-prediction-model]]'
 - '[[dk-note-surplus-brainpower]]'
-- '[[pending_unknown]]'
 - '[[tool-现场建模式萃取笔记]]'
 query_triggers:
 - src_unknown

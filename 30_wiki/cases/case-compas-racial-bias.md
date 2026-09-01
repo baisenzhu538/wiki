@@ -28,7 +28,6 @@ discoverable_by:
   - COMPAS 再犯算法种族偏见
   - 再犯算法种族偏见
 related:
-- '[[pending_unknown]]'
 - tool-ai-cross-reading-method
 - tool-ai-critical-reading-three-layers
 tags:

@@ -32,9 +32,6 @@ discoverable_by:
 related:
 - '[[yitang-domain-digest]]'
 - '[[tool-马易-隐性知识萃取与模型化]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 wiki_refs:
 - src_unknown
 - src_unknown

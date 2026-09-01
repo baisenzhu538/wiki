@@ -41,9 +41,6 @@ discoverable_by:
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[tool-yitang-weapon-user-direct-interview]]'
 - tool-yitang-research-deep-attribution
 - tool-yitang-research-cross-validation

@@ -27,7 +27,6 @@ discoverable_by:
   - 冉鹏覆盖了什么、没覆盖什么
 related:
 - '[[strategy-domain-digest]]'
-- '[[pending_unknown]]'
 - tool-strategy-pareto
 updated_at: '2026-06-29'
 tags:

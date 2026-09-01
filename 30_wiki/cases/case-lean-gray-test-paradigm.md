@@ -35,7 +35,6 @@ discoverable_by:
 related:
 - '[[lean-startup-domain-digest]]'
 - '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
 tags:
 - audience:executor
 - scene:reference

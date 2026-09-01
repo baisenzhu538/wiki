@@ -30,9 +30,6 @@ discoverable_by:
 related:
 - '[[strategy-domain-digest]]'
 - '[[tool-按月份摊销收入成本做计划]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - tool-strategy-three-horizons
 tags:
 - audience:executor

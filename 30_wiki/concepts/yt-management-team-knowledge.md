@@ -32,8 +32,6 @@ related:
 - '[[yt-system-course-catalog]]'
 - '[[framework-一堂-苦练基本功-总纲]]'
 - '[[management-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[knowledge-delivery-os-快速体验指南-飞书云文档]]'
 - '[[yt-decision-habit-shift]]'
 - '[[yt-management-project-management]]'

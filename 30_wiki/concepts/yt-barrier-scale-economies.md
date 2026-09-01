@@ -25,10 +25,6 @@ discoverable_by:
   - 规模经济
   - 成本优势
 related:
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 diagnostic_signals:
 - framework_lens: 规模经济——成本高说明规模不够或效率低，需要优化规模经济
   follow_up_question: 你的单位成本是多少？规模扩大后单位成本是否下降？固定成本占比多少？

@@ -27,10 +27,6 @@ discoverable_by:
   - 任务交付物标准化
 related:
 - '[[tool-纪浩-Agent技能市场设计法]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[tool-demand-iceberg-l3-core-job]]'
 diagnostic_signals:
 - lens: 交付模糊

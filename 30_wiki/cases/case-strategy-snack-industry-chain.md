@@ -28,8 +28,6 @@ discoverable_by:
   - 从种植到零售的利润分布与竞争格局
 related:
 - '[[strategy-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - case-strategy-revival-13-bestore
 tags:
 - audience:general

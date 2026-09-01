@@ -30,8 +30,6 @@ discoverable_by:
   - 还原销冠决策链
 related:
 - '[[dk-wanghuan-paced-sales-decision]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[case-wanghuan-education-sales-capability-extraction]]'
 - '[[case-wanghuan-shenyang-software-3x-efficiency]]'
 - '[[case-wanghuan-yiyu-qingji-medical-notes]]'

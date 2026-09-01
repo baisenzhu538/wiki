@@ -42,7 +42,6 @@ discoverable_by:
 related:
 - '[[strategy-domain-digest]]'
 - '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
 - framework-five-step-lean-interface
 - yt-five-step-method
 - '[[tool-lean-cut-features]]'

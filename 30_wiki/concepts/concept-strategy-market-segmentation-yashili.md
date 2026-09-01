@@ -24,10 +24,6 @@ discoverable_by:
   - 雅士利/蒙牛案例©
 related:
 - '[[strategy-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - tool-strategy-four-moves
 reviewed_by: 欧阳锋
 review_date: '2026-06-29'

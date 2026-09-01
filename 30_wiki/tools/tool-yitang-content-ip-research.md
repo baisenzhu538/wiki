@@ -44,9 +44,6 @@ discoverable_by:
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[tool-clinic-medical-shortvideo-compliance]]'
 - '[[tool-yitang-tech-project-research]]'
 - framework-yitang-six-layer-cross-validation

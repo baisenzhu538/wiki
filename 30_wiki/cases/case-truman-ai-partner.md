@@ -48,7 +48,6 @@ updated_at: '2026-06-29'
 related:
 - '[[yt-personal-checklist-notes]]'
 - '[[case-ji-hao-skills-market]]'
-- '[[pending_unknown]]'
 - '[[case-truman-poker-deck-roi]]'
 - '[[dk-p10-oral-ban]]'
 - '[[agent-ecosystem-design]]'

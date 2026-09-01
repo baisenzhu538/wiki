@@ -25,9 +25,6 @@ discoverable_by:
 related:
 - '[[sprint-2-gate-enrich-evidence]]'
 - '[[sprint-6-cli-gap-proposal]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - yt-system-course-map-lecture
 - yt-case-mandatory-cases
 tags:

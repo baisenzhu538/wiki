@@ -44,9 +44,6 @@ discoverable_by:
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - yt-business-model-unit-economics
 - tool-yitang-research-unit-model
 tags:

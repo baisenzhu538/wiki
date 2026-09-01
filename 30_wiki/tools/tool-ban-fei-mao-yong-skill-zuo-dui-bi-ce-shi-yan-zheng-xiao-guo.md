@@ -40,7 +40,6 @@ related:
 - '[[tool-半肥猫-课程Skill化的八步工作流]]'
 - '[[case-ban-fei-mao-skill-ab-test]]'
 - '[[dk-ban-fei-mao-skill-rejection-value]]'
-- '[[pending_unknown]]'
 - '[[tool-ai-skill-engineering-guide]]'
 - '[[tool-ai-skill-engineering-method]]'
 - '[[tool-yitang-18-strategy-tool-mapping]]'

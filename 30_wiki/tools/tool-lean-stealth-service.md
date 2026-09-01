@@ -29,9 +29,6 @@ discoverable_by:
 related:
 - '[[strategy-domain-digest]]'
 - '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - yt-demand-early-validation
 - yt-composite-pan-product-methodology
 - '[[case-dutch-childcare-scandal]]'

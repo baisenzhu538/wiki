@@ -34,7 +34,6 @@ discoverable_by:
 related:
 - '[[lean-startup-domain-digest]]'
 - '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
 - framework-demand-lean-bridge
 - framework-strategy-lean-validation
 - '[[dk-p11-regex-cutoff]]'

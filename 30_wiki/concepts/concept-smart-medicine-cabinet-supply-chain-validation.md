@@ -7,10 +7,6 @@ discoverable_by:
 - 智能药柜供应链/技术交叉验证知识卡草稿
 related:
 - '[[yt-lean-beauty-store-conversion]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 - '[[dk-ef-002-bom-version-async]]'
 - '[[dk-ef-003-hand-soldering-bom-divergence]]'
 aliases:

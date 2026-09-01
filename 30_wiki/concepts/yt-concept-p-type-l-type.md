@@ -36,7 +36,6 @@ related:
 - '[[yt-entrepreneur-industry-forecast]]'
 - '[[yt-entrepreneur-key-hypotheses]]'
 - '[[tool-一堂-business-prediction-15-char]]'
-- '[[pending_unknown]]'
 aliases:
   - P型与L型创业者
   - 型创业者

@@ -27,10 +27,6 @@ discoverable_by:
   - 订阅制商业模式
   - 从一次性到持续收入
 related:
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 diagnostic_signals:
 - framework_lens: 订阅制商业模式——订阅制提供稳定可预测收入
   follow_up_question: 你的收入是否可预测？订阅制能否提升收入稳定性？
