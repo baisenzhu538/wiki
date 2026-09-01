@@ -6057,9 +6057,6 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tools/tool-一堂-基本功-练习二十法]]
 - [[tools/yt-tool-business-formula-parameter-arsenal]]
 
-## [[concept-一堂-Y模型]]
-- [[concepts/concept-一堂-product-kernel]]
-
 ## [[concept-一堂-business-prediction]]
 - [[concepts/concept-一堂-kernel-iteration]]
 - [[concepts/concept-一堂-kernel-validation]]
@@ -6189,9 +6186,6 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tools/yt-tool-business-formula-18-moves]]
 - [[tools/yt-tool-business-formula-hypothesis-pool]]
 
-## [[concept-一堂-五步法]]
-- [[concepts/concept-一堂-product-kernel]]
-
 ## [[concept-一堂-假设飞轮]]
 - [[cases/case-yitang-fupanying-five-years-1000-hypotheses]]
 - [[cases/case-yitang-laowenqi-huixiao-10x]]
@@ -6212,9 +6206,6 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tools/yt-tool-business-formula-18-moves]]
 - [[tools/yt-tool-business-formula-hypothesis-pool]]
 
-## [[concept-一堂-关键假设]]
-- [[concepts/concept-一堂-product-kernel]]
-
 ## [[concept-一堂-关键路径与乘法杠杆]]
 - [[cases/case-yitang-fupanying-five-years-1000-hypotheses]]
 - [[cases/case-yitang-homework-six-owners]]
@@ -6233,9 +6224,6 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tools/yt-tool-business-formula-18-moves]]
 - [[tools/yt-tool-business-formula-parameter-arsenal]]
 - [[tools/yt-tool-business-formula-quant-space-3d]]
-
-## [[concept-一堂-单元模型]]
-- [[concepts/concept-一堂-product-kernel]]
 
 ## [[concept-一堂-参数即假设与递归嵌套]]
 - [[cases/case-yitang-fupanying-five-years-1000-hypotheses]]
@@ -6351,9 +6339,6 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[frameworks/framework-一堂-业务公式拆解-总纲]]
 - [[frameworks/framework-科学决策三角形]]
 - [[tools/yt-tool-business-formula-causality-toolkit]]
-
-## [[concept-一堂-精益创业]]
-- [[concepts/concept-一堂-product-kernel]]
 
 ## [[concept-一堂-终局光谱图解读]]
 - [[cases/case-ai-time-management-tiered-growth]]
@@ -11338,18 +11323,6 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tools/tool-devils-advocacy]]
 - [[tools/tool-red-team-analysis]]
 
-## [[framework-yitang-ability-migration-matrix]]
-- [[tools/tool-agent-spec-yitang-ability-migration-diagnosis]]
-
-## [[framework-yitang-aesthetic-radar]]
-- [[tools/tool-agent-spec-yitang-aesthetic-radar-modeling]]
-
-## [[framework-yitang-beautiful-work-standard]]
-- [[tools/tool-agent-spec-yitang-beautiful-work-imagination]]
-
-## [[framework-yitang-card-dealing-strategy]]
-- [[tools/tool-agent-spec-yitang-card-dealing-guide]]
-
 ## [[framework-yitang-channel-exploration-4step]]
 - [[cases/case-yitang-lianjia-site-selection-industrialization]]
 - [[cases/case-yitang-maiyi-cloud-computer-channel]]
@@ -11634,13 +11607,6 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tools/tool-yitang-research-unit-model]]
 - [[tools/tool-yitang-research-validate-assumption]]
 
-## [[framework-yitang-product-iteration-loop]]
-- [[tools/tool-agent-spec-yitang-aesthetic-radar-modeling]]
-- [[tools/tool-agent-spec-yitang-beautiful-work-imagination]]
-- [[tools/tool-agent-spec-yitang-card-dealing-guide]]
-- [[tools/tool-agent-spec-yitang-scenario-walkthrough]]
-- [[tools/tool-agent-spec-yitang-user-perspective-training]]
-
 ## [[framework-yitang-project-abcd-classification]]
 - [[cases/case-yitang-2022-annual-lessons]]
 - [[concepts/yt-management-project-management]]
@@ -11661,9 +11627,6 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[framework-yitang-project-abcd-classification|项目ABCD复杂度分类]]
 - [[cases/case-yitang-2022-annual-lessons]]
-
-## [[framework-yitang-project-background-8d]]
-- [[tools/tool-agent-spec-yitang-project-background-analysis]]
 
 ## [[framework-yitang-project-breakdown]]
 - [[cases/case-yitang-2022-annual-lessons]]
@@ -11728,9 +11691,6 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[framework-yitang-project-plan-design|项目方案设计框架]]
 - [[cases/case-yitang-2022-annual-lessons]]
-
-## [[framework-yitang-project-planning-trinity]]
-- [[tools/tool-agent-spec-yitang-project-background-analysis]]
 
 ## [[framework-yitang-project-retrospective]]
 - [[cases/case-meeting-roi-awakening]]
@@ -11866,9 +11826,6 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tools/tool-yitang-customer-segmentation-4step]]
 - [[tools/tool-yitang-sales-performance-management]]
 - [[tools/tool-yitang-value-proposition-4step]]
-
-## [[framework-yitang-scenario-walkthrough]]
-- [[tools/tool-agent-spec-yitang-scenario-walkthrough]]
 
 ## [[framework-yitang-scientific-sales-five-step]]
 - [[cases/case-yitang-ai-painting-commercialization]]
@@ -12042,10 +11999,6 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[frameworks/framework-ai-deliberate-practice-loop]]
 - [[tools/tool-yitang-best-practice-as-golden-finger]]
 - [[tools/tool-yitang-practice-20hour-starter]]
-
-## [[framework-yitang-user-perspective-training]]
-- [[tools/tool-agent-spec-yitang-scenario-walkthrough]]
-- [[tools/tool-agent-spec-yitang-user-perspective-training]]
 
 ## [[framework-yitang-y-model-cross-domain-fusion]]
 - [[bridges/bridge-coaching-leadership-feature-layered]]
@@ -13133,9 +13086,6 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[dark-knowledges/dk-f9-generic-critique]]
 - [[frameworks/business-formula-to-kdo-card-quality]]
 - [[frameworks/modeling-to-kdo-toolchain]]
-
-## [[kdo-charter-v01-draft]]
-- [[domains/kdo-moc]]
 
 ## [[kdo-ec-industrialization-migration-proposal]]
 - [[cases/case-半肥猫-course-to-skill]]
@@ -18061,13 +18011,6 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[tool-yitang-Y-model-application|Y模型应用工作流]]
 - [[tools/tool-Y模型实操工作流]]
 
-## [[tool-yitang-ability-migration-diagnosis]]
-- [[tools/tool-agent-spec-yitang-project-background-analysis]]
-
-## [[tool-yitang-aesthetic-radar-modeling]]
-- [[tools/tool-agent-spec-yitang-beautiful-work-imagination]]
-- [[tools/tool-agent-spec-yitang-scenario-walkthrough]]
-
 ## [[tool-yitang-ai-assisted-analysis]]
 - [[domains/yitang-domain-digest]]
 - [[domains/yitang-research-domain-digest]]
@@ -18138,11 +18081,6 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[tool-yitang-baidu-index]]
 - [[domains/yitang-domain-digest]]
 - [[domains/yitang-research-domain-digest]]
-
-## [[tool-yitang-beautiful-work-imagination]]
-- [[tools/tool-agent-spec-yitang-aesthetic-radar-modeling]]
-- [[tools/tool-agent-spec-yitang-card-dealing-guide]]
-- [[tools/tool-agent-spec-yitang-scenario-walkthrough]]
 
 ## [[tool-yitang-behavioral-observation]]
 - [[dk/dk-yitang-behavior-over-asking]]
@@ -18609,9 +18547,6 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tools/tool-yitang-hardware-product-disassembly]]
 - [[tools/tool-yitang-online-product-experience]]
 
-## [[tool-yitang-project-background-analysis]]
-- [[tools/tool-agent-spec-yitang-ability-migration-diagnosis]]
-
 ## [[tool-yitang-project-breakdown-cheatsheet]]
 - [[concepts/yt-management-basic-skills]]
 - [[concepts/yt-management-goal-management]]
@@ -19008,9 +18943,6 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-yitang-sales-transformation-jubensha-saas]]
 - [[cases/case-yitang-sales-transformation-meirongyuan]]
 
-## [[tool-yitang-sales-toolkit-gap]]
-- [[tools/tool-agent-spec-yitang-ability-migration-diagnosis]]
-
 ## [[tool-yitang-sales-toolkit-maturity-60-75-85]]
 - [[cases/case-yitang-sales-transformation-jubensha-saas]]
 - [[cases/case-yitang-yitu-lead-industrialization]]
@@ -19055,12 +18987,6 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[tool-yitang-sales-toolkit-radar|销售武器库六维雷达图]]
 - [[cases/case-yitang-sales-transformation-jubensha-saas]]
 - [[cases/case-yitang-sales-transformation-meirongyuan]]
-
-## [[tool-yitang-scenario-walkthrough]]
-- [[tools/tool-agent-spec-yitang-aesthetic-radar-modeling]]
-- [[tools/tool-agent-spec-yitang-beautiful-work-imagination]]
-- [[tools/tool-agent-spec-yitang-card-dealing-guide]]
-- [[tools/tool-agent-spec-yitang-user-perspective-training]]
 
 ## [[tool-yitang-securities-research]]
 - [[domains/yitang-domain-digest]]
