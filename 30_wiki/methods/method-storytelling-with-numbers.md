@@ -4,7 +4,7 @@ title: 用数字讲故事——数字转换四原则与拨动人心技术
 type: method
 status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.86
 trust_level: high
 language: zh-CN
@@ -54,8 +54,8 @@ tags:
 - 数字
 - 沟通
 - 决策
+review_date: 2026-09-02
 ---
-
 # 用数字讲故事——数字转换四原则与拨动人心技术
 
 > **定位声明**：本卡是 Live257 十指讲香素材簇的表达类方法卡，与十指讲香十策略（见 [[method-shizhi-jiangxiang-ten-strategies]]）互为表里：十策略回答"从哪些维度把卖点讲香"，本卡回答"当表达单元是一个数字时怎么处理"。

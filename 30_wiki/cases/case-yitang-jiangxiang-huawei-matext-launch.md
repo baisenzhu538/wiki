@@ -2,9 +2,9 @@
 id: case-yitang-jiangxiang-huawei-matext-launch
 title: 案例：华为 MateXT 非凡大师发布会双拆解——十指讲香全指齐动的教科书样本
 type: case
-status: draft
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: high
 language: zh-CN
@@ -53,8 +53,8 @@ tags:
 - 十指讲香
 - 华为
 - 拆解
+review_date: 2026-09-02
 ---
-
 # 案例：华为 MateXT 非凡大师发布会双拆解——十指讲香全指齐动的教科书样本
 
 > **定位声明**：本卡属于 [[method-shizhi-jiangxiang-ten-strategies]]（十指讲香十策略本体卡）的**单场景深挖案例卡**，是 [[case-yitang-jiangxiang-12-practices]]（12 案例光谱卡）中「王木匠+柴翔」一行的完整展开。光谱卡回答「十策略在 12 个场景的落地带宽」，本卡回答「一场 2 小时发布会如何把十根手指全部用上、且次序为什么是这个次序」。

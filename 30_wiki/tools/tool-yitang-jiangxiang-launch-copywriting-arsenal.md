@@ -2,9 +2,9 @@
 id: tool-yitang-jiangxiang-launch-copywriting-arsenal
 title: 工具：华为/苹果/小米发布会文案最佳实践库——十策略×三品牌的 300+ 条武器谱
 type: tool
-status: draft
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.82
 trust_level: medium
 language: zh-CN
@@ -52,8 +52,8 @@ tags:
 - 十指讲香
 - 素材库
 - 临摹
+review_date: 2026-09-02
 ---
-
 # 工具：华为/苹果/小米发布会文案最佳实践库——十策略×三品牌的 300+ 条武器谱
 
 > **定位声明**：本卡是 [[method-shizhi-jiangxiang-ten-strategies]]（十指讲香十策略本体卡）的**配套素材工具卡**。本体卡回答「十策略是什么、怎么选」，本卡回答「每个策略长什么样」——提供可直接临摹的品牌文案样例库。来源：沈伟杰用 AI 辅助收集的华为/苹果/小米官方文案 300+ 条（逐字稿 L704-1251），[[case-yitang-jiangxiang-12-practices]] 声明「采样消费未逐条入卡」的部分由本卡承接。

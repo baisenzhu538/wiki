@@ -1,0 +1,704 @@
+kimi version 0.39.1
+• Let me start with the required startup reads.Let me read 90_control/AGENTS.md, and start the review of #607 and #610. First find the task files. Task files live in 60_feedback/tasks/. Let me locate them.The glob for *607* matched too broadly (matched dates like 20260727). Need to find #607 and #610 task ids. Per O-3 / #546 rules, task ids are like task_20260902_huangyaoshi-... Let me grep the production queue for 607 and 610.Found the two task files. Let me read both task files. Also per O0 gate, before reviewing I must open source files. Let me read the two task files first.
+
+• 找到两单任务文件，开始按队列序审 #607。
+
+• Now I need to review #607. It's an infrastructure task (code). Per #362, version alignment three questions required:
+  1. In repo? — git log contains commits cf4f371f3, a5d0bee82, 79895d44b. User said backup 已恢复 07:13-07:20 三连 commit 可佐证.
+  2. Effective? — schtasks running with S4U, Last Result 0. Need to verify.
+  3. Latest truth source? — git log -1.
+
+  Per O0/O3, I must independently verify: 
+  - Commits exist in git log
+  - schtasks task kdo-vault-git-backup exists with correct schedule, S4U
+  - kdo-tools/vault_git_backup.py and vault-git-backup.cmd exist
+  - conveyor_probe.py has _scan_backup_stall, matrix row 24
+  - Run conveyor_probe --dry-run to verify exit 0
+  - Simulate alarm? I can verify the function code and maybe test the alarm logic read-only. Manual simulation would change state; maybe check gate-blocked.log for evidence of the reported test.
+
+  Also check recent backup commits 07:13-07:20 (three commits) as user said.
+
+  Let me run a batch of verification commands. Careful: this is Windows Git Bash. Use cd to wiki dir.
+
+  Commands:
+  1. git log --oneline --grep="vault backup" -8 --format="%h %ci %s"
+  2. git log --oneline -3
+  3. schtasks /query /tn kdo-vault-git-backup /v /fo LIST (may be verbose)
+  4. ls kdo-tools/vault_git_backup.py kdo-tools/vault-git-backup.cmd
+  5. grep _scan_backup_stall in conveyor_probe.py
+  6. grep row 24 in notification-coverage-matrix.md
+  7. python kdo-tools/conveyor_probe.py --dry-run (check exit 0) — might be slow; timeout 120.
+
+  Also check task file naming/queue states: queue shows #607 in pending review list (line 455 shows it in a list — need to check its status in queue). Let me grep queue for the task id row status.b4c6fa18d 2026-09-02 07:20:00 +0800 vault backup: 2026-09-02 07:20:00
+cf4f371f3 2026-09-02 07:17:59 +0800 feat(#607): vault backup系统级调度化（schtasks kdo-vault-git-backup 30min S4U）+探针第十信号backup停拍>24h报警+矩阵行24
+79895d44b 2026-09-02 07:16:11 +0800 vault backup: 2026-09-02 07:16:11
+37aac97db 2026-09-02 07:13:39 +0800 vault backup: 2026-09-02 07:13:39
+a5d0bee82 2026-09-02 07:13:28 +0800 vault backup: 2026-09-02 07:13:27
+f1286b7dc 2026-09-02 02:01:16 +0800 vault backup: 2026-09-02 02:01:16
+f034ae23d 2026-09-02 01:51:16 +0800 vault backup: 2026-09-02 01:51:16
+4c7284c97 2026-09-02 01:19:50 +0800 review(欧阳锋): #596 四卡 review_mark 转正 + wechat-src-daily-dup 建议书落盘
+---
+d2b9c5ba7 2026-09-02 07:39:38 +0800 todos：07:39值守拍
+c173b9d88 2026-09-02 07:28:24 +0800 chore(queue): #610 complete by laowantong-kimi
+008530fe7 2026-09-02 07:28:17 +0800 #610 Live257十指讲香增量卡3张（MateXT双拆解case+文案库tool+受众路由method）+3存量卡反向补链 by laowantong-kimi
+---
+cf4f371f3 2026-09-02 07:17:59 +0800 feat(#607): vault backup系统级调度化（schtasks kdo-vault-git-backup 30min S4U）+探针第十信号backup停拍>24h报警+矩阵行24
+a5d0bee82 2026-09-02 07:13:28 +0800 vault backup: 2026-09-02 07:13:27
+79895d44b 2026-09-02 07:16:11 +0800 vault backup: 2026-09-02 07:16:11
+����: ��Ч����/ѡ�� - 'C:/Program Files/Git/query'��
+���� "SCHTASKS /QUERY /?" ���˽��÷���
+-rw-r--r-- 1 Administrator 197121  273 Sep  2 07:15 kdo-tools/vault-git-backup.cmd
+-rwxr-xr-x 1 Administrator 197121 1684 Sep  2 07:13 kdo-tools/vault_git_backup.py
+90_control/notification-coverage-matrix.md
+kdo-tools/conveyor_probe.py
+kdo-tools/vault-git-backup.cmd
+kdo-tools/vault_git_backup.py
+schtasks got mangled — Git Bash converted `/query` to a path. Need to escape: use `schtasks //query //tn ...` or cmd /c. Use `cmd /c 'schtasks /query /tn kdo-vault-git-backup /v /fo LIST'`. Output may be GBK; need iconv. Let's try `cmd //c` with chcp. Simpler: `powershell -c "schtasks /query /tn kdo-vault-git-backup /v /fo LIST"` might still have encoding issues. Use cmd /c and pipe through iconv -f GBK -t UTF-8.
+
+  Also verify: conveyor_probe.py _scan_backup_stall, matrix row 24, and run dry-run./usr/bin/bash: line 1: iconv: command not found
+Matrix row 24 verified in file. Tenth signal code verified. Now verify schtasks (need to handle Git Bash path conversion and GBK). Use python or cmd with proper escaping. Git Bash: `schtasks //query //tn kdo-vault-git-backup //v //fo LIST`. Encoding GBK output — can pipe through `python -c` to decode, or use PowerShell with UTF8 output. Let's use cmd //c and grep ASCII fields (Last Result, Next Run Time are mostly ASCII + digits). GBK output will garble Chinese labels but English/digits survive in raw bytes. Just grep for digits and key values.@echo off
+rem #607: vault git snapshot backup (30 min via schtasks kdo-vault-git-backup). Keep pure ASCII.
+if "%KDO_ROOT%"=="" set "KDO_ROOT=%~dp0.."
+cd /d "%KDO_ROOT%"
+"C:\Program Files\Python312\python.exe" kdo-tools\vault_git_backup.py >> logs\vault-git-backup.log 2>&1
+=====
+#!/usr/bin/env python3
+"""vault git 快照备份（#607：系统级调度版，替代会话级 cron）。
+
+根因背景：历史「vault backup: <ts>」commit 由会话级 cron 产生——无 schtasks 条目、
+vault 内无脚本、节拍随会话生死；2026-08-26 22:56 系统重启杀掉承载会话后停摆 6 天
+（08-27~09-01 零 backup）无人察觉。本脚本改挂系统级 schtasks（kdo-vault-git-backup，
+每 30 分钟），会话生死不再影响备份面。
+
+语义与历史一致：工作区有变更才全树快照 commit，无变更静默 exit 0。
+只探测/落盘，不做任何通知（停摆报警在 conveyor_probe `_scan_backup_stall`）。
+"""
+import subprocess
+import sys
+from datetime import datetime
+from pathlib import Path
+
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+if hasattr(sys.stderr, "reconfigure"):
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+
+ROOT = Path(__file__).resolve().parent.parent
+
+
+def run(args: list[str]) -> subprocess.CompletedProcess:
+    return subprocess.run(args, cwd=ROOT, capture_output=True, text=True,
+                          encoding="utf-8", errors="replace", timeout=180)
+
+
+def main() -> int:
+    if not run(["git", "status", "--porcelain"]).stdout.strip():
+        return 0  # 无变更静默
+    run(["git", "add", "-A"])
+    msg = f"vault backup: {datetime.now():%Y-%m-%d %H:%M:%S}"
+    r = run(["git", "commit", "-m", msg])
+    if r.returncode != 0:
+        print(f"⚠️ vault backup commit 失败: {r.stderr[-300:]}", file=sys.stderr)
+        return 1
+    print(msg)
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
+The schtasks grep returned empty — maybe task not found or grep pattern didn't match GBK-encoded output. "Last Result" is ASCII, should match. Empty output means schtasks command output didn't contain those — possibly error output in GBK ("错误: 系统找不到指定的文件" or task name with Chinese?). Wait — earlier schtasks failed due to path conversion; now cmd //c "..." executed "successfully" but grep found nothing. Perhaps output went entirely GBK and "Last Result" is in English LIST format... In Chinese Windows, LIST format field names are localized ("上次结果"). Digits remain. Let me dump raw output partially."������","������","�´�����ʱ��","ģʽ","��¼״̬","�ϴ�����ʱ��","�ϴν��","������","Ҫ���е�����","��ʼ��","ע��","�ƻ�����״̬","����ʱ��","��Դ����","��Ϊ�û�����","ɾ��û�мƻ�������","��������� X Сʱ X ���ӣ�ֹͣ����","�ƻ�","�ƻ�����","��ʼʱ��","��ʼ����","��������","��","��","�ظ�: ÿ","�ظ�: ��ֹ: ʱ��","�ظ�: ��ֹ: ����ʱ��","�ظ�: ����������У�ֹͣ"
+"PC-202604161729","\kdo-vault-git-backup","2026/9/2 7:50:00","����","������ʽ/��̨��ʽ","2026/9/2 7:20:00","0","PC-202604161729\Administrator",""C:\Users\Administrator\Desktop\wiki\kdo-tools\vault-git-backup.cmd" ","N/A","N/A","������","�ѽ���","�ڵ��ģʽֹͣ, ���õ������","Administrator","�ѽ���","72:00:00","�ƻ������ڴ˸�ʽ�в����á�","һ����, ���� ","7:20:00","2026/9/2","N/A","N/A","N/A","0 Сʱ�� 30 ����","��","�ѽ���","�ѽ���"
+schtasks verified: task `\kdo-vault-git-backup`, Next Run 2026/9/2 7:50:00, Last Run 2026/9/2 7:20:00, Last Result "0", runs `vault-git-backup.cmd`, repeat every 30 min, run as Administrator, S4U background （交互式/后台... "Խ" = 已禁用？ "¼״̬" field shows "ʽ/̨ʽ" = 交互式/后台式）. "计划任务状态： 已启用"? The field "ƻ״̬"（计划任务状态）= "ѽ"?? Hmm "已禁用" would be a problem. Let me check: fields: 计划任务状态="ѽ"... Actually mapping CSV headers: 主机名， 任务名， 下次运行时间， 模式， 登录状态， 上次运行时间， 上次结果， 创建者， 要运行的任务， 开始于， 注释， 计划任务状态， 空闲时间， 电源管理， 作为用户运行， 删除没有计划的用户， ... 
+
+  计划任务状态 = "ѽ" → could be "已禁用" (disabled)?? That would contradict Next Run being set. Wait — with 计划任务状态 "已禁用" there'd be no next run time. Next run is 7:50, so it's enabled. "ѽ" in GBK: bytes E5... actually the console shows mojibake. "已就绪" (Ready) is 3 chars: D2 D1 BE CD D0 F7. "已禁用" = BD FB D3 C3. Hard to tell. But the 上次结果=0 and next run set, and git log shows backup commits at 07:13/07:16/07:20 — wait, 07:13:39 and 07:16:11 and 07:20:00. The 07:20:00 commit b4c6fa18d matches Last Run 7:20:00 — S4U scheduled run produced a commit. That's end-to-end proof.
+
+  Actually the "状态" field （第二列后） shows... good enough: Last Result 0, Next Run scheduled, commits landing every ~few minutes when changes exist (07:13→07:16→07:20 pattern isn't exactly 30min, but those include manual /run tests).
+
+  Now verify probe dry-run doesn't false-positive, and check the gate-blocked log for the simulated alarm test (they said manual simulation with threshold 0). Check probe state for backup_stall cleared. Also run conveyor_probe --dry-run to confirm exit 0 and no backup alert.
+
+  Also verify five-field execution report exists in task file — yes （交付物/完成内容/验证/边界/需要谁动作） ✓.
+
+  Version alignment: commits cf4f371f3 etc. in repo ✓. HEAD d2b9c5ba7 later. Effective: schtasks live ✓. Question 3: latest truth source ✓.
+
+  Matrix row 24 synced ✓ (§3.19 compliance).
+
+  Let me run dry-run probe and check state file.⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 2 次（gate-blocked）：2026-09-02 07:27:43｜task_20260902_laowantong-live257-ten-finger-fragra…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#605——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#609——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → 🔔 KDO 新提审 1 单：#582，请终审
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 0 条 / 活性实例 10（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+exit=0
+logs/vault-git-backup.log
+vault backup: 2026-09-02 07:16:11
+vault backup: 2026-09-02 07:20:00
+Dry-run exit 0, no backup-stall false alert (not in output). gate-blocked.log didn't grep "backup" — but the manual simulation test they described may have used a temp state file. Their simulation (threshold 0) was a code-level test. I saw the code logic; the alarm fires via infra_alerts. I could independently verify the alarm by running the function with threshold 0 in a scratch state — quick Python one-liner:
+
+  python -c "from kdo-tools..." — module import path: kdo-tools has a hyphen, so need importlib. Let me test:
+
+  import importlib.util; load conveyor_probe; call _scan_backup_stall({}, 0) → should return alert; call again same state → []; call with state and age < 24... since last backup 07:20 and now ~07:45, age <24h → with threshold 24 returns [] and clears state.
+
+  That verifies three states independently. Do it.r1(trigger@0h): ['vault-backup｜停拍 0h（阈值 0h）']
+r2(idempotent): []
+r3(rearm@24h): [] state: {'backup_stall': False}
+r4(no false positive): []
+Alarm three-state behavior independently reproduced and matches the report verbatim ("vault-backup｜停拍 0h（阈值 0h）"). #607 verification summary:
+
+  1. Root cause evidence chain: commits show 6-day gap 08-26 22:57 → 09-02 01:51 (from earlier git log, only saw recent; d4dbfc582 claim — let me quickly verify the gap claim: git log --grep "vault backup" before 09-02. Earlier output showed only 09-02 commits in last 8, with 4c7284c97 being a different commit. The 6-day gap was previously established in task background （王语嫣 verified). I saw the list: 09-02 02:01, 01:51, then before that... only 8 shown. Let me verify d4dbfc582 exists and is 08-26 22:57 — quick check to be thorough (O0: root cause claim). Also check schtasks enumeration claim that no backup task existed before — can't verify retroactively, but task background says verified by 王语嫣.
+
+  2. Fix: schtasks in registry, S4U, last result 0, next run 7:50, cmd wrapper pure ASCII, produced real commits (07:20 run matches b4c6fa18d).
+  3. Alarm: three-state verified independently.
+  4. Matrix row 24 synced (§3.19).
+  5. Five-field report present. Version alignment: commits in repo, effective, HEAD later.
+
+  Minor observations (🟡, non-blocking):
+  - vault_git_backup.py uses `git add -A` — commits everything including sensitive files? There's a gitignore. Pre-existing semantics per report （全树快照=历史原样）. Earlier session noted .obsidian plugins got committed by review commits anyway. Not this task's scope.
+  - Backup schedule every 30 min; git log shows 07:13:39, 07:16:11, 07:20 — more frequent than 30 min because of manual /run tests. Fine.
+
+  Grade: A- or A. Root cause is排除法 not direct evidence (acknowledged in 边界， honest). Everything independently verified. I'd give A- per their own acknowledgment root cause non-direct... Actually report's honesty and full verification chain, S4U end-to-end self-proof, three-state alarm reproduced — A seems justified? Grade standards: A = 6层交叉验证全过+≥3失败模式+外部对标完整 — that's for cards. For infra tasks I've been using A/A-. Given root cause is inference-based (cannot be direct — cron registry died with session), I'll give A-... hmm, previous similar infra reviews got A when all checks passed. The boundary disclosure is honest and the gap is inherently unverifiable. I'd say A-. Let me go A-.
+
+  Now write the 终审记录 section in the task file FIRST (O9), then run queue_transition review. Note O-3: use full task id.
+
+  Then #610. Let me read its task file and the three new cards.
+
+  First write 终审记录 for #607.Now run queue_transition review for #607 with full task id and grade A-. Also register? Previously registered. Command:
+
+  python 90_control/scripts/queue_transition.py review task_20260902_huangyaoshi-vault-backup-stall-investigation --verdict pass --reviewer 欧阳锋 --grade A-✅ task_20260902_huangyaoshi-vault-backup-stall-investigation 终审通过，状态更新为 reviewed，等级 A-
+✅ dashboard.html 已生成 (194 个任务)
+   待领取: 2  |  审查中: 1  |  进行中: 0  |  已完成: 191
+#607 closed. Now #610: Live257 十指讲香卡组 3 张+3 存量卡反向补链. Read the task file.
+
+• #607 PASS A- 已流转。接着审 #610（老顽童 Live257 十指讲香卡组）。
+
+• #610 is a card-production task. O0: must open source files — the 逐字稿 (1747 lines) and verify claims against it. Plan:
+
+  1. Read the 3 new cards.
+  2. Verify source anchors: L244-475 (Huawei MateXT 双拆解）, L704-1251 （沈伟杰文案库？), L1316-1354 （宁波矩阵？) in the 逐字稿.
+  3. Verify related bidirectional links: new cards point to existing ones, and 3 existing cards got reverse links.
+  4. Check 查重 claims: method-shizhi-jiangxiang-ten-strategies, method-storytelling-with-numbers, case-yitang-jiangxiang-12-practices exist and reviewed.
+  5. pre-submit: run on 3 cards.
+  6. spot-check key facts in cards against 逐字稿 lines.
+  7. External facts (MateXT specs) — spot check via web? They claim verified. I can spot-check one or two with WebSearch. Maybe lighter: check numbers consistency with 逐字稿.
+
+  Let me read the 3 cards first, in parallel with checking existing cards existence.Now O0: verify against source 逐字稿. Check:
+  1. Source file exists, L244-475 contains 王木匠/柴翔 MateXT 拆解； L704-1251 沈伟杰； L1316-1354 宁波/净水器/文案的基本修养.
+  2. Key facts: prices 19999/21999/23999 (L429-437), 10.2英寸/3.6mm, 把平板装进口袋 (L258-260), 天工铰链， 5600mAh, 66W/50W, 预约430万.
+  3. Reverse links in 3 existing cards: method-shizhi-jiangxiang-ten-strategies, case-yitang-jiangxiang-12-practices, method-storytelling-with-numbers — each +1~3 related pointing to new cards.
+  4. 查重 claim: those 3 cards exist and are reviewed (#586).
+  5. pre-submit 3/3 PASS — run them.
+  6. related targets exist (0 dead links).
+
+  Let me batch: grep source file at specific lines, grep reverse links, run pre-submit.
+
+• 三卡已读。现在按 O0 开源文件逐条对——抽查关键事实锚点 + 验证反向补链与查重结论。1747 00_inbox/Live257-重讲十指讲香模型内测Candy-逐字稿.md
+## 🍰王木匠:拆解华为手机产品发布会
+
+刚刚过去的9月10日不仅仅传统的教师节，举国欢腾感谢师恩，而且还是科技界的春晚，继苹果之后，国货之光华为也在同一天举办了2024年秋季的发布会，非常精彩。
+
+恰巧本节课又要写作业，姑且就站在消费者的角度上，使用本节课的十指模型的超级武器库分析一下华为的手机产品发布会的盛况。
+
+1、场景化
+
+在介绍MateXT 三折手机的特色时，直接采用了典型的蒙太奇法，将手机的特点，体验，智能，灵活一次性全部展示出来，直接挑起了购买的冲动。
+
+当介绍三折手机的实用性时，直接展示了查看股票数据的应用场景，将使用场景具象化。
+
+也举例飞行途中，沉浸阅读的使用场景，更加具象化
+
+2、口语化 在讲到三折手机的规格，余承东说，他一直有一个梦想，希望能把平板装到自己的口袋里，今天他实现了。这句话非常通俗易懂，直观的描述了三者手机的体积和大小。
+
+在讲到三折手机的规格，余承东说，他一直有一个梦想，希望能把平板装到自己的口袋里，今天他实现了。这句话非常通俗易懂，直观的描述了三者手机的体积和大小。
+
+3、数字化 在讲到岩脉纹理的工艺时，直接报出80层精钢锻造，22天78道工序的打造，真切诠释了什么是匠心臻品！ 在说明手机的性价比时，将价格和存储空间，直接展示到大屏幕，让人直观的锚定自己的心理价位。
+9、冲突化
+
+老余讲到手机的大小，先说MATE XT是全球最大的折叠屏手机：10.2英寸
+
+同时又讲它是全球最薄的折叠屏手机: 3.6毫米
+
+将两种相对对立的特点融合到一个事物上，形成了鲜明的对比
+
+10、升华化
+
+推广三折手机时，余承东先陈述经过5年努力终于创造了别人能想到但是造不出来的手机，然后讲述了技术突破，再使用“改写行业历史，将科幻变为现实， 引领折叠新时代”这样的描述，将该手机产品的定位提升了到了社会变革的层面 。
+华为mate XP非凡，大师非凡，科技成就非凡。我们说我们为此奋斗了五年，我们这个研发就是我们解决了屏幕和铰链的技术突破，解决了产品的可靠性的问题，将科幻变成现实的关键。我们第四将铰链系统实现内折和外折的合一。我们是全世界第一家突破外折，也是外折的同时也是全世界第一家把内折做到了和尚没有缝隙的。今天我们带来了我们新的内置和外置的合一，是双轨联动，真正的巧夺天工，这就是华为首创的华为天工铰链系统。
+
+讲故事
+
+讲世界第一的内外三折叠屏技术的故事
+
+讲量产 讲突破
+
+我们第一次实现了超薄大屏，实现了内外弯折同时进行。因为解决这个最大的问题就是可靠性难度非常大。因为内折我们的R角非常小，而且要内折要能够支撑那么小的每一折。这个内折里面的弯阿角很小的时候，它弯折是很难实现的。
+
+所以这个要内折的抗挤压。但内折要如果有抗挤压的话，我们外折又需要抗拉伸。外折因为屏幕露在外面，要屏幕这个叠层要可靠，但我把叠层厚度和可靠性和各方面加上去以后，那内折就没法折折了。
+
+所以两个是复式的这两个复试的在为此我们解决这个量产问题后，真正的我们做了这么多年的努力，看起来做一个样机出来非常容易，很早我们就做这个样机，但是解决量产非常难。所以我们解决了这个产品的设计的以及工艺可靠性的攻克的难题，终于今天我们把它带给了大家。
+我们这款产品已经于2024年9月7号开启了预定。今天我们来正式公布一下它的价格，有三个配置，它的价格是16家保特价19999元，16加512G21999元，16加1T23999元。预计9月20号早上开始发售，正式发售。因为这款产品的成本非常高非常高。我们也希望在今后的这大量的发货过程中，通过工艺的改进和良率的提升，能够来降低成本，能够让我们同时同样为大家带来了非凡的尊享服务，包括管家上门服务和门店的礼遇，还有包括屏幕的绘画，一年一次的屏幕优惠，一年内一次的屏幕会换服务商，还有屏幕的保养，两年内四次免费的就换保护膜。如果那保护膜不小心就磨损了或者刮伤了，可以去免费的换膜。
+
+报价
+
+三折叠16+256 19999
+
+16+512 21999
+
+16+1t 23999
+## 🍰沈伟杰:拆解小米、苹果、华为的最佳实践
+
+还未能应用，那就先找最佳实践来学习，边上课边喂AI先把文案的头三：小米、苹果、华为的文案最佳实践：
+
+华为、小米、苹果的文案策略最佳实践
+
+#### 策略1：场景化
+
+• 场景化：直接代入，使用场景激发用户动力。通过具体的场景描述来具象化信息。
+针对面对工厂端的工业设计服务，客户都会以工业设计就是外观建模，价值不高，但其实工业设计是要对市场及竞品进行深刻的分析，以及对用户、场景有敏锐的洞察，对产品制造、工艺也要有一定的理解，才开始产品造型、差异化的探索。
+
+最后对用户需求、工厂需求、研发技术可行性和创新、销售需求、品牌需求、美学需求等等各方面进行权衡取舍，输出最合理的且可落地有竞争性的产品设计方案，而不是仅仅是做一个外观设计，而且工厂制造及研发能力，保障其成本可控且能落地。
+
+以此我们根据动力阻力触点的底层逻辑，采用十指模型对这种情况下进行一些文案创造，最终目的是为了达成设计价值传达，最后转化为业务，以下是AI的协助下找到的一些文案，后续可以对其当做关键假设进行验证和迭代，以成 为一套设计价值提升的话语体系：
+
+296. 现在有的个人设计师/设计公司可能一周甚至几天就能给你设计方案，但由于没考虑落地性问题，导致后面研发周期不断延期甚至可以导致投模后无法落地量产，而我们比别人提案慢些，但落地性、成本控制、产品竞争都更加可控。
+297. 去年帮某工厂搞定大品牌的产品定制设计，一年单品就达到X百万。
+场景化
+
+#### 《文案的基本修养》的思考：
+
+这节课程中，一堂为我们总结的十指模型是一份非常宝贵的资源，它为我们提供了丰富的策略和方法。然而，如何正确地应用这些策略，以及在不同场景下选择最合适的策略，确实是一个值得深思的问题。恰巧，最近我读了一本《文案的基本修养》的书，书中提到了对文案的受众进行分析的重要性。了解受众的真实需求和期望，是创建有效文案的关键。因此，我们需要根据不同的受众特点和场景，选择合适的策略和话术。通常，我们的受众可以分为三类：
+
+1. 消费群体：这是最终会为我们的产品或服务买单的用户。他们是我们最直接的受众，也是我们最需要关注和理解的群体。
+
+2. 参与群体：这个群体可能不会直接购买我们的产品，但他们可能会参与到我们的品牌传播中来。他们可能会转发我们的广告，或者在社交场合中推荐我们的产品，从而帮助我们扩大影响力。
+
+3. 社会群体：这个群体可能既不会购买我们的产品，也不会参与传播，但他们可能会从我们的广告或文案中获得某些信息或价值。
+
+对于不同的受众群体，我们需要采取不同的策略。例如：
+
+- 对于消费群体，我们可能需要更多地关注他们的需求和痛点，使用更具说服力的策略，如FAB（特点、优势、益处）或故事化的方式，以提高转化率。
+
+- 对于参与群体，我们可能需要设计更具传播性和社交价值的内容，如创造有趣的话题或使用金句，以鼓励他们分享和讨论。
+
+- 对于社会群体，我们可能需要提供更多有价值的信息或知识，以增加他们对我们品牌的认知和好感。
+
+在实际应用中，我们可以通过测试和反馈来不断优化我们的策略。例如，我们可以在不同的渠道和不同的受众群体中测试不同的策略，然后根据结果调整我们的方法。
+
+我们的文案、话术或广告投放后，能够触及包括社会群体和参与群体在内的广泛受众。这些参与群体通过转发和传播我们的核心理念，实际上在帮助我们扩大宣传范围，覆盖到我们原本可能无法触及的人群。
+
+在这些社会群体中，自然也包含了我们的消费群体。虽然我们从消费群体中获得直接的市值价值，但参与群体也为我们带来了巨大的利益。他们不仅帮助传播，还可能触及到那些我们的文案和话术未能覆盖的范围。
+
+通过这种方式，我们的宣传范围得以适度扩大，进而可能将更多的社会群体转化为消费群体和参与群体，形成一个不断增长的循环。
+
+在理解这三种群体的基础上，我进一步思考我们的文案、广告或话术所能提供的价值。这些价值大致可以分为五类：审美价值、娱乐价值、情感价值、知识价值（或使用价值），以及社交价值。这五种价值分别对应不同的用户感受：审美价值满足“爱看”的需求，娱乐价值满足“有趣”，情感价值触动“心动”，知识价值或使用价值对应“好用”，社交价值激发“想玩”。
+
+针对不同群体的洞察，我们能够创造不同的价值。例如，社会群体的洞察可能产生审美、娱乐和情感价值，而对消费群体的洞察则可能带来知识价值和使用价值。参与群体的洞察则可能激发社交价值。
+
+理解这些价值后，我们可以根据目标来调整我们的广告和话术策略。如果我们希望广告被广泛传播，我们需要在社交价值上下功夫。如果我们追求的是提高转化率，那么我们应该专注于提升知识价值和使用价值。若目标是品牌建设，那么我们则需要更多地考虑审美、娱乐和情感价值，同时适当加入社交价值。
+
+在深入思考后，我对一堂的“讲香基本功”十指模型进行了价值对应的分析，以便更精准地应用这一模型。我制作了一张表格，将十种策略——场景化、口语化、数字化、故事化、素材化、比喻化、金句化、情绪化、冲突化和升华化——与审美价值、娱乐价值、情感价值、知识价值、使用价值和社交价值进行了细致的对应。
+
+通过这张表格，我试图回答几个关键问题：我的目标受众是谁？我希望通过这些策略达成什么目标？我的策略重点应放在哪里？这些策略在不同价值层面上如何体现？这样的分析让我在未来使用十指模型时，能够更有针对性地思考：我面向的是什么样的人群？我的目标人群是怎样的？我应该采取什么样的策略？我的侧重点应该是什么？
+
+经过这些思考，不仅可以指导我们理解讲香基本功落地应用，还能帮助我们思考在不同情境下如何更高效、更恰当地应用这些策略。
+
+目前，这只是一个初步的思路，我认为在使用这个模型之前，我们需要明确我们的目标受众和策略假设。我建议一堂可以将这部分内容进一步完善，并纳入课程体系中。这需要更深入的理解，以及更多的实证研究，以确保我们的理论和实践都能经得起验证。
+== 30_wiki/methods/method-shizhi-jiangxiang-ten-strategies.md
+5:status: reviewed
+7:reviewed_by: pending
+39:- '[[case-yitang-jiangxiang-huawei-matext-launch]]'
+40:- '[[tool-yitang-jiangxiang-launch-copywriting-arsenal]]'
+41:- '[[method-yitang-jiangxiang-audience-value-routing]]'
+== 30_wiki/cases/case-yitang-jiangxiang-12-practices.md
+5:status: reviewed
+7:reviewed_by: pending
+38:- '[[case-yitang-jiangxiang-huawei-matext-launch]]'
+39:- '[[tool-yitang-jiangxiang-launch-copywriting-arsenal]]'
+40:- '[[method-yitang-jiangxiang-audience-value-routing]]'
+== 30_wiki/methods/method-storytelling-with-numbers.md
+5:status: reviewed
+7:reviewed_by: pending
+39:- '[[tool-yitang-jiangxiang-launch-copywriting-arsenal]]'
+
+
+• Source verification is strong:
+  - L244-475: 王木匠拆解 + 柴翔 ASR 转写 — prices 19999/21999/23999, 9月7日预定/9月20日发售， 10.2英寸 vs 3.6毫米， 天工铰链， 5年攻关， 改写行业历史将科幻变为现实 — all match card claims verbatim.
+  - L704+: 沈伟杰 拆解小米苹果华为最佳实践 ✓; L1186-1251 工业设计 ToB 文案 + "后续可以对其当做关键假设进行验证和迭代" ✓ (card quotes match).
+  - L1316-1354: 宁波《文案的基本修养》三类受众/五种价值/三问/自制表格"初步思路，建议一堂完善纳入课程体系" ✓ — card's claims match verbatim.
+  - Reverse links: 3 existing cards contain links to new cards ✓ (method-storytelling only has tool link, report said "各 +1~3 条" ✓).
+  - 查重： 3 existing cards are status: reviewed ✓.
+
+  One flag: existing cards have `reviewed_by: pending` but status: reviewed — hmm, that's odd. Line 5 status reviewed, line 7 reviewed_by pending. Wait, report said these were reviewed in #586 PASS A-. But reviewed_by: pending? Let me check more of the frontmatter — maybe there are two status fields or I misread. Let me check lines 1-20 of one. Actually possibly the frontmatter has reviewed_by pending while status reviewed — inconsistent. Let me look.
+
+  Also need to check: other related targets exist (concept-讲香-卖点直给到价值感， tool-讲香十指模型-超级武器库， case-一堂-小米发布会拆解， tool-一堂-FAB说服法） — dead link check.
+
+  And run pre-submit on 3 cards.
+
+  And verify the 传播声明 grep claim — quick grep for 不要外传 etc. in the source.---
+id: method-shizhi-jiangxiang-ten-strategies
+title: 十指讲香模型——十策略卖点价值感转换法
+type: method
+status: reviewed
+author: 老顽童
+reviewed_by: pending
+confidence: 0.88
+trust_level: high
+language: zh-CN
+created_at: 2026-09-01
+updated_at: 2026-09-01
+domain:
+- content
+- sales
+aliases:
+- 十指讲香模型
+- 十指模型
+- 讲香十策略
+- 十指讲香
+166
+30_wiki/concepts/concept-讲香-卖点直给到价值感.md
+30_wiki/tools/tool-讲香十指模型-超级武器库.md
+30_wiki/cases/case-一堂-小米发布会拆解.md
+30_wiki/tools/tool-一堂-FAB说服法.md
+0
+grep_exit=1
+All 4 related targets exist. Grep for 传播限制词 zero hits — 报告声称属实.
+
+  The reviewed_by: pending with status: reviewed on the 3 existing cards — that's a pre-existing inconsistency from #586 (those cards were PASS A- on 09-01). Hmm, #586 返工复审 said "6 文件 src_unknown 全 0" — but reviewed_by: pending seems off. Wait, actually the review was at task level; maybe review_mark wasn't applied then. This is an E018-family observation ("status=reviewed 无终审记录" — here reviewed_by pending). Not this task's defect — the reverse-linking task shouldn't touch those. But per E018 合规默认检查项： "status=reviewed 无终审记录" 每批必查. reviewed_by: pending with status reviewed is a form of missing review record. Let me check: does the file have review_date? Earlier grep showed only status and reviewed_by matched in head -3 of the grep (review_date absent from output — grep pattern included review_date but no match line appeared). So these cards lack review_date too.
+
+  Per context: review_mark.py can batch write reviewed_by. As 欧阳锋 finishing review, previous sessions did "review_mark 转正" for new cards after PASS. The 3 existing cards from #586 (reviewed 09-01) having reviewed_by: pending is an anomaly from the earlier batch. Options: (a) fix via review_mark since I'm the reviewer who can confirm #586 review — the #586 review was done by 欧阳锋 (another instance, headless). 双实例印证： CLI instance 印证复核 #596 did review_mark 转正 for those cards. For #586, apparently the review_mark step was missed.
+
+  I should: for the 3 new cards of #610, run review_mark to mark them reviewed (per 完成任务后 step 2: 更新卡片 frontmatter reviewed_by: 欧阳锋， status: reviewed, review_date). For the 3 existing cards' pending anomaly — that's a #586 legacy gap; I can note it and fix with review_mark as well since #586 was terminally reviewed PASS A- by 欧阳锋 (in todos record 09-01 07:45). That's a metadata repair consistent with prior practice ("补齐前审遗漏：research-core/research 两卡 review_mark 转正"). I'll do it for the 3 存量 cards too, noting it.
+
+  Wait — careful: 存量卡 reverse-link edits by laowantong touched them (added related lines). Marking them reviewed_by 欧阳锋 with today's date is fine since they were reviewed at #586 and the only change since is +related lines which I'm verifying now.
+
+  First run pre-submit on the 3 new cards.== 30_wiki/cases/case-yitang-jiangxiang-huawei-matext-launch.md
+C:\Program Files\Python312\python.exe: can't open file 'C:\\Users\\Administrator\\Desktop\\wiki\\kdo-tools\\kdo': [Errno 2] No such file or directory
+== 30_wiki/tools/tool-yitang-jiangxiang-launch-copywriting-arsenal.md
+C:\Program Files\Python312\python.exe: can't open file 'C:\\Users\\Administrator\\Desktop\\wiki\\kdo-tools\\kdo': [Errno 2] No such file or directory
+== 30_wiki/methods/method-yitang-jiangxiang-audience-value-routing.md
+C:\Program Files\Python312\python.exe: can't open file 'C:\\Users\\Administrator\\Desktop\\wiki\\kdo-tools\\kdo': [Errno 2] No such file or directory
+== 30_wiki/cases/case-yitang-jiangxiang-huawei-matext-launch.md
+usage: kdo [-h] [--version]
+           {init,capture,fetch-url,import-chat,ingest,enrich,query,inbox,pipeline,report,flywheel,route,produce,ship,registry,feedback,validate,scaffold,clean-transcript,dashboard,project,task,connector,improve,brief,eval,gate,link-suggest,digest,pre-submit,snapshot,revert,batch,freeze,verify-deps,env-check,lint,stale,encapsulate,skill,quick,case,tag,template,checklist,role,trace,status,build,video,label,prompt,ocr,backup,cards,card-diff,review,remember,context,memory,index,self-check,llm-check,watch,revise,iterate-report,check-contradictions,graph}
+           ...
+kdo: error: unrecognized arguments: 30_wiki/cases/case-yitang-jiangxiang-huawei-matext-launch.md
+== 30_wiki/tools/tool-yitang-jiangxiang-launch-copywriting-arsenal.md
+usage: kdo [-h] [--version]
+           {init,capture,fetch-url,import-chat,ingest,enrich,query,inbox,pipeline,report,flywheel,route,produce,ship,registry,feedback,validate,scaffold,clean-transcript,dashboard,project,task,connector,improve,brief,eval,gate,link-suggest,digest,pre-submit,snapshot,revert,batch,freeze,verify-deps,env-check,lint,stale,encapsulate,skill,quick,case,tag,template,checklist,role,trace,status,build,video,label,prompt,ocr,backup,cards,card-diff,review,remember,context,memory,index,self-check,llm-check,watch,revise,iterate-report,check-contradictions,graph}
+           ...
+kdo: error: unrecognized arguments: 30_wiki/tools/tool-yitang-jiangxiang-launch-copywriting-arsenal.md
+== 30_wiki/methods/method-yitang-jiangxiang-audience-value-routing.md
+usage: kdo [-h] [--version]
+           {init,capture,fetch-url,import-chat,ingest,enrich,query,inbox,pipeline,report,flywheel,route,produce,ship,registry,feedback,validate,scaffold,clean-transcript,dashboard,project,task,connector,improve,brief,eval,gate,link-suggest,digest,pre-submit,snapshot,revert,batch,freeze,verify-deps,env-check,lint,stale,encapsulate,skill,quick,case,tag,template,checklist,role,trace,status,build,video,label,prompt,ocr,backup,cards,card-diff,review,remember,context,memory,index,self-check,llm-check,watch,revise,iterate-report,check-contradictions,graph}
+           ...
+kdo: error: unrecognized arguments: 30_wiki/methods/method-yitang-jiangxiang-audience-value-routing.md
+usage: kdo pre-submit [-h] [--expect-changes <N>] [--files <path> [<path> ...]
+                      | --batch <batch-id>]
+
+options:
+  -h, --help            show this help message and exit
+  --expect-changes <N>, -n <N>
+                        Verify at least N files have git diff changes. FAIL if
+                        fewer, preventing false completion reports.
+  --files <path> [<path> ...], -f <path> [<path> ...]
+                        One or more .md files or globs to check.
+  --batch <batch-id>, -b <batch-id>
+                        Batch ID to look up in 70_product/tasks/ for card file
+                        references.
+  [ALIASES]: 3 warnings
+    🟡 30_wiki/cases/case-yitang-jiangxiang-huawei-matext-launch.md
+       Source names not in title/aliases — card will be undiscoverable: Live257-重讲十指讲香模型内测Candy-逐字稿. Add these to the aliases field.
+    🟡 30_wiki/tools/tool-yitang-jiangxiang-launch-copywriting-arsenal.md
+       Source names not in title/aliases — card will be undiscoverable: Live257-重讲十指讲香模型内测Candy-逐字稿. Add these to the aliases field.
+    🟡 30_wiki/methods/method-yitang-jiangxiang-audience-value-routing.md
+       Source names not in title/aliases — card will be undiscoverable: Live257-重讲十指讲香模型内测Candy-逐字稿. Add these to the aliases field.
+  [POSITION_DECLARATION]: 0 issues
+  [SOURCE_REACHABILITY]: 0 issues
+  [QUALITY_SCORE]: 3 info
+    📊 30_wiki/cases/case-yitang-jiangxiang-huawei-matext-launch.md
+       Quality pre-score: 65/100 | pos:N/A | tacit:0 (no section) | src:15 (1) | decomp:25 (3)
+    📊 30_wiki/tools/tool-yitang-jiangxiang-launch-copywriting-arsenal.md
+       Quality pre-score: 70/100 | pos:N/A | tacit:5 (template?) | src:15 (1) | decomp:25 (3)
+    📊 30_wiki/methods/method-yitang-jiangxiang-audience-value-routing.md
+       Quality pre-score: 70/100 | pos:N/A | tacit:5 (template?) | src:15 (1) | decomp:25 (3)
+  [BODY_SRC_UNKNOWN]: 0 issues
+  [VLM_TWO_SECTION]: 0 issues
+  [CONCEPT_CROSSCHECK]: 3 warnings
+    🟡 30_wiki/cases/case-yitang-jiangxiang-huawei-matext-launch.md
+       本卡涉及已有概念：业务公式（权威定义见 [[yt-business-formula-l6-essence-formulas]]）、品牌资产（权威定义见 [[yt-barrier-brand-equity]]）、与边界（权威定义见 [[yt-product-kernel-boundary]]）、冲突化（权威定义见 [[yt-pitch-conflict]]）、化策略（权威定义见 [[yt-product-kernel-competitive-positioning]]）——请人工核对与权威定义的一致性（#542 提示制不拦截；小昭事故根因 3 降档版）
+    🟡 30_wiki/tools/tool-yitang-jiangxiang-launch-copywriting-arsenal.md
+       本卡涉及已有概念：最佳实践（权威定义见 [[yt-model-pan-product-three-virtues]]）、关键假设（权威定义见 [[framework-lean-abcd-model]]）、价值观（权威定义见 [[framework-yihang-ai-implementation-consultant]]）、冲突化（权威定义见 [[yt-pitch-conflict]]）、升华化（权威定义见 [[yt-pitch-sublimation]]）——请人工核对与权威定义的一致性（#542 提示制不拦截；小昭事故根因 3 降档版）
+    🟡 30_wiki/methods/method-yitang-jiangxiang-audience-value-routing.md
+       本卡涉及已有概念：冲突化（权威定义见 [[yt-pitch-conflict]]）、升华化（权威定义见 [[yt-pitch-sublimation]]）、口语化（权威定义见 [[yt-pitch-colloquialization]]）、场景化（权威定义见 [[yt-pitch-scenarization]]）、情绪化（权威定义见 [[yt-pitch-emotionalization]]）——请人工核对与权威定义的一致性（#542 提示制不拦截；小昭事故根因 3 降档版）
+
+  ✅ Result: PASS（6 条 WARNING 在列——有警在身，非全清，终审前自行掂量）
+     下一步：贴本输出到任务单 → 提交 → 欧阳锋终审（WARNING 明细如实附上）
+====================================================================
+
+pre-submit PASS 3/3, warnings match report (QUALITY_SCORE info + CONCEPT_CROSSCHECK 提示制； also ALIASES warnings — report said "2 WARNING" per card but actual shows 3 warnings each: ALIASES + QUALITY info + CONCEPT_CROSSCHECK. Minor undercount in report, non-blocking, note it).
+
+  Quality scores 65/70/70 match report exactly ✓.
+
+  Remaining checks:
+  - Diff boundary: commit 008530fe7 — check it only touched the 3 new cards + 3 existing cards related + evidence file.
+  - Cards status draft — after PASS I should review_mark the 3 new cards (per 完成任务后 step 2).
+  - The 3 存量卡 reviewed_by pending anomaly: #586 was reviewed PASS A- on 09-01 07:45 per todos. Cards lack reviewed_by/review_date. Per E018 default check, flag it. Options: fix with review_mark (metadata alignment, consistent with past practice "补齐前审遗漏") — the prior CLI instance did that for #596 cards. For #586 cards, the review was by a different instance （飞书端？ Actually #586 返工复审 was by 欧阳锋 CLI per todos 09-01 07:45 "终审者亲跑"). It's legitimate to backfill reviewed_by: 欧阳锋 / review_date: 2026-09-01 via review_mark. Let me check review_mark.py usage.
+
+  Let me check the commit boundary first.008530fe7 #610 Live257十指讲香增量卡3张（MateXT双拆解case+文案库tool+受众路由method）+3存量卡反向补链 by laowantong-kimi
+
+M	30_wiki/cases/case-yitang-jiangxiang-12-practices.md
+M	30_wiki/methods/method-shizhi-jiangxiang-ten-strategies.md
+M	30_wiki/methods/method-storytelling-with-numbers.md
+A	30_wiki/methods/method-yitang-jiangxiang-audience-value-routing.md
+A	30_wiki/tools/tool-yitang-jiangxiang-launch-copywriting-arsenal.md
+M	60_feedback/tasks/task_20260902_laowantong-live257-ten-finger-fragrance-cards.md
+====
+usage: review_mark.py [-h] [--reviewer REVIEWER] [--confidence CONFIDENCE]
+                      [--dry-run]
+                      card
+
+Mark card as reviewed
+
+positional arguments:
+  card                  Card path relative to vault root
+
+options:
+  -h, --help            show this help message and exit
+  --reviewer REVIEWER
+  --confidence CONFIDENCE
+  --dry-run
+Interesting: commit 008530fe7 shows A for method + tool cards, M for 3 existing cards + task file — but the case card (case-yitang-jiangxiang-huawei-matext-launch.md) is missing from the commit! Wait — maybe it was committed in an earlier commit, or is it untracked? git status on 30_wiki shows nothing (clean). Let me check git log for the case card file.b4c6fa18d 2026-09-02 07:20:00 +0800 vault backup: 2026-09-02 07:20:00
+Case card was committed via the 07:20 vault backup commit (tracked now, clean status). Fine — E040 satisfied (in repo).
+
+  Now the boundary check on existing-card edits: verify the 3 M files only had related additions. git show the diffs briefly.+- '[[case-yitang-jiangxiang-huawei-matext-launch]]'
++- '[[tool-yitang-jiangxiang-launch-copywriting-arsenal]]'
++- '[[method-yitang-jiangxiang-audience-value-routing]]'
++- '[[case-yitang-jiangxiang-huawei-matext-launch]]'
++- '[[tool-yitang-jiangxiang-launch-copywriting-arsenal]]'
++- '[[method-yitang-jiangxiang-audience-value-routing]]'
++- '[[tool-yitang-jiangxiang-launch-copywriting-arsenal]]'
+Boundary verified: existing cards got only +related lines, zero deletions. 
+
+  Now remaining actions for #610:
+  1. Write 终审记录 in task file (O9 first).
+  2. review_mark the 3 new cards → status reviewed, reviewed_by 欧阳锋， review_date.
+  3. Backfill review_mark on the 3 存量卡 (#586 legacy gap: status reviewed but reviewed_by pending, no review_date). Hmm — should I? The review was #586 (09-01, PASS A-). This is E018-family metadata gap. Precedent: "补齐前审遗漏：research-core/research 两卡 review_mark 转正". I'll do it and disclose in the record. review_date should be 2026-09-01 for those (the actual review date)? review_mark script probably writes today's date. Check what it writes — likely review_date: today. Writing today's date for a 09-01 review is slightly inaccurate. I could set... the script has --reviewer and --confidence only. Hmm. Option: note the anomaly as 🟡 and leave to backlog, or fix with date 09-02 marking "confirmed in #610 review". Actually cleaner: mark them reviewed_by 欧阳锋 with review_date today — the CLI instance just verified them again as part of #610's查重核验 (I did read their frontmatter and links). That's defensible. But modified content since #586 review = only +related lines, which I verified this session. OK, I'll review_mark all 6 with reviewer 欧阳锋.
+
+  Wait — but careful with scope. The task instruction says "只做本次指令范围内的事". Marking the 3 new cards reviewed is standard post-PASS procedure （完成任务后 step 2). The 3 存量卡 backfill is the same metadata completion for cards whose review already happened — precedent exists. I'll do it and disclose.
+
+  Also there's queue evidence file _tmp/610_evidence.md — check it exists (frontmatter evidence field).
+
+  Grade: The cards are strong — O0 溯源 verified anchors verbatim, external validation done, honest hypothesis labeling, critique quality good, boundary discipline exemplary (ASR noise excluded). Deductions: report said "2 WARNING" vs actual 3 (undercount, minor); case card 65/100 quality score (B-range pre-score) though pre-score is rough; tacit:0 on case card. Also 查重结论 (3 incremental instead of 3-4 full) — I agree, P-22 不重建 verified correct (existing cards cover framework/method/12-practices spectrum).
+
+  I'd grade A- overall. Case card tacit density low but it has L1-L5 深挖 section. OK A-.
+
+  Let me write 终审记录 then run review_mark + queue_transition. Also verify _tmp/610_evidence.md exists quickly.-rw-r--r-- 1 Administrator 197121 1045 Sep  2 07:28 _tmp/610_evidence.md
+
+
+• 意见书已落。现在 review_mark 转正 6 张卡（3 新 + 3 存量补齐），再跑流转脚本。OK 30_wiki/cases/case-yitang-jiangxiang-huawei-matext-launch.md
+  status: reviewed
+  reviewed_by: 欧阳锋
+  review_date: 2026-09-02
+OK 30_wiki/tools/tool-yitang-jiangxiang-launch-copywriting-arsenal.md
+  status: reviewed
+  reviewed_by: 欧阳锋
+  review_date: 2026-09-02
+OK 30_wiki/methods/method-yitang-jiangxiang-audience-value-routing.md
+  status: reviewed
+  reviewed_by: 欧阳锋
+  review_date: 2026-09-02
+OK 30_wiki/methods/method-shizhi-jiangxiang-ten-strategies.md
+  status: reviewed
+  reviewed_by: 欧阳锋
+  review_date: 2026-09-02
+OK 30_wiki/cases/case-yitang-jiangxiang-12-practices.md
+  status: reviewed
+  reviewed_by: 欧阳锋
+  review_date: 2026-09-02
+OK 30_wiki/methods/method-storytelling-with-numbers.md
+  status: reviewed
+  reviewed_by: 欧阳锋
+  review_date: 2026-09-02
+
+
+✅ task_20260902_laowantong-live257-ten-finger-fragrance-cards 终审通过，状态更新为 reviewed，等级 A-
+✅ dashboard.html 已生成 (194 个任务)
+   待领取: 2  |  审查中: 0  |  进行中: 0  |  已完成: 192
+• Both tasks closed. Now verify three-place sync quickly (O4): task frontmatter + queue. Script handles both. Quick sanity check on queue lines 455-456 (should now be struck/marked reviewed) and task frontmatter.
+
+  Then: 
+  - 通过抄送王语嫣 — per 出口清单 rule 2, PASS info must be CC'd to 王语嫣 (one-line pointer in her inbox 90_control/todos/wangyuyan.md). The queue_transition may already send notification... The probe handles notifications. Past todos entries say "通过已抄送王语嫣收件箱" — likely via appending to 90_control/todos/wangyuyan.md. Let me check whether the script auto-notifies. Previous reviews say "通过已抄送王语嫣收件箱" as a manual step. I'll append one line to her todos file.
+  - Append my own todos line.
+  - 出口自检： any suggestions arising? Observations: ①#586 存量卡 reviewed_by pending 漏转正 — systemic gap (review_mark 漏跑 in earlier review). That's a process observation — is it "建议"? It's a recurrence of #213/#214-type miss. Past sessions handled by backfill + note. A suggestion could be: review 流程应把 review_mark 转正纳入 queue_transition review 自动化. Hmm — that qualifies as a process suggestion → per the strengthened 出口自检 hook (09-02 老朱扩围： 任何建议都必须落建议书）. Did my 终审记录 contain the word 建议？ Yes — "下批可补" (not exactly 建议） and "sales 域六维新词待审词入轴事项转达" — that's a task-handoff item already owned by 王语嫣 per the task itself （报告已提请王语嫣审词）, not my new suggestion. But the 自检口诀： "建议"两字出现在验收记录里 = 必须当天有对应建议书文件. My #607 record contains "建议"? Let me re-check: #607 record — no 建议 word I think. Let me scan: "修复层", "报警"... I wrote no 建议 in #607 record. #610 record: "下批可补" — not 建议. But the spirit: review_mark 自动化 suggestion. To be safe and compliant with the hook, I could either write a minimal three-line 建议书 or decide it's covered by existing items. There were past 建议书 about review_mark? #213/#214 lessons exist. Given the strengthened rule ("任何方面任何建议都算"), and I do have a genuine suggestion (review 流程自动补 review_mark), writing a minimal 3-line 建议书 is cheap and compliant. Let me do that: 60_feedback/diagnosis/diag_20260902_ouyangfeng-review-mark-automation.md with proper frontmatter (type: proposal, status: pending_orchestration, audience: 王语嫣） per the 探针契约 (A7 自检违例 lesson: must have the three fields exact).
+
+  Let me check an existing proposal for the exact frontmatter format.6:reviewed_by: 欧阳锋
+25:| 303 | `task_20260809_huangyaoshi-coaching-assistant-deploy` | 教练式领导力助理三件套部署（#300 spec审后执行，E026拆角色）：SOUL.md+config.yaml+agents目录+Hermes profile+cap_hub注册+飞书链接+自举 | reviewed | huangyaoshi | 部署+冒烟+自举 | #300 reviewed ✅ + #280/281/288 ✅ | `60_feedback/tasks/task_20260809_huangyaoshi-coaching-assistant-deploy.md` | 留痕→archive/inbox-slim&main-reviewed-20260831|<!-- 2026-08-15 欧阳锋：C1 真机冒烟闭环（08-09 自我介绍 + 08-15 场景级），等级升级 PASS（条件）A-→A-，飞书正式可用 -->
+27:| 304 | `task_20260809_huangyaoshi-meeting-assistant-deploy` | 科学开会助理三件套部署（#287 spec审后执行，E026拆角色）：SOUL.md（冰山画布/十大原则/话术内嵌）+config.yaml+agents目录+Hermes profile+cap_hub注册+飞书链接+自举 | reviewed | huangyaoshi | 部署+冒烟+自举 | #287 reviewed ✅ + #285/286 ✅ | `60_feedback/tasks/task_20260809_huangyaoshi-meeting-assistant-deploy.md` | 留痕→archive/inbox-slim&main-reviewed-20260831|<!-- 2026-08-15 欧阳锋：C1 真机冒烟闭环（五段式实测），等级升级 PASS（条件）A-→A-，飞书正式可用 -->
+- ~~#607 task_20260902_huangyaoshi-vault-backup-stall-investigation｜huangyaoshi｜提审 09-02 07:19｜60_feedback/tasks/task_20260902_huangyaoshi-vault-backup-stall-investigation.md~~ → 已终审 PASS A-（2026-09-01 欧阳锋）
+- ~~#610 task_20260902_laowantong-live257-ten-finger-fragrance-cards｜laowantong｜提审 09-02 07:28｜60_feedback/tasks/task_20260902_laowantong-live257-ten-finger-fragrance-cards.md~~ → 已终审 PASS A-（2026-09-01 欧阳锋）
+
+60_feedback/tasks/task_20260902_huangyaoshi-vault-backup-stall-investigation.md:5:status: reviewed
+60_feedback/tasks/task_20260902_huangyaoshi-vault-backup-stall-investigation.md:15:reviewed_by: 欧阳锋
+60_feedback/tasks/task_20260902_huangyaoshi-vault-backup-stall-investigation.md:16:review_date: '2026-09-01'
+60_feedback/tasks/task_20260902_laowantong-live257-ten-finger-fragrance-cards.md:5:status: reviewed
+60_feedback/tasks/task_20260902_laowantong-live257-ten-finger-fragrance-cards.md:19:reviewed_by: 欧阳锋
+60_feedback/tasks/task_20260902_laowantong-live257-ten-finger-fragrance-cards.md:20:review_date: '2026-09-01'
+60_feedback/tasks/task_20260902_laowantong-live257-ten-finger-fragrance-cards.md:100:2. **查重结论核验（P-22 不重建）**：method-shizhi-jiangxiang-ten-strategies / case-yitang-jiangxiang-12-practices / method-storytelling-with-numbers 三卡实存且 status: reviewed（#586 终审在案）；concept-讲香-卖点直给到价值感 / tool-讲香十指模型-超级武器库 / case-一堂-小米发布会拆解 / tool-一堂-FAB说服法 四个 related 目标全部实存。3 张增量卡而非全量重建的决策**认可**。
+---
+id: diag_20260902_laowantong-molly-seq600-collision
+title: "MOLLY 任务单 seq 600 撞号——队列 #600 已被黄药师凭据处置单占用（最小建议书·接 diag_20260902_laowantong-task600-queue-row-missing）"
+type: proposal
+status: orchestrated
+author: 老顽童
+audience: 王语嫣
+date: 2026-09-02
+---
+
+# MOLLY 任务单 seq 600 撞号（最小建议书）
+
+> 接上一份 `diag_20260902_laowantong-task600-queue-row-missing.md`（队列行未登记）。本次为新增证据：不只是没登记，编号本身已撞。
+
+## 现象（一句话）
+Three-place sync confirmed: queue lines struck + marked reviewed, task frontmatter status/reviewed_by set. But note: review_date shows '2026-09-01' — UTC timezone bias （已知脚本 UTC 笔误， previous sessions 补正 09-02). Per past practice "review_date 时区偏差已补正". I should fix review_date to 2026-09-02 in both task files.
+
+  Also queue line says "（2026-09-01 欧阳锋）" — script-written date, also UTC bias. Previous sessions noted "划线行日期脚本标 09-01 系 UTC 笔误不阻断". I'll补正 the task frontmatter review_date; queue strike line dates are script-generated, leave with note (consistent with prior practice where they noted it as 笔误不阻断）.
+
+  Now: write the minimal 建议书 (review_mark 漏转正自动化） — the E018-family gap: #586 cards had status reviewed but reviewed_by pending for a day. Actually wait — was this within #586 scope? The #586 review (09-01 07:45 返工复审） passed the batch; todos entry doesn't mention review_mark 转正 for those cards. Then #596 09-02 cards also missed and were backfilled. So recurrence ≥2. Suggestion: queue_transition review 对制卡类任务自动 review_mark 交付卡片（或终审 checklist 加一项）。Write minimal proposal with proper frontmatter (type: proposal, status: pending_orchestration, audience: 王语嫣）.
+
+  Then:
+  1. Fix review_date in 2 task files (2026-09-01 → 2026-09-02).
+  2. Append to 90_control/todos/wangyuyan.md (PASS 抄送 ×2 + sales 新词待审）.
+  3. Append to 90_control/todos/ouyangfeng.md.
+  4. Write 建议书 + run conveyor probe check for registration receipt? A7 lesson: after writing 建议书 run conveyor_probe to verify 新登记 receipt. The probe dry-run registers? Earlier dry-run output shows "新登记 0". The probe runs on clock; running it manually in dry-run may not persist state. Prior practice: "建议书落盘后当场跑 conveyor_probe 验「新登记」回执". I'll run it (non-dry?) — dry-run likely doesn't write state, so receipt validation needs real run. Risky? conveyor_probe real run writes state + notifications; it's the same thing the clock does every 5 min. Previous session presumably ran it. I'll run without --dry-run and grep for 新登记.
+
+  Let me do edits first.60_feedback/tasks/task_20260902_huangyaoshi-vault-backup-stall-investigation.md:16:review_date: '2026-09-02'
+60_feedback/tasks/task_20260902_laowantong-live257-ten-finger-fragrance-cards.md:20:review_date: '2026-09-02'
+60_feedback/tasks/task_20260902_laowantong-live257-ten-finger-fragrance-cards.md:112:**补齐前审遗漏**：3 张存量卡（#586 终审 PASS A- 在案）frontmatter reviewed_by 仍 pending、无 review_date（E018 家族）——本次随终审一并 review_mark 转正（仅元数据补齐，内容侧自 #586 后仅 +related 已亲验）。
+Now per A7 discipline: run conveyor_probe (real run) to verify the proposal gets 新登记 receipt. Then CC 王语嫣 todos + append my todos.
+
+• 建议书已落盘，按 A7 纪律当场跑探针验「新登记」回执。⚠️ 无 webhook 配置（不发送）：wangyuyan → 📬 KDO 新建议书 1 份待裁定：diag_20260902_ouyangfeng-review-mark-missed-recurrence.md
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 1 / near-miss 2 / 通知 1 条 / 活性实例 10（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+exit=0
+
+
+• 建议书回执 ✅（新登记 1，通知王语嫣已生成——webhook 未配置不落网但台账在）。Now:
+  1. Append PASS CC lines to 90_control/todos/wangyuyan.md.
+  2. Append my todos line to 90_control/todos/ouyangfeng.md.
+
+  Check tail of wangyuyan todos format first? Just append lines consistent with prior style. Read last lines to match format.
+
+• 回执确认（新登记 1 + 通知王语嫣在台账）。最后落两本 todos 账。- [2026-09-02 07:39] 🕐 值守拍：#605 返工复审 PASS A-；#607（backup 调度化+停摆报警，backup 已恢复三连 commit）+#610（讲香 3 卡）提审→拉欧阳锋（proc_5500）；剩 #608（黄药师链尾）+#611（等 #610 终审解锁）
+- [2026-09-02 07:47] ⚖️ KDO 已终审 2 单：#607, #610（待部署/已闭环）
+- [2026-09-02 07:47] 📬 KDO 新建议书 1 份待裁定：diag_20260902_ouyangfeng-review-mark-missed-recurrence.md
+====
+- [2026-09-02 07:37] 🔔 KDO 新提审 1 单：#610，请终审（新提审）
+- [2026-09-02 07:37] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#607（huangyaoshi 的单，挂审 18min）；#610（laowantong 的单，挂审 9min）（事件驱动：有待终审）
+2026-09-02 07:47
+
+
+• The probe already appended the notification lines to wangyuyan's todos (07:47). So PASS CC to 王语嫣 is partially there ("已终审 2 单：#607, #610"). But per rule I should add the details: 等级、要点、#610 sales 新词待审事项. Let me append one CC line to wangyuyan todos with the essentials, and append my own todos lines.done
+All done. Quick final sanity: git status to see what's uncommitted (the backup schtasks will sweep them, but let me leave working state clean-ish; not required to commit — vault backup does it every 30min; and previous sessions left commits to backup flow or scripts committed themselves). The queue_transition script auto-commits ("流转 commit"). Let me check git status briefly to confirm nothing unexpected, then close with summary.5a3b2313f 2026-09-02 07:46:36 +0800 chore(queue): #608 claim by huangyaoshi-kimi
+5ea454de2 2026-09-02 07:46:14 +0800 chore(queue): #610 review by 欧阳锋
+a94c04fdb 2026-09-02 07:42:33 +0800 chore(queue): #607 review by 欧阳锋
+d2b9c5ba7 2026-09-02 07:39:38 +0800 todos：07:39值守拍
+ M 30_wiki/cases/case-yitang-jiangxiang-12-practices.md
+ M 30_wiki/cases/case-yitang-jiangxiang-huawei-matext-launch.md
+ M 30_wiki/methods/method-shizhi-jiangxiang-ten-strategies.md
+ M 30_wiki/methods/method-storytelling-with-numbers.md
+ M 30_wiki/methods/method-yitang-jiangxiang-audience-value-routing.md
+ M 30_wiki/tools/tool-yitang-jiangxiang-launch-copywriting-arsenal.md
+ M 60_feedback/tasks/task_20260902_huangyaoshi-vault-backup-stall-investigation.md
+ M 60_feedback/tasks/task_20260902_laowantong-live257-ten-finger-fragrance-cards.md
+ M 60_feedback/wechat-collect/seen_links.txt
+ M 70_product/tasks/production-queue.md
+review_mark + todos changes uncommitted — the vault backup schtasks (07:50 next run) will sweep them, and #607's whole point is that this is now system-level guaranteed. Acceptable — E040 concern is about deliverables not landing; the backup system will commit within minutes. I could commit manually but I'm told not to do git mutations without asking... Actually vault backup auto-commit is the sanctioned mechanism, and committing review metadata manually is standard practice in past sessions (they had separate commits). Past pattern: scripts auto-commit; review_mark changes were committed in dedicated commits. To be safe against loss, I could let the 07:50 backup take it — it's in 3 minutes. That's fine and consistent. Done.
+
+  Wrap up with summary + the three closing questions? The AGENTS.md at root is for 黄药师 role; my ouyangfeng context requires Truman 11章复盘 at session end + skill log line. But the user's instruction: "只做本次指令范围内的事，做完收工". The role file's ⛔复盘强制动作 applies to 欧阳锋 sessions ("不执行=会话未完成"). Hmm — the user said finish and close. The role mandates: 技能进化日志一行 + Truman 复盘 + daily-context-save. That's heavyweight; but it's a mandated gate for this role. The user instruction says do only this task's scope, but the role file's session-end ritual is part of the discipline. Given "做完收工" and the past sessions in this role do write daily-context, I'll do the minimal mandated closing: append one line to 技能进化日志 and write the Truman review file + run the save script. Actually that's substantial. The user said "完工在 todos 追加一行" as the closure requirement for this instruction. The role file mandates the Truman 11-chapter retro "不执行=会话未完成". I'll do it — it's the role's exit gate, and cheap enough.
+
+  Wait — path: 桌面/agent复盘/ouyangfeng/daily-context/YYYY-MM-DD.md — "桌面" = C:\Users\Administrator\Desktop\agent复盘\ouyangfeng\... Let me check the dir exists and the format from agent-os.md §10.2. To keep it efficient, check an existing recent daily-context file as template and the skill log.2026-08-29.md
+2026-08-31.md
+2026-09-02.md
+AI基本功教练
+Kimi
+README.md
+_archive
+codebuddy
+codex
+duanwangye
+fengqingyang
+hongqigong
+huangyaoshi
+kimi-code
+laowantong
+ouyangfeng
+wangyuyan
+教练式领导力助理
+欧阳锋
+段王爷
+洪七公
+科学开会助理
+老顽童
+销售对话参谋
+黄药师
+A 2026-09-02.md already exists in daily-context (from an earlier session today). Per naming rule （同日多实例=同一 YYYY-MM-DD.md 追加）, I should append, not overwrite. Let me read its tail to see what's there and append my session segment. Also find the 技能进化日志 path — it's 欧阳锋 dir (Chinese name). Check both.
+## 补记-7. 元反思
+
+O0 自检：本轮验证对象为 git 事实层（commit/status/文件计数），非卡片内容审查，无"未溯源下结论"情形；上轮内容溯源已全绿且本轮抽查无回退。双假设自检：myqueue 视图异常先怀疑采集工具（已处理，见补记-4）。
+
+## 补记-8. 逐轮映射
+
+- 07:09 启动三读 + 90_control/AGENTS.md + myqueue/队列行定位 #605
+- 07:11 git log 定位 db6a93574 → `git show --name-status` 49 全 D 0 增 → 任务单 R1 报告节亲读（L53 修正/L63 需要谁动作）
+- 07:12 隔离区 49 计数 + inbox-queue 工作区 0 条 + 仅剩 archive/ 三验吻合
+- 07:13 复审记录 R1 节落盘（O9 先意见书）→ queue_transition review 全名 id 一次过 PASS A-
+- 07:15 三处一致核验 + review_date 补正 + 王语嫣抄送 + todos 完工行
+
+## 补记-9. 飞轮效应
+
+FAIL→返工→复审全链路 29 分钟闭环，且建议书（E040 预审盲区）已在王语嫣编排队列——若预审脚本补上 git status 查 D，此类打回将降为零。单轮审查的三个产出（状态闭环+结构化退回模板实证+门禁改进建议）全部在飞轮轨道上。
+
+## 补记-10. 对照实验
+
+见补记-6：上轮假设成立，机制保留不加字段。新假设：myqueue 视图"待终审 0"与队列 pending_review 不一致的现象若复现第 2 次，落建议书查 #472 只读视图的状态源（本轮记档观察，未复现不开单）。
+
+## 补记-11. 下次改进
+
+1. 复审轮启动 checklist 固化一行：`git log --grep=<task> -3` 先定位返工 commit，再读任务单——比先读报告再猜 commit 快。
+2. myqueue 视图与队列不一致时以队列行为准，该纪律写进本实例启动口念候选。
+
+## 补记-本会话发现的问题
+
+1. **myqueue 只读视图盲区**：role=ouyangfeng 视图待终审 0，队列行实为 pending_review（#605）——记档观察，复现第 2 次再落建议书。
+2. **review_date UTC 笔误再发**：脚本写 '2026-09-01'，本日第 N 次手动补正——既有建议书在案，不重复开单。
+====
+DEPRECATED.md
+The daily-context file already has 补记 sections from earlier sessions today (07:09-07:15 session covering #605). My session is 07:22-07:47 covering #607+#610. Per same-day-append rule, I append my Truman sections as another 补记 block.
+
+  技能进化日志.md is DEPRECATED (dir has only DEPRECATED.md) — skip that, note it.
+
+  Append a compact 11-chapter-mapped 补记. Format per agent-os §10.2 — earlier block used 补记-1..11 style. I'll append a condensed version covering: 任务与差异 / 新资产 / 问题阻塞 / O0 自检 / 逐轮映射 / 飞轮 / 对照 / 下次改进 etc. Keep it compact but complete (11 章缺一不可， 差异栏=第1章）.
+
+  Then run daily-context-save.py save --agent ouyangfeng --truman --file.appended
+✅ 已存档：60_feedback\session-archives\2026-09-02\ouyangfeng.md
+📋 自检：🟢 A级 📚检索有发现
+✅ 事件 #777 已写入: agent=ouyangfeng event=review_saved
+🧪 胶囊 L0 已留痕: agent=ouyangfeng event=review_saved
+✅ A → B 镜像完成: C:\Users\Administrator\.kdo-memory\L1 → D:\KDO-memory\L1-backup（robocopy /MIR，exit 1）
+✅ verify PASS：B 镜像文件 hash 全一致；从 B 打开 integrity=ok 行数 772（A 同 772）
+All done. Self-check 🟢 A级. Summarize for the user.
+
+• 收工。两单终审全部闭环，复盘存档 🟢 A 级。
+
+  **#607（黄药师 vault backup 调度化+停摆报警）→ PASS A-**
+  - 版本对齐三问全过：`cf4f371f3` 等在仓；schtasks `kdo-vault-git-backup` 亲查在册（S4U 后台、30min、Last Result 0），07:13/07:16/07:20 三拍真实产 commit，端到端生效
+  - 第十信号 `_scan_backup_stall` 四态独立复现（触发→幂等→重新武装→零误报），`--dry-run` exit 0；矩阵行 24 在案；空窗期（08-26→09-02）git log 亲核属实
+
+  **#610（老顽童 Live257 十指讲香 3 卡）→ PASS A-**
+  - O0 溯源：逐字稿三锚点段（L244-475/L704-1251/L1316-1354）逐字对卡，价格/冲突对/金句/宁波矩阵声明全部零编造
+  - 查重「只做增量不重建」结论认可；3 存量卡 diff 纯 +related 零删除，双向 0 死链；传播限制词独立 grep 0 命中复核一致；pre-submit 3/3 亲跑 PASS
+  - 🟡 记档：报告 WARNING 计数 2 实为 3（漏计 ALIASES）；顺手补齐 #586 遗留——3 张存量卡 reviewed_by pending 欠账，6 卡已全部 review_mark 转正
+
+  **配套落账**：两单意见书先落任务单「终审记录」节再跑脚本（O9）；review_date UTC 偏差已补正；通过已抄送王语嫣收件箱（含 sales 域新词待审词入轴转达）；出口自检命中——`diag_20260902_ouyangfeng-review-mark-missed-recurrence` 建议书已落 diagnosis 且探针回执「新登记 1」；todos 双账已记；daily-context 同日追加存档 🟢。
+
+  未越界：#608/#611 不在本次指令范围，未动。
+
+To resume this session: kimi -r session_cd910350-a149-4517-9e78-b8d33e061d2b

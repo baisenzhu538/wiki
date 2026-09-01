@@ -2,9 +2,9 @@
 id: method-yitang-jiangxiang-audience-value-routing
 title: 方法：受众×价值×策略路由——十指讲香的选指前置框架（三类受众×五种价值）
 type: method
-status: draft
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.80
 trust_level: medium
 language: zh-CN
@@ -48,8 +48,8 @@ tags:
 - 受众
 - 十指讲香
 - 策略路由
+review_date: 2026-09-02
 ---
-
 # 方法：受众×价值×策略路由——十指讲香的选指前置框架（三类受众×五种价值）
 
 > **定位声明**：本卡是 [[method-shizhi-jiangxiang-ten-strategies]]（十指讲香十策略本体卡）「使用方法：先定靶，再选指」第 1-2 步的**展开卡**。本体卡给出路由结论（要转化→知识价值→数字化+场景化；要传播→社交价值→金句化+冲突化；要品牌→情感价值→故事化+升华化），本卡补齐结论背后的完整推导框架：三类受众 × 五种价值 × 策略对应矩阵。来源：宁波学员引入《文案的基本修养》（东东枪）对十指模型做的交叉分析（逐字稿 L1316-1354）。

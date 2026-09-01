@@ -4,7 +4,7 @@ title: 讲香 12 学员实战案例集——十策略从发布会到朋友圈成
 type: case
 status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.83
 trust_level: medium
 language: zh-CN
@@ -54,8 +54,8 @@ quality_labels:
 - actionable
 - cited
 - quotable
+review_date: 2026-09-02
 ---
-
 # 讲香 12 学员实战案例集——十策略从发布会到朋友圈成交的落地光谱
 
 > **定位声明**：本卡是 `[[method-shizhi-jiangxiang-ten-strategies]]`（十策略本体卡）的配套案例卡，对应任务单 W3-4。本体卡回答"十策略是什么"，本卡回答"十策略在 12 个真实场景里怎么用、用歪了什么样"。

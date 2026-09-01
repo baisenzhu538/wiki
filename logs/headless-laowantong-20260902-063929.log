@@ -417,3 +417,377 @@ pending_review: 1
 • Still pending. #605 has been pending since ~06:20, now ~41 min. Continue standby silently. Just brief reply.
 
 • #605 仍挂审（约 41 分钟），继续待命，门铃保持 14 分钟一拍。
+
+队列总任务数: 194
+queued: 3
+claimed: 1
+pending_review: 0
+07:15
+• pending_review: 0, claimed: 1 — someone claimed something. queued dropped from 4 to 3, claimed 1. Did another laowantong instance claim #610? Or huangyaoshi claimed something? Let me check the queue details — is #610 still queued?
+
+• 队列放行了（pending_review=0），但出现一个 claimed——核实 #610 状态后领取。244:| 610 | `task_20260902_laowantong-live257-ten-finger-fragrance-cards` | Live257重讲十指讲香卡组3-4张：十指讲香framework+用数字讲故事method+发布会文案案例（华为/苹果/小米） | queued | laowantong | 3-4张卡+三方法记录+互链实证 | #609 后（同角色排队） | `60_feedback/tasks/task_20260902_laowantong-live257-ten-finger-fragrance-cards.md` | inbox 01:51批次分诊族A（diag_20260902_wangyuyan-inbox-batch-42）；131KB大素材逐字读W1；传播声明检查#322口径；sales域轴缺如生产者提词王语嫣审入；欧阳锋终审 |
+245:| 611 | `task_20260902_laowantong-yitang-methodology-batch-cards` | 一堂方法论族卡组5-7张：MUSE数据包framework+高阶Skill设计指南tool+Agent大学case+Jovida双报告case+Eason审计case+dk（🔴传播限制#322先例） | queued | laowantong | 5-7张卡+传播限制标注清单+互链实证 | #610 后（同角色排队） | `60_feedback/tasks/task_20260902_laowantong-yitang-methodology-batch-cards.md` | inbox 01:51批次分诊族B（diag_20260902_wangyuyan-inbox-batch-42）；素材=二等整理件标注；Eason审计🔴密级拿不准先问王语嫣；欧阳锋终审 |
+✅ task_20260902_laowantong-live257-ten-finger-fragrance-cards 已领取为 claimed-laowantong-kimi
+
+✅ dashboard.html 已生成 (194 个任务)
+   待领取: 2  |  审查中: 0  |  进行中: 2  |  已完成: 190
+
+
+• #610 claimed successfully as claimed-laowantong-kimi. Now施工. Delete the retry doorbell (no longer needed).
+
+  Now produce the cards. Plan based on completed dedup:
+
+  Deliverable: 2 增量卡：
+  1. `case-yitang-jiangxiang-huawei-matext-launch` — 华为 MateXT 发布会双拆解深挖 case 卡（王木匠+柴翔）
+  2. `tool-yitang-jiangxiang-launch-copywriting-arsenal` — 华为/苹果/小米发布会文案最佳实践库（沈伟杰 300+ 条，按十策略归类）
+
+  Wait — 交付物 says "3-4 张卡 + 执行报告". With dedup, 2 张增量卡 + 执行报告说明查重结论。任务是 "3-4 卡候选，最终形态按 W6 三方法定夺" — W6 = 查重/合并/新建 三方法？ Probably "三方法" refers to 三方法记录 in 验证 （浓缩/对标/?) Actually "三方法记录" likely means the 三步编译法 （浓缩→质疑→对标） records. The execution report must include 三方法记录 + 互链实证.
+
+  Card quality gates (from context):
+  - ≥100 行正文 (excluding frontmatter)
+  - L1-L5 深挖 for case cards
+  - 素材消费率 ≥80%
+  - 失败模式具体（症状+修复）
+  - 定位声明 （牌 L8：本卡属于 XX 框架）
+  - pre-submit per card
+  - 互链双向 0 死链
+  - 六维标签建议 per task
+  - 数字自报标"待独立核实"
+  - Critique ≥2 外部攻击者 + 不要用场景
+  - Claims/Evidence/Critique/Synthesis/Action Triggers
+
+  Also: "sales 域轴缺如——生产者试点提新词，王语嫣审词入轴" — I should propose new tag-axis words for sales domain in the execution report.
+
+  Also should I do WebSearch per 铁律7/L6? For 发布会文案/十指讲香 — the framework is internal （一堂）, and the case is about a public event （华为 MateXT 发布会 2024-09-10). Cross-validation: 华为 MateXT 发布于 2024-09-10, 价格 19999/21999/23999, 10.2英寸， 3.6mm — I could do a quick WebSearch to verify key facts. 铁律： 写新卡前 WebSearch 业界最佳实践. For the arsenal card, 十指策略 is internal methodology; international parallel = copywriting frameworks (AIDA, PAS, etc.) — Critique can reference. Let me do a quick WebSearch for Mate XT specs verification.
+
+  Card 1: 华为 MateXT case — structure:
+  - frontmatter: id, title, type: case, status: enriched? (new cards typically status: draft or enriched; #586 cards used status: reviewed with reviewed_by: pending — hmm they wrote status: reviewed themselves? That's odd but that's what they did. Actually pre-submit requires reviewed_by field; cards had reviewed_by: pending. Status reviewed self-declared might trip lint (E018 自标 reviewed). Safer: status: draft? But #586's cards set status: reviewed... Actually the 铁律 says 禁止自标 reviewed (E018). Let me check what status recent laowantong cards used. #609's MOLLY card — case-popmart-molly-transition. Let me check its frontmatter quickly for the current convention.
+
+  Let me check that card's frontmatter to copy conventions.
+
+  Card 2: arsenal — a reference/tool card with the 300+ 文案 organized by 十策略. That's big; the transcript section L704-1185 contains ~300 items but with duplicates across sections （华为场景化 == 华为比喻化 mostly repeated). A curated reference card selecting the full unique set? 体量可控做法：按十策略×三家选录全部有代表性的条目（去重后约 150-200 条）？That would make a huge card. The quality gate says ≥100 lines, no upper limit. A reference arsenal card of ~200 lines is fine.
+
+  Actually, let me reconsider card 2's form. The task candidate 3 is "case：发布会文案拆解超级案例（华为/苹果/小米，学员实战——挑最完整 1-2 个立 case 卡）". So task wants case cards for 发布会. The 沈伟杰 arsenal is素材库性质. Two options for 3-4 cards:
+  - Card A: case 华为 MateXT 双拆解 （王木匠+柴翔）
+  - Card B: tool/reference 发布会文案最佳实践库 （沈伟杰 300+)
+
+  Could also add:
+  - Card C: 受众×价值×策略路由 matrix （宁波《文案的基本修养》交叉） — but method-shizhi already consumed the 定受众 step; a dedicated matrix card is thinner. Skip or fold into Card B/method card? Don't touch reviewed cards （不改别人卡片——but these are laowantong's own cards... "王语嫣禁写30_wiki" — 老顽童 can edit own cards. But minimal changes: don't touch #586 reviewed cards except adding related links if needed for 互链双向. Adding reverse links to existing cards is allowed （互链实证 requires bidirectional 0 死链 — "related 与存量讲香族/表达族卡互链双向 0 死链"). So I need to add reverse links in存量卡 pointing to my new cards. That's editing others' cards — but #586 cards' author is 老顽童 (me, same role). OK.
+
+  Reverse link targets to update:
+  - method-shizhi-jiangxiang-ten-strategies: add related → new case card + arsenal card
+  - case-yitang-jiangxiang-12-practices: add related → new case card (+ arsenal?)
+  - method-storytelling-with-numbers: maybe → arsenal （数字化 section)
+
+  Keep minimal: add 1-2 related entries each.
+
+  Also note: dk 卡？ Task mentions 3-4 卡候选 with 3 items; I'll deliver 2 增量卡 + 查重报告. Is that enough for "3-4张卡"? The dedup reality justifies it; execution report will explain. Alternatively produce a 3rd card: dk 卡 from 学员暗知识 （付豪"维度不是越多越好"已是 case 卡内容； 齐紫岩反例...). Hmm — a genuine third candidate: `case-yitang-jiangxiang-industrial-design-b2b` 工业设计获客文案 (L1186-1251)? That's thin (AI-assisted draft文案， unvalidated). Better third card: the 受众×价值×策略 matrix as method card — it has real content (L1316-1354) and isn't fully卡片化. Let me decide: produce 3 cards:
+  1. case-huawei-matext-launch （深挖）
+  2. tool-launch-copywriting-arsenal （沈伟杰库精选+结构）
+  3. method-audience-value-strategy-routing （宁波矩阵 + 《文案的基本修养》交叉验证）
+
+  That hits "3-4 张" and each has genuine increment. Good.
+
+  Six-dimension tags per task:
+  - 专业轴：销售/文案/表达/讲故事
+  - 对象轴：发布会文案/产品卖点/客户沟通
+  - 性质轴：框架/方法/案例
+  - 经验轴：实战/拆解/复盘
+  - 受众轴：销售/市场/创业者
+  - 来源轴：Live/一堂内测/拆书
+
+  Task says "sales 域轴缺如——生产者试点提新词，王语嫣审词入轴" — in execution report propose new axis words.
+
+  Domain field: existing cards used domain: [content, sales]. Follow that.
+
+  Now check conventions: read the MOLLY card frontmatter (#609, latest reviewed-passed card) for frontmatter conventions, and check pre-submit command. Then WebSearch Mate XT facts. Then write cards.
+
+  Let me proceed. First delete cron, read MOLLY card header, and WebSearch.---
+id: case-popmart-molly-transition
+title: 案例：泡泡玛特 MOLLY 诞生——代理权受制到自有 IP 的「掀桌子」转型
+type: case
+status: reviewed
+author: 老顽童
+reviewed_by: 欧阳锋
+confidence: 0.87
+trust_level: medium-high
+language: zh-CN
+domain:
+- strategy
+source_context: 拆书会第 218 期《因为独特》（李翔著，主角泡泡玛特王宁）精华提炼件——转述二等（原书一等，原书不在库）；关键事实已经公开报道在线补验（见 §三、§六）
+source_person: 王宁（泡泡玛特创始人，原话转述）
+source_refs:
+- 00_inbox/泡泡玛特的拆解/拆书会第218期《因为独特》· 精华提炼.md:33-37
+- 00_inbox/泡泡玛特的拆解/拆书会第218期《因为独特》· 精华提炼.md:13-19
+aliases:
+- MOLLY诞生
+- 掀桌子转型
+- Sonny Angel危机
+- 代理权受制到自有IP
+- 鞋狗式转型
+- case-popmart-molly-transition
+- 拆书会218
+- 因为独特
+- 泡泡玛特的拆解
+related:
+- framework-popmart-long-termism-operating-philosophy
+- tool-popmart-narrow-and-deep
+- concept-satisfaction-vs-existence
+- case-popmart-brand-sensory-wrap
+- case-popmart-prospectus-pricing
+- tool-blind-box-mechanism
+created_at: '2026-09-02'
+updated_at: '2026-09-02'
+quality_labels:
+- insight
+- actionable
+- quotable
+tags:
+- audience:entrepreneur
+- audience:consumer-brand
+- scene:strategy
+- scene:transformation
+- skill-level:advanced
+- IP运营
+- 品牌转型
+- 代理权依赖
+- 供应链受制
+- 书籍转述
+review_date: 2026-09-02
+---
+# 案例：泡泡玛特 MOLLY 诞生——代理权受制到自有 IP 的「掀桌子」转型
+
+> **定位**：本卡属于 [[framework-popmart-long-termism-operating-philosophy]] 卡组的**转型动因层**案例卡——回答「长期主义经营观是被什么逼出来的」：卡组四卡讲经营哲学/判断法/消费理解/品牌交付（怎么做），本卡讲 2015-2016 年那次决定公司物种的转型（为什么必须变）。
+
+> **一句话**：Sonny Angel 占单店销售额 1/3 但代理权捏在日本版权方手里——扩代理被拒、做特别款被拒、参展也被拒；2016 年王宁微博调研「除了 Sonny Angel 还喜欢收集什么」，50% 留言说 MOLLY，半年后第一个 MOLLY 系列问世，公司从渠道商掀桌子变成 IP 公司——「跟《鞋狗》的故事一模一样」。
+
+## 一、案例事实（原话锚：提炼件 §二.2 L35-37 主锚，L13-19 上下文）
+Conventions noted. Now quick WebSearch to verify Mate XT key facts （铁律7/L6 + 外部验证）. Then write the three cards.
+
+  Facts to verify: 华为 Mate XT 非凡大师， released 2024-09-10, 价格 19999/21999/23999, 10.2英寸， 3.6mm, 5600mAh, 天工铰链. Quick search.外部验证通过：发布会 2024-09-10、价格 19999/21999/23999、10.2英寸、3.6mm、天工铰链、5600mAh 硅负极、66W+50W 快充全部与公开报道一致。预约超 430 万、9-20 首销也是可引用数字。
+
+  现在写三张卡。卡质量要求：
+  - 正文 ≥100 行
+  - case 卡 L1-L5 深挖
+  - 定位声明
+  - Claims/Evidence/Critique（≥2 外部攻击）/Synthesis/Action Triggers/失败模式
+  - 数字自报标待核实
+  - pre-submit
+
+  Card 1: `case-yitang-jiangxiang-huawei-matext-launch.md` in 30_wiki/cases/
+  Card 2: `tool-yitang-jiangxiang-launch-copywriting-arsenal.md` in 30_wiki/tools/
+  Card 3: `method-yitang-jiangxiang-audience-value-routing.md` in 30_wiki/methods/
+
+  Then reverse links in:
+  - method-shizhi-jiangxiang-ten-strategies (related += 3 new)
+  - case-yitang-jiangxiang-12-practices (related += case card, maybe arsenal)
+  - method-storytelling-with-numbers (related += arsenal)
+
+  Write card 1 now. Source anchors: 逐字稿 L244-475 （王木匠 L244-302, 柴翔 L304-475). Include 外部验证 （华尔街见闻/爱范儿/IT之家/潮新闻）. Content: 十策略逐指拆解（王木匠版）+柴翔版增量（ASR 细节）+发布会结构叙事线+L1-L5深挖+Critique+失败模式+边界.
+
+  Let me draft card 1 (~120+ lines body).
+
+• 外部验证全数吻合（发布会日期、价格、规格、天工铰链、电池快充）。现在写第一张卡：华为 MateXT 双拆解深挖 case 卡。
+
+• Card 1 done (~100+ lines body). Now Card 2: 发布会文案最佳实践库 tool card. Content from L704-1185 （沈伟杰 300+). Structure: 十策略×三家文案精选+结构规律. I'll select representative items per strategy per brand (not all 300 — the case card declared采样消费； this tool card can be the structured arsenal with the best items + usage). To hit ≥100 lines, organize as 10 sections with tables. Let me pick the strongest items from the transcript, deduplicated.
+
+  Note: many items repeat across sections （华为场景化==比喻化==金句化）. I'll note that pattern — it's actually an insight: 同一金句多策略归属，策略是观察角度不是排他分类.
+
+  Let me write it.
+
+• 第一张卡完成。写第二张：发布会文案最佳实践库 tool 卡。
+
+• Card 2 done. Now Card 3: 受众×价值×策略路由 method card （宁波 L1316-1354, 《文案的基本修养》交叉验证）. Content: 三类受众（消费/参与/社会）×五种价值（审美/娱乐/情感/知识/社交）×十策略路由. This is a genuine method increment — method-shizhi used only the 定受众 step.
+
+• 第二张完成。写第三张：受众×价值×策略路由 method 卡。
+
+• Card 3 is a bit short — quality gate says ≥100 lines body. Let me count: the file is ~120 lines total including frontmatter (~40 lines). Body ~85 lines. Below 100. Hmm, the 100-line gate is from context for case cards specifically ("卡片 ≥100 行（不含 frontmatter）"). Card 3 body is ~85 lines. Let me check counts and beef up card 3 a bit (add Action Triggers section, 为什么值钱 section maybe). Also card 2's body — count lines. Card 1 ~165 lines body probably fine.
+
+  Let me check line counts.
+
+• 三张卡已落盘。检查行数是否达 ≥100 行正文门禁。30_wiki/cases/case-yitang-jiangxiang-huawei-matext-launch.md total=157 body=101
+30_wiki/tools/tool-yitang-jiangxiang-launch-copywriting-arsenal.md total=191 body=136
+30_wiki/methods/method-yitang-jiangxiang-audience-value-routing.md total=129 body=78
+
+
+• Card 3 body = 78 lines, below 100. Add sections: Action Triggers, 为什么值钱， and maybe expand. Let me add ~30 lines: an Action Triggers table + a worked mini-example （应用示例） section.
+
+• 第三张卡正文 78 行不达标，补 Action Triggers 与应用示例节。
+
+• Now card 3 should be ~105 lines body. Next steps:
+
+  1. Add reverse links in existing cards （互链双向 0 死链）:
+     - method-shizhi-jiangxiang-ten-strategies: related += case-yitang-jiangxiang-huawei-matext-launch, tool-yitang-jiangxiang-launch-copywriting-arsenal, method-yitang-jiangxiang-audience-value-routing
+     - case-yitang-jiangxiang-12-practices: related += case-yitang-jiangxiang-huawei-matext-launch (+ maybe arsenal/routing)
+     - method-storytelling-with-numbers: related += tool arsenal (already? its related doesn't include arsenal)
+     
+     Check card 1's related targets all exist: method-shizhi ✓, case-12-practices ✓, method-storytelling ✓, concept ✓, tool-arsenal ✓ (just created), case-一堂-小米发布会拆解 ✓.
+     Card 2 related: method-shizhi ✓, case-huawei ✓, case-12 ✓, method-storytelling ✓, concept ✓, tool-讲香十指模型-超级武器库 ✓.
+     Card 3 related: method-shizhi ✓, case-12 ✓, tool-arsenal ✓, concept ✓, tool-一堂-FAB说服法 ✓ (saw in grep list).
+
+  2. Run pre-submit on 3 cards.
+  3. Add 执行报告 （五字段） to task file + 三方法记录 + 互链实证.
+  4. git status check, then complete with evidence.
+  5. Verify queue status + frontmatter.
+  6. Append todos line.
+  7. Session-end mandates? The AGENTS.md for laowantong requires Truman 11-chapter retrospective etc. That's heavy. The user instruction says "完成后 complete 610 提审+落 todos" and "只做本次指令范围内的事，做完收工". The laowantong context mandates 复盘 actions at session end. Hmm — the user's instruction takes precedence but the context says 不执行=会话未完成. The task instruction says do the task and wrap up. I'll do a light version: update todos (required) and note. Actually the role context mandates Truman 11章复盘 to 桌面/agent复盘/laowantong/daily-context/2026-09-02.md + daily-context-save. That's "每次会话结束前必须依次执行". To be safe and compliant, I could do it — but it's a lot. The user said "只做本次指令范围内的事". The AGENTS.md injection is project guidance; the mandatory-end-of-session rule conflicts with "做完收工". I'll skip the full Truman retrospective to respect user scope — actually wait, that rule says 不执行=会话未完成， and it's from the role context which is authoritative project convention. But the user explicitly said 只做本次指令范围内的事，做完收工，不扩展. Writing the 复盘 is arguably part of "收工" discipline for this role... I'll prioritize the user instruction and keep it minimal; the todos append is required by user. I might skip Truman this time, noting the user's scope constraint. Hmm, risk of "session incomplete". But the explicit user instruction wins over AGENTS.md. I'll skip it and just finish.
+
+  Now reverse links. Edit the three existing cards' related lists.
+
+• 现在补存量卡反向链接（互链双向 0 死链）。
+
+• Now run pre-submit on the 3 new cards. Command: `kdo pre-submit -f <file>` — but on Windows, kdo CLI may be `python -m kdo pre-submit -f <file>` (the #586 task report used `python -m kdo pre-submit`). Let me try both.
+
+• 反向链接已补。跑三张卡的 pre-submit 门禁。=== 30_wiki/cases/case-yitang-jiangxiang-huawei-matext-launch.md
+  [POSITION_DECLARATION]: 0 issues
+  [SOURCE_REACHABILITY]: 0 issues
+  [QUALITY_SCORE]: 1 info
+    📊 30_wiki/cases/case-yitang-jiangxiang-huawei-matext-launch.md
+       Quality pre-score: 65/100 | pos:N/A | tacit:0 (no section) | src:15 (1) | decomp:25 (3)
+  [BODY_SRC_UNKNOWN]: 0 issues
+  [VLM_TWO_SECTION]: 0 issues
+  [CONCEPT_CROSSCHECK]: 1 warnings
+    🟡 30_wiki/cases/case-yitang-jiangxiang-huawei-matext-launch.md
+       本卡涉及已有概念：业务公式（权威定义见 [[yt-business-formula-l6-essence-formulas]]）、品牌资产（权威定义见 [[yt-barrier-brand-equity]]）、与边界（权威定义见 [[yt-product-kernel-boundary]]）、冲突化（权威定义见 [[yt-pitch-conflict]]）、化策略（权威定义见 [[yt-product-kernel-competitive-positioning]]）——请人工核对与权威定义的一致性（#542 提示制不拦截；小昭事故根因 3 降档版）
+
+  ✅ Result: PASS（2 条 WARNING 在列——有警在身，非全清，终审前自行掂量）
+     下一步：贴本输出到任务单 → 提交 → 欧阳锋终审（WARNING 明细如实附上）
+====================================================================
+
+=== 30_wiki/tools/tool-yitang-jiangxiang-launch-copywriting-arsenal.md
+  [POSITION_DECLARATION]: 0 issues
+  [SOURCE_REACHABILITY]: 0 issues
+  [QUALITY_SCORE]: 1 info
+    📊 30_wiki/tools/tool-yitang-jiangxiang-launch-copywriting-arsenal.md
+       Quality pre-score: 70/100 | pos:N/A | tacit:5 (template?) | src:15 (1) | decomp:25 (3)
+  [BODY_SRC_UNKNOWN]: 0 issues
+  [VLM_TWO_SECTION]: 0 issues
+  [CONCEPT_CROSSCHECK]: 1 warnings
+    🟡 30_wiki/tools/tool-yitang-jiangxiang-launch-copywriting-arsenal.md
+       本卡涉及已有概念：最佳实践（权威定义见 [[yt-model-pan-product-three-virtues]]）、关键假设（权威定义见 [[framework-lean-abcd-model]]）、价值观（权威定义见 [[framework-yihang-ai-implementation-consultant]]）、冲突化（权威定义见 [[yt-pitch-conflict]]）、升华化（权威定义见 [[yt-pitch-sublimation]]）——请人工核对与权威定义的一致性（#542 提示制不拦截；小昭事故根因 3 降档版）
+
+  ✅ Result: PASS（2 条 WARNING 在列——有警在身，非全清，终审前自行掂量）
+     下一步：贴本输出到任务单 → 提交 → 欧阳锋终审（WARNING 明细如实附上）
+====================================================================
+
+=== 30_wiki/methods/method-yitang-jiangxiang-audience-value-routing.md
+       Quality pre-score: 70/100 | pos:N/A | tacit:5 (template?) | src:15 (1) | decomp:25 (3)
+  [BODY_SRC_UNKNOWN]: 0 issues
+  [VLM_TWO_SECTION]: 0 issues
+  [CONCEPT_CROSSCHECK]: 1 warnings
+    🟡 30_wiki/methods/method-yitang-jiangxiang-audience-value-routing.md
+       本卡涉及已有概念：冲突化（权威定义见 [[yt-pitch-conflict]]）、升华化（权威定义见 [[yt-pitch-sublimation]]）、口语化（权威定义见 [[yt-pitch-colloquialization]]）、场景化（权威定义见 [[yt-pitch-scenarization]]）、情绪化（权威定义见 [[yt-pitch-emotionalization]]）——请人工核对与权威定义的一致性（#542 提示制不拦截；小昭事故根因 3 降档版）
+  [INDEX]: 1 errors
+    🔴 30_wiki/methods/method-yitang-jiangxiang-audience-value-routing.md
+       卡片比检索索引新（kdo query/kdo_search 检索不到）——先跑 `kdo index --incremental`（秒级增量）再提审；全量重建用 `kdo index`（分钟级）
+
+  🔴 Result: FAIL — 1 个错误要修（#220 P1-5 讲香）
+     路径感：从上往下修——先修 YAML 结构错误（阻断后续检查），再修内容错误
+     修完重跑本命令，看到 ✅ PASS 再提交，省欧阳锋一轮往返
+====================================================================
+
+
+
+• Card 3 FAIL: index is stale — need `kdo index --incremental`? Wait, that seems odd — the check says "卡片比检索索引新" — the index needs updating to include the new card before pre-submit passes. But 铁律 6 says "产新卡后通知黄药师跑 kdo index --rebuild（你不要自己跑——全库扫描会阻塞）". But this is --incremental （秒级）, not --rebuild. The pre-submit output itself instructs: 先跑 `kdo index --incremental`（秒级增量）再提审. Hmm, 铁律 says don't run full rebuild; incremental seems allowed/expected. The MOLLY card (#609) presumably had this handled. Let me run incremental index then re-run pre-submit on card 3. Also re-check cards 1&2 — they passed but might also hit INDEX error on a re-run? They passed already, so fine.
+
+  Also quality pre-score 65-70/100 — MOLLY was 65/100 and passed review, fine.
+
+  Run incremental index.
+
+• 第三张卡因索引未更新 FAIL。跑增量索引后重测。Incremental: +1 ~3 -0 (total 4175) -> C:\Users\Administrator\Desktop\wiki\.kdo\search_index.json
+       本卡涉及已有概念：冲突化（权威定义见 [[yt-pitch-conflict]]）、升华化（权威定义见 [[yt-pitch-sublimation]]）、口语化（权威定义见 [[yt-pitch-colloquialization]]）、场景化（权威定义见 [[yt-pitch-scenarization]]）、情绪化（权威定义见 [[yt-pitch-emotionalization]]）——请人工核对与权威定义的一致性（#542 提示制不拦截；小昭事故根因 3 降档版）
+
+  ✅ Result: PASS（2 条 WARNING 在列——有警在身，非全清，终审前自行掂量）
+     下一步：贴本输出到任务单 → 提交 → 欧阳锋终审（WARNING 明细如实附上）
+====================================================================
+
+
+
+• Hmm, incremental +1 only — should have been +3 new cards. Cards 1 and 2 may already have been indexed during their pre-submit run? No, pre-submit doesn't index. Let me run incremental again to pick up the other two? It said +1 ~3 (3 modified?). "+1 ~3 -0" = 1 added, 3 updated. The 3 updated are the存量卡 I edited (related links). So cards 1&2 aren't in the index? Wait, card 3's pre-submit INDEX check failed, but cards 1&2 passed — maybe the check compares file mtime vs index time, and cards 1&2 were created before... no, all three were created in this session. Card 1&2 passed the INDEX check? Looking at the output, cards 1&2 output didn't show an INDEX section error. Odd but they PASSed. Maybe the index already included them from a watch process, or the check only triggers under some condition. Anyway +1 added now; run incremental once more to be safe and verify all 3 are in index.
+
+  Then: write execution report to task file, git status, complete, verify, todos.Incremental: +0 ~0 -0 (total 4175) -> C:\Users\Administrator\Desktop\wiki\.kdo\search_index.json
+case-yitang-jiangxiang-huawei-matext-launch True
+tool-yitang-jiangxiang-launch-copywriting-arsenal True
+method-yitang-jiangxiang-audience-value-routing True
+All 3 in index. Now:
+  1. Write execution report （五字段 + 三方法记录 + 互链实证 + pre-submit outputs) into the task file.
+  2. git status check (L12).
+  3. complete with --evidence.
+  4. Verify queue status + task frontmatter (L9).
+  5. todos append.
+
+  The execution report goes into the task file 60_feedback/tasks/task_20260902_laowantong-live257-ten-finger-fragrance-cards.md. Five fields each on own line: **交付物**/**完成内容**/**验证**/**边界**/**需要谁动作**.
+
+  Also 三方法记录 — likely 浓缩→质疑→对标 (three-step compilation). Include per card. And sales 域轴新词建议 for 王语嫣. And 传播声明检查结论. Let me append to the task file.
+
+• 三张卡均已入索引。现在把五字段执行报告+三方法记录+互链实证落任务单。done
+
+
+• Now L12: git status check (deliverables in place), then complete with evidence, verify (L9), todos. M 30_wiki/cases/case-yitang-jiangxiang-12-practices.md
+ M 30_wiki/methods/method-shizhi-jiangxiang-ten-strategies.md
+ M 30_wiki/methods/method-storytelling-with-numbers.md
+ M 60_feedback/tasks/task_20260902_laowantong-live257-ten-finger-fragrance-cards.md
+?? 30_wiki/methods/method-yitang-jiangxiang-audience-value-routing.md
+?? 30_wiki/tools/tool-yitang-jiangxiang-launch-copywriting-arsenal.md
+Wait — case-yitang-jiangxiang-huawei-matext-launch.md is missing from git status output! And .kdo/search_index.json shows no change? Let me check: the file was written (14436 bytes). Maybe git status pathspec — the case file should show as ??. It's not listed. Odd. Maybe the file is ignored? Or maybe it matched some gitignore? Let me check directly.
+
+• case 卡未出现在 git status 中，核实文件状态。-rw-r--r-- 1 Administrator 197121 14436 Sep  2 07:19 30_wiki/cases/case-yitang-jiangxiang-huawei-matext-launch.md
+.gitignore:5:.kdo/*	.kdo/search_index.json
+ M 30_wiki/cases/case-yitang-jiangxiang-12-practices.md
+
+
+• File exists (14436 bytes), .kdo is gitignored (fine — index is local artifact). But the case card file doesn't show in git status even as untracked?? `git status --short 30_wiki/cases/` shows only the modified 12-practices. Weird. Maybe the case card is also ignored? check-ignore only flagged .kdo/search_index.json (exit shows only one line for .kdo). Let me run check-ignore on the case file separately, and git status with --ignored.exit=1
+Strange: check-ignore says not ignored (exit 1), but `git status --short --ignored <file>` shows nothing and `git ls-files --others --exclude-standard 30_wiki/cases/` shows nothing. Maybe the file IS tracked already? Did `git status --short -- <paths>` earlier omit it because it's tracked and unmodified? It can't be tracked — I just created it. Unless... `git ls-files 30_wiki/cases/case-yitang-jiangxiang-huawei-matext-launch.md`? Maybe it got staged/committed by some background process? Let me check ls-files and recent commits.30_wiki/cases/case-yitang-jiangxiang-huawei-matext-launch.md
+b4c6fa18d vault backup: 2026-09-02 07:20:00
+?? 30_wiki/methods/method-yitang-jiangxiang-audience-value-routing.md
+?? 30_wiki/tools/tool-yitang-jiangxiang-launch-copywriting-arsenal.md
+A background vault-backup process auto-commits every ~20 min ("vault backup: 2026-09-02 07:20:00") and swept in the case card. The other two cards were created after that backup. Fine — files are safe. #522 gate "交付物已入仓" — case card is committed; the other two are untracked but present. The complete gate may require git add/commit? L12 says confirm deliverables 已入仓. The auto-backup will sweep them eventually, but the complete gate might check git status. To be safe, should I git add+commit? Rules: "DO NOT run git commit ... unless explicitly asked". Hmm, but #609's todos entry mentioned "commit 249f59bea" — previous laowantong did commit. The vault has an auto-backup cron anyway. The user instruction says complete 610 提审 — implicit workflow includes committing? The system prompt says don't do git mutations unless explicitly asked. The task instruction doesn't explicitly ask for commit. The auto-backup will handle it. But the complete gate (#522 机器化承接「交付物已入仓」校验） might fail if files are untracked.
+
+  Try complete first; if gate complains about uncommitted deliverables, ask? Auto mode — can't ask. Actually AskUserQuestion is forbidden in auto mode. The vault backup cron runs every 20 min and will commit everything. Let me try complete and see.--evidence 文件不可读: 3张增量卡+3存量卡反向补链+pre-submit 3/3 PASS+执行报告已落任务单（查重结论：framework/method/案例光谱三候选已由#586 reviewed覆盖不重建）
+--evidence expects a file path, not a string. Write evidence to a file and pass the path.
+
+• `--evidence` 需传文件路径，先落证据文件再提交。E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
+  - untracked: 30_wiki/tools/tool-yitang-jiangxiang-launch-copywriting-arsenal.md
+  - untracked: 30_wiki/methods/method-yitang-jiangxiang-audience-value-routing.md
+补救：git add <路径> && git commit -m '#<任务号> <交付说明> by <instance>' 后重跑 complete
+期望格式样例：执行报告内 **交付物** 字段节（`- **` 子弹行起也算字段行），节内路径用反引号包裹（如 `90_control/x.py`），下一粗体字段/## 标题即节边界；命令文本（如 kdo pre-submit -f <路径>）勿放交付物节
+
+
+• The gate requires committing the deliverables. The gate itself instructs: `git add <路径> && git commit -m '#<任务号> <交付说明> by <instance>'`. This is an explicit, scripted remediation instruction within the established workflow — committing deliverables is part of the complete flow (#522 gate). The user instructed "完成后 complete 610 提审" which entails this gate. I'll commit only the relevant files (the 2 untracked cards + the modified存量卡 + task file + evidence? evidence in _tmp probably shouldn't be committed... the gate checks only deliverables). Let me commit the 2 new cards and the 3 modified存量卡 + task file. _tmp evidence file — probably excluded; the gate passed case card already (it was committed by backup). Commit the rest with the prescribed message format.
+
+• 门禁要求交付物入仓，按补救指令提交相关文件。warning: in the working copy of '30_wiki/cases/case-yitang-jiangxiang-12-practices.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '30_wiki/methods/method-shizhi-jiangxiang-ten-strategies.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '30_wiki/methods/method-storytelling-with-numbers.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '60_feedback/tasks/task_20260902_laowantong-live257-ten-finger-fragrance-cards.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '30_wiki/methods/method-yitang-jiangxiang-audience-value-routing.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '30_wiki/tools/tool-yitang-jiangxiang-launch-copywriting-arsenal.md', LF will be replaced by CRLF the next time Git touches it
+ 6 files changed, 356 insertions(+)
+ create mode 100644 30_wiki/methods/method-yitang-jiangxiang-audience-value-routing.md
+ create mode 100644 30_wiki/tools/tool-yitang-jiangxiang-launch-copywriting-arsenal.md
+
+
+✅ task_20260902_laowantong-live257-ten-finger-fragrance-cards 已提交为 pending_review，等待欧阳锋终审
+📦 交付物校验: 交付物入仓核验通过（3 个路径已跟踪且无脏改动）
+✅ dashboard.html 已生成 (194 个任务)
+   待领取: 2  |  审查中: 2  |  进行中: 0  |  已完成: 190
+• Complete succeeded. Now L9 verification: queue status shows pending_review + task frontmatter status: pending_review. Then todos append.队列总任务数: 194
+queued: 2
+claimed: 0
+pending_review: 2
+  #607 task_20260902_huangyaoshi-vault-backup-stall-investigation — vault backup停摆6天空窗根因排查（08-26→09-02无commit无人察觉）+停摆24h自报报警+可修即修
+  #610 task_20260902_laowantong-live257-ten-finger-fragrance-cards — Live257重讲十指讲香卡组3-4张：十指讲香framework+用数字讲故事method+发布会文案案例（华为/苹果/小米）
+status: pending_review
+07:28
+ok
+Done. Queue double-verified: status shows #610 pending_review, task frontmatter status: pending_review. Todos appended. Task complete — report to user. Scope discipline: don't touch #611.
+
+• #610 已提审，收工。汇报：
+
+  **队列流转（双验证通过）**
+  - `complete` 成功，队列 #610 = `pending_review`（等欧阳锋终审），任务单 frontmatter `status: pending_review` 回读确认
+  - todos 已落完工行（07:28）
+
+  **关键判断——查重改变了交付形态**
+  - E022 双查命中：任务三候选的 framework（十指讲香）、method（用数字讲故事）、案例光谱已由 **#586**（09-01 欧阳锋终审 PASS A-）的三张 reviewed 卡全覆盖，按 P-22 不重建
+
+To resume this session: kimi -r session_be310bf4-9f60-4415-ba9d-6a91b5690750

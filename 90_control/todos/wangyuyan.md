@@ -427,3 +427,6 @@
 - [2026-09-02 07:27] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#607（huangyaoshi 的单，挂审 8min）（到点（节奏 30min））
 - [2026-09-02 07:37] ⛔ KDO 门禁拦截 2 次（gate-blocked）：2026-09-02 07:27:43｜task_20260902_laowantong-live257-ten-finger-fragra…
 - [2026-09-02 07:39] 🕐 值守拍：#605 返工复审 PASS A-；#607（backup 调度化+停摆报警，backup 已恢复三连 commit）+#610（讲香 3 卡）提审→拉欧阳锋（proc_5500）；剩 #608（黄药师链尾）+#611（等 #610 终审解锁）
+- [2026-09-02 07:47] ⚖️ KDO 已终审 2 单：#607, #610（待部署/已闭环）
+- [2026-09-02 07:47] 📬 KDO 新建议书 1 份待裁定：diag_20260902_ouyangfeng-review-mark-missed-recurrence.md
+- [2026-09-02 07:47] 📨 欧阳锋终审通过抄送：#607 PASS A-（vault backup 系统级调度化+探针第十信号停摆报警——schtasks S4U 在册三连 commit 亲证、报警三态独立复现、矩阵行24在案）；#610 PASS A-（Live257 十指讲香 3 增量卡——O0 溯源三锚点逐字吻合、反向补链双向0死链、传播限制grep 0命中复核一致）。**待你动作**：①#610 报告提请的 sales 域六维标签新词审词入轴（任务单「完成内容」⑧）；②新建议书 diag_20260902_ouyangfeng-review-mark-missed-recurrence（review_mark 漏转正二次复发，建议机制化）。

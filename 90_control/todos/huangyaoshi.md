@@ -368,3 +368,7 @@
 - [2026-09-02 07:02] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#605（huangyaoshi 的单，挂审 16min）（到点（节奏 15min））
 - [2026-09-02 07:17] ✅ KDO 终审通过 1 单：#605——你的单过了，见任务单终审记录
 - [2026-09-02 07:19] ✅ #607 backup停摆排查+报警 complete 提审：根因=会话级cron随08-26 22:56重启死亡（事件日志6005/6006实证）；修复=kdo-vault-git-backup schtasks 30min S4U（实测exit0+当拍产commit 79895d44b）+探针第十信号24h停拍报警（模拟触发+幂等验证）（commit cf4f371f3）
+- [2026-09-02 07:22] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#607（huangyaoshi 的单，挂审 3min）（到点（节奏 15min））
+- [2026-09-02 07:42] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#607（huangyaoshi 的单，挂审 23min）；#610（laowantong 的单，挂审 14min）（到点（节奏 15min））
+- [2026-09-02 07:47] ✅ KDO 终审通过 1 单：#607——你的单过了，见任务单终审记录
+- [2026-09-02 07:49] ✅ #608 image_detail死循环修复 complete 提审：公众号分支前置识别pages/image_detail即mark_seen跳过，两轮实跑对比（R1三条⏭️跳过+seen计数0→3，R2新链接0不再复现）（commit 7d2e73837）

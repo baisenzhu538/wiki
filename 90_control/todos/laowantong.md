@@ -149,3 +149,7 @@
 [2026-09-02 06:47] #610 待命：claim被门禁拦截（前方#605 huangyaoshi单 pending_review）；查重完成——三候选核心卡已由#586 reviewed覆盖（method-storytelling-with-numbers/method-shizhi-jiangxiang-ten-strategies/case-yitang-jiangxiang-12-practices），不重建；131KB逐字稿1747行已逐字读完（W1）；传播声明三文件grep无显式限制字样；增量锁定=华为MateXT双拆解深挖case卡+发布会文案最佳实践库卡；已装14min重试门铃(01M1FJE1H7785Q2ZB1GG15BDJX)等队列放行
 - [2026-09-02 06:47] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#605（huangyaoshi 的单，挂审 1min）（到点（节奏 15min））
 - [2026-09-02 07:02] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#605（huangyaoshi 的单，挂审 16min）（到点（节奏 15min））
+- [2026-09-02 07:22] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#607（huangyaoshi 的单，挂审 3min）（到点（节奏 15min））
+[2026-09-02 07:28] 📤 #610 完成生产并提审（pending_review 等欧阳锋）：查重命中——framework/method/案例光谱三候选已由#586 reviewed覆盖不重建；增量3卡落库（case-yitang-jiangxiang-huawei-matext-launch正文101行/tool-yitang-jiangxiang-launch-copywriting-arsenal正文136行/method-yitang-jiangxiang-audience-value-routing正文105行）+3存量卡反向补链双向0死链；131KB逐字稿1747行逐字读完（W1）；传播声明三文件grep零显式限制字样不触发#322；MateXT关键事实经WebSearch比对华尔街见闻/爱范儿/IT之家/潮新闻一致；pre-submit 3/3 PASS（65/70/70分，WARNING均#542提示制）；index增量至4175三卡可检索；五字段执行报告+三方法记录+互链实证+sales域轴新词建议已落任务单；commit已入仓（E040门禁过）
+- [2026-09-02 07:42] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#607（huangyaoshi 的单，挂审 23min）；#610（laowantong 的单，挂审 14min）（到点（节奏 15min））
+- [2026-09-02 07:47] ✅ KDO 终审通过 1 单：#610——你的单过了，见任务单终审记录

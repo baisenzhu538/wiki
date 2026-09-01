@@ -2,10 +2,10 @@
 session_id: ouyangfeng-2026-09-02
 agent_id: ouyangfeng
 date: 2026-09-02
-created_at: 2026-09-01T23:17:24.537356+00:00
-updated_at: 2026-09-01T23:17:24.537356+00:00
-git_head: 79895d44b
-content_hash: fb201093c73c
+created_at: 2026-09-01T23:49:36.236700+00:00
+updated_at: 2026-09-01T23:49:36.236700+00:00
+git_head: 53a1d8794
+content_hash: 82b93759e69d
 ---
 
 # ouyangfeng · 2026-09-02
@@ -140,3 +140,38 @@ FAIL→返工→复审全链路 29 分钟闭环，且建议书（E040 预审盲�
 
 1. **myqueue 只读视图盲区**：role=ouyangfeng 视图待终审 0，队列行实为 pending_review（#605）——记档观察，复现第 2 次再落建议书。
 2. **review_date UTC 笔误再发**：脚本写 '2026-09-01'，本日第 N 次手动补正——既有建议书在案，不重复开单。
+
+---
+
+# 补记-第二段（07:22→07:47 CLI 实例）：#607+#610 双单连审
+
+## 补记2-1. 任务与差异
+
+指令=终审 #607（黄药师 vault backup 系统级调度化+探针第十信号）+#610（老顽童 Live257 十指讲香 3 增量卡+3 存量反向补链）。差异=零：两单均 PASS A-，按队列序流转，无 FAIL 无升级。
+
+## 补记2-2. 新资产
+
+- 两任务单「## 终审记录」节（意见书先落盘后跑脚本，O9 合规）
+- 建议书 `60_feedback/diagnosis/diag_20260902_ouyangfeng-review-mark-missed-recurrence.md`（review_mark 漏转正二次复发，探针回执=新登记 1）
+- 6 张卡 review_mark 转正（3 新 + 3 存量补齐 #586 的 E018 家族欠账）
+
+## 补记2-3. 问题/阻塞
+
+无阻塞。记档：①#610 报告 WARNING 计数笔误（2 实为 3，漏计 ALIASES）；②review_date 脚本 UTC 笔误再发（已补正，既有建议书在案不重开）；③schtasks 在 Git Bash 下需 `cmd //c` 包裹防路径转换，CSV 模式输出 GBK 但数字字段可直读。
+
+## 补记2-4. O0 溯源自检
+
+#607：溯源对象=git log/schtasks/脚本源码/探针函数，全亲跑亲读（含 `_scan_backup_stall` 四态 importlib 独立复现）。#610：逐字稿三锚点段（L244-475/L704-712/L1186-1195/L1316-1354）亲读逐字对卡，零编造。**本段无 O0 违规。**
+
+## 补记2-5. 逐轮映射
+
+07:22 启动三读+90_control/AGENTS.md → 队列 grep 定位两单 → #607：git log/schtasks CSV/探针 dry-run/信号四态复现 → 意见书 → review A-（07:42 a94c04fdb）→ #610：三卡全读+逐字稿锚点+存量卡 diff 边界+pre-submit 亲跑+传播限制 grep 复核 → 意见书 → review_mark 6 卡 → review A-（07:46 5ea454de2）→ 建议书+探针回执+双 todos 落账。
+
+## 补记2-6. 飞轮效应
+
+#607 本身即飞轮产物（建议书→立项→修复→报警机制→终审闭环 6 天空窗永不再现）；#610 终审顺手清了 #586 的转正欠账并把它机制化成建议书——审查不再只是判过不过，持续向门禁回流。
+
+## 补记2-7. 下次改进
+
+1. 制卡类终审 checklist 加固定一行：「交付卡 review_mark 转正了吗」——在建议书机制落地前用人肉纪律兜底。
+2. Windows 上查 schtasks 一律 `cmd //c "schtasks ..."` + CSV 格式，跳过 LIST 的 GBK 解析。

@@ -17,7 +17,7 @@ instance: laowantong-kimi
 updated_at: '2026-09-01T23:46:14.357365+00:00'
 evidence: _tmp/610_evidence.md
 reviewed_by: 欧阳锋
-review_date: '2026-09-01'
+review_date: '2026-09-02'
 grade: A-
 ---
 

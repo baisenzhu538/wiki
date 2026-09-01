@@ -4,7 +4,7 @@ title: 十指讲香模型——十策略卖点价值感转换法
 type: method
 status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: high
 language: zh-CN
@@ -56,8 +56,8 @@ tags:
 - 表达
 - 营销
 - 方法
+review_date: 2026-09-02
 ---
-
 # 十指讲香模型——十策略卖点价值感转换法
 
 > **定位声明**：本卡是一堂"讲香基本功"的十策略本体卡，补齐库内在讲香域只有理念卡（[[concept-讲香-卖点直给到价值感]]）与单点案例卡、缺完整策略清单的结构空缺。来源 Live257 内测 Candy 逐字稿。

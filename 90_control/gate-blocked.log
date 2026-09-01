@@ -513,3 +513,9 @@
 2026-09-02 05:48:25｜task_20260902_huangyaoshi-scatter-relocation-misc｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
   - untracked: quarantine-20260902/Harness-Engineering-hyp｜huangyaoshi-kimi
 2026-09-02 06:12:47｜task_20260902_huangyaoshi-scatter-relocation-misc｜F-036-问题落点｜审查发现问题未给落点（F-036）：**缺陷/记档**（🟡 不阻断）：执行报告两件 size 口径与实测不符（隔离区 report 声称 574B 实测 9——必须在意见书注明去向（建议书路径 / 停｜欧阳锋
+2026-09-02 07:22:00｜role-liveness｜fengqingyang 全实例疑似死亡（stale: [('kimi-cli', 1706.1)]）｜role_registry check-liveness｜role_registry
+2026-09-02 07:27:43｜task_20260902_laowantong-live257-ten-finger-fragrance-cards｜F-034-五字段｜--evidence 文件不可读: 3张增量卡+3存量卡反向补链+pre-submit 3/3 PASS+执行报告已落任务单（查重结论：framework/method/案例光谱三候选已由#586 r｜laowantong-kimi
+2026-09-02 07:28:01｜task_20260902_laowantong-live257-ten-finger-fragrance-cards｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
+  - untracked: 30_wiki/tools/tool-yitang-jiangxiang-launch｜laowantong-kimi
+2026-09-02 07:42:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 346.8), ('cli', 155.7)]）｜role_registry check-liveness｜role_registry
+2026-09-02 07:42:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 346.7), ('cli', 165.8)]）｜role_registry check-liveness｜role_registry

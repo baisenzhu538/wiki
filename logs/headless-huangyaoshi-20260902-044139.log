@@ -9278,3 +9278,1674 @@ SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in positio
 Bash collapses `\\` → `\` in double-quoted shell string. Use Edit tool on the utf8 file instead.utf16 ok
 �ɹ�: �ɹ������ƻ����� "kdo-vault-git-backup"��
 �ɹ�: �������� "kdo-vault-git-backup"��
+�ϴ�����ʱ��:                       2026/9/2 7:16:11
+�ϴν��:                           0
+S4U run succeeded: 上次结果 0 (7:16:11). Task registered properly. 
+
+  Now part 2: the stall alarm in conveyor_probe.py. Check imports first (subprocess as _sp? time?).17:import argparse
+18:import base64
+19:import hashlib
+20:import hmac
+21:import json
+22:import sys
+23:import time
+24:import urllib.request
+25:import yaml
+26:from datetime import datetime
+27:from pathlib import Path
+57:from queue_gate import parse_queue  # noqa: E402   # 唯一真相源读口，探针零写路径
+58:from queue_lock import QueueLock  # noqa: E402   # #505：队列文件写点与 queue_transition 同锁
+60:import memory_capsule as mc  # noqa: E402   # #511：friction 事件层写入（log_event_safe 失败可见不阻断）
+61:import on_duty  # noqa: E402   # #550：在岗判定共享模块（时段静默已废——老朱直令，watch_inbox 同口径）
+63:import functools  # noqa: E402
+===
+            m = _re.match(r"^\[([^\]]+)\]", ln)
+            mc.log_event_safe(m.group(1) if m else "conveyor_probe", "friction", ln[:300])
+        messages["wangyuyan"] = f"🩹 KDO 新问题线索 {len(friction_new)} 条（friction）：{friction_new[0][:60]}{'…' if len(friction_new) > 1 else ''}"
+    if gate_new:
+        # #460：门禁拦截自动登记（[gate-blocked]）+ 通知——机器自报，零依赖 agent 自觉
+        _update_proposal_board_gate(gate_new)
+        messages["wangyuyan"] = f"⛔ KDO 门禁拦截 {len(gate_new)} 次（gate-blocked）：{gate_new[0][:70]}{'…' if len(gate_new) > 1 else ''}"
+    infra_alerts = _scan_infra_liveness(state)
+    if infra_alerts:
+        # #547 第九信号：基建停拍 → gate-blocked 同族台账 + 推王语嫣（静默期 defer 口径不动，台账恒写）
+        ts_now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        try:
+            with GATE_BLOCKED_LOG.open("a", encoding="utf-8") as f:
+                for a in infra_alerts:
+                    f.write(f"{ts_now}｜infra-liveness｜基建停拍报警｜{a}｜conveyor_probe\n")
+        except OSError as e:
+            print(f"⚠️ infra 停拍台账写入失败: {e}", file=sys.stderr)
+        messages["wangyuyan"] = (f"🛑 KDO 基建停拍报警 {len(infra_alerts)} 项：{infra_alerts[0][:60]}"
+                                 f"{'…' if len(infra_alerts) > 1 else ''}（台账 gate-blocked.log）")
+    if queue_sig["new_reviewed"]:
+        # #521 R1：PASS 按 assignee 路由生产者（复用 #443 ASSIGNEE_ROLE）+ 王语嫣抄送保留；
+        items = ", ".join(f"#{seq}" if seq else tid for tid, seq, _a in queue_sig["new_reviewed"])
+        messages["wangyuyan"] = f"⚖️ KDO 已终审 {len(queue_sig['new_reviewed'])} 单：{items}（待部署/已闭环）"
+        for role, items_r in _route_queued(queue_sig["new_reviewed"]).items():
+            # #535：落点简报——每单带 结论+等级+返工项/O2 标记（扫描者不再把「没变化」误读为「仍在审」）
+            ids = ", ".join(
+Imports: `time` at module level ✓, `datetime` ✓. subprocess — used as `_sp` somewhere; check import line. Earlier saw `_sp.run` at line 504. grep import subprocess.193:import re as _re  # noqa: E402
+492:        import subprocess as _sp
+subprocess imported locally as _sp in _matrix_sync_check. I'll do the same local import in my function. Now write `_scan_backup_stall` after `_scan_infra_liveness` (ends ~line 885) and wire into main() right after the infra_alerts block.Check ROOT constant name in conveyor_probe (used `ROOT` — verify it exists; line 848 used ROOT). Yes INFRA_BEATS uses ROOT. ✓
+
+  Now tests:
+  1. Unit: `_scan_backup_stall({}, max_age_h=0)` → fires once; second call → no refire; state recovery.
+  2. Full probe dry-run: `python kdo-tools/conveyor_probe.py --dry-run` — verify no crash & (real age < 24h) no backup alert.fire#1: ['vault-backup｜停拍 0h（阈值 0h）']
+fire#2 (幂等应为空): []
+recovery (阈值24h应清零): [] state: {'backup_stall': False}
+exit=0
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⚖️ KDO 已终审 1 单：#605（待部署/已闭环）
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#605——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#609——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → 🔔 KDO 新提审 1 单：#582，请终审
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 0 条 / 活性实例 10（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+Probe dry-run clean, exit 0, no backup alert (real age < 24h ✓ — 停拍报警未误报）. Unit test proved fire + idempotency + re-arm.
+
+  Note: the dry-run consumed nothing (dry-run doesn't consume state per comments) ✓.
+
+  Also — I notice dry-run detected "已终审 #605" — normal probe behavior.
+
+  Now matrix sync (§3.19): add row 24 for the backup-stall signal. Then commit everything: kdo-tools/vault_git_backup.py, kdo-tools/vault-git-backup.cmd, kdo-tools/conveyor_probe.py, matrix. Then report + complete. 2 files changed, 29 insertions(+)
+cf4f371f3 feat(#607): vault backup系统级调度化（schtasks kdo-vault-git-backup 30min S4U）+探针第十信号backup停拍>24h报警+矩阵行24
+Wait — "2 files changed, 29 insertions" — but I added 4 paths. vault_git_backup.py and vault-git-backup.cmd are new files... only 2 files changed? Check: maybe the new files weren't added because... let me check git show --stat.
+    feat(#607): vault backup系统级调度化（schtasks kdo-vault-git-backup 30min S4U）+探针第十信号backup停拍>24h报警+矩阵行24
+
+ 90_control/notification-coverage-matrix.md |  1 +
+ kdo-tools/conveyor_probe.py                | 28 ++++++++++++++++++++++++++++
+ 2 files changed, 29 insertions(+)
+The two new files (vault_git_backup.py, vault-git-backup.cmd) weren't committed — status --porcelain shows nothing for them... meaning they're untracked but ignored? Check: `git check-ignore kdo-tools/vault_git_backup.py`. The .gitignore probably has `vault_git_backup.py`? No... maybe kdo-tools has gitignore pattern for vault*? Earlier git add output silent. But porcelain empty means ignored or... untracked files show as ?? in porcelain. Empty output = ignored. Check.Not ignored (check-ignore exit 1 = not ignored). Then why didn't they commit? The `git add -- paths` then `git commit -- paths` — commit with pathspec only commits changes to those paths already staged? No — `git commit -- <paths>` commits working-tree changes of those paths (it stages tracked ones automatically). For **untracked** files, `git commit -- path` does NOT include them (commit pathspec only considers tracked). But I ran `git add --` first which should have staged them... unless add silently failed. Hmm, earlier `git status --porcelain -- <files>` returned empty — for staged new files it would show "A ". Empty means not staged. Did git add fail silently? The command chain was `git add -- ... && git commit ...` — add must have succeeded (&&). But then commit shows only 2 files...
+
+  Oh wait — did the earlier `vault backup` commit (a5d0bee82, from my script test at 07:13) sweep them in? No — files were created after? vault_git_backup.py was created BEFORE the test run (Write then ran it). So `git add -A` inside vault_git_backup.py swept vault_git_backup.py itself into a5d0bee82! And vault-git-backup.cmd was created at 07:15 — the S4U failed run... then 7:16:11 successful run happened AFTER cmd existed → the successful /run swept the cmd into another backup commit. Let me verify: git log --oneline -3 and check which commit contains them.cf4f371f3 feat(#607): vault backup系统级调度化（schtasks kdo-vault-git-backup 30min S4U）+探针第十信号backup停拍>24h报警+矩阵行24
+79895d44b vault backup: 2026-09-02 07:16:11
+a83f528ab chore(queue): #610 claim by laowantong-kimi
+a5d0bee82
+79895d44b
+Confirmed: vault_git_backup.py entered via a5d0bee82 (self-backup during test), cmd via 79895d44b (the successful S4U run — which also proves the S4U task committed a real change end-to-end!). All 4 files in-repo. The work is fully committed (cf4f371f3 + the two backup commits). 
+
+  Nice validation bonus: 79895d44b is a backup commit produced BY the new system task itself (S4U, 07:16:11) — end-to-end proof.
+
+  Now write the #607 execution report + complete.📦 交付物校验: 交付物入仓核验通过（4 个路径已跟踪且无脏改动）
+✅ dashboard.html 已生成 (194 个任务)
+   待领取: 2  |  审查中: 1  |  进行中: 1  |  已完成: 190
+Waiting 0s / 10m · 1 background task still running
+Waiting 1s / 10m · 1 background task still running
+Waiting 2s / 10m · 1 background task still running
+Waiting 3s / 10m · 1 background task still running
+Waiting 4s / 10m · 1 background task still running
+Waiting 5s / 10m · 1 background task still running
+Waiting 6s / 10m · 1 background task still running
+Waiting 7s / 10m · 1 background task still running
+Waiting 8s / 10m · 1 background task still running
+Waiting 9s / 10m · 1 background task still running
+Waiting 10s / 10m · 1 background task still running
+Waiting 11s / 10m · 1 background task still running
+Waiting 12s / 10m · 1 background task still running
+Waiting 13s / 10m · 1 background task still running
+Waiting 14s / 10m · 1 background task still running
+Waiting 15s / 10m · 1 background task still running
+Waiting 16s / 10m · 1 background task still running
+Waiting 17s / 10m · 1 background task still running
+Waiting 18s / 10m · 1 background task still running
+Waiting 19s / 10m · 1 background task still running
+Waiting 20s / 10m · 1 background task still running
+Waiting 21s / 10m · 1 background task still running
+Waiting 22s / 10m · 1 background task still running
+Waiting 23s / 10m · 1 background task still running
+Waiting 24s / 10m · 1 background task still running
+Waiting 25s / 10m · 1 background task still running
+Waiting 26s / 10m · 1 background task still running
+Waiting 27s / 10m · 1 background task still running
+Waiting 28s / 10m · 1 background task still running
+Waiting 29s / 10m · 1 background task still running
+Waiting 30s / 10m · 1 background task still running
+Waiting 31s / 10m · 1 background task still running
+Waiting 32s / 10m · 1 background task still running
+Waiting 33s / 10m · 1 background task still running
+Waiting 34s / 10m · 1 background task still running
+Waiting 35s / 10m · 1 background task still running
+Waiting 36s / 10m · 1 background task still running
+Waiting 37s / 10m · 1 background task still running
+Waiting 38s / 10m · 1 background task still running
+Waiting 39s / 10m · 1 background task still running
+Waiting 40s / 10m · 1 background task still running
+Waiting 41s / 10m · 1 background task still running
+Waiting 42s / 10m · 1 background task still running
+Waiting 43s / 10m · 1 background task still running
+Waiting 44s / 10m · 1 background task still running
+Waiting 45s / 10m · 1 background task still running
+Waiting 46s / 10m · 1 background task still running
+Waiting 47s / 10m · 1 background task still running
+Waiting 48s / 10m · 1 background task still running
+Waiting 49s / 10m · 1 background task still running
+Waiting 50s / 10m · 1 background task still running
+Waiting 52s / 10m · 1 background task still running
+Waiting 53s / 10m · 1 background task still running
+Waiting 54s / 10m · 1 background task still running
+Waiting 55s / 10m · 1 background task still running
+Waiting 56s / 10m · 1 background task still running
+Waiting 57s / 10m · 1 background task still running
+Waiting 58s / 10m · 1 background task still running
+Waiting 59s / 10m · 1 background task still running
+Waiting 1m / 10m · 1 background task still running
+Waiting 1m 01s / 10m · 1 background task still running
+Waiting 1m 02s / 10m · 1 background task still running
+Waiting 1m 03s / 10m · 1 background task still running
+Waiting 1m 04s / 10m · 1 background task still running
+Waiting 1m 05s / 10m · 1 background task still running
+Waiting 1m 06s / 10m · 1 background task still running
+Waiting 1m 07s / 10m · 1 background task still running
+Waiting 1m 08s / 10m · 1 background task still running
+Waiting 1m 09s / 10m · 1 background task still running
+Waiting 1m 10s / 10m · 1 background task still running
+Waiting 1m 11s / 10m · 1 background task still running
+Waiting 1m 12s / 10m · 1 background task still running
+Waiting 1m 13s / 10m · 1 background task still running
+Waiting 1m 14s / 10m · 1 background task still running
+Waiting 1m 15s / 10m · 1 background task still running
+Waiting 1m 16s / 10m · 1 background task still running
+Waiting 1m 17s / 10m · 1 background task still running
+Waiting 1m 18s / 10m · 1 background task still running
+Waiting 1m 19s / 10m · 1 background task still running
+Waiting 1m 20s / 10m · 1 background task still running
+Waiting 1m 21s / 10m · 1 background task still running
+Waiting 1m 22s / 10m · 1 background task still running
+Waiting 1m 23s / 10m · 1 background task still running
+Waiting 1m 24s / 10m · 1 background task still running
+Waiting 1m 25s / 10m · 1 background task still running
+Waiting 1m 26s / 10m · 1 background task still running
+Waiting 1m 27s / 10m · 1 background task still running
+Waiting 1m 28s / 10m · 1 background task still running
+Waiting 1m 29s / 10m · 1 background task still running
+Waiting 1m 30s / 10m · 1 background task still running
+Waiting 1m 31s / 10m · 1 background task still running
+Waiting 1m 32s / 10m · 1 background task still running
+Waiting 1m 33s / 10m · 1 background task still running
+Waiting 1m 34s / 10m · 1 background task still running
+Waiting 1m 35s / 10m · 1 background task still running
+Waiting 1m 36s / 10m · 1 background task still running
+Waiting 1m 37s / 10m · 1 background task still running
+Waiting 1m 38s / 10m · 1 background task still running
+Waiting 1m 39s / 10m · 1 background task still running
+Waiting 1m 40s / 10m · 1 background task still running
+Waiting 1m 41s / 10m · 1 background task still running
+Waiting 1m 42s / 10m · 1 background task still running
+Waiting 1m 43s / 10m · 1 background task still running
+Waiting 1m 44s / 10m · 1 background task still running
+Waiting 1m 45s / 10m · 1 background task still running
+Waiting 1m 46s / 10m · 1 background task still running
+Waiting 1m 47s / 10m · 1 background task still running
+Waiting 1m 48s / 10m · 1 background task still running
+Waiting 1m 49s / 10m · 1 background task still running
+Waiting 1m 50s / 10m · 1 background task still running
+Waiting 1m 51s / 10m · 1 background task still running
+Waiting 1m 52s / 10m · 1 background task still running
+Waiting 1m 53s / 10m · 1 background task still running
+Waiting 1m 54s / 10m · 1 background task still running
+Waiting 1m 55s / 10m · 1 background task still running
+Waiting 1m 56s / 10m · 1 background task still running
+Waiting 1m 57s / 10m · 1 background task still running
+Waiting 1m 58s / 10m · 1 background task still running
+Waiting 1m 59s / 10m · 1 background task still running
+Waiting 2m / 10m · 1 background task still running
+Waiting 2m 01s / 10m · 1 background task still running
+Waiting 2m 02s / 10m · 1 background task still running
+Waiting 2m 03s / 10m · 1 background task still running
+Waiting 2m 04s / 10m · 1 background task still running
+Waiting 2m 05s / 10m · 1 background task still running
+Waiting 2m 06s / 10m · 1 background task still running
+Waiting 2m 07s / 10m · 1 background task still running
+Waiting 2m 08s / 10m · 1 background task still running
+Waiting 2m 09s / 10m · 1 background task still running
+Waiting 2m 10s / 10m · 1 background task still running
+Waiting 2m 11s / 10m · 1 background task still running
+Waiting 2m 12s / 10m · 1 background task still running
+Waiting 2m 13s / 10m · 1 background task still running
+Waiting 2m 14s / 10m · 1 background task still running
+Waiting 2m 15s / 10m · 1 background task still running
+Waiting 2m 16s / 10m · 1 background task still running
+Waiting 2m 17s / 10m · 1 background task still running
+Waiting 2m 18s / 10m · 1 background task still running
+Waiting 2m 19s / 10m · 1 background task still running
+Waiting 2m 20s / 10m · 1 background task still running
+Waiting 2m 21s / 10m · 1 background task still running
+Waiting 2m 22s / 10m · 1 background task still running
+Waiting 2m 23s / 10m · 1 background task still running
+Waiting 2m 24s / 10m · 1 background task still running
+Waiting 2m 25s / 10m · 1 background task still running
+Waiting 2m 26s / 10m · 1 background task still running
+Waiting 2m 27s / 10m · 1 background task still running
+Waiting 2m 28s / 10m · 1 background task still running
+Waiting 2m 30s / 10m · 1 background task still running
+Waiting 2m 31s / 10m · 1 background task still running
+Waiting 2m 32s / 10m · 1 background task still running
+Waiting 2m 33s / 10m · 1 background task still running
+Waiting 2m 34s / 10m · 1 background task still running
+Waiting 2m 35s / 10m · 1 background task still running
+Waiting 2m 36s / 10m · 1 background task still running
+Waiting 2m 37s / 10m · 1 background task still running
+Waiting 2m 38s / 10m · 1 background task still running
+Waiting 2m 39s / 10m · 1 background task still running
+Waiting 2m 40s / 10m · 1 background task still running
+Waiting 2m 41s / 10m · 1 background task still running
+Waiting 2m 42s / 10m · 1 background task still running
+Waiting 2m 43s / 10m · 1 background task still running
+Waiting 2m 44s / 10m · 1 background task still running
+Waiting 2m 45s / 10m · 1 background task still running
+Waiting 2m 46s / 10m · 1 background task still running
+Waiting 2m 47s / 10m · 1 background task still running
+Waiting 2m 48s / 10m · 1 background task still running
+Waiting 2m 49s / 10m · 1 background task still running
+Waiting 2m 50s / 10m · 1 background task still running
+Waiting 2m 51s / 10m · 1 background task still running
+Waiting 2m 52s / 10m · 1 background task still running
+Waiting 2m 53s / 10m · 1 background task still running
+Waiting 2m 54s / 10m · 1 background task still running
+Waiting 2m 55s / 10m · 1 background task still running
+Waiting 2m 56s / 10m · 1 background task still running
+Waiting 2m 57s / 10m · 1 background task still running
+Waiting 2m 58s / 10m · 1 background task still running
+Waiting 2m 59s / 10m · 1 background task still running
+Waiting 3m / 10m · 1 background task still running
+Waiting 3m 01s / 10m · 1 background task still running
+Waiting 3m 02s / 10m · 1 background task still running
+Waiting 3m 03s / 10m · 1 background task still running
+Waiting 3m 04s / 10m · 1 background task still running
+Waiting 3m 05s / 10m · 1 background task still running
+Waiting 3m 06s / 10m · 1 background task still running
+Waiting 3m 07s / 10m · 1 background task still running
+Waiting 3m 08s / 10m · 1 background task still running
+Waiting 3m 09s / 10m · 1 background task still running
+Waiting 3m 10s / 10m · 1 background task still running
+Waiting 3m 11s / 10m · 1 background task still running
+Waiting 3m 12s / 10m · 1 background task still running
+Waiting 3m 13s / 10m · 1 background task still running
+Waiting 3m 14s / 10m · 1 background task still running
+Waiting 3m 15s / 10m · 1 background task still running
+Waiting 3m 16s / 10m · 1 background task still running
+Waiting 3m 17s / 10m · 1 background task still running
+Waiting 3m 18s / 10m · 1 background task still running
+Waiting 3m 19s / 10m · 1 background task still running
+Waiting 3m 20s / 10m · 1 background task still running
+Waiting 3m 21s / 10m · 1 background task still running
+Waiting 3m 22s / 10m · 1 background task still running
+Waiting 3m 23s / 10m · 1 background task still running
+Waiting 3m 24s / 10m · 1 background task still running
+Waiting 3m 25s / 10m · 1 background task still running
+Waiting 3m 26s / 10m · 1 background task still running
+Waiting 3m 27s / 10m · 1 background task still running
+Waiting 3m 28s / 10m · 1 background task still running
+Waiting 3m 29s / 10m · 1 background task still running
+Waiting 3m 30s / 10m · 1 background task still running
+Waiting 3m 31s / 10m · 1 background task still running
+Waiting 3m 32s / 10m · 1 background task still running
+Waiting 3m 33s / 10m · 1 background task still running
+Waiting 3m 34s / 10m · 1 background task still running
+Waiting 3m 35s / 10m · 1 background task still running
+Waiting 3m 36s / 10m · 1 background task still running
+Waiting 3m 37s / 10m · 1 background task still running
+Waiting 3m 38s / 10m · 1 background task still running
+Waiting 3m 39s / 10m · 1 background task still running
+Waiting 3m 40s / 10m · 1 background task still running
+Waiting 3m 41s / 10m · 1 background task still running
+Waiting 3m 42s / 10m · 1 background task still running
+Waiting 3m 43s / 10m · 1 background task still running
+Waiting 3m 44s / 10m · 1 background task still running
+Waiting 3m 45s / 10m · 1 background task still running
+Waiting 3m 46s / 10m · 1 background task still running
+Waiting 3m 47s / 10m · 1 background task still running
+Waiting 3m 48s / 10m · 1 background task still running
+Waiting 3m 49s / 10m · 1 background task still running
+Waiting 3m 50s / 10m · 1 background task still running
+Waiting 3m 51s / 10m · 1 background task still running
+Waiting 3m 52s / 10m · 1 background task still running
+Waiting 3m 53s / 10m · 1 background task still running
+Waiting 3m 54s / 10m · 1 background task still running
+Waiting 3m 55s / 10m · 1 background task still running
+Waiting 3m 56s / 10m · 1 background task still running
+Waiting 3m 57s / 10m · 1 background task still running
+Waiting 3m 58s / 10m · 1 background task still running
+Waiting 3m 59s / 10m · 1 background task still running
+Waiting 4m / 10m · 1 background task still running
+Waiting 4m 01s / 10m · 1 background task still running
+Waiting 4m 02s / 10m · 1 background task still running
+Waiting 4m 03s / 10m · 1 background task still running
+Waiting 4m 04s / 10m · 1 background task still running
+Waiting 4m 05s / 10m · 1 background task still running
+Waiting 4m 06s / 10m · 1 background task still running
+Waiting 4m 08s / 10m · 1 background task still running
+Waiting 4m 09s / 10m · 1 background task still running
+Waiting 4m 10s / 10m · 1 background task still running
+Waiting 4m 11s / 10m · 1 background task still running
+Waiting 4m 12s / 10m · 1 background task still running
+Waiting 4m 13s / 10m · 1 background task still running
+Waiting 4m 14s / 10m · 1 background task still running
+Waiting 4m 15s / 10m · 1 background task still running
+Waiting 4m 16s / 10m · 1 background task still running
+Waiting 4m 17s / 10m · 1 background task still running
+Waiting 4m 18s / 10m · 1 background task still running
+Waiting 4m 19s / 10m · 1 background task still running
+Waiting 4m 20s / 10m · 1 background task still running
+Waiting 4m 21s / 10m · 1 background task still running
+Waiting 4m 22s / 10m · 1 background task still running
+Waiting 4m 23s / 10m · 1 background task still running
+Waiting 4m 24s / 10m · 1 background task still running
+Waiting 4m 25s / 10m · 1 background task still running
+Waiting 4m 26s / 10m · 1 background task still running
+Waiting 4m 27s / 10m · 1 background task still running
+Waiting 4m 28s / 10m · 1 background task still running
+Waiting 4m 29s / 10m · 1 background task still running
+Waiting 4m 30s / 10m · 1 background task still running
+Waiting 4m 31s / 10m · 1 background task still running
+Waiting 4m 32s / 10m · 1 background task still running
+Waiting 4m 33s / 10m · 1 background task still running
+Waiting 4m 34s / 10m · 1 background task still running
+Waiting 4m 35s / 10m · 1 background task still running
+Waiting 4m 36s / 10m · 1 background task still running
+Waiting 4m 37s / 10m · 1 background task still running
+Waiting 4m 38s / 10m · 1 background task still running
+Waiting 4m 39s / 10m · 1 background task still running
+Waiting 4m 40s / 10m · 1 background task still running
+Waiting 4m 41s / 10m · 1 background task still running
+Waiting 4m 42s / 10m · 1 background task still running
+Waiting 4m 43s / 10m · 1 background task still running
+Waiting 4m 44s / 10m · 1 background task still running
+Waiting 4m 45s / 10m · 1 background task still running
+Waiting 4m 46s / 10m · 1 background task still running
+Waiting 4m 47s / 10m · 1 background task still running
+Waiting 4m 48s / 10m · 1 background task still running
+Waiting 4m 49s / 10m · 1 background task still running
+Waiting 4m 50s / 10m · 1 background task still running
+Waiting 4m 51s / 10m · 1 background task still running
+Waiting 4m 52s / 10m · 1 background task still running
+Waiting 4m 53s / 10m · 1 background task still running
+Waiting 4m 54s / 10m · 1 background task still running
+Waiting 4m 55s / 10m · 1 background task still running
+Waiting 4m 56s / 10m · 1 background task still running
+Waiting 4m 57s / 10m · 1 background task still running
+Waiting 4m 58s / 10m · 1 background task still running
+Waiting 4m 59s / 10m · 1 background task still running
+Waiting 5m / 10m · 1 background task still running
+Waiting 5m 01s / 10m · 1 background task still running
+Waiting 5m 02s / 10m · 1 background task still running
+Waiting 5m 03s / 10m · 1 background task still running
+Waiting 5m 04s / 10m · 1 background task still running
+Waiting 5m 05s / 10m · 1 background task still running
+Waiting 5m 06s / 10m · 1 background task still running
+Waiting 5m 07s / 10m · 1 background task still running
+Waiting 5m 08s / 10m · 1 background task still running
+Waiting 5m 09s / 10m · 1 background task still running
+Waiting 5m 10s / 10m · 1 background task still running
+Waiting 5m 11s / 10m · 1 background task still running
+Waiting 5m 12s / 10m · 1 background task still running
+Waiting 5m 13s / 10m · 1 background task still running
+Waiting 5m 14s / 10m · 1 background task still running
+Waiting 5m 15s / 10m · 1 background task still running
+Waiting 5m 16s / 10m · 1 background task still running
+Waiting 5m 17s / 10m · 1 background task still running
+Waiting 5m 18s / 10m · 1 background task still running
+Waiting 5m 19s / 10m · 1 background task still running
+Waiting 5m 20s / 10m · 1 background task still running
+Waiting 5m 21s / 10m · 1 background task still running
+Waiting 5m 22s / 10m · 1 background task still running
+Waiting 5m 23s / 10m · 1 background task still running
+Waiting 5m 24s / 10m · 1 background task still running
+Waiting 5m 25s / 10m · 1 background task still running
+Waiting 5m 26s / 10m · 1 background task still running
+Waiting 5m 27s / 10m · 1 background task still running
+Waiting 5m 28s / 10m · 1 background task still running
+Waiting 5m 29s / 10m · 1 background task still running
+Waiting 5m 30s / 10m · 1 background task still running
+Waiting 5m 31s / 10m · 1 background task still running
+Waiting 5m 32s / 10m · 1 background task still running
+Waiting 5m 33s / 10m · 1 background task still running
+Waiting 5m 34s / 10m · 1 background task still running
+Waiting 5m 35s / 10m · 1 background task still running
+Waiting 5m 36s / 10m · 1 background task still running
+Waiting 5m 37s / 10m · 1 background task still running
+Waiting 5m 38s / 10m · 1 background task still running
+Waiting 5m 39s / 10m · 1 background task still running
+Waiting 5m 40s / 10m · 1 background task still running
+Waiting 5m 41s / 10m · 1 background task still running
+Waiting 5m 42s / 10m · 1 background task still running
+Waiting 5m 43s / 10m · 1 background task still running
+Waiting 5m 44s / 10m · 1 background task still running
+Waiting 5m 45s / 10m · 1 background task still running
+Waiting 5m 46s / 10m · 1 background task still running
+Waiting 5m 47s / 10m · 1 background task still running
+Waiting 5m 48s / 10m · 1 background task still running
+Waiting 5m 49s / 10m · 1 background task still running
+Waiting 5m 50s / 10m · 1 background task still running
+Waiting 5m 51s / 10m · 1 background task still running
+Waiting 5m 52s / 10m · 1 background task still running
+Waiting 5m 53s / 10m · 1 background task still running
+Waiting 5m 54s / 10m · 1 background task still running
+Waiting 5m 55s / 10m · 1 background task still running
+Waiting 5m 56s / 10m · 1 background task still running
+Waiting 5m 58s / 10m · 1 background task still running
+Waiting 5m 59s / 10m · 1 background task still running
+Waiting 6m / 10m · 1 background task still running
+Waiting 6m 01s / 10m · 1 background task still running
+Waiting 6m 02s / 10m · 1 background task still running
+Waiting 6m 03s / 10m · 1 background task still running
+Waiting 6m 04s / 10m · 1 background task still running
+Waiting 6m 05s / 10m · 1 background task still running
+Waiting 6m 06s / 10m · 1 background task still running
+Waiting 6m 07s / 10m · 1 background task still running
+Waiting 6m 08s / 10m · 1 background task still running
+Waiting 6m 09s / 10m · 1 background task still running
+Waiting 6m 10s / 10m · 1 background task still running
+Waiting 6m 11s / 10m · 1 background task still running
+Waiting 6m 12s / 10m · 1 background task still running
+Waiting 6m 13s / 10m · 1 background task still running
+Waiting 6m 14s / 10m · 1 background task still running
+Waiting 6m 15s / 10m · 1 background task still running
+Waiting 6m 16s / 10m · 1 background task still running
+Waiting 6m 17s / 10m · 1 background task still running
+Waiting 6m 18s / 10m · 1 background task still running
+Waiting 6m 19s / 10m · 1 background task still running
+Waiting 6m 20s / 10m · 1 background task still running
+Waiting 6m 21s / 10m · 1 background task still running
+Waiting 6m 22s / 10m · 1 background task still running
+Waiting 6m 23s / 10m · 1 background task still running
+Waiting 6m 24s / 10m · 1 background task still running
+Waiting 6m 25s / 10m · 1 background task still running
+Waiting 6m 26s / 10m · 1 background task still running
+Waiting 6m 27s / 10m · 1 background task still running
+Waiting 6m 28s / 10m · 1 background task still running
+Waiting 6m 29s / 10m · 1 background task still running
+Waiting 6m 30s / 10m · 1 background task still running
+Waiting 6m 31s / 10m · 1 background task still running
+Waiting 6m 32s / 10m · 1 background task still running
+Waiting 6m 33s / 10m · 1 background task still running
+Waiting 6m 34s / 10m · 1 background task still running
+Waiting 6m 35s / 10m · 1 background task still running
+Waiting 6m 36s / 10m · 1 background task still running
+Waiting 6m 37s / 10m · 1 background task still running
+Waiting 6m 38s / 10m · 1 background task still running
+Waiting 6m 39s / 10m · 1 background task still running
+Waiting 6m 40s / 10m · 1 background task still running
+Waiting 6m 41s / 10m · 1 background task still running
+Waiting 6m 42s / 10m · 1 background task still running
+Waiting 6m 43s / 10m · 1 background task still running
+Waiting 6m 44s / 10m · 1 background task still running
+Waiting 6m 45s / 10m · 1 background task still running
+Waiting 6m 46s / 10m · 1 background task still running
+Waiting 6m 47s / 10m · 1 background task still running
+Waiting 6m 48s / 10m · 1 background task still running
+Waiting 6m 49s / 10m · 1 background task still running
+Waiting 6m 50s / 10m · 1 background task still running
+Waiting 6m 51s / 10m · 1 background task still running
+Waiting 6m 52s / 10m · 1 background task still running
+Waiting 6m 53s / 10m · 1 background task still running
+Waiting 6m 54s / 10m · 1 background task still running
+Waiting 6m 55s / 10m · 1 background task still running
+Waiting 6m 56s / 10m · 1 background task still running
+Waiting 6m 57s / 10m · 1 background task still running
+Waiting 6m 58s / 10m · 1 background task still running
+Waiting 6m 59s / 10m · 1 background task still running
+Waiting 7m / 10m · 1 background task still running
+Waiting 7m 01s / 10m · 1 background task still running
+Waiting 7m 02s / 10m · 1 background task still running
+Waiting 7m 03s / 10m · 1 background task still running
+Waiting 7m 04s / 10m · 1 background task still running
+Waiting 7m 05s / 10m · 1 background task still running
+Waiting 7m 06s / 10m · 1 background task still running
+Waiting 7m 07s / 10m · 1 background task still running
+Waiting 7m 08s / 10m · 1 background task still running
+Waiting 7m 09s / 10m · 1 background task still running
+Waiting 7m 10s / 10m · 1 background task still running
+Waiting 7m 11s / 10m · 1 background task still running
+Waiting 7m 12s / 10m · 1 background task still running
+Waiting 7m 13s / 10m · 1 background task still running
+Waiting 7m 14s / 10m · 1 background task still running
+Waiting 7m 15s / 10m · 1 background task still running
+Waiting 7m 16s / 10m · 1 background task still running
+Waiting 7m 17s / 10m · 1 background task still running
+Waiting 7m 18s / 10m · 1 background task still running
+Waiting 7m 19s / 10m · 1 background task still running
+Waiting 7m 20s / 10m · 1 background task still running
+Waiting 7m 21s / 10m · 1 background task still running
+Waiting 7m 22s / 10m · 1 background task still running
+Waiting 7m 23s / 10m · 1 background task still running
+Waiting 7m 24s / 10m · 1 background task still running
+Waiting 7m 25s / 10m · 1 background task still running
+Waiting 7m 26s / 10m · 1 background task still running
+Waiting 7m 27s / 10m · 1 background task still running
+Waiting 7m 28s / 10m · 1 background task still running
+Waiting 7m 29s / 10m · 1 background task still running
+Waiting 7m 30s / 10m · 1 background task still running
+Waiting 7m 31s / 10m · 1 background task still running
+Waiting 7m 32s / 10m · 1 background task still running
+Waiting 7m 33s / 10m · 1 background task still running
+Waiting 7m 34s / 10m · 1 background task still running
+Waiting 7m 35s / 10m · 1 background task still running
+Waiting 7m 36s / 10m · 1 background task still running
+Waiting 7m 37s / 10m · 1 background task still running
+Waiting 7m 39s / 10m · 1 background task still running
+Waiting 7m 40s / 10m · 1 background task still running
+Waiting 7m 41s / 10m · 1 background task still running
+Waiting 7m 42s / 10m · 1 background task still running
+Waiting 7m 43s / 10m · 1 background task still running
+Waiting 7m 44s / 10m · 1 background task still running
+Waiting 7m 45s / 10m · 1 background task still running
+Waiting 7m 46s / 10m · 1 background task still running
+Waiting 7m 47s / 10m · 1 background task still running
+Waiting 7m 48s / 10m · 1 background task still running
+Waiting 7m 49s / 10m · 1 background task still running
+Waiting 7m 50s / 10m · 1 background task still running
+Waiting 7m 51s / 10m · 1 background task still running
+Waiting 7m 52s / 10m · 1 background task still running
+Waiting 7m 53s / 10m · 1 background task still running
+Waiting 7m 54s / 10m · 1 background task still running
+Waiting 7m 55s / 10m · 1 background task still running
+Waiting 7m 56s / 10m · 1 background task still running
+Waiting 7m 57s / 10m · 1 background task still running
+Waiting 7m 58s / 10m · 1 background task still running
+Waiting 7m 59s / 10m · 1 background task still running
+Waiting 8m / 10m · 1 background task still running
+Waiting 8m 01s / 10m · 1 background task still running
+Waiting 8m 02s / 10m · 1 background task still running
+Waiting 8m 03s / 10m · 1 background task still running
+Waiting 8m 04s / 10m · 1 background task still running
+Waiting 8m 05s / 10m · 1 background task still running
+Waiting 8m 06s / 10m · 1 background task still running
+Waiting 8m 07s / 10m · 1 background task still running
+Waiting 8m 08s / 10m · 1 background task still running
+Waiting 8m 09s / 10m · 1 background task still running
+Waiting 8m 10s / 10m · 1 background task still running
+Waiting 8m 11s / 10m · 1 background task still running
+Waiting 8m 12s / 10m · 1 background task still running
+Waiting 8m 13s / 10m · 1 background task still running
+Waiting 8m 14s / 10m · 1 background task still running
+Waiting 8m 15s / 10m · 1 background task still running
+Waiting 8m 16s / 10m · 1 background task still running
+Waiting 8m 17s / 10m · 1 background task still running
+Waiting 8m 18s / 10m · 1 background task still running
+Waiting 8m 19s / 10m · 1 background task still running
+Waiting 8m 20s / 10m · 1 background task still running
+Waiting 8m 21s / 10m · 1 background task still running
+Waiting 8m 22s / 10m · 1 background task still running
+Waiting 8m 23s / 10m · 1 background task still running
+Waiting 8m 24s / 10m · 1 background task still running
+Waiting 8m 25s / 10m · 1 background task still running
+Waiting 8m 26s / 10m · 1 background task still running
+Waiting 8m 27s / 10m · 1 background task still running
+Waiting 8m 28s / 10m · 1 background task still running
+Waiting 8m 29s / 10m · 1 background task still running
+Waiting 8m 30s / 10m · 1 background task still running
+Waiting 8m 31s / 10m · 1 background task still running
+Waiting 8m 32s / 10m · 1 background task still running
+Waiting 8m 33s / 10m · 1 background task still running
+Waiting 8m 34s / 10m · 1 background task still running
+Waiting 8m 35s / 10m · 1 background task still running
+Waiting 8m 36s / 10m · 1 background task still running
+Waiting 8m 37s / 10m · 1 background task still running
+Waiting 8m 38s / 10m · 1 background task still running
+Waiting 8m 39s / 10m · 1 background task still running
+Waiting 8m 40s / 10m · 1 background task still running
+Waiting 8m 41s / 10m · 1 background task still running
+Waiting 8m 42s / 10m · 1 background task still running
+Waiting 8m 43s / 10m · 1 background task still running
+Waiting 8m 44s / 10m · 1 background task still running
+Waiting 8m 45s / 10m · 1 background task still running
+Waiting 8m 46s / 10m · 1 background task still running
+Waiting 8m 47s / 10m · 1 background task still running
+Waiting 8m 48s / 10m · 1 background task still running
+Waiting 8m 49s / 10m · 1 background task still running
+Waiting 8m 50s / 10m · 1 background task still running
+Waiting 8m 51s / 10m · 1 background task still running
+Waiting 8m 52s / 10m · 1 background task still running
+Waiting 8m 53s / 10m · 1 background task still running
+Waiting 8m 54s / 10m · 1 background task still running
+Waiting 8m 55s / 10m · 1 background task still running
+Waiting 8m 56s / 10m · 1 background task still running
+Waiting 8m 57s / 10m · 1 background task still running
+Waiting 8m 58s / 10m · 1 background task still running
+Waiting 8m 59s / 10m · 1 background task still running
+Waiting 9m / 10m · 1 background task still running
+Waiting 9m 01s / 10m · 1 background task still running
+Waiting 9m 02s / 10m · 1 background task still running
+Waiting 9m 03s / 10m · 1 background task still running
+Waiting 9m 04s / 10m · 1 background task still running
+Waiting 9m 05s / 10m · 1 background task still running
+Waiting 9m 06s / 10m · 1 background task still running
+Waiting 9m 07s / 10m · 1 background task still running
+Waiting 9m 08s / 10m · 1 background task still running
+Waiting 9m 09s / 10m · 1 background task still running
+Waiting 9m 10s / 10m · 1 background task still running
+Waiting 9m 11s / 10m · 1 background task still running
+Waiting 9m 12s / 10m · 1 background task still running
+Waiting 9m 13s / 10m · 1 background task still running
+Waiting 9m 14s / 10m · 1 background task still running
+Waiting 9m 15s / 10m · 1 background task still running
+Waiting 9m 16s / 10m · 1 background task still running
+Waiting 9m 17s / 10m · 1 background task still running
+Waiting 9m 18s / 10m · 1 background task still running
+Waiting 9m 20s / 10m · 1 background task still running
+Waiting 9m 21s / 10m · 1 background task still running
+Waiting 9m 22s / 10m · 1 background task still running
+Waiting 9m 23s / 10m · 1 background task still running
+Waiting 9m 24s / 10m · 1 background task still running
+Waiting 9m 25s / 10m · 1 background task still running
+Waiting 9m 26s / 10m · 1 background task still running
+Waiting 9m 27s / 10m · 1 background task still running
+Waiting 9m 28s / 10m · 1 background task still running
+Waiting 9m 29s / 10m · 1 background task still running
+Waiting 9m 30s / 10m · 1 background task still running
+Waiting 9m 31s / 10m · 1 background task still running
+Waiting 9m 32s / 10m · 1 background task still running
+Waiting 9m 33s / 10m · 1 background task still running
+Waiting 9m 34s / 10m · 1 background task still running
+Waiting 9m 35s / 10m · 1 background task still running
+Waiting 9m 36s / 10m · 1 background task still running
+Waiting 9m 37s / 10m · 1 background task still running
+Waiting 9m 38s / 10m · 1 background task still running
+Waiting 9m 39s / 10m · 1 background task still running
+Waiting 9m 40s / 10m · 1 background task still running
+Waiting 9m 41s / 10m · 1 background task still running
+Waiting 9m 42s / 10m · 1 background task still running
+Waiting 9m 43s / 10m · 1 background task still running
+Waiting 9m 44s / 10m · 1 background task still running
+Waiting 9m 45s / 10m · 1 background task still running
+Waiting 9m 46s / 10m · 1 background task still running
+Waiting 9m 47s / 10m · 1 background task still running
+Waiting 9m 48s / 10m · 1 background task still running
+Waiting 9m 49s / 10m · 1 background task still running
+Waiting 9m 50s / 10m · 1 background task still running
+Waiting 9m 51s / 10m · 1 background task still running
+Waiting 9m 52s / 10m · 1 background task still running
+Waiting 9m 53s / 10m · 1 background task still running
+Waiting 9m 54s / 10m · 1 background task still running
+Waiting 9m 55s / 10m · 1 background task still running
+Waiting 9m 56s / 10m · 1 background task still running
+Waiting 9m 57s / 10m · 1 background task still running
+Waiting 9m 58s / 10m · 1 background task still running
+Waiting 9m 59s / 10m · 1 background task still running
+Waiting 10m / 10m · 1 background task still running
+Waiting 0s / 10m · 1 background task still running
+Waiting 1s / 10m · 1 background task still running
+Waiting 2s / 10m · 1 background task still running
+Waiting 3s / 10m · 1 background task still running
+Waiting 4s / 10m · 1 background task still running
+Waiting 5s / 10m · 1 background task still running
+Waiting 6s / 10m · 1 background task still running
+Waiting 7s / 10m · 1 background task still running
+Waiting 8s / 10m · 1 background task still running
+Waiting 9s / 10m · 1 background task still running
+Waiting 10s / 10m · 1 background task still running
+Waiting 11s / 10m · 1 background task still running
+Waiting 12s / 10m · 1 background task still running
+Waiting 13s / 10m · 1 background task still running
+Waiting 14s / 10m · 1 background task still running
+Waiting 15s / 10m · 1 background task still running
+Waiting 16s / 10m · 1 background task still running
+Waiting 17s / 10m · 1 background task still running
+Waiting 18s / 10m · 1 background task still running
+Waiting 19s / 10m · 1 background task still running
+Waiting 20s / 10m · 1 background task still running
+Waiting 21s / 10m · 1 background task still running
+Waiting 22s / 10m · 1 background task still running
+Waiting 23s / 10m · 1 background task still running
+Waiting 24s / 10m · 1 background task still running
+Waiting 25s / 10m · 1 background task still running
+Waiting 26s / 10m · 1 background task still running
+Waiting 27s / 10m · 1 background task still running
+Waiting 28s / 10m · 1 background task still running
+Waiting 29s / 10m · 1 background task still running
+Waiting 30s / 10m · 1 background task still running
+Waiting 31s / 10m · 1 background task still running
+Waiting 32s / 10m · 1 background task still running
+Waiting 33s / 10m · 1 background task still running
+Waiting 34s / 10m · 1 background task still running
+Waiting 35s / 10m · 1 background task still running
+Waiting 36s / 10m · 1 background task still running
+Waiting 37s / 10m · 1 background task still running
+Waiting 38s / 10m · 1 background task still running
+Waiting 39s / 10m · 1 background task still running
+Waiting 40s / 10m · 1 background task still running
+Waiting 41s / 10m · 1 background task still running
+Waiting 42s / 10m · 1 background task still running
+Waiting 43s / 10m · 1 background task still running
+Waiting 44s / 10m · 1 background task still running
+Waiting 45s / 10m · 1 background task still running
+Waiting 46s / 10m · 1 background task still running
+Waiting 47s / 10m · 1 background task still running
+Waiting 48s / 10m · 1 background task still running
+Waiting 49s / 10m · 1 background task still running
+Waiting 50s / 10m · 1 background task still running
+Waiting 52s / 10m · 1 background task still running
+Waiting 53s / 10m · 1 background task still running
+Waiting 54s / 10m · 1 background task still running
+Waiting 55s / 10m · 1 background task still running
+Waiting 56s / 10m · 1 background task still running
+Waiting 57s / 10m · 1 background task still running
+Waiting 58s / 10m · 1 background task still running
+Waiting 59s / 10m · 1 background task still running
+Waiting 1m / 10m · 1 background task still running
+Waiting 1m 01s / 10m · 1 background task still running
+Waiting 1m 02s / 10m · 1 background task still running
+Waiting 1m 03s / 10m · 1 background task still running
+Waiting 1m 04s / 10m · 1 background task still running
+Waiting 1m 05s / 10m · 1 background task still running
+Waiting 1m 06s / 10m · 1 background task still running
+Waiting 1m 07s / 10m · 1 background task still running
+Waiting 1m 08s / 10m · 1 background task still running
+Waiting 1m 09s / 10m · 1 background task still running
+Waiting 1m 10s / 10m · 1 background task still running
+Waiting 1m 11s / 10m · 1 background task still running
+Waiting 1m 12s / 10m · 1 background task still running
+Waiting 1m 13s / 10m · 1 background task still running
+Waiting 1m 14s / 10m · 1 background task still running
+Waiting 1m 15s / 10m · 1 background task still running
+Waiting 1m 16s / 10m · 1 background task still running
+Waiting 1m 17s / 10m · 1 background task still running
+Waiting 1m 18s / 10m · 1 background task still running
+Waiting 1m 19s / 10m · 1 background task still running
+Waiting 1m 20s / 10m · 1 background task still running
+Waiting 1m 21s / 10m · 1 background task still running
+Waiting 1m 22s / 10m · 1 background task still running
+Waiting 1m 23s / 10m · 1 background task still running
+Waiting 1m 24s / 10m · 1 background task still running
+Waiting 1m 25s / 10m · 1 background task still running
+Waiting 1m 26s / 10m · 1 background task still running
+Waiting 1m 27s / 10m · 1 background task still running
+Waiting 1m 28s / 10m · 1 background task still running
+Waiting 1m 29s / 10m · 1 background task still running
+Waiting 1m 30s / 10m · 1 background task still running
+Waiting 1m 31s / 10m · 1 background task still running
+Waiting 1m 32s / 10m · 1 background task still running
+Waiting 1m 33s / 10m · 1 background task still running
+Waiting 1m 34s / 10m · 1 background task still running
+Waiting 1m 35s / 10m · 1 background task still running
+Waiting 1m 36s / 10m · 1 background task still running
+Waiting 1m 37s / 10m · 1 background task still running
+Waiting 1m 38s / 10m · 1 background task still running
+Waiting 1m 39s / 10m · 1 background task still running
+Waiting 1m 40s / 10m · 1 background task still running
+Waiting 1m 41s / 10m · 1 background task still running
+Waiting 1m 42s / 10m · 1 background task still running
+Waiting 1m 43s / 10m · 1 background task still running
+Waiting 1m 44s / 10m · 1 background task still running
+Waiting 1m 45s / 10m · 1 background task still running
+Waiting 1m 46s / 10m · 1 background task still running
+Waiting 1m 47s / 10m · 1 background task still running
+Waiting 1m 48s / 10m · 1 background task still running
+Waiting 1m 49s / 10m · 1 background task still running
+Waiting 1m 50s / 10m · 1 background task still running
+Waiting 1m 51s / 10m · 1 background task still running
+Waiting 1m 52s / 10m · 1 background task still running
+Waiting 1m 53s / 10m · 1 background task still running
+Waiting 1m 54s / 10m · 1 background task still running
+Waiting 1m 55s / 10m · 1 background task still running
+Waiting 1m 56s / 10m · 1 background task still running
+Waiting 1m 57s / 10m · 1 background task still running
+Waiting 1m 58s / 10m · 1 background task still running
+Waiting 1m 59s / 10m · 1 background task still running
+Waiting 2m / 10m · 1 background task still running
+Waiting 2m 01s / 10m · 1 background task still running
+Waiting 2m 02s / 10m · 1 background task still running
+Waiting 2m 03s / 10m · 1 background task still running
+Waiting 2m 04s / 10m · 1 background task still running
+Waiting 2m 05s / 10m · 1 background task still running
+Waiting 2m 06s / 10m · 1 background task still running
+Waiting 2m 07s / 10m · 1 background task still running
+Waiting 2m 08s / 10m · 1 background task still running
+Waiting 2m 09s / 10m · 1 background task still running
+Waiting 2m 10s / 10m · 1 background task still running
+Waiting 2m 11s / 10m · 1 background task still running
+Waiting 2m 12s / 10m · 1 background task still running
+Waiting 2m 13s / 10m · 1 background task still running
+Waiting 2m 14s / 10m · 1 background task still running
+Waiting 2m 15s / 10m · 1 background task still running
+Waiting 2m 16s / 10m · 1 background task still running
+Waiting 2m 17s / 10m · 1 background task still running
+Waiting 2m 18s / 10m · 1 background task still running
+Waiting 2m 19s / 10m · 1 background task still running
+Waiting 2m 20s / 10m · 1 background task still running
+Waiting 2m 21s / 10m · 1 background task still running
+Waiting 2m 22s / 10m · 1 background task still running
+Waiting 2m 23s / 10m · 1 background task still running
+Waiting 2m 24s / 10m · 1 background task still running
+Waiting 2m 25s / 10m · 1 background task still running
+Waiting 2m 26s / 10m · 1 background task still running
+Waiting 2m 27s / 10m · 1 background task still running
+Waiting 2m 28s / 10m · 1 background task still running
+Waiting 2m 29s / 10m · 1 background task still running
+Waiting 2m 30s / 10m · 1 background task still running
+Waiting 2m 32s / 10m · 1 background task still running
+Waiting 2m 33s / 10m · 1 background task still running
+Waiting 2m 34s / 10m · 1 background task still running
+Waiting 2m 35s / 10m · 1 background task still running
+Waiting 2m 36s / 10m · 1 background task still running
+Waiting 2m 37s / 10m · 1 background task still running
+Waiting 2m 38s / 10m · 1 background task still running
+Waiting 2m 39s / 10m · 1 background task still running
+Waiting 2m 40s / 10m · 1 background task still running
+Waiting 2m 41s / 10m · 1 background task still running
+Waiting 2m 42s / 10m · 1 background task still running
+Waiting 2m 43s / 10m · 1 background task still running
+Waiting 2m 44s / 10m · 1 background task still running
+Waiting 2m 45s / 10m · 1 background task still running
+Waiting 2m 46s / 10m · 1 background task still running
+Waiting 2m 47s / 10m · 1 background task still running
+Waiting 2m 48s / 10m · 1 background task still running
+Waiting 2m 49s / 10m · 1 background task still running
+Waiting 2m 50s / 10m · 1 background task still running
+Waiting 2m 51s / 10m · 1 background task still running
+Waiting 2m 52s / 10m · 1 background task still running
+Waiting 2m 53s / 10m · 1 background task still running
+Waiting 2m 54s / 10m · 1 background task still running
+Waiting 2m 55s / 10m · 1 background task still running
+Waiting 2m 56s / 10m · 1 background task still running
+Waiting 2m 57s / 10m · 1 background task still running
+Waiting 2m 58s / 10m · 1 background task still running
+Waiting 2m 59s / 10m · 1 background task still running
+Waiting 3m / 10m · 1 background task still running
+Waiting 3m 01s / 10m · 1 background task still running
+Waiting 3m 02s / 10m · 1 background task still running
+Waiting 3m 03s / 10m · 1 background task still running
+Waiting 3m 04s / 10m · 1 background task still running
+Waiting 3m 05s / 10m · 1 background task still running
+Waiting 3m 06s / 10m · 1 background task still running
+Waiting 3m 07s / 10m · 1 background task still running
+Waiting 3m 08s / 10m · 1 background task still running
+Waiting 3m 09s / 10m · 1 background task still running
+Waiting 3m 10s / 10m · 1 background task still running
+Waiting 3m 11s / 10m · 1 background task still running
+Waiting 3m 12s / 10m · 1 background task still running
+Waiting 3m 13s / 10m · 1 background task still running
+Waiting 3m 14s / 10m · 1 background task still running
+Waiting 3m 15s / 10m · 1 background task still running
+Waiting 3m 16s / 10m · 1 background task still running
+Waiting 3m 17s / 10m · 1 background task still running
+Waiting 3m 18s / 10m · 1 background task still running
+Waiting 3m 19s / 10m · 1 background task still running
+Waiting 3m 20s / 10m · 1 background task still running
+Waiting 3m 21s / 10m · 1 background task still running
+Waiting 3m 22s / 10m · 1 background task still running
+Waiting 3m 23s / 10m · 1 background task still running
+Waiting 3m 24s / 10m · 1 background task still running
+Waiting 3m 25s / 10m · 1 background task still running
+Waiting 3m 26s / 10m · 1 background task still running
+Waiting 3m 27s / 10m · 1 background task still running
+Waiting 3m 28s / 10m · 1 background task still running
+Waiting 3m 29s / 10m · 1 background task still running
+Waiting 3m 30s / 10m · 1 background task still running
+Waiting 3m 31s / 10m · 1 background task still running
+Waiting 3m 32s / 10m · 1 background task still running
+Waiting 3m 33s / 10m · 1 background task still running
+Waiting 3m 34s / 10m · 1 background task still running
+Waiting 3m 35s / 10m · 1 background task still running
+Waiting 3m 36s / 10m · 1 background task still running
+Waiting 3m 37s / 10m · 1 background task still running
+Waiting 3m 38s / 10m · 1 background task still running
+Waiting 3m 39s / 10m · 1 background task still running
+Waiting 3m 40s / 10m · 1 background task still running
+Waiting 3m 41s / 10m · 1 background task still running
+Waiting 3m 42s / 10m · 1 background task still running
+Waiting 3m 43s / 10m · 1 background task still running
+Waiting 3m 44s / 10m · 1 background task still running
+Waiting 3m 45s / 10m · 1 background task still running
+Waiting 3m 46s / 10m · 1 background task still running
+Waiting 3m 47s / 10m · 1 background task still running
+Waiting 3m 48s / 10m · 1 background task still running
+Waiting 3m 49s / 10m · 1 background task still running
+Waiting 3m 50s / 10m · 1 background task still running
+Waiting 3m 51s / 10m · 1 background task still running
+Waiting 3m 52s / 10m · 1 background task still running
+Waiting 3m 53s / 10m · 1 background task still running
+Waiting 3m 54s / 10m · 1 background task still running
+Waiting 3m 55s / 10m · 1 background task still running
+Waiting 3m 56s / 10m · 1 background task still running
+Waiting 3m 57s / 10m · 1 background task still running
+Waiting 3m 58s / 10m · 1 background task still running
+Waiting 3m 59s / 10m · 1 background task still running
+Waiting 4m / 10m · 1 background task still running
+Waiting 4m 01s / 10m · 1 background task still running
+Waiting 4m 03s / 10m · 1 background task still running
+Waiting 4m 04s / 10m · 1 background task still running
+Waiting 4m 05s / 10m · 1 background task still running
+Waiting 4m 06s / 10m · 1 background task still running
+Waiting 4m 07s / 10m · 1 background task still running
+Waiting 4m 08s / 10m · 1 background task still running
+Waiting 4m 09s / 10m · 1 background task still running
+Waiting 4m 10s / 10m · 1 background task still running
+Waiting 4m 11s / 10m · 1 background task still running
+Waiting 4m 12s / 10m · 1 background task still running
+Waiting 4m 13s / 10m · 1 background task still running
+Waiting 4m 14s / 10m · 1 background task still running
+Waiting 4m 15s / 10m · 1 background task still running
+Waiting 4m 16s / 10m · 1 background task still running
+Waiting 4m 17s / 10m · 1 background task still running
+Waiting 4m 18s / 10m · 1 background task still running
+Waiting 4m 19s / 10m · 1 background task still running
+Waiting 4m 20s / 10m · 1 background task still running
+Waiting 4m 21s / 10m · 1 background task still running
+Waiting 4m 22s / 10m · 1 background task still running
+Waiting 4m 23s / 10m · 1 background task still running
+Waiting 4m 24s / 10m · 1 background task still running
+Waiting 4m 25s / 10m · 1 background task still running
+Waiting 4m 26s / 10m · 1 background task still running
+Waiting 4m 27s / 10m · 1 background task still running
+Waiting 4m 28s / 10m · 1 background task still running
+Waiting 4m 29s / 10m · 1 background task still running
+Waiting 4m 30s / 10m · 1 background task still running
+Waiting 4m 31s / 10m · 1 background task still running
+Waiting 4m 32s / 10m · 1 background task still running
+Waiting 4m 33s / 10m · 1 background task still running
+Waiting 4m 34s / 10m · 1 background task still running
+Waiting 4m 35s / 10m · 1 background task still running
+Waiting 4m 36s / 10m · 1 background task still running
+Waiting 4m 37s / 10m · 1 background task still running
+Waiting 4m 38s / 10m · 1 background task still running
+Waiting 4m 39s / 10m · 1 background task still running
+Waiting 4m 40s / 10m · 1 background task still running
+Waiting 4m 41s / 10m · 1 background task still running
+Waiting 4m 42s / 10m · 1 background task still running
+Waiting 4m 43s / 10m · 1 background task still running
+Waiting 4m 44s / 10m · 1 background task still running
+Waiting 4m 45s / 10m · 1 background task still running
+Waiting 4m 46s / 10m · 1 background task still running
+Waiting 4m 47s / 10m · 1 background task still running
+Waiting 4m 48s / 10m · 1 background task still running
+Waiting 4m 49s / 10m · 1 background task still running
+Waiting 4m 50s / 10m · 1 background task still running
+Waiting 4m 51s / 10m · 1 background task still running
+Waiting 4m 52s / 10m · 1 background task still running
+Waiting 4m 53s / 10m · 1 background task still running
+Waiting 4m 54s / 10m · 1 background task still running
+Waiting 4m 55s / 10m · 1 background task still running
+Waiting 4m 56s / 10m · 1 background task still running
+Waiting 4m 57s / 10m · 1 background task still running
+Waiting 4m 58s / 10m · 1 background task still running
+Waiting 4m 59s / 10m · 1 background task still running
+Waiting 5m / 10m · 1 background task still running
+Waiting 5m 01s / 10m · 1 background task still running
+Waiting 5m 02s / 10m · 1 background task still running
+Waiting 5m 03s / 10m · 1 background task still running
+Waiting 5m 04s / 10m · 1 background task still running
+Waiting 5m 05s / 10m · 1 background task still running
+Waiting 5m 06s / 10m · 1 background task still running
+Waiting 5m 07s / 10m · 1 background task still running
+Waiting 5m 08s / 10m · 1 background task still running
+Waiting 5m 09s / 10m · 1 background task still running
+Waiting 5m 10s / 10m · 1 background task still running
+Waiting 5m 11s / 10m · 1 background task still running
+Waiting 5m 12s / 10m · 1 background task still running
+Waiting 5m 13s / 10m · 1 background task still running
+Waiting 5m 14s / 10m · 1 background task still running
+Waiting 5m 15s / 10m · 1 background task still running
+Waiting 5m 16s / 10m · 1 background task still running
+Waiting 5m 17s / 10m · 1 background task still running
+Waiting 5m 18s / 10m · 1 background task still running
+Waiting 5m 19s / 10m · 1 background task still running
+Waiting 5m 20s / 10m · 1 background task still running
+Waiting 5m 21s / 10m · 1 background task still running
+Waiting 5m 22s / 10m · 1 background task still running
+Waiting 5m 23s / 10m · 1 background task still running
+Waiting 5m 24s / 10m · 1 background task still running
+Waiting 5m 25s / 10m · 1 background task still running
+Waiting 5m 26s / 10m · 1 background task still running
+Waiting 5m 27s / 10m · 1 background task still running
+Waiting 5m 28s / 10m · 1 background task still running
+Waiting 5m 29s / 10m · 1 background task still running
+Waiting 5m 30s / 10m · 1 background task still running
+Waiting 5m 31s / 10m · 1 background task still running
+Waiting 5m 32s / 10m · 1 background task still running
+Waiting 5m 33s / 10m · 1 background task still running
+Waiting 5m 34s / 10m · 1 background task still running
+Waiting 5m 35s / 10m · 1 background task still running
+Waiting 5m 36s / 10m · 1 background task still running
+Waiting 5m 38s / 10m · 1 background task still running
+Waiting 5m 39s / 10m · 1 background task still running
+Waiting 5m 40s / 10m · 1 background task still running
+Waiting 5m 41s / 10m · 1 background task still running
+Waiting 5m 42s / 10m · 1 background task still running
+Waiting 5m 43s / 10m · 1 background task still running
+Waiting 5m 44s / 10m · 1 background task still running
+Waiting 5m 45s / 10m · 1 background task still running
+Waiting 5m 46s / 10m · 1 background task still running
+Waiting 5m 47s / 10m · 1 background task still running
+Waiting 5m 48s / 10m · 1 background task still running
+Waiting 5m 49s / 10m · 1 background task still running
+Waiting 5m 50s / 10m · 1 background task still running
+Waiting 5m 51s / 10m · 1 background task still running
+Waiting 5m 52s / 10m · 1 background task still running
+Waiting 5m 53s / 10m · 1 background task still running
+Waiting 5m 54s / 10m · 1 background task still running
+Waiting 5m 55s / 10m · 1 background task still running
+Waiting 5m 56s / 10m · 1 background task still running
+Waiting 5m 57s / 10m · 1 background task still running
+Waiting 5m 58s / 10m · 1 background task still running
+Waiting 5m 59s / 10m · 1 background task still running
+Waiting 6m / 10m · 1 background task still running
+Waiting 6m 01s / 10m · 1 background task still running
+Waiting 6m 02s / 10m · 1 background task still running
+Waiting 6m 03s / 10m · 1 background task still running
+Waiting 6m 04s / 10m · 1 background task still running
+Waiting 6m 05s / 10m · 1 background task still running
+Waiting 6m 06s / 10m · 1 background task still running
+Waiting 6m 07s / 10m · 1 background task still running
+Waiting 6m 08s / 10m · 1 background task still running
+Waiting 6m 09s / 10m · 1 background task still running
+Waiting 6m 10s / 10m · 1 background task still running
+Waiting 6m 11s / 10m · 1 background task still running
+Waiting 6m 12s / 10m · 1 background task still running
+Waiting 6m 13s / 10m · 1 background task still running
+Waiting 6m 14s / 10m · 1 background task still running
+Waiting 6m 15s / 10m · 1 background task still running
+Waiting 6m 16s / 10m · 1 background task still running
+Waiting 6m 17s / 10m · 1 background task still running
+Waiting 6m 18s / 10m · 1 background task still running
+Waiting 6m 19s / 10m · 1 background task still running
+Waiting 6m 20s / 10m · 1 background task still running
+Waiting 6m 21s / 10m · 1 background task still running
+Waiting 6m 22s / 10m · 1 background task still running
+Waiting 6m 23s / 10m · 1 background task still running
+Waiting 6m 24s / 10m · 1 background task still running
+Waiting 6m 25s / 10m · 1 background task still running
+Waiting 6m 26s / 10m · 1 background task still running
+Waiting 6m 27s / 10m · 1 background task still running
+Waiting 6m 28s / 10m · 1 background task still running
+Waiting 6m 29s / 10m · 1 background task still running
+Waiting 6m 30s / 10m · 1 background task still running
+Waiting 6m 31s / 10m · 1 background task still running
+Waiting 6m 32s / 10m · 1 background task still running
+Waiting 6m 33s / 10m · 1 background task still running
+Waiting 6m 34s / 10m · 1 background task still running
+Waiting 6m 35s / 10m · 1 background task still running
+Waiting 6m 36s / 10m · 1 background task still running
+Waiting 6m 37s / 10m · 1 background task still running
+Waiting 6m 38s / 10m · 1 background task still running
+Waiting 6m 39s / 10m · 1 background task still running
+Waiting 6m 40s / 10m · 1 background task still running
+Waiting 6m 41s / 10m · 1 background task still running
+Waiting 6m 42s / 10m · 1 background task still running
+Waiting 6m 43s / 10m · 1 background task still running
+Waiting 6m 44s / 10m · 1 background task still running
+Waiting 6m 45s / 10m · 1 background task still running
+Waiting 6m 46s / 10m · 1 background task still running
+Waiting 6m 47s / 10m · 1 background task still running
+Waiting 6m 48s / 10m · 1 background task still running
+Waiting 6m 49s / 10m · 1 background task still running
+Waiting 6m 50s / 10m · 1 background task still running
+Waiting 6m 51s / 10m · 1 background task still running
+Waiting 6m 52s / 10m · 1 background task still running
+Waiting 6m 53s / 10m · 1 background task still running
+Waiting 6m 54s / 10m · 1 background task still running
+Waiting 6m 55s / 10m · 1 background task still running
+Waiting 6m 56s / 10m · 1 background task still running
+Waiting 6m 57s / 10m · 1 background task still running
+Waiting 6m 58s / 10m · 1 background task still running
+Waiting 6m 59s / 10m · 1 background task still running
+Waiting 7m / 10m · 1 background task still running
+Waiting 7m 01s / 10m · 1 background task still running
+Waiting 7m 02s / 10m · 1 background task still running
+Waiting 7m 03s / 10m · 1 background task still running
+Waiting 7m 04s / 10m · 1 background task still running
+Waiting 7m 05s / 10m · 1 background task still running
+Waiting 7m 06s / 10m · 1 background task still running
+Waiting 7m 07s / 10m · 1 background task still running
+Waiting 7m 08s / 10m · 1 background task still running
+Waiting 7m 09s / 10m · 1 background task still running
+Waiting 7m 10s / 10m · 1 background task still running
+Waiting 7m 11s / 10m · 1 background task still running
+Waiting 7m 12s / 10m · 1 background task still running
+Waiting 7m 14s / 10m · 1 background task still running
+Waiting 7m 15s / 10m · 1 background task still running
+Waiting 7m 16s / 10m · 1 background task still running
+Waiting 7m 17s / 10m · 1 background task still running
+Waiting 7m 18s / 10m · 1 background task still running
+Waiting 7m 19s / 10m · 1 background task still running
+Waiting 7m 20s / 10m · 1 background task still running
+Waiting 7m 21s / 10m · 1 background task still running
+Waiting 7m 22s / 10m · 1 background task still running
+Waiting 7m 23s / 10m · 1 background task still running
+Waiting 7m 24s / 10m · 1 background task still running
+Waiting 7m 25s / 10m · 1 background task still running
+Waiting 7m 26s / 10m · 1 background task still running
+Waiting 7m 27s / 10m · 1 background task still running
+Waiting 7m 28s / 10m · 1 background task still running
+Waiting 7m 29s / 10m · 1 background task still running
+Waiting 7m 30s / 10m · 1 background task still running
+Waiting 7m 31s / 10m · 1 background task still running
+Waiting 7m 32s / 10m · 1 background task still running
+Waiting 7m 33s / 10m · 1 background task still running
+Waiting 7m 34s / 10m · 1 background task still running
+Waiting 7m 35s / 10m · 1 background task still running
+Waiting 7m 36s / 10m · 1 background task still running
+Waiting 7m 37s / 10m · 1 background task still running
+Waiting 7m 38s / 10m · 1 background task still running
+Waiting 7m 39s / 10m · 1 background task still running
+Waiting 7m 40s / 10m · 1 background task still running
+Waiting 7m 41s / 10m · 1 background task still running
+Waiting 7m 42s / 10m · 1 background task still running
+Waiting 7m 43s / 10m · 1 background task still running
+Waiting 7m 44s / 10m · 1 background task still running
+Waiting 7m 45s / 10m · 1 background task still running
+Waiting 7m 46s / 10m · 1 background task still running
+Waiting 7m 47s / 10m · 1 background task still running
+Waiting 7m 48s / 10m · 1 background task still running
+Waiting 7m 49s / 10m · 1 background task still running
+Waiting 7m 50s / 10m · 1 background task still running
+Waiting 7m 51s / 10m · 1 background task still running
+Waiting 7m 52s / 10m · 1 background task still running
+Waiting 7m 53s / 10m · 1 background task still running
+Waiting 7m 54s / 10m · 1 background task still running
+Waiting 7m 55s / 10m · 1 background task still running
+Waiting 7m 56s / 10m · 1 background task still running
+Waiting 7m 57s / 10m · 1 background task still running
+Waiting 7m 58s / 10m · 1 background task still running
+Waiting 7m 59s / 10m · 1 background task still running
+Waiting 8m / 10m · 1 background task still running
+Waiting 8m 01s / 10m · 1 background task still running
+Waiting 8m 02s / 10m · 1 background task still running
+Waiting 8m 03s / 10m · 1 background task still running
+Waiting 8m 04s / 10m · 1 background task still running
+Waiting 8m 05s / 10m · 1 background task still running
+Waiting 8m 06s / 10m · 1 background task still running
+Waiting 8m 07s / 10m · 1 background task still running
+Waiting 8m 08s / 10m · 1 background task still running
+Waiting 8m 09s / 10m · 1 background task still running
+Waiting 8m 10s / 10m · 1 background task still running
+Waiting 8m 11s / 10m · 1 background task still running
+Waiting 8m 12s / 10m · 1 background task still running
+Waiting 8m 13s / 10m · 1 background task still running
+Waiting 8m 14s / 10m · 1 background task still running
+Waiting 8m 15s / 10m · 1 background task still running
+Waiting 8m 16s / 10m · 1 background task still running
+Waiting 8m 17s / 10m · 1 background task still running
+Waiting 8m 18s / 10m · 1 background task still running
+Waiting 8m 19s / 10m · 1 background task still running
+Waiting 8m 20s / 10m · 1 background task still running
+Waiting 8m 21s / 10m · 1 background task still running
+Waiting 8m 22s / 10m · 1 background task still running
+Waiting 8m 23s / 10m · 1 background task still running
+Waiting 8m 24s / 10m · 1 background task still running
+Waiting 8m 25s / 10m · 1 background task still running
+Waiting 8m 26s / 10m · 1 background task still running
+Waiting 8m 27s / 10m · 1 background task still running
+Waiting 8m 28s / 10m · 1 background task still running
+Waiting 8m 29s / 10m · 1 background task still running
+Waiting 8m 30s / 10m · 1 background task still running
+Waiting 8m 31s / 10m · 1 background task still running
+Waiting 8m 32s / 10m · 1 background task still running
+Waiting 8m 33s / 10m · 1 background task still running
+Waiting 8m 34s / 10m · 1 background task still running
+Waiting 8m 35s / 10m · 1 background task still running
+Waiting 8m 36s / 10m · 1 background task still running
+Waiting 8m 37s / 10m · 1 background task still running
+Waiting 8m 38s / 10m · 1 background task still running
+Waiting 8m 39s / 10m · 1 background task still running
+Waiting 8m 40s / 10m · 1 background task still running
+Waiting 8m 41s / 10m · 1 background task still running
+Waiting 8m 42s / 10m · 1 background task still running
+Waiting 8m 43s / 10m · 1 background task still running
+Waiting 8m 44s / 10m · 1 background task still running
+Waiting 8m 45s / 10m · 1 background task still running
+Waiting 8m 46s / 10m · 1 background task still running
+Waiting 8m 47s / 10m · 1 background task still running
+Waiting 8m 49s / 10m · 1 background task still running
+Waiting 8m 50s / 10m · 1 background task still running
+Waiting 8m 51s / 10m · 1 background task still running
+Waiting 8m 52s / 10m · 1 background task still running
+Waiting 8m 53s / 10m · 1 background task still running
+Waiting 8m 54s / 10m · 1 background task still running
+Waiting 8m 55s / 10m · 1 background task still running
+Waiting 8m 56s / 10m · 1 background task still running
+Waiting 8m 57s / 10m · 1 background task still running
+Waiting 8m 58s / 10m · 1 background task still running
+Waiting 8m 59s / 10m · 1 background task still running
+Waiting 9m / 10m · 1 background task still running
+Waiting 9m 01s / 10m · 1 background task still running
+Waiting 9m 02s / 10m · 1 background task still running
+Waiting 9m 03s / 10m · 1 background task still running
+Waiting 9m 04s / 10m · 1 background task still running
+Waiting 9m 05s / 10m · 1 background task still running
+Waiting 9m 06s / 10m · 1 background task still running
+Waiting 9m 07s / 10m · 1 background task still running
+Waiting 9m 08s / 10m · 1 background task still running
+Waiting 9m 09s / 10m · 1 background task still running
+Waiting 9m 10s / 10m · 1 background task still running
+Waiting 9m 11s / 10m · 1 background task still running
+Waiting 9m 12s / 10m · 1 background task still running
+Waiting 9m 13s / 10m · 1 background task still running
+Waiting 9m 14s / 10m · 1 background task still running
+Waiting 9m 15s / 10m · 1 background task still running
+Waiting 9m 16s / 10m · 1 background task still running
+Waiting 9m 17s / 10m · 1 background task still running
+Waiting 9m 18s / 10m · 1 background task still running
+Waiting 9m 19s / 10m · 1 background task still running
+Waiting 9m 20s / 10m · 1 background task still running
+Waiting 9m 21s / 10m · 1 background task still running
+Waiting 9m 22s / 10m · 1 background task still running
+Waiting 9m 23s / 10m · 1 background task still running
+Waiting 9m 24s / 10m · 1 background task still running
+Waiting 9m 25s / 10m · 1 background task still running
+Waiting 9m 26s / 10m · 1 background task still running
+Waiting 9m 27s / 10m · 1 background task still running
+Waiting 9m 28s / 10m · 1 background task still running
+Waiting 9m 29s / 10m · 1 background task still running
+Waiting 9m 30s / 10m · 1 background task still running
+Waiting 9m 31s / 10m · 1 background task still running
+Waiting 9m 32s / 10m · 1 background task still running
+Waiting 9m 33s / 10m · 1 background task still running
+Waiting 9m 34s / 10m · 1 background task still running
+Waiting 9m 35s / 10m · 1 background task still running
+Waiting 9m 36s / 10m · 1 background task still running
+Waiting 9m 37s / 10m · 1 background task still running
+Waiting 9m 38s / 10m · 1 background task still running
+Waiting 9m 39s / 10m · 1 background task still running
+Waiting 9m 40s / 10m · 1 background task still running
+Waiting 9m 41s / 10m · 1 background task still running
+Waiting 9m 42s / 10m · 1 background task still running
+Waiting 9m 43s / 10m · 1 background task still running
+Waiting 9m 44s / 10m · 1 background task still running
+Waiting 9m 45s / 10m · 1 background task still running
+Waiting 9m 46s / 10m · 1 background task still running
+Waiting 9m 47s / 10m · 1 background task still running
+Waiting 9m 48s / 10m · 1 background task still running
+Waiting 9m 49s / 10m · 1 background task still running
+Waiting 9m 50s / 10m · 1 background task still running
+Waiting 9m 51s / 10m · 1 background task still running
+Waiting 9m 52s / 10m · 1 background task still running
+Waiting 9m 53s / 10m · 1 background task still running
+Waiting 9m 54s / 10m · 1 background task still running
+Waiting 9m 55s / 10m · 1 background task still running
+Waiting 9m 56s / 10m · 1 background task still running
+Waiting 9m 57s / 10m · 1 background task still running
+Waiting 9m 58s / 10m · 1 background task still running
+Waiting 9m 59s / 10m · 1 background task still running
+Waiting 0s / 8m · 1 background task still running
+Waiting 1s / 8m · 1 background task still running
+Waiting 2s / 8m · 1 background task still running
+Waiting 3s / 8m · 1 background task still running
+Waiting 4s / 8m · 1 background task still running
+Waiting 5s / 8m · 1 background task still running
+Waiting 6s / 8m · 1 background task still running
+Waiting 7s / 8m · 1 background task still running
+Waiting 8s / 8m · 1 background task still running
+Waiting 9s / 8m · 1 background task still running
+Waiting 10s / 8m · 1 background task still running
+Waiting 11s / 8m · 1 background task still running
+Waiting 12s / 8m · 1 background task still running
+Waiting 13s / 8m · 1 background task still running
+Waiting 14s / 8m · 1 background task still running
+Waiting 15s / 8m · 1 background task still running
+Waiting 16s / 8m · 1 background task still running
+Waiting 17s / 8m · 1 background task still running
+Waiting 18s / 8m · 1 background task still running
+Waiting 19s / 8m · 1 background task still running
+Waiting 20s / 8m · 1 background task still running
+Waiting 21s / 8m · 1 background task still running
+Waiting 22s / 8m · 1 background task still running
+Waiting 23s / 8m · 1 background task still running
+Waiting 24s / 8m · 1 background task still running
+Waiting 25s / 8m · 1 background task still running
+Waiting 26s / 8m · 1 background task still running
+Waiting 27s / 8m · 1 background task still running
+Waiting 28s / 8m · 1 background task still running
+Waiting 29s / 8m · 1 background task still running
+Waiting 30s / 8m · 1 background task still running
+Waiting 31s / 8m · 1 background task still running
+Waiting 32s / 8m · 1 background task still running
+Waiting 33s / 8m · 1 background task still running
+Waiting 34s / 8m · 1 background task still running
+Waiting 35s / 8m · 1 background task still running
+Waiting 36s / 8m · 1 background task still running
+Waiting 37s / 8m · 1 background task still running
+Waiting 38s / 8m · 1 background task still running
+Waiting 39s / 8m · 1 background task still running
+Waiting 40s / 8m · 1 background task still running
+Waiting 41s / 8m · 1 background task still running
+Waiting 42s / 8m · 1 background task still running
+Waiting 43s / 8m · 1 background task still running
+Waiting 44s / 8m · 1 background task still running
+Waiting 45s / 8m · 1 background task still running
+Waiting 46s / 8m · 1 background task still running
+Waiting 47s / 8m · 1 background task still running
+Waiting 48s / 8m · 1 background task still running
+Waiting 49s / 8m · 1 background task still running
+Waiting 51s / 8m · 1 background task still running
+Waiting 52s / 8m · 1 background task still running
+Waiting 53s / 8m · 1 background task still running
+Waiting 54s / 8m · 1 background task still running
+Waiting 55s / 8m · 1 background task still running
+Waiting 56s / 8m · 1 background task still running
+Waiting 57s / 8m · 1 background task still running
+Waiting 58s / 8m · 1 background task still running
+Waiting 59s / 8m · 1 background task still running
+Waiting 1m / 8m · 1 background task still running
+Waiting 1m 01s / 8m · 1 background task still running
+Waiting 1m 02s / 8m · 1 background task still running
+Waiting 1m 03s / 8m · 1 background task still running
+Waiting 1m 04s / 8m · 1 background task still running
+Waiting 1m 05s / 8m · 1 background task still running
+Waiting 1m 06s / 8m · 1 background task still running
+Waiting 1m 07s / 8m · 1 background task still running
+Waiting 1m 08s / 8m · 1 background task still running
+Waiting 1m 09s / 8m · 1 background task still running
+Waiting 1m 10s / 8m · 1 background task still running
+Waiting 1m 11s / 8m · 1 background task still running
+Waiting 1m 12s / 8m · 1 background task still running
+Waiting 1m 13s / 8m · 1 background task still running
+Waiting 1m 14s / 8m · 1 background task still running
+Waiting 1m 15s / 8m · 1 background task still running
+Waiting 1m 16s / 8m · 1 background task still running
+Waiting 1m 17s / 8m · 1 background task still running
+Waiting 1m 18s / 8m · 1 background task still running
+Waiting 1m 19s / 8m · 1 background task still running
+Waiting 1m 20s / 8m · 1 background task still running
+Waiting 1m 21s / 8m · 1 background task still running
+Waiting 1m 22s / 8m · 1 background task still running
+Waiting 1m 23s / 8m · 1 background task still running
+Waiting 1m 24s / 8m · 1 background task still running
+Waiting 1m 25s / 8m · 1 background task still running
+Waiting 1m 26s / 8m · 1 background task still running
+Waiting 1m 27s / 8m · 1 background task still running
+Waiting 1m 28s / 8m · 1 background task still running
+Waiting 1m 29s / 8m · 1 background task still running
+Waiting 1m 30s / 8m · 1 background task still running
+Waiting 1m 31s / 8m · 1 background task still running
+Waiting 1m 32s / 8m · 1 background task still running
+Waiting 1m 33s / 8m · 1 background task still running
+Waiting 1m 34s / 8m · 1 background task still running
+Waiting 1m 35s / 8m · 1 background task still running
+Waiting 1m 36s / 8m · 1 background task still running
+Waiting 1m 37s / 8m · 1 background task still running
+Waiting 1m 38s / 8m · 1 background task still running
+Waiting 1m 39s / 8m · 1 background task still running
+Waiting 1m 40s / 8m · 1 background task still running
+Waiting 1m 41s / 8m · 1 background task still running
+Waiting 1m 42s / 8m · 1 background task still running
+Waiting 1m 43s / 8m · 1 background task still running
+Waiting 1m 44s / 8m · 1 background task still running
+Waiting 1m 45s / 8m · 1 background task still running
+Waiting 1m 46s / 8m · 1 background task still running
+Waiting 1m 47s / 8m · 1 background task still running
+Waiting 1m 48s / 8m · 1 background task still running
+Waiting 1m 49s / 8m · 1 background task still running
+Waiting 1m 50s / 8m · 1 background task still running
+Waiting 1m 51s / 8m · 1 background task still running
+Waiting 1m 52s / 8m · 1 background task still running
+Waiting 1m 53s / 8m · 1 background task still running
+Waiting 1m 54s / 8m · 1 background task still running
+Waiting 1m 55s / 8m · 1 background task still running
+Waiting 1m 56s / 8m · 1 background task still running
+Waiting 1m 57s / 8m · 1 background task still running
+Waiting 1m 58s / 8m · 1 background task still running
+Waiting 1m 59s / 8m · 1 background task still running
+Waiting 2m / 8m · 1 background task still running
+Waiting 2m 01s / 8m · 1 background task still running
+Waiting 2m 02s / 8m · 1 background task still running
+Waiting 2m 03s / 8m · 1 background task still running
+Waiting 2m 04s / 8m · 1 background task still running
+Waiting 2m 05s / 8m · 1 background task still running
+Waiting 2m 06s / 8m · 1 background task still running
+Waiting 2m 07s / 8m · 1 background task still running
+Waiting 2m 08s / 8m · 1 background task still running
+Waiting 2m 09s / 8m · 1 background task still running
+Waiting 2m 10s / 8m · 1 background task still running
+Waiting 2m 11s / 8m · 1 background task still running
+Waiting 2m 12s / 8m · 1 background task still running
+Waiting 2m 13s / 8m · 1 background task still running
+Waiting 2m 14s / 8m · 1 background task still running
+Waiting 2m 15s / 8m · 1 background task still running
+Waiting 2m 16s / 8m · 1 background task still running
+Waiting 2m 17s / 8m · 1 background task still running
+Waiting 2m 18s / 8m · 1 background task still running
+Waiting 2m 19s / 8m · 1 background task still running
+Waiting 2m 20s / 8m · 1 background task still running
+Waiting 2m 21s / 8m · 1 background task still running
+Waiting 2m 22s / 8m · 1 background task still running
+Waiting 2m 23s / 8m · 1 background task still running
+Waiting 2m 24s / 8m · 1 background task still running
+Waiting 2m 25s / 8m · 1 background task still running
+Waiting 2m 26s / 8m · 1 background task still running
+Waiting 2m 28s / 8m · 1 background task still running
+Waiting 2m 29s / 8m · 1 background task still running
+Waiting 2m 30s / 8m · 1 background task still running
+Waiting 2m 31s / 8m · 1 background task still running
+Waiting 2m 32s / 8m · 1 background task still running
+Waiting 2m 33s / 8m · 1 background task still running
+Waiting 2m 34s / 8m · 1 background task still running
+Waiting 2m 35s / 8m · 1 background task still running
+Waiting 2m 36s / 8m · 1 background task still running
+Waiting 2m 37s / 8m · 1 background task still running
+Waiting 2m 38s / 8m · 1 background task still running
+Waiting 2m 39s / 8m · 1 background task still running
+Waiting 2m 40s / 8m · 1 background task still running
+Waiting 2m 41s / 8m · 1 background task still running
+Waiting 2m 42s / 8m · 1 background task still running
+Waiting 2m 43s / 8m · 1 background task still running
+Waiting 2m 44s / 8m · 1 background task still running
+Waiting 2m 45s / 8m · 1 background task still running
+Waiting 2m 46s / 8m · 1 background task still running
+Waiting 2m 47s / 8m · 1 background task still running
+Waiting 2m 48s / 8m · 1 background task still running
+Waiting 2m 49s / 8m · 1 background task still running
+Waiting 2m 50s / 8m · 1 background task still running
+Waiting 2m 51s / 8m · 1 background task still running
+Waiting 2m 52s / 8m · 1 background task still running
+Waiting 2m 53s / 8m · 1 background task still running
+Waiting 2m 54s / 8m · 1 background task still running
+Waiting 2m 55s / 8m · 1 background task still running
+Waiting 2m 56s / 8m · 1 background task still running
+Waiting 2m 57s / 8m · 1 background task still running
+Waiting 2m 58s / 8m · 1 background task still running
+Waiting 2m 59s / 8m · 1 background task still running
+Waiting 3m / 8m · 1 background task still running
+Waiting 3m 01s / 8m · 1 background task still running
+Waiting 3m 02s / 8m · 1 background task still running
+Waiting 3m 03s / 8m · 1 background task still running
+Waiting 3m 04s / 8m · 1 background task still running
+#607 reviewed. Last task: #608. Claim + implement (design ready: add image_detail skip in wechat_link_monitor.py mp.weixin.qq.com branch).
+
+  Note: 608's red line: #601 already reviewed ✓. Small single-point change.队列前方还有 pending_review 任务未终审：#610 task_20260902_laowantong-live257-ten-finger-fragrance-cards。必须等它们 reviewed 后才能领取 task_20260902_huangyaoshi-image-detail-deadloop-fix
+        print(f"  [{ts}] {url[:80]}")
+
+        # 公众号文章：抓 HTML → 入库 → 知识化（不走视频管线）
+        if "mp.weixin.qq.com" in url:
+            title, body = fetch_mp_article(url)
+            if not body:
+                print("  ⚠️ 公众号抓取失败——不记录，下轮重试（与视频同语义：成功才记 seen）")
+                continue
+            stem = hashlib.md5(canonical_key(url).encode()).hexdigest()[:16]
+            out_md = INBOX_DIR / f"src_wechat_article_{stem}.md"
+            out_md.write_text(f"# {title or url}\n\n> 来源: {url}（公众号·偶遇转发）\n\n{body[:30000]}\n", encoding="utf-8")
+            print(f"  ✅ 公众号文章入库: {out_md}（{len(body)} 字）")
+            knowledge_ize(out_md)
+Blocked by #610 (laowantong's). Wait again. The edit location is confirmed (lines 450-460). Prepare the edit but can't claim yet. I'll wait with poll on #610.
+
+• 前方 #610（老顽童单）挂审，轮询等待，阻塞解除即做 #608（改动点已定位 L450-460）。
+
+Waiting 0s / 10m · 1 background task still running
+Waiting 1s / 10m · 1 background task still running
+Waiting 2s / 10m · 1 background task still running
+Waiting 3s / 10m · 1 background task still running
+Waiting 4s / 10m · 1 background task still running
+Waiting 5s / 10m · 1 background task still running
+Waiting 6s / 10m · 1 background task still running
+Waiting 7s / 10m · 1 background task still running
+Waiting 8s / 10m · 1 background task still running
+Waiting 9s / 10m · 1 background task still running
+Waiting 10s / 10m · 1 background task still running
+Waiting 11s / 10m · 1 background task still running
+Waiting 12s / 10m · 1 background task still running
+Waiting 13s / 10m · 1 background task still running
+Waiting 14s / 10m · 1 background task still running
+Waiting 15s / 10m · 1 background task still running
+Waiting 16s / 10m · 1 background task still running
+Waiting 17s / 10m · 1 background task still running
+Waiting 18s / 10m · 1 background task still running
+Waiting 19s / 10m · 1 background task still running
+Waiting 20s / 10m · 1 background task still running
+Waiting 21s / 10m · 1 background task still running
+Waiting 22s / 10m · 1 background task still running
+Waiting 23s / 10m · 1 background task still running
+Waiting 24s / 10m · 1 background task still running
+Waiting 25s / 10m · 1 background task still running
+Waiting 26s / 10m · 1 background task still running
+Waiting 27s / 10m · 1 background task still running
+Waiting 28s / 10m · 1 background task still running
+Waiting 29s / 10m · 1 background task still running
+Waiting 30s / 10m · 1 background task still running
+Waiting 31s / 10m · 1 background task still running
+Waiting 32s / 10m · 1 background task still running
+Waiting 33s / 10m · 1 background task still running
+Waiting 34s / 10m · 1 background task still running
+Waiting 35s / 10m · 1 background task still running
+Waiting 36s / 10m · 1 background task still running
+Waiting 37s / 10m · 1 background task still running
+Waiting 38s / 10m · 1 background task still running
+Waiting 39s / 10m · 1 background task still running
+Waiting 40s / 10m · 1 background task still running
+Waiting 41s / 10m · 1 background task still running
+Waiting 42s / 10m · 1 background task still running
+Waiting 43s / 10m · 1 background task still running
+Waiting 44s / 10m · 1 background task still running
+Waiting 45s / 10m · 1 background task still running
+Waiting 46s / 10m · 1 background task still running
+Waiting 48s / 10m · 1 background task still running
+Waiting 49s / 10m · 1 background task still running
+Waiting 50s / 10m · 1 background task still running
+Waiting 51s / 10m · 1 background task still running
+Waiting 52s / 10m · 1 background task still running
+Waiting 53s / 10m · 1 background task still running
+Waiting 54s / 10m · 1 background task still running
+Waiting 55s / 10m · 1 background task still running
+Waiting 56s / 10m · 1 background task still running
+Waiting 57s / 10m · 1 background task still running
+Waiting 58s / 10m · 1 background task still running
+Waiting 59s / 10m · 1 background task still running
+Waiting 1m / 10m · 1 background task still running
+Waiting 1m 01s / 10m · 1 background task still running
+Waiting 1m 02s / 10m · 1 background task still running
+Waiting 1m 03s / 10m · 1 background task still running
+Waiting 1m 04s / 10m · 1 background task still running
+Waiting 1m 05s / 10m · 1 background task still running
+Waiting 1m 06s / 10m · 1 background task still running
+Waiting 1m 07s / 10m · 1 background task still running
+Waiting 1m 08s / 10m · 1 background task still running
+Waiting 1m 09s / 10m · 1 background task still running
+Waiting 1m 10s / 10m · 1 background task still running
+Waiting 1m 11s / 10m · 1 background task still running
+Waiting 1m 12s / 10m · 1 background task still running
+Waiting 1m 13s / 10m · 1 background task still running
+Waiting 1m 14s / 10m · 1 background task still running
+Waiting 1m 15s / 10m · 1 background task still running
+Waiting 1m 16s / 10m · 1 background task still running
+Waiting 1m 17s / 10m · 1 background task still running
+Waiting 1m 18s / 10m · 1 background task still running
+Waiting 1m 19s / 10m · 1 background task still running
+Waiting 1m 20s / 10m · 1 background task still running
+Waiting 1m 21s / 10m · 1 background task still running
+Waiting 1m 22s / 10m · 1 background task still running
+Waiting 1m 23s / 10m · 1 background task still running
+Waiting 1m 24s / 10m · 1 background task still running
+Waiting 1m 25s / 10m · 1 background task still running
+Waiting 1m 26s / 10m · 1 background task still running
+Waiting 1m 27s / 10m · 1 background task still running
+Waiting 1m 28s / 10m · 1 background task still running
+Waiting 1m 29s / 10m · 1 background task still running
+Waiting 1m 30s / 10m · 1 background task still running
+Waiting 1m 31s / 10m · 1 background task still running
+Waiting 1m 32s / 10m · 1 background task still running
+Waiting 1m 33s / 10m · 1 background task still running
+Waiting 1m 34s / 10m · 1 background task still running
+Waiting 1m 35s / 10m · 1 background task still running
+Waiting 1m 36s / 10m · 1 background task still running
+Waiting 1m 37s / 10m · 1 background task still running
+Waiting 1m 38s / 10m · 1 background task still running
+Waiting 1m 39s / 10m · 1 background task still running
+Waiting 1m 40s / 10m · 1 background task still running
+Waiting 1m 41s / 10m · 1 background task still running
+Waiting 1m 42s / 10m · 1 background task still running
+Waiting 1m 43s / 10m · 1 background task still running
+Waiting 1m 44s / 10m · 1 background task still running
+Waiting 1m 45s / 10m · 1 background task still running
+Waiting 1m 46s / 10m · 1 background task still running
+Waiting 1m 47s / 10m · 1 background task still running
+Waiting 1m 48s / 10m · 1 background task still running
+Waiting 1m 49s / 10m · 1 background task still running
+Waiting 1m 50s / 10m · 1 background task still running
+Waiting 1m 51s / 10m · 1 background task still running
+Waiting 1m 52s / 10m · 1 background task still running
+Waiting 1m 53s / 10m · 1 background task still running
+Waiting 1m 54s / 10m · 1 background task still running
+Waiting 1m 55s / 10m · 1 background task still running
+Waiting 1m 56s / 10m · 1 background task still running
+Waiting 1m 57s / 10m · 1 background task still running
+Waiting 1m 58s / 10m · 1 background task still running
+Waiting 1m 59s / 10m · 1 background task still running
+Waiting 2m / 10m · 1 background task still running
+Waiting 2m 01s / 10m · 1 background task still running
+Waiting 2m 02s / 10m · 1 background task still running
+Waiting 2m 03s / 10m · 1 background task still running
+Waiting 2m 04s / 10m · 1 background task still running
+Waiting 2m 05s / 10m · 1 background task still running
+Waiting 2m 06s / 10m · 1 background task still running
+Waiting 2m 07s / 10m · 1 background task still running
+Waiting 2m 08s / 10m · 1 background task still running
+Waiting 2m 09s / 10m · 1 background task still running
+Waiting 2m 10s / 10m · 1 background task still running
+Waiting 2m 11s / 10m · 1 background task still running
+Waiting 2m 12s / 10m · 1 background task still running
+Waiting 2m 13s / 10m · 1 background task still running
+Waiting 2m 14s / 10m · 1 background task still running
+Waiting 2m 15s / 10m · 1 background task still running
+Waiting 2m 16s / 10m · 1 background task still running
+Waiting 2m 17s / 10m · 1 background task still running
+Waiting 2m 19s / 10m · 1 background task still running
+Waiting 2m 20s / 10m · 1 background task still running
+Waiting 2m 21s / 10m · 1 background task still running
+Waiting 2m 22s / 10m · 1 background task still running
+Waiting 2m 23s / 10m · 1 background task still running
+Waiting 2m 24s / 10m · 1 background task still running
+Waiting 2m 25s / 10m · 1 background task still running
+Waiting 2m 26s / 10m · 1 background task still running
+Waiting 2m 27s / 10m · 1 background task still running
+Waiting 2m 28s / 10m · 1 background task still running
+Waiting 2m 29s / 10m · 1 background task still running
+Waiting 2m 30s / 10m · 1 background task still running
+Waiting 2m 31s / 10m · 1 background task still running
+Waiting 2m 32s / 10m · 1 background task still running
+Waiting 2m 33s / 10m · 1 background task still running
+Waiting 2m 34s / 10m · 1 background task still running
+Waiting 2m 35s / 10m · 1 background task still running
+Waiting 2m 36s / 10m · 1 background task still running
+   待领取: 1  |  审查中: 0  |  进行中: 1  |  已完成: 192
+• Now verify per task: "改完实跑一轮监控验证：image_detail 类链接一轮 mark_seen 后不再重复出现（前后两轮日志对比）".
+
+  The 3 dead-looping URLs from 08-31 are still un-seen (they've been retrying). Run the monitor once: those image_detail links should now be marked seen; run a second time: they should not reappear.
+
+  The monitor's main() does: scan_downloaded_videos → decrypt_current_db → extract_links... Running the real monitor requires the wechat DB and does real work (transcribe etc.). Risky? It's the production monitor, runs every 10 min via schtasks anyway. Running it manually once is what the task asks ("实跑一轮监控验证"). It runs every 10 min regardless — one manual run is equivalent.
+
+  But full run could take long (transcribe 900s timeouts if new links exist). The 3 image_detail links will now skip fast. Other unseen links might exist and trigger downloads... that would happen anyway at the next scheduled beat. Acceptable but could take minutes. Run with timeout 280s; if it exceeds, check partial output.
+
+  Capture log to file for before/after comparison. First, "before" evidence: the retry loop — I can show from the seen file that those image_detail URLs were NOT in seen_links.txt before my fix, and check last night's log evidence. The diag already documented the 29h loop. For the "前后两轮日志对比": run monitor twice; round 1 should show ⏭️ skips, round 2 should show them absent (not in fresh).
+
+• 改完。实跑两轮监控验证：第一轮应 ⏭️ 跳过并 mark_seen，第二轮不再出现。0
+--- round1:
+exit=0
+🔗 新链接 3 个（共扫 10）
+  [08-31 00:14] https://mp.weixin.qq.com/s?t=pages/image_detail&scene=1&__biz=MzYzMTk0ODMxNA==&m
+  ⏭️ image_detail 图片分享页——无正文可抓，mark_seen 跳过（#608）
+  [08-31 00:14] https://mp.weixin.qq.com/s?t=pages/image_detail&scene=24&__biz=MzYzMTk0ODMxNA==&
+  ⏭️ image_detail 图片分享页——无正文可抓，mark_seen 跳过（#608）
+  [08-31 00:14] https://mp.weixin.qq.com/s?t=pages/image_detail&scene=24&__biz=MzYzMTk0ODMxNA==&
+  ⏭️ image_detail 图片分享页——无正文可抓，mark_seen 跳过（#608）
+
+
+• Round 1: exactly the 3 dead-looping image_detail links (from 08-31 00:14) got ⏭️ skipped + mark_seen. Before: 0 image_detail in seen_links.txt. Now check they're recorded, and run round 2 to prove no reappear.3
+--- round2:
+exit=0
+🔗 新链接 0 个（共扫 10）
+🏁 本轮完成
+🔗 新链接 0 个（共扫 10）
+📦 自动转正完成
+🏁 本轮完成
+Round 2: 新链接 0 — the 3 image_detail links no longer reappear. Dead loop fixed. 
+
+  Commit + report + complete. §3.19 matrix: does this change notification surface? No
