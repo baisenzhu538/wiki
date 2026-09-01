@@ -2,7 +2,7 @@
 id: '595'
 title: 全厂 skill frontmatter 字段补齐（66/76 缺 status，Skills助理第二单）
 type: skill-production
-status: queued
+status: in_progress
 priority: P2
 assignee: skills-assistant
 created_by: 王语嫣
@@ -11,6 +11,7 @@ source_refs:
 - 60_feedback/tasks/task_20260902_skills-assistant-research-core-integration.md
 - 40_outputs/capabilities/skills/INDEX.md
 instance: skills-assistant
+updated_at: '2026-09-01T15:12:46.012741+00:00'
 ---
 
 # #595 全厂 skill frontmatter 字段补齐（老朱 09-02 拍板「立」）
