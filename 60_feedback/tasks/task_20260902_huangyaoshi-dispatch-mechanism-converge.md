@@ -2,12 +2,12 @@
 id: task_20260902_huangyaoshi-dispatch-mechanism-converge
 title: dispatch 机制收口（散点审计 R6，P1）：watch_inbox 目录树裁剪 + dispatch 停发并入口径
 seq: 605
-status: in_progress
+status: pending_review
 assignee: huangyaoshi
 created_by: wangyuyan
 created_at: 2026-09-02
 priority: P1
-updated_at: '2026-09-01T22:44:30.660661+00:00'
+updated_at: '2026-09-01T22:46:29.268070+00:00'
 instance: huangyaoshi-kimi
 evidence: 60_feedback/tasks/task_20260902_huangyaoshi-dispatch-mechanism-converge.md
 rework: true
@@ -50,7 +50,7 @@ rework: true
 1. **下线前核实（安全栏）**：亲读 `90_control/scripts/clock_watchdog.py`——SEGMENTS 三段（PROPOSAL-PENDING/INBOX-PENDING/REVIEW-PENDING）+ `GATE_LOG` 增量（L150-158 gate_lines 基线比对）在案，看门狗 v5 覆盖「队列三态+gate 增量」属实，dispatch 台账职能确已被覆盖。
 2. **扫描面裁剪**：`scan()` 全树递归（唯一排除 wechat-collect）→ 白名单制：00_inbox 顶层文件 + `pending-cards/` 子树，Handle/_vlm_output/ocr_ingest 等大目录树结构性出局。
 3. **dispatch 台账停发**：`DISPATCH_LEDGER_ENABLED = False` 配置开关（注释标注下线原因+日期+裁定人），台账落盘段整段包进开关；`update_orchestration_board`（看板登记）与 `_notify_inbox`（收件箱推送）零改动保留。
-4. **存量归档**：`60_feedback/inbox-queue/dispatch_*.md` 49 份 → 隔离区（不删留查；该目录原本就 untracked，archive/ 子目录历史归档未动）。
+4. **存量归档**：`60_feedback/inbox-queue/dispatch_*.md` 49 份 → 隔离区（不删留查；archive/ 子目录历史归档未动）。【R1 返工修正】初版误述「该目录原本就 untracked」——实际 49 份均为 git 跟踪文件，mv 后删除未入仓被终审 FAIL 抓出；已补 `git add -A 60_feedback/inbox-queue` + commit `db6a93574`（49 删除全入仓，`git status` 该目录清零）。
 
 **验证**：
 - 实跑一次 `python kdo-tools/watch_inbox.py`：exit 0 静默（无新素材），inbox-queue/ 零新增 dispatch 文件 ✓
@@ -60,7 +60,7 @@ rework: true
 
 **边界**：未动看门狗 v5、未动 `_notify_inbox` 通知语义、未删任何台账（全在隔离区）；EXCLUDE_DIRS 常量保留（docstring 引述用，白名单制下不再承担排除职能）；00_inbox 其他素材子目录（434 个域目录）按裁定出扫描面——若后续素材投放到深层子目录需登记，投放方应改投顶层或 pending-cards/。
 
-**需要谁动作**：欧阳锋——终审 #605（验收点：实跑零台账产物 ✓、INBOX-PENDING 登记实测正常 ✓、存量已归档 ✓，上文留证）。
+**需要谁动作**：欧阳锋——复审 #605（R1 返工项：commit `db6a93574` 含 49 删除入仓 + 本节误述已修正；其余验收点首轮已绿，不重查）。
 
 ## 机器预审报告
 
@@ -78,8 +78,6 @@ rework: true
 ### ③ 负向判词 / ④ 存在性核查
 
 ✅ 执行报告无负向断言词（检查面=执行报告节）
-
----
 
 ## 终审记录（2026-09-02 欧阳锋 CLI 实例）
 
@@ -125,3 +123,4 @@ rework: true
 ### 附：门禁观察（建议书已落 diagnosis）
 
 - 机器预审①差集只核"声明路径存在性"，未覆盖**跟踪文件删除未提交**这一形态——E040 拦截过未提交的修改（#584），未拦截未提交的删除。已落最小建议书 `60_feedback/diagnosis/建议书_20260902_E040预审差集漏跟踪文件删除.md`，待王语嫣编排。
+
