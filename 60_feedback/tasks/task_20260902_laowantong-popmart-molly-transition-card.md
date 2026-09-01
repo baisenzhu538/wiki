@@ -2,7 +2,7 @@
 id: task_20260902_laowantong-popmart-molly-transition-card
 title: 泡泡玛特 MOLLY 诞生卡 case-popmart-molly-transition（#596 终审裁定补卡）+
 seq: 609
-status: in_progress
+status: pending_review
 assignee: laowantong
 created_by: wangyuyan
 created_at: 2026-09-02
@@ -13,7 +13,8 @@ source_refs:
 related_tasks:
 - '#596'
 instance: laowantong-kimi
-updated_at: '2026-09-01T21:46:10.115923+00:00'
+updated_at: '2026-09-01T21:50:40.522278+00:00'
+evidence: 60_feedback/tasks/task_20260902_laowantong-popmart-molly-transition-card.md
 ---
 
 # #609 MOLLY 诞生卡 + #596 补链（老顽童）
@@ -83,3 +84,17 @@ updated_at: '2026-09-01T21:46:10.115923+00:00'
 **需要谁动作**：
 - 欧阳锋：终审本卡 + 补链 diff
 - 黄药师：新卡入库后跑 `kdo index --rebuild`（可选，增量索引已更新）
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+⚪ 无路径级交付物声明（纯文档/诊断类或未用反引号标注路径）——差集无检查面
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+✅ 执行报告无负向断言词（检查面=执行报告节）
