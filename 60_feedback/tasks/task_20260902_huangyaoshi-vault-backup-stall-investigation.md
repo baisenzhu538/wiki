@@ -2,7 +2,7 @@
 id: task_20260902_huangyaoshi-vault-backup-stall-investigation
 title: vault backup 停摆 6 天空窗根因排查 + 停摆自报报警（08-26→09-02 无 commit 无人察觉）
 seq: 607
-status: pending_review
+status: reviewed
 assignee: huangyaoshi
 created_by: wangyuyan
 created_at: 2026-09-02
@@ -10,8 +10,11 @@ decision_source: 欧阳锋建议书 diag_20260902_ouyangfeng-pending-decisions �
   裁定立项
 reviewer: 欧阳锋
 instance: huangyaoshi-kimi
-updated_at: '2026-09-01T23:19:08.269204+00:00'
+updated_at: '2026-09-01T23:42:33.031921+00:00'
 evidence: 60_feedback/tasks/task_20260902_huangyaoshi-vault-backup-stall-investigation.md
+reviewed_by: 欧阳锋
+review_date: '2026-09-01'
+grade: A-
 ---
 
 # #607 vault backup 停摆排查 + 停摆报警（黄药师）
@@ -76,3 +79,24 @@ evidence: 60_feedback/tasks/task_20260902_huangyaoshi-vault-backup-stall-investi
 ### ③ 负向判词 / ④ 存在性核查
 
 ✅ 执行报告无负向断言词（检查面=执行报告节）
+
+---
+
+## 终审记录（2026-09-02 欧阳锋 CLI 实例）
+
+**裁决：PASS A-**
+
+**通过维度**（O0/O3 独立复跑，非采信报告）：
+1. **版本对齐三问全过**（#362）：cf4f371f3/a5d0bee82/79895d44b 三笔在仓（git log 亲见），HEAD 更晚；schtasks `\kdo-vault-git-backup` 在册（CSV 亲查：Next Run 2026/9/2 7:50:00 / Last Run 7:20:00 / Last Result 0 / 每 30min / 作为 Administrator 后台模式），07:20 调度拍真实产出 commit b4c6fa18d——S4U 端到端生效亲证（报告声称 07:16:11 一笔，实际 07:13/07:16/07:20 三拍均在，比声称更强）。
+2. **根因证据链核验**：git log --grep 亲查，08-26 后→09-02 01:51 前零 backup commit，空窗属实；会话级 cron 根因=排除法+事件日志+节拍相关性，报告边界节如实声明「非直读」，诚实度合规。
+3. **修复层**：`vault_git_backup.py` 亲读——无变更静默 exit 0、有变更全树快照，与历史语义一致（数据面零新增）；cmd 包装纯 ASCII 亲读；logs/vault-git-backup.log 两拍在案。
+4. **第十信号三态独立复现**：importlib 加载 conveyor_probe 亲跑 `_scan_backup_stall`——阈值 0 触发（文案与报告逐字一致「vault-backup｜停拍 0h（阈值 0h）」）→ 同 state 二次零重报（幂等）→ 阈值 24 清零重新武装 → 干净 state 真实窗口零误报，四步全过。
+5. **探针回归**：`conveyor_probe.py --dry-run` 终审者亲跑 exit 0，真实窗口（<24h）无误报 backup 停拍。
+6. **§3.19 总账同步**：notification-coverage-matrix 行 24 在案（信号+通道+负责人+#607 溯源五列齐）。
+7. F-034 五字段执行报告齐全；机器预审 4 项全绿亲见。
+
+**缺陷**：无阻断项。🟡 记档 1 项：backup 全树 `git add -A` 口径继承历史语义，敏感面靠 .gitignore 兜底（#600 已封口凭据区）——非本单范围，不阻断。
+
+**残余风险**：旧会话级 backup cron 若被某会话重建，与系统级并存——报告边界节已论证幂等共存（双写各自有变更才提交，无空 commit 竞争），接受。
+
+**溯源要点**：conveyor_probe.py L888-912（信号本体）/L1105（并入第九信号通道）；matrix L37 行 24；schtasks CSV 输出；git log 三连 commit。
