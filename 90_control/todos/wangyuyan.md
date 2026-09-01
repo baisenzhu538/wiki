@@ -300,3 +300,7 @@
 [2026-09-01 16:31] 🕕 时钟值守拍（16:31）：全清——INBOX-PENDING 0 未划销/PROPOSAL-PENDING 消费 1 行（role-liveness 16:17 ouyangfeng 冷却重报划销，check-liveness 实测冷却抑制 3 角色/全死 0，架构常态）；结构地图例行 grep 7 命中=同名单历史残留（仅 #572 含裁定节，6 老单无结构地图节冻结不回注）；产线 queued·claimed·pending_review 全 0（#583-#593 全闭环），三角色无可领不拉起；心跳已写
 - [2026-09-01 16:47] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
 [2026-09-01 17:05] 🕐 时钟值守拍（17:02）：全清拍——PROPOSAL-PENDING 收尾 1 行补格式划销（role-liveness 16:17 ouyangfeng 冷却重报：16:31 上拍处置内容已在但漏 ~~ 前缀，#672 先例同族，本拍补齐后 PROPOSAL-PENDING 全清）；INBOX-PENDING 0 未划销；结构地图例行 grep 7 命中=同名单历史残留（6 单无结构地图节，#572 裁定节在，老单冻结不回注）；产线 queued·claimed·pending_review 全 0（#583-#593 全闭环），三角色无可领不拉起；心跳已写
+- [2026-09-01 17:17] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-01 17:27] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-01 17:27:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-c
+
+[2026-09-01 17:31] ⚖️ 划销 gate-blocked role-liveness 17:27 行：huangyaoshi 冷却重报（check-liveness 实测冷却抑制 3 角色/全死 0，架构常态）；全清拍，产线 queued·claimed·pending_review 全 0
