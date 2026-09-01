@@ -26,7 +26,7 @@ discoverable_by:
 related:
 - '[[ai-collaboration-domain-digest]]'
 - '[[tool-半肥猫-课程Skill化的八步工作流]]'
-- '[[yt-panproduct-execution-low-cost-mvp]]'
+- '[[tool-泛产品落地-低成本测试MVP]]'
 - '[[tool-月白-AIGC设计作业复盘法]]'
 - '[[tool-月白-设计师AI工具习惯切换]]'
 - '[[tool-月白-设计师AI资产四类型沉淀]]'

@@ -27,7 +27,7 @@ related:
 - '[[master-systems-thinking]]'
 - '[[yt-personal-ipo-learning]]'
 - '[[yt-model-ipo-learning-strategy]]'
-- '[[yt-panproduct-execution-liberate-thinking]]'
+- '[[tool-泛产品落地-解放思想]]'
 - '[[dk-yi-tang-wishful-thinking-kills-startups]]'
 - yt-system-course-map-lecture
 - '[[business-analysis]]'

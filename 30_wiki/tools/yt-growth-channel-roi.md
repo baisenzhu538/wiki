@@ -23,7 +23,7 @@ discoverable_by:
   - 渠道ROI评估与优化
 related:
 - '[[tool-ROI决策评估画布]]'
-- '[[yt-panproduct-execution-roi-analysis]]'
+- '[[tool-泛产品落地-ROI分析]]'
 - '[[case-科学决策-ROI案例02]]'
 - '[[case-科学决策-ROI案例03]]'
 - '[[case-truman-poker-deck-roi]]'

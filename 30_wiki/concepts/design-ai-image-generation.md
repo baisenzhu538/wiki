@@ -29,7 +29,7 @@ related:
 - '[[case-纪浩-focus-prompt-design]]'
 - '[[agent-external-brain-design]]'
 - '[[tool-reverse-image-search]]'
-- '[[yt-panproduct-execution-design-principles]]'
+- '[[tool-泛产品落地-设计原则]]'
 - '[[case-ji-hao-ui-design-constraint-evolution]]'
 - '[[framework-strategy-business-design]]'
 - '[[dk-yb12-ai-image-analysis-replace-training]]'

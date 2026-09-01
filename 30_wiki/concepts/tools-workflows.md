@@ -19,7 +19,7 @@ aliases:
   - 工具工作流
   - AI工具链
 related:
-- '[[yt-panproduct-execution-good-tools]]'
+- '[[tool-泛产品落地-善用佳软]]'
 - '[[tool-yitang-weapon-ai-tools]]'
 - '[[yt-unit-model-three-tools]]'
 - '[[yt-personal-pan-product-tools]]'

@@ -29,7 +29,6 @@ related:
 - '[[tool-纪浩-Agent技能市场设计法]]'
 - '[[concept-mckinsey-mece]]'
 - '[[tool-体系框架构建]]'
-- '[[yt-panproduct-execution-logic-mece]]'
 definition_of_done:
 - src_unknown
 - src_unknown

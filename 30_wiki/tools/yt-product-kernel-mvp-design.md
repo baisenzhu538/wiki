@@ -26,7 +26,7 @@ discoverable_by:
   - 最小可验证产品
 related:
 - '[[tool-月白-AI设计底层逻辑：从设计到作图到改图]]'
-- '[[yt-panproduct-execution-low-cost-mvp]]'
+- '[[tool-泛产品落地-低成本测试MVP]]'
 - '[[tool-月白-口述作图法（口喷设计）]]'
 - '[[tool-月白-设计能力蒸馏封装法]]'
 - '[[tool-月白-AIGC设计作业复盘法]]'
