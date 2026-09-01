@@ -1,13 +1,13 @@
 {
   "stats": {
-    "total_cards": 2879,
-    "cards_with_sources": 2689,
+    "total_cards": 2912,
+    "cards_with_sources": 2722,
     "cards_empty": 187,
     "cards_with_errors": 3,
-    "total_refs": 5941,
-    "refs_file_path": 4257,
-    "refs_ok": 3990,
-    "refs_missing": 267,
+    "total_refs": 5990,
+    "refs_file_path": 4306,
+    "refs_ok": 3991,
+    "refs_missing": 315,
     "refs_contaminated": 8,
     "refs_line_anchor": 771,
     "refs_line_anchor_alive": 771
@@ -111,6 +111,13 @@
       ]
     },
     {
+      "card_id": "case-20260829-zhanlue-dingding-l3-extraction",
+      "file": "30_wiki/cases/case-20260829-zhanlue-dingding-l3-extraction.md",
+      "missing": [
+        "capability/duanwangye/feishu-doc-l3-extraction"
+      ]
+    },
+    {
       "card_id": "case-aodaye-archery-reinvention",
       "file": "30_wiki/cases/case-aodaye-archery-reinvention.md",
       "missing": [
@@ -170,6 +177,46 @@
       "missing": [
         "00_inbox/Advanced modeling/ 口述 §3.2",
         "00_inbox/Advanced modeling/ 攻坚会的流程VLM+OCR"
+      ]
+    },
+    {
+      "card_id": "case-private-board-conversion-skincare",
+      "file": "30_wiki/cases/case-private-board-conversion-skincare.md",
+      "missing": [
+        "00_inbox/私董会/叶柳清私董会/第6期 55班 转化率私董会v1.0（投屏文档）｜1场 【高强版】 副本 叶老师.md:L39-L146",
+        "00_inbox/私董会/叶柳清私董会/第6期 55班 转化率私董会v1.0（投屏文档）｜1场 【高强版】 副本 叶老师.md:L152-L197",
+        "00_inbox/私董会/叶柳清私董会/第6期 55班 转化率私董会v1.0（投屏文档）｜1场 【高强版】 副本 叶老师.md:L203-L218",
+        "00_inbox/私董会/叶柳清私董会/第6期 55班 转化率私董会v1.0（投屏文档）｜1场 【高强版】 副本 叶老师.md:L222-L238"
+      ]
+    },
+    {
+      "card_id": "case-truman-360-6h-course",
+      "file": "30_wiki/cases/case-truman-360-6h-course.md",
+      "missing": [
+        "00_inbox/AI口喷能力训练全阶指南-口述.txt L5718-L5768（背景：360 两天一夜内训 + 推翻原计划决定）",
+        "00_inbox/AI口喷能力训练全阶指南-口述.txt L5778-L5832（准备：洗澡推演 + 喷 3500 字成 00 文档）",
+        "00_inbox/AI口喷能力训练全阶指南-口述.txt L5834-L5956（执行：多 Agent 打地鼠全程动嘴）",
+        "00_inbox/AI口喷能力训练全阶指南-口述.txt L5994-L6030（结果：191 页 PPT + 150 分钟喷 2 万字）"
+      ]
+    },
+    {
+      "card_id": "case-truman-spring-festival-1000",
+      "file": "30_wiki/cases/case-truman-spring-festival-1000.md",
+      "missing": [
+        "00_inbox/AI口喷能力训练全阶指南-口述.txt L1932-L1940（背景：今年春节十天独立时间 + 多工具循环）",
+        "00_inbox/AI口喷能力训练全阶指南-口述.txt L2028-L2046（动作与结果：闭关口喷 1000 条 + 占比 10-20%→80%+ + 口喷变默认选项）",
+        "00_inbox/AI口喷能力训练全阶指南-口述.txt L2066-L2122（升级：像教下属一样补上下文 + 从被动到主动）"
+      ]
+    },
+    {
+      "card_id": "case-wangfei-koupen-dual-track-writing",
+      "file": "30_wiki/cases/case-wangfei-koupen-dual-track-writing.md",
+      "missing": [
+        "00_inbox/Live260-口喷到全新范式优秀作业-逐字稿.md L5-L35（总论+四元概念体系+双三角耦合）",
+        "00_inbox/Live260-口喷到全新范式优秀作业-逐字稿.md L39-L103（完整工作过程还原：真实问题→概念外化→否定校正→交叉验证）",
+        "00_inbox/Live260-口喷到全新范式优秀作业-逐字稿.md L103-L109（口喷保留心路历程的独特价值+28年行业暗知识）",
+        "00_inbox/Live260-口喷到全新范式优秀作业-逐字稿.md L125-L209（五优势自评）",
+        "00_inbox/Live260-口喷到全新范式优秀作业-逐字稿.md L211-L243（四大卡点+七条诚实清单）"
       ]
     },
     {
@@ -458,6 +505,24 @@
       ]
     },
     {
+      "card_id": "dk-koupen-500-vs-5000",
+      "file": "30_wiki/dark-knowledges/dk-koupen-500-vs-5000.md",
+      "missing": [
+        "00_inbox/AI口喷能力训练全阶指南-口述.txt L1092-L1100（500条与5000条无差别：没有固定套路）",
+        "00_inbox/AI口喷能力训练全阶指南-口述.txt L2546-L2556（口喷频率极高 5000-1万次/年，为什么选它做刻意练习）",
+        "00_inbox/AI口喷能力训练全阶指南-口述.txt L2578-L2598（刻意练习 1+4 原理：占要素越多进步越快）"
+      ]
+    },
+    {
+      "card_id": "dk-koupen-input-method-loss",
+      "file": "30_wiki/dark-knowledges/dk-koupen-input-method-loss.md",
+      "missing": [
+        "00_inbox/AI口喷能力训练全阶指南-口述.txt L1810-L1842（事故：GM 角色二十多分钟口喷被压缩 + 只保留 AI 处理过的原文找不回）",
+        "00_inbox/AI口喷能力训练全阶指南-口述.txt L1844-L1856（代价：才华付诸东流 + 归因反转「怪我怪不着输入法」）",
+        "00_inbox/AI口喷能力训练全阶指南-口述.txt L1860-L1880（二分：压缩 vs 漏词 + 防丢稿四招）"
+      ]
+    },
+    {
       "card_id": "dk-let-ai-learn-for-me",
       "file": "30_wiki/dark-knowledges/dk-let-ai-learn-for-me.md",
       "missing": [
@@ -575,6 +640,56 @@
       ]
     },
     {
+      "card_id": "plan_20260621_skill-iteration-standard",
+      "file": "30_wiki/decisions/plan_20260621_skill-iteration-standard.md",
+      "missing": [
+        ".claude/skills/research/SKILL.md",
+        ".claude/skills/research-osint/SKILL.md",
+        ".claude/skills/research-cross-validation/SKILL.md",
+        ".claude/skills/research-web-scraping/SKILL.md",
+        ".claude/skills/research-financial-report/SKILL.md",
+        ".claude/skills/research-industry-report/SKILL.md",
+        ".claude/skills/research-expert-interview/SKILL.md"
+      ]
+    },
+    {
+      "card_id": "dk-feishu-bot-slow-session-hygiene",
+      "file": "30_wiki/dk/dk-feishu-bot-slow-session-hygiene.md",
+      "missing": [
+        "08-30 五绝飞书 bot 生产排障实录（gateway.log / state.db / config.yaml 实证，老顽童）",
+        "AppData/Local/hermes/profiles/wangyuyan/logs/gateway.log",
+        "AppData/Local/hermes/hermes-agent/gateway/run.py"
+      ]
+    },
+    {
+      "card_id": "dk-jiejiaxiuzhen-ai-reestablish",
+      "file": "30_wiki/dk/dk-jiejiaxiuzhen-ai-reestablish.md",
+      "missing": [
+        "00_inbox/我用一堂做一堂/战略笃定-一堂AI转型复盘-口述.txt"
+      ]
+    },
+    {
+      "card_id": "dk-multithread-whack-a-mole",
+      "file": "30_wiki/dk/dk-multithread-whack-a-mole.md",
+      "missing": [
+        "00_inbox/我用一堂做一堂/战略笃定-一堂AI转型复盘-口述.txt"
+      ]
+    },
+    {
+      "card_id": "dk-project-skill-agent-loop",
+      "file": "30_wiki/dk/dk-project-skill-agent-loop.md",
+      "missing": [
+        "00_inbox/我用一堂做一堂/战略笃定-一堂AI转型复盘-口述.txt"
+      ]
+    },
+    {
+      "card_id": "dk-roi-three-step-decision",
+      "file": "30_wiki/dk/dk-roi-three-step-decision.md",
+      "missing": [
+        "00_inbox/我用一堂做一堂/战略笃定-一堂AI转型复盘-口述.txt"
+      ]
+    },
+    {
       "card_id": "framework-AI知识库-Workflow六要素",
       "file": "30_wiki/frameworks/framework-AI知识库-Workflow六要素.md",
       "missing": [
@@ -607,6 +722,34 @@
       "file": "30_wiki/frameworks/framework-lean-six-wastes.md",
       "missing": [
         "｜ 维度 ｜ 经典理论来源 ｜ 一堂六宗罪的本土化/归纳部分 ｜"
+      ]
+    },
+    {
+      "card_id": "framework-openclaw-vs-harness-selection",
+      "file": "30_wiki/frameworks/framework-openclaw-vs-harness-selection.md",
+      "missing": [
+        "00_inbox/我用一堂做一堂/战略笃定-一堂AI转型复盘-口述.txt"
+      ]
+    },
+    {
+      "card_id": "framework-oral-spray-five-advantages",
+      "file": "30_wiki/frameworks/framework-oral-spray-five-advantages.md",
+      "missing": [
+        "00_inbox/AI口喷能力训练全阶指南-口述.txt L594-L636（五优势总述）",
+        "00_inbox/AI口喷能力训练全阶指南-口述.txt L640-L678（启动快）",
+        "00_inbox/AI口喷能力训练全阶指南-口述.txt L690-L734（信息全）",
+        "00_inbox/AI口喷能力训练全阶指南-口述.txt L738-L760（速度快）",
+        "00_inbox/AI口喷能力训练全阶指南-口述.txt L764-L832（能流淌）",
+        "00_inbox/AI口喷能力训练全阶指南-口述.txt L834-L870（阻力低）",
+        "00_inbox/AI口喷能力训练全阶指南-口述.txt L888-L960（心法：把人当AI，把AI当人）"
+      ]
+    },
+    {
+      "card_id": "framework-strategy-conviction",
+      "file": "30_wiki/frameworks/framework-strategy-conviction.md",
+      "missing": [
+        "00_inbox/我用一堂做一堂/战略笃定-一堂AI转型复盘-口述.txt",
+        "00_inbox/我用一堂做一堂/我用一堂做一堂-战略笃定篇-逐字稿.md"
       ]
     },
     {
@@ -904,6 +1047,13 @@
       "file": "30_wiki/tools/tool-ai-adapted-workflow-design.md",
       "missing": [
         "00_inbox/AI落地Live86-龙虾员工实践-逐字稿.md"
+      ]
+    },
+    {
+      "card_id": "tool-ai-agent-feature-comparison",
+      "file": "30_wiki/tools/tool-ai-agent-feature-comparison.md",
+      "missing": [
+        "00_inbox/我用一堂做一堂/战略笃定-一堂AI转型复盘-口述.txt"
       ]
     },
     {
@@ -1383,7 +1533,12 @@
       {
         "domain": "ai-collaboration",
         "status": "reviewed",
-        "missing": 37
+        "missing": 43
+      },
+      {
+        "domain": "ai-collaboration",
+        "status": "draft",
+        "missing": 42
       },
       {
         "domain": "innovation",
@@ -1391,9 +1546,14 @@
         "missing": 35
       },
       {
-        "domain": "ai-collaboration",
+        "domain": "content-creation",
         "status": "draft",
-        "missing": 20
+        "missing": 16
+      },
+      {
+        "domain": "kdo",
+        "status": "reviewed",
+        "missing": 12
       },
       {
         "domain": "personal-os",
@@ -1403,7 +1563,7 @@
       {
         "domain": "ai-collaboration",
         "status": "pending_review",
-        "missing": 9
+        "missing": 10
       },
       {
         "domain": "modeling",
@@ -1411,8 +1571,18 @@
         "missing": 8
       },
       {
+        "domain": "master",
+        "status": "reviewed",
+        "missing": 8
+      },
+      {
         "domain": "research",
         "status": "reviewed",
+        "missing": 7
+      },
+      {
+        "domain": "knowledge-management",
+        "status": "draft",
         "missing": 7
       },
       {
@@ -1428,11 +1598,6 @@
       {
         "domain": "management",
         "status": "enriched",
-        "missing": 6
-      },
-      {
-        "domain": "knowledge-management",
-        "status": "draft",
         "missing": 6
       },
       {
@@ -1456,13 +1621,13 @@
         "missing": 5
       },
       {
-        "domain": "kdo",
+        "domain": "knowledge-management",
         "status": "reviewed",
         "missing": 5
       },
       {
-        "domain": "knowledge-management",
-        "status": "reviewed",
+        "domain": "decision-making",
+        "status": "draft",
         "missing": 5
       },
       {
@@ -1477,6 +1642,11 @@
       },
       {
         "domain": "organizational-transformation",
+        "status": "reviewed",
+        "missing": 4
+      },
+      {
+        "domain": "conversion-rate",
         "status": "reviewed",
         "missing": 4
       },
@@ -1521,6 +1691,21 @@
         "missing": 3
       },
       {
+        "domain": "agent-infrastructure",
+        "status": "enriched",
+        "missing": 3
+      },
+      {
+        "domain": "hermes-operations",
+        "status": "enriched",
+        "missing": 3
+      },
+      {
+        "domain": "strategy",
+        "status": "draft",
+        "missing": 3
+      },
+      {
         "domain": "strategy",
         "status": "enriched",
         "missing": 3
@@ -1537,12 +1722,22 @@
       },
       {
         "domain": "feishu",
-        "status": "reviewed",
+        "status": "draft",
         "missing": 2
       },
       {
-        "domain": "decision-making",
+        "domain": "extraction",
         "status": "draft",
+        "missing": 2
+      },
+      {
+        "domain": "browser-automation",
+        "status": "draft",
+        "missing": 2
+      },
+      {
+        "domain": "feishu",
+        "status": "reviewed",
         "missing": 2
       },
       {
@@ -1573,6 +1768,11 @@
       {
         "domain": "modeling",
         "status": "reviewed",
+        "missing": 2
+      },
+      {
+        "domain": "ai-basic",
+        "status": "draft",
         "missing": 2
       },
       {
@@ -1621,21 +1821,6 @@
         "missing": 1
       },
       {
-        "domain": "feishu",
-        "status": "draft",
-        "missing": 1
-      },
-      {
-        "domain": "extraction",
-        "status": "draft",
-        "missing": 1
-      },
-      {
-        "domain": "browser-automation",
-        "status": "draft",
-        "missing": 1
-      },
-      {
         "domain": "e-commerce",
         "status": "reviewed",
         "missing": 1
@@ -1676,17 +1861,22 @@
         "missing": 1
       },
       {
-        "domain": "master",
-        "status": "reviewed",
-        "missing": 1
-      },
-      {
         "domain": "hermes",
         "status": "draft",
         "missing": 1
       },
       {
         "domain": "mcp",
+        "status": "draft",
+        "missing": 1
+      },
+      {
+        "domain": "content-production",
+        "status": "draft",
+        "missing": 1
+      },
+      {
+        "domain": "personal-growth",
         "status": "draft",
         "missing": 1
       },
@@ -1751,6 +1941,11 @@
         "missing": 1
       },
       {
+        "domain": "ai-basic",
+        "status": "pending_review",
+        "missing": 1
+      },
+      {
         "domain": "decision",
         "status": "pending_review",
         "missing": 1
@@ -1811,6 +2006,86 @@
         "card_id": "case-modeling-gongjianhui-facilitation",
         "status": "draft",
         "missing": "00_inbox/Advanced modeling/ 攻坚会的流程VLM+OCR"
+      },
+      {
+        "card_id": "case-private-board-conversion-skincare",
+        "status": "reviewed",
+        "missing": "00_inbox/私董会/叶柳清私董会/第6期 55班 转化率私董会v1.0（投屏文档）｜1场 【高强版】 副本 叶老师.md:L39-L146"
+      },
+      {
+        "card_id": "case-private-board-conversion-skincare",
+        "status": "reviewed",
+        "missing": "00_inbox/私董会/叶柳清私董会/第6期 55班 转化率私董会v1.0（投屏文档）｜1场 【高强版】 副本 叶老师.md:L152-L197"
+      },
+      {
+        "card_id": "case-private-board-conversion-skincare",
+        "status": "reviewed",
+        "missing": "00_inbox/私董会/叶柳清私董会/第6期 55班 转化率私董会v1.0（投屏文档）｜1场 【高强版】 副本 叶老师.md:L203-L218"
+      },
+      {
+        "card_id": "case-private-board-conversion-skincare",
+        "status": "reviewed",
+        "missing": "00_inbox/私董会/叶柳清私董会/第6期 55班 转化率私董会v1.0（投屏文档）｜1场 【高强版】 副本 叶老师.md:L222-L238"
+      },
+      {
+        "card_id": "case-truman-360-6h-course",
+        "status": "draft",
+        "missing": "00_inbox/AI口喷能力训练全阶指南-口述.txt L5718-L5768（背景：360 两天一夜内训 + 推翻原计划决定）"
+      },
+      {
+        "card_id": "case-truman-360-6h-course",
+        "status": "draft",
+        "missing": "00_inbox/AI口喷能力训练全阶指南-口述.txt L5778-L5832（准备：洗澡推演 + 喷 3500 字成 00 文档）"
+      },
+      {
+        "card_id": "case-truman-360-6h-course",
+        "status": "draft",
+        "missing": "00_inbox/AI口喷能力训练全阶指南-口述.txt L5834-L5956（执行：多 Agent 打地鼠全程动嘴）"
+      },
+      {
+        "card_id": "case-truman-360-6h-course",
+        "status": "draft",
+        "missing": "00_inbox/AI口喷能力训练全阶指南-口述.txt L5994-L6030（结果：191 页 PPT + 150 分钟喷 2 万字）"
+      },
+      {
+        "card_id": "case-truman-spring-festival-1000",
+        "status": "reviewed",
+        "missing": "00_inbox/AI口喷能力训练全阶指南-口述.txt L1932-L1940（背景：今年春节十天独立时间 + 多工具循环）"
+      },
+      {
+        "card_id": "case-truman-spring-festival-1000",
+        "status": "reviewed",
+        "missing": "00_inbox/AI口喷能力训练全阶指南-口述.txt L2028-L2046（动作与结果：闭关口喷 1000 条 + 占比 10-20%→80%+ + 口喷变默认选项）"
+      },
+      {
+        "card_id": "case-truman-spring-festival-1000",
+        "status": "reviewed",
+        "missing": "00_inbox/AI口喷能力训练全阶指南-口述.txt L2066-L2122（升级：像教下属一样补上下文 + 从被动到主动）"
+      },
+      {
+        "card_id": "case-wangfei-koupen-dual-track-writing",
+        "status": "draft",
+        "missing": "00_inbox/Live260-口喷到全新范式优秀作业-逐字稿.md L5-L35（总论+四元概念体系+双三角耦合）"
+      },
+      {
+        "card_id": "case-wangfei-koupen-dual-track-writing",
+        "status": "draft",
+        "missing": "00_inbox/Live260-口喷到全新范式优秀作业-逐字稿.md L39-L103（完整工作过程还原：真实问题→概念外化→否定校正→交叉验证）"
+      },
+      {
+        "card_id": "case-wangfei-koupen-dual-track-writing",
+        "status": "draft",
+        "missing": "00_inbox/Live260-口喷到全新范式优秀作业-逐字稿.md L103-L109（口喷保留心路历程的独特价值+28年行业暗知识）"
+      },
+      {
+        "card_id": "case-wangfei-koupen-dual-track-writing",
+        "status": "draft",
+        "missing": "00_inbox/Live260-口喷到全新范式优秀作业-逐字稿.md L125-L209（五优势自评）"
+      },
+      {
+        "card_id": "case-wangfei-koupen-dual-track-writing",
+        "status": "draft",
+        "missing": "00_inbox/Live260-口喷到全新范式优秀作业-逐字稿.md L211-L243（四大卡点+七条诚实清单）"
       },
       {
         "card_id": "case-wenxiaobao-campus-bilateral-network",
@@ -2018,6 +2293,36 @@
         "missing": "00_inbox/AI落地Live86-龙虾员工实践-逐字稿.md"
       },
       {
+        "card_id": "dk-koupen-500-vs-5000",
+        "status": "draft",
+        "missing": "00_inbox/AI口喷能力训练全阶指南-口述.txt L1092-L1100（500条与5000条无差别：没有固定套路）"
+      },
+      {
+        "card_id": "dk-koupen-500-vs-5000",
+        "status": "draft",
+        "missing": "00_inbox/AI口喷能力训练全阶指南-口述.txt L2546-L2556（口喷频率极高 5000-1万次/年，为什么选它做刻意练习）"
+      },
+      {
+        "card_id": "dk-koupen-500-vs-5000",
+        "status": "draft",
+        "missing": "00_inbox/AI口喷能力训练全阶指南-口述.txt L2578-L2598（刻意练习 1+4 原理：占要素越多进步越快）"
+      },
+      {
+        "card_id": "dk-koupen-input-method-loss",
+        "status": "reviewed",
+        "missing": "00_inbox/AI口喷能力训练全阶指南-口述.txt L1810-L1842（事故：GM 角色二十多分钟口喷被压缩 + 只保留 AI 处理过的原文找不回）"
+      },
+      {
+        "card_id": "dk-koupen-input-method-loss",
+        "status": "reviewed",
+        "missing": "00_inbox/AI口喷能力训练全阶指南-口述.txt L1844-L1856（代价：才华付诸东流 + 归因反转「怪我怪不着输入法」）"
+      },
+      {
+        "card_id": "dk-koupen-input-method-loss",
+        "status": "reviewed",
+        "missing": "00_inbox/AI口喷能力训练全阶指南-口述.txt L1860-L1880（二分：压缩 vs 漏词 + 防丢稿四招）"
+      },
+      {
         "card_id": "dk-let-ai-learn-for-me",
         "status": "pending_review",
         "missing": "00_inbox/AI落地Live86-龙虾员工实践-逐字稿.md"
@@ -2096,6 +2401,76 @@
         "card_id": "dk-管控vs协同执行策略",
         "status": "draft",
         "missing": "00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-笔记.txt §5.1"
+      },
+      {
+        "card_id": "dk-jiejiaxiuzhen-ai-reestablish",
+        "status": "draft",
+        "missing": "00_inbox/我用一堂做一堂/战略笃定-一堂AI转型复盘-口述.txt"
+      },
+      {
+        "card_id": "dk-multithread-whack-a-mole",
+        "status": "draft",
+        "missing": "00_inbox/我用一堂做一堂/战略笃定-一堂AI转型复盘-口述.txt"
+      },
+      {
+        "card_id": "dk-project-skill-agent-loop",
+        "status": "draft",
+        "missing": "00_inbox/我用一堂做一堂/战略笃定-一堂AI转型复盘-口述.txt"
+      },
+      {
+        "card_id": "dk-roi-three-step-decision",
+        "status": "draft",
+        "missing": "00_inbox/我用一堂做一堂/战略笃定-一堂AI转型复盘-口述.txt"
+      },
+      {
+        "card_id": "framework-openclaw-vs-harness-selection",
+        "status": "draft",
+        "missing": "00_inbox/我用一堂做一堂/战略笃定-一堂AI转型复盘-口述.txt"
+      },
+      {
+        "card_id": "framework-oral-spray-five-advantages",
+        "status": "draft",
+        "missing": "00_inbox/AI口喷能力训练全阶指南-口述.txt L594-L636（五优势总述）"
+      },
+      {
+        "card_id": "framework-oral-spray-five-advantages",
+        "status": "draft",
+        "missing": "00_inbox/AI口喷能力训练全阶指南-口述.txt L640-L678（启动快）"
+      },
+      {
+        "card_id": "framework-oral-spray-five-advantages",
+        "status": "draft",
+        "missing": "00_inbox/AI口喷能力训练全阶指南-口述.txt L690-L734（信息全）"
+      },
+      {
+        "card_id": "framework-oral-spray-five-advantages",
+        "status": "draft",
+        "missing": "00_inbox/AI口喷能力训练全阶指南-口述.txt L738-L760（速度快）"
+      },
+      {
+        "card_id": "framework-oral-spray-five-advantages",
+        "status": "draft",
+        "missing": "00_inbox/AI口喷能力训练全阶指南-口述.txt L764-L832（能流淌）"
+      },
+      {
+        "card_id": "framework-oral-spray-five-advantages",
+        "status": "draft",
+        "missing": "00_inbox/AI口喷能力训练全阶指南-口述.txt L834-L870（阻力低）"
+      },
+      {
+        "card_id": "framework-oral-spray-five-advantages",
+        "status": "draft",
+        "missing": "00_inbox/AI口喷能力训练全阶指南-口述.txt L888-L960（心法：把人当AI，把AI当人）"
+      },
+      {
+        "card_id": "framework-strategy-conviction",
+        "status": "draft",
+        "missing": "00_inbox/我用一堂做一堂/战略笃定-一堂AI转型复盘-口述.txt"
+      },
+      {
+        "card_id": "framework-strategy-conviction",
+        "status": "draft",
+        "missing": "00_inbox/我用一堂做一堂/我用一堂做一堂-战略笃定篇-逐字稿.md"
       },
       {
         "card_id": "framework-yitang-oscar-research",
@@ -2271,6 +2646,11 @@
         "card_id": "tool-ai-adapted-workflow-design",
         "status": "pending_review",
         "missing": "00_inbox/AI落地Live86-龙虾员工实践-逐字稿.md"
+      },
+      {
+        "card_id": "tool-ai-agent-feature-comparison",
+        "status": "pending_review",
+        "missing": "00_inbox/我用一堂做一堂/战略笃定-一堂AI转型复盘-口述.txt"
       },
       {
         "card_id": "tool-ai-customer-quality-audit",
@@ -2678,6 +3058,33 @@
         "missing": 10
       },
       {
+        "card_id": "plan_20260621_skill-iteration-standard",
+        "status": "reviewed",
+        "domain": [
+          "master",
+          "kdo"
+        ],
+        "missing": 7
+      },
+      {
+        "card_id": "framework-oral-spray-five-advantages",
+        "status": "draft",
+        "domain": [
+          "ai-collaboration",
+          "content-creation"
+        ],
+        "missing": 7
+      },
+      {
+        "card_id": "case-wangfei-koupen-dual-track-writing",
+        "status": "draft",
+        "domain": [
+          "ai-collaboration",
+          "content-creation"
+        ],
+        "missing": 5
+      },
+      {
         "card_id": "agent-spec-project-management-assistant",
         "status": "reviewed",
         "domain": [
@@ -2708,6 +3115,23 @@
           "ai-collaboration",
           "personal-os",
           "organizational-transformation"
+        ],
+        "missing": 4
+      },
+      {
+        "card_id": "case-private-board-conversion-skincare",
+        "status": "reviewed",
+        "domain": [
+          "conversion-rate"
+        ],
+        "missing": 4
+      },
+      {
+        "card_id": "case-truman-360-6h-course",
+        "status": "draft",
+        "domain": [
+          "ai-collaboration",
+          "content-creation"
         ],
         "missing": 4
       },
@@ -2755,6 +3179,14 @@
         "missing": 3
       },
       {
+        "card_id": "case-truman-spring-festival-1000",
+        "status": "reviewed",
+        "domain": [
+          "ai-collaboration"
+        ],
+        "missing": 3
+      },
+      {
         "card_id": "concept-yihang-ai-feature-thinking",
         "status": "reviewed",
         "domain": [
@@ -2775,6 +3207,31 @@
         "status": "reviewed",
         "domain": [
           "management"
+        ],
+        "missing": 3
+      },
+      {
+        "card_id": "dk-koupen-500-vs-5000",
+        "status": "draft",
+        "domain": [
+          "ai-collaboration"
+        ],
+        "missing": 3
+      },
+      {
+        "card_id": "dk-koupen-input-method-loss",
+        "status": "reviewed",
+        "domain": [
+          "ai-collaboration"
+        ],
+        "missing": 3
+      },
+      {
+        "card_id": "dk-feishu-bot-slow-session-hygiene",
+        "status": "enriched",
+        "domain": [
+          "agent-infrastructure",
+          "hermes-operations"
         ],
         "missing": 3
       },
@@ -2949,6 +3406,15 @@
         "missing": 2
       },
       {
+        "card_id": "framework-strategy-conviction",
+        "status": "draft",
+        "domain": [
+          "strategy",
+          "decision-making"
+        ],
+        "missing": 2
+      },
+      {
         "card_id": "framework-yitang-project-plan-design",
         "status": "reviewed",
         "domain": [
@@ -2996,90 +3462,6 @@
           "ai",
           "research",
           "agent"
-        ],
-        "missing": 2
-      },
-      {
-        "card_id": "tool-agent-spec-yitang-daily-weekly-meeting-host",
-        "status": "reviewed",
-        "domain": [
-          "personal-os",
-          "sales",
-          "ai-collaboration"
-        ],
-        "missing": 2
-      },
-      {
-        "card_id": "tool-agent-spec-yitang-incentive-design",
-        "status": "draft",
-        "domain": [
-          "personal-os",
-          "sales",
-          "ai-collaboration"
-        ],
-        "missing": 2
-      },
-      {
-        "card_id": "tool-ai-customer-quality-audit",
-        "status": "draft",
-        "domain": [
-          "innovation"
-        ],
-        "missing": 2
-      },
-      {
-        "card_id": "tool-ai-feature-inventory",
-        "status": "draft",
-        "domain": [
-          "ai-collaboration"
-        ],
-        "missing": 2
-      },
-      {
-        "card_id": "tool-cross-city-replication-test",
-        "status": "draft",
-        "domain": [
-          "innovation"
-        ],
-        "missing": 2
-      },
-      {
-        "card_id": "tool-decision-narrative-method",
-        "status": "draft",
-        "domain": [
-          "innovation"
-        ],
-        "missing": 2
-      },
-      {
-        "card_id": "tool-demand-chai-tui-ping-suan-guide",
-        "status": "enriched",
-        "domain": [
-          "demand-analysis"
-        ],
-        "missing": 2
-      },
-      {
-        "card_id": "tool-four-line-review",
-        "status": "draft",
-        "domain": [
-          "innovation"
-        ],
-        "missing": 2
-      },
-      {
-        "card_id": "tool-incentive-28-principle",
-        "status": "draft",
-        "domain": [
-          "innovation"
-        ],
-        "missing": 2
-      },
-      {
-        "card_id": "tool-jargon-to-value-translator",
-        "status": "draft",
-        "domain": [
-          "innovation"
         ],
         "missing": 2
       }

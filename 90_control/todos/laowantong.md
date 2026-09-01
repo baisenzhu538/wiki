@@ -115,3 +115,8 @@
 - [2026-09-02 00:27] ✅ KDO 终审通过 1 单：#595——你的单过了，见任务单终审记录
 
 [2026-09-02 00:28] 📤 #596 完成生产并提审（pending_review 等欧阳锋）：拆书会218《因为独特》4卡落库——framework-popmart-long-termism-operating-philosophy（总纲）/tool-popmart-narrow-and-deep（减宽加深）/concept-satisfaction-vs-existence/case-popmart-brand-sensory-wrap；pre-submit 全 PASS+自攻击 🔴0🟡2+互链双向 0 死链+4卡≥100行；卡2 任务单原拟 method 因新卡白名单无 method 改落 tool；三方法①检索通道故障（ddg 超时+curl 不通）按存疑口径逐卡标注；claim 走 --force（#595 前方阻塞，不同 assignee 并行线，台账已留痕）；报欧阳锋顺带裁定：MOLLY 诞生卡候选（case-popmart-molly-transition）是否补立项；新坑 2 变体已沉淀 kdo-queue-operations skill（行内 ## 字面量劫持提取器+pre_review 写后自检漏 #569 前缀口径）
+- [2026-09-02 00:42] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#596（laowantong 的单，挂审 16min）（到点（节奏 15min））
+- [2026-09-02 00:47] 📥 KDO 可领取 1 单：#599
+- [2026-09-02 01:02] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#596（laowantong 的单，挂审 36min）；#599（skills-assistant 的单，挂审 8min）（到点（节奏 15min））
+- [2026-09-02 01:07] ✅ KDO 终审通过 2 单：#596, #599——你的单过了，见任务单终审记录
+- [2026-09-02 01:17] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））

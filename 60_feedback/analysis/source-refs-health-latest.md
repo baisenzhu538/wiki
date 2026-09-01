@@ -1,12 +1,12 @@
 # source_refs 健康检查报告
 
-**扫描范围**：2879 张卡片
-**有 source 的卡片**：2689 张
+**扫描范围**：2912 张卡片
+**有 source 的卡片**：2722 张
 **空 source 卡片**：187 张
-**source_refs 总数**：5941 条
-**文件路径类 source**：4257 条
-**✅ 文件存在**：3990 条
-**❌ 文件缺失**：267 条
+**source_refs 总数**：5990 条
+**文件路径类 source**：4306 条
+**✅ 文件存在**：3991 条
+**❌ 文件缺失**：315 条
 **⚠️ 污染引用**：8 条
 **🔗 行号锚引用**：771 条（剥锚后存在 771 条——剥锚修复前全被误判缺失，#543）
 
@@ -36,6 +36,7 @@
 | `agent-spec-zhu-boss` | `agents/agent-os.md §10（双三角人侧）` |
 | `bridge-yitang-seek-truth-liberate-thought` | `00_inbox/解放思想探索营/解放思想创新体系-探索营-笔记.txt §一` |
 | `bridge-个人复盘×知识管理W-Z-K-P` | `00_inbox/个人-深度复盘/_processed/批注_2026-08-05_230938_*.md` |
+| `case-20260829-zhanlue-dingding-l3-extraction` | `capability/duanwangye/feishu-doc-l3-extraction` |
 | `case-aodaye-archery-reinvention` | `00_inbox/解放思想探索营/案例分享-口述.txt L946-1278` |
 | `case-aodaye-archery-reinvention` | `00_inbox/解放思想探索营/案例分享-笔记.txt §三` |
 | `case-duanwangye-self-iteration-closed-loop` | `agent复盘/duanwangye/daily-context/2026-08-09.md` |
@@ -50,6 +51,22 @@
 | `case-modeling-ai-image-workflow` | `00_inbox/Advanced modeling/ 批注2026-07-19-203816 VLM` |
 | `case-modeling-gongjianhui-facilitation` | `00_inbox/Advanced modeling/ 口述 §3.2` |
 | `case-modeling-gongjianhui-facilitation` | `00_inbox/Advanced modeling/ 攻坚会的流程VLM+OCR` |
+| `case-private-board-conversion-skincare` | `00_inbox/私董会/叶柳清私董会/第6期 55班 转化率私董会v1.0（投屏文档）｜1场 【高强版】 副本 叶老师.md:L39-L146` |
+| `case-private-board-conversion-skincare` | `00_inbox/私董会/叶柳清私董会/第6期 55班 转化率私董会v1.0（投屏文档）｜1场 【高强版】 副本 叶老师.md:L152-L197` |
+| `case-private-board-conversion-skincare` | `00_inbox/私董会/叶柳清私董会/第6期 55班 转化率私董会v1.0（投屏文档）｜1场 【高强版】 副本 叶老师.md:L203-L218` |
+| `case-private-board-conversion-skincare` | `00_inbox/私董会/叶柳清私董会/第6期 55班 转化率私董会v1.0（投屏文档）｜1场 【高强版】 副本 叶老师.md:L222-L238` |
+| `case-truman-360-6h-course` | `00_inbox/AI口喷能力训练全阶指南-口述.txt L5718-L5768（背景：360 两天一夜内训 + 推翻原计划决定）` |
+| `case-truman-360-6h-course` | `00_inbox/AI口喷能力训练全阶指南-口述.txt L5778-L5832（准备：洗澡推演 + 喷 3500 字成 00 文档）` |
+| `case-truman-360-6h-course` | `00_inbox/AI口喷能力训练全阶指南-口述.txt L5834-L5956（执行：多 Agent 打地鼠全程动嘴）` |
+| `case-truman-360-6h-course` | `00_inbox/AI口喷能力训练全阶指南-口述.txt L5994-L6030（结果：191 页 PPT + 150 分钟喷 2 万字）` |
+| `case-truman-spring-festival-1000` | `00_inbox/AI口喷能力训练全阶指南-口述.txt L1932-L1940（背景：今年春节十天独立时间 + 多工具循环）` |
+| `case-truman-spring-festival-1000` | `00_inbox/AI口喷能力训练全阶指南-口述.txt L2028-L2046（动作与结果：闭关口喷 1000 条 + 占比 10-20%→80%+ + 口喷变默认选项）` |
+| `case-truman-spring-festival-1000` | `00_inbox/AI口喷能力训练全阶指南-口述.txt L2066-L2122（升级：像教下属一样补上下文 + 从被动到主动）` |
+| `case-wangfei-koupen-dual-track-writing` | `00_inbox/Live260-口喷到全新范式优秀作业-逐字稿.md L5-L35（总论+四元概念体系+双三角耦合）` |
+| `case-wangfei-koupen-dual-track-writing` | `00_inbox/Live260-口喷到全新范式优秀作业-逐字稿.md L39-L103（完整工作过程还原：真实问题→概念外化→否定校正→交叉验证）` |
+| `case-wangfei-koupen-dual-track-writing` | `00_inbox/Live260-口喷到全新范式优秀作业-逐字稿.md L103-L109（口喷保留心路历程的独特价值+28年行业暗知识）` |
+| `case-wangfei-koupen-dual-track-writing` | `00_inbox/Live260-口喷到全新范式优秀作业-逐字稿.md L125-L209（五优势自评）` |
+| `case-wangfei-koupen-dual-track-writing` | `00_inbox/Live260-口喷到全新范式优秀作业-逐字稿.md L211-L243（四大卡点+七条诚实清单）` |
 | `case-wenxiaobao-campus-bilateral-network` | `00_inbox/解放思想探索营/案例分享-口述.txt L1-890` |
 | `case-wenxiaobao-campus-bilateral-network` | `00_inbox/解放思想探索营/案例分享-笔记.txt §二` |
 | `case-wudi-innovation-contest-value` | `00_inbox/解放思想探索营/案例分享-口述.txt L1014-1290` |
@@ -113,6 +130,12 @@
 | `dk-AI知识库-隐性知识显性化60分原则` | `60_feedback/diagnosis/diag_20260823_wangyuyan-banfeimao-ai-kb-diagnosis.md#L1-L100` |
 | `dk-best-datasource-is-floor` | `00_inbox/AI落地Live86-龙虾员工实践-逐字稿.md` |
 | `dk-f13-handwritten-yaml-parser` | `10_raw/sources/src_20260619_d967c8f5_90_control_failure_modes.md#F-KDO-013` |
+| `dk-koupen-500-vs-5000` | `00_inbox/AI口喷能力训练全阶指南-口述.txt L1092-L1100（500条与5000条无差别：没有固定套路）` |
+| `dk-koupen-500-vs-5000` | `00_inbox/AI口喷能力训练全阶指南-口述.txt L2546-L2556（口喷频率极高 5000-1万次/年，为什么选它做刻意练习）` |
+| `dk-koupen-500-vs-5000` | `00_inbox/AI口喷能力训练全阶指南-口述.txt L2578-L2598（刻意练习 1+4 原理：占要素越多进步越快）` |
+| `dk-koupen-input-method-loss` | `00_inbox/AI口喷能力训练全阶指南-口述.txt L1810-L1842（事故：GM 角色二十多分钟口喷被压缩 + 只保留 AI 处理过的原文找不回）` |
+| `dk-koupen-input-method-loss` | `00_inbox/AI口喷能力训练全阶指南-口述.txt L1844-L1856（代价：才华付诸东流 + 归因反转「怪我怪不着输入法」）` |
+| `dk-koupen-input-method-loss` | `00_inbox/AI口喷能力训练全阶指南-口述.txt L1860-L1880（二分：压缩 vs 漏词 + 防丢稿四招）` |
 | `dk-let-ai-learn-for-me` | `00_inbox/AI落地Live86-龙虾员工实践-逐字稿.md` |
 | `dk-mcp-pythonpath-pollution` | `capability/hermes/hermes-mcp-server-ops` |
 | `dk-modeling-course-rnd-ripe-fruit` | `｜ 到点交付的内容被专家或学员找出明显反例、低阶错误 ｜ 硬排课表导致未成熟的内容被提前摘下 ｜ 设置品控红线（L4/L5 标准），未达标准宁可不开 ｜` |
@@ -134,11 +157,35 @@
 | `dk-实事求是目标管理双原则` | `00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-笔记.txt §7.2` |
 | `dk-目标管理四大病` | `00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-笔记.txt §2.1` |
 | `dk-管控vs协同执行策略` | `00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-笔记.txt §5.1` |
+| `plan_20260621_skill-iteration-standard` | `.claude/skills/research/SKILL.md` |
+| `plan_20260621_skill-iteration-standard` | `.claude/skills/research-osint/SKILL.md` |
+| `plan_20260621_skill-iteration-standard` | `.claude/skills/research-cross-validation/SKILL.md` |
+| `plan_20260621_skill-iteration-standard` | `.claude/skills/research-web-scraping/SKILL.md` |
+| `plan_20260621_skill-iteration-standard` | `.claude/skills/research-financial-report/SKILL.md` |
+| `plan_20260621_skill-iteration-standard` | `.claude/skills/research-industry-report/SKILL.md` |
+| `plan_20260621_skill-iteration-standard` | `.claude/skills/research-expert-interview/SKILL.md` |
+| `dk-feishu-bot-slow-session-hygiene` | `08-30 五绝飞书 bot 生产排障实录（gateway.log / state.db / config.yaml 实证，老顽童）` |
+| `dk-feishu-bot-slow-session-hygiene` | `AppData/Local/hermes/profiles/wangyuyan/logs/gateway.log` |
+| `dk-feishu-bot-slow-session-hygiene` | `AppData/Local/hermes/hermes-agent/gateway/run.py` |
+| `dk-jiejiaxiuzhen-ai-reestablish` | `00_inbox/我用一堂做一堂/战略笃定-一堂AI转型复盘-口述.txt` |
+| `dk-multithread-whack-a-mole` | `00_inbox/我用一堂做一堂/战略笃定-一堂AI转型复盘-口述.txt` |
+| `dk-project-skill-agent-loop` | `00_inbox/我用一堂做一堂/战略笃定-一堂AI转型复盘-口述.txt` |
+| `dk-roi-three-step-decision` | `00_inbox/我用一堂做一堂/战略笃定-一堂AI转型复盘-口述.txt` |
 | `framework-AI知识库-Workflow六要素` | `60_feedback/diagnosis/diag_20260823_wangyuyan-banfeimao-ai-kb-diagnosis.md#L1-L100` |
 | `framework-bimodal-time-philosophy` | `｜ **工作类型** ｜ L3-L5深度工作（分析/创造/突破） ｜ 会议、1on1、沟通、信息同步、轻度执行 ｜` |
 | `framework-business-formula-dual-triangle-bridge` | `｜ **创造力**（人侧） ｜ 创新参数(L5)=创造力的结构化出口 ｜ 自定义参数/新组合/新动作定义 ｜ 创造力无结构化载体，等于没有 ｜` |
 | `framework-lean-four-principles` | `｜ 原则 ｜ 经典理论来源 ｜ 一堂本土化/操作化 ｜` |
 | `framework-lean-six-wastes` | `｜ 维度 ｜ 经典理论来源 ｜ 一堂六宗罪的本土化/归纳部分 ｜` |
+| `framework-openclaw-vs-harness-selection` | `00_inbox/我用一堂做一堂/战略笃定-一堂AI转型复盘-口述.txt` |
+| `framework-oral-spray-five-advantages` | `00_inbox/AI口喷能力训练全阶指南-口述.txt L594-L636（五优势总述）` |
+| `framework-oral-spray-five-advantages` | `00_inbox/AI口喷能力训练全阶指南-口述.txt L640-L678（启动快）` |
+| `framework-oral-spray-five-advantages` | `00_inbox/AI口喷能力训练全阶指南-口述.txt L690-L734（信息全）` |
+| `framework-oral-spray-five-advantages` | `00_inbox/AI口喷能力训练全阶指南-口述.txt L738-L760（速度快）` |
+| `framework-oral-spray-five-advantages` | `00_inbox/AI口喷能力训练全阶指南-口述.txt L764-L832（能流淌）` |
+| `framework-oral-spray-five-advantages` | `00_inbox/AI口喷能力训练全阶指南-口述.txt L834-L870（阻力低）` |
+| `framework-oral-spray-five-advantages` | `00_inbox/AI口喷能力训练全阶指南-口述.txt L888-L960（心法：把人当AI，把AI当人）` |
+| `framework-strategy-conviction` | `00_inbox/我用一堂做一堂/战略笃定-一堂AI转型复盘-口述.txt` |
+| `framework-strategy-conviction` | `00_inbox/我用一堂做一堂/我用一堂做一堂-战略笃定篇-逐字稿.md` |
 | `framework-yitang-oscar-research` | `['一堂系统式调研口述稿（`00_inbox/调研专题/一堂-系统式调研-口述.txt`）：OSCAR框架原始出处']` |
 | `framework-yitang-oscar-research` | `['Business Research Skill v2.1.0（`10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md`）：13武器体系的KDO实现']` |
 | `framework-yitang-oscar-research` | `['系统调研高水平计划/执行 VLM 描述（`00_inbox/调研专题/`）：实战案例验证']` |
@@ -196,6 +243,7 @@
 | `tool-agent-spec-yitang-three-second-opening-scripts` | `00_inbox/销售专题/李蕊-销售系统之五-销售工具箱-口述.txt L720,L2276-L2282` |
 | `tool-agent-white-paper-five-elements` | `00_inbox/AI落地Live86-龙虾员工实践-逐字稿.md` |
 | `tool-ai-adapted-workflow-design` | `00_inbox/AI落地Live86-龙虾员工实践-逐字稿.md` |
+| `tool-ai-agent-feature-comparison` | `00_inbox/我用一堂做一堂/战略笃定-一堂AI转型复盘-口述.txt` |
 | `tool-ai-customer-quality-audit` | `00_inbox/解放思想探索营/案例分享-口述.txt` |
 | `tool-ai-customer-quality-audit` | `00_inbox/解放思想探索营/案例分享-笔记.txt` |
 | `tool-ai-feature-inventory` | `00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt L1402-1451` |
@@ -320,6 +368,7 @@
 | `bridge-two-feature-systems` | 3 | 3 | 0 | 0 | reviewed |
 | `bridge-yitang-seek-truth-liberate-thought` | 2 | 1 | 1 | 0 | draft |
 | `bridge-个人复盘×知识管理W-Z-K-P` | 1 | 0 | 1 | 0 | reviewed |
+| `case-20260829-zhanlue-dingding-l3-extraction` | 1 | 0 | 1 | 0 | draft |
 | `case-252-quality-gate-pilot` | 4 | 4 | 0 | 0 | draft |
 | `case-4000-titles-ten-strategies` | 1 | 1 | 0 | 0 | reviewed |
 | `case-agent-self-evolution-pilot` | 4 | 4 | 0 | 0 | reviewed |
@@ -333,6 +382,7 @@
 | `case-ai-writing-homogenization` | 2 | 2 | 0 | 0 | reviewed |
 | `case-aodaye-archery-reinvention` | 2 | 0 | 2 | 0 | draft |
 | `case-apple-card-gender-bias` | 3 | 3 | 0 | 0 | enriched |
+| `case-arui-headhunter-ai-role-switching` | 2 | 2 | 0 | 0 | reviewed |
 | `case-ban-fei-mao-conversion-hacker-skill` | 2 | 2 | 0 | 0 | reviewed |
 | `case-ban-fei-mao-from-assignment-to-tool` | 1 | 1 | 0 | 0 | reviewed |
 | `case-ban-fei-mao-skill-ab-test` | 1 | 1 | 0 | 0 | reviewed |
@@ -401,6 +451,7 @@
 | `case-ji-hao-ai-workspace-chaos` | 2 | 2 | 0 | 0 | reviewed |
 | `case-ji-hao-skills-market` | 1 | 1 | 0 | 0 | reviewed |
 | `case-ji-hao-ui-design-constraint-evolution` | 2 | 2 | 0 | 0 | reviewed |
+| `case-jovida-ai-life-coach` | 2 | 2 | 0 | 0 | reviewed |
 | `case-kdo-agent-factory-dual-triangle-practice` | 5 | 5 | 0 | 0 | reviewed |
 | `case-kinda-digital-employees-fullview` | 1 | 0 | 1 | 0 | reviewed |
 | `case-laozhu-hongqigong-human-ai-partner-evolution` | 5 | 1 | 4 | 0 | reviewed |
@@ -458,6 +509,7 @@
 | `case-panproduct-yitao-project-background` | 1 | 1 | 0 | 0 | reviewed |
 | `case-personal-map-modeling` | 1 | 1 | 0 | 0 | enriched |
 | `case-popmart-prospectus-pricing` | 1 | 1 | 0 | 0 | enriched |
+| `case-private-board-conversion-skincare` | 4 | 0 | 4 | 0 | reviewed |
 | `case-private-domain-ecommerce-formula` | 3 | 3 | 0 | 0 | reviewed |
 | `case-proya-betaine-skincare-benchmark` | 1 | 1 | 0 | 0 | enriched |
 | `case-qinpeng-hardware-ai-amplification` | 1 | 1 | 0 | 0 | reviewed |
@@ -499,6 +551,7 @@
 | `case-toc-online-education-trust-metrics` | 1 | 1 | 0 | 0 | enriched |
 | `case-toy-cabinet-barrier` | 2 | 2 | 0 | 0 | reviewed |
 | `case-toy-cabinet-business-model` | 2 | 2 | 0 | 0 | reviewed |
+| `case-truman-360-6h-course` | 4 | 0 | 4 | 0 | draft |
 | `case-truman-ai-image-workflow-evolution` | 1 | 1 | 0 | 0 | draft |
 | `case-truman-ai-native-research-flow` | 2 | 2 | 0 | 0 | pending_review |
 | `case-truman-ai-partner` | 4 | 4 | 0 | 0 | enriched |
@@ -514,10 +567,12 @@
 | `case-truman-prd-checklist-evolution` | 1 | 1 | 0 | 0 | reviewed |
 | `case-truman-sales-report-structure` | 1 | 1 | 0 | 0 | reviewed |
 | `case-truman-shower-toilet-ideation` | 2 | 2 | 0 | 0 | reviewed |
+| `case-truman-spring-festival-1000` | 3 | 0 | 3 | 0 | reviewed |
 | `case-truman-temperature-parameter` | 1 | 1 | 0 | 0 | draft |
 | `case-truman-time-management-commute-experiment` | 4 | 4 | 0 | 0 | reviewed |
 | `case-unit-model-gashapon` | 2 | 2 | 0 | 0 | reviewed |
 | `case-vibecoding-one-week-delivery` | 3 | 3 | 0 | 0 | reviewed |
+| `case-wangfei-koupen-dual-track-writing` | 5 | 0 | 5 | 0 | draft |
 | `case-wangfei-newyear-event-diagnosis` | 2 | 2 | 0 | 0 | draft |
 | `case-wechat-5291b61bc722d90d` | 1 | 1 | 0 | 0 | draft |
 | `case-wechat-6725b942182f6277` | 1 | 1 | 0 | 0 | draft |
@@ -578,6 +633,7 @@
 | `case-yitang-homestay-reception-design` | 1 | 1 | 0 | 0 | enriched |
 | `case-yitang-homework-six-owners` | 7 | 7 | 0 | 0 | enriched |
 | `case-yitang-innovative-metrics-collection` | 7 | 7 | 0 | 0 | enriched |
+| `case-yitang-jiangxiang-12-practices` | 1 | 1 | 0 | 0 | reviewed |
 | `case-yitang-jiangxiang-cli-three-versions` | 1 | 1 | 0 | 0 | reviewed |
 | `case-yitang-jiangxiang-scene-montage` | 1 | 1 | 0 | 0 | reviewed |
 | `case-yitang-jiangxiang-tianmu-balcony` | 1 | 1 | 0 | 0 | reviewed |
@@ -758,6 +814,7 @@
 | `concept-addiction-threshold` | 3 | 2 | 1 | 0 | draft |
 | `concept-aducit-six-step` | 2 | 2 | 0 | 0 | draft |
 | `concept-agent-as-token-consumer` | 1 | 1 | 0 | 0 | reviewed |
+| `concept-agent-university` | 1 | 1 | 0 | 0 | reviewed |
 | `concept-ai-amara-law-business-judgment` | 2 | 2 | 0 | 0 | enriched |
 | `concept-ai-chair-determines-view` | 3 | 3 | 0 | 0 | enriched |
 | `concept-ai-co-learning` | 3 | 3 | 0 | 0 | draft |
@@ -770,6 +827,7 @@
 | `concept-AI知识库-KDO传承溯源` | 3 | 2 | 1 | 0 | draft |
 | `concept-AI知识库-原子化拆分` | 3 | 3 | 0 | 0 | draft |
 | `concept-AI知识库-四关键词` | 3 | 3 | 0 | 0 | draft |
+| `concept-brooks-three-lies-culture` | 1 | 1 | 0 | 0 | reviewed |
 | `concept-candy-ai-as-collaborator` | 1 | 1 | 0 | 0 | reviewed |
 | `concept-ceo-must-do-user-research` | 2 | 2 | 0 | 0 | reviewed |
 | `concept-changing-others-as-self-compensation` | 2 | 1 | 1 | 0 | draft |
@@ -1132,6 +1190,7 @@
 | `dk-ban-fei-mao-skill-rejection-value` | 1 | 1 | 0 | 0 | reviewed |
 | `dk-best-datasource-is-floor` | 1 | 0 | 1 | 0 | pending_review |
 | `dk-bfm-compression-path` | 3 | 3 | 0 | 0 | draft |
+| `dk-brooks-cost-of-knowing` | 1 | 1 | 0 | 0 | reviewed |
 | `dk-c3-txt-ingest-skip` | 1 | 1 | 0 | 0 | reviewed |
 | `dk-coaching-boundary-conditions` | 1 | 1 | 0 | 0 | reviewed |
 | `dk-coaching-monkey-theory` | 1 | 1 | 0 | 0 | reviewed |
@@ -1193,6 +1252,9 @@ expected <block end>, but found '<scalar>'
 | `dk-ji-hao-problem-vs-question` | 1 | 1 | 0 | 0 | reviewed |
 | `dk-ji-hao-simple-complex-routing` | 2 | 2 | 0 | 0 | reviewed |
 | `dk-key-hypothesis-still-hope` | 1 | 1 | 0 | 0 | draft |
+| `dk-koupen-500-vs-5000` | 3 | 0 | 3 | 0 | draft |
+| `dk-koupen-decision-tiering-compromise` | 1 | 1 | 0 | 0 | reviewed |
+| `dk-koupen-input-method-loss` | 3 | 0 | 3 | 0 | reviewed |
 | `dk-leadership-trust-coin-sensitivity` | 1 | 1 | 0 | 0 | reviewed |
 | `dk-let-ai-learn-for-me` | 1 | 0 | 1 | 0 | pending_review |
 | `dk-level-blindspot-external-feedback` | 1 | 1 | 0 | 0 | reviewed |
@@ -1328,23 +1390,28 @@ expected <block end>, but found '<scalar>'
 | `plan_20260621_domain-index-infrastructure` | 3 | 3 | 0 | 0 | reviewed |
 | `plan_20260621_kdo-quality-harness-upgrade` | 4 | 4 | 0 | 0 | enriched |
 | `plan_20260621_retrieval-architecture-upgrade` | 2 | 2 | 0 | 0 | enriched |
-| `plan_20260621_skill-iteration-standard` | 7 | 7 | 0 | 0 | reviewed |
+| `plan_20260621_skill-iteration-standard` | 7 | 0 | 7 | 0 | reviewed |
 | `plan_20260701_kdo-multi-repo-architecture` | 2 | 2 | 0 | 0 | draft |
 | `dk-ai-prediction-expiry-date` | 3 | 3 | 0 | 0 | enriched |
 | `dk-ai-scarcest-resource-is-self` | 3 | 3 | 0 | 0 | enriched |
 | `dk-ai-social-progress-not-automatic` | 3 | 3 | 0 | 0 | enriched |
 | `dk-disruptive-innovation-insight-vs-survey` | 1 | 1 | 0 | 0 | reviewed |
+| `dk-feishu-bot-slow-session-hygiene` | 3 | 0 | 3 | 0 | enriched |
 | `dk-jiangxiang-boundary-overpromise` | 2 | 2 | 0 | 0 | reviewed |
+| `dk-jiejiaxiuzhen-ai-reestablish` | 1 | 0 | 1 | 0 | draft |
 | `dk-meeting-asset-harvest` | 1 | 1 | 0 | 0 | reviewed |
 | `dk-meeting-borrow-false-repair-true` | 1 | 1 | 0 | 0 | reviewed |
 | `dk-meeting-pressure-ignition` | 3 | 3 | 0 | 0 | reviewed |
 | `dk-meeting-principle-over-process` | 2 | 2 | 0 | 0 | reviewed |
 | `dk-meeting-rederive` | 1 | 1 | 0 | 0 | reviewed |
 | `dk-meeting-roi-first` | 1 | 1 | 0 | 0 | reviewed |
+| `dk-multithread-whack-a-mole` | 1 | 0 | 1 | 0 | draft |
+| `dk-project-skill-agent-loop` | 1 | 0 | 1 | 0 | draft |
 | `dk-qinpeng-three-corrections` | 1 | 1 | 0 | 0 | reviewed |
 | `dk-research-decision-first-mapping` | 1 | 1 | 0 | 0 | reviewed |
 | `dk-research-identity-craft-for-closed-information` | 1 | 1 | 0 | 0 | reviewed |
 | `dk-research-triangulation-stop-rule` | 1 | 1 | 0 | 0 | reviewed |
+| `dk-roi-three-step-decision` | 1 | 0 | 1 | 0 | draft |
 | `dk-strategy-correlation-vs-causation-leverage` | 1 | 1 | 0 | 0 | reviewed |
 | `dk-strategy-organization-strategy-mismatch` | 1 | 1 | 0 | 0 | reviewed |
 | `dk-strategy-stage-leverage-mismatch` | 1 | 1 | 0 | 0 | reviewed |
@@ -1398,6 +1465,7 @@ expected <block end>, but found '<scalar>'
 | `sales-domain-digest` | 2 | 2 | 0 | 0 | draft |
 | `strategy-domain-digest` | 1 | 1 | 0 | 0 | reviewed |
 | `yitang-research-domain-digest` | 2 | 2 | 0 | 0 | reviewed |
+| `entity-销售AIπ平台` | 1 | 1 | 0 | 0 | reviewed |
 | `Kimi-月之暗面` | 2 | 0 | 0 | 1 | reviewed |
 | `七件事集团` | 1 | 1 | 0 | 0 | reviewed |
 | `鑫港湾` | 2 | 0 | 0 | 1 | reviewed |
@@ -1417,6 +1485,7 @@ expected <block end>, but found '<scalar>'
 | `framework-AI知识库-加卡片加标签双原则` | 3 | 3 | 0 | 0 | draft |
 | `framework-AI知识库-四象限资产` | 3 | 3 | 0 | 0 | draft |
 | `framework-AI知识库-知识卡片公式` | 4 | 4 | 0 | 0 | draft |
+| `framework-arui-ai-six-fundamentals` | 4 | 4 | 0 | 0 | reviewed |
 | `framework-audit-maxims-library` | 6 | 6 | 0 | 0 | reviewed |
 | `framework-baozhashidiaochan-five-step` | 1 | 1 | 0 | 0 | reviewed |
 | `framework-big-five-personality` | 2 | 2 | 0 | 0 | reviewed |
@@ -1438,17 +1507,23 @@ expected <block end>, but found '<scalar>'
 | `framework-lean-four-principles` | 1 | 0 | 1 | 0 | reviewed |
 | `framework-lean-six-wastes` | 2 | 0 | 1 | 0 | reviewed |
 | `framework-lemon-market-new-brand-trust` | 1 | 1 | 0 | 0 | pending_review |
+| `framework-lobster-opt-one-person-team` | 1 | 1 | 0 | 0 | reviewed |
 | `framework-meeting-iceberg-canvas` | 1 | 1 | 0 | 0 | reviewed |
 | `framework-meeting-ten-principles` | 3 | 3 | 0 | 0 | reviewed |
 | `framework-multi-agent-collab-chain-six` | 2 | 2 | 0 | 0 | reviewed |
+| `framework-muse-ai-full-map-v1` | 1 | 1 | 0 | 0 | reviewed |
+| `framework-openclaw-vs-harness-selection` | 2 | 1 | 1 | 0 | draft |
+| `framework-oral-spray-five-advantages` | 7 | 0 | 7 | 0 | draft |
 | `framework-patrolkit-radar` | 2 | 2 | 0 | 0 | reviewed |
 | `framework-r-type-research-partner-five-state` | 1 | 1 | 0 | 0 | reviewed |
 | `framework-sales-funnel-full` | 1 | 1 | 0 | 0 | reviewed |
 | `framework-serendipity-five-channels` | 2 | 2 | 0 | 0 | reviewed |
+| `framework-strategy-conviction` | 2 | 0 | 2 | 0 | draft |
 | `framework-TCPR底层网络协议` | 3 | 3 | 0 | 0 | reviewed |
 | `framework-TCPR皇冠模型` | 1 | 1 | 0 | 0 | reviewed |
 | `framework-token-economy-three-layer` | 1 | 1 | 0 | 0 | reviewed |
 | `framework-truman-agent-team-architecture` | 2 | 2 | 0 | 0 | reviewed |
+| `framework-truman-ai-featureset` | 2 | 2 | 0 | 0 | draft |
 | `framework-truman-feature-layered-system` | 3 | 3 | 0 | 0 | draft |
 | `framework-truman-feature-thinking-core` | 3 | 3 | 0 | 0 | draft |
 | `framework-yitang-jiangxiang-strategy-selection` | 1 | 1 | 0 | 0 | reviewed |
@@ -1543,6 +1618,8 @@ expected <block end>, but found '<scalar>'
 | `yt-unit-model-overview` | 12 | 12 | 0 | 0 | reviewed |
 | `knowledge-demand-2b-dictionary` | 2 | 2 | 0 | 0 | enriched |
 | `knowledge-demand-2c-dictionary` | 2 | 2 | 0 | 0 | enriched |
+| `method-anthropic-skill-design-patterns` | 1 | 1 | 0 | 0 | reviewed |
+| `method-arui-business-scenario-3step-decomposition` | 2 | 2 | 0 | 0 | reviewed |
 | `method-dual-triangle-flywheel-engine` | 5 | 3 | 2 | 0 | draft |
 | `method-dual-triangle-human-ai-division` | 6 | 6 | 0 | 0 | draft |
 | `method-judge-skill-meta-evaluation` | 1 | 0 | 1 | 0 | reviewed |
@@ -1550,7 +1627,12 @@ expected <block end>, but found '<scalar>'
 | `method-kdo-agent-distillation` | 3 | 2 | 1 | 0 | reviewed |
 | `method-kdo-external-exploration-sop` | 3 | 3 | 0 | 0 | reviewed |
 | `method-kdo-inbox-annotation` | 4 | 4 | 0 | 0 | reviewed |
+| `method-key-assumption-abcd` | 1 | 1 | 0 | 0 | reviewed |
 | `method-obsidian-ai-collaboration` | 2 | 2 | 0 | 0 | draft |
+| `method-obsidian-km-camp` | 1 | 1 | 0 | 0 | reviewed |
+| `method-shizhi-jiangxiang-ten-strategies` | 1 | 1 | 0 | 0 | reviewed |
+| `method-spin-linking-sales-marketing` | 1 | 1 | 0 | 0 | reviewed |
+| `method-storytelling-with-numbers` | 1 | 1 | 0 | 0 | reviewed |
 | `method-yihang-aesthetic-fast-build` | 2 | 1 | 1 | 0 | reviewed |
 | `method-yihang-agent-hr-role` | 1 | 0 | 1 | 0 | draft |
 | `method-yihang-ai-self-xray-iteration` | 1 | 1 | 0 | 0 | reviewed |
@@ -1600,8 +1682,6 @@ expected <block end>, but found '<scalar>'
 | `spec-coaching-leadership-assistant` | 3 | 3 | 0 | 0 | draft |
 | `agent-spec-codex-teammate` | 2 | 2 | 0 | 0 | reviewed |
 | `agent-spec-dual-triangle-canvas-filler` | 5 | 4 | 1 | 0 | reviewed |
-| `agent-spec-duanwangye-publisher` | 8 | 8 | 0 | 0 | draft |
-| `agent-spec-hongqigong-multimodal` | 12 | 12 | 0 | 0 | draft |
 | `spec-meeting-assistant` | 3 | 3 | 0 | 0 | draft |
 | `agent-spec-project-management-assistant` | 5 | 0 | 5 | 0 | reviewed |
 | `agent-spec-research-explosion-partner` | 6 | 6 | 0 | 0 | reviewed |
@@ -1661,13 +1741,14 @@ expected <block end>, but found '<scalar>'
 | `tool-agent-spec-yitang-Y-model-coach` | 6 | 6 | 0 | 0 | reviewed |
 | `tool-agent-white-paper-five-elements` | 1 | 0 | 1 | 0 | pending_review |
 | `tool-ai-adapted-workflow-design` | 1 | 0 | 1 | 0 | pending_review |
-| `tool-ai-agent-feature-comparison` | 4 | 4 | 0 | 0 | draft |
+| `tool-ai-agent-feature-comparison` | 5 | 4 | 1 | 0 | pending_review |
 | `tool-ai-critical-reading-three-layers` | 2 | 2 | 0 | 0 | enriched |
 | `tool-ai-cross-reading-method` | 3 | 3 | 0 | 0 | enriched |
 | `tool-ai-customer-quality-audit` | 2 | 0 | 2 | 0 | draft |
 | `tool-ai-deliverable-polish-loop` | 4 | 4 | 0 | 0 | reviewed |
 | `tool-ai-feature-inventory` | 4 | 0 | 2 | 0 | draft |
 | `tool-ai-four-elements-validation` | 1 | 1 | 0 | 0 | reviewed |
+| `tool-ai-koupen-training-partner-design` | 1 | 1 | 0 | 0 | reviewed |
 | `tool-ai-problem-question-check` | 1 | 1 | 0 | 0 | reviewed |
 | `tool-ai-skill-engineering-guide` | 2 | 2 | 0 | 0 | reviewed |
 | `tool-ai-skill-engineering-method` | 1 | 1 | 0 | 0 | reviewed |
@@ -2253,26 +2334,30 @@ expected <block end>, but found '<scalar>'
 | 域 | status | 缺失条数 |
 |---|---|---|
 | management | reviewed | 77 |
-| ai-collaboration | reviewed | 37 |
+| ai-collaboration | reviewed | 43 |
+| ai-collaboration | draft | 42 |
 | innovation | draft | 35 |
-| ai-collaboration | draft | 20 |
+| content-creation | draft | 16 |
+| kdo | reviewed | 12 |
 | personal-os | reviewed | 11 |
-| ai-collaboration | pending_review | 9 |
+| ai-collaboration | pending_review | 10 |
 | modeling | draft | 8 |
+| master | reviewed | 8 |
 | research | reviewed | 7 |
+| knowledge-management | draft | 7 |
 | personal-os | draft | 7 |
 | management | draft | 7 |
 | management | enriched | 6 |
-| knowledge-management | draft | 6 |
 | knowledge-management | pending_review | 6 |
 | business-strategy | reviewed | 6 |
 | sales | reviewed | 6 |
 | governance | reviewed | 5 |
-| kdo | reviewed | 5 |
 | knowledge-management | reviewed | 5 |
+| decision-making | draft | 5 |
 | strategy | reviewed | 5 |
 | agent-capability | reviewed | 4 |
 | organizational-transformation | reviewed | 4 |
+| conversion-rate | reviewed | 4 |
 | organizational-transformation | draft | 4 |
 | content | enriched | 4 |
 | demand-analysis | enriched | 4 |
@@ -2281,17 +2366,23 @@ expected <block end>, but found '<scalar>'
 | infrastructure | draft | 3 |
 | design | reviewed | 3 |
 | ai-knowledge | draft | 3 |
+| agent-infrastructure | enriched | 3 |
+| hermes-operations | enriched | 3 |
+| strategy | draft | 3 |
 | strategy | enriched | 3 |
 | agent | reviewed | 3 |
 | sales | draft | 3 |
+| feishu | draft | 2 |
+| extraction | draft | 2 |
+| browser-automation | draft | 2 |
 | feishu | reviewed | 2 |
-| decision-making | draft | 2 |
 | human-insights | draft | 2 |
 | product | reviewed | 2 |
 | entrepreneurship | reviewed | 2 |
 | agent-engineering | draft | 2 |
 | management | pending_review | 2 |
 | modeling | reviewed | 2 |
+| ai-basic | draft | 2 |
 | organizational-design | draft | 2 |
 | ai | reviewed | 2 |
 | video-production | enriched | 2 |
@@ -2301,9 +2392,6 @@ expected <block end>, but found '<scalar>'
 | research | enriched | 2 |
 | extraction | reviewed | 1 |
 | browser-automation | reviewed | 1 |
-| feishu | draft | 1 |
-| extraction | draft | 1 |
-| browser-automation | draft | 1 |
 | e-commerce | reviewed | 1 |
 | operations | reviewed | 1 |
 | personal-knowledge-management | reviewed | 1 |
@@ -2312,9 +2400,10 @@ expected <block end>, but found '<scalar>'
 | interior-design | reviewed | 1 |
 | profit-pricing | draft | 1 |
 | kdo | draft | 1 |
-| master | reviewed | 1 |
 | hermes | draft | 1 |
 | mcp | draft | 1 |
+| content-production | draft | 1 |
+| personal-growth | draft | 1 |
 | ai-collaboration | enriched | 1 |
 | modeling | enriched | 1 |
 | business-formula | enriched | 1 |
@@ -2327,11 +2416,12 @@ expected <block end>, but found '<scalar>'
 | prezi | draft | 1 |
 | agent-capability | draft | 1 |
 | yihang | reviewed | 1 |
+| ai-basic | pending_review | 1 |
 | decision | pending_review | 1 |
 | business-strategy | draft | 1 |
 | content | reviewed | 1 |
 
-### 指向 00_inbox 的死引（180 条——修复成本最低：归档即可）
+### 指向 00_inbox 的死引（217 条——修复成本最低：归档即可）
 
 | 卡片 ID | status | 缺失路径 |
 |---|---|---|
@@ -2344,6 +2434,22 @@ expected <block end>, but found '<scalar>'
 | `case-modeling-ai-image-workflow` | draft | `00_inbox/Advanced modeling/ 批注2026-07-19-203816 VLM` |
 | `case-modeling-gongjianhui-facilitation` | draft | `00_inbox/Advanced modeling/ 口述 §3.2` |
 | `case-modeling-gongjianhui-facilitation` | draft | `00_inbox/Advanced modeling/ 攻坚会的流程VLM+OCR` |
+| `case-private-board-conversion-skincare` | reviewed | `00_inbox/私董会/叶柳清私董会/第6期 55班 转化率私董会v1.0（投屏文档）｜1场 【高强版】 副本 叶老师.md:L39-L146` |
+| `case-private-board-conversion-skincare` | reviewed | `00_inbox/私董会/叶柳清私董会/第6期 55班 转化率私董会v1.0（投屏文档）｜1场 【高强版】 副本 叶老师.md:L152-L197` |
+| `case-private-board-conversion-skincare` | reviewed | `00_inbox/私董会/叶柳清私董会/第6期 55班 转化率私董会v1.0（投屏文档）｜1场 【高强版】 副本 叶老师.md:L203-L218` |
+| `case-private-board-conversion-skincare` | reviewed | `00_inbox/私董会/叶柳清私董会/第6期 55班 转化率私董会v1.0（投屏文档）｜1场 【高强版】 副本 叶老师.md:L222-L238` |
+| `case-truman-360-6h-course` | draft | `00_inbox/AI口喷能力训练全阶指南-口述.txt L5718-L5768（背景：360 两天一夜内训 + 推翻原计划决定）` |
+| `case-truman-360-6h-course` | draft | `00_inbox/AI口喷能力训练全阶指南-口述.txt L5778-L5832（准备：洗澡推演 + 喷 3500 字成 00 文档）` |
+| `case-truman-360-6h-course` | draft | `00_inbox/AI口喷能力训练全阶指南-口述.txt L5834-L5956（执行：多 Agent 打地鼠全程动嘴）` |
+| `case-truman-360-6h-course` | draft | `00_inbox/AI口喷能力训练全阶指南-口述.txt L5994-L6030（结果：191 页 PPT + 150 分钟喷 2 万字）` |
+| `case-truman-spring-festival-1000` | reviewed | `00_inbox/AI口喷能力训练全阶指南-口述.txt L1932-L1940（背景：今年春节十天独立时间 + 多工具循环）` |
+| `case-truman-spring-festival-1000` | reviewed | `00_inbox/AI口喷能力训练全阶指南-口述.txt L2028-L2046（动作与结果：闭关口喷 1000 条 + 占比 10-20%→80%+ + 口喷变默认选项）` |
+| `case-truman-spring-festival-1000` | reviewed | `00_inbox/AI口喷能力训练全阶指南-口述.txt L2066-L2122（升级：像教下属一样补上下文 + 从被动到主动）` |
+| `case-wangfei-koupen-dual-track-writing` | draft | `00_inbox/Live260-口喷到全新范式优秀作业-逐字稿.md L5-L35（总论+四元概念体系+双三角耦合）` |
+| `case-wangfei-koupen-dual-track-writing` | draft | `00_inbox/Live260-口喷到全新范式优秀作业-逐字稿.md L39-L103（完整工作过程还原：真实问题→概念外化→否定校正→交叉验证）` |
+| `case-wangfei-koupen-dual-track-writing` | draft | `00_inbox/Live260-口喷到全新范式优秀作业-逐字稿.md L103-L109（口喷保留心路历程的独特价值+28年行业暗知识）` |
+| `case-wangfei-koupen-dual-track-writing` | draft | `00_inbox/Live260-口喷到全新范式优秀作业-逐字稿.md L125-L209（五优势自评）` |
+| `case-wangfei-koupen-dual-track-writing` | draft | `00_inbox/Live260-口喷到全新范式优秀作业-逐字稿.md L211-L243（四大卡点+七条诚实清单）` |
 | `case-wenxiaobao-campus-bilateral-network` | draft | `00_inbox/解放思想探索营/案例分享-口述.txt L1-890` |
 | `case-wenxiaobao-campus-bilateral-network` | draft | `00_inbox/解放思想探索营/案例分享-笔记.txt §二` |
 | `case-wudi-innovation-contest-value` | draft | `00_inbox/解放思想探索营/案例分享-口述.txt L1014-1290` |
@@ -2385,6 +2491,12 @@ expected <block end>, but found '<scalar>'
 | `dk-ai-efficiency-and-management-radius` | pending_review | `00_inbox/AI落地Live86-龙虾员工实践-逐字稿.md` |
 | `dk-ai-memory-four-layers` | draft | `00_inbox/半肥猫/【半肥猫】别只会问 AI：从一次 Codex 误删事故，看懂 AI 协作的记忆管理 副本.md §九-十` |
 | `dk-best-datasource-is-floor` | pending_review | `00_inbox/AI落地Live86-龙虾员工实践-逐字稿.md` |
+| `dk-koupen-500-vs-5000` | draft | `00_inbox/AI口喷能力训练全阶指南-口述.txt L1092-L1100（500条与5000条无差别：没有固定套路）` |
+| `dk-koupen-500-vs-5000` | draft | `00_inbox/AI口喷能力训练全阶指南-口述.txt L2546-L2556（口喷频率极高 5000-1万次/年，为什么选它做刻意练习）` |
+| `dk-koupen-500-vs-5000` | draft | `00_inbox/AI口喷能力训练全阶指南-口述.txt L2578-L2598（刻意练习 1+4 原理：占要素越多进步越快）` |
+| `dk-koupen-input-method-loss` | reviewed | `00_inbox/AI口喷能力训练全阶指南-口述.txt L1810-L1842（事故：GM 角色二十多分钟口喷被压缩 + 只保留 AI 处理过的原文找不回）` |
+| `dk-koupen-input-method-loss` | reviewed | `00_inbox/AI口喷能力训练全阶指南-口述.txt L1844-L1856（代价：才华付诸东流 + 归因反转「怪我怪不着输入法」）` |
+| `dk-koupen-input-method-loss` | reviewed | `00_inbox/AI口喷能力训练全阶指南-口述.txt L1860-L1880（二分：压缩 vs 漏词 + 防丢稿四招）` |
 | `dk-let-ai-learn-for-me` | pending_review | `00_inbox/AI落地Live86-龙虾员工实践-逐字稿.md` |
 | `dk-modeling-jump-step-cost` | draft | `00_inbox/Advanced modeling/ 口述 L2718-L2728` |
 | `dk-modeling-jump-step-cost` | draft | `00_inbox/Advanced modeling/ 口述 L2378-L2384` |
@@ -2401,59 +2513,46 @@ expected <block end>, but found '<scalar>'
 | `dk-实事求是目标管理双原则` | draft | `00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-笔记.txt §7.2` |
 | `dk-目标管理四大病` | draft | `00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-笔记.txt §2.1` |
 | `dk-管控vs协同执行策略` | draft | `00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-笔记.txt §5.1` |
-| `framework-yitang-oscar-research` | reviewed | `['一堂系统式调研口述稿（`00_inbox/调研专题/一堂-系统式调研-口述.txt`）：OSCAR框架原始出处']` |
-| `framework-yitang-oscar-research` | reviewed | `['系统调研高水平计划/执行 VLM 描述（`00_inbox/调研专题/`）：实战案例验证']` |
-| `framework-yitang-project-execution` | reviewed | `00_inbox/管项目/项目管理-管过程-口述.txt` |
-| `framework-yitang-project-execution` | reviewed | `00_inbox/管项目/项目管理-管过程-笔记.txt` |
-| `framework-yitang-project-execution` | reviewed | `00_inbox/管项目/项目管理-管过程-控变化_vlm_desc.md` |
-| `framework-yitang-project-execution` | reviewed | `00_inbox/管项目/项目管理-管过程-守质量_vlm_desc.md` |
-| `framework-yitang-project-plan-design` | reviewed | `00_inbox/管项目/项目管理-定方案-口述.txt` |
-| `framework-yitang-project-plan-design` | reviewed | `00_inbox/管项目/项目管理-定方案-笔记.txt` |
-| `framework-yitang-project-retrospective` | reviewed | `00_inbox/管项目/项目管理-做复盘-口述.txt` |
-| `framework-yitang-project-retrospective` | reviewed | `00_inbox/管项目/项目管理-做复盘-笔记.txt` |
-| `framework-yitang-sales-incentive-6d` | reviewed | `00_inbox/销售专题/李蕊-销售体系之四-激励体系搭建-口述.txt L398-L402,L1126-L1128,L1648-L1654` |
-| `framework-yitang-scientific-sales-five-step` | reviewed | `00_inbox/销售专题/李蕊-科学销售方法论-口述.txt L800-L814,L228-L230,L266,L372` |
-| `framework-一堂-团队复盘四阶段12策略` | reviewed | `00_inbox/个人-深度复盘/_processed/批注_2026-08-05_230851_*.md` |
-| `framework-目标三层拆解` | draft | `00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-笔记.txt §4` |
-| `method-kdo-agent-design-meta` | reviewed | `00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt L4595-4604` |
-| `method-kdo-agent-design-meta` | reviewed | `00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt L462-600` |
-| `method-kdo-agent-distillation` | reviewed | `00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt L2220-2312` |
-| `method-yihang-aesthetic-fast-build` | reviewed | `00_inbox/人机协作双三?一堂双三角-人机协作模型-口述.txt` |
-| `skill-yitang-project-spiral-thinking` | reviewed | `00_inbox/管项目/项目管理-入门篇-口述.txt` |
-| `skill-yitang-project-spiral-thinking` | reviewed | `00_inbox/管项目/项目管理-定方案-口述.txt` |
-| `agent-spec-project-management-assistant` | reviewed | `00_inbox/管项目/项目管理-入门篇-口述.txt` |
-| `agent-spec-project-management-assistant` | reviewed | `00_inbox/管项目/项目管理-定方案-口述.txt` |
-| `agent-spec-project-management-assistant` | reviewed | `00_inbox/管项目/项目管理-拆计划-口述.txt` |
-| `agent-spec-project-management-assistant` | reviewed | `00_inbox/管项目/项目管理-管过程-口述.txt` |
-| `agent-spec-project-management-assistant` | reviewed | `00_inbox/管项目/项目管理-做复盘-口述.txt` |
-| `tool-aesthetic-library-builder` | reviewed | `00_inbox/人机协作双三?一堂双三角-人机协作模型-口述.txt` |
-| `tool-agent-spec-yitang-daily-weekly-meeting-host` | reviewed | `00_inbox/销售专题/李蕊-销售体系之三-销售过程管理-口述.txt L1426-L1462,L1488-L1490` |
-| `tool-agent-spec-yitang-daily-weekly-meeting-host` | reviewed | `00_inbox/销售专题/李蕊-科学销售方法论-口述.txt L246,L954-L970` |
-| `tool-agent-spec-yitang-incentive-design` | draft | `00_inbox/销售专题/李蕊-销售体系之四-激励体系搭建-口述.txt L398-L402,L1126-L1128,L1648-L1654` |
-| `tool-agent-spec-yitang-incentive-design` | draft | `00_inbox/销售专题/李蕊-销售体系之一-客户分层和卖点提炼-口述.txt L280-L282,L392-L394,L470-L500,L508-L520` |
-| `tool-agent-spec-yitang-payment-collection-risk` | draft | `00_inbox/销售专题/李蕊-销售体系之二-销售过程拆解-口述.txt L320-L354,L420-L458,L560-L588,L824-L832,L1386-L1394,L1466` |
-| `tool-agent-spec-yitang-sales-toolkit-gap` | reviewed | `00_inbox/销售专题/李蕊-销售系统之五-销售工具箱-口述.txt L34,L1314,L1434-L1446` |
-| `tool-agent-spec-yitang-three-second-opening-scripts` | reviewed | `00_inbox/销售专题/李蕊-销售系统之五-销售工具箱-口述.txt L720,L2276-L2282` |
-| `tool-agent-white-paper-five-elements` | pending_review | `00_inbox/AI落地Live86-龙虾员工实践-逐字稿.md` |
-| ... | 省略 80 条，见 JSON | |
+| `dk-jiejiaxiuzhen-ai-reestablish` | draft | `00_inbox/我用一堂做一堂/战略笃定-一堂AI转型复盘-口述.txt` |
+| `dk-multithread-whack-a-mole` | draft | `00_inbox/我用一堂做一堂/战略笃定-一堂AI转型复盘-口述.txt` |
+| `dk-project-skill-agent-loop` | draft | `00_inbox/我用一堂做一堂/战略笃定-一堂AI转型复盘-口述.txt` |
+| `dk-roi-three-step-decision` | draft | `00_inbox/我用一堂做一堂/战略笃定-一堂AI转型复盘-口述.txt` |
+| `framework-openclaw-vs-harness-selection` | draft | `00_inbox/我用一堂做一堂/战略笃定-一堂AI转型复盘-口述.txt` |
+| `framework-oral-spray-five-advantages` | draft | `00_inbox/AI口喷能力训练全阶指南-口述.txt L594-L636（五优势总述）` |
+| `framework-oral-spray-five-advantages` | draft | `00_inbox/AI口喷能力训练全阶指南-口述.txt L640-L678（启动快）` |
+| `framework-oral-spray-five-advantages` | draft | `00_inbox/AI口喷能力训练全阶指南-口述.txt L690-L734（信息全）` |
+| `framework-oral-spray-five-advantages` | draft | `00_inbox/AI口喷能力训练全阶指南-口述.txt L738-L760（速度快）` |
+| `framework-oral-spray-five-advantages` | draft | `00_inbox/AI口喷能力训练全阶指南-口述.txt L764-L832（能流淌）` |
+| `framework-oral-spray-five-advantages` | draft | `00_inbox/AI口喷能力训练全阶指南-口述.txt L834-L870（阻力低）` |
+| `framework-oral-spray-five-advantages` | draft | `00_inbox/AI口喷能力训练全阶指南-口述.txt L888-L960（心法：把人当AI，把AI当人）` |
+| ... | 省略 117 条，见 JSON | |
 
 ### 缺引最多卡片 Top 50
 
 | 卡片 ID | status | 缺失条数 |
 |---|---|---|
 | `yt-management-project-management` | reviewed | 10 |
+| `plan_20260621_skill-iteration-standard` | reviewed | 7 |
+| `framework-oral-spray-five-advantages` | draft | 7 |
+| `case-wangfei-koupen-dual-track-writing` | draft | 5 |
 | `agent-spec-project-management-assistant` | reviewed | 5 |
 | `tool-yitang-project-breakdown-cheatsheet` | reviewed | 5 |
 | `workflow-yitang-project-four-step-loop` | reviewed | 5 |
 | `case-laozhu-hongqigong-human-ai-partner-evolution` | reviewed | 4 |
+| `case-private-board-conversion-skincare` | reviewed | 4 |
+| `case-truman-360-6h-course` | draft | 4 |
 | `case-yitang-2022-annual-lessons` | reviewed | 4 |
 | `concept-yihang-dual-triangle-core` | draft | 4 |
 | `framework-yitang-project-execution` | reviewed | 4 |
 | `tool-yitang-project-plan-canvas` | reviewed | 4 |
 | `agent-spec-zhu-boss` | reviewed | 3 |
+| `case-truman-spring-festival-1000` | reviewed | 3 |
 | `concept-yihang-ai-feature-thinking` | reviewed | 3 |
 | `concept-yihang-human-in-the-loop-dual-triangle` | reviewed | 3 |
 | `yt-management-basic-skills` | reviewed | 3 |
+| `dk-koupen-500-vs-5000` | draft | 3 |
+| `dk-koupen-input-method-loss` | reviewed | 3 |
+| `dk-feishu-bot-slow-session-hygiene` | enriched | 3 |
 | `framework-yitang-oscar-research` | reviewed | 3 |
 | `tool-oral-spray-demo-prompts-3samples` | reviewed | 3 |
 | `tool-pdf-inspector` | reviewed | 3 |
@@ -2475,22 +2574,13 @@ expected <block end>, but found '<scalar>'
 | `dk-oral-spray-training-vs-task-optimal` | reviewed | 2 |
 | `dk-unit-model-reverse-calc` | draft | 2 |
 | `dk-yitang-project-overmanagement-vs-bare-run` | reviewed | 2 |
+| `framework-strategy-conviction` | draft | 2 |
 | `framework-yitang-project-plan-design` | reviewed | 2 |
 | `framework-yitang-project-retrospective` | reviewed | 2 |
 | `method-dual-triangle-flywheel-engine` | draft | 2 |
 | `method-kdo-agent-design-meta` | reviewed | 2 |
 | `skill-yitang-project-spiral-thinking` | reviewed | 2 |
 | `tool-agent-research-supervisor` | reviewed | 2 |
-| `tool-agent-spec-yitang-daily-weekly-meeting-host` | reviewed | 2 |
-| `tool-agent-spec-yitang-incentive-design` | draft | 2 |
-| `tool-ai-customer-quality-audit` | draft | 2 |
-| `tool-ai-feature-inventory` | draft | 2 |
-| `tool-cross-city-replication-test` | draft | 2 |
-| `tool-decision-narrative-method` | draft | 2 |
-| `tool-demand-chai-tui-ping-suan-guide` | enriched | 2 |
-| `tool-four-line-review` | draft | 2 |
-| `tool-incentive-28-principle` | draft | 2 |
-| `tool-jargon-to-value-translator` | draft | 2 |
 
 ---
 

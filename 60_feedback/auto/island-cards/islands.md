@@ -1,6 +1,6 @@
 # 孤岛卡清单（#528：无出链无入链=检索死胡同）
 
-扫描面 2869 卡，孤岛 285 张（agent-spec 类已豁免）。
+扫描面 2906 卡，孤岛 283 张（agent-spec 类已豁免）。
 挂链批次由王语嫣编排——高优先=framework/tool 卡型（检索主靶）。
 
 ## case-yihang-dual-triangle-AI三角-场景.md（1）
@@ -336,9 +336,6 @@
 ## framework-strategy-pyramid.md（1）
 - `frameworks/framework-strategy-pyramid.md`（framework）
 
-## framework-strategy-six-stages.md（1）
-- `frameworks/framework-strategy-six-stages.md`（framework）
-
 ## framework-strategy-three-horizons.md（1）
 - `frameworks/framework-strategy-three-horizons.md`（framework）
 
@@ -362,9 +359,6 @@
 
 ## framework-wanghuan-gan-three-roles.md（1）
 - `frameworks/framework-wanghuan-gan-three-roles.md`（framework）
-
-## framework-wanghuan-harness-seven-stages.md（1）
-- `frameworks/framework-wanghuan-harness-seven-stages.md`（framework）
 
 ## framework-wanghuan-ooda-loop.md（1）
 - `frameworks/framework-wanghuan-ooda-loop.md`（framework）

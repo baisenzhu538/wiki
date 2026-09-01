@@ -102,3 +102,4 @@
 # 2026-08-26 20:31 胶囊事件写入失败（#511）agent=huangyaoshi event=error: attempt to write a readonly database
 
 # 2026-08-26 20:38 胶囊事件写入失败（#511）agent=huangyaoshi event=error: attempt to write a readonly database
+[2026/08/31 ��һ  2:37:12.68] kdo-l1-capture FAILED exit=1 

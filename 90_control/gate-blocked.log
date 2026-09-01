@@ -400,3 +400,90 @@
 2026-08-27 19:17:01｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 742.6)]）｜role_registry check-liveness｜role_registry
 2026-08-27 19:20:53｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 832.4), ('cli', 608.3)]）｜role_registry check-liveness｜role_registry
 2026-08-27 19:20:53｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 732.0), ('cli', 580.9)]）｜role_registry check-liveness｜role_registry
+2026-08-31 02:17:01｜diag_20260826_ouyangfeng-feature-json-mojibake.md｜near-miss-三元组（#506）｜type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）｜conveyor_probe
+2026-08-31 02:17:01｜infra-liveness｜基建停拍报警｜l1-capture｜停拍 5979 分钟（阈值 60 分钟）｜conveyor_probe
+2026-08-31 02:17:01｜infra-liveness｜基建停拍报警｜conveyor-probe｜文件不存在（阈值 20 分钟）｜conveyor_probe
+2026-08-31 02:36:07｜task_20260831_laowantong-arui-science-sales-cards｜#546-终审权校验｜终审权校验拒止（#546 一具两职根治）：当前工作目录无 ouyangfeng 角色登记实例。欧阳锋上岗先登记：python 90_control/scripts/queue_transition.p｜欧阳锋
+2026-08-31 02:36:11｜task_20260831_laowantong-arui-science-sales-cards｜F-035-意见书｜任务单缺少「## 终审记录」节（#429 F-035：审查意见必须落盘，口头/群里意见=未审查）｜欧阳锋
+2026-08-31 02:36:40｜task_20260831_laowantong-arui-science-sales-cards｜F-035-负向判词｜意见书含负向断言（「无历史」）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋
+2026-08-31 02:36:57｜task_20260831_laowantong-arui-science-sales-cards｜F-036-问题落点｜审查发现问题未给落点（F-036）：- 🟡 case 卡缺定位声明（pre-submit POSITION_DECLARATION 明示「body has ；- 🟡 entity/case 卡 ali｜欧阳锋
+2026-08-31 02:59:14｜task_20260831_huangyaoshi-mnemosyne-memory-cache-pilot｜F-034-五字段｜任务单缺少「## 执行报告」节（#429 F-034：交付必须落执行报告，口头完成=未完成；#444：evidence 附件不能替代）｜huangyaoshi
+2026-08-31 02:59:37｜task_20260831_huangyaoshi-mnemosyne-memory-cache-pilot｜F-034-五字段｜执行报告缺 5 个字段（#429 F-034）：改动文件清单、完成内容一句话、验证命令+输出、未做项/边界、需要谁动作。请补全后重试，或 --force --reason '<理由>' 声明例外（#4｜huangyaoshi
+2026-08-31 02:59:55｜task_20260831_huangyaoshi-mnemosyne-memory-cache-pilot｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
+  - untracked: 60_feedback/diagnosis/diag_20260831_huangya｜huangyaoshi
+2026-08-31 03:07:01｜diag_20260831_huangyaoshi-mnemosyne-dogfood.md｜near-miss-三元组（#506）｜status=REVIEW-PENDING 疑似待编排但非 pending_orchestration｜conveyor_probe
+2026-08-31 03:08:46｜task_20260831_huangyaoshi-mnemosyne-memory-cache-pilot｜F-035-意见书｜任务单缺少「## 终审记录」节（#429 F-035：审查意见必须落盘，口头/群里意见=未审查）｜欧阳锋
+2026-08-31 23:36:32｜task_20260831_huangyaoshi-wechat-pipeline-llm-fix｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
+  - 未提交改动: kdo-tools/wechat_knowledge.py
+  - 未提交改动: 40_out｜huangyaoshi
+2026-09-01 01:17:01｜diag_20260901_wangyuyan-5tb-design-asset-library.md｜near-miss-三元组（#506）｜status=待老朱拍板 疑似待编排但非 pending_orchestration｜conveyor_probe
+2026-09-01 01:36:08｜task_20260831_huangyaoshi-wechat-pipeline-llm-fix｜F-036-问题落点｜审查发现问题未给落点（F-036）：1. 🟡 同文重复采集未提级：1a718b 与 4dd7be 两卡 title 同为「重构协同：关于AI Native团；2. 🟡 无自动化回归护栏：管线修复验证全｜欧阳锋
+2026-09-01 01:36:20｜task_20260831_huangyaoshi-wechat-pipeline-llm-fix｜F-036-问题落点｜审查发现问题未给落点（F-036）：1. 🟡 同文重复采集未提级：1a718b 与 4dd7be 两卡 title 同为「重构协同：关于AI Native团；2. 🟡 无自动化回归护栏：管线修复验证全｜欧阳锋
+2026-09-01 05:01:39｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 125.4), ('cli', 30.6)]）｜role_registry check-liveness｜role_registry
+2026-09-01 05:01:39｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 125.2), ('cli', 30.6)]）｜role_registry check-liveness｜role_registry
+2026-09-01 06:01:20｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 185.1), ('cli', 30.3)]）｜role_registry check-liveness｜role_registry
+2026-09-01 06:01:20｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 184.9), ('cli', 30.3)]）｜role_registry check-liveness｜role_registry
+2026-09-01 06:17:23｜task_20260901_laowantong-candy-collection-batch｜F-034-五字段｜执行报告缺 5 个字段（#429 F-034）：改动文件清单、完成内容一句话、验证命令+输出、未做项/边界、需要谁动作。请补全后重试，或 --force --reason '<理由>' 声明例外（#4｜laowantong
+2026-09-01 06:32:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 215.2), ('cli', 60.9)]）｜role_registry check-liveness｜role_registry
+2026-09-01 07:17:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 260.7), ('cli', 44.9)]）｜role_registry check-liveness｜role_registry
+2026-09-01 07:17:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 260.6), ('cli', 44.9)]）｜role_registry check-liveness｜role_registry
+2026-09-01 07:36:08｜task_20260901_laowantong-candy-collection-batch｜F-036-问题落点｜审查发现问题未给落点（F-036）：**遗留小项（🟡 不阻塞，后续债务清理）**：①Sam Altman 博客为域级验证，具体篇目未定位（卡内已标「引用需回——必须在意见书注明去向（建议书路径 / 停｜欧阳锋
+2026-09-01 09:02:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 365.6), ('cli', 31.0)]）｜role_registry check-liveness｜role_registry
+2026-09-01 09:31:26｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 394.7), ('cli', 60.4)]）｜role_registry check-liveness｜role_registry
+2026-09-01 09:42:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 405.7), ('cli', 38.4)]）｜role_registry check-liveness｜role_registry
+2026-09-01 10:06:42｜task_20260901_wangyuyan-skills-assistant-spec｜F-034-五字段｜执行报告缺 5 个字段（#429 F-034）：改动文件清单、完成内容一句话、验证命令+输出、未做项/边界、需要谁动作。请补全后重试，或 --force --reason '<理由>' 声明例外（#4｜wangyuyan
+2026-09-01 10:06:57｜task_20260901_wangyuyan-skills-assistant-spec｜F-034-五字段｜执行报告缺 5 个字段（#429 F-034）：改动文件清单、完成内容一句话、验证命令+输出、未做项/边界、需要谁动作。请补全后重试，或 --force --reason '<理由>' 声明例外（#4｜wangyuyan
+2026-09-01 10:07:14｜task_20260901_wangyuyan-skills-assistant-spec｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
+  - 未提交改动: agents/skills-assistant/SPEC.md
+补救：git add <路径>｜wangyuyan
+2026-09-01 10:08:55｜task_20260901_huangyaoshi-vault-incident-rootcause｜F-035-负向判词｜意见书含负向断言（缺失/「无法用本地日志」）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋
+2026-09-01 10:51:30｜task_20260901_huangyaoshi-vault-incident-candidate-b｜F-035-意见书｜任务单缺少「## 终审记录」节（#429 F-035：审查意见必须落盘，口头/群里意见=未审查）｜欧阳锋
+2026-09-01 10:51:44｜task_20260901_huangyaoshi-vault-incident-candidate-b｜F-036-问题落点｜审查发现问题未给落点（F-036）：**结论：PASS A-**（候选 b 排除成立，候选 c 升级论证成立；两处 🟡 表述口径记档，不改变结论方向）；### 🟡 缺陷记档（2 项，均为表述口径，方向｜欧阳锋
+2026-09-01 11:02:01｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 485.6), ('cli', 31.2)]）｜role_registry check-liveness｜role_registry
+2026-09-01 11:13:52｜task_20260901_huangyaoshi-skill-registry-mount-matrix｜F-035-负向判词｜意见书含负向断言（缺失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋
+2026-09-01 11:37:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 520.6), ('cli', 34.8)]）｜role_registry check-liveness｜role_registry
+2026-09-01 11:48:49｜task_20260901_huangyaoshi-vault-hypothesis-sweep｜F-034-五字段｜执行报告缺 1 个字段（#429 F-034）：需要谁动作。请补全后重试，或 --force --reason '<理由>' 声明例外（#444 台账留痕）。
+合法写法样例（五字段各起一行，粗体锚词开｜huangyaoshi
+2026-09-01 12:00:38｜vault-integrity｜bundle 过期｜wiki-bundle-20260831-0218-postfix.bundle mtime 33.8h ago > 26h｜vault-integrity-check
+2026-09-01 12:17:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 560.2), ('cli', 62.6), ('hermes', 64.1)]）｜role_registry check-liveness｜role_registry
+2026-09-01 13:13:08｜task_20260901_huangyaoshi-vault-hypothesis-sweep｜F-036-问题落点｜审查发现问题未给落点（F-036）：**缺陷记档（🟡 1 项，不阻塞但须修正认知）**：；**🟡 小疵**：EID23 计数口径（编排层 23 vs 本棒 10）已自附口径说明，以 wevtutil ｜欧阳锋
+2026-09-01 13:13:19｜task_20260901_huangyaoshi-vault-hypothesis-sweep｜F-036-问题落点｜审查发现问题未给落点（F-036）：**缺陷记档（🟡 1 项，不阻塞但须修正认知）**：；**🟡 小疵**：EID23 计数口径（编排层 23 vs 本棒 10）已自附口径说明，以 wevtutil ｜欧阳锋
+2026-09-01 13:19:09｜vault-integrity｜异机副本缺失｜no bundle in C:\Users\Administrator\Nutstore\1\我的坚果云\kdo-backup｜vault-integrity-check
+2026-09-01 13:37:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 640.7), ('cli', 35.9)]）｜role_registry check-liveness｜role_registry
+2026-09-01 13:37:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 640.6), ('cli', 35.9)]）｜role_registry check-liveness｜role_registry
+2026-09-01 14:27:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 690.2), ('cli', 72.9), ('hermes', 194.1)]）｜role_registry check-liveness｜role_registry
+2026-09-01 14:46:24｜task_20260901_huangyaoshi-skills-assistant-deploy｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
+  - untracked: shared/deep-debug/manifest.yaml
+补救：git add ｜huangyaoshi
+2026-09-01 15:17:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 740.7), ('cli', 30.3)]）｜role_registry check-liveness｜role_registry
+2026-09-01 15:47:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 770.6), ('cli', 75.6)]）｜role_registry check-liveness｜role_registry
+2026-09-01 16:17:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 800.2), ('cli', 67.8), ('hermes', 304.1)]）｜role_registry check-liveness｜role_registry
+2026-09-01 17:27:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 870.7), ('cli', 160.3)]）｜role_registry check-liveness｜role_registry
+2026-09-01 17:57:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 900.6), ('cli', 205.6)]）｜role_registry check-liveness｜role_registry
+2026-09-01 18:32:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 935.2), ('cli', 202.8), ('hermes', 439.1)]）｜role_registry check-liveness｜role_registry
+2026-09-01 19:37:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 1000.7), ('cli', 290.3)]）｜role_registry check-liveness｜role_registry
+2026-09-01 20:00:27｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 1024.0), ('cli', 329.1)]）｜role_registry check-liveness｜role_registry
+2026-09-01 21:07:01｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 1090.7), ('cli', 36.5)]）｜role_registry check-liveness｜role_registry
+2026-09-01 21:07:01｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 1090.6), ('cli', 36.5)]）｜role_registry check-liveness｜role_registry
+2026-09-01 22:55:09｜task_20260902_skills-assistant-research-core-integration｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
+  - untracked: shared/research/SKILL.md
+补救：git add <路径> &&｜skills-assistant
+2026-09-01 22:55:19｜task_20260902_skills-assistant-research-core-integration｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
+  - untracked: shared/research/SKILL.md
+补救：git add <路径> &&｜skills-assistant
+2026-09-01 23:02:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 1205.7), ('cli', 30.9)]）｜role_registry check-liveness｜role_registry
+2026-09-01 23:02:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 1205.6), ('cli', 30.9)]）｜role_registry check-liveness｜role_registry
+2026-09-01 23:04:26｜task_20260902_skills-assistant-research-core-integration｜F-035-负向判词｜意见书含负向断言（不存在/丢失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋
+2026-09-01 23:04:38｜task_20260902_skills-assistant-research-core-integration｜F-035-负向判词｜意见书含负向断言（不存在/丢失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋
+2026-09-01 23:04:54｜task_20260902_skills-assistant-research-core-integration｜F-035-负向判词｜意见书含负向断言（不存在/丢失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋
+2026-09-01 23:07:01｜建议书_20260901_skill健康度勘察与检测方法论.md｜near-miss-三元组（#506）｜status=pending-review 疑似待编排但非 pending_orchestration｜conveyor_probe
+2026-09-02 00:01:07｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 1264.8), ('cli', 30.4)]）｜role_registry check-liveness｜role_registry
+2026-09-02 00:01:07｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 1264.7), ('cli', 30.4)]）｜role_registry check-liveness｜role_registry
+2026-09-02 00:24:30｜task_20260902_laowantong-popmart-uniqueness-book-cards｜F-034-五字段｜执行报告缺 5 个字段（#429 F-034）：改动文件清单、完成内容一句话、验证命令+输出、未做项/边界、需要谁动作。请补全后重试，或 --force --reason '<理由>' 声明例外（#4｜laowantong
+2026-09-02 00:53:44｜task_20260902_skills-assistant-legacy53-evaluate-revive｜F-034-五字段｜任务单缺少「## 执行报告」节（#429 F-034：交付必须落执行报告，口头完成=未完成；#444：evidence 附件不能替代）｜skills-assistant
+2026-09-02 00:54:00｜task_20260902_skills-assistant-legacy53-evaluate-revive｜F-034-五字段｜执行报告缺 1 个字段（#429 F-034）：未做项/边界。请补全后重试，或 --force --reason '<理由>' 声明例外（#444 台账留痕）。
+合法写法样例（五字段各起一行，粗体锚词｜skills-assistant
+2026-09-02 00:54:15｜task_20260902_skills-assistant-legacy53-evaluate-revive｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
+  - untracked: 60_feedback/diagnosis/建议书_20260902_legacy53｜skills-assistant
+2026-09-02 01:17:01｜diag_20260902_fengqingyang-substitute-scatter-audit.md｜near-miss-三元组（#506）｜有 audience 但 status=draft（应 pending_orchestration）｜conveyor_probe
+2026-09-02 01:27:01｜diag_20260902_huangyaoshi-vault-scatter-obsidian-config-pipeline.md｜near-miss-三元组（#506）｜status=pending_review 疑似待编排但非 pending_orchestration｜conveyor_probe

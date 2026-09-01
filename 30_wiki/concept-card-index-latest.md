@@ -1,4 +1,4 @@
-# Concept Card Index — 2026-08-26 18:07 UTC
+# Concept Card Index — 2026-08-31 18:08 UTC
 
 | ID | Title | Type | Domain |
 |---|---|---|---|
@@ -552,6 +552,7 @@
 | framework-AI知识库-加卡片加标签双原则 | 加卡片加标签双原则：知识不够加卡片，索引不到加标签 | framework | ai-knowledge, knowledge-management |
 | framework-AI知识库-四象限资产 | 知识库四象限资产：私有事实/经验判断/业务边界/可复用输出 | framework | ai-knowledge, knowledge-management |
 | framework-AI知识库-知识卡片公式 | 知识卡片公式：YAML 标签（给 AI 看）+ 原子化正文（给人看） | framework | ai-knowledge, knowledge-management |
+| framework-arui-ai-six-fundamentals | 阿蕊AI落地六块基本功——销售三基本×AI三基本双层体系 | framework | sales, ai-collaboration, business-strategy |
 | framework-audit-maxims-library | 审计判词库：风清扬两日审计提取的 13 条可训练认知资产 | framework | kdo, knowledge-management |
 | framework-baozhashidiaochan-five-step | 爆炸式调研五步法：目标→范围→搜索⇄建模→交付 | framework | research |
 | framework-big-five-personality | 「框架：大五人格——只有开放性和尽责性越高越好」 | framework | human-insights, psychology |
@@ -609,7 +610,9 @@
 | framework-modeling-relation-exploration | 流程建模的关系探索：关系vs规律，从并列到因果 | framework |  |
 | framework-multi-agent-collab-chain-six | 多 Agent 协作链六环节：管理读写关系，让上下文一轮轮变厚 | framework | knowledge-management, ai-collaboration |
 | framework-multi-agent-research-architecture | 多智能体研究架构模式（Multi-Agent Research Architecture） | framework |  |
+| framework-openclaw-vs-harness-selection | OpenClaw vs Harness 选型决策树——70% 论 × 三分法（养员工/造工具/打短工） | framework | ai-basic, ai-collaboration |
 | framework-oral-spray-cultivation-map | 口喷段位修炼地图 L1-L6：五次飞跃 | framework | ai-collaboration |
+| framework-oral-spray-five-advantages | 口喷五优势框架：启动快·信息全·速度快·能流淌·阻力低 | framework | ai-collaboration, content-creation |
 | framework-ouyangfeng-review-methodology | 欧阳锋审查方法论：三阶段架构评审框架 | framework | kdo, master, strategy |
 | framework-pan-product-organization | 泛产品组织设计：把团队当成产品来打磨 | framework |  |
 | framework-patrolkit-radar | PatrolKit 知识资产雷达：自动巡查与资产回收系统 | framework | knowledge-management, ai-collaboration |
@@ -625,6 +628,7 @@
 | framework-strategy-blm | IBM BLM 业务领导力模型 + 华为五看三定 | framework |  |
 | framework-strategy-brm | 冉鹏版 BRM 框架（源于 IBM BLM 方法论） | framework | strategy |
 | framework-strategy-business-design | 业务设计六要素×三步骤——冉鹏战略规划核心操作框架（源于IBM BLM） | framework |  |
+| framework-strategy-conviction | 战略笃定——用 10 年尺度的不变因素完成今天的决策（Truman 七轮决策实证） | framework | strategy, decision-making |
 | framework-strategy-five-basics | 冉鹏战略五基本功（5C）：定式/洞察/布局/体系/变革 | framework |  |
 | framework-strategy-five-forces | 波特五力分析框架 | framework |  |
 | framework-strategy-kai-innovation-directions | 凯纳创新方向分类框架 | framework |  |
@@ -641,6 +645,7 @@
 | framework-time-management-matrix | 重要/紧急四象限（艾森豪威尔矩阵） | framework |  |
 | framework-token-economy-three-layer | 词元经济三层格局：生产者/供应商/消费者 + 词元生产公式 | framework | strategy, ai-saas |
 | framework-truman-agent-team-architecture | Truman Agent 团队系统架构：缓冲站→Library→三团队→四库 | framework | knowledge-management, ai-collaboration |
+| framework-truman-ai-featureset | Truman 自用 AI FeatureSet 四层模型（精简版） | framework | ai-collaboration, strategy |
 | framework-truman-feature-layered-system | 「框架：Feature分层体系——L0-L5六层+分层自洽」 | framework | ai-basic, methodology |
 | framework-truman-feature-thinking-core | 「框架：Feature思维——提升AI解题水平的最小实践单位」 | framework | ai-basic, methodology |
 | framework-visual-analysis-four-dimensions | VA 四维法——从图片到结构化视觉分析的通用方法论 | framework | design |
@@ -814,8 +819,6 @@
 | spec-coaching-leadership-assistant | 「Agent Spec：教练式领导力助理——五阶梯定位+硬币诊断+沟通话术（TCPR 角色可切换）」 | agent-spec |  |
 | agent-spec-codex-teammate | Codex 队友式使用规范 | agent-spec | ai-collaboration, engineering, agent |
 | agent-spec-dual-triangle-canvas-filler | 双三角画布填充 Agent（对话教练版）v4 | agent-spec | ai-collaboration, agent |
-| agent-spec-duanwangye-publisher | 段王爷 Publisher Agent — KDO 内容发布与渠道分发引擎 | agent-spec | publishing, agent-capability |
-| agent-spec-hongqigong-multimodal | 洪七公 Multimodal Agent — KDO 多模态渲染与视觉资产生产引擎 | agent-spec | multimodal, agent-capability |
 | spec-meeting-assistant | 「Agent Spec：科学开会助理——该不该开+冰山画布+原则匹配+可照抄话术」 | agent-spec |  |
 | agent-spec-project-management-assistant | 项目管理助手 Agent（对话教练版） | agent-spec | management |
 | agent-spec-research-explosion-partner | 「Agent Spec：R 型爆炸式调研 Partner——五状态机饱和建模产出知识资产」 | agent-spec | research, ai-collaboration |
@@ -884,7 +887,7 @@
 | tool-agent-spec-yitang-Y-model-coach | Y模型 Coach 模式 Agent Spec | tool-agent-spec | epistemic-foundations, decision-science, ai-collaboration |
 | tool-agent-white-paper-five-elements | Agent 白皮书五要素：名字/职责/能力/数据库/虚拟人格（可复制 Agent 的定义模板） | tool | ai-collaboration, knowledge-management |
 | tool-ai-adapted-workflow-design | AI 适配化工作流设计：四员分工+占位符防魔改+规则文件前置（十指讲香） | tool | ai-collaboration, knowledge-management |
-| tool-ai-agent-feature-comparison | 「AI Agent 工具对比：Claude Code / Hermes / Codex / CodeBuddy 的 Feature 差异」 | tool | ai-basic, ai-collaboration |
+| tool-ai-agent-feature-comparison | 「AI Agent 工具对比：Claude Code / Hermes / Codex / CodeBuddy / OpenClaw / DeepSeek Harness 的 Feature 差异」 | tool | ai-basic, ai-collaboration |
 | tool-ai-ai-workspace-setup | 技能：结构化AI工作空间搭建 | tool | ai-collaboration, ai-saas |
 | tool-ai-critical-reading-three-layers | 三层拆书批判法 | tool | ai-collaboration, critical-thinking, reading-methodology |
 | tool-ai-cross-reading-method | 交叉阅读法 | tool | ai-collaboration, critical-thinking, business-judgment |
@@ -1844,6 +1847,7 @@
 | yt-tool-unit-model-construction | yt tool unit model construction | tool | master |
 | yt-tool-unit-model-dynamic | yt tool unit model dynamic | tool | master |
 | yt-tool-unit-model-selection | yt tool unit model selection | tool | master |
+| case-20260829-zhanlue-dingding-l3-extraction | 「案例：战略笃定篇逐字稿提取——window分段滚动法，滚动顺序=文档顺序」 | case | feishu, extraction, browser-automation |
 | case-252-quality-gate-pilot | #252 消费端协议试点：用Feature思维分析卡片质量门禁体系 | case | ai-basic, kdo |
 | case-4000-titles-ten-strategies | 4000 标题→十大策略：长期资产的一次性建模 | case | research, content-production |
 | case-agent-self-evolution-pilot | Agent自我进化试点：#200任务的完整过程记录 | case | system |
@@ -1858,6 +1862,7 @@
 | case-ai-writing-homogenization | 内容平台 AI 洗稿同质化：当生成式 AI 压低表达多样性 | case | ai-collaboration, content-industry, epistemic-foundations |
 | case-aodaye-archery-reinvention | 嗷大叶·射箭馆重构：17→3→17的模型重生 | case | innovation |
 | case-apple-card-gender-bias | Apple Card 信用额度性别争议 | case | ai-collaboration, critical-thinking, business-judgment |
+| case-arui-headhunter-ai-role-switching | 猎头案例——AI角色随业务阶段切换（验证期=专家参谋/增长期=提效工具） | case | sales, ai-collaboration |
 | case-ban-fei-mao-conversion-hacker-skill | 案例：一堂转化率黑客课→Skill ——从拿到资料到测试通过的完整历程 | case | ai-collaboration |
 | case-ban-fei-mao-from-assignment-to-tool | 案例：半肥猫把一堂课程作业变成可复用调研工具 | case | content |
 | case-ban-fei-mao-skill-ab-test | 案例：Skill A/B 测试——用 Skill vs 不用 Skill 的 12 维度对比 | case | ai-collaboration |
@@ -1991,6 +1996,7 @@
 | case-panproduct-yitao-project-background | 案例：一淘项目背景与三大难题 | case | product, design |
 | case-personal-map-modeling | 案例：一堂个人地图的完整建模过程（方法论视角） | case | content, master |
 | case-popmart-prospectus-pricing | 案例：泡泡玛特招股书——IP产品毛利率60-70% | case | research |
+| case-private-board-conversion-skincare | 转化率私董会实录：古法护肤祛斑项目的动力/阻力/触点三轮共创与幕僚收敛（脱敏版） | case | conversion-rate |
 | case-private-domain-ecommerce-formula | 私域电商 10W 人社群：从"拉人发广告"到"信任 × 用户升级路径" | case | e-commerce, business-strategy |
 | case-proya-betaine-skincare-benchmark | 案例：贝泰妮招股书——敏感肌市场的完整画像 | case | research |
 | case-qinpeng-hardware-ai-amplification | 上海合宙硬件：20年积累→2000万字知识库→AI放大交付 | case |  |
@@ -2043,6 +2049,7 @@
 | case-toy-cabinet-barrier | 案例：线下玩具柜的壁垒困局与突围路径 | case | strategy |
 | case-toy-cabinet-business-model | 案例：线下玩具柜商业模式 | case | strategy |
 | case-treadmill-demand-analysis | 跑步机需求分析：在家健身场景的需求拆解与替代方案博弈 | case | product |
+| case-truman-360-6h-course | Truman 案例：6 小时口喷定制 191 页企业内训课（360 交付） | case | ai-collaboration, content-creation |
 | case-truman-ai-image-workflow-evolution | 「案例：Truman作图工作流进化——从3小时一张到日产30-40张」 | case | ai-basic, ai-collaboration |
 | case-truman-ai-native-research-flow | 楚门 AI 原生调研流：口喷一段→Agent 科学调研→Obsidian 资产 | case | ai-collaboration, research, knowledge-management |
 | case-truman-ai-partner | 案例：Truman AI Partner（阿蕊老师）——从十年笔记到可售卖的 Agent | case | kdo |
@@ -2058,11 +2065,13 @@
 | case-truman-prd-checklist-evolution | Truman的PRD清单进化：从被领导反复打回到'不再二错'——半年赶上三四年PM水平 | case | content |
 | case-truman-sales-report-structure | 案例：Truman 重构销售失利汇报——把 10 个散点升级成逻辑链 | case | 工作汇报, 复盘结构化 |
 | case-truman-shower-toilet-ideation | 案例：Truman 洗澡/厕所灵感爆发——暗时间如何在"脑力CPU不饱和"时产出高价值创意 | case | time-management |
+| case-truman-spring-festival-1000 | Truman 案例：春节闭关 10 天口喷 1000 条（占比 10%→80%+，口喷变默认选项） | case | ai-collaboration |
 | case-truman-temperature-parameter | 「案例：温度参数——一个L0 Feature降成本10倍」 | case | ai-basic |
 | case-truman-time-management-commute-experiment | Truman 通勤实验：用时间审计把「废时间」变成产能杠杆 | case | time-management, personal-productivity |
 | case-truman-yitang-foresight | Truman一堂：市场扫描→六方向→Plan ABC试错 | case | decision-making, strategy |
 | case-unit-model-gashapon | 扭蛋机案例：玩具店规模化扩张三阶段决策 | case | decision-making |
 | case-vibecoding-one-week-delivery | VibeCoding 训战营：一周交付 900 页 PPT 的全上下文协作 | case | knowledge-management, ai-collaboration |
+| case-wangfei-koupen-dual-track-writing | 王飞案例：用双三角模型重构公众号创作系统 | case | ai-collaboration, content-creation |
 | case-wangfei-newyear-event-diagnosis | 王非跨年活动：500→1000人增长诊断 | case |  |
 | case-wanghuan-education-sales-capability-extraction | 王欢案例：教育机构销冠能力萃取系统 | case | content, decision-making |
 | case-wanghuan-education-sales-paced | 王欢案例：教育机构用 PACED 还原销冠决策链 | case | decision-making |
@@ -2443,6 +2452,8 @@
 | dk-ji-hao-simple-complex-routing | 暗知识：简单系统跳过导诊台，复杂系统必须路由 | dk | ai-collaboration |
 | dk-kdo-leaky-pipe-pressure | 暗知识：在漏水的管子上加压——基础链路没跑通时，硬门禁不是质量控制，而是流程卡死 | dk | kdo, master |
 | dk-key-hypothesis-still-hope | 「暗知识：只要还有关键假设就还有机会——Feature无限调优的底气」 | dk | ai-basic |
+| dk-koupen-500-vs-5000 | 暗知识：口喷 500 条与 5000 条无差别——没刻意练习等于原地踏步 | dk | ai-collaboration |
+| dk-koupen-input-method-loss | 暗知识：输入法压缩丢稿——不是工具的错，是「一口气长喷」的错 | dk | ai-collaboration |
 | dk-leadership-trust-coin-sensitivity | 信任硬币敏感性（暗知识：领导力=加减币觉察） | dk | management, coaching |
 | dk-let-ai-learn-for-me | 让 AI 替我学：自己学太慢时的转向点（自学失败→训练 AI 代学） | dk | ai-collaboration, knowledge-management |
 | dk-level-blindspot-external-feedback | 暗知识：「7-8分幻觉」是结构性盲区——低段位者高估自己，因为没见过高段位的具体打法 | dk | entrepreneur |
@@ -2648,6 +2659,7 @@
 | yt-product-kernel-failure-modes | 产品内核失败模式 | dk | product |
 | yt-product-kernel-overpromise-trap | 过度承诺陷阱：前端卖了后端做不出来的东西 | dk | product |
 | yt-product-kernel-premature-optimization | 过早细化陷阱：在验证前追求完美 | dk | product |
+| entity-销售AIπ平台 | 销售AIπ（salesaipai.com）——销售场景Agent工具平台竞品情报 | entity | sales, ai-saas, business-strategy |
 | Kimi-月之暗面 | Kimi（月之暗面） | entity | kdo, product, ai-saas, design |
 | YC-Y-Combinator | Y Combinator | entity | entrepreneurship, ai-saas, management, business-strategy |
 | 一堂 | 一堂 | entity | entrepreneurship, management, business-strategy |

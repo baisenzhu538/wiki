@@ -51,6 +51,12 @@ if errorlevel 1 (
 echo [%DATE% %TIME%] OK bundle=%BUNDLE% HEAD=%WIKIHEAD% >> "%LOG%"
 echo OK > "%DEST%\wiki-bundle-daily.last-result.txt"
 
+rem --- #592 R1: offsite copy to Nutstore dir (step 2, failure never blocks main) ---
+call "C:\Users\Administrator\Desktop\wiki\90_control\scripts\wiki-bundle-offsite-2nd.bat" >> "%LOG%" 2>&1
+if errorlevel 1 (
+    echo [%DATE% %TIME%] WARN: offsite step2 failed, main backup unaffected >> "%LOG%"
+)
+
 rem --- rolling cleanup: keep newest 7 (by date-suffixed name sort) ---
 set /a COUNT=0
 for /f "delims=" %%f in ('dir /b /o-n "%DEST%\wiki-bundle-2*.bundle" 2^>nul') do (

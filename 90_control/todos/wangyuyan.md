@@ -364,3 +364,7 @@
 - [2026-09-02 00:58] ⚖️ #599 编排层复核完成（报废批9项=同意6+缓3：image-ocr-easyocr/long-image-ocr/deep-image-parser 因 90_control/AGENTS.md 图片纪律首选路径指向它，直废会断链，时序改为 R6 统一解析落地后先改 AGENTS.md 再报废；builtin 4 项转议题待老朱裁口径）；迁移批27+重造批6及优先级 R6>R1>R2>R5>R3>R4 均批准；复核意见已附建议书尾部
 - [2026-09-02 01:00] 🔓 #597 放行：#595 已终审（依赖满足），clock-watchdog-skip.json 已清空
 - [2026-09-02 01:02] 🚀 已拉起 ouyangfeng headless（proc_9eba7424842b）双审 #596+#599（队列序，独立复核非采信 self-report）
+- [2026-09-02 01:07] ⚖️ KDO 已终审 2 单：#596, #599（待部署/已闭环）
+- [2026-09-02 01:17] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-02 01:17:01｜diag_20260902_fengqingyang-substitute-scatter-audi
+- [2026-09-02 01:27] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-02 01:27] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-02 01:27:01｜diag_20260902_huangyaoshi-vault-scatter-obsidian-c

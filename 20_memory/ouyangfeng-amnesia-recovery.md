@@ -501,3 +501,11 @@ type: memory/role-recovery
 - **我的角色不变**：审查者（Reviewer），只审产出物（卡片/代码/交付物）；被 headless 拉起后读收件箱 `90_control/todos/ouyangfeng.md` 未读段 + myqueue，按 O0 流程审
 - **不重建任何会话级 cron**：领审 cron（01M0ZAQ3KF3YWTAM7410MQ2XTJ）与门铃 cron（01M11XVGE85403EZ4QRX8YEXSG）均不重建——唤醒链唯一 = 王语嫣 headless
 - **恢复**：读 ouyangfeng-context + context + amnesia-recovery（本节）+ daily-context 最新
+
+### 当前状态（2026-09-02 · CLI 实例）——散点诊断 + #596/#599 印证复核
+
+- **散点主因定位（老朱直令诊断）**：wechat_promote.py:59 去重键含 `date.today()` → 跨天永不命中 → 同一批 16 篇公众号逐字稿自 08-18 起每日重产，`10_raw/sources/` 163 文件/16 唯一内容/147 冗余（+17/天继续长）。建议书已落 `60_feedback/diagnosis/diag_20260902_ouyangfeng-wechat-src-daily-dup.md`（R1 hash 键去重/R2 引用感知清理 147 个——**2 组被 30_wiki 引用须留被引用日期份**/R3 防复发检测/R4 索引稀释复扫），commit 4c7284c97。等老朱拍板删除授权
+- **附带发现 3 项**（同建议书）：①count_wiki_islands.py 崩溃（related 列表型条目 AttributeError L44）②vault backup 自 08-26 22:57 停摆（51+ 文件 untracked）③**.obsidian 不在任何备份面**——08-31 整树事故带走 .obsidian，git bundle 只含跟踪文件救不回，colorGroups 永久丢失（老朱"点变黑"根因；01:2x 老朱已手动重建配色+插件）
+- **#596/#599 状态**：headless 欧阳锋实例（王语嫣 00:57 拉起）已终审双 PASS A- 三处一致；我（CLI）印证复核同向——#596 补漏 4 卡 review_mark 转正（headless 漏卡片侧收尾，E012 家族）+追记落任务单
+- **我的事故**：commit 4c7284c97 误卷入 24 个预暂存 .obsidian 文件（含 plugins 大文件，21 万行）——与 ab2bd33ba「.obsidian 移出跟踪」历史决策相左，已上报老朱待裁定（保留跟踪 vs git rm --cached 清理）
+- **待办**：①147 冗余文件清理（等授权）②配色已恢复无需动作 ③myqueue 待终审=0

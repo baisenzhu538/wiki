@@ -616,11 +616,6 @@
       "domain": "framework-strategy-pyramid.md"
     },
     {
-      "path": "frameworks/framework-strategy-six-stages.md",
-      "type": "framework",
-      "domain": "framework-strategy-six-stages.md"
-    },
-    {
       "path": "frameworks/framework-strategy-three-horizons.md",
       "type": "framework",
       "domain": "framework-strategy-three-horizons.md"
@@ -659,11 +654,6 @@
       "path": "frameworks/framework-wanghuan-gan-three-roles.md",
       "type": "framework",
       "domain": "framework-wanghuan-gan-three-roles.md"
-    },
-    {
-      "path": "frameworks/framework-wanghuan-harness-seven-stages.md",
-      "type": "framework",
-      "domain": "framework-wanghuan-harness-seven-stages.md"
     },
     {
       "path": "frameworks/framework-wanghuan-ooda-loop.md",
@@ -1426,5 +1416,5 @@
       "domain": "yt-tool-unit-model-dynamic.md"
     }
   ],
-  "total_cards": 2869
+  "total_cards": 2906
 }

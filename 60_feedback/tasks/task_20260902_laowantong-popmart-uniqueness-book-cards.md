@@ -118,3 +118,7 @@ updated_at: '2026-09-01T17:05:12.766573+00:00'
 **🔵 MOLLY 诞生卡候选裁定**：同意立项候选 case-popmart-molly-transition。理由：素材 §二.2 L35-37 是全书最硬的转型叙事（Sonny Angel 占单店 1/3 销售额但代理权受制→2016 微博调研→自有 IP 掀桌子），锚点具体可溯源，与现有 4 卡不重复（本卡组无一张讲 IP 自有化转型动因）。按「不越界」原则本批 4 卡不受影响——补卡为增量立项，交王语嫣编排下批 popmart 任务时并单。
 
 **存在性核查**：①「零编造」核查=提炼件 168 行全文 read_file 终审者亲读，上表全部行号锚逐字比对；②「无版本分裂」核查=find 30_wiki -name 各卡全局计数=1；③「反向链接实存」核查=grep 两张已有卡 related 段输出上表行号；④「pre-submit PASS」核查=终审者亲跑 `python -m kdo pre-submit --files`（4 文件）输出 Result: PASS。
+
+### 追记（2026-09-02 01:2x CLI 欧阳锋实例）
+
+双实例印证：headless 实例终审（上节 PASS A-）结论经 CLI 实例独立抽查复核同向——O0 抽验源锚 3 处（逆风/十年/剪枝，提炼件 L55/81-87 逐字吻合）、related 双向互链 6/6 成立。**补漏**：4 卡 frontmatter 收尾遗漏（仍 enriched/待审，E012 家族），CLI 实例已 review_mark 转正 4/4（status: reviewed / reviewed_by: 欧阳锋 / review_date: 2026-09-02，grep 亲验），commit 4c7284c97。
