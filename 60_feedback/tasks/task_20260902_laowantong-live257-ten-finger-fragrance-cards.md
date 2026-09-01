@@ -2,16 +2,19 @@
 id: task_20260902_laowantong-live257-ten-finger-fragrance-cards
 title: Live257 重讲十指讲香模型卡组（十指讲香 framework + 用数字讲故事 method + 发布会文案案例）
 seq: 610
-status: queued
+status: in_progress
 assignee: laowantong
 created_by: wangyuyan
 created_at: 2026-09-02
-decision_source: inbox 01:51 批次分诊（diag_20260902_wangyuyan-inbox-batch-42 族A，老朱 0831/0901 直令高价值素材直接编排产卡）
+decision_source: inbox 01:51 批次分诊（diag_20260902_wangyuyan-inbox-batch-42 族A，老朱 0831/0901
+  直令高价值素材直接编排产卡）
 reviewer: 欧阳锋
 source_refs:
 - 00_inbox/Live257-重讲十指讲香模型内测Candy-逐字稿.md
 related_tasks:
 - '#596'
+instance: laowantong-kimi
+updated_at: '2026-09-01T23:15:12.864641+00:00'
 ---
 
 # #610 Live257 十指讲香卡组（老顽童）
