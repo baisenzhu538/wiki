@@ -46,7 +46,7 @@ updated_at: '2026-09-01T17:36:28.902482+00:00'
 - `40_outputs/code/scripts/strip_skill_bom.py`（动作3：BOM 批量清理器，含 --check 只读回归模式 + 字节级断言）
 - `40_outputs/code/scripts/scan_skills_registry.py`（动作9：并入 8 维健康雷达——health_check() + gen_health()，生成第三份登记物 SKILL-HEALTH.md）
 - `40_outputs/capabilities/skills/SKILL-HEALTH.md`（8 维档位总表 + 短板聚合，生成物）
-- 37 个 `shared/*/SKILL.md` BOM 清洗（commit 1692bae6b，王语嫣 #602 批次1 代落账）
+- 37 个 SKILL.md BOM 清洗：`40_outputs/capabilities/skills/shared/`（已于 commit 1692bae6b 落账，王语嫣 #602 批次1 代提交）
 - `40_outputs/code/scripts/README.md` 登记（含补 #588 扫描脚本登记欠账）
 
 **完成内容**：#598 两动作全落地——①37 个带 BOM 的 SKILL.md 完成 utf-8-sig→utf-8 转换，只动编码层；②8 维健康检测（A触发词/B描述≥80字+场景/C失败模式/D边界反例/E来源/F三写manifest/G≤300行/H编号步骤）并入 #588 扫描脚本，每次全量重扫自动产出 SKILL-HEALTH.md 档位报告（🟢≥6/🟡4-5/🔴≤3），--check 新鲜度门禁同步覆盖 HEALTH 文件。本实例接手时编码层清洗与脚本扩展已在前序会话落码，本棒完成：字节级验证、登记欠账补齐、生成物重扫收口、提审流转。
