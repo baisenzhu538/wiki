@@ -38,9 +38,6 @@ related:
 - '[[concept-美好作品想象]]'
 - yitang-domain-digest
 - decision-science-domain-digest
-- pending_unknown
-- pending_unknown
-- pending_unknown
 - yt-decision-y-model
 - dk-yitang-Y-model-pitfalls
 - tool-yitang-Y-model-application

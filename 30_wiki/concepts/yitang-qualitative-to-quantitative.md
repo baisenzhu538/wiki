@@ -44,8 +44,6 @@ related:
 - - - case-ai-assisted-review
 - - - case-ban-fei-mao-conversion-hacker-skill
 - - - case-ban-fei-mao-from-assignment-to-tool
-- - - pending_unknown
-- - - pending_unknown
 - '[[yt-lean-qualitative-quantitative-research]]'
 diagnostic_signals:
 - framework_lens: 产品形态决定验证手段、样本量和核心指标；形态未定时讨论样本量是伪问题

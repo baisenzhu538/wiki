@@ -19,7 +19,6 @@ aliases:
 - Devil'sAdvocacy魔鬼代言人
 - Richars J. Heuer Jr. + Truman（一堂）
 - - - framework-yitang-18-strategy-cards
-- - - pending_unknown
 - - - tool-半肥猫-ai-research-validation
 - 三个新盲区
 - 外部知识探索

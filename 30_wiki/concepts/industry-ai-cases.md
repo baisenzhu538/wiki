@@ -8,7 +8,6 @@ domain:
 source_person: 王语嫣
 source_context: 听脑产业 AI 案例主题摘要综合（8 条录音 meetingSummary）
 aliases:
-- - - pending_unknown
 - - - tool-月白-实物包装产业链实践
 - 主题综合索引卡
 - 云管家

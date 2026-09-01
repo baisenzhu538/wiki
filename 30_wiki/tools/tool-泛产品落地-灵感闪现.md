@@ -12,7 +12,6 @@ language: zh-CN
 domain: decision-science
 aliases:
 - - - decision-science-domain-digest
-- - - pending_unknown
 - - - yitang-domain-digest
 - concept-X型Y型决策习惯
 - concept-发现决策

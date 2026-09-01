@@ -32,7 +32,6 @@ confidence: 0.9
 related:
 - '[[tool-scenario-selector-modeling]]'
 - '[[tool-yitang-customer-segmentation-4step]]'
-- pending_unknown
 - tool-动手建模法
 - tool-yitang-sales-process-decomposition
 - tool-yitang-sales-performance-management
