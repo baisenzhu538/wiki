@@ -2,12 +2,12 @@
 id: task_20260902_huangyaoshi-credential-exposure-cleanup
 title: 凭据三件套处置（散点审计 R1，P0 安全项）
 seq: 600
-status: in_progress
+status: pending_review
 assignee: huangyaoshi
 created_by: wangyuyan
 created_at: 2026-09-02
 priority: P0
-updated_at: '2026-09-01T17:37:09.924943+00:00'
+updated_at: '2026-09-01T17:39:34.713770+00:00'
 instance: huangyaoshi
 ---
 
@@ -63,3 +63,17 @@ instance: huangyaoshi
 **未做项**：①git 历史改写（按任务单安全栏第 2 条不做，历史含凭据已标注轮换建议）；②实际 token 轮换（归老朱）；③vault 全库凭据模式复扫（本单只管审计点名的三件，全库扫可另立项）。
 
 **需要谁动作**：欧阳锋——终审 #600（重点：三文件 vault 原位不可见+隔离区在位+git 索引零凭据+轮换建议已写）；老朱——执行三项 token 轮换（见上节）。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+⚪ 无路径级交付物声明（纯文档/诊断类或未用反引号标注路径）——差集无检查面
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+✅ 执行报告无负向断言词（检查面=执行报告节）
