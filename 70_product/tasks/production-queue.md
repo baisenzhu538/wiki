@@ -215,7 +215,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 587 | `task_20260901_wangyuyan-skills-assistant-spec` | Skills助理Agent spec（老朱0901拍板第7角色：Skill生产+配置中枢）——卡→skill行为化产线衔接（欧阳锋终审出口判断触发入队）+73存量skill目录菜单+agent×skill挂载矩阵；spec→终审→部署走Agent生产流水线标准 | pending_review | wangyuyan | spec文件+基线用例 | 老朱0901直令 | `60_feedback/tasks/task_20260901_wangyuyan-skills-assistant-spec.md` | 欧阳锋终审；部署另立项 |
 | 588 | `task_20260901_huangyaoshi-skill-registry-mount-matrix` | Skill目录与挂载矩阵机制（Skills助理基建配套）：73存量skill自动扫描生成目录（名称/触发词/适用agent）+agent-spec「已挂载skills」节标准化+挂载登记制；黄药师基建单 | queued | huangyaoshi | 扫描脚本+目录生成+spec模板增补 | 老朱0901直令；依赖#587 spec | `60_feedback/tasks/task_20260901_huangyaoshi-skill-registry-mount-matrix.md` | 欧阳锋终审 |
 | 585 | `task_20260901_huangyaoshi-wechat-pipeline-smoke-test` | wechat采集管线smoke测试最小护栏：骨架标记skip判定断言+失败占位拦截联动+红绿自验（LLM全桩化） | reviewed | huangyaoshi | smoke脚本+断言+红绿验证 | #584终审扣分点2（欧阳锋明示立项） | `60_feedback/tasks/task_20260901_huangyaoshi-wechat-pipeline-smoke-test.md` | #584终审PASS A-指令执行（09-01王语嫣编排）；P2不插队；欧阳锋终审 |
-| 589 | `task_20260901_huangyaoshi-vault-incident-rootcause` | vault整树消失事故根因排查+防再发：USN/事件日志/坚果云/计划任务/回收站证据考古+08-30前天对齐+每日bundle备份计划任务落地 | pending_review | huangyaoshi | 根因报告+排除清单+bundle备份计划任务（实跑verify） | 08-31 02:00事故已恢复数据无损失；老朱0901拍板推进排查 | `60_feedback/tasks/task_20260901_huangyaoshi-vault-incident-rootcause.md` | P0；编排层已附初步证据链（坚果云头号嫌疑）；欧阳锋终审 |
+| 589 | `task_20260901_huangyaoshi-vault-incident-rootcause` | vault整树消失事故根因排查+防再发：USN/事件日志/坚果云/计划任务/回收站证据考古+08-30前天对齐+每日bundle备份计划任务落地 | reviewed | huangyaoshi | 根因报告+排除清单+bundle备份计划任务（实跑verify） | 08-31 02:00事故已恢复数据无损失；老朱0901拍板推进排查 | `60_feedback/tasks/task_20260901_huangyaoshi-vault-incident-rootcause.md` | P0；编排层已附初步证据链（坚果云头号嫌疑）；欧阳锋终审 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
 ## ⚖️ 待终审（提审任务，queue_transition 自动登记）
@@ -402,7 +402,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#585 task_20260901_huangyaoshi-wechat-pipeline-smoke-test｜黄药师｜提审 09-01 01:59｜60_feedback/tasks/task_20260901_huangyaoshi-wechat-pipeline-smoke-test.md~~ → 已终审 PASS A（2026-08-31 欧阳锋）
 - ~~#586 task_20260901_laowantong-candy-collection-batch｜老顽童｜提审 09-01 06:17｜60_feedback/tasks/task_20260901_laowantong-candy-collection-batch.md~~ → 终审退回 queued（2026-08-31 欧阳锋）
 - ~~#586 task_20260901_laowantong-candy-collection-batch｜老顽童｜提审 09-01 07:20｜60_feedback/tasks/task_20260901_laowantong-candy-collection-batch.md~~ → 已终审 PASS A-（2026-08-31 欧阳锋）
-- #589 task_20260901_huangyaoshi-vault-incident-rootcause｜黄药师｜提审 09-01 09:55｜60_feedback/tasks/task_20260901_huangyaoshi-vault-incident-rootcause.md
+- ~~#589 task_20260901_huangyaoshi-vault-incident-rootcause｜黄药师｜提审 09-01 09:55｜60_feedback/tasks/task_20260901_huangyaoshi-vault-incident-rootcause.md~~ → 已终审 PASS A（2026-09-01 欧阳锋）
 - #587 task_20260901_wangyuyan-skills-assistant-spec｜王语嫣｜提审 09-01 10:07｜60_feedback/tasks/task_20260901_wangyuyan-skills-assistant-spec.md
 
 <!-- REVIEW-PENDING-END -->
