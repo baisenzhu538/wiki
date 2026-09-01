@@ -2,16 +2,19 @@
 id: '587'
 title: Skills助理Agent spec——Skill生产+配置中枢（工厂第7角色）
 type: spec
-status: pending_review
+status: reviewed
 priority: P1
 assignee: 王语嫣
 created_by: 王语嫣
 created_at: 2026-09-01
-updated_at: '2026-09-01T02:07:18.594600+00:00'
+updated_at: '2026-09-01T02:17:06.910079+00:00'
 source_refs:
 - 30_wiki/workflows/workflow-kdo-agent-production-pipeline.md
 - agents/research-explosion-partner/SPEC.md
 instance: wangyuyan
+reviewed_by: 欧阳锋
+review_date: '2026-09-01'
+grade: A
 ---
 
 # #587 Skills 助理 Agent spec（老朱 09-01 直令）
@@ -66,3 +69,39 @@ instance: wangyuyan
 ### ③ 负向判词 / ④ 存在性核查
 
 ✅ 执行报告无负向断言词（检查面=执行报告节）
+
+## 终审记录（欧阳锋 · 2026-09-01）
+
+**结论：PASS / A（设计稿类，#525 同款口径）**
+
+### 核查矩阵（六项全过，均亲跑）
+
+| # | 终审要点 | 核验方法 | 结果 |
+|:--|:--|:--|:--|
+| 1 | 触发条件可执行性 | 三选一逐条对照编排层动作：①终审记录节标注「建议行为化」=结构化可 grep 信号→编排层入队 ②≥2 独立任务引用=数值阈值可扫描 ③老朱直令=直接入队；反触发三条均有机械判据 | ✅ 可机械执行，无需人工解释 |
+| 2 | 四阶段流程完备性 | P1→判定书 3 行（Go/改造后Go/No）；P2→目录结构+四步封装法逐步有动作；P3→pre-submit 0 ERROR+路由面自攻击+五字段提审；P4→登记+矩阵更新+changelog 留痕 | ✅ 每阶段有产出物与门禁 |
+| 3 | 与 #588 接口 | SPEC 第五节分工表 4 行 vs #588 交付物 4 项逐项对照：扫描脚本+目录生成=黄药师（#588 交付1/2）、登记维护=Skills助理、spec 模板增补落 #588 交付3、「生成机制归黄药师/内容维护归Skills助理」与分工表自洽 | ✅ 无歧义 |
+| 4 | 三源抽查 | 源1 Truman 口述稿 L335-L475 逐字核：四步法（L365 快速认识/L375 保执行100%有效翻译/L387 先萃取再合并/L393 每环节2-5轮不够好）与 SPEC 第二节表述吻合；源2 Anthropic URL 亲 curl HTTP 200（渐进式披露三层与官方 Agent Skills 范式一致）；源3 #335 SPEC.md 实存，8 节对照本 SPEC 10 节为同构超集 | ✅ 抽 2 处全过 |
+| 5 | 边界五条+U1-U3 | 边界 L102-108 五条齐；U1 背书 tool-nine-character-mantra-14-strategies.md 实存、U2 背书 method-anthropic-skill-design-patterns.md（#586 产）实存、U3 背书 shared/deep-debug/SKILL.md 实存（name/description frontmatter 亲读）；「只定义不实跑、部署另立项」与 SPEC 第九节两阶段口径一致 | ✅ 验收口径成立 |
+| 6 | 执行报告五字段 | 交付物/完成内容/验证/边界/需要谁动作齐；声称「134行十节」亲测 wc -l=134、grep -c "^## "=10 全吻合；「三源路径实存」亲测全实存 | ✅ 诚实度复核通过 |
+
+### 存在性核查（本意见书涉及的全部实存断言）
+
+| 断言 | 验证 |
+|:--|:--|
+| SPEC.md 134 行 | wc -l 亲测 =134 |
+| 十节 | grep -c "^## " 亲测 =10 |
+| anti-ai-bs-three-moves manifest 含 trigger.natural_language | 亲读 manifest.yaml L10-11 在位（任务单六问 2 的先例引用成立） |
+| deep-debug skill 实存 shared/ | ls 亲测在位 |
+| shared skill 数量 | ls 亲测 74（#588 验收标准写 73——量差 1 为 #586/#587 期新增属正常漂移，#588 施工时以扫描实测为准，记档不阻塞） |
+
+### 缺陷与小项（均不阻塞）
+
+- 🟡 大小写记档：SPEC L99 `mount-matrix.md` vs #588 交付物 2 `MOUNT-MATRIX.md`——语义同一文件，Windows 文件系统大小写不敏感，不构成接口歧义；**#588 施工时统一为一个命名**（建议随 INDEX.md/MOUNT-MATRIX.md 大写惯例），此为施工期一行对齐项。
+- 🔵 shared 数量口径：#588 验收「73/73」与本审实测 74——非本单范围，#588 开工时以扫描实测计数为准。
+
+### 残余风险
+
+- U1-U3 未实跑（设计如此，部署另立项）——部署验收单须把 U1-U3 实跑作为验收门，编排层立项时带上本 SPEC 第九节两阶段口径。
+
+**#588 依赖解除。黄药师可开工；编排层处理部署单排期。**
