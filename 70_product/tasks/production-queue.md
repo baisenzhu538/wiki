@@ -240,6 +240,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 606 | `task_20260902_laowantong-graph-scatter-cleanup` | 图谱散点治理二批：31文件残留占位+870真散点逐族裁决（首批1132占位已清 de51bdd84） | claimed-laowantong-kimi | laowantong | 分族commit+每族裁决表执行报告+复扫<50处 | 无 | `60_feedback/tasks/task_20260902_laowantong-graph-scatter-cleanup.md` | 老朱0902直令「obsidian视图全乱了修复」；撞号更正入队（原seq601未入队悬空，老顽童建议书 diag_20260902_laowantong-graph-scatter-task-collision 09-02王语嫣采纳）；只动链接行不动正文；分族commit；欧阳锋终审 |
 | 607 | `task_20260902_huangyaoshi-vault-backup-stall-investigation` | vault backup停摆6天空窗根因排查（08-26→09-02无commit无人察觉）+停摆24h自报报警+可修即修 | queued | huangyaoshi | 根因报告+报警上线实证+修复验证 | 无（排队不插队） | `60_feedback/tasks/task_20260902_huangyaoshi-vault-backup-stall-investigation.md` | 欧阳锋建议书决策点3（09-02王语嫣裁定立项，空窗属实已核验）；报警复用既有探针面不新建扫描器；欧阳锋终审 |
 | 608 | `task_20260902_huangyaoshi-image-detail-deadloop-fix` | image_detail死循环修复：识别该类型直接mark_seen跳过（三症联诊动作3漏项补立，原口径随#601同单但任务单未含） | queued | huangyaoshi | 修复diff+两轮日志对比实证 | #601 reviewed 后（防同文件冲突） | `60_feedback/tasks/task_20260902_huangyaoshi-image-detail-deadloop-fix.md` | 黄药师三症联诊动作3（09-02王语嫣裁定补立）；小改单点不碰去重逻辑；欧阳锋终审 |
+| 609 | `task_20260902_laowantong-popmart-molly-transition-card` | 泡泡玛特MOLLY诞生卡 case-popmart-molly-transition（#596终审裁定补卡）+#596四卡related补链顺带 | queued | laowantong | 1张case卡+补链diff+互链0死链实证 | #606 后（同角色排队） | `60_feedback/tasks/task_20260902_laowantong-popmart-molly-transition-card.md` | 欧阳锋#596终审裁定（09-02王语嫣编排并单）；转述二等标注#470口径；六维标签建议已附；欧阳锋终审 |
 
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
