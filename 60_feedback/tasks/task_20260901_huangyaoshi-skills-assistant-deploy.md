@@ -2,7 +2,7 @@
 id: '593'
 title: Skills助理Agent部署——U1-U3实跑验收（两阶段第二阶段）
 type: deploy
-status: queued
+status: in_progress
 priority: P1
 assignee: 黄药师
 created_by: 王语嫣
@@ -11,6 +11,8 @@ source_refs:
 - agents/skills-assistant/SPEC.md
 - 60_feedback/tasks/task_20260901_wangyuyan-skills-assistant-spec.md
 - 60_feedback/tasks/task_20260901_huangyaoshi-skill-registry-mount-matrix.md
+instance: huangyaoshi
+updated_at: '2026-09-01T06:07:28.335541+00:00'
 ---
 
 # #593 Skills 助理 Agent 部署（#587 终审指令：编排层立项，带两阶段口径）
