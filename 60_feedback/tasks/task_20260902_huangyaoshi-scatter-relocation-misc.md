@@ -2,12 +2,13 @@
 id: task_20260902_huangyaoshi-scatter-relocation-misc
 title: 散点归位杂项（散点审计 R7，P1）：假盘符树 + Harness 重复对 + mp4 归位
 seq: 604
-status: queued
+status: in_progress
 assignee: huangyaoshi
 created_by: wangyuyan
 created_at: 2026-09-02
 priority: P1
-updated_at: '2026-09-02T01:25:00+08:00'
+updated_at: '2026-09-01T21:45:26.803865+00:00'
+instance: huangyaoshi-kimi
 ---
 
 # #604 散点归位杂项
