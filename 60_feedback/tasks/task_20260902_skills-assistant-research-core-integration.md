@@ -2,7 +2,7 @@
 id: '594'
 title: 调研能力层整合——17 skill 综合深挖为全 agent 基础能力（Skills助理生产首单）
 type: skill-production
-status: queued
+status: in_progress
 priority: P1
 assignee: skills-assistant
 created_by: 王语嫣
@@ -13,6 +13,7 @@ source_refs:
 - 40_outputs/capabilities/skills/shared/nine-layer-deep-dig/SKILL.md
 - 60_feedback/tasks/task_20260901_huangyaoshi-skills-assistant-deploy.md
 instance: skills-assistant
+updated_at: '2026-09-01T14:32:10.533569+00:00'
 ---
 
 # #594 调研能力层整合（Skills助理生产首单）
