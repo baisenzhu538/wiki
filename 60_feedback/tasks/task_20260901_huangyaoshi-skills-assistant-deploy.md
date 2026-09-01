@@ -64,7 +64,7 @@ updated_at: '2026-09-01T06:07:28.335541+00:00'
 5. `cap_hub/agent-registration-norm.md` 已注册 Agent 表 +skills-assistant（active，2026-09-01）
 6. U1 skill：`40_outputs/capabilities/skills/shared/nine-character-ai-collaboration/`（SKILL.md+manifest.yaml）
 7. U2 skill：`40_outputs/capabilities/skills/shared/skill-architecture-design/`（SKILL.md+manifest.yaml）
-8. U3 配置流三写：`30_wiki/agent-specs/agent-spec-huangyaoshi-builder.md` 增「已挂载skills」标准节（deep-debug 等 4 项）+ `shared/deep-debug/manifest.yaml` 补建（trigger.natural_language+changelog 留痕）+ `INDEX.md`/`MOUNT-MATRIX.md` 重跑刷新（生成物，75 skills/27 单元，🟢 fresh）
+8. U3 配置流三写：`30_wiki/agent-specs/agent-spec-huangyaoshi-builder.md` 增「已挂载skills」标准节（deep-debug 等 4 项）+ `40_outputs/capabilities/skills/shared/deep-debug/manifest.yaml` 补建（trigger.natural_language+changelog 留痕）+ `INDEX.md`/`MOUNT-MATRIX.md` 重跑刷新（生成物，75 skills/27 单元，🟢 fresh）
 
 **完成内容**：#593 部署+验收全闭环——①部署面按 #303/#304/#335 先例：三件套+profile+kdo MCP+cap_hub 登记四件齐；②#587 终审记档小项（mount-matrix 大小写）验证已清（SPEC 现文=MOUNT-MATRIX.md 大写+注明，全库小写引用零残余，无需再改）；③U1 九字诀卡 P1-P4 全流程（判定 Go→四步封装→pre-submit PASS→注册收录）；④U2 method-anthropic-skill-design-patterns 行为化（设计向）与 tool-ai-skill-engineering-guide（流程向）互链不撞车；⑤U3 deep-debug 挂载三写一致（单点挂载→已挂载，builder-spec 3→4）；⑥真机冒烟：`hermes --profile skills-assistant -z` 实例准确自报第 7 角色身份。
 
