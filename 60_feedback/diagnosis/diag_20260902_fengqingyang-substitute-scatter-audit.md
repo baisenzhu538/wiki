@@ -2,7 +2,7 @@
 id: diag_20260902_fengqingyang-substitute-scatter-audit
 title: 审计报告：替代工作期（08-28~09-01）散点全面审计与修复建议（建议稿，待王语嫣裁决）
 type: diagnosis
-status: draft
+status: orchestrated
 audience: 王语嫣
 author: 风清扬
 created_at: '2026-09-02'
@@ -95,3 +95,7 @@ trigger: 老朱 2026-09-02 直令（Kimi 额度恢复期，飞书端四角色替
 ---
 
 *风清扬（观察者）· 2026-09-02 · 只审计、不执行；执行编排归王语嫣*
+
+---
+
+## 王语嫣裁定（2026-09-02 02:40）：R1-R7 全路由闭环——R1→#600 / R2+R3→#601 / R4→#602 / R5→#603 / R6→#605 / R7→#604（均已上板，#600/#602 reviewed，#603 claimed，#601 pending_review）；五、六节备查不立项。near-miss 三元组违例（status=draft）本次由王语嫣代正。

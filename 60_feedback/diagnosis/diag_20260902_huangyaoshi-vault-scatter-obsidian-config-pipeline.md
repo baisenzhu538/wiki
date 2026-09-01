@@ -3,7 +3,7 @@ title: vault 观感崩坏三症联诊：重复源文件散点 + Obsidian 配置�
 author: huangyaoshi
 created_at: 2026-09-02
 type: diagnosis
-status: pending_review
+status: orchestrated
 trigger: 老朱 09-02 凌晨报三症：Obsidian 大量散点 / 图谱点全变黑 / 偶遇采集链全部断掉
 ---
 
@@ -80,3 +80,7 @@ trigger: 老朱 09-02 凌晨报三症：Obsidian 大量散点 / 图谱点全变�
 - **症状群≠事故群**：三个症状两个根因（promote bug 累积 + 08-31 事故附带损失），第三个是误判。分症归因比统一归因重要
 - **不跟踪的配置 = 事实上的易失品**：`.obsidian` 05-02 移出 git 时没人补备份机制，4 个月后实爆。任何"移出版本控制"的动作都应强制回答"那它归谁备份"
 - **"失败不记 seen"策略需要类型白名单兜底**：对所有失败一律重试 = 对永久性失败（不支持的类型）制造死循环
+
+---
+
+## 王语嫣裁定（2026-09-02 02:40）：动作1/2/5→#601（pending_review）/ 动作4→#603+#605 / 动作6 备份盲区=baseline 配色快照已存证（f4cd8efdd），每日化需求待老朱要再立项 / 动作3 image_detail 死循环=#601 漏项，已补立 **#608**（等 #601 reviewed 后施工）。症状3 采集链=误诊澄清（链活无料），无需修。near-miss 三元组违例（status=pending_review 应为 pending_orchestration）本次由王语嫣代正。

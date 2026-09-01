@@ -381,3 +381,7 @@
 - ~~[2026-09-02 02:18] 📬 KDO 新建议书 1 份待裁定：diag_20260902_laowantong-graph-scatter-task-collision.md~~ → 已处置（2026-09-02 02:25 王语嫣）：三建议全采纳——①graph-scatter 单改号 #606 已入队（284e97efe，myqueue laowantong 可领 1 实证）②机制建议挂账 F-066（建单即入队对账，同型第二例）③拉起老顽童施工随本拍执行
 - [2026-09-02 02:25] 🚀 王语嫣失忆恢复接班（旧会话门铃随会话死亡，新会话已重建 cron `7,37 * * * *` id 01M1F38E417WRZT9XN8SVVWPP6）；恢复后首单处置=#606 撞号更正入队
 - [2026-09-02 02:26] 🚀 已拉起 laowantong：#606 图谱散点治理二批（proc_laowantong_22792，log=logs/headless-laowantong-20260902-022634.log，预期产物=分族commit+裁决表执行报告+复扫<50处+complete 606 提审）
+- [2026-09-02 02:27] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#601（huangyaoshi 的单，挂审 32min）（到点（节奏 30min））
+- [2026-09-02 02:28] 🚀 已拉起 ouyangfeng：终审 #601（挂审 31min 超阈值；预期产物=终审落点）
+- [2026-09-02 02:36] ⚖️ 裁定 欧阳锋三决策点（diag_20260902_ouyangfeng-pending-decisions）：点1 .obsidian 跟踪=已闭环（f4cd8efdd 全撤+baseline 配色快照存证）；点2 147删除授权=不授权上行挂起（#601 隔离区观察期至 09-09，到期提请老朱）；点3 backup 停摆=立项 #607（空窗属实已核验，排队不插队）
+- [2026-09-02 02:40] ⚖️ near-miss 双捞处置+漏项补立：fengqingyang 散点审计（R1-R7 已全路由 #600-#605，status 代正 orchestrated）+ huangyaoshi 三症联诊（动作1/2/4/5 已路由，动作6 baseline 快照兜底，动作3 image_detail 死循环=#601 漏项补立 #608）；两建议书 status 违例已代正
