@@ -28,6 +28,8 @@ related:
 - concept-satisfaction-vs-existence
 - case-popmart-brand-sensory-wrap
 - tool-blind-box-mechanism
+- case-popmart-molly-transition
+- case-popmart-prospectus-pricing
 created_at: '2026-09-02'
 updated_at: '2026-09-02'
 quality_labels:

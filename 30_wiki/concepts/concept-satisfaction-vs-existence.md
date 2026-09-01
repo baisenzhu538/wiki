@@ -27,6 +27,8 @@ related:
 - tool-popmart-narrow-and-deep
 - case-popmart-brand-sensory-wrap
 - concept-addiction-threshold
+- case-popmart-molly-transition
+- tool-blind-box-mechanism
 created_at: '2026-09-02'
 updated_at: '2026-09-02'
 quality_labels:

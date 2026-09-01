@@ -28,6 +28,8 @@ related:
 - concept-satisfaction-vs-existence
 - tool-popmart-narrow-and-deep
 - case-popmart-prospectus-pricing
+- case-popmart-molly-transition
+- tool-blind-box-mechanism
 created_at: '2026-09-02'
 updated_at: '2026-09-02'
 quality_labels:

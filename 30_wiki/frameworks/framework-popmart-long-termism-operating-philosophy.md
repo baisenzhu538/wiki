@@ -30,6 +30,7 @@ related:
 - case-popmart-brand-sensory-wrap
 - tool-blind-box-mechanism
 - case-popmart-prospectus-pricing
+- case-popmart-molly-transition
 created_at: '2026-09-02'
 updated_at: '2026-09-02'
 quality_labels:

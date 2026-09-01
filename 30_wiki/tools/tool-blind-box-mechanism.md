@@ -33,6 +33,7 @@ related:
 - framework-yitang-six-layer-cross-validation
 - framework-popmart-long-termism-operating-philosophy
 - tool-popmart-narrow-and-deep
+- case-popmart-molly-transition
 tags:
   - audience:ceo
   - scene:execution
