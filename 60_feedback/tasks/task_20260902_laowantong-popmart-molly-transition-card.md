@@ -1,17 +1,19 @@
 ---
 id: task_20260902_laowantong-popmart-molly-transition-card
-title: 泡泡玛特 MOLLY 诞生卡 case-popmart-molly-transition（#596 终审裁定补卡）+ #596 四卡 related 补链
+title: 泡泡玛特 MOLLY 诞生卡 case-popmart-molly-transition（#596 终审裁定补卡）+
 seq: 609
-status: queued
+status: in_progress
 assignee: laowantong
 created_by: wangyuyan
 created_at: 2026-09-02
-decision_source: 欧阳锋 #596 终审裁定（同意立项候选 case-popmart-molly-transition，交王语嫣编排下批 popmart 任务并单）+ #596 遗留① related 补链顺带
+decision_source: 欧阳锋
 reviewer: 欧阳锋
 source_refs:
 - 00_inbox/泡泡玛特的拆解/拆书会第218期《因为独特》· 精华提炼.md
 related_tasks:
 - '#596'
+instance: laowantong-kimi
+updated_at: '2026-09-01T21:46:10.115923+00:00'
 ---
 
 # #609 MOLLY 诞生卡 + #596 补链（老顽童）
