@@ -42,3 +42,5 @@ kdo-tools/.feishu_webhooks.json
 
 # #588 skills registry 扫描时间戳（生成物）
 40_outputs/capabilities/skills/.registry-last-scan
+# P0 凭据隔离区（#600，2026-09-02）——凭据一律不入 git
+90_control/.sandbox/quarantine-*/
