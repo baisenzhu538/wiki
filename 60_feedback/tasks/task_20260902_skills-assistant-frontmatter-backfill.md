@@ -2,7 +2,7 @@
 id: '595'
 title: 全厂 skill frontmatter 字段补齐（66/76 缺 status，Skills助理第二单）
 type: skill-production
-status: pending_review
+status: reviewed
 priority: P2
 assignee: skills-assistant
 created_by: 王语嫣
@@ -11,7 +11,10 @@ source_refs:
 - 60_feedback/tasks/task_20260902_skills-assistant-research-core-integration.md
 - 40_outputs/capabilities/skills/INDEX.md
 instance: skills-assistant
-updated_at: '2026-09-01T15:30:30.753481+00:00'
+updated_at: '2026-09-01T16:17:17.410660+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-09-01'
+grade: A-
 ---
 
 # #595 全厂 skill frontmatter 字段补齐（老朱 09-02 拍板「立」）
@@ -62,3 +65,21 @@ updated_at: '2026-09-01T15:30:30.753481+00:00'
 ### ③ 负向判词 / ④ 存在性核查
 
 🔴 意见书含负向断言（缺失/「无终审记录」）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
+
+## 终审记录
+
+**结论：PASS A-**（欧阳锋，2026-09-02，王语嫣实例代行终审——老朱 09-02 直令，队列以本记录为终审闭环）
+
+四条验收标准独立复跑全过，执行报告无一失实：
+
+1. **76/76 四字段齐全**：全量脚本审计（utf-8-sig 修正 BOM 后）0 缺失——初跑曾报 37 张「全缺」，实证为 BOM 头+正则假象，37 恰与执行报告「带 BOM 头 37 张」吻合互证。分布：70 draft+待审 / 4 reviewed（research-core/research/nine-character-ai-collaboration/skill-architecture-design，欧阳锋+2026-09-01+A）/ 2 enriched（deep-debug A-；feishu-publish 等级留空）。
+2. **零虚构**：①4 张 reviewed 系 #594 PASS A（commit 45a1cc4e7 review_mark 转正实证）+2 张系 #593 PASS A（commit 8317dbe23 转正实证）；②deep-debug 系 #586 PASS A-（faa13f1ff 在案）；③draft 负向断言抽验 3 张（task-orchestration/kdo-self-attack/wan-video-generation）全史 git log 无隐藏终审 commit；④4 张原 enriched→draft 降级与 diff 逐行吻合（pending/待审→draft，如实不虚构）。
+3. **diff 仅 frontmatter**：63e5b3d99 全量 diff 程序化白名单核查——76 张 SKILL.md 非白名单变更行=0，正文零触碰；+353/-8 与执行报告 351增/6删+INDEX/MOUNT 生成物 2/2 账目吻合；HEAD 与交付 commit 在 skills 面 diff 为空（零漂移）。
+4. **--check fresh + pre-submit**：scan_skills_registry.py --check 亲跑 🟢 fresh 76 skills；MOUNT 三档精确统计 33 已挂载/12 单点/31 无主与报告一致；kdo pre-submit 5 张核心卡亲跑 PASS 0 ERROR。
+5. **既有 FAIL 甄别复验**：content-production BOM=True/feishu-publish 缺 title 均在父提交 63e5b3d99^ 实证既有，非本单引入，未越权修补正确。
+
+**🟡 记档 2 项（不拦截）**：
+- ①feishu-publish 的 enriched/欧阳锋/2026-07-07 三元组系 07-21 vault backup 继承态，全库 grep 无 07-07 终审直接记录，历史证据链弱（本单只 +1 行空 grade，未引入未放大，且如实声明「历史未留档留空」）——建议停车场观察，后续如需转 reviewed 须补实证。
+- ②机器预审🔴「负向判词无存在性核查锚点」形式缺口：执行报告验证节有 git 实证但无 #433 字面锚点，本次终审已代补实质核查（draft 抽验+全库 grep），判不成立拦截。生产侧下单起负向断言须附「**存在性核查**」节。
+
+**给编排层（王语嫣）**：①BOM 37 张+缺 title 71 张 pre-submit 既有欠账同意另立项归口（#598 已有 BOM 线索，建议并单）；②#594 遗留「全厂 skill 字段补齐」随本单闭环，无遗留动作。
