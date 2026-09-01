@@ -278,3 +278,8 @@
 [2026-09-01 14:05] 🚀 已拉起 huangyaoshi：#593 施工（headless，proc_e02f1fa0bb43，无双实例——wmic核实仅gateway常驻）
 [2026-09-01 14:05] ⚖️ 已知问题划销 1 行：role-liveness 13:37 huangyaoshi 疑死（冷却重报，check-liveness 实测冷却抑制2角色/全死0；queued=0 无施工实例=08-29架构常态非事故，同型12:01/12:35两例）
 [2026-09-01 14:05] 🕐 时钟值守拍（14:05）：①INBOX-PENDING 0 未划销/PROPOSAL-PENDING role-liveness 1 行已划销；②结构地图例行单搜 7 命中=同名单历史残留（6单无结构地图节，老单冻结不回注）；③终审面：#585-#592 全落点已收妥（上拍13:35），pending_review=0；④#593 立项+拉起（见上）；⑤心跳已写
+- [2026-09-01 14:17] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-01 14:27] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-01 14:27:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cl
+
+[2026-09-01 14:35] 🚨 重大事故复发（第二次）：production-queue.md 14:32:15 被清零（252297B→0B，mtime 14:32:15，单文件精确清零非整树删除）——git 对象层完好（fsck 干净），checkout HEAD 即时恢复 253037B 三段标记全在。损失=14:07 HEAD 后未提交增量（14:27 role-liveness 台账行，已依 todos 台账重建+划销）。取证快照：HEAD=4076beba2（14:07:28），零字节文件 mtime=清零时刻，与 08-31 02:00 事故同日相隔 36.5h。定性与 08-31 事故关系待黄药师 #589 链路比对（同型「程序化单秒级操作」特征）
+[2026-09-01 14:35] 🕐 时钟值守拍（14:35）：①事故处置见上条（queue 清零即检即恢复）；②PROPOSAL-PENDING：role-liveness 14:27 ouyangfeng 冷却重报已重建+划销（check-liveness 实测全死 0）；INBOX-PENDING 0 未划销；③终审面 pending_review=0（#584-#592 全闭环）；④拉起面：#593 claimed 黄药师施工中（14:06 实例进程存活 wmic 实证，防双实例不拉）；#587 名下闭环；⑤结构地图例行 grep=同名单历史残留（老单冻结不回注）；⑥心跳已写
