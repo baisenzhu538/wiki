@@ -327,3 +327,7 @@
 
 - [2026-09-02 01:55] ✅ 三单连审终审闭环（欧阳锋 CLI 实例，按队列序）：#598 PASS A-（task_20260902_huangyaoshi-bom-cleanup-health-radar——BOM清零129亲跑/37/37字节级断言/8维口径对建议书§三逐维吻合/SKILL-HEALTH 76档🟢3🟡5🔴68/--check fresh；🟡记档 INDEX/MOUNT 时间戳幂等漂移）；#600 PASS A（task_20260902_huangyaoshi-credential-exposure-cleanup，P0——原位三件exists全False/隔离区三件字节数吻合/git ls-files 0行/gitignore L46封口check-ignore命中/历史含凭据fabdc3072+d2d1210f8实证/任务单零凭据内容；残余=git历史明文待老朱三项轮换）；#602 PASS A-（task_20260902_wangyuyan-uncommitted-changes-ledger——三批commit 1692bae6b/adb640f85/9b4044061在账/批次1全量37/37字节断言/残余脏面7项全为落账后在途活动；🟡批次1裹入scan脚本+143行未在message声明）。三单意见书均落任务单「## 终审记录」节，脚本自动收口三处同步
 - [2026-09-02 01:57] 🔔 KDO 新提审 1 单：#601，请终审（新提审）
+- [2026-09-02 02:02] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#601（huangyaoshi 的单，挂审 7min）（事件驱动：有待终审）
+- [2026-09-02 02:12] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#601（huangyaoshi 的单，挂审 17min）（事件驱动：有待终审）
+- [2026-09-02 02:22] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#601（huangyaoshi 的单，挂审 27min）（事件驱动：有待终审）
+- [2026-09-02 02:48] ✅ #601 终审 PASS A-（task_20260902_huangyaoshi-wechat-promote-dedup-fix，黄药师单）：版本对齐 6923b058a/e02798f81 在仓+HEAD 更晚；去重键全历史 glob 根治亲读+旧码对照实证带病；红绿逻辑自洽（_FakeDate 跨天断言）；wechat 11/11+全量 227+2f 逐字吻合亲跑；163=20 保留+143 隔离双向清点+md5 全库 16 唯一实测+同 hash 组零内容差；2 组卡引用未断链+inbox/30_wiki 零触碰亲证；dry-run 亲跑 17 全 skip 零新增+index 4171 幂等；🟡3 项口径笔误（plan 头"唯一17"实为16/plan 位置/台账 14vs15）不阻断；review_date 脚本时区偏差已补正 a329b7ae7；通过已抄送王语嫣收件箱；意见书落任务单终审记录节

@@ -386,3 +386,4 @@
 - [2026-09-02 02:36] ⚖️ 裁定 欧阳锋三决策点（diag_20260902_ouyangfeng-pending-decisions）：点1 .obsidian 跟踪=已闭环（f4cd8efdd 全撤+baseline 配色快照存证）；点2 147删除授权=不授权上行挂起（#601 隔离区观察期至 09-09，到期提请老朱）；点3 backup 停摆=立项 #607（空窗属实已核验，排队不插队）
 - [2026-09-02 02:40] ⚖️ near-miss 双捞处置+漏项补立：fengqingyang 散点审计（R1-R7 已全路由 #600-#605，status 代正 orchestrated）+ huangyaoshi 三症联诊（动作1/2/4/5 已路由，动作6 baseline 快照兜底，动作3 image_detail 死循环=#601 漏项补立 #608）；两建议书 status 违例已代正
 - [2026-09-02 02:45] 📋 #596 遗留③并单落地：MOLLY 诞生卡立项 #609（case-popmart-molly-transition + #596 四卡 related 补链顺带，#606 后排队）——#596 遗留①③闭环，②全网调研补验挂 #609 条件项（检索通道恢复后）
+- [2026-09-02 02:48] ✅ 终审通过抄送（欧阳锋→王语嫣）：#601 PASS A-（wechat_promote 去重根治+143 隔离+seen 归一化，流转 ffdc48fcc）——意见书落任务单终审记录节 60_feedback/tasks/task_20260902_huangyaoshi-wechat-promote-dedup-fix.md；隔离区观察至 09-09（你 02:36 裁定口径内），遗留 3 项 🟡 口径笔误详见终审记录
