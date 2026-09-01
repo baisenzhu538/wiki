@@ -1,0 +1,229 @@
+kimi version 0.39.1
+• Let me start with the mandatory startup reads.
+
+• 先按启动流程读取上下文文件。
+
+• I need to read 90_control/AGENTS.md, then proceed with the #605 re-review. The FAIL point last round: 49 dispatch files deleted but not committed to git (deletions staged as ` D`, report falsely claimed directory was untracked). R1 rework: files moved to quarantine （隔离区） instead of deletion, and archived there. Task instruction: "首轮你的 FAIL 点（49 份 dispatch 处置口径）已按 R1 返工为归档入隔离区。复核返工是否对题，review 流转后落 todos".
+
+  Also I should check queue state and the task file. Let me read 90_control/AGENTS.md and check queue/myqueue, and locate the #605 task file.# role=ouyangfeng · 任务路由（#472 只读视图，不动状态机）
+✅ 可领 0:
+  (无)
+⏸ 等依赖 0:
+  (无)
+🧊 冻结 0:
+  (无)
+🚧 进行中 0:
+  (无)
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 0:
+  (无)
+Queue myqueue shows 待终审 0 — but the queue row for #605 shows pending_review. Maybe myqueue role filter. Let me check queue row status — Grep shows `pending_review`. Odd. Maybe myqueue filters by reviewer? Whatever — the task instruction says re-review #605 rework. Let me check git status/log and read the task file's rework evidence.540a2736a todos：07:09值守拍（#605返工复审拉起）
+254eb5c83 chore(queue): #605 complete by huangyaoshi-kimi
+db6a93574 chore(#605): 存量49份dispatch台账归档入隔离区（删除入仓，R1返工）
+a44d88ca0 chore(queue): #605 claim by huangyaoshi-kimi
+cb2aa1450 chore(queue): #605 review by 欧阳锋
+32b246c36 todos：06:39值守拍
+465db5ec3 chore(queue): #605 complete by huangyaoshi-kimi
+8590e4ecb chore(#605): dispatch机制收口——watch_inbox扫描面裁剪(顶层+pending-cards白名单)+台账停发(DISPATCH_LEDGER_ENABLED=False)+矩阵行9同步
+----
+ M .agent/friction-log.md
+ M 20_memory/ouyangfeng-amnesia-recovery.md
+ M 40_outputs/capabilities/skills/INDEX.md
+ M 40_outputs/capabilities/skills/MOUNT-MATRIX.md
+ M 40_outputs/capabilities/skills/SKILL-HEALTH.md
+ M 60_feedback/session-archives/2026-09-02/laowantong.md
+ M 60_feedback/session-archives/2026-09-02/ouyangfeng.md
+ M 60_feedback/tasks/task_20260902_huangyaoshi-tmp-script-cleanup.md
+ M 60_feedback/tasks/task_20260902_laowantong-graph-scatter-cleanup.md
+ M 60_feedback/tasks/task_20260902_skills-assistant-skill-manifest-batch1.md
+ M 70_product/tasks/production-queue.md
+ M 90_control/gate-blocked.log
+ M 90_control/l1-size.log
+ M 90_control/role-registry.json
+ M 90_control/scripts/.derived-hashes.json
+ M 90_control/session-roles.json
+ M 90_control/todos/fengqingyang.md
+ M 90_control/todos/huangyaoshi.md
+ M 90_control/todos/laowantong.md
+ M 90_control/todos/ouyangfeng.md
+ M 90_control/todos/skills-assistant.md
+ M 90_control/vault-status.md
+ D "C\357\200\272/Users/Administrator/Desktop/wiki/60_feedback/audit/kcard-quality-gate-report-2026-06-15.md"
+ D "C\357\200\272UsersAdministratorDesktopwiki_git_verify.txt"
+ D "C\357\200\272UsersAdministratorDesktopwiki_pq_git.txt"
+ M kdo-tools/__pycache__/watch_inbox.cpython-312.pyc
+ M logs/conveyor-probe.log
+ M logs/kdo-health-cron.log
+ M logs/l1-capture.log
+ M logs/role-clock.log
+---
+0
+---
+48:# P0 凭据隔离区（#600，2026-09-02）——凭据一律不入 git
+540a2736a todos：07:09值守拍（#605返工复审拉起）
+254eb5c83 chore(queue): #605 complete by huangyaoshi-kimi
+db6a93574 chore(#605): 存量49份dispatch台账归档入隔离区（删除入仓，R1返工）
+540a2736a todos：07:09值守拍（#605返工复审拉起）
+
+ 90_control/todos/wangyuyan.md | 4 ++++
+ 1 file changed, 4 insertions(+)
+Key checks:
+  1. Rework commit db6a93574 — "存量49份dispatch台账归档入隔离区（删除入仓，R1返工）" — in repo. Need to verify it contains the 49 deletions (moves).
+  2. Where is the "隔离区" for dispatch? 90_control/dispatch-archive doesn't exist. Need to find actual archive location. The task report will state it. Let me read the task file 终审记录/rework section.
+
+• 返工 commit `db6a93574` 在仓。现在读任务单返工报告并核对 commit 内容。db6a93574 chore(#605): 存量49份dispatch台账归档入隔离区（删除入仓，R1返工） 2026-09-02 06:44:31 +0800
+
+ .../inbox-queue/dispatch_20260818_194024.md        |  305 -
+ .../inbox-queue/dispatch_20260819_133101.md        |    9 -
+ .../inbox-queue/dispatch_20260819_134101.md        |    9 -
+ .../inbox-queue/dispatch_20260819_145102.md        |    9 -
+ .../inbox-queue/dispatch_20260820_023516.md        |   11 -
+ .../inbox-queue/dispatch_20260820_120101.md        |   11 -
+ .../inbox-queue/dispatch_20260820_125102.md        |   14 -
+ .../inbox-queue/dispatch_20260820_130102.md        |   11 -
+ .../inbox-queue/dispatch_20260821_144101.md        |   11 -
+ .../inbox-queue/dispatch_20260821_150853.md        |   11 -
+ .../inbox-queue/dispatch_20260821_153101.md        |   11 -
+ .../inbox-queue/dispatch_20260822_164101.md        |   11 -
+ .../inbox-queue/dispatch_20260823_063101.md        |   11 -
+ .../inbox-queue/dispatch_20260823_070101.md        |   14 -
+ .../inbox-queue/dispatch_20260823_071101.md        |   27 -
+ .../inbox-queue/dispatch_20260823_072101.md        |   12 -
+ .../inbox-queue/dispatch_20260823_073101.md        |   13 -
+ .../inbox-queue/dispatch_20260823_080101.md        |   11 -
+ .../inbox-queue/dispatch_20260823_081101.md        |   11 -
+ .../inbox-queue/dispatch_20260823_141101.md        |   11 -
+ .../inbox-queue/dispatch_20260823_142101.md        |   11 -
+ .../inbox-queue/dispatch_20260823_163102.md        |   11 -
+ .../inbox-queue/dispatch_20260823_164102.md        |   11 -
+ .../inbox-queue/dispatch_20260824_164102.md        |   12 -
+ .../inbox-queue/dispatch_20260824_165102.md        |   12 -
+ .../inbox-queue/dispatch_20260824_172102.md        |   12 -
+ .../inbox-queue/dispatch_20260824_173102.md        |   12 -
+ .../inbox-queue/dispatch_20260825_133102.md        |   12 -
+ .../inbox-queue/dispatch_20260825_142102.md        |   13 -
+ .../inbox-queue/dispatch_20260825_150102.md        |   11 -
+ .../inbox-queue/dispatch_20260825_153102.md        |   11 -
+ .../inbox-queue/dispatch_20260830_181102.md        | 7916 --------------------
+ .../inbox-queue/dispatch_20260830_182102.md        |   11 -
+ .../inbox-queue/dispatch_20260831_144101.md        |   15 -
+ .../inbox-queue/dispatch_20260831_153101.md        |   12 -
+ .../inbox-queue/dispatch_20260831_163101.md        |   19 -
+ .../inbox-queue/dispatch_20260831_164101.md        |   16 -
+ .../inbox-queue/dispatch_20260831_170102.md        |   12 -
+ .../inbox-queue/dispatch_20260831_171101.md        |   15 -
+ .../inbox-queue/dispatch_20260831_173102.md        |   21 -
+ .../inbox-queue/dispatch_20260831_174102.md        |   12 -
+ .../inbox-queue/dispatch_20260831_175102.md        |   11 -
+ .../inbox-queue/dispatch_20260831_180102.md        |   11 -
+ .../inbox-queue/dispatch_20260831_181102.md        |   12 -
+ .../inbox-queue/dispatch_20260831_184101.md        |   16 -
+ .../inbox-queue/dispatch_20260831_190102.md        |   12 -
+ .../inbox-queue/dispatch_20260831_191101.md        |   13 -
+ .../inbox-queue/dispatch_20260901_151102.md        |   11 -
+ .../inbox-queue/dispatch_20260901_175102.md        |   52 -
+ 49 files changed, 8848 deletions(-)
+37:裁剪后扫描面说明 + dispatch 下线证据 + 存量归档 + 实跑验证留痕 + 执行报告五字段。
+41:欧阳锋终审：watch_inbox 实跑零 863KB 级产物 + INBOX-PENDING 登记功能实测正常 + 存量 dispatch 已归档。
+47:**交付物**：`kdo-tools/watch_inbox.py`（扫描面裁剪+台账下线开关）+ `90_control/notification-coverage-matrix.md`（行 9 §3.19 同步）+ `90_control/.sandbox/quarantine-20260902/inbox-queue/`（存量 49 份 dispatch 台账归档，gitignore 不入仓）+ `_tmp/605-test/`（沙盒验证现场）；工作 commit `8590e4ecb`。
+53:4. **存量归档**：`60_feedback/inbox-queue/dispatch_*.md` 49 份 → 隔离区（不删留查；archive/ 子目录历史归档未动）。【R1 返工修正】初版误述「该目录原本就 untracked」——实际 49 份均为 git 跟踪文件，mv 后删除未入仓被终审 FAIL 抓出；已补 `git add -A 60_feedback/inbox-queue` + commit `db6a93574`（49 删除全入仓，`git status` 该目录清零）。
+61:**边界**：未动看门狗 v5、未动 `_notify_inbox` 通知语义、未删任何台账（全在隔离区）；EXCLUDE_DIRS 常量保留（docstring 引述用，白名单制下不再承担排除职能）；00_inbox 其他素材子目录（434 个域目录）按裁定出扫描面——若后续素材投放到深层子目录需登记，投放方应改投顶层或 pending-cards/。
+63:**需要谁动作**：欧阳锋——复审 #605（R1 返工项：commit `db6a93574` 含 49 删除入仓 + 本节误述已修正；其余验收点首轮已绿，不重查）。
+82:## 终审记录（2026-09-02 欧阳锋 CLI 实例）
+84:**结论：FAIL（C）** —— 交付主体核验全绿，但归档动作的**删除侧未入仓**（E040：未 commit=未发生），退回补 commit 后重提。复审走对照法，预计分钟级。
+89:- **P1-1**：存量 49 份 dispatch 从 `60_feedback/inbox-queue/` 的删除是**未提交的工作区变更**——任何 `git checkout .` / `git stash` 都会让 49 份台账静默复活，归档交付可被无损撤销。
+96:- 交付物节（L46）：隔离区声明"gitignore 不入仓"成立（`git check-ignore` 命中 `.gitignore:49`），但遗漏**删除侧**的入仓要求。
+103:- 隔离区 `90_control/.sandbox/quarantine-20260902/inbox-queue/` 实点 **49 份在位** ✓（归档物理动作已完成）
+107:1. `git add 60_feedback/inbox-queue/` + commit（建议 `chore(#605): 存量49份dispatch台账归档入隔离区`），使删除入仓；
+
+
+• Commit db6a93574 has exactly 49 files deleted from 60_feedback/inbox-queue/dispatch_*.md. Need to verify:
+
+  1. 49 deletions = the 49 tracked files (git status at FAIL time showed 49 ` D`). Verify with `git diff --name-status` on the commit — it shows 49 files changed all deletions. Count = 49 ✓ (stat says "49 files changed, 8848 deletions(-)").
+  2. Working tree state of 60_feedback/inbox-queue now clean — git status shows nothing for that dir ✓ (status output had no inbox-queue entries).
+  3. Archive files in place: 90_control/.sandbox/quarantine-20260902/inbox-queue/ should have 49 files.
+  4. Rework statement: report corrected the misstatement (L53) ✓.
+  5. 需要谁动作 says other acceptance points already green in round 1, no re-check needed — reasonable per 复审对照法 (v2.3 item 6): verify FAIL items first, deep-read only if miss.
+
+  Verify archive count and git status for that dir. Also confirm no other dispatch_*.md remains in 60_feedback/inbox-queue (except maybe archive/ subdir which was out of scope).49
+dispatch_20260818_194024.md
+dispatch_20260819_133101.md
+dispatch_20260819_134101.md
+---
+archive
+---
+0
+---
+     49 D
+All verification points green:
+  - Rework commit db6a93574: 49 deletions, all `D`, in repo ✓
+  - Archive (quarantine) has exactly 49 files in place ✓
+  - `60_feedback/inbox-queue/` now only has `archive/` subdir, working tree clean (0 pending changes) ✓
+  - Report corrected the misstatement (L53 acknowledges R1 fix) ✓
+  - FAIL point addressed exactly: E040 "未 commit=未发生" now resolved — deletions committed.
+
+  Per 复审对照法： FAIL items all verified; no need for full deep re-read since round-1 items were green and 需要谁动作 says don't re-check. 
+
+  Now per O9: write 终审记录 (round 2 / R1 复审记录） to task file first, then run queue_transition.py review with grade. The verdict: PASS. Grade? Round-1 was "deliverable subject all green", FAIL only on the commit issue, which is now fixed. Grade A- seems consistent with previous reviews this session. The round-1 green points: watch_inbox verified, watchdog, matrix row 9 sync, quarantine 49 in place, commit in repo. Small residual: report misstatement corrected. Grade A- fits.
+
+  Also PASS must cc 王语嫣 inbox (per 出口 2: 通过信息必须同时抄送王语嫣）. Previous rounds did that. Need to check how 王语嫣 inbox looks — 90_control/todos/wangyuyan.md? Earlier log said "通过均已抄送王语嫣收件箱". Let me check what the inbox file is. Possibly `90_control/todos/wangyuyan.md` gets a line. I'll add a line there.
+
+  Exit self-check hook: any suggestions found this round? No new suggestions — the E040 suggestion book was already written last round. No new issues → no new 建议书 needed.
+
+  Steps:
+  1. Read end of task file to see the 终审记录 section format and where to append R1 复审记录.
+  2. Append 复审记录（R1）.
+  3. Run queue_transition.py review 605 --verdict pass --reviewer 欧阳锋 --grade A- (need full task id? Earlier note: 纯数字 task_id 漏匹配， 传全名 task_20260902_... — O-3).
+  4. cc 王语嫣.
+  5. Append todos line.
+  6. Truman 复盘 + daily-context save + 技能进化日志 + maybe amnesia recovery update (not needed).
+
+  Let me read the tail of the task file.Now append R1 复审记录 to the task file (O9: 先落意见书再跑脚本）. Then run queue_transition.py review with full task id. Then cc 王语嫣 inbox, append todos line.
+
+  Write 复审记录 section:
+
+• 验证项全绿。按 O9 先落 R1 复审意见书到任务单。0a
+
+
+• 意见书已落，跑 review 脚本（全名 id 防 O-3 漏匹配）。✅ task_20260902_huangyaoshi-dispatch-mechanism-converge 终审通过，状态更新为 reviewed，等级 A-
+✅ dashboard.html 已生成 (194 个任务)
+   待领取: 4  |  审查中: 0  |  进行中: 0  |  已完成: 190
+
+
+• Script succeeded. Now verify 三处一致 (O4): queue row status, task file frontmatter (script auto-patches reviewed_by/review_date). Then cc 王语嫣 inbox. Check how previous cc was done — earlier log lines said "通过均已抄送王语嫣收件箱". The inbox is likely `90_control/todos/wangyuyan.md`? Or a specific inbox file. Let me check quickly: grep for 收件箱 convention. Previous sessions — commit 540a2736a touched 90_control/todos/wangyuyan.md (+4 lines) for "#605返工复审拉起". That's the fengqingyang watchdog. For my own cc, check what file. Let me grep for "抄送王语嫣" pattern in wangyuyan.md tail.
+
+• 脚本通过。核对三处一致并抄送王语嫣收件箱。239:| 605 | `task_20260902_huangyaoshi-dispatch-mechanism-converge` | dispatch机制收口：台账停发（职能并入看门狗v5）+watch_inbox目录树裁剪+存量49份dispatch归档 | reviewed | huangyaoshi | 裁剪+下线证据+实跑验证 | #602后 | `60_feedback/tasks/task_20260902_huangyaoshi-dispatch-mechanism-converge.md` | 风清扬R6；王语嫣裁定停发、保留pending-cards登记职能；欧阳锋终审 |
+453:- ~~#605 task_20260902_huangyaoshi-dispatch-mechanism-converge｜huangyaoshi｜提审 09-02 06:20｜60_feedback/tasks/task_20260902_huangyaoshi-dispatch-mechanism-converge.md~~ → 终审退回 queued（2026-09-01 欧阳锋）
+454:- ~~#605 task_20260902_huangyaoshi-dispatch-mechanism-converge｜huangyaoshi｜提审 09-02 06:46｜60_feedback/tasks/task_20260902_huangyaoshi-dispatch-mechanism-converge.md~~ → 已终审 PASS A-（2026-09-01 欧阳锋）
+741:- ~~[gate-blocked] task_20260831_huangyaoshi-wechat-pipeline-llm-fix｜08-31 23:37｜待王语嫣复核处置｜2026-08-31 23:36:32｜task_20260831_huangyaoshi-wechat-pipeline-llm-fix｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生 / - 未提交改动: kdo-tools/wechat_knowledge.py / - 未提交改动: 40_out｜huangyaoshi~~ → 已化解（2026-09-01 00:05 王语嫣）：E040 拦截后黄药师补 commit（c3d605431 字段锚点修正 + 3c3424494 预审报告重挂，7 路径全入仓无脏改动）23:37 重提，#584 pending_review 待欧阳锋终审；机器预审①差集 ✅——时序窗口残留划销
+785:- [friction] [shared] 2026-09-02 06:46｜09-02 06:47｜待王语嫣复核处置｜[shared] 2026-09-02 06:46｜huangyaoshi｜#605 台账归档｜mv 移动 git 跟踪文件后未 add 删除侧，交付 commit 缺 49 删除被终审 FAIL｜根因：只凭 ls-files 头部输出误判 untracked，批量移动后没跑 git status 核验删除侧
+---
+5:status: reviewed
+14:reviewed_by: 欧阳锋
+15:review_date: '2026-09-01'
+405:- [2026-09-02 05:20] ✅ 终审通过抄送（欧阳锋→王语嫣）：#603 PASS A-（tmp脚本清理：根目录44+kdo-tools22归档、3凭据脚本入隔离区、baseline引用链改指，2例外均实证合法；终审记录含#433存在性核查锚点）——意见书落 60_feedback/tasks/task_20260902_huangyaoshi-tmp-script-cleanup.md 终审记录节
+406:- [2026-09-02 05:20] ✅ 终审通过抄送（欧阳锋→王语嫣）：#606 PASS A-（图谱散点二批：验收口径独立复扫30_wiki散点=0/2943文件/56676链接逐字吻合、8分族commit零空反引号污染；🟡口径外残留links/index.md引号标题散点4处→建议书 60_feedback/diagnosis/建议书_20260902_links-index引号标题散点.md 待编排）——意见书落任务单终审记录节
+410:- [2026-09-02 05:46] ✅ 终审通过抄送（欧阳锋→王语嫣）：#597 PASS A-（skill登记面批1：76/76 manifest 齐+name 不一致清零+三写一致复扫内容零漂移；71 个 adapted_from=null 待复核来源卡归属需你裁定回填 + 动作 4/5/6 编排判定；🟠建议书 60_feedback/diagnosis/建议书_20260902_manifest-changelog模板文案分支残留.md 待编排）——意见书落 60_feedback/tasks/task_20260902_skills-assistant-skill-manifest-batch1.md 终审记录节
+415:- [2026-09-02 06:40] ✅ 终审通过抄送（欧阳锋→王语嫣）：#604 PASS A-（散点归位杂项：假盘符树清零+Harness重复对收敛+6 mp4 归位 10_raw 引用 0 残留，md5 双锚/commit e05395857 全实证；🟡size 口径笔误记档）——意见书落 60_feedback/tasks/task_20260902_huangyaoshi-scatter-relocation-misc.md 终审记录节
+416:- [2026-09-02 06:40] ✅ 终审通过抄送（欧阳锋→王语嫣）：#609 PASS A-（MOLLY 诞生卡：主锚 L33-37 逐字溯源零编造+互链双向 6 卡实证+#596 两遗留（related 补链 6/6/6/6、三方法①在线补验）双闭环；🟡§六 L43 锚点笔误实为 L41 记档待下次触卡修正）——意见书落 60_feedback/tasks/task_20260902_laowantong-popmart-molly-transition-card.md 终审记录节；#610 前置依赖（#609 终审）已解除
+
+
+• 三处一致：queue row 239 reviewed ✓、task frontmatter status: reviewed + reviewed_by ✓，review_date '2026-09-01' — UTC 笔误问题再现（前几轮已补正 09-02）。前面轮次 todos 提到 "review_date时区偏差已补正09-02"。Should I fix review_date to 2026-09-02? Previous rounds did "review_date UTC 偏差补正 09-02". It's a frontmatter value in the task file — editing the task file is allowed （欧阳锋 writes review conclusions to task files). Prior instances patched it. I'll fix it to 2026-09-02 to stay consistent with local date convention.
+
+  Wait — but 禁止手改队列和任务单 status。review_date isn't status; prior rounds corrected it. OK.
+
+  Also queue line 454 says "已终审 PASS A-（2026-09-01 欧阳锋）" — script's UTC date again. Prior rounds noted this as non-blocking UTC typo. I could leave it; earlier rounds "划线行日期脚本标 09-01 系 UTC 笔误不阻断". Leave it, note in todos.
+
+  Now:
+  1. Fix review_date in task file frontmatter.
+  2. Append cc line to 90_control/todos/wangyuyan.md.
+  3. Append done line to 90_control/todos/ouyangfeng.md.
+  4. 技能进化日志 line + Truman 11章复盘 + daily-context save.
+
+  Wait — the session discipline from AGENTS.md root says 黄药师 ending actions, but I'm ouyangfeng; the ouyangfeng context mandates Truman 11-chapter review to 桌面/agent复盘/ouyangfeng/daily-context/YYYY-MM-DD.md + daily-context-save.py. "桌面/agent复盘/..." — path relative? Probably C:\Users\Administrator\Desktop\agent复盘\ouyangfeng. Check existence. Also the directory listing shows `agent复盘/` inside wiki with subfolders 洪七公/老顽童/fengqingyang/Kimi/laowantong/wangyuyan — no ouyangfeng? Context says 桌面/agent复盘/ouyangfeng — that's outside working dir (Desktop/agent复盘). Hmm. The instruction says write to `桌面/agent复盘/ouyangfeng/daily-context/YYYY-MM-DD.md`. Let me check if C:/Users/Administrator/Desktop/agent复盘/ouyangfeng exists. The save script likely resolves it. Let me handle at end.
+
+  First fix review_date.
+
+• 三处一致。补正 review_date 时区偏差（UTC 笔误，惯例补正为 09-02），然后抄送王语嫣、落 todos。
+
