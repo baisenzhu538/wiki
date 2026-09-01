@@ -449,6 +449,13 @@ def main():
 
         # 公众号文章：抓 HTML → 入库 → 知识化（不走视频管线）
         if "mp.weixin.qq.com" in url:
+            # #608（2026-09-02）：image_detail 图片分享页（t=pages/image_detail）非文章页，
+            # 永远抓不到正文——"失败不记 seen"导致每 10 分钟空转重试（08-31 起循环 ~29h 实证）。
+            # 识别即 mark_seen 跳过，不进解析重试。
+            if "pages/image_detail" in url:
+                print("  ⏭️ image_detail 图片分享页——无正文可抓，mark_seen 跳过（#608）")
+                mark_seen(url)
+                continue
             title, body = fetch_mp_article(url)
             if not body:
                 print("  ⚠️ 公众号抓取失败——不记录，下轮重试（与视频同语义：成功才记 seen）")
