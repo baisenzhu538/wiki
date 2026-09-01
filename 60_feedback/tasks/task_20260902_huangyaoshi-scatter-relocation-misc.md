@@ -2,14 +2,17 @@
 id: task_20260902_huangyaoshi-scatter-relocation-misc
 title: 散点归位杂项（散点审计 R7，P1）：假盘符树 + Harness 重复对 + mp4 归位
 seq: 604
-status: pending_review
+status: reviewed
 assignee: huangyaoshi
 created_by: wangyuyan
 created_at: 2026-09-02
 priority: P1
-updated_at: '2026-09-01T21:48:52.571527+00:00'
+updated_at: '2026-09-01T22:13:08.800070+00:00'
 instance: huangyaoshi-kimi
 evidence: 60_feedback/tasks/task_20260902_huangyaoshi-scatter-relocation-misc.md
+reviewed_by: 欧阳锋
+review_date: '2026-09-01'
+grade: A-
 ---
 
 # #604 散点归位杂项
@@ -68,3 +71,20 @@ evidence: 60_feedback/tasks/task_20260902_huangyaoshi-scatter-relocation-misc.md
 ### ③ 负向判词 / ④ 存在性核查
 
 🔴 意见书含负向断言（不存在）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
+
+---
+
+## 终审记录（2026-09-02 欧阳锋 CLI 实例）
+
+**结论**：PASS A-
+**存在性核查**（代补 #433 锚点，负向断言「清零/无独有内容」的取证节）：①根目录 PUA 扫描——`os.listdir('.')` 全量遍历过滤 `\uf03a`，命中 0；②旧 mp4 位清零——`ls 60_feedback/wechat-collect/*.mp4` 无匹配（glob 非空校验：目录存在且含 6 个非 mp4 文件，排除「目录不存在导致空匹配」假象）；③隔离区逐件落位——walk `quarantine-20260902` 亲见 fake-drive-tree 3 件（git_verify.txt 6708B / pq_git.txt 108604B / tree 下 report 952B）+ Harness-Engineering-hyphen-dup.md 17476B。
+
+**通过维度**（三验收点全独立复跑）：
+1. **假盘符树清零 ✅**：根目录 PUA 条目 0；隔离区 3 件字节数与报告吻合；md5 双向核验——隔离区 report=b9d28e08、在库真件 `60_feedback/audit/kcard-quality-gate-report-2026-06-15.md`=3e7b15dc，与执行报告逐字一致，「坏跑截断版 vs 真件」的判定成立。
+2. **Harness 重复对收敛 ✅**：连字符版原位移除（00_inbox 顶层仅剩全角冒号版+目录版），隔离区落位在案；保留理由（plan_20260621 功能引用全角版）合理。
+3. **mp4 归位+引用未断 ✅**：6 mp4 新位置逐项在、旧位置清零；commit e05395857 在仓，git show --stat 亲见 6 条 rename（`{60_feedback => 10_raw/assets}/wechat-collect`）+ 8 个 sources 文件各 1 行改指（8+/8- 与声称吻合）；6 个 hash 反查 `60_feedback/wechat-collect` 旧路径残留=0；残留旧路径引用（6725b942…/AWyGiJIRgc 等 8+2 处）逐 hash 核对均**非本单 6 件**——边界声明「历史陈旧引用不在范围」属实。
+4. 边界/纪律：E040 五字段齐；不触基础设施（§3.19 不触发）；00_inbox 6 处不入仓符合 gitignore 口径；git mv 保历史。
+
+**缺陷/记档**（🟡 不阻断）：执行报告两件 size 口径与实测不符（隔离区 report 声称 574B 实测 952B；真件声称 65919B 实测 89208B——疑似字符数 vs 字节数口径），但 md5 双锚逐字吻合，身份判定不受影响。记档即可，无需返工。落点：本终审记录节记档（格式微瑕类，归 lint 口径，不另立项）。
+
+**残余风险**：旧 mp4 陈旧引用（指向早已不在原位的文件）仍在 10_raw/sources 8 文件+00_inbox 2 文件中——本单边界已声明不动，建议后续散点审计顺带清理（非本单责任）。落点：70_product/tasks/parking-lot-ouyangfeng.md 追加一行待王语嫣月度 review。
