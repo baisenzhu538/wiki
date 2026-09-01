@@ -110,10 +110,10 @@ review_date: 2026-08-19
 
 ## 调用卡片
 
-- **直接来源**：[[framework-yitang-beautiful-work-standard]] — 漂亮工作的品质标准框架：第一眼惊艳、使用中顺畅、用完后回味。
-- **审美雷达**：[[tool-yitang-aesthetic-radar-modeling]] — 如果用户提供了审美雷达报告，可直接作为差距分析的输入。
-- **场景走查**：[[tool-yitang-scenario-walkthrough]] — 漂亮版本愿景中的体验细节可联动场景走查做逐帧验证。
-- **迭代框架**：[[framework-yitang-product-iteration-loop]] — 升级路径应纳入迭代节奏，而非一次性大改版。
+- **直接来源**：framework-yitang-beautiful-work-standard — 漂亮工作的品质标准框架：第一眼惊艳、使用中顺畅、用完后回味。
+- **审美雷达**：[[tool-agent-spec-yitang-aesthetic-radar-modeling]] — 如果用户提供了审美雷达报告，可直接作为差距分析的输入。
+- **场景走查**：[[tool-agent-spec-yitang-scenario-walkthrough]] — 漂亮版本愿景中的体验细节可联动场景走查做逐帧验证。
+- **迭代框架**：[[yt-product-kernel-iteration]] — 升级路径应纳入迭代节奏，而非一次性大改版。
 
 ## 边界风险
 
@@ -241,7 +241,7 @@ review_date: 2026-08-19
 
 ## Synthesis
 
-- 本 Agent 是 [[framework-yitang-product-iteration-loop]] 中「品质审查」和「版本规划」的衔接器。
-- 与 [[framework-yitang-beautiful-work-standard]] 的关系：本 Agent 是该标准的可运行愿景描绘器。
-- 与 [[tool-yitang-aesthetic-radar-modeling]] 的关系：审美雷达诊断当前短板 → 漂亮工作想象描绘升级愿景。
-- 与 [[tool-yitang-scenario-walkthrough]] 的关系：愿景中的体验细节可联动场景走查做逐帧验证。
+- 本 Agent 是 [[yt-product-kernel-iteration]] 中「品质审查」和「版本规划」的衔接器。
+- 与 framework-yitang-beautiful-work-standard 的关系：本 Agent 是该标准的可运行愿景描绘器。
+- 与 [[tool-agent-spec-yitang-aesthetic-radar-modeling]] 的关系：审美雷达诊断当前短板 → 漂亮工作想象描绘升级愿景。
+- 与 [[tool-agent-spec-yitang-scenario-walkthrough]] 的关系：愿景中的体验细节可联动场景走查做逐帧验证。

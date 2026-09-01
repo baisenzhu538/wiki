@@ -109,11 +109,11 @@ review_date: 2026-08-19
 
 ## 调用卡片
 
-- **直接来源**：[[framework-yitang-card-dealing-strategy]] — 出牌策略框架：牌局分析 → 手牌评估 → 出牌矩阵 → 时序力度 → 对手预判。
+- **直接来源**：framework-yitang-card-dealing-strategy — 出牌策略框架：牌局分析 → 手牌评估 → 出牌矩阵 → 时序力度 → 对手预判。
 - **销售框架**：[[framework-yitang-scientific-sales-five-step]] — 出牌策略中的「卖点提炼」和「渠道选择」需联动销售五步法。
-- **漂亮工作**：[[tool-yitang-beautiful-work-imagination]] — 出牌前的产品包装和呈现品质可联动漂亮工作想象。
-- **场景走查**：[[tool-yitang-scenario-walkthrough]] — 出牌后的用户体验闭环可联动场景走查做验证。
-- **迭代框架**：[[framework-yitang-product-iteration-loop]] — 每轮出牌后的反馈应纳入迭代循环。
+- **漂亮工作**：[[tool-agent-spec-yitang-beautiful-work-imagination]] — 出牌前的产品包装和呈现品质可联动漂亮工作想象。
+- **场景走查**：[[tool-agent-spec-yitang-scenario-walkthrough]] — 出牌后的用户体验闭环可联动场景走查做验证。
+- **迭代框架**：[[yt-product-kernel-iteration]] — 每轮出牌后的反馈应纳入迭代循环。
 
 ## 边界风险
 
@@ -236,6 +236,6 @@ review_date: 2026-08-19
 ## Synthesis
 
 - 本 Agent 是 [[framework-yitang-scientific-sales-five-step]] 中「提炼卖点」和「渠道选择」的策略衔接器。
-- 与 [[framework-yitang-card-dealing-strategy]] 的关系：本 Agent 是该框架的可运行策略顾问。
-- 与 [[tool-yitang-beautiful-work-imagination]] 的关系：出牌前的产品包装和呈现品质联动漂亮工作想象。
-- 与 [[framework-yitang-product-iteration-loop]] 的关系：每轮出牌后的反馈应纳入迭代循环，持续优化手牌和策略。
+- 与 framework-yitang-card-dealing-strategy 的关系：本 Agent 是该框架的可运行策略顾问。
+- 与 [[tool-agent-spec-yitang-beautiful-work-imagination]] 的关系：出牌前的产品包装和呈现品质联动漂亮工作想象。
+- 与 [[yt-product-kernel-iteration]] 的关系：每轮出牌后的反馈应纳入迭代循环，持续优化手牌和策略。

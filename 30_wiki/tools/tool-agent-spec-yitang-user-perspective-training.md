@@ -107,11 +107,11 @@ review_date: 2026-08-19
 
 ## 调用卡片
 
-- **直接来源**：[[framework-yitang-user-perspective-training]] — 用户视角训练的五个层次：知道用户是谁 → 理解用户场景 → 感受用户情绪 → 预测用户行为 → 成为用户。
+- **直接来源**：framework-yitang-user-perspective-training — 用户视角训练的五个层次：知道用户是谁 → 理解用户场景 → 感受用户情绪 → 预测用户行为 → 成为用户。
 - **总体框架**：[[framework-yitang-scientific-sales-five-step]] — 科学销售五步法，用户视角训练贯穿「客户分层」「卖点提炼」步骤。
 - **客户分层**：[[tool-yitang-customer-segmentation-4step]] — 用户视角训练需先明确「你站在谁的视角」。
-- **场景走查**：[[tool-yitang-scenario-walkthrough]] — 用户视角训练后可进入场景走查做实战验证。
-- **迭代循环**：[[framework-yitang-product-iteration-loop]] — 用户视角是产品迭代的起点。
+- **场景走查**：[[tool-agent-spec-yitang-scenario-walkthrough]] — 用户视角训练后可进入场景走查做实战验证。
+- **迭代循环**：[[yt-product-kernel-iteration]] — 用户视角是产品迭代的起点。
 
 ## 边界风险
 
@@ -230,6 +230,6 @@ review_date: 2026-08-19
 ## Synthesis
 
 - 本 Agent 是 [[framework-yitang-scientific-sales-five-step]] 中「客户分层」和「卖点提炼」的前置能力训练。
-- 与 [[framework-yitang-user-perspective-training]] 的关系：本 Agent 是用户视角框架的可运行训练器。
-- 与 [[tool-yitang-scenario-walkthrough]] 的关系：用户视角训练是场景走查的前置训练，先切换视角再走查场景。
+- 与 framework-yitang-user-perspective-training 的关系：本 Agent 是用户视角框架的可运行训练器。
+- 与 [[tool-agent-spec-yitang-scenario-walkthrough]] 的关系：用户视角训练是场景走查的前置训练，先切换视角再走查场景。
 - 与 [[tool-yitang-customer-segmentation-4step]] 的关系：用户视角训练需要先明确「你站到哪个客户的视角」。

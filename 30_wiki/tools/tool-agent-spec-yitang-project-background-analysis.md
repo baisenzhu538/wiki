@@ -108,9 +108,9 @@ review_date: 2026-08-19
 
 ## 调用卡片
 
-- **直接来源**：[[framework-yitang-project-background-8d]] — 项目背景分析 8 维度框架：市场、竞争、技术、资源、组织、法律、财务、时间。
-- **方案三段论**：[[framework-yitang-project-planning-trinity]] — 背景目标是方案三段论的第一段，本 Agent 的输出可直接作为「背景」输入。
-- **能力迁移**：[[tool-yitang-ability-migration-diagnosis]] — 资源维度中的人力缺口可联动能力迁移诊断。
+- **直接来源**：framework-yitang-project-background-8d — 项目背景分析 8 维度框架：市场、竞争、技术、资源、组织、法律、财务、时间。
+- **方案三段论**：framework-yitang-project-planning-trinity — 背景目标是方案三段论的第一段，本 Agent 的输出可直接作为「背景」输入。
+- **能力迁移**：[[tool-agent-spec-yitang-ability-migration-diagnosis]] — 资源维度中的人力缺口可联动能力迁移诊断。
 - **销售框架**：[[framework-yitang-scientific-sales-five-step]] — 如果项目是销售体系搭建类，背景分析需联动销售五步法中的「市场分析」。
 
 ## 边界风险
@@ -235,7 +235,7 @@ review_date: 2026-08-19
 
 ## Synthesis
 
-- 本 Agent 是 [[framework-yitang-project-planning-trinity]] 中「背景」段的可运行分析器。
-- 与 [[framework-yitang-project-background-8d]] 的关系：本 Agent 的域知识直接来自该框架。
-- 与 [[tool-yitang-ability-migration-diagnosis]] 的关系：资源维度中的人力缺口可联动能力迁移诊断。
+- 本 Agent 是 framework-yitang-project-planning-trinity 中「背景」段的可运行分析器。
+- 与 framework-yitang-project-background-8d 的关系：本 Agent 的域知识直接来自该框架。
+- 与 [[tool-agent-spec-yitang-ability-migration-diagnosis]] 的关系：资源维度中的人力缺口可联动能力迁移诊断。
 - 背景分析输出可直接作为方案三段论中「背景」部分的输入材料。

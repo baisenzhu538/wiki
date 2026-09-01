@@ -110,10 +110,10 @@ review_date: 2026-08-19
 
 ## 调用卡片
 
-- **直接来源**：[[framework-yitang-aesthetic-radar]] — 审美雷达六维模型：视觉、交互、内容、情感、一致性、创新性。
-- **漂亮工作**：[[tool-yitang-beautiful-work-imagination]] — 审美雷达的升级方向可以联动漂亮工作想象做品质愿景描绘。
-- **场景走查**：[[tool-yitang-scenario-walkthrough]] — 审美问题常伴随体验断点，可联动走查做交叉验证。
-- **迭代框架**：[[framework-yitang-product-iteration-loop]] — 审美升级应纳入迭代节奏，而非一次性的「改版」。
+- **直接来源**：framework-yitang-aesthetic-radar — 审美雷达六维模型：视觉、交互、内容、情感、一致性、创新性。
+- **漂亮工作**：[[tool-agent-spec-yitang-beautiful-work-imagination]] — 审美雷达的升级方向可以联动漂亮工作想象做品质愿景描绘。
+- **场景走查**：[[tool-agent-spec-yitang-scenario-walkthrough]] — 审美问题常伴随体验断点，可联动走查做交叉验证。
+- **迭代框架**：[[yt-product-kernel-iteration]] — 审美升级应纳入迭代节奏，而非一次性的「改版」。
 
 ## 边界风险
 
@@ -251,7 +251,7 @@ review_date: 2026-08-19
 
 ## Synthesis
 
-- 本 Agent 是 [[framework-yitang-product-iteration-loop]] 中「品质审查」环节的审美专项工具。
-- 与 [[framework-yitang-aesthetic-radar]] 的关系：本 Agent 是该框架的可运行实例。
-- 与 [[tool-yitang-beautiful-work-imagination]] 的关系：审美雷达诊断短板 → 漂亮工作想象描绘升级愿景。
-- 与 [[tool-yitang-scenario-walkthrough]] 的关系：审美问题常与体验断点联动出现，建议联合使用。
+- 本 Agent 是 [[yt-product-kernel-iteration]] 中「品质审查」环节的审美专项工具。
+- 与 framework-yitang-aesthetic-radar 的关系：本 Agent 是该框架的可运行实例。
+- 与 [[tool-agent-spec-yitang-beautiful-work-imagination]] 的关系：审美雷达诊断短板 → 漂亮工作想象描绘升级愿景。
+- 与 [[tool-agent-spec-yitang-scenario-walkthrough]] 的关系：审美问题常与体验断点联动出现，建议联合使用。

@@ -20,10 +20,9 @@ source_refs:
   - 30_wiki/frameworks/framework-yitang-ability-migration-matrix.md
   - 30_wiki/cases/case-yitang-cross-domain-talent-transfer.md
 related:
-  - "[[framework-yitang-ability-migration-matrix]]"
-  - "[[tool-yitang-project-background-analysis]]"
+  - "[[tool-agent-spec-yitang-project-background-analysis]]"
   - "[[framework-yitang-scientific-sales-five-step]]"
-  - "[[tool-yitang-sales-toolkit-gap]]"
+  - "[[tool-agent-spec-yitang-sales-toolkit-gap]]"
 created_at: 2026-07-08
 updated_at: 2026-07-08
 tcp_role: C
@@ -90,10 +89,10 @@ tcp_session_opening: 我本次以 **C（Consult/咨询）** 身份与你协作�
 
 ## 调用卡片
 
-- **直接来源**：[[framework-yitang-ability-migration-matrix]] — 能力迁移矩阵：基础能力 / 专业能力 / 软技能 × 直接迁移 / 部分迁移 / 从头学。
-- **项目背景分析**：[[tool-yitang-project-background-analysis]] — 资源维度的人力缺口可联动能力迁移诊断。
+- **直接来源**：framework-yitang-ability-migration-matrix — 能力迁移矩阵：基础能力 / 专业能力 / 软技能 × 直接迁移 / 部分迁移 / 从头学。
+- **项目背景分析**：[[tool-agent-spec-yitang-project-background-analysis]] — 资源维度的人力缺口可联动能力迁移诊断。
 - **销售框架**：[[framework-yitang-scientific-sales-five-step]] — 销售团队的能力迁移需联动销售五步法中的能力模型。
-- **工具箱缺口**：[[tool-yitang-sales-toolkit-gap]] — 如果是销售团队的能力迁移，可联动销售工具箱缺口诊断。
+- **工具箱缺口**：[[tool-agent-spec-yitang-sales-toolkit-gap]] — 如果是销售团队的能力迁移，可联动销售工具箱缺口诊断。
 
 ## 边界风险
 
@@ -223,7 +222,7 @@ tcp_session_opening: 我本次以 **C（Consult/咨询）** 身份与你协作�
 
 ## Synthesis
 
-- 本 Agent 是 [[framework-yitang-ability-migration-matrix]] 的可运行诊断器。
-- 与 [[tool-yitang-project-background-analysis]] 的关系：项目背景分析中资源维度的「人力缺口」可联动能力迁移诊断。
+- 本 Agent 是 framework-yitang-ability-migration-matrix 的可运行诊断器。
+- 与 [[tool-agent-spec-yitang-project-background-analysis]] 的关系：项目背景分析中资源维度的「人力缺口」可联动能力迁移诊断。
 - 与 [[framework-yitang-scientific-sales-five-step]] 的关系：销售团队的能力迁移需联动销售五步法中的角色能力模型。
-- 与 [[tool-yitang-sales-toolkit-gap]] 的关系：销售场景下可联动工具箱缺口诊断，识别能力和工具的双重差距。
+- 与 [[tool-agent-spec-yitang-sales-toolkit-gap]] 的关系：销售场景下可联动工具箱缺口诊断，识别能力和工具的双重差距。

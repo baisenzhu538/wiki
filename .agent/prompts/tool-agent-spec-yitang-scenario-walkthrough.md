@@ -20,11 +20,10 @@ source_refs:
   - 30_wiki/frameworks/framework-yitang-scenario-walkthrough.md
   - 30_wiki/cases/case-yitang-product-scenario-review.md
 related:
-  - "[[framework-yitang-scenario-walkthrough]]"
-  - "[[framework-yitang-user-perspective-training]]"
-  - "[[framework-yitang-product-iteration-loop]]"
-  - "[[tool-yitang-aesthetic-radar-modeling]]"
-  - "[[tool-yitang-beautiful-work-imagination]]"
+  - "[[tool-agent-spec-yitang-user-perspective-training]]"
+  - "[[yt-product-kernel-iteration]]"
+  - "[[tool-agent-spec-yitang-aesthetic-radar-modeling]]"
+  - "[[tool-agent-spec-yitang-beautiful-work-imagination]]"
 created_at: 2026-07-08
 updated_at: 2026-07-08
 tcp_role: C
@@ -89,11 +88,11 @@ tcp_session_opening: 我本次以 **C（Consult/咨询）** 身份与你协作�
 
 ## 调用卡片
 
-- **直接来源**：[[framework-yitang-scenario-walkthrough]] — 场景走查五步法：画流程 → 找断点 → 标情绪 → 定严重度 → 排优先级。
-- **用户视角**：[[framework-yitang-user-perspective-training]] — 场景走查的前置能力，先切换到用户视角再走查。
-- **审美雷达**：[[tool-yitang-aesthetic-radar-modeling]] — 体验断点中的视觉/交互问题可联动审美雷达做专项诊断。
-- **漂亮工作**：[[tool-yitang-beautiful-work-imagination]] — P3 锦上添花类断点可联动漂亮工作想象做体验升级。
-- **迭代框架**：[[framework-yitang-product-iteration-loop]] — 走查结果是迭代输入，需纳入迭代优先级。
+- **直接来源**：framework-yitang-scenario-walkthrough — 场景走查五步法：画流程 → 找断点 → 标情绪 → 定严重度 → 排优先级。
+- **用户视角**：[[tool-agent-spec-yitang-user-perspective-training]] — 场景走查的前置能力，先切换到用户视角再走查。
+- **审美雷达**：[[tool-agent-spec-yitang-aesthetic-radar-modeling]] — 体验断点中的视觉/交互问题可联动审美雷达做专项诊断。
+- **漂亮工作**：[[tool-agent-spec-yitang-beautiful-work-imagination]] — P3 锦上添花类断点可联动漂亮工作想象做体验升级。
+- **迭代框架**：[[yt-product-kernel-iteration]] — 走查结果是迭代输入，需纳入迭代优先级。
 
 ## 边界风险
 
@@ -213,7 +212,7 @@ tcp_session_opening: 我本次以 **C（Consult/咨询）** 身份与你协作�
 
 ## Synthesis
 
-- 本 Agent 是 [[framework-yitang-product-iteration-loop]] 中「体验审查」环节的可运行工具。
-- 与 [[framework-yitang-user-perspective-training]] 的关系：场景走查的前置条件是切换到用户视角。
-- 与 [[tool-yitang-aesthetic-radar-modeling]] 的关系：体验断点中的视觉/交互问题可联动审美雷达。
-- 与 [[tool-yitang-beautiful-work-imagination]] 的关系：P3 锦上添花断点可联动漂亮工作想象做体验升级。
+- 本 Agent 是 [[yt-product-kernel-iteration]] 中「体验审查」环节的可运行工具。
+- 与 [[tool-agent-spec-yitang-user-perspective-training]] 的关系：场景走查的前置条件是切换到用户视角。
+- 与 [[tool-agent-spec-yitang-aesthetic-radar-modeling]] 的关系：体验断点中的视觉/交互问题可联动审美雷达。
+- 与 [[tool-agent-spec-yitang-beautiful-work-imagination]] 的关系：P3 锦上添花断点可联动漂亮工作想象做体验升级。
