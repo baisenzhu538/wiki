@@ -9142,4 +9142,93 @@ Smoking gun: **系统重启于 2026-08-26 22:56-22:57**（6006 shutdown 22:56:07
 
   Order: claim done. Write script, test locally (python vault_git_backup.py → should produce a commit now since worktree dirty — that's the 实跑验证 exit 0!). Then schtasks create + run via schtasks to double-verify. Then probe patch + unit test + dry-run. Then matrix row. Commit. Report. Complete.
 
-  Careful about committing conveyor_probe.py — the probe is a live production file; my edit adds a function + wiring. Keep diff minimal.
+  Careful about committing conveyor_probe.py — the probe is a live production file; my edit adds a function + wiring. Keep diff minimal.vault backup: 2026-09-02 07:13:27
+exit=0
+a5d0bee82 vault backup: 2026-09-02 07:13:27
+Script works — produced a real backup commit a5d0bee82 (sweeping current dirty worktree, which is the intended semantics). exit 0.
+
+  Now register schtasks (30 min), then probe patch. schtasks /create with MSYS_NO_PATHCONV. Mirror kdo-role-clock settings: default create gives 交互式/后台模式？ role-clock shows that. Create:
+
+  schtasks /create /tn kdo-vault-git-backup /sc minute /mo 30 /tr "\"C:\Program Files\Python312\python.exe\" \"C:\Users\Administrator\Desktop\wiki\kdo-tools\vault_git_backup.py\"" /f
+
+  In Git Bash need MSYS_NO_PATHCONV=1.�ɹ�: �ɹ������ƻ����� "kdo-vault-git-backup"��
+�ɹ�: �������� "kdo-vault-git-backup"��
+������:                             PC-202604161729
+������:                             \kdo-vault-git-backup
+�´�����ʱ��:                       2026/9/2 7:43:00
+ģʽ:                               ����
+��¼״̬:                           ֻʹ�ý�����ʽ
+�ϴ�����ʱ��:                       2026/9/2 7:13:38
+�ϴν��:                           0
+������:                             PC-202604161729\Administrator
+schtasks created + ran: 上次结果 0 (exit 0 via scheduler) ✓, next run 7:43. 登录状态=只使用交互式 (interactive only) — limitation: runs only when user logged on. role-clock had 交互式/后台模式... To match, could recreate with XML. Hmm — "只使用交互式" means if nobody is logged on, backups stop again → same fragility class as reboot scenario (after reboot before login, no backup). The 08-26 event was a reboot; after reboot, if auto-login happens, fine. Does this box auto-login? 老朱's box — tasks like role-clock run every 5 min continuously, suggesting mostly logged-on. 
+
+  Can I make it background-capable without password? Options: /ru SYSTEM — git as SYSTEM: safe.directory issues and identity. Try XML approach like role-clock? Let me check role-clock's XML LogonType quickly. If it's InteractiveToken too ("交互式/后台模式" suggests InteractiveTokenOrPassword?). Honestly — "交互式/后台模式" vs my "只使用交互式": role-clock's mode allows background. Let me get role-clock XML and see the LogonType, then recreate mine with same.      <UserId>S-1-5-21-2063746947-2529005733-433525234-500</UserId>
+      <LogonType>S4U</LogonType>
+role-clock uses S4U logon (runs without password, background-capable). Recreate kdo-vault-git-backup with S4U via XML. Generate a minimal XML mirroring role-clock: UserId SID S-1-5-21-...-500 (Administrator), LogonType S4U, Interval PT30M.
+
+  Let me fetch the full role-clock XML and adapt.<?xml version="1.0" encoding="UTF-16"?>
+<Task version="1.3" xmlns="http://schemas.microsoft.com/windows/2004/02/mit/task">
+  <RegistrationInfo>
+    <Date>2026-08-27T05:57:18</Date>
+    <Author>PC-202604161729\Administrator</Author>
+    <URI>\kdo-role-clock</URI>
+  </RegistrationInfo>
+  <Principals>
+    <Principal id="Author">
+      <UserId>S-1-5-21-2063746947-2529005733-433525234-500</UserId>
+      <LogonType>S4U</LogonType>
+    </Principal>
+  </Principals>
+  <Settings>
+    <DisallowStartIfOnBatteries>true</DisallowStartIfOnBatteries>
+    <StopIfGoingOnBatteries>true</StopIfGoingOnBatteries>
+    <MultipleInstancesPolicy>IgnoreNew</MultipleInstancesPolicy>
+    <IdleSettings>
+      <Duration>PT10M</Duration>
+      <WaitTimeout>PT1H</WaitTimeout>
+      <StopOnIdleEnd>true</StopOnIdleEnd>
+      <RestartOnIdle>false</RestartOnIdle>
+    </IdleSettings>
+    <UseUnifiedSchedulingEngine>true</UseUnifiedSchedulingEngine>
+  </Settings>
+  <Triggers>
+    <TimeTrigger>
+      <StartBoundary>2026-08-27T05:57:00</StartBoundary>
+      <Repetition>
+        <Interval>PT5M</Interval>
+      </Repetition>
+    </TimeTrigger>
+  </Triggers>
+  <Actions Context="Author">
+    <Exec>
+      <Command>"C:\Users\Administrator\Desktop\wiki\kdo-tools\kdo-role-clock.cmd"</Command>
+    </Exec>
+  </Actions>
+</Task>
+<stdin>:3: SyntaxWarning: invalid escape sequence '\k'
+<stdin>:3: SyntaxWarning: invalid escape sequence '\k'
+  File "<stdin>", line 5
+    t = t.replace('"C:\Users\Administrator\Desktop\wiki\kdo-tools\kdo-role-clock.cmd"',
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 3-4: truncated \UXXXXXXXX escape
+����: ϵͳ�Ҳ���ָ�����ļ���
+�´�����ʱ��:                       2026/9/2 7:43:00
+ģʽ:                               ����
+��¼״̬:                           ֻʹ�ý�����ʽ
+�ϴ�����ʱ��:                       2026/9/2 7:13:38
+Python heredoc ate the backslashes (\U). Use raw strings or escaped. Rewrite with pathlib and chr(92) or raw strings. Careful in heredoc — use r"" raw strings.Traceback (most recent call last):
+  File "<stdin>", line 2, in <module>
+  File "C:\Program Files\Python312\Lib\pathlib.py", line 1028, in read_text
+    return f.read()
+           ^^^^^^^^
+  File "<frozen codecs>", line 322, in decode
+  File "C:\Program Files\Python312\Lib\encodings\utf_16.py", line 61, in _buffer_decode
+    codecs.utf_16_ex_decode(input, errors, 0, final)
+UnicodeDecodeError: 'utf-16-le' codec can't decode byte 0x3e in position 1372: truncated data
+����: ϵͳ�Ҳ���ָ�����ļ���
+�´�����ʱ��:                       2026/9/2 7:43:00
+ģʽ:                               ����
+��¼״̬:                           ֻʹ�ý�����ʽ
+�ϴ�����ʱ��:                       2026/9/2 7:13:38
+The XML file read failed — earlier `cat` output was truncated view; the file itself may have been written fine by schtasks redirect. The decode error "truncated data"
