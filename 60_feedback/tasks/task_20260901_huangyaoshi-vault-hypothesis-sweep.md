@@ -51,4 +51,10 @@ instance: huangyaoshi
 
 ## 执行报告
 
-（完工后填写）
+**文件清单**：`60_feedback/tasks/report_20260901_huangyaoshi-vault-hypothesis-sweep.md`（新建，假说①②收敛报告：Sysmon 部署证据+嫌疑 Top3 三要素评分+历史登录对账+sshd 建议）；`90_control/scripts/sysmon-kdo-forensics.xml`（第一棒产出，本棒入档 commit）。
+
+**完成内容**：第一棒已交付 Sysmon64+SysmonDrv 部署与常驻面/登录面原始取证数据；本棒解析成文——假说①嫌疑收敛 Nutstore 本地 watcher 子向（服务端路径 #589 已排除）、假说②历史植入高置信排除（4625=0/4720=0/7045 18 条全对账）、sshd 0.0.0.0:22+密码认证遗留风险三项方案待老朱拍板（本棒零改动）。
+
+**验证**：L1 脚本解析 5 份 audit json（服务 304/驱动 413/任务 27/软件 56）；L2 wevtutil 活体查 Sysmon 日志（EID1=3819/EID11=35/EID23=10，删除事件带进程名）；L3 编排层独立复核（服务 RUNNING+23 事件 python.exe）。
+
+**未做项**：sshd/防火墙/坚果云零改动（全走建议）；Nutstore watcher 压测验证待另单拍板；#588 解封建议已写入报告 §6。
