@@ -17,9 +17,9 @@ source_context: 一堂五步法之需求分析（2026-07-08），需求冰山推
 source_refs:
   - 00_inbox/五步法之需求分析/AI场景推演教练提示词.txt
 related:
-  - "[[framework-yitang-JTBD-iceberg-model]]"
-  - "[[framework-yitang-demand-analysis-five-steps]]"
-  - "[[framework-yitang-lean-startup]]"
+  - "[[framework-demand-iceberg]]"
+  - "[[domain-demand-analysis-index]]"
+  - "[[yt-lean-assumption-prioritization]]"
   - "[[tool-agent-spec-yitang-Y-model-coach]]"
   - "[[tool-agent-spec-yitang-scenario-walkthrough]]"
 created_at: 2026-07-08
@@ -105,11 +105,11 @@ Step 5: 战略机会卡片 (L6) — 生成 3–5 张机会卡片，提供「选�
 ## 调用卡片
 
 - **直接来源**：`00_inbox/五步法之需求分析/AI场景推演教练提示词.txt` — 原始官方提示词，本 Spec 为 TCPR 格式迁移。
-- **JTBD 方法论**：[[framework-yitang-JTBD-iceberg-model]] — L1–L6 六层冰山模型的理论基础。
-- **精益创业**：[[framework-yitang-lean-startup]] — MVP 与最危险假设（RAT）的验证逻辑。
+- **JTBD 方法论**：[[framework-demand-iceberg]] — L1–L6 六层冰山模型的理论基础。
+- **精益创业**：[[yt-lean-assumption-prioritization]] — MVP 与最危险假设（RAT）的验证逻辑。
 - **Y模型 Coach**：[[tool-agent-spec-yitang-Y-model-coach]] — 当用户问题跨域或需要先结构化时，可联动 Coach 模式。
 - **场景走查**：[[tool-agent-spec-yitang-scenario-walkthrough]] — L4 任务地图的产出可作为场景走查的输入。
-- **需求分析五步法**：[[framework-yitang-demand-analysis-five-steps]] — 本 Agent 对应五步法中「需求分析」环节的教练式执行。
+- **需求分析五步法**：[[domain-demand-analysis-index]] — 本 Agent 对应五步法中「需求分析」环节的教练式执行。
 
 ## 边界风险
 
@@ -239,9 +239,9 @@ Step 5: 战略机会卡片 (L6) — 生成 3–5 张机会卡片，提供「选�
 
 ## Synthesis
 
-- 本 Agent 是 [[framework-yitang-demand-analysis-five-steps]] 中「需求分析」环节的教练式执行 Agent。
+- 本 Agent 是 [[domain-demand-analysis-index]] 中「需求分析」环节的教练式执行 Agent。
 - 原始提示词来自 `00_inbox/五步法之需求分析/AI场景推演教练提示词.txt`，经 TCPR 格式迁移，补充了 frontmatter、输入门、输出门、边界风险、Critique 等 agent-spec 标准章节。
-- 六层冰山模型（L1–L6）的理论基础为 [[framework-yitang-JTBD-iceberg-model]]，精益创业验证逻辑来自 [[framework-yitang-lean-startup]]。
+- 六层冰山模型（L1–L6）的理论基础为 [[framework-demand-iceberg]]，精益创业验证逻辑来自 [[yt-lean-assumption-prioritization]]。
 - 「L4/L5 前禁止产品方案」是本 Agent 的核心纪律，与 Y模型「先问清问题再出方案」的底座逻辑一脉相承。
 - 与 [[tool-agent-spec-yitang-Y-model-coach]] 的关系：当用户的问题从需求推演进入「下一步该怎么做」的跨域决策阶段时，可联动 Coach 模式结构化后续动作。
 - 与 [[tool-agent-spec-yitang-scenario-walkthrough]] 的关系：L4 任务地图的产出（8 个关键步骤的摩擦点）可作为场景走查 Agent 的输入。

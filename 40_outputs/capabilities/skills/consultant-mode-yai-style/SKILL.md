@@ -11,7 +11,7 @@ source_refs:
 wiki_refs:
   - "[[yai-tcp-teacher-role]]"
   - "[[yai-counsel-role]]"
-  - "[[刻意练习方法论]]"
+  - "[[concept-一堂-基本功-刻意练习四要素]]"
 definition_of_done:
   - T 角色流程完整可调用
   - C 角色流程完整可调用

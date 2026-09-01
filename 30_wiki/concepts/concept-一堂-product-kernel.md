@@ -44,11 +44,11 @@ quality_labels:
 - framework
 - actionable
 related:
-- "[[concept-一堂-五步法]]"
-- "[[concept-一堂-Y模型]]"
-- "[[concept-一堂-关键假设]]"
-- "[[concept-一堂-单元模型]]"
-- "[[concept-一堂-精益创业]]"
+- "[[framework-一堂五步法]]"
+- "[[yt-decision-y-model]]"
+- "[[framework-一堂-关键假设]]"
+- "[[framework-一堂五步法-单元模型]]"
+- "[[framework-lean-four-principles]]"
 - product kernel
 - 产品内核
 - 最小解决方案

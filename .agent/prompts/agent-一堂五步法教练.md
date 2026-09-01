@@ -276,7 +276,7 @@ M8 备忘录收束
 | 换档判断 | [[tool-一堂五步法-换档检查清单]] | [[framework-一堂五步法-单元模型]] |
 | 段位自评 | [[tool-一堂五步法-段位升级三部曲]] | — |
 | 需求深挖 | [[agent-spec-demand-iceberg-coach]] | [[framework-demand-iceberg]] / [[tool-demand-assessment-triangle]] |
-| 产品内核 | [[framework-一堂五步法-泛产品设计]] | [[concept-一堂-product-kernel-definition]] |
+| 产品内核 | [[framework-一堂五步法-泛产品设计]] | [[concept-一堂-product-kernel]] |
 | 单元模型 | [[framework-一堂五步法-单元模型]] | [[yt-tool-business-formula-parameter-arsenal]] |
 | 增长阶段 | [[framework-一堂五步法-增长周期]] | [[framework-一堂五步法-壁垒]] |
 | 壁垒判断 | [[framework-一堂五步法-壁垒]] | [[case-five-step-fake-vs-real-barriers]] |

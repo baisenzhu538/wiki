@@ -10,7 +10,7 @@ source_refs:
 wiki_refs:
   - "[[yai-counsel-role]]"
   - "[[yai-tcp-teacher-role]]"
-  - "[[刻意练习方法论]]"
+  - "[[concept-一堂-基本功-刻意练习四要素]]"
 definition_of_done:
   - 手册包含 24 小时计划、Checklist、1.0 套路清单
   - 每个阶段有明确动作、检查点、最小产出物
