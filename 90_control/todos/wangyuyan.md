@@ -203,3 +203,10 @@
 [2026-09-01 10:05] 🔬 #589 第一棒收工（proc_3bde9cdb8601，self-report 已核验属实）：USN 实锤 02:00-02:01 程序化两阶段批量删除（先 .git 元数据后工作树顶层，单秒 264 项精确保留 objects）——与同步盘 UpstreamDeleteProcessor 行为面高度同型；计划任务 223 全量排除/事件日志 0 事件/08-30 凌晨 wiki 子树 USN 零事件（双阴，老朱「前天出事」暂无证据复现，待现象对齐）。USN dump 1.15GB 留 C:/Windows/TEMP/usn_full.txt。防再发 bundle 未交付=未完工，第一棒诚实未提审。
 [2026-09-01 10:05] 🚀 已拉起 huangyaoshi：#589 第二棒续作（proc_100e1c07788a）——坚果云三件套铁证收口（沙箱全量/滚动日志9档/云端删除镜像；云端回收站需老朱账号则留指引）+bundle 计划任务交付+报告落盘提审。
 [2026-09-01 10:05] 📌 债务留档待老朱拍板：Desktop 6 个 .kdo_lint_baseline_* 残留工作树+wiki 内嵌套 wiki/ 影子仓（第一棒排查发现，只登记不清理）。
+- [2026-09-01 09:37] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-01 09:31:26｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cl
+- [2026-09-01 09:37] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-01 09:47] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-01 09:42:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-c
+
+[2026-09-01 10:20] 🔬 #589 第二棒收工（proc_100e1c07788a，编排层核验通过：schtasks 实存下次 9/2 02:30 / bundle 2.32GB 实存 / 报告 11.6KB 落盘 / pending_review 到位）——重大反转：坚果云高置信排除（沙箱全量 4 个无 wiki+event.db 41393 条服务端事件全史 wiki 零命中+事故窗口零事件），头号嫌疑降级；操作者画像升级=懂 .git plumbing 的程序化逐仓处理（影子仓 wiki/wiki/.git 同型掏空同 mtime）；「操作者进程名」为本机无法取得的最后铁证（无 Sysmon/删除审计）。防再发已交付：kdo-wiki-bundle-backup 每日 02:30（SYSTEM 身份，S4U 被拒的等价替代）+7 份滚动+实跑 Last Result 0+bundle verify complete history。
+[2026-09-01 10:20] 🚀 已拉起 ouyangfeng：#589 终审（proc_25ac4a62df47，v4.2 直令 pending_review>0 即拉）。
+[2026-09-01 10:20] 👤 待老朱动作（#589 报告内操作指引）：登录坚果云网页版查云端回收站 08-31 01:30-02:30 删除记录——有无都是关键证据（本端已排除，云端记录=最后对账面）。
