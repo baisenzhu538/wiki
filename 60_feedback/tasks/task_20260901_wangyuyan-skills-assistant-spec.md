@@ -1,16 +1,17 @@
 ---
-id: "587"
-title: "Skills助理Agent spec——Skill生产+配置中枢（工厂第7角色）"
+id: '587'
+title: Skills助理Agent spec——Skill生产+配置中枢（工厂第7角色）
 type: spec
-status: queued
+status: in_progress
 priority: P1
 assignee: 王语嫣
 created_by: 王语嫣
 created_at: 2026-09-01
-updated_at: 2026-09-01
+updated_at: '2026-09-01T01:22:51.013843+00:00'
 source_refs:
 - 30_wiki/workflows/workflow-kdo-agent-production-pipeline.md
 - agents/research-explosion-partner/SPEC.md
+instance: wangyuyan
 ---
 
 # #587 Skills 助理 Agent spec（老朱 09-01 直令）
