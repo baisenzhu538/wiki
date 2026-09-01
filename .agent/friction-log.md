@@ -106,3 +106,5 @@ updated_at: 2026-08-09
 | 2026-09-01 | 黄药师 | #588 claim 被拦 | 老朱直令派活撞上 #504「审查等待期不接新单」——#590 pending_review 占位阻塞 claim，机制无法区分「自主接单」和「老板直令」；走 --force 留痕绕过 | #504 缺「老朱直令豁免」通道（候选：任务单加 directive:true 字段跳过等待期检查，同 batch:true 模式） |
 | 2026-09-01 15:05 | 黄药师 | #593 执行报告提审 | E040 拦截：交付物清单写缩写路径 `shared/deep-debug/manifest.yaml`，门禁按仓根解析不到判未入仓 | 初判：清单书写规范缺口——门禁按仓根解析相对路径，交付物清单必须全路径，已改全路径一次过 |
 | 2026-09-01 14:35 | 黄药师 | #593 真机冒烟 | `hermes --profile skills-assistant` 报 profile 不存在——config+SOUL 落在 `.hermes/profiles/` 旧树，现行数据根=AppData/Local/hermes/profiles/；sync/check 脚本常量同源漂移（巡检报 [MISS] windows/wangyuyan 而其在跑） | 初判：0.20 迁移后脚本常量未跟进，本单双树对齐保可用，根治需另立项 |
+| 2026-09-02 04:50 | 老顽童 | #606 中断续作接管 | 02:58 额度中断时工作区残留一批未提交脚本误伤（反引号内 `[[pending_unknown]]` 纯文本被剥成空反引号，13 历史文件），与正常在途改动混在 git status 里无法一眼区分 | 初判：批量脚本断点不留「未提交改动清单」落盘，续作者只能靠逐文件 diff 考古分拣；已 git checkout 回滚+已提交 7 族核验无污染 |
+| 2026-09-02 04:52 | 老顽童 | #606 complete 提审 | `queue_transition.py complete 606` 报「任务 606 不在队列中」——脚本 `find_task` 只精确匹配 task_id 全名，seq 号不解析（claim/complete 同规则，读源码实证） | 初判：CLI 易用性缺口（队列行/myqueue 都显示 #seq 但命令不收 seq），换全 task_id 一次过 |

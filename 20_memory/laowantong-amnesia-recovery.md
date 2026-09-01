@@ -271,3 +271,4 @@ type: memory/role-recovery
 - `70_product/tasks/production-queue.md` — 生产队列
 - `70_product/tasks/dashboard.md` — 任务仪表盘
 - `framework-kdo-self-attack` — 自攻击方法论
+- **2026-09-02 凌晨（kimi 实例）#606 收官**：图谱散点治理二批完成并提审 pending_review（A+B1-B6+C 共 9 commit，验收口径 30_wiki 散点 0/2943 文件达标<50；执行报告五字段+逐族裁决表落任务单）。关键经验已进技能进化日志 09-02 行：中断续作分拣法/扫描器口径即验收定义/幽灵清单先切实存性/脚本例外进代码负向断言/queue_transition 只收 task_id 全名。#609（MOLLY 卡）被 #504 合法拦截（#606 在审），终审通过后按序领取（后还有 #610/#611）。
