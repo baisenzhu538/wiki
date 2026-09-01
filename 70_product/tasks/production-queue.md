@@ -218,7 +218,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 589 | `task_20260901_huangyaoshi-vault-incident-rootcause` | vault整树消失事故根因排查+防再发：USN/事件日志/坚果云/计划任务/回收站证据考古+08-30前天对齐+每日bundle备份计划任务落地 | reviewed | huangyaoshi | 根因报告+排除清单+bundle备份计划任务（实跑verify） | 08-31 02:00事故已恢复数据无损失；老朱0901拍板推进排查 | `60_feedback/tasks/task_20260901_huangyaoshi-vault-incident-rootcause.md` | P0；编排层已附初步证据链（坚果云头号嫌疑）；欧阳锋终审 |
 | 590 | `task_20260901_huangyaoshi-vault-incident-candidate-b` | 候选b显式收口：08-31 01:30-02:05本机agent会话存在面重建+危险命令痕迹扫描+lint基线worktree关联性——证实或排除「agent会话执行危险命令」；若排除则候选c（外部入侵）升级评估 | reviewed | huangyaoshi | 候选b证据链报告（证实/排除双向）+候选c升级建议 | #589终审欧阳锋追加指令「候选b显式立项或显式关闭」 | `60_feedback/tasks/task_20260901_huangyaoshi-vault-incident-candidate-b.md` | P0；不重复#589考古；欧阳锋终审 |
 | 591 | `task_20260901_huangyaoshi-vault-hypothesis-sweep` | 假说①②收敛排查+Sysmon前置取证：常驻服务/驱动/启动项审计过筛三要素+历史登录回查（08-01起4624类型3/10+4625+7045）+Sysmon部署自证（23事件抓进程名） | reviewed | huangyaoshi | 假说收敛报告+嫌疑Top10三要素评分+Sysmon部署证据 | 老朱0901直令「立项」；P0插队在#588前 | `60_feedback/tasks/task_20260901_huangyaoshi-vault-hypothesis-sweep.md` | 取证先于清除（欧阳锋序）；欧阳锋终审 |
-| 592 | `task_20260901_huangyaoshi-vault-resilience-trio` | wiki恢复力三件套：R1异机备份（最新bundle自动推坚果云目录保留3份）+R2快速重建脚本固化（bundle→临时目录演练）+R3完整性自检例行（异常走gate-blocked通知面） | pending_review | huangyaoshi | 三件全实跑自证+演练对照报告 | 老朱0901直令「加强基础设施确保能恢复」；P0 | `60_feedback/tasks/task_20260901_huangyaoshi-vault-resilience-trio.md` | 坚果云只收bundle不做wiki同步（#589铁律）；欧阳锋终审 |
+| 592 | `task_20260901_huangyaoshi-vault-resilience-trio` | wiki恢复力三件套：R1异机备份（最新bundle自动推坚果云目录保留3份）+R2快速重建脚本固化（bundle→临时目录演练）+R3完整性自检例行（异常走gate-blocked通知面） | reviewed | huangyaoshi | 三件全实跑自证+演练对照报告 | 老朱0901直令「加强基础设施确保能恢复」；P0 | `60_feedback/tasks/task_20260901_huangyaoshi-vault-resilience-trio.md` | 坚果云只收bundle不做wiki同步（#589铁律）；欧阳锋终审 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
 ## ⚖️ 待终审（提审任务，queue_transition 自动登记）
@@ -410,7 +410,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#590 task_20260901_huangyaoshi-vault-incident-candidate-b｜黄药师｜提审 09-01 10:30｜60_feedback/tasks/task_20260901_huangyaoshi-vault-incident-candidate-b.md~~ → 已终审 PASS A-（2026-09-01 欧阳锋）
 - ~~#588 task_20260901_huangyaoshi-skill-registry-mount-matrix｜黄药师｜提审 09-01 10:56｜60_feedback/tasks/task_20260901_huangyaoshi-skill-registry-mount-matrix.md~~ → 已终审 PASS A-（2026-09-01 欧阳锋）
 - ~~#591 task_20260901_huangyaoshi-vault-hypothesis-sweep｜黄药师｜提审 09-01 11:48｜60_feedback/tasks/task_20260901_huangyaoshi-vault-hypothesis-sweep.md~~ → 已终审 PASS A-（2026-09-01 欧阳锋）
-- #592 task_20260901_huangyaoshi-vault-resilience-trio｜黄药师｜提审 09-01 12:02｜60_feedback/tasks/task_20260901_huangyaoshi-vault-resilience-trio.md
+- ~~#592 task_20260901_huangyaoshi-vault-resilience-trio｜黄药师｜提审 09-01 12:02｜60_feedback/tasks/task_20260901_huangyaoshi-vault-resilience-trio.md~~ → 已终审 PASS B+（2026-09-01 欧阳锋）
 
 <!-- REVIEW-PENDING-END -->
 
