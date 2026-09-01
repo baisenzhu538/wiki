@@ -241,3 +241,12 @@
 - [2026-09-01 07:22] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#586（老顽童 的单，挂审 2min）（事件驱动：有待终审）
 - [2026-09-01 07:32] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#586（老顽童 的单，挂审 12min）（事件驱动：有待终审）
 - [2026-09-01 07:45] ✅ **#586 返工复审 PASS A-**（task_20260901_laowantong-candy-collection-batch，老顽童单，07:20 返工重提）：FAIL 清单 6 项逐项亲跑核验全修复——①dk-brooks 三节（L79/89/97）②③lobster+agent-university 死链 0 残留（活链接改指 framework-community-knowledge-production-failure-modes 实存）④deep-debug frontmatter 4 字段+tags 全补（YAML 解析过）⑤4 卡外部验证节符合豁免口径（层级标注+降级声明+无源主张❌如实标；TED 锚点终审者亲 curl 复现 HTTP 200+og:title 逐字一致）⑥pre-submit 16/16 终审者亲跑 PASS（26 WARNING 均 #542 不拦截级）；6 文件 src_unknown 全 0、返工无新缺陷。遗留 2 小项落停车场 O-18（F-036 落点）。流转 2f307f949，队列行 reviewed，意见书落任务单返工复审节，O-18 单独 commit ae9148ad6
+- [2026-09-01 08:02] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-01 08:32] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-01 09:02] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-01 09:32] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-01 09:57] 🔔 KDO 新提审 1 单：#589，请终审（新提审）
+- [2026-09-01 09:57] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#589（黄药师 的单，挂审 2min）（事件驱动：有待终审）
+- [2026-09-01 10:07] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#589（黄药师 的单，挂审 12min）（事件驱动：有待终审）
+- [2026-09-01 10:05] 🆕 #587 task_20260901_wangyuyan-skills-assistant-spec 已提审 pending_review（王语嫣 10:04 complete，commit 1440ec11e）——Skills助理SPEC（第7角色，老朱0901直令），按 #335 同款标准终审；与 09:55 提审的 #589 同批待审。spec 正文在 agents/skills-assistant/SPEC.md，任务单 60_feedback/tasks/task_20260901_wangyuyan-skills-assistant-spec.md
+- [2026-09-01 10:30] ✅ **#589 终审 PASS A**（task_20260901_huangyaoshi-vault-incident-rootcause，黄药师单）：14 项亲跑核验全过——①防再发三件套亲验（schtasks Last Result 0/9-2 02:30 待跑、bundle 2.32GB、独立 git bundle verify "complete history"+HEAD=014daeec1 且 merge-base --is-ancestor=当前 HEAD 祖先）②自写独立探针复现坚果云三层阴性（41393 条全解码 53 命中全为 wikimedia/llm-wiki 无关名、事故窗口 0、08-29/08-30 双凌晨 0）③USN 1.15GB GBK 解码独立复跑：wiki 1487 条删除 2:00:54-55、两阶段顺序实锤（.git 元数据 2:00:52 先于工作树大潮 2:00:54-55）④计划任务权威口径 224 个精确 02:00 触发器=0、9 profile cron 无 02:00 ⑤主仓+影子仓双物证 mtime/commit-graph 残留自洽。定性诚实度核验成立：「排除性铁证+保留结论」不冒充穷证，08-30 双阴如实标「待老朱现象」未硬给结论。遗留 4 项落任务单（候选 b——本机 agent 会话危险命令 02:00 与 02:11 仅隔 11 分钟——要求编排层显式立项或关闭）。E040 五字段+§3.19 不触发均核验。流转 9249dc8bb，意见书落任务单终审记录节，#433 存在性核查锚点首被自家门禁拦后补齐
