@@ -225,7 +225,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 
 | 596 | `task_20260902_laowantong-popmart-uniqueness-book-cards` | 拆书会218《因为独特》卡组4张：长期主义经营framework/减宽加深method/满足感×存在感concept/品牌包裹感dk——strategy+拆书会系列 | reviewed | laowantong | 4张卡 | 无（素材已诊断不撞车） | `60_feedback/tasks/task_20260902_laowantong-popmart-uniqueness-book-cards.md` | inbox自动化流水线（09-02王语嫣编排）；转述二等标注（#470口径）；欧阳锋终审 |
 
-| 597 | `task_20260902_skills-assistant-skill-manifest-batch1` | skill登记面批1：72个manifest.yaml补建+2个name不一致修复（健康度建议书动作1+2） | queued | skills-assistant | 72 manifest+2修复+三写一致 | **#595 reviewed ✅（同域错峰）** | `60_feedback/tasks/task_20260902_skills-assistant-skill-manifest-batch1.md` | skill健康度勘察裁定（09-02王语嫣）；adapted_from无卡不编造标待复核；欧阳锋终审 |
+| 597 | `task_20260902_skills-assistant-skill-manifest-batch1` | skill登记面批1：72个manifest.yaml补建+2个name不一致修复（健康度建议书动作1+2） | claimed-skills-assistant-kimi | skills-assistant | 72 manifest+2修复+三写一致 | **#595 reviewed ✅（同域错峰）** | `60_feedback/tasks/task_20260902_skills-assistant-skill-manifest-batch1.md` | skill健康度勘察裁定（09-02王语嫣）；adapted_from无卡不编造标待复核；欧阳锋终审 |
 
 | 598 | `task_20260902_huangyaoshi-bom-cleanup-health-radar` | skill文件37个BOM批量清理+8维健康检测并入#588扫描脚本例行化（建议书动作3+9） | reviewed | huangyaoshi | BOM清零+8维检测+回归 | 无（与#597不同文件层可并行） | `60_feedback/tasks/task_20260902_huangyaoshi-bom-cleanup-health-radar.md` | skill健康度勘察裁定（09-02王语嫣）；只动编码层不动内容；欧阳锋终审 |
 

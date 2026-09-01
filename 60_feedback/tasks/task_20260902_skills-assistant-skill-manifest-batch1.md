@@ -2,7 +2,7 @@
 id: 597
 task_id: task_20260902_skills-assistant-skill-manifest-batch1
 title: skill登记面批1：72个manifest.yaml补建+2个name不一致修复
-status: queued
+status: in_progress
 assignee: skills-assistant
 created_by: wangyuyan
 created_at: 2026-09-02
@@ -10,10 +10,12 @@ reviewer: ouyangfeng
 source_refs:
 - 60_feedback/diagnosis/建议书_20260901_skill健康度勘察与检测方法论.md
 related_tasks:
-- "#588"
-- "#593"
-- "#594"
-- "#595"
+- '#588'
+- '#593'
+- '#594'
+- '#595'
+instance: skills-assistant-kimi
+updated_at: '2026-09-01T18:55:26.611926+00:00'
 ---
 
 # 任务：skill 登记面批 1（建议书动作 1+2）
