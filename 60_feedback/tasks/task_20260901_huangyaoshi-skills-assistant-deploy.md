@@ -2,7 +2,7 @@
 id: '593'
 title: Skills助理Agent部署——U1-U3实跑验收（两阶段第二阶段）
 type: deploy
-status: pending_review
+status: reviewed
 priority: P1
 assignee: 黄药师
 created_by: 王语嫣
@@ -12,8 +12,11 @@ source_refs:
 - 60_feedback/tasks/task_20260901_wangyuyan-skills-assistant-spec.md
 - 60_feedback/tasks/task_20260901_huangyaoshi-skill-registry-mount-matrix.md
 instance: huangyaoshi
-updated_at: '2026-09-01T06:46:40.409196+00:00'
+updated_at: '2026-09-01T07:09:11.792621+00:00'
 evidence: 60_feedback/tasks/task_20260901_huangyaoshi-skills-assistant-deploy.md
+reviewed_by: 欧阳锋
+review_date: '2026-09-01'
+grade: A
 ---
 
 # #593 Skills 助理 Agent 部署（#587 终审指令：编排层立项，带两阶段口径）
@@ -94,3 +97,51 @@ evidence: 60_feedback/tasks/task_20260901_huangyaoshi-skills-assistant-deploy.md
 ### ③ 负向判词 / ④ 存在性核查
 
 ✅ 执行报告无负向断言词（检查面=执行报告节）
+
+## 终审记录（2026-09-01 欧阳锋）
+
+**结论：PASS A**（独立复跑 14 项全过，声称-交付零差集）
+
+### 验收对照（欧阳锋独立复跑，非采信执行报告）
+
+| # | 验收标准 | 独立复跑动作 | 实测 | 判定 |
+|:--|:--|:--|:--|:--|
+| 1 | 部署三件套实存 | ls agents/skills-assistant/ + 两处 profile 树 | SOUL(5933B)/CLAUDE(1980B)/SPEC 在位；AppData config.yaml 含 mcp_servers.kdo+cwd=wiki；旧树同款+.bak 备份 | ✅ |
+| 2 | MCP 挂载实测 | python 90_control/scripts/check-mcp-roaming.py | `[OK] windows/skills-assistant: mcp_servers.kdo 已挂`（exit=2 系既有未部署 profile WARN 语义，与报告口径一致） | ✅ |
+| 3 | cap_hub 登记 | grep agent-registration-norm.md | L55 行 skills-assistant active 2026-09-01 在案 | ✅ |
+| 4 | 真机冒烟 | `hermes -z --profile skills-assistant` 亲跑 | 自报「第 7 号角色 / P1-P4 四阶段 / spec 节+MOUNT-MATRIX+manifest 三写一致」逐字命中 | ✅ |
+| 5 | U1 存量卡行为化 | 读 SKILL.md 全文（88 行） | 六节齐（触发条件含**不触发**反例/操作步骤/失败模式表/适用边界/Action Triggers/来源）+src_unknown=0+adapted_from 指实存来源卡 | ✅ |
+| 6 | U2 互链不撞车 | 读 SKILL.md 全文（101 行）+来源卡存在性 | 与 tool-ai-skill-engineering-guide 分工声明在文内（设计向 vs 流程向）；method-anthropic-skill-design-patterns 实存 | ✅ |
+| 7 | 路由面盲测 | 独立实例 4 请求仅凭两 description 判断 | 4/4（2 use 2 skip），理由命中触发场景非关键词匹配 | ✅ |
+| 8 | U3 三写一致 | 三面并读 | builder spec「已挂载skills」L126-131（deep-debug 4 项，注明 #593）= manifest 适用agent 2 项+changelog 留痕 = MOUNT-MATRIX L12(builder=4)/L51(已挂载，3 单元) 互洽 | ✅ |
+| 9 | 矩阵刷新 | scan_skills_registry.py --check 亲跑 | 🟢 fresh 75 skills，INDEX/MOUNT 与源一致；两个新 skill INDEX L49/L60 已收录 | ✅ |
+| 10 | mount-matrix 大小写统一 | grep 施工面（SPEC/INDEX/MATRIX/agent-specs） | 全大写；小写命中仅在 todos 流水历史（不回改纪律，非施工面） | ✅ |
+| 11 | E040 交付物入仓 | git ls-files + git status --porcelain | 5 文件全 tracked、三目录零脏改动、commit 699346811 在案 | ✅ |
+| 12 | 版本对齐 | git log 对读 | 提审 14:46 交付=699346811；HEAD 仅多王语嫣时钟划销 3b23d341c，交付物无后续触碰 | ✅ |
+| 13 | pre-submit | python -m kdo pre-submit --files 两 SKILL.md 亲跑 | PASS | ✅ |
+| 14 | manifest 结构 | yaml.safe_load 三份亲跑 | 全 dict，name/trigger/changelog 齐全 | ✅ |
+
+### 内容面抽验（任务单边界第二条：U1/U2 内容终审归欧阳锋，本轮同场覆盖）
+
+两 SKILL.md 按 P0-P2 抽验达标（触发真实/操作可执行/失败模式带信号/边界清晰/零占位符/来源锚点真实）；`reviewed_by: pending` 按部署口径在本终审同步转正（review_mark），`status: enriched` 维持 skill 包语义。
+
+### 🟡 记档项（均有落点）
+
+| # | 事项 | 落点 |
+|:--|:--|:--|
+| 🟡1 | 基建漂移：sync-hermes-mcp/check-mcp-roaming 脚本 profile 常量指 `.hermes` 旧树，现行数据根=AppData（实测复现 `[MISS] windows/wangyuyan` 而该 profile 在跑）——本单双树对齐保可用，根治需另立项 | 执行报告未做项③已在案，**待王语嫣裁量立项**（脚本常量迁移） |
+| 🟡2 | `--apply` 时 wangyuyan kdo 子节被顺带刷新（模板全量语义，.bak 备份在，如实留痕） | 并入 🟡1 同一立项（`--only` 白名单候选），记档观察 |
+| 🟡3 | `kdo lint` 全量 300s 超时 → yaml.safe_load 等价覆盖 | #588 终审记档②同族既有观察项，不新开 |
+
+**存在性核查**（#433 锚点，本记录负向表述核查表）：
+
+| 负向表述 | 核查方法 | 结果 |
+|:--|:--|:--|
+| 施工面小写「仅在 todos 流水」 | grep -rn "mount-matrix" agents/ 30_wiki/agent-specs/ 90_control/ skills/INDEX/MOUNT-MATRIX | 施工面 0 命中；todos 流水 6 处（历史记录不回改纪律） |
+| 工作区「零脏改动」 | git status --porcelain 三交付目录 | 输出为空 |
+| U1/U2「src_unknown=0」 | grep -c src_unknown 两 SKILL.md | 0 / 0 |
+
+### 遗留路由
+
+- 🟡1 脚本常量漂移根治 → 王语嫣裁量是否立项（执行报告③在案）
+- Skills 助理正式上岗（第 7 角色），候选池入口=欧阳锋终审「建议行为化」标注 + 复用 ≥2 + 老朱直令（SPEC 第三节三选一）；U1-U3 用例通过，两阶段流程全闭环
