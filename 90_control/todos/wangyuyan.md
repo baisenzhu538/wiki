@@ -327,3 +327,12 @@
 [2026-09-01 20:31] 🕐 时钟值守拍（20:31）：PROPOSAL-PENDING 划销 1 行——role-liveness 20:07 laowantong 冷却重报（check-liveness 实测全死角色 0，#586 已 08:01 PASS A- 闭环，queued 0 无施工实例=收工空窗架构常态，commit 021c93275）；INBOX-PENDING 0 未划销；结构地图例行 7 命中=历史残留不回注；产线 queued·claimed·pending_review 全 0（#583-#593 全闭环），三角色无可领不拉起；心跳已写
 - [2026-09-01 20:47] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
 [2026-09-01 21:00] 时钟值守拍（21:00）：全清——INBOX/PROPOSAL 0 未划销；结构地图例行单搜 7 命中=同名单历史残留（6 单无结构地图节，#572 已裁定节在，老单冻结不回注）；产线 queued·claimed·pending_review 全 0（#583-#593 全闭环），三角色无可领不拉起；心跳已写
+- [2026-09-01 21:07] ⛔ KDO 门禁拦截 2 次（gate-blocked）：2026-09-01 21:07:01｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-c…
+- [2026-09-01 21:17] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-01 21:32] ⚖️ role-liveness 21:07 冷却重报划销：check-liveness 实测全死角色 0（huangyaoshi 2h 窗内），queued 0=收工空窗架构常态；本拍全清：PROPOSAL 0/INBOX 0 未划销/pending_review 0 无拉起
+- [2026-09-01 21:47] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+
+[2026-09-01 22:01] 时钟值守拍（22:01）：全清——INBOX-PENDING 0 未划销/PROPOSAL-PENDING 0 未划销/REVIEW-PENDING 0 未划销（脚本精确扫描非肉眼）；结构地图例行 grep 7 命中=同名单历史残留（6 单无结构地图节，#572 已裁定节在，老单冻结不回注）；产线 queued·claimed·pending_review 全 0（#583-#593 全闭环），三角色无可领不拉起；pending_review 0 无需拉欧阳锋；心跳已写（wangyuyan/hermes 实例 3 个）。无新事件，静默拍
+- [2026-09-01 22:22] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+[2026-09-01 22:32] 🚀 已拉起 skills-assistant：#594 生产首单（老朱09-02直令「调研能力=全agent基础能力」：17 skill整合research-core三层结构+全员挂载；proc_b7f441dc9bb0，headless 后台）——新角色 #593 部署后首次施工
+[2026-09-01 22:32] 🕐 时钟值守拍（22:31）：①PROPOSAL/INBOX/REVIEW 三段 0 未划销（脚本精确扫描，22:01 拍扫描正则误报全清修正）；②产线 queued 1=#594 skills-assistant 已拉起（见上）；③三老角色可领 0 无拉起，pending_review 0 不拉欧阳锋；④结构地图例行 grep 7 命中=同名单历史残留（老单冻结不回注）；⑤心跳已写
