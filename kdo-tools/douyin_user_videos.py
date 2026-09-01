@@ -1,6 +1,6 @@
 """用 CDP 驱动无头 Edge 渲染抖音作者主页，提取视频列表（标题/点赞/链接）。
 
-用法: python _tmp_douyin_user.py <sec_uid 或 profile url>
+用法: python douyin_user_videos.py <sec_uid 或 profile url>
 产出: JSON 到 stdout（[{title, likes, url, aweme_id}]）
 """
 import json

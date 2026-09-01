@@ -1,6 +1,6 @@
 """CDP 提取抖音匿名新鲜 Cookie → Netscape cookies.txt（供 yt-dlp 使用）。
 
-用法: python _tmp_douyin_cookie.py [输出路径]
+用法: python douyin_cookie_extract.py [输出路径]
 """
 import json
 import subprocess
