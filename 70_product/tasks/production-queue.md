@@ -231,6 +231,13 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 
 | 599 | `task_20260902_skills-assistant-legacy53-evaluate-revive` | 根目录54个legacy skill处置：逐个评估→三分法（迁shared登记/全网调研重造达标/确无必要报废·零执行待复核）（健康度建议书动作7·老朱0902拍板升级版） | reviewed | skills-assistant | 逐个裁决表+三批立项建议书 | **Phase1只读可立即跑；Phase2搬移等#597收口错峰** | `60_feedback/tasks/task_20260902_skills-assistant-legacy53-evaluate-revive.md` | 老朱0902直令（ recycle先于scrap）；全网调研≥2源；报废零执行王语嫣复核；欧阳锋终审 |
 
+| 600 | `task_20260902_huangyaoshi-credential-exposure-cleanup` | 凭据三件套处置（P0安全项）：`./--help`(含douyin cookie)/_sg_cookie.txt/feishu_user_token.json 移隔离区+git索引核查+token轮换建议 | queued | huangyaoshi | 三件套隔离+执行报告+轮换建议 | 无 | `60_feedback/tasks/task_20260902_huangyaoshi-credential-exposure-cleanup.md` | 风清扬替代期审计R1（老朱0902拍板「全部编排修复」）；凭据不打印不入git；欧阳锋终审 |
+| 601 | `task_20260902_huangyaoshi-wechat-promote-dedup-fix` | wechat_promote去重根治（去重键含当天日期bug，08-18起带病）+sources层147份纯重复引用感知处置入隔离区+seen_links URL归一化+索引更新 | queued | huangyaoshi | bug修复+跨天回归+147→0+索引增量 | #600后 | `60_feedback/tasks/task_20260902_huangyaoshi-wechat-promote-dedup-fix.md` | 欧阳锋建议书+风清扬R2/R3；inbox原件不动（F-KDO-015溯源链）；批量三问+引用对账；欧阳锋终审 |
+| 602 | `task_20260902_wangyuyan-uncommitted-changes-ledger` | 93文件未提交改动落账三批（SKILL BOM清洗/todos队列留痕/logs）——为#601/#603/#604清理动作提供git兜底 | queued | wangyuyan | 3个commit+diff抽查证据 | 无 | `60_feedback/tasks/task_20260902_wangyuyan-uncommitted-changes-ledger.md` | 风清扬R4；只提交零改动；path-scoped add；王语嫣自领；欧阳锋终审 |
+| 603 | `task_20260902_huangyaoshi-tmp-script-cleanup` | tmp一次性脚本清理：根目录59个+kdo-tools/tmp_*25个归档_tmp（前置：_tmp_skill_health.json被建议书引用先改指） | queued | huangyaoshi | 归档清单+例外保留清单+引用对账 | #602落账后 | `60_feedback/tasks/task_20260902_huangyaoshi-tmp-script-cleanup.md` | 风清扬R5；归档不删除；批量三问；欧阳锋终审 |
+| 604 | `task_20260902_huangyaoshi-scatter-relocation-misc` | 散点归位杂项：C\uf03a假盘符树核查清除+Harness重复对收敛+60_feedback下6个mp4归位10_raw | queued | huangyaoshi | 三项处置+引用对账 | #602后 | `60_feedback/tasks/task_20260902_huangyaoshi-scatter-relocation-misc.md` | 风清扬R7；假盘符树先证无独有内容；欧阳锋终审 |
+| 605 | `task_20260902_huangyaoshi-dispatch-mechanism-converge` | dispatch机制收口：台账停发（职能并入看门狗v5）+watch_inbox目录树裁剪+存量49份dispatch归档 | queued | huangyaoshi | 裁剪+下线证据+实跑验证 | #602后 | `60_feedback/tasks/task_20260902_huangyaoshi-dispatch-mechanism-converge.md` | 风清扬R6；王语嫣裁定停发、保留pending-cards登记职能；欧阳锋终审 |
+
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
 ## ⚖️ 待终审（提审任务，queue_transition 自动登记）
@@ -701,6 +708,10 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~[gate-blocked] role-liveness｜09-02 00:07｜待王语嫣复核处置｜2026-09-02 00:01:07｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 1264.8), ('cli', 30.4)]）｜role_registry check-liveness｜role_registry~~ → 已化解划销（2026-09-02 00:12 王语嫣）：role-liveness 冷却重报——wyy 时钟拍已拉起黄药师 #598 施工实例（queue status=claimed-wyy-cli-0902 实证），探针 stale 系拉起前窗口，非产线阻塞
 - [gate-blocked] task_20260902_laowantong-popmart-uniqueness-book-cards｜09-02 00:27｜待王语嫣复核处置｜2026-09-02 00:24:30｜task_20260902_laowantong-popmart-uniqueness-book-cards｜F-034-五字段｜执行报告缺 5 个字段（#429 F-034）：改动文件清单、完成内容一句话、验证命令+输出、未做项/边界、需要谁动作。请补全后重试，或 --force --reason '<理由>' 声明例外（#4｜laowantong
 - [gate-blocked] task_20260902_skills-assistant-legacy53-evaluate-revive｜09-02 00:57｜待王语嫣复核处置｜2026-09-02 00:53:44｜task_20260902_skills-assistant-legacy53-evaluate-revive｜F-034-五字段｜任务单缺少「## 执行报告」节（#429 F-034：交付必须落执行报告，口头完成=未完成；#444：evidence 附件不能替代）｜skills-assistant
+- diag_20260902_ouyangfeng-wechat-src-daily-dup.md｜09-02 01:17｜待王语嫣复核裁定
+- [gate-blocked] diag_20260902_fengqingyang-substitute-scatter-audit.md｜09-02 01:17｜待王语嫣复核处置｜2026-09-02 01:17:01｜diag_20260902_fengqingyang-substitute-scatter-audit.md｜near-miss-三元组（#506）｜有 audience 但 status=draft（应 pending_orchestration）｜conveyor_probe
+- diag_20260902_laowantong-task600-queue-row-missing.md｜09-02 01:21｜待王语嫣复核裁定
+- [gate-blocked] diag_20260902_huangyaoshi-vault-scatter-obsidian-config-pipeline.md｜09-02 01:27｜待王语嫣复核处置｜2026-09-02 01:27:01｜diag_20260902_huangyaoshi-vault-scatter-obsidian-config-pipeline.md｜near-miss-三元组（#506）｜status=pending_review 疑似待编排但非 pending_orchestration｜conveyor_probe
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
