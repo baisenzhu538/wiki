@@ -223,7 +223,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 594 | `task_20260902_skills-assistant-research-core-integration` | 调研能力层整合（Skills助理生产首单，老朱09-02拍板「调研能力是最基础的必备能力」）：17 skill（14 research系+3近亲）P1评审三层结构→research-core统一入口生产→路由面盲测→全agent挂载（消灭43无主中最大族） | reviewed | skills-assistant | 三层判定书+research-core skill+盲测3/3+全员挂载三写一致 | 老朱09-02直令拍板；#587/#588/#593 reviewed ✅ | `60_feedback/tasks/task_20260902_skills-assistant-research-core-integration.md` | 不改子策略正文；不扩军只整合；欧阳锋终审 |
 | 595 | `task_20260902_skills-assistant-frontmatter-backfill` | 全厂skill frontmatter补齐（#594终审遗留①，老朱09-02拍板「立」）：66/76缺status四字段按真实状态补齐（有终审=enriched/无=draft不虚构），只动frontmatter正文零改动 | reviewed | skills-assistant | 76/76字段齐+零虚构+diff仅frontmatter+--check fresh | 老朱09-02直令；#594 PASS A ✅ | `60_feedback/tasks/task_20260902_skills-assistant-frontmatter-backfill.md` | 不虚构审查状态；欧阳锋终审 |
 
-| 596 | `task_20260902_laowantong-popmart-uniqueness-book-cards` | 拆书会218《因为独特》卡组4张：长期主义经营framework/减宽加深method/满足感×存在感concept/品牌包裹感dk——strategy+拆书会系列 | claimed-laowantong | laowantong | 4张卡 | 无（素材已诊断不撞车） | `60_feedback/tasks/task_20260902_laowantong-popmart-uniqueness-book-cards.md` | inbox自动化流水线（09-02王语嫣编排）；转述二等标注（#470口径）；欧阳锋终审 |
+| 596 | `task_20260902_laowantong-popmart-uniqueness-book-cards` | 拆书会218《因为独特》卡组4张：长期主义经营framework/减宽加深method/满足感×存在感concept/品牌包裹感dk——strategy+拆书会系列 | pending_review | laowantong | 4张卡 | 无（素材已诊断不撞车） | `60_feedback/tasks/task_20260902_laowantong-popmart-uniqueness-book-cards.md` | inbox自动化流水线（09-02王语嫣编排）；转述二等标注（#470口径）；欧阳锋终审 |
 
 | 597 | `task_20260902_skills-assistant-skill-manifest-batch1` | skill登记面批1：72个manifest.yaml补建+2个name不一致修复（健康度建议书动作1+2） | queued | skills-assistant | 72 manifest+2修复+三写一致 | **#595 reviewed ✅（同域错峰）** | `60_feedback/tasks/task_20260902_skills-assistant-skill-manifest-batch1.md` | skill健康度勘察裁定（09-02王语嫣）；adapted_from无卡不编造标待复核；欧阳锋终审 |
 
@@ -424,6 +424,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#593 task_20260901_huangyaoshi-skills-assistant-deploy｜黄药师｜提审 09-01 14:46｜60_feedback/tasks/task_20260901_huangyaoshi-skills-assistant-deploy.md~~ → 已终审 PASS A（2026-09-01 欧阳锋）
 - ~~#594 task_20260902_skills-assistant-research-core-integration｜skills-assistant｜提审 09-01 22:55｜60_feedback/tasks/task_20260902_skills-assistant-research-core-integration.md~~ → 已终审 PASS A（2026-09-01 欧阳锋）
 - ~~#595 task_20260902_skills-assistant-frontmatter-backfill｜skills-assistant｜提审 09-01 23:30｜60_feedback/tasks/task_20260902_skills-assistant-frontmatter-backfill.md~~ → 已终审 PASS A-（2026-09-01 欧阳锋）
+- #596 task_20260902_laowantong-popmart-uniqueness-book-cards｜laowantong｜提审 09-02 00:26｜60_feedback/tasks/task_20260902_laowantong-popmart-uniqueness-book-cards.md
 
 <!-- REVIEW-PENDING-END -->
 

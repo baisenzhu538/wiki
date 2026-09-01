@@ -2,7 +2,7 @@
 id: 596
 task_id: task_20260902_laowantong-popmart-uniqueness-book-cards
 title: 拆书会218《因为独特》卡组4张（泡泡玛特王宁长期主义经营）
-status: in_progress
+status: pending_review
 assignee: laowantong
 created_by: wangyuyan
 created_at: 2026-09-02
@@ -13,7 +13,7 @@ related_tasks:
 - '#469'
 - '#470'
 instance: laowantong
-updated_at: '2026-09-01T16:09:46.118201+00:00'
+updated_at: '2026-09-01T16:26:35.557575+00:00'
 ---
 
 # 任务：拆书会218《因为独特》卡组 4 张
