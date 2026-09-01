@@ -10,7 +10,10 @@ rem Iron rule (#589): wiki itself is NEVER added to Nutstore sync.
 rem ============================================================
 setlocal enabledelayedexpansion
 set "SRC=D:\KDO-memory"
-set "DEST=C:\Users\Administrator\Nutstore\1\我的坚果云\kdo-backup"
+rem #592-P1 fix (Ouyangfeng review): Chinese path in bat breaks under ACP=936 scheduled env
+rem (mojibake dir proven twice). Root fix: pure-ASCII junction C:\kdo-offsite -> Nutstore kdo-backup.
+rem Junction created 2026-09-01; recreate if missing: mklink /J C:\kdo-offsite "C:\Users\Administrator\Nutstore\1\我的坚果云\kdo-backup"
+set "DEST=C:\kdo-offsite\kdo-backup"
 set "LOG=%SRC%\wiki-bundle-offsite.log"
 
 rem --- ISO date stamp (locale-independent, avoid cmd for /f quote pitfall) ---
