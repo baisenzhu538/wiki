@@ -102,4 +102,25 @@ tags:
 
 ---
 
+## 已挂载skills
+
+- research-core: 调研能力层统一入口（基础能力层，全员必挂 #594：OSCAR 意图路由→核心纪律→专项武器库）
+- research: 商业调研入口（#594 已并入 research-core 的兼容薄壳，保留旧引用）
+- research-cross-validation: 调研交叉验证——信源层级 L1-L6（research-core 纪律层·交叉验证主源）
+- six-layer-cross-validation: 六层交叉验证——来源/时间/逻辑/数据/反例/行动六维（research-core 纪律层·交叉验证辅源）
+- research-quality-gate: 调研质量六维门禁（research-core 纪律层·质量门禁）
+- nine-layer-deep-dig: 九层深挖法——业务公式到决策框架（research-core 纪律层·深挖引擎主框架）
+- research-sats: CIA SATs 结构化分析技术（research-core 纪律层·深挖引擎分析技术）
+- research-industry-report: 行业报告调研——Doris 四步法+搜索七技（research-core 武器库）
+- research-financial-report: 上市公司财报/招股书深度解读（research-core 武器库）
+- research-expert-interview: 专家访谈调研——黄金十步法（research-core 武器库）
+- research-alt-data: 替代数据调研——按预算分级数据源（research-core 武器库）
+- research-osint: OSINT 开源情报工具链（research-core 武器库）
+- research-web-scraping: 全网爬虫调研——10 大工具+合规红线（research-core 武器库）
+- research-google-dorking: Google Dorking+DNS/SSL 域名情报（research-core 武器库）
+- research-media-verification: OSINT 媒体验证链（research-core 武器库）
+- research-multi-agent: 多 Agent 协作调研——四架构（research-core 武器库）
+- research-ci-framework: CI 竞争情报系统——持续循环（research-core 武器库）
+- knowledge-collision: 产出前知识碰撞工作流（research-core 前置纪律，通用保留独立）
+
 > 版本：v1.2（2026-08-23 老朱拍板：看板定期瘦身=编排者职责，收尾五件事+每周一执行节奏；叠加 v1.1 上板冻结口径）

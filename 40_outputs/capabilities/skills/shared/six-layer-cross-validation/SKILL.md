@@ -1,6 +1,6 @@
 ---
 name: six-layer-cross-validation
-description: 六层交叉验证——从来源/时间/逻辑/数据/反例/行动六维度检验信息可信度
+description: 【research-core 纪律层·交叉验证】六层交叉验证——从来源/时间/逻辑/数据/反例/行动六维度检验信息可信度
 version: 1.0.0
 author: 王语嫣
 metadata:

@@ -1,6 +1,6 @@
 ﻿---
 name: research-quality-gate
-description: 调研质量自检——六维门禁，提交前的最后一道关
+description: 【research-core 纪律层·质量门禁】调研质量自检——六维门禁，提交前的最后一道关
 version: 1.0.0
 author: 黄药师
 license: MIT

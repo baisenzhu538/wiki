@@ -1,6 +1,6 @@
 ﻿---
 name: research-sats
-description: CIA SATs结构化分析技术——Key Assumptions Check/Devils Advocacy/Red Team/Indicators
+description: 【research-core 纪律层·深挖引擎】CIA SATs结构化分析技术——Key Assumptions Check/Devils Advocacy/Red Team/Indicators
 version: 1.0.0
 author: 黄药师
 license: MIT

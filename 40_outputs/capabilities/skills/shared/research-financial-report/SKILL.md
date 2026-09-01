@@ -1,6 +1,6 @@
 ---
 name: research-financial-report
-description: 上市公司财报/招股书深度解读——基于一堂方法论+Doris行业报告体系
+description: 【research-core 武器库·财报】上市公司财报/招股书深度解读——基于一堂方法论+Doris行业报告体系
 version: 1.0.0
 author: 黄药师
 license: MIT

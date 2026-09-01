@@ -1,6 +1,6 @@
 ﻿---
 name: research-multi-agent
-description: 多Agent协作调研——Supervisor/Swarm/Pipeline/Hybrid四种架构
+description: 【research-core 武器库·多Agent】多Agent协作调研——Supervisor/Swarm/Pipeline/Hybrid四种架构
 version: 1.0.0
 author: 黄药师
 license: MIT

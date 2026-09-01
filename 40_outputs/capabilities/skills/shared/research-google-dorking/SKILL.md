@@ -1,6 +1,6 @@
 ﻿---
 name: research-google-dorking
-description: Google Dorking高级搜索+DNS/SSL域名情报——零成本挖出竞对隐藏信息
+description: 【research-core 武器库·Dorking/域名情报】Google Dorking高级搜索+DNS/SSL域名情报——零成本挖出竞对隐藏信息
 version: 1.0.0
 author: 黄药师
 license: MIT

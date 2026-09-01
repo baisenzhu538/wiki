@@ -1,0 +1,21 @@
+name: research-core
+version: 1.0.0
+author: Skills 助理（#594 整合生产，黄药师原 research 入口并入）
+adapted_from: business-research-skill-oscar-13-weapon-system
+description: "统一调研入口（全 agent 基础能力层）——OSCAR 意图路由→核心纪律（交叉验证+质量门禁+深挖引擎）→专项武器库按需载。触发：调研/查证/深挖/尽调/行业分析/竞品分析/情报收集。非调研任务不路由进本层。"
+scope: shared
+trigger:
+  natural_language:
+    - 调研、帮我查、分析一下、做个调研、尽调
+    - 行业分析、竞品分析、市场研究、这个公司怎么样、这个赛道
+    - 验证断言、查证、核实、fact check、数据靠不靠谱、验证这个说法、这个说法靠不靠谱、数据核验
+    - 深挖、深度分析、风险画像、帮我深挖
+    - 情报收集、对标分析、OSINT
+    - 决策前调研、要不要做XX先调研下
+适用agent:
+  - 全员（基础能力层：全部 10 个 agent-spec「已挂载skills」节 + 全部 11 个 agents 实例，2026-09-02 #594 挂载）
+  - 王语嫣（调研主岗：武器库/纪律层原有引用并入本入口）
+  - 欧阳锋（终审验证：交叉验证/深挖引用并入本入口）
+  - 黄药师（基建调研：深挖引擎引用并入本入口）
+changelog:
+  - "2026-09-02 #594 初始生产：17 skill（14 research 系 + 3 近亲）P1 三层判定 → research-core 统一入口诞生；research 原入口改薄壳重定向；本卡挂载全部 agent-spec「已挂载skills」节（10 个）+ 全部 agents 实例（11 个）"

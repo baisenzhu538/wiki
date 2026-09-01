@@ -129,3 +129,4 @@ tags:
 - domain-iteration: 域迭代五阶段法入口
 - kdo-self-attack: 终审前四路对抗自攻击
 - deep-debug: 复杂系统问题深度调试（#593 U3 配置流挂载，2026-09-01，欧阳锋 debug 域缺口）
+- research-core: 调研能力层统一入口（基础能力层，全员必挂 #594：OSCAR 意图路由→核心纪律→专项武器库）

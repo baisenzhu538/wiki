@@ -1,6 +1,6 @@
 ﻿---
 name: research-alt-data
-description: 替代数据调研——从免费层到百万级，按预算分级推荐数据源
+description: 【research-core 武器库·替代数据】替代数据调研——从免费层到百万级，按预算分级推荐数据源
 version: 1.0.0
 author: 黄药师
 license: MIT

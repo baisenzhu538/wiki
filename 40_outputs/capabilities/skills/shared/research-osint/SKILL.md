@@ -1,6 +1,6 @@
 ---
 name: research-osint
-description: OSINT开源情报工具链——SpiderFoot/Maltego/Shodan/Sherlock/Wayback，老顽童2026盲区发现
+description: 【research-core 武器库·OSINT】OSINT开源情报工具链——SpiderFoot/Maltego/Shodan/Sherlock/Wayback，老顽童2026盲区发现
 version: 1.0.0
 author: 黄药师
 license: MIT

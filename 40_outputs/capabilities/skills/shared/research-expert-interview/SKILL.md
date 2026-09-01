@@ -1,6 +1,6 @@
 ---
 name: research-expert-interview
-description: 专家访谈调研——黄金十步法，2小时内获取行业共识
+description: 【research-core 武器库·专家访谈】专家访谈调研——黄金十步法，2小时内获取行业共识
 version: 1.0.0
 author: 黄药师
 license: MIT

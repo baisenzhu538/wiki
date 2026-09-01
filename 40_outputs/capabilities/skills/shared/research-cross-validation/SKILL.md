@@ -1,6 +1,6 @@
 ---
 name: research-cross-validation
-description: 调研交叉验证——六层验证框架+多重身份验证，每条核心结论≥2个独立来源
+description: 【research-core 纪律层·交叉验证】调研交叉验证——六层验证框架+多重身份验证，每条核心结论≥2个独立来源
 version: 1.0.0
 author: 黄药师
 license: MIT

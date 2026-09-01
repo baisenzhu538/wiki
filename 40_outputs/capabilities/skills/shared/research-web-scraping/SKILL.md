@@ -1,6 +1,6 @@
 ---
 name: research-web-scraping
-description: 全网爬虫调研——10大工具+合规红线，对应一堂武器库逆向数据分析板块
+description: 【research-core 武器库·爬虫】全网爬虫调研——10大工具+合规红线，对应一堂武器库逆向数据分析板块
 version: 1.0.0
 author: 黄药师
 license: MIT

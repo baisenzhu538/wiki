@@ -1,6 +1,6 @@
 ---
 name: nine-layer-deep-dig
-description: 九层深挖法——从业务公式到决策框架的自我纠错式迭代分析
+description: 【research-core 纪律层·深挖引擎】九层深挖法——从业务公式到决策框架的自我纠错式迭代分析
 version: 1.0.0
 author: 老顽童
 metadata:

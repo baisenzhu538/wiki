@@ -1,6 +1,6 @@
 ---
 name: research-industry-report
-description: 行业报告调研——Doris四步法+搜索七技，7天快速建立行业认知
+description: 【research-core 武器库·行业报告】行业报告调研——Doris四步法+搜索七技，7天快速建立行业认知
 version: 1.0.0
 author: 黄药师
 license: MIT
