@@ -359,3 +359,8 @@
 - [2026-09-02 00:27] ⚖️ KDO 已终审 1 单：#595（待部署/已闭环）
 - [2026-09-02 00:35] 🚀 已立项 #599（skills-assistant）：根目录54个legacy skill处置——老朱拍板升级版「能用的上架登记；认为没用的先全网调研按工作流标准重造评估，确实没救才报废」；Phase1只读评估立即可跑，Phase2物理搬移等#597收口错峰；报废零执行+王语嫣复核；任务单 60_feedback/tasks/task_20260902_skills-assistant-legacy53-evaluate-revive.md
 - [2026-09-02 00:40] 🚀 已拉起 skills-assistant headless 执行 #599 Phase1（proc_31602953892d，探针先通后发正式长任务）：54个legacy skill逐个评估三分法，产出建议书 60_feedback/diagnosis/建议书_20260902_legacy53_评估与重造方案.md；预期产物=裁决表+三批立项建议；完成后 complete 599 提审
+- [2026-09-02 00:57] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#596（laowantong 的单，挂审 31min）；#599（skills-assistant 的单，挂审 3min）（到点（节奏 30min））
+- [2026-09-02 00:57] ⛔ KDO 门禁拦截 3 次（gate-blocked）：2026-09-02 00:53:44｜task_20260902_skills-assistant-legacy53-evaluate-r…
+- [2026-09-02 00:58] ⚖️ #599 编排层复核完成（报废批9项=同意6+缓3：image-ocr-easyocr/long-image-ocr/deep-image-parser 因 90_control/AGENTS.md 图片纪律首选路径指向它，直废会断链，时序改为 R6 统一解析落地后先改 AGENTS.md 再报废；builtin 4 项转议题待老朱裁口径）；迁移批27+重造批6及优先级 R6>R1>R2>R5>R3>R4 均批准；复核意见已附建议书尾部
+- [2026-09-02 01:00] 🔓 #597 放行：#595 已终审（依赖满足），clock-watchdog-skip.json 已清空
+- [2026-09-02 01:02] 🚀 已拉起 ouyangfeng headless（proc_9eba7424842b）双审 #596+#599（队列序，独立复核非采信 self-report）
