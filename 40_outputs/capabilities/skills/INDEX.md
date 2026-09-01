@@ -1,6 +1,6 @@
 # Skills 目录索引（INDEX）
 
-> #588 扫描生成物（生成时间 2026-09-01 11:00，共 73 个 skill）。
+> #588 扫描生成物（生成时间 2026-09-01 14:34，共 75 个 skill）。
 > **真相源 = 各 skill 的 SKILL.md frontmatter**；本文件是生成物，勿手改——
 > 新增/下架 skill 后重跑 `python 40_outputs/code/scripts/scan_skills_registry.py` 刷新。
 > 挂载现状对照见同目录 `MOUNT-MATRIX.md`；登记/维护归 Skills 助理（#587 分工表）。
@@ -27,7 +27,7 @@
 | 18 | `decision-hygiene` | 决策卫生五步法——团队判断降噪，减少噪声而非偏差 | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/decision-hygiene | （无） |
 | 19 | `decision-prediction` | 预判模型——从最糙版到复杂版的三种预判范式 | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/decision-prediction | （无） |
 | 20 | `decision-y-model` | Y模型实操——知行合一+矛盾论+实践论，科学成事的底层操作系统 | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/decision-y-model | （无） |
-| 21 | `deep-debug` | Use this skill when encountering complex system problems that cannot be quickly  | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/deep-debug | skills-assistant |
+| 21 | `deep-debug` | Use this skill when encountering complex system problems that cannot be quickly  | 复杂bug原因不明、多假设排查；间歇性问题、性能问题、数据不一致；修了多次不好、需要根因分析；系统性调试方法论 | （自建，无来源卡） | shared/deep-debug | agent-spec-huangyaoshi-builder、agent-spec-skills-assistant、skills-assistant |
 | 22 | `demand-analysis` | 需求分析总入口——USP快速拆解+冰山六层深挖+JTBD教练+评估三角形 | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/demand-analysis | （无） |
 | 23 | `demand-analysis-blindspot` | 需求盲区扫描——2B/2C全量维度检查，MECE穷举 | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/demand-analysis-blindspot | （无） |
 | 24 | `demand-analysis-evaluate` | 需求评估——判断真伪/大小/紧迫，评估三角形+四种力量 | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/demand-analysis-evaluate | （无） |
@@ -46,43 +46,45 @@
 | 37 | `kdo-self-attack` | KDO知识自攻击——用对抗Agent主动找出知识卡片的弱点，在用户发现之前自我修复 | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/kdo-self-attack | 黄药师、老顽童、欧阳锋、agent-spec-huangyaoshi-builder、agent-spec-ouyangfeng-reviewer |
 | 38 | `knowledge-collision`（frontmatter name=knowledge-collision-workflow） | 产出前先碰撞知识库——不只是查询定义，而是拿当前问题去测试已有框架，找出对得上、对不上、缺什么的地方。适用于写作、商业分析、咨询、AI辅助产出等所有需要综合多知 | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/knowledge-collision | 王语嫣 |
 | 39 | `multi-page-article-capture` | 多页文章自动抓取拼接。模仿 Kimi WebBridge 模式——浏览器遍历目录/分页 → DOM文本提取（非截图OCR）→ 去重拼接 → 输出完整 Markd | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/multi-page-article-capture | 老顽童、agent-spec-hongqigong-multimodal |
-| 40 | `nine-layer-deep-dig` | 九层深挖法——从业务公式到决策框架的自我纠错式迭代分析 | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/nine-layer-deep-dig | 黄药师 |
-| 41 | `pre-ship-check` | Pre-publish gate check for content before shipping to any channel. Checks channe | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/pre-ship-check | 欧阳锋、段王爷 |
-| 42 | `presenton-ppt-generator` | Presenton 开源 AI PPT 生成器。Docker 一键部署，支持 Ollama 本地 LLM，AI 将 PPTX/PDF 转为可复用模板，输出 PP | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/presenton-ppt-generator | 段王爷、agent-spec-hongqigong-multimodal |
-| 43 | `research` | 商业调研总入口——基于一堂OSCAR方法论+武器库，自动路由到对应子Skill | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/research | （无） |
-| 44 | `research-alt-data` | 替代数据调研——从免费层到百万级，按预算分级推荐数据源 | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/research-alt-data | （无） |
-| 45 | `research-ci-framework` | CI竞争情报系统——Define→Gather→Analyze→Implement持续循环 | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/research-ci-framework | （无） |
-| 46 | `research-cross-validation` | 调研交叉验证——六层验证框架+多重身份验证，每条核心结论≥2个独立来源 | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/research-cross-validation | 王语嫣、欧阳锋 |
-| 47 | `research-expert-interview` | 专家访谈调研——黄金十步法，2小时内获取行业共识 | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/research-expert-interview | 王语嫣 |
-| 48 | `research-financial-report` | 上市公司财报/招股书深度解读——基于一堂方法论+Doris行业报告体系 | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/research-financial-report | （无） |
-| 49 | `research-google-dorking` | Google Dorking高级搜索+DNS/SSL域名情报——零成本挖出竞对隐藏信息 | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/research-google-dorking | （无） |
-| 50 | `research-industry-report` | 行业报告调研——Doris四步法+搜索七技，7天快速建立行业认知 | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/research-industry-report | （无） |
-| 51 | `research-media-verification` | OSINT媒体验证链——反向图片搜索→元数据提取→时间/天气/阴影验证 | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/research-media-verification | （无） |
-| 52 | `research-multi-agent` | 多Agent协作调研——Supervisor/Swarm/Pipeline/Hybrid四种架构 | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/research-multi-agent | （无） |
-| 53 | `research-osint` | OSINT开源情报工具链——SpiderFoot/Maltego/Shodan/Sherlock/Wayback，老顽童2026盲区发现 | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/research-osint | （无） |
-| 54 | `research-quality-gate` | 调研质量自检——六维门禁，提交前的最后一道关 | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/research-quality-gate | （无） |
-| 55 | `research-sats` | CIA SATs结构化分析技术——Key Assumptions Check/Devils Advocacy/Red Team/Indicators | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/research-sats | （无） |
-| 56 | `research-web-scraping` | 全网爬虫调研——10大工具+合规红线，对应一堂武器库逆向数据分析板块 | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/research-web-scraping | （无） |
-| 57 | `self-evolution` | Self-iterating evolution skill — periodic memory/self-check, error-to-skill闭环, u | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/self-evolution | 黄药师、欧阳锋 |
-| 58 | `six-layer-cross-validation` | 六层交叉验证——从来源/时间/逻辑/数据/反例/行动六维度检验信息可信度 | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/six-layer-cross-validation | 欧阳锋、agent-spec-ouyangfeng-reviewer |
-| 59 | `stage-1-diagnose` | 域诊断——素材验收+置信度标记+盲区识别+任务清单生成（王语嫣模式） | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/stage-1-diagnose | 王语嫣、research-explosion-partner |
-| 60 | `stage-2-skeleton` | 域骨架建设——从口述稿提取框架卡+概念卡+域索引入口卡（老顽童模式） | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/stage-2-skeleton | 王语嫣 |
-| 61 | `stage-3-tooling` | 域工具化——Tool卡+Claude Code Skill+AI提示词（老顽童+黄药师模式） | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/stage-3-tooling | 王语嫣 |
-| 62 | `stage-4-validate` | 域验证——Agent用域内卡片执行真实任务，记录失败，补缺修正（DDC模式） | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/stage-4-validate | 王语嫣 |
-| 63 | `stage-5-assetize` | 域资产化——Workflow串联+模板固化+域索引更新+发布（全厂模式） | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/stage-5-assetize | 王语嫣 |
-| 64 | `strategy` | 企业战略总入口——冉鹏30年经验，判断阶段+路由子Skill | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/strategy | （无） |
-| 65 | `strategy-brm` | BRM战略框架——差距分析→战略规划→执行，冉鹏方法论核心闭环 | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/strategy-brm | （无） |
-| 66 | `strategy-diagnose` | 战略九问题诊断——方向/目标/定位/路径/共识/组织/能力/资源/机制 | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/strategy-diagnose | （无） |
-| 67 | `strategy-lifecycle` | 战略六阶段模型——初创→吃饱→吃好→吃撑→吃吐，不同阶段不同打法 | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/strategy-lifecycle | （无） |
-| 68 | `strategy-workshop` | 战略会议准备包——基于冉鹏30年方法论，输出议程+预诊断+六要素工作坊模板+执行方针 | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/strategy-workshop | （无） |
-| 69 | `task-orchestration` | 任务编排者工作台——分诊排序、返工轮次护栏、首交通过率跟踪、队列健康例行扫描。触发词：排任务、入队、队列排序、分诊、这个任务什么优先级、返工几轮了、首交率、队列 | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/task-orchestration | 王语嫣 |
-| 70 | `visual-asset-analysis` | Unified visual asset analysis pipeline. Routes images through OCR (text extracti | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/visual-asset-analysis | 洪七公 |
-| 71 | `visual-polish` | Polish AI-generated visual assets to remove AI-feel and template-feel. The visua | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/visual-polish | 洪七公 |
-| 72 | `vlm-image-describe-pipeline` | VLM 视觉语言模型批量识图管线。双引擎架构（MiniMax M3 主力 + SiliconFlow Qwen-VL 备选），将目录下所有图片批量转为结构化 J | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/vlm-image-describe-pipeline | 洪七公、agent-spec-hongqigong-multimodal |
-| 73 | `wan-video-generation` | Wan 2.2 开源 AI 视频生成。阿里巴巴出品，Apache 2.0 完全商用。2026年开源视频质量之王——文本/图片→5秒高清视频，支持 GGUF 量化 | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/wan-video-generation | 洪七公、agent-spec-hongqigong-multimodal |
+| 40 | `nine-character-ai-collaboration` | 九字诀 AI 协作策略——用"明确目标、控过程的节奏、做纠偏"14 策略指导与 AI 的调研/建模/分析对话。触发场景：与 AI 对话前定目标补上下文、AI 输 | 与AI对话目标不清、上下文缺失；AI输出失控、跑偏、跳步要拉回；与AI做调研/建模/分析对话前定目标；培训团队用AI协作… | tool-nine-character-mantra-14-strategies | shared/nine-character-ai-collaboration | （无） |
+| 41 | `nine-layer-deep-dig` | 九层深挖法——从业务公式到决策框架的自我纠错式迭代分析 | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/nine-layer-deep-dig | 黄药师 |
+| 42 | `pre-ship-check` | Pre-publish gate check for content before shipping to any channel. Checks channe | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/pre-ship-check | 欧阳锋、段王爷 |
+| 43 | `presenton-ppt-generator` | Presenton 开源 AI PPT 生成器。Docker 一键部署，支持 Ollama 本地 LLM，AI 将 PPTX/PDF 转为可复用模板，输出 PP | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/presenton-ppt-generator | 段王爷、agent-spec-hongqigong-multimodal |
+| 44 | `research` | 商业调研总入口——基于一堂OSCAR方法论+武器库，自动路由到对应子Skill | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/research | （无） |
+| 45 | `research-alt-data` | 替代数据调研——从免费层到百万级，按预算分级推荐数据源 | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/research-alt-data | （无） |
+| 46 | `research-ci-framework` | CI竞争情报系统——Define→Gather→Analyze→Implement持续循环 | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/research-ci-framework | （无） |
+| 47 | `research-cross-validation` | 调研交叉验证——六层验证框架+多重身份验证，每条核心结论≥2个独立来源 | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/research-cross-validation | 王语嫣、欧阳锋 |
+| 48 | `research-expert-interview` | 专家访谈调研——黄金十步法，2小时内获取行业共识 | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/research-expert-interview | 王语嫣 |
+| 49 | `research-financial-report` | 上市公司财报/招股书深度解读——基于一堂方法论+Doris行业报告体系 | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/research-financial-report | （无） |
+| 50 | `research-google-dorking` | Google Dorking高级搜索+DNS/SSL域名情报——零成本挖出竞对隐藏信息 | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/research-google-dorking | （无） |
+| 51 | `research-industry-report` | 行业报告调研——Doris四步法+搜索七技，7天快速建立行业认知 | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/research-industry-report | （无） |
+| 52 | `research-media-verification` | OSINT媒体验证链——反向图片搜索→元数据提取→时间/天气/阴影验证 | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/research-media-verification | （无） |
+| 53 | `research-multi-agent` | 多Agent协作调研——Supervisor/Swarm/Pipeline/Hybrid四种架构 | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/research-multi-agent | （无） |
+| 54 | `research-osint` | OSINT开源情报工具链——SpiderFoot/Maltego/Shodan/Sherlock/Wayback，老顽童2026盲区发现 | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/research-osint | （无） |
+| 55 | `research-quality-gate` | 调研质量自检——六维门禁，提交前的最后一道关 | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/research-quality-gate | （无） |
+| 56 | `research-sats` | CIA SATs结构化分析技术——Key Assumptions Check/Devils Advocacy/Red Team/Indicators | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/research-sats | （无） |
+| 57 | `research-web-scraping` | 全网爬虫调研——10大工具+合规红线，对应一堂武器库逆向数据分析板块 | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/research-web-scraping | （无） |
+| 58 | `self-evolution` | Self-iterating evolution skill — periodic memory/self-check, error-to-skill闭环, u | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/self-evolution | 黄药师、欧阳锋 |
+| 59 | `six-layer-cross-validation` | 六层交叉验证——从来源/时间/逻辑/数据/反例/行动六维度检验信息可信度 | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/six-layer-cross-validation | 欧阳锋、agent-spec-ouyangfeng-reviewer |
+| 60 | `skill-architecture-design` | 用 Anthropic 官方范式设计 skill 的架构：先评任务自由度（悬崖窄桥→外挂脚本/开阔平原→文字引导），再按选型口诀定范式，按四层模块架构（身份加载 | 设计新skill的架构、SKILL.md怎么组织；skill主文件膨胀、触发不准、description写法；评估skill质量、触发准确率、采纳率；自由度匹配、架构范式选型… | method-anthropic-skill-design-patterns | shared/skill-architecture-design | （无） |
+| 61 | `stage-1-diagnose` | 域诊断——素材验收+置信度标记+盲区识别+任务清单生成（王语嫣模式） | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/stage-1-diagnose | 王语嫣、research-explosion-partner |
+| 62 | `stage-2-skeleton` | 域骨架建设——从口述稿提取框架卡+概念卡+域索引入口卡（老顽童模式） | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/stage-2-skeleton | 王语嫣 |
+| 63 | `stage-3-tooling` | 域工具化——Tool卡+Claude Code Skill+AI提示词（老顽童+黄药师模式） | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/stage-3-tooling | 王语嫣 |
+| 64 | `stage-4-validate` | 域验证——Agent用域内卡片执行真实任务，记录失败，补缺修正（DDC模式） | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/stage-4-validate | 王语嫣 |
+| 65 | `stage-5-assetize` | 域资产化——Workflow串联+模板固化+域索引更新+发布（全厂模式） | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/stage-5-assetize | 王语嫣 |
+| 66 | `strategy` | 企业战略总入口——冉鹏30年经验，判断阶段+路由子Skill | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/strategy | （无） |
+| 67 | `strategy-brm` | BRM战略框架——差距分析→战略规划→执行，冉鹏方法论核心闭环 | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/strategy-brm | （无） |
+| 68 | `strategy-diagnose` | 战略九问题诊断——方向/目标/定位/路径/共识/组织/能力/资源/机制 | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/strategy-diagnose | （无） |
+| 69 | `strategy-lifecycle` | 战略六阶段模型——初创→吃饱→吃好→吃撑→吃吐，不同阶段不同打法 | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/strategy-lifecycle | （无） |
+| 70 | `strategy-workshop` | 战略会议准备包——基于冉鹏30年方法论，输出议程+预诊断+六要素工作坊模板+执行方针 | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/strategy-workshop | （无） |
+| 71 | `task-orchestration` | 任务编排者工作台——分诊排序、返工轮次护栏、首交通过率跟踪、队列健康例行扫描。触发词：排任务、入队、队列排序、分诊、这个任务什么优先级、返工几轮了、首交率、队列 | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/task-orchestration | 王语嫣 |
+| 72 | `visual-asset-analysis` | Unified visual asset analysis pipeline. Routes images through OCR (text extracti | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/visual-asset-analysis | 洪七公 |
+| 73 | `visual-polish` | Polish AI-generated visual assets to remove AI-feel and template-feel. The visua | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/visual-polish | 洪七公 |
+| 74 | `vlm-image-describe-pipeline` | VLM 视觉语言模型批量识图管线。双引擎架构（MiniMax M3 主力 + SiliconFlow Qwen-VL 备选），将目录下所有图片批量转为结构化 J | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/vlm-image-describe-pipeline | 洪七公、agent-spec-hongqigong-multimodal |
+| 75 | `wan-video-generation` | Wan 2.2 开源 AI 视频生成。阿里巴巴出品，Apache 2.0 完全商用。2026年开源视频质量之王——文本/图片→5秒高清视频，支持 GGUF 量化 | （未登记，补 manifest.trigger.natural_language） | （自建，无来源卡） | shared/wan-video-generation | 洪七公、agent-spec-hongqigong-multimodal |
 
 ## 待补登记（缺口清单，Skills 助理维护面）
-- 缺 trigger.natural_language：73 个（触发词路由不可用，建议按 anti-ai-bs-three-moves manifest 先例补）
+- 缺 trigger.natural_language：72 个（触发词路由不可用，建议按 anti-ai-bs-three-moves manifest 先例补）
 - 缺 adapted_from 来源卡：73 个
 - frontmatter name 与目录名不一致：['content-production-polish', 'knowledge-collision']
 

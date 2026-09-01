@@ -47,6 +47,7 @@ WINDOWS_PROFILES = [
     "basic-skills-coach", "coaching-leadership-assistant", "duanwangye",
     "hongqigong", "laowantong", "meeting-assistant", "note-coach", "wangyuyan",
     "beikai",  # #351 遗留③：洪七公迁 Windows 后收口（欧阳锋 2026-08-18）
+    "skills-assistant",  # #593 Skills 助理部署（工厂第 7 角色，老朱 0901 直令）
 ]
 # 2026-08-31: WSL 已废除——清空此列表。旧值留档：beikai/duan/duanwangye/kimi-test/
 # laowantong/laowantong-feishu/ouyangfeng/wangyuyan（均已迁 Windows 侧）

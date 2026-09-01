@@ -52,3 +52,4 @@ python kdo-tools/feature_menu.py pick --n 3  # 确认点菜可用
 | Agent | 状态 | 注册日期 |
 |:--|:--|:--|
 | basic-skills-coach | active | 2026-08-09 |
+| skills-assistant | active | 2026-09-01（#593 部署，30_wiki/agent-specs/agent-spec-skills-assistant.md） |

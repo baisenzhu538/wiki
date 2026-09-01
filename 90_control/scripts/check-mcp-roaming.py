@@ -29,6 +29,7 @@ WINDOWS_HERMES = Path(r"C:\Users\Administrator\.hermes\profiles")
 WINDOWS_PROFILES = [
     "basic-skills-coach", "coaching-leadership-assistant", "duanwangye",
     "hongqigong", "laowantong", "meeting-assistant", "note-coach", "wangyuyan",
+    "skills-assistant",  # #593 Skills 助理部署（工厂第 7 角色，老朱 0901 直令）
 ]
 WSL_PROFILES = [
     "beikai", "duan", "duanwangye", "kimi-test",

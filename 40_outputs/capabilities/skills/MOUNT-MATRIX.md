@@ -1,6 +1,6 @@
 # Agent × Skill 挂载矩阵（MOUNT-MATRIX）
 
-> #588 扫描生成物（生成时间 2026-09-01 11:00）。**登记制：文件引用即挂载**（含历史引用，
+> #588 扫描生成物（生成时间 2026-09-01 14:34）。**登记制：文件引用即挂载**（含历史引用，
 > 与「实际运行时可用」可能有出入——引用面是登记真相源）。生成物勿手改，
 > 重跑 `python 40_outputs/code/scripts/scan_skills_registry.py` 刷新；挂载变更走 #587 Skills 助理。
 
@@ -9,10 +9,11 @@
 | 挂载单元 | 层 | 挂载 skill 数 | skill 清单 |
 |:--|:--|--:|:--|
 | agent-spec-hongqigong-multimodal | agent-spec | 9 | `beikai-multimodal-pipeline`、`comfyui-local`、`content-production-polish`、`cosyvoice-tts`、`drawio-mcp-diagrams`、`multi-page-article-capture`、`presenton-ppt-generator`、`vlm-image-describe-pipeline`、`wan-video-generation` |
-| agent-spec-huangyaoshi-builder | agent-spec | 3 | `agent-self-iteration`、`domain-iteration`、`kdo-self-attack` |
+| agent-spec-huangyaoshi-builder | agent-spec | 4 | `agent-self-iteration`、`deep-debug`、`domain-iteration`、`kdo-self-attack` |
 | agent-spec-duanwangye-publisher | agent-spec | 2 | `content-production-polish`、`feishu-publish` |
 | agent-spec-ouyangfeng-reviewer | agent-spec | 2 | `kdo-self-attack`、`six-layer-cross-validation` |
 | agent-spec-laowantong-producer | agent-spec | 1 | `content-production` |
+| agent-spec-skills-assistant | agent-spec | 1 | `deep-debug` |
 | agent-spec-fengqingyang-observer | agent-spec | 0 | （无 skill 引用） |
 | agent-spec-wangyuyan-orchestrator | agent-spec | 0 | （无 skill 引用） |
 | agent-spec-zhu-ai-coach | agent-spec | 0 | （无 skill 引用） |
@@ -39,7 +40,6 @@
 
 | skill | 状态 | 已挂载单元 | 可挂建议 |
 |:--|:--|:--|:--|
-| `deep-debug` | 单点挂载 | skills-assistant | — |
 | `agent-self-iteration` | 已挂载 | 黄药师、agent-spec-huangyaoshi-builder | — |
 | `beikai-multimodal-pipeline` | 已挂载 | 洪七公、agent-spec-hongqigong-multimodal | — |
 | `comfyui-local` | 已挂载 | 洪七公、agent-spec-hongqigong-multimodal | — |
@@ -48,6 +48,7 @@
 | `content-production-polish` | 已挂载 | 老顽童、agent-spec-duanwangye-publisher、agent-spec-hongqigong-multimodal、coaching-leadership-assistant | — |
 | `content-production-positioning` | 已挂载 | 老顽童 | — |
 | `cosyvoice-tts` | 已挂载 | 洪七公、agent-spec-hongqigong-multimodal | — |
+| `deep-debug` | 已挂载 | agent-spec-huangyaoshi-builder、agent-spec-skills-assistant、skills-assistant | — |
 | `domain-iteration` | 已挂载 | 黄药师、老顽童、agent-spec-huangyaoshi-builder | — |
 | `drawio-mcp-diagrams` | 已挂载 | 洪七公、agent-spec-hongqigong-multimodal | — |
 | `feishu-publish` | 已挂载 | 段王爷、agent-spec-duanwangye-publisher | — |
@@ -95,6 +96,7 @@
 | `five-step-growth` | 无主 | （无） | 王语嫣 |
 | `five-step-product` | 无主 | （无） | 王语嫣 |
 | `hermes-multi-bot-feishu-setup` | 无主 | （无） | 黄药师 |
+| `nine-character-ai-collaboration` | 无主 | （无） | 待议 |
 | `research` | 无主 | （无） | 王语嫣 |
 | `research-alt-data` | 无主 | （无） | 王语嫣 |
 | `research-ci-framework` | 无主 | （无） | 王语嫣 |
@@ -107,6 +109,7 @@
 | `research-quality-gate` | 无主 | （无） | 王语嫣 |
 | `research-sats` | 无主 | （无） | 王语嫣 |
 | `research-web-scraping` | 无主 | （无） | 王语嫣 |
+| `skill-architecture-design` | 无主 | （无） | 洪七公 |
 | `strategy` | 无主 | （无） | 王语嫣 |
 | `strategy-brm` | 无主 | （无） | 王语嫣 |
 | `strategy-diagnose` | 无主 | （无） | 王语嫣 |
@@ -117,9 +120,9 @@
 
 - ℹ️ 角色路由另引用 3 个**根目录 legacy skill**（不在 shared/ 73 登记面，未计入上表）：`anti-ai-bs-three-moves`、`author-targeted-collect`、`distill-own-skill`——是否迁入 shared 归 Skills 助理裁定
 
-- **无主 skill：41 个**（任何登记处零引用——先判定归属或明确废弃）
-- **单点挂载：1 个**（仅 1 单元引用——评估是否值得推广挂载）
-- **已挂载：31 个**
+- **无主 skill：43 个**（任何登记处零引用——先判定归属或明确废弃）
+- **单点挂载：0 个**（仅 1 单元引用——评估是否值得推广挂载）
+- **已挂载：32 个**
 
 ### 无主 skill 归属建议（关键词启发式，机械可审计；落地由 Skills 助理登记）
 
@@ -147,6 +150,7 @@
 - `five-step-growth` → 建议 王语嫣
 - `five-step-product` → 建议 王语嫣
 - `hermes-multi-bot-feishu-setup` → 建议 黄药师
+- `nine-character-ai-collaboration` → 建议 待议
 - `research` → 建议 王语嫣
 - `research-alt-data` → 建议 王语嫣
 - `research-ci-framework` → 建议 王语嫣
@@ -159,6 +163,7 @@
 - `research-quality-gate` → 建议 王语嫣
 - `research-sats` → 建议 王语嫣
 - `research-web-scraping` → 建议 王语嫣
+- `skill-architecture-design` → 建议 洪七公
 - `strategy` → 建议 王语嫣
 - `strategy-brm` → 建议 王语嫣
 - `strategy-diagnose` → 建议 王语嫣

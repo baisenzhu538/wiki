@@ -1,0 +1,18 @@
+name: skill-architecture-design
+version: 1.0.0
+author: Skills 助理（#593 U2 部署实跑）
+adapted_from: method-anthropic-skill-design-patterns
+description: 用 Anthropic 官方范式设计 skill 的架构：先评任务自由度（悬崖窄桥→外挂脚本/开阔平原→文字引导），再按选型口诀定范式，按四层模块架构（身份加载/逻辑智能/执行工具/资源支撑）产出，过执行宪法自检与五维量化评价。触发场景：新 skill 的架构设计阶段、SKILL.md 结构评审、skill 触发描述（description SEO）编写、skill 质量评估。产出：架构选型判定+四层骨架+宪法自检清单。
+scope: shared
+trigger:
+  natural_language:
+    - 设计新skill的架构、SKILL.md怎么组织
+    - skill主文件膨胀、触发不准、description写法
+    - 评估skill质量、触发准确率、采纳率
+    - 自由度匹配、架构范式选型
+    - Anthropic skill设计模式、高阶skill设计
+适用agent: 全员（shared 默认可见；黄药师/skills-assistant/老顽童产 skill 时主用）
+related_skills:
+  - tool-ai-skill-engineering-guide
+changelog:
+  - "2026-09-01 v1.0.0: #593 U2 部署用例行化——P1 Go 判定+P2 生产（外部锚点=Anthropic 官方 skills 工程博客实测命中）+互链 tool-ai-skill-engineering-guide（设计向vs流程向不撞车），欧阳锋终审待审"

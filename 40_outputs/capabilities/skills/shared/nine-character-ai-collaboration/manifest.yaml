@@ -1,0 +1,16 @@
+name: nine-character-ai-collaboration
+version: 1.0.0
+author: Skills 助理（#593 U1 部署实跑）
+adapted_from: tool-nine-character-mantra-14-strategies
+description: 九字诀 AI 协作策略——用"明确目标、控过程的节奏、做纠偏"14 策略指导与 AI 的调研/建模/分析对话。触发场景：与 AI 对话前定目标补上下文、AI 输出失控或跑偏要拉回、培训团队用 AI。产出：14 策略速查+可照抄话术模板+失败模式对照表。
+scope: shared
+trigger:
+  natural_language:
+    - 与AI对话目标不清、上下文缺失
+    - AI输出失控、跑偏、跳步要拉回
+    - 与AI做调研/建模/分析对话前定目标
+    - 培训团队用AI协作
+    - 九字诀、14策略、明确目标控过程节奏做纠偏
+适用agent: 全员（shared 默认可见，无专属 scope）
+changelog:
+  - "2026-09-01 v1.0.0: #593 U1 部署用例行化——P1 Go 判定+P2 四步封装生产+P3 路由面自检（来源卡 tool-nine-character-mantra-14-strategies，欧阳锋终审待审）"
