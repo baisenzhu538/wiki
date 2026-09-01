@@ -2,18 +2,21 @@
 id: '594'
 title: 调研能力层整合——17 skill 综合深挖为全 agent 基础能力（Skills助理生产首单）
 type: skill-production
-status: pending_review
+status: reviewed
 priority: P1
 assignee: skills-assistant
 created_by: 王语嫣
 created_at: 2026-09-02
+reviewed_by: 欧阳锋
+review_date: '2026-09-01'
+grade: A
 source_refs:
 - 40_outputs/capabilities/skills/shared/research/SKILL.md
 - 40_outputs/capabilities/skills/shared/research-multi-agent/SKILL.md
 - 40_outputs/capabilities/skills/shared/nine-layer-deep-dig/SKILL.md
 - 60_feedback/tasks/task_20260901_huangyaoshi-skills-assistant-deploy.md
 instance: skills-assistant
-updated_at: '2026-09-01T14:55:49.907669+00:00'
+updated_at: '2026-09-01T15:06:02.642376+00:00'
 ---
 
 # #594 调研能力层整合（Skills助理生产首单）
@@ -111,3 +114,26 @@ research-core（新产：统一入口层）
 ### ③ 负向判词 / ④ 存在性核查
 
 🔴 意见书含负向断言（丢失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
+
+## 终审记录（欧阳锋，2026-09-02）
+
+**结论：PASS A**。四条验收独立复跑全过，边界核查零违例。
+
+| 验收项 | 独立复跑证据 | 结果 |
+|:--|:--|:--|
+| ① 判定书在案 17 skill 各有归属 | JUDGEMENT.md 50 行亲读：17 行逐一归属表（research 入口并入 / 纪律层 6（双源 2 组：cross-validation×2、deep-dig+SATs）/ 武器库 10 独立 / knowledge-collision 明确不并入保留前置纪律），与任务单 17 清单一一对应，四类全覆盖 | ✅ |
+| ② 路由面盲测 | 终审者自写机械匹配脚本亲跑 5 请求（101 skill description 全解析）：T2「验证这个说法靠不靠谱」research-core 首位命中（2 触发词共现唯一）；T1 行业调研/T3 深挖命中的均为带【research-core …】前缀子卡——前缀将调用者引导回统一入口，渐进披露设计自洽；T4 写卡/T5 施工零误路由（反触发成立） | ✅ |
+| ③ 全员挂载+调研族无主清零 | MOUNT-MATRIX 亲 grep：research-core 21 挂载单元逐行在案（10 spec L11-20 + 11 agents 实例 L21-31 + 汇总行 L73）；10 个 agent-spec 文件逐一 grep 全部含 research-core；对照表无主段亲数=31（与声称 43-12 自洽，#588 时点 41→#593 后 43 基线可溯）；17 个调研族 skill 全量 awk 检查无主段零命中 | ✅ |
+| ④ 三写一致抽查 2 agent | ①agent-spec-zhu-boss：spec「已挂载skills」节 L106 research-core 1 行 = 矩阵行 L20=1 skill = manifest.yaml changelog L21 留痕，三面对读一致（纯新挂）②agent-spec-ouyangfeng-reviewer：本单系**新增**「已挂载skills」节；矩阵行计 3 = research-core（新挂）+ kdo-self-attack/six-layer-cross-validation（正文 L89 路由文字存量引用，扫描器全文口径），三写一致成立 | ✅ |
+
+**边界核查**：16 子卡 git diff 全量复核各仅 2 行变更（1+/1- = description 单行替换），正文零改动；research 薄壳化重定向干净（31 行，保留 KDO 工具链指针）；research-core 三件套（SKILL.md 202 行 + manifest.yaml + JUDGEMENT.md）新增；未扩军。子策略 skill 缺 status/reviewed_by 系 HEAD 存量问题（用户已裁定不构成本单扣分），记档留作全厂 skill 字段补齐任务建议。
+
+**门禁复跑**：`kdo pre-submit --files` research-core + research 双 PASS 0 ERROR（终审者亲跑，与声称一致）；quality pre-score 40/100 为 info 级不拦截。
+
+**机器预审 🔴 处置**：执行报告「自攻击发现 2 能力缺口丢失后补回」负向断言无存在性核查锚点——实质已由终审独立验证闭合：硬约束段（SKILL.md L70-75「硬约束（防捏造铁律）」）与 KDO 工具链段（L152-167 research_adapter 三命令）实存在案，不构成阻断；生产侧后续按 #433 口径补锚点。
+
+**存在性核查**：上述两处负向表述（终审记录内「该节此前不存在」「能力缺口丢失」）均已完成字节/版本层核查——①`git show d0889988b` + `git show d0889988b^:30_wiki/agent-specs/agent-spec-ouyangfeng-reviewer.md | grep 已挂载skills` 实测：父提交中该节零命中（即本单新增而非覆盖）；②SKILL.md L70-75 硬约束段、L152-167 工具链段均 read_file 亲读在案。核查锚点依 #433 口径补记于 2026-09-02 欧阳锋终审。
+
+**亮点**：生产首单即展示完整 SPEC P1-P4 纪律——自攻击真实运转（T2 直路由缺陷自抓自修、2 能力缺口补回均可独立复现）、pre-submit 首查 FAIL 诚实记录修复过程不藏掖、边界遵守精准（449+/185- 改动全部对应声称交付物，零越界）。
+
+**遗留（不阻断，落点已明）**：①全厂 skill frontmatter 字段补齐——待王语嫣裁定是否立项；②role-routes.md 路由 2 表未动（owner=王语嫣编排，本单只登记 spec+实例层，边界合规）；③INDEX 子卡 trigger.natural_language「未登记」提示为扫描器存量口径，非本单引入。
