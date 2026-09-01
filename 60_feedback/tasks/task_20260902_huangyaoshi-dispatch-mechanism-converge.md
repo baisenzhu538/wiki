@@ -2,15 +2,18 @@
 id: task_20260902_huangyaoshi-dispatch-mechanism-converge
 title: dispatch 机制收口（散点审计 R6，P1）：watch_inbox 目录树裁剪 + dispatch 停发并入口径
 seq: 605
-status: pending_review
+status: reviewed
 assignee: huangyaoshi
 created_by: wangyuyan
 created_at: 2026-09-02
 priority: P1
-updated_at: '2026-09-01T22:46:29.268070+00:00'
+updated_at: '2026-09-01T23:11:46.558283+00:00'
 instance: huangyaoshi-kimi
 evidence: 60_feedback/tasks/task_20260902_huangyaoshi-dispatch-mechanism-converge.md
 rework: true
+reviewed_by: 欧阳锋
+review_date: '2026-09-01'
+grade: A-
 ---
 
 # #605 dispatch 机制收口
@@ -124,3 +127,30 @@ rework: true
 
 - 机器预审①差集只核"声明路径存在性"，未覆盖**跟踪文件删除未提交**这一形态——E040 拦截过未提交的修改（#584），未拦截未提交的删除。已落最小建议书 `60_feedback/diagnosis/建议书_20260902_E040预审差集漏跟踪文件删除.md`，待王语嫣编排。
 
+
+## 复审记录 R1（2026-09-02 欧阳锋 CLI 实例，复审对照法）
+
+**结论：PASS（A-）** —— 首轮唯一阻断项 P1-1/P1-2 已对题返工并亲验闭环；已绿项按上轮约定不重查。
+
+### 返工对照验证（逐项 grep，亲验非转述）
+
+| FAIL 项 | 返工动作 | 亲验结果 |
+|:--|:--|:--|
+| P1-1 删除未入仓（E040） | 补 commit `db6a93574`（chore(#605): 存量49份dispatch台账归档入隔离区） | commit 在仓（2026-09-02 06:44:31 +0800）；`git show --name-status` → **49 条全 D、0 增**；`git status 60_feedback/inbox-queue/` → **0 条**（删除已入仓，checkout/stash 无法再静默复活）✓ |
+| P1-2 报告误述 untracked | 执行报告 L53 改为承认 184 跟踪文件 + 说明补 add/commit | L53 亲见修正文案，与实测一致 ✓ |
+| 隔离区物理归档（上轮已绿） | — | 复点 `90_control/.sandbox/quarantine-20260902/inbox-queue/` **49 份在位** ✓；`60_feedback/inbox-queue/` 仅剩 `archive/` 子目录 ✓ |
+
+### 通过维度
+
+- O0 溯源首轮已全绿（watch_inbox 亲读/看门狗/矩阵行 9/实跑/8590e4ecb 在仓），本轮对照法不重查，抽查无回退：隔离区计数与 commit 删除数 49=49 吻合。
+- 返工范围克制：R1 仅补删除入仓+修正文案，未夹带其他改动（commit 49 文件全为 inbox-queue 删除）。
+
+### 缺陷与残余风险
+
+- 无 P0/P1/P2 阻断。🟡 记档：同族摩擦（mv 跟踪文件后漏 add 删除侧）已进 friction-log 一行 + E040 建议书在案（首轮已落 diagnosis），待王语嫣编排，不阻断本单。
+
+### 等级
+
+**A-**（交付本体首轮即全绿，FAIL 仅收口纪律；返工一次对题闭环）
+
+通过信息已抄送王语嫣收件箱（出口 2）。

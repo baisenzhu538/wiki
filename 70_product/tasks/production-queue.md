@@ -236,7 +236,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 602 | `task_20260902_wangyuyan-uncommitted-changes-ledger` | 93文件未提交改动落账三批（SKILL BOM清洗/todos队列留痕/logs）——为#601/#603/#604清理动作提供git兜底 | reviewed | wangyuyan | 3个commit+diff抽查证据 | 无 | `60_feedback/tasks/task_20260902_wangyuyan-uncommitted-changes-ledger.md` | 风清扬R4；只提交零改动；path-scoped add；王语嫣自领；欧阳锋终审 |
 | 603 | `task_20260902_huangyaoshi-tmp-script-cleanup` | tmp一次性脚本清理：根目录59个+kdo-tools/tmp_*25个归档_tmp（前置：_tmp_skill_health.json被建议书引用先改指） | reviewed | huangyaoshi | 归档清单+例外保留清单+引用对账 | #602落账后 | `60_feedback/tasks/task_20260902_huangyaoshi-tmp-script-cleanup.md` | 风清扬R5；归档不删除；批量三问；欧阳锋终审 |
 | 604 | `task_20260902_huangyaoshi-scatter-relocation-misc` | 散点归位杂项：C\uf03a假盘符树核查清除+Harness重复对收敛+60_feedback下6个mp4归位10_raw | reviewed | huangyaoshi | 三项处置+引用对账 | #602后 | `60_feedback/tasks/task_20260902_huangyaoshi-scatter-relocation-misc.md` | 风清扬R7；假盘符树先证无独有内容；欧阳锋终审 |
-| 605 | `task_20260902_huangyaoshi-dispatch-mechanism-converge` | dispatch机制收口：台账停发（职能并入看门狗v5）+watch_inbox目录树裁剪+存量49份dispatch归档 | pending_review | huangyaoshi | 裁剪+下线证据+实跑验证 | #602后 | `60_feedback/tasks/task_20260902_huangyaoshi-dispatch-mechanism-converge.md` | 风清扬R6；王语嫣裁定停发、保留pending-cards登记职能；欧阳锋终审 |
+| 605 | `task_20260902_huangyaoshi-dispatch-mechanism-converge` | dispatch机制收口：台账停发（职能并入看门狗v5）+watch_inbox目录树裁剪+存量49份dispatch归档 | reviewed | huangyaoshi | 裁剪+下线证据+实跑验证 | #602后 | `60_feedback/tasks/task_20260902_huangyaoshi-dispatch-mechanism-converge.md` | 风清扬R6；王语嫣裁定停发、保留pending-cards登记职能；欧阳锋终审 |
 | 606 | `task_20260902_laowantong-graph-scatter-cleanup` | 图谱散点治理二批：31文件残留占位+870真散点逐族裁决（首批1132占位已清 de51bdd84） | reviewed | laowantong | 分族commit+每族裁决表执行报告+复扫<50处 | 无 | `60_feedback/tasks/task_20260902_laowantong-graph-scatter-cleanup.md` | 老朱0902直令「obsidian视图全乱了修复」；撞号更正入队（原seq601未入队悬空，老顽童建议书 diag_20260902_laowantong-graph-scatter-task-collision 09-02王语嫣采纳）；只动链接行不动正文；分族commit；欧阳锋终审 |
 | 607 | `task_20260902_huangyaoshi-vault-backup-stall-investigation` | vault backup停摆6天空窗根因排查（08-26→09-02无commit无人察觉）+停摆24h自报报警+可修即修 | queued | huangyaoshi | 根因报告+报警上线实证+修复验证 | 无（排队不插队） | `60_feedback/tasks/task_20260902_huangyaoshi-vault-backup-stall-investigation.md` | 欧阳锋建议书决策点3（09-02王语嫣裁定立项，空窗属实已核验）；报警复用既有探针面不新建扫描器；欧阳锋终审 |
 | 608 | `task_20260902_huangyaoshi-image-detail-deadloop-fix` | image_detail死循环修复：识别该类型直接mark_seen跳过（三症联诊动作3漏项补立，原口径随#601同单但任务单未含） | queued | huangyaoshi | 修复diff+两轮日志对比实证 | #601 reviewed 后（防同文件冲突） | `60_feedback/tasks/task_20260902_huangyaoshi-image-detail-deadloop-fix.md` | 黄药师三症联诊动作3（09-02王语嫣裁定补立）；小改单点不碰去重逻辑；欧阳锋终审 |
@@ -451,7 +451,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#604 task_20260902_huangyaoshi-scatter-relocation-misc｜huangyaoshi｜提审 09-02 05:48｜60_feedback/tasks/task_20260902_huangyaoshi-scatter-relocation-misc.md~~ → 已终审 PASS A-（2026-09-01 欧阳锋）
 - ~~#609 task_20260902_laowantong-popmart-molly-transition-card｜laowantong｜提审 09-02 05:50｜60_feedback/tasks/task_20260902_laowantong-popmart-molly-transition-card.md~~ → 已终审 PASS A-（2026-09-01 欧阳锋）
 - ~~#605 task_20260902_huangyaoshi-dispatch-mechanism-converge｜huangyaoshi｜提审 09-02 06:20｜60_feedback/tasks/task_20260902_huangyaoshi-dispatch-mechanism-converge.md~~ → 终审退回 queued（2026-09-01 欧阳锋）
-- #605 task_20260902_huangyaoshi-dispatch-mechanism-converge｜huangyaoshi｜提审 09-02 06:46｜60_feedback/tasks/task_20260902_huangyaoshi-dispatch-mechanism-converge.md
+- ~~#605 task_20260902_huangyaoshi-dispatch-mechanism-converge｜huangyaoshi｜提审 09-02 06:46｜60_feedback/tasks/task_20260902_huangyaoshi-dispatch-mechanism-converge.md~~ → 已终审 PASS A-（2026-09-01 欧阳锋）
 
 <!-- REVIEW-PENDING-END -->
 
@@ -782,6 +782,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - [gate-blocked] task_20260902_huangyaoshi-tmp-script-cleanup｜09-02 04:57｜待王语嫣复核处置｜2026-09-02 04:53:03｜task_20260902_huangyaoshi-tmp-script-cleanup｜F-034-五字段｜--evidence 文件不可读: 60_feedback/tasks/task_20260902_huangyaoshi-tmp-script-cleanup.md 执行报告节；工作commit e｜huangyaoshi-kimi
 - [gate-blocked] task_20260902_skills-assistant-skill-manifest-batch1｜09-02 05:17｜待王语嫣复核处置｜2026-09-02 05:15:27｜task_20260902_skills-assistant-skill-manifest-batch1｜F-034-五字段｜--evidence 文件不可读: 72 manifest补建+2 name修复完成；复扫：trigger缺口72→0、name不一致清零、manifest 76/76、三写一致刷新、🔴72→24；执｜skills-assistant-kimi
 - [gate-blocked] task_20260902_huangyaoshi-scatter-relocation-misc｜09-02 05:57｜待王语嫣复核处置｜2026-09-02 05:48:25｜task_20260902_huangyaoshi-scatter-relocation-misc｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生 / - untracked: quarantine-20260902/Harness-Engineering-hyp｜huangyaoshi-kimi
+- [friction] [shared] 2026-09-02 06:46｜09-02 06:47｜待王语嫣复核处置｜[shared] 2026-09-02 06:46｜huangyaoshi｜#605 台账归档｜mv 移动 git 跟踪文件后未 add 删除侧，交付 commit 缺 49 删除被终审 FAIL｜根因：只凭 ls-files 头部输出误判 untracked，批量移动后没跑 git status 核验删除侧
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
