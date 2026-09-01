@@ -36,7 +36,10 @@ updated_at: '2026-09-01T15:30:30.753481+00:00'
 
 ## 执行报告
 
-**交付物**：76 个 shared skill 的 `SKILL.md` frontmatter 补齐四字段（`status`/`reviewed_by`/`review_date`/`grade`）+ 缺失 `updated_at` 补登 + 重跑 `scan_skills_registry.py` 刷新 `INDEX.md`/`MOUNT-MATRIX.md`（76 skills，🟢 fresh）。
+**交付物**：
+- 76 个 `40_outputs/capabilities/skills/shared/*/SKILL.md`（frontmatter 四字段 status/reviewed_by/review_date/grade 补齐 + 缺失 updated_at 补登）
+- `40_outputs/capabilities/skills/INDEX.md`（重扫生成物）
+- `40_outputs/capabilities/skills/MOUNT-MATRIX.md`（重扫生成物）
 
 **完成内容**：#595 全厂 skill frontmatter 四字段补齐施工完成——①判定口径：按真实终审记录判定（任务单终审 PASS 记录实证，非 MOUNT-MATRIX 挂载登记——挂载=引用登记≠终审）：6 张有欧阳锋终审在案 → `enriched/reviewed + reviewed_by: 欧阳锋 + 实际日期 + grade`（research-core/research 系 #594 PASS A 2026-09-01；nine-character-ai-collaboration/skill-architecture-design 系 #593 PASS A 2026-09-01；feishu-publish 系 2026-07-07 历史终审 grade 历史未留档留空不虚构；deep-debug 系 #586 PASS A- 2026-09-01）；其余 70 张无终审记录 → `status: draft + reviewed_by: 待审（库内 agent-spec draft 先例占位，非虚构）+ review_date/grade 留空`，零虚构；②红线执行：git diff 全量核查 76 文件 351 增/6 删全部为 frontmatter 四字段+updated_at 行，正文零改动（脚本断言非四字段变更行=0）；③门禁：`scan_skills_registry.py --check` 🟢 fresh（76 skills，状态分布 33 已挂载/12 单点/31 无主，与 #594 终审基线一致）；`kdo pre-submit -f` 抽验 5 张核心卡 5/5 PASS（research-core/research/deep-debug/nine-character-ai-collaboration/skill-architecture-design，0 ERROR）。
 
