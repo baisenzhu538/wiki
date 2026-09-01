@@ -2,10 +2,13 @@
 id: 596
 task_id: task_20260902_laowantong-popmart-uniqueness-book-cards
 title: 拆书会218《因为独特》卡组4张（泡泡玛特王宁长期主义经营）
-status: pending_review
+status: reviewed
 assignee: laowantong
 created_by: wangyuyan
 created_at: 2026-09-02
+reviewed_by: 欧阳锋
+review_date: '2026-09-01'
+grade: A-
 reviewer: ouyangfeng
 source_refs:
 - 00_inbox/泡泡玛特的拆解/拆书会第218期《因为独特》· 精华提炼.md
@@ -13,7 +16,7 @@ related_tasks:
 - '#469'
 - '#470'
 instance: laowantong
-updated_at: '2026-09-01T16:26:35.557575+00:00'
+updated_at: '2026-09-01T17:05:12.766573+00:00'
 ---
 
 # 任务：拆书会218《因为独特》卡组 4 张
@@ -87,3 +90,31 @@ updated_at: '2026-09-01T16:26:35.557575+00:00'
 **需要谁动作**：
 - 欧阳锋：终审 4 卡；顺带裁定 MOLLY 诞生卡候选是否补立项
 - 黄药师：新卡入库后跑 `kdo index --rebuild`（老顽童不自行跑）
+
+## 终审记录（2026-09-02 欧阳锋）
+
+**Verdict: PASS / Grade: A-**
+
+**独立复核（非采信 self-report，全部亲跑）：**
+
+| 检查项 | 验证方法 | 结果 |
+|:--|:--|:--|
+| 4 卡存在性+双目录冲突 | find 全局同名计数 | 各 1 份，无版本分裂 ✅ |
+| 行数门禁 | wc -l | 135/122/121/132，报告数字逐字吻合，全部 ≥100 ✅ |
+| O0 溯源锚点 | 提炼件 168 行全文对读 | 抽验全部行号锚（L13/19/31/43/47/53/55/57/65/73/87/89/93/97/99/103/105/113/117/119/123/129/131/133/137-141/145-159 等）逐字吻合，零编造 ✅ |
+| 互链双向 | grep 已有 2 卡 related + 正文 wikilinks | case-popmart-prospectus-pricing L36-37 / tool-blind-box-mechanism L34-35 反向链接实存；4 卡 wikilinks 全部可解析 ✅ |
+| src_unknown | grep -c 4 卡 | 全 0 ✅ |
+| pre-submit | 终审者独立复跑 4 文件 | PASS（8 WARNING 均 #542 提示制不拦截级；QUALITY_SCORE 65/50/50/50 与报告一致）✅ |
+| 自攻击 | 报告亲读+修复点回查 | 2🟡=1 已修复（framework 卡 Critique 时效边界 L101 实存）+1 报裁定（见下）；3🟢 判定合理 ✅ |
+| 转述二等口径 | 4 卡 source_context 逐卡读 | 均按 #470/#216 口径标注 ✅ |
+| 检索故障存疑 | Critique 存疑标注逐卡读 | 4 卡均显式标注「训练记忆内置、在线核实未完成、待补验」——诚实降级而非硬给结论 ✅ |
+
+**分级判断说明**：4 卡正文无独立 `diagnostic_signals` frontmatter 字段，但均有「失败模式」节且全部带「真实信号+修复动作」两列——与近批先例（#586 批 16 件 PASS A-、对照卡 case-popmart-prospectus-pricing 同构）口径一致，功能等价，不判缺陷。
+
+**🟡 记档 2 项（带落点）**：
+1. related 数量：framework=5 达标，tool/concept/case 各=4，低于 SOP P1 基线（≥5 且跨域≥2）——但满足任务单自定义验收口径（与已有 2 卡互链双向+卡组内互链，0 死链）。落点：属 🟡 装饰缺陷（#214/#215 先例 B+ 线），记入下批 popmart 卡任务顺带补链，不阻塞本批。
+2. 三方法①全网调研存疑未闭环（web_search 三连超时，#586 同族故障）——落点：执行报告已指定补验责任（下批任一 popmart 卡任务顺带执行），我认此安排，记跟踪。
+
+**🔵 MOLLY 诞生卡候选裁定**：同意立项候选 case-popmart-molly-transition。理由：素材 §二.2 L35-37 是全书最硬的转型叙事（Sonny Angel 占单店 1/3 销售额但代理权受制→2016 微博调研→自有 IP 掀桌子），锚点具体可溯源，与现有 4 卡不重复（本卡组无一张讲 IP 自有化转型动因）。按「不越界」原则本批 4 卡不受影响——补卡为增量立项，交王语嫣编排下批 popmart 任务时并单。
+
+**存在性核查**：①「零编造」核查=提炼件 168 行全文 read_file 终审者亲读，上表全部行号锚逐字比对；②「无版本分裂」核查=find 30_wiki -name 各卡全局计数=1；③「反向链接实存」核查=grep 两张已有卡 related 段输出上表行号；④「pre-submit PASS」核查=终审者亲跑 `python -m kdo pre-submit --files`（4 文件）输出 Result: PASS。

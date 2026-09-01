@@ -223,7 +223,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 594 | `task_20260902_skills-assistant-research-core-integration` | 调研能力层整合（Skills助理生产首单，老朱09-02拍板「调研能力是最基础的必备能力」）：17 skill（14 research系+3近亲）P1评审三层结构→research-core统一入口生产→路由面盲测→全agent挂载（消灭43无主中最大族） | reviewed | skills-assistant | 三层判定书+research-core skill+盲测3/3+全员挂载三写一致 | 老朱09-02直令拍板；#587/#588/#593 reviewed ✅ | `60_feedback/tasks/task_20260902_skills-assistant-research-core-integration.md` | 不改子策略正文；不扩军只整合；欧阳锋终审 |
 | 595 | `task_20260902_skills-assistant-frontmatter-backfill` | 全厂skill frontmatter补齐（#594终审遗留①，老朱09-02拍板「立」）：66/76缺status四字段按真实状态补齐（有终审=enriched/无=draft不虚构），只动frontmatter正文零改动 | reviewed | skills-assistant | 76/76字段齐+零虚构+diff仅frontmatter+--check fresh | 老朱09-02直令；#594 PASS A ✅ | `60_feedback/tasks/task_20260902_skills-assistant-frontmatter-backfill.md` | 不虚构审查状态；欧阳锋终审 |
 
-| 596 | `task_20260902_laowantong-popmart-uniqueness-book-cards` | 拆书会218《因为独特》卡组4张：长期主义经营framework/减宽加深method/满足感×存在感concept/品牌包裹感dk——strategy+拆书会系列 | pending_review | laowantong | 4张卡 | 无（素材已诊断不撞车） | `60_feedback/tasks/task_20260902_laowantong-popmart-uniqueness-book-cards.md` | inbox自动化流水线（09-02王语嫣编排）；转述二等标注（#470口径）；欧阳锋终审 |
+| 596 | `task_20260902_laowantong-popmart-uniqueness-book-cards` | 拆书会218《因为独特》卡组4张：长期主义经营framework/减宽加深method/满足感×存在感concept/品牌包裹感dk——strategy+拆书会系列 | reviewed | laowantong | 4张卡 | 无（素材已诊断不撞车） | `60_feedback/tasks/task_20260902_laowantong-popmart-uniqueness-book-cards.md` | inbox自动化流水线（09-02王语嫣编排）；转述二等标注（#470口径）；欧阳锋终审 |
 
 | 597 | `task_20260902_skills-assistant-skill-manifest-batch1` | skill登记面批1：72个manifest.yaml补建+2个name不一致修复（健康度建议书动作1+2） | queued | skills-assistant | 72 manifest+2修复+三写一致 | **#595 reviewed ✅（同域错峰）** | `60_feedback/tasks/task_20260902_skills-assistant-skill-manifest-batch1.md` | skill健康度勘察裁定（09-02王语嫣）；adapted_from无卡不编造标待复核；欧阳锋终审 |
 
@@ -426,7 +426,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#593 task_20260901_huangyaoshi-skills-assistant-deploy｜黄药师｜提审 09-01 14:46｜60_feedback/tasks/task_20260901_huangyaoshi-skills-assistant-deploy.md~~ → 已终审 PASS A（2026-09-01 欧阳锋）
 - ~~#594 task_20260902_skills-assistant-research-core-integration｜skills-assistant｜提审 09-01 22:55｜60_feedback/tasks/task_20260902_skills-assistant-research-core-integration.md~~ → 已终审 PASS A（2026-09-01 欧阳锋）
 - ~~#595 task_20260902_skills-assistant-frontmatter-backfill｜skills-assistant｜提审 09-01 23:30｜60_feedback/tasks/task_20260902_skills-assistant-frontmatter-backfill.md~~ → 已终审 PASS A-（2026-09-01 欧阳锋）
-- #596 task_20260902_laowantong-popmart-uniqueness-book-cards｜laowantong｜提审 09-02 00:26｜60_feedback/tasks/task_20260902_laowantong-popmart-uniqueness-book-cards.md
+- ~~#596 task_20260902_laowantong-popmart-uniqueness-book-cards｜laowantong｜提审 09-02 00:26｜60_feedback/tasks/task_20260902_laowantong-popmart-uniqueness-book-cards.md~~ → 已终审 PASS A-（2026-09-01 欧阳锋）
 - #599 task_20260902_skills-assistant-legacy53-evaluate-revive｜skills-assistant｜提审 09-02 00:54｜60_feedback/tasks/task_20260902_skills-assistant-legacy53-evaluate-revive.md
 
 <!-- REVIEW-PENDING-END -->
@@ -700,6 +700,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~[friction] [duanwangye] 2026-09-01 23:05｜09-01 23:57｜待王语嫣复核处置｜[duanwangye] 2026-09-01 23:05｜拆书会218提炼｜token经python open落盘+cat读回被Hermes脱敏腐蚀，误报99991663浪费4次调用；解法=脚本内自取token｜已沉淀E003+技能patch~~ → 已复核关闭（2026-09-02 00:02 王语嫣）：段王爷已自沉淀 E003+技能patch 自闭环（token 脚本内自取解法），无需另立项
 - ~~[gate-blocked] role-liveness｜09-02 00:07｜待王语嫣复核处置｜2026-09-02 00:01:07｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 1264.8), ('cli', 30.4)]）｜role_registry check-liveness｜role_registry~~ → 已化解划销（2026-09-02 00:12 王语嫣）：role-liveness 冷却重报——wyy 时钟拍已拉起黄药师 #598 施工实例（queue status=claimed-wyy-cli-0902 实证），探针 stale 系拉起前窗口，非产线阻塞
 - [gate-blocked] task_20260902_laowantong-popmart-uniqueness-book-cards｜09-02 00:27｜待王语嫣复核处置｜2026-09-02 00:24:30｜task_20260902_laowantong-popmart-uniqueness-book-cards｜F-034-五字段｜执行报告缺 5 个字段（#429 F-034）：改动文件清单、完成内容一句话、验证命令+输出、未做项/边界、需要谁动作。请补全后重试，或 --force --reason '<理由>' 声明例外（#4｜laowantong
+- [gate-blocked] task_20260902_skills-assistant-legacy53-evaluate-revive｜09-02 00:57｜待王语嫣复核处置｜2026-09-02 00:53:44｜task_20260902_skills-assistant-legacy53-evaluate-revive｜F-034-五字段｜任务单缺少「## 执行报告」节（#429 F-034：交付必须落执行报告，口头完成=未完成；#444：evidence 附件不能替代）｜skills-assistant
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
