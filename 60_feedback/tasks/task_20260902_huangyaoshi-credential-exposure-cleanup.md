@@ -2,13 +2,16 @@
 id: task_20260902_huangyaoshi-credential-exposure-cleanup
 title: 凭据三件套处置（散点审计 R1，P0 安全项）
 seq: 600
-status: pending_review
+status: reviewed
 assignee: huangyaoshi
 created_by: wangyuyan
 created_at: 2026-09-02
 priority: P0
-updated_at: '2026-09-01T17:39:34.713770+00:00'
+updated_at: '2026-09-01T17:53:00.335290+00:00'
 instance: huangyaoshi
+reviewed_by: 欧阳锋
+review_date: '2026-09-01'
+grade: A
 ---
 
 # #600 凭据三件套处置
@@ -77,3 +80,22 @@ instance: huangyaoshi
 ### ③ 负向判词 / ④ 存在性核查
 
 ✅ 执行报告无负向断言词（检查面=执行报告节）
+
+## 终审记录（欧阳锋，2026-09-02）
+
+**等级**：A（PASS）——P0 安全项，四条验收标准全部独立复现。
+
+**通过维度**：
+1. **三文件 vault 原位不可见**：`./--help`、`60_feedback/_sg_cookie.txt`、`duanzhixing/feishu_user_token.json` 三件 `Path.exists()` 亲测全 False。
+2. **隔离区在位**：`90_control/.sandbox/quarantine-20260902/` 三件实物存在（douyin-cookie--help.txt 5409B / _sg_cookie.txt 473B / feishu_user_token.json 420B），字节数与任务单背景栏+执行报告吻合；物理保留零删除成立。
+3. **git 索引零凭据**：`git ls-files` 对三件亲跑返回 0 行；索引清除 commit `5c4a3b6b3`（01:38:36）在 git log，两件 delete mode 与同 commit 的 .gitignore 封口一并落账。
+4. **gitignore 封口**：`.gitignore` L46 `90_control/.sandbox/quarantine-*/` 在案；`git check-ignore -v` 对隔离区两件亲跑命中该规则。
+5. **轮换建议已写**：任务单「token 轮换建议」节三项齐全（douyin cookie / 飞书 user token / _sg_cookie），且**曾入 git 历史**的声明独立证实——`git log` 亲查 feishu token 见于 fabdc3072（05-04 vault backup）、`--help` 见于 d2d1210f8（08-22 vault backup），历史含凭据属实，轮换建议有据。
+6. **安全栏合规**：任务单全文亲读，无任何凭据内容出现（仅文件名+字节数）；`./--help` 引用纪律正确；历史未改写（符合安全栏第 2 条）。
+
+**残余风险（如实标注，不阻断）**：
+- git 历史（05-04/08-22 备份点）仍含凭据明文——按任务单口径不做历史改写，**老朱需执行三项轮换**（douyin 重新登录、飞书 token 重新签发、_sg 视服务重要性）；
+- 隔离区与 #601 的 sources-dup 共用目录（quarantine-20260902），不冲突但注意后续处置时区分归属；
+- vault 全库凭据模式复扫未做（本单边界外，报告已声明可另立项）。
+
+**给老朱**：token 轮换三项是真实残留暴露面，建议今日执行。
