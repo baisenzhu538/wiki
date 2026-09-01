@@ -34,6 +34,7 @@
 | 21 | 待老朱拍板上浮（reviewed + 拍板关键词） | conveyor_probe 第八信号 `_scan_pending_decision`（关键词前挂形态：老朱拍板/待老朱/需老朱/待拍板/需拍板/请老朱/待你拍板；向前生效 20260827 不回扫存量；队列侧只匹配备注列防名称列自举） | 新增即时推飞书 wangyuyan 群（老朱在群实测可达，本人 08-27 确认）+ todos 落盘 + daily-audit-digest ⑤「待你拍板」固定栏（每日在列直到字样移除/状态离开 reviewed 自动消项） | 老朱 | 无在岗 defer 同 #550 统一口径 | #556（#525 拍板断链两天实证；干跑校准：bare「拍板」命中已决归因→改前挂形态，「老朱已拍板」天然不匹配；消项不推送仅 stdout 留痕） |
 | 22 | 角色全死自报（role-liveness） | role_registry `check_liveness`（挂 role_clock 5min；heartbeat 年龄 >2×该角色节奏=疑似死亡；**#562 起同角色 2h 报警冷却——只压频不删报、首次必报、恢复清零重新武装**；心跳写面=queue_transition 消费回执（myqueue/claim/complete/release/review）+ kimi-cli SessionHeartbeat 钩，消费回执=心跳） | gate-blocked.log 台账 → 第五探针拾取推送 | 王语嫣 | — | #552 信号上线（#562 前漏登矩阵，08-28 终审抄送补课）；#562 冷却+心跳语义修复（08-27 报警风暴 25+ 条误报止血） |
 | 23 | 挂审超时必推（pending_review 最大年龄分级：30min 提醒 / 2h 升级） | check-review-sla.py（#574 R1：解析 REVIEW-PENDING 段活跃行取最大年龄，30min→推审查者 ouyangfeng webhook+todos 落盘；2h→升级推 ouyangfeng+wangyuyan 群（@ 负责人/老板，老朱在群可达）；复用 conveyor_probe._send_hook/_load_hooks/_append_role_todo 加签零新基建；`--dry-run` 只打印；通知类打印走 stderr） | 飞书 webhook + todos 落盘 | 欧阳锋（30min 提醒）/ 欧阳锋+王语嫣群（2h 升级 @ 老朱） | 豁免（终审类，超时必推不静默） | #574（#520 R3 升级：原只 print 无推送，2h 阈值从未触发过可见告警；落实 #521 R2 老朱「终审类通知不静默」） |
+| 24 | vault backup 停拍（最后 backup commit 超 24h） | conveyor_probe 第十信号 `_scan_backup_stall`（git log --grep 心跳；跨越沿幂等，恢复重新武装；并入第九信号 infra_alerts 通道）+ 备份本体改系统级 schtasks kdo-vault-git-backup（30min，S4U，vault_git_backup.py） | gate-blocked.log 台账 + 推王语嫣（第九信号同通道） | 王语嫣 | defer（同第九信号口径，台账恒写） | #607（08-26 重启杀会话级 cron 致停摆 6 天空窗实证） |
 
 ## 缺口台账
 

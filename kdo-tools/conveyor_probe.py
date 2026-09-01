@@ -885,6 +885,33 @@ def _scan_infra_liveness(state: dict) -> list[str]:
     return alerts
 
 
+def _scan_backup_stall(state: dict, max_age_h: float = 24) -> list[str]:
+    """#607 第十信号：vault backup 心跳停拍——最后一次 `vault backup` commit 超 24h 即告。
+
+    背景：backup 曾是会话级 cron，08-26 重启杀会话后停摆 6 天无人察觉（空窗实证）。
+    只探测不决策（同看门狗 v5 口径）。幂等同第九信号：跨越沿触发，持续停拍只报一次，
+    恢复后重新武装。git 读不出 → 不报（不误报红线，同 _beat_age_minutes None 口径）。
+    """
+    import subprocess as _sp
+    try:
+        out = _sp.run(
+            ["git", "-C", str(ROOT), "log", "-1", "--grep=vault backup", "--format=%ct"],
+            capture_output=True, text=True, timeout=15,
+            encoding="utf-8", errors="replace").stdout.strip()
+        age_h = (time.time() - int(out)) / 3600 if out else float("inf")
+    except Exception:
+        return []
+    flagged = bool(state.get("backup_stall", False))
+    if age_h > max_age_h:
+        state["backup_stall"] = True
+        if not flagged:
+            age_txt = "无任何 backup commit" if age_h == float("inf") else f"停拍 {age_h:.0f}h"
+            return [f"vault-backup｜{age_txt}（阈值 {max_age_h:.0f}h）"]
+    else:
+        state["backup_stall"] = False
+    return []
+
+
 # ── #556 第八信号：待老朱拍板事项上浮（设计→拍板→实施断链修复）──
 # #525 PASS A 后「需要谁动作：老朱拍板」沉在任务单里两天无人上浮——待拍板=流程咽喉但没有信号面。
 # 检出：队列 reviewed 且（任务单终审记录节 or 队列备注列）含拍板关键词 → 在列；
@@ -1075,6 +1102,7 @@ def main() -> int:
         _update_proposal_board_gate(gate_new)
         messages["wangyuyan"] = f"⛔ KDO 门禁拦截 {len(gate_new)} 次（gate-blocked）：{gate_new[0][:70]}{'…' if len(gate_new) > 1 else ''}"
     infra_alerts = _scan_infra_liveness(state)
+    infra_alerts += _scan_backup_stall(state)  # #607 第十信号：backup 心跳并入第九信号同一通道
     if infra_alerts:
         # #547 第九信号：基建停拍 → gate-blocked 同族台账 + 推王语嫣（静默期 defer 口径不动，台账恒写）
         ts_now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
