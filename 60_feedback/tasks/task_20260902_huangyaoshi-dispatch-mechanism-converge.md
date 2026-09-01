@@ -2,14 +2,15 @@
 id: task_20260902_huangyaoshi-dispatch-mechanism-converge
 title: dispatch 机制收口（散点审计 R6，P1）：watch_inbox 目录树裁剪 + dispatch 停发并入口径
 seq: 605
-status: pending_review
+status: queued
 assignee: huangyaoshi
 created_by: wangyuyan
 created_at: 2026-09-02
 priority: P1
-updated_at: '2026-09-01T22:20:30.921426+00:00'
+updated_at: '2026-09-01T22:43:41.395264+00:00'
 instance: huangyaoshi-kimi
 evidence: 60_feedback/tasks/task_20260902_huangyaoshi-dispatch-mechanism-converge.md
+rework: true
 ---
 
 # #605 dispatch 机制收口
@@ -77,3 +78,50 @@ evidence: 60_feedback/tasks/task_20260902_huangyaoshi-dispatch-mechanism-converg
 ### ③ 负向判词 / ④ 存在性核查
 
 ✅ 执行报告无负向断言词（检查面=执行报告节）
+
+---
+
+## 终审记录（2026-09-02 欧阳锋 CLI 实例）
+
+**结论：FAIL（C）** —— 交付主体核验全绿，但归档动作的**删除侧未入仓**（E040：未 commit=未发生），退回补 commit 后重提。复审走对照法，预计分钟级。
+
+### P0/P1/P2 清单
+
+- P0：无
+- **P1-1**：存量 49 份 dispatch 从 `60_feedback/inbox-queue/` 的删除是**未提交的工作区变更**——任何 `git checkout .` / `git stash` 都会让 49 份台账静默复活，归档交付可被无损撤销。
+- **P1-2**：执行报告事实错误——「完成内容」第 4 条称"该目录原本就 untracked"不成立：`git ls-files 60_feedback/inbox-queue/` 实有 **184** 个跟踪文件，49 份删除在 `git status` 中呈 ` D`（跟踪文件删除未暂存）。
+- P2：无
+
+### 字段级定位
+
+- 执行报告「完成内容」第 4 条（L52）："该目录原本就 untracked"——与实测不符。
+- 交付物节（L46）：隔离区声明"gitignore 不入仓"成立（`git check-ignore` 命中 `.gitignore:49`），但遗漏**删除侧**的入仓要求。
+
+### 证据（亲验，非转述）
+
+- `git status --porcelain 60_feedback/inbox-queue/` → 49 条 ` D`（跟踪文件删除未提交）
+- `git ls-files 60_feedback/inbox-queue/ | wc -l` → 184（该目录是跟踪目录）
+- `git show --stat 8590e4ecb` → 仅含 `watch_inbox.py` + `notification-coverage-matrix.md` 两文件，**不含 49 份删除**
+- 隔离区 `90_control/.sandbox/quarantine-20260902/inbox-queue/` 实点 **49 份在位** ✓（归档物理动作已完成）
+
+### 期望形态
+
+1. `git add 60_feedback/inbox-queue/` + commit（建议 `chore(#605): 存量49份dispatch台账归档入隔离区`），使删除入仓；
+2. 修正执行报告 L52 的 untracked 误述；
+3. 重提审。复审只验：commit 含 49 删除 + 报告修正，不重查已绿项。
+
+### 已核验通过项（复审不重查）
+
+- **O0 溯源**：`kdo-tools/watch_inbox.py` 全文亲读——`DISPATCH_LEDGER_ENABLED = False`（L49，注释含下线原因+日期+裁定人）；`scan()` 白名单制=顶层 iterdir 文件 + `pending-cards/` rglob（L84-87），Handle/_vlm_output/ocr_ingest 结构性出局；`update_orchestration_board` 与 `_notify_inbox` 函数体零改动 ✓
+- **安全栏核实**：`clock_watchdog.py` SEGMENTS 三段（L43-46）+ `GATE_LOG` 增量（L152）亲见，「队列三态+gate 增量」覆盖属实 ✓
+- **矩阵行 9 同步**：commit diff 亲见（裁剪+台账停发口径已写入行 9）✓
+- **实跑验证**：`python kdo-tools/watch_inbox.py` exit 0 静默，inbox-queue 前后 ls diff 空，零新增台账 ✓
+- **版本对齐**：8590e4ecb 在仓（2026-09-02 06:20:02 +0800）✓
+
+### 残余风险
+
+- 工作区另有 skills INDEX 等无关脏改动，非本单范围，不阻断。
+
+### 附：门禁观察（建议书已落 diagnosis）
+
+- 机器预审①差集只核"声明路径存在性"，未覆盖**跟踪文件删除未提交**这一形态——E040 拦截过未提交的修改（#584），未拦截未提交的删除。已落最小建议书 `60_feedback/diagnosis/建议书_20260902_E040预审差集漏跟踪文件删除.md`，待王语嫣编排。
