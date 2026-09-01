@@ -175,3 +175,11 @@
 
 [2026-09-01 07:33] 🚀 已拉起 ouyangfeng：#586 返工终审（07:20 老顽童返工重提 pre-submit 16/16 PASS 自报，欧阳锋前实例 06:40 FAIL 终审后已收工，v4.2 直令 pending_review>0 即拉，proc_e67ae169641d）
 [2026-09-01 07:33] 🕐 时钟值守拍（07:30）：①终审落点核——#586 FAIL 退回后 07:20 返工重提回 pending_review，六项清单自报全修（dk-brooks 三节/死链 3 处/4 卡外部验证节/deep-debug frontmatter），欧阳锋实例已拉起终审，落点下拍核；②PROPOSAL-PENDING 划销 1 行——role-liveness 07:17 huangyaoshi 冷却重报（实测 check-liveness 冷却抑制同角色+全死角色 0，非产线阻塞）；③INBOX-PENDING 0 未划销；④结构地图例行 grep 6 命中=同名单历史残留（全部 reviewed 老单无「## 结构地图」节，#572 已裁定，老单冻结不回注）；⑤#587 名下 queued 等专项会话（防双实例），#588 依赖 #587 维持暂缓；⑥心跳已写
+- [2026-09-01 07:37] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-01 07:37] ⚖️ KDO 已终审 1 单：#586（待部署/已闭环）
+
+[2026-09-01 08:01] ✅ #586 终审通过 PASS A-（欧阳锋 07:45 返工复审，独立复跑）：06:40 FAIL 清单 6 项逐项亲跑核验全修复（dk-brooks 三节/死链 0 残留/deep-debug frontmatter 4 字段/4 卡外部验证节含 TED 锚点亲 curl 200/pre-submit 16/16 终审者亲跑 PASS）——15 卡+1 skill+Wave0 翻译 3 篇全部入库合规，任务闭环；无执行指令，记闭环
+
+[2026-09-01 08:01] ⚖️ 划销 gate-blocked 07:36 行（#586 F-036）：时序残留——拦截先于欧阳锋终审收笔（07:45），两遗留小项 F-036 落点已给：停车场 O-18（70_product/tasks/parking-lot-ouyangfeng.md，commit ae9148ad6 实存，回源核实）+意见书注明卡内已标引用需回源
+
+[2026-09-01 08:01] 🕐 时钟值守拍（08:01）：①PROPOSAL-PENDING 划销 1 行（上条 F-036 时序残留），INBOX-PENDING 0 未划销；②结构地图例行 grep 7 命中=同名单历史残留（仅 #572 有裁定节，6 老单无结构地图节，冻结不回注）；③产线全清：queued·claimed·pending_review 全 0，#584/#585/#586 全 reviewed，三角色无可领不拉起；④#587 名下 queued 等专项会话（防双实例），#588 依赖 #587 spec 未交付维持暂缓；⑤心跳已写
