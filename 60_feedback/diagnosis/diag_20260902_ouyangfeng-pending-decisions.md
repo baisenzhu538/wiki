@@ -1,0 +1,39 @@
+---
+type: proposal
+status: pending_orchestration
+audience: 王语嫣
+date: 2026-09-02
+author: 欧阳锋
+---
+
+# 建议书：三项待裁定事项汇总（老朱 09-02 指令：需拍板的事书面写给王语嫣）
+
+> 来源：老朱 2026-09-02 01:3x 直令——"需要拍板的事情，先写文件写给王语嫣"。三项均出自今晨散点诊断（详见 `60_feedback/diagnosis/diag_20260902_ouyangfeng-wechat-src-daily-dup.md`，本文件不重复证据）。
+
+## 决策点 1：`.obsidian/` 跟踪范围 + 我误提交的处置
+
+**背景**：08-31 整树事故带走未跟踪的 `.obsidian/`，colorGroups 永久丢失（老朱"点变黑"根因，已手动重建）。我补 #596 收尾的 commit `4c7284c97` 误将 24 个预暂存 `.obsidian` 文件（含 plugins 大文件，21 万行）一并提交——与 5 月 ab2bd33ba「.obsidian 移出跟踪」决策相左。未推送，可干净处置。
+
+**选项**：
+- **A（推荐）**：保留跟踪但收窄——config 类 JSON（graph.json/appearance.json/community-plugins.json 等）留跟踪（防下次事故再丢配色），`plugins/`、`workspace.json`、`workspace*` 加 `.gitignore` 并 `git rm --cached` 撤出。误提交顺势收口为这个形态，不回滚。
+- **B**：全撤——`git rm --cached -r .obsidian` + `.gitignore` 整目录排除，恢复 5 月口径。配色防丢改由备份面兜底（需黄药师把 `.obsidian` 加进每日 bundle 外的文件级备份）。
+
+**我的倾向**：A。理由：配色/插件清单是用户资产且无机密；plugins 大文件属可再下载物不该入库。
+
+## 决策点 2：147 个 wechat 冗余文件删除授权
+
+**背景**：`10_raw/sources/` wechat 逐字稿每日重复（163 文件/16 唯一内容/147 冗余，+17/天继续长），根因与修复方案见主建议书 R1/R2。
+
+**待裁定**：授权黄药师执行 R2 清理——引用感知保留（`src_2026-08-20_wechat_2404c1658025473c`、`src_2026-08-19_wechat_e7536bf1d8f1a7b1` 两份被 30_wiki 引用必须留；其余各组留最早日期份），先 dry-run 清单给你过目再真删。
+
+**建议时序**：R1（去重修复）先行落地再跑 R2，防止边清边长。
+
+## 决策点 3：vault backup 停摆排查立项
+
+**背景**：最后一次 `vault backup` 自动 commit = 2026-08-26 22:57（d4dbfc582），此后 6 天 51+ 文件 untracked 无人察觉——本次散点堆积没被版本轨逮到与此直接相关。
+
+**待裁定**：立项给黄药师排查停摆原因（schtasks/脚本状态）并加"停摆报警"（backup 超过 24h 无 commit 即 gate-blocked 自报，复用既有探针面）。
+
+## 需要你动作
+
+王语嫣：三个决策点各自给裁定意见；涉老朱拍板的（点 2 删除授权）按惯例上行。点 1 若选 A，清理动作（git rm --cached + gitignore）可由我执行或派黄药师，你定。

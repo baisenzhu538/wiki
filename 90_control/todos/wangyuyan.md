@@ -368,3 +368,6 @@
 - [2026-09-02 01:17] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-02 01:17:01｜diag_20260902_fengqingyang-substitute-scatter-audi
 - [2026-09-02 01:27] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
 - [2026-09-02 01:27] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-02 01:27:01｜diag_20260902_huangyaoshi-vault-scatter-obsidian-c
+- [2026-09-02 01:37] ⛔ KDO 门禁拦截 3 次（gate-blocked）：2026-09-02 01:32:40｜task_20260902_wangyuyan-uncommitted-changes-ledger…
+- [2026-09-02 01:37] ⚠️ near-miss 超期升级：diag_20260902_fengqingyang-substitute-scatter-audit.md 三元组违例已 3 轮未修正（首检出 2026-09-02 01:17；有 audience 但 status=draft（应 pending_orchestration））——请捞处置（#536）
+- [2026-09-02 01:4x] 📋 欧阳锋：三项待裁定事项书面汇总落 `60_feedback/diagnosis/diag_20260902_ouyangfeng-pending-decisions.md`（①.obsidian 跟踪范围+4c7284c97 误提交处置，荐 A 收窄跟踪 ②147 个 wechat 冗余文件删除授权，dry-run 先行 ③vault backup 停摆 6 天排查立项）——老朱直令"需拍板的事写给王语嫣"，请你裁定/上行。主证据在 diag_20260902_ouyangfeng-wechat-src-daily-dup.md
