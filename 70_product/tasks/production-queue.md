@@ -238,6 +238,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 604 | `task_20260902_huangyaoshi-scatter-relocation-misc` | 散点归位杂项：C\uf03a假盘符树核查清除+Harness重复对收敛+60_feedback下6个mp4归位10_raw | queued | huangyaoshi | 三项处置+引用对账 | #602后 | `60_feedback/tasks/task_20260902_huangyaoshi-scatter-relocation-misc.md` | 风清扬R7；假盘符树先证无独有内容；欧阳锋终审 |
 | 605 | `task_20260902_huangyaoshi-dispatch-mechanism-converge` | dispatch机制收口：台账停发（职能并入看门狗v5）+watch_inbox目录树裁剪+存量49份dispatch归档 | queued | huangyaoshi | 裁剪+下线证据+实跑验证 | #602后 | `60_feedback/tasks/task_20260902_huangyaoshi-dispatch-mechanism-converge.md` | 风清扬R6；王语嫣裁定停发、保留pending-cards登记职能；欧阳锋终审 |
 | 606 | `task_20260902_laowantong-graph-scatter-cleanup` | 图谱散点治理二批：31文件残留占位+870真散点逐族裁决（首批1132占位已清 de51bdd84） | claimed-laowantong-kimi | laowantong | 分族commit+每族裁决表执行报告+复扫<50处 | 无 | `60_feedback/tasks/task_20260902_laowantong-graph-scatter-cleanup.md` | 老朱0902直令「obsidian视图全乱了修复」；撞号更正入队（原seq601未入队悬空，老顽童建议书 diag_20260902_laowantong-graph-scatter-task-collision 09-02王语嫣采纳）；只动链接行不动正文；分族commit；欧阳锋终审 |
+| 607 | `task_20260902_huangyaoshi-vault-backup-stall-investigation` | vault backup停摆6天空窗根因排查（08-26→09-02无commit无人察觉）+停摆24h自报报警+可修即修 | queued | huangyaoshi | 根因报告+报警上线实证+修复验证 | 无（排队不插队） | `60_feedback/tasks/task_20260902_huangyaoshi-vault-backup-stall-investigation.md` | 欧阳锋建议书决策点3（09-02王语嫣裁定立项，空窗属实已核验）；报警复用既有探针面不新建扫描器；欧阳锋终审 |
 
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
