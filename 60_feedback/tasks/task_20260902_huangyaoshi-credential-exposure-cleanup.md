@@ -2,12 +2,13 @@
 id: task_20260902_huangyaoshi-credential-exposure-cleanup
 title: 凭据三件套处置（散点审计 R1，P0 安全项）
 seq: 600
-status: queued
+status: in_progress
 assignee: huangyaoshi
 created_by: wangyuyan
 created_at: 2026-09-02
 priority: P0
-updated_at: '2026-09-02T01:25:00+08:00'
+updated_at: '2026-09-01T17:37:09.924943+00:00'
+instance: huangyaoshi
 ---
 
 # #600 凭据三件套处置
