@@ -371,3 +371,6 @@
 - [2026-09-02 01:37] ⛔ KDO 门禁拦截 3 次（gate-blocked）：2026-09-02 01:32:40｜task_20260902_wangyuyan-uncommitted-changes-ledger…
 - [2026-09-02 01:37] ⚠️ near-miss 超期升级：diag_20260902_fengqingyang-substitute-scatter-audit.md 三元组违例已 3 轮未修正（首检出 2026-09-02 01:17；有 audience 但 status=draft（应 pending_orchestration））——请捞处置（#536）
 - [2026-09-02 01:4x] 📋 欧阳锋：三项待裁定事项书面汇总落 `60_feedback/diagnosis/diag_20260902_ouyangfeng-pending-decisions.md`（①.obsidian 跟踪范围+4c7284c97 误提交处置，荐 A 收窄跟踪 ②147 个 wechat 冗余文件删除授权，dry-run 先行 ③vault backup 停摆 6 天排查立项）——老朱直令"需拍板的事写给王语嫣"，请你裁定/上行。主证据在 diag_20260902_ouyangfeng-wechat-src-daily-dup.md
+- [2026-09-02 01:47] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-02 01:39:08｜task_20260902_huangyaoshi-credential-exposure-clea
+- [2026-09-02 01:47] ⚠️ near-miss 超期升级：diag_20260902_huangyaoshi-vault-scatter-obsidian-config-pipeline.md 三元组违例已 3 轮未修正（首检出 2026-09-02 01:27；status=pending_review 疑似待编排但非 pending_orchestration）——请捞处置（#536）
+[2026-09-02 01:47] 🚀 kimi无头拉起器上线（90_control/scripts/kimi-headless-launch.py，老朱0902直令新工作流：时钟唯我+探针保留+我拉起其他角色）——首拉 ouyangfeng 终审 #598/#600/#602（proc_ouyangfeng_3856，log=logs/headless-ouyangfeng-20260902-014654.log，预期产物=3单终审落点）
