@@ -2,12 +2,15 @@
 id: '588'
 title: Skill目录与挂载矩阵机制——扫描生成+登记制（Skills助理基建配套）
 type: infrastructure
-status: pending_review
+status: reviewed
 priority: P1
 assignee: 黄药师
 created_by: 王语嫣
 created_at: 2026-09-01
-updated_at: '2026-09-01T02:56:29.263420+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-09-01'
+grade: A-
+updated_at: '2026-09-01T03:14:24.240002+00:00'
 source_refs:
 - 40_outputs/capabilities/skills/shared/
 instance: huangyaoshi
@@ -62,3 +65,35 @@ instance: huangyaoshi
 ### ③ 负向判词 / ④ 存在性核查
 
 🔴 意见书含负向断言（缺失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
+
+## 终审记录
+
+**终审人**：欧阳锋 | **日期**：2026-09-01 | **结论**：✅ **PASS A-** | **流转**：见 git log（queue_transition review 自动 commit）
+
+### 一、规格对照核验表（验收标准逐条，全部独立亲跑）
+
+| # | 验收项 | 终审实证 | 状态 |
+|:--|:--|:--|:--|
+| 1 | INDEX.md 覆盖 73/73，字段齐全可检索 | 脚本亲跑出 INDEX 73 行；存量计数亲验：`ls shared/`=74 条目=73 skill 目录+README.md（「74 口径差」裁定成立）；`find -name SKILL.md`=73；七列（名称/一句话/触发词/来源卡/位置/已挂载）逐列亲读，非空非占位 | ✅ |
+| 2 | MOUNT-MATRIX 出全厂挂载现状 + 可挂未挂 ≥1 份 actionable | 亲读：26 挂载单元（9 agent-spec + 11 实例 + 6 角色路由）×73 skill 状态三档 31/1/41（合计=73 自洽）；可挂未挂清单=无主 41（含关键词启发式归属建议 41 条）+单点 1（deep-debug），actionable 性成立；挂载判定抽样反查全吻合——role-routes 欧阳锋 6 引用−1 legacy=矩阵 5 ✓、黄药师 6−1=5 ✓、老顽童 8−1=7 ✓；无主反例 strategy/five-step-demand 三登记面（role-routes+agent-specs+CLAUDE.md）grep 零引用 ✓ | ✅ |
+| 3 | 增量机制可演示 | **终审者独立复跑三步全过**：①造 `_test-588-hook` 测试 skill → `--check` 报 🔴 stale exit=1 ②重跑收录 74（INDEX 行+矩阵无主 42 均现）③删除后重跑恢复 73 fresh；恢复后 git diff 仅生成时间戳一行（幂等性顺带亲证），生成物已 checkout 还原交付原状 | ✅ |
+
+### 二、4 项交付物核验
+
+| 交付物 | 证据 | 状态 |
+|:--|:--|:--|
+| ①扫描脚本 scan_skills_registry.py | 亲跑 3 次输出正确；BOM 兼容（INDEX 描述列空值=0 亲读确认）；`--check` 新鲜度门禁亲跑双态（fresh 🟢 / stale 🔴 exit 1） | ✅ |
+| ②INDEX.md | 73/73 全覆盖亲读；2 个 name≠目录名（content-production-polish→Vikki-human-speech、knowledge-collision→knowledge-collision-workflow）已在卡内标注 | ✅ |
+| ③MOUNT-MATRIX.md | 26 单元×三档 31/1/41 亲读自洽；登记制口径（文件引用即挂载+运行时可用性另证）头部已声明 | ✅ |
+| ④spec 模板增补+增量钩子 | workflow-kdo-agent-production-pipeline.md L116-125（「已挂载skills」标准节+INDEX 注册前置）+L144-149（Skills 挂载固定动作三步）亲读实锤；health-check.py L99 第 20 项挂接亲读；infrastructure-inventory.md L74 巡检族登记亲读；SPEC L99 mount-matrix→MOUNT-MATRIX 大写统一已改+注明 | ✅ |
+
+### 三、记档项（2 处，均不阻塞）
+
+1. 🟡 **数量口径笔误**：任务单边界③「trigger.natural_language 71 个缺失」实测不成立——**存在性核查**：`grep -rl natural_language shared/` 全库 0 命中，缺口=**73 全缺**（INDEX.md 缺口清单口径正确）。EXECUTION 报告数字与生成物不一致属笔误级，以 INDEX 缺口清单为准，Skills 助理补登记时留意。
+2. 🟡 **health-check 全量超时**：终审环境 `python 90_control/scripts/health-check.py` 全量跑 180s 超时（含其他重检查项），#588 第 20 项未能全量链路实跑——挂接代码 L99 + 行义 L156 + scan 脚本 `--check` 三点亲读/亲跑足以支撑判定；health-check 整体性能问题与本单无关，建议落停车场另行观察。
+
+### 四、边界确认（生产者 4 项边界声明全部合理）
+
+挂载=登记面引用非运行时实证（#326 MCP 巡检同族后续）/无主 41 归属裁定+单点推广=Skills 助理内容维护面/trigger 补登记同归属/部署落地待下一部署单——四项均不属基建单范围，边界划分与 #587 SPEC 分工表（L89-99）对得上。
+
+**终审总评**：4 项交付物全部实证成立，验收 3/3 独立复跑通过，扫描-生成-校验-巡检四层机制闭环完整，边界声明诚实（明确区分登记面与运行时、交付面与维护面）。扣分为 2 处 🟡 笔误/观察级记档项。**PASS A-，同意闭环。**
