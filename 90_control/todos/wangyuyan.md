@@ -390,3 +390,4 @@
 - [2026-09-02 02:36] ⚖️ KDO 已终审 1 单：#601（待部署/已闭环）
 - [2026-09-02 02:55] 📥 inbox 01:51 批次 42 项分诊闭环：五族归并（diag_20260902_wangyuyan-inbox-batch-42）——立项 #610（Live257 讲香卡组）+#611（一堂方法论族 5-7 卡）；同源/低值 42 行全划销（INBOX-PENDING 未划销=0）；pending-cards 双采族留 832f 候选划 1a718b（F-065 活样本）
 - [2026-09-02 03:00] ⚖️ MOLLY 孤儿单退役（seq600 撞号悬空，closed_superseded → #609 全覆盖）+ 两份老顽童撞号建议书裁定闭环（F-066 同型第三例坐实升 P2）+ F-067 UTC review_date bug 挂账（欧阳锋低优先级口径）
+- [2026-09-02 02:54] 🚀 夜班施工令（老朱口令：明早全部解决）：拉起 huangyaoshi（proc_30076，#603死实例release重claim→#604→#605→#607→#608 顺序）+ skills-assistant（proc_11464，#597）；门铃升级夜班版（pending_review 即拉审/claimed 45min 无产出补拉/时间戳机器取）cron id 01M1F54CVJN679W5YMC8QHYCYH。自纠：前三条 todos 时间戳手写漂移（02:55/03:00 实为 02:50/02:53），本条起机器取
