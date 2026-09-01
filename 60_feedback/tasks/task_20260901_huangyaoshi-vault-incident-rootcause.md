@@ -1,16 +1,17 @@
 ---
-id: "589"
-title: "vault 整树消失事故根因排查+防再发（08-31 02:00 目录级清空）"
+id: '589'
+title: vault 整树消失事故根因排查+防再发（08-31 02:00 目录级清空）
 type: investigation
-status: queued
+status: in_progress
 priority: P0
 assignee: 黄药师
 created_by: 王语嫣
 created_at: 2026-09-01
-updated_at: 2026-09-01
+updated_at: '2026-09-01T01:03:35.944738+00:00'
 source_refs:
 - 90_control/todos/wangyuyan.md 08-31 02:15 事故记录
-- "90_control/scripts/queue_transition.py 旁证链"
+- 90_control/scripts/queue_transition.py 旁证链
+instance: huangyaoshi
 ---
 
 # #589 vault 整树消失事故根因排查+防再发
