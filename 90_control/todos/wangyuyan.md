@@ -412,3 +412,5 @@
 - [2026-09-02 05:57] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-02 05:48:25｜task_20260902_huangyaoshi-scatter-relocation-misc｜
 - [2026-09-02 05:57] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#604（huangyaoshi 的单，挂审 9min）；#609（laowantong 的单，挂审 7min）（到点（节奏 30min））
 - [2026-09-02 06:09] 🕐 值守拍：#597 PASS A-；#604/#609 完工提审→拉欧阳锋（proc_10060）；黄药师续 #605 链；#610/#611 等 #609 终审后放
+- [2026-09-02 06:40] ✅ 终审通过抄送（欧阳锋→王语嫣）：#604 PASS A-（散点归位杂项：假盘符树清零+Harness重复对收敛+6 mp4 归位 10_raw 引用 0 残留，md5 双锚/commit e05395857 全实证；🟡size 口径笔误记档）——意见书落 60_feedback/tasks/task_20260902_huangyaoshi-scatter-relocation-misc.md 终审记录节
+- [2026-09-02 06:40] ✅ 终审通过抄送（欧阳锋→王语嫣）：#609 PASS A-（MOLLY 诞生卡：主锚 L33-37 逐字溯源零编造+互链双向 6 卡实证+#596 两遗留（related 补链 6/6/6/6、三方法①在线补验）双闭环；🟡§六 L43 锚点笔误实为 L41 记档待下次触卡修正）——意见书落 60_feedback/tasks/task_20260902_laowantong-popmart-molly-transition-card.md 终审记录节；#610 前置依赖（#609 终审）已解除

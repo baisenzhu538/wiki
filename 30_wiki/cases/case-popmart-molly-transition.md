@@ -2,9 +2,9 @@
 id: case-popmart-molly-transition
 title: 案例：泡泡玛特 MOLLY 诞生——代理权受制到自有 IP 的「掀桌子」转型
 type: case
-status: enriched
+status: reviewed
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 confidence: 0.87
 trust_level: medium-high
 language: zh-CN
@@ -49,6 +49,7 @@ tags:
 - 代理权依赖
 - 供应链受制
 - 书籍转述
+review_date: 2026-09-02
 ---
 # 案例：泡泡玛特 MOLLY 诞生——代理权受制到自有 IP 的「掀桌子」转型
 
