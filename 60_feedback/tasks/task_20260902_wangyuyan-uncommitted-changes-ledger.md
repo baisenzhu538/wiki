@@ -2,12 +2,13 @@
 id: task_20260902_wangyuyan-uncommitted-changes-ledger
 title: 93 文件未提交改动落账（散点审计 R4，P0——为后续清理提供 git 兜底）
 seq: 602
-status: queued
+status: in_progress
 assignee: wangyuyan
 created_by: wangyuyan
 created_at: 2026-09-02
 priority: P0
-updated_at: '2026-09-02T01:25:00+08:00'
+updated_at: '2026-09-01T17:30:57.767676+00:00'
+instance: wangyuyan-kimi-0902
 ---
 
 # #602 未提交落账
