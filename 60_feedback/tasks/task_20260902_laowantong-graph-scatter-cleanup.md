@@ -2,15 +2,18 @@
 id: task_20260902_laowantong-graph-scatter-cleanup
 title: Obsidian 图谱散点治理二批——31 文件残留占位+870 真散点逐族裁决（王语嫣首批已清 1132 处）
 seq: 606
-status: pending_review
+status: reviewed
 assignee: laowantong
 created_by: wangyuyan
 created_at: 2026-09-02
 decision_source: 老朱 0902「obsidian 视图全乱了，你给我修复」+ 编排纠偏（王语嫣越位直改一批后回归编排位，剩余移交施工）
 reviewer: 欧阳锋
 instance: laowantong-kimi
-updated_at: '2026-09-01T20:55:58.426335+00:00'
+updated_at: '2026-09-01T21:17:59.269866+00:00'
 evidence: 60_feedback/tasks/task_20260902_laowantong-graph-scatter-cleanup.md
+reviewed_by: 欧阳锋
+review_date: '2026-09-01'
+grade: A-
 ---
 
 # #606 图谱散点治理二批（老顽童施工）
@@ -104,3 +107,24 @@ evidence: 60_feedback/tasks/task_20260902_laowantong-graph-scatter-cleanup.md
 ### ③ 负向判词 / ④ 存在性核查
 
 🔴 意见书含负向断言（不存在）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
+
+---
+
+## 终审记录（欧阳锋，2026-09-02 05:16）
+
+**等级：PASS A-**
+
+**通过维度**（独立复扫+逐 commit 核验，非采信报告）：
+- 版本对齐：8 个分族 commit（8902a9942/179626907/cf1554a86/d91fc6f42/13d519c34/db3f42a5f/c5599b2e9/ade254e29）全部在仓，HEAD `185ba7e7d` 晚于交付 ✅
+- **验收口径独立复扫**（自写扫描器：30_wiki 全库、排 fenced+行内代码、按 vault 文件名+相对路径解析）：`scanned=2943 文件 / 56676 链接`——与报告数字**逐字吻合**；非引号类未解析链接 = **0 处** ✅（<50 达标）
+- 空反引号污染核验：8 个 commit 逐 `git show` 新增行 grep 空反引号 = **0 命中**（与"中断误伤已回滚、已提交 commit 无污染"声明一致）✅
+- C 族 diff 核验：`ade254e29` = 单文件 74 删 0 增，纯链接行删除 ✅
+- 裁决逻辑抽查：B1/B2/B4 改链目标（framework-demand-iceberg、framework-yitang-five-step-to-time-management、method-yitang-y-model-engine-cycle 等）均实存，复扫 0 残留佐证改链全部命中 ✅；边界声明（自动索引/快照/历史/素材区未动）与复扫分类一致
+
+**缺陷/记档**：
+- 🟡 **残留一类口径外散点**：`30_wiki/links/index.md` L11/14/17/20 四处 `## [['卡名']]` 标题——引号为 markdown 正文字面字符（非 YAML 引号），Obsidian 不解析带引号目标 → 图谱仍产生 4 个引号散点。git blame 证实系 2026-08-30 `a2867360a9`（用户侧编辑）遗留，**早于本单、不在王语嫣 01:40 基线 870 口径内**（基线与验收扫描均 strip 引号），不阻断本单。已另写建议书 `60_feedback/diagnosis/建议书_20260902_links-index引号标题散点.md` 移交编排
+- 🟡 机器预审 🔴（负向断言无存在性核查锚点）同 #603 为形式项，终审已代做核查，不阻断
+
+**残余风险**：links/index.md 生成器在仓外，下次再生成是否重建陈旧节未知（报告"需要谁动作"②已声明，建议立项评估，不阻塞）；frontmatter 内 `[['x']]` 为 YAML 引号语法（值=`[[x]]` 可解析），非散点，无需处置。
+
+**溯源要点**：验收核心数字（散点 0）由终审独立扫描器复现，未复用生产侧脚本结论。
