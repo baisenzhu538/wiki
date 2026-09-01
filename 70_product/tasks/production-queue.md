@@ -229,7 +229,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 
 | 598 | `task_20260902_huangyaoshi-bom-cleanup-health-radar` | skill文件37个BOM批量清理+8维健康检测并入#588扫描脚本例行化（建议书动作3+9） | claimed-wyy-cli-0902 | huangyaoshi | BOM清零+8维检测+回归 | 无（与#597不同文件层可并行） | `60_feedback/tasks/task_20260902_huangyaoshi-bom-cleanup-health-radar.md` | skill健康度勘察裁定（09-02王语嫣）；只动编码层不动内容；欧阳锋终审 |
 
-| 599 | `task_20260902_skills-assistant-legacy53-evaluate-revive` | 根目录54个legacy skill处置：逐个评估→三分法（迁shared登记/全网调研重造达标/确无必要报废·零执行待复核）（健康度建议书动作7·老朱0902拍板升级版） | pending_review | skills-assistant | 逐个裁决表+三批立项建议书 | **Phase1只读可立即跑；Phase2搬移等#597收口错峰** | `60_feedback/tasks/task_20260902_skills-assistant-legacy53-evaluate-revive.md` | 老朱0902直令（ recycle先于scrap）；全网调研≥2源；报废零执行王语嫣复核；欧阳锋终审 |
+| 599 | `task_20260902_skills-assistant-legacy53-evaluate-revive` | 根目录54个legacy skill处置：逐个评估→三分法（迁shared登记/全网调研重造达标/确无必要报废·零执行待复核）（健康度建议书动作7·老朱0902拍板升级版） | reviewed | skills-assistant | 逐个裁决表+三批立项建议书 | **Phase1只读可立即跑；Phase2搬移等#597收口错峰** | `60_feedback/tasks/task_20260902_skills-assistant-legacy53-evaluate-revive.md` | 老朱0902直令（ recycle先于scrap）；全网调研≥2源；报废零执行王语嫣复核；欧阳锋终审 |
 
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
@@ -427,7 +427,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#594 task_20260902_skills-assistant-research-core-integration｜skills-assistant｜提审 09-01 22:55｜60_feedback/tasks/task_20260902_skills-assistant-research-core-integration.md~~ → 已终审 PASS A（2026-09-01 欧阳锋）
 - ~~#595 task_20260902_skills-assistant-frontmatter-backfill｜skills-assistant｜提审 09-01 23:30｜60_feedback/tasks/task_20260902_skills-assistant-frontmatter-backfill.md~~ → 已终审 PASS A-（2026-09-01 欧阳锋）
 - ~~#596 task_20260902_laowantong-popmart-uniqueness-book-cards｜laowantong｜提审 09-02 00:26｜60_feedback/tasks/task_20260902_laowantong-popmart-uniqueness-book-cards.md~~ → 已终审 PASS A-（2026-09-01 欧阳锋）
-- #599 task_20260902_skills-assistant-legacy53-evaluate-revive｜skills-assistant｜提审 09-02 00:54｜60_feedback/tasks/task_20260902_skills-assistant-legacy53-evaluate-revive.md
+- ~~#599 task_20260902_skills-assistant-legacy53-evaluate-revive｜skills-assistant｜提审 09-02 00:54｜60_feedback/tasks/task_20260902_skills-assistant-legacy53-evaluate-revive.md~~ → 已终审 PASS A-（2026-09-01 欧阳锋）
 
 <!-- REVIEW-PENDING-END -->
 

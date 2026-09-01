@@ -2,14 +2,17 @@
 id: task_20260902_skills-assistant-legacy53-evaluate-revive
 title: 根目录 legacy skill 处置——评估→上架/重造/报废三分法（健康度建议书动作7·老朱0902拍板升级版）
 seq: 599
-status: pending_review
+status: reviewed
 assignee: skills-assistant
 created_by: wangyuyan
 created_at: 2026-09-02
+reviewed_by: 欧阳锋
+review_date: '2026-09-01'
+grade: A-
 decision_source: 老朱 2026-09-02 拍板：「能用的搬回正规货架登记好；认为没用的拉起skills助理评估——全网调研作为工作流重造一轮，看是否达标，确实没必要再放弃」
 reviewer: 欧阳锋
 instance: skills-assistant
-updated_at: '2026-09-01T16:54:21.718924+00:00'
+updated_at: '2026-09-01T17:05:18.246302+00:00'
 evidence: 60_feedback/diagnosis/建议书_20260902_legacy53_评估与重造方案.md
 ---
 
@@ -81,3 +84,23 @@ Phase 1 提审通过后，迁移批/重造批由王语嫣编排立项（**#597 �
 ### ③ 负向判词 / ④ 存在性核查
 
 ✅ 执行报告无负向断言词（检查面=执行报告节）
+
+## 终审记录（2026-09-02 欧阳锋）
+
+**Verdict: PASS / Grade: A-**
+
+审的是建议书本身质量（编排层复核意见不在我审裁范围，不推翻）。
+
+**三项审查独立复核（全部亲跑，非采信 self-report）：**
+
+| 审查点 | 验证方法 | 结果 |
+|:--|:--|:--|
+| ① 54 全覆盖 0 遗漏 0 重复 | 终审者独立清点 `ls -d */ | grep -v shared` = 54 个目录，逐一映射裁决表 | A 27 目录 + B 14 目录（crystallized-* 8 + openmontage + lib-maintainer + distill-own + audio-production + document-parsing + image-understanding-pipeline）+ C 9 目录 + builtin 4 = 54，0 遗漏 0 重复 ✅ |
+| ② 撞车/报废判断有 grep/diff 实证 | 抽验 4 对撞车声明中的 3 对 + 行数/manifest/待填声明 | business-research：shared/research/SKILL.md=32 行 1.1.0 薄壳（frontmatter 实读「已并入 research-core，本卡为兼容薄壳」）vs 根目录 99 行完整版——声明吻合；knowledge-collision diff=17 行、self-evolution diff=12 行，均仅 frontmatter 状态/description 前缀差异——「100% 同源」判断成立；nine-layer 307 vs 71 行行数声明精确吻合；manifest 仅 3 个独立复点吻合；crystallized-* 37 行「待填」grep 命中 ✅ |
+| ③ 红线遵守（Phase 1 只读） | git log 全量提交链 + git status | #599 提交链 4 笔（b8109ba30 立项/c4b3cb653 claim/3942c7f5b 建议书/304033e36 complete）触碰面=任务单+建议书+队列/dashboard 流转文件；skills 区非 shared 改动仅 3 个生成物（INDEX/MOUNT-MATRIX diff=各 2 行纯时间戳刷新属 #595 重扫残留、SKILL-HEALTH 属 #598），54 个 legacy 目录 git status 零触碰 ✅ |
+
+**建议书质量加分项**：口径诚实（主动报「任务单 53 实际 54 以实际为准」）；裁决理由全部带 grep/diff 实证而非印象；重造评估全网调研每条 ≥2 独立来源且留证 /tmp/research599/；待议事项 4 条主动识别不越界（builtin 登记规则/九字诀去重/design 挂载/多模态解析整合）；分批方案含挂载建议+优先级+错峰时序。
+
+**🟡 记档 1 项（带落点）**：建议书盘点方法表声明引用统计含 90_control，但报废 C-40（image-ocr-easyocr）漏检了 90_control/AGENTS.md 图片纪律段的首选路径引用——该断链风险由王语嫣编排层复核兜住（3 项缓报废+R6 先行时序），零实际损害。落点：不降级主体质量（被复核层兜住+报废批本有「复核后才落标」双保险）；此教训（引用统计须含 AGENTS.md 等基建声明文件）建议 skills-assistant 记入家法盘点清单，下批评估单执行。
+
+**存在性核查**：①「54 个目录」核查=终审者亲跑 ls 独立清点输出 54 行（清单留存会话）；②「薄壳化」核查=head shared/research/SKILL.md 亲读 frontmatter version: 1.1.0+标题「本卡为兼容薄壳」；③「仅 frontmatter 差异」核查=diff 两对文件输出 17/12 行且逐行为 frontmatter/description；④「legacy 零触碰」核查=git status --porcelain 40_outputs/capabilities/skills/ 非 shared 计数=3（全为 #588/#598 生成物）+54 目录名逐一不在任何 #599 提交的 name-only 清单。
