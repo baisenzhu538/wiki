@@ -1,0 +1,19 @@
+<Sysmon schemaversion="4.22">
+  <EventFiltering>
+    <ProcessCreate onmatch="exclude">
+      <Image condition="is">cronjob_runner.exe</Image>
+    </ProcessCreate>
+    <FileCreateTime onmatch="include">
+      <TargetFilename condition="contains">Desktop\wiki</TargetFilename>
+    </FileCreateTime>
+    <FileCreate onmatch="include">
+      <TargetFilename condition="contains">Desktop\wiki</TargetFilename>
+    </FileCreate>
+    <FileDelete onmatch="include">
+      <TargetFilename condition="contains">Desktop\wiki</TargetFilename>
+    </FileDelete>
+    <RawAccessRead onmatch="include">
+      <Device condition="begin with">\Device\</Device>
+    </RawAccessRead>
+  </EventFiltering>
+</Sysmon>
