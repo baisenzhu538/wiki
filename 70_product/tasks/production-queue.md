@@ -241,6 +241,8 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 607 | `task_20260902_huangyaoshi-vault-backup-stall-investigation` | vault backup停摆6天空窗根因排查（08-26→09-02无commit无人察觉）+停摆24h自报报警+可修即修 | queued | huangyaoshi | 根因报告+报警上线实证+修复验证 | 无（排队不插队） | `60_feedback/tasks/task_20260902_huangyaoshi-vault-backup-stall-investigation.md` | 欧阳锋建议书决策点3（09-02王语嫣裁定立项，空窗属实已核验）；报警复用既有探针面不新建扫描器；欧阳锋终审 |
 | 608 | `task_20260902_huangyaoshi-image-detail-deadloop-fix` | image_detail死循环修复：识别该类型直接mark_seen跳过（三症联诊动作3漏项补立，原口径随#601同单但任务单未含） | queued | huangyaoshi | 修复diff+两轮日志对比实证 | #601 reviewed 后（防同文件冲突） | `60_feedback/tasks/task_20260902_huangyaoshi-image-detail-deadloop-fix.md` | 黄药师三症联诊动作3（09-02王语嫣裁定补立）；小改单点不碰去重逻辑；欧阳锋终审 |
 | 609 | `task_20260902_laowantong-popmart-molly-transition-card` | 泡泡玛特MOLLY诞生卡 case-popmart-molly-transition（#596终审裁定补卡）+#596四卡related补链顺带 | queued | laowantong | 1张case卡+补链diff+互链0死链实证 | #606 后（同角色排队） | `60_feedback/tasks/task_20260902_laowantong-popmart-molly-transition-card.md` | 欧阳锋#596终审裁定（09-02王语嫣编排并单）；转述二等标注#470口径；六维标签建议已附；欧阳锋终审 |
+| 610 | `task_20260902_laowantong-live257-ten-finger-fragrance-cards` | Live257重讲十指讲香卡组3-4张：十指讲香framework+用数字讲故事method+发布会文案案例（华为/苹果/小米） | queued | laowantong | 3-4张卡+三方法记录+互链实证 | #609 后（同角色排队） | `60_feedback/tasks/task_20260902_laowantong-live257-ten-finger-fragrance-cards.md` | inbox 01:51批次分诊族A（diag_20260902_wangyuyan-inbox-batch-42）；131KB大素材逐字读W1；传播声明检查#322口径；sales域轴缺如生产者提词王语嫣审入；欧阳锋终审 |
+| 611 | `task_20260902_laowantong-yitang-methodology-batch-cards` | 一堂方法论族卡组5-7张：MUSE数据包framework+高阶Skill设计指南tool+Agent大学case+Jovida双报告case+Eason审计case+dk（🔴传播限制#322先例） | queued | laowantong | 5-7张卡+传播限制标注清单+互链实证 | #610 后（同角色排队） | `60_feedback/tasks/task_20260902_laowantong-yitang-methodology-batch-cards.md` | inbox 01:51批次分诊族B（diag_20260902_wangyuyan-inbox-batch-42）；素材=二等整理件标注；Eason审计🔴密级拿不准先问王语嫣；欧阳锋终审 |
 
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
@@ -509,48 +511,48 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~00_inbox/学习candy合集/translations/中译-尼尔·雷克汉姆：联结销售与营销（SPIN创始人）-视频逐字稿.md｜P2｜14353B｜检测到 08-31 19:01｜待王语嫣编排~~ → 已处置（2026-09-01 03:35 王语嫣）：#586 Wave0 翻译施工产物（文件头自证「中译：2026-09-01 王语嫣编排」，三件=芝大/SPIN/TED主流谎言中译稿，对应 big 版逐字稿已 01:12/02:33 诊断在册），施工产物非新素材，不入编排；原文不动
 - ~~00_inbox/学习candy合集/translations/中译-大卫·布鲁克斯：当代文化的3个主流谎言（TED）-视频逐字稿.md｜P2｜50158B｜检测到 08-31 19:11｜待王语嫣编排~~ → 已处置（2026-09-01 03:35 王语嫣）：#586 Wave0 翻译施工产物（文件头自证「中译：2026-09-01 王语嫣编排」，三件=芝大/SPIN/TED主流谎言中译稿，对应 big 版逐字稿已 01:12/02:33 诊断在册），施工产物非新素材，不入编排；原文不动
 - ~~00_inbox/泡泡玛特的拆解/拆书会第218期《因为独特》· 精华提炼.md｜P2｜10715B｜检测到 09-01 15:11｜待王语嫣编排~~ → 已诊断+立项 #596（2026-09-02 00:02 王语嫣）：域归属=strategy/拆书会系列——李翔《因为独特》泡泡玛特王宁精华提炼件（段王爷转述层）；已有卡仅覆盖招股书毛利率+盲盒机制，本书增量=长期主义经营/减宽加深/满足感×存在感/品牌包裹感，不撞车；按 0831/0901 老朱直令直接编排立项 4 卡（#596 老顽童）；原文不动
-- 00_inbox/AI知识管理探索营内测Candy-逐字稿.md｜P2｜27496B｜检测到 09-01 17:51｜待王语嫣编排
-- 00_inbox/AI知识管理探索营内测Candy_v5.json｜P2｜45371B｜检测到 09-01 17:51｜待王语嫣编排
-- 00_inbox/Live257-重讲十指讲香模型内测Candy-逐字稿.md｜P2｜131798B｜检测到 09-01 17:51｜待王语嫣编排
-- 00_inbox/Live257-重讲十指讲香模型内测Candy_v5.json｜P2｜204123B｜检测到 09-01 17:51｜待王语嫣编排
-- 00_inbox/Live260-AI口喷基本功内测candy-逐字稿.md｜P2｜36201B｜检测到 09-01 17:51｜待王语嫣编排
-- 00_inbox/Live260-AI口喷基本功内测candy_v5.json｜P2｜41971B｜检测到 09-01 17:51｜待王语嫣编排
-- 00_inbox/pending-cards/case-wechat-article_1a718b23df7e860b.md｜P2｜3900B｜检测到 09-01 17:51｜待王语嫣编排
-- 00_inbox/pending-cards/case-wechat-article_832f2544fc7bb16a.md｜P2｜3760B｜检测到 09-01 17:51｜待王语嫣编排
-- 00_inbox/video_transcripts/BV1JsgQzWEuD-逐字稿.md｜P2｜15760B｜检测到 09-01 17:51｜待王语嫣编排
-- 00_inbox/video_transcripts/BV1kp4y1v7p9_p1-逐字稿.md｜P2｜18179B｜检测到 09-01 17:51｜待王语嫣编排
-- 00_inbox/video_transcripts/BV1kp4y1v7p9_p2-逐字稿.md｜P2｜16794B｜检测到 09-01 17:51｜待王语嫣编排
-- 00_inbox/video_transcripts/BV1kp4y1v7p9_p3-逐字稿.md｜P2｜18179B｜检测到 09-01 17:51｜待王语嫣编排
-- 00_inbox/video_transcripts/BV1rp4y1e76Y-逐字稿.md｜P2｜30332B｜检测到 09-01 17:51｜待王语嫣编排
-- 00_inbox/video_transcripts/BV1ug411i7bH-逐字稿.md｜P2｜30515B｜检测到 09-01 17:51｜待王语嫣编排
-- 00_inbox/video_transcripts/BV1wb9XBXEGb-逐字稿.md｜P2｜63363B｜检测到 09-01 17:51｜待王语嫣编排
-- 00_inbox/video_transcripts_small/BV1JsgQzWEuD-逐字稿.md｜P2｜16657B｜检测到 09-01 17:51｜待王语嫣编排
-- 00_inbox/video_transcripts_small/BV1kp4y1v7p9_p1-逐字稿.md｜P2｜18397B｜检测到 09-01 17:51｜待王语嫣编排
-- 00_inbox/video_transcripts_small/BV1kp4y1v7p9_p2-逐字稿.md｜P2｜18789B｜检测到 09-01 17:51｜待王语嫣编排
-- 00_inbox/video_transcripts_small/BV1kp4y1v7p9_p3-逐字稿.md｜P2｜18397B｜检测到 09-01 17:51｜待王语嫣编排
-- 00_inbox/video_transcripts_small/BV1rp4y1e76Y-逐字稿.md｜P2｜34305B｜检测到 09-01 17:51｜待王语嫣编排
-- 00_inbox/video_transcripts_small/BV1ug411i7bH-逐字稿.md｜P2｜33578B｜检测到 09-01 17:51｜待王语嫣编排
-- 00_inbox/video_transcripts_small/BV1wb9XBXEGb-逐字稿.md｜P2｜64967B｜检测到 09-01 17:51｜待王语嫣编排
-- 00_inbox/video_transcripts_small/TED-大卫布鲁克斯-3个主流谎言-逐字稿.md｜P2｜55486B｜检测到 09-01 17:51｜待王语嫣编排
-- 00_inbox/学习candy合集/AI×知识管理 探索营内测 Candy-逐字稿.md｜P2｜27736B｜检测到 09-01 17:51｜待王语嫣编排
-- 00_inbox/学习candy合集/Live257：重讲十指讲香模型 内测 Candy-逐字稿.md｜P2｜133557B｜检测到 09-01 17:51｜待王语嫣编排
-- 00_inbox/学习candy合集/Live260：AI口喷基本功内测 Candy-逐字稿.md｜P2｜36368B｜检测到 09-01 17:51｜待王语嫣编排
-- 00_inbox/学习candy合集/大卫·布鲁克斯：当代文化的3个主流谎言（TED）-视频逐字稿.md｜P2｜58091B｜检测到 09-01 17:51｜待王语嫣编排
-- 00_inbox/学习candy合集/大卫·布鲁克斯：芝大毕业演讲（求知是有代价的）-视频逐字稿.md｜P2｜35008B｜检测到 09-01 17:51｜待王语嫣编排
-- 00_inbox/学习candy合集/审计：Eason文化审计与实事求是DataPack.md｜P2｜19790B｜检测到 09-01 17:51｜待王语嫣编排
-- 00_inbox/学习candy合集/尼尔·雷克汉姆：联结销售与营销（SPIN创始人）-视频逐字稿.md｜P2｜17398B｜检测到 09-01 17:51｜待王语嫣编排
-- 00_inbox/学习candy合集/技能：deep-debug深度调试技能.md｜P2｜9840B｜检测到 09-01 17:51｜待王语嫣编排
-- 00_inbox/学习candy合集/指南：高阶 Skill 设计指南.md｜P2｜23837B｜检测到 09-01 17:51｜待王语嫣编排
-- 00_inbox/学习candy合集/数据包：MUSE模型.md｜P2｜35685B｜检测到 09-01 17:51｜待王语嫣编排
-- 00_inbox/学习candy合集/架构：产品设想：龙虾团队OPT.md｜P2｜16645B｜检测到 09-01 17:51｜待王语嫣编排
-- 00_inbox/学习candy合集/设想：Agent大学——让你的Agent来一堂进修.md｜P2｜24692B｜检测到 09-01 17:51｜待王语嫣编排
-- 00_inbox/学习candy合集/调研：Jovida AI竞争力双三角洞察报告.md｜P2｜18355B｜检测到 09-01 17:51｜待王语嫣编排
-- 00_inbox/学习candy合集/调研：Jovida 深度产品调研报告.md｜P2｜13100B｜检测到 09-01 17:51｜待王语嫣编排
-- 00_inbox/学习candy合集/顶层：我对WAIC的顶层思考和学习框架.md｜P2｜11592B｜检测到 09-01 17:51｜待王语嫣编排
-- 00_inbox/学习candy合集/translations/中译-大卫·布鲁克斯：当代文化的3个主流谎言（TED）-视频逐字稿.md｜P2｜52147B｜检测到 09-01 17:51｜待王语嫣编排
-- 00_inbox/学习candy合集/translations/中译-大卫·布鲁克斯：芝大毕业演讲（求知是有代价的）-视频逐字稿.md｜P2｜33455B｜检测到 09-01 17:51｜待王语嫣编排
-- 00_inbox/学习candy合集/translations/中译-尼尔·雷克汉姆：联结销售与营销（SPIN创始人）-视频逐字稿.md｜P2｜15106B｜检测到 09-01 17:51｜待王语嫣编排
-- 00_inbox/泡泡玛特的拆解/拆书会第218期《因为独特》· 精华提炼.md｜P2｜10883B｜检测到 09-01 17:51｜待王语嫣编排
+- ~~00_inbox/AI知识管理探索营内测Candy-逐字稿.md｜P2｜27496B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：观察不立项——增量与族B学习candy合集重叠（diag_20260902_wangyuyan-inbox-batch-42），族B入库后复评
+- ~~00_inbox/AI知识管理探索营内测Candy_v5.json｜P2｜45371B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：同源数据附件随观察
+- ~~00_inbox/Live257-重讲十指讲香模型内测Candy-逐字稿.md｜P2｜131798B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：已立项 #610（十指讲香卡组）
+- ~~00_inbox/Live257-重讲十指讲香模型内测Candy_v5.json｜P2｜204123B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：同源数据附件随 #610
+- ~~00_inbox/Live260-AI口喷基本功内测candy-逐字稿.md｜P2｜36201B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：同源沿用——09-01 01:01 已诊（ai-collaboration 口喷 Partner，传播限制），不入编排
+- ~~00_inbox/Live260-AI口喷基本功内测candy_v5.json｜P2｜41971B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：同源附件沿用同上
+- ~~00_inbox/pending-cards/case-wechat-article_1a718b23df7e860b.md｜P2｜3900B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：双采族（F-065 活样本）——与 832f2544 同 title《重构协同》，本版缺作者出处，划销不入库；不删除（00_inbox 只增不删）
+- ~~00_inbox/pending-cards/case-wechat-article_832f2544fc7bb16a.md｜P2｜3760B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：双采族留候选——同 title 双采中信息更完整版（含作者书牧/淘天出处），待 F-065 去重机制落地后定夺
+- ~~00_inbox/video_transcripts/BV1JsgQzWEuD-逐字稿.md｜P2｜15760B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：同源沿用——09-01 已诊（BV 族：TED主流谎言/芝大毕业演讲/SPIN），不入编排
+- ~~00_inbox/video_transcripts/BV1kp4y1v7p9_p1-逐字稿.md｜P2｜18179B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：同源沿用——09-01 已诊（BV 族：TED主流谎言/芝大毕业演讲/SPIN），不入编排
+- ~~00_inbox/video_transcripts/BV1kp4y1v7p9_p2-逐字稿.md｜P2｜16794B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：同源沿用——09-01 已诊（BV 族：TED主流谎言/芝大毕业演讲/SPIN），不入编排
+- ~~00_inbox/video_transcripts/BV1kp4y1v7p9_p3-逐字稿.md｜P2｜18179B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：同源沿用——09-01 已诊（BV 族：TED主流谎言/芝大毕业演讲/SPIN），不入编排
+- ~~00_inbox/video_transcripts/BV1rp4y1e76Y-逐字稿.md｜P2｜30332B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：同源沿用——09-01 已诊（BV 族：TED主流谎言/芝大毕业演讲/SPIN），不入编排
+- ~~00_inbox/video_transcripts/BV1ug411i7bH-逐字稿.md｜P2｜30515B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：同源沿用——09-01 已诊（BV 族：TED主流谎言/芝大毕业演讲/SPIN），不入编排
+- ~~00_inbox/video_transcripts/BV1wb9XBXEGb-逐字稿.md｜P2｜63363B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：同源沿用——09-01 已诊（BV 族：TED主流谎言/芝大毕业演讲/SPIN），不入编排
+- ~~00_inbox/video_transcripts_small/BV1JsgQzWEuD-逐字稿.md｜P2｜16657B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：F-065 双采族 small 重转写派生，诊断沿用不入编排
+- ~~00_inbox/video_transcripts_small/BV1kp4y1v7p9_p1-逐字稿.md｜P2｜18397B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：F-065 双采族 small 重转写派生，诊断沿用不入编排
+- ~~00_inbox/video_transcripts_small/BV1kp4y1v7p9_p2-逐字稿.md｜P2｜18789B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：F-065 双采族 small 重转写派生，诊断沿用不入编排
+- ~~00_inbox/video_transcripts_small/BV1kp4y1v7p9_p3-逐字稿.md｜P2｜18397B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：F-065 双采族 small 重转写派生，诊断沿用不入编排
+- ~~00_inbox/video_transcripts_small/BV1rp4y1e76Y-逐字稿.md｜P2｜34305B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：F-065 双采族 small 重转写派生，诊断沿用不入编排
+- ~~00_inbox/video_transcripts_small/BV1ug411i7bH-逐字稿.md｜P2｜33578B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：F-065 双采族 small 重转写派生，诊断沿用不入编排
+- ~~00_inbox/video_transcripts_small/BV1wb9XBXEGb-逐字稿.md｜P2｜64967B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：F-065 双采族 small 重转写派生，诊断沿用不入编排
+- ~~00_inbox/video_transcripts_small/TED-大卫布鲁克斯-3个主流谎言-逐字稿.md｜P2｜55486B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：F-065 双采族 small 重转写派生，诊断沿用不入编排
+- ~~00_inbox/学习candy合集/AI×知识管理 探索营内测 Candy-逐字稿.md｜P2｜27736B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：同源观察——根目录版同族，增量与族B重叠（diag_20260902_wangyuyan-inbox-batch-42）
+- ~~00_inbox/学习candy合集/Live257：重讲十指讲香模型 内测 Candy-逐字稿.md｜P2｜133557B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：同源随 #610（素材锚=根目录版，两版本仅格式差）
+- ~~00_inbox/学习candy合集/Live260：AI口喷基本功内测 Candy-逐字稿.md｜P2｜36368B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：同源沿用——09-01 01:01 已诊（传播限制），不入编排
+- ~~00_inbox/学习candy合集/大卫·布鲁克斯：当代文化的3个主流谎言（TED）-视频逐字稿.md｜P2｜58091B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置沿用（09-02 王语嫣）：09-01 03:05 已诊（BV1kp4y1v7p9 三采族）
+- ~~00_inbox/学习candy合集/大卫·布鲁克斯：芝大毕业演讲（求知是有代价的）-视频逐字稿.md｜P2｜35008B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置沿用（09-02 王语嫣）：09-01 已诊（BV1rp4y1e76Y big 版为准）
+- ~~00_inbox/学习candy合集/审计：Eason文化审计与实事求是DataPack.md｜P2｜19790B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：已立项 #611（🔴密级传播限制标注 #322 先例）
+- ~~00_inbox/学习candy合集/尼尔·雷克汉姆：联结销售与营销（SPIN创始人）-视频逐字稿.md｜P2｜17398B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置沿用（09-02 王语嫣）：09-01 已诊（BV1JsgQzWEuD，ASR 差疑似管线测试流量）
+- ~~00_inbox/学习candy合集/技能：deep-debug深度调试技能.md｜P2｜9840B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：观察不立项——调试方法论与现有 skill 库重叠待复核，增量中等
+- ~~00_inbox/学习candy合集/指南：高阶 Skill 设计指南.md｜P2｜23837B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：已立项 #611
+- ~~00_inbox/学习candy合集/数据包：MUSE模型.md｜P2｜35685B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：已立项 #611（上位框架级资产）
+- ~~00_inbox/学习candy合集/架构：产品设想：龙虾团队OPT.md｜P2｜16645B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：并入 #611——体量小，作 Agent大学卡 related 互链不单独产卡
+- ~~00_inbox/学习candy合集/设想：Agent大学——让你的Agent来一堂进修.md｜P2｜24692B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：已立项 #611
+- ~~00_inbox/学习candy合集/调研：Jovida AI竞争力双三角洞察报告.md｜P2｜18355B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：已立项 #611（双件合一卡）
+- ~~00_inbox/学习candy合集/调研：Jovida 深度产品调研报告.md｜P2｜13100B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：已立项 #611（双件合一卡）
+- ~~00_inbox/学习candy合集/顶层：我对WAIC的顶层思考和学习框架.md｜P2｜11592B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：并入 #611——与 MUSE 同族（xuchu），互链不单独产卡
+- ~~00_inbox/学习candy合集/translations/中译-大卫·布鲁克斯：当代文化的3个主流谎言（TED）-视频逐字稿.md｜P2｜52147B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置沿用（09-02 王语嫣）：中译版随英文原版诊断，不单独编排
+- ~~00_inbox/学习candy合集/translations/中译-大卫·布鲁克斯：芝大毕业演讲（求知是有代价的）-视频逐字稿.md｜P2｜33455B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置沿用（09-02 王语嫣）：中译版随英文原版诊断，不单独编排
+- ~~00_inbox/学习candy合集/translations/中译-尼尔·雷克汉姆：联结销售与营销（SPIN创始人）-视频逐字稿.md｜P2｜15106B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置沿用（09-02 王语嫣）：中译版随英文原版诊断，不单独编排
+- ~~00_inbox/泡泡玛特的拆解/拆书会第218期《因为独特》· 精华提炼.md｜P2｜10883B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：#596 reviewed 闭环；MOLLY 补卡已并单 #609
 
 <!-- INBOX-PENDING-END -->
 
