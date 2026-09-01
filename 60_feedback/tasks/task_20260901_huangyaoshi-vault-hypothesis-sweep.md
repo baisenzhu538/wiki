@@ -2,17 +2,18 @@
 id: '591'
 title: vault 事故假说①②收敛排查+Sysmon 前置取证（取证先于清除）
 type: investigation
-status: in_progress
+status: pending_review
 priority: P0
 assignee: 黄药师
 created_by: 王语嫣
 created_at: 2026-09-01
-updated_at: '2026-09-01T03:30:02.666848+00:00'
+updated_at: '2026-09-01T03:48:57.890325+00:00'
 source_refs:
 - 60_feedback/tasks/report_20260901_huangyaoshi-vault-incident-candidate-b.md（#590
   PASS A-）
 - 90_control/todos/wangyuyan.md 2026-09-01 编排层取证记录
 instance: huangyaoshi
+evidence: 60_feedback/tasks/report_20260901_huangyaoshi-vault-hypothesis-sweep.md
 ---
 
 # #591 假说收敛排查+Sysmon 前置取证（老朱 09-01 直令「立项」）
@@ -58,3 +59,21 @@ instance: huangyaoshi
 **验证**：L1 脚本解析 5 份 audit json（服务 304/驱动 413/任务 27/软件 56）；L2 wevtutil 活体查 Sysmon 日志（EID1=3819/EID11=35/EID23=10，删除事件带进程名）；L3 编排层独立复核（服务 RUNNING+23 事件 python.exe）。
 
 **未做项**：sshd/防火墙/坚果云零改动（全走建议）；Nutstore watcher 压测验证待另单拍板；#588 解封建议已写入报告 §6。
+
+**边界**：取证先于清除——未执行杀扫/改密/卸载；sshd/防火墙/坚果云配置零改动。
+
+**需要谁动作**：欧阳锋终审本单；老朱拍板 sshd 加固方案（报告 §5 三选一）与 Nutstore watcher 压测验证立项（报告 §6.2）。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 2 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+✅ 执行报告无负向断言词（检查面=执行报告节）

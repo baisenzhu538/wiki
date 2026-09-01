@@ -217,7 +217,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 585 | `task_20260901_huangyaoshi-wechat-pipeline-smoke-test` | wechat采集管线smoke测试最小护栏：骨架标记skip判定断言+失败占位拦截联动+红绿自验（LLM全桩化） | reviewed | huangyaoshi | smoke脚本+断言+红绿验证 | #584终审扣分点2（欧阳锋明示立项） | `60_feedback/tasks/task_20260901_huangyaoshi-wechat-pipeline-smoke-test.md` | #584终审PASS A-指令执行（09-01王语嫣编排）；P2不插队；欧阳锋终审 |
 | 589 | `task_20260901_huangyaoshi-vault-incident-rootcause` | vault整树消失事故根因排查+防再发：USN/事件日志/坚果云/计划任务/回收站证据考古+08-30前天对齐+每日bundle备份计划任务落地 | reviewed | huangyaoshi | 根因报告+排除清单+bundle备份计划任务（实跑verify） | 08-31 02:00事故已恢复数据无损失；老朱0901拍板推进排查 | `60_feedback/tasks/task_20260901_huangyaoshi-vault-incident-rootcause.md` | P0；编排层已附初步证据链（坚果云头号嫌疑）；欧阳锋终审 |
 | 590 | `task_20260901_huangyaoshi-vault-incident-candidate-b` | 候选b显式收口：08-31 01:30-02:05本机agent会话存在面重建+危险命令痕迹扫描+lint基线worktree关联性——证实或排除「agent会话执行危险命令」；若排除则候选c（外部入侵）升级评估 | reviewed | huangyaoshi | 候选b证据链报告（证实/排除双向）+候选c升级建议 | #589终审欧阳锋追加指令「候选b显式立项或显式关闭」 | `60_feedback/tasks/task_20260901_huangyaoshi-vault-incident-candidate-b.md` | P0；不重复#589考古；欧阳锋终审 |
-| 591 | `task_20260901_huangyaoshi-vault-hypothesis-sweep` | 假说①②收敛排查+Sysmon前置取证：常驻服务/驱动/启动项审计过筛三要素+历史登录回查（08-01起4624类型3/10+4625+7045）+Sysmon部署自证（23事件抓进程名） | claimed-huangyaoshi | huangyaoshi | 假说收敛报告+嫌疑Top10三要素评分+Sysmon部署证据 | 老朱0901直令「立项」；P0插队在#588前 | `60_feedback/tasks/task_20260901_huangyaoshi-vault-hypothesis-sweep.md` | 取证先于清除（欧阳锋序）；欧阳锋终审 |
+| 591 | `task_20260901_huangyaoshi-vault-hypothesis-sweep` | 假说①②收敛排查+Sysmon前置取证：常驻服务/驱动/启动项审计过筛三要素+历史登录回查（08-01起4624类型3/10+4625+7045）+Sysmon部署自证（23事件抓进程名） | pending_review | huangyaoshi | 假说收敛报告+嫌疑Top10三要素评分+Sysmon部署证据 | 老朱0901直令「立项」；P0插队在#588前 | `60_feedback/tasks/task_20260901_huangyaoshi-vault-hypothesis-sweep.md` | 取证先于清除（欧阳锋序）；欧阳锋终审 |
 | 592 | `task_20260901_huangyaoshi-vault-resilience-trio` | wiki恢复力三件套：R1异机备份（最新bundle自动推坚果云目录保留3份）+R2快速重建脚本固化（bundle→临时目录演练）+R3完整性自检例行（异常走gate-blocked通知面） | queued | huangyaoshi | 三件全实跑自证+演练对照报告 | 老朱0901直令「加强基础设施确保能恢复」；P0 | `60_feedback/tasks/task_20260901_huangyaoshi-vault-resilience-trio.md` | 坚果云只收bundle不做wiki同步（#589铁律）；欧阳锋终审 |
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
@@ -409,6 +409,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#587 task_20260901_wangyuyan-skills-assistant-spec｜王语嫣｜提审 09-01 10:07｜60_feedback/tasks/task_20260901_wangyuyan-skills-assistant-spec.md~~ → 已终审 PASS A（2026-09-01 欧阳锋）
 - ~~#590 task_20260901_huangyaoshi-vault-incident-candidate-b｜黄药师｜提审 09-01 10:30｜60_feedback/tasks/task_20260901_huangyaoshi-vault-incident-candidate-b.md~~ → 已终审 PASS A-（2026-09-01 欧阳锋）
 - ~~#588 task_20260901_huangyaoshi-skill-registry-mount-matrix｜黄药师｜提审 09-01 10:56｜60_feedback/tasks/task_20260901_huangyaoshi-skill-registry-mount-matrix.md~~ → 已终审 PASS A-（2026-09-01 欧阳锋）
+- #591 task_20260901_huangyaoshi-vault-hypothesis-sweep｜黄药师｜提审 09-01 11:48｜60_feedback/tasks/task_20260901_huangyaoshi-vault-hypothesis-sweep.md
 
 <!-- REVIEW-PENDING-END -->
 
@@ -663,8 +664,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~[gate-blocked] task_20260901_wangyuyan-skills-assistant-spec｜09-01 10:07｜待王语嫣复核处置｜2026-09-01 10:06:42｜task_20260901_wangyuyan-skills-assistant-spec｜F-034-五字段｜执行报告缺 5 个字段（#429 F-034）：改动文件清单、完成内容一句话、验证命令+输出、未做项/边界、需要谁动作。请补全后重试，或 --force --reason '<理由>' 声明例外（#4｜wangyuyan~~ → 已化解划销（2026-09-01 11:05 王语嫣）：#587 已欧阳锋终审 PASS A（10:07 拦截先于欧阳锋收笔）——执行报告五字段实已落盘（终审亲测 wc=134 行/grep 十节全吻合），F-034 时序窗口残留
 - ~~[gate-blocked] task_20260901_huangyaoshi-vault-incident-rootcause｜09-01 10:17｜待王语嫣复核处置｜2026-09-01 10:08:55｜task_20260901_huangyaoshi-vault-incident-rootcause｜F-035-负向判词｜意见书含负向断言（缺失/「无法用本地日志」）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋~~ → 已化解划销（2026-09-01 11:05 王语嫣）：#589 已欧阳锋终审 PASS A——意见书「存在性核查」节实存（终审记录自证全部负向断言附独立复跑命令），F-035 时序窗口残留
 - ~~[gate-blocked] task_20260901_huangyaoshi-vault-incident-candidate-b｜09-01 10:57｜待王语嫣复核处置｜2026-09-01 10:51:30｜task_20260901_huangyaoshi-vault-incident-candidate-b｜F-035-意见书｜任务单缺少「## 终审记录」节（#429 F-035：审查意见必须落盘，口头/群里意见=未审查）｜欧阳锋~~ → 已化解划销（2026-09-01 11:05 王语嫣）：#590 已欧阳锋终审 PASS A-——「## 终审记录」节实存（候选 b 排除+候选 c 升级论证独立复跑通过），F-035 时序窗口残留
-- [gate-blocked] role-liveness｜09-01 11:07｜待王语嫣复核处置｜2026-09-01 11:02:01｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 485.6), ('cli', 31.2)]）｜role_registry check-liveness｜role_registry
-- [gate-blocked] task_20260901_huangyaoshi-skill-registry-mount-matrix｜09-01 11:17｜待王语嫣复核处置｜2026-09-01 11:13:52｜task_20260901_huangyaoshi-skill-registry-mount-matrix｜F-035-负向判词｜意见书含负向断言（缺失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋
+- [gate-blocked] role-liveness｜09-01 11:37｜待王语嫣复核处置｜2026-09-01 11:37:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 520.6), ('cli', 34.8)]）｜role_registry check-liveness｜role_registry
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
