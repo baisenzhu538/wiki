@@ -6,6 +6,9 @@
 !.kdo/backups/
 .config/
 
+# 原料区不进 git（既定铁律：00_inbox 不进 git，只真相源进 git——2026-09-02 从口头规则落为机制）
+00_inbox/
+
 # OS junk
 .DS_Store
 Thumbs.db
