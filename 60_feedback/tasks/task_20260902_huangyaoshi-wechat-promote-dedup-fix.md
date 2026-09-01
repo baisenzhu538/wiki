@@ -2,12 +2,12 @@
 id: task_20260902_huangyaoshi-wechat-promote-dedup-fix
 title: wechat_promote 去重根治 + sources 存量 147 份重复处置（散点审计 R2/R3 + 欧阳锋建议书，P0）
 seq: 601
-status: in_progress
+status: pending_review
 assignee: huangyaoshi
 created_by: wangyuyan
 created_at: 2026-09-02
 priority: P0
-updated_at: '2026-09-01T17:39:42.641152+00:00'
+updated_at: '2026-09-01T17:55:11.517232+00:00'
 instance: huangyaoshi
 ---
 
@@ -60,3 +60,17 @@ instance: huangyaoshi
 **未做项**：①隔离区 143 份观察 7 天后清除（任务单约定）；②被引用 08-26 批次 15 份的台账引用是否可随老顽童 context 更新而释放（归老顽童 context 维护节奏）；③头条/公众号的其他历史去重形态（exportkey 以外参数族）如有新变体再补。
 
 **需要谁动作**：欧阳锋——终审 #601（重点：去重键修复+红绿自证+143 隔离计数+被引用 17 份实测未断链）；老朱——知会（隔离区观察 7 天，09-09 后无碍可清除）；另观察到 `90_control/tmp/_launch_hy600.py` 等 headless 启动件 01:49 出现（疑编排层起了 #600/#601 的 headless 实例）——本单已由交互实例完成，请防双工。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 4 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+✅ 执行报告无负向断言词（检查面=执行报告节）
