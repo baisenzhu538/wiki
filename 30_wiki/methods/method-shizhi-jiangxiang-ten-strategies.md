@@ -36,6 +36,9 @@ related:
 - '[[yt-pitch-aphorism]]'
 - '[[framework-lobster-opt-one-person-team]]'
 - '[[case-yitang-jiangxiang-12-practices]]'
+- '[[case-yitang-jiangxiang-huawei-matext-launch]]'
+- '[[tool-yitang-jiangxiang-launch-copywriting-arsenal]]'
+- '[[method-yitang-jiangxiang-audience-value-routing]]'
 discoverable_by:
 - 十指讲香
 - 十指模型

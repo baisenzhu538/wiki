@@ -36,6 +36,7 @@ related:
 - '[[method-arui-business-scenario-3step-decomposition]]'
 - '[[yt-pitch-aphorism]]'
 - '[[dk-koupen-decision-tiering-compromise]]'
+- '[[tool-yitang-jiangxiang-launch-copywriting-arsenal]]'
 discoverable_by:
 - 用数字讲故事
 - 数字转换

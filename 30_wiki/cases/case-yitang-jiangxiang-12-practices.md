@@ -35,6 +35,9 @@ related:
 - '[[concept-讲香-卖点直给到价值感]]'
 - '[[case-yitang-jiangxiang-cli-three-versions]]'
 - '[[case-yitang-jiangxiang-scene-montage]]'
+- '[[case-yitang-jiangxiang-huawei-matext-launch]]'
+- '[[tool-yitang-jiangxiang-launch-copywriting-arsenal]]'
+- '[[method-yitang-jiangxiang-audience-value-routing]]'
 discoverable_by:
 - laowantong
 - wangyuyan
