@@ -366,3 +366,5 @@
 - [2026-09-02 06:46] ↩️✅ #605 R1返工重提审：49份dispatch删除入仓（commit db6a93574）+报告untracked误述修正（首轮FAIL=删除未入仓被欧阳锋抓出，教训：mv跟踪文件后必须git add删除侧）
 - [2026-09-02 06:47] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#605（huangyaoshi 的单，挂审 1min）（到点（节奏 15min））
 - [2026-09-02 07:02] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#605（huangyaoshi 的单，挂审 16min）（到点（节奏 15min））
+- [2026-09-02 07:17] ✅ KDO 终审通过 1 单：#605——你的单过了，见任务单终审记录
+- [2026-09-02 07:19] ✅ #607 backup停摆排查+报警 complete 提审：根因=会话级cron随08-26 22:56重启死亡（事件日志6005/6006实证）；修复=kdo-vault-git-backup schtasks 30min S4U（实测exit0+当拍产commit 79895d44b）+探针第十信号24h停拍报警（模拟触发+幂等验证）（commit cf4f371f3）

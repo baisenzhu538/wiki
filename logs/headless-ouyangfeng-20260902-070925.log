@@ -227,3 +227,167 @@ All verification points green:
 
 • 三处一致。补正 review_date 时区偏差（UTC 笔误，惯例补正为 09-02），然后抄送王语嫣、落 todos。
 
+done
+• Now the mandatory session-end actions for ouyangfeng:
+  0. 技能进化日志 line → 桌面/agent复盘/欧阳锋/技能进化日志.md
+  2. O0 self-check: I opened... today's card? This is a task review, not card review; O0 溯源 was done round 1 (source files read), this round verified against git — no violation.
+  3. Truman 11章复盘 → 桌面/agent复盘/ouyangfeng/daily-context/YYYY-MM-DD.md
+  4. daily-context-save.py save --agent ouyangfeng
+
+  "桌面" — check whether C:/Users/Administrator/Desktop/agent复盘/ouyangfeng exists, or wiki/agent复盘. Working dir listing had agent复盘/ with ouyangfeng absent but also a path "agent复盘/" exists in wiki. Context says 桌面/agent复盘/ouyangfeng. Check both.
+
+• 落盘完成。现在执行会话结束强制动作（技能进化日志 + Truman 复盘）。/c/Users/Administrator/Desktop/agent复盘/ouyangfeng
+AI基本功教练
+Kimi
+README.md
+_archive
+codebuddy
+codex
+duanwangye
+fengqingyang
+hongqigong
+huangyaoshi
+kimi-code
+laowantong
+ouyangfeng
+wangyuyan
+教练式领导力助理
+欧阳锋
+段王爷
+洪七公
+科学开会助理
+老顽童
+销售对话参谋
+黄药师
+Kimi
+fengqingyang
+laowantong
+wangyuyan
+洪七公
+老顽童
+
+
+cn-track-archive-20260819
+daily-context
+friction-log.md
+技能进化日志.md
+用户反馈档案.md
+索引.md
+能力雷达图.md
+错误模式库.md
+---
+2026-08-26.md
+2026-08-27.md
+2026-08-29.md
+2026-08-31.md
+2026-09-02.md
+---
+• There's already a 2026-09-02.md in daily-context. It may be from an earlier session today. The save command uses --file pointing to the path; check existing content and whether I should append or the script handles merge. Also 技能进化日志.md is in ouyangfeng/ dir (lowercase) — the tail on 欧阳锋 failed but the file listing shows 技能进化日志.md under ouyangfeng/. Let me read the existing 2026-09-02.md tail to see format, and read 技能进化日志 tail.## 8. 逐轮映射
+
+- 06:45 启动三读（startup/ouyangfeng-context/todos 未读段）+ 90_control/AGENTS.md
+- 06:46 队列定位 #605（cells[7] 拿任务单路径）→ 读任务单全文（五字段执行报告+机器预审）
+- 06:47 O0 溯源：watch_inbox.py 全文亲读 + git log/show 8590e4ecb + 隔离区计数 49
+- 06:48 安全栏核实 clock_watchdog SEGMENTS/GATE_LOG + 矩阵行 9 commit diff
+- 06:49 实跑 watch_inbox（exit 0，inbox-queue 前后 ls diff 空）→ git status 暴露 49 条 ` D` → git ls-files=184 证伪 untracked 断言 → 判 FAIL
+- 06:50 终审记录节落盘（O9 先意见书）→ 建议书落 diagnosis → queue_transition review（纯数字 id 报错→全名成功，退回 queued+rework:true）→ 三处一致核验（任务单/队列/待审段划线）→ 王语嫣收件箱抄送 → todos 完工行
+- 06:53 复盘保存首跑 🔴 C 级（章节名不规范+未检索声明）→ 读 review-check.py 口径 → 规范 11 章重写+合并前序记录 → 重跑
+
+## 9. 飞轮效应
+
+审查暴露预审盲区 → 建议书入 diagnosis → 王语嫣编排 → 预审脚本若补上"git status 查 D"检查项，下一个删除型交付（归档/隔离区类任务还会来）在提审前就被拦——审查者的单次判断沉淀为机器的永久拦截，这是 KDO 飞轮在审查侧的标准一圈。O-3 全名教训也已写进元反思，下会话启动即生效。
+
+## 10. 对照实验
+
+假设：FAIL 意见书写明"已绿 6 项复审不重查"后，黄药师返工→重提→复审全链路 < 30 分钟，且复审只做两项验证（commit 含 49 删除 + L52 修正）。对照组：此前无"已绿项清单"的打回，复审倾向全量重读。验证时点：#605 重提审之时，记录实际耗时与新发现问题数——若出现新 P1，说明已绿项清单遗漏了关键依赖，清单机制需加"依赖声明"字段。
+
+## 11. 下次改进
+
+1. 本实例 queue_transition 调用一律全名 task_id，写进肌肉记忆，不再消耗一次报错。
+2. 删除/移动型交付的审查 checklist 加一行：`git status --porcelain <目录>` 查 ` D` + `git ls-files <目录>` 验跟踪数。
+3. 复盘保存前 `ls daily-context/2026-09-*.md`，同日复盘合并写，不靠 save 脚本容错。
+
+## 本会话发现的问题
+
+1. **O-3 复发**：`queue_transition.py review 605` 纯数字 id 报"任务不在队列中"——老坑未修，绕法=全名。
+2. **划线行日期 UTC 笔误**：待审段划线标"2026-09-01"（实 09-02），同 review_date 时区偏差一族，不阻断，随既有建议书在案。
+3. **预审差集盲区**：只核声明路径存在性，漏"跟踪文件删除未提交"——已落建议书待王语嫣编排（wiki 检索声明：本 session 为代码/队列类终审，无方法论关系判断需求，未触发 kdo query 域知识检索；O6 适用面声明而非跳过，检索未发现新增方法论关联）。
+4. **复盘保存覆盖险肇**：日期命名+同日多会话撞车，前序记录被覆盖——已合并恢复，改进见第十一。
+===
+| 2026-09-02 | #598/#600/#602 三连审 | P0 凭据单终审四件套=原位 exists 全 False+隔离区字节数对账+git ls-files 0 行+check-ignore 命中，且「曾入 git 历史」声明要用 git log 亲查备份 commit 实证（不能照单全收）；落账批验收把「diff 抽查 3 个」升格为全量 37/37 字节级断言，成本几乎为零而确定性封顶；评审时点纪律=报告口径对落账时刻成立，残余脏面要区分「落账前漏网」与「落账后在途活动」再判真伪
+
+| 2026-09-02 | #601 去重根治终审 | 红绿自证可用「旧码代入夹具逻辑仿真」替代 stash 实跑（仓内有他方施工时零副作用）；数字口径打架时全库 md5 实测比逐字考据便宜（147/17/16 三口径一次裁定）；脚本收口回读要看字段「值」不只看「在」（review_date UTC 偏差漏网后被回读抓到）；验探针回执=写动作，先预判全副作用面 | #601 终审
+| 2026-09-02 | #604/#609 双单连审 | 移动类交付核验三件套=新位逐项在+旧位清零+hash 反查旧路径 0 残留（注意「glob 空匹配」假象——先证目录存在再信「无 mp4」）；size 声称与实测不符时 md5 双锚是承重证据，字符/字节口径差异记档即可不阻断；边界声明要逐 hash 反向核对（残留引用属不属本单范围，不靠生产者自报）；锚点笔误（L43 vs L41）与编造的本质区别=同卡他处是否正确引用同一事实——是则记档，否则退回 | #604/#609 终审
+| 2026-09-02 | E040 形态盲区：删除型交付（49 份 dispatch 移动归档）过得了"路径存在性"预审差集——git status 查 ` D` 才是删除型交付的入仓核验；报告"untracked"断言 git ls-files 一秒证伪 | 踩坑教训 | #605 终审（task_20260902_huangyaoshi-dispatch-mechanism-converge） |
+The daily-context 2026-09-02.md already exists from the 06:45 session (the round-1 FAIL review session), containing 11 chapters and 本会话发现的问题. My current session is the R1 re-review. I should update the daily-context to include this session's work — the earlier session already saved with 🟢 presumably. The 对照实验 (chapter 10) predicted the R1 flow: verify commit + L52 fix. Now actual result: it worked as predicted, ~29 min (06:46 重提 → 07:15 闭环）, no new P1.
+
+  Plan: append a new section to the existing 2026-09-02.md for this session (R1 复审）, following the same 11-chapter format? Or add to it? The script `daily-context-save.py save --agent ouyangfeng --truman --file ...` checks the file. Earlier session's file already passed. I'll append a clearly-marked session section "## 会话二（07:09 启动）#605 R1 复审" with the 11 chapters compactly, plus O0 self-check note, then run the save script.
+
+  Also add one line to 技能进化日志.md.
+
+  Also need to update the 对照实验 outcome — could note in the appended section.
+
+  Let me write the appended section. Keep the 11 chapters （差异栏=第1章）. Format per agent-os.md §10.2 — 11 chapters. The earlier file presumably has chapters 1-11; I'll write a second block with the same chapter headings suffixed.
+
+  Let me check chapter headings of the existing file to mirror.11:# ouyangfeng · 2026-09-02
+13:# 欧阳锋 daily-context 2026-09-02（kimi CLI · 全日合并版：#603/#597/#604/#609 PASS + #605 FAIL）
+15:## 1. 差异栏
+19:## 2. 概要
+24:## 3. 关键决策
+30:## 4. 思维盲点
+36:## 5. 顿悟
+40:## 6. 过程资产
+49:## 7. 元反思
+53:## 8. 逐轮映射
+63:## 9. 飞轮效应
+67:## 10. 对照实验
+71:## 11. 下次改进
+77:## 本会话发现的问题
+---
+session_id: ouyangfeng-2026-09-02
+agent_id: ouyangfeng
+date: 2026-09-02
+created_at: 2026-09-01T22:57:23.799654+00:00
+updated_at: 2026-09-01T22:57:23.799654+00:00
+git_head: 254eb5c83
+content_hash: e06b7624733b
+The existing file is a "全日合并版". I'll append a session-two section with the 11 chapters for the R1 review session. Since it's a merged day file, I'll add chapters labeled "会话三（07:09）" or similar — but to keep the checker happy (it checks chapter names 1-11), the existing chapters already satisfy it. Appending extra sections won't break the check as long as I don't rename. I'll append:
+
+  ## 会话补记：#605 R1 复审（07:09-07:15）
+  with subsections mirroring chapters compactly, and update the 对照实验 outcome. Actually to be safe with the truman checker, append a full 11-chapter block? The check likely verifies presence of 11 chapter headings — already present. Appending more is fine.
+
+  Write the append.done
+✅ 已保存：C:\Users\Administrator\Desktop\agent复盘\ouyangfeng\daily-context\2026-09-02.md
+✅ 已存档：60_feedback\session-archives\2026-09-02\ouyangfeng.md
+📋 自检：🟢 A级 📚检索有发现
+✅ 事件 #766 已写入: agent=ouyangfeng event=review_saved
+🧪 胶囊 L0 已留痕: agent=ouyangfeng event=review_saved
+✅ A → B 镜像完成: C:\Users\Administrator\.kdo-memory\L1 → D:\KDO-memory\L1-backup（robocopy /MIR，exit 1）
+✅ verify PASS：B 镜像文件 hash 全一致；从 B 打开 integrity=ok 行数 761（A 同 761）
+🟢 A 级， all done. Summarize. Also answer the three closing questions from startup.md? The ouyangfeng context requires the Truman review (done, A grade). The three questions are covered by daily-context. Report to user.
+
+• #605 R1 返工复审闭环完成，PASS A-。
+
+  ## 复审结论（复审对照法，只验返工项）
+
+  首轮 FAIL 唯一阻断项「49 份 dispatch 处置口径」返工**对题**，逐项亲验：
+
+  - **P1-1 删除未入仓（E040）→ 已闭环**：返工 commit `db6a93574` 在仓（06:44:31），`git show --name-status` → 49 条全 D、0 增；`git status 60_feedback/inbox-queue/` → 0 条，checkout/stash 已无法再静默复活
+  - **P1-2 报告误述 → 已修正**：执行报告 L53 改为承认 184 跟踪文件 + 说明补 add/commit，与实测一致
+  - **三数吻合**：commit 删除 49 = 隔离区 `90_control/.sandbox/quarantine-20260902/inbox-queue/` 实点 49 = 报告声明 49；`60_feedback/inbox-queue/` 仅剩 `archive/` 子目录
+  - 首轮 O0 溯源已绿项（watch_inbox 亲读/看门狗/矩阵行 9/实跑/8590e4ecb）按约定不重查，抽查无回退
+
+  ## 流转动作
+
+  - 意见书先落任务单「复审记录 R1」节（O9），再 `queue_transition.py review` 全名 id 一次过 → PASS A-
+  - 三处一致：任务单 frontmatter `reviewed`/`reviewed_by`/`grade: A-`、队列行 239 `reviewed`、待审段划线（划线行日期脚本 UTC 笔误 09-01 不阻断；`review_date` 已按惯例补正 09-02）
+  - 通过信息已抄送王语嫣收件箱（出口 2）
+  - 出口自检：无新增建议——E040 预审盲区建议书首轮已落 diagnosis 在案
+  - todos/ouyangfeng.md 完工行已追加（07:15）
+
+  ## 会话收口
+
+  - 技能进化日志 +1 行（复审对照法二次实证：首轮意见书预埋期望形态 → 返工-复审 29 分钟零沟通成本）
+  - Truman 复盘合并写入 daily-context/2026-09-02.md（含上轮对照实验结果：假设成立，不加依赖声明字段），保存自检 🟢 A 级
+  - 顺带记档：`myqueue` 只读视图显示待终审 0 与队列行 `pending_review` 不一致——本轮以队列行为准，复现第 2 次再落建议书
+
+To resume this session: kimi -r session_dae51bc1-8915-41b1-9d1c-f1f6c7381f56

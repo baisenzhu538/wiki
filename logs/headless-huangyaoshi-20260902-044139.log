@@ -9231,4 +9231,50 @@ UnicodeDecodeError: 'utf-16-le' codec can't decode byte 0x3e in position 1372: t
 ģʽ:                               ����
 ��¼״̬:                           ֻʹ�ý�����ʽ
 �ϴ�����ʱ��:                       2026/9/2 7:13:38
-The XML file read failed — earlier `cat` output was truncated view; the file itself may have been written fine by schtasks redirect. The decode error "truncated data"
+The XML file read failed — earlier `cat` output was truncated view; the file itself may have been written fine by schtasks redirect. The decode error "truncated data" — because when I redirected `schtasks /query /xml > file`, Git Bash may have mangled it. Let me write the XML from scratch in Python instead of adapting (simpler, avoids encoding issues).  File "<stdin>", line 2
+    xml = '''<?xml version="1.0" encoding="UTF-16"?>
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 1043-1044: truncated \UXXXXXXXX escape
+����: ϵͳ�Ҳ���ָ�����ļ���
+�´�����ʱ��:                       2026/9/2 7:43:00
+ģʽ:                               ����
+��¼״̬:                           ֻʹ�ý�����ʽ
+�ϴ�����ʱ��:                       2026/9/2 7:13:38
+�ϴν��:                           0
+The `\\U` in triple-quoted string — I wrote `\\Users` which is fine, but position 1043... "truncated \U escape" means a single `\U` exists — in `C:\\Users` I doubled... wait `Desktop\\wiki` doubled too. Position 1043 — count... Probably `PC-202604161729\\Administrator` fine... Hmm — actually the issue: the Bash tool heredoc may be collapsing `\\` to `\` before python sees it (unquoted heredoc? I used <<'EOF' quoted — no shell expansion). But the error shows \U truncated — meaning python saw `\U`... In my source I have `C:\\Program` etc. all doubled. Unless the tool transport collapsed them. Whatever — write the XML with the Write tool instead (no shell in the middle).
+
+• 改用 Write 工具直接写 XML，绕开 shell 转义层。
+
+utf16 ok
+�ɹ�: �ɹ������ƻ����� "kdo-vault-git-backup"��
+�´�����ʱ��:                       2026/9/2 7:20:00
+ģʽ:                               ����
+��¼״̬:                           ������ʽ/��̨��ʽ
+�ϴ�����ʱ��:                       2026/9/2 7:13:38
+�ϴν��:                           0
+• S4U version created — 登录状态 now 交互式/后台模式 ✓ (same as role-clock). Note: 上次运行时间 still shows the old task's run; next run 7:20 already passed? Next boundary shows 7:20:00 — the TimeTrigger start boundary; it'll fire per interval. Let me force a run via schtasks /run to verify S4U works (S4U + git: potential safe.directory or identity issue — test now).
+
+• S4U 注册成功（交互式/后台模式）。立即 schtasks /run 验证 S4U 下 git 可用。�ɹ�: �������� "kdo-vault-git-backup"��
+a83f528ab chore(queue): #610 claim by laowantong-kimi
+
+
+• The /run executed but worktree was clean (nothing to commit — previous backup just swept), so exit 0 with no commit. The query grep didn't show (encoding). Verify last run result = 0.M-5M-GM-BM-<M-WM-4M-LM-,:                           M-=M-;M-;M-%M-7M-=M-JM-=/M-:M-sM-LM-(M-7M-=M-JM-=
+M-IM-OM-4M-NM-TM-KM-PM-PM-JM-1M-<M-d:                       2026/9/2 7:15:23
+M-IM-OM-4M-NM-=M-aM-9M-{:                           -2147024894
+上次结果 = -2147024894 = 0x80070002 = ERROR_FILE_NOT_FOUND. The S4U run failed! Probably because the Command field has quoted exe + quoted arg combined — Task Scheduler's Command should be just the exe, with Arguments separate. In XML, `<Command>` with embedded quoted args may not parse under /xml create. role-clock used a .cmd with no args. Fix: XML with <Command>python.exe path</Command><Arguments>...</Arguments>, or simpler: create a wrapper .cmd like role-clock does (kdo-vault-git-backup.cmd) — consistent with existing pattern and avoids quoting issues.
+
+  Also note: S4U runs in session 0 — python at "C:\Program Files\Python312\python.exe" accessible. Use wrapper cmd:
+
+  @echo off
+  cd /d C:\Users\Administrator\Desktop\wiki
+  "C:\Program Files\Python312\python.exe" kdo-tools\vault_git_backup.py >> logs\vault-git-backup.log 2>&1
+
+  But cmd with GBK console — script reconfigures stdout; log write fine.
+
+  Create kdo-tools/vault-git-backup.cmd (ASCII only per #553 lesson), update XML Command to the cmd, recreate, run, verify result 0.  File "<string>", line 5
+    t = t.replace('"C:\Program Files\Python312\python.exe" "C:\Users\Administrator\Desktop\wiki\kdo-tools\vault_git_backup.py"', 'C:\Users\Administrator\Desktop\wiki\kdo-tools\vault-git-backup.cmd')
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 43-44: truncated \UXXXXXXXX escape
+Bash collapses `\\` → `\` in double-quoted shell string. Use Edit tool on the utf8 file instead.utf16 ok
+�ɹ�: �ɹ������ƻ����� "kdo-vault-git-backup"��
+�ɹ�: �������� "kdo-vault-git-backup"��
