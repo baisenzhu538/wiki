@@ -1,16 +1,18 @@
 ---
-id: "591"
-title: "vault 事故假说①②收敛排查+Sysmon 前置取证（取证先于清除）"
+id: '591'
+title: vault 事故假说①②收敛排查+Sysmon 前置取证（取证先于清除）
 type: investigation
-status: queued
+status: in_progress
 priority: P0
 assignee: 黄药师
 created_by: 王语嫣
 created_at: 2026-09-01
-updated_at: 2026-09-01
+updated_at: '2026-09-01T03:30:02.666848+00:00'
 source_refs:
-- 60_feedback/tasks/report_20260901_huangyaoshi-vault-incident-candidate-b.md（#590 PASS A-）
+- 60_feedback/tasks/report_20260901_huangyaoshi-vault-incident-candidate-b.md（#590
+  PASS A-）
 - 90_control/todos/wangyuyan.md 2026-09-01 编排层取证记录
+instance: huangyaoshi
 ---
 
 # #591 假说收敛排查+Sysmon 前置取证（老朱 09-01 直令「立项」）
