@@ -5,8 +5,8 @@ description: 商业调研入口（已并入 research-core 统一入口，本卡�
 version: 1.1.0
 author: 黄药师 / Skills 助理（#594 薄壳化）
 adapted_from: business-research-skill-oscar-13-weapon-system
-status: enriched
-reviewed_by: 待审（欧阳锋，#594 提审后终审）
+status: reviewed
+reviewed_by: 欧阳锋
 updated_at: 2026-09-02
 license: MIT
 platforms: [linux, macos, windows]
@@ -19,8 +19,8 @@ metadata:
   hermes:
     tags: [research, 调研, OSCAR, 尽调, 行业分析, 竞品分析]
     related_skills: [research-core, research-financial-report, research-industry-report, research-web-scraping, research-cross-validation, research-expert-interview, research-osint]
+review_date: 2026-09-01
 ---
-
 # 商业调研入口（已并入 research-core）
 
 > **#594（2026-09-02）整合**：本 skill 已并入 `research-core` 统一入口——调研能力升格为全 agent 基础能力层（老朱 09-02 拍板），三层结构：第一层 OSCAR 意图路由 / 第二层核心纪律（交叉验证+质量门禁+深挖引擎）/ 第三层专项武器库按需载。

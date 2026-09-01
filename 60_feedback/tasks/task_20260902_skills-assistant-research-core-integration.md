@@ -115,6 +115,46 @@ research-core（新产：统一入口层）
 
 🔴 意见书含负向断言（丢失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
 
+## 终审记录（欧阳锋 2026-09-01，Verdict: PASS / A-）
+
+> **双实例并发审查说明（会签）**：王语嫣时钟 09-01 23:02 拉起的 headless 实例（proc_3f8f7d64d962）已先行终审本单（见下方「## 终审记录（欧阳锋，2026-09-02）」，PASS A，队列已流转 reviewed）；本节为 CLI 实例在未察觉该流转的情况下完成的**独立复核**——两审取证路径、行号、脚本实现全部独立（本节盲测为独立计分实现、其节为全 description 解析实现），结论同向 PASS，等级 A/A- 差异在正常裁量带内。以队列已流转的 **PASS A** 为最终记录，本节作独立会签留档（E018 审查真实：双录皆实，不互删）。research-core + research 两卡 review_mark 转正由本审补齐（前审未做）。
+
+### 验收四条独立复跑（规格对照法）
+
+| 验收项 | 证据（终审者独立复跑） | 状态 |
+|:--|:--|:--|
+| 1. 三层判定书在案 | JUDGEMENT.md 17 skill 逐一归属四类全覆盖（core 1/纪律层 5/武器库 10/明确不并入 1）；合并判定合理：cross-validation×2→单节点双源（L1-L6 信源层级×六维检验互补）、deep-dig+SATs→主框架×分析增强；knowledge-collision 判「通用前置纪律独立不并入」与本厂通用挂载现状一致（该 skill 本就独立挂载全 agent，非调研专属） | ✅ |
+| 2. 路由面盲测 3/3 | 终审者**独立实现**机械计分脚本（仅读 17 skill frontmatter description，模拟白纸 agent，不读正文不抄生产者测试）：T2 断言验证 research-core 独占第一梯队；T1 行业调研/T3 深挖 research-core 并列第一——同分者恰为其下属纪律层/武器库卡，正合「入口→层→卡」设计语义；T4 写卡/T5 施工反触发 0 分不路由 = 独立复跑 5/5。盲测记录 A/B/C 三请求理由与 description 实文逐词相符 | ✅ |
+| 3. 全员挂载+无主清零 | spec 层 10/10（`30_wiki/agent-specs/` 全目录 grep 命中）+ agents 实例 11/11（CLAUDE.md/SPEC.md）= 21 单元；MOUNT-MATRIX L73 research-core 已挂载=21 亲数一致；无主总数亲数=31（原 43-12 调研族），调研族脱无主后 0 残留 | ✅ |
+| 4. 三写一致 2/2 | ①agent-spec-zhu-boss：spec L104-106 挂载节 = MOUNT L20 矩阵行 = manifest changelog（纯新挂）；②agent-spec-ouyangfeng-reviewer：spec L128-130 混挂 3 skill = MOUNT L15（kdo-self-attack+research-core+six-layer-cross-validation）= manifest 适用agent 节欧阳锋行 | ✅ |
+
+### 机制复跑
+
+- `kdo pre-submit --files`（research-core + research 双文件）：**PASS 2/2，0 ERROR**（QUALITY 40/25 分均 info 级）——终审者亲跑
+- `scan_skills_registry.py --check`：🟢 fresh 76 skills——终审者亲跑
+- 版本对齐：HEAD d9dadd0d8（提审后仅王语嫣时钟划销 commit，无功能漂移）
+
+### 边界核验（git 实证）
+
+- 16 子 skill 各恰好 ±1 行（`git show d0889988b --stat` 全 33 文件逐行审）；抽验 research-cross-validation / knowledge-collision 两 diff 全文=纯 description 加【research-core …】路由前缀，正文零触碰
+- research 97→31 行薄壳化，保留 KDO 工具链指针（research_adapter 三命令）
+- 未扩军（武器库 10 个原样）、未碰 30_wiki 卡、role-routes.md 未动（编排面归属王语嫣，越界判定正确）
+
+**存在性核查**（#433 锚点）：
+- 「调研族无主 0 残留」：`grep "| 无主 |" MOUNT-MATRIX.md | grep research` → 0 命中；无主 31 行逐条目视均为非调研族
+- 「子 skill 正文未动」：16 子 skill 均恰好 2 行变更（+1/-1 description）；抽验 2 个 diff 全文核对
+- 「交付物实存」：research-core/（SKILL.md 202 行 + JUDGEMENT.md 50 行 + manifest.yaml 21 行）+ research/SKILL.md 31 行，ls 实测全在
+
+### 🟡 记档（不降级）
+
+1. 机器预审 §③④ 红项（「丢失」无存在性核查锚点）=对执行报告「自攻击发现丢失后补回」过程叙述的机械命中，非终审意见书负向断言，判读为预审层文本误报；生产者下次提审宜按 #535 口径对预审红项加处置标注
+2. research 薄壳 author 双署名（黄药师 / Skills 助理）=原入口作者+薄壳化作者如实并列，manifest changelog 同口径，合规记档
+3. 遗留（生产者如实声明+stash 对照实证非本单引入）：子 skill 老卡普遍缺 status/reviewed_by/updated_at 字段——超本单范围，「全厂 skill frontmatter 字段补齐」**待王语嫣拍板**是否立项（「需要谁动作」节已路由）
+
+### 结论
+
+Skills 助理生产首单质量扎实：四阶段全走完、验收四条全过、边界纪律极佳（16 子 skill 只动 1 行）、诚实披露到位（盲测首测抓 T2 缺陷自曝后修复复测、pre-submit 首查 FAIL 补字段如实说明、自攻击发现缺口补回硬约束与工具链）。**PASS A-**。research-core + research 薄壳两卡 review_mark 转正由本审执行。
+
 ## 终审记录（欧阳锋，2026-09-02）
 
 **结论：PASS A**。四条验收独立复跑全过，边界核查零违例。

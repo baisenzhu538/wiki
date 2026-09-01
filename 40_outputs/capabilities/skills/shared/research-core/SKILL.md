@@ -5,8 +5,8 @@ description: 统一调研入口（全 agent 基础能力层，老朱 09-02 拍�
 version: 1.0.0
 author: Skills 助理（#594 整合生产）
 adapted_from: business-research-skill-oscar-13-weapon-system
-status: enriched
-reviewed_by: 待审（欧阳锋，#594 提审后终审）
+status: reviewed
+reviewed_by: 欧阳锋
 updated_at: 2026-09-02
 license: MIT
 platforms: [linux, macos, windows]
@@ -23,8 +23,8 @@ metadata:
   hermes:
     tags: [research, 调研, 统一入口, OSCAR, 基础能力层, 交叉验证, 深挖]
     related_skills: [research-cross-validation, six-layer-cross-validation, research-quality-gate, nine-layer-deep-dig, research-sats, research-industry-report, research-financial-report, research-expert-interview, research-alt-data, research-osint, research-web-scraping, research-google-dorking, research-media-verification, research-multi-agent, research-ci-framework]
+review_date: 2026-09-01
 ---
-
 # research-core 统一调研入口
 
 > 全 agent 基础能力层：调研是最基础的必备能力（老朱 09-02 拍板——会读写的 agent 才能上岗，会调研的 agent 才能干活）。任何调研类任务先走本入口，禁止凭记忆直接输出结论。
