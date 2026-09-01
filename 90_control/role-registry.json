@@ -7,7 +7,7 @@
         "channels": [
           "todos"
         ],
-        "heartbeat_ts": 1788212082.34051,
+        "heartbeat_ts": 1788223663.8460958,
         "session_scope": "C:/Users/Administrator"
       },
       {
@@ -17,7 +17,7 @@
           "feishu",
           "todos"
         ],
-        "heartbeat_ts": 1788212098.9685163,
+        "heartbeat_ts": 1788262243.8766055,
         "profile": "wangyuyan"
       },
       {
@@ -26,7 +26,7 @@
         "channels": [
           "todos"
         ],
-        "heartbeat_ts": 1788211824.9627707,
+        "heartbeat_ts": 1788262211.2255971,
         "session_scope": "C:\\Users\\Administrator\\Desktop\\wiki"
       }
     ],
@@ -49,8 +49,17 @@
         "channels": [
           "todos"
         ],
-        "heartbeat_ts": 1788211863.661122,
+        "heartbeat_ts": 1788246551.804488,
         "session_scope": "C:\\Users\\Administrator\\Desktop\\wiki"
+      },
+      {
+        "tool": "hermes",
+        "kind": "review",
+        "channels": [
+          "todos"
+        ],
+        "heartbeat_ts": 1788232376.4146676,
+        "profile": "ouyangfeng"
       }
     ],
     "active": "cli"
@@ -86,7 +95,7 @@
         "channels": [
           "todos"
         ],
-        "heartbeat_ts": 1788211863.4322004,
+        "heartbeat_ts": 1788245200.420406,
         "session_scope": "C:\\Users\\Administrator\\Desktop\\wiki"
       }
     ],
@@ -109,7 +118,7 @@
         "channels": [
           "todos"
         ],
-        "heartbeat_ts": 1788211863.546831,
+        "heartbeat_ts": 1788244284.5126762,
         "session_scope": "C:\\Users\\Administrator\\Desktop\\wiki"
       }
     ],
