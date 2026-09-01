@@ -436,7 +436,11 @@ def main():
     links = extract_links(cutoff)
     seen = set()
     if SEEN_FILE.exists():
-        seen = set(SEEN_FILE.read_text(encoding="utf-8").splitlines())
+        # #601（2026-09-02）：读入时对每行同步注入规范化键——封死历史遗留的
+        # `&`/`&amp;`/exportkey 等变体行，老格式纯 URL 行也能命中规范化查重
+        for line in SEEN_FILE.read_text(encoding="utf-8").splitlines():
+            seen.add(line)
+            seen.add(canonical_key(line))
     fresh = [(ct, u) for ct, u in links if u not in seen and canonical_key(u) not in seen]
     print(f"🔗 新链接 {len(fresh)} 个（共扫 {len(links)}）")
     for ct, url in fresh:

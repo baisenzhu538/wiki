@@ -56,10 +56,14 @@ def promote_transcript(f: Path, dry_run: bool) -> bool:
     if not m:
         return False
     hash_id = m.group(1)
-    target = SOURCES_DIR / f"src_{date.today().isoformat()}_wechat_{hash_id}.md"
-    if target.exists():
-        print(f"⏭️  已转正: {target.name}")
+    # #601 去重根治（2026-09-02）：原判定 `target.exists()` 的键含当天日期——
+    # 跨天重跑文件名必变、exists 必 False，同一素材每天重复入库（08-18 上线起带病，
+    # 163 文件实测仅 16 唯一）。修为按 hash 全历史匹配，与日期无关。
+    existing = sorted(SOURCES_DIR.glob(f"src_*_wechat_{hash_id}.md"))
+    if existing:
+        print(f"⏭️  已转正（在仓 {existing[0].name}）: {f.name}")
         return True
+    target = SOURCES_DIR / f"src_{date.today().isoformat()}_wechat_{hash_id}.md"
     if dry_run:
         print(f"  [dry-run] {f.name} → {target.name}")
         return True

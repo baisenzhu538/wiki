@@ -42,3 +42,21 @@ instance: huangyaoshi
 ## 验收
 
 欧阳锋终审：bug 修复后连续两天跑 promote 零新增重复 + 回归测试过 + 147→0（隔离区计数一致）+ 被引用 2 组实测未断链。
+
+## 执行报告
+
+**交付物**：
+- `kdo-tools/wechat_promote.py`（去重根治：存在性判定改按 hash 全历史 glob，与日期解耦）
+- `kdo-tools/wechat_link_monitor.py`（seen_links 读入归一化：每行注入 canonical_key，封死 &/&amp;/exportkey 历史变体）
+- `kdo-tools/tests/test_wechat_promote.py`（+3 跨天去重回归用例）
+- `kdo-tools/tests/test_wechat_link_monitor.py`（+4 canonical_key 变体归一用例）
+- `90_control/.sandbox/quarantine-20260902/sources-dup/`（143 份冗余源文件隔离区，含 dry-run 全量清单 sources-dup-plan.md）
+- `10_raw/sources/`（存量治理：163 → 20 份 date-prefixed wechat 文件）
+
+**完成内容**：四件全落地——①promote_transcript 去重键根除日期成分（`src_*_wechat_<hash>.md` 全历史 glob，命中即 skip 并打印在仓版本名）；②回归测试红绿自证（stash 修复后 2 用例红，恢复后 7/7 绿）；③seen 读入归一化 + canonical_key 变体归一测试（&amp;/exportkey/chksm 追踪参数全归一）；④存量 147→143 份冗余移隔离区（实测口径差异见验证④），追踪件 git mv / 未追踪件 mv，逐件 exists() 双向复核，计数断言 KEEP 20 / MOVED 143 通过。inbox 原件零触碰（遵守「明确不做」）；30_wiki 卡片正文零触碰。
+
+**验证**：①修复后实跑 `python kdo-tools/wechat_promote.py`——17 个逐字稿全部 skip 零新增复制（此前每天 +17）；②`kdo index --incremental` 已跑：-143（total 4171）；③回归：wechat 相关 11/11 过，全量 kdo-tools/tests 227 passed + 2 failed（均实证与本单无关：test_queue_archive stash 基线复现失败=既有；test_infra_status 未登记资产=tmp_* 18 个属 #603 处置范围）；④引用对账实测与任务单估计有差——全库语料实测 **17 份被引用**（非欧阳锋估计的 2 组）：2 份为 30_wiki 卡 source_refs 真引用（08-20_2404c x5、08-19_e7536 x1），15 份为 `.agent/laowantong-context.md` 处理台账引用（08-26 批次）；按「引用感知+不碰他角色文件」保守口径全部保留；⑤保留/隔离计数断言通过，dry-run 全量清单落 quarantine/sources-dup-plan.md。
+
+**未做项**：①隔离区 143 份观察 7 天后清除（任务单约定）；②被引用 08-26 批次 15 份的台账引用是否可随老顽童 context 更新而释放（归老顽童 context 维护节奏）；③头条/公众号的其他历史去重形态（exportkey 以外参数族）如有新变体再补。
+
+**需要谁动作**：欧阳锋——终审 #601（重点：去重键修复+红绿自证+143 隔离计数+被引用 17 份实测未断链）；老朱——知会（隔离区观察 7 天，09-09 后无碍可清除）；另观察到 `90_control/tmp/_launch_hy600.py` 等 headless 启动件 01:49 出现（疑编排层起了 #600/#601 的 headless 实例）——本单已由交互实例完成，请防双工。
