@@ -484,7 +484,15 @@ type: memory/role-recovery
 - **会话门铃 cron 已装（08-27 23:48 首拍，王语嫣 #565 裁定口径）**：id 01M11XVGE85403EZ4QRX8YEXSG（:17/:47 每 30min，错开系统时钟 :12/:42 落盘拍）——读 todos 未读段+myqueue，有活干活无活待命。与已退役的领审 cron 不同物：那个是替系统时钟（勿重建仍有效），这个是补「todos 落盘≠会话触发」的最后一环（wakeup-delivery-gap 建议书已并入 #565）。会话重启即死，说'继续'后重建同款【⛔ 历史/已停 08-29：时钟全停 + headless 拉起后不再重建门铃 cron——见文末「当前状态（2026-08-29）」节】
 - **#544 闭环（08-27 23:35 王语嫣抽核通过 reviewed）**：10 张全清（退 8/PASS 1/豁免 0+批次二退 4/PASS A- 1）。等抽核不自审=对的
 
-## 当前状态（2026-08-29）——停时钟 + headless 拉起架构（老朱拍板，架构级变更）
+### 当前状态（2026-08-29）——停时钟 + headless 拉起架构（老朱拍板，架构级变更）
+
+## 2026-09-01 第N场：#591/#592 事故防线双单终审（PASS A- / PASS B+）
+
+- **#591 假说①②收敛+Sysmon取证 PASS A-**：全量O3复跑成立——Sysmon活体config SHA256三方同源（活体==入库xml==final.xml）、EID23进程名实抓、7045=18逐条对账、4625=0/4720=0、type3=3条sshd-session逐字段、常驻面304/413/27/56亲数、驱动413全Windows体系零第三方.sys。**口径裁定成立**：#589排除的是服务端事件面，Nutstore本地watcher子向独立未排除（头号嫌疑降权不排除）。🟡 1项：报告§5方案1前提失实——sshd服务端信任公钥为空集（ProgramData/ssh无authorized_keys实测），直接关密码认证=SSH锁死；正确序（装公钥→验证→再关）已并入清除序建议待老朱拍板
+- **#592 恢复力三件套 PASS B+**：R2/R3达A线（我亲跑vault-integrity-check三查OK exit0零副作用+bundle verify rc0+演练bundle-older判定复算+挂载链在案+gate 12:00行系02:07先于02:30设计内时序空窗已被王语嫣12:35划销b2966d943）。R1两项P1：**P1-1编码缺陷**——offsite bat无BOM UTF-8内嵌中文路径+ACP936无chcp，我受控实验复现DEST解析成乱码目录（'鎴戠殑鍧氭灉浜慭kdo-backup'与历史前科同款=该前科成因实锤），11:50成功系父cmd侥幸继承非设计内，预测明日02:30调度环境静默失效；修复=chcp 65001或8.3短路径+schtasks /run调度同构自证（提示已送黄药师收件箱）。P1-2=NutstoreClient上传事件日志验证被本地sndobject替代未声明（补证即可）
+- **给老朱的清除序最终建议**：①即刻改密（撞库面最实质）②sshd收紧（装公钥→验证密钥登录→关密码认证→限tailnet网段，顺序不可倒）③ Nutstore watcher压测验证另单立项④杀扫可后置（Sysmon已接防+植入面高置信排除）。依据：假说②历史植入高置信排除、4625=0无爆破痕迹、剩余风险=未来暴露面
+- **流转**：5b3f5c411(#591)/e7f7b055c(#592)/734bd22be(todos双留痕+黄药师P1-1紧急提示)。队列175全closed，待领取0
+- **方法论沉淀**：①「UTF-8 bat+中文路径+ACP936」= Windows调度脚本静默失效三件套，审查时先查编码再信成功日志（字节层：日志里cmd回显是GBK字节即运行时码页非UTF-8）②F-036落点锚词表=（建议书/停车场/F-/立项/另立项/friction/待王语嫣/待老朱/TODO）——落点行带「待老朱拍板」一次过③R3类自检脚本的「设计内时序空窗」报警要对照调度时序表再定性，勿当缺陷
 
 - **各角色时钟已停（全部可恢复）**：4 个 hermes cron 已 pause——laowantong-clock-v4-feishu / huangyaoshi-clock-v1 / ouyangfeng-clock-v1 / wangyuyan-clock-v3；2 个 schtasks 已 disable——kdo-role-clock（中枢）/ kdo-huangyaoshi-doorbell（门铃）
 - **机器监控保留**：探针 / 健康检查 / 归档（l1-capture 等）/ 质量指标照常跑——停的是唤醒时钟，不是基建
