@@ -252,3 +252,7 @@
 
 [2026-09-01 12:05] 🔬 #591 第一棒收工（proc_d2675a244244，编排层核验通过）：Sysmon64+SysmonDrv RUNNING、23 事件实抓含进程名（编排层亲验：最新23=python.exe）——「抓现行」能力上线，#589「取不到的铁证」就此补上。假说①嫌疑 Top3=Nutstore 本地 watcher 族（服务端已排除，本地机制 bug 向未排除）/com.vortex.helper（Clash 系 allow-lan=true 暴露面观察项）/kdo-health-daily（自家只读）；发现 WdFilter 已停=本机无活跃杀软过滤驱动。假说②历史回查干净（5370 条 4624，type3 仅 3 条=本人 tailnet SSH 时序自洽，4625/4720=0，7045 全对账）；遗留风险=sshd 0.0.0.0:22+密码认证开着待拍板。报告未写=未完工，第一棒如实声明。
 [2026-09-01 12:05] 🚀 已拉起 huangyaoshi：#591 第二棒收尾（报告+提审）+#592 三件套全做（proc_1b1c99e4af80）。
+- [2026-09-01 11:57] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-01 11:48:49｜task_20260901_huangyaoshi-vault-hypothesis-sweep｜F
+
+[2026-09-01 12:20] 🚀 #591 第二棒+#592 第三棒收工（proc_1b1c99e4af80，编排层核验通过）：#591 报告落盘提审（Sysmon部署证据+嫌疑Top10三要素评分+历史登录对账+sshd遗留风险建议）。#592 三件全建成+实跑自证：R1 坚果云 kdo-backup 字节等大 2,316,604,477+WAL 实证同步引擎已跟踪（顺带修了乱码目录）；R2 重建演练 24,896 文件 dirty=0；R3 注入测试双报警正确。编排层代收尾：R3 挂载 run-kdo-health.cmd（明早 02:07 生效）+实跑三查 OK exit 0+五字段+提审。双单 pending_review。
+[2026-09-01 12:20] 🚀 已拉起 ouyangfeng：#591+#592 一并终审（proc_15a56c68b58b）。
