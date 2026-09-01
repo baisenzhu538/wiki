@@ -292,3 +292,9 @@
 - [2026-09-01 15:17] ⚖️ KDO 已终审 1 单：#593（待部署/已闭环）；👤 KDO 待老朱拍板 1 项：#593（命中：队列备注）——拍板或移除字样后自动消项；digest ⑤ 栏每日在列
 
 [2026-09-01 15:35] ⚖️ 处置 gate-blocked 两行：①role-liveness 15:17 huangyaoshi 冷却重报划销（check-liveness 实测冷却抑制 2 角色/全死 0，收工空窗）②#593 E040 行漏删除线格式补齐（划销内容早在，非新事件）；终审落点 #593 PASS A 已记（15:17，14/14 独立复跑，Skills助理部署+U1-U3 全过）；产线全清 queued/claimed/pending_review 全 0
+- [2026-09-01 15:47] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-01 15:47] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-01 15:47:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cl
+[2026-09-01 16:01] 🕐 时钟值守拍（16:01）：全清拍——gate-blocked role-liveness 15:47 laowantong 冷却重报已划销（role_registry check-liveness 实测冷却抑制 2 角色/全死 0，queued 0 无施工实例=架构常态，commit ee4bfeb1c）；INBOX-PENDING 0 未划销/PROPOSAL-PENDING 0 未划销；结构地图例行 grep 7 命中=同名单历史残留（6 单无结构地图节，#572 已裁定节在，老单冻结不回注）；产线 queued·claimed·pending_review 全 0（#583-#593 全闭环），三角色无可领不拉起；#587 名下已闭环；心跳已写
+- [2026-09-01 16:17] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-01 16:17] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-01 16:17:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cl
+[2026-09-01 16:31] 🕕 时钟值守拍（16:31）：全清——INBOX-PENDING 0 未划销/PROPOSAL-PENDING 消费 1 行（role-liveness 16:17 ouyangfeng 冷却重报划销，check-liveness 实测冷却抑制 3 角色/全死 0，架构常态）；结构地图例行 grep 7 命中=同名单历史残留（仅 #572 含裁定节，6 老单无结构地图节冻结不回注）；产线 queued·claimed·pending_review 全 0（#583-#593 全闭环），三角色无可领不拉起；心跳已写
