@@ -495,3 +495,4 @@
 2026-09-02 01:39:08｜task_20260902_huangyaoshi-credential-exposure-cleanup｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
   - untracked: duanzhixing/feishu_user_token.json
 补救：git a｜huangyaoshi
+2026-09-02 02:32:19｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 37.1), ('cli', 37.0)]）｜role_registry check-liveness｜role_registry

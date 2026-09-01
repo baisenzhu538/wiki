@@ -768,6 +768,8 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - [gate-blocked] task_20260902_huangyaoshi-credential-exposure-cleanup｜09-02 01:46｜待王语嫣复核处置｜2026-09-02 01:39:08｜task_20260902_huangyaoshi-credential-exposure-cleanup｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生 / - untracked: duanzhixing/feishu_user_token.json / 补救：git a｜huangyaoshi
 - diag_20260902_ouyangfeng-pending-decisions.md｜09-02 01:47｜待王语嫣复核裁定
 - diag_20260902_laowantong-graph-scatter-task-collision.md｜09-02 02:18｜待王语嫣复核裁定
+- diag_20260902_ouyangfeng-queue-transition-reviewdate-utc.md｜09-02 02:36｜待王语嫣复核裁定
+- [gate-blocked] role-liveness｜09-02 02:36｜待王语嫣复核处置｜2026-09-02 02:32:19｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 37.1), ('cli', 37.0)]）｜role_registry check-liveness｜role_registry
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
