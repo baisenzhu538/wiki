@@ -713,3 +713,8 @@
 - 目录结构词误报（如「私董会」「articles」）不塞 aliases 污染检索——转基建反馈修 NOISE_DIRS 豁免，债不过夜但也不还成脏数据
 
 **关联**：P-15、P-37（删节消警是反例——消警不能靠删内容，要靠补内容）、#582 终审扣分点
+
+## P-44：git add + git commit 会裹挟他方预暂存（2026-09-02）
+
+obsidian-git 插件（autoSaveInterval=10min, autoCommitOnlyStaged=false）会周期性 add 全仓；其 commit 若与 CLI commit 撞锁失败，预暂存垃圾留在 index。此时任何 `git add X && git commit`（index 整体提交）都会把垃圾卷入——09-02 一晚两起（欧阳锋 4c7284c97 卷入 24 个 .obsidian 文件；王语嫣卷入 core-plugins.json+临时文件3件）。
+**纪律：CLI 提交一律用 `git commit -m msg -- <paths>`（pathspec 部分提交，绕开 index 杂物）；提交前 `git diff --cached --stat` 扫一眼暂存区异物。** queue_transition.py 已是 pathspec 语义（安全）。
