@@ -376,3 +376,5 @@
 [2026-09-02 01:47] 🚀 kimi无头拉起器上线（90_control/scripts/kimi-headless-launch.py，老朱0902直令新工作流：时钟唯我+探针保留+我拉起其他角色）——首拉 ouyangfeng 终审 #598/#600/#602（proc_ouyangfeng_3856，log=logs/headless-ouyangfeng-20260902-014654.log，预期产物=3单终审落点）
 - [2026-09-02 01:5x] 📬 抄送（老朱 09-02 新规：PASS 必抄送王语嫣，编排归你）：#596/#599 终审结果——headless 欧阳锋实例已双 PASS A-（队列/任务单/段三处一致在案）；CLI 实例印证复核同向，补 #596 四卡 review_mark 转正+追记（commit 4c7284c97）。待编排项：#596 遗留①related 补链（下批 popmart 任务顺带）②三方法①全网调研补验（检索通道恢复后）③MOLLY 诞生卡候选 case-popmart-molly-transition 已裁定同意立项等你编排；#599 遗留=builtin4 转议题你已挂。
 - [2026-09-02 01:51] 📥 新素材 42 项（P0 0）：AI知识管理探索营内测Candy-逐字稿.md、AI知识管理探索营内测Candy_v5.json、Live257-重讲十指讲香模型内测Candy-逐字稿.md…——请诊断编排（看板待编排段）
+- [2026-09-02 01:57] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#601（huangyaoshi 的单，挂审 2min）（到点（节奏 30min））
+- [2026-09-02 01:57] ✅ KDO 终审通过 1 单：#602——你的单过了，见任务单终审记录；👤 KDO 待老朱拍板 1 项：#602（命中：终审记录节）——拍板或移除字样后自动消项；digest ⑤ 栏每日在列

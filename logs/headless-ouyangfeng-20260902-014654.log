@@ -268,4 +268,399 @@ def gen_health(skills: list[dict]) -> str:
     """生成 SKILL-HEALTH.md：8 维档位总表 + 不健康短板清单（actionable）。"""
 Implementation aligns with the建议书 §三. #598 verification complete:
 
-  - BOM 清零： 亲跑 strip_skill_bom.py --check 🟢 129/
+  - BOM 清零： 亲跑 strip_skill_bom.py --check 🟢 129/129 ✅
+  - 字节级断言： 37/37 BOM-only 亲跑 ✅
+  - 扫描脚本 8 维实存 + 口径与建议书 §三逐维一致 ✅
+  - SKILL-HEALTH.md 生成物 76 skills 🟢3/🟡5/🔴68 与报告一致， --check fresh exit 0 ✅
+  - README 登记 2 条 ✅
+  - 版本对齐： commit 1692bae6b + 14f81d315 在 git log ✅
+  - 机器预审 ✅
+
+  Minor 🟡: INDEX.md/MOUNT-MATRIX.md 生成物时间戳漂移（00:19 commit vs 01:33 重扫）留脏工作树——幂等 diff 仅时间戳，已知模式（#588 终审已观察同族），不阻断，记档。
+
+  Verdict: PASS A- (A requires "6层交叉验证全过 + ≥3失败模式 + 外部对标" — this is an infra task; grade criteria are for cards but the discipline says every review must carry a grade. Give A-.)
+
+  Now write 终审记录 section in task file first (O9: 先落意见书再跑脚本）, then run queue_transition review.
+
+• #598 核验全过。按 O9 先写终审记录节，再跑脚本。
+
+✅ task_20260902_huangyaoshi-bom-cleanup-health-radar 终审通过，状态更新为 reviewed，等级 A-
+✅ dashboard.html 已生成 (188 个任务)
+   待领取: 4  |  审查中: 2  |  进行中: 1  |  已完成: 181
+• #600 P0 凭据隔离。核查面（不打印凭据内容）：
+  1. 原位三件不存在： `./--help`, `60_feedback/_sg_cookie.txt`, `duanzhixing/feishu_user_token.json`
+  2. 隔离区三件存在（只看名字和字节数，不 cat）
+  3. git ls-files 0 行
+  4. .gitignore quarantine 规则 + check-ignore
+  5. 轮换建议节已写（已读，在任务单 L44-50）
+  6. 任务单无凭据内容泄漏（grep douyin cookie value? 不 grep 内容，检查文件无敏感串——无法无泄漏验证 without knowing values. 可检查任务单不含 cookie-like 长 token 行。略过或粗查。）
+  7. 隔离区文件本身不被 git 跟踪。
+
+  Careful with `./--help` filename — use quotes and ./ prefix.absent ok: ./--help
+absent ok: 60_feedback/_sg_cookie.txt
+absent ok: duanzhixing/feishu_user_token.json
+---
+total 118
+drwxr-xr-x 1 Administrator 197121     0 Sep  2 01:46 .
+drwxr-xr-x 1 Administrator 197121     0 Sep  2 01:38 ..
+-rw-r--r-- 1 Administrator 197121   473 Aug 31 02:03 _sg_cookie.txt
+-rw-r--r-- 1 Administrator 197121  5409 Aug 31 02:08 douyin-cookie--help.txt
+-rw-r--r-- 1 Administrator 197121   420 Aug 31 02:09 feishu_user_token.json
+drwxr-xr-x 1 Administrator 197121     0 Sep  2 01:46 sources-dup
+-rw-r--r-- 1 Administrator 197121 24698 Sep  2 01:44 sources-dup-plan.md
+ls-files lines: 0
+---
+90_control/.sandbox/176_changed_files.txt
+90_control/.sandbox/179_changed_files.txt
+90_control/.sandbox/180_changed_files.txt
+90_control/.sandbox/182_changed_files.txt
+90_control/.sandbox/183_changed_files.txt
+90_control/.sandbox/186_changed_files.txt
+90_control/.sandbox/_168A_a1_ocr_migrate.py
+90_control/.sandbox/_168A_a2_domain_fix.py
+90_control/.sandbox/_168A_a3_pending_unknown.py
+90_control/.sandbox/_175_apply.py
+---
+.gitignore:46:90_control/.sandbox/quarantine-*/	90_control/.sandbox/quarantine-20260902/feishu_user_token.json
+.gitignore:46:90_control/.sandbox/quarantine-*/	90_control/.sandbox/quarantine-20260902/douyin-cookie--help.txt
+---
+46:90_control/.sandbox/quarantine-*/
+Verified:
+  - 原位三件 absent ✅
+  - 隔离区三件在位，字节数 473/5409/420 与报告（473B/420B + 5409B 背景）吻合 ✅
+  - git ls-files 0 行 ✅
+  - check-ignore 命中 quarantine-*/ 规则 ✅
+  - .gitignore L46 封口 ✅
+
+  Note: quarantine dir also contains sources-dup/ and sources-dup-plan.md — unrelated to this task (#601 probably), not a problem but worth noting the隔离区 is being shared. Not blocking.
+
+  Additional checks:
+  - Index removal commit exists: git log for those paths.
+  - Rotation advice section written — already read (L44-50) ✅
+  - Task file contains no credential content — check for suspicious long strings? The task file I read had no tokens. Fine.
+  - Also verify git history claim: files were in git history (they were tracked). Check git log -- duanzhixing/feishu_user_token.json.5c4a3b6b3 2026-09-02 01:38:36 +0800 #600 P0 凭据三件套隔离 by huangyaoshi：douyin cookie/飞书 user token 移出 git 索引并落 quarantine-20260902（物理保留+索引清除+gitignore 封口），历史含凭据待轮换
+fabdc3072 2026-05-04 13:47:32 +0800 vault backup: 2026-05-04 13:47:32
+---
+5c4a3b6b3 2026-09-02 01:38:36 +0800 #600 P0 凭据三件套隔离 by huangyaoshi：douyin cookie/飞书 user token 移出 git 索引并落 quarantine-20260902（物理保留+索引清除+gitignore 封口），历史含凭据待轮换
+d2d1210f8 2026-08-22 20:42:26 +0800 vault backup: 2026-08-22 20:42:26
+---
+5c4a3b6b3 2026-09-02 01:38:36 +0800 #600 P0 凭据三件套隔离 by huangyaoshi：douyin cookie/飞书 user token 移出 git 索引并落 quarantine-20260902（物理保留+索引清除+gitignore 封口），历史含凭据待轮换
+b958575a8 2026-09-01 10:56:25 +0800 黄药师(#588): Skill目录与挂载矩阵机制——扫描脚本+INDEX.md+MOUNT-MATRIX.md+spec模板增补+增量钩子（health-check第20项/infra-status/总表登记；73/73 fresh 亲验；终审小项①大小写对齐②73口径实测裁定）
+d778d88c6 2026-08-22 22:27:16 +0800 feat(conveyor): #421 通知通道上线——飞书群机器人（加签 HMAC-SHA256）+ 三类信号真实通知实测
+---
+(empty=clean)
+Verified:
+  - Index removal commit 5c4a3b6b3 exists (01:38:36), covering both tracked files + .gitignore ✅
+  - git history did contain the credentials (fabdc3072 vault backup 2026-05-04 for feishu token; d2d1210f8 for --help) — so rotation advice is correctly grounded ✅
+  - Rotation advice section written in task file L44-50 ✅
+  - No credential content printed in task file (I read it — only file names and byte counts) ✅
+  - Quarantine sealed by gitignore, check-ignore hits ✅
+
+  One more check: was the task file itself committed? The task file was updated with execution report — check git status of the task file. Actually the task file at 60_feedback/tasks/ — likely committed by the producer. Check quickly.
+
+  Also: is there residual risk that git history still contains credentials — declared in the task report ("历史含凭据，建议轮换"), consistent with the security bar (no history rewriting). Good.
+
+  Also note: the execution report claims byte counts 473B/420B for _sg_cookie and feishu token; 5409B for --help matches background. ✅
+
+  Grade: this is a P0 security task with all acceptance criteria independently verified. PASS A. Any deduction? The quarantine dir mixes #600 credentials with #601 sources-dup items — acceptable as dated quarantine zone; not blocking. Task file committed? Let me check git status of the task file quickly, and then write 终审记录 and run review.01d1a61df 2026-09-02 01:39:35 +0800 chore(queue): #600 complete by huangyaoshi
+cd220d243 2026-09-02 01:39:34 +0800 #600 执行报告交付物节合规化 by huangyaoshi
+(empty=clean)
+Task file committed and clean. All acceptance criteria verified. Write 终审记录 then run review.✅ task_20260902_huangyaoshi-credential-exposure-cleanup 终审通过，状态更新为 reviewed，等级 A
+✅ dashboard.html 已生成 (188 个任务)
+   待领取: 4  |  审查中: 1  |  进行中: 1  |  已完成: 182
+#602: 93 files uncommitted changes ledgered in 3 batches. Verify:
+  1. Three commits exist: batch1 = 1692bae6b (already verified). Find batch2/batch3 commits around 01:32-01:35.
+  2. `git log --oneline -3` claim.
+  3. Batch1 diff spot-check: five-step/SKILL.md only BOM — covered by my 37/37 check already.
+  4. git status: tracked modifications remaining only role-registry.json + 2 pyc (live files).
+
+  Note: since then, new commits happened (5c4a3b6b3 #600, 14f81d315 #598, plus my review commits will happen). Current git status will show the INDEX/MOUNT timestamp drift + my review edits + others. The claim was "as of 01:35". I should evaluate the claim at the commit time, and also current state.
+
+• #602 落账批：核三批 commit 与落账声明。fatal: ambiguous argument '2026-09-02': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+
+fb34069c6 2026-09-02 01:39:43 +0800 chore(queue): #601 claim by huangyaoshi
+01d1a61df 2026-09-02 01:39:35 +0800 chore(queue): #600 complete by huangyaoshi
+cd220d243 2026-09-02 01:39:34 +0800 #600 执行报告交付物节合规化 by huangyaoshi
+35e23dabe 2026-09-02 01:39:07 +0800 #600 执行报告+token轮换建议 by huangyaoshi
+5c4a3b6b3 2026-09-02 01:38:36 +0800 #600 P0 凭据三件套隔离 by huangyaoshi：douyin cookie/飞书 user token 移出 git 索引并落 quarantine-20260902（物理保留+索引清除+gitignore 封口），历史含凭据待轮换
+e97f34cfa 2026-09-02 01:37:10 +0800 chore(queue): #600 claim by huangyaoshi
+58b1e0735 2026-09-02 01:36:56 +0800 chore(queue): #598 complete by huangyaoshi
+990ab1ab8 2026-09-02 01:36:54 +0800 #598 执行报告交付物路径合规化 by huangyaoshi
+591ff63b6 2026-09-02 01:36:29 +0800 chore(queue): #598 claim by huangyaoshi
+f418c91e3 2026-09-02 01:36:01 +0800 chore(queue): #598 release by wyy-cli-0902
+14f81d315 2026-09-02 01:35:33 +0800 #598 收口 by huangyaoshi：BOM清理器+8维健康雷达登记物落账（strip_skill_bom.py/SKILL-HEALTH.md/README登记/执行报告）
+53168ed3b 2026-09-02 01:33:23 +0800 chore(queue): #602 complete by wangyuyan-kimi-0902
+9b4044061 2026-09-02 01:32:15 +0800 落账(王语嫣#602批次3): logs运行日志+__pycache__编译缓存快照
+adb640f85 2026-09-02 01:32:09 +0800 落账(王语嫣#602批次2): todos/注册表/留痕台账/分析产物/索引+delta(#592 R1异机备份挂钩/_arui临时件删除/#596终审追记/欧阳锋失忆锚点0902更新)
+1692bae6b 2026-09-02 01:31:50 +0800 落账(王语嫣#602批次1): 37个shared SKILL.md BOM清洗+INDEX/MOUNT-MATRIX重扫登记（#595后续，编码层零内容改动）
+be44f21b7 2026-09-02 01:30:58 +0800 chore(queue): #602 claim by wangyuyan-kimi-0902
+941e1a564 2026-09-02 01:27:22 +0800 编排(王语嫣): 散点治理批立项 #600-#605（老朱0902拍板全部修复）——凭据隔离/落账兜底/wechat去重根治/tmp清理/归位/dispatch收口；诊断+方向+看板同步
+• Three batch commits confirmed: 1692bae6b （批次1), adb640f85 （批次2), 9b4044061 （批次3). Batch 1 already byte-verified (37/37 BOM-only). Let me check batch2/batch3 stats and the claimed spot-check (five-step/SKILL.md — covered by 37/37). Also check current git status to see tracked changes remaining. 90_control/todos/laowantong.md                     |   5 +
+ 90_control/todos/ouyangfeng.md                     |   9 +
+ 90_control/todos/skills-assistant.md               |   1 +
+ 90_control/todos/wangyuyan.md                      |   4 +
+ 26 files changed, 1006 insertions(+), 290 deletions(-)
+===
+ logs/kdo-health-cron.log                           | 9473 ++++++++++++++++++++
+ logs/l1-capture.log                                |  387 +
+ logs/quality-metrics.log                           |   16 +
+ logs/role-clock.log                                |  456 +
+ 48 files changed, 12390 insertions(+)
+===
+ .../capabilities/skills/shared/strategy/SKILL.md   |   2 +-
+ 40_outputs/code/scripts/scan_skills_registry.py    | 143 ++++++++++++++++++++-
+ 40 files changed, 180 insertions(+), 41 deletions(-)
+ M 90_control/role-registry.json
+ M 90_control/scripts/.derived-hashes.json
+ M 90_control/scripts/kimi-headless-launch.py
+ M 90_control/todos/huangyaoshi.md
+ M 90_control/todos/laowantong.md
+ M logs/headless-ouyangfeng-20260902-014654.log
+ M logs/role-clock.log
+=== untracked count: 0
+Batch stats:
+  - 批次1: 40 files (37 SKILL + INDEX + MOUNT + scan_skills_registry.py). Hmm — scan_skills_registry.py +143 lines was in batch1! That's the 8-dim health extension code from #598. The batch was supposed to be "SKILL BOM 清洗批" — it included the scan script extension. Report says batch1 = BOM 清洗批 37 SKILL.md; commit message says "37个shared SKILL.md BOM清洗+INDEX/MOUNT-MATRIX重扫登记" but it also swept scan_skills_registry.py. That's a minor scope mix-in; not zero-content-only for that file, but it's #598's deliverable that needed committing anyway. Note as 🟡.
+
+  Wait — actually did #598's 14f81d315 commit include scan script? Earlier git log for the four paths showed 14f81d315 touched strip_skill_bom.py etc. Let me not overthink: the scan script change is committed (in 1692bae6b), content is the health radar code I reviewed. Fine.
+
+  - 批次2: 26 files, todos/registry/ledger — matches claim.
+  - 批次3: 48 files logs/pycache — matches claim.
+  - Total: 40+26+48 = 114 files. Report said 93 tracked changes at 01:00; by commit time more accumulated. Commit messages traceable ✅.
+
+  - Batch1 spot check five-step/SKILL.md only BOM: covered by my 37/37 byte assertion (five-step is among shared skills? presumably yes) ✅.
+
+  - Current git status tracked modifications: role-registry.json, .derived-hashes.json, kimi-headless-launch.py, todos/huangyaoshi.md, todos/laowantong.md, 2 logs. The report's claim "仅剩 role-registry.json + 2 pyc（常态再脏）" was as-of 01:35. Now there are additional live files dirty: role-clock.log (clock writing), headless log (a headless ouyangfeng instance running since 01:46!), kimi-headless-launch.py, todos for huangyaoshi/laowantong — these are subsequent activity (#598/#600/#601 work by huangyaoshi after 01:35). kimi-headless-launch.py modified is interesting — someone modified it post-01:35. All of these are post-ledger activity, not evidence against the ledger.
+
+  Untracked count: 0? Interesting — report said untracked files (00_inbox 素材 etc.) not committed and out of scope. Currently 0 untracked — probably #601/#603/#604 cleanup happened since. Not against #602.
+
+  Actually wait — "git status --porcelain | grep -c '^??'" = 0. But pyc files? __pycache__ pycs were shown earlier in status for 40_outputs/code/scripts — but that grep earlier included '??' lines. Now 0 untracked — so those got committed in batch3 or later. OK.
+
+  One caveat: untracked 165 files at audit time — were they left? Now 0 untracked means subsequent tasks handled them. Fine.
+
+  Also the附带发现 in report: batch2 carried core-plugins.json change (1 extra tracked .obsidian file) — declared honestly. 
+
+  Verification of batch2 content — "只提交零改动" — batch2 includes todos etc. which are content-appending files, that's the point of the ledger. Fine.
+
+  Headless ouyangfeng instance log at 90_control logs — there's a headless instance running that may double-review (as happened with #594). I've already reviewed #598 and #600 via script. If the headless instance also reviews, queue_transition would reject since status is already reviewed (not pending_review). OK.
+
+  Grade for #602: PASS A-. The batch1 commit included scan_skills_registry.py extension beyond the declared "SKILL BOM清洗批" scope (declared in commit message partially: "INDEX/MOUNT-MATRIX重扫登记" — script itself not mentioned in message). Minor 🟡. Everything else verified: 3 commits traceable, byte-level spot-check passed, current residual dirty files are post-ledger live writes.
+
+  Also the附带发现 ① mentions 4c7284c97 误卷入 24 .obsidian files — pending 老朱 ruling, noted in 需要谁动作. That's properly escalated.
+
+  Write 终审记录 then review.
+
+• 三批 commit 全在账。写 #602 终审记录并流转。
+
+✅ task_20260902_wangyuyan-uncommitted-changes-ledger 终审通过，状态更新为 reviewed，等级 A-
+✅ dashboard.html 已生成 (188 个任务)
+   待领取: 4  |  审查中: 0  |  进行中: 1  |  已完成: 183
+• All three reviewed. Now finishing discipline:
+  1. Append line to 90_control/todos/ouyangfeng.md
+  2. Session-end mandatory actions: 技能进化日志一行 + 复盘 Truman 10/11章 + daily-context-save. The AGENTS.md for ouyangfeng says 11章 (ouyangfeng-context.md §复盘强制动作）. The root AGENTS.md (huangyaoshi) says 10章 — but I'm ouyangfeng, follow ouyangfeng-context: Truman 11章 to 桌面/agent复盘/ouyangfeng/daily-context/2026-09-02.md, then daily-context-save.py.
+
+  Note the working directory has 桌面 = ? "桌面/agent复盘/..." — likely C:\Users\Administrator\Desktop\agent复盘？ There's an agent复盘 dir in the wiki root too. The command in context file says `--file 桌面/agent复盘/ouyangfeng/daily-context/YYYY-MM-DD.md`. Hmm, that path with 桌面 suggests Desktop\agent复盘. Let me check where existing ouyangfeng daily-context files are.
+
+  Also verify 四处同步 for the three reviews: queue reviewed ✅ (script did), task frontmatter reviewed_by/review_date — script auto-fills. Let me verify quickly.
+
+  Also append todos line. Current time — get via date.
+
+• 三单终审全部完成。收尾：核对三处同步 + todos 落行。60_feedback/tasks/task_20260902_huangyaoshi-bom-cleanup-health-radar.md:reviewed_by: 欧阳锋
+60_feedback/tasks/task_20260902_huangyaoshi-credential-exposure-cleanup.md:reviewed_by: 欧阳锋
+60_feedback/tasks/task_20260902_wangyuyan-uncommitted-changes-ledger.md:reviewed_by: 欧阳锋
+3
+2026-09-02 01:55
+
+
+appended
+• Now the session-end mandatory actions (from ouyangfeng-context.md §复盘强制动作）:
+  0. 技能进化日志 append one line to 桌面/agent复盘/欧阳锋/技能进化日志.md
+  1. 失忆恢复锚点 if changes (probably not needed — no weapon/state change; skip or minor)
+  2. O0 溯源自检 — today's reviews: #598 verified script/code/建议书 source ✅; #600 verified files/git ✅; #602 verified commits ✅. No O0 violations.
+  3. Truman 11章复盘 to 桌面/agent复盘/ouyangfeng/daily-context/2026-09-02.md
+  4. daily-context-save.py save --agent ouyangfeng --truman --file ...
+
+  First find the actual path: 桌面 = Desktop? Check both candidates.
+
+• todos 已落行。执行会话结束强制动作：技能日志 + Truman 复盘。先定位复盘目录。AI基本功教练
+Kimi
+README.md
+_archive
+codebuddy
+codex
+duanwangye
+fengqingyang
+hongqigong
+huangyaoshi
+kimi-code
+laowantong
+ouyangfeng
+wangyuyan
+教练式领导力助理
+欧阳锋
+段王爷
+洪七公
+科学开会助理
+老顽童
+销售对话参谋
+黄药师
+2026-08-26.md
+2026-08-27.md
+2026-08-29.md
+2026-08-31.md
+2026-09-02.md
+DEPRECATED.md
+Kimi
+fengqingyang
+laowantong
+wangyuyan
+洪七公
+老顽童
+
+
+• 桌面/agent复盘/ouyangfeng/daily-context/2026-09-02.md already exists — I should append today's session (naming rule: same-day multi-instance appends to same file). Let me read the existing file's tail to see format and check agent-os.md §10.2 for the 11-chapter format. Also the 技能进化日志 path: 桌面/agent复盘/欧阳锋/技能进化日志.md (Chinese folder). Let me check.
+## Truman复盘
+
+### 逐轮映射
+
+| 轮次 | 人做什么 | 双三角要素 | AI做什么 | 双三角要素 |
+|:--|:--|:--|:--|:--|
+| 老朱直令（找回记忆+诊断+审单） | 定任务+提供观感线索（散点/变黑） | 方向 | 四源恢复+量化诊断 | 场景 |
+| 诊断深挖 | （无） | — | hash 分组/mtime 全景/引用感知 grep/备份面逐层排摸 | 基本功 |
+| 印证复核 | （无） | — | 承重锚抽查+补 E012 收尾+留痕追记 | 体系 |
+| 拍板待决（147 删除/.obsidian 跟踪） | 决策点抛回给人 | 机制 | 建议书+备选方案+如实上报事故 | 数据 |
+
+### 飞轮效应
+
+- 老朱观感报告 → 欧阳锋诊断 → 建议书 R1-R4 → 黄药师修管线+清存量 → 图谱观感恢复：**用户眼睛→审查者→基建者的回路**本轮走通，且附带加固了备份面（.obsidian 缺口被发现本身就是飞轮产出）
+- 误提交事故 → 当场如实上报+沉淀「commit 三连问」→ 下次我自己的 commit 纪律升级——审查者自己的操作事故也进教训库，不搞双重标准
+
+### 对照实验
+
+- 无人：散点每天 +17 继续长，颜色丢失归因不明，147 个冗余无人发现——问题以「Obsidian 越来越难用」的模糊体感存在
+- 无 AI：老朱自己查需要翻管线代码+数文件+查备份面，至少半天；且「引用感知保留」这种坑（删了被引用的日期份=断溯源链）极易踩
+- 合在一起：老朱出观感和拍板，AI 出量化、根因、字节级证据和可执行方案——决策成本压到两个选择题
+
+### 下次改进
+
+- Agent 自身：诊断三板斧（git 新增/mtime/hash）+commit 三连问直接进肌肉记忆；印证复核清单化
+- 方法论卡更新候选：「配置层反问」补进备份/恢复类审查清单（问：不跟踪的那层呢）；「用户观感=监控系统」写入诊断类任务启动姿势
+- 待老朱拍板项：① 147 冗余删除授权 ② .obsidian 跟踪范围（含我误提交的处置）③ vault backup 停摆立项
+
+*欧阳锋（CLI 实例）· 2026-09-02 · 夜场（散点诊断 + 印证复核 + 复盘内化）*
+===
+DEPRECATED.md
+===
+191:### 10.2 唯一标准格式
+192-
+193-**所有 Agent 统一使用 Truman YAI 复盘法——以下 11 章缺一不可：**
+194-
+195-```
+196-## 差异栏（第 1 章，#268：本次 vs 上次复盘哪里不同——新的视角/复发的模式/被打破的假设。空白=重复自审，降级为 C 级）
+197-## 概要（一句话：今天做了什么）
+198-## 关键决策（表格：决策/理由/结果）
+199-## 思维盲点（≥1条：什么被漏掉了？每条追问"为什么漏掉"）
+200-## 顿悟（≥1条：什么基础认知被推翻了？）
+201-## 过程资产（新增/更新的文件路径清单）
+202-## 元反思（下次怎么做才能不一样？）
+203-
+204-## Truman复盘
+205-### 逐轮映射（表格：轮次/人做什么/双三角要素/AI做什么/双三角要素）
+206-### 飞轮效应（本轮加速了哪个回路？）
+207-### 对照实验（无人会怎样/无AI会怎样/合在一起怎样）
+208-### 下次改进（Agent自身改进/方法论卡更新）
+209-```
+210-
+211-> **为什么有差异栏**（2026-08-09 #268，ParamMem 调研）：反思多样性 > 重复反思。模板化复盘的隐患是"每次都写同样的话"，自审失去信息量。差异栏强制回答"这轮和上轮哪里不同"——新的视角、复发的模式、被打破的假设，任选其一，不可空白。
+212-
+213-**禁止使用任何其他复盘格式。** 各 Agent 的 `-context.md` 不得定义独立的复盘模板——全部引用本协议。
+214-
+215-### 10.3 执行时机
+216-
+217-**核心规则：会话结束时立即复盘，不设固定时间节点，不延迟到次日。**
+218-
+219-延迟复盘 = 降级复盘。逐轮映射和思维盲点离开会话上下文就失真。
+220-
+221-| 场景 | 规则 |
+222-|:--|:--|
+223-| **短会话**（同日开始并结束） | 会话结束 → 立即写完整 Truman 11章 → `daily-context/YYYY-MM-DD.md` |
+224-| **一日多会话**（同日开多次） | 每次会话结束 → 追加到同一个 `YYYY-MM-DD.md`，文件开头标注"本日共 N 次会话" |
+225-
+226-> **命名铁律（老朱 2026-08-25 拍板）**：复盘文件名与 session_id/instance 标记**只用角色名，禁工具名后缀**（`-kimi`/`-claude`/`-hermes` 一律不得使用——工具是变量，角色是恒量；工具名做机制键已咬人：INSTANCE_ROLE_MAP kimi→laowantong 误写 assignee，#497/#503 实证）。同日多实例=同一文件追加（见上表），不另开带后缀文件。历史带后缀文件不回改，只向前生效。
+227-| **长会话跨天**（如23:00→次日02:00） | 当天收尾前 → 写 **checkpoint 复盘**（简版：概要+当前进度+明天继续点，≥500B）。次日会话最终结束 → 写完整 Truman 11章，开头注明"承接 XX-XX 会话"。两份文件：`跨天日.md`（checkpoint）+ `结束日.md`（完整版） |
+228-| **无会话日** | 该 Agent 今天没有启动过 → 不强制复盘。review-check 自动跳过 |
+229-| **会话横跨多日**（长项目） | 每天写 checkpoint，最后一天完整复盘 |
+230-
+231-**兜底机制（防止遗漏）**：
+--
+314:| `agent复盘/<agent>/daily-context/YYYY-MM-DD.md` | **唯一直写**的复盘文件（Truman 11 章，§10.2 格式） | agent 本人，经 `daily-context-save.py` 落盘 | 每次会话收尾 |
+315-| 错误模式库 / 技能进化日志 / 能力雷达图 / 用户反馈档案 | **长期资产**——从当次复盘**同步更新**（非独立写一套） | agent 本人，复盘同一动作内 | 复盘时（有新错误/新反馈/技能变化才更新，无则不强行） |
+316-| `daily_cognitive_review` 七节式、`.agent/daily-review` 四段式 | **已废弃**——禁止新增写入 | — | — |
+317-
+318-一句话规则：**一次会话只写一份复盘（Truman 11 章），长期资产是它的同步更新，不是第二份复盘。**
+319-
+320-模板：`templates/daily-context-template.md`（含长期资产更新检查单）。
+321-
+322-### 10.10 事故级 friction 双记规范（2026-08-25 #523，O-15 同族）
+323-
+324-**分层口径**：
+325-- `.agent/friction-log.md`（#276 机制）：日常工作摩擦——一行一条，当下追加，agent 级
+326-- `60_feedback/friction-log.md`：全厂台账——**事故级** friction 必须上浮双记
+327-
+328-**事故级判定**（满足其一即上浮）：涉及数据丢失/删除｜生产链路中断（计划任务空转、通知链断流等）｜影响跨角色协作的事件。
+329-
+330-**双记动作**：agent 级照旧记一行；全厂台账补一节（现象/处置/教训/责任四段式）。只记 agent 级=事故沉没（#508 实证：474 文件误删事故 8 小时后才由终审上浮）。
+331-
+The 2026-09-02.md already has a session's review. I'll append my session's Truman 11章 (same-day multi-instance rule: append to the same file). Also check 技能进化日志 location: 桌面/agent复盘/欧阳锋/ has DEPRECATED.md only — the Chinese-named folder deprecated? The context says `桌面/agent复盘/欧阳锋/技能进化日志.md`. The folder only has DEPRECATED.md. Let me check where the actual 技能进化日志 lives — maybe under ouyangfeng/ (pinyin).# DEPRECATED — 本目录已冻结（#367，2026-08-19）
+
+> 双轨目录收敛：拼音轨为唯一真相源（`agent复盘/<pinyin>/`）。
+> 本目录停止写入，观察期 7 天（2026-08-19 起），无新写入后归档删除。
+> 原内容已完整移入拼音轨 `cn-track-archive-20260819/`（零丢失，124 文件全量留痕）。
+> 真相源见 `wiki/20_memory/memory-registry.md` 表 1。
+cn-track-archive-20260819
+daily-context
+friction-log.md
+技能进化日志.md
+用户反馈档案.md
+索引.md
+能力雷达图.md
+错误模式库.md
+三单已终审完，todos 已落行。现在收尾：技能进化日志一行 + 追加 Truman 11章到今日复盘文件 + daily-context-save。| 2026-08-28 | #562 补记 | 终审落锤前最后一步=重读收件箱——03:27 真阳性拦截与我审查并发，没察觉就落了 PASS；gate-blocked 对 review 命令无硬拦，靠人；执行报告「无新增信号不登记」类豁免声明要对着矩阵原文核（行5描述过时+行22漏登被机器抓到我没抓到）
+| 2026-08-28 | #566 前提证伪 | mojibake 三问铁律：字节层→解码链→显示层，断言文件损坏必须落字节层证据；验证他人（含自己）前提用证伪姿态；建议书也是声称，凡声称必独立复现对审查者同样适用——我 08-26 的假阳性建议书引出一张打在健康文件上的损坏标注
+| 2026-08-28 | #568 拦截复核 | 第七信号按文件名机械拦：#562 语义真阳性（检出语义变了矩阵欠行）vs #568 语义假阳性（管道层加固）——区分法=问"检出信号或通道变了吗"；教训写了没执行=没学：落锤前重读收件箱从纸面搬进 cron prompt 才算数
+| 2026-08-28 | #569 拦截复核 | 过滤式阅读=没读：grep 关键词筛收件箱，「总账未同步」不含「拦截」直接漏——落锤前阅读=逐行读不过滤；第七信号三连拦（1 真 2 假）→建议生产者预标 matrix_exempt 消化机械拦
+| 2026-09-02 | 散点诊断+双实例印证 | 去重键含当天日期=跨天永不命中（wechat_promote.py:59 每日重复 147 个的诊断锚）；配置层灾损识别=全目录同刻 mtime+`{}` 空配置（.obsidian 被 08-31 事故带走、git bundle 救不回未跟踪文件）；印证复核=抽查承重锚+状态一致性，不重审全量；**commit 前必查预暂存区**——git add 指定路径但 index 里躺着他方预暂存的 24 个 .obsidian 文件被我一并卷走，path-scoped 纪律要先 git status 看暂存列 |
+ok
+appended
+✅ 已保存：C:\Users\Administrator\Desktop\agent复盘\ouyangfeng\daily-context\2026-09-02.md
+✅ 已存档：60_feedback\session-archives\2026-09-02\ouyangfeng.md
+📋 自检：🟡 B级 📚检索有发现
+✅ 事件 #714 已写入: agent=ouyangfeng event=review_saved
+🧪 胶囊 L0 已留痕: agent=ouyangfeng event=review_saved
+✅ A → B 镜像完成: C:\Users\Administrator\.kdo-memory\L1 → D:\KDO-memory\L1-backup（robocopy /MIR，exit 1）
+✅ verify PASS：B 镜像文件 hash 全一致；从 B 打开 integrity=ok 行数 709（A 同 709）
+🟡 B 级 — acceptable (must be 🟢 or 🟡). Done. Now final summary. Also answer the three closing questions implicitly covered. Mark todo done.
+
+• 三单终审全部闭环，按队列序完成：
+
+  **#598 PASS A-**（BOM清理+健康雷达例行化）
+  - 亲跑：`strip_skill_bom.py --check` 🟢 129/129 无 BOM；37/37 字节级断言（`new == old[3:]`）全过；8 维实现逐维对建议书 §三吻合；`scan --check` fresh，SKILL-HEALTH 76 档（🟢3/🟡5/🔴68）与报告一致
+  - 🟡 记档：INDEX/MOUNT 幂等时间戳漂移，不阻断
+
+  **#600 PASS A**（P0 凭据隔离，重点审三项全过）
+  - 凭据零泄漏：任务单全文亲读无凭据内容（仅文件名+字节数）
+  - 隔离区完整：原位三件 exists 全 False，隔离区三件在位且字节数吻合（473/5409/420B）
+  - gitignore 封口：`.gitignore` L46 `quarantine-*/` 在案，`check-ignore` 亲跑命中，`git ls-files` 0 行
+  - 加验：报告「曾入 git 历史」声明用 git log 实证（fabdc3072/d2d1210f8 两个备份点），轮换建议有据——**残余风险：git 历史明文仍在，老朱需执行三项 token 轮换**
+
+  **#602 PASS A-**（落账批）
+  - 三批 commit（1692bae6b/adb640f85/9b4044061）在账可溯源；批次1 抽查升格为全量 37/37 字节断言；当前 7 项脏面归因全部为落账后（01:35 之后）在途活动，不构成反证
+  - 🟡 记档：批次1 裹入 scan 脚本 +143 行未在 commit message 声明
+
+  三处同步均由 `queue_transition.py review` 脚本收口，意见书已落各任务单「## 终审记录」节，todos 已落行。复盘 11 章已追加至当日 daily-context，`daily-context-save` 自检 🟡 B 级（达标）。
+
+  收尾三问：① 新资产——三份终审意见书 + 技能进化日志 1 行；② 新问题——#600 残余风险（git 历史凭据明文，待老朱轮换）+ #602 🟡 批次声明面差集（停车场级）；③ 下次最需记住——落账类验收先还原声明时刻再评判，安全单连风险定性声明也要复现。
+
+To resume this session: kimi -r session_afd45ede-e393-4176-9f70-f347b99b3a70

@@ -324,3 +324,6 @@
 - [2026-09-02 01:47] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#602（wangyuyan 的单，挂审 14min）；#598（huangyaoshi 的单，挂审 11min）；#600（huangyaoshi 的单，挂审 8min）（事件驱动：有待终审）
 - [2026-09-02 01:47] 🔔 KDO 新提审 1 单：#600，请终审（新提审）
 - [2026-09-02 01:4x] ⚠️ 第二次误卷：commit e02798f81 又卷入预暂存的 #601 在途工作（93 个 sources→quarantine 改名，黄药师 claimed 施工中）——内容无害（正是我建议书的清理方案且引用感知已遵守，plan.md 在案），但与 #602 落账单口径重叠，已上报。敏感文件核查：quarantine 区 cookie/token 文件未入库 ✅。#601/#602 终审都在我名下，待提审。
+
+- [2026-09-02 01:55] ✅ 三单连审终审闭环（欧阳锋 CLI 实例，按队列序）：#598 PASS A-（task_20260902_huangyaoshi-bom-cleanup-health-radar——BOM清零129亲跑/37/37字节级断言/8维口径对建议书§三逐维吻合/SKILL-HEALTH 76档🟢3🟡5🔴68/--check fresh；🟡记档 INDEX/MOUNT 时间戳幂等漂移）；#600 PASS A（task_20260902_huangyaoshi-credential-exposure-cleanup，P0——原位三件exists全False/隔离区三件字节数吻合/git ls-files 0行/gitignore L46封口check-ignore命中/历史含凭据fabdc3072+d2d1210f8实证/任务单零凭据内容；残余=git历史明文待老朱三项轮换）；#602 PASS A-（task_20260902_wangyuyan-uncommitted-changes-ledger——三批commit 1692bae6b/adb640f85/9b4044061在账/批次1全量37/37字节断言/残余脏面7项全为落账后在途活动；🟡批次1裹入scan脚本+143行未在message声明）。三单意见书均落任务单「## 终审记录」节，脚本自动收口三处同步
+- [2026-09-02 01:57] 🔔 KDO 新提审 1 单：#601，请终审（新提审）
