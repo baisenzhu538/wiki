@@ -2,9 +2,9 @@
 id: framework-popmart-long-termism-operating-philosophy
 title: 尊重时间尊重经营——泡泡玛特长期主义经营框架（该十年做成的事就十年）
 type: framework
-status: enriched
+status: reviewed
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: medium-high
 language: zh-CN
@@ -45,8 +45,8 @@ tags:
 - 泡泡玛特
 - 战略定力
 - 书籍转述
+review_date: 2026-09-02
 ---
-
 # 尊重时间尊重经营——泡泡玛特长期主义经营框架（该十年做成的事就十年）
 
 > **定位**：本卡是拆书会218《因为独特》卡组（4 张）的**总纲框架卡**——子卡 tool-popmart-narrow-and-deep（减宽加深）、concept-satisfaction-vs-existence（满足感×存在感）、case-popmart-brand-sensory-wrap（品牌感官包裹感）均为本框架在「品类决策/消费认知/品牌交付」三个层面的解压展开。

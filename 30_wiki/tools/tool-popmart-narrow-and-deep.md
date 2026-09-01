@@ -2,9 +2,9 @@
 id: tool-popmart-narrow-and-deep
 title: 减宽加深判断法：砍掉80%外采聚焦潮玩×每年100个系列上限×七分饱
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: medium-high
 language: zh-CN
@@ -42,8 +42,8 @@ tags:
 - 限量策略
 - 产品纪律
 - 书籍转述
+review_date: 2026-09-02
 ---
-
 # 减宽加深判断法：砍掉80%外采聚焦潮玩×每年100个系列上限×七分饱
 
 > **定位**：本卡属于 [[framework-popmart-long-termism-operating-philosophy]] 卡组的品类决策层工具卡（支柱3「企业如树剪枝」的操作解压）——回答「业务该砍到多窄？产品该控到多少？」

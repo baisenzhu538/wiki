@@ -2,9 +2,9 @@
 id: concept-satisfaction-vs-existence
 title: 满足感×存在感——消费解决两件事（近视眼镜 vs 黑框眼镜）
 type: concept
-status: enriched
+status: reviewed
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: medium-high
 language: zh-CN
@@ -41,8 +41,8 @@ tags:
 - 存在感
 - 消费阶梯
 - 书籍转述
+review_date: 2026-09-02
 ---
-
 # 满足感×存在感——消费解决两件事（近视眼镜 vs 黑框眼镜）
 
 > **定位**：本卡属于 [[framework-popmart-long-termism-operating-philosophy]] 卡组的消费认知层概念卡——回答「消费者到底在为什么付钱」，是理解泡泡玛特「艺术公司用商业手段」定位的认知地基。

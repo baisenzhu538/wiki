@@ -2,9 +2,9 @@
 id: case-popmart-brand-sensory-wrap
 title: 案例：泡泡玛特品牌感官包裹感——盖住logo也认得×门店如教堂×唱片公司模式
 type: case
-status: enriched
+status: reviewed
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: medium-high
 language: zh-CN
@@ -43,8 +43,8 @@ tags:
 - 线下门店
 - IP运营
 - 书籍转述
+review_date: 2026-09-02
 ---
-
 # 案例：泡泡玛特品牌感官包裹感——盖住logo也认得×门店如教堂×唱片公司模式
 
 > **定位**：本卡属于 [[framework-popmart-long-termism-operating-philosophy]] 卡组的品牌交付层案例卡——总纲「日复一日的细节管理」（L47）在品牌端的实证形态。
