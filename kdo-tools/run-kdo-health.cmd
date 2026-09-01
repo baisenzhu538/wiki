@@ -7,3 +7,5 @@ cd /d "%KDO_ROOT%"
 "C:\Program Files\Python312\python.exe" -m kdo watch --health >> logs\kdo-health-cron.log 2>&1
 rem #549: daily token metering (delta cursor, no history backfill)
 "C:\Program Files\Python312\python.exe" kdo-tools\token_meter.py >> logs\kdo-health-cron.log 2>&1
+rem #592 R3: vault integrity check (worktree/bundle/offsite copy, anomalies to gate-blocked)
+"C:\Program Files\Python312\python.exe" 90_control\scripts\vault-integrity-check.py >> logs\kdo-health-cron.log 2>&1

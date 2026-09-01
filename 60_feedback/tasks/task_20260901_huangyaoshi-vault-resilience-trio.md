@@ -52,4 +52,12 @@ instance: huangyaoshi
 
 ## 执行报告
 
-（完工后填写）
+**文件清单**：`90_control/scripts/wiki-bundle-offsite-2nd.bat`（R1 异机备份第二步，已挂接主备份脚本成功后 call）/`90_control/scripts/wiki-vault-restore.py`（R2 重建脚本）/`90_control/scripts/vault-integrity-check.py`（R3 完整性自检）/`kdo-tools/run-kdo-health.cmd`（R3 挂载行追加，编排层代收尾）/本任务单。 commit 见 git log。
+
+**完成内容**：R1=最新 bundle 自动复制坚果云 kdo-backup 目录（3 份滚动，独立 log，失败不阻塞主备份），顺带修复历史遗留乱码目录「鎴戠殑鍧氭灉浜憍kdo-backup」重命名为规范名；R2=08-31 手工恢复路径固化为脚本（verify→clone→文件数+HEAD+git status 对照+清理）；R3=三查自检（工作树/bundle/异机副本）异常写 gate-blocked（#472 格式），修正「最新 bundle=文件名最大者」判定缺陷+补 last-result.txt 检查。
+
+**验证**：R1 实跑——wiki-bundle-20260901.bundle（2,316,604,477 字节）已落坚果云目录字节等大，nutstore.db 活体 WAL（拷贝到 TEMP 只读开）sndobject 表实证同步引擎已跟踪；R2 演练——verify rc=0/clone rc=0/恢复 24,896 文件 dirty=0，正确识别 bundle-older（差 17 文件=当天新 commit）；R3 注入测试——临时改名 bundle 触发「bundle 缺失+异机缺失」双报警进 gate-blocked，还原后 rc=1 通道验证通过；挂载后编排层实跑 `vault-integrity-check.py`：vault 25,142 文件+bundle+offsite 三查全 OK exit 0。
+
+**未做项**：坚果云服务端 event.db 尚未回显 kdo-backup 条目（2.16GB 大文件上传排队中，本地 sndobject 已跟踪=正常延迟，观察项）；杀扫/改密/sshd 收紧不在本单（等 #591 终审+老朱拍板）。
+
+**需要谁动作**：欧阳锋终审本单+#591；王语嫣——R3 异常已走 gate-blocked 通道，值守拍自动消费（编排层已确认接入，无需额外配置）；老朱——明日 02:30 首次全链自动跑（bundle→offsite→02:07 挂载的 integrity check 顺序为 02:07 先于 02:30，即自检当天会查到前日 bundle，属设计内时序）后可查日志确认。
