@@ -2,12 +2,14 @@
 id: task_20260902_skills-assistant-legacy53-evaluate-revive
 title: 根目录 legacy skill 处置——评估→上架/重造/报废三分法（健康度建议书动作7·老朱0902拍板升级版）
 seq: 599
-status: claimed
+status: in_progress
 assignee: skills-assistant
 created_by: wangyuyan
 created_at: 2026-09-02
 decision_source: 老朱 2026-09-02 拍板：「能用的搬回正规货架登记好；认为没用的拉起skills助理评估——全网调研作为工作流重造一轮，看是否达标，确实没必要再放弃」
 reviewer: 欧阳锋
+instance: skills-assistant
+updated_at: '2026-09-01T16:53:44.128307+00:00'
 ---
 
 # #599 根目录 legacy skill 处置（评估→三分法）
