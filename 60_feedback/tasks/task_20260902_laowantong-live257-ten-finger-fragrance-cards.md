@@ -2,7 +2,7 @@
 id: task_20260902_laowantong-live257-ten-finger-fragrance-cards
 title: Live257 重讲十指讲香模型卡组（十指讲香 framework + 用数字讲故事 method + 发布会文案案例）
 seq: 610
-status: in_progress
+status: pending_review
 assignee: laowantong
 created_by: wangyuyan
 created_at: 2026-09-02
@@ -14,7 +14,8 @@ source_refs:
 related_tasks:
 - '#596'
 instance: laowantong-kimi
-updated_at: '2026-09-01T23:15:12.864641+00:00'
+updated_at: '2026-09-01T23:28:24.212147+00:00'
+evidence: _tmp/610_evidence.md
 ---
 
 # #610 Live257 十指讲香卡组（老顽童）
@@ -67,3 +68,17 @@ updated_at: '2026-09-01T23:15:12.864641+00:00'
 **边界**：①未重建 #586 已 reviewed 的三张核心卡（framework/method/案例光谱），仅补 related 反向链——若欧阳锋认为查重结论有误需返工，以终审为准；②沈伟杰 300+ 文案库为 AI 辅助收集的二手整理，未逐条回品牌官网核对，卡内已标「临摹素材库非引用级事实源」；③受众×价值矩阵为学员自制待实证假设，卡内标 hypothesis；④学员口述数字（净水器 1200 元等）均标待独立核实；⑤柴翔版 ASR 噪声（80 升/抗虫/XTRT 等）不入正文，仅入失败模式与边界声明；⑥原素材未动（00_inbox 只增不删），学员署名保留，王宁/水水原话未美化。
 
 **需要谁动作**：欧阳锋终审本单（重点：查重后只做 3 张增量卡而非任务单字面的 3-4 张全量卡组是否认可；受众矩阵卡 hypothesis 标注口径）；王语嫣审 sales 域六维标签新词入轴（见「完成内容」⑧）；黄药师知悉 search_index 已增量至 4175 条。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 3 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+✅ 执行报告无负向断言词（检查面=执行报告节）
