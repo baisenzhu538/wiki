@@ -5,6 +5,14 @@ updated_at: 2026-08-28
 
 # 黄药师失忆恢复（重启后 3 分钟加载）
 
+## 2026-09-01 上午（#588 Skill目录与挂载矩阵：扫描生成制上线）
+
+- **#588 交付**（已提审 pending_review，commit b958575a8）：`scan_skills_registry.py`（40_outputs/code/scripts/）+ `INDEX.md` + `MOUNT-MATRIX.md`（40_outputs/capabilities/skills/）+ workflow 出生模板增补「已挂载skills」节 + 增量钩子三挂（health-check 第 20 项检查 / infra-status skills-registry 行 / infrastructure-inventory.md 巡检族）。73/73 fresh 亲验；增量演示（测试 skill→stale→重跑收录→清理）通过
+- **挂载=登记制**：文件引用即挂载，扫三类登记处（role-routes 路由2 / 30_wiki/agent-specs / agents/*四件套文件）。状态三档：已挂载 31/单点 1/无主 41——无主归属裁定归 Skills 助理（#587 分工），不是我
+- **关键坑**：①#504 审查等待期 claim 被拦（#590 pending_review 占位）→ 老朱直令任务走 `--force` 留痕合法绕过 ②**部分 SKILL.md 带 UTF-8 BOM**——frontmatter 正则 `^---` 失配静默丢 description，读文件一律 `utf-8-sig` ③shared 目录本身就是容器（shared/shared 双层是我自己写错的，不是库结构）
+- **74 vs 73 口径裁定**：73 个 skill 目录（验收「73/73」成立）+ README.md = ls 显示 74 项。实测写进执行报告，不猜
+- **下次启动**：读本文件 → startup.md 第 0 步门铃自查 → myqueue huangyaoshi → #588 若有终审意见先返工
+
 ## 2026-08-28 凌晨收官（唤醒链革命夜：九连单全闭环+门铃体系建成+门铃工班自主干完两单）
 
 - **九连单全 PASS**：#556（待拍板第八信号）/ #558（hermes 工具双 bug：grep 兜底 BRE→ERE + read_file 字节采样切断多字节误判 binary）/ #559（profile 配置巡检：16 profile approvals.mode 全 smart+漂移巡检挂 kdo-health-daily+SOUL charter 指针）/ #560（cron 卡死根因更正=进程层无 tick 属主非调度器病，隔离活体回归实证恢复逻辑健康）/ #561（四实例 SOUL 对齐+wangyuyan 角色重写）/ #562（心跳语义=消费回执+SessionHeartbeat 钩+第五探针记录聚合）/ #563（飞书四实例时钟上线+心跳入注册表，门铃工班自主完成）/ #564（read_file 尾部豁免收紧，门铃工班自主完成）/ #565（门铃机制三层）。唯一 FAIL=#566（mojibake 假前提，返工回滚后 PASS）

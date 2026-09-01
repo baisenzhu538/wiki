@@ -1,5 +1,7 @@
 # KDO 技能索引
 
+> ⚠️ **2026-09-01 #588 起以机器可检索目录为准**：`40_outputs/capabilities/skills/INDEX.md`（`scan_skills_registry.py` 扫描生成，73/73 全覆盖，含触发词/来源卡/挂载现状）。本文件以下手写索引**仅作按域导读的历史快照**，新增 skill 不再维护此处——登记走 SKILL.md frontmatter + manifest，目录自动刷新。
+>
 > 所有 Agent 共享的技能武器库。按域分类，触发词 + 技能文件映射。
 
 ## 北丐（洪七公）— 多模态渲染

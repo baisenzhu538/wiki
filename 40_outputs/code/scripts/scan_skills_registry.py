@@ -158,18 +158,23 @@ def scan_mounts(skill_names: set[str], alias: dict[str, str]) -> dict[str, dict]
                 units[unit]["skill_files"].setdefault(canon, []).append(path.name)
 
     # A. 六角色（role-routes 路由2 表）
+    root_skill_names = {d.name for d in SKILLS_DIR.iterdir()
+                        if d.is_dir() and d.name != "shared" and (d / "SKILL.md").exists()} if SKILLS_DIR.exists() else set()
     if ROLE_ROUTES.exists():
         for line in read_text(ROLE_ROUTES).splitlines():
             m = re.match(r"^\|\s*(黄药师|王语嫣|老顽童|欧阳锋|洪七公|段王爷)[^|]*\|([^|]*)\|", line)
             if m:
                 role = m.group(1)
                 if role not in units:
-                    units[role] = {"layer": "角色路由(role-routes)", "files": [], "skills": set(), "skill_files": {}}
+                    units[role] = {"layer": "角色路由(role-routes)", "files": [], "skills": set(), "skill_files": {}, "root_refs": set()}
+                units[role].setdefault("root_refs", set())
                 for t in tokens_of(m.group(2)):
                     canon = t if t in skill_names else alias.get(t)
                     if canon:
                         units[role]["skills"].add(canon)
                         units[role]["skill_files"].setdefault(canon, []).append("role-routes.md")
+                    elif t in root_skill_names:
+                        units[role]["root_refs"].add(t)  # 根目录 legacy skill 引用——不在 shared 登记面，显式登记不吞掉
                 units[role]["files"].append("90_control/role-routes.md#路由2")
 
     # B. agent-specs
@@ -275,8 +280,12 @@ def gen_matrix(skills: list[dict], units: dict[str, dict]) -> str:
         sug = suggest_role(s, mounted_by[s["dir"]])
         L.append(f"| `{s['dir']}` | {st} | {ms} | {sug} |")
     # 表3：可挂未挂 actionable
+    root_refs_all = sorted({r for v in units.values() for r in v.get("root_refs", set())})
     L.append("")
     L.append("## 三、可挂未挂清单（无主 + 单点挂载，actionable）")
+    L.append("")
+    if root_refs_all:
+        L.append(f"- ℹ️ 角色路由另引用 {len(root_refs_all)} 个**根目录 legacy skill**（不在 shared/ 73 登记面，未计入上表）：{'、'.join(f'`{r}`' for r in root_refs_all)}——是否迁入 shared 归 Skills 助理裁定")
     L.append("")
     L.append(f"- **无主 skill：{counts['无主']} 个**（任何登记处零引用——先判定归属或明确废弃）")
     L.append(f"- **单点挂载：{counts['单点挂载']} 个**（仅 1 单元引用——评估是否值得推广挂载）")
