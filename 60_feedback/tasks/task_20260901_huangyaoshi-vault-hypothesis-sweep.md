@@ -2,12 +2,15 @@
 id: '591'
 title: vault 事故假说①②收敛排查+Sysmon 前置取证（取证先于清除）
 type: investigation
-status: pending_review
+status: reviewed
+reviewed_by: 欧阳锋
+review_date: '2026-09-01'
+grade: A-
 priority: P0
 assignee: 黄药师
 created_by: 王语嫣
 created_at: 2026-09-01
-updated_at: '2026-09-01T03:48:57.890325+00:00'
+updated_at: '2026-09-01T05:14:00.786328+00:00'
 source_refs:
 - 60_feedback/tasks/report_20260901_huangyaoshi-vault-incident-candidate-b.md（#590
   PASS A-）
@@ -77,3 +80,34 @@ evidence: 60_feedback/tasks/report_20260901_huangyaoshi-vault-hypothesis-sweep.m
 ### ③ 负向判词 / ④ 存在性核查
 
 ✅ 执行报告无负向断言词（检查面=执行报告节）
+
+## 终审记录（2026-09-01 欧阳锋 · PASS A-）
+
+**结论**：PASS A-。取证链全部 O3 独立复跑成立，边界纪律（零改动）守住，假说收敛判断方向正确。
+
+**独立复跑清单（全部亲跑，非采信报告）**：
+
+| 验收点 | 报告声称 | 我侧实测 | 判定 |
+|---|---|---|---|
+| Sysmon 服务/驱动 | 双 RUNNING | sc query Sysmon64=RUNNING、fltmc 驱动在册 | ✅ |
+| 配置一致性 | final.xml==sysmon-kdo-forensics.xml | 活体 `sysmon64 -c` SHA256=D15D516E…2ACF == 入库 xml 哈希 == final.xml 哈希，三者字节同源 | ✅ |
+| EID23 带进程名 | 10 条（git/python 白名单族） | 亲抓：git.exe→COMMIT_EDITMSG、python.exe→production-queue.md 等样本；当日计数 EID1=7773/EID11=249/EID23=55/EID255=0（较报告 11:42 时点持续增长=常驻采集中） | ✅ |
+| 7045 对账 | 18 条零未知 | 全量导出逐条：Sysmon×2(11:32)+OpenSSH(03:06)+Tailscale(01:54)+hermes-gateway×10(08-16~24)+Tencent Marvis 族×5(08-17)=18，与 role-registry/用户自装窗口吻合 | ✅ |
+| 4625/4720 | 0/0 | PowerShell Security 日志 08-01 起实测均 0 | ✅ |
+| 4624 type3 | 3 条 sshd-session | 逐条 XML 字段：03:26:34/03:26:43/03:27:00，ProcessName=C:\Program Files\OpenSSH\sshd-session.exe，用户 Administrator | ✅ |
+| 常驻面计数 | 服务304/驱动413/任务27/软件56 | audit json（utf-8-sig 解码亲数）304/413/27/56 一致；413 驱动 PathName 全 Windows 体系、非标位置 .sys=0；HKLM Run=Realtek×3、启动文件夹 Tailscale/codex-relay/ShareX/Snipaste/wechat×2 与报告逐条对上 | ✅ |
+| Nutstore 头号嫌疑面 | DriverSvc+USN RUNNING | Get-Service 双 Running+5 进程活体（bin-7.2.12） | ✅ |
+
+**口径区分裁定（核验要点②）**：成立。#589 排除的是**服务端事件面**（event.db 零 wiki 事件+同步沙箱不含 wiki→服务端同步路径死），而 NutstoreUSN/minifilter 的**本地引擎误判**不产生服务端事件记录，属未被排除的独立向量——报告把两者分开、头号嫌疑收敛到本地 watcher 子向且降权不排除，逻辑严密。Sysmon 上线后复发可归因，是正确的收敛姿态。
+
+**缺陷记档（🟡 1 项，不阻塞但须修正认知）**：
+
+**落点**：sshd 前提失实的正确执行序已并入终审汇报「给老朱的清除序最终建议」——待老朱拍板（先装公钥→验证密钥登录→再关密码认证）；#592 终审记录 P1-1 同款警示互链；EID23 口径以报告 §1.3 口径说明自洽收口，无需另单。
+
+- §5 建议方案 1 的前提失实：「最小改 PasswordAuthentication no（现有 tailnet 密钥流不受影响）」——**存在性核查**：`C:\ProgramData\ssh\` 无 administrators_authorized_keys、`~/.ssh\` 无 authorized_keys（ls 实测均不存在）、known_hosts 仅为客户端侧；服务端信任公钥为空集 → 现有 type3 访问实际走的就是密码认证。直接执行方案 1 = SSH 锁死。正确序：先装公钥→密钥登录验证通过→再关密码认证。已并入给老朱的清除序最终建议。
+
+**🟡 小疵**：EID23 计数口径（编排层 23 vs 本棒 10）已自附口径说明，以 wevtutil 活体为准，不降级。
+
+**残余风险**：假说①未排除（Nutstore watcher 压测验证待另单）；观察期 7 天内 Sysmon 配置勿动。#588 解封建议成立（P0 插队关系已终结）。
+
+**流转**：queue_transition review pass / A-。
