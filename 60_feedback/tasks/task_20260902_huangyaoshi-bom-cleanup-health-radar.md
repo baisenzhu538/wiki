@@ -2,7 +2,7 @@
 id: 598
 task_id: task_20260902_huangyaoshi-bom-cleanup-health-radar
 title: skill文件BOM批量清理+8维健康检测并入扫描脚本例行化
-status: in_progress
+status: queued
 assignee: huangyaoshi
 created_by: wangyuyan
 created_at: 2026-09-02
@@ -13,7 +13,7 @@ related_tasks:
 - '#588'
 - '#597'
 instance: wyy-cli-0902
-updated_at: '2026-09-01T16:10:52.675581+00:00'
+updated_at: '2026-09-01T17:36:01.387518+00:00'
 ---
 
 # 任务：BOM 清理 + 8 维健康检测例行化（建议书动作 3+9）
