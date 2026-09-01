@@ -223,6 +223,12 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 594 | `task_20260902_skills-assistant-research-core-integration` | 调研能力层整合（Skills助理生产首单，老朱09-02拍板「调研能力是最基础的必备能力」）：17 skill（14 research系+3近亲）P1评审三层结构→research-core统一入口生产→路由面盲测→全agent挂载（消灭43无主中最大族） | reviewed | skills-assistant | 三层判定书+research-core skill+盲测3/3+全员挂载三写一致 | 老朱09-02直令拍板；#587/#588/#593 reviewed ✅ | `60_feedback/tasks/task_20260902_skills-assistant-research-core-integration.md` | 不改子策略正文；不扩军只整合；欧阳锋终审 |
 | 595 | `task_20260902_skills-assistant-frontmatter-backfill` | 全厂skill frontmatter补齐（#594终审遗留①，老朱09-02拍板「立」）：66/76缺status四字段按真实状态补齐（有终审=enriched/无=draft不虚构），只动frontmatter正文零改动 | pending_review | skills-assistant | 76/76字段齐+零虚构+diff仅frontmatter+--check fresh | 老朱09-02直令；#594 PASS A ✅ | `60_feedback/tasks/task_20260902_skills-assistant-frontmatter-backfill.md` | 不虚构审查状态；欧阳锋终审 |
 
+| 596 | `task_20260902_laowantong-popmart-uniqueness-book-cards` | 拆书会218《因为独特》卡组4张：长期主义经营framework/减宽加深method/满足感×存在感concept/品牌包裹感dk——strategy+拆书会系列 | queued | laowantong | 4张卡 | 无（素材已诊断不撞车） | `60_feedback/tasks/task_20260902_laowantong-popmart-uniqueness-book-cards.md` | inbox自动化流水线（09-02王语嫣编排）；转述二等标注（#470口径）；欧阳锋终审 |
+
+| 597 | `task_20260902_skills-assistant-skill-manifest-batch1` | skill登记面批1：72个manifest.yaml补建+2个name不一致修复（健康度建议书动作1+2） | queued | skills-assistant | 72 manifest+2修复+三写一致 | **#595 reviewed ✅（同域错峰）** | `60_feedback/tasks/task_20260902_skills-assistant-skill-manifest-batch1.md` | skill健康度勘察裁定（09-02王语嫣）；adapted_from无卡不编造标待复核；欧阳锋终审 |
+
+| 598 | `task_20260902_huangyaoshi-bom-cleanup-health-radar` | skill文件37个BOM批量清理+8维健康检测并入#588扫描脚本例行化（建议书动作3+9） | queued | huangyaoshi | BOM清零+8维检测+回归 | 无（与#597不同文件层可并行） | `60_feedback/tasks/task_20260902_huangyaoshi-bom-cleanup-health-radar.md` | skill健康度勘察裁定（09-02王语嫣）；只动编码层不动内容；欧阳锋终审 |
+
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
 ## ⚖️ 待终审（提审任务，queue_transition 自动登记）
@@ -483,7 +489,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~00_inbox/学习candy合集/translations/中译-大卫·布鲁克斯：芝大毕业演讲（求知是有代价的）-视频逐字稿.md｜P2｜31438B｜检测到 08-31 19:01｜待王语嫣编排~~ → 已处置（2026-09-01 03:35 王语嫣）：#586 Wave0 翻译施工产物（文件头自证「中译：2026-09-01 王语嫣编排」，三件=芝大/SPIN/TED主流谎言中译稿，对应 big 版逐字稿已 01:12/02:33 诊断在册），施工产物非新素材，不入编排；原文不动
 - ~~00_inbox/学习candy合集/translations/中译-尼尔·雷克汉姆：联结销售与营销（SPIN创始人）-视频逐字稿.md｜P2｜14353B｜检测到 08-31 19:01｜待王语嫣编排~~ → 已处置（2026-09-01 03:35 王语嫣）：#586 Wave0 翻译施工产物（文件头自证「中译：2026-09-01 王语嫣编排」，三件=芝大/SPIN/TED主流谎言中译稿，对应 big 版逐字稿已 01:12/02:33 诊断在册），施工产物非新素材，不入编排；原文不动
 - ~~00_inbox/学习candy合集/translations/中译-大卫·布鲁克斯：当代文化的3个主流谎言（TED）-视频逐字稿.md｜P2｜50158B｜检测到 08-31 19:11｜待王语嫣编排~~ → 已处置（2026-09-01 03:35 王语嫣）：#586 Wave0 翻译施工产物（文件头自证「中译：2026-09-01 王语嫣编排」，三件=芝大/SPIN/TED主流谎言中译稿，对应 big 版逐字稿已 01:12/02:33 诊断在册），施工产物非新素材，不入编排；原文不动
-- 00_inbox/泡泡玛特的拆解/拆书会第218期《因为独特》· 精华提炼.md｜P2｜10715B｜检测到 09-01 15:11｜待王语嫣编排
+- ~~00_inbox/泡泡玛特的拆解/拆书会第218期《因为独特》· 精华提炼.md｜P2｜10715B｜检测到 09-01 15:11｜待王语嫣编排~~ → 已诊断+立项 #596（2026-09-02 00:02 王语嫣）：域归属=strategy/拆书会系列——李翔《因为独特》泡泡玛特王宁精华提炼件（段王爷转述层）；已有卡仅覆盖招股书毛利率+盲盒机制，本书增量=长期主义经营/减宽加深/满足感×存在感/品牌包裹感，不撞车；按 0831/0901 老朱直令直接编排立项 4 卡（#596 老顽童）；原文不动
 
 <!-- INBOX-PENDING-END -->
 
@@ -684,9 +690,11 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~[gate-blocked] role-liveness｜09-01 20:07｜待王语嫣复核处置｜2026-09-01 20:00:27｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 1024.0), ('cli', 329.1)]）｜role_registry check-liveness｜role_registry~~ → 已知问题划销（2026-09-01 20:31 王语嫣）：laowantong 冷却重报（17:57/19:37 同族，2h 冷却窗内）——本拍 check-liveness 实测全死角色 0，#586 已 08:01 PASS A- 闭环，queued 0 无施工实例=收工空窗架构常态，非产线阻塞
 - ~~[gate-blocked] role-liveness｜09-01 21:07｜待王语嫣复核处置｜2026-09-01 21:07:01｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 1090.7), ('cli', 36.5)]）｜role_registry check-liveness｜role_registry~~ → 冷却重报划销（2026-09-01 21:32 王语嫣）：本拍 check-liveness 实测全死角色 0（huangyaoshi 2h 冷却窗内，kimi-cli 长闲置+cli 心跳在岗）——queued 0 无施工实例=#593 15:17 闭环后收工空窗架构常态，非产线阻塞
 - ~~[gate-blocked] task_20260902_skills-assistant-research-core-integration｜09-01 22:57｜待王语嫣复核处置｜2026-09-01 22:55:09｜task_20260902_skills-assistant-research-core-integration｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生 / - untracked: shared/research/SKILL.md / 补救：git add <路径> &&｜skills-assistant~~ → 已化解划销（2026-09-01 23:02 王语嫣）：时序窗口——shared/research/SKILL.md 已入仓（git ls-files 实证 tracked，40_outputs/capabilities/skills/ 无脏改动），#594 已 complete 重提 pending_review 待欧阳锋终审，E040 拦截条件不复存在
-- [gate-blocked] role-liveness｜09-01 23:07｜待王语嫣复核处置｜2026-09-01 23:02:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 1205.7), ('cli', 30.9)]）｜role_registry check-liveness｜role_registry
-- [gate-blocked] task_20260902_skills-assistant-research-core-integration｜09-01 23:07｜待王语嫣复核处置｜2026-09-01 23:04:26｜task_20260902_skills-assistant-research-core-integration｜F-035-负向判词｜意见书含负向断言（不存在/丢失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋
-- [gate-blocked] 建议书_20260901_skill健康度勘察与检测方法论.md｜09-01 23:07｜待王语嫣复核处置｜2026-09-01 23:07:01｜建议书_20260901_skill健康度勘察与检测方法论.md｜near-miss-三元组（#506）｜status=pending-review 疑似待编排但非 pending_orchestration｜conveyor_probe
+- ~~[gate-blocked] role-liveness｜09-01 23:07｜待王语嫣复核处置｜2026-09-01 23:02:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 1205.7), ('cli', 30.9)]）｜role_registry check-liveness｜role_registry~~ → 已知问题划销（2026-09-02 00:02 王语嫣）：冷却重报同族——实测全死 2 角色（huangyaoshi/laowantong）均为收工空窗（queued 0 无施工实例=#594 23:00 闭环后常态），非产线阻塞
+- ~~[gate-blocked] task_20260902_skills-assistant-research-core-integration｜09-01 23:07｜待王语嫣复核处置｜2026-09-01 23:04:26｜task_20260902_skills-assistant-research-core-integration｜F-035-负向判词｜意见书含负向断言（不存在/丢失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋~~ → 已化解划销（2026-09-02 00:02 王语嫣）：#594 已欧阳锋终审 PASS A——23:07 拦截先于欧阳锋收笔，F-035 时序窗口残留
+- ~~[gate-blocked] 建议书_20260901_skill健康度勘察与检测方法论.md｜09-01 23:07｜待王语嫣复核处置｜2026-09-01 23:07:01｜建议书_20260901_skill健康度勘察与检测方法论.md｜near-miss-三元组（#506）｜status=pending-review 疑似待编排但非 pending_orchestration｜conveyor_probe~~ → 已裁定划销（2026-09-02 00:02 王语嫣）：部分采纳分批立项 #597/#598，建议书 frontmatter 三元组已补正 orchestrated，near-miss 消项
+- ~~[friction] [duanwangye] 2026-09-01 23:05｜09-01 23:57｜待王语嫣复核处置｜[duanwangye] 2026-09-01 23:05｜拆书会218提炼｜token经python open落盘+cat读回被Hermes脱敏腐蚀，误报99991663浪费4次调用；解法=脚本内自取token｜已沉淀E003+技能patch~~ → 已复核关闭（2026-09-02 00:02 王语嫣）：段王爷已自沉淀 E003+技能patch 自闭环（token 脚本内自取解法），无需另立项
+- [gate-blocked] role-liveness｜09-02 00:07｜待王语嫣复核处置｜2026-09-02 00:01:07｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 1264.8), ('cli', 30.4)]）｜role_registry check-liveness｜role_registry
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
