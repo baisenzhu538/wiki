@@ -237,7 +237,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 603 | `task_20260902_huangyaoshi-tmp-script-cleanup` | tmp一次性脚本清理：根目录59个+kdo-tools/tmp_*25个归档_tmp（前置：_tmp_skill_health.json被建议书引用先改指） | claimed-huangyaoshi | huangyaoshi | 归档清单+例外保留清单+引用对账 | #602落账后 | `60_feedback/tasks/task_20260902_huangyaoshi-tmp-script-cleanup.md` | 风清扬R5；归档不删除；批量三问；欧阳锋终审 |
 | 604 | `task_20260902_huangyaoshi-scatter-relocation-misc` | 散点归位杂项：C\uf03a假盘符树核查清除+Harness重复对收敛+60_feedback下6个mp4归位10_raw | queued | huangyaoshi | 三项处置+引用对账 | #602后 | `60_feedback/tasks/task_20260902_huangyaoshi-scatter-relocation-misc.md` | 风清扬R7；假盘符树先证无独有内容；欧阳锋终审 |
 | 605 | `task_20260902_huangyaoshi-dispatch-mechanism-converge` | dispatch机制收口：台账停发（职能并入看门狗v5）+watch_inbox目录树裁剪+存量49份dispatch归档 | queued | huangyaoshi | 裁剪+下线证据+实跑验证 | #602后 | `60_feedback/tasks/task_20260902_huangyaoshi-dispatch-mechanism-converge.md` | 风清扬R6；王语嫣裁定停发、保留pending-cards登记职能；欧阳锋终审 |
-| 606 | `task_20260902_laowantong-graph-scatter-cleanup` | 图谱散点治理二批：31文件残留占位+870真散点逐族裁决（首批1132占位已清 de51bdd84） | queued | laowantong | 分族commit+每族裁决表执行报告+复扫<50处 | 无 | `60_feedback/tasks/task_20260902_laowantong-graph-scatter-cleanup.md` | 老朱0902直令「obsidian视图全乱了修复」；撞号更正入队（原seq601未入队悬空，老顽童建议书 diag_20260902_laowantong-graph-scatter-task-collision 09-02王语嫣采纳）；只动链接行不动正文；分族commit；欧阳锋终审 |
+| 606 | `task_20260902_laowantong-graph-scatter-cleanup` | 图谱散点治理二批：31文件残留占位+870真散点逐族裁决（首批1132占位已清 de51bdd84） | claimed-laowantong-kimi | laowantong | 分族commit+每族裁决表执行报告+复扫<50处 | 无 | `60_feedback/tasks/task_20260902_laowantong-graph-scatter-cleanup.md` | 老朱0902直令「obsidian视图全乱了修复」；撞号更正入队（原seq601未入队悬空，老顽童建议书 diag_20260902_laowantong-graph-scatter-task-collision 09-02王语嫣采纳）；只动链接行不动正文；分族commit；欧阳锋终审 |
 
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 

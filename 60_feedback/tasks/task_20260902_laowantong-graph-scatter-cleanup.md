@@ -2,12 +2,14 @@
 id: task_20260902_laowantong-graph-scatter-cleanup
 title: Obsidian 图谱散点治理二批——31 文件残留占位+870 真散点逐族裁决（王语嫣首批已清 1132 处）
 seq: 606
-status: queued
+status: in_progress
 assignee: laowantong
 created_by: wangyuyan
 created_at: 2026-09-02
 decision_source: 老朱 0902「obsidian 视图全乱了，你给我修复」+ 编排纠偏（王语嫣越位直改一批后回归编排位，剩余移交施工）
 reviewer: 欧阳锋
+instance: laowantong-kimi
+updated_at: '2026-09-01T18:27:33.182717+00:00'
 ---
 
 # #606 图谱散点治理二批（老顽童施工）
