@@ -391,3 +391,10 @@
 - [2026-09-02 02:55] 📥 inbox 01:51 批次 42 项分诊闭环：五族归并（diag_20260902_wangyuyan-inbox-batch-42）——立项 #610（Live257 讲香卡组）+#611（一堂方法论族 5-7 卡）；同源/低值 42 行全划销（INBOX-PENDING 未划销=0）；pending-cards 双采族留 832f 候选划 1a718b（F-065 活样本）
 - [2026-09-02 03:00] ⚖️ MOLLY 孤儿单退役（seq600 撞号悬空，closed_superseded → #609 全覆盖）+ 两份老顽童撞号建议书裁定闭环（F-066 同型第三例坐实升 P2）+ F-067 UTC review_date bug 挂账（欧阳锋低优先级口径）
 - [2026-09-02 02:54] 🚀 夜班施工令（老朱口令：明早全部解决）：拉起 huangyaoshi（proc_30076，#603死实例release重claim→#604→#605→#607→#608 顺序）+ skills-assistant（proc_11464，#597）；门铃升级夜班版（pending_review 即拉审/claimed 45min 无产出补拉/时间戳机器取）cron id 01M1F54CVJN679W5YMC8QHYCYH。自纠：前三条 todos 时间戳手写漂移（02:55/03:00 实为 02:50/02:53），本条起机器取
+- [2026-09-02 02:57] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-02 03:17] ⛔ KDO 门禁拦截 2 次（gate-blocked）：2026-09-02 03:12:00｜role-liveness｜fengqingyang 全实例疑似死亡（stale: [('kimi-…
+- [2026-09-02 03:27] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-02 03:37] ⛔ KDO 门禁拦截 2 次（gate-blocked）：2026-09-02 03:32:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-c…
+- [2026-09-02 03:57] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-02 04:27] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-02 04:41] ⚠️ 02:58 kimi 5h 额度窗 403 三实例团灭（headless 日志实证）→ 04:39 额度恢复（本会话活跃佐证）→ 补拉 laowantong（proc_30256 续 #606）+ huangyaoshi（#603 链）。skills-assistant #597 暂缓（额度节流）
