@@ -2,7 +2,7 @@
 id: '594'
 title: 调研能力层整合——17 skill 综合深挖为全 agent 基础能力（Skills助理生产首单）
 type: skill-production
-status: in_progress
+status: pending_review
 priority: P1
 assignee: skills-assistant
 created_by: 王语嫣
@@ -13,7 +13,7 @@ source_refs:
 - 40_outputs/capabilities/skills/shared/nine-layer-deep-dig/SKILL.md
 - 60_feedback/tasks/task_20260901_huangyaoshi-skills-assistant-deploy.md
 instance: skills-assistant
-updated_at: '2026-09-01T14:32:10.533569+00:00'
+updated_at: '2026-09-01T14:55:49.907669+00:00'
 ---
 
 # #594 调研能力层整合（Skills助理生产首单）
@@ -82,12 +82,32 @@ research-core（新产：统一入口层）
 
 ## 执行报告
 
-**交付物**：`40_outputs/capabilities/skills/shared/research-core/`（SKILL.md 195 行三层统一入口 + manifest.yaml + JUDGEMENT.md 三层判定书）+ `shared/research/SKILL.md` 薄壳化重定向（v1.1.0，原 90 行 OSCAR 路由并入 research-core，保 KDO 工具链指针）+ 16 个子 skill frontmatter description 加【research-core 纪律层/武器库/前置纪律】路由前缀 + 全部 10 个 agent-spec「已挂载skills」节与 11 个 agents 实例登记 research-core + INDEX/MOUNT-MATRIX 重扫刷新。
+**交付物**：`40_outputs/capabilities/skills/shared/research-core/`（SKILL.md 195 行三层统一入口 + manifest.yaml + JUDGEMENT.md 三层判定书）+ `40_outputs/capabilities/skills/shared/research/SKILL.md` 薄壳化重定向（v1.1.0，原 90 行 OSCAR 路由并入 research-core，保 KDO 工具链指针）+ 16 个子 skill frontmatter description 加【research-core 纪律层/武器库/前置纪律】路由前缀 + 全部 10 个 agent-spec「已挂载skills」节与 11 个 agents 实例登记 research-core + INDEX/MOUNT-MATRIX 重扫刷新。
 
 **完成内容**：#594 调研能力层整合四阶段全走完——P1：17 skill（14 research 系+3 近亲）逐一评审归属（纪律层双源合并 2 组：cross-validation×2、deep-dig+SATs；武器库 10 个独立保留；knowledge-collision 判通用前置纪律独立不并入）；P2：research-core 三层结构（OSCAR 意图路由→核心纪律三卡最小自包含版→武器库按需载）+ 硬约束段（防捏造铁律/信源时效 30天-12个月——自攻击发现丢失后补回）+ KDO 工具链段（research_adapter 三命令——自攻击发现丢失后补回）；P3：路由面盲测 5/5（含 2 反触发探针；首测抓到 T2「验证说法」直路由纪律层缺陷，修 description 补验证类触发词后复测全过）+ `kdo pre-submit -f` research-core 与 research 双 PASS（首查 FAIL 因缺 status/reviewed_by，按库内先例补 `status: enriched / reviewed_by: 待审` 诚实值）+ 自攻击一轮（白纸 agent 走查，2 个能力缺口已修）；P4：research-core 挂载全部 10 个 agent-spec + 11 个 agents 实例（21 挂载单元全员覆盖，基础能力层语义），重跑 scan_skills_registry 矩阵刷新 🟢 fresh（76 skills，无主 43→31——调研族 12 个全部脱无主），三写一致抽查 2/2（zhu-boss 纯新挂、ouyangfeng 含既有 skill 混挂均通过）。
 
 **验证**：路由盲测机械匹配脚本 5/5 PASS（T1 行业调研/T2 断言验证/T3 深挖均首位命中 research-core，T4 写卡/T5 施工正确不路由）；`kdo pre-submit -f` research-core 与 research 均 ✅ PASS 0 ERROR；`scan_skills_registry.py --check` 🟢 fresh；MOUNT-MATRIX 实测 research-core 已挂载单元=21（10 spec+11 实例），无主计数 31（原 43-12 调研族）；三写一致抽查① agent-spec-zhu-boss（1 处引用+矩阵行一致）② agent-spec-ouyangfeng-reviewer（3 skill 混挂+矩阵行一致），manifest changelog 已留痕。
 
+**验收四条逐项对照**：
+1. ✅ 三层判定书在案——`research-core/JUDGEMENT.md` 17 skill 逐一归属（core/纪律层/武器库/明确不并入四类全覆盖）
+2. ✅ 路由面盲测 3/3（实跑 5/5 含 2 反触发探针）——T1 行业调研/T2 断言验证/T3 深挖均仅凭 description 首位命中 research-core
+3. ✅ 全员挂载+无主清零——10 spec + 11 实例「已挂载skills」节均含 research-core（21 单元）；MOUNT-MATRIX 无主调研 skill 清零（无主 43→31）
+4. ✅ 三写一致抽查 2/2——zhu-boss / ouyangfeng 的 spec 节=MOUNT-MATRIX=manifest 全对
+
 **边界**：16 个子 skill 仅动 description 一行（任务单边界合规），其老卡普遍缺 status/reviewed_by/updated_at 字段（pre-submit 报 3 ERROR 为 HEAD 既有状态非本单引入，stash 对照实证）——批量补字段超本单范围，留作全厂 skill 字段补齐任务建议；role-routes.md 路由2 表未动（owner=王语嫣编排，本单只登记 spec 层+实例层）；不扩军（未新增调研策略 skill）；飞书壳/IM 入口不在范围。
 
 **需要谁动作**：欧阳锋——终审 #594（research-core 内容+三层判定书+挂载配置）；王语嫣——同步编排视图（挂载矩阵变更知会），并裁定遗留项「全厂 skill frontmatter 字段补齐」是否立项；黄药师——知会基建视图（MOUNT-MATRIX 已刷新，无主 43→31）。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 1 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+🔴 意见书含负向断言（丢失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
