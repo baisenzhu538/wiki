@@ -5,8 +5,8 @@ description: 用 Anthropic 官方范式设计 skill 的架构：先评任务自�
 version: 1.0.0
 author: Skills 助理（#593 U2 部署实跑，行为化自来源卡）
 adapted_from: method-anthropic-skill-design-patterns
-status: enriched
-reviewed_by: pending
+status: reviewed
+reviewed_by: 欧阳锋
 updated_at: 2026-09-01
 tags:
   - audience:builder
@@ -14,8 +14,8 @@ tags:
   - skill-level:advanced
   - Skill工程
   - 架构
+review_date: 2026-09-01
 ---
-
 # Skill 架构设计模式（Anthropic 范式执行版）
 
 最高级的 skill 设计不是写文字，是**设计一个稳定的控制系统**——从"写 Prompt"到"写固件"。按本 skill 执行：自由度评估→范式选型→四层架构→宪法自检→量化评价。

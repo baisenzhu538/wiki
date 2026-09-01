@@ -5,8 +5,8 @@ description: 九字诀 AI 协作策略——用"明确目标、控过程的节�
 version: 1.0.0
 author: Skills 助理（#593 U1 部署实跑，行为化自来源卡）
 adapted_from: tool-nine-character-mantra-14-strategies
-status: enriched
-reviewed_by: pending
+status: reviewed
+reviewed_by: 欧阳锋
 updated_at: 2026-09-01
 tags:
   - audience:executor
@@ -14,8 +14,8 @@ tags:
   - skill-level:beginner
   - AI协作
   - 提示词
+review_date: 2026-09-01
 ---
-
 # 九字诀 AI 协作策略（14 策略执行版）
 
 与 AI 对话的本质是九个字：**明确目标、控过程的节奏、做纠偏**。AI 输出不好不是 AI 不行，是上下文没补全。按本 skill 执行目标补全→节奏控制→纠偏拉回三段动作。
