@@ -60,7 +60,7 @@ type: memory/role-recovery
 
 ### 历史（2026-08-29 · 停时钟+headless拉起架构生效）
 
-**最新（08-29 老朱拍板）**：文件队列保留（上下文载体）；各角色时钟已停（4 hermes cron pause + 2 schtasks disable：kdo-role-clock/kdo-huangyaoshi-doorbell，可恢复）；机器监控（探针/健康检查/归档/指标）保留。唤醒链唯一 = 老朱 DM 王语嫣 → 王语嫣 `hermes -z --profile <角色>` headless 拉起各角色干活 → 汇总对齐老朱。铁律：禁用 delegate_task 子代理替代实例。
+**⚠️ 已被 09-02 口径取代（下条为旧制，仅存档）**：~~唤醒链唯一 = 老朱 DM 王语嫣 → 王语嫣 `hermes -z --profile <角色>` headless 拉起~~。**09-02 老朱两次直令纠正：飞书端 Hermes 智能体已全部停掉，禁止再用 hermes 拉起任何角色；现在在册五角色（黄药师/老顽童/王语嫣/欧阳锋/风清扬）全部是 Kimi CLI 常驻实例，立项入队后 conveyor 探针自动发「📥 可领取」+叫醒通知，各实例自行领单施工——编排只立项，不拉起。**（09-02 01:38 我误用 hermes 拉 huangyaoshi，进程 0 输出被当场杀掉；Kimi CLI 黄药师经正常通知通道 10 分钟内自行领走 #600 完工。教训=E0xx 候选：拉起机制随工具栈切换已变，行动前回读当前架构不凭旧锚点。）
 
 ### 历史（2026-08-27 · 基建排障日：liveness 风暴止血 + 唤醒送达面断点立案 + 裁定批 7 份全清）
 
