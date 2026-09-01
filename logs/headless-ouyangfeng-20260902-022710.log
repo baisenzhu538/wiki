@@ -1,0 +1,809 @@
+kimi version 0.39.1
+• Start by reading the required files.
+
+• 先做启动恢复：读三个必读文件。
+
+• I'm ouyangfeng, CLI instance. Task: review #601 (task_20260902_huangyaoshi-wechat-promote-dedup-fix). Let me read the AGENTS.md in 90_control, then the task file, and check queue status.# role=ouyangfeng · 任务路由（#472 只读视图，不动状态机）
+✅ 可领 0:
+  (无)
+⏸ 等依赖 0:
+  (无)
+🧊 冻结 0:
+  (无)
+🚧 进行中 0:
+  (无)
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 0:
+  (无)
+myqueue ouyangfeng shows 0 pending_review? But #601 should be pending_review. Maybe myqueue only lists tasks assigned to ouyangfeng; #601 is huangyaoshi's task in pending_review. Let me check the queue directly.235:| 601 | `task_20260902_huangyaoshi-wechat-promote-dedup-fix` | wechat_promote去重根治（去重键含当天日期bug，08-18起带病）+sources层147份纯重复引用感知处置入隔离区+seen_links URL归一化+索引更新 | pending_review | huangyaoshi | bug修复+跨天回归+147→0+索引增量 | #600后 | `60_feedback/tasks/task_20260902_huangyaoshi-wechat-promote-dedup-fix.md` | 欧阳锋建议书+风清扬R2/R3；inbox原件不动（F-KDO-015溯源链）；批量三问+引用对账；欧阳锋终审 |
+236:| 602 | `task_20260902_wangyuyan-uncommitted-changes-ledger` | 93文件未提交改动落账三批（SKILL BOM清洗/todos队列留痕/logs）——为#601/#603/#604清理动作提供git兜底 | reviewed | wangyuyan | 3个commit+diff抽查证据 | 无 | `60_feedback/tasks/task_20260902_wangyuyan-uncommitted-changes-ledger.md` | 风清扬R4；只提交零改动；path-scoped add；王语嫣自领；欧阳锋终审 |
+240:| 606 | `task_20260902_laowantong-graph-scatter-cleanup` | 图谱散点治理二批：31文件残留占位+870真散点逐族裁决（首批1132占位已清 de51bdd84） | claimed-laowantong-kimi | laowantong | 分族commit+每族裁决表执行报告+复扫<50处 | 无 | `60_feedback/tasks/task_20260902_laowantong-graph-scatter-cleanup.md` | 老朱0902直令「obsidian视图全乱了修复」；撞号更正入队（原seq601未入队悬空，老顽童建议书 diag_20260902_laowantong-graph-scatter-task-collision 09-02王语嫣采纳）；只动链接行不动正文；分族commit；欧阳锋终审 |
+442:- #601 task_20260902_huangyaoshi-wechat-promote-dedup-fix｜huangyaoshi｜提审 09-02 01:55｜60_feedback/tasks/task_20260902_huangyaoshi-wechat-promote-dedup-fix.md
+70_product/tasks/production-queue.md:235:| 601 | `task_20260902_huangyaoshi-wechat-promote-dedup-fix` | wechat_promote去重根治（去重键含当天日期bug，08-18起带病）+sources层147份纯重复引用感知处置入隔离区+seen_links URL归一化+索引更新 | pending_review | huangyaoshi | bug修复+跨天回归+147→0+索引增量 | #600后 | `60_feedback/tasks/task_20260902_huangyaoshi-wechat-promote-dedup-fix.md` | 欧阳锋建议书+风清扬R2/R3；inbox原件不动（F-KDO-015溯源链）；批量三问+引用对账；欧阳锋终审 |
+70_product/tasks/production-queue.md:442:- #601 task_20260902_huangyaoshi-wechat-promote-dedup-fix｜huangyaoshi｜提审 09-02 01:55｜60_feedback/tasks/task_20260902_huangyaoshi-wechat-promote-dedup-fix.md
+60_feedback/tasks/task_20260902_huangyaoshi-wechat-promote-dedup-fix.md:2:id: task_20260902_huangyaoshi-wechat-promote-dedup-fix
+I need to review #601. This is a code task (.py changes), so per the 版本对齐核验 gate I must check: 入仓了吗 (git log), 生效了吗, 对齐了吗. Note the todos log mentioned "第二次误卷：commit e02798f81 又卷入预暂存的 #601 在途工作（93 个 sources→quarantine 改名）" — so quarantine moves were committed via e02798f81. Let me verify.
+
+  Plan:
+  1. git log check for the delivery commits.
+  2. Read wechat_promote.py fix (dedup key without date).
+  3. Run regression tests test_wechat_promote.py / test_wechat_link_monitor.py.
+  4. Verify quarantine count 143, sources remaining 20.
+  5. Verify referenced 17 files not broken.
+  6. Run promote script? Careful — running wechat_promote.py might have side effects; check whether it's safe (it should skip everything now). Maybe verify skip behavior via test instead.
+
+  Let me start.0925d41f0 2026-09-02 02:27:33 +0800 chore(queue): #606 claim by laowantong-kimi
+8450d6da3 2026-09-02 02:26:44 +0800 编排：F-066 建单即入队对账挂账 + todos 处置落行（#606/门铃重建/拉起老顽童）
+284e97efe 2026-09-02 02:24:39 +0800 编排：#606 图谱散点治理二批撞号更正入队（原seq601未入队悬空，老顽童建议书采纳）
+de51bdd84 2026-09-02 02:11:49 +0800 wyy(直改已验证): pending_unknown占位清理466文件1132处+占位卡降权；frontmatter抽查OK；残留31文件+870真散点移交#601
+f1286b7dc 2026-09-02 02:01:16 +0800 vault backup: 2026-09-02 02:01:16
+ff297b429 2026-09-02 02:01:13 +0800 纪律(王语嫣): P-44 预暂存裹挟——CLI提交一律 git commit -- <paths>
+dba6f5376 2026-09-02 02:00:34 +0800 修复(王语嫣): 00_inbox+.obsidian 撤出跟踪的索引落账（承接上一 commit）
+f4cd8efdd 2026-09-02 02:00:19 +0800 修复(王语嫣): 00_inbox(13675文件)+.obsidian(24文件)撤出git跟踪——inbox不进git铁律从口头落为.gitignore机制；obsidian配色基线快照入90_control/baseline（老朱0902重建的9组colorGroups已存证）；文件全部保留在磁盘
+ M 60_feedback/audit/ocr-foresight-18files-extraction-check.md
+ M 60_feedback/session-archives/2026-07-13/ouyangfeng.md
+ M 60_feedback/tasks/task_20260628_laowantong-link-repair-b2-synthesis-section.md
+ M 60_feedback/tasks/task_20260628_laowantong-link-repair-b3-island-cards.md
+ M 60_feedback/tasks/task_20260629_kimi-lint-content-debt-by-domain.md
+ M 60_feedback/tasks/task_20260822_laowantong-related-asymmetry-backfill.md
+ M 70_product/tasks/task_20260709_wangyuyan-key-assumptions-business-formula-agent.md
+ M 70_product/tasks/task_20260709_wangyuyan-opportunity-foresight-agent.md
+ M 70_product/tasks/task_20260711_wangyuyan-fundamentals-domain-production.md
+ M 70_product/tasks/task_20260712_wangyuyan-graph-island-governance.md
+ M 90_control/.sandbox/proposal-168A-graph-island-governance.md
+ M 90_control/backlinks-index-snapshot-20260704.md
+ M 90_control/force-exceptions.log
+ M 90_control/l1-size.log
+ M 90_control/role-registry.json
+ M 90_control/scripts/.derived-hashes.json
+ M 90_control/session-roles.json
+ M 90_control/todos/huangyaoshi.md
+ M 90_control/todos/laowantong.md
+ M 90_control/todos/ouyangfeng.md
+13:不落待编排区，直接落 00_inbox/wechat-collect/_needs_rerun/ 并输出原因。
+16:  python kdo-tools/wechat_promote.py            # 转正所有已知识化产物
+17:  python kdo-tools/wechat_promote.py --dry-run  # 预览不执行
+30:INBOX_DIR = WIKI / "00_inbox" / "wechat-collect"
+36:# 内容校验（#380 最小实现）：对准 wechat_knowledge.py 的真实失败形态
+39:    "LLM 总结失败，请重试",  # wechat_knowledge.py 骨架占位（实测 Top10 空壳卡）
+50:    """逐字稿 → 10_raw/sources/（文件名带 source_id：src_<date>_wechat_<hash>）。
+52:    支持前缀：src_wechat_<hash> / src_wechat_tt_<hash>（头条视频）/ src_wechat_article_<hash>（公众号）
+53:    / src_wechat_article_tt_<hash>（头条文章）。任意小写前缀均可，取最后一段字母数字为 hash。
+55:    m = re.search(r"src_wechat_(?:[A-Za-z]+_)*([A-Za-z0-9]{8,20})", f.name)
+62:    existing = sorted(SOURCES_DIR.glob(f"src_*_wechat_{hash_id}.md"))
+66:    target = SOURCES_DIR / f"src_{date.today().isoformat()}_wechat_{hash_id}.md"
+168:    for f in sorted(INBOX_DIR.glob("src_wechat_*.md")):
+175:        for f in sorted(kdir.glob("case-wechat-*.md")):
+Let me look at the fix in wechat_promote.py lines 50-90, and find the commit for #601's delivery. git log --oneline -8 didn't show a commit with "601" explicitly except 0925d41f0 etc. The quarantine move was committed via e02798f81 (per todos note, "第二次误卷"). Let me search git log for relevant commits.6923b058a 2026-09-02 01:50:44 +0800 #601 wechat_promote去重根治+存量143份隔离+seen归一化 by huangyaoshi：去重键剔除日期成分（全历史glob），跨天回归红绿自证，引用感知保留20份，kdo index -143
+---
+284e97efe 2026-09-02 02:24:39 +0800 编排：#606 图谱散点治理二批撞号更正入队（原seq601未入队悬空，老顽童建议书采纳）
+de51bdd84 2026-09-02 02:11:49 +0800 wyy(直改已验证): pending_unknown占位清理466文件1132处+占位卡降权；frontmatter抽查OK；残留31文件+870真散点移交#601
+4cd3d273a 2026-09-02 01:55:12 +0800 chore(queue): #601 complete by huangyaoshi
+6923b058a 2026-09-02 01:50:44 +0800 #601 wechat_promote去重根治+存量143份隔离+seen归一化 by huangyaoshi：去重键剔除日期成分（全历史glob），跨天回归红绿自证，引用感知保留20份，kdo index -143
+fb34069c6 2026-09-02 01:39:43 +0800 chore(queue): #601 claim by huangyaoshi
+5c4a3b6b3 2026-09-02 01:38:36 +0800 #600 P0 凭据三件套隔离 by huangyaoshi：douyin cookie/飞书 user token 移出 git 索引并落 quarantine-20260902（物理保留+索引清除+gitignore 封口），历史含凭据待轮换
+941e1a564 2026-09-02 01:27:22 +0800 编排(王语嫣): 散点治理批立项 #600-#605（老朱0902拍板全部修复）——凭据隔离/落账兜底/wechat去重根治/tmp清理/归位/dispatch收口；诊断+方向+看板同步
+Commit 6923b058a exists. Now verify:
+  1. The fix code — L62-65: glob across all dates by hash → correct.
+  2. wechat_link_monitor.py canonical_key normalization.
+  3. Tests: test_wechat_promote.py +3 cases, test_wechat_link_monitor.py +4 cases. Run them.
+  4. Quarantine count: 90_control/.sandbox/quarantine-20260902/sources-dup/ = 143 files + sources-dup-plan.md. Sources remaining: 20 date-prefixed wechat files.
+  5. Referenced files not broken: grep for src_2026-08-20_wechat_2404c1658025473c and src_2026-08-19_wechat_e7536bf1d8f1a7b1 in 30_wiki, verify those files exist in 10_raw/sources.
+  6. Live run of promote to verify 0 new copies.
+
+  Also check the 147 vs 143 discrepancy (147 pure duplicates, but 163 files - 20 kept = 143 moved; 147 was earlier estimate). Report itself flags this.
+
+  Let me check the diff of the commit first, and read the link monitor change + tests.
+
+• 交付 commit 6923b058a 在仓（版本对齐 Q1 ✅）。现在看改动全貌、link_monitor 归一化、测试文件。commit 6923b058aa80742a9d8cbcc7883f44f12fc73a5b
+Author: Linhai Zhu <baisenzhu538@gmail.com>
+Date:   Wed Sep 2 01:50:44 2026 +0800
+
+    #601 wechat_promote去重根治+存量143份隔离+seen归一化 by huangyaoshi：去重键剔除日期成分（全历史glob），跨天回归红绿自证，引用感知保留20份，kdo index -143
+
+ ...0260902_huangyaoshi-wechat-promote-dedup-fix.md | 18 +++++++
+ kdo-tools/tests/test_wechat_link_monitor.py        | 48 +++++++++++++++++
+ kdo-tools/tests/test_wechat_promote.py             | 62 ++++++++++++++++++++++
+ kdo-tools/wechat_link_monitor.py                   |  6 ++-
+ kdo-tools/wechat_promote.py                        | 10 ++--
+ 5 files changed, 140 insertions(+), 4 deletions(-)
+===
+    #601 wechat_promote去重根治+存量143份隔离+seen归一化 by huangyaoshi：去重键剔除日期成分（全历史glob），跨天回归红绿自证，引用感知保留20份，kdo index -143
+
+ ...0260902_huangyaoshi-wechat-promote-dedup-fix.md | 18 +++++++
+ kdo-tools/tests/test_wechat_link_monitor.py        | 48 +++++++++++++++++
+ kdo-tools/tests/test_wechat_promote.py             | 62 ++++++++++++++++++++++
+ kdo-tools/wechat_link_monitor.py                   |  6 ++-
+ kdo-tools/wechat_promote.py                        | 10 ++--
+ 5 files changed, 140 insertions(+), 4 deletions(-)
+commit 6923b058aa80742a9d8cbcc7883f44f12fc73a5b
+Author: Linhai Zhu <baisenzhu538@gmail.com>
+Date:   Wed Sep 2 01:50:44 2026 +0800
+
+    #601 wechat_promote去重根治+存量143份隔离+seen归一化 by huangyaoshi：去重键剔除日期成分（全历史glob），跨天回归红绿自证，引用感知保留20份，kdo index -143
+
+diff --git a/kdo-tools/wechat_link_monitor.py b/kdo-tools/wechat_link_monitor.py
+index 0dfff786c..ae3ad7b84 100644
+--- a/kdo-tools/wechat_link_monitor.py
++++ b/kdo-tools/wechat_link_monitor.py
+@@ -436,7 +436,11 @@ def main():
+     links = extract_links(cutoff)
+     seen = set()
+     if SEEN_FILE.exists():
+-        seen = set(SEEN_FILE.read_text(encoding="utf-8").splitlines())
++        # #601（2026-09-02）：读入时对每行同步注入规范化键——封死历史遗留的
++        # `&`/`&amp;`/exportkey 等变体行，老格式纯 URL 行也能命中规范化查重
++        for line in SEEN_FILE.read_text(encoding="utf-8").splitlines():
++            seen.add(line)
++            seen.add(canonical_key(line))
+     fresh = [(ct, u) for ct, u in links if u not in seen and canonical_key(u) not in seen]
+     print(f"🔗 新链接 {len(fresh)} 个（共扫 {len(links)}）")
+     for ct, url in fresh:
+
+
+• Check canonical_key exists in wechat_link_monitor.py and new tests. Also check quarantine moves: the commit 6923b058a only touched 5 files — the 143 file moves were in e02798f81 (the "误卷" commit by ouyangfeng session). Let me verify that commit.commit e02798f8130f1eb093d62b0056d7de11defeb2a7
+Author: Linhai Zhu <baisenzhu538@gmail.com>
+Date:   Wed Sep 2 01:46:38 2026 +0800
+
+    docs(欧阳锋): 三项待裁定建议书致王语嫣 + #596 追记 + 失忆锚点/todos 留痕
+
+ .../diag_20260902_ouyangfeng-pending-decisions.md  | 39 ++++++++++++++++++++++
+ .../src_2026-08-18_wechat_6725b942182f6277.md      |  0
+ .../src_2026-08-18_wechat_AWyGiJIRgc.md            |  0
+ .../src_2026-08-18_wechat_f4faadff37c0b43b.md      |  0
+ .../src_2026-08-19_wechat_1a718b23df7e860b.md      |  0
+ .../src_2026-08-19_wechat_4dd7be7cd82f7e80.md      |  0
+===
+0
+===
+55:def canonical_key(url: str) -> str:
+82:        ck = canonical_key(url)
+443:            seen.add(canonical_key(line))
+444:    fresh = [(ct, u) for ct, u in links if u not in seen and canonical_key(u) not in seen]
+456:            stem = hashlib.md5(canonical_key(url).encode()).hexdigest()[:16]
+473:                stem = hashlib.md5(canonical_key(url).encode()).hexdigest()[:16]
+e02798f81 contains the renames (0-content-change renames shown as `0` lines changed). Let me verify quarantine directory count on disk and sources remaining. Note grep -cE returned 0 because renames show as `... => ...` paths; fine.
+
+  Verify:
+  1. quarantine count = 143 md files + plan file
+  2. 10_raw/sources remaining date-prefixed wechat files = 20
+  3. referenced 2 groups exist
+  4. run tests
+  5. live run promote dry-run vs actual — actual run is fine since it should skip; but it writes nothing if all skip. Actually safe.143
+===
+20
+e02798f81
+e02798f81
+5b1ca3cfb
+03ae9f80e
+隔离区 143 ✅，sources 剩 20 ✅，rename 在 e02798f81 ✅（即我的 CLI 会话之前"误卷"的 commit——内容正是本单的处置，已上报过）。
+
+  Now: verify referenced files not broken. The 2 true 30_wiki references: src_2026-08-20_wechat_2404c1658025473c (x5 in cards), src_2026-08-19_wechat_e7536bf1d8f1a7b1 (x1). Check these exist in 10_raw/sources and grep references in 30_wiki. Also 15 in .agent/laowantong-context.md.
+
+  Then run tests + live promote run.== 2404c1658025473c
+10_raw/sources/src_2026-08-20_wechat_2404c1658025473c.md
+10_raw/sources/src_2026-08-26_wechat_2404c1658025473c.md
+== e7536bf1d8f1a7b1
+10_raw/sources/src_2026-08-19_wechat_e7536bf1d8f1a7b1.md
+10_raw/sources/src_2026-08-26_wechat_e7536bf1d8f1a7b1.md
+===
+30_wiki/cases/case-truman-ai-native-research-flow.md
+30_wiki/frameworks/framework-lemon-market-new-brand-trust.md
+30_wiki/index.md
+30_wiki/tools/tool-yizhan-shendeng.md
+===
+14
+Interesting — both referenced hashes exist in TWO dates: 08-20 AND 08-26 kept? The task said "无引用组保留最早日期份；有卡引用的 hash 保留被引用的那份". For hash 2404c1658025473c, both 08-20 (referenced) and 08-26 (台账引用 per report) are kept. The report said 17 被引用 (2 by cards + 15 by laowantong context台账). So 20 kept = 16 unique + 4 extra? Let me check: 16 unique contents, keep earliest per group → 16; plus extra referenced copies → 20. Here the 08-26 variant of 2404c is likely referenced by laowantong-context. That matches: 16 earliest + 4 additionally-referenced = 20.
+
+  Check uniqueness: verify each kept file has a unique hash → 20 files should have ≤16 unique hashes. Also verify quarantine 143 + kept 20 = 163 original.
+
+  Wait — but are the duplicates in quarantine actually duplicates? Spot check: compare content of a quarantine file vs its kept counterpart. The original audit: 163 files, 16 unique contents, 147 pure duplicates. 163 - 16 = 147 expected moves, but only 143 moved because 4 extra copies retained as referenced. Consistent.
+
+  Spot check content identity for one hash group.== 1a718b23df7e860b
+1
+== 2404c1658025473c
+1
+== 346efef2737b383b
+1
+===
+0
+head: cannot open '90_control/.sandbox/quarantine-20260902/sources-dup/sources-dup-plan.md' for reading
+: No such file or directory
+Content identical per hash group ✅ (each group has exactly 1 distinct md5 across kept + quarantined). But sources-dup-plan.md NOT in quarantine dir — report claims "含 dry-run 全量清单 sources-dup-plan.md". Check where it is.90_control/.sandbox/quarantine-20260902/sources-dup-plan.md
+===
+_sg_cookie.txt
+douyin-cookie--help.txt
+feishu_user_token.json
+sources-dup
+sources-dup-plan.md
+Plan file is at quarantine-20260902/ level, not inside sources-dup/. Minor location discrepancy in report wording ("含 dry-run 全量清单 sources-dup-plan.md" — ambiguous, could be read as quarantine-20260902 contains it; actual is sibling). Non-blocking 🟠/🟡 note.
+
+  Check plan file contents quickly, then run tests.171 90_control/.sandbox/quarantine-20260902/sources-dup-plan.md
+# #601 sources 重复处置 dry-run 全量清单
+
+总数 163 / 唯一 17 / 保留 20 / 移隔离区 143
+
+## 保留
+
+- KEEP src_2026-08-26_wechat_1a718b23df7e860b.md（引用x1）
+- KEEP src_2026-08-20_wechat_2404c1658025473c.md（引用x5）
+- KEEP src_2026-08-26_wechat_2404c1658025473c.md（引用x1）
+- KEEP src_2026-08-31_wechat_346efef2737b383b.md（引用x0）
+- KEEP src_2026-08-26_wechat_4dd7be7cd82f7e80.md（引用x1）
+- KEEP src_2026-08-26_wechat_5291b61bc722d90d.md（引用x1）
+- KEEP src_2026-08-31_wechat_569e12742cff2c52.md（引用x0）
+- KEEP src_2026-08-26_wechat_6725b942182f6277.md（引用x1）
+- KEEP src_2026-08-31_wechat_68004aecb3d913a5.md（引用x0）
+...........                                                              [100%]
+11 passed in 0.16s
+11/11 wechat tests pass ✅. Plan: 163 total / 17 unique / 20 keep / 143 move. Note: task/background said "16 unique", plan says "17 唯一". My earlier counting: 163 - 143 - 20 = 0 ✅. Discrepancy 16 vs 17 — minor. Original audit said 16 unique; plan says 17. Probably hash extraction nuance. Not blocking; check quickly: count unique md5 across kept files.
+
+  Then: red-green self-proof — verify tests actually catch the old behavior. Do a quick check: the new tests in test_wechat_promote.py assert the glob-based dedup. I can verify the red-green claim by temporarily... no, don't modify code. Instead read the test file to confirm the tests assert the new behavior meaningfully (they simulate cross-day by monkeypatching date presumably).
+
+  Then live run promote (safe: should skip all 17) — actually it will copy case cards? It also promotes case cards to pending-cards. Running the actual script could create new pending cards or move things. Safer: run with --dry-run first to see what it would do, then decide. Actually the report claims they ran the real thing and 17 skipped. I can run --dry-run and confirm no new transcripts would be copied (dry-run prints "[dry-run] f → target" for non-skips). That verifies dedup without side effects. Then optionally real run. Dry-run verifies the skip logic; that's adequate + I could do the real run too since promote only copies. But case cards pending promotion would be moved — don't want to alter state. Dry-run it.16
+16
+⏭️  已流转: case-wechat-e7536bf1d8f1a7b1.md
+⏭️  已流转: case-wechat-f4faadff37c0b43b.md
+⏭️  已流转: case-wechat-fe60439837f4c93e.md
+⏭️  已流转: case-wechat-tt_7666646931699367986.md
+
+📊 逐字稿 17 个，case 卡 待编排 0 / 退回 0 / 跳过 17（dry-run，未写入）
+commit 6923b058aa80742a9d8cbcc7883f44f12fc73a5b
+Author: Linhai Zhu <baisenzhu538@gmail.com>
+Date:   Wed Sep 2 01:50:44 2026 +0800
+
+    #601 wechat_promote去重根治+存量143份隔离+seen归一化 by huangyaoshi：去重键剔除日期成分（全历史glob），跨天回归红绿自证，引用感知保留20份，kdo index -143
+
+diff --git a/kdo-tools/tests/test_wechat_promote.py b/kdo-tools/tests/test_wechat_promote.py
+index 1f86be958..60579b770 100644
+--- a/kdo-tools/tests/test_wechat_promote.py
++++ b/kdo-tools/tests/test_wechat_promote.py
+@@ -82,3 +82,65 @@ def test_existing_three_dirs_still_skip(tmp_path, monkeypatch):
+         d.joinpath(CARD_NAME).write_text(VALID_CARD, encoding="utf-8")
+         assert wp.promote_case(_card(tmp_path), dry_run=False) == "skip"
+         d.joinpath(CARD_NAME).unlink()
++
++
++# ============================================================
++# #601 回归：promote_transcript 去重键含当天日期 → 跨天重跑必复制
++# （08-18 上线起带病，163 文件实测仅 16 唯一）。修复=按 hash 全历史 glob。
++# ============================================================
++
++HASH_ID = "abc123def4567890"
++
++
++def _sandbox_transcript(tmp_path, monkeypatch):
++    """注入 SOURCES_DIR/INBOX_DIR 沙盒，造一份待转正逐字稿。"""
++    sources = tmp_path / "sources"
++    inbox = tmp_path / "wechat-collect"
++    sources.mkdir(parents=True)
++    inbox.mkdir(parents=True)
++    monkeypatch.setattr(wp, "SOURCES_DIR", sources)
++    monkeypatch.setattr(wp, "INBOX_DIR", inbox)
++    src = inbox / f"src_wechat_{HASH_ID}.md"
++    src.write_text("# t" + chr(10), encoding="utf-8")
++    return sources, src
++
++
++class _FakeDate:
++    """固定日期——模拟跨天。"""
++
++    def __init__(self, day):
++        self._day = day
++
++    def today(self):
++        import datetime
++        return datetime.date(2026, 9, self._day)
++
++
++def test_promote_transcript_first_day_copies(tmp_path, monkeypatch):
++    """第一天：无历史 → 正常转正。"""
++    sources, src = _sandbox_transcript(tmp_path, monkeypatch)
++    monkeypatch.setattr(wp, "date", _FakeDate(1))
++    assert wp.promote_transcript(src, dry_run=False) is True
++    assert (sources / f"src_2026-09-01_wechat_{HASH_ID}.md").exists()
++
++
++def test_promote_transcript_cross_day_no_dup(tmp_path, monkeypatch):
++    """跨天重跑：历史在仓（不同日期前缀）→ 必须 skip，零新增。"""
++    sources, src = _sandbox_transcript(tmp_path, monkeypatch)
++    # 历史在仓：08-19 已转正过
++    (sources / f"src_2026-08-19_wechat_{HASH_ID}.md").write_text("旧", encoding="utf-8")
++    monkeypatch.setattr(wp, "date", _FakeDate(2))
++    before = sorted(p.name for p in sources.iterdir())
++    assert wp.promote_transcript(src, dry_run=False) is True  # skip 语义返回 True
++    after = sorted(p.name for p in sources.iterdir())
++    assert after == before, f"跨天重跑产生新文件: {set(after) - set(before)}"
++
++
++def test_promote_transcript_skips_all_existing_variants(tmp_path, monkeypatch):
++    """历史多份（含不同日期）→ 任一日重跑都不新增。"""
++    sources, src = _sandbox_transcript(tmp_path, monkeypatch)
++    for d in ("2026-08-19", "2026-08-20", "2026-09-01"):
++        (sources / f"src_{d}_wechat_{HASH_ID}.md").write_text("旧", encoding="utf-8")
++    monkeypatch.setattr(wp, "date", _FakeDate(2))
++    assert wp.promote_transcript(src, dry_run=False) is True
+Excellent:
+  - 全库唯一内容实测 = 16（kept 16 unique md5; kept+quarantined combined also 16 unique）✅ 与原始审计 16 唯一吻合（plan 文件头写"唯一 17"是 plan 生成时把引用件计数口径混入——笔误级 🟡）。
+  - dry-run 实跑：17 逐字稿全部 skip，零新增 ✅（验收①等效验证，无副作用）。
+  - 回归测试针对跨天（_FakeDate）✅，有断言。
+
+  Red-green self-proof: report claims stash-fix → 2 tests red. I can verify cheaply: run the new cross-day test against old code? That requires stashing. Alternative: verify the test would fail under old logic — old logic: `target = SOURCES_DIR / f"src_{date.today()}_wechat_{hash}.md"; if target.exists() skip`. In the cross-day test, target date = 09-02, existing file = 08-19, so old code would copy → after != before → test red. Logically the test asserts the fix. I could verify by checking old code via git show and mentally simulating — that's adequate, plus I can actually run a quick simulation without modifying the repo: run the test logic against the pre-fix function. Quick way: checkout old function? Risky. I'll do a non-destructive simulation: extract old promote logic in a standalone python snippet replicating old behavior in tmp sandbox and confirm it would duplicate. Simpler: just verify the assertion `after == before` would fail under old code — old code copies to a 09-02 filename, so `after` gains a new file → fails. That's straightforward; I'll cite the pre-fix code from git.
+
+  Check pre-fix code:def promote_transcript(f: Path, dry_run: bool) -> bool:
+    """逐字稿 → 10_raw/sources/（文件名带 source_id：src_<date>_wechat_<hash>）。
+
+    支持前缀：src_wechat_<hash> / src_wechat_tt_<hash>（头条视频）/ src_wechat_article_<hash>（公众号）
+    / src_wechat_article_tt_<hash>（头条文章）。任意小写前缀均可，取最后一段字母数字为 hash。
+    """
+    m = re.search(r"src_wechat_(?:[A-Za-z]+_)*([A-Za-z0-9]{8,20})", f.name)
+    if not m:
+        return False
+    hash_id = m.group(1)
+    target = SOURCES_DIR / f"src_{date.today().isoformat()}_wechat_{hash_id}.md"
+    if target.exists():
+        print(f"⏭️  已转正: {target.name}")
+        return True
+    if dry_run:
+        print(f"  [dry-run] {f.name} → {target.name}")
+        return True
+    shutil.copy2(f, target)
+    print(f"✅ 逐字稿入仓: {target.name}")
+    return True
+
+
+def _content_issues(content: str) -> list[str]:
+    """最小内容校验：返回问题清单（空列表=合格）。不通过的卡落 _needs_rerun。"""
+commit 6923b058aa80742a9d8cbcc7883f44f12fc73a5b
+Author: Linhai Zhu <baisenzhu538@gmail.com>
+Date:   Wed Sep 2 01:50:44 2026 +0800
+
+    #601 wechat_promote去重根治+存量143份隔离+seen归一化 by huangyaoshi：去重键剔除日期成分（全历史glob），跨天回归红绿自证，引用感知保留20份，kdo index -143
+
+diff --git a/kdo-tools/tests/test_wechat_link_monitor.py b/kdo-tools/tests/test_wechat_link_monitor.py
+new file mode 100644
+index 000000000..1f270961f
+--- /dev/null
++++ b/kdo-tools/tests/test_wechat_link_monitor.py
+@@ -0,0 +1,48 @@
++"""#601 回归：wechat_link_monitor canonical_key URL 变体归一。
++
++背景（风清扬 P0-B-3）：seen_links.txt 里同一链接的 `&`/`&amp;`/exportkey/chksm
++等变体各占一行，查重口径不一 → 同内容重复采集。canonical_key 必须把变体归一到同一键。
++
++运行：python -m pytest kdo-tools/tests/test_wechat_link_monitor.py -q
++"""
++import importlib.util
++from pathlib import Path
++
++_SPEC = importlib.util.spec_from_file_location(
++    "wechat_link_monitor", Path(__file__).resolve().parent.parent / "wechat_link_monitor.py"
++)
++wlm = importlib.util.module_from_spec(_SPEC)
++_SPEC.loader.exec_module(wlm)
++
++ck = wlm.canonical_key
++
++
++def test_mp_amp_variant_same_key():
++    """公众号：`&` 与 `&amp;` 变体归一到同一键。"""
++    a = ck("https://mp.weixin.qq.com/s?__biz=MzAx&mid=2650545393&idx=1&sn=abc")
++    b = ck("https://mp.weixin.qq.com/s?__biz=MzAx&amp;mid=2650545393&amp;idx=1&amp;sn=abc")
++    assert a == b == "mp:MzAx:2650545393:1"
++
++
++def test_mp_tracking_params_ignored():
++    """公众号：chksm/scene/exportkey/pass_ticket 等追踪参数不影响身份。"""
++    base = "https://mp.weixin.qq.com/s?__biz=MzAx&mid=2650545393&idx=1"
++    v1 = ck(base + "&chksm=1111&scene=21")
++    v2 = ck(base + "&exportkey=xxxx&pass_ticket=yyy")
++    assert v1 == v2 == "mp:MzAx:2650545393:1"
++
++
++def test_toutiao_gid_same_key():
++    """头条：同 gid 的 video/group/article/追踪参数变体归一。"""
++    a = ck("https://m.toutiao.com/video/7670120133340102707/?app=news_article&amp;category_new=xx")
++    b = ck("https://m.toutiao.com/video/7670120133340102707/")
++    assert a == b == "tt:7670120133340102707"
++
++
++def test_seen_line_normalization_injection():
++    """seen 读入归一化逻辑：历史 `&amp;` 变体行注入规范化键后能命中新 `&` 链接。"""
++    legacy_line = "https://mp.weixin.qq.com/s?__biz=MzAx&amp;mid=2650545393&amp;idx=1&amp;sn=abc"
++    new_url = "https://mp.weixin.qq.com/s?__biz=MzAx&mid=2650545393&idx=1&sn=abc"
++    # 模拟 main() 的读入逻辑：每行注入 canonical_key
++    seen = {legacy_line, ck(legacy_line)}
++    assert ck(new_url) in seen  # 新链接的规范化键命中历史变体行
+===
+63:    u = url.replace("&amp;", "&")
+179:                links.append((ct, media[0].replace("&amp;", "&")))
+183:            # 3) 公众号文章（纯文本或卡片 XML）——注意 XML 里 &amp; 需转义为 &，否则抓取 404
+184:            mp_links = [u.replace("&amp;", "&") for u in list(MP_LINK.findall(text)) + list(XML_MP_URL.findall(text))]
+333:    # HTML 实体（&amp; &quot; &#34; 等）转回纯文本
+440:        # `&`/`&amp;`/exportkey 等变体行，老格式纯 URL 行也能命中规范化查重
+Pre-fix code confirms: target key includes date.today(), cross-day test would fail under old code → red-green logic valid. Tests are new file + appended — tests pass 11/11.
+
+  Note canonical_key existed before (line 55); the #601 change is only the seen-file read-in injection (4 lines). The 4 new tests cover canonical_key behavior which pre-existed — fine, regression coverage.
+
+  Remaining checks:
+  - §3.19 / notification-coverage-matrix: does this task touch queue infrastructure? It touches kdo-tools scripts (wechat_promote.py, wechat_link_monitor.py) — not notification pipeline (conveyor_probe/queue_transition). The ⛔ total-ledger rule triggers on "触碰基础设施". wechat_link_monitor is a pipeline script, not notification infra. There's no reminder in todos about #601 matrix mismatch, so fine.
+  - kdo index --incremental run: check index reflects -143. Verify search_index or 30_wiki/index.md? Can check via `kdo index` stats. Report said total 4171. Quick verify.
+  - Full test suite: report said 227 passed + 2 failed unrelated. Run full kdo-tools tests? That could take a while but worth it — 227 tests. Let me run it with a timeout. Actually the report's two failures: test_queue_archive (existing) and test_infra_status (tmp_* 18 assets). I can spot-verify these two failures exist independently of #601 by running just those two tests. Cheaper.
+
+  Also check: quarantine sensitive files — todos noted "敏感文件核查：quarantine 区 cookie/token 文件未入库 ✅" — that's #600. And gitignore for quarantine? Not required.
+
+  Verify the two pre-existing failures + index total.kdo-tools\tests\test_infra_status.py:66: AssertionError
+=========================== short test summary info ===========================
+FAILED kdo-tools/tests/test_queue_archive.py::test_archive_only_old_reviewed
+FAILED kdo-tools/tests/test_infra_status.py::TestInventoryCoverage::test_no_unregistered_core_assets
+2 failed, 9 passed in 0.60s
+Incremental: +0 ~0 -0 (total 4171) -> C:\Users\Administrator\Desktop\wiki\.kdo\search_index.json
+index entries: 5
+Two failures reproduced exactly as the report claimed (queue_archive stash baseline, infra_status unregistered tmp_* assets) — both pre-existing, unrelated to #601 ✅. Index total 4171 matches report, and incremental now +0 -0 (idempotent, the -143 already applied) ✅.
+
+  The "index entries: 5" from my ad-hoc python is just my parse misunderstanding (dict with 5 top-level keys) — ignore, the authoritative total 4171 printed by the CLI matches.
+
+  Wait — one more check: did the -143 actually apply? The index command says total 4171 which matches the report. Good.
+
+  Also verify test count claim: full suite 227 passed + 2 failed. I ran only subsets. Running full suite (229 tests) took... let me just run it quickly, 0.6s for 11 tests; full suite maybe 1-2 min. Worth doing for O3.
+
+• 两个既有失败亲跑复现、索引 4171 吻合。补跑全量测试套件对账 227+2 口径。=========================== short test summary info ===========================
+FAILED kdo-tools/tests/test_infra_status.py::TestInventoryCoverage::test_no_unregistered_core_assets
+FAILED kdo-tools/tests/test_queue_archive.py::test_archive_only_old_reviewed
+2 failed, 227 passed in 4.87s
+
+
+• 227 passed + 2 failed — exact match with the report ✅. All verifications pass:
+
+  1. **版本对齐**：commit 6923b058a 在仓（01:50），rename 批在 e02798f81（01:46）——HEAD 0925d41f0（02:27）晚于交付，当前审的是最新真相源 ✅（无长驻进程消费此代码——promote/link_monitor 都是按需脚本，生效性由 dry-run 实跑验证 ✅）
+  2. **bug 根治**：L62-65 全历史 glob 按 hash，日期解耦 ✅；pre-fix 代码对照证实原键含日期 ✅
+  3. **回归红绿**：_FakeDate 跨天模拟，after==before 断言；旧代码下 target=09-02 而历史在 08-19 → 必复制 → 测试必红 ✅（逻辑层面红绿自证成立）；wechat 11/11 亲跑过 ✅
+  4. **seen 归一化**：读入注入 canonical_key，4 用例覆盖 &amp;/exportkey/追踪参数 ✅
+  5. **存量处置**：163=20 保留+143 隔离 ✅；16 唯一内容实测 ✅；同 hash 组 md5 一致（纯重复非误删）✅；rename 走 git mv（e02798f81 显示 rename）✅
+  6. **引用未断**：2 组卡引用 hash 文件在仓（每组还保留 08-26 台账引用份）✅；grep 卡片引用指向的文件存在 ✅
+  7. **明确不做**：inbox 未动（dry-run 显示逐字稿 17 个仍全部 skip——inbox 原件还在 ✅）；30_wiki 正文未动（commit 只含 5 文件，不含 30_wiki）✅
+  8. **索引**：4171 吻合，增量幂等 ✅
+  9. **机器预审**：全 ✅，终审实质已覆盖
+  10. **五字段执行报告**：交付物/完成内容/验证/未做项/需要谁动作——任务单里"未做项"对应"边界"，"需要谁动作"在位 ✅（标题是"未做项"不是"边界"，语义等价，机器预审 F-034 五字段过）
+
+  瑕疵（🟡/🟠，不阻断）：
+  - plan 文件头写"唯一 17"，实测唯一内容=16（kept+quarantine 合并 md5 去重=16，与欧阳锋原审计 16 吻合）。17 = 引用口径混入，口径笔误，不影响处置正确性。
+  - 报告说 plan 在 quarantine 目录"含"——实际 sources-dup-plan.md 在 quarantine-20260902/ 层级而非 sources-dup/ 内。位置表述小差。
+  - 报告"被引用 17 份"vs plan "引用xN"标注合计：grep laowantong-context 我数到 14 个唯一 src 引用（sort -u），报告说 15 份。小口径差。保留 20 = 16 组最早 + 4 额外引用份（2404c 08-26 + e7536 08-26 + 1a718b 08-26 + 4dd7be 08-26... plan 里引用x1 的有多个 08-26）。20-16=4 额外。这些不阻断。
+
+  Actually wait — kept 20, unique 16: 4 extra. Plan says KEEP 20 with 引用 counts. Fine.
+
+  Conservative retention of 台账-referenced files is defensible (不碰他角色文件). 
+
+  Grade: A- or A? All four deliverables verified by independent rerun, red-green logic confirmed, counts byte-verified. Minor blemishes: plan header "唯一 17" vs actual 16 (口径笔误), plan file location wording. These are small → A- per rubric ("深度达标，有1-2处小遗漏"). Given it's infra fix task, A- is right. Could argue A since verifications all passed; the two doc-wording inaccuracies push to A-.
+
+  Now per discipline (O9): write 「## 终审记录」 section into task file FIRST, then run queue_transition review with grade.
+
+  Also check: does this task touch queue/notification infra → §3.19 matrix? wechat_promote.py/wechat_link_monitor.py are collection pipeline scripts, not notification/queue infra. No ⛔ reminder in todos for #601. Not triggered.
+
+  Write 终审记录 via Edit on task file. The file has no 终审记录 section yet — append at end.
+
+• 全量对账吻合。所有验收点独立复核完毕，按 O9 纪律先落任务单终审记录，再走脚本流转。
+
+• 意见书已落盘，现在走脚本流转。✅ task_20260902_huangyaoshi-wechat-promote-dedup-fix 终审通过，状态更新为 reviewed，等级 A-
+✅ dashboard.html 已生成 (191 个任务)
+   待领取: 5  |  审查中: 0  |  进行中: 2  |  已完成: 184
+
+
+• Script succeeded. Now verify 三处同步 (O4): task frontmatter status=reviewed + reviewed_by + review_date, queue row status. Then append todos line. Then done — no cards to mark reviewed (this is infra task, no cards). Note the pre-staging pitfall: my Edit to task file — was it committed? The review script probably commits. Check git status and whether the task file change got committed, and that no pre-staged files got swept in (P-44 discipline: CLI commits must use path-scoped). Let me check what the script committed.ffdc48fcc chore(queue): #601 review by 欧阳锋
+f49cc9b4c 编排：#608 image_detail死循环补立 + 两份建议书裁定落档（status违例代正）
+8902a9942 #606 A族：残留pending_unknown占位链接行清除（10文件13行，仅删frontmatter列表占位行；反引号纯文本/[[system/pending_unknown]]合法引用保留）
+5:status: reviewed
+12:reviewed_by: 欧阳锋
+13:review_date: '2026-09-01'
+reviewed
+三处同步核验：①任务单 frontmatter status: reviewed / reviewed_by: 欧阳锋 ✅，但 review_date: '2026-09-01' — 今天是 09-02！脚本写的日期错误（可能是 UTC 或脚本 bug）。Hmm — 2026-09-01 vs 09-02. This could be a UTC timezone issue in the script. Per O0/纪律 I should correct the review_date to 2026-09-02? The discipline says don't manually modify... frontmatter reviewed_by/review_date 是脚本自动补的，日期错了。Manually fixing the review_date field on the task file is a metadata correction, not a queue-status change — allowed (the prohibition is on status transitions, not on fixing a wrong date). Let me fix it to 2026-09-02.
+
+  Also check: the script committed ffdc48fcc — did it sweep in pre-staged files (P-44)? Check commit contents.commit ffdc48fcc6347481aa01b9a2ce33cc11e95069af
+Author: Linhai Zhu <baisenzhu538@gmail.com>
+Date:   Wed Sep 2 02:33:51 2026 +0800
+
+    chore(queue): #601 review by 欧阳锋
+
+ ...0260902_huangyaoshi-wechat-promote-dedup-fix.md | 35 +++++++++++++++-
+ 70_product/tasks/dashboard.html                    | 48 +++++++++++++---------
+ 70_product/tasks/production-queue.md               |  4 +-
+ 3 files changed, 63 insertions(+), 24 deletions(-)
+Commit is clean — only 3 files, no sweep-in ✅. Now fix review_date from 2026-09-01 to 2026-09-02 in the task file (metadata correction, path-scoped commit per P-44).[master a329b7ae7] fix(#601): 终审 review_date 修正 09-01→09-02（脚本时区偏差，脚本已自动流转 reviewed 三处一致）
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+a329b7ae7 fix(#601): 终审 review_date 修正 09-01→09-02（脚本时区偏差，脚本已自动流转 reviewed 三处一致）
+Done with the review. Now:
+  1. Append todos line.
+  2. Per the 通过抄送王语嫣 rule (2026-09-02 老朱规则): PASS info must be CC'd to 王语嫣's inbox — one-line pointer. Where is 王语嫣's inbox? Likely 90_control/todos/wangyuyan.md. The rule: "通过信息必须同时抄送王语嫣（她收件箱一行指针）". Let me check how previous passes did it — the todos/ouyangfeng.md entries show my own log. For CC to wangyuyan, check if there's a convention file. Look at 90_control/todos/ for wangyuyan.md and check how earlier agents appended CC lines. Also the script might auto-notify. Let me check whether the review script already wrote to wangyuyan's inbox (queue_transition does auto notifications per the 🔔 entries — "✅ KDO 终审通过 1 单：#544——你的单过了" appeared in ouyangfeng todos, so the script notifies the task owner). The 09-02 rule says PASS info must CC 王语嫣 specifically. Check wangyuyan todos tail for whether #601 pass notice appeared.
+
+• 三处同步闭环。现在落 todos 行并检查通过信息抄送王语嫣的规则。- [2026-09-02 02:27] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#601（huangyaoshi 的单，挂审 32min）（到点（节奏 30min））
+- [2026-09-02 02:28] 🚀 已拉起 ouyangfeng：终审 #601（挂审 31min 超阈值；预期产物=终审落点）
+- [2026-09-02 02:36] ⚖️ 裁定 欧阳锋三决策点（diag_20260902_ouyangfeng-pending-decisions）：点1 .obsidian 跟踪=已闭环（f4cd8efdd 全撤+baseline 配色快照存证）；点2 147删除授权=不授权上行挂起（#601 隔离区观察期至 09-09，到期提请老朱）；点3 backup 停摆=立项 #607（空窗属实已核验，排队不插队）
+- [2026-09-02 02:40] ⚖️ near-miss 双捞处置+漏项补立：fengqingyang 散点审计（R1-R7 已全路由 #600-#605，status 代正 orchestrated）+ huangyaoshi 三症联诊（动作1/2/4/5 已路由，动作6 baseline 快照兜底，动作3 image_detail 死循环=#601 漏项补立 #608）；两建议书 status 违例已代正
+- [2026-09-02 02:45] 📋 #596 遗留③并单落地：MOLLY 诞生卡立项 #609（case-popmart-molly-transition + #596 四卡 related 补链顺带，#606 后排队）——#596 遗留①③闭环，②全网调研补验挂 #609 条件项（检索通道恢复后）
+===
+2026-09-02 02:34
+
+
+• 王语嫣收件箱没有 #601 通过抄送行。按 09-02 规则需抄送一行指针。同时在我自己的 todos 落行。
+
+  时间显示 02:34 but commit was 02:33 — note current local time ~02:45. Use actual time.
+
+  Append to wangyuyan todos: one-line pointer with verdict + grade + pointer to task file.
+
+  And my own todos line: [2026-09-02 02:4x] ✅ #601 终审 PASS A- ...
+
+  Note wangyuyan.md file also may have \r endings — the Edit tool needs exact match. I'll append with bash? No — use Read+Edit or append via bash echo >>. The instruction prefers built-in tools; Write append mode works. Use Write mode=append for both files. But careful about CRLF: these files use \r\n. Write appends literally — use \r\n line endings? Write outputs content literally as provided; I can't easily type \r in the tool param... Actually I can include \r\n? The tool params are JSON strings; I can write "\n" and it stays LF, causing mixed endings. Previous lines end with \r. Mixed endings tolerable but better to match. I can use bash printf with \r\n. But rule says avoid bash for file writes... Edit tool handles CRLF properly: for pure CRLF files, use LF in strings and Edit writes CRLF back. Is wangyuyan.md pure CRLF? Likely. For appending, Edit on last line: replace last line with last line + new line. The Read shows lines without \r markers for wangyuyan.md? I read via tail (bash) so can't tell. For ouyangfeng.md I know it's CRLF (Read earlier showed \r at line ends — actually it showed "Mixed or lone carriage-return line endings are shown as \r" and lines ended with \r).
+
+  Plan: Edit ouyangfeng.md appending after line 331 (the 02:22 叫醒 line) using LF (Edit converts to CRLF for pure CRLF files; but it's "mixed" — line 311 and 327 were blank or no \r... risky). Simpler and safer: bash printf with explicit \r\n appended. The guidance says prefer built-in tools for file ops, but append-with-CRLF is a legit bash case. Actually simplest: use Edit with old_string = last line content and new_string = last line + \n + new line. For mixed file, Read showed lines ending with \r literally. Let me just read the tail of wangyuyan.md with Read tool to see line endings.wangyuyan.md 是混合行尾但读出的行没显示 \r——即最后几行是 LF。ouyangfeng.md 是 CRLF（早前 Read 显示 \r）。混合文件用 Edit 追加有风险；用 bash printf 精确控制行尾最稳。wangyuyan.md 追加 LF 行（与尾部一致）；ouyangfeng.md 追加 CRLF 行。
+
+  先追加，再对账（脚本断言纪律精神：写后读回验证）。- [2026-09-02 02:48] ✅ 终审通过抄送（欧阳锋→
+�
+- [2026-09-02 02:48] ✅ #601 终审 PASS A-（task_20260902
+warning: in the working copy of '90_control/todos/ouyangfeng.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '90_control/todos/wangyuyan.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '90_control/todos/ouyangfeng.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '90_control/todos/wangyuyan.md', LF will be replaced by CRLF the next time Git touches it
+[master 061c5b90c] todos: #601 终审 PASS A- 落行 + 通过信息抄送王语嫣（ffdc48fcc）
+ 2 files changed, 5 insertions(+)
+061c5b90c todos: #601 终审 PASS A- 落行 + 通过信息抄送王语嫣（ffdc48fcc）
+All done. Check: 需要写建议书吗? I found 🟡 items — but those are content/task-file wording issues (口径笔误), which per the exit checklist rule #2 "内容类问题（单卡内容缺陷）→ 记录即可，走审查意见". The review_date script timezone bug — that's an infrastructure issue (queue_transition.py writes wrong date)! Per exit rule 1: 基建/脚本问题建议 → 必须写建议书. The review_date being 2026-09-01 when today is 2026-09-02... wait, could it be UTC? 02:33 +08:00 = 18:33 UTC 09-01. Yes — script used date.today() in UTC or datetime.utcnow(). This is a real (minor) infra defect. Per the hook: "建议"两字出现在终审记录 = 必须有建议书. My 终审记录 mentions review_date 脚本时区偏差 — hmm, that's in my todos line, not in the task file 终审记录. In 终审记录 I didn't mention it. But the exit hook says any 基建建议 must be written as 建议书. The review_date bug is minor but real. Per纪律, I should write a minimal 建议书 (三行即可 per #460).
+
+  Also, check 建议书 contract: type: proposal / status: pending_orchestration / audience: 王语嫣 (per A7 自检违例教训). And after writing, run conveyor_probe to verify registration? The rule from todos line 10: "建议书落盘后当场跑 conveyor_probe 验「新登记」回执". Let me find the probe command. Search for conveyor_probe script.check-conveyor-state.py
+建议书_20260901_skill健康度勘察与检测方法论.md
+建议书_20260902_legacy53_评估与重造方案.md
+欧阳锋对电子资料归档整理及学习迭代的建议书.md
+电子工程系统提示词建议书.md
+电子工程顶层设计建议书.md
+diag_20260902_fengqingyang-substitute-scatter-audit.md
+diag_20260902_huangyaoshi-vault-scatter-obsidian-config-pipeline.md
+diag_20260902_laowantong-graph-scatter-task-collision.md
+diag_20260902_laowantong-molly-seq600-collision.md
+diag_20260902_laowantong-task600-queue-row-missing.md
+diag_20260902_ouyangfeng-pending-decisions.md
+diag_20260902_ouyangfeng-wechat-src-daily-dup.md
+diag_20260902_wangyuyan-obsidian-orphan-scatter.md
+===
+---
+type: proposal
+status: pending_orchestration
+audience: 王语嫣
+date: 2026-09-02
+author: 欧阳锋
+---
+
+# 建议书：wechat 逐字稿转正管线每日重复生成（散点主因）+ 两项附带发现
+
+## 现象（一句话）
+
+`10_raw/sources/` 里同一批微信公众号逐字稿每天被重新复制一份新日期前缀文件——163 个文件只有 16 个唯一内容，**147 个纯重复**，且以 ~17 个/天的速度继续增长；这些是 Obsidian 图谱"大量散点"的主来源。
+
+## 证据（字节级，欧阳锋 2026-09-02 亲验）
+Format confirmed: type: proposal / status: pending_orchestration / audience: 王语嫣. Write the minimal 建议书 for the queue_transition review_date timezone bug.conveyor_probe state 正常（9.5 分钟前落盘，阈值 20 分钟）
+Probe state normal. The A7 rule said: 落盘后当场跑 conveyor_probe 验「新登记」回执. check-conveyor-state.py just checks the probe's freshness, not whether my new proposal got registered. Let me check if there's a registry file listing registered proposals. Maybe check the probe state file or how registration works — look for the probe's ledger. Quick grep.conveyor-probes-contract.md
+12:| **新建议书到达** | diagnosis/ 三元组命中且新登记 PROPOSAL-PENDING | 王语嫣 | "新建议书待裁定"（列文件名） |
+20:- **夜间静默**：22:00–08:00 不推通知（登记照常做）
+34:  三元组不完整 = 探针不登记但 **near-miss 当场报警**（stderr + gate-blocked 式记录 → PROPOSAL-PENDING + 通知王语嫣）——漂移不再静默失效（E052 同族根治）。向前生效：2026-08-25 起新建件，存量历史件既往不咎。
+39:- 探针**只通知、只登记**（PROPOSAL-PENDING 自动登记与 watch_inbox INBOX-PENDING 同类豁免）
+42:- 登记幂等：路径级去重，重跑不重复写
+52:- **登记与通知同源**：一次扫描事件 → 检出（单份逻辑）→ 登记 → 通知，禁止第二套扫描器
+53:- #425 健康度指标 8（未登记建议书计数）只读计数不代登记，与本探针职责分离；检出判定口径同源（yaml.safe_load 三元组）
+90_control/kdo-seed/seed/90_control/conveyor-probes-contract.md
+90_control/kdo-seed/seed/90_control/scripts/check-conveyor-state.py
+90_control/kdo-seed/seed/kdo-tools/conveyor_probe.py
+90_control/kdo-seed/seed/kdo-tools/kdo-conveyor-probe.cmd
+90_control/scripts/check-conveyor-state.py
+90_control/scripts/tests/test_check_conveyor_state.py
+90_control/scripts/tests/__pycache__/test_check_conveyor_state.cpython-312-pytest-9.0.3.pyc
+90_control/scripts/__pycache__/check-conveyor-state.cpython-312.pyc
+Registration is done by the probe (PROPOSAL-PENDING in production-queue.md presumably). The probe runs periodically (state落盘 9.5 min ago, every ~10min?). My proposal was just written; the probe may register it on its next pass. To verify "新登记回执", I can check if there's a PROPOSAL-PENDING section in production-queue.md and whether my file got registered. Since the probe runs every 10 min or so, immediate verification may fail. Options: run the probe manually? There might be kdo-tools/conveyor_probe.py I can run once to register. Let me check the queue for PROPOSAL-PENDING and maybe run the probe.557:<!-- PROPOSAL-PENDING-BEGIN（自动登记：conveyor_probe.py；勿手改——王语嫣复核后划掉） -->
+559:## 📬 PROPOSAL-PENDING（建议书到达，conveyor_probe.py 自动登记）
+772:<!-- PROPOSAL-PENDING-END -->
+784:## PROPOSAL-PENDING
+⛔ gate-blocked 登记: +1 → PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⚖️ KDO 已终审 1 单：#601（待部署/已闭环）
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#601——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → 📥 KDO 可领取 1 单：#609
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → 🔔 KDO 新提审 1 单：#582，请终审
+[conveyor_probe] 新提审 0 / 新 queued 3 / 新登记 1 / near-miss 2 / 通知 3 条 / 活性实例 8（huangyaoshi,laowantong,laowantong-kimi,ouyangfeng,skills-assistant,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+Probe registered: "新登记 1" — but also "gate-blocked 登记: +1" and "near-miss 2". Which one is mine? gate-blocked means三元组不完整? My proposal has type/status/audience all correct. But maybe the gate-blocked is something else. Let me check the PROPOSAL-PENDING section for my file and any near-miss record.<!-- PROPOSAL-PENDING-BEGIN（自动登记：conveyor_probe.py；勿手改——王语嫣复核后划掉） -->
+
+## 📬 PROPOSAL-PENDING（建议书到达，conveyor_probe.py 自动登记）
+
+> 王语嫣复核立项后划掉该行（流程不变）。勿手改段结构——重跑会整块重写。
+
+- ~~diag_20260823_huangyaoshi-verification-tier-addendum.md｜08-23 12:05｜待王语嫣复核裁定~~ → 编排决策（08-23 王语嫣）：**关闭**——四态口径已被 #446 入宪 §2.6.4 吸收（黄药师 spec v1.0 含三铁律+分层四态声明）；文档留档作口径演进链
+- ~~diag_20260823_fengqingyang-memory-capsule-4layer-l1-l4.md｜08-23 12:45｜待王语嫣复核裁定~~ → 已复核裁定（2026-08-23 王语嫣独立判断，老朱令）：**单项说明为主**——架构入宪 charter §3.12（L1-L4+三铁边界，已修订）；风清扬 spec 只写他那一层（L2 本职+三边界，#454 传口径给 #447）；外部残留改名挂 F-044（黄药师，缓）
+- ~~diag_20260823_ouyangfeng-queue-slim-handover.md｜08-23 12:48｜待王语嫣复核裁定~~ → 编排决策（08-23 王语嫣）：**关闭**——移交确认（首次瘦身保留价值，cron 已删，维护权已固化 spec v1.2）；踩坑三教训（表头正则排除/归档后双验证/终态口径）供 #453 黄药师实施参照
+- ~~diag_20260823_fengqingyang-memory-capsule-query-and-agent-id.md｜08-23 13:21｜待王语嫣复核裁定~~ → 编排决策（08-23 王语嫣）：**部分采纳**——建议 3（agent_id 统一拼音角色名+清测试残留）立项 **#456**（黄药师）；建议 1（query 只读命令）挂停车场 F-045 等老朱拍板 L1 开放口径后连同实施；建议 2 上报老朱（开放对象/只读权限/查询审计痕迹三点）
+- ~~diag_20260823_ouyangfeng-188-residual-disposition.md｜08-23 13:37｜待王语嫣复核裁定~~ → 编排决策（08-23 王语嫣）：**采纳推荐项①补登记对齐**——#188 队列行走 queue_transition review 补登记（任务单 07-19 已终审 A-，纯历史对齐）；审计器解析盲区修复并入 **#456**（黄药师，行数异常禁静默跳过）
+- ~~diag_20260823_laowantong-disposal-keyword-misjudgment.md｜08-23 15:45｜待王语嫣复核裁定~~ → 编排决策（08-23 王语嫣）：**采纳方案 1+2 组合立项 #457**（显式标记优先+关键词降级提示+限定动作节）；注：本建议书 status: pending 三元组不全致探针未登记——沉没问题活体实例，自动上报机制立项 #458 一并根治
+- ~~[gate-blocked] task_20260823_huangyaoshi-issue-report-automation-final｜08-23 14:21｜待王语嫣复核处置｜2026-08-23 14:15:21｜task_20260823_huangyaoshi-issue-report-automation-final｜F-034-五字段｜执行报告缺 5 个字段（#429 F-034）：改动文件清单、完成内容一句话、验证命令+输出、未做项/边界、需要谁动作。请补全后重试，或 --force --reason '<理由>' 声明例外（#4｜huangyaoshi~~ → 已处置关闭（黄药师实施中被拦后自修复；#460 后被终审 FAIL 退回修复中——机器自报层首日活体运行实证 ✅）
+- ~~[gate-blocked] task_9999_force-test｜08-23 14:31｜待王语嫣复核处置｜2026-08-23 14:27:13｜task_9999_force-test｜F-034-force无理由｜--force 未配 --reason（#444 例外留痕要求）｜wangyuyan~~ → 测试件关闭（#460 L2 狗粮：force 无 reason 拦截验证，拦截正确=验收通过）
+- ~~[gate-blocked] task_20260823_laowantong-role-special-zhu｜08-23 14:31｜待王语嫣复核处置｜2026-08-23 14:29:30｜task_20260823_laowantong-role-special-zhu｜F-034-五字段｜执行报告缺 5 个字段（#429 F-034）：改动文件清单、完成内容一句话、验证命令+输出、未做项/边界、需要谁动作。请补全后重试，或 --force --reason '<理由>' 声明例外（#4｜wangyuyan~~ → 已处置关闭（占位节拦截，当场补齐归位后 complete 通过，#448 已 pending_review）
+- ~~[gate-blocked] task_9999_force-test｜08-23 15:11｜待王语嫣复核处置｜2026-08-23 15:08:42｜task_9999_force-test｜F-034-force无理由｜--force 未配 --reason（#444 例外留痕要求）｜wangyuyan~~ → 测试件关闭（#460 修复中 L2 狗粮：force 无 reason 拦截复验）
+- ~~[gate-blocked] task_9999_test｜08-23 15:11｜待王语嫣复核处置｜2026-08-23 15:08:42｜task_9999_test｜处置-硬门禁｜disposal:true 缺「内容价值判断」节（PROTOCOL §7）｜task_9999_test~~ → 测试件关闭（#460 处置硬门禁插桩验证——插桩已生效实证 ✅）
+- ~~[gate-blocked] task_t_disposal｜08-23 15:11｜待王语嫣复核处置｜2026-08-23 15:11:02｜task_t_disposal｜处置-硬门禁｜disposal:true 缺「内容价值判断」节（PROTOCOL §7）｜task_t_disposal~~ → 测试件关闭（同上，处置门禁拦截落盘验证）
+- ~~diag_20260823_ouyangfeng-dictation-record-discipline.md｜08-23 15:15｜待王语嫣复核裁定~~ → 已采纳（08-23 王语嫣）：①№5/№6 补录=新增件 D-20260823-007（amends:D-20260823-002），spec source_refs 已补指向；②口述落盘纪律入宪 §3.13（到达即转录不隔夜+№溯源 lint 挂 #450）——断链教训：№5/№6 只在会话顺手织入卡片未录原文
+771:- diag_20260902_ouyangfeng-queue-transition-reviewdate-utc.md｜09-02 02:36｜待王语嫣复核裁定
+我的建议书已登记（L771，非 gate-blocked 那类）✅。gate-blocked +1 是别的（F-034 任务相关），near-miss 2 是其他的——不是我的建议书问题。
+
+  Wait, probe ran and modified production-queue.md — I ran it manually, which wrote the registration. Is that within my authority? The probe is a read+register tool (登记与通知同源, "只通知、只登记"). The A7 rule from my context: "建议书落盘后当场跑 conveyor_probe 验「新登记」回执" — running it was the prescribed self-check. Good.
+
+  But it also sent notifications (queued 3 etc.) — those are its normal job; webhook not configured so just printed. It may have written to queue file — that's auto-registration, fine. But did it also write todos notifications? It prints "通知 3 条" but webhook unconfigured. It might have appended to todos files? Let me check git status to see what changed, and commit the probe's registration change (E040: 未commit=未发生).
+
+• 建议书已登记（队列 L771）。探针改动了队列文件，按 E040 收口落账。 M 60_feedback/audit/ocr-foresight-18files-extraction-check.md
+ M 60_feedback/session-archives/2026-07-13/ouyangfeng.md
+ M 60_feedback/tasks/task_20260628_laowantong-link-repair-b2-synthesis-section.md
+ M 60_feedback/tasks/task_20260628_laowantong-link-repair-b3-island-cards.md
+ M 60_feedback/tasks/task_20260629_kimi-lint-content-debt-by-domain.md
+ M 60_feedback/tasks/task_20260822_laowantong-related-asymmetry-backfill.md
+ M 70_product/tasks/production-queue.md
+ M 70_product/tasks/task_20260709_wangyuyan-key-assumptions-business-formula-agent.md
+ M 70_product/tasks/task_20260709_wangyuyan-opportunity-foresight-agent.md
+ M 70_product/tasks/task_20260711_wangyuyan-fundamentals-domain-production.md
+ M 70_product/tasks/task_20260712_wangyuyan-graph-island-governance.md
+ M 90_control/.sandbox/proposal-168A-graph-island-governance.md
+ M 90_control/backlinks-index-snapshot-20260704.md
+ M 90_control/force-exceptions.log
+ M 90_control/gate-blocked.log
+?? 60_feedback/analytics/token-usage-2026-09-02.json
+?? 60_feedback/analytics/token-usage-2026-09-02.md
+?? 60_feedback/auto/health-check-2026-09-01.md
+?? 60_feedback/diagnosis/diag_20260902_laowantong-graph-scatter-task-collision.md
+?? 60_feedback/diagnosis/diag_20260902_ouyangfeng-queue-transition-reviewdate-utc.md
+
+
+• Many pre-existing modified files (not mine — the P-44 pre-staged sweep risk). I must commit ONLY my files path-scoped: production-queue.md (probe registration — includes my review transition was already committed; the current modification is probe's PROPOSAL-PENDING + gate-blocked additions), my new diagnosis file, and gate-blocked.log / force-exceptions.log (probe-written?). Careful: production-queue.md also may contain other agents' concurrent changes (#606 work by laowantong-kimi is ongoing). Path-scoped add of production-queue.md commits whatever is in it now — that's how probe commits normally work (the probe normally runs via system and commits? Actually the probe doesn't commit; prior probe registrations appear in commits like "编排：..." done by 王语嫣).
+
+  Minimal action: commit only production-queue.md + my diagnosis file (the 回执 evidence). gate-blocked.log was modified by probe — include it since it's the probe's own log. Let me check what changed in gate-blocked.log and force-exceptions.log — those modifications might predate me. Diff check quickly. 70_product/tasks/production-queue.md | 2 ++
+ 90_control/force-exceptions.log      | 1 +
+ 90_control/gate-blocked.log          | 1 +
+ 3 files changed, 4 insertions(+)
+diff --git a/90_control/force-exceptions.log b/90_control/force-exceptions.log
+index 805979f9e..637d1c444 100644
+--- a/90_control/force-exceptions.log
++++ b/90_control/force-exceptions.log
+@@ -15,3 +15,4 @@
+ 2026-09-02 01:37:09｜task=task_20260902_huangyaoshi-credential-exposure-cleanup｜instance=huangyaoshi｜bypass=pending_review 阻塞（#504 审查等待期占位）｜reason=claim 绕过：你（huangyaoshi）还有 pending_review 任务待欧阳锋终审：#598 task_20260902_huangyaoshi-bom-cleanup-health-radar。审查等待期不接新单（#504）——等终审后再领取 task_20260902_huangyaoshi-credential-exposure-cleanup
+force-exceptions.log +1 is a pre-existing entry from 01:37 (not mine). gate-blocked.log +1 — check it. production-queue.md +2 = probe registration of my proposal. I'll commit path-scoped: production-queue.md + gate-blocked.log + force-exceptions.log + my diagnosis file. The logs' entries are system-generated during this window; committing them is落账 (consistent with #602-style ledger). Let me check gate-blocked.log diff to be sure it's benign. 2026-09-02 01:39:08｜task_20260902_huangyaoshi-credential-exposure-cleanup｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
+   - untracked: duanzhixing/feishu_user_token.json
+ 补救：git a｜huangyaoshi
++2026-09-02 02:32:19｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 37.1), ('cli', 37.0)]）｜role_registry check-liveness｜role_registry
+warning: in the working copy of '60_feedback/diagnosis/diag_20260902_ouyangfeng-queue-transition-reviewdate-utc.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '60_feedback/diagnosis/diag_20260902_ouyangfeng-queue-transition-reviewdate-utc.md', LF will be replaced by CRLF the next time Git touches it
+[master f0621569d] 建议书(欧阳锋): queue_transition review_date UTC 偏差 + 探针登记回执落账（#601 终审附带发现）
+ 4 files changed, 25 insertions(+)
+ create mode 100644 60_feedback/diagnosis/diag_20260902_ouyangfeng-queue-transition-reviewdate-utc.md
+f0621569d 建议书(欧阳锋): queue_transition review_date UTC 偏差 + 探针登记回执落账（#601 终审附带发现）
+All closed. Now the mandatory session-end actions per ouyangfeng-context:
+  0. 技能进化日志一行 → 桌面/agent复盘/欧阳锋/技能进化日志.md — wait, path: "桌面/agent复盘/欧阳锋/技能进化日志.md". Working dir listing shows agent复盘/ with lowercase dirs (fengqingyang, Kimi, laowantong, wangyuyan, 洪七公, 老顽童). No 欧阳锋 dir visible! The context says `桌面/agent复盘/ouyangfeng/daily-context/` in step 3. Check what exists.
+
+  Also step: 技能进化日志. Let me check the actual paths.
+
+  Also O0 溯源自检: today I reviewed a task (infra), not cards — source files were opened (old code via git show, plan file, etc.). The O0 self-check applies to card reviews; here the "sources" are code/commits which I did open. Fine.
+
+  Do I need the full Truman 11-chapter retro? The context mandates it (会话结束前). The AGENTS.md at root is for 黄药师; for ouyangfeng the mandate is in .agent/ouyangfeng-context.md. This is a meaningful session — I should write the daily-context. The path uses 桌面/agent复盘/ouyangfeng/daily-context/YYYY-MM-DD.md — relative to wiki? "桌面" = C:\Users\Administrator\Desktop. agent复盘 exists inside wiki dir though. Let me check.AI基本功教练
+Kimi
+README.md
+_archive
+codebuddy
+codex
+duanwangye
+fengqingyang
+hongqigong
+huangyaoshi
+kimi-code
+laowantong
+ouyangfeng
+wangyuyan
+教练式领导力助理
+欧阳锋
+段王爷
+洪七公
+科学开会助理
+老顽童
+销售对话参谋
+黄药师
+===
+cn-track-archive-20260819
+daily-context
+friction-log.md
+技能进化日志.md
+用户反馈档案.md
+索引.md
+能力雷达图.md
+错误模式库.md
+===
+Kimi
+fengqingyang
+laowantong
+wangyuyan
+洪七公
+老顽童
+| 2026-09-02 | 散点诊断+双实例印证 | 去重键含当天日期=跨天永不命中（wechat_promote.py:59 每日重复 147 个的诊断锚）；配置层灾损识别=全目录同刻 mtime+`{}` 空配置（.obsidian 被 08-31 事故带走、git bundle 救不回未跟踪文件）；印证复核=抽查承重锚+状态一致性，不重审全量；**commit 前必查预暂存区**——git add 指定路径但 index 里躺着他方预暂存的 24 个 .obsidian 文件被我一并卷走，path-scoped 纪律要先 git status 看暂存列 |
+
+| 2026-09-02 | #598/#600/#602 三连审 | P0 凭据单终审四件套=原位 exists 全 False+隔离区字节数对账+git ls-files 0 行+check-ignore 命中，且「曾入 git 历史」声明要用 git log 亲查备份 commit 实证（不能照单全收）；落账批验收把「diff 抽查 3 个」升格为全量 37/37 字节级断言，成本几乎为零而确定性封顶；评审时点纪律=报告口径对落账时刻成立，残余脏面要区分「落账前漏网」与「落账后在途活动」再判真伪
+===
+2026-08-29.md
+2026-08-31.md
+2026-09-02.md
+A 2026-09-02.md daily-context already exists (from earlier sessions today). Per naming rule: 同日多实例=同一文件追加. Let me read the existing file tail to see structure, then append my session's chapter or a session section. Let me check its format.59:## 过程资产
+68:## 元反思
+77:## Truman复盘
+79:### 逐轮映射
+88:### 飞轮效应
+93:### 对照实验
+99:### 下次改进
+110:# 本会话追加（2026-09-02 凌晨场·三单连审——本日共 2 次会话）
+112:## 差异栏（第 1 章）
+116:## 概要（一句话：今天做了什么）
+120:## 关键决策（表格：决策/理由/结果）
+129:## 思维盲点（≥1条：什么被漏掉了？每条追问"为什么漏掉"）
+134:## 顿悟（≥1条：什么基础认知被推翻了？）
+138:## 过程资产（新增/更新的文件路径清单）
+147:## 元反思（下次怎么做才能不一样？）
+153:## Truman复盘
+155:### 逐轮映射（表格：轮次/人做什么/双三角要素/AI做什么/双三角要素）
+165:### 飞轮效应（本轮加速了哪个回路？）
+170:### 对照实验（无人会怎样/无AI会怎样/合在一起怎样）
+176:### 下次改进（Agent自身改进/方法论卡更新）
+182 2026-09-02.md
+I see the format. Now append my session section (#601 终审) in the same structure. Also add 技能进化日志一行. Also update amnesia-recovery if needed (probably not necessary — no new weapons; the review_date UTC bug found is worth noting in skill log only).
+
+  Write the session append section (11 chapters: 差异栏=ch1, 概要, 关键决策, 思维盲点, 顿悟, 过程资产, 元反思, Truman复盘 with 4 subsections). Append to file.
+| 2026-09-02 | #601 去重根治终审 | 红绿自证可用「旧码代入夹具逻辑仿真」替代 stash 实跑（仓内有他方施工时零副
+�
+Now run the save+self-check command per discipline: `python kdo-tools/daily-context-save.py save --agent ouyangfeng --truman --file 桌面/agent复盘/ouyangfeng/daily-context/2026-09-02.md`. The 桌面 path — relative to what? Probably expects path relative to Desktop or absolute. Run from wiki dir with the absolute path or "C:/Users/Administrator/Desktop/agent复盘/...". Try.
+
+• 复盘与技能日志已落，跑保存+自检命令。✅ 已保存：C:\Users\Administrator\Desktop\agent复盘\ouyangfeng\daily-context\2026-09-02.md
+✅ 已存档：60_feedback\session-archives\2026-09-02\ouyangfeng.md
+📋 自检：🟡 B级 📚检索有发现
+✅ 事件 #720 已写入: agent=ouyangfeng event=review_saved
+🧪 胶囊 L0 已留痕: agent=ouyangfeng event=review_saved
+✅ A → B 镜像完成: C:\Users\Administrator\.kdo-memory\L1 → D:\KDO-memory\L1-backup（robocopy /MIR，exit 1）
+✅ verify PASS：B 镜像文件 hash 全一致；从 B 打开 integrity=ok 行数 715（A 同 715）
+
+
+• 🟡 B级 — acceptable per discipline (🟢 or 🟡 required). 
+
+  Now answer the startup three questions and wrap up. Also note the todos instruction said "做完收工，不扩展到其他任务". Queue check: myqueue showed #582 notification pending? The probe output mentioned "🔔 KDO 新提审 1 单：#582，请终审" as a notification — #582 from 08-31 was in todos as pending. But my task instruction says only do #601. myqueue ouyangfeng showed 0 pending_review. Let me do a final quick check of pending_review state to report status accurately — actually the instruction says 只做本次指令范围内的事. #582's notification was probably stale (the probe re-notifies). I'll check quickly whether anything is pending_review to report, but not act.19
+| 492 | `task_20260824_huangyaoshi-batch-blocking-exemption` | 长程分批任务阻塞豁免（F-050方案一）：can_claim跳�
+| 504 | `task_20260824_huangyaoshi-review-wait-block` | 审查等待期阻塞策略：同执行者已有pending_review(不论队�
+| 520 | `task_20260825_huangyaoshi-review-wakeup-and-sla` | 审查供给端三件套：提审叫醒审查者+阻塞链🔴标记+p
+| 535 | `task_20260826_huangyaoshi-review-landed-notify` | 终审落点通知：conveyor_probe补pending_review→reviewed事件�
+| 580 | `task_20260830_huangyaoshi-rework-reclaim-bypass-504` | 返工重提绕过#504拦截（F-064：FAIL打回自动rework标�
+There are 5 tasks in pending_review: #492, #504, #520, #535, #580 — all old (08-24~08-30) huangyaoshi tasks. These were not in my todos recent notifications... they may be stale/zombie states (these tasks are from 8+ days ago; #504/#520 etc. might actually be done but never closed — known issue "E019 孤儿分流"). My instruction: "只做本次指令范围内的事，做完收工，不扩展到其他任务。" So I report them as observation but don't act. Actually the instruction is explicit — only #601. I'll note the queue state in the final report without touching.
+
+  Done. Final summary with the three startup questions answered.
+
+• #601 终审闭环，收工。汇报如下：
+
+  ## #601 终审结果：PASS A-
+
+  **task_20260902_huangyaoshi-wechat-promote-dedup-fix**（黄药师单，挂审约 38min 时接手）
+
+  **十项独立复核全过（全部亲跑/亲读，无转述采信）：**
+  - 版本对齐三问 ✅：交付 6923b058a、147 处置 rename 批 e02798f81 均在仓，HEAD 更晚
+  - 去重根治 ✅：`wechat_promote.py:62-65` 改按 hash 全历史 glob，`git show 6923b058a^` 旧码对照实证带病形态（键含 `date.today()`）
+  - 红绿自证 ✅：用旧码代入 `_FakeDate` 跨天夹具逻辑仿真——旧代码下必复制、测试必红（未 stash 实跑，仓内老顽童 #606 施工中，零副作用）
+  - seen_links 归一化 ✅：读入逐行注入 `canonical_key`，4 用例覆盖 `&amp;`/exportkey/追踪参数
+  - 存量处置 ✅：163=20 保留+143 隔离双向清点；全库 `md5sum` 去重实测**唯一内容=16**，与原审计吻合；同 hash 组保留/隔离件字节全同（纯重复无误删）
+  - 引用未断链 ✅：30_wiki 引用的 2 个 hash 在仓；inbox 原件、30_wiki 正文零触碰亲证
+  - 实跑 ✅：`--dry-run` 17 逐字稿全 skip 零新增；`kdo index --incremental` total 4171 吻合且幂等；全量测试 227 passed + 2 failed 与报告逐字吻合（2 失败亲跑复现为既有项，与本单无关）
+
+  **🟡 记档 3 项（不阻断）**：plan 头「唯一 17」实为 16；plan 文件位置表述与实测差一级目录；台账引用 14 vs 报告 15 口径差。
+
+  ## 流转落账
+
+  - 意见书先落任务单「## 终审记录」节（O9），再 `queue_transition review` → reviewed A-（ffdc48fcc），三处同步回读核验
+  - 回读抓到脚本缺陷：**review_date 落成 09-01（UTC 偏差）**，已补正（a329b7ae7）并按出口纪律立最小建议书 `diag_20260902_ouyangfeng-queue-transition-reviewdate-utc.md`，conveyor_probe 登记回执验证在案（f0621569d）
+  - 通过信息已抄送王语嫣收件箱；todos/ouyangfeng.md 完工落行
+  - 复盘追加至 `agent复盘/ouyangfeng/daily-context/2026-09-02.md`（本日第 3 会话），技能日志 +1，保存自检 🟡 B 级（达标线内）
+
+  **队列观察（不动手，仅报告）**：除 #601 外队列还有 5 个老 `pending_review`（#492/#504/#520/#535/#580，均 08-24~08-30 黄药师单，疑孤儿态），不在本次指令范围，留给后续按 E019 孤儿分流流程处置。
+
+  **启动三问**：① 新资产=#601 终审记录+review_date 建议书+复盘 11 章；② 新发现=queue_transition review_date UTC 偏差（已立建议书）；③ 下次记住=计数类交付三角对账（报告/plan/实测），脚本收口回读看值不只看位。
+
+To resume this session: kimi -r session_a3bd1a22-e841-4428-a195-8e39ba1b9287

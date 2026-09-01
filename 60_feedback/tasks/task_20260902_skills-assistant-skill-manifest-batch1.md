@@ -18,7 +18,7 @@ instance: skills-assistant-kimi
 updated_at: '2026-09-01T21:44:47.953554+00:00'
 evidence: _tmp/evidence_597.md
 reviewed_by: 欧阳锋
-review_date: '2026-09-01'
+review_date: '2026-09-02'
 grade: A-
 ---
 

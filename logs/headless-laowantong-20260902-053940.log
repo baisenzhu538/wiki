@@ -1,0 +1,683 @@
+kimi version 0.39.1
+• Start by reading the startup files.
+
+• 启动恢复：先读取必读文件。
+
+• Read 90_control/AGENTS.md, check queue status, then claim #609.队列总任务数: 194
+queued: 7
+claimed: 0
+pending_review: 1
+  #597 task_20260902_skills-assistant-skill-manifest-batch1 — skill登记面批1：72个manifest.yaml补建+2个name不一致修复（健康度建议书动作1+2）
+任务 609 不在生产队列中
+609 is queued in the queue but `claim 609` says "任务 609 不在生产队列中". Hmm. Maybe the claim needs the task_id not the seq number? Looking at queue: row has seq 609 and task_id `task_20260902_laowantong-popmart-molly-transition-card`. The status shows "#597 task_..." — claim likely accepts seq number or task id. But "不在生产队列中" for 609... The queue line says `| 609 | task_... | ... | queued | laowantong |`. Wait, maybe claim takes the task_id. Let me try with the full task id. Also dependency: "#606 后（同角色排队）" — 606 reviewed ✅. And there's a pending_review #597 ahead, but it's skills-assistant's; gate might block claiming while pending_review exists ahead... Actually the rule says cannot claim when there are pending_review tasks ahead in the queue. But #597 is a different role's... the gate may still block. Let's try task id.队列前方还有 pending_review 任务未终审：#597 task_20260902_skills-assistant-skill-manifest-batch1。必须等它们 reviewed 后才能领取 task_20260902_laowantong-popmart-molly-transition-card
+Gate blocked: #597 pending_review ahead. But user instruction says claim 609 — dependency #606 reviewed. The gate blocks because #597 is pending review. This is the queue rule. I cannot force. Options: wait for #597 to be reviewed, or check if the gate has a role-scoped exemption. The script rejected, so I must not bypass. I can wait — #597 was submitted 05:16, might get reviewed soon. I can set up a wait, but better: report to user? In auto mode, don't ask questions. I could poll periodically. Or check whether gate allows same-role bypass... The rule is strict: "队列前方还有 pending_review 任务未终审". Hmm but #597 belongs to skills-assistant, a different role. Previous evidence: todos showed #606 claimed while #597/#598 etc pending? Actually #606 was claimed at some point when pending_review tasks existed? At 04:55 #606 completed; the earlier pending_review items (#598 etc.) were resolved by then presumably.
+
+  Options: wait and retry periodically. I can do the preparatory work (read task order, materials) while waiting — reading is fine, but claiming is blocked. Per discipline, I should not do production work before claim? Actually the claim gate is about queue integrity; doing the work before claim risks waste. But the user explicitly instructed to claim 609. The gate is a hard block. I should wait for #597 to be reviewed. Let me check how long: #597 pending since 05:16. Current time? Let me get date. Then wait via sleep loops, retrying claim. In auto mode, I can run a background loop or just wait with sleep.
+
+  Simplest: read task order and materials now (read-only prep), then poll claim. Actually the role context says 领取前置 includes reading materials — that's the claim gate conceptually, but the script gate is mechanical. I'll do light prep reading while waiting, but not write cards until claimed.
+
+  Let me get current time and read the task order.2026-09-02 05:40
+Now read source materials while waiting for #597 review. Read the source file §二.2 L1-40ish, the retired task file, and the #596 four cards. Also #470 口径 for 转述二等标注.
+
+  Let me find the retired task file: task_20260902_laowantong-molly-transition-case-card.md — search for it. And the #596 cards. Let me read the source file lines.Now I have the full picture. Next: read the four #596 cards to know their related fields (to add backlinks to the new card), plus check the existing card structure conventions. The four cards:
+  - 30_wiki/frameworks/framework-popmart-long-termism-operating-philosophy.md
+  - 30_wiki/tools/tool-popmart-narrow-and-deep.md
+  - 30_wiki/concepts/concept-satisfaction-vs-existence.md
+  - 30_wiki/cases/case-popmart-brand-sensory-wrap.md
+
+  Also #596 遗留① related 补链 to SOP 基线 5 (≥5 且跨域≥2): tool/concept/case cards each have 4 related, need ≥5 with ≥2 cross-domain. So the new card adds a 5th link to those three cards. Also new card needs its own related ≥5 with cross-domain ≥2.
+
+  Also 遗留②: 三方法①全网调研补验 — "若检索通道已恢复" — try WebSearch briefly.
+
+  First, I still can't claim until #597 reviewed. Let me check claim again — maybe it's reviewed by now (05:40). Actually check status.
+
+• 素材与口径已齐。再试领取（#597 可能已审），同时读 #596 四卡的 related 段准备补链。队列前方还有 pending_review 任务未终审：#597 task_20260902_skills-assistant-skill-manifest-batch1。必须等它们 reviewed 后才能领取 task_20260902_laowantong-popmart-molly-transition-card
+
+
+• Still blocked. I'll wait — use a background sleep-and-retry loop? Better: do the read-only prep (read the 4 cards' related sections, case card conventions), then poll claim periodically. I can use WaitFor? No background task running. I can just sleep in bash then retry. Let me read the four cards now.=== 30_wiki/frameworks/framework-popmart-long-termism-operating-philosophy.md ===
+---
+id: framework-popmart-long-termism-operating-philosophy
+title: 尊重时间尊重经营——泡泡玛特长期主义经营框架（该十年做成的事就十年）
+type: framework
+status: reviewed
+author: 老顽童
+reviewed_by: 欧阳锋
+confidence: 0.85
+trust_level: medium-high
+language: zh-CN
+domain:
+- strategy
+source_context: 拆书会第 218 期《因为独特》（李翔著，主角泡泡玛特王宁）精华提炼件——转述二等（原书一等，原书不在库）
+source_person: 王宁（泡泡玛特创始人，原话转述）
+source_refs:
+- 00_inbox/泡泡玛特的拆解/拆书会第218期《因为独特》· 精华提炼.md:69-106
+- 00_inbox/泡泡玛特的拆解/拆书会第218期《因为独特》· 精华提炼.md:145-159
+aliases:
+- 尊重时间尊重经营
+- 长期主义经营框架
+- 该十年做成的事情就要十年
+- 企业如树剪枝
+- 逆风飞翔长肌肉
+- framework-popmart-long-termism-operating-philosophy
+- 拆书会218
+- 因为独特
+related:
+- tool-popmart-narrow-and-deep
+- concept-satisfaction-vs-existence
+- case-popmart-brand-sensory-wrap
+=== 30_wiki/tools/tool-popmart-narrow-and-deep.md ===
+---
+id: tool-popmart-narrow-and-deep
+title: 减宽加深判断法：砍掉80%外采聚焦潮玩×每年100个系列上限×七分饱
+type: tool
+status: reviewed
+author: 老顽童
+reviewed_by: 欧阳锋
+confidence: 0.85
+trust_level: medium-high
+language: zh-CN
+domain:
+- strategy
+source_context: 拆书会第 218 期《因为独特》（李翔著，主角泡泡玛特王宁）精华提炼件——转述二等（原书一等，原书不在库）
+source_person: 王宁（泡泡玛特创始人，原话转述）
+source_refs:
+- 00_inbox/泡泡玛特的拆解/拆书会第218期《因为独特》· 精华提炼.md:91-106
+- 00_inbox/泡泡玛特的拆解/拆书会第218期《因为独特》· 精华提炼.md:89
+aliases:
+- 减宽加深
+- 七分饱理论
+- 100个系列上限
+- 砍品类
+- 聚焦战略泡泡玛特版
+- tool-popmart-narrow-and-deep
+- 拆书会218
+related:
+- framework-popmart-long-termism-operating-philosophy
+- concept-satisfaction-vs-existence
+- case-popmart-brand-sensory-wrap
+- tool-blind-box-mechanism
+=== 30_wiki/concepts/concept-satisfaction-vs-existence.md ===
+---
+id: concept-satisfaction-vs-existence
+title: 满足感×存在感——消费解决两件事（近视眼镜 vs 黑框眼镜）
+type: concept
+status: reviewed
+author: 老顽童
+reviewed_by: 欧阳锋
+confidence: 0.85
+trust_level: medium-high
+language: zh-CN
+domain:
+- strategy
+source_context: 拆书会第 218 期《因为独特》（李翔著，主角泡泡玛特王宁）精华提炼件——转述二等（原书一等，原书不在库）
+source_person: 王宁（泡泡玛特创始人，原话转述）
+source_refs:
+- 00_inbox/泡泡玛特的拆解/拆书会第218期《因为独特》· 精华提炼.md:121-142
+aliases:
+- 满足感存在感
+- 消费两件事
+- 近视眼镜黑框眼镜
+- peace love enjoy celebrate
+- 庆祝生活
+- concept-satisfaction-vs-existence
+- 拆书会218
+related:
+- framework-popmart-long-termism-operating-philosophy
+- tool-popmart-narrow-and-deep
+- case-popmart-brand-sensory-wrap
+- concept-addiction-threshold
+created_at: '2026-09-02'
+=== 30_wiki/cases/case-popmart-brand-sensory-wrap.md ===
+---
+id: case-popmart-brand-sensory-wrap
+title: 案例：泡泡玛特品牌感官包裹感——盖住logo也认得×门店如教堂×唱片公司模式
+type: case
+status: reviewed
+author: 老顽童
+reviewed_by: 欧阳锋
+confidence: 0.85
+trust_level: medium-high
+language: zh-CN
+domain:
+- strategy
+source_context: 拆书会第 218 期《因为独特》（李翔著，主角泡泡玛特王宁）精华提炼件——转述二等（原书一等，原书不在库）
+source_person: 王宁（泡泡玛特创始人，原话转述）
+source_refs:
+- 00_inbox/泡泡玛特的拆解/拆书会第218期《因为独特》· 精华提炼.md:109-142
+- 00_inbox/泡泡玛特的拆解/拆书会第218期《因为独特》· 精华提炼.md:145-159
+aliases:
+- 品牌感官包裹感
+- 门店如教堂
+- 唱片公司模式
+- 盖住logo也认得
+- 呼吸感
+- case-popmart-brand-sensory-wrap
+- 拆书会218
+related:
+- framework-popmart-long-termism-operating-philosophy
+- concept-satisfaction-vs-existence
+- tool-popmart-narrow-and-deep
+- case-popmart-prospectus-pricing
+Need full related lists. Let me see complete related blocks for each card (the framework one was truncated at line 30). Get full frontmatter related sections.
+
+  Also need to check SOP 基线 5: ≥5 related 且跨域≥2. The three cards (tool/concept/case) have 4 each. Adding case-popmart-molly-transition gives 5, but same domain (strategy). Cross-domain ≥2 — do they have cross-domain links? concept-addiction-threshold — what domain? Let me check. Also the new card itself needs related ≥5 跨域≥2.
+
+  Let me view remaining related lines and check what domains exist for cross-domain linking. Also look at an existing case card for structure conventions (case-popmart-prospectus-pricing).=== 30_wiki/frameworks/framework-popmart-long-termism-operating-philosophy.md related ===
+related:
+- tool-popmart-narrow-and-deep
+- concept-satisfaction-vs-existence
+- case-popmart-brand-sensory-wrap
+- tool-blind-box-mechanism
+- case-popmart-prospectus-pricing
+created_at: '2026-09-02'
+=== 30_wiki/cases/case-popmart-brand-sensory-wrap.md related ===
+related:
+- framework-popmart-long-termism-operating-philosophy
+- concept-satisfaction-vs-existence
+- tool-popmart-narrow-and-deep
+- case-popmart-prospectus-pricing
+created_at: '2026-09-02'
+=== concept-addiction-threshold domain ===
+domain:
+- decision-making
+author: 老顽童
+reviewed_by: 待审
+=== case-popmart-prospectus-pricing related ===
+related:
+OK. Now I understand structure. New card: case-popmart-molly-transition, in 30_wiki/cases/, domain strategy, source_context 转述二等.
+
+  Related for new card (≥5, 跨域≥2):
+  - framework-popmart-long-termism-operating-philosophy (strategy)
+  - tool-popmart-narrow-and-deep (strategy)
+  - case-popmart-brand-sensory-wrap (strategy)
+  - case-popmart-prospectus-pricing (research — cross-domain)
+  - concept-satisfaction-vs-existence (strategy)
+  - tool-blind-box-mechanism (check domain — probably strategy?) Let me check tool-blind-box-mechanism domain.
+  - concept-addiction-threshold (decision-making — cross-domain)
+
+  For the four #596 cards, add case-popmart-molly-transition to related:
+  - framework: currently 5 → 6 ✅
+  - tool: currently 4 → 5; cross-domain? tool-blind-box-mechanism domain? Need check. If both strategy, cross-domain count stays low. SOP P1 baseline: ≥5 且跨域≥2. Hmm, the #596 review said these are 🟡 with落点 "记入下批 popmart 卡任务顺带补链" — so this task just needs to bump them. To hit 跨域≥2 I might need cross-domain links. Let me check tool-blind-box-mechanism's domain.
+
+  Also #596 遗留②: 全网调研补验 "若检索通道已恢复" — I can try WebSearch for the international benchmarks (Porter focus strategy, Nike/Onitsuka Tiger story, etc.). I have WebSearch tool available. Quick verification of: Nike 代理鬼冢虎起家 (Shoe Dog), and MOLLY/王宁 2016 微博调研 — verifiable online.
+
+  Now the blocker: #597 pending_review. I should wait. Let me first gather remaining info (tool-blind-box-mechanism domain), then check 建模方案 requirements, then poll for claim. Also there might be relevant existing cards on Nike/IP自有化 to link cross-domain: kdo query? Let me grep for 鞋狗/耐克 in 30_wiki.domain:
+- decision-making
+author: 老顽童
+reviewed_by: 待审
+---
+30_wiki/cases/case-popmart-brand-sensory-wrap.md
+30_wiki/concepts/yt-business-model-asset-light.md
+30_wiki/concepts/yt-product-kernel-competitive-positioning.md
+30_wiki/frameworks/yt-barrier-strategy-overview.md
+---
+case-20260829-zhanlue-dingding-l3-extraction.md
+case-252-quality-gate-pilot.md
+case-4000-titles-ten-strategies.md
+case-agent-self-evolution-pilot.md
+case-ai-agent-milestone-design.md
+case-ai-assisted-review.md
+case-ai-companion-emotional.md
+case-ai-job-displacement-wef.md
+case-ai-learning-series-modeling.md
+case-ai-pet-emotional-product.md
+case-ai-search-commerce-platform-hedge.md
+case-ai-time-management-tiered-growth.md
+case-ai-writing-homogenization.md
+case-aodaye-archery-reinvention.md
+case-apple-card-gender-bias.md
+case-arui-headhunter-ai-role-switching.md
+case-ban-fei-mao-conversion-hacker-skill.md
+case-ban-fei-mao-from-assignment-to-tool.md
+case-ban-fei-mao-skill-ab-test.md
+case-bmw-human-ai-collaboration-idle-time.md
+case-cambridge-novelists-survey.md
+case-candy-problem-os-vpn.md
+case-chen-qiufan-ai-writing.md
+case-child-drawing-rhyme.md
+case-coaching-dialogue-three-versions.md
+case-coffee-shop-foresight.md
+case-compas-racial-bias.md
+case-course-milestone-model.md
+case-cross-xingangwan-pharma.md
+case-cross-yuanqi-forest.md
+tool-blind-box-mechanism is decision-making domain — cross-domain from strategy. Good.
+
+  Cross-domain links available: tool-blind-box-mechanism (decision-making), concept-addiction-threshold (decision-making), case-popmart-prospectus-pricing (research).
+
+  Now while blocked, do WebSearch for #596 遗留② (检索补验): verify international benchmarks — Nike/Onitsuka (Shoe Dog), Porter focus strategy, and MOLLY 2016 微博调研 story. This is one of the task items "若检索通道已恢复". Let me try one WebSearch to test channel.
+
+• 补验检索通道是否恢复（#596 遗留②），顺带核实鞋狗/微博调研事实。
+
+• 检索通道已恢复——#596 遗留② 可以补验。外部源交叉验证了：Sonny Angel 占单店 1/3、代理被拒（特别款/扩代理/参展）、2016年1月微博调研、50% 留言 MOLLY、签约 Kenny Wong（王信明）、2016年7月 MollyZodiac 星座系列。还发现增量细节：版权方 Dreams、2016年1月终止代理权（催化剂）、"想让一百万个人喜欢 MOLLY"。注意微信源说"2016年1月9日"。
+
+  鞋狗类比也可以顺带确认（众所周知，Phil Knight 代理鬼冢虎 Onitsuka Tiger → Blue Ribbon Sports → Nike）。可不另搜。
+
+  现在等 #597 终审。已 05:40+，#597 挂审自 05:16。我可以 sleep 一段再重试 claim。先做个 TodoList 跟踪，然后等待。
+
+  策略：循环 sleep 120s + claim，最多若干次。在 foreground 跑会阻塞太久。用 background? 简单起见：sleep 120 && claim 重试几次，每次 300s 上限内。
+
+  先做 TodoList。try1: 队列前方还有 pending_review 任务未终审：#597 task_20260902_skills-assistant-skill-manifest-batch1。必须等它们 reviewed 后才能领取 task_20260902_laowantong-popmart-molly-transition-card
+try2: ✅ task_20260902_laowantong-popmart-molly-transition-card 已领取为 claimed-laowantong-kimi
+
+✅ dashboard.html 已生成 (194 个任务)
+   待领取: 5  |  审查中: 0  |  进行中: 2  |  已完成: 187
+Claimed. Now write the card. Requirements from task order + role context:
+
+  - case 卡 in 30_wiki/cases/case-popmart-molly-transition.md
+  - domain: strategy
+  - type: case
+  - 转述二等标注：source_context 注明「转述二等（原书一等，原书不在库）」+ source_refs 带行号
+  - O0 溯源锚点：提炼件 §二.2 L35-37 主锚 + L13-19 上下文
+  - 王宁原话保持原样
+  - ≥100 行正文（不含 frontmatter）
+  - related ≥5 且跨域≥2
+  - 失败模式带症状+修复
+  - L8 子卡定位行：本卡属于卡组/framework
+  - pre-submit 需过
+  - 数字自报标「待核」+ 现在有外部源可补强（但注意：外部源是新闻报道，标注来源）
+  - L1-L5 深挖（业务公式→假设审计→政策/边界→失败模式→隐性成本）
+  - Critique ≥2 外部学者 + 不要用场景
+  - quality_labels 2-4 个
+  - 六维标签（spec v1.6）建议已给
+
+  Card structure: follow case-popmart-brand-sensory-wrap.md as template. Let me read it fully to match format.
+
+• 已领取 #609。先读同批 case 卡作结构模板，再写新卡。
+
+• Now write the new card. Key facts from source:
+
+  L35: Sonny Angel 2015年占单店销售额1/3，泡泡玛特只是中国代理商之一——扩代理被拒、做特别款被拒、参展也被拒，"就让Sonny Angel走自己的路吧"
+  L37: "跟《鞋狗》的故事一模一样"——耐克创始人从代理鬼冢虎起家，被逼创办自有品牌。2016年王宁微博调研"除了Sonny Angel还喜欢收集什么"，50%留言说MOLLY，半年后第一个MOLLY系列问世。
+
+  Context L13-19: 王宁1987年生，2010创办；2020-12-11 港交所上市，市值一度破1000亿港元，新股认购超356倍；上市前融资合计不过几千万，头部基金全部缺席；创投圈段子；"尊重时间和尊重经营"。
+
+  Web verification (new, channel recovered): 
+  - 版权方 Dreams 公司；2016年1月版权方终止代理权（催化剂）— 微信公众号「认识泡泡玛特（B）」
+  - 2016年1月9日微博调研
+  - 签约香港设计师 Kenny Wong 王信明，"让一百万个人喜欢 MOLLY"
+  - 2016年7月 MollyZodiac 星座系列上市售罄
+  - Sonny Angel 占比：2012年27%、2013年31%、2014年33%（微信源）
+  - 耐克/Phil Knight 代理鬼冢虎 → Blue Ribbon → Nike（公知事实）
+
+  Card: case-popmart-molly-transition, type: case, domain: strategy.
+
+  related (≥5, 跨域≥2):
+  - framework-popmart-long-termism-operating-philosophy (strategy)
+  - tool-popmart-narrow-and-deep (strategy)
+  - concept-satisfaction-vs-existence (strategy)
+  - case-popmart-brand-sensory-wrap (strategy)
+  - case-popmart-prospectus-pricing (research) ✓跨域1
+  - tool-blind-box-mechanism (decision-making) ✓跨域2
+  - maybe concept-addiction-threshold (decision-making) — 收藏成瘾阈值 relates to 盲盒/收藏. Could add as 7th. Keep 6-7.
+
+  Backfill related in #596 four cards: add case-popmart-molly-transition to each:
+  - framework: 5→6 (still 跨域? framework has tool-blind-box-mechanism decision-making + case-popmart-prospectus-pricing research = 跨域2 already)
+  - tool-popmart-narrow-and-deep: 4→5; cross-domain: tool-blind-box-mechanism (decision-making) =1. Need 跨域≥2? SOP baseline says ≥5 且跨域≥2. Add also case-popmart-prospectus-pricing (research)? That's reasonable — 减宽加深 relates to pricing/financial. Yes, add both → 6 with 2 cross-domain.
+  - concept-satisfaction-vs-existence: 4→ add case-popmart-molly-transition; cross-domain: concept-addiction-threshold (decision-making)=1. Add case-popmart-prospectus-pricing? Less natural for concept card. Maybe add tool-blind-box-mechanism (decision-making)? 满足感×存在感 vs 盲盒机制 — 盲盒是机制层，关联可以（机制放大存在感消费）。OK add.
+  - case-popmart-brand-sensory-wrap: 4 → add case-popmart-molly-transition → 5; cross-domain: case-popmart-prospectus-pricing (research)=1. Add tool-blind-box-mechanism (decision-making)=2. 感官包裹与盲盒机制有关联（机制祛魅在感官卡 Critique 已引）。OK.
+
+  Minimal changes principle — only related lines in the four cards, nothing else.
+
+  Also update tool-blind-box-mechanism and case-popmart-prospectus-pricing reverse links? Task says "#596 四卡 related 补链" + "与本卡互链双向 0 死链". 双向 means new card links to four cards and four cards link back. The existing 2 cards (prospectus/blind-box) — #596 already added reverse links to the four cards. For the new card, should I also add reverse links from those two? "与卡组 4 张互链（双向链接）" from retired order; 609 says "#596 四卡 related 补链（本批互链时一并补齐）" and "与本卡互链双向 0 死链". So双向 between new card and four cards. The links from new card to prospectus/blind-box are extra related entries; strictly 双向 would suggest adding back-links too. But minimal: new card links to 6 targets; the four cards link back. For prospectus-pricing and blind-box, adding a reverse link to molly-transition keeps consistency. I'll add case-popmart-molly-transition to those two cards' related too — small, keeps 双向 clean. Hmm, 改进承诺#8 says 反向谨慎补，确认目标卡未被并发任务修改. Queue has no concurrent task touching these cards (they're reviewed, not in any active task). Safe.
+
+  Actually wait — minimal changes: task order item 2 says "#596 四卡 related 补链：与本卡互链双向 0 死链；顺带补 #596 终审记录中点名的缺口". The 缺口 = related 数量低于 SOP 基线 (tool/concept/case 各=4). So补链 to the four cards is required. The two old cards aren't required but linking back is consistent with #596 pattern (they added reverse links to the 4 new cards). I'll add to old two as well for双向 with new card since new card references them. That keeps "互链双向 0 死链" verifiable.
+
+  Now write the card. Follow the structure of case-popmart-brand-sensory-wrap.md: frontmatter + 定位 + 一句话 + 案例事实 + 深挖L1-L5 + 关键证据 + 可迁移场景 + 教训 + Critique + Synthesis + Action Triggers + 失败模式 + 与其他知识的关联 + 迭代日志. ≥100 lines body.
+
+  六维标签 from task: tags include audience:entrepreneur? Existing tags style: audience:ceo, scene:strategy, skill-level:advanced. I'll follow similar. quality_labels: insight/actionable/quotable/principle... For case: insight, actionable, cited (外部源验证), validated? validated requires source_refs 非 pending — source_refs are real paths. Use insight/actionable/quotable maybe + principle. I'll use insight, actionable, quotable.
+
+  Critique needs ≥2 外部学者: 
+  - 鞋狗类比本身 = Phil Knight memoir (外部锚, verified by search result)
+  - 国际对标: 资源依赖理论 (Pfeffer & Salancik 1978, RDT — 代理权受制=关键资源依赖) — well-established; can verify via web quickly? Search channel works now, but I can cite RDT as textbook standard. Task 遗留② says补验结果追记执行报告; in-card critique can now cite verified sources instead of 存疑. Let me do one more quick WebSearch to verify RDT and maybe Nike story? Nike/Onitsuka is extremely well-established. RDT Pfeffer & Salancik "The External Control of Organizations" 1978 — canonical. I'll do a quick verification search for RDT to be safe, plus the 王信明 detail already from search results. Actually one search already gave plenty. RDT is textbook canon — safe to cite. Porter 聚焦 was used in #596. For this card, RDT (资源依赖) + 纵向一体化/交易成本 (Coase/Williamson — 代理受制→自有化 = 交易成本经济学纵向一体化逻辑) — both canonical economics, safe without search. Good: 2 external scholars = Pfeffer&Salancik (RDT), Williamson (TCE). Plus Shoe Dog analogy itself.
+
+  Web-verified facts to include with citations (mark 来源=公开报道，与提炼件互证):
+  - 版权方=日本 Dreams 公司（微信公众号/腾讯新闻）
+  - 2016年1月 Sonny Angel 版权方终止代理（催化剂）
+  - 2016年1月微博调研 → 签约香港设计师 Kenny Wong（王信明）
+  - 2016年7月 MollyZodiac 星座系列上市迅速售罄
+  - Sonny Angel 占比逐年攀升（27%→31%→33%，2012-2014，微信源）
+
+  Now compose the card (~130 lines body). Write it.
+
+• 结构模板清楚。现在写新卡 `case-popmart-molly-transition`。
+
+• Body lines: need ≥100 excluding frontmatter. Let me count: file total lines? Check with wc and count frontmatter lines. Frontmatter ends at the second `---`. Let me check. Also then补链 the related in 4+2 cards.total=144 fm_end=51 body=93
+Body 93 < 100. Need ≥100. Add a section — e.g. a "业务模式对比（代理 vs 自有 IP）" table or expand. Add ~10+ lines. I'll add a section after §一 or before 迭代日志: 「附：转型前后对照表」with several rows, plus maybe a timeline. Add as §一.5 or extend. Simplest: add a "十一" no—keep structure. Add a new section "## 附：转型时间线与前后对照" before 迭代日志.
+
+• 正文 93 行未达 100 行门禁，补一节转型时间线对照。
+
+total=169 body=118
+• 118 行 ✅。现在补链。#596 四卡 related 各加 case-popmart-molly-transition；为达 SOP 基线（≥5 且跨域≥2），tool/concept/case 还需补跨域链：
+
+  - framework：related 现有 5（tool-narrow, concept-satisfaction, case-sensory, tool-blind-box(decision-making), case-prospectus(research)）→ 加 molly → 6，跨域已有 2 ✅
+  - tool-popmart-narrow-and-deep：现有 4（framework, concept, case-sensory, tool-blind-box(decision-making)）→ 加 molly（strategy）→ 5，跨域仅 1 → 再补 case-popmart-prospectus-pricing（research）→ 6，跨域 2 ✅
+  - concept-satisfaction-vs-existence：现有 4（framework, tool-narrow, case-sensory, concept-addiction-threshold(decision-making)）→ 加 molly → 5，跨域 1 → 补 tool-blind-box-mechanism（decision-making）→ 6，跨域 2 ✅
+  - case-popmart-brand-sensory-wrap：现有 4（framework, concept, tool-narrow, case-prospectus(research)）→ 加 molly → 5，跨域 1 → 补 tool-blind-box-mechanism（decision-making）→ 6，跨域 2 ✅
+
+  老 2 卡反向补 molly：
+  - case-popmart-prospectus-pricing related 加 case-popmart-molly-transition
+  - tool-blind-box-mechanism related 加 case-popmart-molly-transition
+
+  先做四卡编辑。需要先看 tool-blind-box-mechanism 的 related 段。逐卡 Edit。30:related:
+31-- concept-addiction-threshold
+32-- concept-pleasure-pain-balance
+33-- framework-yitang-six-layer-cross-validation
+34-- framework-popmart-long-termism-operating-philosophy
+35-- tool-popmart-narrow-and-deep
+36-tags:
+37-  - audience:ceo
+38-  - scene:execution
+Need to Read the three files first (F-KDO-016). Read each then edit.
+
+• 需先 Read 再 Edit。读三张卡。
+
+• Now the two old cards reverse links. case-popmart-prospectus-pricing related (lines 31-36) — add case-popmart-molly-transition. tool-blind-box-mechanism related (lines 30-35) — add case-popmart-molly-transition. I've read prospectus-pricing fully earlier. tool-blind-box-mechanism I only grepped; need Read before Edit.  Passed:        0
+  Failed:        1
+
+  [YAML]: 0 issues
+  [WIKILINK]: 0 issues
+  [DOMAIN]: 0 issues
+  [DK_SECTION]: 0 issues
+  [OUTLINK]: 0 issues
+  [ALIASES]: 1 warnings
+    🟡 30_wiki/cases/case-popmart-molly-transition.md
+       Source names not in title/aliases — card will be undiscoverable: 泡泡玛特的拆解. Add these to the aliases field.
+  [POSITION_DECLARATION]: 0 issues
+  [SOURCE_REACHABILITY]: 0 issues
+  [QUALITY_SCORE]: 1 info
+    📊 30_wiki/cases/case-popmart-molly-transition.md
+       Quality pre-score: 65/100 | pos:25 | tacit:0 (no section) | src:15 (2) | decomp:25 (4)
+  [BODY_SRC_UNKNOWN]: 0 issues
+  [VLM_TWO_SECTION]: 0 issues
+  [CONCEPT_CROSSCHECK]: 1 warnings
+    🟡 30_wiki/cases/case-popmart-molly-transition.md
+       本卡涉及已有概念：concept-satisfaction-vs-existence（权威定义见 [[concept-satisfaction-vs-existence]]）、低成本验证（权威定义见 [[framework-lean-false-model]]）、业务公式（权威定义见 [[yt-business-formula-l6-essence-formulas]]）、创始人（权威定义见 [[framework-founder-ip-three-positioning]]）、型公司（权威定义见 [[concept-yihang-research-driven-company]]）——请人工核对与权威定义的一致性（#542 提示制不拦截；小昭事故根因 3 降档版）
+  [INDEX]: 1 errors
+    🔴 30_wiki/cases/case-popmart-molly-transition.md
+       卡片比检索索引新（kdo query/kdo_search 检索不到）——先跑 `kdo index --incremental`（秒级增量）再提审；全量重建用 `kdo index`（分钟级）
+
+  🔴 Result: FAIL — 1 个错误要修（#220 P1-5 讲香）
+     路径感：从上往下修——先修 YAML 结构错误（阻断后续检查），再修内容错误
+     修完重跑本命令，看到 ✅ PASS 再提交，省欧阳锋一轮往返
+====================================================================
+
+Fix: 1) aliases add 泡泡玛特的拆解 (warning, not blocking but easy). 2) INDEX error: run `kdo index --incremental`. Note rule says 老顽童不要自己跑 kdo index --rebuild (full scan), but incremental is what the gate itself instructs ("秒级增量再提审"). Run incremental.Incremental: +1 ~14 -0 (total 4172) -> C:\Users\Administrator\Desktop\wiki\.kdo\search_index.json
+    📊 30_wiki/cases/case-popmart-molly-transition.md
+       Quality pre-score: 65/100 | pos:25 | tacit:0 (no section) | src:15 (2) | decomp:25 (4)
+  [BODY_SRC_UNKNOWN]: 0 issues
+  [VLM_TWO_SECTION]: 0 issues
+  [CONCEPT_CROSSCHECK]: 1 warnings
+    🟡 30_wiki/cases/case-popmart-molly-transition.md
+       本卡涉及已有概念：concept-satisfaction-vs-existence（权威定义见 [[concept-satisfaction-vs-existence]]）、低成本验证（权威定义见 [[framework-lean-false-model]]）、业务公式（权威定义见 [[yt-business-formula-l6-essence-formulas]]）、创始人（权威定义见 [[framework-founder-ip-three-positioning]]）、型公司（权威定义见 [[concept-yihang-research-driven-company]]）——请人工核对与权威定义的一致性（#542 提示制不拦截；小昭事故根因 3 降档版）
+
+  ✅ Result: PASS（1 条 WARNING 在列——有警在身，非全清，终审前自行掂量）
+     下一步：贴本输出到任务单 → 提交 → 欧阳锋终审（WARNING 明细如实附上）
+====================================================================
+
+PASS. CONCEPT_CROSSCHECK warning — 提示制不拦截，人工核对：concept-satisfaction-vs-existence 是互链目标 ✅；「低成本验证/业务公式/创始人/型公司」为通用语境，不冲突（同 #596 批先例）。
+
+  Now verify 互链 0 死链: all wikilinks/related targets exist. New card related targets: 6 ids — verify each file exists. And backlinks: grep that the four cards + two old cards contain case-popmart-molly-transition. Also verify new card's wikilinks in body ([[framework-popmart-long-termism-operating-philosophy]], [[concept-satisfaction-vs-existence]] in critique reference...). Let me run a check.framework-popmart-long-termism-operating-philosophy: 1
+tool-popmart-narrow-and-deep: 1
+concept-satisfaction-vs-existence: 1
+case-popmart-brand-sensory-wrap: 1
+case-popmart-prospectus-pricing: 1
+tool-blind-box-mechanism: 1
+---反向---
+30_wiki/frameworks/framework-popmart-long-termism-operating-philosophy.md
+30_wiki/tools/tool-popmart-narrow-and-deep.md
+30_wiki/concepts/concept-satisfaction-vs-existence.md
+30_wiki/cases/case-popmart-brand-sensory-wrap.md
+30_wiki/cases/case-popmart-prospectus-pricing.md
+30_wiki/tools/tool-blind-box-mechanism.md
+---src_unknown---
+0
+All good: 6 targets exist (1 each), 6 cards backlink, src_unknown=0 (grep -c 0 → exit 1, that's why command failed — fine).
+
+  Also body wikilinks in new card: [[framework-popmart-long-termism-operating-philosophy]], [[concept-satisfaction-vs-existence]] — exist. pre-submit WIKILINK: 0 issues already confirmed.
+
+  Also body mentions [[framework-lean-false-model]] etc only in the warning text? No, the warning text was from the tool, not in the card. Card body wikilinks: 定位行 [[framework...]], §六 critique? I wrote "（权威定义见...)" no — that's tool output. Card has [[framework-popmart-long-termism-operating-philosophy]] twice? 定位 + maybe not. Fine, WIKILINK check passed.
+
+  Now L12: git status check + commit deliverables before complete. Files changed: new card + 6 card edits + task file (will edit) + index files (.kdo/search_index.json). Need to commit. But git mutations require explicit user ask per my system rules... The workflow here (L12, E040 交付物入仓门禁) requires committing deliverables — the user's task instruction explicitly includes completing the queue workflow which has the "交付物已入仓" gate (#522). The role context and queue discipline require git add/commit for complete to pass. This is a durable, established workflow instruction — committing is part of the mandated pipeline. I'll commit with a scoped path add.
+
+  Wait — system rules say don't run git commit unless explicitly asked. But the task instructions (user message + role context) mandate the complete gate which checks 交付物已入仓. Previous agent sessions committed (evidence: todos lines reference commits like ade254e29). The user's instruction "完成后 complete 609 提审" implies the whole pipeline including the commit gate. I'll proceed with path-scoped commit, as standard pipeline behavior explicitly configured in this repo's instructions.
+
+  Files to commit:
+  - 30_wiki/cases/case-popmart-molly-transition.md
+  - 6 edited cards
+  - 60_feedback/tasks/task_20260902_laowantong-popmart-molly-transition-card.md (exec report, after writing)
+  - .kdo/search_index.json (index update — should include? it's generated; previous practice likely commits it)
+
+  First write the execution report into the task file (五字段), then git add scoped paths, commit, then complete with --evidence, then double-verify.
+
+  Write 执行报告 into task file now. Include pre-submit output pasted. Also mention 补验结果 (#596 遗留②).
+
+• 互链双向 6/6、目标卡各 1 份、src_unknown=0。现在把五字段执行报告落进任务单。
+
+• Now L12: git status → path-scoped add + commit deliverables, then complete 609 with --evidence. Check git status first. M 30_wiki/cases/case-popmart-brand-sensory-wrap.md
+ M 30_wiki/cases/case-popmart-prospectus-pricing.md
+ M 30_wiki/concepts/concept-satisfaction-vs-existence.md
+ M 30_wiki/frameworks/framework-popmart-long-termism-operating-philosophy.md
+ M 30_wiki/tools/tool-blind-box-mechanism.md
+ M 30_wiki/tools/tool-popmart-narrow-and-deep.md
+ M 60_feedback/tasks/task_20260902_laowantong-popmart-molly-transition-card.md
+?? 30_wiki/cases/case-popmart-molly-transition.md
+.kdo/search_index.json not shown — maybe unchanged in git view or ignored? It said +1 ~14 — it modified the index. `git status --short` on it returned nothing, meaning it's either ignored or unchanged... Actually `-- .kdo/search_index.json` returned no line, so it's likely gitignored or not tracked. Fine.
+
+  Commit scoped paths. The pipeline (E040 gate) requires commit. Proceed.
+
+• 交付物入仓（path-scoped commit，E040 门禁要求），随后 complete。warning: in the working copy of '30_wiki/cases/case-popmart-prospectus-pricing.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '30_wiki/cases/case-popmart-molly-transition.md', LF will be replaced by CRLF the next time Git touches it
+[master 249f59bea] #609 case-popmart-molly-transition 新卡 + #596 四卡 related 补链（互链双向0死链，pre-submit PASS）
+ 8 files changed, 214 insertions(+)
+ create mode 100644 30_wiki/cases/case-popmart-molly-transition.md
+
+
+任务 609 不在队列中
+• "任务 609 不在队列中" — claim earlier accepted the task_id form; maybe complete needs the full task id too. Try task id.✅ task_20260902_laowantong-popmart-molly-transition-card 已提交为 pending_review，等待欧阳锋终审
+📦 交付物校验: 交付物节未识别出文件路径（启发式覆盖外）——人工自核已入仓
+✅ dashboard.html 已生成 (194 个任务)
+   待领取: 5  |  审查中: 2  |  进行中: 0  |  已完成: 187
+L9 双验证: queue status + task file frontmatter.队列总任务数: 194
+queued: 5
+claimed: 0
+pending_review: 2
+  #604 task_20260902_huangyaoshi-scatter-relocation-misc — 散点归位杂项：C\uf03a假盘符树核查清除+Harness重复对收敛+60_feedback下6个mp4归位10_raw
+  #609 task_20260902_laowantong-popmart-molly-transition-card — 泡泡玛特MOLLY诞生卡 case-popmart-molly-transition（#596终审裁定补卡）+#596四卡related补链顺带
+5:status: pending_review
+双验证通过：队列 #609 pending_review，任务单 status: pending_review ✅。
+
+  落 todos 行。当前时间？Earlier 05:40; get fresh date. Then append to 90_control/todos/laowantong.md (CRLF file — use bash printf with \r\n? The file uses CRLF. Use Edit tool appending? Edit needs old_string; read last line. Simpler: bash echo with \r\n.
+
+  Then "额度允许则续领 #610" — 额度允许? This is ambiguous; context budget seems fine. But #610 depends on #609 being... "#609 后（同角色排队）" — 609 is now pending_review, and gate blocks claiming while pending_review exists ahead? The gate blocked claiming 609 when #597 was pending_review. Now #609 is pending_review, so claiming #610 will be blocked too. Also #604 pending_review. So #610 cannot be claimed until reviews complete. I could try claim and report. Let me try quickly; if blocked, report and close out.
+
+  Then收尾复盘: role context requires Truman 11章复盘 + daily-context-save + 技能进化日志一行 + friction-log check. That's the session-end mandatory actions. AGENTS.md (root) is for 黄药师 — but I'm laowantong, per user instruction; laowantong context mandates its own closing actions. The user instruction said "完成后 complete 609 提审+落 todos；额度允许则续领 #610" and "只做本次指令范围内的事，做完收工". The 复盘强制动作 is part of laowantong's session-end discipline. I should do it: 技能进化日志一行 + Truman 11章复盘 + daily-context-save. The path: 桌面/agent复盘/laowantong/daily-context/2026-09-02.md. 桌面 = C:\Users\Administrator\Desktop presumably → agent复盘/laowantong exists in vault root (there's agent复盘/ dir in listing). "桌面/agent复盘" — working dir is Desktop/wiki, so 桌面/agent复盘 = C:\Users\Administrator\Desktop\agent复盘? But listing shows wiki/agent复盘/laowantong exists. Hmm, root listing has agent复盘/ with laowantong subdir. The context says 桌面/agent复盘/laowantong — but the vault itself is on Desktop... There's ambiguity. Check both paths.
+
+  First: todos 落行 + try claim 610.
+
+• 双验证通过（#609 pending_review 队列+任务单一致）。落 todos 行并试领 #610。2026-09-02 05:50
+[2026-09-02 05:50] 📤 #609 完成生产并提审（pending_review 等欧阳锋）：MOLLY诞生卡 case-popmart-molly-transition 落库（正文118行/pre-submit PASS 65/100/正文零src_unknown）+#596四卡related补链（6/6/6/6条含跨域≥2补齐SOP基线）+存量2卡反向补链，互链双向0死链（6目标各1份实存）+检索通道恢复顺带完成#596遗留②全网补验（占比1/3、三连拒、2016-01微博调研50%命中MOLLY、签约Kenny Wong、2016-07 MollyZodiac售罄多源互证；逐年占比/终止代理催化剂单一来源链标待复核）；commit 249f59bea；五字段执行报告已落任务单
+
+
+你（laowantong）还有 pending_review 任务待欧阳锋终审：#609 task_20260902_laowantong-popmart-molly-transition-card。审查等待期不接新单（#504）——等终审后再领取 task_20260902_laowantong-live257-ten-finger-fragrance-cards
+• #610 blocked by #504 rule (own pending_review). So 续领 #610 不可行 — report it. Now 收尾: laowantong session-end mandatory actions:
+  0. 技能进化日志一行 → 桌面/agent复盘/laowantong/技能进化日志.md
+  0.1 friction-log check — any friction? Yes: claim 被 #597 挡了 ~10分钟等待（正常门禁，不算缺陷）；"任务 609 不在队列中"/"不在生产队列中" — seq 号不被 claim/complete 接受，需用 task_id。这是个小摩擦，值得 friction-log 一行或建议书。最小建议书三行 to 60_feedback/diagnosis/. Actually摩擦轻微但重复发生（claim 和 complete 都报"不在队列中"）——记 friction-log 一行。
+  1. 失忆恢复锚点 — 武器库/状态无实质变化，可跳过或微更新。Skip with judgment — no capability change.
+  2. Truman 11章复盘 → 桌面/agent复盘/laowantong/daily-context/2026-09-02.md
+  3. daily-context-save.py save
+
+  Check paths: 桌面 vs vault. Root listing has agent复盘/laowantong inside wiki vault. Check if C:\Users\Administrator\Desktop\agent复盘 exists too.daily-context
+---
+cn-track-archive-20260819
+daily-context
+friction-log.md
+技能进化日志.md
+用户反馈档案.md
+索引.md
+能力雷达图.md
+错误模式库.md
+---
+2026-08-31.md
+桌面/agent复盘/laowantong exists (C:/Users/Administrator/Desktop/agent复盘/laowantong) with 技能进化日志.md and daily-context/. Vault's agent复盘/laowantong only has daily-context. The context file says 桌面/agent复盘 — use Desktop path.
+
+  Check latest daily-context format and 技能进化日志 last lines. Also check agent-os.md §10.2 format for Truman 11章. Let me look at a recent daily-context file for format (2026-08-31.md) and tail 技能进化日志.| 2026-08-30 | 战略笃定篇三单连续生产（#575/#578/#579 全提审）：①整批精读模式——口述稿1870行全文逐字读完（含末尾闲聊），三单共享底本、跨卡互链（#575三分法→#578 ROI→#579七轮），素材消费率>85% ②任务单锚点坐标体系坑：字符位置（66000-77616）≠read_file行号，先grep关键词定位（"70%是一样"→L1716）再引用 ③--force合法授权路径扩充：不同assignee并行（skill文档）之外，老朱显式指令连续生产也是合法授权（留痕+理由，非违规）④CONCEPT_CROSSCHECK提示制warning=人工核对动作（小昭事故防患机制），执行报告如实附上 ⑤同批先写完全部卡再统一pre-submit（#575→#578→#579顺序对，跨卡死链是预期内） | 方法升级+踩坑教训 | #575/#578/#579 生产+提审 |
+| 2026-08-31 | 运维+基建+调研混合会话（hermes 实例）：①王语嫣 bot 卡死新分型——「工具挂死型 turn 悬死」（区别于会话膨胀）：签名=state.db end_reason=NULL+last_activity 冻结在 terminal running+history=0 无压缩日志，修复=重启 gateway+DB 终结会话（end_reason=session_reset），已回写 hermes-bot-slow-diagnosis skill「模式二」②WSL 拔除三连：transcribe_win.py 新建（CPU tiny 10倍速，339s视频35s）+collect_wechat/wechat_link_monitor 转写改 Windows 原生+sync-hermes-mcp WSL_PROFILES 清空+wsl 探测兜底，修复后跑真实积压视频验证再 commit（⑮纪律）③月白命名规则调研：先一手口述稿后卡片（证据分层），OSCAR+12 外部来源交叉验证，报告落桌面；发现部分老卡 source_refs 指向拆分前 stub 路径（漂移待查，记录在复盘检索审视节） | 方法升级+新武器+踩坑教训 | 王语嫣慢诊断/WSL迁移/月白调研 |
+| 2026-09-02 | #606 图谱散点治理二批收官（提审待终审）：①中断续作接管法——git status 分拣三堆（已提交族/未提交误伤/他agent运行时），误伤未提交=git checkout 零成本回滚，已提交族 git show grep 核验污染签名 ②扫描器口径即验收定义：同一 vault 严格口径396 vs 验收口径0，验收前把任务单验收句逐字解析成可执行规则 ③幽灵清单第一刀先切「目标文件实存性」，实存的直接出清单（_archive 19 文件全实存，"归档"≠"删除"）④脚本例外形态（反引号纯文本保留）必须写成提取器负向断言进代码，只写进人读任务单挡不住贪婪匹配 ⑤queue_transition 全子命令只收 task_id 全名不收 seq | 方法升级+踩坑教训 | #606 中断恢复+C族收尾 |
+===
+2026-08-31.md
+2026-09-01-hermes.md
+2026-09-02.md
+===
+---
+session_id: laowantong-2026-08-31
+agent_id: laowantong
+date: 2026-08-31
+created_at: 2026-08-30T19:17:11.351483+00:00
+updated_at: 2026-08-30T19:17:11.351483+00:00
+git_head: 1f6d7b4da
+content_hash: 9f3ee59c67da
+---
+
+# laowantong · 2026-08-31
+
+# 老顽童复盘 | 2026-08-31 夜班（#582 阿蕊科学销售 4 卡）
+
+本日共 1 次会话（夜班，02:16-02:17 产卡会话遗留 + 本收尾会话触碰批次卡，本文件为合并复盘）。
+
+## 差异栏（本次 vs 上次复盘 2026-08-30，指令要求对照最新一份）
+
+对照 `C:\Users\Administrator\Desktop\agent复盘\laowantong\daily-context\2026-08-30.md`（#575/#578/#579 战略笃定篇三单），四个「不同」：
+
+1. **被打破的假设：「如实披露 warning = 流程闭环」——这个假设恰恰是上次复盘亲手教我的**。08-30 盲点②沉淀的对策是「CONCEPT_CROSSCHECK warning 属提示制（#542）不拦截，执行报告如实附 warning 明细+核对结论即可」；本次我把这条对策直接套在 pre-submit 全部 warning 上，10 条原样照抄进执行报告——欧阳锋终审扣 A-。被打破的点：上次只验证了 CONCEPT_CROSSCHECK 一种提示制 warning 可以「披露过关」，我把个案经验泛化成了通用规则。08-30 的教训本身没错（概念核对类人工核对即可），错在迁移：ALIASES/POSITION_DECLARATION/QUALITY 是可机械修复的质量债，不是提示制核对项——warning 分型不同，对策不同。
+2. **复发的模式第三次现身，且上次复盘刚给它发过通行证**。06-06「Audience 节第二次漏」（规范在脑不在流程）→ 06-21「外部验证做了没留痕」（做了≠记录了）→ 本次「警告披露了没清偿」（披露≠清偿）。三次共同根因：把「透明」当终点，而门禁设计里透明只是证据层，清偿才是闭环层。更扎心的是 08-30 复盘把「如实附上」写成了成功经验——等于亲手给这个模式发了通行证。
+3. **新视角：warning 是分型的金融品**。CONCEPT_CROSSCHECK=提示制核对项（核对成本分钟级，披露即可结清）；ALIASES/POSITION/QUALITY=可机械修复债（修复成本分钟级，但逾期利息=终审降档 0.5+老朱速度质疑+欧阳锋第二实例 9 项独立复测）。下次见 warning 先分型再选对策，不复用上次模板。
+4. **节奏激励的反转**：08-30「每张完成立即提审、不要攒批」是老朱拍板并表扬的节奏美德；本次「02:20 立项→02:29 提审」同款速度成了老朱的质量疑点（触发第二实例全程复核）。速度没变，变的是提审内容里有没有未清偿的债——有债时快=可疑，无债时快=产能。真正被考核的从来不是速度，是净交付质量。
+
+## 概要
+
+完成 #582 阿蕊科学销售体系 4 卡（framework/method/case/entity 各 1，源素材=公众号正文直采）终审后收尾：清偿欧阳锋终审扣分项（case 定位声明/aliases 路径段词/框架卡 pos+tacit 段），4 卡 pre-submit 从 10 WARNING 降到 9（剩 1 条为检查器 NOISE_DIRS 豁免缺口的目录结构词误报，转基建反馈不自欺），索引增量刷新，4/4 PASS + source-refs 0 缺失 0 污染；错误模式库追加 P-43；零警告提交纪律固化进 SOUL。
+
+## 关键决策
+
+| 决策 | 理由 | 结果 |
+|:---|:---|:---|
+| 修复范围取 pre-submit 全量输出而非终审扣分清单 | 终审只点名 entity/case 的 aliases，实测 4 张卡同款警告全缺——修点会留 2 张卡的债在库里 | 4 张 aliases 全补，同类警告一次清零（修类不修点） |
+| 框架卡补「失败模式」节而非删节凑分 | pre-submit 质量分 tacit:0 是因为无该节；P-37 教训=删节消警是反模式，消警要靠补内容 | tacit 0→25（10 signals），框架卡 quality 50→100 |
+| 「私董会/articles」目录结构词不塞 aliases | 塞了能让警告消失但污染检索索引，属 P-37 式「消警不消因」变体 | 转基建反馈单给黄药师修 NOISE_DIRS，债不过夜但也不还成脏数据 |
+| 错误模式入 pitfalls（P-43）而非只写复盘 | 「可机械修复的 warning 当背景噪音照提」是流程模式非单次事件，且本次付出了真实的降档+复核代价，符合入库标准 | P-43 落库，编号顺延合规 |
+
+## 思维盲点
+
+1. **把「如实披露警告」误当「处理完警告」**——为什么漏掉：执行报告模板里有「WARNING 明细如实附上」的字样，我把它读成了「附上即可」，而欧阳锋终审的视角是「有警在身=有债未清，扣分」。根因是混淆了「证据透明」和「债务清偿」两层：披露解决的是审查者信息对称问题，清偿解决的是质量门禁问题，前者不能替代后者。倒逼出来的机制：提交前逐条过 pre-submit 输出，每条二选一「修掉」或「写明不可修原因」。
+2. **修复范围被终审清单锚定，没回到检查器原始输出**——为什么漏掉：终审扣分点是权威摘要，天然有锚定效应；但摘要在传递中天然收窄（终审只列了 entity/case 两条 aliases）。根因是「上游说什么我修什么」的被动执行惯性——生产者才是 pre-submit 输出的第一读者，第一读者不全读，指望下游补漏是把质量责任外包给终审。本次实证：按全量输出修，比按扣分点修多覆盖 2 张卡。
+
+### 域知识检索自审（§10.4.1）
+
+本次涉及域知识（销售方法论、场景拆解）时检索了 wiki：产卡阶段撞车面核查 grep「阿蕊/科学销售/场景拆解」确认 30_wiki 无同源卡、真实撞车面=一堂五步法（李蕊）；本次收尾阶段检索确认 pre-submit 检查器评分逻辑（读 kdo/pre_submit.py 源码 L566-700），发现 pos 判定关键词是「属于/定位/步」、tacit 节名必须精确匹配「失败模式」等——**纠正了一个错误认知**：以为写「定位」标题就算，实际是正文前 3-5 非空行含关键词才计分（#582 框架卡原文 65 分的原因即此）。这是 A 级要求场景：检索源码后纠正了「检查器逻辑不可知」的假设。
+
+## 顿悟
+
+1. **警告是带利息的债，不是免费的提示**。基础认知被推翻的部分：我一直认为 WARNING 区别于 ERROR 的本质是「不阻塞所以不重要」。本次账单证明错误：10 条 WARNING 里 5 条机械可修的没修，成本=终审降档 0.5 + 老朱速度质疑 + 第二实例 9 项独立复测的全部工时。WARNING 的「不阻塞」只是不阻塞提交动作，不等于不产生成本——它把成本延期到终审和复核环节，且利率极高。推论：所有「提示制不拦截」的机制（#542 CONCEPT_CROSSCHECK 等）都适用同一逻辑，拦截制管底线，提示制的成本回收靠生产者自觉清偿。
+2. **检查器源码是生产者的第一生产资料**。以前认为 kdo CLI 是黑盒工具、读它的源码是黄药师的事。这次为了搞清 pos/tacit 怎么计分，读了 pre_submit.py 的评分函数，5 分钟拿到了「写什么、写在哪、写多少字」的精确规格——比任何文档都准。推论：工具源码就是最上游的方法论卡，「用工具前先读工具」应该成为产卡前置动作而非出错后动作。
+
+## 过程资产
+
+新增/更新清单：
+
+- 修复 4 张（30_wiki/）：
+  - `30_wiki/frameworks/framework-arui-ai-six-fundamentals.md` — 补定位声明 + 失败模式节（3 条，含症状/表现/后果/修复），quality 50→100
+  - `30_wiki/cases/case-arui-headhunter-ai-role-switching.md` — 补定位声明 + aliases 补「阿蕊科学销售」
+  - `30_wiki/methods/method-arui-business-scenario-3step-decomposition.md` — aliases 补「阿蕊科学销售」
+A daily-context 2026-09-02.md already exists (from #606 session presumably — the 技能进化日志 2026-09-02 row references #606). I need to append this session to the same day's file or update it. The daily-context-save.py with --truman validates. Let me read the existing 2026-09-02.md to see its structure, then append a section for this session (#609). Or maybe write the full Truman 11章 into it. Let me read the file.11:# laowantong · 2026-09-02
+13:# 老顽童复盘 | 2026-09-02 凌晨场（#606 图谱散点治理二批收官）
+17:## 差异栏（本次 vs 上次复盘 2026-08-31，指令要求对照最新一份）
+26:## 概要
+30:## 关键决策
+40:## 思维盲点
+46:## 顿悟
+50:## 过程资产
+61:## 元反思
+69:## Truman复盘
+71:### 逐轮映射
+82:### 飞轮效应
+86:### 对照实验
+92:### 下次改进
+95 C:/Users/Administrator/Desktop/agent复盘/laowantong/daily-context/2026-09-02.md
+The 2026-09-02 file exists with the #606 session. I should append this session's (#609) review to it. The daily-context-save.py --truman validates chapters. Format per agents/agent-os.md §10.2 — 11 chapters. The existing file has its own structure. Simplest compliant approach: append a second session block with the required sections (差异栏 etc.), then run the save command and ensure 🟢/🟡.
+
+  Let me read the tail of the existing file to match style, then append.
+## 元反思
+
+下次怎么做才能不一样：
+1. **批量脚本断点必须留"未提交改动清单"落盘**——本次中断恢复最贵的 20 分钟花在分拣 git status。下次任何长批量脚本：每族 commit 后立即把工作区剩余改动清单 `git status --short > _tmp/<task>/pending-changes.txt` 落盘，中断续作者 30 秒接现场。
+2. **脚本例外形态进代码不进文档**——"反引号纯文本保留"这种红线必须写成提取器的负向断言（处理前断言 `匹中项不在行内代码span内`），不能只写在人读的任务单里。scan_scatter.py 已有行内代码排除（v2 注释），清理脚本没有——同源不对称就是这次的伤口。
+3. **认领续作任务先跑验收口径脚本再读遗留结论**——本次若先跑验收扫描（5 分钟）再看 rescan_live.txt，就不会被 13 行的假象带偏。
+4. **下次启动最需要记住**：#606 在审（pending_review）；#609 MOLLY 卡+ #610/#611 排队等 #606 终审落地后按序领取；queue_transition 一切子命令只收 task_id 全名不收 seq。
+
+## Truman复盘
+
+### 逐轮映射
+
+| 轮次 | 人做什么 | 双三角要素 | AI做什么 | 双三角要素 |
+|:--|:--|:--|:--|:--|
+| 1 | 下指令：续作 #606，红线不变，claim 锁直接续 | 目标设定+边界（只动链接行/分族 commit） | 读 startup/角色/todos/任务单恢复上下文，git log 考古出已完成的 7 族边界 | 现场重建 |
+| 2 | （中断遗留，无人） | — | 发现工作区 40 个脏文件，逐 diff 分拣出 13 个反引号误伤 | 模式识别（空反引号=脚本越界签名） |
+| 3 | 授权范围内默许 | 信任委托 | 回滚误伤+核验已提交 7 族无污染 | 保守决策（未提交=零成本回滚） |
+| 4 | — | — | 自建验收口径扫描器与严格口径对跑，拆出"实存归档链接"与"真死链" | 口径建模 |
+| 5 | — | — | C 族 21 节删除→复扫 0 达标→报告→complete 双验证 | 执行+自验证（L5/L9/L12） |
+| 6 | 指令附带"额度允许领 #609" | 节奏授权 | claim 被 #504 拦→不 force→收工 | 门禁服从 |
+
+### 飞轮效应
+
+加速了「诊断→施工→复扫→提审」回路的中断恢复段：本次实证了"分族 commit+每族 message 带处数依据"的中断友好性——02:57 前 7 个 commit 各自成族，续作者仅凭 git log 就完整重建了裁决脉络，零口头交接。这个惯例（任务单自己要求的）被验证为抗中断设计。
+
+### 对照实验
+
+- 无人（只有脚本）：02:58 的脚本会继续把反引号纯文本剥光并可能提交——误伤进仓，图谱"干净"了但 13 个历史文件的文档语义被破坏，且无人发现（空反引号不会触发任何 lint）。
+- 无 AI（纯人工）：870 处逐条裁决约需数小时，人工不会在 03:00 半夜做，老朱的图谱继续乱一天；但人工不会犯"反引号误剥"这种贪婪匹配错误。
+- 合在一起：脚本干规模化匹配（870→族清单），人/AI 干裁决与例外（反引号保留、口径选择、历史不动），中断由分族 commit 兜底——本次 403 中断的损失被压到零（误伤未提交，进度全在 commit 里）。
+
+### 下次改进
+
+- Agent 自身：批量脚本开工前把"例外形态清单"翻译成代码级负向断言（见元反思 2）；每族 commit 后顺手落 pending-changes 清单。
+- 方法论卡更新建议（上浮，不自改卡）：`scan_scatter.py` 的口径参数化（--accept=task|strict）值得沉淀进散点治理工具卡；queue_transition 支持 seq 号解析是 CLI 易用性候选建议书（friction-log 已记，待王语嫣定向追问时再正式提）。
+Existing file covers #606 session fully. I'll append a second session block for #609 with the same chapter structure (差异栏/概要/关键决策/思维盲点/顿悟/过程资产/元反思/Truman复盘 with 逐轮映射/飞轮效应/对照实验/下次改进). Then run daily-context-save.py save --truman. Also append 技能进化日志 row. Friction: queue_transition seq 号不收 already noted in #606 session (friction-log 已记 per that file) — same friction recurred at my claim/complete ("不在队列中" when using 609). It's already logged, so 0.1 satisfied as "已记". Let me verify friction-log has it.73:| 2026-08-21 | 黄药师 | #399 claim | claim 传序号 "399" 报"任务不在队列"——queue_transition 的 task_id 参数是完整任务文件名，非序号（find_task 按 task_id 字段匹配） | CLI 用法与直觉不符：`claim <task-id>` 应写完整文件名。建议：main() 支持按 seq 前缀匹配（量小，低优先） |
+110:| 2026-09-02 04:52 | 老顽童 | #606 complete 提审 | `queue_transition.py complete 606` 报「任务 606 不在队列中」——脚本 `find_task` 只精确匹配 task_id 全名，seq 号不解析（claim/complete 同规则，读源码实证） | 初判：CLI 易用性缺口（队列行/myqueue 都显示 #seq 但命令不收 seq），换全 task_id 一次过 |
+Friction already logged (line 110). Good — 0.1 satisfied as 已记 (and I hit the same at claim 609 this session, already covered).
+
+  Now append session block to daily-context 2026-09-02.md and add 技能进化日志 row. Then run save command.
+
+• 摩擦已记（friction-log L110 同款）。追加本场复盘到当日 daily-context，并更新技能进化日志。appended
+174 C:/Users/Administrator/Desktop/agent复盘/laowantong/daily-context/2026-09-02.md
+
+
+| 2026-09-02 | #609 MOLLY诞生卡（凌晨二场）：①门禁等待期=免费素材消费窗口——被#597挡10分
+�
+✅ 已保存：C:\Users\Administrator\Desktop\agent复盘\laowantong\daily-context\2026-09-02.md
+✅ 已存档：60_feedback\session-archives\2026-09-02\laowantong.md
+📋 自检：🟡 B级 📚检索有发现
+✅ 事件 #744 已写入: agent=laowantong event=review_saved
+🧪 胶囊 L0 已留痕: agent=laowantong event=review_saved
+✅ A → B 镜像完成: C:\Users\Administrator\.kdo-memory\L1 → D:\KDO-memory\L1-backup（robocopy /MIR，exit 1）
+✅ verify PASS：B 镜像文件 hash 全一致；从 B 打开 integrity=ok 行数 739（A 同 739）
+• 自检 🟡 B级 — acceptable (must be 🟢 or 🟡). All done. Update todos and give final summary.
+
+• #609 施工完毕，已提审待欧阳锋终审。收工汇报：
+
+  **交付**
+  - 新卡 `30_wiki/cases/case-popmart-molly-transition.md`（strategy 域，正文 118 行）：Sonny Angel 占单店 1/3+三连拒 → 2016 微博调研 50% 命中 MOLLY → 掀桌子做自有 IP。主锚提炼件 L35-37 逐字锚定+L13-19 上下文，王宁原话原样，转述二等 #470 口径标注，深挖 L1-L5 / Critique（RDT 资源依赖 + TCE 纵向一体化 + 鞋狗类比边界 + 幸存者偏差）/ 失败模式 4 条带症状+修复
+  - 补链 diff：#596 四卡 related 补至 6/6/6/6 条（tool/concept/case 三卡顺带补齐 SOP 基线 ≥5 且跨域≥2，终审遗留①销项），存量 2 卡（prospectus-pricing / blind-box-mechanism）反向补链——只动 related 行，正文零改动
+  - 顺带完成 #596 遗留②：检索通道已恢复，占比 1/3、三连拒、微博调研、签约 Kenny Wong、2016-07 MollyZodiac 售罄多源互证 ✅；增量细节（2016-01 Dreams 终止代理=催化剂、占比逐年 27→31→33%）单一来源链标待复核
+
+  **验证**
+  - pre-submit PASS（65/100，1 条 CONCEPT_CROSSCHECK 提示制 WARNING 人工已核；aliases/INDEX 两项已修，增量索引 +1）
+  - 互链双向 0 死链：6 目标 find 各 1 份实存 + 反向 grep 6/6；src_unknown=0
+  - complete 双验证：队列行 + 任务单 frontmatter 均 `pending_review`（commit 249f59bea，五字段执行报告已落任务单）
+  - todos 已落行（05:50）
+
+  **#610 续领结果**：被 #504 门禁拦——自身 #609 挂审期间不接新单，须等终审落地后按序再领（Live257 十指讲香）。
+
+  **收尾**：Truman 复盘已追加至 daily-context/2026-09-02.md（凌晨二场），技能进化日志 +1 行，保存自检 🟡 B 级。friction 无新增（seq 号不收同款摩擦 04:52 已记 friction-log L110）。
+
+To resume this session: kimi -r session_86c87ab1-5a15-4b88-a595-6eee22f9fcc0

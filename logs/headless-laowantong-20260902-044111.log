@@ -1,0 +1,1486 @@
+kimi version 0.39.1
+• Let me start with the startup reads.
+
+• 启动恢复，先读必读文件。
+
+[2026-09-02 00:28] 📤 #596 完成生产并提审（pending_review 等欧阳锋）：拆书会218《因为独特》4卡落库——framework-popmart-long-termism-operating-philosophy（总纲）/tool-popmart-narrow-and-deep（减宽加深）/concept-satisfaction-vs-existence/case-popmart-brand-sensory-wrap；pre-submit 全 PASS+自攻击 🔴0🟡2+互链双向 0 死链+4卡≥100行；卡2 任务单原拟 method 因新卡白名单无 method 改落 tool；三方法①检索通道故障（ddg 超时+curl 不通）按存疑口径逐卡标注；claim 走 --force（#595 前方阻塞，不同 assignee 并行线，台账已留痕）；报欧阳锋顺带裁定：MOLLY 诞生卡候选（case-popmart-molly-transition）是否补立项；新坑 2 变体已沉淀 kdo-queue-operations skill（行内 ## 字面量劫持提取器+pre_review 写后自检漏 #569 前缀口径）
+- [2026-09-02 00:42] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#596（laowantong 的单，挂审 16min）（到点（节奏 15min））
+- [2026-09-02 00:47] 📥 KDO 可领取 1 单：#599
+- [2026-09-02 01:02] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#596（laowantong 的单，挂审 36min）；#599（skills-assistant 的单，挂审 8min）（到点（节奏 15min））
+- [2026-09-02 01:07] ✅ KDO 终审通过 2 单：#596, #599——你的单过了，见任务单终审记录
+- [2026-09-02 01:17] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-02 01:37] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#602（wangyuyan 的单，挂审 4min）；#598（huangyaoshi 的单，挂审 1min）（到点（节奏 15min））
+- [2026-09-02 01:52] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#602（wangyuyan 的单，挂审 19min）；#600（huangyaoshi 的单，挂审 13min）（到点（节奏 15min））
+- [2026-09-02 02:07] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#601（huangyaoshi 的单，挂审 12min）（到点（节奏 15min））
+- [2026-09-02 02:22] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#601（huangyaoshi 的单，挂审 27min）（到点（节奏 15min））
+- [2026-09-02 02:27] 📥 KDO 可领取 1 单：#606
+- [2026-09-02 02:36] 📥 KDO 可领取 1 单：#609
+- [2026-09-02 02:42] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-02 02:47] 📥 KDO 可领取 2 单：#610, #611
+- [2026-09-02 02:57] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-02 03:12] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-02 03:32] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-02 03:52] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-02 04:12] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-02 04:32] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+队列总任务数: 194
+queued: 7
+claimed: 3
+pending_review: 0
+# role=laowantong · 任务路由（#472 只读视图，不动状态机）
+✅ 可领 3:
+  #609 task_20260902_laowantong-popmart-molly-transition-card — 泡泡玛特MOLLY诞生卡 case-popmart-molly-transition（#5
+  #610 task_20260902_laowantong-live257-ten-finger-fragrance-cards — Live257重讲十指讲香卡组3-4张：十指讲香framework+用数字讲故事metho
+  #611 task_20260902_laowantong-yitang-methodology-batch-cards — 一堂方法论族卡组5-7张：MUSE数据包framework+高阶Skill设计指南tool
+⏸ 等依赖 0:
+  (无)
+🧊 冻结 0:
+  (无)
+🚧 进行中 1:
+  #606 task_20260902_laowantong-graph-scatter-cleanup — 图谱散点治理二批：31文件残留占位+870真散点逐族裁决（首批1132占位已清 de51b
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 1:
+  #596 task_20260902_laowantong-popmart-uniqueness-book-cards — ✅PASS A-（2026-09-01）
+---
+243:| 609 | `task_20260902_laowantong-popmart-molly-transition-card` | 泡泡玛特MOLLY诞生卡 case-popmart-molly-transition（#596终审裁定补卡）+#596四卡related补链顺带 | queued | laowantong | 1张case卡+补链diff+互链0死链实证 | #606 后（同角色排队） | `60_feedback/tasks/task_20260902_laowantong-popmart-molly-transition-card.md` | 欧阳锋#596终审裁定（09-02王语嫣编排并单）；转述二等标注#470口径；六维标签建议已附；欧阳锋终审 |
+• Now check git log to see what was done before 02:57 (4 commits, A/B1-B6 族）.c5599b2e9 09-02 02:57 #606 B6族：删纯链接行5处（plan_20260531_data-curator两版已归档无后继；紫鲸深度分析已归档superseded_by空）
+db3f42a5f 09-02 02:57 #606 B5族：断链保文20处（计划卡从未落地/skill目录无页面/P编号为节引用非页面：去双方括号保留文字，不动正文语义）
+13d519c34 09-02 02:57 #606 B4族：幽灵链接改链28处（目标卡改名/等价卡已存在：demand-iceberg-coach九处→framework-demand-iceberg等；一堂-product-kernel五处；调研行动营→framework-yitang-oscar-research；kdo-charter-v01-draft→v0.1-draft；[[hooks]]→`[hooks]` TOML节名等；混排文件内含4处断链保文）
+4a92bd1df 09-02 02:55 chore(queue): #597 claim by skills-assistant-kimi
+a29ae7465 09-02 02:55 chore(queue): #603 claim by huangyaoshi-kimi
+e4da66961 09-02 02:54 chore(queue): #603 release by huangyaoshi
+96da3e40f 09-02 02:54 todos：夜班施工令拉起落行+门铃升级
+f9f194f75 09-02 02:51 编排：MOLLY孤儿单退役(#609取代)+撞号建议书双闭环(F-066第三例升P2)+F-067挂账
+d91fc6f42 09-02 02:50 #606 B3族：obsidian-kdo产品设计大纲链接删除（16文件17处纯链接行；git考古=05月归档 superseded_by空 无后继卡，删链不误导）
+179626907 09-02 02:49 #606 B1族：panproduct归档链接改链（7活文件7处：6改链→superseded_by活卡，1删链=tool-mece体系框架法行32与行28重复；快照/自动索引/历史记录不动）
+cf1554a86 09-02 02:48 #606 B2族：yitang-agent-spec幽灵链接治理（14文件124处：改链86→现存agent-spec卡/yt-product-kernel-iteration，断链保文30（计划框架卡07-15至今未产），删纯链接行8）
+9abb927f3 09-02 02:47 todos：inbox批次分诊闭环落行
+dfe896ceb 09-02 02:47 编排：inbox 01:51批次42项分诊（五族归并）——#610 Live257讲香卡组 + #611 一堂方法论族卡组立项；同源/低值42行划销
+f0621569d 09-02 02:37 建议书(欧阳锋): queue_transition review_date UTC 偏差 + 探针登记回执落账（#601 终审附带发现）
+061c5b90c 09-02 02:35 todos: #601 终审 PASS A- 落行 + 通过信息抄送王语嫣（ffdc48fcc）
+ M 60_feedback/audit/ocr-foresight-18files-extraction-check.md
+ M 60_feedback/session-archives/2026-07-13/ouyangfeng.md
+ M 60_feedback/session-archives/2026-09-02/ouyangfeng.md
+ M 60_feedback/tasks/task_20260628_laowantong-link-repair-b2-synthesis-section.md
+ M 60_feedback/tasks/task_20260628_laowantong-link-repair-b3-island-cards.md
+ M 60_feedback/tasks/task_20260629_kimi-lint-content-debt-by-domain.md
+ M 60_feedback/tasks/task_20260822_laowantong-related-asymmetry-backfill.md
+ M 70_product/tasks/task_20260709_wangyuyan-key-assumptions-business-formula-agent.md
+ M 70_product/tasks/task_20260709_wangyuyan-opportunity-foresight-agent.md
+ M 70_product/tasks/task_20260711_wangyuyan-fundamentals-domain-production.md
+ M 70_product/tasks/task_20260712_wangyuyan-graph-island-governance.md
+ M 90_control/.sandbox/proposal-168A-graph-island-governance.md
+ M 90_control/backlinks-index-snapshot-20260704.md
+ M 90_control/gate-blocked.log
+ M 90_control/l1-size.log
+ M 90_control/role-registry.json
+ M 90_control/scripts/.derived-hashes.json
+ M 90_control/session-roles.json
+ M 90_control/todos/fengqingyang.md
+ M 90_control/todos/huangyaoshi.md
+There's uncommitted work in the working tree — those modifications to task files etc. Might be in-progress B-family edits not yet committed, or leftovers. Let me check what files are modified and whether these are part of #606's in-progress work (uncommitted family edits) or stale.
+
+  The modified files include many task files — likely link-line edits from an in-progress family that wasn't committed before the 02:58 interruption. Let me see the full list and diffs briefly.
+
+  Also, I need to reconstruct the current state: run the scatter scan script to know what remains. The task said "复扫（目标<50处）" — need a scan script. The task says script: traverse 30_wiki wikilinks, exclude code blocks, resolve by vault filename. Was there a scan script already made? Check _tmp/606-work directory.40
+ M 70_product/tasks/task_20260712_wangyuyan-graph-island-governance.md
+ M 90_control/.sandbox/proposal-168A-graph-island-governance.md
+ M 90_control/backlinks-index-snapshot-20260704.md
+ M 90_control/gate-blocked.log
+ M 90_control/l1-size.log
+ M 90_control/role-registry.json
+ M 90_control/scripts/.derived-hashes.json
+ M 90_control/session-roles.json
+ M 90_control/todos/fengqingyang.md
+ M 90_control/todos/huangyaoshi.md
+ M 90_control/todos/laowantong.md
+ M 90_control/todos/ouyangfeng.md
+ M 90_control/vault-status.md
+ M _tmp_retrospective.md
+ M logs/conveyor-probe.log
+ M logs/kdo-health-cron.log
+ M logs/l1-capture.log
+ M logs/role-clock.log
+?? 60_feedback/analytics/token-usage-2026-09-02.json
+?? 60_feedback/analytics/token-usage-2026-09-02.md
+?? 60_feedback/auto/health-check-2026-09-01.md
+?? 60_feedback/diagnosis/diag_20260902_laowantong-graph-scatter-task-collision.md
+?? 60_feedback/eval-results/health_2026-09-01.md
+?? kdo-tools/__pycache__/file-flow-check.cpython-313.pyc
+?? logs/headless-huangyaoshi-20260902-025325.log
+?? logs/headless-huangyaoshi-20260902-044139.log
+?? logs/headless-laowantong-20260902-022634.log
+?? logs/headless-laowantong-20260902-044111.log
+?? logs/headless-ouyangfeng-20260902-022710.log
+?? logs/headless-skills-assistant-20260902-025340.log
+603-work
+606
+606_pending_unknown_all.txt
+b6.html
+b7.html
+b8.html
+b9.html
+baike1.html
+baike2.html
+baike3.html
+baike4.html
+baike5.html
+bing1.html
+bing2.html
+notes_586_wave1.md
+notes_586_wave2.md
+tasks.csv
+trans_parts
+total 276
+drwxr-xr-x 1 Administrator 197121     0 Sep  2 02:58 .
+drwxr-xr-x 1 Administrator 197121     0 Sep  2 02:57 ..
+-rw-r--r-- 1 Administrator 197121 18020 Sep  2 02:43 actionable.txt
+-rw-r--r-- 1 Administrator 197121  8465 Sep  2 02:41 families.txt
+-rw-r--r-- 1 Administrator 197121 19070 Sep  2 02:48 fix_agentspec.log
+-rw-r--r-- 1 Administrator 197121  4857 Sep  2 02:47 fix_agentspec.py
+-rw-r--r-- 1 Administrator 197121  6607 Sep  2 02:57 fix_rest.log
+-rw-r--r-- 1 Administrator 197121  6360 Sep  2 02:57 fix_rest.py
+-rw-r--r-- 1 Administrator 197121 79188 Sep  2 02:58 ghost_scan.json
+-rw-r--r-- 1 Administrator 197121 23999 Sep  2 02:58 ghost_scan.tsv
+-rw-r--r-- 1 Administrator 197121 22655 Sep  2 02:50 live_lines.txt
+-rw-r--r-- 1 Administrator 197121 22653 Sep  2 02:50 live_lines_clean.txt
+-rw-r--r-- 1 Administrator 197121 24825 Sep  2 02:42 panproduct_sources.txt
+-rw-r--r-- 1 Administrator 197121  1036 Sep  2 02:58 rescan_live.txt
+-rw-r--r-- 1 Administrator 197121  4168 Sep  2 02:58 scan_scatter.py
+---
+warning: in the working copy of '60_feedback/audit/ocr-foresight-18files-extraction-check.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '60_feedback/session-archives/2026-07-13/ouyangfeng.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '60_feedback/tasks/task_20260628_laowantong-link-repair-b2-synthesis-section.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '60_feedback/tasks/task_20260628_laowantong-link-repair-b3-island-cards.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '60_feedback/tasks/task_20260629_kimi-lint-content-debt-by-domain.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '60_feedback/tasks/task_20260822_laowantong-related-asymmetry-backfill.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '70_product/tasks/task_20260709_wangyuyan-key-assumptions-business-formula-agent.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '70_product/tasks/task_20260709_wangyuyan-opportunity-foresight-agent.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '70_product/tasks/task_20260711_wangyuyan-fundamentals-domain-production.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '70_product/tasks/task_20260712_wangyuyan-graph-island-governance.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '90_control/.sandbox/proposal-168A-graph-island-governance.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '90_control/backlinks-index-snapshot-20260704.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '90_control/todos/ouyangfeng.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '_tmp_retrospective.md', LF will be replaced by CRLF the next time Git touches it
+ logs/conveyor-probe.log                            |  118 +
+ logs/kdo-health-cron.log                           | 4865 ++++++++++++++++++++
+ logs/l1-capture.log                                |   24 +
+ logs/role-clock.log                                |   56 +
+ 28 files changed, 5323 insertions(+), 148 deletions(-)
+The working tree has modifications — some are #606 related (task files with link edits?), others are system logs/todos (from other agents/cron). The uncommitted task-file modifications: 60_feedback/audit/ocr-foresight..., session-archives, task files, etc. These look like they could be in-progress link edits from the interrupted session (fix_rest.py ran at 02:57, log at 02:57). Let me check fix_rest.log and the diff of one of these task files to see if they are link-line edits..agent/prompts/agent-spec-demand-iceberg-coach.md:20 RELINK framework-yitang-JTBD-iceberg-model -> framework-demand-iceberg
+.agent/prompts/agent-spec-demand-iceberg-coach.md:21 RELINK framework-yitang-demand-analysis-five-steps -> domain-demand-analysis-index
+.agent/prompts/agent-spec-demand-iceberg-coach.md:22 RELINK framework-yitang-lean-startup -> yt-lean-assumption-prioritization
+.agent/prompts/agent-spec-demand-iceberg-coach.md:108 RELINK framework-yitang-JTBD-iceberg-model -> framework-demand-iceberg
+.agent/prompts/agent-spec-demand-iceberg-coach.md:109 RELINK framework-yitang-lean-startup -> yt-lean-assumption-prioritization
+.agent/prompts/agent-spec-demand-iceberg-coach.md:112 RELINK framework-yitang-demand-analysis-five-steps -> domain-demand-analysis-index
+.agent/prompts/agent-spec-demand-iceberg-coach.md:242 RELINK framework-yitang-demand-analysis-five-steps -> domain-demand-analysis-index
+.agent/prompts/agent-spec-demand-iceberg-coach.md:244 RELINK framework-yitang-JTBD-iceberg-model -> framework-demand-iceberg
+.agent/prompts/agent-spec-demand-iceberg-coach.md:244 RELINK framework-yitang-lean-startup -> yt-lean-assumption-prioritization
+30_wiki/concepts/concept-一堂-product-kernel.md:47 RELINK concept-一堂-五步法 -> framework-一堂五步法
+30_wiki/concepts/concept-一堂-product-kernel.md:48 RELINK concept-一堂-Y模型 -> yt-decision-y-model
+30_wiki/concepts/concept-一堂-product-kernel.md:49 RELINK concept-一堂-关键假设 -> framework-一堂-关键假设
+30_wiki/concepts/concept-一堂-product-kernel.md:50 RELINK concept-一堂-单元模型 -> framework-一堂五步法-单元模型
+30_wiki/concepts/concept-一堂-product-kernel.md:51 RELINK concept-一堂-精益创业 -> framework-lean-four-principles
+30_wiki/domains/kdo-moc.md:80 RELINK kdo-charter-v01-draft -> kdo-charter-v0.1-draft
+40_outputs/content/articles/art_20260503_b2c3d4e5-ai-swarm-research-methodology.md:15 RELINK 一堂调研行动营-ai辅助系统式调研方法论 -> framework-yitang-oscar-research
+40_outputs/content/articles/art_20260503_b2c3d4e5-ai-swarm-research-methodology.md:104 RELINK 一堂调研行动营-ai辅助系统式调研方法论 -> framework-yitang-oscar-research
+40_outputs/content/articles/art_20260504_03c9d5e7-yitang-weapons-arsenal.md:43 STRIP 一堂调研武器库13招
+40_outputs/content/articles/art_20260504_03c9d5e7-yitang-weapons-arsenal.md:57 RELINK 一堂调研行动营-ai辅助系统式调研方法论 -> framework-yitang-oscar-research
+40_outputs/content/articles/art_20260504_03c9d5e7-yitang-weapons-arsenal.md:58 STRIP 一堂调研武器库13招
+40_outputs/content/articles/art_20260504_03c9d5e7-yitang-weapons-arsenal.md:69 STRIP 一堂调研武器库13招
+40_outputs/content/articles/art_20260504_03c9d5e7-yitang-weapons-arsenal.md:69 RELINK 一堂调研行动营-ai辅助系统式调研方法论 -> framework-yitang-oscar-research
+40_outputs/content/articles/art_ai_unit_model_reading_v1.md:24 RELINK yt-decision-key-hypotheses -> framework-一堂-关键假设
+40_outputs/capabilities/skills/consultant-mode-yai-style/SKILL.md:14 RELINK 刻意练习方法论 -> concept-一堂-基本功-刻意练习四要素
+40_outputs/capabilities/skills/consultant-mode-yai-style/WORKBOOK.md:13 RELINK 刻意练习方法论 -> concept-一堂-基本功-刻意练习四要素
+40_outputs/content/articles/art_20250609_yitang_hypothesis_driven_startup_v1.md:52 RELINK skill-一堂-product-kernel-canvas -> tool-agent-spec-yitang-kernel-canvas-autofill
+40_outputs/content/articles/art_20250609_yitang_hypothesis_driven_startup_v1.md:68 STRIP case-一堂-AI高考志愿-kernel-mismatch
+40_outputs/content/articles/art_20250609_yitang_hypothesis_driven_startup_v1.md:74 RELINK dk-一堂-wishful-thinking-kills-startups -> dk-yi-tang-wishful-thinking-kills-startups
+.agent/prompts/agent-一堂五步法教练.md:279 RELINK concept-一堂-product-kernel-definition -> concept-一堂-product-kernel
+huangyaoshi/skill-extraction-infrastructure-design.md:44 RELINK y-model -> yt-decision-y-model
+90_control/infrastructure-inventory.md:79 SPECIAL hooks
+90_control/infrastructure-inventory.md:81 SPECIAL hooks
+40_outputs/articles/ai-short-drama-methodology-guide.md:157 STRIP ai-short-drama-creation
+40_outputs/capabilities/workflows/ai-short-drama-creation-workflow.md:7 STRIP ai-short-drama-creation
+40_outputs/capabilities/workflows/ai-short-drama-creation-workflow.md:236 STRIP ai-short-drama-creation
+20_memory/kimi-consulting-skills-from-yai-20260629.md:13 STRIP consultant-mode-yai-style
+20_memory/user-insight-profile.md:19 STRIP consultant-mode-yai-style
+40_outputs/content/articles/从清单体到AI时代的认知重构——一堂Truman笔记法的三个核心洞察.md:61 STRIP skill-note-layer-constraint
+40_outputs/content/articles/从清单体到AI时代的认知重构——一堂Truman笔记法的三个核心洞察.md:63 STRIP skill-note-one-line-one-point
+40_outputs/content/articles/从清单体到AI时代的认知重构——一堂Truman笔记法的三个核心洞察.md:63 STRIP skill-note-keyword-bolding
+40_outputs/content/articles/从清单体到AI时代的认知重构——一堂Truman笔记法的三个核心洞察.md:73 STRIP skill-note-layer-constraint
+20_memory/embedded-debugging-retrospective-20260604.md:93 STRIP P-15 虚假完成报告
+20_memory/embedded-debugging-retrospective-20260604.md:94 STRIP C-8 格式完整思维空洞
+40_outputs/capabilities/playbooks/embedded-ir-debugging.md:146 STRIP P-21 诊断优先原则
+30_wiki/dk/dk-feishu-bot-slow-session-hygiene.md:38 STRIP framework-hermes-multi-bot-feishu-setup
+40_outputs/capabilities/skills/config-cascade-debug/SKILL.md:155 STRIP hermes-gateway-revival
+40_outputs/capabilities/skills/knowledge-collision-workflow/SKILL.md:91 STRIP 具体卡片名
+40_outputs/capabilities/skills/shared/knowledge-collision/SKILL.md:91 STRIP 具体卡片名
+30_wiki/concepts/yt-foresight-deliverables-four-levels.md:61 DEL - '[[plan_20260531_data-curator-v1]]'
+30_wiki/concepts/yt-foresight-deliverables-four-levels.md:64 DEL - '[[plan_20260531_data-curator-v1.1]]'
+30_wiki/cases/case-toc-content-platform-correlation-trap.md:58 DEL - '[[紫鲸ai_智能体工作流平台_深度分析与产品设计]]'
+30_wiki/concepts/开源HIS系统代码深度分析报告.md:30 DEL - '[[紫鲸ai_智能体工作流平台_深度分析与产品设计]]'
+30_wiki/concepts/紫鲸ai智能体工作流平台.md:26 DEL - '[[紫鲸ai_智能体工作流平台_深度分析与产品设计]]'
+{'relink': 26, 'strip': 20, 'del': 5, 'special': 2, 'left': 0}
+warning: in the working copy of '60_feedback/audit/ocr-foresight-18files-extraction-check.md', LF will be replaced by CRLF the next time Git touches it
+diff --git a/60_feedback/audit/ocr-foresight-18files-extraction-check.md b/60_feedback/audit/ocr-foresight-18files-extraction-check.md
+index 5a9cf6ae1..37ae12283 100644
+--- a/60_feedback/audit/ocr-foresight-18files-extraction-check.md
++++ b/60_feedback/audit/ocr-foresight-18files-extraction-check.md
+@@ -92,4 +92,4 @@ quality_labels:
+ - **未补全 18 张图**：按任务口径"不全量补 18 张图，只补承重层"，本轮只萃取承重 6 项 + 回链/升级，未对辅助图做卡片化。
+ - **陪诊四维**：OCR 陪诊案例01 的四维（阶段/商业模式/团队规模/营收预估）与 case-escort 现有"七级演进详解"表（L64-L72：层级/终局状态/商业模式/组织规模/典型营收）口径一致，判定已覆盖，未重复造表。
+ - **数字口径**：七段营收/亏损数为课堂经验值；示例01 第 2 段收益与 business-spectrum 不一致处已在解读卡标注取校准值。
+-- **draft/死链顺带处理**：addition-subtraction（draft）2 个 `[[pending_unknown]]` 死链已清；three-dimension 2 个死链已清并填实末尾 stub。其余老卡 frontmatter 的 src_unknown 历史遗留未改（不在本任务范围）。
++- **draft/死链顺带处理**：addition-subtraction（draft）2 个 `` 死链已清；three-dimension 2 个死链已清并填实末尾 stub。其余老卡 frontmatter 的 src_unknown 历史遗留未改（不在本任务范围）。
+The uncommitted changes include some unintended ones: the "ocr-foresight" file has a weird change — `2 个 `` 死链已清` — looks like a script mangled a backtick-quoted `` `pending_unknown` `` into empty backticks! That's the "反引号内纯文本保留不删" case being wrongly stripped. Wait — actually the fix_rest.py STRIPped `` `pending_unknown` `` inside backticks? That was explicitly to be preserved per task A.
+
+  Hmm wait, let me check: the diff shows `2 个 `[[pending_unknown]]` 死链已清` → `2 个 `` 死链已清`. So the original was backtick-wrapped wikilink (inline code), and fix_rest.py stripped `[[...]]` inside it, leaving empty backticks. That violates the red line: backtick-wrapped pure text should be preserved.
+
+  Which script did this? fix_rest.py at 02:57 was run, and the log shows STRIP/RELINK/DEL operations on various files. But wait — the commits at 02:57 (B4/B5/B6) already committed. Let me check whether these working-tree modifications were already committed or are additional leftovers. B4 commit 13d519c34 mentions those relink changes. Let me check: is the diff in ocr-foresight file already in a commit or only working tree?
+
+  The git status shows these files as modified (working tree changes not committed). So after the 02:57 commits, more changes happened — possibly a second run of fix_rest.py on remaining files (like task files in 60_feedback/70_product/90_control, session archives) that wasn't committed before interruption at 02:58.
+
+  Wait, but the fix_rest.log shows exactly the operations of B4-B6 which were committed. The uncommitted modifications include files like 60_feedback/audit/ocr-foresight..., task files etc. These might be from a *different* pass — maybe the A-family (residual pending_unknown in 31 files) pass? The instruction said "此前已完成 A/B1-B6 族". So A was done. Hmm, but was A committed? git log shows only B1-B6 commits (179626907 B1, cf1554a86 B2, d91fc6f42 B3, 13d519c34 B4, db3f42a5f B5, c5599b2e9 B6). No A commit visible in last 15. Let me look further back in git log for an A-family commit.
+
+  Also there's ghost_scan.json/tsv from 02:58 and rescan_live.txt — the rescan was run. Let me read rescan_live.txt and the scan results to see current state.
+
+  Also the uncommitted changes might be the tail of fix_rest.py run on non-30_wiki files (60_feedback tasks, 70_product tasks, 90_control) that remained uncommitted when quota died at 02:58. Let me check diffs of those files to decide whether they're legitimate #606 edits to commit or stray.
+
+  Let me read rescan_live.txt and check git log more.
+
+• 工作区有一批未提交改动，先弄清它们是 #606 尾巴还是杂项。作品名称	00_inbox/prompts/tools-workflows.md:208
+作品名称	00_inbox/prompts/tools-workflows.md:209
+作品名称	00_inbox/prompts/tools-workflows.md:210
+作品名称	10_raw/sources/src_20260522_9d322e81-tools-workflows.md:217
+作品名称	10_raw/sources/src_20260522_9d322e81-tools-workflows.md:218
+作品名称	10_raw/sources/src_20260522_9d322e81-tools-workflows.md:219
+新卡	10_raw/sources/src_20260619_833c79d5_60_feedback_corrections_corr_20260611_laowantong_机会预判域_OCR遗漏_旧卡未清理.md:78
+新卡	10_raw/sources/src_20260619_833c79d5_60_feedback_corrections_corr_20260611_laowantong_机会预判域_OCR遗漏_旧卡未清理.md:84
+Anthropic	00_inbox/Anthropic 官方发布：《创始人手册：打造 AI 原生初创公司》.md:5
+THIS_CARD_DOES_NOT_EXIST	00_inbox/_test_dead_link.md:15
+ANOTHER_FAKE_CARD	00_inbox/_test_dead_link.md:16
+5Y	10_raw/sources/src_20260610_1a72a5cb-一堂-一堂五步法-产品内核-修炼段位图.md:2678
+wujue-architecture	90_control/todos/ouyangfeng.md:239
+===
+c5599b2e9 #606 B6族：删纯链接行5处（plan_20260531_data-curator两版已归档无后继；紫鲸深度分析已归档superseded_by空）
+db3f42a5f #606 B5族：断链保文20处（计划卡从未落地/skill目录无页面/P编号为节引用非页面：去双方括号保留文字，不动正文语义）
+13d519c34 #606 B4族：幽灵链接改链28处（目标卡改名/等价卡已存在：demand-iceberg-coach九处→framework-demand-iceberg等；一堂-product-kernel五处；调研行动营→framework-yitang-oscar-research；kdo-charter-v01-draft→v0.1-draft；[[hooks]]→`[hooks]` TOML节名等；混排文件内含4处断链保文）
+d91fc6f42 #606 B3族：obsidian-kdo产品设计大纲链接删除（16文件17处纯链接行；git考古=05月归档 superseded_by空 无后继卡，删链不误导）
+179626907 #606 B1族：panproduct归档链接改链（7活文件7处：6改链→superseded_by活卡，1删链=tool-mece体系框架法行32与行28重复；快照/自动索引/历史记录不动）
+cf1554a86 #606 B2族：yitang-agent-spec幽灵链接治理（14文件124处：改链86→现存agent-spec卡/yt-product-kernel-iteration，断链保文30（计划框架卡07-15至今未产），删纯链接行8）
+8902a9942 #606 A族：残留pending_unknown占位链接行清除（10文件13行，仅删frontmatter列表占位行；反引号纯文本/[[system/pending_unknown]]合法引用保留）
+0925d41f0 chore(queue): #606 claim by laowantong-kimi
+8450d6da3 编排：F-066 建单即入队对账挂账 + todos 处置落行（#606/门铃重建/拉起老顽童）
+284e97efe 编排：#606 图谱散点治理二批撞号更正入队（原seq601未入队悬空，老顽童建议书采纳）
+warning: in the working copy of '60_feedback/audit/ocr-foresight-18files-extraction-check.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '60_feedback/session-archives/2026-07-13/ouyangfeng.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '60_feedback/tasks/task_20260628_laowantong-link-repair-b2-synthesis-section.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '60_feedback/tasks/task_20260628_laowantong-link-repair-b3-island-cards.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '60_feedback/tasks/task_20260629_kimi-lint-content-debt-by-domain.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '60_feedback/tasks/task_20260822_laowantong-related-asymmetry-backfill.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '70_product/tasks/task_20260709_wangyuyan-key-assumptions-business-formula-agent.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '70_product/tasks/task_20260709_wangyuyan-opportunity-foresight-agent.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '70_product/tasks/task_20260711_wangyuyan-fundamentals-domain-production.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '70_product/tasks/task_20260712_wangyuyan-graph-island-governance.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '90_control/.sandbox/proposal-168A-graph-island-governance.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '90_control/backlinks-index-snapshot-20260704.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '90_control/todos/ouyangfeng.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '_tmp_retrospective.md', LF will be replaced by CRLF the next time Git touches it
+ .../ocr-foresight-18files-extraction-check.md      |   2 +-
+ .../session-archives/2026-07-13/ouyangfeng.md      |   2 +-
+ .../session-archives/2026-09-02/ouyangfeng.md      |  80 +++++++-
+ ..._laowantong-link-repair-b2-synthesis-section.md |   8 +-
+ ...60628_laowantong-link-repair-b3-island-cards.md |   8 +-
+ ...sk_20260629_kimi-lint-content-debt-by-domain.md |   8 +-
+ ...260822_laowantong-related-asymmetry-backfill.md |   2 +-
+ ...yuyan-key-assumptions-business-formula-agent.md |   2 +-
+ ...260709_wangyuyan-opportunity-foresight-agent.md |   4 +-
+ ...711_wangyuyan-fundamentals-domain-production.md |   2 +-
+ ...k_20260712_wangyuyan-graph-island-governance.md |   2 +-
+ .../proposal-168A-graph-island-governance.md       |   8 +-
+ 90_control/backlinks-index-snapshot-20260704.md    |   2 +-
+ 90_control/gate-blocked.log                        |   4 +
+ 90_control/l1-size.log                             |   6 +
+ 90_control/role-registry.json                      |  14 +-
+ 90_control/scripts/.derived-hashes.json            |   4 +-
+ 90_control/session-roles.json                      |   4 +-
+ 90_control/todos/fengqingyang.md                   |   1 +
+ 90_control/todos/huangyaoshi.md                    |  10 +
+ 90_control/todos/laowantong.md                     |  12 ++
+ 90_control/todos/ouyangfeng.md                     |   4 +
+ 90_control/vault-status.md                         | 217 +++++++++++----------
+ _tmp_retrospective.md                              |   2 +-
+ 24 files changed, 260 insertions(+), 148 deletions(-)
+
+
+• The rescan_live.txt shows only 13 remaining live scattered links! Let me count: 3+3+1+2+1+1+... let me count lines: 作品名称×6, 新卡×2, Anthropic×1, THIS_CARD_DOES_NOT_EXIST×1, ANOTHER_FAKE_CARD×1, 5Y×1, wujue-architecture×1 = 13. That's already <50! But this rescan was at 02:58 — but there are uncommitted changes in the tree that happened after some commits. Wait, the rescan was 02:58, after the commits at 02:57. The uncommitted changes to task files etc. may be from a post-commit pass or from other cron processes.
+
+  Let me check what these uncommitted diffs are. The ocr-foresight diff shows `2 个 `` 死链已清` — this looks like a script stripped backtick-wrapped `` `pending_unknown` `` leaving empty backticks. That's actually BAD — per task A, backtick pure text should be preserved. But wait, was that change from my previous session or from another process? Files like 60_feedback/tasks/*, 70_product/tasks/* have small diffs (2-8 lines changed). Let me look at a few diffs to understand.
+
+  Also role-registry.json, session-roles.json, todos, vault-status.md, logs — those are from other agents/cron running (王语嫣编排， 欧阳锋， etc. and health checks). Those aren't mine to commit.
+
+  Let me examine the diffs of the task files to determine if they're link edits from the interrupted session.
+
+• 复扫结果已 <50（剩 13 处）。先查清未提交改动的来源。diff --git a/60_feedback/session-archives/2026-07-13/ouyangfeng.md b/60_feedback/session-archives/2026-07-13/ouyangfeng.md
+-| A-3 残留清单 | `30_wiki/concepts/紫鲸ai智能体工作流平台.md`（3 条 `[[pending_unknown]]`） |
++| A-3 残留清单 | `30_wiki/concepts/紫鲸ai智能体工作流平台.md`（3 条 ``） |
+diff --git a/60_feedback/tasks/task_20260628_laowantong-link-repair-b2-synthesis-section.md b/60_feedback/tasks/task_20260628_laowantong-link-repair-b2-synthesis-section.md
+-3. **无法推断的**：替换为 `[[pending_unknown]]` 或纯文本 `待补充链接`，不允许保留 `[[src_unknown]]` 死链。
+-4. **每张卡 Synthesis 出链 ≥ 2**：若正文素材不足，至少放 2 个 `[[pending_unknown]]` 占位。
++3. **无法推断的**：替换为 `` 或纯文本 `待补充链接`，不允许保留 `[[src_unknown]]` 死链。
++4. **每张卡 Synthesis 出链 ≥ 2**：若正文素材不足，至少放 2 个 `` 占位。
+diff --git a/70_product/tasks/task_20260709_wangyuyan-opportunity-foresight-agent.md b/70_product/tasks/task_20260709_wangyuyan-opportunity-foresight-agent.md
+diff --git a/_tmp_retrospective.md b/_tmp_retrospective.md
+-| A-3 残留清单 | `30_wiki/concepts/紫鲸ai智能体工作流平台.md`（3 条 `[[pending_unknown]]`） |
++| A-3 残留清单 | `30_wiki/concepts/紫鲸ai智能体工作流平台.md`（3 条 ``） |
+
+
+• These are bad changesThese previous session's script (probably an over-broad sed) stripped `` `[[pending_unknown]]` `` inside backticks (inline code), leaving empty backticks `` `` ``. Task A explicitly said: 反引号内 `pending_unknown`（纯文本，**保留不删**). So these uncommitted changes violate the red line and should be REVERTED for those content files.
+
+  Wait — but maybe these uncommitted changes are from the A-family pass that ran on files and then... A was committed (8902a9942, 10 files 13 lines). These working-tree changes are additional uncommitted edits. Where did they come from? Possibly a follow-up script run at 02:57-02:58 (fix_rest.py?) that also touched backtick forms accidentally. Or another agent's process.
+
+  The diff in task_20260709_wangyuyan-opportunity-foresight-agent.md showed no +/- lines in my grep — maybe the change is in a line without [[. Let me check it individually. Also check the other files.
+
+  Plan: For each modified non-log/non-registry file, check the diff. If it's the backtick-stripping of pending_unknown (which violates red line), revert those hunks via git checkout. The safest: revert all content-file modifications that consist of empty-backtick corruption; keep none.
+
+  But wait — could some of these diffs be legitimate link edits from the interrupted session (e.g., fixing pending_unknown in frontmatter)? The A commit message says "10文件13行" and is committed. These uncommitted ones are separate. Let me look at all remaining diffs carefully.=== 60_feedback/audit/ocr-foresight-18files-extraction-check.md
+=== 60_feedback/session-archives/2026-09-02/ouyangfeng.md
+-created_at: 2026-09-01T17:57:52.075954+00:00
+-updated_at: 2026-09-01T17:57:52.075954+00:00
+-git_head: e57cf9451
+-content_hash: 376203616f97
++created_at: 2026-09-01T18:39:37.675352+00:00
++updated_at: 2026-09-01T18:39:37.675352+00:00
++git_head: f0621569d
++content_hash: 27a5436b9de8
++# 本会话追加（2026-09-02 凌晨场·#601 终审——本日共 3 次会话）
++## 差异栏（第 1 章）
++与上两轮不同：本轮是**单一基建修复单的深终审**（#601 wechat_promote 去重根治，PASS A-），且是我自己建议书（diag_20260902_ouyangfeng-wechat-src-daily-dup）的回流单——诊断者终审施工结果，验证闭环「发现→立项→修复→终审」全链。新增取证手法：**红绿自证的逻辑仿真**——不实跑旧代码，而是 `git show 6923b058a^` 取旧函数，在脑内代入测试夹具（跨天日期+历史文件在仓）推出旧代码必复制、测试必红，红绿成立。复发的模式：无（O0/O3/O4/O5/O9 全部执行）。
++## 概要（一句话：今天做了什么）
+=== 60_feedback/tasks/task_20260628_laowantong-link-repair-b3-island-cards.md
+-| "待补充链接" → `[[pending_unknown]]` | 641 + 34 = 675 | 纯文本占位 → wikilink 占位 |
++| "待补充链接" → `` | 641 + 34 = 675 | 纯文本占位 → wikilink 占位 |
+=== 60_feedback/tasks/task_20260629_kimi-lint-content-debt-by-domain.md
+-  - 清理 `related` 中的 `[[pending_unknown]]` 占位符
++  - 清理 `related` 中的 `` 占位符
+-1. **10 个文件 `related` 中仍有 3 个 `[[pending_unknown]]` 占位**：这是 VLM 系列卡片的共同问题，后续批次可统一替换为真实相关卡。
++1. **10 个文件 `related` 中仍有 3 个 `` 占位**：这是 VLM 系列卡片的共同问题，后续批次可统一替换为真实相关卡。
+-1. **Type A 9 个文件 `related` 中仍有 3 个 `[[pending_unknown]]` 占位**：VLM 系列共同问题，后续批次可统一替换。
++1. **Type A 9 个文件 `related` 中仍有 3 个 `` 占位**：VLM 系列共同问题，后续批次可统一替换。
+=== 60_feedback/tasks/task_20260822_laowantong-related-asymmetry-backfill.md
+-| 关键修正 | **排除 system/pending_unknown 占位卡**——全量清单 455 条指向占位符，回链纪律 #384 不动 [[pending_unknown]]；脚本加排除逻辑（pending_unknown + /system/ 双排除），首次 apply 污染已回滚 + 验证 |
++| 关键修正 | **排除 system/pending_unknown 占位卡**——全量清单 455 条指向占位符，回链纪律 #384 不动；脚本加排除逻辑（pending_unknown + /system/ 双排除），首次 apply 污染已回滚 + 验证 |
+=== 70_product/tasks/task_20260709_wangyuyan-key-assumptions-business-formula-agent.md
+=== 70_product/tasks/task_20260709_wangyuyan-opportunity-foresight-agent.md
+=== 70_product/tasks/task_20260711_wangyuyan-fundamentals-domain-production.md
+=== 70_product/tasks/task_20260712_wangyuyan-graph-island-governance.md
+-| A-3 AI 簇 pending_unknown | AI 簇范围 grep `[[pending_unknown]]` + frontmatter 占位扫描 | AI 簇 related 与 frontmatter 占位均 0 ✅ |
++| A-3 AI 簇 pending_unknown | AI 簇范围 grep `` + frontmatter 占位扫描 | AI 簇 related 与 frontmatter 占位均 0 ✅ |
+=== 90_control/.sandbox/proposal-168A-graph-island-governance.md
+-| AI 簇 related 中 `[[pending_unknown]]` | — | **29 条** |
++| AI 簇 related 中 `` | — | **29 条** |
+-| 全库 related 中 `[[pending_unknown]]` | — | 1280 条（不在本次范围） |
++| 全库 related 中 `` | — | 1280 条（不在本次范围） |
+=== 90_control/backlinks-index-snapshot-20260704.md
+-## [[pending_unknown]]
++##
+Confirmed: the uncommitted changes to these content files are a bad side-effect — stripping `` `[[pending_unknown]]` `` (backtick-wrapped pure text) leaving empty backticks. Task A explicitly said preserve those. These were probably applied by a script run (maybe fix_rest.py or a pending_unknown cleanup pass) at 02:58 right before interruption, and never committed.
+
+  Also `60_feedback/audit/ocr-foresight...` and the two 70_product tasks show no +/- lines in the grep — maybe the diff lines start with something else, or the change is only whitespace/line-ending. Let me check with `git diff --numstat`. Earlier git diff --stat showed ocr-foresight 2 lines changed (1 insertion 1 deletion) — the earlier diff output DID show the pending_unknown backtick strip: `2 个 `` 死链已清`. Right, I saw that in the first diff. The grep missed it because the line contains... hmm, `- **draft/死链顺带处理**...` should match `^[-]`. Oh — the grep pattern `[-+][^-+]` excludes lines starting with `--` or `++`... `- **` should match. Weird. Maybe there were git warnings interfering. Whatever — I saw the actual diff earlier.
+
+  Decision: revert all these content-file modifications (they're the corrupted backtick strips + possibly other pending_unknown strips that weren't part of committed A work). Files to revert:
+  - 60_feedback/audit/ocr-foresight-18files-extraction-check.md
+  - 60_feedback/session-archives/2026-07-13/ouyangfeng.md
+  - 60_feedback/tasks/task_20260628_laowantong-link-repair-b2-synthesis-section.md
+  - task_20260628_laowantong-link-repair-b3-island-cards.md
+  - task_20260629_kimi-lint-content-debt-by-domain.md
+  - task_20260822_laowantong-related-asymmetry-backfill.md
+  - 70_product/tasks/task_20260709_wangyuyan-key-assumptions-business-formula-agent.md
+  - task_20260709_wangyuyan-opportunity-foresight-agent.md
+  - task_20260711_wangyuyan-fundamentals-domain-production.md
+  - task_20260712_wangyuyan-graph-island-governance.md
+  - 90_control/.sandbox/proposal-168A-graph-island-governance.md
+  - 90_control/backlinks-index-snapshot-20260704.md
+  - _tmp_retrospective.md
+
+  Not mine / leave alone (other agents' runtime state): 
+  - 60_feedback/session-archives/2026-09-02/ouyangfeng.md （欧阳锋's own session archive append — legit, leave)
+  - 90_control/gate-blocked.log, l1-size.log, role-registry.json, scripts/.derived-hashes.json, session-roles.json, todos/*, vault-status.md, logs/* — runtime, leave.
+
+  Wait — the two 70_product files (key-assumptions, opportunity-foresight) and ocr-foresight: earlier full-diff of ocr-foresight showed the pending_unknown strip. Let me verify key-assumptions and opportunity-foresight diffs before reverting.
+
+  Actually, careful: are these corrupted edits maybe from the committed A pass? No — A is committed (8902a9942). Working-tree changes are on top. The empty-backtick corruption is in working tree only. But wait — did the committed A pass also contain this corruption in other files? The A commit touched 10 files 13 lines "仅删frontmatter列表占位行". Need to verify A commit didn't also strip backticks. Let me check `git show 8902a9942 --stat` and its diff for backtick damage.
+
+  Also need to check B-family commits for the same corruption — B5 "断链保文" strips `[[...]]` — if it stripped inside backticks, that's a problem. The ocr-foresight file — was it committed in any B commit? It shows as modified in working tree, so not committed.
+
+  Plan:
+  1. Verify diffs of the 3 unclear files.
+  2. Check commit 8902a9942 (A) and B commits for backtick corruption (search committed diffs for "``" patterns where pending_unknown was removed inside backticks).
+  3. Revert working-tree corruption files.
+  4. Then remaining ghost families: rescan says 13 live links — but wait, rescan_live.txt was generated at 02:58 and includes those corrupt working-tree states? The scan targets 30_wiki? The rescan file lists files in 00_inbox, 10_raw, 90_control/todos. Hmm, scope: task says scan 30_wiki whole library. rescan_live.txt shows 13 lines but mostly outside 30_wiki — meaning 30_wiki is already clean? Or the scan covered whole vault. Let me read scan_scatter.py and rerun it to get current state.
+
+  Let me proceed.Date:   Wed Sep 2 02:31:15 2026 +0800
+
+    #606 A族：残留pending_unknown占位链接行清除（10文件13行，仅删frontmatter列表占位行；反引号纯文本/[[system/pending_unknown]]合法引用保留）
+
+ ...13Y\345\236\213\345\206\263\347\255\226\344\271\240\346\203\257.md" | 3 ---
+ .../concept-\345\217\221\347\216\260\345\206\263\347\255\226.md"       | 3 ---
+ 30_wiki/concepts/industry-ai-cases.md                                  | 1 -
+ 30_wiki/concepts/yitang-qualitative-to-quantitative.md                 | 2 --
+ 30_wiki/frameworks/yt-five-step-method-complete.md                     | 1 -
+ 30_wiki/tools/tool-devils-advocacy.md                                  | 1 -
+ 30_wiki/tools/tool-iceberg-triangle-modeling.md                        | 1 -
+ ...60-\345\206\205\346\240\270\345\222\214\350\276\271\347\225\214.md" | 1 -
+ ...75\345\234\260-\345\226\204\347\224\250\344\275\263\350\275\257.md" | 1 -
+ ...75\345\234\260-\347\201\265\346\204\237\351\227\252\347\216\260.md" | 1 -
+ 10 files changed, 15 deletions(-)
+The grep for those three files returned nothing — probably because diff lines are there but grep -a filters... Actually the first command output was empty ("Command executed successfully" with no output). Odd. Maybe those files only have line-ending or whitespace changes? Let me check with `git diff --numstat` and hexdump-ish. Actually earlier git diff --stat showed: ocr-foresight 2 lines (1+/1-), key-assumptions 2, opportunity-foresight 4, fundamentals 2, graph-island 2. And I did see the ocr-foresight diff in the very first diff call (the `` 死链已清 change). So the grep failed maybe due to encoding (Chinese in lines is fine)... `grep -av '^[-+][-+]'` should work. Hmm, maybe the diff lines start with a BOM or the git warnings went to stderr. Whatever — I'll just check each file individually when reverting.
+
+  Plan now:
+  1. Revert the corrupted working-tree files (backtick-stripped pending_unknown). Use git checkout -- for the content files list. But careful: `60_feedback/session-archives/2026-09-02/ouyangfeng.md` has legit content （欧阳锋's own session append) — NOT mine, leave it.
+
+  Wait — but is that legit? It's ouyangfeng's session archive being appended by ouyangfeng agent presumably running concurrently (headless-ouyangfeng log exists at 02:27). Yes, leave it.
+
+  2. The corrupted files list (content corruption from empty backticks):
+  - 60_feedback/audit/ocr-foresight-18files-extraction-check.md
+  - 60_feedback/session-archives/2026-07-13/ouyangfeng.md
+  - 60_feedback/tasks/task_20260628_laowantong-link-repair-b2-synthesis-section.md
+  - 60_feedback/tasks/task_20260628_laowantong-link-repair-b3-island-cards.md
+  - 60_feedback/tasks/task_20260629_kimi-lint-content-debt-by-domain.md
+  - 60_feedback/tasks/task_20260822_laowantong-related-asymmetry-backfill.md
+  - 70_product/tasks/task_20260709_wangyuyan-key-assumptions-business-formula-agent.md
+  - 70_product/tasks/task_20260709_wangyuyan-opportunity-foresight-agent.md
+  - 70_product/tasks/task_20260711_wangyuyan-fundamentals-domain-production.md
+  - 70_product/tasks/task_20260712_wangyuyan-graph-island-governance.md
+  - 90_control/.sandbox/proposal-168A-graph-island-governance.md
+  - 90_control/backlinks-index-snapshot-20260704.md
+  - _tmp_retrospective.md
+
+  These are working-tree-only corruptions — revert via git checkout. But wait: should I commit a fix instead? The red line says "只动链接行不动正文" — and these changes damage body text （反引号纯文本 must be preserved). The corruption was never committed, so reverting restores correct state. 
+
+  But hold on — maybe these changes were intentionally made by the previous session as part of B-family work-in-progress that just wasn't committed? The B families were committed at 02:57. These files (task files in 60_feedback/70_product) weren't in any of those commits. And the change pattern (strip [[pending_unknown]] inside backticks) contradicts the task's explicit A-rule. Also A commit says "反引号纯文本保留". So these working-tree edits violate the red line — they look like a stray script pass (maybe a `sed` that ran over the whole vault stripping `[[pending_unknown]]` indiscriminately). Reverting is correct.
+
+  Actually wait — could another agent (wangyuyan?) have made these? The instruction said 王语嫣 cleared 1132 placeholders in commit de51bdd84. These residual edits... The task collision diagnosis file exists: 60_feedback/diagnosis/diag_20260902_laowantong-graph-scatter-task-collision.md (untracked). Let me read it — it might explain.
+
+  3. After reverting, re-run scan_scatter.py to get current ghost state, judge remaining families, finish, commit, rescan, write report, complete.
+
+  Let me read the diagnosis file first, plus check git log for who might have touched these.That's an older diagnosis （撞号）, not about the backtick corruption. OK.
+
+  Now, where did the corrupted working-tree edits come from? They're dated to the previous session presumably (interrupted 02:58). Actually — check file mtimes. Let me check mtime of one corrupted file.
+
+  Regardless of origin, the correct action: the corruption strips backtick-wrapped `[[pending_unknown]]` leaving `` — bad. Revert those files.
+
+  But wait — one nuance: `90_control/backlinks-index-snapshot-20260704.md` had `-## [[pending_unknown]] / +##` — that's a heading destroyed. Definitely corruption. Revert.
+
+  For the todo/log/registry files — leave them (other agents' runtime writes).
+
+  Then run the scan to establish the current remaining ghosts. The rescan at 02:58 showed 13 occurrences, all outside 30_wiki (00_inbox, 10_raw, 90_control/todos) — wait but scanner scans vault-wide (SCAN_DIR = ROOT). Baseline was 870. After B1-B6 + these uncommitted edits, 13 remain? Let me rerun to verify with the tree reverted.
+
+  Remaining 13 from rescan_live.txt:
+  - 作品名称 ×6 (00_inbox/prompts/tools-workflows.md, 10_raw/sources/src_...tools-workflows.md) — these look like wikilinks `[[作品名称]]` in raw source material — templates. Scope: task is about 30_wiki mainly ("完成后复跑散点扫描（脚本：遍历 30_wiki 全库 wikilink...）") but scanner scans vault-wide. 00_inbox/10_raw are raw material zones — arguably out of governance scope. 
+  - 新卡 ×2 in 10_raw/sources — raw dump.
+  - Anthropic ×1 in 00_inbox.
+  - THIS_CARD_DOES_NOT_EXIST / ANOTHER_FAKE_CARD ×2 in 00_inbox/_test_dead_link.md — a test file, intentional.
+  - 5Y ×1 in 10_raw source.
+  - wujue-architecture ×1 in 90_control/todos/ouyangfeng.md:239.
+
+  So essentially all remaining are outside 30_wiki, in raw/inbox/test zones = "正常业务残余". Target <50 met.
+
+  But wait — I must verify there are truly zero ghosts in 30_wiki after reverting the corruption (reverting restores `[[pending_unknown]]` text inside backticks only, which scanner excludes anyway). Reverting restores headings like `## [[pending_unknown]]` in backlinks-index-snapshot — that IS a real wikilink in a heading, outside backticks! `90_control/backlinks-index-snapshot-20260704.md` line `## [[pending_unknown]]` — scanner would flag `pending_unknown`... wait no, it resolves? `system/pending_unknown.md` exists in vault, basename `pending_unknown` is in names set → resolved. OK fine.
+
+  But hold on — should I revert the snapshot file? It's a snapshot/historical record; B1 commit message said "快照/自动索引/历史记录不动". The working-tree change damages it → revert. Yes.
+
+  Also — need to double check whether the B-commits themselves contain similar backtick corruption. Let me grep the committed diffs for empty-backtick artifacts: search in commits db3f42a5f (B5 STRIP) for lines where `[[X]]` inside backticks became ``. The B5 commit did "断链保文20处" — 去双方括号保留文字. If any were inside backticks, that would violate. Let me check: `git show db3f42a5f | grep -E '^\+' | grep '``'`. Let me run checks.
+
+  Also check 20_memory/embedded-debugging-retrospective-20260604.md STRIP P-15 etc — those were in fix_rest.log and committed in B5? The log shows STRIP entries for `20_memory/embedded-debugging-retrospective-20260604.md:93 STRIP P-15 虚假完成报告`. P-15 was likely ``[[P-15]]``? In retrospective files, P-15 references... stripped to plain text "P-15 虚假完成报告" — that seems intended (P编号为节引用非页面）.
+
+  OK. Actions:
+  1. Check B-commits for backtick corruption (quick grep for `` in added lines).
+  2. Revert the 13 corrupted working-tree files.
+  3. Rerun scan_scatter.py → confirm counts.
+  4. Judge remaining 13 (all outside 30_wiki) — document as business residual; optionally fix the wujue-architecture one in ouyangfeng todos? That's another role's todo file — 90_control/todos/ouyangfeng.md — I shouldn't edit other role's todos content? It's a link `[[wujue-architecture]]`. Red line: 只动链接行. But it's 欧阳锋's todo file — editing others' todos is risky; better to leave and note in report. Actually, let me look at it first.
+  5. Write execution report (five fields) into task file, commit report + any remaining family commits.
+  6. complete 606 with evidence, verify status.
+  7. todos append line.
+  8. If quota allows, claim #609.
+
+  Let me first check B commits for corruption and the wujue line.=== 179626907
+=== cf1554a86
+=== d91fc6f42
+=== 13d519c34
+=== db3f42a5f
+=== c5599b2e9
+=== 8902a9942
+239:- [2026-09-01 06:55] ❌ **#586 终审 FAIL（打回返工）**（task_20260901_laowantong-candy-collection-batch，老顽童单）：独立复跑 16 件=12 PASS/**4 FAIL**——dk-brooks 缺 3 必需节/lobster-opt 2 处 broken wikilink [[wujue-architecture]]/agent-university 1 处 broken wikilink/deep-debug SKILL.md 缺 frontmatter 4 字段（status/reviewed_by/updated_at/title）；概念框架卡 4 张均无外部验证节（不达验收标准第 2 条）；执行报告「前会话已过 pre-submit（时钟日志实锤）」被证伪——时钟日志只有唤醒记录无执行记录，且门禁脚本 08-31 02:09 后零变更，同规则下「当时 PASS」与「现测 FAIL」不可并存。亮点保留：脱敏纪律（口喷 dk/tool 双卡）+jovida 六层交叉+obsidian-km-camp L1 实测标杆。返工清单 6 项落任务单「## 终审记录」节（1-4 机械修复约 30min，5 外部验证可标待补+理由先提审豁免口径）。流转 fb9fc3c40，队列退回 queued（rework:true，#580 F-064 不再触发 #504 拦截），老顽童修完重提
+- [2026-09-01 06:07] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-01 06:22] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#586（老顽童 的单，挂审 5min）（事件驱动：有待终审）
+- [2026-09-01 06:27] 🔔 KDO 新提审 1 单：#586，请终审（新提审）
+- [2026-09-01 06:32] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#586（老顽童 的单，挂审 15min）（事件驱动：有待终审）
+- [2026-09-01 06:55] ❌ **#586 终审 FAIL（打回返工）**（task_20260901_laowantong-candy-collection-batch，老顽童单）：独立复跑 16 件=12 PASS/**4 FAIL**——dk-brooks 缺 3 必需节/lobster-opt 2 处 broken wikilink [[wujue-architecture]]/agent-university 1 处 broken wikilink/deep-debug SKILL.md 缺 frontmatter 4 字段（status/reviewed_by/updated_at/title）；概念框架卡 4 张均无外部验证节（不达验收标准第 2 条）；执行报告「前会话已过 pre-submit（时钟日志实锤）」被证伪——时钟日志只有唤醒记录无执行记录，且门禁脚本 08-31 02:09 后零变更，同规则下「当时 PASS」与「现测 FAIL」不可并存。亮点保留：脱敏纪律（口喷 dk/tool 双卡）+jovida 六层交叉+obsidian-km-camp L1 实测标杆。返工清单 6 项落任务单「## 终审记录」节（1-4 机械修复约 30min，5 外部验证可标待补+理由先提审豁免口径）。流转 fb9fc3c40，队列退回 queued（rework:true，#580 F-064 不再触发 #504 拦截），老顽童修完重提
+- [2026-09-01 07:02] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-01 07:22] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#586（老顽童 的单，挂审 2min）（事件驱动：有待终审）
+- [2026-09-01 07:32] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#586（老顽童 的单，挂审 12min）（事件驱动：有待终审）
+- [2026-09-01 07:45] ✅ **#586 返工复审 PASS A-**（task_20260901_laowantong-candy-collection-batch，老顽童单，07:20 返工重提）：FAIL 清单 6 项逐项亲跑核验全修复——①dk-brooks 三节（L79/89/97）②③lobster+agent-university 死链 0 残留（活链接改指 framework-community-knowledge-production-failure-modes 实存）④deep-debug frontmatter 4 字段+tags 全补（YAML 解析过）⑤4 卡外部验证节符合豁免口径（层级标注+降级声明+无源主张❌如实标；TED 锚点终审者亲 curl 复现 HTTP 200+og:title 逐字一致）⑥pre-submit 16/16 终审者亲跑 PASS（26 WARNING 均 #542 不拦截级）；6 文件 src_unknown 全 0、返工无新缺陷。遗留 2 小项落停车场 O-18（F-036 落点）。流转 2f307f949，队列行 reviewed，意见书落任务单返工复审节，O-18 单独 commit ae9148ad6
+Good:
+  - B-commits clean (no `` corruption in added lines).
+  - wujue-architecture in ouyangfeng.md is a historical record of a review comment — quoting the broken wikilink. It's in another role's todo file and is a historical record. Leave it; it's "正常业务残余" (quote in review record). Don't touch other role's todos.
+
+  Now revert the 13 corrupted working-tree files. Let me build the exact list from git status, excluding runtime files (todos/logs/registry/vault-status/session-archives 09-02). Revert via git checkout --.Exit code 1 likely from the final grep finding nothing (grep returns 1 when no match) — which is actually good. Verify checkout worked. M 60_feedback/session-archives/2026-09-02/ouyangfeng.md
+ M 90_control/gate-blocked.log
+ M 90_control/l1-size.log
+ M 90_control/role-registry.json
+ M 90_control/scripts/.derived-hashes.json
+ M 90_control/session-roles.json
+ M 90_control/todos/fengqingyang.md
+ M 90_control/todos/huangyaoshi.md
+ M 90_control/todos/laowantong.md
+ M 90_control/todos/ouyangfeng.md
+ M 90_control/vault-status.md
+ M logs/conveyor-probe.log
+ M logs/kdo-health-cron.log
+ M logs/l1-capture.log
+ M logs/role-clock.log
+Corruption reverted; remaining modified files are all runtime/other-agent files — leave them.
+
+  Now rerun the scatter scan to get the current authoritative state.scanned_md=12583 total_wikilinks=75954 ghost_targets=114 ghost_occurrences=417 files_hit=56
+written: _tmp/606/ghost_scan.json / .tsv
+417 occurrences / 114 targets / 56 files — higher than the 02:58 rescan's 13? Wait, rescan_live.txt had 13 lines. Why the discrepancy? Maybe rescan_live.txt was filtered (e.g., only "live" files excluding 60_feedback/archives/00_inbox/10_raw?). The filename "rescan_live" and "live_lines_clean" suggest filtering to live content. Let me inspect the new ghost_scan.tsv grouped by target and see where the 417 are concentrated.by zone: {'30_wiki': 196, '90_control': 145, '00_inbox': 6, '10_raw': 6, '60_feedback': 58, '70_product': 6}
+
+21 _archive/panproduct/yt-panproduct-execution-roi-analysis
+19 _archive/panproduct/yt-panproduct-execution-war-room
+17 _archive/panproduct/yt-panproduct-demand-five-step-method
+17 _archive/panproduct/yt-panproduct-execution-hypothesis-decomposition
+17 _archive/panproduct/yt-panproduct-execution-logic-mece
+17 _archive/panproduct/yt-panproduct-execution-low-cost-mvp
+17 _archive/panproduct/yt-panproduct-execution-milestone-breakdown
+15 _archive/panproduct/yt-panproduct-execution-liberate-thinking
+15 _archive/panproduct/yt-panproduct-execution-management-trilogy
+13 _archive/panproduct/yt-panproduct-execution-10x-validation
+13 _archive/panproduct/yt-panproduct-execution-business-modeling
+13 _archive/panproduct/yt-panproduct-execution-design-principles
+13 _archive/panproduct/yt-panproduct-execution-idea-spark
+13 _archive/panproduct/yt-panproduct-execution-incubation-polish
+13 _archive/panproduct/yt-panproduct-execution-realistic-simulation
+13 _archive/panproduct/yt-panproduct-execution-review-iteration
+13 _archive/panproduct/yt-panproduct-execution-risk-management
+11 _archive/panproduct/yt-panproduct-execution-core-and-boundary
+11 _archive/panproduct/yt-panproduct-execution-good-tools
+7 _archive/research_methodology
+6 ��Ʒ����
+5 _archive/obsidian-kdo-���ݲ���������-��Ʒ��ƴ��
+4 �¿�
+3 _archive/�Ͼ�ai_�����幤����ƽ̨_��ȷ������Ʒ���
+3 framework-yihang-dual-triangle-core
+2 obsidian-kdo-���ݲ���������-��Ʒ��ƴ��
+2 plan_20260531_data-curator-v1
+2 plan_20260531_data-curator-v1.1
+2 yt-panproduct-execution-design-principles
+2 yt-panproduct-execution-good-tools
+2 yt-panproduct-execution-liberate-thinking
+2 yt-panproduct-execution-logic-mece
+2 yt-panproduct-execution-low-cost-mvp
+2 yt-panproduct-execution-roi-analysis
+2 �Ͼ�ai_�����幤����ƽ̨_��ȷ������Ʒ���
+2 ����Ʒ��Ʒ����� Hub
+2 tool-yitang-disguised-identity-research
+2 laowantong-batch-2026-06-20-wave3
+2 consultant-mode-yai-style
+2 content-production-polish
+417 remaining. The previous session's rescan_live.txt (13 lines) must have filtered to only certain "live" zones. The task's acceptance: "完成后复跑散点扫描（脚本：遍历 30_wiki 全库 wikilink...），目标：<50 处". So the target metric is on 30_wiki scan: currently 196 occurrences in 30_wiki. Need <50.
+
+  Wait — but the scan_scatter.py scans vault-wide. The task text says the rescan script traverses 30_wiki. Baseline 王语嫣 870 was "vault-wide scan (matches wangyuyan 01:40 baseline 870/254/295)". Hmm the comment says matches baseline. The <50 target — ambiguous whether 30_wiki only. Let me check what the previous session intended: rescan_live.txt had only 13 entries from 00_inbox/10_raw/90_control — that looks like "live_lines" filtered... Actually rescan_live.txt includes 00_inbox and 10_raw and 90_control/todos. Weird mix. Let me look at what filters produced rescan_live. Maybe it excluded 30_wiki/_archive targets? The ghost targets `_archive/panproduct/*` — these are links pointing to archived cards by path `_archive/panproduct/yt-panproduct-*`. The scanner excludes 30_wiki/_archive from the resolution set, so links TO archive paths are ghosts.
+
+  The `_archive/panproduct/yt-panproduct-*` family: 298 occurrences were the A类 in baseline. B1 commit fixed "7活文件7处" of panproduct — but there are still 21+19+17+... = ~240 occurrences pointing to `_archive/panproduct/yt-panproduct-*`. Where are these sources? In 30_wiki (196) and 90_control (145)? Let me analyze the sources for these targets.
+
+  Let me get a breakdown: for each target family, which files/zones.ARCH-panproduct 281 {'30_wiki': 150, '90_control': 131}
+ARCH-other 17 {'30_wiki': 15, '90_control': 2}
+other 119 {'00_inbox': 6, '10_raw': 6, '60_feedback': 58, '30_wiki': 31, '90_control': 12, '70_product': 6}
+
+131 30_wiki/links/index.md
+131 90_control/backlinks-index-snapshot-20260704.md
+19 30_wiki/index.md
+The panproduct archive family (281 occurrences) lives in:
+  - `30_wiki/links/index.md` (131) — auto-generated links index
+  - `90_control/backlinks-index-snapshot-20260704.md` (131) — a dated snapshot (historical record — B1 commit message said "快照/自动索引/历史记录不动")
+  - `30_wiki/index.md` (19) — the vault root index
+
+  So B1 only fixed "活文件" (7 files, 7 places) and deliberately did NOT touch snapshots/auto-indexes/historical records. That was the previous session's decision. Hmm — but those auto-generated indexes contribute 281 of the 417 ghosts.
+
+  Wait — is that right? `30_wiki/links/index.md` — is it auto-generated? Let me check. And `30_wiki/index.md`. If they're auto-generated by a script, the right fix is regenerating them or excluding them, not hand-editing.
+
+  The <50 target: with 417 vault-wide and 196 in 30_wiki, we're far from <50 if we count index files. But if the indexes are auto-generated artifacts, they may be excludable ("正常业务残余"?) Hmm, no — auto index containing 131 ghost links would still render as散点 in Obsidian graph. But wait — do links in index files render? Yes they would.
+
+  Let me check the nature of 30_wiki/links/index.md and 30_wiki/index.md. Also whether there's a generator script.---
+id: index
+title: Backlinks Index
+type: index
+status: stable
+---
+# Backlinks Index
+
+_Auto-generated index of `[[wikilink]]` references across wiki pages._
+
+## [['case-yitang-copywriting-time-decomposition']]
+- [[dk/dk-time-management-common-mistakes]]
+
+## [['concept-yitang-model-system-boundary']]
+- [[principles/principle-yitang-y-model-boundary]]
+
+## [['framework-yitang-five-step-to-time-management']]
+- [[dk/dk-time-management-common-mistakes]]
+
+## [['method-yitang-y-model-engine-cycle']]
+- [[principles/principle-yitang-y-model-boundary]]
+- [[tools/tool-Truman-AI能力分层学习路径]]
+
+## [[2026-05-17-深夜感想]]
+- [[concepts/ai时代判断力口述]]
+- [[concepts/yt-system-course-map-lecture]]
+- [[concepts/在设计小伙伴的反馈还挺好的]]
+- [[concepts/存储策略]]
+- [[concepts/老朱的水感-2026年5月]]
+
+===
+---
+
+id: index
+
+title: Wiki Index
+
+type: index
+
+status: stable
+
+---
+
+# Wiki Index
+
+
+_Last updated: 2026-08-29T16:36:37+00:00_
+
+- [[60_feedback/usage-logs/session-20260619-xingangwan-business-formula-reconstruction|对话记录：鑫港湾业务公式与商业模型计算拆分重构（2026-06-19）]] — source `src_unknown`
+- [[_archive/concept-一堂-business-prediction|商业预判：15字诀与光谱模型——从拍脑袋到科学决策]] — source `src_unknown`
+- [[_archive/obsidian-kdo-内容产出工作流-产品设计大纲|Obsidian + KDO 内容产出工作流 — 产品设计大纲]] — source `10_raw/sources/src_20260501_58b6edef-obsidian-kdo-内容产出工作流-产品设计大纲.md`
+- [[_archive/panproduct/yt-panproduct-demand-five-step-method|泛产品设计·用户卡片：一堂五步法]] — source `10_raw/sources/src_20260522_a632cc1c-ocr-泛产品设计-用户卡片-一堂五步法.md`
+- [[_archive/panproduct/yt-panproduct-execution-10x-validation|泛产品设计·落地卡片：十倍速验证]] — source `10_raw/sources/src_20260522_5bd37e0d-ocr-泛产品设计-落地卡片-十倍速验证.md`
+- [[_archive/panproduct/yt-panproduct-execution-business-modeling|泛产品设计·落地卡片：业务建模]] — source `10_raw/sources/src_20260522_f5a0f2e1-ocr-泛产品设计-落地卡片-业务建模.md`
+- [[_archive/panproduct/yt-panproduct-execution-core-and-boundary|泛产品设计·落地卡片：内核和边界]] — source `10_raw/sources/src_20260522_f3072399-ocr-泛产品设计-落地卡片-内核和边界.md`
+- [[_archive/panproduct/yt-panproduct-execution-design-principles|泛产品设计·落地卡片：设计原则]] — source `10_raw/sources/src_20260522_9eaf7399-ocr-泛产品设计-落地卡片-设计原则.md`
+- [[_archive/panproduct/yt-panproduct-execution-good-tools|泛产品设计·落地卡片：善用佳软]] — source `10_raw/sources/src_20260522_7ddf8bf2-ocr-泛产品设计-落地卡片-善用佳软.md`
+- [[_archive/panproduct/yt-panproduct-execution-hypothesis-decomposition|泛产品设计·落地卡片：假设拆解]] — source `10_raw/sources/src_20260522_eb90d179-ocr-泛产品设计-落地卡片-假设拆解.md`
+- [[_archive/panproduct/yt-panproduct-execution-idea-spark|泛产品设计·落地卡片：灵感闪现]] — source `10_raw/sources/src_20260522_e861d61d-ocr-泛产品设计-落地卡片-灵感闪现.md`
+- [[_archive/panproduct/yt-panproduct-execution-incubation-polish|泛产品设计·落地卡片：酝酿式打磨]] — source `10_raw/sources/src_20260522_2bcc3531-ocr-泛产品设计-落地卡片-酝酿式打磨.md`
+- [[_archive/panproduct/yt-panproduct-execution-liberate-thinking|泛产品设计·落地卡片：解放思想]] — source `10_raw/sources/src_20260522_c2c6b487-ocr-泛产品设计-落地卡片-解放思想.md`
+===
+  29181 30_wiki/links/index.md
+   2875 30_wiki/index.md
+  32056 total
+So:
+  - `30_wiki/index.md` — auto-generated ("Last updated" timestamp), contains links like `[[_archive/panproduct/yt-panproduct-...]]` which actually RESOLVE to real files in `30_wiki/_archive/panproduct/`. Wait — the scanner excludes `30_wiki/_archive` from the resolution set. But these targets are real files! Links pointing at archive paths are NOT真正散点 in Obsidian — Obsidian resolves them fine since the files exist. The scanner deliberately excluded _archive from resolution to treat links-to-archive as ghosts per wangyuyan's baseline classification (A类 298 = links to _archive).
+
+  Hmm wait, but B1 already handled "源卡在 30_wiki 正文，目标已归档；改链指向归档路径或删链". The remaining ones are in auto-generated index files. 
+
+  Key question: are `30_wiki/index.md` and `30_wiki/links/index.md` auto-generated by a script that will regenerate? If auto-generated, hand-editing is pointless — the generator must be fixed (that's 黄药师 infra territory), OR these files are stale artifacts.
+
+  Let me find the generator. Search kdo-tools for "Backlinks Index" / "Wiki Index".de51bdd84 wyy(直改已验证): pending_unknown占位清理466文件1132处+占位卡降权；frontmatter抽查OK；残留31文件+870真散点移交#601
+a2867360a KDO: 注册战略笃定篇L3提取案例+更新L3技能卡(window分段滚动法) [段王爷]
+f3a0bf336 feat(tags): #500 第二批小域 65 卡映射治理（#426 收官）
+ccaa8bf25 feat(domain): #493 域归域治理——yitang 拆分 + unknown 补域 + 来源词清 tags
+4670363fa feat(links): #411 第二十三批 related-asymmetry 回填——250 条（186 张卡：tools/cases 广覆盖）
+===
+e1381e63e feat(knowledge): 沉淀飞书bot慢排障dk卡 + hermes-multi-bot-feishu-setup skill挂载KDO vault
+a2867360a KDO: 注册战略笃定篇L3提取案例+更新L3技能卡(window分段滚动法) [段王爷]
+f9be5392f #570 agent-spec孪生合并：hongqigong/duanwangye两对合一（agent-specs/为主线，tools/版删除，index.md改指） by laowantong
+ccaa8bf25 feat(domain): #493 域归域治理——yitang 拆分 + unknown 补域 + 来源词清 tags
+4670363fa feat(links): #411 第二十三批 related-asymmetry 回填——250 条（186 张卡：tools/cases 广覆盖）
+Interesting: 王语嫣's first-batch commit de51bdd84 touched `30_wiki/links/index.md` too. These index files are auto-generated (by some tooling, possibly `kdo` CLI or an external script not in this repo's kdo-tools — "Auto-generated index"). Hand-editing them is possible but they'd regenerate stale. However, they were last regenerated... `30_wiki/index.md` says "Last updated: 2026-08-29". The panproduct cards were archived when? The B1 note: target archived. If index.md still lists them, the index is stale.
+
+  Options for the ARCH-panproduct family in these 3 files:
+  1. The targets `_archive/panproduct/yt-panproduct-*` actually EXIST as files in 30_wiki/_archive/panproduct/. Verify. If they exist, these links are valid in Obsidian — they only count as "ghosts" because the scanner excludes _archive from resolution. The baseline classified A类（指向 _archive）298/24 as one category. B1 fixed live正文 sources. The remaining occurrences are in index/snapshot files.
+
+  Task says for panproduct族： "改链指向归档路径或删链". The index links ALREADY point to archive paths (`[[_archive/panproduct/yt-panproduct-...]]`). If the files exist, they're not real散点 in Obsidian — the graph would show them connected (or hidden by showOrphans=false / hideUnresolved — they'd resolve, so they appear as nodes). Hmm, but archived cards in the graph = clutter. Actually wait, are the panproduct files still in _archive? Let me verify.
+
+  Also let me reconsider: is fixing auto-generated index files in scope? The red line: 只动链接行不动正文. Index files are pure link lines. The task explicitly named the panproduct族 298处/24目标 as a known big family to adjudicate. B1 only did 7. The remaining 281 are in links/index.md (131), backlinks snapshot (131), 30_wiki/index.md (19). 
+
+  The snapshot is a historical record — B1 message said "快照/自动索引/历史记录不动". So the previous session deliberately excluded:
+  - 90_control/backlinks-index-snapshot-20260704.md (historical snapshot)
+  - auto indexes? "快照/自动索引/历史记录不动" — yes, auto-index excluded too.
+
+  So previous session's adjudication: don't touch auto-generated indexes and snapshots. That's a family-level decision already made. Then the remaining "real" work: the 'other' 119 occurrences + ARCH-other 17. And the target <50: presumably measured on... hmm. If indexes excluded by adjudication, the rescan should exclude them too. rescan_live.txt (13 lines) — matches "other" minus...? other=119 vs rescan_live 13. No.
+
+  Wait, rescan_live was generated at 02:58 — before or after ghost_scan.json? ghost_scan.json is also 02:58. rescan_live.txt content (13 lines) might be "live_lines" filtered from the scan — maybe filtering out _archive targets, index files, snapshots. Let me check: rescan_live entries were 作品名称（00_inbox, 10_raw), 新卡（10_raw), Anthropic(00_inbox), test file, 5Y(10_raw), wujue-architecture(90_control/todos). That's a filtered view — probably "files that are live content, excluding 30_wiki?" No wait, it excluded 30_wiki entirely, which would be wrong.
+
+  Hmm, actually maybe rescan_live excluded 30_wiki because at that point the script's SCAN_DIR was changed to 30_wiki and "live" meant something else... Let me just look at live_lines_clean.txt and how rescan_live was made — but the generating script may not exist anymore. Let me instead define the acceptance properly myself:
+
+  Task C: "完成后复跑散点扫描（脚本：遍历 30_wiki 全库 wikilink，排除代码块，按 vault 文件名解析，目标不存在=散点），目标：<50 处（正常业务残余）"
+
+  So the rescan metric = 30_wiki only. Current 30_wiki ghosts: 196. Of those, 150 are ARCH-panproduct (in links/index.md 131 + index.md 19). If the adjudication for those is "auto-index regeneration handles it / links point to existing archive files", then excluding them: 196-150 = 46 < 50. Close!
+
+  Let me verify whether `_archive/panproduct/yt-panproduct-*` files actually exist in 30_wiki/_archive. If yes, those links resolve in Obsidian and aren't真散点 — scanner artifact by design (scanner excludes archive from resolution set deliberately to surface them for adjudication). The adjudication for auto-index entries pointing to existing archive files = 保留（链接有效）, or delete? In Obsidian, clicking them works. They show archive cards in graph though. But task红线： only touch link lines; and previous decision: 自动索引不动.
+
+  Let me check the remaining 46 non-panproduct 30_wiki ghosts in detail — those need adjudication. And ARCH-other 15 in 30_wiki. Let me list all 30_wiki-sourced ghosts excluding panproduct-in-index-files.yt-panproduct-demand-five-step-method.md
+yt-panproduct-execution-10x-validation.md
+yt-panproduct-execution-business-modeling.md
+yt-panproduct-execution-core-and-boundary.md
+yt-panproduct-execution-design-principles.md
+yt-panproduct-execution-good-tools.md
+yt-panproduct-execution-hypothesis-decomposition.md
+yt-panproduct-execution-idea-spark.md
+19
+The second command returned nothing? That means all 30_wiki ghosts are ONLY in links/index.md and index.md! Let me verify: 30_wiki total was 196 = 150 panproduct + others. Let me recount by file.172 30_wiki/links/index.md
+24 30_wiki/index.md
+total 196
+All 196 remaining 30_wiki ghosts live in exactly two auto-generated index files:
+  - `30_wiki/links/index.md` (172)
+  - `30_wiki/index.md` (24)
+
+  And the panproduct targets exist as real files in `30_wiki/_archive/panproduct/` (19 files). So in Obsidian these links resolve fine — they're "ghosts" only under the scanner's deliberate archive-exclusion rule.
+
+  Breakdown of the 196: ARCH-panproduct 150 (131+19), plus 46 others in these two index files. What are the other targets in the index files? Let me list non-panproduct ghosts in those two files.1 30_wiki/index.md -> _archive/obsidian-kdo-���ݲ���������-��Ʒ��ƴ��
+1 30_wiki/index.md -> _archive/plan_20260531_data-curator-v1
+1 30_wiki/index.md -> _archive/plan_20260531_data-curator-v1.1
+1 30_wiki/index.md -> _archive/research_methodology
+1 30_wiki/index.md -> _archive/�Ͼ�ai_�����幤����ƽ̨_��ȷ������Ʒ���
+4 30_wiki/links/index.md -> _archive/obsidian-kdo-���ݲ���������-��Ʒ��ƴ��
+5 30_wiki/links/index.md -> _archive/research_methodology
+1 30_wiki/links/index.md -> _archive/�Ͼ�ai_�����幤����ƽ̨_��ȷ������Ʒ���
+1 30_wiki/links/index.md -> concept-һ��-Yģ��
+1 30_wiki/links/index.md -> concept-һ��-�岽��
+1 30_wiki/links/index.md -> concept-һ��-�ؼ�����
+1 30_wiki/links/index.md -> concept-һ��-��Ԫģ��
+1 30_wiki/links/index.md -> concept-һ��-���洴ҵ
+1 30_wiki/links/index.md -> framework-yitang-ability-migration-matrix
+1 30_wiki/links/index.md -> framework-yitang-aesthetic-radar
+1 30_wiki/links/index.md -> framework-yitang-beautiful-work-standard
+1 30_wiki/links/index.md -> framework-yitang-card-dealing-strategy
+1 30_wiki/links/index.md -> framework-yitang-product-iteration-loop
+1 30_wiki/links/index.md -> framework-yitang-project-background-8d
+1 30_wiki/links/index.md -> framework-yitang-project-planning-trinity
+1 30_wiki/links/index.md -> framework-yitang-scenario-walkthrough
+1 30_wiki/links/index.md -> framework-yitang-user-perspective-training
+1 30_wiki/links/index.md -> kdo-charter-v01-draft
+1 30_wiki/links/index.md -> obsidian-kdo-���ݲ���������-��Ʒ��ƴ��
+1 30_wiki/links/index.md -> plan_20260531_data-curator-v1
+1 30_wiki/links/index.md -> plan_20260531_data-curator-v1.1
+1 30_wiki/links/index.md -> tool-yitang-ability-migration-diagnosis
+1 30_wiki/links/index.md -> tool-yitang-aesthetic-radar-modeling
+1 30_wiki/links/index.md -> tool-yitang-beautiful-work-imagination
+1 30_wiki/links/index.md -> tool-yitang-project-background-analysis
+1 30_wiki/links/index.md -> tool-yitang-sales-toolkit-gap
+1 30_wiki/links/index.md -> tool-yitang-scenario-walkthrough
+1 30_wiki/links/index.md -> yt-panproduct-execution-design-principles
+1 30_wiki/links/index.md -> yt-panproduct-execution-good-tools
+1 30_wiki/links/index.md -> yt-panproduct-execution-liberate-thinking
+1 30_wiki/links/index.md -> yt-panproduct-execution-logic-mece
+1 30_wiki/links/index.md -> yt-panproduct-execution-low-cost-mvp
+1 30_wiki/links/index.md -> yt-panproduct-execution-roi-analysis
+1 30_wiki/links/index.md -> �Ͼ�ai_�����幤����ƽ̨_��ȷ������Ʒ���
+(Encoding mojibake in console, but structure is clear.)
+
+  So 30_wiki remaining ghosts = all inside two auto-generated index files. These are auto-generated from link extraction; hand-fixing them conflicts with "自动索引不动" decision and they'd regenerate. But leaving them means the rescan shows 196 in 30_wiki > 50 target.
+
+  Options:
+  1. Regenerate the index files — but the generator isn't found in the repo (Grep found no generator for "Auto-generated index of"). Actually check `.kdo` or kdo CLI? "Backlinks Index" appeared in logs/headless-laowantong — meaning a previous laowantong session dealt with it. Let me check what generated it — maybe `kdo` CLI binary. `90_control/scripts/fix-index-links.py` exists. Also `_analyze_index_links.py` and `_verify_sprint4.py` at root.
+
+  Actually, wait. Let me reconsider the task's <50 target. Task says "完成后复跑散点扫描（脚本：遍历 30_wiki 全库 wikilink，排除代码块，按 vault 文件名解析，目标不存在=散点），目标：<50 处（正常业务残余）". 
+
+  "按 vault 文件名解析，目标不存在=散点" — note: by VAULT filename resolution. Under this rule, `_archive/panproduct/yt-panproduct-execution-roi-analysis` — the basename `yt-panproduct-execution-roi-analysis` EXISTS in the vault (in 30_wiki/_archive/). So "按 vault 文件名解析" these RESOLVE! My scanner deliberately excluded _archive from the resolution set (to match wangyuyan's baseline 870 which treated A类 archive-links as ghosts). But the task's rescan definition says resolve by vault filename — which would count archive files as valid targets.
+
+  Hmm, there's tension: the scanner comment says "matches wangyuyan 01:40 baseline 870/254/295" and baseline split A类（指向_archive）298. So the baseline counted archive-pointing links as散点. But the task's own rescan definition says "按 vault 文件名解析，目标不存在=散点" — under that definition, archive links resolve (files exist) → not散点.
+
+  Which to use for the <50 check? The task's rescan definition is authoritative for acceptance. Let me compute: rerun scan with _archive INCLUDED in the resolution set. Then links to existing archive files resolve. What remains?
+
+  Also the `_archive/research_methodology`, `_archive/obsidian-kdo-...` — do those exist? Let me check. And `concept-一堂-Y模型` etc (the mojibake ones, from links/index.md).
+
+  Let me modify approach: run a variant scan including _archive in resolution set, and see 30_wiki count.30_wiki scanned=2943 wikilinks=56729 ghost_targets=21 ghost_occ=21
+1 concept-一堂-Y模型 -> 30_wiki/links/index.md
+1 concept-一堂-五步法 -> 30_wiki/links/index.md
+1 concept-一堂-关键假设 -> 30_wiki/links/index.md
+1 concept-一堂-单元模型 -> 30_wiki/links/index.md
+1 concept-一堂-精益创业 -> 30_wiki/links/index.md
+1 framework-yitang-ability-migration-matrix -> 30_wiki/links/index.md
+1 framework-yitang-aesthetic-radar -> 30_wiki/links/index.md
+1 framework-yitang-beautiful-work-standard -> 30_wiki/links/index.md
+1 framework-yitang-card-dealing-strategy -> 30_wiki/links/index.md
+1 framework-yitang-product-iteration-loop -> 30_wiki/links/index.md
+1 framework-yitang-project-background-8d -> 30_wiki/links/index.md
+1 framework-yitang-project-planning-trinity -> 30_wiki/links/index.md
+1 framework-yitang-scenario-walkthrough -> 30_wiki/links/index.md
+1 framework-yitang-user-perspective-training -> 30_wiki/links/index.md
+1 kdo-charter-v01-draft -> 30_wiki/links/index.md
+1 tool-yitang-ability-migration-diagnosis -> 30_wiki/links/index.md
+1 tool-yitang-aesthetic-radar-modeling -> 30_wiki/links/index.md
+1 tool-yitang-beautiful-work-imagination -> 30_wiki/links/index.md
+1 tool-yitang-project-background-analysis -> 30_wiki/links/index.md
+1 tool-yitang-sales-toolkit-gap -> 30_wiki/links/index.md
+1 tool-yitang-scenario-walkthrough -> 30_wiki/links/index.md
+With the task-defined rescan semantics (vault-wide filename resolution, archive files count as existing), 30_wiki has only 21 ghost occurrences, all in `30_wiki/links/index.md` — already <50. 
+
+  These 21 are stale entries in the auto-generated backlinks index pointing to never-created plan cards (framework-yitang-* family — the same ones B2 adjudicated as "计划框架卡07-15至今未产，断链保文" in正文） and concept-一堂-* （旧名， B4改链过正文） and kdo-charter-v01-draft (B4改链过）. The index is stale/auto-generated — the right fix is regeneration by黄药师's tooling, or manual removal of those stale lines.
+
+  红线： 只动链接行不动正文 — in an index file, every line IS a link line. Removing stale ghost headings from the auto-generated index... but "自动索引不动" was the B1 decision rationale. Hmm, but that decision was about the A类 archive family （指向已归档实存文件——链接本身有效，只是散点扫描口径排除archive). For these 21 truly-nonexistent targets, the index entries are genuinely dead.
+
+  Options:
+  a) Leave them, report as auto-index staleness, recommend黄药师 regenerate index → 30_wiki 真散点=0 in正文， 21 in auto-index.
+  b) Delete the 21 dead lines from links/index.md (pure link lines, red-line compliant).
+
+  Careful with (b): the index format — each ghost target appears as a `## [[target]]` heading followed by source link lines. Deleting just the heading line would orphan the source lines under the previous heading. Let me look at the structure around these entries. E.g. `## [[framework-yitang-ability-migration-matrix]]` followed by `- [[source]]` lines. If I delete the whole block (heading + its source list), I'm deleting link lines only. That's within红线 and matches B2's adjudication （断链保文 in正文； in an index, there's no "文" to保， so delete).
+
+  But wait — is regenerating safer? The generator wasn't found. de51bdd84 （王语嫣） edited links/index.md directly in her cleanup. So direct editing of this file is precedented in this very task family.
+
+  Let me check the file structure for these 21 targets and delete the blocks. Each ghost target = a `## [[...]]` section header. Let me extract the relevant sections.
+
+  Actually, first check: does each target appear as heading `## [[target]]` in links/index.md? The scanner found line numbers. Let me view a couple.14015 'obsidian-kdo-���ݲ���������-��Ʒ��ƴ��' 'obsidian-kdo-���ݲ���������-��Ʒ��ƴ��'
+14629 'plan_20260531_data-curator-v1' 'plan_20260531_data-curator-v1'
+14632 'plan_20260531_data-curator-v1.1' 'plan_20260531_data-curator-v1.1'
+27452 'yt-panproduct-execution-design-principles' 'yt-panproduct-execution-design-principles'
+27455 'yt-panproduct-execution-good-tools' 'yt-panproduct-execution-good-tools'
+27458 'yt-panproduct-execution-liberate-thinking' 'yt-panproduct-execution-liberate-thinking'
+27461 'yt-panproduct-execution-logic-mece' 'yt-panproduct-execution-logic-mece'
+27464 'yt-panproduct-execution-low-cost-mvp' 'yt-panproduct-execution-low-cost-mvp'
+27468 'yt-panproduct-execution-roi-analysis' 'yt-panproduct-execution-roi-analysis'
+29059 '�Ͼ�ai_�����幤����ƽ̨_��ȷ������Ʒ���' '�Ͼ�ai_�����幤����ƽ̨_��ȷ������Ʒ���'
+6060 'concept-һ��-Yģ��' 'concept-һ��-Yģ��'
+6192 'concept-һ��-�岽��' 'concept-һ��-�岽��'
+6215 'concept-һ��-�ؼ�����' 'concept-һ��-�ؼ�����'
+6237 'concept-һ��-��Ԫģ��' 'concept-һ��-��Ԫģ��'
+6355 'concept-һ��-���洴ҵ' 'concept-һ��-���洴ҵ'
+11341 'framework-yitang-ability-migration-matrix' 'framework-yitang-ability-migration-matrix'
+11344 'framework-yitang-aesthetic-radar' 'framework-yitang-aesthetic-radar'
+11347 'framework-yitang-beautiful-work-standard' 'framework-yitang-beautiful-work-standard'
+11350 'framework-yitang-card-dealing-strategy' 'framework-yitang-card-dealing-strategy'
+11637 'framework-yitang-product-iteration-loop' 'framework-yitang-product-iteration-loop'
+11665 'framework-yitang-project-background-8d' 'framework-yitang-project-background-8d'
+11732 'framework-yitang-project-planning-trinity' 'framework-yitang-project-planning-trinity'
+11870 'framework-yitang-scenario-walkthrough' 'framework-yitang-scenario-walkthrough'
+12046 'framework-yitang-user-perspective-training' 'framework-yitang-user-perspective-training'
+13137 'kdo-charter-v01-draft' 'kdo-charter-v01-draft'
+18064 'tool-yitang-ability-migration-diagnosis' 'tool-yitang-ability-migration-diagnosis'
+18067 'tool-yitang-aesthetic-radar-modeling' 'tool-yitang-aesthetic-radar-modeling'
+18142 'tool-yitang-beautiful-work-imagination' 'tool-yitang-beautiful-work-imagination'
+18612 'tool-yitang-project-background-analysis' 'tool-yitang-project-background-analysis'
+19011 'tool-yitang-sales-toolkit-gap' 'tool-yitang-sales-toolkit-gap'
+19059 'tool-yitang-scenario-walkthrough' 'tool-yitang-scenario-walkthrough'
+- [[tools/tool-devils-advocacy]]
+- [[tools/tool-red-team-analysis]]
+
+## [[framework-yitang-ability-migration-matrix]]
+- [[tools/tool-agent-spec-yitang-ability-migration-diagnosis]]
+
+## [[framework-yitang-aesthetic-radar]]
+- [[tools/tool-agent-spec-yitang-aesthetic-radar-modeling]]
+
+## [[framework-yitang-beautiful-work-standard]]
+- [[tools/tool-agent-spec-yitang-beautiful-work-imagination]]
+
+## [[framework-yitang-card-dealing-strategy]]
+- [[tools/tool-agent-spec-yitang-card-dealing-guide]]
+
+- [[tools/tool-yitang-research-validate-assumption]]
+
+## [[framework-yitang-product-iteration-loop]]
+- [[tools/tool-agent-spec-yitang-aesthetic-radar-modeling]]
+- [[tools/tool-agent-spec-yitang-beautiful-work-imagination]]
+- [[tools/tool-agent-spec-yitang-card-dealing-guide]]
+- [[systems/sprint-2-gate-enrich-evidence]]
+
+## [[plan_20260531_data-curator-v1]]
+- [[concepts/yt-foresight-deliverables-four-levels]]
+
+## [[plan_20260531_data-curator-v1.1]]
+- [[concepts/yt-foresight-deliverables-four-levels]]
+
+## [[plan_20260531_data-curator-v1.3]]
+- [[entities/一堂]]
+
+## [[yt-panproduct-execution-design-principles]]
+- [[concepts/design-ai-image-generation]]
+
+## [[yt-panproduct-execution-good-tools]]
+- [[concepts/tools-workflows]]
+
+## [[yt-panproduct-execution-liberate-thinking]]
+- [[concepts/learning-thinking]]
+
+## [[yt-panproduct-execution-logic-mece]]
+- [[tools/tool-mece体系框架法]]
+
+## [[yt-panproduct-execution-low-cost-mvp]]
+- [[dark-knowledges/dk-yb1-aigc-mvp-before-ps]]
+- [[tools/yt-product-kernel-mvp-design]]
+
+## [[yt-panproduct-execution-roi-analysis]]
+- [[tools/yt-growth-channel-roi]]
+
+Interesting. The structure: `## [[target]]` heading = a backlinked target; the lines below are source pages linking to it.
+
+  Cases in links/index.md:
+  1. Ghost target headings where the target doesn't exist:
+     - `## [[framework-yitang-*]]` etc. — target never existed. These headings + their source list are stale. BUT NOTE: the source lists say which pages link to the ghost. B2 already cleaned the source cards （改链/断链保文）. So the index is stale relative to current content — regenerating would drop these sections entirely.
+     - `## [[plan_20260531_data-curator-v1]]` — source `concepts/yt-foresight-deliverables-four-levels` — B6 deleted those link lines in the source. Stale index.
+     - `## [[yt-panproduct-execution-*]]` — sources: `concepts/design-ai-image-generation`, `concepts/tools-workflows`, etc. Wait — do those source files still contain `[[yt-panproduct-execution-design-principles]]` (without _archive prefix)? The ghost scan found `yt-panproduct-execution-design-principles` ×2 as targets from other sources. Let me check where. In the full vault scan, targets `yt-panproduct-execution-*` (no prefix) ×2 each — sources probably in 60_feedback or these concept files. If the concept files still link to bare `yt-panproduct-execution-*`, those are real live ghosts to fix （改链 → `_archive/panproduct/yt-panproduct-*` which exists).
+
+  Let me check: grep for `\[\[yt-panproduct-execution-design-principles\]\]` in 30_wiki/concepts/design-ai-image-generation.md.
+
+  Actually wait — the vault-wide ghost scan's target list showed `yt-panproduct-execution-design-principles` ×2 etc. Let me find their sources from ghost_scan.json.
+
+  2. The 30_wiki/index.md (24 ghosts): mostly `_archive/panproduct/*` links — those resolve in Obsidian (files exist); only ghosts under scanner exclusion. Under task-defined rescan semantics they resolve. So no action needed. Except 5 non-panproduct: `_archive/obsidian-kdo-内容产出工作流-产品设计大纲`, `_archive/plan_20260531_data-curator-v1`, `_archive/plan_20260531_data-curator-v1.1`, `_archive/research_methodology`, `_archive/紫鲸...`. Do those archive files exist? If not, they're真ghosts in the auto index.
+
+  Let me check existence:
+  - 30_wiki/_archive/obsidian-kdo-内容产出工作流-产品设计大纲.md?
+  - 30_wiki/_archive/plan_20260531_data-curator-v1.md / v1.1?
+  - 30_wiki/_archive/research_methodology.md?
+  - 30_wiki/_archive/紫鲸ai_智能体工作流平台_深度分析与产品设计.md?
+
+  B3 said obsidian-kdo大纲 was archived ("05月归档") — so `_archive/obsidian-kdo-...` may exist. B6 said data-curator两版已归档， 紫鲸已归档.
+
+  So action plan for C族收尾 (final family, call it B7 or C族）:
+  1. In 30_wiki/links/index.md: delete stale ghost sections (heading + source list) for never-existing targets: framework-yitang-*(9), tool-yitang-*(6), concept-一堂-*(5), kdo-charter-v01-draft(1), plan_data-curator v1/v1.1(2), obsidian-kdo大纲 bare(1), 紫鲸 bare(1), yt-panproduct-execution bare(6+?)... wait the bare `yt-panproduct-execution-*` — do sources still link bare? Need to check the source files first. If source still has bare link, fix the source （改链 to _archive path) — that's real content fix, then index entry becomes stale anyway.
+
+  Let me check sources of bare yt-panproduct targets in the full scan._archive/research_methodology <- 30_wiki/index.md:43 _archive/research_methodology|Kimi ��ȵ��м�Ⱥ������ (Deep-Research-
+_archive/research_methodology <- 30_wiki/links/index.md:426 _archive/research_methodology
+_archive/research_methodology <- 30_wiki/links/index.md:13322 _archive/research_methodology
+_archive/research_methodology <- 30_wiki/links/index.md:13429 _archive/research_methodology
+_archive/research_methodology <- 30_wiki/links/index.md:16829 _archive/research_methodology
+_archive/research_methodology <- 30_wiki/links/index.md:18863 _archive/research_methodology
+_archive/research_methodology <- 90_control/backlinks-index-snapshot-20260704.md:4771 _archive/research_methodology
+plan_20260531_data-curator-v1 <- 30_wiki/links/index.md:14629 plan_20260531_data-curator-v1
+plan_20260531_data-curator-v1 <- 90_control/backlinks-index-snapshot-20260704.md:7697 plan_20260531_data-curator-v1
+plan_20260531_data-curator-v1.1 <- 30_wiki/links/index.md:14632 plan_20260531_data-curator-v1.1
+plan_20260531_data-curator-v1.1 <- 90_control/backlinks-index-snapshot-20260704.md:7700 plan_20260531_data-curator-v1.1
+yt-panproduct-execution-design-principles <- 30_wiki/links/index.md:27452 yt-panproduct-execution-design-principles
+yt-panproduct-execution-design-principles <- 90_control/backlinks-index-snapshot-20260704.md:15824 yt-panproduct-execution-design-principles
+yt-panproduct-execution-good-tools <- 30_wiki/links/index.md:27455 yt-panproduct-execution-good-tools
+yt-panproduct-execution-good-tools <- 90_control/backlinks-index-snapshot-20260704.md:15827 yt-panproduct-execution-good-tools
+yt-panproduct-execution-liberate-thinking <- 30_wiki/links/index.md:27458 yt-panproduct-execution-liberate-thinking
+yt-panproduct-execution-liberate-thinking <- 90_control/backlinks-index-snapshot-20260704.md:15830 yt-panproduct-execution-liberate-thinking
+yt-panproduct-execution-logic-mece <- 30_wiki/links/index.md:27461 yt-panproduct-execution-logic-mece
+yt-panproduct-execution-logic-mece <- 90_control/backlinks-index-snapshot-20260704.md:15833 yt-panproduct-execution-logic-mece
+yt-panproduct-execution-low-cost-mvp <- 30_wiki/links/index.md:27464 yt-panproduct-execution-low-cost-mvp
+yt-panproduct-execution-low-cost-mvp <- 90_control/backlinks-index-snapshot-20260704.md:15836 yt-panproduct-execution-low-cost-mvp
+yt-panproduct-execution-roi-analysis <- 30_wiki/links/index.md:27468 yt-panproduct-execution-roi-analysis
+yt-panproduct-execution-roi-analysis <- 90_control/backlinks-index-snapshot-20260704.md:15840 yt-panproduct-execution-roi-analysis
+_archive/plan_20260531_data-curator-v1.1 <- 30_wiki/index.md:40 _archive/plan_20260531_data-curator-v1.1|plan_20260531_data-
+_archive/plan_20260531_data-curator-v1 <- 30_wiki/index.md:41 _archive/plan_20260531_data-curator-v1|Data Curator Skill �� 
+yt-panproduct-execution-core-and-boundary <- 90_control/backlinks-index-snapshot-20260704.md:15821 yt-panproduct-execution-core-and-boundary
+obsidian-kdo-内容产出工作流-产品设计大纲.md
+plan_20260531_data-curator-v1.1.md
+plan_20260531_data-curator-v1.md
+research_methodology.md
+紫鲸ai_智能体工作流平台_深度分析与产品设计.md
+===
+19
+Key findings:
+  - All `_archive/*` targets exist as real files in `30_wiki/_archive/` → they resolve in Obsidian, not true散点. No action.
+  - Bare `yt-panproduct-execution-*` (no prefix) and bare `plan_20260531_data-curator-*` appear ONLY in the two auto-index files (links/index.md + snapshot) — the source正文 already fixed by B1/B6. So these are stale index entries.
+  - `_archive/research_methodology` — file exists at 30_wiki/_archive/research_methodology.md → resolves. No action.
+
+  So remaining true-ghost cleanup = stale sections in the auto-generated `30_wiki/links/index.md`. Plus the residual 13 non-30_wiki items (00_inbox/10_raw/test/todos) = business residual (raw material zones, intentional test file, historical review quote).
+
+  Decision for links/index.md: This is an auto-generated file ("Auto-generated index"). B1's adjudication was "自动索引不动". But then 30_wiki真散点（按任务验收口径 vault 文件名解析）=21处全在 links/index.md, already <50. 
+
+  Should I delete the 21 stale sections? Arguments:
+  - For: they're genuine dead links (targets never existed), Obsidian graph shows them as unresolved nodes (hideUnresolved is set locally but that's .obsidian, gitignored, per-machine). 老朱's complaint was graph mess. Deleting pure-link sections in an index is红线-compliant （只动链接行）.
+  - Against: auto-generated; regeneration would fix; precedent decision "自动索引不动";王语嫣's first batch DID edit it though (de51bdd84 touched links/index.md).
+
+  Hmm — actually wait, did de51bdd84 edit links/index.md for pending_unknown? Yes it was in the changed files. So editing the auto-index for placeholder removal was accepted. But B1 deliberately left archive links in it.
+
+  The safest, in-scope action: remove the 21 truly-dead sections from links/index.md (targets don't exist anywhere in the vault — unlike archive targets which exist). This is the "其余零散目标逐一裁决" bucket: 裁决=删链（索引陈旧条目，目标卡从未存在/正文已清）. Keep the archive-resolvable entries untouched (they're valid links).
+
+  Wait, but also need to double check the section deletion boundaries: each ghost section is `## [[ghost]]` + following `- [[source]]` lines until blank line / next `##`. Deleting heading + its source lines removes record of which sources linked there — but sources are already fixed, so no info loss. But careful: for `## [[framework-yitang-product-iteration-loop]]` the source list includes `[[systems/sprint-2-gate-enrich-evidence]]` etc. Those sources no longer contain the link (B2 fixed), so the index row is stale. Delete whole section.
+
+  However — one caution: is links/index.md regenerated by a scheduled job that would re-add? If regenerated from current content, ghosts won't reappear since sources are clean. Fine.
+
+  Also 30_wiki/index.md: the 24 ghosts there are all `_archive/*` prefixed except... from earlier list: `_archive/obsidian-kdo-内容产出工作流-产品设计大纲` (exists), `_archive/plan_...v1/v1.1` (exist), `_archive/research_methodology` (exists), `_archive/紫鲸...` (exists), panproduct ×19 (exist). All resolve in Obsidian. No action needed. 
+
+  And `30_wiki/links/index.md` has `_archive/...` entries too (172 total - 21 non-archive = 151 archive entries) — resolve, no action.
+
+  So the C族 = links/index.md 21 stale sections deletion. Let me also handle "其余零散" in 60_feedback/70_product/00_inbox/10_raw (the 'other' 119: 58 in 60_feedback, 6 in 70_product, 12 in 90_control, 6+6 inbox/raw). Task scope says "遍历 30_wiki 全库" for the rescan target — the governance target is 30_wiki. But B families earlier also fixed 40_outputs, 20_memory, .agent files (fix_rest.log shows those). So previous session treated vault-wide live content as in scope. What are the 58 in 60_feedback and 12 in 90_control and 6 in 70_product? Many are probably in historical task files/session archives (which should arguably stay as historical record) — but B5/B6 did edit task files... Actually B-family commits: let me check which zones B1-B6 touched. B6 touched 30_wiki/concepts etc. fix_rest.log shows .agent/prompts, 40_outputs, 20_memory, 90_control/infrastructure-inventory.md edits. So live reference docs in scope; historical archives (session-archives, snapshots, task files recording history) were... hmm, task files were being stripped in the corrupted uncommitted pass, which I reverted. Wait — were they corrupted, or were they legit B-family edits? The corruption was stripping `` `[[pending_unknown]]` `` inside backticks → empty backticks. That's clearly wrong regardless of scope. Revert was right.
+
+  Let me now enumerate the remaining non-30_wiki ghosts to adjudicate each: 60_feedback 58, 90_control 12(+2 archive), 70_product 6, 00_inbox 6, 10_raw 6.      1 90_control wujue-architecture <- 90_control/todos/ouyangfeng.md:239
+      1 70_product ��Ƭ <- 70_product/tasks/task-20260607-laowantong-checklist-notes-review.md:91
+      1 70_product ����Ʒ��Ʒ����� Hub <- 70_product/tasks/HALT-stop-individual-cards-start-composite.md:73
+      1 70_product skill-����-AI��س���ʶ��-�������ҳ��� <- 70_product/tasks/proposal-ouyangfeng-workmode-2026-06-14.md:92
+      1 70_product skill-����-AI��س���ʶ��-�������ҳ��� <- 70_product/tasks/proposal-ouyangfeng-workmode-2026-06-14.md:13
+      1 70_product master-* <- 70_product/tasks/laowantong-batch-2026-06-20.md:482
+      1 70_product ... <- 70_product/tasks/task_20260712_wangyuyan-business-formula-domain-p0-skeleton.md:171
+      1 60_feedback �¿� <- 60_feedback/corrections/corr_20260611_laowantong-����Ԥ����-OCR��©+�ɿ�δ����.md:84
+      1 60_feedback �¿� <- 60_feedback/corrections/corr_20260611_laowantong-����Ԥ����-OCR��©+�ɿ�δ����.md:78
+      1 60_feedback ɽ�� 7 �� 1 ���ǻ�ҩ����Ŀ�����嵥 <- 60_feedback/diagnosis/diag_20260626_wangyuyan-shanxi-clinic-his-compliance-nine-layer.md:9
+      1 60_feedback Ȩ���� <- 60_feedback/tasks/task_20260826_huangyaoshi-retrieval-trust-weighting.md:34
+      1 60_feedback �� <- 60_feedback/tasks/task_20260826_huangyaoshi-concept-crosscheck-warning.md:47
+      1 60_feedback �� <- 60_feedback/tasks/task_20260826_huangyaoshi-concept-crosscheck-warning.md:31
+      1 60_feedback ����Ʒ��Ʒ����� Hub <- 60_feedback/assessments/huang-yaoshi-2026-05-11-halt-review.md:55
+      1 60_feedback yt-cashflow-risk-control <- 60_feedback/agent-traces/2026-07-02/tool-agent-spec-yitang-sales-performance-monitor__����ҩ���¶�_Pipeline_����_v1.1.md:117
+      1 60_feedback xxx <- 60_feedback/tasks/task_20260628_laowantong-link-repair-b3-island-cards.md:120
+      1 60_feedback wikilink <- 60_feedback/tasks/task_20260826_huangyaoshi-concept-crosscheck-warning.md:47
+      1 60_feedback tool-yt-bottleneck-analysis <- 60_feedback/agent-traces/2026-07-02/tool-agent-spec-yitang-sales-performance-monitor__����Ժ�����¶�_Pipeline_����.md:102
+      1 60_feedback tool-yitang-scientific-negotiation <- 60_feedback/agent-traces/2026-07-02/tool-agent-spec-yitang-sales-performance-monitor__����Ժ�����¶�_Pipeline_����.md:100
+      1 60_feedback tool-yitang-government-sales-checklist <- 60_feedback/agent-traces/2026-07-02/tool-agent-spec-yitang-customer-segmentation__ҽҩ����_B2B_�����ּ�_v1.1.md:107
+      1 60_feedback tool-yitang-expert-interview <- 60_feedback/pending-wiki-cards/cases/case-erjiu-nursing-home-chain-research.md:20
+      1 60_feedback tool-yitang-employee-intelligence <- 60_feedback/pending-wiki-cards/cases/case-security-guard-factory-acquisition.md:18
+      1 60_feedback tool-yitang-disguised-identity-research <- 60_feedback/pending-wiki-cards/cases/case-zhanglei-laundry-detergent-field-research.md:19
+      1 60_feedback tool-yitang-disguised-identity-research <- 60_feedback/pending-wiki-cards/cases/case-erjiu-nursing-home-chain-research.md:19
+      1 60_feedback tool-yitang-channel-partner-assessment <- 60_feedback/agent-traces/2026-07-02/tool-agent-spec-yitang-customer-segmentation__ҽҩ����_B2B_�����ּ�_v1.1.md:147
+      1 60_feedback tool-kdo-competitor-analysis <- 60_feedback/agent-traces/2026-07-02/tool-agent-spec-yitang-opening-3min__��ͨ�绰���Ը�_SaaS_Ǳ�ڿͻ�.md:48
+      1 60_feedback tool-ai-content-polish-v2 <- 60_feedback/tasks/task_20260705_wangyuyan-register-xiaohongshu-skill.md:13
+      1 60_feedback recursive-deepen <- 60_feedback/pending-wiki-cards/frameworks/framework-yitang-nine-layer-deep-dig.md:23
+      1 60_feedback plan-kdo-multi-repo-architecture <- 60_feedback/tasks/task_20260705_huangyaoshi-proposal-yai-canvas-agent-v3.md:19
+      1 60_feedback ouyangfeng-session-resume-guide <- 60_feedback/diagnosis/diag_20260824_ouyangfeng-resume-chain-amnesia-gap.md:28
+      1 60_feedback method-yihang-dual-triangle-oral-spray <- 60_feedback/tasks/task_20260704_wangyuyan-agent-config-human-portrait-template.md:13
+      1 60_feedback laowantong-batch-2026-06-20-wave5 <- 60_feedback/tasks/review_20260628_ouyangfeng-wave5.md:11
+      1 60_feedback laowantong-batch-2026-06-20-wave4 <- 60_feedback/tasks/review_20260628_ouyangfeng-wave4.md:11
+      1 60_feedback laowantong-batch-2026-06-20-wave3 <- 60_feedback/tasks/task_20260628_laowantong-dark-knowledges-batch8.md:11
+      1 60_feedback laowantong-batch-2026-06-20-wave3 <- 60_feedback/tasks/review_20260628_ouyangfeng-wave3.md:11
+      1 60_feedback laowantong-batch-2026-06-20-wave2 <- 60_feedback/tasks/review_20260628_ouyangfeng-wave2.md:11
+      1 60_feedback laowantong-batch-2026-06-20-wave1 <- 60_feedback/tasks/review_20260628_ouyangfeng-wave1.md:11
+      1 60_feedback framework-һ��-��Ŀ���� <- 60_feedback/tasks/task_20260806_wangyuyan-deep-review-core-frameworks.md:45
+      1 60_feedback framework-һ��-������ϰ <- 60_feedback/tasks/task_20260808_laowantong-feature-thinking-w1.md:37
+      1 60_feedback framework-һ��-������ϰ <- 60_feedback/tasks/task_20260806_wangyuyan-deep-review-core-frameworks.md:45
+      1 60_feedback framework-һ��-���Լ� <- 60_feedback/tasks/task_20260806_wangyuyan-deep-review-core-frameworks.md:45
+      1 60_feedback framework-һ��-�������� <- 60_feedback/tasks/task_20260806_wangyuyan-deep-review-core-frameworks.md:35
+      1 60_feedback framework-��Ӧ��ȫ�������ڹ��� <- 60_feedback/tasks/task_20260807_wangyuyan-qianhui-supply-chain-case.md:47
+      1 60_feedback framework-yitang-unit-model <- 60_feedback/diagnosis/diag_20260719_wangyuyan-profit-pricing-dark-knowledge-supplement.md:17
+      1 60_feedback framework-yitang-taxonomy <- 60_feedback/diagnosis/diag_20260627_wangyuyan-skill-taxonomy-evaluation.md:13
+      1 60_feedback framework-yitang-demand-iceberg <- 60_feedback/diagnosis/diag_20260719_wangyuyan-profit-pricing-dark-knowledge-supplement.md:18
+      1 60_feedback framework-yihang-dual-triangle-core <- 60_feedback/tasks/task_20260704_wangyuyan-methodology-production-pipeline.md:13
+      1 60_feedback framework-yihang-dual-triangle-core <- 60_feedback/tasks/task_20260704_wangyuyan-dual-triangle-degradation-spiral.md:12
+      1 60_feedback framework-yihang-dual-triangle-core <- 60_feedback/tasks/task_20260704_wangyuyan-ai-native-dual-triangle-kernel.md:12
+      1 60_feedback framework-panproduct-domain-digest <- 60_feedback/tasks/task_20260627_laowantong-lanyi-panproduct-organization.md:11
+      1 60_feedback dk-P15... <- 60_feedback/tasks/task_20260822_laowantong-tags-judgment-batch.md:722
+      1 60_feedback distribution-model-risk-assessment <- 60_feedback/pending-wiki-cards/entities/�߼��¼���.md:36
+      1 60_feedback content-production-polish <- 60_feedback/tasks/task_20260702_huangyaoshi-proposal-dark-knowledge-pilot.md:20
+      1 60_feedback content-production-polish <- 60_feedback/tasks/task_20260701_huangyaoshi-proposal-wobeirushen-book-ingest.md:20
+      1 60_feedback consultant-mode-yai-style <- 60_feedback/tasks/task_20260629_laowantong-expand-ai-learning-concept-cards.md:85
+      1 60_feedback consultant-mode-yai-style <- 60_feedback/tasks/task_20260629_laowantong-expand-ai-learning-concept-cards.md:18
+      1 60_feedback concept-yitang-plan-b <- 60_feedback/agent-traces/2026-07-02/tool-agent-spec-yitang-sales-performance-monitor__����ҩ���¶�_Pipeline_����.md:100
+      1 60_feedback concept-yihang-dual-triangle-flywheel <- 60_feedback/tasks/task_20260704_wangyuyan-dual-triangle-degradation-spiral.md:14
+      1 60_feedback concept-yihang-dual-triangle-flywheel <- 60_feedback/tasks/task_20260704_wangyuyan-ai-native-dual-triangle-kernel.md:14
+      1 60_feedback b <- 60_feedback/tasks/task_20260822_laowantong-related-asymmetry-backfill.md:373
+      1 60_feedback ai-collaboration-ooda <- 60_feedback/tasks/task_20260808_laowantong-feature-thinking-w1.md:42
+      1 60_feedback ai-collaboration-harness <- 60_feedback/tasks/task_20260808_laowantong-feature-thinking-w1.md:42
+      1 60_feedback a <- 60_feedback/tasks/task_20260822_laowantong-related-asymmetry-backfill.md:373
+      1 60_feedback P-31 <- 60_feedback/tasks/task_20260702_huangyaoshi-proposal-dark-knowledge-pilot.md:19
+      1 60_feedback KDO-Agent����Ʊ���-20260702 <- 60_feedback/tasks/task_20260702_laowantong-opc-sales-agent-specs-production.md:18
+These 60_feedback/70_product/90_control ghosts are almost all in:
+  - historical task files (task_2026*.md) — historical records of past tasks; links there refer to planned cards, wave batches, etc. Editing历史任务单 link lines is questionable — B families earlier did edit some task files? The corrupted pass did (reverted). Did committed B families touch 60_feedback tasks? Let me check what files the B commits touched.
+  - agent-traces (historical pipeline dumps)
+  - pending-wiki-cards (draft cards not yet in wiki — their links to tool-yitang-* are ghosts)
+  - diagnosis/proposals (historical)
+
+  Adjudication per task: 红线只动链接行. But scope decision needed: 60_feedback historical records — changing them rewrites history. The B1 commit message said "快照/自动索引/历史记录不动". Task files in 60_feedback/tasks are historical records of completed work. The task's rescan target is 30_wiki <50. The task description says B is "幽灵链接逐族裁决（870处/254目标/295文件）" vault-wide... but C says rescan traverses 30_wiki. 
+
+  Previous session's B4/B5 commits touched 40_outputs, 20_memory, .agent/prompts, huangyaoshi/, 30_wiki — live content zones. Did NOT touch 60_feedback/70_product/90_control (except infrastructure-inventory.md in 90_control, which is a live reference doc).
+
+  So the sane boundary consistent with prior session: live content zones = 30_wiki, 40_outputs, 20_memory, .agent, agents/, huangyaoshi/ etc. Historical/record zones = 60_feedback (tasks/traces/diagnosis/archives), 70_product/tasks (completed task files), 90_control snapshots/todos, 00_inbox, 10_raw = leave as business residual.
+
+  Current remaining in live zones: let me count ghosts by zone excluding historical zones. From by-zone: 30_wiki 196 (all in 2 auto-index files), 90_control 145 (131 snapshot + 12 others incl todos), 60_feedback 58, 70_product 6, 00_inbox 6, 10_raw 6. 40_outputs=0, 20_memory=0, .agent=0. 
+
+  So the only actionable live-zone item: links/index.md stale sections (21 true-dead). Everything else = historical records / snapshots / raw inbox = 正常业务残余 （裁定：保留，不动历史记录）.
+
+  Wait — one more check on 90_control non-snapshot 12: wujue-architecture (todos/ouyangfeng historical review record — keep), plus what else? From the list above only wujue appeared in 90_control besides snapshot... but by-zone said 90_control 145 = 131 snapshot + 14 others. The filter printed 90_control only 1 line (wujue). Because I excluded only the snapshot file; the remaining 13 in 90_control must be... let me recount: earlier 'other' family 90_control=12, ARCH-other 90_control=2, ARCH-panproduct 90_control=131. The uniq output above shows only 1 line for 90_control. Hmm, because ARCH-panproduct sources in 90_control are only the snapshot (131) which I excluded. And the other 13? The print shows just one. Let me not over-worry; check remaining 90_control ghosts explicitly.
+
+  Also pending-wiki-cards in 60_feedback — these are DRAFT cards awaiting promotion (not historical). Their ghost links (tool-yitang-expert-interview etc.) — 5 occurrences in 3 files. These are pending drafts, arguably live-ish. 裁决： 断链保文？ Or leave until promotion? These are case drafts linking to planned tool cards. Per B2 precedent (yitang planned cards 断链保文）, consistent action = strip brackets keep text. But they're in 60_feedback/pending-wiki-cards — a staging area. Previous session didn't touch 60_feedback at all. Minimal approach: note in report as adjudicated-keep (drafts will be fixed at promotion) OR fix now. 
+
+  Red line says only touch link lines — stripping [[]] in 5 lines is compliant. But is it in scope? "只做本次指令范围内的事". The instruction: "剩余幽灵族逐族裁决→C 族收尾→复扫（目标<50处）". The <50 target is on the 30_wiki rescan. I'll adjudicate: 30_wiki auto-index stale sections = delete （收尾 C族）; everything outside 30_wiki = 历史记录/素材区/快照/草稿，裁定保留，记入报告. That keeps scope tight and meets <50 (21→0 in 30_wiki... wait after deleting 21 sections, 30_wiki ghosts = 0 under vault-resolution scan; the _archive links resolve).
+
+  Hmm wait, but actually should I double-check the acceptance scan definition once more? "遍历 30_wiki 全库 wikilink，排除代码块，按 vault 文件名解析，目标不存在=散点" — my second scan did exactly this (vault-wide names including _archive). Result: 21. After C族 deletion: 0. 
+
+  But also — the 王语嫣 baseline scanner (scan_scatter.py) excludes _archive from resolution. Under that stricter口径， after deleting 21 sections, 30_wiki still shows 175 (archive links in 2 index files). Those archive links are VALID in Obsidian though. The report must state both口径 clearly and justify: 任务验收口径（按 vault 文件名解析）=0 真散点；严格口径（archive 排除）剩 175 全部指向实存归档文件，集中在两个自动生成索引，裁定保留（索引重生成由黄药师基建处理/归档卡链接本身有效）.
+
+  Hmm, wait. Actually let me reconsider deleting the 21 index sections vs regenerating. Deleting is surgical and红线-compliant. Do it.
+
+  One more consideration on `30_wiki/links/index.md` heading format: some headings are `## [['case-...']]` with quotes (seen at top of file). Let me now extract and delete the 21 dead sections. Targets list (true ghosts under vault-resolution):
+
+  From the vault-resolution scan, 21 targets, all in links/index.md:
+  - concept-一堂-Y模型， concept-一堂-五步法， concept-一堂-关键假设， concept-一堂-单元模型， concept-一堂-精益创业 (5)
+  - framework-yitang-ability-migration-matrix, aesthetic-radar, beautiful-work-standard, card-dealing-strategy, product-iteration-loop, project-background-8d, project-planning-trinity, scenario-walkthrough, user-perspective-training (9)
+  - tool-yitang-ability-migration-diagnosis, aesthetic-radar-modeling, beautiful-work-imagination, project-background-analysis, sales-toolkit-gap, scenario-walkthrough (6)
+  - kdo-charter-v01-draft (1)
+
+  That's 21. Note the vault-resolution scan did NOT include plan_data-curator/紫鲸/obsidian-kdo/yt-panproduct bare targets because... wait, bare `yt-panproduct-execution-design-principles` — basename resolution: does a file named `yt-panproduct-execution-design-principles.md` exist anywhere? Yes! In 30_wiki/_archive/panproduct/. So bare names resolve via vault filename rule. Same for `plan_20260531_data-curator-v1` (exists in _archive). And 紫鲸/obsidian-kdo exist in _archive. So under vault-filename resolution they all resolve — only the 21 truly-nonexistent remain. 
+
+  Also `concept-一堂-Y模型` etc — do files with those names exist anywhere? The scan says no (they were renamed per B4: concept-一堂-Y模型 → yt-decision-y-model etc.). OK.
+
+  But wait — should the index headings instead be relinked to the renamed equivalents (B4 mapped concept-一堂-Y模型→yt-decision-y-model)? The index is auto-generated from actual links; since sources were already fixed in B4, the correct regenerated index simply won't have these sections. Deleting = matches regeneration outcome. But note: the index section content (source lists) would reappear under the NEW target headings after regeneration. Deleting stale sections doesn't lose live info. OK, delete.
+
+  Also `kdo-charter-v01-draft` → renamed kdo-charter-v0.1-draft (B4 fixed source). Delete section.
+
+  Plan:
+  1. Write a small script to delete the 21 sections from 30_wiki/links/index.md (heading `## [[target]]` possibly with quotes, plus following `- ` lines until blank/next heading). First dry-run print, then apply.
+  2. Verify: rerun vault-resolution 30_wiki scan → expect 0. Also rerun scan_scatter.py for the record.
+  3. Commit as C族.
+  4. Write execution report with五字段 into the task file + 每族裁决表 (A, B1-B6 from commits, C).
+  5. L12: git status check; complete 606 with evidence; verify双落盘.
+  6. Append todos line.
+  7. Session-end rituals （技能进化日志， friction-log, Truman 11章复盘， daily-context-save). The user instruction says "完成后若额度允许按队列领 #609". That's a whole new task (MOLLY card production). Given quota concerns and the size, I'll assess after finishing 606. The instruction says "若额度允许" — I'm running fine so far. But #609 is a full card-production task with heavy mandatory gates (pre-submit, self-attack...). Attempting it could be large. The instruction explicitly authorizes: "完成后若额度允许按队列领 #609（MOLLY 卡）". I'll decide after 606 is done — if things went smoothly, claim and do it. Hmm, but session-end rituals take time too. Let me focus: finish 606 fully first.
+
+  Also note pending-wiki-cards drafts (5 ghost links in 60_feedback/pending-wiki-cards) — adjudicate as 保留（草稿区，晋升时处理）and record. Fine.
+
+  Let me write the deletion script with dry-run.sections removed: 21
+  L6060 concept-一堂-Y模型 (3 lines)
+  L6192 concept-一堂-五步法 (3 lines)
+  L6215 concept-一堂-关键假设 (3 lines)
+  L6237 concept-一堂-单元模型 (3 lines)
+  L6355 concept-一堂-精益创业 (3 lines)
+  L11341 framework-yitang-ability-migration-matrix (3 lines)
+  L11344 framework-yitang-aesthetic-radar (3 lines)
+  L11347 framework-yitang-beautiful-work-standard (3 lines)
+  L11350 framework-yitang-card-dealing-strategy (3 lines)
+  L11637 framework-yitang-product-iteration-loop (7 lines)
+  L11665 framework-yitang-project-background-8d (3 lines)
+  L11732 framework-yitang-project-planning-trinity (3 lines)
+  L11870 framework-yitang-scenario-walkthrough (3 lines)
+  L12046 framework-yitang-user-perspective-training (4 lines)
+  L13137 kdo-charter-v01-draft (3 lines)
+  L18064 tool-yitang-ability-migration-diagnosis (3 lines)
+  L18067 tool-yitang-aesthetic-radar-modeling (4 lines)
+  L18142 tool-yitang-beautiful-work-imagination (5 lines)
+  L18612 tool-yitang-project-background-analysis (3 lines)
+  L19011 tool-yitang-sales-toolkit-gap (3 lines)
+  L19059 tool-yitang-scenario-walkthrough (6 lines)
+written 29107 lines (was 29181 )
+21 sections, 74 lines removed. Verify with diff sanity + rerun both scans.warning: in the working copy of '30_wiki/links/index.md', LF will be replaced by CRLF the next time Git touches it
+ 30_wiki/links/index.md | 74 --------------------------------------------------
+ 1 file changed, 74 deletions(-)
+warning: in the working copy of '30_wiki/links/index.md', LF will be replaced by CRLF the next time Git touches it
+75
+warning: in the working copy of '30_wiki/links/index.md', LF will be replaced by CRLF the next time Git touches it
+1
+30_wiki 验收口径: scanned=2943 wikilinks=56676 ghost_occ=0 targets=0
+30_wiki 验收口径 = 0 散点 (<50 ✅). Also rerun the strict scanner (scan_scatter.py) for the record.
+
+• 30_wiki 验收口径复扫 = **0 散点**。再跑一次严格口径（archive 排除）留档，然后提交 C 族。scanned_md=12582 total_wikilinks=75901 ghost_targets=93 ghost_occurrences=396 files_hit=56
+written: _tmp/606/ghost_scan.json / .tsv
+strict by zone: {'30_wiki': 175, '90_control': 145, '00_inbox': 6, '10_raw': 6, '60_feedback': 58, '70_product': 6}
+
+
+• Strict口径： 396 remaining, of which 30_wiki 175 — all are `_archive/*` links in the two auto-index files pointing to REAL archived files (resolve in Obsidian). 90_control 145 = 131 snapshot (historical) + ~14 todos/etc. 60_feedback 58 = historical task/traces/drafts. 00_inbox/10_raw 12 = raw material + test file. 70_product 6 = historical task files.
+
+  Commit C族 now. Files changed for C族： only 30_wiki/links/index.md. Also the revert I did (git checkout) restored 13 files — those were uncommitted, so nothing to commit there.
+
+  Wait — also should I commit the deletion under a "#606 C族" message. Then write the execution report into the task file. The report must include 每族裁决表 + 五字段执行报告 (**交付物**/**完成内容**/**验证**/**边界**/**需要谁动作**).
+
+  Where to put the report? Task says "交付： 分族 commit + 执行报告（含每族裁决表）+ 复扫结果； complete --evidence <执行报告路径>". So write the execution report as a file (e.g., 60_feedback/tasks/... execution report section in the task file, or a separate report file). The discipline says "提审前任务单内必须有五字段执行报告" — so it goes IN the task file. I'll append a "## 执行报告" section to the task file with the five fields + per-family adjudication table. Evidence path = the task file itself.
+
+  Let me commit C族 first.warning: in the working copy of '30_wiki/links/index.md', LF will be replaced by CRLF the next time Git touches it
+ade254e29 #606 C族：links/index.md 清理21条真死链陈旧节（framework/tool-yitang计划卡9+6、concept-一堂旧名5、kdo-charter-v01-draft1；目标全库不存在，正文B2/B4已清，索引节为残留）
+Now write the execution report into the task file. Include:
+  - 每族裁决表 (A, B1-B6, C, plus the residual adjudications)
+  - 复扫结果 (both口径）
+  - 五字段： 交付物/完成内容/验证/边界/需要谁动作
+  - Also record the backtick-corruption discovery + revert (important finding!)
+
+  Also note: 中断期间发现的污染需写明 — the uncommitted backtick-stripping corruption in 13 files was reverted (git checkout), never committed.
+
+  Let me append to the task file.
+
+• 写执行报告到任务单（五字段 + 逐族裁决表 + 复扫结果）。
+
+• Fix the time placeholder "05:0x" — get current time. Also commit the task file, then L12 git status, then complete.04:55
+ee4ef5fda #606 执行报告落任务单（五字段+逐族裁决表+双口径复扫：验收口径30_wiki散点0/2943文件）
+L12 check: git status — remaining modified files are runtime/other-agent files, not my deliverables. My deliverables (30_wiki/links/index.md + task file) are committed. Now complete 606.任务 606 不在队列中
+"任务 606 不在队列中"? But myqueue showed #606 as 进行中. Maybe the complete subcommand expects the task id differently (task_20260902_laowantong-graph-scatter-cleanup or "606"?). Earlier claim used "#606 claim by laowantong-kimi" (commit 0925d41f0). Let me check the script usage.complete 需要 --instance <instance>
+240:| 606 | `task_20260902_laowantong-graph-scatter-cleanup` | 图谱散点治理二批：31文件残留占位+870真散点逐族裁决（首批1132占位已清 de51bdd84） | claimed-laowantong-kimi | laowantong | 分族commit+每族裁决表执行报告+复扫<50处 | 无 | `60_feedback/tasks/task_20260902_laowantong-graph-scatter-cleanup.md` | 老朱0902直令「obsidian视图全乱了修复」；撞号更正入队（原seq601未入队悬空，老顽童建议书 diag_20260902_laowantong-graph-scatter-task-collision 09-02王语嫣采纳）；只动链接行不动正文；分族commit；欧阳锋终审 |
+243:| 609 | `task_20260902_laowantong-popmart-molly-transition-card` | 泡泡玛特MOLLY诞生卡 case-popmart-molly-transition（#596终审裁定补卡）+#596四卡related补链顺带 | queued | laowantong | 1张case卡+补链diff+互链0死链实证 | #606 后（同角色排队） | `60_feedback/tasks/task_20260902_laowantong-popmart-molly-transition-card.md` | 欧阳锋#596终审裁定（09-02王语嫣编排并单）；转述二等标注#470口径；六维标签建议已附；欧阳锋终审 |
+The queue row exists with status `claimed-laowantong-kimi`. The complete command said "任务 606 不在队列中" — maybe it wants the full task id, not seq. Try with the full task id.✅ task_20260902_laowantong-graph-scatter-cleanup 已提交为 pending_review，等待欧阳锋终审
+📦 交付物校验: 交付物节未识别出文件路径（启发式覆盖外）——人工自核已入仓
+✅ dashboard.html 已生成 (194 个任务)
+   待领取: 7  |  审查中: 2  |  进行中: 1  |  已完成: 184
+队列总任务数: 194
+queued: 7
+claimed: 1
+pending_review: 2
+  #603 task_20260902_huangyaoshi-tmp-script-cleanup — tmp一次性脚本清理：根目录59个+kdo-tools/tmp_*25个归档_tmp（前置：_tmp_skill_health.json被建议书引用先改指）
+  #606 task_20260902_laowantong-graph-scatter-cleanup — 图谱散点治理二批：31文件残留占位+870真散点逐族裁决（首批1132占位已清 de51bdd84）
+240:| 606 | `task_20260902_laowantong-graph-scatter-cleanup` | 图谱散点治理二批：31文件残留占位+870真散点逐族裁决（首批1132占位已清
+5:status: pending_review
+L9 verification: task file frontmatter `status: pending_review` ✅; queue status shows pending_review: 2 and myqueue earlier should list #606 under 待终审. Let me verify the queue row state shows pending_review.pending_review
+# role=laowantong · 任务路由（#472 只读视图，不动状态机）
+✅ 可领 3:
+  #609 task_20260902_laowantong-popmart-molly-transition-card — 泡泡玛特MOLLY诞生卡 case-popmart-molly-transition（#5
+  #610 task_20260902_laowantong-live257-ten-finger-fragrance-cards — Live257重讲十指讲香卡组3-4张：十指讲香framework+用数字讲故事metho
+  #611 task_20260902_laowantong-yitang-methodology-batch-cards — 一堂方法论族卡组5-7张：MUSE数据包framework+高阶Skill设计指南tool
+⏸ 等依赖 0:
+  (无)
+🧊 冻结 0:
+  (无)
+🚧 进行中 0:
+  (无)
+⏳ 待终审 1:
+  #606 task_20260902_laowantong-graph-scatter-cleanup — 图谱散点治理二批：31文件残留占位+870真散点逐族裁决（首批1132占位已清 de51b
+⚖️ 最近终审（48h） 1:
+  #596 task_20260902_laowantong-popmart-uniqueness-book-cards — ✅PASS A-（2026-09-01）
+#606 双落盘验证通过：队列行 pending_review + 任务单 status: pending_review。✅
+
+  Now append todos line. Then decide on #609.
+
+  The queue row for #606's commit changes (production-queue.md, task file status) — the transition script already commits those? Earlier commits show "chore(queue): #606 claim by laowantong-kimi" — the script commits itself. The complete may have created a commit too. Fine.
+
+  Append todos line:
+  `[2026-09-02 04:55] 📤 #606 完成生产并提审...`
+
+  Then session-end rituals. But first decide on #609. Instruction: "完成后若额度允许按队列领 #609（MOLLY 卡）". My quota seems fine now. But #609 is a full case-card production task with heavy gates (material consumption, pre-submit, self-attack, ≥100 lines...). It's 04:55. The session has been going. The instruction explicitly authorizes claiming #609 if quota allows. However, doing a proper MOLLY case card requires reading #596 终审裁定， materials, etc. — a substantial task. The risk: running out of quota mid-task again and leaving another half-done state.
+
+  Judgment: the instruction says "若额度允许" — I've used a moderate amount this session. A single case card + 补链 diff is feasible. But the five mandatory pre-work steps （建模方案出牌， kdo cards 查路由， WebSearch, 素材消费， 自攻击预留） plus L2 full material consumption make it heavy. Also queue discipline: 队列前方是否有 pending_review 阻塞？ status shows pending_review: 2 (#603 huangyaoshi, #606 mine). Rule: "在队列前方还有 pending_review 任务时领取下一个 queued 任务" is forbidden — but #596 claim used --force for parallel-line reason. Hmm: "队列前方还有 pending_review 任务等待欧阳锋终审" is a common rejection reason. #603 (huangyaoshi) and #606 (mine) are pending_review ahead. Claiming #609 would likely be rejected by the gate, or require --force which needs justification. Earlier for #596 I used --force with reason "#595 前方阻塞，不同 assignee 并行线，台账已留痕".
+
+  Let me just try claim without force; if rejected, report and stop. Actually wait — should I even attempt? The user's instruction: "完成后若额度允许按队列领 #609（MOLLY 卡）". Quota允许 = I can attempt. Let me try claim. If gate rejects due to pending_review ahead, that's a clean stop signal per discipline （脚本拒绝 → 绝对不能执行）.
+
+  Actually, hold on — do the session-end rituals first or after #609? If I claim #609, the session continues. Let me first append the todos line for #606, then attempt #609 claim.
+
+  Also note: session-end mandatory rituals （技能进化日志， friction-log, Truman复盘， daily-context-save) — those happen at session end. If I proceed with #609, defer them. Given the user instruction explicitly includes #609, proceed.
+
+  Todos line first.- [2026-09-02 04:55] 📤 #606 完成生产并提审（pending_review 等欧阳�
+你（laowantong）还有 pending_review 任务待欧阳锋终审：#606 task_20260902_laowantong-graph-scatter-cleanup。审查等待期不接新单（#504）——等终审后再领取 task_20260902_laowantong-popmart-molly-transition-card
+Gate rejects: #504 审查等待期不接新单. Per discipline: 脚本拒绝 → 绝对不能执行. So #609 cannot be claimed now — must wait for #606 终审. That's the stop signal. My earlier #596 claim used --force because #595 was a different assignee's blocker; here #606 is MY OWN pending_review — the #504 rule squarely applies. No force.
+
+  So: #606 done &提审； #609 blocked by gate until #606 终审通过. Report this to user.
+
+  Now session-end mandatory rituals:
+  1. 技能进化日志 — append one line to 桌面/agent复盘/laowantong/技能进化日志.md. Note: path "桌面/agent复盘/laowantong/" — in this vault the dir is `agent复盘/laowantong/`. The context says `桌面/agent复盘/laowantong/daily-context/YYYY-MM-DD.md` and working dir listing shows `agent复盘/laowantong/`. So path = agent复盘/laowantong/技能进化日志.md relative to vault root （桌面 = Desktop, vault is on Desktop).
+  2. friction-log check — the backtick-corruption discovery is a friction/pitfall worth recording in .agent/friction-log.md. Also the "complete 606" numeric-id rejection ("任务 606 不在队列中" — needs full task id) is a friction worth one line.
+  3. Update 20_memory/laowantong-amnesia-recovery.md if capabilities/state changed — check if needed; minor.
+  4. Truman 11-chapter retrospective → agent复盘/laowantong/daily-context/2026-09-02.md
+  5. Run daily-context-save.py with --agent laowantong --truman.
+
+  Let me check the format requirements: agents/agent-os.md §10.2 for the 11-chapter format. Let me read it.191:### 10.2 唯一标准格式
+314:| `agent复盘/<agent>/daily-context/YYYY-MM-DD.md` | **唯一直写**的复盘文件（Truman 11 章，§10.2 格式） | agent 本人，经 `daily-context-save.py` 落盘 | 每次会话收尾 |
+371:会话结束 → Agent 自己跑双三角复盘（§10.2）→ 映射本轮对话到六要素
+Now:
+  1. Append friction-log entries (2 items: backtick-strip corruption near-miss; complete numeric id rejected).
+  2. Append 技能进化日志 one line.
+  3. Write Truman 11-chapter retro to agent复盘/laowantong/daily-context/2026-09-02.md — note: same-day multiple sessions append to same file. Check if 2026-09-02.md already exists (earlier sessions today, e.g. #596 session at 00:28). Let me check.2026-08-31.md
+| 2026-09-01 | 黄药师 | #588 claim 被拦 | 老朱直令派活撞上 #504「审查等待期不接新单」——#590 pending_review 占位阻塞 claim，机制无法区分「自主接单」和「老板直令」；走 --force 留痕绕过 | #504 缺「老朱直令豁免」通道（候选：任务单加 directive:true 字段跳过等待期检查，同 batch:true 模式） |
+| 2026-09-01 15:05 | 黄药师 | #593 执行报告提审 | E040 拦截：交付物清单写缩写路径 `shared/deep-debug/manifest.yaml`，门禁按仓根解析不到判未入仓 | 初判：清单书写规范缺口——门禁按仓根解析相对路径，交付物清单必须全路径，已改全路径一次过 |
+| 2026-09-01 14:35 | 黄药师 | #593 真机冒烟 | `hermes --profile skills-assistant` 报 profile 不存在——config+SOUL 落在 `.hermes/profiles/` 旧树，现行数据根=AppData/Local/hermes/profiles/；sync/check 脚本常量同源漂移（巡检报 [MISS] windows/wangyuyan 而其在跑） | 初判：0.20 迁移后脚本常量未跟进，本单双树对齐保可用，根治需另立项 |
+tail: cannot open 'agent�'$'\215''�'$'\233\230''/laowantong/�'$'\212\200''�'$'\203''��'$'\233''�'$'\214\226''�'$'\227''��'$'\227''.md' for reading: 
+No such file or directory
+- daily-context latest is 2026-08-31.md — no 2026-09-02.md yet (yesterday 09-01 file? shows only tail -5: only displayed one line "2026-08-31.md"? Odd, tail -5 showed just one — maybe only a few files. Whatever: no 2026-09-02.md. But #596 was completed today 00:28 — that session should have written a retro... maybe named differently. Anyway, I create 2026-09-02.md.
+  - 技能进化日志 path has encoding issue in Git Bash tail. Use Read tool instead.daily-context
+技能进化日志.md doesn't exist yet under agent复盘/laowantong/. The context says "追加一行到 桌面/agent复盘/laowantong/技能进化日志.md" — 只写一行，日志是累积的. It doesn't exist → create it with header + one line.
+
+  Wait — 桌面 path: the vault IS at Desktop\wiki. Is there a separate C:\Users\Administrator\Desktop\agent复盘？ The context says "桌面/agent复盘/laowantong/daily-context/..." but the working dir has agent复盘/. The daily-context-save.py --file parameter in AGENTS.md example: "桌面/agent复盘/huangyaoshi/daily-context/YYYY-MM-DD.md". Hmm. But existing file is at wiki/agent复盘/laowantong/daily-context/2026-08-31.md. Let me check if Desktop/agent复盘 exists outside the vault.cn-track-archive-20260819
+daily-context
+friction-log.md
+技能进化日志.md
+用户反馈档案.md
+索引.md
+能力雷达图.md
+错误模式库.md
+# 老顽童复盘 | 2026-08-31 夜班（#582 阿蕊科学销售 4 卡）
+
+本日共 1 次会话（夜班，02:16-02:17 产卡会话遗留 + 本收尾会话触碰批次卡，本文件为合并复盘）。
+
+## 差异栏（本次 vs 上次复盘 2026-08-30，指令要求对照最新一份）
+
+对照 `C:\Users\Administrator\Desktop\agent复盘\laowantong\daily-context\2026-08-30.md`（#575/#578/#579 战略笃定篇三单），四个「不同」：
+
+1. **被打破的假设：「如实披露 warning = 流程闭环」——这个假设恰恰是上次复盘亲手教我的**。08-30 盲点②沉淀的对策是「CONCEPT_CROSSCHECK warning 属提示制（#542）不拦截，执行报告如实附 warning 明细+核对结论即可」；本次我把这条对策直接套在 pre-submit 全部 warning 上，10 条原样照抄进执行报告——欧阳锋终审扣 A-。被打破的点：上次只验证了 CONCEPT_CROSSCHECK 一种提示制 warning 可以「披露过关」，我把个案经验泛化成了通用规则。08-30 的教训本身没错（概念核对类人工核对即可），错在迁移：ALIASES/POSITION_DECLARATION/QUALITY 是可机械修复的质量债，不是提示制核对项——warning 分型不同，对策不同。
+2. **复发的模式第三次现身，且上次复盘刚给它发过通行证**。06-06「Audience 节第二次漏」（规范在脑不在流程）→ 06-21「外部验证做了没留痕」（做了≠记录了）→ 本次「警告披露了没清偿」（披露≠清偿）。三次共同根因：把「透明」当终点，而门禁设计里透明只是证据层，清偿才是闭环层。更扎心的是 08-30 复盘把「如实附上」写成了成功经验——等于亲手给这个模式发了通行证。
+3. **新视角：warning 是分型的金融品**。CONCEPT_CROSSCHECK=提示制核对项（核对成本分钟级，披露即可结清）；ALIASES/POSITION/QUALITY=可机械修复债（修复成本分钟级，但逾期利息=终审降档 0.5+老朱速度质疑+欧阳锋第二实例 9 项独立复测）。下次见 warning 先分型再选对策，不复用上次模板。
+4. **节奏激励的反转**：08-30「每张完成立即提审、不要攒批」是老朱拍板并表扬的节奏美德；本次「02:20 立项→02:29 提审」同款速度成了老朱的质量疑点（触发第二实例全程复核）。速度没变，变的是提审内容里有没有未清偿的债——有债时快=可疑，无债时快=产能。真正被考核的从来不是速度，是净交付质量。
+
+## 概要
+
+完成 #582 阿蕊科学销售体系 4 卡（framework/method/case/entity 各 1，源素材=公众号正文直采）终审后收尾：清偿欧阳锋终审扣分项（case 定位声明/aliases 路径段词/框架卡 pos+tacit 段），4 卡 pre-submit 从 10 WARNING 降到 9（剩 1 条为检查器 NOISE_DIRS 豁免缺口的目录结构词误报，转基建反馈不自欺），索引增量刷新，4/4 PASS + source-refs 0 缺失 0 污染；错误模式库追加 P-43；零警告提交纪律固化进 SOUL。
+
+## 关键决策
+
+| 决策 | 理由 | 结果 |
+The real location is OUTSIDE the vault: `C:\Users\Administrator\Desktop\agent复盘\laowantong\` (the vault copy agent复盘/laowantong/daily-context/2026-08-31.md is a copy or symlink? The vault one exists too with the 08-31 file). The instruction says path 桌面/agent复盘/... — so canonical = Desktop\agent复盘. The daily-context-save.py --file example uses 桌面/agent复盘/huangyaoshi/... So the actual save target is Desktop\agent复盘\laowantong\daily-context\2026-09-02.md.
+
+  There's already a 技能进化日志.md at Desktop\agent复盘\laowantong\. Good — append one line there.
+
+  Note: writing outside working directory — the context (role instructions) explicitly directs this, and the user instruction incorporates the discipline. This is authorized by the role config. OK.
+
+  Also daily-context-save.py command from AGENTS.md: `python kdo-tools/daily-context-save.py save --agent laowantong --truman --file 桌面/agent复盘/laowantong/daily-context/YYYY-MM-DD.md`. But run from vault dir; the script probably resolves 桌面 to Desktop.
+
+  First check today's file status at Desktop path and append friction-log entries.2026-08-29.md
+2026-08-30.md
+2026-08-31.md
+2026-09-01-hermes.md
+| 2026-08-27（第2会） | #557 死引治理批次A（PASS A-）：①批量治理完整功法——snapshot 回退点→dry-run 声明范围→试点批验证→分批放量→机读 manifest 对账→终态重扫 ②B1 写读对账实战救场：搬文件前查全库引用面（850条含222条reviewed卡），只修死引清单=制造新死引 ③checker 只认行尾单锚 `:NN-MM`，多区间锚拆多行保真 ④git add -A 是批次操作的红线（扫入他方未提交改动，含欧阳锋在途审查记录），且"教训已记"的声称本身没落地（自查差集）⑤报告数字取终态扫描值，转抄中间态=失真 | 方法升级+踩坑教训 | #557 终审反馈（欧阳锋对账） |
+| 2026-08-30 | 战略笃定篇三单连续生产（#575/#578/#579 全提审）：①整批精读模式——口述稿1870行全文逐字读完（含末尾闲聊），三单共享底本、跨卡互链（#575三分法→#578 ROI→#579七轮），素材消费率>85% ②任务单锚点坐标体系坑：字符位置（66000-77616）≠read_file行号，先grep关键词定位（"70%是一样"→L1716）再引用 ③--force合法授权路径扩充：不同assignee并行（skill文档）之外，老朱显式指令连续生产也是合法授权（留痕+理由，非违规）④CONCEPT_CROSSCHECK提示制warning=人工核对动作（小昭事故防患机制），执行报告如实附上 ⑤同批先写完全部卡再统一pre-submit（#575→#578→#579顺序对，跨卡死链是预期内） | 方法升级+踩坑教训 | #575/#578/#579 生产+提审 |
+| 2026-08-31 | 运维+基建+调研混合会话（hermes 实例）：①王语嫣 bot 卡死新分型——「工具挂死型 turn 悬死」（区别于会话膨胀）：签名=state.db end_reason=NULL+last_activity 冻结在 terminal running+history=0 无压缩日志，修复=重启 gateway+DB 终结会话（end_reason=session_reset），已回写 hermes-bot-slow-diagnosis skill「模式二」②WSL 拔除三连：transcribe_win.py 新建（CPU tiny 10倍速，339s视频35s）+collect_wechat/wechat_link_monitor 转写改 Windows 原生+sync-hermes-mcp WSL_PROFILES 清空+wsl 探测兜底，修复后跑真实积压视频验证再 commit（⑮纪律）③月白命名规则调研：先一手口述稿后卡片（证据分层），OSCAR+12 外部来源交叉验证，报告落桌面；发现部分老卡 source_refs 指向拆分前 stub 路径（漂移待查，记录在复盘检索审视节） | 方法升级+新武器+踩坑教训 | 王语嫣慢诊断/WSL迁移/月白调研 |
+Now do the closing sequence:
+  1. Append friction-log lines (vault .agent/friction-log.md) — format: 时间/角色/场景/摩擦/根因初判 (from earlier tail: `| 2026-09-01 | 黄药师 | #588 claim 被拦 | ... | ... |` — pipe table).
+  2. Append 技能进化日志 line (Desktop path).
+  3. Write Truman 11章 to Desktop\agent复盘\laowantong\daily-context\2026-09-02.md.
+  4. Run daily-context-save.py save --agent laowantong --truman --file 桌面/agent复盘/laowantong/daily-context/2026-09-02.md.
+
+  Check friction-log format first (is it a table?).---
+type: friction_log
+created_at: 2026-08-09
+owner: 全角色共享（王语嫣建立，黄药师 #276 机制化）
+updated_at: 2026-08-09
+---
+
+# 摩擦日志（Friction Log）
+done
+Wait — is claim really accepting seq? Earlier commits show "chore(queue): #606 claim by laowantong-kimi" — claim with 606 might have worked, or was done with full id too. I stated "claim 认 seq" as speculation. Let me soften — actually I should verify before writing. The friction entry says claim accepts seq — unverified. Let me check the script quickly.50:SCRIPT_DIR = Path(__file__).resolve().parent
+60:    str(Path(__file__).resolve().parent.parent.parent / "kdo-tools" / "generate-dashboard.py")
+76:_WIKI_ROOT = Path(__file__).resolve().parent.parent.parent
+83:    - register: {"seq","task_id","assignee","task_file"} → 追加登记行（task_id 级幂等；
+106:                    f"- #{register['seq']} {tid}｜{register['assignee']}｜提审 {now}｜{register['task_file']}"
+218:                rel = str(Path(f).resolve().relative_to(_WIKI_ROOT)).replace("\\", "/")
+237:        ref = f"#{task['seq']}" if task else task_id
+254:    or (Path(__file__).resolve().parent.parent.parent / "60_feedback" / "tasks")
+258:    or (Path(__file__).resolve().parent.parent.parent / "70_product" / "tasks")
+683:    wiki_root = Path(__file__).resolve().parents[2]
+909:        return False, f"任务 {task_id} 不在队列中"
+945:            fm_evidence = str(Path(evidence).resolve().relative_to(_WIKI_ROOT)).replace("\\", "/")
+988:        "seq": task["seq"], "task_id": task_id,
+1069:        return False, f"任务 {task_id} 不在队列中"
+1105:        return False, f"任务 {task_id} 不在队列中"
+1130:        return False, f"任务 {task_id} 不在队列中"
+1154:        return False, f"任务 {task_id} 不在队列中"
+1226:        return False, f"任务 {task_id} 不在队列中"
+1381:            line = f"  #{r['seq']} {r['task_id']} — {r['name'][:45]}"
+1419:        seq, tid, _a, verdict, dstr = m.groups()
+53:from queue_gate import QUEUE_PATH, can_claim, find_task, parse_queue
+98:            items = [l for l in block.splitlines() if l.startswith("- ")]
+104:            if not any(tid in l and not l.startswith("- ~~") for l in items):
+110:                if strike in line and not line.startswith("- ~~"):
+173:        target = GATE_BLOCKED_TEST_LOG if task_id.startswith("task_9999_") else GATE_BLOCKED_LOG
+176:        if not task_id.startswith("task_9999_"):
+208:        task_file = _find_task_file_dual(task_id)
+236:        task = find_task(task_id, rows)
+280:    if not text.startswith("---"):
+301:def find_task_file(task_id: str) -> Path | None:
+307:    ``find_task_file_by_frontmatter_id()`` which scans frontmatter.
+319:def find_task_file_by_frontmatter_id(task_id: str) -> Path | None:
+335:def _find_task_file_dual(task_id: str) -> Path | None:
+337:    return find_task_file(task_id) or find_task_file_by_frontmatter_id(task_id)
+348:        if line.startswith("|") and not set(line.strip()) <= {"|", "-", ":", " "}:
+    return str(FORCE_LEDGER)
+
+
+def action_complete(task_id: str, instance: str, evidence: str | None, force: bool = False,
+                    reason: str | None = None) -> tuple[bool, str]:
+    """Mark a claimed task as pending_review.
+
+    --force: 允许从 queued 直接跳到 pending_review（用于生产已完成但未通过脚本领取的场景）
+    #444：--force 必须配 --reason（例外留痕，台账 90_control/force-exceptions.log）
+    #444：--evidence 路径留档任务单 frontmatter（佐证附件，不替代五字段检查面）
+    """
+    rows = parse_queue()
+    task = find_task(task_id, rows)
+    if task is None:
+        return False, f"任务 {task_id} 不在队列中"
+
+    expected = f"claimed-{instance}"
+    if force and task["status"] == "queued":
+        pass  # 跳过 claim，直接提交
+    elif task["status"] != expected:
+        return False, f"任务 {task_id} 状态为 {task['status']}，不是由 {instance} 领取的 {expected}"
+82:def find_task(task_id: str, rows: list[dict] | None = None) -> dict | None:
+83-    if rows is None:
+84-        rows = parse_queue()
+85-    tid = task_id.strip("`")
+86-    for row in rows:
+87-        if row["task_id"] == tid:
+88-            return row
+89-    return None
+90-
+91-
+92-def _is_batch_task(task_id: str) -> bool:
+93-    """#492：任务单 frontmatter `batch: true` → 长程分批任务（批次提审不阻塞前方主线）。
+94-
+95-    #426（739 张 tags 分批）每批提审一次就卡住后方所有任务——batch 标记让
+96-    「批次提审」（验收后恢复 queued）与「整单提审」（终审闭环）可区分。
+97-    """
+`find_task` only matches full task_id — so `claim 606` would ALSO fail; the earlier claim commit must have used the full id. My friction-log entry says "claim 认 seq、complete 不认" — wrong. Fix the entry to be accurate: 脚本只认 task_id 全名，seq 号不被解析（claim/complete 同）。Let me correct that line.
+
+• 更正 friction-log 第二条（实测 `find_task` 只认全名，claim/complete 皆然，我先前的猜测不准确）。
+
+• Now write the Truman 11-chapter retro. Content plan:
+
+  File: C:\Users\Administrator\Desktop\agent复盘\laowantong\daily-context\2026-09-02.md
+
+  Chapters:
+  1. 差异栏 — vs 上次 2026-08-31: new patterns: ①中断续作的「工作区分拣」新场景（误伤 vs 在途改动）②scanner 口径双轨（验收口径 vs 基线口径）——目标数字随口径定义变 ③老朱直令任务的门禁交互（#504 拦 #609）。
+  2. 概要
+  3. 关键决策表
+  4. 思维盲点 ≥2 with 为什么漏掉
+  5. 顿悟 ≥1
+  6. 过程资产
+  7. 元反思 （含域知识检索审视 for B级+)
+  8. Truman复盘： 逐轮映射表 / 飞轮效应 / 对照实验 / 下次改进
+
+  Also append 技能进化日志 one line (Desktop path).
+
+  Then run daily-context-save.py.
+
+  Note 差异栏 must be non-blank, 盲点≥2 for A level. Write it.
+
+• 写 Truman 11 章复盘并落盘。
+
+\u274c �ļ������ڣ�����/agent����/laowantong/daily-context/2026-09-02.md
+• Encoding mojibake but it says "文件不存在：桌面/agent复盘/laowantong/daily-context/2026-09-02.md". The script interpreted "桌面" literally rather than resolving to Desktop. Let me check how the script resolves paths — maybe it expects a literal relative path or handles 桌面 specially. Try passing the absolute Desktop path.6:  1. 桌面 agent复盘/<agent>/daily-context/YYYY-MM-DD.md  （人看）
+22:REVIEW_DIR = Path.home() / "Desktop" / "agent复盘"
+139:def _write_l0_event(agent: str, desktop_path: Path, grade: str) -> None:
+153:        text = desktop_path.read_text(encoding="utf-8", errors="ignore")
+158:            f"path={desktop_path};grade={grade};size={len(text.encode('utf-8'))};"
+287:    # Write 1: Desktop (human-readable)
+288:    desktop_dir = REVIEW_DIR / agent / "daily-context"
+289:    desktop_dir.mkdir(parents=True, exist_ok=True)
+291:    desktop_path = desktop_dir / filename
+292:    desktop_path.write_text(content, encoding="utf-8")
+234:    # 读取复盘内容：优先级 --file > --stdin > --text
+268:    # #512：重打覆盖写——--file 输入若带既有 frontmatter/旧标题层（上次 save 产物），
+310:        print(f"   python {Path(__file__).name} save --agent {agent} --truman --file {desktop_path}")
+337:def main():
+342:    p_save.add_argument("--agent", required=True)
+343:    p_save.add_argument("--instance", default="", help="实例标识（如 hermes/kimi/claude）——多实例 Agent 按实例分文件，避免互相覆盖")
+344:    p_save.add_argument("--text", default="", help="上下文摘要（短内容用；长内容用 --stdin 或 --file）")
+345:    p_save.add_argument("--stdin", action="store_true", help="从标准输入读取复盘内容（管道输入）")
+346:    p_save.add_argument("--file", default="", help="从指定文件读取复盘内容（Agent 先 Write 到此路径）")
+347:    p_save.add_argument("--truman", action="store_true", help="Truman 11章模式：纯模板 / 配合 --stdin/--file 保存复盘")
+350:    p_list.add_argument("--agent", required=True)
+The --file should be the actual path of the file to READ. I already wrote the file to Desktop. Pass the absolute path: `C:\Users\Administrator\Desktop\agent复盘\laowantong\daily-context\2026-09-02.md`. In Git Bash: "/c/Users/Administrator/Desktop/agent复盘/laowantong/daily-context/2026-09-02.md".✅ 已保存：C:\Users\Administrator\Desktop\agent复盘\laowantong\daily-context\2026-09-02.md
+✅ 已存档：60_feedback\session-archives\2026-09-02\laowantong.md
+📋 自检：🟡 B级 📚检索有发现
+✅ 事件 #726 已写入: agent=laowantong event=review_saved
+🧪 胶囊 L0 已留痕: agent=laowantong event=review_saved
+✅ A → B 镜像完成: C:\Users\Administrator\.kdo-memory\L1 → D:\KDO-memory\L1-backup（robocopy /MIR，exit 1）
+✅ verify PASS：B 镜像文件 hash 全一致；从 B 打开 integrity=ok 行数 721（A 同 721）
+🟡 B 级 — acceptable per rules (must show 🟢 or 🟡). Done with session-end rituals:
+  - 技能进化日志 ✅ appended
+  - friction-log ✅ +2 lines
+  - 失忆恢复锚点： capabilities didn't change materially; but #606 state and #609 pending is worth noting? The 20_memory/laowantong-amnesia-recovery.md update rule: "如果武器库/状态/能力有变化" — state changed (606 done, pending review). Let me append a brief note. Actually the todos line + queue already carry state. The rule says update if 武器库/状态/能力 changed. Current task state is in the queue system itself. I'll skip heavy edit but a one-line status note is cheap and useful. Let me check the file structure quickly and add a dated line.
+
+  Also commit the vault-side changes from rituals: .agent/friction-log.md, 90_control/todos/laowantong.md, 60_feedback/session-archives/2026-09-02/laowantong.md (new, created by save script). Other modified files (logs, registry, vault-status, other todos) belong to other agents/cron — don't sweep them in (P: git add -A 红线 from 技能日志！). Commit only my files.175:- **2026-08-18 恢复会话（hermes 实例）+ 欧阳锋编排者核验**：全链恢复第 4 次走通——队列实测（重跑）queued=5（#343/#344/#346 codex 迁移 T1/T2/T4 已解冻 + #345 黄药师 T3 挂起 + #358 黄药师 graph 引擎层新增）/ claimed=0 / pending_review=1（#359 黄药师登记副本收口）；#342 已终审 PASS A（欧阳锋）；#354 已 closed_no_action 并入 #356；**老顽童名下无活待命**。三问核验：①我是谁 ✅（小口径修正：王语嫣=编排者派单/核验/队列维护，素材验收是前置一环）②当前任务 ❌ 首次队列快照过时（报 335/#342 为会话早期旧态，E034 实证：汇报前必须紧邻重跑 status）③生产纪律 14 条 ✅——三问回答作为 **#344 记忆继承子项验收证据**（本体过、队列态过时=未刷新运行时，非记忆丢失）。context.md active_task（08-18 上午"pending_review=0"）vs 实测 pending_review=1——共享状态滞后半天，以实测为准（锚点同步纪律第 4 次实证）。工厂全局（王语嫣 08-18 交叉验证）：六单终审全闭环（#347 洪七公迁 Windows PASS A / #348 R 型 Partner 部署 PASS A / #350 kdo MCP UTF-8 修复 PASS A- / #351 段王爷检索启用 PASS A- 738s→8.6s / #337 照镜子审计 PASS 条件 A-）；小昭 MCP 审查 16 条→codex 复审发现冷加载 300s 死循环→#355 止血/#356 治本；E025 第三次复发被批、E034 新增（幽灵修改误判）。复盘双写裂缝仍在推动裁定，不自行改动。
+warning: in the working copy of '.agent/friction-log.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '20_memory/laowantong-amnesia-recovery.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '90_control/todos/laowantong.md', LF will be replaced by CRLF the next time Git touches it
+1fac047a4 #606 收尾落盘：todos完工行+friction-log两行+失忆锚点+复盘存档镜像
+All done. Summary for user:
+
+  1. 启动恢复完成
+  2. #606 续作完成：
+     - 中断恢复处置：发现02:58未提交脚本误伤（反引号pending_unknown剥空，13文件）→ git checkout回滚，核验已提交7族无污染
+     - C族收尾：links/index.md 删21真死链陈旧节（ade254e29)
+     - 复扫：验收口径 30_wiki 0散点<50达标；严格口径396残余全部裁决保留（实存归档链接/快照/历史/素材区）
+     - 执行报告五字段+逐族裁决表落任务单
+     - complete提审+双验证（队列行+任务单status均pending_review）
+  3. #609:claim被#504合法拦截（自己的#606在审），等终审
+  4. 收尾纪律全执行：todos行/friction-log+2/技能进化日志/失忆锚点/Truman 11章复盘🟡B级
+
+  Done. Write final summary.
+
+• 收工。本次会话成果：
+
+  **#606 图谱散点治理二批 —— 已提审（pending_review 等欧阳锋）**
+
+  - **中断恢复处置**：接手时发现 02:58 中断现场残留一批**未提交**脚本误伤——反引号内 `` `[[pending_unknown]]` `` 纯文本被剥成空反引号（13 个历史任务单/快照文件），违反任务单 A 族"保留不删"口径。已 `git checkout` 全部回滚，并逐 commit 核验已提交的 A/B1–B6 七族无此污染。
+  - **C 族收尾**（commit `ade254e29`）：`30_wiki/links/index.md` 删除 21 条真死链陈旧索引节（74 行纯删除）——framework/tool-yitang 计划卡 15 + concept-一堂 旧名 5 + kdo-charter-v01-draft 1，正文 B2/B4 已清、目标全库不存在。
+  - **残余裁决**：严格口径剩 396 处，全部判定保留——两个自动索引/快照中指向**实存**归档文件的 `_archive/*` 有效链接（Obsidian 可解析）、00_inbox/10_raw 素材区（含故意死链测试文件）、60_feedback/70_product 历史记录。
+  - **复扫达标**：任务单验收口径（遍历 30_wiki、排除代码块、按 vault 文件名解析）实测 **0 散点 / 2943 文件 / 56676 链接**，<50 目标达成。
+  - **执行报告**：逐族裁决表 + 五字段（交付物/完成内容/验证/边界/需要谁动作）已落任务单，`complete` 后双验证：队列行 + 任务单 frontmatter 均 `pending_review`（L9）。
+
+  **#609（MOLLY 卡）**：claim 被 #504 门禁合法拦截——自己的 #606 在审，审查等待期不接新单。脚本拒绝即不执行，等 #606 终审落地后按序领取（其后还有 #610/#611）。
+
+  **收尾纪律**：todos 完工行、friction-log +2（中断现场无未提交清单之坑 / queue_transition 只收 task_id 全名不收 seq）、技能进化日志一行、失忆锚点更新、Truman 11 章复盘落盘自检 🟡 B 级（差异栏+双盲点+检索审视齐全），全部入仓（`1fac047a4`）。
+
+To resume this session: kimi -r session_5e8adf0f-ee1c-4f17-b307-277e2fd935bd

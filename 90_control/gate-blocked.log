@@ -496,3 +496,20 @@
   - untracked: duanzhixing/feishu_user_token.json
 补救：git a｜huangyaoshi
 2026-09-02 02:32:19｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 37.1), ('cli', 37.0)]）｜role_registry check-liveness｜role_registry
+2026-09-02 03:12:00｜role-liveness｜fengqingyang 全实例疑似死亡（stale: [('kimi-cli', 1456.1)]）｜role_registry check-liveness｜role_registry
+2026-09-02 03:12:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 76.7), ('cli', 44.8)]）｜role_registry check-liveness｜role_registry
+2026-09-02 03:32:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 96.8), ('cli', 37.1)]）｜role_registry check-liveness｜role_registry
+2026-09-02 03:37:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 102.2), ('cli', 63.2), ('hermes', 272.7)]）｜role_registry check-liveness｜role_registry
+2026-09-02 04:53:03｜task_20260902_huangyaoshi-tmp-script-cleanup｜F-034-五字段｜--evidence 文件不可读: 60_feedback/tasks/task_20260902_huangyaoshi-tmp-script-cleanup.md 执行报告节；工作commit e｜huangyaoshi-kimi
+2026-09-02 05:15:27｜task_20260902_skills-assistant-skill-manifest-batch1｜F-034-五字段｜--evidence 文件不可读: 72 manifest补建+2 name修复完成；复扫：trigger缺口72→0、name不一致清零、manifest 76/76、三写一致刷新、🔴72→24；执｜skills-assistant-kimi
+2026-09-02 05:15:59｜task_20260902_skills-assistant-skill-manifest-batch1｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
+  - 未提交改动: 40_outputs/capabilities/skills/shared/*/manifes｜skills-assistant-kimi
+2026-09-02 05:17:00｜role-liveness｜fengqingyang 全实例疑似死亡（stale: [('kimi-cli', 1581.1)]）｜role_registry check-liveness｜role_registry
+2026-09-02 05:17:59｜task_20260902_huangyaoshi-tmp-script-cleanup｜F-035-负向判词｜意见书含负向断言（「未做 git 历史」）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋
+2026-09-02 05:42:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 226.8), ('cli', 35.7)]）｜role_registry check-liveness｜role_registry
+2026-09-02 05:42:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 226.7), ('cli', 45.8)]）｜role_registry check-liveness｜role_registry
+2026-09-02 05:43:38｜task_20260902_skills-assistant-skill-manifest-batch1｜F-035-负向判词｜意见书含负向断言（不存在）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋
+2026-09-02 05:44:00｜task_20260902_skills-assistant-skill-manifest-batch1｜F-036-问题落点｜审查发现问题未给落点（F-036）：| 复扫数据 | 🔴72→24、A/F 清零 | ✅ 独立重跑 `scan_skills_registry.py`：🟢7；- 🟠 **research/manife｜欧阳锋
+2026-09-02 05:48:25｜task_20260902_huangyaoshi-scatter-relocation-misc｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
+  - untracked: quarantine-20260902/Harness-Engineering-hyp｜huangyaoshi-kimi
+2026-09-02 06:12:47｜task_20260902_huangyaoshi-scatter-relocation-misc｜F-036-问题落点｜审查发现问题未给落点（F-036）：**缺陷/记档**（🟡 不阻断）：执行报告两件 size 口径与实测不符（隔离区 report 声称 574B 实测 9——必须在意见书注明去向（建议书路径 / 停｜欧阳锋

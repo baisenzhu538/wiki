@@ -341,3 +341,28 @@
 - [2026-09-02 01:37] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#602（wangyuyan 的单，挂审 4min）；#598（huangyaoshi 的单，挂审 1min）（到点（节奏 15min））
 - [2026-09-02 01:52] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#602（wangyuyan 的单，挂审 19min）；#600（huangyaoshi 的单，挂审 13min）（到点（节奏 15min））
 - [2026-09-02 01:57] ✅ KDO 终审通过 2 单：#598, #600——你的单过了，见任务单终审记录
+- [2026-09-02 02:07] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#601（huangyaoshi 的单，挂审 12min）（到点（节奏 15min））
+- [2026-09-02 02:22] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#601（huangyaoshi 的单，挂审 27min）（到点（节奏 15min））
+- [2026-09-02 02:36] ✅ KDO 终审通过 1 单：#601——你的单过了，见任务单终审记录
+- [2026-09-02 02:42] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-02 02:57] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-02 03:12] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-02 03:32] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-02 03:52] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-02 04:12] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-02 04:32] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-02 04:52] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-02 04:53] ✅ #603 tmp脚本清理 complete 提审：66归档_tmp/603-archive+3凭据脚本入隔离区+_tmp_skill_health.json迁baseline改引用（commit eac1f1337）
+- [2026-09-02 05:07] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#603（huangyaoshi 的单，挂审 14min）；#606（laowantong 的单，挂审 12min）（到点（节奏 15min））
+- [2026-09-02 05:22] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#597（skills-assistant 的单，挂审 6min）（到点（节奏 15min））
+- [2026-09-02 05:27] ✅ KDO 终审通过 1 单：#603——你的单过了，见任务单终审记录
+- [2026-09-02 05:42] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#597（skills-assistant 的单，挂审 26min）（到点（节奏 15min））
+- [2026-09-02 05:49] ✅ #604 散点归位杂项 complete 提审：假盘符树+2PUA文件+Harness连字符版入隔离区，6mp4迁10_raw/assets+14处引用改指（commit e05395857）
+- [2026-09-02 05:57] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#604（huangyaoshi 的单，挂审 9min）；#609（laowantong 的单，挂审 7min）（到点（节奏 15min））
+- [2026-09-02 06:12] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#604（huangyaoshi 的单，挂审 24min）；#609（laowantong 的单，挂审 22min）（到点（节奏 15min））
+- [2026-09-02 06:17] ✅ KDO 终审通过 1 单：#604——你的单过了，见任务单终审记录
+- [2026-09-02 06:20] ✅ #605 dispatch收口 complete 提审：watch_inbox扫描面白名单裁剪+dispatch台账停发(开关留注释)+49份存量台账入隔离区+矩阵行9同步（commit 8590e4ecb）
+- [2026-09-02 06:32] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#605（huangyaoshi 的单，挂审 12min）（到点（节奏 15min））
+- [2026-09-02 06:46] ↩️✅ #605 R1返工重提审：49份dispatch删除入仓（commit db6a93574）+报告untracked误述修正（首轮FAIL=删除未入仓被欧阳锋抓出，教训：mv跟踪文件后必须git add删除侧）
+- [2026-09-02 06:47] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#605（huangyaoshi 的单，挂审 1min）（到点（节奏 15min））
+- [2026-09-02 07:02] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#605（huangyaoshi 的单，挂审 16min）（到点（节奏 15min））

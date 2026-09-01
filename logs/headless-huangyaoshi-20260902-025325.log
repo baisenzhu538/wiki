@@ -1,0 +1,339 @@
+kimi version 0.39.1
+• Let me start by reading the startup files.
+
+• 先执行启动恢复，读取必读文件。
+
+• Let me read 90_control/AGENTS.md and check queue status.
+
+• 读 90_control/AGENTS.md 并查看队列状态。# role=huangyaoshi · 任务路由（#472 只读视图，不动状态机）
+✅ 可领 4:
+  #604 task_20260902_huangyaoshi-scatter-relocation-misc — 散点归位杂项：C\uf03a假盘符树核查清除+Harness重复对收敛+60_feedba
+  #605 task_20260902_huangyaoshi-dispatch-mechanism-converge — dispatch机制收口：台账停发（职能并入看门狗v5）+watch_inbox目录树裁剪
+  #607 task_20260902_huangyaoshi-vault-backup-stall-investigation — vault backup停摆6天空窗根因排查（08-26→09-02无commit无人察觉
+  #608 task_20260902_huangyaoshi-image-detail-deadloop-fix — image_detail死循环修复：识别该类型直接mark_seen跳过（三症联诊动作3漏
+⏸ 等依赖 0:
+  (无)
+🧊 冻结 0:
+  (无)
+🚧 进行中 1:
+  #603 task_20260902_huangyaoshi-tmp-script-cleanup — tmp一次性脚本清理：根目录59个+kdo-tools/tmp_*25个归档_tmp（前置
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #598 task_20260902_huangyaoshi-bom-cleanup-health-radar — ✅PASS A-（2026-09-01）
+  #600 task_20260902_huangyaoshi-credential-exposure-cleanup — ✅PASS A（2026-09-01）
+  #601 task_20260902_huangyaoshi-wechat-promote-dedup-fix — ✅PASS A-（2026-09-01）
+
+
+• Queue shows #603 in progress (claimed by dead instance). Need to release 603 first, then claim as huangyaoshi-kimi. Let me look at queue_transition.py usage and #603 task file.release 需要 --instance <instance>
+任务 603 不在队列中
+Hard state transition enforcer for the KDO production queue.
+
+All queue status changes MUST go through this script. Manual edits to
+`production-queue.md` or task file `status` fields are forbidden.
+
+Usage:
+    python queue_transition.py claim <task-id> --instance <name> [--force] [--no-commit]
+    python queue_transition.py complete <task-id> --instance <name> [--evidence <path>] [--force --reason '<理由>'] [--no-commit]
+    python queue_transition.py release <task-id> --instance <name> [--no-commit]
+    python queue_transition.py review <task-id> --verdict pass|fail --reviewer 欧阳锋 [--grade A|A-|B+|B|B-|C] [--no-commit]
+
+Exit codes:
+    0 = transition applied
+    1 = transition rejected / error
+
+--force claim: 跳过队列前方 pending_review 阻塞（用于不同 assignee 的并行任务）
+--force complete: 允许从 queued 直接跳到 pending_review
+        （用于生产已完成但未通过脚本领取的场景；#444 起必须配 --reason，例外入台账 90_control/force-exceptions.log）
+--no-commit: 跳过流转后的自动 git 收口（#390 逃生门，特殊场景手工控制）
+
+#390：流转成功后自动 commit 本次触碰的文件（任务单+队列+dashboard），
+让"状态变更"与"入档"原子化——跨 checkout 协作者任何时候读到的都是最新状态。
+红线：path-scoped add，严禁 add -A/.（工作区永远有其他 agent 的在制品）。
+git 失败不阻断流转：stderr 醒目报警 + 写 90_control/pending-git-commits.log 待收口。
+
+"任务 603 不在队列中" — maybe the task id is different in the queue (e.g. full id like `task_20260902_huangyaoshi-tmp-script-cleanup`). Let me check the queue file for 603.任务 task_20260902_huangyaoshi-tmp-script-cleanup 状态为 claimed-huangyaoshi，不是 claimed-huangyaoshi-kimi
+Need to release as the dead instance name. The status is `claimed-huangyaoshi` — so instance name is "huangyaoshi". Try release with --instance huangyaoshi. But instruction says: release 603 (if refused use --force with reason). Let me try release with instance huangyaoshi.任务 603 不在队列中
+✅ task_20260902_huangyaoshi-tmp-script-cleanup 已释放回 queued
+✅ dashboard.html 已生成 (194 个任务)
+   待领取: 9  |  审查中: 0  |  进行中: 1  |  已完成: 184
+✅ task_20260902_huangyaoshi-tmp-script-cleanup 已领取为 claimed-huangyaoshi-kimi
+⚠️ task_20260902_huangyaoshi-tmp-script-cleanup 疑似处置未标记：动作/目标节命中 ['清理']——如含素材处置动作，请补 frontmatter `disposal: true` + 「内容价值判断」节（#457；PROTOCOL §7 删除须老朱亲批）
+✅ dashboard.html 已生成 (194 个任务)
+   待领取: 8  |  审查中: 0  |  进行中: 2  |  已完成: 184
+
+
+• Claimed #603。读任务单了解施工范围。
+
+• Plan for #603:
+  1. Inventory: find root-level files matching `_tmp_*`, `_debug*`, `_fix*`, `tmp_*` and `kdo-tools/tmp_*`.
+  2. Pre-step: `_tmp_skill_health.json` referenced by 建议书 file:146. Either update the reference or archive the json to `90_control/baseline/`. Simpler: move `_tmp_skill_health.json` to `90_control/baseline/` and update reference. Or archive to `_tmp/` and update ref. Task says "先把引用改指归档后位置（或把该文件归档到 90_control/baseline/ 并同步改引用）". 90_control/baseline/ seems a good place for a health baseline.
+  3. For each candidate file, grep references across vault (excluding .git, _tmp, node_modules).
+  4. dry-run manifest, then move to `_tmp/` (with subdirs maybe: `_tmp/root-scripts/`, `_tmp/kdo-tools-tmp/`). Need non-empty non-overwrite: check name collisions in _tmp/.
+
+  Let me start with inventory._debug2.txt
+_debug3.txt
+_debug_fix.txt
+_debug_hex.txt
+_debug_label_llm.py
+_debug_step1.txt
+_debug_step2.txt
+_fix_domain_pollution.py
+_fix_domain_v2.py
+_fix_source_refs_final.py
+_fix_source_refs_real.py
+_fix_source_refs_step1.py
+_fix_source_refs_step234.py
+_tmp_batch_fix.py
+_tmp_changed_files.txt
+_tmp_changed_files2.txt
+_tmp_check_at.py
+_tmp_check_batch_a.py
+_tmp_composite_ai_saas.txt
+_tmp_edge_check.txt
+_tmp_edge_check2.txt
+_tmp_escape_quotes.py
+_tmp_escape_quotes2.py
+_tmp_fix_critique_section.py
+_tmp_fix_order.py
+_tmp_fix_strategy_cases_part1.py
+_tmp_fix_strategy_cases_part2.py
+_tmp_fix_task28_strategy_tool_critique.py
+_tmp_fix_tool_critique.py
+_tmp_lint_full.txt
+_tmp_m371_domain_unknown.txt
+_tmp_m371_scan.json
+_tmp_pending_unknown_file.txt
+_tmp_pending_unknown_id.txt
+_tmp_q.txt
+_tmp_retrospective.md
+_tmp_skill_health.json
+_tmp_v15_debug.py
+_tmp_v15_fix.py
+_tmp_v15_fix2.py
+tmp_add_aliases.py
+tmp_add_aliases_v09.py
+tmp_add_discover.py
+tmp_add_evidence_v10.py
+tmp_fix_aliases.py
+tmp_fix_yaml.py
+tmp_video
+---kdo-tools---
+tmp_blocks_to_md.py
+tmp_dl_bili.sh
+tmp_dl_model.py
+tmp_dl_model2.py
+tmp_extract_doc1.cjs
+tmp_extract_fsdoc.cjs
+tmp_probe_l1.py
+tmp_probe_l2.py
+tmp_publish_md.py
+tmp_raw_DOC3_wiki_VUTt.txt
+tmp_read_doc4.py
+tmp_transcribe.py
+tmp_transcribe_small.py
+tmp_transcribe_tiny.py
+tmp_verify_docs.py
+tmp_write_manifests.py
+tmp_wx_video.cjs
+tmp_wx_video2.cjs
+tmp_wx_video3.cjs
+Root: 46 files listed (46 + tmp_video dir maybe?). Task says 59 root files. `tmp_video` is a directory? Let me check. Also there may be more patterns like `_tmp` prefixed but hidden, or files in subdirs? The task said "根目录 59 个". My list shows 46 + tmp_video. Maybe others exist with different patterns (`_fix_source_refs_step1/2/3/final.py 四版并存` covered). Let me count: ls shows 46 files + tmp_video (dir?). Actually task may have counted differently. Let me be thorough: check for other patterns like `debug*`, `_tmp` dirs etc. Let me also count.tmp_video: directory
+47
+19
+temp_design.pdf
+temp_design_p0_paddle_ocr.txt
+temp_design_p1_paddle_ocr.txt
+temp_design_p2_paddle_ocr.txt
+temp_design_p3_paddle_ocr.txt
+temp_design_p4_paddle_ocr.txt
+temp_gerber_2022
+temp_gerber_2025
+temp_pcb_a.json
+temp_pcb_b.json
+temp_sch_a.pdf
+temp_sch_a_p0_paddle_ocr.txt
+temp_sch_a_p1_paddle_ocr.txt
+temp_sch_a_p2_paddle_ocr.txt
+temp_sch_b.pdf
+temp_sch_b_p0_paddle_ocr.txt
+templates
+test_fail_manifest.txt
+test_gate_manifest.txt
+test_manifest.txt
+Root has 47 matching `_tmp_/_debug/_fix/tmp_` + also `temp_*` and `test_*` and `tmp_video` dir. Task said 59 root. 47 + temp_* files (temp_design.pdf + 5 txt + temp_gerber_2022 dir + temp_gerber_2025 dir + 2 pcb json + temp_sch_a.pdf + 3 txt + temp_sch_b.pdf + 3 txt = 16 files+dirs) — 47+16=63. Hmm. Or 47+12=59 if dirs counted differently. Also test_*manifest (3). 
+
+  The scope per task: "根目录 59 个 `_tmp_/_debug/_fix/tmp_*` 散落脚本与 txt". The named patterns are `_tmp_`, `_debug`, `_fix`, `tmp_*`. But to hit 59, maybe they included temp_* too? 47+... let me count temp_* files (not dirs): temp_design.pdf, 5 temp_design_pN, 2 pcb json, temp_sch_a.pdf, 3 sch_a txt, temp_sch_b.pdf, 3 sch_b txt = 1+5+2+1+3+1+3 = 16. 47+16=63 ≠ 59. Minus test_*. Hmm.
+
+  Rather than obsess over exact count, the spirit: clean root-level one-off scripts and debug txt. But batch discipline: declare scope. I should check git status — are these tracked? #602 was "93文件未提交改动落账三批" as prerequisite （提供git兜底）, which is reviewed, so done.
+
+  Let me check what's inside tmp_video, temp_gerber dirs, and whether files are tracked in git. Also need reference grep for each file. That's a lot — but the grep can be done in bulk: build a list of filenames and grep the vault for references (excluding .git, _tmp, node_modules, logs?).
+
+  Plan:
+  1. Handle `_tmp_skill_health.json` first: read 建议书 line 146 context, move file to `90_control/baseline/skill-health-20260901.json` (or similar), update reference.
+  2. Build full candidate list, grep each name in vault for references, produce exceptions list.
+  3. dry-run manifest: write a list file, declare scope in execution report, then move to `_tmp/` preserving origin (e.g. `_tmp/root-cleanup-20260902/` and `_tmp/kdo-tools-tmp-cleanup-20260902/`).
+
+  Wait — _tmp/ is in .gitignore? Task says "（已在 .gitignore 则直接移入）". Check .gitignore. Also check whether candidate files are git-tracked; if tracked, use git mv to keep history? "归档不删除：移 _tmp/ 或隔离区，保留 git 历史可追溯". If _tmp is gitignored, moving a tracked file into gitignored dir removes it from git. Better to use git mv so history is preserved in git log --follow. But if _tmp is ignored, git mv would fail/unstage. Let me check.26:_tmp/
+---
+_debug2.txt
+_debug3.txt
+_debug_fix.txt
+_debug_hex.txt
+_debug_label_llm.py
+_debug_step1.txt
+_debug_step2.txt
+_fix_domain_pollution.py
+_fix_domain_v2.py
+_fix_source_refs_final.py
+_fix_source_refs_real.py
+_fix_source_refs_step1.py
+_fix_source_refs_step234.py
+_tmp_batch_fix.py
+_tmp_changed_files.txt
+_tmp_changed_files2.txt
+_tmp_check_at.py
+_tmp_check_batch_a.py
+_tmp_composite_ai_saas.txt
+_tmp_edge_check.txt
+_tmp_edge_check2.txt
+_tmp_escape_quotes.py
+_tmp_escape_quotes2.py
+_tmp_fix_critique_section.py
+_tmp_fix_order.py
+_tmp_fix_strategy_cases_part1.py
+_tmp_fix_strategy_cases_part2.py
+_tmp_fix_task28_strategy_tool_critique.py
+_tmp_fix_tool_critique.py
+_tmp_lint_full.txt
+---
+kdo-tools/tmp_blocks_to_md.py
+kdo-tools/tmp_dl_bili.sh
+kdo-tools/tmp_dl_model.py
+kdo-tools/tmp_dl_model2.py
+kdo-tools/tmp_extract_doc1.cjs
+kdo-tools/tmp_extract_fsdoc.cjs
+kdo-tools/tmp_probe_l1.py
+kdo-tools/tmp_probe_l2.py
+kdo-tools/tmp_publish_md.py
+kdo-tools/tmp_raw_DOC3_wiki_VUTt.txt
+kdo-tools/tmp_read_doc4.py
+kdo-tools/tmp_transcribe.py
+kdo-tools/tmp_transcribe_small.py
+kdo-tools/tmp_transcribe_tiny.py
+kdo-tools/tmp_verify_docs.py
+kdo-tools/tmp_write_manifests.py
+kdo-tools/tmp_wx_video.cjs
+kdo-tools/tmp_wx_video2.cjs
+kdo-tools/tmp_wx_video3.cjs
+Files are git-tracked and `_tmp/` is gitignored. Moving tracked files into an ignored directory removes them from tracking (git would show as deleted). "保留 git 历史可追溯" — moving to _tmp/ (ignored) means git sees them deleted; history still traceable via git log -- path. That's acceptable: "已在 .gitignore 则直接移入" — the task explicitly says move into _tmp/ since it's gitignored. So plain `mv` is fine; git history remains in the repo.
+
+  But wait — #602 was supposed to commit these changes first ("93文件未提交改动落账三批" — 为#601/#603/#604清理动作提供git兜底）. It's reviewed, so presumably committed. Let me verify quickly: `git status --short` for these files — if clean, we're safe.
+
+  Also `_tmp_skill_health.json` first. Read the 建议书 line 146. M _tmp_retrospective.md
+EXIT=0
+obsidian
+rescan-baseline.json
+| 档位 | 数量 | skill 清单（节选） |
+|:--|--:|:--|
+| 🟢 健康 (≥6/8) | 3 | research-core(8)、nine-character-ai-collaboration(8)、skill-architecture-design(8) |
+| 🟡 亚健康 (4-5/8) | 11 | deep-debug(5)、kdo-self-attack(5)、task-orchestration(5)、content-production-polish(4)、knowledge-collision(4)、presenton-ppt-generator(4)、research-quality-gate(4)、self-evolution(4)、stage-1-diagnose(4)、stage-3-tooling(4)、wan-video-generation(4) |
+| 🔴 不健康 (≤3/8) | 62 | agent-self-iteration(3)、cosyvoice-tts(3)、nine-layer-deep-dig(3)、research-cross-validation(3)、six-layer-cross-validation(3)、beikai-multimodal-pipeline(2)、comfyui-local(2)、content-production(2)、domain-iteration(2)、drawio-mcp-diagrams(2)、feishu-publish(2)、multi-page-article-capture(2)、research-osint(2)、stage-4-validate(2)、strategy-brm(3)、demand-analysis-synthetic(3)、hermes-multi-bot-feishu-setup(1)、demand-analysis-blindspot(1)、wan-video-generation 等 |
+
+完整明细见 `_tmp_skill_health.json`（本次扫描缓存）与本文档附表。
+
+---
+
+## 六、需要谁动作
+
+- **王语嫣（编排层）**：审阅本建议书 → 对动作清单第 4/5/6 项做编排判定（哪些 skill 降级/下架/收编）
+Working tree is mostly clean (only `_tmp_retrospective.md` modified — one file uncommitted; #602 was supposed to cover these. It's modified; moving it anyway is fine since it's just moved, git will show renamed/deleted + ignored. Hmm, but "git 兜底" — the modified content of _tmp_retrospective.md hasn't been committed. Moving an uncommitted modified file to gitignored dir would lose the working-tree changes from git perspective? No — moving the file preserves the file content on disk; git just loses tracking. But the uncommitted *changes* would vanish from git's view (file deleted). The change itself is a tmp retrospective md — low risk, but to be safe I should note it, or commit? I shouldn't commit (not my scope, and rule says no git mutations without asking... actually queue_transition does auto-commit. But general discipline: no git commit unless asked). The instruction in this task says 归档不删除保留 git 历史可追溯. For the one modified file, I'll include it in exceptions list? Or check its diff quickly. Simplest: note it in the execution report and still archive (content preserved on disk in _tmp/). Actually safer: leave `_tmp_retrospective.md` out of the move since it has uncommitted changes, list it as exception. Hmm, but it IS a tmp file. Let me look at the diff briefly.
+
+  Also pre-step: `_tmp_skill_health.json` → archive to `90_control/baseline/skill-health-scan-20260901.json` and update 建议书 reference at line 146: "完整明细见 `_tmp_skill_health.json`（本次扫描缓存）与本文档附表。" → change to new path.
+
+  Let me check diff of _tmp_retrospective.md and check references for all candidate files. First build the full list and grep references in bulk.
+
+  Grep approach: use git grep (tracked files only) + rg for all files. Simpler: rg with fixed strings for each filename. 47+19+temp/test files = ~85 names. rg -F -f patterns file. Let's create a patterns file of filenames, then rg -Ff patterns --glob '!_tmp/**' --glob '!.git/**' etc. Filenames like `_debug2.txt` may appear as substrings of other names — acceptable for a reference scan; I'll eyeball results.
+
+  Scope decision: include root `_tmp_*`, `_debug*`, `_fix*`, `tmp_*`, `tmp_video/` dir, `temp_*` (except... check temp_gerber dirs contents), `test_*manifest.txt`? The task title says 根目录 59 + kdo-tools 25. kdo-tools has 19 now — maybe the audit counted 25 earlier (some moved). Anyway.
+
+  But `temp_design.pdf`, `temp_sch_*.pdf` — those look like electronics practice materials (90_control/electronics-practice exists). Hmm, `temp_` files might be actual working materials not one-off scripts. The audit said patterns `_tmp_/_debug/_fix/tmp_*`. To stay in-scope and safe, include exactly: root `^(_tmp_|_debug|_fix|tmp_)` (47 files + tmp_video dir = 48) and `kdo-tools/^tmp_` (19). The task says 59 and 25 — counts drifted since the audit, fine, I'll note actual counts in the report. Don't touch temp_*/test_* — out of declared pattern scope. Hmm, but acceptance: "根目录 `_tmp_/_debug/_fix/tmp_*` 清零（例外清单除外）" — exactly those patterns. Good.
+
+  Check tmp_video dir content and references.bgm.mp3
+concat.txt
+final.mp4
+frames
+index.html
+parts
+silent.mp4
+warning: in the working copy of '_tmp_retrospective.md', LF will be replaced by CRLF the next time Git touches it
+ _tmp_retrospective.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+tmp_video is a directory with media artifacts (mp3/mp4/frames) — one-off video generation output. Include in archive.
+
+  _tmp_retrospective.md has 1-line uncommitted change. I'll check the diff; if trivial, either include as exception or just move it (content preserved). Better: include it in move but note in report. Actually safest per 非空不覆盖 and caution: the change is uncommitted; moving it means git loses the file. But the file content stays on disk in _tmp/. git log history for the old path remains. The uncommitted 1-line change would effectively be preserved in the moved file. Fine — note it in report.
+
+  Now bulk reference scan. Build pattern list, rg -F across repo excluding .git, _tmp, node_modules. Include also references inside the files being moved themselves? Files referencing each other among the move set are fine (they move together). I mainly care about references from files NOT in the move set.
+
+  Let me generate the list and scan.66 /tmp/candidates.txt
+_debug2.txt _debug3.txt _debug_fix.txt _debug_hex.txt _debug_label_llm.py _debug_step1.txt _debug_step2.txt _fix_domain_pollution.py _fix_domain_v2.py _fix_source_refs_final.py _fix_source_refs_real.py _fix_source_refs_step1.py _fix_source_refs_step234.py _tmp_batch_fix.py _tmp_changed_files.txt _tmp_changed_files2.txt _tmp_check_at.py _tmp_check_batch_a.py _tmp_composite_ai_saas.txt _tmp_edge_che
+66 unique names (47 root + 19 kdo-tools; tmp_video dir included in root list? "tmp_video" matched ^tmp_ in root ls — yes it's in the list). Now scan references: use rg with fixed strings, exclude .git, _tmp/, node_modules, and exclude the candidate files themselves? Candidates referencing each other — I'll filter after. rg doesn't support -F with multiple patterns from file? `rg -F -f file` works (patterns from file, one per line, fixed strings with -F).
+
+  Exclude binary dirs. Command:
+
+  rg -F -f /tmp/candidates.txt -l --glob '!.git/**' --glob '!_tmp/**' --glob '!node_modules/**' --hidden ... but rg via Grep tool is preferred per instructions ("ALWAYS use Grep tool instead of running grep or rg from a shell"). However Grep tool takes one pattern. 66 patterns individually is too many. I can build one big alternation regex. Filenames contain dots and underscores — escape dots. Use Grep tool with a long alternation pattern. That could be a very long pattern but fine. Actually the guidance says always use Grep tool; but building alternation with escaped names is doable. 66 names, escaped, joined with |. Let me construct it in bash into a file and read it... Grep tool pattern param — I can generate the pattern string via bash then paste. Let me generate.
+
+• 生成转义后的联合正则，用 Grep 工具全库扫引用。/usr/bin/bash: line 1: python3: command not found
+0 /tmp/refpat.txt
+
+
+Traceback (most recent call last):
+  File "<string>", line 3, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/candidates.txt'
+0 /tmp/refpat.txt
+• Python on Windows doesn't see Git Bash's /tmp. Use a workspace temp path instead, e.g. `_tmp/` ... but I'm cleaning. Use `90_control/.sandbox/` or just a file under current dir? Better keep scan artifacts out of the vault — but they're temporary; use `_tmp/` since it's the archive target anyway... Actually the scan artifacts (dry-run manifest) are deliverables — the task wants 归档清单 delivered. I can keep them in the task evidence. Let me put working files in `60_feedback/tasks/` alongside? No — evidence path. Simpler: use `_tmp/_603_scan/` as scratch, or use /c/Users/Administrator/Desktop/wiki/_tmp paths which python can read as `_tmp/...` relative. Use relative path `_tmp_scan_603/`? That would pollute root. Put scratch in `_tmp/` directly — it's gitignored and it's the archive destination. `_tmp/603-work/`.66 names, 1447 chars
+_debug2\.txt|_debug3\.txt|_debug_fix\.txt|_debug_hex\.txt|_debug_label_llm\.py|_debug_step1\.txt|_debug_step2\.txt|_fix_domain_pollution\.py|_fix_domain_v2\.py|_fix_source_refs_final\.py|_fix_source_refs_real\.py|_fix_source_refs_step1\.py|_fix_source_refs_step234\.py|_tmp_batch_fix\.py|_tmp_changed_files\.txt|_tmp_changed_files2\.txt|_tmp_check_at\.py|_tmp_check_batch_a\.py|_tmp_composite_ai_saas\.txt|_tmp_edge_check\.txt|_tmp_edge_check2\.txt|_tmp_escape_quotes\.py|_tmp_escape_quotes2\.py|_tmp_fix_critique_section\.py|_tmp_fix_order\.py|_tmp_fix_strategy_cases_part1\.py|_tmp_fix_strategy_cases_part2\.py|_tmp_fix_task28_strategy_tool_critique\.py|_tmp_fix_tool_critique\.py|_tmp_lint_full\.txt|_tmp_m371_domain_unknown\.txt|_tmp_m371_scan\.json|_tmp_pending_unknown_file\.txt|_tmp_pending_unknown_id\.txt|_tmp_q\.txt|_tmp_retrospective\.md|_tmp_skill_health\.json|_tmp_v15_debug\.py|_tmp_v15_fix\.py|_tmp_v15_fix2\.py|tmp_add_aliases\.py|tmp_add_aliases_v09\.py|tmp_add_discover\.py|tmp_add_evidence_v10\.py|tmp_blocks_to_md\.py|tmp_dl_bili\.sh|tmp_dl_model\.py|tmp_dl_model2\.py|tmp_extract_doc1\.cjs|tmp_extract_fsdoc\.cjs|tmp_fix_aliases\.py|tmp_fix_yaml\.py|tmp_probe_l1\.py|tmp_probe_l2\.py|tmp_publish_md\.py|tmp_raw_DOC3_wiki_VUTt\.txt|tmp_read_doc4\.py|tmp_transcribe\.py|tmp_transcribe_small\.py|tmp_transcribe_tiny\.py|tmp_verify_docs\.py|tmp_video|tmp_write_manifests\.py|tmp_wx_video\.cjs|tmp_wx_video2\.cjs|tmp_wx_video3\.cjs
+Analyze external references (excluding: the candidate files themselves, logs/, the task file #603 itself, production-queue/dashboard, and audit docs that merely *mention* the cleanup — mentions in reports/pitfalls are historical references, not functional imports):
+
+  External references found:
+  1. `60_feedback/diagnosis/建议书_20260901_skill健康度勘察与检测方法论.md:146` → `_tmp_skill_health.json` — pre-step, handle by moving to `90_control/baseline/` + update ref.
+  2. `50_delivery/published/...manifest.yaml:54` → `tmp_video/final.mp4` — a published manifest backup path reference. Moving tmp_video would break this path. It's a manifest noting "备份路径（临时）". Options: exception (keep tmp_video) OR move tmp_video and update manifest. Published manifest — modifying published manifests is touchy. Safer: move tmp_video to `_tmp/tmp_video/` and update the manifest path? The manifest is a historical delivery record; editing published manifest may be undesirable. I'll list tmp_video as exception-keep OR move with manifest update. Hmm. Task acceptance: root `_tmp_/_debug/_fix/tmp_*` 清零（例外清单除外）. tmp_video is referenced by a published manifest → put in 例外保留清单 with reason. That's the safe call per "有引用的列入「例外保留」清单随执行报告交付，不强行移动".
+  3. `90_control/scripts/clean-metadata-371.py:280-281` → writes `_tmp_m371_domain_unknown.txt` — a script that regenerates this file. If I move the txt, the script still works (it writes when run). But the task says files with references go to exceptions. This is a *write target* of an active script in 90_control/scripts. Also `60_feedback/tasks/task_20260819_...` references `_tmp_m371_domain_unknown.txt` as 备案 for manual completion work （老顽童抽查）. So `_tmp_m371_domain_unknown.txt` has live referencess → exception keep, OR move and update script + task references. Moving + updating clean-metadata-371.py path and the two task-file mentions is doable but touches a 90_control script. Simplest safe: exception-keep `_tmp_m371_domain_unknown.txt` (referenced by active script + pending 人工抽查 workflow). Hmm, but the file is a one-off txt at root. Alternatively move it to `_tmp/` and update clean-metadata-371.py's two lines and leave the historical task mentions (they'd be stale). The script is the functional reference. I'd rather keep it as exception — low clutter cost (1 file), avoids touching infra script. But acceptance says 清零 except 例外清单 — exceptions allowed. Decide: exception-keep with reason "被 90_control/scripts/clean-metadata-371.py 作为输出路径 + 老顽童抽查工作流引用".
+  4. `60_feedback/tasks/task_20260625_huangyaoshi-script-migration.md` mentions many `_tmp_*.py` scripts in a migration plan table (as items to migrate to archive). Historical task doc mentions — not functional. OK to move; mentions become historical (they describe the files' existence). Actually that task planned to move them to `40_outputs/code/scripts/archive/`. Did that happen? The files are still at root, so no. Historical mention fine.
+  5. `.agent/pitfalls.md`, `huangyaoshi/daily_cognitive_review/*`, `60_feedback/taxonomy-migration-2026-06-27/*`, `70_product/tasks/task_20260712_...` → historical mentions of `_fix_source_refs_final.py` etc. as failure-mode stories. Moving the file doesn't break anything; these are narrative references. Fine to move (history). Note in report that narrative references remain valid as git history.
+  6. `60_feedback/diagnosis/diag_20260902_huangyaoshi-vault-scatter-obsidian-config-pipeline.md:56` mentions `_tmp_oyp_brief.txt` / `_tmp_oyp_review.py` — wait, those names aren't in my candidate list! `_tmp_oyp_brief.txt` and `_tmp_oyp_review.py` match `^_tmp_` pattern... but they didn't appear in ls output. Maybe already cleaned? Let me verify they don't exist.
+  7. `diag_20260821_fengqingyang...` mentions tmp_video, temp_gerber as garbage — narrative.
+  8. logs/* — my own session logs, irrelevant.
+
+  Also `tmp_publish_md.py` — task says 单独标注随 #600 处置口径. #600 was credential-exposure-cleanup (reviewed PASS A). I should check what #600's disposition was. Let me check the #600 task file for 处置口径 re tmp_publish_md.py. 
+
+  Also `kdo-tools/tmp_raw_DOC3_wiki_VUTt.txt` — raw text, one-off extraction. Fine.
+
+  Also need to check: do any kdo-tools non-tmp scripts import tmp_* modules? My grep covered whole repo including kdo-tools — results showed only self-references in tmp files themselves. Good.
+
+  Also `__pycache__/tmp_add_aliases.cpython-310.pyc` at root — matches pattern? `__pycache__` is a dir, not matched. It's stale bytecode; leave (out of scope).
+
+  Now check the missing `_tmp_oyp_*` files and #600 disposition.ls: cannot access '_tmp_oyp*': No such file or directory
+---600---
+3:title: 凭据三件套处置（散点审计 R1，P0 安全项）
+17:# #600 凭据三件套处置
+21:风清扬替代期散点审计（`60_feedback/diagnosis/diag_20260902_fengqingyang-substitute-scatter-audit.md` P0-A）发现 3 个凭据类文件裸露在 vault 内。老朱 09-02 拍板「全部编排修复」，已知情。
+23:## 处置对象
+27:| `./--help`（根目录，5409B，08-31 02:08 事故产物） | Netscape cookie 文件，含 douyin.com 会话凭据 | **移出 vault** 到 `90_control/.sandbox/quarantine-20260902/`，不直接删 |
+33:1. **不打印、不复制凭据内容**到任何输出/日志/任务单。
+34:2. **凭据一律不入 git**：若已在 git 历史，任务单执行报告标注「历史含凭据，建议轮换」，不做历史改写。
+45:欧阳锋终审：三文件 vault 内不可见 + 隔离区存在 + git 索引无凭据 + 轮换建议已写。
+49:以下凭据曾在 vault 内裸露且**曾入 git 历史**（本次仅做索引清除+物理隔离，未改写历史）——按泄露处置惯例建议轮换：
+62:**完成内容**：P0 凭据三件套处置完毕——①`./--help`（douyin 会话 cookie，git 已跟踪）：git rm --cached 清索引 → 移隔离区（更名 douyin-cookie--help.txt 消除 `--` 选项解析风险）；②`60_feedback/_sg_cookie.txt`（未跟踪）：直接移隔离区；③`duanzhixing/feishu_user_token.json`（git 已跟踪）：git rm --cached → 移隔离区；④.gitignore 补 quarantine-*/ 规则防再入库。全程未打印/未复制任何凭据内容；移动用 Python shutil（中文路径纪律），逐件 exists() 双向复核。
+66:**未做项**：①git 历史改写（按任务单安全栏第 2 条不做，历史含凭据已标注轮换建议）；②实际 token 轮换（归老朱）；③vault 全库凭据模式复扫（本单只管审计点名的三件，全库扫可另立项）。
+68:**需要谁动作**：欧阳锋——终审 #600（重点：三文件 vault 原位不可见+隔离区在位+git 索引零凭据+轮换建议已写）；老朱——执行三项 token 轮换（见上节）。
+91:3. **git 索引零凭据**：`git ls-files` 对三件亲跑返回 0 行；索引清除 commit `5c4a3b6b3`（01:38:36）在 git log，两件 delete mode 与同 commit 的 .gitignore 封口一并落账。
+93:5. **轮换建议已写**：任务单「token 轮换建议」节三项齐全（douyin cookie / 飞书 user token / _sg_cookie），且**曾入 git 历史**的声明独立证实——`git log` 亲查 feishu token 见于 fabdc3072（05-04 vault backup）、`--help` 见于 d2d1210f8（08-22 vault backup），历史含凭据属实，轮换建议有据。
+94:6. **安全栏合规**：任务单全文亲读，无任何凭据内容出现（仅文件名+字节数）；`./--help` 引用纪律正确；历史未改写（符合安全栏第 2 条）。
+97:- git 历史（05-04/08-22 备份点）仍含凭据明文——按任务单口径不做历史改写，**老朱需执行三项轮换**（douyin 重新登录、飞书 token 重新签发、_sg 视服务重要性）；
+98:- 隔离区与 #601 的 sources-dup 共用目录（quarantine-20260902），不冲突但注意后续处置时区分归属；
+99:- vault 全库凭据模式复扫未做（本单边界外，报告已声明可另立项）。
+
+
+error: failed to run prompt: provider.auth_error: 403 You've reached your 5-hour usage limit. Your quota will reset when the current 5-hour window ends. To continue now, purchase extra usage or upgrade your plan: https://www.kimi.com/membership/subscription?tab=quota
+See log: C:/Users/Administrator/.kimi-code/logs/kimi-code.log

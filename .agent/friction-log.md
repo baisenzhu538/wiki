@@ -108,3 +108,4 @@ updated_at: 2026-08-09
 | 2026-09-01 14:35 | 黄药师 | #593 真机冒烟 | `hermes --profile skills-assistant` 报 profile 不存在——config+SOUL 落在 `.hermes/profiles/` 旧树，现行数据根=AppData/Local/hermes/profiles/；sync/check 脚本常量同源漂移（巡检报 [MISS] windows/wangyuyan 而其在跑） | 初判：0.20 迁移后脚本常量未跟进，本单双树对齐保可用，根治需另立项 |
 | 2026-09-02 04:50 | 老顽童 | #606 中断续作接管 | 02:58 额度中断时工作区残留一批未提交脚本误伤（反引号内 `[[pending_unknown]]` 纯文本被剥成空反引号，13 历史文件），与正常在途改动混在 git status 里无法一眼区分 | 初判：批量脚本断点不留「未提交改动清单」落盘，续作者只能靠逐文件 diff 考古分拣；已 git checkout 回滚+已提交 7 族核验无污染 |
 | 2026-09-02 04:52 | 老顽童 | #606 complete 提审 | `queue_transition.py complete 606` 报「任务 606 不在队列中」——脚本 `find_task` 只精确匹配 task_id 全名，seq 号不解析（claim/complete 同规则，读源码实证） | 初判：CLI 易用性缺口（队列行/myqueue 都显示 #seq 但命令不收 seq），换全 task_id 一次过 |
+2026-09-02 06:46｜huangyaoshi｜#605 台账归档｜mv 移动 git 跟踪文件后未 add 删除侧，交付 commit 缺 49 删除被终审 FAIL｜根因：只凭 ls-files 头部输出误判 untracked，批量移动后没跑 git status 核验删除侧

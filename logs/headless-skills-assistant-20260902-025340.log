@@ -1,0 +1,485 @@
+kimi version 0.39.1
+• Let me do startup recovery first.
+
+• 先做启动恢复，读取三个必读文件。
+
+• Need to read .agent/skills-assistant-context.md doesn't exist → read 20_memory/skills-assistant-amnesia-recovery.md instead. Also read 90_control/AGENTS.md per reminder. Also need to look at task #597. Let me read those.
+
+• 角色上下文不存在，改读失忆恢复文件，并按提示读 90_control/AGENTS.md。
+
+• Now I need to find task #597 and #595 (prereq). Also check queue. Let me find the task file for #597. Also check CronList for the clock? The startup says install doorbell — but instruction says "只做本次指令范围内的事". The cron clock thing is part of startup... The user gave specific startup steps only. I'll skip extra steps to stay in scope.
+
+  Find task #597 file.
+
+• 启动恢复完成。接下来定位 #597 任务单和前置 #595 的审查结论。
+
+• Task file likely `60_feedback/tasks/task_20260902_skills-assistant-skill-manifest-batch1.md` — that's probably #597. Read it.Need to check #595 status (prereq: reviewed). Check queue via queue_transition.py or find #595 task file. Also need to understand the skill landscape: 40_outputs/capabilities/skills/ presumably contains 76 registered skills. Need sample manifests: deep-debug / anti-ai-bs-three-moves. Also the 建议书 §三 8-dim rubric.
+
+  Let me check queue state for #595 and read the 建议书.队列总任务数: 194
+queued: 8
+claimed: 2
+pending_review: 0
+---
+队列总任务数: 194
+queued: 8
+claimed: 2
+pending_review: 0
+The `queue_transition.py status` output was generic queue summary, not task-specific. Let me check the usage of queue_transition.py. Maybe it has subcommands: claim, complete, review, myqueue, status... Status gave global summary. Let me check help. Also need to verify #595 is reviewed (prereq). Let me check the queue file / task #595 file.Hard state transition enforcer for the KDO production queue.
+
+All queue status changes MUST go through this script. Manual edits to
+`production-queue.md` or task file `status` fields are forbidden.
+
+Usage:
+    python queue_transition.py claim <task-id> --instance <name> [--force] [--no-commit]
+    python queue_transition.py complete <task-id> --instance <name> [--evidence <path>] [--force --reason '<理由>'] [--no-commit]
+    python queue_transition.py release <task-id> --instance <name> [--no-commit]
+    python queue_transition.py review <task-id> --verdict pass|fail --reviewer 欧阳锋 [--grade A|A-|B+|B|B-|C] [--no-commit]
+
+Exit codes:
+    0 = transition applied
+    1 = transition rejected / error
+
+--force claim: 跳过队列前方 pending_review 阻塞（用于不同 assignee 的并行任务）
+--force complete: 允许从 queued 直接跳到 pending_review
+        （用于生产已完成但未通过脚本领取的场景；#444 起必须配 --reason，例外入台账 90_control/force-exceptions.log）
+--no-commit: 跳过流转后的自动 git 收口（#390 逃生门，特殊场景手工控制）
+
+#390：流转成功后自动 commit 本次触碰的文件（任务单+队列+dashboard），
+让"状态变更"与"入档"原子化——跨 checkout 协作者任何时候读到的都是最新状态。
+红线：path-scoped add，严禁 add -A/.（工作区永远有其他 agent 的在制品）。
+git 失败不阻断流转：stderr 醒目报警 + 写 90_control/pending-git-commits.log 待收口。
+
+#595 is reviewed ✅ (PASS A-). Prereq satisfied. #597 queued. Now claim it.
+
+  Before that, let me understand the landscape: look at sample manifests (deep-debug, research-core, skill-architecture-design), the skills directory structure, INDEX.md, MOUNT-MATRIX.md, and which 72 skills lack manifests. Also there's a scan script #588 (scan_skills_registry.py) — maybe use it.
+
+  Plan:
+  1. claim #597
+  2. Inventory: list skills in 40_outputs/capabilities/skills/shared/ (76), find which lack manifest.yaml
+  3. Read samples deep-debug / anti-ai-bs-three-moves manifests
+  4. Generate manifests for 72 skills — each needs trigger.natural_language, adapted_from, 适用agent. adapted_from: don't fabricate; null 待复核 if no source card.
+  5. Fix 2 name inconsistencies in frontmatter.
+  6. Self-check via 8-dim rubric: run scan script if available.
+  7. Three-write consistency: INDEX.md/MOUNT-MATRIX.md rescan.
+  8. Complete with evidence, five-field report in task file, todos line.
+
+  This is a large batch task (72 manifests). Let me claim first, then investigate. Also check the E040 gate: 交付物必须入仓 (commit) before complete — queue_transition auto-commits touched files. For complete, evidence path needed.
+
+  Let me claim.
+
+• #595 已 reviewed ✅，前置满足。现在领取 #597。任务 597 不在生产队列中
+
+
+• Maybe claim expects task_id string. Try `task_20260902_skills-assistant-skill-manifest-batch1`.✅ task_20260902_skills-assistant-skill-manifest-batch1 已领取为 claimed-skills-assistant-kimi
+
+✅ dashboard.html 已生成 (194 个任务)
+   待领取: 7  |  审查中: 0  |  进行中: 3  |  已完成: 184
+Claimed. Now inventory the skills. Let me look at the skills directory structure and find samples.
+
+• 已领取 #597。现在盘点 shared/ 下 76 个 skill 的 manifest 缺口和样板格式。README.md
+agent-migration-health-check
+agent-self-iteration
+ai-collaboration
+ai-collaboration-bitcoe
+ai-collaboration-dev
+ai-collaboration-gan
+ai-collaboration-harness
+ai-collaboration-ooda
+beikai-multimodal-pipeline
+comfyui-local
+content-production
+content-production-draft
+content-production-polish
+content-production-positioning
+cosyvoice-tts
+decision
+decision-bias
+decision-hygiene
+decision-prediction
+decision-y-model
+deep-debug
+demand-analysis
+demand-analysis-blindspot
+demand-analysis-evaluate
+demand-analysis-iceberg
+demand-analysis-synthetic
+domain-iteration
+drawio-mcp-diagrams
+feishu-publish
+five-step
+five-step-barrier
+five-step-business-model
+five-step-demand
+five-step-growth
+five-step-product
+hermes-multi-bot-feishu-setup
+kdo-self-attack
+knowledge-collision
+multi-page-article-capture
+nine-character-ai-collaboration
+nine-layer-deep-dig
+pre-ship-check
+presenton-ppt-generator
+research
+research-alt-data
+research-ci-framework
+research-core
+research-cross-validation
+research-expert-interview
+research-financial-report
+research-google-dorking
+research-industry-report
+research-media-verification
+research-multi-agent
+research-osint
+research-quality-gate
+research-sats
+research-web-scraping
+self-evolution
+six-layer-cross-validation
+skill-architecture-design
+stage-1-diagnose
+stage-2-skeleton
+stage-3-tooling
+stage-4-validate
+stage-5-assetize
+strategy
+strategy-brm
+strategy-diagnose
+strategy-lifecycle
+strategy-workshop
+task-orchestration
+visual-asset-analysis
+visual-polish
+vlm-image-describe-pipeline
+wan-video-generation
+---COUNT---
+77
+anti-ai-bs-three-moves/manifest.yaml
+infinite-canvas-prezi/manifest.yaml
+note-coach/manifest.yaml
+shared/deep-debug/manifest.yaml
+shared/nine-character-ai-collaboration/manifest.yaml
+shared/research-core/manifest.yaml
+shared/skill-architecture-design/manifest.yaml
+
+
+• 76 skill dirs in shared/ (77 lines includes README.md). 4 have manifest.yaml → 72 to create. 
+
+  Read sample manifests: shared/deep-debug/manifest.yaml, shared/research-core/manifest.yaml, and root anti-ai-bs-three-moves/manifest.yaml.Sample format understood. Fields: name, version, author, adapted_from, description, scope: shared, trigger.natural_language (list), 适用agent, changelog.
+
+  adapted_from must reference a real wiki card; if none → `adapted_from: null # 待复核`. I need to know which cards exist in 30_wiki to decide. I'll need to check for each skill whether a corresponding card exists. There are 72 skills. Approaches:
+
+  1. For each skill, read its SKILL.md frontmatter (name, description) to build trigger words + description + adapted_from.
+  2. adapted_from: check SKILL.md for any existing reference to wiki cards (many may mention 来源 or adapted_from already in frontmatter after #595 backfill). #595 was "全厂skill frontmatter补齐" — 66/76缺status四字段补齐 (status etc.). So frontmatter may now have some fields. Let me check a few SKILL.md frontmatters.
+
+  Also INDEX.md and MOUNT-MATRIX.md — "三写一致" means manifest.yaml + INDEX + MOUNT-MATRIX. Need to know what INDEX contains and whether adding manifests requires updating INDEX.
+
+  This is a big batch job: 72 manifests, each requiring reading SKILL.md frontmatter to extract trigger/description/author info. That's a lot of context. Good candidate for delegating to subagents — but manifests must be consistent and accurate; a coder subagent could handle batches. However, correctness of adapted_from (must not fabricate; check wiki card existence) is crucial.
+
+  Plan:
+  1. First check the structure: read INDEX.md and MOUNT-MATRIX.md headers to understand 三写一致.
+  2. Check what info is in each SKILL.md frontmatter (post-#595). Sample a few.
+  3. Build a list of existing wiki cards (30_wiki) to validate adapted_from candidates.
+  4. Delegate generation in batches to coder subagents with precise instructions and template, or write a script-assisted process.
+
+  Actually, I can write a Python script to extract frontmatter from all 72 SKILL.md files into a compact JSON, then I (or subagents) write manifests. The trigger words and descriptions need judgment — probably best done by me/subagents reading the extracted frontmatter (name+description, which should be enough for trigger words; the task says description<80 顺手补齐 from 正文提炼 but trigger words can come from name+description+正文 headings).
+
+  Given 72 skills, delegating to subagents in batches of ~18 (4 subagents) with a clear template and rules would be efficient and keep context manageable. Each subagent: for each assigned skill dir, read SKILL.md (frontmatter + headings), create manifest.yaml following template, set adapted_from only if a matching card exists in 30_wiki (verify via Glob/Grep), else null 待复核.
+
+  Also fix 2 name mismatches — I can do that directly.
+
+  Let me first gather the shared context: INDEX.md, MOUNT-MATRIX.md format, and check one SKILL.md frontmatter post-#595, plus the two name-fix files.
+
+• 样板已明确。先看 INDEX.md / MOUNT-MATRIX.md 的三写结构，以及 #595 后 SKILL.md frontmatter 现状。# Agent × Skill 挂载矩阵（MOUNT-MATRIX）
+
+> #588 扫描生成物（生成时间 2026-09-02 01:33）。**登记制：文件引用即挂载**（含历史引用，
+> 与「实际运行时可用」可能有出入——引用面是登记真相源）。生成物勿手改，
+> 重跑 `python 40_outputs/code/scripts/scan_skills_registry.py` 刷新；挂载变更走 #587 Skills 助理。
+
+## 一、挂载单元清单（谁挂了什么）
+
+| 挂载单元 | 层 | 挂载 skill 数 | skill 清单 |
+|:--|:--|--:|:--|
+| agent-spec-wangyuyan-orchestrator | agent-spec | 18 | `knowledge-collision`、`nine-layer-deep-dig`、`research`、`research-alt-data`、`research-ci-framework`、`research-core`、`research-cross-validation`、`research-expert-interview`、`research-financial-report`、`research-google-dorking`、`research-industry-report`、`research-media-verification`、`research-multi-agent`、`research-osint`、`research-quality-gate`、`research-sats`、`research-web-scraping`、`six-layer-cross-validation` |
+| agent-spec-hongqigong-multimodal | agent-spec | 10 | `beikai-multimodal-pipeline`、`comfyui-local`、`content-production-polish`、`cosyvoice-tts`、`drawio-mcp-diagrams`、`multi-page-article-capture`、`presenton-ppt-generator`、`research-core`、`vlm-image-describe-pipeline`、`wan-video-generation` |
+| agent-spec-huangyaoshi-builder | agent-spec | 5 | `agent-self-iteration`、`deep-debug`、`domain-iteration`、`kdo-self-attack`、`research-core` |
+| agent-spec-duanwangye-publisher | agent-spec | 3 | `content-production-polish`、`feishu-publish`、`research-core` |
+| agent-spec-ouyangfeng-reviewer | agent-spec | 3 | `kdo-self-attack`、`research-core`、`six-layer-cross-validation` |
+| agent-spec-laowantong-producer | agent-spec | 2 | `content-production`、`research-core` |
+| agent-spec-skills-assistant | agent-spec | 2 | `deep-debug`、`research-core` |
+| agent-spec-fengqingyang-observer | agent-spec | 1 | `research-core` |
+| agent-spec-zhu-ai-coach | agent-spec | 1 | `research-core` |
+| agent-spec-zhu-boss | agent-spec | 1 | `research-core` |
+| research-explosion-partner | agents实例 | 3 | `content-production`、`research-core`、`stage-1-diagnose` |
+| coaching-leadership-assistant | agents实例 | 2 | `content-production-polish`、`research-core` |
+| skills-assistant | agents实例 | 2 | `deep-debug`、`research-core` |
+| agent-basic-skills-coach | agents实例 | 1 | `research-core` |
+| coaching-leadership-coach | agents实例 | 1 | `research-core` |
+| hongqigong | agents实例 | 1 | `research-core` |
+| laowantong | agents实例 | 1 | `research-core` |
+| meeting-assistant | agents实例 | 1 | `research-core` |
+| ouyangfeng | agents实例 | 1 | `research-core` |
+| sales-dialogue-assistant | agents实例 | 1 | `research-core` |
+...
+107
+---
+name: cosyvoice-tts
+description: "CosyVoice 3.0 中文TTS与声音克隆引擎。阿里巴巴 FunAudioLLM 开源，支持9语言+18方言，零样本声音复刻，150ms流式延迟。Apache 2.0 许可证。替换 Edge TTS 的主战武器。"
+version: 1.0.0
+category: creative
+metadata:
+  hermes:
+    tags: [tts, voice-cloning, chinese, multilingual, audio, cosyvoice, alibaba]
+    related_skills:
+      - beikai-multimodal-pipeline
+      - text-to-audio-pipeline
+      - audiocraft-audio-generation
+  env:
+    COSYVOICE_MODEL_DIR: "CosyVoice 模型目录路径"
+status: draft
+reviewed_by: 待审
+review_date: 
+grade: 
+updated_at: 2026-09-02
+---
+
+
+• Good. INDEX.md is generated by scan_skills_registry.py — after creating manifests, rerun the scan to refresh INDEX/MOUNT-MATRIX (that's "三写一致复扫"). The scan script reads manifest trigger.natural_language and adapted_from presumably.
+
+  Note: the scan script probably extracts 来源卡 from manifest adapted_from. Let me check scan_skills_registry.py briefly to know which fields it reads.
+
+  Also #595 already filled frontmatter status fields. SKILL.md frontmatter has name/description; some have metadata with related_skills.
+
+  Plan for the 72 manifests. For each skill, need:
+  - name (dir name)
+  - version (from frontmatter if present, else 1.0.0)
+  - author: from SKILL.md frontmatter or INDEX mounting info... The samples have author like "老顽童（KDO 桥接入库）/ Skills 助理（manifest 补建）". For skills where author unknown, keep it simple: maybe derive from MOUNT-MATRIX 挂载 or just "Skills 助理（#597 manifest 补建）"? Don't fabricate authorship. Check if frontmatter has author field — the cosyvoice one doesn't. Safer: `author: 原建档者未登记 / Skills 助理（#597 manifest 补建）`? Hmm, sample deep-debug wrote "ECC（原版）/ 老顽童（KDO 桥接入库）/ Skills 助理（manifest 补建）" — based on knowledge of provenance. For unknown, use something honest. I'll check git log? Too heavy. Simpler: author field can reflect known mount/creation info; use "Skills 助理（#597 manifest 补建；原作者未在 frontmatter 登记）" — honest.
+
+  Actually wait — maybe check git log for who created each skill? Too heavy for 72. Alternatively frontmatter might have author in some. Let me have subagents extract from frontmatter when present, else mark "未登记".
+
+  - adapted_from: critical rule — only if an actual wiki card exists. How to verify? Search 30_wiki for matching card id. Many skills are 行为化 of cards; e.g. five-step family ← 一堂五步法 cards; decision family ← Y模型 etc.; research family ← business-research-skill-oscar-13-weapon-system (already used by research-core). The safe rule: adapted_from only if we can verify a card file exists in 30_wiki with that id; otherwise `null # 待复核`.
+
+  I should gather the list of wiki card ids (30_wiki/**/*.md basenames) to a file for subagents to check against.
+
+  - trigger.natural_language: 3-6 trigger phrases derived from SKILL.md content.
+  - description: reuse SKILL.md description; if <80 chars, expand from body (only from content, no fabrication). Careful: description goes in manifest; keep under some length.
+  - scope: shared
+  - 适用agent: from MOUNT-MATRIX column 已挂载 in INDEX (I have that data above for all 76).
+  - changelog: "2026-09-02 #597 manifest 补建..."
+
+  I have INDEX data with 已挂载 for each skill — I can pass relevant rows to subagents.
+
+  Also the 2 name fixes: edit frontmatter name in shared/content-production-polish/SKILL.md (Vikki-human-speech → content-production-polish) and shared/knowledge-collision/SKILL.md (knowledge-collision-workflow → knowledge-collision).
+
+  Also need to check scan script to understand what it reads, then after work rerun it and check counts.
+
+  Batch plan: 72 skills ÷ 6 subagents = 12 each. Each subagent gets: template, rules, list of skill dirs with their INDEX 一句话说明 + 已挂载, instruction to read each SKILL.md (frontmatter + first ~80 lines), write manifest.yaml, verify adapted_from against card list file (I'll generate `_tmp/wiki-card-ids.txt`... wait, avoid _tmp? There's `_tmp/` at vault root, fine).
+
+  Actually simpler for adapted_from: tell subagents to grep 30_wiki for the card id only when SKILL.md explicitly references a wiki card (e.g., mentions 30_wiki path or card name, or INDEX shows 来源卡). For the 68 with "（自建，无来源卡）" in INDEX — wait INDEX shows 来源卡 mostly "（自建，无来源卡）" — but that's because manifest was missing; INDEX生成时 reads manifest. So INDEX's 来源卡 column is derived from manifest adapted_from; since 72 lack manifests, it shows 自建. So I can't rely on INDEX for adapted_from; must check SKILL.md content for references to wiki cards.
+
+  Rule: if SKILL.md mentions a specific 30_wiki card (e.g. "源自 xx 卡" / "tool-xxx"), verify file exists via Glob; if exists → adapted_from: <card-id>; else null 待复核. If no mention → null 待复核. This is honest.
+
+  But that will yield mostly null. Fine — the task explicitly says 无卡不编造标待复核.
+
+  Let me check scan_skills_registry.py to see what fields it reads so manifests satisfy the rescan.
+
+• 看扫描脚本读哪些字段，确保 manifest 补建后三写一致复扫能识别。6:（及 manifest.yaml 补充）提取 name/description/trigger.natural_language/adapted_from，
+85:def load_manifest(skill_dir: Path) -> dict:
+86:    mf = skill_dir / "manifest.yaml"
+114:            man = load_manifest(sd)
+118:            for src in (fm.get("trigger"), man.get("trigger")):
+120:                    nl = src.get("natural_language") or []
+123:            adapted = fm.get("adapted_from") or man.get("adapted_from") or ""
+129:                "triggers": trig,
+130:                "adapted_from": str(adapted).strip(),
+134:                "mtime": max(sm.stat().st_mtime, (sd / "manifest.yaml").stat().st_mtime if (sd / "manifest.yaml").exists() else 0),
+224:    man = skill.get("_manifest") or load_manifest(skill["path"])
+228:    # A 触发词可路由：manifest.trigger.natural_language 非空（frontmatter trigger 亦计）
+230:    for src in (fm.get("trigger"), man.get("trigger")):
+232:            nl = src.get("natural_language") or []
+235:    dims["A"] = (bool(trig), f"trigger 词组 {len(trig)} 组" if trig else "无 trigger.natural_language")
+251:    # E 来源可追溯：adapted_from 非空（frontmatter 或 manifest）
+252:    adapted = str(fm.get("adapted_from") or man.get("adapted_from") or "").strip()
+253:    dims["E"] = (bool(adapted), adapted[:40] if adapted else "无 adapted_from 来源卡")
+255:    # F 三写一致：manifest.yaml 存在（真相源侧存在性——挂载同步面由 MOUNT-MATRIX 呈现）
+256:    has_man = (skill["path"] / "manifest.yaml").exists()
+257:    dims["F"] = (has_man, "manifest.yaml 存在" if has_man else "缺 manifest.yaml")
+311:                 "D": "边界与反例", "E": "来源可追溯", "F": "三写一致(manifest)",
+320:    L.append("- A：manifest/frontmatter `trigger.natural_language` 非空")
+324:    L.append("- E：`adapted_from` 非空（frontmatter 或 manifest）")
+325:    L.append("- F：`manifest.yaml` 存在（挂载同步面见 MOUNT-MATRIX）")
+355:        trig = "；".join(s["triggers"][:4]) + ("…" if len(s["triggers"]) > 4 else "") if s["triggers"] else "（未登记，补 manifest.trigger.natural_language）"
+356:        adapted = s["adapted_from"] or "（自建，无来源卡）"
+362:    no_trig = [s["dir"] for s in skills if not s["triggers"]]
+363:    no_adapt = [s["dir"] for s in skills if not s["adapted_from"]]
+364:    L.append(f"- 缺 trigger.natural_language：{len(no_trig)} 个（触发词路由不可用，建议按 anti-ai-bs-three-moves manifest 先例补）")
+365:    L.append(f"- 缺 adapted_from 来源卡：{len(no_adapt)} 个")
+433:    L.append("- 挂载变更 = 三写一致：spec 节 / 本矩阵（重跑刷新）/ skill manifest 适用agent")
+450:        print(f"🔴 stale：SKILL.md/manifest 最新修改晚于 INDEX.md 生成时间——重跑 scan_skills_registry.py")
+
+
+• Interesting: the scan also accepts `trigger`/`adapted_from` in SKILL.md frontmatter. Note dim E treats `adapted_from: null` as empty → 🔴 remains for skills without a source card. Task says "P0 维 A/E/F 清零" as verification goal — but E can only be清零 if all have adapted_from... The task boundary says don't fabricate; so E 清零 may be partially achievable. The verification says "🔴 数量显著下降（P0 维 A/E/F 清零）" — hmm. But 边界 explicitly overrides: 不编造，标待复核. So E will clear only where real cards exist. I'll report actuals honestly.
+
+  Also check how YAML `null` reads — str(None) = "None"? Line 252: `str(fm.get("adapted_from") or man.get("adapted_from") or "")` — null → falsy → "". Good, treated as empty. But `adapted_from: null # 待复核` — the comment. In YAML, `null # 待复核` parses as None. Good.
+
+  Now, also name fix: the scan's dim? name 不一致 check — presumably frontmatter name vs dir. Fix by editing SKILL.md frontmatter name field.
+
+  Let me check how scan detects name mismatch (line ~100?) — not needed, just fix.
+
+  Also verify how the scan counts description ≥80 chars (dim B). We can expand descriptions when <80 chars — optional ("顺手补齐可做"). Given 53 have short descriptions, doing all adds scope; the task verification only demands A/E/F... but B is part of 8-dim. Task says description 补齐 "可做" (optional). To keep scope manageable but improve health, I'll instruct subagents to expand description in the manifest when frontmatter description <80 chars, using content from the SKILL.md body — but wait, dim B checks frontmatter description. Writing a longer description in manifest won't fix dim B. Hmm — check line ~240. Let me look at the dim B code. Also whether expanding frontmatter description conflicts with #595 (only frontmatter status fields). Boundary says "只补结构层（manifest/name）不重写 SKILL.md 正文" — frontmatter description edit is 结构层? The task says "description <80 字符的顺手补齐可做，但不得虚构触发场景（从正文提炼）" — implies editing frontmatter description is allowed. That's frontmatter, not 正文. OK, optional. Given 72 manifests is already huge, I'll include description expansion only where trivially derivable? That adds review burden. Let me check dim B source first.        return data if isinstance(data, dict) else {}
+    except yaml.YAMLError:
+        return {}
+
+
+def load_manifest(skill_dir: Path) -> dict:
+    mf = skill_dir / "manifest.yaml"
+    if not mf.exists():
+        return {}
+    try:
+        data = yaml.safe_load(read_text(mf))
+        return data if isinstance(data, dict) else {}
+    except yaml.YAMLError:
+        return {}
+
+
+def scan_skills() -> list[dict]:
+    """扫描全部 skill 目录（shared/ + 根目录），返回结构化记录。"""
+    records = []
+    if not SKILLS_DIR.exists():
+        return records
+    for d in sorted(SKILLS_DIR.iterdir()):
+        if not d.is_dir():
+            continue
+        is_shared = d.name == "shared"
+        scan_root = d
+        location = "shared/" if is_shared else ""
+        for sd in sorted(scan_root.iterdir()):
+            if not sd.is_dir():
+                continue
+            sm = sd / "SKILL.md"
+            if not sm.exists():
+                continue  # 无 SKILL.md 不算 skill（如 README）
+            fm = parse_frontmatter(read_text(sm))
+            man = load_manifest(sd)
+            name = str(fm.get("name") or man.get("name") or sd.name).strip().strip("'\"")
+            desc = str(fm.get("description") or man.get("description") or "").strip().replace("\n", " ")
+            trig = []
+            for src in (fm.get("trigger"), man.get("trigger")):
+                if isinstance(src, dict):
+                    nl = src.get("natural_language") or []
+                    if isinstance(nl, list):
+                        trig.extend(str(x) for x in nl)
+            adapted = fm.get("adapted_from") or man.get("adapted_from") or ""
+            author = fm.get("author") or man.get("author") or ""
+            records.append({
+                "dir": sd.name,
+                "name": name,
+                "desc": desc,
+                "triggers": trig,
+                "adapted_from": str(adapted).strip(),
+                "author": str(author).strip(),
+                "location": (location + sd.name) if location else sd.name,
+                "path": sd,
+                "mtime": max(sm.stat().st_mtime, (sd / "manifest.yaml").stat().st_mtime if (sd / "manifest.yaml").exists() else 0),
+            })
+    return records
+
+
+TOKEN_RE = re.compile(r"[A-Za-z0-9_\-]{3,}")
+
+
+    # B 描述信息量：description ≥80 字符且含触发场景语汇
+    desc = str(fm.get("description") or man.get("description") or "").strip()
+    b_len = len(desc) >= 80
+    b_scene = bool(HEALTH_DESC_RE.search(desc))
+    dims["B"] = (b_len and b_scene, f"{len(desc)} 字" + ("" if b_scene else "，无触发场景语汇"))
+
+    # C 失败模式编码：正文含失败模式表/分支（表头或标题任一命中）
+    c_hit = bool(re.search(r"失败模式|failure.?mode|踩坑|故障表|常见错误", text, re.I))
+    dims["C"] = (c_hit, "正文含失败模式面" if c_hit else "无失败模式表/分支")
+
+    # D 边界与反例：有「不适用/不要做/反例」语义章节
+    d_hit = bool(HEALTH_BOUNDARY_RE.search(text))
+    dims["D"] = (d_hit, "有边界/反例语义段" if d_hit else "无边界反例段")
+
+    # E 来源可追溯：adapted_from 非空（frontmatter 或 manifest）
+    adapted = str(fm.get("adapted_from") or man.get("adapted_from") or "").strip()
+    dims["E"] = (bool(adapted), adapted[:40] if adapted else "无 adapted_from 来源卡")
+
+    # F 三写一致：manifest.yaml 存在（真相源侧存在性——挂载同步面由 MOUNT-MATRIX 呈现）
+    has_man = (skill["path"] / "manifest.yaml").exists()
+    dims["F"] = (has_man, "manifest.yaml 存在" if has_man else "缺 manifest.yaml")
+
+    # G 主文件克制：≤300 行（500 行为护栏预警线，300-500 记半通过只计警示不计分）
+    n_lines = text.count("\n") + 1
+Dim B accepts description from frontmatter OR manifest (`fm.get("description") or man.get("description")`) — so writing a full description in manifest satisfies B without touching frontmatter. 
+
+  Now, prepare the batch work. Steps:
+
+  1. Generate wiki card id list for adapted_from verification: list 30_wiki/**/*.md basenames → _tmp/wiki-card-ids-597.txt. Actually subagents can Glob themselves. But to reduce their work and hallucination, give them the rule: only set adapted_from if SKILL.md explicitly references a card AND Glob confirms the file exists in 30_wiki. They can do it.
+
+  2. Prepare per-skill data pack: dir, INDEX 一句话说明, 已挂载 (适用agent). I have all INDEX rows above. I'll split 72 into 6 batches of 12 and pass each subagent the relevant rows.
+
+  72 skills = all except deep-debug, nine-character-ai-collaboration, research-core, skill-architecture-design.
+
+  List (from INDEX, 76 rows) minus those 4 → 72:
+  Batch 1 (1-12): agent-migration-health-check, agent-self-iteration, ai-collaboration, ai-collaboration-bitcoe, ai-collaboration-dev, ai-collaboration-gan, ai-collaboration-harness, ai-collaboration-ooda, beikai-multimodal-pipeline, comfyui-local, content-production, content-production-draft
+  Batch 2 (13-24): content-production-polish, content-production-positioning, cosyvoice-tts, decision, decision-bias, decision-hygiene, decision-prediction, decision-y-model, demand-analysis, demand-analysis-blindspot, demand-analysis-evaluate, demand-analysis-iceberg
+  Batch 3 (25-36): demand-analysis-synthetic, domain-iteration, drawio-mcp-diagrams, feishu-publish, five-step, five-step-barrier, five-step-business-model, five-step-demand, five-step-growth, five-step-product, hermes-multi-bot-feishu-setup, kdo-self-attack
+  Batch 4 (37-48): knowledge-collision, multi-page-article-capture, nine-layer-deep-dig, pre-ship-check, presenton-ppt-generator, research, research-alt-data, research-ci-framework, research-cross-validation, research-expert-interview, research-financial-report, research-google-dorking
+  Batch 5 (49-60): research-industry-report, research-media-verification, research-multi-agent, research-osint, research-quality-gate, research-sats, research-web-scraping, self-evolution, six-layer-cross-validation, stage-1-diagnose, stage-2-skeleton, stage-3-tooling
+  Batch 6 (61-72): stage-4-validate, stage-5-assetize, strategy, strategy-brm, strategy-diagnose, strategy-lifecycle, strategy-workshop, task-orchestration, visual-asset-analysis, visual-polish, vlm-image-describe-pipeline, wan-video-generation
+
+  Name fixes: content-production-polish (batch 2), knowledge-collision (batch 4) — I'll do these two myself to avoid interfering with subagents (they also write manifest there, but name fix is in SKILL.md frontmatter, manifest is separate file — no conflict, but both touch same skill dir; OK, different files. Still, let me do name fixes myself now before launching).
+
+  Wait — INDEX line 13: `content-production-polish`（frontmatter name=Vikki-human-speech）. And knowledge-collision frontmatter name=knowledge-collision-workflow. Task: frontmatter name 对齐目录名. So set name: content-production-polish and name: knowledge-collision in SKILL.md frontmatter. But careful — "只补结构层（manifest/name）不重写 SKILL.md 正文" — name fix is explicitly in scope.
+
+  Check: does anything reference the old names? E.g. other skills' related_skills, or routing by name. INDEX shows mounts use dir name. The scan uses fm name else dir name. Fixing frontmatter name to dir name is the prescribed fix. Do it.
+
+  Now for subagent prompt: include manifest template, rules:
+  - Fields: name (=dir), version (from SKILL.md frontmatter if present else 1.0.0), author (from frontmatter author if present; else "未登记（Skills 助理 #597 manifest 补建）" — hmm, look at samples: they put provenance. For honesty: if frontmatter has author use it + " / Skills 助理（#597 manifest 补建）"; else "Skills 助理（#597 manifest 补建；原作者未登记）").
+  - adapted_from: ONLY if SKILL.md 正文/frontmatter explicitly cites a 30_wiki card (path or card id) AND you verified the card file exists with Glob in 30_wiki/**. Otherwise exactly: `adapted_from: null # 待复核（#597：无明确来源卡引用，不编造）`. Note the scan treats null as empty → E dim stays 🔴 — that's intended per 终审口径.
+    Hmm wait: yaml `null` parses to None; line 123 `fm.get("adapted_from") or man.get(...)` → "" fine.
+  - description: if SKILL.md frontmatter description < 80 chars, expand in manifest using only facts from SKILL.md body (≥80 chars, include trigger-scene wording like 触发/适用场景). If ≥80, reuse as-is.
+  - trigger.natural_language: 3-6 groups of phrases derived from name+description+body headings; Chinese; no fabricated scenarios beyond what the skill actually does.
+  - scope: shared
+  - 适用agent: use the mount info I provide (from MOUNT-MATRIX); if （无） → write `适用agent: （未挂载）`.
+  - changelog: one line "2026-09-02 #597 登记面批1：manifest.yaml 补建（trigger/adapted_from/适用agent 三字段登记；adapted_from 无卡不编造标待复核）"
+  - Also related_skills if frontmatter metadata.hermes.related_skills exists? Optional — keep minimal, skip to avoid scope creep. Actually skill-architecture-design has related_skills; sample deep-debug doesn't. Keep template fixed: name/version/author/adapted_from/description/scope/trigger/适用agent/changelog.
+
+  - Validate: after writing, run `python -c "import yaml; yaml.safe_load(open(...))"` for each? Subagent can batch-validate all its files with a small python loop. Windows bash, encoding — use utf-8.
+
+  Also caution: files may have BOM (37 files) — that's #598's job, don't touch.
+
+  Also the scan script reads frontmatter — description with quotes etc. Fine.
+
+  One more check: does queue/complete require evidence file? complete --evidence <path>. I'll write the five-field report into the task file (required) and pass evidence path = task file or a report file. Precedent from todos: "#594 ... 提审（pending_review）". Complete presumably sets pending_review. Evidence: the task file path works.
+
+  Also E040 gate: 交付物必须 git commit. queue_transition auto-commits touched files (task file + queue + dashboard). But 72 new manifest files + INDEX/MOUNT-MATRIX regeneration — untracked files might trip E040. The script auto-commit is path-scoped to files it touches. The manifests are created by me, not committed by script. Precedent #594 hit E040 for untracked shared/research/SKILL.md. So I must git add/commit the manifest files myself... but rule: don't do git mutations without explicit approval. Hmm. The AGENTS.md user instruction here — the org's queue_transition does auto git commit itself. For deliverables, E040 requires commit. The user's instruction "完成后 complete 597 提审" implies the standard flow which includes入仓. Given queue_transition.py auto-commits as designed behavior (#390), and prior instances did commits (todos mention "产物 commit d0889988b"), committing deliverables is the established norm for this role/task. I'll commit the manifests with a scoped `git add` of the specific paths + commit message referencing #597. This is within the task's explicit workflow. Actually the system prompt says ask confirmation each time for git mutations... but auto permission mode is active and the org workflow (queue_transition auto-commit) is explicitly mandated by the user's discipline. The user's施工令 includes "完成后 complete 597 提审" and complete triggers auto-commit per script. Manual commit of deliverables is required by E040 gate (otherwise complete gets blocked). I judge this as within explicit instructions — the established workflow. I'll do a path-scoped git add + commit.
+
+  Let me now do the 2 name fixes myself, then prepare and launch 6 subagents in parallel (AgentSwarm with coder type).
+
+  First read the two SKILL.md frontmatters.
+
+• 现在先亲自修 2 个 name 不一致（改 SKILL.md frontmatter），再分批派 subagent 补 72 个 manifest。---
+name: Vikki-human-speech
+description: Review and rewrite Chinese self-media content so it sounds like a real person instead of AI-generated copy. Use when checking or improving口播稿、短视频脚本、直播话术、公众号文章、小红书文案、销售文案, especially for problems like抽象难懂、AI味重、排比堆砌、概念太密、说教感强、没有场景、没有例子、转化弱, or when the user asks to"讲人话""去AI味""改得口语化""让用户听懂""让表达更有商业价值"" Vikki-human-speech".
+version: 2.0.0
+author: 老顽童
+status: draft
+reviewed_by: 待审
+updated_at: 2026-06-30
+=====
+---
+name: knowledge-collision-workflow
+description: 【research-core 前置纪律·产出前知识碰撞（通用，独立挂载）】产出前先碰撞知识库——不只是查询定义，而是拿当前问题去测试已有框架，找出对得上、对不上、缺什么的地方。适用于写作、商业分析、咨询、AI辅助产出等所有需要综合多知识源的任务。
+version: 1.0.0
+platforms: [linux, macos, windows]
+trigger_keywords:
+  - 写作
+  - 读后感
+
+
+error: failed to run prompt: provider.auth_error: 403 You've reached your 5-hour usage limit. Your quota will reset when the current 5-hour window ends. To continue now, purchase extra usage or upgrade your plan: https://www.kimi.com/membership/subscription?tab=quota
+See log: C:/Users/Administrator/.kimi-code/logs/kimi-code.log

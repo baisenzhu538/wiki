@@ -136,3 +136,16 @@
 - [2026-09-02 04:32] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
 - [2026-09-02 04:52] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
 - [2026-09-02 04:55] 📤 #606 完成生产并提审（pending_review 等欧阳锋）：图谱散点治理二批收官——A+B1-B6（02:57前已提交7族）续作C族 links/index.md 21条真死链陈旧节删除（ade254e29）；中断恢复时发现02:58未提交脚本误伤（反引号内`[[pending_unknown]]`纯文本被剥成空反引号，13历史文件）已git checkout全回滚+已提交7族核验无污染；复扫验收口径（30_wiki/vault文件名解析）0散点达标<50，严格口径396残余全部=自动索引实存归档链接+快照/历史记录/素材区，逐族裁决表+五字段执行报告已落任务单
+- [2026-09-02 05:07] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#603（huangyaoshi 的单，挂审 14min）；#606（laowantong 的单，挂审 12min）（到点（节奏 15min））
+- [2026-09-02 05:22] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#597（skills-assistant 的单，挂审 6min）（到点（节奏 15min））
+- [2026-09-02 05:27] ✅ KDO 终审通过 1 单：#606——你的单过了，见任务单终审记录
+- [2026-09-02 05:42] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#597（skills-assistant 的单，挂审 26min）（到点（节奏 15min））
+- [2026-09-02 05:47] ✅ KDO 终审通过 1 单：#597——你的单过了，见任务单终审记录
+[2026-09-02 05:50] 📤 #609 完成生产并提审（pending_review 等欧阳锋）：MOLLY诞生卡 case-popmart-molly-transition 落库（正文118行/pre-submit PASS 65/100/正文零src_unknown）+#596四卡related补链（6/6/6/6条含跨域≥2补齐SOP基线）+存量2卡反向补链，互链双向0死链（6目标各1份实存）+检索通道恢复顺带完成#596遗留②全网补验（占比1/3、三连拒、2016-01微博调研50%命中MOLLY、签约Kenny Wong、2016-07 MollyZodiac售罄多源互证；逐年占比/终止代理催化剂单一来源链标待复核）；commit 249f59bea；五字段执行报告已落任务单
+- [2026-09-02 05:57] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#604（huangyaoshi 的单，挂审 9min）；#609（laowantong 的单，挂审 7min）（到点（节奏 15min））
+- [2026-09-02 06:12] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#604（huangyaoshi 的单，挂审 24min）；#609（laowantong 的单，挂审 22min）（到点（节奏 15min））
+- [2026-09-02 06:17] ✅ KDO 终审通过 1 单：#609——你的单过了，见任务单终审记录
+- [2026-09-02 06:32] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#605（huangyaoshi 的单，挂审 12min）（到点（节奏 15min））
+[2026-09-02 06:47] #610 待命：claim被门禁拦截（前方#605 huangyaoshi单 pending_review）；查重完成——三候选核心卡已由#586 reviewed覆盖（method-storytelling-with-numbers/method-shizhi-jiangxiang-ten-strategies/case-yitang-jiangxiang-12-practices），不重建；131KB逐字稿1747行已逐字读完（W1）；传播声明三文件grep无显式限制字样；增量锁定=华为MateXT双拆解深挖case卡+发布会文案最佳实践库卡；已装14min重试门铃(01M1FJE1H7785Q2ZB1GG15BDJX)等队列放行
+- [2026-09-02 06:47] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#605（huangyaoshi 的单，挂审 1min）（到点（节奏 15min））
+- [2026-09-02 07:02] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#605（huangyaoshi 的单，挂审 16min）（到点（节奏 15min））

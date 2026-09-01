@@ -7,8 +7,8 @@
         "channels": [
           "todos"
         ],
-        "heartbeat_ts": 1788285634.9033036,
-        "session_scope": "C:/Users/Administrator/Desktop/wiki"
+        "heartbeat_ts": 1788304348.2568636,
+        "session_scope": "C:/Users/Administrator"
       },
       {
         "tool": "hermes",
@@ -26,7 +26,7 @@
         "channels": [
           "todos"
         ],
-        "heartbeat_ts": 1788279121.687421,
+        "heartbeat_ts": 1788286799.4878395,
         "session_scope": "C:\\Users\\Administrator\\Desktop\\wiki"
       }
     ],
@@ -50,7 +50,7 @@
         "channels": [
           "todos"
         ],
-        "heartbeat_ts": 1788285293.1593804,
+        "heartbeat_ts": 1788304306.571283,
         "session_scope": "C:\\Users\\Administrator\\Desktop\\wiki"
       },
       {
@@ -97,7 +97,7 @@
         "channels": [
           "todos"
         ],
-        "heartbeat_ts": 1788285321.5777183,
+        "heartbeat_ts": 1788296776.9053729,
         "session_scope": "C:\\Users\\Administrator\\Desktop\\wiki"
       }
     ],
@@ -120,10 +120,10 @@
         "channels": [
           "todos"
         ],
-        "heartbeat_ts": 1788284718.1434011,
+        "heartbeat_ts": 1788296174.975113,
         "session_scope": "C:\\Users\\Administrator\\Desktop\\wiki"
       }
     ],
-    "active": "kimi-cli"
+    "active": "cli"
   }
 }
