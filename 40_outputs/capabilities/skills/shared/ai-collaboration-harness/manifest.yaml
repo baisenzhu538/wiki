@@ -1,0 +1,15 @@
+name: ai-collaboration-harness
+version: 1.0.0
+author: KDO 原建 / Skills 助理（manifest 补建，#597）
+adapted_from: null  # 待复核
+description: Harness七阶段AI构建流程——从想法到AI产品的完整工程方法
+scope: shared
+trigger:
+  natural_language:
+  - 从想法到AI产品
+  - Harness七阶段
+  - AI构建流程
+  - AI产品工程方法
+适用agent: []  # INDEX 未登记挂载（待王语嫣动作4/5/6编排判定）
+changelog:
+- '2026-09-02 #597 manifest.yaml 补建（#588 INDEX 缺口清单；trigger.natural_language 从 SKILL.md description 提炼；无来源卡 adapted_from=null 待复核——#495 口径）'

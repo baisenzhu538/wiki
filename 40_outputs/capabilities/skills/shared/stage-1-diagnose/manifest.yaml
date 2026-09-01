@@ -1,0 +1,17 @@
+name: stage-1-diagnose
+version: 1.0.0
+author: KDO 原建 / Skills 助理（manifest 补建，#597）
+adapted_from: null  # 待复核
+description: 域诊断——素材验收+置信度标记+盲区识别+任务清单生成（王语嫣模式）
+scope: shared
+trigger:
+  natural_language:
+  - 域诊断
+  - 素材验收置信度标记
+  - 盲区识别
+  - 新域第一步诊断
+适用agent:
+- 王语嫣
+- research-explosion-partner
+changelog:
+- '2026-09-02 #597 manifest.yaml 补建（#588 INDEX 缺口清单；trigger.natural_language 从 SKILL.md description 提炼；无来源卡 adapted_from=null 待复核——#495 口径）'

@@ -1,0 +1,17 @@
+name: agent-self-iteration
+version: 1.0.0
+author: KDO 原建 / Skills 助理（manifest 补建，#597）
+adapted_from: null  # 待复核
+description: 工具卡顿/超时/规则失效时走五步闭环——发现问题→诊断配置层→修复→沉淀→注册，不绕过。
+scope: shared
+trigger:
+  natural_language:
+  - 工具卡顿超时规则失效
+  - 五步闭环自我迭代
+  - 发现问题诊断修复沉淀注册
+  - agent修自己的配置
+适用agent:
+- 黄药师
+- agent-spec-huangyaoshi-builder
+changelog:
+- '2026-09-02 #597 manifest.yaml 补建（#588 INDEX 缺口清单；trigger.natural_language 从 SKILL.md description 提炼；无来源卡 adapted_from=null 待复核——#495 口径）'

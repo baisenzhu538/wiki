@@ -1,0 +1,15 @@
+name: strategy-workshop
+version: 1.0.0
+author: KDO 原建 / Skills 助理（manifest 补建，#597）
+adapted_from: null  # 待复核
+description: 战略会议准备包——基于冉鹏30年方法论，输出议程+预诊断+六要素工作坊模板+执行方针
+scope: shared
+trigger:
+  natural_language:
+  - 战略会议准备
+  - 战略工作坊
+  - 会议议程预诊断
+  - 六要素工作坊模板
+适用agent: []  # INDEX 未登记挂载（待王语嫣动作4/5/6编排判定）
+changelog:
+- '2026-09-02 #597 manifest.yaml 补建（#588 INDEX 缺口清单；trigger.natural_language 从 SKILL.md description 提炼；无来源卡 adapted_from=null 待复核——#495 口径）'

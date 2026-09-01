@@ -1,0 +1,18 @@
+name: feishu-publish
+version: 1.0.0
+author: KDO 原建 / Skills 助理（manifest 补建，#597）
+adapted_from: null  # 待复核
+description: Publish any Markdown/text content as a Feishu Docx document with rich formatting, permission settings, batch writing, and GEO optimization. Use when other agents need to ship content to Feishu
+  — '发飞书', 'publish to Feishu', 'create Feishu doc'. Routes through 段王爷.
+scope: shared
+trigger:
+  natural_language:
+  - 发飞书
+  - publish to Feishu
+  - create Feishu doc
+  - Markdown发飞书文档
+适用agent:
+- 段王爷
+- agent-spec-duanwangye-publisher
+changelog:
+- '2026-09-02 #597 manifest.yaml 补建（#588 INDEX 缺口清单；trigger.natural_language 从 SKILL.md description 提炼；无来源卡 adapted_from=null 待复核——#495 口径）'

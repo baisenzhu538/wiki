@@ -1,0 +1,17 @@
+name: multi-page-article-capture
+version: 1.0.0
+author: KDO 原建 / Skills 助理（manifest 补建，#597）
+adapted_from: null  # 待复核
+description: 多页文章自动抓取拼接。模仿 Kimi WebBridge 模式——浏览器遍历目录/分页 → DOM文本提取（非截图OCR）→ 去重拼接 → 输出完整 Markdown 文章。适用：付费墙后内容、分页文章、目录式连载、反爬受保护页面。
+scope: shared
+trigger:
+  natural_language:
+  - 多页文章抓取
+  - 付费墙内容抓取
+  - 分页文章拼接
+  - 目录式连载抓取
+适用agent:
+- 老顽童
+- agent-spec-hongqigong-multimodal
+changelog:
+- '2026-09-02 #597 manifest.yaml 补建（#588 INDEX 缺口清单；trigger.natural_language 从 SKILL.md description 提炼；无来源卡 adapted_from=null 待复核——#495 口径）'

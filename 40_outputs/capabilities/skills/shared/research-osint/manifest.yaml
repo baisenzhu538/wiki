@@ -1,0 +1,16 @@
+name: research-osint
+version: 1.0.0
+author: KDO 原建 / Skills 助理（manifest 补建，#597）
+adapted_from: null  # 待复核
+description: 【research-core 武器库·OSINT】OSINT开源情报工具链——SpiderFoot/Maltego/Shodan/Sherlock/Wayback，老顽童2026盲区发现
+scope: shared
+trigger:
+  natural_language:
+  - OSINT开源情报
+  - SpiderFoot Maltego Shodan
+  - 开源情报工具链
+  - 公开信息挖情报
+适用agent:
+- agent-spec-wangyuyan-orchestrator
+changelog:
+- '2026-09-02 #597 manifest.yaml 补建（#588 INDEX 缺口清单；trigger.natural_language 从 SKILL.md description 提炼；无来源卡 adapted_from=null 待复核——#495 口径）'

@@ -1,0 +1,15 @@
+name: demand-analysis-blindspot
+version: 1.0.0
+author: KDO 原建 / Skills 助理（manifest 补建，#597）
+adapted_from: null  # 待复核
+description: 需求盲区扫描——2B/2C全量维度检查，MECE穷举
+scope: shared
+trigger:
+  natural_language:
+  - 需求盲区扫描
+  - 2B2C全量维度检查
+  - MECE穷举需求
+  - 需求有没有漏
+适用agent: []  # INDEX 未登记挂载（待王语嫣动作4/5/6编排判定）
+changelog:
+- '2026-09-02 #597 manifest.yaml 补建（#588 INDEX 缺口清单；trigger.natural_language 从 SKILL.md description 提炼；无来源卡 adapted_from=null 待复核——#495 口径）'

@@ -1,0 +1,15 @@
+name: strategy
+version: 1.0.0
+author: KDO 原建 / Skills 助理（manifest 补建，#597）
+adapted_from: null  # 待复核
+description: 企业战略总入口——冉鹏30年经验，判断阶段+路由子Skill
+scope: shared
+trigger:
+  natural_language:
+  - 企业战略
+  - 战略总入口
+  - 战略阶段判断
+  - 冉鹏战略方法论
+适用agent: []  # INDEX 未登记挂载（待王语嫣动作4/5/6编排判定）
+changelog:
+- '2026-09-02 #597 manifest.yaml 补建（#588 INDEX 缺口清单；trigger.natural_language 从 SKILL.md description 提炼；无来源卡 adapted_from=null 待复核——#495 口径）'

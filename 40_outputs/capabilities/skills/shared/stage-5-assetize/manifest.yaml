@@ -1,0 +1,16 @@
+name: stage-5-assetize
+version: 1.0.0
+author: KDO 原建 / Skills 助理（manifest 补建，#597）
+adapted_from: null  # 待复核
+description: 域资产化——Workflow串联+模板固化+域索引更新+发布（全厂模式）
+scope: shared
+trigger:
+  natural_language:
+  - 域资产化
+  - Workflow串联
+  - 模板固化发布
+  - 新域第五步收口
+适用agent:
+- 王语嫣
+changelog:
+- '2026-09-02 #597 manifest.yaml 补建（#588 INDEX 缺口清单；trigger.natural_language 从 SKILL.md description 提炼；无来源卡 adapted_from=null 待复核——#495 口径）'

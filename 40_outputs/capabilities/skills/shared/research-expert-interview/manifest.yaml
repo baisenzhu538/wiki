@@ -1,0 +1,17 @@
+name: research-expert-interview
+version: 1.0.0
+author: KDO 原建 / Skills 助理（manifest 补建，#597）
+adapted_from: null  # 待复核
+description: 【research-core 武器库·专家访谈】专家访谈调研——黄金十步法，2小时内获取行业共识
+scope: shared
+trigger:
+  natural_language:
+  - 专家访谈
+  - 黄金十步法访谈
+  - 2小时获取行业共识
+  - 约专家怎么聊
+适用agent:
+- 王语嫣
+- agent-spec-wangyuyan-orchestrator
+changelog:
+- '2026-09-02 #597 manifest.yaml 补建（#588 INDEX 缺口清单；trigger.natural_language 从 SKILL.md description 提炼；无来源卡 adapted_from=null 待复核——#495 口径）'

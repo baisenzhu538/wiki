@@ -1,0 +1,20 @@
+name: kdo-self-attack
+version: 1.0.0
+author: KDO 原建 / Skills 助理（manifest 补建，#597）
+adapted_from: null  # 待复核
+description: KDO知识自攻击——用对抗Agent主动找出知识卡片的弱点，在用户发现之前自我修复
+scope: shared
+trigger:
+  natural_language:
+  - 知识自攻击
+  - 对抗审查卡片
+  - 找知识卡片弱点
+  - 卡片自我攻击
+适用agent:
+- 黄药师
+- 老顽童
+- 欧阳锋
+- agent-spec-huangyaoshi-builder
+- agent-spec-ouyangfeng-reviewer
+changelog:
+- '2026-09-02 #597 manifest.yaml 补建（#588 INDEX 缺口清单；trigger.natural_language 从 SKILL.md description 提炼；无来源卡 adapted_from=null 待复核——#495 口径）'

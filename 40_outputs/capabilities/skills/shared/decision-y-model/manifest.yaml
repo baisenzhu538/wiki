@@ -1,0 +1,15 @@
+name: decision-y-model
+version: 1.0.0
+author: KDO 原建 / Skills 助理（manifest 补建，#597）
+adapted_from: null  # 待复核
+description: Y模型实操——知行合一+矛盾论+实践论，科学成事的底层操作系统
+scope: shared
+trigger:
+  natural_language:
+  - Y模型实操
+  - 知行合一
+  - 矛盾论实践论
+  - 科学成事底层操作系统
+适用agent: []  # INDEX 未登记挂载（待王语嫣动作4/5/6编排判定）
+changelog:
+- '2026-09-02 #597 manifest.yaml 补建（#588 INDEX 缺口清单；trigger.natural_language 从 SKILL.md description 提炼；无来源卡 adapted_from=null 待复核——#495 口径）'

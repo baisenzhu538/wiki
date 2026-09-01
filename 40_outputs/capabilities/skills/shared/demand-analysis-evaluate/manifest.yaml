@@ -1,0 +1,15 @@
+name: demand-analysis-evaluate
+version: 1.0.0
+author: KDO 原建 / Skills 助理（manifest 补建，#597）
+adapted_from: null  # 待复核
+description: 需求评估——判断真伪/大小/紧迫，评估三角形+四种力量
+scope: shared
+trigger:
+  natural_language:
+  - 需求评估
+  - 需求真伪大小紧迫
+  - 评估三角形
+  - 这个需求值不值得做
+适用agent: []  # INDEX 未登记挂载（待王语嫣动作4/5/6编排判定）
+changelog:
+- '2026-09-02 #597 manifest.yaml 补建（#588 INDEX 缺口清单；trigger.natural_language 从 SKILL.md description 提炼；无来源卡 adapted_from=null 待复核——#495 口径）'

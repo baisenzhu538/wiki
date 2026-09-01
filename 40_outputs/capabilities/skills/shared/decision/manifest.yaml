@@ -1,0 +1,15 @@
+name: decision
+version: 1.0.0
+author: KDO 原建 / Skills 助理（manifest 补建，#597）
+adapted_from: null  # 待复核
+description: 科学决策总入口——Y模型+决策卫生+预判模型+偏见速查
+scope: shared
+trigger:
+  natural_language:
+  - 科学决策
+  - 怎么做决策
+  - 决策方法论总入口
+  - 重大选择怎么判断
+适用agent: []  # INDEX 未登记挂载（待王语嫣动作4/5/6编排判定）
+changelog:
+- '2026-09-02 #597 manifest.yaml 补建（#588 INDEX 缺口清单；trigger.natural_language 从 SKILL.md description 提炼；无来源卡 adapted_from=null 待复核——#495 口径）'

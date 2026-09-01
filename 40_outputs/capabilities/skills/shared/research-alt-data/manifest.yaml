@@ -1,0 +1,16 @@
+name: research-alt-data
+version: 1.0.0
+author: KDO 原建 / Skills 助理（manifest 补建，#597）
+adapted_from: null  # 待复核
+description: 【research-core 武器库·替代数据】替代数据调研——从免费层到百万级，按预算分级推荐数据源
+scope: shared
+trigger:
+  natural_language:
+  - 替代数据调研
+  - 按预算选数据源
+  - 免费到百万级数据源
+  - 另类数据
+适用agent:
+- agent-spec-wangyuyan-orchestrator
+changelog:
+- '2026-09-02 #597 manifest.yaml 补建（#588 INDEX 缺口清单；trigger.natural_language 从 SKILL.md description 提炼；无来源卡 adapted_from=null 待复核——#495 口径）'

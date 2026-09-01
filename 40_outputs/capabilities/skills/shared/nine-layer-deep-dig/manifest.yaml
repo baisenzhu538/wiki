@@ -1,0 +1,17 @@
+name: nine-layer-deep-dig
+version: 1.0.0
+author: KDO 原建 / Skills 助理（manifest 补建，#597）
+adapted_from: null  # 待复核
+description: 【research-core 纪律层·深挖引擎】九层深挖法——从业务公式到决策框架的自我纠错式迭代分析
+scope: shared
+trigger:
+  natural_language:
+  - 九层深挖
+  - 业务公式深挖
+  - 自我纠错式迭代分析
+  - 从业务公式到决策框架
+适用agent:
+- 黄药师
+- agent-spec-wangyuyan-orchestrator
+changelog:
+- '2026-09-02 #597 manifest.yaml 补建（#588 INDEX 缺口清单；trigger.natural_language 从 SKILL.md description 提炼；无来源卡 adapted_from=null 待复核——#495 口径）'

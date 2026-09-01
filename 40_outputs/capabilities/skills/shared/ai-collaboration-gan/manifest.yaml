@@ -1,0 +1,15 @@
+name: ai-collaboration-gan
+version: 1.0.0
+author: KDO 原建 / Skills 助理（manifest 补建，#597）
+adapted_from: null  # 待复核
+description: GAN三角色架构——生成器/判别器/合成器，多模型协作提升AI输出质量
+scope: shared
+trigger:
+  natural_language:
+  - 多模型协作
+  - 生成器判别器合成器
+  - GAN三角色架构
+  - 提升AI输出质量
+适用agent: []  # INDEX 未登记挂载（待王语嫣动作4/5/6编排判定）
+changelog:
+- '2026-09-02 #597 manifest.yaml 补建（#588 INDEX 缺口清单；trigger.natural_language 从 SKILL.md description 提炼；无来源卡 adapted_from=null 待复核——#495 口径）'

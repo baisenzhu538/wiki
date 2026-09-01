@@ -1,0 +1,16 @@
+name: research-sats
+version: 1.0.0
+author: KDO 原建 / Skills 助理（manifest 补建，#597）
+adapted_from: null  # 待复核
+description: 【research-core 纪律层·深挖引擎】CIA SATs结构化分析技术——Key Assumptions Check/Devils Advocacy/Red Team/Indicators
+scope: shared
+trigger:
+  natural_language:
+  - CIA SATs
+  - 结构化分析技术
+  - 关键假设检验
+  - 魔鬼代言人红队
+适用agent:
+- agent-spec-wangyuyan-orchestrator
+changelog:
+- '2026-09-02 #597 manifest.yaml 补建（#588 INDEX 缺口清单；trigger.natural_language 从 SKILL.md description 提炼；无来源卡 adapted_from=null 待复核——#495 口径）'

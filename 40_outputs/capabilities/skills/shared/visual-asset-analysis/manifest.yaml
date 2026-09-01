@@ -1,0 +1,17 @@
+name: visual-asset-analysis
+version: 1.0.0
+author: KDO 原建 / Skills 助理（manifest 补建，#597）
+adapted_from: null  # 待复核
+description: Unified visual asset analysis pipeline. Routes images through OCR (text extraction), VLM (semantic understanding), and VA四维法 (structural design analysis). Use when any agent needs to analyze
+  images, screenshots, diagrams, or infographics — '分析这张图', '跑视觉分析', 'VA this image'. Routes through 洪七公.
+scope: shared
+trigger:
+  natural_language:
+  - 分析这张图
+  - 跑视觉分析
+  - VA this image
+  - 图片截图信息图分析
+适用agent:
+- 洪七公
+changelog:
+- '2026-09-02 #597 manifest.yaml 补建（#588 INDEX 缺口清单；trigger.natural_language 从 SKILL.md description 提炼；无来源卡 adapted_from=null 待复核——#495 口径）'

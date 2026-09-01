@@ -1,0 +1,16 @@
+name: research-web-scraping
+version: 1.0.0
+author: KDO 原建 / Skills 助理（manifest 补建，#597）
+adapted_from: null  # 待复核
+description: 【research-core 武器库·爬虫】全网爬虫调研——10大工具+合规红线，对应一堂武器库逆向数据分析板块
+scope: shared
+trigger:
+  natural_language:
+  - 全网爬虫调研
+  - 爬虫工具选型
+  - 爬虫合规红线
+  - 逆向数据分析
+适用agent:
+- agent-spec-wangyuyan-orchestrator
+changelog:
+- '2026-09-02 #597 manifest.yaml 补建（#588 INDEX 缺口清单；trigger.natural_language 从 SKILL.md description 提炼；无来源卡 adapted_from=null 待复核——#495 口径）'

@@ -1,0 +1,16 @@
+name: content-production-draft
+version: 1.0.0
+author: KDO 原建 / Skills 助理（manifest 补建，#597）
+adapted_from: null  # 待复核
+description: 草稿生产——框架先成立+案例激活+结构归位+主语校准
+scope: shared
+trigger:
+  natural_language:
+  - 写草稿
+  - 内容草稿生产
+  - 框架先成立
+  - 初稿结构归位主语校准
+适用agent:
+- 老顽童
+changelog:
+- '2026-09-02 #597 manifest.yaml 补建（#588 INDEX 缺口清单；trigger.natural_language 从 SKILL.md description 提炼；无来源卡 adapted_from=null 待复核——#495 口径）'

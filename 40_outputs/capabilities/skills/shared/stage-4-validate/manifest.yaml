@@ -1,0 +1,16 @@
+name: stage-4-validate
+version: 1.0.0
+author: KDO 原建 / Skills 助理（manifest 补建，#597）
+adapted_from: null  # 待复核
+description: 域验证——Agent用域内卡片执行真实任务，记录失败，补缺修正（DDC模式）
+scope: shared
+trigger:
+  natural_language:
+  - 域验证
+  - 用域内卡片执行真实任务
+  - 记录失败补缺修正
+  - 新域第四步验证
+适用agent:
+- 王语嫣
+changelog:
+- '2026-09-02 #597 manifest.yaml 补建（#588 INDEX 缺口清单；trigger.natural_language 从 SKILL.md description 提炼；无来源卡 adapted_from=null 待复核——#495 口径）'

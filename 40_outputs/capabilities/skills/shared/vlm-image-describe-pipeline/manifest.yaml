@@ -1,0 +1,17 @@
+name: vlm-image-describe-pipeline
+version: 1.0.0
+author: KDO 原建 / Skills 助理（manifest 补建，#597）
+adapted_from: null  # 待复核
+description: VLM 视觉语言模型批量识图管线。双引擎架构（MiniMax M3 主力 + SiliconFlow Qwen-VL 备选），将目录下所有图片批量转为结构化 JSON 描述并入库 Markdown。集成 PDF/DOCX/TXT/ZIP 全格式处理 + 遗漏扫尾。核心武器：图片预处理降成本 + 4层JSON容错 + 降级策略。
+scope: shared
+trigger:
+  natural_language:
+  - VLM批量识图
+  - 图片批量转描述
+  - vlm识图管线
+  - 图片目录批量入库
+适用agent:
+- 洪七公
+- agent-spec-hongqigong-multimodal
+changelog:
+- '2026-09-02 #597 manifest.yaml 补建（#588 INDEX 缺口清单；trigger.natural_language 从 SKILL.md description 提炼；无来源卡 adapted_from=null 待复核——#495 口径）'

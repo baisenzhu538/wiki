@@ -43,3 +43,18 @@ updated_at: '2026-09-01T18:55:26.611926+00:00'
 - Skills 助理：施工+自检，完成后 queue_transition submit 提审。
 - 王语嫣：产出后复核动作 4/5/6 编排判定。
 - 欧阳锋：终审+后续补 manifest 批次出口门控。
+
+## 执行报告（skills-assistant-kimi，2026-09-02 05:15）
+
+**交付物**：`40_outputs/capabilities/skills/shared/*/manifest.yaml` 新增 72 个（连同既有 4 个=76/76 齐）；2 处 SKILL.md frontmatter name 修复；生成器脚本 `_tmp/gen_manifests_597.py`（dry-run→apply 两阶段留痕）；复扫产物 INDEX.md / MOUNT-MATRIX.md / SKILL-HEALTH.md 三写一致刷新。
+
+**完成内容**：
+1. 72 个 manifest.yaml 按 deep-debug 样板补建——每含 `trigger.natural_language`（3-6 条触发词，从各 SKILL.md description 提炼，不虚构场景）+ `adapted_from` + `适用agent`（取 INDEX 已挂载列；未挂载标 `[]`+注释待编排判定）+ changelog 变更锚点。
+2. `adapted_from` 按边界纪律不编造：71 个标 `null  # 待复核`（#495 口径），仅 `research` 沿用 INDEX 已登记的 `business-research-skill-oscar-13-weapon-system`。
+3. name 修复：`content-production-polish`（Vikki-human-speech→目录名）、`knowledge-collision`（knowledge-collision-workflow→目录名），只改 frontmatter name 一行。
+
+**验证**：`scan_skills_registry.py` 复扫——INDEX 缺口清单「缺 trigger.natural_language：72→0」「name 不一致：[]」；8 维雷达：A 触发维 76/76 ✅清零、F manifest 维 ✅清零、🔴 72→24（剩 24 均为正文层欠账 B/C/D/H，超出本单"只补结构层"边界）；E 来源维未清零（71 个按纪律标 null 待复核，清零依赖王语嫣裁定来源卡归属，见下）。
+
+**边界**：未动任何 SKILL.md 正文（仅 2 个 name 单行）；未做 description <80 字符补齐（顺手项，为避免虚构触发场景本批未做，留待内容层批次）；E 维 `adapted_from` 待复核项需来源卡归属裁定后回填；本单不触碰动作 4/5/6 编排判定。
+
+**需要谁动作**：欧阳锋终审（重点复核：触发词提炼质量抽样、null 待复核口径是否符合 #495）；王语嫣复核 72 个 `adapted_from: null` 的来源卡归属 + 动作 4/5/6 编排判定。

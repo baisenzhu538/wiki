@@ -1,0 +1,16 @@
+name: research-ci-framework
+version: 1.0.0
+author: KDO 原建 / Skills 助理（manifest 补建，#597）
+adapted_from: null  # 待复核
+description: 【research-core 武器库·CI情报】CI竞争情报系统——Define→Gather→Analyze→Implement持续循环
+scope: shared
+trigger:
+  natural_language:
+  - 竞争情报
+  - CI情报系统
+  - 竞品持续监控
+  - Define Gather Analyze Implement
+适用agent:
+- agent-spec-wangyuyan-orchestrator
+changelog:
+- '2026-09-02 #597 manifest.yaml 补建（#588 INDEX 缺口清单；trigger.natural_language 从 SKILL.md description 提炼；无来源卡 adapted_from=null 待复核——#495 口径）'

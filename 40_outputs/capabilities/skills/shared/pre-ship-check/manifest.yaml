@@ -1,0 +1,18 @@
+name: pre-ship-check
+version: 1.0.0
+author: KDO 原建 / Skills 助理（manifest 补建，#597）
+adapted_from: null  # 待复核
+description: Pre-publish gate check for content before shipping to any channel. Checks channel-format match, review status, GEO/SEO readiness, and sensitive content — without modifying the content itself.
+  Use when段王爷 or any agent is about to publish — '发布前检查', 'pre-ship check', 'ready to publish?'. Routes throug
+scope: shared
+trigger:
+  natural_language:
+  - 发布前检查
+  - pre-ship check
+  - ready to publish
+  - 发布门禁
+适用agent:
+- 欧阳锋
+- 段王爷
+changelog:
+- '2026-09-02 #597 manifest.yaml 补建（#588 INDEX 缺口清单；trigger.natural_language 从 SKILL.md description 提炼；无来源卡 adapted_from=null 待复核——#495 口径）'

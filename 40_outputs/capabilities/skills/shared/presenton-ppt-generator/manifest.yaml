@@ -1,0 +1,17 @@
+name: presenton-ppt-generator
+version: 1.0.0
+author: KDO 原建 / Skills 助理（manifest 补建，#597）
+adapted_from: null  # 待复核
+description: Presenton 开源 AI PPT 生成器。Docker 一键部署，支持 Ollama 本地 LLM，AI 将 PPTX/PDF 转为可复用模板，输出 PPTX + PDF。完全自托管，数据不出机器。替换手写 python-pptx 流程。
+scope: shared
+trigger:
+  natural_language:
+  - AI生成PPT
+  - Presenton部署
+  - PPTX模板化
+  - 自托管PPT生成
+适用agent:
+- 段王爷
+- agent-spec-hongqigong-multimodal
+changelog:
+- '2026-09-02 #597 manifest.yaml 补建（#588 INDEX 缺口清单；trigger.natural_language 从 SKILL.md description 提炼；无来源卡 adapted_from=null 待复核——#495 口径）'

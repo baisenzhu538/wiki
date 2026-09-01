@@ -1,0 +1,17 @@
+name: knowledge-collision
+version: 1.0.0
+author: KDO 原建 / Skills 助理（manifest 补建，#597）
+adapted_from: null  # 待复核
+description: 【research-core 前置纪律·产出前知识碰撞（通用，独立挂载）】产出前先碰撞知识库——不只是查询定义，而是拿当前问题去测试已有框架，找出对得上、对不上、缺什么的地方。适用于写作、商业分析、咨询、AI辅助产出等所有需要综合多知识源的任务。
+scope: shared
+trigger:
+  natural_language:
+  - 产出前知识碰撞
+  - 拿问题测试已有框架
+  - 碰撞知识库
+  - 写作分析前先碰撞
+适用agent:
+- 王语嫣
+- agent-spec-wangyuyan-orchestrator
+changelog:
+- '2026-09-02 #597 manifest.yaml 补建（#588 INDEX 缺口清单；trigger.natural_language 从 SKILL.md description 提炼；无来源卡 adapted_from=null 待复核——#495 口径）'

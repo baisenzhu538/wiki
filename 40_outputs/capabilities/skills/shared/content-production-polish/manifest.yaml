@@ -1,0 +1,21 @@
+name: content-production-polish
+version: 1.0.0
+author: KDO 原建 / Skills 助理（manifest 补建，#597）
+adapted_from: null  # 待复核
+description: Review and rewrite Chinese self-media content so it sounds like a real person instead of AI-generated copy. Use when checking or improving口播稿、短视频脚本、直播话术、公众号文章、小红书文案、销售文案, especially for problems
+  like抽象难懂、AI味重、排比堆砌、概念太密、说教感强、没有场景、没有例子、转化弱, or when the user asks to"讲人话""去AI味""改得口语化""让用户听懂""让表达更有商业价值""
+scope: shared
+trigger:
+  natural_language:
+  - 讲人话
+  - 去AI味
+  - 改得口语化
+  - 文案像真人写的
+  - 口播稿短视频脚本润色
+适用agent:
+- 老顽童
+- agent-spec-duanwangye-publisher
+- agent-spec-hongqigong-multimodal
+- coaching-leadership-assistant
+changelog:
+- '2026-09-02 #597 manifest.yaml 补建（#588 INDEX 缺口清单；trigger.natural_language 从 SKILL.md description 提炼；无来源卡 adapted_from=null 待复核——#495 口径）'

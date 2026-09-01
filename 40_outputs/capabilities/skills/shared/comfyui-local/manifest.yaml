@@ -1,0 +1,17 @@
+name: comfyui-local
+version: 1.0.0
+author: KDO 原建 / Skills 助理（manifest 补建，#597）
+adapted_from: null  # 待复核
+description: ComfyUI 本地多模态 AI 编排中枢。节点式可视化工作流引擎，统一管理图片生成、视频生成、音频合成、3D渲染。支持 API 批量自动化、ComfyHub 社区工作流复用。GPL v3 开源。
+scope: shared
+trigger:
+  natural_language:
+  - ComfyUI本地编排
+  - 节点式工作流生成图片视频
+  - ComfyUI API批量
+  - 本地多模态生成
+适用agent:
+- 洪七公
+- agent-spec-hongqigong-multimodal
+changelog:
+- '2026-09-02 #597 manifest.yaml 补建（#588 INDEX 缺口清单；trigger.natural_language 从 SKILL.md description 提炼；无来源卡 adapted_from=null 待复核——#495 口径）'

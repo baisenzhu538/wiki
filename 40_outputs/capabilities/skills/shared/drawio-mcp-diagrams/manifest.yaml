@@ -1,0 +1,17 @@
+name: drawio-mcp-diagrams
+version: 1.0.0
+author: KDO 原建 / Skills 助理（manifest 补建，#597）
+adapted_from: null  # 待复核
+description: Draw.io MCP 图表生成。JGraph 官方 MCP Server，用自然语言生成架构图、流程图、UML图，直接在 draw.io 编辑器中打开并导出 PNG/SVG/PDF。支持 Mermaid.js / CSV / XML 输入。零安装——托管端点即用。
+scope: shared
+trigger:
+  natural_language:
+  - 生成架构图流程图
+  - draw.io图表
+  - 自然语言画UML
+  - MCP画图
+适用agent:
+- 洪七公
+- agent-spec-hongqigong-multimodal
+changelog:
+- '2026-09-02 #597 manifest.yaml 补建（#588 INDEX 缺口清单；trigger.natural_language 从 SKILL.md description 提炼；无来源卡 adapted_from=null 待复核——#495 口径）'

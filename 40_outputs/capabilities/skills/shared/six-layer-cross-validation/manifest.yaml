@@ -1,0 +1,18 @@
+name: six-layer-cross-validation
+version: 1.0.0
+author: KDO 原建 / Skills 助理（manifest 补建，#597）
+adapted_from: null  # 待复核
+description: 【research-core 纪律层·交叉验证】六层交叉验证——从来源/时间/逻辑/数据/反例/行动六维度检验信息可信度
+scope: shared
+trigger:
+  natural_language:
+  - 六层交叉验证
+  - 来源时间逻辑数据反例行动
+  - 信息可信度检验
+  - 六维验证信息
+适用agent:
+- 欧阳锋
+- agent-spec-ouyangfeng-reviewer
+- agent-spec-wangyuyan-orchestrator
+changelog:
+- '2026-09-02 #597 manifest.yaml 补建（#588 INDEX 缺口清单；trigger.natural_language 从 SKILL.md description 提炼；无来源卡 adapted_from=null 待复核——#495 口径）'

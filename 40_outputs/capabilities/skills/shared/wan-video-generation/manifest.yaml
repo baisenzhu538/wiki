@@ -1,0 +1,17 @@
+name: wan-video-generation
+version: 1.0.0
+author: KDO 原建 / Skills 助理（manifest 补建，#597）
+adapted_from: null  # 待复核
+description: Wan 2.2 开源 AI 视频生成。阿里巴巴出品，Apache 2.0 完全商用。2026年开源视频质量之王——文本/图片→5秒高清视频，支持 GGUF 量化在 12GB 消费级 GPU 运行。通过 ComfyUI 节点集成。
+scope: shared
+trigger:
+  natural_language:
+  - AI视频生成
+  - Wan 2.2
+  - 文本图片转视频
+  - 开源视频生成
+适用agent:
+- 洪七公
+- agent-spec-hongqigong-multimodal
+changelog:
+- '2026-09-02 #597 manifest.yaml 补建（#588 INDEX 缺口清单；trigger.natural_language 从 SKILL.md description 提炼；无来源卡 adapted_from=null 待复核——#495 口径）'

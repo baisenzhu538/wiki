@@ -1,0 +1,17 @@
+name: cosyvoice-tts
+version: 1.0.0
+author: KDO 原建 / Skills 助理（manifest 补建，#597）
+adapted_from: null  # 待复核
+description: CosyVoice 3.0 中文TTS与声音克隆引擎。阿里巴巴 FunAudioLLM 开源，支持9语言+18方言，零样本声音复刻，150ms流式延迟。Apache 2.0 许可证。替换 Edge TTS 的主战武器。
+scope: shared
+trigger:
+  natural_language:
+  - 中文TTS
+  - 声音克隆
+  - CosyVoice语音合成
+  - 零样本声音复刻
+适用agent:
+- 洪七公
+- agent-spec-hongqigong-multimodal
+changelog:
+- '2026-09-02 #597 manifest.yaml 补建（#588 INDEX 缺口清单；trigger.natural_language 从 SKILL.md description 提炼；无来源卡 adapted_from=null 待复核——#495 口径）'

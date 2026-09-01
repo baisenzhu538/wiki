@@ -1,0 +1,15 @@
+name: agent-migration-health-check
+version: 1.0.0
+author: KDO 原建 / Skills 助理（manifest 补建，#597）
+adapted_from: null  # 待复核
+description: '| Agent换机/换环境（WSL↔Windows）后全面体检记忆、技能、知识库、工具链、复盘体系。'
+scope: shared
+trigger:
+  natural_language:
+  - 换机换环境后体检
+  - WSL换Windows后环境检查
+  - agent迁移后记忆技能工具链检查
+  - 新机器恢复工作前自检
+适用agent: []  # INDEX 未登记挂载（待王语嫣动作4/5/6编排判定）
+changelog:
+- '2026-09-02 #597 manifest.yaml 补建（#588 INDEX 缺口清单；trigger.natural_language 从 SKILL.md description 提炼；无来源卡 adapted_from=null 待复核——#495 口径）'

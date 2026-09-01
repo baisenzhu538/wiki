@@ -1,5 +1,5 @@
 ---
-name: knowledge-collision-workflow
+name: knowledge-collision
 description: 【research-core 前置纪律·产出前知识碰撞（通用，独立挂载）】产出前先碰撞知识库——不只是查询定义，而是拿当前问题去测试已有框架，找出对得上、对不上、缺什么的地方。适用于写作、商业分析、咨询、AI辅助产出等所有需要综合多知识源的任务。
 version: 1.0.0
 platforms: [linux, macos, windows]

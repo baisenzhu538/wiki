@@ -1,0 +1,16 @@
+name: research-multi-agent
+version: 1.0.0
+author: KDO 原建 / Skills 助理（manifest 补建，#597）
+adapted_from: null  # 待复核
+description: 【research-core 武器库·多Agent】多Agent协作调研——Supervisor/Swarm/Pipeline/Hybrid四种架构
+scope: shared
+trigger:
+  natural_language:
+  - 多Agent协作调研
+  - Supervisor Swarm Pipeline Hybrid
+  - 调研多智能体架构
+  - agent组队做调研
+适用agent:
+- agent-spec-wangyuyan-orchestrator
+changelog:
+- '2026-09-02 #597 manifest.yaml 补建（#588 INDEX 缺口清单；trigger.natural_language 从 SKILL.md description 提炼；无来源卡 adapted_from=null 待复核——#495 口径）'

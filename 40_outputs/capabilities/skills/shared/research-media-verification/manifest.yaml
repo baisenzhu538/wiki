@@ -1,0 +1,16 @@
+name: research-media-verification
+version: 1.0.0
+author: KDO 原建 / Skills 助理（manifest 补建，#597）
+adapted_from: null  # 待复核
+description: 【research-core 武器库·媒体验证】OSINT媒体验证链——反向图片搜索→元数据提取→时间/天气/阴影验证
+scope: shared
+trigger:
+  natural_language:
+  - 媒体验证
+  - 反向图片搜索
+  - OSINT图片视频核实
+  - 元数据提取验证
+适用agent:
+- agent-spec-wangyuyan-orchestrator
+changelog:
+- '2026-09-02 #597 manifest.yaml 补建（#588 INDEX 缺口清单；trigger.natural_language 从 SKILL.md description 提炼；无来源卡 adapted_from=null 待复核——#495 口径）'
