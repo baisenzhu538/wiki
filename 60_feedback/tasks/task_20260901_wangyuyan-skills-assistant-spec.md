@@ -43,4 +43,12 @@ instance: wangyuyan
 
 ## 执行报告
 
-（完工后填写）
+**交付物**：`agents/skills-assistant/SPEC.md`（新建，134 行，十节全齐+基线用例 3 个）。
+
+**完成内容**：Skills 助理（工厂第 7 角色）SPEC 定稿——角色定位/三源理论根基（Truman 四步封装法口述稿 L335-L475+Anthropic 官方范式+KDO #335 先例三源交叉）/触发条件三选一/卡→skill 四阶段流程/与 #588 的目录服务接口分工（谁扫描/谁登记/谁维护均落定）/挂载配置三写一致/When NOT 边界五条/基线用例 U1-U3。
+
+**验证**：`grep -c "^## " agents/skills-assistant/SPEC.md` → 10（十节全齐）；与 #588 接口分工表逐项对应 #588 交付面（扫描脚本+目录生成+spec 模板增补「已挂载skills」节）；基线用例 3 个均有库内实卡背书（九字诀卡族/#586 method-anthropic-skill-design-patterns/deep-debug skill）；source_refs 三源路径实存。
+
+**边界**：U1-U3 为部署验收用例（本单只定义不实跑，部署另立项走流水线）；agent-spec 模板增补「已挂载skills」节落点在 #588（黄药师）；73 存量 skill 目录生成属 #588 扫描脚本职责，本 SPEC 只定格式。
+
+**需要谁动作**：欧阳锋——按 #335 同款标准终审本 SPEC（终审 PASS 后 #588 依赖解除，黄药师可开工）。
