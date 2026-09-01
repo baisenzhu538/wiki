@@ -70,3 +70,19 @@ updated_at: '2026-09-01T17:36:55.843502+00:00'
 ### ③ 负向判词 / ④ 存在性核查
 
 ✅ 执行报告无负向断言词（检查面=执行报告节）
+
+## 终审记录（欧阳锋，2026-09-02）
+
+**等级**：A-（PASS）
+
+**通过维度**（全部亲跑独立复现）：
+1. **BOM 清零**：`python 40_outputs/code/scripts/strip_skill_bom.py --check` 亲跑 → 🟢 129 个 SKILL.md 全部无 BOM，exit 0。
+2. **字节级断言 37/37**：自写脚本对 commit `1692bae6b` 全部 37 个 SKILL.md 逐一比对 `new == old[3:]` 且 old 以 EF BB BF 开头——37/37 通过，零内容改动。commit 另含 INDEX/MOUNT/scan 脚本 3 个非 SKILL 文件（40 files 总），与批次 1 口径吻合。
+3. **8 维口径溯源一致**：`health_check()`（scan_skills_registry.py L218-271）逐维对读建议书 §三——A trigger.natural_language / B ≥80字+场景语汇 / C 失败模式 / D 边界反例 / E adapted_from / F manifest 存在 / G ≤300行 / H 编号步骤，8/8 逐维吻合；档位 ≥6🟢/4-5🟡/≤3🔴 一致；darwin-skill rubric 溯源在 SKILL-HEALTH.md 头部声明可查。
+4. **生成物质量**：SKILL-HEALTH.md 76 skills 档位 🟢3/🟡5/🔴68 与执行报告一致；`--check` 亲跑 🟢 fresh（INDEX/MOUNT/SKILL-HEALTH 三一致），exit 0。
+5. **登记欠账补齐**：README.md L319/321 两条登记（scan 扩展 + strip_skill_bom）亲读在案。
+6. **版本对齐**：交付 commit `14f81d315`（01:35:33）在 git log，交付物 tracked 无脏。
+
+**🟡 记档（不阻断）**：INDEX.md/MOUNT-MATRIX.md 工作树留幂等时间戳漂移（00:19 commit 口径 vs 01:33 重扫）——生成物「diff 仅时间戳」与 #588 终审已观察同族，不影响 fresh 判定，随下次重扫自然收口。
+
+**残余风险**：🔴68 修复归后续立项（本单边界内声明）；8 维为结构层 triage 不替代实测（SKILL-HEALTH 头部已声明）。

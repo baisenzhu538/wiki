@@ -2498,3 +2498,26 @@
 ⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 2 单：#596, #599——你的单过了，见任务单终审记录
 ⚠️ 无 webhook 配置（不发送）：ouyangfeng → 🔔 KDO 新提审 1 单：#582，请终审
 [conveyor_probe] 新提审 0 / 新 queued 6 / 新登记 0 / near-miss 4 / 通知 2 条 / 活性实例 6（huangyaoshi,laowantong,ouyangfeng,skills-assistant,wangyuyan,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260902_fengqingyang-substitute-scatter-audit.md 疑似建议书但三元组不完整：有 audience 但 status=draft（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260902_huangyaoshi-vault-scatter-obsidian-config-pipeline.md 疑似建议书但三元组不完整：status=pending_review 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+🔔 新提审叫醒（统一层）→ ['todos']
+⛔ gate-blocked 登记: +2 → PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 3 次（gate-blocked）：2026-09-02 01:32:40｜task_20260902_wangyuyan-uncommitted-changes-ledger…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → 📥 KDO 可领取 5 单：#600, #601, #603, #604, #605
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 2 单：#596, #599——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → 🔔 KDO 新提审 1 单：#582，请终审
+📤 near-miss 升级推送: diag_20260902_fengqingyang-substitute-scatter-audit.md（3 轮未修正）
+[conveyor_probe] 新提审 2 / 新 queued 0 / 新登记 0 / near-miss 4 / 通知 1 条 / 活性实例 7（huangyaoshi,laowantong,ouyangfeng,skills-assistant,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260902_fengqingyang-substitute-scatter-audit.md 疑似建议书但三元组不完整：有 audience 但 status=draft（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260902_huangyaoshi-vault-scatter-obsidian-config-pipeline.md 疑似建议书但三元组不完整：status=pending_review 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+🔔 新提审叫醒（统一层）→ ['todos']
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-02 01:39:08｜task_20260902_huangyaoshi-credential-exposure-clea
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → 📥 KDO 可领取 5 单：#600, #601, #603, #604, #605
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 2 单：#596, #599——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → 🔔 KDO 新提审 1 单：#582，请终审
+📤 near-miss 升级推送: diag_20260902_huangyaoshi-vault-scatter-obsidian-config-pipeline.md（3 轮未修正）
+[conveyor_probe] 新提审 1 / 新 queued 0 / 新登记 1 / near-miss 4 / 通知 1 条 / 活性实例 7（huangyaoshi,laowantong,ouyangfeng,skills-assistant,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）

@@ -1,0 +1,271 @@
+kimi version 0.39.1
+• Let me start by reading the startup files.
+
+• 先做启动恢复：读取 startup、角色上下文和 todos 尾部。
+
+• Now let me look at the queue and the three tasks. Let me check production-queue for #598, #600, #602, and read the task files.All three are pending_review. Queue order: #598, #600, #602. There are gate-blocked records but the tasks were later submitted (提审 times listed in pending_review section). Note gate-blocked entries at 01:37/01:46 — but queue shows them in 待终审明细. Possibly re-submitted after fixing. Let me read the three task files.
+
+• 三单均在 `pending_review`。先读三份任务单。
+
+• Now do terminal review （终审） in queue order: #598, #600, #602. Each needs independent verification (O0/O3: verify claims by running checks myself).
+
+  Note gate-blocked entries were at 01:36/01:37/01:39, then later resolved (re-submitted). Tasks now pending_review.
+
+  Plan verification per task:
+
+  **#598 BOM cleanup + health radar:**
+  1. `python 40_outputs/code/scripts/strip_skill_bom.py --check` → expect 🟢
+  2. Verify commit 1692bae6b: 37 SKILL.md, diff is BOM-only (new == old[3:] for each). Run a Python check.
+  3. Check scan_skills_registry.py has health_check/gen_health; SKILL-HEALTH.md exists; `--check` fresh.
+  4. Check README.md registration.
+  5. Version alignment (#362 three questions): commits in git log.
+
+  **#600 credential cleanup (P0 focus):**
+  1. Original three files not exist at vault locations: `./--help`, `60_feedback/_sg_cookie.txt`, `duanzhixing/feishu_user_token.json`
+  2. Quarantine dir `90_control/.sandbox/quarantine-20260902/` contains 3 files
+  3. `git ls-files` shows none of the credentials tracked
+  4. `.gitignore` has quarantine-*/ rule; `git check-ignore` on quarantine path
+  5. Commits exist (index removal + gitignore)
+  6. Token rotation advice section written in task file (already read - yes, present)
+  7. No credential content printed in task file — I see no actual tokens in the task file. Good.
+  8. Also check git history contains credentials? Report says douyin cookie & feishu token were in git history, rotation advised — that's declared. Maybe verify git log shows the files were previously tracked: `git log --oneline -- "--help"`? Careful with filename. Use `git log --follow -- duanzhixing/feishu_user_token.json`.
+
+  **#602 ledger:**
+  1. `git log --oneline -5` — find 3 commits (1692bae6b batch1 + batch2 + batch3)
+  2. `git status` — check tracked modifications remaining (role-registry.json + pycs allowed)
+  3. Diff spot-check batch 1: five-step/SKILL.md only BOM removal — overlap with #598 check.
+  4. Commits' messages traceable.
+
+  This is a decent amount of verification work. I could do it myself via Bash commands — it's mostly mechanical git/python checks. Let's do it directly, in queue order. Start with #598.🟢 BOM 残留清零：129 个 SKILL.md 全部无 BOM
+commit 1692bae6b41c51f3045dbdbe729ca018ff1b43fa
+Author: Linhai Zhu <baisenzhu538@gmail.com>
+Date:   Wed Sep 2 01:31:50 2026 +0800
+
+    落账(王语嫣#602批次1): 37个shared SKILL.md BOM清洗+INDEX/MOUNT-MATRIX重扫登记（#595后续，编码层零内容改动）
+
+ 40_outputs/capabilities/skills/INDEX.md            |   2 +-
+ 40_outputs/capabilities/skills/MOUNT-MATRIX.md     |   2 +-
+ .../skills/shared/ai-collaboration-bitcoe/SKILL.md |   2 +-
+ .../skills/shared/ai-collaboration-dev/SKILL.md    |   2 +-
+ .../skills/shared/ai-collaboration-gan/SKILL.md    |   2 +-
+ .../shared/ai-collaboration-harness/SKILL.md       |   2 +-
+ .../skills/shared/ai-collaboration-ooda/SKILL.md   |   2 +-
+ .../skills/shared/ai-collaboration/SKILL.md        |   2 +-
+ .../shared/content-production-draft/SKILL.md       |   2 +-
+ .../shared/content-production-positioning/SKILL.md |   2 +-
+ .../skills/shared/content-production/SKILL.md      |   2 +-
+ .../skills/shared/decision-bias/SKILL.md           |   2 +-
+ .../skills/shared/decision-hygiene/SKILL.md        |   2 +-
+ .../skills/shared/decision-prediction/SKILL.md     |   2 +-
+40
+40 files in that commit (37 SKILL.md + INDEX/MOUNT + maybe more). Now byte-level assertion: verify each SKILL.md in commit 1692bae6b has new == old[3:]. Run a Python check.total files: 40 SKILL.md: 37 others: ['40_outputs/capabilities/skills/INDEX.md', '40_outputs/capabilities/skills/MOUNT-MATRIX.md', '40_outputs/code/scripts/scan_skills_registry.py']
+BOM-only assertion pass: 37 / 37
+Wait — that commit also touched scan_skills_registry.py. But task #598 claims the scan script extension is a deliverable. Actually the commit 1692bae6b is #602 batch1 which included scan_skills_registry.py changes too. Hmm, but that file change was "8维健康检测并入" — from #598's own work. The batch 1 commit included it. Fine, but let me verify scan script has health_check and SKILL-HEALTH.md exists, and run --check.🟢 fresh：76 skills，INDEX/MOUNT/SKILL-HEALTH 与源一致
+exit=0
+51:HEALTH_FILE = SKILLS_DIR / "SKILL-HEALTH.md"
+218:def health_check(skill: dict) -> dict:
+274:def gen_health(skills: list[dict]) -> str:
+275:    """生成 SKILL-HEALTH.md：8 维档位总表 + 不健康短板清单（actionable）。"""
+277:    results = {s["dir"]: health_check(s) for s in skills}
+283:    L.append("# Skill 健康雷达（SKILL-HEALTH）")
+457:        print("🔴 stale：SKILL-HEALTH.md 早于 INDEX.md——重跑 scan_skills_registry.py")
+459:    print(f"🟢 fresh：{len(skills)} skills，INDEX/MOUNT/SKILL-HEALTH 与源一致")
+482:    HEALTH_FILE.write_text(gen_health(skills), encoding="utf-8", newline="")
+487:    print(f"✅ SKILL-HEALTH.md：8 维健康雷达 → {HEALTH_FILE}")
+-rw-r--r-- 1 Administrator 197121 11030 Sep  2 01:33 40_outputs/capabilities/skills/SKILL-HEALTH.md
+319:- **`scan_skills_registry.py`**（#588 产物，#598 扩展）：skills 目录+挂载矩阵+8维健康雷达三合一扫描生成器——扫 `40_outputs/capabilities/skills/`（shared/+根目录）生成 INDEX.md / MOUNT-MATRIX.md / SKILL-HEALTH.md 三份登记物；`--check` 新鲜度门禁（stale→exit 1）
+321:- **`strip_skill_bom.py`**（#598）：SKILL.md UTF-8 BOM 批量清理——只删文件头 EF BB BF 三字节，转换前后字节级断言（new == old[3:]）；`--check` 只读模式供回归/门禁（exit 1 = 仍有 BOM）
+# Skill 健康雷达（SKILL-HEALTH）
+
+> #598 扫描生成物（生成时间 2026-09-02 01:33，共 76 个 skill）。
+> 8 维口径 = 建议书_20260901_skill健康度勘察与检测方法论 §三；溯源 darwin-skill 9 维 rubric + skill-architecture-design 五维量化。
+> 档位：≥6/8 🟢 健康；4-5/8 🟡 亚健康（补短板即可）；≤3/8 🔴 不健康（路由/内容至少一项阻塞）。
+> **结构层 triage，不替代实测**（test-prompts 效果实测=建议书动作8 缓议）；生成物勿手改，
+> 重跑 `python 40_outputs/code/scripts/scan_skills_registry.py` 刷新。
+
+**总览：🟢 3 / 🟡 5 / 🔴 68（共 76）**
+
+| skill | 档位 | 得分 | A触发 | B描述 | C失败 | D边界 | E来源 | F三写 | G克制 | H步骤 | 主文件行数 |
+|:--|:--|--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|--:|
+| `nine-character-ai-collaboration` | 🟢 | 8/8 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 90 |
+| `research-core` | 🟢 | 8/8 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 204 |
+| `skill-architecture-design` | 🟢 | 8/8 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 103 |
+| `agent-self-iteration` | 🟡 | 4/8 | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | 125 |
+| `deep-debug` | 🟡 | 4/8 | ✅ | ❌ | ❌ | ✅ | ❌ | ✅ | ❌ | ✅ | 444 |
+| `kdo-self-attack` | 🟡 | 4/8 | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | 170 |
+| `knowledge-collision` | 🟡 | 4/8 | ❌ | ✅ | ❌ | ✅ | ❌ | ❌ | ✅ | ✅ | 158 |
+| `task-orchestration` | 🟡 | 4/8 | ❌ | ✅ | ❌ | ✅ | ❌ | ❌ | ✅ | ✅ | 118 |
+| `ai-collaboration-dev` | 🔴 | 3/8 | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ | ✅ | 82 |
+| `ai-collaboration-gan` | 🔴 | 3/8 | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ | ✅ | 77 |
+| `ai-collaboration-harness` | 🔴 | 3/8 | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ | ✅ | 93 |
+| `beikai-multimodal-pipeline` | 🔴 | 3/8 | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ | 839 |
+| `content-production-polish` | 🔴 | 3/8 | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ | ✅ | 221 |
+| `content-production-positioning` | 🔴 | 3/8 | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ | ✅ | 80 |
+| `decision-prediction` | 🔴 | 3/8 | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ | ✅ | 108 |
+| `demand-analysis-synthetic` | 🔴 | 3/8 | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ | ✅ | 257 |
+| `nine-layer-deep-dig` | 🔴 | 3/8 | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ | 72 |
+| `research-ci-framework` | 🔴 | 3/8 | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ | ✅ | 123 |
+| `self-evolution` | 🔴 | 3/8 | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ | ✅ | 113 |
+| `stage-3-tooling` | 🔴 | 3/8 | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ | 63 |
+| `agent-migration-health-check` | 🔴 | 2/8 | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | 110 |
+| `ai-collaboration-bitcoe` | 🔴 | 2/8 | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ | ❌ | 65 |
+| `ai-collaboration-ooda` | 🔴 | 2/8 | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ | ❌ | 73 |
+| `content-production` | 🔴 | 2/8 | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | 70 |
+| `content-production-draft` | 🔴 | 2/8 | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | 86 |
+| `decision` | 🔴 | 2/8 | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ | ❌ | 53 |
+| `decision-bias` | 🔴 | 2/8 | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ | ❌ | 100 |
+| `decision-hygiene` | 🔴 | 2/8 | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ | ❌ | 110 |
+---
+111
+5:> 档位：≥6/8 🟢 健康；4-5/8 🟡 亚健康（补短板即可）；≤3/8 🔴 不健康（路由/内容至少一项阻塞）。
+9:**总览：🟢 3 / 🟡 5 / 🔴 68（共 76）**
+13:| `nine-character-ai-collaboration` | 🟢 | 8/8 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 90 |
+14:| `research-core` | 🟢 | 8/8 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 204 |
+15:| `skill-architecture-design` | 🟢 | 8/8 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 103 |
+---
+4:> 8 维口径 = 建议书_20260901_skill健康度勘察与检测方法论 §三；溯源 darwin-skill 9 维 rubric + skill-architecture-design 五维量化。
+SKILL-HEALTH.md exists, 🟢3/🟡5/🔴68 matches report. Version alignment check for #598 (code task): commits in git log. Let me check git log for the commits delivering #598 (strip_skill_bom.py + scan extension).14f81d315 2026-09-02 01:35:33 +0800 #598 收口 by huangyaoshi：BOM清理器+8维健康雷达登记物落账（strip_skill_bom.py/SKILL-HEALTH.md/README登记/执行报告）
+1692bae6b 2026-09-02 01:31:50 +0800 落账(王语嫣#602批次1): 37个shared SKILL.md BOM清洗+INDEX/MOUNT-MATRIX重扫登记（#595后续，编码层零内容改动）
+a198a77ac 2026-09-01 11:00:56 +0800 黄药师(#588补): 根目录legacy skill引用显式登记（3个不吞掉，迁移归Skills助理裁定）+ shared/README指向INDEX.md防双索引漂移 + anchor/friction收尾
+b958575a8 2026-09-01 10:56:25 +0800 黄药师(#588): Skill目录与挂载矩阵机制——扫描脚本+INDEX.md+MOUNT-MATRIX.md+spec模板增补+增量钩子（health-check第20项/infra-status/总表登记；73/73 fresh 亲验；终审小项①大小写对齐②73口径实测裁定）
+bae2b5900 2026-08-31 23:37:10 +0800 #584 黄药师施工：thinking disabled 固化+双桩收口+skip前置+pending-domain域轴（4项全落地）
+b4638f42b 2026-08-27 02:50:01 +0800 #557 批次报告+真亡清单+迁移脚本登记 by laowantong
+ae2481e4c 2026-08-22 19:59:03 +0800 fix(copies): #414 清 4 处字节级副本——kdo-tools 真身+README 指针化+cap_hub 改指+W7 边界句；md5 0 副本+管线狗粮实测通过
+8477dc648 2026-08-21 01:43:01 +0800 feat(rescan): #399 全库复扫标准工具 full-library-rescan.py——6 检查项可插拔+退出码+delta 增量报警，挂入 health-check；归零声明纪律固化（声明须附本工具输出）
+---
+ M 40_outputs/capabilities/skills/INDEX.md
+ M 40_outputs/capabilities/skills/MOUNT-MATRIX.md
+?? 40_outputs/code/scripts/__pycache__/scan_skills_registry.cpython-313.pyc
+?? 40_outputs/code/scripts/__pycache__/wechat_knowledge.cpython-313.pyc
+?? 40_outputs/code/scripts/__pycache__/wechat_promote.cpython-313.pyc
+Everything committed in 14f81d315. But note: current git status shows INDEX.md and MOUNT-MATRIX.md modified (dirty). Yet `--check` just passed as fresh. Why? Perhaps another process modified them after the scan — likely the .obsidian incident or another agent. Wait, actually the check ran OK meaning SKILL-HEALTH.md is newer than INDEX.md. The dirty INDEX/MOUNT could be from my run of scan? No, --check is read-only. Let me check what the diff is — could be a live process (role-registry clock) touching. Check diff briefly.diff --git a/40_outputs/capabilities/skills/INDEX.md b/40_outputs/capabilities/skills/INDEX.md
+index 7e65d8456..a26651999 100644
+--- a/40_outputs/capabilities/skills/INDEX.md
++++ b/40_outputs/capabilities/skills/INDEX.md
+@@ -1,6 +1,6 @@
+ # Skills 目录索引（INDEX）
+ 
+-> #588 扫描生成物（生成时间 2026-09-02 00:19，共 76 个 skill）。
++> #588 扫描生成物（生成时间 2026-09-02 01:33，共 76 个 skill）。
+ > **真相源 = 各 skill 的 SKILL.md frontmatter**；本文件是生成物，勿手改——
+ > 新增/下架 skill 后重跑 `python 40_outputs/code/scripts/scan_skills_registry.py` 刷新。
+ > 挂载现状对照见同目录 `MOUNT-MATRIX.md`；登记/维护归 Skills 助理（#587 分工表）。
+diff --git a/40_outputs/capabilities/skills/MOUNT-MATRIX.md b/40_outputs/capabilities/skills/MOUNT-MATRIX.md
+index 08594851b..808bfa1b9 100644
+--- a/40_outputs/capabilities/skills/MOUNT-MATRIX.md
++++ b/40_outputs/capabilities/skills/MOUNT-MATRIX.md
+@@ -1,6 +1,6 @@
+ # Agent × Skill 挂载矩阵（MOUNT-MATRIX）
+ 
+-> #588 扫描生成物（生成时间 2026-09-02 00:19）。**登记制：文件引用即挂载**（含历史引用，
++> #588 扫描生成物（生成时间 2026-09-02 01:33）。**登记制：文件引用即挂载**（含历史引用，
+ > 与「实际运行时可用」可能有出入——引用面是登记真相源）。生成物勿手改，
+ > 重跑 `python 40_outputs/code/scripts/scan_skills_registry.py` 刷新；挂载变更走 #587 Skills 助理。
+ 
+The dirty diff is only the generation timestamp (00:19 → 01:33). That means commit 1692bae6b committed INDEX/MOUNT from an earlier scan (00:19), then the 01:33 rescan regenerated them. These are生成物 timestamp-only drift — matches the "幂等diff仅时间戳" pattern noted in #588 review. Not a blocker, but the working tree has uncommitted generated artifacts — minor housekeeping. #598's claim "SKILL-HEALTH.md fresh" holds since check passed.
+
+  Wait, actually commit 14f81d315 at 01:35:33 — did it include INDEX/MOUNT? git status shows them modified still, so no. But SKILL-HEALTH committed? --check says fresh, and SKILL-HEALTH is tracked (git status doesn't show it dirty). Fine.
+
+  Now for #598 verdict: PASS. Grade: A- maybe. Claims verified:
+  - BOM 129 清零 亲跑 ✅
+  - 37/37 BOM-only 断言 亲跑 ✅
+  - scan 8维 health_check/gen_health 实存， --check fresh 亲跑 ✅
+  - SKILL-HEALTH 76 skills 🟢3/🟡5/🔴68 与报告一致 ✅
+  - README 登记 2 条 ✅
+  - 8维口径与建议书§三——I didn't read the建议书 §三 directly. Should I? O0 requires source verification. Let me quickly read the建议书 §三 to verify口径一致性.
+
+  Minor 🟡: INDEX/MOUNT 时间戳漂移未提交（生成物幂等 diff）— note for parking lot, not blocking.
+
+• 补 O0 溯源：核 8 维口径与建议书 §三一致性。## 三、健康度检测方法论建议（KDO 落地版，供后续例行审计使用）
+
+### Skill Health Radar 八维检测（机械可测，5 分钟/个）
+
+| 维度 | 检查项 | 数据来源 |
+|:--|:--|:--|
+| A 触发词可路由 | manifest.trigger.natural_language 非空 | manifest.yaml |
+| B 描述信息量 | description ≥ 80 字符且含触发场景 | frontmatter |
+| C 失败模式编码 | 正文含失败模式表/分支 | SKILL.md |
+| D 边界与反例 | 有「不适用/不要做/反例」章节 | SKILL.md |
+| E 来源可追溯 | adapted_from 有来源卡 | frontmatter |
+| F 三写一致 | manifest.yaml 存在且挂载单元同步 | manifest + MOUNT-MATRIX |
+| G 主文件克制 | ≤ 300 行（500 行护栏预警线） | 行数 |
+| H 操作可执行 | 有编号步骤/操作流程 | SKILL.md |
+
+**档位**：≥6/8 🟢 健康；4-5/8 🟡 亚健康（补短板即可）；≤3/8 🔴 不健康（路由/内容至少一项阻塞）。
+
+**注意（darwin-skill 实证教训）**：
+1. 本 8 维是**结构层 triage**，不能替代实测——效果层（dim8 实测表现 23/100）需 test-prompts 跑真实输出，按 darwin-skill 规则 dry_run > 30% 判失效
+2. 绝对分数只用于「先改谁」排序，**keep/revert 一律 paired 同 judge 比较**（±8 噪音）
+3. 建议补 test-prompts.json 后纳入例行扫描脚本（黄药师基建域）
+
+### 例行频率建议
+- **机械层**：随 #588 扫描脚本扩展（黄药师），每次刷新目录自动跑 8 维
+- **精读层**：季度审计一次，抽 20% 已挂载 skill 精读 + 实测
+- **变更触发**：任何挂载变更（P4）后必跑 A/F 两维
+
+---
+
+## 四、建议动作清单（给编排层/王语嫣分派）
+
+
+• 建议书 §三 matches the implemented 8 dimensions (A-H) and tiering exactly. Now check the script's health_check implementation quickly for the dimension criteria to confirm alignment — quick look at health_check function.def health_check(skill: dict) -> dict:
+    """对单个 skill 记录跑 8 维机械检测，返回 {dims: {A..H: (bool, 证据一句话)}, score, grade}。"""
+    sm: Path = skill["path"] / "SKILL.md"
+    raw = sm.read_bytes()
+    text = read_text(sm)
+    fm = parse_frontmatter(text)
+    man = skill.get("_manifest") or load_manifest(skill["path"])
+
+    dims: dict[str, tuple[bool, str]] = {}
+
+    # A 触发词可路由：manifest.trigger.natural_language 非空（frontmatter trigger 亦计）
+    trig = []
+    for src in (fm.get("trigger"), man.get("trigger")):
+        if isinstance(src, dict):
+            nl = src.get("natural_language") or []
+            if isinstance(nl, list):
+                trig.extend(x for x in nl if str(x).strip())
+    dims["A"] = (bool(trig), f"trigger 词组 {len(trig)} 组" if trig else "无 trigger.natural_language")
+
+    # B 描述信息量：description ≥80 字符且含触发场景语汇
+    desc = str(fm.get("description") or man.get("description") or "").strip()
+    b_len = len(desc) >= 80
+    b_scene = bool(HEALTH_DESC_RE.search(desc))
+    dims["B"] = (b_len and b_scene, f"{len(desc)} 字" + ("" if b_scene else "，无触发场景语汇"))
+
+    # C 失败模式编码：正文含失败模式表/分支（表头或标题任一命中）
+    c_hit = bool(re.search(r"失败模式|failure.?mode|踩坑|故障表|常见错误", text, re.I))
+    dims["C"] = (c_hit, "正文含失败模式面" if c_hit else "无失败模式表/分支")
+
+    # D 边界与反例：有「不适用/不要做/反例」语义章节
+    d_hit = bool(HEALTH_BOUNDARY_RE.search(text))
+    dims["D"] = (d_hit, "有边界/反例语义段" if d_hit else "无边界反例段")
+
+    # E 来源可追溯：adapted_from 非空（frontmatter 或 manifest）
+    adapted = str(fm.get("adapted_from") or man.get("adapted_from") or "").strip()
+    dims["E"] = (bool(adapted), adapted[:40] if adapted else "无 adapted_from 来源卡")
+
+    # F 三写一致：manifest.yaml 存在（真相源侧存在性——挂载同步面由 MOUNT-MATRIX 呈现）
+    has_man = (skill["path"] / "manifest.yaml").exists()
+    dims["F"] = (has_man, "manifest.yaml 存在" if has_man else "缺 manifest.yaml")
+
+    # G 主文件克制：≤300 行（500 行为护栏预警线，300-500 记半通过只计警示不计分）
+    n_lines = text.count("\n") + 1
+    g_ok = n_lines <= 300
+    dims["G"] = (g_ok, f"{n_lines} 行" + ("（超500护栏）" if n_lines > 500 else "（300-500 护栏预警）" if not g_ok else ""))
+
+    # H 操作可执行：有编号步骤或加粗操作条目
+    h_hit = bool(HEALTH_STEP_RE.search(text))
+    dims["H"] = (h_hit, "有编号步骤/操作条目" if h_hit else "无编号步骤")
+
+    score = sum(1 for ok, _ in dims.values() if ok)
+    grade = "🟢" if score >= 6 else ("🟡" if score >= 4 else "🔴")
+    return {"dims": dims, "score": score, "grade": grade, "lines": n_lines,
+            "has_bom": raw.startswith(b"\xef\xbb\xbf")}
+
+
+def gen_health(skills: list[dict]) -> str:
+    """生成 SKILL-HEALTH.md：8 维档位总表 + 不健康短板清单（actionable）。"""
+Implementation aligns with the建议书 §三. #598 verification complete:
+
+  - BOM 清零： 亲跑 strip_skill_bom.py --check 🟢 129/

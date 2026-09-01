@@ -1,0 +1,37 @@
+---
+delivery_id: "del_20260901_ai_knowledge_candy"
+artifact_id: "art_20260901_ai_knowledge_candy"
+channel: "feishu_doc"
+shipped_at: "2026-09-01T00:41:00+08:00"
+feedback_status: "无反馈"
+source_url: "https://yitang.top/fs-doc/4a104f5bed4e9edf3d0cf97237dad2e8/KulEd8ruzoKFxWxrHocc2rXnnEd"
+extraction_method: "L3 (SSO登录态复用 + CDP window分段滚动DOM提取)"
+doc_id: "OT9IdsioQopTVRxKLmHcrqWtn4f"
+url: "https://yitanger.feishu.cn/docx/OT9IdsioQopTVRxKLmHcrqWtn4f"
+local_copy: "00_inbox/AI知识管理探索营内测Candy-逐字稿.md"
+permission: "anyone_readable"
+validation_snapshot:
+  passed: 292
+  failed: 0
+  warnings: 0
+---
+
+# Delivery Manifest: del_20260901_ai_knowledge_candy
+
+## Artifact Info
+
+- title: AI×知识管理 探索营内测 Candy-逐字稿
+- chars: 11859
+- verify: raw_content 回读首尾完整，11444 字符
+
+## Extraction
+
+- source: yitang.top/fs-doc 非公开文档
+- method: TAT raw_content 403 → L3 SSO 登录态复用 + CDP window 分段滚动 DOM 提取
+- result: 298 blocks → Markdown 11859 字符
+
+## Publishing
+
+- blocks_ok: 292/292（6 批零失败）
+- permission: anyone_readable
+- url: https://yitanger.feishu.cn/docx/OT9IdsioQopTVRxKLmHcrqWtn4f

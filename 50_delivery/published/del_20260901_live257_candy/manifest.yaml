@@ -1,0 +1,37 @@
+---
+delivery_id: "del_20260901_live257_candy"
+artifact_id: "art_20260901_live257_candy"
+channel: "feishu_doc"
+shipped_at: "2026-09-01T00:43:00+08:00"
+feedback_status: "无反馈"
+source_url: "https://yitang.top/fs-doc/f7ca50fc116ba2ef5cab746fa998f593/QhqldR3nOosa8jxDwCFcMaUznM7"
+extraction_method: "L3 (SSO登录态复用 + CDP window分段滚动DOM提取)"
+doc_id: "IlYfdaY3Uos4TAxkzchc22OEntg"
+url: "https://yitanger.feishu.cn/docx/IlYfdaY3Uos4TAxkzchc22OEntg"
+local_copy: "00_inbox/Live257-重讲十指讲香模型内测Candy-逐字稿.md"
+permission: "anyone_readable"
+validation_snapshot:
+  passed: 1119
+  failed: 0
+  warnings: 0
+---
+
+# Delivery Manifest: del_20260901_live257_candy
+
+## Artifact Info
+
+- title: Live257：重讲十指讲香模型 内测 Candy-逐字稿
+- chars: 49677
+- verify: raw_content 回读首尾完整，48816 字符
+
+## Extraction
+
+- source: yitang.top/fs-doc 非公开文档
+- method: TAT raw_content 403 → L3 SSO 登录态复用 + CDP window 分段滚动 DOM 提取
+- result: 1123 blocks → Markdown 49677 字符
+
+## Publishing
+
+- blocks_ok: 1119/1119（23 批零失败）
+- permission: anyone_readable
+- url: https://yitanger.feishu.cn/docx/IlYfdaY3Uos4TAxkzchc22OEntg

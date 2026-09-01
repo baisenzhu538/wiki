@@ -487,3 +487,11 @@
   - untracked: 60_feedback/diagnosis/建议书_20260902_legacy53｜skills-assistant
 2026-09-02 01:17:01｜diag_20260902_fengqingyang-substitute-scatter-audit.md｜near-miss-三元组（#506）｜有 audience 但 status=draft（应 pending_orchestration）｜conveyor_probe
 2026-09-02 01:27:01｜diag_20260902_huangyaoshi-vault-scatter-obsidian-config-pipeline.md｜near-miss-三元组（#506）｜status=pending_review 疑似待编排但非 pending_orchestration｜conveyor_probe
+2026-09-02 01:32:40｜task_20260902_wangyuyan-uncommitted-changes-ledger｜F-034-五字段｜执行报告缺 5 个字段（#429 F-034）：改动文件清单、完成内容一句话、验证命令+输出、未做项/边界、需要谁动作。请补全后重试，或 --force --reason '<理由>' 声明例外（#4｜wangyuyan-kimi-0902
+2026-09-02 01:32:46｜task_20260902_wangyuyan-uncommitted-changes-ledger｜F-034-五字段｜执行报告缺 5 个字段（#429 F-034）：改动文件清单、完成内容一句话、验证命令+输出、未做项/边界、需要谁动作。请补全后重试，或 --force --reason '<理由>' 声明例外（#4｜wangyuyan-kimi-0902
+2026-09-02 01:36:30｜task_20260902_huangyaoshi-bom-cleanup-health-radar｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
+  - untracked: shared/*/SKILL.md
+补救：git add <路径> && git co｜huangyaoshi
+2026-09-02 01:39:08｜task_20260902_huangyaoshi-credential-exposure-cleanup｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
+  - untracked: duanzhixing/feishu_user_token.json
+补救：git a｜huangyaoshi

@@ -1,0 +1,37 @@
+---
+delivery_id: "del_20260901_live260_candy"
+artifact_id: "art_20260901_live260_candy"
+channel: "feishu_doc"
+shipped_at: "2026-09-01T00:38:00+08:00"
+feedback_status: "无反馈"
+source_url: "https://yitang.top/fs-doc/d942dd39331738382bd8ecf0ffacbceb/YTJgdq3idoRKwExETDqc5JlfnNd"
+extraction_method: "L3 (SSO登录态复用 + CDP window分段滚动DOM提取)"
+doc_id: "QdcBd2T8ho84nFxrkb3c2EaDnEf"
+url: "https://yitanger.feishu.cn/docx/QdcBd2T8ho84nFxrkb3c2EaDnEf"
+local_copy: "00_inbox/Live260-AI口喷基本功内测candy-逐字稿.md"
+permission: "anyone_readable"
+validation_snapshot:
+  passed: 116
+  failed: 0
+  warnings: 0
+---
+
+# Delivery Manifest: del_20260901_live260_candy
+
+## Artifact Info
+
+- title: Live260：AI口喷基本功内测 Candy-逐字稿
+- chars: 12792
+- verify: raw_content 回读首尾完整，12655 字符
+
+## Extraction
+
+- source: yitang.top/fs-doc 非公开文档
+- method: TAT raw_content 403 → L3 SSO 登录态复用 + CDP window 分段滚动 DOM 提取
+- result: 115 blocks → Markdown 12792 字符
+
+## Publishing
+
+- blocks_ok: 116/116（3 批零失败）
+- permission: anyone_readable
+- url: https://yitanger.feishu.cn/docx/QdcBd2T8ho84nFxrkb3c2EaDnEf

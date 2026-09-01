@@ -504,6 +504,48 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~00_inbox/学习candy合集/translations/中译-尼尔·雷克汉姆：联结销售与营销（SPIN创始人）-视频逐字稿.md｜P2｜14353B｜检测到 08-31 19:01｜待王语嫣编排~~ → 已处置（2026-09-01 03:35 王语嫣）：#586 Wave0 翻译施工产物（文件头自证「中译：2026-09-01 王语嫣编排」，三件=芝大/SPIN/TED主流谎言中译稿，对应 big 版逐字稿已 01:12/02:33 诊断在册），施工产物非新素材，不入编排；原文不动
 - ~~00_inbox/学习candy合集/translations/中译-大卫·布鲁克斯：当代文化的3个主流谎言（TED）-视频逐字稿.md｜P2｜50158B｜检测到 08-31 19:11｜待王语嫣编排~~ → 已处置（2026-09-01 03:35 王语嫣）：#586 Wave0 翻译施工产物（文件头自证「中译：2026-09-01 王语嫣编排」，三件=芝大/SPIN/TED主流谎言中译稿，对应 big 版逐字稿已 01:12/02:33 诊断在册），施工产物非新素材，不入编排；原文不动
 - ~~00_inbox/泡泡玛特的拆解/拆书会第218期《因为独特》· 精华提炼.md｜P2｜10715B｜检测到 09-01 15:11｜待王语嫣编排~~ → 已诊断+立项 #596（2026-09-02 00:02 王语嫣）：域归属=strategy/拆书会系列——李翔《因为独特》泡泡玛特王宁精华提炼件（段王爷转述层）；已有卡仅覆盖招股书毛利率+盲盒机制，本书增量=长期主义经营/减宽加深/满足感×存在感/品牌包裹感，不撞车；按 0831/0901 老朱直令直接编排立项 4 卡（#596 老顽童）；原文不动
+- 00_inbox/AI知识管理探索营内测Candy-逐字稿.md｜P2｜27496B｜检测到 09-01 17:51｜待王语嫣编排
+- 00_inbox/AI知识管理探索营内测Candy_v5.json｜P2｜45371B｜检测到 09-01 17:51｜待王语嫣编排
+- 00_inbox/Live257-重讲十指讲香模型内测Candy-逐字稿.md｜P2｜131798B｜检测到 09-01 17:51｜待王语嫣编排
+- 00_inbox/Live257-重讲十指讲香模型内测Candy_v5.json｜P2｜204123B｜检测到 09-01 17:51｜待王语嫣编排
+- 00_inbox/Live260-AI口喷基本功内测candy-逐字稿.md｜P2｜36201B｜检测到 09-01 17:51｜待王语嫣编排
+- 00_inbox/Live260-AI口喷基本功内测candy_v5.json｜P2｜41971B｜检测到 09-01 17:51｜待王语嫣编排
+- 00_inbox/pending-cards/case-wechat-article_1a718b23df7e860b.md｜P2｜3900B｜检测到 09-01 17:51｜待王语嫣编排
+- 00_inbox/pending-cards/case-wechat-article_832f2544fc7bb16a.md｜P2｜3760B｜检测到 09-01 17:51｜待王语嫣编排
+- 00_inbox/video_transcripts/BV1JsgQzWEuD-逐字稿.md｜P2｜15760B｜检测到 09-01 17:51｜待王语嫣编排
+- 00_inbox/video_transcripts/BV1kp4y1v7p9_p1-逐字稿.md｜P2｜18179B｜检测到 09-01 17:51｜待王语嫣编排
+- 00_inbox/video_transcripts/BV1kp4y1v7p9_p2-逐字稿.md｜P2｜16794B｜检测到 09-01 17:51｜待王语嫣编排
+- 00_inbox/video_transcripts/BV1kp4y1v7p9_p3-逐字稿.md｜P2｜18179B｜检测到 09-01 17:51｜待王语嫣编排
+- 00_inbox/video_transcripts/BV1rp4y1e76Y-逐字稿.md｜P2｜30332B｜检测到 09-01 17:51｜待王语嫣编排
+- 00_inbox/video_transcripts/BV1ug411i7bH-逐字稿.md｜P2｜30515B｜检测到 09-01 17:51｜待王语嫣编排
+- 00_inbox/video_transcripts/BV1wb9XBXEGb-逐字稿.md｜P2｜63363B｜检测到 09-01 17:51｜待王语嫣编排
+- 00_inbox/video_transcripts_small/BV1JsgQzWEuD-逐字稿.md｜P2｜16657B｜检测到 09-01 17:51｜待王语嫣编排
+- 00_inbox/video_transcripts_small/BV1kp4y1v7p9_p1-逐字稿.md｜P2｜18397B｜检测到 09-01 17:51｜待王语嫣编排
+- 00_inbox/video_transcripts_small/BV1kp4y1v7p9_p2-逐字稿.md｜P2｜18789B｜检测到 09-01 17:51｜待王语嫣编排
+- 00_inbox/video_transcripts_small/BV1kp4y1v7p9_p3-逐字稿.md｜P2｜18397B｜检测到 09-01 17:51｜待王语嫣编排
+- 00_inbox/video_transcripts_small/BV1rp4y1e76Y-逐字稿.md｜P2｜34305B｜检测到 09-01 17:51｜待王语嫣编排
+- 00_inbox/video_transcripts_small/BV1ug411i7bH-逐字稿.md｜P2｜33578B｜检测到 09-01 17:51｜待王语嫣编排
+- 00_inbox/video_transcripts_small/BV1wb9XBXEGb-逐字稿.md｜P2｜64967B｜检测到 09-01 17:51｜待王语嫣编排
+- 00_inbox/video_transcripts_small/TED-大卫布鲁克斯-3个主流谎言-逐字稿.md｜P2｜55486B｜检测到 09-01 17:51｜待王语嫣编排
+- 00_inbox/学习candy合集/AI×知识管理 探索营内测 Candy-逐字稿.md｜P2｜27736B｜检测到 09-01 17:51｜待王语嫣编排
+- 00_inbox/学习candy合集/Live257：重讲十指讲香模型 内测 Candy-逐字稿.md｜P2｜133557B｜检测到 09-01 17:51｜待王语嫣编排
+- 00_inbox/学习candy合集/Live260：AI口喷基本功内测 Candy-逐字稿.md｜P2｜36368B｜检测到 09-01 17:51｜待王语嫣编排
+- 00_inbox/学习candy合集/大卫·布鲁克斯：当代文化的3个主流谎言（TED）-视频逐字稿.md｜P2｜58091B｜检测到 09-01 17:51｜待王语嫣编排
+- 00_inbox/学习candy合集/大卫·布鲁克斯：芝大毕业演讲（求知是有代价的）-视频逐字稿.md｜P2｜35008B｜检测到 09-01 17:51｜待王语嫣编排
+- 00_inbox/学习candy合集/审计：Eason文化审计与实事求是DataPack.md｜P2｜19790B｜检测到 09-01 17:51｜待王语嫣编排
+- 00_inbox/学习candy合集/尼尔·雷克汉姆：联结销售与营销（SPIN创始人）-视频逐字稿.md｜P2｜17398B｜检测到 09-01 17:51｜待王语嫣编排
+- 00_inbox/学习candy合集/技能：deep-debug深度调试技能.md｜P2｜9840B｜检测到 09-01 17:51｜待王语嫣编排
+- 00_inbox/学习candy合集/指南：高阶 Skill 设计指南.md｜P2｜23837B｜检测到 09-01 17:51｜待王语嫣编排
+- 00_inbox/学习candy合集/数据包：MUSE模型.md｜P2｜35685B｜检测到 09-01 17:51｜待王语嫣编排
+- 00_inbox/学习candy合集/架构：产品设想：龙虾团队OPT.md｜P2｜16645B｜检测到 09-01 17:51｜待王语嫣编排
+- 00_inbox/学习candy合集/设想：Agent大学——让你的Agent来一堂进修.md｜P2｜24692B｜检测到 09-01 17:51｜待王语嫣编排
+- 00_inbox/学习candy合集/调研：Jovida AI竞争力双三角洞察报告.md｜P2｜18355B｜检测到 09-01 17:51｜待王语嫣编排
+- 00_inbox/学习candy合集/调研：Jovida 深度产品调研报告.md｜P2｜13100B｜检测到 09-01 17:51｜待王语嫣编排
+- 00_inbox/学习candy合集/顶层：我对WAIC的顶层思考和学习框架.md｜P2｜11592B｜检测到 09-01 17:51｜待王语嫣编排
+- 00_inbox/学习candy合集/translations/中译-大卫·布鲁克斯：当代文化的3个主流谎言（TED）-视频逐字稿.md｜P2｜52147B｜检测到 09-01 17:51｜待王语嫣编排
+- 00_inbox/学习candy合集/translations/中译-大卫·布鲁克斯：芝大毕业演讲（求知是有代价的）-视频逐字稿.md｜P2｜33455B｜检测到 09-01 17:51｜待王语嫣编排
+- 00_inbox/学习candy合集/translations/中译-尼尔·雷克汉姆：联结销售与营销（SPIN创始人）-视频逐字稿.md｜P2｜15106B｜检测到 09-01 17:51｜待王语嫣编排
+- 00_inbox/泡泡玛特的拆解/拆书会第218期《因为独特》· 精华提炼.md｜P2｜10883B｜检测到 09-01 17:51｜待王语嫣编排
 
 <!-- INBOX-PENDING-END -->
 
@@ -717,6 +759,9 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - [gate-blocked] diag_20260902_huangyaoshi-vault-scatter-obsidian-config-pipeline.md｜09-02 01:27｜待王语嫣复核处置｜2026-09-02 01:27:01｜diag_20260902_huangyaoshi-vault-scatter-obsidian-config-pipeline.md｜near-miss-三元组（#506）｜status=pending_review 疑似待编排但非 pending_orchestration｜conveyor_probe
 - [gate-blocked] task_20260902_wangyuyan-uncommitted-changes-ledger｜09-02 01:37｜待王语嫣复核处置｜2026-09-02 01:32:40｜task_20260902_wangyuyan-uncommitted-changes-ledger｜F-034-五字段｜执行报告缺 5 个字段（#429 F-034）：改动文件清单、完成内容一句话、验证命令+输出、未做项/边界、需要谁动作。请补全后重试，或 --force --reason '<理由>' 声明例外（#4｜wangyuyan-kimi-0902
 - [gate-blocked] task_20260902_huangyaoshi-bom-cleanup-health-radar｜09-02 01:37｜待王语嫣复核处置｜2026-09-02 01:36:30｜task_20260902_huangyaoshi-bom-cleanup-health-radar｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生 / - untracked: shared/*/SKILL.md / 补救：git add <路径> && git co｜huangyaoshi
+- diag_20260902_laowantong-molly-seq600-collision.md｜09-02 01:46｜待王语嫣复核裁定
+- [gate-blocked] task_20260902_huangyaoshi-credential-exposure-cleanup｜09-02 01:46｜待王语嫣复核处置｜2026-09-02 01:39:08｜task_20260902_huangyaoshi-credential-exposure-cleanup｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生 / - untracked: duanzhixing/feishu_user_token.json / 补救：git a｜huangyaoshi
+- diag_20260902_ouyangfeng-pending-decisions.md｜09-02 01:47｜待王语嫣复核裁定
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |

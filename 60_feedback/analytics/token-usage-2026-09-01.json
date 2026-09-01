@@ -1,0 +1,70 @@
+{
+  "date": "2026-09-01",
+  "collected_at": "2026-09-01T02:09:23",
+  "usage": {
+    "kimi": {
+      "session_471d197c-742d-4b28-8964-ae47bb5df891/main": {
+        "input": 40642,
+        "output": 1615,
+        "cache_read": 229632,
+        "cache_write": 0
+      },
+      "session_683d8e5d-c466-4f53-afe2-34337e851619/main": {
+        "input": 116456,
+        "output": 13076,
+        "cache_read": 5008896,
+        "cache_write": 0
+      },
+      "session_addf1b47-4524-4cfb-8fd7-8306a94d372a/main": {
+        "input": 15834,
+        "output": 2026,
+        "cache_read": 235776,
+        "cache_write": 0
+      },
+      "session_c121c0d8-b048-48ab-a932-8be2e9a9458b/agent-0": {
+        "input": 96061,
+        "output": 7785,
+        "cache_read": 539648,
+        "cache_write": 0
+      },
+      "session_c121c0d8-b048-48ab-a932-8be2e9a9458b/agent-1": {
+        "input": 20125,
+        "output": 5396,
+        "cache_read": 81920,
+        "cache_write": 0
+      },
+      "session_c121c0d8-b048-48ab-a932-8be2e9a9458b/main": {
+        "input": 172811,
+        "output": 62922,
+        "cache_read": 15208448,
+        "cache_write": 0
+      },
+      "session_cc768dbf-2ad8-4efe-82b9-6fe6cae0a60c/main": {
+        "input": 48088,
+        "output": 1842,
+        "cache_read": 181760,
+        "cache_write": 0
+      }
+    },
+    "hermes": {
+      "duanwangye": {
+        "input": 102957,
+        "output": 45242,
+        "cache_read": 9733120,
+        "cache_write": 0
+      },
+      "ouyangfeng": {
+        "input": 121204,
+        "output": 14964,
+        "cache_read": 2199616,
+        "cache_write": 0
+      },
+      "wangyuyan": {
+        "input": 542371,
+        "output": 67713,
+        "cache_read": 6633216,
+        "cache_write": 0
+      }
+    }
+  }
+}

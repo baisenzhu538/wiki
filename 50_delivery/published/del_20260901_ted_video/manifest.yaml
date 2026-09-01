@@ -1,0 +1,32 @@
+---
+delivery_id: "del_20260901_ted_video"
+artifact_id: "art_20260901_ted_video"
+channel: "feishu_doc"
+shipped_at: "2026-09-01T02:20:00+08:00"
+feedback_status: "无反馈"
+source_url: "https://yitanger.feishu.cn/wiki/KzXwwSWmMiAKJzkPnIBcvTpdnhf"
+video_url: "https://www.bilibili.com/video/BV1kp4y1v7p9/"
+extraction_method: "L1 doc + B站视频 yt-dlp 下载 → faster-whisper-small 转写（3段合集合并）"
+doc_id: "C7iNdl04eoNzALxF6TqcadOnnTc"
+url: "https://yitanger.feishu.cn/docx/C7iNdl04eoNzALxF6TqcadOnnTc"
+local_copy: "00_inbox/video_transcripts_small/TED-大卫布鲁克斯-3个主流谎言-逐字稿.md"
+permission: "anyone_readable"
+---
+
+# Delivery Manifest: del_20260901_ted_video
+
+## Artifact Info
+
+- title: 大卫·布鲁克斯：当代文化的3个主流谎言（TED）-视频逐字稿
+- chars: 53392
+- verify: 转写结果已存本地，发布零失败
+
+## Extraction
+
+- source: B站视频（作业Candy文档引用）
+- method: yt-dlp 下载音频 → faster-whisper-small (CPU int8) 转写 → 时间戳逐字稿
+
+## Publishing
+
+- permission: anyone_readable
+- url: https://yitanger.feishu.cn/docx/C7iNdl04eoNzALxF6TqcadOnnTc

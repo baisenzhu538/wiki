@@ -338,3 +338,4 @@
 - [2026-09-02 01:02] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#596（laowantong 的单，挂审 36min）；#599（skills-assistant 的单，挂审 8min）（到点（节奏 15min））
 - [2026-09-02 01:17] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
 - [2026-09-02 01:27] 📥 KDO 可领取 5 单：#600, #601, #603, #604, #605
+- [2026-09-02 01:37] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#602（wangyuyan 的单，挂审 4min）；#598（huangyaoshi 的单，挂审 1min）（到点（节奏 15min））

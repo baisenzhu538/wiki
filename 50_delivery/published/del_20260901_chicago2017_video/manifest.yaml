@@ -1,0 +1,32 @@
+---
+delivery_id: "del_20260901_chicago2017_video"
+artifact_id: "art_20260901_chicago2017_video"
+channel: "feishu_doc"
+shipped_at: "2026-09-01T02:20:00+08:00"
+feedback_status: "无反馈"
+source_url: "https://yitanger.feishu.cn/wiki/KzXwwSWmMiAKJzkPnIBcvTpdnhf"
+video_url: "https://www.bilibili.com/video/BV1rp4y1e76Y/"
+extraction_method: "L1 doc + B站视频 yt-dlp 下载 → faster-whisper-small 转写"
+doc_id: "HvDZd7YcBocZmJxVLI9cEZp8nMb"
+url: "https://yitanger.feishu.cn/docx/HvDZd7YcBocZmJxVLI9cEZp8nMb"
+local_copy: "00_inbox/video_transcripts_small/BV1rp4y1e76Y-逐字稿.md"
+permission: "anyone_readable"
+---
+
+# Delivery Manifest: del_20260901_chicago2017_video
+
+## Artifact Info
+
+- title: 大卫·布鲁克斯：2017芝加哥大学毕业演讲-视频逐字稿
+- chars: 33008
+- verify: 转写结果已存本地，发布零失败
+
+## Extraction
+
+- source: B站视频（作业Candy文档引用）
+- method: yt-dlp 下载音频 → faster-whisper-small (CPU int8) 转写 → 时间戳逐字稿
+
+## Publishing
+
+- permission: anyone_readable
+- url: https://yitanger.feishu.cn/docx/HvDZd7YcBocZmJxVLI9cEZp8nMb
