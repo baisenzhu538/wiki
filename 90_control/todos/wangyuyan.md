@@ -354,3 +354,4 @@
 [2026-09-02 00:02] 🚀 已拉起 laowantong：#596 拆书会218卡组
 [2026-09-02 00:02] 🚀 已拉起 huangyaoshi：#598 BOM+健康雷达
 - [2026-09-02 00:07] ⛔ KDO 门禁拦截 2 次（gate-blocked）：2026-09-02 00:01:07｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-c…
+[2026-09-02 00:20] 🚀 值守换班 no_agent 看门狗 v5 上线（老朱拍板①）：clock_watchdog.py 每30min只探测不决策——队列三态×心跳/看板三段未划销/gate增量/队列骤降/文件清零岗哨；无事stdout空=SILENT，有事简报deliver=origin+落todos。实证：真实抓活（gate+2/三新单）+误报自修（REVIEW双报/ROLE_MAP ASCII盲区）+全静默验证0B；#597 skip登记（依赖#595终审收口，reviewed后放行）；欧阳锋在审#595（心跳42min窗内）；顺手修deliver=local回归→origin；旧LLM时钟00:00收官拍已交接（#596/#598在产）
