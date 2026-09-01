@@ -199,3 +199,7 @@
 - [2026-09-01 09:07] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-01 09:02:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cl
 
 2026-09-01 09:32 🕐 时钟值守拍（09:30）：全清——INBOX/PROPOSAL 0 未划销（role-liveness 09:02 laowantong 冷却重报已划销 commit 3647d22e9）；结构地图例行单搜 7 命中=同名单历史残留（老单冻结不回注）；产线 queued 1=#588 依赖 #587 维持暂缓、claimed 2=#587 名下等专项会话+#589 黄药师 vault 事故根因排查施工中（心跳在岗）、pending_review 0 不拉欧阳锋；心跳已写
+
+[2026-09-01 10:05] 🔬 #589 第一棒收工（proc_3bde9cdb8601，self-report 已核验属实）：USN 实锤 02:00-02:01 程序化两阶段批量删除（先 .git 元数据后工作树顶层，单秒 264 项精确保留 objects）——与同步盘 UpstreamDeleteProcessor 行为面高度同型；计划任务 223 全量排除/事件日志 0 事件/08-30 凌晨 wiki 子树 USN 零事件（双阴，老朱「前天出事」暂无证据复现，待现象对齐）。USN dump 1.15GB 留 C:/Windows/TEMP/usn_full.txt。防再发 bundle 未交付=未完工，第一棒诚实未提审。
+[2026-09-01 10:05] 🚀 已拉起 huangyaoshi：#589 第二棒续作（proc_100e1c07788a）——坚果云三件套铁证收口（沙箱全量/滚动日志9档/云端删除镜像；云端回收站需老朱账号则留指引）+bundle 计划任务交付+报告落盘提审。
+[2026-09-01 10:05] 📌 债务留档待老朱拍板：Desktop 6 个 .kdo_lint_baseline_* 残留工作树+wiki 内嵌套 wiki/ 影子仓（第一棒排查发现，只登记不清理）。
