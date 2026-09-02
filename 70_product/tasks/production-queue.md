@@ -250,7 +250,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 616 | `task_20260902_huangyaoshi-production-gate-enhancements` | 生产闸门三修：引号逐字对源+refs区间抽验（WARNING档先行）+claim抹字段bug+reviewer翻转通道（王语嫣限编排骨架单） | reviewed | huangyaoshi | 三处diff+回归用例×3+执行报告 | 无 | `60_feedback/tasks/task_20260902_huangyaoshi-production-gate-enhancements.md` | 欧阳锋伪引文模式建议书（09-02王语嫣裁定采纳）+#614翻转留痕同型第二例；小修不动状态机；欧阳锋终审 |
 | 617 | `task_20260902_laowantong-614-downgraded-cards-rework` | #614降级5卡内容返工：伪引文改转述/换真实原句+ten-metrics按源重写核心指标表+占位节补齐（FAIL点逐条在#614裁定表） | reviewed | laowantong | 5卡修复diff+FAIL点销项对账表 | #615 reviewed ✅ | `60_feedback/tasks/task_20260902_laowantong-614-downgraded-cards-rework.md` | #614降级5卡（09-02王语嫣编排）；引号对源新门禁已WARNING档在跑；只修FAIL点不顺手改；欧阳锋终审 |
 | 618 | `task_20260902_huangyaoshi-kdo-tests-flake-governance` | KDO测试flake治理：test_cli_smoke断言对齐现行schema+test_dashboard_server顺序依赖解耦+全量回归原样输出 | reviewed | huangyaoshi | 两处修复diff+全量回归输出 | 无 | `60_feedback/tasks/task_20260902_huangyaoshi-kdo-tests-flake-governance.md` | 欧阳锋建议书（09-02王语嫣漏扫9h后补裁定，E052复盘）；提审数字原样纪律随单生效；欧阳锋终审 |
-| 619 | `task_20260902_huangyaoshi-watch-inbox-pipeline-dirs-fix` | watch_inbox扫描面回补管线落点子目录白名单（wechat-collect/video_transcripts/video_transcripts_small）——#605裁剪误伤，05:47四件静默漏登记实证 | pending_review | huangyaoshi | diff+实跑登记证据 | 无 | `60_feedback/tasks/task_20260902_huangyaoshi-watch-inbox-pipeline-dirs-fix.md` | 老朱09-02问采集链→王语嫣实测发现第二环断；Handle等大目录继续排除；欧阳锋终审 |
+| 619 | `task_20260902_huangyaoshi-watch-inbox-pipeline-dirs-fix` | watch_inbox扫描面回补管线落点子目录白名单（wechat-collect/video_transcripts/video_transcripts_small）——#605裁剪误伤，05:47四件静默漏登记实证 | reviewed | huangyaoshi | diff+实跑登记证据 | 无 | `60_feedback/tasks/task_20260902_huangyaoshi-watch-inbox-pipeline-dirs-fix.md` | 老朱09-02问采集链→王语嫣实测发现第二环断；Handle等大目录继续排除；欧阳锋终审 |
 | 620 | `task_20260902_huangyaoshi-instance-naming-role-only` | 实例命名铁律落地：拉起器/状态机实例名去工具后缀（{role}-kimi→{role}），过渡期兼容在途旧名 | queued | huangyaoshi | diff+回归实证 | #619 收口后（防在途单锁失配） | `60_feedback/tasks/task_20260902_huangyaoshi-instance-naming-role-only.md` | 老朱09-02直令铁律（工具可换名字不挂工具）；queue_transition兼容旧名尾缀；欧阳锋终审 |
 | 621 | `task_20260902_huangyaoshi-toutiao-shortlink-regex-fix` | 头条短链is/XXX形态正则漏配致采集链断（老朱09-02 20:09链接卡死实证）——一行修复+端到端实跑验证 | claimed-huangyaoshi-kimi | huangyaoshi | diff+该链接落inbox实证 | 无（急单插队：线上在流血） | `60_feedback/tasks/task_20260902_huangyaoshi-toutiao-shortlink-regex-fix.md` | 老朱09-02晚问链接→王语嫣实测定位；失败不记seen设计保留；欧阳锋终审 |
 
@@ -474,7 +474,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#616 task_20260902_huangyaoshi-production-gate-enhancements｜huangyaoshi｜提审 09-02 12:08｜60_feedback/tasks/task_20260902_huangyaoshi-production-gate-enhancements.md~~ → 已终审 PASS A-（2026-09-02 欧阳锋）
 - ~~#617 task_20260902_laowantong-614-downgraded-cards-rework｜laowantong｜提审 09-02 13:00｜60_feedback/tasks/task_20260902_laowantong-614-downgraded-cards-rework.md~~ → 已终审 PASS A-（2026-09-02 欧阳锋）
 - ~~#618 task_20260902_huangyaoshi-kdo-tests-flake-governance｜huangyaoshi｜提审 09-02 22:07｜60_feedback/tasks/task_20260902_huangyaoshi-kdo-tests-flake-governance.md~~ → 已终审 PASS A（2026-09-02 欧阳锋）
-- #619 task_20260902_huangyaoshi-watch-inbox-pipeline-dirs-fix｜huangyaoshi｜提审 09-02 22:42｜60_feedback/tasks/task_20260902_huangyaoshi-watch-inbox-pipeline-dirs-fix.md
+- ~~#619 task_20260902_huangyaoshi-watch-inbox-pipeline-dirs-fix｜huangyaoshi｜提审 09-02 22:42｜60_feedback/tasks/task_20260902_huangyaoshi-watch-inbox-pipeline-dirs-fix.md~~ → 已终审 PASS A-（2026-09-02 欧阳锋）
 
 <!-- REVIEW-PENDING-END -->
 
@@ -832,6 +832,8 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~[gate-blocked] role-liveness｜09-02 22:17｜待王语嫣复核处置｜2026-09-02 22:17:00｜role-liveness｜fengqingyang 全实例疑似死亡（stale: [('kimi-cli', 2601.1)]）｜role_registry check-liveness｜role_registry~~ → 划销（09-02 22:40 王语嫣）：空窗误报，黄药师 22:31 已 claim #619 在产
 - [gate-blocked] task_20260902_huangyaoshi-watch-inbox-pipeline-dirs-fix｜09-02 22:47｜待王语嫣复核处置｜2026-09-02 22:41:38｜task_20260902_huangyaoshi-watch-inbox-pipeline-dirs-fix｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生 / - 未提交改动: kdo-tools/watch_inbox.py / - 未提交改动: kdo-tools/t｜huangyaoshi-kimi
 - [gate-blocked] role-liveness｜09-02 23:07｜待王语嫣复核处置｜2026-09-02 23:02:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 1266.7), ('cli', 796.7)]）｜role_registry check-liveness｜role_registry
+- prop_20260902_ouyangfeng-kdo-tools-pytest-root-runnable.md｜09-02 23:16｜待王语嫣复核裁定
+- [gate-blocked] task_20260902_huangyaoshi-toutiao-shortlink-regex-fix｜09-02 23:16｜待王语嫣复核处置｜2026-09-02 23:15:31｜task_20260902_huangyaoshi-toutiao-shortlink-regex-fix｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生 / - untracked: 00_inbox/wechat-collect/src_wechat_article_｜huangyaoshi-kimi
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |

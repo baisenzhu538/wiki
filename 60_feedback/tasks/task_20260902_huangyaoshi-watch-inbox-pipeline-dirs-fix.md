@@ -1,16 +1,19 @@
 ---
-id: task_20260902_huangyaoshi-watch-inbox-pipeline-dirs-fix
-title: watch_inbox 扫描面回补管线落点子目录（#605 裁剪误伤：wechat-collect 等管线落点出扫描面，05:47 四件静默漏登记实证）
-seq: 619
-status: pending_review
-assignee: huangyaoshi
-created_by: wangyuyan
-created_at: 2026-09-02
-decision_source: 老朱 09-02 问「偶遇→inbox→拉起工作流这条线正常吗」→ 王语嫣逐环实测发现第二环断裂
-reviewer: 欧阳锋
-instance: huangyaoshi-kimi
-updated_at: '2026-09-02T14:42:04.561864+00:00'
+id: task_20260902_huangyaoshi-watch-inbox-pipeline-dirs-fix
+title: watch_inbox 扫描面回补管线落点子目录（#605 裁剪误伤：wechat-collect 等管线落点出扫描面，05:47 四件静默漏登记实证）
+seq: 619
+status: reviewed
+assignee: huangyaoshi
+created_by: wangyuyan
+created_at: 2026-09-02
+decision_source: 老朱 09-02 问「偶遇→inbox→拉起工作流这条线正常吗」→ 王语嫣逐环实测发现第二环断裂
+reviewer: 欧阳锋
+instance: huangyaoshi-kimi
+updated_at: '2026-09-02T15:16:28.180328+00:00'
 evidence: 60_feedback/tasks/task_20260902_huangyaoshi-watch-inbox-pipeline-dirs-fix.md
+reviewed_by: 欧阳锋
+review_date: '2026-09-02'
+grade: A-
 ---
 
 # #619 watch_inbox 扫描面回补（黄药师）
@@ -60,3 +63,21 @@ evidence: 60_feedback/tasks/task_20260902_huangyaoshi-watch-inbox-pipeline-dirs-
 ### ③ 负向判词 / ④ 存在性核查
 
 ✅ 执行报告无负向断言词（检查面=执行报告节）
+
+## 终审记录（2026-09-02 欧阳锋）
+
+**结论：PASS A-**
+
+**版本对齐三问（代码单 #362 门禁）**：①入仓 ✓ commit `d93853fcf`（2026-09-02 22:41:58，三文件齐：watch_inbox.py +35/-8、test_watch_inbox.py +19、矩阵行9），工作区干净；②生效 ✓ 实跑登记证据在库——INBOX-PENDING L586-591 六件「检测到 09-02 14:39(UTC)=22:39 本地」，计划任务直接执行该文件，下一拍即新码；③对齐 ✓ 审对象为最新 commit 无窗口差。
+
+**验收要点核验（独立复跑，非采信报告）**：
+- 05:47 漏登记批次补登记 ✓ —— `ls 00_inbox/wechat-collect/` 实测 mtime 09-02 05:47 共 6 件（2404c165/346efef2/5291b61b/68004aec/e7536bf1/fe604398），全部在 production-queue.md INBOX-PENDING（L586-591，报告写 L583-588 系行号漂移，内容一致），**尺寸逐字节吻合**（7673/12295/3443/8473/15243/1126B 与 ls 输出一致）。任务单背景「四件」口径与实测 6 件的差，执行报告已自纠并说明，属实。
+- 大目录继续排除 ✓ —— INBOX-PENDING 全段 grep `Handle/|_vlm_output|knowledge/|_needs_rerun` 零命中；代码侧白名单四目录 + `_` 前缀段 + `knowledge/` 跳过逻辑与 docstring 一致（L52-55、L98-108）。
+- 幂等与防重复登记 ✓ —— `.kdo/inbox_state.json` 含 wechat-collect 全 17 键（含 08-31 陈旧 11 件播种键），陈旧件未冲入看板，只有 6 件新登记；EXCLUDE_DIRS 死常量确已移除。
+- 回归测试 ✓ —— `cd kdo-tools && python -m pytest tests/test_watch_inbox.py -q` 独立复跑 4 passed（含新增 `test_scan_whitelist_subdirs`）。
+
+**缺陷（🟡 不阻断）**：执行报告「验证」节所写命令 `python -m pytest kdo-tools/tests/test_watch_inbox.py -q` 从仓库根跑 collection 即 ModuleNotFoundError（无 on_duty，kdo-tools 下无 conftest.py 兜底 sys.path）——实际需在 kdo-tools 目录下跑。测试本体通过、功能核验无影响，属报告口径瑕疵+测试基建小缺口（已另落建议书）。
+
+**残余风险**：①未来新管线落点需手工加 SCAN_SUBDIRS（任务单已接受此口径）；②队列 L833 gate-blocked 行（E040，22:41:38 触发）系提交前 20 秒的门禁回声，commit 22:41:58 已覆盖——待王语嫣按 #618 先例划销；③6 件新登记素材的编排消费归王语嫣。
+
+**通过信息已抄送王语嫣收件箱。**
