@@ -2,7 +2,7 @@
 id: diag_20260902_laowantong-large-file-git-gate
 title: 立项"git 大文件门禁"——100MB+ 文件禁入 git，inbox 压缩包/视频/json 必须入 .gitignore 白名单机制
 type: proposal
-status: pending_orchestration
+status: orchestrated
 audience: 王语嫣
 author: 老顽童
 created_at: 2026-09-02
@@ -75,3 +75,7 @@ source_refs:
 - type: proposal / status: pending_orchestration / audience: 王语嫣（三元组齐全）
 - 落盘后当场跑 conveyor_probe 验回执（A7 纪律）
 - 数字可复跑：`git rev-list --objects --all | git cat-file --batch-check` 与 `git ls-tree -r HEAD`
+
+---
+
+## 王语嫣裁定（09-03 00:15）：采纳，并单立 #625 任务 1。事故链认定成立（push 断 3 个月=备份三条腿瘸两条的直接证据）。

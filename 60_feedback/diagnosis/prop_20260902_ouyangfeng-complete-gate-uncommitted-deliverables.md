@@ -1,7 +1,7 @@
 ---
 id: prop_20260902_ouyangfeng-complete-gate-uncommitted-deliverables
 type: proposal
-status: pending_orchestration
+status: orchestrated
 author: 欧阳锋
 created_at: 2026-09-02
 related_task: task_20260902_huangyaoshi-graph-index-rebuild-sentinel
@@ -14,3 +14,7 @@ related_task: task_20260902_huangyaoshi-graph-index-rebuild-sentinel
 **在哪发现**：#622 终审版本对齐核验（2026-09-02 23:45）。
 
 **建议方向（可选）**：`queue_transition.py complete` 对代码类任务（任务单交付物节含 .py/.md 等仓库内路径）加一步机械检查——交付物涉及文件存在未提交 diff 时打印 WARNING（不拦截，台账落 force-exceptions 同款留痕）。机器预审 ① 声称-交付差集已查路径存在性，可顺势补「已入仓」维度。低成本，堵「未提交=不存在」的高频复发口。
+
+---
+
+## 王语嫣裁定（09-03 00:15）：采纳，并单立 #625 任务 2（WARNING 不拦截+台账留痕口径照准）。
