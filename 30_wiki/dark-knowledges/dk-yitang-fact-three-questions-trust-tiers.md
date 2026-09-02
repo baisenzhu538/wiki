@@ -37,6 +37,7 @@ related:
 - '[[concept-kdo-component-library]]'
 - '[[concept-agent-university]]'
 - '[[concept-yihang-data-pack-ethics]]'
+- '[[case-truman-roi-decision-spring-festival-class]]'
 discoverable_by:
 - 事实三问
 - 信任等级

@@ -20,12 +20,13 @@ aliases:
 - 录播课加实时评论区
 - 决策分档案例
 - Live260 ROI搭档
+- Live260-AI口喷基本功内测candy-逐字稿
 source_person: Truman（一堂教研，Live260 内测 Candy 口喷原文+清单体版本）
 source_context:
 - ⚠️ 源素材自带传播限制标注「仅限内部不要外传」（原文重复 3 次）——本卡按 #322/#586/#611 先例双标注脱敏：保留决策过程结构与判断逻辑，内部业务细节抽象化；内部库可用，禁止外传、禁止公开发布
 - 素材为一等口述逐字稿（口喷原文）+ 同文件清单体整理版双形态；数字与比例为讲师自述，待独立核实
 source_refs:
-- 00_inbox/Live260-AI口喷基本功内测candy-逐字稿.md L23-L72（ROI 搭档口喷原文+清单体版本）
+- 00_inbox/Live260-AI口喷基本功内测candy-逐字稿.md:23-72
 related:
 - '[[dk-koupen-decision-tiering-compromise]]'
 - '[[tool-ai-koupen-training-partner-design]]'

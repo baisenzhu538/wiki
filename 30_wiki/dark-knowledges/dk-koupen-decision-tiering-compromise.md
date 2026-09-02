@@ -37,6 +37,7 @@ related:
 - '[[tool-yitang-sales-process-decomposition]]'
 - '[[method-storytelling-with-numbers]]'
 - '[[case-truman-spring-festival-1000]]'
+- '[[case-truman-roi-decision-spring-festival-class]]'
 discoverable_by:
 - 决策分档
 - 妥协决策

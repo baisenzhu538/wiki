@@ -46,3 +46,69 @@ updated_at: '2026-09-02T16:09:16.720941+00:00'
 
 - Live260 candy：源文 3 次标注「仅限内部不要外传」→ case 卡按 #322/#586/#611 先例**双标注**（source_context ⚠️ + 正文密级声明），案例抽象化脱敏
 - 探索营 candy：全文 grep「外传/内部/密」零命中（L226 唯一「内部」为 mem-input 判断逻辑正文）→ 不触发密级标注，正常引用
+
+## pre-submit 输出（2026-09-03 实测）
+
+```
+====================================================================
+  Pre-Submit Gate Report
+====================================================================
+  Files checked: 1
+  Passed:        1
+  Failed:        0
+
+  [YAML]: 0 issues
+  [WIKILINK]: 0 issues
+  [DOMAIN]: 0 issues
+  [DK_SECTION]: 0 issues
+  [OUTLINK]: 0 issues
+  [ALIASES]: 0 issues
+  [POSITION_DECLARATION]: 0 issues
+  [SOURCE_REACHABILITY]: 0 issues
+  [QUALITY_SCORE]: 1 info
+    📊 30_wiki/cases/case-truman-roi-decision-spring-festival-class.md
+       Quality pre-score: 55/100 | pos:N/A | tacit:5 (template?) | src:15 (1) | decomp:10 (2)
+  [BODY_SRC_UNKNOWN]: 0 issues
+  [VLM_TWO_SECTION]: 0 issues
+  [CONCEPT_CROSSCHECK]: 1 warnings
+    🟡 30_wiki/cases/case-truman-roi-decision-spring-festival-class.md
+       本卡涉及已有概念：Truman（权威定义见 [[concept-five-step-growth-to-barrier-transition]]）、科学决策（权威定义见 [[yt-management-scientific-decision]]）、六阶段（权威定义见 [[concept-truman-feature-six-stages]]）、关键假设（权威定义见 [[framework-lean-abcd-model]]）、学习闭环（权威定义见 [[ai-learning-closed-loop]]）——请人工核对与权威定义的一致性（#542 提示制不拦截；小昭事故根因 3 降档版）
+  [QUOTE_VERBATIM]: 0 issues
+  [SOURCE_RANGE]: 0 issues
+
+  ✅ Result: PASS（1 条 WARNING 在列——有警在身，非全清，终审前自行掂量）
+     下一步：贴本输出到任务单 → 提交 → 欧阳锋终审（WARNING 明细如实附上）
+====================================================================
+
+
+====================================================================
+  Files checked: 1
+  Passed:        1
+  Failed:        0
+
+  [YAML]: 0 issues
+  [WIKILINK]: 0 issues
+  [DOMAIN]: 0 issues
+  [DK_SECTION]: 0 issues
+  [OUTLINK]: 0 issues
+  [ALIASES]: 0 issues
+  [POSITION_DECLARATION]: 0 issues
+  [SOURCE_REACHABILITY]: 0 issues
+  [QUALITY_SCORE]: 1 info
+    📊 30_wiki/tools/tool-geo-ai-search-visibility-playbook.md
+       Quality pre-score: 55/100 | pos:N/A | tacit:5 (template?) | src:15 (1) | decomp:10 (2)
+  [BODY_SRC_UNKNOWN]: 0 issues
+  [VLM_TWO_SECTION]: 0 issues
+  [CONCEPT_CROSSCHECK]: 1 warnings
+    🟡 30_wiki/tools/tool-geo-ai-search-visibility-playbook.md
+       本卡涉及已有概念：知识管理（权威定义见 [[yt-management-team-knowledge]]）、与引用（权威定义见 [[rust-borrowing-references]]）、场景化（权威定义见 [[yt-pitch-scenarization]]）、方法论（权威定义见 [[concept-ji-hao-ai-collaboration-methodology]]）——请人工核对与权威定义的一致性（#542 提示制不拦截；小昭事故根因 3 降档版）
+  [QUOTE_VERBATIM]: 1 warnings
+    🟡 30_wiki/tools/tool-geo-ai-search-visibility-playbook.md
+       3 处声称逐字的引文在 source_refs 源文件中未逐字命中：「GEO/AIO 效果归因在国内未打通，结果付费模式存在客户争…」（原话/口述归因）、「GEO 结果付费 5 万元为口述市场询价…」（原话/口述归因）、「多来的线索哪个是 GEO 带来的…」（原话/口述归因）——伪逐字引文模式（#616/#614 实证：改写/拼贴不得包装成原话+行号），请核对源文件改为逐字引用或去掉引号
+  [SOURCE_RANGE]: 0 issues
+
+  ✅ Result: PASS（2 条 WARNING 在列——有警在身，非全清，终审前自行掂量）
+     下一步：贴本输出到任务单 → 提交 → 欧阳锋终审（WARNING 明细如实附上）
+====================================================================
+
+```

@@ -35,6 +35,7 @@ related:
 - '[[method-anthropic-skill-design-patterns]]'
 - '[[concept-agent-university]]'
 - '[[framework-muse-ai-full-map-v1]]'
+- '[[tool-geo-ai-search-visibility-playbook]]'
 discoverable_by:
 - laowantong
 - wangyuyan

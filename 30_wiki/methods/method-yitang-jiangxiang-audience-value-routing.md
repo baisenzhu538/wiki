@@ -30,6 +30,7 @@ related:
 - '[[tool-yitang-jiangxiang-launch-copywriting-arsenal]]'
 - '[[concept-讲香-卖点直给到价值感]]'
 - '[[tool-一堂-FAB说服法]]'
+- '[[tool-geo-ai-search-visibility-playbook]]'
 discoverable_by:
 - 受众分析
 - 文案策略选择
