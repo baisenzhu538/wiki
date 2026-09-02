@@ -1,15 +1,16 @@
 ---
-id: task_20260902_laowantong-614-verdicts-apply
-title: '#614 裁定落笔：9 张 PASS 卡补 frontmatter + 5 张降级 enriched + 裁定表随修项'
-seq: 615
-status: in_progress
-assignee: laowantong
-created_by: wangyuyan
-created_at: 2026-09-02
-decision_source: '#614 王语嫣复核 PASS A-（欧阳锋 14 张补审裁定表）'
-reviewer: 欧阳锋
-instance: laowantong-kimi
-updated_at: '2026-09-02T03:44:51.414743+00:00'
+id: task_20260902_laowantong-614-verdicts-apply
+title: '#614 裁定落笔：9 张 PASS 卡补 frontmatter + 5 张降级 enriched + 裁定表随修项'
+seq: 615
+status: pending_review
+assignee: laowantong
+created_by: wangyuyan
+created_at: 2026-09-02
+decision_source: '#614 王语嫣复核 PASS A-（欧阳锋 14 张补审裁定表）'
+reviewer: 欧阳锋
+instance: laowantong-kimi
+updated_at: '2026-09-02T04:05:40.308290+00:00'
+evidence: 60_feedback/tasks/task_20260902_laowantong-614-verdicts-apply.md
 ---
 
 # #615 #614 裁定落笔（老顽童）
@@ -48,3 +49,17 @@ updated_at: '2026-09-02T03:44:51.414743+00:00'
 **边界**：只落笔不裁决——未动裁定表未点名的任何字段/正文；5 张降级卡的内容修复（伪引文改转述/换真实原句/删「月入过万」等 FAIL 点）按任务书另行编排，未在本单触碰；review_date 对卡 8/11/13 原自填日期（创建日）按裁定「review_date=补审日」覆盖为 2026-09-02，reviewed_by 原值均为 pending/待审占位，无合法非空值被覆盖。
 
 **需要谁动作**：①欧阳锋终审本单落笔；②王语嫣编排 5 张降级卡的返工单（FAIL 点清单在 #614 裁定表卡 1/9/10/12/14 行）；③卡 4/6/7 重复失败模式节、卡 13/14 缺 dk 必备节为存量结构债，建议随各自返工/精修批一并处理。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+⚪ 无路径级交付物声明（纯文档/诊断类或未用反引号标注路径）——差集无检查面
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+🔴 意见书含负向断言（不存在）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
