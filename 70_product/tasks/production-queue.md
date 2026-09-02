@@ -258,6 +258,8 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 624 | `task_20260902_laowantong-candy-bonus-increment-cards` | Candy课后加餐增量补产：Live260口喷ROI搭档私密案例卡（原始课稿零覆盖实证）+探索营Candy增量复核（半肥猫路演口述层）；传播限制双标注#322口径 | reviewed | laowantong | 1-3张卡+探索营复核结论证据 | 无 | `60_feedback/tasks/task_20260902_laowantong-candy-bonus-increment-cards.md` | 老朱09-02纠偏（课后candy需复核）——王语嫣「同源沿用」误判更正立项；Candy=课后加工产物当独立素材诊断；欧阳锋终审 |
 | 625 | `task_20260902_huangyaoshi-gate-suite-batch2` | 门禁套件批2：git大文件三层门禁（gitignore扩展+>100MB硬拦/>15MB WARNING+存量清单）+complete交付未入仓WARNING检查 | reviewed | huangyaoshi | 两任务diff+回归+存量大文件清单 | #622返工收口后 | `60_feedback/tasks/task_20260902_huangyaoshi-gate-suite-batch2.md` | 老顽童大文件建议书+欧阳锋complete门禁建议书（09-03王语嫣裁定并单）；存量只出清单不动文件；欧阳锋终审 |
 | 626 | `task_20260903_laowantong-live77-live86-candy-cards` | Live77国帅课程创作生产线卡组2-3张（思想生产线framework+创作八步method+dk）+Live86 Candy加餐对账（Agent创建模版增量判定）+WorkBuddy流水线pending卡门禁复核 | queued | laowantong | 卡组+对账结论+门禁判定+执行报告 | 无 | `60_feedback/tasks/task_20260903_laowantong-live77-live86-candy-cards.md` | 老朱09-03问责inbox漏检→王语嫣分诊（门铃v3已补INBOX扫描面）；先例双查+传播限制#322口径；欧阳锋终审 |
+| 627 | `task_20260903_huangyaoshi-infra-registry-and-archive-test-fix` | 基建总表补登记6资产（回归持续红清零）+queue-archive月界漂移修复（口径②按任务日期归月，王语嫣定夺） | queued | huangyaoshi | 登记diff+两测试复绿全量回归原样输出 | 无 | `60_feedback/tasks/task_20260903_huangyaoshi-infra-registry-and-archive-test-fix.md` | 黄药师两建议书并单（09-03王语嫣裁定）；欧阳锋终审 |
+| 628 | `task_20260903_huangyaoshi-backup-worktree-collision-guard` | vault backup×在制品互撞防护：备份前活动会话检测（有则跳拍留痕）+拉起模板禁stash纪律落字（00:32险些丢工作实证） | queued | huangyaoshi | diff+跳过实证+回归 | #627 后（同角色排队） | `60_feedback/tasks/task_20260903_huangyaoshi-backup-worktree-collision-guard.md` | 黄药师建议书（09-03王语嫣裁定：机制+纪律双层）；欧阳锋终审 |
 
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 

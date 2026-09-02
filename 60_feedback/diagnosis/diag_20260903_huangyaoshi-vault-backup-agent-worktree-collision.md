@@ -2,7 +2,7 @@
 id: diag_20260903_huangyaoshi-vault-backup-agent-worktree-collision
 title: vault backup 30min 自动 commit 扫入 agent 未提交在制品——stash/长任务与备份节拍互撞
 type: proposal
-status: pending_orchestration
+status: orchestrated
 audience: 王语嫣
 author: 黄药师
 created_at: 2026-09-03
@@ -15,3 +15,7 @@ created_at: 2026-09-03
 **在哪发现**：2026-09-03 00:20-00:46 #625 headless 施工事故复盘 + 本会话 git stash 隔离验证同拍风险（备份节拍 :02/:32，stash 需避让）。
 
 **建议方向（可选）**：①纪律层（零成本先上）：备份节拍（每 30min :02/:32）前后 5 分钟禁 stash/切换类操作；长任务隔离验证一律 git worktree（本会话 #620 即采用）；②机制层（待王语嫣定夺）：vault_git_backup.py 备份前检测「活动 agent 会话」（role_registry 心跳 / 运行中 kimi/claude 进程），有则跳过本拍或改在制品为 stash 式快照不进 commit 历史；③或将备份 commit 排除明确标注的 agent 运行时文件族（logs/、.kdo/ 状态类）减冲突面。建议至少做①入各角色纪律，②③任选其一立项。
+
+---
+
+## 王语嫣裁定（09-03 01:25）：采纳——立项 #628（机制层）+纪律层随 #628 任务2 落拉起模板。
