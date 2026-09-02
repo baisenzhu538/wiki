@@ -1,0 +1,166 @@
+kimi version 0.39.1
+• Start with required reads.
+
+• 先做启动恢复，读取指定文件。
+
+• Startup done. Now claim task #612. First find the task file. Let's check queue status and claim #612, and read 90_control/AGENTS.md as suggested.
+
+• 启动恢复完成。接下来查 #612 任务单并领取。
+
+• Find #612 task file. Search production-queue or task files.队列总任务数: 196
+queued: 2
+claimed: 0
+pending_review: 0
+任务 612 不在生产队列中
+Claim failed: "任务 612 不在生产队列中". Maybe claim takes task_id not seq. Try with the task id.✅ task_20260902_huangyaoshi-gate-suite-fixes 已领取为 claimed-huangyaoshi-kimi
+
+✅ dashboard.html 已生成 (196 个任务)
+   待领取: 1  |  审查中: 0  |  进行中: 1  |  已完成: 194
+Claimed. Now find the gate code. `queue_gate.py:308` — find it.Now task 1: F-036 negation false positive. `check_issue_disposition` at queue_gate.py:303. Lines containing 🟠/🟡 even in negation ("不落 🟠/🟡") get counted. Fix per 欧阳锋口径： low-cost first — add hint in error message "否定句勿写 emoji 字样"; if easy, add negation-context exemption. Spec says "你定，执行报告写明选型理由".
+
+  Let me decide: negation exemption with preceding words like 不落/不构成/无. Better to check per-line: a line with 🟠/🟡 that is a negation statement should be exempt. Implementation: check lines containing 🟠/🟡; if all such lines match negation pattern (e.g. 不落|不构成|无|不标|不算|≠ before the emoji), treat as no issue.
+
+  But careful: "无 🟠/🟡 级问题" — negation. Keep it simple: define NEGATION_PREFIXES = ("不落", "不构成", "无", "不标", "不算", "非", "≠", "没有"). A line is negated if any negation word appears before the emoji occurrence in that line.
+
+  Then if no non-negated emoji lines remain → pass. Also update error message to include hint "否定句勿写 emoji 字样（或用否定豁免词：不落/不构成/无）" per 欧阳锋's copy suggestion.
+
+  Need to find where check_issue_disposition is called — in queue_transition.py gate and conveyor_probe 第七信号. Both share this function, good.
+
+  Task 2: review pass reminder. In queue_transition.py review command, verdict=pass: if task file's 「交付物」 section contains 30_wiki card paths, print reminder "N 张交付卡待 review_mark 转正".
+
+  Need to look at the review function in queue_transition.py. Let me find it.Now I understand the code. Plan the two fixes.
+
+  **Task 1 (F-036 negation exemption)** in `queue_gate.py::check_issue_disposition`:
+
+  Current logic: if 🟠/🟡 anywhere and no hint word → block. False positive: lines like "不落 🟠/🟡" declare "not marking" but get blocked.
+
+  Fix decision: implement negation exemption. Approach: for each line containing 🟠 or 🟡, check if the emoji occurrence is preceded by a negation word in the same line ("不落", "不构成", "无", "不标", "不算", "没有", "≠", "非"). If ALL emoji-containing lines are negations → treat as no issue (pass). Also update the error message to mention the negation rule per 欧阳锋's copy hint: 「否定句勿写 emoji 字样」.
+
+  Wait — 欧阳锋's preferred fix was "门禁报错文案加提示「否定句勿写 emoji 字样」；若改动小可加否定语境豁免". The exemption is small. I'll do both: exemption + updated message.
+
+  Implementation detail: need to determine whether each 🟠/🟡 occurrence is in negation context. Simple: for each line, split; check if any negation token appears before the first emoji in that line. Negation tokens: ("不落", "不构成", "无", "不标", "不算", "没有", "≠", "不涉及", "不判", "不记"). Hmm "无" alone is risky — "无 🟠 级问题" is negation. "无" before emoji within short distance. Keep it simple per spec: 「不落/不构成/无」前挂词.
+
+  Let me write:
+
+  ```python
+  # 否定语境豁免词（#612：「不落 🟠」「不构成 🟡 级问题」类声明不标记句≠问题条目，
+  # 前挂否定词的 emoji 行不计入判定——2026-09-02 欧阳锋口径，#608 被连拦两轮实证）
+  NEGATION_PREFIXES = ("不落", "不构成", "不算", "不标", "不判", "不记", "不涉及", "无", "没有", "非", "≠")
+
+  def _is_negated_emoji_line(line: str) -> bool:
+      """emoji 出现位置之前存在否定前挂词 → 该行为否定声明句，不算问题条目。"""
+      for emoji in ("🟠", "🟡"):
+          idx = line.find(emoji)
+          if idx == -1:
+              continue
+          prefix = line[:idx]
+          if any(neg in prefix for neg in NEGATION_PREFIXES):
+              return True
+      return False
+  ```
+
+  Hmm, but a line could contain both 🟠 and 🟡, one negated one not. Edge case; keep simple: line is negated if... Actually simpler robust: a line counts as issue line only if it contains an emoji NOT preceded by negation. Let me implement: for each emoji occurrence in line, check if any negation word appears within, say, the preceding 20 chars. If at least one occurrence is non-negated → line is an issue line.
+
+  Then in check_issue_disposition:
+
+  ```python
+  issue_lines = [l for l in opinion_text.splitlines() if _has_non_negated_emoji(l)]
+  if not issue_lines:
+      return True, ""
+  if any(h in opinion_text for h in ISSUE_DISPOSITION_HINTS):
+      return True, ""
+  ...
+  ```
+
+  Also the message update: append "；否定句（不落/不构成/无）请勿写 emoji 字样，或用否定前挂词触发豁免".
+
+  Wait, careful about "无" — too broad? "无" appears in many words: "无论", "无误"... "无论 🟠 问题是否..." Actually if "无" precedes the emoji in same line, like "无需标记 🟠" — that's negation, fine. Risky false-negative: "暂无落点：🟠 xxx" — "无" in "暂无" would exempt an actual issue! Hmm. "暂无落点 🟠" would be wrongly exempted. But would a reviewer write that? The hint words check still applies after. Risk exists but small. To reduce, require negation word immediately before emoji within a window of, say, 12 chars, and exclude when followed by context... Keep simple: window of preceding 10 chars. "暂无落点：🟠" — "无" within 10 chars before emoji → would exempt. Hmm.
+
+  Alternative: use multi-char negation tokens that are unambiguous: "不落", "不构成", "不算", "不标", "不判", "不记", "不涉及", "没有", "无🟠"... Actually "无 🟠" pattern: "无" followed by optional space then emoji directly. So token check: regex like `(不落|不构成|不算|不标|不判|不记|不涉及|没有|非|无)\s*[🟠🟡]` — negation word immediately (or with whitespace) before emoji. "暂无落点 🟠" — "点" immediately before emoji, not a negation word → not exempt. "无 🟠/🟡 级问题" — "无" directly before 🟠 → exempt. 
+
+  But "不落 🟠/🟡" — "落" precedes 🟠 directly with space; "不落" matches if we allow space between token and emoji: `(不落|不构成|...|无)\s*[🟠🟡]`. "不落 🟠" → "不落" + " " + "🟠" matches. Good. What about "不标记为 🟠"? Not matched — acceptable, message hint tells them.
+
+  Also "≠" — skip, low value.
+
+  So:
+
+  ```python
+  NEGATION_EMOJI_RE = re.compile(r"(?:不落|不构成|不算|不标|不判|不记|不涉及|没有|无|非)\s*[🟠🟡]")
+  ```
+
+  Check emoji presence AFTER removing negation matches:
+
+  ```python
+  stripped = NEGATION_EMOJI_RE.sub("", opinion_text)
+  if "🟠" not in stripped and "🟡" not in stripped:
+      return True, ""
+  ```
+
+  That's clean and minimal. And the sample lines extraction similarly uses stripped text? The sample lines from original text are fine but might include negated lines; better to compute lines from stripped text. Keep simple: use stripped for line extraction too.
+
+  Also does queue_gate.py import re? Check the header. Also check conveyor_probe's 第七信号 uses check_issue_disposition from queue_gate (shared truth source, no copy) — comment says so. Good.
+
+  **Task 2 (review pass card reminder)** in queue_transition.py action_review, verdict == "pass" branch: after apply_updates, scan task file's 交付物 section for paths matching `30_wiki/...md`, count them, and if >0 append reminder to the success message: "📌 提醒：N 张交付卡待 review_mark 转正：..." 
+
+  There's already `_extract_deliverable_paths` at line 730 extracting backtick-quoted paths from the 交付物 section. Reuse it! Let me read lines 701-830 to see those helpers.
+
+• 看交付物提取辅助函数，复用已有逻辑。
+
+• I have what I need. Now implement:
+
+  **Task 1** in queue_gate.py — modify `check_issue_disposition`:
+
+  ```python
+  # F-036 否定语境豁免（#612）：「不落 🟠」「不构成 🟡 级问题」「无 🟠/🟡」类
+  # 否定声明句的 emoji 字样不计入问题条目判定——emoji 字面出现≠标记问题
+  # （实证：#608 终审被连拦两轮，删字样才放行。欧阳锋口径：否定前挂词豁免）
+  _NEGATION_EMOJI_RE = re.compile(r"(?:不落|不构成|不算|不标|不判|不记|不涉及|没有|无|非)\s*[🟠🟡]")
+
+
+  def check_issue_disposition(opinion_text: str) -> tuple[bool, str]:
+      """..."""
+      stripped = _NEGATION_EMOJI_RE.sub("", opinion_text)
+      if "🟠" not in stripped and "🟡" not in stripped:
+          return True, ""
+      if any(h in opinion_text for h in ISSUE_DISPOSITION_HINTS):
+          return True, ""
+      lines = [l.strip() for l in stripped.splitlines() if "🟠" in l or "🟡" in l]
+      sample = "；".join(l[:60] for l in lines[:3])
+      return False, (f"审查发现问题未给落点（F-036）：{sample}——"
+                     "必须在意见书注明去向（建议书路径 / 停车场 F-xxx / 任务单立项），否则终审不闭环"
+                     "；否定句（不落/不构成/无……）勿写 emoji 字样，或写成「不落 🟠」式前挂否定词触发豁免")
+  ```
+
+  Check queue_gate.py imports re — yes, likely (uses re elsewhere). I'll check quickly when editing.
+
+  **Task 2** in queue_transition.py `action_review` pass branch: after success, extract 30_wiki card paths from 交付物 section and add reminder. Reuse `_extract_deliverable_paths(report, task_file.name)` then filter `norm.startswith("30_wiki/")`. Need report text: body = task_file.read_text; report = _extract_exec_report(body). Check _extract_exec_report exists (line 779 uses it). Yes.
+
+  In pass branch:
+
+  ```python
+              # #612 任务2：review_mark 漏转正二次复发（#586/#596，E018 家族）——
+              # 终审通过时若交付物含 30_wiki 卡片，提醒执行方补 review_mark 转正。
+              # 只提醒不自动转正（自动转正=代写卡片 frontmatter，越权限边界，不做）
+              remind = ""
+              try:
+                  _body = task_file.read_text(encoding="utf-8", errors="ignore")
+                  _report = _extract_exec_report(_body)
+                  cards = [p for p in _extract_deliverable_paths(_report, task_file.name)
+                           if p.startswith("30_wiki/") and p.endswith(".md")]
+                  if cards:
+                      remind = (f"\n📌 提醒：{len(cards)} 张交付卡待 review_mark 转正："
+                                + "、".join(cards[:5])
+                                + ("……" if len(cards) > 5 else "")
+                                + "（请按卡生产规范回填 review_mark 状态）")
+              except Exception:
+                  pass
+              return True, f"✅ {task_id} 终审通过，状态更新为 reviewed{grade_note}{remind}"
+  ```
+
+  Wait — is _extract_exec_report defined before action_review (line ~1209)? It's used at 779, so defined before ~779. Yes.
+
+  But note the message text "请按卡生产规范回填" — what is review_mark exactly? The task says 「交付物」含 30_wiki 卡片路径 → 输出提醒「N 张交付卡待 review_mark 转正」. Keep close to spec wording: "📌 提醒：N 张交付卡待 review_mark 转正（终审通过不自动转正——自动转正涉及代写卡片 frontmatter 权限边界，请手动处理）：<paths>".
+
+  **Regression tests**: 红线 says each fix gets a regression case. Where are tests? Check 90_control/scripts/tests or kdo-tools/tests. Let me search for existing tests for queue_gate / queue_transition.
+
+• 查现有测试文件位置，确定回归用例落点。

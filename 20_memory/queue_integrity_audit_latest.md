@@ -1,10 +1,10 @@
 # 队列完整性审计报告
 
 - 审计范围: `C:\Users\Administrator\Desktop\wiki\60_feedback\tasks`, `C:\Users\Administrator\Desktop\wiki\70_product\tasks`
-- reviewed 任务单总数: 473
-- 任务单元数据异常数: 33
+- reviewed 任务单总数: 545
+- 任务单元数据异常数: 36
 - 队列/任务单状态不一致数: 3
-- 队列解析行数: 128
+- 队列解析行数: 196
 - 无法解析队列行数: 0（#456：行数异常禁静默跳过，列此清单）
 
 ## 任务单元数据异常列表（缺 review_date / reviewer / review 文件）
@@ -41,6 +41,9 @@
 - `task_20260809_wangyuyan-external-agent-feedback-loop`: reviewed 但缺少 review_date
 - `task_20260809_wangyuyan-external-agent-feedback-loop`: reviewed 但缺少 reviewer/reviewed_by
 - `task_20260809_wangyuyan-external-agent-feedback-loop`: reviewed 但无对应 review/audit 文件且无review_date
+- `544`: reviewed 但缺少 review_date
+- `544`: reviewed 但缺少 reviewer/reviewed_by
+- `544`: reviewed 但无对应 review/audit 文件且无review_date
 
 ## 队列/任务单状态不一致（双向）
 ### 队列已 reviewed，但任务单未 reviewed

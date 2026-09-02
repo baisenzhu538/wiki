@@ -2,9 +2,9 @@
 id: case-yitang-eason-truth-delivery-audit
 title: 一堂 Eason 文化审计案——AI Agent 伪造署名交付的完整审计与处理实录
 type: case
-status: draft
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: high
 language: zh-CN
@@ -64,8 +64,8 @@ quality_labels:
 - insight
 - actionable
 - principle
+review_date: 2026-09-02
 ---
-
 # 一堂 Eason 文化审计案——AI Agent 伪造署名交付的完整审计与处理实录
 
 > ⚠️ **传播限制标注：源文档密级 🔴「CHO 私有——仅限 Truman 审阅」。本卡已按任务单 #611 边界节与 #322/#586 先例脱敏（方法论与事件结构保留，组织内可识别细节抽象化），仅限内部知识库使用，禁止外传、禁止作为公开发布素材。**

@@ -392,3 +392,227 @@ kdo-conveyor-probe.cmd
 Probe didn't show my file. Check probe usage/output.C:\Program Files\Python312\python.exe: can't open file 'C:\\Users\\Administrator\\Desktop\\wiki\\90_control\\scripts\\conveyor_probe.py': [Errno 2] No such file or directory
 ./90_control/kdo-seed/seed/kdo-tools/conveyor_probe.py
 ./kdo-tools/conveyor_probe.py
+./90_control/kdo-seed/seed/kdo-tools/kdo-conveyor-probe.cmd
+./kdo-tools/kdo-conveyor-probe.cmd
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-02 08:48:50｜task_20260902_laowantong-yitang-methodology-batch-
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#608——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#610——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → 🔔 KDO 新提审 1 单：#582，请终审
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 1 / near-miss 2 / 通知 1 条 / 活性实例 10（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+"新登记 1" — my proposal was registered (the near-miss 2 are pre-existing other files). ✅ Receipt verified.
+
+  Now retry the review transition.
+
+• 探针回执：新登记 1（建议书已在册）✅。重跑 review 流转：✅ task_20260902_laowantong-yitang-methodology-batch-cards 终审通过，状态更新为 reviewed，等级 A-
+✅ dashboard.html 已生成 (194 个任务)
+   待领取: 0  |  审查中: 0  |  进行中: 0  |  已完成: 194
+
+
+• Review passed. Now O4 四处同步 verification:
+  1. 任务单 frontmatter status/reviewed_by/review_date — script should have patched. Verify.
+  2. production-queue.md row — verify reviewed.
+  3. dashboard — script generated dashboard.html (194 tasks). Fine.
+  4. Card frontmatter: two new cards need status: reviewed, reviewed_by: 欧阳锋, review_date: 2026-09-02. Use review_mark.py or manual edit.
+
+  Also queue REVIEW-PENDING section should have #611 struck. Verify via grep.
+
+  Let me check task file frontmatter + queue row, then update the two cards.
+
+• 流转成功。O4 对账：核查队列行、任务单 frontmatter，再补两张新卡的 reviewed 元数据：---
+id: task_20260902_laowantong-yitang-methodology-batch-cards
+title: 一堂方法论族卡组 5 件（MUSE 数据包 / 高阶Skill设计指南 / Agent大学设想 / Jovida 双报告 / Eason审计🔴）
+seq: 611
+status: reviewed
+assignee: laowantong
+created_by: wangyuyan
+created_at: 2026-09-02
+decision_source: inbox 01:51 批次分诊（diag_20260902_wangyuyan-inbox-batch-42 族B，老朱 0831/0901
+  直令高价值素材直接编排产卡）
+reviewer: 欧阳锋
+source_refs:
+245:| 611 | `task_20260902_laowantong-yitang-methodology-batch-cards` | 一堂方法论族卡组5-7张：MUSE数据包framework+高阶Skill设计指南tool+Agent大学case+Jovida双报告case+Eason审计case+dk（🔴传播限制#322先例） | reviewed | laowantong | 5-7张卡+传播限制标注清单+互链实证 | #610 后（同角色排队） | `60_feedback/tasks/task_20260902_laowantong-yitang-methodology-batch-cards.md` | inbox 01:51批次分诊族B（diag_20260902_wangyuyan-inbox-batch-42）；素材=二等整理件标注；Eason审计🔴密级拿不准先问王语嫣；欧阳锋终审 |
+458:- ~~#611 task_20260902_laowantong-yitang-methodology-batch-cards｜laowantong｜提审 09-02 08:27｜60_feedback/tasks/task_20260902_laowantong-yitang-methodology-batch-cards.md~~ → 已终审 PASS A-（2026-09-02 欧阳锋）
+553:- ~~00_inbox/学习candy合集/审计：Eason文化审计与实事求是DataPack.md｜P2｜19790B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：已立项 #611（🔴密级传播限制标注 #322 先例）
+556:- ~~00_inbox/学习candy合集/指南：高阶 Skill 设计指南.md｜P2｜23837B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：已立项 #611
+557:- ~~00_inbox/学习candy合集/数据包：MUSE模型.md｜P2｜35685B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：已立项 #611（上位框架级资产）
+
+
+• Queue + task file synced ✅ (status: reviewed, queue row reviewed, REVIEW-PENDING struck). Task frontmatter — did the script add reviewed_by/review_date? head -12 cut off before those fields. Let me check. Also update the two new cards' frontmatter.status: reviewed
+reviewed_by: 欧阳锋
+review_date: '2026-09-02'
+Task file frontmatter synced ✅. Now the two new cards: set status: reviewed, reviewed_by: 欧阳锋, review_date: 2026-09-02. Try review_mark.py, else manual edits.
+
+• 任务单三处同步齐。补两张新卡的 reviewed 元数据：usage: review_mark.py [-h] [--reviewer REVIEWER] [--confidence CONFIDENCE]
+                      [--dry-run]
+                      card
+
+Mark card as reviewed
+
+positional arguments:
+  card                  Card path relative to vault root
+
+options:
+  -h, --help            show this help message and exit
+  --reviewer REVIEWER
+  --confidence CONFIDENCE
+  --dry-run
+
+
+  status: reviewed
+  reviewed_by: 欧阳锋
+  review_date: 2026-09-02
+  status: reviewed
+  reviewed_by: 欧阳锋
+  review_date: 2026-09-02
+• Cards marked. Now refresh index (my MUSE edit + card status changes): `kdo index --incremental`? Producer used that. Let me check kdo index options quickly and run. Then commit? Vault auto-backup commits periodically; #608's review noted vault backup auto-commit. Do I need to commit manually? "工具 commit 收口失败时手动补 commit（E040 未 commit=未发生）" — that was for batch accept tool. For review flow, previous entries (#608) didn't mention manual commit; vault backup auto-commits. I'll leave to auto-backup but could commit to be safe. Actually E040 spirit: 未commit=未发生 for deliverables. The review transition script itself likely committed (dashboard generated). Let me check git status to see what's uncommitted, and just leave the vault backup to handle, or do a quick commit of the changed files. Safer: commit the 5 changed files (task file, 2 cards, MUSE card, queue, proposal, dashboard.html?). Hmm — DO NOT git commit unless explicitly asked. System rule: no git mutations without explicit ask. But vault backup auto-commit is the environment's own mechanism — fine, leave it. Don't manually commit.
+
+  Wait — but earlier todos entry for #608 review said "交付物已入仓 commit" was producer's duty. For review artifacts, auto-backup covers it. OK.
+
+  Run index incremental.Incremental: +0 ~3 -0 (total 4177) -> C:\Users\Administrator\Desktop\wiki\.kdo\search_index.json
+Index refreshed (~3 updated = my 3 edited cards presumably). Now:
+  1. Append todos line to 90_control/todos/ouyangfeng.md.
+  2. Skill evolution log line.
+  3. Truman 11-chapter daily-context + save script.
+
+  First the todos line. Current time ~08:50. Let me get the actual time.
+
+• 索引已刷新（~3 更新）。落 todos 完工行：2026-09-02 08:51
+
+
+- [2026-09-02 08:42] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#611（laowantong 的单，挂审 15min）（事件驱动：有待终审）
+- [2026-09-02 08:51] ✅ #611 终审 PASS A-（task_20260902_laowantong-yitang-methodology-batch-cards）：O0 源文档 440 行全量对账（时间线/4 值/7 坑/80%% 估计值全命中）；🔴脱敏口径达标（双标注合 #322 先例且更严）；KDO 同构映射表 5 行全部独立核实属实（E018/写审分离/P-28/E019×6/L9）；pre-submit 独立复跑 2/2 PASS+15 链零缺失+3 反向补链实证；arXiv 2606.04990 存在性已验。WAIC 裁定=建链成立（口径同 v1.0 反 V3.0），已补 MUSE 卡一行同族素材注记（纯文本路径避死链），reviewed 保留。瑕疵不阻断：🔵CHO 方案第 6 条编号合并有滑/🟠arXiv"六大功能"表述待校准（放行+TODO）。观察：framework-muse-ai-full-map-v1 status=reviewed 但 reviewed_by=pending（#586 批残留）→最小建议书 prop_20260902_ouyangfeng-muse-reviewed-by-pending-residue 已落并验探针回执（新登记 1）。四处同步齐+两新卡 review_mark 落元数据+index 增量 4177
+• The printf with %% — the line shows "80%%" double percent. printf '%s\n' doesn't interpret %, so my %% stayed as %%. Minor cosmetic issue. Fix it with Edit.fixed
+Now session-end mandatory actions:
+  1. 技能进化日志一行 → 桌面/agent复盘/欧阳锋/技能进化日志.md (note: capital 欧阳锋 per ouyangfeng-context; AGENTS.md said huangyaoshi for builder but I'm ouyangfeng — my context says 桌面/agent复盘/ouyangfeng/daily-context/ for daily context, and 技能进化日志 at 桌面/agent复盘/欧阳锋/技能进化日志.md. Inconsistent casing — check what exists on disk.
+  2. Truman 11章复盘 → 桌面/agent复盘/ouyangfeng/daily-context/2026-09-02.md
+  3. daily-context-save.py save --agent ouyangfeng --truman --file ...
+
+  桌面 = C:\Users\Administrator\Desktop. Check existing dirs.AI基本功教练
+Kimi
+README.md
+_archive
+codebuddy
+codex
+duanwangye
+fengqingyang
+hongqigong
+huangyaoshi
+kimi-code
+laowantong
+ouyangfeng
+wangyuyan
+教练式领导力助理
+欧阳锋
+段王爷
+洪七公
+科学开会助理
+老顽童
+销售对话参谋
+黄药师
+DEPRECATED.md
+cn-track-archive-20260819
+daily-context
+friction-log.md
+技能进化日志.md
+用户反馈档案.md
+索引.md
+能力雷达图.md
+错误模式库.md
+---
+2026-08-26.md
+2026-08-27.md
+2026-08-29.md
+2026-08-31.md
+2026-09-02.md
+---
+# DEPRECATED — 本目录已冻结（#367，2026-08-19）
+
+> 双轨目录收敛：拼音轨为唯一真相源（`agent复盘/<pinyin>/`）。
+> 本目录停止写入，观察期 7 天（2026-08-19 起），无新写入后归档删除。
+> 原内容已完整移入拼音轨 `cn-track-archive-20260819/`（零丢失，124 文件全量留痕）。
+> 真相源见 `wiki/20_memory/memory-registry.md` 表 1。
+DEPRECATED.md
+Pinyin track `ouyangfeng/` is the truth source. There's already a 2026-09-02.md in daily-context — from another instance today probably. Per命名铁律: 同日多实例=同一 YYYY-MM-DD.md 追加. So I should append to the existing 2026-09-02.md? Or check what's in it. Let me read its tail to see structure, then append my 11-chapter retro.
+
+  Also check agent-os.md §10.2 for the 11-chapter format. And the 技能进化日志 is at ouyangfeng/技能进化日志.md (pinyin track).
+
+  Let me read the existing 2026-09-02.md tail and the format spec.## 补记3-1. 任务与差异
+
+指令=终审 #608（黄药师 image_detail 死循环修复，07:48 提审，小改单点）+ 流转后落 todos。差异=零：PASS A，一处未预期的 F-036 门禁拦截（两轮），转化为最小建议书。
+
+## 补记3-2. 新资产
+
+- 任务单「## 终审记录」节（O9 先意见书后脚本）
+- 建议书 `60_feedback/diagnosis/diag_20260902_ouyangfeng-f036-gate-negation-false-positive.md`（F-036 否定句 emoji 误伤；回执已验：队列 PROPOSAL-PENDING 段 L791 在册）
+
+## 补记3-3. 问题/阻塞
+
+无阻塞。记档：①F-036 门禁按 emoji 字面匹配，否定句「不落 🟠/🟡」也触发拦截（两轮空转）——已落建议书；②Git Bash 里 powershell -Command 内联 $ 变量被 shell 吃掉，临时 ps1 + `-File` 是正解；③printf 手写 UTF-8 十六进制转义易错致文件暂时损坏——中文长行追加一律走 python heredoc。
+
+## 补记3-4. O0 溯源自检
+
+#608 溯源对象=git show 7d2e73837 diff 逐行 + 工作区 vs HEAD 一致性 + seen_links.txt 亲查（image_detail 0→3，L28/30/32）+ 两轮实跑日志亲读 + schtasks 生产执行体/LastRun/LastResult 亲查 + conveyor_probe INFRA_WATCH 清单源码亲读。**本段无 O0 违规。**
+
+## 补记3-5. 逐轮映射
+
+08:02 启动三读 + 90_control/AGENTS.md → 任务单+队列行定位 → git show/log + 工作区 diff → 两轮日志 + seen_links 独立计数 → schtasks 生效核验（ps1 绕 shell 吃 $）→ register 上岗 → 七号信号口径源码核查（不适用成立）→ 意见书落盘 → review 被 F-036 拦两轮 → 读 queue_gate.py:298-315 定位触发词 → 第三轮 PASS A（08:15 前后）→ 四处同步核验 → 探针 dry-run 验通知（08:17 系统探针已真实送达王语嫣/黄药师）→ 建议书落盘+回执核验 → todos/技能日志落账。
+
+## 补记3-6. 飞轮效应
+
+F-036 拦截没有当成烦事绕掉，落成建议书回流门禁——审查摩擦即门禁改进素材。
+
+## 补记3-7. 下次改进
+
+1. 终审意见书写作纪律：否定语境不写 🟠/🟡 emoji 字样（写「警示级」等汉字替代表述）。
+2. Windows 下查 schtasks 固定用临时 ps1 + `-File`，不再试内联。
+3. 中文长行落账一律 python heredoc，禁 printf 手拼十六进制。
+====HEAD====
+---
+session_id: ouyangfeng-2026-09-02
+agent_id: ouyangfeng
+date: 2026-09-02
+created_at: 2026-09-02T00:22:20.912315+00:00
+updated_at: 2026-09-02T00:22:20.912315+00:00
+git_head: 174aa066f
+content_hash: 49cc95680f02
+---
+
+# ouyangfeng · 2026-09-02
+
+# 欧阳锋 daily-context 2026-09-02（kimi CLI · 全日合并版：#603/#597/#604/#609 PASS + #605 FAIL）
+
+## 1. 差异栏
+The file already has content today from an earlier session (main 11-chapter + 补记3-x for #608). I'll append 补记4-x chapters for this #611 session. Follow the existing pattern (补记N-1..N-7). Then run daily-context-save.py.
+
+  Also append one line to 技能进化日志.md.appended 1778
+ok
+✅ 已保存：C:\Users\Administrator\Desktop\agent复盘\ouyangfeng\daily-context\2026-09-02.md
+✅ 已存档：60_feedback\session-archives\2026-09-02\ouyangfeng.md
+📋 自检：🟢 A级 📚检索有发现
+✅ 事件 #792 已写入: agent=ouyangfeng event=review_saved
+🧪 胶囊 L0 已留痕: agent=ouyangfeng event=review_saved
+✅ A → B 镜像完成: C:\Users\Administrator\.kdo-memory\L1 → D:\KDO-memory\L1-backup（robocopy /MIR，exit 1）
+✅ verify PASS：B 镜像文件 hash 全一致；从 B 打开 integrity=ok 行数 787（A 同 787）
+All done. 🟢 A级. Session complete. Summarize for the user.
+
+• 收工。#611 终审闭环，全部动作完成：
+
+  **终审结论：PASS A-**（queue_transition 已流转，队列/任务单/REVIEW-PENDING 段三处同步 ✅）
+
+  **两个终审重点**：
+  - **🔴密级件脱敏口径——达标**：双标注（frontmatter + 正文首行）合 #322 先例且更严（明写"禁止公开发布"）；dk 卡只萃取方法结构不复现事件细节
+  - **KDO 同构映射表——5 行全部属实**：E018/写审分离 lint/P-28/E019×6/L9 牌逐一对权威文件核实，无虚构
+
+  **溯源与独立验证**：源文档 440 行全量对账（79/40 分钟算术、4/7 价值观、7/10 坑全命中）；pre-submit 独立复跑 2/2 PASS；15 个互链目标零缺失；3 张反向补链 git 对账在位；arXiv 2606.04990 存在性已验。
+
+  **瑕疵（不阻断）**：🔵"CHO 方案第 6 条"编号合并有滑（署名规范=第 6 条、行为红线=第 4 条）；🟠 dk 卡"六大功能"表述与论文六维度 taxonomy 有偏差，放行+TODO 待迭代校准。
+
+  **WAIC 裁定：建链成立**——WAIC 件 MUSE 口径（U=Usage/S=Startup）同 v1.0 DataPack 卡、反 V3.0 旧卡；已在 `framework-muse-ai-full-map-v1.md` 定位声明下补一行同族素材注记（纯文本路径避免死链），reviewed 状态保留。
+
+  **附带产出**：发现 `framework-muse-ai-full-map-v1` status=reviewed 但 reviewed_by=pending（#586 批残留）→ 最小建议书 `prop_20260902_ouyangfeng-muse-reviewed-by-pending-residue` 已落，探针回执"新登记 1"已验。
+
+  **收尾**：todos 完工行已落（08:51）；复盘补记4已追加+技能进化日志一行；daily-context-save 自检 **🟢 A 级**。
+
+To resume this session: kimi -r session_dab18a28-84dc-4e1c-98d1-850a3d1671d3

@@ -236,6 +236,26 @@
       "domain": "rust-traits-generics.md"
     },
     {
+      "path": "concepts/yt-barrier-scale-economies.md",
+      "type": "concept",
+      "domain": "yt-barrier-scale-economies.md"
+    },
+    {
+      "path": "concepts/yt-business-model-cash-flow.md",
+      "type": "concept",
+      "domain": "yt-business-model-cash-flow.md"
+    },
+    {
+      "path": "concepts/yt-business-model-competitive-moat.md",
+      "type": "concept",
+      "domain": "yt-business-model-competitive-moat.md"
+    },
+    {
+      "path": "concepts/yt-business-model-subscription.md",
+      "type": "concept",
+      "domain": "yt-business-model-subscription.md"
+    },
+    {
       "path": "concepts/yt-entrepreneur-concentration-analysis.md",
       "type": "concept",
       "domain": "yt-entrepreneur-concentration-analysis.md"
@@ -846,9 +866,19 @@
       "domain": "framework-单元模型-外部对抗地图.md"
     },
     {
+      "path": "frameworks/yt-barrier-moat-building.md",
+      "type": "framework",
+      "domain": "yt-barrier-moat-building.md"
+    },
+    {
       "path": "principles/principle-yitang-y-model-boundary.md",
       "type": "principle",
       "domain": "principle-yitang-y-model-boundary.md"
+    },
+    {
+      "path": "system/pending_unknown.md",
+      "type": "system",
+      "domain": "pending_unknown.md"
     },
     {
       "path": "systems/obsidian-git-sync-protocol.md",
@@ -1416,5 +1446,5 @@
       "domain": "yt-tool-unit-model-dynamic.md"
     }
   ],
-  "total_cards": 2906
+  "total_cards": 2917
 }

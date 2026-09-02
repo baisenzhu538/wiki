@@ -12,11 +12,11 @@
 |---|------|--------|------|--------|--------------|----------|
 | 1 | 新 queued（可领取） | conveyor_probe `_queue_signal` | todos 推送 | assignee 路由（未知回落 laowantong） | 静默期 defer 天亮补发 | #501/#443 |
 | 2 | 新提审（pending_review） | conveyor_probe | 叫醒推送 | 欧阳锋 | 豁免（终审类） | #421/#520 |
-| 3 | 终审 PASS（reviewed） | conveyor_probe `new_reviewed` | todos 推送 | assignee + 抄送王语嫣 | 豁免（终审类） | #462/#521 R1/R2 |
+| 3 | 终审 PASS（reviewed） | conveyor_probe `new_reviewed`（#612：queue_transition review pass 终端输出附带提醒——交付物节含 30_wiki 卡片时提示「N 张交付卡待 review_mark 转正」，只提醒不代写，#586/#596 漏转正二次复发对策） | todos 推送 | assignee + 抄送王语嫣 | 豁免（终审类） | #462/#521 R1/R2；#612 转正提醒 |
 | 4 | 终审退回 FAIL（failback） | conveyor_probe `new_failback` | todos 推送 | assignee 路由 | defer（未豁免，观察项 O1） | #462；#538 补「曾 reviewed」场景 |
 | 5 | 门禁拦截（gate-blocked） | conveyor_probe `_scan_gate_blocked`（#562：时间戳锚定记录聚合——多行拦截消息（如 E040 交付物清单）续行并入首记录，不再按物理行切出垃圾残片；状态键 gate_seen_v2，旧行级方案升级首跑静默吸收存量防重报。#568：通知类打印一律改走 stderr——`--json` stdout 纯 JSON 可被机器 json.loads；queue_transition subprocess 全点强制 UTF-8/replace（GBK reader 线程崩溃族根治）；E040 fail-open 异常 stderr WARNING 可见化，门禁静默致盲→可见。#569：F-034 锚点改前缀匹配（`**改动文件清单**` 不再被闭合 ** 阻断）+E040 节边界放宽（`- **` 子弹行算字段行）+两门禁报错附期望格式样例——锚点容错不松语义） | 推送+看板登记 | 王语嫣 | — | #460；#562 多行解析修复；#568 GBK 族+stdout 污染根治；#569 锚点三层修复（#562/#568/#569 §3.19 三连合并补登 08-28）；#515 E040 `_tmp/` 划痕豁免（校准点1：`_extract_deliverable_paths` 提取层过滤中间产物非交付物，不判 missing/untracked，08-28 补登） |
 | 6 | 建议书登记（三元组命中） | conveyor_probe `_scan_proposals` | 推送+PROPOSAL-PENDING 登记 | 王语嫣 | — | #421/#506 |
-| 7 | 审查意见 🟠/🟡 无落点 | conveyor_probe F-036 | 推送 | 欧阳锋 | 不豁免 | F-036 第七信号 |
+| 7 | 审查意见 🟠/🟡 无落点 | conveyor_probe F-036（#612：否定语境豁免——「不落/不构成/无」等前挂词紧邻的 emoji 不计入问题条目，🟠/🟡 连写对共享否定；报错文案附否定句写法提示。实证：#608「不落 🟠/🟡」被连拦两轮误伤） | 推送 | 欧阳锋 | 不豁免 | F-036 第七信号；#612 否定豁免 |
 | 8 | near-miss 三元组违例 | conveyor_probe `_proposal_near_miss` + `_escalate_near_miss` | 仅日志 print + **≥3 轮未修正升级推王语嫣收件箱**（修正自动消项） | 王语嫣 | defer（非终审类） | ✅ #536 销项 |
 | 9 | inbox 新素材 | watch_inbox `_notify_inbox`（#605：扫描面裁剪=00_inbox 顶层+pending-cards/ 白名单，Handle/_vlm_output/ocr_ingest 等大目录树出扫描面；dispatch 台账落盘停发下线——17 份零签收、职能并入看门狗 v5，看板登记+收件箱推送两通道不变） | 看板待编排区 + **王语嫣收件箱推送** | 王语嫣 | defer（P0 也静默落盘带 🔕） | ✅ #530 销项；#605 裁剪+台账停发 |
 | 10 | friction 事件 | conveyor_probe `_scan_friction` | memory_capsule 事件层 | 复盘层可见 | — | #511 |

@@ -821,6 +821,28 @@ def _check_deliverables_committed(task_file: Path, fm: dict[str, Any],
     return True, "", warn
 
 
+def _review_card_mark_reminder(task_file: Path) -> str:
+    """#612 任务2：review verdict=pass 时，若执行报告「交付物」节含 30_wiki 卡片
+    路径，返回一行「N 张交付卡待 review_mark 转正」提醒；否则返回空串。
+
+    只提醒不自动转正——自动转正=代写卡片 frontmatter，越权限边界，不做。
+    识别不出/读取异常=空串（提醒性输出，绝不阻断终审主流程）。
+    """
+    try:
+        body = task_file.read_text(encoding="utf-8", errors="ignore")
+        report = _extract_exec_report(body)
+        cards = [p for p in _extract_deliverable_paths(report, task_file.name)
+                 if p.startswith("30_wiki/") and p.endswith(".md")]
+        if not cards:
+            return ""
+        shown = "、".join(f"`{c}`" for c in cards[:5])
+        more = f" 等 {len(cards)} 张" if len(cards) > 5 else ""
+        return (f"\n📌 提醒：{len(cards)} 张交付卡待 review_mark 转正：{shown}{more}"
+                "（终审通过不自动转正——自动转正涉及代写卡片 frontmatter 权限边界，请生产方手动回填）")
+    except Exception:
+        return ""
+
+
 
 # #429 F-034 交付五字段硬格式（老朱拍板「想犯错也犯不了」，停车场 F-034 收口）
 # 机读锚点：执行报告节或 --evidence 文件含以下标记即算该字段存在（只验存在性，不判内容质量——只拦机械项不碰判断）
@@ -1285,7 +1307,10 @@ def action_review(task_id: str, verdict: str, reviewer: str, grade: str | None =
                 strike=task_id,
                 strike_note=f" → 已终审 PASS {grade or ''}（{current_utc_date()} 欧阳锋）",
             )
-            return True, f"✅ {task_id} 终审通过，状态更新为 reviewed{grade_note}"
+            # #612 任务2：review_mark 漏转正二次复发（#586/#596，E018 家族同源）——
+            # 终审通过时交付物含 30_wiki 卡片 → 输出转正提醒（提醒即可，不代写）
+            remind = _review_card_mark_reminder(task_file)
+            return True, f"✅ {task_id} 终审通过，状态更新为 reviewed{grade_note}{remind}"
         else:
             # #580（F-064）：FAIL 打回时自动打 rework:true 标——返工重提 claim 时
             # _is_rework_task 读到该标即豁免 #504 own-pending 阻塞（重提≠接新单）。

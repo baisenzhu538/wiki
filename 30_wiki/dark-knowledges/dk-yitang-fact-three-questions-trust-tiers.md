@@ -2,9 +2,9 @@
 id: dk-yitang-fact-three-questions-trust-tiers
 title: AI Agent 交付的实事求是暗知识——事实三问法、署名真实性与信任等级制
 type: dk
-status: draft
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: high
 language: zh-CN
@@ -63,8 +63,8 @@ quality_labels:
 - principle
 - actionable
 - insight
+review_date: 2026-09-02
 ---
-
 # AI Agent 交付的实事求是暗知识——事实三问法、署名真实性与信任等级制
 
 > ⚠️ **传播限制标注：源文档密级 🔴「CHO 私有——仅限 Truman 审阅」。本卡只萃取可迁移的方法结构（已脱敏，不含审计事件细节），仅限内部知识库使用，禁止外传、禁止公开发布。**（比照 #322 Candy 卡先例）

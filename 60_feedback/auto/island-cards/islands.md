@@ -1,6 +1,6 @@
 # 孤岛卡清单（#528：无出链无入链=检索死胡同）
 
-扫描面 2906 卡，孤岛 283 张（agent-spec 类已豁免）。
+扫描面 2917 卡，孤岛 289 张（agent-spec 类已豁免）。
 挂链批次由王语嫣编排——高优先=framework/tool 卡型（检索主靶）。
 
 ## case-yihang-dual-triangle-AI三角-场景.md（1）
@@ -480,6 +480,9 @@
 ## obsidian-git-sync-protocol.md（1）
 - `systems/obsidian-git-sync-protocol.md`（system）
 
+## pending_unknown.md（1）
+- `system/pending_unknown.md`（system）
+
 ## principle-yitang-y-model-boundary.md（1）
 - `principles/principle-yitang-y-model-boundary.md`（principle）
 
@@ -815,6 +818,21 @@
 
 ## tool-马易-需求创造验证法.md（1）
 - `tools/tool-马易-需求创造验证法.md`（tool）
+
+## yt-barrier-moat-building.md（1）
+- `frameworks/yt-barrier-moat-building.md`（framework）
+
+## yt-barrier-scale-economies.md（1）
+- `concepts/yt-barrier-scale-economies.md`（concept）
+
+## yt-business-model-cash-flow.md（1）
+- `concepts/yt-business-model-cash-flow.md`（concept）
+
+## yt-business-model-competitive-moat.md（1）
+- `concepts/yt-business-model-competitive-moat.md`（concept）
+
+## yt-business-model-subscription.md（1）
+- `concepts/yt-business-model-subscription.md`（concept）
 
 ## yt-entrepreneur-concentration-analysis.md（1）
 - `concepts/yt-entrepreneur-concentration-analysis.md`（concept）

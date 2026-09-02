@@ -299,17 +299,27 @@ if __name__ == "__main__":
 # 放 queue_gate=共享真相源（queue_transition 门禁 + conveyor_probe 第七信号共用，禁副本）
 ISSUE_DISPOSITION_HINTS = ("建议书", "停车场", "F-", "立项", "另立项", "friction", "待王语嫣", "待老朱", "TODO")
 
+# #612 任务1：否定语境豁免——「不落 🟠」「不构成 🟡 级问题」「无 🟠/🟡」类
+# 否定声明句的 emoji 字样不计入问题条目（emoji 字面出现≠标记问题）。
+# 实证：#608 终审意见书含「不落 🟠/🟡」被连拦两轮，删字样才放行（F-036 误伤）。
+# 判定口径：否定前挂词紧邻 emoji（允许空白间隔，连写的 🟠/🟡 对共享同一否定）→ 剔除。
+_NEGATION_EMOJI_RE = re.compile(
+    r"(?:不落|不构成|不算|不标|不判|不记|不涉及|没有|无|非)\s*[🟠🟡](?:\s*/\s*[🟠🟡])*")
+
 
 def check_issue_disposition(opinion_text: str) -> tuple[bool, str]:
     """F-036：终审意见书"发现问题"节含 🟠/🟡 条目时必须注明落点。
 
     判定：含 🟠 或 🟡（非仅 🔵 无实质缺陷）且不含落点词 → 拦截。
+    豁免：否定前挂词（不落/不构成/无……）紧邻的 emoji 字样不计入（#612）。
     """
-    if "🟠" not in opinion_text and "🟡" not in opinion_text:
+    stripped = _NEGATION_EMOJI_RE.sub("", opinion_text)
+    if "🟠" not in stripped and "🟡" not in stripped:
         return True, ""
     if any(h in opinion_text for h in ISSUE_DISPOSITION_HINTS):
         return True, ""
-    lines = [l.strip() for l in opinion_text.splitlines() if "🟠" in l or "🟡" in l]
+    lines = [l.strip() for l in stripped.splitlines() if "🟠" in l or "🟡" in l]
     sample = "；".join(l[:60] for l in lines[:3])
     return False, (f"审查发现问题未给落点（F-036）：{sample}——"
-                   "必须在意见书注明去向（建议书路径 / 停车场 F-xxx / 任务单立项），否则终审不闭环")
+                   "必须在意见书注明去向（建议书路径 / 停车场 F-xxx / 任务单立项），否则终审不闭环"
+                   "；若该 emoji 出现在否定声明句，请删去字样或写成「不落/不构成/无 + emoji」前挂否定形式")
