@@ -1,13 +1,16 @@
 ---
 id: task_20260902_laowantong-586batch-reviewedby-residue-fix
-title: #586 批 reviewed 卡 reviewed_by=pending 元数据残留排查补齐（E018 家族对齐真实终审记录）
+title: null
 seq: 613
-status: queued
+status: in_progress
 assignee: laowantong
 created_by: wangyuyan
 created_at: 2026-09-02
-decision_source: 欧阳锋建议书 prop_20260902_ouyangfeng-muse-reviewed-by-pending-residue（#611 终审发现）09-02 王语嫣裁定立项
+decision_source: 欧阳锋建议书 prop_20260902_ouyangfeng-muse-reviewed-by-pending-residue（#611
+  终审发现）09-02 王语嫣裁定立项
 reviewer: 欧阳锋
+instance: laowantong-kimi
+updated_at: '2026-09-02T01:12:22.905698+00:00'
 ---
 
 # #613 #586 批元数据残留排查补齐（老顽童）
