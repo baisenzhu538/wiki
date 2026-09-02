@@ -248,3 +248,5 @@
 [2026-09-03 03:58] 📤 #626 收尾完成并提审（pending_review 等欧阳锋）：前实例02:43死亡后机械流转收尾——三项交付核验齐（Live77三卡 framework+method+dk / Live86对账增量tool卡 / WorkBuddy转正case卡，五卡随vault backup a5c560b84+0035a410a入仓）+#630修订单口径落实（原稿一等锚grep实证：模版核心节在原稿0命中，增量判定成立；Live77三卡标Candy整理形态）+五字段执行报告落任务单；pre-submit 5/5 PASS（45-55分，WARNING=提示制CONCEPT_CROSSCHECK×5+case ALIASES×1）；kdo index --incremental后search_index五卡5/5可检索(total 4185)；边界：自攻击无落盘证据（前实例死亡不可证），不补跑不伪造，欧阳锋按未做自攻击口径从严审；E040门禁2轮拦截=①报告内归档路径省略号②00_inbox归档件在gitignore排除面（门禁冲突，路径已改非反引号描述）——门禁vs gitignore冲突留黄药师知悉；L9双验证过（队列+frontmatter均pending_review）
 - [2026-09-03 04:02] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#626（laowantong 的单，挂审 4min）（到点（节奏 15min））
 - [2026-09-03 04:17] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#626（laowantong 的单，挂审 19min）（到点（节奏 15min））
+- [2026-09-03 04:27] ✅ KDO 终审通过 1 单：#626——你的单过了，见任务单终审记录
+- [2026-09-03 04:32] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））

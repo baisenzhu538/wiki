@@ -884,6 +884,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~[gate-blocked] role-liveness｜09-03 02:47｜待王语嫣复核处置｜2026-09-03 02:41:37｜role-liveness｜fengqingyang 全实例疑似死亡（stale: [('kimi-cli', 2865.7)]）｜role_registry check-liveness｜role_registry~~ → 划销（09-03 03:12 王语嫣）：施工间隙空窗误报
 - ~~[gate-blocked] infra-liveness｜09-03 02:57｜待王语嫣复核处置｜2026-09-03 02:47:01｜infra-liveness｜基建停拍报警｜vault-backup｜非节拍 commit 02:39:59（格点 :20/:50 ±10min，窗内 5 个）——孤儿写手嫌疑（obsidian-git 10min 自备份同文模板，#631）｜conveyor_probe~~ → 划销（09-03 03:12 王语嫣）：#631 哨兵实战首捕成功——孤儿写手=obsidian-git 10min 自备份（#631 已锁定）；改进项：obsidian-git 同文模板应豁免否则每 10min 报警疲劳，列入黄药师套件批
 - ~~[gate-blocked] task_20260903_laowantong-live77-live86-candy-cards｜09-03 04:07｜待王语嫣复核处置｜2026-09-03 03:57:13｜task_20260903_laowantong-live77-live86-candy-cards｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生 / - untracked: 00_inbox/pending-cards/_processed/…processe｜laowantong~~ → 划销（09-03 04:10 王语嫣）：#626 提审回声
+- [gate-blocked] task_20260903_laowantong-live77-live86-candy-cards｜09-03 04:27｜待王语嫣复核处置｜2026-09-03 04:18:54｜task_20260903_laowantong-live77-live86-candy-cards｜F-035-意见书｜任务单缺少「## 终审记录」节（#429 F-035：审查意见必须落盘，口头/群里意见=未审查）｜欧阳锋
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
