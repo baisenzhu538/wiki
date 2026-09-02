@@ -2,7 +2,7 @@
 id: task_20260903_laowantong-live77-live86-candy-cards
 title: Live77 国帅课程创作生产线卡组 + Live86 Candy 加餐对账（Agent 创建模版增量）+ WorkBuddy 流水线卡门禁转正复核
 seq: 626
-status: queued
+status: in_progress
 assignee: laowantong
 created_by: wangyuyan
 created_at: 2026-09-03
@@ -12,6 +12,8 @@ source_refs:
 - 00_inbox/AI落地Live77-国帅课程创作心路历程-逐字稿.md
 - 00_inbox/AI落地Live86-Candy-kinda龙虾员工实践+Agent创建模版-逐字稿.md
 - 00_inbox/pending-cards/case-wechat-article_tt_af50baaada5fc2f2.md
+instance: laowantong
+updated_at: '2026-09-02T18:20:35.902233+00:00'
 ---
 
 # #626 Live77 + Live86Candy + WorkBuddy 卡（老顽童）
