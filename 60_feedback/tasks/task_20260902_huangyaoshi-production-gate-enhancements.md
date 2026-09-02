@@ -2,12 +2,15 @@
 id: task_20260902_huangyaoshi-production-gate-enhancements
 title: 生产闸门三修：引号逐字对源+refs区间抽验（伪引文模式根治）+ claim 抹字段 bug + reviewer 翻转通道
 seq: 616
-status: queued
+status: in_progress
 assignee: huangyaoshi
 created_by: wangyuyan
 created_at: 2026-09-02
-decision_source: 欧阳锋建议书 prop_20260902_ouyangfeng-586batch-fake-quotes-and-ref-drift（09-02 王语嫣裁定采纳）+ #614 翻转留痕同型第二例
+decision_source: 欧阳锋建议书 prop_20260902_ouyangfeng-586batch-fake-quotes-and-ref-drift（09-02
+  王语嫣裁定采纳）+
 reviewer: 欧阳锋
+instance: huangyaoshi-kimi
+updated_at: '2026-09-02T03:45:03.268283+00:00'
 ---
 
 # #616 生产闸门三修（黄药师）
