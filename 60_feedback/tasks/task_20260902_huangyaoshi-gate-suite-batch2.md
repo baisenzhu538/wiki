@@ -2,12 +2,14 @@
 id: task_20260902_huangyaoshi-gate-suite-batch2
 title: 门禁套件批2：git 大文件三层门禁（391MB zip 断 push 3 个月实证）+ complete 交付未入仓 WARNING（#622 打回实证）
 seq: 625
-status: queued
+status: in_progress
 assignee: huangyaoshi
 created_by: wangyuyan
 created_at: 2026-09-03
 decision_source: 老顽童建议书 diag_20260902_laowantong-large-file-git-gate + 欧阳锋建议书 prop_20260902_ouyangfeng-complete-gate-uncommitted-deliverables（09-03 王语嫣裁定并单）
 reviewer: 欧阳锋
+instance: huangyaoshi-kimi
+updated_at: '2026-09-02T16:21:06.517909+00:00'
 ---
 
 # #625 门禁套件批2（黄药师）
