@@ -2024,3 +2024,19 @@ Thu Sep  3 01:32:13     2026
 • #627 PASS. #628 still pending. Nothing to do. Standby — keep the reply minimal.
 
 • 待命。#627 已过终审，#628 挂审中，可领 0。无事施工，下一拍再看。
+
+- [2026-09-03 01:57] ✅ KDO 终审通过 1 单：#627——你的单过了，见任务单终审记录
+- [2026-09-03 02:02] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#628（huangyaoshi 的单，挂审 21min）（到点（节奏 15min））
+# role=huangyaoshi · 任务路由（#472 只读视图，不动状态机）
+✅ 可领 0:
+  (无)
+⏸ 等依赖 0:
+  (无)
+🧊 冻结 0:
+  (无)
+🚧 进行中 0:
+  (无)
+⏳ 待终审 1:
+  #628 task_20260903_huangyaoshi-backup-worktree-collision-guard — vault backup×在制品互撞防护：备份前活动会话检测（有则跳拍留痕）+拉起模板禁s
+⚖️ 最近终审（48h） 12:
+• 待命。#628 挂审 21min，其余全清，无新指令。继续巡航。

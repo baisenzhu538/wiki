@@ -584,3 +584,4 @@
 2026-09-03 01:47:01｜diag_20260903_huangyaoshi-backup-orphan-source.md｜near-miss-三元组（#506）｜type: proposal 但三元组不完整：status=proposed（应 pending_orchestration）｜conveyor_probe
 2026-09-03 01:50:13｜task_20260903_huangyaoshi-infra-registry-and-archive-test-fix｜F-035-意见书｜任务单缺少「## 终审记录」节（#429 F-035：审查意见必须落盘，口头/群里意见=未审查）｜欧阳锋
 2026-09-03 01:51:46｜task_20260903_huangyaoshi-infra-registry-and-archive-test-fix｜F-036-问题落点｜审查发现问题未给落点（F-036）：- 🟡 **机器预审 🔴 已闭环**：机器层曾报「负向断言无存在性核查锚点」，commit 0871d5ba0 已补存在；- 🟡 **边界认可（非阻塞）**：§0 ｜欧阳锋
+2026-09-03 02:19:29｜task_20260903_huangyaoshi-backup-worktree-collision-guard｜F-035-负向判词｜意见书含负向断言（「文件为空」）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋
