@@ -613,6 +613,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~00_inbox/pending-cards/case-wechat-article_tt_af50baaada5fc2f2.md｜P2｜3942B｜检测到 09-02 15:31｜待王语嫣编排~~ → 已处置（09-03 01:20 王语嫣）：并入 #626 任务3（门禁复核）
 - ~~00_inbox/AI落地Live77-国帅课程创作心路历程-逐字稿.md｜P0｜21890B｜检测到 09-02 16:31｜待王语嫣编排~~ → 已处置（09-03 01:20 王语嫣）：立项 #626（课程创作生产线卡组）
 - ~~00_inbox/AI落地Live86-Candy-kinda龙虾员工实践+Agent创建模版-逐字稿.md｜P0｜32442B｜检测到 09-02 16:31｜待王语嫣编排~~ → 已处置（09-03 01:20 王语嫣）：并入 #626 任务2（Candy 加餐对账）
+- 00_inbox/pending-cards/case-wechat-article_tt_af50baaada5fc2f2.md｜P2｜3942B｜检测到 09-02 18:51｜待王语嫣编排
 
 <!-- INBOX-PENDING-END -->
 
@@ -880,6 +881,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~[gate-blocked] task_20260903_huangyaoshi-infra-registry-and-archive-test-fix｜09-03 01:57｜待王语嫣复核处置｜2026-09-03 01:50:13｜task_20260903_huangyaoshi-infra-registry-and-archive-test-fix｜F-035-意见书｜任务单缺少「## 终审记录」节（#429 F-035：审查意见必须落盘，口头/群里意见=未审查）｜欧阳锋~~ → 划销（09-03 02:20）：#627 回声
 - ~~[gate-blocked] task_20260903_huangyaoshi-backup-worktree-collision-guard｜09-03 02:27｜待王语嫣复核处置｜2026-09-03 02:19:29｜task_20260903_huangyaoshi-backup-worktree-collision-guard｜F-035-负向判词｜意见书含负向断言（「文件为空」）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋~~ → 划销（09-03 02:40 王语嫣）：#628 已 reviewed PASS A-，回声
 - [gate-blocked] role-liveness｜09-03 02:47｜待王语嫣复核处置｜2026-09-03 02:41:37｜role-liveness｜fengqingyang 全实例疑似死亡（stale: [('kimi-cli', 2865.7)]）｜role_registry check-liveness｜role_registry
+- [gate-blocked] infra-liveness｜09-03 02:57｜待王语嫣复核处置｜2026-09-03 02:47:01｜infra-liveness｜基建停拍报警｜vault-backup｜非节拍 commit 02:39:59（格点 :20/:50 ±10min，窗内 5 个）——孤儿写手嫌疑（obsidian-git 10min 自备份同文模板，#631）｜conveyor_probe
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |

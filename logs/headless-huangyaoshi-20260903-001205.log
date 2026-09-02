@@ -2535,3 +2535,74 @@ stall: []
 39:| 26 | 编排骨架单翻转终审（assignee=ouyangfeng） | queue_transition `review --reviewer 王语嫣`（限编排骨架单，其余 reviewer/对象仍拒；终审权校验对称要求 cwd 有 wangyuyan 登记实例；F-035/F-036/台账留痕不变） | 终端+任务单终审记录+台账 | 王语嫣（翻转）/欧阳锋（主审） | — | #616 任务3（#544 手工翻转先例 + 09-02 #614 第二例，欧阳锋自己的单无人可终审的根治） |
 40:| 27 | graph_index 空目录/0 records/陈旧超 48h | conveyor_probe 第十一信号 `_scan_graph_index_health`（空目录/缺失→报；graphml `<node` 字节扫描 0 节点→报；陈旧口径=graphml mtime 落后 search_index.json 超 48h——#356 双索引同步语义，规避手动重建节奏的绝对时间误报；沿触发幂等，恢复重新武装，原因切换重报；只告警不动作） | 并入第九信号 infra_alerts 通道：gate-blocked.log 台账 + 推王语嫣 | 王语嫣 | defer（同第九信号口径，台账恒写） | #622（08-31 事故清空 graph_index 语义腿空转 2 天无人发现；「修完没加哨兵=同类事故必再发」#357/#358 模式闭环） |
 40:| 27 | graph_index 空目录/0 records/陈旧超 48h | conveyor_probe 第十一信号 `_scan_graph_index_health`（空目录/缺失→报；graphml `<node` 字节扫描 0 节点→报；陈旧口径=graphml mtime 落后 search_index.json 超 48h——#356 双索引同步语义，规避手动重建节奏的绝对时间误报；沿触发幂等，恢复重新武装，原因切换重报；只告警不动作） | 并入第九信号 infra_alerts 通道：gate-blocked.log 台账 + 推王语嫣 | 王语嫣 | defer（同第九信号口径，台账恒写） | #622（08-31 事故清空 graph_index 语义腿空转 2 天无人发现；「修完没加哨兵=同类事故必再发」#357/#358 模式闭环） |
+...............................................................          [100%]
+63 passed in 7.77s
+........................................................                 [100%]
+488 passed in 47.65s
+Full regression: 488 passed, 0 failed (baseline 2 reds cleared by #627 earlier). Now write execution report in task file, commit deliverables, complete 631.
+
+  Deliverables:
+  - `kdo-tools/conveyor_probe.py`（_scan_offbeat_backup + _scan_backup_stall SKIPPED 口径 + _last_skip_age_h）
+  - `kdo-tools/tests/test_backup_signals_631.py`（6 测）
+  - `90_control/notification-coverage-matrix.md` 行 28
+  - 触发源结论（证据）— in the report
+  - 任务单执行报告
+
+  任务1 conclusion evidence:
+  - `.obsidian/plugins/obsidian-git/data.json`: autoSaveInterval=10, commitMessage="vault backup: {{date}}"（与 vault_git_backup.py 消息模板同文）
+  - commit 时间链：01:28:02→01:38:12→01:48:24→01:58:34 严格 ~10min 链；545bd0f5a 正落链上
+  - 双写手对照：整秒 :20/:50 commit（00:20:00/00:50:00/01:20:00）= schtasks kdo-vault-git-backup（触发器 07:20 PT30M）
+  - Obsidian.exe 在跑（2 进程）
+  - 且 obsidian-git autoPushInterval=10 + disablePush=false → 它还是当前唯一活跃 push 通道——处置影响面警告
+
+  需要谁动作： 欧阳锋终审；王语嫣/老朱处置 obsidian-git（建议：autoSaveInterval 设 0 关自动备份，或保留但知情——注意它是当前唯一 push 通道，关了要另立 push 机制）。
+
+  Also 边界： 第十二信号在 obsidian-git 未处置前会常 latch 在脏态（报一次后静默）——处置后自动重新武装；格点写死 :20/:50，schtasks 触发器改了要同步改常量（留了注释）。
+
+  Write report, commit, complete.
+
+• 全量 488 passed / 0 failed。写执行报告并提审。done
+
+
+warning: in the working copy of '60_feedback/tasks/task_20260903_huangyaoshi-orphan-backup-source-hunt.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'kdo-tools/tests/test_backup_signals_631.py', LF will be replaced by CRLF the next time Git touches it
+ create mode 100644 kdo-tools/tests/test_backup_signals_631.py
+✅ task_20260903_huangyaoshi-orphan-backup-source-hunt 已提交为 pending_review，等待欧阳锋终审
+📦 交付物校验: 交付物入仓核验通过（3 个路径已跟踪且无脏改动）
+✅ dashboard.html 已生成 (214 个任务)
+   待领取: 2  |  审查中: 1  |  进行中: 1  |  已完成: 210
+- [2026-09-03 02:55] ✅ #631 孤儿backup触发源追查 co
+• #631 已 complete 提审（E040 核验通过：3 路径已入仓无脏改动）。
+
+  **触发源结论**：孤儿 backup = **obsidian-git 插件 auto backup**（非会话级 cron 残留）。三铁证：
+
+  - 插件配置 `autoSaveInterval: 10` + commit 模板 `vault backup: {{date}}` 与 vault_git_backup.py 完全同文（obsidian-git 出厂默认模板）
+  - commit 时间链 01:28:02→01:38:12→01:48:24→01:58:34 严格 10min 间隔，孤儿 commit `545bd0f5a` 正落链上；对照 schtasks 写手的整秒 `:20/:50` 序列，双写手并立
+  - Obsidian.exe 两进程在跑；它走自带 git 通道，所以 #628 守卫管不到——「守卫落盘后旧路径仍收走」的真身
+
+  **机制增量**：
+
+  - 探针第十二信号 `_scan_offbeat_backup`（非节拍 commit 检测，±10min 对 :20/:50 节拍格）——真机首拍即现行，抓到窗内 5 个非节拍 commit
+  - 第十信号 SKIPPED 口径细化（守卫跳拍=健康不报停拍；跳拍也超窗则照报）
+  - matrix 行 28 登记；新测试 6 条全过，全量回归 **488 passed / 0 failed**
+
+  **待处置（已上浮）**：obsidian-git 的 autoPushInterval=10 还是当前唯一活跃 push 通道——关 auto backup 会连 push 一起停，需王语嫣/老朱拍板。继续巡航待命。
+
+- [2026-09-03 02:27] ✅ KDO 终审通过 1 单：#628——你的单过了，见任务单终审记�
+- [2026-09-03 02:32] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状�
+- [2026-09-03 02:55] ✅ #631 孤儿backup触发源追查 complete 提审：触发源锁定=obsidian
+# role=huangyaoshi · 任务路由（#472 只读视图，不动状态机）
+✅ 可领 0:
+  (无)
+⏸ 等依赖 0:
+  (无)
+🧊 冻结 0:
+  (无)
+🚧 进行中 0:
+  (无)
+⏳ 待终审 1:
+  #631 task_20260903_huangyaoshi-orphan-backup-source-hunt — 孤儿backup触发源追查（01:38非节拍收走在制品）+探针非节拍检测信号+守卫SKIP
+⚖️ 最近终审（48h） 13:
+• No change: #631 pending review, nothing claimable. Note myqueue said 待领取： 2 earlier in dashboard output — but myqueue for huangyaoshi shows 可领 0 (those 2 belong to other roles). Standby.
+
+• 待命，无变化。#631 挂审中，可领 0，无新指令。继续巡航。

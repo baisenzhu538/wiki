@@ -579,3 +579,5 @@
 - [2026-09-03 02:37] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
 - [2026-09-03 02:41] 值守拍：#622 复审 PASS A-、#628 PASS A-（backup 互撞防护上线）；#626 老顽童 hermes 施工中（裸名 claim 实证 #620 生效）；#631 黄药师在查；回声 1 行划销
 - [2026-09-03 02:47] 🛑 KDO 基建停拍报警 1 项：vault-backup｜非节拍 commit 02:39:59（格点 :20/:50 ±10min，窗内 5 个）——（台账 gate-blocked.log）
+- [2026-09-03 02:51] 📥 新素材 1 项（P0 0）：case-wechat-article_tt_af50baaada5fc2f2.md——请诊断编排（看板待编排段）
+- [2026-09-03 02:57] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-03 02:47:01｜infra-liveness｜基建停拍报警｜vault-backup｜非节拍 commit 02:3
