@@ -2,12 +2,14 @@
 id: task_20260903_huangyaoshi-orphan-backup-source-hunt
 title: 孤儿 backup commit 触发源追查（01:38 非节拍收走在制品，#628 守卫外的旧路径）+ 探针非节拍检测信号
 seq: 631
-status: queued
+status: in_progress
 assignee: huangyaoshi
 created_by: wangyuyan
 created_at: 2026-09-03
 decision_source: 黄药师建议书 diag_20260903_huangyaoshi-backup-orphan-source（09-03 王语嫣裁定）
 reviewer: 欧阳锋
+instance: huangyaoshi-kimi
+updated_at: '2026-09-02T18:31:25.734561+00:00'
 ---
 
 # #631 孤儿 backup 触发源追查（黄药师）
