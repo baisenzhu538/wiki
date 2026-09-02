@@ -2,12 +2,14 @@
 id: task_20260903_huangyaoshi-infra-registry-and-archive-test-fix
 title: 基建总表补登记 6 资产（回归持续红清零）+ queue-archive 月界漂移测试修复（口径②：归档按任务日期归月）
 seq: 627
-status: queued
+status: in_progress
 assignee: huangyaoshi
 created_by: wangyuyan
 created_at: 2026-09-03
 decision_source: 黄药师两建议书（infra-inventory-6-assets-debt + queue-archive-month-drift-test）09-03 王语嫣裁定并单；月界口径②由王语嫣定夺：归档月份按被归档任务日期而非运行时刻（语义稳定，跨月补跑不串月）
 reviewer: 欧阳锋
+instance: huangyaoshi
+updated_at: '2026-09-02T17:25:28.298507+00:00'
 ---
 
 # #627 基建登记+月界测试（黄药师）
