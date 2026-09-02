@@ -260,7 +260,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 626 | `task_20260903_laowantong-live77-live86-candy-cards` | Live77国帅课程创作生产线卡组2-3张（思想生产线framework+创作八步method+dk）+Live86 Candy加餐对账（Agent创建模版增量判定）+WorkBuddy流水线pending卡门禁复核 | claimed-laowantong | laowantong | 卡组+对账结论+门禁判定+执行报告 | 无 | `60_feedback/tasks/task_20260903_laowantong-live77-live86-candy-cards.md` | 老朱09-03问责inbox漏检→王语嫣分诊（门铃v3已补INBOX扫描面）；先例双查+传播限制#322口径；欧阳锋终审 |
 | 629 | `task_20260903_laowantong-research-skills-explosion-digging` | 调研域skill补位：爆炸式五步法skill+挖掘式穷尽手段流程skill+research-core第一层嵌四类型判定（不另起平级skill防路由分裂） | queued | laowantong | 2个skill+第一层diff+三写一致+盲测记录 | #626 后（同角色排队） | `60_feedback/tasks/task_20260903_laowantong-research-skills-explosion-digging.md` | skills-assistant建议书（09-03王语嫣裁定）；验收挂载归skills-assistant本职；欧阳锋终审 |
 | 630 | `task_20260903_laowantong-626-source-anchor-fix` | 修订单（传口径不改范围）：#626 素材锚升级——Live86对账以原稿为一等锚（00_inbox/龙虾员工实践/），Candy仅定位模版增量；Live77无原稿Candy即一手 | queued | laowantong | 口径落 #626 执行报告，随其终审 | #626 配套 | `60_feedback/tasks/task_20260903_laowantong-626-source-anchor-fix.md` | 老朱09-03直令「找原稿深挖」；王语嫣查实原稿在库；E047边界：修订单不传裁决 |
-| 631 | `task_20260903_huangyaoshi-orphan-backup-source-hunt` | 孤儿backup触发源追查（01:38非节拍收走在制品）+探针非节拍检测信号+守卫SKIPPED接第十信号 | pending_review | huangyaoshi | 触发源结论+探针信号实证 | #628 reviewed 后 | `60_feedback/tasks/task_20260903_huangyaoshi-orphan-backup-source-hunt.md` | 黄药师建议书（09-03王语嫣裁定）；欧阳锋终审 |
+| 631 | `task_20260903_huangyaoshi-orphan-backup-source-hunt` | 孤儿backup触发源追查（01:38非节拍收走在制品）+探针非节拍检测信号+守卫SKIPPED接第十信号 | reviewed | huangyaoshi | 触发源结论+探针信号实证 | #628 reviewed 后 | `60_feedback/tasks/task_20260903_huangyaoshi-orphan-backup-source-hunt.md` | 黄药师建议书（09-03王语嫣裁定）；欧阳锋终审 |
 | 627 | `task_20260903_huangyaoshi-infra-registry-and-archive-test-fix` | 基建总表补登记6资产（回归持续红清零）+queue-archive月界漂移修复（口径②按任务日期归月，王语嫣定夺） | reviewed | huangyaoshi | 登记diff+两测试复绿全量回归原样输出 | 无 | `60_feedback/tasks/task_20260903_huangyaoshi-infra-registry-and-archive-test-fix.md` | 黄药师两建议书并单（09-03王语嫣裁定）；欧阳锋终审 |
 | 628 | `task_20260903_huangyaoshi-backup-worktree-collision-guard` | vault backup×在制品互撞防护：备份前活动会话检测（有则跳拍留痕）+拉起模板禁stash纪律落字（00:32险些丢工作实证） | reviewed | huangyaoshi | diff+跳过实证+回归 | #627 后（同角色排队） | `60_feedback/tasks/task_20260903_huangyaoshi-backup-worktree-collision-guard.md` | 黄药师建议书（09-03王语嫣裁定：机制+纪律双层）；欧阳锋终审 |
 
@@ -494,7 +494,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#623 task_20260902_huangyaoshi-daily-review-scheduler｜huangyaoshi｜提审 09-03 01:00｜60_feedback/tasks/task_20260902_huangyaoshi-daily-review-scheduler.md~~ → 已终审 PASS A-（2026-09-02 欧阳锋）
 - ~~#627 task_20260903_huangyaoshi-infra-registry-and-archive-test-fix｜huangyaoshi｜提审 09-03 01:33｜60_feedback/tasks/task_20260903_huangyaoshi-infra-registry-and-archive-test-fix.md~~ → 已终审 PASS A-（2026-09-02 欧阳锋）
 - ~~#628 task_20260903_huangyaoshi-backup-worktree-collision-guard｜huangyaoshi｜提审 09-03 01:41｜60_feedback/tasks/task_20260903_huangyaoshi-backup-worktree-collision-guard.md~~ → 已终审 PASS A-（2026-09-02 欧阳锋）
-- #631 task_20260903_huangyaoshi-orphan-backup-source-hunt｜huangyaoshi｜提审 09-03 02:43｜60_feedback/tasks/task_20260903_huangyaoshi-orphan-backup-source-hunt.md
+- ~~#631 task_20260903_huangyaoshi-orphan-backup-source-hunt｜huangyaoshi｜提审 09-03 02:43｜60_feedback/tasks/task_20260903_huangyaoshi-orphan-backup-source-hunt.md~~ → 已终审 PASS A-（2026-09-02 欧阳锋）
 
 <!-- REVIEW-PENDING-END -->
 
