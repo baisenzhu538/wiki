@@ -440,3 +440,7 @@
 - [2026-09-02 23:16] ✅ #621 头条短链is/XXX正则修复 complete 提审：is/? 一行兼容两形态+docstring同步（随vault backup入仓1f89e2d86）+老朱链接端到端落inbox实证（src_wechat_article_tt_af50baaada5fc2f2.md 2731字+知识化+seen）+回归12passed（执行报告commit e1c437f05；claim走了--force留痕：急单插队压过#619挂审）
 - [2026-09-02 23:17] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#621（huangyaoshi 的单，挂审 1min）（到点（节奏 15min））
 - [2026-09-02 23:17] ✅ KDO 终审通过 1 单：#619——你的单过了，见任务单终审记录
+- [2026-09-02 23:27] 📥 KDO 可领取 1 单：#622
+- [2026-09-02 23:32] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-02 23:37] ✅ KDO 终审通过 1 单：#621——你的单过了，见任务单终审记录
+- [2026-09-02 23:36] ✅ #622 graph_index重建+哨兵 complete 提审：先删后建全量重建（2428页/5267chunks/6705relations，_tmp/622-graph-rebuild.log）+口语化查询前后对照（0命中→转化率案例卡命中）+conveyor_probe第十一信号（空/0records/落后search_index 48h，沿触发幂等只告警）+回归47passed+矩阵行27同步（claim曾被并发覆写，#621 reviewed后正常claim完成）

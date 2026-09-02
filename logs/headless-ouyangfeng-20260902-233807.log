@@ -1,0 +1,501 @@
+kimi version 0.39.1
+• Let me start by reading the startup files.
+
+• 我先做启动恢复：读取三个必读文件。
+
+- [2026-09-02 12:07] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#615（laowantong 的单，挂审 2min）（事件驱动：有待终审）
+- [2026-09-02 12:07] 🔔 KDO 新提审 1 单：#615，请终审（新提审）
+- [2026-09-02 12:17] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#615（laowantong 的单，挂审 12min）；#616（huangyaoshi 的单，挂审 9min）（事件驱动：有待终审）
+- [2026-09-02 12:17] 🔔 KDO 新提审 1 单：#616，请终审（新提审）
+- [2026-09-02 12:23] ✅ 终审 2 单按队列序闭环：#615 PASS A-（落笔 diff 逐 hunk 对 #614 裁定表+14/14 yaml 自跑断言+随修 4 点抽查属实；被 #433 拦一次→补存在性核查锚点后过）+#616 PASS A-（版本对齐三问+狗粮复现伪引文抓捕+wiki 224/KDO 9+全量 612pass 独立复跑；父 commit worktree 对照实证 2 例失败均存量/flake 与本改动无关；建议书 prop_20260902_ouyangfeng-kdo-tests-flake-and-report-drift 落 diagnosis+探针新登记 1）；双单四处同步齐（终审记录/frontmatter/队列划线/dashboard.html），通过已抄送王语嫣收件箱
+- [2026-09-02 12:27] ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+- [2026-09-02 12:47] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-02 13:02] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#617（laowantong 的单，挂审 2min）（事件驱动：有待终审）
+- [2026-09-02 13:07] 🔔 KDO 新提审 1 单：#617，请终审（新提审）
+- [2026-09-02 13:12] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#617（laowantong 的单，挂审 12min）（事件驱动：有待终审）
+- [2026-09-02 13:25] ✅ 终审 #617（老顽童 #614降级5卡返工）PASS A-：5/5 FAIL点逐条销项核验成立（O0行号级对源：卡9引文3/3、卡10指标表10/10+L1002、卡12死链修复+3/3、卡14 7/7+月入过万清零、卡1对P-15原文）；diff归属核验 bf73d4560(vault backup扫带)+5188f296b 并集=5卡全集无混入；pre-submit独立复跑5/5 PASS；唯一缺陷=卡1重复「与其他知识的关联」节（记缺陷不阻断）；三处同步齐（任务单终审记录/frontmatter reviewed/队列划线+dashboard）；通过抄送王语嫣+回填通知老顽童
+- [2026-09-02 13:42] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-02 14:12] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-02 14:42] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-02 15:17] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-02 15:47] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-02 16:17] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-02 16:47] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-02 17:17] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-02 17:47] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-02 18:17] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-02 18:47] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-02 19:17] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-02 19:47] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-02 20:17] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-02 20:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-02 21:22] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-02 21:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-02 22:12] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#618（huangyaoshi 的单，挂审 5min）（事件驱动：有待终审）
+- [2026-09-02 22:15] 终审 #618（KDO测试flake治理两例）PASS A——独立复跑全量回归 614 passed/1 skipped 与执行报告原样输出逐点一致（新纪律对账通过）；终审记录已落任务单；附带最小建议书 prop_20260902_ouyangfeng-repo-wide-pytest-collection-unicodeerror（存量 collection UnicodeDecodeError，探针已登记）
+- [2026-09-02 22:42] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-02 22:47] 🔔 KDO 新提审 1 单：#619，请终审（新提审）
+- [2026-09-02 22:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#619（huangyaoshi 的单，挂审 10min）（事件驱动：有待终审）
+- [2026-09-02 23:07] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#619（huangyaoshi 的单，挂审 25min）（事件驱动：有待终审）
+- [2026-09-02 23:17] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#621（huangyaoshi 的单，挂审 1min）（事件驱动：有待终审）
+- [2026-09-02 23:17] 🔔 KDO 新提审 1 单：#621，请终审（新提审）
+- [2026-09-02 23:20] ✅ 终审 #619（黄药师 watch_inbox 扫描面回补）PASS A-：验收要点成立——05:47 批次 6 件 wechat-collect 全部补登记进 INBOX-PENDING（L586-591，尺寸逐字节吻合 ls 实测）；独立复跑：commit d93853fcf 入仓干净、大目录 grep 零命中、state 17 键幂等无重报、pytest 4 passed（需 cd kdo-tools）；缺陷=报告验证命令从仓库根不可复现（🟡不阻断，已落建议书 prop_20260902_ouyangfeng-kdo-tools-pytest-root-runnable，探针登记 L835）；四处同步齐，通过已抄送王语嫣
+- [2026-09-02 23:27] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#621（huangyaoshi 的单，挂审 11min）（事件驱动：有待终审）
+- [2026-09-02 23:30] ✅ 终审 #621（黄药师头条短链 is/XXX 正则急单）PASS A：验收要点成立——老朱 20:09 链接端到端落 inbox 实证（7264B 与报告一致、标题/来源抽检正确、seen 登记 L34）；独立复跑：commit 1f89e2d86 入仓工作区干净、无长驻旧码进程、正则三形态单测全匹配、pytest 12 passed、失败不记 seen 语义原样；终审记录已落任务单、四处同步齐；通过已抄送王语嫣；附带最小建议书 prop_20260902_ouyangfeng-toutiao-shortlink-canonical-key（同文不同短链码重复采集，低优先）
+- [2026-09-02 23:37] 🔔 KDO 新提审 1 单：#622，请终审（新提审）
+• Now read task #622. Find the task file. Let me check the queue for task #622's cells[7] location, per 操作纪律: 任务单定位先读队列行 cells[7]. Let me grep production-queue.md for #622.
+
+• 开始终审 #622。先定位任务单和队列行。
+
+• Task file: `60_feedback/tasks/task_20260902_huangyaoshi-graph-index-rebuild-sentinel.md`. Read it.Now review per acceptance points: ① 重建页数/chunks 记录 ② 口语化查询前后对照 ③ 哨兵告警实证.
+
+  Version alignment checks (code task: conveyor_probe.py + tests modified):
+  1. 入仓了吗 — git log for the change commit
+  2. 生效了吗 — long-running process? conveyor_probe runs via cron probably; check if process is running with old code.
+  3. 对齐了吗 — git log -1
+
+  Also:
+  - Verify graph_index rebuilt: count pages/chunks — check `_tmp/622-graph-rebuild.log`, check .kdo/graph_index size and graphml content.
+  - Reproduce the colloquial query: run `kdo graph query "我卖护肤品的，怎么让犹豫的客户快点下单"`.
+  - Sentinel: read conveyor_probe.py `_scan_graph_index_health`, run its 4 tests + probe regression, run dry-run to check state key.
+  - Check notification-coverage-matrix.md line 27 registration.
+  - Negative assertion check: "无任何任务单/工单记录" — #433 requires 存在性核查 anchor. Machine pre-check flagged missing `**存在性核查**` anchor in the task file. In #615 review earlier I (per todos) got blocked by #433 once and required 存在性核查锚点. Consistency: the report says "无任何任务单/工单记录指向该目录操作" without a 存在性核查 section. That's a flagged negative assertion. Need to decide blocking or not. Per #433 discipline, negative assertions need verification section. The task file has a decision_source mentioning 王语嫣's 存在性核查 for the 0-byte state, but the "无任务单记录" claim is new. I should check myself: search for tasks referencing graph_index clearing. If I can verify independently, maybe note as defect not blocking? But rule says FAIL requires anchor... In #615 I blocked once for it. Hmm. Let me do independent verification: grep tasks for graph_index / 清空. If I verify it holds, I could treat as minor (verifiable by me), but discipline says 负向判词必须附核查节. Prior precedent: blocked. But maybe I can check whether evidence in 王语嫣's 裁定 covers it. Let me investigate first.
+
+  Plan:
+  1. git log -1, find the commit for this change; check queue status.
+  2. Check .kdo/graph_index state (sizes, page/chunk counts) and rebuild log.
+  3. Run the colloquial query before/after — "before" can't be reproduced now since rebuilt; rely on log claim but verify the log content.
+  4. Read the sentinel code; run tests; run probe dry-run.
+  5. Check matrix line 27.
+  6. Check 王语嫣's 存在性核查 file and independently verify "无任务单记录" claim.
+
+  Let me run things in parallel.
+
+• 任务单已读。开始终审：先做版本对齐三问和交付物存在性核查。6d22f0f92 2026-09-02 23:38:26 +0800 编排：重复建议书划销+#622终审拉起+回声清
+fe9538c48 2026-09-02 23:36:43 +0800 chore(queue): #622 complete by huangyaoshi-kimi
+8c70895cd 2026-09-02 23:36:42 +0800 chore(queue): #622 claim by huangyaoshi-kimi
+ M 90_control/gate-blocked.log
+ M 90_control/l1-size.log
+ M 90_control/notification-coverage-matrix.md
+ M 90_control/role-registry.json
+ M 90_control/scripts/.derived-hashes.json
+ M 90_control/todos/huangyaoshi.md
+ M 90_control/todos/laowantong.md
+ M 90_control/todos/ouyangfeng.md
+ M kdo-tools/__pycache__/conveyor_probe.cpython-312.pyc
+ M kdo-tools/conveyor_probe.py
+ M kdo-tools/tests/__pycache__/test_conveyor_probe.cpython-312-pytest-9.0.3.pyc
+ M kdo-tools/tests/test_conveyor_probe.py
+ M logs/conveyor-probe.log
+ M logs/l1-capture.log
+ M logs/role-clock.log
+?? 10_raw/sources/src_2026-09-02_wechat_af50baaada5fc2f2.md
+?? 60_feedback/diagnosis/prop_20260902_ouyangfeng-toutiao-shortlink-canonical-key.md
+?? logs/headless-huangyaoshi-20260902-232500.log
+?? logs/headless-ouyangfeng-20260902-232445.log
+?? logs/headless-ouyangfeng-20260902-233807.log
+total 83280
+drwxr-xr-x 1 Administrator 197121        0 Sep  2 23:29 .
+drwxr-xr-x 1 Administrator 197121        0 Sep  2 23:37 ..
+-rw-r--r-- 1 Administrator 197121  6507768 Sep  2 23:29 graph_chunk_entity_relation.graphml
+-rw-r--r-- 1 Administrator 197121 19266425 Sep  2 23:29 kv_store_text_chunks.json
+-rw-r--r-- 1 Administrator 197121 31377162 Sep  2 23:29 vdb_chunks.json
+-rw-r--r-- 1 Administrator 197121  7663094 Sep  2 23:29 vdb_entities.json
+-rw-r--r-- 1 Administrator 197121 20446967 Sep  2 23:29 vdb_relationships.json
+82M	.kdo/graph_index/
+<string>:57: UserWarning: WARNING: log_level parameter is deprecated, use setup_logger in utils.py instead
+INFO: Creating working directory C:\Users\Administrator\Desktop\wiki\.kdo\graph_index
+INFO: [] Created new empty graph file: C:\Users\Administrator\Desktop\wiki\.kdo\graph_index\graph_chunk_entity_relation.graphml
+INFO:nano-vectordb:Init {'embedding_dim': 384, 'metric': 'cosine', 'storage_file': 'C:\\Users\\Administrator\\Desktop\\wiki\\.kdo\\graph_index\\vdb_entities.json'} 0 data
+INFO:nano-vectordb:Init {'embedding_dim': 384, 'metric': 'cosine', 'storage_file': 'C:\\Users\\Administrator\\Desktop\\wiki\\.kdo\\graph_index\\vdb_relationships.json'} 0 data
+INFO:nano-vectordb:Init {'embedding_dim': 384, 'metric': 'cosine', 'storage_file': 'C:\\Users\\Administrator\\Desktop\\wiki\\.kdo\\graph_index\\vdb_chunks.json'} 0 data
+INFO: [] Process 21932 KV load full_docs with 0 records
+INFO: [] Process 21932 KV load text_chunks with 0 records
+INFO: [] Process 21932 KV load full_entities with 0 records
+INFO: [] Process 21932 KV load full_relations with 0 records
+INFO: [] Process 21932 KV load entity_chunks with 0 records
+INFO: [] Process 21932 KV load relation_chunks with 0 records
+INFO: [] Process 21932 KV load llm_response_cache with 0 records
+INFO: [] Process 21932 doc status load doc_status with 0 records
+INFO: Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+INFO: [] Writing graph with 3620 nodes, 6694 edges
+INFO: In memory DB persist to disk
+Full rebuild: 2428 pages, 5267 chunks, 6705 relations...
+Done. 2428 entities indexed.
+Index stored at: C:\Users\Administrator\Desktop\wiki\.kdo\graph_index
+
+
+• Important finding: working tree is DIRTY — conveyor_probe.py and test_conveyor_probe.py are modified but NOT committed. Last commits at 23:36/23:38 are queue/metadata commits. So the sentinel code change appears uncommitted! Check: is the modification to conveyor_probe.py the new signal? Let me diff.
+
+  Version alignment question 1 (入仓了吗): changes in working tree not committed = 修复未提交=不存在. Let me verify with git diff stat and check if _scan_graph_index_health exists in HEAD version.
+
+• 工作区显示 `conveyor_probe.py` 和测试文件是未提交修改——需要核实哨兵代码是否已入仓。warning: in the working copy of 'kdo-tools/tests/test_conveyor_probe.py', LF will be replaced by CRLF the next time Git touches it
+ kdo-tools/conveyor_probe.py            | 40 ++++++++++++++++++++
+ kdo-tools/tests/test_conveyor_probe.py | 68 ++++++++++++++++++++++++++++++++++
+ 2 files changed, 108 insertions(+)
+0
++def _scan_graph_index_health(state: dict, max_lag_h: float = 48) -> list[str]:
++    """#622 第十一信号：graph_index 健康哨兵——空目录 / 0 records / 陈旧超 48h 告警。
++    背景：08-31 整树事故清空 .kdo/graph_index（0 字节，mtime 02:11 落事故窗口），
++    gdir = ROOT / ".kdo" / "graph_index"
++    prev = state.get("graph_index_issue")
++    state["graph_index_issue"] = issue
++    infra_alerts += _scan_graph_index_health(state)  # #622 第十一信号：graph_index 空/0records/陈旧告警
+bb51502d4 feat(#607): vault backup系统级调度化（schtasks kdo-vault-git-backup 30min S4U）+探针第十信号backup停拍>24h报警+矩阵行24
+80acead28 #568 GBK族根治：subprocess指定utf-8/replace+fail-open门禁可见化+入口reconfigure补齐+probe通知打印走stderr by huangyaoshi
+4f7c1bd3c #562 心跳语义修复(消费回执)+第五探针多行记录聚合+SessionHeartbeat钩 by huangyaoshi
+543f15de4 #556 FAIL修复：信号自身任务单自排+终审记录节行首锚定（P1/P2）
+878e0b981 #556 待老朱拍板上浮信号：conveyor_probe第八信号+digest⑤栏+矩阵#21
+
+
+• Critical finding: the sentinel code is in working tree only, NOT committed (HEAD version has 0 occurrences of _scan_graph_index_health). Per 终审版本对齐核验 #362: "入仓了吗：git log 含交付 commit？——修复未提交=不存在". This would be a FAIL condition... BUT wait — the claim commit at 23:36 "chore(queue): #622 claim" — but the code change itself seems uncommitted. Let me double check: maybe there are other working-tree changes that are normal (todos, logs). The conveyor_probe.py +40 lines and test +68 lines are uncommitted.
+
+  Hold on — also notification-coverage-matrix.md is modified uncommitted. So the entire deliverable (code + tests + matrix registration) is uncommitted in working tree.
+
+  Per #362 gate: code task, 入仓了吗 = NO → 不予终审，退回收口. That's a blocking FAIL.
+
+  But wait — should I double-check that there isn't another branch or that the commit is pending? Also, the #621 review at 23:30 passed with commit 1f89e2d86 入仓. For #622, claim/complete commits exist but the code itself is uncommitted.
+
+  Also need to check the pyc files — conveyor_probe.cpython-312.pyc modified, consistent with new code compiled.
+
+  Also, 生效了吗: conveyor_probe runs via scheduled task/cron? If probe runs periodically via schtasks, it will load the .py file fresh each run — working tree file is what runs. But the #362 rule explicitly says uncommitted = nonexistent. Also the queue's complete happened at 23:36:43 while code edits presumably were done before... uncommitted anyway.
+
+  Let me also verify the rest of acceptance before deciding verdict — do the functional verification so the FAIL list is complete (or confirm pass-worthy items). But per #362, "任一答否=不予终审，退回收口". The rule says don't even review; but it's better to quickly verify function so that re-submit is quick. However, minimal: the primary blocker is uncommitted code.
+
+  Let me be thorough enough to also verify functionality so I can say "once committed, re-submit" and give the full check results. Do the functional checks now:
+
+  1. Run the 4 sentinel tests + full probe regression (47 passed claimed).
+  2. Dry-run probe to check state key graph_index_issue.
+  3. Run the colloquial query to verify semantic leg works.
+  4. Check matrix line 27.
+  5. Negative assertion: "无任何任务单/工单记录指向该目录操作" — 存在性核查 anchor missing (#433 flagged). Check 王语嫣's 存在性核查 referenced in decision_source.
+
+  Let me run these in parallel................................................                          [100%]
+47 passed in 0.40s
+| 8 | near-miss 三元组违例 | conveyor_probe `_proposal_near_miss` + `_escalate_near_miss` | 仅日志 print + **≥3 轮未修正升级推王语嫣收件箱**（修正自动消项） | 王语嫣 | defer（非终审类） | ✅ #536 销项 |
+| 9 | inbox 新素材 | watch_inbox `_notify_inbox`（#605：扫描面裁剪=00_inbox 顶层+pending-cards/ 白名单，Handle/_vlm_output/ocr_ingest 等大目录树出扫描面；dispatch 台账落盘停发下线——17 份零签收、职能并入看门狗 v5，看板登记+收件箱推送两通道不变。#619：白名单回补管线落点——#605 误裁 wechat-collect/video_transcripts/video_transcripts_small 出扫描面（05:47 六件漏登记实证），扫描面=顶层+SCAN_SUBDIRS 四目录白名单；白名单内 _ 前缀目录段与 wechat-collect/knowledge/（promote 中间产物，另有 pending-cards 落点）跳过防重复登记；EXCLUDE_DIRS 机制随白名单化移除） | 看板待编排区 + **王语嫣收件箱推送** | 王语嫣 | defer（P0 也静默落盘带 🔕） | ✅ #530 销项；#605 裁剪+台账停发；#619 落点回补 |
+| 10 | friction 事件 | conveyor_probe `_scan_friction` | memory_capsule 事件层 | 复盘层可见 | — | #511 |
+| 11 | 基础设施单 reviewed 总账未同步 | conveyor_probe `_matrix_sync_check`（第七信号） | 推送 | 欧阳锋+抄送王语嫣 | defer（非终审类） | #537（本单=元狗粮首查对象） |
+| 12 | VLM/OCR 卡缺两段式隔离 | kdo pre-submit `_check_vlm_two_section`（#540） | pre-submit WARNING（提审输出可见） | 生产者 | — | #540（WARNING 起步，存量批次王语嫣裁定） |
+| 12 | 终审改判（review --override，reviewed→queued） | queue_transition | 任务单改判记录节+台账（--reason 必填）+failback 通知 | 改判权=终审者专用 | — | #538（⚠️交付漏登，第七信号真阳性拦获，王语嫣 08-26 补登） |
+| 13 | 检索结果低置信/冲突警告 | kdo_search 输出字段（confidence_flag/trust_level/conflict_warning）+标题后缀 | MCP 检索响应（消费 agent 可见） | 全体消费 agent | — | #541（trust 加权排序+conflict_with 警告，协议互链 consumer-retrieval-protocol） |
+| 14 | source_refs 死引超基线 | check-source-refs（health-check 每日 02:07，--max-missing 1024/--max-contaminated 8 阈值制） | health-check FAIL + 报告落盘 60_feedback/analysis/source-refs-health-latest.{md,json} | 黄药师（治理）/王语嫣（阈值下调裁定） | — | #543（行号锚剥除+聚类治理报告；治理批次待王语嫣裁定） |
+| 15 | 胶囊写入失败/只读自愈 | memory_capsule `log_event_safe`（#545：清只读属性自愈+退避重试+取证升级） | stderr + pending-git-commits.log（含 payload+db/wal/shm 属性快照） | 黄药师 | — | #545（readonly 复发 14 次根因取证：db 被外部置只读属性，置位者未抓到现行=环境性） |
+| 16 | 产卡概念交叉验证 WARNING | kdo pre-submit `_check_concept_crosscheck`（#542：正文命中已有 concept/framework 概念词→提示对账，词表自动构建+mtime 缓存） | pre-submit WARNING（提审输出可见，不拦截） | 生产者 | — | #542（小昭事故根因 3 降档版：机器做存在性，人做正确性） |
+| 17 | 终审权校验拒止（未登记实例 review） | queue_transition `_check_review_authority`（#546：cwd 无 ouyangfeng 登记 → 拒止；force 逃生落 force 台账） | 终端拒止提示 + gate-blocked 台账（第五探针可见） | 欧阳锋（登记一次即可） | — | #546（一具两职事件根治轻量版；登记表 .kdo/active-instances.json 供探针活性展示） |
+| 18 | 基建停拍报警（l1-capture/conveyor/inbox-watch 停拍>2×周期） | conveyor_probe 第九信号 `_scan_infra_liveness`（10 分钟级，跨越沿幂等） | 推王语嫣 + gate-blocked.log 台账 | 王语嫣 | defer（夜间静默口径不动，台账恒写） | #547（console-killer 事件防复发；17h 延迟教训：health-check 日级太慢） |
+| 19 | token 日计量汇总 | token_meter.py（挂 kdo-health-daily 02:07；三引擎增量游标，不回溯历史） | 日汇总落 60_feedback/analytics/token-usage-*.md/json + 事件层 token_usage | 黄药师/风清扬（#514 基线接口） | — | #549（只计量不限制；配额熔断属 F-055 阶段 2/3） |
+| 20 | 角色时钟唤醒（【叫醒】） | role_clock.py（schtasks kdo-role-clock 5min；pace 到点/欧阳锋事件驱动）；**#565：载荷附 REVIEW-PENDING 明细（单号+挂起时长+阻塞谁，挂起>30min 升 🚨 加急）+ kimi-cli 门铃三层（会话级最小 cron 自装/SessionStart 钩注入自检/OS 级 kdo-huangyaoshi-doorbell 15min 兜底带活着跳过守卫）** | todos/<role>.md 恒落 + active 实例 feishu 适配；唤醒日志 .kdo/role-clock.log（不进胶囊——防 on_duty 自欺） | 全角色 | 不适用（唤醒本身就是在岗激活器） | #553+#555（四角色全开通；会话级 cron 已换轨停用；误发>漏发，降级不切执行权）；#565（落盘≠唤醒断点修复：门铃不做调度决策只按门铃，调度权仍归 role_clock） |
+| 21 | 待老朱拍板上浮（reviewed + 拍板关键词） | conveyor_probe 第八信号 `_scan_pending_decision`（关键词前挂形态：老朱拍板/待老朱/需老朱/待拍板/需拍板/请老朱/待你拍板；向前生效 20260827 不回扫存量；队列侧只匹配备注列防名称列自举） | 新增即时推飞书 wangyuyan 群（老朱在群实测可达，本人 08-27 确认）+ todos 落盘 + daily-audit-digest ⑤「待你拍板」固定栏（每日在列直到字样移除/状态离开 reviewed 自动消项） | 老朱 | 无在岗 defer 同 #550 统一口径 | #556（#525 拍板断链两天实证；干跑校准：bare「拍板」命中已决归因→改前挂形态，「老朱已拍板」天然不匹配；消项不推送仅 stdout 留痕） |
+| 22 | 角色全死自报（role-liveness） | role_registry `check_liveness`（挂 role_clock 5min；heartbeat 年龄 >2×该角色节奏=疑似死亡；**#562 起同角色 2h 报警冷却——只压频不删报、首次必报、恢复清零重新武装**；心跳写面=queue_transition 消费回执（myqueue/claim/complete/release/review）+ kimi-cli SessionHeartbeat 钩，消费回执=心跳） | gate-blocked.log 台账 → 第五探针拾取推送 | 王语嫣 | — | #552 信号上线（#562 前漏登矩阵，08-28 终审抄送补课）；#562 冷却+心跳语义修复（08-27 报警风暴 25+ 条误报止血） |
+40:| 27 | graph_index 空目录/0 records/陈旧超 48h | conveyor_probe 第十一信号 `_scan_graph_index_health`（空目录/缺失→报；graphml `<node` 字节扫描 0 节点→报；陈旧口径=graphml mtime 落后 search_index.json 超 48h——#356 双索引同步语义，规避手动重建节奏的绝对时间误报；沿触发幂等，恢复重新武装，原因切换重报；只告警不动作） | 并入第九信号 infra_alerts 通道：gate-blocked.log 台账 + 推王语嫣 | 王语嫣 | defer（同第九信号口径，台账恒写） | #622（08-31 事故清空 graph_index 语义腿空转 2 天无人发现；「修完没加哨兵=同类事故必再发」#357/#358 模式闭环） |
+{"new_review": [], "new_queued": [], "registered": [], "near_miss": ["diag_20260826_ouyangfeng-feature-json-mojibake.md｜type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）", "diag_20260831_huangyaoshi-mnemosyne-dogfood.md｜status=REVIEW-PENDING 疑似待编排但非 pending_orchestration"], "pending_decisions": 7, "notified": [], "silent": false, "instances": {"count": 11, "roles": ["huangyaoshi", "huangyaoshi-kimi", "laowantong", "laowantong-kimi", "ouyangfeng", "ouyangfeng-kimi", "skills-assistant", "skills-assistant-kimi", "wangyuyan", "wangyuyan-kimi-0902", "wyy-cli-0902"], "latest": "2026-09-02T23:36:42"}}
+The dry-run JSON doesn't show graph_index_issue state key. Check the state file — where does conveyor_probe keep state? Probably .kdo/conveyor-state.json or similar. Also check whether dry-run triggers the graph_index scan. Let me check the code and state file.kdo-tools/conveyor_probe.py:947:    prev = state.get("graph_index_issue")
+kdo-tools/conveyor_probe.py:948:    state["graph_index_issue"] = issue
+.kdo/conveyor_state.json:987:  "graph_index_issue": null
+CAPSULE_STARTUP.md
+active-instances.json
+backups
+batch_skill_extract.py
+capsule_sync.py
+concept-vocab-cache.json
+conveyor_state.json
+graph_index
+graph_state.json
+inbox_state.json
+role-clock-state.json
+role-clock.log
+role-liveness-alert-state.json
+search_index.json
+search_index.json.pkl
+state.json.migrated
+state.sqlite
+state.sqlite.lock
+time-capsule.db
+time_capsule.py
+token-meter-state.json
+wakeup-554-dualrun.log
+def _scan_graph_index_health(state: dict, max_lag_h: float = 48) -> list[str]:
+    """#622 第十一信号：graph_index 健康哨兵——空目录 / 0 records / 陈旧超 48h 告警。
+
+    背景：08-31 整树事故清空 .kdo/graph_index（0 字节，mtime 02:11 落事故窗口），
+    hybrid RRF 语义腿空转 2 天无人发现——「修完没加哨兵=同类事故必再发」（#357/#358 模式）。
+    只告警不动作（本单红线）。幂等=沿触发：同一异常原因只报一次，恢复后重新武装，
+    异常原因切换（如 空→0 records）重报。
+    陈旧口径：graphml mtime 落后 search_index.json 超 48h（#356 双索引同步语义）——
+    graph rebuild 是手动节奏，绝对 mtime 48h 会把正常静默期误报成事故；
+    search_index 随卡片写入增量更新，是相对基准钟。search_index 读不出 → 跳过陈旧项。
+    graphml 读不出 → 不报（不误报红线，同 _beat_age_minutes None 口径）。
+    """
+    gdir = ROOT / ".kdo" / "graph_index"
+    graphml = gdir / "graph_chunk_entity_relation.graphml"
+    issue = None
+    try:
+        if not gdir.is_dir() or not any(gdir.iterdir()):
+            issue = "目录空/不存在"
+        elif not graphml.is_file():
+            issue = "graphml 缺失（半建状态）"
+        else:
+            # 0 records：graphml 节点数字节扫描（<node 前缀计数，不解析 XML——6MB 级文件毫秒级）
+            if graphml.read_bytes().count(b"<node ") == 0:
+                issue = "graphml 0 records"
+            else:
+                search_idx = ROOT / ".kdo" / "search_index.json"
+                if search_idx.is_file():
+                    lag_h = (search_idx.stat().st_mtime - graphml.stat().st_mtime) / 3600
+                    if lag_h > max_lag_h:
+                        issue = f"陈旧（落后 search_index {lag_h:.0f}h，阈值 {max_lag_h:.0f}h）"
+    except Exception:
+        return []
+    prev = state.get("graph_index_issue")
+    state["graph_index_issue"] = issue
+    if issue and issue != prev:
+        return [f"graph-index｜{issue}"]
+    return []
+
+
+# ── #556 第八信号：待老朱拍板事项上浮（设计→拍板→实施断链修复）──
+# #525 PASS A 后「需要谁动作：老朱拍板」沉在任务单里两天无人上浮——待拍板=流程咽喉但没有信号面。
+# 检出：队列 reviewed 且（任务单终审记录节 or 队列备注列）含拍板关键词 → 在列；
+# 上浮：新增即时推飞书（老朱在群实测可达）+ daily-audit-digest ⑤ 固定栏每日在列；
+# 消项：字样移除 / 状态离开 reviewed（进入实施/退回/归档）→ 下一拍自动出列。
+
+# 任务书口径：从简，误报宁可多。两个防噪声校准（2026-08-27 活体干跑实证）：
+# ①「拍板」只认前挂形态（老朱拍板/待拍板/需拍板）—— bare「拍板」会命中已决记录
+#   （「老朱08-27拍板落地」= 拍板动作的历史归因，非待决），干跑实测 #551/#552 双误报；
+# ②「老朱已拍板」天然不匹配（「已」隔断「老朱拍板」）——已决标记不写排除规则也安全。
+_DECISION_RE = _re.compile(r"老朱拍板|待老朱|需老朱|待拍板|需拍板|请老朱|待你拍板")
+# 向前生效（#506 同款）：只扫生效日及之后立案的任务单，存量历史单既往不咎防首轮噪声洪泛
+_DECISION_EFFECTIVE_DATE = "20260827"
+_TASK_DATE_RE = _re.compile(r"^task_(\d{8})_")
+# #556 终审 FAIL P1 修复：信号自身任务单自排——本单正文/终审记录含教学示例关键词永真命中，
+# 两条消项路径（字样移除/状态翻 reviewed）对它都无效 = 永久自举误推。后续改造本信号的单
+# 同样含示例 wording，同法自排登记在此。
+_DECISION_SELF_EXCLUDE = {"task_20260827_huangyaoshi-pending-laozhu-decision-signal"}
+
+
+def _decision_effective(task_id: str) -> bool:
+Code looks reasonable. State file has graph_index_issue: null (armed, healthy). Dry-run ran fine.
+
+  Now the functional verification:
+  1. Rebuild numbers — log confirms 2428 pages/5267 chunks/6705 relations. Graphml exists 6.5MB with nodes. Let me verify node count in graphml: grep -c "<node " — bytes count. And vdb counts.
+  2. Colloquial query — run `kdo graph query "我卖护肤品的，怎么让犹豫的客户快点下单"`.
+
+  Also negative assertion check: "无任何任务单/工单记录指向该目录操作" — no 存在性核查 anchor in the report (#433). Machine pre-check flagged it. I was blocked on this once in #615 and required a 存在性核查锚点. Consistency: should this block? The claim "无任务单记录" — can I verify quickly? Grep 60_feedback/tasks + production-queue for graph_index 清空/删除 references. Also decision_source cites 王语嫣's 存在性核查 in diag file — let me check that diag file whether it covers the "无任务单" negative claim.
+
+  But regardless, the primary FAIL is version alignment Q1: code uncommitted. Per #362: "任一答'否'= 不予终审，退回收口". The deliverable code (conveyor_probe.py +108 lines, tests, matrix edit) is uncommitted — 修复未提交=不存在. Note: probe reads the .py at runtime so functionally it's live, but rule is explicit: 入仓了吗 = NO → FAIL.
+
+  Wait — check: is the wiki repo where conveyor_probe lives the same repo? Yes, kdo-tools is inside wiki. The last commits fe9538c48/8c70895cd are queue chore commits; they didn't include code. So yes, uncommitted.
+
+  Let me still quickly verify the query works and the graphml node count, so the FAIL report can say "功能面已验证，只差入仓收口" — that makes the FAIL narrow and quick to fix. Also check the negative claim quickly.
+
+  Also check 生效了吗 Q2: probe runs via scheduler? role_clock/schtasks. Since probe loads code fresh each invocation, working tree code is what will run. But if it's not committed, a vault backup/checkout could lose it. Also `.derived-hashes.json` modified — related to scripts hash check.
+
+  Let me run the graph query.3620
+6694
+C:\Program Files\Python312\python.exe: can't open file 'C:\\Users\\Administrator\\Desktop\\wiki\\kdo-tools\\kdo': [Errno 2] No such file or directory
+kdo-tools/kdo-conveyor-probe.cmd
+kdo-tools/kdo-doorbell.cmd
+kdo-tools/kdo-l1-capture.cmd
+kdo-tools/kdo-quality-metrics.cmd
+kdo-tools/kdo-role-clock.cmd
+kdo-tools/kdo_doorbell_guard.py
+kdo-tools/kdo_session_boot_hook.py
+kdo-tools/kdo_session_heartbeat_hook.py
+/c/Program Files/Python312/Scripts/kdo
+kdo-tools/aesthetic-library-builder.py
+kdo-tools/agent-activity-check.py
+kdo-tools/agent-prompt-compiler.py
+kdo-tools/agent-status.py
+kdo-tools/agent-trace.py
+kdo-tools/audit-review-integrity.py
+kdo-tools/build_seed.py
+kdo-tools/canvas-agent.py
+kdo-tools/card-reader.py
+kdo-tools/collect_wechat.py
+kdo-tools/conveyor_probe.py
+kdo-tools/daily-audit-digest.py
+kdo-tools/daily-context-save.py
+kdo-tools/decision_add.py
+kdo-tools/dedup_sources.py
+kdo-tools/douyin_cookie_extract.py
+kdo-tools/douyin_user_videos.py
+kdo-tools/feature_menu.py
+kdo-tools/file-flow-check.py
+kdo-tools/fix-review-status.py
+<string>:57: UserWarning: WARNING: log_level parameter is deprecated, use setup_logger in utils.py instead
+INFO: [] Loaded graph from C:\Users\Administrator\Desktop\wiki\.kdo\graph_index\graph_chunk_entity_relation.graphml with 3620 nodes, 6694 edges
+INFO:nano-vectordb:Load (2416, 384) data
+INFO:nano-vectordb:Init {'embedding_dim': 384, 'metric': 'cosine', 'storage_file': 'C:\\Users\\Administrator\\Desktop\\wiki\\.kdo\\graph_index\\vdb_entities.json'} 2416 data
+INFO:nano-vectordb:Load (6694, 384) data
+INFO:nano-vectordb:Init {'embedding_dim': 384, 'metric': 'cosine', 'storage_file': 'C:\\Users\\Administrator\\Desktop\\wiki\\.kdo\\graph_index\\vdb_relationships.json'} 6694 data
+INFO:nano-vectordb:Load (5243, 384) data
+INFO:nano-vectordb:Init {'embedding_dim': 384, 'metric': 'cosine', 'storage_file': 'C:\\Users\\Administrator\\Desktop\\wiki\\.kdo\\graph_index\\vdb_chunks.json'} 5243 data
+INFO: [] Process 28952 KV load full_docs with 0 records
+INFO: [] Process 28952 KV load text_chunks with 5243 records
+INFO: [] Process 28952 KV load full_entities with 0 records
+INFO: [] Process 28952 KV load full_relations with 0 records
+INFO: [] Process 28952 KV load entity_chunks with 0 records
+INFO: [] Process 28952 KV load relation_chunks with 0 records
+INFO: [] Process 28952 KV load llm_response_cache with 0 records
+INFO: [] Process 28952 doc status load doc_status with 0 records
+INFO: Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+INFO: Query nodes: ��������Ʒ�ģ���ô����ԥ�Ŀͻ�����µ� (top_k:10, cosine:0.2)
+INFO: Local query: 10 entites, 53 relations
+INFO: Query edges: ��������Ʒ�ģ���ô����ԥ�Ŀͻ�����µ� (top_k:10, cosine:0.2)
+INFO: Global query: 16 entites, 10 relations
+INFO: Naive query: 5 chunks (chunk_top_k:5 cosine:0.2)
+INFO: Raw search results: 24 entities, 61 relations, 5 vector chunks
+INFO: After truncation: 24 entities, 61 relations
+INFO: Selecting 22 from 22 entity-related chunks by vector similarity
+INFO: Find no additional relations-related chunks from 61 relations
+INFO: Round-robin merged chunks: 27 -> 27 (deduplicated 0)
+INFO: Final context: 24 entities, 61 relations, 5 chunks
+INFO: Final chunks S+F/O: C1/1 E1/1 C1/2 E1/2 C1/3
+Query: 我卖护肤品的，怎么让犹豫的客户快点下单
+Mode:  mix
+Found: 5 chunks, 24 entities, 61 relations, 5 references
+
+--- Chunks ---
+
+[C:\Users\Administrator\Desktop\wiki\30_wiki\frameworks\framework-content-business-six-step.md]
+# 内容经营 6 步闭环
+
+> **Burn line**: 带商业目的的内容不是创作，而是经营。你不是在追求爆款，而是在用内容一笔一笔地积累信任资产。
+
+Query works — semantic leg restored, hits real content (24 entities, 61 relations, 5 chunks). Good.
+
+  Now negative assertion: "无任何任务单/工单记录指向该目录操作". Quick verification: grep tasks for graph_index deletions. Also check the decision_source diag file (王语嫣's 存在性核查）.60_feedback/tasks/task_20260703_huangyaoshi-yitang-Y-model-root-infrastructure.md
+60_feedback/tasks/task_20260818_huangyaoshi-graph-embedding-pipeline.md
+60_feedback/tasks/task_20260818_huangyaoshi-mcp-coldload-architecture.md
+60_feedback/tasks/task_20260818_huangyaoshi-mcp-coldload-stopgap.md
+60_feedback/tasks/task_20260818_huangyaoshi-mcp-search-fixes.md
+60_feedback/tasks/task_20260819_huangyaoshi-health-check-drift.md
+60_feedback/tasks/task_20260902_huangyaoshi-graph-index-rebuild-sentinel.md
+70_product/tasks/archive/production-queue-archive-20260823.md
+70_product/tasks/dashboard.html
+70_product/tasks/production-queue.md
+---
+60_feedback/diagnosis/diag_20260902_external-audit-graph-index-empty-recur.md:70:## 王语嫣裁定（09-02 23:25）：存在性核查通过（graph_index 0 字节，mtime 08-31 02:11 落整树事故窗口）——「复发」定性修正为「事故清空+无哨兵未重建」；采纳立项 #622（重建+哨兵，P1）。容量衔接归 F-010（等老朱拍板）。
+The tasks mentioning graph_index — none of them are about clearing it (task_20260703 Y-model infra, #357/#358-era graph embedding pipeline tasks are about building). So the negative claim "无任何任务单/工单记录指向该目录操作" holds per my quick grep of tasks dirs. But the report itself lacks a `**存在性核查**` anchor (#433). Machine pre-check flagged 🔴. In #615 I required the anchor as a fix once blocked. Consistency says this should be a P1 in the FAIL list — but it's a report-form issue; the claim is verifiable and I verified it holds. Per discipline (#433: 负向判词必须附核查节，否则不闭环）, it's a formal blocker. However, since the FAIL is already warranted by the uncommitted code (#362), I'll include this as P1 in the FAIL list so resubmission fixes both.
+
+  Decision: FAIL.
+
+  Reasons:
+  - P0: #362 版本对齐三问第一问"入仓了吗"=否。交付核心代码（conveyor_probe.py +40、test_conveyor_probe.py +68、notification-coverage-matrix.md 行 27、.derived-hashes.json）全部停留在工作区未提交——`git show HEAD:kdo-tools/conveyor_probe.py | grep -c _scan_graph_index_health` = 0。未提交=不存在；且 vault backup auto-commit 等场景下工作区代码可能丢失，哨兵"已上线"结论不成立。
+  - P1: 执行报告负向判词"无任何任务单/工单记录指向该目录操作"无 `**存在性核查**` 锚点（#433，机器预审已 🔴 提示）。我独立 grep 60_feedback/tasks + 70_product/tasks 确认无指向清空的工单，判词本身成立，但按纪律需补核查节。
+
+  What I verified as good (so re-submission is fast):
+  - 重建产物实测：graphml 3620 nodes / 6694 edges 与日志一致；2428 pages/5267 chunks/6705 relations 日志记录齐全；vdb 加载 2416 entities/5243 chunks 正常。
+  - 口语化查询实证：「我卖护肤品的…」→ 5 chunks/24 entities/61 relations，命中内容经营/转化相关卡，语义腿复明确认。
+  - 哨兵：47 passed（含新增 4 条）；dry-run 健康态无告警；state 键 graph_index_issue=null 落位；代码审查：三档检测、幂等沿触发、恢复重新武装、陈旧相对口径合理（认可 search_index 相对口径判断——回答执行报告"需要谁动作"的提问）。
+  - matrix 行 27 登记内容准确（在工作区中）。
+
+  Also O9: write 终审记录 to task file FIRST, then run queue_transition review --verdict fail. And FAIL 结构化四节： P0/P1/P2 清单 + 字段级定位 + 证据 + 期望形态.
+
+  Note the task file has CRLF line endings (\r shown). When editing, need to include \r escapes or append. Appending with Write append mode is safer for CRLF file. I'll append the 终审记录 section with Edit... Edit requires exact \r escapes. Simpler: use Bash python or Write append. Write append adds content at EOF. The file ends with line 74 content. I'll append with a leading newline. Use Write append mode.
+
+  Wait, check whether line 74 ends with newline. Use append with "\n## 终审记录..." — if file ends without newline it will join. Let me just use bash printf >> or Write append. Write append "does not add a newline" — it appends exactly. I'll start content with "\n" to be safe; if file already ends with \n, we get a blank line — fine.
+
+  Actually file shows \r line endings; appending LF lines creates mixed endings — acceptable (mixed already shown). Fine.
+
+  终审记录 content (FAIL structured four sections):
+
+  ## 终审记录（2026-09-02 欧阳锋，FAIL）
+
+  **Verdict**: FAIL（退回收口）｜methodology_version: v2.3 ｜ #362 版本对齐门禁触发
+
+  ### P0/P1/P2 清单
+  - 🔴 P0: 交付代码未入仓——conveyor_probe.py（+40）、tests/test_conveyor_probe.py（+68）、notification-coverage-matrix.md（行 27）、.derived-hashes.json 均在 git 工作区未提交
+  - 🟡 P1: 执行报告负向判词"无任何任务单/工单记录指向该目录操作"缺 `**存在性核查**` 锚点（#433）
+  - P2: 无
+
+  ### 字段级定位
+  - 执行报告「交付物」②④（任务单 L49）；「完成内容」③（L51 根因注记段）
+
+  ### 证据
+  - `git show HEAD:kdo-tools/conveyor_probe.py | grep -c _scan_graph_index_health` = 0；`git status` 显示该四文件 M 未提交；HEAD=6d22f0f92（23:38 编排提交）不含本单代码
+  - 负向判词在 L51；任务单全文无 `存在性核查` 锚点（机器预审 🔴 同判）
+
+  ### 期望形态
+  1. 提交本单全部交付变更（代码+测试+matrix+派生哈希）为一个 commit，re-claim→complete 后重报
+  2. 执行报告根因注记段补「存在性核查」小节：检索范围（60_feedback/tasks + 70_product/tasks grep graph_index 清空/删除指向）+ 结论
+
+  ### 已验证成立项（重报无需重复证明，引用即可）
+  - 重建产物：graphml 3620 nodes/6694 edges 与日志 2428 页/5267 chunks/6705 relations 一致；.kdo/graph_index 82MB
+  - 口语化查询复明：「我卖护肤品的…」mix 模式 Found 5 chunks/24 entities/61 relations，命中内容经营六步闭环等卡
+  - 哨兵：pytest 47 passed（新增 4 条含空目录/0records/陈旧 50h 告警+10h 不告/恢复重新武装）；dry-run 健康态无告警、state 键 graph_index_issue=null 落位
+  - 陈旧相对口径（graphml mtime 落后 search_index.json >48h）判断认可：回答任务单「需要谁动作」之问——相对基准钟规避手动重建节奏误报，合理
+  - matrix 行 27 登记内容准确（工作区版）
+
+  **残余风险**：工作区未提交代码若被 vault backup 回滚/清理，哨兵静默消失——正是 P0 要堵的口。
+
+  Then run: python 90_control/scripts/queue_transition.py review 622 --verdict fail --reviewer 欧阳锋
+
+  Then update todos/ouyangfeng.md line.
+
+  Wait — 指令说"review 流转后落 todos"。Also do I need 抄送王语嫣？ That's for PASS. FAIL goes back to queue, no cc needed per rules （出口 3 = FAIL 结构化四节）.
+
+  Also 出口自检钩子： did I find any 建议 needing a diagnosis proposal? The uncommitted-code issue — is that a systemic pattern worth a suggestion? #362 already covers it; the executor just missed it. That's a discipline issue, not a new suggestion. But the failure pattern "complete 前无未提交自检门禁" — could suggest adding a pre-submit check for uncommitted deliverables? That IS a suggestion about infrastructure/process. Per the 🔴🔴 hook: any suggestion → write proposal. Hmm. The queue_transition complete could check git dirty state of declared deliverables. That's a genuine process suggestion. Per rule "任何建议都要写建议书落 60_feedback/diagnosis/". Let me check whether such a proposal already exists (probe machine pre-check ① 声称-交付差集 checks paths but not git status?). The 机器预审 has 存在性核查 of deliverable paths but not committed-ness. A minimal proposal: queue_transition complete adds "交付物未入仓" warning check for code tasks. I'll write a minimal 三行 proposal file to be compliant.
+
+  Let me check naming convention: prop_YYYYMMDD_ouyangfeng-<slug>.md. Earlier ones: prop_20260902_ouyangfeng-kdo-tools-pytest-root-runnable etc. I'll write prop_20260902_ouyangfeng-complete-gate-uncommitted-deliverables.md with minimal three lines plus a bit of evidence.
+
+  Check probe auto-registration: "探针自动登记" — there's a friction/probe that scans diagnosis dir. Fine.
+
+  Steps:
+  1. Append 终审记录 to task file (Write append).
+  2. Run review fail.
+  3. Write minimal proposal.
+  4. Append todos line.
+
+  For append, mind CRLF: Write appends literal \n. Acceptable.
+
+• 核查完毕，结论明确。按 O9 先落终审记录（FAIL 结构化四节）到任务单，再跑流转脚本。
+
+任务 622 不在队列中
+• Task 622 not in production-queue.md? Check queue file for 622 row.256:| 622 | `task_20260902_huangyaoshi-graph-index-rebuild-sentinel` | graph_index归零重建（08-31事故清空，语义腿空转2天）+健康哨兵机制化（空/0records/陈旧48h告警） | pending_review | huangyaoshi | 重建记录+口语化查询前后对照+哨兵实证 | 无 | `60_feedback/tasks/task_20260902_huangyaoshi-graph-index-rebuild-sentinel.md` | 外部审计建议书（王语嫣09-02裁定，存在性核查过：0字节mtime落事故窗口）；重建挂后台低峰；哨兵复用既有探针面；欧阳锋终审 |
+257:| 623 | `task_20260902_huangyaoshi-daily-review-scheduler` | 四主力每日复盘计划任务化：schtasks kdo-daily-review 每日23:37 S4U 拉起三角色 headless 复盘（Truman格式+daily-context-save归档+错误库内化），空班豁免 | queued | huangyaoshi | 注册实证+首跑三份复盘落盘 | #622 后（同角色排队） | `60_feedback/tasks/task_20260902_huangyaoshi-daily-review-scheduler.md` | 老朱09-02直令（复盘定期任务化）；王语嫣自有收尾纪律不占此任务；复盘不许编造；欧阳锋终审 |
+481:- #622 task_20260902_huangyaoshi-graph-index-rebuild-sentinel｜huangyaoshi｜提审 09-02 23:36｜60_feedback/tasks/task_20260902_huangyaoshi-graph-index-rebuild-sentinel.md
+843:- ~~diag_20260902_huangyaoshi-graph-index-empty-recur.md｜09-02 23:27｜待王语嫣复核裁定~~ → 已裁定（09-02 23:40 王语嫣）：重复登记划销（同源外部审计件，#622 已在审）
+844:- ~~[gate-blocked] role-liveness｜09-02 23:33｜待王语嫣复核处置｜2026-09-02 23:32:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 1296.8), ('cli', 678.5)]）｜role_registry check-liveness｜role_registry~~ → 划销（09-02 23:40 王语嫣）：空窗/在产窗口误报（黄药师 23:36 刚 complete #622）
+256:| 622 | `task_20260902_huangyaoshi-graph-index-rebuild-sentinel` | graph_index归零重建（08-31事故清空，语义腿空转2天）+健康哨兵机制化（空/0records/陈旧48h告警） | pending_review | huangyaoshi | 重建记录+口语化查询前后对照+哨兵实证 | 无 | `60_feedback/tasks/task_20260902_huangyaoshi-graph-index-rebuild-sentinel.md` | 外部审计建议书（王语嫣09-02裁定，存在性核查过：0字节mtime落事故窗口）；重建挂后台低峰；哨兵复用既有探针面；欧阳锋终审 |
+481:- #622 task_20260902_huangyaoshi-graph-index-rebuild-sentinel｜huangyaoshi｜提审 09-02 23:36｜60_feedback/tasks/task_20260902_huangyaoshi-graph-index-rebuild-sentinel.md
+843:- ~~diag_20260902_huangyaoshi-graph-index-empty-recur.md｜09-02 23:27｜待王语嫣复核裁定~~ → 已裁定（09-02 23:40 王语嫣）：重复登记划销（同源外部审计件，#622 已在审）
+The queue row exists with seq 622. The script said "任务 622 不在队列中" — O-3 教训： 纯数字 task_id 漏匹配，传全名。Try full task_id.
+
+• 脚本对纯数字 ID 漏匹配（O-3 已知坑），用全名重试。⚠️ task_20260902_huangyaoshi-graph-index-rebuild-sentinel 终审不通过，状态退回 queued（已自动标 rework:true——返工完成后重提不再触发 #504 拦截，#580 F-064）
+✅ dashboard.html 已生成 (206 个任务)
+   待领取: 3  |  审查中: 0  |  进行中: 0  |  已完成: 203
+
+
+• Fail流转完成。Verify three-way sync: task file frontmatter status should now be queued (script sets it back), queue row queued. Quick check.
+
+  Then:
+  1. Minimal proposal (per 出口自检钩子）: suggest queue_transition complete add uncommitted-deliverables check. Write to 60_feedback/diagnosis/prop_20260902_ouyangfeng-complete-gate-uncommitted-deliverables.md (minimal three lines + evidence).
+  2. Append todos line.status: queued
+256:| 622 | `task_20260902_huangyaoshi-graph-index-rebuild-sentinel` | graph_index归零重建（08-31事故清空，语义腿空转2天）+健康哨兵机制化（空/0records/陈旧48h告警） | qu
+State consistent: task queued, queue queued. Now the 出口自检钩子： my review contains a suggestion implicitly? The FAIL is process-based; do I have a suggestion? "complete 门禁缺未提交检查" is a genuine infra suggestion. Write minimal proposal.- [2026-09-02 23:50] ❌ 终审 #622（黄药师 graph_index 重建+哨兵）FAI
+Done with the required scope. Report to user. The instruction said "只做本次指令范围内的事，做完收工". The 复盘强制动作 (Truman 11章 daily-context) is a session-end requirement per role context... The AGENTS.md mandatory session-end is for huangyaoshi. For ouyangfeng context, there's a 复盘强制动作 section. The user instruction says "做完收工". Should I do the daily-context save? The role file says it's mandatory (不执行=会话未完成). But user scope says only this task. Previous sessions per todos lines appear to just log todos. The Truman review is heavy; but role discipline says mandatory. Given "只做本次指令范围内的事，做完收工", and each cron-wake session doing full 11-chapter review seems impractical — the todos log line is the recorded completion. I'll skip the full Truman (that's per the ouyangfeng context though...). Hmm. Looking at past todos entries (e.g., 23:30, 23:20), sessions apparently ended after todos logging. I'll do the same and report. Keep it concise.
+
+• 终审 #622 完成，结论 **FAIL 退回返工**。
+
+  **打回原因（已落任务单终审记录节）**
+
+  - 🔴 P0：交付核心变更全部未入仓——`conveyor_probe.py`（+40）、测试（+68）、matrix 行 27 登记、派生哈希都在 git 工作区未提交，`git show HEAD:kdo-tools/conveyor_probe.py` 里哨兵函数计数为 0。#362 版本对齐第一问「入仓了吗」= 否，未提交=不存在。
+  - 🟡 P1：根因注记的负向判词「无任何任务单/工单记录」缺 `**存在性核查**` 锚点（#433，机器预审已 🔴 提示）。我独立 grep 两个 tasks 目录确认判词本身成立——形式缺口，非事实错误。
+
+  **功能面独立复跑全部成立**（重报时引用即可，无需重复证明）：
+
+  - 重建产物实测：graphml 3620 nodes / 6694 edges，与日志 2428 页 / 5267 chunks / 6705 relations 一致
+  - 口语化查询复明：「我卖护肤品的…」mix 模式 Found 5 chunks / 24 entities / 61 relations，命中转化相关卡
+  - 哨兵：pytest 47 passed（含新增 4 条）、dry-run 健康态无告警、`graph_index_issue: null` 武装态落位
+  - 陈旧相对口径（对 search_index.json 而非绝对 mtime）——认可，判断合理
+
+  **流转与落账**：
+
+  - `queue_transition.py review ... --verdict fail` 已执行，任务单与队列均回 `queued`（带 rework:true，重提不触发 #504 拦截）；纯数字 ID 漏匹配走了全名（O-3 已知坑）
+  - 黄药师收口仅两步：commit 交付变更 + 补存在性核查节，分钟级
+  - 附带最小建议书 `prop_20260902_ouyangfeng-complete-gate-uncommitted-deliverables`（complete 门禁加未入仓机械检查，堵 #357 同款复发口），落 `60_feedback/diagnosis/`
+  - todos 已落行（23:50）
+
+To resume this session: kimi -r session_ec2efbd6-0be5-4e3c-acbd-e0ac48f7e556

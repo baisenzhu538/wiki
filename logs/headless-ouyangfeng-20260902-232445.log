@@ -1,0 +1,304 @@
+kimi version 0.39.1
+• Start recovery: read the three files.
+
+• 先做启动恢复，读取三个必读文件。
+
+• Need to read 90_control/AGENTS.md before working in that directory. Also need to find task #621. Let me read that file and locate #621 in the queue.Read the task file for #621.
+
+• 读 #621 任务单。
+
+• This is a code task (changes .py), so I must do version alignment three questions (#362):
+  1. Is the commit in the repo (git log contains 1f89e2d86)?
+  2. Is the running process using this version? The monitor is likely a long-running process. Check the process CreationDate vs commit time.
+  3. Is the audit target the latest truth source? git log -1.
+
+  Also O0: open the source — check the actual diff, the regex change, and the end-to-end evidence file. Plus acceptance = 老朱 20:09 link end-to-end lands in inbox (file exists: 00_inbox/wechat-collect/src_wechat_article_tt_af50baaada5fc2f2.md).
+
+  Let me:
+  1. git log to verify commit 1f89e2d86.
+  2. git show the diff for wechat_link_monitor.py L300.
+  3. Check the inbox file exists and content.
+  4. Check monitor process running with new code (CreationDate later than commit).
+  5. Check tests run? I can re-run pytest -k "wechat or link" in kdo-tools.
+
+  Let me start with git checks and file reads in parallel.b02c05672 2026-09-02 23:25:00 +0800 编排：#622 graph重建+哨兵立项（外部审计P1裁定）+F-071挂账+回声划销
+550d49c87 2026-09-02 23:20:00 +0800 vault backup: 2026-09-02 23:20:00
+41a61619b 2026-09-02 23:16:44 +0800 chore(queue): #621 complete by huangyaoshi-kimi
+e1c437f05 2026-09-02 23:16:40 +0800 #621 执行报告落任务单+老朱链接seen登记 by huangyaoshi-kimi
+e52417ea9 2026-09-02 23:16:28 +0800 chore(queue): #619 review by 欧阳锋
+f829805b8 2026-09-02 23:14:23 +0800 挂账：F-070 采集失败升级机制（老朱09-02拍板）
+1f89e2d86 2026-09-02 23:13:08 +0800 vault backup: 2026-09-02 23:13:08
+b2ab63b2a 2026-09-02 23:12:36 +0800 chore(queue): #621 claim by huangyaoshi-kimi
+commit 1f89e2d866c7e4ab53aac69003bdb818792a713e
+Author: Linhai Zhu <baisenzhu538@gmail.com>
+Date:   Wed Sep 2 23:13:08 2026 +0800
+
+    vault backup: 2026-09-02 23:13:08
+
+ 90_control/force-exceptions.log                     |   1 +
+ 90_control/l1-size.log                              |   1 +
+ 90_control/role-registry.json                       |   2 +-
+ 90_control/scripts/.derived-hashes.json             |   2 +-
+ 90_control/todos/ouyangfeng.md                      |   1 +
+ .../__pycache__/wechat_link_monitor.cpython-312.pyc | Bin 34921 -> 35123 bytes
+ kdo-tools/wechat_link_monitor.py                    |   4 ++--
+ logs/conveyor-probe.log                             |   8 ++++++++
+ logs/headless-huangyaoshi-20260902-231026.log       |   0
+ logs/headless-ouyangfeng-20260902-231118.log        |   1 +
+ logs/l1-capture.log                                 |   4 ++++
+ logs/role-clock.log                                 |   2 ++
+ 12 files changed, 22 insertions(+), 4 deletions(-)
+commit 1f89e2d866c7e4ab53aac69003bdb818792a713e
+Author: Linhai Zhu <baisenzhu538@gmail.com>
+Date:   Wed Sep 2 23:13:08 2026 +0800
+
+    vault backup: 2026-09-02 23:13:08
+
+diff --git a/kdo-tools/wechat_link_monitor.py b/kdo-tools/wechat_link_monitor.py
+index 6efa61936..41d1a735f 100644
+--- a/kdo-tools/wechat_link_monitor.py
++++ b/kdo-tools/wechat_link_monitor.py
+@@ -291,13 +291,13 @@ def fetch_toutiao_article(url: str) -> tuple:
+     支持链接形态：
+       - m.toutiao.com/group/<gid>/ （旧格式文章）
+       - m.toutiao.com/article/<gid>/（新格式文章）
+-      - m.toutiao.com/isXXX/        （微信分享短链 → 跟随 302 拿到 gid）
++      - m.toutiao.com/isXXX/ 或 is/XXX/ （微信分享短链 → 跟随 302 拿到 gid）
+     链路：提取 gid → m.toutiao.com/i<gid>/info/ → data.content(HTML) → 清洗为纯文本。
+     与 parse_toutiao（视频）共用 info 接口，靠 content 字段区分文章/视频。
+     """
+     import re as _re
+     # 1) 短链 isXXX → 跟随重定向拿最终 URL（含 gid）
+-    m = _re.search(r"m\.toutiao\.com/is([A-Za-z0-9]+)", url)
++    m = _re.search(r"m\.toutiao\.com/is/?([A-Za-z0-9]+)", url)
+     if m:
+         try:
+             opener = urllib.request.build_opener(urllib.request.ProxyHandler({}))
+146:# m.toutiao.com/isXXX/（微信分享短链，重定向到 /group/ 或 /article/）、m.toutiao.com/article/xxx（文章新格式）
+294:      - m.toutiao.com/isXXX/ 或 is/XXX/ （微信分享短链 → 跟随 302 拿到 gid）
+-rw-r--r-- 1 Administrator 197121 3942 Sep  2 23:13 00_inbox/wechat-collect/knowledge/case-wechat-article_tt_af50baaada5fc2f2.md
+-rw-r--r-- 1 Administrator 197121 7264 Sep  2 23:13 00_inbox/wechat-collect/src_wechat_article_tt_af50baaada5fc2f2.md
+Version alignment:
+  1. 入仓了：commit 1f89e2d86 (23:13:08) contains the fix. Yes.
+  2. 生效了吗：the monitor is presumably a long-running process. Need to check whether running process has the new code. But also the acceptance criterion = the link end-to-end landed in inbox — file exists (7264B, timestamp 23:13). Check content.
+
+  Note line numbers: the report says L300; grep found the regex at... let me check: the docstring at 294, and the regex? grep printed only 146 and 294 for the docstring pattern; the actual regex line with `m\.toutiao\.com/is/?` didn't show? Actually the grep pattern 'm\\.toutiao\\.com/is' should match the regex line too. Hmm, it only showed lines 146 and 294. Maybe the regex line contains `r"m\.toutiao\.com/is/?([A-Za-z0-9]+)"` — grep with bash quoting: 'm\\.toutiao\\.com/is' → in single quotes the shell passes `m\\.toutiao\\.com/is`? Actually single-quoted 'm\\.toutiao\\.com/is' passes literally m\\.toutiao\\.com/is to grep, which as regex means literal backslash then any char... hmm, `\\.` in grep regex = literal backslash followed by any char? No: `\\` matches a literal backslash, then `.` matches any char. But the file content is `m\.toutiao` — contains a literal backslash. So `\\.` matches `\.`? `\\` matches the backslash, `.` matches the `t`? Wait `m\.` — after m there's `\.` (backslash dot). Pattern `m\\.` = m, backslash, any-char → matches `m\.`? No: file has `m\.` (m, backslash, dot). Pattern: `m` then `\\` (matches backslash) then `.` (any char, matches the literal dot). Yes matches. So why didn't the regex line show? Maybe it did show but output truncated? No — only 146 and 294 shown. Hmm, actually line with `r"m\.toutiao\.com/is/?([A-Za-z0-9]+)"` should match. Unless the grep tool... wait I used Bash grep. Let me just check directly. Actually maybe head -60... no, that's a different command. Let me re-grep with -n 'is/?' to find the regex line number.
+
+  Also verify: does working tree match HEAD for that file (no dirty changes)? Machine pre-check said no dirty changes. 
+
+  Next steps:
+  - Verify the regex line exists in working tree.
+  - Read the inbox evidence file (check title, content).
+  - Check whether monitor process running uses new code (long-running process check). The task says monitor runs at top of hour; fix committed 23:13. Check if wechat_link_monitor process is running and its CreationDate.
+  - Re-run pytest regression in kdo-tools (need cd kdo-tools per #619 lesson).
+  - Check seen registration (canonical_key).
+  - Check the queue line 255 status pending_review, task file status pending_review — consistent.
+
+  Also note line number drift: report says L300 but regex now at ~L300? Let me verify actual line.
+
+• 入仓确认。继续验证工作区状态、inbox 实证内容、长驻进程版本对齐。300:    m = _re.search(r"m\.toutiao\.com/is/?([A-Za-z0-9]+)", url)
+
+
+• Good:
+  - Working tree clean for the file, regex at L300 exactly as reported.
+  - Inbox evidence file exists, content matches the reported title《用WorkBuddy搭建自媒体全自动流水线…》, source URL = 老朱's link. Acceptance criterion verified.
+  - Monitor process: no python process matching wechat_link_monitor found — so no long-running process issue (question 2 of version alignment: no stale process running old code; the monitor presumably is triggered by scheduler/cron, will pick up new code next run).
+
+  Still to verify:
+  - seen registration (canonical_key for the short link).
+  - Regression: pytest kdo-tools/tests -k "wechat or link" (must cd kdo-tools).
+  - Regex single-test three forms — I can verify quickly myself.
+  - "失败不记 seen" L477-478 preserved.
+  - file-flow-check.py routine? Context says run it before terminal review — for doc tasks. It's a code task; probably still fine to run quickly. It's a routine check. Let me run it.
+
+  Run these in parallel.https://m.toutiao.com/is/Lw4BUQtFZ9E/ -> Lw4BUQtFZ9E
+https://m.toutiao.com/isLw4BUQtFZ9E/ -> Lw4BUQtFZ9E
+https://m.toutiao.com/is/Lw4BUQtFZ9E -> Lw4BUQtFZ9E
+
+        # 今日头条：区分图文文章 vs 视频
+        #   文章形态：/group/<gid>/、/article/<gid>/、/isXXX/（短链）→ 直接抓正文入库
+        #   视频形态：/video/<gid>/ → parse_toutiao 解析直链走视频管线
+        if "toutiao.com" in url:
+            if "/video/" not in url:
+                title, body = fetch_toutiao_article(url)
+                if not body:
+                    print("  ⚠️ 头条文章抓取失败——不记录，下轮重试（与视频同语义：成功才记 seen）")
+                    continue
+                stem = hashlib.md5(canonical_key(url).encode()).hexdigest()[:16]
+                out_md = INBOX_DIR / f"src_wechat_article_tt_{stem}.md"
+                out_md.write_text(f"# {title or url}\n\n> 来源: {url}（今日头条·偶遇转发）\n\n{body[:30000]}\n", encoding="utf-8")
+                print(f"  ✅ 头条文章入库: {out_md}（{len(body)} 字）")
+                knowledge_ize(out_md)
+                mark_seen(url)
+............                                                             [100%]
+12 passed, 218 deselected in 0.24s
+- Regex three forms verified independently ✅
+  - "失败不记 seen" semantics preserved (L477-478: failure → continue, not mark_seen) ✅
+  - pytest 12 passed ✅
+  - seen file check failed (exit 1, no match). Find where seen is stored. Search for seen mechanism in the script.43:SEEN_FILE = WORK_DIR / "seen_links.txt"
+55:def canonical_key(url: str) -> str:
+78:def mark_seen(url: str):
+80:    with open(SEEN_FILE, "a", encoding="utf-8") as f:
+401:    if SEEN_FILE.exists():
+402:        seen = set(SEEN_FILE.read_text(encoding="utf-8").splitlines())
+422:            with open(SEEN_FILE, "a", encoding="utf-8") as f:
+438:    if SEEN_FILE.exists():
+441:        for line in SEEN_FILE.read_text(encoding="utf-8").splitlines():
+grep: 00_inbox/wechat-collect/seen_links.txt: No such file or directory
+SEEN_FILE = WORK_DIR / "seen_links.txt"
+def canonical_key(url: str) -> str:
+    """链接身份规范化——剥离追踪参数，同一内容多次转发只采一次（2026-08-19 去重修复）。
+
+    - 公众号文章：__biz+mid+idx 定文章身份（chksm/scene/pass_ticket 等追踪参数全剥，
+      同一文章每次分享的追踪参数都不同，用完整 URL 去重必然重复采集）
+    - 头条：gid（/video/ /group/ /article/ 后的数字）
+    - 其他（视频号 sph / 卡片直链 / 头条 isXXX 短链）：原样
+    """
+    u = url.replace("&amp;", "&")
+    if "mp.weixin.qq.com" in u:
+        q = urllib.parse.parse_qs(urllib.parse.urlparse(u).query)
+        biz, mid, idx = q.get("__biz", [""])[0], q.get("mid", [""])[0], q.get("idx", [""])[0]
+        if mid:
+            return f"mp:{biz}:{mid}:{idx}"
+        return f"mp:{urllib.parse.urlparse(u).path}"
+    if "toutiao.com" in u:
+        m = re.search(r"/(?:video|group|article)/(\d+)", u)
+        if m:
+            return f"tt:{m.group(1)}"
+        return u
+    return u
+
+
+def mark_seen(url: str):
+    """记录已处理：原链接 + 规范化键都写入 seen（兼容旧格式的纯 URL 行）。"""
+    with open(SEEN_FILE, "a", encoding="utf-8") as f:
+        f.write(url + "\n")
+        ck = canonical_key(url)
+        if ck != url:
+            f.write(ck + "\n")
+
+SEEN_FILE = WORK_DIR / "seen_links.txt". What's WORK_DIR? Probably not 00_inbox/wechat-collect. Let me check WORK_DIR definition.42:WORK_DIR = WIKI / "60_feedback" / "wechat-collect"
+34:https://m.toutiao.com/is/Lw4BUQtFZ9E/
+Seen registration confirmed: the original short link URL written to seen_links.txt (canonical_key for is short link = original, so only one line — consistent with report).
+
+  Also check knowledge_ize output exists — already confirmed (3942B knowledge file). 
+
+  Run the routine file-flow-check? The context says run `python kdo-tools/file-flow-check.py` before terminal review. This is a code task, not a card task. It's cheap; let me run it quickly to comply with the routine.
+
+  Also check queue/task status consistency: queue line 255 shows pending_review, task frontmatter status: pending_review — consistent. Good.
+
+  Version alignment three questions:
+  1. 入仓: commit 1f89e2d86 23:13:08 ✅
+  2. 生效: no long-running monitor process found (PowerShell query returned nothing) — monitor runs per schedule; next run picks up new code. Also the end-to-end manual run used the same code path and succeeded — real behavior verified. ✅
+  3. 对齐: git log -1 = b02c05672 23:25, latest; I reviewed working tree which matches HEAD for the changed file (git status clean). ✅
+
+  Now run file-flow-check.py as routine, then write 终审记录 into the task file, then queue_transition review pass with grade.
+
+  Grade assessment: This is a one-line regex fix with end-to-end evidence. All verified independently:
+  - diff minimal (1 line + docstring line)
+  - regex three forms match
+  - end-to-end evidence file exists with correct content (title matches, 7264B as reported... report said 7264B, ls showed 7264 ✅)
+  - regression 12 passed (report said 12 passed ✅)
+  - seen semantics preserved, seen registered
+  - version alignment OK
+
+  Grade: A. It's an urgent one-line fix, everything verified end-to-end with byte-exact matching, independent reruns consistent. Previous similar tasks (#618 got A, #619 got A-). The defect in #619 was report command not reproducible from repo root. Here the report commands: pytest from kdo-tools — worked when I cd'd there; seen path discrepancy — report said "seen 写入该短链原样 URL" without specifying path, fine. Actually minor: report says L477-478 for 失败不记 seen — sed showed the relevant lines around 470-485, the comment line is at ~477-478. Fine.
+
+  I'd give A. But the 五维评分 apply to cards; for code tasks, grades A/A-/... still required. A seems right: full verification, no defects found. Maybe one nit: none blocking. I'll give A.
+
+  Also: 出口自检 — any suggestions to write to 王语嫣? During this review, did I find any infrastructure/process issues? One observation: the report claims "seen 写入该短链原样 URL（canonical_key 对 is 短链=原样，口径一致）" — verified true. No friction found. The PASS must be 抄送王语嫣 (一行指针 in her inbox per 2026-09-02 rule). How was it done for #619? "通过已抄送王语嫣" — need to find how. Probably appending a line to a file like 90_control/todos/wangyuyan.md. Let me check how #619 did it — look at recent commits or her todos file.
+
+  Let me check file-flow-check and wangyuyan todos tail.- [L5] `wangyuyan-diagnosis-capability-building-20260613.md` 命名不匹配 diag_YYYYMMDD_<author>-<slug>.md 模板
+- [L5] `wangyuyan-evaluation-of-huangyaoshi-laowantong-feedback-2026-06-18.md` 命名不匹配 diag_YYYYMMDD_<author>-<slug>.md 模板
+- [L5] `wangyuyan-research-capability-building-20260613.md` 命名不匹配 diag_YYYYMMDD_<author>-<slug>.md 模板
+- [L5] `wangyuyan-task-gap-analysis-2026-06-14.md` 命名不匹配 diag_YYYYMMDD_<author>-<slug>.md 模板
+- [L5] `复盘_20260621_战略域_冉鹏课程_全链路.md` 命名不匹配 diag_YYYYMMDD_<author>-<slug>.md 模板
+- [L5] `欧阳锋对电子资料归档整理及学习迭代的建议书.md` 命名不匹配 diag_YYYYMMDD_<author>-<slug>.md 模板
+- [L5] `电子工程系统提示词建议书.md` 命名不匹配 diag_YYYYMMDD_<author>-<slug>.md 模板
+- [L5] `电子工程顶层设计建议书.md` 命名不匹配 diag_YYYYMMDD_<author>-<slug>.md 模板
+- [2026-09-02 23:17] ⚖️ KDO 已终审 1 单：#619（待部署/已闭环）
+- [2026-09-02 23:20] ✅ 终审通过抄送（欧阳锋）：#619（黄药师 watch_inbox 扫描面回补）PASS A-，详见任务单终审记录节。提示：①队列 L833 gate-blocked 行系提交前 20 秒的 E040 门禁回声（commit d93853fcf 22:41:58 已覆盖），可按 #618 先例划销；②INBOX-PENDING 新增 05:47 批次 6 件 wechat-collect 待你编排；③新建议书 prop_20260902_ouyangfeng-kdo-tools-pytest-root-runnable（探针已登记 L835）待裁定
+- [2026-09-02 23:21] 📥 新素材 1 项（P0 0）：src_wechat_article_tt_af50baaada5fc2f2.md——请诊断编排（看板待编排段）
+- [2026-09-02 23:25] 值守拍（老朱问建议书）：两份待裁定已闭环——graph_index 归零复发（核查属实：0 字节 mtime 落事故窗口）立项 #622 P1（重建+哨兵，黄药师）；pytest root 不可跑挂账 F-071（F-069 同窗口）；#621 在审（proc_4204）；回声 3 行划销
+- [2026-09-02 23:27] 📬 KDO 新建议书 1 份待裁定：diag_20260902_huangyaoshi-graph-index-empty-recur.md
+The file-flow-check output shows pre-existing naming warnings (L5, legacy files) — not related to #621. Fine.
+
+  For the PASS cc to 王语嫣, the pattern is: append a line to 90_control/todos/wangyuyan.md like "[time] ✅ 终审通过抄送（欧阳锋）：#621 ... PASS A，详见任务单终审记录节..." Note the file appears to have CRLF (\r endings likely). I'll append with proper newline. Since the file uses \r\n, appending via Bash printf with \r\n might be needed. Earlier todos lines in ouyangfeng.md showed \r. For appending one line, I can use bash printf with \r\n.
+
+  Now the flow per O9: 先写终审记录节 → 再跑 queue_transition review → 再抄送王语嫣 → 落 todos 行。
+
+  终审记录 content: grade A, 通过维度, 溯源要点, 缺陷, 残余风险.
+
+  Grade: A. Everything verified independently, byte-exact, zero defects found.
+
+  Wait — one thing to check: the report says docstring 同步一行 — verified in diff. And 红线 compliance: one-line fix, no scope expansion ✅ (diff shows only 2 lines changed: docstring + regex); 失败不记 seen 保留 ✅.
+
+  Also machine pre-check passed. Queue/task status consistent (both pending_review) ✅.
+
+  Write the 终审记录 section to the task file. The file has CRLF line endings (mixed lone \r shown). I need to use Edit with \r escapes. Appending a section at the end — use Bash or Edit. Edit tool with CRLF: "For pure CRLF files, Read shows LF; use LF" — but this file showed \r in output, meaning mixed/lone carriage returns. That's trickier. Lines show "\r" at end — the Read output shows line content ending with \r displayed as \r. So the file has CRLF displayed as \r? The status said "Mixed or lone carriage-return line endings are shown as \r". So I should append via Bash printf to avoid mangling.
+
+  Let me append with printf '\r\n' endings. Content:
+
+  ## 终审记录（2026-09-02，欧阳锋，PASS A）
+
+  - **等级**：A
+  - **通过维度**：版本对齐三问全过（①commit 1f89e2d86 23:13:08 入仓，工作区干净；②无长驻 wechat_link_monitor 进程跑旧码，下轮整点自动拾新版；③审查对象=HEAD 最新真相源）；验收要点成立——老朱 20:09 链接 https://m.toutiao.com/is/Lw4BUQtFZ9E/ 端到端落 inbox 实证（src_wechat_article_tt_af50baaada5fc2f2.md 7264B 与报告一致，标题《用WorkBuddy搭建自媒体全自动流水线…》与来源 URL 抽检正确）；seen 已登记原样短链 URL（60_feedback/wechat-collect/seen_links.txt L34）
+  - **溯源要点**：独立复跑——①正则三形态（is/XXX/、isXXX/、is/XXX 无尾斜杠）单测全匹配；②pytest tests -k "wechat or link" 12 passed 与报告一致；③「失败不记 seen」语义 L477-478 原样保留；④diff 确为一行正则+一行 docstring，红线零扩 scope
+  - **缺陷**：无
+  - **残余风险**：监控进程下轮整点实跑为该修复的首次生产环境自动触发（本轮为手工复刻同代码路径验证）；is 短链 canonical_key=原样 URL，若同文以不同短链码再分享会重复采集（既有设计，非本单范围）
+
+  Then run queue_transition review pass --grade A.
+
+  Then cc wangyuyan line.
+
+  Then append todos/ouyangfeng.md line.
+
+  Note O2/出口自检: any suggestions? Residual risk about different shortlink codes for same article — that's an existing design observation. Per the 2026-09-02 老朱 rule, "任何建议" must be written as a proposal to 王语嫣. Hmm — is "若同文以不同短链码再分享会重复采集" a suggestion? It's an observation of an existing design limitation, not really a recommendation for change... but per the strict hook: "建议"两字出现在终审记录 = 必须有建议书. My record doesn't contain 建议 wording. The dedup limitation is worth noting though — is it worth a proposal? The canonical_key for is shortlinks could be improved by resolving 302 to gid first. That's a genuine improvement suggestion for 王语嫣 to consider. Given the strict 出口自检 rule (any aspect, any suggestion → must write proposal same round), and I do have this observation, I should write a minimal proposal (三行最小建议书 per #460). It's cheap insurance and compliant.
+
+  Actually let me think: is it worth it? The risk: 老朱 shares same article via different short link code → duplicate collection. Real but low-frequency. Per the rule, minimal three-line proposal suffices. I'll write one to 60_feedback/diagnosis/prop_20260902_ouyangfeng-toutiao-shortlink-canonical-key.md. Check the naming convention for proposals — earlier: prop_20260902_ouyangfeng-repo-wide-pytest-collection-unicodeerror, and diag_20260902_huangyaoshi-graph-index-empty-recur.md. I'll follow prop_20260902_ouyangfeng-<slug>.md.
+
+  Let me do: 1) append 终审记录 to task file, 2) write proposal, then 3) run review script, 4) cc wangyuyan, 5) append own todos.
+
+  Order per O9: 意见书 (终审记录) first, then script.✅ task_20260902_huangyaoshi-toutiao-shortlink-regex-fix 终审通过，状态更新为 reviewed，等级 A
+✅ dashboard.html 已生成 (205 个任务)
+   待领取: 2  |  审查中: 0  |  进行中: 0  |  已完成: 203
+Review script succeeded. Now verify four-way sync (queue line, task frontmatter), then cc 王语嫣 and append my todos line.
+
+• 终审通过。核验四处同步，再抄送王语嫣并落 todos。255:| 621 | `task_20260902_huangyaoshi-toutiao-shortlink-regex-fix` | 头条短链is/XXX形态正则漏配致采集链断（老朱09-02 20:09链接卡死实证）——一行修复+端到端实跑验证 | reviewed | huangyaoshi | diff+该链接落inbox实证 | 无（急单插队：线上在流血） | `60_feedback/tasks/task_20260902_huangyaoshi-toutiao-shortlink-regex-fix.md` | 老朱09-02晚问链接→王语嫣实测定位；失败不记seen设计保留；欧阳锋终审 |
+479:- ~~#621 task_20260902_huangyaoshi-toutiao-shortlink-regex-fix｜huangyaoshi｜提审 09-02 23:16｜60_feedback/tasks/task_20260902_huangyaoshi-toutiao-shortlink-regex-fix.md~~ → 已终审 PASS A（2026-09-02 欧阳锋）
+---
+id: task_20260902_huangyaoshi-toutiao-shortlink-regex-fix
+title: 头条短链 is/XXX 形态正则漏配导致采集链断（老朱 09-02 20:09 链接卡死实证）——一行修复
+seq: 621
+status: reviewed
+assignee: huangyaoshi
+created_by: wangyuyan
+created_at: 2026-09-02
+decision_source: 老朱 09-02 晚问「链接为什么没走工作流」→ 王语嫣实测定位正则漏配（采集链断点，线上在流血）
+reviewer: 欧阳锋
+instance: huangyaoshi-kimi
+updated_at: '2026-09-02T15:28:49.792590+00:00'
+evidence: 00_inbox/wechat-collect/src_wechat_article_tt_af50baaada5fc2f2.md
+reviewed_by: 欧阳锋
+
+
+• 四处同步齐：队列 L255 reviewed、L479 划线、任务单 status: reviewed + reviewed_by/review_date（review_date 需确认有没有——frontmatter 显示了 reviewed_by: 欧阳锋，review_date 应该也在，sed 只显示 14 行截断。脚本承诺自动补齐。快速确认一下 review_date，然后抄送+落 todos。15:review_date: '2026-09-02'
+All done. #621 reviewed PASS A, four-way sync verified, cc'd 王语嫣, todos appended, minimal proposal written. Task instruction says "只做本次指令范围内的事，做完收工". The AGENTS.md 复盘强制动作 applies to 黄药师 identity, but I'm ouyangfeng — my context file has its own closing requirements (Truman 11章复盘 etc.). However the user's instruction says "只做本次指令范围内的事，做完收工，不扩展到其他任务". The task instruction explicitly says "review 流转后落 todos" — done. Session-end Truman review is a standing discipline in my role context... but user said do only this task and wrap up. The todos append is done. I'll report concisely. Given "做完收工" and the explicit scope limitation, I'll not do the full Truman ritual now — actually the role file says 不执行=会话未完成. But this is a driven single-task session; the wake-clock pattern (previous lines like 22:15 #618 review) shows these short sessions just log to todos. Previous entries did exactly that. Follow the established pattern: done, report.
+
+• #621 终审完成，PASS A。
+
+  **验收要点（端到端实证）**：老朱 20:09 链接 `https://m.toutiao.com/is/Lw4BUQtFZ9E/` 已落 inbox——`00_inbox/wechat-collect/src_wechat_article_tt_af50baaada5fc2f2.md`（7264B 与报告一致，标题《用WorkBuddy搭建自媒体全自动流水线…》与来源 URL 抽检正确），知识化产物同目录落盘，seen 已登记（`60_feedback/wechat-collect/seen_links.txt:34`）。
+
+  **独立复跑（非采信报告）**：
+  - 版本对齐三问全过：fix 随 commit `1f89e2d86`（23:13:08）入仓且工作区干净；无长驻 `wechat_link_monitor` 进程跑旧码；审查对象=HEAD 最新
+  - 正则三形态（`is/XXX/`、`isXXX/`、`is/XXX` 无尾斜杠）单测全匹配，gid 提取正确
+  - `pytest tests -k "wechat or link"` 12 passed，与报告一致
+  - diff 确为一行正则 + 一行 docstring，零扩 scope；「失败不记 seen」语义原样保留（L477-478）
+
+  **流转与同步**：终审记录节先落任务单 → `queue_transition.py review ... --grade A` 成功 → 队列 L255 reviewed + L479 划线 + 任务单 `status/reviewed_by/review_date` 齐 → 通过信息已抄送王语嫣 → todos 已落行。
+
+  **附带**：残余风险「同文不同短链码会重复采集」（is 短链 canonical_key=原样 URL 的既有设计）已落最小建议书 `60_feedback/diagnosis/prop_20260902_ouyangfeng-toutiao-shortlink-canonical-key.md`，低优先非阻塞，待王语嫣裁定。
+
+  收工。
+
+To resume this session: kimi -r session_3fefdfb2-c763-4e87-9f76-99d1f1df1757

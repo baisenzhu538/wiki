@@ -912,6 +912,45 @@ def _scan_backup_stall(state: dict, max_age_h: float = 24) -> list[str]:
     return []
 
 
+def _scan_graph_index_health(state: dict, max_lag_h: float = 48) -> list[str]:
+    """#622 第十一信号：graph_index 健康哨兵——空目录 / 0 records / 陈旧超 48h 告警。
+
+    背景：08-31 整树事故清空 .kdo/graph_index（0 字节，mtime 02:11 落事故窗口），
+    hybrid RRF 语义腿空转 2 天无人发现——「修完没加哨兵=同类事故必再发」（#357/#358 模式）。
+    只告警不动作（本单红线）。幂等=沿触发：同一异常原因只报一次，恢复后重新武装，
+    异常原因切换（如 空→0 records）重报。
+    陈旧口径：graphml mtime 落后 search_index.json 超 48h（#356 双索引同步语义）——
+    graph rebuild 是手动节奏，绝对 mtime 48h 会把正常静默期误报成事故；
+    search_index 随卡片写入增量更新，是相对基准钟。search_index 读不出 → 跳过陈旧项。
+    graphml 读不出 → 不报（不误报红线，同 _beat_age_minutes None 口径）。
+    """
+    gdir = ROOT / ".kdo" / "graph_index"
+    graphml = gdir / "graph_chunk_entity_relation.graphml"
+    issue = None
+    try:
+        if not gdir.is_dir() or not any(gdir.iterdir()):
+            issue = "目录空/不存在"
+        elif not graphml.is_file():
+            issue = "graphml 缺失（半建状态）"
+        else:
+            # 0 records：graphml 节点数字节扫描（<node 前缀计数，不解析 XML——6MB 级文件毫秒级）
+            if graphml.read_bytes().count(b"<node ") == 0:
+                issue = "graphml 0 records"
+            else:
+                search_idx = ROOT / ".kdo" / "search_index.json"
+                if search_idx.is_file():
+                    lag_h = (search_idx.stat().st_mtime - graphml.stat().st_mtime) / 3600
+                    if lag_h > max_lag_h:
+                        issue = f"陈旧（落后 search_index {lag_h:.0f}h，阈值 {max_lag_h:.0f}h）"
+    except Exception:
+        return []
+    prev = state.get("graph_index_issue")
+    state["graph_index_issue"] = issue
+    if issue and issue != prev:
+        return [f"graph-index｜{issue}"]
+    return []
+
+
 # ── #556 第八信号：待老朱拍板事项上浮（设计→拍板→实施断链修复）──
 # #525 PASS A 后「需要谁动作：老朱拍板」沉在任务单里两天无人上浮——待拍板=流程咽喉但没有信号面。
 # 检出：队列 reviewed 且（任务单终审记录节 or 队列备注列）含拍板关键词 → 在列；
@@ -1103,6 +1142,7 @@ def main() -> int:
         messages["wangyuyan"] = f"⛔ KDO 门禁拦截 {len(gate_new)} 次（gate-blocked）：{gate_new[0][:70]}{'…' if len(gate_new) > 1 else ''}"
     infra_alerts = _scan_infra_liveness(state)
     infra_alerts += _scan_backup_stall(state)  # #607 第十信号：backup 心跳并入第九信号同一通道
+    infra_alerts += _scan_graph_index_health(state)  # #622 第十一信号：graph_index 空/0records/陈旧告警
     if infra_alerts:
         # #547 第九信号：基建停拍 → gate-blocked 同族台账 + 推王语嫣（静默期 defer 口径不动，台账恒写）
         ts_now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")

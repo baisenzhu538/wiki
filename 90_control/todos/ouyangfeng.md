@@ -423,3 +423,8 @@
 - [2026-09-02 23:17] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#621（huangyaoshi 的单，挂审 1min）（事件驱动：有待终审）
 - [2026-09-02 23:17] 🔔 KDO 新提审 1 单：#621，请终审（新提审）
 - [2026-09-02 23:20] ✅ 终审 #619（黄药师 watch_inbox 扫描面回补）PASS A-：验收要点成立——05:47 批次 6 件 wechat-collect 全部补登记进 INBOX-PENDING（L586-591，尺寸逐字节吻合 ls 实测）；独立复跑：commit d93853fcf 入仓干净、大目录 grep 零命中、state 17 键幂等无重报、pytest 4 passed（需 cd kdo-tools）；缺陷=报告验证命令从仓库根不可复现（🟡不阻断，已落建议书 prop_20260902_ouyangfeng-kdo-tools-pytest-root-runnable，探针登记 L835）；四处同步齐，通过已抄送王语嫣
+- [2026-09-02 23:27] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#621（huangyaoshi 的单，挂审 11min）（事件驱动：有待终审）
+- [2026-09-02 23:30] ✅ 终审 #621（黄药师头条短链 is/XXX 正则急单）PASS A：验收要点成立——老朱 20:09 链接端到端落 inbox 实证（7264B 与报告一致、标题/来源抽检正确、seen 登记 L34）；独立复跑：commit 1f89e2d86 入仓工作区干净、无长驻旧码进程、正则三形态单测全匹配、pytest 12 passed、失败不记 seen 语义原样；终审记录已落任务单、四处同步齐；通过已抄送王语嫣；附带最小建议书 prop_20260902_ouyangfeng-toutiao-shortlink-canonical-key（同文不同短链码重复采集，低优先）
+- [2026-09-02 23:37] 🔔 KDO 新提审 1 单：#622，请终审（新提审）
+- [2026-09-02 23:42] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#622（huangyaoshi 的单，挂审 6min）（事件驱动：有待终审）
+- [2026-09-02 23:50] ❌ 终审 #622（黄药师 graph_index 重建+哨兵）FAIL 退回 queued：P0=交付核心变更（conveyor_probe.py/测试/matrix行27/派生哈希）全部未入仓（git show HEAD grep 哨兵函数=0，#362 第一问触发）；P1=根因注记负向判词缺存在性核查锚点（#433）；功能面已独立复跑全部成立（graphml 3620nodes/6694edges、口语化查询 5chunks/24entities 复明、哨兵 47passed+dry-run 健康态无告警、state 键落位、陈旧相对口径认可）——重报只需 commit+补核查节，终审记录已落任务单；附带最小建议书 prop_20260902_ouyangfeng-complete-gate-uncommitted-deliverables（complete 门禁加未入仓检查）

@@ -686,3 +686,71 @@ def test_gate_blocked_v1_to_v2_migration_absorbs_silently(tmp_path, monkeypatch)
         f.write("2026-08-28 01:00｜task_562｜E040｜新拦截｜laowantong\n")
     new = probe._scan_gate_blocked(state)
     assert len(new) == 1 and "task_562" in new[0]  # 新增正常上浮
+
+
+# ── #622 第十一信号：graph_index 健康哨兵 ──────────────────────
+
+def _mk_graph_index(root, nodes=3, graph_age_h=0.0, search_age_h=0.0):
+    """造 graph_index 测试夹具：nodes=节点数；age=距今小时数。"""
+    import os, time
+    gdir = root / ".kdo" / "graph_index"
+    gdir.mkdir(parents=True, exist_ok=True)
+    g = gdir / "graph_chunk_entity_relation.graphml"
+    g.write_bytes(b"<graphml>" + b"<node id='n'/>" * nodes + b"</graphml>")
+    s = root / ".kdo" / "search_index.json"
+    s.write_text("{}", encoding="utf-8")
+    now = time.time()
+    os.utime(g, (now - graph_age_h * 3600, now - graph_age_h * 3600))
+    os.utime(s, (now - search_age_h * 3600, now - search_age_h * 3600))
+    return gdir
+
+
+def test_graph_index_empty_dir_alarmed_once(tmp_path, monkeypatch):
+    """空目录 → 告警；同一异常持续存在只报一次（沿触发幂等）。"""
+    (tmp_path / ".kdo" / "graph_index").mkdir(parents=True)
+    monkeypatch.setattr(probe, "ROOT", tmp_path)
+    state = {}
+    first = probe._scan_graph_index_health(state)
+    assert len(first) == 1 and "目录空" in first[0]
+    assert probe._scan_graph_index_health(state) == []  # 幂等
+
+
+def test_graph_index_zero_records_alarmed(tmp_path, monkeypatch):
+    """graphml 存在但 0 节点 → 0 records 告警（区别于空目录）。"""
+    _mk_graph_index(tmp_path, nodes=0)
+    monkeypatch.setattr(probe, "ROOT", tmp_path)
+    state = {}
+    alerts = probe._scan_graph_index_health(state)
+    assert len(alerts) == 1 and "0 records" in alerts[0]
+
+
+def test_graph_index_stale_over_48h_alarmed(tmp_path, monkeypatch):
+    """graphml 落后 search_index 超 48h → 陈旧告警；48h 内不告警。"""
+    _mk_graph_index(tmp_path, nodes=3, graph_age_h=50, search_age_h=0)
+    monkeypatch.setattr(probe, "ROOT", tmp_path)
+    state = {}
+    alerts = probe._scan_graph_index_health(state)
+    assert len(alerts) == 1 and "陈旧" in alerts[0]
+
+    _mk_graph_index(tmp_path, nodes=3, graph_age_h=10, search_age_h=0)
+    state2 = {}
+    assert probe._scan_graph_index_health(state2) == []  # 10h 滞后正常（手动重建节奏）
+
+
+def test_graph_index_healthy_no_alarm_and_rearm(tmp_path, monkeypatch):
+    """健康 → 无告警；异常→恢复→再异常 = 重新武装重报。"""
+    _mk_graph_index(tmp_path, nodes=3)
+    monkeypatch.setattr(probe, "ROOT", tmp_path)
+    state = {}
+    assert probe._scan_graph_index_health(state) == []
+
+    gdir = tmp_path / ".kdo" / "graph_index"
+    (gdir / "graph_chunk_entity_relation.graphml").write_bytes(b"<graphml></graphml>")
+    assert len(probe._scan_graph_index_health(state)) == 1  # 0 records 告警
+
+    _mk_graph_index(tmp_path, nodes=3)  # 恢复
+    assert probe._scan_graph_index_health(state) == []  # 恢复本身不推（非事件）
+    assert state["graph_index_issue"] is None
+
+    (gdir / "graph_chunk_entity_relation.graphml").write_bytes(b"<graphml></graphml>")
+    assert len(probe._scan_graph_index_health(state)) == 1  # 再异常重报
