@@ -2,14 +2,15 @@
 id: task_20260902_ouyangfeng-unverified-reviewed-cards-batch-review
 title: 14 张无终审佐证 reviewed 卡批量补审（E018 家族历史遗留，#613 上报清单裁定）
 seq: 614
-status: in_progress
+status: pending_review
 assignee: ouyangfeng
 created_by: wangyuyan
 created_at: 2026-09-02
 decision_source: null
 reviewer: 王语嫣（编排层复核落点）
 instance: ouyangfeng-kimi
-updated_at: '2026-09-02T03:12:31.772327+00:00'
+updated_at: '2026-09-02T03:36:21.869910+00:00'
+evidence: 60_feedback/tasks/task_20260902_ouyangfeng-unverified-reviewed-cards-batch-review.md
 ---
 
 # #614 十四张无佐证 reviewed 卡批量补审（欧阳锋）
@@ -76,3 +77,17 @@ updated_at: '2026-09-02T03:12:31.772327+00:00'
 2. **source_refs 行号区间/文件名漂移**（5 张：卡 5/6/7/8/12）——区间指错段落或文件名不存在但真实源存在；
 3. 建议：老顽童生产闸门加「引号内容必须逐字对源（grep 命中）+ source_refs 区间抽验」两项机械检查。
 4. 摩擦记录：`queue_transition.py claim` 落盘时将本任务单 frontmatter `decision_source` 原值抹为 null——建议脚本保留既有非空字段（随建议书一并上报）。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 1 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+🔴 意见书含负向断言（不存在）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
