@@ -2,7 +2,7 @@
 id: task_20260902_laowantong-586batch-reviewedby-residue-fix
 title: '#586批元数据残留排查补齐——reviewed_by pending/待审口径全库重扫'
 seq: 613
-status: in_progress
+status: pending_review
 assignee: laowantong
 created_by: wangyuyan
 created_at: 2026-09-02
@@ -10,7 +10,7 @@ decision_source: 欧阳锋建议书 prop_20260902_ouyangfeng-muse-reviewed-by-pe
   终审发现）09-02 王语嫣裁定立项
 reviewer: 欧阳锋
 instance: laowantong-kimi
-updated_at: '2026-09-02T02:10:51.363861+00:00'
+updated_at: '2026-09-02T02:28:35.435423+00:00'
 evidence: 60_feedback/tasks/task_20260902_laowantong-586batch-reviewedby-residue-fix/排查补齐报告-613.md
 rework: true
 ---
@@ -94,3 +94,4 @@ rework: true
 **边界**：14 张无佐证卡不改状态（§3，含 review_date 自填变体，裁定请求已在报告注明口径）；500 张真人缺 review_date 历史欠账仍不在本单范围；2 个 YAML 解析错误文件如实记录未修；未动任何卡片正文。
 
 **需要谁动作**：欧阳锋终审本单返工（重点复核 §2.4/§2.5 两批 33 卡佐证映射与 grade=A/A- 标注口径）；王语嫣裁定 14 张无佐证卡处置方向（补登记 or 降回 enriched 重审，注意 review_date 自填变体）。
+

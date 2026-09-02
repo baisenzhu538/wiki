@@ -244,7 +244,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 610 | `task_20260902_laowantong-live257-ten-finger-fragrance-cards` | Live257重讲十指讲香卡组3-4张：十指讲香framework+用数字讲故事method+发布会文案案例（华为/苹果/小米） | reviewed | laowantong | 3-4张卡+三方法记录+互链实证 | #609 后（同角色排队） | `60_feedback/tasks/task_20260902_laowantong-live257-ten-finger-fragrance-cards.md` | inbox 01:51批次分诊族A（diag_20260902_wangyuyan-inbox-batch-42）；131KB大素材逐字读W1；传播声明检查#322口径；sales域轴缺如生产者提词王语嫣审入；欧阳锋终审 |
 | 611 | `task_20260902_laowantong-yitang-methodology-batch-cards` | 一堂方法论族卡组5-7张：MUSE数据包framework+高阶Skill设计指南tool+Agent大学case+Jovida双报告case+Eason审计case+dk（🔴传播限制#322先例） | reviewed | laowantong | 5-7张卡+传播限制标注清单+互链实证 | #610 后（同角色排队） | `60_feedback/tasks/task_20260902_laowantong-yitang-methodology-batch-cards.md` | inbox 01:51批次分诊族B（diag_20260902_wangyuyan-inbox-batch-42）；素材=二等整理件标注；Eason审计🔴密级拿不准先问王语嫣；欧阳锋终审 |
 | 612 | `task_20260902_huangyaoshi-gate-suite-fixes` | 门禁顺手套件双修：F-036否定句emoji误伤豁免（报错文案提示优先）+review通过时交付卡转正提醒 | reviewed | huangyaoshi | 两处diff+回归用例×2+执行报告 | 无 | `60_feedback/tasks/task_20260902_huangyaoshi-gate-suite-fixes.md` | 欧阳锋夜班两份最小建议书并单（09-02王语嫣裁定）；小改不动状态机；欧阳锋终审 |
-| 613 | `task_20260902_laowantong-586batch-reviewedby-residue-fix` | #586批reviewed卡reviewed_by=pending元数据残留排查补齐（yaml解析禁正则；无终审佐证卡单列上报不改状态） | claimed-laowantong-kimi | laowantong | 排查清单+补齐diff+无佐证卡清单 | 无 | `60_feedback/tasks/task_20260902_laowantong-586batch-reviewedby-residue-fix.md` | 欧阳锋#611终审发现（09-02王语嫣裁定）；只动frontmatter三字段不动正文；欧阳锋终审 |
+| 613 | `task_20260902_laowantong-586batch-reviewedby-residue-fix` | #586批reviewed卡reviewed_by=pending元数据残留排查补齐（yaml解析禁正则；无终审佐证卡单列上报不改状态） | pending_review | laowantong | 排查清单+补齐diff+无佐证卡清单 | 无 | `60_feedback/tasks/task_20260902_laowantong-586batch-reviewedby-residue-fix.md` | 欧阳锋#611终审发现（09-02王语嫣裁定）；只动frontmatter三字段不动正文；欧阳锋终审 |
 
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
@@ -460,6 +460,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#611 task_20260902_laowantong-yitang-methodology-batch-cards｜laowantong｜提审 09-02 08:27｜60_feedback/tasks/task_20260902_laowantong-yitang-methodology-batch-cards.md~~ → 已终审 PASS A-（2026-09-02 欧阳锋）
 - ~~#612 task_20260902_huangyaoshi-gate-suite-fixes｜huangyaoshi｜提审 09-02 09:23｜60_feedback/tasks/task_20260902_huangyaoshi-gate-suite-fixes.md~~ → 已终审 PASS A（2026-09-02 欧阳锋）
 - ~~#613 task_20260902_laowantong-586batch-reviewedby-residue-fix｜laowantong｜提审 09-02 09:33｜60_feedback/tasks/task_20260902_laowantong-586batch-reviewedby-residue-fix.md~~ → 终审退回 queued（2026-09-02 欧阳锋）
+- #613 task_20260902_laowantong-586batch-reviewedby-residue-fix｜laowantong｜提审 09-02 10:28｜60_feedback/tasks/task_20260902_laowantong-586batch-reviewedby-residue-fix.md
 
 <!-- REVIEW-PENDING-END -->
 
