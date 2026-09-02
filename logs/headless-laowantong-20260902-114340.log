@@ -1,0 +1,1049 @@
+kimi version 0.39.1
+• Startup recovery: read the three files.Need to read 90_control/AGENTS.md, then find task #615's task file, read #614 task's execution report section （裁定表）, then do the work.队列总任务数: 199
+queued: 2
+claimed: 0
+pending_review: 0
+Queue shows 2 queued. I need #615. Let me check the queue and task files. Also need to read #614 task's execution report section which contains the 裁定表.queued: 2
+248:| 614 | `task_20260902_ouyangfeng-unverified-reviewed-cards-batch-review` | 14张无终审佐证reviewed卡批量补审（E018家族历史遗留）：逐张裁定PASS+grade/降级/需深审，只下裁定不动笔 | reviewed | ouyangfeng | 14行裁定表落任务单 | 无 | `60_feedback/tasks/task_20260902_ouyangfeng-unverified-reviewed-cards-batch-review.md` | #613上报清单（09-02王语嫣裁定：补审定真伪）；证据包在排查补齐报告-613§3；裁定后老顽童落笔 |
+249:| 615 | `task_20260902_laowantong-614-verdicts-apply` | #614裁定落笔：9张PASS卡补frontmatter（review_mark非空不覆盖）+5张降级enriched+裁定表随修项（路径/引用区间/diagnostic_signals） | queued | laowantong | 14卡落笔diff+自检证据 | 无 | `60_feedback/tasks/task_20260902_laowantong-614-verdicts-apply.md` | #614王语嫣复核PASS A-（09-02）；只落笔不裁决；降级卡内容修复另行编排；欧阳锋终审 |
+250:| 616 | `task_20260902_huangyaoshi-production-gate-enhancements` | 生产闸门三修：引号逐字对源+refs区间抽验（WARNING档先行）+claim抹字段bug+reviewer翻转通道（王语嫣限编排骨架单） | queued | huangyaoshi | 三处diff+回归用例×3+执行报告 | 无 | `60_feedback/tasks/task_20260902_huangyaoshi-production-gate-enhancements.md` | 欧阳锋伪引文模式建议书（09-02王语嫣裁定采纳）+#614翻转留痕同型第二例；小修不动状态机；欧阳锋终审 |
+467:- ~~#614 task_20260902_ouyangfeng-unverified-reviewed-cards-batch-review｜ouyangfeng｜提审 09-02 11:36~~ → reviewed PASS A-（2026-09-02 王语嫣编排层复核；脚本 reviewer 限欧阳锋，手工翻转留痕，根治=#616 任务3）
+Now read #614 task's execution report （裁定表） to get card paths, grades, and 随修项 details.Now I need to:
+  1. Claim #615
+  2. Find the 14 cards' file paths
+  3. Apply:
+     - 9 PASS cards: reviewed_by: 欧阳锋， review_date: 2026-09-02, grade per table (via review_mark.py, non-empty no-overwrite)
+     - 5 downgraded cards: status → enriched + downgrade_reason line pointing to #614 裁定表行
+     - 随修项： card 3 two path fixes; cards 5/6/7/8 reference interval fixes; cards 11/13 diagnostic_signals structure
+
+  Let me first claim, then locate the cards. Card ids:
+  1. dk-p15-unverified
+  2. high-density-composite-compilation-strategy
+  3. tool-kdo-wechat-serendipity-collect
+  4. case-qinpeng-iot-module-tiering
+  5. case-shampoo-product-kernel
+  6. case-yitang-chuanhe-seasoning-kernel
+  7. case-yitang-zhongzheng-parking-garage
+  8. yt-product-kernel-iteration
+  9. yt-product-kernel-validation
+  10. yt-product-kernel-ten-metrics
+  11. yt-product-kernel-do-without-belief
+  12. concept-一堂-business-prediction
+  13. yt-product-kernel-cost-sensitive-default-no
+  14. yt-product-kernel-overpromise-trap
+
+  Grades: 卡3/5/8/11=A-, 卡2/4/6/7/13=B+.
+
+  Find review_mark.py script. Let me claim first and locate cards in parallel.
+
+• 接下来领取 #615 并定位 14 张卡的文件路径。任务 615 不在生产队列中
+dk-p15-unverified -> 30_wiki/dark-knowledges/dk-p15-unverified.md
+high-density-composite-compilation-strategy -> 30_wiki/decisions/high-density-composite-compilation-strategy.md
+tool-kdo-wechat-serendipity-collect -> 30_wiki/tools/tool-kdo-wechat-serendipity-collect.md
+case-qinpeng-iot-module-tiering -> 30_wiki/cases/case-qinpeng-iot-module-tiering.md
+case-shampoo-product-kernel -> 30_wiki/cases/case-shampoo-product-kernel.md
+case-yitang-chuanhe-seasoning-kernel -> 30_wiki/cases/case-yitang-chuanhe-seasoning-kernel.md
+case-yitang-zhongzheng-parking-garage -> 30_wiki/cases/case-yitang-zhongzheng-parking-garage.md
+yt-product-kernel-iteration -> 30_wiki/frameworks/yt-product-kernel-iteration.md
+yt-product-kernel-validation -> 30_wiki/frameworks/yt-product-kernel-validation.md
+yt-product-kernel-ten-metrics -> 30_wiki/tools/yt-product-kernel-ten-metrics.md
+yt-product-kernel-do-without-belief -> 30_wiki/dark-knowledges/yt-product-kernel-do-without-belief.md
+concept-一堂-business-prediction -> 30_wiki/concepts/concept-一堂-business-prediction.md
+yt-product-kernel-cost-sensitive-default-no -> 30_wiki/dark-knowledges/yt-product-kernel-cost-sensitive-default-no.md
+yt-product-kernel-overpromise-trap -> 30_wiki/dark-knowledges/yt-product-kernel-overpromise-trap.md
+90_control/scripts/review_mark.py
+./90_control/scripts/review_mark.py
+
+
+• Claim failed: "任务 615 不在生产队列中". Maybe claim uses the task_id string, not the seq number. Let me check how the script accepts ids. Earlier queue line uses `task_20260902_laowantong-614-verdicts-apply`. Try claim with the full task_id.
+
+• 领取命令需用完整 task_id，重试。✅ task_20260902_laowantong-614-verdicts-apply 已领取为 claimed-laowantong-kimi
+
+✅ dashboard.html 已生成 (199 个任务)
+   待领取: 1  |  审查中: 0  |  进行中: 1  |  已完成: 197
+
+
+• Claimed. Now inspect review_mark.py usage, then read the frontmatter of the 14 cards (at least the top of each). Let me check review_mark.py usage.usage: review_mark.py [-h] [--reviewer REVIEWER] [--confidence CONFIDENCE]
+                      [--dry-run]
+                      card
+
+Mark card as reviewed
+
+positional arguments:
+  card                  Card path relative to vault root
+
+options:
+  -h, --help            show this help message and exit
+  --reviewer REVIEWER
+  --confidence CONFIDENCE
+  --dry-run
+Note: review_mark.py overwrites existing values (it doesn't have non-empty-no-overwrite logic; the task says "非空不覆盖" — hmm, the task says "走 review_mark.py（非空不覆盖）". The script itself overwrites status/reviewed_by/review_date unconditionally. The "非空不覆盖" likely refers to... maybe I should check whether the fields are already non-empty, and if so don't overwrite. Also the script doesn't set `grade` — I need to add grade manually. And it sets status: reviewed — the cards already are reviewed presumably. Also it uses reviewer "OuyangFeng" by default; we need `reviewed_by: 欧阳锋`.
+
+  Important: the script uses datetime.now → 2026-09-02 (today), good. But reviewer default is "OuyangFeng"; pass --reviewer 欧阳锋.
+
+  Caveat: the script writes file with LF line endings? It reads text and writes; the fm lines joined with \n. The body preserved. Fine.
+
+  But "非空不覆盖": before running, check current frontmatter values. If a card already has reviewed_by non-empty, don't overwrite. Let me read the frontmatter of all 14 cards first.
+
+  Also the 随修项：
+  - 卡3 (tool-kdo-wechat-serendipity-collect): two path fixes — §Skill 挂载声明 `.claude/skills/wechat-serendipity-collect/` doesn't exist （声明失实）, and 组件表 `kdo-tools/yuanbao_cookie_extract.py` path wrong (actually in 40_outputs/code/scripts/). Need to check where the skill actually exists. Fix: find actual skill path.
+  - 卡5 (case-shampoo-product-kernel): 迭代课两引用区间指错段落（排列组合实际在 L2916-2944）; 补引用 src_20260611_89407193 to refs.
+  - 卡6 (case-yitang-chuanhe-seasoning-kernel): 第二引用区间错位（L700-1150 是车库案例）——hmm, wait. For card 6 the defect: 第二引用区间错位（L700-1150 是车库案例）. But 随修项 listed as 卡5/6/7/8 引用区间. The correct interval needs determining. The 裁定表 gives the correct line numbers in the 理由 column for key claims. Hmm, but which is the correct interval? For card 6: claims hit at L322-336, L432, L466, L478, L650. The current second interval L700-1150 is the garage case. What should it be? Not specified exactly in the 裁定表. I need to look at the card's source_refs and figure out. Similarly card 7: 第二引用区间错位（L2069-2253 是自习室段）. Card 7's hits: L882, L900-948, L986-996, L1066-1100, L726, L1136-1142.
+  - 卡8 (yt-product-kernel-iteration): 猫粮案例行号（L2824-2900）未列入来源区间 → add L2824-2900 to source interval; 笔记标注 11KB 实测 10.3KB → fix note.
+  - 卡11 (yt-product-kernel-do-without-belief): frontmatter diagnostic_signals 5 条 `signal: src_unknown` 待补 — fill in actual signals. "待补" means we need to fill real signals? The 随修项 says "diagnostic_signals 结构" for 卡11/13. For 卡13: diagnostic_signals 空、signal 条目错置于 tags 下 — fix structure (move signal entries from tags to diagnostic_signals).
+
+  These 随修项 require me to look at each card and figure out reasonable fixes. This is a decent amount of work. This is a candidate for doing it myself carefully — but there are 14 cards with various edits. I could delegate to a coder subagent with full details, but the nuances （引用区间 correct values) need judgment. Actually the 裁定表 provides hints. Let me handle directly but efficiently.
+
+  Plan:
+  1. Read frontmatter of 9 PASS cards (top ~40 lines each) to check existing reviewed_by/review_date/grade values.
+  2. Run review_mark.py --reviewer 欧阳锋 with dry-run first for the 9 cards, checking 非空不覆盖. The script overwrites regardless — so for cards where reviewed_by already non-empty, I need to skip those fields. Actually "非空不覆盖" — check current values; most probably reviewed_by: pending or empty. review_date may exist (self-filled). Hmm — the task says "非空不覆盖" as a property expected of review_mark.py. Since the script doesn't implement it, I'll do: for each card, check current values; if reviewed_by empty/pending → run script; else handle manually. Actually simpler: run script with dry-run, compare; where it would overwrite a non-empty legitimate value, do a manual Edit instead preserving that field.
+
+  Also grade field: script doesn't handle. Add `grade: A-`/`B+` manually via Edit. But careful about 非空不覆盖 for grade too.
+
+  3. Downgrade 5 cards: status: reviewed → enriched, add downgrade_reason line pointing to #614 裁定表 row. Something like `downgrade_reason: "#614 裁定表卡N：<short reason>"`. Also probably clear reviewed_by? The task only says status 改回 enriched + frontmatter 加一行 downgrade_reason. Don't touch reviewed_by per red line （只动裁定表点名的字段）.
+
+  Wait — but if status: enriched with reviewed_by: 欧阳锋 remains... that's contradictory but task says only change status + add downgrade_reason. Follow the task.
+
+  4. 随修项 edits on cards 3,5,6,7,8,11,13.
+  5. yaml.safe_load re-parse self-check for each of 14 cards (E017).
+  6. Execution report (5 fields) into task file #615.
+  7. git status check (L12), commit? L12 says "确认交付物已入仓" — E040 gate requires deliverables committed. Previous tasks committed. But system prompt says don't run git commit unless explicitly asked. However the task instruction from the user (this KDO workflow) effectively requires committing for the gate. Hmm. The user instruction says "完成后 complete 615 提审+落 todos". Previous similar tasks (#613) did commits. The user's instruction here constitutes the workflow; the gate E040 requires deliverables in仓库. The system says "DO NOT run git commit ... unless explicitly asked to do so. Ask for confirmation each time". Auto permission mode says don't use AskUserQuestion; make a reasonable decision. The user's standing instruction includes completing the task with evidence; the gate requires commit. The AGENTS.md project instructions mandate the complete gate （交付物已入仓校验）. Given auto mode and explicit task instruction "完成后 complete 615 提审", and project AGENTS.md gate requires commit, I'll commit. The task instruction is explicit enough about the workflow that committing deliverables is part of "完成".
+
+  Let me start by reading frontmatter of the 14 cards.
+
+• 领取成功。先逐卡读 frontmatter 确认现有值（非空不覆盖检查）。=== 30_wiki/dark-knowledges/dk-p15-unverified.md ===
+---
+status: reviewed
+type: dk
+domain:
+- product
+id: dk-p15-unverified
+author: unknown
+reviewed_by: pending
+created_at: 2026-06-15
+confidence: 0.75
+trust_level: medium
+title: dk p15 unverified
+source_refs:
+- src_unknown
+source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+updated_at: '2026-06-29'
+aliases:
+  - P15未验证
+  - P15审计
+related:
+- "[[ai-short-drama-script-planning-three-axes]]"
+- "[[dk-p10-oral-ban]]"
+- "[[dk-c7-auto-backup-conflict]]"
+- "[[dk-yb25-solution-driven-visual-design]]"
+- "[[dk-p17-accuracy-gap]]"
+- '[[dk-p9-glob-miss]]'
+review_date: '2026-06-29'
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 方法
+  - 执行者
+  - 数据
+  - 场景
+=== 30_wiki/decisions/high-density-composite-compilation-strategy.md ===
+---
+title: 高密度素材编译策略（修订）
+type: decision
+domain: kdo
+status: reviewed
+version: '2.0'
+supersedes: v1.0（复合编译方案，已废弃）
+id: high-density-composite-compilation-strategy
+author: unknown
+source_context: KDO internal decision record （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+source_refs:
+- src_unknown
+reviewed_by: pending
+created_at: '2026-06-15'
+confidence: 0.75
+trust_level: medium
+updated_at: '2026-06-16'
+related:
+- '[[tool-osint-maltego]]'
+- '[[graph-rag-retrieval-layer]]'
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 知识库
+  - Agent
+  - 卡片
+  - 工具
+  - 边界
+  - 用户
+  - 口述
+=== 30_wiki/tools/tool-kdo-wechat-serendipity-collect.md ===
+---
+id: tool-kdo-wechat-serendipity-collect
+title: KDO 偶遇采集管线：手机转发链接 → 全自动入库（视频号/今日头条/公众号）
+type: tool
+status: reviewed
+confidence: 0.9
+trust_level: high
+language: zh-CN
+created_at: 2026-08-18
+updated_at: 2026-08-19
+domain:
+- knowledge-management
+- ai-collaboration
+- infrastructure
+aliases:
+- 偶遇采集
+- 偶遇自动采集
+- 视频号转知识库
+- 视频号逐字稿
+- 手机转发视频
+- 自动入库
+- 今日头条视频
+- 头条视频
+- toutiao
+- wechat-serendipity
+- 文件传输助手采集
+- 超级入口
+- KDO偶遇采集
+discoverable_by:
+- 偶遇采集
+- 视频号 逐字稿
+- 今日头条 视频
+- 自动入库
+- 手机转发
+- 文件传输助手
+- 逐字稿自动化
+- wechat_link_monitor
+- parse_sph
+- 元宝
+author: 黄药师
+reviewed_by: 待审
+source_refs:
+- 70_product/projects/proj_20260816_wechat-collect-顶层文档.md
+- 40_outputs/code/scripts/wechat-serendipity-collect-guide.md
+- kdo-tools/wechat_link_monitor.py
+- 40_outputs/code/scripts/wechat_knowledge.py
+- 40_outputs/code/scripts/yuanbao_cookie_extract.py
+related:
+- framework-serendipity-five-channels
+- tool-wechat-transcript-automation-workflow
+- framework-knowledge-five-leaps
+- tool-autoclassify-seven-steps
+- framework-patrolkit-radar
+- '[[tool-author-targeted-collect]]'
+- '[[tool-cangjie-skill]]'
+- '[[tool-yizhan-shendeng]]'
+tags:
+- audience:all-agents
+- scene:execution
+- skill-level:intermediate
+- method:automation
+- content-format:tool
+quality_labels:
+- actionable
+- validated
+- cited
+diagnostic_signals:
+- signal: 用户问"偶遇采集怎么做/视频号怎么自动进知识库/头条视频怎么转逐字稿"
+  lens: 其他 agent 被问到偶遇采集能力时——检索本卡回答，不凭记忆
+  follow_up: 读本卡链路+脚本路径，指导用户复制链接转发即可
+=== 30_wiki/cases/case-qinpeng-iot-module-tiering.md ===
+---
+
+id: case-qinpeng-iot-module-tiering
+title: 案例：秦鹏通信模组——从"半价策略"到用户分层+四格服务矩阵的产品内核进化
+type: case
+status: reviewed
+domain:
+- product-kernel
+source_person: 秦鹏（一堂学员）
+source_context:
+  - 一堂产品内核验证课 - 产品内核分层+过度细化案例
+  - yitang
+aliases:
+  - 从半价策略到用户分层+四格服务矩阵的产品内核进化
+  - 价策略到用户分层
+  - 案例
+  - 案例：秦鹏通信模组从半价策略到用户分层+四格服务矩阵的产品内核进化
+  - 秦鹏通信模组
+  - 秦鹏（一堂学员）
+source_context:
+  - 一堂产品内核验证课 - 产品内核分层+过度细化案例
+  - yitang
+source_refs:
+- 10_raw/sources/yitang-lectures/一堂-产品内核验证课-Truman-口述.txt:1300-1658
+- 10_raw/sources/yitang-lectures/一堂-产品内核验证课-Truman-口述.txt:1714-2070
+created_at: '2026-07-08'
+updated_at: '2026-07-08'
+author: 老顽童
+reviewed_by: 待审
+confidence: 0.88
+trust_level: medium
+discoverable_by:
+  - 秦鹏通信模组
+  - 从半价策略到用户分层+四格服务矩阵的产品内核进化
+tags:
+- product-kernel
+- tiering
+- iot
+- communication-module
+- b2b
+- qinpeng
+- audience:manager
+- scene:execution
+related:
+- "[[concept-一堂-product-kernel]]"
+- "[[concept-一堂-kernel-validation]]"
+- "[[concept-一堂-kernel-iteration]]"
+- "[[case-yitang-chuanhe-seasoning-kernel]]"
+- "[[case-yitang-zhongzheng-parking-garage]]"
+diagnostic_signals:
+- framework_lens: 产品内核 / 过度细化
+  follow_up_question: 你是否在某个维度上"卷"过了头——价格降太多、品质控太严、服务做太满——而忽视了边际收益递减？
+- framework_lens: 用户分层 / 不要一刀切
+  follow_up_question: 你的不同客户群体对"好"的定义一样吗？你是否可以像秦鹏一样按良品率80/90分层、按销售额大小分层？
+- framework_lens: 关键假设验证
+  follow_up_question: 你当前认定的"最佳内核参数"（价格、品质、服务级别）是经过分层测试的，还是拍脑袋一刀切的？
+=== 30_wiki/cases/case-shampoo-product-kernel.md ===
+---
+
+id: case-shampoo-product-kernel
+title: 案例：洗发水产品内核——从"包装好看"到"竞品拆解→专家访谈→用户访谈→排列组合测试"的完整验证路径
+type: case
+status: reviewed
+domain:
+- product-kernel
+source_person: 张磊（一堂学员，阿蕊老师）
+source_context:
+  - 一堂产品内核验证课 - 洗发水产品内核验证完整案例 + 一堂产品内核系列课
+  - yitang
+aliases:
+  - 一堂学员
+  - 张磊（一堂学员，阿蕊老师）
+  - 案例
+  - 水产品内核
+  - 洗发水产品内核
+  - 阿蕊老师
+source_context:
+  - 一堂产品内核验证课 - 洗发水产品内核验证完整案例 + 一堂产品内核系列课
+  - yitang
+source_refs:
+- 10_raw/sources/yitang-lectures/一堂-产品内核验证课-Truman-口述.txt:1026-1296
+- 10_raw/sources/yitang-lectures/一堂-产品内核迭代课-Truman-口述.txt:1304-1346
+- 10_raw/sources/yitang-lectures/一堂-产品内核迭代课-Truman-口述.txt:3018-3400
+created_at: '2026-06-11'
+updated_at: '2026-07-08'
+author: 老顽童（合并升级）
+reviewed_by: 待审
+confidence: 0.90
+trust_level: high
+merged_from:
+- yt-product-kernel-shampoo-case
+merge_notes: 以口述验证路径（竞品拆解→专家访谈→用户访谈→排列组合测试）为主线，合并了 case-shampoo-product-kernel 的卖点矩阵分析和 yt-product-kernel-shampoo-case 的内核层次分析
+discoverable_by:
+  - 洗发水产品内核
+tags:
+- product-kernel
+- verification
+- fmcg
+- shampoo
+- consumer-goods
+- audience:manager
+- scene:execution
+related:
+- "[[concept-一堂-product-kernel]]"
+- "[[concept-一堂-kernel-validation]]"
+- "[[yt-product-kernel-cultivation]]"
+- "[[case-treadmill-demand-analysis]]"
+- "[[case-lean-shampoo-selling-points]]"
+- "[[concept-一堂-key-assumptions]]"
+- '[[case-lean-combination-test-paradigm]]'
+- '[[case-milktea-five-step]]'
+diagnostic_signals:
+- framework_lens: 产品内核 / 排列组合陷阱
+  follow_up_question: 你的产品有多少个可变维度？如果不经过系统验证直接"拍"一个组合，成功率能有多少？
+- framework_lens: 验证策略 / 四步验证路径
+  follow_up_question: 你是否完整走完了"竞品拆解→专家访谈→用户访谈→排列组合测试"的验证闭环？卡在哪一步？
+- framework_lens: 消费品 / 内核不是功能
+  follow_up_question: 你的产品内核是"功能"还是"功能+形象"？用户愿意为哪个部分付溢价？
+=== 30_wiki/cases/case-yitang-chuanhe-seasoning-kernel.md ===
+---
+
+id: case-yitang-chuanhe-seasoning-kernel
+title: 案例：川味调料供应链——从"厂家直销"到"买底料+全程帮扶"的六次产品内核迭代
+type: case
+status: reviewed
+domain:
+- product-kernel
+source_person: 合发（一堂学员）
+source_context:
+  - 一堂产品内核迭代课 - 产品内核加法→减法案例
+  - yitang
+aliases:
+  - 从厂家直销到买底料+全程帮扶的六次产品内核迭代
+  - 合发（一堂学员）
+  - 家直销到买底料
+  - 川味调料供应链
+  - 案例
+  - 案例：川味调料供应链从厂家直销到买底料+全程帮扶的六次产品内核迭代
+source_context:
+  - 一堂产品内核迭代课 - 产品内核加法→减法案例
+  - yitang
+source_refs:
+- 10_raw/sources/yitang-lectures/一堂-产品内核迭代课-Truman-口述.txt:194-657
+- 10_raw/sources/yitang-lectures/一堂-产品内核迭代课-Truman-口述.txt:700-1150
+created_at: '2026-07-08'
+updated_at: '2026-07-08'
+author: 老顽童
+reviewed_by: 待审
+confidence: 0.82
+trust_level: medium
+discoverable_by:
+  - 川味调料供应链
+  - 从厂家直销到买底料+全程帮扶的六次产品内核迭代
+tags:
+- product-kernel
+- iteration
+- supply-chain
+- seasoning
+- chuanhe
+- audience:manager
+- scene:execution
+related:
+- "[[concept-一堂-product-kernel]]"
+- "[[concept-一堂-kernel-iteration]]"
+- "[[case-yitang-zhongzheng-parking-garage]]"
+- "[[case-qinpeng-iot-module-tiering]]"
+diagnostic_signals:
+- framework_lens: 产品内核 / 从轻到重再到线上标准化
+  follow_up_question: 你的业务当前处于哪个迭代阶段？你是否在为提升转化率而不断加重服务，但尚未开始做减法？
+- framework_lens: 增长 / 复制
+  follow_up_question: 如果你的服务越来越重，你能像合发一样找到线上标准化的路径吗？疫情帮你做了减法，还是加重了你的负担？
+- framework_lens: 关键假设驱动
+  follow_up_question: 合发每一轮迭代都是因为发现用户卡点——你是否清楚当前用户不转化的真正原因？
+=== 30_wiki/cases/case-yitang-zhongzheng-parking-garage.md ===
+---
+
+id: case-yitang-zhongzheng-parking-garage
+title: 案例：立体车库——从12车位样机到全自动无人化部署的产品内核迭代
+type: case
+status: reviewed
+domain:
+- product-kernel
+source_person: 中征（一堂学员）
+source_context:
+  - 一堂产品内核迭代课 - 立体车库项目从0到1产品内核迭代案例
+  - yitang
+aliases:
+  - 中征（一堂学员）
+  - 从12车位样机到全自动无人化部署的产品内核迭代
+  - 案例
+  - 案例：立体车库从12车位样机到全自动无人化部署的产品内核迭代
+  - 立体车库
+  - 立体车库从
+source_context:
+  - 一堂产品内核迭代课 - 立体车库项目从0到1产品内核迭代案例
+  - yitang
+source_refs:
+- 10_raw/sources/yitang-lectures/一堂-产品内核迭代课-Truman-口述.txt:700-1150
+- 10_raw/sources/yitang-lectures/一堂-产品内核迭代课-Truman-口述.txt:2069-2253
+created_at: '2026-07-08'
+updated_at: '2026-07-08'
+author: 老顽童
+reviewed_by: 待审
+confidence: 0.85
+trust_level: medium
+discoverable_by:
+  - 案例：立体车库——从12车位样机到全自动无人化部署的产品内核
+  - 立体车库
+  - 从12车位样机到全自动无人化部署的产品内核迭代
+tags:
+- product-kernel
+- iteration
+- smart-parking
+- tob
+- hardware
+- zhongzheng
+- audience:manager
+- scene:execution
+related:
+- "[[concept-一堂-product-kernel]]"
+- "[[concept-一堂-kernel-iteration]]"
+- "[[case-yitang-chuanhe-seasoning-kernel]]"
+- "[[case-yitang-tob-smart-park]]"
+- '[[case-qinpeng-iot-module-tiering]]'
+diagnostic_signals:
+- framework_lens: 产品内核 / 从硬件到智能化的关键切入点
+  follow_up_question: 你的产品是否仅解决了"有"的问题（如车位配比），而忽视了"用"的体验？用户真正敢用吗？
+- framework_lens: 商业模式 / 单元模型
+  follow_up_question: 你的单元模型是否漏算了关键成本（如人力）？你算的是关系价还是市场价？
+- framework_lens: 增长 / 规模化复制
+  follow_up_question: 你的产品部署是否高度依赖人工？能否像中征一样把部署效率提升10倍？
+=== 30_wiki/frameworks/yt-product-kernel-iteration.md ===
+---
+domain:
+- product
+id: yt-product-kernel-iteration
+title: 产品内核迭代：五方向 × 五案例 × 触发信号
+type: framework
+status: reviewed
+confidence: 0.94
+trust_level: high
+source_context:
+  - 一堂产品内核迭代课（2026年）——统一版本，对齐概念卡
+  - yitang
+aliases:
+  - 五方向
+  - 五案例
+  - 产品内核迭代
+  - 产品内核迭代：五方向×五案例×触发信号
+  - 内核迭代
+  - 触发信号
+source_context:
+  - 一堂产品内核迭代课（2026年）——统一版本，对齐概念卡
+  - yitang
+source_refs:
+- 10_raw/sources/src_20260606_4f5117e3-一堂-产品内核迭代课-Truman-口述.md
+- 10_raw/sources/src_20260606_deeb4e26-一堂-产品内核迭代课-Truman-笔记.md
+created_at: '2026-06-19'
+updated_at: '2026-07-08'
+author: 老顽童
+reviewed_by: 待审
+review_date: '2026-06-19'
+related:
+- '[[concept-一堂-kernel-iteration]]'
+- '[[concept-一堂-product-kernel]]'
+- '[[concept-一堂-kernel-validation]]'
+- '[[yt-product-kernel-validation]]'
+- '[[yt-product-kernel-six-levels]]'
+- '[[yt-product-kernel-to-business-model]]'
+- '[[yt-product-kernel-cultivation]]'
+- '[[tool-敏捷发布快速迭代搭建体系]]'
+- '[[tool-纪浩-Do-first-PDCA渐进迭代法]]'
+- '[[yt-product-kernel-premature-optimization]]'
+- '[[product-moc]]'
+diagnostic_signals:
+- framework_lens: 产品内核迭代——内核需要随市场变化而迭代
+  follow_up_question: 你的内核从定义到现在变化过吗？当前触发的是五种方向中的哪一种？
+- framework_lens: 产品内核迭代——迭代需要方向，不是随机尝试
+  follow_up_question: 你的迭代是基于进化/量化/细化/强化/简化中的哪一种？有数据支撑吗？
+- framework_lens: 产品内核迭代——功能迭代≠内核迭代
+  follow_up_question: 这次迭代是调整功能（优化），还是调整内核要素（进化/量化/细化/强化/简化）？
+- framework_lens: 产品内核迭代——不同阶段需要不同方向
+  follow_up_question: 你当前在哪个阶段（0→1 / 1→10 / 10→N）？对应的推荐方向是什么？
+- framework_lens: 产品内核迭代——迭代方向需要团队共识
+  follow_up_question: 你们团队对迭代方向有共识吗？是基于数据触发还是主观判断？
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
+- 产品内核迭代课
+discoverable_by:
+- 产品内核迭代
+- 产品迭代方法
+- 内核优化
+- 产品进化
+- 迭代路径
+=== 30_wiki/frameworks/yt-product-kernel-validation.md ===
+---
+domain:
+- product
+id: yt-product-kernel-validation
+title: 产品内核验证：三维度评估 × 六策略阶梯
+type: framework
+status: reviewed
+confidence: 0.94
+trust_level: high
+source_context:
+  - 一堂产品内核验证课（2026年）——统一版本，对齐概念卡
+  - yitang
+aliases:
+  - 三维度评估
+  - 产品内核验证
+  - 产品内核验证：三维度评估×六策略阶梯
+  - 六策略阶梯
+  - 关键假设识别与验证
+  - 内核验证
+  - 略阶梯
+  - 里程碑验证法
+source_context:
+  - 一堂产品内核验证课（2026年）——统一版本，对齐概念卡
+  - yitang
+source_refs:
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+- 10_raw/sources/src_20260606_7610584b-一堂-产品内核验证课-truman-笔记.md
+created_at: '2026-06-19'
+updated_at: '2026-07-08'
+author: 老顽童
+reviewed_by: 待审
+review_date: '2026-06-19'
+related:
+  - "[[concept-一堂-kernel-validation]]"
+  - "[[concept-一堂-product-kernel]]"
+  - "[[concept-一堂-key-assumptions]]"
+  - "[[tool-一堂-product-kernel-canvas]]"
+  - "[[tool-一堂-product-kernel-add-subtract]]"
+  - "[[tool-马易-关键假设识别与验证]]"
+  - "[[tool-纪浩-真需求四要素验证法]]"
+  - "[[tool-纪浩-里程碑验证法]]"
+  - "[[tool-马易-需求创造验证法]]"
+  - "[[yt-product-kernel-iteration]]"
+  - "[[yt-product-kernel-six-levels]]"
+  - "[[yt-product-kernel-to-business-model]]"
+  - '[[yt-product-kernel-do-without-belief]]'
+  - '[[yt-product-kernel-premature-optimization]]'
+  - '[[product-moc]]'
+diagnostic_signals:
+- framework_lens: 产品内核验证——假设未验证
+  follow_up_question: 你的内核假设验证过吗？用六策略中的哪一种？关键转化率是多少？
+- framework_lens: 产品内核验证——需要三维度交叉验证
+  follow_up_question: 你用「决定性」确认了必须保留的要素，但「优化性」检查了哪些被忽视的要素？「完备性」组合是否足够？
+- framework_lens: 产品内核验证——问卷≠行为验证
+  follow_up_question: 用户说'愿意付费'后，有没有让他们实际付费或预付？你用的是聊、问、查还是测、盘？
+- framework_lens: 产品内核验证——策略等级与风险不匹配
+  follow_up_question: 你的验证策略和当前风险匹配吗？高风险项目用「聊」，还是低风险项目用「赌」？
+- framework_lens: 产品内核验证——验证结果不被尊重
+  follow_up_question: 如果验证结果不支持内核假设，你会调整方向吗？还是像「做而不信」一样继续投入？
+discoverable_by:
+tags:
+- audience:manager
+- scene:planning
+- 产品内核验证
+- 内核验证方法
+- 六策略验证
+- 低成本验证
+- 产品假设验证
+=== 30_wiki/tools/yt-product-kernel-ten-metrics.md ===
+---
+domain:
+- business-formula
+- decision-making
+- strategy
+id: yt-product-kernel-ten-metrics
+title: 产品内核十大典型指标：从假设到验证的数据体系
+type: tool
+status: reviewed
+confidence: 0.92
+trust_level: high
+source_context:
+  - 一堂产品内核系列课——十大典型指标
+  - 一堂五步法
+  - 一堂产品内核十大典型指标
+aliases:
+  - 产品内核十大典型指标
+  - 产品内核十大典型指标：从假设到验证的数据体系
+  - 从假设到验证的数据体系
+source_refs:
+- 10_raw/sources/src_20260510_5ef61f8f-一堂产品内核十大典型指标.md
+- 10_raw/sources/src_20260610_29a11a33-一堂-一堂五步法-产品内核-十大典型指标.md
+- 10_raw/sources/src_20260611_94673a56-一堂-一堂五步法-产品内核-十大典型指标_paddle_ocr.md
+- 10_raw/sources/yitang-lectures/一堂-产品内核实操课-Truman-口述.txt:998-1070
+created_at: '2026-06-19'
+updated_at: '2026-07-08'
+author: 老顽童
+reviewed_by: 待审
+review_date: '2026-06-19'
+discoverable_by:
+  - 产品内核十大典型指标：从假设到验证的数据体系
+  - 产品内核十大典型指标
+  - 从假设到验证的数据体系
+related:
+- '[[tool-设定管理杠杆率指标评估效率]]'
+- '[[yt-product-ten-metrics]]'
+diagnostic_signals:
+- framework_lens: 产品内核指标——缺乏数据验证体系
+  follow_up_question: 你的产品内核对应的关键指标是什么？当前数值是多少？
+- framework_lens: 产品内核指标——虚荣指标≠核心指标
+  follow_up_question: 总用户数增长，但关键转化率下降，说明什么？
+- framework_lens: 产品内核指标——指标必须服务内核验证
+  follow_up_question: 这个指标的变化，能说明内核假设是否成立吗？
+- framework_lens: 产品内核指标——指标过多导致注意力分散
+  follow_up_question: 如果只能看3个指标，你会选哪3个？为什么？
+- framework_lens: 产品内核指标——需要基准和目标
+  follow_up_question: 这个指标的基准值是多少？目标值是多少？差距原因是什么？
+tags:
+  - audience:executor
+  - scene:execution
+  - skill-level:advanced
+  - 五步法
+  - 定价
+  - 框架
+  - 口述
+=== 30_wiki/dark-knowledges/yt-product-kernel-do-without-belief.md ===
+---
+
+domain:
+- product
+id: yt-product-kernel-do-without-belief
+title: '"做而不信"陷阱：执行了流程，但不相信结果'
+type: dk
+dark_knowledge_type: insight
+status: reviewed
+confidence: 0.78
+trust_level: medium
+source_context: 一堂产品内核系列课——"做而不信"陷阱
+aliases:
+  - 不信陷阱
+  - 但不相信结果
+  - 做而不信陷阱
+  - 做而不信陷阱：执行了流程，但不相信结果
+  - 执行了流程
+  - 相信结果
+source_refs:
+- 10_raw/sources/yitang-lectures/一堂-产品内核实操课-Truman-口述.txt:2776-2806
+- 10_raw/sources/yitang-lectures/一堂-产品内核实操课-Truman-口述.txt:2782-2796
+created_at: '2026-06-19'
+updated_at: '2026-07-08'
+author: 老顽童
+reviewed_by: 待审
+review_date: '2026-06-19'
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 五步法
+  - 投资
+  - 方法
+  - 沉没成本
+  - 数据
+  - 场景
+discoverable_by:
+  - 做而不信陷阱：执行了流程，但不相信结果
+  - 做而不信陷阱
+  - 执行了流程，但不相信结果
+related:
+- "[[yt-product-kernel-definition]]"
+- "[[yt-product-kernel-validation]]"
+- "[[yt-demand-fake-demand-detection]]"
+- "[[yt-five-step-method]]"
+- '[[yt-product-kernel-cost-sensitive-default-no]]'
+- '[[yt-product-kernel-failure-modes]]'
+- '[[yt-product-kernel-overpromise-trap]]'
+- '[[product-moc]]'
+diagnostic_signals:
+- signal: src_unknown
+  framework_lens: 做而不信——访谈了，但不相信负面结果
+  follow_up_question: 访谈中有没有和预设相反的发现？如果有，你是调整了预设还是忽视了？
+- signal: src_unknown
+  framework_lens: 做而不信——验证了，但不尊重结果
+  follow_up_question: 如果验证结果不支持假设，你会调整方向吗？还是继续投入？
+- signal: src_unknown
+  framework_lens: 做而不信——执行了流程，但不相信流程需要调整
+  follow_up_question: 流程执行了，但结果不好，是流程问题还是执行问题？
+- signal: src_unknown
+  framework_lens: 做而不信——有数据，但不相信数据
+  follow_up_question: 你的决策是基于数据还是直觉？如果数据不支持直觉，你选哪个？
+- signal: src_unknown
+  framework_lens: 做而不信——自我认知高于数据
+  follow_up_question: 如果数据和你对用户的认知不一致，你更相信哪个？
+=== 30_wiki/concepts/concept-一堂-business-prediction.md ===
+---
+
+id: concept-一堂-business-prediction
+title: 商业预判：15字诀与光谱模型——从拍脑袋到科学决策
+type: concept
+status: reviewed
+author: 老顽童
+reviewed_by: 待审
+review_date: 2026-07-08
+confidence: 0.85
+trust_level: high
+language: zh-CN
+created_at: 2026-07-08
+updated_at: 2026-07-09
+domain:
+- product
+- entrepreneurship
+source_person: Truman
+source_context:
+  - 一堂商业预判课（2026年）
+  - yitang
+aliases:
+  - 15字诀与光谱模型
+  - Truman
+  - 从拍脑袋到科学决策
+  - 商业预判
+  - 商业预判：15字诀与光谱模型从拍脑袋到科学决策
+  - 脑袋到科学决策
+source_context:
+  - 一堂商业预判课（2026年）
+  - yitang
+source_refs:
+- 00_inbox/一堂-商业预判课-Truman-口述.txt
+- 00_inbox/一堂-商业预判课-truman-笔记.txt
+discoverable_by:
+  - 商业预判：15字诀与光谱模型——从拍脑袋到科学决策
+  - 商业预判
+  - 15字诀与光谱模型
+  - 从拍脑袋到科学决策
+quality_labels:
+- principle
+- framework
+- actionable
+related:
+- '[[framework-一堂-业务公式拆解-总纲]]'
+- '[[framework-一堂-关键假设]]'
+- '[[concept-一堂-product-kernel]]'
+- '[[concept-一堂-key-assumptions]]'
+- '[[concept-一堂-kernel-validation]]'
+- '[[concept-一堂-kernel-iteration]]'
+- '[[framework-一堂五步法]]'
+- '[[concept-一堂-终局光谱图解读]]'
+- business prediction
+- 商业预判
+- 机会预判
+- 15字诀
+- 商业预判课
+- '[[product-moc]]'
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:advanced
+  - 科学决策
+  - 方法
+=== 30_wiki/dark-knowledges/yt-product-kernel-cost-sensitive-default-no.md ===
+---
+
+domain:
+- product
+id: yt-product-kernel-cost-sensitive-default-no
+title: 成本敏感默认不：高成本低信息的价值项死守不做
+type: dk
+dark_knowledge_type: principle
+status: reviewed
+confidence: 0.90
+trust_level: high
+source_context:
+  - 一堂产品内核实操课——九大原则之成本敏感原则
+  - yitang
+aliases:
+  - 成本敏感默认不
+  - 成本敏感默认不：高成本低信息的价值项死守不做
+  - 敏感默认不
+  - 本低信息的价值项死守不做
+  - 高成本低信息的价值项死守不做
+source_context:
+  - 一堂产品内核实操课——九大原则之成本敏感原则
+  - yitang
+source_refs:
+- 10_raw/sources/yitang-lectures/一堂-产品内核实操课-Truman-口述.txt
+- 00_inbox/一堂-产品内核实操课-truman-笔记.txt
+created_at: '2026-07-08'
+updated_at: '2026-07-08'
+author: 老顽童
+reviewed_by: 待审
+review_date: '2026-07-08'
+discoverable_by:
+  - 成本敏感默认不：高成本低信息的价值项死守不做
+  - 成本敏感默认不
+  - 高成本低信息的价值项死守不做
+related:
+  - "[[concept-一堂-product-kernel]]"
+  - "[[concept-一堂-kernel-validation]]"
+  - "[[yt-product-kernel-overpromise-trap]]"
+  - "[[yt-product-kernel-do-without-belief]]"
+  - "[[yt-product-kernel-failure-modes]]"
+  - "[[yt-product-kernel-premature-optimization]]"
+  - '[[product-moc]]'
+diagnostic_signals:
+tags:
+- audience:executor
+- scene:diagnosis
+- signal: 成本敏感默认不——想加"高成本低信息"项
+  framework_lens: 这个价值项的成本高吗？对转化率的影响你确定吗？
+  follow_up_question: 如果加上去之后收入几乎不动、服务成本直接乘2-3倍，你还加吗？
+- signal: 成本敏感默认不——正在纠结要不要加服务承诺
+  framework_lens: 这个服务承诺一旦加上，能撤回来吗？用户会投诉吗？
+  follow_up_question: 你上一次加了一个服务承诺后撤回来是什么时候？还是第一次加？
+- signal: 成本敏感默认不——竞品都在做，我们不做会不会死
+  framework_lens: 竞品做了 ≠ 竞品赚钱。竞品可能也在被这个高成本项拖死。
+  follow_up_question: 你有竞品加了这些服务后的利润率数据吗？还是只是在恐慌？
+=== 30_wiki/dark-knowledges/yt-product-kernel-overpromise-trap.md ===
+---
+
+domain:
+- product
+id: yt-product-kernel-overpromise-trap
+title: 过度承诺陷阱：前端卖了后端做不出来的东西
+type: dk
+dark_knowledge_type: trap
+status: reviewed
+confidence: 0.85
+trust_level: high
+source_context:
+  - 一堂产品内核实操课——声音变现案例 + 前后端组织目标不一致
+  - yitang
+aliases:
+  - 前端卖了后端做不出来的东西
+  - 卖了后端做不出来的东西
+  - 承诺陷阱
+  - 过度承诺陷阱
+  - 过度承诺陷阱：前端卖了后端做不出来的东西
+source_context:
+  - 一堂产品内核实操课——声音变现案例 + 前后端组织目标不一致
+  - yitang
+source_refs:
+- 10_raw/sources/yitang-lectures/一堂-产品内核实操课-Truman-口述.txt
+- 00_inbox/一堂-产品内核实操课-truman-笔记.txt
+created_at: '2026-07-08'
+updated_at: '2026-07-08'
+author: 老顽童
+reviewed_by: 待审
+review_date: '2026-07-08'
+discoverable_by:
+  - 过度承诺陷阱：前端卖了后端做不出来的东西
+  - 过度承诺陷阱
+  - 前端卖了后端做不出来的东西
+related:
+  - "[[concept-一堂-product-kernel]]"
+  - "[[concept-一堂-kernel-validation]]"
+  - "[[concept-一堂-key-assumptions]]"
+  - "[[yt-product-kernel-failure-modes]]"
+  - "[[yt-product-kernel-do-without-belief]]"
+  - "[[yt-product-kernel-cost-sensitive-default-no]]"
+  - '[[product-moc]]'
+diagnostic_signals:
+tags:
+- audience:executor
+- scene:diagnosis
+- signal: 过度承诺——产品内核无法兑现销售承诺
+  framework_lens: 你的前端（销售/市场）和后端（产品/交付）对内核的理解一致吗？
+  follow_up_question: 销售承诺的"卖点"是产品团队真实能做出来的，还是为了转化率临时加的？
+- signal: 过度承诺——前后端组织目标不一致导致内核变形
+  framework_lens: 你的组织里，销售KPI是转化率，产品KPI是交付质量——这两个目标在同一个内核上打架吗？
+  follow_up_question: 如果后端说"这个做不到"，前端的反应是调整承诺还是换人卖？
+- signal: 过度承诺——用户基础能力被高估
+  framework_lens: 你的核心用户真的具备使用这个产品的基础能力吗？
+  follow_up_question: 你的产品要求用户做哪些额外动作（学习、安装、配合）？这些用户真的能做到吗？
+
+
+• Now I have the frontmatter of all 14 cards. Let me plan each:
+
+  **9 PASS cards** (add `reviewed_by: 欧阳锋`, `review_date: 2026-09-02`, `grade: <value>`):
+
+  | # | card | grade | current reviewed_by | current review_date | current grade |
+  |---|------|-------|----|----|----|
+  | 2 | high-density-composite-compilation-strategy | B+ | pending | absent | absent |
+  | 3 | tool-kdo-wechat-serendipity-collect | A- | 待审 | absent | absent |
+  | 4 | case-qinpeng-iot-module-tiering | B+ | 待审 | absent | absent |
+  | 5 | case-shampoo-product-kernel | A- | 待审 | absent | absent |
+  | 6 | case-yitang-chuanhe-seasoning-kernel | B+ | 待审 | absent | absent |
+  | 7 | case-yitang-zhongzheng-parking-garage | B+ | 待审 | absent | absent |
+  | 8 | yt-product-kernel-iteration | A- | 待审 | '2026-06-19' | absent |
+  | 11 | yt-product-kernel-do-without-belief | A- | 待审 | '2026-06-19' | absent |
+  | 13 | yt-product-kernel-cost-sensitive-default-no | B+ | 待审 | '2026-07-08' | absent |
+
+  review_date non-empty for cards 8/11/13 — 非空不覆盖 means keep existing review_date? Hmm. But the task says "补 frontmatter：reviewed_by: 欧阳锋 + review_date: 2026-09-02 + grade: <裁定表值>——走 review_mark.py（非空不覆盖）". The review_date on cards 8/11/13 is the producer self-filled creation date (part of the E018 problem — "review_date 是生产者创建日自填"). Overwriting those self-filled dates with the 补审日 2026-09-02 is exactly the point of the fix. The "非空不覆盖" principle likely guards against clobbering legitimate values; here the whole premise is these review_dates are bogus self-fills. But strictly "非空不覆盖"... Hmm.
+
+  Actually think: the 裁定 says "我安排补齐 frontmatter（reviewed_by/review_date=补审日）" — review_date=补审日=2026-09-02. So review_date should be set to 2026-09-02 even if non-empty, because the existing value is invalid (self-filled creation date). The "非空不覆盖" in the task description refers to review_mark.py behavior for reviewed_by presumably — but the script overwrites everything unconditionally. Hmm, actually the script overwrites status/reviewed_by/review_date unconditionally. So "非空不覆盖" must mean: I should check first, and where a field already has a legitimate value, don't let the script clobber it. 
+
+  For cards 8/11/13 review_date self-filled = not legitimate → overwrite to 2026-09-02 is correct per 裁定 (review_date=补审日）. For reviewed_by: all are pending/待审 → overwrite. status already reviewed → unchanged. grade absent → add.
+
+  But wait — script doesn't handle grade and will normalize the entire frontmatter to \n joined lines, preserving other lines as-is. It also rewrites status: reviewed → reviewed (no-op). OK.
+
+  However the script writes the file with `cp.write_text(new_content)` — on Windows Python default newline translation: read_text converts \r\n to \n? Actually read_text with default newline=None does universal newlines → \n. write_text writes \n as \n (no translation on write in text mode? In text mode, \n is translated to os.linesep on Windows!). Python's open in text mode on Windows translates \n → \r\n when writing. That could convert LF files to CRLF. Hmm, these files may have mixed endings already. The vault files seem to have mixed \r. Risky but this is the sanctioned script; previous tasks (#613) presumably used it. Fine.
+
+  Also the script's reviewer param: pass `--reviewer 欧阳锋`.
+
+  But hold on — do I even need review_mark.py given it doesn't set grade? Task says "走 review_mark.py". I can run review_mark.py for status/reviewed_by/review_date, then add grade via Edit. That's 9 script runs + 9 edits. Alternatively do everything via Edit. The task explicitly says 走 review_mark.py. Follow it.
+
+  Wait — 非空不覆盖 concern: script will overwrite review_date on cards 8/11/13. That's desired (self-filled bogus date → 补审日）. I'll note this in the execution report as a deliberate deviation justified by 裁定原文 "review_date=补审日".
+
+  Hmm, actually let me reconsider: "非空不覆盖" is a general P-29 rule. The 裁定 explicitly says review_date=补审日， so overwriting the bogus self-filled date is executing the verdict, not clobbering. Document it.
+
+  **5 downgrade cards** (status → enriched + add downgrade_reason):
+  | # | card | FAIL 点 |
+  |---|------|------|
+  | 1 | dk-p15-unverified | 六段模板四段+关联节全 src_unknown 占位，内容空洞 |
+  | 9 | yt-product-kernel-validation | 两处伪「Truman 原话」引文零命中 |
+  | 10 | yt-product-kernel-ten-metrics | 十大指标与源仅 1/10 重合+4 节占位 |
+  | 12 | concept-一堂-business-prediction | source_refs 文件名死链+⑦引言虚构+④与源不符 |
+  | 14 | yt-product-kernel-overpromise-trap | 核心引文块系改写拼贴+「月入过万」无源 |
+
+  downgrade_reason format: 指向 #614 裁定表行. e.g. `downgrade_reason: "#614 裁定表卡1：六段模板四段+关联节全 src_unknown 占位，内容空洞，reviewed 不成立；按 pitfalls.md P-15 原始条目重写后重审"`.
+
+  Note downgraded cards keep reviewed_by/review_date fields as-is (red line: only touch named fields). Hmm, but leaving reviewed_by: pending with status enriched is fine.
+
+  **随修项**:
+
+  Card 3 (tool-kdo-wechat-serendipity-collect): two path fixes:
+  - §Skill 挂载声明 says `.claude/skills/wechat-serendipity-collect/` doesn't exist. Find actual skill location. Maybe it's at `40_outputs/capabilities/skills/` or a shared dir. Need to grep the card body for the mention and check where the skill actually is. If the skill truly doesn't exist anywhere, 声明失实 → the fix might be to remove/correct the declaration. The 裁定 says "缺陷落笔随修：§Skill 挂载声明的 .claude/skills/wechat-serendipity-collect/ 不存在（声明失实）". So fix = correct to actual path or mark as not mounted. Need to find if the skill exists somewhere.
+  - 组件表 `kdo-tools/yuanbao_cookie_extract.py` 路径错（实际在 40_outputs/code/scripts/）→ fix path. Note: card's source_refs has `40_outputs/code/scripts/yuanbao_cookie_extract.py` already (correct); the wrong path is in the body component table.
+
+  Card 5 (case-shampoo-product-kernel): 迭代课两引用区间指错段落（排列组合实际在 L2916-2944）；补引用 src_20260611_89407193。
+  Current source_refs:
+  - 验证课.txt:1026-1296
+  - 迭代课.txt:1304-1346
+  - 迭代课.txt:3018-3400
+  Fix: change the two 迭代课 intervals — which ones? "迭代课两引用区间指错段落（排列组合实际在 L2916-2944）". So the two 迭代课 refs should become one pointing at L2916-2944? Or both are wrong and the correct is 2916-2944. 裁定 says "迭代课两引用区间指错段落（排列组合实际在 L2916-2944）" — meaning both 迭代课 intervals point to wrong paragraphs; the 排列组合 content is actually at L2916-2944. So replace both 迭代课 refs with `...迭代课-Truman-口述.txt:2916-2944`? And also "卖点矩阵真实但依赖未列入 refs 的 OCR 源 src_20260611_89407193——补引用即可". Need the full filename of src_20260611_89407193 — check 10_raw/sources/.
+
+  Card 6 (case-yitang-chuanhe-seasoning-kernel): 第二引用区间错位（L700-1150 是车库案例）. Hits at L322-336/L432/L466/L478/L650 — all within first ref 194-657. The second ref 700-1150 is garage case → wrong. What's the correct second interval? The case covers 3万→6万团队20人 L478, 万店亿收 L650. All hits are in 194-657! So the second interval should be... maybe it should just be removed, or maybe there's content beyond 657? 裁定 says "6/6 数字命中" all in L322-650 range. And "「V6.0」编号系卡片自构（源止于 5.0...）需注明" — hmm, that's listed under 缺陷 but for card 6 the 裁定 didn't mark it as 落笔随修 explicitly? Let me re-read: task #615 says 随修项 = 卡3两处路径、卡5/6/7/8引用区间、卡11/13 diagnostic_signals 结构. For card 6 the 随修 is 引用区间. The V6.0 note — 裁定表 card 6 缺陷 says "「V6.0」编号系卡片自构（源止于 5.0，品类扩展是结果汇报）需注明" — is that part of 随修？ Task #615 says "裁定表「落笔时随修」标注". Card 6's row doesn't say "落笔随修" explicitly... Actually looking again, rows with explicit "缺陷落笔随修" wording: 卡3, 卡5, 卡8, 卡11. 卡13 says "随落笔修". 卡6 and 卡7 list "缺陷：第二引用区间错位（...）" without explicit 落笔随修 wording, but task #615 item 3 explicitly includes 卡5/6/7/8 引用区间. So for card 6: fix the second ref interval. What should it be? Options: remove it, or correct to cover actual used content. Since all 6 hits are in 194-657, and V6.0 content... the case discusses 万店亿收 L650. Maybe content continues past 657? The first interval ends at 657. The 品类扩展 result report might be at L650+. Without the source, safest: check the source file around the case to determine proper second interval. I need to look at 一堂-产品内核迭代课-Truman-口述.txt around lines 650-700 to see where the chuanhe case ends and garage begins.
+
+  Card 7 (case-yitang-zhongzheng-parking-garage): 第二引用区间错位（L2069-2253 是自习室段）. Hits at L726-L1142 — all within first ref 700-1150. So second ref should be removed or corrected. Garage case content all in 700-1150? The hits: 12vs8车位 L882, 1.4万vs2.5万 L900-948, 传感器 L986-996, 15人2月 L1066-1100, 毛利8-9% L726, 4城3000位6000万 L1136-1142. All ≤1142. So the correct coverage is entirely 700-1150 (maybe extend to ~1150). Second interval 2069-2253 is wrong （自习室段）. Fix: remove second interval? Or was there garage content later? Need to check source. Possibly the correct fix is just deleting the wrong interval. But F-KDO-015: "不准替换 source_refs 已有条目" — 只追加不替换！ Hmm. But the 随修项 explicitly orders fixing 引用区间 — the 裁定 (reviewed A-) overrides. The 裁定表 itself instructs fixing wrong intervals. F-KDO-015 protects against breaking provenance; here the interval is factually wrong (points to another case's paragraphs) — fixing it restores provenance. The 裁定 has authority. I'll fix intervals per 裁定.
+
+  Card 8 (yt-product-kernel-iteration): 猫粮案例行号（L2824-2900）未列入来源区间 → but its source_refs are two .md files (src_20260606_4f5117e3-口述.md and deeb4e26-笔记.md) without line intervals! Hmm, "猫粮案例行号（L2824-2900）未列入来源区间" — the L2824-2900 refers to which file? The hits in 理由 reference L96-150, L2144-2168, L2834-2856, L3304-3356, L2224-2228 — these look like line numbers in 迭代课-Truman-口述.txt? But source_refs point to src_20260606_4f5117e3 md files. Hmm wait, maybe those md files are the same content. The 随修 for card 8: "猫粮案例行号（L2824-2900）未列入来源区间、笔记标注 11KB 实测 10.3KB". So need to: add the interval L2824-2900 to source refs (presumably appending `:2824-2900` to the 口述 md ref), and fix "11KB" → "10.3KB" in body. Need to read the card body to find these.
+
+  Hmm, but the source_refs have no intervals at all currently. "未列入来源区间" — maybe the body has a 来源区间 section listing intervals, and L2824-2900 missing. Need to read card 8 body.
+
+  Card 11 (yt-product-kernel-do-without-belief): diagnostic_signals 5 条 `signal: src_unknown` 待补 → fill in real signal text. The structure currently: each item has signal: src_unknown + framework_lens + follow_up_question. Fix: replace `signal: src_unknown` with an actual signal. What should signal be? Look at other dk cards: card 13's signals are like "成本敏感默认不——想加高成本低信息项". So for card 11, signals like "做而不信——访谈了，但不相信负面结果" — actually the framework_lens already contains that. So the signal should mirror: "做而不信——访谈了但不相信负面结果" etc. I can derive signal from framework_lens text. 5 items.
+
+  Card 13 (yt-product-kernel-cost-sensitive-default-no): diagnostic_signals 空 + signal 条目错置于 tags 下 → move the 3 signal entries from tags: to diagnostic_signals:. Currently:
+  ```
+  diagnostic_signals:
+  tags:
+  - audience:executor
+  - scene:diagnosis
+  - signal: 成本敏感默认不——想加"高成本低信息"项
+    ...
+  ```
+  Fix to:
+  ```
+  diagnostic_signals:
+  - signal: 成本敏感默认不——想加"高成本低信息"项
+    ...
+  tags:
+  - audience:executor
+  - scene:diagnosis
+  ```
+
+  Card 14's tags also have signal: entries under tags (same malformation) — but card 14 is a downgrade card, and its 随修 is NOT in scope (content repair separate). Red line: 只动裁定表点名的字段与随修点. So card 14: only status + downgrade_reason. Leave the tags/diagnostic_signals malformation (that's part of content repair later? Actually it's structural, but not named — leave it).
+
+  Also card 10's diagnostic_signals are fine.
+
+  OK. Now sources I need to check:
+  1. Actual path of wechat-serendipity-collect skill.
+  2. src_20260611_89407193 full filename in 10_raw/sources/.
+  3. 迭代课-Truman-口述.txt around lines 650-720 to determine correct second interval for card 6 (where chuanhe ends / garage begins) — actually wait, for card 6 first ref is 194-657, second 700-1150 wrong. For card 7 first ref is 700-1150, second 2069-2253 wrong. Interesting: card 6's wrong interval = card 7's correct interval, and vice versa? Card 6 second = 700-1150 (garage), card 7 second = 2069-2253 （自习室）. Card 7's correct is 700-1150. So card 6's fix: second interval should be... maybe there's no second interval; maybe chuanhe content also appears later? The 裁定 for card 6 says hits all in L322-650. Also "品类扩展是结果汇报" — where? Unknown. Let me check the source around L650-700 to see if chuanhe case extends beyond 657.
+
+  Also for card 5: correct intervals — first ref 验证课1026-1296 stays (hits L1026-1148 in it). Two 迭代课 refs (1304-1346, 3018-3400) both wrong → actual 排列组合 at 2916-2944. But wait 2916-2944 vs existing 3018-3400... the 裁定 says "迭代课两引用区间指错段落（排列组合实际在 L2916-2944）". So replace both with 2916-2944? Or one of them covers something else? Card 5 hits: 张磊 L1026, 二三十瓶 L1110, 两专家 L1134, 牛奶金句 L1138-1142, 四步路径， 高级成分 L1148 — all in 验证课. The 迭代课 refs support 排列组合/卖点矩阵 content. 裁定 says both 迭代课 intervals wrong, actual at 2916-2944. So: replace the two 迭代课 refs with one 迭代课.txt:2916-2944? "两引用区间指错段落" + "补引用即可" for the OCR source. I'll replace the two wrong intervals with the correct one and add the OCR source ref.
+
+  Hmm wait, careful: maybe only one interval should be 2916-2944 and the shampoo content in 迭代课 spans more. Let me verify by reading 迭代课 source around 2916-2944 and check 1304-1346 & 3018-3400 content to confirm they're wrong. That's thorough but time-consuming. The 裁定 already did the forensics ("对源取证含源文件行号+原文摘句"). I'm 落笔 not 裁决 — trust the 裁定表 values: 排列组合实际在 L2916-2944.
+
+  Let me verify quickly with grep on the source for context, but keep it light.
+
+  Plan of execution:
+  1. Read card 3 body (find §Skill 挂载声明 + 组件表 lines), card 8 body (find 来源区间 + 11KB note), card 11 frontmatter already have, card 13 frontmatter already have.
+  2. Find skill path: Glob for wechat-serendipity skill.
+  3. Find src_20260611_89407193 filename.
+  4. Spot-check 迭代课 source lines 2916-2944 （排列组合） and L650-700 boundary.
+
+  Then make edits:
+  - 9 PASS cards: review_mark.py --reviewer 欧阳锋 (dry-run first), then Edit to add grade.
+    Wait — review_mark.py also sets status: reviewed (already) and overwrites review_date where present (cards 8/11/13 → 2026-09-02, intended per 裁定）.
+    For grade: add via Edit after script run. Or do all via Edit and skip script? Task says 走 review_mark.py. OK run script then add grade line via Edit. Where to put grade? After review_date line probably.
+  - 5 downgrade cards: Edit status reviewed→enriched + add downgrade_reason line.
+  - 随修 edits for cards 3,5,6,7,8,11,13.
+  - After all edits: yaml.safe_load re-parse all 14 (E017 self-check) via a python one-liner.
+  - Optionally kdo pre-submit on changed cards? The context says pre-submit for card submissions; these are frontmatter fixes. #613 ran pre-submit 33/33. To be safe, run kdo pre-submit on the 14 cards. But pre-submit may fail downgraded cards (enriched status might require different fields?). #613 precedent: they ran pre-submit on fixed cards. I'll try; if a card fails for pre-existing reasons unrelated to my change, note it. Actually red line: don't fix beyond scope. Run and report.
+  - git status (L12), commit deliverables.
+  - Write 5-field execution report into task file #615 (append section).
+  - complete 615 via script, verify status.
+  - Append todos line.
+  - Truman 11章复盘 + daily-context-save + 技能进化日志 + friction-log check.
+
+  That's the full session. Let me proceed. First batch of investigation commands.
+
+• Frontmatter 已摸清。现在核查随修项所需的三个事实：skill 实际路径、OCR 源文件名、迭代课引用区间。---

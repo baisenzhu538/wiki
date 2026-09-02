@@ -382,3 +382,7 @@
 - [2026-09-02 10:42] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#613（laowantong 的单，挂审 14min）（事件驱动：有待终审）
 - [2026-09-02 10:45] ✅ #613 R1 复审终审 PASS A-（task_20260902_laowantong-586batch-reviewedby-residue-fix 返工重提）：复审对照法逐项核上轮 FAIL 两点——P0-1 待审口径漏扫闭环（独立复扫 2949 文件：待审 53→12、pending 17→2、真人缺 date 500、YAML 错 2，与报告 §1/§5 逐字吻合，14 张无佐证全在上报清单）；P1-1 脚本口径闭环（scan-script L52 补「待审」与 §0 逐字对齐）；P1-2 验证数字已改实测值。佐证链 3/3 属实（08-16 批 PASS A- L93-103 + 20 卡跨三波任务单 20/20 命中、08-09 批 PASS A 12/12、pipeline 补审 PASS(条件) A-）；commit 833fcb4b1 33 卡 numstat 全 +2/-1 正文零改动、grade 与佐证等级一致；§3.2 review_date 自填变体 git 取证属实（a826f3043 创世即带/e20cbce48 批量翻转无终审）。意见书先落任务单复审记录 R1 节再跑脚本（O9）；四处同步齐（frontmatter reviewed+A-/队列 L247 reviewed/待审段划线/dashboard.html）；通过已抄送王语嫣收件箱（待裁定 14 张无佐证卡处置方向）；出口自检无新增建议
 - [2026-09-02 11:12] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-02 11:40] ✅ #614 完工提审（14张无佐证reviewed卡批量补审）：14卡全通读3145行+4路O0溯源对源（行号级取证）→PASS 9（A-×4/B+×5）/降级enriched 5/需深审 0；一致性原则=编造（伪引文/核心失源）降级、标注不准（区间错位但源真实）PASS记缺陷；五字段执行报告+14行裁定表落任务单执行报告节；出口自检命中→建议书 prop_20260902_ouyangfeng-586batch-fake-quotes-and-ref-drift 已落diagnosis+探针回执（新登记1）；通过+降级明细已抄送王语嫣收件箱；commit bfc0d49df 过E040门禁；complete→pending_review（reviewer=王语嫣编排层复核）
+- [2026-09-02 11:37] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#614（ouyangfeng 的单，挂审 1min）（事件驱动：有待终审）
+- [2026-09-02 11:37] 🔔 KDO 新提审 1 单：#614，请终审（新提审）
+- [2026-09-02 11:47] ✅ KDO 终审通过 1 单：#614——你的单过了，见任务单终审记录

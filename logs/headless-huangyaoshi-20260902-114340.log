@@ -1,0 +1,319 @@
+kimi version 0.39.1
+• Let me start with the startup recovery reads.Read 90_control/AGENTS.md and find task #616. Let me search for the task file.Found the task file: `60_feedback/tasks/task_20260902_huangyaoshi-production-gate-enhancements.md`. Let me read it. Also check queue status via queue_transition.py. Let me first read the task file fully.
+
+• 找到任务单了，先读任务单和诊断源文件。
+
+• Read the diagnosis source file and the scripts involved: kdo/pre_submit.py and 90_control/scripts/queue_transition.py. Also check queue status.队列总任务数: 199
+queued: 2
+claimed: 0
+pending_review: 0
+Task #616 is queued. First claim it via queue_transition.py. Then examine the two scripts: kdo/pre_submit.py (production gate) and 90_control/scripts/queue_transition.py.
+
+  Let me claim first.
+
+• 领取 #616，然后勘察涉及的两个脚本。任务 616 不在生产队列中
+ls: cannot access 'kdo/pre_submit.py': No such file or directory
+90_control/scripts/queue_transition.py
+wc: kdo/pre_submit.py: No such file or directory
+ 1611 90_control/scripts/queue_transition.py
+ 1611 total
+
+
+• Queue says "任务 616 不在生产队列中". Check production-queue.md for 616 and where the queue file is. Also pre_submit.py isn't at kdo/ in this vault — KDO CLI source is at "C:\Users\Administrator\Knowledge Delivery OS 0.0.1\kdo\" (outside working directory). But #540 earlier mentioned "untracked: kdo/pre_submit.py" — that was in the KDO CLI repo maybe. Let me check queue first.Queue row exists with seq 616 but task_id `task_20260902_huangyaoshi-production-gate-enhancements`. claim 616 failed "任务 616 不在生产队列中". Maybe claim expects task_id or different arg format. Let me check the script's CLI.claim 需要 --instance <instance>
+Hard state transition enforcer for the KDO production queue.
+
+All queue status changes MUST go through this script. Manual edits to
+`production-queue.md` or task file `status` fields are forbidden.
+
+Usage:
+    python queue_transition.py claim <task-id> --instance <name> [--force] [--no-commit]
+    python queue_transition.py complete <task-id> --instance <name> [--evidence <path>] [--force --reason '<理由>'] [--no-commit]
+    python queue_transition.py release <task-id> --instance <name> [--no-commit]
+    python queue_transition.py review <task-id> --verdict pass|fail --reviewer 欧阳锋 [--grade A|A-|B+|B|B-|C] [--no-commit]
+
+Exit codes:
+    0 = transition applied
+    1 = transition rejected / error
+
+--force claim: 跳过队列前方 pending_review 阻塞（用于不同 assignee 的并行任务）
+--force complete: 允许从 queued 直接跳到 pending_review
+        （用于生产已完成但未通过脚本领取的场景；#444 起必须配 --reason，例外入台账 90_control/force-exceptions.log）
+--no-commit: 跳过流转后的自动 git 收口（#390 逃生门，特殊场景手工控制）
+
+#390：流转成功后自动 commit 本次触碰的文件（任务单+队列+dashboard），
+让"状态变更"与"入档"原子化——跨 checkout 协作者任何时候读到的都是最新状态。
+红线：path-scoped add，严禁 add -A/.（工作区永远有其他 agent 的在制品）。
+git 失败不阻断流转：stderr 醒目报警 + 写 90_control/pending-git-commits.log 待收口。
+
+✅ task_20260902_huangyaoshi-production-gate-enhancements 已领取为 claimed-huangyaoshi-kimi
+
+✅ dashboard.html 已生成 (199 个任务)
+   待领取: 0  |  审查中: 0  |  进行中: 2  |  已完成: 197
+Claimed. Now examine the relevant scripts:
+
+  Task 2 & 3: `90_control/scripts/queue_transition.py` (1611 lines).
+  Task 1: pre-submit — `kdo/pre_submit.py` was mentioned (#540 E040). KDO CLI source is at `C:\Users\Administrator\Knowledge Delivery OS 0.0.1\kdo\` — outside the working directory. Hmm. The AGENTS.md says KDO CLI source is outside. But guideline says avoid accessing outside working directory unless explicitly instructed. The task explicitly instructs "生产闸门加两项机械检查（pre-submit 或老顽童检查单）". pre_submit.py lives in the KDO CLI directory. The earlier note: "#540 交付被 E040 门禁拦（untracked: kdo/pre_submit.py、tests/test 未入仓）" — "kdo/pre_submit.py" relative path suggests it was in the vault's git repo? Let me check whether kdo/ exists in this vault. `ls kdo` failed above for pre_submit.py. Let me glob.
+
+• 已领取。现在勘察两个改动对象的位置。
+
+• This pre_submit.py is deprecated. The real gate is `kdo pre-submit` — KDO CLI at `C:\Users\Administrator\Knowledge Delivery OS 0.0.1\kdo\`. That's outside the vault working directory. The AGENTS.md says KDO CLI source is there and Builder owns it. The task says "生产闸门加两项机械检查（pre-submit 或老顽童检查单）" — "pre-submit 或老顽童检查单" gives flexibility. Options:
+
+  1. Modify the KDO CLI pre-submit (outside working dir — riskier, but Builder owns it per AGENTS.md).
+  2. Add to a "老顽童检查单" — maybe there's a checklist doc or script in the vault.
+
+  The instruction also says "任务 1 的检查先进 pre-submit WARNING 档（不拦截）" — explicitly "pre-submit WARNING 档". So it should be in the kdo CLI pre-submit. Let me check the KDO CLI directory. Note #515 判据清单 mentioned `_extract_deliverable_paths` and `NEGATIVE_CLAIM_SOFT` — those are in queue_transition.py? Actually NEGATIVE_CLAIM_SOFT appeared in kdo-tools/quality_metrics.py and others. Let me search for the pre-submit implementation in the KDO CLI repo.
+
+  Let me look at the CLI repo structure first.__init__.py
+__main__.py
+__pycache__
+artifacts.py
+bridge.py
+cli.py
+commands
+contradiction_check.py
+converters.py
+dashboard.py
+dashboard_server.py
+extractors.py
+gate.py
+health_check.py
+improvement.py
+iteration_report.py
+links.py
+llm.py
+memory.py
+pre_submit.py
+preferences.py
+runner.py
+search_index.py
+self_check.py
+templates.py
+tools
+validation.py
+workspace.py
+Now I understand pre_submit.py structure. Now read queue_transition.py — focus on claim (field wiping bug) and review (reviewer hardcode). 1611 lines. Let me read relevant portions.Now I understand the full picture. Let me analyze the three tasks:
+
+  **任务 2: claim 抹字段 bug.** Look at `update_task_frontmatter`:
+  ```python
+  def update_task_frontmatter(task_file: Path, **updates: Any) -> None:
+      fm, body = parse_frontmatter(task_file)
+      for key, value in updates.items():
+          if value is not None:
+              fm[key] = value
+      fm["updated_at"] = ...
+      write_frontmatter(task_file, fm, body)
+  ```
+
+  Hmm, that filters None values. But the bug: claim erases existing non-empty fields to null. How? `write_frontmatter` re-dumps the entire parsed fm via `yaml.safe_dump`. If parsing yields the fields, dumping should preserve... unless the original frontmatter values are lost in parse. Wait — the reported symptom: `decision_source` in #614 got wiped to null, `title` in #613 wiped. 
+
+  Why? Maybe parse_frontmatter fails on those task files — e.g., `parse_frontmatter` regex fails (returns {}, text), and then fm is empty dict, and write_frontmatter writes only the updates → all fields erased! Look at regex: `re.match(r"^---\r?\n(.*?)\r?\n---\r?\n(.*)$", text, re.DOTALL)` — requires `---\n...\n---\n`. If the frontmatter's closing `---` is at EOF without trailing newline, or if there are BOM characters... Also `yaml.safe_load(fm_text) or {}` — if YAML parse returns None or fails... Actually if safe_load raises YAMLError it propagates. If the text has BOM (`\ufeff---`), `text.startswith("---")` fails → returns {}, text → then write_frontmatter writes a new frontmatter containing only status/instance/updated_at, prepended to the full original text (including original frontmatter in body!) — that would duplicate frontmatter, not wipe.
+
+  Hmm, let me look at actual evidence: #614's task file `60_feedback/tasks/task_20260902_ouyangfeng-unverified-reviewed-cards-batch-review.md` — check its git history to see what claim did to decision_source. And #613 task file. Let me examine with git.
+
+  Actually wait — the bug might be in `yaml.safe_dump` with `allow_unicode=True`. Fields with values containing special chars could be lost? No.
+
+  Another candidate: `update_task_frontmatter` only sets keys when value is not None — good. But claim calls `apply_updates(task_id, new_status, task_file, instance=instance, status="in_progress")` — fine.
+
+  Hmm, but where would decision_source be wiped to null? Perhaps in `can_claim` or `queue_gate`? Let me check git diff of the claim commit for #614's task file. Let me do that empirically — P-21: diagnose first.
+
+  Also task 3: reviewer 翻转通道. Currently `action_review` hardcodes `if reviewer != "欧阳锋"`. Need: support `--reviewer 王语嫣` limited to tasks where assignee=ouyangfeng （编排骨架单）. And `_check_review_authority` requires ouyangfeng registered instance in cwd. For 王语嫣 review, presumably skip/relax authority check or require wangyuyan instance. Spec: "review 支持 `--reviewer 王语嫣` 限编排骨架单（assignee=ouyangfeng 的单），留痕不变。"
+
+  Task 1: pre_submit.py in KDO CLI repo — add two WARNING checks:
+  - Quote verbatim check: quoted blocks in card body with line numbers → grep source files
+  - source_refs range spot check: line ranges within file bounds and non-empty
+
+  Check for tests: `kdo-tools/tests/` and 90_control/scripts/tests. Also KDO CLI repo has tests dir? Let me check. The task says "三个小改各自回归用例" — need regression tests for each.
+
+  Plan of diagnosis:
+  1. git log/diff on #614 task file around claim time to see what got wiped.
+  2. Check whether KDO CLI repo has tests for pre_submit.
+
+  Let me run git investigation.11e8bd983 编排：#614复核PASS A-（手工翻转留痕）+#615落笔单+#616闸门三修立项拉起
+481c6a166 chore(queue): #614 complete by ouyangfeng-kimi
+bfc0d49df #614 14张无佐证reviewed卡批量补审裁定表+系统性模式建议书 by ouyangfeng-kimi
+3cdf9eaeb chore(queue): #614 claim by ouyangfeng-kimi
+ee0913bb1 编排：#614 十四张无佐证reviewed卡批量补审立项（#613上报清单裁定）
+3:title: 14 张无终审佐证 reviewed 卡批量补审（E018 家族历史遗留，#613 上报清单裁定）
+9:decision_source: null
+82:4. 摩擦记录：`queue_transition.py claim` 落盘时将本任务单 frontmatter `decision_source` 原值抹为 null——建议脚本保留既有非空字段（随建议书一并上报）。
+---
+---
+id: task_20260902_ouyangfeng-unverified-reviewed-cards-batch-review
+title: 14 张无终审佐证 reviewed 卡批量补审（E018 家族历史遗留，#613 上报清单裁定）
+seq: 614
+status: reviewed
+assignee: ouyangfeng
+created_by: wangyuyan
+created_at: 2026-09-02
+decision_source: null
+reviewer: 王语嫣（编排层复核落点）
+reviewed_by: 王语嫣
+review_date: '2026-09-02'
+grade: A-
+instance: ouyangfeng-kimi
+updated_at: '2026-09-02T03:36:21.869910+00:00'
+evidence: 60_feedback/tasks/task_20260902_ouyangfeng-unverified-reviewed-cards-batch-review.md
+---
+
+# #614 十四张无佐证 reviewed 卡批量补审（欧阳锋）
+
+---
+id: task_20260902_ouyangfeng-unverified-reviewed-cards-batch-review
+title: 14 张无终审佐证 reviewed 卡批量补审（E018 家族历史遗留，#613 上报清单裁定）
+seq: 614
+status: queued
+assignee: ouyangfeng
+created_by: wangyuyan
+created_at: 2026-09-02
+decision_source: #613 上报王语嫣的 14 张无终审佐证卡（排查补齐报告-613 §3）——王语嫣 09-02 裁定：批量补审定真伪，不补登记不搁置
+reviewer: 王语嫣（编排层复核落点）
+---
+
+# #614 十四张无佐证 reviewed 卡批量补审（欧阳锋）
+
+## 背景
+diff --git a/60_feedback/tasks/task_20260902_ouyangfeng-unverified-reviewed-cards-batch-review.md b/60_feedback/tasks/task_20260902_ouyangfeng-unverified-reviewed-cards-batch-review.md
+index 4355f571a..b4dc65644 100644
+--- a/60_feedback/tasks/task_20260902_ouyangfeng-unverified-reviewed-cards-batch-review.md
++++ b/60_feedback/tasks/task_20260902_ouyangfeng-unverified-reviewed-cards-batch-review.md
+@@ -2,12 +2,14 @@
+ id: task_20260902_ouyangfeng-unverified-reviewed-cards-batch-review
+ title: 14 张无终审佐证 reviewed 卡批量补审（E018 家族历史遗留，#613 上报清单裁定）
+ seq: 614
+-status: queued
++status: in_progress
+ assignee: ouyangfeng
+ created_by: wangyuyan
+ created_at: 2026-09-02
+-decision_source: #613 上报王语嫣的 14 张无终审佐证卡（排查补齐报告-613 §3）——王语嫣 09-02 裁定：批量补审定真伪，不补登记不搁置
++decision_source: null
+ reviewer: 王语嫣（编排层复核落点）
++instance: ouyangfeng-kimi
++updated_at: '2026-09-02T03:12:31.772327+00:00'
+ ---
+ 
+ # #614 十四张无佐证 reviewed 卡批量补审（欧阳锋）
+Root cause found. The original frontmatter value: `decision_source: #613 上报王语嫣的...` — starts with `#` which in YAML is a comment! So `yaml.safe_load` parses `decision_source:` with value None (the `#613 ...` is a comment). So the round-trip via safe_load + safe_dump wipes it. It's not really the script "erasing" — it's that the original YAML was malformed (unquoted value starting with #), and claim's parse→dump normalizes it to null.
+
+  But from the factory's perspective, the fix per the task: "修法：claim/complete 回写只动状态字段，保留其余非空字段。" — i.e., write-side should preserve the original raw lines for fields not being updated, rather than parse→dump round-trip. That handles any YAML quirks (unquoted #, anchors, weird formatting).
+
+  Minimal fix approach for `update_task_frontmatter`: instead of yaml round-trip, do line-level editing — parse the frontmatter text lines, update only the keys in updates (plus updated_at), preserve all other lines verbatim. If a key in updates doesn't exist, append it. That keeps everything else byte-identical.
+
+  Also #613 title wiped — same mechanism presumably (`title: ...` starting with #? Actually #613's title might start with "排查..." hmm. Whatever — line-preserving write fixes the class).
+
+  Edge cases for line-based edit:
+  - Multi-line YAML values (e.g., list or folded scalar) — must preserve the whole block of non-updated keys, and when updating an existing key, replace only its line if single-line; if existing value spans multiple lines, we need to replace the block. Keep it simple: when updating an existing key, if the next lines are continuation lines (indented), remove them and write the new value inline (safe_dump scalar).
+  - Keys to add: insert before closing `---`.
+
+  Also must handle the case where frontmatter missing/malformed — fall back to old behavior? Current code returns {} when no match. Keep a fallback: if regex doesn't match, use old path.
+
+  Actually let me write a surgical `update_task_frontmatter` that:
+
+  ```python
+  def update_task_frontmatter(task_file, **updates):
+      """只动 updates 指定字段（+updated_at），其余 frontmatter 行原样保留——
+      不 round-trip yaml（#616 任务2：parse→dump 会把 YAML 注释语法吞掉的值
+      如 `key: #注释开头` 抹为 null，#614 decision_source/#613 title 实证）。"""
+      text = task_file.read_text(encoding="utf-8", errors="ignore")
+      m = re.match(r"^---\r?\n(.*?)\r?\n---\r?\n(.*)$", text, re.DOTALL)
+      if not m:
+          # 无 frontmatter：维持原逻辑（yaml 写头）
+          fm, body = parse_frontmatter(task_file)
+          ...
+      fm_text, body = m.group(1), m.group(2)
+      upd = {k: v for k, v in updates.items() if v is not None}
+      upd["updated_at"] = datetime.now(timezone.utc).isoformat()
+      lines = fm_text.split("\n")  # careful with \r
+      ...
+  ```
+
+  Hmm wait, the regex captures fm_text with possible \r at end of lines? Pattern `\r?\n` — group(1) is `(.*?)` between `---\r?\n` and `\r?\n---`. With re.DOTALL, `.` matches \n. The group will contain internal newlines; line ends inside group are `\n` (the `\r` before the closing delimiter is consumed by `\r?\n`). But internal lines could still have `\r` if file is CRLF — group(1) = content up to before `\r?\n---`, so internal `\r\n` remain as-is. When splitting on "\n", lines may have trailing "\r". Handle by tracking.
+
+  Simpler: detect newline style. Let me write it:
+
+  ```python
+  def update_task_frontmatter(task_file: Path, **updates: Any) -> None:
+      """Update task file frontmatter keys —— 只动指定字段，其余行原样保留。
+
+      #616 任务2：旧实现 yaml.safe_load→safe_dump round-trip 会把「YAML 语法上
+      解析为 null」的字段抹成真 null（实证：#614 decision_source 值以 # 开头被
+      当注释、#613 title 同型），claim/complete 回写只许动状态字段。
+      实现：行级改写——已存在键替换其行（含多行续行块），不存在键追加到尾部，
+      其余行逐字节保留。
+      """
+      updates = {k: v for k, v in updates.items() if v is not None}
+      updates["updated_at"] = datetime.now(timezone.utc).isoformat()
+
+      text = task_file.read_text(encoding="utf-8", errors="ignore")
+      m = re.match(r"^(---\r?\n)(.*?)(\r?\n---\r?\n)(.*)$", text, re.DOTALL)
+      if not m:
+          # 无 frontmatter 块——退回 yaml 路径（新建头）
+          fm, body = parse_frontmatter(task_file)
+          fm.update(updates)
+          write_frontmatter(task_file, fm, body)
+          return
+
+      head, fm_text, close, body = m.groups()
+      nl = "\r\n" if "\r\n" in head or "\r\n" in fm_text else "\n"
+      lines = fm_text.splitlines()  # 不带换行符
+      key_re = re.compile(r"^([A-Za-z_][\w-]*)\s*:")
+      out: list[str] = []
+      i = 0
+      remaining = dict(updates)
+      while i < len(lines):
+          line = lines[i]
+          km = key_re.match(line)
+          if km and km.group(1) in remaining:
+              key = km.group(1)
+              # 跳过原值的续行（缩进块/多行标量）
+              i += 1
+              while i < len(lines) and (lines[i].startswith((" ", "\t")) or not lines[i].strip()):
+                  i += 1
+              # 序列化新值（标量走 safe_dump 保证 YAML 合法）
+              dumped = yaml.safe_dump({key: remaining.pop(key)}, allow_unicode=True,
+                                      default_flow_style=False, sort_keys=False).rstrip("\r\n")
+              # safe_dump 单键 dict 输出 "key: value\n"；多行值（列表）保持多行
+              out.extend(dumped.splitlines())
+          else:
+              out.append(line)
+              i += 1
+      # 未出现的键追加到末尾
+      for key, value in remaining.items():
+          dumped = yaml.safe_dump({key: value}, allow_unicode=True,
+                                  default_flow_style=False, sort_keys=False).rstrip("\r\n")
+          out.extend(dumped.splitlines())
+      new_text = head + nl.join(out) + close + body
+      task_file.write_text(new_text, encoding="utf-8")
+  ```
+
+  Wait, there's a subtlety: m group structure `^(---\r?\n)(.*?)(\r?\n---\r?\n)(.*)$` — with DOTALL non-greedy. `(.*?)(\r?\n---\r?\n)` — for frontmatter ending, need the LAST `---` before body? Non-greedy will match the FIRST `\n---\n` occurrence, which is the closing delimiter (frontmatter values could contain `---` but rare; original regex had the same first-match semantics: `^---\r?\n(.*?)\r?\n---\r?\n(.*)$` non-greedy → first closing). Same behavior, fine.
+
+  Note about continuation-line skipping: if the existing key's value is a multi-line block (e.g. `code_files:\n  - a\n  - b`), when updating that key we drop the continuation lines. But careful: an empty line between fields would be eaten by my `while` loop condition `or not lines[i].strip()`. Hmm — that would swallow blank separators within frontmatter. YAML frontmatter with blank lines is legal-ish (some parsers dislike). To be safe, only skip indented lines (continuation), not blank lines. Actually a blank line after a block scalar could be part of it; but risk of eating blank separators between keys is worse. Only skip lines starting with space/tab.
+
+  But wait: flow-style or multi-line value where continuation lines are not indented? YAML requires continuation to be indented relative to key. OK.
+
+  Another subtlety: quoted multi-line scalars could end at same indent... rare in task files. Accept.
+
+  Also `- item` list under a key: lines start with "  -" (indented) → skipped correctly. But YAML allows:
+  ```
+  code_files:
+  - a
+  - b
+  ```
+  at zero indent! That's valid YAML. My skip wouldn't catch it, and `- a` doesn't match key_re, so it stays → then new value line written + orphan list items remain → corrupt. Hmm. Should I handle zero-indent dash lines as continuations? That risks false-positive when updating a key followed by... actually in frontmatter, a top-level `- ` line can only be a continuation (invalid otherwise). So treat lines starting with "- " or "-" as continuation too. Let me add: `lines[i].startswith((" ", "\t")) or lines[i].lstrip().startswith("- ")`. Careful: lstrip of "  - a" gives "- a" — combined fine.
+
+  Edge: key appears in updates but we want value None to mean "don't touch" — existing semantics (`if value is not None`). Preserved.
+
+  Now, does anything else depend on write_frontmatter normalization? E.g., `apply_updates` also used by cancel, mark_waiting, resume, release, review — all benefit from preserving fields. Good, the fix is central.
+
+  Wait — actually also check `queue_gate.py` — does it have its own frontmatter writer? Task says claim/complete both in queue_transition. can_claim is read-only presumably. Check quickly later.
+
+  **Task 3: reviewer 翻转通道.** Current: `action_review` requires reviewer == "欧阳锋", plus `_check_review_authority` requires an ouyangfeng-registered instance in cwd.
+
+  New: allow `--reviewer 王语嫣` only when the task's assignee == ouyangfeng （编排骨架单 = orchestration skeleton orders where 欧阳锋 is the assignee, so 欧阳锋 can't review his own). 留痕不变 — the review record flow (F-035, F-036, ledger) stays. Also for 王语嫣 reviewer, the authority check `_check_review_authority` looks for role=ouyangfeng registered instance — for wangyuyan it should look for wangyuyan registered instance. And pass reviewer into `_check_review_authority`. Also strike_note says "（...欧阳锋）" hardcoded — should use reviewer name for 留痕 accuracy.
+
+  Implementation in action_review:
+
+  ```python
+  def action_review(...):
+      assignee = str(fm.get("
