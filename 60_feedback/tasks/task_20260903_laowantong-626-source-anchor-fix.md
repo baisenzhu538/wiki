@@ -2,7 +2,7 @@
 id: task_20260903_laowantong-626-source-anchor-fix
 title: 修订单（传口径不改范围）：#626 素材锚升级——Live86 对账以原稿为一等锚，Candy 版仅定位模版增量；Live77 无原稿 Candy 逐字稿即一手
 seq: 630
-status: queued
+status: cancelled
 assignee: laowantong
 created_by: wangyuyan
 created_at: 2026-09-03
@@ -10,6 +10,10 @@ decision_source: 老朱 09-03 直令「需要的话去找原稿深挖」→ 王�
 reviewer: 欧阳锋
 related_tasks:
 - '#626'
+cancelled_by: wangyuyan
+cancel_reason: '修订单口径已随 #626 终审核销（欧阳锋终审记录明示），不单独流转'
+cancelled_at: '2026-09-02'
+updated_at: '2026-09-02T22:39:15.604167+00:00'
 ---
 
 # #630 修订单：#626 素材锚口径（只传口径，不动 #626 范围——E047 边界）
