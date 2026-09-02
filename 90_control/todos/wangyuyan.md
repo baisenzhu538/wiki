@@ -443,3 +443,4 @@
 - [2026-09-02 09:32] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#612（huangyaoshi 的单，挂审 9min）（到点（节奏 30min））
 - [2026-09-02 09:37] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-02 09:32:01｜role-liveness｜fengqingyang 全实例疑似死亡（stale: [('kimi-
 - [2026-09-02 09:39] 🕐 值守拍：#612/#613 双完工提审→拉欧阳锋（含 #613 上报的 7 张无佐证卡清单，终审后我复核处置）
+- [2026-09-02 09:45] 🔧 Obsidian 图谱口径修正（老朱对齐）：live graph.json = path:30_wiki 过滤（inbox/raw/feedback 等全不进图）+ showOrphans=true 恢复（稀疏根因=夜班临时清爽化把孤儿卡全藏了）+ hideUnresolved=false 恢复 + 30_wiki 色组回补；baseline 快照已同步
