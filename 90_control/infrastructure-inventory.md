@@ -99,6 +99,7 @@ audience: 全体 agent
 | queue_audit / hook_queue_audit | kdo-tools/queue_audit.py | 队列审计辅助 | 08-16 | queue_gate |
 | web_search / web_fetch | kdo-tools/web_search.py | 联网检索（研究用） | 按需 | research 系 |
 | collect_wechat / wechat_knowledge / wechat_link_monitor / wechat_promote | kdo-tools/wechat_*.py | 视频号偶遇采集管线+转正（#516 去重键补 _processed 隔离区含 regen 变体） | 08-25 4 例 passed | 计划任务 wechat-link-monitor |
+| daily_review | kdo-tools/daily_review.py + kdo-daily-review.cmd + kdo-daily-review.xml | 每日复盘定期任务化（#623 老朱 09-02 直令：三角色 headless Truman 复盘拉起+空班豁免 F-062；指令模板内嵌、禁编造诚实空班） | 09-03 首跑三实例拉起 rc=0 | 计划任务 kdo-daily-review（每日 23:37 S4U）/kimi-headless-launch/daily-context-save |
 | skill_crystallize / skill_lifecycle / distill-own-skill | kdo-tools/skill_*.py | 技能结晶/生命周期 | 按需 | skills |
 
 ## 3b · 辅助工具族（#488 登记纪律存量补登记，按族）
@@ -170,6 +171,7 @@ audience: 全体 agent
 | kdo-daily-audit-digest | 每日 06:00 | 每日审计轮段①抽数（四原料→D 盘 digest） | daily-audit-digest |
 | kdo-l1-archive | 每日 06:00 | L1 旧天日期目录 zip 归档（核验覆盖才删目录 #508） | l1_capture --archive |
 | kdo-quality-metrics | 每周一 06:35 | 质量指标周报（上周一~周日，#514 阶段 0 纯统计） | quality_metrics |
+| kdo-daily-review | 每日 23:37 | 四主力每日复盘计划任务化（#623：三角色 headless 复盘拉起+空班豁免 F-062；与 backup 30min 节拍错开；S4U 无窗硬纪律） | daily_review（经 kimi-headless-launch 拉起；laowantong/huangyaoshi/ouyangfeng） |
 
 **L1 断流判读口径（#513 落档，08-25 黄药师核查闭环）**：判读某源「断流」前必须三对照——①该源 sessions 存储目录在窗口期是否有 mtime 活动（无活动=正常空转，非断流）；②检查时刻距会话启动是否 <30min 采集节拍（节拍内未采到属正常滞后）；③kdo-l1-capture 各拍是否在 `90_control/l1-size.log` 连续在跑。kimi 源实证：CLI 活跃期间 wire.jsonl/state.json/logs 实时写盘（非退出才写），采集路径 `~/.kimi-code` 全目录覆盖 sessions/ 无缺口；08-24「7.5h 断流」实为无活动窗口+节拍内检查的复合误判（zip 内 workspaces.json=23:39 版本实证 00:07 拍已采到）。
 
