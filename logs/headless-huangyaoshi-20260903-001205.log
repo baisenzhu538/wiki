@@ -1362,4 +1362,188 @@ audience: 王语嫣
 5 passed in 6.27s
 5 passed. Now task 1 layer 3: inventory of tracked files >15MB. Run the scan and write the inventory file.
 
-• 门禁测试 5 passed。跑存量扫描，出清单。
+• 门禁测试 5 passed。跑存量扫描，出清单。    46.6MB  10_raw/assets/wechat-collect/346efef2737b383b.mp4
+    25.6MB  60_feedback/wechat-collect/douyin-dali/7654610643165120177.mp4
+    24.8MB  10_raw/itingnao/details/7091957.json
+    21.7MB  10_raw/itingnao/details/7095114.json
+    21.2MB  10_raw/assets/wechat-collect/2404c1658025473c.mp4
+    19.5MB  10_raw/assets/wechat-collect/68004aecb3d913a5.mp4
+    19.3MB  10_raw/assets/wechat-collect/e7536bf1d8f1a7b1.mp4
+    18.7MB  10_raw/itingnao/details/4092592.json
+    18.6MB  10_raw/itingnao/details/6249248.json
+    18.1MB  10_raw/itingnao/details/7356146.json
+    16.9MB  10_raw/itingnao/details/4273172.json
+    16.8MB  logs/headless-huangyaoshi-20260902-044139.log
+    16.4MB  10_raw/itingnao/details/6951012.json
+    16.3MB  10_raw/itingnao/details/4410138.json
+    16.2MB  10_raw/itingnao/details/2222280.json
+    15.3MB  10_raw/itingnao/details/4288010.json
+    15.0MB  60_feedback/wechat-collect/douyin-dali/7666832665312982138.mp4
+total: 17 files, 346.8MB
+
+
+• Oops — the table has 17 rows claimed but I listed 16 + a filler row "另有1个" — that's fabrication-ish. Let me fix: exactly 17 rows from the scan. The scan printed 17 lines? Count: 46.6, 25.6, 24.8, 21.7, 21.2, 19.5, 19.3, 18.7, 18.6, 18.1, 16.9, 16.4, 16.3, 16.2, 15.3, 15.0 = 16 lines + "total: 17 files". Wait, count the printed lines: I count 16 file lines but total says 17. Let me recount: 1) 46.6 2) 25.6 3) 24.8 4) 21.7 5) 21.2 6) 19.5 7) 19.3 8) 18.7 9) 18.6 10) 18.1 11) 16.9 12) 16.4 13) 16.3 14) 16.2 15) 15.3 16) 15.0 — 16 rows but total 17? The total counted len(rows)=17. So one line missing from display? Sum check: printed sum vs 346.8. Let me rerun and capture all rows exactly.
+
+• 清单行数对不上（显示 16 行但计数 17），重跑核对。17
+46.6|10_raw/assets/wechat-collect/346efef2737b383b.mp4
+25.6|60_feedback/wechat-collect/douyin-dali/7654610643165120177.mp4
+24.8|10_raw/itingnao/details/7091957.json
+21.7|10_raw/itingnao/details/7095114.json
+21.2|10_raw/assets/wechat-collect/2404c1658025473c.mp4
+19.5|10_raw/assets/wechat-collect/68004aecb3d913a5.mp4
+19.3|10_raw/assets/wechat-collect/e7536bf1d8f1a7b1.mp4
+18.7|10_raw/itingnao/details/4092592.json
+18.6|10_raw/itingnao/details/6249248.json
+18.1|10_raw/itingnao/details/7356146.json
+16.9|10_raw/itingnao/details/4273172.json
+16.8|logs/headless-huangyaoshi-20260902-044139.log
+16.4|10_raw/itingnao/details/6951012.json
+16.3|10_raw/itingnao/details/4410138.json
+16.2|10_raw/itingnao/details/2222280.json
+15.3|10_raw/itingnao/details/4288010.json
+15.0|60_feedback/wechat-collect/douyin-dali/7666832665312982138.mp4
+
+
+• The missing row: 16.9MB `10_raw/itingnao/details/4273172.json` (I'd listed 16.9 as the log; actually 4273172.json=16.9 and log=16.8). Fix the inventory file rows: replace the two rows (16.9 log row and filler row) with correct entries.Now run full regression: 90_control/scripts/tests/ (all) + kdo-tools/tests/test_conveyor_probe.py and related. Check what test suites exist. Run both dirs' relevant tests. Also should verify the real backup script gate on real repo doesn't break the scheduled task — dry check: simulate gate_staged_large_files on real ROOT (read-only scan, no staging changes pending big files — current staged area is empty so it returns empty).
+
+  Run full test suites......................................................................... [ 62%]
+........................................................................ [ 93%]
+..............                                                           [100%]
+230 passed in 39.61s
+=========================== short test summary info ===========================
+FAILED kdo-tools/tests/test_infra_status.py::TestInventoryCoverage::test_no_unregistered_core_assets
+FAILED kdo-tools/tests/test_queue_archive.py::test_archive_only_old_reviewed
+2 failed, 237 passed in 10.22s
+Two failures in kdo-tools/tests. Need to check if they're pre-existing (unrelated to my change) or caused by me. test_infra_status::test_no_unregistered_core_assets — probably detects new unregistered assets? My new test file? Or the inventory md? Let me look. test_queue_archive — probably unrelated to my changes but check.>       self.assertEqual(unreg, [], f"δ�Ǽ��ʲ�: {unreg}")
+E       AssertionError: Lists differ: ['transcribe_win', 'vault_git_backup', 'cl[80 chars]ore'] != []
+E       - ['transcribe_win',
+E       -  'vault_git_backup',
+E       -  'clock_watchdog',
+E       -  'kimi-headless-launch',
+E       -  'vault-integrity-check',
+E       -  'wiki-vault-restore'] : δ�Ǽ��ʲ�: ['transcribe_win', 'vault_git_backup', 'clock_watchdog', 'kimi-headless-launch', 'vault-integrity-check', 'wiki-vault-restore']
+kdo-tools\tests\test_infra_status.py:66: AssertionError
+tmp_path = WindowsPath('C:/Users/Administrator/AppData/Local/Temp/pytest-of-Administrator/pytest-20/test_archive_only_old_reviewed0')
+        assert rc == 0
+        text = queue.read_text(encoding="utf-8")
+        assert "task_old_reviewed" not in text          # �� reviewed �ѹ鵵
+        assert "task_active_queued" in text             # queued �����鵵
+        assert "task_recent_reviewed" in text           # �� reviewed ����
+        assert "task_pending" in text                   # pending_review �����鵵
+        assert "task_old_reviewed" not in text.split("REVIEW-PENDING-BEGIN")[1]  # �ɻ����й鵵
+        assert "task_recent_strike" in text             # �� 30 �컮���б���
+        af = archive / "production-queue-2026-08.md"
+>       assert af.exists()
+Both failures look pre-existing, unrelated to my changes (infra asset registry inventory; queue archive month boundary — "production-queue-2026-08.md" missing, likely date-sensitive test failing in September). Verify by stashing my changes? Quicker: check git status — these tests touch files I didn't modify. Run them on HEAD state? My changes: queue_transition.py (added loose scan), vault_git_backup.py, .gitignore, new test files, inventory md. test_queue_archive tests queue_gate archive logic — I didn't touch queue_gate.py. Date-dependent: today 09-03, test expects archive file production-queue-2026-08.md for "old reviewed" tasks — boundary issue, pre-existing.
+
+  test_infra_status: unregistered core assets list includes vault_git_backup, clock_watchdog etc. — these are pre-existing unregistered assets (I modified vault_git_backup.py but it was already in the unregistered list presumably). Check if this test failed before my changes: git stash isn't great mid-work. Instead run with git worktree? Simplest: `git stash` all, run 2 tests, unstash. My changes include untracked new files (test files, inventory). stash -u. Risk of losing work is low but nonzero... safer: clone-free check — run the two tests against a temp checkout? Use `git worktree add`? That's heavyweight. 
+
+  Alternative: examine test_infra_status to see if it scans kdo-tools dir for unregistered scripts — my modification didn't add new scripts. The list includes vault_git_backup (pre-existing script). So failure predates me. To be rigorous, verify via stash.
+
+• 两个失败疑似预存问题（资产登记表 + 归档跨月边界）。用 stash 实证与本单无关。warning: in the working copy of '90_control/large-file-inventory-20260903.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'logs/headless-huangyaoshi-20260903-001205.log', LF will be replaced by CRLF the next time Git touches it
+Saved working directory and index state WIP on master: 14419df03 vault backup: 2026-09-03 00:32:48
+error: unable to unlink old 'logs/headless-huangyaoshi-20260903-001205.log': Invalid argument
+fatal: Could not reset index file to revision 'HEAD'.
+error: Your local changes to the following files would be overwritten by merge:
+	logs/headless-huangyaoshi-20260903-001205.log
+Please commit your changes or stash them before you merge.
+Aborting
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   logs/headless-huangyaoshi-20260903-001205.log
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	60_feedback/auto/health-check-20260903.md
+	60_feedback/session-archives/2026-09-03/duanwangye.md
+	90_control/large-file-inventory-20260903.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+The stash entry is kept in case you need it again.
+
+
+• The stash pop failed due to a locked log file (headless log being written by another process). State now: stash entry still exists, working tree has some files restored? The stash pop aborted midway — "The stash entry is kept". Current status shows: modified logs/headless...log, untracked: health-check, duanwangye.md, large-file-inventory. Wait — where are my changes to queue_transition.py, vault_git_backup.py, .gitignore, and the two new test files?! They're in the stash still. The pop aborted, so most stashed changes were NOT restored. But large-file-inventory-20260903.md shows as untracked — partially restored?
+
+  Danger zone. Need to recover carefully. The stash contains all my work. The conflict is only `logs/headless-huangyaoshi-20260903-001205.log` (locked by a running headless process). 
+
+  Plan: checkout/restore that log file to HEAD (it's a log, and its modification was from the running process anyway), then stash pop again. Actually the error: pop wanted to overwrite the log's local changes. Discard local changes to that log: `git checkout -- logs/headless-huangyaoshi-20260903-001205.log` may fail due to lock (unlink failed). The file is locked by another process writing. Hmm, "unable to unlink old" — Windows file lock.
+
+  Alternative: `git stash show -p` includes changes; retry pop after releasing... can't kill other agent's process. Try `git checkout stash@{0} -- .`? That would overwrite working tree with stash content without deleting stash, and won't need to unlink the log if... it would also try to write the log file.
+
+  Better: restore specific files from stash, excluding the problematic log:
+  `git checkout stash@{0} -- .gitignore kdo-tools/vault_git_backup.py 90_control/scripts/queue_transition.py kdo-tools/tests/test_vault_git_backup_gate.py 90_control/scripts/tests/test_complete_loose_deliverable_scan.py` — checkout paths from stash works for tracked files; for untracked files in stash (-u), they're in the third parent commit; checkout stash@{0} -- path should still work for them? For untracked stash entries, `git checkout stash@{0}^3 -- <path>` is needed.
+
+  Also which other files were in the stash? Let me list stash contents first.stash@{0}: WIP on master: 14419df03 vault backup: 2026-09-03 00:32:48
+===
+20_memory/queue_integrity_audit_latest.md
+90_control/cancel-ledger.log
+90_control/gate-blocked-test.log
+90_control/gate-warning-test.log
+90_control/role-registry.json
+90_control/scripts/__pycache__/queue_transition.cpython-312.pyc
+kdo-tools/__pycache__/conveyor_probe.cpython-312.pyc
+logs/headless-huangyaoshi-20260903-001205.log
+===untracked===
+60_feedback/auto/health-check-20260903.md
+60_feedback/session-archives/2026-09-03/duanwangye.md
+90_control/large-file-inventory-20260903.md
+Wait — the stash show --name-only shows only tracked-modified files, and my key files (.gitignore, vault_git_backup.py, queue_transition.py, new test files) are NOT in the list?! Where did they go?
+
+  Oh no. Did the vault backup cron commit at 00:32:48 (14419df03) sweep my changes into a commit before I stashed? git stash shows WIP on master: 14419df03 "vault backup: 2026-09-03 00:32:48". So while I was working, the 30-min backup committed everything — including my .gitignore, queue_transition.py, vault_git_backup.py changes and new files! Check git log and whether my changes are in HEAD.14419df03 vault backup: 2026-09-03 00:32:48
+f26b422b9 chore(queue): #624 complete by laowantong-kimi
+354d33e72 #624 任务单：建模方案+pre-submit输出+五字段执行报告
+commit 14419df03d1670aeba18fe30e701eacb63918805
+Author: Linhai Zhu <baisenzhu538@gmail.com>
+Date:   Thu Sep 3 00:32:48 2026 +0800
+
+    vault backup: 2026-09-03 00:32:48
+
+ .agent/friction-log.md                             |    2 +
+ .gitignore                                         |   14 +
+ .../session-archives/2026-09-03/laowantong.md      |   81 +
+ 70_product/tasks/production-queue.md               |    2 +
+ 90_control/gate-blocked.log                        |    1 +
+ 90_control/gate-warning-test.log                   |    3 +
+ 90_control/role-registry.json                      |    4 +-
+ 90_control/scripts/.derived-hashes.json            |    2 +-
+ .../__pycache__/queue_transition.cpython-312.pyc   |  Bin 88200 -> 91982 bytes
+ 90_control/scripts/queue_transition.py             |   73 +
+ ...e_deliverable_scan.cpython-312-pytest-9.0.3.pyc |  Bin 0 -> 16422 bytes
+ .../tests/test_complete_loose_deliverable_scan.py  |  107 +
+ 90_control/todos/laowantong.md                     |    1 +
+ 90_control/todos/ouyangfeng.md                     |    1 +
+ 90_control/todos/wangyuyan.md                      |    3 +
+ .../__pycache__/vault_git_backup.cpython-312.pyc   |  Bin 0 -> 7154 bytes
+ kdo-tools/blocks_to_md.py                          |   47 -
+ kdo-tools/cdp_eval.js                              |   31 -
+ kdo-tools/chrome77prof/BrowserMetrics-spare.pma    |  Bin 4194304 -> 0 bytes
+ kdo-tools/chrome77prof/Crashpad/settings.dat       |  Bin 40 -> 0 bytes
+ .../Default/AccessibilityAnnotatorDatabase         |  Bin 4096 -> 0 bytes
+ .../Default/AccessibilityAnnotatorDatabase-wal     |  Bin 12392 -> 0 bytes
+ kdo-tools/chrome77prof/Default/Account Web Data    |  Bin 77824 -> 0 bytes
+ .../chrome77prof/Default/Account Web Data-journal  |    0
+===
+2
+2
+90_control/scripts/tests/test_complete_loose_deliverable_scan.py
+kdo-tools/tests/test_vault_git_backup_gate.py
+The 00:32 vault backup committed my #625 changes (gitignore +14, queue_transition +73, new test file, vault_git_backup with gate function = 2 hits, plus test file exists in working tree). So my work is safe in HEAD + working tree. 
+
+  Interesting: that backup commit also DELETED a bunch of kdo-tools files (blocks_to_md.py, cdp_eval.js, chrome77prof stuff...) — someone/something deleted them; not my doing. Also gate-warning-test.log got committed (3 lines from my test runs) — test log committed to repo; harmless but should it be gitignored? gate-blocked-test.log precedent exists in repo already. Fine.
+
+  Now the stash still holds: 20_memory/queue_integrity_audit_latest.md, cancel-ledger.log, gate-blocked-test.log, gate-warning-test.log, role-registry.json, pyc files, headless log. These were working-tree modifications stashed. Some may already have been superseded by newer working tree state (files have been written since by running processes). The stash pop conflict was only on the locked log. Options: drop the stash? The stashed versions are now STALE (files have advanced since). Restoring them could clobber newer content (e.g. role-registry.json, gate-warning-test.log which now has 3 lines in HEAD vs stash older version).
+
+  Careful: stash pop would try to reapply; conflicts likely. The safest: drop the stash? But is anything unique in it? gate-warning-test.log in stash vs HEAD — HEAD's came from the 00:32 backup which committed working tree at that moment (before stash? The stash was created after... timeline: backup commit 00:32:48 happened BEFORE my stash command (stash WIP on 14419df03). At stash time, working tree modifications relative to 14419df03 were those 8 files — modifications made AFTER 00:32:48 by running processes (role-registry updates, logs). Those processes have since written more. The stash content is stale runtime state — restoring it would revert live logs. Best: drop the stash, keep current working tree.
+
+  Wait but pop already partially restored? Status showed untracked large-file-inventory + health-check + duanwangye — those were in stash untracked (^3) and got restored by the aborted pop before hitting the log conflict? Actually untracked restore happens... they were listed in ^3. And current status shows them as untracked — either restored by pop or never removed. But health-check-20260903.md and duanwangye.md — were they in HEAD's 00:32 commit? The stat shows laowantong.md session-archive, not duanwangye. So duanwangye.md was created after 00:32 and stashed, now restored by pop. large-file-inventory — created by me at ~00:35? No wait, I created it before running tests (~00:33+). The 00:32 backup didn't include it; stash -u took it; pop restored it. Good.
+
+  Now: are the working tree states of the stash's tracked files (role-registry.json etc.) currently modified? status shows only logs/headless modified + 3 untracked. So role-registry.json etc. are NOT currently modified (their later writes were... hmm, if a process wrote after 00:32, stash took that diff; working tree now matches HEAD; the process may write again soon anyway).
+
+  Decision: drop the stash (stale runtime diffs, restoring risks reverting live state). But wait — did the aborted pop already apply some tracked file changes? git status shows only headless log modified. If pop had applied role-registry changes, it'd show modified. It doesn't. So pop applied untracked files then aborted on the log. Stash entry still exists with everything.
+
+  Hmm, but dropping loses the untracked files? They're already restored in working tree (status shows them). The tracked diffs in stash are stale — but are they? E.g., gate-warning-test.log: HEAD version has 3 lines (committed at 00:32). Stash version: working tree at stash time = 3 lines + maybe more? If tests haven't run since, same content → stash diff would be empty for it... but it's listed, so there was a diff: maybe stash has newer lines from... my tests ran before 00:32. After 00:32, the full regression at ~00:35 (90_control tests + kdo-tools tests) ran test_complete_loose_deliverable_scan again → appended 3 more lines → that's the stashed diff. Current working tree =

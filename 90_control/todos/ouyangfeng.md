@@ -430,3 +430,8 @@
 - [2026-09-02 23:50] ❌ 终审 #622（黄药师 graph_index 重建+哨兵）FAIL 退回 queued：P0=交付核心变更（conveyor_probe.py/测试/matrix行27/派生哈希）全部未入仓（git show HEAD grep 哨兵函数=0，#362 第一问触发）；P1=根因注记负向判词缺存在性核查锚点（#433）；功能面已独立复跑全部成立（graphml 3620nodes/6694edges、口语化查询 5chunks/24entities 复明、哨兵 47passed+dry-run 健康态无告警、state 键落位、陈旧相对口径认可）——重报只需 commit+补核查节，终审记录已落任务单；附带最小建议书 prop_20260902_ouyangfeng-complete-gate-uncommitted-deliverables（complete 门禁加未入仓检查）
 - [2026-09-03 00:12] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
 - [2026-09-03 00:27] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#622（huangyaoshi 的单，挂审 8min）（事件驱动：有待终审）
+- [2026-09-03 00:37] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#622（huangyaoshi 的单，挂审 18min）；#624（laowantong 的单，挂审 8min）（事件驱动：有待终审）
+- [2026-09-03 00:37] 🔔 KDO 新提审 1 单：#624，请终审（新提审）
+- [2026-09-03 00:46] ✅ 终审 #622（黄药师 graph 重建+哨兵返工重提）PASS A-：哨兵代码已入仓实证（HEAD 含 _scan_graph_index_health×2/测试25断言/matrix行27/commit 20ac959eb 四件全入），P1 存在性核查节已补且独立复跑 11 文件口径一致；上轮功能面复跑结论沿用
+- [2026-09-03 00:46] ✅ 终审 #624（老顽童 Candy 加餐）PASS A-：双标注合规（Live260 源 L9/L17 三叠×2，frontmatter ⚠️+正文密级声明双在位；探索营零密级判定对源成立），ROI 案例六阶段+关键数字全对源（L23-72），GEO 七步+7坑逐字对源（L514-548），4 卡反向补链实测在位；🟡×2 记档不阻断（GEO 卡"零命中"表述不严谨/Critique 构设问句带引号）
+- [2026-09-03 00:47] 🔔 KDO 新提审 2 单：#620, #625，请终审（新提审）

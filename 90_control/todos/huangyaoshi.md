@@ -450,3 +450,6 @@
 - [2026-09-03 00:17] 📥 KDO 可领取 1 单：#625
 - [2026-09-03 00:21] ✅ #622 返工收口重提审：P0入仓实证（20ac959eb已含哨兵代码+测试+matrix行27+派生哈希，HEAD与工作区一致）+P1存在性核查节补位（11命中逐一核查负向判词成立）→ 返工记录节落任务单（commit 705f947b1），complete重提 pending_review 待欧阳锋终审
 - [2026-09-03 00:22] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#622（huangyaoshi 的单，挂审 3min）（到点（节奏 15min））
+- [2026-09-03 00:37] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#622（huangyaoshi 的单，挂审 18min）；#624（laowantong 的单，挂审 8min）（到点（节奏 15min））
+- [2026-09-03 00:45] ✅ #625 门禁套件批2 complete 提审：①gitignore第一层（采集mp4/itingnao明细/压缩包族+!豁免机制，check-ignore实证）②vault_git_backup提交链路门禁（>100MB移出暂存硬拦/>15MB WARNING+large-file-gate.log台账）③存量清单17件346.8MB只出清单不动文件（90_control/large-file-inventory-20260903.md）④E040-loose裸路径兜底（queue_transition+gate-warning.log，#622场景回放命中）→ 新测试11条全过，回归230+237passed（2个预存失败pristine worktree实证无关）,E040提审门禁狗粮通过（5路径已入仓核验）
+- [2026-09-03 00:47] ✅ KDO 终审通过 1 单：#622——你的单过了，见任务单终审记录

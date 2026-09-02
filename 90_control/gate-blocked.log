@@ -572,3 +572,8 @@
 2026-09-03 00:19:12｜task_20260902_huangyaoshi-graph-index-rebuild-sentinel｜F-034-五字段｜--evidence 文件不可读: rework收口commit 705f947b1：P0入仓实证（20ac959eb已扫入conveyor_probe.py+测试+matrix行27+派生哈希，gi｜huangyaoshi-kimi
 2026-09-03 00:22:00｜role-liveness｜fengqingyang 全实例疑似死亡（stale: [('kimi-cli', 2726.1)]）｜role_registry check-liveness｜role_registry
 2026-09-03 00:29:05｜task_20260902_laowantong-candy-bonus-increment-cards｜F-034-五字段｜--evidence 文件不可读: 2新卡(case-truman-roi-decision-spring-festival-class双标注+tool-geo-ai-search-visibilit｜laowantong-kimi
+2026-09-03 00:39:37｜task_20260902_huangyaoshi-gate-suite-batch2｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
+  - untracked: 90_control/large-file-gate.log
+  - untracke｜huangyaoshi-kimi
+2026-09-03 00:44:57｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 1370.1), ('cli', 61.8), ('hermes', 1540.6)]）｜role_registry check-liveness｜role_registry
+2026-09-03 00:46:03｜task_20260902_laowantong-candy-bonus-increment-cards｜F-035-负向判词｜意见书含负向断言（不存在）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋

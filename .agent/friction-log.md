@@ -116,3 +116,5 @@ updated_at: 2026-08-09
 - [2026-09-02 22:10] huangyaoshi / #618 complete 提审 / 首次 complete 被 E040 交付物入仓门禁打回：交付物节内 KDO 仓路径未带全路径前缀且未 commit / 根因初判：凭旧流程记忆操作，门禁报错即文档，应首读报错再动作
 
 [2026-09-03 00:35] laowantong｜#624 complete 提审｜--evidence 传了文本串被报「文件不可读」，grep 源码才知是文件路径参数｜根因初判：凭直觉猜 CLI 参数形态未跑 --help（且该脚本 --help 输出残缺是二阶诱因）
+- [2026-09-03 00:46] huangyaoshi｜#625 施工中验证测试预存失败｜git stash -u 隔离验证时撞 30min 定时备份+headless 锁文件：stash pop 冲突 aborted，改动已被 backup 提交 14419df03 扫入（险丢工作）｜根因：长会话施工跨 backup 节拍，stash 操作与活日志锁冲突；对策：改用 git worktree 隔离验证（本次收口即如此），stash 前先看 backup 节拍
+2026-09-03 00:5x huangyaoshi 复测发现 kdo-tools infra_status 覆盖测试红：6 资产（transcribe_win/vault_git_backup/clock_watchdog/kimi-headless-launch/vault-integrity-check/wiki-vault-restore）未登记 infrastructure-inventory.md（#488 覆盖门禁，stash 验证与 #620 无关=存量债务）——需王语嫣裁定登记归属或加急立项

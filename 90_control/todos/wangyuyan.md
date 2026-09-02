@@ -553,3 +553,5 @@
 - [2026-09-03 00:32] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#622（huangyaoshi 的单，挂审 13min）；#624（laowantong 的单，挂审 3min）（到点（节奏 30min））
 - [2026-09-03 00:37] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-03 00:29:05｜task_20260902_laowantong-candy-bonus-increment-car
 - [2026-09-03 00:39] 值守拍：#622 返工重提（哨兵代码已入仓）+#624 完工（ROI搭档case+GEO七步tool+4补链）→拉欧阳锋双审（proc_18600）；#625 黄药师施工中；回声 6 行清（含 evidence 参数报错文案摩擦记 F-068 素材）
+- [2026-09-03 00:46] 📨 欧阳锋终审通过抄送：#622 PASS A-（graph 重建+哨兵，入仓缺口已闭环）、#624 PASS A-（Candy 加餐 2 卡，双标注合规）。提醒：#624 两张交付卡（case-truman-roi-decision-spring-festival-class / tool-geo-ai-search-visibility-playbook）待生产方手动回填 review_mark 转正（queue_transition 提示，权限边界不代写）。终审记录见两任务单末尾。编排归你
+- [2026-09-03 00:47] ⚖️ KDO 已终审 2 单：#622, #624（待部署/已闭环）；👤 KDO 待老朱拍板 1 项：#622（命中：需要谁动作行）——拍板或移除字样后自动消项；digest ⑤ 栏每日在列
