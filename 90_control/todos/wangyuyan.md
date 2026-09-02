@@ -544,3 +544,6 @@
 - [2026-09-02 23:38] 值守拍：#621 PASS A（黄药师今日第三个满分单，老朱链接链已通）；#622 秒完工提审→拉欧阳锋；黄药师重复登记建议书划销（同源外部审计件）+2 行回声划销
 - [2026-09-02 23:47] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-02 23:47:01｜prop_20260902_ouyangfeng-complete-gate-uncommitted
 - [2026-09-03 00:02] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-03 00:05] 📬 KDO 新建议书 1 份待裁定：diag_20260902_laowantong-large-file-git-gate.md
+- [2026-09-03 00:05] ⚠️ near-miss 超期升级：prop_20260902_ouyangfeng-complete-gate-uncommitted-deliverables.md 三元组违例已 3 轮未修正（首检出 2026-09-02 23:47；type: proposal 但三元组不完整：缺 audience）——请捞处置（#536）
+- [2026-09-03 00:08] 老朱纠偏成立：Candy 版=课后加餐文档非课稿同源（原始稿 L708 宣告+ROI 搭档内容课稿零命中实证）——我「同源沿用」误判更正，立 #624 补产（老顽童拉起）；合集版↔根目录版双向 diff 零差异（同文两导出格式）

@@ -255,6 +255,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 621 | `task_20260902_huangyaoshi-toutiao-shortlink-regex-fix` | 头条短链is/XXX形态正则漏配致采集链断（老朱09-02 20:09链接卡死实证）——一行修复+端到端实跑验证 | reviewed | huangyaoshi | diff+该链接落inbox实证 | 无（急单插队：线上在流血） | `60_feedback/tasks/task_20260902_huangyaoshi-toutiao-shortlink-regex-fix.md` | 老朱09-02晚问链接→王语嫣实测定位；失败不记seen设计保留；欧阳锋终审 |
 | 622 | `task_20260902_huangyaoshi-graph-index-rebuild-sentinel` | graph_index归零重建（08-31事故清空，语义腿空转2天）+健康哨兵机制化（空/0records/陈旧48h告警） | queued | huangyaoshi | 重建记录+口语化查询前后对照+哨兵实证 | 无 | `60_feedback/tasks/task_20260902_huangyaoshi-graph-index-rebuild-sentinel.md` | 外部审计建议书（王语嫣09-02裁定，存在性核查过：0字节mtime落事故窗口）；重建挂后台低峰；哨兵复用既有探针面；欧阳锋终审 |
 | 623 | `task_20260902_huangyaoshi-daily-review-scheduler` | 四主力每日复盘计划任务化：schtasks kdo-daily-review 每日23:37 S4U 拉起三角色 headless 复盘（Truman格式+daily-context-save归档+错误库内化），空班豁免 | queued | huangyaoshi | 注册实证+首跑三份复盘落盘 | #622 后（同角色排队） | `60_feedback/tasks/task_20260902_huangyaoshi-daily-review-scheduler.md` | 老朱09-02直令（复盘定期任务化）；王语嫣自有收尾纪律不占此任务；复盘不许编造；欧阳锋终审 |
+| 624 | `task_20260902_laowantong-candy-bonus-increment-cards` | Candy课后加餐增量补产：Live260口喷ROI搭档私密案例卡（原始课稿零覆盖实证）+探索营Candy增量复核（半肥猫路演口述层）；传播限制双标注#322口径 | queued | laowantong | 1-3张卡+探索营复核结论证据 | 无 | `60_feedback/tasks/task_20260902_laowantong-candy-bonus-increment-cards.md` | 老朱09-02纠偏（课后candy需复核）——王语嫣「同源沿用」误判更正立项；Candy=课后加工产物当独立素材诊断；欧阳锋终审 |
 
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
@@ -843,6 +844,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~diag_20260902_huangyaoshi-graph-index-empty-recur.md｜09-02 23:27｜待王语嫣复核裁定~~ → 已裁定（09-02 23:40 王语嫣）：重复登记划销（同源外部审计件，#622 已在审）
 - ~~[gate-blocked] role-liveness｜09-02 23:33｜待王语嫣复核处置｜2026-09-02 23:32:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 1296.8), ('cli', 678.5)]）｜role_registry check-liveness｜role_registry~~ → 划销（09-02 23:40 王语嫣）：空窗/在产窗口误报（黄药师 23:36 刚 complete #622）
 - [gate-blocked] prop_20260902_ouyangfeng-complete-gate-uncommitted-deliverables.md｜09-02 23:47｜待王语嫣复核处置｜2026-09-02 23:47:01｜prop_20260902_ouyangfeng-complete-gate-uncommitted-deliverables.md｜near-miss-三元组（#506）｜type: proposal 但三元组不完整：缺 audience｜conveyor_probe
+- diag_20260902_laowantong-large-file-git-gate.md｜09-03 00:05｜待王语嫣复核裁定
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
