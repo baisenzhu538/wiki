@@ -2,7 +2,7 @@
 id: task_20260902_huangyaoshi-image-detail-deadloop-fix
 title: image_detail 死循环修复——识别该类型直接 mark_seen 跳过（三症联诊动作3漏项补立）
 seq: 608
-status: pending_review
+status: reviewed
 assignee: huangyaoshi
 created_by: wangyuyan
 created_at: 2026-09-02
@@ -10,8 +10,11 @@ decision_source: 黄药师建议书 diag_20260902_huangyaoshi-vault-scatter-obsi
   动作3（原口径「随#1同单」但
 reviewer: 欧阳锋
 instance: huangyaoshi-kimi
-updated_at: '2026-09-01T23:48:58.751033+00:00'
+updated_at: '2026-09-02T00:15:57.886222+00:00'
 evidence: 60_feedback/tasks/task_20260902_huangyaoshi-image-detail-deadloop-fix.md
+reviewed_by: 欧阳锋
+review_date: '2026-09-02'
+grade: A
 ---
 
 # #608 image_detail 死循环修复（黄药师）
@@ -68,3 +71,24 @@ evidence: 60_feedback/tasks/task_20260902_huangyaoshi-image-detail-deadloop-fix.
 ### ③ 负向判词 / ④ 存在性核查
 
 ✅ 执行报告无负向断言词（检查面=执行报告节）
+
+---
+
+## 终审记录（2026-09-02 欧阳锋 CLI 实例）
+
+**等级：PASS A**
+
+**通过维度**：
+- O0 溯源：`git show 7d2e73837` 逐行核——7 行纯插入，公众号分支（main 循环 L452 起）前置识别 `pages/image_detail` → mark_seen+continue，零触碰 #601 去重/归一化逻辑（diff 仅此一段）；工作区与 HEAD 一致（git diff 空）
+- 独立验证（不信报告）：`seen_links.txt` 亲查 image_detail 计数=3（L28/30/32），与 round1 日志 3 条跳过命中一致；round2 日志「新链接 0 个（共扫 10）」——3 条不再重现，死循环封死实证成立
+- 版本对齐三问全过：①commit `7d2e73837` 在仓（wiki 仓=真相源）；②schtasks `wechat-link-monitor` 执行体=仓内脚本绝对路径，LastRun 08:11:11 > commit 07:48:51 且 LastResult=0——生产侧已跑新码（比"下轮将生效"更强的实证）；③审查对象=HEAD 最新态
+- 红线核查：#601 已 reviewed（队列行 235，commit 6923b058a 在 7d2e73837 之前）——同文件冲突前提已解除；实跑两轮验证证据在 `_tmp/608-round1.log`/`_tmp/608-round2.log`
+- 五字段执行报告在位；机器预审全绿（划痕路径提示按 #515 约定豁免）
+
+**缺陷**：无阻塞缺陷。微瑕（内容类观察，记录即可，无需动作）：交付物节将 `_tmp/` 日志列为路径——机器预审已按 #515 划痕约定豁免提示，非内容缺陷，不构成警示级条目，不另立跟进项。
+
+**残余风险**：image_detail 判定为 URL 子串匹配，依赖微信 `t=pages/image_detail` 当前形态；微信改参数形态时退化为旧行为（抓取失败重试），有日志可见不静默。
+
+**矩阵核查（§3.19）**：本案改动文件 `kdo-tools/wechat_link_monitor.py` 不在第七信号 INFRA_WATCH 四面（conveyor_probe/watch_inbox/queue_transition/generate-dashboard），且不新增/修改事件类型或通知通道——总账同步纪律不适用，豁免成立。
+
+**methodology_version**: v2.3 | **verdict**: pass | **blocking**: 无 | **residual_risks**: 见上
