@@ -2606,3 +2606,35 @@ warning: in the working copy of 'kdo-tools/tests/test_backup_signals_631.py', LF
 • No change: #631 pending review, nothing claimable. Note myqueue said 待领取： 2 earlier in dashboard output — but myqueue for huangyaoshi shows 可领 0 (those 2 belong to other roles). Standby.
 
 • 待命，无变化。#631 挂审中，可领 0，无新指令。继续巡航。
+
+- [2026-09-03 02:55] ✅ #631 孤儿backup触发源追查 complete 提审：触发源锁定=obsidian
+- [2026-09-03 02:47] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状�
+# role=huangyaoshi · 任务路由（#472 只读视图，不动状态机）
+✅ 可领 0:
+  (无)
+⏸ 等依赖 0:
+  (无)
+🧊 冻结 0:
+  (无)
+🚧 进行中 0:
+  (无)
+⏳ 待终审 1:
+  #631 task_20260903_huangyaoshi-orphan-backup-source-hunt — 孤儿backup触发源追查（01:38非节拍收走在制品）+探针非节拍检测信号+守卫SKIP
+⚖️ 最近终审（48h） 13:
+• 待命。#631 挂审中，无新指令，可领 0。继续巡航。
+
+- [2026-09-03 02:47] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有�
+- [2026-09-03 03:02] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有�
+# role=huangyaoshi · 任务路由（#472 只读视图，不动状态机）
+✅ 可领 0:
+  (无)
+⏸ 等依赖 0:
+  (无)
+🧊 冻结 0:
+  (无)
+🚧 进行中 0:
+  (无)
+⏳ 待终审 1:
+  #631 task_20260903_huangyaoshi-orphan-backup-source-hunt — 孤儿backup触发源追查（01:38非节拍收走在制品）+探针非节拍检测信号+守卫SKIP
+⚖️ 最近终审（48h） 13:
+• 待命。#631 挂审约 25min，无新指令。继续巡航。
