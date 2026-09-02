@@ -600,3 +600,4 @@
 - [2026-09-03 05:27] ⛔ KDO 门禁拦截 2 次（gate-blocked）：2026-09-03 05:17:00｜role-liveness｜fengqingyang 全实例疑似死亡（stale: [('kimi-…
 - [2026-09-03 05:37] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-03 05:32:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cl
 - [2026-09-03 05:37] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-03 05:43] 值守拍：#623 终审 PASS A- 实证（kdo-daily-review 每日 23:37 已注册——复盘任务化上线，老朱两指令闭环）；黄药师抓我 stale 拉起（凭旧假设拉已审单）——门铃升 v3.1（拉起前必 myqueue）+F-073 挂账
