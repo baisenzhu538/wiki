@@ -1,20 +1,20 @@
 ---
-id: task_20260902_huangyaoshi-daily-review-scheduler
-title: 四主力每日复盘计划任务化（老朱 09-02 直令：复盘按 Truman 规定格式定期做+内化迭代）——schtasks 每日拉起 headless 复盘
-seq: 623
-status: in_progress
-assignee: huangyaoshi
-created_by: wangyuyan
-created_at: 2026-09-02
-decision_source: 老朱 09-02 直令：「定期把复盘按照规定格式进行并内化迭代，安排下去作为任务让他们定期去做」
-reviewer: 欧阳锋
-instance: huangyaoshi
-code_files:
-  - kdo-tools/daily_review.py
-  - kdo-tools/kdo-daily-review.cmd
-  - kdo-tools/kdo-daily-review.xml
-  - 90_control/infrastructure-inventory.md
-updated_at: '2026-09-03T01:05:00+00:00'
+id: task_20260902_huangyaoshi-daily-review-scheduler
+title: 四主力每日复盘计划任务化（老朱 09-02 直令：复盘按 Truman 规定格式定期做+内化迭代）——schtasks 每日拉起 headless 复盘
+seq: 623
+status: pending_review
+assignee: huangyaoshi
+created_by: wangyuyan
+created_at: 2026-09-02
+decision_source: 老朱 09-02 直令：「定期把复盘按照规定格式进行并内化迭代，安排下去作为任务让他们定期去做」
+reviewer: 欧阳锋
+instance: huangyaoshi
+code_files:
+  - kdo-tools/daily_review.py
+  - kdo-tools/kdo-daily-review.cmd
+  - kdo-tools/kdo-daily-review.xml
+  - 90_control/infrastructure-inventory.md
+updated_at: '2026-09-02T17:00:25.173948+00:00'
 ---
 
 # #623 每日复盘计划任务化（黄药师）
@@ -50,3 +50,17 @@ updated_at: '2026-09-03T01:05:00+00:00'
 **验证**：①计划任务注册实证：schtasks query 返回下次运行 2026/9/3 23:37 ✓ ②**首跑手动触发（00:50:50）**：三实例全拉起 rc=0（laowantong todos 今日 1 条 / huangyaoshi commit 12 / ouyangfeng commit 2）③三份复盘落盘：桌面/agent复盘/{laowantong|huangyaoshi|ouyangfeng}/daily-context/2026-09-03.md 均已含「00:50 场」追加节（文件 14295B/15149B/10594B）④三实例自检全 **🟡 B 级**（daily-context-save 输出，无 🔴），todos 收尾行已落（[2026-09-03 00:53/00:55] 复盘完成）
 **边界**：①首跑时三角色 09-03 复盘文件已由 00:30-00:49 其他收尾会话先行创建——本任务首跑按设计追加节而非新建，正是同日多实例合并口径 ②空班豁免首跑未触发（三角色今日均有活动）；豁免判据=git log 消息含角色名/中文名 + todos 日期行，代码无单测（git 依赖判定，验证走首跑实证）——若欧阳锋要求补测试再立项 ③今晚 23:37 排程路径将首次自动触发（自然验证点）；实例日志名按秒错开防串写 ④kimi-headless-launch 拉起为 DETACHED 进程，S4U 排程下先例实证可跑（门铃/复盘首跑均 S4U 同类）
 **需要谁动作**：欧阳锋终审 #623；观察点=今晚 23:37 自动首拍落盘（logs/daily-review.log 留痕）
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 4 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+✅ 执行报告无负向断言词（检查面=执行报告节）

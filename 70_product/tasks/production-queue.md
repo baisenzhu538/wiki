@@ -254,7 +254,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 620 | `task_20260902_huangyaoshi-instance-naming-role-only` | 实例命名铁律落地：拉起器/状态机实例名去工具后缀（{role}-kimi→{role}），过渡期兼容在途旧名 | pending_review | huangyaoshi | diff+回归实证 | #619 收口后（防在途单锁失配） | `60_feedback/tasks/task_20260902_huangyaoshi-instance-naming-role-only.md` | 老朱09-02直令铁律（工具可换名字不挂工具）；queue_transition兼容旧名尾缀；欧阳锋终审 |
 | 621 | `task_20260902_huangyaoshi-toutiao-shortlink-regex-fix` | 头条短链is/XXX形态正则漏配致采集链断（老朱09-02 20:09链接卡死实证）——一行修复+端到端实跑验证 | reviewed | huangyaoshi | diff+该链接落inbox实证 | 无（急单插队：线上在流血） | `60_feedback/tasks/task_20260902_huangyaoshi-toutiao-shortlink-regex-fix.md` | 老朱09-02晚问链接→王语嫣实测定位；失败不记seen设计保留；欧阳锋终审 |
 | 622 | `task_20260902_huangyaoshi-graph-index-rebuild-sentinel` | graph_index归零重建（08-31事故清空，语义腿空转2天）+健康哨兵机制化（空/0records/陈旧48h告警） | reviewed | huangyaoshi | 重建记录+口语化查询前后对照+哨兵实证 | 无 | `60_feedback/tasks/task_20260902_huangyaoshi-graph-index-rebuild-sentinel.md` | 外部审计建议书（王语嫣09-02裁定，存在性核查过：0字节mtime落事故窗口）；重建挂后台低峰；哨兵复用既有探针面；欧阳锋终审 |
-| 623 | `task_20260902_huangyaoshi-daily-review-scheduler` | 四主力每日复盘计划任务化：schtasks kdo-daily-review 每日23:37 S4U 拉起三角色 headless 复盘（Truman格式+daily-context-save归档+错误库内化），空班豁免 | claimed-huangyaoshi | huangyaoshi | 注册实证+首跑三份复盘落盘 | #622 后（同角色排队） | `60_feedback/tasks/task_20260902_huangyaoshi-daily-review-scheduler.md` | 老朱09-02直令（复盘定期任务化）；王语嫣自有收尾纪律不占此任务；复盘不许编造；欧阳锋终审 |
+| 623 | `task_20260902_huangyaoshi-daily-review-scheduler` | 四主力每日复盘计划任务化：schtasks kdo-daily-review 每日23:37 S4U 拉起三角色 headless 复盘（Truman格式+daily-context-save归档+错误库内化），空班豁免 | pending_review | huangyaoshi | 注册实证+首跑三份复盘落盘 | #622 后（同角色排队） | `60_feedback/tasks/task_20260902_huangyaoshi-daily-review-scheduler.md` | 老朱09-02直令（复盘定期任务化）；王语嫣自有收尾纪律不占此任务；复盘不许编造；欧阳锋终审 |
 | 624 | `task_20260902_laowantong-candy-bonus-increment-cards` | Candy课后加餐增量补产：Live260口喷ROI搭档私密案例卡（原始课稿零覆盖实证）+探索营Candy增量复核（半肥猫路演口述层）；传播限制双标注#322口径 | reviewed | laowantong | 1-3张卡+探索营复核结论证据 | 无 | `60_feedback/tasks/task_20260902_laowantong-candy-bonus-increment-cards.md` | 老朱09-02纠偏（课后candy需复核）——王语嫣「同源沿用」误判更正立项；Candy=课后加工产物当独立素材诊断；欧阳锋终审 |
 | 625 | `task_20260902_huangyaoshi-gate-suite-batch2` | 门禁套件批2：git大文件三层门禁（gitignore扩展+>100MB硬拦/>15MB WARNING+存量清单）+complete交付未入仓WARNING检查 | pending_review | huangyaoshi | 两任务diff+回归+存量大文件清单 | #622返工收口后 | `60_feedback/tasks/task_20260902_huangyaoshi-gate-suite-batch2.md` | 老顽童大文件建议书+欧阳锋complete门禁建议书（09-03王语嫣裁定并单）；存量只出清单不动文件；欧阳锋终审 |
 
@@ -485,6 +485,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#624 task_20260902_laowantong-candy-bonus-increment-cards｜laowantong｜提审 09-03 00:29｜60_feedback/tasks/task_20260902_laowantong-candy-bonus-increment-cards.md~~ → 已终审 PASS A-（2026-09-02 欧阳锋）
 - #625 task_20260902_huangyaoshi-gate-suite-batch2｜huangyaoshi｜提审 09-03 00:40｜60_feedback/tasks/task_20260902_huangyaoshi-gate-suite-batch2.md
 - #620 task_20260902_huangyaoshi-instance-naming-role-only｜huangyaoshi｜提审 09-03 00:46｜60_feedback/tasks/task_20260902_huangyaoshi-instance-naming-role-only.md
+- #623 task_20260902_huangyaoshi-daily-review-scheduler｜huangyaoshi｜提审 09-03 01:00｜60_feedback/tasks/task_20260902_huangyaoshi-daily-review-scheduler.md
 
 <!-- REVIEW-PENDING-END -->
 
