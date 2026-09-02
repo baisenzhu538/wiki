@@ -565,3 +565,5 @@
   - 未提交改动: kdo-tools/watch_inbox.py
   - 未提交改动: kdo-tools/t｜huangyaoshi-kimi
 2026-09-02 23:02:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 1266.7), ('cli', 796.7)]）｜role_registry check-liveness｜role_registry
+2026-09-02 23:15:31｜task_20260902_huangyaoshi-toutiao-shortlink-regex-fix｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
+  - untracked: 00_inbox/wechat-collect/src_wechat_article_｜huangyaoshi-kimi

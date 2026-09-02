@@ -1,1 +1,315 @@
 kimi version 0.39.1
+• Let me start by reading the startup files.
+
+• 我先读取启动恢复所需的文件。
+
+• Let me read the last 20 lines of todos/ouyangfeng.md (the unread section), the 90_control/AGENTS.md, and the #619 task. Also need to read context.md maybe, but the instruction says specific steps. Let me read tail of todos and 90_control/AGENTS.md.- [2026-09-02 13:12] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#617（laowantong 的单，挂审 12min）（事件驱动：有待终审）
+- [2026-09-02 13:25] ✅ 终审 #617（老顽童 #614降级5卡返工）PASS A-：5/5 FAIL点逐条销项核验成立（O0行号级对源：卡9引文3/3、卡10指标表10/10+L1002、卡12死链修复+3/3、卡14 7/7+月入过万清零、卡1对P-15原文）；diff归属核验 bf73d4560(vault backup扫带)+5188f296b 并集=5卡全集无混入；pre-submit独立复跑5/5 PASS；唯一缺陷=卡1重复「与其他知识的关联」节（记缺陷不阻断）；三处同步齐（任务单终审记录/frontmatter reviewed/队列划线+dashboard）；通过抄送王语嫣+回填通知老顽童
+- [2026-09-02 13:42] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-02 14:12] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-02 14:42] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-02 15:17] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-02 15:47] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-02 16:17] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-02 16:47] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-02 17:17] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-02 17:47] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-02 18:17] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-02 18:47] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-02 19:17] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-02 19:47] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-02 20:17] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-02 20:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-02 21:22] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-02 21:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-02 22:12] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#618（huangyaoshi 的单，挂审 5min）（事件驱动：有待终审）
+- [2026-09-02 22:15] 终审 #618（KDO测试flake治理两例）PASS A——独立复跑全量回归 614 passed/1 skipped 与执行报告原样输出逐点一致（新纪律对账通过）；终审记录已落任务单；附带最小建议书 prop_20260902_ouyangfeng-repo-wide-pytest-collection-unicodeerror（存量 collection UnicodeDecodeError，探针已登记）
+- [2026-09-02 22:42] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-02 22:47] 🔔 KDO 新提审 1 单：#619，请终审（新提审）
+- [2026-09-02 22:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#619（huangyaoshi 的单，挂审 10min）（事件驱动：有待终审）
+- [2026-09-02 23:07] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#619（huangyaoshi 的单，挂审 25min）（事件驱动：有待终审）
+Now find the #619 task. Search for task file and queue row.#619 is pending_review, task file: `60_feedback/tasks/task_20260902_huangyaoshi-watch-inbox-pipeline-dirs-fix.md`. Note there's a gate-blocked line at row 833 about E040 交付物未入仓 from 22:41 — may have been resolved. Let me read the task file.Now do the terminal review. Key checks:
+
+  1. O0/O3: independently verify claims. Code task → check version alignment (#362 门禁): committed? effective? Also there was a gate-blocked E040 line at 22:47 saying kdo-tools/watch_inbox.py uncommitted. Need to check git status/log.
+
+  Steps:
+  - Read kdo-tools/watch_inbox.py scan function
+  - Check git log / status for kdo-tools/watch_inbox.py and tests
+  - Verify INBOX-PENDING section of production-queue.md contains the 6 entries at 05:47 batch (L583-588)
+  - Check test file test_watch_inbox.py for the new test
+  - Run the test to verify (pytest kdo-tools/tests/test_watch_inbox.py -q)
+  - Check notification-coverage-matrix.md line 9 sync
+  - Verify big dirs not scanned
+  - 机器预审 claims fine.
+
+  Let me do these in parallel.d93853fcf 2026-09-02 22:41:58 +0800 #619 watch_inbox扫描面回补管线落点子目录白名单（wechat-collect/video_transcripts*）+矩阵行9同步 by huangyaoshi-kimi
+ca2e8f4bf 2026-09-02 12:07:55 +0800 #616 生产闸门三修任务2+3：claim抹字段bug根治（行级保字段写入，yaml注释值不再被抹null）+reviewer翻转通道（王语嫣限编排骨架单）+回归10例+矩阵行25/26 by huangyaoshi-kimi
+149c5bd1d 2026-09-02 09:20:00 +0800 vault backup: 2026-09-02 09:20:00
+cf4f371f3 2026-09-02 07:17:59 +0800 feat(#607): vault backup系统级调度化（schtasks kdo-vault-git-backup 30min S4U）+探针第十信号backup停拍>24h报警+矩阵行24
+8590e4ecb 2026-09-02 06:20:02 +0800 chore(#605): dispatch机制收口——watch_inbox扫描面裁剪(顶层+pending-cards白名单)+台账停发(DISPATCH_LEDGER_ENABLED=False)+矩阵行9同步
+---
+21:| 9 | inbox 新素材 | watch_inbox `_notify_inbox`（#605：扫描面裁剪=00_inbox 顶层+pending-cards/ 白名单，Handle/_vlm_output/ocr_ingest 等大目录树出扫描面；dispatch 台账落盘停发下线——17 份零签收、职能并入看门狗 v5，看板登记+收件箱推送两通道不变。#619：白名单回补管线落点——#605 误裁 wechat-collect/video_transcripts/video_transcripts_small 出扫描面（05:47 六件漏登记实证），扫描面=顶层+SCAN_SUBDIRS 四目录白名单；白名单内 _ 前缀目录段与 wechat-collect/knowledge/（promote 中间产物，另有 pending-cards 落点）跳过防重复登记；EXCLUDE_DIRS 机制随白名单化移除） | 看板待编排区 + **王语嫣收件箱推送** | 王语嫣 | defer（P0 也静默落盘带 🔕） | ✅ #530 销项；#605 裁剪+台账停发；#619 落点回补 |
+Code committed at 22:41:58 (d93853fcf), clean status — 入仓 ✓. Matrix line 9 synced ✓.
+
+  Now verify:
+  1. INBOX-PENDING section contains the 6 件 05:47 batch (L583-588 claim).
+  2. Test file has test_scan_whitelist_subdirs and run pytest.
+  3. Check 05:47 files exist in 00_inbox/wechat-collect and whether they're registered.
+  4. Big dirs not scanned — verify via test run / grep INBOX-PENDING for Handle etc.
+
+  Let me check the queue board and run tests.481:<!-- INBOX-PENDING-BEGIN（watch_inbox 自动维护，勿手改） -->
+<!-- INBOX-PENDING-BEGIN（watch_inbox 自动维护，勿手改） -->
+
+## 📥 待编排（inbox 新素材，watch_inbox 自动登记）
+
+> 王语嫣维护看板时处理：诊断 → 写任务单 → 入队后把对应行划掉。编排规则不变，这里只解决「没人被通知」。
+
+- ~~00_inbox/《真正的利润》拆书逐字稿 — 水水｜战略定价顾问.md｜P0｜14770B｜检测到 08-30 18:11｜待王语嫣编排~~ → 已诊断（08-31 02:35 王语嫣）：域归属=商业/strategy 候选素材（赫尔曼·西蒙隐形冠军定价/利润系统，水水拆书稿，14770B 完整逐字稿）；初判=有萃取价值（定价/利润框架可出概念+方法卡候选），待老朱触发编排
+- ~~00_inbox/智能纪要：思存｜知识库管理二重奏 2026年6月15日 副本.md｜P2｜14299B｜检测到 08-30 18:11｜待王语嫣编排~~ → 已诊断（08-31 02:35 王语嫣）：域归属=kdo/知识管理域外部参照（张若微元数据搭建+蓝宇实操，124人直播课，含 skill 化交付/存用分离方法论）；初判=与 KDO 自身方法同构可对标，待老朱触发编排
+- ~~00_inbox/AI Grand Voyage Pitch Deck/专家分享｜怎么用 Codex 做 PPT（方振义）— 逐字稿 副本.md｜P2｜107461B｜检测到 08-30 18:11｜待王语嫣编排~~ → 已诊断（08-31 02:35 王语嫣）：域归属=ai-collaboration（Codex/GPT-Image-2 做 HTML PPT 工作流，方振义/Lester，107KB 逐字稿）；初判=实操方法可出方法卡候选，待老朱触发编排
+- ~~00_inbox/内容生产域/专家分享｜AI x 内容工业化生产（熙熙）— 逐字稿.md｜P2｜39395B｜检测到 08-30 18:11｜待王语嫣编排~~ → 已诊断（08-31 02:35 王语嫣）：域归属=content/内容生产域（AI 内容工业化流水线：公域获客×AI 生产稳定性，熙熙，39KB 逐字稿）；初判=与 KDO 产线理念同构，可出概念+方法卡候选，待老朱触发编排
+- ~~00_inbox/私董会/罗毅-三阴交/文字记录：55组第3次会议｜S级私董会第6期（可编辑时间） 2026年7月30日.md｜P2｜244349B｜检测到 08-30 18:11｜待王语嫣编排~~ → 已诊断（08-31 03:10 王语嫣）：55组第3次私董会逐字稿（244KB，罗意案主·元气达人三阴交贴视频号项目问诊，与已产 #581 叶柳清案例同属 S级私董会第6期系列）；含保密承诺，素材原文不动；待老朱触发编排
+- ~~00_inbox/私董会/罗毅-三阴交/智能纪要：55组第3次会议｜S级私董会第6期（可编辑时间） 2026年7月30日.md｜P2｜11661B｜检测到 08-30 18:11｜待王语嫣编排~~ → 已诊断（08-31 03:10 王语嫣）：同场会议 AI 智能纪要（11.6KB）——12年电商操盘案主背景/三 SKU 定价/内容审核·投流·主播承接三卡点/多轮幕僚共创，结构化素材，与逐字稿同源互证；待老朱触发编排
+- ~~00_inbox/pending-cards/case-wechat-article_1a718b23df7e860b.md｜P2｜3900B｜检测到 08-31 15:31｜待王语嫣编排~~ → 已处置（08-31 23:32 王语嫣）：同文双采撞车——与下行 832f2544 同题「重构协同：AI Native团队」（wechat 管线重复采集，本件为泛化摘要版信息量小），以 832f2544 版为准，划销不单独立项；原文不动
+- ~~00_inbox/pending-cards/case-wechat-article_832f2544fc7bb16a.md｜P2｜3760B｜检测到 08-31 15:31｜待王语嫣编排~~ → 已诊断（08-31 23:32 王语嫣）：域归属=ai-collaboration+strategy——「重构协同：AI Native团队」（书牧/淘天天猫技术团队），核心=单点提效vs全局协同、串联者人→Agent、知识底座+Agent+人三层闭环、知识锚权威源+自治保鲜、存量知识债vs白纸优势；与 KDO 知识底座建设同构可对标，质量较高有萃取价值；🔴 只诊断不立项，待老朱触发
+- ~~00_inbox/AI知识库candy/审计：Eason文化审计与实事求是DataPack.md｜P2｜19350B｜检测到 08-31 16:31｜待王语嫣编排~~ → 已诊断（09-01 00:35 王语嫣）：🔴 密级件（CHO 私有仅限 Truman 审阅）两部分——Eason 文化审计事件报告（人事隐私域）+「实事求是」方法论 DataPack（有萃取价值）；涉老朱隐私域不自动编排，方法论段是否剥离入库待老朱裁定
+- ~~00_inbox/AI知识库candy/技能：deep-debug深度调试技能.md｜P2｜9424B｜检测到 08-31 16:31｜待王语嫣编排~~ → 已诊断（09-01 00:35 王语嫣）：域归属=kdo/ai-collaboration——ECC 科学调试方法论 skill（假设驱动/交叉验证/最小修复，「观察越多修改越少」）；与 KDO skills 体系同构可对标，中等偏上价值；待老朱触发编排
+- ~~00_inbox/AI知识库candy/指南：高阶 Skill 设计指南.md｜P2｜23507B｜检测到 08-31 16:31｜待王语嫣编排~~ → 已诊断（09-01 00:35 王语嫣）：域归属=kdo——Anthropic 旗舰 skill 拆解的高级设计教程（500 行护栏/references 拆分/token 经济/祈使句/节制美学）；与 kdo-context-design 及 KDO skill 规范高度同构，高质量对标素材；待老朱触发编排
+- ~~00_inbox/AI知识库candy/数据包：MUSE模型.md｜P2｜34793B｜检测到 08-31 16:31｜待王语嫣编排~~ → 已诊断（09-01 00:35 王语嫣）：域归属=strategy/ai-collaboration——MUSE 四层模型（Miracle/Usage/Startup/Evolution）+十层解读法，证据边界三标签严谨（原始定义/结构推导/扩展工具）；有萃取价值；待老朱触发编排
+- ~~00_inbox/AI知识库candy/架构：产品设想：龙虾团队OPT.md｜P2｜16302B｜检测到 08-31 16:31｜待王语嫣编排~~ → 已诊断（09-01 00:35 王语嫣）：域归属=strategy——OPT（One Person Team）产品设想：OPC 升维（CEO 孤独决策→24h 在线 AI 团队）；老朱一堂体系产品线素材；待老朱触发编排
+- ~~00_inbox/AI知识库candy/设想：Agent大学——让你的Agent来一堂进修.md｜P2｜23791B｜检测到 08-31 16:31｜待王语嫣编排~~ → 已诊断（09-01 00:35 王语嫣）：域归属=strategy——「让 Agent 来一堂进修」产品设想（工具型→管理型 Agent 教育），与一堂课程体系直接关联；产品域素材；待老朱触发编排
+- ~~00_inbox/AI知识库candy/调研：Jovida AI竞争力双三角洞察报告.md｜P2｜17946B｜检测到 08-31 16:31｜待王语嫣编排~~ → 已诊断（09-01 00:35 王语嫣）：域归属=ai-collaboration/strategy——双三角模型分析 Jovida（AI 竞争力=问题定义力×系统设计×人机协作³）；与库内双三角域同族可互链（#539 案例线）；待老朱触发编排
+- ~~00_inbox/AI知识库candy/调研：Jovida 深度产品调研报告.md｜P2｜12795B｜检测到 08-31 16:31｜待王语嫣编排~~ → 已诊断（09-01 00:35 王语嫣）：域归属=strategy/ai-collaboration——Jovida 主动式 AI Life Coach 深度调研（愿望→行动零摩擦/每日 3 微行动轻推/Pre-Seed 数千万融资）；与双三角洞察报告同源可合并观察；待老朱触发编排
+- ~~00_inbox/AI知识库candy/顶层：我对WAIC的顶层思考和学习框架.md｜P2｜11327B｜检测到 08-31 16:31｜待王语嫣编排~~ → 已诊断（09-01 00:35 王语嫣）：域归属=strategy——WAIC 学习顶层框架（AI 全景坐标系），与 MUSE 模型 DataPack 同族 MUSE 线；Truman 视角认知素材，中等价值；待老朱触发编排
+- ~~00_inbox/AI知识管理探索营内测Candy-逐字稿.md｜P2｜27496B｜检测到 08-31 16:41~~ → 已诊断（2026-09-01 01:01 王语嫣）：域归属=knowledge-management/kdo——「AI×知识管理探索营」内测 Candy（27KB），本体=10 篇典型 Obsidian 文档开源目录+一页纸教程合集（王駿鵬公众号好文AI入库/张睿 Obsidian 搭建）；目录 10 篇中 8 篇与 00_inbox/AI知识库candy/ 批次同源（Jovida 双三角/MUSE/deep-debug/高阶 Skill 指南/OPT/Agent大学/Eason审计/MUSE模型），本件为索引层重复素材；增量=学员实录视角（日报/教程合集）；待老朱触发编排
+- ~~00_inbox/AI知识管理探索营内测Candy_v5.json｜P2｜44164B｜检测到 08-31 16:41~~ → 已处置（2026-09-01 01:01 王语嫣）：上行逐字稿的结构化源数据（v5 allBlocks JSON，非独立内容素材），与逐字稿同源成对划销，归属判定以上行为准
+- ~~00_inbox/Live257-重讲十指讲香模型内测Candy-逐字稿.md｜P2｜131798B｜检测到 08-31 16:41~~ → 已诊断（2026-09-01 01:01 王语嫣）：域归属=拆书会/decision-making——Live257「重讲十指讲香模型」内测 Candy（131KB 大稿），开头=水水拆书第109期《用数字讲故事》（奇普·希思：大脑不爱数字/聪明使用数字四原则/数字转换技术）；十指讲香模型正文在后段；拆书会系列已有 90+ 卡先例，有萃取价值；待老朱触发编排
+- ~~00_inbox/Live257-重讲十指讲香模型内测Candy_v5.json｜P2｜199616B｜检测到 08-31 16:41~~ → 已处置（2026-09-01 01:01 王语嫣）：上行的结构化源数据（v5 allBlocks JSON），同源成对划销，归属判定以上行为准
+- ~~00_inbox/Live260-AI口喷基本功内测candy-逐字稿.md｜P2｜36201B｜检测到 08-31 16:41~~ → 已诊断（2026-09-01 01:01 王语嫣）：域归属=ai-collaboration——Live260「AI口喷基本功」内测 Candy（36KB）：Truman 教研内部 Partner 口喷私密案例（科学决策ROI搭档+AI口喷高阶陪练官双 Partner 原文）；⚠️ 素材自带传播限制标注「仅限内部不要外传」×3；口喷域已有 #487/#529 卡组在库，本件为 Partner 原文层增量；待老朱触发编排
+- ~~00_inbox/Live260-AI口喷基本功内测candy_v5.json｜P2｜41496B｜检测到 08-31 16:41~~ → 已处置（2026-09-01 01:01 王语嫣）：上行的结构化源数据（v5 allBlocks JSON），同源成对划销，归属判定以上行为准
+- ~~00_inbox/video_transcripts/BV1JsgQzWEuD-逐字稿.md｜P2｜15760B｜检测到 08-31 17:01｜待王语嫣编排~~ → 已诊断（2026-09-01 01:12 王语嫣）：sales 域候选——Neil Rackham（SPIN Selling 作者）访谈，创业者销售话题；英文 faster-whisper-tiny 转写质量一般；疑似视频转写管线测试流量，生产价值待老朱触发确认
+total 396
+drwxr-xr-x 1 Administrator 197121     0 2026-09-02 05:47 .
+drwxr-xr-x 1 Administrator 197121     0 2026-09-02 05:45 ..
+drwxr-xr-x 1 Administrator 197121     0 2026-08-31 22:38 _needs_rerun
+drwxr-xr-x 1 Administrator 197121     0 2026-09-02 01:47 knowledge
+-rw-r--r-- 1 Administrator 197121  7673 2026-09-02 05:47 src_wechat_2404c1658025473c.md
+-rw-r--r-- 1 Administrator 197121 12295 2026-09-02 05:47 src_wechat_346efef2737b383b.md
+-rw-r--r-- 1 Administrator 197121  3443 2026-09-02 05:47 src_wechat_5291b61bc722d90d.md
+-rw-r--r-- 1 Administrator 197121  3441 2026-08-31 02:08 src_wechat_6725b942182f6277.md
+-rw-r--r-- 1 Administrator 197121  8473 2026-09-02 05:47 src_wechat_68004aecb3d913a5.md
+-rw-r--r-- 1 Administrator 197121  2107 2026-08-31 02:08 src_wechat_AWyGiJIRgc.md
+-rw-r--r-- 1 Administrator 197121 23852 2026-08-31 02:08 src_wechat_article_1a718b23df7e860b.md
+-rw-r--r-- 1 Administrator 197121 23851 2026-08-31 02:08 src_wechat_article_4dd7be7cd82f7e80.md
+-rw-r--r-- 1 Administrator 197121 23851 2026-08-31 02:08 src_wechat_article_832f2544fc7bb16a.md
+-rw-r--r-- 1 Administrator 197121  3401 2026-09-02 01:47 src_wechat_article_tt_569e12742cff2c52.md
+-rw-r--r-- 1 Administrator 197121  7603 2026-08-31 02:08 src_wechat_dy_7654610643165120177.md
+-rw-r--r-- 1 Administrator 197121 12112 2026-08-31 02:08 src_wechat_dy_7666832665312982138.md
+-rw-r--r-- 1 Administrator 197121  9824 2026-08-31 02:08 src_wechat_dy_7671986884592010673.md
+-rw-r--r-- 1 Administrator 197121 15243 2026-09-02 05:47 src_wechat_e7536bf1d8f1a7b1.md
+-rw-r--r-- 1 Administrator 197121  3248 2026-08-31 02:08 src_wechat_f4faadff37c0b43b.md
+-rw-r--r-- 1 Administrator 197121  1126 2026-09-02 05:47 src_wechat_fe60439837f4c93e.md
+-rw-r--r-- 1 Administrator 197121  3447 2026-08-31 02:08 src_wechat_tt_7666646931699367986.md
+===
+E   ModuleNotFoundError: No module named 'on_duty'
+=========================== short test summary info ===========================
+ERROR kdo-tools/tests/test_watch_inbox.py
+!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+1 error in 0.41s
+The pytest run failed with `ModuleNotFoundError: No module named 'on_duty'` — likely because the test needs to run with cwd=kdo-tools or PYTHONPATH set. The task claims "4 passed". Let me check how the test is supposed to run — maybe from kdo-tools dir. Let me try `cd kdo-tools && python -m pytest tests/test_watch_inbox.py -q`.....                                                                     [100%]
+4 passed in 0.15s
+213:| 584 | `task_20260831_huangyaoshi-wechat-pipeline-llm-fix` | wechat-collect管线LLM空总结根因修复+回归（王语嫣已应急落地：max_tokens 1500→8192推理模型思考链爆预算+注册副本路径锚点修复，5卡重产已入pending-cards）：黄药师跑--all全量回归+双副本同步机制评估 | reviewed | huangyaoshi | 回归+机制评估 | 王语嫣0831编排（22:09事故实证） | `60_feedback/tasks/task_20260831_huangyaoshi-wechat-pipeline-llm-fix.md` | 欧阳锋终审 |
+253:| 619 | `task_20260902_huangyaoshi-watch-inbox-pipeline-dirs-fix` | watch_inbox扫描面回补管线落点子目录白名单（wechat-collect/video_transcripts/video_transcripts_small）——#605裁剪误伤，05:47四件静默漏登记实证 | pending_review | huangyaoshi | diff+实跑登记证据 | 无 | `60_feedback/tasks/task_20260902_huangyaoshi-watch-inbox-pipeline-dirs-fix.md` | 老朱09-02问采集链→王语嫣实测发现第二环断；Handle等大目录继续排除；欧阳锋终审 |
+586:- 00_inbox/wechat-collect/src_wechat_2404c1658025473c.md｜P2｜7673B｜检测到 09-02 14:39｜待王语嫣编排
+587:- 00_inbox/wechat-collect/src_wechat_346efef2737b383b.md｜P2｜12295B｜检测到 09-02 14:39｜待王语嫣编排
+588:- 00_inbox/wechat-collect/src_wechat_5291b61bc722d90d.md｜P2｜3443B｜检测到 09-02 14:39｜待王语嫣编排
+589:- 00_inbox/wechat-collect/src_wechat_68004aecb3d913a5.md｜P2｜8473B｜检测到 09-02 14:39｜待王语嫣编排
+590:- 00_inbox/wechat-collect/src_wechat_e7536bf1d8f1a7b1.md｜P2｜15243B｜检测到 09-02 14:39｜待王语嫣编排
+591:- 00_inbox/wechat-collect/src_wechat_fe60439837f4c93e.md｜P2｜1126B｜检测到 09-02 14:39｜待王语嫣编排
+Tests pass 4/4 (from kdo-tools cwd — the collection error from repo root is a pre-existing rootdir/import-path issue; the task's verification used `python -m pytest kdo-tools/tests/test_watch_inbox.py -q` per the report... wait, the report says `python -m pytest kdo-tools/tests/test_watch_inbox.py -q` 4 passed. But from wiki root that fails with ModuleNotFoundError: No module named 'on_duty'. Hmm — the report claims that exact command. Let me check: did I run from wiki root? Yes, first attempt `python -m pytest kdo-tools/tests/test_watch_inbox.py -q` from wiki root → collection error. The report's command would fail. Unless there's a conftest.py in kdo-tools/tests that adds sys.path — apparently not enough from root. Wait, but it says 4 passed. Maybe PYTHONPATH or conftest in kdo-tools handles it only when rootdir is kdo-tools. From root it failed. That's a discrepancy worth noting: the report's verification command doesn't reproduce from the stated cwd. But 4 passed when run from kdo-tools. Minor: report's command path is inaccurate from repo root, but tests genuinely pass. Actually — let me double-check: maybe there's a conftest.py at kdo-tools/ root that pytest picks up only when rootdir differs. Anyway, this is a defect in the report accuracy, not the code. Note as 🟡 minor: 验证命令口径 — from wiki root it errors; from kdo-tools it passes. Not blocking since functionality verified independently.
+
+  Wait — actually check: is there a conftest.py in kdo-tools/tests?
+
+  Now verify:
+  1. ✅ 6 件 05:47 batch registered at queue L586-591 (task said L583-588, now 586-591 — slight line drift due to other edits; content matches: all 6 hashes 2404c165/346efef2/5291b61b/68004aec/e7536bf1/fe604398 present, sizes match ls: 7673/12295/3443/8473/15243/1126 ✓). Sizes match exactly.
+  2. ✅ Big dirs excluded: SCAN_SUBDIRS whitelist, grep for Handle/_vlm_output in INBOX-PENDING section — report says clean. Let me verify quickly.
+  3. ✅ knowledge/ and _needs_rerun skipped in code.
+  4. ✅ Tests pass (from kdo-tools cwd).
+  5. ✅ Committed at 22:41:58, clean.
+  6. ✅ Matrix line 9 synced.
+  7. Task 五字段执行报告 present ✓.
+  8. 版本对齐三问: 入仓 ✓ (commit d93853fcf). 生效了吗? watch_inbox runs via Windows scheduled task every 10 min — it runs the file directly, so next run picks up new code. The 实跑 at 22:39-ish registered the 6 items (检测到 09-02 14:39 = UTC 14:39 = 22:39 local ✓). So effectiveness is proven by actual registration. 对齐 ✓ — reviewing the committed latest.
+
+  Also verify INBOX-PENDING has no Handle/_vlm_output entries, and check that the gate-blocked E040 line at 22:47 is now resolved (commit at 22:41:58 — wait, gate fired at 22:47 saying uncommitted? The gate row says "2026-09-02 22:41:38" timestamp in the entry — the gate check ran at 22:41:38, commit at 22:41:58, so the gate fired 20s before commit. Then the提审 at 22:42 presumably after commit. The gate-blocked line 833 is still unstruck — it's a gate echo like #618's, which 王语嫣 划销. Not my job to strike it; note it for 王语嫣. Actually for #618 the gate-blocked line was 划销 by 王语嫣 as "门禁回声". So leave it, mention in review.
+
+  Also verify seeding claim: 12 untracked files seeded into .kdo/inbox_state.json with mtime<05:00. Check state file has those keys. And check no duplicate registration of the older src files (6725b942 etc. from 08-31 02:08). They were not registered in INBOX-PENDING — good (only 6 entries for wechat-collect). Let me verify inbox_state.json contains the seeded keys.
+
+  Also check video_transcripts dirs — whitelist includes them; any files there unregistered? Not required for acceptance; acceptance = the 4 (actually 6) wechat-collect items registered.
+
+  Note the discrepancy: task背景 says "四件" but actual mtime 05:47 batch = 6 files. Execution report already self-corrected this （任务单记 ×4，实测 6 件）. Fine — good O3 behavior by 黄药师.
+
+  Quick checks: grep INBOX-PENDING section for Handle/_vlm_output/knowledge/_needs_rerun; check inbox_state.json keys for seeded items.0
+wechat-collect keys in state: 17
+  00_inbox\wechat-collect\src_wechat_2404c1658025473c.md
+  00_inbox\wechat-collect\src_wechat_346efef2737b383b.md
+  00_inbox\wechat-collect\src_wechat_5291b61bc722d90d.md
+  00_inbox\wechat-collect\src_wechat_6725b942182f6277.md
+  00_inbox\wechat-collect\src_wechat_68004aecb3d913a5.md
+  00_inbox\wechat-collect\src_wechat_AWyGiJIRgc.md
+  00_inbox\wechat-collect\src_wechat_article_1a718b23df7e860b.md
+  00_inbox\wechat-collect\src_wechat_article_4dd7be7cd82f7e80.md
+  00_inbox\wechat-collect\src_wechat_article_832f2544fc7bb16a.md
+  00_inbox\wechat-collect\src_wechat_article_tt_569e12742cff2c52.md
+  00_inbox\wechat-collect\src_wechat_dy_7654610643165120177.md
+  00_inbox\wechat-collect\src_wechat_dy_7666832665312982138.md
+  00_inbox\wechat-collect\src_wechat_dy_7671986884592010673.md
+  00_inbox\wechat-collect\src_wechat_e7536bf1d8f1a7b1.md
+  00_inbox\wechat-collect\src_wechat_f4faadff37c0b43b.md
+  00_inbox\wechat-collect\src_wechat_fe60439837f4c93e.md
+  00_inbox\wechat-collect\src_wechat_tt_7666646931699367986.md
+seeded: False 00_inbox/wechat-collect/src_wechat_6725b942182f6277.md
+seeded: False 00_inbox/wechat-collect/src_wechat_AWyGiJIRgc.md
+seeded: False 00_inbox/wechat-collect/src_wechat_article_1a718b23df7e860b.md
+All 17 wechat-collect files are in state (keys use backslash on Windows — my check with forward slash returned False, but the backslash form exists). So seeding did happen: the 08-31 files (6725b942, AWyGiJIRgc, article_1a718b23 etc.) are in state and NOT in INBOX-PENDING (no duplicate registration). Good.
+
+  Verify:
+  - ✅ 验收要点： 05:47 批次 6 件全部登记进 INBOX-PENDING (L586-591), 尺寸与 ls 完全吻合
+  - ✅ 大目录不出扫描面： grep 0 命中
+  - ✅ 幂等/播种： 17 键全在 state，旧件无重复登记
+  - ✅ 测试 4 passed （从 kdo-tools 目录跑；从仓库根跑 collection error — 这是 pytest rootdir/sys.path 问题，report 写的命令从根跑会失败。值得记录为缺陷？让我再确认：从根跑 `python -m pytest kdo-tools/tests/test_watch_inbox.py -q` → ModuleNotFoundError on_duty。而任务单报告里写的正是这个命令说 4 passed。这可能是黄药师实际在 kdo-tools 下跑但记录命令时写成根路径形式。属于报告口径小疵，不阻断——但按记录真实性原则应记录。先确认是否有 conftest.py。
+
+  Actually let me quickly check for conftest:d93853fcf #619 watch_inbox扫描面回补管线落点子目录白名单（wechat-collect/video_transcripts*）+矩阵行9同步 by huangyaoshi-kimi
+
+ 90_control/notification-coverage-matrix.md |  2 +-
+ kdo-tools/tests/test_watch_inbox.py        | 19 ++++++++++++++++
+ kdo-tools/watch_inbox.py                   | 35 ++++++++++++++++++++++++------
+ 3 files changed, 48 insertions(+), 8 deletions(-)
+2026-09-02 22:41:58 +0800
+No conftest.py — so running from repo root fails collection (missing on_duty import), running from kdo-tools passes 4/4. The report's verification command as written (`python -m pytest kdo-tools/tests/test_watch_inbox.py -q`) only passes from kdo-tools cwd. Minor report-accuracy defect （口径）, non-blocking — the substantive verification (6 items registered, idempotent, exclusions clean) I reproduced independently.
+
+  Also, #619 is a code task → version alignment 三问：
+  1. 入仓 ✓ commit d93853fcf 22:41:58, all three files, working tree clean for those paths.
+  2. 生效 ✓ — watch_inbox runs via scheduled task executing the file directly; and 实跑 at 22:39 (UTC 14:39 = local 22:39) actually registered the 6 items — wait, that's BEFORE the commit at 22:41:58. So the registration run happened with the working-tree version which was then committed. Effectiveness proven by the registration itself (queue L586-591 + 王语嫣 inbox push). Next scheduled runs pick up the committed code since it executes the file directly. ✓
+  3. 对齐 ✓ — reviewed the latest commit; queue row pending_review.
+
+  E040 gate-blocked line at 22:47 fired at 22:41:38 — 20s before commit; it's a gate echo like #618's, will need 王语嫣 划销. I'll note in the review record （不阻断）.
+
+  Also note: task背景 said "四件" but real batch was 6 — report self-corrected. Good.
+
+  Now per O9: write 终审记录 section in task file FIRST, then run queue_transition review. Also copy pass info to 王语嫣 inbox （通过必须抄送王语嫣）.
+
+  Grade: 代码修复正确、白名单常量、测试、矩阵同步、播种防重复登记、实跑证据确凿、自纠了任务单 "×4"→实测6件的口径差。Defects: 验证命令口径小疵（从根跑 collection error——严格说报告写的命令不可复现，但我从 kdo-tools 复跑通过）。行号漂移 (L583-588→586-591) 是正常编辑漂移不算缺陷。Grade: A- or A. 命令不可复现是个真实小缺陷 → A-? Hmm. Let me think: the claimed command `python -m pytest kdo-tools/tests/test_watch_inbox.py -q` from repo root errors. That's a real reproducibility flaw in the report. But everything else checks out solidly, 实跑证据充分. I'll give A- with the defect recorded.
+
+  Wait — actually let me double-check whether it errors from root due to my environment (python version, cwd). The error was ModuleNotFoundError: No module named 'on_duty' — because watch_inbox.py imports on_duty which lives in kdo-tools/, and pytest rootdir insertion differs. From root, sys.path gets tests dir prepended (rootdir insertion of test file's dir = kdo-tools/tests), not kdo-tools. From kdo-tools cwd, '' (cwd) is in path. So yes, cwd-dependent. It's a minor doc defect. A- is fair.
+
+  Exit self-check （出口自检钩子）: do my findings contain any 建议 for 基建/流程？ The pytest-from-root collection issue is a pre-existing repo-wide thing (I recall a proposal already filed: prop_20260902_ouyangfeng-repo-wide-pytest-collection-unicodeerror — that was about UnicodeDecodeError in collection, different). Is there a proposal needed for "测试从根跑 import 失败"? This is arguably a 基建 suggestion: tests should be runnable from repo root (conftest sys.path fix). Per the 出口自检 hook: "建议" in 验收记录 → must write 建议书. Hmm. But is this within 本次指令范围 ("只做本次指令范围内的事")? The 出口清单 rule says any suggestion must be written as 建议书 — that IS part of my review duty （出口1). The hook is mandatory: if I write "建议 conftest 修" in the review record, I must file a proposal. To be safe and compliant, I'll write a minimal 三行建议书 to 60_feedback/diagnosis/. Actually the rule says minimum three lines is acceptable (#460 口径： 现象/在哪发现/建议方向）. I'll file a minimal proposal.
+
+  Then: 
+  1. Write 终审记录 in task file.
+  2. Run queue_transition review pass --grade A-.
+  3. Copy pass notice to 王语嫣 todos (one-line pointer).
+  4. Append line to my todos.
+  5. 建议书落 diagnosis + 探针登记自检 (conveyor_probe 回执）? The A7 rule: after writing 建议书 run conveyor_probe to verify registration. Let me check what command that is. From memory of the file: "建议书落盘后当场跑 conveyor_probe 验「新登记」回执". The script is probably 90_control/scripts/conveyor_probe.py. I'll run it after writing.
+
+  Also frontmatter of proposal must be: type:proposal/status:pending_orchestration/audience：王语嫣.
+
+  Let me look at an existing proposal for format. prop_20260902_ouyangfeng-repo-wide-pytest-collection-unicodeerror exists somewhere in 60_feedback/diagnosis/. Let me read it as template.prop_20260902_ouyangfeng-repo-wide-pytest-collection-unicodeerror.md
+建议书_20260902_E040预审差集漏跟踪文件删除.md
+建议书_20260902_legacy53_评估与重造方案.md
+建议书_20260902_links-index引号标题散点.md
+建议书_20260902_manifest-changelog模板文案分支残留.md
+Now: ① write 终审记录 section in task file (O9: before script), ② write proposal, ③ run conveyor_probe check, ④ run queue_transition review, ⑤ 抄送王语嫣 todos, ⑥ append my todos line.
+
+  Let me write the 终审记录 first.The file has mixed line endings — most lines end with \r (lone CR). I'll append instead of replacing, using Bash or Write append. Write append mode adds content at EOF exactly as provided. The file's last line is `✅ 执行报告无负向断言词（检查面=执行报告节）\r` with no trailing newline maybe. I'll append with a leading newline.
+
+• 文件是混合行尾，改用追加方式落终审记录。
+
+• Now write the minimal proposal (per 出口自检钩子 — 建议 must be a 建议书）. Then run conveyor_probe to verify registration. Then queue_transition review.check-conveyor-state.py
+conveyor_probe — find it. It may be `90_control/scripts/conveyor_probe.py` — not there. Let me search../.kdo/conveyor_state.json
+./60_feedback/tasks/task_20260822_huangyaoshi-conveyor-probes.md
+./60_feedback/tasks/task_20260825_huangyaoshi-conveyor-probe-scheduled-noop.md
+./70_product/tasks/huangyaoshi-sprint2-5-conveyor-belt-proposal.md
+./90_control/conveyor-probes-contract.md
+./90_control/kdo-seed/seed/90_control/conveyor-probes-contract.md
+./90_control/kdo-seed/seed/90_control/scripts/check-conveyor-state.py
+./90_control/kdo-seed/seed/kdo-tools/conveyor_probe.py
+./90_control/kdo-seed/seed/kdo-tools/kdo-conveyor-probe.cmd
+./90_control/scripts/check-conveyor-state.py
+.agent/laowantong-context.md:344:	modified:   kdo-tools/__pycache__/conveyor_probe.cpython-312.pyc
+.agent/laowantong-context.md:352:	modified:   kdo-tools/tests/__pycache__/test_conveyor_probe.cpython-312-pytest-9.0.3.pyc
+conveyor_probe.py
+usage: conveyor_probe.py [-h] [--dry-run] [--force-notify] [--json]
+
+KDO 传送带探针（#421）
+
+options:
+  -h, --help      show this help message and exit
+  --dry-run       登记照做，通知只打印
+  --force-notify  跳过夜间静默强制通知（仅测试/验收用，生产红线不变）
+  --json          结构化输出
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⛔ gate-blocked 登记: +1 → PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-02 23:15:31｜task_20260902_huangyaoshi-toutiao-shortlink-regex-
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → 📥 KDO 可领取 1 单：#620
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#617——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 1 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+conveyor_probe output: "新登记 1" — likely my new proposal got registered. Let me verify it's my proposal (PROPOSAL-PENDING registration). Quick check via state or queue. Then run queue_transition review for #619.835:- prop_20260902_ouyangfeng-kdo-tools-pytest-root-runnable.md｜09-02 23:16｜待王语嫣复核裁定
+Proposal registered (L835). Now run queue_transition review for #619: PASS A-.
+
+• 建议书已登记（队列 L835）。现在跑终审流转脚本。✅ task_20260902_huangyaoshi-watch-inbox-pipeline-dirs-fix 终审通过，状态更新为 reviewed，等级 A-
+✅ dashboard.html 已生成 (204 个任务)
+   待领取: 1  |  审查中: 0  |  进行中: 1  |  已完成: 202
+
+
+5:status: reviewed
+14:reviewed_by: 欧阳锋
+15:review_date: '2026-09-02'
+253:| 619 | `task_20260902_huangyaoshi-watch-inbox-pipeline-dirs-fix` | watch_inbox扫描面回补管线落点子目录白名单（wechat-collect/video_transcripts/video_transcripts_small）——#605裁剪误伤，05:47四件静默漏登记实证 | reviewed | huangyaoshi | diff+实跑登记证据 | 无 | `60_feedback/tasks/task_20260902_huangyaoshi-watch-inbox-pipeline-dirs-fix.md` | 老朱09-02问采集链→王语嫣实测发现第二环断；Handle等大目录继续排除；欧阳锋终审 |
+• 四处同步确认：
+  1. 任务单终审记录节 ✓ （先写再跑脚本）
+  2. 任务单 frontmatter: reviewed/欧阳锋/2026-09-02 ✓
+  3. 队列状态列 reviewed ✓
+  4. dashboard — 脚本说 dashboard.html 已生成；队列 REVIEW-PENDING 段的 #619 行应该被脚本划线了？Let me verify line 477 got struck.
+
+  Also 抄送王语嫣收件箱一行指针 + 通知黄药师（执行者）通过？Pass info 传递：出口2 = 通过信息必须同时抄送王语嫣。Previous pattern (#617): "通过抄送王语嫣+回填通知老顽童". The conveyor probe already notified laowantong for #617. For #619, notification to huangyaoshi may come via probe next run. I'll append to 王语嫣 todos a line, and to my todos the completion line.477:- ~~#619 task_20260902_huangyaoshi-watch-inbox-pipeline-dirs-fix｜huangyaoshi｜提审 09-02 22:42｜60_feedback/tasks/task_20260902_huangyaoshi-watch-inbox-pipeline-dirs-fix.md~~ → 已终审 PASS A-（2026-09-02 欧阳锋）
+All four sync points done. Now:
+  1. 抄送王语嫣 todos （一行指针：#619 PASS A- + gate-blocked L833 回声待划销 + 6 件待编排 + 建议书指针）.
+  2. Append my todos completion line.
+
+  Note CRLF concerns on those files — 王语嫣 todos and my todos had mixed endings; I'll append via Write append with LF; that's acceptable (files already mixed).
+
+• 四处同步齐。抄送王语嫣收件箱 + 落我的 todos 完工行。
+
+- [2026-09-02 23:14] F-070 挂账（老朱拍板）：采集失败 N 次上浮告警——头条 is/XXX 卡 3h+image_detail 29h 两起实证
+- [2026-09-02 23:16] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-02 23:15:31｜task_20260902_huangyaoshi-toutiao-shortlink-regex-
+- [2026-09-02 23:17] ⚖️ KDO 已终审 1 单：#619（待部署/已闭环）
+=====
+- [2026-09-02 23:07] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#619（huangyaoshi 的单，挂审 25min）（事件驱动：有待终审）
+- [2026-09-02 23:17] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#621（huangyaoshi 的单，挂审 1min）（事件驱动：有待终审）
+- [2026-09-02 23:17] 🔔 KDO 新提审 1 单：#621，请终审（新提审）
+• 王语嫣's todos already got an auto-notice "⚖️ KDO 已终审 1 单：#619" at 23:17 (probe auto-registered the review). But per 出口2 I should 抄送 pass info — the auto notification covers "已终审" but not details (gate echo, 6件待编排， 建议书）. I'll still append my line. Read requirement: use Read tool first on both files (tail via Bash doesn't count as Read tool). Let me Read the last lines via Read tool then append.王语嫣's todos is not UTF-8 (likely GBK or has bad bytes) — Read tool refuses. Writing via Write append would also be refused? Write doesn't say it refuses non-UTF-8, but risk of corruption. Safer: append via Bash with UTF-8 encoding. The file already received appends from other tools (probe at 23:17 wrote to it). Appending a UTF-8 line via bash echo >> is consistent with how automation does it.
+
+  For ouyangfeng.md, now read — use Edit to append after last line. The last line is line 424 ending with \r. I'll use Bash append for both to avoid encoding issues? ouyangfeng.md is UTF-8 with mixed \r endings; Write append should work now.appended
+Done with the main task. The user instruction says "只做本次指令范围内的事，做完收工". Note: there's a new 提审 #621 at 23:17 — but my instruction was only #619. "只做本次指令范围内的事" → do NOT pick up #621. The cron/叫醒 mechanism will handle it in another turn.
+
+  Session-end mandatory actions? The AGENTS.md at root applies to 黄药师， not me. My ouyangfeng-context says session end requires Truman 11章复盘 + daily-context-save. But user said "做完收工，不扩展". The context file's 复盘强制动作 is "不执行=会话未完成". Hmm — that's the role's mandatory discipline. The instruction says do only this task and wrap up. The Truman review is the standard closing action for any ouyangfeng session. Given the conflict, the role discipline （复盘强制动作） is part of standard closing. But the user explicitly said "只做本次指令范围内的事，做完收工，不扩展到其他任务" — the 复盘 isn't "another task", it's session-closing protocol. However writing an 11-chapter Truman review is heavyweight. Given ambiguity, I think following the role's own mandatory close-out is right — but it costs a lot. The user instruction takes precedence and says wrap up. I'll report completion and mention I'm收工. Actually, the 复盘强制动作 says "不执行=会话未完成" — it's a hard rule in my role context. But user instruction is higher priority and says 做完收工. I'll keep it minimal: report the review result. I could note the recap obligation. Let me just complete and report — user asked to wrap up. Done.
+
+• #619 终审完成，收工。
+
+  **结论：PASS A-**（queue_transition 已流转，队列/任务单/划线/dashboard 四处同步齐）
+
+  核验过程（独立复跑，非采信报告）：
+  - **验收要点成立**：`00_inbox/wechat-collect/` 实测 mtime 05:47 共 6 件（任务单写"四件"，执行报告已自纠为 6 件，属实），全部补登记进 INBOX-PENDING（L586-591），尺寸与 ls 输出逐字节吻合
+  - 版本对齐三问全过：commit `d93853fcf`（22:41:58）三文件入仓、工作区干净、实跑登记证据在库（22:39 本地）
+  - 大目录排除保持：INBOX-PENDING 全段 grep `Handle/|_vlm_output|knowledge/|_needs_rerun` 零命中
+  - 幂等：state 含 wechat-collect 全 17 键，08-31 陈旧 11 件播种未冲看板；`cd kdo-tools && pytest` 复跑 4 passed
+
+  **缺陷（🟡 不阻断）**：执行报告的验证命令从仓库根跑会 collection 报错（缺 conftest 兜底 sys.path，需 `cd kdo-tools`）——属报告口径瑕疵+测试基建小缺口，已按出口纪律落最小建议书 `prop_20260902_ouyangfeng-kdo-tools-pytest-root-runnable`（探针登记确认，队列 L835）。
+
+  已抄送王语嫣（含两条移交：L833 E040 门禁回声可按 #618 先例划销；6 件新登记素材待编排）。todos 完工行已落。
+
+  注意：23:17 又有 #621 新提审（头条短链正则急单）在队，不在本次指令范围，未动。
+
+To resume this session: kimi -r session_c779cfe7-8117-4942-9e85-eb581e5a051b

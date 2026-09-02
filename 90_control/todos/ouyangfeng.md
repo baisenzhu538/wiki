@@ -420,3 +420,6 @@
 - [2026-09-02 22:47] 🔔 KDO 新提审 1 单：#619，请终审（新提审）
 - [2026-09-02 22:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#619（huangyaoshi 的单，挂审 10min）（事件驱动：有待终审）
 - [2026-09-02 23:07] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#619（huangyaoshi 的单，挂审 25min）（事件驱动：有待终审）
+- [2026-09-02 23:17] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#621（huangyaoshi 的单，挂审 1min）（事件驱动：有待终审）
+- [2026-09-02 23:17] 🔔 KDO 新提审 1 单：#621，请终审（新提审）
+- [2026-09-02 23:20] ✅ 终审 #619（黄药师 watch_inbox 扫描面回补）PASS A-：验收要点成立——05:47 批次 6 件 wechat-collect 全部补登记进 INBOX-PENDING（L586-591，尺寸逐字节吻合 ls 实测）；独立复跑：commit d93853fcf 入仓干净、大目录 grep 零命中、state 17 键幂等无重报、pytest 4 passed（需 cd kdo-tools）；缺陷=报告验证命令从仓库根不可复现（🟡不阻断，已落建议书 prop_20260902_ouyangfeng-kdo-tools-pytest-root-runnable，探针登记 L835）；四处同步齐，通过已抄送王语嫣

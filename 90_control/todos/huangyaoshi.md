@@ -437,3 +437,6 @@
 - [2026-09-02 22:47] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#619（huangyaoshi 的单，挂审 5min）（到点（节奏 15min））
 - [2026-09-02 22:47] 📥 KDO 可领取 1 单：#620
 - [2026-09-02 23:02] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#619（huangyaoshi 的单，挂审 20min）（到点（节奏 15min））
+- [2026-09-02 23:16] ✅ #621 头条短链is/XXX正则修复 complete 提审：is/? 一行兼容两形态+docstring同步（随vault backup入仓1f89e2d86）+老朱链接端到端落inbox实证（src_wechat_article_tt_af50baaada5fc2f2.md 2731字+知识化+seen）+回归12passed（执行报告commit e1c437f05；claim走了--force留痕：急单插队压过#619挂审）
+- [2026-09-02 23:17] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#621（huangyaoshi 的单，挂审 1min）（到点（节奏 15min））
+- [2026-09-02 23:17] ✅ KDO 终审通过 1 单：#619——你的单过了，见任务单终审记录
