@@ -470,3 +470,5 @@
 - [2026-09-02 12:27] ⚖️ KDO 已终审 2 单：#615, #616（待部署/已闭环）；📋 抄送：⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-cover…
 - [2026-09-02 12:37] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-02 12:32:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cl
 - [2026-09-02 12:40] 🕐 值守拍：#615/#616 双 PASS A-（翻转通道已通+claim抹字段根治）；#617 降级5卡返工立项拉起（proc 见 log）——#614 裁定链最后一公里
+- [2026-09-02 12:42] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-02 12:47] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-02 12:47:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-c
