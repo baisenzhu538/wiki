@@ -1004,3 +1004,7 @@
 ⏰ 唤醒 laowantong（到点（节奏 15min））→ ['todos']
 [role_clock] 无到期角色
 ⏰ 唤醒 ouyangfeng（事件驱动：有待终审）→ ['todos']
+[info] 冷却抑制 3 角色（2h 内已报过）: ['fengqingyang', 'huangyaoshi', 'laowantong']
+⏰ 唤醒 huangyaoshi（到点（节奏 15min））→ ['todos']
+[info] 冷却抑制 3 角色（2h 内已报过）: ['fengqingyang', 'huangyaoshi', 'laowantong']
+⏰ 唤醒 laowantong（到点（节奏 15min））→ ['todos']

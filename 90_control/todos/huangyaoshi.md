@@ -1,5 +1,6 @@
 # huangyaoshi 待办（探针通知 CLI 收件箱——启动读此文件；在外实例走飞书）
 
+- [2026-09-02 23:47] 🔴 KDO 退回 1 单（返工优先）：#622（task_20260902_huangyaoshi-graph-index-rebuild-sentinel），见任务单终审记录
 - [2026-08-28 05:57] 🔴 KDO 退回 1 单（返工优先）：#566（task_20260827_huangyaoshi-feature-json-mojibake-repair），见任务单终审记录
 - [2026-08-27 20:47] 🔴 KDO 退回 1 单（返工优先）：#556（task_20260827_huangyaoshi-pending-laozhu-decision-signal），见任务单终审记录
 - [2026-08-26 23:37] 🔴 KDO 退回 1 单（返工优先）：#541（task_20260826_huangyaoshi-retrieval-trust-weighting），见任务单终审记录
@@ -444,3 +445,4 @@
 - [2026-09-02 23:32] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
 - [2026-09-02 23:37] ✅ KDO 终审通过 1 单：#621——你的单过了，见任务单终审记录
 - [2026-09-02 23:36] ✅ #622 graph_index重建+哨兵 complete 提审：先删后建全量重建（2428页/5267chunks/6705relations，_tmp/622-graph-rebuild.log）+口语化查询前后对照（0命中→转化率案例卡命中）+conveyor_probe第十一信号（空/0records/落后search_index 48h，沿触发幂等只告警）+回归47passed+矩阵行27同步（claim曾被并发覆写，#621 reviewed后正常claim完成）
+- [2026-09-02 23:47] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
