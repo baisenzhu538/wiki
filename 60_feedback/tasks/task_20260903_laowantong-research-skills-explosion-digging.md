@@ -2,12 +2,14 @@
 id: task_20260903_laowantong-research-skills-explosion-digging
 title: 调研域 skill 补位：爆炸式五步法 skill + 挖掘式穷尽手段流程 skill + research-core 第一层嵌四类型判定
 seq: 629
-status: queued
+status: in_progress
 assignee: laowantong
 created_by: wangyuyan
 created_at: 2026-09-03
 decision_source: skills-assistant 建议书《调研域skill化缺口与四类型整合》（老朱直令勘察的产出）09-03 王语嫣裁定：动作1/2 立项本单；动作3 裁定=嵌入 research-core 第一层（不另起前置 skill，防路由分裂）；动作4 并入；动作5 验收挂载归 skills-assistant 本职
 reviewer: 欧阳锋
+instance: laowantong
+updated_at: '2026-09-02T20:42:11.426930+00:00'
 ---
 
 # #629 调研域 skill 补位（老顽童）
