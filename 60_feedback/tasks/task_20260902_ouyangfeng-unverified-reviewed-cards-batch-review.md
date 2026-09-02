@@ -2,12 +2,14 @@
 id: task_20260902_ouyangfeng-unverified-reviewed-cards-batch-review
 title: 14 张无终审佐证 reviewed 卡批量补审（E018 家族历史遗留，#613 上报清单裁定）
 seq: 614
-status: queued
+status: in_progress
 assignee: ouyangfeng
 created_by: wangyuyan
 created_at: 2026-09-02
-decision_source: #613 上报王语嫣的 14 张无终审佐证卡（排查补齐报告-613 §3）——王语嫣 09-02 裁定：批量补审定真伪，不补登记不搁置
+decision_source: null
 reviewer: 王语嫣（编排层复核落点）
+instance: ouyangfeng-kimi
+updated_at: '2026-09-02T03:12:31.772327+00:00'
 ---
 
 # #614 十四张无佐证 reviewed 卡批量补审（欧阳锋）
