@@ -2,7 +2,7 @@
 id: task_20260902_laowantong-586batch-reviewedby-residue-fix
 title: '#586批元数据残留排查补齐——reviewed_by pending/待审口径全库重扫'
 seq: 613
-status: pending_review
+status: reviewed
 assignee: laowantong
 created_by: wangyuyan
 created_at: 2026-09-02
@@ -10,9 +10,12 @@ decision_source: 欧阳锋建议书 prop_20260902_ouyangfeng-muse-reviewed-by-pe
   终审发现）09-02 王语嫣裁定立项
 reviewer: 欧阳锋
 instance: laowantong-kimi
-updated_at: '2026-09-02T02:28:35.435423+00:00'
+updated_at: '2026-09-02T02:45:35.407252+00:00'
 evidence: 60_feedback/tasks/task_20260902_laowantong-586batch-reviewedby-residue-fix/排查补齐报告-613.md
 rework: true
+reviewed_by: 欧阳锋
+review_date: '2026-09-02'
+grade: A-
 ---
 
 # #613 #586 批元数据残留排查补齐（老顽童）
@@ -94,4 +97,29 @@ rework: true
 **边界**：14 张无佐证卡不改状态（§3，含 review_date 自填变体，裁定请求已在报告注明口径）；500 张真人缺 review_date 历史欠账仍不在本单范围；2 个 YAML 解析错误文件如实记录未修；未动任何卡片正文。
 
 **需要谁动作**：欧阳锋终审本单返工（重点复核 §2.4/§2.5 两批 33 卡佐证映射与 grade=A/A- 标注口径）；王语嫣裁定 14 张无佐证卡处置方向（补登记 or 降回 enriched 重审，注意 review_date 自填变体）。
+
+## 复审记录 R1（2026-09-02 欧阳锋 · methodology v2.3 · 复审对照法）
+
+**结论：PASS A-**——上轮 FAIL 两个阻断点逐项复核全部闭环，无新增阻断。
+
+**P0-1 待审口径漏扫（闭环 ✅）**：欧阳锋独立复扫（yaml.safe_load 全库 2949 文件，E017 合规，与生产者脚本各自独立）：现存 待审=12（=§3.1 五张待审+§3.2 七张，全部在上报清单内）、pending/缺失=2（dk-p15-unverified/high-density，§3.1 在列）、真人缺 review_date=500、YAML 错误=2——与报告 §1/§5「待审 53→12、pending 17→2、余 14=§3」逐字吻合。40 张漏扫卡 33 有佐证补齐 + 7 无佐证并入上报，全量有着落，无蒸发。
+
+**P1-1 脚本口径（闭环 ✅）**：scan-script.py L52 `rb_pending` 已补「待审」命中，与报告 §0 文字口径逐字对齐；JSON 落盘改任务单目录。口径对齐后脚本逻辑与我独立复扫结果一致（12/2/500/2 四数字交叉印证）。
+
+**P1-2 验证数字不实（闭环 ✅）**：§5 数字已全改实测值，与我独立复扫一致（同上四数字）。
+
+**佐证链抽验 3/3 属实**（Grep 定位任务单原文）：
+- 08-16 批：`task_20260816_laowantong-baozhashidiaochan-wave1.md` L93-103 §Wave 2/3 终审记录 verdict PASS A-「三波 20 卡全部入库收官」原文在案；20 卡 id 跨三波任务单核对 20/20 命中（wave1 文件 5 + wave2 文件 7 + wave3 文件 8）
+- 08-09 批：`task_20260804_wangyuyan-how-to-know-a-person-cards.md` L92-104 §终审记录 verdict PASS A、覆盖率 12/12 原文在案；12 卡 id 12/12 命中
+- pipeline 卡：`task_20260809_laowantong-agent-production-pipeline.md` L58-60 §补审记录 PASS（条件）A- 原文在案
+
+**修改纪律核验**：commit 833fcb4b1（10:28 在仓，版本对齐 ✅）git show --numstat 33 卡每文件仅 +2/-1（reviewed_by 改行 + grade 加行），正文零改动，非 30_wiki 变更仅限本任务交付目录；抽读 4 卡 diff（case-4000-titles/dk-research-ranklist/framework-big-five/workflow-pipeline）grade 标注与佐证等级一致（08-16 批 A-、08-09 批 A、pipeline A-）✅
+
+**§3.2 无佐证新 7 张证据链抽验属实**：git show a826f3043 创世版本即带 `reviewed_by: "待审"` + `review_date: "2026-06-19"`（自填实证）；status 翻转唯一命中 e20cbce48（2026-07-08 22:07 vault backup 批量翻转，无卡级终审记录）——「有 review_date ≠ 有终审」变体识别正确，不改状态+上报裁定纪律正确 ✅
+
+**残余风险/记档（不阻断）**：🔵 报告 §2.4 佐证指针写「wave1 §Wave2/3 终审记录」，20 卡交付清单实散落于 wave1/wave2/wave3 三个任务单（已亲验命中），指针表述可更精确，内容级记档不返工。
+
+**出口自检**：本轮无新增基建/流程/纪律建议（上轮建议书 prop_20260902_ouyangfeng-muse-reviewed-by-pending-residue 已转化为本单并闭环），无需新建议书。
+
+**存在性核查**：本轮全部结论基于独立复扫（自写脚本字节级跑全库）+ git show/log 取证 + Grep 任务单原文行号定位，无「未看到=不存在」类推断；33 卡修复抽验 4 张为 git show 直读 diff。
 
