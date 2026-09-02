@@ -1,0 +1,18 @@
+#629 收尾完成，四步全部闭环：
+
+**① 核验（全部实测通过）**
+- 两 skill 目录完整：`research-explosion-five-step/` + `research-digging-approach/` 各含 SKILL.md + manifest.yaml；frontmatter 齐（author=老顽童 / status=draft / reviewed_by=待审，写审分离合规）
+- research-core 第一层已改：SKILL.md v1.0→v1.1，四类型判定表（深→挖掘式/高→系统式/宽→爆炸式/动态→自动式）+ 分型规则 + When NOT 全在，author 行注明 #629
+- 三写一致：frontmatter / manifest / INDEX.md（#49、#51）同源
+- 入仓状态：vault backup e7e617b77（04:55:43）含全部交付物，git status 零脏文件
+- 路由盲测记录在 `60_feedback/diagnosis/盲测_20260903_research-routing-four-types.md`，8/8 通过
+
+**② 五字段执行报告**——已落任务单，如实区分「前实例产出」与「本实例核验」（本实例不重做内容），含验证分层声明（L1/L2/L3）
+
+**③ complete 提审**——过程中踩一坑：`complete 629` 短号报「不在队列中」，读源码定位根因=find_task 只做完整 task_id 精确匹配（展示层 #N 短号不可回投为输入），换完整 ID 后一次通过；交付物门禁 2 路径全过。L9 双验证过：队列行 + 任务单 frontmatter 均 `pending_review`，等欧阳锋终审
+
+**④ 落盘**——todos 收尾行（06:22）+ Truman 11 章复盘追加 daily-context 第 3 场 + 保存自检 **🟡 B级**（归档+镜像完成）
+
+**关键决策记录**：盲测 8 用例未复跑（「不重做内容」边界）；complete 短号失败后读源码定位而非瞎试 --force；接手死者工作把「内容判断」切给核验、「机械流转」才执行。
+
+**待动作**：欧阳锋终审 → 通过后 skills-assistant 过 darwin-skill 9 维门禁 + 挂载（裁定动作 5 口径）。收工。
