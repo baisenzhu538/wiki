@@ -1,0 +1,15 @@
+name: research-digging-approach
+version: 1.0.0
+author: 老顽童（#629 行为化生产）
+adapted_from: tool-yitang-research-exhaust-means
+description: "挖掘式调研流程——单点关键情报任务的穷尽手段流程：先判值不值得挖（决策重要性×手段层次矩阵）→单点狙击三步法锁定目标→穷尽手段五层升级（公开→半公开→专家→逆向→社会工程，合规红线内置）→交叉验证+全程记录。触发：尽调、竞对核心数据、单点验证、水下情报、这个数必须拿到、深挖一个点。When NOT：简单查询/紧急决策/成本过高/法律风险/道德风险；要建全景认知→research-explosion-five-step；复杂决策→OSCAR。"
+scope: shared
+trigger:
+  natural_language:
+    - 尽调、竞品真实成本、水下情报、内部数据、拿不到的信息
+    - 单点验证、验证核心假设、这个数必须拿到、关键情报
+    - 深挖一个点、单点狙击、重点核实
+适用agent:
+  - 全员（research-core 第一层挖掘式路由线，基础能力层语义）
+changelog:
+  - "2026-09-03 #629 初始生产：tool-yitang-research-exhaust-means（穷尽手段五层+手段选择矩阵）+ tool-yitang-research-single-point-sniper（三步法）流程化；合规红线（第五层默认不启用）与升级判据显式编码；路由线挂 research-core 第一层 A 四类型判定（深）"

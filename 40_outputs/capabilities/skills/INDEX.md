@@ -1,6 +1,6 @@
 # Skills 目录索引（INDEX）
 
-> #588 扫描生成物（生成时间 2026-09-02 05:40，共 76 个 skill）。
+> #588 扫描生成物（生成时间 2026-09-03 04:48，共 78 个 skill）。
 > **真相源 = 各 skill 的 SKILL.md frontmatter**；本文件是生成物，勿手改——
 > 新增/下架 skill 后重跑 `python 40_outputs/code/scripts/scan_skills_registry.py` 刷新。
 > 挂载现状对照见同目录 `MOUNT-MATRIX.md`；登记/维护归 Skills 助理（#587 分工表）。
@@ -53,36 +53,38 @@
 | 44 | `research` | 商业调研入口（已并入 research-core 统一入口，本卡为兼容薄壳——加载 research-core 获取三层完整路由：OSCAR 意图路由→核心纪律 | 商业调研；调研入口；行业分析竞品分析；帮我查一下 | business-research-skill-oscar-13-weapon-system | shared/research | agent-spec-wangyuyan-orchestrator |
 | 45 | `research-alt-data` | 【research-core 武器库·替代数据】替代数据调研——从免费层到百万级，按预算分级推荐数据源 | 替代数据调研；按预算选数据源；免费到百万级数据源；另类数据 | （自建，无来源卡） | shared/research-alt-data | agent-spec-wangyuyan-orchestrator |
 | 46 | `research-ci-framework` | 【research-core 武器库·CI情报】CI竞争情报系统——Define→Gather→Analyze→Implement持续循环 | 竞争情报；CI情报系统；竞品持续监控；Define Gather Analyze Implement | （自建，无来源卡） | shared/research-ci-framework | agent-spec-wangyuyan-orchestrator |
-| 47 | `research-core` | 统一调研入口（全 agent 基础能力层，老朱 09-02 拍板）——任何调研/查证/深挖/情报任务先走本入口：第一层 OSCAR 意图路由→第二层核心纪律（交 | 调研、帮我查、分析一下、做个调研、尽调；行业分析、竞品分析、市场研究、这个公司怎么样、这个赛道；验证断言、查证、核实、fact check、数据靠不靠谱、验证这个说法、这个说法靠不靠谱、数据核验；深挖、深度分析、风险画像、帮我深挖… | business-research-skill-oscar-13-weapon-system | shared/research-core | agent-spec-duanwangye-publisher、agent-spec-fengqingyang-observer、agent-spec-hongqigong-multimodal、agent-spec-huangyaoshi-builder、agent-spec-laowantong-producer、agent-spec-ouyangfeng-reviewer、agent-spec-skills-assistant、agent-spec-wangyuyan-orchestrator、agent-spec-zhu-ai-coach、agent-spec-zhu-boss、agent-basic-skills-coach、coaching-leadership-assistant、coaching-leadership-coach、hongqigong、laowantong、meeting-assistant、ouyangfeng、research-explosion-partner、sales-dialogue-assistant、skills-assistant、wangyuyan |
+| 47 | `research-core` | 统一调研入口（全 agent 基础能力层，老朱 09-02 拍板）——任何调研/查证/深挖/情报任务先走本入口：第一层判定路由（A 四类型分型：深→挖掘式/高→ | 调研、帮我查、分析一下、做个调研、尽调；行业分析、竞品分析、市场研究、这个公司怎么样、这个赛道；验证断言、查证、核实、fact check、数据靠不靠谱、验证这个说法、这个说法靠不靠谱、数据核验；深挖、深度分析、风险画像、帮我深挖… | business-research-skill-oscar-13-weapon-system | shared/research-core | agent-spec-duanwangye-publisher、agent-spec-fengqingyang-observer、agent-spec-hongqigong-multimodal、agent-spec-huangyaoshi-builder、agent-spec-laowantong-producer、agent-spec-ouyangfeng-reviewer、agent-spec-skills-assistant、agent-spec-wangyuyan-orchestrator、agent-spec-zhu-ai-coach、agent-spec-zhu-boss、agent-basic-skills-coach、coaching-leadership-assistant、coaching-leadership-coach、hongqigong、laowantong、meeting-assistant、ouyangfeng、research-explosion-partner、sales-dialogue-assistant、skills-assistant、wangyuyan |
 | 48 | `research-cross-validation` | 【research-core 纪律层·交叉验证】调研交叉验证——六层验证框架+多重身份验证，每条核心结论≥2个独立来源 | 调研交叉验证；六层验证框架；结论至少两个独立来源；数据交叉核实 | （自建，无来源卡） | shared/research-cross-validation | 王语嫣、欧阳锋、agent-spec-wangyuyan-orchestrator |
-| 49 | `research-expert-interview` | 【research-core 武器库·专家访谈】专家访谈调研——黄金十步法，2小时内获取行业共识 | 专家访谈；黄金十步法访谈；2小时获取行业共识；约专家怎么聊 | （自建，无来源卡） | shared/research-expert-interview | 王语嫣、agent-spec-wangyuyan-orchestrator |
-| 50 | `research-financial-report` | 【research-core 武器库·财报】上市公司财报/招股书深度解读——基于一堂方法论+Doris行业报告体系 | 财报解读；招股书分析；上市公司财报深挖；财报调研 | （自建，无来源卡） | shared/research-financial-report | agent-spec-wangyuyan-orchestrator |
-| 51 | `research-google-dorking` | 【research-core 武器库·Dorking/域名情报】Google Dorking高级搜索+DNS/SSL域名情报——零成本挖出竞对隐藏信息 | Google Dorking；高级搜索语法；域名情报DNS SSL；挖竞对隐藏信息 | （自建，无来源卡） | shared/research-google-dorking | agent-spec-wangyuyan-orchestrator |
-| 52 | `research-industry-report` | 【research-core 武器库·行业报告】行业报告调研——Doris四步法+搜索七技，7天快速建立行业认知 | 行业报告调研；Doris四步法；7天建立行业认知；行业研究 | （自建，无来源卡） | shared/research-industry-report | agent-spec-wangyuyan-orchestrator |
-| 53 | `research-media-verification` | 【research-core 武器库·媒体验证】OSINT媒体验证链——反向图片搜索→元数据提取→时间/天气/阴影验证 | 媒体验证；反向图片搜索；OSINT图片视频核实；元数据提取验证 | （自建，无来源卡） | shared/research-media-verification | agent-spec-wangyuyan-orchestrator |
-| 54 | `research-multi-agent` | 【research-core 武器库·多Agent】多Agent协作调研——Supervisor/Swarm/Pipeline/Hybrid四种架构 | 多Agent协作调研；Supervisor Swarm Pipeline Hybrid；调研多智能体架构；agent组队做调研 | （自建，无来源卡） | shared/research-multi-agent | agent-spec-wangyuyan-orchestrator |
-| 55 | `research-osint` | 【research-core 武器库·OSINT】OSINT开源情报工具链——SpiderFoot/Maltego/Shodan/Sherlock/Waybac | OSINT开源情报；SpiderFoot Maltego Shodan；开源情报工具链；公开信息挖情报 | （自建，无来源卡） | shared/research-osint | agent-spec-wangyuyan-orchestrator |
-| 56 | `research-quality-gate` | 【research-core 纪律层·质量门禁】调研质量自检——六维门禁，提交前的最后一道关 | 调研质量自检；六维门禁；提交前最后一道关；调研报告质检 | （自建，无来源卡） | shared/research-quality-gate | agent-spec-wangyuyan-orchestrator |
-| 57 | `research-sats` | 【research-core 纪律层·深挖引擎】CIA SATs结构化分析技术——Key Assumptions Check/Devils Advocacy/R | CIA SATs；结构化分析技术；关键假设检验；魔鬼代言人红队 | （自建，无来源卡） | shared/research-sats | agent-spec-wangyuyan-orchestrator |
-| 58 | `research-web-scraping` | 【research-core 武器库·爬虫】全网爬虫调研——10大工具+合规红线，对应一堂武器库逆向数据分析板块 | 全网爬虫调研；爬虫工具选型；爬虫合规红线；逆向数据分析 | （自建，无来源卡） | shared/research-web-scraping | agent-spec-wangyuyan-orchestrator |
-| 59 | `self-evolution` | Self-iterating evolution skill — periodic memory/self-check, error-to-skill闭环, u | 自我迭代；定期记忆自检；error-to-skill闭环；用户偏好自动学习 | （自建，无来源卡） | shared/self-evolution | 黄药师、欧阳锋 |
-| 60 | `six-layer-cross-validation` | 【research-core 纪律层·交叉验证】六层交叉验证——从来源/时间/逻辑/数据/反例/行动六维度检验信息可信度 | 六层交叉验证；来源时间逻辑数据反例行动；信息可信度检验；六维验证信息 | （自建，无来源卡） | shared/six-layer-cross-validation | 欧阳锋、agent-spec-ouyangfeng-reviewer、agent-spec-wangyuyan-orchestrator |
-| 61 | `skill-architecture-design` | 用 Anthropic 官方范式设计 skill 的架构：先评任务自由度（悬崖窄桥→外挂脚本/开阔平原→文字引导），再按选型口诀定范式，按四层模块架构（身份加载 | 设计新skill的架构、SKILL.md怎么组织；skill主文件膨胀、触发不准、description写法；评估skill质量、触发准确率、采纳率；自由度匹配、架构范式选型… | method-anthropic-skill-design-patterns | shared/skill-architecture-design | （无） |
-| 62 | `stage-1-diagnose` | 域诊断——素材验收+置信度标记+盲区识别+任务清单生成（王语嫣模式） | 域诊断；素材验收置信度标记；盲区识别；新域第一步诊断 | （自建，无来源卡） | shared/stage-1-diagnose | 王语嫣、research-explosion-partner |
-| 63 | `stage-2-skeleton` | 域骨架建设——从口述稿提取框架卡+概念卡+域索引入口卡（老顽童模式） | 域骨架建设；口述稿提取框架卡概念卡；域索引入口卡；新域第二步骨架 | （自建，无来源卡） | shared/stage-2-skeleton | 王语嫣 |
-| 64 | `stage-3-tooling` | 域工具化——Tool卡+Claude Code Skill+AI提示词（老顽童+黄药师模式） | 域工具化；Tool卡生产；域内Skill和提示词；新域第三步工具 | （自建，无来源卡） | shared/stage-3-tooling | 王语嫣 |
-| 65 | `stage-4-validate` | 域验证——Agent用域内卡片执行真实任务，记录失败，补缺修正（DDC模式） | 域验证；用域内卡片执行真实任务；记录失败补缺修正；新域第四步验证 | （自建，无来源卡） | shared/stage-4-validate | 王语嫣 |
-| 66 | `stage-5-assetize` | 域资产化——Workflow串联+模板固化+域索引更新+发布（全厂模式） | 域资产化；Workflow串联；模板固化发布；新域第五步收口 | （自建，无来源卡） | shared/stage-5-assetize | 王语嫣 |
-| 67 | `strategy` | 企业战略总入口——冉鹏30年经验，判断阶段+路由子Skill | 企业战略；战略总入口；战略阶段判断；冉鹏战略方法论 | （自建，无来源卡） | shared/strategy | （无） |
-| 68 | `strategy-brm` | BRM战略框架——差距分析→战略规划→执行，冉鹏方法论核心闭环 | BRM战略框架；差距分析；战略规划到执行；战略闭环 | （自建，无来源卡） | shared/strategy-brm | （无） |
-| 69 | `strategy-diagnose` | 战略九问题诊断——方向/目标/定位/路径/共识/组织/能力/资源/机制 | 战略九问题；战略诊断；方向目标定位路径共识；战略组织能力资源机制 | （自建，无来源卡） | shared/strategy-diagnose | （无） |
-| 70 | `strategy-lifecycle` | 战略六阶段模型——初创→吃饱→吃好→吃撑→吃吐，不同阶段不同打法 | 战略六阶段；初创到吃吐；不同阶段不同打法；企业生命周期战略 | （自建，无来源卡） | shared/strategy-lifecycle | （无） |
-| 71 | `strategy-workshop` | 战略会议准备包——基于冉鹏30年方法论，输出议程+预诊断+六要素工作坊模板+执行方针 | 战略会议准备；战略工作坊；会议议程预诊断；六要素工作坊模板 | （自建，无来源卡） | shared/strategy-workshop | （无） |
-| 72 | `task-orchestration` | 任务编排者工作台——分诊排序、返工轮次护栏、首交通过率跟踪、队列健康例行扫描。触发词：排任务、入队、队列排序、分诊、这个任务什么优先级、返工几轮了、首交率、队列 | 排任务；入队；队列排序分诊；这个任务什么优先级… | （自建，无来源卡） | shared/task-orchestration | 王语嫣 |
-| 73 | `visual-asset-analysis` | Unified visual asset analysis pipeline. Routes images through OCR (text extracti | 分析这张图；跑视觉分析；VA this image；图片截图信息图分析 | （自建，无来源卡） | shared/visual-asset-analysis | 洪七公 |
-| 74 | `visual-polish` | Polish AI-generated visual assets to remove AI-feel and template-feel. The visua | 图去AI味；visual polish；这个图太AI了；视觉资产润色 | （自建，无来源卡） | shared/visual-polish | 洪七公 |
-| 75 | `vlm-image-describe-pipeline` | VLM 视觉语言模型批量识图管线。双引擎架构（MiniMax M3 主力 + SiliconFlow Qwen-VL 备选），将目录下所有图片批量转为结构化 J | VLM批量识图；图片批量转描述；vlm识图管线；图片目录批量入库 | （自建，无来源卡） | shared/vlm-image-describe-pipeline | 洪七公、agent-spec-hongqigong-multimodal |
-| 76 | `wan-video-generation` | Wan 2.2 开源 AI 视频生成。阿里巴巴出品，Apache 2.0 完全商用。2026年开源视频质量之王——文本/图片→5秒高清视频，支持 GGUF 量化 | AI视频生成；Wan 2.2；文本图片转视频；开源视频生成 | （自建，无来源卡） | shared/wan-video-generation | 洪七公、agent-spec-hongqigong-multimodal |
+| 49 | `research-digging-approach` | 【research-core 第一层·挖掘式路由线】挖掘式调研流程行为化——面对单点关键情报任务（"这个信息太重要了必须拿到"），按流程执行：先判值不值得挖（决 | 尽调、竞品真实成本、水下情报、内部数据、拿不到的信息；单点验证、验证核心假设、这个数必须拿到、关键情报；深挖一个点、单点狙击、重点核实 | tool-yitang-research-exhaust-means | shared/research-digging-approach | （无） |
+| 50 | `research-expert-interview` | 【research-core 武器库·专家访谈】专家访谈调研——黄金十步法，2小时内获取行业共识 | 专家访谈；黄金十步法访谈；2小时获取行业共识；约专家怎么聊 | （自建，无来源卡） | shared/research-expert-interview | 王语嫣、agent-spec-wangyuyan-orchestrator |
+| 51 | `research-explosion-five-step` | 【research-core 第一层·爆炸式路由线】爆炸式调研五步法行为化——面对新领域/案例建模任务（"完全不了解、要快速建认知"），按五步执行：定目标→收缩 | 新领域调研、调研XX领域、进入新赛道建认知、快速建认知；案例建模、找规律、建框架、调研XX做成策略集/方向集；饱和式收集、案例大爆炸、信息五花八门、盲人摸象；方向盘点、私有库调研、这个领域有哪些 | framework-baozhashidiaochan-five-step | shared/research-explosion-five-step | （无） |
+| 52 | `research-financial-report` | 【research-core 武器库·财报】上市公司财报/招股书深度解读——基于一堂方法论+Doris行业报告体系 | 财报解读；招股书分析；上市公司财报深挖；财报调研 | （自建，无来源卡） | shared/research-financial-report | agent-spec-wangyuyan-orchestrator |
+| 53 | `research-google-dorking` | 【research-core 武器库·Dorking/域名情报】Google Dorking高级搜索+DNS/SSL域名情报——零成本挖出竞对隐藏信息 | Google Dorking；高级搜索语法；域名情报DNS SSL；挖竞对隐藏信息 | （自建，无来源卡） | shared/research-google-dorking | agent-spec-wangyuyan-orchestrator |
+| 54 | `research-industry-report` | 【research-core 武器库·行业报告】行业报告调研——Doris四步法+搜索七技，7天快速建立行业认知 | 行业报告调研；Doris四步法；7天建立行业认知；行业研究 | （自建，无来源卡） | shared/research-industry-report | agent-spec-wangyuyan-orchestrator |
+| 55 | `research-media-verification` | 【research-core 武器库·媒体验证】OSINT媒体验证链——反向图片搜索→元数据提取→时间/天气/阴影验证 | 媒体验证；反向图片搜索；OSINT图片视频核实；元数据提取验证 | （自建，无来源卡） | shared/research-media-verification | agent-spec-wangyuyan-orchestrator |
+| 56 | `research-multi-agent` | 【research-core 武器库·多Agent】多Agent协作调研——Supervisor/Swarm/Pipeline/Hybrid四种架构 | 多Agent协作调研；Supervisor Swarm Pipeline Hybrid；调研多智能体架构；agent组队做调研 | （自建，无来源卡） | shared/research-multi-agent | agent-spec-wangyuyan-orchestrator |
+| 57 | `research-osint` | 【research-core 武器库·OSINT】OSINT开源情报工具链——SpiderFoot/Maltego/Shodan/Sherlock/Waybac | OSINT开源情报；SpiderFoot Maltego Shodan；开源情报工具链；公开信息挖情报 | （自建，无来源卡） | shared/research-osint | agent-spec-wangyuyan-orchestrator |
+| 58 | `research-quality-gate` | 【research-core 纪律层·质量门禁】调研质量自检——六维门禁，提交前的最后一道关 | 调研质量自检；六维门禁；提交前最后一道关；调研报告质检 | （自建，无来源卡） | shared/research-quality-gate | agent-spec-wangyuyan-orchestrator |
+| 59 | `research-sats` | 【research-core 纪律层·深挖引擎】CIA SATs结构化分析技术——Key Assumptions Check/Devils Advocacy/R | CIA SATs；结构化分析技术；关键假设检验；魔鬼代言人红队 | （自建，无来源卡） | shared/research-sats | agent-spec-wangyuyan-orchestrator |
+| 60 | `research-web-scraping` | 【research-core 武器库·爬虫】全网爬虫调研——10大工具+合规红线，对应一堂武器库逆向数据分析板块 | 全网爬虫调研；爬虫工具选型；爬虫合规红线；逆向数据分析 | （自建，无来源卡） | shared/research-web-scraping | agent-spec-wangyuyan-orchestrator |
+| 61 | `self-evolution` | Self-iterating evolution skill — periodic memory/self-check, error-to-skill闭环, u | 自我迭代；定期记忆自检；error-to-skill闭环；用户偏好自动学习 | （自建，无来源卡） | shared/self-evolution | 黄药师、欧阳锋 |
+| 62 | `six-layer-cross-validation` | 【research-core 纪律层·交叉验证】六层交叉验证——从来源/时间/逻辑/数据/反例/行动六维度检验信息可信度 | 六层交叉验证；来源时间逻辑数据反例行动；信息可信度检验；六维验证信息 | （自建，无来源卡） | shared/six-layer-cross-validation | 欧阳锋、agent-spec-ouyangfeng-reviewer、agent-spec-wangyuyan-orchestrator |
+| 63 | `skill-architecture-design` | 用 Anthropic 官方范式设计 skill 的架构：先评任务自由度（悬崖窄桥→外挂脚本/开阔平原→文字引导），再按选型口诀定范式，按四层模块架构（身份加载 | 设计新skill的架构、SKILL.md怎么组织；skill主文件膨胀、触发不准、description写法；评估skill质量、触发准确率、采纳率；自由度匹配、架构范式选型… | method-anthropic-skill-design-patterns | shared/skill-architecture-design | （无） |
+| 64 | `stage-1-diagnose` | 域诊断——素材验收+置信度标记+盲区识别+任务清单生成（王语嫣模式） | 域诊断；素材验收置信度标记；盲区识别；新域第一步诊断 | （自建，无来源卡） | shared/stage-1-diagnose | 王语嫣、research-explosion-partner |
+| 65 | `stage-2-skeleton` | 域骨架建设——从口述稿提取框架卡+概念卡+域索引入口卡（老顽童模式） | 域骨架建设；口述稿提取框架卡概念卡；域索引入口卡；新域第二步骨架 | （自建，无来源卡） | shared/stage-2-skeleton | 王语嫣 |
+| 66 | `stage-3-tooling` | 域工具化——Tool卡+Claude Code Skill+AI提示词（老顽童+黄药师模式） | 域工具化；Tool卡生产；域内Skill和提示词；新域第三步工具 | （自建，无来源卡） | shared/stage-3-tooling | 王语嫣 |
+| 67 | `stage-4-validate` | 域验证——Agent用域内卡片执行真实任务，记录失败，补缺修正（DDC模式） | 域验证；用域内卡片执行真实任务；记录失败补缺修正；新域第四步验证 | （自建，无来源卡） | shared/stage-4-validate | 王语嫣 |
+| 68 | `stage-5-assetize` | 域资产化——Workflow串联+模板固化+域索引更新+发布（全厂模式） | 域资产化；Workflow串联；模板固化发布；新域第五步收口 | （自建，无来源卡） | shared/stage-5-assetize | 王语嫣 |
+| 69 | `strategy` | 企业战略总入口——冉鹏30年经验，判断阶段+路由子Skill | 企业战略；战略总入口；战略阶段判断；冉鹏战略方法论 | （自建，无来源卡） | shared/strategy | （无） |
+| 70 | `strategy-brm` | BRM战略框架——差距分析→战略规划→执行，冉鹏方法论核心闭环 | BRM战略框架；差距分析；战略规划到执行；战略闭环 | （自建，无来源卡） | shared/strategy-brm | （无） |
+| 71 | `strategy-diagnose` | 战略九问题诊断——方向/目标/定位/路径/共识/组织/能力/资源/机制 | 战略九问题；战略诊断；方向目标定位路径共识；战略组织能力资源机制 | （自建，无来源卡） | shared/strategy-diagnose | （无） |
+| 72 | `strategy-lifecycle` | 战略六阶段模型——初创→吃饱→吃好→吃撑→吃吐，不同阶段不同打法 | 战略六阶段；初创到吃吐；不同阶段不同打法；企业生命周期战略 | （自建，无来源卡） | shared/strategy-lifecycle | （无） |
+| 73 | `strategy-workshop` | 战略会议准备包——基于冉鹏30年方法论，输出议程+预诊断+六要素工作坊模板+执行方针 | 战略会议准备；战略工作坊；会议议程预诊断；六要素工作坊模板 | （自建，无来源卡） | shared/strategy-workshop | （无） |
+| 74 | `task-orchestration` | 任务编排者工作台——分诊排序、返工轮次护栏、首交通过率跟踪、队列健康例行扫描。触发词：排任务、入队、队列排序、分诊、这个任务什么优先级、返工几轮了、首交率、队列 | 排任务；入队；队列排序分诊；这个任务什么优先级… | （自建，无来源卡） | shared/task-orchestration | 王语嫣 |
+| 75 | `visual-asset-analysis` | Unified visual asset analysis pipeline. Routes images through OCR (text extracti | 分析这张图；跑视觉分析；VA this image；图片截图信息图分析 | （自建，无来源卡） | shared/visual-asset-analysis | 洪七公 |
+| 76 | `visual-polish` | Polish AI-generated visual assets to remove AI-feel and template-feel. The visua | 图去AI味；visual polish；这个图太AI了；视觉资产润色 | （自建，无来源卡） | shared/visual-polish | 洪七公 |
+| 77 | `vlm-image-describe-pipeline` | VLM 视觉语言模型批量识图管线。双引擎架构（MiniMax M3 主力 + SiliconFlow Qwen-VL 备选），将目录下所有图片批量转为结构化 J | VLM批量识图；图片批量转描述；vlm识图管线；图片目录批量入库 | （自建，无来源卡） | shared/vlm-image-describe-pipeline | 洪七公、agent-spec-hongqigong-multimodal |
+| 78 | `wan-video-generation` | Wan 2.2 开源 AI 视频生成。阿里巴巴出品，Apache 2.0 完全商用。2026年开源视频质量之王——文本/图片→5秒高清视频，支持 GGUF 量化 | AI视频生成；Wan 2.2；文本图片转视频；开源视频生成 | （自建，无来源卡） | shared/wan-video-generation | 洪七公、agent-spec-hongqigong-multimodal |
 
 ## 待补登记（缺口清单，Skills 助理维护面）
 - 缺 trigger.natural_language：0 个（触发词路由不可用，建议按 anti-ai-bs-three-moves manifest 先例补）

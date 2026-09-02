@@ -1,17 +1,19 @@
 # Skill 健康雷达（SKILL-HEALTH）
 
-> #598 扫描生成物（生成时间 2026-09-02 05:40，共 76 个 skill）。
+> #598 扫描生成物（生成时间 2026-09-03 04:48，共 78 个 skill）。
 > 8 维口径 = 建议书_20260901_skill健康度勘察与检测方法论 §三；溯源 darwin-skill 9 维 rubric + skill-architecture-design 五维量化。
 > 档位：≥6/8 🟢 健康；4-5/8 🟡 亚健康（补短板即可）；≤3/8 🔴 不健康（路由/内容至少一项阻塞）。
 > **结构层 triage，不替代实测**（test-prompts 效果实测=建议书动作8 缓议）；生成物勿手改，
 > 重跑 `python 40_outputs/code/scripts/scan_skills_registry.py` 刷新。
 
-**总览：🟢 7 / 🟡 45 / 🔴 24（共 76）**
+**总览：🟢 9 / 🟡 45 / 🔴 24（共 78）**
 
 | skill | 档位 | 得分 | A触发 | B描述 | C失败 | D边界 | E来源 | F三写 | G克制 | H步骤 | 主文件行数 |
 |:--|:--|--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|--:|
 | `nine-character-ai-collaboration` | 🟢 | 8/8 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 90 |
-| `research-core` | 🟢 | 8/8 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 204 |
+| `research-core` | 🟢 | 8/8 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 229 |
+| `research-digging-approach` | 🟢 | 8/8 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 146 |
+| `research-explosion-five-step` | 🟢 | 8/8 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 130 |
 | `skill-architecture-design` | 🟢 | 8/8 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 103 |
 | `agent-self-iteration` | 🟢 | 6/8 | ✅ | ❌ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | 125 |
 | `kdo-self-attack` | 🟢 | 6/8 | ✅ | ❌ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | 170 |

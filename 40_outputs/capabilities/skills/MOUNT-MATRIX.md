@@ -1,6 +1,6 @@
 # Agent × Skill 挂载矩阵（MOUNT-MATRIX）
 
-> #588 扫描生成物（生成时间 2026-09-02 05:40）。**登记制：文件引用即挂载**（含历史引用，
+> #588 扫描生成物（生成时间 2026-09-03 04:48）。**登记制：文件引用即挂载**（含历史引用，
 > 与「实际运行时可用」可能有出入——引用面是登记真相源）。生成物勿手改，
 > 重跑 `python 40_outputs/code/scripts/scan_skills_registry.py` 刷新；挂载变更走 #587 Skills 助理。
 
@@ -110,6 +110,8 @@
 | `five-step-product` | 无主 | （无） | 王语嫣 |
 | `hermes-multi-bot-feishu-setup` | 无主 | （无） | 黄药师 |
 | `nine-character-ai-collaboration` | 无主 | （无） | 待议 |
+| `research-digging-approach` | 无主 | （无） | 王语嫣 |
+| `research-explosion-five-step` | 无主 | （无） | 王语嫣 |
 | `skill-architecture-design` | 无主 | （无） | 洪七公 |
 | `strategy` | 无主 | （无） | 王语嫣 |
 | `strategy-brm` | 无主 | （无） | 王语嫣 |
@@ -121,7 +123,7 @@
 
 - ℹ️ 角色路由另引用 3 个**根目录 legacy skill**（不在 shared/ 73 登记面，未计入上表）：`anti-ai-bs-three-moves`、`author-targeted-collect`、`distill-own-skill`——是否迁入 shared 归 Skills 助理裁定
 
-- **无主 skill：31 个**（任何登记处零引用——先判定归属或明确废弃）
+- **无主 skill：33 个**（任何登记处零引用——先判定归属或明确废弃）
 - **单点挂载：12 个**（仅 1 单元引用——评估是否值得推广挂载）
 - **已挂载：33 个**
 
@@ -152,6 +154,8 @@
 - `five-step-product` → 建议 王语嫣
 - `hermes-multi-bot-feishu-setup` → 建议 黄药师
 - `nine-character-ai-collaboration` → 建议 待议
+- `research-digging-approach` → 建议 王语嫣
+- `research-explosion-five-step` → 建议 王语嫣
 - `skill-architecture-design` → 建议 洪七公
 - `strategy` → 建议 王语嫣
 - `strategy-brm` → 建议 王语嫣

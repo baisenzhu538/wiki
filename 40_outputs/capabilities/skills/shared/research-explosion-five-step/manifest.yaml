@@ -1,0 +1,16 @@
+name: research-explosion-five-step
+version: 1.0.0
+author: 老顽童（#629 行为化生产）
+adapted_from: framework-baozhashidiaochan-five-step
+description: "爆炸式调研五步法——新领域/案例建模任务的饱和覆盖建模流程：定目标→收缩范围→搜索⇄建模循环（单开文档+饱和自证）→终止判断（规律基本稳定体系）→交付做厚（分层/讲香/DataPack）。触发：新领域进入、案例建模、调研XX领域建认知、饱和式收集、找规律建框架、盲人摸象。When NOT：单一信息点→research-digging-approach；推理决策→OSCAR；时间极短不用；线下为主不用。"
+scope: shared
+trigger:
+  natural_language:
+    - 新领域调研、调研XX领域、进入新赛道建认知、快速建认知
+    - 案例建模、找规律、建框架、调研XX做成策略集/方向集
+    - 饱和式收集、案例大爆炸、信息五花八门、盲人摸象
+    - 方向盘点、私有库调研、这个领域有哪些
+适用agent:
+  - 全员（research-core 第一层爆炸式路由线，基础能力层语义）
+changelog:
+  - "2026-09-03 #629 初始生产：framework-baozhashidiaochan-five-step + R型五状态机 + 饱和覆盖/开文档/饱和自证/九字诀行为化；路由线挂 research-core 第一层 A 四类型判定（宽）"
