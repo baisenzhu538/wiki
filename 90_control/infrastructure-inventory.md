@@ -22,7 +22,7 @@ audience: 全体 agent
 |:--|--:|:--|:--|
 | 门禁/流转族 | 10 | 🟢 | queue_transition/queue_gate/audit/pre_submit/health-check 等 |
 | 巡检/检查族 | 12 | 🟢 | check-*/scan-*（daily 自动） |
-| 工具族 | 20 | 🟢 | conveyor_probe/胶囊/采集/lint 工具（kdo-tools 核心） |
+| 工具族 | 42 | 🟢 | conveyor_probe/胶囊/采集/lint/备份/拉起 工具（kdo-tools + 90_control/scripts 核心常驻，#627 补登记后重计） |
 | 一次性修复批 | 28 | 🟡 | fix-*/repair-*（历史遗留待归档，#488 只标注不清理） |
 | 服务 | 2 | 🟢 | hermes gateway（多实例）/ wx_video_download |
 | 计划任务 | 12 | 🟢 | conveyor(×2)/inbox-watch(×2)/role-clock/l1-capture/l1-archive/health-daily/health-check/quality-metrics/daily-audit-digest/wechat-link-monitor——**08-27 全部转 S4U 会话 0 无窗运行**（原 Interactive 每次触发弹黑框干扰桌面，老朱反馈后王语嫣转换+实跑验证 exit 0；今后新建计划任务硬纪律：LogonType 必须 S4U，禁 Interactive） |
@@ -101,6 +101,11 @@ audience: 全体 agent
 | collect_wechat / wechat_knowledge / wechat_link_monitor / wechat_promote | kdo-tools/wechat_*.py | 视频号偶遇采集管线+转正（#516 去重键补 _processed 隔离区含 regen 变体） | 08-25 4 例 passed | 计划任务 wechat-link-monitor |
 | daily_review | kdo-tools/daily_review.py + kdo-daily-review.cmd + kdo-daily-review.xml | 每日复盘定期任务化（#623 老朱 09-02 直令：三角色 headless Truman 复盘拉起+空班豁免 F-062；指令模板内嵌、禁编造诚实空班） | 09-03 首跑三实例拉起 rc=0 | 计划任务 kdo-daily-review（每日 23:37 S4U）/kimi-headless-launch/daily-context-save |
 | skill_crystallize / skill_lifecycle / distill-own-skill | kdo-tools/skill_*.py | 技能结晶/生命周期 | 按需 | skills |
+| vault_git_backup | kdo-tools/vault_git_backup.py | vault git 快照备份（#607：系统级 schtasks 30min 节拍，全树变更才 commit；替代会话级 cron；#625 门禁第二层——>100MB 移出暂存硬拦、>15MB WARNING 台账） | 09-03 00:20/00:50/01:20 三拍连实（logs/vault-git-backup.log） | 计划任务 kdo-vault-git-backup/90_control/large-file-gate.log（未触发=无记录） |
+| vault-integrity-check | 90_control/scripts/vault-integrity-check.py | vault 完整性自检（#592 R3：工作树+bundle mtime/verify+异机副本三查；异常→gate-blocked #472 格式） | 09-02 亲跑三查 OK exit 0；挂 kdo-health-daily 每日 02:07 | gate-blocked.log/run-kdo-health.cmd/计划任务 kdo-wiki-bundle-backup |
+| wiki-vault-restore | 90_control/scripts/wiki-vault-restore.py | 恢复演练脚本（#592 R2：bundle verify→clone→文件数+HEAD+git status 对照；只读源 vault） | 09-01 演练 24,896 文件恢复 dirty=0 | D:\KDO-memory\wiki-bundle-*.bundle/计划任务 kdo-wiki-bundle-backup |
+| clock_watchdog | 90_control/scripts/clock_watchdog.py | 王语嫣值守 no_agent 看门狗（2026-09-01 老朱拍板选①：无事 SILENT exit 0/有事飞书简报/崩溃非 0；只探测不决策，只叫王语嫣） | 09-02 00:12 state 末拍 | 王语嫣时钟（Hermes no_agent 契约）/clock-watchdog-state.json、clock-watchdog-skip.json |
+| kimi-headless-launch | 90_control/scripts/kimi-headless-launch.py | 角色无头拉起器（09-02 老朱直令：王语嫣时钟唯一→拉起角色施工；工具=变量 TOOLS 表登记；DETACHED 后台+logs/headless-&lt;role&gt;-&lt;ts&gt;.log） | 09-03 01:09~01:13 三实例拉起实证（logs/headless-*） | daily_review/计划任务 kdo-daily-review/role-registry |
 
 ## 3b · 辅助工具族（#488 登记纪律存量补登记，按族）
 
@@ -134,6 +139,7 @@ audience: 全体 agent
 - transcript-index — 口述稿索引
 - transcript-registry — 口述稿注册
 - web_fetch / web_search / collect_wechat / wechat_knowledge / wechat_link_monitor / wechat_promote — 采集检索族（§3 已列，解析别名）
+- transcribe_win — Windows 原生转写（faster-whisper-tiny，wechat-collect 管线 08-31 WSL 迁出——wsl.exe 僵死曾卡 180s+）
 
 **90_control/scripts 辅助族**：
 - audit-kcard-baseline / card_review_checklist / changeset_audit / case-synthesis-check / bulk-generate-case-card — 卡质量辅助

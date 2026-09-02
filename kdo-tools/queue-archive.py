@@ -66,11 +66,16 @@ def _review_strike_date(line: str) -> str | None:
     return f"{m.group(1)}-{int(m.group(2)):02d}-{int(m.group(3)):02d}" if m else None
 
 
-def collect_archive_candidates(lines: list[str], days: int, today: datetime) -> tuple[list[str], list[str]]:
-    """返回 (主表归档行, REVIEW-PENDING 归档行)。纯状态+时间判断，无内容判断（只拦机械项）。"""
+def collect_archive_candidates(lines: list[str], days: int, today: datetime) -> tuple[list[tuple[str, str]], list[tuple[str, str]]]:
+    """返回 (主表归档行, REVIEW-PENDING 归档行)；元素=(原始行, 归月键 YYYY-MM)。
+
+    口径②（#627 王语嫣裁定）：归档命名按被归档任务自身日期归月——主表行=任务单
+    updated_at 月（08 月任务进 08 月文件），划掉行=终审日期月；与运行时刻解耦，
+    跨月补跑不串月。纯状态+时间判断，无内容判断（只拦机械项）。
+    """
     rows = parse_queue(QUEUE_FILE)
     row_map = {r["task_id"]: r["raw"] for r in rows}
-    to_archive: list[str] = []
+    to_archive: list[tuple[str, str]] = []
     for task_id, raw in row_map.items():
         r = next((x for x in rows if x["task_id"] == task_id), None)
         if r is None or r["status"] != "reviewed":
@@ -79,11 +84,11 @@ def collect_archive_candidates(lines: list[str], days: int, today: datetime) -> 
         if upd is None:
             continue  # 任务单缺失/日期不可读 → 保守不归档
         if _older_than(upd, days, today):
-            to_archive.append(raw)
+            to_archive.append((raw, upd[:7]))
 
     # REVIEW-PENDING 划掉行：保留最近 review_days 天
     text = QUEUE_FILE.read_text(encoding="utf-8")
-    review_lines: list[str] = []
+    review_lines: list[tuple[str, str]] = []
     if REVIEW_BEGIN in text and REVIEW_END in text:
         block = text.split(REVIEW_BEGIN)[1].split(REVIEW_END)[0]
         for ln in block.splitlines():
@@ -92,7 +97,7 @@ def collect_archive_candidates(lines: list[str], days: int, today: datetime) -> 
                 if d is None:
                     continue  # 无日期 → 保守保留
                 if _older_than(d, days, today):
-                    review_lines.append(ln)
+                    review_lines.append((ln, d[:7]))
     return to_archive, review_lines
 
 
@@ -111,29 +116,36 @@ def run(dry_run: bool, days: int, review_days: int, max_active: int) -> int:
         return 0
     if dry_run:
         print("\n[dry-run] 将归档主表行（前 5 行预览）:")
-        for ln in main_rows[:5]:
-            print(f"  {ln[:90]}")
+        for raw, month in main_rows[:5]:
+            print(f"  [{month}] {raw[:90]}")
         print(f"[dry-run] 将归档 REVIEW-PENDING 行 {len(review_rows)} 行（前 3 行预览）:")
-        for ln in review_rows[:3]:
-            print(f"  {ln[:90]}")
+        for raw, month in review_rows[:3]:
+            print(f"  [{month}] {raw[:90]}")
         print("\n[dry-run] 不写文件——演练结束")
         return 0
 
-    # 归档文件（按月追加式）
-    month = today.strftime("%Y-%m")
+    # 归档文件按行归月追加式（口径②：被归档任务日期归月——一次运行可落多个月份文件）
+    by_month: dict[str, list[str]] = {}
+    for raw, month in main_rows + review_rows:
+        by_month.setdefault(month, []).append(raw)
     ARCHIVE_DIR.mkdir(parents=True, exist_ok=True)
-    af = ARCHIVE_DIR / f"production-queue-{month}.md"
-    new_block = [f"<!-- 归档 {today:%Y-%m-%d}（#453 queue-archive.py）-->", ""] + main_rows + review_rows + ["", ""]
-    with open(af, "a", encoding="utf-8") as f:
-        f.write("\n".join(new_block))
-    print(f"✅ 归档写入: {af}（+{len(main_rows) + len(review_rows)} 行）")
+    afiles: list[Path] = []
+    for month in sorted(by_month):
+        af = ARCHIVE_DIR / f"production-queue-{month}.md"
+        new_block = [f"<!-- 归档 {today:%Y-%m-%d}（#453 queue-archive.py）-->", ""] + by_month[month] + ["", ""]
+        with open(af, "a", encoding="utf-8") as f:
+            f.write("\n".join(new_block))
+        print(f"✅ 归档写入: {af}（+{len(by_month[month])} 行）")
+        afiles.append(af)
 
     # 主表移除（逐行过滤）+ REVIEW-PENDING 段移除
+    main_raws = [raw for raw, _ in main_rows]
     text = QUEUE_FILE.read_text(encoding="utf-8")
-    keep = [ln for ln in text.splitlines() if ln not in set(main_rows)]
+    keep = [ln for ln in text.splitlines() if ln not in set(main_raws)]
     if REVIEW_BEGIN in text and REVIEW_END in text:
         block = text.split(REVIEW_BEGIN)[1].split(REVIEW_END)[0]
-        keep_lines = [ln for ln in block.splitlines() if ln not in set(review_rows)]
+        review_raws = [raw for raw, _ in review_rows]
+        keep_lines = [ln for ln in block.splitlines() if ln not in set(review_raws)]
         keep = keep[: keep.index(REVIEW_BEGIN) + 1] + keep_lines + keep[keep.index(REVIEW_END):]
     QUEUE_FILE.write_text("\n".join(keep) + "\n", encoding="utf-8")
 
@@ -143,13 +155,14 @@ def run(dry_run: bool, days: int, review_days: int, max_active: int) -> int:
     ok = after == expected
     print(f"对账: 归档后活跃 {after}（期望 {expected}）→ {'✅ 一致' if ok else '❌ 不一致，人工介入'}")
 
-    # git commit（#390 原子化，path-scoped）
+    # git commit（#390 原子化，path-scoped；多个月份文件一并收口）
+    commit_paths = [str(QUEUE_FILE)] + [str(a) for a in afiles]
     try:
-        subprocess.run(["git", "-C", str(WIKI), "add", "--", str(QUEUE_FILE), str(af)],
+        subprocess.run(["git", "-C", str(WIKI), "add", "--", *commit_paths],
                        check=True, capture_output=True, timeout=15)
         subprocess.run(["git", "-C", str(WIKI), "commit", "-m",
                         f"chore(queue): #453 队列归档瘦身（{today:%Y-%m-%d}，主表 -{len(main_rows)} 行）",
-                        "--", str(QUEUE_FILE), str(af)],
+                        "--", *commit_paths],
                        check=True, capture_output=True, timeout=15)
         print("✅ git 已收口（队列+归档文件原子化）")
     except subprocess.CalledProcessError as e:
