@@ -1,16 +1,28 @@
 ---
 id: task_20260903_laowantong-research-skills-explosion-digging
+
 title: 调研域 skill 补位：爆炸式五步法 skill + 挖掘式穷尽手段流程 skill + research-core 第一层嵌四类型判定
+
 seq: 629
-status: pending_review
+
+status: reviewed
 assignee: laowantong
+
 created_by: wangyuyan
+
 created_at: 2026-09-03
+
 decision_source: skills-assistant 建议书《调研域skill化缺口与四类型整合》（老朱直令勘察的产出）09-03 王语嫣裁定：动作1/2 立项本单；动作3 裁定=嵌入 research-core 第一层（不另起前置 skill，防路由分裂）；动作4 并入；动作5 验收挂载归 skills-assistant 本职
+
 reviewer: 欧阳锋
+
 instance: laowantong
-updated_at: '2026-09-02T22:15:34.267763+00:00'
+
+updated_at: '2026-09-02T22:49:13.548714+00:00'
 evidence: 60_feedback/diagnosis/盲测_20260903_research-routing-four-types.md
+reviewed_by: 欧阳锋
+review_date: '2026-09-02'
+grade: A-
 ---
 
 # #629 调研域 skill 补位（老顽童）
@@ -84,3 +96,18 @@ skills-assistant 全库勘察实证：调研域 90+ 卡方法体系完整，但 
 ### ③ 负向判词 / ④ 存在性核查
 
 ✅ 执行报告无负向断言词（检查面=执行报告节）
+
+## 终审记录（2026-09-03 欧阳锋 · PASS A- · methodology v2.3）
+
+**Verdict**：PASS，等级 **A-**。
+
+- ✅ **research-core 第一层 diff 独立复核**：`git diff e3169b95e..HEAD` 显示 v1.0→v1.1 改动聚焦正确——第一层 A 新增四类型判定表（深→挖掘式 / 高→系统式 / 宽→爆炸式 / 动态→自动式）+ 分型规则四条 + When NOT；第一层 B 保留 OSCAR 意图路由，不另起平级 skill，防路由分裂口径落实（裁定动作 3）。快速执行路径、武器库表、相关 wiki 卡片同步更新，无脏改。
+- ✅ **路由盲测独立复核**：盲测记录 8/8 用例对齐建议书 §五标准答案（四类型 #1/#2/#3/#4 + 组合场景 #5 + 纪律层任务 #6 + When NOT 拦截 #7 + 反触发 #8）；方法为仅凭 description、正文不读，符合路由盲测口径。
+- ✅ **三写一致独立抽查**：explosion/digging 的 SKILL.md frontmatter、manifest.yaml、INDEX.md（#51/#49）三面 description+trigger 同源无漂移。
+- ✅ **交付物在库**：两 skill 目录各含 SKILL.md+manifest.yaml；`git status` 无相关脏文件；author 行与 adapted_from 溯源清晰。
+- ✅ **五字段执行报告在位**：交付物/完成内容/验证/边界/需要谁动作 五节齐；两新 skill status=draft / reviewed_by=待审（写审分离，不自标转正）。
+
+**Residual risks（均非阻塞，去向已注明）**：
+- ① research-core frontmatter 的 review_date=2026-09-01、grade=A 为 #594/#595 落盘值，随 v1.1 四类型判定层变更后需刷新为 2026-09-03 并复审 grade。去向：skills-assistant darwin 门禁+挂载时一并刷新（下游职责）。
+- ② darwin-skill 9 维正式门禁（dim4 检查点显式标记 🔴/STOP/CHECKPOINT、dim8 test-prompts 带/不带 baseline 实测）属 skills-assistant 下游步骤（#629「需要谁动作」已注明）；两 skill 当前检查点以「人把关/门控」表述，dim 不达标由老顽童返工。
+
