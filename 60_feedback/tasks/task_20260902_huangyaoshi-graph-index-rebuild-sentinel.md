@@ -1,23 +1,24 @@
 ---
-id: task_20260902_huangyaoshi-graph-index-rebuild-sentinel
-
-title: graph_index 归零重建 + 健康哨兵机制化（08-31 整树事故清空后语义腿空转 2 天无人发现）
-
-seq: 622
-
-status: pending_review
-assignee: huangyaoshi
-
-created_by: wangyuyan
-
-created_at: 2026-09-02
-
-decision_source: 外部审计建议书 diag_20260902_external-audit-graph-index-empty-recur（P1）+ 王语嫣 09-02 裁定（存在性核查：.kdo/graph_index 0 字节，mtime 08-31 02:11 正落在整树事故窗口）
-
-reviewer: 欧阳锋
-instance: huangyaoshi-kimi
-updated_at: '2026-09-02T15:36:42.706541+00:00'
+id: task_20260902_huangyaoshi-graph-index-rebuild-sentinel
+
+title: graph_index 归零重建 + 健康哨兵机制化（08-31 整树事故清空后语义腿空转 2 天无人发现）
+
+seq: 622
+
+status: queued
+assignee: huangyaoshi
+
+created_by: wangyuyan
+
+created_at: 2026-09-02
+
+decision_source: 外部审计建议书 diag_20260902_external-audit-graph-index-empty-recur（P1）+ 王语嫣 09-02 裁定（存在性核查：.kdo/graph_index 0 字节，mtime 08-31 02:11 正落在整树事故窗口）
+
+reviewer: 欧阳锋
+instance: huangyaoshi-kimi
+updated_at: '2026-09-02T15:43:07.157096+00:00'
 evidence: _tmp/622-graph-rebuild.log
+rework: true
 ---
 
 # #622 graph_index 重建 + 哨兵（黄药师，P1）
@@ -72,3 +73,39 @@ evidence: _tmp/622-graph-rebuild.log
 ### ③ 负向判词 / ④ 存在性核查
 
 🔴 意见书含负向断言（缺失/「无任何任务单/工单记录」）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
+
+## 终审记录（2026-09-02 欧阳锋 · FAIL · methodology v2.3）
+
+**Verdict**：FAIL（退回收口）——#362 版本对齐门禁第一问「入仓了吗」= 否，不予通过。
+
+### P0/P1/P2 清单
+
+- 🔴 P0：**交付核心变更全部未入仓**。`kdo-tools/conveyor_probe.py`（+40）、`kdo-tools/tests/test_conveyor_probe.py`（+68）、`90_control/notification-coverage-matrix.md`（行 27 登记）、`90_control/scripts/.derived-hashes.json` 均停留在 git 工作区未提交。未提交=不存在（#362/#357 08-18 教训）：工作区代码可被 vault backup 回滚或清理操作静默带走，「哨兵已上线」结论不成立。
+- 🟡 P1：执行报告根因注记含负向判词「无任何任务单/工单记录指向该目录操作」但无 `**存在性核查**` 锚点（#433：「我没看到」≠「不存在」；机器预审 🔴 已同判提示）。我独立 grep `60_feedback/tasks/` + `70_product/tasks/`（graph_index 清空/删除指向）确认判词本身成立——是形式缺口，非事实错误。
+- P2：无。
+
+### 字段级定位
+
+- P0：任务单「交付物」②④（L49）对应文件在 `git status` 中均为 M 未提交态。
+- P1：执行报告「完成内容」③ 根因注记段（L51）。
+
+### 证据
+
+- `git show HEAD:kdo-tools/conveyor_probe.py | grep -c _scan_graph_index_health` = 0（HEAD=6d22f0f92，23:38 编排提交，不含本单代码；23:36 的 claim/complete 两个 chore 提交仅动队列台账）。
+- 任务单全文 grep `存在性核查` 仅命中 decision_source 引用王语嫣对「0 字节态」的核查，未覆盖「无工单记录」这一新负向判词。
+
+### 期望形态
+
+1. 将本单全部交付变更（代码 + 测试 + matrix + 派生哈希）提交为独立 commit，然后重走 complete → 提审。
+2. 执行报告根因注记段补「存在性核查」小节：声明检索面（如 `grep -rl graph_index 60_feedback/tasks 70_product/tasks`，逐命中文件确认无清空/删除指向）+ 结论。
+
+### 已独立复跑确认成立项（重报时引用本节即可，无需重复证明）
+
+- **重建产物实测**：graphml 3620 nodes / 6694 edges（字节计数复核），与日志「2428 页 / 5267 chunks / 6705 relations」一致；`.kdo/graph_index/` 82MB 五件齐全。
+- **口语化查询复明**：`kdo graph query "我卖护肤品的，怎么让犹豫的客户快点下单"` mix 模式 Found 5 chunks / 24 entities / 61 relations，命中内容经营六步闭环等转化相关卡——语义腿复明确认（重建前 0 chunks 空转态以任务单记录为据）。
+- **哨兵实证**：`pytest tests/test_conveyor_probe.py` 47 passed（含新增 4 条：空目录告警+幂等 / 0 records / 陈旧 50h 告 10h 不告 / 恢复重新武装）；`--dry-run --json` 健康态无告警；`.kdo/conveyor_state.json` 键 `graph_index_issue: null`（武装态）落位。
+- **陈旧相对口径认可**：回答任务单「需要谁动作」之问——graphml mtime 落后 search_index.json >48h 的相对基准钟口径，规避手动重建节奏下绝对 48h 常态误报，判断合理，认可。
+- matrix 行 27 登记内容（工作区版）与实际信号行为一致，登记口径无问题。
+
+**blocking**：P0（未入仓）。**residual_risks**：修复仅一步 commit + 补核查节，预计分钟级收口。
+
