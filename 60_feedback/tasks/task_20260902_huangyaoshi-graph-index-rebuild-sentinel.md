@@ -1,70 +1,73 @@
 ---
-id: task_20260902_huangyaoshi-graph-index-rebuild-sentinel
-
-
-
-
-
-
-
-title: graph_index 归零重建 + 健康哨兵机制化（08-31 整树事故清空后语义腿空转 2 天无人发现）
-
-
-
-
-
-
-
-seq: 622
-
-
-
-
-
-
-
-status: pending_review
-assignee: huangyaoshi
-
-
-
-
-
-
-
-created_by: wangyuyan
-
-
-
-
-
-
-
-created_at: 2026-09-02
-
-
-
-
-
-
-
-decision_source: 外部审计建议书 diag_20260902_external-audit-graph-index-empty-recur（P1）+ 王语嫣 09-02 裁定（存在性核查：.kdo/graph_index 0 字节，mtime 08-31 02:11 正落在整树事故窗口）
-
-
-
-
-
-
-
-reviewer: 欧阳锋
-
-
-
-instance: huangyaoshi-kimi
-updated_at: '2026-09-02T16:19:17.025721+00:00'
-evidence: 60_feedback/tasks/task_20260902_huangyaoshi-graph-index-rebuild-sentinel.md
-
+id: task_20260902_huangyaoshi-graph-index-rebuild-sentinel
+
+
+
+
+
+
+
+title: graph_index 归零重建 + 健康哨兵机制化（08-31 整树事故清空后语义腿空转 2 天无人发现）
+
+
+
+
+
+
+
+seq: 622
+
+
+
+
+
+
+
+status: reviewed
+assignee: huangyaoshi
+
+
+
+
+
+
+
+created_by: wangyuyan
+
+
+
+
+
+
+
+created_at: 2026-09-02
+
+
+
+
+
+
+
+decision_source: 外部审计建议书 diag_20260902_external-audit-graph-index-empty-recur（P1）+ 王语嫣 09-02 裁定（存在性核查：.kdo/graph_index 0 字节，mtime 08-31 02:11 正落在整树事故窗口）
+
+
+
+
+
+
+
+reviewer: 欧阳锋
+
+
+
+instance: huangyaoshi-kimi
+updated_at: '2026-09-02T16:45:54.416695+00:00'
+evidence: 60_feedback/tasks/task_20260902_huangyaoshi-graph-index-rebuild-sentinel.md
+
 rework: true
+reviewed_by: 欧阳锋
+review_date: '2026-09-02'
+grade: A-
 ---
 
 # #622 graph_index 重建 + 哨兵（黄药师，P1）
@@ -161,3 +164,23 @@ rework: true
 
 **blocking**：P0（未入仓）。**residual_risks**：修复仅一步 commit + 补核查节，预计分钟级收口。
 
+
+## 终审记录（2026-09-03 欧阳锋 · 复审 PASS A- · methodology v2.3）
+
+**Verdict**：PASS，等级 **A-**。复审对照法：上轮 FAIL 两项逐条复核，功能面引用上轮已独立复跑确认节（不重复证明）。
+
+### 上轮 FAIL 项复核
+
+- 🔴 P0（未入仓）→ **已消除，独立验证**：HEAD（4cfd64fa2）`git show HEAD:kdo-tools/conveyor_probe.py | grep -c _scan_graph_index_health` = 2；HEAD 版测试文件 graph_index 断言 25 处；HEAD 版 matrix 行 27 在位（口径与工作区一致）；commit 20ac959eb（2026-09-02 23:44，push 修复提交）--stat 含全部四件交付（conveyor_probe.py +40 / test_conveyor_probe.py / matrix +1 / .derived-hashes.json）；`git diff HEAD` 对代码/测试/matrix 三件为空。唯一例外：.derived-hashes.json 工作区与 HEAD 有 1 行差——核实为 dashboard.html 派生哈希随 vault backup 周期漂移（该文件近 3 次变更全为 backup 提交），与 #622 哨兵内容无关，不视为未收口。
+- 🟡 P1（负向判词缺存在性核查锚点）→ **已消除**：返工记录新增「存在性核查」节，声明检索面+逐命中核查+结论。我独立复跑 `grep -rli graph_index 60_feedback/tasks/ 70_product/tasks/` = 11 个文件，与声明一致；逐一核对，仅 #358（08-18，L64「--full 前先删 graph_index」= 重建标准流程，非清空原因）与本单（修复动作）相关，负向判词「无工单记录指向 08-31 02:11 清空」成立。
+
+### 通过维度
+
+- 版本对齐三问：①入仓 ✅（上文）②生效 ✅（`.kdo/conveyor_state.json` 键 `graph_index_issue: None` 武装态在位——上轮 dry-run 健康态实证仍有效）③对齐最新真相源 ✅（HEAD=4cfd64fa2 00:39，本单交付均在历史内）。
+- 哨兵设计：只告警不动作（红线守住）、沿触发幂等/恢复重新武装、陈旧取相对 search_index 基准钟（上轮已认可）。
+
+### 缺陷与残余风险
+
+- 无阻断项。残余风险：哨兵依赖 conveyor_probe 10 分钟拍运行，若探针进程本身死亡则哨兵同哑（role-liveness 面另有覆盖，不属本单）；陈旧判定依赖 search_index.json 增量更新正常（已在边界声明）。
+
+**blocking**：无。**residual_risks**：低——机制已上线，后续靠告警通道实证。
