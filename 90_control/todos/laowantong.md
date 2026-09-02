@@ -232,3 +232,4 @@
 - [2026-09-03 01:10] 通路狗粮（只读）：复述 parking-lot F-066 登记机制方向（建单即入队对账/撞号防再发，P2 升档待黄药师队列空位立项）；未领单未施工，通路正常
 [2026-09-03 01:1x] ✅ #617 遗留回填完成（终审授权项，commit 32f536ca3）：5 卡 frontmatter 转正（status: reviewed / reviewed_by: 欧阳锋 / review_date: 2026-09-02 终审事实日）+ downgrade_reason 随转正失效删除（裁定留痕在 #617 终审记录）+ dk-p15-unverified 双同题关联节并集合并为 1 节（5 链目标卡实存已核）；pre-submit 5/5 PASS（先 kdo index --incremental 后过）；diff 复核改动仅限授权范围；L9 不适用（无队列流转，纯回填）。
 - [2026-09-03 01:17] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-03 01:27] 📥 KDO 可领取 1 单：#626
