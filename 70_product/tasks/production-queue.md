@@ -257,6 +257,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 623 | `task_20260902_huangyaoshi-daily-review-scheduler` | 四主力每日复盘计划任务化：schtasks kdo-daily-review 每日23:37 S4U 拉起三角色 headless 复盘（Truman格式+daily-context-save归档+错误库内化），空班豁免 | reviewed | huangyaoshi | 注册实证+首跑三份复盘落盘 | #622 后（同角色排队） | `60_feedback/tasks/task_20260902_huangyaoshi-daily-review-scheduler.md` | 老朱09-02直令（复盘定期任务化）；王语嫣自有收尾纪律不占此任务；复盘不许编造；欧阳锋终审 |
 | 624 | `task_20260902_laowantong-candy-bonus-increment-cards` | Candy课后加餐增量补产：Live260口喷ROI搭档私密案例卡（原始课稿零覆盖实证）+探索营Candy增量复核（半肥猫路演口述层）；传播限制双标注#322口径 | reviewed | laowantong | 1-3张卡+探索营复核结论证据 | 无 | `60_feedback/tasks/task_20260902_laowantong-candy-bonus-increment-cards.md` | 老朱09-02纠偏（课后candy需复核）——王语嫣「同源沿用」误判更正立项；Candy=课后加工产物当独立素材诊断；欧阳锋终审 |
 | 625 | `task_20260902_huangyaoshi-gate-suite-batch2` | 门禁套件批2：git大文件三层门禁（gitignore扩展+>100MB硬拦/>15MB WARNING+存量清单）+complete交付未入仓WARNING检查 | reviewed | huangyaoshi | 两任务diff+回归+存量大文件清单 | #622返工收口后 | `60_feedback/tasks/task_20260902_huangyaoshi-gate-suite-batch2.md` | 老顽童大文件建议书+欧阳锋complete门禁建议书（09-03王语嫣裁定并单）；存量只出清单不动文件；欧阳锋终审 |
+| 626 | `task_20260903_laowantong-live77-live86-candy-cards` | Live77国帅课程创作生产线卡组2-3张（思想生产线framework+创作八步method+dk）+Live86 Candy加餐对账（Agent创建模版增量判定）+WorkBuddy流水线pending卡门禁复核 | queued | laowantong | 卡组+对账结论+门禁判定+执行报告 | 无 | `60_feedback/tasks/task_20260903_laowantong-live77-live86-candy-cards.md` | 老朱09-03问责inbox漏检→王语嫣分诊（门铃v3已补INBOX扫描面）；先例双查+传播限制#322口径；欧阳锋终审 |
 
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
@@ -594,16 +595,16 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~00_inbox/学习candy合集/translations/中译-大卫·布鲁克斯：芝大毕业演讲（求知是有代价的）-视频逐字稿.md｜P2｜33455B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置沿用（09-02 王语嫣）：中译版随英文原版诊断，不单独编排
 - ~~00_inbox/学习candy合集/translations/中译-尼尔·雷克汉姆：联结销售与营销（SPIN创始人）-视频逐字稿.md｜P2｜15106B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置沿用（09-02 王语嫣）：中译版随英文原版诊断，不单独编排
 - ~~00_inbox/泡泡玛特的拆解/拆书会第218期《因为独特》· 精华提炼.md｜P2｜10883B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：#596 reviewed 闭环；MOLLY 补卡已并单 #609
-- 00_inbox/wechat-collect/src_wechat_2404c1658025473c.md｜P2｜7673B｜检测到 09-02 14:39｜待王语嫣编排
-- 00_inbox/wechat-collect/src_wechat_346efef2737b383b.md｜P2｜12295B｜检测到 09-02 14:39｜待王语嫣编排
-- 00_inbox/wechat-collect/src_wechat_5291b61bc722d90d.md｜P2｜3443B｜检测到 09-02 14:39｜待王语嫣编排
-- 00_inbox/wechat-collect/src_wechat_68004aecb3d913a5.md｜P2｜8473B｜检测到 09-02 14:39｜待王语嫣编排
-- 00_inbox/wechat-collect/src_wechat_e7536bf1d8f1a7b1.md｜P2｜15243B｜检测到 09-02 14:39｜待王语嫣编排
-- 00_inbox/wechat-collect/src_wechat_fe60439837f4c93e.md｜P2｜1126B｜检测到 09-02 14:39｜待王语嫣编排
-- 00_inbox/wechat-collect/src_wechat_article_tt_af50baaada5fc2f2.md｜P2｜7264B｜检测到 09-02 15:21｜待王语嫣编排
-- 00_inbox/pending-cards/case-wechat-article_tt_af50baaada5fc2f2.md｜P2｜3942B｜检测到 09-02 15:31｜待王语嫣编排
-- 00_inbox/AI落地Live77-国帅课程创作心路历程-逐字稿.md｜P0｜21890B｜检测到 09-02 16:31｜待王语嫣编排
-- 00_inbox/AI落地Live86-Candy-kinda龙虾员工实践+Agent创建模版-逐字稿.md｜P0｜32442B｜检测到 09-02 16:31｜待王语嫣编排
+- ~~00_inbox/wechat-collect/src_wechat_2404c1658025473c.md｜P2｜7673B｜检测到 09-02 14:39｜待王语嫣编排~~ → 已处置沿用（09-03 01:20 王语嫣）：09-02 批次已分诊（diag_20260902_wangyuyan-inbox-batch-42 观察/双采族），#619 修复后重登记行划销
+- ~~00_inbox/wechat-collect/src_wechat_346efef2737b383b.md｜P2｜12295B｜检测到 09-02 14:39｜待王语嫣编排~~ → 已处置沿用（09-03 01:20 王语嫣）：09-02 批次已分诊（diag_20260902_wangyuyan-inbox-batch-42 观察/双采族），#619 修复后重登记行划销
+- ~~00_inbox/wechat-collect/src_wechat_5291b61bc722d90d.md｜P2｜3443B｜检测到 09-02 14:39｜待王语嫣编排~~ → 已处置沿用（09-03 01:20 王语嫣）：09-02 批次已分诊（diag_20260902_wangyuyan-inbox-batch-42 观察/双采族），#619 修复后重登记行划销
+- ~~00_inbox/wechat-collect/src_wechat_68004aecb3d913a5.md｜P2｜8473B｜检测到 09-02 14:39｜待王语嫣编排~~ → 已处置沿用（09-03 01:20 王语嫣）：09-02 批次已分诊（diag_20260902_wangyuyan-inbox-batch-42 观察/双采族），#619 修复后重登记行划销
+- ~~00_inbox/wechat-collect/src_wechat_e7536bf1d8f1a7b1.md｜P2｜15243B｜检测到 09-02 14:39｜待王语嫣编排~~ → 已处置沿用（09-03 01:20 王语嫣）：09-02 批次已分诊（diag_20260902_wangyuyan-inbox-batch-42 观察/双采族），#619 修复后重登记行划销
+- ~~00_inbox/wechat-collect/src_wechat_fe60439837f4c93e.md｜P2｜1126B｜检测到 09-02 14:39｜待王语嫣编排~~ → 已处置沿用（09-03 01:20 王语嫣）：09-02 批次已分诊（diag_20260902_wangyuyan-inbox-batch-42 观察/双采族），#619 修复后重登记行划销
+- ~~00_inbox/wechat-collect/src_wechat_article_tt_af50baaada5fc2f2.md｜P2｜7264B｜检测到 09-02 15:21｜待王语嫣编排~~ → 已处置（09-03 01:20 王语嫣）：并入 #626 任务3（门禁复核）
+- ~~00_inbox/pending-cards/case-wechat-article_tt_af50baaada5fc2f2.md｜P2｜3942B｜检测到 09-02 15:31｜待王语嫣编排~~ → 已处置（09-03 01:20 王语嫣）：并入 #626 任务3（门禁复核）
+- ~~00_inbox/AI落地Live77-国帅课程创作心路历程-逐字稿.md｜P0｜21890B｜检测到 09-02 16:31｜待王语嫣编排~~ → 已处置（09-03 01:20 王语嫣）：立项 #626（课程创作生产线卡组）
+- ~~00_inbox/AI落地Live86-Candy-kinda龙虾员工实践+Agent创建模版-逐字稿.md｜P0｜32442B｜检测到 09-02 16:31｜待王语嫣编排~~ → 已处置（09-03 01:20 王语嫣）：并入 #626 任务2（Candy 加餐对账）
 
 <!-- INBOX-PENDING-END -->
 
