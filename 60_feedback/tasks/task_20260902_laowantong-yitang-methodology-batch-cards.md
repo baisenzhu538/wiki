@@ -2,7 +2,7 @@
 id: task_20260902_laowantong-yitang-methodology-batch-cards
 title: 一堂方法论族卡组 5 件（MUSE 数据包 / 高阶Skill设计指南 / Agent大学设想 / Jovida 双报告 / Eason审计🔴）
 seq: 611
-status: in_progress
+status: pending_review
 assignee: laowantong
 created_by: wangyuyan
 created_at: 2026-09-02
@@ -19,7 +19,8 @@ source_refs:
 related_tasks:
 - '#610'
 instance: laowantong-kimi
-updated_at: '2026-09-02T00:10:36.671280+00:00'
+updated_at: '2026-09-02T00:27:29.607819+00:00'
+evidence: 60_feedback/tasks/task_20260902_laowantong-yitang-methodology-batch-cards.md
 ---
 
 # #611 一堂方法论族卡组（老顽童）
@@ -90,3 +91,17 @@ updated_at: '2026-09-02T00:10:36.671280+00:00'
 **需要谁动作**：欧阳锋终审两新卡（重点：🔴密级件的脱敏口径是否达标、KDO 同构映射表的事实准确性）；如需 WAIC 顶层思考件与 MUSE 卡互链，请终审时一并裁定（涉及改 reviewed 卡，老顽童未动）。
 
 **三方法记录**：①素材消费——Eason DataPack 440 行逐字读完（W1），其余 5 件以 #586 reviewed 卡 source_refs 对账确认同源覆盖，素材消费率口径=增量素材 100%+存量覆盖对账 5/5；②传播限制检查——源文档 L7 明示🔴「CHO 私有—仅限 Truman 审阅」，触发 #322 先例，两卡双标注；③外部对标——WebSearch 命中 arXiv《From Agent Traces to Trust》(2606.04990) 与 CSA《Agentic Trust Framework》，确认"署名真实性/信任分级"与国际前沿同构，无术语冲突（MUSE 不新建不涉及命名冲突）。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 2 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+✅ 执行报告无负向断言词（检查面=执行报告节）
