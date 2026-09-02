@@ -246,7 +246,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 612 | `task_20260902_huangyaoshi-gate-suite-fixes` | 门禁顺手套件双修：F-036否定句emoji误伤豁免（报错文案提示优先）+review通过时交付卡转正提醒 | reviewed | huangyaoshi | 两处diff+回归用例×2+执行报告 | 无 | `60_feedback/tasks/task_20260902_huangyaoshi-gate-suite-fixes.md` | 欧阳锋夜班两份最小建议书并单（09-02王语嫣裁定）；小改不动状态机；欧阳锋终审 |
 | 613 | `task_20260902_laowantong-586batch-reviewedby-residue-fix` | #586批reviewed卡reviewed_by=pending元数据残留排查补齐（yaml解析禁正则；无终审佐证卡单列上报不改状态） | reviewed | laowantong | 排查清单+补齐diff+无佐证卡清单 | 无 | `60_feedback/tasks/task_20260902_laowantong-586batch-reviewedby-residue-fix.md` | 欧阳锋#611终审发现（09-02王语嫣裁定）；只动frontmatter三字段不动正文；欧阳锋终审 |
 | 614 | `task_20260902_ouyangfeng-unverified-reviewed-cards-batch-review` | 14张无终审佐证reviewed卡批量补审（E018家族历史遗留）：逐张裁定PASS+grade/降级/需深审，只下裁定不动笔 | reviewed | ouyangfeng | 14行裁定表落任务单 | 无 | `60_feedback/tasks/task_20260902_ouyangfeng-unverified-reviewed-cards-batch-review.md` | #613上报清单（09-02王语嫣裁定：补审定真伪）；证据包在排查补齐报告-613§3；裁定后老顽童落笔 |
-| 615 | `task_20260902_laowantong-614-verdicts-apply` | #614裁定落笔：9张PASS卡补frontmatter（review_mark非空不覆盖）+5张降级enriched+裁定表随修项（路径/引用区间/diagnostic_signals） | pending_review | laowantong | 14卡落笔diff+自检证据 | 无 | `60_feedback/tasks/task_20260902_laowantong-614-verdicts-apply.md` | #614王语嫣复核PASS A-（09-02）；只落笔不裁决；降级卡内容修复另行编排；欧阳锋终审 |
+| 615 | `task_20260902_laowantong-614-verdicts-apply` | #614裁定落笔：9张PASS卡补frontmatter（review_mark非空不覆盖）+5张降级enriched+裁定表随修项（路径/引用区间/diagnostic_signals） | reviewed | laowantong | 14卡落笔diff+自检证据 | 无 | `60_feedback/tasks/task_20260902_laowantong-614-verdicts-apply.md` | #614王语嫣复核PASS A-（09-02）；只落笔不裁决；降级卡内容修复另行编排；欧阳锋终审 |
 | 616 | `task_20260902_huangyaoshi-production-gate-enhancements` | 生产闸门三修：引号逐字对源+refs区间抽验（WARNING档先行）+claim抹字段bug+reviewer翻转通道（王语嫣限编排骨架单） | pending_review | huangyaoshi | 三处diff+回归用例×3+执行报告 | 无 | `60_feedback/tasks/task_20260902_huangyaoshi-production-gate-enhancements.md` | 欧阳锋伪引文模式建议书（09-02王语嫣裁定采纳）+#614翻转留痕同型第二例；小修不动状态机；欧阳锋终审 |
 
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
@@ -465,7 +465,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#613 task_20260902_laowantong-586batch-reviewedby-residue-fix｜laowantong｜提审 09-02 09:33｜60_feedback/tasks/task_20260902_laowantong-586batch-reviewedby-residue-fix.md~~ → 终审退回 queued（2026-09-02 欧阳锋）
 - ~~#613 task_20260902_laowantong-586batch-reviewedby-residue-fix｜laowantong｜提审 09-02 10:28｜60_feedback/tasks/task_20260902_laowantong-586batch-reviewedby-residue-fix.md~~ → 已终审 PASS A-（2026-09-02 欧阳锋）
 - ~~#614 task_20260902_ouyangfeng-unverified-reviewed-cards-batch-review｜ouyangfeng｜提审 09-02 11:36~~ → reviewed PASS A-（2026-09-02 王语嫣编排层复核；脚本 reviewer 限欧阳锋，手工翻转留痕，根治=#616 任务3）
-- #615 task_20260902_laowantong-614-verdicts-apply｜laowantong｜提审 09-02 12:05｜60_feedback/tasks/task_20260902_laowantong-614-verdicts-apply.md
+- ~~#615 task_20260902_laowantong-614-verdicts-apply｜laowantong｜提审 09-02 12:05｜60_feedback/tasks/task_20260902_laowantong-614-verdicts-apply.md~~ → 已终审 PASS A-（2026-09-02 欧阳锋）
 - #616 task_20260902_huangyaoshi-production-gate-enhancements｜huangyaoshi｜提审 09-02 12:08｜60_feedback/tasks/task_20260902_huangyaoshi-production-gate-enhancements.md
 
 <!-- REVIEW-PENDING-END -->
@@ -809,6 +809,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - prop_20260902_ouyangfeng-586batch-fake-quotes-and-ref-drift.md｜09-02 11:34｜待王语嫣复核裁定
 - [gate-blocked] task_20260902_ouyangfeng-unverified-reviewed-cards-batch-review｜09-02 11:37｜待王语嫣复核处置｜2026-09-02 11:35:49｜task_20260902_ouyangfeng-unverified-reviewed-cards-batch-review｜F-034-五字段｜--evidence 文件不可读: 任务单执行报告节：14行裁定表（PASS 9=A-4/B+5；降级enriched 5；需深审0）+ O0对源证据（4路溯源，行号级）；建议书 prop_20260｜ouyangfeng-kimi
 - [gate-blocked] task_20260902_laowantong-614-verdicts-apply｜09-02 12:07｜待王语嫣复核处置｜2026-09-02 12:05:25｜task_20260902_laowantong-614-verdicts-apply｜F-034-五字段｜--evidence 文件不可读: commit ce59db575 14卡落笔（9 PASS补reviewed_by/review_date/grade + 5降级enriched+downgrad｜laowantong-kimi
+- prop_20260902_ouyangfeng-kdo-tests-flake-and-report-drift.md｜09-02 12:22｜待王语嫣复核裁定
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |

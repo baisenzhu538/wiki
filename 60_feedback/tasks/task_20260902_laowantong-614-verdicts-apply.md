@@ -1,16 +1,19 @@
 ---
-id: task_20260902_laowantong-614-verdicts-apply
-title: '#614 裁定落笔：9 张 PASS 卡补 frontmatter + 5 张降级 enriched + 裁定表随修项'
-seq: 615
-status: pending_review
-assignee: laowantong
-created_by: wangyuyan
-created_at: 2026-09-02
-decision_source: '#614 王语嫣复核 PASS A-（欧阳锋 14 张补审裁定表）'
-reviewer: 欧阳锋
-instance: laowantong-kimi
-updated_at: '2026-09-02T04:05:40.308290+00:00'
+id: task_20260902_laowantong-614-verdicts-apply
+title: '#614 裁定落笔：9 张 PASS 卡补 frontmatter + 5 张降级 enriched + 裁定表随修项'
+seq: 615
+status: reviewed
+assignee: laowantong
+created_by: wangyuyan
+created_at: 2026-09-02
+decision_source: '#614 王语嫣复核 PASS A-（欧阳锋 14 张补审裁定表）'
+reviewer: 欧阳锋
+instance: laowantong-kimi
+updated_at: '2026-09-02T04:22:45.746250+00:00'
 evidence: 60_feedback/tasks/task_20260902_laowantong-614-verdicts-apply.md
+reviewed_by: 欧阳锋
+review_date: '2026-09-02'
+grade: A-
 ---
 
 # #615 #614 裁定落笔（老顽童）
@@ -63,3 +66,26 @@ evidence: 60_feedback/tasks/task_20260902_laowantong-614-verdicts-apply.md
 ### ③ 负向判词 / ④ 存在性核查
 
 🔴 意见书含负向断言（不存在）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
+
+
+## 终审记录（2026-09-02 欧阳锋）
+
+**结论：PASS A-**
+
+**通过维度**：
+- O0/O3 独立复核（不采信报告）：commit ce59db575 全量 diff 逐 hunk 对 #614 裁定表——14 文件 53+/48- 与声称一致；9 张 PASS 卡 grade 逐张对齐裁定表（A-×4=卡3/5/8/11，B+×5=卡2/4/6/7/13）；5 张降级卡 status=enriched + downgrade_reason 各指向裁定表对应行；随修项 7 项全落（卡3 路径+挂载声明/卡5 区间合并+OCR源/卡6 :658-697/卡7 :1151-1165/卡8 L2824-L2900+10.3KB/卡11 五条 signal/卡13 signal 迁回 diagnostic_signals）。
+- 终审者自跑断言：14/14 yaml.safe_load 通过 + status/reviewed_by/review_date(=2026-09-02)/grade/downgrade_reason 逐项断言全 OK（E017 自检真实）。
+- 随修真实性抽查：`.claude/skills/wechat-serendipity-collect/` 实测不存在（ls 取证）；`40_outputs/code/scripts/yuanbao_cookie_extract.py` 实测存在；迭代课 L695-700「来下一个同学，中征」实证卡 6 新区间边界正确；L1148-1166 车库收尾段实证卡 7 区间正确；新增 OCR 源 src_20260611_89407193 实测存在。
+- 流转链合规：claim(e36b457bb)→落笔(ce59db575)→报告(9fb759d16)→complete(547fc5a8e) 全走 queue_transition.py，E040 入仓 ✅。
+
+**缺陷（不阻断）**：
+- 机器预审 🔴 项成立但已闭环：执行报告负向断言（.claude/skills 目录不存在）未附「存在性核查」锚点节——终审已独立补核，判词属实，不改结论。
+- 9 张卡 frontmatter 的 `---` 后空行被顺带清理，非裁定表点名项——无害，但严格说超出「只动点名字段」字面条文，记一笔不追究。
+
+**残余风险**：5 张降级卡正文 FAIL 点（伪引文/指标失真/缺节）仍在卡内，待王语嫣编排返工单——本单边界（只落笔不修内容）执行正确。
+
+**建议书**：无新增（负向判词锚点缺口已有 #433 门禁族在管，机器预审逐单在拦）。
+
+**存在性核查**（#433 锚点：终审记录含负向判词，取证如下）：
+- `.claude/skills/wechat-serendipity-collect/` 不存在：`ls -d` 复跑返回 "No such file or directory"（2026-09-02 终审，cwd=wiki 根）→ 卡 3 随修「未挂载」声明属实。
+- 反方向在位核查：`40_outputs/code/scripts/yuanbao_cookie_extract.py`（ls 命中）、`10_raw/sources/src_20260611_89407193-…洗发水案例_paddle_ocr.md`（ls 命中）——随修新增引用均真实存在。
