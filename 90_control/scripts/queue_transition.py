@@ -575,6 +575,21 @@ def _role_of(instance: str) -> str:
     return INSTANCE_ROLE_MAP.get(instance, instance)
 
 
+# #620 实例命名铁律（老朱 09-02 直令）：实例名只有角色名没有工具名——工具可换（kimi
+# 没额度会换其他 agent），工具名进实例名制造混乱。过渡期兼容在途旧名 {role}-<tool>
+# （claimed-huangyaoshi-kimi 等已领在途单仍须能 complete/release）；新 claim 一律裸角色名。
+def _claimed_by_role(instance: str, claimed_instance: str) -> bool:
+    """实例锁匹配（#620）：裸角色名精确命中 claimed-<instance>，或命中同角色在途旧名 claimed-<role>-<tool>。"""
+    return claimed_instance == instance or claimed_instance.startswith(instance + "-")
+
+
+def _legacy_dash_ok(instance: str) -> bool:
+    """#620 claim 裸名门禁判据：带 '-' 的实例名仅限在册存量身份（在途旧名自然消亡，
+    含 '-' 的正式角色 skills-assistant 在册不受影响）+ INSTANCE_ROLE_MAP 历史键（hermes）。"""
+    return ("-" not in instance or instance in INSTANCE_ROLE_MAP
+            or instance in _load_registry().get("instances", {}))
+
+
 # ── #546：实例身份登记 + 终审权机器校验（一具两职事件根治，#525 轻量先行版）──
 # 登记表是纯本地 json（.kdo/active-instances.json），claim 时无感写入；
 # review 校验「当前 cwd 有 ouyangfeng 角色登记实例」才放行 --reviewer 欧阳锋。
@@ -628,7 +643,8 @@ def _check_review_authority(task_id: str, reviewer: str,
     for name, e in reg.get("instances", {}).items():
         role = e.get("role") or _role_of(name)
         entry_cwd = os.path.normcase(os.path.normpath(e.get("cwd", "") or "/"))
-        if role == expected_role and entry_cwd == cwd:
+        # #620 裸名口径：在册旧身份 {role}-<tool>（如 wangyuyan-kimi-0902）按同角色登记计
+        if (role == expected_role or role.startswith(expected_role + "-")) and entry_cwd == cwd:
             return True, ""
     if force:
         if not (reason and reason.strip()):
@@ -660,8 +676,19 @@ def action_claim(task_id: str, instance: str, force: bool = False) -> tuple[bool
     --force: 跳过 pending_review 阻塞检查（用于不同 assignee 的并行任务）。
     #504：--force 放行保留但留痕——绕过任何阻塞都写 force-exceptions.log 台账（例外不得无痕）。
     """
-    rows = parse_queue()
     force_note = ""
+    # #620 实例命名铁律：新 claim 一律裸角色名（工具=变量不进名字）。例外=在册存量旧名
+    # （{role}-<tool> 在途自然消亡）+ INSTANCE_ROLE_MAP 历史键（hermes）。
+    if not _legacy_dash_ok(instance):
+        if not force:
+            return False, ("#620 实例命名铁律：--instance 只填裸角色名（工具=变量不进名字）。"
+                           f"'{instance}' 带 '-' 且非在册存量身份；沿用旧名请先"
+                           f" register {instance}，或 --force --reason '<理由>' 留痕绕过")
+        ledger = _log_force_exception(task_id, instance, "claim 绕过命名铁律（非裸角色名）",
+                                      bypass="#620 实例命名铁律")
+        force_note = f"\n⚠️ force 例外已留痕: {ledger}"
+
+    rows = parse_queue()
     if force:
         # #504：显式放行仍可用（并行审批场景），但绕过即留痕（谁/何时/绕过哪条）
         would_ok, would_reason = can_claim(task_id, rows, instance)
@@ -1060,11 +1087,12 @@ def action_complete(task_id: str, instance: str, evidence: str | None, force: bo
     if task is None:
         return False, f"任务 {task_id} 不在队列中"
 
-    expected = f"claimed-{instance}"
     if force and task["status"] == "queued":
         pass  # 跳过 claim，直接提交
-    elif task["status"] != expected:
-        return False, f"任务 {task_id} 状态为 {task['status']}，不是由 {instance} 领取的 {expected}"
+    elif not (task["status"].startswith("claimed-")
+              and _claimed_by_role(instance, task["status"][len("claimed-"):])):
+        return False, (f"任务 {task_id} 状态为 {task['status']}，不是由 {instance} 领取的"
+                       f"（#620 过渡期：裸名/同角色旧名 {instance}-<tool> 均可收口）")
 
     # #444：force 无理由=拒绝（「声明例外」被当常规通道的根治——#441 实证）
     if force and not (reason and reason.strip()):
@@ -1123,8 +1151,10 @@ def action_complete(task_id: str, instance: str, evidence: str | None, force: bo
         rows = parse_queue()
         task = find_task(task_id, rows)
         # --force 允许从 queued 直跳：锁内重检必须同样接受该场景
+        claimed_ok = (task["status"].startswith("claimed-")
+                      and _claimed_by_role(instance, task["status"][len("claimed-"):]))
         if task is None or not (
-            (force and task["status"] == "queued") or task["status"] == expected
+            (force and task["status"] == "queued") or claimed_ok
         ):
             return False, "队列状态在加锁期间发生变化，请重试"
 
@@ -1305,9 +1335,10 @@ def action_release(task_id: str, instance: str) -> tuple[bool, str]:
     if task is None:
         return False, f"任务 {task_id} 不在队列中"
 
-    expected = f"claimed-{instance}"
-    if task["status"] != expected:
-        return False, f"任务 {task_id} 状态为 {task['status']}，不是 {expected}"
+    if not (task["status"].startswith("claimed-")
+            and _claimed_by_role(instance, task["status"][len("claimed-"):])):
+        return False, (f"任务 {task_id} 状态为 {task['status']}，不是由 {instance} 领取的"
+                       f"（#620 过渡期：裸名/同角色旧名 {instance}-<tool> 均可释放）")
 
     task_file = _find_task_file_dual(task_id)
     if task_file is None:

@@ -98,6 +98,22 @@ class TestReviewerFlip(unittest.TestCase):
                 qt.INSTANCE_REGISTRY = old
         self.assertTrue(ok, msg)
 
+    def test_authority_accepts_legacy_suffixed_wangyuyan(self):
+        """#620 裸名口径：在册旧身份 wangyuyan-kimi-0902 按同角色登记计 → 放行。"""
+        with tempfile.TemporaryDirectory() as td:
+            reg = {"instances": {"wangyuyan-kimi-0902": {
+                "role": "wangyuyan-kimi-0902", "cwd": os.getcwd(),
+                "tool": "", "session": "", "ts": "2026-09-02T01:30:57"}}}
+            rf = Path(td) / "active-instances.json"
+            rf.write_text(json.dumps(reg, ensure_ascii=False), encoding="utf-8")
+            old = qt.INSTANCE_REGISTRY
+            qt.INSTANCE_REGISTRY = rf
+            try:
+                ok, msg = self._real_auth("task_9999_flip", "王语嫣")
+            finally:
+                qt.INSTANCE_REGISTRY = old
+        self.assertTrue(ok, msg)
+
     def test_authority_rejects_without_wangyuyan_registration(self):
         """只有 ouyangfeng 登记 ≠ 王语嫣可审（一具两职防控对称适用）。"""
         with tempfile.TemporaryDirectory() as td:

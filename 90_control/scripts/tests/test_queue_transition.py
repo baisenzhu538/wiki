@@ -903,3 +903,155 @@ class TestForceClaimLedger(unittest.TestCase):
             self._teardown()
         self.assertTrue(ok, msg)
         self.assertFalse(self._ledger.exists())
+
+
+class TestInstanceNaming620(unittest.TestCase):
+    """#620 实例命名铁律：claim 裸名门禁 + 在途旧名 {role}-<tool> 的 complete/release 兼容。"""
+
+    def _setup(self, rows, registry_entries=None):
+        import json as _json
+        self._tmpdir = Path(tempfile.mkdtemp())
+        self._task_fp = self._tmpdir / "task_9999_620test.md"
+        self._task_fp.write_text(
+            "---\nid: 9999\nassignee: huangyaoshi\nstatus: queued\n---\n# t\n",
+            encoding="utf-8")
+        self._queue_fp = self._tmpdir / "production-queue.md"
+        self._queue_fp.write_text("# 队列\n", encoding="utf-8")
+        self._ledger = self._tmpdir / "force-exceptions.log"
+        self._reg_fp = self._tmpdir / "active-instances.json"
+        self._reg_fp.write_text(_json.dumps({"instances": registry_entries or {}},
+                                            ensure_ascii=False), encoding="utf-8")
+        self._rows = rows
+        self._olds = (qt.parse_queue, qt.find_task, qt._find_task_file_dual,
+                      qt.update_queue_status, qt.QUEUE_PATH, qt.FORCE_LEDGER,
+                      qt.INSTANCE_REGISTRY)
+        qt.parse_queue = lambda: self._rows
+        qt.find_task = lambda tid, rows=None: (
+            next((r for r in self._rows if r["task_id"] == tid), None))
+        qt._find_task_file_dual = lambda tid: self._task_fp
+        qt.update_queue_status = lambda tid, st: None
+        qt.QUEUE_PATH = self._queue_fp
+        qt.FORCE_LEDGER = self._ledger
+        qt.INSTANCE_REGISTRY = self._reg_fp
+
+    def _teardown(self):
+        (qt.parse_queue, qt.find_task, qt._find_task_file_dual,
+         qt.update_queue_status, qt.QUEUE_PATH, qt.FORCE_LEDGER,
+         qt.INSTANCE_REGISTRY) = self._olds
+
+    def _mkrows(self, entries):
+        return [{"seq": str(i), "task_id": tid, "name": "n", "status": s,
+                 "assignee": a, "raw": f"| {i} | `{tid}` | n | {s} | {a} |"}
+                for i, (tid, s, a) in enumerate(entries)]
+
+    def _teardown_paths(self, ok_path, ok_msg):
+        """complete 全路径测试：门禁/锁/落盘全打桩，聚焦实例锁匹配断言。"""
+        self._task_fp.write_text(
+            "---\nid: 9999\nassignee: huangyaoshi\nstatus: in_progress\n---\n"
+            "# t\n## 执行报告\n\n**完成内容**：x。\n**交付物**：tmp 文件。\n"
+            "**验证**：x。\n**边界**：x。\n**需要谁动作**：x。\n", encoding="utf-8")
+        olds = (qt._check_delivery_fields, qt._check_code_gate,
+                qt._check_deliverables_committed, qt.QueueLock,
+                qt.apply_updates, qt._review_board_update)
+        import contextlib
+        import types as _types
+        qt._check_delivery_fields = lambda *a, **k: (True, "")
+        qt._check_code_gate = lambda *a, **k: (True, "")
+        qt._check_deliverables_committed = lambda *a, **k: (True, "", "")
+        qt.QueueLock = lambda name: contextlib.nullcontext()
+        qt.apply_updates = lambda *a, **k: None
+        qt._review_board_update = lambda *a, **k: None
+        fake_pr = _types.ModuleType("pre_review")
+        fake_pr.attach_pre_review = lambda *a, **k: None
+        import sys as _sys
+        old_pr = _sys.modules.get("pre_review")
+        _sys.modules["pre_review"] = fake_pr
+        try:
+            ok_path()
+        finally:
+            _sys.modules["pre_review"] = old_pr
+            (qt._check_delivery_fields, qt._check_code_gate,
+             qt._check_deliverables_committed, qt.QueueLock,
+             qt.apply_updates, qt._review_board_update) = olds
+
+    def test_claimed_by_role_matrix(self):
+        """实例锁匹配矩阵：裸名精确 / 同角色旧名尾缀 / 异角色拒绝。"""
+        self.assertTrue(qt._claimed_by_role("huangyaoshi", "huangyaoshi"))
+        self.assertTrue(qt._claimed_by_role("huangyaoshi", "huangyaoshi-kimi"))
+        self.assertTrue(qt._claimed_by_role("huangyaoshi", "huangyaoshi-kimi-0902"))
+        self.assertTrue(qt._claimed_by_role("laowantong", "laowantong-kimi"))
+        self.assertTrue(qt._claimed_by_role("laowantong-kimi", "laowantong-kimi"))  # 旧名实例自身精确收口
+        self.assertFalse(qt._claimed_by_role("huangyaoshi", "laowantong-kimi"))
+        self.assertFalse(qt._claimed_by_role("wangyuyan", "huangyaoshi-kimi"))
+
+    def test_claim_dash_new_name_rejected(self):
+        """裸名门禁：带 '-' 新名（不在册）claim → 拒止，队列不动。"""
+        rows = self._mkrows([("task_9999_620test", "queued", "huangyaoshi")])
+        self._setup(rows)
+        try:
+            ok, msg = qt.action_claim("task_9999_620test", "huangyaoshi-kimi")
+        finally:
+            self._teardown()
+        self.assertFalse(ok)
+        self.assertIn("实例命名铁律", msg)
+        self.assertIn("裸角色名", msg)
+
+    def test_claim_dash_registered_legacy_allowed(self):
+        """在册存量旧名（在途身份）claim 放行——不清历史，旧名自然消亡。"""
+        rows = self._mkrows([("task_9999_620test", "queued", "huangyaoshi")])
+        self._setup(rows, registry_entries={"huangyaoshi-kimi": {"role": "huangyaoshi-kimi"}})
+        try:
+            ok, msg = qt.action_claim("task_9999_620test", "huangyaoshi-kimi")
+        finally:
+            self._teardown()
+        self.assertTrue(ok, msg)
+
+    def test_claim_dash_force_ledger(self):
+        """新名 + --force → 放行且留痕（例外不得无痕，#444 同款）。"""
+        rows = self._mkrows([("task_9999_620test", "queued", "huangyaoshi")])
+        self._setup(rows)
+        try:
+            ok, msg = qt.action_claim("task_9999_620test", "huangyaoshi-kimi", force=True)
+        finally:
+            self._teardown()
+        self.assertTrue(ok, msg)
+        self.assertIn("留痕", msg)
+        line = self._ledger.read_text(encoding="utf-8")
+        self.assertIn("命名铁律", line)
+
+    def test_complete_bare_name_on_legacy_claim(self):
+        """回归红线：裸角色名收口在途旧名 claim（claimed-huangyaoshi-kimi → --instance huangyaoshi）。"""
+        rows = self._mkrows([("task_9999_620test", "claimed-huangyaoshi-kimi", "huangyaoshi")])
+        self._setup(rows)
+
+        def go():
+            ok, msg = qt.action_complete("task_9999_620test", "huangyaoshi", None)
+            self.assertTrue(ok, msg)
+            self.assertIn("pending_review", msg)
+
+        try:
+            self._teardown_paths(go, None)
+        finally:
+            self._teardown()
+
+    def test_complete_other_role_legacy_rejected(self):
+        """异角色旧名不被误收：claimed-laowantong-kimi 不能由 huangyaoshi complete。"""
+        rows = self._mkrows([("task_9999_620test", "claimed-laowantong-kimi", "laowantong")])
+        self._setup(rows)
+        try:
+            ok, msg = qt.action_complete("task_9999_620test", "huangyaoshi", None)
+        finally:
+            self._teardown()
+        self.assertFalse(ok)
+        self.assertIn("不是由 huangyaoshi 领取", msg)
+
+    def test_release_bare_name_on_legacy_claim(self):
+        """回归红线：裸角色名释放旧名在途单（claimed-huangyaoshi-kimi → release huangyaoshi）。"""
+        rows = self._mkrows([("task_9999_620test", "claimed-huangyaoshi-kimi", "huangyaoshi")])
+        self._setup(rows)
+        try:
+            ok, msg = qt.action_release("task_9999_620test", "huangyaoshi")
+        finally:
+            self._teardown()
+        self.assertTrue(ok, msg)
+        self.assertIn("已释放", msg)

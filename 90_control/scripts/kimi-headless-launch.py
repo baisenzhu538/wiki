@@ -42,7 +42,7 @@ PROMPT_TEMPLATE = """你是{role}（KDO 知识工厂角色）。工作目录 {wi
 {instruction}
 
 通用纪律（不可协商）：
-- 队列状态流转只走 python 90_control/scripts/queue_transition.py（claim <task_id> --instance {role}-kimi / complete ... --evidence ... / review ...），禁止手改队列和任务单 status。
+- 队列状态流转只走 python 90_control/scripts/queue_transition.py（claim <task_id> --instance {role} / complete ... --evidence ... / review ...），禁止手改队列和任务单 status。实例名=裸角色名（#620 老朱 09-02 铁律：工具=变量不进名字）。
 - 完工在 90_control/todos/{role}.md 追加一行（[YYYY-MM-DD HH:MM] 动作+任务号+结果）。
 - 提审前任务单内必须有五字段执行报告（**交付物**/**完成内容**/**验证**/**边界**/**需要谁动作** 各起一行）。
 - 只做本次指令范围内的事，做完收工，不扩展到其他任务。
