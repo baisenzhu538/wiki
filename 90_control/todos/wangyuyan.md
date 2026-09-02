@@ -525,3 +525,4 @@
 - [2026-09-02 22:39] 📥 新素材 6 项（P0 0）：src_wechat_2404c1658025473c.md、src_wechat_346efef2737b383b.md、src_wechat_5291b61bc722d90d.md…——请诊断编排（看板待编排段）
 - [2026-09-02 22:42] 老朱三口径落盘：四主力/实例命名铁律/hermes 保留——反馈档案+锚点已更，命名落地立 #620（黄药师，等 #619 收口后施工防锁失配）
 - [2026-09-02 22:47] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-02 22:41:38｜task_20260902_huangyaoshi-watch-inbox-pipeline-dir
+- [2026-09-02 23:02] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#619（huangyaoshi 的单，挂审 20min）（到点（节奏 30min））

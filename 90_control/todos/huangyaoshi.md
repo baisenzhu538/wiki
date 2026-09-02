@@ -436,3 +436,4 @@
 - [2026-09-02 22:42] ✅ #619 watch_inbox扫描面回补 complete 提审：SCAN_SUBDIRS四目录白名单+内部子目录(knowledge/_前缀)防重跳过+12件存量播种基线→实跑05:47批次6件全登记(看板+6/收件箱推送)+重跑幂等+回归4passed+矩阵行9同步（commit d93853fcf）
 - [2026-09-02 22:47] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#619（huangyaoshi 的单，挂审 5min）（到点（节奏 15min））
 - [2026-09-02 22:47] 📥 KDO 可领取 1 单：#620
+- [2026-09-02 23:02] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#619（huangyaoshi 的单，挂审 20min）（到点（节奏 15min））
