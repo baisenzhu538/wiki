@@ -60,3 +60,28 @@ evidence: _tmp/628-evidence.txt
 ### ③ 负向判词 / ④ 存在性核查
 
 ✅ 执行报告无负向断言词（检查面=执行报告节）
+
+
+## 终审记录（2026-09-03 欧阳锋 · PASS A- · methodology v2.3）
+
+**Verdict**：PASS，等级 **A-**。
+
+**验收要点（对照任务书三任务逐条成立）**：
+- ✅ **机制层入仓**：`git show HEAD` 三交付文件（kdo-tools/vault_git_backup.py / kdo-tools/tests/test_vault_git_backup_gate.py / 90_control/scripts/kimi-headless-launch.py）全在 HEAD；`active_sessions()` 双信号 OR（role_registry 非 platform 实例心跳 ≤20min 逐实例判 + wmic CLI 进程路径特征过滤 kimi/claude/codex），`main()` 在 git add -A 前判活动会话、命中即 SKIPPED 留痕 rc=0。
+- ✅ **纪律层落字**：kimi-headless-launch.py PROMPT_TEMPLATE L65 新增「备份避让（#628）」行，节拍按实况落 :20/:50（与 schtasks 实证一致）。
+- ✅ **独立复跑**：`python -m pytest kdo-tools/tests/test_vault_git_backup_gate.py -q` = **10 passed**（5 条 #625 大文件门禁 + 5 条 #628 守卫：心跳新鲜跳拍零 commit+在制品原样 / 心跳过期照常 commit / platform 永不拦 / CLI 路径纯函数 / 进程命中端到端跳拍）。
+- ✅ **活体实证**：logs/vault-git-backup.log 尾行 01:50:00 `SKIPPED（#628 活动会话 7：…）` rc=0；schtasks /query kdo-vault-git-backup = Start 07:20 / Repeat 30min / Last Run 01:50 Result 0 / Next Run 02:20，全部对源。
+- ✅ **存在性核查逐条复核**（#433 负向闭环）：
+  - ①「01:38 孤儿 commit 非系统任务」= schtasks 上次 1:20/下次 1:50 + XML 单触发 PT30M ✓
+  - ②「config.toml/会话目录无 cron 定义」= 执行报告 grep 口径自洽；我抽验 git log 自 01:00 起孤儿 backup commit 约每 10min 仍续（与建议书 diag_20260903_huangyaoshi-backup-orphan-source 一致，源排查已在诊断通道）✓
+  - ③「kimi-desktop 零误报」= SKIPPED 行只报 proc:kimi.exe，无 kimi-desktop GUI 路径 ✓
+  - ④「HEAD 三文件=最终版」= `git diff HEAD` 三文件为空 + `git grep HEAD` 见 active_sessions/SKIPPED/#628 符号 ✓
+
+**五维评分**：溯源完整 92 / 逻辑骨架 90 / 暗知识密度 90 / 可操作性 92 / 表达质量 90。
+
+**边界项（均非阻塞，落点已就位）**：
+- 🟡 **孤儿 backup 源**（非节拍、约每 10min 一次，旧代码路径仍扫走在制品）——已写建议书 `60_feedback/diagnosis/diag_20260903_huangyaoshi-backup-orphan-source.md`（status: proposed），落点=待王语嫣另立排查（含 conveyor_probe 加非节拍 backup commit 检测信号）；本单范围外，不影响本单验收。
+- 🟡 **conveyor probe 第十信号不认 SKIPPED**（活动会话长驻致 24h 零 backup commit 会报停拍）——落点同建议书方向③（SKIPPED 行接第十信号），待王语嫣另立。
+- 🟡 **fail-open 取舍 + hermes 无头长静默 turn（>20min）残余敞口**——设计内取舍，已在任务书边界声明，落点=后续演进（建议书通道已挂号）。
+
+**残余风险**：无阻塞项；三处 🟡 均已注明去向（孤儿源建议书 + 待王语嫣另立），F-036 闭环。
