@@ -244,7 +244,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 610 | `task_20260902_laowantong-live257-ten-finger-fragrance-cards` | Live257重讲十指讲香卡组3-4张：十指讲香framework+用数字讲故事method+发布会文案案例（华为/苹果/小米） | reviewed | laowantong | 3-4张卡+三方法记录+互链实证 | #609 后（同角色排队） | `60_feedback/tasks/task_20260902_laowantong-live257-ten-finger-fragrance-cards.md` | inbox 01:51批次分诊族A（diag_20260902_wangyuyan-inbox-batch-42）；131KB大素材逐字读W1；传播声明检查#322口径；sales域轴缺如生产者提词王语嫣审入；欧阳锋终审 |
 | 611 | `task_20260902_laowantong-yitang-methodology-batch-cards` | 一堂方法论族卡组5-7张：MUSE数据包framework+高阶Skill设计指南tool+Agent大学case+Jovida双报告case+Eason审计case+dk（🔴传播限制#322先例） | reviewed | laowantong | 5-7张卡+传播限制标注清单+互链实证 | #610 后（同角色排队） | `60_feedback/tasks/task_20260902_laowantong-yitang-methodology-batch-cards.md` | inbox 01:51批次分诊族B（diag_20260902_wangyuyan-inbox-batch-42）；素材=二等整理件标注；Eason审计🔴密级拿不准先问王语嫣；欧阳锋终审 |
 | 612 | `task_20260902_huangyaoshi-gate-suite-fixes` | 门禁顺手套件双修：F-036否定句emoji误伤豁免（报错文案提示优先）+review通过时交付卡转正提醒 | reviewed | huangyaoshi | 两处diff+回归用例×2+执行报告 | 无 | `60_feedback/tasks/task_20260902_huangyaoshi-gate-suite-fixes.md` | 欧阳锋夜班两份最小建议书并单（09-02王语嫣裁定）；小改不动状态机；欧阳锋终审 |
-| 613 | `task_20260902_laowantong-586batch-reviewedby-residue-fix` | #586批reviewed卡reviewed_by=pending元数据残留排查补齐（yaml解析禁正则；无终审佐证卡单列上报不改状态） | queued | laowantong | 排查清单+补齐diff+无佐证卡清单 | 无 | `60_feedback/tasks/task_20260902_laowantong-586batch-reviewedby-residue-fix.md` | 欧阳锋#611终审发现（09-02王语嫣裁定）；只动frontmatter三字段不动正文；欧阳锋终审 |
+| 613 | `task_20260902_laowantong-586batch-reviewedby-residue-fix` | #586批reviewed卡reviewed_by=pending元数据残留排查补齐（yaml解析禁正则；无终审佐证卡单列上报不改状态） | claimed-laowantong-kimi | laowantong | 排查清单+补齐diff+无佐证卡清单 | 无 | `60_feedback/tasks/task_20260902_laowantong-586batch-reviewedby-residue-fix.md` | 欧阳锋#611终审发现（09-02王语嫣裁定）；只动frontmatter三字段不动正文；欧阳锋终审 |
 
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
@@ -797,6 +797,8 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - [gate-blocked] task_20260902_huangyaoshi-image-detail-deadloop-fix｜09-02 08:17｜待王语嫣复核处置｜2026-09-02 08:15:02｜task_20260902_huangyaoshi-image-detail-deadloop-fix｜F-036-问题落点｜审查发现问题未给落点（F-036）：**缺陷**：无阻塞缺陷。🟡 微瑕（记录不阻断）：交付物节将 `_tmp/` 日志列为路径（机器预审已提示，按约定豁免；——必须在意见书注明去向（建议书路径 / 停｜欧阳锋
 - [gate-blocked] task_20260902_laowantong-yitang-methodology-batch-cards｜09-02 08:37｜待王语嫣复核处置｜2026-09-02 08:27:21｜task_20260902_laowantong-yitang-methodology-batch-cards｜F-034-五字段｜--evidence 文件不可读: 60_feedback/tasks/task_20260902_laowantong-yitang-methodology-batch-cards.md 五字段执行｜laowantong-kimi
 - prop_20260902_ouyangfeng-muse-reviewed-by-pending-residue.md｜09-02 08:50｜待王语嫣复核裁定
+- [gate-blocked] task_20260902_huangyaoshi-gate-suite-fixes｜09-02 09:57｜待王语嫣复核处置｜2026-09-02 09:47:40｜task_20260902_huangyaoshi-gate-suite-fixes｜F-035-负向判词｜意见书含负向断言（「未来扩词需同步」）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋
+- [gate-blocked] task_20260902_laowantong-586batch-reviewedby-residue-fix｜09-02 09:57｜待王语嫣复核处置｜2026-09-02 09:48:05｜task_20260902_laowantong-586batch-reviewedby-residue-fix｜F-035-负向判词｜意见书含负向断言（缺失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
