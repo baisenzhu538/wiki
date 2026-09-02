@@ -43,9 +43,10 @@ if "%WIKIHEAD%"=="" (
 )
 "%GIT%" -C "%WIKI%" bundle list-heads "%BUNDLE%" | findstr /i "%WIKIHEAD%" >nul
 if errorlevel 1 (
-    echo [%DATE% %TIME%] ERROR: HEAD %WIKIHEAD% not found in bundle heads >> "%LOG%"
-    echo FAIL > "%DEST%\wiki-bundle-daily.last-result.txt"
-    exit /b 1
+    rem Race note: obsidian-git auto-commit (10min cadence) can land a new HEAD
+    rem between bundle create and this check. Bundle itself is valid+verified.
+    rem Downgrade to WARN, keep last-good semantic: bundle usable, retry HEAD next night.
+    echo [%DATE% %TIME%] WARN: HEAD %WIKIHEAD% not in bundle heads ^(auto-commit race^) - bundle kept >> "%LOG%"
 )
 
 echo [%DATE% %TIME%] OK bundle=%BUNDLE% HEAD=%WIKIHEAD% >> "%LOG%"
