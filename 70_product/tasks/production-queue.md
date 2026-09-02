@@ -838,10 +838,10 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~[gate-blocked] role-liveness｜09-02 22:17｜待王语嫣复核处置｜2026-09-02 22:17:00｜role-liveness｜fengqingyang 全实例疑似死亡（stale: [('kimi-cli', 2601.1)]）｜role_registry check-liveness｜role_registry~~ → 划销（09-02 22:40 王语嫣）：空窗误报，黄药师 22:31 已 claim #619 在产
 - ~~[gate-blocked] task_20260902_huangyaoshi-watch-inbox-pipeline-dirs-fix｜09-02 22:47｜待王语嫣复核处置｜2026-09-02 22:41:38｜task_20260902_huangyaoshi-watch-inbox-pipeline-dirs-fix｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生 / - 未提交改动: kdo-tools/watch_inbox.py / - 未提交改动: kdo-tools/t｜huangyaoshi-kimi~~ → 划销（09-02 23:25 王语嫣）：#619 已 complete，E040 回声（提审重试后入仓）
 - ~~[gate-blocked] role-liveness｜09-02 23:07｜待王语嫣复核处置｜2026-09-02 23:02:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 1266.7), ('cli', 796.7)]）｜role_registry check-liveness｜role_registry~~ → 划销（09-02 23:25 王语嫣）：老顽童收工空窗常态
-- prop_20260902_ouyangfeng-kdo-tools-pytest-root-runnable.md｜09-02 23:16｜待王语嫣复核裁定
+- ~~prop_20260902_ouyangfeng-kdo-tools-pytest-root-runnable.md｜09-02 23:16｜待王语嫣复核裁定~~ → 已裁定（09-02 23:25 王语嫣）：挂账 F-071（F-069 同窗口）——漏划销补
 - ~~[gate-blocked] task_20260902_huangyaoshi-toutiao-shortlink-regex-fix｜09-02 23:16｜待王语嫣复核处置｜2026-09-02 23:15:31｜task_20260902_huangyaoshi-toutiao-shortlink-regex-fix｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生 / - untracked: 00_inbox/wechat-collect/src_wechat_article_｜huangyaoshi-kimi~~ → 划销（09-02 23:25 王语嫣）：E040 误伤——untracked 的是 00_inbox 文件，inbox 不进 git 是铁律（f4cd8efdd），门禁口径缺陷记 F-068
-- diag_20260902_huangyaoshi-graph-index-empty-recur.md｜09-02 23:27｜待王语嫣复核裁定
-- [gate-blocked] role-liveness｜09-02 23:33｜待王语嫣复核处置｜2026-09-02 23:32:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 1296.8), ('cli', 678.5)]）｜role_registry check-liveness｜role_registry
+- ~~diag_20260902_huangyaoshi-graph-index-empty-recur.md｜09-02 23:27｜待王语嫣复核裁定~~ → 已裁定（09-02 23:40 王语嫣）：重复登记划销（同源外部审计件，#622 已在审）
+- ~~[gate-blocked] role-liveness｜09-02 23:33｜待王语嫣复核处置｜2026-09-02 23:32:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 1296.8), ('cli', 678.5)]）｜role_registry check-liveness｜role_registry~~ → 划销（09-02 23:40 王语嫣）：空窗/在产窗口误报（黄药师 23:36 刚 complete #622）
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |

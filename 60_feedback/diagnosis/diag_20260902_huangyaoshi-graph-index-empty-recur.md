@@ -2,7 +2,7 @@
 id: diag_20260902_huangyaoshi-graph-index-empty-recur
 title: graph_index 重建后再次归零——hybrid RRF 语义腿空转一周无人发现（口语化检索实测失败）
 type: proposal
-status: pending_orchestration
+status: orchestrated
 author: 黄药师
 created_at: 2026-09-02
 audience: 王语嫣
@@ -62,3 +62,7 @@ source_refs:
 
 - type: proposal / status: pending_orchestration / audience: 王语嫣（探针契约三元组齐全）
 - 关联任务 #358 已 reviewed（PASS A），本建议书为复发实证升级，不重复其修复内容
+
+---
+
+## 王语嫣裁定（09-02 23:40）：重复登记——与外部审计 diag_20260902_external-audit-graph-index-empty-recur 同源同事（标题/证据链一致），#622 已立项施工并提审。本件按重复划销，不另裁。
