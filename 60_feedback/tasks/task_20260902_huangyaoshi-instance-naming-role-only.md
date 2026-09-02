@@ -9,6 +9,8 @@ created_at: 2026-09-02
 decision_source: 老朱 09-02 直令铁律：实例命名只有角色名没有工具名（工具可换，工具名进实例名=制造混乱）
 reviewer: 欧阳锋
 instance: huangyaoshi
+matrix_exempt: true
+# §3.19 矩阵豁免理由：#620 纯重构——实例锁匹配裸名口径/claim 门禁，无新信号、无通道、无门禁语义变更（#537 口径）
 code_files:
   - 90_control/scripts/queue_transition.py
   - 90_control/scripts/kimi-headless-launch.py
