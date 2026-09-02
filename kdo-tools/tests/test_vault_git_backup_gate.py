@@ -8,8 +8,10 @@
 大文件用 truncate 造逻辑大小（NTFS 稀疏写，秒级），门禁读的是 st_size 逻辑大小。
 """
 import importlib.util
+import json
 import subprocess
 import sys
+import time
 from pathlib import Path
 
 _SPEC = importlib.util.spec_from_file_location(
@@ -86,6 +88,7 @@ def test_main_commits_rest_when_big_file_blocked(tmp_path, monkeypatch):
     repo = _repo(tmp_path, monkeypatch)
     _big(repo, "huge.bin", vb.HARD_LIMIT_BYTES + 1)
     (repo / "small.txt").write_text("y\n", encoding="utf-8")  # 小变更
+    monkeypatch.setattr(vb, "active_sessions", lambda: [])  # #628 守卫关（测试环境无关进程不干扰）
     rc = vb.main()
     assert rc == 0
     committed = _git(repo, "show", "--name-only", "--pretty=format:", "HEAD").stdout
@@ -97,7 +100,83 @@ def test_main_only_big_change_no_commit(tmp_path, monkeypatch):
     """全部暂存变更被硬拦 → 不产生空 commit，rc=1 且 stderr 有提示。"""
     repo = _repo(tmp_path, monkeypatch)
     _big(repo, "huge.bin", vb.HARD_LIMIT_BYTES + 1)
+    monkeypatch.setattr(vb, "active_sessions", lambda: [])  # #628 守卫关
     head_before = _git(repo, "rev-parse", "HEAD").stdout.strip()
     rc = vb.main()
     assert rc == 1
     assert _git(repo, "rev-parse", "HEAD").stdout.strip() == head_before
+
+
+def _no_ambient_procs(monkeypatch):
+    """屏蔽环境进程干扰：测试机/CI 上在跑的 claude/codex 会让守卫误跳拍。"""
+    monkeypatch.setattr(vb, "_agent_processes", lambda: [])
+
+
+def _write_registry(tmp_path: Path, monkeypatch, age_min: float):
+    """写一个 tmp role-registry（单实例，心跳 age_min 分钟前）并挂到模块常量。"""
+    reg = tmp_path / "role-registry.json"
+    reg.write_text(json.dumps({"tester": {"instances": [
+        {"tool": "cli", "kind": "cli", "heartbeat_ts": time.time() - age_min * 60}]}}),
+        encoding="utf-8")
+    monkeypatch.setattr(vb, "REGISTRY_FILE", reg)
+
+
+def test_registry_fresh_skips_beat(tmp_path, monkeypatch, capsys):
+    """#628 互撞防护：注册表心跳新鲜（5min）→ main 跳拍 SKIPPED 留痕，零 commit。"""
+    repo = _repo(tmp_path, monkeypatch)
+    _no_ambient_procs(monkeypatch)
+    (repo / "wip.md").write_text("wip\n", encoding="utf-8")  # 未提交在制品
+    _write_registry(tmp_path, monkeypatch, age_min=5)
+    head_before = _git(repo, "rev-parse", "HEAD").stdout.strip()
+    rc = vb.main()
+    assert rc == 0
+    assert _git(repo, "rev-parse", "HEAD").stdout.strip() == head_before  # 未收走
+    assert "SKIPPED" in capsys.readouterr().out
+    dirty = _git(repo, "status", "--porcelain").stdout
+    assert "wip.md" in dirty  # 在制品原样留在工作区
+
+
+def test_registry_stale_proceeds_to_commit(tmp_path, monkeypatch):
+    """注册表心跳过期（60min）→ 不拦，正常快照 commit。"""
+    repo = _repo(tmp_path, monkeypatch)
+    _no_ambient_procs(monkeypatch)
+    (repo / "done.md").write_text("done\n", encoding="utf-8")
+    _write_registry(tmp_path, monkeypatch, age_min=60)
+    head_before = _git(repo, "rev-parse", "HEAD").stdout.strip()
+    rc = vb.main()
+    assert rc == 0
+    assert _git(repo, "rev-parse", "HEAD").stdout.strip() != head_before
+
+
+def test_platform_instance_never_counts(tmp_path, monkeypatch):
+    """platform（hermes 网关类）心跳再新鲜也不拦——常驻平台不是会话。"""
+    reg = tmp_path / "role-registry.json"
+    reg.write_text(json.dumps({"wangyuyan": {"instances": [
+        {"tool": "hermes", "kind": "platform", "heartbeat_ts": time.time()}]}}),
+        encoding="utf-8")
+    monkeypatch.setattr(vb, "REGISTRY_FILE", reg)
+    assert vb._registry_actives() == []
+
+
+def test_cli_path_filter_pure():
+    """进程面只认 CLI 路径特征（纯函数）：claude/codex/.kimi-code 算，kimi-desktop GUI 不算。"""
+    out = ("ExecutablePath=C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\"
+           "@anthropic-ai\\claude-code\\bin\\claude.exe\n"
+           "ExecutablePath=C:\\Users\\Administrator\\AppData\\Local\\Programs\\kimi-desktop\\Kimi.exe\n"
+           "ExecutablePath=C:\\Users\\Administrator\\.kimi-code\\bin\\kimi.exe\n"
+           "ExecutablePath=C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@openai\\codex\\"
+           "node_modules\\@openai\\codex-win32-x64\\vendor\\x86_64-pc-windows-msvc\\bin\\codex.exe\n")
+    assert vb._filter_cli_paths(out) == ["claude.exe", "codex.exe", "kimi.exe"]
+
+
+def test_active_sessions_skip_integration(tmp_path, monkeypatch, capsys):
+    """端到端：#628 活动会话存在（进程面命中）→ main 跳拍，工作区不被收走。"""
+    repo = _repo(tmp_path, monkeypatch)
+    (repo / "wip.md").write_text("wip\n", encoding="utf-8")
+    monkeypatch.setattr(vb, "REGISTRY_FILE", tmp_path / "no-registry.json")  # 无注册表
+    monkeypatch.setattr(vb, "_agent_processes", lambda: ["claude.exe"])
+    head_before = _git(repo, "rev-parse", "HEAD").stdout.strip()
+    rc = vb.main()
+    assert rc == 0
+    assert _git(repo, "rev-parse", "HEAD").stdout.strip() == head_before
+    assert "SKIPPED" in capsys.readouterr().out

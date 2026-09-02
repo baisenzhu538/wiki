@@ -62,6 +62,7 @@ PROMPT_TEMPLATE = """你是{role}（KDO 知识工厂角色）。工作目录 {wi
 - 完工在 90_control/todos/{role}.md 追加一行（[YYYY-MM-DD HH:MM] 动作+任务号+结果）。
 - 提审前任务单内必须有五字段执行报告（**交付物**/**完成内容**/**验证**/**边界**/**需要谁动作** 各起一行）。
 - 只做本次指令范围内的事，做完收工，不扩展到其他任务。
+- 备份避让（#628）：vault 自动备份每 30min 一拍（kdo-vault-git-backup，现落 :20/:50，以 logs/vault-git-backup.log 尾行为准）——拍前 5 分钟禁 stash/worktree 切换类操作，未提交在制品保持落盘可见即可（有活动会话备份会自行跳拍）；长任务隔离验证一律 git worktree。
 """
 
 

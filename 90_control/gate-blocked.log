@@ -579,3 +579,5 @@
 2026-09-03 00:46:03｜task_20260902_laowantong-candy-bonus-increment-cards｜F-035-负向判词｜意见书含负向断言（不存在）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋
 2026-09-03 01:00:09｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 1384.9), ('cli', 30.5)]）｜role_registry check-liveness｜role_registry
 2026-09-03 01:06:55｜task_20260902_huangyaoshi-gate-suite-batch2｜F-035-负向判词｜意见书含负向断言（丢失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋
+2026-09-03 01:33:13｜task_20260903_huangyaoshi-infra-registry-and-archive-test-fix｜F-034-五字段｜--evidence 文件不可读: 6资产登记§3+5行/§3b+1行（最近验证全实证）+§0工具族42重计；queue-archive口径②按任务日期归月+fixture动态日期化；test_inf｜huangyaoshi
+2026-09-03 01:37:01｜建议书_20260902_调研域skill化缺口与四类型整合.md｜near-miss-三元组（#506）｜status=pending-review 疑似待编排但非 pending_orchestration｜conveyor_probe

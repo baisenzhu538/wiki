@@ -15,9 +15,17 @@ vault 内无脚本、节拍随会话生死；2026-08-26 22:56 系统重启杀掉
   stderr 打印 + 台账 90_control/large-file-gate.log 留痕；
 - >15MB → WARNING 打印 + 台账（不拦）。
 背景：391MB zip 经本脚本 add -A 静默入仓 → GitHub 100MB 硬限断 push 3 个月（2026-09-02 实证）。
+
+#628 在制品互撞防护（备份前活动会话检测）：git add -A 会把 agent 未提交在制品整批
+扫入 backup commit——00:32 事故实证（headless 施工中被收走，stash pop 冲突 aborted
+险些丢工作）。备份前查两路信号：①role_registry 非 platform 实例心跳 ≤20min；
+②运行中 agent CLI 进程（按可执行路径特征判别，kimi-desktop GUI/hermes 网关常驻不算）。
+任一命中 → 本拍跳过（留痕 SKIPPED 行）——宁可少一拍备份，不可收走在制品。
 """
+import json
 import subprocess
 import sys
+import time
 from datetime import datetime
 from pathlib import Path
 
@@ -32,6 +40,14 @@ ROOT = Path(__file__).resolve().parent.parent
 HARD_LIMIT_BYTES = 100 * 1024 * 1024
 WARN_LIMIT_BYTES = 15 * 1024 * 1024
 GATE_LOG = ROOT / "90_control" / "large-file-gate.log"
+
+# #628 互撞防护常量
+ACTIVE_WINDOW_SECONDS = 20 * 60  # role_registry 实例心跳 20min 内 = 活动会话
+REGISTRY_FILE = ROOT / "90_control" / "role-registry.json"
+# 进程面=拉起器 TOOLS 表 CLI 可执行路径特征（kimi CLI 在 ~/.kimi-code；claude/codex 在
+# npm node_modules）。kimi-desktop GUI 与 hermes 网关（Services 常驻）不算——GUI 不碰
+# vault 树，网关是平台驻留非会话面（全算=备份永久跳拍）。
+CLI_PATH_MARKERS = (".kimi-code", "claude-code", "codex-win32")
 
 _EDU = "GitHub 100MB 硬限，391MB zip 曾断 push 3 个月（2026-09-02 实证）"
 
@@ -51,6 +67,67 @@ def _log_gate(lines: list[str]) -> None:
                 f.write(f"{ts}｜{line}\n")
     except Exception as e:
         print(f"⚠️ large-file-gate 台账写入失败（不阻断备份）: {e}", file=sys.stderr)
+
+
+def _registry_actives() -> list[str]:
+    """role_registry 心跳活性：非 platform 实例心跳 ≤20min = 活动（逐实例判）。
+
+    不用 role 级 last_heartbeat 字段——该字段含 ts=0 占位实例的污染值（实测漂移）。
+    注册表不可读/损坏 → fail-open 返回空（真活动会话还有进程信号兜底）。
+    """
+    try:
+        reg = json.loads(REGISTRY_FILE.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return []
+    now = time.time()
+    actives = []
+    for role, info in reg.items():
+        for inst in info.get("instances", []):
+            if inst.get("kind") == "platform":
+                continue  # hermes 网关等平台驻留不是会话
+            ts = inst.get("heartbeat_ts") or 0
+            if ts and now - ts <= ACTIVE_WINDOW_SECONDS:
+                actives.append(f"{role}({inst.get('tool', '?')})")
+    return actives
+
+
+def _filter_cli_paths(text: str) -> list[str]:
+    """从 wmic ExecutablePath 输出筛 agent CLI 进程（路径特征判别，纯函数可单测）。"""
+    hits = []
+    for line in text.splitlines():
+        if line.startswith("ExecutablePath="):
+            path = line.split("=", 1)[1].strip()
+            if any(m in path.lower() for m in CLI_PATH_MARKERS):
+                hits.append(Path(path).name.lower())
+    return sorted(set(hits))
+
+
+def _agent_processes() -> list[str]:
+    """运行中 agent CLI 进程（kimi/claude/codex，按可执行路径特征判别）。
+
+    kimi-desktop GUI（不碰 vault 树）与 hermes 网关（Services 常驻）不在 CLI_PATH_MARKERS。
+    查询失败 → fail-open（不拦备份）。
+    """
+    try:
+        r = subprocess.run(
+            ["wmic", "process", "where",
+             "name='kimi.exe' or name='claude.exe' or name='codex.exe'",
+             "get", "ExecutablePath", "/format:list"],
+            capture_output=True, text=True, encoding="utf-8", errors="replace", timeout=30)
+    except (OSError, subprocess.SubprocessError):
+        return []
+    return _filter_cli_paths(r.stdout)
+
+
+def active_sessions() -> list[str]:
+    """#628：备份前活动 agent 会话检测（两信号 OR，任一命中即本拍跳过）。
+
+    ①role_registry 非 platform 实例心跳 ≤20min；②运行中 agent CLI 进程。
+    读失败/查询失败均 fail-open 不拦备份。
+    """
+    actives = _registry_actives()
+    actives += [f"proc:{p}" for p in _agent_processes()]
+    return actives
 
 
 def gate_staged_large_files() -> tuple[list[str], list[str]]:
@@ -87,6 +164,12 @@ def gate_staged_large_files() -> tuple[list[str], list[str]]:
 def main() -> int:
     if not run(["git", "status", "--porcelain"]).stdout.strip():
         return 0  # 无变更静默
+    actives = active_sessions()
+    if actives:
+        # #628 互撞防护：宁可少一拍备份，不可收走在制品（00:32 stash pop 冲突实证）
+        print(f"vault backup: {datetime.now():%Y-%m-%d %H:%M:%S} SKIPPED"
+              f"（#628 活动会话 {len(actives)}：{', '.join(actives)}）")
+        return 0
     run(["git", "add", "-A"])
     blocked, _warned = gate_staged_large_files()
     if blocked and not run(["git", "diff", "--cached", "--name-only"]).stdout.strip():
