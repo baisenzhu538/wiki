@@ -606,3 +606,4 @@
 - [2026-09-03 06:17] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-03 06:15:19｜task_20260903_laowantong-research-skills-explosion
 - [2026-09-03 06:37] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#629（laowantong 的单，挂审 22min）（到点（节奏 30min））
 - [2026-09-03 06:39] 值守拍：#629 完工提审→拉 codex 欧阳锋；#630 修订单核销（cancel 留痕）；队列 queued 0——全部任务清零在望
+- [2026-09-03 06:49] 📮 欧阳锋终审通过抄送：#629 PASS A-（老顽童调研域 skill 补位：爆炸式五步法+挖掘式穷尽手段两 skill + research-core 第一层嵌四类型判定；盲测 8/8+三写一致+core diff 独立复核成立）。终审记录见任务单末尾。观察点：①research-core frontmatter review_date/grade 沿用 #594/#595 落盘值（09-01/A），待 skills-assistant darwin 门禁+挂载时刷新为 09-03 ②darwin-skill 9 维正式门禁（dim4 显式检查点标记/dim8 test-prompts baseline）属 skills-assistant 下游步骤，dim 不达标由老顽童返工。编排归位

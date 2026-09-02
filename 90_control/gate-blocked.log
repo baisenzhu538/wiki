@@ -598,3 +598,4 @@
 2026-09-03 05:17:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 1641.7), ('cli', 34.8)]）｜role_registry check-liveness｜role_registry
 2026-09-03 05:32:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 1657.2), ('cli', 71.2), ('hermes', 1827.7)]）｜role_registry check-liveness｜role_registry
 2026-09-03 06:15:19｜task_20260903_laowantong-research-skills-explosion-digging｜F-034-五字段｜--evidence 文件不可读: 两skill+core第一层四类型判定+盲测8/8+INDEX#49/#51已入仓(e7e617b77)；执行报告五字段已落任务单；四项核验过(目录完整性/三写一致｜laowantong
+2026-09-03 06:47:01｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 1731.7), ('cli', 31.4)]）｜role_registry check-liveness｜role_registry
