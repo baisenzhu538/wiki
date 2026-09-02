@@ -35,6 +35,8 @@ related:
 - '[[tool-ai-koupen-training-partner-design]]'
 - '[[concept-truman-feature-four-scenarios]]'
 - '[[framework-truman-feature-layered-system]]'
+- '[[case-yitang-eason-truth-delivery-audit]]'
+- '[[dk-yitang-fact-three-questions-trust-tiers]]'
 discoverable_by:
 - Agent大学
 - Agent教育

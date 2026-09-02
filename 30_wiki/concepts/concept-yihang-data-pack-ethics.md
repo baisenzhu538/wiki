@@ -36,6 +36,8 @@ discoverable_by:
 related:
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[framework-yihang-knowledge-data-decoupling]]'
+- '[[case-yitang-eason-truth-delivery-audit]]'
+- '[[dk-yitang-fact-three-questions-trust-tiers]]'
 tags:
   - audience:general
   - scene:reference

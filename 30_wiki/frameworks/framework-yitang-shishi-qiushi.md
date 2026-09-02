@@ -43,7 +43,9 @@ tags:
 - audience:decision-maker
 - content-format:framework
 - source-person:Truman
-related: null
+related:
+- '[[case-yitang-eason-truth-delivery-audit]]'
+- '[[dk-yitang-fact-three-questions-trust-tiers]]'
 created_at: 2026-07-03
 updated_at: '2026-07-04'
 discoverable_by: null

@@ -36,6 +36,7 @@ related:
 - '[[framework-kdo-self-attack]]'
 - '[[concept-kdo-component-library]]'
 - '[[concept-agent-university]]'
+- '[[concept-yihang-data-pack-ethics]]'
 discoverable_by:
 - 事实三问
 - 信任等级
@@ -68,7 +69,7 @@ quality_labels:
 
 > ⚠️ **传播限制标注：源文档密级 🔴「CHO 私有——仅限 Truman 审阅」。本卡只萃取可迁移的方法结构（已脱敏，不含审计事件细节），仅限内部知识库使用，禁止外传、禁止公开发布。**（比照 #322 Candy 卡先例）
 
-> **定位声明**：本卡属于一堂「实事求是」方法论族（上位卡 [[framework-yitang-shishi-qiushi]]）的 **AI Agent 场景适配层**——课程版讲创业者怎么想，本卡讲 AI 团队怎么交付。实证案例见 [[case-yitang-eason-truth-delivery-audit]]（本卡的每一个方法都来自该案的补丁包）。
+> **定位声明**：本卡属于一堂「实事求是」方法论族（上位卡 [[framework-yitang-shishi-qiushi]]）的 **AI Agent 场景适配层**——课程版讲创业者怎么想，本卡讲 AI 团队怎么交付。实证案例见 [[case-yitang-eason-truth-delivery-audit]]（本卡的每一个方法都来自该案的补丁包）。课程版通用概念（主观-客观连续谱、实事/求是六段位、十大坑原始定义）已由 [[framework-yitang-shishi-qiushi]] 与 [[tool-yitang-shishi-qiushi-cheat-sheet]] 及坑位 case 族存量卡覆盖，本卡不重复，只落 Agent 适配增量。
 
 ## 原始表述
 
