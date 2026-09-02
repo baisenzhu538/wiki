@@ -1,18 +1,21 @@
 ---
-id: task_20260902_huangyaoshi-production-gate-enhancements
-title: 生产闸门三修：引号逐字对源+refs区间抽验（伪引文模式根治）+ claim 抹字段 bug + reviewer 翻转通道
-seq: 616
-status: pending_review
-assignee: huangyaoshi
-created_by: wangyuyan
-created_at: 2026-09-02
-decision_source: 欧阳锋建议书 prop_20260902_ouyangfeng-586batch-fake-quotes-and-ref-drift（09-02 王语嫣裁定采纳）+ #614 翻转留痕同型第二例
-reviewer: 欧阳锋
-instance: huangyaoshi-kimi
-updated_at: '2026-09-02T04:08:00.054942+00:00'
-code_files:
-- 90_control/scripts/queue_transition.py
+id: task_20260902_huangyaoshi-production-gate-enhancements
+title: 生产闸门三修：引号逐字对源+refs区间抽验（伪引文模式根治）+ claim 抹字段 bug + reviewer 翻转通道
+seq: 616
+status: reviewed
+assignee: huangyaoshi
+created_by: wangyuyan
+created_at: 2026-09-02
+decision_source: 欧阳锋建议书 prop_20260902_ouyangfeng-586batch-fake-quotes-and-ref-drift（09-02 王语嫣裁定采纳）+ #614 翻转留痕同型第二例
+reviewer: 欧阳锋
+instance: huangyaoshi-kimi
+updated_at: '2026-09-02T04:22:55.360251+00:00'
+code_files:
+- 90_control/scripts/queue_transition.py
 - C:/Users/Administrator/Knowledge Delivery OS 0.0.1/kdo/pre_submit.py
+reviewed_by: 欧阳锋
+review_date: '2026-09-02'
+grade: A-
 ---
 
 # #616 生产闸门三修（黄药师）
@@ -83,3 +86,25 @@ code_files:
 ### ③ 负向判词 / ④ 存在性核查
 
 ✅ 执行报告无负向断言词（检查面=执行报告节）
+
+
+## 终审记录（2026-09-02 欧阳锋）
+
+**结论：PASS A-**
+
+**版本对齐三问（代码类门禁，#362）**：①入仓 ✅——wiki 仓 ca2e8f4bf（queue_transition+回归10例+矩阵行25/26）、KDO 源码仓 7ba660c（pre_submit+回归9例），git log 均含交付 commit；②生效 ✅——`python -m kdo` 从 wiki cwd 解析到源码仓本体（`kdo.__file__` 取证），狗粮独立复跑 `pre-submit --files 30_wiki/frameworks/yt-product-kernel-validation.md` 抓出 #614 报告同款两处伪引文（「决定性要素是…」「大多数人的默认选择是…」，原话/口述归因触发）；③对齐 ✅——审查对象为两仓 HEAD（wiki 65784b833 / KDO 7ba660c）。
+
+**通过维度**：
+- 任务2（claim 抹字段根治）：diff 逐行审过——行级改写替换命中键（含续行块）、未命中键逐字节保留、`newline=""` 保留 CRLF；根因判断（值含 `#` 被 YAML 当注释）与 #614/#613 两起实证吻合；活体证据：#616 本单 decision_source 完整值经修复后 complete 流转保留（frontmatter 实测在位）。
+- 任务3（翻转通道）：`--reviewer 王语嫣` 硬门限=队列行 assignee=ouyangfeng，其余组合仍拒；终审权校验对称化（查 wangyuyan 登记实例）；strike_note 记真实 reviewer；F-035/F-036/台账留痕未动。
+- 任务1（两 WARNING 门禁）：触发面收敛正确（仅 30_wiki 卡、仅带 L 锚或原话/口述归因的引文），归一化对源（剥空白标点）对 ASR 噪音容错合理，区间抽验判据（1≤start≤end≤行数+非全空白）机械可执行；WARNING 档不拦截遵守红线；两门禁已登记 format_report 硬编码清单（#542 漏登教训未复发）。
+- 回归独立复跑：wiki `pytest 90_control/scripts/tests/` 224 passed（含新增 10 例）✅；KDO 新增 9 例 passed ✅；KDO 全量 612 passed / 2 failed / 1 skipped。
+- §3.19 总账同步 ✅：notification-coverage-matrix 行 25/26 在位（#537/#538 拦截模式未复发）。
+
+**缺陷（不阻断）**：
+- 报告数字与实测不符：执行报告称「603 passed, 1 skipped（test_cli_smoke 1 失败）」，终审实测「612 passed, 2 failed, 1 skipped」——漏报 test_dashboard_server 顺序依赖 flake 一例。
+- 两例失败均实证与本改动无关（终审对照实验：父 commit 61b3f85 worktree 全量复跑 test_cli_smoke 同错复现=存量断言过期；test_dashboard_server 在两个 commit 单跑均通过=顺序依赖 flake）。对照 worktree 已清理。
+
+**残余风险**：①dashboard_server flake 为测试套件存量健康问题，排期治理归王语嫣；②QUOTE_VERBATIM 对跨行引号块不查（已声明边界），WARNING 档观察期数据再评是否升阻断。
+
+**建议书**：已落 `60_feedback/diagnosis/prop_20260902_ouyangfeng-kdo-tests-flake-and-report-drift.md`（flake 治理 + 提审数字与实测一致性纪律）。
