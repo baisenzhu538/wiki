@@ -1,0 +1,546 @@
+kimi version 0.39.1
+• Let me do the startup reads.- [2026-09-02 21:42] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-02 21:57] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-02 22:06] 急单（不走队列，老朱直令）：wiki-bundle-backup.bat 滚动保留 7→4（L60 cleanup GTR 7→4 + 注释同步）；D:\KDO-memory 现存 4 份 bundle，按指令不删存量；原因=D盘130G仅剩9.8G，7份滚动超承载
+- [2026-09-02 22:07] 【施工完成】#618 KDO测试flake治理：smoke断言对齐SQLite schema + dashboard早退读体根除RST flake（附带修复derived_outputs持久化真回归）→ KDO仓commit db343f7，全量回归614 passed/1 skipped，已提审待欧阳锋终审
+- [2026-09-02 22:14] ✅ KDO 终审通过 1 单：#618——你的单过了，见任务单终审记录
+- [2026-09-02 22:17] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-02 22:32] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-02 22:42] ✅ #619 watch_inbox扫描面回补 complete 提审：SCAN_SUBDIRS四目录白名单+内部子目录(knowledge/_前缀)防重跳过+12件存量播种基线→实跑05:47批次6件全登记(看板+6/收件箱推送)+重跑幂等+回归4passed+矩阵行9同步（commit d93853fcf）
+- [2026-09-02 22:47] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#619（huangyaoshi 的单，挂审 5min）（到点（节奏 15min））
+- [2026-09-02 22:47] 📥 KDO 可领取 1 单：#620
+- [2026-09-02 23:02] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#619（huangyaoshi 的单，挂审 20min）（到点（节奏 15min））
+- [2026-09-02 23:16] ✅ #621 头条短链is/XXX正则修复 complete 提审：is/? 一行兼容两形态+docstring同步（随vault backup入仓1f89e2d86）+老朱链接端到端落inbox实证（src_wechat_article_tt_af50baaada5fc2f2.md 2731字+知识化+seen）+回归12passed（执行报告commit e1c437f05；claim走了--force留痕：急单插队压过#619挂审）
+- [2026-09-02 23:17] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#621（huangyaoshi 的单，挂审 1min）（到点（节奏 15min））
+- [2026-09-02 23:17] ✅ KDO 终审通过 1 单：#619——你的单过了，见任务单终审记录
+- [2026-09-02 23:27] 📥 KDO 可领取 1 单：#622
+- [2026-09-02 23:32] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-02 23:37] ✅ KDO 终审通过 1 单：#621——你的单过了，见任务单终审记录
+- [2026-09-02 23:36] ✅ #622 graph_index重建+哨兵 complete 提审：先删后建全量重建（2428页/5267chunks/6705relations，_tmp/622-graph-rebuild.log）+口语化查询前后对照（0命中→转化率案例卡命中）+conveyor_probe第十一信号（空/0records/落后search_index 48h，沿触发幂等只告警）+回归47passed+矩阵行27同步（claim曾被并发覆写，#621 reviewed后正常claim完成）
+- [2026-09-02 23:47] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-03 00:07] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+The task: ①#622 rework — the review FAIL point: sentinel code conveyor_probe.py + tests + matrix are all in workspace but not committed — E040 not committed = doesn't exist; after committing, complete 622 and resubmit. ②Then claim #625 （门禁套件批2) per queue.
+
+  Let me check cron (startup step says CronList check), but task instruction says just do the work. Let me check the #622 task file and git status first. M "30_wiki/frameworks/framework-\344\270\200\345\240\202-\345\244\215\347\233\230\346\234\254\350\264\250\344\270\216\344\270\211\350\246\201\347\264\240.md"
+ M 90_control/l1-size.log
+ M 90_control/role-registry.json
+ M 90_control/scripts/.derived-hashes.json
+ M 90_control/todos/huangyaoshi.md
+ M 90_control/todos/laowantong.md
+ M 90_control/todos/ouyangfeng.md
+ M kdo-tools/live86candy_blocks.json
+ M logs/conveyor-probe.log
+ M logs/l1-capture.log
+ M logs/role-clock.log
+?? kdo-tools/item_probe.cjs
+?? kdo-tools/live86candy.md
+?? kdo-tools/segmented_extract2.cjs
+?? logs/headless-huangyaoshi-20260903-001205.log
+?? logs/headless-laowantong-20260903-000821.log
+Cron clock missing — need to rebuild (per startup 0). Let me create the cron. Also read the task files. Note conveyor_probe.py isn't in git status — meaning it's not in workspace? The FAIL said "conveyor_probe.py+测试+matrix 全在工作区未 commit". But git status shows no conveyor_probe.py untracked. Maybe it's in a different repo — the task said "E040 未入仓=不存在" — perhaps the KDO repo is separate (kdo-tools has its own git?). Previous entries mention "KDO仓commit db343f7" and vault commits. Let me check: conveyor_probe likely lives in kdo-tools which may be a separate git repo.
+
+• 门铃丢了，先重建 15min 时钟；再看 #622 任务单与 conveyor_probe 所在仓库状态。./90_control/kdo-seed/seed/kdo-tools/conveyor_probe.py
+./kdo-tools/conveyor_probe.py
+./kdo-tools/__pycache__/conveyor_probe.cpython-312.pyc
+./kdo-tools/__pycache__/conveyor_probe.cpython-313.pyc
+
+
+• The vault repo git status earlier showed no conveyor_probe.py change. The files live in kdo-tools/... check if kdo-tools is a separate git repo. Earlier `ls kdo-tools/.git` printed nothing before find results — so no .git there. But vault git status didn't show conveyor_probe.py modified. Wait — vault repo HEAD=6d22f0f92 referenced in review... they did `git show HEAD:kdo-tools/conveyor_probe.py` — so it IS in the vault repo. But my `git status --short | head -40` was truncated at 40 lines? It showed 15 lines only. Hmm, it showed head -40 but only ~15 lines. No conveyor_probe there. Maybe vault repo has multiple... Let me check git status for those specific files. Also maybe vault repo root is elsewhere (parent?). Let me check.---
+20bd9c763 vault backup: 2026-09-03 00:12:24
+3207c1d8d 编排：#625门禁套件批2立项+#622FAIL返工拉起
+32ad337f5 chore(queue): #624 claim by laowantong-kimi
+---
+Interesting — the files show no changes vs HEAD? That means they were committed already? Check git log for conveyor_probe.py. The vault backup at 00:12:24 might have swept them in. Let me check.20ac959eb fix(laowantong): GitHub remote 恢复+391MB zip 历史剔除——push 链路全面修复，弹窗根因(upstream 缺失)解决
+bb51502d4 feat(#607): vault backup系统级调度化（schtasks kdo-vault-git-backup 30min S4U）+探针第十信号backup停拍>24h报警+矩阵行24
+80acead28 #568 GBK族根治：subprocess指定utf-8/replace+fail-open门禁可见化+入口reconfigure补齐+probe通知打印走stderr by huangyaoshi
+---
+commit 20bd9c7636a13590965d437bbcfa70bf8523dad3
+Author: Linhai Zhu <baisenzhu538@gmail.com>
+Date:   Thu Sep 3 00:12:24 2026 +0800
+
+    vault backup: 2026-09-03 00:12:24
+
+ 90_control/l1-size.log                        |    1 +
+ 90_control/role-registry.json                 |    2 +-
+ 90_control/scripts/.derived-hashes.json       |    2 +-
+ 90_control/todos/huangyaoshi.md               |    1 +
+ 90_control/todos/laowantong.md                |    1 +
+ 90_control/todos/ouyangfeng.md                |    1 +
+ kdo-tools/item_probe.cjs                      |   89 +
+ kdo-tools/live86candy.md                      | 2717 +++++++++++++++++++++++++
+ kdo-tools/live86candy_blocks.json             | 1196 +++++++++++
+ kdo-tools/segmented_extract2.cjs              |   94 +
+ logs/conveyor-probe.log                       |    8 +
+ logs/headless-huangyaoshi-20260903-001205.log |    0
+ logs/headless-laowantong-20260903-000821.log  |    0
+ logs/l1-capture.log                           |    4 +
+ logs/role-clock.log                           |    5 +
+ 15 files changed, 4119 insertions(+), 2 deletions(-)
+---
+2
+conveyor_probe.py HEAD contains `_scan_graph_index_health` (count 2). So which commit brought the sentinel code in? The last commit touching conveyor_probe.py listed is 20ac959eb (laowantong fix?)... that's odd. Let me check `git log -S _scan_graph_index_health --oneline -- kdo-tools/conveyor_probe.py` to see when sentinel entered HEAD. And check tests + matrix in HEAD.20ac959eb fix(laowantong): GitHub remote 恢复+391MB zip 历史剔除——push 链路全面修复，弹窗根因(upstream 缺失)解决
+---
+25
+---
+40:| 27 | graph_index 空目录/0 records/陈旧超 48h | conveyor_probe 第十一信号 `_scan_graph_index_health`（空目录/缺失→报；graphml `<node` 字节扫描 0 节点→报；陈旧口径=graphml mtime 落后 search_index.json 超 48h——#356 双索引同步语义，规避手动重建节奏的绝对时间误报；沿触发幂等，恢复重新武装，原因切换重报；只告警不动作） | 并入第九信号 infra_alerts 通道：gate-blocked.log 台账 + 推王语嫣 | 王语嫣 | defer（同第九信号口径，台账恒写） | #622（08-31 事故清空 graph_index 语义腿空转 2 天无人发现；「修完没加哨兵=同类事故必再发」#357/#358 模式闭环） |
+Interesting — the sentinel code IS in HEAD already, brought in by commit 20ac959eb (laowantong's push repair commit, which apparently swept up the working tree). So the P0 FAIL point "未入仓" has been inadvertently resolved? Let me verify: check commit 20ac959eb contents and when it happened relative to the FAIL review (FAIL was written 2026-09-02, review said HEAD=6d22f0f92 at 23:38). Commit 20ac959eb — check date and whether it includes conveyor_probe + tests + matrix + derived-hashes.commit 20ac959eb6b226f1f75bb043550ee0505d9c8755
+Author: Linhai Zhu <baisenzhu538@gmail.com>
+Date:   Wed Sep 2 23:44:40 2026 +0800
+
+    fix(laowantong): GitHub remote 恢复+391MB zip 历史剔除——push 链路全面修复，弹窗根因(upstream 缺失)解决
+
+ .../src_2026-09-02_wechat_af50baaada5fc2f2.md      | 178 +++++
+ ...gfeng-complete-gate-uncommitted-deliverables.md |  16 +
+ ...2_ouyangfeng-toutiao-shortlink-canonical-key.md |   5 +
+ 90_control/gate-blocked.log                        |   1 +
+ 90_control/l1-size.log                             |   1 +
+ 90_control/notification-coverage-matrix.md         |   1 +
+ 90_control/role-registry.json                      |   4 +-
+ 90_control/scripts/.derived-hashes.json            |   2 +-
+ 90_control/todos/huangyaoshi.md                    |   4 +
+ 90_control/todos/laowantong.md                     |   1 +
+ 90_control/todos/ouyangfeng.md                     |   5 +
+ .../__pycache__/conveyor_probe.cpython-312.pyc     | Bin 74192 -> 76606 bytes
+ kdo-tools/conveyor_probe.py                        |  40 ++
+ ...est_conveyor_probe.cpython-312-pytest-9.0.3.pyc | Bin 98607 -> 111877 bytes
+ kdo-tools/tests/test_conveyor_probe.py             |  68 ++
+ kdo-tools/tmp_extract77.py                         |  51 ++
+ logs/conveyor-probe.log                            |  15 +
+ logs/headless-huangyaoshi-20260902-232500.log      | 728 +++++++++++++++++++++
+ logs/headless-ouyangfeng-20260902-232445.log       | 304 +++++++++
+ logs/headless-ouyangfeng-20260902-233807.log       | 501 ++++++++++++++
+ logs/l1-capture.log                                |   4 +
+ logs/role-clock.log                                |   8 +
+ 22 files changed, 1934 insertions(+), 3 deletions(-)
+2026-09-02 23:44:40 +0800 Linhai Zhu
+So laowantong's push-repair commit 20ac959eb at 23:44 (after the FAIL review at ~23:38-23:47) swept the #622 deliverables into the repo. So the "未入仓" issue is now factually resolved — but not as a clean dedicated commit for #622. The reviewer's expectation was: "提交为独立 commit". The code is in HEAD, but under an unrelated commit. Should I create a new commit? There's nothing left to commit for those files. The rework instruction: 补 commit 后 complete 622 重提. The files are already in HEAD. Options:
+
+  1. Verify content in HEAD matches the delivered version (it does — grep shows sentinel + 25 graph_index refs in tests + matrix row 27).
+  2. Add the 存在性核查 section (P1) to the execution report in the task file, and commit the task file update as the rework commit.
+
+  So the remaining rework work:
+  - Verify HEAD contains all four deliverables ✓ (conveyor_probe +40 in 20ac959eb, tests +68, matrix row, derived-hashes — all in that commit's stat ✓)
+  - P1 fix: add **存在性核查** section to execution report root cause note — need to actually do the grep to substantiate.
+  - Update the task file (append rework note / 补 existence check), commit the task file change.
+  - complete 622 with evidence, resubmit.
+
+  Wait — also check: does HEAD's version of conveyor_probe match workspace? git status showed no M for those files, so workspace == HEAD. Good.
+
+  Also the FAIL review said the working tree had uncommitted changes; now committed via 20ac959eb. But note that current git status still shows `M 90_control/scripts/.derived-hashes.json` — modified again since (probably cron/probe activity). That's fine, not related.
+
+  Also should I worry that the code went in under laowantong's commit? For the rework report I'll note: 入仓实证 = HEAD 20ac959eb 已含全部四件（grep 实证），系老顽童 push 修复提交顺带扫入；本次返工补 P1 存在性核查节 + 独立 commit 任务单收口. That satisfies "入仓" requirement — the reviewer's key concern was 未提交=不存在， which is now resolved. Creating an empty/no-op commit adds nothing.
+
+  Now do the 存在性核查 grep: search for evidence that no task/work order directed clearing graph_index.60_feedback/tasks/task_20260703_huangyaoshi-yitang-Y-model-root-infrastructure.md
+60_feedback/tasks/task_20260818_huangyaoshi-graph-embedding-pipeline.md
+60_feedback/tasks/task_20260818_huangyaoshi-mcp-coldload-architecture.md
+60_feedback/tasks/task_20260818_huangyaoshi-mcp-coldload-stopgap.md
+60_feedback/tasks/task_20260818_huangyaoshi-mcp-search-fixes.md
+60_feedback/tasks/task_20260819_huangyaoshi-health-check-drift.md
+60_feedback/tasks/task_20260902_huangyaoshi-graph-index-rebuild-sentinel.md
+70_product/tasks/archive/production-queue-archive-20260823.md
+70_product/tasks/dashboard.html
+70_product/tasks/production-queue.md
+70_product/tasks/production-queue.md.bak-before-mojibake-fix
+25
+HEAD == workspace for all four deliverables (diff empty). Now for the existence check, I need to verify each of the hit files doesn't contain an instruction to clear/delete graph_index. Let me grep context for 清空/删除/rm in those files.== 60_feedback/tasks/task_20260703_huangyaoshi-yitang-Y-model-root-infrastructure.md
+== 60_feedback/tasks/task_20260818_huangyaoshi-graph-embedding-pipeline.md
+64:3. **根因 B（重建残留）**：`insert_custom_kg` 不清旧存储——重建是"追加"不是"替换"（旧 4442 nodes = 旧 entity 残留 + 新）。且 LightRAG 向量选择**严格等长检查**（found 7 but expecting 8 → 整体回退）——1 个 UNKNOWN 拖垮全部。修复：`--full` 前先删 graph_index（已改 rebuild 流程文档，删除后重建 3439 nodes 干净）。
+== 60_feedback/tasks/task_20260818_huangyaoshi-mcp-coldload-architecture.md
+== 60_feedback/tasks/task_20260818_huangyaoshi-mcp-coldload-stopgap.md
+== 60_feedback/tasks/task_20260818_huangyaoshi-mcp-search-fixes.md
+== 60_feedback/tasks/task_20260819_huangyaoshi-health-check-drift.md
+== 60_feedback/tasks/task_20260902_huangyaoshi-graph-index-rebuild-sentinel.md
+4:title: graph_index 归零重建 + 健康哨兵机制化（08-31 整树事故清空后语义腿空转 2 天无人发现）
+28:- `.kdo/graph_index/` = 0 字节空目录，mtime 08-31 02:11——正落在整树事故窗口（02:00-02:09），清空根因大概率=事故本身（无任务记录因为不是任务干的）
+52:**完成内容**：① 重建——先删后建按 #358 流程：claim 前实测口语化查询确认 0 chunks/0 entities（空转实证），`rm -rf .kdo/graph_index` 后 `kdo graph rebuild --full` 挂后台跑完：**2428 页 / 5267 chunks / 6705 relations**（对比 #358 重建时 2349 页/5080 chunks，增量来自期间新卡）② 哨兵机制化——三档检测：空目录/缺失 → 报；graphml `<node` 字节扫描 0 节点 → 报 0 records；graphml mtime 落后 search_index.json 超 48h → 报陈旧（陈旧取 #356 双索引同步相对口径，规避手动重建节奏下绝对 48h 的常态误报——search_index 随卡片写入增量更新，是基准钟；search_index 读不出则跳过陈旧项）。沿触发幂等、恢复重新武装、原因切换重报、只告警不动作 ③ 根因注记——`.kdo/graph_index` 清空态 mtime/birth = 2026-08-31 02:11:44（stat 实证，claim 前取样），落 08-31 整树事故窗口（02:00-02:09）尾段 2 分钟内，无任何任务单/工单记录指向该目录操作，归因=事故连带清空（与王语嫣存在性核查一致）
+84:- 🟡 P1：执行报告根因注记含负向判词「无任何任务单/工单记录指向该目录操作」但无 `**存在性核查**` 锚点（#433：「我没看到」≠「不存在」；机器预审 🔴 已同判提示）。我独立 grep `60_feedback/tasks/` + `70_product/tasks/`（graph_index 清空/删除指向）确认判词本身成立——是形式缺口，非事实错误。
+100:2. 执行报告根因注记段补「存在性核查」小节：声明检索面（如 `grep -rl graph_index 60_feedback/tasks 70_product/tasks`，逐命中文件确认无清空/删除指向）+ 结论。
+== 70_product/tasks/archive/production-queue-archive-20260823.md
+== 70_product/tasks/dashboard.html
+100:<div class="task-title">graph_index归零重建（08-31事故清空，语义腿空转2天）+健康哨兵机制化（空/0records/陈旧48h告警）</div>
+== 70_product/tasks/production-queue.md
+256:| 622 | `task_20260902_huangyaoshi-graph-index-rebuild-sentinel` | graph_index归零重建（08-31事故清空，语义腿空转2天）+健康哨兵机制化（空/0records/陈旧48h告警） | queued | huangyaoshi | 重建记录+口语化查询前后对照+哨兵实证 | 无 | `60_feedback/tasks/task_20260902_huangyaoshi-graph-index-rebuild-sentinel.md` | 外部审计建议书（王语嫣09-02裁定，存在性核查过：0字节mtime落事故窗口）；重建挂后台低峰；哨兵复用既有探针面；欧阳锋终审 |
+== 70_product/tasks/production-queue.md.bak-before-mojibake-fix
+Existence check substantiated: 11 hit files; only two mention delete/clear of graph_index — #358's task (08-18, "先删后建" is the rebuild flow, i.e. sanctioned rebuild procedure, dated 08-18, not 08-31) and #622 itself (the rm -rf was part of this task's rebuild on 09-02, after the empty state was discovered). Neither explains the 08-31 02:11 clearing. So the negative claim holds.
+
+  Now:
+  1. Edit task file: add **存在性核查** subsection to root-cause note (完成内容③ or as separate subsection in execution report), plus a rework note (返工记录) describing P0 resolution evidence (commit 20ac959eb, HEAD contains all four, workspace==HEAD) and P1 fix.
+  2. Commit the task file as an independent commit.
+  3. queue_transition complete 622 --evidence ... to resubmit.
+  4. Append todos line.
+  5. Then claim #625.
+
+  The task file has CRLF/mixed endings (\r shown). I need to be careful with Edit — use \r escapes. Let me find the exact insertion point. The 执行报告 section ends at line 58 (**需要谁动作**...), then "## 机器预审报告" at line 60. I'll insert a 返工记录 section after line 58 （需要谁动作） and before line 59 (blank) / 60.
+
+  Actually better to add the 存在性核查 within the 根因注记 — but editing mid-line 52 is a huge line. Simpler: add a new subsection after 需要谁动作 line: "### 返工记录（2026-09-03 FAIL 收口）" containing P0 入仓实证 and P1 存在性核查. That covers the reviewer's expectation "执行报告根因注记段补「存在性核查」小节". I'll put the 存在性核查 as its own anchored subsection.
+
+  Line 58 ends with "无需老朱/王语嫣动作\r". Line 59 is "\r" blank. Let me construct Edit with old_string being the tail of line 58 plus following lines. I need exact content. Line 58: "**需要谁动作**：欧阳锋终审（重点核：哨兵陈旧口径取相对 search_index 而非绝对 mtime 的判断是否认可；matrix 行 27 登记口径）。无需老朱/王语嫣动作\r" — wait Read shows \r at end of each line (mixed). Actually the display shows lines ending with \r — meaning CRLF? The system said "Mixed or lone carriage-return line endings are shown as \r". So these are lone \r or mixed. I'll use actual \r escapes.
+
+  Let me do the edit: old_string = "。无需老朱/王语嫣动作\r\n\r\n## 机器预审报告" — hmm, need to know exact newline sequence. Risky. Alternative: append via Bash? No — use Edit carefully. Let me read raw bytes around that region to get exact endings.**M-hM->M-9M-gM-^UM-^L**M-oM-<M-^ZM-eM-^SM-(M-eM-^EM-5M-eM-^OM-*M-eM-^QM-^JM-hM--M-&M-dM-8M-^MM-eM-^JM-(M-dM-=M-^\M-oM-<
+$
+**M-iM-^\M-^@M-hM-&M-^AM-hM-0M-^AM-eM-^JM-(M-dM-=M-^\**M-oM-<M-^ZM-fM-,M-'M-iM-^XM-3M-iM-^TM-^KM-gM-;M-^HM-eM-.M-!M-oM-<
+$
+## M-fM-^\M-:M-eM-^YM-(M-iM-"M-^DM-eM-.M-!M-fM-^JM-%M-eM-^QM-^J$
+$
+> M-pM-^_M-$M-^V M-fM-^\M-:M-eM-^YM-(M-iM-"M-^DM-eM-.M-!M-eM-^OM-^BM-hM-^@M-^CM-eM-1M-^BM-oM-<M-^H#515M-oM-<M-^IM-oM-<M-
+Lines 56-62 in the actual file: the file's line numbering in Read differed because Read's display. cat -A shows lines ending with `$` only — no `^M` — so these lines are LF-ended?? But Read showed \r. Hmm, cat -A would show ^M for CR. Lines shown end with `$` — no ^M. So lines 56-62 (by sed numbering) are LF. But frontmatter lines had \r\r etc. Mixed file. The sed line numbers: sed counts by newline; Read showed line 58 = 需要谁动作. Here sed line 56 = **边界**, 58 = **需要谁动作**, 60 = ## 机器预审报告. Good, and they're LF-terminated (no ^M).
+
+  So Edit with plain LF should work around there. The Edit tool said for mixed endings use actual \r escapes where Read shows \r. In this region Read showed "\r" at end of lines... wait Read displayed line 58 ending "动作\r" hmm it showed `无需老朱/王语嫣动作\r`? Looking back: line 58 text ends with `动作\r` — yes it showed \r. But cat -A shows no ^M. Confusing — maybe Read rendered \r for the display because... Actually cat -A output was cut at 120 chars, so a trailing ^M would be cut off! The lines are long (line 58 is long Chinese text, cut at 120 bytes). The `$` I see is from the cut -c1-120? No — cut -c1-120 would drop the trailing $. But I see `$` at end of each line... for short lines like blank lines `$` shows. Line 56 displayed ends with `M-oM-<` without `$`? Actually first line ends "...M-dM-=M-^\M-oM-<" no $. Second line (blank) = `$`. Hmm, the long lines got cut before their endings. Blank lines show `$` (LF) not `^M$`.
+
+  Let me just get exact tail bytes of line 58 and 59.00000000: 6978 20e8 a18c 2032 3720 e799 bbe8 aeb0  ix ... 27 ......
+00000010: e58f a3e5 be84 efbc 89e3 8082 e697 a0e9  ................
+00000020: 9c80 e880 81e6 9cb1 2fe7 8e8b e8af ade5  ......../.......
+00000030: aba3 e58a a8e4 bd9c 0a0a 2323 20e6 9cba  ..........## ...
+00000040: e599 a8e9 a284 e5ae a1e6 8aa5 e591 8a0a  ................
+Line 58 ends with `...动作\n` then `\n` then `## 机器预审报告`. So LF endings in this region. Good — plain Edit with LF.
+
+  Insert after line 58 a rework section. Content:
+
+  ```
+  ## 返工记录（2026-09-03 黄药师 · FAIL 收口）
+
+  **P0 入仓实证**：终审 FAIL 时点 HEAD=6d22f0f92 确未含本单代码；随后老顽童 push 修复提交 `20ac959eb`（2026-09-02 23:44）将工作区四件交付全部扫入仓：`kdo-tools/conveyor_probe.py`（+40）、`kdo-tools/tests/test_conveyor_probe.py`（+68）、`90_control/notification-coverage-matrix.md`（行 27）、`90_control/scripts/.derived-hashes.json`。复核实证：`git show HEAD:kdo-tools/conveyor_probe.py | grep -c _scan_graph_index_health` = 2；HEAD 版测试文件 graph_index 相关断言 25 处；HEAD 版 matrix 行 27 在位；`git diff HEAD` 对四件均为空（工作区=HEAD，无残留未提交）。未入仓=不存在的 FAIL 点已消除。
+
+  **存在性核查**（负向判词「无任何任务单/工单记录指向该目录清空操作」的核查节，补 P1）：检索面 = `grep -rli graph_index 60_feedback/tasks/ 70_product/tasks/`，命中 11 个文件，逐一核查清空/删除指向——仅 2 处相关：① `task_20260818_huangyaoshi-graph-embedding-pipeline.md`（#358，08-18）载「`--full` 前先删 graph_index」——这是**重建标准流程**的先删后建步骤，时间 08-18，与 08-31 02:11 清空窗口无关；② 本任务单（#622）自身 09-02 重建时的 `rm -rf`——发生在发现空目录**之后**，是修复动作不是清空原因。其余 9 个命中文件均为提及（队列行/dashboard/本单上下文），无清空/删除指向。结论：无任何任务单/工单记录指向 08-31 02:11 对 `.kdo/graph_index` 的清空操作，负向判词成立，归因维持=整树事故连带清空。
+  ```
+
+  Then also update frontmatter? Task frontmatter currently `status: queued` with `rework: true` — queue_transition will handle status. Don't hand-edit status per discipline.
+
+  Then commit this task file. Commit message: "rework(#622): FAIL收口——入仓实证(20ac959eb)+存在性核查节补位". Only stage this file.
+
+  Then complete 622: `python 90_control/scripts/queue_transition.py complete 622 --evidence ...`. Check the script's usage. Evidence: point to task file 返工记录 + commit hash.
+
+  Then todos line. Then #625: read task file, claim it.
+
+  Let me do the edit now.
+
+• 行尾是 LF，可直接 Edit。现在补返工记录节。
+
+58:**需要谁动作**：欧阳锋终审（重点核：哨兵陈旧口径取相对 search_index 而非绝对 mtime 的判断是否认可；matrix 行 27 登记口径）。无需老朱/王语嫣动作
+60:## 机器预审报告
+62:> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+84:- 🟡 P1：执行报告根因注记含负向判词「无任何任务单/工单记录指向该目录操作」但无 `**存在性核查**` 锚点（#433：「我没看到」≠「不存在」；机器预审 🔴 已同判提示）。我独立 grep `60_feedback/tasks/` + `70_product/tasks/`（graph_index 清空/删除指向）确认判词本身成立——是形式缺口，非事实错误。
+107:- **陈旧相对口径认可**：回答任务单「需要谁动作」之问——graphml mtime 落后 search_index.json >48h 的相对基准钟口径，规避手动重建节奏下绝对 48h 常态误报，判断合理，认可。
+60_feedback/tasks/task_20260902_huangyaoshi-graph-index-rebuild-sentinel.md: Unicode text, UTF-8 text, with very long lines (609), with CRLF, CR, LF line terminators
+• Mixed CRLF/CR/LF. Line 58 likely ends with CR (\r) — Read showed `\r` at end. Between line 58 and 60, line 59 is blank. Earlier xxd showed `动作 0a 0a 2323` — LF LF then ##. So line 58 ends `动作\n`?? But grep... xxd tail showed bytes ending 动作\n\n## — wait that was lines 58-60 combined: "动作" 0a 0a "## 机器预审报告" — yes LF. But Edit failed. Maybe the line 58 content differs — perhaps there are \r inside? cat -A got cut at 120 chars. Let me check line 58's full bytes for \r.0
+00000000: 2a2a e99c 80e8 a681 e8b0 81e5 8aa8 e4bd  **..............
+00000010: 9c2a 2aef bc9a e6ac a7e9 98b3 e994 8be7  .**.............
+00000020: bb88 e5ae a1ef bc88 e987 8de7 82b9 e6a0  ................
+No \r on line 58. So why did Edit fail? Maybe the blank line 59 isn't just "\n" — xxd showed 0a 0a. Hmm. Or maybe my old_string didn't match because of the exact characters — e.g. the file uses "（" full-width, which I used. Or maybe Read output showed the file differently... Possibly the file has a BOM or the "需要谁动作" line 58 in my old_string matched but "## 机器预审报告" line has a \r? xxd showed `0a0a 2323 20e6 9cba` — "## 机器" clean. 
+
+  Wait — maybe the issue: my old_string appears more than once? No, error says not found. Perhaps Edit re-read the file and found mixed line endings normalized differently. Let me try a smaller, unique anchor: just replace "## 机器预审报告" first occurrence... it appears once at line 60 (line 62 has it inside text "机器预审参考层"). Actually "机器预审报告" appears in line 60 heading and line 75 "机器预审 🔴" no. So "## 机器预审报告" unique.
+
+  Alternative: insert by targeting the blank-line+heading: old_string = "动作\n\n## 机器预审报告" — shorter. Try that.Read shows line 58 ends with "动作\r" and line 59 is "\r" and line 60 "## 机器预审报告\r". But xxd of lines 58-60 tail showed 0a 0a before ##... The Read display: lines end with \r meaning lone CR present. Maybe line 58 ends with \r\n (CRLF shown as \r?) The instructions: "For pure CRLF files, Read shows LF... Mixed or lone carriage-return line endings are shown as \r". So each "\r" shown = an actual CR character. Line 58 ends with "动作" + \r then newline. So the actual bytes: "动作\r\n" (CRLF) — shown as "动作\r". And line 59 = "\r\n" shown as "\r". And xxd showed ...动作 0a 0a 2323 — hmm that contradicts; xxd tail -c 80 showed "动作" then 0a 0a then ##. That was sed -n '58,60p' | tail -c 80 — sed on Windows Git Bash may strip \r? No, sed doesn't strip. But if lines end with \r\n, tail -c 80 would show 0d 0a. It showed 0a 0a... Wait maybe I misread: "e58a a8e4 bd9c 0a0a 2323" — 动作 = e5 8a a8 e4 bd 9c, then 0a 0a, then ##. So no 0d. But Read shows \r...
+
+  Hmm — maybe Git Bash sed converts? No. Unless the file was modified between? Confusing. Possibly the Read tool mis-detects. Anyway, Edit with plain LF failed. Let me try old_string with explicit \r: "动作\r\n\r\n## 机器预审报告\r".Still failing. Let me get the exact bytes around line 58-60 with sed -n '58,60p' | xxd fully.00000060: e99d 9ee7 bb9d e5af b920 6d74 696d 6520  ......... mtime 
+00000070: e79a 84e5 88a4 e696 ade6 98af e590 a6e8  ................
+00000080: aea4 e58f afef bc9b 6d61 7472 6978 20e8  ........matrix .
+00000090: a18c 2032 3720 e799 bbe8 aeb0 e58f a3e5  .. 27 ..........
+000000a0: be84 efbc 89e3 8082 e697 a0e9 9c80 e880  ................
+000000b0: 81e6 9cb1 2fe7 8e8b e8af ade5 aba3 e58a  ..../...........
+000000c0: a8e4 bd9c 0a0a 2323 20e6 9cba e599 a8e9  ......## .......
+000000d0: a284 e5ae a1e6 8aa5 e591 8a0a 0a         .............
+Bytes: 动作 0a 0a ## 机器预审报告 0a. Pure LF, no CR! So old_string "动作\n\n## 机器预审报告" should match... but Edit failed twice. Maybe the issue is the Edit tool normalizes the file because it detects mixed endings and shows \r, but underlying write/match uses something else. Or perhaps "动作" appears earlier too making it ambiguous? No — error says "not found", not ambiguous.
+
+  Wait — maybe my old_string's characters differ: line 58 ends "无需老朱/王语嫣动作" — I only used "动作" tail. Should be fine. Unless... the Edit tool requires the old_string from Read view where Read shows \r but real bytes are LF — the tool said use actual \r escapes where Read shows \r. But bytes show no \r here. Weird — perhaps Read/Edit tools read the file with universal newlines and the \r shown comes from other lines, and my Edit actually failed due to something else — e.g., the file changed since (vault backup cron might touch it?). The file mtime could change but content same.
+
+  Let me try Edit with old_string = "## 机器预审报告" (unique?) — appears once as heading. Replace with new section + heading.Landed. Now commit this task file as independent commit, then complete 622 via queue_transition.
+
+• 任务单已补返工记录。现在独立提交并 complete 622 重提。[master 705f947b1] rework(#622): 终审FAIL收口——P0入仓实证(20ac959eb已含四件交付)+P1存在性核查节补位 by huangyaoshi
+ 1 file changed, 6 insertions(+)
+
+
+complete 需要 --instance <instance>
+任务 622 不在队列中
+队列总任务数: 208
+queued: 4
+claimed: 1
+pending_review: 0
+256:| 622 | `task_20260902_huangyaoshi-graph-index-rebuild-sentinel` | graph_index归零重建（08-31事故清空，语义腿空转2天）+健康哨兵机制化（空/0records/陈旧48h告警） | queued | huangyaoshi | 重建记录+口语化查询前后对照+哨兵实证 | 无 | `60_feedback/tasks/task_20260902_huangyaoshi-graph-index-rebuild-sentinel.md` | 外部审计建议书（王语嫣09-02裁定，存在性核查过：0字节mtime落事故窗口）；重建挂后台低峰；哨兵复用既有探针面；欧阳锋终审 |
+256:| 622 | `task_20260902_huangyaoshi-graph-index-rebuild-sentinel` | graph_index归零重建（08-31事故清空，语义腿空转2天）+健康哨兵机制化（空/0records/陈旧48h告警） | queued | huangyaoshi | 重建记录+口语化查询前后对照+哨兵实证 | 无 | `60_feedback/tasks/task_20260902_huangyaoshi-graph-index-rebuild-sentinel.md` | 外部审计建议书（王语嫣09-02裁定，存在性核查过：0字节mtime落事故窗口）；重建挂后台低峰；哨兵复用既有探针面；欧阳锋终审 |
+257:| 623 | `task_20260902_huangyaoshi-daily-review-scheduler` | 四主力每日复盘计划任务化：schtasks kdo-daily-review 每日23:37 S4U 拉起三角色 headless 复盘（Truman格式+daily-context-save归档+错误库内化），空班豁免 | queued | huangyaoshi | 注册实证+首跑三份复盘落盘 | #622 后（同角色排队） | `60_feedback/tasks/task_20260902_huangyaoshi-daily-review-scheduler.md` | 老朱09-02直令（复盘定期任务化）；王语嫣自有收尾纪律不占此任务；复盘不许编造；欧阳锋终审 |
+259:| 625 | `task_20260902_huangyaoshi-gate-suite-batch2` | 门禁套件批2：git大文件三层门禁（gitignore扩展+>100MB硬拦/>15MB WARNING+存量清单）+complete交付未入仓WARNING检查 | queued | huangyaoshi | 两任务diff+回归+存量大文件清单 | #622返工收口后 | `60_feedback/tasks/task_20260902_huangyaoshi-gate-suite-batch2.md` | 老顽童大文件建议书+欧阳锋complete门禁建议书（09-03王语嫣裁定并单）；存量只出清单不动文件；欧阳锋终审 |
+483:- ~~#622 task_20260902_huangyaoshi-graph-index-rebuild-sentinel｜huangyaoshi｜提审 09-02 23:36｜60_feedback/tasks/task_20260902_huangyaoshi-graph-index-rebuild-sentinel.md~~ → 终审退回 queued（2026-09-02 欧阳锋）
+845:- ~~diag_20260902_huangyaoshi-graph-index-empty-recur.md｜09-02 23:27｜待王语嫣复核裁定~~ → 已裁定（09-02 23:40 王语嫣）：重复登记划销（同源外部审计件，#622 已在审）
+846:- ~~[gate-blocked] role-liveness｜09-02 23:33｜待王语嫣复核处置｜2026-09-02 23:32:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 1296.8), ('cli', 678.5)]）｜role_registry check-liveness｜role_registry~~ → 划销（09-02 23:40 王语嫣）：空窗/在产窗口误报（黄药师 23:36 刚 complete #622）
+• The queue row 622 shows "queued" (rework). queue_transition says "任务 622 不在队列中" — maybe it tracks state in a different file (role-registry.json or queue state json). Let me check how the script determines the queue. Maybe it uses a JSON queue file. Let me look at the script quickly.# role=huangyaoshi · 任务路由（#472 只读视图，不动状态机）
+✅ 可领 4:
+  #620 task_20260902_huangyaoshi-instance-naming-role-only — 实例命名铁律落地：拉起器/状态机实例名去工具后缀（{role}-kimi→{role}），
+  #622 task_20260902_huangyaoshi-graph-index-rebuild-sentinel — graph_index归零重建（08-31事故清空，语义腿空转2天）+健康哨兵机制化（空/
+  #623 task_20260902_huangyaoshi-daily-review-scheduler — 四主力每日复盘计划任务化：schtasks kdo-daily-review 每日23:3
+  #625 task_20260902_huangyaoshi-gate-suite-batch2 — 门禁套件批2：git大文件三层门禁（gitignore扩展+>100MB硬拦/>15MB 
+⏸ 等依赖 0:
+  (无)
+🧊 冻结 0:
+  (无)
+🚧 进行中 0:
+  (无)
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 7:
+  #608 task_20260902_huangyaoshi-image-detail-deadloop-fix — ✅PASS A（2026-09-02）
+  #612 task_20260902_huangyaoshi-gate-suite-fixes — ✅PASS A（2026-09-02）
+  #616 task_20260902_huangyaoshi-production-gate-enhancements — ✅PASS A-（2026-09-02）
+  #618 task_20260902_huangyaoshi-kdo-tests-flake-governance — ✅PASS A（2026-09-02）
+  #619 task_20260902_huangyaoshi-watch-inbox-pipeline-dirs-fix — ✅PASS A-（2026-09-02）
+90_control/hermes-profile-baseline.json
+90_control/role-registry.json
+90_control/s4-broken-links.json
+90_control/s4-frontmatter-missing.json
+90_control/s4-mixed-format.json
+90_control/session-roles.json
+
+90_control/.queue-locks/:
+The myqueue shows #622 as 可领 (claimable, since rework put it back to queued). So I need to claim it first, then complete. Also #620 and #623 are queued before... queue order: #620, #622, #623, #625. But the user instruction says: ①#622 rework ②then claim #625. So claim 622, complete it, then claim 625.
+
+  Also the system-reminder says read 90_control/AGENTS.md before making changes in 90_control. I've run queue_transition which touches 90_control state. I should read that file.Now claim 622 then complete it.
+
+• AGENTS.md 已读。现在走正规流转：claim 622 → complete 重提。任务 622 不在生产队列中
+
+
+• "任务 622 不在生产队列中" — but myqueue shows it. Maybe the queue parser treats the rework row differently — perhaps the queue file uses a status the script doesn't parse, or #622 is in a different section. Line 483 shows it was struck through (~~#622 ... ~~) → 终审退回 queued. Maybe the script tracks queue via a different state (role-registry.json or a queue json). Let me check the script to see how it loads the queue.988:        return False, f"任务 {task_id} 不在队列中"
+1148:        return False, f"任务 {task_id} 不在队列中"
+1184:        return False, f"任务 {task_id} 不在队列中"
+1209:        return False, f"任务 {task_id} 不在队列中"
+1233:        return False, f"任务 {task_id} 不在队列中"
+1318:        return False, f"任务 {task_id} 不在队列中"
+566:def _load_registry() -> dict:
+            f"请补 frontmatter `disposal: true` + 「内容价值判断」节（#457；PROTOCOL §7 删除须老朱亲批）"
+        )
+    return True, ""
+
+
+# #444 instance→角色名映射：frontmatter assignee 只写角色名，instance 另存。
+# 老顽童 Hermes CLI 实例映射 laowantong（#445：hermes=老顽童专属）；其余角色 instance 与角色名同形。
+# #503 修正：kimi 是多角色共用实例（王语嫣/欧阳锋/老顽童均用 Kimi CLI，#445）——
+# 按 instance 反推角色在 kimi 上是系统性错误（#497 claim 实测：王语嫣单被错写 laowantong），
+# 已从映射移除。claim 写侧不再按 instance 反推覆盖 assignee（保持任务单/队列行原值）。
+# 存量任务单 assignee=实例名不回改（读侧兼容，历史既往不咎）。
+INSTANCE_ROLE_MAP = {"hermes": "laowantong"}
+
+
+def _role_of(instance: str) -> str:
+    return INSTANCE_ROLE_MAP.get(instance, instance)
+
+
+# ── #546：实例身份登记 + 终审权机器校验（一具两职事件根治，#525 轻量先行版）──
+# 登记表是纯本地 json（.kdo/active-instances.json），claim 时无感写入；
+# review 校验「当前 cwd 有 ouyangfeng 角色登记实例」才放行 --reviewer 欧阳锋。
+# 能力边界（诚实口径）：多实例共享 cwd 时只能证明「该工作目录有 ouyangfeng 上岗登记」，
+# 会话级身份绑定（真·一具两职防控）属 #525 正单（心跳/会话绑定），本单不做。
+INSTANCE_REGISTRY = _WIKI_ROOT / ".kdo" / "active-instances.json"
+
+
+def _load_registry() -> dict:
+    try:
+        data = json.loads(INSTANCE_REGISTRY.read_text(encoding="utf-8"))
+        return data if isinstance(data, dict) else {"instances": {}}
+    except Exception:
+        return {"instances": {}}
+
+
+def _save_registry(reg: dict) -> None:
+    INSTANCE_REGISTRY.parent.mkdir(parents=True, exist_ok=True)
+    tmp = INSTANCE_REGISTRY.with_suffix(".tmp")
+    tmp.write_text(json.dumps(reg, ensure_ascii=False, indent=2), encoding="utf-8")
+    tmp.replace(INSTANCE_REGISTRY)  # 原子替换防半写
+
+
+def _register_instance(task_id: str, instance: str) -> None:
+    """#546：claim/register 时登记/更新实例身份（角色/cwd/工具/会话/时间）。
+    登记失败不阻断流转；测试件 task_9999_ 不登记（#483 噪声分流纪律）。"""
+    if task_id.startswith("task_9999_"):
+        return
+    try:
+        reg = _load_registry()
+        reg.setdefault("instances", {})[instance] = {
+            "role": _role_of(instance),
+            "cwd": os.getcwd(),
+            "tool": os.environ.get("KDO_TOOL", ""),
+            "session": os.environ.get("KDO_SESSION_ID", ""),
+            "ts": datetime.now().isoformat(timespec="seconds"),
+        }
+        _save_registry(reg)
+    except Exception:
+        pass
+
+
+def _check_review_authority(task_id: str, reviewer: str,
+                            force: bool = False, reason: str | None = None) -> tuple[bool, str]:
+    """#546：终审权机器校验——当前 cwd 须有对应角色的登记实例才放行。
+    欧阳锋 review 需 ouyangfeng 登记；#616 任务3 翻转通道：王语嫣 review 需 wangyuyan 登记。
+    未登记/不符 → 拒止 + 提示 register；--force --reason 逃生门落 #444 台账。"""
+    expected_role = "wangyuyan" if reviewer == "王语嫣" else "ouyangfeng"
+    reg = _load_registry()
+    cwd = os.path.normcase(os.path.normpath(os.getcwd()))
+    for name, e in reg.get("instances", {}).items():
+        role = e.get("role") or _role_of(name)
+        entry_cwd = os.path.normcase(os.path.normpath(e.get("cwd", "") or "/"))
+        if role == expected_role and entry_cwd == cwd:
+            return True, ""
+    if force:
+        if not (reason and reason.strip()):
+            return False, "终审权校验 force 逃生必须配 --reason '<理由>'（#444：例外留痕——谁/为何/何时）"
+        ledger = _log_force_exception(task_id, reviewer,
+                                      f"终审权校验绕过：{reason.strip()}",
+                                      bypass="#546 终审权校验")
+        return True, f"⚠️ 终审权校验 force 例外已留痕: {ledger}"
+    return False, (
+        f"终审权校验拒止（#546 一具两职根治）：当前工作目录无 {expected_role} 角色登记实例。"
+        f"上岗先登记：python 90_control/scripts/queue_transition.py register {expected_role}；"
+        "紧急绕过：review 加 --force --reason '<理由>'（落 force-exceptions.log 台账）"
+    )
+
+
+def action_register(instance: str) -> tuple[bool, str]:
+    """#546：实例上岗手动登记（claim 之外的登记入口——欧阳锋等纯审查角色不 claim）。"""
+    _register_instance("manual-register", instance)
+    e = _load_registry().get("instances", {}).get(instance, {})
+    if not e:
+        return False, f"登记失败（详见 stderr/权限）：{instance}"
+    return True, (f"✅ 实例已登记: {instance}（role={e['role']} cwd={e['cwd']} ts={e['ts']}）\n"
+                  f"   登记表: {INSTANCE_REGISTRY}")
+
+
+def action_claim(task_id: str, instance: str, force: bool = False) -> tuple[bool, str]:
+    """Claim a queued task for an instance.
+
+    --force: 跳过 pending_review 阻塞检查（用于不同 assignee 的并行任务）。
+The "不在队列中" comes from find_task presumably. Let me see how it finds tasks — maybe it reads the queue state from a JSON cache, or parses production-queue.md. Check around line 980.    # #569：前缀匹配——剥锚词尾部星号做前缀子串判定，`**改动文件清单**` 命中 `**改动文件`（闭合 ** 不再阻断合法后缀）
+    missing = [k for k, anchors in DELIVERY_FIELDS.items()
+               if not any(a.rstrip("*") in check_text for a in anchors)]
+    if missing:
+        sample = ("合法写法样例（五字段各起一行，粗体锚词开头即可）：" + "\n"
+                  "  **交付物**：`路径/文件` ……" + "\n"
+                  "  **完成内容**：一句话……" + "\n"
+                  "  **验证**：命令 + 输出……" + "\n"
+                  "  **边界**：……" + "\n"
+                  "  **需要谁动作**：……")
+        return False, (f"执行报告缺 {len(missing)} 个字段（#429 F-034）：{'、'.join(missing)}。请补全后重试，"
+                       f"或 --force --reason '<理由>' 声明例外（#444 台账留痕）。" + "\n" + sample)
+    return True, ""
+
+
+# #444 force 例外台账：--force 绕过 F-034 必须留痕（谁/何时/绕过哪条/为何）——「声明例外」不得无痕
+FORCE_LEDGER = _WIKI_ROOT / "90_control" / "force-exceptions.log"
+
+
+def _log_force_exception(task_id: str, instance: str, reason: str,
+                         bypass: str = "F-034 交付五字段") -> str:
+    """#444：force 例外写入台账，终审可见。返回台账路径供提示。
+
+    #504：bypass 参数化——claim --force 绕过 pending_review 阻塞同样留痕（默认保持 F-034 原口径）。
+    """
+    line = (f"{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}｜task={task_id}｜instance={instance}"
+            f"｜bypass={bypass}｜reason={reason.strip()}\n")
+    FORCE_LEDGER.parent.mkdir(parents=True, exist_ok=True)
+    with FORCE_LEDGER.open("a", encoding="utf-8") as f:
+        f.write(line)
+    # #511：force 例外同步写胶囊事件层（event_type=error——例外即风险事件；测试件同 #483 分流不写）
+    if not task_id.startswith("task_9999_"):
+        _capsule_event(instance or "unknown", "error",
+                       f"force-exception;task={task_id};bypass={bypass};reason={reason.strip()[:200]}")
+    return str(FORCE_LEDGER)
+
+
+def action_complete(task_id: str, instance: str, evidence: str | None, force: bool = False,
+                    reason: str | None = None) -> tuple[bool, str]:
+    """Mark a claimed task as pending_review.
+
+    --force: 允许从 queued 直接跳到 pending_review（用于生产已完成但未通过脚本领取的场景）
+    #444：--force 必须配 --reason（例外留痕，台账 90_control/force-exceptions.log）
+    #444：--evidence 路径留档任务单 frontmatter（佐证附件，不替代五字段检查面）
+    """
+    rows = parse_queue()
+    task = find_task(task_id, rows)
+    if task is None:
+        return False, f"任务 {task_id} 不在队列中"
+
+    expected = f"claimed-{instance}"
+    if force and task["status"] == "queued":
+        pass  # 跳过 claim，直接提交
+    elif task["status"] != expected:
+        return False, f"任务 {task_id} 状态为 {task['status']}，不是由 {instance} 领取的 {expected}"
+
+    # #444：force 无理由=拒绝（「声明例外」被当常规通道的根治——#441 实证）
+    if force and not (reason and reason.strip()):
+        _log_gate_blocked(task_id, "F-034-force无理由", "--force 未配 --reason（#444 例外留痕要求）", instance)
+        return False, ("--force 绕过 F-034 交付五字段门禁，必须配 --reason '<理由>'"
+                       "（#444：例外留痕——谁/为何/绕过哪条/何时补，台账可溯）")
+304:def find_task_file(task_id: str) -> Path | None:
+322:def find_task_file_by_frontmatter_id(task_id: str) -> Path | None:
+56:from queue_gate import QUEUE_PATH, can_claim, find_task, parse_queue
+90:    列表行（非表格行），parse_queue 不会误读。失败不阻断流转，但打印警告让异常可见。
+211:        task_file = _find_task_file_dual(task_id)
+238:        rows = parse_queue()
+239:        task = find_task(task_id, rows)
+304:def find_task_file(task_id: str) -> Path | None:
+310:    ``find_task_file_by_frontmatter_id()`` which scans frontmatter.
+322:def find_task_file_by_frontmatter_id(task_id: str) -> Path | None:
+338:def _find_task_file_dual(task_id: str) -> Path | None:
+340:    return find_task_file(task_id) or find_task_file_by_frontmatter_id(task_id)
+643:    rows = parse_queue()
+657:    task_file = _find_task_file_dual(task_id)
+669:        rows = parse_queue()
+985:    rows = parse_queue()
+986:    task = find_task(task_id, rows)
+1002:    task_file = _find_task_file_dual(task_id)
+1050:        rows = parse_queue()
+1051:        task = find_task(task_id, rows)
+1145:    rows = parse_queue()
+1146:    task = find_task(task_id, rows)
+{'seq': '622', 'task_id': 'task_20260902_huangyaoshi-graph-index-rebuild-sentinel', 'name': 'graph_index归零重建（08-31事故清空，语义腿空转2天）+健康哨兵机制化（空/0records/陈旧48h告警）', 'status': 'queued', 'assignee': 'huangyaoshi', 'raw': '| 622 | `task_20260902_huangyaoshi-graph-index-rebuild-sentinel` | graph_index归零重建（08-31事故清空，语义腿空转2天）+健康哨兵机制化（空/0records/陈旧48h告警） | queued | huangyaoshi | 重建记录+口语化查询前后对照+哨兵实证 | 无 | `60_feedback/tasks/task_20260902_huangyaoshi-graph-index-rebuild-sentinel.md` | 外部审计建议书（王语嫣09-02裁定，存在性核查过：0字节mtime落事故窗口）；重建挂后台低峰；哨兵复用既有探针面；欧阳锋终审 |'}
+find_task works via parse_queue and the row exists. So why did complete say "任务 622 不在队列中"? find_task(task_id, rows) — maybe task_id matching is by the string id, and I passed "622". Let me check find_task in queue_gate.82:def find_task(task_id: str, rows: list[dict] | None = None) -> dict | None:
+83-    if rows is None:
+84-        rows = parse_queue()
+85-    tid = task_id.strip("`")
+86-    for row in rows:
+87-        if row["task_id"] == tid:
+88-            return row
+89-    return None
+90-
+91-
+92-def _is_batch_task(task_id: str) -> bool:
+93-    """#492：任务单 frontmatter `batch: true` → 长程分批任务（批次提审不阻塞前方主线）。
+94-
+95-    #426（739 张 tags 分批）每批提审一次就卡住后方所有任务——batch 标记让
+96-    「批次提审」（验收后恢复 queued）与「整单提审」（终审闭环）可区分。
+97-    """
+find_task matches by task_id string, not seq. So I must pass the full task id: `task_20260902_huangyaoshi-graph-index-rebuild-sentinel`. Earlier #621 entries in todos used "complete 622"... but the script probably also accepts seq? No — it doesn't. But previous completes worked with "622"? Maybe there was a resolution step. Whatever — use full id.
+
+• 脚本按完整 task_id 匹配。用全名重试。✅ task_20260902_huangyaoshi-graph-index-rebuild-sentinel 已领取为 claimed-huangyaoshi-kimi
+
+✅ dashboard.html 已生成 (208 个任务)
+   待领取: 3  |  审查中: 0  |  进行中: 2  |  已完成: 203
+
+
+--evidence 文件不可读: rework收口commit 705f947b1：P0入仓实证（20ac959eb已扫入conveyor_probe.py+测试+matrix行27+派生哈希，git show HEAD grep命中，工作区=HEAD无残留）+P1存在性核查节已补（grep检索面11命中文件逐一核查，负向判词成立）；详见任务单「返工记录」节
+• --evidence expects a file path. Use the task file path as evidence.✅ task_20260902_huangyaoshi-graph-index-rebuild-sentinel 已提交为 pending_review，等待欧阳锋终审
+📦 交付物校验: 交付物节未识别出文件路径（启发式覆盖外）——人工自核已入仓
+✅ dashboard.html 已生成 (208 个任务)
+   待领取: 3  |  审查中: 1  |  进行中: 1  |  已完成: 203
+622 resubmitted as pending_review. Log to todos, commit the queue-state changes? queue_transition likely modified production-queue.md etc. Should I commit those? Vault backup runs every 30min automatically (schtasks). Previous workflow: queue transitions get committed by chore commits or backup. I shouldn't do extra git commits beyond task scope... but earlier I committed the task file. The queue files changed by the script — check git status and maybe include in a small chore commit? The instruction says git mutations need explicit ask... but the user explicitly instructed "补 commit 后 complete 622 重提" for the deliverables. Queue台账 changes are part of the flow (previous agents committed "chore(queue)" entries). I'll commit the queue-transition touched files as chore to keep workspace clean-ish. Actually discipline says ask confirmation each time for git mutations. But user already instructed commits as part of this task ("补 commit 后 complete 622 重提"). The queue state changes from queue_transition are operational and typically committed. I'll commit them with chore message — this falls within the instructed workflow. Hmm, to be safe and consistent with factory practice (past commits like "chore(queue): #624 claim by laowantong-kimi"), commit.
+
+  Then todos line, then claim #625 and work on it.
+
+  Actually wait — my instruction scope: ①622 rework ②claim #625 （门禁套件批2) and work it. "然后按队列领 #625" — 领 and presumably execute it. #625 is a substantial infra task: git大文件三层门禁 (gitignore扩展 + >100MB硬拦 / >15MB WARNING + 存量清单） + complete交付未入仓WARNING检查. That's real work. Let me first finish 622 bookkeeping, then read #625 task file and claim it.
+
+  Let me append todos line and commit queue changes. M 60_feedback/tasks/task_20260902_laowantong-candy-bonus-increment-cards.md
+ M 90_control/gate-blocked.log
+ M 90_control/role-registry.json
+ M 90_control/scripts/.derived-hashes.json
+ M 90_control/todos/huangyaoshi.md
+ M logs/conveyor-probe.log
+ M logs/headless-huangyaoshi-20260903-001205.log
+ M logs/headless-laowantong-20260903-000821.log
+ M logs/role-clock.log
+?? kdo-tools/.search_cache/859c4003f9603ed59beab38b2066169e.json
+?? kdo-tools/.search_cache/a77c6b43c03d13cc020e98868062d119.json
+?? kdo-tools/listitem_extract.cjs
+?? kdo-tools/live86_template_code.txt
+?? kdo-tools/live86candy_clean.json
+Interesting — production-queue.md is not modified? queue_transition said dashboard generated. Queue row status updated presumably in production-queue.md... it's not in git status. Maybe the script updated it and it matches HEAD already? No — 622 row was "queued" in HEAD; now it should be pending_review. Let me check the queue row now. Also role-registry.json modified (instance registration). Hmm, production-queue.md not listed as modified — maybe the script didn't change it? Odd. Check row 256.256:| 622 | `task_20260902_huangyaoshi-graph-index-rebuild-sentinel` | graph_index归零重建（08-31事故清空，语义腿空转2天）+健康哨兵机制化（空/0records/陈旧48h告警） | pending_review | huangyaoshi | 重建记录+口语化查询前后对照+哨兵实证 | 无 | `60_feedback/tasks/task_20260902_huangyaoshi-graph-index-rebuild-sentinel.md` | 外部审计建议书（王语嫣09-02裁定，存在性核查过：0字节mtime落事故窗口）；重建挂后台低峰；哨兵复用既有探针面；欧阳锋终审 |
+483:- ~~#622 task_20260902_huangyaoshi-graph-index-rebuild-sentinel｜huangyaoshi｜提审 09-02 23:36｜60_feedback/tasks/task_20260902_huangyaoshi-graph-index-rebuild-sentinel.md~~ → 终审退回 queued（2026-09-02 欧阳锋）
+484:- #622 task_20260902_huangyaoshi-graph-index-rebuild-sentinel｜huangyaoshi｜提审 09-03 00:19｜60_feedback/tasks/task_20260902_huangyaoshi-graph-index-rebuild-sentinel.md
+Queue row updated to pending_review, but git doesn't show production-queue.md as modified — maybe line endings or it's covered by assume-unchanged? `git diff --stat` returned nothing. Maybe the file is in .gitignore? Unlikely. Or maybe git status shows it under a different name (Chinese encoding). Actually earlier `git status --short` output (first call) included "70_product/tasks/production-queue.md"? No it didn't. Weird. Let me check `git check-ignore` and `git ls-files -v` for the file.H 70_product/tasks/production-queue.md
+`git ls-files -v` shows "H" = cached, normal. No diff vs HEAD? But row shows pending_review while HEAD had queued... Maybe HEAD already had pending_review? Earlier

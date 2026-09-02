@@ -447,3 +447,4 @@
 - [2026-09-02 23:36] ✅ #622 graph_index重建+哨兵 complete 提审：先删后建全量重建（2428页/5267chunks/6705relations，_tmp/622-graph-rebuild.log）+口语化查询前后对照（0命中→转化率案例卡命中）+conveyor_probe第十一信号（空/0records/落后search_index 48h，沿触发幂等只告警）+回归47passed+矩阵行27同步（claim曾被并发覆写，#621 reviewed后正常claim完成）
 - [2026-09-02 23:47] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
 - [2026-09-03 00:07] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-03 00:17] 📥 KDO 可领取 1 单：#625

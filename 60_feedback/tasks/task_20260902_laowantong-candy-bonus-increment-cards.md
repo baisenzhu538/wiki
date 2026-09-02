@@ -31,3 +31,18 @@ updated_at: '2026-09-02T16:09:16.720941+00:00'
 
 - 1-3 张卡 + 执行报告（含探索营复核结论证据）
 - claim/complete 走 `python 90_control/scripts/queue_transition.py`（complete 624）
+
+## 建模方案（L1 出牌，2026-09-03 老顽童）
+
+组件链：`[素材牌] → [边界牌] → [结构牌] → [过程牌] → [质量牌]`
+
+- **[素材牌 L2 逐字消费]**：两份 candy 逐字稿逐字读完——Live260（190 行/36KB，ROI 搭档+陪练官两段）+ 探索营（548 行/27KB，10篇开源目录/一页纸教程合集/半肥猫路演/马拉松大课案例/GEO 指南五段）
+- **[边界牌 L7 查重]**：Live260 方法层已被 #586 双卡覆盖（dk-koupen-decision-tiering-compromise + tool-ai-koupen-training-partner-design，均 reviewed A-）→ 增量=**春节 14 天加课决策完整案例**（dk 卡只有方法结构，无案例全程）；探索营谢翼 MemPalace 段已被 method-obsidian-km-camp 覆盖且该卡明确声明「GEO 指南/半肥猫案例另属题材不在本卡范围」→ 增量=**GEO 一页纸指南**（全库零 GEO 方法卡，industry-ai-cases 仅提及类别）；半肥猫口述层增量评估见执行报告
+- **[结构牌 KF-024]**：case 卡=关键数字+证据表+Critique≥2 外部攻击者+失败模式；tool 卡=操作步骤+When NOT to Use+失败模式+判断标准
+- **[过程牌 W6 三方法]**：①WebSearch——GEO 国际术语对齐实测（Aggarwal et al. 2023, arXiv:2311.09735, KDD 2024，命名无冲突）；②六层交叉——两素材均为单一来源口述/内部文档，如实降级标注「口述待独立核实」；③九层深挖在卡内执行（业务公式→假设审计→边界→失败模式→隐性成本）
+- **[质量牌 门禁]**：逐卡 `kdo pre-submit` → 自攻击 → L12 git status → complete → L9 双验证
+
+### 传播限制判定
+
+- Live260 candy：源文 3 次标注「仅限内部不要外传」→ case 卡按 #322/#586/#611 先例**双标注**（source_context ⚠️ + 正文密级声明），案例抽象化脱敏
+- 探索营 candy：全文 grep「外传/内部/密」零命中（L226 唯一「内部」为 mem-input 判断逻辑正文）→ 不触发密级标注，正常引用
