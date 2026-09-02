@@ -463,3 +463,4 @@
 - [2026-09-03 01:32] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
 [2026-09-03 01:33] ✅ #627 基建登记6资产+月界测试修复 complete 提审：①总表§3+5行/§3b+1行登记（最近验证全实证）+§0工具族42重计 ②queue-archive口径②按任务日期归月+fixture动态日期化（跨月补跑不串月）；验证=test_infra_status 8passed+test_queue_archive 3passed+全量回归477passed/0failed（基线2红清零其余原样）+真实dry-run 23候选全归[2026-08]；commit af0aca9ae；五字段+存在性核查锚点已落任务单，待欧阳锋终审
 [2026-09-03 01:41] ✅ #628 备份互撞防护 complete 提审：机制层=备份前活动会话双信号检测（registry非platform心跳≤20min逐实例+agent CLI进程路径过滤，kimi-desktop/hermes网关排除）有则SKIPPED留痕rc=0；纪律层=拉起模板备份避让行（节拍按实况:20/:50）；回归=守卫用例+5，gate文件10passed+全量482passed/0failed，活体实证01:37:27零commit在制品原样；⚠️发现=01:38:12孤儿backup commit（545bd0f5a）旧代码路径收走本单工作（内容安全已核最终版），源未锁定已上建议书 diag_20260903_huangyaoshi-backup-orphan-source；工作落HEAD=545bd0f5a，待欧阳锋终审
+- [2026-09-03 01:47] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#627（huangyaoshi 的单，挂审 14min）；#628（huangyaoshi 的单，挂审 6min）（到点（节奏 15min））

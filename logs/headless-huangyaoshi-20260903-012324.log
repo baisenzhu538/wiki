@@ -1,0 +1,22 @@
+两单施工完毕，会话收尾闭环。汇报如下：
+
+---
+
+## 本次施工完成 ✅（#627 → #628 队列序连做，双单已 complete 提审待欧阳锋终审）
+
+### #627 基建登记6资产 + 月界测试修复（`af0aca9ae`）
+- **任务1**：基建总表 §3 工具族 +5 行（vault_git_backup / vault-integrity-check / wiki-vault-restore / clock_watchdog / kimi-headless-launch，位置/职责/最近验证/关联全实证）、§3b +1 行（transcribe_win）、§0 工具族计数 20→42 重计 → `test_infra_status` 8 passed（改前红）
+- **任务2**：queue-archive 归档按**被归档任务日期归月**（口径②：主表行=updated_at 月、划掉行=终审日期月，一次运行可落多月文件），fixture 全动态日期化防漂移 → 真实 dry-run 23 候选全归 `[2026-08]` 实证跨月补跑不串月
+- 全量回归 **477 passed / 0 failed**（基线 2 红清零，其余原样）
+
+### #628 备份互撞防护（工作落 `545bd0f5a`）
+- **机制层**：vault_git_backup 备份前双信号活动会话检测（registry 非 platform 心跳 ≤20min 逐实例判 + agent CLI 进程路径特征过滤——kimi-desktop GUI/hermes 网关实测零误报）→ 有活动跳拍留痕 `SKIPPED` rc=0
+- **纪律层**：拉起模板追加备份避让行（节拍按 schtasks 实况 `:20/:50` 落字——任务描述里的 :02/:32 与实际不符已标注）
+- **验证**：守卫用例 +5（10 passed）+ 全量回归 **482 passed** + **活体实证 01:37:27**：真实在制品在场时直跑脚本 → SKIPPED、零 commit、工作原样
+
+### ⚠️ 施工中发现（已上建议书 `diag_...backup-orphan-source`）
+01:38:12 出现**非节拍孤儿 backup commit**（旧代码路径，系统任务实证未触发），把我 #628 施工文件收走——00:32 型事故在守卫落盘后仍复现一次。内容已核安全（HEAD=最终版），**触发源未锁定**，疑 #607 未迁移尽的会话级 cron 残留，建议另立排查 + conveyor 加非节拍检测信号。
+
+### 收尾状态
+- 队列：名下待终审 2 单（#627/#628），可领 0，无遗漏产出（B1 核对过）
+- todos 两行 + 复盘三问 + Truman 追加（自检 🟡 B 级）+ 技能进化日志 + friction-log 3 行（claim seq 别名坑/--evidence 需文件路径/孤儿备份源）全部落盘 commit

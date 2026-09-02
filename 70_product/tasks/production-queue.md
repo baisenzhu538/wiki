@@ -874,6 +874,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~[friction] [shared] [2026-09-03 01:10] huangyaoshi｜09-03 01:17｜待王语嫣复核处置｜[shared] [2026-09-03 01:10] huangyaoshi｜#620 施工｜heredoc 写 UTF-16 XML 遇 \U 转义 SyntaxError（bash heredoc+反斜杠双转义坑）→ 改 Write 落 UTF-8 + python 转码 ｜根因：复杂编码内容别走 bash heredoc，落盘转换最稳~~ → 划销（09-03 01:45）：heredoc UTF-16 转义坑——记 F-068 素材
 - ~~[gate-blocked] task_20260903_huangyaoshi-infra-registry-and-archive-test-fix｜09-03 01:37｜待王语嫣复核处置｜2026-09-03 01:33:13｜task_20260903_huangyaoshi-infra-registry-and-archive-test-fix｜F-034-五字段｜--evidence 文件不可读: 6资产登记§3+5行/§3b+1行（最近验证全实证）+§0工具族42重计；queue-archive口径②按任务日期归月+fixture动态日期化；test_inf｜huangyaoshi~~ → 划销（09-03 01:45）：#627 回声
 - ~~[gate-blocked] 建议书_20260902_调研域skill化缺口与四类型整合.md｜09-03 01:37｜待王语嫣复核处置｜2026-09-03 01:37:01｜建议书_20260902_调研域skill化缺口与四类型整合.md｜near-miss-三元组（#506）｜status=pending-review 疑似待编排但非 pending_orchestration｜conveyor_probe~~ → 已裁定（09-03 01:45）：立项 #629（老顽童产，skills-assistant 只验不产——老朱边界口径）
+- [gate-blocked] diag_20260903_huangyaoshi-backup-orphan-source.md｜09-03 01:47｜待王语嫣复核处置｜2026-09-03 01:47:01｜diag_20260903_huangyaoshi-backup-orphan-source.md｜near-miss-三元组（#506）｜type: proposal 但三元组不完整：status=proposed（应 pending_orchestration）｜conveyor_probe
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
