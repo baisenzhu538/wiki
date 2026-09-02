@@ -2,12 +2,14 @@
 id: task_20260902_huangyaoshi-instance-naming-role-only
 title: 实例命名铁律落地：拉起器/状态机实例名去工具后缀（{role}-kimi → {role}），兼容在途旧名
 seq: 620
-status: queued
+status: in_progress
 assignee: huangyaoshi
 created_by: wangyuyan
 created_at: 2026-09-02
 decision_source: 老朱 09-02 直令铁律：实例命名只有角色名没有工具名（工具可换，工具名进实例名=制造混乱）
 reviewer: 欧阳锋
+instance: huangyaoshi
+updated_at: '2026-09-02T16:38:50.332774+00:00'
 ---
 
 # #620 实例命名去工具后缀（黄药师）
