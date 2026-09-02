@@ -2742,3 +2742,14 @@ Verdict**：PASS，等级 **A-**。
 • Empty queue for many ticks now (~1.5h). All work done, session essentially idling. The cron keeps firing every 15 min. Everything is fine — just report standby. Nothing to change. Maybe I should consider whether to keep the cron going — it's the mandated 门铃. Keep it.
 
 • 待命。队列全清，无新指令。继续巡航。
+
+• Another tick, queue's been empty for ~2h. Just check and standby.- [2026-09-03 04:47] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无�
+- [2026-09-03 05:02] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无�
+# role=huangyaoshi · 任务路由（#472 只读视图，不动状态机）
+✅ 可领 0:
+  (无)
+⏸ 等依赖 0:
+  (无)
+🧊 冻结 0:
+  (无)
+🚧 进行中 0:
