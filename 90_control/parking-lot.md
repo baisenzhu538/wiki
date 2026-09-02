@@ -97,6 +97,8 @@ task: '#420（B4-4 拍板：6 份旧停车场 → 单一工厂停车场）'
 
 | F-071 | 基建 | **kdo-tools 测试从仓库根不可跑**（缺 conftest.py 兜底 sys.path，collection 即 ModuleNotFoundError）：加 conftest.py 或 pyproject rootdir 配置，统一各单验证口径 | 欧阳锋建议书 prop_20260902_kdo-tools-pytest-root-runnable（#619 终审发现）+ 王语嫣 09-02 挂账 | P3 | 待排期 | 触发=与 F-069 同窗口（黄药师套件批）；小改 |
 
+| F-072 | 基建 | **codex-relay 存活保障**（4444→DeepSeek）：当前仅 LogonTrigger 单触发源，08-26 被杀后 6 天无人知（09-03 老朱实测发现）。修法：加失败重启/周期自愈触发器，或 relay 探活并入既有探针面 | 王语嫣 09-03 通路实测发现 | P3 | 待排期 | 触发=黄药师套件窗口；小改 schtasks 触发器 |
+
 | F-069 | 基建 | **KDO 全仓 pytest collection 期存量 UnicodeDecodeError**（qa/test_08_end_to_end.py）：文件编码声明/读取方式对齐 UTF-8，消除全仓回归口径长期噪音点 | 欧阳锋建议书 prop_20260902_repo-wide-pytest-collection-unicodeerror（#618 终审发现）+ 王语嫣 09-02 挂账 | P3 | 待排期 | 触发=黄药师顺手套件窗口（与 F-067 同批）；小改 |
 
 ## 生命周期说明
