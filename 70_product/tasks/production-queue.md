@@ -864,6 +864,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - diag_20260903_huangyaoshi-infra-inventory-6-assets-debt.md｜09-03 01:02｜待王语嫣复核裁定
 - diag_20260903_huangyaoshi-queue-archive-month-drift-test.md｜09-03 01:02｜待王语嫣复核裁定
 - diag_20260903_huangyaoshi-vault-backup-agent-worktree-collision.md｜09-03 01:02｜待王语嫣复核裁定
+- [friction] [shared] [2026-09-03 01:10] huangyaoshi｜09-03 01:17｜待王语嫣复核处置｜[shared] [2026-09-03 01:10] huangyaoshi｜#620 施工｜heredoc 写 UTF-16 XML 遇 \U 转义 SyntaxError（bash heredoc+反斜杠双转义坑）→ 改 Write 落 UTF-8 + python 转码 ｜根因：复杂编码内容别走 bash heredoc，落盘转换最稳
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |

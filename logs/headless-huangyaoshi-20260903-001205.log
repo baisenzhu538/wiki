@@ -1817,3 +1817,32 @@ No new instructions in todos. My queue: #622, #625 待终审； #620, #623 queue
   - **#620/#623** 可领但被 #504 阻塞（#625 在审期间不接新单）
 
   无事施工，继续待命。下一拍再看 #625 终审结果。
+
+- [2026-09-03 00:47] ✅ KDO 终审通过 1 单：#622——你的单过了，见任务单终审记录
+- [2026-09-03 00:57] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#625（huangyaoshi 的单，挂审 17min）；#620（huangyaoshi 的单，挂审 11min）（到点（节奏 15min））
+- [2026-09-03 00:55] 复盘完成：00:50场 Truman 11章追加至 daily-context/2026-09-03.md（#620提审+#623挂起+#622 PASS A- 收口），自检🟡 B级，新坑 E026 已入错误模式库
+# role=huangyaoshi · 任务路由（#472 只读视图，不动状态机）
+✅ 可领 0:
+  (无)
+⏸ 等依赖 0:
+  (无)
+🧊 冻结 0:
+  (无)
+🚧 进行中 0:
+  (无)
+⏳ 待终审 3:
+  #620 task_20260902_huangyaoshi-instance-naming-role-only — 实例命名铁律落地：拉起器/状态机实例名去工具后缀（{role}-kimi→{role}），
+  #623 task_20260902_huangyaoshi-daily-review-scheduler — 四主力每日复盘计划任务化：schtasks kdo-daily-review 每日23:3
+  #625 task_20260902_huangyaoshi-gate-suite-batch2 — 门禁套件批2：git大文件三层门禁（gitignore扩展+>100MB硬拦/>15MB 
+⚖️ 最近终审（48h） 8:
+  #608 task_20260902_huangyaoshi-image-detail-deadloop-fix — ✅PASS A（2026-09-02）
+  #612 task_20260902_huangyaoshi-gate-suite-fixes — ✅PASS A（2026-09-02）
+• Interesting — another huangyaoshi instance (00:50 session) claimed and completed #620 and #623, both now pending_review. Todos note says #623 挂起？ "（#620提审+#623挂起+#622 PASS A- 收口）" — but myqueue shows #623 in 待终审. Anyway: 3 tasks pending review, nothing claimable, nothing for me to do. Standby.
+
+• 无事施工，待命。
+
+  - 另一实例（00:50 场）已把 **#620、#623** 提审——现在 **#620/#623/#625 三单全在等欧阳锋终审**
+  - 可领 0，#504 阻塞中（有单在审不接新单）
+  - todos 无新指令，#622 PASS A- 已由系统记账
+
+  继续 15min 巡航，终审放行后按队列序领下一单。
