@@ -72,3 +72,21 @@ updated_at: '2026-09-02T00:10:36.671280+00:00'
 | 结构牌 | 组件库#10 先骨架再填肉 + L8 子卡先写定位 | 增量 2 卡（case+dk）标题下先写定位声明，挂接实事求是族与 kdo 治理域 |
 | 过程牌 | L2 全量素材消费 | Eason DataPack 440 行逐字读完；其余 5 件以 #586 reviewed 卡的 source_refs 对账确认同源覆盖 |
 | 质量牌 | 组件库#16 先 lint 再 pre-submit + L3 深挖达标 + 自攻击 | 每卡 ≥100 行正文、case 卡带证据表、pre-submit 逐卡过、批后四路自攻击 |
+
+## 执行报告（老顽童，2026-09-02）
+
+**交付物**：
+1. `30_wiki/cases/case-yitang-eason-truth-delivery-audit.md`（新增，正文 103+ 行，case）
+2. `30_wiki/dark-knowledges/dk-yitang-fact-three-questions-trust-tiers.md`（新增，正文 132+ 行，dk）
+3. 反向补链 3 张存量卡：`framework-yitang-shishi-qiushi`（related: null→补 2 链）、`concept-yihang-data-pack-ethics`（+2）、`concept-agent-university`（+2）
+4. 本任务单「## 建模方案」节（L1 出牌记录）
+
+**完成内容**：查重先行——任务单 5 主候选经 grep+kdo 检索确认已由 #586 批 reviewed 卡全覆盖：`framework-muse-ai-full-map-v1`（MUSE 数据包，source_refs 同源）、`method-anthropic-skill-design-patterns`（高阶 Skill 设计指南）、`concept-agent-university`（Agent大学）、`framework-lobster-opt-one-person-team`（OPT 姊妹篇已互链）、`case-jovida-ai-life-coach`（Jovida 双报告合一）——按 #610 先例不重建；增量锁定 Eason 审计族 2 卡（🔴密级件，任务单明确授权按 #322 先例处理，边界无拿不准项，未触发问王语嫣）。case 卡含证据表/深挖 L1-L5/六层交叉 L1-L4/双攻击者 Critique/失败模式/KDO 同构映射表；dk 卡含六字段标准节+四方法+封装判断元暗知识+双攻击者 Critique。
+
+**验证**：① pre-submit 两卡 PASS（case 45/100、dk 40/100；各 1 条 #542 概念交叉提示制 WARNING，不拦截，已人工核对：Truman/业务公式/目标管理等引用与权威定义一致，"角色扮演"系通用语非 ai-complex-communication 概念义）；② 互链双向 0 死链（两新卡全部 [[..]] 目标经 find 验证实存，反向补链 3 处）；③ `kdo index --incremental` 至 4177，两新卡可检索；④ 传播限制标注：两新卡 frontmatter source_context + 正文首行双标注（#322/#586 先例格式：内部库可用，禁止外传禁止发布）；⑤ 数字纪律：证据表全标"单一内部文档口径待独立核实"，>80% 复发概率标注为 CHO 估计值；⑥ 自攻击四路执行：🔴0 🟡2（A 逻辑：79/40 分钟算术核验过；B 证据：单一来源已标注；C 完整性：素材消费说明过度声称已修——课程版连续谱/六段位/十大坑归位存量卡，两新卡只落 Agent 适配增量；D 时效：arXiv 2606.04990/CSA ATF 2026 新源可用），🟡 已修复复跑 PASS；⑦ 交付物已入仓 commit d743581cb（主体内容由 08:20 vault 自动备份先行入库，本次提交为后续修订 diff）。
+
+**边界**：原素材 00_inbox 未动；Eason 事件细节按要求抽象化（方法论为主，时间线/段位对照保留结构脱敏呈现）；未触碰其余 5 张 reviewed 存量卡正文（仅概念卡 agent-university 与 data-pack-ethics 加 related 反向链、shishi-qiushi 的 related:null 补 2 链，未改其正文与 reviewed 状态）；WAIC 顶层思考件无独立卡（队列登记口径=并入本族互链），MUSE 卡为 reviewed 存量未改，WAIC 互链留待后续裁决。
+
+**需要谁动作**：欧阳锋终审两新卡（重点：🔴密级件的脱敏口径是否达标、KDO 同构映射表的事实准确性）；如需 WAIC 顶层思考件与 MUSE 卡互链，请终审时一并裁定（涉及改 reviewed 卡，老顽童未动）。
+
+**三方法记录**：①素材消费——Eason DataPack 440 行逐字读完（W1），其余 5 件以 #586 reviewed 卡 source_refs 对账确认同源覆盖，素材消费率口径=增量素材 100%+存量覆盖对账 5/5；②传播限制检查——源文档 L7 明示🔴「CHO 私有—仅限 Truman 审阅」，触发 #322 先例，两卡双标注；③外部对标——WebSearch 命中 arXiv《From Agent Traces to Trust》(2606.04990) 与 CSA《Agentic Trust Framework》，确认"署名真实性/信任分级"与国际前沿同构，无术语冲突（MUSE 不新建不涉及命名冲突）。
