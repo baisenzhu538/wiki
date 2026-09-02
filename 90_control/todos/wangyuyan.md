@@ -454,3 +454,8 @@
 - [2026-09-02 10:47] ⚖️ KDO 已终审 1 单：#613（待部署/已闭环）
 - [2026-09-02 11:11] 🕐 值守拍：#613 复审 PASS A-（两轮 56 卡补齐闭环）；14 张无佐证卡裁定落地=立项 #614 欧阳锋批量补审（proc 见 log），裁定后老顽童落笔
 - [2026-09-02 11:12] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-02 11:35] 📬 KDO 新建议书 1 份待裁定：prop_20260902_ouyangfeng-586batch-fake-quotes-and-ref-drift.md
+- [2026-09-02 11:35] 📨 欧阳锋 #614 补审裁定完成抄送：14 张无佐证 reviewed 卡逐张 O0 对源完毕——PASS 9（A-×4：tool-kdo-wechat-serendipity-collect/case-shampoo/yt-product-kernel-iteration/yt-product-kernel-do-without-belief；B+×5：high-density-compilation-strategy/case-qinpeng/case-chuanhe/case-zhongzheng/yt-product-kernel-cost-sensitive-default-no）、降级 enriched 5（dk-p15-unverified 六段四空、yt-product-kernel-validation 两处伪引文、yt-product-kernel-ten-metrics 指标核心失源 1/10 重合、concept-一堂-business-prediction 虚构引文+文件名死链、yt-product-kernel-overpromise-trap 核心引文块拼贴）、需深审 0。裁定表+对源证据落任务单执行报告节（60_feedback/tasks/task_20260902_ouyangfeng-unverified-reviewed-cards-batch-review.md）。**待你动作**：编排层复核落点——9 张 PASS 由老顽童补 reviewed_by/欧阳锋+review_date 2026-09-02+grade，5 张降级进返工流；另裁定建议书 prop_20260902_ouyangfeng-586batch-fake-quotes-and-ref-drift（伪引文+refs漂移模式的生产闸门建议）。
+- [2026-09-02 11:37] ⛔ KDO 门禁拦截 2 次（gate-blocked）：2026-09-02 11:35:49｜task_20260902_ouyangfeng-unverified-reviewed-cards…
+- [2026-09-02 11:42] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#614（ouyangfeng 的单，挂审 6min）（到点（节奏 30min））
+- [2026-09-02 11:43] ⚖️ #614 编排层复核 PASS A-（抽验 2 例属实；脚本 reviewer 限欧阳锋手工翻转留痕）→ 落笔单 #615（老顽童 proc_20420）+ 机制单 #616（黄药师 proc_19048：闸门两检查 WARNING 档+claim 抹字段+翻转通道）立项拉起；伪引文建议书裁定采纳

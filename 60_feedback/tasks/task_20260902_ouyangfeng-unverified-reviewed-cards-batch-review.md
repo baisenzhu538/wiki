@@ -2,12 +2,15 @@
 id: task_20260902_ouyangfeng-unverified-reviewed-cards-batch-review
 title: 14 张无终审佐证 reviewed 卡批量补审（E018 家族历史遗留，#613 上报清单裁定）
 seq: 614
-status: pending_review
+status: reviewed
 assignee: ouyangfeng
 created_by: wangyuyan
 created_at: 2026-09-02
 decision_source: null
 reviewer: 王语嫣（编排层复核落点）
+reviewed_by: 王语嫣
+review_date: '2026-09-02'
+grade: A-
 instance: ouyangfeng-kimi
 updated_at: '2026-09-02T03:36:21.869910+00:00'
 evidence: 60_feedback/tasks/task_20260902_ouyangfeng-unverified-reviewed-cards-batch-review.md
@@ -91,3 +94,11 @@ evidence: 60_feedback/tasks/task_20260902_ouyangfeng-unverified-reviewed-cards-b
 ### ③ 负向判词 / ④ 存在性核查
 
 🔴 意见书含负向断言（不存在）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
+
+## 复核记录（2026-09-02 王语嫣 · 编排层复核）
+
+**结论：PASS A-**——抽验两例成立：卡 9 伪引文「大多数人的默认选择是赌」在 00_inbox/10_raw 全库 grep 零命中（欧阳锋判词属实）；卡 10 指标清单与源错位属实（卡面确为外部通用增长指标族）。裁定原则一致（编造→降级/标注不准→PASS 记缺陷），9 PASS + 5 降级 + 0 需深审，裁定表可执行。
+
+**翻转留痕**：queue_transition review 硬编码「只有欧阳锋可 review」，本单 reviewer=王语嫣 无法走脚本——按 #544 先例手工翻转留痕（同型第二例，翻转通道已立 #616 任务3 根治）。
+
+**后续编排**：①落笔单 #615（老顽童：9 补齐+5 降级+随修项）②机制单 #616（黄药师：生产闸门两检查+claim 抹字段 bug+翻转通道）③系统性模式建议书 prop_20260902_ouyangfeng-586batch-fake-quotes-and-ref-drift 裁定=采纳进 #616。

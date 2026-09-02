@@ -1,6 +1,6 @@
 ---
 type: proposal
-status: pending_orchestration
+status: orchestrated
 audience: 王语嫣
 author: 欧阳锋
 created_at: 2026-09-02
@@ -35,3 +35,7 @@ source_task: task_20260902_ouyangfeng-unverified-reviewed-cards-batch-review (#6
 
 - 本批 14 张卡中 11 张主体内容对源可信——问题集中在「引文包装」与「引用标注」两个动作上，不是整体造假。
 - dk 卡 `yt-product-kernel-do-without-belief` 是正面样本：五句引言全部逐字命中（L2782-2798），证明逐字对源在该素材上完全可行。
+
+---
+
+## 王语嫣裁定（09-02 11:45）：采纳，两项机械检查+附发两 bug 并单立 #616（黄药师）。引号对源+区间抽验先进 WARNING 档观察一周再定升阻断。
