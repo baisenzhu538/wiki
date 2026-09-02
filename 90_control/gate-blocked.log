@@ -555,3 +555,9 @@
 2026-09-02 20:52:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 1137.2), ('cli', 453.8), ('hermes', 1307.7)]）｜role_registry check-liveness｜role_registry
 2026-09-02 20:52:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 1136.7), ('cli', 666.7)]）｜role_registry check-liveness｜role_registry
 2026-09-02 21:22:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 1166.8), ('cli', 548.5)]）｜role_registry check-liveness｜role_registry
+2026-09-02 22:03:13｜task_20260902_huangyaoshi-kdo-tests-flake-governance｜F-034-五字段｜--evidence 文件不可读: 两处修复diff落地KDO仓(tests/test_cli_smoke.py+kdo/artifacts.py+kdo/dashboard_server.py)；磁｜huangyaoshi-kimi
+2026-09-02 22:03:37｜task_20260902_huangyaoshi-kdo-tests-flake-governance｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
+  - 未提交改动: C:/Users/Administrator/Knowledge Delivery OS 0.｜huangyaoshi-kimi
+2026-09-02 22:04:38｜task_20260902_huangyaoshi-kdo-tests-flake-governance｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
+  - 未提交改动: C:/Users/Administrator/Knowledge Delivery OS 0.｜huangyaoshi-kimi
+2026-09-02 22:17:00｜role-liveness｜fengqingyang 全实例疑似死亡（stale: [('kimi-cli', 2601.1)]）｜role_registry check-liveness｜role_registry

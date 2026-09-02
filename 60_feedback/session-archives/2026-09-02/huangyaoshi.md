@@ -2,10 +2,10 @@
 session_id: huangyaoshi-2026-09-02
 agent_id: huangyaoshi
 date: 2026-09-02
-created_at: 2026-09-02T00:18:11.904409+00:00
-updated_at: 2026-09-02T00:18:11.904409+00:00
-git_head: 84396687b
-content_hash: f90a191cfb16
+created_at: 2026-09-02T14:10:18.595840+00:00
+updated_at: 2026-09-02T14:10:18.595840+00:00
+git_head: 535d42fd3
+content_hash: b0785408869a
 ---
 
 # huangyaoshi · 2026-09-02
@@ -85,3 +85,72 @@ content_hash: f90a191cfb16
 
 - Agent 自身：把「批量移动→git status 双向核验（A 侧+D 侧）」写进施工肌肉，或给 batch 脚本加内置断言。
 - 方法论卡：批量三问可加第四问候选——「移动类操作的版本轨两侧核验了没」（待王语嫣裁定是否入库）。
+
+---
+
+# 黄药师 daily-context 2026-09-02（晚班第二场 #618，约 21:30–22:07）
+
+## 差异栏（第 1 章）
+
+本次 vs 上次（同日夜班）：**首次把「修测试」修成「修产品」**——对齐 smoke 断言后暴露出 SQLite 迁移以来 derived_outputs 从未落库的真回归，测试修复只是入场券。复发模式：无（批量/git 核验家族本轮未触发）。被打破的假设：以为「顺序依赖 flake」真是顺序问题——无随机插件、顺序确定，真相是负载时序（Windows RST），「单跑过全量挂」的字面描述把根因方向带偏了。
+
+## 概要
+
+#618 测试 flake 治理两例闭环：test_cli_smoke 断言对齐 SQLite 现行 schema（+顺带根治 derived_outputs 持久化丢失）；test_dashboard_server flake 定位为 do_POST 早退不读请求体→Windows RST（WinError 10053）→修复后压力复测 6/6 过、全量回归 614 passed/1 skipped×5（含提交后终跑），commit db343f7，已提审待欧阳锋。
+
+## 关键决策
+
+| 决策 | 理由 | 结果 |
+|:--|:--|:--|
+| smoke 测试改走 `load_state` API 而非直接读 state.json | SQLite 迁移后 state.json 剥离 MVP_COLLECTIONS，JSON 不再是全量真相源 | 断言与现行 schema 对齐，KeyError 根治 |
+| derived_outputs 断言不删除、修产品代码 | 删断言=掩盖 produce 链路真回归，终审必被打回 | artifacts.py 补 SQLiteCollection 回写，链路恢复 |
+| dashboard flake 先造压力复现再下手（P-21） | 静态分析三轮无果；磁盘 IO 压力 5 连跑稳定复现 WinError 10053 | 根因锁死 RST，修复有实证对照（前 3/5 挂→后 6/6 过） |
+| 修复落在服务端（早退前读请求体）而非放宽测试 timeout | 真实用户浏览器同受此 bug；timeout 是掩盖不是解耦 | 8 行改动根除全族 403/400 早退 RST |
+| KDO 仓 3 文件 path-scoped commit 后 complete | E040 门禁「未 commit=未发生」 | 门禁过，pending_review |
+
+## 思维盲点
+
+1. **把「断言过期」当纯测试问题**：第一修完立刻撞上 derived_outputs 断言失败，差点就想把断言弱化交差。为什么差点漏：任务单字面是「断言对齐 schema」，完成感诱导往「改断言」方向收敛——实际现行 schema 的语义包含「produce 必须写回 derived_outputs」。
+2. **盲信前人的 flake 定性**：「顺序依赖」四个字让我先查了两轮测试间污染（chdir/env/monkeypatch），全是无效路径。为什么漏掉：没先质疑定性本身—— pytest 无随机插件、顺序确定，「顺序依赖」在机制上不成立，该第 0 步就算这笔账。
+3. 首次 complete 被 E040 门禁打回（交付物路径未带 KDO 仓全路径+未 commit）——门禁口径变更后第一次踩。为什么漏掉：凭记忆走旧流程，没把门禁报错当文档读。
+
+## 顿悟
+
+- **「单跑过全量挂」≠顺序依赖**：在没有随机顺序插件的套件里，这个症状的更优假设是「全量跑时机箱更热」——负载/IO/AV 扫描时序。定性词（顺序依赖）会锁死排查方向，复现前都该当作假设而非事实。
+- **Windows socket 语义是测试 flake 的隐藏大户**：服务端 close 时接收缓冲有未读数据→RST→客户端 ConnectionAbortedError 吃掉已到响应。任何「早退不读 body」的 HTTP handler 在 Windows 下都是定时炸弹。
+
+## 过程资产
+
+- KDO 仓 commit `db343f7`：`tests/test_cli_smoke.py`（read_workspace_state helper）、`kdo/artifacts.py`（link_artifact_to_sources SQLite 回写）、`kdo/dashboard_server.py`（do_POST 早退前读请求体）
+- `60_feedback/tasks/task_20260902_huangyaoshi-kdo-tests-flake-governance.md` 五字段执行报告（含全量回归原样输出 614 passed/1 skipped in 118.63s）
+- 验证现场：磁盘压力复测脚本（/tmp 内联）、全量回归 4 连跑日志 /tmp/kdo_flake_loop.log
+- 队列：#618 pending_review（E040 门禁通过后翻转）
+
+## 元反思
+
+下次怎么做才能不一样：接到「flake 治理」类任务，第 0 步先验定性词——查套件有无随机顺序插件、flake 报错原文，不带着建议书的定性开工。「修测试」任务默认多问一句：这个断言守护的链路现在还工作吗？（本次若不追问，derived_outputs 静默丢失会继续烂下去。）
+
+## Truman复盘
+
+### 逐轮映射
+
+| 轮次 | 人做什么 | 双三角要素 | AI做什么 | 双三角要素 |
+|:--|:--|:--|:--|:--|
+| 老朱派 #618（指令含任务号+纪律四条） | 定边界定出口 | 方向 | 恢复上下文+claim+施工 | 场景 |
+| 建议书定性「顺序依赖」（欧阳锋/王语嫣立项） | 给初始假设 | 方向 | 静态排查无果后造压力环境复现，推翻定性锁定 RST | 判断 |
+| E040 门禁打回首次 complete | 机制代人来校准 | 校准 | 读门禁源码改交付物口径+commit 后重过 | 执行 |
+
+### 飞轮效应
+
+加速了「终审复跑→建议书→立项→根治」回路：#616 终审抓出的数字漂移，当夜变成两例 flake 的根治+一条提审纪律的首次实跑（原样输出贴报告）。副产品：SQLite 迁移的 derived_outputs 暗伤被顺路排掉。
+
+### 对照实验
+
+- 无人（纯 AI）：derived_outputs 断言大概率被弱化交差——任务单字面「断言对齐」给的完成感方向就是改测试；门禁 E040 是机制兜底。
+- 无 AI（纯人）：WinError 10053 的 RST 机理+磁盘压力复现环境搭建，排查成本以天计。
+- 合在一起：人给假设和校准机制，AI 跑复现实验推翻假设——本轮 flake 治理的完整形态。
+
+### 下次改进
+
+- Agent 自身：flake 任务开工先跑「定性词质疑三问」（有无随机插件？报错原文？字面症状的最简机制解释？）。
+- 方法论卡候选：「单跑过全量挂」症状决策树——顺序插件检查→负载时序假设→压力复现（待王语嫣裁定是否入库）。

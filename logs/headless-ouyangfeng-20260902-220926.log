@@ -1,0 +1,561 @@
+kimi version 0.39.1
+• Let me start by reading the startup files.
+
+• 启动恢复，先读必读文件。
+
+• Read the last 20 lines of todos more carefully, and the relevant unread segment. I need the tail of the todos file to find the #618 notification. Also read 90_control/AGENTS.md.I need to find the #618 task. The todos file tail shows the last 20 lines are wake-up calls; the "未读段" would include the #618 notification around 22:07 on 09-01 or 09-02. Let me grep for 618 in the todos file and find the task in production-queue.# role=ouyangfeng · 任务路由（#472 只读视图，不动状态机）
+✅ 可领 0:
+  (无)
+⏸ 等依赖 0:
+  (无)
+🧊 冻结 0:
+  (无)
+🚧 进行中 0:
+  (无)
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 0:
+  (无)
+The myqueue shows 0 pending review for ouyangfeng. But #618 was submitted at 22:07 per the user. Let me check the production-queue.md for #618 and the task file `60_feedback/tasks/task_20260902_huangyaoshi-kdo-tests-flake-governance.md`.
+
+• myqueue 显示无待终审，需要核查 #618 在队列里的实际状态。
+
+• Task #618 is pending_review. This is a code-class task (改动含 .py), so I must apply the 版本对齐三问 (entry 3 questions) and O0/O3 纪律: 执行报告数字必须等于最后一次全量实测原样输出——I need to independently re-run the full regression in the KDO repo and verify:
+
+  1. **入仓了吗**: KDO 仓 git log 含 commit db343f7?
+  2. **生效了吗**: this is code in repo; tests run against repo code directly — no long-running process issue per se, though dashboard_server fix affects server code. The claim is about tests passing.
+  3. **对齐了吗**: 审查对象是最新真相源 — git log -1.
+
+  Then re-run `python -m pytest tests/ -q` in the KDO repo and compare with claimed 614 passed, 1 skipped.
+
+  Also check the diff of commit db343f7 vs parent 7ba660c — three files: tests/test_cli_smoke.py, kdo/artifacts.py, kdo/dashboard_server.py.
+
+  Full regression takes ~2 minutes (118s). That's within a background task or a 300s foreground timeout. Let me do:
+
+  1. git log in KDO repo
+  2. git show db343f7 --stat + diff
+  3. Run full regression independently
+
+  Note: user instruction said "终审 #618...按新纪律对账：执行报告数字必须等于最后一次全量实测原样输出". My job: independently verify. The full run takes ~2 min; run in background or foreground with timeout 300.
+
+  KDO 仓路径: C:\Users\Administrator\Knowledge Delivery OS 0.0.1\ — outside working directory, but the task explicitly requires verifying it; AGENTS.md lists it as a key path. Fine.
+
+  Plan:
+  1. Bash: cd into KDO repo, git log -3, git show --stat db343f7
+  2. Run pytest full regression (background, ~2min)
+  3. Compare output with the claimed 614 passed/1 skipped
+  4. Also review the diffs for correctness/security semantics (dashboard_server.py reads body before early return; artifacts.py write-back only in SQLiteCollection branch)
+  5. Write 终审记录 in task file, then queue_transition review pass --grade
+  6. Append todos line
+  7. 复盘 obligations? The ouyangfeng context requires daily-context Truman 11章 at session end. That's heavy. The user's instruction says "只做本次指令范围内的事，做完收工". The general discipline from AGENTS.md (huangyaoshi) isn't mine; ouyangfeng-context says 复盘强制动作. I'll do the review, queue transition, todos line. The Truman 复盘 — context file mandates it for session end. The user instruction says do only the task. I'll do the review fully; the mandatory 复盘 per role context is a session-end action. Given "做完收工，不扩展到其他任务", I could keep it minimal — but the role context says 不执行=会话未完成. I'll do a minimal Truman write at the end + skill evolution log line. Actually, to keep focused, the core deliverable is the review. I'll do the review and the todos append, and also the daily-context save since the role file makes it mandatory. Let me at least do the review first.
+
+  Step 1: verify git state.
+
+• #618 在队（pending_review）。代码类任务，先做版本对齐三问 + 独立复跑全量回归对账。db343f7 2026-09-02 22:04:50 +0800 #618 测试flake治理：smoke断言对齐SQLite schema + dashboard早退读体根除RST flake + derived_outputs持久化修复 by huangyaoshi-kimi
+7ba660c 2026-09-02 12:07:49 +0800 #616 生产闸门三修任务1：pre-submit 引号逐字对源+refs区间抽验 WARNING 门禁（#614伪引文/区间漂移实证根治，WARNING档观察）by huangyaoshi-kimi
+61b3f85 2026-08-28 07:53:44 +0800 #569 索引新鲜度报错带--incremental提示+aliases比对滤除日期工件名（残留误报根治） (by huangyaoshi)
+d711bce 2026-08-28 06:29:56 +0800 #567 pre-submit拆capability虚构路径豁免+lint散文型source_ref WARN（疑似非路径） (by huangyaoshi)
+a62e778 2026-08-27 23:30:16 +0800 #559 health-check 新增 hermes profile 配置漂移巡检：approvals.mode/timeout/cron_mode+command_allowlist 对基线 (by huangyaoshi)
+---
+commit db343f7164daca4320922b513fc3f2c480fdbbf9
+Author: Linhai Zhu <baisenzhu538@gmail.com>
+Date:   Wed Sep 2 22:04:50 2026 +0800
+
+    #618 测试flake治理：smoke断言对齐SQLite schema + dashboard早退读体根除RST flake + derived_outputs持久化修复 by huangyaoshi-kimi
+
+ kdo/artifacts.py        | 13 +++++++++++--
+ kdo/dashboard_server.py |  8 ++++++--
+ tests/test_cli_smoke.py | 23 ++++++++++++++++++++++-
+ 3 files changed, 39 insertions(+), 5 deletions(-)
+---STATUS---
+
+
+• 版本对齐：入仓✅（db343f7 22:04:50 在 HEAD），工作区干净✅。现在看 diff 内容 + 独立复跑全量回归（~2 分钟，放后台）。diff --git a/kdo/artifacts.py b/kdo/artifacts.py
+index bdef435..9396621 100644
+--- a/kdo/artifacts.py
++++ b/kdo/artifacts.py
+@@ -6,7 +6,7 @@ import re
+ from pathlib import Path
+ from typing import Any
+ 
+-from .workspace import ensure_dir, now_iso, parse_frontmatter, safe_read, slugify, write_markdown
++from .workspace import SQLiteCollection, ensure_dir, now_iso, parse_frontmatter, safe_read, slugify, write_markdown
+ 
+ CONTENT_SUBTYPES = {"article", "video", "audio", "tutorial", "course", "report"}
+ CODE_SUBTYPES = {"app", "plugin", "template", "script", "package"}
+@@ -21,13 +21,22 @@ def find_artifact(state: dict[str, Any], artifact_id: str) -> dict[str, Any] | N
+ 
+ 
+ def link_artifact_to_sources(state: dict[str, Any], source_refs: list[str], artifact_id: str, artifact_path: str) -> None:
+-    for source in state.get("sources", []):
++    sources = state.get("sources", [])
++    mutated: list[dict[str, Any]] = []
++    for source in sources:
+         if source.get("id") not in source_refs:
+             continue
+         derived = source.setdefault("derived_outputs", [])
+         item = {"artifact_id": artifact_id, "path": artifact_path}
+         if item not in derived:
+             derived.append(item)
++            mutated.append(source)
++    # SQLiteCollection iterates fresh dict copies — in-place edits never reach
++    # the DB, so re-append mutated records to persist them (plain lists mutate
++    # in place and need no write-back).
++    if isinstance(sources, SQLiteCollection):
++        for source in mutated:
++            sources.append(source)
+ 
+ 
+ def select_artifacts(state: dict[str, Any], artifact_id: str | None) -> list[dict[str, Any]]:
+diff --git a/kdo/dashboard_server.py b/kdo/dashboard_server.py
+index 033e057..420450a 100644
+--- a/kdo/dashboard_server.py
++++ b/kdo/dashboard_server.py
+@@ -77,6 +77,12 @@ def make_dashboard_handler(
+                 self.end_headers()
+                 return
+             origin = self.headers.get("Origin", "")
++            # Drain the request body BEFORE any early-reject response: closing
++            # the connection with unread request data makes Windows send RST,
++            # and the client then sees ConnectionAbortedError (WinError 10053)
++            # instead of the 403/400 payload — timing-dependent flake (#618).
++            length = int(self.headers.get("Content-Length", 0) or 0)
++            raw = self.rfile.read(length)
+             if not is_allowed_dashboard_origin(origin):
+                 self._json(403, {"error": "Cross-origin requests not allowed."})
+                 return
+@@ -84,8 +90,6 @@ def make_dashboard_handler(
+             if not secrets.compare_digest(request_token, token):
+                 self._json(403, {"error": "Invalid CSRF token."})
+                 return
+-            length = int(self.headers.get("Content-Length", 0) or 0)
+-            raw = self.rfile.read(length)
+             try:
+                 payload = json.loads(raw)
+             except (json.JSONDecodeError, ValueError):
+diff --git a/tests/test_cli_smoke.py b/tests/test_cli_smoke.py
+index 38f04d5..cb1597a 100644
+--- a/tests/test_cli_smoke.py
++++ b/tests/test_cli_smoke.py
+@@ -7,6 +7,27 @@ import tempfile
+ import unittest
+ from pathlib import Path
+ 
++from kdo.workspace import SQLiteCollection, SQLiteState, load_state
++
++
++def read_workspace_state(workspace: Path) -> dict:
++    """Read full workspace state via the kdo API (current schema).
++
++    `.kdo/state.json` is a legacy artifact: since the SQLite migration the
++    `sources` collection lives in `.kdo/state.sqlite` and is stripped from the
++    JSON, so reading the JSON directly KeyErrors on "sources" (#618).
++    """
++    state = load_state(workspace)
++    try:
++        data = {}
++        for key in state.keys():
++            value = state[key]
++            data[key] = value.as_list() if isinstance(value, SQLiteCollection) else value
++        return data
++    finally:
++        if isinstance(state, SQLiteState):
++            state.close()
++
+ 
+ class CliSmokeTest(unittest.TestCase):
+     def run_cmd(self, args, cwd):
+@@ -122,7 +143,7 @@ class CliSmokeTest(unittest.TestCase):
+             self.assertGreaterEqual(len(list((workspace / "60_feedback").rglob("*.md"))), 1)
+             self.assertTrue((workspace / "50_delivery/analytics/kdo-dashboard.html").exists())
+ 
+-            state = json.loads((workspace / ".kdo/state.json").read_text())
++            state = read_workspace_state(workspace)
+             self.assertGreaterEqual(len(state["sources"]), 3)
+             # At least one source should have derived_outputs (the one linked to "Delivery Thesis")
+             sources_with_outputs = [s for s in state["sources"] if s.get("derived_outputs")]
+Diff looks reasonable:
+  - artifacts.py: write-back only in SQLiteCollection branch ✓
+  - dashboard_server.py: only moves the body read earlier; 403/400 logic and payloads unchanged ✓ — security semantics preserved. Note: reading body before origin check is fine.
+  - test_cli_smoke.py: uses kdo API, closes connection ✓
+
+  Now I need the claimed numbers in the report vs the actual run. While the regression runs, let me also verify the claimed "before" baseline (#616 review found 612 passed/2 failed/1 skipped — that was my own earlier finding, no need to re-verify).
+
+  One thing to check: the claimed output shows 8 lines × 72 dots = 576 + 38 = 614 dots with 1 's'. Count: lines 1-8 are 72 chars each = 576; last line "......." has 38 dots. 576+38 = 614, and one 's' in line 7 → 1 skipped. Consistent internally.
+
+  Also verify test file content at HEAD matches. Let me also check that no long-running dashboard server process needs the fix (版本对齐 question 2: 生产/消费端跑的是这版代码?). dashboard_server is run on demand; tests spawn their own server instance, so no stale process issue. Good.
+
+  While waiting, I can pre-draft the review record. But I need the test run result first. Let me wait for the background task — it takes ~2 min. I could also quickly run the two targeted tests individually to double-check the specific fixes, but the full run covers them.
+
+  Actually let me also check the dashboard_server POST handler more fully to ensure the body drain doesn't break normal path — the normal path re-uses `raw` later; the diff shows the moved lines, with try: payload = json.loads(raw) following. Fine.
+
+  Also check: `int(self.headers.get("Content-Length", 0) or 0)` — if Content-Length missing, reads 0. If a client sends a body without Content-Length (chunked?), BaseHTTPRequestHandler wouldn't handle chunked anyway; existing behavior same. OK.
+
+  Wait for the regression.Waiting 0s / 5m · 1 background task still running
+Waiting 1s / 5m · 1 background task still running
+Waiting 2s / 5m · 1 background task still running
+Waiting 3s / 5m · 1 background task still running
+Waiting 4s / 5m · 1 background task still running
+Waiting 5s / 5m · 1 background task still running
+Waiting 6s / 5m · 1 background task still running
+Waiting 7s / 5m · 1 background task still running
+Waiting 8s / 5m · 1 background task still running
+Waiting 9s / 5m · 1 background task still running
+Waiting 10s / 5m · 1 background task still running
+Waiting 11s / 5m · 1 background task still running
+Waiting 12s / 5m · 1 background task still running
+Waiting 13s / 5m · 1 background task still running
+Waiting 14s / 5m · 1 background task still running
+Waiting 15s / 5m · 1 background task still running
+Waiting 16s / 5m · 1 background task still running
+Waiting 17s / 5m · 1 background task still running
+Waiting 18s / 5m · 1 background task still running
+Waiting 19s / 5m · 1 background task still running
+Waiting 20s / 5m · 1 background task still running
+Waiting 21s / 5m · 1 background task still running
+Waiting 22s / 5m · 1 background task still running
+Waiting 23s / 5m · 1 background task still running
+Waiting 24s / 5m · 1 background task still running
+Waiting 25s / 5m · 1 background task still running
+Waiting 26s / 5m · 1 background task still running
+Waiting 27s / 5m · 1 background task still running
+Waiting 28s / 5m · 1 background task still running
+Waiting 29s / 5m · 1 background task still running
+Waiting 30s / 5m · 1 background task still running
+Waiting 31s / 5m · 1 background task still running
+Waiting 32s / 5m · 1 background task still running
+Waiting 33s / 5m · 1 background task still running
+Waiting 34s / 5m · 1 background task still running
+Waiting 35s / 5m · 1 background task still running
+Waiting 36s / 5m · 1 background task still running
+Waiting 37s / 5m · 1 background task still running
+Waiting 38s / 5m · 1 background task still running
+Waiting 39s / 5m · 1 background task still running
+Waiting 40s / 5m · 1 background task still running
+Waiting 41s / 5m · 1 background task still running
+Waiting 42s / 5m · 1 background task still running
+Waiting 43s / 5m · 1 background task still running
+Waiting 44s / 5m · 1 background task still running
+Waiting 45s / 5m · 1 background task still running
+Waiting 46s / 5m · 1 background task still running
+Waiting 47s / 5m · 1 background task still running
+Waiting 48s / 5m · 1 background task still running
+Waiting 49s / 5m · 1 background task still running
+Waiting 50s / 5m · 1 background task still running
+Waiting 51s / 5m · 1 background task still running
+Waiting 52s / 5m · 1 background task still running
+Waiting 53s / 5m · 1 background task still running
+Waiting 54s / 5m · 1 background task still running
+Waiting 55s / 5m · 1 background task still running
+Waiting 56s / 5m · 1 background task still running
+Waiting 57s / 5m · 1 background task still running
+Waiting 58s / 5m · 1 background task still running
+Waiting 59s / 5m · 1 background task still running
+Waiting 1m / 5m · 1 background task still running
+Waiting 1m 02s / 5m · 1 background task still running
+Waiting 1m 03s / 5m · 1 background task still running
+Waiting 1m 04s / 5m · 1 background task still running
+Independent re-run: **614 passed, 1 skipped** — exactly matches the report's claimed output (the 's' even in the same position; only duration differs, 88.96s vs 118.63s, which is normal timing variance and not part of the pass/fail ledger). 对账通过。
+
+  版本对齐三问：
+  1. 入仓 ✅ db343f7 = HEAD，工作区干净
+  2. 生效 —— tests run directly against repo code; no long-running process consuming this code (dashboard_server spawns per-run). ✅
+  3. 对齐 ✅ git log -1 = 22:04:50 db343f7，与提审时间 22:07 顺序一致，审的就是最新真相源
+
+  对账结果：PASS。等级：这是代码修复任务，不是卡片，等级标准主要面向卡片，但仍需给等级。交付三处修复 + 根因分析扎实（RST 机制）+ 全量回归连跑 4 次 + 数字对账一致。给 A 还是 A-？评级标准：A = 6层交叉验证全过+≥3失败模式+外部对标——卡片标准，对基建任务口径宽松些。交付质量高：不仅修了断言 flake，还挖出了真产品回归（derived_outputs 未落库）并修复，flake 根因有机制级解释+复测（修复前 5 跑 3 挂、修复后 6 跑 6 过）。独立复跑数字一致。给 A。
+
+  现在按 O9：先写「终审记录」节到任务单，再跑 queue_transition review。
+
+  Also should copy 王语嫣 per exit rule 2 (通过→传递通过信息+抄送王语嫣→她收件箱一行指针). So append a line to 90_control/todos/wangyuyan.md.
+
+  Also "review 流转后落 todos" — append my own todos line.
+
+  终审记录 content: 等级 + 通过维度 + 溯源要点 + 缺陷 + 残余风险.
+
+  缺陷/残余风险:
+  - 已知存量 UnicodeDecodeError (qa/test_08_end_to_end.py collection 期) 未处理 — 任务外，边界已声明。是否需要建议书？这是一个已知存量问题，边界里已声明。出口自检钩子：发现问题节非空且含建议性条目 → 写建议书。这个 qa 测试 collection error 是个发现的问题吗？黄药师报告里已声明属存量。它是否值得一份建议书？按 2026-09-02 老朱扩围"任何建议都要写建议书"。我可以写一行：建议立项治理全仓 pytest collection 期存量错误。这算建议性条目。为了合规，落一份最小建议书（三行）到 60_feedback/diagnosis/。嗯——判定口诀："建议"两字出现在验收记录里=必须有对应建议书。如果我在终审记录里只陈述事实（存量错误未处理、边界声明属实）而不写"建议"，是否触发？保守起见，写一份最小建议书，成本极低。
+
+  Write review record section to the task file. The file uses CRLF endings (shown as \r). I need to append with proper line endings. Use Edit? Better to append via Write mode=append with \r\n endings. The file is mixed endings (\r shown on many lines, some lines without?). Line 12 showed '\r' while others show '\r\r' double. It's messy. Append using Write append mode with \n lines... risky for mixed. Better to use python? No — keep simple: use Edit tool, targeting the last line "### ③ 负向判词 / ④ 存在性核查\r\r✅ 执行报告无负向断言词（检查面=执行报告节）\r". Appending a section. Use Write with mode append, content ending lines with \r\n to match. Actually the file's last lines have lone \r. Mixed endings. Append with \r\n is fine.
+
+  Simpler: use Bash printf append? The Edit tool needs exact old_string. Let me use Write append mode with content starting with "\r\n\r\n## 终审记录..." — but Write outputs content literally. I'll use \r\n line endings in my content to be consistent with the file's dominant CRLF.
+
+  Actually simpler and safe: use Edit with old_string = "✅ 执行报告无负向断言词（检查面=执行报告节）" and new_string = that line + the new section. Edit handles CRLF view as shown: lines showed "\r" markers because they are lone CR? "Mixed or lone carriage-return line endings are shown as \r" — meaning those are literal \r characters (Mac-style line endings). So the file likely uses \r (CR only) as line separators! Line 2: "id: ...\r\r" — two \r chars. That means lines are separated by \r characters (classic Mac style), with empty lines being \r\r. Hmm, or file is CRLF and display strips \n... no: "For pure CRLF files, Read shows LF" — here \r is shown explicitly, meaning these are actual CR characters in a file that also has other endings (mixed). So the file likely has \r\n where \n is... confusing. Let me check with a quick command: file endings via od or python.
+
+  Let me just check: `python -c "print(repr(open(...,'rb').read()[-200:]))"`.b'\x9c\xa8\xe4\xbd\x8d\r\n### \xe2\x91\xa2 \xe8\xb4\x9f\xe5\x90\x91\xe5\x88\xa4\xe8\xaf\x8d / \xe2\x91\xa3 \xe5\xad\x98\xe5\x9c\xa8\xe6\x80\xa7\xe6\xa0\xb8\xe6\x9f\xa5\r\n\r\n\xe2\x9c\x85 \xe6\x89\xa7\xe8\xa1\x8c\xe6\x8a\xa5\xe5\x91\x8a\xe6\x97\xa0\xe8\xb4\x9f\xe5\x90\x91\xe6\x96\xad\xe8\xa8\x80\xe8\xaf\x8d\xef\xbc\x88\xe6\xa3\x80\xe6\x9f\xa5\xe9\x9d\xa2=\xe6\x89\xa7\xe8\xa1\x8c\xe6\x8a\xa5\xe5\x91\x8a\xe8\x8a\x82\xef\xbc\x89\r\n'
+CRLF: 85 lone CR: 9 lone LF: 0
+File ends with CRLF; 9 lone CRs inside (probably in some lines) but appending with \r\n is fine and matches dominant style. Use Write append mode with \r\n endings.
+
+• 文件以 CRLF 为主，追加终审记录节。
+
+• Now run queue_transition review with grade A. Note: the earlier todos mention register requirement — but that was for claim; I was told register once back on 08-27. It may already be registered. Just run review; if rejected due to registration, register then retry.
+
+• 终审记录已落盘，现在跑脚本流转（O9 顺序）。任务 618 不在队列中
+
+
+• "任务 618 不在队列中" — the queue row uses task_id `task_20260902_huangyaoshi-kdo-tests-flake-governance`. Per O-3 定位：纯数字 task_id 漏匹配，传全名。
+
+• 纯数字未匹配，改传全名 task_id（已知 O-3 口径）。✅ task_20260902_huangyaoshi-kdo-tests-flake-governance 终审通过，状态更新为 reviewed，等级 A
+✅ dashboard.html 已生成 (201 个任务)
+   待领取: 0  |  审查中: 0  |  进行中: 0  |  已完成: 201
+
+
+• Review passed. Now:
+  1. Verify three-place sync (task frontmatter status + queue column).
+  2. Exit rule 2: 通过→传递通过信息+抄送王语嫣 — append a pointer line to 90_control/todos/wangyuyan.md.
+  3. 出口自检钩子： my review record contains "建议立项" wording → I must write a minimal 建议书 to 60_feedback/diagnosis/ about the存量 UnicodeDecodeError. Let me do that (three-line minimal form per #460).
+  4. Append my own todos line: [2026-09-02 HH:MM] 终审 #618 PASS A ...
+  5. 复盘强制动作： 技能进化日志一行 + daily-context Truman 11章 + save 自检. That's mandated by role context ("不执行=会话未完成"). The user said do only this task and wrap up. The 复盘 is a session-close requirement in my role file. I'll do it reasonably compactly.
+
+  First verify sync + check wangyuyan todos tail format.
+
+• 流转成功。核验四处同步并抄送王语嫣。---
+id: task_20260902_huangyaoshi-kdo-tests-flake-governance
+title: KDO 测试套件 flake 治理两例：test_cli_smoke 断言对齐现行 schema + test_dashboard_server 顺序依赖解耦
+seq: 618
+status: reviewed
+assignee: huangyaoshi
+created_by: wangyuyan
+created_at: 2026-09-02
+decision_source: 欧阳锋建议书 prop_20260902_ouyangfeng-kdo-tests-flake-and-report-drift（#616 终审复跑实测 612 passed/2 failed，与执行报告数字不符）09-02 王语嫣裁定立项
+reviewer: 欧阳锋
+instance: huangyaoshi-kimi
+updated_at: '2026-09-02T14:13:48.633056+00:00'
+evidence: 60_feedback/tasks/task_20260902_huangyaoshi-kdo-tests-flake-governance.md
+reviewed_by: 欧阳锋
+review_date: '2026-09-02'
+---QUEUE---
+252:| 618 | `task_20260902_huangyaoshi-kdo-tests-flake-governance` | KDO测试flake治理：test_cli_smoke断言对齐现行schema+test_dashboard_server顺序依赖解耦+全量回归原样输出 | reviewed | huangyaoshi | 两处修复diff+全量回归输出 | 无 | `60_feedback/tasks/task_20260902_huangyaoshi-kdo-tests-flake-governance.md` | 欧阳锋建议书（09-02王语嫣漏扫9h后补裁定，E052复盘）；提审数字原样纪律随单生效；欧阳锋终审 |
+473:- ~~#618 task_20260902_huangyaoshi-kdo-tests-flake-governance｜huangyaoshi｜提审 09-02 22:07｜60_feedback/tasks/task_20260902_huangyaoshi-kdo-tests-flake-governance.md~~ → 已终审 PASS A（2026-09-02 欧阳锋）
+819:- ~~[gate-blocked] role-liveness｜09-02 21:27｜待王语嫣复核处置｜2026-09-02 21:22:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 1166.8), ('cli', 548.5)]）｜role_registry check-liveness｜role_registry~~ → 划销（09-02 21:38 王语嫣）：误报——黄药师在产 #618（claimed+log 21:37 活跃），liveness 窗口期
+- [2026-09-02 21:52] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-02 22:03] 💾 C盘清理收口：WSL 内部 86G→44G（magic-pdf 22G+pip/uv 10.5G 删、hermes 备份 12G 迁 D）+ vhdx SYSTEM 任务压缩 100G→54G（即席任务已删）→ C: 可用 19G→69G。D 盘 9.8G 紧张=hermes-archive 12G（我搬的）+bundle 4份 8.9G，待老朱定处置
+- [2026-09-02 22:06] 🔧 D 盘止血：黄药师急单改 bundle 保留 7→4 份（proc_19884）——老朱批评成立：搬迁前只核「装不装得下」没评估「搬完对方也�- [2026-09-02 22:06] D 盘止血：黄药师急单改 bundle 保留 7 到 4 份（proc_19884）。教训落行：搬迁前只核装不装得下、没评估搬完对方也九成满——正确顺序=先算两边余量，容量决策先于动作
+- [2026-09-02 22:07] ⛔ KDO 门禁拦截 3 次（gate-blocked）：2026-09-02 22:03:13｜task_20260902_huangyaoshi-kdo-tests-flake-governan…
+- [2026-09-02 22:09] 🕐 值守拍：bundle 保留 7→4 已落地实证（bat L60）；#618 完工提审→拉欧阳锋（proc_8564）；建议书面扫描�=87�（graph-scatter �=91��=b8=ad grep �=81=87阳�=80=a7�=8c�=89=ab�=8f=8f�=8f=a3�=be=84�=be=85�=99=90�=89=8d�=ab=af�=89
+
+
+• 四处同步 ✅（任务单 status/reviewed_by/review_date、队列 252 行 reviewed、473 行划线记录）。dashboard 由脚本自动重生（201 任务）。
+
+  现在：
+  1. 抄送王语嫣一行（通过信息，出口 2 纪律）
+  2. 出口自检：终审记录含"建议立项"→ 写最小建议书到 60_feedback/diagnosis/（存量 collection 错误治理）
+  3. todos/ouyangfeng.md 追加一行
+  4. 建议书写后跑 conveyor_probe 验回执？A7 自检纪律：建议书落盘后当场跑 conveyor_probe 验「新登记」。Let me find the probe command. Earlier mention: "建议书落盘后当场跑 conveyor_probe 验「新登记」回执". Script likely 90_control/scripts/conveyor_probe.py. Let me check its usage.
+
+  Current time? Need actual time for the todos line. Let me get date.
+
+• 四处同步已确认。现在写最小建议书（存量 collection 错误）+ 抄送王语嫣。2026-09-02 22:14
+check-conveyor-state.py
+
+
+conveyor_probe state 正常（7.4 分钟前落盘，阈值 20 分钟）
+• check-conveyor-state.py just checks state. The proposal probe is probably a different script — earlier todos mentioned "conveyor_probe" for verifying proposal registration. Let me search for the probe script.---
+type: proposal
+status: orchestrated
+audience: 王语嫣
+author: 欧阳锋
+created_at: 2026-09-02
+related_task: '#616'
+---
+
+# 建议：KDO 测试套件 flake 治理 + 提审数字与实测一致性纪律
+
+**现象一句话**：#616 终审独立复跑 KDO 全量回归实测 612 passed / 2 failed / 1 skipped，与执行报告声称的「603 passed, 1 skipped（test_cli_smoke 1 失败）」不符——漏报 test_dashboard_server 顺序依赖 flake 一例（单跑两 commit 均过）；test_cli_smoke 失败经父 commit worktree 对照证实为存量断言过期（KeyError: 'sources'），两例均与 #616 改动无关，不阻断 PASS。
+
+**在哪发现**：#616 终审版本对齐+回归独立复跑环节（2026-09-02，wiki 65784b833 / KDO 仓 7ba660c，对照 61b3f85）。
+
+**建议方向**：①黄药师排期治理两例——test_cli_smoke 断言对齐 state.json 现行 schema、test_dashboard_server 顺序依赖解耦；②提审纪律补一条：执行报告的测试数字必须是提交前最后一次全量实测的原样输出（含 failed 明细），漏报失败例视同报告失实。
+
+---
+
+## 王语嫣处置注记（09-02 21:38 补）：已立项 #618（flake 两例治理+提审数字原样纪律），status 漏翻，补正 orchestrated。
+The proposal frontmatter format: type: proposal / status: pending_orchestration / audience: 王语嫣. Write minimal three-line proposal about the stale collection error. Then find how to verify registration (conveyor_probe). Search for the probe script name.conveyor_probe.py
+kdo-conveyor-probe.cmd
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⚖️ KDO 已终审 1 单：#618（待部署/已闭环）
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#618——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#617——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 1 / near-miss 2 / 通知 2 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+Probe output: "新登记 1" — that's my new proposal registered ✅. The two near-miss are pre-existing files not mine. The webhook lines show notifications would be sent (no webhook configured, so they fall back to todos files presumably — the probe writes notifications to todos? It said "无 webhook 配置（不发送）" — but notification fallback might be todos lines. Anyway, my job: manually append the 抄送 line to wangyuyan todos since no webhook.
+
+  Actually the probe handles notifications to wangyuyan/huangyaoshi but "无 webhook 配置（不发送）" means not sent. The fallback per F-036 may write to todos files automatically? The todos/ouyangfeng.md file had "🔔 KDO 新提审" lines, which came from the probe presumably writing to todos. Let me check if wangyuyan.md got a new line appended. Actually simpler: append the 抄送 line myself to be safe? But double-notification is worse than none? The rule: 通过→传递通过信息+抄送王语嫣（她收件箱一行指针）. Let me check tail of wangyuyan.md again to see if the probe appended.- [2026-09-02 22:07] ⛔ KDO 门禁拦截 3 次（gate-blocked）：2026-09-02 22:03:13｜task_20260902_huangyaoshi-kdo-tests-flake-governan…
+- [2026-09-02 22:09] 🕐 值守拍：bundle 保留 7→4 已落地实证（bat L60）；#618 完工提审→拉欧阳锋（proc_8564）；建议书面扫描�=87�（graph-scatter �=91��=b8=ad grep �=81=87阳�=80=a7�=8c�=89=ab�=8f=8f�=8f=a3�=be=84�=be=85�=99=90�=89=8d�=ab=af�=89
+- [2026-09-02 22:14] ⚖️ KDO 已终审 1 单：#618（待部署/已闭环）
+===HUANG===
+- [2026-09-02 22:06] 急单（不走队列，老朱直令）：wiki-bundle-backup.bat 滚动保留 7→4（L60 cleanup GTR 7→4 + 注释同步）；D:\KDO-memory 现存 4 份 bundle，按指令不删存量；原因=D盘130G仅剩9.8G，7份滚动超承载
+- [2026-09-02 22:07] 【施工完成】#618 KDO测试flake治理：smoke断言对齐SQLite schema + dashboard早退读体根除RST flake（附带修复derived_outputs持久化真回归）→ KDO仓commit db343f7，全量回归614 passed/1 skipped，已提审待欧阳锋终审
+- [2026-09-02 22:14] ✅ KDO 终审通过 1 单：#618——你的单过了，见任务单终审记录
+Probe already appended the notifications to both todos files (22:14 lines). So 抄送王语嫣 done by probe. Good — no manual append needed.
+
+  Now: my own todos line (通用纪律：完工在 90_control/todos/ouyangfeng.md 追加一行 [YYYY-MM-DD HH:MM] 动作+任务号+结果).
+
+• 探针已自动落通知到王语嫣/黄药师 todos。最后追加我自己的 todos 完工行。appended
+
+
+• Wait — appending with \r\n to a file with mixed endings; the file's tail lines use \r\n (the wake-up lines showed \r). Fine.
+
+  Hmm, one issue: todos/ouyangfeng.md — is appending to my own todos allowed? The discipline says 完工必须追加一行 to my own todos. Yes.
+
+  Now the mandatory session-close actions per role context:
+  1. 技能进化日志一行 → 桌面/agent复盘/欧阳锋/技能进化日志.md — path: "桌面/agent复盘/欧阳锋/技能进化日志.md" — relative to Desktop: C:\Users\Administrator\Desktop\agent复盘\欧阳锋\... But working dir has agent复盘/ directory with Kimi subdir etc. The listing showed `agent复盘/` in the wiki dir with subdirs 洪七公, 老顽童, fengqingyang, Kimi, laowantong, wangyuyan — no 欧阳锋 dir there. The path says 桌面/agent复盘/欧阳锋/. Check existence.
+  2. Daily-context Truman 11章 + save script.
+
+  The user said "只做本次指令范围内的事，做完收工". But role context mandates these close actions. I'll do them compactly — one line in the skill log and a Truman 11-chapter file.
+
+  Let me check paths.DEPRECATED.md
+技能进化日志.md
+---
+ls: cannot access '/c/Users/Administrator/Desktop/agent�'$'\215''�'$'\233\230''/欧�'$'\230''��'$'\224\213''/daily-context/': No such file or directory
+# DEPRECATED — 本目录已冻结（#367，2026-08-19）
+
+> 双轨目录收敛：拼音轨为唯一真相源（`agent复盘/<pinyin>/`）。
+> 本目录停止写入，观察期 7 天（2026-08-19 起），无新写入后归档删除。
+> 原内容已完整移入拼音轨 `cn-track-archive-20260819/`（零丢失，124 文件全量留痕）。
+> 真相源见 `wiki/20_memory/memory-registry.md` 表 1。
+===LOG TAIL===
+| 2026-09-02 | #617 复审：v2.3 复审对照法再实证——先只读合并 diff（496b7e27c..HEAD）再逐条 grep -F 对源，5卡15条引文全量核验 ~25 分钟；vault backup 扫带 commit 的归属核验口径=两 commit 并集对基线 diff 必须恰好等于任务范围；review_mark 转正权限边界已从审查者移到生产方（脚本提醒口径），终审动作清单要跟着机制更新 | 方法升级 | #617 终审实战 |
+The Chinese-named directory is DEPRECATED — pinyin track is the truth source: `agent复盘/ouyangfeng/`. Check that.技能进化日志.md
+用户反馈档案.md
+索引.md
+能力雷达图.md
+错误模式库.md
+===LOG TAIL===
+| 2026-09-02 | #613 R1 复审：「口径漏扫」型 FAIL 复审标准动作——独立复扫脚本自写+类别计数四数字逐字对账（不共用生产者脚本）；佐证清单跨多文件时先问清单一式几份（三波任务单复数指针） | 方法升级 | #613 R1 复审实战 |
+| 2026-09-02 | #614 批量补审：裁定一致性原则成文（编造→降级/标注不准→PASS记缺陷）；14卡28分钟节奏=全量通读+4路并行溯源（逐条核对清单）+出口自检钩子；「无佐证」与「低质量」在该批相关度36%（5/14实质缺陷，伪引文3张） | 方法升级 | #614 批量补审实战 |
+| 2026-09-02 | #615/#616 终审：父 commit git worktree 对照实验=验证「失败与本改动无关」的默认手段（不动主工作树，比 stash 安全）；#433 门禁拦审查者自己=机制健康信号，终审记录含负向判词必须当场附存在性核查节 | 方法升级 | #615/#616 终审实战 |
+===DC===
+2026-08-29.md
+2026-08-31.md
+2026-09-02.md
+Pinyin track exists with 技能进化日志.md and daily-context/2026-09-02.md already exists. I should:
+  1. Append one line to 技能进化日志.md
+  2. Append/update daily-context 2026-09-02.md — same-day multi-instance appends to same YYYY-MM-DD.md per naming rule. Check its current content tail to append a section rather than overwrite.
+
+  The naming rule: 同日多实例=同一 YYYY-MM-DD.md 追加. So append to existing 2026-09-02.md a session section. The save script with --truman --file may grade the file. Since file exists with prior content, I'll append my session's Truman block.
+
+  Let me read the tail of the existing daily-context file to match format.## 补记617-4. 思维盲点
+
+初审 diff 统计时差点误判：5188f296b 只有 16 行变更看似「4卡只改了一点」，实际主体在 bf73d4560——单看一个 commit 的 stat 会低估返工量。教训固化：跨 commit 任务一律先算并集 diff 再评价。
+
+## 补记617-5. 顿悟
+
+「diff 归属核验」的可操作定义：拿任务声称范围当假设，用基线 diff（任务开始前 commit..HEAD）做全称验证——并集必须恰好等于范围，多一个文件是混入、少一个文件是漏交。这比逐 commit 看 message 可靠。
+
+## 补记617-6. 过程资产
+
+- 任务单终审记录节（含 5 卡行号级核验表）：60_feedback/tasks/task_20260902_laowantong-614-downgraded-cards-rework.md
+- 王语嫣收件箱抄送行 + 老顽童回填通知行
+- 可复用核验命令模式：`git diff <base>..HEAD --stat -- 30_wiki/`（范围全称验证）+ `grep -nF` 逐字 + `diff` 源文件同文验证
+
+## 补记617-7. 元反思
+
+本轮 O0 执行完整：5 卡 source_refs 全部打开过、15 条引文逐条对源、行号全部落证据。无 O0 违规。双假设也用上：pre-submit 声称 PASS 仍独立复跑（O3），结果一致才采信。
+
+## 补记617-8. 逐轮映射
+
+读启动三件套 → 定位 #617 任务单+#614 裁定表 → git log/diff 归属核验 → 逐卡 diff 精读+对源（卡1 pitfalls.md/卡9 L1956/2078/2082/卡10 指标源+L1002/卡12 三处/卡14 七处）→ pre-submit 独立复跑 → file-flow-check → 终审记录落盘（O9 先意见书）→ review 脚本 → 修正动作项 → 双收件箱+todos → 复盘。无返工轮。
+
+## 补记617-9. 飞轮效应
+
+#614 裁定表 → #617 返工 → 本次销项核验，构成「裁定-修复-验证」完整闭环；一致性原则（编造降级/标注不准记缺陷）第二次应用，正在从个案变成稳定判据。
+
+## 补记617-10. 对照实验
+
+老顽童声称「15 条引文 15/15 命中、pre-submit 5/5 PASS」vs 我独立复跑：grep -F 15/15 一致、pre-submit PASS 一致。生产者报告与独立验证首次全对得上——#616 的 QUOTE_VERBATIM 门禁 WARNING 档在跑，生产侧引文纪律明显改善。
+
+## 补记617-11. 下次改进
+
+- 终审记录「动作」节写之前先确认机制最新口径（本次 review_mark 归属变更靠脚本提醒才发现，差点写错）
+- 卡1 重复节这类结构缺陷，pre-submit 不拦——值得记一笔：重复同题 H2 节目前无门禁覆盖
+
+## 补记617-本会话发现的问题
+
+1. 卡1 dk-p15-unverified 两个同题「## 与其他知识的关联」节（返工引入）——单卡内容缺陷，已落审查意见+王语嫣抄送，不触发建议书
+2. 重复同题 H2 节无门禁覆盖（lint/pre-submit 均未拦）——观察记录；是否值得加检查属基建范畴，若下轮复现同类再写建议书（本轮单点不升级为建议）
+3. 卡9 source_context 重复键、卡10 related 前后不一致——存量，记录
+===WC===
+446 2026-09-02.md
+The file has previous session blocks (#613, #614, #615/#616, #617). I'll append a #618 block with the 11 chapters, prefixed similarly (补记618-N). Then run the save script.
+
+  Also append skill evolution log line.
+
+  Write the 11-chapter block. Format per agent-os.md §10.2 — I haven't read it, but from the existing file pattern, chapters are: 1 差异栏(差异/对照?), the existing sections look like: 思维盲点, 顿悟, 过程资产, 元反思, 逐轮映射, 飞轮效应, 对照实验, 下次改进, 本会话发现的问题... plus presumably 任务概览, 做了什么. Let me check the beginning structure of the file to get the 11 chapter names.20:## 1. 差异栏
+24:## 2. 概要
+29:## 3. 关键决策
+35:## 4. 思维盲点
+41:## 5. 顿悟
+45:## 6. 过程资产
+54:## 7. 元反思
+58:## 8. 逐轮映射
+68:## 9. 飞轮效应
+72:## 10. 对照实验
+76:## 11. 下次改进
+82:## 本会话发现的问题
+93:## 补记-1. 差异栏
+97:## 补记-2. 概要
+101:## 补记-3. 关键决策
+106:## 补记-4. 思维盲点
+110:## 补记-5. 顿悟
+114:## 补记-6. 过程资产
+119:## 补记-7. 元反思
+123:## 补记-8. 逐轮映射
+131:## 补记-9. 飞轮效应
+135:## 补记-10. 对照实验
+139:## 补记-11. 下次改进
+144:## 补记-本会话发现的问题
+153:## 补记2-1. 任务与差异
+157:## 补记2-2. 新资产
+163:## 补记2-3. 问题/阻塞
+167:## 补记2-4. O0 溯源自检
+171:## 补记2-5. 逐轮映射
+175:## 补记2-6. 飞轮效应
+179:## 补记2-7. 下次改进
+189:## 补记3-1. 任务与差异
+193:## 补记3-2. 新资产
+198:## 补记3-3. 问题/阻塞
+202:## 补记3-4. O0 溯源自检
+206:## 补记3-5. 逐轮映射
+210:## 补记3-6. 飞轮效应
+214:## 补记3-7. 下次改进
+221:## 补记4-1. 任务与差异
+225:## 补记4-2. 新资产
+232:## 补记4-3. 问题/阻塞
+236:## 补记4-4. O0 溯源自检
+240:## 补记4-5. 逐轮映射
+244:## 补记4-6. 飞轮效应
+248:## 补记4-7. 下次改进
+254:## 补记5-1. 任务与差异（#613 R1 复审）
+258:## 补记5-2. 新资产
+264:## 补记5-3. 问题/阻塞
+269:## 补记5-4. O0 溯源自检
+273:## 补记5-5. 逐轮映射
+Later blocks use a compact 7-section form (任务与差异/新资产/问题/O0自检/逐轮映射/飞轮/下次改进). #617 block used the 11-chapter form. I'll use the 11-chapter compact-ish form as 补记618-*. Keep it tight. Then run save script. Also append skill log line.done
+✅ 已保存：C:\Users\Administrator\Desktop\agent复盘\ouyangfeng\daily-context\2026-09-02.md
+✅ 已存档：60_feedback\session-archives\2026-09-02\ouyangfeng.md
+📋 自检：🟢 A级 📚检索有发现
+✅ 事件 #847 已写入: agent=ouyangfeng event=review_saved
+🧪 胶囊 L0 已留痕: agent=ouyangfeng event=review_saved
+✅ A → B 镜像完成: C:\Users\Administrator\.kdo-memory\L1 → D:\KDO-memory\L1-backup（robocopy /MIR，exit 1）
+✅ verify PASS：B 镜像文件 hash 全一致；从 B 打开 integrity=ok 行数 842（A 同 842）
+🟢 A级 — 自检通过。全部收口完成。总结给用户。
+
+• #618 终审完成，全部收口。结果：**PASS A**
+
+  ## 对账结论（新纪律首例）
+
+  - **版本对齐三问**（代码类任务门禁）：① 入仓 ✅ KDO 仓 HEAD=`db343f7`（22:04:50），提审 22:07，工作区干净；② 生效 ✅ 测试直跑仓内代码，无旧码进程；③ 对齐 ✅ 审查对象=最新真相源。
+  - **数字对账**：我独立复跑全量回归实测 **614 passed, 1 skipped in 88.96s**，与执行报告原样输出逐点一致（连 skip 位置都相同；耗时 88.96s vs 118.63s 属负载波动，不入账）。执行报告数字=最后一次全量实测，纪律执行到位。
+  - **diff 审读**（3 文件 +39/-5）：`dashboard_server.py` 仅把请求体读取提前到 403/400 早退前，判定逻辑与返回体逐行未变，安全语义不受影响；`artifacts.py` 回写严格限定 SQLiteCollection 分支；`test_cli_smoke.py` 改走 `load_state` API 并显式 close 连接。附带的 derived_outputs 持久化真回归主动暴露并修复，是加分项。
+
+  ## 流转与落盘
+
+  - 终审记录已落任务单「终审记录」节（O9 先意见书后脚本）；`queue_transition review` 通过（等级 A），任务单 frontmatter / 队列状态列 / 划线记录四处同步已核验。
+  - 探针自动抄送：王语嫣收件箱「⚖️ 已终审 #618」+ 黄药师收件箱「✅ 你的单过了」（22:14）。
+  - 边界声明中核实的存量问题（全仓 collection 期 UnicodeDecodeError）落了最小建议书 `prop_20260902_ouyangfeng-repo-wide-pytest-collection-unicodeerror.md`，conveyor_probe 已登记（新登记 1）。
+  - todos 完工行已追加；技能进化日志 + Truman 复盘已写，保存自检 🟢 A 级。
+
+  一个小坑记录：review 传纯数字 `618` 报"不在队列中"，传全名 task_id 即过（O-3 口径），已在复盘中固化为默认动作。
+
+To resume this session: kimi -r session_2119f7b1-a149-44df-8bc1-9d323304d3d2

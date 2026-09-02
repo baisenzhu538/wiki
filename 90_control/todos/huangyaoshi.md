@@ -427,3 +427,8 @@
 - [2026-09-02 21:12] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
 - [2026-09-02 21:27] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
 - [2026-09-02 21:42] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-02 21:57] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-02 22:06] 急单（不走队列，老朱直令）：wiki-bundle-backup.bat 滚动保留 7→4（L60 cleanup GTR 7→4 + 注释同步）；D:\KDO-memory 现存 4 份 bundle，按指令不删存量；原因=D盘130G仅剩9.8G，7份滚动超承载
+- [2026-09-02 22:07] 【施工完成】#618 KDO测试flake治理：smoke断言对齐SQLite schema + dashboard早退读体根除RST flake（附带修复derived_outputs持久化真回归）→ KDO仓commit db343f7，全量回归614 passed/1 skipped，已提审待欧阳锋终审
+- [2026-09-02 22:14] ✅ KDO 终审通过 1 单：#618——你的单过了，见任务单终审记录
+- [2026-09-02 22:17] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））

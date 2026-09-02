@@ -413,3 +413,6 @@
 - [2026-09-02 20:17] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
 - [2026-09-02 20:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
 - [2026-09-02 21:22] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-02 21:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-02 22:12] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#618（huangyaoshi 的单，挂审 5min）（事件驱动：有待终审）
+- [2026-09-02 22:15] 终审 #618（KDO测试flake治理两例）PASS A——独立复跑全量回归 614 passed/1 skipped 与执行报告原样输出逐点一致（新纪律对账通过）；终审记录已落任务单；附带最小建议书 prop_20260902_ouyangfeng-repo-wide-pytest-collection-unicodeerror（存量 collection UnicodeDecodeError，探针已登记）
