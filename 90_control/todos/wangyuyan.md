@@ -511,3 +511,5 @@
 - [2026-09-02 21:27] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-02 21:22:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-c
 - [2026-09-02 21:29] ⚠️ E052 第三次复发自纠（老朱抓包）：安静拍只跑 queue+tail -2 窄窗，漏扫 PROPOSAL 段——漏两份建议书（欧阳锋 tests-flake 12:22 漏 9h / 小昭外部审计 21:05）。修复：门铃升 v2（每拍必扫建议书段+24h新件+禁窄窗读 todos）；陈渣 32 行划销；#618 立项拉起（黄药师）；小昭六条裁定（A已覆盖/B F-010 强烈建议拍板/F-010 新实证 search_index 570MB 21:21 仍在涨/C F-068 挂账/D E F 上行）
 - [2026-09-02 21:38] 🕐 值守拍 v2 首拍立功：扫描面抓出我自己 4 份已裁定建议书漏翻 status（补正 orchestrated）+ role-liveness 误报 1 行划销（黄药师在产 #618）。#618 黄药师 claimed 施工中
+- [2026-09-02 21:52] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-02 22:03] 💾 C盘清理收口：WSL 内部 86G→44G（magic-pdf 22G+pip/uv 10.5G 删、hermes 备份 12G 迁 D）+ vhdx SYSTEM 任务压缩 100G→54G（即席任务已删）→ C: 可用 19G→69G。D 盘 9.8G 紧张=hermes-archive 12G（我搬的）+bundle 4份 8.9G，待老朱定处置
