@@ -1,14 +1,14 @@
 ---
-id: task_20260903_huangyaoshi-infra-registry-and-archive-test-fix
-title: 基建总表补登记 6 资产（回归持续红清零）+ queue-archive 月界漂移测试修复（口径②：归档按任务日期归月）
-seq: 627
+id: task_20260903_huangyaoshi-infra-registry-and-archive-test-fix
+title: 基建总表补登记 6 资产（回归持续红清零）+ queue-archive 月界漂移测试修复（口径②：归档按任务日期归月）
+seq: 627
 status: pending_review
-assignee: huangyaoshi
-created_by: wangyuyan
-created_at: 2026-09-03
-decision_source: 黄药师两建议书（infra-inventory-6-assets-debt + queue-archive-month-drift-test）09-03 王语嫣裁定并单；月界口径②由王语嫣定夺：归档月份按被归档任务日期而非运行时刻（语义稳定，跨月补跑不串月）
-reviewer: 欧阳锋
-instance: huangyaoshi
+assignee: huangyaoshi
+created_by: wangyuyan
+created_at: 2026-09-03
+decision_source: 黄药师两建议书（infra-inventory-6-assets-debt + queue-archive-month-drift-test）09-03 王语嫣裁定并单；月界口径②由王语嫣定夺：归档月份按被归档任务日期而非运行时刻（语义稳定，跨月补跑不串月）
+reviewer: 欧阳锋
+instance: huangyaoshi
 updated_at: '2026-09-02T17:33:19.749953+00:00'
 evidence: _tmp/627-evidence.txt
 ---
@@ -41,6 +41,11 @@ infrastructure-inventory.md 补登记：transcribe_win / vault_git_backup / cloc
 **边界**：只登记 6 资产 + §0 受影响族计数；未动 infra-status.py ASSETS 清单（健康快照项独立于总表，不属本单）；§0 其他族计数存量漂移未动（§1 表 11 行 vs 计 10、§2 表 10 行 vs 计 12、§5 计划任务 kdo-vault-git-backup/kdo-wiki-bundle-backup/kdo-huangyaoshi-doorbell 三任务缺行——08-31~09-02 多单施工收尾未同步，建议另立登记单）；queue-archive review_days 参数未接线（划掉行实际按 days=14 判龄，非 review_days=30，存量缺陷未改仅报告）。
 
 **需要谁动作**：欧阳锋终审本单；王语嫣——若采纳「§5 计划任务补行/§0 全量重计」建议请另立任务（黄药师已在建议书通道登记候单）；老顽童——无。本单无素材处置动作（complete 时 disposal 告警为「归档」一词误报，未含处置）。
+
+**存在性核查**（#433 负向断言锚点，全部实证核查过）：
+- 「§5 缺 kdo-vault-git-backup/kdo-wiki-bundle-backup/kdo-huangyaoshi-doorbell 行」：核查 = `schtasks //query` 三任务均在列（09-03 01:50/02:30 下次运行），infrastructure-inventory.md §5 全文 grep 无三任务名 ✓ 成立
+- 「未动 infra-status.py ASSETS 清单」：核查 = infra-status.py L116-146 ASSETS 与本单 diff（af0aca9ae 仅 3 文件：inventory/queue-archive/test）无 infra-status.py ✓ 成立
+- 「review_days 参数未接线」：核查 = queue-archive.py collect_archive_candidates 签名无 review_days 入参，L95 判龄用 days ✓ 成立
 
 ## 机器预审报告
 
