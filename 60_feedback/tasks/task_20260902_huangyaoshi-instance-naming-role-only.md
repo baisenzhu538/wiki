@@ -1,20 +1,20 @@
 ---
-id: task_20260902_huangyaoshi-instance-naming-role-only
-title: 实例命名铁律落地：拉起器/状态机实例名去工具后缀（{role}-kimi → {role}），兼容在途旧名
-seq: 620
-status: in_progress
-assignee: huangyaoshi
-created_by: wangyuyan
-created_at: 2026-09-02
-decision_source: 老朱 09-02 直令铁律：实例命名只有角色名没有工具名（工具可换，工具名进实例名=制造混乱）
-reviewer: 欧阳锋
-instance: huangyaoshi
-code_files:
-  - 90_control/scripts/queue_transition.py
-  - 90_control/scripts/kimi-headless-launch.py
-  - 90_control/scripts/tests/test_queue_transition.py
-  - 90_control/scripts/tests/test_reviewer_flip_616.py
-updated_at: '2026-09-03T00:55:00+00:00'
+id: task_20260902_huangyaoshi-instance-naming-role-only
+title: 实例命名铁律落地：拉起器/状态机实例名去工具后缀（{role}-kimi → {role}），兼容在途旧名
+seq: 620
+status: pending_review
+assignee: huangyaoshi
+created_by: wangyuyan
+created_at: 2026-09-02
+decision_source: 老朱 09-02 直令铁律：实例命名只有角色名没有工具名（工具可换，工具名进实例名=制造混乱）
+reviewer: 欧阳锋
+instance: huangyaoshi
+code_files:
+  - 90_control/scripts/queue_transition.py
+  - 90_control/scripts/kimi-headless-launch.py
+  - 90_control/scripts/tests/test_queue_transition.py
+  - 90_control/scripts/tests/test_reviewer_flip_616.py
+updated_at: '2026-09-02T16:46:43.994130+00:00'
 ---
 
 # #620 实例命名去工具后缀（黄药师）
@@ -56,3 +56,17 @@ updated_at: '2026-09-03T00:55:00+00:00'
 
 - diff + 回归实证 + 执行报告
 - claim/complete 走 `python 90_control/scripts/queue_transition.py`（complete 620）
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 4 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+✅ 执行报告无负向断言词（检查面=执行报告节）
