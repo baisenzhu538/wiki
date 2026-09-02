@@ -250,7 +250,8 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 616 | `task_20260902_huangyaoshi-production-gate-enhancements` | 生产闸门三修：引号逐字对源+refs区间抽验（WARNING档先行）+claim抹字段bug+reviewer翻转通道（王语嫣限编排骨架单） | reviewed | huangyaoshi | 三处diff+回归用例×3+执行报告 | 无 | `60_feedback/tasks/task_20260902_huangyaoshi-production-gate-enhancements.md` | 欧阳锋伪引文模式建议书（09-02王语嫣裁定采纳）+#614翻转留痕同型第二例；小修不动状态机；欧阳锋终审 |
 | 617 | `task_20260902_laowantong-614-downgraded-cards-rework` | #614降级5卡内容返工：伪引文改转述/换真实原句+ten-metrics按源重写核心指标表+占位节补齐（FAIL点逐条在#614裁定表） | reviewed | laowantong | 5卡修复diff+FAIL点销项对账表 | #615 reviewed ✅ | `60_feedback/tasks/task_20260902_laowantong-614-downgraded-cards-rework.md` | #614降级5卡（09-02王语嫣编排）；引号对源新门禁已WARNING档在跑；只修FAIL点不顺手改；欧阳锋终审 |
 | 618 | `task_20260902_huangyaoshi-kdo-tests-flake-governance` | KDO测试flake治理：test_cli_smoke断言对齐现行schema+test_dashboard_server顺序依赖解耦+全量回归原样输出 | reviewed | huangyaoshi | 两处修复diff+全量回归输出 | 无 | `60_feedback/tasks/task_20260902_huangyaoshi-kdo-tests-flake-governance.md` | 欧阳锋建议书（09-02王语嫣漏扫9h后补裁定，E052复盘）；提审数字原样纪律随单生效；欧阳锋终审 |
-| 619 | `task_20260902_huangyaoshi-watch-inbox-pipeline-dirs-fix` | watch_inbox扫描面回补管线落点子目录白名单（wechat-collect/video_transcripts/video_transcripts_small）——#605裁剪误伤，05:47四件静默漏登记实证 | claimed-huangyaoshi-kimi | huangyaoshi | diff+实跑登记证据 | 无 | `60_feedback/tasks/task_20260902_huangyaoshi-watch-inbox-pipeline-dirs-fix.md` | 老朱09-02问采集链→王语嫣实测发现第二环断；Handle等大目录继续排除；欧阳锋终审 |
+| 619 | `task_20260902_huangyaoshi-watch-inbox-pipeline-dirs-fix` | watch_inbox扫描面回补管线落点子目录白名单（wechat-collect/video_transcripts/video_transcripts_small）——#605裁剪误伤，05:47四件静默漏登记实证 | pending_review | huangyaoshi | diff+实跑登记证据 | 无 | `60_feedback/tasks/task_20260902_huangyaoshi-watch-inbox-pipeline-dirs-fix.md` | 老朱09-02问采集链→王语嫣实测发现第二环断；Handle等大目录继续排除；欧阳锋终审 |
+| 620 | `task_20260902_huangyaoshi-instance-naming-role-only` | 实例命名铁律落地：拉起器/状态机实例名去工具后缀（{role}-kimi→{role}），过渡期兼容在途旧名 | queued | huangyaoshi | diff+回归实证 | #619 收口后（防在途单锁失配） | `60_feedback/tasks/task_20260902_huangyaoshi-instance-naming-role-only.md` | 老朱09-02直令铁律（工具可换名字不挂工具）；queue_transition兼容旧名尾缀；欧阳锋终审 |
 
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
@@ -472,6 +473,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#616 task_20260902_huangyaoshi-production-gate-enhancements｜huangyaoshi｜提审 09-02 12:08｜60_feedback/tasks/task_20260902_huangyaoshi-production-gate-enhancements.md~~ → 已终审 PASS A-（2026-09-02 欧阳锋）
 - ~~#617 task_20260902_laowantong-614-downgraded-cards-rework｜laowantong｜提审 09-02 13:00｜60_feedback/tasks/task_20260902_laowantong-614-downgraded-cards-rework.md~~ → 已终审 PASS A-（2026-09-02 欧阳锋）
 - ~~#618 task_20260902_huangyaoshi-kdo-tests-flake-governance｜huangyaoshi｜提审 09-02 22:07｜60_feedback/tasks/task_20260902_huangyaoshi-kdo-tests-flake-governance.md~~ → 已终审 PASS A（2026-09-02 欧阳锋）
+- #619 task_20260902_huangyaoshi-watch-inbox-pipeline-dirs-fix｜huangyaoshi｜提审 09-02 22:42｜60_feedback/tasks/task_20260902_huangyaoshi-watch-inbox-pipeline-dirs-fix.md
 
 <!-- REVIEW-PENDING-END -->
 
@@ -580,6 +582,12 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~00_inbox/学习candy合集/translations/中译-大卫·布鲁克斯：芝大毕业演讲（求知是有代价的）-视频逐字稿.md｜P2｜33455B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置沿用（09-02 王语嫣）：中译版随英文原版诊断，不单独编排
 - ~~00_inbox/学习candy合集/translations/中译-尼尔·雷克汉姆：联结销售与营销（SPIN创始人）-视频逐字稿.md｜P2｜15106B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置沿用（09-02 王语嫣）：中译版随英文原版诊断，不单独编排
 - ~~00_inbox/泡泡玛特的拆解/拆书会第218期《因为独特》· 精华提炼.md｜P2｜10883B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：#596 reviewed 闭环；MOLLY 补卡已并单 #609
+- 00_inbox/wechat-collect/src_wechat_2404c1658025473c.md｜P2｜7673B｜检测到 09-02 14:39｜待王语嫣编排
+- 00_inbox/wechat-collect/src_wechat_346efef2737b383b.md｜P2｜12295B｜检测到 09-02 14:39｜待王语嫣编排
+- 00_inbox/wechat-collect/src_wechat_5291b61bc722d90d.md｜P2｜3443B｜检测到 09-02 14:39｜待王语嫣编排
+- 00_inbox/wechat-collect/src_wechat_68004aecb3d913a5.md｜P2｜8473B｜检测到 09-02 14:39｜待王语嫣编排
+- 00_inbox/wechat-collect/src_wechat_e7536bf1d8f1a7b1.md｜P2｜15243B｜检测到 09-02 14:39｜待王语嫣编排
+- 00_inbox/wechat-collect/src_wechat_fe60439837f4c93e.md｜P2｜1126B｜检测到 09-02 14:39｜待王语嫣编排
 
 <!-- INBOX-PENDING-END -->
 
