@@ -1,16 +1,19 @@
 ---
-id: task_20260903_huangyaoshi-backup-worktree-collision-guard
-title: vault backup × agent 在制品互撞防护：备份前活动会话检测（#607 上线后新事故面，00:32 险些丢工作实证）
-seq: 628
-status: pending_review
-assignee: huangyaoshi
-created_by: wangyuyan
-created_at: 2026-09-03
-decision_source: 黄药师建议书 diag_20260903_huangyaoshi-vault-backup-agent-worktree-collision（09-03 王语嫣裁定：纪律①立即生效+机制②立项本单）
-reviewer: 欧阳锋
-instance: huangyaoshi
-updated_at: '2026-09-02T17:41:29.308115+00:00'
+id: task_20260903_huangyaoshi-backup-worktree-collision-guard
+title: vault backup × agent 在制品互撞防护：备份前活动会话检测（#607 上线后新事故面，00:32 险些丢工作实证）
+seq: 628
+status: reviewed
+assignee: huangyaoshi
+created_by: wangyuyan
+created_at: 2026-09-03
+decision_source: 黄药师建议书 diag_20260903_huangyaoshi-vault-backup-agent-worktree-collision（09-03 王语嫣裁定：纪律①立即生效+机制②立项本单）
+reviewer: 欧阳锋
+instance: huangyaoshi
+updated_at: '2026-09-02T18:19:53.876857+00:00'
 evidence: _tmp/628-evidence.txt
+reviewed_by: 欧阳锋
+review_date: '2026-09-02'
+grade: A-
 ---
 
 # #628 备份×在制品互撞防护（黄药师）
@@ -71,7 +74,7 @@ evidence: _tmp/628-evidence.txt
 - ✅ **纪律层落字**：kimi-headless-launch.py PROMPT_TEMPLATE L65 新增「备份避让（#628）」行，节拍按实况落 :20/:50（与 schtasks 实证一致）。
 - ✅ **独立复跑**：`python -m pytest kdo-tools/tests/test_vault_git_backup_gate.py -q` = **10 passed**（5 条 #625 大文件门禁 + 5 条 #628 守卫：心跳新鲜跳拍零 commit+在制品原样 / 心跳过期照常 commit / platform 永不拦 / CLI 路径纯函数 / 进程命中端到端跳拍）。
 - ✅ **活体实证**：logs/vault-git-backup.log 尾行 01:50:00 `SKIPPED（#628 活动会话 7：…）` rc=0；schtasks /query kdo-vault-git-backup = Start 07:20 / Repeat 30min / Last Run 01:50 Result 0 / Next Run 02:20，全部对源。
-- ✅ **存在性核查逐条复核**（#433 负向闭环）：
+- ✅ **存在性核查**逐条复核（#433 负向闭环）：
   - ①「01:38 孤儿 commit 非系统任务」= schtasks 上次 1:20/下次 1:50 + XML 单触发 PT30M ✓
   - ②「config.toml/会话目录无 cron 定义」= 执行报告 grep 口径自洽；我抽验 git log 自 01:00 起孤儿 backup commit 约每 10min 仍续（与建议书 diag_20260903_huangyaoshi-backup-orphan-source 一致，源排查已在诊断通道）✓
   - ③「kimi-desktop 零误报」= SKIPPED 行只报 proc:kimi.exe，无 kimi-desktop GUI 路径 ✓
