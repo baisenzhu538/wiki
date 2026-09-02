@@ -291,13 +291,13 @@ def fetch_toutiao_article(url: str) -> tuple:
     支持链接形态：
       - m.toutiao.com/group/<gid>/ （旧格式文章）
       - m.toutiao.com/article/<gid>/（新格式文章）
-      - m.toutiao.com/isXXX/        （微信分享短链 → 跟随 302 拿到 gid）
+      - m.toutiao.com/isXXX/ 或 is/XXX/ （微信分享短链 → 跟随 302 拿到 gid）
     链路：提取 gid → m.toutiao.com/i<gid>/info/ → data.content(HTML) → 清洗为纯文本。
     与 parse_toutiao（视频）共用 info 接口，靠 content 字段区分文章/视频。
     """
     import re as _re
     # 1) 短链 isXXX → 跟随重定向拿最终 URL（含 gid）
-    m = _re.search(r"m\.toutiao\.com/is([A-Za-z0-9]+)", url)
+    m = _re.search(r"m\.toutiao\.com/is/?([A-Za-z0-9]+)", url)
     if m:
         try:
             opener = urllib.request.build_opener(urllib.request.ProxyHandler({}))
