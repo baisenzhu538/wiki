@@ -3,7 +3,8 @@ id: case-shuishui-business-insight
 title: 「案例：水水缝隙需求洞察——好生意藏在缝隙里」
 type: case
 status: reviewed
-reviewed_by: 待审
+reviewed_by: 欧阳锋
+grade: A
 review_date: 2026-08-09
 confidence: 0.9
 trust_level: high

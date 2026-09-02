@@ -32,16 +32,6 @@
       "updated_at": "2026-08-16"
     },
     {
-      "path": "30_wiki\\bridges\\bridge-how-to-know-person-to-business.md",
-      "id": "bridge-how-to-know-person-to-business",
-      "type": "bridge",
-      "author": "老顽童",
-      "status": "reviewed",
-      "reviewed_by": "待审",
-      "review_date": "2026-08-09",
-      "updated_at": "2026-08-04"
-    },
-    {
       "path": "30_wiki\\bridges\\bridge-lightning-agent-evolution.md",
       "id": "bridge-lightning-agent-evolution",
       "type": "bridge",
@@ -72,16 +62,6 @@
       "updated_at": "2026-08-25"
     },
     {
-      "path": "30_wiki\\cases\\case-4000-titles-ten-strategies.md",
-      "id": "case-4000-titles-ten-strategies",
-      "type": "case",
-      "author": "老顽童",
-      "status": "reviewed",
-      "reviewed_by": "待审",
-      "review_date": "2026-08-16",
-      "updated_at": "2026-08-16"
-    },
-    {
       "path": "30_wiki\\cases\\case-agent-self-evolution-pilot.md",
       "id": "case-agent-self-evolution-pilot",
       "type": "case",
@@ -90,26 +70,6 @@
       "reviewed_by": "欧阳锋",
       "review_date": "<missing>",
       "updated_at": "2026-07-26"
-    },
-    {
-      "path": "30_wiki\\cases\\case-ai-learning-series-modeling.md",
-      "id": "case-ai-learning-series-modeling",
-      "type": "case",
-      "author": "老顽童",
-      "status": "reviewed",
-      "reviewed_by": "待审",
-      "review_date": "2026-08-16",
-      "updated_at": "2026-08-16"
-    },
-    {
-      "path": "30_wiki\\cases\\case-ai-pet-emotional-product.md",
-      "id": "case-ai-pet-emotional-product",
-      "type": "case",
-      "author": "老顽童",
-      "status": "reviewed",
-      "reviewed_by": "待审",
-      "review_date": "2026-08-09",
-      "updated_at": "2026-08-04"
     },
     {
       "path": "30_wiki\\cases\\case-ai-search-commerce-platform-hedge.md",
@@ -210,16 +170,6 @@
       "reviewed_by": "欧阳锋",
       "review_date": "<missing>",
       "updated_at": "2026-06-29"
-    },
-    {
-      "path": "30_wiki\\cases\\case-design-principles-90.md",
-      "id": "case-design-principles-90",
-      "type": "case",
-      "author": "老顽童",
-      "status": "reviewed",
-      "reviewed_by": "待审",
-      "review_date": "2026-08-16",
-      "updated_at": "2026-08-16"
     },
     {
       "path": "30_wiki\\cases\\case-ji-hao-ai-workspace-chaos.md",
@@ -372,16 +322,6 @@
       "updated_at": "2026-06-29"
     },
     {
-      "path": "30_wiki\\cases\\case-leo-lubricant-dealer-research.md",
-      "id": "case-leo-lubricant-dealer-research",
-      "type": "case",
-      "author": "老顽童",
-      "status": "reviewed",
-      "reviewed_by": "待审",
-      "review_date": "2026-08-16",
-      "updated_at": "2026-08-16"
-    },
-    {
       "path": "30_wiki\\cases\\case-live81-ai-trademark-design.md",
       "id": "case-live81-ai-trademark-design",
       "type": "case",
@@ -410,16 +350,6 @@
       "reviewed_by": "欧阳锋",
       "review_date": "<missing>",
       "updated_at": "2026-08-09"
-    },
-    {
-      "path": "30_wiki\\cases\\case-opc-128-directions.md",
-      "id": "case-opc-128-directions",
-      "type": "case",
-      "author": "老顽童",
-      "status": "reviewed",
-      "reviewed_by": "待审",
-      "review_date": "2026-08-16",
-      "updated_at": "2026-08-16"
     },
     {
       "path": "30_wiki\\cases\\case-opc-agent-wave1-real-model-testing.md",
@@ -470,16 +400,6 @@
       "reviewed_by": "待审",
       "review_date": "<missing>",
       "updated_at": "2026-07-08"
-    },
-    {
-      "path": "30_wiki\\cases\\case-shuishui-business-insight.md",
-      "id": "case-shuishui-business-insight",
-      "type": "case",
-      "author": "老顽童",
-      "status": "reviewed",
-      "reviewed_by": "待审",
-      "review_date": "2026-08-09",
-      "updated_at": "2026-08-04"
     },
     {
       "path": "30_wiki\\cases\\case-strategy-cool-boiled-water.md",
@@ -920,26 +840,6 @@
       "reviewed_by": "欧阳锋",
       "review_date": "<missing>",
       "updated_at": "2026-06-17"
-    },
-    {
-      "path": "30_wiki\\concepts\\concept-open-a-document.md",
-      "id": "concept-open-a-document",
-      "type": "concept",
-      "author": "老顽童",
-      "status": "reviewed",
-      "reviewed_by": "待审",
-      "review_date": "2026-08-16",
-      "updated_at": "2026-08-16"
-    },
-    {
-      "path": "30_wiki\\concepts\\concept-research-saturation-coverage.md",
-      "id": "concept-research-saturation-coverage",
-      "type": "concept",
-      "author": "老顽童",
-      "status": "reviewed",
-      "reviewed_by": "待审",
-      "review_date": "2026-08-16",
-      "updated_at": "2026-08-16"
     },
     {
       "path": "30_wiki\\concepts\\concept-token-capital.md",
@@ -2022,16 +1922,6 @@
       "updated_at": "2026-07-26"
     },
     {
-      "path": "30_wiki\\dark-knowledges\\dk-agreeableness-double-edged.md",
-      "id": "dk-agreeableness-double-edged",
-      "type": "dk",
-      "author": "老顽童",
-      "status": "reviewed",
-      "reviewed_by": "待审",
-      "review_date": "2026-08-09",
-      "updated_at": "2026-08-04"
-    },
-    {
       "path": "30_wiki\\dark-knowledges\\dk-ai-builder-illusion.md",
       "id": "dk-ai-builder-illusion",
       "type": "dk",
@@ -2170,26 +2060,6 @@
       "reviewed_by": "欧阳锋",
       "review_date": "<missing>",
       "updated_at": "2026-06-18"
-    },
-    {
-      "path": "30_wiki\\dark-knowledges\\dk-emotional-value-high-bar.md",
-      "id": "dk-emotional-value-high-bar",
-      "type": "dk",
-      "author": "老顽童",
-      "status": "reviewed",
-      "reviewed_by": "待审",
-      "review_date": "2026-08-09",
-      "updated_at": "2026-08-04"
-    },
-    {
-      "path": "30_wiki\\dark-knowledges\\dk-emotional-value-premium.md",
-      "id": "dk-emotional-value-premium",
-      "type": "dk",
-      "author": "老顽童",
-      "status": "reviewed",
-      "reviewed_by": "待审",
-      "review_date": "2026-08-09",
-      "updated_at": "2026-08-04"
     },
     {
       "path": "30_wiki\\dark-knowledges\\dk-f10-broken-source-refs.md",
@@ -2442,16 +2312,6 @@
       "updated_at": "2026-06-17"
     },
     {
-      "path": "30_wiki\\dark-knowledges\\dk-narrative-choice-theory.md",
-      "id": "dk-narrative-choice-theory",
-      "type": "dk",
-      "author": "老顽童",
-      "status": "reviewed",
-      "reviewed_by": "待审",
-      "review_date": "2026-08-09",
-      "updated_at": "2026-08-04"
-    },
-    {
       "path": "30_wiki\\dark-knowledges\\dk-note-maximum-common-divisor.md",
       "id": "dk-note-maximum-common-divisor",
       "type": "dk",
@@ -2640,86 +2500,6 @@
       "reviewed_by": "欧阳锋",
       "review_date": "<missing>",
       "updated_at": "2026-06-18"
-    },
-    {
-      "path": "30_wiki\\dark-knowledges\\dk-research-ai-no-time-concept.md",
-      "id": "dk-research-ai-no-time-concept",
-      "type": "dk",
-      "author": "老顽童",
-      "status": "reviewed",
-      "reviewed_by": "待审",
-      "review_date": "2026-08-16",
-      "updated_at": "2026-08-16"
-    },
-    {
-      "path": "30_wiki\\dark-knowledges\\dk-research-classification-mece-table.md",
-      "id": "dk-research-classification-mece-table",
-      "type": "dk",
-      "author": "老顽童",
-      "status": "reviewed",
-      "reviewed_by": "待审",
-      "review_date": "2026-08-16",
-      "updated_at": "2026-08-16"
-    },
-    {
-      "path": "30_wiki\\dark-knowledges\\dk-research-important-things-must-do.md",
-      "id": "dk-research-important-things-must-do",
-      "type": "dk",
-      "author": "老顽童",
-      "status": "reviewed",
-      "reviewed_by": "待审",
-      "review_date": "2026-08-16",
-      "updated_at": "2026-08-16"
-    },
-    {
-      "path": "30_wiki\\dark-knowledges\\dk-research-ranklist-replaces-model.md",
-      "id": "dk-research-ranklist-replaces-model",
-      "type": "dk",
-      "author": "老顽童",
-      "status": "reviewed",
-      "reviewed_by": "待审",
-      "review_date": "2026-08-16",
-      "updated_at": "2026-08-16"
-    },
-    {
-      "path": "30_wiki\\dark-knowledges\\dk-research-sampling-correction-three-rounds.md",
-      "id": "dk-research-sampling-correction-three-rounds",
-      "type": "dk",
-      "author": "老顽童",
-      "status": "reviewed",
-      "reviewed_by": "待审",
-      "review_date": "2026-08-16",
-      "updated_at": "2026-08-16"
-    },
-    {
-      "path": "30_wiki\\dark-knowledges\\dk-research-saturation-self-proof.md",
-      "id": "dk-research-saturation-self-proof",
-      "type": "dk",
-      "author": "老顽童",
-      "status": "reviewed",
-      "reviewed_by": "待审",
-      "review_date": "2026-08-16",
-      "updated_at": "2026-08-16"
-    },
-    {
-      "path": "30_wiki\\dark-knowledges\\dk-research-scavenger-vs-architect.md",
-      "id": "dk-research-scavenger-vs-architect",
-      "type": "dk",
-      "author": "老顽童",
-      "status": "reviewed",
-      "reviewed_by": "待审",
-      "review_date": "2026-08-16",
-      "updated_at": "2026-08-16"
-    },
-    {
-      "path": "30_wiki\\dark-knowledges\\dk-research-total-anchor-private-library.md",
-      "id": "dk-research-total-anchor-private-library",
-      "type": "dk",
-      "author": "老顽童",
-      "status": "reviewed",
-      "reviewed_by": "待审",
-      "review_date": "2026-08-16",
-      "updated_at": "2026-08-16"
     },
     {
       "path": "30_wiki\\dark-knowledges\\dk-signal-cluster-illusion.md",
@@ -3292,16 +3072,6 @@
       "updated_at": "2026-06-30"
     },
     {
-      "path": "30_wiki\\frameworks\\framework-ai-human-70-30-division.md",
-      "id": "framework-ai-human-70-30-division",
-      "type": "framework",
-      "author": "老顽童",
-      "status": "reviewed",
-      "reviewed_by": "待审",
-      "review_date": "2026-08-16",
-      "updated_at": "2026-08-16"
-    },
-    {
       "path": "30_wiki\\frameworks\\framework-ai-native-organization-two-modes.md",
       "id": "framework-ai-native-organization-two-modes",
       "type": "framework",
@@ -3312,16 +3082,6 @@
       "updated_at": "2026-07-08"
     },
     {
-      "path": "30_wiki\\frameworks\\framework-ai-report-value-ladder-l1-l6.md",
-      "id": "framework-ai-report-value-ladder-l1-l6",
-      "type": "framework",
-      "author": "老顽童",
-      "status": "reviewed",
-      "reviewed_by": "待审",
-      "review_date": "2026-08-16",
-      "updated_at": "2026-08-16"
-    },
-    {
       "path": "30_wiki\\frameworks\\framework-arui-ai-six-fundamentals.md",
       "id": "framework-arui-ai-six-fundamentals",
       "type": "framework",
@@ -3330,36 +3090,6 @@
       "reviewed_by": "欧阳锋",
       "review_date": "<missing>",
       "updated_at": "2026-08-31"
-    },
-    {
-      "path": "30_wiki\\frameworks\\framework-baozhashidiaochan-five-step.md",
-      "id": "framework-baozhashidiaochan-five-step",
-      "type": "framework",
-      "author": "老顽童",
-      "status": "reviewed",
-      "reviewed_by": "待审",
-      "review_date": "2026-08-16",
-      "updated_at": "2026-08-16"
-    },
-    {
-      "path": "30_wiki\\frameworks\\framework-big-five-personality.md",
-      "id": "framework-big-five-personality",
-      "type": "framework",
-      "author": "老顽童",
-      "status": "reviewed",
-      "reviewed_by": "待审",
-      "review_date": "2026-08-09",
-      "updated_at": "2026-08-04"
-    },
-    {
-      "path": "30_wiki\\frameworks\\framework-how-to-know-a-person.md",
-      "id": "framework-how-to-know-a-person",
-      "type": "framework",
-      "author": "老顽童",
-      "status": "reviewed",
-      "reviewed_by": "待审",
-      "review_date": "2026-08-09",
-      "updated_at": "2026-08-04"
     },
     {
       "path": "30_wiki\\frameworks\\framework-lean-abcd-model.md",
@@ -3440,16 +3170,6 @@
       "reviewed_by": "欧阳锋",
       "review_date": "<missing>",
       "updated_at": "2026-08-11"
-    },
-    {
-      "path": "30_wiki\\frameworks\\framework-r-type-research-partner-five-state.md",
-      "id": "framework-r-type-research-partner-five-state",
-      "type": "framework",
-      "author": "老顽童",
-      "status": "reviewed",
-      "reviewed_by": "待审",
-      "review_date": "2026-08-16",
-      "updated_at": "2026-08-16"
     },
     {
       "path": "30_wiki\\frameworks\\framework-strategy-ansoff.md",
@@ -4212,26 +3932,6 @@
       "updated_at": "2026-06-29"
     },
     {
-      "path": "30_wiki\\tools\\tool-empathy-practice.md",
-      "id": "tool-empathy-practice",
-      "type": "tool",
-      "author": "老顽童",
-      "status": "reviewed",
-      "reviewed_by": "待审",
-      "review_date": "2026-08-09",
-      "updated_at": "2026-08-04"
-    },
-    {
-      "path": "30_wiki\\tools\\tool-illuminator-vs-diminisher.md",
-      "id": "tool-illuminator-vs-diminisher",
-      "type": "tool",
-      "author": "老顽童",
-      "status": "reviewed",
-      "reviewed_by": "待审",
-      "review_date": "2026-08-09",
-      "updated_at": "2026-08-04"
-    },
-    {
       "path": "30_wiki\\tools\\tool-kdo-wechat-serendipity-collect.md",
       "id": "tool-kdo-wechat-serendipity-collect",
       "type": "tool",
@@ -4280,26 +3980,6 @@
       "reviewed_by": "欧阳锋",
       "review_date": "<missing>",
       "updated_at": "2026-08-09"
-    },
-    {
-      "path": "30_wiki\\tools\\tool-narrative-thinking-user-insight.md",
-      "id": "tool-narrative-thinking-user-insight",
-      "type": "tool",
-      "author": "老顽童",
-      "status": "reviewed",
-      "reviewed_by": "待审",
-      "review_date": "2026-08-09",
-      "updated_at": "2026-08-04"
-    },
-    {
-      "path": "30_wiki\\tools\\tool-nine-character-mantra-14-strategies.md",
-      "id": "tool-nine-character-mantra-14-strategies",
-      "type": "tool",
-      "author": "老顽童",
-      "status": "reviewed",
-      "reviewed_by": "待审",
-      "review_date": "2026-08-16",
-      "updated_at": "2026-08-16"
     },
     {
       "path": "30_wiki\\tools\\tool-note-keyword-bolding.md",
@@ -5470,16 +5150,6 @@
       "reviewed_by": "周伯通",
       "review_date": "<missing>",
       "updated_at": "2026-06-16"
-    },
-    {
-      "path": "30_wiki\\workflows\\workflow-kdo-agent-production-pipeline.md",
-      "id": "workflow-kdo-agent-production-pipeline",
-      "type": "workflow",
-      "author": "老顽童（黄药师初稿）",
-      "status": "reviewed",
-      "reviewed_by": "待审",
-      "review_date": "2026-08-09",
-      "updated_at": "2026-08-09"
     }
   ]
 }

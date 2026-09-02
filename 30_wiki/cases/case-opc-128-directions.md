@@ -3,7 +3,8 @@ id: case-opc-128-directions
 title: OPC 一人公司 128 方向：4 杠杆×16 类×128 方向
 type: case
 status: reviewed
-reviewed_by: 待审
+reviewed_by: 欧阳锋
+grade: A-
 review_date: 2026-08-16
 author: 老顽童
 confidence: 0.85

@@ -3,7 +3,8 @@ id: dk-research-sampling-correction-three-rounds
 title: 打样纠偏三轮法：5-10 个样本定颗粒度
 type: dk
 status: reviewed
-reviewed_by: 待审
+reviewed_by: 欧阳锋
+grade: A-
 review_date: 2026-08-16
 author: 老顽童
 confidence: 0.85

@@ -3,7 +3,8 @@ id: case-4000-titles-ten-strategies
 title: 4000 标题→十大策略：长期资产的一次性建模
 type: case
 status: reviewed
-reviewed_by: 待审
+reviewed_by: 欧阳锋
+grade: A-
 review_date: 2026-08-16
 author: 老顽童
 confidence: 0.85

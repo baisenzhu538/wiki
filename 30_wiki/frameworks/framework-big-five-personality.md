@@ -3,7 +3,8 @@ id: framework-big-five-personality
 title: 「框架：大五人格——只有开放性和尽责性越高越好」
 type: framework
 status: reviewed
-reviewed_by: 待审
+reviewed_by: 欧阳锋
+grade: A
 review_date: 2026-08-09
 confidence: 0.95
 trust_level: high

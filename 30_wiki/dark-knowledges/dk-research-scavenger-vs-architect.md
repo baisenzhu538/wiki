@@ -3,7 +3,8 @@ id: dk-research-scavenger-vs-architect
 title: 信息拾荒者 vs 规律建筑师
 type: dk
 status: reviewed
-reviewed_by: 待审
+reviewed_by: 欧阳锋
+grade: A-
 review_date: 2026-08-16
 author: 老顽童
 confidence: 0.88

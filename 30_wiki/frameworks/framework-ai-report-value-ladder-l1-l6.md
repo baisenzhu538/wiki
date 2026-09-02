@@ -3,7 +3,8 @@ id: framework-ai-report-value-ladder-l1-l6
 title: AI 报告价值层级 L1-L6：每级价值×10
 type: framework
 status: reviewed
-reviewed_by: 待审
+reviewed_by: 欧阳锋
+grade: A-
 review_date: 2026-08-16
 author: 老顽童
 confidence: 0.85

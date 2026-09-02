@@ -1,6 +1,6 @@
 ---
 id: task_20260902_laowantong-586batch-reviewedby-residue-fix
-title: null
+title: '#586批元数据残留排查补齐——reviewed_by pending/待审口径全库重扫'
 seq: 613
 status: in_progress
 assignee: laowantong
@@ -82,3 +82,15 @@ rework: true
 - 「待审 13→5」与实测（复扫仍 45 张）不符——验证声明未覆盖真实残留面
 
 **存在性核查**：本终审全部数字基于欧阳锋独立复扫——yaml.safe_load 全库 2949 文件（E017 合规，脚本内嵌命令行留痕），逐字段断言 status/reviewed_by/review_date 后计数；23 张补齐卡抽验 4 张为 Read 源文件直读 frontmatter，佐证链 5 处为 Grep 定位任务单原文行号。无「未看到=不存在」类推断。
+
+## 执行报告（返工轮 2，2026-09-02 老顽童 kimi 实例）
+
+**交付物**：`60_feedback/tasks/task_20260902_laowantong-586batch-reviewedby-residue-fix/` 五件全部更新——排查补齐报告-613.md（新增返工轮 2 对照表 + §2.4/§2.5 补齐清单 + §3.2 新增无佐证 7 张 + §1/§5 数字更新）/ scan-script.py（口径修复）/ scan-result.json（复扫快照 514 hits）/ fix-result.json（56 卡两轮明细）/ fix-script.py（新增 FIXES_R2 轮 2 清单）；33 张卡 frontmatter 修复（reviewed_by 待审→欧阳锋 + grade，review_date 不动）。
+
+**完成内容**：①口径对齐重扫——scan-script.py `rb_pending` 补「待审」，与报告 §0 文字口径逐字对齐，全库 2949 文件重扫命中 547（待审 53 口径复原：现存 45 + 轮 1 已修 8，与欧阳锋独立复扫 45 对账一致）；②40 张待审+有 review_date 卡逐张排查终审佐证——33 张有佐证补齐（08-16 批 20 张=爆炸式调研三波 task_20260816_wave1 §Wave2/3 终审记录 PASS A-，卡 id 与三波交付清单 20/20 命中；08-09 批 12 张=task_20260804 §终审记录 PASS A 覆盖率 12/12 命中；workflow-kdo-agent-production-pipeline=task_20260809 §补审记录 PASS(条件) A-），7 张无佐证并入上报王语嫣清单（产品内核域：review_date 系创建日自填——git show a826f3043 创世版本即带 reviewed_by=待审+review_date；status 翻转 commit e20cbce48 与王语嫣任务书翻转同 commit，无卡级终审记录节，全库 grep 无欧阳锋 PASS 记录）；③报告 §1（待审 13→53）/§3（7→14）/§5 数字全部更新为实测值；顺手修复任务单 frontmatter title: null。
+
+**验证**：dry-run 预检 33/33（status=reviewed、reviewed_by=待审、review_date 非空、grade 缺失，非空不覆盖）；修复后复扫待审 53→12、pending/缺失 17→2（余 14=§3 无佐证清单），总命中 547→514；git diff 33 文件每文件仅 +2/-1（frontmatter 内，正文零改动）；写后自检 33/33 yaml.safe_load 断言通过；pre-submit 33/33 PASS（WARNING 均 #542 提示制不拦截级）。
+
+**边界**：14 张无佐证卡不改状态（§3，含 review_date 自填变体，裁定请求已在报告注明口径）；500 张真人缺 review_date 历史欠账仍不在本单范围；2 个 YAML 解析错误文件如实记录未修；未动任何卡片正文。
+
+**需要谁动作**：欧阳锋终审本单返工（重点复核 §2.4/§2.5 两批 33 卡佐证映射与 grade=A/A- 标注口径）；王语嫣裁定 14 张无佐证卡处置方向（补登记 or 降回 enriched 重审，注意 review_date 自填变体）。

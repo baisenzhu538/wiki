@@ -3,7 +3,8 @@ id: dk-research-total-anchor-private-library
 title: 私有库调研总量锚定法：缺口清单逼近 vs 边际递减
 type: dk
 status: reviewed
-reviewed_by: 待审
+reviewed_by: 欧阳锋
+grade: A-
 review_date: 2026-08-16
 author: 老顽童
 confidence: 0.85

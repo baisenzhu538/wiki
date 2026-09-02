@@ -3,7 +3,8 @@ id: case-ai-pet-emotional-product
 title: 「案例：AI宠物"砍掉说话功能"——真正看见用户的反直觉决策」
 type: case
 status: reviewed
-reviewed_by: 待审
+reviewed_by: 欧阳锋
+grade: A
 review_date: 2026-08-09
 confidence: 0.8
 trust_level: medium

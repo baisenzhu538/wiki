@@ -3,7 +3,8 @@ id: bridge-how-to-know-person-to-business
 title: 「桥接：人域"看见"↔商业域——从理解人到创造商业价值」
 type: bridge
 status: reviewed
-reviewed_by: 待审
+reviewed_by: 欧阳锋
+grade: A
 review_date: 2026-08-09
 confidence: 0.9
 trust_level: high

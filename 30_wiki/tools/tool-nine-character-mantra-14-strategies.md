@@ -3,7 +3,8 @@ id: tool-nine-character-mantra-14-strategies
 title: 九字诀 14 策略小抄：明确目标控过程的节奏做纠偏
 type: tool
 status: reviewed
-reviewed_by: 待审
+reviewed_by: 欧阳锋
+grade: A-
 review_date: 2026-08-16
 author: 老顽童
 confidence: 0.88

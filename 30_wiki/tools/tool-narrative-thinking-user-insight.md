@@ -3,7 +3,8 @@ id: tool-narrative-thinking-user-insight
 title: 「工具：叙事型用户洞察——用户不是数字」
 type: tool
 status: reviewed
-reviewed_by: 待审
+reviewed_by: 欧阳锋
+grade: A
 review_date: 2026-08-09
 confidence: 0.9
 trust_level: high

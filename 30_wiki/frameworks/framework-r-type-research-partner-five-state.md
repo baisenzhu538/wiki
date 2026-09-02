@@ -3,7 +3,8 @@ id: framework-r-type-research-partner-five-state
 title: R 型研究 Partner 五状态机：从课题到知识资产
 type: framework
 status: reviewed
-reviewed_by: 待审
+reviewed_by: 欧阳锋
+grade: A-
 review_date: 2026-08-16
 author: 老顽童
 confidence: 0.85

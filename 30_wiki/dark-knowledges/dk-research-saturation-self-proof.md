@@ -3,7 +3,8 @@ id: dk-research-saturation-self-proof
 title: 饱和自证话术：让 AI 记数就不太会骗人
 type: dk
 status: reviewed
-reviewed_by: 待审
+reviewed_by: 欧阳锋
+grade: A-
 review_date: 2026-08-16
 author: 老顽童
 confidence: 0.88

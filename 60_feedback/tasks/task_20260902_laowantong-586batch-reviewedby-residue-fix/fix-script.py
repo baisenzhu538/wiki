@@ -2,7 +2,7 @@
 """#613 补齐：status=reviewed 但 reviewed_by=pending/待审 的元数据残留修复。
 判定与验证一律 yaml.safe_load（E017 禁正则解析 frontmatter）；文本层面只做行级最小改动。
 只动 frontmatter 三字段：reviewed_by / review_date / grade（有实证才加）。"""
-import io, sys, json
+import io, os, sys, json
 import yaml
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
@@ -98,7 +98,7 @@ def load_fm(text):
     return None, None, None
 
 results = []
-for rel, expect_rb, new_rd, new_grade, evidence in FIXES:
+for rel, expect_rb, new_rd, new_grade, evidence in ACTIVE_FIXES:
     path = ROOT + "\\" + rel.replace("/", "\\")
     with open(path, "r", encoding="utf-8", newline="") as f:
         text = f.read()
@@ -140,6 +140,13 @@ for rel, expect_rb, new_rd, new_grade, evidence in FIXES:
     results.append({"path": rel, "changed": changed, "evidence": evidence})
     print(f"✅ {rel}: {', '.join(changed)}")
 
-print(f"\n共修复 {len(results)}/{len(FIXES)} 张")
-with open(ROOT + r"\_tmp\613-fix-result.json", "w", encoding="utf-8") as f:
-    json.dump(results, f, ensure_ascii=False, indent=2)
+print(f"\n共修复 {len(results)}/{len(ACTIVE_FIXES)} 张")
+OUT = ROOT + r"\60_feedback\tasks\task_20260902_laowantong-586batch-reviewedby-residue-fix\fix-result.json"
+# 轮 2 结果与轮 1 合并落盘（机读对账单一文件）
+existing = []
+if os.path.exists(OUT):
+    with open(OUT, "r", encoding="utf-8") as f:
+        existing = json.load(f)
+with open(OUT, "w", encoding="utf-8") as f:
+    json.dump(existing + results, f, ensure_ascii=False, indent=2)
+print("JSON 落盘: 60_feedback/tasks/task_20260902_laowantong-586batch-reviewedby-residue-fix/fix-result.json")
