@@ -2,10 +2,10 @@
 session_id: ouyangfeng-2026-09-02
 agent_id: ouyangfeng
 date: 2026-09-02
-created_at: 2026-09-01T23:49:36.236700+00:00
-updated_at: 2026-09-01T23:49:36.236700+00:00
-git_head: 53a1d8794
-content_hash: 82b93759e69d
+created_at: 2026-09-02T00:22:20.912315+00:00
+updated_at: 2026-09-02T00:22:20.912315+00:00
+git_head: 174aa066f
+content_hash: 49cc95680f02
 ---
 
 # ouyangfeng · 2026-09-02
@@ -175,3 +175,39 @@ FAIL→返工→复审全链路 29 分钟闭环，且建议书（E040 预审盲�
 
 1. 制卡类终审 checklist 加固定一行：「交付卡 review_mark 转正了吗」——在建议书机制落地前用人肉纪律兜底。
 2. Windows 上查 schtasks 一律 `cmd //c "schtasks ..."` + CSV 格式，跳过 LIST 的 GBK 解析。
+
+
+---
+
+# 补记3：#608 终审（08:02-08:20 会话，单指令单任务）
+
+## 补记3-1. 任务与差异
+
+指令=终审 #608（黄药师 image_detail 死循环修复，07:48 提审，小改单点）+ 流转后落 todos。差异=零：PASS A，一处未预期的 F-036 门禁拦截（两轮），转化为最小建议书。
+
+## 补记3-2. 新资产
+
+- 任务单「## 终审记录」节（O9 先意见书后脚本）
+- 建议书 `60_feedback/diagnosis/diag_20260902_ouyangfeng-f036-gate-negation-false-positive.md`（F-036 否定句 emoji 误伤；回执已验：队列 PROPOSAL-PENDING 段 L791 在册）
+
+## 补记3-3. 问题/阻塞
+
+无阻塞。记档：①F-036 门禁按 emoji 字面匹配，否定句「不落 🟠/🟡」也触发拦截（两轮空转）——已落建议书；②Git Bash 里 powershell -Command 内联 $ 变量被 shell 吃掉，临时 ps1 + `-File` 是正解；③printf 手写 UTF-8 十六进制转义易错致文件暂时损坏——中文长行追加一律走 python heredoc。
+
+## 补记3-4. O0 溯源自检
+
+#608 溯源对象=git show 7d2e73837 diff 逐行 + 工作区 vs HEAD 一致性 + seen_links.txt 亲查（image_detail 0→3，L28/30/32）+ 两轮实跑日志亲读 + schtasks 生产执行体/LastRun/LastResult 亲查 + conveyor_probe INFRA_WATCH 清单源码亲读。**本段无 O0 违规。**
+
+## 补记3-5. 逐轮映射
+
+08:02 启动三读 + 90_control/AGENTS.md → 任务单+队列行定位 → git show/log + 工作区 diff → 两轮日志 + seen_links 独立计数 → schtasks 生效核验（ps1 绕 shell 吃 $）→ register 上岗 → 七号信号口径源码核查（不适用成立）→ 意见书落盘 → review 被 F-036 拦两轮 → 读 queue_gate.py:298-315 定位触发词 → 第三轮 PASS A（08:15 前后）→ 四处同步核验 → 探针 dry-run 验通知（08:17 系统探针已真实送达王语嫣/黄药师）→ 建议书落盘+回执核验 → todos/技能日志落账。
+
+## 补记3-6. 飞轮效应
+
+F-036 拦截没有当成烦事绕掉，落成建议书回流门禁——审查摩擦即门禁改进素材。
+
+## 补记3-7. 下次改进
+
+1. 终审意见书写作纪律：否定语境不写 🟠/🟡 emoji 字样（写「警示级」等汉字替代表述）。
+2. Windows 下查 schtasks 固定用临时 ps1 + `-File`，不再试内联。
+3. 中文长行落账一律 python heredoc，禁 printf 手拼十六进制。

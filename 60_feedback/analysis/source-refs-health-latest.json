@@ -1,16 +1,16 @@
 {
   "stats": {
-    "total_cards": 2912,
-    "cards_with_sources": 2722,
+    "total_cards": 2923,
+    "cards_with_sources": 2733,
     "cards_empty": 187,
     "cards_with_errors": 3,
-    "total_refs": 5990,
-    "refs_file_path": 4306,
-    "refs_ok": 3991,
-    "refs_missing": 315,
+    "total_refs": 6007,
+    "refs_file_path": 4323,
+    "refs_ok": 4007,
+    "refs_missing": 316,
     "refs_contaminated": 8,
-    "refs_line_anchor": 771,
-    "refs_line_anchor_alive": 771
+    "refs_line_anchor": 783,
+    "refs_line_anchor_alive": 783
   },
   "contaminated_cards": [
     {
@@ -79,6 +79,13 @@
     }
   ],
   "missing_source_cards": [
+    {
+      "card_id": "agent-spec-skills-assistant",
+      "file": "30_wiki/agent-specs/agent-spec-skills-assistant.md",
+      "missing": [
+        "https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills"
+      ]
+    },
     {
       "card_id": "agent-spec-wangyuyan-orchestrator",
       "file": "30_wiki/agent-specs/agent-spec-wangyuyan-orchestrator.md",
@@ -1553,7 +1560,7 @@
       {
         "domain": "kdo",
         "status": "reviewed",
-        "missing": 12
+        "missing": 13
       },
       {
         "domain": "personal-os",
@@ -1616,6 +1623,11 @@
         "missing": 6
       },
       {
+        "domain": "agent-capability",
+        "status": "reviewed",
+        "missing": 5
+      },
+      {
         "domain": "governance",
         "status": "reviewed",
         "missing": 5
@@ -1634,11 +1646,6 @@
         "domain": "strategy",
         "status": "reviewed",
         "missing": 5
-      },
-      {
-        "domain": "agent-capability",
-        "status": "reviewed",
-        "missing": 4
       },
       {
         "domain": "organizational-transformation",

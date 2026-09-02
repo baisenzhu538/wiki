@@ -521,3 +521,5 @@
 2026-09-02 07:42:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 346.7), ('cli', 165.8)]）｜role_registry check-liveness｜role_registry
 2026-09-02 08:15:02｜task_20260902_huangyaoshi-image-detail-deadloop-fix｜F-036-问题落点｜审查发现问题未给落点（F-036）：**缺陷**：无阻塞缺陷。🟡 微瑕（记录不阻断）：交付物节将 `_tmp/` 日志列为路径（机器预审已提示，按约定豁免；——必须在意见书注明去向（建议书路径 / 停｜欧阳锋
 2026-09-02 08:15:25｜task_20260902_huangyaoshi-image-detail-deadloop-fix｜F-036-问题落点｜审查发现问题未给落点（F-036）：**缺陷**：无阻塞缺陷。微瑕（内容类观察，记录即可，无需动作）：交付物节将 `_tmp/` 日志列为路径——机器预审已——必须在意见书注明去向（建议书路径 / 停｜欧阳锋
+2026-09-02 08:27:21｜task_20260902_laowantong-yitang-methodology-batch-cards｜F-034-五字段｜--evidence 文件不可读: 60_feedback/tasks/task_20260902_laowantong-yitang-methodology-batch-cards.md 五字段执行｜laowantong-kimi
+2026-09-02 08:48:50｜task_20260902_laowantong-yitang-methodology-batch-cards｜F-035-负向判词｜意见书含负向断言（缺失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋

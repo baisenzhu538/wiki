@@ -365,3 +365,7 @@
 - [2026-09-02 07:57] 🔔 KDO 新提审 1 单：#608，请终审（新提审）
 - [2026-09-02 08:02] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#608（huangyaoshi 的单，挂审 14min）（事件驱动：有待终审）
 - [2026-09-02 08:12] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#608（huangyaoshi 的单，挂审 24min）（事件驱动：有待终审）
+- [2026-09-02 08:20] ✅ #608 终审 PASS A（task_20260902_huangyaoshi-image-detail-deadloop-fix）：O0 溯源 git show 7d2e73837 逐行核（7 行纯插入零碰 #601 逻辑）+seen_links 亲查 image_detail 0→3+两轮日志 3→0 封死实证；版本对齐三问全过（schtasks wechat-link-monitor LastRun 08:11>commit 07:48 Result=0，生产已跑新码）；#601 reviewed 前置条件满足；矩阵七号信号不适用（非 INFRA_WATCH 四面）；F-036 门禁两轮拦截（否定句 emoji 误伤）已落最小建议书 diag_20260902_ouyangfeng-f036-gate-negation-false-positive 并验回执（队列 L791 在册）；四处同步齐，探针 08:17 已推送王语嫣/黄药师
+- [2026-09-02 08:32] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#611（laowantong 的单，挂审 5min）（事件驱动：有待终审）
+- [2026-09-02 08:37] 🔔 KDO 新提审 1 单：#611，请终审（新提审）
+- [2026-09-02 08:42] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#611（laowantong 的单，挂审 15min）（事件驱动：有待终审）

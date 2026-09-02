@@ -105,3 +105,33 @@ evidence: 60_feedback/tasks/task_20260902_laowantong-yitang-methodology-batch-ca
 ### ③ 负向判词 / ④ 存在性核查
 
 ✅ 执行报告无负向断言词（检查面=执行报告节）
+
+## 终审记录（2026-09-02 欧阳锋）
+
+**结论：PASS，等级 A-**（深度达标，1-2 处小遗漏）
+
+**通过维度**：
+- **O0 溯源**：源文档《审计：Eason文化审计与实事求是DataPack.md》440 行全量对账——时间线（14:56 提交→15:36 识破=40 分钟→16:15 坦白=79 分钟，算术复核无误）、5 份假报告与五研究员名单（L23-26）、429×5 与 15:42 API 正常（L24/L30）、价值观 4/7（附录 C）、十大坑 7/10 及坑名清单（L281-299）、复发概率>80% 标注 CHO 估计值（L138）、信任等级 30 天/4 周参数（L341/L166）——全部命中，无虚构。
+- **🔴密级件脱敏口径（本次重点）**：双标注在位（frontmatter source_context + 正文首行 ⚠️ 传播限制标注），格式与 #322 先例（case-private-board-conversion-skincare L60）一致且更严（明写"禁止公开发布"）；事件结构保留、人物均为库内通行代号、dk 卡只萃取方法结构不复现事件细节——**达标**。
+- **KDO 同构映射表事实准确性（本次重点）**：5 行全部独立核实——E018 自建卡伪造审查记录（90_control/AGENTS.md 禁止清单 15）、写审分离 author≠reviewed_by lint 强制（startup 铁律 6）、P-28 调参 3 小时（.agent/startup.md）、E019 单日 6 次实证与 L9 牌提审即验证流转（.agent/laowantong-context.md L278-288）、conveyor_probe 机器回执——**全部属实**。
+- **互链**：两新卡 15 个 [[..]] 目标逐一 find 实证零缺失；3 张存量卡反向补链（shishi-qiushi related:null→2 链、data-pack-ethics +2、agent-university +2）git show d743581cb 对账在位；pre-submit 独立复跑 2/2 PASS（45/40 分与执行报告一致，WIKILINK 0 issues）。
+- **外部对标**：arXiv 2606.04990《From Agent Traces to Trust》真实存在（Wang et al. 2026，证据追踪与执行溯源综述）✅。
+- **深度**：case 卡 L1-L5 深挖+六层交叉 L1-L4+双攻击者 Critique+5 失败模式；dk 卡六字段标准节+封装判断元暗知识+双攻击者 Critique+5 失败模式——达标。
+
+**缺陷（不阻断）**：
+- 🔵 Low：case 卡 Critique 攻击 2 称"CHO 方案第 6 条（署名规范、行为红线写入 AGENTS.md）"——源文档署名真实性规范是第 6 条、行为红线是第 4 条，编号合并表述有滑（实质判断不受影响）。
+- 🟠 Medium（放行+TODO）：dk 卡称 arXiv 论文把 verification/provenance 列为"Agent 信任六大功能之二"——论文 v4 实为六个 taxonomy 维度（trust functions 为其中一维），"六大功能"表述待后续迭代校准。
+
+**WAIC 互链裁定**：WAIC 顶层思考件（00_inbox/学习candy合集/顶层：我对WAIC的顶层思考和学习框架.md）MUSE 口径 U=Usage/S=Startup，与本族 v1.0 DataPack 卡一致、与 V3.0 旧卡相反。裁定：**建链成立**——因 WAIC 无独立卡，已在 framework-muse-ai-full-map-v1（reviewed 卡）定位声明下补一行同族素材注记（纯文本路径，避免 wikilink 死链），正文其余未动，reviewed 状态保留。
+
+**观察（非本批问题，记录不阻断）**：framework-muse-ai-full-map-v1 frontmatter status=reviewed 但 reviewed_by=pending（#586 批遗留元数据不齐），已另行落最小建议书请王语嫣排查。
+
+**存在性核查**（#433 锚点——本节支撑以上全部负向判词）：
+- "互链零缺失"：核查方式=对两新卡 15 个 [[..]] 目标逐一 `find 30_wiki -name <id>.md`，全部命中（脚本输出 "--- link check done ---" 前无 MISSING 行）；并经 `kdo pre-submit --files` 独立复跑 WIKILINK 0 issues 复核。
+- "无虚构"：核查方式=源文档 440 行 Read 全量读取后对账，非抽样；上文每个数字均附源文档行号。
+- "reviewed 状态保留/正文其余未动"：核查方式=对 framework-muse-ai-full-map-v1 仅一次 Edit（定位声明后插入一行注记），未触碰 frontmatter 与其他正文。
+- "CSA 未做存在性复核"：如实声明——该引用未核验，列入残余风险而非判词。
+
+**残余风险**：两卡事实均来自单一内部审计文档（已按"待独立核实"口径全卡标注）；CSA《Agentic Trust Framework》引用未做存在性复核（arXiv 主锚点已验）。
+
+**版本对齐**：制卡任务豁免入仓/生效两问；审查对象=任务单最新版+git HEAD d743581cb，队列行 #611=pending_review 与任务单 status 一致。

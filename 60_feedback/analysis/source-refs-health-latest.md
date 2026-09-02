@@ -1,14 +1,14 @@
 # source_refs 健康检查报告
 
-**扫描范围**：2912 张卡片
-**有 source 的卡片**：2722 张
+**扫描范围**：2923 张卡片
+**有 source 的卡片**：2733 张
 **空 source 卡片**：187 张
-**source_refs 总数**：5990 条
-**文件路径类 source**：4306 条
-**✅ 文件存在**：3991 条
-**❌ 文件缺失**：315 条
+**source_refs 总数**：6007 条
+**文件路径类 source**：4323 条
+**✅ 文件存在**：4007 条
+**❌ 文件缺失**：316 条
 **⚠️ 污染引用**：8 条
-**🔗 行号锚引用**：771 条（剥锚后存在 771 条——剥锚修复前全被误判缺失，#543）
+**🔗 行号锚引用**：783 条（剥锚后存在 783 条——剥锚修复前全被误判缺失，#543）
 
 ---
 
@@ -29,6 +29,7 @@
 
 | 卡片 ID | 缺失路径 |
 |---|---|
+| `agent-spec-skills-assistant` | `https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills` |
 | `agent-spec-wangyuyan-orchestrator` | `agent复盘/wangyuyan/错误模式库.md` |
 | `agent-spec-wangyuyan-orchestrator` | `agent复盘/wangyuyan/用户反馈档案.md` |
 | `agent-spec-zhu-boss` | `60_feedback/tasks/task_20260823_laowantong-role-special-zhu-dictations-amend.md（№5/№6 原话补录，amends 本卡 doc_id）` |
@@ -355,6 +356,7 @@
 | `agent-spec-huangyaoshi-builder` | 7 | 7 | 0 | 0 | reviewed |
 | `agent-spec-laowantong-producer` | 6 | 6 | 0 | 0 | draft |
 | `agent-spec-ouyangfeng-reviewer` | 6 | 6 | 0 | 0 | reviewed |
+| `agent-spec-skills-assistant` | 3 | 2 | 1 | 0 | reviewed |
 | `agent-spec-wangyuyan-orchestrator` | 4 | 2 | 2 | 0 | reviewed |
 | `agent-spec-zhu-ai-coach` | 4 | 4 | 0 | 0 | draft |
 | `agent-spec-zhu-boss` | 5 | 1 | 3 | 0 | reviewed |
@@ -508,6 +510,8 @@
 | `case-panproduct-top135-selection-polish` | 1 | 1 | 0 | 0 | reviewed |
 | `case-panproduct-yitao-project-background` | 1 | 1 | 0 | 0 | reviewed |
 | `case-personal-map-modeling` | 1 | 1 | 0 | 0 | enriched |
+| `case-popmart-brand-sensory-wrap` | 2 | 2 | 0 | 0 | reviewed |
+| `case-popmart-molly-transition` | 2 | 2 | 0 | 0 | reviewed |
 | `case-popmart-prospectus-pricing` | 1 | 1 | 0 | 0 | enriched |
 | `case-private-board-conversion-skincare` | 4 | 0 | 4 | 0 | reviewed |
 | `case-private-domain-ecommerce-formula` | 3 | 3 | 0 | 0 | reviewed |
@@ -622,6 +626,7 @@
 | `case-yitang-doorstep-pet-feeding-trust` | 2 | 2 | 0 | 0 | enriched |
 | `case-yitang-double-triangle-confidence` | 2 | 2 | 0 | 0 | reviewed |
 | `case-yitang-du-kids-education-sabc` | 3 | 3 | 0 | 0 | enriched |
+| `case-yitang-eason-truth-delivery-audit` | 1 | 1 | 0 | 0 | draft |
 | `case-yitang-elderly-home-roleplay` | 1 | 1 | 0 | 0 | enriched |
 | `case-yitang-fake-interview-intelligence` | 1 | 1 | 0 | 0 | enriched |
 | `case-yitang-false-causality-collection` | 8 | 8 | 0 | 0 | enriched |
@@ -635,6 +640,7 @@
 | `case-yitang-innovative-metrics-collection` | 7 | 7 | 0 | 0 | enriched |
 | `case-yitang-jiangxiang-12-practices` | 1 | 1 | 0 | 0 | reviewed |
 | `case-yitang-jiangxiang-cli-three-versions` | 1 | 1 | 0 | 0 | reviewed |
+| `case-yitang-jiangxiang-huawei-matext-launch` | 1 | 1 | 0 | 0 | reviewed |
 | `case-yitang-jiangxiang-scene-montage` | 1 | 1 | 0 | 0 | reviewed |
 | `case-yitang-jiangxiang-tianmu-balcony` | 1 | 1 | 0 | 0 | reviewed |
 | `case-yitang-jtbd-story-formula` | 1 | 1 | 0 | 0 | enriched |
@@ -856,6 +862,7 @@
 | `concept-research-delegation-in-scaling` | 2 | 2 | 0 | 0 | reviewed |
 | `concept-research-responsibility-boundary` | 2 | 2 | 0 | 0 | reviewed |
 | `concept-research-saturation-coverage` | 1 | 1 | 0 | 0 | reviewed |
+| `concept-satisfaction-vs-existence` | 1 | 1 | 0 | 0 | reviewed |
 | `concept-session-vs-memory-vs-document` | 3 | 3 | 0 | 0 | reviewed |
 | `concept-spatial-narrative-design` | 1 | 1 | 0 | 0 | reviewed |
 | `concept-strategy-2024-2026-supplement` | 1 | 1 | 0 | 0 | reviewed |
@@ -1370,6 +1377,7 @@ expected <block end>, but found '<scalar>'
 | `dk-yitang-case-before-after` | 2 | 2 | 0 | 0 | draft |
 | `dk-yitang-case-crafting-pitfalls` | 2 | 2 | 0 | 0 | draft |
 | `dk-yitang-channel-exploration-traps` | 4 | 4 | 0 | 0 | reviewed |
+| `dk-yitang-fact-three-questions-trust-tiers` | 1 | 1 | 0 | 0 | draft |
 | `dk-yitang-innovation-failure-modes` | 2 | 2 | 0 | 0 | draft |
 | `dk-yitang-methodology-stack-fallacy` | 2 | 2 | 0 | 0 | reviewed |
 | `dk-yitang-over-abstraction` | 2 | 2 | 0 | 0 | reviewed |
@@ -1515,6 +1523,7 @@ expected <block end>, but found '<scalar>'
 | `framework-openclaw-vs-harness-selection` | 2 | 1 | 1 | 0 | draft |
 | `framework-oral-spray-five-advantages` | 7 | 0 | 7 | 0 | draft |
 | `framework-patrolkit-radar` | 2 | 2 | 0 | 0 | reviewed |
+| `framework-popmart-long-termism-operating-philosophy` | 2 | 2 | 0 | 0 | reviewed |
 | `framework-r-type-research-partner-five-state` | 1 | 1 | 0 | 0 | reviewed |
 | `framework-sales-funnel-full` | 1 | 1 | 0 | 0 | reviewed |
 | `framework-serendipity-five-channels` | 2 | 2 | 0 | 0 | reviewed |
@@ -1642,6 +1651,7 @@ expected <block end>, but found '<scalar>'
 | `method-yihang-human-self-distillation` | 1 | 1 | 0 | 0 | reviewed |
 | `method-yihang-knowledge-battle-station` | 1 | 1 | 0 | 0 | reviewed |
 | `method-yihang-knowledge-versioning` | 1 | 1 | 0 | 0 | draft |
+| `method-yitang-jiangxiang-audience-value-routing` | 1 | 1 | 0 | 0 | reviewed |
 | `method-yitang-micro-innovation` | 2 | 2 | 0 | 0 | reviewed |
 | `method-yitang-y-model-engine-cycle` | 7 | 7 | 0 | 0 | reviewed |
 | `method-yitang-y-model-structured-form` | 2 | 2 | 0 | 0 | reviewed |
@@ -1875,6 +1885,7 @@ expected <block end>, but found '<scalar>'
 | `tool-pdf-inspector` | 3 | 0 | 3 | 0 | reviewed |
 | `tool-personal-time-audit-loop` | 6 | 6 | 0 | 0 | reviewed |
 | `tool-platform-requirement-eight-sections` | 1 | 1 | 0 | 0 | pending_review |
+| `tool-popmart-narrow-and-deep` | 2 | 2 | 0 | 0 | reviewed |
 | `tool-position-switching-test` | 9 | 2 | 0 | 0 | draft |
 | `tool-presentation-quality-gate-pipeline` | 1 | 1 | 0 | 0 | reviewed |
 | `tool-private-board-facilitation-sop` | 2 | 2 | 0 | 0 | draft |
@@ -1998,6 +2009,7 @@ expected <block end>, but found '<scalar>'
 | `tool-yitang-industry-channel-arsenal-index` | 24 | 24 | 0 | 0 | reviewed |
 | `tool-yitang-industry-report-search` | 1 | 1 | 0 | 0 | enriched |
 | `tool-yitang-ipo-annual-report-cheat-sheet` | 1 | 1 | 0 | 0 | enriched |
+| `tool-yitang-jiangxiang-launch-copywriting-arsenal` | 1 | 1 | 0 | 0 | reviewed |
 | `tool-yitang-job-intelligence-research` | 2 | 2 | 0 | 0 | enriched |
 | `tool-yitang-listening-37-rule` | 4 | 4 | 0 | 0 | reviewed |
 | `tool-yitang-method-ab-sides-checklist` | 2 | 2 | 0 | 0 | reviewed |
@@ -2338,7 +2350,7 @@ expected <block end>, but found '<scalar>'
 | ai-collaboration | draft | 42 |
 | innovation | draft | 35 |
 | content-creation | draft | 16 |
-| kdo | reviewed | 12 |
+| kdo | reviewed | 13 |
 | personal-os | reviewed | 11 |
 | ai-collaboration | pending_review | 10 |
 | modeling | draft | 8 |
@@ -2351,11 +2363,11 @@ expected <block end>, but found '<scalar>'
 | knowledge-management | pending_review | 6 |
 | business-strategy | reviewed | 6 |
 | sales | reviewed | 6 |
+| agent-capability | reviewed | 5 |
 | governance | reviewed | 5 |
 | knowledge-management | reviewed | 5 |
 | decision-making | draft | 5 |
 | strategy | reviewed | 5 |
-| agent-capability | reviewed | 4 |
 | organizational-transformation | reviewed | 4 |
 | conversion-rate | reviewed | 4 |
 | organizational-transformation | draft | 4 |

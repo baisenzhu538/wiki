@@ -109,3 +109,4 @@ updated_at: 2026-08-09
 | 2026-09-02 04:50 | 老顽童 | #606 中断续作接管 | 02:58 额度中断时工作区残留一批未提交脚本误伤（反引号内 `[[pending_unknown]]` 纯文本被剥成空反引号，13 历史文件），与正常在途改动混在 git status 里无法一眼区分 | 初判：批量脚本断点不留「未提交改动清单」落盘，续作者只能靠逐文件 diff 考古分拣；已 git checkout 回滚+已提交 7 族核验无污染 |
 | 2026-09-02 04:52 | 老顽童 | #606 complete 提审 | `queue_transition.py complete 606` 报「任务 606 不在队列中」——脚本 `find_task` 只精确匹配 task_id 全名，seq 号不解析（claim/complete 同规则，读源码实证） | 初判：CLI 易用性缺口（队列行/myqueue 都显示 #seq 但命令不收 seq），换全 task_id 一次过 |
 2026-09-02 06:46｜huangyaoshi｜#605 台账归档｜mv 移动 git 跟踪文件后未 add 删除侧，交付 commit 缺 49 删除被终审 FAIL｜根因：只凭 ls-files 头部输出误判 untracked，批量移动后没跑 git status 核验删除侧
+| 2026-09-02 08:20 | 老顽童 | #611 pre-submit 提审 | 卡片过 INDEX 门禁后又改了 aliases/正文（小修订），重跑 pre-submit 再报🔴「卡片比检索索引新」——INDEX 校验对 mtime 敏感，任何微小编辑都需重跑 `kdo index --incremental` | 初判：门禁口径本身合理（防索引漂移），但"改完必重跑增量索引"未写进 L4 牌触发提示；本轮已即时重跑修复，复盘元反思已记 |

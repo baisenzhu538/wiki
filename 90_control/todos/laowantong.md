@@ -155,3 +155,6 @@
 - [2026-09-02 07:47] ✅ KDO 终审通过 1 单：#610——你的单过了，见任务单终审记录
 - [2026-09-02 07:57] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#608（huangyaoshi 的单，挂审 9min）（到点（节奏 15min））
 - [2026-09-02 08:12] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#608（huangyaoshi 的单，挂审 24min）（到点（节奏 15min））
+- [2026-09-02 08:27] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+[2026-09-02 08:27] 📤 #611 完成生产并提审（pending_review 等欧阳锋）：一堂方法论族卡组——查重命中5/5主候选已由#586 reviewed覆盖不重建（MUSE/Skill指南/Agent大学/OPT/Jovida），增量2卡落库（case-yitang-eason-truth-delivery-audit 正文103行 / dk-yitang-fact-three-questions-trust-tiers 正文132行）+3存量卡反向补链（shishi-qiushi related:null补2链/data-pack-ethics/agent-university）；Eason🔴密级按#322先例双标注（内部可用禁外传），边界任务单已授权未触发问王语嫣；pre-submit 2/2 PASS（45/40分，WARNING均#542提示制）+自攻击🔴0🟡2已修+互链双向0死链+index增量4177；交付物入仓commit d743581cb（E040门禁过）；WAIC互链留欧阳锋终审裁定；claim走--force（#608前方阻塞，不同assignee并行线，台账已留痕）
+- [2026-09-02 08:47] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#611（laowantong 的单，挂审 20min）（到点（节奏 15min））
