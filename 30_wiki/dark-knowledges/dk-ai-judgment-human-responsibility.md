@@ -33,6 +33,7 @@ discoverable_by:
   - 人做判断AI做生产
   - 核心不是会不会用AI，而是敢不敢点这个头承担后果
 related:
+- '[[dk-course-starts-from-unavoidable-question]]'
 - '[[tool-纪浩-处理AI生成代码运行异常]]'
 - '[[dk-my-ai-landing-three-barriers]]'
 - '[[dk-truman-iteration-to-aesthetic-ceiling]]'

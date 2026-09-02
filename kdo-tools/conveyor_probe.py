@@ -23,7 +23,7 @@ import sys
 import time
 import urllib.request
 import yaml
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 
 if hasattr(sys.stdout, "reconfigure"):
@@ -885,12 +885,35 @@ def _scan_infra_liveness(state: dict) -> list[str]:
     return alerts
 
 
+def _last_skip_age_h() -> float | None:
+    """#631 任务3：#628 守卫 SKIPPED 行=主动跳拍（健康信号非停拍）——最近一次跳拍距今小时数。
+
+    SKIPPED 行落 logs/vault-git-backup.log（schtasks 包装 .cmd 重定向）。无则 None。
+    """
+    log = ROOT / "logs" / "vault-git-backup.log"
+    try:
+        lines = log.read_text(encoding="utf-8", errors="replace").splitlines()[-80:]
+    except OSError:
+        return None
+    for ln in reversed(lines):
+        m = _re.search(r"vault backup: (\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}) SKIPPED", ln)
+        if m:
+            try:
+                ts = datetime.strptime(m.group(1), "%Y-%m-%d %H:%M:%S").timestamp()
+            except ValueError:
+                return None
+            return (time.time() - ts) / 3600
+    return None
+
+
 def _scan_backup_stall(state: dict, max_age_h: float = 24) -> list[str]:
     """#607 第十信号：vault backup 心跳停拍——最后一次 `vault backup` commit 超 24h 即告。
 
     背景：backup 曾是会话级 cron，08-26 重启杀会话后停摆 6 天无人察觉（空窗实证）。
     只探测不决策（同看门狗 v5 口径）。幂等同第九信号：跨越沿触发，持续停拍只报一次，
     恢复后重新武装。git 读不出 → 不报（不误报红线，同 _beat_age_minutes None 口径）。
+    #631 任务3：commit 超窗但守卫 SKIPPED 行在窗内 = #628 主动跳拍（健康），不报停拍——
+    认跳拍不报停拍，哨兵口径细化（否则守卫越尽职、停拍误报越多）。
     """
     import subprocess as _sp
     try:
@@ -903,12 +926,65 @@ def _scan_backup_stall(state: dict, max_age_h: float = 24) -> list[str]:
         return []
     flagged = bool(state.get("backup_stall", False))
     if age_h > max_age_h:
+        skip_age = _last_skip_age_h()
+        if skip_age is not None and skip_age <= max_age_h:
+            state["backup_stall"] = False  # 守卫跳拍=健康心跳，重新武装
+            return []
         state["backup_stall"] = True
         if not flagged:
             age_txt = "无任何 backup commit" if age_h == float("inf") else f"停拍 {age_h:.0f}h"
             return [f"vault-backup｜{age_txt}（阈值 {max_age_h:.0f}h）"]
     else:
         state["backup_stall"] = False
+    return []
+
+
+# ── #631 第十二信号：非节拍 backup commit 检测（孤儿写手现行）──
+# 背景：01:38 非节拍 backup commit（545bd0f5a）收走 #628 在制品——#631 任务1 锁定
+# 孤儿源=obsidian-git 插件 auto backup（autoSaveInterval=10min，commitMessage 模板
+# 「vault backup: {{date}}」与 vault_git_backup.py 完全同文；01:28:02→01:38:12→01:48:24
+# 严格 10min 链实证）。obsidian-git 走自己的 git 通道，#628 守卫管不到。
+# 节拍格：schtasks kdo-vault-git-backup 触发器 07:20 起 PT30M → 每时 :20/:50
+#（#628 实测口径：01:20:00/00:50:00 等整秒命中；任务书写的 :02/:32 是旧印象，以实测为准）。
+_OFFBEAT_GRID_MINUTES = (20, 50)
+
+
+def _scan_offbeat_backup(state: dict, window_h: float = 3, tolerance_min: float = 10) -> list[str]:
+    """#631 第十二信号：窗口内 `vault backup:` commit 时间戳距节拍格（:20/:50）>10min → 告警。
+
+    沿触发幂等（同第十/十一信号）：脏窗口报一次，持续脏不重复报，全窗干净重新武装。
+    git 读不出 → 不报（不误报红线）。窗口取 3h（≈6 拍）防历史孤儿 commit 永久占位。
+    """
+    import subprocess as _sp
+    try:
+        out = _sp.run(
+            ["git", "-C", str(ROOT), "log", "--grep=^vault backup:", "--format=%ct",
+             f"--since={int(window_h * 60)} minutes ago"],
+            capture_output=True, text=True, timeout=15,
+            encoding="utf-8", errors="replace").stdout.split()
+    except Exception:
+        return []
+    offenders: list[str] = []
+    for tok in out:
+        try:
+            dt = datetime.fromtimestamp(int(tok))
+        except ValueError:
+            continue
+        base = dt.replace(minute=0, second=0, microsecond=0)
+        dist = min(
+            abs((dt - (base + timedelta(hours=dh, minutes=g))).total_seconds())
+            for dh in (-1, 0, 1) for g in _OFFBEAT_GRID_MINUTES
+        ) / 60
+        if dist > tolerance_min:
+            offenders.append(dt.strftime("%H:%M:%S"))
+    flagged = bool(state.get("offbeat_backup", False))
+    if offenders:
+        state["offbeat_backup"] = True
+        if not flagged:
+            return [f"vault-backup｜非节拍 commit {offenders[0]}（格点 :20/:50 ±{tolerance_min:.0f}min，"
+                    f"窗内 {len(offenders)} 个）——孤儿写手嫌疑（obsidian-git 10min 自备份同文模板，#631）"]
+    else:
+        state["offbeat_backup"] = False
     return []
 
 
@@ -1143,6 +1219,7 @@ def main() -> int:
     infra_alerts = _scan_infra_liveness(state)
     infra_alerts += _scan_backup_stall(state)  # #607 第十信号：backup 心跳并入第九信号同一通道
     infra_alerts += _scan_graph_index_health(state)  # #622 第十一信号：graph_index 空/0records/陈旧告警
+    infra_alerts += _scan_offbeat_backup(state)  # #631 第十二信号：非节拍 backup commit（孤儿写手现行）
     if infra_alerts:
         # #547 第九信号：基建停拍 → gate-blocked 同族台账 + 推王语嫣（静默期 defer 口径不动，台账恒写）
         ts_now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")

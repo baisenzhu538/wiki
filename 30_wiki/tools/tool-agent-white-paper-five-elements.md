@@ -39,8 +39,7 @@ source_refs:
 related:
 - '[[agent-spec-ouyangfeng-reviewer]]'
 - '[[framework-truman-agent-team-architecture]]'
-- '[[dk-ai-efficiency-and-management-radius]]'
-- '[[dk-rule-not-system-capability]]'
+- '[[tool-agent-whitepaper-full-lifecycle-template]]'
 - '[[case-kinda-digital-employees-fullview]]'
 - '[[dk-context-patching-recipe]]'
 ---

@@ -18,6 +18,8 @@ aliases:
 - 创作口诀
 - 思想生产线口诀
 - AI落地Live77
+- 国帅课程创作心路历程
+- Live77国帅
 source_person: 国帅（胡帅）
 source_context:
 - 一堂 AI 落地 Live77·国帅的课程创作心路历程（Candy 整理形态逐字稿，本稿即唯一一手源）

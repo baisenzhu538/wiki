@@ -39,6 +39,7 @@ source_context:
 source_refs:
 - 00_inbox/AI落地Live86-龙虾员工实践-逐字稿.md
 related:
+- '[[tool-agent-whitepaper-full-lifecycle-template]]'
 - '[[dk-let-ai-learn-for-me]]'
 - '[[dk-rule-not-system-capability]]'
 - '[[dk-best-datasource-is-floor]]'

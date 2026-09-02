@@ -29,7 +29,9 @@ source_refs:
 - ｜ 步骤 ｜ 在 Problem OS 中的对应 ｜
 - ｜:---｜:---｜
 - ｜ 1 搭参考系 ｜ 整理 ESR 原文+译本+《学会提问》拆书会+情报调研课+MBA 提问课 ｜
-related: null
+related:
+- '[[framework-course-thought-production-line]]'
+- '[[method-course-creation-eleven-steps]]'
 discoverable_by:
 - Candy逐字稿九步法
 - 逐字稿生产流程

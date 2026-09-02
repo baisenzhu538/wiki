@@ -20,6 +20,8 @@ aliases:
 - Problem OS 生产过程
 - 谁在思考 生产过程
 - AI落地Live77
+- 国帅课程创作心路历程
+- Live77国帅
 source_person: 国帅（胡帅）
 source_context:
 - 一堂 AI 落地 Live77·国帅的课程创作心路历程（Candy 整理形态逐字稿，全库无原始课稿，本稿即唯一一手源）
@@ -33,7 +35,7 @@ related:
 - '[[case-candy-problem-os-vpn]]'
 - '[[dk-ai-judgment-human-responsibility]]'
 - '[[framework-truman-agent-team-architecture]]'
-- '[[master-kdo-flywheel]]'
+- '[[kdo-flywheel]]'
 discoverable_by:
 - 思想生产线
 - 人开题机加工人判断
@@ -59,7 +61,7 @@ tags:
 
 ## 原始表述
 
-「这两节课不是'让 AI 写出来'的。它们是用 AI 时代的工作方式，一点点炼出来的：**人负责开题，机器负责加工，人负责判断**。先问清楚，再让机器跑，最后自己判。」（Live77 逐字稿 L9）
+「说白了，这两节课不是'让 AI 写出来'的。它们是用 AI 时代的工作方式，一点点炼出来的：人负责开题，机器负责加工，人负责判断。先问清楚，再让机器跑，最后自己判。」（Live77 逐字稿 L9 逐字）
 
 「先把问题变成材料，再把材料变成结构，再把结构变成判断，最后才把判断变成表达。」（L215）
 
@@ -78,7 +80,7 @@ tags:
 
 ### 第二段：加工环（材料→结构）
 
-**环 2·旧文拆根脉（定位先行）**：先不写，先定位。ESR《提问的智慧》拆书会材料在手，先问"它在一堂已有课程体系里站在哪一层？"——四层能力栈（L1 问题定义/L2 信息获取/L3 信息研判/L4 组织驱动）出来后，ESR 归 L1，「科学提问」升维成「Problem OS」。
+**环 2·旧文拆根脉（定位先行）**：先不写，先定位。ESR《提问的智慧》拆书会材料在手，先问原稿的原话——「ESR 在一堂已有课程体系里，到底站在哪一层？」——四层能力栈（L1 问题定义/L2 信息获取/L3 信息研判/L4 组织驱动）出来后，ESR 归 L1，「科学提问」升维成「Problem OS」。
 
 **环 3·真实案例点燃抽象框架**：VPN/线下数据库/同步主库的案例一进来，「提问前要理解背景」从正确的废话变成现场。判断标准：方法论没有案例=表格；有案例=刀。
 
@@ -143,4 +145,4 @@ tags:
 - [[method-course-creation-eleven-steps]]：11 环的操作化口诀版
 - [[dk-ai-judgment-human-responsibility]]：判断权不外包的 dk 底座
 - [[case-candy-problem-os-vpn]]：环 3 的 VPN 案例单卡
-- [[master-kdo-flywheel]]：同构生产线（KDO 照镜子）
+- [[kdo-flywheel]]：同构生产线（KDO 照镜子）
