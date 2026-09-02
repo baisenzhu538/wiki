@@ -1,0 +1,31 @@
+#629 会话到达工具调用上限，如实汇报进度——**施工已完成，收尾门禁（执行报告/commit/complete）未走完**，无伪造。
+
+## 已完成
+
+**启动与领取**
+- 读 startup/laowantong-context/todos 未读段，queue_transition myqueue 确认后 claim `task_20260903_laowantong-research-skills-explosion-digging` → `claimed-laowantong`
+
+**全量素材消费（14 份）**：建议书、五步法卡、R型五状态机、R型SPEC、穷尽手段、单点狙击、四类型卡、雷达图、research-core SKILL+JUDGEMENT+manifest、research-ci-framework、skill-architecture-design 样板、饱和覆盖/开文档/九字诀/饱和自证、SKILL-HEALTH/INDEX 口径
+
+**三项交付物（已落盘）**
+1. `40_outputs/capabilities/skills/shared/research-explosion-five-step/`（SKILL.md 130 行 + manifest.yaml）——五步行为化+饱和自证话术+反例黑名单+10 条失败模式，含 When NOT
+2. `40_outputs/capabilities/skills/shared/research-digging-approach/`（SKILL.md 146 行 + manifest.yaml）——值不值得挖矩阵+单点狙击三步+五层升级（第五层默认不启用红线）+升级判据+When NOT
+3. research-core 第一层嵌四类型判定：拆 A（15 秒分型：深→挖掘/高→OSCAR/宽→爆炸/动态→CI，诊断信号表最小自包含+分型规则）+ B（OSCAR 原样不动）；武器库表+2 行、frontmatter v1.1.0、三层总览图、快速路径同步；manifest 三写一致已核
+
+**#626 终审 TODO 顺带完成**：`framework-course-thought-production-line.md` 补 Critique（2 外部攻击者+回应+Synthesis 不要用场景表 2 条）+ Action Triggers（3 触发+动作+成功指标），对齐 KF-024/v2.3
+
+**验证实测**
+- 路由盲测 8 用例 8/8 过（`60_feedback/diagnosis/盲测_20260903_research-routing-four-types.md`），含 When NOT 拦截与反触发；三写一致核对表在记录内
+- `scan_skills_registry.py` 实跑：INDEX 78 skills，两新 skill 均 8/8 🟢（130/146 行）
+- pre-submit 5 文件全 PASS（explosion 55/100、digging 55/100、core 40/100 无警、framework 卡 PASS、盲测记录修 3 轮 YAML 后 PASS；残留 WARNING 均 ALIASES/CONCEPT_CROSSCHECK 提示制）
+- `kdo index --incremental` 实跑 total 4187，4/5 新件入索引；盲测记录 0 命中（60_feedback/diagnosis 疑似不在收录面，小遗留不阻塞）
+
+## 未完成（下实例接手清单）
+
+1. **任务单五字段执行报告未写**：`60_feedback/tasks/task_20260903_laowantong-research-skills-explosion-digging.md` 需补 **交付物/完成内容/验证/边界/需要谁动作** 五行（本汇报可作素材）
+2. **git commit 未做**：本次变更未提交（2 新 skill 目录+research-core 两文件+framework 卡+盲测记录+INDEX/MOUNT/SKILL-HEALTH 刷新+search_index）
+3. **complete 未跑**：`python 90_control/scripts/queue_transition.py complete task_20260903_laowantong-research-skills-explosion-digging --instance laowantong`（任务单状态仍 in_progress；complete 门禁会查执行报告+入仓，先补 1/2 再跑）
+4. **L9 双验证**：complete 后回读队列行+任务单 frontmatter 均 `pending_review`
+5. **落 todos**：`90_control/todos/laowantong.md` 追加完工行；会话 Truman 复盘+自检亦未做
+
+下实例按 1→2→3→4→5 顺序机械执行即可，无内容判断遗留。
