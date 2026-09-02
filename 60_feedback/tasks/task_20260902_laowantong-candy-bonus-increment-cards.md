@@ -1,18 +1,21 @@
 ---
-id: task_20260902_laowantong-candy-bonus-increment-cards
-title: Candy 课后加餐增量补产：Live260 口喷 ROI 搭档私密案例（原始课稿零覆盖实证）+ 探索营 Candy 增量复核
-seq: 624
-status: pending_review
-assignee: laowantong
-created_by: wangyuyan
-created_at: 2026-09-02
-decision_source: 老朱 09-02 纠偏「有的东西是课后的 candy，你需要复核」→ 王语嫣实证：Candy 版=课后作业奖励文档非课稿同源（原始稿 L708 宣告+Candy 内容课稿零命中）
-reviewer: 欧阳锋
-source_refs:
-- 00_inbox/Live260-AI口喷基本功内测candy-逐字稿.md
-- 00_inbox/AI知识管理探索营内测Candy-逐字稿.md
-instance: laowantong-kimi
-updated_at: '2026-09-02T16:29:22.452832+00:00'
+id: task_20260902_laowantong-candy-bonus-increment-cards
+title: Candy 课后加餐增量补产：Live260 口喷 ROI 搭档私密案例（原始课稿零覆盖实证）+ 探索营 Candy 增量复核
+seq: 624
+status: reviewed
+assignee: laowantong
+created_by: wangyuyan
+created_at: 2026-09-02
+decision_source: 老朱 09-02 纠偏「有的东西是课后的 candy，你需要复核」→ 王语嫣实证：Candy 版=课后作业奖励文档非课稿同源（原始稿 L708 宣告+Candy 内容课稿零命中）
+reviewer: 欧阳锋
+source_refs:
+- 00_inbox/Live260-AI口喷基本功内测candy-逐字稿.md
+- 00_inbox/AI知识管理探索营内测Candy-逐字稿.md
+instance: laowantong-kimi
+updated_at: '2026-09-02T16:46:27.430442+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-09-02'
+grade: A-
 ---
 
 # #624 Candy 课后加餐增量补产（老顽童）
@@ -142,3 +145,39 @@ updated_at: '2026-09-02T16:29:22.452832+00:00'
 ### ③ 负向判词 / ④ 存在性核查
 
 ✅ 执行报告无负向断言词（检查面=执行报告节）
+
+## 终审记录（2026-09-03 欧阳锋 · PASS A- · methodology v2.3）
+
+**Verdict**：PASS，等级 **A-**（深度达标，2 处小遗漏见下）。两源（Live260 candy 190 行、探索营 candy 548 行）已逐字通读对源。
+
+### 溯源要点（O0 逐条对源）
+
+**case-truman-roi-decision-spring-festival-class**（源 `00_inbox/Live260-AI口喷基本功内测candy-逐字稿.md:23-72`）：
+- 六阶段轨迹全对源：分档（L23-25 定性/局部定量/严格定量三档举例）→明确问题（L33）→口述成本收益（L35）→群体补参数（L37 机会成本/公司视角）→收敛 2 主矛盾（L39-41 CEO 时间+用户会不会冷）→定向测算查历史数据（L43）→切方案录播课+实时评论区（L45-47）。关键数字：14 天（L31）✓、TOP3 对 TOP3（L27/L55）✓、2 参数（L41）✓、约一半妥协决策（L29/L62）✓。
+- 引文抽查：「我不会开篇追求全，一到全就陷入细节」（L27）✓、「最后发现这两个都存在或者都不存在，最后就可以做决策」（L43）✓ 逐字。
+
+**传播限制双标注（重点核项）——合规**：源文 L9+L17 两处「仅限内部，不要外传～」三叠（共 6 次，卡片表述"重复 3 次"按一处三叠计，成立）；卡片双标注在位——frontmatter source_context ⚠️（L26）+ 正文密级声明（L65），业务细节抽象化，符合 #322/#586/#611 先例口径。探索营 candy 密级 grep 实证：「外传」零命中、「内部」零命中、「密」唯一命中为 L226「低抽象**密**度」（mem-input 判断逻辑正文，非密级标注）——不触发密级标注的判定正确。
+
+**tool-geo-ai-search-visibility-playbook**（源 `00_inbox/AI知识管理探索营内测Candy-逐字稿.md:514-548`）：
+- 七步标题与源 L522-534 逐字一致；坑 7 条与 L542-548 逐条对应；「8 天启动清单」（L536）、「13 项交付标准」（L538）、适用对象（L516）全对源。
+- QUOTE_VERBATIM 3 条 WARNING 逐条核：「GEO/AIO 效果归因在国内未打通，结果付费模式存在客户争议」命中 industry-ai-cases L172 ✓；「GEO 结果付费 5 万元为口述市场询价」命中 industry-ai-cases L164 ✓（WARNING 为门禁只查 source_refs 不查 wiki 内引用的已知盲区）；第 3 条「多来的线索哪个是 GEO 带来的」=Critique 攻击者论证中的构设问句加了引号，非源文——见缺陷②。
+- 探索营复核结论（零/微增量判定）对源成立：10 篇开源仅目录（L7-24）✓、半肥猫路演 P1-P8 仅标题（L438-452）✓、大课三点启发①③与存量卡重叠判断合理、「不补卡」属可辩护判断。
+
+### 通过维度
+
+- pre-submit 双卡 PASS、SOURCE_REACHABILITY 0 告警、INDEX 门禁过、自攻击 🔴0；4 张存量卡反向补链全部实测在位（dk-koupen L40 / dk-yitang-fact L40 / method-obsidian-km-camp L38 / method-yitang-jiangxiang L33），双向 0 死链；入仓 commit f5dfb8acf 在 HEAD 链上，工作区无脏。
+- Critique 质量：Simon 满意解攻击点中「妥协决策」术语残余、Duke 攻击点中「无判定线」真缺口；GEO 卡攻击者 1 锚定 arXiv:2311.09735 论文实证边界、攻击者 2 归因派有库内实证支撑。两卡失败模式具体可执行，When NOT to Use 在位，口述单一来源均如实降级标注。
+
+### 缺陷（不阻断）
+
+- 🟡 ①GEO 卡 source_context 称「全文 grep『外传/内部/密』零命中」——实际「密」在 L226「密度」命中 1 处（结论不变但表述不严谨，双假设原则下此类绝对化表述应写成「密级语义零命中」）。
+- 🟡 ②Critique 内构设问句「多来的线索哪个是 GEO 带来的」带引号易被读作引文——建议后续迭代去引号或标注「构设」。
+- 🔵 ③case 卡两处引文轻度归一化（源「相当送大家一个礼物」→卡「相当于…」；源「要好拆一拆」→卡「要好好拆一拆」），语义无损。
+
+### 残余风险
+
+GEO 策略时效性强（卡内已标 2026-09 快照）；ROI 案例数字全为口述单一来源（卡内已标待核实）；半肥猫金句级增量「工具迭代但积累不失效」未产卡——同意生产者判断，如后续半肥猫域立项可并入。
+
+**blocking**：无。**residual_risks**：低。**抄送**：王语嫣（编排归口）。
+
+**存在性核查**（终审意见书负向判词「外传/内部零命中」的核查节，#433）：检索面 = `grep -n "外传\|内部\|密" 00_inbox/AI知识管理探索营内测Candy-逐字稿.md`（全文 548 行，逐命中核查）。结果：「外传」0 命中、「内部」0 命中、「密」1 命中（L226「低抽象密度」，mem-input 判断逻辑正文，非传播限制语义）。结论：探索营 candy 无传播限制标注的判词成立（语义层零命中；字符串层「密」有 1 处误中已排除）。
