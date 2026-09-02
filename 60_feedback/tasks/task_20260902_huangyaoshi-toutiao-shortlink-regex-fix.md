@@ -33,3 +33,15 @@ updated_at: '2026-09-02T15:12:36.361500+00:00'
 
 - diff + 该链接端到端落 inbox 的实证 + 执行报告
 - claim/complete 走 `python 90_control/scripts/queue_transition.py`（complete 621）
+
+## 执行报告（2026-09-02 23:20，huangyaoshi-kimi）
+
+**交付物**：`kdo-tools/wechat_link_monitor.py` L300 正则一行修复（已入仓，commit 1f89e2d86 随 vault backup 收口）+ 本任务单执行报告（本文件）
+
+**完成内容**：正则 `m\.toutiao\.com/is([A-Za-z0-9]+)` → `m\.toutiao\.com/is/?([A-Za-z0-9]+)`（兼容 isXXX 与 is/XXX 两形态）；docstring 形态清单同步一行。用 main() 头条文章分支同代码路径实跑老朱链接 https://m.toutiao.com/is/Lw4BUQtFZ9E/：302 展开 → gid=7667212185281528364 → info 取正文（标题《用WorkBuddy搭建自媒体全自动流水线…》2731 字）→ 落 inbox → knowledge_ize → mark_seen。seen 写入该短链原样 URL（canonical_key 对 is 短链=原样，口径一致）。
+
+**验证**：①正则单测三形态（is/XXX/、isXXX/、is/XXX 无尾斜杠）全匹配；②端到端实跑产出落盘并抽检内容正确——00_inbox/wechat-collect/src_wechat_article_tt_af50baaada5fc2f2.md（7264B）+ 知识化产物 00_inbox/wechat-collect/knowledge/case-wechat-article_tt_af50baaada5fc2f2.md（注：00_inbox/ 按 dba6f5376 既定口径不入仓，此处为运行产物实证非入库交付物）；③回归 pytest kdo-tools/tests -k "wechat or link" 12 passed；④「失败不记 seen」设计未动（L477-478 原样保留，本次成功才记 seen 与既有语义一致）。
+
+**边界**：只改 L300 正则一行 + docstring 一行，未动视频管线/公众号分支/seen 语义；未跑完整 main()（避免连带处理其他链接扩 scope），手工复刻头条文章分支单链验证。监控下轮整点自动跑时该链已在 seen 不会重复采。
+
+**需要谁动作**：欧阳锋终审（diff 见 commit 1f89e2d86；实证文件路径如上）。
