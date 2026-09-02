@@ -251,7 +251,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 617 | `task_20260902_laowantong-614-downgraded-cards-rework` | #614降级5卡内容返工：伪引文改转述/换真实原句+ten-metrics按源重写核心指标表+占位节补齐（FAIL点逐条在#614裁定表） | reviewed | laowantong | 5卡修复diff+FAIL点销项对账表 | #615 reviewed ✅ | `60_feedback/tasks/task_20260902_laowantong-614-downgraded-cards-rework.md` | #614降级5卡（09-02王语嫣编排）；引号对源新门禁已WARNING档在跑；只修FAIL点不顺手改；欧阳锋终审 |
 | 618 | `task_20260902_huangyaoshi-kdo-tests-flake-governance` | KDO测试flake治理：test_cli_smoke断言对齐现行schema+test_dashboard_server顺序依赖解耦+全量回归原样输出 | reviewed | huangyaoshi | 两处修复diff+全量回归输出 | 无 | `60_feedback/tasks/task_20260902_huangyaoshi-kdo-tests-flake-governance.md` | 欧阳锋建议书（09-02王语嫣漏扫9h后补裁定，E052复盘）；提审数字原样纪律随单生效；欧阳锋终审 |
 | 619 | `task_20260902_huangyaoshi-watch-inbox-pipeline-dirs-fix` | watch_inbox扫描面回补管线落点子目录白名单（wechat-collect/video_transcripts/video_transcripts_small）——#605裁剪误伤，05:47四件静默漏登记实证 | reviewed | huangyaoshi | diff+实跑登记证据 | 无 | `60_feedback/tasks/task_20260902_huangyaoshi-watch-inbox-pipeline-dirs-fix.md` | 老朱09-02问采集链→王语嫣实测发现第二环断；Handle等大目录继续排除；欧阳锋终审 |
-| 620 | `task_20260902_huangyaoshi-instance-naming-role-only` | 实例命名铁律落地：拉起器/状态机实例名去工具后缀（{role}-kimi→{role}），过渡期兼容在途旧名 | pending_review | huangyaoshi | diff+回归实证 | #619 收口后（防在途单锁失配） | `60_feedback/tasks/task_20260902_huangyaoshi-instance-naming-role-only.md` | 老朱09-02直令铁律（工具可换名字不挂工具）；queue_transition兼容旧名尾缀；欧阳锋终审 |
+| 620 | `task_20260902_huangyaoshi-instance-naming-role-only` | 实例命名铁律落地：拉起器/状态机实例名去工具后缀（{role}-kimi→{role}），过渡期兼容在途旧名 | reviewed | huangyaoshi | diff+回归实证 | #619 收口后（防在途单锁失配） | `60_feedback/tasks/task_20260902_huangyaoshi-instance-naming-role-only.md` | 老朱09-02直令铁律（工具可换名字不挂工具）；queue_transition兼容旧名尾缀；欧阳锋终审 |
 | 621 | `task_20260902_huangyaoshi-toutiao-shortlink-regex-fix` | 头条短链is/XXX形态正则漏配致采集链断（老朱09-02 20:09链接卡死实证）——一行修复+端到端实跑验证 | reviewed | huangyaoshi | diff+该链接落inbox实证 | 无（急单插队：线上在流血） | `60_feedback/tasks/task_20260902_huangyaoshi-toutiao-shortlink-regex-fix.md` | 老朱09-02晚问链接→王语嫣实测定位；失败不记seen设计保留；欧阳锋终审 |
 | 622 | `task_20260902_huangyaoshi-graph-index-rebuild-sentinel` | graph_index归零重建（08-31事故清空，语义腿空转2天）+健康哨兵机制化（空/0records/陈旧48h告警） | reviewed | huangyaoshi | 重建记录+口语化查询前后对照+哨兵实证 | 无 | `60_feedback/tasks/task_20260902_huangyaoshi-graph-index-rebuild-sentinel.md` | 外部审计建议书（王语嫣09-02裁定，存在性核查过：0字节mtime落事故窗口）；重建挂后台低峰；哨兵复用既有探针面；欧阳锋终审 |
 | 623 | `task_20260902_huangyaoshi-daily-review-scheduler` | 四主力每日复盘计划任务化：schtasks kdo-daily-review 每日23:37 S4U 拉起三角色 headless 复盘（Truman格式+daily-context-save归档+错误库内化），空班豁免 | pending_review | huangyaoshi | 注册实证+首跑三份复盘落盘 | #622 后（同角色排队） | `60_feedback/tasks/task_20260902_huangyaoshi-daily-review-scheduler.md` | 老朱09-02直令（复盘定期任务化）；王语嫣自有收尾纪律不占此任务；复盘不许编造；欧阳锋终审 |
@@ -484,7 +484,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#622 task_20260902_huangyaoshi-graph-index-rebuild-sentinel｜huangyaoshi｜提审 09-03 00:19｜60_feedback/tasks/task_20260902_huangyaoshi-graph-index-rebuild-sentinel.md~~ → 已终审 PASS A-（2026-09-02 欧阳锋）
 - ~~#624 task_20260902_laowantong-candy-bonus-increment-cards｜laowantong｜提审 09-03 00:29｜60_feedback/tasks/task_20260902_laowantong-candy-bonus-increment-cards.md~~ → 已终审 PASS A-（2026-09-02 欧阳锋）
 - #625 task_20260902_huangyaoshi-gate-suite-batch2｜huangyaoshi｜提审 09-03 00:40｜60_feedback/tasks/task_20260902_huangyaoshi-gate-suite-batch2.md
-- #620 task_20260902_huangyaoshi-instance-naming-role-only｜huangyaoshi｜提审 09-03 00:46｜60_feedback/tasks/task_20260902_huangyaoshi-instance-naming-role-only.md
+- ~~#620 task_20260902_huangyaoshi-instance-naming-role-only｜huangyaoshi｜提审 09-03 00:46｜60_feedback/tasks/task_20260902_huangyaoshi-instance-naming-role-only.md~~ → 已终审 PASS A-（2026-09-02 欧阳锋）
 - #623 task_20260902_huangyaoshi-daily-review-scheduler｜huangyaoshi｜提审 09-03 01:00｜60_feedback/tasks/task_20260902_huangyaoshi-daily-review-scheduler.md
 
 <!-- REVIEW-PENDING-END -->
@@ -861,6 +861,9 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - [gate-blocked] task_20260902_huangyaoshi-gate-suite-batch2｜09-03 00:47｜待王语嫣复核处置｜2026-09-03 00:39:37｜task_20260902_huangyaoshi-gate-suite-batch2｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生 / - untracked: 90_control/large-file-gate.log / - untracke｜huangyaoshi-kimi
 - [gate-blocked] role-liveness｜09-03 00:47｜待王语嫣复核处置｜2026-09-03 00:44:57｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 1370.1), ('cli', 61.8), ('hermes', 1540.6)]）｜role_registry check-liveness｜role_registry
 - [gate-blocked] task_20260902_laowantong-candy-bonus-increment-cards｜09-03 00:47｜待王语嫣复核处置｜2026-09-03 00:46:03｜task_20260902_laowantong-candy-bonus-increment-cards｜F-035-负向判词｜意见书含负向断言（不存在）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋
+- diag_20260903_huangyaoshi-infra-inventory-6-assets-debt.md｜09-03 01:02｜待王语嫣复核裁定
+- diag_20260903_huangyaoshi-queue-archive-month-drift-test.md｜09-03 01:02｜待王语嫣复核裁定
+- diag_20260903_huangyaoshi-vault-backup-agent-worktree-collision.md｜09-03 01:02｜待王语嫣复核裁定
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |

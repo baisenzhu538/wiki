@@ -1,22 +1,25 @@
 ---
-id: task_20260902_huangyaoshi-instance-naming-role-only
-title: 实例命名铁律落地：拉起器/状态机实例名去工具后缀（{role}-kimi → {role}），兼容在途旧名
-seq: 620
-status: pending_review
-assignee: huangyaoshi
-created_by: wangyuyan
-created_at: 2026-09-02
-decision_source: 老朱 09-02 直令铁律：实例命名只有角色名没有工具名（工具可换，工具名进实例名=制造混乱）
-reviewer: 欧阳锋
-instance: huangyaoshi
-matrix_exempt: true
-# §3.19 矩阵豁免理由：#620 纯重构——实例锁匹配裸名口径/claim 门禁，无新信号、无通道、无门禁语义变更（#537 口径）
-code_files:
-  - 90_control/scripts/queue_transition.py
-  - 90_control/scripts/kimi-headless-launch.py
-  - 90_control/scripts/tests/test_queue_transition.py
-  - 90_control/scripts/tests/test_reviewer_flip_616.py
-updated_at: '2026-09-02T16:46:43.994130+00:00'
+id: task_20260902_huangyaoshi-instance-naming-role-only
+title: 实例命名铁律落地：拉起器/状态机实例名去工具后缀（{role}-kimi → {role}），兼容在途旧名
+seq: 620
+status: reviewed
+assignee: huangyaoshi
+created_by: wangyuyan
+created_at: 2026-09-02
+decision_source: 老朱 09-02 直令铁律：实例命名只有角色名没有工具名（工具可换，工具名进实例名=制造混乱）
+reviewer: 欧阳锋
+instance: huangyaoshi
+matrix_exempt: true
+# §3.19 矩阵豁免理由：#620 纯重构——实例锁匹配裸名口径/claim 门禁，无新信号、无通道、无门禁语义变更（#537 口径）
+code_files:
+  - 90_control/scripts/queue_transition.py
+  - 90_control/scripts/kimi-headless-launch.py
+  - 90_control/scripts/tests/test_queue_transition.py
+  - 90_control/scripts/tests/test_reviewer_flip_616.py
+updated_at: '2026-09-02T17:03:59.654615+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-09-02'
+grade: A-
 ---
 
 # #620 实例命名去工具后缀（黄药师）
@@ -70,3 +73,17 @@ updated_at: '2026-09-02T16:46:43.994130+00:00'
 ### ③ 负向判词 / ④ 存在性核查
 
 ✅ 执行报告无负向断言词（检查面=执行报告节）
+
+
+## 终审记录（2026-09-03 欧阳锋 · PASS A- · methodology v2.3）
+
+**Verdict**：PASS，等级 **A-**。
+
+- ✅ **入仓取证**：`git show 7e17f26be` 四件交付全入仓（kimi-headless-launch.py / queue_transition.py / test_queue_transition.py / test_reviewer_flip_616.py），HEAD 8124519b1 已含该 commit。
+- ✅ **代码核对**：launcher 通用纪律行 `--instance {role}-kimi` → `--instance {role}`（工具仍走 TOOLS 路由）；`_claimed_by_role()` = 裸名精确 + 同角色 `{role}-<tool>` 尾缀兼容；`_legacy_dash_ok()` 新名带 `-` 拒止（在册存量身份/INSTANCE_ROLE_MAP 历史键放行）；claim/complete/release 三处统一接入；`_check_review_authority()` 裸名口径同步（#616 翻转通道）。
+- ✅ **独立复跑**：`90_control/scripts/tests/` 全量 **238 passed**（含新增 7 用例：匹配矩阵/裸名拒止/在册旧名放行/force 留痕/裸名收口旧名 complete/异角色拒绝/裸名释放旧名）。
+- 🟡 **kdo-tools 2 失败=存量债务**（与本单无关，实跑复现）：`test_no_unregistered_core_assets`（6 资产未登记 infrastructure-inventory，黄药师已落建议书 diag_20260903_huangyaoshi-infra-inventory-6-assets-debt.md）+ `test_archive_only_old_reviewed`（月界漂移：夹具写死 2026-08，当前 09 月归档落到 2026-09）。
+- 🟡 **工作区噪声**：`90_control/scripts/kimi-headless-launch.py` 当前有未提交改动（09-03 TOOLS 路由表扩展 claude/codex/hermes + ROLE_TOOL），属他人施工中的工具路由登记，不属本单交付、不回退本单裸名改动。
+- 边界认可：过渡期旧名收口仅单测覆盖（真实队列旧名随在途身份自然消亡），符合红线「不改写历史」。
+
+**残余风险**：无阻塞项。
