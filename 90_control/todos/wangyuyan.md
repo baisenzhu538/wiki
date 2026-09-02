@@ -463,3 +463,4 @@
 - [2026-09-02 11:57] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-02 11:57:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cl
 - [2026-09-02 12:07] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-02 12:05:25｜task_20260902_laowantong-614-verdicts-apply｜F-034-
 - [2026-09-02 12:09] 🕐 值守拍：#615/#616 双完工提审→拉欧阳锋（#616 三修全落地：引号对源+区间抽验 WARNING 门禁+claim 抹字段根治+翻转通道）
+- [2026-09-02 12:12] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#615（laowantong 的单，挂审 7min）；#616（huangyaoshi 的单，挂审 4min）（到点（节奏 30min））

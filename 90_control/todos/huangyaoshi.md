@@ -390,3 +390,6 @@
 - [2026-09-02 11:12] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
 - [2026-09-02 11:27] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
 - [2026-09-02 11:42] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#614（ouyangfeng 的单，挂审 6min）（到点（节奏 15min））
+- [2026-09-02 11:57] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-02 12:08] ✅ #616 生产闸门三修 complete 提审：①pre-submit 引号逐字对源+refs区间抽验 WARNING 门禁（狗粮实证抓出 yt-product-kernel-validation 两处伪引文）②update_task_frontmatter 行级保字段（抹字段 bug 根治，本单 complete 全程实证）③reviewer 翻转通道（王语嫣限编排骨架单）；wiki仓+KDO仓双commit，回归 224+603 全绿
+- [2026-09-02 12:12] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#615（laowantong 的单，挂审 7min）；#616（huangyaoshi 的单，挂审 4min）（到点（节奏 15min））

@@ -174,3 +174,6 @@
 - [2026-09-02 11:12] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
 - [2026-09-02 11:27] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
 - [2026-09-02 11:42] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#614（ouyangfeng 的单，挂审 6min）（到点（节奏 15min））
+- [2026-09-02 11:57] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+[2026-09-02 12:05] #615 完成施工并提审（pending_review 等欧阳锋）：#614 裁定落笔——9张PASS卡 review_mark.py 补 reviewed_by:欧阳锋/review_date:2026-09-02 + grade（A-x4/B+x5 逐张对裁定表）+5张降级 enriched 加 downgrade_reason 指裁定表行+随修7项全落（卡3路径x2/卡5区间+OCR源/卡6-7区间实证边界/卡8猫粮区间+10.3KB/卡11五条signal补齐/卡13signals迁位）；yaml.safe_load 14/14 PASS；pre-submit 9 PASS+5 FAIL 全为存量正文结构问题（git diff 实证非本单引入）；交付物入仓 commit ce59db575+9fb759d16；五字段执行报告已落任务单；L9 双验证过（队列+frontmatter 均 pending_review）
+- [2026-09-02 12:12] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#615（laowantong 的单，挂审 7min）；#616（huangyaoshi 的单，挂审 4min）（到点（节奏 15min））

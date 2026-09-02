@@ -532,3 +532,5 @@
 2026-09-02 11:36:04｜task_20260902_ouyangfeng-unverified-reviewed-cards-batch-review｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
   - untracked: 60_feedback/diagnosis/prop_20260902_ouyangf｜ouyangfeng-kimi
 2026-09-02 11:42:00｜role-liveness｜fengqingyang 全实例疑似死亡（stale: [('kimi-cli', 1966.1)]）｜role_registry check-liveness｜role_registry
+2026-09-02 11:57:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 602.2), ('cli', 71.4), ('hermes', 772.7)]）｜role_registry check-liveness｜role_registry
+2026-09-02 12:05:25｜task_20260902_laowantong-614-verdicts-apply｜F-034-五字段｜--evidence 文件不可读: commit ce59db575 14卡落笔（9 PASS补reviewed_by/review_date/grade + 5降级enriched+downgrad｜laowantong-kimi

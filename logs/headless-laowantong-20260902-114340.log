@@ -1047,3 +1047,1026 @@ tags:
   That's the full session. Let me proceed. First batch of investigation commands.
 
 • Frontmatter 已摸清。现在核查随修项所需的三个事实：skill 实际路径、OCR 源文件名、迭代课引用区间。---
+---
+src_20260611_89407193-一堂-一堂五步法-产品内核-洗发水案例_paddle_ocr.md
+---
+yuanbao_cookie_extract.py
+然后他们现在已经给一万多家店啊，各种各样的这种川系的店啊开始供应料了啊，营收过亿了，这就是从零到亿的一个项目。
+
+感受一下就是这就是一个真实的项目棋盘的过程你说你说他做的这个前面认知不够吧，确认知也不够，但是他反应快，成长速度很快。
+
+中间做重了吧，的确重，但后面瘦身瘦的又快。
+
+当然有一些运气成分可能也就过去了，但是就这么一步一步起来了。
+
+一步步起来了。
+
+所以感受一下，这就是这就是产品内核。
+
+体会到这个感受了吗？
+
+来三个问题。
+
+第一个，产品内核重要吗？
+
+产品内核重要吗？
+
+就是如果一个人只喜欢做加法，或者疯狂的往里面做加法，如果没有这种最小内核，那核的意识会有什么差别吗？
+
+第二个，他迭代了几次啊，然后每一次这个他大概经过几轮他才跑通的。
+
+他到底是怎么跑通的？
+
+他这是第二个。
+
+第三个。
+
+他到底迭代了什么？
+
+他是因为什么迭代的？
+
+只是因为他想服务好客户吗？
+
+只是因为他想赚钱吗？
+
+还是他到底是什么驱动他完成的产品升级迭代的？
+
+想想，这例子是不是很有意思？
+
+这个例子很特别，因为你看上去开局是一个很多人不看好的方向，然后硬生生被他探出来了，探完之后还踩了刹车，还减下来了。
+
+真的挺厉害的。
+
+欢大家以后跟他交朋友吧，挺强的一个同学。
+
+来下一个同学，中征。
+
+这个例子其实我们内部聊是一个我觉得在【一堂】非常有代表性的例子。
+
+
+• Findings:
+  - No skill dir named serendipity anywhere. `.claude/skills/` doesn't exist? The `ls .claude/skills/` failed (exit 1 maybe from that). So card 3's Skill 挂载声明 is indeed false — the skill directory doesn't exist. 随修 fix: correct the declaration — but to what? If skill doesn't exist anywhere, the fix is to remove the false declaration or mark it as 未挂载. Let me read card 3 body to see the exact text.
+  - OCR source full name: `10_raw/sources/src_20260611_89407193-一堂-一堂五步法-产品内核-洗发水案例_paddle_ocr.md`.
+  - yuanbao_cookie_extract.py is in 40_outputs/code/scripts/ (confirmed), not kdo-tools.
+  - Chuanhe case （合发） ends around L688-695 ("来下一个同学，中征" at ~L695). So card 6's correct coverage: chuanhe case is L194-~695. The current second interval 700-1150 is the garage case → wrong. Correct second interval should be ~658-695 (continuation of chuanhe: 万店亿收 L650, 营收过亿， summary). The 裁定 hits: 万店亿收 L650 — inside first interval (194-657). The "结果汇报"品类扩展... L650 "一万多家店...营收过亿" is at line 650, inside 194-657. So actually all chuanhe content fits in 194-657? The case narrative continues to ~L695 （三个问题+总结）. So the second interval could be corrected to 658-696 or the first extended. Simplest faithful fix: change second interval from 700-1150 to 658-700 (the tail of chuanhe case before 中征 begins). Let me get exact boundary: find the line with "来下一个同学，中征".
+
+  For card 7: second interval 2069-2253 is 自习室段 wrong; all hits in 700-1150. What should second interval be? Does garage case extend beyond 1150? Check source around L1140-1200 to see where garage case ends. Hits include 4城3000位6000万 L1136-1142. If case ends ~1150, then just remove the second wrong interval. But F-KDO-015 says don't remove... but it's factually wrong. The 裁定 says "第二引用区间错位（L2069-2253 是自习室段）" — the 随修 is 引用区间， so correct or remove. If no garage content exists beyond 1150, the honest fix is to delete the wrong interval (it points to another case). Alternatively check if garage case has a tail beyond 1150.
+
+  Let me check the source: garage case （中征） spans from ~696 to where? Check around L1140-1160 and find next case start.
+
+  Also card 5: verify 排列组合 at L2916-2944.
+
+  Let me also read card bodies for 3 and 8.698:来下一个同学，中征。
+704:然后这个中征背景非常好，之前在头部的大公司做COO集团战略部，级别很高。
+706:之前本来是一个大公司里面做投资的，然后后面机缘巧合中征自己出来创业，然后这个是什么方向的，大家知道立体车库吗？
+---
+个当然还比较早期啊。
+
+现在大概6000万啊，然后今年据说的目标到两个亿啊，加油啊加油啊。
+
+刚开始啊希望未来有机会你们多跟他交朋友吧啊。
+
+如果有资源的话，多跟他合作吧。
+
+我觉得这个是一个真的是足够有长期想法愿景，利国利民的好事情啊。
+
+这个我觉得也许能真的给我们解决一些重要的停车的问题啊，然后难得的有一个愿意长期探索产品核心价值的团队，正儿正儿八经想做这个项目，我觉得还挺好挺好，所以这个我不展开啊。
+
+之前在落地案例的案例课上，他完整分享过他的例子。
+
+从最早孵化期做增长。
+
+他也站在商业的角度完整讲过，所以包括如果你们感兴趣，口令是啥？
+
+我选落地2我选落地2.
+
+你可以看一看他整个创业的过程怎么样。
+
+我今天讲的都是单元模型，就是产品内核的部分。
+
+不好意思，产品内核的部分，如果你们
+
+---
+1476:大概就这几种排列组合来回揉来揉去的，有的时候做加法，有的时候做简化，有的时候做细化，有的时候做强化，有的时候推翻重来，就不断慢慢就变成这样的。
+2924:一轮迭代他把所有的洗发水的要素分成了四个维度四个排列组合你的功效、你的成分、你的香味、你的背书，通过不断的排列组合来寻找到一个好的组合然后在他价格区间里面，他就不断在里面找怎么去强化。
+2932:当我可以不断的一轮一轮去强化我的这个排列组合的时候。
+47:- 40_outputs/code/scripts/yuanbao_cookie_extract.py
+105:| Cookie 重建 | `kdo-tools/yuanbao_cookie_extract.py` | CDP 提取元宝全量 Cookie（1 个月过期重建） |
+113:- **元宝 Cookie 约 1 个月过期**：过期后 `yuanbao_cookie_extract.py` 重建（Edge 调试端口 9222 + 用户扫码）
+126:## Skill 挂载
+===
+95:| **强化** | 增长期同质化怎么破？ | 把核心卖点不断打磨sharp，加深壁垒 | 🐱 猫粮 | 从"符合标准"→"检测报告"→"实拍溯源" | 1→10 |
+209:### 方向四：强化（强化）—— 🐱 猫粮
+221:**关键洞察**：强化本质是同一内核的"表达升级"——猫粮的"肉好、标准好"没变，变的是用户感知到的方式。
+318:- Truman 笔记：产品内核迭代课 11KB
+Card 6 boundary: 中征 starts at L698. Chuanhe case runs to ~L697. So card 6's second interval should be 658-697 (or extend first to 194-697). Cleaner: replace second ref `700-1150` → `658-697`.
+
+  Card 7: garage case from L698 to ~L1155 (the "不展开" wrap-up ends ~1155, "产品内核的部分" L1162). Hits go up to L1142. So card 7's correct coverage is 698-1165 or so. Current first ref 700-1150 — close. Second ref 2069-2253 （自习室段） is wrong → garage content doesn't extend there. Options: extend first to 698-1165 and delete second, or change second to 1151-1165. Hmm, minimal change: change second interval `2069-2253` → `1151-1165` (the case tail: 6000万 L1142, closing remarks through ~L1165). That keeps two intervals, both correct. Let me verify what's at 1143-1165: shown above — 6000万 at ~1142, then closing. L1162 "我今天讲的都是单元模型". So tail ends ~1165. Good: second interval → 1151-1165.
+
+  Card 6 second interval → 658-697 (tail: from L658 after first interval ends at 657, through "来下一个同学" L697). Actually first interval 194-657; what's at 657? Let me just use 658-697.
+
+  Card 5: 排列组合 at L2924/2932 — within L2916-2944 per 裁定. Fix: replace both wrong 迭代课 intervals (1304-1346, 3018-3400) with single `2916-2944`, and add OCR source `10_raw/sources/src_20260611_89407193-一堂-一堂五步法-产品内核-洗发水案例_paddle_ocr.md`.
+
+  Card 8: 猫粮 L2834-2856 hits, 裁定 says 猫粮案例行号 L2824-2900 未列入来源区间. But card 8's source_refs are md files without intervals. Hmm — "未列入来源区间" — where is 来源区间 recorded for card 8? grep showed no "来源区间" in the card. Line 318: "- Truman 笔记：产品内核迭代课 11KB". The 裁定 hits (L96-150 etc.) refer to 迭代课-Truman-口述.txt line numbers? But card 8 source_refs are src_20260606_4f5117e3 md and deeb4e26 笔记 md. Wait — maybe those md files are conversions of the same 口述. The 裁定 hit line numbers (L2834-2856 for 猫粮三段） — let me check if the md file has same line numbering. Actually the 迭代课-Truman-口述.txt at L2924 is shampoo; 猫粮 at L2834-2856. Let me check whether src_20260606_4f5117e3 md content matches 迭代课-口述.txt line numbering.
+
+  Actually the 随修 for card 8: "猫粮案例行号（L2824-2900）未列入来源区间、笔记标注 11KB 实测 10.3KB". Line 318 note "Truman 笔记：产品内核迭代课 11KB" → fix to 10.3KB. For 来源区间： perhaps card 8 body has a section listing 口述 source line intervals for each case. grep "来源区间" found nothing. Let me search card 8 body for source/区间/行号 mentions.
+
+  Card 3: line 105 component table has `kdo-tools/yuanbao_cookie_extract.py` → fix to `40_outputs/code/scripts/yuanbao_cookie_extract.py`. Line 126 "## Skill 挂载" — need to read that section.
+
+  Let me read relevant sections of cards 3 and 8.Card 8's 来源与验证 section (line 317): "Truman 口述稿：产品内核迭代课 L194-L657、L700-L1150、L1304-L1346、L2069-L2253、L3018-L3400" — 猫粮 at L2824-2900 missing from this interval list. 随修： add L2824-L2900 to the list, and fix "11KB" → "10.3KB" (line 318).
+
+  Card 3 fixes:
+  - Line 105: `kdo-tools/yuanbao_cookie_extract.py` → `40_outputs/code/scripts/yuanbao_cookie_extract.py`
+  - Line 126-129 Skill 挂载 section: `.claude/skills/wechat-serendipity-collect/` doesn't exist. Fix: state that the skill is not yet mounted. Replace line 128 with honest statement. Something like:
+  ```
+  - Claude Code Skill：未挂载（`.claude/skills/wechat-serendipity-collect/` 尚未创建，原声明失实，2026-09-02 #614 补审随修）；挂载前其他 agent 检索本卡即可获得完整能力链路
+  ```
+  And keep/remove line 129. Minimal edit: change line 128.
+
+  Wait — should I double check .claude/skills doesn't exist? Earlier `ls .claude/skills/` errored and find found no serendipity dir. Confirmed 声明失实.
+
+  Card 5 fixes (frontmatter source_refs):
+  ```
+  - 10_raw/sources/yitang-lectures/一堂-产品内核验证课-Truman-口述.txt:1026-1296
+  - 10_raw/sources/yitang-lectures/一堂-产品内核迭代课-Truman-口述.txt:1304-1346
+  - 10_raw/sources/yitang-lectures/一堂-产品内核迭代课-Truman-口述.txt:3018-3400
+  ```
+  →
+  ```
+  - 10_raw/sources/yitang-lectures/一堂-产品内核验证课-Truman-口述.txt:1026-1296
+  - 10_raw/sources/yitang-lectures/一堂-产品内核迭代课-Truman-口述.txt:2916-2944
+  - 10_raw/sources/src_20260611_89407193-一堂-一堂五步法-产品内核-洗发水案例_paddle_ocr.md
+  ```
+  Wait — F-KDO-015 says don't replace source_refs, only append. But 裁定 explicitly marks these intervals as 指错段落 and 落笔随修. The 裁定 overrides. Two wrong intervals → replaced by correct one 2916-2944. Both 1304-1346 and 3018-3400 are wrong ("两引用区间指错段落"). Should I keep one or merge? 裁定： "迭代课两引用区间指错段落（排列组合实际在 L2916-2944）" — the correct content is at 2916-2944. So both wrong refs → single correct ref. I'll replace the two with one correct + add OCR source.
+
+  Card 6 frontmatter:
+  ```
+  - ...迭代课-Truman-口述.txt:194-657
+  - ...迭代课-Truman-口述.txt:700-1150
+  ```
+  → second becomes `658-697`.
+
+  Card 7 frontmatter:
+  ```
+  - ...迭代课-Truman-口述.txt:700-1150
+  - ...迭代课-Truman-口述.txt:2069-2253
+  ```
+  → second becomes `1151-1165`. Hmm wait — is garage content really through 1165? Shown lines 1140-1165: wrap-up ends, "我今天讲的都是单元模型" at ~1162. Also 中征 case starts L698, first ref starts at 700 — fine, near enough. Second interval: 1151-1165. Good.
+
+  Card 11: diagnostic_signals — replace 5× `signal: src_unknown` with real signals. Derive from framework_lens:
+  1. signal: 做而不信——访谈了，但不相信负面结果
+  2. signal: 做而不信——验证了，但不尊重结果
+  3. signal: 做而不信——执行了流程，但不相信流程需要调整
+  4. signal: 做而不信——有数据，但不相信数据
+  5. signal: 做而不信——自我认知高于数据
+
+  Card 13: restructure — move 3 signal entries from tags to diagnostic_signals.
+
+  Card 13 current:
+  ```
+  diagnostic_signals:
+  tags:
+  - audience:executor
+  - scene:diagnosis
+  - signal: 成本敏感默认不——想加"高成本低信息"项
+    framework_lens: ...
+    follow_up_question: ...
+  - signal: ...
+  ...
+  ```
+  →
+  ```
+  diagnostic_signals:
+  - signal: 成本敏感默认不——想加"高成本低信息"项
+    framework_lens: ...
+    follow_up_question: ...
+  - signal: ...
+  - signal: ...
+  tags:
+  - audience:executor
+  - scene:diagnosis
+  ```
+
+  Now the PASS cards review_mark. Cards and grades:
+  - 卡2 decisions/high-density-composite-compilation-strategy.md: B+
+  - 卡3 tools/tool-kdo-wechat-serendipity-collect.md: A-
+  - 卡4 cases/case-qinpeng-iot-module-tiering.md: B+
+  - 卡5 cases/case-shampoo-product-kernel.md: A-
+  - 卡6 cases/case-yitang-chuanhe-seasoning-kernel.md: B+
+  - 卡7 cases/case-yitang-zhongzheng-parking-garage.md: B+
+  - 卡8 frameworks/yt-product-kernel-iteration.md: A-
+  - 卡11 dark-knowledges/yt-product-kernel-do-without-belief.md: A-
+  - 卡13 dark-knowledges/yt-product-kernel-cost-sensitive-default-no.md: B+
+
+  review_mark.py will set status: reviewed (no-op), reviewed_by: 欧阳锋， review_date: 2026-09-02 (today in CST). For cards 8/11/13 this overwrites self-filled review_date — intended （裁定： review_date=补审日）. Non-empty no-overwrite: reviewed_by values are pending/待审 (placeholder, not real) → overwrite OK. review_date on 8/11/13 non-empty but bogus → overwrite per 裁定. Document in report.
+
+  Concern: review_mark.py writes with text mode → on Windows converts \n to \r\n. The files appear to have mixed/CRLF already. Acceptable — it's the sanctioned tool.
+
+  Then add grade via Edit after script run. Note: script rewrites frontmatter block; my Edit old_strings must be taken from fresh reads after script run.
+
+  Plan execution order:
+  1. Dry-run review_mark on 9 cards.
+  2. Real run on 9 cards.
+  3. Edits: grade×9, downgrades×5, 随修 (cards 3,5,6,7,8,11,13).
+  4. yaml.safe_load check on all 14.
+  5. pre-submit? #613 ran pre-submit on modified cards. Run kdo pre-submit -f on 14 cards. Hmm, kdo CLI — `kdo pre-submit -f <file>`. Try one first.
+  6. git status, commit.
+  7. Execution report into task file.
+  8. complete + verify.
+  9. todos line + closing disciplines （技能进化日志， friction-log, Truman 11章， daily-context-save).
+
+  Let me set up TodoList, then start. Actually the task is substantial; keep a todo list.
+
+• 事实核查完毕，边界清楚。建立施工清单并开干。
+
+[DRY RUN] 30_wiki/decisions/high-density-composite-compilation-strategy.md:
+  status: reviewed
+  reviewed_by: ŷ����
+  review_date: 2026-09-02
+[DRY RUN] 30_wiki/tools/tool-kdo-wechat-serendipity-collect.md:
+  status: reviewed
+  reviewed_by: ŷ����
+  review_date: 2026-09-02
+[DRY RUN] 30_wiki/cases/case-qinpeng-iot-module-tiering.md:
+  status: reviewed
+  reviewed_by: ŷ����
+  review_date: 2026-09-02
+[DRY RUN] 30_wiki/cases/case-shampoo-product-kernel.md:
+  status: reviewed
+  reviewed_by: ŷ����
+  review_date: 2026-09-02
+[DRY RUN] 30_wiki/cases/case-yitang-chuanhe-seasoning-kernel.md:
+  status: reviewed
+  reviewed_by: ŷ����
+  review_date: 2026-09-02
+[DRY RUN] 30_wiki/cases/case-yitang-zhongzheng-parking-garage.md:
+  status: reviewed
+  reviewed_by: ŷ����
+  review_date: 2026-09-02
+[DRY RUN] 30_wiki/frameworks/yt-product-kernel-iteration.md:
+  status: reviewed
+  reviewed_by: ŷ����
+  review_date: 2026-09-02
+[DRY RUN] 30_wiki/dark-knowledges/yt-product-kernel-do-without-belief.md:
+  status: reviewed
+  reviewed_by: ŷ����
+  review_date: 2026-09-02
+[DRY RUN] 30_wiki/dark-knowledges/yt-product-kernel-cost-sensitive-default-no.md:
+  status: reviewed
+  reviewed_by: ŷ����
+  review_date: 2026-09-02
+• ⚠️ The dry-run shows `reviewed_by: ŷ` — the Chinese chars 欧阳锋 got mangled by console encoding (GBK console). The output display is mangled, but the question is whether the *written file* gets proper UTF-8. argparse receives the argument from the command line — on Windows, Python decodes argv using the console codepage... Actually Python 3 on Windows uses Unicode argv properly (via GetCommandLineW). The mangling is likely just the console display (GBK stdout). The value in the file should be written as UTF-8 via write_text(encoding="utf-8"). But the display shows ŷ????? — that's stdout encoding issue only. Let me verify with one real run then grep the file. Test on one card first.OK 30_wiki/dark-knowledges/yt-product-kernel-cost-sensitive-default-no.md
+  status: reviewed
+  reviewed_by: ŷ����
+  review_date: 2026-09-02
+8:status: reviewed
+29:reviewed_by: 欧阳锋
+30:review_date: 2026-09-02
+File written correctly （欧阳锋 in UTF-8); only console echo mangled. Run remaining 8.OK 30_wiki/decisions/high-density-composite-compilation-strategy.md
+OK 30_wiki/tools/tool-kdo-wechat-serendipity-collect.md
+OK 30_wiki/cases/case-qinpeng-iot-module-tiering.md
+OK 30_wiki/cases/case-shampoo-product-kernel.md
+OK 30_wiki/cases/case-yitang-chuanhe-seasoning-kernel.md
+OK 30_wiki/cases/case-yitang-zhongzheng-parking-garage.md
+OK 30_wiki/frameworks/yt-product-kernel-iteration.md
+OK 30_wiki/dark-knowledges/yt-product-kernel-do-without-belief.md
+9 张 review_mark 完成。现在补 grade 字段。需要在每卡 review_date 行后加 `grade: <值>`。注意 review_mark 重写过 frontmatter，先确认各卡 review_date 行的当前形态（有的带引号）。统一在 review_date 行后插入。用 Edit 逐卡——但规则说同一 response 里多个 Edit 不能同一文件；不同文件可以并行。
+
+  Grades:
+  - 卡2 high-density: B+
+  - 卡3 wechat-serendipity: A-
+  - 卡4 qinpeng: B+
+  - 卡5 shampoo: A-
+  - 卡6 chuanhe: B+
+  - 卡7 parking-garage: B+
+  - 卡8 iteration: A-
+  - 卡11 do-without-belief: A-
+  - 卡13 cost-sensitive: B+
+
+  review_mark 输出对已有 review_date 行替换为 `review_date: 2026-09-02`（无引号）。先 grep 确认每卡 review_date 行。其实脚本逻辑：遇到 `review_date:` 前缀就替换为 `review_date: 2026-09-02`。没有的卡追加在末尾。让我 grep 一下各卡的 review_date 行位置再 Edit。直接一次性 grep 9 卡。=== 30_wiki/decisions/high-density-composite-compilation-strategy.md
+13:reviewed_by: 欧阳锋
+32:review_date: 2026-09-02
+=== 30_wiki/tools/tool-kdo-wechat-serendipity-collect.md
+41:reviewed_by: 欧阳锋
+71:review_date: 2026-09-02
+=== 30_wiki/cases/case-qinpeng-iot-module-tiering.md
+28:reviewed_by: 欧阳锋
+56:review_date: 2026-09-02
+=== 30_wiki/cases/case-shampoo-product-kernel.md
+29:reviewed_by: 欧阳锋
+61:review_date: 2026-09-02
+=== 30_wiki/cases/case-yitang-chuanhe-seasoning-kernel.md
+28:reviewed_by: 欧阳锋
+54:review_date: 2026-09-02
+=== 30_wiki/cases/case-yitang-zhongzheng-parking-garage.md
+28:reviewed_by: 欧阳锋
+57:review_date: 2026-09-02
+=== 30_wiki/frameworks/yt-product-kernel-iteration.md
+29:reviewed_by: 欧阳锋
+30:review_date: 2026-09-02
+=== 30_wiki/dark-knowledges/yt-product-kernel-do-without-belief.md
+25:reviewed_by: 欧阳锋
+26:review_date: 2026-09-02
+=== 30_wiki/dark-knowledges/yt-product-kernel-cost-sensitive-default-no.md
+29:reviewed_by: 欧阳锋
+30:review_date: 2026-09-02
+All 9 卡 have `review_date: 2026-09-02` line, no grade yet. Add `grade: <值>` after review_date line in each. These files were written by review_mark.py — the script wrote with text mode; line endings may have changed to \n as stored... Actually write_text in text mode on Windows: Python translates \n to \r\n on write. But read_text universal newlines read them as \n. The Edit tool needs old_string from Read view. But I can anchor on `review_date: 2026-09-02` line — unique per file. For card 13, I already know the line. But to be safe with exact context (need uniqueness — "review_date: 2026-09-02" appears once per file), I can Edit each with old_string "review_date: 2026-09-02" → "review_date: 2026-09-02\ngrade: B+" etc.
+
+  But wait: Edit requires reading file first per its rules ("Read the target file before every Edit"). I've read cards 3, 8, 13 fully earlier but they were since modified by review_mark. The read-before-edit rule: I have grep'd the current state. Risk of CRLF issues: if file now has CRLF, Read shows LF and Edit handles conversion (tool says pure CRLF files: use LF, Edit writes CRLF back). Mixed endings are shown as \r. Since script rewrote whole file, likely now uniform. Let me just Edit with minimal unique anchor. For each of 9 files, one Edit. Parallel allowed across different files.
+
+  Grades mapping:
+  - high-density: B+
+  - wechat-serendipity: A-
+  - qinpeng: B+
+  - shampoo: A-
+  - chuanhe: B+
+  - parking-garage: B+
+  - iteration: A-
+  - do-without-belief: A-
+  - cost-sensitive: B+
+
+  For uniqueness of "review_date: 2026-09-02" — yes unique in each file.
+
+  But careful: mixed line endings may make old_string matching fail. The Edit tool handles pure CRLF via LF matching. If mixed, shows \r explicitly. Let me just try; failures will tell.
+
+• 逐卡在 review_date 后补 grade 字段（9 张并行）。
+
+• Edit tool requires Read after modification. I need to Read each file first. Since these edits are all frontmatter-only, I can Read just enough lines. But Edit needs the file read in this session — a partial read should suffice. Let me read the frontmatter region of all 9 files in parallel (limit ~75 lines).
+
+• 需要先 Read 再 Edit。并行读 9 张卡的 frontmatter 区。
+
+• Now Edit all 9 to add grade after review_date. Each file's `review_date: 2026-09-02` is unique within the file. Do 9 parallel Edits.
+
+• 补 grade 字段（9 张并行）。
+
+• Grade done for 9. Now the 5 downgrade cards. I read their frontmatter earlier via grep/awk — but Edit requires Read tool. I haven't Read the 5 downgrade cards with the Read tool (I read via Bash awk). Actually I did read them via Bash earlier, but Edit tool tracks Read tool usage. So I must Read them first.
+
+  Downgrade edits (frontmatter only):
+  1. dk-p15-unverified: `status: reviewed` → `status: enriched`; add downgrade_reason.
+  2. yt-product-kernel-validation: same.
+  3. yt-product-kernel-ten-metrics: same.
+  4. concept-一堂-business-prediction: same.
+  5. yt-product-kernel-overpromise-trap: same.
+
+  downgrade_reason values (pointing to #614 裁定表行）:
+  - 卡1: `downgrade_reason: "#614 裁定表卡1（2026-09-02 欧阳锋补审）：六段模板四段+关联节全 src_unknown 占位，格式合规但内容空洞，reviewed 不成立；按 .agent/pitfalls.md P-15 原始条目重写六段后重审"`
+  - 卡9: `downgrade_reason: "#614 裁定表卡9（2026-09-02 欧阳锋补审）：两处加引号「Truman 原话」对源零命中（伪逐字引文）；FAIL 点=替换为真实原句或改转述，修后重审"`
+  - 卡10: `downgrade_reason: "#614 裁定表卡10（2026-09-02 欧阳锋补审）：十大指标与三个源文件清单仅 1/10 重合（外部通用增长指标移植）+下半部 4 节占位；FAIL 点=按源重写核心指标表+补齐占位节，修后重审"`
+  - 卡12: `downgrade_reason: "#614 裁定表卡12（2026-09-02 欧阳锋补审）：source_refs 两文件名死链（真实源=机会预判课）+⑦ToB 矩阵引言虚构+④与源不符；FAIL 点=修文件名+删换⑦+修正④，修后重审"`
+  - 卡14: `downgrade_reason: "#614 裁定表卡14（2026-09-02 欧阳锋补审）：核心引文块系改写拼贴包装成 Truman 口述+「月入过万」无源；FAIL 点=引文块改转述或换真实原句+删「月入过万」，修后重审"`
+
+  Note YAML: values contain ：and（）— fine unquoted mostly, but safer to quote. Since they contain double quotes 「」are fine; but my strings contain no ASCII double quotes... wait they contain 「」 corner brackets, fine. Use double-quoted YAML strings.
+
+  Read the 5 cards' frontmatter first (need Read tool). Read ~35 lines each in parallel.
+
+• 9 张 grade 落完。现在处理 5 张降级卡——先 Read。
+
+• 5 降级卡 done. Now 随修项：
+
+  卡3 (tool-kdo-wechat-serendipity-collect): two edits — line 105 path fix and Skill 挂载 section fix. Same file → cannot do consecutive edits without re-reading? Rule: "DO NOT issue consecutive Edit calls on the same file... Read the file again before the next Edit." Two edits in the same response to same file are disallowed ("Multiple Edit calls may run in one response only when they do not target the same file"). So do them sequentially across responses. Alternatively combine both into one Edit? They're in different parts of the file — can't combine in one old_string unless I include everything between (large). Just do two sequential edits.
+
+  卡3 edit 1: line 105 `| Cookie 重建 | `kdo-tools/yuanbao_cookie_extract.py` | ...` → `40_outputs/code/scripts/yuanbao_cookie_extract.py`.
+
+  Also note: frontmatter source_refs line 45 `kdo-tools/wechat_link_monitor.py` — 裁定 says related 8/8 无死链 and source_refs 5/5 存在， so kdo-tools/wechat_link_monitor.py exists? 裁定 said source_refs 5/5 存在 — yes all 5 exist. Only the 组件表 path (line 105) is wrong. OK.
+
+  卡3 edit 2: line 128 Skill 挂载声明：
+  `- Claude Code Skill：`.claude/skills/wechat-serendipity-collect/`（触发词：...）`
+  → correct to honest statement. The skill dir doesn't exist anywhere. Fix wording: "未挂载（原声明 `.claude/skills/wechat-serendipity-collect/` 实测不存在，2026-09-02 #614 补审随修）；触发词预留：偶遇采集/视频号转知识库/手机转发视频/视频号逐字稿/自动入库/今日头条/toutiao"
+
+  卡5: frontmatter source_refs lines 23-25. Replace two 迭代课 intervals with one correct + add OCR ref:
+  ```
+  - 10_raw/sources/yitang-lectures/一堂-产品内核验证课-Truman-口述.txt:1026-1296
+  - 10_raw/sources/yitang-lectures/一堂-产品内核迭代课-Truman-口述.txt:1304-1346
+  - 10_raw/sources/yitang-lectures/一堂-产品内核迭代课-Truman-口述.txt:3018-3400
+  ```
+  →
+  ```
+  - 10_raw/sources/yitang-lectures/一堂-产品内核验证课-Truman-口述.txt:1026-1296
+  - 10_raw/sources/yitang-lectures/一堂-产品内核迭代课-Truman-口述.txt:2916-2944
+  - 10_raw/sources/src_20260611_89407193-一堂-一堂五步法-产品内核-洗发水案例_paddle_ocr.md
+  ```
+  I read card 5's frontmatter via Read tool above (lines 1-70) — that was after review_mark ran. Good, current state known.
+
+  卡6: `- 10_raw/sources/yitang-lectures/一堂-产品内核迭代课-Truman-口述.txt:700-1150` → `:658-697`. Unique in that file.
+
+  卡7: `:2069-2253` → `:1151-1165`.
+
+  卡8: body line 317-318:
+  `- Truman 口述稿：产品内核迭代课 L194-L657、L700-L1150、L1304-L1346、L2069-L2253、L3018-L3400` → add L2824-L2900 （猫粮）. New: `L194-L657、L700-L1150、L1304-L1346、L2069-L2253、L2824-L2900、L3018-L3400`
+  `- Truman 笔记：产品内核迭代课 11KB` → `10.3KB`
+  Two edits same file — sequential. Or one edit covering both lines since they're adjacent:
+  ```
+  - Truman 口述稿：产品内核迭代课 L194-L657、L700-L1150、L1304-L1346、L2069-L2253、L3018-L3400
+  - Truman 笔记：产品内核迭代课 11KB
+  ```
+  → combined replacement. 
+
+  But wait — I read card 8 lines 1-40 only; the 来源与验证 section is at line ~317. I read the full file earlier (before review_mark modification) — the earlier full Read showed lines 315-319. After review_mark the frontmatter changed but body unchanged. The Read tool freshness: I read it fully before, then read first 40 lines after modification. Edit needs a read after last modification — I did read (first 40 lines) after review_mark. Should be OK. The old_string for body content unchanged.
+
+  Note: card 8 body line numbers might have shifted because review_mark rewrote frontmatter? Frontmatter content: original had review_date '2026-06-19' at line 30; script replaced in place (same line count), then I added grade line (+1 line). Body shifts by 1. Content unchanged though; Edit matches content not line numbers. Fine.
+
+  卡11: diagnostic_signals 5 条 signal: src_unknown → real signals. The block (from earlier full frontmatter dump):
+  ```
+  diagnostic_signals:
+  - signal: src_unknown
+    framework_lens: 做而不信——访谈了，但不相信负面结果
+    follow_up_question: 访谈中有没有和预设相反的发现？如果有，你是调整了预设还是忽视了？
+  - signal: src_unknown
+    framework_lens: 做而不信——验证了，但不尊重结果
+    ...
+  ```
+  Fix: replace each `- signal: src_unknown\n  framework_lens: 做而不信——X` with `- signal: 做而不信——X\n  framework_lens: 做而不信——X`? Redundant. Better: signal = the trigger scenario. Actually maybe simpler: remove the `signal: src_unknown` line entirely? 裁定 says "frontmatter diagnostic_signals 5 条 signal: src_unknown 待补" — 待补 = to be filled. Fill with real signal text. I'll set signal equal to a short trigger phrase. E.g.:
+  - signal: 访谈结果与预设相反时被忽视
+  Hmm, but framework_lens already says "做而不信——访谈了，但不相信负面结果". Simplest honest fix: signal duplicates the lens minus prefix? Look at card 3's diagnostic_signals for pattern: signal: 用户问"..." / lens: ... / follow_up:. For dk cards like card 13: signal: 成本敏感默认不——想加"高成本低信息"项 / framework_lens: ... / follow_up_question: ....
+
+  So for card 11, signals:
+  1. signal: 做而不信——访谈了，但不相信负面结果 (same as lens? no, lens has that text already)
+
+  Alternative: make signal the user-facing trigger:
+  1. signal: 访谈出现与预设相反的发现
+  2. signal: 验证结果不支持内核假设
+  3. signal: 流程执行了但结果不好
+  4. signal: 数据与直觉冲突
+  5. signal: 数据与对用户的认知不一致
+
+  These derive directly from follow_up_questions. Good — real signals, not placeholders.
+
+  Edit: 5 occurrences of "- signal: src_unknown" each followed by different framework_lens lines, so I can do one big Edit of the whole diagnostic_signals block. The block is contiguous. One Edit replacing the whole block.
+
+  卡13: restructure block:
+  ```
+  diagnostic_signals:
+  tags:
+  - audience:executor
+  - scene:diagnosis
+  - signal: 成本敏感默认不——想加"高成本低信息"项
+    framework_lens: 这个价值项的成本高吗？对转化率的影响你确定吗？
+    follow_up_question: 如果加上去之后收入几乎不动、服务成本直接乘2-3倍，你还加吗？
+  - signal: 成本敏感默认不——正在纠结要不要加服务承诺
+    framework_lens: 这个服务承诺一旦加上，能撤回来吗？用户会投诉吗？
+    follow_up_question: 你上一次加了一个服务承诺后撤回来是什么时候？还是第一次加？
+  - signal: 成本敏感默认不——竞品都在做，我们不做会不会死
+    framework_lens: 竞品做了 ≠ 竞品赚钱。竞品可能也在被这个高成本项拖死。
+    follow_up_question: 你有竞品加了这些服务后的利润率数据吗？还是只是在恐慌？
+  ```
+  →
+  ```
+  diagnostic_signals:
+  - signal: 成本敏感默认不——想加"高成本低信息"项
+    framework_lens: 这个价值项的成本高吗？对转化率的影响你确定吗？
+    follow_up_question: 如果加上去之后收入几乎不动、服务成本直接乘2-3倍，你还加吗？
+  - signal: 成本敏感默认不——正在纠结要不要加服务承诺
+    framework_lens: 这个服务承诺一旦加上，能撤回来吗？用户会投诉吗？
+    follow_up_question: 你上一次加了一个服务承诺后撤回来是什么时候？还是第一次加？
+  - signal: 成本敏感默认不——竞品都在做，我们不做会不会死
+    framework_lens: 竞品做了 ≠ 竞品赚钱。竞品可能也在被这个高成本项拖死。
+    follow_up_question: 你有竞品加了这些服务后的利润率数据吗？还是只是在恐慌？
+  tags:
+  - audience:executor
+  - scene:diagnosis
+  ```
+
+  But I only read card 13 lines 1-40 after modification. The tags block is beyond line 40 (was lines ~41-55 in original). I need to Read the rest of card 13's frontmatter (lines 40-60). Also card 11's diagnostic_signals block — I read lines 1-35 only; block is at ~lines 40-60 post-edit. Need to Read those.
+
+  Also note card 13's tags block content from the earlier awk dump — accurate, but Edit requires Read tool coverage? The rule is file must have been read (any part?). I did Read card 13 (40 lines). It might complain the specific region... no, Edit just requires the file was read since last external modification. My grade Edit modified it after the Read! So I need to Read again. Same for card 11 (grade Edit after Read), card 8 (grade Edit after Read).
+
+  So sequence:
+  1. Edit card 3 (path fix) — card 3 was Read (80 lines incl line 105? No! I read only 80 lines; line 105 beyond). But earlier I read the full card 3 (129 lines) BEFORE review_mark; after review_mark I read 80 lines. Line 105 is beyond. Edit tool just needs a post-modification read — I have one. But old_string content for line 105: from the pre-modification full read. Frontmatter rewrite doesn't change body text. But line 105 contains backticks etc. OK.
+
+  Actually wait — will Edit complain "old_string not found" if content changed? Body unchanged. Fine.
+
+  Let me do this efficiently:
+
+  Round A (parallel, different files):
+  - Card 3 edit 1: path fix line 105.
+  - Card 5: source_refs fix.
+  - Card 6: interval fix.
+  - Card 7: interval fix.
+  - Card 8: combined 来源与验证 fix (two lines adjacent).
+
+  Round B:
+  - Card 3 edit 2: Skill 挂载 fix (needs re-read? After round A edit, file modified by me — Edit tool tracks my own edits; usually subsequent Edit after my own successful Edit is allowed without re-read? The error earlier was "modified on disk since last read" for external modification. My own edits update the tool's known state. But the rule says don't issue consecutive Edits on same file without re-reading because old_string may be invalidated. Different regions — safe. I'll still be careful.
+  - Read card 11 lines 35-65 and card 13 lines 40-60.
+  Then Round C: card 11 + card 13 edits.
+
+  Let me do Round A now.
+
+• 5 张降级落完。现在做随修项第一批（卡 3/5/6/7/8，各卡独立）。
+
+• Now: card 3 Skill 挂载 fix, and read card 11/13 diagnostic_signals regions.
+
+• 继续随修：卡 3 Skill 挂载声明修正，并读卡 11/13 的 diagnostic_signals 区。
+
+• All 随修 done. Now E017: yaml.safe_load re-parse all 14 cards + verify key field values programmatically.Traceback (most recent call last):
+  File "<stdin>", line 41, in <module>
+UnicodeEncodeError: 'gbk' codec can't encode character '\u2705' in position 0: illegal multibyte sequence
+GBK console can't print ✅. Set PYTHONIOENCODING=utf-8 or replace emoji with text. Rerun with PYTHONIOENCODING=utf-8.[OK] 卡1 dk-p15-unverified status=enriched grade=None
+[OK] 卡2 high-density-composite-compilation-strategy status=reviewed grade=B+
+[OK] 卡3 tool-kdo-wechat-serendipity-collect status=reviewed grade=A-
+[OK] 卡4 case-qinpeng-iot-module-tiering status=reviewed grade=B+
+[OK] 卡5 case-shampoo-product-kernel status=reviewed grade=A-
+[OK] 卡6 case-yitang-chuanhe-seasoning-kernel status=reviewed grade=B+
+[OK] 卡7 case-yitang-zhongzheng-parking-garage status=reviewed grade=B+
+[OK] 卡8 yt-product-kernel-iteration status=reviewed grade=A-
+[OK] 卡9 yt-product-kernel-validation status=enriched grade=None
+[OK] 卡10 yt-product-kernel-ten-metrics status=enriched grade=None
+[OK] 卡11 yt-product-kernel-do-without-belief status=reviewed grade=A-
+[OK] 卡12 concept-一堂-business-prediction status=enriched grade=None
+[OK] 卡13 yt-product-kernel-cost-sensitive-default-no status=reviewed grade=B+
+[OK] 卡14 yt-product-kernel-overpromise-trap status=enriched grade=None
+
+14/14 PASS
+14/14 yaml.safe_load PASS. Also verify 随修 spot checks: card 5 refs, card 6/7 intervals, card 3 paths. Quick grep verification. Then pre-submit on the 14 files. Then git status + commit.24:- 10_raw/sources/yitang-lectures/一堂-产品内核迭代课-Truman-口述.txt:2916-2944
+25:- 10_raw/sources/src_20260611_89407193-一堂-一堂五步法-产品内核-洗发水案例_paddle_ocr.md
+24:- 10_raw/sources/yitang-lectures/一堂-产品内核迭代课-Truman-口述.txt:658-697
+24:- 10_raw/sources/yitang-lectures/一堂-产品内核迭代课-Truman-口述.txt:1151-1165
+47:- 40_outputs/code/scripts/yuanbao_cookie_extract.py
+106:| Cookie 重建 | `40_outputs/code/scripts/yuanbao_cookie_extract.py` | CDP 提取元宝全量 Cookie（1 个月过期重建） |
+114:- **元宝 Cookie 约 1 个月过期**：过期后 `yuanbao_cookie_extract.py` 重建（Edge 调试端口 9222 + 用户扫码）
+129:- Claude Code Skill：未挂载——原声明 `.claude/skills/wechat-serendipity-collect/` 实测不存在（声明失实，2026-09-02 #614 补审随修）；触发词预留：偶遇采集/视频号转知识库/手机转发视频/视频号逐字稿/自动入库/今日头条/toutiao
+317:- Truman 口述稿：产品内核迭代课 L194-L657、L700-L1150、L1304-L1346、L2069-L2253、L2824-L2900（猫粮）、L3018-L3400
+318:- Truman 笔记：产品内核迭代课 10.3KB
+All 随修 verified. Now pre-submit on the 14 cards. Check if `kdo` CLI available. Previous tasks used `kdo pre-submit -f <file>`. Try it.
+
+• 随修全部落位。跑 pre-submit 门禁（14 卡）。=== 30_wiki/dark-knowledges/dk-p15-unverified.md
+  🔴 Result: FAIL — 1 个错误要修（#220 P1-5 讲香）
+     路径感：从上往下修——先修 YAML 结构错误（阻断后续检查），再修内容错误
+     修完重跑本命令，看到 ✅ PASS 再提交，省欧阳锋一轮往返
+====================================================================
+
+=== 30_wiki/decisions/high-density-composite-compilation-strategy.md
+  🔴 Result: FAIL — 1 个错误要修（#220 P1-5 讲香）
+     路径感：从上往下修——先修 YAML 结构错误（阻断后续检查），再修内容错误
+     修完重跑本命令，看到 ✅ PASS 再提交，省欧阳锋一轮往返
+====================================================================
+
+=== 30_wiki/tools/tool-kdo-wechat-serendipity-collect.md
+  🔴 Result: FAIL — 1 个错误要修（#220 P1-5 讲香）
+     路径感：从上往下修——先修 YAML 结构错误（阻断后续检查），再修内容错误
+     修完重跑本命令，看到 ✅ PASS 再提交，省欧阳锋一轮往返
+====================================================================
+
+=== 30_wiki/cases/case-qinpeng-iot-module-tiering.md
+  🔴 Result: FAIL — 2 个错误要修（#220 P1-5 讲香）
+     路径感：从上往下修——先修 YAML 结构错误（阻断后续检查），再修内容错误
+     修完重跑本命令，看到 ✅ PASS 再提交，省欧阳锋一轮往返
+====================================================================
+
+=== 30_wiki/cases/case-shampoo-product-kernel.md
+  🔴 Result: FAIL — 1 个错误要修（#220 P1-5 讲香）
+     路径感：从上往下修——先修 YAML 结构错误（阻断后续检查），再修内容错误
+     修完重跑本命令，看到 ✅ PASS 再提交，省欧阳锋一轮往返
+====================================================================
+
+=== 30_wiki/cases/case-yitang-chuanhe-seasoning-kernel.md
+  🔴 Result: FAIL — 2 个错误要修（#220 P1-5 讲香）
+     路径感：从上往下修——先修 YAML 结构错误（阻断后续检查），再修内容错误
+     修完重跑本命令，看到 ✅ PASS 再提交，省欧阳锋一轮往返
+====================================================================
+
+=== 30_wiki/cases/case-yitang-zhongzheng-parking-garage.md
+  🔴 Result: FAIL — 2 个错误要修（#220 P1-5 讲香）
+     路径感：从上往下修——先修 YAML 结构错误（阻断后续检查），再修内容错误
+     修完重跑本命令，看到 ✅ PASS 再提交，省欧阳锋一轮往返
+====================================================================
+
+=== 30_wiki/frameworks/yt-product-kernel-iteration.md
+  🔴 Result: FAIL — 1 个错误要修（#220 P1-5 讲香）
+     路径感：从上往下修——先修 YAML 结构错误（阻断后续检查），再修内容错误
+     修完重跑本命令，看到 ✅ PASS 再提交，省欧阳锋一轮往返
+====================================================================
+
+=== 30_wiki/frameworks/yt-product-kernel-validation.md
+  🔴 Result: FAIL — 1 个错误要修（#220 P1-5 讲香）
+     路径感：从上往下修——先修 YAML 结构错误（阻断后续检查），再修内容错误
+     修完重跑本命令，看到 ✅ PASS 再提交，省欧阳锋一轮往返
+====================================================================
+
+=== 30_wiki/tools/yt-product-kernel-ten-metrics.md
+  🔴 Result: FAIL — 1 个错误要修（#220 P1-5 讲香）
+     路径感：从上往下修——先修 YAML 结构错误（阻断后续检查），再修内容错误
+     修完重跑本命令，看到 ✅ PASS 再提交，省欧阳锋一轮往返
+====================================================================
+
+=== 30_wiki/dark-knowledges/yt-product-kernel-do-without-belief.md
+  🔴 Result: FAIL — 1 个错误要修（#220 P1-5 讲香）
+     路径感：从上往下修——先修 YAML 结构错误（阻断后续检查），再修内容错误
+     修完重跑本命令，看到 ✅ PASS 再提交，省欧阳锋一轮往返
+====================================================================
+
+=== 30_wiki/concepts/concept-一堂-business-prediction.md
+  🔴 Result: FAIL — 1 个错误要修（#220 P1-5 讲香）
+     路径感：从上往下修——先修 YAML 结构错误（阻断后续检查），再修内容错误
+     修完重跑本命令，看到 ✅ PASS 再提交，省欧阳锋一轮往返
+====================================================================
+
+=== 30_wiki/dark-knowledges/yt-product-kernel-cost-sensitive-default-no.md
+  🔴 Result: FAIL — 3 个错误要修（#220 P1-5 讲香）
+     路径感：从上往下修——先修 YAML 结构错误（阻断后续检查），再修内容错误
+     修完重跑本命令，看到 ✅ PASS 再提交，省欧阳锋一轮往返
+====================================================================
+
+=== 30_wiki/dark-knowledges/yt-product-kernel-overpromise-trap.md
+  🔴 Result: FAIL — 2 个错误要修（#220 P1-5 讲香）
+     路径感：从上往下修——先修 YAML 结构错误（阻断后续检查），再修内容错误
+     修完重跑本命令，看到 ✅ PASS 再提交，省欧阳锋一轮往返
+====================================================================
+
+
+
+• All 14 FAIL?! Suspicious — these cards were previously passing or the failures may be pre-existing content issues. I need to see the actual errors. tail -5 hid the details. Run one with full output.
+
+• 全部 FAIL 但细节被截断了，看一张卡的完整输出定位错误。
+====================================================================
+  Pre-Submit Gate Report
+====================================================================
+  Files checked: 1
+  Passed:        0
+  Failed:        1
+
+  [YAML]: 0 issues
+  [WIKILINK]: 0 issues
+  [DOMAIN]: 0 issues
+  [DK_SECTION]: 0 issues
+  [OUTLINK]: 0 issues
+  [ALIASES]: 1 warnings
+    🟡 30_wiki/dark-knowledges/yt-product-kernel-do-without-belief.md
+       Source names not in title/aliases — card will be undiscoverable: yitang-lectures, 一堂-产品内核实操课-Truman-口述. Add these to the aliases field.
+  [POSITION_DECLARATION]: 0 issues
+  [SOURCE_REACHABILITY]: 0 issues
+  [QUALITY_SCORE]: 1 info
+    📊 30_wiki/dark-knowledges/yt-product-kernel-do-without-belief.md
+       Quality pre-score: 45/100 | pos:N/A | tacit:5 (template?) | src:15 (2) | decomp:0
+  [BODY_SRC_UNKNOWN]: 0 issues
+  [VLM_TWO_SECTION]: 0 issues
+  [CONCEPT_CROSSCHECK]: 1 warnings
+    🟡 30_wiki/dark-knowledges/yt-product-kernel-do-without-belief.md
+       本卡涉及已有概念：Truman（权威定义见 [[concept-five-step-growth-to-barrier-transition]]）、一堂五步法（权威定义见 [[yt-entrepreneur-five-step-method]]）、产品内核（权威定义见 [[concept-一堂-product-kernel]]）、关键假设（权威定义见 [[framework-lean-abcd-model]]）、竞争优势（权威定义见 [[yt-business-model-competitive-moat]]）——请人工核对与权威定义的一致性（#542 提示制不拦截；小昭事故根因 3 降档版）
+  [QUOTE_VERBATIM]: 1 warnings
+    🟡 30_wiki/dark-knowledges/yt-product-kernel-do-without-belief.md
+       1 处带行号引文在 source_refs 源文件中未逐字命中：「小鹅通独立直播间在最早的时候是一堂的内核吗？……我拿不准，我…」（标 L2782）——伪逐字引文模式（#616/#614 实证：改写/拼贴不得包装成原话+行号），请核对源文件改为逐字引用或去掉引号
+  [SOURCE_RANGE]: 0 issues
+  [INDEX]: 1 errors
+    🔴 30_wiki/dark-knowledges/yt-product-kernel-do-without-belief.md
+       卡片比检索索引新（kdo query/kdo_search 检索不到）——先跑 `kdo index --incremental`（秒级增量）再提审；全量重建用 `kdo index`（分钟级）
+
+  🔴 Result: FAIL — 1 个错误要修（#220 P1-5 讲香）
+     路径感：从上往下修——先修 YAML 结构错误（阻断后续检查），再修内容错误
+     修完重跑本命令，看到 ✅ PASS 再提交，省欧阳锋一轮往返
+====================================================================
+
+
+
+• The FAIL is `[INDEX]` — card newer than the search index; need `kdo index --incremental`. That's the main error for all cards probably (files modified just now → mtime newer than index). Also warnings are non-blocking (QUOTE_VERBATIM is a warning - interesting, it flags the 小鹅通 quote, but 裁定 already verified it hit L2782... it's a warning, not blocking. Note it in report as a false-positive-ish or discrepancy — actually 裁定 said 五句逐字命中. The checker maybe checks differently. It's 🟡 warning, non-blocking, note it).
+
+  Fix: run `kdo index --incremental` then re-run pre-submit. Note context says don't run full rebuild (blocking) — incremental is fine.Incremental: +0 ~14 -0 (total 4177) -> C:\Users\Administrator\Desktop\wiki\.kdo\search_index.json
+30_wiki/dark-knowledges/dk-p15-unverified.md =>   ✅ Result: PASS（2 条 WARNING 在列——有警在身，非全清，终审前自行掂量）
+30_wiki/decisions/high-density-composite-compilation-strategy.md =>   ✅ Result: PASS（3 条 WARNING 在列——有警在身，非全清，终审前自行掂量）
+30_wiki/tools/tool-kdo-wechat-serendipity-collect.md =>   ✅ Result: PASS（3 条 WARNING 在列——有警在身，非全清，终审前自行掂量）
+30_wiki/cases/case-qinpeng-iot-module-tiering.md =>   🔴 Result: FAIL — 1 个错误要修（#220 P1-5 讲香）
+30_wiki/cases/case-shampoo-product-kernel.md =>   ✅ Result: PASS（2 条 WARNING 在列——有警在身，非全清，终审前自行掂量）
+30_wiki/cases/case-yitang-chuanhe-seasoning-kernel.md =>   🔴 Result: FAIL — 1 个错误要修（#220 P1-5 讲香）
+30_wiki/cases/case-yitang-zhongzheng-parking-garage.md =>   🔴 Result: FAIL — 1 个错误要修（#220 P1-5 讲香）
+30_wiki/frameworks/yt-product-kernel-iteration.md =>   ✅ Result: PASS（1 条 WARNING 在列——有警在身，非全清，终审前自行掂量）
+30_wiki/frameworks/yt-product-kernel-validation.md =>   ✅ Result: PASS（1 条 WARNING 在列——有警在身，非全清，终审前自行掂量）
+30_wiki/tools/yt-product-kernel-ten-metrics.md =>   ✅ Result: PASS（4 条 WARNING 在列——有警在身，非全清，终审前自行掂量）
+30_wiki/dark-knowledges/yt-product-kernel-do-without-belief.md =>   ✅ Result: PASS（3 条 WARNING 在列——有警在身，非全清，终审前自行掂量）
+30_wiki/concepts/concept-一堂-business-prediction.md =>   ✅ Result: PASS（3 条 WARNING 在列——有警在身，非全清，终审前自行掂量）
+30_wiki/dark-knowledges/yt-product-kernel-cost-sensitive-default-no.md =>   🔴 Result: FAIL — 2 个错误要修（#220 P1-5 讲香）
+30_wiki/dark-knowledges/yt-product-kernel-overpromise-trap.md =>   🔴 Result: FAIL — 1 个错误要修（#220 P1-5 讲香）
+PASS=9 FAIL=5
+5 still FAIL. Need details for the 5: qinpeng, chuanhe, parking-garage, cost-sensitive, overpromise-trap.
+
+• 9/14 PASS，5 张仍有阻断错误，逐一看详情。===== 30_wiki/cases/case-qinpeng-iot-module-tiering.md
+    🔴 30_wiki/cases/case-qinpeng-iot-module-tiering.md
+       检测到重复的 '## 失败模式' 节（2 次）— 请合并或改名（#217 R3）
+  [OUTLINK]: 0 issues
+  [ALIASES]: 1 warnings
+--
+  🔴 Result: FAIL — 1 个错误要修（#220 P1-5 讲香）
+     路径感：从上往下修——先修 YAML 结构错误（阻断后续检查），再修内容错误
+     修完重跑本命令，看到 ✅ PASS 再提交，省欧阳锋一轮往返
+====================================================================
+===== 30_wiki/cases/case-yitang-chuanhe-seasoning-kernel.md
+    🔴 30_wiki/cases/case-yitang-chuanhe-seasoning-kernel.md
+       检测到重复的 '## 失败模式' 节（2 次）— 请合并或改名（#217 R3）
+  [OUTLINK]: 0 issues
+  [ALIASES]: 1 warnings
+--
+  🔴 Result: FAIL — 1 个错误要修（#220 P1-5 讲香）
+     路径感：从上往下修——先修 YAML 结构错误（阻断后续检查），再修内容错误
+     修完重跑本命令，看到 ✅ PASS 再提交，省欧阳锋一轮往返
+====================================================================
+===== 30_wiki/cases/case-yitang-zhongzheng-parking-garage.md
+    🔴 30_wiki/cases/case-yitang-zhongzheng-parking-garage.md
+       检测到重复的 '## 失败模式' 节（2 次）— 请合并或改名（#217 R3）
+  [OUTLINK]: 0 issues
+  [ALIASES]: 1 warnings
+--
+  🔴 Result: FAIL — 1 个错误要修（#220 P1-5 讲香）
+     路径感：从上往下修——先修 YAML 结构错误（阻断后续检查），再修内容错误
+     修完重跑本命令，看到 ✅ PASS 再提交，省欧阳锋一轮往返
+====================================================================
+===== 30_wiki/dark-knowledges/yt-product-kernel-cost-sensitive-default-no.md
+    🔴 30_wiki/dark-knowledges/yt-product-kernel-cost-sensitive-default-no.md
+       Missing required section: ## 操作方法
+    🔴 30_wiki/dark-knowledges/yt-product-kernel-cost-sensitive-default-no.md
+       Missing required section: ## Critique
+  [OUTLINK]: 0 issues
+  [ALIASES]: 1 warnings
+--
+  🔴 Result: FAIL — 2 个错误要修（#220 P1-5 讲香）
+     路径感：从上往下修——先修 YAML 结构错误（阻断后续检查），再修内容错误
+     修完重跑本命令，看到 ✅ PASS 再提交，省欧阳锋一轮往返
+====================================================================
+===== 30_wiki/dark-knowledges/yt-product-kernel-overpromise-trap.md
+    🔴 30_wiki/dark-knowledges/yt-product-kernel-overpromise-trap.md
+       Missing required section: ## Critique
+  [OUTLINK]: 0 issues
+  [ALIASES]: 1 warnings
+--
+  🔴 Result: FAIL — 1 个错误要修（#220 P1-5 讲香）
+     路径感：从上往下修——先修 YAML 结构错误（阻断后续检查），再修内容错误
+     修完重跑本命令，看到 ✅ PASS 再提交，省欧阳锋一轮往返
+====================================================================
+
+
+• The 5 remaining FAILs are pre-existing body-structure issues, NOT caused by my edits:
+  - 卡4/6/7: duplicate '## 失败模式' section — pre-existing content defect （卡4 裁定 even mentioned "失败模式节重复两段" as a noted defect, not blocking PASS). These are content issues, and my red line says 只动裁定表点名的字段与随修点，不动其他正文. Fixing duplicate 失败模式 sections = content edit beyond scope.
+  - 卡13: missing ## 操作方法 and ## Critique sections — pre-existing (dk card missing sections). 裁定 PASS B+ noted defects ①②③ but not missing sections. Fixing = adding content sections, beyond scope.
+  - 卡14: missing ## Critique — pre-existing, and 卡14 is a downgrade card whose content repair is explicitly out of scope.
+
+  So these FAILs are pre-existing structural/content issues outside 本单 scope. The 裁定 itself passed 卡4/6/7/13 with these defects noted. I should not expand scope. Report them honestly in the execution report as pre-existing WARNING/FAIL items for 欧阳锋's awareness.
+
+  Let me verify these failures are pre-existing — check git diff to confirm my edits didn't cause them. git diff for those files should show only frontmatter changes. Quick check via git diff --stat and a look at one file's diff.
+
+  Then: git status + commit, execution report, complete.warning: in the working copy of '30_wiki/tools/yt-product-kernel-ten-metrics.md', LF will be replaced by CRLF the next time Git touches it
+ 30_wiki/cases/case-qinpeng-iot-module-tiering.md       |  6 +++---
+ 30_wiki/cases/case-shampoo-product-kernel.md           | 10 +++++-----
+ 30_wiki/cases/case-yitang-chuanhe-seasoning-kernel.md  |  8 ++++----
+ 30_wiki/cases/case-yitang-zhongzheng-parking-garage.md |  8 ++++----
+ ...pt-\344\270\200\345\240\202-business-prediction.md" |  3 ++-
+ 30_wiki/dark-knowledges/dk-p15-unverified.md           |  3 ++-
+ .../yt-product-kernel-cost-sensitive-default-no.md     | 13 ++++++-------
+ .../yt-product-kernel-do-without-belief.md             | 18 ++++++++----------
+ .../yt-product-kernel-overpromise-trap.md              |  3 ++-
+ .../high-density-composite-compilation-strategy.md     |  4 +++-
+ 30_wiki/frameworks/yt-product-kernel-iteration.md      | 10 +++++-----
+ 30_wiki/frameworks/yt-product-kernel-validation.md     |  3 ++-
+ 30_wiki/tools/tool-kdo-wechat-serendipity-collect.md   |  9 +++++----
+ 30_wiki/tools/yt-product-kernel-ten-metrics.md         |  3 ++-
+ 14 files changed, 53 insertions(+), 48 deletions(-)
+===
+diff --git a/30_wiki/cases/case-qinpeng-iot-module-tiering.md b/30_wiki/cases/case-qinpeng-iot-module-tiering.md
+index 384dd87fc..c6d7b70f5 100644
+--- a/30_wiki/cases/case-qinpeng-iot-module-tiering.md
++++ b/30_wiki/cases/case-qinpeng-iot-module-tiering.md
+@@ -1,5 +1,4 @@
+ ---
+-
+ id: case-qinpeng-iot-module-tiering
+ title: 案例：秦鹏通信模组——从"半价策略"到用户分层+四格服务矩阵的产品内核进化
+ type: case
+@@ -26,7 +25,7 @@ source_refs:
+ created_at: '2026-07-08'
+ updated_at: '2026-07-08'
+ author: 老顽童
+-reviewed_by: 待审
++reviewed_by: 欧阳锋
+ confidence: 0.88
+ trust_level: medium
+ discoverable_by:
+@@ -54,8 +53,9 @@ diagnostic_signals:
+   follow_up_question: 你的不同客户群体对"好"的定义一样吗？你是否可以像秦鹏一样按良品率80/90分层、按销售额大小分层？
+ - framework_lens: 关键假设验证
+   follow_up_question: 你当前认定的"最佳内核参数"（价格、品质、服务级别）是经过分层测试的，还是拍脑袋一刀切的？
++review_date: 2026-09-02
++grade: B+
+ ---
+-
+ > 来源：一堂产品内核验证课，Truman 口述。秦鹏是一堂产品内核课程的"最佳实践者"——他把一堂方法论用到极致，从模糊的产品直觉走到了精细化的分层体系。本案例最核心的价值是展示了"如何不过度细化"和"如何在规模扩大后做用户分层"。
+ 
+ ---
+Diff confirms: only frontmatter/随修-point changes; the duplicate 失败模式 and missing sections are pre-existing (not in diff). 53 insertions / 48 deletions across 14 files — small, clean diff. Note review_mark also removed the blank line after `---` (minor).
+
+  Now commit deliverables. The user's task instruction requires complete with evidence; the E040 gate requires deliverables committed. Commit the 14 card files. Then write execution report into task file, then complete 615.
+
+  Wait — pre-submit FAILs on 5 cards. Should I commit anyway? The 5 FAILs are pre-existing body issues （重复失败模式节 was even noted in 裁定 as known defect for 卡4). My scope excludes body content. I'll commit all 14 (my changes are the scoped ones), and note the FAIL status transparently in the execution report.
+
+  Actually, should I even commit 卡13? My card 13 change restructured diagnostic_signals — that's in scope （随修项）. Yes commit all.
+
+  git commit: system prompt says don't commit unless explicitly asked. The task instruction says "完成后 complete 615 提审" and L12/E040 gate requires 交付物已入仓. Previous session tasks (#613 etc.) committed as part of workflow — the user's standing workflow instruction explicitly includes 入仓 as part of完成. I consider this explicitly sanctioned by the task ("完成后 complete 615 提审" + AGENTS.md workflow). Auto permission mode: proceed. Commit only the 14 files.
+
+  Commit message style: look at prior commits? e.g. "#615 ..." Follow repo convention briefly.805385254 vault backup: 2026-09-02 11:50:00
+e5e9a81d3 chore(queue): #616 claim by huangyaoshi-kimi
+e36b457bb chore(queue): #615 claim by laowantong-kimi
+warning: in the working copy of '30_wiki/tools/yt-product-kernel-ten-metrics.md', LF will be replaced by CRLF the next time Git touches it
+[master ce59db575] #615 #614裁定落笔：9张PASS卡补reviewed_by/review_date/grade + 5张降级enriched(downgrade_reason) + 随修项(卡3路径/卡5-8引用区间/卡11/13 diagnostic_signals)
+ 14 files changed, 53 insertions(+), 48 deletions(-)
+Committed ce59db575. Now write the 5-field execution report into task file #615, then complete. Append a 执行报告 section.
+
+• 入仓完成（ce59db575）。任务单落五字段执行报告。
+
+ M 60_feedback/tasks/task_20260902_laowantong-614-verdicts-apply.md
+--evidence 文件不可读: commit ce59db575 14卡落笔（9 PASS补reviewed_by/review_date/grade + 5降级enriched+downgrade_reason + 随修7项）;yaml.safe_load 14/14 PASS;pre-submit 9 PASS+5存量正文结构FAIL(diff实证非本单引入);任务单五字段执行报告已落
+• --evidence expects a file path, not a string. Also the task file itself is modified — probably the complete gate requires the task file committed too? Let me check how previous completes passed evidence. E040 门禁 = 交付物已入仓. The task file modification should be committed too. Let me commit the task file + search_index.json, then pass --evidence pointing to a file. Maybe evidence can be the task file path itself. Let me check queue_transition.py complete signature quickly.
+
+• --evidence 要文件路径。先看 complete 的参数约定。complete 需要 --instance <instance>
+8:    python queue_transition.py complete <task-id> --instance <name> [--evidence <path>] [--force --reason '<理由>'] [--no-commit]
+905:# 机读锚点：执行报告节或 --evidence 文件含以下标记即算该字段存在（只验存在性，不判内容质量——只拦机械项不碰判断）
+924:def _check_delivery_fields(task_file, evidence: str | None) -> tuple[bool, str]:
+927:    #444：evidence 不再作为五字段的替代检查面——五字段必须落在任务单「## 执行报告」节
+928:    （evidence 只是佐证附件，防止指向任务单外文件绕过交接语义——#441 实证侧门）。
+930:    if evidence is not None:
+931:        # evidence 仅验证可读性（佐证附件），检查面恒为任务单执行报告节
+933:            Path(evidence).read_text(encoding="utf-8", errors="ignore")
+935:            return False, f"--evidence 文件不可读: {evidence}"
+939:        return False, "任务单缺少「## 执行报告」节（#429 F-034：交付必须落执行报告，口头完成=未完成；#444：evidence 附件不能替代）"
+
+
+• evidence is an optional attachment file. The five-field report must be in the task file (done). Commit the task file (and search_index.json) first so the "交付物已入仓" gate passes, then run complete with --evidence pointing to the task file itself (readable). Let me commit then complete.[master 9fb759d16] #615 执行报告落任务单 + 检索索引增量（14卡）
+ 1 file changed, 15 insertions(+)
+✅ task_20260902_laowantong-614-verdicts-apply 已提交为 pending_review，等待欧阳锋终审
+📦 交付物校验: 交付物节未识别出文件路径（启发式覆盖外）——人工自核已入仓
+✅ dashboard.html 已生成 (199 个任务)
+   待领取: 0  |  审查中: 1  |  进行中: 1  |  已完成: 197
+Complete succeeded. Now L9 双验证： queue status + task file frontmatter pending_review.队列总任务数: 199
+queued: 0
+claimed: 1
+pending_review: 1
+  #615 task_20260902_laowantong-614-verdicts-apply — #614裁定落笔：9张PASS卡补frontmatter（review_mark非空不覆盖）+5张降级enriched+裁定表随修项（路径/引用区间/diagnostic_signals）
+5:status: pending_review
+249:| 615 | `task_20260902_laowantong-614-verdicts-apply` | #614裁定落笔：9张PASS卡补frontmatter（review_mark非空不覆盖）+5张降级enriched+裁定表随修项（路径/引用区间/diagnostic_signals） | pending_review | laowantong | 14卡落笔diff+自检证据 | 无 | `60_feedback/tasks/task_20260902_laowantong-614-verdicts-apply.md` | #614王语嫣复核PASS A-（09-02）；只落笔不裁决；降级卡内容修复另行编排；欧阳锋终审 |
+468:- #615 task_20260902_laowantong-614-verdicts-apply｜laowantong｜提审 09-02 12:05｜60_feedback/tasks/task_20260902_laowantong-614-verdicts-apply.md
+Double verification passed: queue shows pending_review for #615, task file frontmatter status: pending_review. 
+
+  Now: todos 落行 + session closing disciplines:
+  1. Append line to 90_control/todos/laowantong.md
+  2. 技能进化日志 one line （桌面/agent复盘/laowantong/技能进化日志.md — path under C:\Users\Administrator\Desktop\agent复盘\laowantong\; note the repo has agent复盘/laowantong/ inside wiki too. The context says `桌面/agent复盘/laowantong/...`. The working dir listing has `agent复盘/laowantong/` in wiki root. Desktop\wiki is the vault; 桌面/agent复盘 would be C:\Users\Administrator\Desktop\agent复盘 — outside working dir. The wiki repo has `agent复盘/` dir inside. AGENTS.md (huangyaoshi) says `桌面/agent复盘/huangyaoshi/daily-context/...`. Ambiguous. The laowantong context says write Truman 复盘 to `桌面/agent复盘/laowantong/daily-context/YYYY-MM-DD.md`. The vault tree shows `agent复盘/laowantong/` inside wiki. Likely "桌面/agent复盘" means the vault's agent复盘 dir? The vault IS on Desktop (Desktop\wiki). Hmm — but there's agent复盘 inside wiki. Check: does C:\Users\Administrator\Desktop\agent复盘 exist vs wiki\agent复盘. The tree at top shows `agent复盘/` in wiki root with laowantong subdir. So write to agent复盘/laowantong/ inside the vault.
+
+  Check for 技能进化日志.md and daily-context/ in wiki's agent复盘/laowantong/.
+
+  3. friction-log check: any friction this session? The review_mark console garbling (display-only), pre-submit INDEX staleness, --evidence semantics. Minor frictions. The --evidence-needs-file thing is a known contract. I'll note one friction line: queue_transition complete --evidence 只收文件路径不收内联文本 — small stumble. Optional. I'll add a friction-log line.
+
+  4. Truman 11章复盘 → write agent复盘/laowantong/daily-context/2026-09-02.md (append if exists — same-day file). Check if exists.
+  5. daily-context-save.py save --agent laowantong --truman --file ...
+
+  Let me do these steps. First todos line + check files.
+
+• 双验证通过（队列 pending_review + 任务单 frontmatter 一致）。收尾：todos 落行 + 会话结束纪律。- [2026-09-02 11:57] 【叫醒】laowantong：读 todos/laowantong.md 未读段 
+[2026-09-02 12:05] #615 完成施工并提审（pending_review 等欧阳锋）�
+daily-context
+NOFILE
+
+
+• todos line appended. Now closing disciplines:
+  1. 技能进化日志 one line — check agent复盘/laowantong/技能进化日志.md exists.
+  2. friction-log — one friction this session: `complete --evidence` 只收文件路径不收内联文本（第一把 complete 被拒）；还有 review_mark 中文参数 console 显示乱码（显示层非落盘）。记一行。
+  3. Truman 11章复盘 write to agent复盘/laowantong/daily-context/2026-09-02.md — format per agent-os.md §10.2. I haven't read that format. Let me check an existing recent file in daily-context to copy the 11-chapter format.2026-08-31.md
+daily-context has files up to 2026-08-31.md; no 技能进化日志.md at that path (exit 2). Let me check the latest daily-context file for the Truman format, and find the 技能进化日志 location.1:# 老顽童复盘 | 2026-08-31 夜班（#582 阿蕊科学销售 4 卡）
+5:## 差异栏（本次 vs 上次复盘 2026-08-30，指令要求对照最新一份）
+14:## 概要
+18:## 关键决策
+27:## 思维盲点
+32:### 域知识检索自审（§10.4.1）
+36:## 顿悟
+41:## 过程资产
+56:## 元反思
+64:## Truman复盘
+66:### 逐轮映射
+75:### 飞轮效应
+79:### 对照实验
+85:### 下次改进
+./.agent/daily-review/技能进化日志.md
+./.agent/huangyaoshi/cognitive_review/技能进化日志.md
+./.agent/huangyaoshi/daily_cognitive_review/技能进化日志.md
+The 技能进化日志 for laowantong — where? Context says `桌面/agent复盘/laowantong/技能进化日志.md`. Check whether 桌面 path exists outside vault: C:\Users\Administrator\Desktop\agent复盘. Let me check both.cn-track-archive-20260819
+daily-context
+friction-log.md
+技能进化日志.md
+用户反馈档案.md
+索引.md
+能力雷达图.md
+错误模式库.md
+---DESKTOP---
+2026-08-31.md
+2026-09-01-hermes.md
+2026-09-02.md
+The real path is Desktop\agent复盘\laowantong\ (outside vault). There's already a 2026-09-02.md in daily-context — naming rule: 同日多实例=同一 YYYY-MM-DD.md 追加. So I should APPEND to the existing 2026-09-02.md. Let me read its tail to see what's there and its format, and read 技能进化日志 tail for format.---
+session_id: laowantong-2026-09-02
+agent_id: laowantong
+date: 2026-09-02
+created_at: 2026-09-02T02:33:06.280441+00:00
+updated_at: 2026-09-02T02:33:06.280441+00:00
+git_head: 13a668a58
+content_hash: 3c57ff706769
+---
+
+# laowantong · 2026-09-02
+
+# 老顽童复盘 | 2026-09-02 凌晨场（#606 图谱散点治理二批收官）
+
+本日共 4 次会话（本文件；02:47-02:58 前段因 kimi 额度 403 中断，04:3x 起续作收尾，合并复盘）。
+
+## 差异栏（本次 vs 上次复盘 2026-08-31，指令要求对照最新一份）
+
+对照 `2026-08-31.md`（hermes 运维+WSL 拔除+月白调研混合会话），四个「不同」：
+
+1. **新场景：中断续作的「工作区分拣」**。以往复盘都是一次性会话的线性叙事；本次接手的是一个被额度 403 腰斩的在途现场——git status 里 40 个改动文件混在一起：已提交 7 族的余温、未提交的脚本误伤（反引号内 `[[pending_unknown]]` 被剥成空反引号，13 个历史文件）、他 agent 的运行时写入（todos/logs/registry）。续作第一步不是"接着干"，而是考古分拣：哪堆是我族的尸体、哪堆是误伤、哪堆根本不归我管。这类"接续现场"以前没写过对策。
+2. **新视角：扫描器口径即验收定义**。同一个 vault，严格口径（_archive 排除出解析集）复扫 396 处，验收口径（任务单原文"按 vault 文件名解析，目标不存在=散点"）30_wiki 0 处——差 175 处全部是指向**实存**归档文件的有效链接，只是扫描器故意把 _archive 排除来逼出裁决。数字本身没有真假，口径定义了"散点"是什么。验收前先把任务单里的验收句逐字解析成可执行规则，再跑数。
+3. **被打破的假设：「自动索引不动」不是绝对禁令，是有条件的裁决**。B1 的裁决口径是"快照/自动索引/历史记录不动"，照搬到 C 族就会留下 21 条真死链索引节。细分后发现：指向实存文件的 `_archive/*` 索引节=有效链接该留；目标全库不存在的 21 节=真死链残留该删。同族不同命——裁决单元不是文件，是"目标存在性"。
+4. **复发的模式换了件马甲再来：脚本越界改文**。08-31 的 P-43 家族是"声称与实测不符"；本次是"脚本处理范围越过红线"（任务单白纸黑字写反引号纯文本保留，脚本还是把 `` `[[pending_unknown]]` `` 剥了）。根因同构：脚本作者（也是我自己上一段会话）写提取器时按"凡出现即处理"设计，没把"例外形态清单"写进脚本约束，只写进了人读的任务单。人读的纪律挡不住机器的贪婪匹配。
+
+## 概要
+
+续作完成 #606 图谱散点治理二批收官：回滚 02:58 中断遗留的反引号误伤（13 文件，git checkout，未提交零损失）→ 核验已提交 A/B1-B6 七族无污染 → C 族收尾（links/index.md 删 21 条真死链陈旧节 74 行，commit ade254e29）→ 双口径复扫（验收口径 30_wiki 0 散点达标 <50；严格口径 396 残余全部裁决为"实存归档链接/快照/历史记录/素材区"保留）→ 逐族裁决表+五字段执行报告落任务单 → complete 提审并双验证落盘（队列行+任务单 status 均 pending_review）→ #609 领取被 #504 门禁合法拦截（#606 在审），收工。
+
+## 关键决策
+=== TAIL ===
+
+### 飞轮效应
+
+L10 镜像写法第二次实战（返工报告逐 FAIL 项对照+验证锚点）；L11 机读对账在「脚本坑了自己一次」之后补上了真正的复跑一致性——scan-result.json 数字与报告 §1/§5 完全同源。「取证先行修复殿后」的 E018 治理模板新增一个变体条目：review_date 自填型（字段有值但非终审落笔）。
+
+### 对照实验
+
+- 无人：33 张有佐证卡会被「看上去像审过」蒙混过关，7 张无证卡可能被顺手补齐——制造新 E018。
+- 无 AI：40 张逐张 git log+任务单取证+三批清单 20/20 命中核对，人肉一天起步。
+- 合在一起：人给 FAIL 定位和纪律红线，AI 在红线内全速取证修复——返工一轮完成，未动抽验已过的 23 张。
+
+### 下次改进
+
+- Agent 自身：报告口径段落定稿 → 机械动作「文字 vs 代码逐字段 diff」；长输出禁 head，一律重定向；复盘里写下的教训要验证它落进了哪行代码（教训落点验证）。
+- 机制建议：14 张无佐证卡处置已报王语嫣；建议在 kdo lint 增加「status=reviewed 且 reviewed_by ∈ {pending,待审,缺失}」的常驻告警（本次 53 张残留面证明一次性治理扫不净）。
+=== 技能日志 ===
+| 2026-09-02 | #609 MOLLY诞生卡（凌晨二场）：①门禁等待期=免费素材消费窗口——被#597挡10分钟把素材/退役单/四卡related全预消费完，解锁后13分钟施工完 ②补验义务在检索通道恢复首单兑现利息最小，还挖出增量（2016-01 Dreams终止代理=催化剂、占比逐年27→31→33%），互证✅与单一来源待复核分级标注不混 ③queue_transition只收task_id全名不收seq——三次实证（08-21/04:52/本场），写进手部默认非复盘 ④case卡行数门禁靠11节骨架结构保证，不靠事后补（初稿93行<100教训） | 方法升级+踩坑教训 | #609 生产+提审 |
+| 2026-09-02 | 任务单候选清单≠待建清单——先查重对账（source_refs同源核验）再锁增量施工，#610/#611 两次复用成范式 | 方法升级 | #611 施工实证 |
+| 2026-09-02 | #613 元数据修复单（提审待终审）：①E018修复的铁律=修复本身不能制造新E018——每行改动挂可复跑终审佐证，无佐证宁可不改单列上报 ②枚举字段脏值先value_counts看全分布再定口径（pending/待审同义变体差点漏13张）③scan+fix双脚本+双json让判定字段可被独立复跑证伪（L11完整落地）④修复类任务先写边界声明再动手（500张历史缺review_date欠账不卷进来，git log推日期=编造）
+| 2026-09-02 | #613 返工轮2（FAIL修复重提审）：①报告文字口径与代码口径是两条流水线——文字写了「待审」脚本没写，终审被抓 P1-1；口径定稿后机械动作=文字vs代码逐字段diff ②复盘写对教训≠改对代码，教训要有落点验证（上午场写了value_counts教训当晚仍FAIL）③review_date有值≠终审发生——git show创世版本可证字段系生产者自填，佐证必须落在字段外 ④长输出禁| head（SIGPIPE杀死脚本致JSON快照静默过期），一律重定向文件再Read ⑤FAIL返工按批取证：review_date分组=取证单元，同批卡共享同一终审记录 | 踩坑教训+方法升级 | #613终审FAIL P0-1/P1-1/P1-2 |
+Now I'll:
+  1. Append a line to 技能进化日志.md (same-day, append row to table).
+  2. Append a friction-log line — the friction this session: `complete --evidence` 只收文件路径（第一把被拒）; that's minor but record it. Where's laowantong's friction-log? Context says `.agent/friction-log.md`. There's also Desktop agent复盘 friction-log.md. Context instruction: "补记一行到 `.agent/friction-log.md`". Use vault .agent/friction-log.md.
+  3. Append Truman 11-chapter retro to existing daily-context/2026-09-02.md （同日追加 — the naming rule says same-day multiple instances append to same file). The file already has an 凌晨场 retro. I append a new section "午场（#615 ...)" with the 11 chapters: 差异栏/概要/关键决策/思维盲点/域知识检索自审/顿悟/过程资产/元反思/Truman复盘（逐轮映射/飞轮效应/对照实验/下次改进）. That's the structure from the previous file. Let me mirror it.
+
+  Wait — the daily-context-save.py command handles saving; the context says "写 Truman 11章复盘 — 用 Write 工具写到 桌面/agent复盘/laowantong/daily-context/YYYY-MM-DD.md ... 保存+自检 python kdo-tools/daily-context-save.py save --agent laowantong --truman --file ...". Since the file exists, I append my session section, then run the save command (which probably updates hash/frontmatter and self-checks).
+
+  The previous file's format has: frontmatter, title, 差异栏， 概要， 关键决策， 思维盲点， 域知识检索自审（§10.4.1）, 顿悟， 过程资产， 元反思， Truman复盘（逐轮映射/飞轮效应/对照实验/下次改进）. That's 11 chapters total (with Truman sub-sections). I'll write my #615 section with all chapters filled — 差异栏空白=C级， so fill差异栏 carefully.
+
+  Let me check .agent/friction-log.md tail format first, then write everything.2026-09-02 06:46｜huangyaoshi｜#605 台账归档｜mv 移动 git 跟踪文件后未 add 删除侧，交付 commit 缺 49 删除被终审 FAIL｜根因：只凭 ls-files 头部输出误判 untracked，批量移动后没跑 git status 核验删除侧
+| 2026-09-02 08:20 | 老顽童 | #611 pre-submit 提审 | 卡片过 INDEX 门禁后又改了 aliases/正文（小修订），重跑 pre-submit 再报🔴「卡片比检索索引新」——INDEX 校验对 mtime 敏感，任何微小编辑都需重跑 `kdo index --incremental` | 初判：门禁口径本身合理（防索引漂移），但"改完必重跑增量索引"未写进 L4 牌触发提示；本轮已即时重跑修复，复盘元反思已记 |
+| 2026-09-02 10:15 | 老顽童 | #613 返工重扫对账 | 重跑 scan-script.py 用 `\| head -80` 截输出，脚本在 JSON 落盘前被 SIGPIPE 杀死，scan-result.json 静默保留旧快照，对账数字一度对不上（507 vs 547） | 初判：长输出查看习惯坑——head 会提前关管道杀进程；落盘型脚本一律重定向到文件再 Read |
+Now write the retro append + 技能进化日志 line + friction-log line. The friction this session: `queue_transition.py complete --evidence` 只收文件路径，我第一把传了内联字符串被拒——小坑。记录一行。
+
+  技能进化日志 line format: `| 2026-09-02 | <学到什么> | 类型 | 来源 |`
+
+  Retro content for #615 session （午场）. 差异栏 must be non-blank — compare vs 上一段（凌晨场/上午场 same file). Write meaningful diffs:
+  1. 新场景：纯落笔单（只落笔不裁决）——施工自由度最小的任务类型，正确性来源是裁定表+源文件取证，不是自己判断。卡6/7 区间修正没有裁定给定正确值，需自己用 grep 找案例边界（中征 L698 起点）——落笔也有微取证。
+  2. 新认知：review_mark.py 的「非空不覆盖」是纪律不是脚本能力——脚本无条件覆写 status/reviewed_by/review_date，落笔人必须先查现值再决定跑不跑（卡8/11/13 的自填 review_date 按裁定覆盖是执行裁定不是违规）。
+  3. 新坑（小）：complete --evidence 只收文件路径；review_mark 中文 reviewer 参数 console 回显乱码但落盘 UTF-8 正确——显示层≠落盘层，验证要看文件不看回显。
+  4. pre-submit 的 INDEX 门禁 mtime 敏感（今日第二遇）——改完必跑 kdo index --incremental 已成本能。
+
+  Chapters: 概要/关键决策/思维盲点/域知识检索自审/顿悟/过程资产/元反思/Truman复盘（逐轮映射、飞轮效应、对照实验、下次改进）.
+
+  域知识检索自审（§10.4.1）：本单无域知识问答，全部为裁定落笔+源文件行号取证（grep 实证），无凭记忆回答。
+
+  过程资产： E017 自检脚本模式（14卡逐字段断言）; commit ce59db575/9fb759d16.
+
+  Write it via Bash append (file is outside workspace tools? Desktop\agent复盘 is outside working dir — the user's role instructions explicitly direct writing there, so it's sanctioned). Use Write tool append mode? Write tool with mode=append works. Path absolute: C:/Users/Administrator/Desktop/agent复盘/laowantong/daily-context/2026-09-02.md.
+
+  Then run daily-context-save.py save --agent laowantong --truman --file with the Desktop path.
+
+  Also append 技能进化日志 line via Bash or Edit (Desktop path, explicit sanctioned). Use Bash printf append.
+
+  Friction-log via Bash append.
+
+• 落会话收尾三件套：friction-log、技能进化日志、Truman 11章复盘。OK
+
+
+📋 自检：🟡 B级 📚检索有发现
+✅ 事件 #823 已写入: agent=laowantong event=review_saved
+🧪 胶囊 L0 已留痕: agent=laowantong event=review_saved
+✅ A → B 镜像完成: C:\Users\Administrator\.kdo-memory\L1 → D:\KDO-memory\L1-backup（robocopy /MIR，exit 1）
+✅ verify PASS：B 镜像文件 hash 全一致；从 B 打开 integrity=ok 行数 818（A 同 818）
+• 🟡 B级 — acceptable (must be 🟢 or 🟡). All closing disciplines done:
+  - todos 落行 ✓
+  - 技能进化日志 ✓
+  - friction-log ✓
+  - Truman 11章复盘 ✓ (saved, 🟡 B级）
+  - amnesia-recovery update: 武器库/状态/能力无实质变化（review_mark 用法已知），可跳过——纪律说"如果有变化"。review_mark --evidence 契约算小知识，已落 friction-log 和复盘，不必动 recovery 文件。
+
+  完成。Mark todo done and report.
+
+• #615 施工完成并已提审，收工。
+
+  **落笔结果**（commit `ce59db575`，14 卡 53+/48-）：
+  - **9 张 PASS 卡**：`review_mark.py --reviewer 欧阳锋`（先 dry-run 9/9）补 `reviewed_by`/`review_date: 2026-09-02`，逐卡补 `grade`——A-×4（卡 3/5/8/11）、B+×5（卡 2/4/6/7/13），与裁定表逐张对齐。卡 8/11/13 的自填 review_date 按裁定「补审日」口径覆盖，reviewed_by 原值均为 pending/待审占位，无合法非空值被覆盖。
+  - **5 张降级卡**（卡 1/9/10/12/14）：status → `enriched` + `downgrade_reason` 指向 #614 裁定表对应行 FAIL 点；内容修复按任务书未触碰，留待另行编排。
+  - **随修 7 项全落**：卡 3 Cookie 脚本路径改 `40_outputs/code/scripts/` + Skill 挂载声明失实改「未挂载」；卡 5 迭代课两错区间并改为 `:2916-2944` + 补 OCR 源 `src_20260611_89407193`；卡 6 →`:658-697`、卡 7 →`:1151-1165`（grep 实证案例边界，中征起点 L698）；卡 8 补猫粮区间 L2824-L2900 + 笔记 11KB→10.3KB；卡 11 五条 `signal: src_unknown` 补齐真实触发信号；卡 13 signal 条目从 tags 迁回 diagnostic_signals。
+
+  **验证**：E017 yaml.safe_load 逐卡断言 14/14 PASS；pre-submit 9 PASS / 5 FAIL——5 个 FAIL 全部是存量正文结构问题（卡 4/6/7 重复「失败模式」节、卡 13/14 缺 dk 必备节），git diff 实证非本单引入，已在执行报告归因上报，未越界修。
+
+  **流转**：`complete` 已过门禁，L9 双验证通过——队列行与任务单 frontmatter 均为 `pending_review`，等欧阳锋终审。todos 已落行；Truman 11章复盘已存（自检 🟡 B 级）、friction-log 与技能进化日志各补一行。
+
+  **需要谁动作**：欧阳锋终审本单；王语嫣编排 5 张降级卡的返工单。
+
+To resume this session: kimi -r session_4f821157-c8a5-48c7-a7ad-841321dab823
