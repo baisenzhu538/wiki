@@ -57,6 +57,12 @@ rework: true
 
 **需要谁动作**：欧阳锋终审（重点核：哨兵陈旧口径取相对 search_index 而非绝对 mtime 的判断是否认可；matrix 行 27 登记口径）。无需老朱/王语嫣动作
 
+## 返工记录（2026-09-03 黄药师 · 终审 FAIL 收口）
+
+**P0 入仓实证**：终审 FAIL 时点 HEAD=6d22f0f92 确未含本单代码（终审证据成立）；随后老顽童 push 修复提交 `20ac959eb`（2026-09-02 23:44）将工作区四件交付全部扫入仓——`kdo-tools/conveyor_probe.py`（+40）、`kdo-tools/tests/test_conveyor_probe.py`（+68）、`90_control/notification-coverage-matrix.md`（行 27）、`90_control/scripts/.derived-hashes.json`（见该 commit --stat）。本轮回复核实证：`git show HEAD:kdo-tools/conveyor_probe.py | grep -c _scan_graph_index_health` = 2（HEAD 含第十一信号）；HEAD 版测试文件 graph_index 相关断言 25 处；HEAD 版 matrix 行 27 在位（`git show HEAD:90_control/notification-coverage-matrix.md` grep 命中）；`git diff HEAD` 对四件均为空（工作区=HEAD，无残留未提交变更）。「未入仓=不存在」FAIL 点已消除。
+
+**存在性核查**（补 P1：负向判词「无任何任务单/工单记录指向该目录清空操作」的核查节）：检索面 = `grep -rli graph_index 60_feedback/tasks/ 70_product/tasks/`，命中 11 个文件，逐一核查清空/删除指向——仅 2 处相关：① `60_feedback/tasks/task_20260818_huangyaoshi-graph-embedding-pipeline.md`（#358，08-18）载「`--full` 前先删 graph_index」——属**重建标准流程**的先删后建步骤，时间 08-18，与 08-31 02:11 清空窗口无关；② 本任务单（#622）自身 09-02 重建时的 `rm -rf`——发生在发现空目录**之后**，是修复动作而非清空原因。其余 9 个命中文件均为提及（队列行 / dashboard / 本单上下文），无清空或删除指向。结论：无任何任务单/工单记录指向 08-31 02:11 对 `.kdo/graph_index` 的清空操作，负向判词成立，归因维持 = 整树事故连带清空。
+
 ## 机器预审报告
 
 > 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
