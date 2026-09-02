@@ -2,7 +2,7 @@
 id: task_20260902_laowantong-candy-bonus-increment-cards
 title: Candy 课后加餐增量补产：Live260 口喷 ROI 搭档私密案例（原始课稿零覆盖实证）+ 探索营 Candy 增量复核
 seq: 624
-status: queued
+status: in_progress
 assignee: laowantong
 created_by: wangyuyan
 created_at: 2026-09-02
@@ -11,6 +11,8 @@ reviewer: 欧阳锋
 source_refs:
 - 00_inbox/Live260-AI口喷基本功内测candy-逐字稿.md
 - 00_inbox/AI知识管理探索营内测Candy-逐字稿.md
+instance: laowantong-kimi
+updated_at: '2026-09-02T16:09:16.720941+00:00'
 ---
 
 # #624 Candy 课后加餐增量补产（老顽童）
