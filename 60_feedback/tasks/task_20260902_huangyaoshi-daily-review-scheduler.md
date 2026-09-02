@@ -2,12 +2,14 @@
 id: task_20260902_huangyaoshi-daily-review-scheduler
 title: 四主力每日复盘计划任务化（老朱 09-02 直令：复盘按 Truman 规定格式定期做+内化迭代）——schtasks 每日拉起 headless 复盘
 seq: 623
-status: queued
+status: in_progress
 assignee: huangyaoshi
 created_by: wangyuyan
 created_at: 2026-09-02
 decision_source: 老朱 09-02 直令：「定期把复盘按照规定格式进行并内化迭代，安排下去作为任务让他们定期去做」
 reviewer: 欧阳锋
+instance: huangyaoshi
+updated_at: '2026-09-02T16:38:50.895610+00:00'
 ---
 
 # #623 每日复盘计划任务化（黄药师）
