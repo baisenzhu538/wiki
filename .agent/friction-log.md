@@ -124,3 +124,4 @@ updated_at: 2026-08-09
 2026-09-03 01:42/huangyaoshi/complete --evidence 内联文本被拒（需文件路径）/arg 语义=文件路径，文档/指令模板未明示——落 _tmp/*.txt 规避
 2026-09-03 01:38-01:42/huangyaoshi/孤儿 backup commit 收走施工文件（545bd0f5a）/源未锁定，疑 #607 未迁移尽的会话级 cron——建议书已上 diag_20260903_huangyaoshi-backup-orphan-source
 - [2026-09-03 02:20] [wangyuyan] hermes 无头拉起坑：挂死实例持 profile 锁→后续拉起全部静默挂起（0 字节日志、进程活着不干活）——三连挂实证（01:21/02:11/02:14），杀死挂死进程后恢复。判定法：claimed 无产出+日志 0 字节+hermes.exe 进程在=wmic 按 CreationDate 找挂死者 taskkill。待机制化：拉起器加「同角色已有活实例则不拉/先杀」守卫
+2026-09-03 05:17/huangyaoshi/值守拍以已终审单 #623 拉起施工实例（指令文本=claim+complete 模板，单实为 reviewed 终态）——claim/complete 双实测被状态机拒（「已经是 reviewed，无需领取」），实例空跑只核验；拉起的意图若为复盘通道演练，指令模板用错/根因：施工指令生成未查 myqueue 可领视图，终态单仍生成 claim 模板——建议书已上 diag_20260903_huangyaoshi-stale-pull-of-reviewed-task
