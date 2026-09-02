@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
-"""#613 排查：30_wiki 全库 status=reviewed 但 reviewed_by=pending/缺失 或 review_date 缺失的卡。
-yaml.safe_load 解析 frontmatter，禁正则提取字段值（E017）。"""
+"""#613 排查：30_wiki 全库 status=reviewed 但 reviewed_by ∈ {pending, 待审, 缺失} 或 review_date 缺失的卡。
+yaml.safe_load 解析 frontmatter，禁正则提取字段值（E017）。
+口径与排查补齐报告-613.md §0 文字口径逐字对齐（#613 终审 P1-1 返工点）。"""
 import os, sys, json, io
 import yaml
 
@@ -48,7 +49,7 @@ for dirpath, _dirs, files in os.walk(ROOT):
             continue
         reviewed_by = fm.get("reviewed_by")
         review_date = fm.get("review_date")
-        rb_pending = reviewed_by is None or (isinstance(reviewed_by, str) and reviewed_by.strip().lower() in ("pending", ""))
+        rb_pending = reviewed_by is None or (isinstance(reviewed_by, str) and (reviewed_by.strip().lower() in ("pending", "") or reviewed_by.strip() == "待审"))
         rd_missing = review_date is None or (isinstance(review_date, str) and review_date.strip().lower() in ("pending", ""))
         if rb_pending or rd_missing:
             hits.append({
@@ -70,6 +71,7 @@ print(f"命中卡数: {len(hits)}")
 for h in hits:
     print(f"- {h['path']} | id={h['id']} | type={h['type']} | author={h['author']} | reviewed_by={h['reviewed_by']} | review_date={h['review_date']} | updated_at={h['updated_at']}")
 
-with open(r"C:\Users\Administrator\Desktop\wiki\_tmp\613-scan-result.json", "w", encoding="utf-8") as f:
+OUT = r"C:\Users\Administrator\Desktop\wiki\60_feedback\tasks\task_20260902_laowantong-586batch-reviewedby-residue-fix\scan-result.json"
+with open(OUT, "w", encoding="utf-8") as f:
     json.dump({"scanned": n_files, "errors": errors, "hits": hits}, f, ensure_ascii=False, indent=2)
-print("JSON 落盘: _tmp/613-scan-result.json")
+print("JSON 落盘: 60_feedback/tasks/task_20260902_laowantong-586batch-reviewedby-residue-fix/scan-result.json")

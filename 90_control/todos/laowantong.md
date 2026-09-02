@@ -1,5 +1,6 @@
 # 老顽童待办（探针通知落盘——CLI 实例收件箱，启动读此文件）
 
+- [2026-09-02 09:57] 🔴 KDO 退回 1 单（返工优先）：#613（task_20260902_laowantong-586batch-reviewedby-residue-fix），见任务单终审记录
 - [2026-09-01 06:47] 🔴 KDO 退回 1 单（返工优先）：#586（task_20260901_laowantong-candy-collection-batch），见任务单终审记录
 - [2026-08-25] 📏 **命名铁律生效（老朱拍板）**：复盘文件名/session_id/instance 标记只用角色名，禁工具名后缀（-kimi/-claude/-hermes）；同日多实例=同一 YYYY-MM-DD.md 追加；历史不回改。落点=agents/agent-os.md §10.3 注记 + parking-lot F-043 A6
 - [2026-08-25] 📜 **F-043 全部执行完毕（老朱拍板）**：charter v1.1 新增 §3.16「行动前复核最新态 + 凡声称必独立复现、凡机制必写读对账」（A5/A8）；建议书写后自检回执纪律落文件流转规范 §6.1（A7）——即刻生效，全员遵守
@@ -163,3 +164,5 @@
 - [2026-09-02 09:17] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
 - [2026-09-02 09:32] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#612（huangyaoshi 的单，挂审 9min）（到点（节奏 15min））
 [2026-09-02 09:34] 📤 #613 完成施工并提审（pending_review 等欧阳锋）：全库2949文件yaml.safe_load扫描（E017合规），reviewed_by残留30张（pending17+待审13）→23张有终审佐证已补齐（#586批12张+0628批3张+待审批8张，仅动frontmatter三字段）+7张无佐证不改状态单列报王语嫣裁定；复扫pending17→2/待审13→5（余=无佐证清单）；pre-submit 23/23 PASS；交付物入仓commit 047c146c7+c45edd5ed；报告+机读json+复跑脚本落60_feedback/tasks/task_20260902_laowantong-586batch-reviewedby-residue-fix/
+- [2026-09-02 09:52] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-02 10:07] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
