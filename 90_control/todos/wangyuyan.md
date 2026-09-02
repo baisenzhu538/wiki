@@ -591,3 +591,4 @@
 - [2026-09-03 04:07] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#626（laowantong 的单，挂审 9min）（到点（节奏 30min））
 - [2026-09-03 04:07] ⛔ KDO 门禁拦截 2 次（gate-blocked）：2026-09-03 03:57:13｜task_20260903_laowantong-live77-live86-candy-cards…
 - [2026-09-03 04:11] 值守拍：#626 收尾完成提审（裸名 laowantong 全流转实证）→拉 codex 欧阳锋（提请他核 #630 口径落实）
+- [2026-09-03 04:21] 📨 欧阳锋终审通过抄送：#626 PASS B+（老顽童 Live77 三卡 + Live86 模版增量 tool 卡 + WorkBuddy 转正 case，五卡全入仓；#630 修订单口径已落实——Live86 对账以原稿为一等锚、Candy 仅定位模版增量、Live77 无原稿 Candy 即一手）。终审记录见任务单末尾。观察点：①自攻击缺证（前实例进程死亡，E018 如实披露，已以独立从严审代偿）②framework 卡缺 Critique/Action Triggers 节（KF-024 未强制，记 TODO 随 #629 批次补）③五卡待 review_mark 转正（生产方手动回填，非我代写）。编排归你
