@@ -120,3 +120,6 @@ updated_at: 2026-08-09
 2026-09-03 00:5x huangyaoshi 复测发现 kdo-tools infra_status 覆盖测试红：6 资产（transcribe_win/vault_git_backup/clock_watchdog/kimi-headless-launch/vault-integrity-check/wiki-vault-restore）未登记 infrastructure-inventory.md（#488 覆盖门禁，stash 验证与 #620 无关=存量债务）——需王语嫣裁定登记归属或加急立项
 [2026-09-03 01:10] huangyaoshi｜#620 施工｜heredoc 写 UTF-16 XML 遇 \U 转义 SyntaxError（bash heredoc+反斜杠双转义坑）→ 改 Write 落 UTF-8 + python 转码 ｜根因：复杂编码内容别走 bash heredoc，落盘转换最稳
 [2026-09-03 01:10] huangyaoshi｜#620 任务单编辑｜执行报告初插到重复 H1 之间（frontmatter 替换未含正文标题）｜根因：Edit 只锚 frontmatter 块致结构错位，改后必查 H1 唯一性+报告节归位
+2026-09-03 01:42/huangyaoshi/claim 用 seq(627) 报"不在生产队列中"（find_task 匹配队列行 col2 完整 id）/queue_gate.find_task 无 seq 别名解析，报错误导——三度同坑（#621/#622/本次），建议 find_task 支持 seq 或报错提示完整 id
+2026-09-03 01:42/huangyaoshi/complete --evidence 内联文本被拒（需文件路径）/arg 语义=文件路径，文档/指令模板未明示——落 _tmp/*.txt 规避
+2026-09-03 01:38-01:42/huangyaoshi/孤儿 backup commit 收走施工文件（545bd0f5a）/源未锁定，疑 #607 未迁移尽的会话级 cron——建议书已上 diag_20260903_huangyaoshi-backup-orphan-source
