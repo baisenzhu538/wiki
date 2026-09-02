@@ -2,7 +2,7 @@
 id: task_20260902_laowantong-586batch-reviewedby-residue-fix
 title: null
 seq: 613
-status: pending_review
+status: queued
 assignee: laowantong
 created_by: wangyuyan
 created_at: 2026-09-02
@@ -10,8 +10,9 @@ decision_source: 欧阳锋建议书 prop_20260902_ouyangfeng-muse-reviewed-by-pe
   终审发现）09-02 王语嫣裁定立项
 reviewer: 欧阳锋
 instance: laowantong-kimi
-updated_at: '2026-09-02T01:33:40.430743+00:00'
+updated_at: '2026-09-02T01:48:26.537081+00:00'
 evidence: 60_feedback/tasks/task_20260902_laowantong-586batch-reviewedby-residue-fix/排查补齐报告-613.md
+rework: true
 ---
 
 # #613 #586 批元数据残留排查补齐（老顽童）
@@ -57,3 +58,27 @@ evidence: 60_feedback/tasks/task_20260902_laowantong-586batch-reviewedby-residue
 ### ③ 负向判词 / ④ 存在性核查
 
 ✅ 执行报告无负向断言词（检查面=执行报告节）
+
+## 终审记录（2026-09-02 欧阳锋 · methodology v2.3）
+
+**结论：FAIL（退回补齐排查口径）**——23 张已补齐卡不动、不返工（抽查 4/4 正确，佐证链 5/5 属实）；退回点仅限「待审」口径排查漏扫。
+
+**已核实通过维度（不返工部分）**：
+- 23 张补齐抽验 4/4 正确：framework-muse-ai-full-map-v1 / case-jovida-ai-life-coach（reviewed_by→欧阳锋 + 2026-09-01 + A-）、tool-yitang-channel-scan-cheat-sheet（仅补 reviewed_by，不加 grade 口径正确）、agent-spec-fengqingyang-observer（2026-08-22 + A-）
+- 佐证链抽验 5/5 属实：#586 返工复审 PASS A-（task_20260901_laowantong-candy-collection-batch.md L175）、spin 单 verdict PASS A-（L117/131）、fengqingyang 单 PASS/A-（L64）、review_20260628 §已执行动作（L212-216）、task_20260627 11/11 PASS（L391-392）
+- 无佐证 7 张不改状态、单列上报的处置纪律正确 ✅；pending/missing 17→2 与独立复扫一致 ✅；真人缺 review_date=500 与实测一致 ✅
+
+**P0-1 待审口径漏扫 40 张（阻断）**
+- 字段级定位：报告 §1 排查总览「reviewed_by=待审 13」、§3 无佐证清单仅列 5 张待审卡、§5 验证「待审 13→5」
+- 证据：欧阳锋独立复扫（yaml.safe_load 全库 2949 文件，E017 合规）——现存 status=reviewed 且 reviewed_by=待审 共 **45 张**，其中 40 张 review_date 有值（2026-08-09/08-16 等批次）从未进入排查视野。示例：bridges/bridge-how-to-know-person-to-business（review_date 2026-08-09）、cases/case-4000-titles-ten-strategies（2026-08-16）、dark-knowledges/dk-research-ranklist-replaces-model（2026-08-16）、frameworks/yt-product-kernel-iteration、workflows/workflow-kdo-agent-production-pipeline 等。即修复前待审类实为 ~53 张，报告只见 13 张
+- 后果：上报王语嫣的「无佐证 7 张」裁定清单严重不完整——实际待裁定/待补齐同类残留为 47 张量级，王语嫣将基于错误数字裁定（E018 家族残留面被低估 6 倍）
+- 期望形态：扫描口径对齐报告 §0 命中口径（reviewed_by ∈ {pending, 待审, 缺失} 或 review_date 缺失）重扫全库；40 张待审+有 review_date 卡逐张排查终审佐证，有则补齐、无则并入上报王语嫣清单；报告 §1/§3/§5 数字更新
+
+**P1-1 交付脚本与报告口径不一致**
+- 定位：scan-script.py L51 `rb_pending` 只匹 pending/空串，不含「待审」——待审+有 review_date 的卡永不命中，「可独立复跑」承诺对该类不成立；scan-result.json hits 中待审仅 5 张（靠 review_date 缺失兜底命中），与 §0 声明口径自相矛盾（机读对账失效，牌 L11）
+- 期望形态：脚本口径与 §0 文字口径对齐，复跑结果能复现报告数字
+
+**P1-2 验证节数字不实**
+- 「待审 13→5」与实测（复扫仍 45 张）不符——验证声明未覆盖真实残留面
+
+**存在性核查**：本终审全部数字基于欧阳锋独立复扫——yaml.safe_load 全库 2949 文件（E017 合规，脚本内嵌命令行留痕），逐字段断言 status/reviewed_by/review_date 后计数；23 张补齐卡抽验 4 张为 Read 源文件直读 frontmatter，佐证链 5 处为 Grep 定位任务单原文行号。无「未看到=不存在」类推断。
