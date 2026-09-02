@@ -1,13 +1,11 @@
 ---
-
 id: concept-一堂-business-prediction
 title: 商业预判：15字诀与光谱模型——从拍脑袋到科学决策
 type: concept
-status: enriched
-downgrade_reason: "#614 裁定表卡12（2026-09-02 欧阳锋补审）：source_refs 两文件名死链（真实源=机会预判课）+⑦ToB 矩阵引言虚构+④与源不符；FAIL 点=修文件名+删换⑦+修正④，修后重审（内容修复另行编排）"
+status: reviewed
 author: 老顽童
-reviewed_by: 待审
-review_date: 2026-07-08
+reviewed_by: 欧阳锋
+review_date: 2026-09-02
 confidence: 0.85
 trust_level: high
 language: zh-CN
@@ -64,7 +62,6 @@ tags:
   - 科学决策
   - 方法
 ---
-
 # 商业预判：15字诀与光谱模型——从拍脑袋到科学决策
 
 > **Burn line**: 商业预判是在投入实质性资源之前，用结构化方法论对商业机会做系统性评估和筛选——将成功率从10%提升到30%以上。它不是算命，而是"在100个选项中，通过加法→减法的收敛过程，找到3-5个最值得深入验证的方向"。

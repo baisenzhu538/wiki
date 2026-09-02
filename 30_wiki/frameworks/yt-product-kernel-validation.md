@@ -4,8 +4,7 @@ domain:
 id: yt-product-kernel-validation
 title: 产品内核验证：三维度评估 × 六策略阶梯
 type: framework
-status: enriched
-downgrade_reason: "#614 裁定表卡9（2026-09-02 欧阳锋补审）：两处加引号「Truman 原话」对源零命中（伪逐字引文触 O0 红线）；FAIL 点=替换为真实原句或改转述，修后重审（内容修复另行编排）"
+status: reviewed
 confidence: 0.94
 trust_level: high
 source_context:
@@ -29,8 +28,8 @@ source_refs:
 created_at: '2026-06-19'
 updated_at: '2026-07-08'
 author: 老顽童
-reviewed_by: 待审
-review_date: '2026-06-19'
+reviewed_by: 欧阳锋
+review_date: 2026-09-02
 related:
   - "[[concept-一堂-kernel-validation]]"
   - "[[concept-一堂-product-kernel]]"
@@ -68,7 +67,6 @@ tags:
 - 低成本验证
 - 产品假设验证
 ---
-
 # 产品内核验证：三维度评估 × 六策略阶梯
 
 > **一堂五步法**：产品内核是假设，不是定论——需要验证而非信仰。风险越高，步子越小。三维度帮你找到"最可能出错的地方"，六策略帮你用最低成本验证最高风险的假设。

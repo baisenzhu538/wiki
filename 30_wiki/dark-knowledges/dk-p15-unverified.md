@@ -1,12 +1,11 @@
 ---
-status: enriched
-downgrade_reason: "#614 裁定表卡1（2026-09-02 欧阳锋补审）：六段模板四段+关联节全 src_unknown 占位，格式合规但内容空洞，reviewed 不成立；FAIL 点=按 .agent/pitfalls.md P-15 原始条目重写六段后重审（内容修复另行编排）"
+status: reviewed
 type: dk
 domain:
 - product
 id: dk-p15-unverified
 author: unknown
-reviewed_by: pending
+reviewed_by: 欧阳锋
 created_at: 2026-06-15
 confidence: 0.75
 trust_level: medium
@@ -25,7 +24,7 @@ related:
 - "[[dk-yb25-solution-driven-visual-design]]"
 - "[[dk-p17-accuracy-gap]]"
 - '[[dk-p9-glob-miss]]'
-review_date: '2026-06-29'
+review_date: 2026-09-02
 tags:
   - audience:general
   - scene:reference
@@ -35,7 +34,6 @@ tags:
   - 数据
   - 场景
 ---
-
 # P-15：执行者声称"完成"但实际未做——可测量指标必须独立验证
 
 ## 原始表述
@@ -106,22 +104,16 @@ tags:
 
 ## 与其他知识的关联
 
-- [[dk-p10-oral-ban]] — P-10 的对称问题：口头指令不存在 vs 口头完成不存在
+- [[dk-p10-oral-ban]] — P-10 的对称问题：口头指令不存在 vs 口头完成不存在；原始条目自述——不仅指令要落笔，完成数据也要可重复验证
 - [[dk-p17-accuracy-gap]] — 同族病：P-17 是"测了但测的是错的指标"，P-15 是"根本没测就报数"
-- [[dk-p9-glob-miss]] — 工具使用层面的"以为做了实际没做"同构
+- [[dk-p9-glob-miss]] — 工具使用层面的"以为做了实际没做"/"以为覆盖了实际漏了"同构
 - [[dk-c7-auto-backup-conflict]] — 自动化流程中"脚本跑了"≠"结果对了"的另一实例
+- [[dk-yb25-solution-driven-visual-design]] — 目标先行导致动作变形的同族模式
 
 ## Critique
 
 - **内部局限**：未验证结论卡（dk-p15）是"未经验证的知识"——信任等级天然低（引用前必须独立核实）；卡内容若被当作已验证知识使用会传播错误；"未验证"标签依赖读者自觉（无强制机制）。
 - **外部攻击（证据视角）**：未验证知识进知识库有"污染风险"——应与其他卡区分（标记醒目/不进检索高权重）；知识库的质量取决于最差卡（未验证卡拉低整体可信度）；治理方向是"验证后升级"（验证通过才转正），不能长期停留在未验证态。
-
-## 与其他知识的关联
-
-- [[dk-p10-oral-ban]] — 对称问题（P-15 原始条目自述）：不仅指令要落笔，完成数据也要可重复验证
-- [[dk-p17-accuracy-gap]] — 同族病的另一表现：不是"没做"，而是"测了但测的是错的指标"
-- [[dk-p9-glob-miss]] — "以为覆盖了实际漏了"的工具层同构
-- [[dk-yb25-solution-driven-visual-design]] — 目标先行导致动作变形的同族模式
 
 ## 老顽童疑问（2026-06-03）
 

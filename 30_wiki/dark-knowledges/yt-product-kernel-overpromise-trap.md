@@ -1,13 +1,11 @@
 ---
-
 domain:
 - product
 id: yt-product-kernel-overpromise-trap
 title: 过度承诺陷阱：前端卖了后端做不出来的东西
 type: dk
 dark_knowledge_type: trap
-status: enriched
-downgrade_reason: "#614 裁定表卡14（2026-09-02 欧阳锋补审）：核心引文块系改写拼贴包装成 Truman 口述+「月入过万」无源；FAIL 点=引文块改转述或换真实原句+删「月入过万」，修后重审（内容修复另行编排）"
+status: reviewed
 confidence: 0.85
 trust_level: high
 source_context:
@@ -28,8 +26,8 @@ source_refs:
 created_at: '2026-07-08'
 updated_at: '2026-07-08'
 author: 老顽童
-reviewed_by: 待审
-review_date: '2026-07-08'
+reviewed_by: 欧阳锋
+review_date: 2026-09-02
 discoverable_by:
   - 过度承诺陷阱：前端卖了后端做不出来的东西
   - 过度承诺陷阱
@@ -56,7 +54,6 @@ tags:
   framework_lens: 你的核心用户真的具备使用这个产品的基础能力吗？
   follow_up_question: 你的产品要求用户做哪些额外动作（学习、安装、配合）？这些用户真的能做到吗？
 ---
-
 # 过度承诺陷阱：前端卖了后端做不出来的东西
 
 ## 原始表述

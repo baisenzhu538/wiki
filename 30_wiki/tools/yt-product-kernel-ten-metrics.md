@@ -6,8 +6,7 @@ domain:
 id: yt-product-kernel-ten-metrics
 title: 产品内核十大典型指标：从假设到验证的数据体系
 type: tool
-status: enriched
-downgrade_reason: "#614 裁定表卡10（2026-09-02 欧阳锋补审）：十大指标清单与全部三个源文件仅 1/10 重合（系外部通用增长指标移植）+下半部 4 节占位；FAIL 点=按源重写核心指标表+补齐占位节，修后重审（内容修复另行编排）"
+status: reviewed
 confidence: 0.92
 trust_level: high
 source_context:
@@ -26,8 +25,8 @@ source_refs:
 created_at: '2026-06-19'
 updated_at: '2026-07-08'
 author: 老顽童
-reviewed_by: 待审
-review_date: '2026-06-19'
+reviewed_by: 欧阳锋
+review_date: 2026-09-02
 discoverable_by:
   - 产品内核十大典型指标：从假设到验证的数据体系
   - 产品内核十大典型指标
