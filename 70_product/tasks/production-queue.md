@@ -252,7 +252,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 618 | `task_20260902_huangyaoshi-kdo-tests-flake-governance` | KDO测试flake治理：test_cli_smoke断言对齐现行schema+test_dashboard_server顺序依赖解耦+全量回归原样输出 | reviewed | huangyaoshi | 两处修复diff+全量回归输出 | 无 | `60_feedback/tasks/task_20260902_huangyaoshi-kdo-tests-flake-governance.md` | 欧阳锋建议书（09-02王语嫣漏扫9h后补裁定，E052复盘）；提审数字原样纪律随单生效；欧阳锋终审 |
 | 619 | `task_20260902_huangyaoshi-watch-inbox-pipeline-dirs-fix` | watch_inbox扫描面回补管线落点子目录白名单（wechat-collect/video_transcripts/video_transcripts_small）——#605裁剪误伤，05:47四件静默漏登记实证 | reviewed | huangyaoshi | diff+实跑登记证据 | 无 | `60_feedback/tasks/task_20260902_huangyaoshi-watch-inbox-pipeline-dirs-fix.md` | 老朱09-02问采集链→王语嫣实测发现第二环断；Handle等大目录继续排除；欧阳锋终审 |
 | 620 | `task_20260902_huangyaoshi-instance-naming-role-only` | 实例命名铁律落地：拉起器/状态机实例名去工具后缀（{role}-kimi→{role}），过渡期兼容在途旧名 | queued | huangyaoshi | diff+回归实证 | #619 收口后（防在途单锁失配） | `60_feedback/tasks/task_20260902_huangyaoshi-instance-naming-role-only.md` | 老朱09-02直令铁律（工具可换名字不挂工具）；queue_transition兼容旧名尾缀；欧阳锋终审 |
-| 621 | `task_20260902_huangyaoshi-toutiao-shortlink-regex-fix` | 头条短链is/XXX形态正则漏配致采集链断（老朱09-02 20:09链接卡死实证）——一行修复+端到端实跑验证 | pending_review | huangyaoshi | diff+该链接落inbox实证 | 无（急单插队：线上在流血） | `60_feedback/tasks/task_20260902_huangyaoshi-toutiao-shortlink-regex-fix.md` | 老朱09-02晚问链接→王语嫣实测定位；失败不记seen设计保留；欧阳锋终审 |
+| 621 | `task_20260902_huangyaoshi-toutiao-shortlink-regex-fix` | 头条短链is/XXX形态正则漏配致采集链断（老朱09-02 20:09链接卡死实证）——一行修复+端到端实跑验证 | reviewed | huangyaoshi | diff+该链接落inbox实证 | 无（急单插队：线上在流血） | `60_feedback/tasks/task_20260902_huangyaoshi-toutiao-shortlink-regex-fix.md` | 老朱09-02晚问链接→王语嫣实测定位；失败不记seen设计保留；欧阳锋终审 |
 | 622 | `task_20260902_huangyaoshi-graph-index-rebuild-sentinel` | graph_index归零重建（08-31事故清空，语义腿空转2天）+健康哨兵机制化（空/0records/陈旧48h告警） | queued | huangyaoshi | 重建记录+口语化查询前后对照+哨兵实证 | 无 | `60_feedback/tasks/task_20260902_huangyaoshi-graph-index-rebuild-sentinel.md` | 外部审计建议书（王语嫣09-02裁定，存在性核查过：0字节mtime落事故窗口）；重建挂后台低峰；哨兵复用既有探针面；欧阳锋终审 |
 
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
@@ -476,7 +476,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#617 task_20260902_laowantong-614-downgraded-cards-rework｜laowantong｜提审 09-02 13:00｜60_feedback/tasks/task_20260902_laowantong-614-downgraded-cards-rework.md~~ → 已终审 PASS A-（2026-09-02 欧阳锋）
 - ~~#618 task_20260902_huangyaoshi-kdo-tests-flake-governance｜huangyaoshi｜提审 09-02 22:07｜60_feedback/tasks/task_20260902_huangyaoshi-kdo-tests-flake-governance.md~~ → 已终审 PASS A（2026-09-02 欧阳锋）
 - ~~#619 task_20260902_huangyaoshi-watch-inbox-pipeline-dirs-fix｜huangyaoshi｜提审 09-02 22:42｜60_feedback/tasks/task_20260902_huangyaoshi-watch-inbox-pipeline-dirs-fix.md~~ → 已终审 PASS A-（2026-09-02 欧阳锋）
-- #621 task_20260902_huangyaoshi-toutiao-shortlink-regex-fix｜huangyaoshi｜提审 09-02 23:16｜60_feedback/tasks/task_20260902_huangyaoshi-toutiao-shortlink-regex-fix.md
+- ~~#621 task_20260902_huangyaoshi-toutiao-shortlink-regex-fix｜huangyaoshi｜提审 09-02 23:16｜60_feedback/tasks/task_20260902_huangyaoshi-toutiao-shortlink-regex-fix.md~~ → 已终审 PASS A（2026-09-02 欧阳锋）
 
 <!-- REVIEW-PENDING-END -->
 
@@ -837,6 +837,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~[gate-blocked] role-liveness｜09-02 23:07｜待王语嫣复核处置｜2026-09-02 23:02:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 1266.7), ('cli', 796.7)]）｜role_registry check-liveness｜role_registry~~ → 划销（09-02 23:25 王语嫣）：老顽童收工空窗常态
 - prop_20260902_ouyangfeng-kdo-tools-pytest-root-runnable.md｜09-02 23:16｜待王语嫣复核裁定
 - ~~[gate-blocked] task_20260902_huangyaoshi-toutiao-shortlink-regex-fix｜09-02 23:16｜待王语嫣复核处置｜2026-09-02 23:15:31｜task_20260902_huangyaoshi-toutiao-shortlink-regex-fix｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生 / - untracked: 00_inbox/wechat-collect/src_wechat_article_｜huangyaoshi-kimi~~ → 划销（09-02 23:25 王语嫣）：E040 误伤——untracked 的是 00_inbox 文件，inbox 不进 git 是铁律（f4cd8efdd），门禁口径缺陷记 F-068
+- diag_20260902_huangyaoshi-graph-index-empty-recur.md｜09-02 23:27｜待王语嫣复核裁定
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
