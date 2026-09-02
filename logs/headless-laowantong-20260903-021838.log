@@ -1,0 +1,28 @@
+# #626/#630 施工报告（会话到达工具调用上限，如实交接）
+
+## 已完成
+
+**启动链**：startup.md / laowantong-context.md / todos 未读段 / myqueue 全表 ✅；#626 已 claim（claimed-laowantong）；#630 因同实例单持锁待 626 complete 后领取（其交付物本来就落 #626 执行报告，不单独提审）。
+
+**素材消费（L2，claim 前置笔记已落盘）**：Live77 逐字稿 223 行逐字读；Live86 三版本全读——根目录 Candy 版 680 行、原稿 670 行（#630 一等锚）、合集版 1231 行。关键发现：根目录 Candy 版「二、kinda实测好用Agent的创建模版」为**空标题**，完整模版附录在合集版 L733-1231（11 节白皮书，含灵魂校验三问/权限三层/初始化 16 步）。双向 diff 脚本实测：Candy 版实质独有行 25 条，模版附录=真增量。
+
+**5 张卡全部落盘且 pre-submit 5/5 PASS**（6 条 WARNING 均 #542 提示制，含 1 条 ALIASES 误报——alias 实际存在，已用 yaml 复现核验，系 kdo 自带 parse_frontmatter 解析差异）：
+
+1. `30_wiki/frameworks/framework-course-thought-production-line.md`（思想生产线 11 环+KDO 同构映射）
+2. `30_wiki/methods/method-course-creation-eleven-steps.md`（11 条口诀操作化）
+3. `30_wiki/dark-knowledges/dk-course-starts-from-unavoidable-question.md`（含 Critique 双攻击）
+4. `30_wiki/tools/tool-agent-whitepaper-full-lifecycle-template.md`（Live86 任务2 增量卡，#322 双标注，一等锚=原稿+合集版双 source_refs）
+5. `30_wiki/cases/case-wechat-article-workbuddy-selfmedia-pipeline.md`（任务3 门禁复核=补齐转正，trust_level: low 如实降级；原 pending 卡已移 `_processed/`）
+
+反向补链 4 张存量卡完成，双向无死链；`kdo index --incremental` 已跑（4185）。
+
+## 未完成（下一会话按序执行，勿重产卡）
+
+1. **写执行报告**：在 `60_feedback/tasks/task_20260903_laowantong-live77-live86-candy-cards.md` 追加五字段执行报告（交付物=上述5卡+对账结论+门禁判定；验证=`kdo pre-submit -f <5卡>` 输出 5/5 PASS；边界=WorkBuddy 数字 self-report 未核实/根目录 Candy 版模版正文缺失以合集版为准；需要谁动作=欧阳锋终审）+ #630 口径对账证据节（Candy=加餐独立素材教训+整理版≠同源双向 diff 实证）
+2. `git add` 上述 5 卡+3 张补链卡+索引+任务单，`git commit`（L12：交付物入仓后才 complete）
+3. `python 90_control/scripts/queue_transition.py complete task_20260903_laowantong-live77-live86-candy-cards --instance laowantong --evidence <pre-submit输出>`
+4. `claim task_20260903_laowantong-626-source-anchor-fix` → 该单口径已落实进执行报告，按任务单「随 #626 一并终审」处理并 complete 或按门禁提示操作
+5. **L9 双验证**：`queue_transition.py status` + Read 任务单确认 `pending_review`
+6. `90_control/todos/laowantong.md` 落一行完成记录
+
+卡内容与门禁已全部就绪，剩余为纯机械流转步骤。

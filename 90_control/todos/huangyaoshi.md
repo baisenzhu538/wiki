@@ -469,3 +469,5 @@
 - [2026-09-03 02:17] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#628（huangyaoshi 的单，挂审 36min）（到点（节奏 15min））
 - [2026-09-03 02:27] ✅ KDO 终审通过 1 单：#628——你的单过了，见任务单终审记录
 - [2026-09-03 02:32] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-03 02:55] ✅ #631 孤儿backup触发源追查 complete 提审：触发源锁定=obsidian-git插件auto backup（10min同文模板，01:28→01:38→01:48→01:58严格10min链+545bd0f5a落链+Obsidian.exe在跑三铁证，vs schtasks整秒:20/:50双写手对照）+探针第十二信号非节拍检测（真机首拍即现行窗内5个）+第十信号SKIPPED认跳拍+matrix行28；新测试6条全过+全量488passed/0failed；⚠️待王语嫣/老朱处置：obsidian-git是唯一活跃push通道，关auto backup需先另立push机制
+- [2026-09-03 02:47] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#631（huangyaoshi 的单，挂审 4min）（到点（节奏 15min））

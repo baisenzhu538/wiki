@@ -2040,3 +2040,498 @@ Thu Sep  3 01:32:13     2026
   #628 task_20260903_huangyaoshi-backup-worktree-collision-guard — vault backup×在制品互撞防护：备份前活动会话检测（有则跳拍留痕）+拉起模板禁s
 ⚖️ 最近终审（48h） 12:
 • 待命。#628 挂审 21min，其余全清，无新指令。继续巡航。
+
+- [2026-09-03 02:17] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#628（huangyaoshi 的单，挂审 36min）（到点（节奏 15min））
+- [2026-09-03 02:27] ✅ KDO 终审通过 1 单：#628——你的单过了，见任务单终审记录
+# role=huangyaoshi · 任务路由（#472 只读视图，不动状态机）
+✅ 可领 1:
+  #631 task_20260903_huangyaoshi-orphan-backup-source-hunt — 孤儿backup触发源追查（01:38非节拍收走在制品）+探针非节拍检测信号+守卫SKIP
+⏸ 等依赖 0:
+  (无)
+🧊 冻结 0:
+  (无)
+🚧 进行中 0:
+  (无)
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 13:
+• #628 PASS. New claimable: #631 (orphan backup source hunt). My queue is clear (no pending_review, no claimed) → I can claim per queue order. This is my role's task. Claim it and work.
+
+  Let me read the task file.
+
+• #628 过了，新单 **#631**（孤儿 backup 触发源追查）可领。领取并开工。✅ task_20260903_huangyaoshi-orphan-backup-source-hunt 已领取为 claimed-huangyaoshi-kimi
+
+✅ dashboard.html 已生成 (214 个任务)
+
+
+112da1b13 2026-09-03 01:58:34 +0800 vault backup: 2026-09-03 01:58:34
+a80f98d23 2026-09-03 01:53:16 +0800 chore(queue): #627 review by 欧阳锋
+2a113977d 2026-09-03 01:48:24 +0800 vault backup: 2026-09-03 01:48:24
+edf30c3bd 2026-09-03 01:46:38 +0800 编排：#630修订单（#626素材锚升级，Live86原稿一等锚）
+2363c25d2 2026-09-03 01:43:56 +0800 编排：#629调研域skill补位立项（skills-assistant建议书裁定）+PROPOSAL段陈渣清零
+91f177379 2026-09-03 01:43:17 +0800 收尾：#627/#628 双单提审留痕（todos+friction-log 三行：claim seq 别名坑/evidence 文件路径/孤儿 backup 源）
+2f0d2ef22 2026-09-03 01:41:38 +0800 建议书：01:38 非节拍孤儿 backup commit 源排查（#628 施工中发现，545bd0f5a 旧代码路径收走实证）
+7ee6e8f39 2026-09-03 01:41:29 +0800 chore(queue): #628 complete by huangyaoshi
+545bd0f5a 2026-09-03 01:38:12 +0800 vault backup: 2026-09-03 01:38:12
+42a9c9236 2026-09-03 01:34:06 +0800 chore(queue): #628 claim by huangyaoshi
+0871d5ba0 2026-09-03 01:33:34 +0800 #627 执行报告补存在性核查锚点（#433 负向判词闭环，供终审对照）
+98606af78 2026-09-03 01:33:20 +0800 chore(queue): #627 complete by huangyaoshi
+af0aca9ae 2026-09-03 01:33:00 +0800 基建登记6资产+queue-archive月界口径②（#627）：总表补登记 vault_git_backup/vault-integrity-check/wiki-vault-restore/clock_watchdog/kimi-headless-launch/transcribe_win（覆盖测试复绿8passed+工具族计数重计42）；归档按任务日期归月（跨月补跑不串月），fixture动态日期防漂移，全量回归 477 passed 基线2红清零
+c9693abeb 2026-09-03 01:28:02 +0800 vault backup: 2026-09-03 01:28:02
+1e634cfb6 2026-09-03 01:27:07 +0800 锚点：上线自检五件套（老朱09-03令）
+===
+commit 545bd0f5aaf0b9d0abbe9b755af44fc2ef6af67e
+Author: Linhai Zhu <baisenzhu538@gmail.com>
+Date:   Thu Sep 3 01:38:12 2026 +0800
+
+    vault backup: 2026-09-03 01:38:12
+
+ 20_memory/queue_integrity_audit_latest.md          |   4 +-
+ 60_feedback/auto/health-check-20260903.md          |   2 +-
+ ...261\273\345\236\213\346\225\264\345\220\210.md" | 126 +++++++++++++++++++++
+ .../session-archives/2026-09-03/wangyuyan-kimi.md  | 120 ++++++++++++++++++++
+ ...s_20260903_626-live77-live86-precise-reading.md | 113 ++++++++++++++++++
+ 70_product/tasks/production-queue.md               |   2 +
+• The backup beats: 01:28:02, then orphan 01:38:12, then 01:48:24, 01:58:34. Interesting — the regular beat appears to be :28/:58 (actual schedule per #628 finding "节拍按实况：20/:50"— hmm the 01:48/01:58 are 10min apart?). Wait: c9693abeb 01:28:02, 545bd0f5a 01:38:12, 2a113977d 01:48:24, 112da1b13 01:58:34. That's every ~10 min?! 01:28, 01:38, 01:48, 01:58. Hmm but earlier: 00:12, 00:20, 00:32... irregular.
+
+  schtasks query failed with code 1 (grep found nothing or encoding). Let me query schtasks properly with encoding. Also check the diag file the other instance wrote: 60_feedback/diagnosis/diag_20260903_huangyaoshi-backup-orphan-source.md.The schtasks grep returned nothing visible (output empty after chcp). Let me query the specific task and enumerate all tasks more robustly. Also examine commit timestamps pattern. The #628 finding said beats at :20/:50 ("XML 单触发 07:20 PT30M" → :20/:50). But recent commits: 01:28:02, 01:38:12, 01:48:24, 01:58:34 — that's ~10min cadence, NOT :20/:50! So actually something is committing every 10 minutes. Obsidian-git auto-commit? The wiki-bundle-backup.bat comment mentioned "obsidian-git auto-commit (10min cadence)". Obsidian-git plugin auto-commits! Its message format would be configurable — "vault backup: <ts>" is exactly vault_git_backup.py's message... but someone may have set obsidian-git's commit message to the same template.
+
+  Wait — the orphan hunt: message format identical. Candidates:
+  1. schtasks kdo-vault-git-backup (beat :20/:50)
+  2. Obsidian-git plugin auto-commit (10min cadence) — but its commit message template default is "vault backup: {{date}}"! Yes! Obsidian-git default commit message IS "vault backup: {{date}}"! That's the classic obsidian-git default. So all these "vault backup:" commits might partly come from Obsidian-git, not the python script!
+
+  Obsidian-git default: "vault backup: {{date}}" with date format YYYY-MM-DD HH:mm:ss. That matches exactly. So the 10-min cadence commits (01:28, 01:38, 01:48, 01:58) = Obsidian-git auto backup every 10 min, and the schtasks PT30M = python script at :20/:50. But wait, were there commits at :20/:50? 00:12:24, 00:20:00 (beat), 00:32:48... hmm 00:20:00 exactly matches :20 beat; 00:32:48 doesn't match :20/:50 nor a strict 10-min cadence from 00:20 (00:30 would be expected, got 00:32:48 — obsidian-git timer drifts since it starts when Obsidian opens).
+
+  So hypothesis: TWO sources both writing "vault backup: <ts>":
+  - schtasks python script at :20/:50
+  - Obsidian-git plugin with default message, ~10min cadence
+
+  The 01:38:12 orphan = Obsidian-git. The #628 guard patched vault_git_backup.py but Obsidian-git bypasses it entirely (its own git process, add -A equivalent, no guard). That's the "旧代码路径"!
+
+  Evidence to gather:
+  - .obsidian/ is gitignored... wait, .obsidian/ is in .gitignore. But the plugin config lives there. Check .obsidian/plugins/obsidian-git or community-plugins list + its data.json settings (autoBackupInterval, commitMessage).
+  - Check whether Obsidian is running and vault open.
+  - Compare: does obsidian-git do `git add -A` + commit with that message? Yes.
+
+  Let me check .obsidian config (gitignored but readable locally).claudian
+dataview
+obsidian-excalidraw-plugin
+obsidian-git
+{
+  "commitMessage": "vault backup: {{date}}",
+  "autoCommitMessage": "vault backup: {{date}}",
+  "commitMessageScript": "",
+  "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
+  "autoSaveInterval": 10,
+  "autoPushInterval": 10,
+  "autoPullInterval": 0,
+  "autoPullOnBoot": false,
+  "autoCommitOnlyStaged": false,
+  "disablePush": false,
+  "pullBeforePush": true,
+  "disablePopups": false,
+  "showErrorNotices": true,
+  "disablePopupsForNoChanges": false,
+  "listChangedFilesInMessageBody": false,
+  "showStatusBar": true,
+  "updateSubmodules": false,
+  "syncMethod": "merge",
+  "mergeStrategy": "none",
+  "customMessageOnAutoBackup": false,
+  "autoBackupAfterFileChange": false,
+  "treeStructure": true,
+  "refreshSourceControl": true,
+  "basePath": "",
+  "differentIntervalCommitAndPush": false,
+  "changedFilesInStatusBar": false,
+  "showedMobileNotice": true,
+  "refreshSourceControlTimer": 7000,
+  "showBranchStatusBar": true,
+obsidian-git
+Confirmed: obsidian-git plugin, `autoSaveInterval: 10` (auto backup every 10 min), commit message "vault backup: {{date}}" — identical format to vault_git_backup.py. The 01:38:12 orphan = obsidian-git auto backup. It also explains the whole history of "vault backup" commits — actually wait, does autoSaveInterval mean backup? In obsidian-git, "autoSaveInterval" is "Auto Backup interval" in newer versions. And autoPushInterval: 10 — it also PUSHES every 10 min! That explains how the remote stayed updated... and the 391MB zip push failure would have shown as repeated errors (showErrorNotices: true — user would see popups; the "弹窗根因" from laowantong's commit message!).
+
+  So the answer to 任务1: 触发源 = Obsidian-git plugin auto backup (10min cadence), not a session cron residual. Evidence:
+  - commit message format identical
+  - cadence: 01:28:02 → 01:38:12 → 01:48:24 → 01:58:34 ≈ exactly 10 min intervals
+  - .obsidian config shows autoSaveInterval: 10
+  - Cross-check: were there beats at :20/:50 from schtasks too? 00:20:00 commit exactly at :20 = schtasks python script. So two writers confirmed.
+
+  More evidence: check whether commits at ~10-min cadence persist in windows when schtasks couldn't have fired, and whether Obsidian is currently running. Also: does obsidian-git respect the #628 guard? No — it runs its own git commands, bypassing vault_git_backup.py entirely. That's a real finding: the #628 guard doesn't cover obsidian-git. The guard's fix scope was the python script. Options for coverage: the guard can't hook obsidian-git; but task 2's probe signal (off-beat detection) will catch its commits as "off-beat" — wait, no: if obsidian-git commits every 10 min, then "expected beat :20/:50 ±10min" alarm would fire constantly. The probe signal design must account for dual writers... Hmm.
+
+  Actually — maybe the right call: now that the orphan source is IDENTIFIED as obsidian-git, the detection signal should be reframed: detect backup commits NOT from schtasks beat, i.e., near-10-min-cadence "vault backup" commits = obsidian-git activity. But the task says: "git log 时间戳 vs 预期节拍（:02/:32）差 >10min → 报警". Task says beats :02/:32 but #628 found actual beats :20/:50. Whatever — implementation detail: alarm when a "vault backup" commit is off the schtasks beat by >10min.
+
+  But wait — if obsidian-git commits every 10 min legitimately(?) then this alarm fires nonstop. Is obsidian-git backup desirable? It double-tracks with the schtasks backup. The orphan commit "收走在制品" — obsidian-git does the same add-all behavior. Actually per the decision, the 建议书 wanted the source found; disposition of obsidian-git (disable? keep?) is 王语嫣/老朱's call. For the probe signal, I should implement as specified but maybe: only alarm if off-beat commit exists AND... hmm. Let me think about what's actionable:
+
+  Given the source is identified (obsidian-git), the natural recommendation: disable obsidian-git auto backup (single writer = schtasks script with #628 guard) — that decision belongs to 王语嫣/老朱. The probe signal then makes sense: after obsidian-git auto backup is disabled, any off-beat "vault backup" commit = anomaly → alarm. Until then the signal would be noisy... but I can implement it to detect and report off-beat commits with count; and if obsidian-git stays enabled, the alarm will be constant — that's the point ("孤儿源自动现行"), but a constantly-firing alarm is bad design.
+
+  Alternative honest implementation: the probe checks each new "vault backup:" commit's timestamp against the schtasks beat grid; off-grid → alarm with the evidence. Given obsidian-git is the known second writer, the recommendation in the report: disable obsidian-git auto-backup (or set its interval to 0), leaving schtasks as single writer; the probe then guards regressions. I'll surface this as 需要谁动作 for 王语嫣/老朱.
+
+  Hmm wait — but also check: is autoPushInterval 10 pushing too? disablePush: false. So obsidian-git pushes every 10 min. The schtasks script doesn't push at all (just local commit). So obsidian-git is currently the ONLY push channel?! If we disable it, pushes stop. Actually laowantong's 20ac959eb fixed push链路 (upstream etc.) — for which mechanism? The bundle backup (.bat) does bundles, not push. So obsidian-git might be the live push path. Careful — recommending disable must note the push gap. The #625/#607 context: backup strategy = local commits + bundle to D: + offsite. Push to GitHub also matters. I'll present facts and let 王语嫣/老朱 decide.
+
+  Let me verify the dual-writer hypothesis harder:
+  1. Get all "vault backup:" commit times today, check cadence clusters.
+  2. Check Obsidian process running.
+  3. Check obsidian-git behavior: it commits only when there are changes.2026-09-03 02:29:46 +0800
+2026-09-03 02:19:02 +0800
+2026-09-03 02:08:47 +0800
+2026-09-03 01:58:34 +0800
+2026-09-03 01:48:24 +0800
+2026-09-03 01:38:12 +0800
+2026-09-03 01:28:02 +0800
+2026-09-03 01:20:00 +0800
+2026-09-03 01:17:49 +0800
+2026-09-03 00:57:00 +0800
+2026-09-03 00:50:00 +0800
+2026-09-03 00:32:48 +0800
+2026-09-03 00:22:36 +0800
+2026-09-03 00:20:00 +0800
+2026-09-03 00:12:24 +0800
+2026-09-03 00:02:04 +0800
+2026-09-02 23:50:00 +0800
+2026-09-02 23:20:00 +0800
+2026-09-02 23:13:08 +0800
+2026-09-02 23:02:30 +0800
+2026-09-02 22:50:00 +0800
+2026-09-02 22:32:54 +0800
+2026-09-02 22:20:00 +0800
+2026-09-02 21:50:01 +0800
+2026-09-02 21:30:11 +0800
+2026-09-02 21:20:00 +0800
+2026-09-02 20:50:01 +0800
+2026-09-02 20:20:00 +0800
+
+ӳ������                       PID �Ự��              �Ự#       �ڴ�ʹ�� 
+========================= ======== ================ =========== ============
+Obsidian.exe                 14860 Console                    1    123,856 K
+Obsidian.exe                  8592 Console                    1     84,140 K
+Beautiful evidence. Commit times:
+
+  - Exactly on :20/:50 to the second (00:20:00, 00:50:00, 01:20:00, 20:20:00, 20:50:01, 21:20:00, 22:20:00, 22:50:00, 23:20:00, 23:50:00) = schtasks kdo-vault-git-backup (PT30M from 07:20). Note 01:50 missing (guard SKIPPED due to active session — #628 working! And 02:20? 02:19:02 close but not exact... hmm 02:19:02 not :20:00. Wait schtasks would fire at 02:20:00 sharp. 02:19:02 is off by 58s — that's obsidian-git. And 02:08:47, 02:29:46 — ~10min cadence: 01:58:34, 02:08:47, 02:19:02, 02:29:46 ≈ 10.2 min apart.)
+  - Off-beat ~10-min cadence: 00:02:04, 00:12:24, 00:22:36, 00:32:48, (00:42 missing — maybe no changes), 00:57:00(?), 01:17:49, 01:28:02, 01:38:12, 01:48:24, 01:58:34, 02:08:47, 02:19:02, 02:29:46 = obsidian-git (autoSaveInterval 10, drifts).
+  - 00:57:00 — hmm, doesn't fit 10-min from 00:32 (00:42/00:52 expected); could be obsidian-git after gaps with no changes.
+
+  Obsidian.exe running (2 processes). schtasks query for the task didn't output (grep filtered?) — command printed nothing for schtasks; encoding issue maybe. Not critical — the :20/:50 on-the-second commits prove the schtasks writer.
+
+  So conclusion 任务1: 双写手。orphan = obsidian-git auto backup (10min). Also 01:38:12 matches obsidian-git cadence chain (01:28:02 +10min = 01:38:12 ✓ exactly 10min10s… 01:28:02→01:38:12 = 10m10s ✓).
+
+  Bonus insight: the whole history of "vault backup" commits mixes two writers; obsidian-git also pushes (autoPushInterval 10, disablePush false) — it's the live push channel.
+
+  Now implement:
+
+  任务2: conveyor_probe new signal — off-beat backup commit detection. Design: read `git log --grep="^vault backup:" --format=%ci -n N`; expected beat grid from schtasks = :20/:50 (should read from actual schedule rather than hardcode? #628 found "节拍按实况：20/:50". I'll make expected beats configurable constant (20,50) with comment; a commit whose minute deviates from nearest beat by >10min → count as off-beat → alarm via infra_alerts channel (same as other signals). But given obsidian-git currently fires every 10 min legitimately(?) this would alarm constantly until 王语嫣/老朱 disposes obsidian-git. That's intended ("孤儿源自动现行") — the signal makes the second writer visible. But alarm fatigue... The probe has 沿触发幂等 (edge-triggered, re-arm on recovery) so it alarms once until resolved. Acceptable.
+
+  Look at conveyor_probe structure — the eleventh signal `_scan_graph_index_health` added by #622. I'll add twelfth signal `_scan_offbeat_backup_commit`. Also 任务3: #628 guard SKIPPED line → tenth signal (`_scan_backup_stall`) should accept SKIPPED as healthy (not stall). Need to read the relevant code: _scan_backup_stall and how #628 guard writes SKIPPED lines (in backup log? where?). Let me read conveyor_probe.py's backup stall signal and vault_git_backup.py current state (post-#628).167:def _scan_proposals() -> list[str]:
+243:def _scan_proposal_near_miss(state: dict, effective_date: str | None = None) -> list[str]:
+422:def _scan_friction(state: dict) -> list[str]:
+471:    ①窗口口径——流转 commit（chore(queue)/vault backup）必然插队把功能 commit 挤出
+500:                      if ln.strip() and not ln.split("\x1f", 1)[1].startswith(("chore(queue)", "vault backup"))]
+555:def _scan_issue_no_disposition(state: dict, new_reviewed: list) -> list[str]:
+592:def _scan_gate_blocked(state: dict) -> list[str]:
+869:def _scan_infra_liveness(state: dict) -> list[str]:
+888:def _scan_backup_stall(state: dict, max_age_h: float = 24) -> list[str]:
+889:    """#607 第十信号：vault backup 心跳停拍——最后一次 `vault backup` commit 超 24h 即告。
+891:    背景：backup 曾是会话级 cron，08-26 重启杀会话后停摆 6 天无人察觉（空窗实证）。
+898:            ["git", "-C", str(ROOT), "log", "-1", "--grep=vault backup", "--format=%ct"],
+904:    flagged = bool(state.get("backup_stall", False))
+906:        state["backup_stall"] = True
+908:            age_txt = "无任何 backup commit" if age_h == float("inf") else f"停拍 {age_h:.0f}h"
+909:            return [f"vault-backup｜{age_txt}（阈值 {max_age_h:.0f}h）"]
+911:        state["backup_stall"] = False
+915:def _scan_graph_index_health(state: dict, max_lag_h: float = 48) -> list[str]:
+1020:def _scan_pending_decision(state: dict) -> tuple[list, list]:
+1144:    infra_alerts += _scan_backup_stall(state)  # #607 第十信号：backup 心跳并入第九信号同一通道
+23:任一命中 → 本拍跳过（留痕 SKIPPED 行）——宁可少一拍备份，不可收走在制品。
+55:def run(args: list[str]) -> subprocess.CompletedProcess:
+60:def _log_gate(lines: list[str]) -> None:
+72:def _registry_actives() -> list[str]:
+94:def _filter_cli_paths(text: str) -> list[str]:
+105:def _agent_processes() -> list[str]:
+122:def active_sessions() -> list[str]:
+133:def gate_staged_large_files() -> tuple[list[str], list[str]]:
+164:def main() -> int:
+167:    actives = active_sessions()
+170:        print(f"vault backup: {datetime.now():%Y-%m-%d %H:%M:%S} SKIPPED"
+Now I understand the full picture. Key design considerations:
+
+  任务2 — off-beat backup commit detection in conveyor_probe:
+  - Read recent "vault backup" commits: `git log --grep="^vault backup:" --format=%ct -n 50` (skip SKIPPED ones? SKIPPED lines are printed to stdout by the script but NOT commits — they don't create commits. So git log only has actual commits).
+  - Expected beat grid: schtasks kdo-vault-git-backup PT30M from 07:20 → minutes :20/:50. Task text says (:02/:32) but #628 verified actual = :20/:50. Use (20, 50) with comment.
+  - Any "vault backup" commit whose timestamp is >10min from the nearest grid beat → off-beat (orphan writer active) → alarm.
+  - Edge-trigger idempotent: state["offbeat_backup"] = bool or latest off-beat hash; alarm once per new finding; re-arm when clean.
+  - Where to hook: same infra_alerts channel (line 1144 area).
+
+  But noise concern: obsidian-git fires every ~10min → the signal will be constantly "on" until 老朱/王语嫣 disposes obsidian-git. Edge-triggered: alarm once, stays flagged while off-beat commits keep appearing... When does it recover? If obsidian-git remains enabled, off-beat commits keep coming → alarm fires once and stays armed-off forever — effectively a one-time alarm. That's acceptable and honest: it surfaces the second writer once; disposition is human's. But then it never re-arms — future orphan sources wouldn't re-alert. Better: track the set of off-beat commit hashes seen? Or alarm on "new off-beat commit in last scan window"? With 10-min obsidian cadence and 10-min probe cadence, every probe tick sees a new off-beat commit → alarm every tick = noise flood.
+
+  Hmm. Design decision: alarm when off-beat commits detected, edge-triggered on *count/threshold change*? Simpler honest approach: state stores last alarmed off-beat commit hash; new off-beat commit with different hash → re-alarm? That floods with obsidian-git active.
+
+  Alternative: since 任务1 identifies the orphan source = obsidian-git (a known, explainable second writer), the signal's purpose shifts: after disposition (presumably disabling obsidian-git auto-backup or accepting it), the signal detects *unknown* writers. Practical implementation: off-beat detection + **known-writer whitelist**: if obsidian-git auto backup is still enabled (config file shows autoSaveInterval > 0), off-beat ~10min cadence commits are "explained" — signal could report "off-beat commits present, explained by obsidian-git (pending disposition #631)" once, then stay quiet; if obsidian-git gets disabled and off-beat commits persist → alarm (unknown writer). 
+
+  That's getting complex. Keep it simpler per task text: "git log 时间戳 vs 预期节拍（:02/:32）差 >10min → 报警". Implement literally: any off-beat vault-backup commit in the scan window (say, last 2 beats = last 60 min) → alarm with the offending timestamp(s). Edge-trigger via state flag; re-arm when a full scan window is clean. Yes, while obsidian-git is enabled this alarm will be continuously triggered → fires once, stays flagged, and won't recover → one notification to 王语嫣 telling her "off-beat writer active". That matches the intent (orphan source auto-surfaces). After disposition (disable obsidian-git auto-backup), window goes clean → re-arm. Good enough, honest, simple.
+
+  任务3 — SKIPPED 行接第十信号： the tenth signal (_scan_backup_stall) looks at last "vault backup" commit age > 24h. With guard SKIPPED, beats may be skipped... but commit age only grows if no commits at all. SKIPPED means no commit from schtasks; but obsidian-git still commits "vault backup" — so stall never triggers while obsidian-git active. The task: "认跳拍不报停拍" — the stall signal should treat guard-SKIPPED as healthy heartbeat, not stall. Where are SKIPPED lines logged? The script prints to stdout → schtasks log? Where does the schtasks output go? The script prints; the .cmd wrapper (vault-git-backup.cmd) probably redirects to a log. Let me check vault-git-backup.cmd. The probe should read that log for recent SKIPPED lines: if last backup commit is old BUT recent SKIPPED lines exist within beat window → healthy (guard working as intended), don't alarm.
+
+  Check the .cmd wrapper.
+
+• 设计定了。看 schtasks 包装的日志落点（SKIPPED 行写哪）。@echo off
+rem #607: vault git snapshot backup (30 min via schtasks kdo-vault-git-backup). Keep pure ASCII.
+if "%KDO_ROOT%"=="" set "KDO_ROOT=%~dp0.."
+cd /d "%KDO_ROOT%"
+"C:\Program Files\Python312\python.exe" kdo-tools\vault_git_backup.py >> logs\vault-git-backup.log 2>&1
+===
+
+
+vault backup: 2026-09-02 22:20:00
+vault backup: 2026-09-02 22:50:00
+vault backup: 2026-09-02 23:50:00
+vault backup: 2026-09-03 00:20:00
+vault backup: 2026-09-03 00:50:00
+vault backup: 2026-09-03 01:20:00
+vault backup: 2026-09-03 01:50:00 SKIPPED（#628 活动会话 7：wangyuyan(kimi-cli), ouyangfeng(cli), huangyaoshi(cli), laowantong(cli), proc:claude.exe, proc:codex.exe, proc:kimi.exe）
+vault backup: 2026-09-03 02:20:00 SKIPPED（#628 活动会话 7：wangyuyan(kimi-cli), ouyangfeng(cli), huangyaoshi(cli), laowantong(cli), proc:claude.exe, proc:codex.exe, proc:kimi.exe）
+-rw-r--r-- 1 Administrator 197121 1675 Sep  3 02:20 logs/vault-git-backup.log
+• SKIPPED lines land in `logs/vault-git-backup.log`. Guard is working (01:50, 02:20 skipped — my own active session among them). 
+
+  Now implement in conveyor_probe.py:
+
+  1. Modify `_scan_backup_stall` （任务3): before declaring stall, check logs/vault-git-backup.log for recent SKIPPED lines. If last commit old but a SKIPPED line within max_age_h exists → healthy (guard intentional skip), don't alarm. Parse lines "vault backup: YYYY-MM-DD HH:MM:SS SKIPPED". Compare its timestamp age.
+
+  2. New `_scan_offbeat_backup_commit(state)` （任务2): 
+  ```python
+  def _scan_offbeat_backup(state, window_min=90, tolerance_min=10):
+      # git log recent "vault backup" commits in window
+      # beat grid: minutes 20, 50 (schtasks PT30M from 07:20)
+      # off-beat if distance to nearest grid minute > tolerance
+      # edge-trigger: state["offbeat_backup"] bool; alarm once w/ evidence; re-arm when clean
+  ```
+  Note commits at exact :20:00/:50:00 are schtasks; SKIPPED beats produce no commit. Grid check: minute in {20,50} ± tolerance... but commits can be a bit late? Schtasks fires exactly at :20:00 — commits showed 00:20:00 sharp, 20:50:01. So tolerance ±10min as task says.
+
+  Edge: what about obsidian-git explained writer? Keep the signal literal per task. It will fire once now (orphan active) — actually good: it proves the signal works live （实证）. Then stays latched until obsidian-git disposed. Report this in 需要谁动作： 王语嫣/老朱 decide obsidian-git auto-backup disposition (it's also the live push channel — disablePush false, autoPushInterval 10).
+
+  Where to add: after _scan_backup_stall, hook into infra_alerts line 1144 area. Read that region.Now implement. Edits to conveyor_probe.py:
+
+  1. `_scan_backup_stall` — 任务3: accept SKIPPED lines as heartbeat. Modify: when age_h > max_age_h, check `logs/vault-git-backup.log` for SKIPPED lines; if newest SKIPPED timestamp age ≤ max_age_h → treat as healthy (guard intentional skip), set state flag False, return []. Note current behavior: with obsidian-git committing every 10min, stall basically can't trigger — but the SKIPPED acceptance matters once obsidian-git is disposed.
+
+  Implementation detail: parse log lines "vault backup: YYYY-MM-DD HH:MM:SS SKIPPED". Read tail of file (last ~50 lines) for efficiency.
+
+  2. New `_scan_offbeat_backup(state)` — 任务2: 
+  - git log --grep="^vault backup" --format="%ct" -n 30 (note: existing stall grep uses "--grep=vault backup" unanchored; mine anchored ^)
+  - beat grid minutes = {20, 50} (#628 实测 schtasks PT30M 起点 07:20)
+  - for each commit ts: distance to nearest grid point (in minutes of hour) > 10 → off-beat
+  - edge-trigger: state["offbeat_backup"] store offending hash/ts; alarm once when new off-beat found that differs from stored; re-arm (clear) when no off-beat in scanned window. To avoid re-alarm on each new obsidian commit while latched: alarm only on transition from clean→dirty. While dirty, stay quiet. Recovery → re-arm.
+  - git failure → no alarm.
+
+  Wait, but window: scan last 30 commits regardless of time? If obsidian disabled tomorrow, old off-beat commits remain in history → `git log -n 30` would still show them → never recovers. Need time window: only consider commits newer than, say, 2h (4 beats). Use `--since="2 hours ago"`? git --since with relative works. But probe ticks every 10min; state persists. Use --since=90min? If probe down for long... simpler: --since="3 hours ago". On clean window → clear flag.
+
+  Hmm, also careful: at boundary, a just-now schtasks commit at :20 is on-grid. obsidian commits off-grid. Good.
+
+  Docstring: note dual-writer background, disposition pending.
+
+  3. Register in matrix (notification-coverage-matrix.md) row 28? #622 added row 27. I'll add a row for the twelfth signal + tenth signal refinement. Matrix format — check the row structure around line 40 (I saw row 27 earlier). I'll append row 28 mirroring the format.
+
+  Also update the stall signal docstring mention. And tests: add to kdo-tools/tests/test_conveyor_probe.py? Better new test file or extend. There's an existing test file with 47 tests for probe. I'll add tests in test_conveyor_probe.py? It's large; maybe create test_conveyor_probe_offbeat.py focused. Simpler: new file test_backup_signals_631.py covering:
+  - offbeat: git repo with on-grid commit only → no alarm; with off-grid commit → alarm once; second run same state → no re-alarm; then... time-window makes sandbox testing tricky: commits need timestamps. Can set commit date via GIT_COMMITTER_DATE env / --date. Use `git commit --date`.
+  - SKIPPED acceptance: craft state where last commit old (>24h) but log has recent SKIPPED → no alarm. The stall function uses ROOT for git and logs path ROOT/logs/vault-git-backup.log — tests monkeypatch probe.ROOT. Check how existing tests handle ROOT. Existing test file presumably monkeypatches. I'll follow.
+
+  But wait — probe module's ROOT is module-level; tests for _scan_backup_stall exist? Check existing tests quickly for patterns of backup stall testing.
+
+• 动手改 conveyor_probe。先看现有测试怎么 mock ROOT。158:    monkeypatch.setattr(probe, "RETRO_ROOT", tmp_path.parent)
+711:    monkeypatch.setattr(probe, "ROOT", tmp_path)
+721:    monkeypatch.setattr(probe, "ROOT", tmp_path)
+730:    monkeypatch.setattr(probe, "ROOT", tmp_path)
+743:    monkeypatch.setattr(probe, "ROOT", tmp_path)
+
+
+    s = root / ".kdo" / "search_index.json"
+    s.write_text("{}", encoding="utf-8")
+    now = time.time()
+    os.utime(g, (now - graph_age_h * 3600, now - graph_age_h * 3600))
+    os.utime(s, (now - search_age_h * 3600, now - search_age_h * 3600))
+    return gdir
+
+
+def test_graph_index_empty_dir_alarmed_once(tmp_path, monkeypatch):
+    """空目录 → 告警；同一异常持续存在只报一次（沿触发幂等）。"""
+    (tmp_path / ".kdo" / "graph_index").mkdir(parents=True)
+    monkeypatch.setattr(probe, "ROOT", tmp_path)
+    state = {}
+    first = probe._scan_graph_index_health(state)
+    assert len(first) == 1 and "目录空" in first[0]
+    assert probe._scan_graph_index_health(state) == []  # 幂等
+
+
+def test_graph_index_zero_records_alarmed(tmp_path, monkeypatch):
+    """graphml 存在但 0 节点 → 0 records 告警（区别于空目录）。"""
+    _mk_graph_index(tmp_path, nodes=0)
+    monkeypatch.setattr(probe, "ROOT", tmp_path)
+    state = {}
+    alerts = probe._scan_graph_index_health(state)
+    assert len(alerts) == 1 and "0 records" in alerts[0]
+
+
+def test_graph_index_stale_over_48h_alarmed(tmp_path, monkeypatch):
+    """graphml 落后 search_index 超 48h → 陈旧告警；48h 内不告警。"""
+    _mk_graph_index(tmp_path, nodes=3, graph_age_h=50, search_age_h=0)
+    monkeypatch.setattr(probe, "ROOT", tmp_path)
+    state = {}
+    alerts = probe._scan_graph_index_health(state)
+    assert len(alerts) == 1 and "陈旧" in alerts[0]
+
+    _mk_graph_index(tmp_path, nodes=3, graph_age_h=10, search_age_h=0)
+    state2 = {}
+    assert probe._scan_graph_index_health(state2) == []  # 10h 滞后正常（手动重建节奏）
+
+
+def test_graph_index_healthy_no_alarm_and_rearm(tmp_path, monkeypatch):
+    """健康 → 无告警；异常→恢复→再异常 = 重新武装重报。"""
+    _mk_graph_index(tmp_path, nodes=3)
+    monkeypatch.setattr(probe, "ROOT", tmp_path)
+    state = {}
+    assert probe._scan_graph_index_health(state) == []
+
+    gdir = tmp_path / ".kdo" / "graph_index"
+    (gdir / "graph_chunk_entity_relation.graphml").write_bytes(b"<graphml></graphml>")
+    assert len(probe._scan_graph_index_health(state)) == 1  # 0 records 告警
+
+    _mk_graph_index(tmp_path, nodes=3)  # 恢复
+    assert probe._scan_graph_index_health(state) == []  # 恢复本身不推（非事件）
+    assert state["graph_index_issue"] is None
+
+    (gdir / "graph_chunk_entity_relation.graphml").write_bytes(b"<graphml></graphml>")
+    assert len(probe._scan_graph_index_health(state)) == 1  # 再异常重报
+• Test pattern clear. Now write the code changes to conveyor_probe.py:
+
+  1. Modify `_scan_backup_stall` for SKIPPED acceptance （任务3).
+  2. Add `_scan_offbeat_backup` （任务2).
+  3. Hook at line ~1145.
+
+  For the stall signal SKIPPED acceptance: parse logs/vault-git-backup.log. Implementation:
+
+  ```python
+  def _last_skip_age_h() -> float | None:
+      """#631：#628 守卫 SKIPPED 行=主动跳拍（健康），最近一跳距现在的小时数。无则 None。"""
+      log = ROOT / "logs" / "vault-git-backup.log"
+      try:
+          lines = log.read_text(encoding="utf-8", errors="replace").splitlines()[-80:]
+      except OSError:
+          return None
+      for ln in reversed(lines):
+          m = _re.search(r"vault backup: (\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}) SKIPPED", ln)
+          if m:
+              try:
+                  ts = datetime.strptime(m.group(1), "%Y-%m-%d %H:%M:%S").timestamp()
+                  return (time.time() - ts) / 3600
+              except ValueError:
+                  return None
+      return None
+  ```
+
+  Then in _scan_backup_stall: when age_h > max_age_h, check skip_age = _last_skip_age_h(); if skip_age is not None and skip_age <= max_age_h → healthy （守卫跳拍，不报停拍）, set state False, return []. Only stall-alarm when neither commit nor skip within window.
+
+  For offbeat:
+
+  ```python
+  # ── #631 第十二信号：非节拍 backup commit 检测（孤儿写手现行）──
+  # 背景：01:38 非节拍 backup commit 收走 #628 在制品——#631 任务1 锁定孤儿源=obsidian-git
+  # 插件 auto backup（autoSaveInterval=10min，commitMessage 模板与 vault_git_backup.py 完全同文）。
+  # 节拍格：schtasks kdo-vault-git-backup 触发器 07:20 起 PT30M → 每时 :20/:50（#628 实测口径；
+  # 任务书写的 :02/:32 是旧印象，以实测为准）。commit 分钟数距最近格点 >10min = 非节拍。
+  _OFFBEAT_GRID_MINUTES = (20, 50)
+
+  def _scan_offbeat_backup(state, window_h=3, tolerance_min=10):
+      """..."""
+      import subprocess as _sp
+      try:
+          out = _sp.run(["git","-C",str(ROOT),"log","--grep=^vault backup:","--format=%ct", f"--since={int(window_h)} hours ago"], ...).stdout.split()
+      except Exception:
+          return []
+      offbeat = []
+      now = time.time()
+      for tok in out:
+          dt = datetime.fromtimestamp(int(tok))
+          d = min(abs(dt.minute - g) for g in _OFFBEAT_GRID_MINUTES)  # hmm跨时界：minute 58 vs 20 → 22min fine; minute 5 vs 50: |5-50|=45, but across hour boundary distance to :50 of prev hour = 15min. Need modulo-60 distance.
+          ...
+  ```
+
+  Cross-hour distance: distance in minutes = min over grid of |t - nearest beat datetime|. Simpler: compute t's offset within the 30-min grid anchored at :20: r = (minute - 20) % 30 → on-grid if r==0; distance = min(r, 30-r) plus seconds fraction. E.g. :38 → r=18 → dist 12 > 10 → offbeat ✓. :02 → r=(62)%30=2 → dist 2 → on-grid?? :02 should be... grid is :20/:50; :02 is 12 min after :50 → r=(2-20)%30=12 → min(12,18)=12 >10 → offbeat ✓. :29:46 → r=9 → dist 9 → on-grid?? 02:29:46 obsidian commit is 9m46s after :20 → within tolerance 10 → NOT offbeat. Hmm, that obsidian commit would pass. Tolerance 10min is generous; obsidian fires at arbitrary minutes; e.g. 02:08:47 → r=(8-20)%30=18 → dist 12 → offbeat ✓. So detection depends on where in the grid the commit lands — some obsidian commits slip through (within ±10min of :20/:50 covers 2/3 of the hour!). Actually grid points :20/:50 with ±10 → covered: 10-30 and 40-60(0) → 40 of 60 minutes covered. obsidian commits land anywhere → ~1/3 flagged. Still "detects" the orphan but flapping: dirty window, then clean window → re-arm → alarm again → noise.
+
+  Better: alarm logic on count — e.g. off-beat commits in window ≥ 1 → dirty. With flapping, probe would re-alarm every time a window happens to be clean-ish then dirty again. With 10-min obsidian cadence, a 3h window (~18 obsidian commits) will almost always contain an off-grid one → stays dirty → one alarm. Fine. Flapping unlikely with window 3h. OK.
+
+  Include seconds: use full datetime difference. dist_seconds = min over beats of |t - beat|. Compute beats around t: for hour h-1,h,h+1 and grid m in (20,50). dist_min = min(...)/60. Flag if > tolerance_min.
+
+  State: `state["offbeat_backup"]` = bool. On dirty & not flagged → alarm with the newest offending timestamp. On clean → flag False.
+
+  Alarm text: f"vault-backup｜非节拍 commit {ts}（格点 :20/:50 ±{tolerance}min）——孤儿写手嫌疑（obsidian-git 10min 自备份同文模板，#631）"
+
+  Also matrix registration row 28 + tests. Let me write the code.Wait — `dt.replace(hour=dt.hour + dh, ...)` will fail for dt.hour=23, dh=1 → hour=24 ValueError. Fix: use timedelta. Let me fix that:
+
+  ```python
+  from datetime import timedelta — is timedelta imported in conveyor_probe? Check imports. Safer: compute via timestamps.
+
+  base = dt.replace(minute=0, second=0, microsecond=0)
+  dist = min(abs((dt - (base + timedelta(hours=dh, minutes=g))).total_seconds()) ...)
+  ```
+
+  Need timedelta import. Check top of file.
+
+• 修一个边界 bug：`hour+1` 在 23 点会溢出，改用 timedelta。17:import argparse
+18:import base64
+19:import hashlib
+20:import hmac
+21:import json
+22:import sys
+23:import time
+24:import urllib.request
+25:import yaml
+26:from datetime import datetime
+
+
+• Now write tests. New file kdo-tools/tests/test_backup_signals_631.py. Need a git repo sandbox with dated commits:
+
+  ```python
+  def _commit_at(repo, ts: datetime, fname="f.txt"):
+      (repo/fname).write_text(str(ts), ...)
+      git add, git -c ... commit --date / env GIT_COMMITTER_DATE
+  ```
+  git commit date control: `git commit --date="@<epoch> +0800"` sets author date; committer date via env GIT_COMMITTER_DATE="@epoch +0800". git log --format=%ct = committer time. Both needed? %ct = committer date. Set env GIT_COMMITTER_DATE.
+
+  Tests:
+  1. on-grid commit (today at :20) → no alarm. Need "today" relative — compute a recent on-grid timestamp: now's hour with minute 20 (if now minute < 20, use previous hour... careful with test flakiness. Compute: candidate = now.replace(minute=20, second=0); if candidate in future or too old... window 3h; choose the largest grid time ≤ now-1min. Implement helper computing previous grid beat.
+  2. off-grid commit (beat+25min, e.g. :45... wait :45 → r=(45-20)%30=25 → dist 5? No: grid :20/:50; :45 is 5min before :50 → on-grid within tolerance! Pick beat :20+15 = :35 → dist to :20=15? min(|35-20|,|35-50|)=15 >10 → offbeat ✓. But cross-hour with dh=(-1,0,1): :35 vs prev hour :50 = 45min. So :35 offbeat by 15min ✓.)
+  3. idempotent: second call no alarm; after window passes... skip time-travel; test re-arm by monkeypatching window? Simulate re-arm: state dirty, then call with a repo where the offbeat commit is older than window → clean → state False. Simpler: separate state.
+     Actually test: dirty → alarm; again → no alarm (same state). Good enough for idempotency.
+  4. SKIPPED acceptance: repo with last commit 30h ago (git commit --date 30h ago... but --since uses committer date — commit with old date; git log -1 --format=%ct returns old → age 30h > 24 → stall path; then _last_skip_age_h: write logs/vault-git-backup.log with recent SKIPPED line → no alarm. And without SKIPPED → alarm.
+  5. SKIPPED stale (25h old) → stall alarms.
+
+  For stall tests, repo commit dates: initial commit with GIT_COMMITTER_DATE 30h ago.
+
+  Note: probe._scan_backup_stall uses probe.ROOT for git and _last_skip_age_h uses ROOT/logs. Monkeypatch probe.ROOT = tmp repo.
+
+  Also `git log --since` in offbeat uses minutes; fine.
+
+  One concern: `git log --grep=^vault backup:` — caret in grep pattern is regex start anchor; commit messages "vault backup: ..." match. But chore commits won't. In sandbox, make commit messages "vault backup: <ts>".
+
+  Windows env var format for GIT_COMMITTER_DATE: "@1693000000 +0800" works.
+
+  Write the test file.......                                                                   [100%]
+6 passed in 1.21s
+6 passed. Now:
+  1. Live-fire: run the probe's new signal against the real repo — should detect off-beat commits (obsidian-git active) → real-world 实证.
+  2. Matrix registration (row 28).
+  3. Full regression.
+  4. Execution report + commit + complete.
+
+  Live test of the signal on real repo:
+
+• 6 测全过。真机实跑新信号——应当场抓到 obsidian-git 的非节拍 commit。offbeat: ['vault-backup｜非节拍 commit 02:39:59（格点 :20/:50 ±10min，窗内 5 个）——孤儿写手嫌疑（obsidian-git 10min 自备份同文模板，#631）']
+state: {'offbeat_backup': True}
+stall: []
+
+
+• Live-fire: the new signal immediately catches the obsidian-git writer （窗内 5 个非节拍 commit） — 信号上线即现行，实证成功. Stall healthy.
+
+  Now matrix registration. Check the matrix tail format around row 27.17:| 5 | 门禁拦截（gate-blocked） | conveyor_probe `_scan_gate_blocked`（#562：时间戳锚定记录聚合——多行拦截消息（如 E040 交付物清单）续行并入首记录，不再按物理行切出垃圾残片；状态键 gate_seen_v2，旧行级方案升级首跑静默吸收存量防重报。#568：通知类打印一律改走 stderr——`--json` stdout 纯 JSON 可被机器 json.loads；queue_transition subprocess 全点强制 UTF-8/replace（GBK reader 线程崩溃族根治）；E040 fail-open 异常 stderr WARNING 可见化，门禁静默致盲→可见。#569：F-034 锚点改前缀匹配（`**改动文件清单**` 不再被闭合 ** 阻断）+E040 节边界放宽（`- **` 子弹行算字段行）+两门禁报错附期望格式样例——锚点容错不松语义） | 推送+看板登记 | 王语嫣 | — | #460；#562 多行解析修复；#568 GBK 族+stdout 污染根治；#569 锚点三层修复（#562/#568/#569 §3.19 三连合并补登 08-28）；#515 E040 `_tmp/` 划痕豁免（校准点1：`_extract_deliverable_paths` 提取层过滤中间产物非交付物，不判 missing/untracked，08-28 补登） |
+37:| 24 | vault backup 停拍（最后 backup commit 超 24h） | conveyor_probe 第十信号 `_scan_backup_stall`（git log --grep 心跳；跨越沿幂等，恢复重新武装；并入第九信号 infra_alerts 通道）+ 备份本体改系统级 schtasks kdo-vault-git-backup（30min，S4U，vault_git_backup.py） | gate-blocked.log 台账 + 推王语嫣（第九信号同通道） | 王语嫣 | defer（同第九信号口径，台账恒写） | #607（08-26 重启杀会话级 cron 致停摆 6 天空窗实证） |
+38:| 25 | 伪逐字引文 + refs 区间漂移 | kdo pre-submit `_check_quote_verbatim`（引号块+L行号/「原话·口述」归因 → 剥空白标点逐字对源，不命中即报）+ `_check_source_range`（行号区间越界/全空白即报） | pre-submit WARNING（提审输出可见，不拦截） | 生产者 | — | #616（#614 补审实证：伪引文 3 张+区间漂移 5 张，欧阳锋建议书王语嫣裁定采纳；WARNING 档观察一周再定升阻断） |
+39:| 26 | 编排骨架单翻转终审（assignee=ouyangfeng） | queue_transition `review --reviewer 王语嫣`（限编排骨架单，其余 reviewer/对象仍拒；终审权校验对称要求 cwd 有 wangyuyan 登记实例；F-035/F-036/台账留痕不变） | 终端+任务单终审记录+台账 | 王语嫣（翻转）/欧阳锋（主审） | — | #616 任务3（#544 手工翻转先例 + 09-02 #614 第二例，欧阳锋自己的单无人可终审的根治） |
+40:| 27 | graph_index 空目录/0 records/陈旧超 48h | conveyor_probe 第十一信号 `_scan_graph_index_health`（空目录/缺失→报；graphml `<node` 字节扫描 0 节点→报；陈旧口径=graphml mtime 落后 search_index.json 超 48h——#356 双索引同步语义，规避手动重建节奏的绝对时间误报；沿触发幂等，恢复重新武装，原因切换重报；只告警不动作） | 并入第九信号 infra_alerts 通道：gate-blocked.log 台账 + 推王语嫣 | 王语嫣 | defer（同第九信号口径，台账恒写） | #622（08-31 事故清空 graph_index 语义腿空转 2 天无人发现；「修完没加哨兵=同类事故必再发」#357/#358 模式闭环） |
+40:| 27 | graph_index 空目录/0 records/陈旧超 48h | conveyor_probe 第十一信号 `_scan_graph_index_health`（空目录/缺失→报；graphml `<node` 字节扫描 0 节点→报；陈旧口径=graphml mtime 落后 search_index.json 超 48h——#356 双索引同步语义，规避手动重建节奏的绝对时间误报；沿触发幂等，恢复重新武装，原因切换重报；只告警不动作） | 并入第九信号 infra_alerts 通道：gate-blocked.log 台账 + 推王语嫣 | 王语嫣 | defer（同第九信号口径，台账恒写） | #622（08-31 事故清空 graph_index 语义腿空转 2 天无人发现；「修完没加哨兵=同类事故必再发」#357/#358 模式闭环） |

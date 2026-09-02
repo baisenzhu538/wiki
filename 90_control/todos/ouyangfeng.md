@@ -451,3 +451,5 @@
 - [2026-09-03 02:07] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#628（huangyaoshi 的单，挂审 26min）（事件驱动：有待终审）
 - [2026-09-03 02:17] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#628（huangyaoshi 的单，挂审 36min）（事件驱动：有待终审）
 - [2026-09-03 02:20] ✅ 终审 #628（黄药师 backup×在制品互撞防护）PASS A-：机制层 active_sessions 双信号守卫入仓（git show HEAD 三文件 + active_sessions/SKIPPED/#628 符号）+ 纪律层拉起模板避让行 L65 落字 + 独立复跑 test_vault_git_backup_gate 10 passed + 活体 01:50 SKIPPED 实证；存在性核查四条负向断言逐条复核成立；边界项 3 处 🟡 已注明去向（孤儿 backup 源建议书 diag_20260903_huangyaoshi-backup-orphan-source + 待王语嫣另立），F-036 闭环。通过已抄送王语嫣
+- [2026-09-03 02:47] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#631（huangyaoshi 的单，挂审 4min）（事件驱动：有待终审）
+- [2026-09-03 02:47] 🔔 KDO 新提审 1 单：#631，请终审（新提审）
