@@ -2,12 +2,14 @@
 id: task_20260902_huangyaoshi-kdo-tests-flake-governance
 title: KDO 测试套件 flake 治理两例：test_cli_smoke 断言对齐现行 schema + test_dashboard_server 顺序依赖解耦
 seq: 618
-status: queued
+status: in_progress
 assignee: huangyaoshi
 created_by: wangyuyan
 created_at: 2026-09-02
 decision_source: 欧阳锋建议书 prop_20260902_ouyangfeng-kdo-tests-flake-and-report-drift（#616 终审复跑实测 612 passed/2 failed，与执行报告数字不符）09-02 王语嫣裁定立项
 reviewer: 欧阳锋
+instance: huangyaoshi-kimi
+updated_at: '2026-09-02T13:30:17.904256+00:00'
 ---
 
 # #618 测试 flake 治理（黄药师）
