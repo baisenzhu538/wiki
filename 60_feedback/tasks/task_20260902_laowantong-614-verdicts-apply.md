@@ -1,13 +1,15 @@
 ---
 id: task_20260902_laowantong-614-verdicts-apply
-title: "#614 裁定落笔：9 张 PASS 卡补 frontmatter + 5 张降级 enriched + 裁定表随修项"
+title: '#614 裁定落笔：9 张 PASS 卡补 frontmatter + 5 张降级 enriched + 裁定表随修项'
 seq: 615
-status: queued
+status: in_progress
 assignee: laowantong
 created_by: wangyuyan
 created_at: 2026-09-02
-decision_source: "#614 王语嫣复核 PASS A-（欧阳锋 14 张补审裁定表）"
+decision_source: '#614 王语嫣复核 PASS A-（欧阳锋 14 张补审裁定表）'
 reviewer: 欧阳锋
+instance: laowantong-kimi
+updated_at: '2026-09-02T03:44:51.414743+00:00'
 ---
 
 # #615 #614 裁定落笔（老顽童）
