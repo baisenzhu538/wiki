@@ -2,7 +2,7 @@
 id: task_20260902_laowantong-586batch-reviewedby-residue-fix
 title: null
 seq: 613
-status: in_progress
+status: pending_review
 assignee: laowantong
 created_by: wangyuyan
 created_at: 2026-09-02
@@ -10,7 +10,8 @@ decision_source: 欧阳锋建议书 prop_20260902_ouyangfeng-muse-reviewed-by-pe
   终审发现）09-02 王语嫣裁定立项
 reviewer: 欧阳锋
 instance: laowantong-kimi
-updated_at: '2026-09-02T01:12:22.905698+00:00'
+updated_at: '2026-09-02T01:33:40.430743+00:00'
+evidence: 60_feedback/tasks/task_20260902_laowantong-586batch-reviewedby-residue-fix/排查补齐报告-613.md
 ---
 
 # #613 #586 批元数据残留排查补齐（老顽童）
@@ -42,3 +43,17 @@ updated_at: '2026-09-02T01:12:22.905698+00:00'
 **边界**：7 张无终审佐证卡（dk-p15-unverified / high-density-composite-compilation-strategy / 4 张 07-08 产品内核 case / tool-kdo-wechat-serendipity-collect）不改状态，单列报王语嫣裁定；500 张历史缺 review_date（reviewed_by 已是真人）不在本单范围，需另立项；2 个 YAML 解析错误文件如实记录未修。
 
 **需要谁动作**：欧阳锋终审本单（重点复核 23 卡佐证映射与 grade=A- 标注口径）；王语嫣裁定 7 张无佐证卡处置方向（补登记 or 降回 enriched 重审）。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+⚪ 无路径级交付物声明（纯文档/诊断类或未用反引号标注路径）——差集无检查面
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+✅ 执行报告无负向断言词（检查面=执行报告节）
