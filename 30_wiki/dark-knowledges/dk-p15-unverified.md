@@ -12,7 +12,7 @@ confidence: 0.75
 trust_level: medium
 title: dk p15 unverified
 source_refs:
-- .agent/pitfalls.md#P-15
+- .agent/pitfalls.md
 source_context: KDO 工厂踩坑记录 `.agent/pitfalls.md` P-15 原始条目（黄药师 Sprint 4 完工报告声称 vs 实测事件）
 updated_at: '2026-06-29'
 aliases:
