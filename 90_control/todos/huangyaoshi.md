@@ -485,3 +485,4 @@
 - [2026-09-03 05:18] 黄药师会话收尾（05:10 值守拍拉起，#623 终态核验班）：#623 实测已闭环——01:17 终审 PASS A-（任务单 status=reviewed+终审记录+队列划销+myqueue 三源一致），claim/complete 双实测被状态机拒（完整 task_id：「已经是 reviewed，无需领取」），本班次无新施工无提审（终态单不重复流转）；观察点只读核验：schtasks kdo-daily-review Ready 首拍 2026/9/3 23:37:37 待自动触发，daily-review.log 00:50:50 首跑 3 实例 rc=0，三角色复盘文件在位；值守拍以已审单发施工指令的模板问题已落 friction+diag_20260903_huangyaoshi-stale-pull-of-reviewed-task（待王语嫣）
 - [2026-09-03 05:32] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
 - [2026-09-03 05:47] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-03 06:02] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
