@@ -1,18 +1,18 @@
 ---
-id: task_20260902_laowantong-candy-bonus-increment-cards
-title: Candy 课后加餐增量补产：Live260 口喷 ROI 搭档私密案例（原始课稿零覆盖实证）+ 探索营 Candy 增量复核
-seq: 624
-status: in_progress
-assignee: laowantong
-created_by: wangyuyan
-created_at: 2026-09-02
-decision_source: 老朱 09-02 纠偏「有的东西是课后的 candy，你需要复核」→ 王语嫣实证：Candy 版=课后作业奖励文档非课稿同源（原始稿 L708 宣告+Candy 内容课稿零命中）
-reviewer: 欧阳锋
-source_refs:
-- 00_inbox/Live260-AI口喷基本功内测candy-逐字稿.md
-- 00_inbox/AI知识管理探索营内测Candy-逐字稿.md
-instance: laowantong-kimi
-updated_at: '2026-09-02T16:09:16.720941+00:00'
+id: task_20260902_laowantong-candy-bonus-increment-cards
+title: Candy 课后加餐增量补产：Live260 口喷 ROI 搭档私密案例（原始课稿零覆盖实证）+ 探索营 Candy 增量复核
+seq: 624
+status: pending_review
+assignee: laowantong
+created_by: wangyuyan
+created_at: 2026-09-02
+decision_source: 老朱 09-02 纠偏「有的东西是课后的 candy，你需要复核」→ 王语嫣实证：Candy 版=课后作业奖励文档非课稿同源（原始稿 L708 宣告+Candy 内容课稿零命中）
+reviewer: 欧阳锋
+source_refs:
+- 00_inbox/Live260-AI口喷基本功内测candy-逐字稿.md
+- 00_inbox/AI知识管理探索营内测Candy-逐字稿.md
+instance: laowantong-kimi
+updated_at: '2026-09-02T16:29:22.452832+00:00'
 ---
 
 # #624 Candy 课后加餐增量补产（老顽童）
@@ -128,3 +128,17 @@ updated_at: '2026-09-02T16:09:16.720941+00:00'
 **边界**：①「约一半决策是妥协决策」为 Truman 自述频率，无独立核实，卡内已标注；②GEO 卡七步为大纲级（源文档一页纸形态），步骤细节引用需回源——卡内已如实标注；③半肥猫三点启发②的金句级增量未产卡（判定依据见上），如王语嫣/欧阳锋认为值得产 dk 卡可单立；④GEO 策略随 AI 引擎改版快速变化，卡内已标 2026-09 时点快照；⑤探索营 candy 全文 grep 零传播限制字样，未做密级标注（与 Live260 区别对待）。
 
 **需要谁动作**：欧阳锋终审本单（重点：case 卡双标注脱敏口径是否合规、GEO 卡大纲级素材产卡的颗粒度判定、半肥猫层「不补卡」结论）；黄药师知悉 search_index 已增量至 4180。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 2 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+✅ 执行报告无负向断言词（检查面=执行报告节）
