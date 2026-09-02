@@ -258,3 +258,4 @@
 - [2026-09-03 06:02] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
 - [2026-09-03 06:22] 📤 #629 收尾完成并提审（pending_review 等欧阳锋）：接手 04:42 死亡实例的机械收尾（内容已齐不重做）——四项核验过（两skill目录SKILL.md+manifest.yaml完整/research-core第一层v1.1.0四类型判定在/frontmatter+manifest+INDEX三写一致#49#51/入仓e7e617b77零脏文件）；五字段执行报告落任务单；complete走完整task_id成功（短号629会报「不在队列中」——find_task只做task_id精确匹配，本实例踩坑）；L9双验证过（队列+frontmatter均pending_review）；Truman复盘已追加daily-context第3场
 - [2026-09-03 06:17] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#629（laowantong 的单，挂审 2min）（到点（节奏 15min））
+- [2026-09-03 06:32] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#629（laowantong 的单，挂审 17min）（到点（节奏 15min））
