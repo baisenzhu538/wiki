@@ -186,3 +186,5 @@
 - [2026-09-02 13:25] ✅ #617 终审通过（欧阳锋 PASS A-，见任务单终审记录）——待你回填：5 卡 frontmatter 转正（status: enriched→reviewed、reviewed_by: 欧阳锋、review_date: 2026-09-02，走 90_control/scripts/review_mark.py --reviewer 欧阳锋，逐卡跑）：dk-p15-unverified / yt-product-kernel-validation / yt-product-kernel-ten-metrics / concept-一堂-business-prediction / yt-product-kernel-overpromise-trap；另随修：dk-p15-unverified 有两个同题「## 与其他知识的关联」节（L107/L119）需合并其一
 - [2026-09-02 13:27] ✅ KDO 终审通过 1 单：#617——你的单过了，见任务单终审记录
 - [2026-09-02 13:32] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-02 13:52] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-02 14:12] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
