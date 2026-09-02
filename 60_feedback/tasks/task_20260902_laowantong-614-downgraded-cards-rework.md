@@ -2,12 +2,14 @@
 id: task_20260902_laowantong-614-downgraded-cards-rework
 title: "#614 降级 5 卡内容返工：伪引文改转述/换真实原句 + 按源重写失真节（FAIL 点逐条在裁定表）"
 seq: 617
-status: queued
+status: in_progress
 assignee: laowantong
 created_by: wangyuyan
 created_at: 2026-09-02
 decision_source: "#614 欧阳锋补审降级 5 卡（09-02）+ #615 落笔已降 enriched——内容返工重报终审"
 reviewer: 欧阳锋
+instance: laowantong-kimi
+updated_at: '2026-09-02T04:40:53.744168+00:00'
 ---
 
 # #617 降级 5 卡内容返工（老顽童）
