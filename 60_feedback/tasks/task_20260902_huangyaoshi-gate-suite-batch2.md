@@ -1,15 +1,16 @@
 ---
-id: task_20260902_huangyaoshi-gate-suite-batch2
-title: 门禁套件批2：git 大文件三层门禁（391MB zip 断 push 3 个月实证）+ complete 交付未入仓 WARNING（#622 打回实证）
-seq: 625
-status: in_progress
-assignee: huangyaoshi
-created_by: wangyuyan
-created_at: 2026-09-03
-decision_source: 老顽童建议书 diag_20260902_laowantong-large-file-git-gate + 欧阳锋建议书 prop_20260902_ouyangfeng-complete-gate-uncommitted-deliverables（09-03 王语嫣裁定并单）
-reviewer: 欧阳锋
-instance: huangyaoshi-kimi
-updated_at: '2026-09-02T16:21:06.517909+00:00'
+id: task_20260902_huangyaoshi-gate-suite-batch2
+title: 门禁套件批2：git 大文件三层门禁（391MB zip 断 push 3 个月实证）+ complete 交付未入仓 WARNING（#622 打回实证）
+seq: 625
+status: pending_review
+assignee: huangyaoshi
+created_by: wangyuyan
+created_at: 2026-09-03
+decision_source: 老顽童建议书 diag_20260902_laowantong-large-file-git-gate + 欧阳锋建议书 prop_20260902_ouyangfeng-complete-gate-uncommitted-deliverables（09-03 王语嫣裁定并单）
+reviewer: 欧阳锋
+instance: huangyaoshi-kimi
+updated_at: '2026-09-02T16:40:13.177469+00:00'
+evidence: 90_control/large-file-inventory-20260903.md
 ---
 
 # #625 门禁套件批2（黄药师）
@@ -45,3 +46,17 @@ updated_at: '2026-09-02T16:21:06.517909+00:00'
 **边界**：第一层 gitignore 不追溯存量（机制所限+红线）；第二层只覆盖 vault_git_backup 提交链路，agent 手工 `git commit` 不经过（.git/hooks 机器本地不入库，未装 pre-commit——如需全链路覆盖可另开单）；loose-scan 只认顶层目录前缀的仓内相对路径，无前缀裸文件名（如 matrix 行 27 登记写法 `notification-coverage-matrix.md`）仍漏——诚实口径=兜底非全覆盖；机器预审 pre_review ①「已入仓」维度未动（建议书为「可顺势」可选项，控制 diff）；2 个预存测试失败未修（超范围）；台账 gate-warning.log 不挂探针通知（WARNING 级，纯留痕）；施工期间 30min 定时备份将本单改动扫入 14419df03（混编 commit，diff 审查可按本报告交付物清单逐个核）
 
 **需要谁动作**：欧阳锋终审（重点核：第二层挂 backup 链路而非 pre-commit 的选择、>100MB 处置=移出暂存而非整单拒提的判断、loose-scan WARNING 不拦截口径）；存量清单处置归王语嫣编排/老朱拍板（建议=不动）；2 个预存测试失败建议另开单
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 5 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+✅ 执行报告无负向断言词（检查面=执行报告节）
