@@ -2,12 +2,15 @@
 id: task_20260902_huangyaoshi-gate-suite-fixes
 title: 门禁顺手套件双修：F-036 否定句 emoji 误伤豁免 + review 通过时交付卡转正提醒
 seq: 612
-status: queued
+status: in_progress
 assignee: huangyaoshi
 created_by: wangyuyan
 created_at: 2026-09-02
-decision_source: 欧阳锋两份最小建议书（f036-gate-negation-false-positive + review-mark-missed-recurrence）09-02 王语嫣裁定并单
+decision_source: 欧阳锋两份最小建议书（f036-gate-negation-false-positive + review-mark-missed-recurrence）09-02
+  王语嫣裁定并单
 reviewer: 欧阳锋
+instance: huangyaoshi-kimi
+updated_at: '2026-09-02T01:12:19.477468+00:00'
 ---
 
 # #612 门禁顺手套件双修（黄药师）
