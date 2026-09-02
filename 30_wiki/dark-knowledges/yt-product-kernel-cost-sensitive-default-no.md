@@ -1,5 +1,4 @@
 ---
-
 domain:
 - product
 id: yt-product-kernel-cost-sensitive-default-no
@@ -27,8 +26,9 @@ source_refs:
 created_at: '2026-07-08'
 updated_at: '2026-07-08'
 author: 老顽童
-reviewed_by: 待审
-review_date: '2026-07-08'
+reviewed_by: 欧阳锋
+review_date: 2026-09-02
+grade: B+
 discoverable_by:
   - 成本敏感默认不：高成本低信息的价值项死守不做
   - 成本敏感默认不
@@ -42,9 +42,6 @@ related:
   - "[[yt-product-kernel-premature-optimization]]"
   - '[[product-moc]]'
 diagnostic_signals:
-tags:
-- audience:executor
-- scene:diagnosis
 - signal: 成本敏感默认不——想加"高成本低信息"项
   framework_lens: 这个价值项的成本高吗？对转化率的影响你确定吗？
   follow_up_question: 如果加上去之后收入几乎不动、服务成本直接乘2-3倍，你还加吗？
@@ -54,8 +51,10 @@ tags:
 - signal: 成本敏感默认不——竞品都在做，我们不做会不会死
   framework_lens: 竞品做了 ≠ 竞品赚钱。竞品可能也在被这个高成本项拖死。
   follow_up_question: 你有竞品加了这些服务后的利润率数据吗？还是只是在恐慌？
+tags:
+- audience:executor
+- scene:diagnosis
 ---
-
 # 成本敏感默认不：高成本低信息的价值项死守不做
 
 ## 原始表述

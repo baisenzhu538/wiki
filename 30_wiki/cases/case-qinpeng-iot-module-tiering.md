@@ -1,5 +1,4 @@
 ---
-
 id: case-qinpeng-iot-module-tiering
 title: 案例：秦鹏通信模组——从"半价策略"到用户分层+四格服务矩阵的产品内核进化
 type: case
@@ -26,7 +25,7 @@ source_refs:
 created_at: '2026-07-08'
 updated_at: '2026-07-08'
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 discoverable_by:
@@ -54,8 +53,9 @@ diagnostic_signals:
   follow_up_question: 你的不同客户群体对"好"的定义一样吗？你是否可以像秦鹏一样按良品率80/90分层、按销售额大小分层？
 - framework_lens: 关键假设验证
   follow_up_question: 你当前认定的"最佳内核参数"（价格、品质、服务级别）是经过分层测试的，还是拍脑袋一刀切的？
+review_date: 2026-09-02
+grade: B+
 ---
-
 > 来源：一堂产品内核验证课，Truman 口述。秦鹏是一堂产品内核课程的"最佳实践者"——他把一堂方法论用到极致，从模糊的产品直觉走到了精细化的分层体系。本案例最核心的价值是展示了"如何不过度细化"和"如何在规模扩大后做用户分层"。
 
 ---

@@ -1,5 +1,4 @@
 ---
-
 id: case-yitang-chuanhe-seasoning-kernel
 title: 案例：川味调料供应链——从"厂家直销"到"买底料+全程帮扶"的六次产品内核迭代
 type: case
@@ -22,11 +21,11 @@ source_context:
   - yitang
 source_refs:
 - 10_raw/sources/yitang-lectures/一堂-产品内核迭代课-Truman-口述.txt:194-657
-- 10_raw/sources/yitang-lectures/一堂-产品内核迭代课-Truman-口述.txt:700-1150
+- 10_raw/sources/yitang-lectures/一堂-产品内核迭代课-Truman-口述.txt:658-697
 created_at: '2026-07-08'
 updated_at: '2026-07-08'
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 confidence: 0.82
 trust_level: medium
 discoverable_by:
@@ -52,8 +51,9 @@ diagnostic_signals:
   follow_up_question: 如果你的服务越来越重，你能像合发一样找到线上标准化的路径吗？疫情帮你做了减法，还是加重了你的负担？
 - framework_lens: 关键假设驱动
   follow_up_question: 合发每一轮迭代都是因为发现用户卡点——你是否清楚当前用户不转化的真正原因？
+review_date: 2026-09-02
+grade: B+
 ---
-
 > 来源：一堂产品内核迭代课，Truman 口述。合发同学从零起盘的川味调料供应链创业实录。案例展示了产品内核从1.0到6.0的完整加法→减法过程。
 
 ---

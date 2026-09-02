@@ -1,5 +1,4 @@
 ---
-
 id: case-yitang-zhongzheng-parking-garage
 title: 案例：立体车库——从12车位样机到全自动无人化部署的产品内核迭代
 type: case
@@ -22,11 +21,11 @@ source_context:
   - yitang
 source_refs:
 - 10_raw/sources/yitang-lectures/一堂-产品内核迭代课-Truman-口述.txt:700-1150
-- 10_raw/sources/yitang-lectures/一堂-产品内核迭代课-Truman-口述.txt:2069-2253
+- 10_raw/sources/yitang-lectures/一堂-产品内核迭代课-Truman-口述.txt:1151-1165
 created_at: '2026-07-08'
 updated_at: '2026-07-08'
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: medium
 discoverable_by:
@@ -55,8 +54,9 @@ diagnostic_signals:
   follow_up_question: 你的单元模型是否漏算了关键成本（如人力）？你算的是关系价还是市场价？
 - framework_lens: 增长 / 规模化复制
   follow_up_question: 你的产品部署是否高度依赖人工？能否像中征一样把部署效率提升10倍？
+review_date: 2026-09-02
+grade: B+
 ---
-
 > 来源：一堂产品内核迭代课，Truman 口述。中征同学从头部投资集团离职创业，从0打造立体车库产品内核的完整历程。案例展示了硬件产品如何从"应付政策"升级到"真正为用户创造价值"，再到"可规模化部署"。
 
 ---

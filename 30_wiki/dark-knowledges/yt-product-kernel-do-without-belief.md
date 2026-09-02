@@ -1,5 +1,4 @@
 ---
-
 domain:
 - product
 id: yt-product-kernel-do-without-belief
@@ -23,8 +22,9 @@ source_refs:
 created_at: '2026-06-19'
 updated_at: '2026-07-08'
 author: 老顽童
-reviewed_by: 待审
-review_date: '2026-06-19'
+reviewed_by: 欧阳锋
+review_date: 2026-09-02
+grade: A-
 tags:
   - audience:general
   - scene:reference
@@ -49,24 +49,22 @@ related:
 - '[[yt-product-kernel-overpromise-trap]]'
 - '[[product-moc]]'
 diagnostic_signals:
-- signal: src_unknown
+- signal: 访谈出现与预设相反的发现
   framework_lens: 做而不信——访谈了，但不相信负面结果
   follow_up_question: 访谈中有没有和预设相反的发现？如果有，你是调整了预设还是忽视了？
-- signal: src_unknown
+- signal: 验证结果不支持内核假设
   framework_lens: 做而不信——验证了，但不尊重结果
   follow_up_question: 如果验证结果不支持假设，你会调整方向吗？还是继续投入？
-- signal: src_unknown
+- signal: 流程执行了但结果不好
   framework_lens: 做而不信——执行了流程，但不相信流程需要调整
   follow_up_question: 流程执行了，但结果不好，是流程问题还是执行问题？
-- signal: src_unknown
+- signal: 数据与直觉冲突
   framework_lens: 做而不信——有数据，但不相信数据
   follow_up_question: 你的决策是基于数据还是直觉？如果数据不支持直觉，你选哪个？
-- signal: src_unknown
+- signal: 数据与对用户的认知不一致
   framework_lens: 做而不信——自我认知高于数据
   follow_up_question: 如果数据和你对用户的认知不一致，你更相信哪个？
 ---
-
-
 # "做而不信"陷阱：执行了流程，但不相信结果
 
 ## 原始表述

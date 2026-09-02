@@ -4,7 +4,8 @@ domain:
 id: yt-product-kernel-validation
 title: 产品内核验证：三维度评估 × 六策略阶梯
 type: framework
-status: reviewed
+status: enriched
+downgrade_reason: "#614 裁定表卡9（2026-09-02 欧阳锋补审）：两处加引号「Truman 原话」对源零命中（伪逐字引文触 O0 红线）；FAIL 点=替换为真实原句或改转述，修后重审（内容修复另行编排）"
 confidence: 0.94
 trust_level: high
 source_context:

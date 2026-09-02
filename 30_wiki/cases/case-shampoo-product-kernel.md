@@ -1,5 +1,4 @@
 ---
-
 id: case-shampoo-product-kernel
 title: 案例：洗发水产品内核——从"包装好看"到"竞品拆解→专家访谈→用户访谈→排列组合测试"的完整验证路径
 type: case
@@ -22,12 +21,12 @@ source_context:
   - yitang
 source_refs:
 - 10_raw/sources/yitang-lectures/一堂-产品内核验证课-Truman-口述.txt:1026-1296
-- 10_raw/sources/yitang-lectures/一堂-产品内核迭代课-Truman-口述.txt:1304-1346
-- 10_raw/sources/yitang-lectures/一堂-产品内核迭代课-Truman-口述.txt:3018-3400
+- 10_raw/sources/yitang-lectures/一堂-产品内核迭代课-Truman-口述.txt:2916-2944
+- 10_raw/sources/src_20260611_89407193-一堂-一堂五步法-产品内核-洗发水案例_paddle_ocr.md
 created_at: '2026-06-11'
 updated_at: '2026-07-08'
 author: 老顽童（合并升级）
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 confidence: 0.90
 trust_level: high
 merged_from:
@@ -59,8 +58,9 @@ diagnostic_signals:
   follow_up_question: 你是否完整走完了"竞品拆解→专家访谈→用户访谈→排列组合测试"的验证闭环？卡在哪一步？
 - framework_lens: 消费品 / 内核不是功能
   follow_up_question: 你的产品内核是"功能"还是"功能+形象"？用户愿意为哪个部分付溢价？
+review_date: 2026-09-02
+grade: A-
 ---
-
 > 来源：一堂产品内核验证课 + 产品内核系列课，Truman 口述。张磊（阿蕊老师）加入一堂前最后一个操盘项目——日化洗发水从0到1的产品内核验证实录。**本案例是一堂方法论中被引用次数最多的消费品案例，展示了一个外行如何通过系统验证路径，在红海赛道中找到可卖的产品内核。**
 
 ---

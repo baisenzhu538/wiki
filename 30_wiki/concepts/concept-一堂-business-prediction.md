@@ -3,7 +3,8 @@
 id: concept-一堂-business-prediction
 title: 商业预判：15字诀与光谱模型——从拍脑袋到科学决策
 type: concept
-status: reviewed
+status: enriched
+downgrade_reason: "#614 裁定表卡12（2026-09-02 欧阳锋补审）：source_refs 两文件名死链（真实源=机会预判课）+⑦ToB 矩阵引言虚构+④与源不符；FAIL 点=修文件名+删换⑦+修正④，修后重审（内容修复另行编排）"
 author: 老顽童
 reviewed_by: 待审
 review_date: 2026-07-08

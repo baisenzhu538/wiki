@@ -26,8 +26,9 @@ source_refs:
 created_at: '2026-06-19'
 updated_at: '2026-07-08'
 author: 老顽童
-reviewed_by: 待审
-review_date: '2026-06-19'
+reviewed_by: 欧阳锋
+review_date: 2026-09-02
+grade: A-
 related:
 - '[[concept-一堂-kernel-iteration]]'
 - '[[concept-一堂-product-kernel]]'
@@ -63,7 +64,6 @@ discoverable_by:
 - 产品进化
 - 迭代路径
 ---
-
 # 产品内核迭代：五方向 × 五案例 × 触发信号
 
 > **一堂五步法**：产品内核不是静态的，需要随需求变化、竞争加剧、规模扩张持续动态调整。内核迭代有五个明确方向——不是随机尝试，而是有方向的、有数据触发的、有案例可循的系统演化。
@@ -314,6 +314,6 @@ discoverable_by:
 
 ## 来源与验证
 
-- Truman 口述稿：产品内核迭代课 L194-L657、L700-L1150、L1304-L1346、L2069-L2253、L3018-L3400
-- Truman 笔记：产品内核迭代课 11KB
+- Truman 口述稿：产品内核迭代课 L194-L657、L700-L1150、L1304-L1346、L2069-L2253、L2824-L2900（猫粮）、L3018-L3400
+- Truman 笔记：产品内核迭代课 10.3KB
 - 五方向命名（进化/量化/细化/强化/简化）与 concept-一堂-kernel-iteration 对齐

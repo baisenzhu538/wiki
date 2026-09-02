@@ -6,7 +6,8 @@ id: yt-product-kernel-overpromise-trap
 title: 过度承诺陷阱：前端卖了后端做不出来的东西
 type: dk
 dark_knowledge_type: trap
-status: reviewed
+status: enriched
+downgrade_reason: "#614 裁定表卡14（2026-09-02 欧阳锋补审）：核心引文块系改写拼贴包装成 Truman 口述+「月入过万」无源；FAIL 点=引文块改转述或换真实原句+删「月入过万」，修后重审（内容修复另行编排）"
 confidence: 0.85
 trust_level: high
 source_context:

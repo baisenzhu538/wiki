@@ -38,7 +38,7 @@ discoverable_by:
 - parse_sph
 - 元宝
 author: 黄药师
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 source_refs:
 - 70_product/projects/proj_20260816_wechat-collect-顶层文档.md
 - 40_outputs/code/scripts/wechat-serendipity-collect-guide.md
@@ -68,8 +68,9 @@ diagnostic_signals:
 - signal: 用户问"偶遇采集怎么做/视频号怎么自动进知识库/头条视频怎么转逐字稿"
   lens: 其他 agent 被问到偶遇采集能力时——检索本卡回答，不凭记忆
   follow_up: 读本卡链路+脚本路径，指导用户复制链接转发即可
+review_date: 2026-09-02
+grade: A-
 ---
-
 # KDO 偶遇采集管线（手机转发链接 → 全自动入库）
 
 > 楚门「偶遇自动采集五通道」通道② 的 KDO 落地（`framework-serendipity-five-channels`）。
@@ -102,7 +103,7 @@ diagnostic_signals:
 |:--|:--|:--|
 | 监控脚本 | `kdo-tools/wechat_link_monitor.py`（40_outputs 副本） | 全链路主控：数据库解密→提取→解析→下载→转写→知识化→自动转正 |
 | 知识化 | `kdo-tools/wechat_knowledge.py` | LLM 三层次（事实/规律/洞察），DeepSeek v4-flash |
-| Cookie 重建 | `kdo-tools/yuanbao_cookie_extract.py` | CDP 提取元宝全量 Cookie（1 个月过期重建） |
+| Cookie 重建 | `40_outputs/code/scripts/yuanbao_cookie_extract.py` | CDP 提取元宝全量 Cookie（1 个月过期重建） |
 | 解析服务 | `C:\Users\Administrator\tools\wx_channels_download_bin\` | parse_sph API 127.0.0.1:2022（ltaoo v260817，元宝 Cookie） |
 | 微信解密 | `C:\Users\Administrator\wechat-decrypt\` | SQLCipher 4 数据库解密（passphrase 复用） |
 | 转写引擎 | WSL `/home/dministrator/wechat-collect/transcribe.py` | faster-whisper GPU |
@@ -125,5 +126,5 @@ diagnostic_signals:
 
 ## Skill 挂载
 
-- Claude Code Skill：`.claude/skills/wechat-serendipity-collect/`（触发词：偶遇采集/视频号转知识库/手机转发视频/视频号逐字稿/自动入库/今日头条/toutiao）
+- Claude Code Skill：未挂载——原声明 `.claude/skills/wechat-serendipity-collect/` 实测不存在（声明失实，2026-09-02 #614 补审随修）；触发词预留：偶遇采集/视频号转知识库/手机转发视频/视频号逐字稿/自动入库/今日头条/toutiao
 - 其他 agent 检索本卡即可获得完整能力链路

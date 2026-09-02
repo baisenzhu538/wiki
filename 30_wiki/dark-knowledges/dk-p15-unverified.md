@@ -1,5 +1,6 @@
 ---
-status: reviewed
+status: enriched
+downgrade_reason: "#614 裁定表卡1（2026-09-02 欧阳锋补审）：六段模板四段+关联节全 src_unknown 占位，格式合规但内容空洞，reviewed 不成立；FAIL 点=按 .agent/pitfalls.md P-15 原始条目重写六段后重审（内容修复另行编排）"
 type: dk
 domain:
 - product
