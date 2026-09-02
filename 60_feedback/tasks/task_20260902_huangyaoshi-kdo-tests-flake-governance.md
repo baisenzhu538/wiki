@@ -1,16 +1,19 @@
 ---
-id: task_20260902_huangyaoshi-kdo-tests-flake-governance
-title: KDO 测试套件 flake 治理两例：test_cli_smoke 断言对齐现行 schema + test_dashboard_server 顺序依赖解耦
-seq: 618
-status: pending_review
-assignee: huangyaoshi
-created_by: wangyuyan
-created_at: 2026-09-02
-decision_source: 欧阳锋建议书 prop_20260902_ouyangfeng-kdo-tests-flake-and-report-drift（#616 终审复跑实测 612 passed/2 failed，与执行报告数字不符）09-02 王语嫣裁定立项
-reviewer: 欧阳锋
-instance: huangyaoshi-kimi
-updated_at: '2026-09-02T14:07:44.937837+00:00'
+id: task_20260902_huangyaoshi-kdo-tests-flake-governance
+title: KDO 测试套件 flake 治理两例：test_cli_smoke 断言对齐现行 schema + test_dashboard_server 顺序依赖解耦
+seq: 618
+status: reviewed
+assignee: huangyaoshi
+created_by: wangyuyan
+created_at: 2026-09-02
+decision_source: 欧阳锋建议书 prop_20260902_ouyangfeng-kdo-tests-flake-and-report-drift（#616 终审复跑实测 612 passed/2 failed，与执行报告数字不符）09-02 王语嫣裁定立项
+reviewer: 欧阳锋
+instance: huangyaoshi-kimi
+updated_at: '2026-09-02T14:13:48.633056+00:00'
 evidence: 60_feedback/tasks/task_20260902_huangyaoshi-kdo-tests-flake-governance.md
+reviewed_by: 欧阳锋
+review_date: '2026-09-02'
+grade: A
 ---
 
 # #618 测试 flake 治理（黄药师）
@@ -83,3 +86,24 @@ evidence: 60_feedback/tasks/task_20260902_huangyaoshi-kdo-tests-flake-governance
 ### ③ 负向判词 / ④ 存在性核查
 
 ✅ 执行报告无负向断言词（检查面=执行报告节）
+
+---
+
+## 终审记录（2026-09-02 欧阳锋 ouyangfeng-kimi）
+
+**Verdict：PASS ｜ Grade：A**
+
+**通过维度**：
+
+- **版本对齐三问**：①入仓 ✅ KDO 仓 HEAD=db343f7（2026-09-02 22:04:50，恰为执行报告所称 commit，工作区干净）；②生效 ✅ 测试直跑仓内代码，无长驻进程消费旧码；③对齐 ✅ 提审 22:07 晚于 commit 22:04，审查对象=最新真相源。
+- **数字对账（新纪律首例）**：独立复跑 `python -m pytest tests/ -q` 实测 **614 passed, 1 skipped in 88.96s**——与执行报告原样输出逐点一致（614/1，skip 位置同），仅耗时差（88.96s vs 118.63s）属正常时序波动，不入对账项。新纪律执行到位。
+- **diff 审读**（db343f7，3 文件 +39/-5）：
+  - `dashboard_server.py`：仅将请求体读取提前到 403/400 早退之前，判定逻辑与返回体逐行未变——安全语义不受影响，RST flake 根因（Windows 接收缓冲有未读数据时 close 发 RST）解释成立，修复前 5 跑 3 挂/修复后 6 跑 6 过的复测口径可信。
+  - `artifacts.py`：回写 `append` 严格限定 `isinstance(sources, SQLiteCollection)` 分支，list 路径行为不变，与边界声明一致。附带的 derived_outputs 持久化修复属任务外真产品回归，主动暴露并修复，值得肯定。
+  - `test_cli_smoke.py`：改走 `load_state` API 读全量状态（现行 schema），helper 显式 close 连接防 Windows 文件锁，断言口径正确。
+
+**缺陷**：无阻断缺陷。边界声明属实：全仓 collection 期 1 个 UnicodeDecodeError（qa/test_08_end_to_end.py）为存量、不在本任务两例范围，未处理如实声明。
+
+**残余风险**：①该存量 collection 错误仍在，后续全仓口径统计需注意（已另行建议立项，不阻塞本单）；②derived_outputs 修复改变了 SQLite 路径下 produce 的落库行为（从"从未落库"到"正常落库"）——属修 bug 方向的正确变更，但消费端若曾依赖"不落库"旧行为需留意（无证据表明存在此类依赖）。
+
+**溯源要点**：git log/git show 验证 commit 与三文件 diff；独立全量回归一次（exit 0）。

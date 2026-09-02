@@ -249,7 +249,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 615 | `task_20260902_laowantong-614-verdicts-apply` | #614裁定落笔：9张PASS卡补frontmatter（review_mark非空不覆盖）+5张降级enriched+裁定表随修项（路径/引用区间/diagnostic_signals） | reviewed | laowantong | 14卡落笔diff+自检证据 | 无 | `60_feedback/tasks/task_20260902_laowantong-614-verdicts-apply.md` | #614王语嫣复核PASS A-（09-02）；只落笔不裁决；降级卡内容修复另行编排；欧阳锋终审 |
 | 616 | `task_20260902_huangyaoshi-production-gate-enhancements` | 生产闸门三修：引号逐字对源+refs区间抽验（WARNING档先行）+claim抹字段bug+reviewer翻转通道（王语嫣限编排骨架单） | reviewed | huangyaoshi | 三处diff+回归用例×3+执行报告 | 无 | `60_feedback/tasks/task_20260902_huangyaoshi-production-gate-enhancements.md` | 欧阳锋伪引文模式建议书（09-02王语嫣裁定采纳）+#614翻转留痕同型第二例；小修不动状态机；欧阳锋终审 |
 | 617 | `task_20260902_laowantong-614-downgraded-cards-rework` | #614降级5卡内容返工：伪引文改转述/换真实原句+ten-metrics按源重写核心指标表+占位节补齐（FAIL点逐条在#614裁定表） | reviewed | laowantong | 5卡修复diff+FAIL点销项对账表 | #615 reviewed ✅ | `60_feedback/tasks/task_20260902_laowantong-614-downgraded-cards-rework.md` | #614降级5卡（09-02王语嫣编排）；引号对源新门禁已WARNING档在跑；只修FAIL点不顺手改；欧阳锋终审 |
-| 618 | `task_20260902_huangyaoshi-kdo-tests-flake-governance` | KDO测试flake治理：test_cli_smoke断言对齐现行schema+test_dashboard_server顺序依赖解耦+全量回归原样输出 | pending_review | huangyaoshi | 两处修复diff+全量回归输出 | 无 | `60_feedback/tasks/task_20260902_huangyaoshi-kdo-tests-flake-governance.md` | 欧阳锋建议书（09-02王语嫣漏扫9h后补裁定，E052复盘）；提审数字原样纪律随单生效；欧阳锋终审 |
+| 618 | `task_20260902_huangyaoshi-kdo-tests-flake-governance` | KDO测试flake治理：test_cli_smoke断言对齐现行schema+test_dashboard_server顺序依赖解耦+全量回归原样输出 | reviewed | huangyaoshi | 两处修复diff+全量回归输出 | 无 | `60_feedback/tasks/task_20260902_huangyaoshi-kdo-tests-flake-governance.md` | 欧阳锋建议书（09-02王语嫣漏扫9h后补裁定，E052复盘）；提审数字原样纪律随单生效；欧阳锋终审 |
 
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
@@ -470,7 +470,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#615 task_20260902_laowantong-614-verdicts-apply｜laowantong｜提审 09-02 12:05｜60_feedback/tasks/task_20260902_laowantong-614-verdicts-apply.md~~ → 已终审 PASS A-（2026-09-02 欧阳锋）
 - ~~#616 task_20260902_huangyaoshi-production-gate-enhancements｜huangyaoshi｜提审 09-02 12:08｜60_feedback/tasks/task_20260902_huangyaoshi-production-gate-enhancements.md~~ → 已终审 PASS A-（2026-09-02 欧阳锋）
 - ~~#617 task_20260902_laowantong-614-downgraded-cards-rework｜laowantong｜提审 09-02 13:00｜60_feedback/tasks/task_20260902_laowantong-614-downgraded-cards-rework.md~~ → 已终审 PASS A-（2026-09-02 欧阳锋）
-- #618 task_20260902_huangyaoshi-kdo-tests-flake-governance｜huangyaoshi｜提审 09-02 22:07｜60_feedback/tasks/task_20260902_huangyaoshi-kdo-tests-flake-governance.md
+- ~~#618 task_20260902_huangyaoshi-kdo-tests-flake-governance｜huangyaoshi｜提审 09-02 22:07｜60_feedback/tasks/task_20260902_huangyaoshi-kdo-tests-flake-governance.md~~ → 已终审 PASS A（2026-09-02 欧阳锋）
 
 <!-- REVIEW-PENDING-END -->
 
