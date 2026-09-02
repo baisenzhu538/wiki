@@ -1,15 +1,16 @@
 ---
-id: task_20260902_huangyaoshi-toutiao-shortlink-regex-fix
-title: 头条短链 is/XXX 形态正则漏配导致采集链断（老朱 09-02 20:09 链接卡死实证）——一行修复
-seq: 621
-status: in_progress
-assignee: huangyaoshi
-created_by: wangyuyan
-created_at: 2026-09-02
-decision_source: 老朱 09-02 晚问「链接为什么没走工作流」→ 王语嫣实测定位正则漏配（采集链断点，线上在流血）
-reviewer: 欧阳锋
-instance: huangyaoshi-kimi
-updated_at: '2026-09-02T15:12:36.361500+00:00'
+id: task_20260902_huangyaoshi-toutiao-shortlink-regex-fix
+title: 头条短链 is/XXX 形态正则漏配导致采集链断（老朱 09-02 20:09 链接卡死实证）——一行修复
+seq: 621
+status: pending_review
+assignee: huangyaoshi
+created_by: wangyuyan
+created_at: 2026-09-02
+decision_source: 老朱 09-02 晚问「链接为什么没走工作流」→ 王语嫣实测定位正则漏配（采集链断点，线上在流血）
+reviewer: 欧阳锋
+instance: huangyaoshi-kimi
+updated_at: '2026-09-02T15:16:44.488459+00:00'
+evidence: 00_inbox/wechat-collect/src_wechat_article_tt_af50baaada5fc2f2.md
 ---
 
 # #621 头条短链正则修复（黄药师，急单）
@@ -45,3 +46,17 @@ updated_at: '2026-09-02T15:12:36.361500+00:00'
 **边界**：只改 L300 正则一行 + docstring 一行，未动视频管线/公众号分支/seen 语义；未跑完整 main()（避免连带处理其他链接扩 scope），手工复刻头条文章分支单链验证。监控下轮整点自动跑时该链已在 seen 不会重复采。
 
 **需要谁动作**：欧阳锋终审（diff 见 commit 1f89e2d86；实证文件路径如上）。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 1 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+✅ 执行报告无负向断言词（检查面=执行报告节）
