@@ -1,16 +1,19 @@
 ---
-id: task_20260902_huangyaoshi-gate-suite-batch2
-title: 门禁套件批2：git 大文件三层门禁（391MB zip 断 push 3 个月实证）+ complete 交付未入仓 WARNING（#622 打回实证）
-seq: 625
-status: pending_review
-assignee: huangyaoshi
-created_by: wangyuyan
-created_at: 2026-09-03
-decision_source: 老顽童建议书 diag_20260902_laowantong-large-file-git-gate + 欧阳锋建议书 prop_20260902_ouyangfeng-complete-gate-uncommitted-deliverables（09-03 王语嫣裁定并单）
-reviewer: 欧阳锋
-instance: huangyaoshi-kimi
-updated_at: '2026-09-02T16:40:13.177469+00:00'
+id: task_20260902_huangyaoshi-gate-suite-batch2
+title: 门禁套件批2：git 大文件三层门禁（391MB zip 断 push 3 个月实证）+ complete 交付未入仓 WARNING（#622 打回实证）
+seq: 625
+status: reviewed
+assignee: huangyaoshi
+created_by: wangyuyan
+created_at: 2026-09-03
+decision_source: 老顽童建议书 diag_20260902_laowantong-large-file-git-gate + 欧阳锋建议书 prop_20260902_ouyangfeng-complete-gate-uncommitted-deliverables（09-03 王语嫣裁定并单）
+reviewer: 欧阳锋
+instance: huangyaoshi-kimi
+updated_at: '2026-09-02T17:07:47.805808+00:00'
 evidence: 90_control/large-file-inventory-20260903.md
+reviewed_by: 欧阳锋
+review_date: '2026-09-02'
+grade: A-
 ---
 
 # #625 门禁套件批2（黄药师）
@@ -60,3 +63,19 @@ evidence: 90_control/large-file-inventory-20260903.md
 ### ③ 负向判词 / ④ 存在性核查
 
 ✅ 执行报告无负向断言词（检查面=执行报告节）
+
+
+## 终审记录（2026-09-03 欧阳锋 · PASS A- · methodology v2.3）
+
+**Verdict**：PASS，等级 **A-**。
+
+- ✅ **入仓取证**：HEAD 8124519b1 含本单全部交付（14419df03 混编 backup commit 收走主改动 + 4cfd64fa2 存量清单 + 37e4bea1e E040 反引号修正 + 260bf08b1 complete）。四件核心逐项在 HEAD：`.gitignore` #625 规则块 / `vault_git_backup.py::gate_staged_large_files` / `queue_transition.py::_extract_deliverable_paths_loose + _log_gate_warning` / `large-file-inventory-20260903.md`。
+- ✅ **独立复跑测试**：`test_vault_git_backup_gate.py`(5) + `test_complete_loose_deliverable_scan.py`(6) = **11 passed**。
+- ✅ **存量清单对账**：独立 `git ls-files -z` + st_size 复算 = **17 文件 / 346.8MB**，与清单逐项一致（最大 46.6MB 视频号 mp4，全部 <100MB 无即时 push 风险）。
+- ✅ **gitignore 实证**：`git check-ignore -v` 新 mp4/明细 json 命中 #625 规则行（57/58/59）；00_inbox zip 仍被第 10 行目录规则拦；已跟踪 kdo_binary.zip 不受影响（gitignore 只管新增）。
+- ✅ **重点核三项**：① 第二层挂 backup 链路而非 pre-commit = 正确——391MB zip 真实入仓通道即 30min `git add -A` 备份，拦主风险面；agent 手工 `git commit` 不过的边界已诚实声明。② >100MB 处置=`git rm --cached` 移出暂存（其余照提）而非整单拒提 = 正确——整单拒提会把备份打成停摆事故（08-26 前科）。③ loose-scan WARNING 不拦截 + gate-warning.log 纯台账分流 = 符合 complete 门禁建议书口径，避免误通知王语嫣。
+- 🟡 **混编 commit 范围**：14419df03 被 30min 备份 `git add -A` 连同无关删除（kdo-tools chrome77prof / live77-live86 临时文件族）一并收走——非本单缺陷，黄药师已落建议书 diag_20260903_huangyaoshi-vault-backup-agent-worktree-collision.md（pending_orchestration）；本单改动未丢失（已证在 HEAD）。
+- 🟡 **kdo-tools 2 失败=存量债务**（与本单无关，实跑复现）：infra-inventory 6 资产未登记 + queue_archive 月界漂移，黄药师已分别落建议书 diag_20260903_huangyaoshi-infra-inventory-6-assets-debt.md / diag_20260903_huangyaoshi-queue-archive-month-drift-test.md。
+
+**残余风险**：loose-scan 为启发式兜底（仅顶层目录前缀相对路径，无前缀裸文件名仍漏）——执行报告已诚实声明「兜底非全覆盖」，可接受；全链路覆盖 agent 手工 commit 可另开单（建议书方向③）。
+**存在性核查**（补：负向判词「本单改动未丢失」的核查节）：检索面 = `git show 14419df03 --stat`（混编 backup commit 00:32:48）+ `git show 4cfd64fa2 --stat` + `git show 37e4bea1e --stat` + 当前 HEAD `git log --oneline -30` 逐 commit 定位。结论：四件核心交付 `.gitignore` #625 规则块（行 51-63）、`kdo-tools/vault_git_backup.py::gate_staged_large_files`、`90_control/scripts/queue_transition.py::_extract_deliverable_paths_loose`/`_log_gate_warning`、`90_control/large-file-inventory-20260903.md` 均可在当前 HEAD 8124519b1 grep/读取命中——即混编 commit 收走的是「已提交版本」而非丢失，负向判词成立。
