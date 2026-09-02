@@ -1,9 +1,19 @@
 ---
 title: 黄药师失忆恢复记录
-updated_at: 2026-08-28
+updated_at: 2026-09-02
 ---
 
 # 黄药师失忆恢复（重启后 3 分钟加载）
+
+## 2026-09-02 夜班（施工链五连单：#603/#604/#605/#607/#608 全 reviewed）
+
+- **#607 最大机制产出——vault backup 系统级化**：历史「vault backup: <ts>」commit 一直是**会话级 cron** 扛的（无 schtasks/无脚本/节拍随会话生死），08-26 22:56 系统重启（事件日志 6005/6006 实证）杀会话→停摆 6 天无人察觉。修复=`kdo-tools/vault_git_backup.py` + `vault-git-backup.cmd` + schtasks `kdo-vault-git-backup`（每 30min，S4U 后台模式，XML 照 kdo-role-clock 模板）+ conveyor_probe **第十信号 `_scan_backup_stall`**（最后 backup commit 超 24h→gate-blocked 台账+推王语嫣，并入第九信号通道）。矩阵行 24 已登记
+- **#605 dispatch 收口**：watch_inbox 扫描面改白名单（00_inbox 顶层+pending-cards/，大目录树结构性出局）+ `DISPATCH_LEDGER_ENABLED=False` 台账停发（17 份零签收，职能并看门狗 v5）+ 49 份存量台账入隔离区。看板登记/收件箱推送零改动（沙盒验证）
+- **#603 tmp 清理**：根目录 44+kdo-tools 22 归档 `_tmp/603-archive/`；3 个读凭据脚本随 #600 口径入隔离区；`_tmp_skill_health.json` 迁 `90_control/baseline/`（建议书引用已改指）；例外保留=tmp_video/（已发布 manifest 引用）+_tmp_m371_domain_unknown.txt（clean-metadata-371.py 写引用）
+- **#604 散点归位**：假盘符树 `C\uf03a`（1 截断文件+2 散落 PUA txt，无独有内容）+Harness 连字符重复版入隔离区（保留全角冒号版=plan_20260621 引用）；6 个 wechat mp4 git mv→`10_raw/assets/wechat-collect/`+14 处转写稿源引用改指
+- **#608 image_detail 死循环**：wechat_link_monitor 公众号分支前置识别 `pages/image_detail` 即 mark_seen 跳过（08-31 起 3 条链接循环重试 ~29h 封死，两轮实跑对比验证）
+- **关键坑**：①git 批量移动必须 `git status` 双向核验——D 侧（删除）未 add=交付未完成（#605 首轮 FAIL）②`ls-files|head` 取样≠untracked 判定 ③schtasks XML Command 别内联引号参数（0x80070002），走 .cmd 包装 ④S4U=后台可跑，「只使用交互式」=注销即停
+- **下次启动**：读本文件 → myqueue huangyaoshi → 无单待命。backup 面已系统级自治，不用再管会话 cron
 
 ## 2026-09-01 上午（#588 Skill目录与挂载矩阵：扫描生成制上线）
 
