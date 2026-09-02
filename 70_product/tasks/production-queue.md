@@ -788,6 +788,8 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - [friction] [shared] 2026-09-02 06:46｜09-02 06:47｜待王语嫣复核处置｜[shared] 2026-09-02 06:46｜huangyaoshi｜#605 台账归档｜mv 移动 git 跟踪文件后未 add 删除侧，交付 commit 缺 49 删除被终审 FAIL｜根因：只凭 ls-files 头部输出误判 untracked，批量移动后没跑 git status 核验删除侧
 - [gate-blocked] task_20260902_laowantong-live257-ten-finger-fragrance-cards｜09-02 07:37｜待王语嫣复核处置｜2026-09-02 07:27:43｜task_20260902_laowantong-live257-ten-finger-fragrance-cards｜F-034-五字段｜--evidence 文件不可读: 3张增量卡+3存量卡反向补链+pre-submit 3/3 PASS+执行报告已落任务单（查重结论：framework/method/案例光谱三候选已由#586 r｜laowantong-kimi
 - diag_20260902_ouyangfeng-review-mark-missed-recurrence.md｜09-02 07:47｜待王语嫣复核裁定
+- diag_20260902_ouyangfeng-f036-gate-negation-false-positive.md｜09-02 08:17｜待王语嫣复核裁定
+- [gate-blocked] task_20260902_huangyaoshi-image-detail-deadloop-fix｜09-02 08:17｜待王语嫣复核处置｜2026-09-02 08:15:02｜task_20260902_huangyaoshi-image-detail-deadloop-fix｜F-036-问题落点｜审查发现问题未给落点（F-036）：**缺陷**：无阻塞缺陷。🟡 微瑕（记录不阻断）：交付物节将 `_tmp/` 日志列为路径（机器预审已提示，按约定豁免；——必须在意见书注明去向（建议书路径 / 停｜欧阳锋
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |

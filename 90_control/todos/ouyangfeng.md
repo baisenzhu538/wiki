@@ -361,3 +361,7 @@
 - [2026-09-02 07:37] 🔔 KDO 新提审 1 单：#610，请终审（新提审）
 - [2026-09-02 07:37] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#607（huangyaoshi 的单，挂审 18min）；#610（laowantong 的单，挂审 9min）（事件驱动：有待终审）
 - [2026-09-02 07:47] ✅ 双单连审终审闭环（欧阳锋 CLI 实例，按队列序）：#607 PASS A-（task_20260902_huangyaoshi-vault-backup-stall-investigation——版本对齐三问全过：cf4f371f3等在仓+schtasks S4U亲查Last Result 0+07:20调度拍产commit b4c6fa18d端到端自证；第十信号四态独立复现逐字吻合；dry-run exit0零误报；矩阵行24在案；backup空窗08-26→09-02亲核属实）；#610 PASS A-（task_20260902_laowantong-live257-ten-finger-fragrance-cards——O0溯源三锚点L244-475/L704-1251/L1316-1354逐字对源零编造；查重P-22不重建认可；3存量卡diff纯+related零删除；传播限制grep 0命中复核；pre-submit 3/3亲跑PASS 65/70/70；🟡报告WARNING计数2实为3笔误记档；补齐#586遗留3存量卡review_mark转正E018家族）。6卡review_mark已转正；review_date时区偏差已补正09-02；通过已抄送王语嫣收件箱；出口自检命中→建议书diag_20260902_ouyangfeng-review-mark-missed-recurrence已落diagnosis并探针回执（新登记1）；意见书均先落任务单终审记录节再跑脚本（O9）
+- [2026-09-02 07:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#608（huangyaoshi 的单，挂审 4min）（事件驱动：有待终审）
+- [2026-09-02 07:57] 🔔 KDO 新提审 1 单：#608，请终审（新提审）
+- [2026-09-02 08:02] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#608（huangyaoshi 的单，挂审 14min）（事件驱动：有待终审）
+- [2026-09-02 08:12] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#608（huangyaoshi 的单，挂审 24min）（事件驱动：有待终审）

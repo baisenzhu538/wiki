@@ -1,0 +1,167 @@
+kimi version 0.39.1
+• Let me do the startup reads in parallel.
+
+• 我先执行启动恢复的三步读取。
+
+• Let me read 90_control/AGENTS.md and the #608 task. First find the task file. #608 — huangyaoshi image_detail 死循环修复. Let me look at production-queue.md and the task file.Found the task file: `60_feedback/tasks/task_20260902_huangyaoshi-image-detail-deadloop-fix.md`. Let me read it, plus check the queue row for #608.
+
+• 任务单已定位，现在读任务单和队列行。
+
+• Now I have the task file. The queue row for #608: grep found production-queue.md contains 608. I need to check queue status. Let me check queue row for #608 status, verify evidence:
+
+  O0-style verification for code task:
+  1. Version alignment 三问 (code task, .py file):
+     - 入仓了吗: commit 7d2e73837 in git log for kdo-tools/wechat_link_monitor.py
+     - 生效了吗: is the monitor a long-running process? Check what runs wechat_link_monitor (scheduled task?). Verify process/schedule runs new code.
+     - 对齐了吗: review latest truth source.
+  2. Read the actual diff (git show 7d2e73837) — verify 5-line insertion, single-point change.
+  3. Read the two logs _tmp/608-round1.log, round2.log.
+  4. Check queue row state = pending_review.
+  5. Check notification-coverage-matrix? Task touches infra script (wechat_link_monitor.py) — §3.19: 总账同步 check. Let me grep notification-coverage-matrix for wechat_link_monitor.
+  6. Also there was a mention in my context about #546 终审权机器校验: need register ouyangfeng before review. From todos line 44: "review 前需上岗登记一次——python 90_control/scripts/queue_transition.py register ouyangfeng". I should check if registered; try register anyway (idempotent presumably).
+
+  Let me do parallel: git log/show for commit, read logs, grep queue row.7d2e73837 fix(#608): image_detail图片分享页识别即mark_seen跳过——封死每10分钟空转重试死循环（08-31起~29h实证）
+6923b058a #601 wechat_promote去重根治+存量143份隔离+seen归一化 by huangyaoshi：去重键剔除日期成分（全历史glob），跨天回归红绿自证，引用感知保留20份，kdo index -143
+b3a90de95 fix(wechat-collect): 转写通道从WSL迁回Windows原生——拔掉wsl.exe依赖(0831王语嫣turn卡死根因)
+---
+commit 7d2e738375c799b19a0770661a2b69098dcd4839
+Author: Linhai Zhu <baisenzhu538@gmail.com>
+Date:   Wed Sep 2 07:48:51 2026 +0800
+
+    fix(#608): image_detail图片分享页识别即mark_seen跳过——封死每10分钟空转重试死循环（08-31起~29h实证）
+
+ kdo-tools/wechat_link_monitor.py | 7 +++++++
+ 1 file changed, 7 insertions(+)
+---
+commit 7d2e738375c799b19a0770661a2b69098dcd4839
+Author: Linhai Zhu <baisenzhu538@gmail.com>
+Date:   Wed Sep 2 07:48:51 2026 +0800
+
+    fix(#608): image_detail图片分享页识别即mark_seen跳过——封死每10分钟空转重试死循环（08-31起~29h实证）
+
+diff --git a/kdo-tools/wechat_link_monitor.py b/kdo-tools/wechat_link_monitor.py
+index ae3ad7b84..6efa61936 100644
+--- a/kdo-tools/wechat_link_monitor.py
++++ b/kdo-tools/wechat_link_monitor.py
+@@ -449,6 +449,13 @@ def main():
+ 
+         # 公众号文章：抓 HTML → 入库 → 知识化（不走视频管线）
+         if "mp.weixin.qq.com" in url:
++            # #608（2026-09-02）：image_detail 图片分享页（t=pages/image_detail）非文章页，
++            # 永远抓不到正文——"失败不记 seen"导致每 10 分钟空转重试（08-31 起循环 ~29h 实证）。
++            # 识别即 mark_seen 跳过，不进解析重试。
++            if "pages/image_detail" in url:
++                print("  ⏭️ image_detail 图片分享页——无正文可抓，mark_seen 跳过（#608）")
++                mark_seen(url)
++                continue
+             title, body = fetch_mp_article(url)
+             if not body:
+                 print("  ⚠️ 公众号抓取失败——不记录，下轮重试（与视频同语义：成功才记 seen）")
+Good evidence so far. Now need:
+
+  1. Queue row state for #608 in production-queue.md — verify pending_review. Also check notification-coverage-matrix for wechat_link_monitor (§3.19 check).
+  2. Version alignment 三问:
+     - 入仓: commit 7d2e73837 in git log ✓ (already confirmed).
+     - 生效: is wechat_link_monitor run by a scheduled task? Need to check — scheduled task runs the script from kdo-tools (single truth source in wiki repo). Since the scheduled task invokes the script from the repo path each time, commit at 07:48 + it's a script (not a long-running process) — each scheduled run picks up the new code. But should verify which scheduled task runs it and that it points to this repo path. Let me check schtasks or the script for how it's invoked. Quick: `schtasks /query /fo csv | grep -i wechat` or check for a wrapper ps1.
+     - 对齐: git log -1 on repo vs queue — fine.
+  3. Verify current file state matches commit (git diff HEAD -- kdo-tools/wechat_link_monitor.py empty? and that working tree contains the change).
+  4. Register check for #546: run register ouyangfeng first.
+  5. Check seen_links.txt contains the 3 image_detail links now (independent verification of round logs claim). Where is seen_links.txt? Probably _tmp or somewhere. Let me grep script for SEEN path.
+
+  Also O0 source verification: read the actual code section in wechat_link_monitor.py around L449-462 to confirm insertion placement (before fetch_mp_article, inside mp.weixin branch). And check that mark_seen function exists.
+
+  Also check matrix: grep notification-coverage-matrix for wechat_link_monitor / monitor row.
+
+  Let me run these.---
+        # `&`/`&amp;`/exportkey 等变体行，老格式纯 URL 行也能命中规范化查重
+        for line in SEEN_FILE.read_text(encoding="utf-8").splitlines():
+            seen.add(line)
+            seen.add(canonical_key(line))
+    fresh = [(ct, u) for ct, u in links if u not in seen and canonical_key(u) not in seen]
+    print(f"🔗 新链接 {len(fresh)} 个（共扫 {len(links)}）")
+    for ct, url in fresh:
+        ts = time.strftime("%m-%d %H:%M", time.localtime(ct))
+        print(f"  [{ts}] {url[:80]}")
+
+        # 公众号文章：抓 HTML → 入库 → 知识化（不走视频管线）
+        if "mp.weixin.qq.com" in url:
+            # #608（2026-09-02）：image_detail 图片分享页（t=pages/image_detail）非文章页，
+            # 永远抓不到正文——"失败不记 seen"导致每 10 分钟空转重试（08-31 起循环 ~29h 实证）。
+            # 识别即 mark_seen 跳过，不进解析重试。
+            if "pages/image_detail" in url:
+                print("  ⏭️ image_detail 图片分享页——无正文可抓，mark_seen 跳过（#608）")
+                mark_seen(url)
+                continue
+            title, body = fetch_mp_article(url)
+            if not body:
+                print("  ⚠️ 公众号抓取失败——不记录，下轮重试（与视频同语义：成功才记 seen）")
+                continue
+            stem = hashlib.md5(canonical_key(url).encode()).hexdigest()[:16]
+            out_md = INBOX_DIR / f"src_wechat_article_{stem}.md"
+            out_md.write_text(f"# {title or url}\n\n> 来源: {url}（公众号·偶遇转发）\n\n{body[:30000]}\n", encoding="utf-8")
+            print(f"  ✅ 公众号文章入库: {out_md}（{len(body)} 字）")
+            knowledge_ize(out_md)
+            mark_seen(url)
+            continue
+
+---
+43:SEEN_FILE = WORK_DIR / "seen_links.txt"
+78:def mark_seen(url: str):
+80:    with open(SEEN_FILE, "a", encoding="utf-8") as f:
+401:    if SEEN_FILE.exists():
+402:        seen = set(SEEN_FILE.read_text(encoding="utf-8").splitlines())
+422:            with open(SEEN_FILE, "a", encoding="utf-8") as f:
+438:    if SEEN_FILE.exists():
+441:        for line in SEEN_FILE.read_text(encoding="utf-8").splitlines():
+The Grep for 608 in production-queue hit many "608" substrings (task ids containing 608 like 20260809). I need to find the #608 row specifically. Let me grep for "task_20260902_huangyaoshi-image-detail-deadloop-fix" in production-queue.md with content mode, narrow.
+
+  Also notification-coverage-matrix has no wechat_link_monitor match — that's a §3.19 signal: task touches infrastructure (wechat_link_monitor.py) but matrix not updated. Need to check whether matrix covers this script at all, or whether matrix_exempt flag is in the task. The task frontmatter has no matrix_exempt. Let me check the matrix file structure and what it covers. From the earlier todos: "总账未同步：#task 触碰基础设施（conveyor_probe.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）". Also "#538 第七信号拦截=真阳性（黄药师漏登矩阵，非误报）：王语嫣已代补登矩阵行 12，拦截条件消除".
+
+  So I need to check: does the matrix cover wechat_link_monitor-related notifications? The matrix maps infra touchpoints to notification coverage. The fix adds a new print line but doesn't add a new notification channel... Actually the fix adds a new skip behavior, not new notifications. Let me read the matrix to understand its structure and see if wechat monitor is covered (maybe under a different name, e.g. "采集链" or "wechat-collect").
+
+  Also need:
+  - seen_links.txt check: SEEN_FILE = WORK_DIR / "seen_links.txt". What's WORK_DIR? grep. Then verify 3 image_detail lines present (independent verification).
+  - Scheduled task that runs the monitor — verify it invokes this repo's script (version alignment Q2). Since it's a script run per invocation (every 10 min presumably via schtasks), commit in repo = code that will run next invocation. Verify schtasks command points to wiki repo path.
+  - Register ouyangfeng for review gate (#546): run register command.
+
+  Let me do these in parallel.
+
+• 队列 grep 命中太多噪声，精确找 #608 行；同时做剩余验证。242:| 608 | `task_20260902_huangyaoshi-image-detail-deadloop-fix` | image_detail死循环修复：识别该类型直接mark_seen跳过（三症联诊动作3漏项补立，原口径随#601同单但任务单未含） | pending_review | huangyaoshi | 修复diff+两轮日志对比实证 | #601 reviewed 后（防同文件冲突） | `60_feedback/tasks/task_20260902_huangyaoshi-image-detail-deadloop-fix.md` | 黄药师三症联诊动作3（09-02王语嫣裁定补立）；小改单点不碰去重逻辑；欧阳锋终审 |
+457:- #608 task_20260902_huangyaoshi-image-detail-deadloop-fix｜huangyaoshi｜提审 09-02 07:48｜60_feedback/tasks/task_20260902_huangyaoshi-image-detail-deadloop-fix.md
+---
+42:WORK_DIR = WIKI / "60_feedback" / "wechat-collect"
+---
+./60_feedback/wechat-collect/seen_links.txt
+---
+/usr/bin/bash: line 1: ---.TaskName: command not found
+/usr/bin/bash: line 1: .Execute: command not found
+/usr/bin/bash: line 1: .Arguments: command not found
+✅ 实例已登记: ouyangfeng（role=ouyangfeng cwd=C:\Users\Administrator\Desktop\wiki ts=2026-09-02T08:11:12）
+   登记表: C:\Users\Administrator\Desktop\wiki\.kdo\active-instances.json
+
+
+• Queue row: #608 pending_review ✓. Consistent with task frontmatter pending_review ✓.
+
+  seen_links.txt location: 60_feedback/wechat-collect/seen_links.txt. Let me count image_detail lines.
+
+  schtasks check failed due to quoting. Retry simpler. Actually question 2 of version alignment: script is invoked per-schedule; the code committed at 07:48 is in repo. If scheduled task points at wiki repo path, next run uses new code. Let me check scheduled tasks. Also possibly the monitor is run by a scheduled task named like "wechat-link-monitor". Let me query properly.
+
+  Matrix: no wechat/monitor rows at all. Need to read matrix structure to judge whether this script should be registered. §3.19 — let me check charter §3.19 to understand what triggers matrix registration: touching 基础设施 requires matrix sync. The matrix is "notification-coverage-matrix" — about notification coverage of scheduled jobs/probes presumably. Does wechat_link_monitor produce notifications? Let me look at matrix file header quickly.3
+28:https://mp.weixin.qq.com/s?t=pages/image_detail&scene=1&__biz=MzYzMTk0ODMxNA==&mid=2247483662&idx=1&sn=e662f8603a24a2298c6544946087c659&from_masonry=1&sharer_shareinfo_first=336d0b75ce58e81879091ee1632a1eb0&sharer_shareinfo=f65ba89b3a5c12360ca12d29ae0e1f58#wechat_redirect
+30:https://mp.weixin.qq.com/s?t=pages/image_detail&scene=24&__biz=MzYzMTk0ODMxNA==&mid=2247483662&idx=1&sn=e662f8603a24a2298c6544946087c659&from_masonry=1&sharer_shareinfo_first=336d0b75ce58e81879091ee1632a1eb0&sharer_shareinfo=336d0b75ce58e81879091ee1632a1eb0#wechat_redirect
+32:https://mp.weixin.qq.com/s?t=pages/image_detail&scene=24&__biz=MzYzMTk0ODMxNA==&mid=2247483662&idx=1&sn=e662f8603a24a2298c6544946087c659&from_masonry=1&sharer_shareinfo_first=336d0b75ce58e81879091ee1632a1eb0&sharer_shareinfo=336d0b75ce58e81879091ee1632a1eb0&ascene=14&devicetype=android-34&version=28004d33&nettype=WIFI&lang=zh_CN&exportkey=n_ChQIAhIQO0JK5MG7826Mz%2FswyZM6lxL2AQIE97dBBAEAAAAAADXBGE3lAmIAAAAOpnltbLcz9gKNyK89dVj04St1obbenDJQgkpCt8PukVJO8cqPzwTJI0dTSFQHHHUryw6BzmkIaZAKbcLdrYQ%2F5Ccm4%2F51zygFWGE2HZq0p6HI8zhdSHiUk0payB9BYxI8UwJuBDZUnh0BgD%2BWTaqRtLVTXL51V000qjWyOKRQQiASUFE6ERa2IhuGO9HbHUnE1qsxpOnDRF9tG8AskhsltCxJpKOIB2d0iuibPA95eIPb8yoDPWW7LOWQYPwl69fn5IMI9%2FvfHsIFm%2BKQjU7lLTCnUdv9Jd9RAOk5wIuP0g%3D%3D&pass_ticket=H%2F9%2BEknUNF%2FRSkMOaE7OrX6A6wy%2FuYrA7OzkgfbVndErvtrDMdE2XhGqD15KwpGi&wx_header=3
+---
+Matrix discipline: "凡新增/修改事件类型或通知通道的任务单，交付时必须同步更新本矩阵". #608 adds a print to the monitor script — it doesn't add/modify an event type or notification channel. It's a bugfix to a data-processing script, not a notification mechanism. The earlier ⛔ examples touched conveyor_probe.py (a notification detection source) and queue_transition.py (event producer). wechat_link_monitor.py isn't in the matrix's 检测源 list — it's a collector, not a notification mechanism. So no matrix update required. But wait — the "第七信号" (matrix sync check) may flag any 基础设施单. The gate fires for 基础设施单 reviewed 总账未同步. If conveyor_probe's _matrix_sync_check flags wechat_link_monitor.py as infra... it flags based on task touching infra files. Let me check what _matrix_sync_check considers infra. Actually the seventh-signal previously fired for conveyor_probe.py and queue_transition.py — both in 90_control/scripts presumably. wechat_link_monitor.py is in kdo-tools/. Let me check the probe's definition of infra quickly.
+
+  Also pending: verify scheduled task runs the monitor (version alignment Q2). The schtasks grep returned nothing for wechat — maybe the task name doesn't contain "wechat". Let me search the script for how it's scheduled, or grep schtasks list for python tasks. Also check round logs timing (round2 after round1). And check whether a new round of the monitor has run since 07:48 commit in production (there may be a log file for the scheduled run). Actually the two _tmp logs are the verification runs; the requirement was "改完实跑一轮监控验证" — two rounds done manually. Version alignment Q2: for a scheduled-task-invoked script, the next scheduled invocation will use the new code since it's in the repo. But I should confirm the scheduler invokes kdo-tools/wechat_link_monitor.py from this repo (not a copy). Let me check schtasks more broadly.
+
+  Also confirm #601 is reviewed (red line: wait until #601 reviewed — commit log shows 6923b058a #601 commit; queue line said "#601 reviewed 后（防同文件冲突）". Need to check #601 status reviewed. Grep queue for 601 row.grep: 90_control/scripts/conveyor_probe.py: No such file or directory
+===
+217:| 585 | `task_20260901_huangyaoshi-wechat-pipeline-smoke-test` | wechat采集管线smoke测试最小护栏：骨架标记skip判定断言+失败占位拦截联动+红绿自验（LLM全桩化） | reviewed | huangyaoshi | smoke脚本+断言+红绿验证 | #584终审扣分点2（欧阳锋明示立项） | `60_feedback/tasks/task_20260901_huangyaoshi-wechat-pipeline-smoke-test.md` | #584终审PASS A-指令执行（09-01王语嫣编排）；P2不插队；欧阳锋终审 |
+235:| 601 | `task_20260902_huangyaoshi-wechat-promote-dedup-fix` | wechat_promote去重根治（去重键含当天日期bug，08-18起带病）+sources层147份纯重复引用感知处置入隔离区+seen_links URL归一化+索引更新 | reviewed | huangyaoshi | bug修复+跨天回归+147→0+索引增量 | #600后 | `60_feedback/tasks/task_20260902_huangyaoshi-wechat-promote-dedup-fix.md` | 欧阳锋建议书+风清扬R2/R3；inbox原件不动（F-KDO-015溯源链）；批量三问+引用对账；欧阳锋终审 |
+242:| 608 | `task_20260902_huangyaoshi-image-detail-deadloop-fix` | image_detail死循环修复：识别该类型直接mark_seen跳过（三症联诊动作3漏项补立，原口径随#601同单但任务单未含） | pending_review | huangyaoshi | 修复diff+两轮日志对比实证 | #601 reviewed 后（防同文件冲突） | `60_feedback/tasks/task_20260902_huangyaoshi-image-detail-deadloop-fix.md` | 黄药师三症联诊动作3（09-02王语嫣裁定补立）；小改单点不碰去重逻辑；欧阳锋终审 |
+430:- ~~#585 task_20260901_huangyaoshi-wechat-pipeline-smoke-test｜黄药师｜提审 09-01 01:59｜60_feedback/tasks/task_20260901_huangyaoshi-wechat-pipeline-smoke-test.md~~ → 已终审 PASS A（2026-08-31 欧阳锋）
+447:- ~~#601 task_20260902_huangyaoshi-wechat-promote-dedup-fix｜huangyaoshi｜提审 09-02 01:55｜60_feedback/tasks/task_20260902_huangyaoshi-wechat-promote-dedup-fix.md~~ → 已终审 PASS A-（2026-09-01 欧阳锋）
+#601 is reviewed ✓ (red line condition satisfied).
+
+  schtasks /v found nothing for link_monitor — maybe the monitor isn't scheduled by schtasks, or the query is too slow/filtered weirdly. Let me find how wechat_link_monitor is invoked. Check for scheduled task names containing "kdo" or grep the repo for references (e.g. a ps1 or schtasks registration script). Also the machine pre-review & prior context: the monitor is run every 10 min per task description. Let me search for its invocation.

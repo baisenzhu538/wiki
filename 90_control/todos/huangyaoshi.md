@@ -372,3 +372,6 @@
 - [2026-09-02 07:42] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#607（huangyaoshi 的单，挂审 23min）；#610（laowantong 的单，挂审 14min）（到点（节奏 15min））
 - [2026-09-02 07:47] ✅ KDO 终审通过 1 单：#607——你的单过了，见任务单终审记录
 - [2026-09-02 07:49] ✅ #608 image_detail死循环修复 complete 提审：公众号分支前置识别pages/image_detail即mark_seen跳过，两轮实跑对比（R1三条⏭️跳过+seen计数0→3，R2新链接0不再复现）（commit 7d2e73837）
+- [2026-09-02 07:57] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#608（huangyaoshi 的单，挂审 9min）（到点（节奏 15min））
+- [2026-09-02 08:12] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#608（huangyaoshi 的单，挂审 24min）（到点（节奏 15min））
+- [2026-09-02 08:17] ✅ KDO 终审通过 1 单：#608——你的单过了，见任务单终审记录
