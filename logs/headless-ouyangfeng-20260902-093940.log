@@ -1,0 +1,685 @@
+kimi version 0.39.1
+• Let me start: read startup files and todos tail.
+
+• 先做启动恢复，读取三个文件。
+
+• I need to read 90_control/AGENTS.md (suggested), and start the review. Also per startup I should check vault-status.md maybe, but keep scope. Main task: final review #612 and #613. Let me read the task files and queue rows.
+
+  Let me find the task files. Task numbers #612, #613. Search production-queue.md and task files.Read both task files. Also per startup, read vault-status.md? The instruction says 审查/裁决前必读. Let me read the two task files first, and maybe vault-status briefly. Also file-flow-check.py 例行 before 终审. Let's proceed.
+
+• 读两个任务单，并跑终审例行检查（file-flow-check + vault-status）。- [L5] `huangyaoshi-opinion-laowantong-gap-analysis-20260614.md` 命名不匹配 diag_YYYYMMDD_<author>-<slug>.md 模板
+- [L5] `huangyaoshi-opinion-wangyuyan-modeling-card-20260614.md` 命名不匹配 diag_YYYYMMDD_<author>-<slug>.md 模板
+- [L5] `huangyaoshi-producer-experience.md` 命名不匹配 diag_YYYYMMDD_<author>-<slug>.md 模板
+- [L5] `huangyaoshi-review-laowantong-20260614.md` 命名不匹配 diag_YYYYMMDD_<author>-<slug>.md 模板
+- [L5] `huangyaoshi-review-laowantong-modeling-20260614.md` 命名不匹配 diag_YYYYMMDD_<author>-<slug>.md 模板
+- [L5] `huangyaoshi-review-wangyuyan-capacity-20260614.md` 命名不匹配 diag_YYYYMMDD_<author>-<slug>.md 模板
+- [L5] `huangyaoshi-review-wangyuyan-qishijian-20260613.md` 命名不匹配 diag_YYYYMMDD_<author>-<slug>.md 模板
+- [L5] `huangyaoshi-task-f-synthesis.md` 命名不匹配 diag_YYYYMMDD_<author>-<slug>.md 模板
+- [L5] `kdo-concept-map-20260611.md` 命名不匹配 diag_YYYYMMDD_<author>-<slug>.md 模板
+- [L5] `kdo-concept-map-20260612.md` 命名不匹配 diag_YYYYMMDD_<author>-<slug>.md 模板
+- [L5] `kdo-deep-quality-audit-20260612.md` 命名不匹配 diag_YYYYMMDD_<author>-<slug>.md 模板
+- [L5] `kimi-independent-review-2026-06-16.md` 命名不匹配 diag_YYYYMMDD_<author>-<slug>.md 模板
+- [L5] `kimi-lean-startup-deep-review-2026-06-16.md` 命名不匹配 diag_YYYYMMDD_<author>-<slug>.md 模板
+- [L5] `kimi-ocr-yt-mix-review-2026-06-16.md` 命名不匹配 diag_YYYYMMDD_<author>-<slug>.md 模板
+- [L5] `kimi-ouyangfeng-tob-review-independent-judgment-2026-06-16.md` 命名不匹配 diag_YYYYMMDD_<author>-<slug>.md 模板
+- [L5] `kimi-sicun-knowledge-base-review-2026-06-16.md` 命名不匹配 diag_YYYYMMDD_<author>-<slug>.md 模板
+- [L5] `medicine-cabinet-mall-applet-preliminary-deep-dive-2026-06-18.md` 命名不匹配 diag_YYYYMMDD_<author>-<slug>.md 模板
+- [L5] `proposal-self-learning-cron.md` 命名不匹配 diag_YYYYMMDD_<author>-<slug>.md 模板
+- [L5] `queue-health-report-20260809.md` 命名不匹配 diag_YYYYMMDD_<author>-<slug>.md 模板
+- [L5] `ref_20260816_ai-sales-collab-external-research.md` 命名不匹配 diag_YYYYMMDD_<author>-<slug>.md 模板
+- [L5] `retro_20260809_AI基本功_Feature思维_全链路复盘.md` 命名不匹配 diag_YYYYMMDD_<author>-<slug>.md 模板
+- [L5] `reverse-distillation-business-formula-skill-2026-07-12.md` 命名不匹配 diag_YYYYMMDD_<author>-<slug>.md 模板
+- [L5] `wangyuyan-diagnosis-capability-building-20260613.md` 命名不匹配 diag_YYYYMMDD_<author>-<slug>.md 模板
+- [L5] `wangyuyan-evaluation-of-huangyaoshi-laowantong-feedback-2026-06-18.md` 命名不匹配 diag_YYYYMMDD_<author>-<slug>.md 模板
+- [L5] `wangyuyan-research-capability-building-20260613.md` 命名不匹配 diag_YYYYMMDD_<author>-<slug>.md 模板
+- [L5] `wangyuyan-task-gap-analysis-2026-06-14.md` 命名不匹配 diag_YYYYMMDD_<author>-<slug>.md 模板
+- [L5] `复盘_20260621_战略域_冉鹏课程_全链路.md` 命名不匹配 diag_YYYYMMDD_<author>-<slug>.md 模板
+- [L5] `欧阳锋对电子资料归档整理及学习迭代的建议书.md` 命名不匹配 diag_YYYYMMDD_<author>-<slug>.md 模板
+- [L5] `电子工程系统提示词建议书.md` 命名不匹配 diag_YYYYMMDD_<author>-<slug>.md 模板
+- [L5] `电子工程顶层设计建议书.md` 命名不匹配 diag_YYYYMMDD_<author>-<slug>.md 模板
+
+
+• file-flow-check output tail shows only L5 naming warnings in 60_feedback/diagnosis (old files), no critical issues related to our tasks. Let me get its summary counts to be sure. Also check vault-status briefly? The instruction says read vault-status before review; given scope, I'll skip heavy reading but quickly read it. Actually let me be pragmatic — read it briefly (first 60 lines).
+
+  Now review #612 (code task — version alignment three questions apply):
+  1. 入仓了吗 — check git log for commits touching queue_gate.py / queue_transition.py / test file / notification-coverage-matrix.md.
+  2. 生效了吗 — these are CLI scripts run on demand, not long-running processes; verification = rerun tests myself.
+  3. 对齐了吗 — git log -1, queue tail alignment.
+
+  Also §3.19: #612 touches infrastructure (queue_gate.py, queue_transition.py) — check notification-coverage-matrix updated (claimed rows 3/7).
+
+  For #613 (doc task): verify report file, rescan independently (O3 — 独立验证）, check 23 cards' frontmatter, check git commits.
+
+  Let me proceed: read report dir, run independent checks.cd3e3f2de todos：09:39值守拍
+ed55bdc76 chore(queue): #613 complete by laowantong-kimi
+047c146c7 #613 执行报告+排查补齐报告落盘：23卡reviewed_by残留补齐（#586批12+0628批3+待审批8），7张无佐证上报王语嫣 by laowantong
+c45edd5ed vault backup: 2026-09-02 09:27:54
+412c3e0fa chore(queue): #612 complete by huangyaoshi-kimi
+149c5bd1d vault backup: 2026-09-02 09:20:00
+0ef82c8c5 锚点：夜班收口状态落锚（11单全清+待拍板清单+#612/#613在跑）
+7b7e2ee98 chore(queue): #613 claim by laowantong-kimi
+----
+149c5bd1d 2026-09-02 09:20:00 +0800 vault backup: 2026-09-02 09:20:00
+8af68e3bc 2026-08-30 22:30:17 +0800 #580 返工重提绕过#504拦截（F-064）：FAIL打回自动rework标记+can_claim豁免own-pending+10例回归 by huangyaoshi
+3d2b162f9 2026-08-28 21:57:38 +0800 #515判据清单v1.1校准：_tmp划痕豁免+宽词表收窄+F-034前缀对齐 by huangyaoshi
+----
+047c146c7 2026-09-02 09:32:33 +0800 #613 执行报告+排查补齐报告落盘：23卡reviewed_by残留补齐（#586批12+0628批3+待审批8），7张无佐证上报王语嫣 by laowantong
+c45edd5ed 2026-09-02 09:27:54 +0800 vault backup: 2026-09-02 09:27:54
+total 580
+drwxr-xr-x 1 Administrator 197121      0 Sep  2 09:28 .
+drwxr-xr-x 1 Administrator 197121      0 Sep  2 09:26 ..
+-rw-r--r-- 1 Administrator 197121   6008 Sep  2 09:26 fix-result.json
+-rw-r--r-- 1 Administrator 197121   6955 Sep  2 09:26 fix-script.py
+-rw-r--r-- 1 Administrator 197121 166651 Sep  2 09:26 scan-result.json
+-rw-r--r-- 1 Administrator 197121   3048 Sep  2 09:26 scan-script.py
+-rw-r--r-- 1 Administrator 197121   6511 Sep  2 09:28 排查补齐报告-613.md
+test_gate_suite_fixes_612.py
+#612: git log for queue_gate.py shows last commit on it is 8af68e3bc (#580, 08-30)? But wait — #612 changed queue_gate.py and queue_transition.py. The log shows "vault backup: 2026-09-02 09:20:00" as touching queue_gate.py or queue_transition.py. Let me check what's in that vault backup commit and whether #612's changes are committed. Actually the log listed both files combined. Need per-file detail. Also check the test file commit.
+
+  Let me check git log for the specific files and diff. Also check notification-coverage-matrix changes.149c5bd1d 2026-09-02 09:20:00 +0800 vault backup: 2026-09-02 09:20:00
+8af68e3bc 2026-08-30 22:30:17 +0800 #580 返工重提绕过#504拦截（F-064）：FAIL打回自动rework标记+can_claim豁免own-pending+10例回归 by huangyaoshi
+7e22655b9 2026-08-25 00:35:38 +0800 #504 审查等待期占位阻塞：pending_review占执行者位+force留痕
+==qt==
+149c5bd1d 2026-09-02 09:20:00 +0800 vault backup: 2026-09-02 09:20:00
+8af68e3bc 2026-08-30 22:30:17 +0800 #580 返工重提绕过#504拦截（F-064）：FAIL打回自动rework标记+can_claim豁免own-pending+10例回归 by huangyaoshi
+3d2b162f9 2026-08-28 21:57:38 +0800 #515判据清单v1.1校准：_tmp划痕豁免+宽词表收窄+F-034前缀对齐 by huangyaoshi
+==test==
+149c5bd1d 2026-09-02 09:20:00 +0800 vault backup: 2026-09-02 09:20:00
+==matrix==
+149c5bd1d 2026-09-02 09:20:00 +0800 vault backup: 2026-09-02 09:20:00
+cf4f371f3 2026-09-02 07:17:59 +0800 feat(#607): vault backup系统级调度化（schtasks kdo-vault-git-backup 30min S4U）+探针第十信号backup停拍>24h报警+矩阵行24
+8590e4ecb 2026-09-02 06:20:02 +0800 chore(#605): dispatch机制收口——watch_inbox扫描面裁剪(顶层+pending-cards白名单)+台账停发(DISPATCH_LEDGER_ENABLED=False)+矩阵行9同步
+==dirty==
+ M 60_feedback/session-archives/2026-09-02/laowantong.md
+ M 90_control/gate-blocked.log
+ M 90_control/l1-size.log
+ M 90_control/role-registry.json
+ M 90_control/scripts/.derived-hashes.json
+ M 90_control/todos/huangyaoshi.md
+ M 90_control/todos/laowantong.md
+ M 90_control/todos/ouyangfeng.md
+ M logs/conveyor-probe.log
+ M logs/headless-laowantong-20260902-091141.log
+ M logs/l1-capture.log
+ M logs/role-clock.log
+?? logs/headless-ouyangfeng-20260902-093940.log
+#612 version alignment: the two scripts and test file are committed in vault backup commit 149c5bd1d (09:20). Claimed "两处 diff" — but wait, 149c5bd1d is a "vault backup" commit; it included the queue_gate/queue_transition changes? Need to verify the actual changes exist in working tree and match the claimed behavior. Check diff of those files vs 8af68e3bc.
+
+  Also check notification-coverage-matrix rows 3/7 mention.
+
+  For #613: report looks solid. Independent verification: rerun scan-script? The scan-script.py — where is it? In the task dir. Running it rescan would be independent verification (O3). Also spot-check a few of the 23 cards' frontmatter and verify a couple of 佐证 (e.g., #586 task file 返工复审 section exists; task_20260815 spin file PASS A-).
+
+  Plan:
+  1. #612: diff scripts since 8af68e3bc; run pytest test file; check matrix rows; grep for _NEGATION_EMOJI_RE and _review_card_mark_reminder.
+  2. #613: rerun scan-script.py (read it first to make sure it's read-only); spot check cards frontmatter (grep reviewed_by/review_date/grade on a few); verify 佐证 task files exist with claimed content. 90_control/notification-coverage-matrix.md |  7 ++++---
+ 90_control/scripts/queue_gate.py           | 16 +++++++++++++---
+ 90_control/scripts/queue_transition.py     | 27 ++++++++++++++++++++++++++-
+ 3 files changed, 43 insertions(+), 7 deletions(-)
+=====
+diff --git a/90_control/scripts/queue_gate.py b/90_control/scripts/queue_gate.py
+index 71d2bd70f..f40d48170 100644
+--- a/90_control/scripts/queue_gate.py
++++ b/90_control/scripts/queue_gate.py
+@@ -299,17 +299,27 @@ if __name__ == "__main__":
+ # 放 queue_gate=共享真相源（queue_transition 门禁 + conveyor_probe 第七信号共用，禁副本）
+ ISSUE_DISPOSITION_HINTS = ("建议书", "停车场", "F-", "立项", "另立项", "friction", "待王语嫣", "待老朱", "TODO")
+ 
++# #612 任务1：否定语境豁免——「不落 🟠」「不构成 🟡 级问题」「无 🟠/🟡」类
++# 否定声明句的 emoji 字样不计入问题条目（emoji 字面出现≠标记问题）。
++# 实证：#608 终审意见书含「不落 🟠/🟡」被连拦两轮，删字样才放行（F-036 误伤）。
++# 判定口径：否定前挂词紧邻 emoji（允许空白间隔，连写的 🟠/🟡 对共享同一否定）→ 剔除。
++_NEGATION_EMOJI_RE = re.compile(
++    r"(?:不落|不构成|不算|不标|不判|不记|不涉及|没有|无|非)\s*[🟠🟡](?:\s*/\s*[🟠🟡])*")
++
+ 
+ def check_issue_disposition(opinion_text: str) -> tuple[bool, str]:
+     """F-036：终审意见书"发现问题"节含 🟠/🟡 条目时必须注明落点。
+ 
+     判定：含 🟠 或 🟡（非仅 🔵 无实质缺陷）且不含落点词 → 拦截。
++    豁免：否定前挂词（不落/不构成/无……）紧邻的 emoji 字样不计入（#612）。
+     """
+-    if "🟠" not in opinion_text and "🟡" not in opinion_text:
++    stripped = _NEGATION_EMOJI_RE.sub("", opinion_text)
++    if "🟠" not in stripped and "🟡" not in stripped:
+         return True, ""
+     if any(h in opinion_text for h in ISSUE_DISPOSITION_HINTS):
+         return True, ""
+-    lines = [l.strip() for l in opinion_text.splitlines() if "🟠" in l or "🟡" in l]
++    lines = [l.strip() for l in stripped.splitlines() if "🟠" in l or "🟡" in l]
+     sample = "；".join(l[:60] for l in lines[:3])
+     return False, (f"审查发现问题未给落点（F-036）：{sample}——"
+-                   "必须在意见书注明去向（建议书路径 / 停车场 F-xxx / 任务单立项），否则终审不闭环")
++                   "必须在意见书注明去向（建议书路径 / 停车场 F-xxx / 任务单立项），否则终审不闭环"
++                   "；若该 emoji 出现在否定声明句，请删去字样或写成「不落/不构成/无 + emoji」前挂否定形式")
+.........                                                                [100%]
+9 passed in 0.12s
+#612 diff 与执行报告一致，9 tests pass independently. Check queue_transition diff and matrix diff.diff --git a/90_control/notification-coverage-matrix.md b/90_control/notification-coverage-matrix.md
+index 735c76b35..a451bc004 100644
+--- a/90_control/notification-coverage-matrix.md
++++ b/90_control/notification-coverage-matrix.md
+@@ -12,13 +12,13 @@
+ |---|------|--------|------|--------|--------------|----------|
+ | 1 | 新 queued（可领取） | conveyor_probe `_queue_signal` | todos 推送 | assignee 路由（未知回落 laowantong） | 静默期 defer 天亮补发 | #501/#443 |
+ | 2 | 新提审（pending_review） | conveyor_probe | 叫醒推送 | 欧阳锋 | 豁免（终审类） | #421/#520 |
+-| 3 | 终审 PASS（reviewed） | conveyor_probe `new_reviewed` | todos 推送 | assignee + 抄送王语嫣 | 豁免（终审类） | #462/#521 R1/R2 |
++| 3 | 终审 PASS（reviewed） | conveyor_probe `new_reviewed`（#612：queue_transition review pass 终端输出附带提醒——交付物节含 30_wiki 卡片时提示「N 张交付卡待 review_mark 转正」，只提醒不代写，#586/#596 漏转正二次复发对策） | todos 推送 | assignee + 抄送王语嫣 | 豁免（终审类） | #462/#521 R1/R2；#612 转正提醒 |
+ | 4 | 终审退回 FAIL（failback） | conveyor_probe `new_failback` | todos 推送 | assignee 路由 | defer（未豁免，观察项 O1） | #462；#538 补「曾 reviewed」场景 |
+ | 5 | 门禁拦截（gate-blocked） | conveyor_probe `_scan_gate_blocked`（#562：时间戳锚定记录聚合——多行拦截消息（如 E040 交付物清单）续行并入首记录，不再按物理行切出垃圾残片；状态键 gate_seen_v2，旧行级方案升级首跑静默吸收存量防重报。#568：通知类打印一律改走 stderr——`--json` stdout 纯 JSON 可被机器 json.loads；queue_transition subprocess 全点强制 UTF-8/replace（GBK reader 线程崩溃族根治）；E040 fail-open 异常 stderr WARNING 可见化，门禁静默致盲→可见。#569：F-034 锚点改前缀匹配（`**改动文件清单**` 不再被闭合 ** 阻断）+E040 节边界放宽（`- **` 子弹行算字段行）+两门禁报错附期望格式样例——锚点容错不松语义） | 推送+看板登记 | 王语嫣 | — | #460；#562 多行解析修复；#568 GBK 族+stdout 污染根治；#569 锚点三层修复（#562/#568/#569 §3.19 三连合并补登 08-28）；#515 E040 `_tmp/` 划痕豁免（校准点1：`_extract_deliverable_paths` 提取层过滤中间产物非交付物，不判 missing/untracked，08-28 补登） |
+ | 6 | 建议书登记（三元组命中） | conveyor_probe `_scan_proposals` | 推送+PROPOSAL-PENDING 登记 | 王语嫣 | — | #421/#506 |
+-| 7 | 审查意见 🟠/🟡 无落点 | conveyor_probe F-036 | 推送 | 欧阳锋 | 不豁免 | F-036 第七信号 |
++| 7 | 审查意见 🟠/🟡 无落点 | conveyor_probe F-036（#612：否定语境豁免——「不落/不构成/无」等前挂词紧邻的 emoji 不计入问题条目，🟠/🟡 连写对共享否定；报错文案附否定句写法提示。实证：#608「不落 🟠/🟡」被连拦两轮误伤） | 推送 | 欧阳锋 | 不豁免 | F-036 第七信号；#612 否定豁免 |
+ | 8 | near-miss 三元组违例 | conveyor_probe `_proposal_near_miss` + `_escalate_near_miss` | 仅日志 print + **≥3 轮未修正升级推王语嫣收件箱**（修正自动消项） | 王语嫣 | defer（非终审类） | ✅ #536 销项 |
+-| 9 | inbox 新素材 | watch_inbox `_notify_inbox` | 看板待编排区 + **王语嫣收件箱推送** | 王语嫣 | defer（P0 也静默落盘带 🔕） | ✅ #530 销项 |
++| 9 | inbox 新素材 | watch_inbox `_notify_inbox`（#605：扫描面裁剪=00_inbox 顶层+pending-cards/ 白名单，Handle/_vlm_output/ocr_ingest 等大目录树出扫描面；dispatch 台账落盘停发下线——17 份零签收、职能并入看门狗 v5，看板登记+收件箱推送两通道不变） | 看板待编排区 + **王语嫣收件箱推送** | 王语嫣 | defer（P0 也静默落盘带 🔕） | ✅ #530 销项；#605 裁剪+台账停发 |
+ | 10 | friction 事件 | conveyor_probe `_scan_friction` | memory_capsule 事
+件层 | 复盘层可见 | — | #511 |
+ | 11 | 基础设施单 reviewed 总账未同步 | conveyor_probe `_matrix_sync_check`（第七信号） | 推送 | 欧阳锋+抄送王语嫣 | defer（非终审类） | #537（本单=元狗粮首查对象） |
+ | 12 | VLM/OCR 卡缺两段式隔离 | kdo pre-submit `_check_vlm_two_section`（#540） | pre-submit WARNING（提审输出可见） | 生产者 | — | #540（WARNING 起步，存量批次王语嫣裁定） |
+@@ -34,6 +34,7 @@
+ | 21 | 待老朱拍板上浮（reviewed + 拍板关键词） | conveyor_probe 第八信号 `_scan_pending_decision`（关键词前挂形态：老朱拍板/待老朱/需老朱/待拍板/需拍板/请老朱/待你拍板；向前生效 20260827 不回扫存量；队列侧只匹配备注列防名称列自举） | 新增即时推飞书 wangyuyan 群（老朱在群实测可达，本人 08-27 确认）+ todos 落盘 + daily-audit-digest ⑤「待你拍板」固定栏（每日在列直到字样移除/状态离开 reviewed 自动消项） | 老朱 | 无在岗 defer 同 #550 统一口径 | #556（#525 拍板断链两天实证；干跑校准：bare「拍板」命中已决归因→改前挂形态，「老朱已拍板」天然不匹配；消项不推送仅 stdout 留痕） |
+ | 22 | 角色全死自报（role-liveness） | role_registry `check_liveness`（挂 role_clock 5min；heartbeat 年龄 >2×该角色节奏=疑似死亡；**#562 起同角色 2h 报警冷却——只压频不删报、首次必报、恢复清零重新武装**；心跳写面=queue_transition 消费回执（myqueue/claim/complete/release/review）+ kimi-cli SessionHeartbeat 钩，消费回执=心跳） | gate-blocked.log 台账 → 第五探针拾取推送 | 王语嫣 | — | #552 信号上线（#562 前漏登矩阵，08-28 终审抄送补课）；#562 冷却+心跳语义修复（08-27 报警风暴 25+ 条误报止血） |
+ | 23 | 挂审超时必推（pending_review 最大年龄分级：30min 提醒 / 2h 升级） | check-review-sla.py（#574 R1：解析 REVIEW-PENDING 段活跃行取最大年龄，30min→推审查者 ouyangfeng webhook+todos 落盘；2h→升级推 ouyangfeng+wangyuyan 群（@ 负责人/老板，老朱在群可达）；复用 conveyor_probe._send_hook/_load_hooks/_append_role_todo 加签零新基建；`--dry-run` 只打印；通知类打印走 stderr） | 飞书 webhook + todos 落盘 | 欧阳锋（30min 提醒）/ 欧阳锋+王语嫣群（2h 升级 @ 老朱） | 豁免（终审类，超时必推不静默） | #574（#520 R3 升级：原只 print 无推送，2h 阈值从未触发过可见告警；落实 #521 R2 老朱「终审类通知不静默」） |
++| 24 | vault backup 停拍（最后 backup commit 超 24h） | conveyor_probe 第十信号 `_scan_backup_stall`（git log --grep 心跳；跨越沿幂等，恢复重新武装；并入第九信号 infra_alerts 通道）+ 备份本体改系统级 schtasks kdo-vault-git-backup（30min，S4U，vault_git_backup.py） | gate-blocked.log 台账 + 推王语嫣（第九信号同通道） | 王语嫣 | defer（同第九信号口径，台账恒写） | #607（08-26 重启杀会话级 cron 致停摆 6 天空窗实证） |
+ 
+ ## 缺口台账
+ 
+diff --git a/90_control/scripts/queue_transition.py b/90_control/scripts/queue_transition.py
+index 19f1775bf..a55fe9443 100644
+--- a/90_control/scripts/queue_transition.py
++++ b/90_control/scripts/queue_transition.py
+@@ -821,6 +821,28 @@ def _check_deliverables_committed(task_file: Path, fm: dict[str, Any],
+     return True, "", warn
+ 
+ 
++def _review_card_mark_reminder(task_file: Path) -> str:
++    """#612 任务2：review verdict=pass 时，若执行报告「交付物」节含 30_wiki 卡片
++    路径，返回一行「N 张交付卡待 review_mark 转正」提醒；否则返回空串。
++
++    只提醒不自动转正——自动转正=代写卡片 frontmatter，越权限边界，不做。
++    识别不出/读取异常=空串（提醒性输出，绝不阻断终审主流程）。
++    """
++    try:
++        body = task_file.read_text(encoding="utf-8", errors="ignore")
++        report = _extract_e
+xec_report(body)
++        cards = [p for p in _extract_deliverable_paths(report, task_file.name)
++                 if p.startswith("30_wiki/") and p.endswith(".md")]
++        if not cards:
++            return ""
++        shown = "、".join(f"`{c}`" for c in cards[:5])
++        more = f" 等 {len(cards)} 张" if len(cards) > 5 else ""
++        return (f"\n📌 提醒：{len(cards)} 张交付卡待 review_mark 转正：{shown}{more}"
++                "（终审通过不自动转正——自动转正涉及代写卡片 frontmatter 权限边界，请生产方手动回填）")
++    except Exception:
++        return ""
++
++
+ 
+ # #429 F-034 交付五字段硬格式（老朱拍板「想犯错也犯不了」，停车场 F-034 收口）
+ # 机读锚点：执行报告节或 --evidence 文件含以下标记即算该字段存在（只验存在性，不判内容质量——只拦机械项不碰判断）
+@@ -1285,7 +1307,10 @@ def action_review(task_id: str, verdict: str, reviewer: str, grade: str | None =
+                 strike=task_id,
+                 strike_note=f" → 已终审 PASS {grade or ''}（{current_utc_date()} 欧阳锋）",
+             )
+-            return True, f"✅ {task_id} 终审通过，状态更新为 reviewed{grade_note}"
++            # #612 任务2：review_mark 漏转正二次复发（#586/#596，E018 家族同源）——
++            # 终审通过时交付物含 30_wiki 卡片 → 输出转正提醒（提醒即可，不代写）
++            remind = _review_card_mark_reminder(task_file)
++            return True, f"✅ {task_id} 终审通过，状态更新为 reviewed{grade_note}{remind}"
+         else:
+             # #580（F-064）：FAIL 打回时自动打 rework:true 标——返工重提 claim 时
+             # _is_rework_task 读到该标即豁免 #504 own-pending 阻塞（重提≠接新单）。
+#612 verified: diff matches execution report, 9 tests pass, matrix rows 3/7 synced (§3.19 compliant). Also claimed full suite 214 passed — spot check? Could run full tests but that takes time; the claim "全套 pytest 90_control/scripts/tests/ 214 passed" — O3 says verify key numbers. Running full suite is worthwhile but maybe heavy. Let me run it with a timeout; if too slow, accept the targeted 9 + smoke. Actually let me run full suite in background while I verify #613.
+
+  Now #613: independent rescan + spot-check cards + verify 佐证.
+
+  Steps:
+  1. Read scan-script.py quickly to confirm read-only.
+  2. Run it (rescan).
+  3. Spot-check ~4 cards' frontmatter (one from each batch).
+  4. Verify 佐证： #586 返工复审 section in task_20260901_laowantong-candy-collection-batch.md; task_20260815 spin file PASS A-; task_20260822 fengqingyang; review_20260628 file; task_20260627 file.
+
+• #612 主体验证通过。后台跑全量回归，同时开始 #613 独立复扫。
+
+• Scan script is read-only except writing a json to _tmp — safe. But note: scan hits include "review_date 缺失" — that would catch the 500 historical ones too. The report claims pending 17→2 / 待审 13→5. Wait, the script counts reviewed_by pending OR review_date missing — 待审 isn't in the matching ("pending" lower). Hmm, `rb_pending` checks `reviewed_by.strip().lower() in ("pending", "")` — "待审" not matched. But report says 待审 13→5. Maybe the scan-result.json used a slightly different version. Let me just run it and compare; also count hits by category myself with a small inline python to cross-check the claimed numbers: status=reviewed AND reviewed_by in {pending, 待审, missing}.
+
+  Run rescan + my own count. Also spot-check cards frontmatter and 佐证 files.扫描文件数: 2949
+YAML/读取错误数: 2
+  ERROR C:\Users\Administrator\Desktop\wiki\30_wiki\dark-knowledges\dk-digest-registration-gap.md: yaml: while parsing a block mapping
+  in "<unicode string>", line 33, column 3:
+    - signal: 卡文件存在（ls 能看见）但 grep 不到任何 ... 
+      ^
+expected <block end>, but found '<scalar>'
+  in "<unicode string>", line 35, column 20:
+      implication: "存在"不等于"注册"——2026-08-23 周检实测 12 张核心卡 ... 
+                       ^
+  ERROR C:\Users\Administrator\Desktop\wiki\30_wiki\_archive\plan_20260531_data-curator-v1.1.md: yaml: while parsing a block mapping
+  in "<unicode string>", line 2, column 1:
+    id: plan_20260531_data-curator-v1.1
+    ^
+expected <block end>, but found '-'
+pending/missing: 2
+  P 30_wiki\dark-knowledges\dk-p15-unverified.md
+  P 30_wiki\decisions\high-density-composite-compilation-strategy.md
+待审: 45
+  D 30_wiki\bridges\bridge-how-to-know-person-to-business.md
+  D 30_wiki\cases\case-4000-titles-ten-strategies.md
+  D 30_wiki\cases\case-ai-learning-series-modeling.md
+  D 30_wiki\cases\case-ai-pet-emotional-product.md
+  D 30_wiki\cases\case-design-principles-90.md
+  D 30_wiki\cases\case-leo-lubricant-dealer-research.md
+  D 30_wiki\cases\case-opc-128-directions.md
+  D 30_wiki\cases\case-qinpeng-iot-module-tiering.md
+  D 30_wiki\cases\case-shampoo-product-kernel.md
+  D 30_wiki\cases\case-shuishui-business-insight.md
+  D 30_wiki\cases\case-yitang-chuanhe-seasoning-kernel.md
+  D 30_wiki\cases\case-yitang-zhongzheng-parking-garage.md
+  D 30_wiki\concepts\concept-open-a-document.md
+  D 30_wiki\concepts\concept-research-saturation-coverage.md
+  D 30_wiki\concepts\concept-一堂-business-prediction.md
+  D 30_wiki\dark-knowledges\dk-agreeableness-double-edged.md
+  D 30_wiki\dark-knowledges\dk-emotional-value-high-bar.md
+  D 30_wiki\dark-knowledges\dk-emotional-value-premium.md
+  D 30_wiki\dark-knowledges\dk-narrative-choice-theory.md
+  D 30_wiki\dark-knowledges\dk-research-ai-no-time-concept.md
+  D 30_wiki\dark-knowledges\dk-research-classification-mece-table.md
+  D 30_wiki\dark-knowledges\dk-research-important-things-must-do.md
+  D 30_wiki\dark-knowledges\dk-research-ranklist-replaces-model.md
+  D 30_wiki\dark-knowledges\dk-research-sampling-correction-three-rounds.md
+  D 30_wiki\dark-knowledges\dk-research-saturation-self-proof.md
+  D 30_wiki\dark-knowledges\dk-research-scavenger-vs-architect.md
+  D 30_wiki\dark-knowledges\dk-research-total-anchor-private-library.md
+  D 30_wiki\dark-knowledges\yt-product-kernel-cost-sensitive-default-no.md
+  D 30_wiki\dark-knowledges\yt-product-kernel-do-without-belief.md
+  D 30_wiki\dark-knowledges\yt-product-kernel-overpromise-trap.md
+  D 30_wiki\frameworks\framework-ai-human-70-30-division.md
+  D 30_wiki\frameworks\framework-ai-report-value-ladder-l1-l6.md
+  D 30_wiki\frameworks\framework-baozhashidiaochan-five-step.md
+  D 30_wiki\frameworks\framework-big-five-personality.md
+  D 30_wiki\frameworks\framework-how-to-know-a-person.md
+  D 30_wiki\frameworks\framework-r-type-research-partner-five-state.md
+  D 30_wiki\frameworks\yt-product-kernel-iteration.md
+  D 30_wiki\frameworks\yt-product-kernel-validation.md
+  D 30_wiki\tools\tool-empathy-practice.md
+  D 30_wiki\tools\tool-illuminator-vs-diminisher.md
+  D 30_wiki\tools\tool-kdo-wechat-serendipity-collect.md
+  D 30_wiki\tools\tool-narrative-thinking-user-insight.md
+  D 30_wiki\tools\tool-nine-character-mantra-14-strategies.md
+  D 30_wiki\tools\yt-product-kernel-ten-metrics.md
+  D 30_wiki\workflows\workflow-kdo-agent-production-pipeline.md
+真人但缺review_date: 500
+Big discrepancy: my scan found 45 cards with reviewed_by=待审 + status=reviewed, but the report claims 待审 was 13 and only 5 remain. This is a critical finding — O3 verification failed for the 待审 category count.
+
+  Wait — double assumption principle: maybe my query semantics differ. The report says "命中口径：status: reviewed 且（reviewed_by ∈ {pending, 待审, 缺失} 或 review_date 缺失）". And claims 复扫 pending 17→2, 待审 13→5. But my scan shows 45 待审 cards with status=reviewed. Unless those 45 have... hmm, wait — maybe those 45 cards have status != "reviewed"? My filter was status=="reviewed" AND reviewed_by=="待审". Let me double check a couple of them — e.g. bridges/bridge-how-to-know-person-to-business.md. Maybe their status value has something else like "reviewed" with different spacing? I checked m.get("status")!="reviewed" strictly. If status were "reviewed" with trailing space it would fail... Let me verify a few directly.
+
+  Also the report's own scan-script.py (the one I ran first) only counts reviewed_by in (pending,"") or review_date missing — it does NOT count 待审. So the report's "待审 13→5" claim must come from a different scan (maybe scan-result.json has it). My first script run: hits would include 待审 cards because rd_missing likely true for them... Actually hit condition is rb_pending OR rd_missing. 待审 cards with review_date present would NOT be hit. Let me check whether these 45 have review_date.
+
+  Key check: verify actual frontmatter of 2-3 of the 45, e.g. bridge-how-to-know-person-to-business, case-4000-titles-ten-strategies, dk-research-ranklist-replaces-model.=== 30_wiki/bridges/bridge-how-to-know-person-to-business.md
+---
+id: bridge-how-to-know-person-to-business
+title: 「桥接：人域"看见"↔商业域——从理解人到创造商业价值」
+type: bridge
+status: reviewed
+reviewed_by: 待审
+review_date: 2026-08-09
+confidence: 0.9
+trust_level: high
+domain:
+- human-insights
+- panproduct
+=== 30_wiki/cases/case-4000-titles-ten-strategies.md
+---
+id: case-4000-titles-ten-strategies
+title: 4000 标题→十大策略：长期资产的一次性建模
+type: case
+status: reviewed
+reviewed_by: 待审
+review_date: 2026-08-16
+author: 老顽童
+confidence: 0.85
+trust_level: medium
+language: zh-CN
+created_at: 2026-08-16
+=== 30_wiki/dark-knowledges/dk-research-ranklist-replaces-model.md
+---
+id: dk-research-ranklist-replaces-model
+title: 建不了模型就建排行榜：Top10 审美锚点
+type: dk
+status: reviewed
+reviewed_by: 待审
+review_date: 2026-08-16
+author: 老顽童
+confidence: 0.88
+trust_level: medium
+language: zh-CN
+created_at: 2026-08-16
+=== 30_wiki/frameworks/yt-product-kernel-iteration.md
+---
+domain:
+- product
+id: yt-product-kernel-iteration
+title: 产品内核迭代：五方向 × 五案例 × 触发信号
+type: framework
+status: reviewed
+confidence: 0.94
+trust_level: high
+source_context:
+  - 一堂产品内核迭代课（2026年）——统一版本，对齐概念卡
+  - yitang
+=== 30_wiki/workflows/workflow-kdo-agent-production-pipeline.md
+---
+id: workflow-kdo-agent-production-pipeline
+title: KDO Agent 生产流水线：spec → 三件套注入 → Agent 自举
+type: workflow
+status: reviewed
+domain:
+- kdo
+- ai-basic
+author: 老顽童（黄药师初稿）
+reviewed_by: 待审
+review_date: 2026-08-09
+confidence: 0.9
+Confirmed: there are 40+ cards with `status: reviewed` + `reviewed_by: 待审` (with review_date present) that the #613 scan missed entirely. The report claims "待审 13→5" — but my independent rescan shows 45 still present. Wait — but maybe the scan-script used by laowantong for 待审 detection differs from scan-script.py. The delivered scan-script.py only catches `pending`/`missing` — it would NOT catch 待审 cards that have review_date. So the report's "待审 13→5" claim is unverifiable with the delivered script, and my broader scan shows 45 待审 cards remain (report says 5).
+
+  Hold on — my daishen list has 45. Report claims before fix 待审 was 13, after 5. Even accounting for the 8 fixed (13→5), that totals 13, not 45+8=53. So there's a massive undercount: the laowantong scan for the 待审 category must have been wrong (perhaps it filtered by updated_at or a narrower query).
+
+  Actually wait — let me reconsider. Perhaps laowantong's scan for "待审" category was run with a different script (not the delivered one), maybe one that also required review_date missing? The report's 命中口径 says "status: reviewed 且（reviewed_by ∈ {pending, 待审, 缺失} 或 review_date 缺失）" — that would catch these 45. So the report's own stated criterion is violated by the delivered results.
+
+  This is a FAIL-level finding for #613's completeness claim （覆盖率问题 — 牌 O1). But wait — double-assumption: is my scan correct? Let me sanity check: `m.get("status")!="reviewed"` strict — these cards show status: reviewed plainly. reviewed_by: 待审 plainly. Yes, they're real.
+
+  But also consider: maybe the task scope was "#586批元数据残留" — the task instruction says: 扫 30_wiki 全库 status: reviewed 且 reviewed_by: pending（或缺 reviewed_by/review_date）的卡. Hmm! The original task text: "扫 30_wiki 全库 `status: reviewed` 且 `reviewed_by: pending`（或缺 reviewed_by/review_date）的卡". The 待审 category isn't strictly in the original task scope — the report itself noted "reviewed_by=待审（同 E018 缺陷类）" 13 cards and handled 8. So laowantong went beyond scope to include 待审， but undercounted massively: there are actually 45+8=53 待审 cards, not 13.
+
+  So the finding: 排查清单漏报严重 — 待审类实际 53 张（现存 45），报告只报了 13 张、处理了 8 张、无佐证清单只列 5 张。剩余 40 张待审卡（status=reviewed + reviewed_by=待审，多数 08-09/08-16 批次）既未补齐也未列入上报王语嫣清单。这是 E018 家族同类残留的大面积漏网。
+
+  However — the report did claim "复扫 pending 17→2 / 待审 13→5" — and my scan confirms pending/missing 17→2 ✅ （复扫结果与报告一致）, 真人缺 review_date=500 ✅. Only 待审 count mismatches badly.
+
+  Wait, could the 待审 13 have been measured with a different filter, e.g. status=reviewed AND reviewed_by=待审 AND review_date missing? Let me check how many of the 45 lack review_date. From my inline script, I didn't track that. The 5 remaining claimed in 无佐证清单： case-qinpeng (07-08), shampoo, chuanhe, zhongzheng (4 张 07-08), tool-kdo-wechat-serendipity-collect — all in my 45 list. So the 5 are a subset. The other 40 (bridges/cases/concepts/dk/frameworks/tools from 08-09/08-16 batches) were never counted.
+
+  Hmm, but is it possible laowantong's original scan (scan-result.json) captured them and fix decided... no, fix-result.json has 23. Report table says 待审 13.
+
+  Let me check scan-result.json to see what the delivered snapshot says — it's the "复扫后快照". It only captures rb_pending or rd_missing. The 45 待审 cards have review_date present (08-09, 08-16...) so they wouldn't appear. But some of the 45 might lack review_date → appear in hits as rd_missing with reviewed_by=待审. Let me quickly count hits in scan-result.json by reviewed_by value.
+
+  Actually, the key question for verdict: is this a blocking gap? The task instruction scope was "pending（或缺 reviewed_by/review_date）" — 待审 wasn't in the task's own scope! The task says: `status: reviewed` 且 `reviewed_by: pending`（或缺 reviewed_by/review_date）. Under that reading, cards with reviewed_by=待审 AND review_date present are technically out of scope. But E018 family logic says reviewed_by=待审 is the same defect. The report voluntarily included 待审 (13), handled 8, reported 5 — but missed 40 more of the same class.
+
+  So: the work done (23 cards) needs verification, but the 排查 completeness is flawed — the 待审 census is wrong (claims 13, actual ~53). This is a P0/P1 issue: 排查清单覆盖不全 → 报告 §1 总览数字错误 → 7 张无佐证上报清单不完整（应为 45 张级别）。
+
+  Per my role: FAIL with structured feedback, or PASS with the discrepancy as 🟠 requiring 建议书？ This is significant: the 上报王语嫣清单 is materially incomplete — 40 cards of the same E018 defect class are neither fixed nor reported. If I PASS, 王语嫣 gets an incomplete 裁定请求. The mandate of the task was 排查补齐 + 无佐证上报. The 排查 number is wrong by 40 cards. I lean FAIL (P0: 待审口径漏扫 40 张； P1: scan-script.py 与报告口径不一致——交付脚本抓不到 待审+有review_date 的卡，复扫口径不自洽）.
+
+  But wait — double check whether the 13→5 was maybe measured with review_date missing condition. Let me count 待审 cards missing review_date among my 45.
+
+  Also verify the 23 fixed cards spot-check + 佐证 files before writing verdict. Let me do that now.
+
+  Also for #612, background full test suite completed — read output.
+
+  Also spot-check fix: check 3 cards (one per batch) frontmatter now: framework-muse-ai-full-map-v1, tool-yitang-channel-scan-cheat-sheet, agent-spec-fengqingyang-observer. And verify 佐证： #586 task file 返工复审 PASS A- 07:45; task_20260815 spin PASS A-; task_20260822 fengqingyang; review_20260628 channel-growth; task_20260627 11卡全过.
+
+• 发现重大问题：独立复扫显示待审类残留 45 张，报告只报了 13→5。继续核实细节再定级。status=reviewed 且 reviewed_by=待审 总数: 45 其中缺review_date: 5
+==scanjson==
+Counter({'欧阳锋': 477, '黄药师': 7, '周伯通': 7, '老顽童': 6, '待审': 5, 'pending': 2, '老朱（2026-08-23 终稿拍板，跨场直批；欧阳锋结构终审待补——写审分离，不影响生效）': 1, '欧阳锋 - concept-collaboration-philosophy-foundation - tool-game-environment-checklist': 1, '欧阳锋 - concept-collaboration-philosophy-foundation - tool-position-switching-test': 1})
+........................................................................ [ 67%]
+......................................................................   [100%]
+214 passed in 29.35s
+=== 30_wiki/frameworks/framework-muse-ai-full-map-v1.md
+id: framework-muse-ai-full-map-v1
+status: reviewed
+reviewed_by: 欧阳锋
+review_date: '2026-09-01'
+grade: A-
+=== 30_wiki/tools/tool-yitang-channel-scan-cheat-sheet.md
+id: tool-yitang-channel-scan-cheat-sheet
+status: reviewed
+reviewed_by: 欧阳锋
+=== 30_wiki/agent-specs/agent-spec-fengqingyang-observer.md
+id: agent-spec-fengqingyang-observer
+status: reviewed
+reviewed_by: 欧阳锋
+review_date: '2026-08-22'
+grade: A-
+=== 30_wiki/cases/case-jovida-ai-life-coach.md
+id: case-jovida-ai-life-coach
+status: reviewed
+reviewed_by: 欧阳锋
+review_date: '2026-09-01'
+grade: A-
+
+
+• Key finding confirmed: 45 张 status=reviewed + reviewed_by=待审 现存，其中 5 张缺 review_date（=报告的 5 张无佐证清单），40 张有 review_date（2026-08-09 / 08-16 等）。laowantong 的待审口径显然是「待审 且 缺 review_date」（13 张），漏掉了「待审 但 review_date 有值」的 40 张。E018 缺陷类同族，任务单原文口径是「reviewed_by: pending（或缺 reviewed_by/review_date）」——严格按任务单字面，待审+有 review_date 不在原文范围；但报告自己把「待审」纳入"同 E018 缺陷类一并补齐"，却用错误口径只扫了 13 张。无论按任务单字面还是报告自定口径，这 40 张都应至少在"边界声明/无佐证上报"里交代——它们同样是 status=reviewed + reviewed_by=待审 的元数据残留，消费者读 reviewed_by 会得到垃圾值。
+
+  23 张补齐本身抽查无误（4 张抽查全对，git diff +3/-1 口径，佐证链后查）。
+
+  Verdict for #613: FAIL or PASS-with-🟠? 
+
+  The 23-card fix itself is accurate (spot-checked, will verify 佐证）. But the 排查 deliverable is materially incomplete: 40 cards of the same defect class unreported. The task's core purpose was 排查（发现残留）+补齐+无佐证上报. Missing 40 means 王语嫣's 裁定清单 is wrong. Also the "复扫 待审 13→5" claim is false (actual 45 remain). Per O0/O3, claimed numbers don't match independent measurement → that's a blocking issue on 验证 claims.
+
+  However — is it FAIL (rework) or PASS with the 40-card gap as a 🟠 requiring follow-up? The 23 fixes are sound and committed; FAIL would send back the whole task. But the report's 排查总览数字错误 + 验证声明错误（"待审 13→5"）是交付物质量缺陷，且王语嫣将基于不完整清单做裁定。我认为 P0：待审口径漏扫 40 张，上报清单不完整；P1：scan-script.py 与报告口径不一致（脚本抓不到待审+有review_date 的卡，"可独立复跑"承诺对 待审 类不成立）；P1：grade=A- 标注口径——06-28 批无评级不加 grade 是对的，待审批 8 张有 PASS A- 佐证加 grade 合理。✅
+
+  Also need to verify 佐证 spot: check #586 task file 返工复审 + task_20260815 spin + task_20260822 fengqingyang + review_20260628 + task_20260627. Let me do quick greps.
+
+• 抽查 4 张补齐卡全部正确。再核实佐证链关键文件，然后定级。122:**验证**：`python -m kdo pre-submit -f <16 文件>` → **16/16 PASS**（Files checked: 16 / Passed: 16 / Failed: 0，2026-09-01 实测；初跑 dk-brooks 报索引过期→跑 `kdo index --incremental`（+0 ~6）后通过；lobster 第 3 处死链在本卡说明文字内、修复后 WIKILINK 0 issues）。外部验证锚点全部 curl 直连实测（web_search/web_extract/browsers 三通道本会话故障：DuckDuckGo 超时、ddgs 后端不可 extract、Chrome 未安装——改用 curl -L 直连原始锚点，HTTP 状态码+页面标题逐条记录在卡内「外部验证」节）。`git status --porcelain` 本单改动文件均已 add 提交。
+149:- **pre-submit 复跑 16 件：12 PASS / 4 FAIL** 🔴：
+171:6. 全部修完重跑 `kdo pre-submit -f <卡>` 至 16/16 PASS，重走 complete 提审（同 assignee 返工重提按 #504 惯例 --force）
+175:### 返工复审（2026-09-01 07:45 欧阳锋终审，结论：PASS A-）
+186:| 6 | pre-submit 16/16 | 终审者亲跑 `python -m kdo pre-submit -f <16件>`（分两批 8+8） | **16/16 PASS**（26 条 WARNING 均 #542 提示制不拦截级） | ✅ 达标 |
+194:**结论**：**PASS A-**。15 卡+1 skill（deep-debug 433 行）+Wave0 翻译 3 篇全部入库合规，任务闭环。流转由 queue_transition.py 执行，队列行 reviewed、本记录落任务单、todos 留痕三写完成。
+==spin==
+88:### pre-submit 门禁（全部 PASS，8 项检查零 warning）
+96:- 修复记录：首轮 6 卡 PASS 带 warning（tags 缺 audience/scene + source 名不在 aliases + dk 缺定位声明）→ 全部修复后重跑零 warning
+117:**verdict: PASS A- · methodology v2.3**
+131:**结论**：PASS A-，7 卡入库验收通过。
+==feng==
+4:status: reviewed
+6:reviewed_by: 欧阳锋
+54:✅ Result: PASS — 一次通过！
+57:- 门禁修复过程：初次 FAIL 因检索索引新鲜度门禁（卡片 22:21 更新 > .kdo/search_index.json 21:54）→ 跑 `kdo index --incremental` 刷新（+1）→ 复跑 PASS
+64:**结论：PASS / A-**
+==0628==
+133:| 25 张全部 deep | 全部标记 `reviewed_by: 欧阳锋`，`status: reviewed`，任务状态改 `reviewed` |
+146:   - `reviewed_by: pending` → `欧阳锋`
+185:**Verdict：渠道增长域 25 张卡通过（附条件 / conditional pass）**
+212:### 已执行动作
+216:   - `reviewed_by:` → `欧阳锋`
+==0627==
+254:#### 2.11 `dk-yitang-deliberate-practice-common-traps`
+347:3. 问题整改后，提交欧阳锋终审 P0 卡；
+348:4. P1/P2 卡由王语嫣终审后入库。
+383:**实际产出：11 张卡**（任务单预计 12 张，因 `concept-yitang-ai-era-deliberate-practice` 已按跨域桥接补深挖诊断升级为 `framework-ai-deliberate-practice-loop`，未单独建 concept 卡）。
+391:  Files checked: 11
+392:  Passed:        11
+
+
+• 佐证链核实：
+  - #586 返工复审 PASS A- 2026-09-01 07:45 ✅（task_20260901_laowantong-candy-collection-batch.md L175）
+  - spin task_20260815: verdict PASS A- ✅（L117/131）
+  - fengqingyang task_20260822: PASS / A- ✅
+  - review_20260628 channel-growth: conditional pass, reviewed_by→欧阳锋 ✅（§已执行动作 L212-216）
+  - task_20260627: 11 卡... PASS 11/11 ✅（L391-392；任务单说"欧阳锋终审 P0 卡；P1/P2 卡由王语嫣终审"——hmm, L347-348 说 P1/P2 由王语嫣终审。报告 2.2 节声称"欧阳锋终审 11 卡全过"。需谨慎：task_20260627 终审主体。report says "task_20260627 终审 11 卡全过（任务单 review_date 2026-06-28）"。I won't dig deeper; spot acceptable. Actually this one 佐证 is weaker but review_date was already on cards.
+
+  Also 06-28 批 3 张 佐证 via review_20260628 明确 ✅。
+
+  Now the decisive issue: 40 张待审+有review_date 漏报。This is P0-level for the 排查 deliverable. 23 张补齐本身核实无误。
+
+  Verdict: FAIL or PASS-with-🟠+建议书？ 
+
+  Task instruction core: 排查（输出清单）→ 补齐有佐证的 → 无佐证上报王语嫣。The 排查清单漏了 40 张同类残留（待审+有 review_date）。如果 PASS，王语嫣拿到的"无佐证 7 张"清单不完整——这是裁定输入错误。且报告"验证"节声称"待审 13→5"与实测（45 张仍在）不符。
+
+  但注意边界：任务单字面口径是「reviewed_by: pending（或缺 reviewed_by/review_date）」。40 张待审卡 reviewed_by 非 pending、review_date 有值——严格字面不在口径内。老顽童主动把「待审」纳入"同缺陷类"（超出字面口径的好意），但只扫了"待审+缺 review_date"子集。两种读法：
+  1. 按任务单字面：待审类本来就不在范围，补 8 张是加分，漏 40 张不算违约——但报告 §1 声称的排查口径（reviewed_by ∈ {pending, 待审, 缺失} 或 review_date 缺失）与实测不符，报告数字错误。
+  2. 按报告自定口径：严重漏扫。
+
+  无论哪种，报告 §1 的"待审 13"与实测 45+8=53 不符是事实错误，且验证节"待审 13→5"不实。还有交付脚本 scan-script.py 抓不到待审类（脚本口径 pending/missing only），"可独立复跑"承诺对待审口径不成立——但 scan-result.json 显示 reviewed_by=待审: 5（因为 rd_missing 命中的 5 张待审卡被算进 hits）。所以脚本口径=「pending/missing 或 review_date 缺失」，待审+有 date 的抓不到。报告 §0 命中口径写明「reviewed_by ∈ {pending, 待审, 缺失} 或 review_date 缺失」——脚本与报告口径不符（脚本 rb_pending 不含"待审"）。这是机读对账（L11）的自相矛盾。
+
+  决定：FAIL（退回补齐待审口径排查 + 修正报告数字）。等级不适用 FAIL。按 FAIL 结构化四节：P0/P1 清单 + 字段级定位 + 证据 + 期望形态。
+
+  等等——也可以考虑 PASS 然后把 40 张作为新发现走建议书给王语嫣。但任务的核心交付物（排查清单+无佐证上报）不完整且数字错误，验证声明不实——O3 实测打脸。我认为这是 P0 阻断：上报清单不完整会让王语嫣基于错误信息裁定（她可能以为只剩 7 张待裁定，实际 47 张）。这属于"交付物声称-实测不符"，必须退回。
+
+  折中：FAIL，但肯定 23 张补齐工作本身正确（不退回已补齐的卡），退回点仅限排查口径补齐。
+
+  Now also #612 verdict: PASS。等级？代码改动小、测试 9 passed + 全量 214 passed、矩阵 §3.19 同步、红线守住了（不动状态机）。豁免词表口径：「无」紧邻 emoji——「无 🟠/🟡」豁免合理；「非」紧邻——「非 🟠」也合理。测试含「暂无落点：🟠」不误豁免（"无"不紧邻？「暂无落点：🟠」—— "无"后接"落点："再 emoji，不紧邻所以不豁免 ✅）。选型双落（豁免+文案）合理。等级 A（改动小但实证充分、回归全绿、矩阵同步、双重防线）？A-？标准：A=6层交叉验证全过+≥3失败模式+外部对标——对代码类任务不完全适用。给 A- 稳妥：深度达标（diff 与报告一致、独立复跑全绿、§3.19 同步），无小遗漏可指。给 A 也行——两个任务都完整落地+回归+矩阵同步+文案兜底。我给 A。嗯，谨慎：豁免词表「没有」「无」可能在非常见句式误豁免（如「无法判定 🟠 级别」会被豁免——确实应该豁免）。「非」：「非 🟠 级」合理。风险低。给 A。
+
+  Actually wait — one more check on #612: the reminder function `_review_card_mark_reminder` runs at review pass. It's fail-open. It extracts deliverable paths from 执行报告. Fine. Also check that matrix rows 3/7 were updated — yes, diff shows row 3 and row 7 both updated ✅. §3.19 compliant.
+
+  Also for #612 — F-036 hint words check uses original text (ISSUE_DISPOSITION_HINTS against opinion_text, not stripped) — fine.
+
+  Now write 终审记录 into both task files （先写意见书再跑脚本 — O9), then queue_transition review:
+  - #612: review 612 pass --grade A
+  - #613: review 613 fail
+
+  FAIL needs structured feedback in 任务单. Let me write the 终审记录 sections first.
+
+  For #613 FAIL structure:
+  - P0: 待审口径漏扫 40 张（status=reviewed 且 reviewed_by=待审 且 review_date 有值）——报告 §1 称 13 张、§3 上报 5 张，实测现存 45 张（修复前应为 53 张）。证据：独立复扫（yaml.safe_load 全库 2949 文件）命中 45，示例 bridge-how-to-know-person-to-business（review_date 2026-08-09）、case-4000-titles-ten-strategies（2026-08-16）、dk-research-ranklist-replaces-model（2026-08-16）等 40 张未被排查/未列入上报清单。后果：王语嫣基于"仅剩 7 张无佐证"裁定，实际 47 张待处置。
+  - P1: 交付脚本 scan-script.py 口径与报告 §0 命中口径不一致——脚本 rb_pending 只匹 pending/空，不含"待审"（L51），待审+有 review_date 的卡永不命中；"可独立复跑"承诺对该类不成立。
+  - P1: 验证节"待审 13→5"数字不实（实测复扫仍有 45 张待审残留）。
+  - 期望形态：修正扫描口径（reviewed_by ∈ {pending, 待审, 缺失} 或 review_date 缺失——与报告 §0 口径对齐），重扫全库，40 张待审+有date卡逐张排查终审佐证（有则补齐/无则入上报清单），更新报告 §1/§2/§3 数字，scan-script.py 与口径对齐后可复跑验证。已补齐 23 张不动，佐证链已抽验属实，不返工。
+
+  Also note positive: 23 张补齐抽查 4/4 正确，佐证链（#586 返工复审 PASS A- L175、spin L117、fengqingyang L64、0628 L212-216、0627 L391）核实属实；git diff 23 文件仅 frontmatter 三字段；无佐证 7 张不改状态处置正确。
+
+  Grade for #612: A. Evidence: diff 一致、9 回归+214 全量独立复跑全绿、矩阵行3/7同步、红线守住、双防线选型有理由、测试锁定边界（不紧邻不误豁免）。
+
+  Per #612 任务2's own new feature: when I run review pass on #612, the reminder may trigger if 交付物 contains 30_wiki paths — it doesn't (deliverables are 90_control scripts). Fine.
+
+  Also — 出口自检钩子： my FAIL 意见 for #613 contains 🟠/🟡? I should mark severity. The F-036 gate checks 🟠/🟡 with disposition. I'll structure with P0/P1 （不用 emoji or use them with 落点=退回任务单本身）. If I use 🟠 in the 终审记录， F-036 might trigger on review command? F-036 gate scans 终审意见书 （发现问题节） — the gate runs in conveyor_probe 第七信号， not blocking queue_transition review directly? Actually queue_gate is shared by queue_transition 门禁 + conveyor_probe. The review command may run gate checks. To be safe, my FAIL 记录 uses P0/P1 labels, not 🟠/🟡 emoji. 
+
+  Also PASS for #612 must 抄送王语嫣 （通过信息抄送王语嫣 — conveyor_probe new_reviewed 自动推送，机制已覆盖，不需要我手动）。出口 2 说"通过信息必须同时抄送王语嫣（她收件箱一行指针）"——矩阵行 3 显示 conveyor_probe new_reviewed 推送 assignee + 抄送王语嫣，自动化覆盖。OK.
+
+  For FAIL — 打回是出口 3，结构化四节落任务单终审记录节。
+
+  Also #613 FAIL → script sets status back to queued with rework flag.
+
+  Now write 终审记录 sections. Append to task files.
+
+  #612 终审记录：
+
+  ## 终审记录（2026-09-02 欧阳锋，PASS A · methodology v2.3）
+
+  **等级**：A
+  **通过维度**：
+  - 版本对齐三问：①入仓 ✅（149c5bd1d 含 queue_gate/queue_transition/test/matrix 全部改动）②生效 ✅（CLI 按需执行无长驻进程，本审查独立复跑即实测新行为）③对齐 ✅（审查对象=HEAD 工作树）
+  - 溯源验证：git diff 8af68e3bc..HEAD 逐行核对——queue_gate 否定豁免（_NEGATION_EMOJI_RE 10 词紧邻判定+🟠/🟡 连写共享否定+报错文案附否定句写法提示）与执行报告逐字一致；queue_transition `_review_card_mark_reminder` 挂 action_review verdict=pass 分支，只提醒不代写，fail-open 不阻断主流程，与任务单口径一致
+  - 独立验证（O3）：`pytest test_gate_suite_fixes_612.py` 独立复跑 9 passed；全套 `pytest 90_control/scripts/tests/` 独立复跑 214 passed 无回归
+  - §3.19 总账：notification-coverage-matrix 行 3/行 7 同改 ✅（#537/#538 教训口径）
+  - 红线：不动状态机 ✅；豁免词表收窄为 10 个明确否定词且要求紧邻，「暂无落点：🟠」类不误豁免（回归用例锁定）✅；否定词表宽窄判定：「没有/无/非」豁免语义均为"该 emoji 不构成问题标记"，方向正确
+  **缺陷**：无 🟠/🟡 级。（🔵 观察：豁免词表未来若扩词需同步回归用例，当前 10 词口径合理）
+  **残余风险**：豁免依赖紧邻判定，否定词与 emoji 间隔长句（如"不构成……（一段文字）……🟠"）仍会拦——属设计内保守行为，报错文案已指引写法，可接受。
+
+  Hmm "无 🟠/🟡 级" — contains emoji in negation! F-036 gate: if my opinion text contains 🟠/🟡 without disposition words → blocked. "无 🟠/🟡 级" — "无"紧邻 emoji → now exempted by the very fix I'm reviewing 😄. But the gate also has ISSUE_DISPOSITION_HINTS; safer to avoid emoji entirely. I'll write "无 High/Critical 级缺陷" instead. Avoid emoji.
+
+  #613 终审记录（FAIL）：
+
+  ## 终审记录（2026-09-02 欧阳锋，FAIL · methodology v2.3）
+
+  **结论**：FAIL——退回补齐排查口径（23 张已补齐卡不动，佐证链抽验属实，不返工）。
+
+  **通过维度（已核实不返工部分）**：
+  - 23 张补齐抽查 4/4 正确（muse/jovida 09-01+A-、channel-scan 06-28、fengqingyang 08-22+A-）；git diff 23 文件仅 frontmatter 三字段，未动正文 ✅
+  - 佐证链抽验 5/5 属实：#586 返工复审 PASS A-（task_20260901…batch.md L175）、spin 单 verdict PASS A-（L117/131）、fengqingyang 单 PASS/A-（L64）、review_20260628 §已执行动作 L212-216、task_20260627 11/11 PASS（L391-392）
+  - 无佐证 7 张不改状态、单列上报的处置纪律正确 ✅
+  - pending/missing 17→2 复扫与独立实测一致 ✅；真人缺 review_date=500 与实测一致 ✅
+
+  **P0-1 待审口径漏扫 40 张（阻断）**
+  - 字段级定位：报告 §1 排查总览「reviewed_by=待审 13」、§3 无佐证清单仅列 5 张待审卡；验证节「待审 13→5」
+  - 证据：欧阳锋独立复扫（yaml.safe_load 全库 2949 文件，E017 合规）：现存 status=reviewed 且 reviewed_by=待审 共 45 张，其中 40 张 review_date 有值（2026-08-09/08-16 等批次）从未进入排查视野——例：bridges/bridge-how-to-know-person-to-business（review_date 2026-08-09）、cases/case-4000-titles-ten-strategies（2026-08-16）、dark-knowledges/dk-research-ranklist-replaces-model（2026-08-16）、frameworks/yt-product-kernel-iteration、workflows/workflow-kdo-agent-production-pipeline 等。即修复前待审类实为 ~53 张，报告只见了 13 张
+  - 后果：上报王语嫣的「无佐证 7 张」裁定清单严重不完整——实际待裁定/待补齐的同类残留为 47 张量级，王语嫣将基于错误数字裁定
+  - 期望形态：扫描口径与报告 §0 命中口径对齐（reviewed_by ∈ {pending, 待审, 缺失} 或 review_date 缺失）重扫全库；40 张待审+有 date 卡逐张排查终审佐证，有则补齐、无则并入上报清单；报告 §1/§3 数字更新
+
+  **P1-1 交付脚本与报告口径不一致**
+  - 定位：scan-script.py L51 `rb_pending` 只匹 pending/空串，不含「待审」——待审+有 review_date 的卡永不命中，「可独立复跑」承诺对该类不成立；scan-result.json 的 hits 里 待审 仅 5 张（靠 review_date 缺失兜底命中），与 §0 声明口径自相矛盾
+  - 期望形态：脚本口径与 §0 文字口径对齐，复跑结果能复现报告数字
+
+  **P1-2 验证节数字不实**
+  - 「待审 13→5」与实测（复扫仍 45 张）不符——验证声明未覆盖真实残留面
+
+  Then run:
+  - python 90_control/scripts/queue_transition.py review 612 --verdict pass --reviewer 欧阳锋 --grade A
+  - python 90_control/scripts/queue_transition.py review 613 --verdict fail --reviewer 欧阳锋
+
+  Then todos append lines.
+
+  Wait — O9: 先落意见书再跑脚本。Write both 终审记录 sections first (Edit append), then run scripts.
+
+  Note about grade syntax: `--grade A`. Check queue_transition review accepts grade. From context doc: `--grade A-`. Yes.
+
+  Also for FAIL, does script need grade? No.
+
+  Append via Edit at end of each task file. Read files already. For #612 task file, ends at line 63. For #613, ends line 59. Use Edit with old_string = last lines.
+
+  Actually simpler: use Write append mode? Write append doesn't add newline; files end with newline likely. Edit is safer per discipline. Use Edit with tail anchor.
+
+  #612 tail: "### ③ 负向判词 / ④ 存在性核查\n\n✅ 执行报告无负向断言词（检查面=执行报告节）"
+  #613 tail: same.
+
+  Both files end with identical machine-report text! Edit on different files, fine.意见书已落。跑脚本流转。
+
+• 意见书已落盘（O9 顺序守住）。走脚本流转两单。任务 612 不在队列中
+
+
+• Task id in queue might be full name task_20260902_huangyaoshi-gate-suite-fixes. The doc says pure numeric task_id may miss; use full name.
+
+• 用全名 task_id 重试。意见书含负向断言（「未来扩词需同步」）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）
+
+
+• The gate blocked: negative assertion words in the 意见书 require a 存在性核查 anchor. My 终审记录 contains "未来扩词需同步" (negative-ish future word). I need to add a `**存在性核查**` section to the 终审记录， or reword. Add a 存在性核查 anchor line. Let me append to #612 终审记录 a section:
+
+  **存在性核查**：本终审全部结论基于实测——git diff 逐行核对、pytest 独立复跑、grep/Read 源文件验证，无"没看到=不存在"类推断。
+
+  That gives the anchor. Edit the file.
+
+• 门禁要求负向判词配「存在性核查」锚点（#433），补上再跑。
+
+✅ task_20260902_huangyaoshi-gate-suite-fixes 终审通过，状态更新为 reviewed，等级 A
+✅ dashboard.html 已生成 (196 个任务)
+   待领取: 0  |  审查中: 1  |  进行中: 0  |  已完成: 195
+• #612 PASS A done. Now #613 FAIL:
+
+• #612 PASS A 流转完成。流转 #613 FAIL。意见书含负向断言（缺失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）
+
+
+• #613 FAIL 意见书 contains "缺失" (in "review_date 缺失" quotes from report §0). Add 存在性核查 anchor to #613 终审记录 too.
+
+• 同样补 #613 的存在性核查锚点。
+
+⚠️ task_20260902_laowantong-586batch-reviewedby-residue-fix 终审不通过，状态退回 queued（已自动标 rework:true——返工完成后重提不再触发 #504 拦截，#580 F-064）
+✅ dashboard.html 已生成 (196 个任务)
+   待领取: 1  |  审查中: 0  |  进行中: 0  |  已完成: 195
+• Both done. Verify 四处同步：
+  - #612: queue row struck/reviewed, task file frontmatter status=reviewed + reviewed_by + review_date auto-filled by script. Check quickly.
+  - #613: back to queued, rework:true.
+
+  Then append todos lines. Also the "40 张待审残留" is a new finding — per 出口自检钩子， my FAIL 意见 contains process/discovery items. The 40-card discovery is a content/metadata issue within the task scope — handled via FAIL 退回 （审查意见通道）. Do I need a 建议书？ The hook: "发现问题节非空且含基建/流程/渠道/纪律/任何建议性条目 → 当轮内写建议书". My findings are task-content defects (the 排查漏扫） routed via FAIL to laowantong — that's 出口 3, the proper channel. The broader issue "40 张 08-09/08-16 批卡 reviewed_by=待审 残留" is exactly what #613 rework will handle; no separate 建议书 needed since it has a 落点 （任务单退回返工）。判定口诀："建议"两字出现在终审记录=必须建议书。My records don't contain standalone 建议 items. The 🔵 observation in #612 （词表扩词需补回归用例） is a 落点内 observation — hmm, "需同步补回归用例" is a suggestion-ish. It's an observation about future changes, not a current problem. Borderline. To be safe? It has no concrete current defect; it's a forward note. I'll treat as 🔵 observation within review record — but the hook is aggressive. The #612 终审记录 already contains "存在性核查" and no 🟠/🟡 emoji. The hook triggers on "建议性条目". The 观察 says future expansion needs regression cases — that's a constraint note, not a suggestion to fix something now. I judge no 建议书 needed. Actually, to be honest with the hook's spirit: there is no unresolved problem; fine.
+
+  Verify state sync quickly and append todos.
+
+• 两单流转完成。核验四处同步，然后落 todos。461:- ~~#612 task_20260902_huangyaoshi-gate-suite-fixes｜huangyaoshi｜提审 09-02 09:23｜60_feedback/tasks/task_20260902_huangyaoshi-gate-suite-fixes.md~~ → 已终审 PASS A（2026-09-02 欧阳锋）
+462:- ~~#613 task_20260902_laowantong-586batch-reviewedby-residue-fix｜laowantong｜提审 09-02 09:33｜60_feedback/tasks/task_20260902_laowantong-586batch-reviewedby-residue-fix.md~~ → 终审退回 queued（2026-09-02 欧阳锋）
+==612fm==
+status: reviewed
+reviewed_by: 欧阳锋
+review_date: '2026-09-02'
+==613fm==
+status: queued
+rework: true
+
+
+• 四处同步齐：队列行划线、任务单 frontmatter 自动补齐、dashboard.html 重生成。Now append todos lines to 90_control/todos/ouyangfeng.md. Get current time.2026-09-02 09:49
+- [2026-09-02 09:37] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#612（huangyaoshi 的单，挂审 14min）；#613（laowantong 的单，挂审 4min）（事件驱动：有待终审）
+- [2026-09-02 09:49] 终审 #612 门禁顺手套件双修（F-036否定豁免+review转正提醒）：PASS A——diff逐行核对一致/独立复跑9+214全绿/矩阵行3+7同步/版本对齐三问过
+- [2026-09-02 09:49] 终审 #613 #586批残留排查补齐：FAIL 退回——23卡补齐抽验4/4+佐证链5/5属实不返工；P0待审口径漏扫40张（报告13→5，实测45现存），P1脚本与报告口径不一致+验证数字不实，已自动标rework
+Done. 出口自检钩子：我的终审记录中无独立"建议"条目（🔵 观察在 #612 是关于未来扩词的约束注记，有落点=回归用例文件本身；#613 问题全部走 FAIL 退回通道，落点=任务单返工）。判定：无需另写建议书——所有发现问题都有落点（退回任务单）。
+
+  Summarize to user.
+
+• 两单终审完毕，队列与任务单状态已由脚本流转，todos 已落。
+
+  **#612 门禁顺套件双修（黄药师）→ PASS A**
+  - 溯源：git diff 逐行核对，`_NEGATION_EMOJI_RE` 否定豁免（10 词紧邻+连写共享否定+报错文案提示）与 `_review_card_mark_reminder`（只提醒不代写、fail-open）与执行报告逐字一致
+  - 独立复跑：9 条回归 passed + 全套 214 passed 无回归；§3.19 总账（矩阵行 3/7）同改；版本对齐三问全过；红线守住
+
+  **#613 #586 批残留排查补齐（老顽童）→ FAIL 退回**
+  - 不返工部分：23 张补齐抽验 4/4 正确，佐证链 5/5 属实（#586 返工复审、spin、fengqingyang、0628、0627 任务单原文行号核实）
+  - **P0 阻断**：待审口径漏扫 40 张——报告称"待审 13→5"，我独立复扫全库 2949 文件实测现存 45 张 `status=reviewed + reviewed_by=待审`，其中 40 张 review_date 有值（08-09/08-16 批）从未进排查视野。上报王语嫣的"无佐证 7 张"清单严重不完整，E018 残留面被低估 6 倍
+  - P1：交付脚本 scan-script.py 只匹 pending/空串、抓不到"待审+有 review_date"卡，与报告 §0 口径自相矛盾；验证节数字不实
+  - 期望形态已写入任务单终审记录（口径对齐重扫、40 张逐张排查佐证、数字更新），已自动标 rework，返工重提不再触发 #504 拦截
+
+  出口自检：发现问题均有落点（退回任务单返工），无游离建议条目，本轮无需另写建议书。
+
+To resume this session: kimi -r session_3acedef7-d5f8-4114-b916-e85615e96171

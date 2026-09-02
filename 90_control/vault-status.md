@@ -1,8 +1,8 @@
-> generated-by: vault-snapshot.py · updated_at: 2026-09-02 02:08 · git_head: f1286b7dc
+> generated-by: vault-snapshot.py · updated_at: 2026-09-02 09:48 · git_head: c5bec4df5
 # KDO Vault 状态快照
 
-> 自动生成：2026-09-02 02:08 UTC
-> 卡片总数：**2896** | draft: 815 | needs-review: 0 | 低置信度(<0.7): 381 | 缺 source: 2449
+> 自动生成：2026-09-02 09:48 UTC
+> 卡片总数：**2902** | draft: 815 | needs-review: 0 | 低置信度(<0.7): 381 | 缺 source: 2455
 
 ## 域 × 类型 矩阵
 
@@ -76,14 +76,20 @@
 | 噪声减少 | 1 | 0.70 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 |
 | 心理学 | 1 | 0.70 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 |
 
-## 最近 2 天变更（20 张）
+## 最近 2 天变更（26 张）
 
 ### 09-02
 
 - `case-popmart-brand-sensory-wrap` [case] 案例：泡泡玛特品牌感官包裹感——盖住logo也认得×门店如教堂×唱片公司模式  (conf=0.85, domain=)
+- `case-popmart-molly-transition` [case] 案例：泡泡玛特 MOLLY 诞生——代理权受制到自有 IP 的「掀桌子」转型  (conf=0.87, domain=)
+- `case-yitang-eason-truth-delivery-audit` [case] 一堂 Eason 文化审计案——AI Agent 伪造署名交付的完整审计与处理实录  (conf=0.85, domain=)
+- `case-yitang-jiangxiang-huawei-matext-launch` [case] 案例：华为 MateXT 非凡大师发布会双拆解——十指讲香全指齐动的教科书样本  (conf=0.85, domain=)
 - `concept-satisfaction-vs-existence` [concept] 满足感×存在感——消费解决两件事（近视眼镜 vs 黑框眼镜）  (conf=0.85, domain=)
+- `dk-yitang-fact-three-questions-trust-tiers` [dk] AI Agent 交付的实事求是暗知识——事实三问法、署名真实性与信任等级制  (conf=0.85, domain=)
 - `framework-popmart-long-termism-operating-philosophy` [framework] 尊重时间尊重经营——泡泡玛特长期主义经营框架（该十年做成的事就十年）  (conf=0.85, domain=)
+- `method-yitang-jiangxiang-audience-value-routing` [method] 方法：受众×价值×策略路由——十指讲香的选指前置框架（三类受众×五种价值）  (conf=0.80, domain=)
 - `tool-popmart-narrow-and-deep` [tool] 减宽加深判断法：砍掉80%外采聚焦潮玩×每年100个系列上限×七分饱  (conf=0.85, domain=)
+- `tool-yitang-jiangxiang-launch-copywriting-arsenal` [tool] 工具：华为/苹果/小米发布会文案最佳实践库——十策略×三品牌的 300+ 条武器谱  (conf=0.82, domain=)
 
 ### 09-01
 
@@ -109,7 +115,7 @@
 - draft 卡: 815 张
 - needs-review: 0 张
 - 低置信度(<0.7): 381 张
-- 缺 source_refs: 2449 张
+- 缺 source_refs: 2455 张
 
 ### 最重的域
 

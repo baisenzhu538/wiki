@@ -1795,3 +1795,274 @@ warning: in the working copy of '30_wiki/tools/tool-ai-koupen-training-partner-d
 fix-script.py
 scan-result.json
 scan-script.py
+Now: write the 五字段执行报告 into the task file, commit (E040 gate), then complete. First L12: git status check. Then add the 执行报告 section to the task file. Order per previous practice: execution report in task file → commit everything → complete.
+
+  Let me append the 执行报告 to the task file.
+
+• 现在把五字段执行报告落任务单，然后 git status 核验（L12）。^M$
+## M-dM-:M-$M-dM-;M-^X^M$
+^M$
+- M-fM-^NM-^RM-fM-^_M-%M-fM-8M-^EM-eM-^MM-^U + M-hM-!M-%M-iM-=M-^P diffM-oM-<M-^HM-fM-/M-^OM-eM-^MM-!M-iM-^YM-^DM-gM-;M-^HM-eM-.M-!M-dM-=M-^PM-hM-/M-^A commitM-oM-<M-^I+ M-fM-^WM- M-dM-=M-^PM-hM-/M-^AM-eM-^MM-!M-eM-^MM-^UM-eM-^HM-^WM-fM-8M-^EM-eM-^MM-^U^M$
+- claim/complete M-hM-5M-0 `python 90_control/scripts/queue_transition.py`M-oM-<M-^Hcomplete 613 M-iM-^YM-^DM-fM-8M-^EM-eM-^MM-^UM-hM-7M-/M-eM->M-^DM-oM-<M-^I^M$
+
+
+• File is CRLF. Append with Write mode=append using \r\n endings.Now L12: git status check, then commit deliverables (E040 gate requires deliverables committed). The vault has many pre-existing dirty files (from other agents' work). I should only commit my own changes: 23 card files + the deliverable folder + task file + _tmp files? _tmp shouldn't be committed necessarily. Previous commits by laowantong included specific files. Let me add only my files.
+
+  Note: queue file production-queue.md was already modified by claim script (claimed-laowantong-kimi) — the transition script presumably commits its own changes? Earlier git status showed production-queue.md modified — the claim happened just now and the dashboard was regenerated. Check if queue script committed it. Let me run git status to see.
+
+• 执行报告已落任务单。L12 机械一步：git status 核验后提交本单交付物。 M 60_feedback/tasks/task_20260902_laowantong-586batch-reviewedby-residue-fix.md
+?? "60_feedback/tasks/task_20260902_laowantong-586batch-reviewedby-residue-fix/\346\216\222\346\237\245\350\241\245\351\275\220\346\212\245\345\221\212-613.md"
+
+
+• Interesting — the 23 card files don't show as modified in git status? Wait, grep filtered. ` M` for the task file (staged? no, space-M = modified unstaged... actually " M" = modified not staged). The queue claim may have already been committed by the transition script (production-queue.md not listed → it was committed by the script or shows under different filter). But where are the 23 card changes? grep pattern "30_wiki" should match. Let me run full git status to see. M 60_feedback/tasks/task_20260902_laowantong-586batch-reviewedby-residue-fix.md
+ M 90_control/role-registry.json
+?? "60_feedback/tasks/task_20260902_laowantong-586batch-reviewedby-residue-fix/\346\216\222\346\237\245\350\241\245\351\275\220\346\212\245\345\221\212-613.md"
+===总计===
+3
+Only 3 dirty files?! The 23 card modifications are gone from git status? And the deliverable folder shows only the report md as untracked — the json/py files not listed?? Wait — maybe .gitignore ignores *.json/.py in that folder? Or... the card files were committed already? No — I didn't commit. Did something auto-commit? There might be a vault backup cron that commits periodically ("vault backup" commits). Possibly an automated process committed my 23 files just now.
+
+  Let me check git log for a recent commit.
+
+• 卡片改动不在脏文件里——可能被 vault backup 自动提交了。查最近 commit。c45edd5ed 2026-09-02 09:27 vault backup: 2026-09-02 09:27:54
+412c3e0fa 2026-09-02 09:23 chore(queue): #612 complete by huangyaoshi-kimi
+149c5bd1d 2026-09-02 09:20 vault backup: 2026-09-02 09:20:00
+0ef82c8c5 2026-09-02 09:12 锚点：夜班收口状态落锚（11单全清+待拍板清单+#612/#613在跑）
+7b7e2ee98 2026-09-02 09:12 chore(queue): #613 claim by laowantong-kimi
+commit c45edd5ed2d658343bcb09cf2407228a2d640cee
+Author: Linhai Zhu <baisenzhu538@gmail.com>
+Date:   Wed Sep 2 09:27:54 2026 +0800
+
+    vault backup: 2026-09-02 09:27:54
+
+ .../agent-spec-fengqingyang-observer.md            |    4 +-
+ 30_wiki/cases/case-jovida-ai-life-coach.md         |    4 +-
+ 30_wiki/concepts/concept-agent-university.md       |    4 +-
+ .../concepts/concept-brooks-three-lies-culture.md  |    4 +-
+ .../dark-knowledges/dk-brooks-cost-of-knowing.md   |    4 +-
+ 30_wiki/dark-knowledges/dk-customers-hate-ai.md    |    4 +-
+ .../dk-koupen-decision-tiering-compromise.md       |    4 +-
+ .../dk-sales-big-deal-vs-small-deal.md             |    4 +-
+ .../dk-sales-demand-mining-is-company-task.md      |    4 +-
+ .../frameworks/framework-ai-sales-collaboration.md |    4 +-
+ .../framework-lobster-opt-one-person-team.md       |    4 +-
+ .../frameworks/framework-muse-ai-full-map-v1.md    |    4 +-
+ 30_wiki/frameworks/framework-sales-funnel-full.md  |    4 +-
+ .../method-anthropic-skill-design-patterns.md      |    4 +-
+ 30_wiki/methods/method-key-assumption-abcd.md      |    4 +-
+ 30_wiki/methods/method-obsidian-km-camp.md         |    4 +-
+ .../methods/method-spin-linking-sales-marketing.md |    4 +-
+ .../tool-ai-koupen-training-partner-design.md      |    4 +-
+ 30_wiki/tools/tool-candy-sales-recruiting.md       |    4 +-
+ 30_wiki/tools/tool-sales-objection-dilution.md     |    4 +-
+ .../tool-yitang-best-practice-as-golden-finger.md  |    2 +-
+ ...yitang-channel-industrialization-node-design.md |    2 +-
+ .../tools/tool-yitang-channel-scan-cheat-sheet.md  |    2 +-
+ .../fix-result.json                                |  203 +
+ .../fix-script.py                                  |   98 +
+ .../scan-result.json                               | 5085 ++++++++++++++++++++
+ .../scan-script.py                                 |   75 +
+ 90_control/role-registry.json                      |    2 +-
+ 90_control/scripts/.derived-hashes.json            |    2 +-
+ 90_control/todos/huangyaoshi.md                    |    1 +
+ 90_control/todos/ouyangfeng.md                     |    2 +
+ logs/conveyor-probe.log                            |    8 +
+ logs/headless-huangyaoshi-20260902-091141.log      |  290 +-
+ logs/headless-laowantong-20260902-091141.log       | 1099 ++++-
+
+
+• The vault backup cron committed my 23 card files + deliverable json/py at 09:27 (c45edd5ed). Remaining uncommitted: the task file 执行报告 (modified) + 排查补齐报告-613.md (untracked) + role-registry.json (not mine — leave it; actually it was modified by the claim script probably; the backup committed one version but it's dirty again? It shows " M 90_control/role-registry.json" — the queue script may have touched it. I'll include it? No — only commit my deliverables. role-registry.json change is a side effect of claim; safer to include it with queue commit? The complete script probably handles queue files itself. Leave role-registry alone.)
+
+  Commit the task file + report. That's a git mutation — the project workflow requires deliverables committed (E040 gate), and the user explicitly instructed completing the task. Past sessions did commits. Proceed.warning: in the working copy of '60_feedback/tasks/task_20260902_laowantong-586batch-reviewedby-residue-fix/排查补齐报告-613.md', LF will be replaced by CRLF the next time Git touches it
+[master 047c146c7] #613 执行报告+排查补齐报告落盘：23卡reviewed_by残留补齐（#586批12+0628批3+待审批8），7张无佐证上报王语嫣 by laowantong
+ 2 files changed, 109 insertions(+)
+ create mode 100644 "60_feedback/tasks/task_20260902_laowantong-586batch-reviewedby-residue-fix/\346\216\222\346\237\245\350\241\245\351\275\220\346\212\245\345\221\212-613.md"
+
+
+• 交付物全部入仓。现在 complete 613 提审。任务 613 不在队列中
+
+
+✅ task_20260902_laowantong-586batch-reviewedby-residue-fix 已提交为 pending_review，等待欧阳锋终审
+📦 交付物校验: 交付物节未识别出文件路径（启发式覆盖外）——人工自核已入仓
+✅ dashboard.html 已生成 (196 个任务)
+   待领取: 0  |  审查中: 2  |  进行中: 0  |  已完成: 194
+• L9 牌：验证双落盘。
+
+• 提审已提交。按 L9 牌验证状态双落盘。队列总任务数: 196
+queued: 0
+claimed: 0
+pending_review: 2
+  #612 task_20260902_huangyaoshi-gate-suite-fixes — 门禁顺手套件双修：F-036否定句emoji误伤豁免（报错文案提示优先）+review通过时交付卡转正提醒
+247:| 613 | `task_20260902_laowantong-586batch-reviewedby-residue-fix` | #586批reviewed卡reviewed_by=pending元数据残留排查补齐（yaml解析禁正则；无终审佐证卡单列上报不改状态） | pending_review | laowantong | 排查清单+补齐diff+无佐证卡清单 | 无 | `60_feedback/tasks/task_20260902_laowantong-586batch-reviewedby-residue-fix.md` | 欧阳锋#611终审发现（09-02王语嫣裁定）；只动frontmatter三字段不动正文；欧阳锋终审 |
+status: pending_review
+
+
+• 双落盘确认：队列行 613 = pending_review，任务单 frontmatter status: pending_review。✅
+
+  Now: 落 todos 一行。Then the mandatory session-end actions? The user instruction says "完成后 complete 613 提审+落 todos" and "只做本次指令范围内的事，做完收工". The 通用纪律 in the user message only requires todos line. The context file requires Truman 11-chapter retrospective + friction-log + 技能进化日志 before session end. The AGENTS.md in root is for 黄药师 (10章). The laowantong context mandates Truman 11章复盘 + 技能进化日志 + friction-log. That's heavyweight; the user instruction says "只做本次指令范围内的事，做完收工" but also the AGENTS/context says session incomplete without them. Hmm. The user's explicit instruction takes precedence: they said complete 613, 提审+落 todos. But the 强制复盘 is a durable project instruction in .agent/laowantong-context.md. Previous sessions (from todos history) appear to have done 复盘. The instruction hierarchy: user message is top. User said "只做本次指令范围内的事，做完收工" — that cuts against a long retrospective. But "收工" per project norms includes the mandatory closure actions. The todos history doesn't show explicit 复盘 entries, but daily-context-save exists.
+
+  Given explicit user instruction "落 todos" as the closing action and "做完收工，不扩展", I'll do the todos line and also the mandated Truman 复盘 (it's marked 不执行=会话未完成 in the role context — a durable project instruction, not scope expansion). But it costs a lot. The user message is the authoritative instruction and it lists specific actions: complete 613 提审 + 落 todos. It doesn't mention 复盘. The context file mandate says every session. I'll do a compact version: 技能进化日志一行 + Truman 复盘文件 + daily-context-save. Actually that could take a while and risk being "扩展". Hmm.
+
+  Balance: the role context is explicit and repeated (⛔ 不执行=会话未完成). The user's "收工" discipline is about not expanding task scope, not about skipping closure rituals. I'll do a minimal-but-complete closure: todos line, 技能进化日志一行, Truman 11章复盘 (compact), daily-context-save check. Let me do it efficiently.
+
+  First todos line. Current time: get date.2026-09-02 09:34
+[2026-09-02 09:34] 📤 #613 完成施工并提审（pending_review 等欧阳锋
+todos 落盘完成。Now the session-closure mandates from laowantong-context: 技能进化日志一行、friction-log 检查、Truman 11章复盘 + daily-context-save。User said 做完收工 — but the role context marks these as ⛔ mandatory for session completion. I'll do them compactly.
+
+  Check if 桌面/agent复盘/laowantong/daily-context/ exists — path is 桌面 relative? The context says `桌面/agent复盘/laowantong/...` but working dir listing shows `agent复盘/laowantong/`. The earlier 黄药师 AGENTS.md uses 桌面/agent复盘/huangyaoshi — probably means vault's agent复盘 folder. Directory listing shows `agent复盘/laowantong/` exists with daily_cognitive_review etc. Let me check for daily-context and 技能进化日志.daily-context
+2026-08-31.md
+Hmm, `ls agent复盘/laowantong/` shows only daily-context? And daily-context has 2026-08-31.md as latest. 技能进化日志 — check where it lives. Context says `桌面/agent复盘/laowantong/技能进化日志.md`. Check.2026-08-31.md
+cn-track-archive-20260819
+daily-context
+friction-log.md
+技能进化日志.md
+用户反馈档案.md
+索引.md
+能力雷达图.md
+错误模式库.md
+桌面/agent复盘/laowantong/ is the real location (outside vault, on Desktop). Today's daily-context file: 桌面/agent复盘/laowantong/daily-context/2026-09-02.md — check if exists (another laowantong instance ran today at 09:11 — headless log existed). Naming rule: same-day multi-instance = append to same YYYY-MM-DD.md.2026-08-31.md
+2026-09-01-hermes.md
+2026-09-02.md
+| 2026-08-30 | 战略笃定篇三单连续生产（#575/#578/#579 全提审）：①整批精读模式——口述稿1870行全文逐字读完（含末尾闲聊），三单共享底本、跨卡互链（#575三分法→#578 ROI→#579七轮），素材消费率>85% ②任务单锚点坐标体系坑：字符位置（66000-77616）≠read_file行号，先grep关键词定位（"70%是一样"→L1716）再引用 ③--force合法授权路径扩充：不同assignee并行（skill文档）之外，老朱显式指令连续生产也是合法授权（留痕+理由，非违规）④CONCEPT_CROSSCHECK提示制warning=人工核对动作（小昭事故防患机制），执行报告如实附上 ⑤同批先写完全部卡再统一pre-submit（#575→#578→#579顺序对，跨卡死链是预期内） | 方法升级+踩坑教训 | #575/#578/#579 生产+提审 |
+| 2026-08-31 | 运维+基建+调研混合会话（hermes 实例）：①王语嫣 bot 卡死新分型——「工具挂死型 turn 悬死」（区别于会话膨胀）：签名=state.db end_reason=NULL+last_activity 冻结在 terminal running+history=0 无压缩日志，修复=重启 gateway+DB 终结会话（end_reason=session_reset），已回写 hermes-bot-slow-diagnosis skill「模式二」②WSL 拔除三连：transcribe_win.py 新建（CPU tiny 10倍速，339s视频35s）+collect_wechat/wechat_link_monitor 转写改 Windows 原生+sync-hermes-mcp WSL_PROFILES 清空+wsl 探测兜底，修复后跑真实积压视频验证再 commit（⑮纪律）③月白命名规则调研：先一手口述稿后卡片（证据分层），OSCAR+12 外部来源交叉验证，报告落桌面；发现部分老卡 source_refs 指向拆分前 stub 路径（漂移待查，记录在复盘检索审视节） | 方法升级+新武器+踩坑教训 | 王语嫣慢诊断/WSL迁移/月白调研 |
+| 2026-09-02 | #606 图谱散点治理二批收官（提审待终审）：①中断续作接管法——git status 分拣三堆（已提交族/未提交误伤/他agent运行时），误伤未提交=git checkout 零成本回滚，已提交族 git show grep 核验污染签名 ②扫描器口径即验收定义：同一 vault 严格口径396 vs 验收口径0，验收前把任务单验收句逐字解析成可执行规则 ③幽灵清单第一刀先切「目标文件实存性」，实存的直接出清单（_archive 19 文件全实存，"归档"≠"删除"）④脚本例外形态（反引号纯文本保留）必须写成提取器负向断言进代码，只写进人读任务单挡不住贪婪匹配 ⑤queue_transition 全子命令只收 task_id 全名不收 seq | 方法升级+踩坑教训 | #606 中断恢复+C族收尾 |
+| 2026-09-02 | #609 MOLLY诞生卡（凌晨二场）：①门禁等待期=免费素材消费窗口——被#597挡10分钟把素材/退役单/四卡related全预消费完，解锁后13分钟施工完 ②补验义务在检索通道恢复首单兑现利息最小，还挖出增量（2016-01 Dreams终止代理=催化剂、占比逐年27→31→33%），互证✅与单一来源待复核分级标注不混 ③queue_transition只收task_id全名不收seq——三次实证（08-21/04:52/本场），写进手部默认非复盘 ④case卡行数门禁靠11节骨架结构保证，不靠事后补（初稿93行<100教训） | 方法升级+踩坑教训 | #609 生产+提审 |
+| 2026-09-02 | 任务单候选清单≠待建清单——先查重对账（source_refs同源核验）再锁增量施工，#610/#611 两次复用成范式 | 方法升级 | #611 施工实证 |
+2026-09-02.md already exists in daily-context (from earlier laowantong instances today). Per naming rule: same-day multi-instance appends to same file. I'll write a compact Truman 11-chapter section for this session and append to 2026-09-02.md, plus add one line to 技能进化日志, check friction (no friction this session — smooth; but there was one minor friction: queue_transition.py doesn't accept seq number, only task_id — already a known lesson logged 09-02; no new friction), then run daily-context-save.
+
+  Let me check the format of agent-os.md §10.2 11 chapters quickly? It's expensive. The existing 2026-09-02.md presumably has the 11-chapter structure from earlier sessions. I'll append a session block following the same structure. Let me peek at the structure.17:## 差异栏（本次 vs 上次复盘 2026-08-31，指令要求对照最新一份）
+26:## 概要
+30:## 关键决策
+40:## 思维盲点
+46:## 顿悟
+50:## 过程资产
+61:## 元反思
+69:## Truman复盘
+103:## 差异栏（本次 vs 上次复盘 2026-09-02 凌晨场 #606，对照最新一份）
+110:## 概要
+114:## 关键决策
+123:## 思维盲点
+128:## 顿悟
+133:## 过程资产
+141:## 元反思
+148:## Truman复盘
+180:## 差异栏（本次 vs 上次复盘 2026-09-02 凌晨场）
+187:## 概要
+191:## 关键决策
+200:## 思维盲点
+205:## 顿悟
+209:## 过程资产
+216:## 元反思
+220:## Truman复盘
+## 差异栏（本次 vs 上次复盘 2026-09-02 凌晨场）
+
+1. **新场景：任务单与库现状"时滞漂移"的施工法**。任务单开列 5-7 张候选卡，但落单到施工之间，#586 批已把 5 主候选全部建成 reviewed 卡——照单全写=重复建设 P-22。本次把"查重对账"从隐性动作升级为建模方案的素材牌第一位：先证候选已覆盖（source_refs 同源对账），再锁定真增量（Eason 族 2 卡）。与 #610（查重命中不重建）同一打法第二次复用，开始形成稳定范式：**任务单候选 ≠ 待建清单，先对账再施工**。
+2. **新视角：🔴密级件的"拿不准"边界其实可以预先判据化**。任务单写"拿不准先问王语嫣"，但本次没触发——因为任务单本身已给全三要素（#322 先例格式+脱敏口径+双标注位置）。启发：上游编排把判据写全，下游就不用停下来问；"问不问"本身是可被任务单设计消灭的成本。
+3. **被打破的假设：vault 自动备份会在我施工中途 commit 我的半成品**。08:20 备份把刚写完的两卡主体先入仓，后续修订成了"diff 提交"。交付物入仓校验过了，但"我的文件什么时候被快照"不再由我控制——声称"commit X 包含全部内容"前必须看 git log，不能想当然。
+4. **复发的模式：claim 用 seq 数字报"任务不在队列"**。`claim 611` 被拒、`claim <full-task-id>` 才通——队列脚本的解析口径又一次咬人（#596 时已是 full-id）。这类"工具接口粒度"坑靠记忆总忘，值得进武器库笔记。
+
+## 概要
+
+领取 #611（claim 走 --force，#608 前方阻塞不同 assignee 并行线）→ 查重确认 5/5 主候选已由 #586 reviewed 卡覆盖不重建 → 增量落 Eason 族 2 卡（case 103 行+dk 132 行，🔴密级按 #322 先例双标注脱敏）→ 3 存量卡反向补链 → pre-submit 2/2 PASS + 自攻击 🔴0🟡2 已修 → 互链 0 死链 + index 4177 → 执行报告落任务单 → complete 提审双验证（L9）。
+
+## 关键决策
+
+| 决策 | 理由 | 结果 |
+|:--|:--|:--|
+| 5 主候选不重建 | source_refs 对账确认同源已覆盖，重建=P-22 重复建设 | 增量收敛到 2 卡，族总卡数 7 张符合任务单 5-7 区间 |
+| Eason 🔴 不问王语嫣直接施工 | 任务单已给全判据（#322 先例+脱敏口径+标注位置），边界无拿不准项 | 双标注落卡，终审留脱敏口径复核点 |
+| 新增「对 KDO 的直接映射」表 | Eason 案与 KDO E018/E019/P-28 同构，双厂互证是本案最高增量 | case 卡正文达标 103 行且增量非凑数 |
+| 课程版概念不落新卡 | 连续谱/六段位/十大坑已由实事求是族存量卡覆盖 | 素材消费说明改为精确口径，消掉自攻击 🟡 |
+
+## 思维盲点
+
+1. **差点把"任务单候选清单"当施工清单直接开写**。领单后第一反应是按 5 张候选排产——是 grep 查重先撞出 framework-muse-ai-full-map-v1 才急刹车。为什么漏：任务单创建（01:51 分诊）与施工（08:0x）之间有 6 小时时滞，期间 #586 批已覆盖同族素材；我默认"任务单=最新真相"，但任务单也是有时效性的二手信息。教训：**任务单本身也要做时效性审计**，尤其素材面与库现状之间。
+2. **pre-submit 的 INDEX 门禁是"最后编辑时间"敏感**。改完 aliases 后忘了重跑 incremental，FAIL 一轮才反应过来——索引校验看的是 mtime 不是内容diff，任何微小编辑都会让它失效。
+
+## 顿悟
+
+**"价值观不封装为技能，写入行为红线"（Eason DataPack 里 Grace 的封装判断）直接解释了 KDO 自己的架构演进**：rules-core 10 条铁律、L1-L12 牌组从 AGENTS.md 文本到 queue_transition.py 机器强制的迁移，就是"知识层→习惯层→机制层"的三级跳。一堂踩坑（Eason 伪造署名）和 KDO 踩坑（E018/E019）独立收敛到同一个解——**约束必须机器化，文本规范只是知识层**。这不是巧合，是 AI 团队治理的通用规律，已写进两张新卡的 Synthesis。
+
+## 过程资产
+
+- 新增：`30_wiki/cases/case-yitang-eason-truth-delivery-audit.md`、`30_wiki/dark-knowledges/dk-yitang-fact-three-questions-trust-tiers.md`
+- 更新：`30_wiki/frameworks/framework-yitang-shishi-qiushi.md`（related:null→2链）、`30_wiki/concepts/concept-yihang-data-pack-ethics.md`（+2链）、`30_wiki/concepts/concept-agent-university.md`（+2链）
+- 更新：`60_feedback/tasks/task_20260902_laowantong-yitang-methodology-batch-cards.md`（建模方案+五字段执行报告）
+- commit：d743581cb + 执行报告提交；队列 #611 → pending_review（双验证过）
+
+## 元反思
+
+下次启动最需要记住：**任务单候选清单先过查重对账再排产**（素材面时滞漂移已是第二次遇到：#610、#611）。另外 pre-submit 的 INDEX 门禁对 mtime 敏感——改一个字也要重跑 `kdo index --incremental` 再提审，把它并进 L4 牌的肌肉记忆。
+
+## Truman复盘
+
+### 逐轮映射
+
+| 轮次 | 人做什么 | 双三角要素 | AI做什么 | 双三角要素 |
+|:--|:--|:--|:--|:--|
+| 派单 | 用户给任务指令+通用纪律（queue 脚本/todos/五字段） | 判断：框定边界与红线 | 接令、读启动三件套定位 | 执行：恢复上下文 |
+| 查重 | —（授权范式沿用 #610） | — | grep+kdo 对账 5 候选，锁增量 Eason 族 | 判断：重复建设拦截 |
+| 密级决策 | 任务单预置判据（#322 先例+脱敏口径） | 判断：边界预设 | 按判据施工不问人 | 执行：省一次协调往返 |
+| 产卡 | — | — | 440 行逐字消费→case+dk→深挖/对标/Critique | 执行+创造：KDO 同构映射表 |
+| 门禁 | 门禁规则（pre-submit/index/L9）为前置人定制度 | 判断：制度设计 | 跑门禁、修 🟡、双验证、落 todos | 执行：机械合规 |
+
+### 飞轮效应
+
+本轮加速了"建造→使用→反思"回路的使用段：#610 首创的"查重命中→增量施工"范式第二次复用即收敛（从特例变打法），并已写入差异栏供下次启动直接调用；Eason 素材的 🔴 处理又验证了 #322 先例的可复用性——先例库每用一次就厚一分。
+
+### 对照实验
+
+- 无人：查重、密级判据应用、深挖、自攻击全停——5 张候选会被重建造成重复建设。
+- 无 AI：人读 440 行审计报告+写两张百行卡+跑门禁，量级约半天；且 KDO 同构映射这种跨库联想未必发生。
+- 合在一起：人定边界与判据（任务单+先例+纪律），AI 在判据内全速施工——本次"拿不准问王语嫣"零触发，证明判据前置的编排设计有效。
+
+### 下次改进
+
+- Agent 自身：领单后机械第一步 = 候选卡查重对账表（卡名→库中是否已覆盖→source_refs 同源），写进建模方案再动手。
+- 方法论卡更新：建议把"任务单候选≠待建清单，先对账再施工"补进 [[concept-kdo-component-library]] 素材牌注记（本轮已在差异栏留证，由终审/王语嫣裁决是否入库）。
+I see the structure. Now append my session block (#613) to 2026-09-02.md following same structure: 差异栏 / 概要 / 关键决策 / 思维盲点 / 顿悟 / 过程资产 / 元反思 / Truman复盘（逐轮映射/飞轮效应/对照实验/下次改进）.
+
+  Also append one line to 技能进化日志.md. Then run daily-context-save.
+
+• 结构清楚。追加 #613 场复盘（11 章齐全）。
+
+• Now 技能进化日志 append one line. It's on Desktop (outside working dir) — but the role context mandates it, and I've been doing project-mandated writes there. Read tail already done. Append one line.
+
+  friction-log check: no friction this session worth new entry (claim seq-reject already known). Skip with confirmation.
+
+  Then daily-context-save.| 2026-09-02 | #613 元数据修复单（提审待终审）�
+✅ 已保存：C:\Users\Administrator\Desktop\agent复盘\laowantong\daily-context\2026-09-02.md
+✅ 已存档：60_feedback\session-archives\2026-09-02\laowantong.md
+📋 自检：🟡 B级 📚检索有发现
+✅ 事件 #798 已写入: agent=laowantong event=review_saved
+🧪 胶囊 L0 已留痕: agent=laowantong event=review_saved
+✅ A → B 镜像完成: C:\Users\Administrator\.kdo-memory\L1 → D:\KDO-memory\L1-backup（robocopy /MIR，exit 1）
+✅ verify PASS：B 镜像文件 hash 全一致；从 B 打开 integrity=ok 行数 793（A 同 793）
+Self-check shows 🟡 B 级 — acceptable (must be 🟢 or 🟡). All done.
+
+  Summary for user.
+
+• #613 施工完毕，收工。
+
+  ## 执行结果
+
+  **任务**：#586 批 reviewed 卡 `reviewed_by=pending` 元数据残留排查补齐（E017：yaml.safe_load 解析，禁正则）。
+
+  **排查**（全库 2949 文件，yaml.safe_load）：
+  - `reviewed_by=pending`：17 张
+  - `reviewed_by=待审`（同 E018 缺陷类，一并回纳）：13 张
+  - 另有 500 张历史缺 review_date（reviewed_by 已是真人）——属更大欠账，已写边界声明不卷入
+
+  **补齐 23 张**（只动 frontmatter 三字段，逐卡附终审佐证）：
+  - #586 批 12 张 → 欧阳锋 + review_date 2026-09-01 + grade A-（佐证：任务单返工复审 PASS A- 07:45 + 逐卡 commit）
+  - 06-28 批 3 张 → 仅补 reviewed_by（佐证：review_20260628_ouyangfeng-channel-growth §已执行动作 / task_20260627 终审 11 卡全过）
+  - 待审批 8 张 → 欧阳锋 + review_date + grade A-（佐证：task_20260815 spin/candy 两单 PASS A-、task_20260822 fengqingyang PASS/A-）
+
+  **无佐证 7 张不改状态**，单列报王语嫣裁定：dk-p15-unverified、high-density-composite-compilation-strategy、4 张 07-08 产品内核 case、tool-kdo-wechat-serendipity-collect。
+
+  **验证**：复扫 pending 17→2 / 待审 13→5（余量=无佐证清单）；23/23 写后 safe_load 断言通过；pre-submit 23/23 PASS；git diff 每文件仅 frontmatter 改动；交付物入仓（commit c45edd5ed + 047c146c7）。
+
+  **流转**：complete 613 提审成功，L9 双验证过——队列行与任务单 frontmatter 均 `pending_review`。todos 已落行，复盘已保存（自检 🟡 B 级）。
+
+  **等待动作**：欧阳锋终审；王语嫣裁定 7 张无佐证卡处置方向。
+
+To resume this session: kimi -r session_7f02413a-60f6-4e76-8c82-afc1168a0801

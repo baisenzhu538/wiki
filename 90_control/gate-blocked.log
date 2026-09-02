@@ -523,3 +523,6 @@
 2026-09-02 08:15:25｜task_20260902_huangyaoshi-image-detail-deadloop-fix｜F-036-问题落点｜审查发现问题未给落点（F-036）：**缺陷**：无阻塞缺陷。微瑕（内容类观察，记录即可，无需动作）：交付物节将 `_tmp/` 日志列为路径——机器预审已——必须在意见书注明去向（建议书路径 / 停｜欧阳锋
 2026-09-02 08:27:21｜task_20260902_laowantong-yitang-methodology-batch-cards｜F-034-五字段｜--evidence 文件不可读: 60_feedback/tasks/task_20260902_laowantong-yitang-methodology-batch-cards.md 五字段执行｜laowantong-kimi
 2026-09-02 08:48:50｜task_20260902_laowantong-yitang-methodology-batch-cards｜F-035-负向判词｜意见书含负向断言（缺失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋
+2026-09-02 09:32:01｜role-liveness｜fengqingyang 全实例疑似死亡（stale: [('kimi-cli', 1836.1)]）｜role_registry check-liveness｜role_registry
+2026-09-02 09:47:40｜task_20260902_huangyaoshi-gate-suite-fixes｜F-035-负向判词｜意见书含负向断言（「未来扩词需同步」）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋
+2026-09-02 09:48:05｜task_20260902_laowantong-586batch-reviewedby-residue-fix｜F-035-负向判词｜意见书含负向断言（缺失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋

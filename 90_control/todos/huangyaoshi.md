@@ -380,3 +380,4 @@
 - [2026-09-02 09:02] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
 - [2026-09-02 09:17] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
 - [2026-09-02 09:24] ✅ #612 门禁顺手套件双修 complete 提审：F-036否定语境豁免(前挂词正则剔除+报错文案提示)+review pass交付卡review_mark转正提醒(只提醒不代写)+回归9条/全套214passed+矩阵行3/7同步（代码随09:20 vault backup入仓149c5bd1d）
+- [2026-09-02 09:32] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#612（huangyaoshi 的单，挂审 9min）（到点（节奏 15min））

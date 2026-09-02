@@ -161,3 +161,5 @@
 - [2026-09-02 08:57] ✅ KDO 终审通过 1 单：#611——你的单过了，见任务单终审记录
 - [2026-09-02 09:02] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
 - [2026-09-02 09:17] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-02 09:32] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#612（huangyaoshi 的单，挂审 9min）（到点（节奏 15min））
+[2026-09-02 09:34] 📤 #613 完成施工并提审（pending_review 等欧阳锋）：全库2949文件yaml.safe_load扫描（E017合规），reviewed_by残留30张（pending17+待审13）→23张有终审佐证已补齐（#586批12张+0628批3张+待审批8张，仅动frontmatter三字段）+7张无佐证不改状态单列报王语嫣裁定；复扫pending17→2/待审13→5（余=无佐证清单）；pre-submit 23/23 PASS；交付物入仓commit 047c146c7+c45edd5ed；报告+机读json+复跑脚本落60_feedback/tasks/task_20260902_laowantong-586batch-reviewedby-residue-fix/
