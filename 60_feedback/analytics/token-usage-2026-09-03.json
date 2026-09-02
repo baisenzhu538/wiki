@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-03",
+  "collected_at": "2026-09-03T02:07:58",
+  "usage": {
+    "hermes": {
+      "laowantong": {
+        "input": 355371,
+        "output": 77925,
+        "cache_read": 28422336,
+        "cache_write": 0
+      },
+      "skills-assistant": {
+        "input": 86930,
+        "output": 28520,
+        "cache_read": 5742848,
+        "cache_write": 0
+      },
+      "wangyuyan": {
+        "input": 84429,
+        "output": 13768,
+        "cache_read": 1310208,
+        "cache_write": 0
+      }
+    }
+  }
+}

@@ -465,3 +465,4 @@
 [2026-09-03 01:41] ✅ #628 备份互撞防护 complete 提审：机制层=备份前活动会话双信号检测（registry非platform心跳≤20min逐实例+agent CLI进程路径过滤，kimi-desktop/hermes网关排除）有则SKIPPED留痕rc=0；纪律层=拉起模板备份避让行（节拍按实况:20/:50）；回归=守卫用例+5，gate文件10passed+全量482passed/0failed，活体实证01:37:27零commit在制品原样；⚠️发现=01:38:12孤儿backup commit（545bd0f5a）旧代码路径收走本单工作（内容安全已核最终版），源未锁定已上建议书 diag_20260903_huangyaoshi-backup-orphan-source；工作落HEAD=545bd0f5a，待欧阳锋终审
 - [2026-09-03 01:47] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#627（huangyaoshi 的单，挂审 14min）；#628（huangyaoshi 的单，挂审 6min）（到点（节奏 15min））
 - [2026-09-03 01:57] ✅ KDO 终审通过 1 单：#627——你的单过了，见任务单终审记录
+- [2026-09-03 02:02] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#628（huangyaoshi 的单，挂审 21min）（到点（节奏 15min））

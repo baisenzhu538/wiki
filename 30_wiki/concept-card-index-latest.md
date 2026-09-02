@@ -1,4 +1,4 @@
-# Concept Card Index — 2026-09-01 18:07 UTC
+# Concept Card Index — 2026-09-02 18:07 UTC
 
 | ID | Title | Type | Domain |
 |---|---|---|---|
@@ -998,6 +998,7 @@
 | tool-four-line-review | 四行复盘法 | tool | innovation |
 | tool-funnel-formula-modeling | 漏斗图/公式建模法：量化流程与关键变量 | tool | modeling |
 | tool-game-environment-checklist | 博弈环境自检清单：制度面向未来 | tool | management |
+| tool-geo-ai-search-visibility-playbook | GEO 实操一页纸——让品牌成为 AI 可点名实体的七步基础设施 | tool | sales, content |
 | tool-google-dorking | Google Dorking：高级搜索语法——挖出搜索引擎的隐藏信息 | tool | research |
 | tool-harness-adversarial-tester | 对抗测试员：成功标准是"找到bug" | tool | ai-collaboration |
 | tool-iceberg-triangle-modeling | 冰山图/三角图建模法：从表象深挖结构与本质 | tool | strategy |
@@ -1235,6 +1236,7 @@
 | tool-yitang-industry-channel-arsenal-index | 24 行业获客清单索引：跨行业渠道灵感库 | tool | growth |
 | tool-yitang-industry-report-search | 行业报告搜索：拓宽关键词+多平台交叉 | tool | research |
 | tool-yitang-ipo-annual-report-cheat-sheet | 上市公司报告价值Cheat Sheet：创业各阶段该读什么 | tool | research |
+| tool-yitang-jiangxiang-launch-copywriting-arsenal | 工具：华为/苹果/小米发布会文案最佳实践库——十策略×三品牌的 300+ 条武器谱 | tool | content, sales |
 | tool-yitang-job-intelligence-research | 招聘渠道情报：五层递进挖掘竞对内部信息 | tool | research |
 | tool-yitang-listening-37-rule | 阿里铁军聆听三七法则执行卡 | tool | sales, business-strategy |
 | tool-yitang-method-ab-sides-checklist | 创业方法 AB 面清单：对立金句的适用场景判断 | tool | decision-science |
@@ -2005,6 +2007,7 @@
 | case-panproduct-yitao-project-background | 案例：一淘项目背景与三大难题 | case | product, design |
 | case-personal-map-modeling | 案例：一堂个人地图的完整建模过程（方法论视角） | case | content, master |
 | case-popmart-brand-sensory-wrap | 案例：泡泡玛特品牌感官包裹感——盖住logo也认得×门店如教堂×唱片公司模式 | case | strategy |
+| case-popmart-molly-transition | 案例：泡泡玛特 MOLLY 诞生——代理权受制到自有 IP 的「掀桌子」转型 | case | strategy |
 | case-popmart-prospectus-pricing | 案例：泡泡玛特招股书——IP产品毛利率60-70% | case | research |
 | case-private-board-conversion-skincare | 转化率私董会实录：古法护肤祛斑项目的动力/阻力/触点三轮共创与幕僚收敛（脱敏版） | case | conversion-rate |
 | case-private-domain-ecommerce-formula | 私域电商 10W 人社群：从"拉人发广告"到"信任 × 用户升级路径" | case | e-commerce, business-strategy |
@@ -2073,6 +2076,7 @@
 | case-truman-poker-deck-roi | 扑克牌案例：同样的任务，两个同学评估结果截然相反 | case | content, kdo |
 | case-truman-praise-wall-precondition | 案例：Truman 赞美墙——用"积极情绪前置"为深度工作预热场景质量 | case | time-management |
 | case-truman-prd-checklist-evolution | Truman的PRD清单进化：从被领导反复打回到'不再二错'——半年赶上三四年PM水平 | case | content |
+| case-truman-roi-decision-spring-festival-class | Truman 科学决策 ROI 搭档案例——春节 14 天要不要硬加一节课的六阶段决策全程 | case | decision-making, ai-collaboration |
 | case-truman-sales-report-structure | 案例：Truman 重构销售失利汇报——把 10 个散点升级成逻辑链 | case | 工作汇报, 复盘结构化 |
 | case-truman-shower-toilet-ideation | 案例：Truman 洗澡/厕所灵感爆发——暗时间如何在"脑力CPU不饱和"时产出高价值创意 | case | time-management |
 | case-truman-spring-festival-1000 | Truman 案例：春节闭关 10 天口喷 1000 条（占比 10%→80%+，口喷变默认选项） | case | ai-collaboration |
@@ -2176,6 +2180,7 @@
 | case-yitang-doorstep-pet-feeding-trust | 案例：上门宠物喂养——用调研解决信任障碍 | case | research |
 | case-yitang-double-triangle-confidence | 案例：一堂把双三角模型变成 AI 难题的通用解题底盘 | case | ai-collaboration, content, decision-making, master, strategy |
 | case-yitang-du-kids-education-sabc | 杜同学儿童教育：年龄×成绩×陪同家长三维切 SABC，发现"妈妈能拍板、老人最弱" | case | business-formula |
+| case-yitang-eason-truth-delivery-audit | 一堂 Eason 文化审计案——AI Agent 伪造署名交付的完整审计与处理实录 | case | kdo, ai-collaboration |
 | case-yitang-education-supply-chain | 案例：一堂是'教育供应链创新公司'——从真实实践里种菜、摘菜、炒菜 | case | modeling, education |
 | case-yitang-elderly-home-roleplay | 案例：假扮家属潜入养老院微信群 | case | research |
 | case-yitang-fake-interview-intelligence | 案例：假扮面试发现行业红利退潮 | case | research |
@@ -2190,6 +2195,7 @@
 | case-yitang-innovative-metrics-collection | 创新参数与动作案例集：把"没被命名过的率"挖出来——鞋店连带率、伸手接传单率、进会议室率、夸孩子率与一堂自定义参数群 | case | business-formula |
 | case-yitang-jiangxiang-12-practices | 讲香 12 学员实战案例集——十策略从发布会到朋友圈成交的落地光谱 | case | content, sales |
 | case-yitang-jiangxiang-cli-three-versions | CLI三版话术：技术产品从读天书到万能插座 | case |  |
+| case-yitang-jiangxiang-huawei-matext-launch | 案例：华为 MateXT 非凡大师发布会双拆解——十指讲香全指齐动的教科书样本 | case | content, sales |
 | case-yitang-jiangxiang-scene-montage | 场景化蒙太奇：王牌书12.0/探月夏令营/复盘营200期 | case |  |
 | case-yitang-jiangxiang-tianmu-balcony | 天幕阳台：同一产品40分vs90分A/B对照 | case |  |
 | case-yitang-jtbd-story-formula | 案例：JTBD故事公式——从用户故事中提取需求 | case | research |
@@ -2642,6 +2648,7 @@
 | dk-yitang-case-before-after | Before-After 对比心法：四维度 + 过去往往有合理性 | dk | content-production |
 | dk-yitang-case-crafting-pitfalls | 案例打磨五大失败模式：空/散/浅/听不进/包装感 | dk | content-production |
 | dk-yitang-channel-exploration-traps | 渠道探索常见陷阱：18 万字共建作业里的血泪教训 | dk | growth |
+| dk-yitang-fact-three-questions-trust-tiers | AI Agent 交付的实事求是暗知识——事实三问法、署名真实性与信任等级制 | dk | kdo, ai-collaboration |
 | dk-yitang-innovation-failure-modes | 解放思想六大失败模式 | dk | innovation |
 | dk-yitang-methodology-stack-fallacy | 方法论金句堆叠乱用，不如不懂 | dk | decision-science |
 | dk-yitang-over-abstraction | 过度抽象无法指导工作，就失去意义 | dk | decision-science |

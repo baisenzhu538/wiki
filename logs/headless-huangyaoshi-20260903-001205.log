@@ -1925,3 +1925,83 @@ No new instructions in todos. My queue: #622, #625 待终审； #620, #623 queue
   - 2 个预存测试失败已被 00:50 场各自落建议书，混编 commit 问题也已落建议书待编排——都不需我动作
 
   至此四单全闭环：#620 / #622 / #623 / #625 全 PASS A-。队列可领 0、待终审 0，无事施工，继续 15min 巡航待命。
+
+- [2026-09-03 01:17] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-03 01:17] ✅ KDO 终审通过 2 单：#623, #625——你的单过了，见任务单终审记录
+- [2026-09-03 01:27] 📥 KDO 可领取 1 单：#628
+# role=huangyaoshi · 任务路由（#472 只读视图，不动状态机）
+✅ 可领 1:
+  #628 task_20260903_huangyaoshi-backup-worktree-collision-guard — vault backup×在制品互撞防护：备份前活动会话检测（有则跳拍留痕）+拉起模板禁s
+⏸ 等依赖 0:
+  (无)
+🧊 冻结 0:
+  (无)
+🚧 进行中 1:
+  #627 task_20260903_huangyaoshi-infra-registry-and-archive-test-fix — 基建总表补登记6资产（回归持续红清零）+queue-archive月界漂移修复（口径②按任
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 11:
+• New: #628 可领. #627 进行中 (claimed — by whom? Probably another huangyaoshi instance). Check if #627 is claimed by another instance — "进行中 1" means claimed by someone. If it's claimed by huangyaoshi-kimi (me), that'd be odd since I didn't claim it. Check queue row/status. Also #628 is claimable — but #504 blocks claiming while pending_review exists; there are 0 pending_review, so I can claim #628.
+
+  Wait — should I claim #628? The cron prompt says "有事施工无事待命". Queue order says #628 is 可领. If #627 is being worked by another instance, I take #628. Let me check #627's claimant and #628's task file.627 claimed-huangyaoshi huangyaoshi
+628 queued huangyaoshi
+#627 is claimed by another huangyaoshi instance (claimed-huangyaoshi — the 00:50/01:20 session, no -kimi suffix since #620 naming change). #628 is queued for me. #504: no pending_review → can claim. This task is directly about the collision I experienced. Claim and work it.
+
+  Task:
+  1. vault_git_backup.py: before backup, detect active agent sessions (role_registry heartbeat or running headless processes); if active → skip this tick with a logged "skipped" line.
+  2. kimi-headless-launch.py 拉起模板 add a discipline line about backup beats :02/:32 ±5min no stash/worktree ops; long-task isolation via git worktree.
+  3. Regression: simulate active session → backup skips.
+
+  Let me look at role_registry and kimi-headless-launch.py.你（实例 huangyaoshi-kimi / 同角色）还有 claimed 任务未释放：#627 task_20260903_huangyaoshi-infra-registry-and-archive-test-fix。必须等它们释放后才能领取 task_20260903_huangyaoshi-backup-worktree-collision-guard
+Claim blocked: #627 is claimed by "huangyaoshi" (same role, another instance — the headless 00:50 session). The gate treats same-role claimed as blocking. Options: --force with reason (parallel task, different scope). #627 is infra-registry fix; #628 is backup collision guard — different files mostly (queue_transition tests vs vault_git_backup). But #628 touches vault_git_backup.py and kimi-headless-launch.py; #627 touches registry + queue_archive tests. Non-overlapping.
+
+  However — is #627 actively being worked on by the other instance right now? The 01:20 todos line said "会话收尾" — that session ended. Did it release #627? Status still claimed-huangyaoshi. If that session ended without completing, #627 may be orphaned... Not my call to force-release someone else's claim. But the other session's closing note said "3 建议书上板待王语嫣" and session 收尾 — did it abandon #627 mid-work? Line said "#623 已提审待终审" and收尾. #627 claimed at some point by that session and left claimed.
+
+  Careful: don't hijack. The user's original instruction scope was #622 rework + #625, both done. The cron prompt says "有事施工无事待命" — #628 is claimable but blocked by same-role claimed #627. Using --force to grab #628 while another instance holds #627 risks collision (two huangyaoshi instances working). But the other instance seems to have ended its session.
+
+  Conservative choice: don't force. Report standby with the blockage noted — #628 blocked by #627 (held by another huangyaoshi instance whose session已收尾）. That's a queue state for 王语嫣/欧阳锋 to see; or note it. Actually wait — if the other session ended, #627 will sit claimed forever until someone notices. That's worth flagging. But is it my place? I can note it in the response; the 15min 叫醒 lines already surface 挂审 details. Hmm, the "进行中" #627 will be visible.
+
+  Actually, let me reconsider: the force-exception channel exists for exactly this ("不同 assignee 的并行任务" / 急单）. Same-role parallel claim with --force --reason is a legitimate, ledgered path. #628 came from MY pain point and is small. But B4/dependency: #627 touches test files (queue_archive tests + registry) and #628 touches vault_git_backup.py + its tests + kimi-headless-launch.py. Parallel safe.
+
+  But is the other instance truly done? The 01:20 line reads like a session-closing entry. If #627 is orphaned mid-claim, the right move per factory norms... check #627 task file for progress/execution report to judge.5:status: in_progress
+12:updated_at: '2026-09-02T17:25:28.298507+00:00'
+19:infrastructure-inventory.md 补登记：transcribe_win / vault_git_backup / clock_watchdog / kimi-headless-launch / vault-integrity-check / wiki-vault-restore（§1/§3 对应族格式：位置/职责/最近验证/关联）。登记后 test_infra_status 覆盖测试复绿 + 总览计数同步校正。
+27:- 登记 diff + 两测试复绿全量回归原样输出（#618 纪律）+ 执行报告
+===
+2026-09-03 01:25:28.300507000
+Thu Sep  3 01:32:13     2026
+#627 was claimed at 01:25 (7 min ago) by the other instance (updated_at 17:25 UTC = 01:25 local), status in_progress, no execution report yet — actively being worked on, not orphaned. So #628 correctly waits. Nothing for me: standby. Update todos and report.
+
+• 无新单可领，待命。
+
+  - **#628**（backup×在制品互撞防护——正是我这会话踩的坑立的单）在队列可领，但同角色 **#627**（infra 登记+测试债修复）01:25 刚被另一 huangyaoshi 实例 claim 在制，门禁正确拦截并行领取
+  - 不用 force 插队：#627 是活 claim（7 分钟前），不是孤儿
+  - 我的四单（#620/#622/#623/#625）全 PASS A- 闭环，待终审 0
+
+  下一拍再看：#627 释放后领 #628。
+
+- [2026-09-03 01:32] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+[2026-09-03 01:33] ✅ #627 基建登记6资产+月界测试修复 complete 提审：①总表§3+5行/§3b+1行登记（最近验证全实证）+§0工具族42重计 ②queue-archive口径②按任务日期归月+fixture动态日期化（跨月补跑不串月）；验证=test_infra_status 8passed+test_queue_archive 3passed+全量回归477passed/0failed（基线2红清零其余原样）+真实dry-run 23候选全归[2026-08]；commit af0aca9ae；五字段+存在性核查锚点已落任务单，待欧阳锋终审
+[2026-09-03 01:41] ✅ #628 备份互撞防护 complete 提审：机制层=备份前活动会话双信号检测（registry非platform心跳≤20min逐实例+agent CLI进程路径过滤，kimi-desktop/hermes网关排除）有则SKIPPED留痕rc=0；纪律层=拉起模板备份避让行（节拍按实况:20/:50）；回归=守卫用例+5，gate文件10passed+全量482passed/0failed，活体实证01:37:27零commit在制品原样；⚠️发现=01:38:12孤儿backup commit（545bd0f5a）旧代码路径收走本单工作（内容安全已核最终版），源未锁定已上建议书 diag_20260903_huangyaoshi-backup-orphan-source；工作落HEAD=545bd0f5a，待欧阳锋终审
+# role=huangyaoshi · 任务路由（#472 只读视图，不动状态机）
+✅ 可领 0:
+  (无)
+⏸ 等依赖 0:
+  (无)
+🧊 冻结 0:
+  (无)
+🚧 进行中 0:
+  (无)
+⏳ 待终审 2:
+  #627 task_20260903_huangyaoshi-infra-registry-and-archive-test-fix — 基建总表补登记6资产（回归持续红清零）+queue-archive月界漂移修复（口径②按任
+  #628 task_20260903_huangyaoshi-backup-worktree-collision-guard — vault backup×在制品互撞防护：备份前活动会话检测（有则跳拍留痕）+拉起模板禁s
+• The other instance finished both #627 and #628 (both pending_review now). So #628 was taken and completed by that instance. Nothing claimable. Standby.
+
+• 无事施工，待命。
+
+  另一实例已连下两城：**#627、#628 均 complete 提审**（含 #628 备份互撞防护——我踩的坑已被它闭环，还顺手抓到一个孤儿 backup commit 源上了建议书）。
+
+  - 待终审 2（#627/#628），可领 0
+  - 我的四单全闭环，无在制无待办
+
+  继续巡航，有终审结果或新单再动。
