@@ -2638,3 +2638,24 @@ warning: in the working copy of 'kdo-tools/tests/test_backup_signals_631.py', LF
   #631 task_20260903_huangyaoshi-orphan-backup-source-hunt — 孤儿backup触发源追查（01:38非节拍收走在制品）+探针非节拍检测信号+守卫SKIP
 ⚖️ 最近终审（48h） 13:
 • 待命。#631 挂审约 25min，无新指令。继续巡航。
+
+- [2026-09-03 03:02] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无�
+- [2026-09-03 03:17] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无�
+# role=huangyaoshi · 任务路由（#472 只读视图，不动状态机）
+✅ 可领 0:
+  (无)
+⏸ 等依赖 0:
+  (无)
+🧊 冻结 0:
+  (无)
+🚧 进行中 0:
+  (无)
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 14:
+• 待终审 0 — #631 was reviewed. Check verdict.
+
+• #631 已出审，查结果。  #631 task_20260903_huangyaoshi-orphan-backup-source-hunt — ✅PASS A-（2026-09-02）
+Verdict**：PASS，等级 **A-**。
+
+
