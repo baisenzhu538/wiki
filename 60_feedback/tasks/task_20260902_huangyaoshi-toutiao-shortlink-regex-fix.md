@@ -2,12 +2,14 @@
 id: task_20260902_huangyaoshi-toutiao-shortlink-regex-fix
 title: 头条短链 is/XXX 形态正则漏配导致采集链断（老朱 09-02 20:09 链接卡死实证）——一行修复
 seq: 621
-status: queued
+status: in_progress
 assignee: huangyaoshi
 created_by: wangyuyan
 created_at: 2026-09-02
 decision_source: 老朱 09-02 晚问「链接为什么没走工作流」→ 王语嫣实测定位正则漏配（采集链断点，线上在流血）
 reviewer: 欧阳锋
+instance: huangyaoshi-kimi
+updated_at: '2026-09-02T15:12:36.361500+00:00'
 ---
 
 # #621 头条短链正则修复（黄药师，急单）

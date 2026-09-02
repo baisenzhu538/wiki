@@ -252,7 +252,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 618 | `task_20260902_huangyaoshi-kdo-tests-flake-governance` | KDO测试flake治理：test_cli_smoke断言对齐现行schema+test_dashboard_server顺序依赖解耦+全量回归原样输出 | reviewed | huangyaoshi | 两处修复diff+全量回归输出 | 无 | `60_feedback/tasks/task_20260902_huangyaoshi-kdo-tests-flake-governance.md` | 欧阳锋建议书（09-02王语嫣漏扫9h后补裁定，E052复盘）；提审数字原样纪律随单生效；欧阳锋终审 |
 | 619 | `task_20260902_huangyaoshi-watch-inbox-pipeline-dirs-fix` | watch_inbox扫描面回补管线落点子目录白名单（wechat-collect/video_transcripts/video_transcripts_small）——#605裁剪误伤，05:47四件静默漏登记实证 | pending_review | huangyaoshi | diff+实跑登记证据 | 无 | `60_feedback/tasks/task_20260902_huangyaoshi-watch-inbox-pipeline-dirs-fix.md` | 老朱09-02问采集链→王语嫣实测发现第二环断；Handle等大目录继续排除；欧阳锋终审 |
 | 620 | `task_20260902_huangyaoshi-instance-naming-role-only` | 实例命名铁律落地：拉起器/状态机实例名去工具后缀（{role}-kimi→{role}），过渡期兼容在途旧名 | queued | huangyaoshi | diff+回归实证 | #619 收口后（防在途单锁失配） | `60_feedback/tasks/task_20260902_huangyaoshi-instance-naming-role-only.md` | 老朱09-02直令铁律（工具可换名字不挂工具）；queue_transition兼容旧名尾缀；欧阳锋终审 |
-| 621 | `task_20260902_huangyaoshi-toutiao-shortlink-regex-fix` | 头条短链is/XXX形态正则漏配致采集链断（老朱09-02 20:09链接卡死实证）——一行修复+端到端实跑验证 | queued | huangyaoshi | diff+该链接落inbox实证 | 无（急单插队：线上在流血） | `60_feedback/tasks/task_20260902_huangyaoshi-toutiao-shortlink-regex-fix.md` | 老朱09-02晚问链接→王语嫣实测定位；失败不记seen设计保留；欧阳锋终审 |
+| 621 | `task_20260902_huangyaoshi-toutiao-shortlink-regex-fix` | 头条短链is/XXX形态正则漏配致采集链断（老朱09-02 20:09链接卡死实证）——一行修复+端到端实跑验证 | claimed-huangyaoshi-kimi | huangyaoshi | diff+该链接落inbox实证 | 无（急单插队：线上在流血） | `60_feedback/tasks/task_20260902_huangyaoshi-toutiao-shortlink-regex-fix.md` | 老朱09-02晚问链接→王语嫣实测定位；失败不记seen设计保留；欧阳锋终审 |
 
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
