@@ -224,3 +224,4 @@
 - [2026-09-02 23:47] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
 - [2026-09-03 00:07] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
 - [2026-09-03 00:22] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#622（huangyaoshi 的单，挂审 3min）（到点（节奏 15min））
+[2026-09-03 00:29] 📤 #624 完成生产并提审（pending_review 等欧阳锋）：Candy课后加餐增量补产——Live260 ROI搭档查重命中方法层已由#586双卡覆盖，增量=春节14天加课决策完整案例轨迹→产case-truman-roi-decision-spring-festival-class（六阶段全程+关键数字+证据表+Simon/Duke双攻击Critique，源文3次「仅限内部不要外传」按#322/#586/#611先例双标注脱敏）；探索营548行逐字复核：谢翼MemPalace段已由method-obsidian-km-camp覆盖+该卡明言GEO/半肥猫另属题材，GEO一页纸=真增量→产tool-geo-ai-search-visibility-playbook（七步+7坑+arXiv:2311.09735学术锚点，源文件grep零传播限制不触发密级标注），半肥猫路演层判微增量不足成卡（证据落执行报告：P1-P8仅标题级+三点启发与存量卡重叠对账）；4存量卡反向补链双向0死链；pre-submit双PASS（55/100，WARNING均#542提示制）+自攻击🔴0🟡1（六阶段同名异义已核对）+index增量4180；commit f5dfb8acf+354d33e72；L9双验证过（队列行+frontmatter均pending_review）

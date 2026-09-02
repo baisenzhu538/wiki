@@ -114,3 +114,5 @@ updated_at: 2026-08-09
 | 2026-09-02 12:10 | 老顽童 | #615 complete 提审 | `--evidence` 只收文件路径不收内联文本，第一把传字符串被拒不读；另 review_mark.py 中文 --reviewer 参数 console 回显乱码（GBK）但落盘 UTF-8 正确 | 初判：脚本契约看 --help 再调；显示层≠落盘层，验证一律看文件不看回显 |
 | 2026-09-02 13:00 | laowantong | #617 降级卡返工提审 | ①QUOTE_VERBATIM 检查器跨段交替配对：同段两对引号把中间文本误判为伪引文（卡14两次、卡12一次）；②source_refs 带 #锚点（.agent/pitfalls.md#P-15）致 SOURCE_REACHABILITY 误报不可达；③queue_transition complete --evidence 只收文件路径不收内联文本（报错信息未说明） | ①②检查器启发式局限（#616 WARNING 档，建议上浮黄药师调参）；③脚本 UX |
 - [2026-09-02 22:10] huangyaoshi / #618 complete 提审 / 首次 complete 被 E040 交付物入仓门禁打回：交付物节内 KDO 仓路径未带全路径前缀且未 commit / 根因初判：凭旧流程记忆操作，门禁报错即文档，应首读报错再动作
+
+[2026-09-03 00:35] laowantong｜#624 complete 提审｜--evidence 传了文本串被报「文件不可读」，grep 源码才知是文件路径参数｜根因初判：凭直觉猜 CLI 参数形态未跑 --help（且该脚本 --help 输出残缺是二阶诱因）

@@ -571,3 +571,4 @@
 2026-09-02 23:47:01｜prop_20260902_ouyangfeng-complete-gate-uncommitted-deliverables.md｜near-miss-三元组（#506）｜type: proposal 但三元组不完整：缺 audience｜conveyor_probe
 2026-09-03 00:19:12｜task_20260902_huangyaoshi-graph-index-rebuild-sentinel｜F-034-五字段｜--evidence 文件不可读: rework收口commit 705f947b1：P0入仓实证（20ac959eb已扫入conveyor_probe.py+测试+matrix行27+派生哈希，gi｜huangyaoshi-kimi
 2026-09-03 00:22:00｜role-liveness｜fengqingyang 全实例疑似死亡（stale: [('kimi-cli', 2726.1)]）｜role_registry check-liveness｜role_registry
+2026-09-03 00:29:05｜task_20260902_laowantong-candy-bonus-increment-cards｜F-034-五字段｜--evidence 文件不可读: 2新卡(case-truman-roi-decision-spring-festival-class双标注+tool-geo-ai-search-visibilit｜laowantong-kimi

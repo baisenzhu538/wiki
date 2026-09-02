@@ -47,3 +47,17 @@ kdo-tools/.feishu_webhooks.json
 40_outputs/capabilities/skills/.registry-last-scan
 # P0 凭据隔离区（#600，2026-09-02）——凭据一律不入 git
 90_control/.sandbox/quarantine-*/
+
+# ── #625 大文件门禁第一层（2026-09-03）────────────────────────
+# 背景：391MB zip 混入提交 → GitHub 100MB 硬限断 push 3 个月、5826 commits 积压（2026-09-02 实证）。
+# 口径：采集管线大产物（视频/明细 json/压缩包）一律不进 git——知识已提炼进 30_wiki，
+#       明细属管线中间产物；压缩包是"备份的备份"，双份占历史。
+# 注意：gitignore 只管新增——已跟踪存量不受影响（存量处置归 #625 清单，不动文件）。
+# 确需入库的例外（白名单机制）：在本块下加 `!<路径>` 豁免行，注释写明批准人（王语嫣/老朱）。
+10_raw/assets/wechat-collect/*.mp4
+60_feedback/wechat-collect/**/*.mp4
+10_raw/itingnao/details/*.json
+*.zip
+*.tar
+*.tar.gz
+*.7z

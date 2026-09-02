@@ -543,4 +543,823 @@ Interesting — production-queue.md is not modified? queue_transition said dashb
 483:- ~~#622 task_20260902_huangyaoshi-graph-index-rebuild-sentinel｜huangyaoshi｜提审 09-02 23:36｜60_feedback/tasks/task_20260902_huangyaoshi-graph-index-rebuild-sentinel.md~~ → 终审退回 queued（2026-09-02 欧阳锋）
 484:- #622 task_20260902_huangyaoshi-graph-index-rebuild-sentinel｜huangyaoshi｜提审 09-03 00:19｜60_feedback/tasks/task_20260902_huangyaoshi-graph-index-rebuild-sentinel.md
 Queue row updated to pending_review, but git doesn't show production-queue.md as modified — maybe line endings or it's covered by assume-unchanged? `git diff --stat` returned nothing. Maybe the file is in .gitignore? Unlikely. Or maybe git status shows it under a different name (Chinese encoding). Actually earlier `git status --short` output (first call) included "70_product/tasks/production-queue.md"? No it didn't. Weird. Let me check `git check-ignore` and `git ls-files -v` for the file.H 70_product/tasks/production-queue.md
-`git ls-files -v` shows "H" = cached, normal. No diff vs HEAD? But row shows pending_review while HEAD had queued... Maybe HEAD already had pending_review? Earlier
+`git ls-files -v` shows "H" = cached, normal. No diff vs HEAD? But row shows pending_review while HEAD had queued... Maybe HEAD already had pending_review? Earlier grep at the start (before my claim) showed row 256 as "queued". And HEAD was 20bd9c763 vault backup 00:12. Did the 00:12 backup commit include queued state; then my claim/complete changed to pending_review — that should show as modified. Unless... core.fileMode or the diff is filtered. Let me run `git status --short 70_product/tasks/production-queue.md` and `git diff -- 70_product/tasks/production-queue.md | head`.| 622 | `task_20260902_huangyaoshi-graph-index-rebuild-sentinel` | graph_index归零重建（08-31事故清空，语义腿空转2天）+健康哨兵�
+No porcelain output, no numstat diff — meaning working tree == HEAD for that file. And HEAD's row 256... let me see the status field in HEAD's row. The cut truncated before status. Check HEAD row status. 622   pending_review 
+HEAD already has pending_review — meaning my claim/complete happened, then a vault backup cron committed at some point? No — HEAD is 20bd9c763 from 00:12:24, before my complete (00:19). Unless a new backup commit just ran and HEAD moved. Check git log -1.5864b51d9 vault backup: 2026-09-03 00:20:00
+6d2fef8e2 chore(queue): #622 complete by huangyaoshi-kimi
+0590ab1b2 chore(queue): #622 claim by huangyaoshi-kimi
+commit 5864b51d9881322d07e3226f45e48cd5f4161cb5
+Author: Linhai Zhu <baisenzhu538@gmail.com>
+Date:   Thu Sep 3 00:20:00 2026 +0800
+
+    vault backup: 2026-09-03 00:20:00
+
+ ...60902_laowantong-candy-bonus-increment-cards.md |   15 +
+ 90_control/gate-blocked.log                        |    1 +
+ 90_control/role-registry.json                      |    4 +-
+ 90_control/scripts/.derived-hashes.json            |    2 +-
+ 90_control/todos/huangyaoshi.md                    |    1 +
+ .../859c4003f9603ed59beab38b2066169e.json          |    1 +
+ .../a77c6b43c03d13cc020e98868062d119.json          |    1 +
+ kdo-tools/listitem_extract.cjs                     |  114 +
+ kdo-tools/live86_template_code.txt                 |  988 ++++++++
+ kdo-tools/live86candy_clean.json                   | 2632 ++++++++++++++++++++
+ logs/conveyor-probe.log                            |    7 +
+ logs/headless-huangyaoshi-20260903-001205.log      |  546 ++++
+ logs/headless-laowantong-20260903-000821.log       |  882 +++++++
+ logs/role-clock.log                                |    1 +
+ 14 files changed, 5192 insertions(+), 3 deletions(-)
+queue_transition.py itself made chore commits (0590ab1b2 claim, 6d2fef8e2 complete) and the vault backup cron committed the rest. All clean. #622 rework done: pending_review.
+
+  Now append the todos line for #622 rework, then claim #625 and read its task file.
+
+• #622 重提完成（队列 chore 提交 + 定时备份均已落仓）。补 todos 台账，然后领 #625。- [2026-09-03 00:17] 📥 KDO 可领取 1 单：#625
+- [2026-09-03 00:21] ✅ #622 返工收口重提审：P0入仓实证（20ac959eb已含哨兵代码+测试+matrix行27+派生哈希，HEAD与工作区一致）+P1存在性核查节补位（11命中逐一核查负向判词成立）→ 返工记录节落任务单（commit 705f947b1），complete重提 pending_review 待欧阳锋终审
+
+
+你（huangyaoshi）还有 pending_review 任务待欧阳锋终审：#622 task_20260902_huangyaoshi-graph-index-rebuild-sentinel。审查等待期不接新单（#504）——等终审后再领取 task_20260902_huangyaoshi-gate-suite-batch2
+• #504 blocks claiming new tasks while one is pending_review. The user's instruction: "然后按队列领 #625" — but queue rule blocks. There's a --force escape with --reason (used before, e.g. #621 "claim走了--force留痕：急单插队压过#619挂审"). The queue note for #625 says "#622返工收口后" — dependency satisfied (rework submitted). Is using --force justified? The user explicitly instructed to claim #625 after the 622 rework. The #504 rule is "审查等待期不接新单". But the user's direct instruction says to proceed. Past precedent: --force with reason logged. The queue row's 依赖 field says "#622返工收口后" — rework is now closed (resubmitted). I'll use --force with a clear reason citing the user instruction and dependency satisfaction.✅ task_20260902_huangyaoshi-gate-suite-batch2 已领取为 claimed-huangyaoshi-kimi
+⚠️ force 例外已留痕: C:\Users\Administrator\Desktop\wiki\90_control\force-exceptions.log
+
+✅ dashboard.html 已生成 (208 个任务)
+   待领取: 2  |  审查中: 1  |  进行中: 2  |  已完成: 203
+#625 claimed. Now the actual work. This is a substantial infra task — two sub-tasks. Given the context budget I've used and the complexity (gitignore rules, pre-commit/pre-submit gate, inventory scan, complete-gate WARNING check, regression tests, execution report), this is a good candidate to delegate to a coder subagent with a detailed brief. But the subagent would need deep context about the repo conventions (queue_transition.py structure, existing gates, test layout). I have good context now. Let me assess scope myself first — read the two source proposal docs and look at existing structures.
+
+  Let me read the two decision-source docs and check existing .gitignore, hooks, and complete gate code.
+
+• #625 已领（force 留痕）。先读两份源建议书和现有门禁结构。diag_20260902_laowantong-large-file-git-gate.md
+# Editor/app-specific directories - machine local, do not version
+.obsidian/
+.claude/
+.claudian/
+.kdo/*
+!.kdo/backups/
+.config/
+
+# 原料区不进 git（既定铁律：00_inbox 不进 git，只真相源进 git——2026-09-02 从口头规则落为机制）
+00_inbox/
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor temp files
+*.swp
+*.swo
+*~
+
+# Obsidian base files
+*.base
+
+# Runtime dependencies — not part of the knowledge repo
+_tmp/
+.tmp/
+node_modules/
+
+.env
+
+# 抖音采集 cookie（凭证类，永不入库）
+60_feedback/wechat-collect/douyin-dali/cookies.txt
+
+# Temporary PCB / PDF / OCR outputs at vault root (B类：一次性临时文件)
+temp_pcb_*.json
+pcba_v22_*.json
+temp_design.pdf
+temp_sch_*.pdf
+temp_*_paddle_ocr.txt
+ls: cannot access '.git/hooks/': No such file or directory
+
+
+*~
+
+# Obsidian base files
+*.base
+
+# Runtime dependencies — not part of the knowledge repo
+_tmp/
+.tmp/
+node_modules/
+
+.env
+
+# 抖音采集 cookie（凭证类，永不入库）
+60_feedback/wechat-collect/douyin-dali/cookies.txt
+
+# Temporary PCB / PDF / OCR outputs at vault root (B类：一次性临时文件)
+temp_pcb_*.json
+pcba_v22_*.json
+temp_design.pdf
+temp_sch_*.pdf
+temp_*_paddle_ocr.txt
+%TEMP%upgrade_plan.json
+!.kdo/CAPSULE_STARTUP.md
+!.kdo/*.py
+kdo-tools/.feishu_webhooks.json
+
+# #588 skills registry 扫描时间戳（生成物）
+40_outputs/capabilities/skills/.registry-last-scan
+# P0 凭据隔离区（#600，2026-09-02）——凭据一律不入 git
+90_control/.sandbox/quarantine-*/
+===
+COMMIT_EDITMSG
+FETCH_HEAD
+HEAD
+ORIG_HEAD
+config
+filter-repo
+index
+info
+logs
+objects
+===
+• Note: task spec says >100MB hard block / >15MB WARNING (task file), while 老顽童's proposal said >50MB block. The task file （王语嫣裁定并单） is authoritative: ">100MB 硬拦、>15MB WARNING". Task 1 third layer per task file: "存量处置方案：>15MB 在跟踪文件的清单+处置建议（只出清单不动文件）".
+
+  Also no .git/hooks dir?? `ls .git/` showed no hooks dir listed (head cut). core.hooksPath empty. The vault backup is done by wiki-bundle-backup.bat / vault_git_backup.py presumably. Task says "pre-commit 或 pre-submit 拦截". Since commits in this vault are mostly made by vault_git_backup.py (scheduled) and agents manually, a pre-commit hook in .git/hooks would cover manual commits but not necessarily backup script (it would, since it runs git commit too — hooks apply). Let me check how vault_git_backup.py commits.
+
+  Plan for the work — this is sizable. I could delegate to a coder subagent, but I have the best context. Let me look at key files: vault backup commit path, queue_transition complete delivery-path extraction, existing tests for conveyor_probe / queue_transition.
+
+  Let me explore the relevant code first.
+
+• 任务单口径（>100MB 硬拦/>15MB WARNING）为准。现在摸清提交链路和 complete 交付物解析的现有代码。__pycache__
+audit-kcard-baseline.py
+audit_queue_integrity.py
+backlink_fixer.py
+backup-sqlite.py
+batch_fix_mkt.py
+build_graph_index.py
+bulk-fix-frontmatter.py
+bulk-generate-case-card.py
+card_review_checklist.py
+case-synthesis-check.py
+changeset_audit.py
+check-agent-config.py
+check-conveyor-state.py
+check-depended-draft.py
+check-derivatives.py
+check-draft-aging.py
+check-mcp-roaming.py
+check-review-sla.py
+check-runtime-drift.py
+check-source-refs.py
+check-tags-health.py
+check-vlm-two-section.py
+check-yaml-related.py
+check_dead_links.py
+check_p0a_yaml.py
+check_skill_cards.py
+clean-metadata-371.py
+clock-watchdog-skip.json
+clock-watchdog-state.json
+clock_watchdog.py
+count_wiki_islands.py
+cross_domain_audit.py
+dead_links_report.txt
+domain-decompression-audit.py
+fix-card-metadata.py
+fix-legacy-author-batch.py
+fix-ocr-cards-batch.py
+fix-yaml-errors-batch-v2.py
+fix-yaml-errors-batch-v3.py
+===
+90_control/scripts/backup-sqlite.py
+90_control/scripts/vault-backup.py
+90_control/scripts/wiki-bundle-backup.bat
+
+
+82:        if line.strip() and not line.startswith("commit"):
+107:    # Restore from most recent commit that had it
+108:    commit = hashes[0]
+110:    cmd3 = ["git", "show", "--name-only", "--pretty=format:", commit, "--", f"*/{card_id}"]
+114:        print(f"在 commit {commit[:8]} 中找到了但无法确定路径")
+119:    subprocess.run(["git", "checkout", commit, "--", filepath], cwd=VAULT, check=True)
+167:    sp = p.add_subparsers(dest="cmd")
+168:    sp.add_parser("backup")
+169:    r = sp.add_parser("restore")
+170:    r.add_argument("card", help="卡片 ID 或文件名")
+171:    r.add_argument("--date", help="日期范围")
+172:    l = sp.add_parser("list-deleted")
+173:    l.add_argument("--since", help="起始日期")
+174:    sp.add_parser("health")
+185 90_control/scripts/vault-backup.py
+• vault-backup.py is a different thing (card restore). The scheduled git backup is `wiki-bundle-backup.bat`. Let me check that .bat to see the git add/commit path — the pre-commit hook would fire on its `git commit` too. Let me check.46:    rem Race note: obsidian-git auto-commit (10min cadence) can land a new HEAD
+===
+no hooks dir
+===
+vault-backup.py
+vault-integrity-check.py
+vault-snapshot.py
+wiki-vault-restore.py
+@echo off
+rem ============================================================
+rem #589 wiki vault daily bundle backup (incident anti-recurrence)
+rem Schedule: daily 02:30 (offset from 02:00 incident window), S4U no-window
+rem Keeps rolling >=4 bundles, logs to %LOG%, exit code file for verification
+rem ============================================================
+setlocal enabledelayedexpansion
+set "GIT=C:\Program Files\Git\cmd\git.exe"
+set "WIKI=C:\Users\Administrator\Desktop\wiki"
+set "DEST=D:\KDO-memory"
+set "LOG=%DEST%\wiki-bundle-daily.log"
+
+rem --- ISO date stamp (locale-independent) ---
+for /f %%i in ('powershell -NoProfile -Command "Get-Date -Format yyyyMMdd"') do set "TODAY=%%i"
+set "BUNDLE=%DEST%\wiki-bundle-%TODAY%.bundle"
+
+echo [%DATE% %TIME%] === wiki daily bundle start === >> "%LOG%"
+
+rem --- create bundle (all refs) ---
+"%GIT%" -C "%WIKI%" bundle create "%BUNDLE%" --all >> "%LOG%" 2>&1
+if errorlevel 1 (
+    echo [%DATE% %TIME%] ERROR: bundle create failed rc^>0 >> "%LOG%"
+    echo FAIL > "%DEST%\wiki-bundle-daily.last-result.txt"
+    exit /b 1
+)
+
+rem --- verify bundle ---
+"%GIT%" -C "%WIKI%" bundle verify "%BUNDLE%" >> "%LOG%" 2>&1
+if errorlevel 1 (
+    echo [%DATE% %TIME%] ERROR: bundle verify failed >> "%LOG%"
+    echo FAIL > "%DEST%\wiki-bundle-daily.last-result.txt"
+    exit /b 1
+)
+
+rem --- HEAD comparison: HEAD commit must be in bundle ---
+"%GIT%" -C "%WIKI%" rev-parse HEAD > "%TEMP%\wiki-bundle-head.txt" 2>nul
+set /p WIKIHEAD=<"%TEMP%\wiki-bundle-head.txt"
+del /q "%TEMP%\wiki-bundle-head.txt" >nul 2>&1
+if "%WIKIHEAD%"=="" (
+    echo [%DATE% %TIME%] ERROR: rev-parse HEAD returned empty >> "%LOG%"
+    echo FAIL > "%DEST%\wiki-bundle-daily.last-result.txt"
+    exit /b 1
+)
+"%GIT%" -C "%WIKI%" bundle list-heads "%BUNDLE%" | findstr /i "%WIKIHEAD%" >nul
+if errorlevel 1 (
+    rem Race note: obsidian-git auto-commit (10min cadence) can land a new HEAD
+    rem between bundle create and this check. Bundle itself is valid+verified.
+    rem Downgrade to WARN, keep last-good semantic: bundle usable, retry HEAD next night.
+    echo [%DATE% %TIME%] WARN: HEAD %WIKIHEAD% not in bundle heads ^(auto-commit race^) - bundle kept >> "%LOG%"
+)
+
+echo [%DATE% %TIME%] OK bundle=%BUNDLE% HEAD=%WIKIHEAD% >> "%LOG%"
+echo OK > "%DEST%\wiki-bundle-daily.last-result.txt"
+
+rem --- .obsidian snapshot (not git-tracked by design: multi-device sync concerns, 05-02 ab2bd33ba) ---
+rem 08-31 incident proved .obsidian is a backup blind spot (config total loss, zero recovery).
+rem Git tracking stays OFF (per-machine config). This is a per-machine rolling snapshot only.
+set "OBS_SNAP=%DEST%\obsidian-snapshot"
+if not exist "%OBS_SNAP%" mkdir "%OBS_SNAP%"
+powershell -NoProfile -Command "Remove-Item -Recurse -Force '%OBS_SNAP%\*' -ErrorAction SilentlyContinue; Copy-Item -Recurse -Force '%WIKI%\.obsidian' '%OBS_SNAP%\.obsidian' | Out-Null; if ($?) { 'OK' } else { 'FAIL' }" > "%TEMP%\obs-snap-result.txt" 2>nul
+set /p OBS_RESULT=<"%TEMP%\obs-snap-result.txt"
+del /q "%TEMP%\obs-snap-result.txt" >nul 2>&1
+if "%OBS_RESULT%"=="OK" (
+    echo [%DATE% %TIME%] OK .obsidian snapshot updated >> "%LOG%"
+) else (
+    echo [%DATE% %TIME%] WARN: .obsidian snapshot failed, main bundle unaffected >> "%LOG%"
+)
+
+rem --- #592 R1: offsite copy to Nutstore dir (step 2, failure never blocks main) ---
+call "C:\Users\Administrator\Desktop\wiki\90_control\scripts\wiki-bundle-offsite-2nd.bat" >> "%LOG%" 2>&1
+if errorlevel 1 (
+    echo [%DATE% %TIME%] WARN: offsite step2 failed, main backup unaffected >> "%LOG%"
+)
+
+rem --- rolling cleanup: keep newest 4 (by date-suffixed name sort; 7->4 per laozhu 2026-09-02, D: 130G only 9.8G left) ---
+set /a COUNT=0
+for /f "delims=" %%f in ('dir /b /o-n "%DEST%\wiki-bundle-2*.bundle" 2^>nul') do (
+    set /a COUNT+=1
+    if !COUNT! GTR 4 (
+        echo [%DATE% %TIME%] cleanup: delete %%f >> "%LOG%"
+The bundle backup doesn't do git commits. Who does the 30-min "vault backup" commits? Earlier I saw commits "vault backup: 2026-09-03 00:20:00" — from #607: "vault backup系统级调度化（schtasks kdo-vault-git-backup 30min S4U）". Let me find the script behind that scheduled task — probably kdo-tools/vault_git_backup.py.backup-hermes-state.ps1
+vault-git-backup.cmd
+vault_git_backup.py
+kdo-tools/vault_git_backup.py
+Key insight: `vault_git_backup.py` runs `git add -A` + `git commit` every 30min — this is the path that silently sweeps large files into the repo (exactly what happened with the 391MB zip, and with #622's uncommitted code). So the size gate must live HERE (in vault_git_backup.py) — that's the highest-leverage point — plus .gitignore (layer 1), plus inventory (layer 3). A pre-commit hook would also fire on the backup's commit since hooks apply to all git commits. But .git/hooks isn't versioned — a hook would be machine-local and invisible. Better: put the size check in vault_git_backup.py (in-repo, versioned, runs on the main automated commit path) — that's the "pre-submit 拦截" option the task allows ("pre-commit 或 pre-submit 拦截").
+
+  Actually, belt and suspenders per task: "git 跟踪文件 >100MB 硬拦、>15MB WARNING（pre-commit 或 pre-submit 拦截）". Implementation choice: add a size-check function in vault_git_backup.py that, before `git add -A`, scans staged/working files... Actually better: scan after `git add -A` via `git diff --cached --name-only` + file sizes, or scan `git ls-files` tracked files. Hard block >100MB: what does "block" mean for the backup script — refuse to commit? If we block the whole backup commit, backups stall silently (bad — that's another incident). Better design: >100MB → exclude from commit (unstage + report loudly to stderr + alert file), commit the rest. Hmm, but task says 硬拦. "硬拦" = prevent the file from entering git. Options:
+  - Refuse entire commit → backup stall risk.
+  - Unstage the oversized file, commit the rest, write alert → backup keeps working, large file never enters. This matches intent (391MB zip entering git = disaster) and avoids the "backup silently stalls" failure mode.
+
+  Task 1 third layer: 存量清单 — scan `git ls-files` for >15MB tracked files, output list + 处置建议， don't touch files. Deliver as a report file (e.g. 60_feedback/diagnosis/ or _tmp? Deliverable = 清单 — put in the task report + a file under 90_control/? The 建议书 mentioned writing to alert log. I'll produce `90_control/large-file-inventory-20260903.md`? Hmm — "只出清单不动文件，处置归王语嫣编排". I'll put the inventory in the execution report and also as a file, e.g. `60_feedback/diagnosis/large-file-inventory-20260903.md`... Actually diagnosis dir is for proposals. Maybe `90_control/large-file-inventory.md`. Simple: deliverable file `90_control/large-file-inventory-20260903.md`.
+
+  Whitelist mechanism: `90_control/large-file-whitelist.md`? The 建议书 proposed whitelist signed by 王语嫣/老朱. Task 1 item 1 says "inbox 压缩包/视频/采集大 json 白名单机制" in .gitignore extension. So gitignore additions: *.zip, *.tar, *.tar.gz, *.7z, the mp4 paths, itingnao details json. Careful: existing tracked files matching new gitignore rules stay tracked (gitignore only blocks new adds) — fine, since 存量不动.
+
+  Wait — but the *.zip global rule: are there legit zips tracked? Check. Also .gitignore has `!.kdo/*.py` exceptions etc.
+
+  Task 2: complete-time uncommitted-deliverables WARNING in queue_transition.py. Look at how complete parses 交付物 paths — there's a delivery-fields check (F-034) and the machine pre-review ① 声称-交付差集. I need to find where complete extracts deliverable paths. There was "📦 交付物校验： 交付物节未识别出文件路径（启发式覆盖外）" output — so there's a path-extraction heuristic already. Find it in queue_transition.py.
+
+  Tests: where do queue_transition tests live? kdo-tools/tests/ has test_conveyor_probe.py. Check for test_queue_transition / test_queue_gate.
+
+  This is a decent chunk of work. I'll do it myself — I have all context loaded. Let me proceed step by step.
+
+  First: look at queue_transition.py's deliverable path extraction.770:def _extract_deliverable_section(report: str) -> str:
+786:def _extract_deliverable_paths(report: str, task_file_name: str) -> list[str]:
+787:    """从执行报告「交付物」节提取反引号包裹的文件路径（启发式，识别不出=返回空→WARNING 不硬拦）。"""
+788:    section = _extract_deliverable_section(report)
+824:def _check_deliverables_committed(task_file: Path, fm: dict[str, Any],
+835:        return True, "", "任务单不可读，交付物校验跳过"
+841:    if any(m in _extract_deliverable_section(report) for m in DELIVERABLE_EXEMPT_MARKERS):
+844:    paths = _extract_deliverable_paths(report, task_file.name)
+846:        return True, "", "交付物节未识别出文件路径（启发式覆盖外）——人工自核已入仓"
+891:        cards = [p for p in _extract_deliverable_paths(report, task_file.name)
+A `_check_deliverables_committed` E040 gate ALREADY exists (#522) and it HARD BLOCKS on uncommitted deliverables. But #622 slipped through... why? Because #622's 交付物 section paths: ① `.kdo/graph_index/` (directory, no extension → filtered out), ② conveyor_probe.py mentioned as "kdo-tools/conveyor_probe.py，挂第九信号..." — was it backtick-wrapped? In the execution report 交付物 line: "② conveyor_probe.py 第十一信号 `_scan_graph_index_health`（kdo-tools/conveyor_probe.py，...）" — the path kdo-tools/conveyor_probe.py is NOT in backticks! Only `_scan_graph_index_health` is backticked. So the heuristic missed it → "交付物节未识别出文件路径（启发式覆盖外）——人工自核已入仓" — exactly the WARNING line printed at my complete today.
+
+  So task 2's real gap: the E040 gate exists but the heuristic misses non-backticked paths. 欧阳锋's proposal: "complete 对仓库内交付物路径加机械检查：涉及文件有未提交 diff/untracked → WARNING 打印+台账留痕（不拦截）。机器预审①可顺势补「已入仓」维度".
+
+  Wait — but E040 already hard-blocks when it does recognize paths. The proposal says "WARNING 不拦截". The existing E040 is hard-block (#522). The new increment is... extend coverage: also check paths found anywhere in the execution report (not just 交付物节）? Or enhance the heuristic to catch non-backticked repo-relative paths?
+
+  Let me check how complete invokes _check_deliverables_committed and what the E040 behavior was for #622's original complete — it printed the "未识别出文件路径" warning, so E040 passed vacuously. The task 2 increment: "对仓库内交付物路径加机械检查：涉及文件有未提交 diff/untracked → WARNING 打印+台账留痕（不拦截）".
+
+  Given E040 already exists for backticked paths in 交付物节， the gap = heuristic coverage. Reasonable minimal implementation: extend `_extract_deliverable_paths` fallback — when 交付物节 has no backticked paths, scan the section (or whole report) for bare repo-relative paths (pattern like `kdo-tools/xxx.py`, `90_control/xxx.md` — word boundaries, known top-level dirs, valid extension, file exists in repo). For those found: check tracked+uncommitted; uncommitted → WARNING + ledger (not block) per the task's explicit "WARNING 打印+台账留痕（不拦截）".
+
+  Hmm wait — but should these be WARNING rather than block? The proposal explicitly says WARNING 不拦截 for this new check. The E040 hard block stays for backticked paths. So: new function `_check_deliverables_committed_loose` or extend: paths found by loose scan → dirty/untracked → WARNING + force-exceptions-style ledger line. Let me see how _check_deliverables_committed is called in action_complete and where warnings get printed, plus check the existing test file for these gates.700:def _git_uncommitted(repo_root: Path, paths: list[str]) -> list[str]:
+745:        dirty = _git_uncommitted(repo, [cf])
+824:def _check_deliverables_committed(task_file: Path, fm: dict[str, Any],
+862:        dirty = _git_uncommitted(repo, [repo_rel])
+1034:    dlv_ok, dlv_msg, dlv_warn = _check_deliverables_committed(task_file, fm)
+===
+700:def _git_uncommitted(repo_root: Path, paths: list[str]) -> list[str]:
+701-    """Return paths with uncommitted changes in the given repo.
+702-
+703-    Empty on git errors (fail-open: 门禁不因 git 环境异常阻塞流转，但会提示）。
+704-    """
+705-    if not repo_root.exists() or not (repo_root / ".git").exists():
+706-        return []
+707-    try:
+708-        out = subprocess.run(
+709-            ["git", "-C", str(repo_root), "status", "--porcelain", "--", *paths],
+710-            capture_output=True, text=True, encoding="utf-8", errors="replace", timeout=15,  # #568：GBK 控制台不指定 encoding 即炸
+711-        ).stdout
+712-    except Exception as e:
+713-        # #568：fail-open 可见化——E040 脏改动检测被跳过必须留痕（静默=门禁致盲）
+714-        print(f"[warn] E040 门禁组件 _git_dirty_paths 异常跳过（按无脏改动放行）: {e}", file=sys.stderr)
+715-        return []
+716-    dirty = []
+717-    for line in out.splitlines():
+718-        # porcelain line: "XY path" — strip the 2-char status column
+719-        if len(line) >= 3 and line[2] == " ":
+720-            path = line[3:]
+===
+__pycache__
+test_audit_queue_integrity.py
+test_check_conveyor_state.py
+test_check_depended_draft.py
+test_check_review_sla.py
+test_check_source_refs.py
+test_complete_deliverable_gate.py
+test_frontmatter_preserve_616.py
+test_gate_suite_fixes_612.py
+test_health_metrics.py
+test_matrix_sync_gate.py
+test_queue_archive.py
+test_queue_batch_accept.py
+    # #444：evidence 留档任务单 frontmatter（佐证附件可溯）
+    fm_evidence = None
+    if evidence:
+        try:
+            fm_evidence = str(Path(evidence).resolve().relative_to(_WIKI_ROOT)).replace("\\", "/")
+        except ValueError:
+            fm_evidence = evidence
+
+    # 代码类提审门禁（#363）：code_files 未 commit → 拒绝流转
+    gate_ok, gate_msg = _check_code_gate(task_file, fm)
+    if not gate_ok:
+        return False, gate_msg
+
+    # #522：交付物已入仓校验（E040 机器兜底）——识别不出/豁免声明=WARNING 不硬拦（红线 4）
+    dlv_ok, dlv_msg, dlv_warn = _check_deliverables_committed(task_file, fm)
+    if not dlv_ok:
+        _log_gate_blocked(task_id, "E040-交付物未入仓", dlv_msg, instance)
+        return False, dlv_msg
+    dlv_note = f"\n📦 交付物校验: {dlv_warn}" if dlv_warn else ""
+
+    # #515：机器预审报告随提审附任务单（参考层——不放行不拦截；失败不阻断流转，
+    # 预审失败本身写入报告让终审可见）。报告进任务单→随 complete 自动 commit 进冻结版
+    try:
+        import pre_review
+        pre_review.attach_pre_review(task_file, pre_review.run_pre_review(task_file))
+    except Exception as e:  # 预审层故障不阻断生产流转（参考层纪律），stderr 留痕
+        import sys as _sys
+        print(f"⚠️ 机器预审层故障（不阻断提转）: {e}", file=_sys.stderr)
+
+    with QueueLock("production-queue"):
+        rows = parse_queue()
+        task = find_task(task_id, rows)
+        # --force 允许从 queued 直跳：锁内重检必须同样接受该场景
+        if task is None or not (
+            (force and task["status"] == "queued") or task["status"] == expected
+        ):
+            return False, "队列状态在加锁期间发生变化，请重试"
+
+        apply_updates(task_id, "pending_review", task_file, status="pending_review",
+                      evidence=fm_evidence)
+
+    # #389：门禁通过后登记 REVIEW-PENDING 段（被门禁拦截的 complete 到不了这里）
+    try:
+        rel_path = str(task_file.relative_to(_WIKI_ROOT)).replace("\\", "/")
+    except ValueError:
+        rel_path = str(task_file)
+    _review_board_update(register={
+        "seq": task["seq"], "task_id": task_id,
+        "assignee": fm.get("assignee", task.get("assignee", "")),
+        "task_file": rel_path,
+    })
+"""#522 回归：complete 门禁「交付物已入仓」校验（E040 机器兜底）。
+
+三分支+L2 回放：
+- 脏交付物（untracked/未提交改动）→ 拦截+补救指令
+- 净交付物（已跟踪无脏）→ 通过
+- 豁免声明（纯任务单修改）→ 通过+WARNING
+- 识别不出路径 → 通过+WARNING（红线 4 不硬拦）
+- #518 场景回放：untracked 清单提审 → 拦截
+
+运行：python -m pytest 90_control/scripts/tests/test_complete_deliverable_gate.py -q
+沙盒：tmp git 仓（git init+commit），不碰真实 wiki 仓。
+"""
+import subprocess
+import sys
+from pathlib import Path
+
+SCRIPT_DIR = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(SCRIPT_DIR))
+
+import queue_transition as qt
+
+
+def _git(repo: Path, *args: str):
+    subprocess.run(["git", "-C", str(repo), *args], check=True,
+                   capture_output=True, timeout=30)
+
+
+def _repo(tmp_path: Path) -> Path:
+    repo = tmp_path / "wiki"
+    repo.mkdir()
+    _git(repo, "init")
+    _git(repo, "config", "user.email", "t@t")
+    _git(repo, "config", "user.name", "t")
+    (repo / "kdo-tools").mkdir()
+    (repo / "kdo-tools" / "tool.py").write_text("x=1\n", encoding="utf-8")
+    _git(repo, "add", "kdo-tools/tool.py")
+    _git(repo, "commit", "-m", "init")
+    return repo
+
+
+def _task(tmp_path: Path, report_body: str) -> Path:
+    tf = tmp_path / "task_test_522.md"
+    tf.write_text(
+        "---\nid: 522\nstatus: in_progress\n---\n\n# 任务\n\n## 执行报告\n\n" + report_body,
+        encoding="utf-8",
+    )
+    return tf
+
+
+def test_dirty_deliverable_blocked(tmp_path):
+    """未提交改动的交付物 → 拦截+补救指令可读。"""
+    repo = _repo(tmp_path)
+    (repo / "kdo-tools" / "tool.py").write_text("x=2\n", encoding="utf-8")  # 脏
+    tf = _task(tmp_path, "**完成内容**：改工具\n\n**交付物**：\n- `kdo-tools/tool.py`\n\n**验证**：过\n")
+    ok, msg, _warn = qt._check_deliverables_committed(tf, {}, wiki_root=repo)
+    assert not ok
+    assert "未提交改动" in msg and "git add" in msg and "git commit" in msg
+
+
+def test_clean_deliverable_passes(tmp_path):
+Now I understand the E040 gate fully. Task 2 increment design:
+
+  Add a **loose-scan fallback** in `_check_deliverables_committed`: when `_extract_deliverable_paths` returns empty (backtick heuristic missed), scan the 交付物 section (or whole report?) for bare repo-relative paths — tokens matching known top-level dirs (`kdo-tools/`, `90_control/`, `30_wiki/`, `40_outputs/`, `60_feedback/`, `70_product/`, `20_memory/`, `10_raw/` ...) with valid extension, no backticks required. For paths found only by loose scan: if untracked or dirty → WARNING + ledger留痕 (not block), per task spec. Also feed the same into pre_review ① "声称-交付差集" — "机器预审①可顺势补「已入仓」维度". Hmm, that's "可顺势" (optional). Keep scope minimal: do the complete-side WARNING + ledger. The pre_review part is optional ("可顺势补") — skip to keep minimal? It says 可顺势补「已入仓」维度 — I could add it but minimal-change principle... The task 2 statement: "queue_transition.py complete 对仓库内交付物路径加机械检查：涉及文件有未提交 diff/untracked → WARNING 打印+台账留痕（不拦截）。机器预审①可顺势补「已入仓」维度。" The core is the complete check; pre_review is "可" (may). I'll implement the complete-side check; skip pre_review to keep diff minimal, note in 边界.
+
+  Ledger: reuse `_log_gate_blocked`? That's for blocks. 台账留痕 — use force-exceptions style or a dedicated log. There's `_log_gate_blocked(task_id, gate, msg, instance)`. For WARNING, writing to gate-blocked.log would be wrong semantics. Options: append to force-exceptions.log via _log_force_exception with bypass="E040-loose WARNING"... hmm semantics off too. Maybe simplest: `90_control/gate-warning.log` new ledger. Let me check _log_gate_blocked.
+
+  Now task 1:
+  - .gitignore extension: add rules. Check existing tracked zips first (would *.zip rule conflict? gitignore doesn't affect tracked files, fine). But careful about `10_raw/` — is 10_raw tracked? Earlier backup commits included 10_raw paths? The 46MB mp4 at `10_raw/assets/wechat-collect/...` IS tracked (listed in the proposal as tracked). So adding those gitignore rules blocks NEW additions. Also global *.zip — check if any legit .zip tracked... gitignore only affects untracked, so no breakage, but future legit zips would be silently ignored — that's the point, with whitelist via negation if needed.
+
+  Also note: the backup script does `git add -A` which respects .gitignore — good, layer 1 effective on the automated path.
+
+  - Layer 2 hard gate: modify `vault_git_backup.py` to check sizes before commit: for staged files (after git add -A), any >100MB → unstage it (`git rm --cached` / `git reset`), write alert, continue commit of rest; >15MB → WARNING print to stderr + log. Wait — task says ">100MB 硬拦". Design decision: hard-block the file (unstage + loud alert) rather than block whole backup (avoid backup-stall incident). I'll document this choice in the report. Actually safer to also make it configurable constants at top.
+
+  Where should the size check live? A shared helper so both the backup script and potentially a pre-commit could use it. Keep simple: implement `_oversized_staged()` in vault_git_backup.py. Hmm — but manual agent commits (like mine) bypass it. Task says "pre-commit 或 pre-submit 拦截" — one of them. The dominant risk path (391MB zip) entered via automated add -A backup. I'll gate the backup path. Also write alerts to a ledger + maybe conveyor_probe signal? No — 红线 says don't extend scope; 建议书第三层（cron巡检）was folded into "存量清单" one-time. Task 1 item 3 = 存量清单 only.
+
+  Alert channel for hard block: stderr + `90_control/gate-blocked.log`? For consistency use a dedicated log line + stderr. And the WARNING (>15MB) similar.
+
+  - Layer 3 inventory: scan `git ls-files` with sizes → `90_control/large-file-inventory-20260903.md` (or in 60_feedback/diagnosis?). Deliverable path: put under `90_control/large-file-inventory-20260903.md`. Simple scan via `git ls-files -z` + os.path.getsize on working tree.
+
+  Tests: add to 90_control/scripts/tests/ a new test file test_large_file_gate.py covering: staged >100MB → unstaged+alert; >15MB → warning; whitelist? Do we implement whitelist file? 建议书 mentions `90_control/large-file-whitelist.md` signed whitelist. Task 1 item 1 mentions 白名单机制 in gitignore context ("inbox 压缩包/视频/采集大 json 白名单机制") — ambiguous, but the gitignore itself is the mechanism (rules block classes of files). Keep whitelist minimal: support `90_control/large-file-whitelist.txt` (one path per line) that exempts files from the hard block? That's speculative generality... but the 建议书 explicitly lists whitelist as part of layer 2. Task file (authoritative, 王语嫣裁定） says: "1. .gitignore 规则扩展（防新增）：inbox 压缩包/视频/采集大 json 白名单机制； 2. pre-commit 或 pre-submit 拦截：>100MB 硬拦、>15MB WARNING; 3. 存量处置方案：清单". The 白名单机制 in item 1 reads as part of gitignore extension (i.e., rules that whitelist knowledge paths while blocking big media). I'll interpret: gitignore rules with negation patterns where needed; no separate signed-whitelist file (not in task text). Keep minimal.
+
+  Also need: where do tests run for vault_git_backup.py? It's in kdo-tools/. Tests for kdo-tools live in kdo-tools/tests/. queue_transition tests live in 90_control/scripts/tests/. I'll put backup-gate tests in kdo-tools/tests/test_vault_git_backup_gate.py and complete-loose-scan tests in 90_control/scripts/tests/ (extend test_complete_deliverable_gate.py or new file test_complete_loose_deliverable_scan.py). New file is cleaner.
+
+  Notification-coverage-matrix: new WARNING channels — should matrix be updated? #622 added a row for its signal. For #625, gates produce WARNING/台账 — registering in matrix keeps the 登记口径 consistent. The matrix is about probe notification coverage. The hard-block alert from backup script — worth a matrix row? Matrix covers "通知覆盖" for signals. I'll check matrix format and add a row if it fits naturally. Hmm, minimal scope... The task doesn't ask for matrix. Skip; mention in 边界.
+
+  Let me now check _log_gate_blocked signature and where WARNING could be ledgered.167:def _log_gate_blocked(task_id: str, gate: str, reason: str, instance: str = "") -> None:
+168-    """每次门禁拦截自动 append 一行（时间/任务/门禁名/原因/instance）——探针第五探针扫描面。
+169-
+170-    #483：测试件（task_9999_*）走独立 gate-blocked-test.log——记录保留（E028 测试覆盖
+171-    历史），但不进真实日志，防第五探针把测试噪声当真实拦截通知王语嫣。
+172-    #511：真实拦截同步写胶囊事件层（event_type=error；测试件不写——同 #483 噪声分流纪律）。
+173-    """
+174-    try:
+175-        ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+176-        target = GATE_BLOCKED_TEST_LOG if task_id.startswith("task_9999_") else GATE_BLOCKED_LOG
+177-        with target.open("a", encoding="utf-8") as f:
+178-            f.write(f"{ts}｜{task_id}｜{gate}｜{reason[:100]}｜{instance}\n")
+179-        if not task_id.startswith("task_9999_"):
+180-            _capsule_event(instance or "unknown", "error",
+181-                           f"gate-blocked;task={task_id};gate={gate};reason={reason[:200]}")
+182-    except Exception:
+183-        pass
+184-
+185-
+186-def _record_commit_failure(task_id: str, action: str, reason: str) -> None:
+187-    """git 收口失败 → 追加待收口清单（90_control/pending-git-commits.log）。
+===
+kdo_binary.zip
+===tracked-mp4===
+10_raw/assets/wechat-collect/2404c1658025473c.mp4
+10_raw/assets/wechat-collect/346efef2737b383b.mp4
+10_raw/assets/wechat-collect/5291b61bc722d90d.mp4
+10_raw/assets/wechat-collect/68004aecb3d913a5.mp4
+10_raw/assets/wechat-collect/e7536bf1d8f1a7b1.mp4
+10_raw/assets/wechat-collect/fe60439837f4c93e.mp4
+60_feedback/wechat-collect/douyin-dali/7654610643165120177.mp4
+60_feedback/wechat-collect/douyin-dali/7666832665312982138.mp4
+60_feedback/wechat-collect/douyin-dali/7671986884592010673.mp4
+tmp_video/final.mp4
+tmp_video/parts/part_0.mp4
+tmp_video/parts/part_1.mp4
+tmp_video/parts/part_2.mp4
+tmp_video/parts/part_3.mp4
+tmp_video/parts/part_4.mp4
+tmp_video/parts/part_5.mp4
+tmp_video/parts/part_6.mp4
+tmp_video/silent.mp4
+videos/example-domain.mp4
+videos/kdo-guide.mp4
+===
+10_raw/itingnao/details/1236213.json
+10_raw/itingnao/details/1236240.json
+10_raw/itingnao/details/1236241.json
+There IS a tracked `kdo_binary.zip` and tracked videos under `videos/` (kdo-guide.mp4 — presumably small intentional content). A blanket `*.zip` gitignore would not untrack existing kdo_binary.zip but would block future zips. Is kdo_binary.zip something that gets updated? If someone re-saves it, gitignore doesn't matter for tracked files. OK.
+
+  But blanket `*.mp4` would be wrong — videos/ dir is intentional. The 建议书's gitignore rules are targeted: `10_raw/assets/wechat-collect/*.mp4`, `60_feedback/wechat-collect/**/*.mp4`, `10_raw/itingnao/details/*.json`, plus global archive extensions `*.zip *.tar *.tar.gz *.7z`. For kdo_binary.zip tracked already — fine. tmp_video/*.mp4 tracked — probably should have been ignored, but 存量不动.
+
+  Wait, is `videos/` at vault root tracked content for publishing? Leave it.
+
+  Now the gitignore whitelist mechanism: "inbox 压缩包/视频/采集大 json 白名单机制" — the rules ARE the mechanism. Maybe also add a comment noting how to whitelist (negation pattern). Fine.
+
+  Now implement. Plan:
+
+  **Edit 1 — .gitignore**: append large-file rules block.
+
+  **Edit 2 — kdo-tools/vault_git_backup.py**: add size gate:
+  - constants HARD_LIMIT = 100MB, WARN_LIMIT = 15MB
+  - after `git add -A`, get staged files: `git diff --cached --name-only -z` (or --diff-filter=ACMR)
+  - size from working tree file
+  - >100MB → `git rm --cached -- <path>` (unstage, keep file), record blocked list → print to stderr + append ledger `90_control/large-file-gate.log` + still commit rest; also write an alert marker? stderr goes to schtasks log presumably. Also print 教育 line.
+  - >15MB → WARNING stderr + ledger.
+  - If ALL changes were only the blocked file... after unstaging, if nothing staged, skip commit.
+  - Edge: file tracked in HEAD already and >100MB (existing tracked big file modified) — diff --cached includes it; unstaging keeps old version in repo; fine, warn.
+
+  Function design for testability: `gate_staged_large_files(root) -> (blocked, warned)` using subprocess git; make `main()` call it. Tests in kdo-tools/tests/test_vault_git_backup_gate.py with tmp git repo.
+
+  **Edit 3 — queue_transition.py**: loose-scan fallback in _check_deliverables_committed. When backticked paths empty: scan 交付物 section for bare paths matching `(?:kdo-tools|90_control|30_wiki|40_outputs|60_feedback|70_product|20_memory|10_raw|50_delivery|agents|cap_hub)/[^\s，。（）()\u3000]+\.[A-Za-z0-9]{1,10}`. For each candidate: verify against repo (tracked check). Loose-found dirty/untracked → WARNING (not block) + ledger line to gate-blocked.log? No — that log feeds probe "gate-blocked" notifications to 王语嫣. A WARNING ledger: create `90_control/gate-warning.log`? Hmm — task says "WARNING 打印+台账留痕". Simplest: reuse force-exceptions style — no. I'll add `_log_gate_warning()` appending to `90_control/gate-warning.log` (new file, clearly named). Wait — does conveyor_probe scan gate-blocked.log? Yes ("探针第五探针扫描面"). A new gate-warning.log won't be scanned by probes — acceptable （台账留痕 for audit, not notification).
+
+  Hmm, actually maybe simpler and more in spirit: loose-found problems → still just WARNING in complete output + ledger. Let me write it.
+
+  Also note: `_check_deliverables_committed` currently returns at "未识别出文件路径" — insert loose scan there: if not paths → loose scan → if loose problems → return ok=True with warn listing them + ledger. If loose finds nothing → original warn.
+
+  Ledger function: task_id available in caller (action_complete) but _check_deliverables_committed doesn't receive task_id... it has task_file. Derive task id from fm.get("id") or task_file stem. I'll pass the fm id.
+
+  **Tests**: new test file `90_control/scripts/tests/test_complete_loose_deliverable_scan.py`:
+  - 交付物节 bare path dirty → ok=True, warn mentions 未入仓 WARNING, ledger line written (to test log? gate-warning.log — tests must not pollute real log; follow #483 pattern: task_9999_* routes to test log. I'll mirror: task id starting task_9999_ → gate-warning-test.log).
+  - bare path clean → passes without warning.
+  - non-repo bare token (e.g. "知识库/方法论") not misparsed — require top-level dir whitelist + file exists? Should we require the file exists on disk? If path doesn't exist, can't check — skip (fail-open). Requiring existing file reduces false positives. But untracked existing file is exactly the case to catch. So: exists on disk or tracked → check; nonexistent → ignore.
+
+  **Edit 4 — inventory**: script or one-off? Task says 存量处置方案=清单+建议. One-off scan, write `90_control/large-file-inventory-20260903.md`. I can generate with a quick command + write file.
+
+  Also update kdo-tools/README or scripts README? 工具登记纪律 says scripts go to 40_outputs/code/scripts + README... but existing pattern: these tools live in kdo-tools/ and 90_control/scripts/. #622 didn't register conveyor_probe changes in README. Skip registration (no new standalone tool).
+
+  Let me also check test file naming/pattern for vault backup — does kdo-tools/tests have existing test for vault_git_backup? Check quickly. Then write code.
+
+• 设计定了。开始施工：先做任务 2（queue_transition 裸路径 loose-scan WARNING）。144:GATE_BLOCKED_LOG = _WIKI_ROOT / "90_control" / "gate-blocked.log"
+145:GATE_BLOCKED_TEST_LOG = _WIKI_ROOT / "90_control" / "gate-blocked-test.log"  # #483：测试件独立日志（task_9999_*，防第五探针误报）
+
+
+• Now implement. Add near _log_gate_blocked a `_log_gate_warning` writing to gate-warning.log / gate-warning-test.log (task_9999_ split, no capsule event — WARNING 不通知）.
+
+  Then modify `_check_deliverables_committed`: in the `if not paths:` branch, run loose scan. Implementation:
+
+  ```python
+  # #625 任务2：裸路径 loose-scan（#622 实证：交付物节路径未加反引号 → 反引号启发式全漏，
+  # 哨兵代码未入仓照过 WARNING  vacuously）。反引号识别为空时，按已知顶层目录扫裸路径；
+  # loose 命中且有未入仓 → WARNING+台账（不拦截——prop_20260902 口径）。
+  _LOOSE_PATH_RE = re.compile(
+      r"(?<![\w/.-])((?:kdo-tools|90_control|30_wiki|40_outputs|50_delivery|60_feedback|70_product|20_memory|10_raw)/[^\s`，。（）()【】\"']+?\.[A-Za-z0-9]{1,10})"
+  )
+
+  def _extract_deliverable_paths_loose(report, task_file_name):
+      section = _extract_deliverable_section(report)
+      ...
+  ```
+
+  Careful: dedupe, exclude _tmp, task file itself, auto-commit files. Reuse logic — refactor: extract the filtering into the loose function similarly.
+
+  Then in _check_deliverables_committed:
+
+  ```python
+      paths = _extract_deliverable_paths(report, task_file.name)
+      if not paths:
+          loose = _extract_deliverable_paths_loose(report, task_file.name)
+          loose_problems = []
+          for rel in loose:
+              if external abs path: continue
+              repo = KDO_REPO_ROOT if "Knowledge Delivery OS" in rel else wiki_root
+              ... but loose regex only matches vault-relative top-level dirs, so always wiki_root.
+              if not (wiki_root / rel).exists() and not _git_tracked(wiki_root, rel): continue  # 幻觉路径不查
+              if not _git_tracked(...): loose_problems.append(f"untracked: {rel}")
+              elif _git_uncommitted(...): loose_problems.append(f"未提交改动: {rel}")
+          if loose_problems:
+              task_id = str(fm.get("id") or task_file.stem)
+              _log_gate_warning(task_id, "E040-loose交付物未入仓WARNING", "；".join(loose_problems)[:200], instance??)
+  ```
+
+  _check_deliverables_committed signature: (task_file, fm, wiki_root=None). instance not passed. For ledger, instance optional — use fm.get("instance",""). Fine.
+
+  warn message: "⚠️ E040-loose（#625）：交付物节裸路径启发式命中 N 个未入仓——未 commit=不存在，请补 commit（WARNING 不拦截，台账 gate-warning.log）：..." 
+
+  Return ok=True, "", warn.
+
+  Edge: _git_tracked fail-open returns True; fine.
+
+  Now the regex: bare paths in #622's 交付物 line: "kdo-tools/conveyor_probe.py，挂第九信号" — token followed by Chinese comma. My regex excludes ，。（）. Also "kdo-tools/tests/test_conveyor_probe.py）" — exclude ）. Also `90_control/notification-coverage-matrix.md` followed by space. And ".kdo/graph_index/" — no extension at end (graph_index/ ends with /) → excluded, fine. `_tmp/622-graph-rebuild.log` is backticked → in backtick scan it'd be filtered by _tmp rule; in loose scan, _tmp not in top-level list. Good.
+
+  Also exclude matches already inside backticks? If backtick scan found paths we don't reach loose scan (only when empty). OK.
+
+  Also 机器预审 pre_review has its own差集 check — leave alone （边界 note).
+
+  Write the code now.Oops — that edit removed a blank line inside the docstring, which wasn't my intent. Actually I replaced the two-line version with one-line, deleting a blank line within the docstring. That changes the docstring formatting — harmless but sloppy; let me restore and instead insert _log_gate_warning before _log_gate_blocked properly. Read the current state.My previous edit mangled the docstring — the blank line inside the docstring was removed, joining the summary line with the #483 comment on one line. Fix it back and insert _log_gate_warning before _log_gate_blocked.
+
+• 修复刚才误并的 docstring，并插入 `_log_gate_warning`。
+
+• Now add the loose-scan extraction and wire it into `_check_deliverables_committed`.
+
+• Now write tests for the loose scan. New file `90_control/scripts/tests/test_complete_loose_deliverable_scan.py`, modeled on test_complete_deliverable_gate.py. Check how existing test asserts warns (look at rest of that test file for patterns) — quickly view the remaining tests for the豁免/识别不出 cases.def test_clean_deliverable_passes(tmp_path):
+    repo = _repo(tmp_path)
+    tf = _task(tmp_path, "**完成内容**：改工具\n\n**交付物**：\n- `kdo-tools/tool.py`\n\n**验证**：过\n")
+    ok, _msg, warn = qt._check_deliverables_committed(tf, {}, wiki_root=repo)
+    assert ok and "核验通过" in warn
+
+
+def test_exempt_declaration_passes(tmp_path):
+    """豁免声明须在「交付物」节内（编排/诊断类口径）。"""
+    repo = _repo(tmp_path)
+    tf = _task(tmp_path, "**完成内容**：诊断结论落档\n\n**交付物**：本报告（纯任务单修改）\n\n**验证**：过\n")
+    ok, _msg, warn = qt._check_deliverables_committed(tf, {}, wiki_root=repo)
+    assert ok and "豁免" in warn
+
+
+def test_unrecognized_paths_warn_not_block(tmp_path):
+    """红线 4：识别不出=WARNING 不硬拦。"""
+    repo = _repo(tmp_path)
+    tf = _task(tmp_path, "**完成内容**：x\n\n**交付物**：见上文描述（无路径）\n\n**验证**：过\n")
+    ok, _msg, warn = qt._check_deliverables_committed(tf, {}, wiki_root=repo)
+    assert ok and "未识别出文件路径" in warn
+
+
+def test_518_replay_untracked_blocked(tmp_path):
+    """L2 回放 #518：untracked 清单文件提审 → 拦截。"""
+    repo = _repo(tmp_path)
+    # 清单文件存在于工作区但从未 git add（#518 场景）
+    (repo / "60_feedback").mkdir()
+    (repo / "60_feedback" / "list.csv").write_text("a,b\n", encoding="utf-8")
+    tf = _task(tmp_path, "**完成内容**：产清单\n\n**交付物**：\n- `60_feedback/list.csv`\n\n**验证**：过\n")
+    ok, msg, _warn = qt._check_deliverables_committed(tf, {}, wiki_root=repo)
+    assert not ok and "untracked" in msg
+
+
+def test_auto_commit_files_excluded(tmp_path):
+    """队列/看板/任务单自身=流转自动收口，不算交付物。"""
+    paths = qt._extract_deliverable_paths(
+        "**交付物**：\n- `70_product/tasks/production-queue.md`\n- `70_product/tasks/dashboard.html`\n"
+        "- `task_test_522.md`（本任务单）\n- `kdo-tools/tool.py`\n\n**验证**：过\n",
+        "task_test_522.md",
+    )
+    assert paths == ["kdo-tools/tool.py"]
+
+
+def test_marker_meta_mention_outside_section_not_exempt(tmp_path):
+    """#522 自体应用实证修复：豁免词在其他节被引用（说明文字）不得触发豁免——
+    只有「交付物」节内的声明才算数。"""
+    repo = _repo(tmp_path)
+    tf = _task(
+        tmp_path,
+        "**完成内容**：豁免声明关键词（纯任务单修改/无代码交付物等）……\n\n"
+        "**交付物**：\n- `kdo-tools/tool.py`\n\n"
+        "**验证**：过\n\n**需要谁动作**：写「纯任务单修改」即走豁免通道\n",
+    )
+    ok, _msg, warn = qt._check_deliverables_committed(tf, {}, wiki_root=repo)
+    assert ok and "核验通过" in warn  # 走了真校验而非豁免
+
+
+def test_marker_inside_deliverable_section_exempts(tmp_path):
+    repo = _repo(tmp_path)
+    tf = _task(tmp_path, "**完成内容**：x\n\n**交付物**：纯任务单修改，无文件\n\n**验证**：过\n")
+    ok, _msg, warn = qt._check_deliverables_committed(tf, {}, wiki_root=repo)
+    assert ok and "豁免" in warn
+
+
+def test_external_absolute_path_warns_not_blocks(tmp_path):
+    """#534 实证：库外绝对路径交付物（D:/tech-wiki 等他库）git 无法核验
+    → WARNING 不拦（红线 4 识别不出不误拦）。"""
+    repo = _repo(tmp_path)
+    tf = _task(tmp_path, "**完成内容**：x\n\n**交付物**：\n- `kdo-tools/tool.py`\n- `D:/tech-wiki/90_control/todos/wangyuyan.md`\n\n**验证**：过\n")
+    ok, _msg, warn = qt._check_deliverables_committed(tf, {}, wiki_root=repo)
+Pattern clear. Note `_check_deliverables_committed(tf, {}, wiki_root=repo)` — fm passed as {}. For ledger test, fm id "task_9999_loose" routes to test log. Write the new test file.......                                                                   [100%]
+6 passed in 1.03s
+6 passed first try. Wait — the test-loose-ledger test asserts real log not polluted; fine. Also verify #622's actual report would now trigger loose WARNING — quick real-data check against the actual #622 task file (its 交付物 has bare paths; though now committed, loose scan would find them clean → "未识别出" hmm actually loose finds them, they're clean → no problems → falls to "未识别出文件路径" warn. Fine.)
+
+  Quick sanity: run loose extract against #622 report to see detected paths.backtick: []
+loose: ['kdo-tools/conveyor_probe.py', 'kdo-tools/tests/test_conveyor_probe.py']
+#622 场景复现验证通过：backtick 空 → loose 命中 2 个裸路径（matrix 行 27 没匹配到？"notification-coverage-matrix.md 行 27 同步登记（§3.19）" — the path `90_control/notification-coverage-matrix.md`... it's written as "notification-coverage-matrix.md 行 27 同步登记" — let me check the actual text: "④ notification-coverage-matrix.md 行 27 同步登记（§3.19）" — no 90_control/ prefix! So it doesn't match the top-dir regex. OK, partial coverage — honest note in report.
+
+  Now Task 1. First .gitignore edit. Then vault_git_backup.py gate. Then inventory.
+
+  .gitignore addition — append after the PCB temp section. Rules from 建议书 (adjusted to task file口径 15MB/100MB is for gate, gitignore rules are pattern-based):
+
+  ```
+  # #625 大文件门禁第一层（2026-09-03，391MB zip 断 push 3 个月事故防再发）
+  # 采集管线大产物不进 git——白名单机制：确需入库者在下行用 ! 豁免（需王语嫣/老朱拍板）
+  10_raw/assets/wechat-collect/*.mp4
+  60_feedback/wechat-collect/**/*.mp4
+  10_raw/itingnao/details/*.json
+  *.zip
+  *.tar
+  *.tar.gz
+  *.7z
+  ```
+
+  Wait — `*.zip` global: kdo_binary.zip is tracked (stays). But are there legit future zips? e.g. someone wants to commit a small zip. They'd use !exception or git add -f. Note in comment: 存量已跟踪文件不受 gitignore 影响；确需新增用 git add -f 并在 90_control/large-file-whitelist... hmm I said no whitelist file. Keep comment simple: 确需入库的用 `!路径` 豁免或 git add -f（留痕说明）。
+
+  Then vault_git_backup.py gate.!.kdo/CAPSULE_STARTUP.md
+!.kdo/*.py
+kdo-tools/.feishu_webhooks.json
+
+# #588 skills registry 扫描时间戳（生成物）
+40_outputs/capabilities/skills/.registry-last-scan
+# P0 凭据隔离区（#600，2026-09-02）——凭据一律不入 git
+90_control/.sandbox/quarantine-*/
+
+# ── #625 大文件门禁第一层（2026-09-03）────────────────────────
+# 背景：391MB zip 混入提交 → GitHub 100MB 硬限断 push 3 个月、5826 commits 积压（2026-09-02 实证）。
+# 口径：采集管线大产物（视频/明细 json/压缩包）一律不进 git——知识已提炼进 30_wiki，
+#       明细属管线中间产物；压缩包是"备份的备份"，双份占历史。
+# 注意：gitignore 只管新增——已跟踪存量不受影响（存量处置归 #625 清单，不动文件）。
+# 确需入库的例外（白名单机制）：在本块下加 `!<路径>` 豁免行，注释写明批准人（王语嫣/老朱）。
+10_raw/assets/wechat-collect/*.mp4
+60_feedback/wechat-collect/**/*.mp4
+10_raw/itingnao/details/*.json
+*.zip
+*.tar
+*.tar.gz
+*.7z
+Verify gitignore works: `git check-ignore` on a hypothetical new file. Then the backup gate. Note: `.gitignore` global `*.zip` — check nothing currently staged/tracked workflow breaks. Tracked files unaffected. Quick verify..gitignore:57:10_raw/assets/wechat-collect/*.mp4	10_raw/assets/wechat-collect/test999.mp4
+.gitignore:59:10_raw/itingnao/details/*.json	10_raw/itingnao/details/999.json
+.gitignore:10:00_inbox/	00_inbox/foo.zip
+rc=0
+gitignore verified — new mp4/json blocked; kdo_binary.zip tracked (check-ignore returns nothing for tracked files — correct, it exited rc=0 because earlier matches). Now the backup gate in vault_git_backup.py.Note: gate_staged_large_files uses module-global ROOT; for tests I need to point it at a tmp repo. Make ROOT overridable: tests can monkeypatch module ROOT and GATE_LOG. Fine.
+
+  Write test file kdo-tools/tests/test_vault_git_backup_gate.py. Check existing kdo-tools tests conventions quickly (imports). Write test:
+
+  - tmp repo, stage small file + fake sizes. Creating actual >100MB file is slow-ish (~100MB write, acceptable? sparse file via truncate — on Windows os.truncate creates sparse? seek+write creates sparse on NTFS via Python? f.truncate(101MB) does allocate logically but NTFS may not zero-fill — st_size reports logical size, which is what gate reads. So truncate works fast.)
+
+  Tests:
+  1. >100MB staged → gate unstages it, blocked list contains, working file still exists, ledger written.
+  2. >15MB staged → warned, still staged.
+  3. small file → no action.
+  4. main() end-to-end: repo with big file + small change → commit happens without big file; big file untracked but on disk.
+
+  Monkeypatch vb.ROOT and vb.GATE_LOG to tmp paths. Since run() uses ROOT global — monkeypatch works.
+
+  Note the real kdo-tools/tests import pattern — check one test quickly."""#421 传送带探针测试：三元组检出 / PROPOSAL-PENDING 登记幂等 / 历史行保留 / 边界（无流转能力）/ 通知 dry-run。
+
+运行：python -m pytest kdo-tools/tests/test_conveyor_probe.py -q
+"""
+import importlib.util
+import sys
+from pathlib import Path
+
+_SPEC = importlib.util.spec_from_file_location(
+    "conveyor_probe", Path(__file__).resolve().parent.parent / "conveyor_probe.py"
+)
+probe = importlib.util.module_from_spec(_SPEC)
+_SPEC.loader.exec_module(probe)
+
+TRIPLET = """---
+id: diag_test-1
+title: 测试建议书
+type: proposal
+status: pending_orchestration
+audience: 王语嫣
+.....                                                                    [100%]
+5 passed in 6.27s
+5 passed. Now task 1 layer 3: inventory of tracked files >15MB. Run the scan and write the inventory file.
+
+• 门禁测试 5 passed。跑存量扫描，出清单。

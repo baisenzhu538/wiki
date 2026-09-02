@@ -599,6 +599,8 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - 00_inbox/wechat-collect/src_wechat_fe60439837f4c93e.md｜P2｜1126B｜检测到 09-02 14:39｜待王语嫣编排
 - 00_inbox/wechat-collect/src_wechat_article_tt_af50baaada5fc2f2.md｜P2｜7264B｜检测到 09-02 15:21｜待王语嫣编排
 - 00_inbox/pending-cards/case-wechat-article_tt_af50baaada5fc2f2.md｜P2｜3942B｜检测到 09-02 15:31｜待王语嫣编排
+- 00_inbox/AI落地Live77-国帅课程创作心路历程-逐字稿.md｜P0｜21890B｜检测到 09-02 16:31｜待王语嫣编排
+- 00_inbox/AI落地Live86-Candy-kinda龙虾员工实践+Agent创建模版-逐字稿.md｜P0｜32442B｜检测到 09-02 16:31｜待王语嫣编排
 
 <!-- INBOX-PENDING-END -->
 

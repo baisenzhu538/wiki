@@ -429,3 +429,4 @@
 - [2026-09-02 23:42] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#622（huangyaoshi 的单，挂审 6min）（事件驱动：有待终审）
 - [2026-09-02 23:50] ❌ 终审 #622（黄药师 graph_index 重建+哨兵）FAIL 退回 queued：P0=交付核心变更（conveyor_probe.py/测试/matrix行27/派生哈希）全部未入仓（git show HEAD grep 哨兵函数=0，#362 第一问触发）；P1=根因注记负向判词缺存在性核查锚点（#433）；功能面已独立复跑全部成立（graphml 3620nodes/6694edges、口语化查询 5chunks/24entities 复明、哨兵 47passed+dry-run 健康态无告警、state 键落位、陈旧相对口径认可）——重报只需 commit+补核查节，终审记录已落任务单；附带最小建议书 prop_20260902_ouyangfeng-complete-gate-uncommitted-deliverables（complete 门禁加未入仓检查）
 - [2026-09-03 00:12] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-03 00:27] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#622（huangyaoshi 的单，挂审 8min）（事件驱动：有待终审）

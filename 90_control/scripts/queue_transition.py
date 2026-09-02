@@ -143,6 +143,10 @@ PENDING_COMMIT_LOG = _WIKI_ROOT / "90_control" / "pending-git-commits.log"
 # #460 层 2：门禁拦截自动落盘（机器自报——agent 不报也能上浮给王语嫣）
 GATE_BLOCKED_LOG = _WIKI_ROOT / "90_control" / "gate-blocked.log"
 GATE_BLOCKED_TEST_LOG = _WIKI_ROOT / "90_control" / "gate-blocked-test.log"  # #483：测试件独立日志（task_9999_*，防第五探针误报）
+# #625 任务2：WARNING 级台账（不拦截、不进 gate-blocked.log——那是探针第五信号扫描面，
+# WARNING 混入会让王语嫣收到非拦截告警）；测试件同 #483 分流独立日志
+GATE_WARNING_LOG = _WIKI_ROOT / "90_control" / "gate-warning.log"
+GATE_WARNING_TEST_LOG = _WIKI_ROOT / "90_control" / "gate-warning-test.log"
 
 
 # F-036 问题落点判定在 queue_gate（共享真相源——门禁+探针第七信号同用，禁副本）
@@ -162,6 +166,22 @@ def _capsule_event(agent: str, event: str, payload: str) -> None:
     except Exception as e:
         print(f"⛔ 胶囊事件钩异常（流转/台账已成功，不阻断）：agent={agent} event={event}: {e}",
               file=sys.stderr)
+
+
+def _log_gate_warning(task_id: str, gate: str, reason: str, instance: str = "") -> None:
+    """#625 任务2：WARNING 级门禁台账（不拦截场景留痕——WARNING 说了却没痕=白说）。
+
+    与 _log_gate_blocked 分流：拦截进 gate-blocked.log（探针第五信号扫描面，会通知
+    王语嫣）；WARNING 进 gate-warning.log（纯台账，不通知）。测试件 task_9999_*
+    同 #483 纪律走独立 gate-warning-test.log。
+    """
+    try:
+        ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        target = GATE_WARNING_TEST_LOG if task_id.startswith("task_9999_") else GATE_WARNING_LOG
+        with target.open("a", encoding="utf-8") as f:
+            f.write(f"{ts}｜{task_id}｜{gate}｜{reason[:200]}｜{instance}\n")
+    except Exception:
+        pass
 
 
 def _log_gate_blocked(task_id: str, gate: str, reason: str, instance: str = "") -> None:
@@ -766,6 +786,36 @@ _DELIVERABLE_AUTO_COMMIT = {"production-queue.md", "dashboard.html"}
 # 交付物节内容里的反引号路径：含 / 且有扩展名才认（防命令/字段名误识别）
 _DELIVERABLE_PATH_RE = re.compile(r"`([^`\n]+)`")
 
+# #625 任务2：裸路径 loose-scan（#622 终审 FAIL 实证——交付物节路径未加反引号时，
+# 反引号启发式全漏 → E040 vacuous 通过 → 哨兵代码未入仓照样提审）。
+# 仅在反引号识别为空时启用兜底；按 vault 已知顶层目录前缀匹配裸路径，
+# 命中且有未入仓 → WARNING+台账（不拦截，prop_20260902_ouyangfeng 口径）。
+_LOOSE_TOP_DIRS = (
+    "kdo-tools", "90_control", "30_wiki", "40_outputs", "50_delivery",
+    "60_feedback", "70_product", "20_memory", "10_raw", "agents", "cap_hub",
+)
+_LOOSE_PATH_RE = re.compile(
+    r"(?<![\w/.\\-])((?:" + "|".join(_LOOSE_TOP_DIRS) +
+    r")/[^\s`，。、；：（）()【】\"']+?\.[A-Za-z0-9]{1,10})(?![\w/-])"
+)
+
+
+def _extract_deliverable_paths_loose(report: str, task_file_name: str) -> list[str]:
+    """交付物节裸路径兜底提取（无反引号包裹的仓内相对路径）。仅 loose 场景用。"""
+    section = _extract_deliverable_section(report)
+    paths: list[str] = []
+    if section:
+        for norm in _LOOSE_PATH_RE.findall(section):
+            # 与反引号版同口径：_tmp 划痕路径 / 自动收口文件 / 任务单自身豁免
+            if norm.startswith("_tmp/") or "/_tmp/" in norm:
+                continue
+            base = norm.rsplit("/", 1)[-1]
+            if base in _DELIVERABLE_AUTO_COMMIT or norm == task_file_name or base == task_file_name:
+                continue
+            if norm not in paths:
+                paths.append(norm)
+    return paths
+
 
 def _extract_deliverable_section(report: str) -> str:
     """提取执行报告「交付物」节文本（锚点=DELIVERY_FIELDS 改动文件清单三写法；
@@ -843,6 +893,29 @@ def _check_deliverables_committed(task_file: Path, fm: dict[str, Any],
 
     paths = _extract_deliverable_paths(report, task_file.name)
     if not paths:
+        # #625 任务2：反引号启发式为空 → 裸路径 loose-scan 兜底。loose 命中未入仓
+        # = WARNING+台账（不拦截）；幻觉路径（盘上不存在且未跟踪）不查。
+        loose_problems: list[str] = []
+        for rel in _extract_deliverable_paths_loose(report, task_file.name):
+            if not (wiki_root / rel).exists() and not _git_tracked(wiki_root, rel):
+                continue
+            if not _git_tracked(wiki_root, rel):
+                loose_problems.append(f"untracked: {rel}")
+                continue
+            if _git_uncommitted(wiki_root, [rel]):
+                loose_problems.append(f"未提交改动: {rel}")
+        if loose_problems:
+            _log_gate_warning(str(fm.get("id") or task_file.stem),
+                              "E040-loose交付物未入仓WARNING",
+                              "；".join(loose_problems), str(fm.get("instance") or ""))
+            return True, "", (
+                "⚠️ E040-loose（#625）：交付物节路径未加反引号，裸路径兜底命中 "
+                f"{len(loose_problems)} 个未入仓——未 commit=不存在（#622 实证）：\n"
+                + "\n".join(f"  - {p}" for p in loose_problems)
+                + "\n补救：git add <路径> && git commit 后重跑 complete"
+                "（本次 WARNING 不拦截，台账 90_control/gate-warning.log；"
+                "交付物节路径请加反引号让 E040 硬门禁接管）"
+            )
         return True, "", "交付物节未识别出文件路径（启发式覆盖外）——人工自核已入仓"
 
     problems: list[str] = []

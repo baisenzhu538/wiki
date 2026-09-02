@@ -548,3 +548,6 @@
 - [2026-09-03 00:05] ⚠️ near-miss 超期升级：prop_20260902_ouyangfeng-complete-gate-uncommitted-deliverables.md 三元组违例已 3 轮未修正（首检出 2026-09-02 23:47；type: proposal 但三元组不完整：缺 audience）——请捞处置（#536）
 - [2026-09-03 00:08] 老朱纠偏成立：Candy 版=课后加餐文档非课稿同源（原始稿 L708 宣告+ROI 搭档内容课稿零命中实证）——我「同源沿用」误判更正，立 #624 补产（老顽童拉起）；合集版↔根目录版双向 diff 零差异（同文两导出格式）
 - [2026-09-03 00:12] 值守拍：#622 终审 FAIL 打回（哨兵代码未入仓，E040 又立功）；两份新建议书裁定并单 #625（大文件三层门禁+complete 未入仓 WARNING——391MB zip 断 push 3 个月事故链实证）；拉黄药师 #622 返工→#625
+- [2026-09-03 00:27] ⛔ KDO 门禁拦截 2 次（gate-blocked）：2026-09-03 00:19:12｜task_20260902_huangyaoshi-graph-index-rebuild-sent…
+- [2026-09-03 00:31] 📥 新素材 2 项（P0 2）：AI落地Live77-国帅课程创作心路历程-逐字稿.md、AI落地Live86-Candy-kinda龙虾员工实践+Agent创建模版-逐字稿.md——请诊断编排（看板待编排段）
+- [2026-09-03 00:32] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#622（huangyaoshi 的单，挂审 13min）；#624（laowantong 的单，挂审 3min）（到点（节奏 30min））

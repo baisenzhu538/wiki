@@ -879,4 +879,332 @@ UnicodeEncodeError: 'gbk' codec can't encode character '\u02c8' in position 410:
 
   Write the card now. Frontmatter required fields: id/type/status/author/reviewed_by/confidence/trust_level/source_refs/related. status: enriched? Previous cards used status: reviewed only after review... #586's new cards were submitted with status... the dk card shows status: reviewed after review. Initially probably `status: enriched` + reviewed_by: pending. Check what a freshly-submitted card used — the #610 report said cards落库 with pre-submit pass; frontmatter likely status: enriched, reviewed_by: pending. pre-submit requires reviewed_by field non-empty — "reviewed_by: pending" acceptable (dk-brooks fix added reviewed_by: pending). OK.
 
-  For pre
+  For pre-submit case requirements: 关键数字 + 证据表. Include 证据表 (evidence table) and 关键数字 section.
+
+• 写卡 1：春节 14 天加课决策 case 卡（双标注）。
+
+• Now Card 2: GEO playbook tool card. Content from 探索营 candy L514-548:
+
+  - 适用对象： 0基础同学、企业市场/运营/内容负责人. 目标： 搭建 GEO 基础设施： 百科、官网、关键词、媒体矩阵、内容发布
+  - 底层逻辑 (L518 header only... wait "GEO 是什么：先记住一个底层逻辑" is a header — content not expanded). Hmm, actually looking again at the file: L516 has intro prose, L518-538 are headers, L540-548 pitfalls expanded. So the expanded content = intro + pitfalls. The 7 steps are titles only but self-explanatory titles: 百科矩阵占住AI认知入口 / 官网改造成"AI信源型官网" / 产品场景化拆N问题 / 挖关键词覆盖认知到决策 / 注册3-5个媒体账号让AI多处验证 / 3个公式持续发布内容 / 把品牌做成AI可点名实体. Plus 8天启动清单 (title) + 13项交付标准 (title, contents not in file).
+
+  I must be honest in the card: steps are outline-level from this source; external GEO literature (KDD paper) fills the mechanism. Critique: ①效果归因难 (industry-ai-cases already noted 国内归因未打通）; ②学术视角： GEO paper shows 40% visibility improvement claims but platform algorithms opaque; SafeGEO etc show manipulation risk.
+
+  Structure per tool card conventions: 一句话定义/核心机制/操作步骤/判断标准/失败模式/When NOT to Use/Constraints/Action Triggers/Critique/Synthesis. pre-submit tool requirements: 操作步骤 + When NOT to Use + 失败模式.
+
+  related: industry-ai-cases (GEO business context), method-obsidian-km-camp (same candy batch, declared GEO out of its scope), method-yitang-jiangxiang-audience-value-routing (#610; keyword intent mapping kin), tool-media-verification-overview? maybe not. case-yitang-jiangxiang-12-practices? it had GEO mention (from grep, 12-practices mentioned GEO). Check briefly what it says... it appeared in grep list for GEO. Let me quickly grep it.30_wiki/cases/case-yitang-jiangxiang-12-practices.md:104:- **消费者心理学攻击**：净水器 Reframer 案例被学员群推崇，但其说服力来源部分依赖"行业公开的秘密"式阴谋叙事（"取消压力桶没别的原因，就是为了卖高价滤芯"）——此类全称断言不可证伪且天然传播性强，与"GEO 长期价值来自可信信源"的底线冲突。学其结构可以，学其断言浓度会烧掉长期信任。
+30_wiki/tools/tool-opc-sales-dialogue-assistant.md:305:6. 当用户问题跨域或明显超出销售范畴（如同时问网站、GEO、品牌设计）时，可切换到 Coach 模式（tool-agent-spec-yitang-Y-model-coach），先结构化再决定调用哪个域 Agent。
+Interesting — case-yitang-jiangxiang-12-practices (#586 W3-4) already quotes the GEO pitfall line "GEO 长期价值来自可信信源". So there's slight overlap awareness but no GEO method card. Good.
+
+  Now write the GEO tool card.Now:
+  1. Backfill related links on existing cards? The instruction "与 #610/#611 产出卡互链" — my new cards link TO them; 反向补链 on existing cards: dk-yitang-fact-three-questions-trust-tiers and method-yitang-jiangxiang-audience-value-routing, plus dk-koupen-decision-tiering-compromise should link to the new case card. Per #609 precedent "存量卡反向补链". Add:
+     - dk-koupen-decision-tiering-compromise: add related link to case card.
+     - method-obsidian-km-camp: add link to GEO card (it declared GEO out of scope — natural pointer).
+     - method-yitang-jiangxiang-audience-value-routing: add link to GEO card.
+     - dk-yitang-fact-three-questions-trust-tiers: add link to case card.
+     
+     Keep it minimal: 2-3 backfill edits. Check concurrency risk — no other instance running per myqueue? There are queued huangyaoshi tasks but 0 claimed. Fine.
+
+  2. Run pre-submit on both new cards.
+  3. Self-attack (four-way). 
+  4. Commit + complete.
+
+  Let me do the backlink edits. Read the related sections of target files first.
+
+• 两张卡已落。现在做存量卡反向补链，然后跑 pre-submit。30_wiki/dark-knowledges/dk-koupen-decision-tiering-compromise.md:31:related:
+30_wiki/dark-knowledges/dk-koupen-decision-tiering-compromise.md-32-- '[[dk-koupen-500-vs-5000]]'
+30_wiki/dark-knowledges/dk-koupen-decision-tiering-compromise.md-33-- '[[dk-koupen-input-method-loss]]'
+30_wiki/dark-knowledges/dk-koupen-decision-tiering-compromise.md-34-- '[[concept-X型Y型决策习惯]]'
+30_wiki/dark-knowledges/dk-koupen-decision-tiering-compromise.md-35-- '[[method-key-assumption-abcd]]'
+30_wiki/dark-knowledges/dk-koupen-decision-tiering-compromise.md-36-- '[[tool-ai-koupen-training-partner-design]]'
+30_wiki/dark-knowledges/dk-koupen-decision-tiering-compromise.md-37-- '[[tool-yitang-sales-process-decomposition]]'
+30_wiki/dark-knowledges/dk-koupen-decision-tiering-compromise.md-38-- '[[method-storytelling-with-numbers]]'
+30_wiki/dark-knowledges/dk-koupen-decision-tiering-compromise.md-39-- '[[case-truman-spring-festival-1000]]'
+30_wiki/dark-knowledges/dk-koupen-decision-tiering-compromise.md-40-discoverable_by:
+30_wiki/dark-knowledges/dk-koupen-decision-tiering-compromise.md-41-- 决策分档
+30_wiki/dark-knowledges/dk-koupen-decision-tiering-compromise.md-42-- 妥协决策
+30_wiki/dark-knowledges/dk-koupen-decision-tiering-compromise.md-43-- TOP3平衡
+--
+30_wiki/methods/method-obsidian-km-camp.md:33:related:
+30_wiki/methods/method-obsidian-km-camp.md-34-- '[[case-jovida-ai-life-coach]]'
+30_wiki/methods/method-obsidian-km-camp.md-35-- '[[method-anthropic-skill-design-patterns]]'
+30_wiki/methods/method-obsidian-km-camp.md-36-- '[[concept-agent-university]]'
+30_wiki/methods/method-obsidian-km-camp.md-37-- '[[framework-muse-ai-full-map-v1]]'
+30_wiki/methods/method-obsidian-km-camp.md-38-discoverable_by:
+30_wiki/methods/method-obsidian-km-camp.md-39-- laowantong
+30_wiki/methods/method-obsidian-km-camp.md-40-- wangyuyan
+30_wiki/methods/method-obsidian-km-camp.md-41-- ouyangfeng
+30_wiki/methods/method-obsidian-km-camp.md-42-tags:
+30_wiki/methods/method-obsidian-km-camp.md-43-- method
+30_wiki/methods/method-obsidian-km-camp.md-44-- knowledge-management
+30_wiki/methods/method-obsidian-km-camp.md-45-- semantic-search
+--
+30_wiki/methods/method-yitang-jiangxiang-audience-value-routing.md:27:related:
+30_wiki/methods/method-yitang-jiangxiang-audience-value-routing.md-28-- '[[method-shizhi-jiangxiang-ten-strategies]]'
+30_wiki/methods/method-yitang-jiangxiang-audience-value-routing.md-29-- '[[case-yitang-jiangxiang-12-practices]]'
+30_wiki/methods/method-yitang-jiangxiang-audience-value-routing.md-30-- '[[tool-yitang-jiangxiang-launch-copywriting-arsenal]]'
+30_wiki/methods/method-yitang-jiangxiang-audience-value-routing.md-31-- '[[concept-讲香-卖点直给到价值感]]'
+30_wiki/methods/method-yitang-jiangxiang-audience-value-routing.md-32-- '[[tool-一堂-FAB说服法]]'
+30_wiki/methods/method-yitang-jiangxiang-audience-value-routing.md-33-discoverable_by:
+30_wiki/methods/method-yitang-jiangxiang-audience-value-routing.md-34-- 受众分析
+30_wiki/methods/method-yitang-jiangxiang-audience-value-routing.md-35-- 文案策略选择
+30_wiki/methods/method-yitang-jiangxiang-audience-value-routing.md-36-- 三类受众
+30_wiki/methods/method-yitang-jiangxiang-audience-value-routing.md-37-- 五种价值
+30_wiki/methods/method-yitang-jiangxiang-audience-value-routing.md-38-- 讲香选指
+30_wiki/methods/method-yitang-jiangxiang-audience-value-routing.md-39-- 消费群体参与群体社会群体
+--
+30_wiki/dark-knowledges/dk-yitang-fact-three-questions-trust-tiers.md:31:related:
+30_wiki/dark-knowledges/dk-yitang-fact-three-questions-trust-tiers.md-32-- '[[case-yitang-eason-truth-delivery-audit]]'
+30_wiki/dark-knowledges/dk-yitang-fact-three-questions-trust-tiers.md-33-- '[[framework-yitang-shishi-qiushi]]'
+30_wiki/dark-knowledges/dk-yitang-fact-three-questions-trust-tiers.md-34-- '[[tool-yitang-shishi-qiushi-cheat-sheet]]'
+30_wiki/dark-knowledges/dk-yitang-fact-three-questions-trust-tiers.md-35-- '[[dk-实事求是目标管理双原则]]'
+30_wiki/dark-knowledges/dk-yitang-fact-three-questions-trust-tiers.md-36-- '[[framework-kdo-self-attack]]'
+30_wiki/dark-knowledges/dk-yitang-fact-three-questions-trust-tiers.md-37-- '[[concept-kdo-component-library]]'
+30_wiki/dark-knowledges/dk-yitang-fact-three-questions-trust-tiers.md-38-- '[[concept-agent-university]]'
+30_wiki/dark-knowledges/dk-yitang-fact-three-questions-trust-tiers.md-39-- '[[concept-yihang-data-pack-ethics]]'
+30_wiki/dark-knowledges/dk-yitang-fact-three-questions-trust-tiers.md-40-discoverable_by:
+30_wiki/dark-knowledges/dk-yitang-fact-three-questions-trust-tiers.md-41-- 事实三问
+30_wiki/dark-knowledges/dk-yitang-fact-three-questions-trust-tiers.md-42-- 信任等级
+30_wiki/dark-knowledges/dk-yitang-fact-three-questions-trust-tiers.md-43-- 署名真实性
+
+
+• Backlinks done (4/4). Now pre-submit both new cards. Need kdo index incremental maybe first (pre-submit complained about stale index before). Run pre-submit on both.
+
+• 反向补链 4/4 完成。跑 pre-submit 门禁。  [DOMAIN]: 0 issues
+  [DK_SECTION]: 0 issues
+  [OUTLINK]: 0 issues
+  [ALIASES]: 1 warnings
+    🟡 30_wiki/cases/case-truman-roi-decision-spring-festival-class.md
+       Source names not in title/aliases — card will be undiscoverable: Live260-AI口喷基本功内测candy-逐字稿. Add these to the aliases field.
+  [POSITION_DECLARATION]: 0 issues
+  [SOURCE_REACHABILITY]: 1 warnings
+    🟡 30_wiki/cases/case-truman-roi-decision-spring-festival-class.md
+       1/1 source_refs unreachable: 00_inbox/Live260-AI口喷基本功内测candy-逐字稿.md L23-L72（ROI 搭档口喷原文+清单体版本）
+  [QUALITY_SCORE]: 1 info
+    📊 30_wiki/cases/case-truman-roi-decision-spring-festival-class.md
+       Quality pre-score: 55/100 | pos:N/A | tacit:5 (template?) | src:15 (1) | decomp:10 (2)
+  [BODY_SRC_UNKNOWN]: 0 issues
+  [VLM_TWO_SECTION]: 0 issues
+  [CONCEPT_CROSSCHECK]: 1 warnings
+    🟡 30_wiki/cases/case-truman-roi-decision-spring-festival-class.md
+       本卡涉及已有概念：Truman（权威定义见 [[concept-five-step-growth-to-barrier-transition]]）、科学决策（权威定义见 [[yt-management-scientific-decision]]）、六阶段（权威定义见 [[concept-truman-feature-six-stages]]）、关键假设（权威定义见 [[framework-lean-abcd-model]]）、学习闭环（权威定义见 [[ai-learning-closed-loop]]）——请人工核对与权威定义的一致性（#542 提示制不拦截；小昭事故根因 3 降档版）
+  [QUOTE_VERBATIM]: 0 issues
+  [SOURCE_RANGE]: 0 issues
+
+  ✅ Result: PASS（3 条 WARNING 在列——有警在身，非全清，终审前自行掂量）
+     下一步：贴本输出到任务单 → 提交 → 欧阳锋终审（WARNING 明细如实附上）
+====================================================================
+
+    🟡 30_wiki/tools/tool-geo-ai-search-visibility-playbook.md
+       Source names not in title/aliases — card will be undiscoverable: AI知识管理探索营内测Candy-逐字稿. Add these to the aliases field.
+  [POSITION_DECLARATION]: 0 issues
+  [SOURCE_REACHABILITY]: 1 warnings
+    🟡 30_wiki/tools/tool-geo-ai-search-visibility-playbook.md
+       1/1 source_refs unreachable: 00_inbox/AI知识管理探索营内测Candy-逐字稿.md L514-L548（GEO 实操一页纸指南全节）
+  [QUALITY_SCORE]: 1 info
+    📊 30_wiki/tools/tool-geo-ai-search-visibility-playbook.md
+       Quality pre-score: 55/100 | pos:N/A | tacit:5 (template?) | src:15 (1) | decomp:10 (2)
+  [BODY_SRC_UNKNOWN]: 0 issues
+  [VLM_TWO_SECTION]: 0 issues
+  [CONCEPT_CROSSCHECK]: 1 warnings
+    🟡 30_wiki/tools/tool-geo-ai-search-visibility-playbook.md
+       本卡涉及已有概念：知识管理（权威定义见 [[yt-management-team-knowledge]]）、与引用（权威定义见 [[rust-borrowing-references]]）、场景化（权威定义见 [[yt-pitch-scenarization]]）、方法论（权威定义见 [[concept-ji-hao-ai-collaboration-methodology]]）——请人工核对与权威定义的一致性（#542 提示制不拦截；小昭事故根因 3 降档版）
+  [QUOTE_VERBATIM]: 0 issues
+  [SOURCE_RANGE]: 0 issues
+  [INDEX]: 1 errors
+    🔴 30_wiki/tools/tool-geo-ai-search-visibility-playbook.md
+       卡片比检索索引新（kdo query/kdo_search 检索不到）——先跑 `kdo index --incremental`（秒级增量）再提审；全量重建用 `kdo index`（分钟级）
+
+  🔴 Result: FAIL — 1 个错误要修（#220 P1-5 讲香）
+     路径感：从上往下修——先修 YAML 结构错误（阻断后续检查），再修内容错误
+     修完重跑本命令，看到 ✅ PASS 再提交，省欧阳锋一轮往返
+====================================================================
+
+
+
+• GEO card failed on INDEX — card newer than search index. Run `kdo index --incremental` (allowed — the prohibition is on full rebuild which blocks; #586 precedent: 老顽童 ran `kdo index --incremental` himself). Then re-run pre-submit on both.
+
+  Also address warnings where cheap: SOURCE_REACHABILITY says source_refs unreachable — because I appended "L514-L548（...）" annotation. The #610 card used format `00_inbox/Live257-...md:1316-1354`. Use `path:line-range` format instead. Let me fix source_refs format in both cards. Also ALIASES warning: add source file name to aliases? Precedent cards （学习candy合集 in aliases). Add the file names to aliases.
+
+  First check what file path is correct: 00_inbox/AI知识管理探索营内测Candy-逐字稿.md exists (I read it). The reachability check probably fails due to the " L514-L548（...）" suffix. Fix to `:514-548` format.Also add source file names to aliases for discoverability. Case card aliases: add "Live260 Candy". GEO card: add "AI知识管理探索营Candy". Minor. Let me add via Edit — need to re-read the aliases blocks (I wrote them, I know the content). For case card aliases ends with "- Live260 ROI搭档". For GEO ends with "- 百科矩阵". Edit both, then run index --incremental, then pre-submit both.Incremental: +2 ~4 -0 (total 4180) -> C:\Users\Administrator\Desktop\wiki\.kdo\search_index.json
+    🟡 30_wiki/cases/case-truman-roi-decision-spring-festival-class.md
+  ✅ Result: PASS（1 条 WARNING 在列——有警在身，非全清，终审前自行掂量）
+     下一步：贴本输出到任务单 → 提交 → 欧阳锋终审（WARNING 明细如实附上）
+    🟡 30_wiki/tools/tool-geo-ai-search-visibility-playbook.md
+    🟡 30_wiki/tools/tool-geo-ai-search-visibility-playbook.md
+  ✅ Result: PASS（2 条 WARNING 在列——有警在身，非全清，终审前自行掂量）
+     下一步：贴本输出到任务单 → 提交 → 欧阳锋终审（WARNING 明细如实附上）
+Both PASS. Remaining warnings: CONCEPT_CROSSCHECK (#542 提示制， both cards) — informational. Let me capture the full outputs for the task report. I'll re-run and save full outputs to paste into the task file. Actually I can summarize; but discipline says paste complete output. Let me get full outputs and save them to append into the task file.
+
+  Next: 自攻击 (four-way). Per framework-kdo-self-attack — four routes attack. Given constraints, do a compact self-attack: logical holes, boundary missing, attribution errors. Let me re-read my cards critically... I wrote them; do a quick self-attack pass mentally and check specifics:
+
+  Card 1 (case):
+  - Claims sourced from lines 23-72 — verified during read. "约一半决策" marked 待核实 ✓. Numbers table ✓. Critique has 2 external attackers (Simon, Duke) with responses ✓. 失败模式 concrete ✓. 定位声明 ✓. 密级双标注 ✓ (source_context + 正文密级声明）.
+  - Potential issue: "AI 搭档可以补的位" — fine.
+
+  Card 2 (GEO):
+  - Honest about outline-level steps ✓. Critique 2 attackers ✓. Failure modes ✓.
+  - The claim "可见性提升约 40%" from paper — that's accurate (the GEO paper claims up to 40% visibility improvement with citations/quotations/statistics). OK.
+  - trust_level medium appropriate.
+
+  Self-attack conclusion: no 🔴, maybe 🟡: case card's "六阶段" naming vs concept-truman-feature-six-stages (flagged by crosscheck) — different "six stages" concept; my card doesn't claim relation; note in report.
+
+  Now save pre-submit full outputs into task file as evidence. Then git add + commit (L12 git status), write 五字段执行报告， complete.
+
+  Let me capture full pre-submit outputs to append.
+
+• 双卡 pre-submit PASS。把完整输出落任务单，然后自攻击 + 入仓。appended
+
+
+• Now self-attack (L2 gate). Do a focused four-route attack on both cards. Let me quickly verify quotes in case card against source lines (QUOTE_VERBATIM was 0 issues already — mechanical check passed). Verify a couple of key facts:
+  - "录播课+实时评论区" — source L47 ✓
+  - "我只能干一件事，本来还有个直播的事" — L39 ✓
+  - MBA 三天两夜 — L25/L51 ✓
+  - "我差不多有一半的决策" — L29 ✓ ("其实我差不多有一半的决策")
+
+  GEO card: pitfalls 7 items match L542-547 ✓. "适用对象：0基础同学、企业市场/运营/内容负责人" L516 ✓. 3-5 媒体账号 L530 ✓.
+
+  Self-attack routes:
+  1. 逻辑漏洞： case card — 阶段 numbering 0-6 (7 items called 六阶段）? I labeled 阶段 0 to 6 = seven headings! Title says 六阶段. Hmm: 阶段0 分档， 阶段1 明确问题， 2 口述成本收益， 3 初步打磨， 4 找主矛盾， 5 重点拆解， 6 切方案 = that's 阶段0+6 = 7 stages but called "六阶段". In the source, the case walkthrough is: 明确问题→口述成本收益→初步打磨→找主矛盾（第五阶段）→重点拆解（6重点拆解）→切方案. Truman himself said "这个相当于到了第五阶段" and "这个时候到6重点拆解" — so the source's own numbering implies the case has stages 1-6 （明确问题=1, 口述成本收益=2?, 初步打磨， 主矛盾=5, 重点拆解=6), with 分档 being a pre-step. My 阶段0-6 labeling with "六阶段" title: 阶段0 is 分档 (pre-step), then 1-6. Actually count: 1明确问题 2口述成本收益 3初步打磨 4找主矛盾 5重点拆解 6切方案 = 6 stages + 阶段0 分档. That's consistent! Good — 分档是第 0 步（决策前的元决策），案例主干六阶段. The card says "决策六阶段（案例主干）" and lists 阶段0 separately. OK, defensible.
+
+  2. 边界： both have When NOT to Use ✓.
+  3. 归因谬误： 50% 妥协 marked as 自述 ✓; GEO 40% attributed to paper ✓.
+  4. 素材消费率： Live260 candy — ROI 搭档 section fully consumed (case card covers it; 陪练官 section already covered by existing tool card — consumed via查重）. 探索营： MemPalace (covered by existing card), 半肥猫 （复核→结论：增量不足成卡，证据写报告）, GEO (new card), 10篇目录 （族B已覆盖）. Consumption ≥80% ✓.
+
+  半肥猫复核结论 — need evidence mapping:
+  - 路演逐字稿 (L434-470): only 结尾 expanded; P1-P8 headers only. 结尾内容 = "非程序员把经验变成知识资产系统" — already covered by case-ban-fei-mao-from-assignment-to-tool + dk-ban-fei-mao-real-business-is-the-engine.
+  - 大课案例全文 (L472-513): headers + 总结三点启发：
+    ① "通用知识不值钱，标注好的数据才值钱" → covered by framework-AI知识库-五维标注深挖法 + concept-AI知识库-原子化拆分 （需要verify these exist and cover the claim — 五维标注深挖法 exists in frameworks list ✓)
+    ② "工具会一直变，但积累不会白费" → check coverage... dk-yb1-aigc-mvp-before-ps? Not exactly. Hmm. Is this a real gap? It's a one-liner aphorism; the 开放麦 material （半肥猫开放麦-AI知识库 in 00_inbox) likely already produced such cards. framework-AI知识库-五阶段演进 covers tool migration? To be honest in the report: 三点启发中 ①③ 与存量卡重叠，②（工具迭代但认知积累不失效）为零散金句级增量，未达单卡阈值（无过程、无数字、无反例），建议并入后续半肥猫域任务而非本单硬产。
+    ③ "AI越强，人越要站高（定义需求/拆解问题/把关审美/最终决策）" → overlaps ai-collaboration-mindset-shift + concept-AI知识库-四关键词？ Reasonable overlap claim; grep earlier showed no direct phrase coverage, but conceptually covered.
+
+  Given task says "有增量则补 1-2 卡" — I found GEO increment and produced 1 card. 半肥猫路演口述层： 判定微增量不足成卡，落证据。That's honest.
+
+  Now L12: git status + commit. Then execution report, complete, verify, todos.
+
+  Commit: git add the two new cards + 4 modified cards + task file. Commit message in Chinese per repo convention.
+
+• 自攻击过一遍引文与结构，然后 L12 git status 入仓。10
+25:举个例子，比如说如果是MBA三天两夜教研要不要去，我大概率就得到，就是重点定量。我就不能定性，定不出来，比如说我们要做一些投放或者新渠道，我就得财务公式必须得完整且定量算成钱，所以都不太一样。所以就我自己的习惯是我脑子里开篇，我会大概预设一下它得到哪一层才能解决问题，我大概可以判断出来，比如说买，要买一个东西，我可能想一下成本收益大概定性一下就行，差不多就行。比如说我要买一个东西，我可能局部定量，就我大概会有个谱。
+29:最后大概做出决策。如果要是不行，其实还有一个流程，以前我做调研，这是一个比较高阶的状态，就是我写的那个7，就是其实我差不多有一半的决策，最后都是。妥协决策就是发现一个方案 A 不太行，不太够，这个时候去加了一个这个动态的过程。举个例子，比如说我发现给公司全花可能就太贵了，但是不花吧？好像不太行。最后换成说某一个团队花，其他人不花，或者是换一个方式，最后来通过调参数，最后拿到一个 ROI 最大化，很多决策都是这么做出来的，不要那什么，我举个例子。
+39:然后补完参数之后下一个问题就是这里面哪个是主要的成本？最大成本是什么？有可能最大的成本是CEO的机会成本，我只能干一件事，本来还有个直播的事，所以那个参数就被得被拿下来，或者是这事最大的收益是什么？最大收益真的存在吗？真的用户会冷吗？不知道这也是一个主矛盾。
+47:比如说不做直播，直接给全员放一个录播课+实时评论区。这样的话成本最大的成本项就降下去了，最大的收益项基本保留了。
+51:1. 核心习惯： 开篇不追求全，先判断这个决策需要得到哪一层才能解决问题。 ◦ 有的决策定性即可：例如买一件东西，成本收益大概判断差不多就行。 ◦ 有的决策局部定量：心里大概有个谱。 ◦ 有的决策严格定量：例如 MBA 三天两夜教研要不要去、投放或新渠道测算，必须财务公式完整并算成钱。
+54:- ◦ 有的决策严格定量：例如 MBA 三天两夜教研要不要去、投放或新渠道测算，必须财务公式完整并算成钱。
+ M 30_wiki/cases/case-truman-roi-decision-spring-festival-class.md
+ M 30_wiki/dark-knowledges/dk-koupen-decision-tiering-compromise.md
+ M 30_wiki/dark-knowledges/dk-yitang-fact-three-questions-trust-tiers.md
+ M 30_wiki/methods/method-obsidian-km-camp.md
+ M 30_wiki/methods/method-yitang-jiangxiang-audience-value-routing.md
+ M 60_feedback/tasks/task_20260902_laowantong-candy-bonus-increment-cards.md
+?? 30_wiki/tools/tool-geo-ai-search-visibility-playbook.md
+
+
+• Wait — case card shows as " M" (modified) not "??" (untracked)? That means the file already existed in git?! I created it with Write... " M" means tracked and modified. Let me check: git log for that file. Maybe the file existed before? No — I wrote it new. Unless... the file was already tracked from an earlier add? Actually `kdo index --incremental` might have git-added? No. Hmm, or the Write created it and something staged it. Let me check git log.
+
+  Actually maybe pre-submit or index scripts auto-stage? Let me check.3f9190c5b vault backup: 2026-09-03 00:22:36
+warning: in the working copy of '30_wiki/cases/case-truman-roi-decision-spring-festival-class.md', LF will be replaced by CRLF the next time Git touches it
+ 30_wiki/cases/case-truman-roi-decision-spring-festival-class.md | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+There's an auto vault-backup commit (00:22) that swept in my new card after I created it — fine, it's tracked now. The diff shows only my last 2 edits since that backup commit. All good.
+
+  Now commit all task-related files.warning: in the working copy of '30_wiki/cases/case-truman-roi-decision-spring-festival-class.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '30_wiki/dark-knowledges/dk-koupen-decision-tiering-compromise.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '30_wiki/methods/method-obsidian-km-camp.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '60_feedback/tasks/task_20260902_laowantong-candy-bonus-increment-cards.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '30_wiki/tools/tool-geo-ai-search-visibility-playbook.md', LF will be replaced by CRLF the next time Git touches it
+[master f5dfb8acf] #624 Candy加餐增量补产：ROI搭档春节加课决策case卡（双标注）+GEO七步工具卡+4卡反向补链
+ 7 files changed, 223 insertions(+), 1 deletion(-)
+ create mode 100644 30_wiki/tools/tool-geo-ai-search-visibility-playbook.md
+Committed (f5dfb8acf). Now write the 五字段执行报告 into the task file, then complete. The execution report must include 探索营复核结论证据 （半肥猫 layer zero/micro-increment evidence).done
+warning: in the working copy of '60_feedback/tasks/task_20260902_laowantong-candy-bonus-increment-cards.md', LF will be replaced by CRLF the next time Git touches it
+[master 354d33e72] #624 任务单：建模方案+pre-submit输出+五字段执行报告
+ 1 file changed, 16 insertions(+)
+--evidence 文件不可读: 2新卡(case-truman-roi-decision-spring-festival-class双标注+tool-geo-ai-search-visibility-playbook)+4存量卡反向补链;pre-submit双PASS;commit f5dfb8acf;执行报告含探索营复核证据(GEO真增量已产卡/半肥猫路演层微增量不补卡)
+The --evidence argument expects a file path? Error: "--evidence 文件不可读". So evidence is a file. Let me check the script usage.complete 需要 --instance <instance>
+8:    python queue_transition.py complete <task-id> --instance <name> [--evidence <path>] [--force --reason '<理由>'] [--no-commit]
+978:# 机读锚点：执行报告节或 --evidence 文件含以下标记即算该字段存在（只验存在性，不判内容质量——只拦机械项不碰判断）
+997:def _check_delivery_fields(task_file, evidence: str | None) -> tuple[bool, str]:
+1000:    #444：evidence 不再作为五字段的替代检查面——五字段必须落在任务单「## 执行报告」节
+1001:    （evidence 只是佐证附件，防止指向任务单外文件绕过交接语义——#441 实证侧门）。
+1003:    if evidence is not None:
+1004:        # evidence 仅验证可读性（佐证附件），检查面恒为任务单执行报告节
+1006:            Path(evidence).read_text(encoding="utf-8", errors="ignore")
+1008:            return False, f"--evidence 文件不可读: {evidence}"
+1012:        return False, "任务单缺少「## 执行报告」节（#429 F-034：交付必须落执行报告，口头完成=未完成；#444：evidence 附件不能替代）"
+--evidence takes a file path. I'll point it to the task file itself as the evidence anchor, or just omit it. Simplest: omit --evidence since the five-field report is in the task file. Let me run complete without evidence.✅ task_20260902_laowantong-candy-bonus-increment-cards 已提交为 pending_review，等待欧阳锋终审
+📦 交付物校验: 交付物入仓核验通过（2 个路径已跟踪且无脏改动）
+✅ dashboard.html 已生成 (208 个任务)
+   待领取: 2  |  审查中: 2  |  进行中: 1  |  已完成: 203
+队列总任务数: 208
+queued: 2
+claimed: 1
+pending_review: 2
+  #622 task_20260902_huangyaoshi-graph-index-rebuild-sentinel — graph_index归零重建（08-31事故清空，语义腿空转2天）+健康哨兵机制化（空/0records/陈旧48h告警）
+5:status: pending_review
+220:| 591 | `task_20260901_huangyaoshi-vault-hypothesis-sweep` | 假说①②收敛排查+Sysmon前置取证：常驻服务/驱动/启动项审计过筛三要素+历史登录回查（08-01起4624类型3/10+4625+7045）+Sysmon部署自证（23事件抓进程名） | reviewed | huangyaoshi | 假说收敛报告+嫌疑Top10三要素评分+Sysmon部署证据 | 老朱0901直令「立项」；P0插队在#588前 | `60_feedback/tasks/task_20260901_huangyaoshi-vault-hypothesis-sweep.md` | 取证先于清除（欧阳锋序）；欧阳锋终审 |
+258:| 624 | `task_20260902_laowantong-candy-bonus-increment-cards` | Candy课后加餐增量补产：Live260口喷ROI搭档私密案例卡（原始课稿零覆盖实证）+探索营Candy增量复核（半肥猫路演口述层）；传播限制双标注#322口径 | pending_review | laowantong | 1-3张卡+探索营复核结论证据 | 无 | `60_feedback/tasks/task_20260902_laowantong-candy-bonus-increment-cards.md` | 老朱09-02纠偏（课后candy需复核）——王语嫣「同源沿用」误判更正立项；Candy=课后加工产物当独立素材诊断；欧阳锋终审 |
+485:- #624 task_20260902_laowantong-candy-bonus-increment-cards｜laowantong｜提审 09-03 00:29｜60_feedback/tasks/task_20260902_laowantong-candy-bonus-increment-cards.md
+L9 双验证通过：队列行 pending_review（line 258）+ 任务单 frontmatter status: pending_review ✓. 台账 line 485 已留痕.
+
+  Wait — queue status shows "claimed: 1" — is there still a claimed task? "进行中： 1". Hmm, that's probably... my claim transitioned to pending_review. claimed:1 might be another? Earlier after claim it showed 进行中： 1 (my claim). Now 审查中： 2, 进行中： 1. Something else is claimed — not mine (I had only 624). Let me check myqueue to confirm nothing of mine is stuck.🚧 进行中 0:
+  (无)
+⏳ 待终审 1:
+  #624 task_20260902_laowantong-candy-bonus-increment-cards — Candy课后加餐增量补产：Live260口喷ROI搭档私密案例卡（原始课稿零覆盖实证）+
+⚖️ 最近终审（48h） 5:
+  #611 task_20260902_laowantong-yitang-methodology-batch-cards — ✅PASS A-（2026-09-02）
+  #613 task_20260902_laowantong-586batch-reviewedby-residue-fix — 🔴退回返工（2026-09-02）
+  #613 task_20260902_laowantong-586batch-reviewedby-residue-fix — ✅PASS A-（2026-09-02）
+  #615 task_20260902_laowantong-614-verdicts-apply — ✅PASS A-（2026-09-02）
+  #617 task_20260902_laowantong-614-downgraded-cards-rework — ✅PASS A-（2026-09-02）
+#624 is pending_review, nothing of mine stuck in claimed. L9 double-verified. Now append the todos line and do session-closing 复盘.
+
+  Current time: get date for the todos timestamp.
+
+• #624 已提审双验证通过。落 todos 收尾行。2026-09-03 00:29
+
+
+done
+• Now session-closing discipline （老顽童 context 强制动作）:
+  0. 技能进化日志 append one line → 桌面/agent复盘/laowantong/技能进化日志.md
+  0.1 friction-log check — any friction? The --evidence file-path confusion (minor). Could log it. Yes, one friction: complete --evidence 参数需文件路径非文本 — log to .agent/friction-log.md.
+  1. 失忆恢复锚点 update if capabilities changed — no major change; skip or minor.
+  2. Truman 11章复盘 → 桌面/agent复盘/laowantong/daily-context/2026-09-03.md
+  3. daily-context-save.py save --agent laowantong --truman
+
+  Check the 复盘 format — agents/agent-os.md §10.2. Let me check the expected format quickly and the daily-context file convention (same-day file append rule: 同日多实例=同一 YYYY-MM-DD.md 追加）. Check if file exists.
+
+• 任务闭环。执行会话收尾强制动作（技能进化日志 + friction-log + Truman 复盘）。2026-08-29.md
+2026-08-30.md
+2026-08-31.md
+2026-09-01-hermes.md
+2026-09-02.md
+191:### 10.2 唯一标准格式
+314:| `agent复盘/<agent>/daily-context/YYYY-MM-DD.md` | **唯一直写**的复盘文件（Truman 11 章，§10.2 格式） | agent 本人，经 `daily-context-save.py` 落盘 | 每次会话收尾 |
+371:会话结束 → Agent 自己跑双三角复盘（§10.2）→ 映射本轮对话到六要素
+
+
+• Write the Truman 11-chapter review file, run the save+self-check command, update 技能进化日志 + friction-log, then finish.✅ 已保存：C:\Users\Administrator\Desktop\agent复盘\laowantong\daily-context\2026-09-03.md
+✅ 已存档：60_feedback\session-archives\2026-09-03\laowantong.md
+📋 自检：🟡 B级 📚检索有发现
+✅ 事件 #874 已写入: agent=laowantong event=review_saved
+🧪 胶囊 L0 已留痕: agent=laowantong event=review_saved
+✅ A → B 镜像完成: C:\Users\Administrator\.kdo-memory\L1 → D:\KDO-memory\L1-backup（robocopy /MIR，exit 1）
+✅ verify PASS：B 镜像文件 hash 全一致；从 B 打开 integrity=ok 行数 869（A 同 869）
+log-ok
+friction-ok
+复盘 🟡 B 级 — acceptable (≥🟡 required). All closing discipline done. Update todo to done and give final summary.
+
+• #624 施工完成，已提审待欧阳锋终审。
+
+  **核心发现**：任务单前提「ROI 搭档零覆盖」需分粒度修正——逐字读+查重实证，方法层（分档/TOP3对TOP3/乐观悲观/妥协决策）已被 #586 的 `dk-koupen-decision-tiering-compromise` 覆盖，陪练官已被 `tool-ai-koupen-training-partner-design` 覆盖；真增量只剩**案例轨迹层**。
+
+  **交付物**（2 卡，commit f5dfb8acf）：
+  - `30_wiki/cases/case-truman-roi-decision-spring-festival-class.md` — 春节 14 天加课决策六阶段全程（分档→明确问题→口述成本收益→群体补参数→收敛 2 主矛盾→定向测算→切方案录播课+评论区）。传播限制：源文 3 次「仅限内部不要外传」，按 #322/#586/#611 先例**双标注**（source_context ⚠️ + 正文密级声明），业务细节已脱敏
+  - `30_wiki/tools/tool-geo-ai-search-visibility-playbook.md` — 探索营复核出的真增量：GEO 七步+7 坑，全库此前零 GEO 方法卡；学术锚定 arXiv:2311.09735（KDD 2024）；源文件 grep 零传播限制字样，未做密级标注
+
+  **探索营复核结论**：半肥猫路演层判微增量不足成卡（P1-P8 仅标题级，三点启发与存量 3 case+14 tool 厚覆盖重叠），证据对账已落执行报告；谢翼 MemPalace 段已被 method-obsidian-km-camp 全覆盖。
+
+  **验证**：pre-submit 双 PASS（残留 WARNING 均 #542 提示制）、自攻击 🔴0🟡1、4 存量卡反向补链双向 0 死链、index 增量至 4180、L9 双验证过（队列行 + 任务单 frontmatter 均 pending_review）、todos 已落行、Truman 复盘自检 🟡 B 级。
+
+To resume this session: kimi -r session_1ab101e6-6192-47a7-81f1-aea34913a8f9
