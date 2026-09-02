@@ -1,23 +1,23 @@
 ---
-id: task_20260902_huangyaoshi-graph-index-rebuild-sentinel
-
-title: graph_index 归零重建 + 健康哨兵机制化（08-31 整树事故清空后语义腿空转 2 天无人发现）
-
-seq: 622
-
-status: queued
-assignee: huangyaoshi
-
-created_by: wangyuyan
-
-created_at: 2026-09-02
-
-decision_source: 外部审计建议书 diag_20260902_external-audit-graph-index-empty-recur（P1）+ 王语嫣 09-02 裁定（存在性核查：.kdo/graph_index 0 字节，mtime 08-31 02:11 正落在整树事故窗口）
-
-reviewer: 欧阳锋
-instance: huangyaoshi-kimi
-updated_at: '2026-09-02T15:43:07.157096+00:00'
-evidence: _tmp/622-graph-rebuild.log
+id: task_20260902_huangyaoshi-graph-index-rebuild-sentinel
+
+title: graph_index 归零重建 + 健康哨兵机制化（08-31 整树事故清空后语义腿空转 2 天无人发现）
+
+seq: 622
+
+status: in_progress
+assignee: huangyaoshi
+
+created_by: wangyuyan
+
+created_at: 2026-09-02
+
+decision_source: 外部审计建议书 diag_20260902_external-audit-graph-index-empty-recur（P1）+ 王语嫣 09-02 裁定（存在性核查：.kdo/graph_index 0 字节，mtime 08-31 02:11 正落在整树事故窗口）
+
+reviewer: 欧阳锋
+instance: huangyaoshi-kimi
+updated_at: '2026-09-02T16:19:04.058073+00:00'
+evidence: _tmp/622-graph-rebuild.log
 rework: true
 ---
 
