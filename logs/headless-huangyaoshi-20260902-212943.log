@@ -1,0 +1,1407 @@
+kimi version 0.39.1
+• Start with the required reads.- [2026-09-02 15:52] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-02 16:12] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-02 16:27] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-02 16:42] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-02 17:02] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-02 17:22] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-02 17:42] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-02 18:02] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-02 18:22] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-02 18:42] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-02 18:57] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-02 19:12] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-02 19:27] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-02 19:42] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-02 20:02] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-02 20:22] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-02 20:42] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-02 20:57] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-02 21:12] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-02 21:27] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+Find task #618 task sheet. Look for it in 70_product/tasks/ or 90_control.
+
+• 启动恢复完成。现在查找 #618 任务单。70_product/tasks/archive/inbox-pending-slim-20260831.md
+70_product/tasks/production-queue.md
+90_control/.sandbox/quarantine-20260902/inbox-queue/dispatch_20260830_181102.md
+90_control/todos/wangyuyan.md
+90_control/top-level-document-protocol.md
+---
+队列总任务数: 201
+queued: 1
+claimed: 0
+pending_review: 0
+
+
+252:| 618 | `task_20260902_huangyaoshi-kdo-tests-flake-governance` | KDO测试flake治理：test_cli_smoke断言对齐现行schema+test_dashboard_server顺序依赖解耦+全量回归原样输出 | queued | huangyaoshi | 两处修复diff+全量回归输出 | 无 | `60_feedback/tasks/task_20260902_huangyaoshi-kdo-tests-flake-governance.md` | 欧阳锋建议书（09-02王语嫣漏扫9h后补裁定，E052复盘）；提审数字原样纪律随单生效；欧阳锋终审 |
+---
+✅ task_20260902_huangyaoshi-kdo-tests-flake-governance 已领取为 claimed-huangyaoshi-kimi
+
+✅ dashboard.html 已生成 (201 个任务)
+   待领取: 0  |  审查中: 0  |  进行中: 1  |  已完成: 200
+• Now find the failing tests. KDO CLI code — where? Likely in a separate repo: "Knowledge Delivery OS 0.0.1" dir mentioned in context. Let's search for test_cli_smoke.
+
+• 任务已领取。现在定位两个 flake 测试。__pycache__
+test_capsule_events.py
+test_conveyor_probe.py
+test_daily_audit_digest.py
+test_daily_context_save.py
+test_dashboard_blocking.py
+test_doorbell_guard.py
+test_file_flow_check.py
+test_infra_liveness.py
+test_infra_status.py
+test_island_scan.py
+test_l1_capture.py
+test_matrix_sync_gate.py
+test_mcp_server.py
+test_near_miss_escalation.py
+test_on_duty.py
+test_quality_metrics.py
+test_queue_archive.py
+test_queue_batch_accept.py
+test_review_check_deep.py
+test_review_landed_notify.py
+test_role_clock.py
+test_seed_package.py
+test_session_heartbeat_hook.py
+test_tech_adaptation.py
+test_token_meter.py
+test_watch_inbox.py
+test_wechat_link_monitor.py
+test_wechat_promote.py
+---
+
+
+• The tests aren't in kdo-tools/tests. The task refers to KDO CLI tests (test_cli_smoke, test_dashboard_server) — the CLI lives elsewhere, e.g. "Knowledge Delivery OS 0.0.1" or somewhere. Search more broadly.Not in this vault. The KDO CLI is probably at `C:\Users\Administrator\Knowledge Delivery OS 0.0.1\` (context says work dir there). Check there.60_feedback
+70_product
+README.md
+build
+docs
+examples
+kdo
+kdo-improve
+knowledge_delivery_os.egg-info
+pyproject.toml
+---
+/c/Users/Administrator/Knowledge Delivery OS 0.0.1/tests/test_cli_smoke.py
+/c/Users/Administrator/Knowledge Delivery OS 0.0.1/tests/test_dashboard_server.py
+                workspace,
+            )
+            self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+    
+            result = self.run_cmd(["dashboard"], workspace)
+            self.assertEqual(result.returncode, 0, result.stderr)
+    
+            result = self.run_cmd(["query", "Delivery"], workspace)
+            self.assertEqual(result.returncode, 0, result.stderr)
+            self.assertIn("Delivery", result.stdout)
+    
+            result = self.run_cmd(["lint"], workspace)
+            self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+    
+            self.assertTrue((workspace / "30_wiki/index.md").exists())
+            self.assertGreaterEqual(len(list((workspace / "40_outputs").rglob("*.md"))), 3)
+            self.assertGreaterEqual(len(list((workspace / "50_delivery").rglob("*.md"))), 1)
+            self.assertGreaterEqual(len(list((workspace / "60_feedback").rglob("*.md"))), 1)
+            self.assertTrue((workspace / "50_delivery/analytics/kdo-dashboard.html").exists())
+    
+            state = json.loads((workspace / ".kdo/state.json").read_text())
+>           self.assertGreaterEqual(len(state["sources"]), 3)
+                                        ^^^^^^^^^^^^^^^^
+E           KeyError: 'sources'
+
+tests\test_cli_smoke.py:126: KeyError
+=========================== short test summary info ===========================
+FAILED tests/test_cli_smoke.py::CliSmokeTest::test_end_to_end_smoke - KeyErro...
+!!!!!!!!!!!!!!!!!!!!!!!!!! stopping after 1 failures !!!!!!!!!!!!!!!!!!!!!!!!!!
+1 failed in 8.46s
+Now inspect the current state.json schema. Let's look at kdo state module.kdo/artifacts.py:24:    for source in state.get("sources", []):
+kdo/commands/briefing.py:81:    for source in state.get("sources", []):
+kdo/commands/curation.py:97:    for source in state.get("sources", []):
+kdo/commands/curation.py:188:    for source in state.get("sources", []):
+kdo/commands/curation.py:454:    for src in state.get("sources", []):
+kdo/commands/curation.py:804:    for source in state.get("sources", []):
+kdo/commands/ingestion.py:170:    state.setdefault("sources", []).append(source_record)
+kdo/commands/ingestion.py:172:    append_yaml_record(root / "90_control/source-registry.yaml", "sources", source_record)
+kdo/commands/iteration.py:69:    sources = state.get("sources", [])
+kdo/commands/system.py:561:    sources_count = len(state.get("sources", []))
+kdo/commands/system.py:713:    sources_count = len(state.get("sources", []))
+kdo/commands/transcript.py:113:    output_dir = Path(args.output) if args.output else root / "10_raw" / "sources"
+kdo/dashboard.py:389:    source_rows = render_record_rows(state.get("sources", []), ["id", "type", "title", "trust_level", "location"])
+kdo/health_check.py:114:    sources_dir = root / "10_raw" / "sources"
+kdo/health_check.py:120:    for src in state.get("sources", []):
+kdo/improvement.py:148:    for source in state.get("sources", []):
+kdo/improvement.py:158:    for source in state.get("sources", []):
+kdo/iteration_report.py:70:    sources = state.get("sources", [])
+kdo/iteration_report.py:292:        "source_count": len(state.get("sources", [])),
+kdo/pre_submit.py:733:                  "sources", "src", "cleaned", "raw", "00_inbox", "10_raw",
+---
+__init__.py
+__main__.py
+__pycache__
+artifacts.py
+bridge.py
+cli.py
+commands
+contradiction_check.py
+converters.py
+dashboard.py
+dashboard_server.py
+extractors.py
+gate.py
+health_check.py
+improvement.py
+iteration_report.py
+links.py
+llm.py
+memory.py
+pre_submit.py
+preferences.py
+runner.py
+search_index.py
+self_check.py
+templates.py
+tools
+validation.py
+workspace.py
+`sources` is still used in ingestion.py:170 `state.setdefault("sources", []).append(source_record)`. But KeyError 'sources' means state.json lacks the key. Maybe ingestion now appends to a separate registry file instead of state.json? Line 170 still appends. Maybe state.json initial schema changed — check workspace.py for initial state, and where state.json is written (state.py? memory.py?).kdo/templates.py:327:    "sources": [],
+kdo/workspace.py:547:def load_state(root: Path) -> dict[str, Any] | SQLiteState:
+kdo/workspace.py:619:def save_state(root: Path, state: dict[str, Any] | SQLiteState) -> None:
+kdo/workspace.py:853:            "sources": len(state.get("sources", [])),
+---
+    trust_level = metadata.get("trust_level", "unknown").strip().lower()
+    wiki_path = create_wiki_skeleton(root, source_id, title, body, raw_path, merge=merge, trust_level=trust_level)
+    source_record = {
+        "id": source_id,
+        "title": title,
+        "type": kind,
+        "location": location,
+        "captured_at": metadata.get("captured_at", now_iso()),
+        "registered_at": now_iso(),
+        "trust_level": metadata.get("trust_level", "unknown"),
+        "freshness": metadata.get("freshness", "unknown"),
+        "rights": metadata.get("rights", "unknown"),
+        "related_wiki": [relpath(root, wiki_path)],
+        "derived_outputs": [],
+        "inbox_path": relpath(root, inbox_path),
+        "content_sha256": metadata.get("content_sha256") or text_sha256(body),
+    }
+    if kind == "url" and input_ref:
+        source_record["external_url"] = input_ref
+
+    state.setdefault("sources", []).append(source_record)
+    state.setdefault("ingested_inbox_files", []).append(relpath(root, inbox_path))
+    append_yaml_record(root / "90_control/source-registry.yaml", "sources", source_record)
+    append_wiki_index(root, title, wiki_path, source_id)
+    append_wiki_log(root, f"Ingested `{source_id}` from {relpath(root, inbox_path)}")
+    print(f"  + {source_id} -> wiki: {relpath(root, wiki_path)} -- \"{title}\"")
+
+
+def _wiki_status_for_trust(trust_level: str) -> str:
+    """Map source trust_level to initial wiki page status."""
+    if trust_level == "low":
+        return "needs-review"
+    return "draft"
+
+
+def create_wiki_skeleton(root: Path, source_id: str, title: str, source_body: str, raw_path: Path, merge: bool = False, trust_level: str = "unknown") -> Path:
+        if sources:
+            coll = SQLiteCollection(self, "sources")
+            coll.replace_all(sources)
+            self._collections["sources"] = coll
+        return len(sources)
+
+
+def load_state(root: Path) -> dict[str, Any] | SQLiteState:
+    """Load workspace state, preferring SQLite if available.
+
+    Auto-migration: if state.sqlite does not exist but state.json does,
+    migrate sources into SQLite, rename JSON to .migrated, and return SQLiteState.
+    """
+    sqlite_file = root / SQLITE_PATH
+    state_file = root / STATE_PATH
+
+    # Already migrated — use SQLite
+    if sqlite_file.exists():
+        state = SQLiteState(sqlite_file)
+        # Load non-MVP collections from the active legacy JSON (state.json if still
+        # being written, otherwise the .migrated backup).
+        migrated_path = root / (STATE_PATH + ".migrated")
+        active_path = root / STATE_PATH
+        legacy_path = active_path if active_path.exists() else migrated_path
+        if legacy_path.exists():
+            legacy = json.loads(legacy_path.read_text(encoding="utf-8"))
+            for key, value in legacy.items():
+                if key not in state:
+                    state[key] = value
+        return state
+
+    # Legacy path — load JSON
+    if not state_file.exists():
+        state = deepcopy(INITIAL_STATE)
+        _legacy_save_state_json(root, state)
+        return state
+
+    state_data = json.loads(state_file.read_text(encoding="utf-8"))
+    for key, value in INITIAL_STATE.items():
+        state_data.setdefault(key, deepcopy(value))
+
+    # Auto-migrate: create SQLite, migrate sources, rename JSON
+    lock_fd = _file_lock(root)
+    try:
+        state = SQLiteState(sqlite_file, state_data)
+        migrated = state.migrate_from_json(state_file)
+        # Rename legacy JSON
+        migrated_path = root / (STATE_PATH + ".migrated")
+        shutil.move(str(state_file), str(migrated_path))
+    finally:
+        _file_unlock(lock_fd)
+
+    return state
+
+
+def _legacy_save_state_json(root: Path, state: dict[str, Any]) -> None:
+    """Write state as JSON (legacy path, used for non-MVP collections)."""
+    state_file = root / STATE_PATH
+    ensure_dir(state_file.parent)
+
+    # If state is a SQLiteState, extract non-SQLite collections
+    if isinstance(state, SQLiteState):
+        out = {"version": state.get("version", 1)}
+        for key in state.keys():
+            if key in ("version", "artifacts_count"):
+                out[key] = state[key]
+                continue
+            if key in MVP_COLLECTIONS:
+                continue  # SQLite-managed, not in JSON
+            val = state[key]
+            if isinstance(val, SQLiteCollection):
+                out[key] = val.as_list()
+            else:
+                out[key] = val
+        state_file.write_text(json.dumps(out, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    else:
+        state_file.write_text(json.dumps(state, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+
+
+def save_state(root: Path, state: dict[str, Any] | SQLiteState) -> None:
+    """Save workspace state.  For SQLiteState this also closes the connection
+    to release the file handle (important on Windows where temp-dir cleanup
+    fails if the .sqlite file is still held open).
+
+    - SQLiteState: commits WAL, saves legacy JSON, then closes the connection.
+    - Plain dict: legacy JSON path (unchanged behavior).
+    """
+    if isinstance(state, SQLiteState):
+        state.commit()
+        _legacy_save_state_json(root, state)
+        state.close()  # release file handle for Windows temp-dir cleanup
+    else:
+        _legacy_save_state_json(root, state)
+
+
+def relpath(root: Path, path: Path) -> str:
+    return path.resolve().relative_to(root.resolve()).as_posix()
+
+
+def yaml_scalar(value: Any) -> str:
+    if value is None:
+        return "null"
+    if isinstance(value, bool):
+        return "true" if value else "false"
+    if isinstance(value, (int, float)):
+        return str(value)
+    if isinstance(value, (list, dict)):
+        try:
+            import yaml
+            return yaml.dump(value, default_flow_style=None, allow_unicode=True).strip() or "{}"
+        except ImportError:
+So state has migrated to SQLite: `sources` is a MVP collection, so state.json (legacy JSON) no longer contains "sources" — `_legacy_save_state_json` strips MVP_COLLECTIONS out of the JSON. The test reads `.kdo/state.json` directly and expects `state["sources"]` — that's the stale assertion. Fix: load state through `kdo.workspace.load_state` in a subprocess, or read the sqlite. Simplest: adjust test to load state via a small python subprocess that uses `kdo.workspace.load_state` and dumps to JSON. Or check `state.json` no longer expected; instead assert via `kdo` CLI output? Better to keep the assertions about sources/feedback/etc. but obtain the state properly.
+
+  Let me check what MVP_COLLECTIONS contains and what SQLiteState supports.28:STATE_PATH = ".kdo/state.json"
+29:SQLITE_PATH = ".kdo/state.sqlite"
+32:MVP_COLLECTIONS = {"sources"}  # only migrate sources in MVP
+411:        for coll_name in MVP_COLLECTIONS:
+441:        elif key in MVP_COLLECTIONS and isinstance(value, list):
+553:    sqlite_file = root / SQLITE_PATH
+607:            if key in MVP_COLLECTIONS:
+---
+378:class SQLiteState:
+379-    """Dict-like facade backed by SQLite.
+380-
+381-    Behaves like the old `dict[str, Any]` state but loads collections
+382-    on-demand from SQLite. For MVP, only `sources` uses SQLite; other
+383-    collections fall back to in-memory dicts loaded from JSON.
+384-    """
+385-
+386-    def __init__(self, db_path: Path, legacy_data: dict[str, Any] | None = None):
+387-        # NOTE: check_same_thread=False is required because connections may be
+388-        # finalized (closed) from a different thread than they were created in
+389-        # (e.g. the dashboard server handles requests in worker threads). Each
+390-        # SQLiteState instance is still used by only one thread at a time; WAL +
+391-        # busy_timeout handle concurrent access across processes.
+392-        self._db = sqlite3.connect(str(db_path), check_same_thread=False)
+393-        self._db.execute("PRAGMA journal_mode=WAL")
+394-        self._db.execute(f"PRAGMA busy_timeout={SQLITE_BUSY_TIMEOUT}")
+395-        self._db.executescript(SQL_SCHEMA)
+396-        self._db_path = db_path
+397-        self._collections: dict[str, SQLiteCollection | list] = {}
+398-        self._scalars: dict[str, Any] = {}
+399-        self._in_transaction = False
+400-        self._finalizer = weakref.finalize(self, self._close_db, self._db)
+401-        _LIVE_SQLITE_STATES.add(self)
+402-
+403-        legacy = legacy_data or {}
+404-        # Scalar values from legacy
+405-        for key in ("version", "artifacts_count"):
+406-            if key in legacy:
+407-                self._scalars[key] = legacy[key]
+408-
+409-        # MVP: sources lives in SQLite. Always expose a SQLiteCollection for it;
+410-        # if legacy data is provided, migrate the records in.
+411-        for coll_name in MVP_COLLECTIONS:
+412-            coll = SQLiteCollection(self, coll_name)
+413-            if coll_name in legacy and isinstance(legacy[coll_name], list):
+414-                coll.replace_all(legacy[coll_name])
+415-            self._collections[coll_name] = coll
+416-
+417-        # All other collections stay as in-memory lists
+418-        for key, value in legacy.items():
+So the fix for test_cli_smoke: instead of reading `.kdo/state.json` directly and expecting "sources", load state via the kdo workspace module in a subprocess, or dump via CLI. Simplest robust fix: add a helper `read_state` in the test that runs `sys.executable -c` with kdo.workspace.load_state to dump full state JSON (including sources from SQLite). Or read `.kdo/state.json` plus SQLite for sources.
+
+  Given the test runs CLI via subprocess with PYTHONPATH=repo, we can run a small python snippet:
+
+  ```python
+  def read_state(self, workspace):
+      repo = Path(__file__).resolve().parents[1]
+      script = (
+          "import json,sys;"
+          "from pathlib import Path;"
+          "sys.path.insert(0, sys.argv[1]);"
+          "from kdo.workspace import load_state;"
+          "state = load_state(Path(sys.argv[2]));"
+          "print(json.dumps({k: (list(v) if not isinstance(v,(str,int,float,bool)) else v) for k,v in dict(state).items()}, default=str))"
+      )
+      ...
+  ```
+
+  Hmm — SQLiteState is dict-like; `dict(state)` may not include SQLiteCollection items depending on `__iter__`. Let me check `keys()`/`__iter__` of SQLiteState. Simpler: build explicit keys:
+
+  ```python
+  state = load_state(root)
+  out = {}
+  for key in state.keys():
+      val = state[key]
+      if isinstance(val, SQLiteCollection): val = val.as_list()
+      out[key] = val
+  ```
+
+  Similar to _legacy_save_state_json. Let me check SQLiteState.keys and SQLiteCollection.as_list exist. _legacy_save_state_json already does exactly this pattern, so reuse logic: run a snippet that loads state and prints json with that conversion.
+
+  Now the second flake: test_dashboard_server order dependency. Let me look at it.
+
+• `test_cli_smoke` 病因确认：state 迁移到 SQLite 后 `state.json` 不再含 `sources` 键。现在看第二个测试。
+
+• Now run test_dashboard_server alone — it should pass. Then run full suite to see which test fails in full run. First run alone:
+
+• 先验证 flake 现象：单跑过，全量挂。.........................                                                [100%]
+25 passed in 14.57s
+
+
+.........................                                                [100%]
+25 passed in 11.78s
+ERROR kdo/tools/openmontage-zh-mcp/tests/qa/test_08_end_to_end.py - UnicodeDe...
+!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+978 tests collected, 1 error in 51.45s
+• Full-suite collect fails with a UnicodeDecodeError in kdo/tools/openmontage-zh-mcp tests — probably excluded in the normal full regression. Check how the #616 regression was run (612 passed/2 failed/1 skipped). There's probably a pytest config or the regression runs `pytest tests/`. Let's check pyproject/pytest.ini and run `python -m pytest tests/ -q`.60_feedback
+70_product
+README.md
+build
+docs
+examples
+kdo
+kdo-improve
+knowledge_delivery_os.egg-info
+pyproject.toml
+reports
+tests
+>           self.assertGreaterEqual(len(state["sources"]), 3)
+                                        ^^^^^^^^^^^^^^^^
+E           KeyError: 'sources'
+
+tests\test_cli_smoke.py:126: KeyError
+=========================== short test summary info ===========================
+FAILED tests/test_cli_smoke.py::CliSmokeTest::test_end_to_end_smoke - KeyErro...
+1 failed, 613 passed, 1 skipped in 145.29s (0:02:25)
+Interesting — with `tests/` scope, only 1 failed (test_cli_smoke). The dashboard_server flake didn't reproduce here. 614 tests here vs 615 in the #616 run (612+2+1). Slight difference — maybe a test count discrepancy due to version. Anyway, the dashboard flake is order-dependent. Let me try to reproduce: run dashboard_server together with other tests. Common cause: tests that modify cwd or environment, or `init_workspace` writing into the repo... Actually test_dashboard_server imports `kdo.cli` at module level and uses `init_workspace(self.root)` — fine. Order dependency might come from tests that change `os.getcwd()` (since dashboard server handler may resolve repo from cwd), or from `-p randomly` seed. pytest-randomly is installed (I used `-p no:randomly` above and it worked, so random ordering by default).
+
+  Let me find which test pollutes. Run the full suite again and see if dashboard_server fails — it failed in #616's run. Let me first run the full suite without `-p no:randomly` (I didn't disable randomness in the run above — default random seed). It passed except cli_smoke. The flake may depend on random ordering. Let me try running dashboard tests together with the whole suite a couple of times, or find candidate polluters: tests that chdir, set env vars, or monkeypatch `kdo.cli` module-level state.
+
+  Search for os.chdir in tests.tests/test_flywheel.py
+---
+---
+895:def _make_dashboard_handler(root: Path, allow_actions: bool = False, csrf_token: str | None = None) -> type:
+896-    return _make_dashboard_handler_base(
+897-        root,
+898-        render_dashboard,
+899-        allow_actions=allow_actions,
+900-        csrf_token=csrf_token,
+901-    )
+902-
+903-
+904-def start_dashboard_server(root: Path, port: int, allow_actions: bool = False) -> None:
+905-    _start_dashboard_server(root, port, render_dashboard, allow_actions=allow_actions)
+906-
+907-
+908-if __name__ == "__main__":
+909-    raise SystemExit(main())
+---
+kdo/cli.py:129:    make_dashboard_handler as _make_dashboard_handler_base,
+kdo/cli.py:130:    start_dashboard_server as _start_dashboard_server,
+kdo/cli.py:896:    return _make_dashboard_handler_base(
+kdo/cli.py:905:    _start_dashboard_server(root, port, render_dashboard, allow_actions=allow_actions)
+kdo/dashboard_server.py:48:def make_dashboard_handler(
+"""Dashboard action buttons and local HTTP server."""
+
+from __future__ import annotations
+
+import html
+import http.server
+import json
+import secrets
+import subprocess
+import sys
+import urllib.parse
+from pathlib import Path
+from typing import Any, Callable
+
+from .workspace import SQLiteState, load_state
+
+DashboardRenderer = Callable[..., str]
+
+READ_ONLY_DASHBOARD_SUBCOMMANDS = frozenset({"lint", "validate", "status"})
+WRITE_DASHBOARD_SUBCOMMANDS = frozenset({"ingest", "improve", "enrich"})
+ALLOWED_KDO_SUBCOMMANDS = READ_ONLY_DASHBOARD_SUBCOMMANDS | WRITE_DASHBOARD_SUBCOMMANDS
+
+
+def action_button(label: str, command: str, extra_args: list[str] | None = None) -> str:
+    args_json = html.escape(json.dumps(extra_args or []), quote=True)
+    safe_cmd = html.escape(command, quote=True)
+    safe_label = html.escape(str(label if label is not None else ""), quote=True)
+    return f"<button class='action-btn' onclick='kdoRun(\"{safe_cmd}\",{args_json})'>{safe_label}</button>"
+
+
+def dashboard_command_error(command: str, args: list[str], allow_actions: bool) -> str:
+    if command not in ALLOWED_KDO_SUBCOMMANDS:
+        return f"Command not allowed: {command!r}"
+    if command in WRITE_DASHBOARD_SUBCOMMANDS and not allow_actions:
+        return f"Command requires dashboard --allow-actions: {command!r}"
+    if command == "validate" and "--write-report" in args and not allow_actions:
+        return "validate --write-report requires dashboard --allow-actions."
+    return ""
+
+
+def is_allowed_dashboard_origin(origin: str) -> bool:
+    if not origin:
+        return True
+    parsed = urllib.parse.urlparse(origin)
+    return parsed.scheme in {"http", "https"} and parsed.hostname in {"localhost", "127.0.0.1"}
+
+
+def make_dashboard_handler(
+    root: Path,
+    render_dashboard: DashboardRenderer,
+    allow_actions: bool = False,
+    csrf_token: str | None = None,
+) -> type[http.server.BaseHTTPRequestHandler]:
+    token = csrf_token or secrets.token_urlsafe(32)
+
+    class DashboardHandler(http.server.BaseHTTPRequestHandler):
+        def do_GET(self) -> None:
+            if self.path in {"/", "/index.html"}:
+                state = load_state(root)
+                try:
+                    content = render_dashboard(root, state, actions_enabled=allow_actions, csrf_token=token).encode("utf-8")
+                finally:
+                    if isinstance(state, SQLiteState):
+                        state.close()
+                self.send_response(200)
+                self.send_header("Content-Type", "text/html; charset=utf-8")
+                self.send_header("Content-Length", str(len(content)))
+                self.end_headers()
+                self.wfile.write(content)
+            else:
+                self.send_response(404)
+                self.end_headers()
+
+        def do_POST(self) -> None:
+            if self.path != "/run":
+                self.send_response(404)
+                self.end_headers()
+                return
+            origin = self.headers.get("Origin", "")
+            if not is_allowed_dashboard_origin(origin):
+                self._json(403, {"error": "Cross-origin requests not allowed."})
+                return
+            request_token = self.headers.get("X-KDO-CSRF-Token", "")
+            if not secrets.compare_digest(request_token, token):
+                self._json(403, {"error": "Invalid CSRF token."})
+                return
+            length = int(self.headers.get("Content-Length", 0) or 0)
+            raw = self.rfile.read(length)
+            try:
+                payload = json.loads(raw)
+            except (json.JSONDecodeError, ValueError):
+                self._json(400, {"error": "Invalid JSON."})
+                return
+            command = payload.get("command", "")
+            args = payload.get("args", [])
+            if not isinstance(args, list) or not all(isinstance(a, str) for a in args):
+                self._json(400, {"error": "args must be a list of strings."})
+                return
+            error = dashboard_command_error(command, args, allow_actions=allow_actions)
+            if error:
+                self._json(400, {"error": error})
+                return
+            try:
+                result = subprocess.run(
+                    [sys.executable, "-m", "kdo", command, *args],
+                    capture_output=True,
+                    text=True,
+                    cwd=str(root),
+                    timeout=60,
+                )
+                self._json(
+                    200,
+                    {
+                        "stdout": result.stdout,
+                        "stderr": result.stderr,
+                        "returncode": result.returncode,
+                    },
+                )
+            except subprocess.TimeoutExpired:
+                self._json(200, {"stdout": "", "stderr": "Command timed out.", "returncode": -1})
+`do_POST` runs `sys.executable -m kdo <cmd>` as a subprocess with `cwd=root`, but does NOT set PYTHONPATH. If kdo is pip-installed (egg-info present — `knowledge_delivery_os.egg-info` exists, suggesting `pip install -e .`), then `python -m kdo` works anywhere. But if another test earlier in the run pip-uninstalled or if... Hmm, order-dependency.
+
+  Possible culprits: another test changes `sys.executable`? No. Another test installs/uninstalls? Or environment variable changes — e.g. test_flywheel does os.chdir. If a test does os.chdir(tmpdir) and doesn't restore, then `python -m kdo` subprocess with cwd=root still finds kdo via installed egg (editable install adds repo to path via .pth). Editable install means `python -m kdo` works regardless of cwd — unless the editable install's finder is affected by cwd... unlikely.
+
+  Wait — but does the subprocess run the CLI which calls load_state etc.? The failure in full run: which assertion fails? Need the actual failure output. The #616 report said "test_dashboard_server 顺序依赖 flake". Let me reproduce by running the full suite a couple times with different random seeds, capturing failure detail.
+
+  Also check test_flywheel's os.chdir usage.72:            os.chdir(tmp_path)
+75:            os.chdir(old_cwd)
+101:            os.chdir(tmp_path)
+105:            os.chdir(old_cwd)
+131:            os.chdir(tmp_path)
+134:            os.chdir(old_cwd)
+159:            os.chdir(tmp_path)
+162:            os.chdir(old_cwd)
+175:            os.chdir(tmp_path)
+178:            os.chdir(old_cwd)
+Name: knowledge-delivery-os
+Version: 0.1.0
+Summary: Local-first Knowledge Delivery OS: compile knowledge into content, code, and capabilities.
+Home-page: 
+Author: Knowledge Delivery OS
+knowledge-delivery-os     0.1.0                C:\Users\Administrator\Knowledge Delivery OS 0.0.1
+openmontage               0.1.0                C:\Users\Administrator\Knowledge Delivery OS 0.0.1\kdo\tools\openmontage-zh-mcp
+pytest-randomly not in pip list (the grep included "randomly" and found nothing). But earlier `python -m pytest --collect-only -q` took 51s and `-p no:randomly` was accepted... Actually if pytest-randomly isn't installed, `-p no:randomly` is a no-op (unknown plugin disable is fine). And the collect-only showed "978 tests collected" but full run had 615. Hmm, collect-only included kdo/tools tests? No, I ran collect without `tests/` scope — it collected the whole repo (978 tests, 1 error). With `tests/` scope: 615 tests.
+
+  To reproduce the dashboard flake I need to run the full suite multiple times. Each run takes ~145s. Let me reproduce by running dashboard tests mixed with candidate polluters. First, find what the actual failure is. The failure could be in the subprocess `-m kdo` failing because... test_flywheel chdirs and restores — ok.
+
+  Another candidate: tests that mock `subprocess.run` or patch sys.executable, or that set environment (os.environ) without cleanup — e.g. setting PYTHONPATH to something. grep environ writes in tests found nothing besides copy(). But maybe tests use mock.patch.dict(os.environ,...) — that's fine, restores.
+
+  Other candidate: _LIVE_SQLITE_STATES in workspace.py — a global registry of live SQLiteState objects with weakref finalizers. The dashboard server test creates state via load_state in handler threads. Order dependency could be resource exhaustion or WAL lock conflicts on temp dirs? Each test uses its own tempdir.
+
+  Honestly the best approach: reproduce. Run full suite a few times and catch the dashboard failure output. Let me run in background with `-x`? No — I want to see the dashboard failure. Run full suite and grep for FAILED. Two runs ~5 min. Let me start one run in background.
+
+• 复跑全量抓 dashboard_server 失败现场（后台跑，同时我先修 cli_smoke）。
+
+• While that runs, fix test_cli_smoke. The fix: replace direct state.json read with loading state via kdo.workspace.load_state in a subprocess (since the test process doesn't have kdo importable? Actually the test runs from the repo, and pytest runs with rootdir = repo, so `import kdo` works in-process — test_dashboard_server imports kdo.cli directly. So test_cli_smoke can import kdo.workspace.load_state directly... but careful: load_state on the temp workspace will create/migrate and open SQLite connection; need to close it so tempdir cleanup works on Windows. save_state closes. We can load, extract data, then close.
+
+  But caution: the test process and the CLI subprocesses — after all CLI commands complete, load_state(root) will just read the sqlite. Need to close connection. Simplest helper:
+
+  ```python
+  def read_state(self, workspace):
+      from kdo.workspace import load_state, SQLiteState
+      state = load_state(workspace)
+      try:
+          data = {key: (list(state[key]) if isinstance(state[key], SQLiteCollection) else state[key]) for key in state.keys()}
+      ...
+  ```
+
+  Let me check SQLiteState.keys() and whether state[key] returns SQLiteCollection for "sources". From _legacy_save_state_json: iterates state.keys(), checks `key in MVP_COLLECTIONS` skip, and handles `isinstance(val, SQLiteCollection)`. So keys() yields all keys including sources. I'll mimic.
+
+  Check SQLiteCollection has as_list() and is iterable/len-able.
+
+• 趁回归在跑，修 test_cli_smoke。先看 SQLiteState/SQLiteCollection 接口。299:    def __iter__(self):
+307:    def __len__(self):
+374:    def as_list(self) -> list[dict]:
+431:    def __getitem__(self, key: str):
+448:    def __contains__(self, key: str) -> bool:
+451:    def keys(self):
+467:    def __len__(self):
+502:    def close(self):
+
+
+        if key in self._scalars:
+            return self._scalars[key]
+        if key in self._collections:
+            return self._collections[key]
+        return default
+
+    def __getitem__(self, key: str):
+        if key in self._scalars:
+            return self._scalars[key]
+        if key in self._collections:
+            return self._collections[key]
+        raise KeyError(key)
+
+    def __setitem__(self, key: str, value):
+        if key in ("version", "artifacts_count"):
+            self._scalars[key] = value
+        elif key in MVP_COLLECTIONS and isinstance(value, list):
+            coll = SQLiteCollection(self, key)
+            coll.replace_all(value)
+            self._collections[key] = coll
+        else:
+            self._collections[key] = value
+
+    def __contains__(self, key: str) -> bool:
+        return key in self._scalars or key in self._collections
+
+    def keys(self):
+        return set(self._scalars.keys()) | set(self._collections.keys())
+
+    def items(self):
+        for k in self.keys():
+            yield k, self[k]
+
+    def setdefault(self, key: str, default=None):
+        """dict-compatible setdefault — returns existing value or sets default."""
+        if key in self._scalars:
+            return self._scalars[key]
+        if key in self._collections:
+            return self._collections[key]
+        self[key] = default
+        return default
+
+    def __len__(self):
+        return len(self.keys())
+
+    @staticmethod
+• Wait — `load_state` for the SQLite path loads legacy JSON keys: `for key, value in legacy.items(): if key not in state: state[key] = value`. And `state.json` after migration contains only non-MVP collections. So `load_state(workspace)` gives full picture: sources from SQLite, rest from JSON. 
+
+  Now fix the test: replace lines 125-133's direct state.json read with a load via kdo.workspace. Edit test_cli_smoke.py:
+
+• 修复 test_cli_smoke：改用 `load_state` 读取现行 schema。
+
+=========================== short test summary info ===========================
+FAILED tests/test_cli_smoke.py::CliSmokeTest::test_end_to_end_smoke - Asserti...
+1 failed in 8.79s
+    
+            result = self.run_cmd(["lint"], workspace)
+            self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+    
+            self.assertTrue((workspace / "30_wiki/index.md").exists())
+            self.assertGreaterEqual(len(list((workspace / "40_outputs").rglob("*.md"))), 3)
+            self.assertGreaterEqual(len(list((workspace / "50_delivery").rglob("*.md"))), 1)
+            self.assertGreaterEqual(len(list((workspace / "60_feedback").rglob("*.md"))), 1)
+            self.assertTrue((workspace / "50_delivery/analytics/kdo-dashboard.html").exists())
+    
+            state = read_workspace_state(workspace)
+            self.assertGreaterEqual(len(state["sources"]), 3)
+            # At least one source should have derived_outputs (the one linked to "Delivery Thesis")
+            sources_with_outputs = [s for s in state["sources"] if s.get("derived_outputs")]
+>           self.assertGreater(len(sources_with_outputs), 0, "Expected at least one source with derived_outputs")
+E           AssertionError: 0 not greater than 0 : Expected at least one source with derived_outputs
+
+tests\test_cli_smoke.py:150: AssertionError
+• Progress — KeyError fixed, now the `derived_outputs` assertion fails. Question: does the SQLite migration preserve derived_outputs? Let's check what the SQLite source schema stores. The SQLiteCollection likely stores records as JSON blobs or a fixed column schema — if fixed columns, `derived_outputs` may be dropped. Check SQL_SCHEMA and SQLiteCollection.as_list.191:SQL_SCHEMA = """
+192-CREATE TABLE IF NOT EXISTS kdo_meta (
+193-    key TEXT PRIMARY KEY,
+194-    value_json TEXT NOT NULL
+195-);
+196-
+197-CREATE TABLE IF NOT EXISTS kdo_records (
+198-    collection TEXT NOT NULL,
+199-    record_id TEXT NOT NULL,
+200-    data_json TEXT NOT NULL,
+201-    updated_at TEXT NOT NULL,
+202-    PRIMARY KEY (collection, record_id)
+203-);
+204-
+205-CREATE INDEX IF NOT EXISTS idx_records_collection ON kdo_records(collection);
+206-CREATE INDEX IF NOT EXISTS idx_records_id ON kdo_records(record_id);
+207-
+208-CREATE TABLE IF NOT EXISTS kdo_strings (
+209-    collection TEXT NOT NULL,
+210-    value TEXT NOT NULL,
+211-    inserted_at TEXT NOT NULL,
+--
+395:        self._db.executescript(SQL_SCHEMA)
+396-        self._db_path = db_path
+397-        self._collections: dict[str, SQLiteCollection | list] = {}
+398-        self._scalars: dict[str, Any] = {}
+399-        self._in_transaction = False
+400-        self._finalizer = weakref.finalize(self, self._close_db, self._db)
+401-        _LIVE_SQLITE_STATES.add(self)
+402-
+---
+    The workspace root is inferred as the parent of the `.kdo/` directory.
+    """
+    root = db_path.parent.parent
+    return _process_lock(root)
+
+
+class SQLiteCollection:
+    """List-like facade backed by a SQLite collection of records.
+
+    Supports iteration, len(), append(), and by_id() lookup.
+    Write operations are immediate (INSERT/UPDATE) and auto-commit unless
+    the owning ``SQLiteState`` is inside an explicit ``transaction()`` block.
+    """
+
+    def __init__(self, state: "SQLiteState", collection: str):
+        self._state = state
+        self._db = state._db
+        self._collection = collection
+
+    def __iter__(self):
+        rows = self._db.execute(
+            "SELECT data_json FROM kdo_records WHERE collection = ? ORDER BY record_id",
+            (self._collection,),
+        )
+        for (data_json,) in rows:
+            yield json.loads(data_json)
+
+    def __len__(self):
+        row = self._db.execute(
+            "SELECT COUNT(*) FROM kdo_records WHERE collection = ?",
+            (self._collection,),
+        ).fetchone()
+        return row[0] if row else 0
+
+    def __bool__(self):
+        return len(self) > 0
+
+    def _record_key_and_json(self, record: dict) -> tuple[str, str]:
+        record_id = (
+            record.get("id")
+            or record.get("artifact_id")
+            or record.get("feedback_id")
+            or str(uuid.uuid4())
+        )
+        return record_id, json.dumps(record, ensure_ascii=False)
+
+    def _maybe_commit(self) -> None:
+        """Commit the current transaction unless an explicit transaction is active."""
+        if not self._state._in_transaction:
+            self._db.commit()
+
+    def append(self, record: dict) -> None:
+        record_id, data_json = self._record_key_and_json(record)
+        self._db.execute(
+            "INSERT OR REPLACE INTO kdo_records (collection, record_id, data_json, updated_at) VALUES (?, ?, ?, ?)",
+            (self._collection, record_id, data_json, now_iso()),
+        )
+        self._maybe_commit()
+
+    def extend(self, records: list[dict]) -> None:
+        for record in records:
+            record_id, data_json = self._record_key_and_json(record)
+            self._db.execute(
+                "INSERT OR REPLACE INTO kdo_records (collection, record_id, data_json, updated_at) VALUES (?, ?, ?, ?)",
+                (self._collection, record_id, data_json, now_iso()),
+            )
+        self._maybe_commit()
+
+    def by_id(self, record_id: str) -> dict | None:
+        row = self._db.execute(
+            "SELECT data_json FROM kdo_records WHERE collection = ? AND record_id = ?",
+            (self._collection, record_id),
+        ).fetchone()
+        return json.loads(row[0]) if row else None
+
+    def remove(self, record_id: str) -> bool:
+        cur = self._db.execute(
+            "DELETE FROM kdo_records WHERE collection = ? AND record_id = ?",
+            (self._collection, record_id),
+        )
+        self._maybe_commit()
+        return cur.rowcount > 0
+
+    def replace_all(self, records: list[dict]) -> None:
+        """Atomic replace of entire collection."""
+        self._db.execute("DELETE FROM kdo_records WHERE collection = ?", (self._collection,))
+        for record in records:
+            record_id, data_json = self._record_key_and_json(record)
+            self._db.execute(
+                "INSERT OR REPLACE INTO kdo_records (collection, record_id, data_json, updated_at) VALUES (?, ?, ?, ?)",
+                (self._collection, record_id, data_json, now_iso()),
+            )
+        self._maybe_commit()
+
+    def as_list(self) -> list[dict]:
+        return list(self)
+
+
+SQLite stores full JSON blobs, so derived_outputs should be preserved. Why then does no source have derived_outputs? Maybe the produce command updates derived_outputs via a state write that doesn't persist to SQLite... e.g. artifacts.py:24 iterates `state.get("sources", [])` and mutates dicts in-place, then save_state. With SQLiteCollection, iterating yields fresh dicts (json.loads each row) — in-place mutation of the yielded dicts does NOT persist! That's a real product bug potentially: derived_outputs no longer updated after SQLite migration.
+
+  Let me check how produce updates derived_outputs.kdo/artifacts.py:27:        derived = source.setdefault("derived_outputs", [])
+kdo/commands/ingestion.py:163:        "derived_outputs": [],
+kdo/improvement.py:149:        derived_ids = {d.get("artifact_id") for d in source.get("derived_outputs", [])}
+kdo/templates.py:254:  derived_outputs: []
+"""Artifact target parsing and deliverable skeleton generation."""
+
+from __future__ import annotations
+
+import re
+from pathlib import Path
+from typing import Any
+
+from .workspace import ensure_dir, now_iso, parse_frontmatter, safe_read, slugify, write_markdown
+
+CONTENT_SUBTYPES = {"article", "video", "audio", "tutorial", "course", "report"}
+CODE_SUBTYPES = {"app", "plugin", "template", "script", "package"}
+CAPABILITY_SUBTYPES = {"skill", "agent", "workflow", "eval", "playbook"}
+
+
+def find_artifact(state: dict[str, Any], artifact_id: str) -> dict[str, Any] | None:
+    for artifact in state.get("artifacts", []):
+        if artifact.get("artifact_id") == artifact_id:
+            return artifact
+    return None
+
+
+def link_artifact_to_sources(state: dict[str, Any], source_refs: list[str], artifact_id: str, artifact_path: str) -> None:
+    for source in state.get("sources", []):
+        if source.get("id") not in source_refs:
+            continue
+        derived = source.setdefault("derived_outputs", [])
+        item = {"artifact_id": artifact_id, "path": artifact_path}
+        if item not in derived:
+            derived.append(item)
+
+
+def select_artifacts(state: dict[str, Any], artifact_id: str | None) -> list[dict[str, Any]]:
+    if artifact_id:
+        artifact = find_artifact(state, artifact_id)
+        if artifact is None:
+            raise ValueError(f"Unknown artifact id: {artifact_id}")
+        return [artifact]
+    return list(state.get("artifacts", []))
+
+
+def parse_artifact_target(target: str) -> tuple[str, str]:
+    if "/" not in target:
+        raise ValueError("Artifact target must look like `content/article`, `code/template`, or `capability/skill`.")
+    artifact_type, subtype = target.split("/", 1)
+    if artifact_type == "capabilities":
+        artifact_type = "capability"
+    if artifact_type not in {"content", "code", "capability"}:
+        raise ValueError("Artifact type must be one of: content, code, capability.")
+    valid = {
+        "content": CONTENT_SUBTYPES,
+        "code": CODE_SUBTYPES,
+        "capability": CAPABILITY_SUBTYPES,
+    }[artifact_type]
+    if subtype not in valid:
+        raise ValueError(f"Unsupported {artifact_type} subtype `{subtype}`. Valid: {', '.join(sorted(valid))}.")
+    return artifact_type, subtype
+
+
+def infer_source_refs_from_results(results: list[tuple[int, Path, str]]) -> list[str]:
+Confirmed: `link_artifact_to_sources` mutates source dicts in-place. With `SQLiteState`, `state.get("sources", [])` returns a `SQLiteCollection`; iterating it yields fresh `json.loads` copies — mutations are silently dropped. This is a real product regression from the SQLite migration, not just a test schema issue.
+
+  Wait — but the task says "test_cli_smoke：断言过期（state.json 现行 schema 已无该键）" — 断言对齐现行 schema. The scope is test fixes. But the derived_outputs assertion now fails because of a real bug in SQLiteCollection mutation semantics. Hmm. Is this in scope? The task says align assertions to current schema. If derived_outputs is genuinely broken in the product, that's a bigger bug. But the task scope is "断言对齐现行 schema" — the intended fix was just the sources KeyError.
+
+  Let me check: does the produce command actually go through link_artifact_to_sources and then save_state? If save_state re-serializes... `_legacy_save_state_json` for SQLiteState skips MVP collections, and state.commit() just commits the db — in-memory mutations to yielded dicts never touch the db. So derived_outputs is genuinely lost. Let me verify by checking whether improvement.py relies on derived_outputs (line 149: reads derived_ids from sources to decide). If that's broken, `improve` would misbehave — but tests pass elsewhere, so maybe tests don't cover it.
+
+  Hold on — maybe `state.get("sources")` in SQLiteState... let me check `get` (line ~421-429): returns `self._collections[key]` which is the SQLiteCollection. Iterating yields copies. So yes, in-place mutation lost.
+
+  But wait — is this maybe caught by another test? Apparently not (613 passed before).
+
+  Scope decision: the task asks to fix the two test flakes + full regression. The derived_outputs failure is a genuine product bug exposed by aligning the test. Options:
+  1. Fix the product bug: make link_artifact_to_sources write back via SQLiteCollection (e.g., update record via by_id + replace). That's minimal: after mutation, persist. But SQLiteCollection lacks an "update" method — has append (INSERT OR REPLACE). We could do: for mutated sources, call coll.append(source)? But link_artifact_to_sources works with generic state (plain dict in some tests). Minimal fix: in link_artifact_to_sources, after mutating, if sources collection has an `append` method (SQLiteCollection), re-append the mutated record. Or better: fix SQLiteCollection to support mutation... too big.
+
+  2. Weaken the test assertion — bad, hides a real bug.
+
+  Actually wait — maybe check git history: was this assertion passing before the SQLite migration? The test previously read state.json which had sources with derived_outputs. The migration to SQLite broke the write path. This is a genuine regression worth fixing in product code.
+
+  But the task instruction says "只做本次指令范围内的事". The task: "test_cli_smoke 断言对齐现行 schema". The current schema means derived_outputs still exists in source records (ingestion sets it). The produce flow failing to persist derived_outputs is arguably part of making the smoke test pass correctly. The alternative "align" would be deleting the assertion — but that would mask a real regression and 欧阳锋 would likely reject.
+
+  Let me fix link_artifact_to_sources to persist mutations when sources is a SQLiteCollection. Minimal approach in workspace.py: give SQLiteState/SQLiteCollection a way... Actually simplest correct fix in artifacts.py:
+
+  ```python
+  def link_artifact_to_sources(state, source_refs, artifact_id, artifact_path):
+      sources = state.get("sources", [])
+      mutated = []
+      for source in sources:
+          if source.get("id") not in source_refs:
+              continue
+          derived = source.setdefault("derived_outputs", [])
+          item = {"artifact_id": artifact_id, "path": artifact_path}
+          if item not in derived:
+              derived.append(item)
+              mutated.append(source)
+      # SQLiteCollection iterates fresh copies — in-place edits don't persist
+      persist = getattr(sources, "append", None)
+      if mutated and callable(persist) and not isinstance(sources, list):
+          for source in mutated:
+              persist(source)
+  ```
+
+  Hmm but plain list also has append... list.append would duplicate. So guard `not isinstance(sources, list)`. But cleaner: check isinstance SQLiteCollection. artifacts.py would import from workspace — fine.
+
+  Wait, but are there other places mutating sources in-place? improvement.py:148-158 only reads. Let me check `improve` flow and whether state["sources"] records get mutated elsewhere (e.g., freshness updates). grep `for source in` showed mostly reads. Also `source.setdefault` in artifacts only.
+
+  Actually, better systemic fix: make SQLiteCollection track mutation? Too invasive. Keep minimal.
+
+  Also — the check `if item not in derived` then `derived.append(item)` then persist the whole record with INSERT OR REPLACE — fine, idempotent.
+
+  Let me apply the fix.The run only kept tail -5 (the log I redirected went to /tmp/kdo_full_run1.log, then `tail -5` output captured). dashboard_server passed again in this run — flake not reproduced. Note: the full log is at /tmp/kdo_full_run1.log on the repo machine. Let me check it for warnings later.
+
+  I still need to reproduce the dashboard_server order-dependent flake. Since it's random order (is pytest-randomly installed? pip list grep found nothing — but maybe it's a different plugin name. Check pip list for "random"). If no random plugin, order is fixed (alphabetical) — then the flake must have come from the #616 run environment which included... hmm. #616 run: "612 passed/2 failed/1 skipped". My runs: 613 passed/1 failed/1 skipped = 615 total. Consistent count. If order is deterministic and the same tests run, why would dashboard_server fail there but pass twice here? Maybe the #616 run was run differently (e.g. whole repo, not tests/), or machine state (ports, leftover temp dirs).
+
+  Check pip for random-order plugins and check /tmp/kdo_full_run1.log.120
+            result = self.run_cmd(["dashboard"], workspace)
+            self.assertTrue((workspace / "50_delivery/analytics/kdo-dashboard.html").exists())
+No random/order plugins installed. So test order is deterministic — the "顺序依赖" flake in #616's run was probably run with some ordering... Hmm, but deterministic order means my run should reproduce the same failure. Unless the #616 run was done with a different invocation (e.g. `pytest` from repo root collecting 978 tests including kdo/tools — but that errors at collection...). Or the environment differed (e.g. leftover state, port conflicts, antivirus). Or #616 ran with `python -m pytest tests` in a different working copy state (their worktree had #616 changes).
+
+  Let me look at the prop doc: 60_feedback/proposals/prop_20260902_ouyangfeng-kdo-tests-flake-and-report-drift*.md in wiki repo — it may contain the exact failure output of test_dashboard_server. That tells me which assertion failed and why.
+
+• 无随机顺序插件——需要看 #616 建议书里 dashboard_server 的具体失败现场。60_feedback/diagnosis/prop_20260902_ouyangfeng-kdo-tests-flake-and-report-drift.md
+60_feedback/tasks/task_20260827_huangyaoshi-profile-config-patrol.md
+60_feedback/tasks/task_20260902_huangyaoshi-kdo-tests-flake-governance.md
+60_feedback/tasks/task_20260902_huangyaoshi-production-gate-enhancements.md
+
+
+• The proposal doesn't say which dashboard test failed. "顺序依赖 flake（单跑两 commit 均过，全量跑挂）" — deterministic order... but wait, is the order deterministic? pytest without plugins runs in file/definition order — deterministic. Unless... environment. Maybe the #616 run happened on a different machine state: e.g. `kdo dashboard --serve` subprocess binding ports, or leftover `.kdo/state.sqlite` locks from previous crashed run in temp dirs.
+
+  Hmm, one candidate: `TestDashboardHTTPServer.test_post_run_*` spawn `sys.executable -m kdo <cmd>` with cwd=root and capture_output text=True without encoding — on Windows GBK console, decode of Chinese output could crash with UnicodeDecodeError. `text=True` uses locale default (GBK on this machine). `kdo status` or `kdo lint` output may contain Chinese? If some other test earlier sets locale or the output contains non-GBK chars... Actually a decode error in subprocess.run would raise UnicodeDecodeError inside the handler → connection reset → test fails with ConnectionResetError. That's environment-dependent (console codepage), and could be order-independent though.
+
+  But why order-dependent? "单跑过、全量挂" with deterministic order → must be state left by an earlier test. Candidates:
+  1. A test that changes cwd and doesn't restore (test_flywheel restores).
+  2. A test that writes a config/preference file into the user home or repo that affects later runs (e.g. kdo preferences).
+  3. A test that monkeypatches and leaks (e.g., patch of kdo.cli symbols — the test module imports `render_dashboard` from kdo.cli at import time; if another test module patches `kdo.cli.render_dashboard`... unlikely).
+  4. Port/socket: HTTPServer(("127.0.0.1", 0)) — random port, fine.
+  5. `init_workspace(self.root)` — creates fresh workspace; do_POST subprocess runs kdo in that workspace with cwd=root. Subprocess `python -m kdo` — relies on installed kdo (editable). Fine.
+  6. Environment variable leakage: os.environ mutations. grep found none in tests/*.py except copy(). But maybe `setdefault` or via fixtures/monkeypatch (auto-restore).
+  7. `kdo` CLI writes to a global location — e.g., `~/.kdo` config or telemetry/token meter. If a previous test toggles a global config (like preferences), dashboard subprocess behavior changes.
+
+  Actually — wait. Which test in dashboard_server failed in #616? Unknown. Let me try to reproduce by running the exact full-suite again a few times; flake may be timing/load dependent (60s timeout on subprocess; heavy parallel load → timeout → returncode -1 assertions still pass since they only check "returncode" in data...). test_post_run_lint asserts code==200 and "returncode" in data — even timeout returns 200. So subprocess failure wouldn't fail those tests except... `_post` raises if connection fails (handler exception → no response → RemoteDisconnected, not HTTPError → exception propagates → test errors).
+
+  A UnicodeDecodeError inside do_POST's subprocess.run(text=True) would blow up the handler → connection dropped → test fails. And whether `kdo lint`/`kdo status` emits non-GBK-decodable chars could depend on workspace state... but each test creates fresh workspace. Hmm, but handler subprocess inherits environment — if an earlier test polluted os.environ (e.g., PYTHONIOENCODING) and leaked... 
+
+  Rather than guessing, run the full suite a few times to catch it. The run takes ~2.2 min. Let me run it say 3 times in background sequentially, logging full output. Actually first finish the cli_smoke fix (derived_outputs persistence bug).
+
+  Read artifacts.py via Read tool to satisfy the edit precondition..                                                                        [100%]
+1 passed in 7.65s
+test_cli_smoke fixed. Now the dashboard_server flake. I need to reproduce it. Deterministic order, so why did #616's full run fail it? Maybe the #616 run was `python -m pytest` (repo root, includes kdo/tools) — no, that errors at collection. Or maybe run with `-p randomly`? Let me check if pytest-randomly is installed under a different name... pip list grep found nothing. Check `python -m pytest --version` plugin list.
+
+• 第一例修复完成。现在复现 dashboard_server flake：pytest 9.0.3
+
+
+• pytest 9.0.3, no plugins listed (just version line). So order is deterministic. Then why did #616's run fail dashboard_server while my two runs pass? Possibilities:
+
+  1. Machine load/timing: do_POST subprocess has timeout=60; tests use urlopen timeout=5/10. Under heavy load (e.g., #616 run while other processes running), the subprocess `python -m kdo lint` might take >5s... but urlopen timeout only covers the HTTP request; the handler takes as long as subprocess.run (up to 60s) → urlopen times out at 5-10s → TimeoutError → test fails! That's timing-dependent, "顺序依赖" might be a misdiagnosis; it's load-dependent. Actually urlopen timeout=5 applies to reading the response; the handler must complete the kdo subprocess within 5-10s. `python -m kdo lint` on a fresh workspace takes maybe 1-3s normally, but under load could exceed 10s → flake.
+
+  2. The dashboard handler's do_GET calls load_state(root) which on first call migrates state.json → sqlite, renaming state.json. Concurrent with... no.
+
+  3. Port conflict — uses port 0, no.
+
+  To reproduce: run dashboard tests while CPU is saturated. Or simpler: the flake may manifest when the machine is busy. The task says "顺序依赖解耦" — decouple. Given uncertainty about the true mechanism, what would 欧阳锋's #616 failure actually be? Without the exact failure output, I should try harder to reproduce. Run the full suite in a loop (say 4 times) in background and watch for dashboard failures. Each ~2.2 min → ~9 min. Meanwhile examine failure modes: check whether any other test writes into the dashboard test's temp root... no.
+
+  Also check _LIVE_SQLITE_STATES registry — global weakset; when many SQLiteState objects alive, atexit or finalizers might interfere? Look at _LIVE_SQLITE_STATES usage.23:_LIVE_SQLITE_STATES: weakref.WeakSet = weakref.WeakSet()
+400:        self._finalizer = weakref.finalize(self, self._close_db, self._db)
+401:        _LIVE_SQLITE_STATES.add(self)
+471:    def _close_db(db: sqlite3.Connection) -> None:
+504:        self._close_db(self._db)
+---
+109:                    timeout=60,
+Let me try to actually reproduce the flake by running the full suite repeatedly. Also, the #616 review happened on this same machine presumably (欧阳锋 terminal run). Load at that time could have been high (many agents). The most plausible flake mechanism for test_dashboard_server:
+
+  - `_post` uses `urlopen(req, timeout=10)`. The handler runs `subprocess.run([sys.executable, "-m", "kdo", command], timeout=60)` synchronously. If the subprocess takes >10s (slow machine under load), urlopen raises TimeoutError → test fails. Tests affected: test_post_run_lint, test_post_run_status, test_post_run_validate_with_args, test_post_run_localhost_origin_allowed — the ones invoking real kdo commands.
+
+  - `_get("/")` with timeout=5: do_GET calls load_state + render_dashboard — fast.
+
+  Under full-suite load (pytest running subprocess-heavy tests in same process... actually tests run sequentially, not parallel — no xdist). But other machine activity (many agent CLIs on this box) can slow the subprocess. That's timing flake, not order dependency. But "单跑过、全量挂" — during full suite, the test process itself may be slow due to... no parallelism. Hmm. But wait: during full run, earlier tests may leave zombie processes (e.g., test_cli_smoke spawns subprocesses; dashboard server threads from other tests; hermes watchers?) consuming CPU. Also, antivirus scanning temp dirs.
+
+  Alternative order-dependent mechanism: some earlier test patches `kdo.cli.render_dashboard` or module functions. test_dashboard_server imports names from kdo.cli at module import time: `_make_dashboard_handler` etc. — bound at import, so later patching doesn't matter. But if an earlier test module patches `kdo.dashboard_server.subprocess.run`... grep tests for "patch" targeting subprocess.
+
+  Also possible: an earlier test writes `kdo-preferences` or sets env `KDO_*`. Let me grep tests for `os.environ` more broadly and for `patch(`.===
+tests/test_ocr.py
+tests/test_route.py
+No env writes, no obvious monkeypatch pollution. So the most plausible mechanism is timing: handler subprocess exceeding urlopen timeout under load. Let me try to reproduce with a stress run: run the dashboard server tests in a loop while CPU is loaded. Simpler: run the full suite a few times in background and check. Meanwhile verify hypothesis by measuring how long `python -m kdo lint` takes in a fresh workspace.['lint'] 0 0.60s
+['status'] 0 0.32s
+['validate', '--advisory'] 0 0.31s
+Subprocess is fast (~0.6s) when machine idle. urlopen timeout 10s would require >16x slowdown — possible under heavy multi-agent load but rare.
+
+  Other flake candidates in test_dashboard_server:
+
+  - `test_get_root_returns_html`: do_GET calls load_state(root) → on first access migrates state.json → sqlite: creates state.sqlite, moves state.json to .migrated. render_dashboard then renders. Under a second do_GET... each GET creates a new SQLiteState and closes it. On Windows, moving/deleting files with open handles fails, but each is closed.
+
+  - tearDown: server.shutdown(); thread.join(timeout=2); server.server_close(); tmp.cleanup(). If a handler thread is still mid-request (e.g., a slow subprocess from the previous test's POST), shutdown waits for serve_forever loop but not for in-flight handler threads (HTTPServer is threaded? No — http.server.HTTPServer is NOT threaded; it's single-threaded sequential! Each test starts a plain HTTPServer. Requests are handled serially in the serve_forever thread. So a test's POST is fully handled before urlopen returns. OK.
+
+  - tmp.cleanup() on Windows can fail with PermissionError if the sqlite connection still open (WAL files). In do_GET, state.close() is called. In do_POST, subprocess only. init_workspace — does it leave open handles? It may write state.json only. But: the smoke... wait, tearDown tmp.cleanup() — if PermissionError during cleanup, does unittest report error? TemporaryDirectory.cleanup() on Windows with locked files raises PermissionError (not ignored unless ignore_cleanup_errors=True). That would make the test error at teardown — flake dependent on whether a finalizer has run (GC timing!). weakref.finalize for SQLiteState closes db on GC — GC timing dependent → "顺序依赖/随机" flake!
+
+  Where would an unclosed SQLiteState come from in this test? do_GET closes. But load_state in do_GET: `if isinstance(state, SQLiteState): state.close()` — closed. Hmm.
+
+  But wait — init_workspace: does it call save_state (which closes)? Probably creates state.json via _legacy_save_state_json, no sqlite.
+
+  What about the first do_GET migrating: migrate_from_json opens... all in same connection. closed after.
+
+  Alternative: Windows file-locking flake in tearDown's tmp.cleanup() from the WAL files (state.sqlite-wal) if the checkpoint didn't finish. Possible but speculative.
+
+  Honestly, I can't reproduce on demand. Strategy per P-21: build diagnosis. Run the full suite in a loop (e.g., 5 times) capturing failures; also run dashboard tests under CPU stress to test the timing hypothesis.
+
+  Actually, let me reconsider: maybe #616's failure output is recorded somewhere — 60_feedback/audits or reviews for #616. Search wiki repo for the failure text.
+
+• 找不到污染点。先查 #616 终审记录里 dashboard_server 的具体失败输出：===
+
+
+60_feedback/diagnosis/prop_20260902_ouyangfeng-586batch-fake-quotes-and-ref-drift.md
+60_feedback/diagnosis/prop_20260902_ouyangfeng-kdo-tests-flake-and-report-drift.md
+60_feedback/session-archives/2026-09-02/laowantong.md
+60_feedback/session-archives/2026-09-02/ouyangfeng.md
+60_feedback/tasks/task_20260902_huangyaoshi-kdo-tests-flake-governance.md
+60_feedback/tasks/task_20260902_huangyaoshi-production-gate-enhancements.md
+60_feedback/tasks/task_20260902_laowantong-614-downgraded-cards-rework.md
+60_feedback/tasks/task_20260902_ouyangfeng-unverified-reviewed-cards-batch-review.md
+70_product/tasks/production-queue.md
+review_20260704_ouyangfeng-yitang-yuebai-batch8.md
+review_20260705_laowantong-batch47.md
+review_20260705_laowantong-batch48.md
+review_20260705_laowantong-batch49.md
+review_20260705_laowantong-batch50.md
+review_20260705_laowantong-batch51.md
+review_20260705_laowantong-batch52.md
+review_20260705_laowantong-batch53.md
+review_20260705_laowantong-batch54.md
+review_20260705_laowantong-batch60-overnight.md
+342:| #616 对「603 passed」与实测「612 passed/2 failed」不符启动父 commit worktree 对照 | 双假设：先怀疑采集再怀疑内容；报告数字不符必须定性 | 2 例失败实证均为存量/flake，与本改动无关，不阻断 |
+344:| flake+报告数字漂移写最小建议书 | 出口自检钩子：终审记录含治理建议=必须落建议书 | prop_20260902_ouyangfeng-kdo-tests-flake-and-report-drift，探针新登记 1 |
+357:- 建议书：`60_feedback/diagnosis/prop_20260902_ouyangfeng-kdo-tests-flake-and-report-drift.md`（探针回执：新登记 1）
+358:- 队列/看板：production-queue 两行 reviewed + 待审段划线、dashboard.html 199 任务
+378:建造→使用→反思闭环加速：上午审出的伪引文模式（反思）→ #616 机制化成 pre-submit 门禁（建造）→ 本轮狗粮实证门禁抓住同款病例（使用验证）→  flake/数字漂移又产新建议书（反思）。一圈完整。
+• No detailed failure output for which dashboard test failed. I'll reproduce it myself. Plan: run the full suite several times in a loop in background; meanwhile stress-test the timing hypothesis.
+
+  Actually, wait — one more candidate. test_dashboard_server.py's HTTP tests bind port 0 and the handler's POST spawns `python -m kdo` with cwd=root but WITHOUT cleaned env — inherits os.environ of the pytest process. If a previous test set PYTHONPATH... grep found no env writes in tests. But kdo itself: does any kdo command set a persistent machine-level config, like `~/.kdo/`? The CLI subprocess inherits HOME. If an earlier test's CLI invocation wrote something to the user home that breaks later `kdo status`... but the failure would be in returncode only, and tests only assert "returncode" in data, not its value. Only connection-level failures break tests.
+
+  Which test methods could fail?
+  1. test_get_root_returns_html — load_state/render failure → handler exception → connection dropped → RemoteDisconnected error. What could make load_state fail in full run but not alone? The handler runs in a thread of the pytest process. `load_state` migrates state.json→sqlite in the tmp workspace. If a previous test left `os.chdir` somewhere? No. If render_dashboard depends on cwd? It takes root param.
+
+  Hmm — threading + SQLiteState: `_LIVE_SQLITE_STATES` WeakSet, finalizer registered with `check_same_thread=False` noted because finalizers may run from other threads. If GC of a previous dashboard test's state triggers _close_db on a connection while... it's per-connection, fine.
+
+  2. urlopen timeouts under load — plausible.
+
+  Let me just stress-run: full suite 4 times, plus run dashboard tests with CPU saturation to test timeout hypothesis. Start the loop in background.While that runs (~9 min), stress-test timing hypothesis: saturate CPU and run test_dashboard_server. On Windows git bash, spawn background CPU hogs with python. Let me run dashboard tests while 8 CPU-hog processes run.
+
+• 连跑期间，验证超时假说——CPU 饱和下跑 dashboard 测试：.........................                                                [100%]
+25 passed in 21.80s
+done
+
+
+• CPU stress didn't reproduce. Machine has many cores; python subprocess startup slowed but not beyond 10s.
+
+  Other hypothesis: the flake is I/O related on Windows — temp dir cleanup or WAL. Or it's about the interaction with tests that run `kdo dashboard --serve`? Is there another test that starts a real server on a fixed port? grep tests for "serve" / port numbers.tests/test_extractors.py:96:    def test_preserves_content(self):
+tests/test_extractors.py:197:    def test_preserves_paragraph_structure(self):
+tests/test_extractors.py:204:    def test_preserves_chinese_content(self):
+tests/test_module_boundaries.py:151:            dash_args = argparse.Namespace(output="dashboard.html", view="overview", serve=False, port=7654, allow_actions=False)
+tests/test_transcript.py:61:    def test_preserves_empty_paragraph_breaks(self):
+tests/test_validate_v15.py:700:    def test_write_preserves_original_content(self):
+tests/test_validate_v15.py:726:        # Verify original content preserved
+tests/test_validate_v15.py:817:        # All original content must be preserved
+tests/test_watch.py:54:        with patch.dict(sys.modules, {"watchdog.observers": None, "watchdog.events": None}):
+tests/test_workspace_state.py:46:    def test_migration_preserves_source_records(self):
+===
+1:15:from .commands.dashboard import cmd_dashboard
+3:105:from .dashboard import (
+5:125:from .dashboard_server import (
+18:437:    p_dashboard.add_argument("--port", type=int, default=7654, help="Port for --serve mode. Default: 7654.")
+22:895:def _make_dashboard_handler(root: Path, allow_actions: bool = False, csrf_token: str | None = None) -> type:
+25:904:def start_dashboard_server(root: Path, port: int, allow_actions: bool = False) -> None:
+26:905:    _start_dashboard_server(root, port, render_dashboard, allow_actions=allow_actions)
+Wait — test_cli_smoke runs `kdo dashboard` (without --serve) in its workspace. Fine.
+
+  Consider: in #616's environment, the run was `pytest tests/` from repo on the same machine but perhaps while other agents were hammering disk/CPU. The 欧阳锋 note said "顺序依赖 flake（单跑两 commit 均过，全量跑挂）" — that's their characterization; the mechanism might genuinely be "in full run, something earlier slows/perturbs the dashboard tests". Since we can't identify via static analysis, the pragmatic "解耦" fix: make the HTTP tests robust:
+
+  1. Increase urlopen timeouts? That's masking.
+  2. The real likely culprit in a full run: disk I/O contention making `python -m kdo` subprocess slow beyond 10s. Hmm but test asserts only 200 + "returncode" — the POST handler runs subprocess with timeout=60 and always returns 200. Failure only if urlopen timeout (10s) exceeded. 
+
+  Alternatively the GET test: do_GET with load_state + render_dashboard, timeout=5.
+
+  Let me wait for the 4-run loop to see if flake reproduces at all on current machine state. If it doesn't reproduce, I should consider the strongest "decoupling" fix consistent with evidence:
+
+  Actually — hold on. Let me reconsider "顺序依赖". What tests run immediately before test_dashboard_server in the deterministic order? pytest collects alphabetically by filename: test_dashboard_server.py comes after test_dashboard.py, test_contradiction_check.py... wait order: files sorted — test_cli_smoke comes after. Which file precedes dashboard_server alphabetically? test_dashboard.py presumably. Let me check test_dashboard.py for side effects — maybe it changes cwd or leaves a server running.__pycache__
+conftest.py
+test_artifacts.py
+test_build.py
+test_cli_smoke.py
+test_dashboard.py
+test_dashboard_server.py
+test_encapsulate.py
+test_enrich.py
+test_extractors.py
+test_feedback_loop.py
+test_flywheel.py
+test_graph.py
+test_health_profile_drift.py
+test_improve_apply.py
+test_index_wikilink_format.py
+test_label.py
+test_module_boundaries.py
+test_ocr.py
+test_pre_submit_body_src_unknown.py
+test_pre_submit_concept_crosscheck.py
+test_pre_submit_quote_source_616.py
+test_pre_submit_source_anchor.py
+test_product_layer.py
+test_query_label.py
+test_report.py
+test_route.py
+test_search_index_incremental.py
+test_security.py
+test_ship_gate.py
+test_source_refs_gate_567.py
+test_stale.py
+test_transcript.py
+test_validate.py
+test_validate_deep.py
+test_validate_v15.py
+test_video.py
+test_vlm_two_section.py
+test_watch.py
+test_workspace.py
+===
+6:test_dashboard.py
+7:test_dashboard_server.py
+"""Shared pytest fixtures for the KDO test suite."""
+
+import gc
+
+import pytest
+
+from kdo.workspace import _LIVE_SQLITE_STATES
+
+
+@pytest.fixture(autouse=True)
+def _gc_after_test():
+    """Release SQLite connections after each test.
+
+    Windows cannot delete a file while it is held open. SQLite-backed state
+    keeps a file handle, so we ensure live SQLiteState instances are closed
+    before temp directories are cleaned up.
+    """
+    yield
+    gc.collect()
+    for state in list(_LIVE_SQLITE_STATES):
+        try:
+            state.close()
+        except Exception:
+            pass
+    gc.collect()
+===
+InterestingInteresting! conftest has conftest has an autouse fixture that closes live SQLite states after each test — evidence they already fought Windows file-handle flakes. 
+
+  Note: `_gc_after_test` closes ALL live SQLiteStates after each test. Now consider test_dashboard_server.TestDashboardHTTPServer: setUp creates server thread; a test does GET → handler thread creates SQLiteState (registered in _LIVE_SQLITE_STATES), closes it in do_GET's finally... 
+
+  Hmm wait, there's a subtle race: after test N finishes, the autouse fixture closes all live states. If the dashboard server thread is concurrently handling a request (state in use), fixture closes it mid-request → handler crash → flaky failure. When does that happen? shutdown happens in tearDown before fixture teardown... tearDown: server.shutdown() waits for serve_forever to exit its loop, but if a handler is mid-request... serve_forever processes requests sequentially in the same thread; shutdown() blocks until the loop notices the flag — the current request finishes first. urlopen returned only after full response anyway. So no in-flight requests at teardown.
+
+  BUT: the daemon handler... HTTPServer single-threaded, fine.
+
+  What about `test_get_root_returns_html` asserting `match.group(1) == self.csrf_token`? Deterministic.
+
+  OK — another thought: the `_gc_after_test` fixture itself. It closes live SQLiteStates. In TestDashboardRenderHasActionButtons, init_workspace then render_dashboard with dict state — no sqlite. 
+
+  Time to think about what actually differs in full run: test_dashboard.py runs right before test_dashboard_server.py. Look at test_dashboard.py — maybe it calls load_state on the repo itself or creates a global. Let me read it quickly for side effects (module-level server, threads, or writing into repo dirs).388 tests/test_dashboard.py
+No side effects there. What about tests before dashboard_server that use dashboard server via real serve? test_module_boundaries.py:151 uses serve=False. 
+
+  Different approach: check git log of the KDO repo for recent changes to these tests or to workspace.py — maybe the flake is known and there are notes. Also check whether pytest collects tests in deterministic order — yes, alphabetical within tests/ directory. test_dashboard_server position: 7th file. In #616's run it failed; in my two runs it passed. The difference between runs is machine load/state, not order (order identical). Unless #616's worktree had different test set (their run had 615 tests too: 612+2+1).
+
+  Machine-state flake candidates for dashboard HTTP tests:
+  - urlopen timeout 10s exceeded under load.
+  - Port binding PermissionError → skipTest (that would show as skipped, not failed).
+  - Windows socket/TIME_WAIT issues — port 0 avoids.
+
+  Hmm wait, actually — let me reconsider: handler's do_POST subprocess inherits os.environ from pytest process. `sys.executable -m kdo` with cwd=root. kdo is editable-installed so importable. BUT — what if an earlier test inserts the repo into sys.modules differently or an earlier test DELETES the egg-link... no.
+
+  What about `kdo status` / `kdo lint` subprocess writing to a shared user-level file (e.g., ~/.kdo/token meter or logs) — concurrent writes from leftover background processes could cause a crash in subprocess → still returncode 200 response. Tests don't assert returncode value. OK.
+
+  What about test_post_run_validate_with_args: validate writes reports into workspace; still 200.
+
+  test_get_root_returns_html: load_state(root) — the FIRST GET migrates state.json→sqlite (rename). If migration lock file `.kdo/.state.lock`... _file_lock uses what mechanism? On Windows, msvcrt.locking? If a stale lock from a crashed previous run exists in... no, fresh tempdir.
+
+  Hmm — what about the smoke test (test_cli_smoke) running `kdo dashboard` in ITS workspace concurrently? Tests are sequential — no overlap.
+
+  Let me step back and check git history for context on this flake.7ba660c #616 生产闸门三修任务1：pre-submit 引号逐字对源+refs区间抽验 WARNING 门禁（#614伪引文/区间漂移实证根治，WARNING档观察）by huangyaoshi-kimi
+61b3f85 #569 索引新鲜度报错带--incremental提示+aliases比对滤除日期工件名（残留误报根治） (by huangyaoshi)
+d711bce #567 pre-submit拆capability虚构路径豁免+lint散文型source_ref WARN（疑似非路径） (by huangyaoshi)
+a62e778 #559 health-check 新增 hermes profile 配置漂移巡检：approvals.mode/timeout/cron_mode+command_allowlist 对基线 (by huangyaoshi)
+203e0b6 #542 返工：format_report 补登 concept_crosscheck + 未列门禁兜底段 (by huangyaoshi)
+02d2856 #542 pre-submit 概念交叉验证 WARNING：正文命中已有概念词→提示人工对账 (by huangyaoshi)
+0175a89 #543 pre_submit 行号锚剥除：source_reachability 带锚引用误报修复 (by huangyaoshi)
+3bce340 feat(gate): #540 pre-submit VLM/OCR卡两段式检查（缺AI推断警示行WARNING起步） by huangyaoshi
+bd67a37 feat(gate): #517 pre-submit 正文 src_unknown 占位门禁——新卡 ERROR/存量 WARNING 只向前生效；PASS 含 WARNING 不再附修得干净安慰语 by huangyaoshi
+5448393 fix(gate): #496 pre-submit source_refs 判定升级（判 FAIL 前先查正文来源段）
+3d0f2ac feat(gate): #421 pre-submit 建议书三元组门禁——含 audience 字段的文件必须带齐三元组（audience: 王语嫣 + status: pending_orchestration），写侧防漏标
+f7a78a0 fix(index): #409 P2 跟进——index.md/backlinks 生成模板补 frontmatter，防 rebuild 无声回滚（#366 家族）
+419bd92 feat(scaffold): #395 产卡模板 updated_at 必填 —— curation.py:592 + delivery.py query 卡模板补 updated_at（与 digest/encapsulate/quality 对齐，关闭出生即欠账）
+1e13681 fix(delivery): #382 _filter_by_trust 静默失效 —— 补 import os（posix 分支 NameError 被 except 吞掉，BM25 绝对路径结果从未被 trust 过滤）+ 语义补正（仅显式 low-trust 才剔除，无 frontmatter/缺 trust_level 按默认 medium 放行，防误杀素材层）
+71c2c2e feat(query): #380 检索结果未审标注 — _label_unreviewed 给 status=draft 卡 snippet 加【未审 draft】前缀（只标注不降权，CLI kdo query 输出层统一标注）+ 3 单测
+===
+203f5cf feat: Knowledge Delivery OS 0.0.1 — Obsidian CLI bridge and pipeline integration
+===
+ M kdo/artifacts.py
+ M tests/test_cli_smoke.py
+The KDO repo's git log shows only one commit touching test_dashboard_server.py (initial). Current HEAD 7ba660c matches #616's run commit. My working tree now has my two modifications.
+
+  Since I can't reproduce locally yet, let me check the 4-run loop progress later. Meanwhile, think about "顺序依赖" more carefully: maybe the order dependency isn't within pytest process, but from a PREVIOUS pytest run's leftovers. E.g., temp dirs not cleaned (Windows locked files) accumulate — irrelevant.
+
+  Another idea: test_dashboard_server failures could come from `init_workspace` — does init_workspace depend on cwd or global state? If test order put test_flywheel before (it chdirs) — restores. Let me actually check the #616 终审记录 for exact failed test names. Search ouyangfeng session archive for "test_dashboard".342:| #616 对「603 passed」与实测「612 passed/2 failed」不符启动父 commit worktree 对照 | 双假设：先怀疑采集再怀疑内容；报告数字不符必须定性 | 2 例失败实证均为存量/flake，与本改动无关，不阻断 |
+60_feedback/diagnosis/prop_20260902_ouyangfeng-kdo-tests-flake-and-report-drift.md
+60_feedback/session-archives/2026-09-02/ouyangfeng.md
+60_feedback/tasks/task_20260902_huangyaoshi-kdo-tests-flake-governance.md
+60_feedback/tasks/task_20260902_huangyaoshi-production-gate-enhancements.md
+No exact failure name recorded. I need to reproduce. Wait for the 4-run loop. Meanwhile, review the dashboard handler for any non-threadsafe/stateful global. `token = csrf_token or secrets...` fine.
+
+  Actually — one more strong candidate I haven't checked: `kdo lint` / `kdo status` subprocess output decode. do_POST uses `subprocess.run(..., capture_output=True, text=True)` — no encoding specified → on Windows uses locale (GBK/cp936). If kdo CLI output contains characters not decodable in cp936 (e.g., emoji 🟢 or Chinese punctuation like 「」 are in cp936? 「」 yes; emoji NOT in cp936), decode raises UnicodeDecodeError inside handler → handler thread dies → client gets connection reset → test FAILS (not HTTPError).
+
+  Does `kdo lint` or `kdo status` output emoji? Depends on workspace state — in a fresh temp workspace probably not. BUT: whether output contains emoji could depend on... hmm, still fresh workspace each time.
+
+  Wait — actually UnicodeDecodeError with text=True: Python's subprocess decodes incrementally; if output has any byte invalid in cp936, it raises. `kdo status` on fresh workspace — check if it outputs emoji. Let me just run it and check bytes. Also `kdo lint` on fresh workspace.
+
+  And crucially: is the decode order-dependent? What if an earlier test in the full run sets `os.environ["PYTHONIOENCODING"]`? No env writes found. But locale could be affected by `locale.setlocale`? grep.===
+['lint'] gbk-ok
+['status'] gbk-ok
+['validate', '--advisory'] gbk-ok
+Not the decode issue on fresh workspace. But wait — in the failing full run, could the temp workspace contain other content? No, init fresh.
+
+  Hmm, let me re-check: does `kdo lint` output depend on machine-level state, e.g., it might lint the CWD repo if workspace detection walks up? The subprocess cwd=root (temp workspace with .kdo) — fine.
+
+  OK. Let me look at this from the "what does #616's claim of order dependence" mean: "单跑两 commit 均过，全量跑挂" — deterministic order. Two full runs on this machine passed. Maybe the difference: 欧阳锋 ran from a worktree of parent commit AND current — and the failure appeared in BOTH? "单跑两 commit 均过，全量跑挂" means: run alone passes on both commits, full run fails (presumably on current commit). 
+
+  Machine load at that time: multiple agents (王语嫣， laowantong, etc.) active on the box. The urlopen timeout=10s is the classic victim. Under heavy load (disk+CPU from several agent CLIs, antivirus scanning freshly created temp dirs), `python -m kdo lint` subprocess cold start can exceed 10s: Python interpreter startup + imports on contended disk can take several seconds; kdo imports llm, yaml, etc. Antivirus real-time scan of temp files adds latency. That's the classic Windows CI flake.
+
+  So the decoupling fix: make the tests robust to slow subprocess — this is legitimate "解耦" (from machine timing): increase urlopen timeouts for POST /run tests (e.g., 10→30s) and GET (5→15s)? But is that "顺序依赖解耦"? Partially — if the real mechanism is load-induced timeout, raising timeouts removes the flake.
+
+  But I shouldn't guess blindly (P-21: 先诊断）. The 4-run loop may or may not catch it. Let me also try running the full suite with load generated (stress + full suite). Actually my earlier CPU-stress test only ran dashboard tests — subprocess took at most ~2s under CPU stress (pure CPU burn doesn't slow much; disk/AV contention does).
+
+  Better: try disk+process stress. Generate heavy disk I/O while running the dashboard tests.
+
+  Alternatively, reconsider once more for true order dependence inside the pytest process. Test methods in TestDashboardHTTPServer share nothing between tests (fresh server per test). BUT — the CSRF token is fixed "test-csrf-token"; fine.
+
+  Hmm wait, one thing: `test_get_root_returns_html` asserts the csrf token embedded equals "test-csrf-token". do_GET renders via render_dashboard(root, state, actions_enabled=True, csrf_token=token). Fine.
+
+  What about inter-file order dependence: `_make_dashboard_handler` imported from kdo.cli at module level. If an earlier test module (e.g., test_module_boundaries.py) patches kdo.dashboard_server.load_state globally without restoring? Check test_module_boundaries and others for patch targets in kdo.dashboard_server/kdo.cli.tests/test_module_boundaries.py:125:    def _patch_workspace(self, module):
+tests/test_module_boundaries.py:131:        original_delivery = self._patch_workspace(delivery)
+tests/test_module_boundaries.py:132:        original_dashboard = self._patch_workspace(dashboard_cmd)
+tests/test_module_boundaries.py:133:        original_feedback = self._patch_workspace(feedback)
+===
+3:import json
+4:import re
+5:import tempfile
+6:import threading
+7:import unittest
+8:import urllib.request
+9:import urllib.error
+10:from pathlib import Path
+12:from kdo.cli import (
+19:from kdo.workspace import init_workspace
+        chat.write_text(json.dumps({"messages": [{"role": "user", "content": "Build it."}]}), encoding="utf-8")
+        args = argparse.Namespace(
+            path=str(chat),
+            title="Direct Chat",
+            format="auto",
+            trust_level="medium",
+            freshness="current",
+            rights="private",
+        )
+        rc = self._with_workspace(lambda: input_cmd.cmd_import_chat(args))
+        self.assertEqual(rc, 0)
+        captures = list((self.root / "00_inbox/ai-chats").glob("*.md"))
+        self.assertEqual(len(captures), 1)
+        self.assertIn("Build it.", captures[0].read_text(encoding="utf-8"))
+
+
+class TestDirectWorkflowCommands(unittest.TestCase):
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.root = Path(self.tmp.name)
+        init_workspace(self.root)
+
+    def tearDown(self):
+        self.tmp.cleanup()
+
+    def _patch_workspace(self, module):
+        original = module.find_workspace
+        module.find_workspace = lambda: self.root
+        return original
+
+    def test_produce_dashboard_improve_direct(self):
+        original_delivery = self._patch_workspace(delivery)
+        original_dashboard = self._patch_workspace(dashboard_cmd)
+        original_feedback = self._patch_workspace(feedback)
+        try:
+            with load_state(self.root) as state:
+                baseline_artifacts = len(state.get("artifacts", []))
+
+            produce_args = argparse.Namespace(
+                artifact="content/article",
+                topic="Direct Product",
+                title=None,
+                target_user="Builder",
+                channel="local",
+            )
+            with contextlib.redirect_stdout(io.StringIO()):
+                self.assertEqual(delivery.cmd_produce(produce_args), 0)
+
+            with load_state(self.root) as state:
+                self.assertEqual(len(state.get("artifacts", [])), baseline_artifacts + 1)
+
+            dash_args = argparse.Namespace(output="dashboard.html", view="overview", serve=False, port=7654, allow_actions=False)
+            with contextlib.redirect_stdout(io.StringIO()):
+                self.assertEqual(dashboard_cmd.cmd_dashboard(dash_args), 0)
+            self.assertTrue((self.root / "dashboard.html").exists())
+
+            improve_args = argparse.Namespace(output=None, print_plan=False, apply=False, dry_run=False, yes=False)
+            with contextlib.redirect_stdout(io.StringIO()):
+                self.assertEqual(feedback.cmd_improve(improve_args), 0)
+            with load_state(self.root) as state:
+                self.assertEqual(len(state.get("improvement_plans", [])), 1)
+        finally:
+            delivery.find_workspace = original_delivery
+            dashboard_cmd.find_workspace = original_dashboard
+            feedback.find_workspace = original_feedback
+
+
+class TestCurationCommandDirect(unittest.TestCase):
+    def test_cmd_enrich_dependency_injection(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            init_workspace(root)
+            args = argparse.Namespace(wiki_path=None, all_pages=True, dry_run=False)
+            with contextlib.redirect_stdout(io.StringIO()):
+                rc = curation.cmd_enrich(
+                    args,
+                    find_workspace_fn=lambda: root,
+                    load_state_fn=lambda _: {"sources": [], "artifacts": [], "feedback": []},
+                )
+            self.assertEqual(rc, 0)
+Found it — `test_module_boundaries.py` `_patch_workspace` monkey-patches `module.find_workspace` and restores in finally. That's restored, so no leak. But note `load_state(self.root) as state` — SQLiteState supports context manager? Interesting.
+
+  Hmm, restored properly. Not it.
+
+  Wait — look more carefully at module boundaries line 125-133: `_patch_workspace(delivery)` sets `delivery.find_workspace = lambda: self.root` and restores in finally. OK.
+
+  Let me now check the 4-run loop's status — maybe first runs done. Also consider disk-stress reproduction.
+
+  Actually, another candidate mechanism just hit me: `kdo status`/`lint` subprocess spawned by handler inherits the pytest process's os.environ, including `PYTEST_CURRENT_TEST` etc. — harmless. 
+
+  And `sqlite3.connect` in handler thread with `check_same_thread=False`... 
+
+  Let me check the loop progress.=== RUN 1 ===
+614 passed, 1 skipped in 171.57s (0:02:51)
+=== RUN 2 ===
+Run 1: all pass now (my cli_smoke fix included — 614 passed = previous 613 + cli_smoke). Flake not reproduced yet. Runs 2-4
