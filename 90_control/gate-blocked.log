@@ -538,3 +538,4 @@
 2026-09-02 12:22:22｜task_20260902_laowantong-614-verdicts-apply｜F-035-负向判词｜意见书含负向断言（不存在）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋
 2026-09-02 12:32:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 636.7), ('cli', 166.7)]）｜role_registry check-liveness｜role_registry
 2026-09-02 12:47:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 651.8), ('cli', 33.5)]）｜role_registry check-liveness｜role_registry
+2026-09-02 13:00:23｜task_20260902_laowantong-614-downgraded-cards-rework｜F-034-五字段｜--evidence 文件不可读: commit 5188f296b+bf73d4560；5卡pre-submit PASS（QUOTE_VERBATIM/SOURCE_RANGE/INDEX全0）；｜laowantong-kimi

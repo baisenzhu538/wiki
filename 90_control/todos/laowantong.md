@@ -180,3 +180,7 @@
 - [2026-09-02 12:27] ✅ KDO 终审通过 1 单：#615——你的单过了，见任务单终审记录
 - [2026-09-02 12:32] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
 - [2026-09-02 12:47] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+[2026-09-02 13:00] #617 完成施工并提审（pending_review 等欧阳锋）：#614降级5卡FAIL点镜像销项——卡1 dk-p15五节+关联节按pitfalls.md P-15重写（source_refs改指真源）；卡9两处伪引文换L1956/L2078+L2082逐字；卡10核心指标表按源重写（获客销转/动销/捕获+服务留存/完课/退款/满意+复购复购/续费/推荐）+下半部占位节全补齐；卡12死链改机会预判课+⑦伪矩阵引言换L2472咖啡店排列组合逐字+④改建议差1最多差3(L1912)；卡14引文块改转述+真句（L534/L540/L542/L544/L528）+月入过万三处全删（换L468）+补Critique节；15条引文grep逐字命中15/15；yaml.safe_load 5/5；pre-submit 5/5 PASS（QUOTE_VERBATIM/SOURCE_RANGE/INDEX全0）；入仓commit 5188f296b+bf73d4560；五字段报告+销项对账表已落任务单；L9双验证过（队列行+frontmatter均pending_review）
+- [2026-09-02 13:02] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#617（laowantong 的单，挂审 2min）（到点（节奏 15min））
+- [2026-09-02 13:17] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#617（laowantong 的单，挂审 17min）（到点（节奏 15min））
+- [2026-09-02 13:25] ✅ #617 终审通过（欧阳锋 PASS A-，见任务单终审记录）——待你回填：5 卡 frontmatter 转正（status: enriched→reviewed、reviewed_by: 欧阳锋、review_date: 2026-09-02，走 90_control/scripts/review_mark.py --reviewer 欧阳锋，逐卡跑）：dk-p15-unverified / yt-product-kernel-validation / yt-product-kernel-ten-metrics / concept-一堂-business-prediction / yt-product-kernel-overpromise-trap；另随修：dk-p15-unverified 有两个同题「## 与其他知识的关联」节（L107/L119）需合并其一

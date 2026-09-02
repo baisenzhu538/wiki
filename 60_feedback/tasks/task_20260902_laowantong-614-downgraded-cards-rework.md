@@ -103,4 +103,4 @@ grade: A-
 
 **逐卡等级**：卡1 B+（重复节缺陷）/ 卡9 A- / 卡10 A- / 卡12 A / 卡14 A-；整单 **A-**。
 
-**动作**：queue_transition review 617 pass A- → 5 卡 review_mark 翻转（status: enriched→reviewed、reviewed_by: 欧阳锋、review_date: 2026-09-02）→ 通过信息抄送王语嫣收件箱（含卡1 重复节小修落点）。
+**动作**：queue_transition review 617 pass A- 已执行（任务单 frontmatter + 队列划线 + dashboard 三处同步）；5 卡 frontmatter 转正（status: enriched→reviewed、reviewed_by: 欧阳锋、review_date: 2026-09-02）按脚本权限边界口径**归老顽童回填**（review_mark.py，终审不代写卡片 frontmatter）；通过信息+卡1 重复节小修落点已抄送王语嫣收件箱。

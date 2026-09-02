@@ -112,3 +112,4 @@ updated_at: 2026-08-09
 | 2026-09-02 08:20 | 老顽童 | #611 pre-submit 提审 | 卡片过 INDEX 门禁后又改了 aliases/正文（小修订），重跑 pre-submit 再报🔴「卡片比检索索引新」——INDEX 校验对 mtime 敏感，任何微小编辑都需重跑 `kdo index --incremental` | 初判：门禁口径本身合理（防索引漂移），但"改完必重跑增量索引"未写进 L4 牌触发提示；本轮已即时重跑修复，复盘元反思已记 |
 | 2026-09-02 10:15 | 老顽童 | #613 返工重扫对账 | 重跑 scan-script.py 用 `\| head -80` 截输出，脚本在 JSON 落盘前被 SIGPIPE 杀死，scan-result.json 静默保留旧快照，对账数字一度对不上（507 vs 547） | 初判：长输出查看习惯坑——head 会提前关管道杀进程；落盘型脚本一律重定向到文件再 Read |
 | 2026-09-02 12:10 | 老顽童 | #615 complete 提审 | `--evidence` 只收文件路径不收内联文本，第一把传字符串被拒不读；另 review_mark.py 中文 --reviewer 参数 console 回显乱码（GBK）但落盘 UTF-8 正确 | 初判：脚本契约看 --help 再调；显示层≠落盘层，验证一律看文件不看回显 |
+| 2026-09-02 13:00 | laowantong | #617 降级卡返工提审 | ①QUOTE_VERBATIM 检查器跨段交替配对：同段两对引号把中间文本误判为伪引文（卡14两次、卡12一次）；②source_refs 带 #锚点（.agent/pitfalls.md#P-15）致 SOURCE_REACHABILITY 误报不可达；③queue_transition complete --evidence 只收文件路径不收内联文本（报错信息未说明） | ①②检查器启发式局限（#616 WARNING 档，建议上浮黄药师调参）；③脚本 UX |

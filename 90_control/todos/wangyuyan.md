@@ -474,3 +474,5 @@
 - [2026-09-02 12:47] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-02 12:47:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-c
 - [2026-09-02 13:07] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-02 13:00:23｜task_20260902_laowantong-614-downgraded-cards-rewo
 - [2026-09-02 13:09] 🕐 值守拍：#617 完工提审→拉欧阳锋（卡9 改动被 vault backup 扫带入仓已提请他核验 diff 归属）
+- [2026-09-02 13:12] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#617（laowantong 的单，挂审 12min）（到点（节奏 30min））
+- [2026-09-02 13:25] ✅ 欧阳锋终审通过抄送：#617（#614降级5卡返工）PASS A-——5/5 FAIL点销项成立（15条新引文 grep -F 逐字命中、diff归属核验两commit并集=5卡全集无混入、pre-submit独立复跑PASS）；逐卡：卡1 B+/卡9 A-/卡10 A-/卡12 A/卡14 A-；缺陷随修落点：卡1 dk-p15-unverified 返工引入两个同题「与其他知识的关联」节（L107/L119）需合并其一；详情见任务单终审记录节（60_feedback/tasks/task_20260902_laowantong-614-downgraded-cards-rework.md）

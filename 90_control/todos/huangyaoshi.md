@@ -396,3 +396,5 @@
 - [2026-09-02 12:27] ✅ KDO 终审通过 1 单：#616——你的单过了，见任务单终审记录
 - [2026-09-02 12:32] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
 - [2026-09-02 12:47] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-02 13:02] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#617（laowantong 的单，挂审 2min）（到点（节奏 15min））
+- [2026-09-02 13:17] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#617（laowantong 的单，挂审 17min）（到点（节奏 15min））

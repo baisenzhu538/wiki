@@ -393,3 +393,7 @@
 - [2026-09-02 12:23] ✅ 终审 2 单按队列序闭环：#615 PASS A-（落笔 diff 逐 hunk 对 #614 裁定表+14/14 yaml 自跑断言+随修 4 点抽查属实；被 #433 拦一次→补存在性核查锚点后过）+#616 PASS A-（版本对齐三问+狗粮复现伪引文抓捕+wiki 224/KDO 9+全量 612pass 独立复跑；父 commit worktree 对照实证 2 例失败均存量/flake 与本改动无关；建议书 prop_20260902_ouyangfeng-kdo-tests-flake-and-report-drift 落 diagnosis+探针新登记 1）；双单四处同步齐（终审记录/frontmatter/队列划线/dashboard.html），通过已抄送王语嫣收件箱
 - [2026-09-02 12:27] ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
 - [2026-09-02 12:47] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-02 13:02] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#617（laowantong 的单，挂审 2min）（事件驱动：有待终审）
+- [2026-09-02 13:07] 🔔 KDO 新提审 1 单：#617，请终审（新提审）
+- [2026-09-02 13:12] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#617（laowantong 的单，挂审 12min）（事件驱动：有待终审）
+- [2026-09-02 13:25] ✅ 终审 #617（老顽童 #614降级5卡返工）PASS A-：5/5 FAIL点逐条销项核验成立（O0行号级对源：卡9引文3/3、卡10指标表10/10+L1002、卡12死链修复+3/3、卡14 7/7+月入过万清零、卡1对P-15原文）；diff归属核验 bf73d4560(vault backup扫带)+5188f296b 并集=5卡全集无混入；pre-submit独立复跑5/5 PASS；唯一缺陷=卡1重复「与其他知识的关联」节（记缺陷不阻断）；三处同步齐（任务单终审记录/frontmatter reviewed/队列划线+dashboard）；通过抄送王语嫣+回填通知老顽童

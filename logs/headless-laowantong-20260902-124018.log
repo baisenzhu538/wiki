@@ -103,4 +103,821 @@ It's a PNG file with .md extension — the raw image. So source 2 is actually an
 
   Note source ordering is a bit garbled by OCR layout but mapping: 获客=销转率/动销率/捕获率； 服务=留存率/完课率/退款率/满意率； 复购=复购率/续费率/推荐率.
 
-  Now card 12 sources. Find 机会预判课 files.
+  Now card 12 sources. Find 机会预判课 files.Need to find the actual 机会预判课 source file. Check 60_feedback/analysis/source-refs-health-latest.md or the audit file ocr-foresight-18files-extraction-check.md which probably lists file names. Let me grep for 机会预判 in 00_inbox and 10_raw file names.一堂-机会预判-AI创业案例-20个高风险假设清单.png
+一堂-机会预判-AI创业案例-20个高风险假设清单_paddle_ocr.txt
+一堂-机会预判-AI时间管理案例01.png
+一堂-机会预判-AI时间管理案例01_paddle_ocr.txt
+一堂-机会预判-AI时间管理案例02.png
+一堂-机会预判-AI时间管理案例02_paddle_ocr.txt
+一堂-机会预判-AI趋势12大变化模型.png
+一堂-机会预判-AI趋势12大变化模型_paddle_ocr.txt
+一堂-机会预判-三维排列组合01.png
+一堂-机会预判-三维排列组合01_paddle_ocr.txt
+一堂-机会预判-咖啡店案例-五步法预判.png
+一堂-机会预判-咖啡案例01.png
+一堂-机会预判-咖啡案例02.png
+一堂-机会预判-咖啡案例02_paddle_ocr.txt
+一堂-机会预判-案例预判01.png
+一堂-机会预判-案例预判01_paddle_ocr.txt
+一堂-机会预判-案例预判02.png
+一堂-机会预判-案例预判02_paddle_ocr.txt
+一堂-机会预判-案例预判03.png
+一堂-机会预判-案例预判03_paddle_ocr.txt
+一堂-机会预判-终局光谱图-truman-图01.png
+一堂-机会预判-终局光谱图-truman-图01_paddle_ocr.txt
+一堂-机会预判-终局光谱图-truman-图02.png
+一堂-机会预判-终局光谱图-truman-图02_paddle_ocr.txt
+一堂-机会预判-终局光谱图-truman-图03.png
+一堂-机会预判-终局光谱图-truman-图03_paddle_ocr.txt
+一堂-机会预判-终局光谱图示例-truman-图01.png
+一堂-机会预判-终局光谱图解读-truman-02.png
+一堂-机会预判-陪诊案例01.png
+一堂-机会预判-陪诊案例01_paddle_ocr.txt
+一堂-机会预判-陪诊案例02.png
+一堂-机会预判-陪诊案例02_paddle_ocr.txt
+一堂-机会预判课-Truman-口述.txt
+一堂-机会预判课-truman-笔记.txt
+预判模型.png
+预判模型_paddle_ocr.txt
+src_20260510_402c1db5-预判模型.md
+src_20260522_e71d89ff-ocr-预判模型.md
+src_20260606_c996cb6a-一堂-机会预判课-truman-笔记.md
+src_20260606_f6cb0868-一堂-机会预判课-Truman-口述.md
+src_20260609_1fa94850-ocr-一堂-单元模型-壁垒预判.md
+src_20260610_0132647f-一堂-机会预判-咖啡案例01.md
+src_20260610_53f78579-一堂-机会预判-咖啡店案例-五步法预判.md
+src_20260610_ac25d82a-一堂-机会预判-三维排列组合01.md
+src_20260610_b3e09bdf-一堂-机会预判-终局光谱图-truman-图01.md
+src_20260610_d9fca55f-一堂-机会预判-终局光谱图-truman-图02.md
+src_20260610_daaec0bd-一堂-机会预判-咖啡案例02.md
+src_20260619_3a207bbd_00_inbox_一堂_商业预判课_truman_笔记.txt
+src_20260619_4078c38f_00_inbox_一堂_商业预判课_Truman_口述.txt
+src_20260619_833c79d5_60_feedback_corrections_corr_20260611_laowantong_机会预判域_OCR遗漏_旧卡未清理.md
+src_20260619_ad98829e_60_feedback_corrections_corr_20260611_hongqigong_机会预判域_OCR流程盲区.md
+一堂-机会预判-咖啡店案例-五步法预判_paddle_ocr.txt
+一堂-机会预判-咖啡案例01_paddle_ocr.txt
+一堂-机会预判-终局光谱图示例-truman-图01_paddle_ocr.txt
+一堂-机会预判-终局光谱图解读-truman-02_paddle_ocr.txt
+Real source files: `10_raw/sources/src_20260606_f6cb0868-一堂-机会预判课-Truman-口述.md` and `10_raw/sources/src_20260606_c996cb6a-一堂-机会预判课-truman-笔记.md`. The card's source_refs point to `00_inbox/一堂-商业预判课-Truman-口述.txt` — wait, card 12's refs are `00_inbox/一堂-商业预判课-Truman-口述.txt` and `00_inbox/一堂-商业预判课-truman-笔记.txt`. Ruling says these are dead links, real source = 机会预判课. The card references line numbers like L1912, L2282-2306, L298, L1538-1546, L1172-1190, L586-588 — those line numbers refer to the 机会预判课 口述 source presumably. Let me check L1912 and L2282-2306 in src_20260606_f6cb0868-一堂-机会预判课-Truman-口述.md.Confirmed for card 12:
+  - L1912: "保A争B建议中间的数字是差一的，最多最多差个3" — so ④ fix: 「差距不超过2个阶段」→ source says 建议差1、最多差3.
+  - L2282-2306: about 请AI帮忙做加法 — so ⑦ the "4×5=20格子矩阵" quote is fabricated. Need to replace with real content: 充分做加法时，Truman 给的建议：案头工作（读行业报告）/请AI帮忙/调研混圈子找专家/进行业上班。Real quote option: "你在考虑新方向新转型的时候，先给自己定个小目标，至少找十个" (L2306) or L2302 "就是把一个模模糊糊的题目创意转化成理性的...十个、三十个甚至五十个、一百个五百个机会然后去选". For verbatim grep hit, quote must be contiguous source line. L2306: "你在考虑新方向新转型的时候，先给自己定个小目标，至少找十个好吗？" Good contiguous line.
+
+  Also check where the ToB 内训 example actually exists. The card says "Truman 以一堂 To B 内训为例：'...4×5=20个格子的矩阵。'" Maybe there's a real 排列组合 example in source — "三维排列组合" OCR exists （一堂-机会预判-三维排列组合01). Also earlier in the source there might be a ToB 内训 example with 时间线5环节×3角色. Let me grep 内训 in the 口述.Good. The real 排列组合 example is a coffee shop one at L2470-2476: "什么叫排列组合？我可能是一线城市乘以代餐、乘以便利、乘以特调、乘以招牌加办公，然后再乘以20到50平，再乘以自营，这就是我的生意。" That's verbatim contiguous line L2472. Use that to replace the fake ⑦ quote.
+
+  Now card 14 source: 一堂-产品内核实操课-Truman-口述.txt L524-568. Read that. Also L2480 and Q6 from concept-一堂-product-kernel. Also check the 笔记 file for overpromise. Read L515-580.Card 14 real content:
+  - L534: "然后就是怎么能卖，怎么说，恨不得一次性就告诉你一个星期就能把钱赚回来，前端会出现很多的过度承诺，然后后端他们考虑的是满意度，他们是履约的。"
+  - L540: "后面我们总结了一句话叫不要在产品内核上过度承诺……就是我们可以一定程度上接受一部分的包装，但是不要在产品内核上过度承诺。"
+  - L542-546: "因为如果你承诺的是压根儿你们实现不了的内核，那个东西恰巧对于产品有着决定性。那你就看你八字有多硬"
+  - L2480: "叫必须勇敢做产品价值取舍，这是一号位的基本义务。" — card has this quote correct (L2480 逐字 verified by 欧阳锋）.
+
+  Note: the case in the card is "声音变现课程面向中老年用户承诺月入过万" — but the source at L524-568 is about a 大公司 with 前端/后端分离 and 黑猫投诉. The "声音变现" （短视频/声音变现） case appears later around L570+. Hmm, the ruling says: 「月入过万」无源（源为「一个星期就能把钱赚回来」L534）. Let me check the 声音变现 case further — L576 "短视频变现到底该怎么做". The card's 原始表述 block (L524-L568) is a collage. FAIL fix: rewrite 原始表述 as 转述 or with real quotes, remove 月入过万.
+
+  But wait — does the source have 声音变现面向中老年？ Let me check around for 声音变现 / 中老年 in the source to see whether the card's case section is also fabricated. The FAIL point only requires: 引文块改转述或换真实原句 + 删「月入过万」. Red line: 只修 FAIL 点，不顺手改其他. So minimal: fix the 原始表述 quote block and remove/replace 月入过万 mentions. But 月入过万 appears in card lines 64, 74, 101. Hmm — "删「月入过万」" means replace with the real claim 「一个星期就能把钱赚回来」 or generic. The FAIL point says: 「原始表述」引号块系改写拼贴→改转述或换真实原句 + 删「月入过万」（源为「一个星期就能把钱赚回来」L534）.
+
+  Also "Truman 的诊断" long quote (L122 in card) is 改写 — ruling mentions 「Truman 的诊断」长引文系改写. So that also needs converting to 转述 (it's in the ruling text: "结构性论述…成立——FAIL 点=引文块改转述或换真实原句+删「月入过万」"). And the 结构性论述 is fine.
+
+  Let me check whether the 声音变现 case （中老年） exists in the source, to keep case section honest. Actually the red line says 只修 FAIL 点不顺手改其他 — but the case section depends on 月入过万 claims. Let me search the source for 声音/中老年/月入.The 声音变现 case exists (L404-508): 三四线城市中老年人. Let me read L400-460 to get the real case details for the card's case section — but 只修 FAIL 点. The FAIL point is 引文块改转述/换真实原句 + 删月入过万. The case section mentions "承诺学会就能月入过万" — that's 无源， needs replacing with the sourced claim. Let me read L400-460 for accuracy of the surrounding case text.Now I have everything for card 14. Real facts:
+  - 声音变现 SKU: ROI 1.6+, 月流水 100万→200万→500万→800万 (L416-418), 第四个月大面积退款 (L424), 用户=下沉市场三四线城市中老年人 (L454-456), 「你之前口口声声的说我毕了业就可以很快把钱赚回来」(L468), 三个月训练 (L460-470), ROI 降到 1 以下 (L474), 喜马拉雅后来做起来了 (L496).
+  - 过度承诺段落 L524-568 是一家大公司（淘宝 ROI 前端），"恨不得一次性就告诉你一个星期就能把钱赚回来" (L534), 黑猫投诉 (L536), "不要在产品内核上过度承诺" (L540).
+
+  Hmm — L524-568 might actually continue the same 声音变现公司 story （大公司， B同学）. The card's 原始表述 quote block claims L524-L568. Replace with 转述 + one real verbatim quote.
+
+  Now card 9: also check L1956 quote verbatim, already have. Good.
+
+  Card 1 (dk-p15): rewrite six sections from pitfalls.md P-15 entry. Sections needed: 原始表述 (already real, keep), 使用场景， 操作方法， 适用边界， 为什么值钱， 与其他知识的关联. Also frontmatter: source_refs should change from src_unknown to `.agent/pitfalls.md` P-15? The ruling says "按 `.agent/pitfalls.md` P-15 原始条目重写六段后重审". source_refs pointing to pitfalls file makes sense — but 只修 FAIL 点. The FAIL point is "六段四段 src_unknown 占位——按 P-15 原始条目重写六段". Updating source_refs from src_unknown to the real source is arguably part of the fix （源已不可溯 → now source identified as pitfalls.md). I think updating source_refs to `.agent/pitfalls.md#P-15` is justified and needed, since the rewrite is based on it. But careful: F-KDO-015 不准替换 source_refs 已有条目 — replace src_unknown with real ref... src_unknown is a placeholder; replacing placeholder with real source is the intent. Also source_context says "原始 source 无法追溯" — update.
+
+  Card 10 (ten-metrics): rewrite core metrics table per source (10 real metrics in 3 环节）, fill placeholder sections: §3 指标的基准和目标， §4 指标的聚焦原则， 行动触发器， 关联卡片， 来源与验证， 目的/操作步骤/不要用的场景. The placeholder sections need content — but sources only give the 10-metric list + football club case. Fill based on source content where possible:
+  - 目的/操作步骤/不要用的场景 (tool-type required): derive from the tool's function.
+  - 指标的基准和目标： sources don't have much... The football club case has 转化率/复购率 discussion. Careful not to fabricate. I can write these from what the sources support, marking reasoning as derivation. Actually the safest: write content grounded in the two sources + clearly framed general guidance. The ruling's FAIL point: "按源重写核心指标表+补齐下半部 4 节占位". The 4 placeholder sections are: 行动触发器， 关联卡片， 来源与验证... and 操作步骤/目的/不要用的场景 also 待补充. Let me count "下半部 4 节占位": 关键洞察§3 （基准和目标）, §4 （聚焦原则）, 行动触发器， 关联卡片， 来源与验证 = 5 sections with src_unknown + 目的/操作步骤/不要用的场景 待补充 = 3. Ruling says "下半部 4 节占位+操作步骤待补充". So 4 节 = the src_unknown ones probably (§3, §4, 行动触发器， 关联卡片+来源与验证...). I'll fill all placeholders.
+
+  关联卡片： use real related cards. The card already has related: tool-设定管理杠杆率指标评估效率， yt-product-ten-metrics. For 关联卡片 section, link to real cards — check existence: yt-product-kernel-validation, yt-product-ten-metrics exist? Let me verify a few card ids exist before linking.
+
+  Also frontmatter of card 10: fine.
+
+  Now, card 12 fixes:
+  - source_refs: replace `00_inbox/一堂-商业预判课-Truman-口述.txt` → real: the ruling says 真实源=「机会预判课」. Which paths? `00_inbox/一堂-机会预判课-Truman-口述.txt` exists (from ls output). Also `00_inbox/一堂-机会预判课-truman-笔记.txt` exists. And 10_raw registered versions exist. The card line numbers (L298, L586-588, L1172-1190, L1538-1546, L1912, L2282-2306) — do they match 00_inbox txt or 10_raw md? I verified L1912 and L2282-2306 against `10_raw/sources/src_20260606_f6cb0868-一堂-机会预判课-Truman-口述.md`. Let me check whether 00_inbox txt has same line numbering. Check L1912 of 00_inbox/一堂-机会预判课-Truman-口述.txt.
+
+  Actually let me check if the 00_inbox 商业预判课 files really don't exist: ruling says 死链. Yes, ls shows only 机会预判课 files in 00_inbox. 
+
+  Fix source_refs to point at existing files. Prefer 10_raw registered sources (ingest discipline) — but line numbers: verify in the 00_inbox txt too. Let me check both quickly.
+
+  Card 12 ④ fix: 「保A争B差距不超过2个阶段」→ per source L1912: 建议差1，最多差3. Rewrite: "- **差距建议差 1、最多差 3**：保A和争B之间建议差 1 个阶段、最多最多差 3 个——"保一争七等于废话"（口述 L1912-1918）".
+
+  ⑦ fix: replace fake quote with real one: Truman 以咖啡店为例讲排列组合（L2470-2476）: "我可能是一线城市乘以代餐、乘以便利、乘以特调、乘以招牌加办公，然后再乘以20到50平，再乘以自营，这就是我的生意。"（L2472 逐字）. But ⑦ was in 第二步充分做加法 section under "目标：每个维度至少产出10个选项". The fake quote was about ToB 内训 4×5 matrix. Replace with the coffee shop 排列组合 real quote. Also the "5×3=15≠20 自相矛盾" issue disappears.
+
+  Also note: card 12's section "第一步：主动定中局" mentions 保A争B with 差距不超过2个阶段 — that's ④. Where's ⑦? Line 180: the ToB 内训 quote. Yes.
+
+  Now also need to update updated_at fields? Cards have updated_at; reasonable to bump to 2026-09-02. And remove downgrade_reason? No — downgrade_reason documents the downgrade; keep until review? Hmm. #615 added downgrade_reason pointing to ruling. After rework, the card goes back to终审； keep downgrade_reason as-is (it's a historical note) or update? Minimal change: leave it; reviewer decides. Actually leaving "downgrade_reason" is fine as trace.
+
+  Let me now check the 00_inbox 机会预判课 txt line numbers vs md, and check card id existence for links in card 10's 关联卡片.
+
+• 各源关键段落取证完毕。再核对卡 12 源文件行号口径和卡 10 关联卡存在性。第一部分第一部分就讲完了，然后在这我多补充一句话，叫保A争B建议中间的数字是差一的，最多最多差个3，最多最多不能是，这个你们不要动不动就是保一争七，好吧，你们理解保一争七等于废话。
+你在考虑新方向新转型的时候，先给自己定个小目标，至少找十个好吗？
+我可能是一线城市乘以代餐、乘以便利、乘以特调、乘以招牌加办公，然后再乘以20到50平，再乘以自营，这就是我的生意。
+---
+  3466 00_inbox/一堂-机会预判课-Truman-口述.txt
+  3466 10_raw/sources/src_20260606_f6cb0868-一堂-机会预判课-Truman-口述.md
+  6932 total
+yt-product-ten-metrics -> 30_wiki/concepts/yt-product-ten-metrics.md
+tool-设定管理杠杆率指标评估效率 -> 30_wiki/tools/tool-设定管理杠杆率指标评估效率.md
+yt-product-kernel-validation -> 30_wiki/frameworks/yt-product-kernel-validation.md
+concept-一堂-product-kernel -> 30_wiki/concepts/concept-一堂-product-kernel.md
+yt-product-kernel-iteration -> 30_wiki/frameworks/yt-product-kernel-iteration.md
+framework-一堂五步法 -> 30_wiki/frameworks/framework-一堂五步法.md
+
+
+• 00_inbox txt and 10_raw md have identical line numbers (3466 lines both, same content at those lines). So card 12 source_refs can point to the 00_inbox 机会预判课 files — matching the card's existing style (00_inbox paths). Fix: 
+  - `00_inbox/一堂-商业预判课-Truman-口述.txt` → `00_inbox/一堂-机会预判课-Truman-口述.txt`
+  - `00_inbox/一堂-商业预判课-truman-笔记.txt` → `00_inbox/一堂-机会预判课-truman-笔记.txt`
+
+  Verify the 笔记 file exists: yes, from ls earlier.
+
+  Now start editing. Card 9 first (yt-product-kernel-validation):
+
+  Edit 1 — replace fake quote L92:
+  ```
+  > Truman 原话："决定性要素是'必须有'，优化性要素是'来了更好'，完备性检查确保'有了之后走得通'。早期以决定性和优化性的定性评估为主，随着业务推进、数据积累，后期更多考虑完备性的定量分析。"
+  ```
+  →
+  ```
+  > Truman 原话（口述稿 L1956，逐字）："通常前期这个是以决定性和优化性为主的，通常以定性评估为主的，早期主要是做选择，因为很多时候我们很难做定量，数据也不够，随着业务不断推进，有了更多的数据，有更多的认知，后面会更多的考虑完备性，更多的去做的越来越细，越来越定量。"
+  ```
+
+  Edit 2 — replace fake quote L109:
+  ```
+  > Truman 原话："大多数人的默认选择是'赌'——不做任何验证，直接把所有筹码砸进去。你们知道有多少人是这样创业的吗？"
+  ```
+  →
+  ```
+  > Truman 原话（口述稿 L2078，逐字）："最后赌就赌的意思是我都不想那核是啥，我觉得我就是对的赌。"靠什么？——"八字硬"（L2080-2082）。
+  ```
+  Hmm, "八字硬，这的确不太流行的风格。" is L2082 contiguous line. Quote: "八字硬，这的确不太流行的风格。" Let me just do: > Truman 原话（口述稿 L2078-2082，逐字）："最后赌就赌的意思是我都不想那核是啥，我觉得我就是对的赌。靠什么？八字硬。" — but that's NOT contiguous verbatim (line breaks between). The new gate greps quotes. Multi-line quotes won't grep-hit as a single string. Safer: keep quotes to single source lines each:
+  ```
+  > Truman 原话（口述稿 L2078，逐字）："最后赌就赌的意思是我都不想那核是啥，我觉得我就是对的赌。"他给出的解释是"八字硬，这的确不太流行的风格。"（L2082）
+  ```
+  Both quoted fragments are single contiguous source lines. Good.
+
+  For L1956 quote — it's one single line in the source (line 1956 is one long line). Good, grep-able.
+
+  Also bump updated_at? Card 9 has updated_at: '2026-07-08'. I'll update to 2026-09-02. Also downgrade_reason stays.
+
+  Now write edits. Card 9 edit 1:Card 9 done (bump updated_at too — do it later in one pass, or skip? Rework cards should reflect update. The gate/pre-submit doesn't require it. I'll bump updated_at for each reworked card. Card 9 updated_at: '2026-07-08'.)
+
+  Now card 10 (ten-metrics) — the big one. Rewrite:
+
+  1. Core metrics table (replace the fake 10-indicator funnel table) with the sourced one:
+
+  | 环节 | 指标 | 一句话说明 |
+  | 获客环节 | 销转率 | 看潜在客户转化为实际购买客户的比例 |
+  | 获客环节 | 动销率 | 看有销售的商品品种数与所有商品总品种数的比例 |
+  | 获客环节 | 捕获率 | 看进店消费人数占总经过人流量的比例 |
+  | 服务环节 | 留存率 | 看使用产品的用户，N天/周/月后还在持续使用的比例 |
+  | 服务环节 | 完课率 | 看用户是不是能完成履约和最后学习 |
+  | 服务环节 | 退款率 | 看服务履约中，用户退款的比例 |
+  | 服务环节 | 满意率 | 看用户接受完服务，满意度的比例和打分 |
+  | 复购环节 | 复购率 | 看消费购买后，会继续购买的比例 |
+  | 复购环节 | 续费率 | 看续费用户数占现有用户数的比例 |
+  | 复购环节 | 推荐率 | 看用户是否愿意主动推荐的比率 |
+
+  The existing table also has "验证什么/代理指标" columns which were fabricated. Replace the whole core table with the source-faithful one. Also the "### 漏斗三环节的决策逻辑" subsection references 试训量 etc from football club case — that one cites L998-1070 and is sourced; keep (it wasn't in FAIL list — FAIL is 核心指标表 + 占位节）.
+
+  But wait — 关键洞察 §1 "指标与内核按漏斗对应" table uses the fabricated metric names （目标用户精准度， CAC, 激活率， 付费转化率， 核心功能使用率， NPS, 流失率）. §2 虚荣指标 table too. These aren't explicitly in the FAIL points, but they depend on the fabricated indicator system. Ruling FAIL 点 = "按源重写核心指标表+补齐下半部 4 节占位". The 关键洞察 section is between. Hmm. "核心失真——十大指标...与三源文件清单仅复购一项重合→按源重写核心指标表". The safest interpretation: rewrite the core framework table to the sourced 10 metrics; the 关键洞察 tables reference the fake metrics and would be inconsistent if left. To keep the card coherent without "顺手改其他"... but leaving fabricated metrics in 关键洞察 contradicts the fix. I think rewriting 关键洞察 §1/§2 to use the sourced metric names is part of "按源重写" since they're the same fabricated indicator system. I'll rewrite those tables with the real metrics, keeping structure.
+
+  The football-club-based content （试训量×转化率×复购率） is sourced from 实操课口述 L998-1070 — keep.
+
+  Let me now write the full replacement for card 10 sections. Plan the edits:
+
+  Edit A: core framework table (lines 62-89 region). Replace from "十大典型指标按从业者已验证的**获客→服务（转化）→复购**漏斗重新分类：" table through the 设计原则 note — replace table with sourced one. Keep the 漏斗三环节决策逻辑 + 口述来源 quote (sourced).
+
+  Actually the "设计原则" note about proxy is fabricated (not in sources). Replace with source note: 指标按三环节分类，来源=十大典型指标图（src_20260510_5ef61f8f / paddle OCR src_20260611_94673a56）.
+
+  Edit B: 关键洞察 §1 table — rewrite with sourced metrics mapped to 内核验证. Frame as: 每个指标对应内核假设 — use real metric names. This is analytical mapping, acceptable as synthesis as long as no fake quotes. I'll keep it simple and clearly derived.
+
+  §2 虚荣指标 table — uses fake names; rewrite using sourced metrics: e.g. 总流量 vs 捕获率； 报名数 vs 销转率； 上课人数 vs 完课率； 无退款率监测 etc. Ground in the source list.
+
+  §3 指标的基准和目标 (src_unknown×4): fill with sourced content? Sources don't discuss 基准/目标 explicitly. Football case has ROI 1.6, 降到1以下 — that's overpromise source, not this one. Write operational guidance framed as derivation: 基准来自自身历史/同行；每个指标定基准值/目标值/预警线. This is general synthesis — acceptable? The card type tool requires 操作步骤 etc. The risk is inventing content. But placeholders must be filled per FAIL point ("补齐下半部 4 节占位"). Reasonable, non-fabricated operational content is fine (no fake quotes/numbers).
+
+  §4 指标的聚焦原则： fill — 聚焦3-5个， 对应三环节. Football case: Truman 拆出 试训量/转化率/复购率 三参数 ("最重要的是这三个参数" L1002). Good anchor.
+
+  行动触发器： fill with triggers.
+  关联卡片： real links.
+  来源与验证： real refs.
+  目的/操作步骤/不要用的场景： fill tool sections.
+
+  Let me write the new card 10 body. It's easier to rewrite the whole file? No — minimal edits per section. But many sections change; still, do targeted Edits.
+
+  Edit A: replace the core table + proxy note.
+
+• 卡 9 完成。现在返工卡 10（核心指标表按源重写 + 占位节补齐）。
+
+• Now edit the 漏斗三环节决策逻辑 table — it references 试训量/关键转化率 from football case (sourced) — keep as is, it's sourced from L998-1070. Keep.
+
+  Next: 关键洞察 §1 table (uses fabricated metric names). Rewrite to map sourced metrics to 内核假设. Let me re-read the current section after edit to get exact text. I have it from earlier read (unchanged region):
+
+  ```
+  ### 1. 指标与内核按漏斗对应
+
+  每个指标必须对应内核假设，并按漏斗环节归位：
+
+  | 漏斗环节 | 内核假设 | 验证指标 | 指标下降说明 | proxy 辅助判断 |
+  ...
+  ```
+
+  Replace with sourced-metric version.Now the remaining placeholder sections in card 10: 行动触发器， 关联卡片， 来源与验证， 目的/操作步骤/不要用的场景. Also 失败模式 table references "付费转化率"? Let me check: 失败模式 table — rows: 指标缺失/虚荣指标/指标与内核脱节/指标过多/无基准无目标/指标不行动 — fine, no fake metric names. 适用边界 fine.
+
+  Edit 行动触发器 + 关联卡片 + 来源与验证 + 目的/操作步骤/不要用的场景.Card 10 body done. Bump updated_at later. Now card 12 (concept-一堂-business-prediction):
+
+  Edits:
+  1. source_refs fix:
+  ```
+  source_refs:
+  - 00_inbox/一堂-商业预判课-Truman-口述.txt
+  - 00_inbox/一堂-商业预判课-truman-笔记.txt
+  ```
+  →
+  ```
+  source_refs:
+  - 00_inbox/一堂-机会预判课-Truman-口述.txt
+  - 00_inbox/一堂-机会预判课-truman-笔记.txt
+  ```
+  2. ④ fix (line ~162): "- **差距不超过2个阶段**：保A和争B之间的差距控制在小范围，避免"保A是副业、争B是上市"这种漫无边际的定位" → per source: 建议差1，最多差3.
+  3. ⑦ fix (line ~180): replace fake ToB quote with real coffee-shop 排列组合 quote (L2472).
+
+• 卡 10 完成。现在修卡 12（文件名死链 + ⑦虚构引言 + ④与源不符）。
+
+• Card 12 done. Now card 14 (overpromise-trap):
+
+  Fixes:
+  1. 原始表述 quote block (L64) — 改写拼贴 → 改转述+真实原句. Rewrite as 转述 + verbatim quote from L534 and L540.
+  2. 删「月入过万」 (L64 within block, L74 table, L101 案例背景） — replace with sourced claim "一个星期就能把钱赚回来" (L534) / "毕了业就可以很快把钱赚回来" (L468).
+  3. 「Truman 的诊断」长引文 (L122) 系改写 → 改转述.
+
+  Card L64:
+  ```
+  > Truman 口述：_"声音变现课程面向中老年用户，承诺'学会就能月入过万'。但很多中老年用户连手机基本操作都不熟练——让他们学音频剪辑、做内容、运营账号，实际根本做不到。前端为了转化率过度承诺，后端根本无法履约。这不是产品问题，是组织问题——销售目标和产品目标在同一个内核上拆成了两套逻辑。"_（L524-L568）
+  ```
+  New （转述 + verbatim):
+  ```
+  > Truman 口述稿 L524-L568（转述+逐字原句）：前端与后端在大公司里往往是两个老板、目标分离——前端盯投放 ROI、低价拿客户，于是"怎么能卖，怎么说，恨不得一次性就告诉你一个星期就能把钱赚回来"（L534 逐字）；后端背满意度和履约，过度承诺传到后端就变成退款和客诉（黑猫投诉事件，L536）。复盘结论："不要在产品内核上过度承诺"（L540 逐字）——"如果你承诺的是压根儿你们实现不了的内核，那个东西恰巧对于产品有着决定性。那你就看你八字有多硬"（L542-L544 逐字）。
+  ```
+  Check L540 verbatim: "后面我们总结了一句话叫不要在产品内核上过度承诺，这句话学员们可以帮我打一下，这个也是对我的一个警告，就是我们可以一定程度上接受一部分的包装，但是不要在产品内核上过度承诺。" — "不要在产品内核上过度承诺" is a substring of that line. Good.
+
+  L542-544: L542 "因为如果你承诺的是压根儿你们实现不了的内核，那个东西恰巧对于产品有着决定性。" L544 "那你就看你八字有多硬，对吧？" — my quote spans two lines ("...决定性。那你就看你八字有多硬") — not contiguous. Split: quote L542 fully, then paraphrase 八字. Adjust: ——"因为如果你承诺的是压根儿你们实现不了的内核，那个东西恰巧对于产品有着决定性"（L542 逐字），承诺了实现不了的内核要素，"那你就看你八字有多硬"（L544 逐字）. "那你就看你八字有多硬" is substring of L544 "那你就看你八字有多硬，对吧？". Good.
+
+  2. 三类过度承诺模式 table row 能力高估： "零基础也能月入过万" → replace with sourced: "毕业就能很快把钱赚回来"（L468）/ "一个星期就能把钱赚回来"（L534). Use: 前端说了什么： "毕了业就可以很快把钱赚回来"（口述 L468 逐字）.
+
+  3. 案例背景 L101: "承诺'学会配音/朗读/有声书就能月入过万'" → "承诺'毕了业就可以很快把钱赚回来'（L468）".
+
+  Also 为什么值钱 L200: "声音变现案例是 Truman 亲口讲授的经典反面教材，直接来自口述稿" — fine.
+
+  4. Truman 的诊断 block L122:
+  ```
+  > "不是老师教得不好，不是销售太贪心，而是**从一开始，产品内核就被前端的转化压力绑架了**。..."
+  ```
+  → convert to 转述 (no quotes), grounded in L480-494 + L524-568:
+  ```
+  Truman 的诊断（转述，口述稿 L480-L494、L524-L568）：声音变现 SKU 丢失的要素是内核级别的——"它非常重要，它对于这个产品来说就是内核级别的，你失去了它就没了"（L480 逐字）；失去内核后"救都救不回来"（L488/L492）。而大公司里这种过度承诺往往不是个人贪心，是前端（ROI/拉新）与后端（满意度/履约）目标分离的结构性产物（L526-L534）。
+  ```
+  Check L480: "我不知道他能不能理解什么叫产品内核，就是它非常重要，它对于这个产品来说就是内核级别的，你失去了它就没了。" — my quote "它非常重要，它对于这个产品来说就是内核级别的，你失去了它就没了" is a substring. Good. "救都救不回来": L492 "救救都救不回来。" hmm L488 "这种东西不能有失的，这种东西一旦不成立，不好意思，救都救不回来。" — substring "救都救不回来" appears in L488. Use L488.
+
+  Also case section: check claims vs source:
+  - 背景 L101: "面向中老年用户，承诺..." — source says 下沉市场三四线城市中老年人 (L454). OK after fixing 月入过万.
+  - 前端逻辑 bullets: 转化漏斗 低价引流课→高价系统课→进阶变现课 — 无源？ Source: 课表投放 (L412-414), ROI 1.6+ (L416), 月流水 (L418). The funnel claim is unsourced but not in FAIL list. Red line: 只修 FAIL 点. Leave.
+  - 后端真实困境 bullets — sourced-ish （普通话、手机操作 L456). Leave.
+  - 裂痕出现 4 steps — partially unsourced but structural. Leave.
+
+  Also remove "学会就能月入过万" in 使用场景？ grep card for 月入过万 occurrences: L64, L74 ("零基础也能月入过万"), L101. Three spots.
+
+  Now write edits for card 14.
+
+• 卡 12 完成。现在修卡 14（引文块改转述+换真实原句、删「月入过万」）。
+
+• Card 14 done. Check remaining 月入过万 in card 14:Only in downgrade_reason (historical record) — fine. Now card 1 (dk-p15): rewrite the placeholder sections per `.agent/pitfalls.md` P-15 entry. P-15 full entry (from grep at line 212):
+
+  症状/根因/对策：
+  - 对策： 验收时必须独立运行可重复的测量脚本；持续类指标不能只看表要自己跑；"修复后"数字必须附带验证方法；任务完成状态=代码已提交+数据已变更+验证已通过。
+  - 关联： P-10 对称问题。
+
+  Card sections to fill:
+  - 使用场景 (4 bullets)
+  - 操作方法 (5 subsections with bullets)
+  - 适用边界 (4 bullets)
+  - 为什么值钱 (4 bullets)
+  - 与其他知识的关联 (4 bullets)
+
+  Also update frontmatter source_refs: src_unknown → `.agent/pitfalls.md` (P-15 条目）, and source_context. The related field already has dk-p17-accuracy-gap etc. — real links. Check they exist? dk-p17-accuracy-gap exists presumably. 与其他知识的关联 section: link P-10 (dk-p10-oral-ban), P-17, P-21 （先造诊断工具）, P-36, E019? The card's related includes dk-p10-oral-ban, dk-p17-accuracy-gap, dk-p9-glob-miss, dk-c7-auto-backup-conflict, ai-short-drama-script-planning-three-axes, dk-yb25-solution-driven-visual-design. Use those + pitfalls associations.
+
+  Write the edits.Now bump updated_at on the reworked cards? Minimal-change principle says only fix FAIL points. I'll leave updated_at alone — actually #615 set things; updated_at bump is conventional but not required. Skip to avoid extra churn? Updating updated_at is normal for content changes. I'll bump it on the 5 cards to 2026-09-02. Hmm, dk-p15 updated_at '2026-06-29'. It's harmless and honest. But keep minimal — gates may not care. I'll do it; it's a standard content-edit courtesy. Actually pre-submit might not check. Let me not over-engineer: skip updated_at bumps to stay strictly within FAIL points. Wait — but review might expect it. The ruling FAIL points don't mention updated_at. Skip.
+
+  Now verification steps:
+  1. Verify all new quotes grep-hit their sources verbatim (the new mechanical gate).
+  2. yaml.safe_load all 5 files (E017 compliance).
+  3. Run kdo pre-submit -f on each of 5 files.
+  4. git status / commit deliverables, then complete with evidence, verify L9 double-check, append todos line, write five-field execution report in task sheet.
+
+  Quote verification — check each quoted fragment:
+  Card 9:
+  - "通常前期这个是以决定性和优化性为主的，通常以定性评估为主的，早期主要是做选择..." — full L1956 line. grep.
+  - "最后赌就赌的意思是我都不想那核是啥，我觉得我就是对的赌。" — L2078.
+  - "八字硬，这的确不太流行的风格。" — L2082.
+
+  Card 12:
+  - "叫保A争B建议中间的数字是差一的，最多最多差个3" — substring of L1912. 
+  - "我可能是一线城市乘以代餐、乘以便利、乘以特调、乘以招牌加办公，然后再乘以20到50平，再乘以自营，这就是我的生意。" — L2472 full line.
+  - "大量的选项乘在一起至少100个" — substring of L2476 "大量的选项乘在一起至少100个，这个非常非常重要。"
+
+  Card 14:
+  - "怎么能卖，怎么说，恨不得一次性就告诉你一个星期就能把钱赚回来" — substring of L534 ("然后就是怎么能卖，怎么说，恨不得一次性就告诉你一个星期就能把钱赚回来，前端会出现...").
+  - "不要在产品内核上过度承诺" — substring L540.
+  - "因为如果你承诺的是压根儿你们实现不了的内核，那个东西恰巧对于产品有着决定性" — substring L542.
+  - "那你就看你八字有多硬" — substring L544.
+  - "毕了业就可以很快把钱赚回来" — substring of L468: "然后你之前口口声声的说我毕了业就可以很快把钱赚回来，最后发现没人能赚回来。" ✓
+  - "它非常重要，它对于这个产品来说就是内核级别的，你失去了它就没了" — substring of L480. Note L480 text: "就是它非常重要，它对于这个产品来说就是内核级别的，你失去了它就没了。" — my quote starts "它非常重要" (dropping 就）. Substring ✓.
+  - "救都救不回来" — substring of L488 ✓.
+  - "最后发现没人能赚回来" — substring of L468 ✓.
+
+  Card 10:
+  - "最重要的是这三个参数" — substring of L1002: "然后二次复购，这个主要看的是复购率，最重要的是这三个参数。" ✓
+
+  Let me run a grep verification script for all quotes, then yaml check, then pre-submit.
+
+• 5 卡全部修完。现在做机械验证：引文逐字对源（grep 命中）。HIT: 卡9-L1956
+HIT: 卡9-L2078
+HIT: 卡9-L2082
+HIT: 卡12-L1912
+HIT: 卡12-L2472
+HIT: 卡12-L2476
+HIT: 卡14-L534
+HIT: 卡14-L540
+HIT: 卡14-L542
+HIT: 卡14-L544
+HIT: 卡14-L468
+HIT: 卡14-L480
+HIT: 卡14-L488
+HIT: 卡14-L468b
+HIT: 卡10-L1002
+
+
+• 15/15 引文逐字命中。Now yaml.safe_load + pre-submit on all 5 cards.
+
+• 15/15 引文逐字命中。跑 yaml 校验 + pre-submit。YAML OK 30_wiki/dark-knowledges/dk-p15-unverified.md
+YAML OK 30_wiki/frameworks/yt-product-kernel-validation.md
+YAML OK 30_wiki/tools/yt-product-kernel-ten-metrics.md
+YAML OK 30_wiki/concepts/concept-һ��-business-prediction.md
+YAML OK 30_wiki/dark-knowledges/yt-product-kernel-overpromise-trap.md
+
+
+=== 30_wiki/dark-knowledges/dk-p15-unverified.md ===
+  [VLM_TWO_SECTION]: 0 issues
+  [CONCEPT_CROSSCHECK]: 1 warnings
+    🟡 30_wiki/dark-knowledges/dk-p15-unverified.md
+       本卡涉及已有概念：作方法（权威定义见 [[framework-yitang-case-crafting-four-step]]）、知识库（权威定义见 [[framework-kdo-mcp-server]]）、黄药师（权威定义见 [[framework-kdo-modeling-methodology]]）——请人工核对与权威定义的一致性（#542 提示制不拦截；小昭事故根因 3 降档版）
+  [QUOTE_VERBATIM]: 0 issues
+  [SOURCE_RANGE]: 0 issues
+  [INDEX]: 1 errors
+    🔴 30_wiki/dark-knowledges/dk-p15-unverified.md
+       卡片比检索索引新（kdo query/kdo_search 检索不到）——先跑 `kdo index --incremental`（秒级增量）再提审；全量重建用 `kdo index`（分钟级）
+
+  🔴 Result: FAIL — 1 个错误要修（#220 P1-5 讲香）
+     路径感：从上往下修——先修 YAML 结构错误（阻断后续检查），再修内容错误
+     修完重跑本命令，看到 ✅ PASS 再提交，省欧阳锋一轮往返
+====================================================================
+
+=== 30_wiki/frameworks/yt-product-kernel-validation.md ===
+  [VLM_TWO_SECTION]: 0 issues
+  [CONCEPT_CROSSCHECK]: 1 warnings
+    🟡 30_wiki/frameworks/yt-product-kernel-validation.md
+       本卡涉及已有概念：关键假设（权威定义见 [[framework-lean-abcd-model]]）、品内核（权威定义见 [[framework-lean-product-kernel]]）、键假设（权威定义见 [[framework-lean-abcd-model]]）、Truman（权威定义见 [[concept-five-step-growth-to-barrier-transition]]）、产品内核定义（权威定义见 [[yt-entrepreneur-product-core]]）——请人工核对与权威定义的一致性（#542 提示制不拦截；小昭事故根因 3 降档版）
+  [QUOTE_VERBATIM]: 0 issues
+  [SOURCE_RANGE]: 0 issues
+  [INDEX]: 1 errors
+    🔴 30_wiki/frameworks/yt-product-kernel-validation.md
+       卡片比检索索引新（kdo query/kdo_search 检索不到）——先跑 `kdo index --incremental`（秒级增量）再提审；全量重建用 `kdo index`（分钟级）
+
+  🔴 Result: FAIL — 1 个错误要修（#220 P1-5 讲香）
+     路径感：从上往下修——先修 YAML 结构错误（阻断后续检查），再修内容错误
+     修完重跑本命令，看到 ✅ PASS 再提交，省欧阳锋一轮往返
+====================================================================
+
+=== 30_wiki/tools/yt-product-kernel-ten-metrics.md ===
+    🟡 30_wiki/tools/yt-product-kernel-ten-metrics.md
+       本卡涉及已有概念：产品内核十大典型指标（权威定义见 [[yt-model-product-core-metrics]]）、内核十大典型指标（权威定义见 [[yt-model-product-core-metrics]]）、品内核（权威定义见 [[framework-lean-product-kernel]]）、Truman（权威定义见 [[concept-five-step-growth-to-barrier-transition]]）、产品内核定义（权威定义见 [[yt-entrepreneur-product-core]]）——请人工核对与权威定义的一致性（#542 提示制不拦截；小昭事故根因 3 降档版）
+  [QUOTE_VERBATIM]: 1 warnings
+    🟡 30_wiki/tools/yt-product-kernel-ten-metrics.md
+       2 处声称逐字的引文在 source_refs 源文件中未逐字命中：「试训量 × 转化率 × 复购率…」（L998）、「试训量 × 转化率 × 复购率…」（L998）——伪逐字引文模式（#616/#614 实证：改写/拼贴不得包装成原话+行号），请核对源文件改为逐字引用或去掉引号
+  [SOURCE_RANGE]: 0 issues
+  [INDEX]: 1 errors
+    🔴 30_wiki/tools/yt-product-kernel-ten-metrics.md
+       卡片比检索索引新（kdo query/kdo_search 检索不到）——先跑 `kdo index --incremental`（秒级增量）再提审；全量重建用 `kdo index`（分钟级）
+
+  🔴 Result: FAIL — 1 个错误要修（#220 P1-5 讲香）
+     路径感：从上往下修——先修 YAML 结构错误（阻断后续检查），再修内容错误
+     修完重跑本命令，看到 ✅ PASS 再提交，省欧阳锋一轮往返
+====================================================================
+
+=== 30_wiki/concepts/concept-一堂-business-prediction.md ===
+    🟡 30_wiki/concepts/concept-一堂-business-prediction.md
+       本卡涉及已有概念：Truman（权威定义见 [[concept-five-step-growth-to-barrier-transition]]）、科学决策（权威定义见 [[yt-management-scientific-decision]]）、Jobs to be Done（权威定义见 [[concept-christensen-jtbd-link]]）、attack（权威定义见 [[framework-kdo-self-attack]]）、个高概率方向（权威定义见 [[yt-foresight-addition-subtraction]]）——请人工核对与权威定义的一致性（#542 提示制不拦截；小昭事故根因 3 降档版）
+  [QUOTE_VERBATIM]: 1 warnings
+    🟡 30_wiki/concepts/concept-一堂-business-prediction.md
+       1 处声称逐字的引文在 source_refs 源文件中未逐字命中：「保A是副业、争B是上市…」（L1912）——伪逐字引文模式（#616/#614 实证：改写/拼贴不得包装成原话+行号），请核对源文件改为逐字引用或去掉引号
+  [SOURCE_RANGE]: 0 issues
+  [INDEX]: 1 errors
+    🔴 30_wiki/concepts/concept-一堂-business-prediction.md
+       卡片比检索索引新（kdo query/kdo_search 检索不到）——先跑 `kdo index --incremental`（秒级增量）再提审；全量重建用 `kdo index`（分钟级）
+
+  🔴 Result: FAIL — 1 个错误要修（#220 P1-5 讲香）
+     路径感：从上往下修——先修 YAML 结构错误（阻断后续检查），再修内容错误
+     修完重跑本命令，看到 ✅ PASS 再提交，省欧阳锋一轮往返
+====================================================================
+
+=== 30_wiki/dark-knowledges/yt-product-kernel-overpromise-trap.md ===
+    🟡 30_wiki/dark-knowledges/yt-product-kernel-overpromise-trap.md
+       本卡涉及已有概念：Truman（权威定义见 [[concept-five-step-growth-to-barrier-transition]]）、产品内核定义（权威定义见 [[yt-entrepreneur-product-core]]）、内核定义（权威定义见 [[yt-entrepreneur-product-core]]）、一号位（权威定义见 [[concept-christensen-rpv-model]]）、作方法（权威定义见 [[framework-yitang-case-crafting-four-step]]）——请人工核对与权威定义的一致性（#542 提示制不拦截；小昭事故根因 3 降档版）
+  [QUOTE_VERBATIM]: 1 warnings
+    🟡 30_wiki/dark-knowledges/yt-product-kernel-overpromise-trap.md
+       4 处声称逐字的引文在 source_refs 源文件中未逐字命中：「大公司需注意避免组织目标不一致导致内核变形——前端过度承诺，…」（原话/口述归因）、「课程，以下沉市场三四线城市的中老年用户为主（L454），前端…」（L454）、「（L468 逐字）。SKU 投放早期数据很好：首单 ROI …」（L454）等——伪逐字引文模式（#616/#614 实证：改写/拼贴不得包装成原话+行号），请核对源文件改为逐字引用或去掉引号
+  [SOURCE_RANGE]: 0 issues
+  [INDEX]: 1 errors
+    🔴 30_wiki/dark-knowledges/yt-product-kernel-overpromise-trap.md
+       卡片比检索索引新（kdo query/kdo_search 检索不到）——先跑 `kdo index --incremental`（秒级增量）再提审；全量重建用 `kdo index`（分钟级）
+
+  🔴 Result: FAIL — 2 个错误要修（#220 P1-5 讲香）
+     路径感：从上往下修——先修 YAML 结构错误（阻断后续检查），再修内容错误
+     修完重跑本命令，看到 ✅ PASS 再提交，省欧阳锋一轮往返
+====================================================================
+
+• Issues to fix:
+
+  1. **INDEX error** on all 5: 卡片比检索索引新 → run `kdo index --incremental` before submit. Do that after content fixes.
+
+  2. **QUOTE_VERBATIM warnings**:
+     - 卡10: 「试训量 × 转化率 × 复购率…」（L998）×2 — my text: "把业务拆成「试训量 × 转化率 × 复购率」三个参数——**"最重要的是这三个参数"**（... L998-L1002）". The checker treats 「试训量 × 转化率 × 复购率」 as a quote? It's in 「」brackets with L998 reference. Source L998: "首先真正做减法的话，其实这个业务拆成公式，初次购买其实就是试训乘以转化率，乘以转化金额。" — "试训量 × 转化率 × 复购率" is NOT verbatim. Also the earlier pre-existing quote in 口述来源 line 89: "将业务拆为「试训量 × 转化率 × 复购率」三个参数" — that existed before (line 89 in original, marked WARNING? it says 2 处）. One is pre-existing (§漏斗三环节 note), one I added (§4 聚焦原则）. Fix both: change 「」to plain text or adjust to verbatim. Source has "试训量" (L1000: "一个试训量"), "转化率", "复购率" individually but not the combined string with ×. Solution: remove the quote marks / write as 转述： 拆成「试训量×转化率×复购率」→ hmm the checker keys on 「」+行号 probably. Change to: 把业务拆成 试训量、转化率、复购率 三个参数（口述 L998-L1002，转述）. Do the same for the pre-existing line 89 note.
+
+     Wait — red line "只修 FAIL 点不顺手改其他". But the pre-existing 「试训量 × 转化率 × 复购率」 at line 89 was there before and pre-submit flags it now (new gate from #616). It's a WARNING not error. Fixing it aligns with the 红线 in my task sheet （引号内容必须逐字对源）. The task red line says quotes must grep-hit; WARNING档. I'll fix both occurrences (mine + pre-existing same-pattern) since it's the same failure class this task is about. Justifiable.
+
+     - 卡12: 「保A是副业、争B是上市…」（L1912）— my ④ rewrite: 避免"保A是副业、争B是上市"这种漫无边际的定位 — that phrase is in quotes with L1912 nearby? Actually the quote "保A是副业、争B是上市" — pre-existing text from before (the original ④ also had it). It's not verbatim source. Fix: remove quotes → 避免保A是副业、争B是上市这种漫无边际的定位. Or keep quotes without 逐字 claim... the checker flagged it because L1912 adjacent. Change to use real quote: "保一争七等于废话" is verbatim substring of L1912! Source: "你们理解保一争七等于废话。" So rewrite: ——"保一争七等于废话"（L1912 逐字），避免保A是副业、争B是上市这种漫无边际的定位. Currently my text has "保一争七等于废话" in quotes already, plus "保A是副业、争B是上市" in quotes. Just unquote the latter.
+
+     - 卡14: 4 处：
+       a. 「大公司需注意避免组织目标不一致导致内核变形——前端过度承诺，…」（原话/口述归因） — this is the pre-existing line 94: > Truman 原话："大公司需注意避免组织目标不一致导致内核变形——前端过度承诺，后端无法履约。"（concept-一堂-product-kernel Q6）. The ruling said Q6 引用属实 ("结构性论述…/Q6 引用属实"). Hmm, ruling card 14: "结构性论述（前后端 KPI 不一致/Q6 引用属实/L2480 逐字）成立". So Q6 quote verified by 欧阳锋 against concept-一堂-product-kernel Q6. But the mechanical gate can't find it in source_refs files (it's from another card, not the 口述 txt). Options: keep as-is with justification (it cites another card, not source) — but gate WARNING. The checker is WARNING档， non-blocking. But better to make it pass: attribute correctly as a card-to-card quote: change "Truman 原话" → "concept-一堂-product-kernel Q6 记载" — let me verify the Q6 text in concept-一堂-product-kernel.
+
+       b. 「课程，以下沉市场三四线城市的中老年用户为主（L454）」 — my 背景 edit. Checker thinks "（L454）" attaches to preceding quoted span? My text: 以下沉市场三四线城市的中老年用户为主（L454），前端承诺的核心是"毕了业就可以很快把钱赚回来"（L468 逐字）. Hmm — the flagged span "课程，以下沉市场..." Probably checker sees quotes "声音变现"课程 and treats text between quotes? Actually "声音变现"课程 — the checker may pair "声音变现" ... "毕了业就可以很快把钱赚回来" as one quote span across? The flagged text is 「课程，以下沉市场三四线城市的中老年用户为主（L454），前端…」 which is the text BETWEEN the closing quote of "声音变现" and opening quote of "毕了业...". So the checker mispaired Chinese quotes. Fix: avoid the quote pairing issue — remove quotes around 声音变现： 推出声音变现课程. That should fix pairing.
+
+       c. 「（L468 逐字）。SKU 投放早期数据很好：首单 ROI …」 — again mispairing: between closing quote of "毕了业..." and next opening quote "最后发现没人能赚回来". The text in between contains L468/L474 references. This is caused by quote-pairing heuristic. Removing some quote marks will help. Restructure the 背景 paragraph to minimize quotes: keep only the clearly-verbatim single-phrase quotes. E.g.:
+
+       "一家在线教育公司推出声音变现课程，以下沉市场三四线城市的中老年用户为主（L454），前端承诺"毕了业就可以很快把钱赚回来"（L468 逐字）。投放早期首单 ROI 一直在 1.6 以上，月流水从第一个月 100 万冲到第四个月 800 万（L416-L418）；第四个月第一批学员毕业，"最后发现没人能赚回来"（L468 逐字），大面积退款，ROI 很快降到 1 以下（L472-L474）。"
+
+       Still two quotes → text between them would be flagged? The flagged spans are between-quote segments; the checker seems to pair opening→next closing, so with quotes at positions 1,2,3,4: pairs (1,2) and (3,4) are quotes; segments between 2 and 3 shouldn't be quoted... unless odd count. My paragraph has: "毕了业..."（open/close pair 1-2）, "最后发现没人能赚回来"（pair 3-4）. Between pair1-close and pair2-open there's plain text — shouldn't be flagged. Unless the checker pairs differently (close→open). The flagged span c starts with （L468 逐字）。which is right after closing quote of "毕了业", ending before 「"最后发现…」. So checker treats close-then-open as a quote span? That means it alternates: every other segment between quote marks is considered a quote, including between closing and next opening? That would be a checker bug/strictness. Actually more likely the checker extracts all "..." spans; "毕了业就可以很快把钱赚回来" IS in source and should hit. Wait it flagged span b and c as quotes — meaning the checker found quote marks pairing across. Perhaps because in the original markdown the paragraph had 「"声音变现"课程，... "毕了业..."（L468 逐字）。SKU... "最后发现..."」— 6 quote marks → 3 pairs: ("声音变现"), (课程，以下沉市场...前端的...), wait no.
+
+       Pairing sequentially: 「"」1 open... "声音变现" uses marks 1-2. Then "毕了业就可以很快把钱赚回来" marks 3-4. Then "最后发现没人能赚回来" marks 5-6. Checker probably takes all quoted spans: spans are (1,2),(3,4),(5,6) — all fine. But flagged spans are the BETWEEN texts. So checker must pair differently: maybe it treats the whole "X。SKU..." Hmm flagged b = 「课程，以下沉市场三四线城市的中老年用户为主（L454），前端…」 = text between mark 2 and mark 3. Flagged c = between mark 4 and mark 5. So the checker alternates starting from the second mark? That suggests it considers odd-positioned segments as quotes — i.e., it pairs mark2→mark3, mark4→mark5 when the first mark is interpreted as closing? Whatever the heuristic, safest: reduce quote marks. Rewrite 背景 with minimal quotes:
+
+       "一家在线教育公司推出声音变现课程，目标用户是下沉市场三四线城市的中老年人（L454）。前端承诺的核心是让用户相信"毕了业就可以很快把钱赚回来"（L468 逐字）。SKU 投放早期数据很好——首单 ROI 一直在 1.6 以上，月流水从第一个月 100 万冲到第四个月 800 万（L416-L418）；第四个月第一批学员毕业后发现没人能赚回来，大面积退款，ROI 很快降到 1 以下（L468-L474）。"
+
+       Only one quote pair → no between-span issue.
+
+       Also check my other card-14 quotes pass: 原始表述 block has 4 quotes — none flagged, good (they hit verbatim). The 能力高估 table quote "毕了业就可以很快把钱赚回来" — fine.
+
+       a. Q6 quote: verify against concept-一堂-product-kernel.md.
+
+  3. dk-p15: QUOTE_VERBATIM 0 issues, only INDEX error. Good.
+
+  Then run kdo index --incremental, re-run pre-submit.
+
+  Let me check Q6 in concept-一堂-product-kernel.Q6 in concept-一堂-product-kernel: "大公司需注意避免组织目标不一致导致内核变形——_前端过度承诺，后端无法履约_（L526-L568）" — this itself is a card summary (paraphrase with line ref), not verbatim source. Card 14 quotes it as Truman 原话 which is double indirection. Fix card 14 line 94: change from "Truman 原话：..." to cite as card summary:
+
+  Current: `> Truman 原话："大公司需注意避免组织目标不一致导致内核变形——前端过度承诺，后端无法履约。"（concept-一堂-product-kernel Q6）`
+
+  The actual source (L526-L534) says 前端和后端往往是两个老板分离的，目标都不一样... So best: replace with 转述+逐字 from 口述： 
+  `> 口述稿原文："在大公司，其实你们知道前端和后端往往是两个老板分离的，目标都不一样。"（L528 逐字）——前端盯 ROI 低价拉新，后端背满意度履约，过度承诺由此产生（L530-L534 转述）。`
+
+  Check L528 verbatim: "在大公司，其实你们知道前端和后端往往是两个老板分离的，目标都不一样。" ✓ (from my earlier read).The text has slight difference ("毕业，发现"最后发现没人能赚回来"（L468）"). Fix with exact string.Now card 12 ④ unquote "保A是副业、争B是上市":Wait — "保一争七等于废话" — verbatim substring of L1912? Source: "你们理解保一争七等于废话。" — substring "保一争七等于废话" ✓.
+
+  Now card 10's two 「试训量 × 转化率 × 复购率」 occurrences:
+  1. §4 聚焦原则 (my new): 'Truman 在足球俱乐部案例中把业务拆成「试训量 × 转化率 × 复购率」三个参数——**"最重要的是这三个参数"**（`一堂-产品内核实操课-Truman-口述.txt` L998-L1002）'
+  2. 口述来源 note (pre-existing line ~89): '将业务拆为「试训量 × 转化率 × 复购率」三个参数，分别对应获客、转化、复购漏斗三环节。（来源：... L998-L1070）'
+
+  Fix both: remove 「」 brackets (treat as 转述）.Now run kdo index --incremental (to clear INDEX error), then re-run pre-submit on all 5.
+
+• 跑增量索引后重跑 5 卡 pre-submit。Incremental: +0 ~3 -0 (total 4177) -> C:\Users\Administrator\Desktop\wiki\.kdo\search_index.json
+=== 30_wiki/dark-knowledges/dk-p15-unverified.md ===
+  [YAML]: 0 issues
+  [WIKILINK]: 0 issues
+  [DOMAIN]: 0 issues
+  [DK_SECTION]: 0 issues
+  [OUTLINK]: 0 issues
+  [POSITION_DECLARATION]: 0 issues
+  [BODY_SRC_UNKNOWN]: 0 issues
+  [VLM_TWO_SECTION]: 0 issues
+=== 30_wiki/frameworks/yt-product-kernel-validation.md ===
+  [YAML]: 0 issues
+  [WIKILINK]: 0 issues
+  [DOMAIN]: 0 issues
+  [DK_SECTION]: 0 issues
+  [OUTLINK]: 0 issues
+  [ALIASES]: 0 issues
+  [POSITION_DECLARATION]: 0 issues
+  [SOURCE_REACHABILITY]: 0 issues
+=== 30_wiki/tools/yt-product-kernel-ten-metrics.md ===
+  [YAML]: 0 issues
+  [WIKILINK]: 0 issues
+  [DOMAIN]: 0 issues
+  [DK_SECTION]: 0 issues
+  [OUTLINK]: 0 issues
+  [POSITION_DECLARATION]: 0 issues
+  [SOURCE_REACHABILITY]: 0 issues
+  [BODY_SRC_UNKNOWN]: 0 issues
+=== 30_wiki/concepts/concept-一堂-business-prediction.md ===
+  [YAML]: 0 issues
+  [WIKILINK]: 0 issues
+  [DOMAIN]: 0 issues
+  [DK_SECTION]: 0 issues
+  [OUTLINK]: 0 issues
+  [POSITION_DECLARATION]: 0 issues
+  [SOURCE_REACHABILITY]: 0 issues
+  [BODY_SRC_UNKNOWN]: 0 issues
+=== 30_wiki/dark-knowledges/yt-product-kernel-overpromise-trap.md ===
+  [YAML]: 0 issues
+  [WIKILINK]: 0 issues
+  [DOMAIN]: 0 issues
+  [OUTLINK]: 0 issues
+  [POSITION_DECLARATION]: 0 issues
+  [SOURCE_REACHABILITY]: 0 issues
+  [BODY_SRC_UNKNOWN]: 0 issues
+  [VLM_TWO_SECTION]: 0 issues
+
+
+=== 30_wiki/dark-knowledges/dk-p15-unverified.md ===
+  [QUOTE_VERBATIM]: 0 issues
+  [SOURCE_RANGE]: 0 issues
+  ✅ Result: PASS（3 条 WARNING 在列——有警在身，非全清，终审前自行掂量）
+=== 30_wiki/frameworks/yt-product-kernel-validation.md ===
+  [QUOTE_VERBATIM]: 0 issues
+  [SOURCE_RANGE]: 0 issues
+  ✅ Result: PASS（1 条 WARNING 在列——有警在身，非全清，终审前自行掂量）
+=== 30_wiki/tools/yt-product-kernel-ten-metrics.md ===
+  [QUOTE_VERBATIM]: 0 issues
+  [SOURCE_RANGE]: 0 issues
+  ✅ Result: PASS（2 条 WARNING 在列——有警在身，非全清，终审前自行掂量）
+=== 30_wiki/concepts/concept-一堂-business-prediction.md ===
+  [QUOTE_VERBATIM]: 0 issues
+  [SOURCE_RANGE]: 0 issues
+  ✅ Result: PASS（2 条 WARNING 在列——有警在身，非全清，终审前自行掂量）
+=== 30_wiki/dark-knowledges/yt-product-kernel-overpromise-trap.md ===
+  [QUOTE_VERBATIM]: 1 warnings
+  [SOURCE_RANGE]: 0 issues
+  🔴 Result: FAIL — 1 个错误要修（#220 P1-5 讲香）
+  [QUOTE_VERBATIM]: 1 warnings
+    🟡 30_wiki/dark-knowledges/yt-product-kernel-overpromise-trap.md
+       1 处声称逐字的引文在 source_refs 源文件中未逐字命中：「（L488 逐字）。而这种过度承诺往往不是某个人的恶意：大公…」（L480）——伪逐字引文模式（#616/#614 实证：改写/拼贴不得包装成原话+行号），请核对源文件改为逐字引用或去掉引号
+  [SOURCE_RANGE]: 0 issues
+
+  🔴 Result: FAIL — 1 个错误要修（#220 P1-5 讲香）
+     路径感：从上往下修——先修 YAML 结构错误（阻断后续检查），再修内容错误
+• The mispairing again in the 诊断 paragraph: quotes "它非常重要...没了"（L480 逐字）... "救都救不回来"（L488 逐字）— between-span flagged. The checker's pairing treats close→open as quote span. So having two quote pairs in one paragraph triggers flag on the middle text. Restructure: reduce to one quote pair per paragraph, or split paragraphs.
+
+  Rewrite the 诊断 section:
+  - Paragraph 1: "它非常重要，它对于这个产品来说就是内核级别的，你失去了它就没了"（L480 逐字）。
+  - Paragraph 2 （转述）: 内核一旦不成立就救不回来（L488）；过度承诺往往不是个人恶意...
+
+  Let me read the current section to edit precisely.
+
+• 诊断段两对引号导致检查器跨段误判，拆段处理。
+
+  [QUOTE_VERBATIM]: 0 issues
+  🔴 Result: FAIL — 2 个错误要修（#220 P1-5 讲香）
+  [DOMAIN]: 0 issues
+  [DK_SECTION]: 1 errors
+    🔴 30_wiki/dark-knowledges/yt-product-kernel-overpromise-trap.md
+       Missing required section: ## Critique
+  [OUTLINK]: 0 issues
+  [ALIASES]: 1 warnings
+    🟡 30_wiki/dark-knowledges/yt-product-kernel-overpromise-trap.md
+       Source names not in title/aliases — card will be undiscoverable: yitang-lectures, 一堂-产品内核实操课-Truman-口述, 一堂-产品内核实操课-truman-笔记. Add these to the aliases field.
+  [POSITION_DECLARATION]: 0 issues
+--
+  [SOURCE_RANGE]: 0 issues
+  [INDEX]: 1 errors
+    🔴 30_wiki/dark-knowledges/yt-product-kernel-overpromise-trap.md
+       卡片比检索索引新（kdo query/kdo_search 检索不到）——先跑 `kdo index --incremental`（秒级增量）再提审；全量重建用 `kdo index`（分钟级）
+
+  🔴 Result: FAIL — 2 个错误要修（#220 P1-5 讲香）
+     路径感：从上往下修——先修 YAML 结构错误（阻断后续检查），再修内容错误
+     修完重跑本命令，看到 ✅ PASS 再提交，省欧阳锋一轮往返
+====================================================================
+
+• Two errors:
+  1. Missing ## Critique section — pre-existing gap (the card never had a Critique section; dk card requires it). #615 noted "pre-submit 9 PASS+5 FAIL 全为存量正文结构问题（git diff 实证非本单引入）" — so these 5 cards had pre-existing FAILs. But now I've reworked content; leaving a FAIL at submit is bad. The FAIL is structural存量. Task says 只修 FAIL 点不顺手改其他 — but pre-submit FAIL blocks clean submission; #615 already documented these as存量. However now the L2 自攻击/审查... Given the task requires "修后重审", submitting with pre-submit FAIL invites直接退回. The dk card needs ## Critique. Adding a Critique section is a small structural fix; dk-p15 already has one. I'll add a Critique section to overpromise-trap.
+
+  Wait — was this FAIL present before my edits? #615 said 5 downgraded cards FAIL on pre-submit for 存量正文结构问题. Yes. But if I submit with FAIL, 欧阳锋 退回. Better to fix: add ## Critique section (grounded, short). This is arguably beyond FAIL points but required by gate. I'll add it.
+
+  2. INDEX error — card newer than index again (I edited after index run). Re-run kdo index --incremental at the end, then final pre-submit.
+
+  Check the other 4 cards don't have similar structural FAILs — they all PASSed (with warnings). Only overpromise-trap lacks Critique.
+
+  Also check: did dk-p15 have DK_SECTION pass — yes 0 issues.
+
+  Add Critique section to overpromise-trap. Where? dk card standard sections per pre-submit: 原始表述/使用场景/操作方法/适用边界/为什么值钱/与其他知识的关联 + Critique. Place Critique before 与其他知识的关联 or after 为什么值钱. Let me look at card structure: sections: 原始表述 / 三类过度承诺模式 / 结构性根源 / 声音变现案例完整还原 / 使用场景 / 操作方法 / 适用边界 / 为什么值钱 / 与其他知识的关联 / 失败模式. Add ## Critique after 为什么值钱， before 与其他知识的关联.Incremental: +0 ~1 -0 (total 4177) -> C:\Users\Administrator\Desktop\wiki\.kdo\search_index.json
+  [DK_SECTION]: 0 issues
+  [QUOTE_VERBATIM]: 1 warnings
+  ✅ Result: PASS（3 条 WARNING 在列——有警在身，非全清，终审前自行掂量）
+  [QUOTE_VERBATIM]: 1 warnings
+    🟡 30_wiki/dark-knowledges/yt-product-kernel-overpromise-trap.md
+       2 处声称逐字的引文在 source_refs 源文件中未逐字命中：「核心要素丢失→业务崩掉…」（原话/口述归因）、「来源：Truman 口述复盘，数字待独立核实…」（原话/口述归因）——伪逐字引文模式（#616/#614 实证：改写/拼贴不得包装成原话+行号），请核对源文件改为逐字引用或去掉引号
+  [SOURCE_RANGE]: 0 issues
+
+  ✅ Result: PASS（3 条 WARNING 在列——有警在身，非全清，终审前自行掂量）
+The two flagged "quotes" in my new Critique are false positives from quote-pairing again: "核心要素丢失→业务崩掉" and "来源：Truman 口述复盘，数字待独立核实" are in Chinese quotes but are not claimed as verbatim — they're flagged because of 原话/口述 attribution heuristic. To keep clean, remove those quote marks in Critique (use 「」 or plain). Replace "核心要素丢失→业务崩掉" with 「核心要素丢失→业务崩掉」 and the other with plain text without quotes.Incremental: +0 ~1 -0 (total 4177) -> C:\Users\Administrator\Desktop\wiki\.kdo\search_index.json
+=== 30_wiki/dark-knowledges/dk-p15-unverified.md
+  [QUOTE_VERBATIM]: 0 issues
+  [SOURCE_RANGE]: 0 issues
+  ✅ Result: PASS（3 条 WARNING 在列——有警在身，非全清，终审前自行掂量）
+=== 30_wiki/frameworks/yt-product-kernel-validation.md
+  [QUOTE_VERBATIM]: 0 issues
+  [SOURCE_RANGE]: 0 issues
+  ✅ Result: PASS（1 条 WARNING 在列——有警在身，非全清，终审前自行掂量）
+=== 30_wiki/tools/yt-product-kernel-ten-metrics.md
+  [QUOTE_VERBATIM]: 0 issues
+  [SOURCE_RANGE]: 0 issues
+  ✅ Result: PASS（2 条 WARNING 在列——有警在身，非全清，终审前自行掂量）
+=== 30_wiki/concepts/concept-一堂-business-prediction.md
+  [QUOTE_VERBATIM]: 0 issues
+  [SOURCE_RANGE]: 0 issues
+  ✅ Result: PASS（2 条 WARNING 在列——有警在身，非全清，终审前自行掂量）
+=== 30_wiki/dark-knowledges/yt-product-kernel-overpromise-trap.md
+  [QUOTE_VERBATIM]: 0 issues
+  [SOURCE_RANGE]: 0 issues
+  ✅ Result: PASS（2 条 WARNING 在列——有警在身，非全清，终审前自行掂量）
+5/5 PASS（QUOTE_VERBATIM / SOURCE_RANGE 全 0）。Remaining WARNINGs are CONCEPT_CROSSCHECK 提示制（不拦截）+ ALIASES 建议类。按 P-43 精神，WARNING 应二选一「修掉」或「写明不可修原因」。CONCEPT_CROSSCHECK 是提示制不拦截（#542），写明即可。卡14 的 ALIASES 警告（source names not in aliases）— 可加 aliases 但那是机械修复分钟级... P-43 says mechanical fixes should be done. But adding source names to aliases pollutes? The earlier cards （卡9) also got only 1 WARNING (CONCEPT_CROSSCHECK). 卡14's ALIASES warning existed before? In the first pre-submit run, 卡14 showed ALIASES warning too — 存量. #615 recorded 5 降级卡 pre-submit FAIL 为存量结构问题. Hmm but now only overpromise had DK_SECTION error which I fixed.
+
+  Let me check what the 3 WARNINGs of dk-p15 are, and 卡12's 2. Quick full output check per card to enumerate remaining warnings for the report. Actually to keep moving: remaining warnings are CONCEPT_CROSSCHECK （提示制不拦截） + 卡14 ALIASES. I'll add the ALIASES fix? The warning: source names not in aliases: yitang-lectures, 一堂-产品内核实操课-Truman-口述， 一堂-产品内核实操课-truman-笔记. Adding file names to aliases pollutes search a bit but the checker explicitly suggests it. P-43: 机械修复分钟级 ≪ 终审降档. But is it机械可修？ It says "Add these to the aliases field". Other cards likely have same warning class. Check what dk-p15's 3 warnings are first.=== 30_wiki/dark-knowledges/dk-p15-unverified.md
+  [ALIASES]: 1 warnings
+    🟡 30_wiki/dark-knowledges/dk-p15-unverified.md
+       Source names not in title/aliases — card will be undiscoverable: pitfalls. Add these to the aliases field.
+  [POSITION_DECLARATION]: 0 issues
+  [SOURCE_REACHABILITY]: 1 warnings
+    🟡 30_wiki/dark-knowledges/dk-p15-unverified.md
+       1/1 source_refs unreachable: .agent/pitfalls.md#P-15
+  [QUALITY_SCORE]: 1 info
+    📊 30_wiki/dark-knowledges/dk-p15-unverified.md
+--
+  [CONCEPT_CROSSCHECK]: 1 warnings
+    🟡 30_wiki/dark-knowledges/dk-p15-unverified.md
+       本卡涉及已有概念：作方法（权威定义见 [[framework-yitang-case-crafting-four-step]]）、知识库（权威定义见 [[framework-kdo-mcp-server]]）、黄药师（权威定义见 [[framework-kdo-modeling-methodology]]）——请人工核对与权威定义的一致性（#542 提示制不拦截；小昭事故根因 3 降档版）
+  [QUOTE_VERBATIM]: 0 issues
+  [SOURCE_RANGE]: 0 issues
+=== 30_wiki/frameworks/yt-product-kernel-validation.md
+  [CONCEPT_CROSSCHECK]: 1 warnings
+    🟡 30_wiki/frameworks/yt-product-kernel-validation.md
+       本卡涉及已有概念：关键假设（权威定义见 [[framework-lean-abcd-model]]）、品内核（权威定义见 [[framework-lean-product-kernel]]）、键假设（权威定义见 [[framework-lean-abcd-model]]）、Truman（权威定义见 [[concept-five-step-growth-to-barrier-transition]]）、产品内核定义（权威定义见 [[yt-entrepreneur-product-core]]）——请人工核对与权威定义的一致性（#542 提示制不拦截；小昭事故根因 3 降档版）
+  [QUOTE_VERBATIM]: 0 issues
+  [SOURCE_RANGE]: 0 issues
+=== 30_wiki/tools/yt-product-kernel-ten-metrics.md
+  [ALIASES]: 1 warnings
+    🟡 30_wiki/tools/yt-product-kernel-ten-metrics.md
+       Source names not in title/aliases — card will be undiscoverable: yitang-lectures, 一堂-产品内核实操课-Truman-口述. Add these to the aliases field.
+  [POSITION_DECLARATION]: 0 issues
+  [SOURCE_REACHABILITY]: 0 issues
+--
+  [CONCEPT_CROSSCHECK]: 1 warnings
+    🟡 30_wiki/tools/yt-product-kernel-ten-metrics.md
+       本卡涉及已有概念：产品内核十大典型指标（权威定义见 [[yt-model-product-core-metrics]]）、内核十大典型指标（权威定义见 [[yt-model-product-core-metrics]]）、品内核（权威定义见 [[framework-lean-product-kernel]]）、Truman（权威定义见 [[concept-five-step-growth-to-barrier-transition]]）、产品内核定义（权威定义见 [[yt-entrepreneur-product-core]]）——请人工核对与权威定义的一致性（#542 提示制不拦截；小昭事故根因 3 降档版）
+  [QUOTE_VERBATIM]: 0 issues
+  [SOURCE_RANGE]: 0 issues
+=== 30_wiki/concepts/concept-一堂-business-prediction.md
+  [ALIASES]: 1 warnings
+    🟡 30_wiki/concepts/concept-一堂-business-prediction.md
+       Source names not in title/aliases — card will be undiscoverable: 一堂-机会预判课-Truman-口述, 一堂-机会预判课-truman-笔记. Add these to the aliases field.
+  [POSITION_DECLARATION]: 0 issues
+  [SOURCE_REACHABILITY]: 0 issues
+--
+  [CONCEPT_CROSSCHECK]: 1 warnings
+    🟡 30_wiki/concepts/concept-一堂-business-prediction.md
+       本卡涉及已有概念：Truman（权威定义见 [[concept-five-step-growth-to-barrier-transition]]）、科学决策（权威定义见 [[yt-management-scientific-decision]]）、Jobs to be Done（权威定义见 [[concept-christensen-jtbd-link]]）、attack（权威定义见 [[framework-kdo-self-attack]]）、个高概率方向（权威定义见 [[yt-foresight-addition-subtraction]]）——请人工核对与权威定义的一致性（#542 提示制不拦截；小昭事故根因 3 降档版）
+  [QUOTE_VERBATIM]: 0 issues
+  [SOURCE_RANGE]: 0 issues
+Remaining WARNINGs:
+  1. **SOURCE_REACHABILITY** on dk-p15: `.agent/pitfalls.md#P-15` unreachable — the `#P-15` anchor likely breaks the file check. Fix: change source_refs to `.agent/pitfalls.md` (file exists). That's a real reachability issue — fix it.
+  2. **ALIASES** warnings (dk-p15, 卡10, 卡12, 卡14): source file names not in aliases. These are mechanical-add suggestions. 存量类警告（卡10/12/14 had them before? probably yes for 12/14; dk-p15's is new because I changed source to pitfalls.md）. P-43 说机械可修就修。But adding raw filenames like "一堂-产品内核实操课-Truman-口述" to aliases is questionable (aliases pollution). 卡9 doesn't have this warning because... it has source_context with 一堂产品内核验证课 in aliases maybe. I'll leave ALIASES warnings as-is with justification: 源文件名进 aliases 污染检索（P-43 自己说"目录结构词误报不塞 aliases 污染检索"）。但 checker 建议加。Trade-off: 任务范围是修 FAIL 点，aliases 非 FAIL 点。I'll note in report as 不可修原因（避免文件名污染检索别名）。Hmm — but P-43 扣分实证... The task's scope is content rework of FAIL points; ALIASES warning is 存量 and pre-existing for these cards. I'll document.
+
+  Actually for dk-p15, its ALIASES warning ("pitfalls") is NEW — introduced by my source_refs change. Options: add "pitfalls" to aliases? Weird alias. Or the SOURCE_REACHABILITY + ALIASES both stem from referencing .agent/pitfalls.md. Maybe better source_refs format: `.agent/pitfalls.md` (without anchor) fixes reachability. For aliases, skip with justification.
+
+  Let me fix dk-p15 source_refs to drop the anchor.Incremental: +0 ~1 -0 (total 4177) -> C:\Users\Administrator\Desktop\wiki\.kdo\search_index.json
+  [SOURCE_REACHABILITY]: 0 issues
+  [QUOTE_VERBATIM]: 0 issues
+  ✅ Result: PASS（2 条 WARNING 在列——有警在身，非全清，终审前自行掂量）
+All 5 PASS. Now:
+  1. git status check (L12) + commit deliverables (pathspec per P-44).
+  2. Write 5-field execution report into the task sheet.
+  3. complete 617 with evidence.
+  4. Verify L9 （队列 status + frontmatter pending_review).
+  5. Append todos line.
+
+  First git status + diff stat of the 5 cards. M "30_wiki/concepts/concept-\344\270\200\345\240\202-business-prediction.md"
+ M 30_wiki/dark-knowledges/dk-p15-unverified.md
+ M 30_wiki/dark-knowledges/yt-product-kernel-overpromise-trap.md
+ M 30_wiki/tools/yt-product-kernel-ten-metrics.md
+warning: in the working copy of '30_wiki/tools/yt-product-kernel-ten-metrics.md', LF will be replaced by CRLF the next time Git touches it
+ ...ncept-\344\270\200\345\240\202-business-prediction.md" |  2 +-
+ 30_wiki/dark-knowledges/dk-p15-unverified.md              |  2 +-
+ .../dark-knowledges/yt-product-kernel-overpromise-trap.md | 15 ++++++++++++---
+ 30_wiki/tools/yt-product-kernel-ten-metrics.md            |  4 ++--
+ 4 files changed, 16 insertions(+), 7 deletions(-)
+yt-product-kernel-validation.md is NOT in the diff! My edits to it (2 quote replacements) — did they get committed already by something else, or...? Check git log for that file. Possibly obsidian-git auto-committed. Let me check `git status` full and `git log -1 --stat` for the validation file.bf73d4560 vault backup: 2026-09-02 12:50:00
+ce59db575 #615 #614裁定落笔：9张PASS卡补reviewed_by/review_date/grade + 5张降级enriched(downgrade_reason) + 随修项(卡3路径/卡5-8引用区间/卡11/13 diagnostic_signals)
+ccaa8bf25 feat(domain): #493 域归域治理——yitang 拆分 + unknown 补域 + 来源词清 tags
+bf73d4560 vault backup: 2026-09-02 12:50:00
+496b7e27c chore(queue): #617 claim by laowantong-kimi
+1
+The validation card edits were auto-committed by obsidian-git vault backup (bf73d4560). Fine — deliverable is in repo. The other 4 files are uncommitted working changes. Commit them with pathspec (P-44 discipline). Also .kdo/search_index.json status? Not shown in porcelain output above — it wasn't listed, meaning unchanged or already committed? I filtered porcelain to those paths including .kdo/search_index.json — not shown, so unchanged or... it should be modified by index --incremental. Maybe it's already tracked and modified but not shown because... it should show. Whatever — index file is 黄药师 territory; not my deliverable. Commit only the 4 cards.warning: in the working copy of '30_wiki/tools/yt-product-kernel-ten-metrics.md', LF will be replaced by CRLF the next time Git touches it
+ ...ncept-\344\270\200\345\240\202-business-prediction.md" |  2 +-
+ 30_wiki/dark-knowledges/dk-p15-unverified.md              |  2 +-
+ .../dark-knowledges/yt-product-kernel-overpromise-trap.md | 15 ++++++++++++---
+ 30_wiki/tools/yt-product-kernel-ten-metrics.md            |  4 ++--
+ 4 files changed, 16 insertions(+), 7 deletions(-)
+warning: in the working copy of '30_wiki/tools/yt-product-kernel-ten-metrics.md', LF will be replaced by CRLF the next time Git touches it
+[master 5188f296b] #617 #614降级4卡返工：dk-p15六段重写(src=pitfalls.md P-15)+ten-metrics指标表按源重写+占位节补齐+business-prediction修死链/伪引言⑦/保A争B④+overpromise-trap引文改转述换真句删月入过万（卡9已经vault backup入仓 bf73d4560）
+ 4 files changed, 16 insertions(+), 7 deletions(-)
+Wait — the diff stat seems too small: dk-p15 shows only 2 changed lines (1 insertion 1 deletion)? But I rewrote whole sections (60+ lines)! And ten-metrics only 4 lines? Something's off. The massive section rewrites should show ~100 lines. Unless... vault backup (bf73d4560 at 12:50) already committed most of my earlier edits! Yes — obsidian-git auto-commits every 10 min. My earlier edits were committed by vault backup; the remaining uncommitted were only the last edits. Let me verify the committed state contains all changes: check git show bf73d4560 --stat and confirm current files contain the new content (they do — pre-submit passed on working copies). Verify all 5 files clean now. ...344\270\200\345\240\202-business-prediction.md" |    8 +-
+ 30_wiki/dark-knowledges/dk-p15-unverified.md       |   77 +-
+ .../yt-product-kernel-overpromise-trap.md          |   10 +-
+ 30_wiki/frameworks/yt-product-kernel-validation.md |    4 +-
+ 30_wiki/tools/yt-product-kernel-ten-metrics.md     |  120 +-
+---
+30_wiki/dark-knowledges/dk-p15-unverified.md:1
+30_wiki/tools/yt-product-kernel-ten-metrics.md:0
+clean-check-done
+All content committed across bf73d4560 + 5188f296b. 30_wiki clean. dk-p15 still has 1 "src_unknown" occurrence — where? Check: probably in related or somewhere? Let me check.The remaining src_unknown is inside downgrade_reason (historical record) — fine.
+
+  Now write the five-field execution report into the task sheet (#617 file), then complete. Report should include FAIL 点销项对账表 (L10 mirror style).
+
+  Append to 60_feedback/tasks/task_20260902_laowantong-614-downgraded-cards-rework.md an 执行报告 section.
+
+• 工作区干净。现在把五字段执行报告 + FAIL 点销项对账表落入任务单。
+
+--evidence 文件不可读: commit 5188f296b+bf73d4560；5卡pre-submit PASS（QUOTE_VERBATIM/SOURCE_RANGE/INDEX全0）；15条引文grep逐字命中15/15；yaml.safe_load 5/5；五字段执行报告+FAIL销项对账表已落任务单
+• --evidence expects a file path. Evidence = the task sheet itself (which has the execution report). Use the task file path.✅ task_20260902_laowantong-614-downgraded-cards-rework 已提交为 pending_review，等待欧阳锋终审
+📦 交付物校验: 交付物入仓核验通过（5 个路径已跟踪且无脏改动）
+✅ dashboard.html 已生成 (200 个任务)
+   待领取: 0  |  审查中: 1  |  进行中: 0  |  已完成: 199
+
+
+• L9 双验证：队列状态 + 任务单 frontmatter。  #617 task_20260902_laowantong-614-downgraded-cards-rework — #614降级5卡内容返工：伪引文改转述/换真实原句+ten-metrics按源重写核心指标表+占位节补齐（FAIL点逐条在#614裁定表）
+---
+id: task_20260902_laowantong-614-downgraded-cards-rework
+title: "#614 降级 5 卡内容返工：伪引文改转述/换真实原句 + 按源重写失真节（FAIL 点逐条在裁定表）"
+seq: 617
+status: pending_review
+assignee: laowantong
+created_by: wangyuyan
+created_at: 2026-09-02
+decision_source: "#614 欧阳锋补审降级 5 卡（09-02）+ #615 落笔已降 enriched——内容返工重报终审"
+reviewer: 欧阳锋
+instance: laowantong-kimi
+updated_at: '2026-09-02T05:00:29.657856+00:00'
+
+
+• frontmatter status: pending_review ✓. Queue status line didn't show state column clearly — check the queue md row.Queue row shows pending_review ✓ (L9 double verification passed). Now append todos line. Current time: get from date. The complete output timestamp was 05:00 UTC = 13:00 local (UTC+8). Append to 90_control/todos/laowantong.md.2026-09-02 13:00
+[2026-09-02 13:00] #617 完成施工并提审（pending_review 等欧阳锋）：#614降级5卡FAIL点镜像销项——
+Done with main task. Now session-end mandatory actions per laowantong-context.md:
+  0. 技能进化日志 append one line to 桌面/agent复盘/laowantong/技能进化日志.md
+  0.1 friction-log check — any friction? Yes: evidence parameter expects file path (minor), and QUOTE_VERBATIM checker quote-pairing false positives (between-span mispairing) — worth a friction note. Also vault backup auto-commit mid-work (P-44 related) — noted.
+  1. 失忆恢复锚点 — no capability changes, skip.
+  2. Truman 11章复盘 → 桌面/agent复盘/laowantong/daily-context/2026-09-02.md (format per agents/agent-os.md §10.2)
+  3. daily-context-save.py save.
+
+  Wait — "桌面/agent复盘" path: the vault has `agent复盘/` at root (C:\Users\Administrator\Desktop\wiki\agent复盘\). Context says 桌面/agent复盘/laowantong/... Let me check agent复盘 dir exists in vault — yes, tree shows agent复盘/ at vault root. Previous daily-context files? Check agent复盘/laowantong/daily-context/.
+
+  Also AGENTS.md for 老顽童 says session-end must write Truman 10-chapter... the laowantong context says 11章. Let me check the format from agent-os.md §10.2 and an existing example.
+
+  Also the friction-log note. Let me do these. First read an existing daily-context example + agent-os.md §10.2 format.2026-08-31.md
+daily-context
+Format confirmed. Check today's file existence (2026-09-02.md) — 一日多会话 rule: 追加到同一个文件， 开头标注"本日共 N 次会话". Let me check.2026-08-31.md
+NO_TODAY_FILE
+✅ 已保存：C:\Users\Administrator\Desktop\agent复盘\laowantong\daily-context\2026-09-02.md
+✅ 已存档：60_feedback\session-archives\2026-09-02\laowantong.md
+📋 自检：🟡 B级 ✅已检索
+✅ 事件 #835 已写入: agent=laowantong event=review_saved
+🧪 胶囊 L0 已留痕: agent=laowantong event=review_saved
+✅ A → B 镜像完成: C:\Users\Administrator\.kdo-memory\L1 → D:\KDO-memory\L1-backup（robocopy /MIR，exit 1）
+✅ verify PASS：B 镜像文件 hash 全一致；从 B 打开 integrity=ok 行数 830（A 同 830）
+All done. 自检 🟡 B级 — acceptable （要求 🟢 或 🟡). Summarize for user.
+
+• #617 施工完成，已提审。收工汇报：
+
+  **5 张降级卡 FAIL 点逐条销项**（镜像 #614 裁定表原序号）：
+
+  | 卡 | 修复 |
+  |:--|:--|
+  | dk-p15-unverified | 五节+关联节按 `.agent/pitfalls.md` P-15 原始条目重写；source_refs 从 src_unknown 改指真源 |
+  | yt-product-kernel-validation | 两处伪「Truman 原话」换 L1956 / L2078+L2082 逐字原句 |
+  | yt-product-kernel-ten-metrics | 核心指标表按源重写（获客：销转/动销/捕获；服务：留存/完课/退款/满意；复购：复购/续费/推荐）+下半部占位节全补齐 |
+  | concept-一堂-business-prediction | source_refs 死链改指真实源「机会预判课」；⑦虚构「4×5=20 矩阵」删换咖啡店排列组合 L2472 逐字；④改「建议差1、最多差3」（L1912） |
+  | yt-product-kernel-overpromise-trap | 引文块改转述+真句（L528/L534/L540/L542/L544）；「月入过万」三处全删换 L468 逐字；补 Critique 节（存量结构门禁） |
+
+  **验证**：15 条替换引文 grep 逐字命中 15/15；yaml.safe_load 5/5；pre-submit 5/5 PASS（QUOTE_VERBATIM / SOURCE_RANGE / INDEX 全 0）；入仓 commit `5188f296b` + `bf73d4560`（vault backup 先卷一笔，已核对 diff）。
+
+  **流转**：complete 走脚本通过，L9 双验证——队列行和任务单 frontmatter 均为 `pending_review`，等欧阳锋终审；五字段执行报告+销项对账表已落任务单；todos 已落账。
+
+  **收尾纪律**：Truman 11 章复盘已写并保存（自检 🟡 B 级）；技能进化日志 +1 行；friction-log 记了 3 条（检查器跨段引号配对误判、source_refs 锚点误报、complete --evidence 只收文件路径），前两条建议作为 #616 门禁调参输入上浮黄药师。
+
+To resume this session: kimi -r session_90e78af7-d1c6-4d4c-9774-fa66cdea264b
