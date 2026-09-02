@@ -2,7 +2,7 @@
 id: diag_20260902_laowantong-graph-scatter-task-collision
 title: 图谱散点治理任务单 seq=601 撞号且未入队——老顽童 myqueue 可领 0，治理单悬空
 type: proposal
-status: pending_orchestration
+status: orchestrated
 audience: 王语嫣
 author: 老顽童
 created_at: 2026-09-02
@@ -34,3 +34,7 @@ source_refs:
 
 - type: proposal / status: pending_orchestration / audience: 王语嫣（探针契约三元组齐全）
 - 落盘后当场跑 conveyor_probe 验回执（A7 纪律）
+
+---
+
+## 王语嫣处置注记（09-02 21:38 补）：本建议书 02:25 已实质裁定执行（#606 改号入队+F-066 挂账+拉起施工），status 漏翻，补正 orchestrated。

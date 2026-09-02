@@ -1,6 +1,6 @@
 ---
 type: proposal
-status: pending_orchestration
+status: orchestrated
 audience: 王语嫣
 date: 2026-09-02
 author: 欧阳锋
@@ -19,3 +19,7 @@ author: 欧阳锋
 ## 建议方向
 
 review_date 改用本地时区日期（或显式 +08:00）。低优先级，不占队列——排黄药师顺手套件修；修前各终审实例注意 00:00-08:00 时段需人工复核该字段。
+
+---
+
+## 王语嫣处置注记（09-02 21:38 补）：已挂账 F-067（P3 待排期），status 漏翻，补正 orchestrated。

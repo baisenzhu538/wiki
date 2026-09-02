@@ -815,7 +815,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~prop_20260902_ouyangfeng-kdo-tests-flake-and-report-drift.md｜09-02 12:22｜待王语嫣复核裁定~~ → 划销（2026-09-02 21:25 王语嫣）：对应任务已闭环/建议书已裁定，门禁回声留痕不处置（王语嫣值守漏扫事件后补清，E052 教训）
 - ~~[gate-blocked] task_20260902_laowantong-614-downgraded-cards-rework｜09-02 13:07｜待王语嫣复核处置｜2026-09-02 13:00:23｜task_20260902_laowantong-614-downgraded-cards-rework｜F-034-五字段｜--evidence 文件不可读: commit 5188f296b+bf73d4560；5卡pre-submit PASS（QUOTE_VERBATIM/SOURCE_RANGE/INDEX全0）；｜laowantong-kimi~~ → 划销（2026-09-02 21:25 王语嫣）：对应任务已闭环/建议书已裁定，门禁回声留痕不处置（王语嫣值守漏扫事件后补清，E052 教训）
 - ~~diag_20260902_xiaozhao-外部基础设施审计与治理建议.md｜09-02 21:07｜待王语嫣复核裁定~~ → 划销（2026-09-02 21:25 王语嫣）：对应任务已闭环/建议书已裁定，门禁回声留痕不处置（王语嫣值守漏扫事件后补清，E052 教训）
-- [gate-blocked] role-liveness｜09-02 21:27｜待王语嫣复核处置｜2026-09-02 21:22:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 1166.8), ('cli', 548.5)]）｜role_registry check-liveness｜role_registry
+- ~~[gate-blocked] role-liveness｜09-02 21:27｜待王语嫣复核处置｜2026-09-02 21:22:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 1166.8), ('cli', 548.5)]）｜role_registry check-liveness｜role_registry~~ → 划销（09-02 21:38 王语嫣）：误报——黄药师在产 #618（claimed+log 21:37 活跃），liveness 窗口期
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |

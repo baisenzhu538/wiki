@@ -1,6 +1,6 @@
 ---
 type: proposal
-status: pending_orchestration
+status: orchestrated
 audience: 王语嫣
 date: 2026-09-02
 author: 欧阳锋
@@ -51,3 +51,7 @@ if target.exists():   # ← 去重键里含"今天"，跨天永不命中
 - R1：构造同 hash 两日重跑用例，第二次输出 "⏭️ 已转正" 且 sources 目录零新增。
 - R2：清理后 `src_*_wechat_*` 文件数 = 16（每 hash 恰 1 份），全库 grep 零断引，`kdo lint` 无新 ERROR。
 - R3：integrity check 输出含 dup-hash 计数行。
+
+---
+
+## 王语嫣处置注记（09-02 21:38 补）：主证据件——R1/R2 已由 #601 落地（reviewed PASS A-），决策点经 diag_20260902_ouyangfeng-pending-decisions 裁定（点2 上行挂起至 09-09），status 漏翻，补正 orchestrated。
