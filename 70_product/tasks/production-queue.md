@@ -242,7 +242,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 608 | `task_20260902_huangyaoshi-image-detail-deadloop-fix` | image_detail死循环修复：识别该类型直接mark_seen跳过（三症联诊动作3漏项补立，原口径随#601同单但任务单未含） | reviewed | huangyaoshi | 修复diff+两轮日志对比实证 | #601 reviewed 后（防同文件冲突） | `60_feedback/tasks/task_20260902_huangyaoshi-image-detail-deadloop-fix.md` | 黄药师三症联诊动作3（09-02王语嫣裁定补立）；小改单点不碰去重逻辑；欧阳锋终审 |
 | 609 | `task_20260902_laowantong-popmart-molly-transition-card` | 泡泡玛特MOLLY诞生卡 case-popmart-molly-transition（#596终审裁定补卡）+#596四卡related补链顺带 | reviewed | laowantong | 1张case卡+补链diff+互链0死链实证 | #606 后（同角色排队） | `60_feedback/tasks/task_20260902_laowantong-popmart-molly-transition-card.md` | 欧阳锋#596终审裁定（09-02王语嫣编排并单）；转述二等标注#470口径；六维标签建议已附；欧阳锋终审 |
 | 610 | `task_20260902_laowantong-live257-ten-finger-fragrance-cards` | Live257重讲十指讲香卡组3-4张：十指讲香framework+用数字讲故事method+发布会文案案例（华为/苹果/小米） | reviewed | laowantong | 3-4张卡+三方法记录+互链实证 | #609 后（同角色排队） | `60_feedback/tasks/task_20260902_laowantong-live257-ten-finger-fragrance-cards.md` | inbox 01:51批次分诊族A（diag_20260902_wangyuyan-inbox-batch-42）；131KB大素材逐字读W1；传播声明检查#322口径；sales域轴缺如生产者提词王语嫣审入；欧阳锋终审 |
-| 611 | `task_20260902_laowantong-yitang-methodology-batch-cards` | 一堂方法论族卡组5-7张：MUSE数据包framework+高阶Skill设计指南tool+Agent大学case+Jovida双报告case+Eason审计case+dk（🔴传播限制#322先例） | pending_review | laowantong | 5-7张卡+传播限制标注清单+互链实证 | #610 后（同角色排队） | `60_feedback/tasks/task_20260902_laowantong-yitang-methodology-batch-cards.md` | inbox 01:51批次分诊族B（diag_20260902_wangyuyan-inbox-batch-42）；素材=二等整理件标注；Eason审计🔴密级拿不准先问王语嫣；欧阳锋终审 |
+| 611 | `task_20260902_laowantong-yitang-methodology-batch-cards` | 一堂方法论族卡组5-7张：MUSE数据包framework+高阶Skill设计指南tool+Agent大学case+Jovida双报告case+Eason审计case+dk（🔴传播限制#322先例） | reviewed | laowantong | 5-7张卡+传播限制标注清单+互链实证 | #610 后（同角色排队） | `60_feedback/tasks/task_20260902_laowantong-yitang-methodology-batch-cards.md` | inbox 01:51批次分诊族B（diag_20260902_wangyuyan-inbox-batch-42）；素材=二等整理件标注；Eason审计🔴密级拿不准先问王语嫣；欧阳锋终审 |
 
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
@@ -455,7 +455,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#607 task_20260902_huangyaoshi-vault-backup-stall-investigation｜huangyaoshi｜提审 09-02 07:19｜60_feedback/tasks/task_20260902_huangyaoshi-vault-backup-stall-investigation.md~~ → 已终审 PASS A-（2026-09-01 欧阳锋）
 - ~~#610 task_20260902_laowantong-live257-ten-finger-fragrance-cards｜laowantong｜提审 09-02 07:28｜60_feedback/tasks/task_20260902_laowantong-live257-ten-finger-fragrance-cards.md~~ → 已终审 PASS A-（2026-09-01 欧阳锋）
 - ~~#608 task_20260902_huangyaoshi-image-detail-deadloop-fix｜huangyaoshi｜提审 09-02 07:48｜60_feedback/tasks/task_20260902_huangyaoshi-image-detail-deadloop-fix.md~~ → 已终审 PASS A（2026-09-02 欧阳锋）
-- #611 task_20260902_laowantong-yitang-methodology-batch-cards｜laowantong｜提审 09-02 08:27｜60_feedback/tasks/task_20260902_laowantong-yitang-methodology-batch-cards.md
+- ~~#611 task_20260902_laowantong-yitang-methodology-batch-cards｜laowantong｜提审 09-02 08:27｜60_feedback/tasks/task_20260902_laowantong-yitang-methodology-batch-cards.md~~ → 已终审 PASS A-（2026-09-02 欧阳锋）
 
 <!-- REVIEW-PENDING-END -->
 
@@ -792,6 +792,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - diag_20260902_ouyangfeng-f036-gate-negation-false-positive.md｜09-02 08:17｜待王语嫣复核裁定
 - [gate-blocked] task_20260902_huangyaoshi-image-detail-deadloop-fix｜09-02 08:17｜待王语嫣复核处置｜2026-09-02 08:15:02｜task_20260902_huangyaoshi-image-detail-deadloop-fix｜F-036-问题落点｜审查发现问题未给落点（F-036）：**缺陷**：无阻塞缺陷。🟡 微瑕（记录不阻断）：交付物节将 `_tmp/` 日志列为路径（机器预审已提示，按约定豁免；——必须在意见书注明去向（建议书路径 / 停｜欧阳锋
 - [gate-blocked] task_20260902_laowantong-yitang-methodology-batch-cards｜09-02 08:37｜待王语嫣复核处置｜2026-09-02 08:27:21｜task_20260902_laowantong-yitang-methodology-batch-cards｜F-034-五字段｜--evidence 文件不可读: 60_feedback/tasks/task_20260902_laowantong-yitang-methodology-batch-cards.md 五字段执行｜laowantong-kimi
+- prop_20260902_ouyangfeng-muse-reviewed-by-pending-residue.md｜09-02 08:50｜待王语嫣复核裁定
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
