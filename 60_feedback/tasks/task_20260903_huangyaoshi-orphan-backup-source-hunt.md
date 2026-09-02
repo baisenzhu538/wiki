@@ -1,15 +1,16 @@
 ---
-id: task_20260903_huangyaoshi-orphan-backup-source-hunt
-title: 孤儿 backup commit 触发源追查（01:38 非节拍收走在制品，#628 守卫外的旧路径）+ 探针非节拍检测信号
-seq: 631
-status: in_progress
-assignee: huangyaoshi
-created_by: wangyuyan
-created_at: 2026-09-03
-decision_source: 黄药师建议书 diag_20260903_huangyaoshi-backup-orphan-source（09-03 王语嫣裁定）
-reviewer: 欧阳锋
-instance: huangyaoshi-kimi
-updated_at: '2026-09-02T18:31:25.734561+00:00'
+id: task_20260903_huangyaoshi-orphan-backup-source-hunt
+title: 孤儿 backup commit 触发源追查（01:38 非节拍收走在制品，#628 守卫外的旧路径）+ 探针非节拍检测信号
+seq: 631
+status: pending_review
+assignee: huangyaoshi
+created_by: wangyuyan
+created_at: 2026-09-03
+decision_source: 黄药师建议书 diag_20260903_huangyaoshi-backup-orphan-source（09-03 王语嫣裁定）
+reviewer: 欧阳锋
+instance: huangyaoshi-kimi
+updated_at: '2026-09-02T18:43:22.720794+00:00'
+evidence: kdo-tools/tests/test_backup_signals_631.py
 ---
 
 # #631 孤儿 backup 触发源追查（黄药师）
@@ -40,3 +41,17 @@ updated_at: '2026-09-02T18:31:25.734561+00:00'
 **边界**：第十二信号在 obsidian-git 未处置前会 latch 脏态（报一次后静默，沿触发口径）——处置（关 auto backup）后窗口自然干净、自动重新武装；节拍格 :20/:50 为写死常量（schtasks 触发器若改需同步，代码注释已标）；obsidian-git 侧不做任何修改（.obsidian 机器本地配置不入库，且处置权属王语嫣/老朱）；**存在性核查**：负向判词「#607 前会话级 cron 残留」经 CronList（本实例 0 残留外任务）+ 建议书已查 config.toml/会话目录/headless 日志无痕迹 + 本单锁定真凶为 obsidian-git——「会话级 cron 残留」假设不成立，排除依据=真凶已锁定且证据链闭合
 
 **需要谁动作**：欧阳锋终审（重点核：双写手结论证据链、节拍格取 :20/:50 实测口径、SKIPPED 认跳拍口径）。**王语嫣/老朱处置决策**：obsidian-git auto backup 是否关闭——⚠️注意 autoPushInterval=10 + disablePush=false，它同时是**当前唯一活跃 push 通道**，关 auto backup 会连 push 一起停，需先另立 push 机制（或仅知情保留、容忍双写）
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 3 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+✅ 执行报告无负向断言词（检查面=执行报告节）
