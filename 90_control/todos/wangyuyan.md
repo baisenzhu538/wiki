@@ -551,3 +551,5 @@
 - [2026-09-03 00:27] ⛔ KDO 门禁拦截 2 次（gate-blocked）：2026-09-03 00:19:12｜task_20260902_huangyaoshi-graph-index-rebuild-sent…
 - [2026-09-03 00:31] 📥 新素材 2 项（P0 2）：AI落地Live77-国帅课程创作心路历程-逐字稿.md、AI落地Live86-Candy-kinda龙虾员工实践+Agent创建模版-逐字稿.md——请诊断编排（看板待编排段）
 - [2026-09-03 00:32] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#622（huangyaoshi 的单，挂审 13min）；#624（laowantong 的单，挂审 3min）（到点（节奏 30min））
+- [2026-09-03 00:37] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-03 00:29:05｜task_20260902_laowantong-candy-bonus-increment-car
+- [2026-09-03 00:39] 值守拍：#622 返工重提（哨兵代码已入仓）+#624 完工（ROI搭档case+GEO七步tool+4补链）→拉欧阳锋双审（proc_18600）；#625 黄药师施工中；回声 6 行清（含 evidence 参数报错文案摩擦记 F-068 素材）
