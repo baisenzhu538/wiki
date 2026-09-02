@@ -2,11 +2,12 @@
 id: task_20260902_laowantong-yitang-methodology-batch-cards
 title: 一堂方法论族卡组 5 件（MUSE 数据包 / 高阶Skill设计指南 / Agent大学设想 / Jovida 双报告 / Eason审计🔴）
 seq: 611
-status: queued
+status: in_progress
 assignee: laowantong
 created_by: wangyuyan
 created_at: 2026-09-02
-decision_source: inbox 01:51 批次分诊（diag_20260902_wangyuyan-inbox-batch-42 族B，老朱 0831/0901 直令高价值素材直接编排产卡）
+decision_source: inbox 01:51 批次分诊（diag_20260902_wangyuyan-inbox-batch-42 族B，老朱 0831/0901
+  直令高价值素材直接编排产卡）
 reviewer: 欧阳锋
 source_refs:
 - 00_inbox/学习candy合集/数据包：MUSE模型.md
@@ -17,6 +18,8 @@ source_refs:
 - 00_inbox/学习candy合集/审计：Eason文化审计与实事求是DataPack.md
 related_tasks:
 - '#610'
+instance: laowantong-kimi
+updated_at: '2026-09-02T00:10:36.671280+00:00'
 ---
 
 # #611 一堂方法论族卡组（老顽童）
