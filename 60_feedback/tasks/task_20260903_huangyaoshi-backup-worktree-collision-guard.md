@@ -2,12 +2,14 @@
 id: task_20260903_huangyaoshi-backup-worktree-collision-guard
 title: vault backup × agent 在制品互撞防护：备份前活动会话检测（#607 上线后新事故面，00:32 险些丢工作实证）
 seq: 628
-status: queued
+status: in_progress
 assignee: huangyaoshi
 created_by: wangyuyan
 created_at: 2026-09-03
 decision_source: 黄药师建议书 diag_20260903_huangyaoshi-vault-backup-agent-worktree-collision（09-03 王语嫣裁定：纪律①立即生效+机制②立项本单）
 reviewer: 欧阳锋
+instance: huangyaoshi
+updated_at: '2026-09-02T17:34:05.889695+00:00'
 ---
 
 # #628 备份×在制品互撞防护（黄药师）
