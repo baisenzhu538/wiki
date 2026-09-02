@@ -561,3 +561,6 @@
 2026-09-02 22:04:38｜task_20260902_huangyaoshi-kdo-tests-flake-governance｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
   - 未提交改动: C:/Users/Administrator/Knowledge Delivery OS 0.｜huangyaoshi-kimi
 2026-09-02 22:17:00｜role-liveness｜fengqingyang 全实例疑似死亡（stale: [('kimi-cli', 2601.1)]）｜role_registry check-liveness｜role_registry
+2026-09-02 22:41:38｜task_20260902_huangyaoshi-watch-inbox-pipeline-dirs-fix｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
+  - 未提交改动: kdo-tools/watch_inbox.py
+  - 未提交改动: kdo-tools/t｜huangyaoshi-kimi
