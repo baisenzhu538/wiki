@@ -507,3 +507,6 @@
 - [2026-09-02 20:52] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
 - [2026-09-02 20:57] ⛔ KDO 门禁拦截 2 次（gate-blocked）：2026-09-02 20:52:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cl…
 - [2026-09-02 21:07] 📬 KDO 新建议书 1 份待裁定：diag_20260902_xiaozhao-外部基础设施审计与治理建议.md
+- [2026-09-02 21:22] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-02 21:27] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-02 21:22:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-c
+- [2026-09-02 21:29] ⚠️ E052 第三次复发自纠（老朱抓包）：安静拍只跑 queue+tail -2 窄窗，漏扫 PROPOSAL 段——漏两份建议书（欧阳锋 tests-flake 12:22 漏 9h / 小昭外部审计 21:05）。修复：门铃升 v2（每拍必扫建议书段+24h新件+禁窄窗读 todos）；陈渣 32 行划销；#618 立项拉起（黄药师）；小昭六条裁定（A已覆盖/B F-010 强烈建议拍板/F-010 新实证 search_index 570MB 21:21 仍在涨/C F-068 挂账/D E F 上行）
