@@ -35,6 +35,8 @@
 | 22 | 角色全死自报（role-liveness） | role_registry `check_liveness`（挂 role_clock 5min；heartbeat 年龄 >2×该角色节奏=疑似死亡；**#562 起同角色 2h 报警冷却——只压频不删报、首次必报、恢复清零重新武装**；心跳写面=queue_transition 消费回执（myqueue/claim/complete/release/review）+ kimi-cli SessionHeartbeat 钩，消费回执=心跳） | gate-blocked.log 台账 → 第五探针拾取推送 | 王语嫣 | — | #552 信号上线（#562 前漏登矩阵，08-28 终审抄送补课）；#562 冷却+心跳语义修复（08-27 报警风暴 25+ 条误报止血） |
 | 23 | 挂审超时必推（pending_review 最大年龄分级：30min 提醒 / 2h 升级） | check-review-sla.py（#574 R1：解析 REVIEW-PENDING 段活跃行取最大年龄，30min→推审查者 ouyangfeng webhook+todos 落盘；2h→升级推 ouyangfeng+wangyuyan 群（@ 负责人/老板，老朱在群可达）；复用 conveyor_probe._send_hook/_load_hooks/_append_role_todo 加签零新基建；`--dry-run` 只打印；通知类打印走 stderr） | 飞书 webhook + todos 落盘 | 欧阳锋（30min 提醒）/ 欧阳锋+王语嫣群（2h 升级 @ 老朱） | 豁免（终审类，超时必推不静默） | #574（#520 R3 升级：原只 print 无推送，2h 阈值从未触发过可见告警；落实 #521 R2 老朱「终审类通知不静默」） |
 | 24 | vault backup 停拍（最后 backup commit 超 24h） | conveyor_probe 第十信号 `_scan_backup_stall`（git log --grep 心跳；跨越沿幂等，恢复重新武装；并入第九信号 infra_alerts 通道）+ 备份本体改系统级 schtasks kdo-vault-git-backup（30min，S4U，vault_git_backup.py） | gate-blocked.log 台账 + 推王语嫣（第九信号同通道） | 王语嫣 | defer（同第九信号口径，台账恒写） | #607（08-26 重启杀会话级 cron 致停摆 6 天空窗实证） |
+| 25 | 伪逐字引文 + refs 区间漂移 | kdo pre-submit `_check_quote_verbatim`（引号块+L行号/「原话·口述」归因 → 剥空白标点逐字对源，不命中即报）+ `_check_source_range`（行号区间越界/全空白即报） | pre-submit WARNING（提审输出可见，不拦截） | 生产者 | — | #616（#614 补审实证：伪引文 3 张+区间漂移 5 张，欧阳锋建议书王语嫣裁定采纳；WARNING 档观察一周再定升阻断） |
+| 26 | 编排骨架单翻转终审（assignee=ouyangfeng） | queue_transition `review --reviewer 王语嫣`（限编排骨架单，其余 reviewer/对象仍拒；终审权校验对称要求 cwd 有 wangyuyan 登记实例；F-035/F-036/台账留痕不变） | 终端+任务单终审记录+台账 | 王语嫣（翻转）/欧阳锋（主审） | — | #616 任务3（#544 手工翻转先例 + 09-02 #614 第二例，欧阳锋自己的单无人可终审的根治） |
 
 ## 缺口台账
 

@@ -9,6 +9,9 @@ Usage:
     python queue_transition.py release <task-id> --instance <name> [--no-commit]
     python queue_transition.py review <task-id> --verdict pass|fail --reviewer 欧阳锋 [--grade A|A-|B+|B|B-|C] [--no-commit]
 
+#616 任务3 翻转通道：--reviewer 王语嫣 仅限 assignee=ouyangfeng 的编排骨架单
+（欧阳锋自己的单无人可终审：#544 手工翻转先例 + 09-02 #614 第二例），留痕不变。
+
 Exit codes:
     0 = transition applied
     1 = transition rejected / error
@@ -360,13 +363,65 @@ def update_queue_status(task_id: str, new_status: str) -> None:
 
 
 def update_task_frontmatter(task_file: Path, **updates: Any) -> None:
-    """Update task file frontmatter keys."""
-    fm, body = parse_frontmatter(task_file)
-    for key, value in updates.items():
-        if value is not None:
-            fm[key] = value
-    fm["updated_at"] = datetime.now(timezone.utc).isoformat()
-    write_frontmatter(task_file, fm, body)
+    """Update task file frontmatter keys —— 只动指定字段，其余行原样保留。
+
+    #616 任务2（claim 抹字段 bug 根治）：旧实现 parse→yaml.safe_dump round-trip，
+    YAML 语法上解析为 null 的字段会被抹成真 null——实证 #614 `decision_source: #613 ...`
+    （值以 # 开头被当注释）、#613 `title: #586批...` 同型，claim 落盘即丢值。
+    改为行级改写：updates 命中的键整行替换（原多行值/续行块一并换下），未命中键
+    逐字节保留（含注释/折叠值/非规范 YAML 写法），新键追加到 frontmatter 尾部。
+    """
+    if yaml is None:
+        raise RuntimeError("PyYAML is required to write frontmatter")
+    upd = {k: v for k, v in updates.items() if v is not None}
+    upd["updated_at"] = datetime.now(timezone.utc).isoformat()
+
+    with task_file.open("r", encoding="utf-8", errors="ignore", newline="") as f:
+        text = f.read()  # newline="" 原文保留 CRLF，不当 LF 归一
+    m = re.match(r"^(---\r?\n)(.*?)(\r?\n---\r?\n)(.*)$", text, re.DOTALL)
+    if not m:
+        # 无 frontmatter 块：退回原 yaml 路径新建头
+        fm, body = parse_frontmatter(task_file)
+        fm.update(upd)
+        write_frontmatter(task_file, fm, body)
+        return
+
+    head, fm_text, close, body = m.groups()
+    nl = "\r\n" if "\r\n" in fm_text else "\n"
+    key_re = re.compile(r"^([A-Za-z_][\w-]*)\s*:")
+    lines = fm_text.split("\n")
+    out: list[str] = []
+    remaining = dict(upd)
+    i = 0
+    while i < len(lines):
+        line = lines[i]
+        km = key_re.match(line)
+        if km and km.group(1) in remaining:
+            key_name = km.group(1)
+            new_value = remaining.pop(key_name)
+            i += 1
+            # 吃掉原值的续行块（缩进续行 / 零缩进 `- ` 列表项），随旧值一并替换
+            while i < len(lines) and lines[i].strip() and (
+                lines[i].startswith((" ", "\t")) or lines[i].lstrip().startswith("- ")
+            ):
+                i += 1
+            dumped = yaml.safe_dump(
+                {key_name: new_value}, allow_unicode=True,
+                default_flow_style=False, sort_keys=False,
+            ).rstrip("\r\n")
+            out.extend(dumped.split("\n"))
+        else:
+            out.append(line)
+            i += 1
+    for key, value in remaining.items():
+        dumped = yaml.safe_dump(
+            {key: value}, allow_unicode=True,
+            default_flow_style=False, sort_keys=False,
+        ).rstrip("\r\n")
+        out.extend(dumped.split("\n"))
+    new_text = head + nl.join(out) + close + body
+    with task_file.open("w", encoding="utf-8", newline="") as f:
+        f.write(new_text)
 
 
 def current_utc_date() -> str:
@@ -544,14 +599,16 @@ def _register_instance(task_id: str, instance: str) -> None:
 
 def _check_review_authority(task_id: str, reviewer: str,
                             force: bool = False, reason: str | None = None) -> tuple[bool, str]:
-    """#546：终审权机器校验——当前 cwd 须有 role=ouyangfeng 的登记实例才放行。
+    """#546：终审权机器校验——当前 cwd 须有对应角色的登记实例才放行。
+    欧阳锋 review 需 ouyangfeng 登记；#616 任务3 翻转通道：王语嫣 review 需 wangyuyan 登记。
     未登记/不符 → 拒止 + 提示 register；--force --reason 逃生门落 #444 台账。"""
+    expected_role = "wangyuyan" if reviewer == "王语嫣" else "ouyangfeng"
     reg = _load_registry()
     cwd = os.path.normcase(os.path.normpath(os.getcwd()))
     for name, e in reg.get("instances", {}).items():
         role = e.get("role") or _role_of(name)
         entry_cwd = os.path.normcase(os.path.normpath(e.get("cwd", "") or "/"))
-        if role == "ouyangfeng" and entry_cwd == cwd:
+        if role == expected_role and entry_cwd == cwd:
             return True, ""
     if force:
         if not (reason and reason.strip()):
@@ -561,8 +618,8 @@ def _check_review_authority(task_id: str, reviewer: str,
                                       bypass="#546 终审权校验")
         return True, f"⚠️ 终审权校验 force 例外已留痕: {ledger}"
     return False, (
-        "终审权校验拒止（#546 一具两职根治）：当前工作目录无 ouyangfeng 角色登记实例。"
-        "欧阳锋上岗先登记：python 90_control/scripts/queue_transition.py register ouyangfeng；"
+        f"终审权校验拒止（#546 一具两职根治）：当前工作目录无 {expected_role} 角色登记实例。"
+        f"上岗先登记：python 90_control/scripts/queue_transition.py register {expected_role}；"
         "紧急绕过：review 加 --force --reason '<理由>'（落 force-exceptions.log 台账）"
     )
 
@@ -1231,9 +1288,22 @@ def _action_review_override(task: dict, task_file: Path, reviewer: str, reason: 
 def action_review(task_id: str, verdict: str, reviewer: str, grade: str | None = None,
                   review_file: str | None = None, override: bool = False,
                   reason: str | None = None, force: bool = False) -> tuple[bool, str]:
-    """Ouyangfeng-only: review a pending_review task."""
+    """Ouyangfeng-only: review a pending_review task.
+
+    #616 任务3 翻转通道：欧阳锋自己的单无人可终审（#544 手工翻转先例 + 09-02 #614
+    第二例），`--reviewer 王语嫣` 限「编排骨架单」（队列行 assignee=ouyangfeng）放行，
+    审查意见书/负向判词/落点门禁与台账留痕全部不变。
+    """
     if reviewer != "欧阳锋":
-        return False, "只有欧阳锋可以执行 review 操作"
+        if reviewer != "王语嫣":
+            return False, ("只有欧阳锋可以执行 review 操作"
+                           "（例外：王语嫣可翻转 assignee=ouyangfeng 的编排骨架单，#616）")
+        rows0 = parse_queue()
+        t0 = find_task(task_id, rows0)
+        assignee0 = str((t0 or {}).get("assignee", "") or "")
+        if assignee0 != "ouyangfeng":
+            return False, (f"王语嫣翻转通道仅限 assignee=ouyangfeng 的编排骨架单（#616）"
+                           f"——本单 assignee={assignee0 or '未知'}，仍需欧阳锋终审")
     # #546：终审权机器校验（一具两职根治）——当前 cwd 须有 ouyangfeng 登记实例
     auth_ok, auth_msg = _check_review_authority(task_id, reviewer, force=force, reason=reason)
     if not auth_ok:
@@ -1305,7 +1375,7 @@ def action_review(task_id: str, verdict: str, reviewer: str, grade: str | None =
             # #389：终审通过 → REVIEW-PENDING 段对应行自动划掉
             _review_board_update(
                 strike=task_id,
-                strike_note=f" → 已终审 PASS {grade or ''}（{current_utc_date()} 欧阳锋）",
+                strike_note=f" → 已终审 PASS {grade or ''}（{current_utc_date()} {reviewer}）",
             )
             # #612 任务2：review_mark 漏转正二次复发（#586/#596，E018 家族同源）——
             # 终审通过时交付物含 30_wiki 卡片 → 输出转正提醒（提醒即可，不代写）
@@ -1319,7 +1389,7 @@ def action_review(task_id: str, verdict: str, reviewer: str, grade: str | None =
             # #389：终审退回 → 同样划掉登记行（任务回 queued，不再待终审）
             _review_board_update(
                 strike=task_id,
-                strike_note=f" → 终审退回 queued（{current_utc_date()} 欧阳锋）",
+                strike_note=f" → 终审退回 queued（{current_utc_date()} {reviewer}）",
             )
             return True, (f"⚠️ {task_id} 终审不通过，状态退回 queued"
                           f"（已自动标 rework:true——返工完成后重提不再触发 #504 拦截，#580 F-064）")
