@@ -1,0 +1,1232 @@
+kimi version 0.39.1
+• Let me start with the startup recovery reads.The Read of todos file got truncated to a saved output. I got the tail already (lines 391-397). Key items: #617 submitted 13:00ish by laowantong, needs final review against #614 裁定表 FAIL points.
+
+  Let me read the unread section of the todos more carefully — I should read the last ~60 lines of the file to get context about #614 裁定表. The preview gave me lines 1-46 and the tail. Let me grep for #614 and #617 in the todos file.
+
+  Also need to find the #617 task file. Let me look at the queue row. And read 90_control/AGENTS.md as reminded.385:- [2026-09-02 11:40] ✅ #614 完工提审（14张无佐证reviewed卡批量补审）：14卡全通读3145行+4路O0溯源对源（行号级取证）→PASS 9（A-×4/B+×5）/降级enriched 5/需深审 0；一致性原则=编造（伪引文/核心失源）降级、标注不准（区间错位但源真实）PASS记缺陷；五字段执行报告+14行裁定表落任务单执行报告节；出口自检命中→建议书 prop_20260902_ouyangfeng-586batch-fake-quotes-and-ref-drift 已落diagnosis+探针回执（新登记1）；通过+降级明细已抄送王语嫣收件箱；commit bfc0d49df 过E040门禁；complete→pending_review（reviewer=王语嫣编排层复核）
+386:- [2026-09-02 11:37] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#614（ouyangfeng 的单，挂审 1min）（事件驱动：有待终审）
+387:- [2026-09-02 11:37] 🔔 KDO 新提审 1 单：#614，请终审（新提审）
+388:- [2026-09-02 11:47] ✅ KDO 终审通过 1 单：#614——你的单过了，见任务单终审记录
+393:- [2026-09-02 12:23] ✅ 终审 2 单按队列序闭环：#615 PASS A-（落笔 diff 逐 hunk 对 #614 裁定表+14/14 yaml 自跑断言+随修 4 点抽查属实；被 #433 拦一次→补存在性核查锚点后过）+#616 PASS A-（版本对齐三问+狗粮复现伪引文抓捕+wiki 224/KDO 9+全量 612pass 独立复跑；父 commit worktree 对照实证 2 例失败均存量/flake 与本改动无关；建议书 prop_20260902_ouyangfeng-kdo-tests-flake-and-report-drift 落 diagnosis+探针新登记 1）；双单四处同步齐（终审记录/frontmatter/队列划线/dashboard.html），通过已抄送王语嫣收件箱
+396:- [2026-09-02 13:02] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#617（laowantong 的单，挂审 2min）（事件驱动：有待终审）
+397:- [2026-09-02 13:07] 🔔 KDO 新提审 1 单：#617，请终审（新提审）
+I need to find the #617 task file and the #614 裁定表 (ruling table). Let me find task files. Task files probably in 70_product/tasks/ or 90_control/ somewhere. Let me search.task_20260614_05e24193-测算总部中台成本结构.md
+task_20260614_06b4c523-获取医院场景合规成本清单.md
+task_20260614_085f8d78-验证截流即时需求本质假设.md
+task_20260614_505cd013-确认目标医院合作意向和场地条件.md
+task_20260614_72739331-建立药柜业务模型反馈闭环.md
+task_20260614_9f4cfc69-王语嫣第二批9张复合卡原文回填与置信度升级.md
+task_20260614_aeadb76f-项目级lint清理445-error-1009-warning.md
+task_20260614_b68a1e21-验证医院场景单设备日均销售额假设.md
+task_20260614_b99e9350-确认高毛利供应链授权和产能.md
+task_20260614_c786a15d-核算单设备全周期投入和资金来源.md
+task_20260614_cf19da9c-收集3-5台真实设备连续30天流水.md
+task_20260614_d22f7c7e-评估团队产能能否支撑扩张节奏.md
+task_20260614_d6d383be-建立source注册表去重-合并机制.md
+task_20260614_e23cd5e8-确认目标城市药柜准入政策.md
+251:| 617 | `task_20260902_laowantong-614-downgraded-cards-rework` | #614降级5卡内容返工：伪引文改转述/换真实原句+ten-metrics按源重写核心指标表+占位节补齐（FAIL点逐条在#614裁定表） | pending_review | laowantong | 5卡修复diff+FAIL点销项对账表 | #615 reviewed ✅ | `60_feedback/tasks/task_20260902_laowantong-614-downgraded-cards-rework.md` | #614降级5卡（09-02王语嫣编排）；引号对源新门禁已WARNING档在跑；只修FAIL点不顺手改；欧阳锋终审 |
+471:- #617 task_20260902_laowantong-614-downgraded-cards-rework｜laowantong｜提审 09-02 13:00｜60_feedback/tasks/task_20260902_laowantong-614-downgraded-cards-rework.md
+Now I need to read the #614 ruling table (裁定表) from task_20260902_ouyangfeng-unverified-reviewed-cards-batch-review.md. Find that file.60_feedback/tasks/task_20260902_ouyangfeng-unverified-reviewed-cards-batch-review.md
+Now I understand the task. I need to review #617: the rework of 5 downgraded cards against the #614 ruling table FAIL points. Also verify the diff attribution issue: card 9's changes were swept into the vault backup commit bf73d4560.
+
+  Plan:
+  1. Check git log for commits 5188f296b and bf73d4560, diff attribution for the 5 cards.
+  2. Read the 5 cards' current state, verify each FAIL point fixed:
+     - 卡1 dk-p15-unverified: 六段 rewritten per pitfalls.md P-15, source_refs changed from src_unknown
+     - 卡9 yt-product-kernel-validation: two fake quotes replaced with real quotes from L1956 / L2078-2086
+     - 卡10 yt-product-kernel-ten-metrics: metrics table rewritten per source, 4 placeholder sections filled
+     - 卡12 concept-一堂-business-prediction: 3 fixes (source_refs filenames, ⑦ fake quote removed/replaced, ④ corrected)
+     - 卡14 yt-product-kernel-overpromise-trap: quote block→paraphrase, 月入过万 removed
+  3. Verify quotes grep-match sources (O0 — open source files myself).
+  4. Verify vault-status? Maybe run file-flow-check (终审例行检查). Also queue state check: #617 is pending_review in queue and task frontmatter — yes (frontmatter status: pending_review, queue row pending_review).
+
+  This is a big review job. I can delegate parallel verification to explore subagents, but I need the conclusions myself. Given the effort constraints, I could do focused verification myself. The key checks per card:
+
+  卡9: verify the two new quotes are verbatim from source. Source file? The execution report says L1956 and L2078-2086. Need to know which source file. Card's source_refs. Let me read the cards and sources.
+
+  Let me start by checking git log/diffs.fde3bf9e2 todos：13:09值守拍（#617终审拉起）
+171b5f15a chore(queue): #617 complete by laowantong-kimi
+5188f296b #617 #614降级4卡返工：dk-p15六段重写(src=pitfalls.md P-15)+ten-metrics指标表按源重写+占位节补齐+business-prediction修死链/伪引言⑦/保A争B④+overpromise-trap引文改转述换真句删月入过万（卡9已经vault backup入仓 bf73d4560）
+bf73d4560 vault backup: 2026-09-02 12:50:00
+496b7e27c chore(queue): #617 claim by laowantong-kimi
+444f51b5c 编排：#617 降级5卡返工立项（#614裁定链收口）
+494e2edbd chore(queue): #616 review by 欧阳锋
+b4e412033 chore(queue): #615 review by 欧阳锋
+commit 5188f296bf10392cd2db6f51852cf8e5c6effaa3
+Author: Linhai Zhu <baisenzhu538@gmail.com>
+Date:   Wed Sep 2 12:59:26 2026 +0800
+
+    #617 #614降级4卡返工：dk-p15六段重写(src=pitfalls.md P-15)+ten-metrics指标表按源重写+占位节补齐+business-prediction修死链/伪引言⑦/保A争B④+overpromise-trap引文改转述换真句删月入过万（卡9已经vault backup入仓 bf73d4560）
+
+ ...ncept-\344\270\200\345\240\202-business-prediction.md" |  2 +-
+ 30_wiki/dark-knowledges/dk-p15-unverified.md              |  2 +-
+ .../dark-knowledges/yt-product-kernel-overpromise-trap.md | 15 ++++++++++++---
+ 30_wiki/tools/yt-product-kernel-ten-metrics.md            |  4 ++--
+ 4 files changed, 16 insertions(+), 7 deletions(-)
+commit bf73d45601ff62a9789924d4aa22349c563f7df2
+Author: Linhai Zhu <baisenzhu538@gmail.com>
+Date:   Wed Sep 2 12:50:00 2026 +0800
+
+    vault backup: 2026-09-02 12:50:00
+
+ ...344\270\200\345\240\202-business-prediction.md" |    8 +-
+ 30_wiki/dark-knowledges/dk-p15-unverified.md       |   77 +-
+ .../yt-product-kernel-overpromise-trap.md          |   10 +-
+ 30_wiki/frameworks/yt-product-kernel-validation.md |    4 +-
+ 30_wiki/tools/yt-product-kernel-ten-metrics.md     |  120 +-
+ ..._ouyangfeng-kdo-tests-flake-and-report-drift.md |   16 +
+ .../session-archives/2026-09-02/ouyangfeng.md      |   79 +-
+ 90_control/gate-blocked.log                        |    4 +
+ 90_control/l1-size.log                             |    1 +
+ 90_control/role-registry.json                      |    4 +-
+ 90_control/scripts/.derived-hashes.json            |    2 +-
+ 90_control/todos/huangyaoshi.md                    |    3 +
+ 90_control/todos/laowantong.md                     |    3 +
+ 90_control/todos/ouyangfeng.md                     |    3 +
+ 90_control/todos/wangyuyan.md                      |    2 +
+ logs/conveyor-probe.log                            |   21 +
+ logs/headless-laowantong-20260902-124018.log       |  106 ++
+ logs/headless-ouyangfeng-20260902-120946.log       | 1628 ++++++++++++++++++++
+ logs/l1-capture.log                                |    4 +
+ logs/role-clock.log                                |   12 +
+ logs/vault-git-backup.log                          |    1 +
+ 21 files changed, 1996 insertions(+), 112 deletions(-)
+Wait — the diff stats are suspicious. 5188f296b shows only 16 insertions for 4 cards, and dk-p15-unverified.md only 2 lines changed in that commit, while bf73d4560 (vault backup 12:50) contains the bulk: dk-p15 77 lines, ten-metrics 120 lines, validation 4 lines, overpromise 10 lines, business-prediction 8 lines. Hmm, but the task says "卡9 改动系被 12:50 vault backup 扫带入仓（bf73d4560），核验 diff 归属". Actually it looks like more than card 9 got swept into bf73d4560 — cards 1, 10, 12, 14 also have changes there. So I need to verify diff attribution: the vault backup commit contains parts of the rework for all 5 cards (work in progress at 12:50), and 5188f296b (12:59) contains the rest.
+
+  Wait but dk-p15 in 5188f296b only changed 2 lines — the main rewrite (77 lines) is in bf73d4560. So the "4卡" commit is mostly small follow-ups. Fine.
+
+  Important: verify the combined diff = the current working tree state matches what execution report claims, and no extra unclaimed changes in 30_wiki. Check git status for dirty files.
+
+  Now the core review work: verify each FAIL point fix. Let me read the 5 cards and the source files. The key sources:
+  - 卡1: .agent/pitfalls.md P-15 entry
+  - 卡9: source file with L1956, L2078-2086 (need card's source_refs)
+  - 卡10: src_20260510_5ef61f8f / src_20260611_94673a56
+  - 卡12: 00_inbox/一堂-机会预判课-Truman-口述.txt / -truman-笔记.txt, L2472/L2476/L1912
+  - 卡14: source with L534/L540/L542/L544/L468/L480/L528
+
+  This is substantial verification work — 5 cards, each with grep verification of quotes against sources. I can delegate parallel verification to explore agents, but review conclusion must be mine. Given the emphasis on O0 (I must open source files myself), I should do the key quote verifications myself. But context: the cards and sources are large. Let me be strategic: I'll do verification directly with Bash grep commands against sources, which is the mechanical O0 verification. Reading the diffs to check scope discipline (only FAIL points changed).
+
+  Let me first look at the diffs to see exactly what changed.---
+ ...344\270\200\345\240\202-business-prediction.md" |   8 +-
+ 30_wiki/dark-knowledges/dk-p15-unverified.md       |  77 +++++++------
+ .../yt-product-kernel-overpromise-trap.md          |  21 +++-
+ 30_wiki/frameworks/yt-product-kernel-validation.md |   4 +-
+ 30_wiki/tools/yt-product-kernel-ten-metrics.md     | 122 +++++++++++----------
+ 5 files changed, 125 insertions(+), 107 deletions(-)
+Working tree clean for 30_wiki. Combined diff vs 496b7e27c (before claim, i.e., state after #615 writing) covers exactly the 5 target cards — no out-of-scope files. Good: diff attribution = rework changes split across bf73d4560 (12:50 vault backup sweep) + 5188f296b (12:59 commit), total = 5 cards only.
+
+  Now verify content. Let me view the actual diffs per card.
+
+• 工作树干净，合并 diff 恰好覆盖 5 张目标卡、无越界文件。现在逐卡看 diff 内容。diff --git a/30_wiki/dark-knowledges/dk-p15-unverified.md b/30_wiki/dark-knowledges/dk-p15-unverified.md
+index d6a31c63d..ea03f9bf6 100644
+--- a/30_wiki/dark-knowledges/dk-p15-unverified.md
++++ b/30_wiki/dark-knowledges/dk-p15-unverified.md
+@@ -12,8 +12,8 @@ confidence: 0.75
+ trust_level: medium
+ title: dk p15 unverified
+ source_refs:
+-- src_unknown
+-source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
++- .agent/pitfalls.md
++source_context: KDO 工厂踩坑记录 `.agent/pitfalls.md` P-15 原始条目（黄药师 Sprint 4 完工报告声称 vs 实测事件）
+ updated_at: '2026-06-29'
+ aliases:
+   - P15未验证
+@@ -56,53 +56,60 @@ tags:
+ 
+ ## 使用场景
+ 
+-- src_unknown
+-- src_unknown
+-- src_unknown
+-- src_unknown
++- **验收任何"修复类"完工报告时**：报告声称"断链 <10""缺 frontmatter <20"这类可测量指标，验收方必须自己跑测量脚本，不看报告表格
++- **批量数据修复/迁移任务收尾时**：执行者说"已完成"，先查 git 有没有 commit、数据有没有真的变，再听汇报
++- **持续类指标（断链数、缺字段数、错误数）的周/月报**：这类指标只能用同一脚本重复测量，不接受一次性截图或口头值
++- **审查者收到格式工整的完工报告时**：越工整越要警惕——P-15 的报告就是"数据详实、有修复前后对比"，实测零改动
+ 
+ ## 操作方法
+ 
+ 1. **不相信报告，相信脚本**：
+-   - src_unknown
+-   - src_unknown
+-   - src_unknown
++   - 验收时独立运行可重复的测量脚本，不做"相信报告"的审查
++   - 脚本必须可复跑：同一个命令，任何人跑都出同一个数
++   - 报告里的数字必须能对应到一条具体命令的输出
+ 
+ 2. **完工标准 = 三角验证**：
+-   - src_unknown
+-   - src_unknown
+-   - src_unknown
+-   - src_unknown
++   - 代码已提交（git log 有 commit）
++   - 数据已变更（实测目标对象真的变了）
++   - 验证已通过（独立复跑测量脚本，数字与声称一致）
++   - 三者缺一不可，缺任何一个 = 未完成
+ 
+ 3. **报告要求**：
+-   - src_unknown
+-   - src_unknown
+-   - src_unknown
++   - "修复后"数字必须附带验证方法（如 `grep` 命令或 `python` 脚本），否则视为未经验证
++   - 区分"预期目标值"和"实测值"——P-15 的根因之一就是把目标值当实测值写进报告
++   - 持续类指标（断链数、缺字段数）不能只贴"修复前→修复后"表，要附复跑命令
+ 
+ 4. **架构者审查 checklist**：
+-   - src_unknown
+-   - src_unknown
+-   - src_unknown
+-   - src_unknown
++   - 看到完工报告，第一反应不是"写得好全"，而是"我自己跑一遍是多少"
++   - 实际数据未变动时第一时间打回，不等后续暴露
++   - 检查报告数字是否有对应 commit——零 commit 的"完成"直接判假
++   - 对"声称 vs 实测"的偏差做记录，纳入执行者可信度
+ 
+ 5. **不要做的事**：
+-   - src_unknown
+-   - src_unknown
+-   - src_unknown
++   - 不把"脚本写完了/规划做好了"等同于"数据修好了"
++   - 不接受没有验证方法附带的"修复后"数字
++   - 不因为报告格式工整就跳过独立验证
+ 
+ ## 适用边界
+ 
+-- src_unknown
+-- src_unknown
+-- src_unknown
+-- src_unknown
++- 适用：一切有可测量验收指标的任务（数据修复、lint 清理、迁移、标注管线）
++- 适用：执行者与验收者分离的协作结构——偏差产生于两层之间的信任传递
++- 不适用：创造性/探索性任务（写文章、做设计），这类任务没有可复跑的测量脚本，验收靠人审
++- 注意：独立验证有成本，小任务可以抽查；但涉及"完成状态"结论的指标必须全量复测
+ 
+ ## 为什么值钱
+ 
+-- src_unknown
+-- src_unknown
+-- src_unknown
+-- src_unknown
++- 这是 P-15 实证过的病：报告写"断链 <10"，实测 359——差 36 倍，且零 commit，如果验收方信了，359 条断链就带病入库
++- 给验收方一个可执行的最低成本动作：跑一次脚本，拆
+穿一切漂亮报告
++- 给执行者一个自检标准：报数之前先自己跑一遍，"声称 vs 实测"对不上就不交
++- 与 P-10（指令必须落笔）构成对称：指令要落笔，完成数据也要可重复验证——两端都不能靠口头
++
++## 与其他知识的关联
++
++- [[dk-p10-oral-ban]] — P-10 的对称问题：口头指令不存在 vs 口头完成不存在
++- [[dk-p17-accuracy-gap]] — 同族病：P-17 是"测了但测的是错的指标"，P-15 是"根本没测就报数"
++- [[dk-p9-glob-miss]] — 工具使用层面的"以为做了实际没做"同构
++- [[dk-c7-auto-backup-conflict]] — 自动化流程中"脚本跑了"≠"结果对了"的另一实例
+ 
+ ## Critique
+ 
+@@ -111,10 +118,10 @@ tags:
+ 
+ ## 与其他知识的关联
+ 
+-- src_unknown
+-- src_unknown
+-- src_unknown
+-- src_unknown
++- [[dk-p10-oral-ban]] — 对称问题（P-15 原始条目自述）：不仅指令要落笔，完成数据也要可重复验证
++- [[dk-p17-accuracy-gap]] — 同族病的另一表现：不是"没做"，而是"测了但测的是错的指标"
++- [[dk-p9-glob-miss]] — "以为覆盖了实际漏了"的工具层同构
++- [[dk-yb25-solution-driven-visual-design]] — 目标先行导致动作变形的同族模式
+ 
+ ## 老顽童疑问（2026-06-03）
+ 
+diff --git a/30_wiki/frameworks/yt-product-kernel-validation.md b/30_wiki/frameworks/yt-product-kernel-validation.md
+index 4a81a5b0e..5b4d58511 100644
+--- a/30_wiki/frameworks/yt-product-kernel-validation.md
++++ b/30_wiki/frameworks/yt-product-kernel-validation.md
+@@ -89,7 +89,7 @@ tags:
+ 
+ 三个维度的关系：**决定性说的是必要性（能不能删），优化性说的是被低估的可能性（该不该加），完备性说的是充分性（加起来够不够）。**
+ 
+-> Truman 原话："决定性要素是'必须有'，优化性要素是'来了更好'，完备性检查确保'有了之后走得通'。早期以决定性和优化性的定性评估为主，随着业务推进、数据积累，后期更多考虑完备性的定量分析。"
++> Truman 原话（口述稿 L1956，逐字）："通常前期这个是以决定性和优化性为主的，通常以定性评估为主的，早期主要是做选择，因为很多时候我们很难做定量，数据也不够，随着业务不断推进，有了更多的数据，有更多的认知，后面会更多的考虑完备性，更多的去做的越来越细，越来越定量。"
+ 
+ ---
+ 
+@@ -106,7 +106,7 @@ tags:
+ | **盘** | 中高 | 数据复盘 + 持续迭代 | 一手信息（真实） | 定性看反馈声音；定量看转化/留存数据；AB测试；关注投诉榜 | 可能把"相关性"误认为"因果性"；做错了才复盘，成本已发生 |
+ | **赌** | 极高 | 不做验证，直接全面投入 | 无 | 拍脑袋定内核→直接大规模研发/铺货 | **不推荐**。这不是策略，是放弃思考 |
+ 
+-> Truman 原话："大多数人的默认选择是'赌'——不做任何验证，直接把所有筹码砸进去。你们知道有多少人是这样创业的吗？"
++> Truman 原话（口述稿 L2078，逐字）："最后赌就赌的意思是我都不想那核是啥，我觉得我就是对的赌。"他形容这种打法的依据是"八字硬，这的确不太流行的风格。"（L2082）
+ 
+ **策略选择原则**：风险越高，步子越小。早期拿不准的时候，多用前半段策略（聊、问、查）；信心越强，再用后半段（测、盘）。越靠左操作难度越高（需要思考和方法论），但试错成本越低；越靠右越接近真相，但成本越高。
+ 
+
+
+• 卡1 dk-p15 rewrite: rewritten per pitfalls.md P-15. Need to verify against .agent/pitfalls.md P-15 original entry. Note there's a duplicated "## 与其他知识的关联" section now — the diff added a new "与其他知识的关联" before Critique AND the old one (after Critique) also got replaced. Wait, looking at diff: first addition adds "## 与其他知识的关联" section after "为什么值钱" with links dk-p10/dk-p17/dk-p9/dk-c7. Then later, the existing "## 与其他知识的关联" (after Critique) had src_unknown replaced with dk-p10/dk-p17/dk-p9/dk-yb25. So now the card has TWO "## 与其他知识的关联" sections! That's a structural defect — duplicate section. Need to check the current file.
+
+  卡9: quote ① replaced with L1956 verbatim; quote ② replaced with L2078 verbatim + L2082. Need grep verification in source.
+
+  Let me check dk-p15 for duplicate sections and read pitfalls.md P-15 entry.41:## 原始表述
+57:## 使用场景
+64:## 操作方法
+93:## 适用边界
+100:## 为什么值钱
+107:## 与其他知识的关联
+114:## Critique
+119:## 与其他知识的关联
+126:## 老顽童疑问（2026-06-03）
+212:## P-15: 执行者声称"完成"但实际未做——可测量指标必须独立验证
+272:**关联**：P-15（声称完成未验证）的同一种病的不同表现——这次不是"没做"，而是"测了但测的是错的指标"。
+333:**关联**：P-15（声称完成未验证）、P-17（测量口径不同却声称 85%）——这三种情况的共同模式是**行动之前没有建立可测量的诊断基线**。
+568:**关联**：E009（错误模式库）、P-7（素材预处理少检查——同模式：信任二次材料）、P-15（声称完成未独立验证——同模式：未做独立测量）
+587:**关联**：P-15（声称完成未独立验证）、P-35（欧阳锋不审原始素材——本次为"不审逐卡清单"的同构失败）
+698:**关联**：P-15（声称完成但实际未做）、#224 终审分歧
+715:**关联**：P-15、P-37（删节消警是反例——消警不能靠删内容，要靠补内容）、#582 终审扣分点
+Confirmed: dk-p15-unverified.md now has TWO "## 与其他知识的关联" sections (L107 and L119). That's a structural defect introduced by the rework — the new section was added without removing the old one. Both have content now (no src_unknown), so BODY_SRC_UNKNOWN passes, but duplicate section is a structural problem. Is this a blocking defect? It's a real defect — duplicate section with overlapping but slightly different content. The FAIL point was "六段+关联节全 src_unknown 占位 → 重写". The rewrite introduced a duplicate. This is arguably a new defect introduced by the fix. Severity: 🟡 — structure duplication, lint may or may not catch. It affects card quality. I'd flag it as a defect to fix — either blocking (FAIL) or record as defect requiring follow-up. Given the rework scope discipline "只修 FAIL 点", introducing a duplicate section is a rework error. It should be fixed. But is it blocking enough to FAIL the whole task? Consider: the FAIL point (src_unknown placeholders) is substantively resolved — content is now real. The duplicate section is a structural blemish. Hmm. Per my calibration: "编造→降级; 标注不准→PASS记缺陷". A duplicate section is a mechanical structure defect, easily fixed by 落笔. Options: FAIL whole batch for one structural blemish, or PASS with required fix. Given #617's reviewer-me: the task instruction says "只修 FAIL 点" — introducing a duplicate section violates "顺手改" discipline in the opposite direction (careless edit). I think this warrants at minimum a recorded defect; whether blocking depends on severity. Duplicate H2 section = broken card structure, consumers see two "关联" sections with different link sets. I'd lean: not blocking the PASS verdict for the batch if everything else checks out, but record as 🟡 defect requiring 落笔 fix... Actually wait — as 欧阳锋, my verdicts are PASS/FAIL. A structural duplicate introduced by rework is a legitimate FAIL point (P1 mechanical). But failing the entire 5-card rework for one duplicate section when all O0 red lines are fixed seems disproportionate; yet standards say structure must be clean. Let me continue verifying the rest first, then decide.
+
+  Now verify P-15 content against pitfalls.md L212ff, and the card9 quotes against sources. Let me read pitfalls P-15 entry.P-15 entry (L212-226): symptom = 黄药师 Sprint 4 报告 "断链 <10（修复前~113）" "缺frontmatter <20（修复前~271）"，实测断链 359、缺 id 237、双格式残留 134。零改动零 commit。Root cause 2 layers; 对策 4 items; 关联 P-10.
+
+  Now compare with card dk-p15-unverified rewritten sections:
+  - 使用场景: claims about "断链 <10" "缺frontmatter <20" 可测量指标 — consistent with source ✓; "P-15 的报告就是数据详实、有修复前后对比" ✓ (L214).
+  - 操作方法: "完工标准=三角验证: 代码已提交+数据已变更+验证已通过" — source L224: "完成 状态 = 代码已提交 + 数据已变更 + 验证已通过，缺一不可" ✓. "报告要求: 修复后数字必须附带验证方法（如 grep 命令或 python 脚本）" — source L223 ✓. "持续类指标不能只看修复前→修复后表" — source L222 ✓. "区分预期目标值和实测值——P-15 的根因之一就是把目标值当实测值写进报告" — source L217 ✓.
+  - 架构者审查 checklist: "看到格式工整的完工报告就放松警惕" — source L218 ✓. "实际数据未变动时第一时间打回" — L218 "没有在实际数据未变动的情况下第一时间验证" ✓. "零 commit 的完成直接判假" — source "零改动，零 commit" ✓.
+  - 为什么值钱: "报告写断链<10，实测 359——差 36 倍，且零 commit" — source: 断链 <10 claimed, 实测 359 ✓. "与 P-10 构成对称" — source L226 ✓.
+  - 关联: dk-p10, dk-p17 ("P-17 是测了但测的是错的指标" — source L272 ✓), dk-p9 (工具层"以为做了实际没做" — P-9 is glob miss, plausible analog but P-9 is about glob missing files... "以为覆盖了实际漏了" OK), dk-c7-auto-backup-conflict — need existence check of these cards.
+
+  Wait — do cards dk-p10-oral-ban, dk-p17-accuracy-gap, dk-p9-glob-miss, dk-c7-auto-backup-conflict, dk-yb25-solution-driven-visual-design exist? Check for dead links. Also duplicate "## 与其他知识的关联" section issue remains.
+
+  Let me now check those links exist, and verify card 9's quotes against source. Card 9's source_refs — need to check the card frontmatter for the source file. Let me read the card frontmatter and grep the quotes.30_wiki/dark-knowledges/dk-p10-oral-ban.md
+30_wiki/dark-knowledges/dk-p17-accuracy-gap.md
+30_wiki/dark-knowledges/dk-p9-glob-miss.md
+30_wiki/dark-knowledges/dk-c7-auto-backup-conflict.md
+30_wiki/dark-knowledges/dk-yb25-solution-driven-visual-design.md
+---
+domain:
+- product
+id: yt-product-kernel-validation
+title: 产品内核验证：三维度评估 × 六策略阶梯
+type: framework
+status: enriched
+downgrade_reason: "#614 裁定表卡9（2026-09-02 欧阳锋补审）：两处加引号「Truman 原话」对源零命中（伪逐字引文触 O0 红线）；FAIL 点=替换为真实原句或改转述，修后重审（内容修复另行编排）"
+confidence: 0.94
+trust_level: high
+source_context:
+  - 一堂产品内核验证课（2026年）——统一版本，对齐概念卡
+  - yitang
+aliases:
+  - 三维度评估
+  - 产品内核验证
+  - 产品内核验证：三维度评估×六策略阶梯
+  - 六策略阶梯
+  - 关键假设识别与验证
+  - 内核验证
+  - 略阶梯
+  - 里程碑验证法
+source_context:
+  - 一堂产品内核验证课（2026年）——统一版本，对齐概念卡
+  - yitang
+source_refs:
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+- 10_raw/sources/src_20260606_7610584b-一堂-产品内核验证课-truman-笔记.md
+created_at: '2026-06-19'
+updated_at: '2026-07-08'
+author: 老顽童
+reviewed_by: 待审
+review_date: '2026-06-19'
+related:
+  - "[[concept-一堂-kernel-validation]]"
+  - "[[concept-一堂-product-kernel]]"
+  - "[[concept-一堂-key-assumptions]]"
+  - "[[tool-一堂-product-kernel-canvas]]"
+  - "[[tool-一堂-product-kernel-add-subtract]]"
+  - "[[tool-马易-关键假设识别与验证]]"
+卡1 链接 5/5 存在 ✓。卡9 source_refs 指向 `10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md`。现在 grep 验证两条新引文逐字命中。
+
+  Quote ①: "通常前期这个是以决定性和优化性为主的，通常以定性评估为主的，早期主要是做选择，因为很多时候我们很难做定量，数据也不够，随着业务不断推进，有了更多的数据，有更多的认知，后面会更多的考虑完备性，更多的去做的越来越细，越来越定量。" claimed L1956.
+
+  Quote ②: "最后赌就赌的意思是我都不想那核是啥，我觉得我就是对的赌。" L2078; "八字硬，这的确不太流行的风格。" L2082.
+
+  Also note the card frontmatter has duplicate `source_context` key (appears twice)! Line ~12-14 and ~16-18. That's a YAML duplicate key — yaml.safe_load won't error but lint may flag. Wait, was that pre-existing? The diff for validation card only touched 2 quote lines (4 lines changed). The duplicate source_context is pre-existing, not introduced by this rework. "只修 FAIL 点不顺手改" — so it's pre-existing; record as observation, not blocking for this rework. But wait — duplicate YAML key: Python yaml.safe_load silently takes the last one. It's a pre-existing defect; not in FAIL list. Note it but don't block (not introduced by this diff). Actually, should I check whether it's pre-existing? git diff showed only 4 lines changed for this file, so yes pre-existing.
+
+  Let me grep the quotes.
+
+• 卡 1 五条关联链接全部存在。卡 9 源文件已定位，逐字 grep 验证两条新引文。1956:你最后你的所谓的产品内核假设在成立，它是一个依赖条件依赖条件好了，这个通常前期这个是以决定性和优化性为主的，通常以定性评估为主的，早期主要是做选择，因为很多时候我们很难做定量，数据也不够，随着业务不断推进，有了更多的数据，有更多的认知，后面会更多的考虑完备性，更多的去做的越来越细，越来越定量。
+2078:最后赌就赌的意思是我都不想那核是啥，我觉得我就是对的赌。
+2082:八字硬，这的确不太流行的风格。
+
+
+• 卡9: 3/3 verbatim hits at claimed line numbers (L1956, L2078, L2082). ✓ FAIL 点销项成立。
+
+  Now 卡10 ten-metrics. Let me view the diff for that card and check against sources src_20260510_5ef61f8f / src_20260611_94673a56.
+
+• 卡 9 两条引文逐字命中（L1956/L2078/L2082），销项成立。接着看卡 10 指标表 diff。diff --git a/30_wiki/tools/yt-product-kernel-ten-metrics.md b/30_wiki/tools/yt-product-kernel-ten-metrics.md
+index 0c0a617ee..42ea22237 100644
+--- a/30_wiki/tools/yt-product-kernel-ten-metrics.md
++++ b/30_wiki/tools/yt-product-kernel-ten-metrics.md
+@@ -61,22 +61,20 @@ tags:
+ 
+ ## 核心框架
+ 
+-十大典型指标按从业者已验证的**获客→服务（转化）→复购**漏斗重新分类：
+-
+-| 漏斗环节 | 核心指标 | 说明 | 验证什么 | 代理指标（proxy） |
+-|:---|:---|:---|:---|:---|
+-| **🔵 获客** | 1. 目标用户精准度 | 用户画像与实际用户的匹配度 | 用户定义是否准确 | 渠道来源分布、自然搜索关键词匹配度 |
+-| | 2. 用户获取成本(CAC) | 获取一个目标用户的成本 | 获客效率 | 渠道ROI、点击率(CTR)、CPM/CPC |
+-| | 3. 试训/试用量 | 愿意"来一次"的人数（足球俱乐部案例） | 获客吸引力 | 落地页访问量、表单提交量、预约量 |
+-| **🟢 服务（转化）** | 4. 关键转化率 | 从"来一次"到"选择购买/留存"的比例 | 内核竞争力 | 首次体验完成率、停留时长、关键动作完成率 |
+-| | 5. 用户激活率 | 完成核心功能的用户比例 | 内核吸引力 | 首次核心功能使用率、7日活跃度 |
+-| | 6. 付费转化率 | 从试用到付费（或从免费到付费）的比例 | 价值认可度 | ARPU、客单价、免费→付费漏斗各层转化 |
+-| | 7. 核心功能使用率 | 内核功能的使用比例 | 功能设计是否命中 | 功能点击热力图、功能渗透率 |
+-| **🟠 复购** | 8. 复购/续费率 | 再次付费的比例 | 持续价值 | 用户生命周期价值(LTV)、消费频次 |
+-| | 9. 用户满意度(NPS) | 用户推荐意愿 | 综合体验 | CSAT评分、主动推荐次数、社交媒体提及 |
+-| | 10. 用户流失率 | 停止使用产品的比例 | 内核是否持续满足需求 | 沉默用户占比、7/30日留存率、退订率 |
+-
+-> **设计原则**：代理指标（proxy）用于当核心指标难以直接测量时的替代观测。选用 proxy 需满足两个条件——与核心指标高度相关，且比核心指标更易获取。当 proxy 与核心指标出现背离时，以核心指标为准。
++十大典型指标按业务链条分为**获客→服务→复购**三个环节（来源：「一堂产品内核・十大典型指标」图，`src_20260510_5ef61f8f` / OCR 件 `src_20260611_94673a56`，两者一致）：
++
++| 环节 | 指标 | 一句话说明（源原文） |
++|:---|:---|:---|
++| **获客环节** | 1. 销转率 | 看潜在客户转化为实际购买客户的比例 |
++| | 2. 动销率 | 看有销售的商品品种数与所有商品总品种数的比例 |
++| | 3. 捕获率 | 看进店消费人数占总经过人流量的比例 |
++| **服务环节** | 4. 留存率 | 看使用产品的用户，N天/周/月后还在持续使用的比例 |
++| | 5. 完课率 | 看用户是不是能完成履约和最后学习 |
++| | 6. 退款率 | 看服务履约中，用户退款的比例 |
++| | 7. 满意率 | 看用户接受完服务，满意度的比例和打分 |
++| **复购环节** | 8. 复购率 | 看消费购买后，会继续购买的比例 |
++| | 9. 续费率 | 看续费用户数占现有用户数的比例 |
++| | 10. 推荐率 | 看用户是否愿意主动推荐的比率 |
+ 
+ ### 漏斗三环节的决策逻辑
+ 
+@@ -86,51 +84,53 @@ tags:
+ | **服务（转化）** | 来了之后为什么选你？关键转化率卡在哪？ | 体验完不转化 → 决定性要素缺失或"看起来好但体验差"；转化高但付费低 → 价值感知或定价问题 |
+ | **复购** | 为什么继续来？为什么不再来？ | 复购率低 → 习惯未养成或社交纽带不够（足球俱乐部案例）；流失高 → 内核价值不持续 |
+ 
+-> **口述来源**：Truman 在足球俱乐部案例中，将业务拆为「试训量 × 转化率 × 复购率」三个参数，分别对应获客、转化、复购漏斗三环节。（来源：`一堂-产品内核实操课-Truman-口述.txt` L998-L1070）
++> **口述来源**：Truman 在足球俱乐部案例中，将业务拆为 试训量、转化率、复购率 三个参数（转述，"最重要的是这三个参数"为 L1002 逐字），分别对应获客、转化、复购漏斗三环节。（来源：`一堂-产品内核实操课-Truman-口述.txt` L998-L1070）
+ 
+ ## 关键洞察
+ 
+-### 1. 指标与内核按漏斗对应
++### 1. 指标与内核假设按环节对应
+ 
+-每个指标必须对应内核假设，并按漏斗环节归位：
++十大指标不是孤立的数字——每个指标回答一个内核假设是否成立：
+ 
+-| 漏斗环节 | 内核假设 | 验证指标 | 指标下降说明 | proxy 辅助判断 |
+-|:---|:---|:---|:---|:---|
+-| 获客 | 用户定义准确 | 目标用户精准度 + 试训量 | 用户画像与实际不符，或获客渠道不对 | 渠道来源是否集中在目标人群 |
+-| 获客 | 获客效率合理 | CAC | 获客成本过高，不可持续 | 渠道ROI是否高于阈值 |
+-| 转化 | 内核有吸引力 | 关键转化率 + 激活率 | 内核竞争力不足或体验不符预期 | 首次体验完成率、停留时长 |
+-| 转化 | 价值被认可 | 付费转化率 | 价值感知不足或定价问题 | 免费→付费各层转化 |
+-| 转化 | 功能设计命中 | 核心功能使用率 | 功能未命中用户痛点 | 功能渗透率、热力图 |
+-| 复购 | 价值持续 | 复购/续费率 | 内核价值不持续 | LTV、消费频次 |
+-| 复购 | 用户满意 | NPS | 体验差或竞品替代 | CSAT、推荐行为 |
+-| 复购 | 内核持续满足需求 | 流失率 | 内核过时或被替代 | 沉默用户占比、留存曲线 |
++| 环节 | 指标 | 验证的内核假设 | 指标异常说明 |
++|:---|:---|:---|:---|
++| 获客 | 销转率 | 潜在客户认可你的价值主张 | 来了不买——卖点或定价与目标用户错位 |
++| 获客 | 动销率 | 产品线组合有效 | 大量品种无人买——SKU 堆砌而非内核驱动 |
++| 获客 | 捕获率 | 触点/门店对目标人流有吸引力 | 人流经过但不进店——触达或定位出问题 |
++| 服务 | 留存率 | 产品持续被使用 | 用一两次就流失——内核吸引力不持续 |
++| 服务 | 完课率 | 履约设计用户跟得下来 | 学不完——交付超出用户基础能力（声音变现案例同款病灶） |
++| 服务 | 退款率 | 承诺与交付一致 | 退款上升——过度承诺或内核不成立 |
++| 服务 | 满意率 | 交付体验达标 | 分数低——服务环节有决定性要素缺失 |
++| 复购 | 复购率 | 价值持续、习惯养成 | 不复购——习惯未养成或社交纽带不够（足球俱乐部案例） |
++| 复购 | 续费率 | 存量用户认可长期价值 | 不续费——长期价值感知不足 |
++| 复购 | 推荐率 | 用户愿意背书 | 不推荐——体验未超预期或有隐性不满 |
+ 
+ ### 2. 关键指标 vs 虚荣指标
+ 
+-| 虚荣指标 | 关键指标 | 为什么 |
++| 虚荣指标 | 关键指标（源清单内） | 为什么 |
+ |:---|:---|:---|
+-| 总用户数 | 目标用户精准度 | 用户多但不精准，无价值 |
+-| 总下载量 | 激活率 | 下载了但不用，无价值 |
+-| 总营收 | 付费转化率 | 营收高但转化率低，不可持续 |
+-| 功能数量 | 核心功能使用率 | 功能多但不用，是负担 |
+-| 媒体曝光 | 关键转化率 | 曝光多但转化少，效率低 |
++| 总触达/总人流 | 捕获率 | 人流大但不进店，无价值 |
++| 咨询量/线索数 | 销转率 | 线索多但不成交，获客白费 |
++| 报名/开课人数 | 完课率 | 报了名学不完，履约失败 |
++| 流水/GMV | 退款率 | 流水高但退款同步走高，是虚假繁荣 |
++| 老用户总数 | 续费率/复购率 | 盘子大但不续费，内核价值不持续 |
+ 
+ ### 3. 指标的基准和目标
+ 
+-每个指标需要：
++源文件只给指标定义，未给基准值——基准要靠自己建立：
+ 
+-- src_unknown
+-- src_unknown
+-- src_unknown
+-- src_unknown
++- 每个选定的指标先记录**当前实测值**作为基准，不设基准的指标等于没设
++- 目标值从单元模型反推：要让业务公式成立，这个指标至少要多少
++- 设预警线：指标跌破基准的某个幅度（如退款率突然上升）触发复盘，而不是等季度总结
++- 基准随阶段更新：早期用定性判断+小样本实测，数据积累后再定量化（与 [[yt-product-kernel-validation]] 的「先定性后定量」一致）
+ 
+ ### 4. 指标的聚焦原则
+ 
+ 不是看所有指标，而是聚焦关键指标：
+ 
+-- src_unknown
+-- src_unknown
+-- src_unknown
++- Truman 在足球俱乐部案例中把业务拆成 试训量、转化率、复购率 三个参数（转述，口述 L998-L1002）——"最重要的是这三个参数"（L1002 逐字）
++- 十大指标是备选池，不是全看清单：按你的业务公式选出决定成败的 3 个左右重点盯
++- 聚焦标准：这个指标的变化能否直接说明内核假设是否成立？不能说明的先放一边
+ 
+ ## 失败模式
+ 
+@@ -154,38 +154,40 @@ tags:
+ 
+ ## 行动触发器
+ 
+-- src_unknown
+-- src_unknown
+-- src_unknown
+-- src_unknown
++| 触发场景 | 第一个动作 | 成功指标 |
++|:---|:---|:---|
++| 内核假设定义完毕 | 从十大指标中选出与假设对应的 3 个左右指标 | 每个指标能回答"假设是否成立" |
++| 产品已上线无监测 | 先补获客环节指标（销转率/动销率/捕获率按业务形态选） | 每周能看到真实数值 |
++| 某环节指标异常 | 对照「指标与内核假设对应表」定位失守假设 | 明确是哪个环节的内核要素出问题 |
++| 指标全面平稳但业务不涨 | 检查是否在看虚荣指标 | 替换为源清单内的关键环节指标 |
+ 
+ ## 关联卡片
+ 
+-- src_unknown
+-- src_unknown
+-- src_unknown
+-- src_unknown
+-- src_unknown
++- [[yt-product-kernel-validation]] — 指标是内核验证策略「盘」的数据基础
++- [[yt-product-kernel-iteration]] — 指标异动触发内核迭代
++- [[concept-一堂-product-kernel]] — 指标服务的对象：产品内核假设
++- [[tool-设定管理杠杆率指标评估效率]] — 管理侧的指标设定方法
++- [[yt-product-ten-metrics]] — 同主题概念卡
+ 
+ ## 来源与验证
+ 
+-- src_unknown
+-- src_unknown
+-- src_unknown
++- 「一堂产品内核・十大典型指标」图：`10_raw/sources/src_20260510_5ef61f8f-一堂产品内核十大典型指标.md`（三环节十指标+一句话说明）
++- 同图 PaddleOCR 件：`10_raw/sources/src_20260611_94673a56-一堂-一堂五步法-产品内核-十大典型指标_paddle_ocr.md`（与上图逐条一致，交叉验证）
++- 足球俱乐部案例（试训量×转化率×复购率三参数）：`10_raw/sources/yitang-lectures/一堂-产品内核实操课-Truman-口述.txt` L998-L1070
+ 
+ ## 目的
+ 
+-> 待补充：这个工具解决什么问题？适用于什么场景？
++> 解决"产品内核有没有被数据验证"的问题：把内核假设翻译成获客/服务/复购三环节的可测量指标，用数据替代"感觉好"。适用于产品内核定义完成后的验证与迭代阶段。
+ 
+ ## 操作步骤
+ 
+-1. **步骤一**：待补充
+-2. **步骤二**：待补充
+-3. **步骤三**：待补充
++1. **选指标**：从十大指标清单中，按你的业务形态（获客/服务/复购三环节）选出与当前内核假设对应的 3 个左右关键指标
++2. **建基准**：记录每个指标的当前实测值作为基准，并从单元模型反推目标值
++3. **盯异动**：定期复盘指标；某个环节指标异常时，回到内核假设定位失守要素，触发迭代（参考足球俱乐部案例：试训量×转化率×复购率三参数定位法）
+ 
+ ## 不要用的场景
+ 
+-> 待补充：什么情况下这个工具效果有限或不应该使用？
++> 技术性能评估、品牌传播效果评估、财务预测——这些场景的指标体系不在本卡覆盖范围；另外，业务尚未有任何真实用户行为数据时（纯概念阶段），应先用「聊、问、查」定性验证（见 [[yt-product-kernel-validation]] 六策略），而不是硬套指标。
+ 
+ ## 质疑
+ 
+
+
+• 卡10 rewrite looks substantial. Now verify against sources:
+  1. The 10 metrics list + one-line descriptions must match `10_raw/sources/src_20260510_5ef61f8f-一堂产品内核十大典型指标.md` (and OCR `src_20260611_94673a56`).
+  2. "最重要的是这三个参数" L1002 verbatim in `一堂-产品内核实操课-Truman-口述.txt`.
+  3. New related links exist: yt-product-kernel-validation ✓, yt-product-kernel-iteration ✓ (card 8 exists), concept-一堂-product-kernel, tool-设定管理杠杆率指标评估效率, yt-product-ten-metrics — check existence.
+  4. Frontmatter source_refs — check whether the new cited sources are in source_refs.
+
+  Let me grep.
+
+• 卡 10 按源重写幅度大。现在逐条对源验证指标清单和引文。---
+source_id: "src_20260510_5ef61f8f"
+title: "一堂产品内核・十大典型指标"
+captured_at: "2026-05-10T15:49:30+00:00"
+kind: "raw-source"
+---
+
+# 一堂产品内核・十大典型指标
+
+# 一堂产品内核・十大典型指标
+
+![[一堂产品内核-十大典型指标.png]]
+
+一堂产品内核・十大典型指标
+环节 指标 一句话说明
+销转率 看潜在客户转化为实际购买客户的比例
+获客环节 动销率 看有销售的商品品种数与所有商品总品种数的比例
+捕获率 看进店消费人数占总经过人流量的比例
+留存率 看使用产品的用户，N天/周/月后还在持续使用的比例
+完课率 看用户是不是能完成履约和最后学习
+服务环节
+退款率 看服务履约中，用户退款的比例
+满意率 看用户接受完服务，满意度的比例和打分
+复购率 看消费购买后，会继续购买的比例
+复购环节 续费率 看续费用户数占现有用户数的比例
+推荐率 看用户是否愿意主动推荐的比率
+===OCR===
+src_20260611_94673a56-一堂-一堂五步法-产品内核-十大典型指标_paddle_ocr.md
+1002:他们会不会是来一次和会不会买正价课，然后二次复购，这个主要看的是复购率，最重要的是这三个参数。
+首先真正做减法的话，其实这个业务拆成公式，初次购买其实就是试训乘以转化率，乘以转化金额。
+
+其实最重要的两个参数，一个试训量，一个是转化率。
+
+他们会不会是来一次和会不会买正价课，然后二次复购，这个主要看的是复购率，最重要的是这三个参数。
+
+
+• 卡10:
+  - 十大指标清单+一句话说明与源文件逐条一致 ✓（销转率/动销率/捕获率/留存率/完课率/退款率/满意率/复购率/续费率/推荐率，描述逐字）
+  - L1002 "最重要的是这三个参数" 逐字命中 ✓；三参数=试训量/转化率/复购率，L998-1002 区间属实 ✓
+
+  Now check card10 frontmatter source_refs include these sources, and the related links exist.source_refs:
+- 10_raw/sources/src_20260510_5ef61f8f-一堂产品内核十大典型指标.md
+- 10_raw/sources/src_20260610_29a11a33-一堂-一堂五步法-产品内核-十大典型指标.md
+- 10_raw/sources/src_20260611_94673a56-一堂-一堂五步法-产品内核-十大典型指标_paddle_ocr.md
+- 10_raw/sources/yitang-lectures/一堂-产品内核实操课-Truman-口述.txt:998-1070
+created_at: '2026-06-19'
+updated_at: '2026-07-08'
+author: 老顽童
+reviewed_by: 待审
+review_date: '2026-06-19'
+discoverable_by:
+  - 产品内核十大典型指标：从假设到验证的数据体系
+  - 产品内核十大典型指标
+--
+related:
+- '[[tool-设定管理杠杆率指标评估效率]]'
+- '[[yt-product-ten-metrics]]'
+diagnostic_signals:
+- framework_lens: 产品内核指标——缺乏数据验证体系
+  follow_up_question: 你的产品内核对应的关键指标是什么？当前数值是多少？
+===
+30_wiki/frameworks/yt-product-kernel-validation.md
+30_wiki/frameworks/yt-product-kernel-iteration.md
+30_wiki/concepts/concept-一堂-product-kernel.md
+30_wiki/tools/tool-设定管理杠杆率指标评估效率.md
+30_wiki/concepts/yt-product-ten-metrics.md
+卡10: source_refs 含三源+实操课区间 ✓，新增 related 链接全部存在 ✓（注意 related frontmatter 只有 2 条，而正文"关联卡片"节有 5 条——frontmatter related 与正文不一致。检查 #614 裁定 FAIL 点：占位节补齐——正文补齐了。frontmatter related 仅 2 条是存量问题还是 FAIL 点？裁定表说 "下半部 4 节占位+操作步骤待补充"，frontmatter related 不在 FAIL 点内。但 related ≥12 是 P1 半机械检查项……这卡 related 只有 2 条，是历史存量。不在本 FAIL 清单，记录不阻断（执行报告说不顺手改）。嗯，不过正文关联卡片的链接存在性我验过了 ✓。
+
+  Now 卡12 business-prediction diff.
+
+• 卡 10 销项核验通过。接着看卡 12 和卡 14 的 diff。diff --git "a/30_wiki/concepts/concept-\344\270\200\345\240\202-business-prediction.md" "b/30_wiki/concepts/concept-\344\270\200\345\240\202-business-prediction.md"
+index 4d9eec8db..9a7a3649c 100644
+--- "a/30_wiki/concepts/concept-\344\270\200\345\240\202-business-prediction.md"
++++ "b/30_wiki/concepts/concept-\344\270\200\345\240\202-business-prediction.md"
+@@ -31,8 +31,8 @@ source_context:
+   - 一堂商业预判课（2026年）
+   - yitang
+ source_refs:
+-- 00_inbox/一堂-商业预判课-Truman-口述.txt
+-- 00_inbox/一堂-商业预判课-truman-笔记.txt
++- 00_inbox/一堂-机会预判课-Truman-口述.txt
++- 00_inbox/一堂-机会预判课-truman-笔记.txt
+ discoverable_by:
+   - 商业预判：15字诀与光谱模型——从拍脑袋到科学决策
+   - 商业预判
+@@ -159,7 +159,7 @@ Truman 把整个预判过程浓缩为15个字：
+ **操作**：用"保A争B"框架：
+ - **保A**：最低可接受结果（如"单店盈利，年利润30万"）
+ - **争B**：理想目标（如"开到5家店，年利润200万"）
+-- **差距不超过2个阶段**：保A和争B之间的差距控制在小范围，避免"保A是副业、争B是上市"这种漫无边际的定位
++- **保A争B的差距：建议差 1、最多差 3 个阶段**：口述原文"叫保A争B建议中间的数字是差一的，最多最多差个3"（L1912 逐字）——"保一争七等于废话"，避免保A定在副业、争B定在上市这种漫无边际的定位
+ 
+ **然后用光谱模型定位当前阶段**：副业试水 vs 小团队 vs 规模化复制——不同阶段不同预判深度。
+ 
+@@ -177,7 +177,7 @@ Truman 把整个预判过程浓缩为15个字：
+ 
+ **目标**：每个维度至少产出10个选项，总计30-100个。遍历——把所有能走的路全走一遍。
+ 
+-> Truman 以一堂 To B 内训为例："把所有能找到的内训产品特性，按时间线拆成5个环节，按角色拆成3类人，形成4×5=20个格子的矩阵。"（L2282-L2306）
++> Truman 以咖啡店为例讲排列组合（口述稿 L2472，逐字）："我可能是一线城市乘以代餐、乘以便利、乘以特调、乘以招牌加办公，然后再乘以20到50平，再乘以自营，这就是我的生意。"——"大量的选项乘在一起至少100个"（L2476）。
+ 
+ ### 第三步：专业做减法
+ 
+
+
+• 卡12 三处修复 diff 清晰。验证：
+  1. 新 source_refs 文件存在性：`00_inbox/一堂-机会预判课-Truman-口述.txt` 和 `00_inbox/一堂-机会预判课-truman-笔记.txt`
+  2. L1912 逐字："叫保A争B建议中间的数字是差一的，最多最多差个3"
+  3. L2472 咖啡店引文 + L2476 "大量的选项乘在一起至少100个"-rw-r--r-- 1 Administrator 197121 192407 Aug 31 02:08 00_inbox/一堂-机会预判课-Truman-口述.txt
+-rw-r--r-- 1 Administrator 197121   7497 Aug 31 02:08 00_inbox/一堂-机会预判课-truman-笔记.txt
+3466 00_inbox/一堂-机会预判课-Truman-口述.txt
+===
+1912:第一部分第一部分就讲完了，然后在这我多补充一句话，叫保A争B建议中间的数字是差一的，最多最多差个3，最多最多不能是，这个你们不要动不动就是保一争七，好吧，你们理解保一争七等于废话。
+2472:我可能是一线城市乘以代餐、乘以便利、乘以特调、乘以招牌加办公，然后再乘以20到50平，再乘以自营，这就是我的生意。
+2476:大量的选项乘在一起至少100个，这个非常非常重要。
+卡12 三处全部核验通过：
+  1. source_refs 文件名存在（3466 行与执行报告声称一致）✓
+  2. L1912 逐字命中 ✓
+  3. L2472/L2476 逐字命中 ✓
+
+  还需确认 00_inbox 这两个文件与 10_raw 注册件同文（执行报告称"与 10_raw 注册件同文同 3466 行"）——这是次要声明，核查一下 10_raw 是否有对应注册件。快速 diff。
+
+  然后卡14 diff。一堂-机会预判-咖啡店案例-五步法预判_paddle_ocr.txt
+一堂-机会预判-咖啡案例01_paddle_ocr.txt
+一堂-机会预判-终局光谱图示例-truman-图01_paddle_ocr.txt
+一堂-机会预判-终局光谱图解读-truman-02_paddle_ocr.txt
+10_raw/sources/yitang-lectures/一堂-机会预判-咖啡店案例-五步法预判_paddle_ocr.txt: 4
+10_raw/sources/yitang-lectures/一堂-机会预判-咖啡案例01_paddle_ocr.txt: 19
+10_raw/sources/yitang-lectures/一堂-机会预判-终局光谱图示例-truman-图01_paddle_ocr.txt: 13
+10_raw/sources/yitang-lectures/一堂-机会预判-终局光谱图解读-truman-02_paddle_ocr.txt: 4
+diff --git a/30_wiki/dark-knowledges/yt-product-kernel-overpromise-trap.md b/30_wiki/dark-knowledges/yt-product-kernel-overpromise-trap.md
+index df141164e..bc41133f7 100644
+--- a/30_wiki/dark-knowledges/yt-product-kernel-overpromise-trap.md
++++ b/30_wiki/dark-knowledges/yt-product-kernel-overpromise-trap.md
+@@ -61,7 +61,7 @@ tags:
+ 
+ ## 原始表述
+ 
+-> Truman 口述：_"声音变现课程面向中老年用户，承诺'学会就能月入过万'。但很多中老年用户连手机基本操作都不熟练——让他们学音频剪辑、做内容、运营账号，实际根本做不到。前端为了转化率过度承诺，后端根本无法履约。这不是产品问题，是组织问题——销售目标和产品目标在同一个内核上拆成了两套逻辑。"_（L524-L568）
++> Truman 口述稿 L524-L568（转述+逐字原句）：大公司里前端和后端往往是两个老板、目标分离——前端盯投放 ROI、低价拿客户，于是"怎么能卖，怎么说，恨不得一次性就告诉你一个星期就能把钱赚回来"（L534 逐字）；后端背满意度和履约，前端的过度承诺传到后端就变成退款和客诉（黑猫投诉事件，L536）。复盘结论："不要在产品内核上过度承诺"（L540 逐字）——"因为如果你承诺的是压根儿你们实现不了的内核，那个东西恰巧对于产品有着决定性"（L542 逐字），承诺了实现不了的内核要素，"那你就看你八字有多硬"（L544 逐字）。
+ 
+ **核心陷阱**：前端（销售/市场）为了追求转化率，在产品内核上"加料"——承诺超出实际交付能力的价值。后端（产品/交付）按真实能力履约，但已经落后于前端的承诺。**这不是某个人做错了，而是组织目标不一致的结构性产物。**
+ 
+@@ -71,7 +71,7 @@ tags:
+ 
+ | 模式 | 典型场景 | 前端说了什么 | 后端真实情况 | 后果 |
+ |:---|:---|:---|:---|:---|
+-| **能力高估** | 声音变现课程 | "零基础也能月入过万" | 中老年用户手机基础操作都不熟练，音频剪辑、内容运营根本学不会 | 用户付费后学不会→退款/差评→口碑崩塌 |
++| **能力高估** | 声音变现课程 | "毕了业就可以很快把钱赚回来"（口述 L468 逐字） | 下沉市场三四线城市中老年用户普通话、手机操作基础薄弱，学完三个月去市场接单大面积无法履约（L454-L470） | 用户付费后学不会→退款/差评→口碑崩塌 |
+ | **效果夸大** | AI高考志愿填报 | "AI智能填报，精准匹配" | 用户真正关心的是信任、信息全面性和防滑档，AI只是辅助工具 | 用户发现不精准→信任崩塌→复购为零 |
+ | **范围越界** | To B SaaS 销售 | "全流程一体化解决方案" | 实际只覆盖了某几个环节，其他环节需要大量人工补 | 客户期望失衡→交付团队救火→利润率归零 |
+ 
+@@ -91,14 +91,14 @@ tags:
+ 
+ 当这两个群体的KPI和激励方向截然不同时，即使每个人都尽职尽责，结果仍然是：**前端不断试探承诺上限，后端不断追赶履约下限——内核在中间被撕扯变形。**
+ 
+-> Truman 原话："大公司需注意避免组织目标不一致导致内核变形——前端过度承诺，后端无法履约。"（concept-一堂-product-kernel Q6）
++> 口述稿原文："在大公司，其实你们知道前端和后端往往是两个老板分离的，目标都不一样。"（L528 逐字）——前端盯投放 ROI 低价拉新，后端背满意度和履约，过度承诺由此产生（L530-L534 转述）。
+ 
+ ---
+ 
+ ## 声音变现案例完整还原
+ 
+ ### 背景
+-一家在线教育公司推出"声音变现"课程，面向中老年用户，承诺"学会配音/朗读/有声书就能月入过万"。
++一家在线教育公司推出声音变现课程，目标用户是下沉市场三四线城市的中老年人（L454）。前端承诺的核心是让用户相信"毕了业就可以很快把钱赚回来"（L468 逐字）。SKU 投放早期数据很好——首单 ROI 一直在 1.6 以上，月流水从第一个月 100 万冲到第四个月 800 万（L416-L418）；第四个月第一批学员毕业后发现没人能赚回来，大面积退款，ROI 很快降到 1 以下（L468-L474）。
+ 
+ ### 前端的逻辑
+ - 目标用户画像：退休/全职在家、有闲暇时间、希望通过副业增加收入的中老年人
+@@ -118,8 +118,10 @@ tags:
+ 3. 用户花了几千块后发现做不到，开始退款、投诉、社交平台差评
+ 4. 前端为了维持转化率，继续加承诺——恶性循环
+ 
+-### Truman 的诊断
+-> "不是老师教得不好，不是销售太贪心，而是**从一开始，产品内核就被前端的转化压力绑架了**。声音变现这件事本身可以成立——但它的内核是'学习+练习+自驱力'，不是'交钱就能赚'。当组织把转化率设为前端的唯一KPI，把交付满意度设为后端的唯一KPI，这两个目标在产品内核层面是互斥的——前端一定会倾向于简化内核、扩大承诺，后端一定会被承诺压垮。"
++### Truman 的诊断（转述，口述稿 L480-L494、L524-L568）
++声音变现 SKU 丢失的要素是内核级别的——"它非常重要，它对于这个产品来说就是内核级别的，你失去了它就没了"（L480 逐字）。
++
++内核一旦不成立就救都救不回来（L488 转述）。而这种过度承诺往往不是某个人的恶意：大公司里前端（ROI/低价拉新）与后端（满意度/履约）目标分离，是被组织推着走的结构性产物（L526-L534）。内核是"学习+练习+自驱力"，不是"交钱就能赚"——当转化率是前端唯一 KPI、交付满意度是后端唯一 KPI，两个目标在内核层面互斥，前端必然扩大承诺、后端必然被承诺压垮。
+ 
+ ---
+ 
+@@ -202,6 +204,13 @@ tags:
+ 
+ ---
+ 
++## Critique
++
++- **内部局限**：自检三步依赖后端敢说真话——如果后端也背着"不能得罪销售"的隐形 KPI，Gap 分析会系统性低估；声音变现案例的窗口期一旦错过（被喜马拉雅接住需求），修复动作再对也救不回来。
++- **外部攻击（证据视角）**：案例基于单次复盘口述，核心要素丢失导致业务崩掉的因果链未经独立验证，ROI 1.6→1 以下也可能混入市场大盘因素；对口述数字应保留来源为 Truman 口述复盘、数字待独立核实的读法。
++
++---
++
+ ## 与其他知识的关联
+ 
+ - [[concept-一堂-product-kernel]] — 产品内核定义是防止过度承诺的锚
+卡14 diff 清晰。需要验证的逐字引文（执行报告称 7/7）：
+  1. L534 "怎么能卖，怎么说，恨不得一次性就告诉你一个星期就能把钱赚回来"（卡片写"恨不得一次性就告诉你一个星期就能把钱赚回来"）
+  2. L540 "不要在产品内核上过度承诺"
+  3. L542 "因为如果你承诺的是压根儿你们实现不了的内核，那个东西恰巧对于产品有着决定性"
+  4. L544 "那你就看你八字有多硬"
+  5. L468 "毕了业就可以很快把钱赚回来"
+  6. L480 "它非常重要，它对于这个产品来说就是内核级别的，你失去了它就没了"
+  7. L528 "在大公司，其实你们知道前端和后端往往是两个老板分离的，目标都不一样。"
+  Also verify: no "月入过万" residue; L416-L418 ROI 1.6/100万/800万; L454; L470. And which source file? Card source_refs — likely a 一堂产品内核 lecture. The FAIL said 源 L534 "一个星期就能把钱赚回来". Need card's source_refs. Let me grep in likely source. Which file? Probably 10_raw/sources/yitang-lectures/一堂-产品内核课-Truman-口述.txt or similar. Check card frontmatter.source_refs:
+- 10_raw/sources/yitang-lectures/一堂-产品内核实操课-Truman-口述.txt
+- 00_inbox/一堂-产品内核实操课-truman-笔记.txt
+created_at: '2026-07-08'
+updated_at: '2026-07-08'
+10:downgrade_reason: "#614 裁定表卡14（2026-09-02 欧阳锋补审）：核心引文块系改写拼贴包装成 Truman 口述+「月入过万」无源；FAIL 点=引文块改转述或换真实原句+删「月入过万」，修后重审（内容修复另行编排）"
+534:然后就是怎么能卖，怎么说，恨不得一次性就告诉你一个星期就能把钱赚回来，前端会出现很多的过度承诺，然后后端他们考虑的是满意度，他们是履约的。
+540:后面我们总结了一句话叫不要在产品内核上过度承诺，这句话学员们可以帮我打一下，这个也是对我的一个警告，就是我们可以一定程度上接受一部分的包装，但是不要在产品内核上过度承诺。
+542:因为如果你承诺的是压根儿你们实现不了的内核，那个东西恰巧对于产品有着决定性。
+544:那你就看你八字有多硬，对吧？
+468:然后你之前口口声声的说我毕了业就可以很快把钱赚回来，最后发现没人能赚回来。
+480:我不知道他能不能理解什么叫产品内核，就是它非常重要，它对于这个产品来说就是内核级别的，你失去了它就没了。
+528:在大公司，其实你们知道前端和后端往往是两个老板分离的，目标都不一样。
+===
+然后注意下，感受一下第一个SKU声音变现，当时声音变现这个SKU投放早期就数据很好啊，然后他们测了测从一开始首单的ROI就一直在1.6以上。
+
+然后第一个月100万，第二个月200万，第三个月500万，第四个月直接冲到了800万，小1000万，非常快非常快。
+然后就找了很多同学，最后就发现他们因为之前服务的本身是一些相对下沉的市场三四线城市的中老年人。
+然后你之前口口声声的说我毕了业就可以很快把钱赚回来，最后发现没人能赚回来。
+
+这个数据很差，他们本身普通话都不过关，手机都使用不了，这三个月的时间他们去市场接单赚钱。结果发现大面积的人根本无法履约，尽管表面上学习效果都不错。
+
+这三个月的数据一直都很好，到真正的退款噌就上去了。
+
+然后这个瞬间，之前非常好看的ROI很快就降到了1以下。
+卡14 验证结果：
+  - L534 "一个星期就能把钱赚回来" 逐字命中 ✓（卡片引"怎么能卖，怎么说，恨不得一次性就告诉你一个星期就能把钱赚回来"——源文是"然后就是怎么能卖，怎么说，恨不得一次性就告诉你一个星期就能把钱赚回来"——卡片引文从"怎么能卖"开始，逐字子串命中 ✓）
+  - L540 "不要在产品内核上过度承诺" ✓
+  - L542 ✓
+  - L544 ✓
+  - L468 "毕了业就可以很快把钱赚回来" ✓
+  - L480 "它非常重要，它对于这个产品来说就是内核级别的，你失去了它就没了" ✓（源文前缀"就是它非常重要"，卡片从"它非常重要"起——逐字子串 ✓）
+  - L528 ✓
+  - 7/7 命中 ✓
+  - ROI 1.6 L416 ✓、月流水 100万→800万 L417-418 ✓、下沉市场三四線中老年 L454 ✓、退款上去/ROI降到1以下 L468-474 ✓
+  - "月入过万" 全文仅 downgrade_reason 历史记录残留 ✓（FAIL 要求删正文"月入过万"——downgrade_reason 是 #615 落笔的裁定留痕，保留合理）
+
+  卡14 ✓。还有一个点：执行报告说 ④Q6 二手引语换成 L528 逐字——已验。⑤补 Critique 节——diff 里有 ✓。
+
+  卡12 的"与 10_raw 注册件同文同 3466 行"：10_raw 里只有机会预判的 OCR 图文件，没有同文口述 txt 注册件。执行报告声称"与 10_raw 注册件同文同 3466 行"——但 10_raw/yitang-lectures 里没有 一堂-机会预判课-Truman-口述.txt。让我再全库找一下是否有注册件。
+
+  实际上 #614 裁定原文说："真实源=「机会预判课」，内容主体可信"，且 #614 验证里说"卡 12 两张 source_refs 文件名死链实测不存在，真实源为「机会预判课」文件"。老顽童把 source_refs 改成了 00_inbox 下的机会预判课文件——文件存在、3466 行、引文行号全部命中。这就是真实源。执行报告那句"与 10_raw 注册件同文"可能不准确，但 source_refs 指向的文件真实存在且内容命中——FAIL 点（死链）已消除。查一下 10_raw 有没有注册件确认那句声称。
+
+• 卡 14 七条引文 7/7 逐字命中、月入过万已清。补查卡 12 执行报告称"与 10_raw 注册件同文"的准确性。10_raw/sources/src_20260606_c996cb6a-一堂-机会预判课-truman-笔记.md
+10_raw/sources/src_20260606_f6cb0868-一堂-机会预判课-Truman-口述.md
+8fad7c9e220ffcf5772e26f9d51cf115 *00_inbox/一堂-机会预判课-Truman-口述.txt
+
+
+  3466 10_raw/sources/src_20260606_f6cb0868-一堂-机会预判课-Truman-口述.md
+   148 10_raw/sources/src_20260606_c996cb6a-一堂-机会预判课-truman-笔记.md
+  3614 total
+• diff 无输出且没说 SAME？实际逻辑：`diff A B >/dev/null && echo SAME || diff A B | head -5`——第一个 diff（tail -n +2）如果不同则进 || 分支跑第二个 diff；第二个 diff 无输出 = 两文件完全相同（3466 行一致）。所以 00_inbox 文件与 10_raw 注册件同文同 3466 行 ✓——执行报告声称属实。
+
+  全部 5 卡核验完毕：
+  - 卡1: 六段重写内容忠实 pitfalls.md P-15 ✓，source_refs 改 pitfalls.md ✓，5 条关联链接存在 ✓；但发现缺陷：两个重复「与其他知识的关联」节（L107/L119）——返工引入的结构缺陷
+  - 卡9: 两伪引文换真句，3/3 逐字命中 L1956/L2078/L2082 ✓
+  - 卡10: 指标表与源逐条一致 ✓，占位节全补齐 ✓，L1002 逐字命中 ✓，新 related 链接存在 ✓
+  - 卡12: 死链修复（文件存在、与 10_raw 注册件同文 3466 行）✓，⑦换 L2472/L2476 逐字 ✓，④改 L1912 逐字 ✓
+  - 卡14: 7/7 逐字命中 ✓，月入过万清除 ✓，Critique 节补齐 ✓
+
+  diff 归属核验：bf73d4560（12:50 vault backup）确实卷入 5 卡前段编辑（不只卡9——dk-p15 77行、ten-metrics 120行、validation 4行、overpromise 10行、business-prediction 8行都在其中），5188f296b（12:59）收口其余。合并 diff vs 496b7e27c 恰好=5 张目标卡，30_wiki 无其他改动、无脏文件。执行报告说"含卡 9 及 4 卡前段编辑，diff 均已核对"——属实。归属无异常：两个 commit 合起来=本次返工全集，无外来内容混入 30_wiki。（bf73d4560 还卷入 logs/todos 等 vault 常规文件，属 backup 常态。）
+
+  机械检查：跑 kdo pre-submit 5 卡独立复跑？执行报告声称 5/5 PASS。O3 牌——独立验证。试着跑一下（可能慢）。也可以跑 lint 对该 5 文件。试试 pre-submit。
+
+  还有例行：python kdo-tools/file-flow-check.py（终审例行）。跑一下。
+
+  关于卡1重复节：这是返工引入的结构缺陷。怎么判？选项：
+  A) FAIL 整单退回——5 卡中 4 卡完美，1 卡有结构重复节
+  B) PASS 记缺陷——重复节属格式/结构问题，非编造类
+
+  按 #614 裁定一致性原则：编造→降级；标注不准→PASS 记缺陷。重复节不是编造，是结构瑕疵。但它是本次返工新引入的（原来只有一个关联节，虽然内容是 src_unknown）。duplicate H2 会不会被 lint 拦？pre-submit 5/5 PASS 是老顽童声称，重复节可能只触发 WARNING 或不触发。
+
+  权衡：这个缺陷 5 分钟可修，但按写审分离我不能自己动手（O7）。退回整单为一个小结构瑕疵？#614 对卡13的处理模式是"PASS 记缺陷，落笔随修"。但这里没有"落笔随修"通道了——#615 落笔已完成。PASS 记缺陷的话缺陷要落 TODO/停车场。
+
+  再想：重复节对消费者的实际伤害=内容冗余、两个关联节链接集不同（一个 4 链接一个 4 链接，部分重叠）。不算阻塞性内容失真。我判：PASS B+（结构有返工引入的重复节缺陷），缺陷记入终审记录+落 TODO 给老顽童下次随修，或者……其实更干净的做法：判 PASS 但把"合并重复关联节"列为必须项写进终审记录+王语嫣收件箱抄送。
+
+  嗯，但要严格一点：FAIL 点销项本身全部成立，五卡内容失真（O0 红线）全部修复。重复节是 P1 结构问题。按分级：🟠 Medium 放行+TODO。我给 PASS B+，缺陷明确记录。
+
+  等等，还应该独立复跑 pre-submit 验证老顽童声称（O3）。跑一下，5 张卡。命令可能是 `kdo pre-submit -f <files>` 或 python 脚本。先 file-flow-check + pre-submit。
+
+• 五卡 FAIL 点全部核验通过。现在独立复跑机械门禁（O3 牌：不信报告，自己跑）。- [L5] `kimi-sicun-knowledge-base-review-2026-06-16.md` 命名不匹配 diag_YYYYMMDD_<author>-<slug>.md 模板
+- [L5] `medicine-cabinet-mall-applet-preliminary-deep-dive-2026-06-18.md` 命名不匹配 diag_YYYYMMDD_<author>-<slug>.md 模板
+- [L5] `proposal-self-learning-cron.md` 命名不匹配 diag_YYYYMMDD_<author>-<slug>.md 模板
+- [L5] `queue-health-report-20260809.md` 命名不匹配 diag_YYYYMMDD_<author>-<slug>.md 模板
+- [L5] `ref_20260816_ai-sales-collab-external-research.md` 命名不匹配 diag_YYYYMMDD_<author>-<slug>.md 模板
+- [L5] `retro_20260809_AI基本功_Feature思维_全链路复盘.md` 命名不匹配 diag_YYYYMMDD_<author>-<slug>.md 模板
+- [L5] `reverse-distillation-business-formula-skill-2026-07-12.md` 命名不匹配 diag_YYYYMMDD_<author>-<slug>.md 模板
+- [L5] `wangyuyan-diagnosis-capability-building-20260613.md` 命名不匹配 diag_YYYYMMDD_<author>-<slug>.md 模板
+- [L5] `wangyuyan-evaluation-of-huangyaoshi-laowantong-feedback-2026-06-18.md` 命名不匹配 diag_YYYYMMDD_<author>-<slug>.md 模板
+- [L5] `wangyuyan-research-capability-building-20260613.md` 命名不匹配 diag_YYYYMMDD_<author>-<slug>.md 模板
+- [L5] `wangyuyan-task-gap-analysis-2026-06-14.md` 命名不匹配 diag_YYYYMMDD_<author>-<slug>.md 模板
+- [L5] `复盘_20260621_战略域_冉鹏课程_全链路.md` 命名不匹配 diag_YYYYMMDD_<author>-<slug>.md 模板
+- [L5] `欧阳锋对电子资料归档整理及学习迭代的建议书.md` 命名不匹配 diag_YYYYMMDD_<author>-<slug>.md 模板
+- [L5] `电子工程系统提示词建议书.md` 命名不匹配 diag_YYYYMMDD_<author>-<slug>.md 模板
+- [L5] `电子工程顶层设计建议书.md` 命名不匹配 diag_YYYYMMDD_<author>-<slug>.md 模板
+
+
+• file-flow-check 输出都是存量 L5 命名建议（与本批无关的存量文件）。没有 doc_id 混用等阻断项针对本批 5 卡。好。
+
+  现在跑 pre-submit 独立复跑 5 卡。命令格式？可能是 `kdo pre-submit -f file1 file2...` 或带列表。试试。    📊 30_wiki/dark-knowledges/dk-p15-unverified.md
+       Quality pre-score: 40/100 | pos:N/A | tacit:0 (no section) | src:15 (1) | decomp:0
+    📊 30_wiki/frameworks/yt-product-kernel-validation.md
+       Quality pre-score: 70/100 | pos:N/A | tacit:5 (template?) | src:15 (2) | decomp:25 (6)
+    📊 30_wiki/tools/yt-product-kernel-ten-metrics.md
+       Quality pre-score: 65/100 | pos:N/A | tacit:5 (template?) | src:25 (4) | decomp:10 (1)
+    📊 30_wiki/concepts/concept-一堂-business-prediction.md
+       Quality pre-score: 15/100 | pos:0 | tacit:0 (no section) | src:15 (2) | decomp:0
+    📊 30_wiki/dark-knowledges/yt-product-kernel-overpromise-trap.md
+       Quality pre-score: 45/100 | pos:N/A | tacit:5 (template?) | src:15 (2) | decomp:0
+  [BODY_SRC_UNKNOWN]: 0 issues
+  [VLM_TWO_SECTION]: 0 issues
+  [CONCEPT_CROSSCHECK]: 5 warnings
+    🟡 30_wiki/dark-knowledges/dk-p15-unverified.md
+       本卡涉及已有概念：作方法（权威定义见 [[framework-yitang-case-crafting-four-step]]）、知识库（权威定义见 [[framework-kdo-mcp-server]]）、黄药师（权威定义见 [[framework-kdo-modeling-methodology]]）——请人工核对与权威定义的一致性（#542 提示制不拦截；小昭事故根因 3 降档版）
+    🟡 30_wiki/frameworks/yt-product-kernel-validation.md
+       本卡涉及已有概念：关键假设（权威定义见 [[framework-lean-abcd-model]]）、品内核（权威定义见 [[framework-lean-product-kernel]]）、键假设（权威定义见 [[framework-lean-abcd-model]]）、Truman（权威定义见 [[concept-five-step-growth-to-barrier-transition]]）、产品内核定义（权威定义见 [[yt-entrepreneur-product-core]]）——请人工核对与权威定义的一致性（#542 提示制不拦截；小昭事故根因 3 降档版）
+    🟡 30_wiki/tools/yt-product-kernel-ten-metrics.md
+       本卡涉及已有概念：产品内核十大典型指标（权威定义见 [[yt-model-product-core-metrics]]）、内核十大典型指标（权威定义见 [[yt-model-product-core-metrics]]）、品内核（权威定义见 [[framework-lean-product-kernel]]）、Truman（权威定义见 [[concept-five-step-growth-to-barrier-transition]]）、产品内核定义（权威定义见 [[yt-entrepreneur-product-core]]）——请人工核对与权威定义的一致性（#542 提示制不拦截；小昭事故根因 3 降档版）
+    🟡 30_wiki/concepts/concept-一堂-business-prediction.md
+       本卡涉及已有概念：Truman（权威定义见 [[concept-five-step-growth-to-barrier-transition]]）、科学决策（权威定义见 [[yt-management-scientific-decision]]）、Jobs to be Done（权威定义见 [[concept-christensen-jtbd-link]]）、attack（权威定义见 [[framework-kdo-self-attack]]）、个高概率方向（权威定义见 [[yt-foresight-addition-subtraction]]）——请人工核对与权威定义的一致性（#542 提示制不拦截；小昭事故根因 3 降档版）
+    🟡 30_wiki/dark-knowledges/yt-product-kernel-overpromise-trap.md
+       本卡涉及已有概念：Truman（权威定义见 [[concept-five-step-growth-to-barrier-transition]]）、产品内核定义（权威定义见 [[yt-entrepreneur-product-core]]）、内核定义（权威定义见 [[yt-entrepreneur-product-core]]）、一号位（权威定义见 [[concept-christensen-rpv-model]]）、作方法（权威定义见 [[framework-yitang-case-crafting-four-step]]）——请人工核对与权威定义的一致性（#542 提示制不拦截；小昭事故根因 3 降档版）
+  [QUOTE_VERBATIM]: 0 issues
+  [SOURCE_RANGE]: 0 issues
+
+  ✅ Result: PASS（9 条 WARNING 在列——有警在身，非全清，终审前自行掂量）
+     下一步：贴本输出到任务单 → 提交 → 欧阳锋终审（WARNING 明细如实附上）
+====================================================================
+
+pre-submit 独立复跑：PASS，BODY_SRC_UNKNOWN 0、QUOTE_VERBATIM 0、SOURCE_RANGE 0，WARNING 全部为 CONCEPT_CROSSCHECK 提示制（#542 不拦截）——与老顽童执行报告声称一致 ✓（报告还说 ALIASES 警告，这次输出没显示，可能在前面被截断；不重要，WARNING 不拦截）。
+
+  疑点：dk-p15-unverified Quality pre-score 40/100、business-prediction 15/100——这是存量 pre-score 启发式（pos/tacit/decomp 节缺失），不在 #617 FAIL 点范围，dk 卡也不要求那些节。记录不阻断。
+
+  卡1的重复「与其他知识的关联」节——pre-submit 没拦。我已实测确认 L107 和 L119 两个同题节。这是返工引入的结构缺陷。
+
+  裁决考量：
+  - 5 卡 FAIL 点销项全部成立（我逐条对源核验，含行号级）
+  - diff 归属核验：两 commit 合并=5 卡全集，无越界
+  - 机械门禁独立复跑 PASS
+  - 唯一缺陷：卡1 重复关联节（返工引入，结构冗余，非内容失真）
+
+  判：PASS。等级？按标准：A=6层交叉验证全过+≥3失败模式+外部对标完整；A-=深度达标有1-2处小遗漏；B+=结构完整但失败模式或外部对标不足。本单是返工修复单，不是新卡生产——评的是修复质量。修复全部命中、引文全部逐字、归属干净，但有 1 处返工引入的结构缺陷（重复节）。给 A- 合适（有 1 处小缺陷）。嗯，重复节算"小遗漏"级。判 PASS A-，缺陷记录+TODO 落点。
+
+  缺陷落点：我不能自己改卡（O7 写审分离）。处理：记入终审记录 +  todos 一行 + 抄送王语嫣时点名。要不要 FAIL 退回？权衡：#614 卡13 先例"缺陷落笔随修"是在落笔窗口内；现在落笔窗口已过。为一个重复节 FAIL 整单重走一轮（老顽童修 1 行+重报+我再审）成本高于缺陷本身；但它确实是"结构不完整"。我判 PASS A- + 缺陷记入终审记录，落点=建议下次落笔窗口随修（写入王语嫣抄送）。嗯……不过"建议"两个字出现 = 必须写建议书（出口自检钩子）！规则：建议书是给王语嫣的"任何方面建议"。这个重复节是单卡内容缺陷 → "内容类问题（单卡内容缺陷）→ 记录即可，走审查意见"。好，不算建议书触发。
+
+  其他发现有没有触发建议书钩子的？执行报告"与 10_raw 注册件同文同 3466 行"我验证属实。pre-score 低分是存量。没有基建/流程建议。无建议书义务。
+
+  流程收尾（O9：先落意见书再跑脚本）：
+  1. 任务单末尾加「终审记录」节
+  2. queue_transition.py review 617 --verdict pass --reviewer 欧阳锋 --grade A-
+  3. 五卡 status 翻转？任务单说"终审通过后按裁定翻转 status"——谁翻？老顽童执行报告"需要谁动作：欧阳锋终审 5 卡；终审通过后按裁定翻转 status"。翻转 status 是落笔动作。#614 时我"只下裁定不动卡片 frontmatter（写审分离）"，落笔归老顽童。那么 #617 审过后，5 卡从 enriched 翻回 reviewed 的落笔动作归谁？review_mark.py 是我可用的工具（"完成任务后 2. 更新卡片 frontmatter → 可用 review_mark.py 批量写"）。上下文里我的角色文件说审查后更新卡片 frontmatter 是我的完成动作（review_mark.py #218）。但 #614 边界明确"你只下裁定不动卡片 frontmatter"。#617 是返工重审——通过后 5 卡应恢复 reviewed + reviewed_by 欧阳锋 + review_date 今天。用 review_mark.py 是我的标准动作（context 文件"完成任务后"第 2 步）。queue_transition review 会自动补任务单的 reviewed_by/review_date，但卡片 frontmatter 需要单独处理。
+
+  嗯，谨慎：#614 的边界是针对补审裁定的（落笔归老顽童 #615）。#617 任务单写"终审通过后按裁定翻转 status"——"按裁定"翻转。谁来执行？终审记录里我可以指明：由我用 review_mark.py 翻转（我的标准完成动作），或者留给王语嫣编排。老顽童说"需要谁动作：欧阳锋终审 5 卡（FAIL 点逐条对照上表）；终审通过后按裁定翻转 status"——语气是翻转是终审后动作，没指名。我的角色文件标准流程就是审查后更新卡片 frontmatter（review_mark.py）。写审分离防的是"产卡 agent 审自己的卡"，我是审查者，翻 status 是审查闭环动作，不违反。用 review_mark.py 把 5 卡标 reviewed_by=欧阳锋、review_date=2026-09-02、status=reviewed。还要去掉 downgrade_reason？降级落笔是 #615 加的 downgrade_reason 字段——翻转时是否清除？保守：status: enriched→reviewed + reviewed_by/review_date/grade；downgrade_reason 保留作历史留痕？卡14 的 downgrade_reason 里有"月入过万"字样，执行报告说"全文无月入过万残留（仅 downgrade_reason 历史记录）"——他们认为保留。保留历史留痕合理，不动。
+
+  另外 grade 写哪？review_mark.py 支持 grade 吗？#614 需要谁动作里说"9 张 PASS 卡补 reviewed_by/review_date/grade（走 review_mark.py，非空不覆盖）"——说明 review_mark.py 支持 grade。5 卡统一 grade？逐卡给等级更准：卡9 A-、卡10 A-、卡12 A、卡14 A-、卡1 B+（重复节缺陷）。嗯，单任务单等级=A-（最低分原则）。逐卡 grade：卡1 B+、卡9 A-、卡10 A-、卡12 A、卡14 A-。脚本等级写 A-（整单）。
+
+  先看 review_mark.py 用法。然后：
+  1. 写终审记录节（先落盘 O9）
+  2. queue_transition review 617 pass --grade A-
+  3. review_mark.py 5 卡翻转
+  4. 抄送王语嫣收件箱（通过信息必须抄送）
+  5. todos 追加一行
+  6. dashboard 更新？有新增任务时才需要。队列划线脚本自动。
+
+  先读 90_control/AGENTS.md（system-reminder 要求）再改 90_control 下文件（todos 在 90_control 下）。usage: review_mark.py [-h] [--reviewer REVIEWER] [--confidence CONFIDENCE]
+                      [--dry-run]
+                      card
+
+Mark card as reviewed
+
+positional arguments:
+  card                  Card path relative to vault root
+
+options:
+  -h, --help            show this help message and exit
+  --reviewer REVIEWER
+  --confidence CONFIDENCE
+  --dry-run
+review_mark.py 只标单卡 reviewed（reviewer/confidence），不处理 status 从 enriched→reviewed？看下脚本内容确认它改哪些字段。另外 grade 字段它不支持。也许它只设 reviewed_by/review_date/status。让我快速看下脚本。
+
+  不过等等——关于卡片翻转的归属：#614 边界说"你只下裁定不动卡片 frontmatter（写审分离）；落笔由老顽童按你的裁定执行"。#617 任务单执行报告"需要谁动作：欧阳锋终审 5 卡；终审通过后按裁定翻转 status"。模糊。安全做法：我审查通过，卡片 status 翻转是"落笔"动作——但 reviewed_by=欧阳锋 的标记历来是我的动作（review_mark.py 是我工具箱里的）。而 status: enriched→reviewed 这个翻转…… review_mark.py 大概就干这个。看脚本。#!/usr/bin/env python3
+"""
+review-mark -- Ouyang Feng review mark CLI.
+Usage:
+  python review_mark.py card.md --reviewer OuyangFeng
+  python review_mark.py card.md --reviewer OuyangFeng --confidence 0.92 --dry-run
+"""
+import argparse, re, sys
+from pathlib import Path
+from datetime import datetime, timezone, timedelta
+
+VAULT_ROOT = Path(__file__).resolve().parent.parent.parent
+FM_RE = re.compile(r"^---\s*\n(.*?)\n---\s*\n", re.DOTALL)
+CST = timezone(timedelta(hours=8))
+
+def parse_yaml_fm(text):
+    try:
+        import yaml
+        return yaml.safe_load(text) or {}
+    except ImportError:
+        result = {}
+        for line in text.splitlines():
+            s = line.strip()
+            if not s or s.startswith("#"): continue
+            if ":" in s:
+                k, v = s.split(":", 1)
+                result[k.strip()] = v.strip().strip('"').strip("'")
+        return result
+
+def main():
+    parser = argparse.ArgumentParser(description="Mark card as reviewed")
+    parser.add_argument("card", help="Card path relative to vault root")
+    parser.add_argument("--reviewer", default="OuyangFeng")
+    parser.add_argument("--confidence", type=float, default=None)
+    parser.add_argument("--dry-run", action="store_true")
+    args = parser.parse_args()
+
+    cp = Path(args.card)
+    if not cp.is_absolute():
+        cp = VAULT_ROOT / cp
+    if not cp.exists():
+        print(f"ERROR: not found: {cp}", file=sys.stderr)
+        sys.exit(1)
+
+    content = cp.read_text(encoding="utf-8")
+    m = FM_RE.match(content)
+    if not m:
+        print("ERROR: no frontmatter", file=sys.stderr)
+        sys.exit(1)
+
+    fm_text = m.group(1)
+    body = content[m.end():]
+
+    now = datetime.now(CST).strftime("%Y-%m-%d")
+    updates = {"status": "reviewed", "reviewed_by": args.reviewer, "review_date": now}
+    if args.confidence is not None:
+        updates["confidence"] = args.confidence
+
+    new_lines = []
+    updated = set()
+    for line in fm_text.splitlines():
+        s = line.strip()
+        matched = False
+        for key, val in updates.items():
+            if s.startswith(key + ":") or s.startswith(key + " "):
+                new_lines.append(f"{key}: {val}")
+                updated.add(key)
+                matched = True
+                break
+        if not matched:
+            new_lines.append(line)
+    for key in updates:
+        if key not in updated:
+            new_lines.append(f"{key}: {updates[key]}")
+
+    new_fm = "---\n" + "\n".join(new_lines) + "\n---\n"
+    new_content = new_fm + body
+    rel = cp.relative_to(VAULT_ROOT).as_posix()
+
+    if args.dry_run:
+        print(f"[DRY RUN] {rel}:")
+        for k, v in updates.items():
+            print(f"  {k}: {v}")
+    else:
+        cp.write_text(new_content, encoding="utf-8")
+        print(f"OK {rel}")
+        for k, v in updates.items():
+            print(f"  {k}: {v}")
+
+if __name__ == "__main__":
+    main()
+review_mark.py 把 status→reviewed、reviewed_by、review_date。正好完成"翻转 status"动作。它不写 grade（没关系，grade 落任务单终审记录）。这是审查者标准工具（我的角色文件明确授权"可用 review_mark.py 批量写"）。
+
+  注意：它 reviewer 默认 "OuyangFeng"，我传 --reviewer 欧阳锋。
+
+  顺序（O9：先落意见书再跑脚本）：
+  1. 任务单末尾写「终审记录」节
+  2. queue_transition.py review 617 --verdict pass --reviewer 欧阳锋 --grade A-
+  3. review_mark.py ×5 卡（--reviewer 欧阳锋）
+  4. 抄送王语嫣收件箱（一行指针）——王语嫣收件箱在哪？应该是 90_control/todos/wangyuyan.md。之前记录说"通过已抄送王语嫣收件箱"。
+  5. todos/ouyangfeng.md 追加一行
+  6. 技能进化日志 + Truman 复盘 + daily-context-save（会话结束强制动作）
+
+  写终审记录内容：
+
+  ## 终审记录（2026-09-02 欧阳锋 · #617 复审）
+
+  **结论：PASS A-**（5/5 FAIL 点销项成立，1 处返工引入结构缺陷记缺陷不阻断）
+
+  **复审方法（v2.3 复审对照法）**：逐条对照 #614 裁定表 FAIL 点，先只读 diff（496b7e27c..HEAD），再对每条新引文 grep -F 逐字对源。
+
+  **FAIL 点销项核验**（行号级证据）：
+  - 卡1 dk-p15-unverified：六段+关联节重写，内容逐条对 `.agent/pitfalls.md` P-15（L212-226）命中（断链<10/359、三角验证 L224、目标值当实测值 L217、格式工整放松警惕 L218、P-10 对称 L226）；source_refs 改 pitfalls.md；5 条新关联链接全存在
+  - 卡9 yt-product-kernel-validation：①L1956 逐字命中；②L2078+L2082 逐字命中（3/3）
+  - 卡10 yt-product-kernel-ten-metrics：十大指标+一句话说明与 src_20260510_5ef61f8f 逐条一致（10/10）；L1002「最重要的是这三个参数」逐字命中；4 占位节+操作步骤+目的+不要用的场景全补齐；新 related 5 链接全存在
+  - 卡12 concept-一堂-business-prediction：①source_refs 改指 00_inbox 机会预判课两文件（存在，口述 3466 行，与 10_raw 注册件 src_20260606_f6cb0868 diff 全同）；②⑦伪矩阵引言删，换 L2472/L2476 逐字；③④改「建议差1最多差3」L1912 逐字
+  - 卡14 yt-product-kernel-overpromise-trap：7/7 逐字命中（L534/L540/L542/L544/L468/L480/L528）；「月入过万」正文零残留（仅 downgrade_reason 历史留痕）；Critique 节补齐
+
+  **diff 归属核验**：合并 diff（496b7e27c..HEAD）恰好=5 张目标卡，30_wiki 无其他改动、无脏文件。bf73d4560（12:50 vault backup）卷入 5 卡前段编辑（含卡9 两引文修复 4 行+其余 4 卡主体），5188f296b（12:59）收口余量——两 commit 并集=本次返工全集，归属无异常。
+
+  **独立复跑**：kdo pre-submit 5/5 PASS（BODY_SRC_UNKNOWN 0 / QUOTE_VERBATIM 0 / SOURCE_RANGE 0；WARNING 均为 CONCEPT_CROSSCHECK 提示制不拦截）。
+
+  **缺陷（不阻断）**：
+  1. 卡1 返工引入两个「## 与其他知识的关联」节（L107/L119 同题重复，链接集略异）——结构缺陷，落笔窗口合并其一（随下次落笔或王语嫣编排小修）
+  2. 卡9 frontmatter `source_context` 键重复两次（存量，yaml.safe_load 取后者不报错）——非本 diff 引入，记录
+  3. 卡10 frontmatter related 仅 2 条（正文关联节 5 条）——存量不一致，未入 FAIL 清单未动
+
+  **残余风险**：卡10「关键洞察」新增「指标异常说明」列（如"声音变现案例同款病灶"）系生产者基于源的合理外推，非逐字源文——已按转述标准审，无引号包装。
+
+  **动作**：queue_transition review 617 pass A-；5 卡 review_mark 翻转 status: enriched→reviewed + reviewed_by 欧阳锋 + review_date 2026-09-02；通过抄送王语嫣。
+
+  等级：逐卡——卡1 B+（重复节）、卡9 A-、卡10 A-、卡12 A、卡14 A-；整单 A-。
+
+  关于缺陷1的处理：我说"落笔窗口合并其一"——这是建议吗？单卡内容缺陷 → 走审查意见记录即可。但谁去修？我不修（O7）。写入终审记录+抄送王语嫣由她编排。好。
+
+  先写终审记录。任务单文件是 CRLF。用 Edit 在末尾追加。用 Write append 模式。文件是 CRLF 混合。append 内容用什么换行？Write 输出字面量，\n 保持 LF。混着吧，或者保险起见读一下最后一行的行尾——前面 Read 显示是 \r 行（CRLF）。append LF 会造成混合行尾。仓库里混合行尾常见，但尽量保持一致：append 时用 \r\n？Write content 里我可以写 \r\n。麻烦。用 Edit 替换最后一行更可控。最后一行是 "✅ 执行报告无负向断言词（检查面=执行报告节）\r"（L72）。用 Edit 在其后追加。
+
+  其实 append 更简单，混合行尾在这个仓库普遍（文件本来就是 "Mixed or lone carriage-return"）。用 Write append + \n。算了，尊重现状用 Edit 带 \r\n。
+
+  Edit old_string 需要精确含 \r。最后一行："✅ 执行报告无负向断言词（检查面=执行报告节）\r"。
+
+  现在动手。步骤 1：终审记录落盘。
+
+• `review_mark.py` 正好做 status 翻转三字段。按 O9 先落终审意见书，再跑脚本。
+
+任务 617 不在队列中
+• Script says "任务 617 不在队列中". O3: 读错误信息。Queue row exists (line 251 shows | 617 | task_20260902_laowantong-614-downgraded-cards-rework | pending_review). Maybe need full task id. O-3 教训：纯数字 task_id 漏匹配，传全名。Try full id.✅ task_20260902_laowantong-614-downgraded-cards-rework 终审通过，状态更新为 reviewed，等级 A-
+📌 提醒：5 张交付卡待 review_mark 转正：`30_wiki/dark-knowledges/dk-p15-unverified.md`、`30_wiki/frameworks/yt-product-kernel-validation.md`、`30_wiki/tools/yt-product-kernel-ten-metrics.md`、`30_wiki/concepts/concept-一堂-business-prediction.md`、`30_wiki/dark-knowledges/yt-product-kernel-overpromise-trap.md`（终审通过不自动转正——自动转正涉及代写卡片 frontmatter 权限边界，请生产方手动回填）
+✅ dashboard.html 已生成 (200 个任务)
+   待领取: 0  |  审查中: 0  |  进行中: 0  |  已完成: 200
+脚本过了，但它提醒：review_mark 转正"请生产方手动回填"——终审通过不自动转正，涉及代写卡片 frontmatter 权限边界。这与我的角色文件"完成任务后 2. 更新卡片 frontmatter（review_mark.py 可用）"有张力。脚本（新版机制）明确说权限边界归生产方。而 #614 的边界也是"落笔归老顽童"。遵循更新的机制：不代写，由老顽童回填。脚本提醒=机制口径，服从。那"需要谁动作"：老顽童回填 5 卡 frontmatter（status/reviewed_by/review_date）。我在终审记录里已写"5 卡 review_mark 翻转"作为我的动作——需要修正终审记录，改为"老顽童回填"。
+
+  改一下终审记录最后一行。然后：
+  - 抄送王语嫣收件箱（90_control/todos/wangyuyan.md 加一行）
+  - 通知老顽童（todos/laowantong.md 加一行？——回填动作归他）
+  - 自己 todos 追加完工行
+  - 技能进化日志一行
+  - Truman 11 章复盘 + daily-context-save
+
+  先修正终审记录末行。Script updated frontmatter (status: reviewed, reviewed_by, review_date, grade). Now fix the last line's "动作" — review_mark 翻转归生产方（脚本口径），改为"老顽童回填"。Now: 抄送王语嫣收件箱（90_control/todos/wangyuyan.md 追加一行）+ 通知老顽童回填（todos/laowantong.md）+ 自己 todos 追加完工行。先看看王语嫣和老顽童 todos 的尾部格式。- [2026-09-02 13:07] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-02 13:00:23｜task_20260902_laowantong-614-downgraded-cards-rewo
+- [2026-09-02 13:09] 🕐 值守拍：#617 完工提审→拉欧阳锋（卡9 改动被 vault backup 扫带入仓已提请他核验 diff 归属）
+- [2026-09-02 13:12] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#617（laowantong 的单，挂审 12min）（到点（节奏 30min））
+===
+[2026-09-02 13:00] #617 完成施工并提审（pending_review 等欧阳锋）：#614降级5卡FAIL点镜像销项——卡1 dk-p15五节+关联节按pitfalls.md P-15重写（source_refs改指真源）；卡9两处伪引文换L1956/L2078+L2082逐字；卡10核心指标表按源重写（获客销转/动销/捕获+服务留存/完课/退款/满意+复购复购/续费/推荐）+下半部占位节全补齐；卡12死链改机会预判课+⑦伪矩阵引言换L2472咖啡店排列组合逐字+④改建议差1最多差3(L1912)；卡14引文块改转述+真句（L534/L540/L542/L544/L528）+月入过万三处全删（换L468）+补Critique节；15条引文grep逐字命中15/15；yaml.safe_load 5/5；pre-submit 5/5 PASS（QUOTE_VERBATIM/SOURCE_RANGE/INDEX全0）；入仓commit 5188f296b+bf73d4560；五字段报告+销项对账表已落任务单；L9双验证过（队列行+frontmatter均pending_review）
+- [2026-09-02 13:02] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#617（laowantong 的单，挂审 2min）（到点（节奏 15min））
+- [2026-09-02 13:17] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#617（laowantong 的单，挂审 17min）（到点（节奏 15min））
+DONE
+Now session-end mandatory actions (from AGENTS.md for ouyangfeng):
+  0. 技能进化日志 — 追加一行到 桌面/agent复盘/欧阳锋/技能进化日志.md。Path: "桌面/agent复盘/欧阳锋/..." — 桌面 likely C:\Users\Administrator\Desktop, i.e. C:/Users/Administrator/Desktop/agent复盘/欧阳锋/技能进化日志.md? The directory listing showed `agent复盘/` in wiki root with subdirs 洪七公/老顽童/fengqingyang/Kimi/laowantong/wangyuyan. No 欧阳锋 there? Listing shows: 洪七公, 老顽童, fengqingyang, Kimi, laowantong, wangyuyan. Hmm, no ouyangfeng dir in wiki/agent复盘. The context file says `桌面/agent复盘/ouyangfeng/daily-context/YYYY-MM-DD.md`. So 桌面 = C:\Users\Administrator\Desktop. The wiki dir listing shows `agent复盘/` inside wiki though. Ambiguous. daily-context-save command: `--file 桌面/agent复盘/ouyangfeng/daily-context/YYYY-MM-DD.md`. Check if C:/Users/Administrator/Desktop/agent复盘 exists. But wait — I should not access files outside working directory unless instructed. The AGENTS.md explicitly instructs this path, so it's authorized.
+
+  Let me check both locations./c/Users/Administrator/Desktop/agent复盘/ouyangfeng
+/c/Users/Administrator/Desktop/agent复盘/欧阳锋
+AI基本功教练
+Kimi
+README.md
+_archive
+codebuddy
+codex
+duanwangye
+fengqingyang
+hongqigong
+huangyaoshi
+DEPRECATED.md
+===
+| 2026-09-02 | #608 终审 | schtasks 在 Git Bash 下 $ 变量被 shell 吃掉——写临时 ps1 再 -File 执行是正解；F-036 落点门禁按 emoji 字面匹配，否定句含 🟠/🟡 字样也拦——意见书避免在否定语境写 emoji；终审通过通知的抄送由系统探针 08:17 自动送达（matrix 行3），人工抄送只作兜底 | 踩坑教训 | #608 终审 |
+| 2026-09-02 | #611 终审：负向判词必须附存在性核查锚点节（#433 门禁真阳性拦截实证）；printf 追加中文长行复发转义事故→升格硬规则一律 python heredoc | 踩坑教训 | #611 终审实战 |
+| 2026-09-02 | #613 R1 复审：「口径漏扫」型 FAIL 复审标准动作——独立复扫脚本自写+类别计数四数字逐字对账（不共用生产者脚本）；佐证清单跨多文件时先问清单一式几份（三波任务单复数指针） | 方法升级 | #613 R1 复审实战 |
+| 2026-09-02 | #614 批量补审：裁定一致性原则成文（编造→降级/标注不准→PASS记缺陷）；14卡28分钟节奏=全量通读+4路并行溯源（逐条核对清单）+出口自检钩子；「无佐证」与「低质量」在该批相关度36%（5/14实质缺陷，伪引文3张） | 方法升级 | #614 批量补审实战 |
+| 2026-09-02 | #615/#616 终审：父 commit git worktree 对照实验=验证「失败与本改动无关」的默认手段（不动主工作树，比 stash 安全）；#433 门禁拦审查者自己=机制健康信号，终审记录含负向判词必须当场附存在性核查节 | 方法升级 | #615/#616 终审实战 |
+===
+cn-track-archive-20260819
+daily-context
+friction-log.md
+技能进化日志.md
+用户反馈档案.md
+索引.md
+能力雷达图.md
+错误模式库.md
+技能进化日志在 欧阳锋/ 目录。追加一行。注意之前教训：printf 追加中文长行有转义事故 → 升格硬规则一律 python heredoc。用 python heredoc 追加。
+
+  然后写 Truman 11章复盘到 桌面/agent复盘/ouyangfeng/daily-context/2026-09-02.md——注意命名铁律：复盘文件名只用角色名，ouyangfeng 目录。同一天文件追加还是新建？今天是否已有 daily-context/2026-09-02.md？看 ouyangfeng/daily-context。之前会话（#614/#615/#616 终审都是今天）可能已写过。命名铁律：同日多实例=同一 YYYY-MM-DD.md 追加。
+
+  让我查看。
+
+• 技能进化日志在「欧阳锋」目录，且有过 printf 中文追加转义事故——按教训用 python heredoc。先看今天的 daily-context 是否已存在。2026-08-26.md
+2026-08-27.md
+2026-08-29.md
+2026-08-31.md
+2026-09-02.md
+===
+389 /c/Users/Administrator/Desktop/agent复盘/ouyangfeng/daily-context/2026-09-02.md
+
+
+• 今天的 daily-context 已有 389 行（前面会话写过）。命名铁律：同日追加。用 python heredoc 追加技能进化日志一行 + daily-context 追加本次 #617 会话段。
+
+  Truman 11章格式见 agents/agent-os.md §10.2。我不知道确切 11 章标题。让我查 agent-os.md §10.2 的格式。之前会话的同文件已有格式，直接看今天文件的章节标题作模板更准。11:# ouyangfeng · 2026-09-02
+16:# ouyangfeng · 2026-09-02
+18:# 欧阳锋 daily-context 2026-09-02（kimi CLI · 全日合并版：#603/#597/#604/#609 PASS + #605 FAIL）
+20:## 1. 差异栏
+24:## 2. 概要
+29:## 3. 关键决策
+35:## 4. 思维盲点
+41:## 5. 顿悟
+45:## 6. 过程资产
+54:## 7. 元反思
+58:## 8. 逐轮映射
+68:## 9. 飞轮效应
+72:## 10. 对照实验
+76:## 11. 下次改进
+82:## 本会话发现的问题
+91:# 会话补记：#605 R1 返工复审（07:09-07:15 kimi CLI）
+93:## 补记-1. 差异栏
+97:## 补记-2. 概要
+101:## 补记-3. 关键决策
+106:## 补记-4. 思维盲点
+110:## 补记-5. 顿悟
+114:## 补记-6. 过程资产
+119:## 补记-7. 元反思
+123:## 补记-8. 逐轮映射
+131:## 补记-9. 飞轮效应
+135:## 补记-10. 对照实验
+139:## 补记-11. 下次改进
+144:## 补记-本会话发现的问题
+151:# 补记-第二段（07:22→07:47 CLI 实例）：#607+#610 双单连审
+153:## 补记2-1. 任务与差异
+文件已有多个会话段，用「补记」格式追加 11 章。用 python heredoc 追加：
+
+  1. 技能进化日志一行
+  2. daily-context 补记段（11 章）
+
+  然后跑 daily-context-save save --agent ouyangfeng --truman --file 桌面/agent复盘/ouyangfeng/daily-context/2026-09-02.md。期望 🟢/🟡。
+
+  写内容。11 章：1 差异栏 / 2 概要 / 3 关键决策 / 4 思维盲点 / 5 顿悟 / 6 过程资产 / 7 元反思 / 8 逐轮映射 / 9 飞轮效应 / 10 对照实验 / 11 下次改进。加「本会话发现的问题」节（对应出口自检）。log appended
+daily-context appended
+❌ 文件不存在：桌面/agent复盘/ouyangfeng/daily-context/2026-09-02.md
+"桌面" literal path doesn't exist relative to wiki. The real path is C:\Users\Administrator\Desktop\agent复盘\... Pass absolute path.✅ 已保存：C:\Users\Administrator\Desktop\agent复盘\ouyangfeng\daily-context\2026-09-02.md
+✅ 已存档：60_feedback\session-archives\2026-09-02\ouyangfeng.md
+📋 自检：🟢 A级 📚检索有发现
+✅ 事件 #838 已写入: agent=ouyangfeng event=review_saved
+🧪 胶囊 L0 已留痕: agent=ouyangfeng event=review_saved
+✅ A → B 镜像完成: C:\Users\Administrator\.kdo-memory\L1 → D:\KDO-memory\L1-backup（robocopy /MIR，exit 1）
+✅ verify PASS：B 镜像文件 hash 全一致；从 B 打开 integrity=ok 行数 833（A 同 833）
+自检 🟢 A 级。全部强制动作完成：
+  1. ✅ 终审记录落任务单（O9 先意见书后脚本）
+  2. ✅ queue_transition review 617 pass A-（frontmatter/队列/dashboard 三处同步）
+  3. ✅ 王语嫣抄送 + 老顽童回填通知
+  4. ✅ todos/ouyangfeng.md 追加完工行
+  5. ✅ 技能进化日志一行
+  6. ✅ Truman 11章复盘追加 + save 🟢
+
+  三问（启动文件要求）：①新资产：#617 终审记录+核验方法行 ②新问题：重复 H2 节无门禁、review_mark 权限口径变更 ③下次记住：跨 commit 任务先算并集 diff。
+
+  收尾汇报。
+
+• 收工。#617 终审闭环，自检 🟢 A 级。
+
+  **终审结论：PASS A-**（5/5 FAIL 点销项成立）
+
+  **销项核验**（逐条对照 #614 裁定表，O0 行号级对源）：
+
+  - **卡 9**（validation）：两处伪引文已换真句——L1956/L2078/L2082 三处 grep -F 逐字命中 ✅
+  - **卡 10**（ten-metrics）：核心指标表按源重写，十大指标+一句话说明与 `src_20260510_5ef61f8f` 10/10 逐条一致，「最重要的是这三个参数」L1002 逐字命中，4 个占位节全补齐 ✅
+  - **卡 12**（business-prediction）：三处全修——source_refs 改指真实源（00_inbox 机会预判课，与 10_raw 注册件 diff 全同 3466 行）、⑦伪矩阵引言换 L2472/L2476 逐字、④改「建议差1最多差3」L1912 逐字 ✅
+  - **卡 14**（overpromise-trap）：7/7 引文逐字命中（L534/540/542/544/468/480/528），「月入过万」正文零残留，Critique 节补齐 ✅
+  - **卡 1**（dk-p15）：六段重写内容逐条对 `.agent/pitfalls.md` P-15 原文（L212-226）命中，5 条新关联链接无死链 ✅
+
+  **diff 归属核验**：`bf73d4560`（12:50 vault backup）确实卷入卡 9 修复+其余 4 卡前段编辑，`5188f296b`（12:59）收口——两 commit 并集对基线（`496b7e27c..HEAD`）恰好=5 张目标卡，30_wiki 无混入、无脏文件，归属干净。
+
+  **独立复跑（O3）**：pre-submit 5/5 PASS（QUOTE_VERBATIM/SOURCE_RANGE/BODY_SRC_UNKNOWN 全 0），与执行报告声称一致。
+
+  **缺陷记录（不阻断）**：卡 1 返工引入两个同题「与其他知识的关联」节（L107/L119 需合并其一）——已落审查意见并抄送王语嫣；卡 9 `source_context` 重复键、卡 10 frontmatter related 与正文不一致为存量，仅记录。
+
+  **流转**：任务单终审记录节已落（先意见书后脚本）→ `queue_transition review` 通过（frontmatter/队列/dashboard 三处同步）→ 通过信息抄送王语嫣收件箱；5 卡 frontmatter 转正按脚本权限口径归老顽童回填（已通知）。 todos 已追加完工行，技能进化日志+Truman 11 章复盘已落盘（🟢 A 级）。
+
+  **启动三问**：① 新资产=#617 终审记录（含 5 卡行号级核验表）+ diff 归属核验口径（并集对基线=范围全称验证）；② 新问题=重复同题 H2 节无门禁覆盖、review_mark 转正权限已移生产方（机制口径变更）；③ 下次记住=跨 commit 任务先算并集 diff 再评价，单看一个 commit stat 会低估返工量。
+
+To resume this session: kimi -r session_268b2fa7-2d09-4ee4-abe1-037164954aaa
