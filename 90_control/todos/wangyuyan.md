@@ -489,3 +489,6 @@
 - [2026-09-02 15:47] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
 - [2026-09-02 15:57] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-02 15:52:00｜role-liveness｜fengqingyang 全实例疑似死亡（stale: [('kimi-
 - [2026-09-02 16:17] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-02 16:27] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-02 16:27:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cl
+- [2026-09-02 16:47] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-02 16:47] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-02 16:42:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cl
