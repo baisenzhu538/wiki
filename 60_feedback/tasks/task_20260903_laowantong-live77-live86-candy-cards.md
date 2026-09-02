@@ -1,19 +1,22 @@
 ---
-id: task_20260903_laowantong-live77-live86-candy-cards
-title: Live77 国帅课程创作生产线卡组 + Live86 Candy 加餐对账（Agent 创建模版增量）+ WorkBuddy 流水线卡门禁转正复核
-seq: 626
-status: pending_review
-assignee: laowantong
-created_by: wangyuyan
-created_at: 2026-09-03
-decision_source: 老朱 09-03 01:17 问责 inbox 漏检 → 王语嫣分诊立项（门铃 v3 已补 INBOX 扫描面）
-reviewer: 欧阳锋
-source_refs:
-- 00_inbox/AI落地Live77-国帅课程创作心路历程-逐字稿.md
-- 00_inbox/AI落地Live86-Candy-kinda龙虾员工实践+Agent创建模版-逐字稿.md
-- 00_inbox/pending-cards/case-wechat-article_tt_af50baaada5fc2f2.md
-instance: laowantong
-updated_at: '2026-09-02T19:58:06.104957+00:00'
+id: task_20260903_laowantong-live77-live86-candy-cards
+title: Live77 国帅课程创作生产线卡组 + Live86 Candy 加餐对账（Agent 创建模版增量）+ WorkBuddy 流水线卡门禁转正复核
+seq: 626
+status: reviewed
+assignee: laowantong
+created_by: wangyuyan
+created_at: 2026-09-03
+decision_source: 老朱 09-03 01:17 问责 inbox 漏检 → 王语嫣分诊立项（门铃 v3 已补 INBOX 扫描面）
+reviewer: 欧阳锋
+source_refs:
+- 00_inbox/AI落地Live77-国帅课程创作心路历程-逐字稿.md
+- 00_inbox/AI落地Live86-Candy-kinda龙虾员工实践+Agent创建模版-逐字稿.md
+- 00_inbox/pending-cards/case-wechat-article_tt_af50baaada5fc2f2.md
+instance: laowantong
+updated_at: '2026-09-02T20:20:51.841645+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-09-02'
+grade: B+
 ---
 
 # #626 Live77 + Live86Candy + WorkBuddy 卡（老顽童）
@@ -69,3 +72,39 @@ updated_at: '2026-09-02T19:58:06.104957+00:00'
 ### ③ 负向判词 / ④ 存在性核查
 
 🔴 意见书含负向断言（缺失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
+
+## 终审记录（2026-09-03 04:16 欧阳锋 · methodology v2.3）
+
+**verdict**: PASS　**grade**: B+　**blocking**: 无 🔴/🟡 阻断　**residual_risks**: 自攻击缺证（E018 如实披露）+ framework 卡 Critique/Action Triggers 节缺（KF-024 未强制）
+
+### 五维评分（0-100，合计 84 → B+）
+
+- 溯源完整 22/25：单一来源口述/Candy 整理形态，卡内已如实降级标注；#322 双标注、Live86 一等锚、密级声明在位
+- 逻辑骨架 20/25：KF-024 结构全达标（framework 适用边界+失败模式+When NOT to Use；method 操作步骤+判断标准；tool 使用步骤+When NOT to Use+失败模式；case 关键数字+证据表）；v2.3 的 framework Critique/Action Triggers 节缺（KF-024 未强制 → 记 🟠 TODO）
+- 暗知识密度 17/20：dk 七段全齐 + 双攻击者 Critique
+- 可操作性 12/15：tool 卡 6 步 + 判断标准 + 失败模式齐
+- 表达质量 13/15：口诀化、证据表、跨案例实证到位
+
+### 核心裁定
+
+1. **#630 修订单口径已落实**（本次指令重点）：Live86 对账一等锚=原稿、Candy 版仅定位模版增量、Live77 无原稿 Candy 即一手——三处均按修订单执行，tool 卡 source_context「一等锚」声明在位。
+2. **Live86 模版增量判定成立**：原稿白皮书段 L207-215 仅五要素级，模版核心节在原稿 0 命中；完整模版仅存 Candy 合集版附录（L731+）→ 补 tool 卡真增量成立。
+3. **WorkBuddy 门禁判定正确**：事实层扎实 → 补齐转正，卡内 self-report 降级（trust_level low / 0.65 + 二手文章标注）在位。
+4. **Live77 三卡**：Candy=唯一一手源标注三卡全在位。
+
+### **存在性核查**（#433 负向判词逐条核）
+
+- 「自攻击无落盘证据」：git log 近 12 提交无 self-attack 报告/修复文件；执行报告边界节明示前实例进程死亡——负向断言成立，属 E018 如实披露（非伪造）。
+- 「原稿模版核心节 0 命中」：grep 原稿（442 行）灵魂校验/初始化清单/任务分级/通用技能/权限三层均 0 命中，白皮书段 L207-215 仅五要素级——与报告一致。
+- 「完整模版仅存 Candy 版」：grep 合集版（726 行）初始化清单 L1144/灵魂校验 L1150/任务分级 L898/通用技能 L837 均命中；根目录版（32442B）模版节为空标题、正文缺失——与报告一致。
+
+### 边界与去向（F-036）
+
+- 🟡 自攻击缺证（前实例进程死亡）：已如实披露（E018 合规），本终审以独立从严审代偿（源存在性+grep+跨源核验）。**去向**：记档于本记录，不另立单。
+- 🟠 framework 卡缺 Critique/Action Triggers 节（v2.3 方法论要求，KF-024 未强制）：**去向**：TODO，随 #629 同角色批次补齐。
+- 🟠 生产侧报告负向断言无显式「存在性核查」锚（同口径提示，非缺陷）：本终审已在本记录补齐锚点闭环。**去向**：TODO 观察项，不需返工。
+
+### 需要谁动作
+
+- 王语嫣：#626 PASS 编排归库（五卡转正）；#630 修订单口径随本单核销。
+- 老顽童：framework 卡补 Critique/Action Triggers 节随 #629 批次执行（非阻塞）。
