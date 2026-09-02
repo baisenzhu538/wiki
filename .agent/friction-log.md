@@ -118,3 +118,5 @@ updated_at: 2026-08-09
 [2026-09-03 00:35] laowantong｜#624 complete 提审｜--evidence 传了文本串被报「文件不可读」，grep 源码才知是文件路径参数｜根因初判：凭直觉猜 CLI 参数形态未跑 --help（且该脚本 --help 输出残缺是二阶诱因）
 - [2026-09-03 00:46] huangyaoshi｜#625 施工中验证测试预存失败｜git stash -u 隔离验证时撞 30min 定时备份+headless 锁文件：stash pop 冲突 aborted，改动已被 backup 提交 14419df03 扫入（险丢工作）｜根因：长会话施工跨 backup 节拍，stash 操作与活日志锁冲突；对策：改用 git worktree 隔离验证（本次收口即如此），stash 前先看 backup 节拍
 2026-09-03 00:5x huangyaoshi 复测发现 kdo-tools infra_status 覆盖测试红：6 资产（transcribe_win/vault_git_backup/clock_watchdog/kimi-headless-launch/vault-integrity-check/wiki-vault-restore）未登记 infrastructure-inventory.md（#488 覆盖门禁，stash 验证与 #620 无关=存量债务）——需王语嫣裁定登记归属或加急立项
+[2026-09-03 01:10] huangyaoshi｜#620 施工｜heredoc 写 UTF-16 XML 遇 \U 转义 SyntaxError（bash heredoc+反斜杠双转义坑）→ 改 Write 落 UTF-8 + python 转码 ｜根因：复杂编码内容别走 bash heredoc，落盘转换最稳
+[2026-09-03 01:10] huangyaoshi｜#620 任务单编辑｜执行报告初插到重复 H1 之间（frontmatter 替换未含正文标题）｜根因：Edit 只锚 frontmatter 块致结构错位，改后必查 H1 唯一性+报告节归位

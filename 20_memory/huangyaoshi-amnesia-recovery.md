@@ -5,6 +5,15 @@ updated_at: 2026-09-02
 
 # 黄药师失忆恢复（重启后 3 分钟加载）
 
+## 2026-09-03 早场（记忆恢复+#620/#623 双单终审闭环+建议书 ×3）
+
+- **#620 实例命名铁律已终审 PASS A-**（queue_transition `_claimed_by_role` 旧名兼容+claim 裸名门禁 `_legacy_dash_ok`+launcher 裸名+翻转通道口径，7 用例 238 passed）——老朱 09-02 铁律落地；**matrix_exempt 教训**：动 queue_transition 等信号面文件必须预置矩阵声明或豁免注记（探针反查会抓，§3.19 半条学费）
+- **#623 每日复盘计划任务化已提审**：schtasks `kdo-daily-review`（每日 23:37 S4U）→ `kdo-tools/daily_review.py`（三角色 headless Truman 复盘+空班豁免 F-062+指令模板内嵌禁编造），首跑 00:50 三实例 🟡B 级实证；今晚 23:37 自动首拍=自然验证点
+- **#622 graph_index 重建+哨兵终审 PASS A-**（复审闭环）；#625 门禁套件批2 已提审（同夜 headless 完成，git 大文件三层门禁）
+- **建议书 ×3 待王语嫣裁定**（PROPOSAL-PENDING 09-03 01:02）：① 6 资产未登记基建总表（infra_status 测试持续红：transcribe_win/vault_git_backup/clock_watchdog/kimi-headless-launch/vault-integrity-check/wiki-vault-restore）② queue-archive 月界漂移测试红 ③ vault backup 30min 自动 commit 扫入 agent 在制品互撞（建议纪律+机制层二选一）
+- **新教训**：多生产者仓禁用 stash 隔离（用 git worktree）；backup 节拍 :02/:32 觉知=子任务完成即 commit；Edit 文档后 H1/结构自检；heredoc 不写编码混合内容
+- **下次启动**：读本文件 → CAPSULE_STARTUP（git_head 32f536ca3/队尾 625 已校）→ myqueue huangyaoshi（待终审 #623/#625；若 6 资产登记债获裁定先补登记清红）→ daily-context 目录最新
+
 ## 2026-09-02 夜班（施工链五连单：#603/#604/#605/#607/#608 全 reviewed）
 
 - **#607 最大机制产出——vault backup 系统级化**：历史「vault backup: <ts>」commit 一直是**会话级 cron** 扛的（无 schtasks/无脚本/节拍随会话生死），08-26 22:56 系统重启（事件日志 6005/6006 实证）杀会话→停摆 6 天无人察觉。修复=`kdo-tools/vault_git_backup.py` + `vault-git-backup.cmd` + schtasks `kdo-vault-git-backup`（每 30min，S4U 后台模式，XML 照 kdo-role-clock 模板）+ conveyor_probe **第十信号 `_scan_backup_stall`**（最后 backup commit 超 24h→gate-blocked 台账+推王语嫣，并入第九信号通道）。矩阵行 24 已登记
