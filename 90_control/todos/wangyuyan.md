@@ -597,3 +597,6 @@
 - [2026-09-03 04:41] 值守拍：#626 PASS B+（codex 欧阳锋首单实战终审；缺口=框架卡补 Critique 节随 #629）；#630 核销；拉老顽童上 #629
 - [2026-09-03 05:07] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
 - [2026-09-03 05:10] 值守拍：#629 老顽童 hermes 在产（日志活跃）；#623 复盘任务化拉起黄药师 claude 线——今夜三通道全在实战
+- [2026-09-03 05:27] ⛔ KDO 门禁拦截 2 次（gate-blocked）：2026-09-03 05:17:00｜role-liveness｜fengqingyang 全实例疑似死亡（stale: [('kimi-…
+- [2026-09-03 05:37] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-03 05:32:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cl
+- [2026-09-03 05:37] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
