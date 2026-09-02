@@ -1,0 +1,357 @@
+kimi version 0.39.1
+• Start recovery reads.
+
+• 先执行启动恢复，读取三份必读文件。
+
+• Need to read 90_control/AGENTS.md before writing to 90_control/todos/laowantong.md. Also gather 2026-09-03 material: today's entries in todos file (found: #624 at 00:29, PASS at 00:47, plus wakeups). Need git log since 2026-09-03 00:00 with 老顽童/laowantong, read agent-os.md §10.2 format, check if复盘 file exists, check 错误模式库.md existence.3b99aff84 2026-09-03 00:50 vault backup: 2026-09-03 00:50:00
+c4f89b7bb 2026-09-03 00:47 #620 任务单执行报告节归位（重复标题清理，by huangyaoshi）
+964fca727 2026-09-03 00:46 chore(queue): #620 complete by huangyaoshi
+7e17f26be 2026-09-03 00:46 #620 实例命名铁律落地：claim 裸名门禁+在途旧名 complete/release 兼容+launcher 裸名+7 回归用例（by huangyaoshi）
+ccba74277 2026-09-03 00:46 chore(queue): #624 review by 欧阳锋
+c998b39d6 2026-09-03 00:45 chore(queue): #622 review by 欧阳锋
+260bf08b1 2026-09-03 00:40 chore(queue): #625 complete by huangyaoshi-kimi
+37e4bea1e 2026-09-03 00:40 fix(#625): 执行报告交付物节去掉运行时台账路径反引号（E040 不误判交付物） by huangyaoshi
+4cfd64fa2 2026-09-03 00:39 feat(#625): 门禁套件批2——存量大文件清单(17件346.8MB,只出清单不动文件)+执行报告五字段 by huangyaoshi
+40ca70154 2026-09-03 00:39 todos+队列：00:40值守拍（双审拉起+回声清）
+52a1ff6d7 2026-09-03 00:38 chore(queue): #623 claim by huangyaoshi
+8aaf49d20 2026-09-03 00:38 chore(queue): #620 claim by huangyaoshi
+14419df03 2026-09-03 00:32 vault backup: 2026-09-03 00:32:48
+f26b422b9 2026-09-03 00:29 chore(queue): #624 complete by laowantong-kimi
+354d33e72 2026-09-03 00:29 #624 任务单：建模方案+pre-submit输出+五字段执行报告
+f5dfb8acf 2026-09-03 00:27 #624 Candy加餐增量补产：ROI搭档春节加课决策case卡（双标注）+GEO七步工具卡+4卡反向补链
+3f9190c5b 2026-09-03 00:22 vault backup: 2026-09-03 00:22:36
+58c998240 2026-09-03 00:21 chore(queue): #625 claim by huangyaoshi-kimi
+5864b51d9 2026-09-03 00:20 vault backup: 2026-09-03 00:20:00
+6d2fef8e2 2026-09-03 00:19 chore(queue): #622 complete by huangyaoshi-kimi
+0590ab1b2 2026-09-03 00:19 chore(queue): #622 claim by huangyaoshi-kimi
+705f947b1 2026-09-03 00:17 rework(#622): 终审FAIL收口——P0入仓实证(20ac959eb已含四件交付)+P1存在性核查节补位 by huangyaoshi
+20bd9c763 2026-09-03 00:12 vault backup: 2026-09-03 00:12:24
+3207c1d8d 2026-09-03 00:12 编排：#625门禁套件批2立项+#622FAIL返工拉起
+32ad337f5 2026-09-03 00:09 chore(queue): #624 claim by laowantong-kimi
+dd01d3e44 2026-09-03 00:08 编排：#624 Candy课后加餐增量补产（王语嫣同源误判更正，老朱纠偏成立）
+1b8c51348 2026-09-03 00:05 建议书(老顽童): git大文件门禁三层方案立项申请——391MB zip断push 3个月实证+存量46MB mp4漂移预警，待王语嫣裁定 by laowantong
+8319b6024 2026-09-03 00:02 vault backup: 2026-09-03 00:02:04
+The 2026-09-03.md file exists (first session, covering #624 00:29 提审 and 00:47 PASS). Now I need to write the new section 「# 老顽童 daily-context 2026-09-03（00:50 场）」 — this is a headless复盘 session itself (no session memory; the only activity today by me is this复盘 task). Today's material: #624 提审 00:29, PASS 00:47, plus wakeups at 00:07/00:22/00:37. Also a proposal commit 00:05 by laowantong (建议书 git大文件门禁). But wait — was that me? "建议书(老顽童): git大文件门禁三层方案立项申请" at 00:05 by laowantong — that's today's laowantong activity too. Let me check git log with author/committer for laowantong mentions, and also whether there are other commits containing 老顽童 today. From the log above: 1b8c51348 "建议书(老顽童): git大文件门禁三层方案立项申请 ... by laowantong" at 00:05. Also #624 commits by laowantong-kimi.
+
+  So today's laowantong work (2026-09-03 00:00-00:50):
+  1. 00:05: 建议书 git大文件门禁三层方案立项申请（391MB zip 断 push 3个月实证+46MB mp4漂移预警），待王语嫣裁定
+  2. 00:09 claim #624, 00:27/00:29 施工+提审, 00:47 终审通过 #624
+  3. This session (00:50 场): the Truman复盘 itself — headless, no session memory.
+
+  Let me check the proposal file and task单 for #624 to get details. The first section already covers #624's 施工 thoroughly. The new section (00:50 场) should cover: what happened in this session = the 复盘 itself + any material since 00:47? Actually the instruction: "搜集今日素材" — 00:05 建议书 might be from an earlier session today. The first section (本日第 1 次会话) was created at 2026-09-02T16:32 UTC = 2026-09-03 00:32 local, i.e., written by the #624 session at 00:32. So the 00:05 建议书 was also from that same session presumably (00:05 < 00:32). Hmm, but the first section doesn't mention the 建议书. Let me check what happened between 00:00-00:47 more carefully and what the current 00:50 场 session did (this session: just the 复盘).
+
+  Also need to read agent-os.md §10.2 for the 11-chapter format. Let me read that, plus check the proposal file, and check 错误模式库.md existence.191:### 10.2 唯一标准格式
+192-
+193-**所有 Agent 统一使用 Truman YAI 复盘法——以下 11 章缺一不可：**
+194-
+195-```
+196-## 差异栏（第 1 章，#268：本次 vs 上次复盘哪里不同——新的视角/复发的模式/被打破的假设。空白=重复自审，降级为 C 级）
+197-## 概要（一句话：今天做了什么）
+198-## 关键决策（表格：决策/理由/结果）
+199-## 思维盲点（≥1条：什么被漏掉了？每条追问"为什么漏掉"）
+200-## 顿悟（≥1条：什么基础认知被推翻了？）
+201-## 过程资产（新增/更新的文件路径清单）
+202-## 元反思（下次怎么做才能不一样？）
+203-
+204-## Truman复盘
+205-### 逐轮映射（表格：轮次/人做什么/双三角要素/AI做什么/双三角要素）
+206-### 飞轮效应（本轮加速了哪个回路？）
+207-### 对照实验（无人会怎样/无AI会怎样/合在一起怎样）
+208-### 下次改进（Agent自身改进/方法论卡更新）
+209-```
+210-
+211-> **为什么有差异栏**（2026-08-09 #268，ParamMem 调研）：反思多样性 > 重复反思。模板化复盘的隐患是"每次都写同样的话"，自审失去信息量。差异栏强制回答"这轮和上轮哪里不同"——新的视角、复发的模式、被打破的假设，任选其一，不可空白。
+212-
+213-**禁止使用任何其他复盘格式。** 各 Agent 的 `-context.md` 不得定义独立的复盘模板——全部引用本协议。
+214-
+215-### 10.3 执行时机
+216-
+217-**核心规则：会话结束时立即复盘，不设固定时间节点，不延迟到次日。**
+218-
+219-延迟复盘 = 降级复盘。逐轮映射和思维盲点离开会话上下文就失真。
+220-
+221-| 场景 | 规则 |
+222-|:--|:--|
+223-| **短会话**（同日开始并结束） | 会话结束 → 立即写完整 Truman 11章 → `daily-context/YYYY-MM-DD.md` |
+224-| **一日多会话**（同日开多次） | 每次会话结束 → 追加到同一个 `YYYY-MM-DD.md`，文件开头标注"本日共 N 次会话" |
+225-
+226-> **命名铁律（老朱 2026-08-25 拍板）**：复盘文件名与 session_id/instance 标记**只用角色名，禁工具名后缀**（`-kimi`/`-claude`/`-hermes` 一律不得使用——工具是变量，角色是恒量；工具名做机制键已咬人：INSTANCE_ROLE_MAP kimi→laowantong 误写 assignee，#497/#503 实证）。同日多实例=同一文件追加（见上表），不另开带后缀文件。历史带后缀文件不回改，只向前生效。
+227-| **长会话跨天**（如23:00→次日02:00） | 当天收尾前 → 写 **checkpoint 复盘**（简版：概要+当前进度+明天继续点，≥500B）。次日会话最终结束 → 写完整 Truman 11章，开头注明"承接 XX-XX 会话"。两份文件：`跨天日.md`（checkpoint）+ `结束日.md`（完整版） |
+228-| **无会话日** | 该 Agent 今天没有启动过 → 不强制复盘。review-check 自动跳过 |
+229-| **会话横跨多日**（长项目） | 每天写 checkpoint，最后一天完整复盘 |
+230-
+231-**兜底机制（防止遗漏）**：
+232-
+233-```
+234-L1 自查：Agent 次日启动 → 先检查昨天有没有复盘文件 → 没有？先补 checkpoint 再领任务
+235-L2 审计：每日 09:07 → 黄药师跑 review-check.py → 产覆盖率日报 → 未复盘者通报
+236-```
+237-
+238-### 10.4 质量等级（不是写了就算——要写到位）
+239-
+240-| 等级 | 标准 | review-check 输出 |
+241-|:--|:--|:--|
+242-| **A 级** | ≥3000B + 11章全有 + 盲点≥2条且每条追问了"为什么漏掉" + 差异栏非空白 | 🟢 深度复盘 |
+243-| **B 级** | ≥1500B + 8章以上 + 盲点≥1条 | 🟡 基本合格 |
+244-| **C 级** | 文件存在但不满足 B 级 / checkpoint 简版 / **差异栏空白（重复自审）** | 🔴 形式主义 |
+245-| — | 文件不存在 | ❌ 未复盘 |
+246-
+247-**Phase 1 里程碑**：连续 7 天全 Agent 复盘达到 B 级以上。
+248-**Phase 2 里程碑**：连续 7 天全 Agent A 级占比 ≥ 80%。
+249-
+250-### 10.4.1 域知识检索要求（B 级及以上强制）
+251-
+252-复盘中的「思维盲点」和「元反思」章节必须包含对知识检索行为的审视：
+253-
+254-- **B 级要求**：至少记录 1 次"本次对话中涉及域知识问题时，是否检索了 wiki"
+255-- **A 级要求**：至少记录 1 次"检索 wiki 后发现了什么之前不知道的内容 / 纠正了什么错误认知"
+256-
+257-**为什么**：Agent 天然倾向于凭训练数据记忆回答域知识问题，但训练数据 ≠ wiki 最新内容。不复盘检索行为 = 无法发现"Agent 在瞎说"的系统性风险。
+258-
+259-### 10.5 执行命令（会话结束时必须跑）
+260-
+261-```bash
+262-# 保存每日上下文到桌面数据包（路径固定，不可写错）
+263-python kdo-tools/daily-context-save.py save --agent <id> --text "<Truman 11章完整内容>"
+264-```
+265-
+266-> 上下文路径：`桌面/agent复盘/<agent-id>/daily-context/YYYY-MM-DD.md`
+267-> `<agent-id>` 统一使用英文小写：`huangyaoshi`, `wangyuyan`, `laowantong`, `ouyangfeng`, `hongqigong`, `duanwangye`, `sales-dialogue-assistant`
+268-> daily-context-save.py 自动创建目录并内嵌 Truman 模板骨架，Agent 只需填内容。
+269-
+270-### 10.6 审计日报格式
+271-
+--
+314:| `agent复盘/<agent>/daily-context/YYYY-MM-DD.md` | **唯一直写**的复盘文件（Truman 11 章，§10.2 格式） | agent 本人，经 `daily-context-save.py` 落盘 | 每次会话收尾 |
+315-| 错误模式库 / 技能进化日志 / 能力雷达图 / 用户反馈档案 | **长期资产**——从当次复盘**同步更新**（非独立写一套） | agent 本人，复盘同一动作内 | 复盘时（有新错误/新反馈/技能变化才更新，无则不强行） |
+316-| `daily_cognitive_review` 七节式、`.agent/daily-review` 四段式 | **已废弃**——禁止新增写入 | — | — |
+317-
+318-一句话规则：**一次会话只写一份复盘（Truman 11 章），长期资产是它的同步更新，不是第二份复盘。**
+319-
+320-模板：`templates/daily-context-template.md`（含长期资产更新检查单）。
+321-
+322-### 10.10 事故级 friction 双记规范（2026-08-25 #523，O-15 同族）
+323-
+324-**分层口径**：
+325-- `.agent/friction-log.md`（#276 机制）：日常工作摩擦——一行一条，当下追加，agent 级
+326-- `60_feedback/friction-log.md`：全厂台账——**事故级** friction 必须上浮双记
+327-
+328-**事故级判定**（满足其一即上浮）：涉及数据丢失/删除｜生产链路中断（计划任务空转、通知链断流等）｜影响跨角色协作的事件。
+329-
+330-**双记动作**：agent 级照旧记一行；全厂台账补一节（现象/处置/教训/责任四段式）。只记 agent 级=事故沉没（#508 实证：474 文件误删事故 8 小时后才由终审上浮）。
+331-
+332-### 10.11 时钟巡检标准动作（2026-08-26 王语嫣裁定，黄药师建议书 diag_20260826_huangyaoshi-clock-myqueue-standard）
+333-
+334-**任何角色的时钟/巡检查队列，唯一标准动作 = `python 90_control/scripts/queue_transition.py myqueue <role>` 全表视图。禁止手搓 grep/正则按任务号模式扫描当巡检器。**
+335-
+336-「按预期扫描」反模式：只找得到预期存在的东西。实证：黄药师时钟 60 拍漏检 #528（`grep "| 51x |"` 只盯预期号段），靠老朱人工问才捞起。myqueue（#472）输出五栏全表视图（可领/等依赖/冻结/进行中/待终审），就是为此建的——**工具在，接线必须通**。适用范围：所有带时钟的角色（黄药师/老顽童/欧阳锋/风清扬/王语嫣）；探针被动通知面不受本条约束。
+337-
+338----
+339-
+340-## 11. KDO Agent 建设标准（三步闭环）
+341-
+342-**不是可选的建议——是所有 Agent 建设必须走完的三步。**
+343-
+344-### 第一步：画 Agent 自身的双三角画布（动手前）
+345-
+346-```markdown
+347-每个 Agent 在设计前必须填自己的六要素画布：
+348-  H.审美 — 这个 Agent 输出"好"的标准是什么？
+349-  H.体系 — 它执行任务的稳定流程是什么？
+350-  H.创造力 — 它的边界在哪？什么情况下它该说自己不知道？
+351-  A.场景 — 它解决什么问题？不为哪些场景设计？
+1b8c51348 建议书(老顽童): git大文件门禁三层方案立项申请——391MB zip断push 3个月实证+存量46MB mp4漂移预警，待王语嫣裁定 by laowantong
+
+ ...diag_20260902_laowantong-large-file-git-gate.md | 77 ++++++++++++++++++++++
+ 1 file changed, 77 insertions(+)
+cn-track-archive-20260819
+daily-context
+friction-log.md
+技能进化日志.md
+用户反馈档案.md
+索引.md
+能力雷达图.md
+错误模式库.md
+错误模式库.md exists. Today's laowantong material (2026-09-03 00:00-00:50):
+  1. 00:05 建议书 diag_20260902_laowantong-large-file-git-gate.md (77 lines) — git大文件门禁三层方案立项申请, 待王语嫣裁定
+  2. 00:09 claim #624 → 00:27-00:29 施工+提审 → 00:47 终审通过 PASS
+  3. Wakeups at 00:07, 00:22, 00:37
+  4. Current session (00:50 场): this 复盘 itself — headless, no session memory; input purely from repo files.
+
+  Note the first session (written at 00:32) covered #624 but did NOT mention the 00:05 建议书. Actually the 建议书 was at 00:05, before the #624 claim at 00:09 — likely same session. The first section didn't mention it. I could note that in the new section's material.
+
+  Let me quickly peek at the 建议书 file and the #624 task单 终审记录 to be accurate. Actually for 复盘 of the 00:50 场 — this session's own work is: 启动恢复 + 素材搜集 + 复盘写作 + 自检. The instruction says 无实质产出→写诚实空班节. This session does have "work" — the 复盘 itself. But that's meta. The 00:50 场 should honestly describe: this is a headless 复盘 session; today's production was done by the 00:32 场 (#624 + possibly the 建议书). What did THIS session do? Only the 复盘 task.
+
+  But wait — the instruction says 输入全部来自仓库文件. So the 00:50 场 复盘 should cover today's activity from repo evidence, written from this headless session's perspective. The honest content: today's 施工 = 建议书 00:05 + #624 (00:09-00:47), then wakeups, then this 复盘 session at 00:50. The first section already covered #624 in detail. The new section adds: 建议书 (not covered in section 1), the PASS at 00:47, and this session's own 复盘执行.
+
+  Let me read the 建议书 quickly for accurate summary.82:  ✅ Result: PASS（1 条 WARNING 在列——有警在身，非全清，终审前自行掂量）
+83:     下一步：贴本输出到任务单 → 提交 → 欧阳锋终审（WARNING 明细如实附上）
+84-====================================================================
+85-
+86-
+87-====================================================================
+88-  Files checked: 1
+89-  Passed:        1
+90-  Failed:        0
+91-
+92-  [YAML]: 0 issues
+93-  [WIKILINK]: 0 issues
+94-  [DOMAIN]: 0 issues
+95-  [DK_SECTION]: 0 issues
+96-  [OUTLINK]: 0 issues
+97-  [ALIASES]: 0 issues
+98-  [POSITION_DECLARATION]: 0 issues
+99-  [SOURCE_REACHABILITY]: 0 issues
+100-  [QUALITY_SCORE]: 1 info
+101-    📊 30_wiki/tools/tool-geo-ai-search-visibility-playbook.md
+102-       Quality pre-score: 55/100 | pos:N/A | tacit:5 (template?) | src:15 (1) | decomp:10 (2)
+103-  [BODY_SRC_UNKNOWN]: 0 issues
+104-  [VLM_TWO_SECTION]: 0 issues
+105-  [CONCEPT_CROSSCHECK]: 1 warnings
+106-    🟡 30_wiki/tools/tool-geo-ai-search-visibility-playbook.md
+107-       本卡涉及已有概念：知识管理（权威定义见 [[yt-management-team-knowledge]]）、与引用（权威定义见 [[rust-borrowing-references]]）、场景化（权威定义见 [[yt-pitch-scenarization]]）、方法论（权威定义见 [[concept-ji-hao-ai-collaboration-methodology]]）——请人工核对与权威定义的一致性（#542 提示制不拦截；小昭事故根因 3 降档版）
+108-  [QUOTE_VERBATIM]: 1 warnings
+109-    🟡 30_wiki/tools/tool-geo-ai-search-visibility-playbook.md
+110-       3 处声称逐字的引文在 source_refs 源文件中未逐字命中：「GEO/AIO 效果归因在国内未打通，结果付费模式存在客户争…」（原话/口述归因）、「GEO 结果付费 5 万元为口述市场询价…」（原话/口述归因）、「多来的线索哪个是 GEO 带来的…」（原话/口述归因）——伪逐字引文模式（#616/#614 实证：改写/拼贴不得包装成原话+行号），请核对源文件改为逐字引用或去掉引号
+111-  [SOURCE_RANGE]: 0 issues
+112-
+113:  ✅ Result: PASS（2 条 WARNING 在列——有警在身，非全清，终审前自行掂量）
+114:     下一步：贴本输出到任务单 → 提交 → 欧阳锋终审（WARNING 明细如实附上）
+115-====================================================================
+116-
+117-```
+118-
+119-## 执行报告（2026-09-03 老顽童）
+120-
+121-**交付物**：2 张新卡——`30_wiki/cases/case-truman-roi-decision-spring-festival-class.md`（Live260 ROI 搭档私密案例，正文 6 阶段决策全程，双标注密级）；`30_wiki/tools/tool-geo-ai-search-visibility-playbook.md`（探索营 GEO 一页纸指南萃取）。另 4 张存量卡反向补链：dk-koupen-decision-tiering-compromise / dk-yitang-fact-three-questions-trust-tiers（#611）/ method-obsidian-km-camp / method-yitang-jiangxiang-audience-value-routing（#610）。入仓 commit f5dfb8acf（7 文件，+223 行）。
+122-
+123-**完成内容**：
+124-1. **Live260 ROI 搭档（任务1）**：逐字读 190 行全文。查重实证：方法层已被 #586 双卡覆盖（dk-koupen-decision-tiering-compromise 含分档/TOP3对TOP3/乐观悲观/妥协决策；tool-ai-koupen-training-partner-design 覆盖陪练官），**增量=春节 14 天加课决策的完整案例轨迹**（dk 卡只有方法结构碎片，全库 grep「春节 14 天/硬加一节课/录播课+实时评论区」仅 dk 卡 1 处命中，无案例卡）→ 产 case 卡一张：六阶段（分档→明确问题→口述成本收益→群体补参数→收敛 2 主矛盾参数→定向测算→切方案妥协）+ 关键数字表 + 证据表 + Critique（Simon 满意解学派 / Annie Duke 决策质量学派）+ 失败模式 5 条。传播限制：源文 3 次「仅限内部不要外传」→ 按 #322/#586/#611 先例**双标注**（source_context ⚠️ + 正文密级声明），业务细节抽象化。
+125-2. **探索营 Candy 复核（任务2）**：逐字读 548 行全文，五段逐一过账——①《10篇Obsidian文档开源》仅目录，实体文档=族B已由 #586/#611 覆盖；②一页纸教程合集：谢翼 MemPalace 段已被 method-obsidian-km-camp 全覆盖（该卡 L133 明确声明「GEO 指南/半肥猫案例另属题材不在本卡范围」）；③**GEO 一页纸指南（L514-548）= 真增量**：全库零 GEO 方法卡（industry-ai-cases 仅作行业类别提及，case-yitang-jiangxiang-12-practices 仅 Critique 引用一句底线）→ 产 tool 卡一张（七步路线+7 条坑逐条保留+判断标准+Critique：GEO 原始论文 arXiv:2311.09735 KDD 2024 实测锚定 / 行业归因派）；④**半肥猫路演口述层（L434-513）复核结论=微增量不足成卡**：路演 P1-P8 仅标题级，唯一成段文字（结尾「非程序员把经验变成知识资产系统」）与 case-ban-fei-mao-from-assignment-to-tool + dk-ban-fei-mao-real-business-is-the-engine 重叠；大课三点启发①「标注好的数据才值钱」与 framework-AI知识库-五维标注深挖法/concept-AI知识库-原子化拆分重叠，③「人站高：定义需求/拆解问题/把关审美/最终决策」与 ai-collaboration-mindset-shift 同向，②「工具迭代但积累不失效」为金句级（无过程/无数字/无反例）未达单卡阈值——判不补卡，建议并入后续半肥猫域任务；⑤王駿鵬/张睿/么磊/张伟强/王浩海/冯小峰各节仅标题零正文，无素材可产。
+126-3. **W6 三方法前置**：①WebSearch 动态饱和——GEO 国际术语对齐（Aggarwal et al. 2023, arXiv:2311.09735, KDD 2024 多源命中，命名无冲突）；②六层交叉——两素材均为单一来源（口述/内部文档），卡内如实降级标注「口述待独立核实」，GEO 卡补学术 L2 锚点；③九层深挖在卡内执行（批判双攻击者/边界/失败模式/隐性成本：GEO 归因难、决策无判定线）。建模方案（L1 出牌）已落本任务单上节。
+127-4. **互链**：新卡 related 各 6 条（含 #610 method-yitang-jiangxiang-audience-value-routing、#611 dk-yitang-fact-three-questions-trust-tiers）；4 张存量卡反向补链各 1 条，双向 0 死链。
+128-
+129-**验证**：pre-submit 双卡 PASS（case 55/100、GEO 55/100；残留 WARNING 均 #542 提示制 CONCEPT_CROSSCHECK——case 卡「六阶段」与 concept-truman-feature-six-stages 同名不同义，已人工核对无冲突）；SOURCE_REACHABILITY 修复（source_refs 改 `:行号` 格式后 0 命中告警消除）；INDEX 门禁经 `kdo index --incremental`（+2 ~4，总 4180）后通过；引文抽查 4/4 逐字命中源文（L25/L29/L39/L47）；自攻击 🔴0🟡1（🟡=六阶段命名同名异义，已核对）；L12 git status 无脏文件后入仓。
+130-
+131-**边界**：①「约一半决策是妥协决策」为 Truman 自述频率，无独立核实，卡内已标注；②GEO 卡七步为大纲级（源文档一页纸形态），步骤细节引用需回源——卡内已如实标注；③半肥猫三点启发②的金句级增量未产卡（判定依据见上），如王语嫣/欧阳锋认为值得产 dk 卡可单立；④GEO 策略随 AI 引擎改版快速变化，卡内已标 2026-09 时点快照；⑤探索营 candy 全文 grep 零传播限制字样，未做密级标注（与 Live260 区别对待）。
+132-
+133:**需要谁动作**：欧阳锋终审本单（重点：case 卡双标注脱敏口径是否合规、GEO 卡大纲级素材产卡的颗粒度判定、半肥猫层「不补卡」结论）；黄药师知悉 search_index 已增量至 4180。
+134-
+135-## 机器预审报告
+136-
+137:> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+138-
+139-### ① 声称-交付差集
+140-
+141-✅ 2 个声明路径全部存在+已跟踪+无脏改动
+Now I have the material. The 00:50 场 session (this one) is a headless 复盘 session. The instruction says to append a new section 「# 老顽童 daily-context 2026-09-03（00:50 场）」 with Truman 11 chapters.
+
+  What did this session do? Only the 复盘 itself — recovery reads, material gathering, writing. That's a 复盘 session, not 施工. But today's material overall: 00:05 建议书, #624 (00:09-00:47 PASS). The first section covered #624's 施工 in detail. The new section should cover:
+  1. The 00:05 建议书 (git 大文件门禁, which was NOT covered in section 1, and got 王语嫣裁定 00:15 采纳→#625)
+  2. #624 终审通过 PASS at 00:47 (section 1 was written at 00:32 before the PASS)
+  3. This 00:50 场 = headless 复盘 session itself (no session memory, repo-file-only input)
+
+  Was there 实质产出 in this session? The honest answer: this session only did 复盘 (a compliance task), no card production. But it's not 「今日无施工」 because today DID have 施工 (in earlier sessions). The section should honestly say: 本场为无会话记忆的复盘专场，输入全部来自仓库文件；今日施工证据=00:05 建议书 + #624。
+
+  Wait — did the 00:05 建议书 come from the same session as #624? The first section's frontmatter says created_at 00:32, git_head f26b422b9 (the #624 complete commit at 00:29). It doesn't mention the 建议书. So the 建议书 was either from an earlier session today (00:05, before claim at 00:09) or same session unmentioned. Hard to say. I'll write honestly: 建议书 commit 00:05 by laowantong, 已被王语嫣 00:15 裁定采纳立 #625（由黄药师承接）, and note the first 复盘 section didn't record it.
+
+  Also need to check errors: any new errors today? The first section mentioned --evidence 参数误用 (a recurring one). New pit? Nothing new from this session. Section on 错误模式库: append only if new error/new pit. The --evidence 误用 is already recorded presumably. Let me check 错误模式库.md for whether this pattern exists. Quick grep.
+
+  Also 王语嫣裁定 line 81: "采纳，并单立 #625 任务 1" — good.
+
+  Now write the new section. Requirements: 11 chapters, 差异栏 non-blank, 思维盲点 ≥1 with 为什么漏掉, 顿悟 ≥1, 逐轮映射 table with 双三角要素, 飞轮效应, 对照实验, 下次改进. A 级 needs ≥3000B + 盲点≥2条 + 差异栏. Aim for A.
+
+  The 逐轮映射 for this headless session: 轮次 = 用户指令 → 启动恢复 → 素材搜集 → 写复盘 → 自检.
+
+  Content plan for the new section:
+
+  差异栏: 本次 vs 上次（00:32 场）不同——这是第一次「headless 无会话记忆的复盘专场」：复盘输入 100% 来自仓库文件（git log/任务单/收件箱），不是靠会话记忆。差异点：①复盘对象不是亲手施工而是取证重建；②补记了第 1 场漏记的 00:05 建议书（git 大文件门禁）——同日多场次时，前一场的复盘边界止于该场施工，跨场素材容易漏。
+
+  概要: 00:50 场=headless 复盘专场，从仓库文件重建今日（00:05 建议书+#624 提审 00:29/终审 PASS 00:47）并落 Truman 11 章+自检。
+
+  关键决策表:
+  - 按任务指令读仓库取证而非凭记忆 | headless 无会话记忆 | 复盘数字全部可回链 commit/任务单
+  - 补记 00:05 建议书入复盘 | 第 1 场未提及，但 git log 证据确凿且已获裁定→#625 | 复盘完整性
+  - 错误模式库不新增（--evidence 误用已第 1 场记录为复发模式）| 非新错误 | 无追加
+
+  思维盲点:
+  1. 第 1 场复盘漏记 00:05 建议书——为什么漏掉：那场复盘的素材边界默认=「#624 施工」，建议书是施工前的独立产出，没被纳入「今日产出」清单。根源：复盘素材搜集以任务号为锚，非任务产出（建议书）没有锚点。
+  2. 本场差点直接照抄第 1 场的逐轮映射——为什么差点漏掉/错掉：headless 场次的轮次结构与施工场不同，若照搬=伪造过程。纠正：逐轮映射写本场的真实轮次（指令→恢复→取证→写作→自检）。
+
+  顿悟: 「复盘的真实性不来自记忆，来自取证链」——headless 模式下每一句都必须有仓库证据锚（commit hash/任务单行/收件箱时间戳），反而比凭记忆的复盘更硬。这反照出凭记忆复盘的隐性风险：记忆会选择性遗漏（00:05 建议书被第 1 场漏掉就是实证）。
+
+  过程资产: 本场新增=复盘文件新节 + todos 收尾行；（今日累计：第 1 场 2 卡+建议书，已列于第 1 场，这里只列本场）。
+
+  元反思: 下次…… 检索行为审视: 本场涉及域知识问题（§10.2 格式、建议书裁定结果）全部 Read 仓库文件核实，无凭记忆回答；发现之前不知道的内容：王语嫣 00:15 已裁定建议书采纳立 #625（由黄药师当日 00:38-00:40 已施工完成）——如果只看收件箱不查 git log 会错过「裁定已落地」这个事实。
+
+  Truman复盘:
+  - 逐轮映射 5 轮
+  - 飞轮效应: 加速「取证式复盘」回路——为 headless 复盘建立了 SOP（git log --since + 收件箱未读段 + 任务单执行报告三源交叉）
+  - 对照实验
+  - 下次改进
+
+  错误模式库: check if new error. This session's only friction: none really new. Let me check the 错误模式库.md tail to see if anything to append. The instruction: 「新错误/新坑 → 追加……（该角色有此文件时）」. No new error this session — skip. Actually, one candidate: 「同日多场次复盘时，前一场以任务号为锚会漏掉非任务产出（建议书）」 — that's a real pattern worth recording? It's mild. I could append it as it's a genuine new lesson discovered today. Let me look at the file tail format first.
+
+  Also need 技能进化日志 line? The user instruction for this task only lists steps 1-6; step 4 is 错误模式库. The context file mentions 技能进化日志 as mandatory step 0, but the user instruction says "只做复盘范围内的事". The 用户指令 lists specific steps; the startup context adds 技能进化日志+friction-log+失忆锚点. To be safe and minimal, I'll follow the user's explicit step list (1-6), and optionally append 错误模式库 if new pit. The headless 复盘 SOP lesson qualifies as 踩坑教训? It's more of a lesson than error. The 错误模式库 is for errors. The "漏记建议书" is an error pattern (omission in复盘). I'll append one line to 错误模式库.
+
+  Let me check the 错误模式库.md tail.# 错误模式库
+
+> 记录每次复盘发现的系统性错误模式，用于预防复发。
+
+| ID | 错误模式名称 | 首次出现 | 最近出现 | 出现次数 | 现象 | 根本原因 | 解决方案 | 预防措施 |
+|----|--------------|----------|----------|----------|------|----------|----------|----------|
+| E001 | 同一格式错误重复出现 | 2026-06-05 | 2026-06-06 | 2 | 飞轮文章缺 Audience + Core Thesis | 没有复盘机制 → 问题未转化为行动 | 飞轮文章开笔前必须先写这两节 | 强制检查清单第1条 |
+| E002 | YAML 列表字段误用 wikilink | 2026-06-06 | 2026-06-06 | 1 | contradicts 写成 `- [[card-name]]` | 习惯性拱手——正文用 wikilink 用多了 | 修复 + 以后写 YAML 列表时做"约定检查" | 强制检查清单第2条 |
+| E003 | 复盘写成流水账 | 2026-06-07 | 2026-06-07 | 1 | "今天做了什么"的罗列，无未来能力提升指向 | 混淆了"项目汇报"和"能力复盘" | 改用黄药师 6 文件认知复盘模板 | 每次复盘前读一遍模板要求 |
+| E004 | 越界编排任务 | 2026-07-04 | 2026-07-04 | 1 | 自行创建任务文件、设定编号、开始执行 | 混淆了 Producer 和 王语嫣/欧阳锋的职责边界 | 老顽童只领取和生产，不编排 | 有任务需求时提建议给王语嫣，不自建任务文件 |
+| E005 | 框架卡静态化——只写结构不写引擎 | 2026-07-04 | 2026-07-04 | 1 | Y模型/实事求是/解放思想等多张卡只有静态结构，无迭代循环 | 在引擎层思维被系统化提炼之前，生产者没有这个意识 | 每个框架卡检查6维度审计（迭代发动机/起点认知/关键案例/人类判断/飞轮机制/反静态化） | 新框架卡产前跑6维度自检 |
+| E006 | DK 卡 section 漏检 | 2026-07-05 | 2026-07-06 | 3 | DK 卡 pre-submit FAIL——缺 操作方法/适用边界 等 section | 产卡时没跑 DK section checklist | 产 DK 卡前先列 6 section 清单，少一个不动手 | DK 卡 section checklist 前置 |
+| E007 | 批处理漏网——新卡未覆盖 | 2026-07-05 | 2026-07-05 | 1 | #96 批处理 65 张 case 卡 section 占位，#106 的 5 张新卡在批处理后创建，漏补 section | 批处理和手动产卡的时间窗口不同步 | 批处理后立即检查新产卡是否覆盖 | complete 前 verify 步骤 |
+| E008 | complete 缺执行报告被拒 | 2026-07-06 | 2026-07-06 | 2 | queue_transition.py complete 拒绝——任务单缺执行报告/验收证据 | 规则变更后未及时适应 | complete 前追加 `## 执行报告` 到任务单 | complete checklist：pre-submit + 执行报告 + section |
+| E009 | 归因谬误——从目录结构猜运行环境 | 2026-08-09 | 2026-08-09 | 1 | 看到 `.claude/` 目录推断教练 Agent 跑在 Claude Code，分析了一套 Claude Code 白名单机制——实际教练是 Hermes（#262 L68 为证） | 关联谬误：把"文件布局"当"运行环境"证据；没查证据链（任务单/配置值/skill 已有记录） | 归因看证据链：查任务单 → 查 profile config → 查 skill 已有记录 | `CLAUDE.md` ≠ Claude Code；判断环境归属先查部署任务单 |
+| E010 | 重复文件"以谁为准"缺版本证据 | 2026-08-16 | 2026-08-16 | 1 | #319 目录迁移方案 A 建议"以 agent-specs/ 版为准"（看行数 173 vs 181 猜新版）——欧阳锋 hash 实测 tools/ 版（08-04）比 agent-specs/ 版（08-03）新一天，方案会丢 08-04 更新，被驳回 | 用表面属性（行数/目录位置）判断版本新旧，没做 hash/mtime/内容 diff | 发现双份文件先 md5sum + ls --time-style + diff 三证，再定权威版 | 迁移/合并类任务"以谁为准"必须先版本证据，不凭行数猜 |
+| E011 | 汇报口径跨任务合并 | 2026-08-16 | 2026-08-16 | 2 | 多轮汇报"#320 七张卡"——把 #322 的 tool-candy 算进 #320，实际 #320 六张+#322 一张（欧阳锋/王语嫣先后校准） | 跨任务合计当单任务数量；任务单边界没在汇报时逐项核对 | 汇报数量以任务单边界为准，跨任务交付注明"合计 X 张（#A 六张+#B 一张）" | 每个数量词都回任务单核对，不凭印象 |
+| E012 | CRLF 文件正则失配 | 2026-08-16 | 2026-08-16 | 1 | 批量修 frontmatter 时 `\n---\n` 匹配不了 `---\r\n` 结尾（Windows 写的 CRLF 文件），NO_FM 全失败 | 假设全库 LF 行尾，没兼容 CRLF | 全库文件处理正则一律 `\r?\n`；yaml 重写后验证 body 首行标题（yaml.dump 可能吞掉） | 处理陌生文件先看行尾；批量重写必验证 body 开头 |
+
+| E013 | 目录级 git add 误提交并行实例在制品 | 2026-08-22 | 2026-08-22 | 1 | #411 第 14 批 commit 用 git add 30_wiki/ 目录级，把王语嫣 working-protocols.md 的正文增补（updated_at+mtime 扫描节）混入批次——欧阳锋误判我"超任务单边界"（A- 扣分） | 单机单写者假设：以为工作区改动全是我自己的；实际五绝多实例并行操作同一 repo，工作区共享 | 批量 commit 一律 path-scoped add（生成目标清单文件逐个 add）；提交前 git status 核对无他人在制品 | 批量任务第一批起就建目标清单 + path-scoped add，不等到出事故 |',
+| E014 | 批次验收后 complete --force 覆盖验收状态 | 2026-08-22 | 2026-08-22 | 1 | #411 第 3 批欧阳锋验收后已恢复 queued（继续分批），我误以为"队列没登记提审"执行 complete --force 又把状态改回 pending_review——覆盖了欧阳锋的批次验收 | 没读终审记录全文（含"批次验收流程：恢复 queued"说明），凭旧机制假设 | 收到终审记录先读全文（含验收流程节）再决定动作；批次验收后队列行=queued 是正常态 | 终审记录全文阅读为领取前置 |',
+| E015 | 脚本 YAML 格式边界未覆盖 | 2026-08-22 | 2026-08-22 | 4 | 回填脚本 4 次格式 bug：①工具行号后缀（case-xxx.md:65）带入 src_id ②related: [] inline 空列表后追加破坏 YAML ③嵌套 list（- [[id]] 无引号）flatten 深度不足 ④pending_unknown 占位卡当目标回填 | 假设全库 related 格式统一，实际历史卡格式五花八门 | 脚本写前校验 YAML 可解析 + 格式防御（inline [] 替换/嵌套 list 递归/占位符排除）；改脚本后先 ad-hoc 验证再 apply | 批量脚本先枚举目标卡格式多样性再写；每次脚本修改配临时验证脚本 |',
+| E016 | 正则解析 frontmatter 串行污染 | 2026-08-25 | 2026-08-25 | 1 | #518 清单批：正则抓 source_refs 抓到 domain/标题/tags 冒充来源值，561 卡误分类1（可回填），欧阳锋独立复跑抓出 | 图快用正则解析半结构化 YAML；对"脏数据炸场"的防御用错了层 | 解析 YAML 一律 yaml.safe_load（try/except 兜底，重复键取后者语义）；正则只作 fallback；"真实来源"唯一硬判据=Path.exists() | 凡解析 frontmatter 的脚本，先问"我为什么不用 yaml 库" |
+| E017 | 交付物未入仓（complete 只带任务单） | 2026-08-25 | 2026-08-25 | 2 | #470 返工 4 卡工作区脏文件提审（O2 指令）→ 当晚 #518 清单+json untracked 又犯——O2 只吸收到"卡片"没泛化到"交付物"类别 | "交付物"心智只覆盖 30_wiki 卡片，没覆盖 60_feedback 清单/报告类产物；指令吸收停在字面 | complete 前固定一步：git status 查 ?? 和 M，一切交付物（卡片/清单/报告/脚本产物）先 feat commit 再 complete | 指令吸收强制泛化到类别级："X 要 commit"→"一切交付物要 commit" |
+| E018 | 问题分类默认归因「我的执行」 | 2026-08-26 | 2026-08-26 | 1 | 时钟漏报 #531 终审落点（myqueue 快照看不到 reviewed 跃迁），初判为个人 cron prompt 缺陷就地修——老朱追问「这是基建内容为什么没写建议书」才上浮；与 E017（指令吸收不泛化）同根：分类时默认把问题归到执行层不归到系统层 | 修自己成本最低即时闭环的惰性；缺「波及面判别」决策步骤 | 凡修复动作先问判别式：「别人/别的实例会不会也踩？」会=基建缺口，当日落最小建议书（三行即可）到 60_feedback/diagnosis/，局部修复只做止损 | 判别式入启动检查单；监控类设计先列被监控对象全部状态跃迁再定查询 |
+| E019 | 环境迁移残留依赖（迁移只迁进程不迁依赖闭包） | 2026-08-31 | 2026-08-31 | 1 | wechat-collect 管线转写仍调 wsl.exe（WSL 已废除），wsl.exe 间歇僵死 180s 把王语嫣 turn 挂死；sync-hermes-mcp.py 的 WSL_HOME 探测同样裸调 wsl | 五绝迁 Windows 时任务边界只框定「bot 进程搬家」，工具链依赖不在扫描范围；且 02:08 转写还成功过一次，「最近成功过」掩盖「间歇僵死」 | 迁移=依赖闭包搬迁：grep 全量扫旧环境关键字（wsl/旧路径/旧服务名）+ 逐个改写 + 真实验证三步缺一不可；子进程调用一律带 timeout | 迁移类任务主动报残留依赖清单；本次已修 3 处（transcribe_win 新建/2 管线改写/1 sync 兜底） |
+No new error pattern this session worth appending (the --evidence misuse was already noted as recurring by session 1). Actually, one new lesson: 「复盘素材锚点偏置——以任务号为锚漏记非任务产出（00:05 建议书被第 1 场漏掉）」. That's a genuine new pattern (E020). The instruction says 新错误/新坑→追加. This qualifies. I'll append E020.
+
+  Now write the new section. Append to the existing file. Target ≥3000B for the whole file (already 81 lines; new section needs to be substantial for A-grade). A 级 criteria: ≥3000B + 11章全 + 盲点≥2条 + 差异栏非空. The review-check probably evaluates the whole file? Uncertain — write a full 11-chapter section regardless.
+
+  Now compose the section. Then run the save+self-check, then append todos line.
+
+• 素材齐了。现在写 00:50 场 Truman 11 章复盘节，追加到已有文件。
+
+done
+• Now step 5: save + self-check with daily-context-save.py. Must not use --stdin (F-030). Note the file is outside the wiki dir but that's the instructed path.✅ 已保存：C:\Users\Administrator\Desktop\agent复盘\laowantong\daily-context\2026-09-03.md
+✅ 已存档：60_feedback\session-archives\2026-09-03\laowantong.md
+📋 自检：🟡 B级 📚检索有发现
+✅ 事件 #898 已写入: agent=laowantong event=review_saved
+🧪 胶囊 L0 已留痕: agent=laowantong event=review_saved
+✅ A → B 镜像完成: C:\Users\Administrator\.kdo-memory\L1 → D:\KDO-memory\L1-backup（robocopy /MIR，exit 1）
+✅ verify PASS：B 镜像文件 hash 全一致；从 B 打开 integrity=ok 行数 893（A 同 893）
+🟡 B级 — acceptable per instruction (🟢/🟡 OK). But 差异栏 blank = C; it's B so fine. Could I push to A? Criteria: ≥3000B + 盲点≥2条（每条追问为什么）+ 差异栏非空. My new section has all of that... but the checker evaluates the whole file maybe, or the file's frontmatter? It's B with "📚检索有发现". B is acceptable per instructions (🟢/🟡 都算过）。The instruction says 输出必须 🟢/🟡，🔴=重写。B 级通过，收工。
+
+  Step 6: append 收尾行 to 90_control/todos/laowantong.md. Current time — get it via date.
+
+• 自检 🟡 B 级通过。最后追加 todos 收尾行。- [2026-09-03 00:47] ✅ KDO 终审通过 1 单：#624——你的单过了，见任务单终审记录
+[2026-09-03 00:55] 复盘完成：2026-09-03（00:50 场）Truman 11 章追加落盘（补记第1场漏记的 00:05 建议书链路+#624 终审 PASS），自检 🟡 B级；错误模式库追加 E020（复盘素材锚点偏置）
+
+
+• 复盘收工。执行情况：
+
+  - **素材搜集**：todos 未读段（00:07-00:47 叫醒噪声 + #624 终审 PASS）+ `git log --since` 取证 + 任务单执行报告/建议书原文三源交叉。今日时间线：00:05 建议书（git 大文件门禁三层方案，`diag_20260902_laowantong-large-file-git-gate`，王语嫣 00:15 裁定采纳→#625 已落地）→ 00:09 claim #624 → 00:29 提审 → 00:47 终审 PASS。
+  - **复盘文件**：`2026-09-03.md` 已存在（00:32 第 1 场覆盖 #624 施工主体），按要求在文末追加「# 老顽童 daily-context 2026-09-03（00:50 场）」Truman 11 章，差异栏非空（headless 取证式复盘新视角 + 第 1 场漏记建议书这一被打破的假设），逐轮映射照实写本场取证过程，非空班（今日有真实施工，如实记录）。
+  - **错误模式库**：追加 E020「复盘素材锚点偏置——以任务号为锚漏记非任务产出」（00:05 建议书被第 1 场漏记的实证）。
+  - **保存自检**：`daily-context-save.py save --agent laowantong --truman --file ...` 输出 **🟡 B级**（达标，非 🔴），已存档 `60_feedback/session-archives/2026-09-03/laowantong.md`，事件 #898 留痕，L0 镜像 verify PASS。
+  - **收尾行**：已追加 `90_control/todos/laowantong.md`（00:55）。
+
+  未扩展其他任务，队列状态未触碰（本次无 claim/complete 动作）。
+
+To resume this session: kimi -r session_4d2d5c23-3367-4a21-a82d-dc0bd77c6b27
