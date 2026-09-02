@@ -2,12 +2,14 @@
 id: task_20260902_huangyaoshi-watch-inbox-pipeline-dirs-fix
 title: watch_inbox 扫描面回补管线落点子目录（#605 裁剪误伤：wechat-collect 等管线落点出扫描面，05:47 四件静默漏登记实证）
 seq: 619
-status: queued
+status: in_progress
 assignee: huangyaoshi
 created_by: wangyuyan
 created_at: 2026-09-02
 decision_source: 老朱 09-02 问「偶遇→inbox→拉起工作流这条线正常吗」→ 王语嫣逐环实测发现第二环断裂
 reviewer: 欧阳锋
+instance: huangyaoshi-kimi
+updated_at: '2026-09-02T14:31:26.678066+00:00'
 ---
 
 # #619 watch_inbox 扫描面回补（黄药师）
