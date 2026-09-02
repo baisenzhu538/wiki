@@ -110,3 +110,4 @@ updated_at: 2026-08-09
 | 2026-09-02 04:52 | 老顽童 | #606 complete 提审 | `queue_transition.py complete 606` 报「任务 606 不在队列中」——脚本 `find_task` 只精确匹配 task_id 全名，seq 号不解析（claim/complete 同规则，读源码实证） | 初判：CLI 易用性缺口（队列行/myqueue 都显示 #seq 但命令不收 seq），换全 task_id 一次过 |
 2026-09-02 06:46｜huangyaoshi｜#605 台账归档｜mv 移动 git 跟踪文件后未 add 删除侧，交付 commit 缺 49 删除被终审 FAIL｜根因：只凭 ls-files 头部输出误判 untracked，批量移动后没跑 git status 核验删除侧
 | 2026-09-02 08:20 | 老顽童 | #611 pre-submit 提审 | 卡片过 INDEX 门禁后又改了 aliases/正文（小修订），重跑 pre-submit 再报🔴「卡片比检索索引新」——INDEX 校验对 mtime 敏感，任何微小编辑都需重跑 `kdo index --incremental` | 初判：门禁口径本身合理（防索引漂移），但"改完必重跑增量索引"未写进 L4 牌触发提示；本轮已即时重跑修复，复盘元反思已记 |
+| 2026-09-02 10:15 | 老顽童 | #613 返工重扫对账 | 重跑 scan-script.py 用 `\| head -80` 截输出，脚本在 JSON 落盘前被 SIGPIPE 杀死，scan-result.json 静默保留旧快照，对账数字一度对不上（507 vs 547） | 初判：长输出查看习惯坑——head 会提前关管道杀进程；落盘型脚本一律重定向到文件再 Read |

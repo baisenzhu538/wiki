@@ -1,0 +1,1249 @@
+kimi version 0.39.1
+• Let me start with the startup recovery reads.Let me read the task ticket for #613 and understand the rework scope. Task id: task_20260902_laowantong-586batch-reviewedby-residue-fix. Let me find it.
+
+• 启动恢复完成。接下来读 #613 任务单和终审退回记录。队列总任务数: 196
+queued: 1
+claimed: 0
+pending_review: 0
+
+
+• Understand the rework. Task #613 was FAILed. Rework items:
+
+  1. Rescan entire vault with aligned criteria: `reviewed_by ∈ {pending, 待审, 缺失}` OR `review_date` missing.
+  2. Investigate 40 cards (status=reviewed, reviewed_by=待审， review_date has value) one by one for review evidence — if evidence exists, fill in (reviewed_by: 欧阳锋 + grade etc.); if not, add to list reported to 王语嫣.
+  3. Fix scan-script.py criteria + update report §1/§3/§5 numbers.
+  4. Fix task frontmatter `title: null`.
+  5. Complete 613 resubmit + log to todos.
+
+  First, claim the task. Then look at the existing report and scripts in the deliverable dir.
+
+  Let me claim first.✅ task_20260902_laowantong-586batch-reviewedby-residue-fix 已领取为 claimed-laowantong-kimi
+
+✅ dashboard.html 已生成 (196 个任务)
+   待领取: 0  |  审查中: 0  |  进行中: 1  |  已完成: 195
+total 580
+drwxr-xr-x 1 Administrator 197121      0 Sep  2 09:28 .
+drwxr-xr-x 1 Administrator 197121      0 Sep  2 09:26 ..
+-rw-r--r-- 1 Administrator 197121   6008 Sep  2 09:26 fix-result.json
+-rw-r--r-- 1 Administrator 197121   6955 Sep  2 09:26 fix-script.py
+-rw-r--r-- 1 Administrator 197121 166651 Sep  2 09:26 scan-result.json
+-rw-r--r-- 1 Administrator 197121   3048 Sep  2 09:26 scan-script.py
+-rw-r--r-- 1 Administrator 197121   6511 Sep  2 09:28 排查补齐报告-613.md
+Plan:
+  1. Fix scan-script.py: `rb_pending` to include `待审` and missing. Also report §0 criteria says reviewed_by ∈ {pending, 待审， 缺失} OR review_date missing. But careful: review_date missing with real reviewed_by = 500 historical — the original scope says those are not in fix range. The FAIL says scanning criteria should align to §0 — reviewed_by ∈ {pending, 待审， 缺失} OR review_date missing. The key miss was that rb_pending didn't include 待审， so 待审-with-review_date cards never matched.
+
+  2. Rescan full vault with corrected script. Get the 45 (or more) cards: status=reviewed AND reviewed_by=待审. Among them, 40 have review_date set.
+
+  3. For each of those 40 cards, find review evidence （任务单终审记录/commit). If evidence exists → fix frontmatter (reviewed_by→欧阳锋， grade if evidenced). If not → add to 王语嫣 escalation list.
+
+  4. Update report §1/§3/§5 numbers, fix scan-script.py, update scan-result.json/fix-result.json.
+
+  5. Fix task frontmatter title: null → give it a real title.
+
+  6. Add rework execution report (five fields), complete via queue_transition, log todos.
+
+  This is heavy: 40 cards to check for evidence one-by-one. Strategy: batch — group by review_date. 40 cards with review_date values like 2026-08-09, 2026-08-16. For cards reviewed_by=待审 but review_date set — likely these are cards where review_date was set but reviewed_by stayed 待审. Need to find terminal review evidence per card.
+
+  First, fix and rerun the scan to get the actual list. Let me write a quick scan inline (fix the script first since deliverable needs it fixed anyway).
+
+  Let me update scan-script.py:
+  - rb_pending includes "待审" (and Chinese variants), missing.
+  - Keep rd_missing.
+  - Output to the deliverable dir? Original wrote to _tmp/613-scan-result.json but report references scan-result.json in the task dir. Let me check: report says `scan-result.json`（复扫后快照）. The dir has scan-result.json. The script writes to _tmp. Hmm, maybe fix-script copied it. I'll have the script write to the task dir scan-result.json. Actually minimal changes: keep writing to _tmp but also copy? Better: update script to write to both? Keep it simple: write to the task dir directly.
+
+  Wait — but the scan criteria: "reviewed_by ∈ {pending, 待审， 缺失} 或 review_date 缺失". That would include the 500 真人缺review_date? No — review_date missing AND reviewed_by real person. The §0 criteria hits those 500 too (rd_missing). That's consistent with report §1 third row (500 not in fix scope). OK.
+
+  Now run the fixed scan. Then I need evidence per card. Group approach: for each card with reviewed_by=待审 and review_date set, search task files for终审 records mentioning the card. That's a lot of grep work. Let me delegate per-card evidence hunting to subagents? The verification is nuanced though. Maybe I can do it myself with batch grep.
+
+  Plan: get list, group by review_date, then grep task files by date for终审 records listing cards. Cards with review_date 2026-08-09/08-16 batches — there were probably batch review task files. E.g., `review_20260809_*` or task files with 终审记录 dated 2026-08-09 listing many cards.
+
+  Let me first fix the script and run the scan.
+
+• 任务已领取。先修 scan-script.py 口径（补「待审」），再重扫全库拿真实清单。
+
+• Also update JSON output path to the task dir (report references scan-result.json in task dir). Original wrote to _tmp. Let me update it to write to the task dir as scan-result.json (matching report §0 claim of 机读对账 scan-result.json in the deliverable dir).扫描文件数: 2949
+YAML/读取错误数: 2
+  ERROR C:\Users\Administrator\Desktop\wiki\30_wiki\dark-knowledges\dk-digest-registration-gap.md: yaml: while parsing a block mapping
+  in "<unicode string>", line 33, column 3:
+    - signal: 卡文件存在（ls 能看见）但 grep 不到任何 ... 
+      ^
+expected <block end>, but found '<scalar>'
+  in "<unicode string>", line 35, column 20:
+      implication: "存在"不等于"注册"——2026-08-23 周检实测 12 张核心卡 ... 
+                       ^
+  ERROR C:\Users\Administrator\Desktop\wiki\30_wiki\_archive\plan_20260531_data-curator-v1.1.md: yaml: while parsing a block mapping
+  in "<unicode string>", line 2, column 1:
+    id: plan_20260531_data-curator-v1.1
+    ^
+expected <block end>, but found '-'
+  in "<unicode string>", line 14, column 1:
+    - src_20260531_ai-data-understanding
+    ^
+命中卡数: 547
+- 30_wiki\agent-specs\agent-spec-wangyuyan-orchestrator.md | id=agent-spec-wangyuyan-orchestrator | type=agent-spec | author=王语嫣 | reviewed_by=老朱（2026-08-23 终稿拍板，跨场直批；欧阳锋结构终审待补——写审分离，不影响生效） | review_date=<missing> | updated_at=2026-08-23T04:10:00+00:00
+- 30_wiki\bridges\bridge-dual-track-feature-system.md | id=bridge-dual-track-feature-system | type=bridge | author=老顽童 | reviewed_by=欧阳锋 | review_date=<missing> | updated_at=2026-08-16
+- 30_wiki\bridges\bridge-how-to-know-person-to-business.md | id=bridge-how-to-know-person-to-business | type=bridge | author=老顽童 | reviewed_by=待审 | review_date=2026-08-09 | updated_at=2026-08-04
+- 30_wiki\bridges\bridge-lightning-agent-evolution.md | id=bridge-lightning-agent-evolution | type=bridge | author=laowantong | reviewed_by=欧阳锋 | review_date=<missing> | updated_at=2026-07-26
+- 30_wiki\bridges\bridge-meeting-leadership-coaching.md | id=bridge-meeting-leadership-coaching | type=bridge | author=laowantong | reviewed_by=欧阳锋 | review_date=<missing> | updated_at=2026-08-09
+- 30_wiki\bridges\bridge-two-feature-systems.md | id=bridge-two-feature-systems | type=bridge | author=老顽童 | reviewed_by=欧阳锋 | review_date=<missing> | updated_at=2026-08-25
+- 30_wiki\cases\case-4000-titles-ten-strategies.md | id=case-4000-titles-ten-strategies | type=case | author=老顽童 | reviewed_by=待审 | review_date=2026-08-16 | updated_at=2026-08-16
+- 30_wiki\cases\case-agent-self-evolution-pilot.md | id=case-agent-self-evolution-pilot | type=case | author=laowantong | reviewed_by=欧阳锋 | review_date=<missing> | updated_at=2026-07-26
+- 30_wiki\cases\case-ai-learning-series-modeling.md | id=case-ai-learning-series-modeling | type=case | author=老顽童 | reviewed_by=待审 | review_date=2026-08-16 | updated_at=2026-08-16
+- 30_wiki\cases\case-ai-pet-emotional-product.md | id=case-ai-pet-emotional-product | type=case | author=老顽童 | reviewed_by=待审 | review_date=2026-08-09 | updated_at=2026-08-04
+- 30_wiki\cases\case-ai-search-commerce-platform-hedge.md | id=case-ai-search-commerce-platform-hedge | type=case | author=老顽童 | reviewed_by=欧阳锋 | review_date=<missing> | updated_at=2026-07-08
+- 30_wiki\cases\case-arui-headhunter-ai-role-switching.md | id=case-arui-headhunter-ai-role-switching | type=case | author=老顽童 | reviewed_by=欧阳锋 | review_date=<missing> | updated_at=2026-08-31
+- 30_wiki\cases\case-ban-fei-mao-conversion-hacker-skill.md | id=case-ban-fei-mao-conversion-hacker-skill | type=case | author=半肥猫 | reviewed_by=欧阳锋 | review_date=<missing> | updated_at=2026-06-29
+- 30_wiki\cases\case-ban-fei-mao-from-assignment-to-tool.md | id=case-ban-fei-mao-from-assignment-to-tool | type=case | author=半肥猫 | reviewed_by=欧阳锋 | review_date=<missing> | updated_at=2026-06-28
+- 30_wiki\cases\case-ban-fei-mao-skill-ab-test.md | id=case-ban-fei-mao-skill-ab-test | type=case | author=半肥猫 | reviewed_by=欧阳锋 | review_date=<missing> | updated_at=2026-06-29
+- 30_wiki\cases\case-cross-xingangwan-pharma.md | id=case-cross-xingangwan-pharma | type=case | author=老顽童 | reviewed_by=欧阳锋 | review_date=<missing> | updated_at=2026-06-28
+- 30_wiki\cases\case-cross-yuanqi-forest.md | id=case-cross-yuanqi-forest | type=case | author=老顽童 | reviewed_by=欧阳锋 | review_date=<missing> | updated_at=2026-06-28
+- 30_wiki\cases\case-decision-science-lunch-break-compression.md | id=case-decision-science-lunch-break-compression | type=case | author=老顽童 | reviewed_by=欧阳锋 | review_date=<missing> | updated_at=2026-06-29
+- 30_wiki\cases\case-decision-science-topcity-negative-revenue-rank.md | id=case-decision-science-topcity-negative-revenue-rank | type=case | author=老顽童 | reviewed_by=欧阳锋 | review_date=<missing> | updated_at=2026-06-29
+- 30_wiki\cases\case-decision-science-universal-salary-raise-roi.md | id=case-decision-science-universal-salary-raise-roi | type=case | author=老顽童 | reviewed_by=欧阳锋 | review_date=<missing> | updated_at=2026-06-29
+- 30_wiki\cases\case-design-principles-90.md | id=case-design-principles-90 | type=case | author=老顽童 | reviewed_by=待审 | review_date=2026-08-16 | updated_at=2026-08-16
+- 30_wiki\cases\case-ji-hao-ai-workspace-chaos.md | id=case-ji-hao-ai-workspace-chaos | type=case | author=纪浩 | reviewed_by=欧阳锋 | review_date=<missing> | updated_at=2026-06-29
+- 30_wiki\cases\case-ji-hao-skills-market.md | id=case-ji-hao-skills-market | type=case | author=纪浩 | reviewed_by=欧阳锋 | review_date=<missing> | updated_at=2026-06-28
+- 30_wiki\cases\case-ji-hao-ui-design-constraint-evolution.md | id=case-ji-hao-ui-design-constraint-evolution | type=case | author=纪浩 | reviewed_by=欧阳锋 | review_date=<missing> | updated_at=2026-07-02
+- 30_wiki\cases\case-lean-adult-education.md | id=case-lean-adult-education | type=case | author=老顽童 | reviewed_by=欧阳锋 | review_date=<missing> | updated_at=2026-06-29
+- 30_wiki\cases\case-lean-combination-test-paradigm.md | id=case-lean-combination-test-paradigm | type=case | author=老顽童 | reviewed_by=欧阳锋 | review_date=<missing> | updated_at=2026-06-29
+- 30_wiki\cases\case-lean-crayfish-combo-test.md | id=case-lean-crayfish-combo-test | type=case | author=老顽童 | reviewed_by=欧阳锋 | review_date=<missing> | updated_at=2026-06-29
+- 30_wiki\cases\case-lean-electric-scooter-mvp.md | id=case-lean-electric-scooter-mvp | type=case | author=老顽童 | reviewed_by=欧阳锋 | review_date=<missing> | updated_at=2026-06-29
+- 30_wiki\cases\case-lean-genki-forest-toolkit.md | id=case-lean-genki-forest-toolkit | type=case | author=老顽童 | reviewed_by=欧阳锋 | review_date=<missing> | updated_at=2026-06-29
+- 30_wiki\cases\case-lean-gray-test-paradigm.md | id=case-lean-gray-test-paradigm | type=case | author=老顽童 | reviewed_by=欧阳锋 | review_date=<missing> | updated_at=2026-06-28
+- 30_wiki\cases\case-lean-radish-channel-selection.md | id=case-lean-radish-channel-selection | type=case | author=老顽童 | reviewed_by=欧阳锋 | review_date=<missing> | updated_at=2026-06-29
+- 30_wiki\cases\case-lean-shampoo-selling-points.md | id=case-lean-shampoo-selling-points | type=case | author=老顽童 | reviewed_by=欧阳锋 | review_date=<missing> | updated_at=2026-06-29
+- 30_wiki\cases\case-lean-wrong-demand.md | id=case-lean-wrong-demand | type=case | author=老顽童 | reviewed_by=欧阳锋 | review_date=<missing> | updated_at=2026-06-29
+- 30_wiki\cases\case-lean-zhanglei-failure-counterfactual.md | id=case-lean-zhanglei-failure-counterfactual | type=case | author=老顽童 | reviewed_by=欧阳锋 | review_date=<missing> | updated_at=2026-06-29
+- 30_wiki\cases\case-lean-zhanglei-hypothesis-validation.md | id=case-lean-zhanglei-hypothesis-validation | type=case | author=老顽童 | reviewed_by=欧阳锋 | review_date=<missing> | updated_at=2026-06-29
+- 30_wiki\cases\case-lean-zhanglei-pivot-decision.md | id=case-lean-zhanglei-pivot-decision | type=case | author=老顽童 | reviewed_by=欧阳锋 | review_date=<missing> | updated_at=2026-06-29
+- 30_wiki\cases\case-leo-lubricant-dealer-research.md | id=case-leo-lubricant-dealer-research | type=case | author=老顽童 | reviewed_by=待审 | review_date=2026-08-16 | updated_at=2026-08-16
+- 30_wiki\cases\case-live81-ai-trademark-design.md | id=case-live81-ai-trademark-design | type=case | author=老顽童 | reviewed_by=欧阳锋 | review_date=<missing> | updated_at=2026-07-02
+- 30_wiki\cases\case-meeting-roi-awakening.md | id=case-meeting-roi-awakening | type=case | author=laowantong | reviewed_by=欧阳锋 | review_date=<missing> | updated_at=2026-08-09
+- 30_wiki\cases\case-meeting-scene-mastery.md | id=case-meeting-scene-mastery | type=case | author=laowantong | reviewed_by=欧阳锋 | review_date=<missing> | updated_at=2026-08-09
+- 30_wiki\cases\case-opc-128-directions.md | id=case-opc-128-directions | type=case | author=老顽童 | reviewed_by=待审 | review_date=2026-08-16 | updated_at=2026-08-16
+- 30_wiki\cases\case-opc-agent-wave1-real-model-testing.md | id=case-opc-agent-wave1-real-model-testing | type=case | author=老顽童 | reviewed_by=欧阳锋 | review_date=<missing> | updated_at=2026-07-03
+- 30_wiki\cases\case-panproduct-top135-selection-polish.md | id=case-panproduct-top135-selection-polish | type=case | author=老顽童 | reviewed_by=欧阳锋 | review_date=<missing> | updated_at=2026-06-29
+- 30_wiki\cases\case-panproduct-yitao-project-background.md | id=case-panproduct-yitao-project-background | type=case | author=老顽童 | reviewed_by=欧阳锋 | review_date=<missing> | updated_at=2026-06-29
+- 30_wiki\cases\case-qinpeng-iot-module-tiering.md | id=case-qinpeng-iot-module-tiering | type=case | author=老顽童 | reviewed_by=待审 | review_date=<missing> | updated_at=2026-07-08
+- 30_wiki\cases\case-shampoo-product-kernel.md | id=case-shampoo-product-kernel | type=case | author=老顽童（合并升级） | reviewed_by=待审 | review_date=<missing> | updated_at=2026-07-08
+- 30_wiki\cases\case-shuishui-business-insight.md | id=case-shuishui-business-insight | type=case | author=老顽童 | reviewed_by=待审 | review_date=2026-08-09 | updated_at=2026-08-04
+- 30_wiki\cases\case-strategy-cool-boiled-water.md | id=case-strategy-cool-boiled-water | type=case | author=老顽童 | reviewed_by=欧阳锋 | review_date=<missing> | updated_at=2026-06-29
+- 30_wiki\cases\case-strategy-edward-jones.md | id=case-strategy-edward-jones | type=case | author=老顽童 | reviewed_by=欧阳锋 | review_date=<missing> | updated_at=2026-06-29
+- 30_wiki\cases\case-strategy-exit-remove.md | id=case-strategy-exit-remove | type=case | author=老顽童 | reviewed_by=欧阳锋 | review_date=<missing> | updated_at=2026-06-29
+- 30_wiki\cases\case-strategy-exit-sell.md | id=case-strategy-exit-sell | type=case | author=老顽童 | reviewed_by=欧阳锋 | review_date=<missing> | updated_at=2026-06-29
+- 30_wiki\cases\case-strategy-failure-01-cosmetics.md | id=case-strategy-failure-01-cosmetics | type=case | author=老顽童 | reviewed_by=欧阳锋 | review_date=<missing> | updated_at=2026-06-29
+- 30_wiki\cases\case-strategy-failure-02-supermarket.md | id=case-strategy-failure-02-supermarket | type=case | author=老顽童 | reviewed_by=欧阳锋 | review_date=<missing> | updated_at=2026-06-29
+- 30_wiki\cases\case-strategy-failure-03-cleaning.md | id=case-strategy-failure-03-cleaning | type=case | author=老顽童 | reviewed_by=欧阳锋 | review_date=<missing> | updated_at=2026-06-29
+- 30_wiki\cases\case-strategy-practice-ranpeng-crossborder.md | id=case-strategy-practice-ranpeng-crossborder | type=case | author=老顽童 | reviewed_by=欧阳锋 | review_date=<missing> | updated_at=2026-06-29
+- 30_wiki\cases\case-truman-prd-checklist-evolution.md | id=case-truman-prd-checklist-evolution | type=case | author=老顽童 | reviewed_by=欧阳锋 | review_date=<missing> | updated_at=2026-06-29
+- 30_wiki\cases\case-truman-sales-report-structure.md | id=case-truman-sales-report-structure | type=case | author=老顽童 | reviewed_by=欧阳锋 | review_date=<missing> | updated_at=2026-06-29
+- 30_wiki\cases\case-unit-model-gashapon.md | id=case-unit-model-gashapon | type=case | author=老顽童 | reviewed_by=欧阳锋 | review_date=<missing> | updated_at=2026-06-29
+- 30_wiki\cases\case-wanghuan-education-sales-capability-extraction.md | id=case-wanghuan-education-sales-capability-extraction | type=case | author=王语嫣 | reviewed_by=欧阳锋 | review_date=<missing> | updated_at=2026-06-28
+- 30_wiki\cases\case-wanghuan-education-sales-paced.md | id=case-wanghuan-education-sales-paced | type=case | author=王语嫣 | reviewed_by=欧阳锋 | review_date=<missing> | updated_at=2026-06-28
+- 30_wiki\cases\case-wanghuan-shenyang-software-3x-efficiency.md | id=case-wanghuan-shenyang-software-3x-efficiency | type=case | author=王语嫣 | reviewed_by=欧阳锋 | review_date=<missing> | updated_at=2026-06-28
+The scan now hits 547. I need the subset with reviewed_by=待审. Let me extract from JSON: status=reviewed & reviewed_by=待审， grouped by review_date. 欧阳锋 said 45 张 currently （待审）, of which 40 have review_date. My fixed scan should catch all 45 now.��������: 5
+��review_date: 0 ��review_date: 5
+
+---��date---
+<missing> 30_wiki\cases\case-qinpeng-iot-module-tiering.md
+<missing> 30_wiki\cases\case-shampoo-product-kernel.md
+<missing> 30_wiki\cases\case-yitang-chuanhe-seasoning-kernel.md
+<missing> 30_wiki\cases\case-yitang-zhongzheng-parking-garage.md
+<missing> 30_wiki\tools\tool-kdo-wechat-serendipity-collect.md
+The scan only found 5 待审 cards — but 欧阳锋's rescan found 45. Wait, 欧阳锋's claim: 现存 status=reviewed 且 reviewed_by=待审 共 45 张，其中 40 张 review_date 有值. But my scan hits show reviewed_by=待审 only 5. Yet earlier in the scan output above I saw cards like bridge-how-to-know-person-to-business reviewed_by=待审 review_date=2026-08-09, case-4000-titles-ten-strategies 待审 2026-08-16, etc.
+
+  Why did my filter find only 5? Because `h['reviewed_by'].strip() == '待审'` — encoding issue! The script printed garbled console output （编码） but the JSON should be UTF-8. Wait the hits were captured as values from yaml — 待审 in the file. But maybe in the JSON it's stored correctly. The filter found 5 待审 — but those 5 are the no-date ones. And the console output printed garbled "待审总数" label (console GBK issue), but the counts: 待审总数： 5, 有review_date: 0. Yet the earlier raw scan output displayed many "reviewed_by=待审" with dates!
+
+  Hmm — the scan script sets stdout to utf-8, so its print of hits showed 待审 correctly. The python -c didn't set encoding so labels garbled, fine. But the filter result is suspicious: 5 total 待审， 0 with date. But the scan output clearly showed bridge-how-to-know-person-to-business | reviewed_by=待审 | review_date=2026-08-09.
+
+  Possibility: the review_date in YAML parsed as a datetime.date object, and the script did `str(review_date)` → "2026-08-09", fine. reviewed_by=待审 → filter should match. Unless... in JSON the value has different unicode or whitespace? Let me check the JSON directly.
+
+  Actually wait — maybe the issue is that in my `-c` one-liner, the string literal '待审' got encoded via GBK when passed through bash? The console showed garbled labels — meaning python -c source went through with the source encoding... The bash heredoc passes UTF-8 bytes; python on Windows defaults source encoding UTF-8 for -c? Actually Python 3 defaults to UTF-8 for source code. But the garbled output labels like '' mean the literal '待审总数' was misinterpreted — the console codepage is GBK (chcp 936), printing UTF-8 bytes to GBK console shows garbled. That's just display. But comparison '待审' literal — if source decoded as UTF-8 it's fine.
+
+  Hmm, but count 待审总数=5 while raw hits list clearly shows more. Let me just inspect the JSON with proper encoding handling, writing a small script file instead of -c to avoid encoding confusion.hits total: 507
+'欧阳锋' 477
+'黄药师' 7
+'周伯通' 7
+'老顽童' 6
+'待审' 5
+'pending' 2
+'老朱（2026-08-23 终稿拍板，跨场直批；欧阳锋结构终审待补——写审分离，不影响生效）' 1
+'欧阳锋 - concept-collaboration-philosophy-foundation - tool-game-environment-checklist' 1
+'欧阳锋 - concept-collaboration-philosophy-foundation - tool-position-switching-test' 1
+Wait, hits total 507 in scan-result.json, but the scan printed 547? Hmm, maybe scan-result.json is stale from previous run? No — I updated the script to write to the task dir, and reran; it printed 547 hits. But the json shows 507. Wait, the earlier head -80 truncated the output. Maybe I misread 547 — it said 命中卡数： 547? Let me recheck... Yes "命中卡数： 547". But JSON has 507? Odd. Unless the JSON file wasn't overwritten because the earlier check ran... no.
+
+  Hmm wait, maybe I misread and it was 507. The head -80 output showed "命中卡数： 547"? Let me look: "命中卡数： 547" — actually it said that. Hmm. Let me just recount.
+
+  More importantly: 待审 only 5 in hits. But the terminal output of the scan listed many cards with reviewed_by=待审 (bridge-how-to-know-person-to-business etc.). Those appeared in the printed hits list. So they should be in JSON. Unless the terminal output I saw... yes it clearly showed "reviewed_by=待审 | review_date=2026-08-09".
+
+  Contradiction. Unless the scan-result.json read is stale (from previous run before my fix)? Previous script wrote to _tmp/613-scan-result.json, not to the task dir. But the task dir already had scan-result.json from the original delivery (166651 bytes, dated Sep 2 09:26). Did my rerun actually overwrite? It printed "JSON 落盘： ...". Hmm, but maybe my edited script had an error and the print I saw was from... no, it ran and printed 547.
+
+  Wait, actually the file check: hits total 507 — maybe the JSON I'm reading is the OLD one (original delivery, hits=507?). But original report said 30 hits only (17 pending + 13 待审）. 507 doesn't match 30 either. Hmm, original scan-result.json was "复扫后快照" per report — after fix, the residual would be 2 pending + 5 待审 + 500 missing-date = 507! Yes! That matches: 477+7+7+6+1+1+1=500 missing review_date with real people, + 5 待审 + 2 pending = 507. So this scan-result.json is the POST-FIX residual snapshot from the original delivery. So my rerun did NOT overwrite it?
+
+  But the rerun printed "JSON 落盘： 60_feedback/tasks/.../scan-result.json" and 547 hits... wait did it print 547? Let me scroll: "命中卡数： 547" — hmm actually it might have been a different number. The output was truncated at head -80 so I saw the first lines. It printed 命中卡数： 547 before listing. Hmm.
+
+  Wait, maybe the file write happened but then... Let me check file mtime and rerun cleanly, printing full count and writing fresh.
+
+  Actually wait — did my edited script run? The scan output listed cards with 待审+dates (bridge-how-to-know-person-to-business etc.) — those WERE hits in the rerun, meaning the fixed script worked and hit them. 547 hits. Then JSON should contain 547. But reading gives 507.
+
+  Possibility: the python -c earlier read the file... no, reading doesn't change. Let me just check the file's mtime and rerun the script fully.-rw-r--r-- 1 Administrator 197121 166651 Sep  2 09:26 60_feedback/tasks/task_20260902_laowantong-586batch-reviewedby-residue-fix/scan-result.json
+- 30_wiki\tools\yt-tool-strategy-workshop.md | id=yt-tool-strategy-workshop | type=tool | author=老顽童 | reviewed_by=周伯通 | review_date=<missing> | updated_at=2026-06-16
+- 30_wiki\workflows\workflow-kdo-agent-production-pipeline.md | id=workflow-kdo-agent-production-pipeline | type=workflow | author=老顽童（黄药师初稿） | reviewed_by=待审 | review_date=2026-08-09 | updated_at=2026-08-09
+JSON 落盘: 60_feedback/tasks/task_20260902_laowantong-586batch-reviewedby-residue-fix/scan-result.json
+-rw-r--r-- 1 Administrator 197121 179670 Sep  2 10:13 60_feedback/tasks/task_20260902_laowantong-586batch-reviewedby-residue-fix/scan-result.json
+Ah, I see — my earlier rerun output to console but the JSON write probably failed or... no wait, this time the file was updated (10:13, 179670 bytes). Earlier run may have also written, but my check script read... no, earlier check showed 507 hits with 待审=5. Weird. Whatever — earlier the mtime was 09:26 (old). So my first rerun actually printed to console but didn't overwrite? The first run printed "JSON 落盘： ..." — hmm, but mtime stayed 09:26. Actually my first run was `| head -80` — the pipe closed after 80 lines (SIGPIPE), which may have killed the script before the JSON write! Yes — head closed the pipe, script died on BrokenPipeError before writing JSON. Classic.
+
+  Now the file is fresh. Recheck counts.hits total: 547
+'欧阳锋' 477
+'待审' 45
+'黄药师' 7
+'周伯通' 7
+'老顽童' 6
+'pending' 2
+'老朱（2026-08-23 终稿拍板，跨场直批；欧阳锋结构终审待补——写审分离，不影响生效）' 1
+'欧阳锋 - concept-collaboration-philosophy-foundation - tool-game-environment-checklist' 1
+'欧阳锋 - concept-collaboration-philosophy-foundation - tool-position-switching-test' 1
+Now 待审=45 matches 欧阳锋's independent rescan. Now extract the 45 待审 cards, split by review_date present (40) vs missing (5).待审总数: 45 | 有review_date: 40 | 无review_date: 5
+Counter({'2026-08-16': 20, '2026-08-09': 13, '2026-06-19': 4, '2026-07-08': 3})
+
+2026-06-19 | 30_wiki\dark-knowledges\yt-product-kernel-do-without-belief.md | type= dk | author= 老顽童 | updated= 2026-07-08
+2026-06-19 | 30_wiki\frameworks\yt-product-kernel-iteration.md | type= framework | author= 老顽童 | updated= 2026-07-08
+2026-06-19 | 30_wiki\frameworks\yt-product-kernel-validation.md | type= framework | author= 老顽童 | updated= 2026-07-08
+2026-06-19 | 30_wiki\tools\yt-product-kernel-ten-metrics.md | type= tool | author= 老顽童 | updated= 2026-07-08
+2026-07-08 | 30_wiki\concepts\concept-一堂-business-prediction.md | type= concept | author= 老顽童 | updated= 2026-07-09
+2026-07-08 | 30_wiki\dark-knowledges\yt-product-kernel-cost-sensitive-default-no.md | type= dk | author= 老顽童 | updated= 2026-07-08
+2026-07-08 | 30_wiki\dark-knowledges\yt-product-kernel-overpromise-trap.md | type= dk | author= 老顽童 | updated= 2026-07-08
+2026-08-09 | 30_wiki\bridges\bridge-how-to-know-person-to-business.md | type= bridge | author= 老顽童 | updated= 2026-08-04
+2026-08-09 | 30_wiki\cases\case-ai-pet-emotional-product.md | type= case | author= 老顽童 | updated= 2026-08-04
+2026-08-09 | 30_wiki\cases\case-shuishui-business-insight.md | type= case | author= 老顽童 | updated= 2026-08-04
+2026-08-09 | 30_wiki\dark-knowledges\dk-agreeableness-double-edged.md | type= dk | author= 老顽童 | updated= 2026-08-04
+2026-08-09 | 30_wiki\dark-knowledges\dk-emotional-value-high-bar.md | type= dk | author= 老顽童 | updated= 2026-08-04
+2026-08-09 | 30_wiki\dark-knowledges\dk-emotional-value-premium.md | type= dk | author= 老顽童 | updated= 2026-08-04
+2026-08-09 | 30_wiki\dark-knowledges\dk-narrative-choice-theory.md | type= dk | author= 老顽童 | updated= 2026-08-04
+2026-08-09 | 30_wiki\frameworks\framework-big-five-personality.md | type= framework | author= 老顽童 | updated= 2026-08-04
+2026-08-09 | 30_wiki\frameworks\framework-how-to-know-a-person.md | type= framework | author= 老顽童 | updated= 2026-08-04
+2026-08-09 | 30_wiki\tools\tool-empathy-practice.md | type= tool | author= 老顽童 | updated= 2026-08-04
+2026-08-09 | 30_wiki\tools\tool-illuminator-vs-diminisher.md | type= tool | author= 老顽童 | updated= 2026-08-04
+2026-08-09 | 30_wiki\tools\tool-narrative-thinking-user-insight.md | type= tool | author= 老顽童 | updated= 2026-08-04
+2026-08-09 | 30_wiki\workflows\workflow-kdo-agent-production-pipeline.md | type= workflow | author= 老顽童（黄药师初稿） | updated= 2026-08-09
+2026-08-16 | 30_wiki\cases\case-4000-titles-ten-strategies.md | type= case | author= 老顽童 | updated= 2026-08-16
+2026-08-16 | 30_wiki\cases\case-ai-learning-series-modeling.md | type= case | author= 老顽童 | updated= 2026-08-16
+2026-08-16 | 30_wiki\cases\case-design-principles-90.md | type= case | author= 老顽童 | updated= 2026-08-16
+2026-08-16 | 30_wiki\cases\case-leo-lubricant-dealer-research.md | type= case | author= 老顽童 | updated= 2026-08-16
+2026-08-16 | 30_wiki\cases\case-opc-128-directions.md | type= case | author= 老顽童 | updated= 2026-08-16
+2026-08-16 | 30_wiki\concepts\concept-open-a-document.md | type= concept | author= 老顽童 | updated= 2026-08-16
+2026-08-16 | 30_wiki\concepts\concept-research-saturation-coverage.md | type= concept | author= 老顽童 | updated= 2026-08-16
+2026-08-16 | 30_wiki\dark-knowledges\dk-research-ai-no-time-concept.md | type= dk | author= 老顽童 | updated= 2026-08-16
+2026-08-16 | 30_wiki\dark-knowledges\dk-research-classification-mece-table.md | type= dk | author= 老顽童 | updated= 2026-08-16
+2026-08-16 | 30_wiki\dark-knowledges\dk-research-important-things-must-do.md | type= dk | author= 老顽童 | updated= 2026-08-16
+2026-08-16 | 30_wiki\dark-knowledges\dk-research-ranklist-replaces-model.md | type= dk | author= 老顽童 | updated= 2026-08-16
+2026-08-16 | 30_wiki\dark-knowledges\dk-research-sampling-correction-three-rounds.md | type= dk | author= 老顽童 | updated= 2026-08-16
+2026-08-16 | 30_wiki\dark-knowledges\dk-research-saturation-self-proof.md | type= dk | author= 老顽童 | updated= 2026-08-16
+2026-08-16 | 30_wiki\dark-knowledges\dk-research-scavenger-vs-architect.md | type= dk | author= 老顽童 | updated= 2026-08-16
+2026-08-16 | 30_wiki\dark-knowledges\dk-research-total-anchor-private-library.md | type= dk | author= 老顽童 | updated= 2026-08-16
+2026-08-16 | 30_wiki\frameworks\framework-ai-human-70-30-division.md | type= framework | author= 老顽童 | updated= 2026-08-16
+2026-08-16 | 30_wiki\frameworks\framework-ai-report-value-ladder-l1-l6.md | type= framework | author= 老顽童 | updated= 2026-08-16
+2026-08-16 | 30_wiki\frameworks\framework-baozhashidiaochan-five-step.md | type= framework | author= 老顽童 | updated= 2026-08-16
+2026-08-16 | 30_wiki\frameworks\framework-r-type-research-partner-five-state.md | type= framework | author= 老顽童 | updated= 2026-08-16
+2026-08-16 | 30_wiki\tools\tool-nine-character-mantra-14-strategies.md | type= tool | author= 老顽童 | updated= 2026-08-16
+--- 无 review_date ---
+30_wiki\cases\case-qinpeng-iot-module-tiering.md | updated= 2026-07-08
+30_wiki\cases\case-shampoo-product-kernel.md | updated= 2026-07-08
+30_wiki\cases\case-yitang-chuanhe-seasoning-kernel.md | updated= 2026-07-08
+30_wiki\cases\case-yitang-zhongzheng-parking-garage.md | updated= 2026-07-08
+30_wiki\tools\tool-kdo-wechat-serendipity-collect.md | updated= 2026-08-19
+45 待审 confirmed: 40 with review_date (2026-06-19 ×4, 2026-07-08 ×3, 2026-08-09 ×13, 2026-08-16 ×20), 5 without (already in the no-evidence list from the first round).
+
+  Now for each of the 40, find 终审佐证. Strategy: group by review_date batch and search task files / review files in 60_feedback/tasks/ for terminal review records covering those cards.
+
+  Batches:
+  - 2026-06-19 ×4: yt-product-kernel-* cards. updated 2026-07-08. Related to task_20260708 产品内核单？ The 5 no-date cards were from task_20260708 （王语嫣任务书， no card-level review). These 4 have review_date 2026-06-19 — maybe from an earlier review. Need to find review record dated 2026-06-19 covering yt-product-kernel cards.
+  - 2026-07-08 ×3: concept-一堂-business-prediction, dk-yt-product-kernel-cost-sensitive-default-no, dk-yt-product-kernel-overpromise-trap.
+  - 2026-08-09 ×13: 识人/情绪价值 domain cards + workflow-kdo-agent-production-pipeline.
+  - 2026-08-16 ×20: 调研域 (research) cards + others.
+
+  Let me search 60_feedback/tasks for review task files around those dates. This is evidence hunting — good for parallel subagents, but I can also grep directly. Let me first grep for the card ids in 60_feedback/tasks to find which task files mention them.
+
+  Efficient approach: for each card id, grep in 60_feedback/tasks/*.md for终审 records. Let me do a combined grep for the batch dates first to find candidate review files.review_20260628_ouyangfeng-channel-growth.md
+review_20260628_ouyangfeng-wave1.md
+review_20260628_ouyangfeng-wave2.md
+review_20260628_ouyangfeng-wave3.md
+review_20260628_ouyangfeng-wave4.md
+review_20260628_ouyangfeng-wave5.md
+review_20260804_huangyaoshi-7cards.md
+review_20260806_233-deep-review-cards.md
+review_20260807_245-246-247-review-cards.md
+task_20260703_huangyaoshi-fix-queue-transition-review-lookup-report.md
+task_20260703_huangyaoshi-fix-queue-transition-review-lookup.md
+task_20260704_wangyuyan-agent-self-flywheel-review.md
+task_20260704_wangyuyan-dual-triangle-ai-review-method.md
+task_20260707_huangyaoshi-review-check-retrieval.md
+task_20260802_huangyaoshi-review-infra.md
+task_20260803_ouyangfeng-zhu-direction-review.md
+task_20260804_wangyuyan-dk-lu-gui-lv-review.md
+task_20260806_wangyuyan-deep-review-backlink.md
+task_20260806_wangyuyan-deep-review-cases.md
+task_20260806_wangyuyan-deep-review-core-frameworks.md
+task_20260807_wangyuyan-review-coach-agent.md
+task_20260807_wangyuyan-team-review-guide-tool.md
+task_20260809_huangyaoshi-agent-auto-model.md
+task_20260809_huangyaoshi-agent-retrieval-mcp-integration.md
+task_20260809_huangyaoshi-auth-freshness-sla.md
+task_20260809_huangyaoshi-coaching-assistant-deploy.md
+task_20260809_huangyaoshi-dashboard-first-submit-rate.md
+task_20260809_huangyaoshi-dashboard-grade-badges.md
+task_20260809_huangyaoshi-decision-classification.md
+task_20260809_huangyaoshi-e018-and-protocol-fixes.md
+task_20260809_huangyaoshi-feishu-doc-mcp.md
+task_20260809_huangyaoshi-friction-log.md
+task_20260809_huangyaoshi-human-domain-onboarding.md
+task_20260809_huangyaoshi-kdo-index-rebuild.md
+task_20260809_huangyaoshi-lint-review-infra.md
+task_20260809_huangyaoshi-meeting-assistant-deploy.md
+task_20260809_huangyaoshi-moc-index-register.md
+task_20260809_huangyaoshi-model-routing-research.md
+task_20260809_huangyaoshi-reflection-diversity.md
+task_20260809_huangyaoshi-skill-bridge-sync.md
+The card-level 终审 records are usually in the production task files (task_2026MMDD_laowantong-*.md). Let me grep for card ids in 60_feedback/tasks. For efficiency, grep for a few distinctive ids per batch:
+
+  Batch 2026-08-09 （识人域）: framework-how-to-know-a-person, bridge-how-to-know-person-to-business, workflow-kdo-agent-production-pipeline.
+  Batch 2026-08-16 （调研域）: dk-research-ranklist-replaces-model, framework-baozhashidiaochan-five-step, case-4000-titles-ten-strategies.
+  Batch 2026-06-19: yt-product-kernel-iteration.
+  Batch 2026-07-08: concept-一堂-business-prediction.60_feedback/tasks/task_20260902_laowantong-586batch-reviewedby-residue-fix/scan-result.json
+60_feedback/tasks/task_20260902_laowantong-586batch-reviewedby-residue-fix.md
+70_product/tasks/task_20260708_wangyuyan-product-kernel-domain-supplement.md
+60_feedback/tasks/task_20260804_wangyuyan-how-to-know-a-person-cards.md
+60_feedback/tasks/task_20260809_huangyaoshi-human-domain-onboarding.md
+60_feedback/tasks/task_20260810_huangyaoshi-task-mode-soul.md
+60_feedback/tasks/task_20260810_wangyuyan-agent-task-mode.md
+60_feedback/tasks/task_20260902_laowantong-586batch-reviewedby-residue-fix/scan-result.json
+60_feedback/tasks/task_20260816_laowantong-baozhashidiaochan-wave3.md
+60_feedback/tasks/task_20260902_laowantong-586batch-reviewedby-residue-fix/scan-result.json
+60_feedback/tasks/task_20260902_laowantong-586batch-reviewedby-residue-fix.md
+Candidate task files:
+  - 2026-06-19 batch (yt-product-kernel-*): task_20260708_wangyuyan-product-kernel-domain-supplement.md — but the first-round report already concluded the 07-08 cards had no card-level review (task file is 王语嫣任务书）. However these 4 have review_date 2026-06-19, meaning maybe a different earlier review. Need to check.
+  - 2026-08-09 batch: task_20260804_wangyuyan-how-to-know-a-person-cards.md （识人域 cards task).
+  - 2026-08-16 batch: task_20260816_laowantong-baozhashidiaochan-wave3.md.
+
+  This per-card evidence hunting across 40 cards is substantial. Let me delegate to parallel explore subagents per batch. Actually I need precise verification: does the task file contain a 终审记录 by 欧阳锋 with PASS covering each card? The task instruction says "40 张逐张排查终审佐证，有则补齐、无则并入上报王语嫣清单".
+
+  Given there are 4 date-batches, spawn 4 explore agents? The evidence hunting is grep+read, read-only. But conclusions need precision. I could do it myself — it's just reading a handful of task files. Let me check the three candidate task files first.
+
+  Also need to find task files for other cards in 08-16 batch: case-4000-titles-ten-strategies, case-ai-learning-series-modeling, case-design-principles-90, case-leo-lubricant-dealer-research, case-opc-128-directions, concept-open-a-document, concept-research-saturation-coverage, tool-nine-character-mantra-14-strategies, framework-ai-human-70-30-division, framework-ai-report-value-ladder-l1-l6, framework-r-type-research-partner-five-state. These are research-domain cards — maybe another task file (research explosion). Let me grep.60_feedback/tasks/task_20260816_huangyaoshi-research-partner-deploy.md
+60_feedback/tasks/task_20260816_laowantong-baozhashidiaochan-wave1.md
+60_feedback/tasks/task_20260816_laowantong-baozhashidiaochan-wave2.md
+60_feedback/tasks/task_20260822_laowantong-tags-judgment-batch.md
+60_feedback/tasks/task_20260824_laowantong-oral-spray-live260-cards.md
+60_feedback/tasks/task_20260828_laowantong-koupen-guide-batch.md
+60_feedback/tasks/task_20260901_wangyuyan-skills-assistant-spec.md
+60_feedback/tasks/task_20260902_laowantong-586batch-reviewedby-residue-fix.md
+60_feedback/tasks/task_20260809_laowantong-agent-production-pipeline.md
+60_feedback/tasks/task_20260809_wangyuyan-coaching-leadership-agent.md
+60_feedback/tasks/task_20260809_wangyuyan-hermes-spec-orchestration.md
+60_feedback/tasks/task_20260809_wangyuyan-scientific-meeting-agent.md
+60_feedback/tasks/task_20260816_huangyaoshi-agent-mechanism-institutionalization.md
+60_feedback/tasks/task_20260816_huangyaoshi-index-doc-fix.md
+60_feedback/tasks/task_20260816_huangyaoshi-kdo-mcp-rollout.md
+60_feedback/tasks/task_20260901_huangyaoshi-skill-registry-mount-matrix.md
+60_feedback/tasks/task_20260901_wangyuyan-skills-assistant-spec.md
+60_feedback/tasks/task_20260902_laowantong-586batch-reviewedby-residue-fix.md
+70_product/tasks/laowantong-product-kernel-brief.md
+70_product/tasks/task_20260708_wangyuyan-product-kernel-domain-supplement.md
+70_product/tasks/task_20260709_wangyuyan-key-assumptions-business-formula-agent.md
+This is getting into serious per-card evidence verification. The efficient way: delegate 4 parallel explore agents, one per batch, to determine for each card whether a card-level 终审记录 （欧阳锋 PASS/verdict) exists in task files, with exact file+line citations. Read-only investigation.
+
+  Actually, let me think about how many candidate task files: 
+  - Batch 2026-08-09 (13 cards): task_20260804_wangyuyan-how-to-know-a-person-cards.md （识人卡）, task_20260809_laowantong-agent-production-pipeline.md (workflow card).
+  - Batch 2026-08-16 (20 cards): task_20260816_laowantong-baozhashidiaochan-wave1/2/3.md + possibly research task files. Need to find which task files cover the other cards (case-leo-lubricant, case-opc-128, concept-open-a-document, framework-ai-human-70-30, etc.)
+  - Batch 2026-06-19 (4 cards): yt-product-kernel — maybe an early review around 06-19. Check 60_feedback/tasks for task files from 06-18/06-19, or review files.
+  - Batch 2026-07-08 (3 cards): task_20260708 product-kernel supplement.
+
+  I can do this myself with a few reads — the task files' 终审记录 sections will list cards. Let me read the key task files' review sections. Use grep to find "终审" in each candidate file with context.
+
+  Let me do it myself — it's more reliable for evidence standards. Start with the 08-16 batch (20 cards, biggest). Find all task files mentioning the research cards.
+
+• 逐批查证。先看 08-16 批（20 张）覆盖哪些任务单。== case-4000-titles-ten-strategies
+60_feedback/tasks/task_20260816_laowantong-baozhashidiaochan-wave2.md
+60_feedback/tasks/task_20260822_laowantong-tags-judgment-batch.md
+== case-ai-learning-series-modeling
+60_feedback/tasks/task_20260816_laowantong-baozhashidiaochan-wave2.md
+60_feedback/tasks/task_20260822_laowantong-tags-judgment-batch.md
+== case-design-principles-90
+60_feedback/tasks/task_20260816_laowantong-baozhashidiaochan-wave2.md
+60_feedback/tasks/task_20260816_wangyuyan-research-r-partner-spec.md
+60_feedback/tasks/task_20260822_laowantong-tags-judgment-batch.md
+== case-leo-lubricant-dealer-research
+60_feedback/tasks/task_20260816_laowantong-baozhashidiaochan-wave2.md
+60_feedback/tasks/task_20260822_laowantong-tags-judgment-batch.md
+== case-opc-128-directions
+60_feedback/tasks/task_20260816_laowantong-baozhashidiaochan-wave2.md
+60_feedback/tasks/task_20260816_wangyuyan-research-r-partner-spec.md
+== concept-open-a-document
+60_feedback/tasks/task_20260816_huangyaoshi-research-partner-deploy.md
+60_feedback/tasks/task_20260816_laowantong-baozhashidiaochan-wave1.md
+== concept-research-saturation-coverage
+60_feedback/tasks/task_20260816_huangyaoshi-research-partner-deploy.md
+60_feedback/tasks/task_20260816_laowantong-baozhashidiaochan-wave1.md
+== framework-ai-human-70-30-division
+60_feedback/tasks/task_20260816_laowantong-baozhashidiaochan-wave2.md
+60_feedback/tasks/task_20260822_laowantong-tags-judgment-batch.md
+== framework-ai-report-value-ladder-l1-l6
+60_feedback/tasks/task_20260816_laowantong-baozhashidiaochan-wave2.md
+== framework-r-type-research-partner-five-state
+60_feedback/tasks/task_20260816_huangyaoshi-research-partner-deploy.md
+60_feedback/tasks/task_20260816_laowantong-baozhashidiaochan-wave1.md
+== tool-nine-character-mantra-14-strategies
+60_feedback/tasks/task_20260816_huangyaoshi-research-partner-deploy.md
+60_feedback/tasks/task_20260816_laowantong-baozhashidiaochan-wave1.md
+60_feedback/tasks/task_20260824_laowantong-oral-spray-live260-cards.md
+60_feedback/tasks/task_20260828_laowantong-koupen-guide-batch.md
+60_feedback/tasks/task_20260901_wangyuyan-skills-assistant-spec.md
+
+
+60_feedback/tasks/task_20260816_laowantong-baozhashidiaochan-wave1.md:48:- 单角色单任务（E026）：老顽童生产，欧阳锋终审
+60_feedback/tasks/task_20260816_laowantong-baozhashidiaochan-wave1.md:93:## Wave 2/3 终审记录（2026-08-16 欧阳锋，#333/#334 同批）
+60_feedback/tasks/task_20260816_laowantong-baozhashidiaochan-wave2.md:11:source: 王语嫣编排（2026-08-16）；#332 终审 PASS A- 后 Wave 2
+60_feedback/tasks/task_20260816_laowantong-baozhashidiaochan-wave2.md:19:Wave 1（#332）五卡已终审入库。本批 = 案例与 AI demo（7 卡），素材锚点见生产任务清单（task_20260816_baozhashidiaochan-production.md Wave 2 表）。
+60_feedback/tasks/task_20260816_laowantong-baozhashidiaochan-wave2.md:43:- 单角色单任务（E026）：老顽童生产，欧阳锋终审
+60_feedback/tasks/task_20260816_laowantong-baozhashidiaochan-wave3.md:11:source: 王语嫣编排（2026-08-16）；#332 终审 PASS A- 后 Wave 3
+60_feedback/tasks/task_20260816_laowantong-baozhashidiaochan-wave3.md:42:- 单角色单任务（E026）：老顽童生产，欧阳锋终审
+60_feedback/tasks/task_20260804_wangyuyan-how-to-know-a-person-cards.md:5:status: reviewed
+60_feedback/tasks/task_20260804_wangyuyan-how-to-know-a-person-cards.md:92:## 终审记录（2026-08-09 欧阳锋）
+60_feedback/tasks/task_20260809_laowantong-agent-production-pipeline.md:5:status: reviewed
+60_feedback/tasks/task_20260809_laowantong-agent-production-pipeline.md:58:## 补审记录（欧阳锋 2026-08-09 终审）
+60_feedback/tasks/task_20260809_laowantong-agent-production-pipeline.md:77:**处理**：内容达标，终审通过（本记录为欧阳锋确认）。状态已落为 reviewed（欧阳锋补确认，非生产者自标）。**E018 已入本卡正文 + 三次实证——建议王语嫣将 E018 升级为所有 Agent context 的统一铁律**（写入各角色 context.md 或 laowantong-context 行为牌）。
+70_product/tasks/task_20260708_wangyuyan-product-kernel-domain-supplement.md:4:status: reviewed
+70_product/tasks/task_20260708_wangyuyan-product-kernel-domain-supplement.md:85:- [ ] 1 张 P0 工具卡 `tool-一堂-kernel-six-verification-strategies` 通过欧阳锋终审。
+70_product/tasks/task_20260708_wangyuyan-product-kernel-domain-supplement.md:86:- [ ] 4 张 P1 case 卡通过终审；其中洗发水案例合并 `yt-product-kernel-shampoo-case`，删除重复卡并在原卡 frontmatter 添加 `merged_into`。
+70_product/tasks/task_20260708_wangyuyan-product-kernel-domain-supplement.md:105:**预计工时**：老顽童 4-5 天 + 欧阳锋终审 1 天
+• Now read the 终审记录 sections in detail:
+
+  1. task_20260816_laowantong-baozhashidiaochan-wave1.md L93 "## Wave 2/3 终审记录（2026-08-16 欧阳锋，#333/#334 同批）" — read that section to get the card list and verdicts.
+  2. task_20260804_wangyuyan-how-to-know-a-person-cards.md L92 终审记录 2026-08-09.
+  3. task_20260809_laowantong-agent-production-pipeline.md L58 补审记录.
+  4. task_20260708 product-kernel supplement — reviewed markers apply to 任务书 itself? First round report concluded the 07-08 case cards had no card-level review. But now the 4 yt-product-kernel cards with review_date 2026-06-19 and 3 cards with 2026-07-08 need checking. Also check the wave2/3 task files for their own 终审记录 sections.- 素材精做 ✅（逐字读+行号锚点+ASR 对照）
+- 全网调研 ✅（诊断 §四已就绪：Lim 2025/Guest 2020/Saunders/Bouncken/Gioia/Hennink——饱和理论外部对标，卡内已引用）
+- 6 层交叉验证 + 9 层深挖：诊断报告完成，卡内关键结论有口述行号支撑
+- 框架图引用：以人工核验 OCR（003850/003903）为准 ✅
+
+### 边界遵守
+- 单角色单任务（E026）；Wave 2/3 未动；未动理论卡；正文零虚构（全卡行号锚点）
+
+## Wave 2/3 终审记录（2026-08-16 欧阳锋，#333/#334 同批）
+
+**verdict: PASS A- · methodology v2.3**
+
+O0 溯源 + O3 独立验证（字节级重跑）：
+1. **O0 锚点逐字命中**：抽查 W3-4（L3770-3774"至少 170 节课漏什么"）/W3-7（L4022-4030"重要的事"+重合度）/W3-8（L3552-3556"AI 没有时间观念"）——口述稿逐字一致，零编造
+2. **15 卡结构全绿**：status=pending_review、related 7-8 条/卡死链=0；8 张 dk 七段完整（含 Critique）+ 定位声明指向正确父卡（saturation-coverage/five-step）；5 张 case 八段结构（含失败模式/对立面/可迁移场景/预警信号）；2 张 framework 结构完整
+3. **OCR 冲突处理纪律** ✅：W2-6 L6"口述只讲 L1-L5，L6 以图为准（OCR_003832）并在卡内注明"——字节级冲突处理（O-11 纪律正面执行）；W2-7 OCR_003957 人工核验标注
+4. **#320 批教训即时应用**：写卡即带 tags/aliases/dk 定位声明，首轮 pre-submit 零 warning
+
+**结论**：PASS A-，爆炸式调研三波 20 卡全部入库收官（Wave1 五卡 A- + Wave2 七卡 + Wave3 八 dk）。调研系列课体系成型：four-research-types 宽维 → 五步法 → 饱和覆盖 → 案例×5 → 暗知识×8。
+
+- **不新建域**——纳入人域（方向已确认）
+- 源文件搬运到 `10_raw/sources/`（只读不改）
+- 归入 human-insights 域（跨 decision-science/panproduct）
+- 优先级P1——人域首批，与教练式领导力（待输入）形成完整体系
+- **编排决定**：先欧阳锋审查本编排，再老顽童生产
+
+## 终审记录（2026-08-09 欧阳锋）
+
+**verdict: PASS A · blocking: 无 · methodology v2.2**
+
+O0 溯源验证：
+1. 覆盖率 12/12（2 framework + 3 tool + 4 dk + 2 case + 1 bridge——交付超队列行"10 张"口径，规格 12 项全在）
+2. 素材 3 文件存在（口述 145KB/笔记/拆书会逐字稿）
+3. 行号锚点 7 处原文逐条命中：L766-772 情绪价值十倍/奢侈品百倍、L940-946 AI 宠物"天然觉得能对话"、L2186-2192 神经质双刃剑、L680-684 好看是重要情绪价值、L2544-2548 污染序列（叙事选择论）、L2194-2198 宜人性高易被忽视、L566-570 缝隙需求"蜜雪冰城轮不到我们"
+4. 验收点全过：MBTI vs 大五辨析 7 处、AI 宠物"砍掉说话"核心、情绪溢价倍数标注"水水估计"（非学术数据）、top 5% 论证 ×4、治疗师=故事编辑 + 30 岁负责论、bridge 双向回答（人域 17 + 商业域 8 处）
+5. 定位声明 12/12（O8，tool-illuminator L61"看见存在支柱操作工具"）；related ≥5 跨域（抽查 tool-illuminator 6 条含跨域）
+6. pre-submit 12 卡批量 PASS；术语统一（布鲁克斯"看见"三支柱总纲）
+
+亮点：暗知识反直觉密度高（宜人性高被忽视/情绪价值是门槛极高的动作/叙事选择论）且全部带行号溯源；数字诚实标注（水水估计/品牌待核实）。**人域"看见"支柱地基入库——与 #280/#281 教练领导力（影响他人）形成人域认知弧线。**
+
+五维：溯源 95/逻辑 90/暗知识 95/可操作 90/表达 90 → 总分 93（A）
+Strong evidence found:
+
+  **08-16 批**：task_20260816_laowantong-baozhashidiaochan-wave1.md L93-104 "Wave 2/3 终审记录（2026-08-16 欧阳锋，#333/#334 同批）verdict: PASS A-" — covers "爆炸式调研三波 20 卡全部入库收官（Wave1 五卡 + Wave2 七卡 + Wave3 八 dk）" = 20 cards. My 08-16 batch has exactly 20 cards. Need to verify the 20 card ids match the Wave1/2/3 card lists. Let me check the wave task files' card lists to confirm each of my 20 ids is covered.
+
+  **08-09 批（识人域 12 张）**：task_20260804_wangyuyan-how-to-know-a-person-cards.md 终审记录 2026-08-09 PASS A "覆盖率 12/12（2 framework + 3 tool + 4 dk + 2 case + 1 bridge）". My 08-09 batch has 12 human-domain cards (bridge-how-to-know-person-to-business, case-ai-pet-emotional-product, case-shuishui-business-insight, dk-agreeableness-double-edged, dk-emotional-value-high-bar, dk-emotional-value-premium, dk-narrative-choice-theory, framework-big-five-personality, framework-how-to-know-a-person, tool-empathy-practice, tool-illuminator-vs-diminisher, tool-narrative-thinking-user-insight) = 2 framework + 3 tool + 4 dk + 2 case + 1 bridge = 12. ✓ Need to confirm the exact card list in that task file.
+
+  Plus workflow-kdo-agent-production-pipeline (13th card, 08-09): task_20260809_laowantong-agent-production-pipeline.md L58 补审记录 "终审通过 2026-08-09 欧阳锋". ✓
+
+  **06-19 批（4 张 yt-product-kernel）** and **07-08 批（3 张）**: need checking. task_20260708 supplement file — need to see if it has 终审记录 section covering those cards. Let me read its review section, and also search for a 06-19 era review of yt-product-kernel cards.
+
+• 08-16 和 08-09 两批佐证已现。继续核 06-19/07-08 两批和各批卡清单逐一对应。84:- [ ] 3 张 P0 concept 卡 `kdo pre-submit` PASS，无新增 ERROR；Critique ≥3 外部 + ≥2 内部；source_refs 精确到口述稿行号。
+85:- [ ] 1 张 P0 工具卡 `tool-一堂-kernel-six-verification-strategies` 通过欧阳锋终审。
+86:- [ ] 4 张 P1 case 卡通过终审；其中洗发水案例合并 `yt-product-kernel-shampoo-case`，删除重复卡并在原卡 frontmatter 添加 `merged_into`。
+105:**预计工时**：老顽童 4-5 天 + 欧阳锋终审 1 天
+60_feedback/analysis/source-refs-health-latest.md
+60_feedback/audit/kcard-quality-gate-report-2026-06-15.md
+60_feedback/auto/health-check-2026-06-19.md
+60_feedback/auto/health-check-2026-06-20.md
+60_feedback/auto/health-check-2026-06-21.md
+60_feedback/auto/health-check-2026-06-22.md
+60_feedback/auto/health-check-2026-06-27.md
+60_feedback/auto/health-check-2026-06-28.md
+60_feedback/auto/health-check-2026-06-29.md
+60_feedback/auto/health-check-2026-06-30.md
+
+
+60_feedback/tasks/review_20260628_ouyangfeng-wave1.md
+60_feedback/tasks/task_20260703_wangyuyan-retroactive-case-scan-pilot.md
+60_feedback/tasks/task_20260802_wangyuyan-christensen-related-backfill.md
+60_feedback/tasks/task_20260820_laowantong-tag-system-wave1.md
+60_feedback/tasks/task_20260822_laowantong-related-asymmetry-backfill.md
+60_feedback/tasks/task_20260824_laowantong-small-domain-axis-mapping.md
+60_feedback/tasks/title-missing-inventory.md
+70_product/tasks/huangyaoshi-next-tasks.md
+70_product/tasks/laowantong-batch-2026-06-20.md
+70_product/tasks/laowantong-next-tasks.md
+70_product/tasks/task_20260708_wangyuyan-product-kernel-domain-supplement.md
+• Candidates for the 06-19 batch (4 yt-product-kernel cards with review_date 2026-06-19):
+  - 70_product/tasks/laowantong-batch-2026-06-20.md — batch task file from that era.
+  - Maybe the original review happened around 06-19. Check for a review/终审 record covering these cards.
+
+  Let me grep for 终审 in laowantong-batch-2026-06-20.md and look for the yt-product-kernel mentions. Also check the cards' git log for when reviewed_by=待审/review_date was set.10:> **状态**：第 1 波 ✅ 已完成（2026-06-28，pending_review 待欧阳锋终审）；waves 2-5 仍 queued。  
+54:| `concepts/yt-product-kernel-aesthetic.md` | `yt-model-pan-product-aesthetic-progression` → `yt-model-aesthetic-progression` |
+409:    - A 类（7 张 YAML 粘连修复）：`yt-demand-b2b-vs-b2c`、`yt-demand-decision-chain`、`yt-product-kernel-aesthetic`、`yt-demand-hierarchy-model`、`yt-demand-user-segmentation`、`yt-demand-early-validation`、`yt-demand-scenario-reconstruction`——清理 `diagnostic_signals` 中 `- src_unknown` 标量+mapping 粘连（YAML "mapping values are not allowed"）
+417:- 阻塞/需用户确认：无；待欧阳锋按队列终审
+ccaa8bf25 feat(domain): #493 域归域治理——yitang 拆分 + unknown 补域 + 来源词清 tags
+defbe00b3 feat(links): #411 第二批 related-asymmetry 回填——250 条（92 张卡：framework 剩余 + concept 锚点）
+a465099db vault backup: 2026-08-03 03:17:38
+c9ca9eac5 vault backup: 2026-07-26 21:57:39
+93b7360e0 vault backup: 2026-07-26 20:49:22
+c0c7ebf34 vault backup: 2026-07-13 02:21:54
+e20cbce48 vault backup: 2026-07-08 22:07:15
+24874d4bc vault backup: 2026-07-08 21:11:45
+4982e69b8 vault backup: 2026-06-30 03:52:05
+78857522f vault backup: 2026-06-28 18:37:01
+aab588e01 vault backup: 2026-06-28 17:06:27
+a092d139f vault backup: 2026-06-28 13:47:43
+79242b67b vault backup: 2026-06-27 20:33:39
+af6486442 vault backup: 2026-06-27 03:17:10
+b9ad4d3ea vault backup: 2026-06-27 03:13:24
+c2f836c28 vault backup: 2026-06-23 21:52:14
+a826f3043 vault backup: 2026-06-19 22:00:23
+80f6fdf1b vault backup: 2026-06-19 20:35:57
+The card history is all vault backups, no specific review commit. review_date 2026-06-19 might have been set at creation. Need to check if there was a review record around 06-19 for the product-kernel domain. Check 60_feedback for review files from 06-19, and look at the task that produced the yt-product-kernel cards. Also check review_20260628_ouyangfeng-wave1.md which mentions yt-product-kernel.60:| 10 | `30_wiki/concepts/yt-product-kernel-aesthetic.md` | `yt-model-pan-product-aesthetic-progression` → `yt-model-aesthetic-progression` | 链接是否已修正为指向存在的卡片 |
+---
+id: yt-product-kernel-iteration
+title: 产品内核迭代：五种迭代方向
+type: framework
+status: enriched
+confidence: 0.92
+trust_level: high
+domain:
+  - yitang
+  - product
+source_person: Truman
+source_context: 一堂产品内核系列课——迭代方法
+source_refs:
+  - src_20260606_4f5117e3-一堂-产品内核迭代课-Truman-口述.md
+  - src_20260606_deeb4e26-一堂-产品内核迭代课-Truman-笔记.md
+created_at: "2026-06-19"
+updated_at: "2026-06-19"
+author: 老顽童
+reviewed_by: "待审"
+review_date: "2026-06-19"
+related:
+  - yt-product-kernel-definition
+  - yt-product-kernel-validation
+  - yt-product-kernel-six-levels
+  - yt-product-kernel-premature-optimization
+Key finding: at creation (2026-06-19), the card already had `status: enriched`, `reviewed_by: "待审"`, `review_date: "2026-06-19"` — the review_date was set at creation by the producer, NOT from a review event. So review_date=2026-06-19 is not evidence of review. The status later became reviewed (when?). Let me check when status changed to reviewed for this card.
+
+  Let me trace: git log -p on the frontmatter... expensive. Alternative: check a few historical snapshots.
+
+  Actually the important question per the rework instruction: "40 张逐张排查终审佐证，有则补齐、无则并入上报王语嫣清单". For the 06-19 batch (4 cards), the review_date was self-set at creation (reviewed_by=待审 from the start) — this is exactly the E018-family residue. Need to find whether a real review ever happened. Candidates: review_20260628 waves (only mentions aesthetic card), task_20260703 retroactive case scan, the 07-08 supplement task （王语嫣任务书）.
+
+  Let me check when status flipped to reviewed: git log -S 'status: reviewed' -- the file.e20cbce48 vault backup: 2026-07-08 22:07:15
+60_feedback/tasks/task_20260621_digest卡更新.md
+60_feedback/tasks/task_20260803_ouyangfeng-zhu-direction-review.md
+60_feedback/tasks/task_20260902_laowantong-586batch-reviewedby-residue-fix.md
+commit e20cbce4837d71c58ac1f79f07164d999ff08877
+Author: Linhai Zhu <baisenzhu538@gmail.com>
+Date:   Wed Jul 8 22:07:15 2026 +0800
+
+    vault backup: 2026-07-08 22:07:15
+
+ 30_wiki/cases/case-qinpeng-iot-module-tiering.md   |  4 ++--
+ 30_wiki/cases/case-shampoo-product-kernel.md       |  4 ++--
+ .../cases/case-yitang-chuanhe-seasoning-kernel.md  |  4 ++--
+ .../cases/case-yitang-zhongzheng-parking-garage.md |  4 ++--
+ ...344\270\200\345\240\202-business-prediction.md" |  4 ++--
+ ...t-\344\270\200\345\240\202-kernel-iteration.md" |  2 +-
+ ...-\344\270\200\345\240\202-kernel-validation.md" |  2 +-
+ ...ept-\344\270\200\345\240\202-product-kernel.md" |  4 ++--
+ .../yt-product-kernel-cost-sensitive-default-no.md |  4 ++--
+ .../yt-product-kernel-do-without-belief.md         |  4 ++--
+ .../yt-product-kernel-overpromise-trap.md          |  4 ++--
+ 30_wiki/frameworks/yt-product-kernel-iteration.md  |  4 ++--
+ 30_wiki/frameworks/yt-product-kernel-validation.md |  4 ++--
+ ...\240\202-kernel-six-verification-strategies.md" |  4 ++--
+ ...200\345\240\202-product-kernel-add-subtract.md" |  2 +-
+ 30_wiki/tools/yt-product-kernel-ten-metrics.md     |  4 ++--
+ 70_product/tasks/dashboard.html                    | 22 ++++------------------
+ 70_product/tasks/production-queue.md               |  2 +-
+ ...8_wangyuyan-product-kernel-domain-supplement.md |  7 +++++--
+ 19 files changed, 39 insertions(+), 50 deletions(-)
+commit e20cbce4837d71c58ac1f79f07164d999ff08877
+Author: Linhai Zhu <baisenzhu538@gmail.com>
+Date:   Wed Jul 8 22:07:15 2026 +0800
+
+    vault backup: 2026-07-08 22:07:15
+
+diff --git a/30_wiki/frameworks/yt-product-kernel-iteration.md b/30_wiki/frameworks/yt-product-kernel-iteration.md
+index 698039579..082f3477e 100644
+--- a/30_wiki/frameworks/yt-product-kernel-iteration.md
++++ b/30_wiki/frameworks/yt-product-kernel-iteration.md
+@@ -1,11 +1,11 @@
+----
++﻿---
+ domain:
+ - product
+ - yitang
+ id: yt-product-kernel-iteration
+ title: 产品内核迭代：五方向 × 五案例 × 触发信号
+ type: framework
+-status: enriched
++status: reviewed
+ confidence: 0.94
+ trust_level: high
+ source_context: 一堂产品内核迭代课（2026年）——统一版本，对齐概念卡
+So on 2026-07-08, a batch commit flipped these product-kernel cards from enriched → reviewed (4 ++-- = 2 lines changed: status + maybe updated_at). Who did this? It was part of the task_20260708 product-kernel supplement batch. The commit also touched the task file task_20260708_wangyuyan-product-kernel-domain-supplement.md. Let me check what changed in the task file in that commit — maybe it records who marked reviewed.
+
+  Also check: did 欧阳锋 review these? The first-round report already concluded the 07-08 case cards (4 张） "出自 task_20260708 产品内核补产单（该单是王语嫣任务书、其 reviewed 标记针对任务书本身，无卡级终审记录节）" — no card-level review evidence. The 06-19 batch 4 cards and 07-08 batch 3 cards are from the same product-kernel domain, flipped to reviewed in the same 07-08 commit. Likely same conclusion: no card-level 终审记录.
+
+  But wait — I should check the task file diff in that commit and whether there's any review section. Let me look at the task file.commit e20cbce4837d71c58ac1f79f07164d999ff08877
+Author: Linhai Zhu <baisenzhu538@gmail.com>
+Date:   Wed Jul 8 22:07:15 2026 +0800
+
+    vault backup: 2026-07-08 22:07:15
+
+diff --git a/70_product/tasks/task_20260708_wangyuyan-product-kernel-domain-supplement.md b/70_product/tasks/task_20260708_wangyuyan-product-kernel-domain-supplement.md
+index d8a6097a5..f5eea754a 100644
+--- a/70_product/tasks/task_20260708_wangyuyan-product-kernel-domain-supplement.md
++++ b/70_product/tasks/task_20260708_wangyuyan-product-kernel-domain-supplement.md
+@@ -1,7 +1,7 @@
+ ---
+ id: task_20260708_wangyuyan-product-kernel-domain-supplement
+ title: 产品内核域 P0-P2 补产：核心概念升级 + 案例卡 + 验证工具 + Agent 规格
+-status: pending_review
++status: reviewed
+ priority: P1
+ assignee: hermes
+ reviewer: 欧阳锋
+@@ -24,7 +24,10 @@ related:
+ - '[[yt-product-kernel-validation]]'
+ - '[[yt-product-kernel-iteration]]'
+ created_at: 2026-07-08
+-updated_at: '2026-07-08T14:02:26.668486+00:00'
++updated_at: '2026-07-08T14:04:11.836807+00:00'
++reviewed_by: 欧阳锋
++review_date: '2026-07-08'
++grade: A-
+ ---
+ 
+ # 产品内核域 P0-P2 补产：核心概念升级 + 案例卡 + 验证工具 + Agent 规格
+The 2026-07-08 commit flipped the task file status pending_review → reviewed with reviewed_by: 欧阳锋 + grade: A-, AND flipped the product-kernel cards status enriched → reviewed in the same commit. But the first-round report already examined this task and concluded: "该单是王语嫣任务书、其 reviewed 标记针对任务书本身，无卡级终审记录节" — for the 4 case cards. But does the task file contain a 终审记录 section covering the cards? Let me read the task file's end / review section.40:## 一、目标产出
+42:### P0：核心概念卡升级 + 验证工具卡
+51:### P1：案例卡补建 + 工具/DK 升级
+63:### P2：框架统一 + DK 新建 + Agent 规格
+82:## 二、验收标准
+93:## 三、最终判断
+110 70_product/tasks/task_20260708_wangyuyan-product-kernel-domain-supplement.md
+## 三、最终判断
+
+**评级：A-（高价值，直接决定产品内核域 Agent 能否落地）**
+
+- 来源可靠：全部引用三份主口述稿行号，避免二手笔记失真。
+- 解决核心矛盾：统一验证/迭代框架命名，合并重复洗发水案例。
+- Agent 密度高：7 个 Agent 规格覆盖画布填充、加减法、三问验证、迭代方向、验证阶梯、失败模式、案例匹配七大高频场景。
+
+**建议入队编号**：`#138`
+**优先级**：P1
+**Assignee**：老顽童
+**Reviewer**：欧阳锋
+**预计工时**：老顽童 4-5 天 + 欧阳锋终审 1 天
+**依赖**：无（与 #137 可并行）
+
+---
+
+*王语嫣 2026-07-08*
+Confirmed: task_20260708 is a 王语嫣 task book with no 欧阳锋 card-level review section. The "reviewed_by: 欧阳锋， grade: A-" on the task frontmatter was added in the same vault-backup commit — likely self-marked or queue transition. There's no card-level 终审记录 for the 7 product-kernel cards (4 with review_date 2026-06-19 + 3 with 2026-07-08).
+
+  But wait — I should double-check the 06-19 batch differently: maybe there was an earlier review around 06-19/06-20. The cards were created 2026-06-19 with reviewed_by=待审 from birth. Was there any task/review around 06-19~06-28 reviewing them? Candidates: task_20260621_digest卡更新.md mentions 产品内核. Let me check that quickly. Also review_20260628_ouyangfeng-wave1 only mentions yt-product-kernel-aesthetic for link fix.
+
+  Also should check production-queue/dashboard history for when these got reviewed. Actually the status flip happened exactly at e20cbce48 (07-08 22:07), bundled with the task-file flip. That commit flipped ~14 card files. Was there an 欧阳锋 review before that? Let me check if there's a 终审 record anywhere referencing these cards with PASS. Grep for "yt-product-kernel-iteration" in 60_feedback/tasks/*.md gave nothing except scan artifacts. So no card-level review evidence → these 7 go to the 王语嫣 escalation list.
+
+  Wait, but the first-round report listed only the 4 case cards from this batch as no-evidence. Now the additional 7 (4 张 06-19 + 3 张 07-08) are same domain, same flip commit — consistent conclusion: no evidence → escalate.
+
+  Now the 08-09 batch: 12 识人卡 covered by task_20260804 终审记录 2026-08-09 PASS A (12/12). Need to verify my 12 card ids match the task's 12-card list. Let me get the card list from that task file.
+
+  And workflow-kdo-agent-production-pipeline: task_20260809_laowantong-agent-production-pipeline.md L58 补审记录 2026-08-09 终审通过. But note: that workflow card author=老顽童（黄药师初稿）. Read the section to confirm it names the card.
+
+  08-16 batch: 20 cards covered by "Wave 2/3 终审记录 PASS A- （三波 20 卡）". Need to verify my 20 ids == the wave card lists. Wave1 = 5 cards (in wave1 task file's deliverable list), Wave2 = 7, Wave3 = 8 dk. Let me extract card lists from the three wave task files and diff against my 20.39:| 1 | framework-how-to-know-a-person | framework | 布鲁克斯"看见"三支柱：看见存在（关注/照亮者）/看见挣扎（共情/陪伴）/看见力量（人格/叙事/智慧）。人域"看见"支柱总纲。related≥5跨域（讲香/需求域/OPC） |
+40:| 2 | framework-big-five-personality | framework | 大五人格（外向/神经质/宜人性/开放性/尽责性）：**只有开放+尽责"越高越好"**（其他双刃剑，L2186-2260）。职场预测应用。学术锚点（Barrick & Mount元分析）。Critique须含"MBTI vs 大五"辨析 |
+46:| 3 | tool-illuminator-vs-diminisher | tool | 照亮者vs贬低者辨识+练习（L1152-1210）：被照亮会变更好→成为照亮者（持久好奇/理解技巧/关爱照亮）。含"认可努力+具体建议"反馈模式（笔记§3.2） |
+47:| 4 | tool-narrative-thinking-user-insight | tool | 叙事型用户洞察：用户不是数字（用户画像过时论，L610-630）→记录用户人生故事。缝隙需求识别（好生意藏在缝隙，L566-640） |
+48:| 5 | tool-empathy-practice | tool | 共情三法：接触理论/阅读叙事/身体体验 + 陪伴三要素（耐心/游戏性/以他者为中心）+ 共情耗竭防护（参与但不陷入） |
+54:| 6 | dk-emotional-value-premium | dk | 情绪价值溢价：功能价值上限1.5倍，情绪价值10-100倍（L766-778）。泡泡玛特/品牌案例。**标注：倍数为水水估计值，非学术数据** |
+55:| 7 | dk-agreeableness-double-edged | dk | 宜人性是双刃剑：老好人≠高价值（L2194-2214）——宜人性高易被忽视，低反而获更多照顾。反直觉洞察 |
+56:| 8 | dk-emotional-value-high-bar | dk | **情绪价值是门槛极高的动作**（L680-724）："好看能换钱，它得好看成什么样"——top 5%才有效；功能90分很难（市场平均已70分）——功能内卷无出路 |
+57:| 9 | dk-narrative-choice-theory | dk | **叙事选择论**（L2544-2562 + L1618-1642）：同样糟糕家庭两个极端孩子；治疗师=故事的编辑；30岁后为自己负责 |
+58:| 10 | case-ai-pet-emotional-product | case | AI宠物案例（L940-990）：**核心=砍掉"会说话"功能**（宠物本来就不说话）——只切一个细分赛道，产品定义从用户需求反推。标注：品牌待核实 |
+59:| 11 | case-shuishui-business-insight | case | 水水缝隙需求洞察（L566-640）：蜜雪冰城级机会轮不到小企业→缝隙+熟悉人群才是小企业机会。与#213破坏性创新呼应 |
+65:| 12 | bridge-how-to-know-person-to-business | bridge | 人域"看见"↔商业域：用户不是数字→叙事型洞察；情绪价值→产品定价；照亮者→客户关系/管理。桥接需求域/产品域/OPC销售 |
+74:2. framework-big-five必须含"只有开放+尽责越高越好"的反直觉点 + MBTI辨析
+76:4. dk-4张必须标注数据来源（情绪价值倍数=水水估计；dk-emotional-value-high-bar含"top 5%+功能70分"完整论证；dk-narrative-choice-theory含治疗师=故事编辑+30岁负责论）
+77:5. case-2张必须标注待核实项（AI宠物品牌）；case-ai-pet核心="砍掉会说话功能"（产品定义从用户需求反推）
+101:5. 定位声明 12/12（O8，tool-illuminator L61"看见存在支柱操作工具"）；related ≥5 跨域（抽查 tool-illuminator 6 条含跨域）
+
+## 边界
+
+- 不重复建卡（agent-native-card-design 是 spec 规范，本卡是流水线流程——互补）
+- 王语嫣不直接写卡（编排职责），本任务老顽童生产、欧阳锋审查
+
+---
+
+## 补审记录（欧阳锋 2026-08-09 终审）
+
+**结论：PASS（条件），等级 A-**。内容 19 段达标、related 8/8 无死链、source_refs 可达、E018 纪律写进正文、失败模式/Critique 质量高。
+
+### 核验（O3 实测）
+
+| 检查 | 结果 | 证据 |
+|:--|:--|:--|
+| 结构 | ✅ | 225 行 19 段（使用场景/操作步骤/适用边界/生产纪律/复盘格式/失败模式/对比/Critique 等全）|
+| related 死链 | ✅ | 8/8 存在（含 dk-agent-access-kdo-pitfalls/workflow-cross-agent-fact-dispute/agent-spec-zhu-ai-coach 等冷门卡）|
+| source_refs 可达 | ✅ | 自举案例素材 + agents/agent-os.md 均存在 |
+| E018 生产纪律 | ✅ | author 属实/审查真实/自建默认 draft 三条款实在 |
+| 失败模式/Critique | ✅ | 缺认知件/缺路径件带修复；Critique 诚实（样本量 1、MOC 静态快照风险）|
+| 复盘格式约束 | ✅ | §10.2 十章唯一标准固化 |
+
+### ⚠️ E018 自我违规（流程纠正，活教材）
+
+本卡正文 E018 第 3 条明确："**自建默认 draft → 送欧阳锋真实审查 → 审查通过 → 转正**，禁止自标 reviewed（未经审查）"。而本卡生产时**状态被自标为 reviewed（无欧阳锋审查记录）**——正好是本卡规定禁止的行为，与 #257 同模式（第三次出现：#257 → 本次提示 → 仍需纠正）。
+
+**处理**：内容达标，终审通过（本记录为欧阳锋确认）。状态已落为 reviewed（欧阳锋补确认，非生产者自标）。**E018 已入本卡正文 + 三次实证——建议王语嫣将 E018 升级为所有 Agent context 的统一铁律**（写入各角色 context.md 或 laowantong-context 行为牌）。
+08-09 batch fully confirmed:
+  - 12 识人卡： task_20260804 终审记录 2026-08-09 PASS A — 12/12 ids match exactly.
+  - workflow-kdo-agent-production-pipeline: task_20260809 补审记录 2026-08-09 PASS（条件）A- — card confirmed.
+
+  08-16 batch: need to verify the 20 ids match Wave1(5)+Wave2(7)+Wave3(8dk). Let me extract card lists from the three wave task files.case-4000-titles-ten-strategies
+case-ai-learning-series-modeling
+case-design-principles-90
+case-leo-lubricant-dealer-research
+case-opc-128-directions
+dk-research-ai-no-time-concept
+dk-research-classification-mece-table
+dk-research-important-things-must-do
+dk-research-ranklist-replaces-model
+dk-research-sampling-correction-three-rounds
+dk-research-saturation-self-proof
+dk-research-scavenger-vs-architect
+dk-research-total-anchor-private-library
+framework-ai-human-70-30-division
+framework-ai-report-value-ladder-l1-l6
+      2 tool-nine-character-mantra-14-strategies
+      2 framework-r-type-research-partner-five-state
+      2 framework-baozhashidiaochan-five-step
+      2 concept-research-saturation-coverage
+      2 concept-open-a-document
+      1 tool-agent-spec-basic-skills-coach
+Wave2+Wave3 card ids from the tables: 5 cases + 8 dk + 2 frameworks = 15. Wave1: concept-open-a-document, concept-research-saturation-coverage, framework-baozhashidiaochan-five-step, framework-r-type-research-partner-five-state, tool-nine-character-mantra-14-strategies = 5. Total 20. My scan's 08-16 list:
+
+  case-4000-titles-ten-strategies ✓, case-ai-learning-series-modeling ✓, case-design-principles-90 ✓, case-leo-lubricant-dealer-research ✓, case-opc-128-directions ✓, concept-open-a-document ✓, concept-research-saturation-coverage ✓, dk-research-ai-no-time-concept ✓, dk-research-classification-mece-table ✓, dk-research-important-things-must-do ✓, dk-research-ranklist-replaces-model ✓, dk-research-sampling-correction-three-rounds ✓, dk-research-saturation-self-proof ✓, dk-research-scavenger-vs-architect ✓, dk-research-total-anchor-private-library ✓, framework-ai-human-70-30-division ✓, framework-ai-report-value-ladder-l1-l6 ✓, framework-baozhashidiaochan-five-step ✓, framework-r-type-research-partner-five-state ✓, tool-nine-character-mantra-14-strategies ✓.
+
+  20/20 match. All have 终审佐证： PASS A- 2026-08-16 (Wave1 also终审 in same record? The record title says "Wave 2/3 终审记录（#333/#334 同批）" but conclusion says "爆炸式调研三波 20 卡全部入库收官（Wave1 五卡 A- + Wave2 七卡 + Wave3 八 dk）". Wave1 (#332) had its own earlier PASS A-. Fine — the 20 cards all have 佐证 in this record (and wave1's own record). Note the record says Wave1 五卡 A-. Good.
+
+  So dispositions:
+  - 补齐 33 张：08-16 批 20 张 (PASS A- 2026-08-16, grade A-), 08-09 批 13 张 (12 张 PASS A 2026-08-09 grade A; workflow 卡 PASS（条件） A- 2026-08-09 grade A-).
+  - 无佐证 7 张新发现：06-19 批 4 张 + 07-08 批 3 张（review_date 是生产者自填/创建日，状态翻转发生在 07-08 任务书同 commit，无卡级终审记录）→ 并入上报王语嫣清单（原 7 张 + 7 张 = 14 张）。
+
+  Wait — but careful about grade for the 08-09 batch: 12 cards PASS A → grade A; workflow card A-. For 08-16: PASS A- → grade A-. First round set grade only when 终审记录有字母评级. Yes these have letter grades.
+
+  review_date: use actual 终审日期 = 2026-08-09 / 2026-08-16 (already on cards, matches).
+
+  Fix actions per card: reviewed_by 待审→欧阳锋 + grade += A/A- (review_date already correct, leave unchanged).
+
+  Now write the fix script for the 33 cards, run with dry-run then apply, verify with rescan. Then update report §1/§3/§5, fix-result.json, and task frontmatter title. Then complete with evidence.
+
+  Let me look at fix-script.py to reuse its approach.I'll append the new 33-card batch to fix-script.py as a second FIXES list (round 2) — or better, create the rework additions as a separate section so re-running round 1 doesn't re-apply (round 1 asserts reviewed_by==pending/待审 which would now fail since they're fixed — the assert would abort). Actually since round 1 is already applied, re-running the whole script would fail on the first assert. Better: append a FIXES_R2 list and a main that processes it, guarded. Simplest: modify script to have FIXES_R2 and only run that list (round 1 already applied and recorded). Keep round-1 list for the record.
+
+  Also fix the fix-result.json output path: currently writes to _tmp/613-fix-result.json but the deliverable dir has fix-result.json. Same head-pipe issue probably. I'll update to write to the task dir.
+
+  Now build the 33-card FIXES_R2:
+  - 08-16 batch 20 cards: expect_rb=待审， new_rd=None (review_date 2026-08-16 already on card), grade=A-. Evidence: task_20260816_laowantong-baozhashidiaochan-wave1.md §Wave 2/3 终审记录 PASS A- 2026-08-16（三波20卡收官；Wave1五卡A-+Wave2七卡+Wave3八dk）.
+  - 08-09 batch 12 cards: grade=A, evidence: task_20260804_wangyuyan-how-to-know-a-person-cards.md §终审记录 PASS A 2026-08-09（覆盖率12/12）.
+  - workflow-kdo-agent-production-pipeline: grade=A-, evidence: task_20260809_laowantong-agent-production-pipeline.md §补审记录 PASS（条件）A- 2026-08-09.
+
+  Need to confirm review_date on each card is indeed already set and matches. From scan: all 33 have review_date 2026-08-09 or 2026-08-16 matching the review dates. Good — so new_rd=None for all （已有不动）.
+
+  But wait — verify a couple of card frontmatters to make sure review_date matches the review date exactly (yes, from scan output: 08-09 cards have 2026-08-09; 08-16 cards have 2026-08-16). 
+
+  Also the assert `expect_rb`: cards currently reviewed_by=待审. Good.
+
+  Note the EOL/insert logic. For grade insertion it inserts after reviewed_by line. Fine.
+
+  Also: `assert str(cur_rb).strip() == expect_rb` — for round 2 list only.
+
+  Let me now write the round-2 addition. I'll restructure: keep FIXES (round 1, already applied), add FIXES_R2, and a selector: run round 2 by default. Also fix output path.The script uses `os.path` — need `import os` (original imports: io, sys, json, yaml). Add os import. Also verify existing fix-result.json content is the round-1 23-card list. Let me check and add import.<class 'list'> 23
+30_wiki/cases/case-jovida-ai-life-coach.md 30_wiki/agent-specs/agent-spec-fengqingyang-observer.md
+fix-result.json has the 23 round-1 entries. Good — merge logic works. Now dry-run guard: P-29 discipline — dry-run first. The script has no dry-run mode; but it has asserts per card (reviewed_by must be 待审， status reviewed). The batch-operation discipline asks for dry-run preview. I can do a quick pre-check: verify all 33 paths exist with reviewed_by=待审 and status=reviewed before running. Let me write a quick check.
+
+• fix-result.json 是 23 条首轮记录，合并逻辑 OK。批量操作三问：先做 dry-run 预检 33 张当前字段值。
+
+FIXES_R2 卡片数: 33
+OK  30_wiki/concepts/concept-open-a-document.md | rb= 待审 | rd= 2026-08-16 | grade= None
+OK  30_wiki/concepts/concept-research-saturation-coverage.md | rb= 待审 | rd= 2026-08-16 | grade= None
+OK  30_wiki/frameworks/framework-baozhashidiaochan-five-step.md | rb= 待审 | rd= 2026-08-16 | grade= None
+OK  30_wiki/frameworks/framework-r-type-research-partner-five-state.md | rb= 待审 | rd= 2026-08-16 | grade= None
+OK  30_wiki/tools/tool-nine-character-mantra-14-strategies.md | rb= 待审 | rd= 2026-08-16 | grade= None
+OK  30_wiki/cases/case-4000-titles-ten-strategies.md | rb= 待审 | rd= 2026-08-16 | grade= None
+OK  30_wiki/cases/case-ai-learning-series-modeling.md | rb= 待审 | rd= 2026-08-16 | grade= None
+OK  30_wiki/cases/case-design-principles-90.md | rb= 待审 | rd= 2026-08-16 | grade= None
+OK  30_wiki/cases/case-leo-lubricant-dealer-research.md | rb= 待审 | rd= 2026-08-16 | grade= None
+OK  30_wiki/cases/case-opc-128-directions.md | rb= 待审 | rd= 2026-08-16 | grade= None
+OK  30_wiki/frameworks/framework-ai-human-70-30-division.md | rb= 待审 | rd= 2026-08-16 | grade= None
+OK  30_wiki/frameworks/framework-ai-report-value-ladder-l1-l6.md | rb= 待审 | rd= 2026-08-16 | grade= None
+OK  30_wiki/dark-knowledges/dk-research-ai-no-time-concept.md | rb= 待审 | rd= 2026-08-16 | grade= None
+OK  30_wiki/dark-knowledges/dk-research-classification-mece-table.md | rb= 待审 | rd= 2026-08-16 | grade= None
+OK  30_wiki/dark-knowledges/dk-research-important-things-must-do.md | rb= 待审 | rd= 2026-08-16 | grade= None
+OK  30_wiki/dark-knowledges/dk-research-ranklist-replaces-model.md | rb= 待审 | rd= 2026-08-16 | grade= None
+OK  30_wiki/dark-knowledges/dk-research-sampling-correction-three-rounds.md | rb= 待审 | rd= 2026-08-16 | grade= None
+OK  30_wiki/dark-knowledges/dk-research-saturation-self-proof.md | rb= 待审 | rd= 2026-08-16 | grade= None
+OK  30_wiki/dark-knowledges/dk-research-scavenger-vs-architect.md | rb= 待审 | rd= 2026-08-16 | grade= None
+OK  30_wiki/dark-knowledges/dk-research-total-anchor-private-library.md | rb= 待审 | rd= 2026-08-16 | grade= None
+OK  30_wiki/frameworks/framework-how-to-know-a-person.md | rb= 待审 | rd= 2026-08-09 | grade= None
+OK  30_wiki/frameworks/framework-big-five-personality.md | rb= 待审 | rd= 2026-08-09 | grade= None
+OK  30_wiki/tools/tool-illuminator-vs-diminisher.md | rb= 待审 | rd= 2026-08-09 | grade= None
+OK  30_wiki/tools/tool-narrative-thinking-user-insight.md | rb= 待审 | rd= 2026-08-09 | grade= None
+OK  30_wiki/tools/tool-empathy-practice.md | rb= 待审 | rd= 2026-08-09 | grade= None
+OK  30_wiki/dark-knowledges/dk-emotional-value-premium.md | rb= 待审 | rd= 2026-08-09 | grade= None
+OK  30_wiki/dark-knowledges/dk-agreeableness-double-edged.md | rb= 待审 | rd= 2026-08-09 | grade= None
+OK  30_wiki/dark-knowledges/dk-emotional-value-high-bar.md | rb= 待审 | rd= 2026-08-09 | grade= None
+OK  30_wiki/dark-knowledges/dk-narrative-choice-theory.md | rb= 待审 | rd= 2026-08-09 | grade= None
+OK  30_wiki/cases/case-ai-pet-emotional-product.md | rb= 待审 | rd= 2026-08-09 | grade= None
+OK  30_wiki/cases/case-shuishui-business-insight.md | rb= 待审 | rd= 2026-08-09 | grade= None
+OK  30_wiki/bridges/bridge-how-to-know-person-to-business.md | rb= 待审 | rd= 2026-08-09 | grade= None
+OK  30_wiki/workflows/workflow-kdo-agent-production-pipeline.md | rb= 待审 | rd= 2026-08-09 | grade= None
+BAD 数: 0
+• Dry-run 33/33 OK. All currently reviewed_by=待审， status=reviewed, review_date set, grade absent. Changes: only reviewed_by line + inserted grade line; non-empty values not overwritten (review_date untouched). Run the fix.✅ 30_wiki/dark-knowledges/dk-narrative-choice-theory.md: reviewed_by→欧阳锋, grade+=A
+✅ 30_wiki/cases/case-ai-pet-emotional-product.md: reviewed_by→欧阳锋, grade+=A
+✅ 30_wiki/cases/case-shuishui-business-insight.md: reviewed_by→欧阳锋, grade+=A
+✅ 30_wiki/bridges/bridge-how-to-know-person-to-business.md: reviewed_by→欧阳锋, grade+=A
+✅ 30_wiki/workflows/workflow-kdo-agent-production-pipeline.md: reviewed_by→欧阳锋, grade+=A-
+
+共修复 33/33 张
+JSON 落盘: 60_feedback/tasks/task_20260902_laowantong-586batch-reviewedby-residue-fix/fix-result.json
+ 30_wiki/tools/tool-illuminator-vs-diminisher.md                        | 3 ++-
+ 30_wiki/tools/tool-narrative-thinking-user-insight.md                  | 3 ++-
+ 30_wiki/tools/tool-nine-character-mantra-14-strategies.md              | 3 ++-
+ 30_wiki/workflows/workflow-kdo-agent-production-pipeline.md            | 3 ++-
+ 33 files changed, 66 insertions(+), 33 deletions(-)
+12
+命中卡数: 514
+- 30_wiki\cases\case-qinpeng-iot-module-tiering.md | id=case-qinpeng-iot-module-tiering | type=case | author=老顽童 | reviewed_by=待审 | review_date=<missing> | updated_at=2026-07-08
+- 30_wiki\cases\case-shampoo-product-kernel.md | id=case-shampoo-product-kernel | type=case | author=老顽童（合并升级） | reviewed_by=待审 | review_date=<missing> | updated_at=2026-07-08
+- 30_wiki\cases\case-yitang-chuanhe-seasoning-kernel.md | id=case-yitang-chuanhe-seasoning-kernel | type=case | author=老顽童 | reviewed_by=待审 | review_date=<missing> | updated_at=2026-07-08
+- 30_wiki\cases\case-yitang-zhongzheng-parking-garage.md | id=case-yitang-zhongzheng-parking-garage | type=case | author=老顽童 | reviewed_by=待审 | review_date=<missing> | updated_at=2026-07-08
+- 30_wiki\concepts\concept-一堂-business-prediction.md | id=concept-一堂-business-prediction | type=concept | author=老顽童 | reviewed_by=待审 | review_date=2026-07-08 | updated_at=2026-07-09
+- 30_wiki\dark-knowledges\yt-product-kernel-cost-sensitive-default-no.md | id=yt-product-kernel-cost-sensitive-default-no | type=dk | author=老顽童 | reviewed_by=待审 | review_date=2026-07-08 | updated_at=2026-07-08
+- 30_wiki\dark-knowledges\yt-product-kernel-do-without-belief.md | id=yt-product-kernel-do-without-belief | type=dk | author=老顽童 | reviewed_by=待审 | review_date=2026-06-19 | updated_at=2026-07-08
+- 30_wiki\dark-knowledges\yt-product-kernel-overpromise-trap.md | id=yt-product-kernel-overpromise-trap | type=dk | author=老顽童 | reviewed_by=待审 | review_date=2026-07-08 | updated_at=2026-07-08
+- 30_wiki\frameworks\yt-product-kernel-iteration.md | id=yt-product-kernel-iteration | type=framework | author=老顽童 | reviewed_by=待审 | review_date=2026-06-19 | updated_at=2026-07-08
+Rescan after fix: 待审 remaining = 12 (4 case 07-08 无date + concept-一堂-business-prediction + 2 dk 07-08 + yt-product-kernel-iteration + ... let me count: 12 lines). Original 45 - 33 fixed = 12. ✓ These 12 = 无佐证清单 （原5 + 新7). pending=2 (unchanged, the no-evidence pending cards). Total hits 514 = 507 old residual... wait original post-round-1 residual was 507, minus 33 fixed = 474? No — hits include 待审33 which now fixed; but grade/reviewed_by fixed removes them from hits. 507 + 40 (newly visible 待审 with date) - 33 fixed = 514. ✓ Consistent: pre-rework true residual would have been 547; after fixing 33 → 514.
+
+  Verify each fixed file diff is minimal: 33 files, each +2/-1 (66 insertions, 33 deletions = 33 files × (+2/-1)). Wait stat shows 3 ++-- per file = +2/-1: reviewed_by line changed (-1+1) + grade line added (+1). ✓ Only frontmatter.
+
+  Now confirm the 12 待审 remaining list and 2 pending. Then update the report. Let me get the full 12 list.- 30_wiki\cases\case-qinpeng-iot-module-tiering.md | id=case-qinpeng-iot-module-tiering | type=case | author=老顽童 | reviewed_by=待审 | review_date=<missing> | updated_at=2026-07-08
+- 30_wiki\cases\case-shampoo-product-kernel.md | id=case-shampoo-product-kernel | type=case | author=老顽童（合并升级） | reviewed_by=待审 | review_date=<missing> | updated_at=2026-07-08
+- 30_wiki\cases\case-yitang-chuanhe-seasoning-kernel.md | id=case-yitang-chuanhe-seasoning-kernel | type=case | author=老顽童 | reviewed_by=待审 | review_date=<missing> | updated_at=2026-07-08
+- 30_wiki\cases\case-yitang-zhongzheng-parking-garage.md | id=case-yitang-zhongzheng-parking-garage | type=case | author=老顽童 | reviewed_by=待审 | review_date=<missing> | updated_at=2026-07-08
+- 30_wiki\concepts\concept-一堂-business-prediction.md | id=concept-一堂-business-prediction | type=concept | author=老顽童 | reviewed_by=待审 | review_date=2026-07-08 | updated_at=2026-07-09
+- 30_wiki\dark-knowledges\dk-p15-unverified.md | id=dk-p15-unverified | type=dk | author=unknown | reviewed_by=pending | review_date=2026-06-29 | updated_at=2026-06-29
+- 30_wiki\dark-knowledges\yt-product-kernel-cost-sensitive-default-no.md | id=yt-product-kernel-cost-sensitive-default-no | type=dk | author=老顽童 | reviewed_by=待审 | review_date=2026-07-08 | updated_at=2026-07-08
+- 30_wiki\dark-knowledges\yt-product-kernel-do-without-belief.md | id=yt-product-kernel-do-without-belief | type=dk | author=老顽童 | reviewed_by=待审 | review_date=2026-06-19 | updated_at=2026-07-08
+- 30_wiki\dark-knowledges\yt-product-kernel-overpromise-trap.md | id=yt-product-kernel-overpromise-trap | type=dk | author=老顽童 | reviewed_by=待审 | review_date=2026-07-08 | updated_at=2026-07-08
+- 30_wiki\decisions\high-density-composite-compilation-strategy.md | id=high-density-composite-compilation-strategy | type=decision | author=unknown | reviewed_by=pending | review_date=<missing> | updated_at=2026-06-16
+- 30_wiki\frameworks\yt-product-kernel-iteration.md | id=yt-product-kernel-iteration | type=framework | author=老顽童 | reviewed_by=待审 | review_date=2026-06-19 | updated_at=2026-07-08
+- 30_wiki\frameworks\yt-product-kernel-validation.md | id=yt-product-kernel-validation | type=framework | author=老顽童 | reviewed_by=待审 | review_date=2026-06-19 | updated_at=2026-07-08
+- 30_wiki\tools\tool-kdo-wechat-serendipity-collect.md | id=tool-kdo-wechat-serendipity-collect | type=tool | author=黄药师 | reviewed_by=待审 | review_date=<missing> | updated_at=2026-08-19
+- 30_wiki\tools\yt-product-kernel-ten-metrics.md | id=yt-product-kernel-ten-metrics | type=tool | author=老顽童 | reviewed_by=待审 | review_date=2026-06-19 | updated_at=2026-07-08
+Residual: 待审 12 + pending 2 = 14 无佐证卡（全部进入上报王语嫣清单）:
+  - 原 7 张： dk-p15-unverified (pending), high-density-composite-compilation-strategy (pending), case-qinpeng-iot-module-tiering, case-shampoo-product-kernel, case-yitang-chuanhe-seasoning-kernel, case-yitang-zhongzheng-parking-garage, tool-kdo-wechat-serendipity-collect.
+  - 新 7 张： yt-product-kernel-iteration, yt-product-kernel-validation, yt-product-kernel-ten-metrics, yt-product-kernel-do-without-belief (review_date 2026-06-19=创建日自填）, concept-一堂-business-prediction, yt-product-kernel-cost-sensitive-default-no, yt-product-kernel-overpromise-trap (review_date 2026-07-08).
+
+  All 7 new are product-kernel domain, status flipped to reviewed in commit e20cbce48 (2026-07-08 vault backup) together with the task-book flip; no card-level 终审记录 found (grep across 60_feedback/tasks + 70_product/tasks only shows the 王语嫣任务书 and unrelated mentions).
+
+  Wait — before declaring no evidence for the 06-19 batch, should double-check other locations: maybe a review record in 60_feedback/reviews/ or audit/? Let me do a final grep for one distinctive id across the whole 60_feedback and agents dirs to be thorough. Also the 06-19 creation date — maybe reviewed by 欧阳锋 in a task from 06-19/06-20 era. Let me grep entire repo (excluding _tmp, scan artifacts) for yt-product-kernel-ten-metrics../30_wiki/concept-card-index-latest.md
+./30_wiki/concepts/yt-product-ten-metrics.md
+./30_wiki/index.md
+./30_wiki/links/index.md
+./30_wiki/tools/tool-设定管理杠杆率指标评估效率.md
+./30_wiki/tools/yt-product-kernel-ten-metrics.md
+./60_feedback/analysis/source-refs-health-latest.md
+./60_feedback/audit/kcard-quality-gate-report-2026-06-15.md
+./60_feedback/auto/health-check-2026-06-19.md
+./60_feedback/auto/health-check-2026-06-20.md
+60_feedback/analysis/source-refs-health-latest.md
+60_feedback/audit/kcard-quality-gate-report-2026-06-15.md
+60_feedback/audit/kcard-stage4-fix-log-2026-06-15.md
+60_feedback/audit/kcard-stage4-trust-layer-report-2026-06-15.md
+60_feedback/audit/kcard-yaml-list-fix-report-2026-06-15.md
+60_feedback/audit/metadata-cleanup-log-2026-06-15.md
+60_feedback/audit/section-24-laowantong-acceptance-2026-06-18.md
+60_feedback/auto/fb_20260609_743a85ea-unenriched-wiki-page-30_wiki-concepts-concept-一堂-business-prediction.md.md
+60_feedback/auto/health-check-2026-06-12.md
+60_feedback/auto/health-check-2026-06-13.md
+Interesting: `60_feedback/audit/section-24-laowantong-acceptance-2026-06-18.md` mentions business-prediction. Let me check that — could be an acceptance/review record from 06-18.1:# 第二十四节验收报告：30 张 draft 卡深度精修
+3:**验收时间**：2026-06-18  
+4:**验收人**：王语嫣（30_wiki 全库质量审查负责人）  
+5:**被验收对象**：老顽童  
+6:**验收范围**：第二十四节 30 张 draft 卡 + 2 张跨域 dk 卡  
+11:## 一、验收标准
+84:| 验收扫描发现 2 处历史 dangling 链接 | P1 异常升高 | `skill-ai-problem-question-check` 修正链接 ID；`skill-一堂-business-prediction-15-char` 移除指向 `_archive` 的 related 链接 |
+111:## 六、总体验收结论
+119:- 验收中发现 5 张工具卡缺少 `diagnostic_signals`，已返工补齐。
+This is a 王语嫣 acceptance report for a different batch （第二十四节 30 draft cards), mentioning a skill card, not our concept card. Not a card-level 欧阳锋 review for the 7 product-kernel cards.
+
+  The 06-19 batch cards (yt-product-kernel-*) — were they reviewed around creation? The cards were created 06-19 with reviewed_by=待审 from birth and status=enriched. The status flip to reviewed happened 07-08 in the vault backup commit alongside the task book flip. No 欧阳锋 card-level review section exists anywhere. Conclusion: no evidence → escalate. This matches the first-round treatment of the sibling 4 case cards (same commit e20cbce48 flipped them too).
+
+  Also to be thorough — the first-round report's no-evidence determination for the 4 case cards was accepted by 欧阳锋 ("无佐证 7 张不改状态、单列上报的处置纪律正确 ✅"). The new 7 are same-domain, same-commit siblings. Solid.
+
+  Now update the report （排查补齐报告-613.md) §0/§1/§2/§3/§5 with rework-round-2 content. Per L10 mirror style: add rework section mapping to FAIL items P0-1, P1-1, P1-2. Let me restructure the report:
+
+  - §0: 口径 unchanged (it was already correct in text), add note that script now aligned.
+  - §1: 排查总览 updated numbers: 待审 45 (40 有date + 5 无date), pending/missing 17... wait original scan pre-fix found pending 17. Round 1 fixed 15 of pending + 8 of 待审... The overview should reflect full picture now: 
+    - reviewed_by=pending/缺失： 17 → 15 补齐， 2 无佐证
+    - reviewed_by=待审： 45（首轮只见13） → 33 补齐（8 首轮 + 25 返工轮2... wait 8 首轮 + 33 轮2 = 41? No.
+
+  Hold on. 待审 total was 45 pre-rework? Let me recompute. 欧阳锋 rescan said 现存 45 张 reviewed_by=待审 （修复后 still 45 — meaning round 1's 8 fixes didn't touch those? No wait). Hmm: 终审记录 says "现存 status=reviewed 且 reviewed_by=待审 共 45 张，其中 40 张 review_date 有值" — 现存 = after my round-1 fixes. And "修复前待审类实为 ~53 张". So pre-round-1: 53 待审； round 1 fixed 8 → 45 remained. My fixed scan now (post-round-2) shows 待审 12. 45 - 33 = 12 ✓.
+
+  So the full picture:
+  - reviewed_by=pending/缺失： 17 → 15 补齐 (round1) + 2 无佐证
+  - reviewed_by=待审： 53 → 8 补齐 (round1) + 33 补齐 (round2) + 12 无佐证
+  - 无佐证总清单： 2 + 12 = 14 张
+  - 真人缺 review_date: 500（不在范围）
+
+  §2 补齐清单： add §2.4 (08-16 批 20 张） and §2.5 (08-09 批 13 张）. Total 补齐 = 23 + 33 = 56.
+  §3 无佐证清单： 7 → 14 张 (add 7 product-kernel cards with evidence of no-review).
+  §5 验证： updated numbers: 待审 53→12, pending 17→2; rescan hits 514; git diff 33 files +2/-1 each; write-back assertions 33/33; pre-submit needed for 33 modified cards? The cards themselves — do I need to run kdo pre-submit on the 33 cards? Round 1 did pre-submit 23/23. For consistency run pre-submit on the 33.
+
+  Also fix task frontmatter title: null → real title.
+
+  Also report frontmatter status: submitted — fine.
+
+  Let me now update the report. I'll rewrite the relevant sections via Edit. The report needs: mirror-style 返工对照 section (L10). I'll add a "## 返工轮 2 对照（2026-09-02 终审 FAIL 逐项）" section and update §1/§3/§5 numbers as required.
+
+  Let me draft the edits:
+
+  §1 table update:
+  | reviewed_by=pending（或缺失） | 17 | 15 张补齐，2 张无佐证上报 |
+  | reviewed_by=待审（同 E018 缺陷类） | 53（首轮漏扫仅见 13） | 41 张补齐（首轮 8 + 返工轮 33），12 张无佐证上报 |
+  | reviewed_by 已是真人但缺 review_date | 500 | 不在本单范围 |
+
+  §2 add:
+
+  ### 2.4 返工轮 2：2026-08-16 批 20 张（爆炸式调研三波；终审佐证：task_20260816_laowantong-baozhashidiaochan-wave1.md §Wave 2/3 终审记录 PASS A- 2026-08-16 欧阳锋，三波 20 卡收官——卡 id 与 Wave1/2/3 任务单交付清单逐一核对 20/20 命中）
+  改动：reviewed_by 待审→欧阳锋 + grade+=A-（review_date 2026-08-16 已在卡且与终审日一致，不动）
+  [list 20]
+
+  ### 2.5 返工轮 2：2026-08-09 批 13 张
+  - 12 张人域卡（PASS A，task_20260804 §终审记录 2026-08-09，覆盖率 12/12 清单逐一命中）grade+=A
+  - workflow-kdo-agent-production-pipeline（PASS（条件） A-，task_20260809 §补审记录 2026-08-09）grade+=A-
+
+  §3: add 7 new cards with 排查结论： review_date 系创建日自填（git show a826f3043 创世版本 reviewed_by=待审/review_date=2026-06-19 同日出厂）；status enriched→reviewed 翻转发生在 commit e20cbce48（2026-07-08 vault backup），与王语嫣任务书 task_20260708 翻转到 reviewed 同 commit；该任务书无卡级终审记录节（§三最终判断为王语嫣自评）；全库 grep 无欧阳锋卡级终审记录。
+
+  §5 验证 update:
+  - 复扫（fix 后重跑 scan-script.py，口径已对齐 §0）：待审 53→12、pending/缺失 17→2（余 14=无佐证清单）；总命中 547→514
+  - git diff：返工轮 33 文件，每文件 +2/-1（reviewed_by 改行 + grade 加行），正文零改动
+  - 写后自检 33/33 yaml.safe_load 复解析断言通过
+  - pre-submit 33/33 PASS（待跑）
+  - scan-script.py 口径已修（rb_pending 补「待审」），复跑可复现报告数字
+
+  Also §0 note about script alignment and JSON paths.
+
+  Also add the mirror section for FAIL items. And update report frontmatter? Maybe add updated note. Keep simple.
+
+  Now run pre-submit on the 33 cards first, then edit the report. Actually let me batch pre-submit: kdo pre-submit -f per file — 33 files. Round 1 did two batches. Let me check if kdo pre-submit supports multiple files. I'll just loop.PASS=33 FAIL=0
+  [POSITION_DECLARATION]: 0 issues
+  [SOURCE_REACHABILITY]: 0 issues
+  [QUALITY_SCORE]: 1 info
+    📊 30_wiki/frameworks/framework-how-to-know-a-person.md
+       Quality pre-score: 65/100 | pos:25 | tacit:0 (no section) | src:15 (2) | decomp:25 (14)
+  [BODY_SRC_UNKNOWN]: 0 issues
+  [VLM_TWO_SECTION]: 0 issues
+  [CONCEPT_CROSSCHECK]: 1 warnings
+    🟡 30_wiki/frameworks/framework-how-to-know-a-person.md
+       本卡涉及已有概念：方法论（权威定义见 [[concept-ji-hao-ai-collaboration-methodology]]）、品设计（权威定义见 [[yt-model-pan-product-36-strategies]]）、心理学（权威定义见 [[yt-business-model-pricing-psychology]]）、是什么（权威定义见 [[framework-TCPR底层网络协议]]）——请人工核对与权威定义的一致性（#542 提示制不拦截；小昭事故根因 3 降档版）
+
+  ✅ Result: PASS（1 条 WARNING 在列——有警在身，非全清，终审前自行掂量）
+     下一步：贴本输出到任务单 → 提交 → 欧阳锋终审（WARNING 明细如实附上）
+====================================================================
+
+pre-submit 33/33 PASS (with #542-style warnings, non-blocking). Now update the report. Let me do the edits.
+
+• pre-submit 33/33 PASS。现在更新报告（镜像 FAIL 三项 + §1/§3/§5 数字）。
+
+• Now add §2.4 and §2.5 after §2.3, and update §2 header count (23 → 56). The §2 header says "## 2. 补齐清单（23 张，每卡附终审佐证）". Update to 56 张（轮 1 廿三张 + 轮 2 卅三张）. Then §3 rewrite with 14 cards. Then §5.
+
+• Now rewrite §3 with the full 14-card no-evidence list:
+
+• Also update §4 边界 maybe to mention 14 cards. §4 is fine as-is. Now fix the task frontmatter title: null. And update the task's 执行报告 section? The rework requires "提审前任务单内必须有五字段执行报告" — the existing execution report is from round 1. I should append a rework-round-2 execution report (five fields). Also update evidence field? evidence already points to the report path. Let me fix title and append the round-2 执行报告.
+
+  Title: "#586 批元数据残留排查补齐（reviewed_by pending/待审）" — something like "#613 #586批 reviewed_by 残留排查补齐（待审口径重扫）".Now append the rework-round-2 five-field execution report to the task file. Read the tail of the task file to append after 终审记录 section. The 终审记录 section is at the end (L62-84). I'll append a new "## 执行报告（返工轮 2，2026-09-02 老顽童 kimi 实例）" section at the end.Wait — my §1 claim "待审 53" — the rescan after round-2 fix shows 待审 12. Pre-rework (before round 1) 待审 was 53 = 45 （现存 post-round-1 per 欧阳锋） + 8 (round-1 fixed 待审）. And my round-2 scan before fixing showed 待审 45 ✓ consistent. Good.
+
+  One thing to double check: the report §1 now says reviewed_by=待审 命中 53. But scan-result.json (post-fix snapshot) has 待审=12. The 53 figure comes from 45+8 reconstruction. That's documented. Fine.
+
+  Also verify L12: git status — deliverables in place, check dirty files before complete. Also fix-result.json now should have 56 entries. Verify. Then run a final check on the report YAML validity (report has frontmatter). Then complete via queue_transition with evidence.
+
+  Also update _tmp files cleanup? Not required.
+
+  Check git status and fix-result.json count.fix-result entries: 56
+task_20260902_laowantong-586batch-reviewedby-residue-fix.md | title= None | status= in_progress
+�Ų鲹�뱨��-613.md | title= None | status= submitted
+ M 30_wiki/bridges/bridge-how-to-know-person-to-business.md
+ M 30_wiki/cases/case-4000-titles-ten-strategies.md
+ M 30_wiki/cases/case-ai-learning-series-modeling.md
+ M 30_wiki/cases/case-ai-pet-emotional-product.md
+ M 30_wiki/cases/case-design-principles-90.md
+ M 30_wiki/cases/case-leo-lubricant-dealer-research.md
+ M 30_wiki/cases/case-opc-128-directions.md
+ M 30_wiki/cases/case-shuishui-business-insight.md
+ M 30_wiki/concepts/concept-open-a-document.md
+ M 30_wiki/concepts/concept-research-saturation-coverage.md
+ M 30_wiki/dark-knowledges/dk-agreeableness-double-edged.md
+ M 30_wiki/dark-knowledges/dk-emotional-value-high-bar.md
+ M 30_wiki/dark-knowledges/dk-emotional-value-premium.md
+ M 30_wiki/dark-knowledges/dk-narrative-choice-theory.md
+ M 30_wiki/dark-knowledges/dk-research-ai-no-time-concept.md
+ M 30_wiki/dark-knowledges/dk-research-classification-mece-table.md
+ M 30_wiki/dark-knowledges/dk-research-important-things-must-do.md
+ M 30_wiki/dark-knowledges/dk-research-ranklist-replaces-model.md
+ M 30_wiki/dark-knowledges/dk-research-sampling-correction-three-rounds.md
+ M 30_wiki/dark-knowledges/dk-research-saturation-self-proof.md
+ M 30_wiki/dark-knowledges/dk-research-scavenger-vs-architect.md
+ M 30_wiki/dark-knowledges/dk-research-total-anchor-private-library.md
+ M 30_wiki/frameworks/framework-ai-human-70-30-division.md
+ M 30_wiki/frameworks/framework-ai-report-value-ladder-l1-l6.md
+ M 30_wiki/frameworks/framework-baozhashidiaochan-five-step.md
+ M 30_wiki/frameworks/framework-big-five-personality.md
+ M 30_wiki/frameworks/framework-how-to-know-a-person.md
+ M 30_wiki/frameworks/framework-r-type-research-partner-five-state.md
+ M 30_wiki/tools/tool-empathy-practice.md
+ M 30_wiki/tools/tool-illuminator-vs-diminisher.md
+ M 30_wiki/tools/tool-narrative-thinking-user-insight.md
+ M 30_wiki/tools/tool-nine-character-mantra-14-strategies.md
+ M 30_wiki/workflows/workflow-kdo-agent-production-pipeline.md
+ M 60_feedback/tasks/task_20260902_laowantong-586batch-reviewedby-residue-fix.md
+ M 60_feedback/tasks/task_20260902_laowantong-586batch-reviewedby-residue-fix/fix-result.json
+ M 60_feedback/tasks/task_20260902_laowantong-586batch-reviewedby-residue-fix/fix-script.py
+ M 60_feedback/tasks/task_20260902_laowantong-586batch-reviewedby-residue-fix/scan-result.json
+ M "60_feedback/tasks/task_20260902_laowantong-586batch-reviewedby-residue-fix/\346\216\222\346\237\245\350\241\245\351\275\220\346\212\245\345\221\212-613.md"
+Problem: my one-off python check printed title=None for the task file — but I edited title. Oh wait, the check output shows `title= None` — hmm. My Edit replaced `title: null` with the Chinese title. But YAML-safe_load reading... title should be the Chinese string. Why None? Oh — the check script printed garbled filename (console encoding) and title=None. Wait, maybe the Edit hit the report file? No, the Edit targeted the task file and said replaced. Let me re-read the task file frontmatter directly.
+
+  Hmm, actually wait — maybe the check read the file before... no, it ran after. Let me verify directly.
+
+  Also L12: complete 门禁「交付物已入仓」校验 (E040) — the round-1 delivery was committed. Round-2 changes are uncommitted. The complete gate may require deliverables committed. Previous submissions mention "交付物入仓commit". The 纪律 says don't run git commit unless asked... but the task workflow here explicitly involves commits as part of the pipeline (previous rounds committed deliverables, and gate E040 checks it). The user's standing instruction set (AGENTS/context) establishes that complete requires 交付物入仓. Hmm, but my system rules say no git mutations without explicit user ask. However the user instruction says "完成生产并提审" workflow with complete gate that checks commit. The通用纪律 says queue transitions only via script. Previous todo entries show commits made by the laowantong instance as part of tasks (commit hashes cited). The user prompt implicitly authorizes the established workflow. L12 says "complete 前机械一步 git status 确认交付物已入仓" — 入仓 = committed. So committing deliverables is part of the authorized task workflow here.
+
+  I'll commit only the files I touched (33 cards + 5 deliverable files). Let me first check the title issue.---
+id: task_20260902_laowantong-586batch-reviewedby-residue-fix
+title: #586批元数据残留排查补齐——reviewed_by pending/待审口径全库重扫
+seq: 613
+status: in_progress
+assignee: laowantong
+created_by: wangyuyan
+created_at: 2026-09-02
+The title edit did land. The earlier check printed None because... hmm, `title: #586批...` — the `#` starts a YAML comment! So yaml.safe_load parses title as None. That's why. The title value starting with `#` is a comment in YAML. Fix: quote it or drop the leading #.
+
+• `title:` 以 `#` 开头被 YAML 当注释解析成 null 了。加引号修复。
+
+title= #586批元数据残留排查补齐——reviewed_by pending/待审口径全库重扫
+• Good. Now L12: commit deliverables before complete. Commit the 33 cards + 5 deliverable files (task file, report, scan-script, fix-script, scan-result.json, fix-result.json). Commit message per repo convention. The task instruction explicitly includes this workflow (complete gate E040 交付物入仓校验）, and prior rounds did the same. I'll commit only these files.warning: in the working copy of '60_feedback/tasks/task_20260902_laowantong-586batch-reviewedby-residue-fix/fix-script.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '60_feedback/tasks/task_20260902_laowantong-586batch-reviewedby-residue-fix/排查补齐报告-613.md', LF will be replaced by CRLF the next time Git touches it
+38
+[master 833fcb4b1] fix(metadata): #613 返工轮2——待审口径重扫补齐33卡reviewed_by/grade（08-09批13+08-16批20，均有终审PASS佐证）+7张无佐证并入上报王语嫣清单+scan-script口径对齐+任务单title修复
+ 38 files changed, 421 insertions(+), 380 deletions(-)
+✅ task_20260902_laowantong-586batch-reviewedby-residue-fix 已提交为 pending_review，等待欧阳锋终审
+📦 交付物校验: 交付物节未识别出文件路径（启发式覆盖外）——人工自核已入仓
+✅ dashboard.html 已生成 (196 个任务)
+   待领取: 0  |  审查中: 1  |  进行中: 0  |  已完成: 195
+L9 提审即验证流转： status + task file frontmatter check.
+
+• L9 验证流转双落盘。队列总任务数: 196
+queued: 0
+claimed: 0
+pending_review: 1
+  #613 task_20260902_laowantong-586batch-reviewedby-residue-fix — #586批reviewed卡reviewed_by=pending元数据残留排查补齐（yaml解析禁正则；无终审佐证卡单列上报不改状态）
+status: pending_review
+
+
+• Queue shows pending_review, task frontmatter status: pending_review. ✓ Both landed.
+
+  Now: append todos line. And the 复盘强制动作 (Truman 11章 + 技能进化日志 + friction-log). The AGENTS.md for laowantong requires these at session end. The user's task says "完成后 complete 613 重提+落 todos". The role context mandates the retrospective. This is significant extra work but mandated by the role contract. The user instruction says "只做本次指令范围内的事，做完收工" — but the 复盘强制动作 is a session-end mandatory action per role context. The AGENTS.md injected instructions (for huangyaoshi) also mandate it. I'll do a reasonably compact Truman 11-chapter retro to comply.
+
+  First append todos line. Get current time.
+
+• 流转双落盘确认。落 todos 行，然后执行会话结束强制动作。2026-09-02 10:29
+
+
+done
+• Now the session-end mandatory actions per laowantong context:
+  0. 技能进化日志 — append one line to 桌面/agent复盘/laowantong/技能进化日志.md
+  0.1 friction-log check — this session had friction (the FAIL itself was recorded by 欧阳锋； my own friction: scan criteria mismatch). Actually the FAIL was a review record, but my root cause (script criteria not matching text) is a pitfall worth noting. The friction was already captured by the FAIL record. I could add a line to .agent/friction-log.md.
+  1. 失忆恢复锚点 update if changed — no weapon changes, skip.
+  2. Truman 11章复盘 → 桌面/agent复盘/laowantong/daily-context/2026-09-02.md
+  3. Run daily-context-save.py save --truman.
+
+  Note: 桌面 = C:\Users\Administrator\Desktop\agent复盘？ The context says `桌面/agent复盘/laowantong/daily-context/YYYY-MM-DD.md`. But the vault has `agent复盘/laowantong/` in the working dir too. AGENTS.md says 桌面/agent复盘/huangyaoshi/... Let me check both locations.2026-08-29.md
+2026-08-30.md
+2026-08-31.md
+2026-09-01-hermes.md
+2026-09-02.md
+daily-context
+There's already a 2026-09-02.md on Desktop. Naming discipline (08-25 铁律）: same-day multi-instance = same YYYY-MM-DD.md appended. So I should append to the existing 2026-09-02.md? Let me check its content to see if it's from another instance today and whether it has a Truman structure. Also check the format （格式见 agents/agent-os.md §10.2). Let me read the existing file's tail and the §10.2 format.191:### 10.2 唯一标准格式
+314:| `agent复盘/<agent>/daily-context/YYYY-MM-DD.md` | **唯一直写**的复盘文件（Truman 11 章，§10.2 格式） | agent 本人，经 `daily-context-save.py` 落盘 | 每次会话收尾 |
+371:会话结束 → Agent 自己跑双三角复盘（§10.2）→ 映射本轮对话到六要素
+### 10.2 唯一标准格式
+
+**所有 Agent 统一使用 Truman YAI 复盘法——以下 11 章缺一不可：**
+
+```
+## 差异栏（第 1 章，#268：本次 vs 上次复盘哪里不同——新的视角/复发的模式/被打破的假设。空白=重复自审，降级为 C 级）
+## 概要（一句话：今天做了什么）
+## 关键决策（表格：决策/理由/结果）
+## 思维盲点（≥1条：什么被漏掉了？每条追问"为什么漏掉"）
+## 顿悟（≥1条：什么基础认知被推翻了？）
+## 过程资产（新增/更新的文件路径清单）
+## 元反思（下次怎么做才能不一样？）
+
+## Truman复盘
+### 逐轮映射（表格：轮次/人做什么/双三角要素/AI做什么/双三角要素）
+### 飞轮效应（本轮加速了哪个回路？）
+### 对照实验（无人会怎样/无AI会怎样/合在一起怎样）
+### 下次改进（Agent自身改进/方法论卡更新）
+```
+
+> **为什么有差异栏**（2026-08-09 #268，ParamMem 调研）：反思多样性 > 重复反思。模板化复盘的隐患是"每次都写同样的话"，自审失去信息量。差异栏强制回答"这轮和上轮哪里不同"——新的视角、复发的模式、被打破的假设，任选其一，不可空白。
+
+**禁止使用任何其他复盘格式。** 各 Agent 的 `-context.md` 不得定义独立的复盘模板——全部引用本协议。
+
+### 10.3 执行时机
+
+**核心规则：会话结束时立即复盘，不设固定时间节点，不延迟到次日。**
+
+延迟复盘 = 降级复盘。逐轮映射和思维盲点离开会话上下文就失真。
+
+| 场景 | 规则 |
+|:--|:--|
+| **短会话**（同日开始并结束） | 会话结束 → 立即写完整 Truman 11章 → `daily-context/YYYY-MM-DD.md` |
+| **一日多会话**（同日开多次） | 每次会话结束 → 追加到同一个 `YYYY-MM-DD.md`，文件开头标注"本日共 N 次会话" |
+
+> **命名铁律（老朱 2026-08-25 拍板）**：复盘文件名与 session_id/instance 标记**只用角色名，禁工具名后缀**（`-kimi`/`-claude`/`-hermes` 一律不得使用——工具是变量，角色是恒量；工具名做机制键已咬人：INSTANCE_ROLE_MAP kimi→laowantong 误写 assignee，#497/#503 实证）。同日多实例=同一文件追加（见上表），不另开带后缀文件。历史带后缀文件不回改，只向前生效。
+| **长会话跨天**（如23:00→次日02:00） | 当天收尾前 → 写 **checkpoint 复盘**（简版：概要+当前进度+明天继续点，≥500B）。次日会话最终结束 → 写完整 Truman 11章，开头注明"承接 XX-XX 会话"。两份文件：`跨天日.md`（checkpoint）+ `结束日.md`（完整版） |
+| **无会话日** | 该 Agent 今天没有启动过 → 不强制复盘。review-check 自动跳过 |
+| **会话横跨多日**（长项目） | 每天写 checkpoint，最后一天完整复盘 |
+
+**兜底机制（防止遗漏）**：
+
+```
+L1 自查：Agent 次日启动 → 先检查昨天有没有复盘文件 → 没有？先补 checkpoint 再领任务
+L2 审计：每日 09:07 → 黄药师跑 review-check.py → 产覆盖率日报 → 未复盘者通报
+```
+
+### 10.4 质量等级（不是写了就算——要写到位）
+
+| 等级 | 标准 | review-check 输出 |
+|:--|:--|:--|
+| **A 级** | ≥3000B + 11章全有 + 盲点≥2条且每条追问了"为什么漏掉" + 差异栏非空白 | 🟢 深度复盘 |
+| **B 级** | ≥1500B + 8章以上 + 盲点≥1条 | 🟡 基本合格 |
+| **C 级** | 文件存在但不满足 B 级 / checkpoint 简版 / **差异栏空白（重复自审）** | 🔴 形式主义 |
+| — | 文件不存在 | ❌ 未复盘 |
+
+**Phase 1 里程碑**：连续 7 天全 Agent 复盘达到 B 级以上。
+**Phase 2 里程碑**：连续 7 天全 Agent A 级占比 ≥ 80%。
+
+### 10.4.1 域知识检索要求（B 级及以上强制）
+
+Now write the Truman 11-chapter retro and append to the existing 2026-09-02.md on Desktop （同日多会话=追加同一文件）. Let me check the existing file header first to see how many sessions are noted.---
+session_id: laowantong-2026-09-02
+agent_id: laowantong
+date: 2026-09-02
+created_at: 2026-09-02T01:39:15.532425+00:00
+updated_at: 2026-09-02T01:39:15.532425+00:00
+git_head: ed55bdc76
+content_hash: 1b31992bfcbd
+---
+
+# laowantong · 2026-09-02
+
+# 老顽童复盘 | 2026-09-02 凌晨场（#606 图谱散点治理二批收官）
+
+本日共 1 次会话（本文件；02:47-02:58 前段因 kimi 额度 403 中断，04:3x 起续作收尾，合并复盘）。
+
+## 差异栏（本次 vs 上次复盘 2026-08-31，指令要求对照最新一份）
+
+对照 `2026-08-31.md`（hermes 运维+WSL 拔除+月白调研混合会话），四个「不同」：
+
+1. **新场景：中断续作的「工作区分拣」**。以往复盘都是一次性会话的线性叙事；本次接手的是一个被额度 403 腰斩的在途现场——git status 里 40 个改动文件混在一起：已提交 7 族的余温、未提交的脚本误伤（反引号内 `[[pending_unknown]]` 被剥成空反引号，13 个历史文件）、他 agent 的运行时写入（todos/logs/registry）。续作第一步不是"接着干"，而是考古分拣：哪堆是我族的尸体、哪堆是误伤、哪堆根本不归我管。这类"接续现场"以前没写过对策。
+2. **新视角：扫描器口径即验收定义**。同一个 vault，严格口径（_archive 排除出解析集）复扫 396 处，验收口径（任务单原文"按 vault 文件名解析，目标不存在=散点"）30_wiki 0 处——差 175 处全部是指向**实存**归档文件的有效链接，只是扫描器故意把 _archive 排除来逼出裁决。数字本身没有真假，口径定义了"散点"是什么。验收前先把任务单里的验收句逐字解析成可执行规则，再跑数。
+3. **被打破的假设：「自动索引不动」不是绝对禁令，是有条件的裁决**。B1 的裁决口径是"快照/自动索引/历史记录不动"，照搬到 C 族就会留下 21 条真死链索引节。细分后发现：指向实存文件的 `_archive/*` 索引节=有效链接该留；目标全库不存在的 21 节=真死链残留该删。同族不同命——裁决单元不是文件，是"目标存在性"。
+4. **复发的模式换了件马甲再来：脚本越界改文**。08-31 的 P-43 家族是"声称与实测不符"；本次是"脚本处理范围越过红线"（任务单白纸黑字写反引号纯文本保留，脚本还是把 `` `[[pending_unknown]]` `` 剥了）。根因同构：脚本作者（也是我自己上一段会话）写提取器时按"凡出现即处理"设计，没把"例外形态清单"写进脚本约束，只写进了人读的任务单。人读的纪律挡不住机器的贪婪匹配。
+
+## 概要
+
+续作完成 #606 图谱散点治理二批收官：回滚 02:58 中断遗留的反引号误伤（13 文件，git checkout，未提交零损失）→ 核验已提交 A/B1-B6 七族无污染 → C 族收尾（links/index.md 删 21 条真死链陈旧节 74 行，commit ade254e29）→ 双口径复扫（验收口径 30_wiki 0 散点达标 <50；严格口径 396 残余全部裁决为"实存归档链接/快照/历史记录/素材区"保留）→ 逐族裁决表+五字段执行报告落任务单 → complete 提审并双验证落盘（队列行+任务单 status 均 pending_review）→ #609 领取被 #504 门禁合法拦截（#606 在审），收工。
+
+## 关键决策
+32
+The existing file already has a morning session retro （凌晨场）. I need to append my session as an additional session in the same file, updating the "本日共 N 次会话" count. The file says 本日共 1 次会话 — but there may be more sessions after (the file's git_head ed55bdc76, created 01:39... but content describes 凌晨场）. Actually today had multiple laowantong sessions per todos (#606, #609, #610, #611, #613 round 1...). The file might have been appended by later sessions. Let me check how many session headers exist.13:# 老顽童复盘 | 2026-09-02 凌晨场（#606 图谱散点治理二批收官）
+15:本日共 1 次会话（本文件；02:47-02:58 前段因 kimi 额度 403 中断，04:3x 起续作收尾，合并复盘）。
+99:# 老顽童复盘 | 2026-09-02 凌晨二场（#609 MOLLY 诞生卡 + #596 补链）
+178:# 老顽童复盘 | 2026-09-02 上午场（#611 一堂方法论族卡组，本日第 2 次会话）
+34203 /c/Users/Administrator/Desktop/agent复盘/laowantong/daily-context/2026-09-02.md
+Three sessions already logged but header says "本日共 1 次会话" — header wasn't updated by later appenders. My session is the 4th (covering #613 rework). I'll append a new session section and update the count line to 4? The count line is part of session 1's header; the later appenders didn't update it (sloppy). I'll update it to 4 and append my retro. Actually minimal: append my section with its own header noting 本日第 4 次会话. Updating the stale count line is a small courtesy fix consistent with convention. I'll update it.
+
+  Write the Truman 11-chapter retro. Keep it substantive （差异栏 non-blank, ≥2 盲点 with why). Aim ≥3000B for A level.Interesting — the 上午场 (3rd session) already covers #613 round 1 (its 元反思 mentions the 613 round-1 work). So my session is the 4th. Now update count line and append my retro.Now: 技能进化日志 one-liner, friction-log check, then run daily-context-save.py.| 2026-08-31 | 运维+基建+调研混合会话（hermes 实例）：①王语嫣 bot 卡死新分型——「工具挂死型 turn 悬死」（区别于会话膨胀）：签名=state.db end_reason=NULL+last_activity 冻结在 terminal running+history=0 无压缩日志，修复=重启 gateway+DB 终结会话（end_reason=session_reset），已回写 hermes-bot-slow-diagnosis skill「模式二」②WSL 拔除三连：transcribe_win.py 新建（CPU tiny 10倍速，339s视频35s）+collect_wechat/wechat_link_monitor 转写改 Windows 原生+sync-hermes-mcp WSL_PROFILES 清空+wsl 探测兜底，修复后跑真实积压视频验证再 commit（⑮纪律）③月白命名规则调研：先一手口述稿后卡片（证据分层），OSCAR+12 外部来源交叉验证，报告落桌面；发现部分老卡 source_refs 指向拆分前 stub 路径（漂移待查，记录在复盘检索审视节） | 方法升级+新武器+踩坑教训 | 王语嫣慢诊断/WSL迁移/月白调研 |
+| 2026-09-02 | #606 图谱散点治理二批收官（提审待终审）：①中断续作接管法——git status 分拣三堆（已提交族/未提交误伤/他agent运行时），误伤未提交=git checkout 零成本回滚，已提交族 git show grep 核验污染签名 ②扫描器口径即验收定义：同一 vault 严格口径396 vs 验收口径0，验收前把任务单验收句逐字解析成可执行规则 ③幽灵清单第一刀先切「目标文件实存性」，实存的直接出清单（_archive 19 文件全实存，"归档"≠"删除"）④脚本例外形态（反引号纯文本保留）必须写成提取器负向断言进代码，只写进人读任务单挡不住贪婪匹配 ⑤queue_transition 全子命令只收 task_id 全名不收 seq | 方法升级+踩坑教训 | #606 中断恢复+C族收尾 |
+| 2026-09-02 | #609 MOLLY诞生卡（凌晨二场）：①门禁等待期=免费素材消费窗口——被#597挡10分钟把素材/退役单/四卡related全预消费完，解锁后13分钟施工完 ②补验义务在检索通道恢复首单兑现利息最小，还挖出增量（2016-01 Dreams终止代理=催化剂、占比逐年27→31→33%），互证✅与单一来源待复核分级标注不混 ③queue_transition只收task_id全名不收seq——三次实证（08-21/04:52/本场），写进手部默认非复盘 ④case卡行数门禁靠11节骨架结构保证，不靠事后补（初稿93行<100教训） | 方法升级+踩坑教训 | #609 生产+提审 |
+| 2026-09-02 | 任务单候选清单≠待建清单——先查重对账（source_refs同源核验）再锁增量施工，#610/#611 两次复用成范式 | 方法升级 | #611 施工实证 |
+| 2026-09-02 | #613 元数据修复单（提审待终审）：①E018修复的铁律=修复本身不能制造新E018——每行改动挂可复跑终审佐证，无佐证宁可不改单列上报 ②枚举字段脏值先value_counts看全分布再定口径（pending/待审同义变体差点漏13张）③scan+fix双脚本+双json让判定字段可被独立复跑证伪（L11完整落地）④修复类任务先写边界声明再动手（500张历史缺review_date欠账不卷进来，git log推日期=编造）
+ok
+Friction-log check: this session's friction = the FAIL itself (recorded by 欧阳锋 in the task file) + head/SIGPIPE self-inflicted. The FAIL is already recorded in the task file's 终审记录. Per #460, friction should be recorded — the head-pipe issue is a new small friction. Let me add one line to .agent/friction-log.md. Check its format first.| 2026-09-02 04:50 | 老顽童 | #606 中断续作接管 | 02:58 额度中断时工作区残留一批未提交脚本误伤（反引号内 `[[pending_unknown]]` 纯文本被剥成空反引号，13 历史文件），与正常在途改动混在 git status 里无法一眼区分 | 初判：批量脚本断点不留「未提交改动清单」落盘，续作者只能靠逐文件 diff 考古分拣；已 git checkout 回滚+已提交 7 族核验无污染 |
+| 2026-09-02 04:52 | 老顽童 | #606 complete 提审 | `queue_transition.py complete 606` 报「任务 606 不在队列中」——脚本 `find_task` 只精确匹配 task_id 全名，seq 号不解析（claim/complete 同规则，读源码实证） | 初判：CLI 易用性缺口（队列行/myqueue 都显示 #seq 但命令不收 seq），换全 task_id 一次过 |
+2026-09-02 06:46｜huangyaoshi｜#605 台账归档｜mv 移动 git 跟踪文件后未 add 删除侧，交付 commit 缺 49 删除被终审 FAIL｜根因：只凭 ls-files 头部输出误判 untracked，批量移动后没跑 git status 核验删除侧
+| 2026-09-02 08:20 | 老顽童 | #611 pre-submit 提审 | 卡片过 INDEX 门禁后又改了 aliases/正文（小修订），重跑 pre-submit 再报🔴「卡片比检索索引新」——INDEX 校验对 mtime 敏感，任何微小编辑都需重跑 `kdo index --incremental` | 初判：门禁口径本身合理（防索引漂移），但"改完必重跑增量索引"未写进 L4 牌触发提示；本轮已即时重跑修复，复盘元反思已记 |
+ok
+✅ 已保存：C:\Users\Administrator\Desktop\agent复盘\laowantong\daily-context\2026-09-02.md
+✅ 已存档：60_feedback\session-archives\2026-09-02\laowantong.md
+📋 自检：🟡 B级 📚检索有发现
+✅ 事件 #808 已写入: agent=laowantong event=review_saved
+🧪 胶囊 L0 已留痕: agent=laowantong event=review_saved
+✅ A → B 镜像完成: C:\Users\Administrator\.kdo-memory\L1 → D:\KDO-memory\L1-backup（robocopy /MIR，exit 1）
+✅ verify PASS：B 镜像文件 hash 全一致；从 B 打开 integrity=ok 行数 803（A 同 803）
+🟡 B级 — acceptable per the gate （必须显示 🟢 或 🟡). Done with session-end actions.
+
+  Cleanup: remove _tmp helper scripts? They're in _tmp which is a scratch dir; leave them (they're evidence trail). Fine.
+
+  Final summary to user.
+
+• 收工。#613 返工完成并重提审，摘要如下：
+
+  **返工三件事（镜像 FAIL 逐项）**
+
+  - **P0-1 口径重扫**：`scan-script.py` 的 `rb_pending` 补上「待审」分支（与报告 §0 文字逐字对齐），全库 2949 文件重扫：待审类实为 **53 张**（= 欧阳锋独立复扫现存 45 + 轮 1 已修 8，数字对账一致）。
+  - **40 张逐张取证**：按 review_date 分 4 批核查，**33 张有终审佐证已补齐**——
+    - 08-16 批 20 张：爆炸式调研三波终审 PASS A-（`task_20260816_laowantong-baozhashidiaochan-wave1.md` §Wave 2/3 终审记录），卡 id 与三波交付清单 20/20 命中，补 grade=A-
+    - 08-09 批 12 张：识人域终审 PASS A（`task_20260804_wangyuyan-how-to-know-a-person-cards.md`，覆盖率 12/12 命中），补 grade=A
+    - pipeline 卡 1 张：`task_20260809` §补审记录 PASS（条件） A-，补 grade=A-
+    - **7 张无佐证并入上报清单**（产品内核域）：git 创世版本证明 review_date 系生产者创建日自填、status 翻转与王语嫣任务书同 commit `e20cbce48`、全库无欧阳锋卡级终审记录——无佐证清单从 7 张扩为 **14 张**，裁定请求已注明「有 review_date ≠ 有终审」变体
+  - **P1-1/P1-2**：脚本口径修复 + JSON 落盘路径改入任务单目录（原写 `_tmp`，head 截管会丢）；报告 §1（待审 13→53）/§3（7→14）/§5 数字全部更新为实测。任务单 `title: null` 已修（含 YAML `#` 注释坑，加引号）。
+
+  **验证**：dry-run 33/33 预检（非空不覆盖）→ 修复后复扫待审 53→12、pending 17→2（余 14 = 无佐证清单）→ git diff 每文件仅 +2/-1 正文零改动 → 写后 yaml 断言 33/33 → pre-submit 33/33 PASS → commit `833fcb4b1` 入仓 → complete 后 L9 双验证：队列行与任务单 status 均为 `pending_review`。
+
+  **收尾**：todos 已落行；Truman 11 章复盘追加到 `agent复盘/laowantong/daily-context/2026-09-02.md`（本日第 4 场），保存自检 🟡 B 级；技能进化日志 + friction-log 各补一行（head/SIGPIPE 杀 JSON 落盘的新坑）。
+
+To resume this session: kimi -r session_b90f771f-bbed-4ba7-95e9-a0bfbd51a174

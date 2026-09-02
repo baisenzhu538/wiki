@@ -526,3 +526,5 @@
 2026-09-02 09:32:01｜role-liveness｜fengqingyang 全实例疑似死亡（stale: [('kimi-cli', 1836.1)]）｜role_registry check-liveness｜role_registry
 2026-09-02 09:47:40｜task_20260902_huangyaoshi-gate-suite-fixes｜F-035-负向判词｜意见书含负向断言（「未来扩词需同步」）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋
 2026-09-02 09:48:05｜task_20260902_laowantong-586batch-reviewedby-residue-fix｜F-035-负向判词｜意见书含负向断言（缺失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋
+2026-09-02 10:22:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 506.8), ('cli', 39.9)]）｜role_registry check-liveness｜role_registry
+2026-09-02 10:22:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 506.7), ('cli', 36.7)]）｜role_registry check-liveness｜role_registry

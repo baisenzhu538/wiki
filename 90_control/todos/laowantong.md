@@ -166,3 +166,7 @@
 [2026-09-02 09:34] 📤 #613 完成施工并提审（pending_review 等欧阳锋）：全库2949文件yaml.safe_load扫描（E017合规），reviewed_by残留30张（pending17+待审13）→23张有终审佐证已补齐（#586批12张+0628批3张+待审批8张，仅动frontmatter三字段）+7张无佐证不改状态单列报王语嫣裁定；复扫pending17→2/待审13→5（余=无佐证清单）；pre-submit 23/23 PASS；交付物入仓commit 047c146c7+c45edd5ed；报告+机读json+复跑脚本落60_feedback/tasks/task_20260902_laowantong-586batch-reviewedby-residue-fix/
 - [2026-09-02 09:52] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
 - [2026-09-02 10:07] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-02 10:22] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+[2026-09-02 10:29] 📤 #613 返工轮2完成并重提审（pending_review 等欧阳锋）：FAIL三项镜像修复——①scan-script.py rb_pending补「待审」与报告§0口径逐字对齐，全库重扫待审53（与欧阳锋复扫45+轮1已修8对账一致）；②40张待审+有review_date卡逐张排查：33张有终审佐证已补齐（08-16批20张=爆炸式调研三波PASS A-/08-09批12张=识人域PASS A/pipeline卡=补审PASS(条件)A-，卡id逐批20/20+12/12命中），7张无佐证（产品内核域，review_date系创建日自填+status翻转与王语嫣任务书同commit e20cbce48）并入上报清单共14张；③报告§1/§3/§5数字更新+任务单title:null修复；dry-run 33/33+复扫待审53→12+pre-submit 33/33 PASS+写后断言33/33；交付物入仓commit 833fcb4b1；五字段执行报告已落任务单
+- [2026-09-02 10:42] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#613（laowantong 的单，挂审 14min）（到点（节奏 15min））
+- [2026-09-02 10:47] ✅ KDO 终审通过 1 单：#613——你的单过了，见任务单终审记录
