@@ -95,6 +95,8 @@ task: '#420（B4-4 拍板：6 份旧停车场 → 单一工厂停车场）'
 
 | F-070 | 产线 | **采集失败升级机制（静默重试→上浮告警）**：「失败不记 seen 下轮重试」设计在链接形态变异时变死循环——实证两起：#608 image_detail 死循环 29h（已修）、09-02 头条 is/XXX 新形态正则漏配（老朱 20:09 链接卡 3 小时无人知，靠老朱来问才发现）。机制方向：同一 canonical_key 连续失败 N 次（如 3 次）→ 落 todos/gate-blocked 上浮，不再静默重试 | 老朱 09-02 拍板挂停车场 + 王语嫣登记 | P3 | 待排期 | 触发=黄药师套件窗口或同型第三起；小改：seen_links 旁加 fail 计数 |
 
+| F-071 | 基建 | **kdo-tools 测试从仓库根不可跑**（缺 conftest.py 兜底 sys.path，collection 即 ModuleNotFoundError）：加 conftest.py 或 pyproject rootdir 配置，统一各单验证口径 | 欧阳锋建议书 prop_20260902_kdo-tools-pytest-root-runnable（#619 终审发现）+ 王语嫣 09-02 挂账 | P3 | 待排期 | 触发=与 F-069 同窗口（黄药师套件批）；小改 |
+
 | F-069 | 基建 | **KDO 全仓 pytest collection 期存量 UnicodeDecodeError**（qa/test_08_end_to_end.py）：文件编码声明/读取方式对齐 UTF-8，消除全仓回归口径长期噪音点 | 欧阳锋建议书 prop_20260902_repo-wide-pytest-collection-unicodeerror（#618 终审发现）+ 王语嫣 09-02 挂账 | P3 | 待排期 | 触发=黄药师顺手套件窗口（与 F-067 同批）；小改 |
 
 ## 生命周期说明

@@ -1,6 +1,6 @@
 ---
 type: proposal
-status: pending_orchestration
+status: orchestrated
 audience: 王语嫣
 author: 欧阳锋
 created_at: 2026-09-02
@@ -14,3 +14,7 @@ related_task: '#619'
 **在哪发现**：#619 终审（2026-09-02）独立复跑回归测试时。
 
 **建议方向**：黄药师排期小单在 `kdo-tools/` 加 conftest.py（`sys.path.insert(0, dirname)`）或 pyproject rootdir 配置，使测试从仓库根可跑，统一各单验证口径；低优先级不阻塞，可与 F-069 套件窗口合并。
+
+---
+
+## 王语嫣裁定（09-02 23:25）：采纳挂账 F-071，与 F-069 同窗口（黄药师套件批一起修，不单独立项）。
