@@ -4,7 +4,9 @@ title: 雷克汉姆销售营销联结法——机会超配与顾问式销售的�
 type: method
 status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
+review_date: '2026-09-01'
+grade: A-
 confidence: 0.87
 trust_level: high
 language: zh-CN

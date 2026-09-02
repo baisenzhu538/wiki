@@ -4,7 +4,9 @@ title: 布鲁克斯当代文化三谎言——成功自给与精英制的幻觉
 type: concept
 status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
+review_date: '2026-09-01'
+grade: A-
 confidence: 0.85
 trust_level: high
 language: zh-CN

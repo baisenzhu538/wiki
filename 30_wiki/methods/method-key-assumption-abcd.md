@@ -4,7 +4,9 @@ title: 关键假设拆解——三板斧与 ABCD 四象限模型
 type: method
 status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
+review_date: '2026-09-01'
+grade: A-
 confidence: 0.85
 trust_level: high
 language: zh-CN

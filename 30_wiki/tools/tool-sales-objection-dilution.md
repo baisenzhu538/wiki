@@ -4,7 +4,9 @@ title: 异议处理：承认→稀释→调动，转化而非消除
 type: tool
 status: reviewed
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
+review_date: '2026-08-16'
+grade: A-
 confidence: 0.85
 trust_level: medium
 language: zh-CN

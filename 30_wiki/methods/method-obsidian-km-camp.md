@@ -4,7 +4,9 @@ title: AI×知识管理三层架构——Obsidian 原文层 + 语义投影层 + 
 type: method
 status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
+review_date: '2026-09-01'
+grade: A-
 confidence: 0.84
 trust_level: medium
 language: zh-CN

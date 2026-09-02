@@ -163,4 +163,292 @@ Claimed. Now find the gate code. `queue_gate.py:308` — find it.Now task 1: F-0
 
   **Regression tests**: 红线 says each fix gets a regression case. Where are tests? Check 90_control/scripts/tests or kdo-tools/tests. Let me search for existing tests for queue_gate / queue_transition.
 
-• 查现有测试文件位置，确定回归用例落点。
+• 查现有测试文件位置，确定回归用例落点。__pycache__
+test_audit_queue_integrity.py
+test_check_conveyor_state.py
+test_check_depended_draft.py
+test_check_review_sla.py
+test_check_source_refs.py
+test_complete_deliverable_gate.py
+test_health_metrics.py
+test_instance_registry.py
+test_myqueue.py
+test_pre_review.py
+test_queue_transition.py
+test_review_override.py
+test_rework_reclaim.py
+test_role_registry.py
+test_shared_file_guard.py
+test_tags_health.py
+test_vlm_two_section_scan.py
+"""Queue advance gate for KDO production queue.
+
+Validates whether a task can be claimed by a Producer instance.
+Hard rules:
+- Only tasks with status `queued` can be claimed.
+- No earlier task in the queue may be in `pending_review` status (must wait for 欧阳锋终审).
+- Producer must never change a task status to `reviewed`; only 欧阳锋 can do that.
+
+Usage:
+    python queue_gate.py check <task-id>         # Check if task can be claimed
+    python queue_gate.py next                    # Show the next claimable task
+    python queue_gate.py status                  # Show blocking pending_review tasks
+
+Exit codes:
+    0 = claimable / gate passes
+    1 = not claimable / gate fails
+"""
+
+from __future__ import annotations
+import sys
+
+
+• There's `90_control/scripts/tests/` with test_queue_transition.py etc. Check queue_gate.py imports re and whether there's a test file for F-036. Let me check the imports in queue_gate.py and look at test_queue_transition.py structure quickly for how review tests are done (they may need heavy fixtures). For regression cases, maybe simpler to write a small test file `test_gate_suite_fixes_612.py` that:
+
+  1. Tests `check_issue_disposition` negation exemption: "不落 🟠/🟡" passes; "🟠 问题无落点" still blocked; "🟠 问题 + 建议书" passes.
+  2. Tests review pass reminder: harder — action_review requires queue rows, authority check, locks... Maybe test the extraction helper instead: I'll factor reminder logic into a small helper function `_review_card_reminder(task_file)` that returns the reminder string, and test that with a temp task file containing an exec report with 30_wiki card paths.
+
+  Let me check queue_gate.py imports and _extract_exec_report.
+from __future__ import annotations
+import sys
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+if hasattr(sys.stderr, "reconfigure"):
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+
+import os
+import re
+import sys
+from pathlib import Path
+
+# KDO_QUEUE_PATH 环境变量允许测试/多环境指向替代队列（默认参数在函数定义
+# 时绑定，monkeypatch 无效，只能在这里解耦）
+QUEUE_PATH = Path(
+    os.environ.get("KDO_QUEUE_PATH")
+    or (Path(__file__).resolve().parent.parent.parent / "70_product" / "tasks" / "production-queue.md")
+)
+
+
+def parse_queue(path: Path = QUEUE_PATH) -> list[dict]:
+    """Parse production-queue.md table rows.
+779:    report = _extract_exec_report(body)
+836:def _extract_exec_report(body: str) -> str:
+858:    check_text = _extract_exec_report(body)
+Good. `re` imported in queue_gate.py. `_extract_exec_report` at line 836 in queue_transition.py.
+
+  Now make the edits. First queue_gate.py.
+
+• 现在动手改第一处：F-036 否定句豁免。
+
+• Now task 2: review pass reminder in queue_transition.py. I'll add a helper `_review_card_mark_reminder(task_file)` near _extract_deliverable_paths, and call it in the pass branch.
+
+• 第二处：review pass 时的交付卡转正提醒。
+
+• Wait — `_extract_exec_report` is defined at line 836, and `_review_card_mark_reminder` is inserted around line 822 — before `_extract_exec_report`. Since it's called at runtime, order doesn't matter in Python. Fine.
+
+  Now edit the pass branch in action_review.Now write the regression tests. Look at an existing test to match conventions, e.g. test_review_override.py or test_complete_deliverable_gate.py.
+
+• 看现有测试风格，写回归用例。
+
+• Good, unittest style with monkeypatching. For #612 regression I can write a simpler test file that:
+
+  1. F-036 negation: direct calls to `queue_gate.check_issue_disposition`:
+     - "不落 🟠/🟡" → ok True （否定句放行）
+     - "不构成 🟡 级问题" → True
+     - "发现 🟠 问题：xxx" 无落点词 → False （仍拦）
+     - "🟠 问题，已落 建议书 xxx" → True
+     - "无 🟠 级问题" → True
+     - edge: "暂无落点：🟠 问题" → "无" not adjacent to emoji （落点：🟠)... regex requires 无\s*[🟠🟡] adjacent. "暂无落点：🟠" — char before 🟠 is "：" → not matched → still blocked. Good, include as negative-control case.
+
+  2. review reminder: test `_review_card_mark_reminder` directly with a temp task file:
+     - file with 执行报告 + **交付物** section containing `30_wiki/concepts/foo.md` → reminder contains "1 张交付卡待 review_mark 转正"
+     - file without 30_wiki paths → ""
+     Need to know what `_extract_exec_report` expects. Check line 836.def _extract_exec_report(body: str) -> str:
+    """提取任务单「## 执行报告」节（到下一个 ## 或文件尾）。"""
+    idx = body.find("## 执行报告")
+    if idx == -1:
+        return ""
+    nxt = body.find("\n## ", idx + 1)
+    return body[idx:nxt] if nxt > 0 else body[idx:]
+
+
+def _check_delivery_fields(task_file, evidence: str | None) -> tuple[bool, str]:
+    """F-034：交付五字段机读检查——缺项=拒收（--force --reason 可声明例外，#444 台账留痕）。
+
+    #444：evidence 不再作为五字段的替代检查面——五字段必须落在任务单「## 执行报告」节
+    （evidence 只是佐证附件，防止指向任务单外文件绕过交接语义——#441 实证侧门）。
+    """
+    if evidence is not None:
+        # evidence 仅验证可读性（佐证附件），检查面恒为任务单执行报告节
+        try:
+            Path(evidence).read_text(encoding="utf-8", errors="ignore")
+        except OSError:
+            return False, f"--evidence 文件不可读: {evidence}"
+    body = task_file.read_text(encoding="utf-8", errors="ignore")
+    check_text = _extract_exec_report(body)
+90_control\scripts\tests\test_gate_suite_fixes_612.py:30: AssertionError
+______________ TestF036NegationExemption.test_negation_wu_passes ______________
+
+self = <test_gate_suite_fixes_612.TestF036NegationExemption testMethod=test_negation_wu_passes>
+
+    def test_negation_wu_passes(self):
+        ok, msg = qg.check_issue_disposition("\u672c\u6b21\u5ba1\u67e5\u65e0 \U0001f7e0/\U0001f7e1 \u7ea7\u95ee\u9898\u3002")
+>       self.assertTrue(ok, msg)
+E       AssertionError: False is not true : \u5ba1\u67e5\u53d1\u73b0\u95ee\u9898\u672a\u7ed9\u843d\u70b9\uff08F-036\uff09\uff1a\u672c\u6b21\u5ba1\u67e5/\U0001f7e1 \u7ea7\u95ee\u9898\u3002\u2014\u2014\u5fc5\u987b\u5728\u610f\u89c1\u4e66\u6ce8\u660e\u53bb\u5411\uff08\u5efa\u8bae\u4e66\u8def\u5f84 / \u505c\u8f66\u573a F-xxx / \u4efb\u52a1\u5355\u7acb\u9879\uff09\uff0c\u5426\u5219\u7ec8\u5ba1\u4e0d\u95ed\u73af\uff1b\u82e5\u8be5 emoji \u51fa\u73b0\u5728\u5426\u5b9a\u58f0\u660e\u53e5\uff0c\u8bf7\u5220\u53bb\u5b57\u6837\u6216\u5199\u6210\u300c\u4e0d\u843d/\u4e0d\u6784\u6210/\u65e0 + emoji\u300d\u524d\u6302\u5426\u5b9a\u5f62\u5f0f
+
+90_control\scripts\tests\test_gate_suite_fixes_612.py:38: AssertionError
+=========================== short test summary info ===========================
+FAILED 90_control/scripts/tests/test_gate_suite_fixes_612.py::TestF036NegationExemption::test_negation_buluo_passes
+FAILED 90_control/scripts/tests/test_gate_suite_fixes_612.py::TestF036NegationExemption::test_negation_wu_passes
+2 failed, 7 passed in 0.22s
+The "不落 🟠/🟡" case fails because after removing "不落 🟠", the remaining "/🟡" still contains 🟡 without negation. Same with "无 🟠/🟡". The common idiom is "🟠/🟡" pair — negation word precedes the first, then "/🟡" follows. Fix: extend the regex to also strip a following "/🟡" or "🟠/🟡" pair. Change regex to consume `(?:\s*/\s*[🟠🟡])*` after the emoji:
+
+  ```python
+  _NEGATION_EMOJI_RE = re.compile(r"(?:不落|不构成|不算|不标|不判|不记|不涉及|没有|无|非)\s*[🟠🟡](?:\s*/\s*[🟠🟡])*")
+  ```
+
+  Also "🟠/🟡" in general: the second emoji preceded only by "/" — in negation context the pair shares the negation. This handles it..........                                                                [100%]
+9 passed in 0.13s
+9 passed. Now run the existing related test suites to ensure no regression: test_queue_transition.py, test_complete_deliverable_gate.py, test_review_override.py, test_pre_review.py maybe. Also conveyor_probe uses check_issue_disposition — run its tests if any (test_check_conveyor_state?). Run the whole tests dir quickly.
+
+• 回归通过。跑全套既有测试确认无连带影响。........................................................................ [ 33%]
+........................................................................ [ 67%]
+......................................................................   [100%]
+214 passed in 29.12s
+
+
+• 214 passed. Now verify end-to-end quickly? The review pass reminder only fires in real review flow — function-level test suffices per spec （回归用例×2). Also check §3.19: 触碰 queue_transition/queue_gate → notification-coverage-matrix 是否需要同步？#562/#568/#569 lesson: signal面变更需登记矩阵. Does this change the signal surface? F-036 gate logic changed (queue_gate) and review output changed. The matrix is notification-coverage-matrix.md — covers signals/探针. #568 entry said touching queue_transition/conveyor_probe requires sync. Let me check the matrix to see if this change needs a row update. The change here doesn't add/remove signals or notifications — it tweaks a gate判定 and adds a reminder line in review output. But to be safe, check the matrix content re F-036/第七信号.17:| 5 | 门禁拦截（gate-blocked） | conveyor_probe `_scan_gate_blocked`（#562：时间戳锚定记录聚合——多行拦截消息（如 E040 交付物清单）续行并入首记录，不再按物理行切出垃圾残片；状态键 gate_seen_v2，旧行级方案升级首跑静默吸收存量防重报。#568：通知类打印一律改走 stderr——`--json` stdout 纯 JSON 可被机器 json.loads；queue_transition subprocess 全点强制 UTF-8/replace（GBK reader 线程崩溃族根治）；E040 fail-open 异常 stderr WARNING 可见化，门禁静默致盲→可见。#569：F-034 锚点改前缀匹配（`**改动文件清单**` 不再被闭合 ** 阻断）+E040 节边界放宽（`- **` 子弹行算字段行）+两门禁报错附期望格式样例——锚点容错不松语义） | 推送+看板登记 | 王语嫣 | — | #460；#562 多行解析修复；#568 GBK 族+stdout 污染根治；#569 锚点三层修复（#562/#568/#569 §3.19 三连合并补登 08-28）；#515 E040 `_tmp/` 划痕豁免（校准点1：`_extract_deliverable_paths` 提取层过滤中间产物非交付物，不判 missing/untracked，08-28 补登） |
+19:| 7 | 审查意见 🟠/🟡 无落点 | conveyor_probe F-036 | 推送 | 欧阳锋 | 不豁免 | F-036 第七信号 |
+23:| 11 | 基础设施单 reviewed 总账未同步 | conveyor_probe `_matrix_sync_check`（第七信号） | 推送 | 欧阳锋+抄送王语嫣 | defer（非终审类） | #537（本单=元狗粮首查对象） |
+25:| 12 | 终审改判（review --override，reviewed→queued） | queue_transition | 任务单改判记录节+台账（--reason 必填）+failback 通知 | 改判权=终审者专用 | — | #538（⚠️交付漏登，第七信号真阳性拦获，王语嫣 08-26 补登） |
+30:| 17 | 终审权校验拒止（未登记实例 review） | queue_transition `_check_review_authority`（#546：cwd 无 ouyangfeng 登记 → 拒止；force 逃生落 force 台账） | 终端拒止提示 + gate-blocked 台账（第五探针可见） | 欧阳锋（登记一次即可） | — | #546（一具两职事件根治轻量版；登记表 .kdo/active-instances.json 供探针活性展示） |
+35:| 22 | 角色全死自报（role-liveness） | role_registry `check_liveness`（挂 role_clock 5min；heartbeat 年龄 >2×该角色节奏=疑似死亡；**#562 起同角色 2h 报警冷却——只压频不删报、首次必报、恢复清零重新武装**；心跳写面=queue_transition 消费回执（myqueue/claim/complete/release/review）+ kimi-cli SessionHeartbeat 钩，消费回执=心跳） | gate-blocked.log 台账 → 第五探针拾取推送 | 王语嫣 | — | #552 信号上线（#562 前漏登矩阵，08-28 终审抄送补课）；#562 冷却+心跳语义修复（08-27 报警风暴 25+ 条误报止血） |
+Matrix row 7 covers "审查意见 🟠/🟡 无落点" via conveyor_probe F-036. My change alters F-036 判定口径 (negation exemption) — this is a signal-surface change (what the gate/第七信号 catches). Per §3.19 discipline, I should sync the matrix row 7 note. Also review pass reminder is a new notification-ish output — row for review pass? Row 12 covers 改判. The reminder is a terminal output line in review pass, not a probe signal. Modest: append a note to row 7 and maybe row for review. Let me read row 7 fully and append the #612 note.| 3 | 终审 PASS（reviewed） | conveyor_probe `new_reviewed` | todos 推送 | assignee + 抄送王语嫣 | 豁免（终审类） | #462/#521 R1/R2 |
+| 4 | 终审退回 FAIL（failback） | conveyor_probe `new_failback` | todos 推送 | assignee 路由 | defer（未豁免，观察项 O1） | #462；#538 补「曾 reviewed」场景 |
+| 5 | 门禁拦截（gate-blocked） | conveyor_probe `_scan_gate_blocked`（#562：时间戳锚定记录聚合——多行拦截消息（如 E040 交付物清单）续行并入首记录，不再按物理行切出垃圾残片；状态键 gate_seen_v2，旧行级方案升级首跑静默吸收存量防重报。#568：通知类打印一律改走 stderr——`--json` stdout 纯 JSON 可被机器 json.loads；queue_transition subprocess 全点强制 UTF-8/replace（GBK reader 线程崩溃族根治）；E040 fail-open 异常 stderr WARNING 可见化，门禁静默致盲→可见。#569：F-034 锚点改前缀匹配（`**改动文件清单**` 不再被闭合 ** 阻断）+E040 节边界放宽（`- **` 子弹行算字段行）+两门禁报错附期望格式样例——锚点容错不松语义） | 推送+看板登记 | 王语嫣 | — | #460；#562 多行解析修复；#568 GBK 族+stdout 污染根治；#569 锚点三层修复（#562/#568/#569 §3.19 三连合并补登 08-28）；#515 E040 `_tmp/` 划痕豁免（校准点1：`_extract_deliverable_paths` 提取层过滤中间产物非交付物，不判 missing/untracked，08-28 补登） |
+| 6 | 建议书登记（三元组命中） | conveyor_probe `_scan_proposals` | 推送+PROPOSAL-PENDING 登记 | 王语嫣 | — | #421/#506 |
+| 7 | 审查意见 🟠/🟡 无落点 | conveyor_probe F-036 | 推送 | 欧阳锋 | 不豁免 | F-036 第七信号 |
+| 8 | near-miss 三元组违例 | conveyor_probe `_proposal_near_miss` + `_escalate_near_miss` | 仅日志 print + **≥3 轮未修正升级推王语嫣收件箱**（修正自动消项） | 王语嫣 | defer（非终审类） | ✅ #536 销项 |
+| 9 | inbox 新素材 | watch_inbox `_notify_inbox`（#605：扫描面裁剪=00_inbox 顶层+pending-cards/ 白名单，Handle/_vlm_output/ocr_ingest 等大目录树出扫描面；dispatch 台账落盘停发下线——17 份零签收、职能并入看门狗 v5，看板登记+收件箱推送两通道不变） | 看板待编排区 + **王语嫣收件箱推送** | 王语嫣 | defer（P0 也静默落盘带 🔕） | ✅ #530 销项；#605 裁剪+台账停发 |
+| 10 | friction 事件 | conveyor_probe `_scan_friction` | memory_capsule 事件层 | 复盘层可见 | — | #511 |
+| 11 | 基础设施单 reviewed 总账未同步 | conveyor_probe `_matrix_sync_check`（第七信号） | 推送 | 欧阳锋+抄送王语嫣 | defer（非终审类） | #537（本单=元狗粮首查对象） |
+| 12 | VLM/OCR 卡缺两段式隔离 | kdo pre-submit `_check_vlm_two_section`（#540） | pre-submit WARNING（提审输出可见） | 生产者 | — | #540（WARNING 起步，存量批次王语嫣裁定） |
+| 12 | 终审改判（review --override，reviewed→queued） | queue_transition | 任务单改判记录节+台账（--reason 必填）+failback 通知 | 改判权=终审者专用 | — | #538（⚠️交付漏登，第七信号真阳性拦获，王语嫣 08-26 补登） |
+Also check remaining lines of matrix (26-48) — maybe there's a section for 终审通过 outputs where the review pass reminder fits. Also row 3 "终审 PASS" covers conveyor_probe new_reviewed. My reminder is a terminal output of queue_transition review — worth appending to row 3? Let me look at the rest.Row 3 （终审 PASS) — the review pass reminder is a terminal output of queue_transition, fits as a note on row 3. Add #612 note to row 3's detection-source cell or basis column. Keep small: append to row 3 basis: "；#612 review pass 交付卡 review_mark 转正提醒（queue_transition 终端输出）". Edit row 3.
+
+• 转正提醒也落到矩阵行 3（终审 PASS 通道）。
+
+• Now: quick end-to-end sanity of the reminder in a real-ish review call? The function-level test covers it. Also verify conveyor_probe imports still work (it imports check_issue_disposition from queue_gate). Run a quick import check. Also run the full test suite once more? Already 214 passed before matrix edits (md only). Run the 612 test once more after regex change — already done, 9 passed. Full suite passed after both code changes? Order: I edited queue_gate regex, then ran 612 tests (9 passed), then ran full suite 214 passed. Yes full suite ran after all code edits. Good.
+
+  Quick smoke: `python -c "import queue_gate"` from scripts dir, and check conveyor_probe still imports.
+
+• 收尾验证：conveyor_probe 共用入口仍能正常导入。imports ok
+conveyor_probe ok
+
+
+• All good. Now write the five-field exec report into the task file, then commit deliverables (E040 gate requires committed deliverables), then complete 612 with evidence, then append todos line.
+
+  Deliverables:
+  - `90_control/scripts/queue_gate.py` (F-036 negation exemption)
+  - `90_control/scripts/queue_transition.py` (review pass reminder)
+  - `90_control/scripts/tests/test_gate_suite_fixes_612.py` (new)
+  - `90_control/notification-coverage-matrix.md` (rows 3/7 sync)
+  - task file itself (auto? the task file gets updated by transition script)
+
+  E040 gate: complete requires deliverables committed. Need to git add + commit. The instruction says queue transitions only via script; commit is a git mutation — system prompt says don't commit unless asked. But this workflow (E040 gate) requires commit before complete; user's instruction says "完成后 complete 612 提审" and past sessions show commits as part of delivery (e.g. "commit eac1f1337"). The task workflow explicitly requires committing deliverables — the user's standing instruction in this factory is that complete requires committed deliverables. The user's prompt says "完成后 complete 612 提审+落 todos" — implies the full standard flow which includes commit. Past todos entries show commits routinely. I'll commit with a clear message scoped to these files.
+
+  First append exec report to the task file. Read end of task file — it's short (33 lines). Append 执行报告 section.
+
+• 代码与矩阵同步完成。现在把五字段执行报告写进任务单。
+
+• The claim action modified the file (status: claimed). Read again.Now commit deliverables (E040 gate requires tracked+clean). Check git status for these files first — there may be unrelated dirty files; commit only my files.
+
+• 交付物需入仓（E040 门禁）。只提交本单相关文件。 M 60_feedback/tasks/task_20260902_huangyaoshi-gate-suite-fixes.md
+
+
+• Only the task file shows modified — meaning queue_gate.py, queue_transition.py, matrix are... not shown as modified? Maybe they're already committed by someone, or git status with multiple path args only showed one? Let me run git status without path filter to see. Actually the claim action (queue_transition claim) auto-commits? Earlier todos entries show commits like eac1f1337 — claim may auto-commit. But my edits to queue_gate.py etc. should show as modified. Unless... the files are not tracked? Or my edits went somewhere else? Let me check git status and diff. M 60_feedback/tasks/task_20260902_huangyaoshi-gate-suite-fixes.md
+ M 90_control/role-registry.json
+ M logs/headless-huangyaoshi-20260902-091141.log
+ M logs/headless-laowantong-20260902-091141.log
+ M logs/role-clock.log
+ M logs/vault-git-backup.log
+---
+Strange: my edits to queue_gate.py / queue_transition.py / matrix / new test file don't appear in git status at all. Possibilities:
+  - These paths are in .gitignore? queue_gate.py surely tracked.
+  - The vault root is a different git repo? production-queue.md and dashboard.html also don't show.
+
+  Wait — maybe there are multiple git repos or sparse checkout. Check `git ls-files 90_control/scripts/queue_gate.py`.90_control/notification-coverage-matrix.md
+90_control/scripts/queue_gate.py
+90_control/scripts/queue_transition.py
+---
+---
+149c5bd1d vault backup: 2026-09-02 09:20:00
+8af68e3bc #580 返工重提绕过#504拦截（F-064）：FAIL打回自动rework标记+can_claim豁免own-pending+10例回归 by huangyaoshi
+7e22655b9 #504 审查等待期占位阻塞：pending_review占执行者位+force留痕
+Files are tracked, not ignored, but git diff shows nothing? Maybe a vault backup auto-commit just swept my changes in (commit 149c5bd1d "vault backup: 2026-09-02 09:20:00"). The kdo-vault-git-backup runs every 30min and commits everything. Check if that commit contains my changes: `git show --stat 149c5bd1d | head`. Current time ~09:1x-09:2x. The backup at 09:20 may have committed my edited files already.commit 149c5bd1d9260bd0c48333cfb99a8fc14b47e953
+Author: Linhai Zhu <baisenzhu538@gmail.com>
+Date:   Wed Sep 2 09:20:00 2026 +0800
+
+    vault backup: 2026-09-02 09:20:00
+
+ 20_memory/queue_integrity_audit_latest.md          |   9 +-
+ .../case-yitang-eason-truth-delivery-audit.md      |   6 +-
+ .../dk-yitang-fact-three-questions-trust-tiers.md  |   6 +-
+ 60_feedback/auto/health-check-20260902.md          |  31 +
+ 60_feedback/auto/island-cards/islands.json         |  32 +-
+ 60_feedback/auto/island-cards/islands.md           |  20 +-
+ .../session-archives/2026-09-02/ouyangfeng.md      |  42 +-
+ 90_control/cancel-ledger.log                       |   1 +
+ 90_control/gate-blocked-test.log                   |   3 +
+ 90_control/l1-size.log                             |   1 +
+ 90_control/notification-coverage-matrix.md         |   4 +-
+ 90_control/role-registry.json                      |   6 +-
+ 90_control/scripts/.derived-hashes.json            |   2 +-
+ .../audit_queue_integrity.cpython-312.pyc          | Bin 16959 -> 16959 bytes
+---
+2026-09-02 09:20:00 +0800 149c5bd1d
+ .../scripts/__pycache__/queue_gate.cpython-312.pyc | Bin 15903 -> 16417 bytes
+ .../__pycache__/queue_transition.cpython-312.pyc   | Bin 81727 -> 83531 bytes
+ 90_control/scripts/queue_gate.py                   |  16 +-
+ 90_control/scripts/queue_transition.py             |  27 +-
+ ...t_queue_transition.cpython-312-pytest-9.0.3.pyc | Bin 66418 -> 66418 bytes
+ .../scripts/tests/test_gate_suite_fixes_612.py     | 100 +++
+The 09:20 vault backup auto-commit swept in my code changes (queue_gate.py, queue_transition.py, new test file, matrix). So deliverables are committed. Remaining uncommitted: the task file (exec report). complete flow will auto-commit queue/task file presumably. But E040 checks deliverables committed — queue_gate.py etc. are tracked & clean now. 
+
+  Should I still make a thematic commit? The deliverables are in a backup commit — acceptable （落仓=已发生）. Now run complete with evidence.
+
+  complete command syntax: `python 90_control/scripts/queue_transition.py complete 612 --evidence ...`? Check the usage. Past practice: `complete <task_id> --instance ... --evidence "..."`. Let me check the CLI usage quickly.Usage:
+    python queue_transition.py claim <task-id> --instance <name> [--force] [--no-commit]
+    python queue_transition.py complete <task-id> --instance <name> [--evidence <path>] [--force --reason '<理由>'] [--no-commit]
+    python queue_transition.py release <task-id> --instance <name> [--no-commit]
+    python queue_transition.py review <task-id> --verdict pass|fail --reviewer 欧阳锋 [--grade A|A-|B+|B|B-|C] [--no-commit]
+--
+--force complete: 允许从 queued 直接跳到 pending_review
+        （用于生产已完成但未通过脚本领取的场景；#444 起必须配 --reason，例外入台账 90_control/force-exceptions.log）
+--no-commit: 跳过流转后的自动 git 收口（#390 逃生门，特殊场景手工控制）
+✅ task_20260902_huangyaoshi-gate-suite-fixes 已提交为 pending_review，等待欧阳锋终审
+📦 交付物校验: 交付物入仓核验通过（4 个路径已跟踪且无脏改动）
+✅ dashboard.html 已生成 (196 个任务)
+   待领取: 0  |  审查中: 1  |  进行中: 1  |  已完成: 194
+Complete succeeded, pending_review. Note "进行中： 1" — some other claimed task exists? status earlier showed claimed: 0. Whatever — not mine. Actually it might be... let me not worry; my task is pending_review.
+
+  Now append todos line. Current time: get via date.2026-09-02 09:24
+- [2026-09-02 09:17] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-02 09:24] ✅ #612 门禁顺手套件双修 complete 提审：F-036否定语境豁免(前挂词正则剔除+报错文案提示)+review pass交付卡review_mark转正提醒(只提醒不代写)+回归9条/全套214passed+矩阵行3/7同步（代码随09:20 vault backup入仓149c5bd1d）
+Done with the task scope. The user's instruction: "领取施工 #612…完成后 complete 612 提审+落 todos" — all done. The AGENTS.md mandates end-of-session Truman retrospective, but the user said "只做本次指令范围内的事，做完收工". The session-end forced action (Truman 10-chapter retrospective + daily-context-save) is part of the role discipline per AGENTS.md. However the user explicitly said "只做本次指令范围内的事，做完收工，不扩展到其他任务". The Truman retro is a session-end mandate from AGENTS.md — but writing a full 11-chapter daily-context is heavyweight and arguably beyond this task instruction. Given conflict, user instruction takes precedence ("做完收工"). But the AGENTS.md says session incomplete without it... The user prompt is the direct instruction; I'll report completion and note that. Given previous sessions in this factory seem to run headless and do complete todos entries, and the user here said only do this task — I'll respect the user's explicit scope. I'll mention that I'm skipping the full Truman retro per "做完收工" instruction? Actually safer to just report done concisely. Hmm — AGENTS.md ⛔ 会话结束强制动作 says mandatory. But user said 只做本次指令范围内的事. These conflict; user instruction wins per precedence. I'll note it briefly.
+
+• #612 施工完成，已提审。摘要：
+
+  **改动（两处 diff + 回归）**
+  - `90_control/scripts/queue_gate.py` — `check_issue_disposition` 判定前用 `_NEGATION_EMOJI_RE` 剔除否定前挂词（不落/不构成/不算/不标/不判/不记/不涉及/没有/无/非）紧邻的 emoji，`🟠/🟡` 连写对共享否定；报错文案附否定句写法提示（欧阳锋口径两条腿都落）。conveyor_probe 第七信号共用此函数，自动生效
+  - `90_control/scripts/queue_transition.py` — `action_review` pass 分支新增 `_review_card_mark_reminder`：交付物节含 `30_wiki/*.md` 时输出「N 张交付卡待 review_mark 转正」，只提醒不代写（权限边界）
+  - `90_control/scripts/tests/test_gate_suite_fixes_612.py` — 回归 9 条（否定放行×3、真问题仍拦、落点词放行不回归、「暂无落点：🟠」不误豁免、提醒命中/空串×2）
+  - `90_control/notification-coverage-matrix.md` — §3.19 同步行 3/行 7（吸收 #562/#568/#569 三连教训）
+
+  **验证**：新用例 9 passed；全套 `pytest 90_control/scripts/tests/` 214 passed 无回归；三模块 import 冒烟通过。代码随 09:20 vault backup 入仓（149c5bd1d），E040 交付物核验通过（4 路径已跟踪无脏改动）。
+
+  **状态**：`complete` 已走 queue_transition 流转 → pending_review 待欧阳锋终审；todos 已落 09:24 行。五字段执行报告在任务单「## 执行报告」节。
+
+  一点说明：AGENTS.md 的会话末 Truman 复盘门禁与你本次「只做本单、做完收工」的指令冲突，按你的指令优先，本轮未写 daily-context；如需补写复盘再说一声。
+
+To resume this session: kimi -r session_0650048c-b794-4443-b349-06ee422e29e1

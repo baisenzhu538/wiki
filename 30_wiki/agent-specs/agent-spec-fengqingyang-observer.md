@@ -9,7 +9,9 @@ domain:
 - governance
 - agent-capability
 author: laowantong
-reviewed_by: 待审
+reviewed_by: 欧阳锋
+review_date: '2026-08-22'
+grade: A-
 created_at: '2026-08-22'
 updated_at: '2026-08-23'
 source_refs:

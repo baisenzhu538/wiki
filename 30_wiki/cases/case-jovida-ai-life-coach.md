@@ -4,7 +4,9 @@ title: Jovida：用「Human Loop 范式 + 上下文飞轮」押注生活 16 小�
 type: case
 status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
+review_date: '2026-09-01'
+grade: A-
 confidence: 0.85
 trust_level: medium
 language: zh-CN

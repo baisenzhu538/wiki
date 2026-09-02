@@ -1,0 +1,203 @@
+[
+  {
+    "path": "30_wiki/cases/case-jovida-ai-life-coach.md",
+    "changed": [
+      "reviewed_by→欧阳锋",
+      "review_date+=2026-09-01",
+      "grade+=A-"
+    ],
+    "evidence": "#586 PASS A- 2026-09-01（commit 61e755cc5 落盘）"
+  },
+  {
+    "path": "30_wiki/concepts/concept-agent-university.md",
+    "changed": [
+      "reviewed_by→欧阳锋",
+      "review_date+=2026-09-01",
+      "grade+=A-"
+    ],
+    "evidence": "#586 PASS A- 2026-09-01（commit faa13f1ff 返工修复）"
+  },
+  {
+    "path": "30_wiki/concepts/concept-brooks-three-lies-culture.md",
+    "changed": [
+      "reviewed_by→欧阳锋",
+      "review_date+=2026-09-01",
+      "grade+=A-"
+    ],
+    "evidence": "#586 PASS A- 2026-09-01（commit faa13f1ff）"
+  },
+  {
+    "path": "30_wiki/dark-knowledges/dk-brooks-cost-of-knowing.md",
+    "changed": [
+      "reviewed_by→欧阳锋",
+      "review_date+=2026-09-01",
+      "grade+=A-"
+    ],
+    "evidence": "#586 PASS A- 2026-09-01（commit faa13f1ff）"
+  },
+  {
+    "path": "30_wiki/dark-knowledges/dk-koupen-decision-tiering-compromise.md",
+    "changed": [
+      "reviewed_by→欧阳锋",
+      "review_date+=2026-09-01",
+      "grade+=A-"
+    ],
+    "evidence": "#586 PASS A- 2026-09-01（commit 130366e68）"
+  },
+  {
+    "path": "30_wiki/frameworks/framework-lobster-opt-one-person-team.md",
+    "changed": [
+      "reviewed_by→欧阳锋",
+      "review_date+=2026-09-01",
+      "grade+=A-"
+    ],
+    "evidence": "#586 PASS A- 2026-09-01（commit faa13f1ff）"
+  },
+  {
+    "path": "30_wiki/frameworks/framework-muse-ai-full-map-v1.md",
+    "changed": [
+      "reviewed_by→欧阳锋",
+      "review_date+=2026-09-01",
+      "grade+=A-"
+    ],
+    "evidence": "#586 PASS A- 2026-09-01（commit faa13f1ff；#611 终审发现源头卡）"
+  },
+  {
+    "path": "30_wiki/methods/method-anthropic-skill-design-patterns.md",
+    "changed": [
+      "reviewed_by→欧阳锋",
+      "review_date+=2026-09-01",
+      "grade+=A-"
+    ],
+    "evidence": "#586 PASS A- 2026-09-01（commit 130366e68）"
+  },
+  {
+    "path": "30_wiki/methods/method-key-assumption-abcd.md",
+    "changed": [
+      "reviewed_by→欧阳锋",
+      "review_date+=2026-09-01",
+      "grade+=A-"
+    ],
+    "evidence": "#586 PASS A- 2026-09-01（commit 130366e68）"
+  },
+  {
+    "path": "30_wiki/methods/method-obsidian-km-camp.md",
+    "changed": [
+      "reviewed_by→欧阳锋",
+      "review_date+=2026-09-01",
+      "grade+=A-"
+    ],
+    "evidence": "#586 PASS A- 2026-09-01（commit bddee1fa0）"
+  },
+  {
+    "path": "30_wiki/methods/method-spin-linking-sales-marketing.md",
+    "changed": [
+      "reviewed_by→欧阳锋",
+      "review_date+=2026-09-01",
+      "grade+=A-"
+    ],
+    "evidence": "#586 PASS A- 2026-09-01（commit 6ea1f8acc）"
+  },
+  {
+    "path": "30_wiki/tools/tool-ai-koupen-training-partner-design.md",
+    "changed": [
+      "reviewed_by→欧阳锋",
+      "review_date+=2026-09-01",
+      "grade+=A-"
+    ],
+    "evidence": "#586 PASS A- 2026-09-01（commit 130366e68）"
+  },
+  {
+    "path": "30_wiki/tools/tool-yitang-best-practice-as-golden-finger.md",
+    "changed": [
+      "reviewed_by→欧阳锋"
+    ],
+    "evidence": "task_20260627_laowantong-deliberate-practice-cards 终审 11 卡全过（欧阳锋，review_date 2026-06-28 在任务单）"
+  },
+  {
+    "path": "30_wiki/tools/tool-yitang-channel-industrialization-node-design.md",
+    "changed": [
+      "reviewed_by→欧阳锋"
+    ],
+    "evidence": "review_20260628_ouyangfeng-channel-growth 25 卡 conditional pass，已执行动作含 reviewed_by→欧阳锋/review_date→2026-06-28"
+  },
+  {
+    "path": "30_wiki/tools/tool-yitang-channel-scan-cheat-sheet.md",
+    "changed": [
+      "reviewed_by→欧阳锋"
+    ],
+    "evidence": "review_20260628_ouyangfeng-channel-growth 25 卡 conditional pass，同上"
+  },
+  {
+    "path": "30_wiki/frameworks/framework-ai-sales-collaboration.md",
+    "changed": [
+      "reviewed_by→欧阳锋",
+      "review_date+=2026-08-16",
+      "grade+=A-"
+    ],
+    "evidence": "task_20260815_laowantong-spin-ai-sales-cards 终审 PASS A- 2026-08-16（7 卡清单 #1）"
+  },
+  {
+    "path": "30_wiki/frameworks/framework-sales-funnel-full.md",
+    "changed": [
+      "reviewed_by→欧阳锋",
+      "review_date+=2026-08-16",
+      "grade+=A-"
+    ],
+    "evidence": "同上（#2）"
+  },
+  {
+    "path": "30_wiki/tools/tool-sales-objection-dilution.md",
+    "changed": [
+      "reviewed_by→欧阳锋",
+      "review_date+=2026-08-16",
+      "grade+=A-"
+    ],
+    "evidence": "同上（#3）"
+  },
+  {
+    "path": "30_wiki/dark-knowledges/dk-sales-demand-mining-is-company-task.md",
+    "changed": [
+      "reviewed_by→欧阳锋",
+      "review_date+=2026-08-16",
+      "grade+=A-"
+    ],
+    "evidence": "同上（#4）"
+  },
+  {
+    "path": "30_wiki/dark-knowledges/dk-sales-big-deal-vs-small-deal.md",
+    "changed": [
+      "reviewed_by→欧阳锋",
+      "review_date+=2026-08-16",
+      "grade+=A-"
+    ],
+    "evidence": "同上（#5）"
+  },
+  {
+    "path": "30_wiki/dark-knowledges/dk-customers-hate-ai.md",
+    "changed": [
+      "reviewed_by→欧阳锋",
+      "review_date+=2026-08-16",
+      "grade+=A-"
+    ],
+    "evidence": "同上（#6）"
+  },
+  {
+    "path": "30_wiki/tools/tool-candy-sales-recruiting.md",
+    "changed": [
+      "reviewed_by→欧阳锋",
+      "review_date+=2026-08-16",
+      "grade+=A-"
+    ],
+    "evidence": "task_20260815_laowantong-candy-sales-recruiting 终审 PASS A- 2026-08-16"
+  },
+  {
+    "path": "30_wiki/agent-specs/agent-spec-fengqingyang-observer.md",
+    "changed": [
+      "reviewed_by→欧阳锋",
+      "review_date+=2026-08-22",
+      "grade+=A-"
+    ],
+    "evidence": "task_20260822_laowantong-fengqingyang-agent-spec 终审 PASS/A- 2026-08-22（交付物=本卡）"
+  }
+]

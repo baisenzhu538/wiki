@@ -4,7 +4,9 @@ title: 销售漏斗全貌：正梯形复购裂变 + 每层配套动作
 type: framework
 status: reviewed
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
+review_date: '2026-08-16'
+grade: A-
 confidence: 0.8
 trust_level: medium
 language: zh-CN

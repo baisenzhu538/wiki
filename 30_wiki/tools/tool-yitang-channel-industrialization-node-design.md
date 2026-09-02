@@ -10,7 +10,7 @@ domain:
 confidence: 0.8
 trust_level: medium
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 created_at: 2026-06-27
 discoverable_by:
   - 工业化生产节点设计工具：把复杂交付变成可控流程

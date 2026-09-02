@@ -4,7 +4,9 @@ title: 口喷科学决策的暗知识——决策分档直觉与一半决策是�
 type: dk
 status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
+review_date: '2026-09-01'
+grade: A-
 confidence: 0.87
 trust_level: high
 language: zh-CN

@@ -4,7 +4,9 @@ title: Agent 大学——让 Agent 受教育的产品设想（Skill 市场之外
 type: concept
 status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
+review_date: '2026-09-01'
+grade: A-
 confidence: 0.82
 trust_level: medium
 language: zh-CN

@@ -4,7 +4,9 @@ title: AI 销售协同：确定性方法 + 可判断标准的双条件框架
 type: framework
 status: reviewed
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
+review_date: '2026-08-16'
+grade: A-
 confidence: 0.82
 trust_level: medium
 language: zh-CN

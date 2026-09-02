@@ -1,0 +1,5085 @@
+{
+  "scanned": 2949,
+  "errors": [
+    [
+      "C:\\Users\\Administrator\\Desktop\\wiki\\30_wiki\\dark-knowledges\\dk-digest-registration-gap.md",
+      "yaml: while parsing a block mapping\n  in \"<unicode string>\", line 33, column 3:\n    - signal: 卡文件存在（ls 能看见）但 grep 不到任何 ... \n      ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 35, column 20:\n      implication: \"存在\"不等于\"注册\"——2026-08-23 周检实测 12 张核心卡 ... \n                       ^"
+    ],
+    [
+      "C:\\Users\\Administrator\\Desktop\\wiki\\30_wiki\\_archive\\plan_20260531_data-curator-v1.1.md",
+      "yaml: while parsing a block mapping\n  in \"<unicode string>\", line 2, column 1:\n    id: plan_20260531_data-curator-v1.1\n    ^\nexpected <block end>, but found '-'\n  in \"<unicode string>\", line 14, column 1:\n    - src_20260531_ai-data-understanding\n    ^"
+    ]
+  ],
+  "hits": [
+    {
+      "path": "30_wiki\\agent-specs\\agent-spec-wangyuyan-orchestrator.md",
+      "id": "agent-spec-wangyuyan-orchestrator",
+      "type": "agent-spec",
+      "author": "王语嫣",
+      "status": "reviewed",
+      "reviewed_by": "老朱（2026-08-23 终稿拍板，跨场直批；欧阳锋结构终审待补——写审分离，不影响生效）",
+      "review_date": "<missing>",
+      "updated_at": "2026-08-23T04:10:00+00:00"
+    },
+    {
+      "path": "30_wiki\\bridges\\bridge-dual-track-feature-system.md",
+      "id": "bridge-dual-track-feature-system",
+      "type": "bridge",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-08-16"
+    },
+    {
+      "path": "30_wiki\\bridges\\bridge-lightning-agent-evolution.md",
+      "id": "bridge-lightning-agent-evolution",
+      "type": "bridge",
+      "author": "laowantong",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-26"
+    },
+    {
+      "path": "30_wiki\\bridges\\bridge-meeting-leadership-coaching.md",
+      "id": "bridge-meeting-leadership-coaching",
+      "type": "bridge",
+      "author": "laowantong",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-08-09"
+    },
+    {
+      "path": "30_wiki\\bridges\\bridge-two-feature-systems.md",
+      "id": "bridge-two-feature-systems",
+      "type": "bridge",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-08-25"
+    },
+    {
+      "path": "30_wiki\\cases\\case-agent-self-evolution-pilot.md",
+      "id": "case-agent-self-evolution-pilot",
+      "type": "case",
+      "author": "laowantong",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-26"
+    },
+    {
+      "path": "30_wiki\\cases\\case-ai-search-commerce-platform-hedge.md",
+      "id": "case-ai-search-commerce-platform-hedge",
+      "type": "case",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-08"
+    },
+    {
+      "path": "30_wiki\\cases\\case-arui-headhunter-ai-role-switching.md",
+      "id": "case-arui-headhunter-ai-role-switching",
+      "type": "case",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-08-31"
+    },
+    {
+      "path": "30_wiki\\cases\\case-ban-fei-mao-conversion-hacker-skill.md",
+      "id": "case-ban-fei-mao-conversion-hacker-skill",
+      "type": "case",
+      "author": "半肥猫",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\cases\\case-ban-fei-mao-from-assignment-to-tool.md",
+      "id": "case-ban-fei-mao-from-assignment-to-tool",
+      "type": "case",
+      "author": "半肥猫",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\cases\\case-ban-fei-mao-skill-ab-test.md",
+      "id": "case-ban-fei-mao-skill-ab-test",
+      "type": "case",
+      "author": "半肥猫",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\cases\\case-cross-xingangwan-pharma.md",
+      "id": "case-cross-xingangwan-pharma",
+      "type": "case",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\cases\\case-cross-yuanqi-forest.md",
+      "id": "case-cross-yuanqi-forest",
+      "type": "case",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\cases\\case-decision-science-lunch-break-compression.md",
+      "id": "case-decision-science-lunch-break-compression",
+      "type": "case",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\cases\\case-decision-science-topcity-negative-revenue-rank.md",
+      "id": "case-decision-science-topcity-negative-revenue-rank",
+      "type": "case",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\cases\\case-decision-science-universal-salary-raise-roi.md",
+      "id": "case-decision-science-universal-salary-raise-roi",
+      "type": "case",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\cases\\case-ji-hao-ai-workspace-chaos.md",
+      "id": "case-ji-hao-ai-workspace-chaos",
+      "type": "case",
+      "author": "纪浩",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\cases\\case-ji-hao-skills-market.md",
+      "id": "case-ji-hao-skills-market",
+      "type": "case",
+      "author": "纪浩",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\cases\\case-ji-hao-ui-design-constraint-evolution.md",
+      "id": "case-ji-hao-ui-design-constraint-evolution",
+      "type": "case",
+      "author": "纪浩",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-02"
+    },
+    {
+      "path": "30_wiki\\cases\\case-lean-adult-education.md",
+      "id": "case-lean-adult-education",
+      "type": "case",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\cases\\case-lean-combination-test-paradigm.md",
+      "id": "case-lean-combination-test-paradigm",
+      "type": "case",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\cases\\case-lean-crayfish-combo-test.md",
+      "id": "case-lean-crayfish-combo-test",
+      "type": "case",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\cases\\case-lean-electric-scooter-mvp.md",
+      "id": "case-lean-electric-scooter-mvp",
+      "type": "case",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\cases\\case-lean-genki-forest-toolkit.md",
+      "id": "case-lean-genki-forest-toolkit",
+      "type": "case",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\cases\\case-lean-gray-test-paradigm.md",
+      "id": "case-lean-gray-test-paradigm",
+      "type": "case",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\cases\\case-lean-radish-channel-selection.md",
+      "id": "case-lean-radish-channel-selection",
+      "type": "case",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\cases\\case-lean-shampoo-selling-points.md",
+      "id": "case-lean-shampoo-selling-points",
+      "type": "case",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\cases\\case-lean-wrong-demand.md",
+      "id": "case-lean-wrong-demand",
+      "type": "case",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\cases\\case-lean-zhanglei-failure-counterfactual.md",
+      "id": "case-lean-zhanglei-failure-counterfactual",
+      "type": "case",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\cases\\case-lean-zhanglei-hypothesis-validation.md",
+      "id": "case-lean-zhanglei-hypothesis-validation",
+      "type": "case",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\cases\\case-lean-zhanglei-pivot-decision.md",
+      "id": "case-lean-zhanglei-pivot-decision",
+      "type": "case",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\cases\\case-live81-ai-trademark-design.md",
+      "id": "case-live81-ai-trademark-design",
+      "type": "case",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-02"
+    },
+    {
+      "path": "30_wiki\\cases\\case-meeting-roi-awakening.md",
+      "id": "case-meeting-roi-awakening",
+      "type": "case",
+      "author": "laowantong",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-08-09"
+    },
+    {
+      "path": "30_wiki\\cases\\case-meeting-scene-mastery.md",
+      "id": "case-meeting-scene-mastery",
+      "type": "case",
+      "author": "laowantong",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-08-09"
+    },
+    {
+      "path": "30_wiki\\cases\\case-opc-agent-wave1-real-model-testing.md",
+      "id": "case-opc-agent-wave1-real-model-testing",
+      "type": "case",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-03"
+    },
+    {
+      "path": "30_wiki\\cases\\case-panproduct-top135-selection-polish.md",
+      "id": "case-panproduct-top135-selection-polish",
+      "type": "case",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\cases\\case-panproduct-yitao-project-background.md",
+      "id": "case-panproduct-yitao-project-background",
+      "type": "case",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\cases\\case-qinpeng-iot-module-tiering.md",
+      "id": "case-qinpeng-iot-module-tiering",
+      "type": "case",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "待审",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-08"
+    },
+    {
+      "path": "30_wiki\\cases\\case-shampoo-product-kernel.md",
+      "id": "case-shampoo-product-kernel",
+      "type": "case",
+      "author": "老顽童（合并升级）",
+      "status": "reviewed",
+      "reviewed_by": "待审",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-08"
+    },
+    {
+      "path": "30_wiki\\cases\\case-strategy-cool-boiled-water.md",
+      "id": "case-strategy-cool-boiled-water",
+      "type": "case",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\cases\\case-strategy-edward-jones.md",
+      "id": "case-strategy-edward-jones",
+      "type": "case",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\cases\\case-strategy-exit-remove.md",
+      "id": "case-strategy-exit-remove",
+      "type": "case",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\cases\\case-strategy-exit-sell.md",
+      "id": "case-strategy-exit-sell",
+      "type": "case",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\cases\\case-strategy-failure-01-cosmetics.md",
+      "id": "case-strategy-failure-01-cosmetics",
+      "type": "case",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\cases\\case-strategy-failure-02-supermarket.md",
+      "id": "case-strategy-failure-02-supermarket",
+      "type": "case",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\cases\\case-strategy-failure-03-cleaning.md",
+      "id": "case-strategy-failure-03-cleaning",
+      "type": "case",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\cases\\case-strategy-practice-ranpeng-crossborder.md",
+      "id": "case-strategy-practice-ranpeng-crossborder",
+      "type": "case",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\cases\\case-truman-prd-checklist-evolution.md",
+      "id": "case-truman-prd-checklist-evolution",
+      "type": "case",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\cases\\case-truman-sales-report-structure.md",
+      "id": "case-truman-sales-report-structure",
+      "type": "case",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\cases\\case-unit-model-gashapon.md",
+      "id": "case-unit-model-gashapon",
+      "type": "case",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\cases\\case-wanghuan-education-sales-capability-extraction.md",
+      "id": "case-wanghuan-education-sales-capability-extraction",
+      "type": "case",
+      "author": "王语嫣",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\cases\\case-wanghuan-education-sales-paced.md",
+      "id": "case-wanghuan-education-sales-paced",
+      "type": "case",
+      "author": "王语嫣",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\cases\\case-wanghuan-shenyang-software-3x-efficiency.md",
+      "id": "case-wanghuan-shenyang-software-3x-efficiency",
+      "type": "case",
+      "author": "王语嫣",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\cases\\case-wanghuan-yiyu-qingji-medical-notes.md",
+      "id": "case-wanghuan-yiyu-qingji-medical-notes",
+      "type": "case",
+      "author": "王语嫣",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\cases\\case-yitang-chuanhe-seasoning-kernel.md",
+      "id": "case-yitang-chuanhe-seasoning-kernel",
+      "type": "case",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "待审",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-08"
+    },
+    {
+      "path": "30_wiki\\cases\\case-yitang-double-triangle-confidence.md",
+      "id": "case-yitang-double-triangle-confidence",
+      "type": "case",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\cases\\case-yitang-sales-transformation-jubensha-saas.md",
+      "id": "case-yitang-sales-transformation-jubensha-saas",
+      "type": "case",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-02"
+    },
+    {
+      "path": "30_wiki\\cases\\case-yitang-sales-transformation-meirongyuan.md",
+      "id": "case-yitang-sales-transformation-meirongyuan",
+      "type": "case",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-02"
+    },
+    {
+      "path": "30_wiki\\cases\\case-yitang-sales-transformation-tuliaogongsi.md",
+      "id": "case-yitang-sales-transformation-tuliaogongsi",
+      "type": "case",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-02"
+    },
+    {
+      "path": "30_wiki\\cases\\case-yitang-Y-model-seven-applications.md",
+      "id": "case-yitang-Y-model-seven-applications",
+      "type": "case",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-03"
+    },
+    {
+      "path": "30_wiki\\cases\\case-yitang-zhongzheng-parking-garage.md",
+      "id": "case-yitang-zhongzheng-parking-garage",
+      "type": "case",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "待审",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-08"
+    },
+    {
+      "path": "30_wiki\\cases\\case-纪浩-from-zip-to-five-layers.md",
+      "id": "case-纪浩-from-zip-to-five-layers",
+      "type": "case",
+      "author": "纪浩",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\concepts\\2026-05-17-深夜感想.md",
+      "id": "2026-05-17-深夜感想",
+      "type": "concept",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\concepts\\ai-collaboration-mindset-shift.md",
+      "id": "ai-collaboration-mindset-shift",
+      "type": "concept",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-02"
+    },
+    {
+      "path": "30_wiki\\concepts\\ai-landing-scene-selection.md",
+      "id": "ai-landing-scene-selection",
+      "type": "concept",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-17"
+    },
+    {
+      "path": "30_wiki\\concepts\\ai-learning-closed-loop.md",
+      "id": "ai-learning-closed-loop",
+      "type": "concept",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-17"
+    },
+    {
+      "path": "30_wiki\\concepts\\ai-native-五层进阶从答案到效率到作品到产品到系统.md",
+      "id": "ai-native-五层进阶从答案到效率到作品到产品到系统",
+      "type": "framework",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-17"
+    },
+    {
+      "path": "30_wiki\\concepts\\ai-俱乐部人和-ai-协作-五层结构.md",
+      "id": "ai-俱乐部人和-ai-协作-五层结构",
+      "type": "concept",
+      "author": "纪浩",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\concepts\\ai-俱乐部人和-ai-协作-参考案例对比一堂-vs-sql-helper.md",
+      "id": "ai-俱乐部人和-ai-协作-参考案例对比一堂-vs-sql-helper",
+      "type": "concept",
+      "author": "纪浩",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-09T14:22:37+00:00"
+    },
+    {
+      "path": "30_wiki\\concepts\\aima-ai思维卡-外部链接归档.md",
+      "id": "aima-ai思维卡-外部链接归档",
+      "type": "concept",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\concepts\\ai时代判断力口述.md",
+      "id": "ai时代判断力口述",
+      "type": "concept",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\concepts\\anthropic-官方发布创始人手册打造-ai-原生初创公司.md",
+      "id": "anthropic-官方发布创始人手册打造-ai-原生初创公司",
+      "type": "concept",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-16"
+    },
+    {
+      "path": "30_wiki\\concepts\\concept-abundance-paradox.md",
+      "id": "concept-abundance-paradox",
+      "type": "concept",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-01T00:00:00+00:00"
+    },
+    {
+      "path": "30_wiki\\concepts\\concept-agent-as-token-consumer.md",
+      "id": "concept-agent-as-token-consumer",
+      "type": "concept",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-08-26"
+    },
+    {
+      "path": "30_wiki\\concepts\\concept-ai-native-organization-five-steps.md",
+      "id": "concept-ai-native-organization-five-steps",
+      "type": "concept",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-17"
+    },
+    {
+      "path": "30_wiki\\concepts\\concept-cognitive-offloading-in-ai-era.md",
+      "id": "concept-cognitive-offloading-in-ai-era",
+      "type": "concept",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-02"
+    },
+    {
+      "path": "30_wiki\\concepts\\concept-jevons-paradox-in-ai.md",
+      "id": "concept-jevons-paradox-in-ai",
+      "type": "concept",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-08"
+    },
+    {
+      "path": "30_wiki\\concepts\\concept-ji-hao-ai-collaboration-methodology.md",
+      "id": "concept-ji-hao-ai-collaboration-methodology",
+      "type": "concept",
+      "author": "纪浩",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\concepts\\concept-kdo-agent-design-principles.md",
+      "id": "concept-kdo-agent-design-principles",
+      "type": "concept",
+      "author": "laowantong",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-26"
+    },
+    {
+      "path": "30_wiki\\concepts\\concept-kdo-agent-four-level-awareness.md",
+      "id": "concept-kdo-agent-four-level-awareness",
+      "type": "concept",
+      "author": "laowantong",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-26"
+    },
+    {
+      "path": "30_wiki\\concepts\\concept-kdo-component-library.md",
+      "id": "concept-kdo-component-library",
+      "type": "concept",
+      "author": "黄药师",
+      "status": "reviewed",
+      "reviewed_by": "黄药师",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-19"
+    },
+    {
+      "path": "30_wiki\\concepts\\concept-mckinsey-issue-tree.md",
+      "id": "concept-mckinsey-issue-tree",
+      "type": "concept",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-17"
+    },
+    {
+      "path": "30_wiki\\concepts\\concept-mckinsey-mece.md",
+      "id": "concept-mckinsey-mece",
+      "type": "concept",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-17"
+    },
+    {
+      "path": "30_wiki\\concepts\\concept-token-capital.md",
+      "id": "concept-token-capital",
+      "type": "concept",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-08"
+    },
+    {
+      "path": "30_wiki\\concepts\\concept-token-per-watt.md",
+      "id": "concept-token-per-watt",
+      "type": "concept",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-08-26"
+    },
+    {
+      "path": "30_wiki\\concepts\\concept-wanghuan-adversarial-generation.md",
+      "id": "concept-wanghuan-adversarial-generation",
+      "type": "concept",
+      "author": "王语嫣",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\concepts\\concept-wanghuan-ai-native-definition.md",
+      "id": "concept-wanghuan-ai-native-definition",
+      "type": "concept",
+      "author": "王语嫣",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\concepts\\concept-wanghuan-flywheel-first-loop.md",
+      "id": "concept-wanghuan-flywheel-first-loop",
+      "type": "concept",
+      "author": "王语嫣",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\concepts\\concept-wanghuan-power-of-standards.md",
+      "id": "concept-wanghuan-power-of-standards",
+      "type": "concept",
+      "author": "王语嫣",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\concepts\\concept-wanghuan-tacit-knowledge-examples.md",
+      "id": "concept-wanghuan-tacit-knowledge-examples",
+      "type": "concept",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\concepts\\concept-半肥猫-ai-learning-toolification-methodology.md",
+      "id": "concept-半肥猫-ai-learning-toolification-methodology",
+      "type": "concept",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\concepts\\concept-单元模型-学练用.md",
+      "id": "concept-单元模型-学练用",
+      "type": "concept",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\concepts\\concept-提升笔记阅读舒适度.md",
+      "id": "concept-提升笔记阅读舒适度",
+      "type": "concept",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-17"
+    },
+    {
+      "path": "30_wiki\\concepts\\concept-科学决策宽度.md",
+      "id": "concept-科学决策宽度",
+      "type": "concept",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\concepts\\concept-纪浩-ai-collaboration-five-layer.md",
+      "id": "concept-纪浩-ai-collaboration-five-layer",
+      "type": "concept",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-17"
+    },
+    {
+      "path": "30_wiki\\concepts\\concept-问题驱动式深度思考笔记.md",
+      "id": "concept-问题驱动式深度思考笔记",
+      "type": "concept",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-17"
+    },
+    {
+      "path": "30_wiki\\concepts\\contingency-decision-making.md",
+      "id": "contingency-decision-making",
+      "type": "concept",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-17"
+    },
+    {
+      "path": "30_wiki\\concepts\\course-to-skill-conversion.md",
+      "id": "course-to-skill-conversion",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-17"
+    },
+    {
+      "path": "30_wiki\\concepts\\deepseek-v4-在知识管理系统中的应用.md",
+      "id": "deepseek-v4-在知识管理系统中的应用",
+      "type": "concept",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\concepts\\design-ai-image-generation.md",
+      "id": "design-ai-image-generation",
+      "type": "concept",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\concepts\\EC工业化规范手册.md",
+      "id": "EC工业化规范手册",
+      "type": "concept",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-05-03"
+    },
+    {
+      "path": "30_wiki\\concepts\\find-old-do-small.md",
+      "id": "find-old-do-small",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-17"
+    },
+    {
+      "path": "30_wiki\\concepts\\HIS系统开发实现方案-架构师指南.md",
+      "id": "HIS系统开发实现方案-架构师指南",
+      "type": "concept",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-05-03"
+    },
+    {
+      "path": "30_wiki\\concepts\\kdo-flywheel.md",
+      "id": "kdo-flywheel",
+      "type": "concept",
+      "author": "黄药师",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-16"
+    },
+    {
+      "path": "30_wiki\\concepts\\kdo-yaml-frontmatter-safety.md",
+      "id": "kdo-yaml-frontmatter-safety",
+      "type": "concept",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-17"
+    },
+    {
+      "path": "30_wiki\\concepts\\kdo_product_design_agent_final.md",
+      "id": "kdo_product_design_agent_final",
+      "type": "concept",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-05-03"
+    },
+    {
+      "path": "30_wiki\\concepts\\kimi-深度调研集群方法论-deep-research-swarm.md",
+      "id": "kimi-深度调研集群方法论-deep-research-swarm",
+      "type": "concept",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-05-04"
+    },
+    {
+      "path": "30_wiki\\concepts\\knowledge-delivery-os-快速体验指南-飞书云文档.md",
+      "id": "knowledge-delivery-os-快速体验指南-飞书云文档",
+      "type": "concept",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-05-04"
+    },
+    {
+      "path": "30_wiki\\concepts\\learning-thinking.md",
+      "id": "learning-thinking",
+      "type": "concept",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\concepts\\prd-as-ai-instruction.md",
+      "id": "prd-as-ai-instruction",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-17"
+    },
+    {
+      "path": "30_wiki\\concepts\\smart-medicine-cabinet-distribution.md",
+      "id": "smart-medicine-cabinet-distribution",
+      "type": "concept",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-13"
+    },
+    {
+      "path": "30_wiki\\concepts\\source-code-delivery-model.md",
+      "id": "source-code-delivery-model",
+      "type": "concept",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\concepts\\sprint-2-门禁举证验收.md",
+      "id": "sprint-2-门禁举证验收",
+      "type": "concept",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\concepts\\structured-ai-workspace.md",
+      "id": "structured-ai-workspace",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-17"
+    },
+    {
+      "path": "30_wiki\\concepts\\tools-workflows.md",
+      "id": "tools-workflows",
+      "type": "concept",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\concepts\\truman-perspective-skill.md",
+      "id": "truman-perspective-skill",
+      "type": "concept",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-04"
+    },
+    {
+      "path": "30_wiki\\concepts\\voice-input-doubao.md",
+      "id": "voice-input-doubao",
+      "type": "tool",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-18"
+    },
+    {
+      "path": "30_wiki\\concepts\\writing-content.md",
+      "id": "writing-content",
+      "type": "concept",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\concepts\\yitang-course-map.md",
+      "id": "yitang-course-map",
+      "type": "concept",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-16"
+    },
+    {
+      "path": "30_wiki\\concepts\\yitang-huazong-ama-by-industry.md",
+      "id": "yitang-huazong-ama-by-industry",
+      "type": "concept",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-17"
+    },
+    {
+      "path": "30_wiki\\concepts\\yitang-huazong-ama-summary.md",
+      "id": "yitang-huazong-ama-summary",
+      "type": "concept",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-17"
+    },
+    {
+      "path": "30_wiki\\concepts\\yt-concept-ai-guard-brain.md",
+      "id": "yt-concept-ai-guard-brain",
+      "type": "concept",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-16"
+    },
+    {
+      "path": "30_wiki\\concepts\\yt-concept-context-engineering.md",
+      "id": "yt-concept-context-engineering",
+      "type": "concept",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-13"
+    },
+    {
+      "path": "30_wiki\\concepts\\yt-decision-ai-partner.md",
+      "id": "yt-decision-ai-partner",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "周伯通",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-16"
+    },
+    {
+      "path": "30_wiki\\concepts\\yt-decision-canvas.md",
+      "id": "yt-decision-canvas",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "周伯通",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-16"
+    },
+    {
+      "path": "30_wiki\\concepts\\yt-decision-depth-ladder.md",
+      "id": "yt-decision-depth-ladder",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\concepts\\yt-decision-width-method.md",
+      "id": "yt-decision-width-method",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "周伯通",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-16"
+    },
+    {
+      "path": "30_wiki\\concepts\\yt-management-basic-skills.md",
+      "id": "yt-management-basic-skills",
+      "type": "concept",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-11"
+    },
+    {
+      "path": "30_wiki\\concepts\\yt-management-business-formula.md",
+      "id": "yt-management-business-formula",
+      "type": "concept",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-16"
+    },
+    {
+      "path": "30_wiki\\concepts\\yt-management-company-culture.md",
+      "id": "yt-management-company-culture",
+      "type": "concept",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋 - concept-collaboration-philosophy-foundation - tool-game-environment-checklist",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-16"
+    },
+    {
+      "path": "30_wiki\\concepts\\yt-management-conversion-hacking.md",
+      "id": "yt-management-conversion-hacking",
+      "type": "concept",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-16"
+    },
+    {
+      "path": "30_wiki\\concepts\\yt-management-finance-basics.md",
+      "id": "yt-management-finance-basics",
+      "type": "concept",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-16"
+    },
+    {
+      "path": "30_wiki\\concepts\\yt-management-founder-role.md",
+      "id": "yt-management-founder-role",
+      "type": "concept",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋 - concept-collaboration-philosophy-foundation - tool-position-switching-test",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\concepts\\yt-management-goal-management.md",
+      "id": "yt-management-goal-management",
+      "type": "concept",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-02"
+    },
+    {
+      "path": "30_wiki\\concepts\\yt-management-onboarding.md",
+      "id": "yt-management-onboarding",
+      "type": "concept",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-16"
+    },
+    {
+      "path": "30_wiki\\concepts\\yt-management-scientific-decision.md",
+      "id": "yt-management-scientific-decision",
+      "type": "concept",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-16"
+    },
+    {
+      "path": "30_wiki\\concepts\\yt-management-scientific-hiring.md",
+      "id": "yt-management-scientific-hiring",
+      "type": "concept",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-16"
+    },
+    {
+      "path": "30_wiki\\concepts\\yt-management-scientific-meetings.md",
+      "id": "yt-management-scientific-meetings",
+      "type": "concept",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-08-09"
+    },
+    {
+      "path": "30_wiki\\concepts\\yt-management-team-knowledge.md",
+      "id": "yt-management-team-knowledge",
+      "type": "concept",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-16"
+    },
+    {
+      "path": "30_wiki\\concepts\\yt-management-toolkit-overview.md",
+      "id": "yt-management-toolkit-overview",
+      "type": "framework",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-16"
+    },
+    {
+      "path": "30_wiki\\concepts\\yt-model-deep-review-iceberg.md",
+      "id": "yt-model-deep-review-iceberg",
+      "type": "concept",
+      "author": null,
+      "status": "reviewed",
+      "reviewed_by": "黄药师",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-12"
+    },
+    {
+      "path": "30_wiki\\concepts\\yt-model-management-map.md",
+      "id": "yt-model-management-map",
+      "type": "concept",
+      "author": null,
+      "status": "reviewed",
+      "reviewed_by": "黄药师",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-11"
+    },
+    {
+      "path": "30_wiki\\concepts\\yt-model-pan-product-36-strategies.md",
+      "id": "yt-model-pan-product-36-strategies",
+      "type": "framework",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "黄药师",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-16"
+    },
+    {
+      "path": "30_wiki\\concepts\\yt-model-pan-product-aesthetic-toolkit.md",
+      "id": "yt-model-pan-product-aesthetic-toolkit",
+      "type": "framework",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "黄药师",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-16"
+    },
+    {
+      "path": "30_wiki\\concepts\\yt-model-pan-product-demand-toolkit.md",
+      "id": "yt-model-pan-product-demand-toolkit",
+      "type": "framework",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "黄药师",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-16"
+    },
+    {
+      "path": "30_wiki\\concepts\\yt-model-pan-product-execution-toolkit.md",
+      "id": "yt-model-pan-product-execution-toolkit",
+      "type": "framework",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "黄药师",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-08"
+    },
+    {
+      "path": "30_wiki\\concepts\\yt-note-ai-human-division.md",
+      "id": "yt-note-ai-human-division",
+      "type": "concept",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-17"
+    },
+    {
+      "path": "30_wiki\\concepts\\yt-note-checklist-concept.md",
+      "id": "yt-note-checklist-concept",
+      "type": "concept",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-17"
+    },
+    {
+      "path": "30_wiki\\concepts\\yt-note-expert-interview-modeling.md",
+      "id": "yt-note-expert-interview-modeling",
+      "type": "concept",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\concepts\\yt-note-extensive-research-input.md",
+      "id": "yt-note-extensive-research-input",
+      "type": "concept",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\concepts\\yt-note-fact-pattern-insight.md",
+      "id": "yt-note-fact-pattern-insight",
+      "type": "concept",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\concepts\\yt-note-l4-internalization.md",
+      "id": "yt-note-l4-internalization",
+      "type": "concept",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\concepts\\yt-note-l6-extraction.md",
+      "id": "yt-note-l6-extraction",
+      "type": "concept",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\concepts\\yt-note-problem-solving-capability.md",
+      "id": "yt-note-problem-solving-capability",
+      "type": "concept",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\concepts\\yt-panproduct-aesthetic-collection.md",
+      "id": "yt-panproduct-aesthetic-collection",
+      "type": "concept",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-16"
+    },
+    {
+      "path": "30_wiki\\concepts\\yt-panproduct-aesthetic-imagination.md",
+      "id": "yt-panproduct-aesthetic-imagination",
+      "type": "concept",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-16"
+    },
+    {
+      "path": "30_wiki\\concepts\\yt-panproduct-aesthetic-modeling.md",
+      "id": "yt-panproduct-aesthetic-modeling",
+      "type": "concept",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-08"
+    },
+    {
+      "path": "30_wiki\\concepts\\yt-panproduct-aesthetic-pool.md",
+      "id": "yt-panproduct-aesthetic-pool",
+      "type": "concept",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-02"
+    },
+    {
+      "path": "30_wiki\\concepts\\yt-panproduct-demand-industry-canvas.md",
+      "id": "yt-panproduct-demand-industry-canvas",
+      "type": "concept",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-16"
+    },
+    {
+      "path": "30_wiki\\concepts\\yt-panproduct-demand-motivation-resistance.md",
+      "id": "yt-panproduct-demand-motivation-resistance",
+      "type": "concept",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-08"
+    },
+    {
+      "path": "30_wiki\\concepts\\yt-panproduct-demand-multi-perspective.md",
+      "id": "yt-panproduct-demand-multi-perspective",
+      "type": "concept",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-16"
+    },
+    {
+      "path": "30_wiki\\concepts\\yt-panproduct-demand-need-discovery.md",
+      "id": "yt-panproduct-demand-need-discovery",
+      "type": "concept",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-16"
+    },
+    {
+      "path": "30_wiki\\concepts\\yt-panproduct-demand-peak-end-rule.md",
+      "id": "yt-panproduct-demand-peak-end-rule",
+      "type": "concept",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-16"
+    },
+    {
+      "path": "30_wiki\\concepts\\yt-panproduct-demand-project-background.md",
+      "id": "yt-panproduct-demand-project-background",
+      "type": "concept",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-16"
+    },
+    {
+      "path": "30_wiki\\concepts\\yt-panproduct-demand-scenario-walkthrough.md",
+      "id": "yt-panproduct-demand-scenario-walkthrough",
+      "type": "concept",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-08"
+    },
+    {
+      "path": "30_wiki\\concepts\\yt-panproduct-demand-surprise-formula.md",
+      "id": "yt-panproduct-demand-surprise-formula",
+      "type": "concept",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-16"
+    },
+    {
+      "path": "30_wiki\\concepts\\yt-panproduct-demand-user-perspective.md",
+      "id": "yt-panproduct-demand-user-perspective",
+      "type": "concept",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-08"
+    },
+    {
+      "path": "30_wiki\\concepts\\yt-panproduct-demand-user-segmentation.md",
+      "id": "yt-panproduct-demand-user-segmentation",
+      "type": "concept",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-16"
+    },
+    {
+      "path": "30_wiki\\concepts\\yt-prompt-anti-flattery.md",
+      "id": "yt-prompt-anti-flattery",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-13"
+    },
+    {
+      "path": "30_wiki\\concepts\\yt-prompt-brainstorming.md",
+      "id": "yt-prompt-brainstorming",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-13"
+    },
+    {
+      "path": "30_wiki\\concepts\\yt-prompt-iterative-prompting.md",
+      "id": "yt-prompt-iterative-prompting",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-13"
+    },
+    {
+      "path": "30_wiki\\concepts\\yt-prompt-writing-workflow.md",
+      "id": "yt-prompt-writing-workflow",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-13"
+    },
+    {
+      "path": "30_wiki\\concepts\\yt-skill-checklist-as-ai-protocol.md",
+      "id": "yt-skill-checklist-as-ai-protocol",
+      "type": "concept",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\concepts\\yt-system-course-catalog.md",
+      "id": "yt-system-course-catalog",
+      "type": "concept",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-13"
+    },
+    {
+      "path": "30_wiki\\concepts\\yt-unit-model-ai-assisted.md",
+      "id": "yt-unit-model-ai-assisted",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\concepts\\yt-unit-model-benchmark.md",
+      "id": "yt-unit-model-benchmark",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\concepts\\yt-unit-model-construction.md",
+      "id": "yt-unit-model-construction",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\concepts\\yt-unit-model-dynamic.md",
+      "id": "yt-unit-model-dynamic",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\concepts\\yt-unit-model-selection.md",
+      "id": "yt-unit-model-selection",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-16"
+    },
+    {
+      "path": "30_wiki\\concepts\\保达云诊所深度调研报告.md",
+      "id": "保达云诊所深度调研报告",
+      "type": "concept",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-05-03"
+    },
+    {
+      "path": "30_wiki\\concepts\\在设计小伙伴的反馈还挺好的.md",
+      "id": "在设计小伙伴的反馈还挺好的",
+      "type": "concept",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\concepts\\存储策略.md",
+      "id": "存储策略",
+      "type": "concept",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\concepts\\学会提问在信息洪流中锻造批判性思维的利刃.md",
+      "id": "学会提问在信息洪流中锻造批判性思维的利刃",
+      "type": "framework",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-16"
+    },
+    {
+      "path": "30_wiki\\concepts\\开源HIS系统代码深度分析报告.md",
+      "id": "开源HIS系统代码深度分析报告",
+      "type": "concept",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-05-03"
+    },
+    {
+      "path": "30_wiki\\concepts\\紫鲸ai智能体工作流平台.md",
+      "id": "紫鲸ai智能体工作流平台",
+      "type": "concept",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-04-28"
+    },
+    {
+      "path": "30_wiki\\concepts\\老朱的水感-2026年5月.md",
+      "id": "老朱的水感-2026年5月",
+      "type": "concept",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\concepts\\视觉prompt三层操作系统-srom-visual-os.md",
+      "id": "视觉prompt三层操作系统-srom-visual-os",
+      "type": "concept",
+      "author": "月白",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\concepts\\轻量级诊所HIS调研全清单.md",
+      "id": "轻量级诊所HIS调研全清单",
+      "type": "concept",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-05-03"
+    },
+    {
+      "path": "30_wiki\\concepts\\那今天不会.md",
+      "id": "那今天不会",
+      "type": "concept",
+      "author": "月白",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-agent-evolution-pitfalls.md",
+      "id": "dk-agent-evolution-pitfalls",
+      "type": "dk",
+      "author": "laowantong",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-26"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-ai-builder-illusion.md",
+      "id": "dk-ai-builder-illusion",
+      "type": "dk",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-08"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-ai-design-pitfalls.md",
+      "id": "dk-ai-design-pitfalls",
+      "type": "dk",
+      "author": null,
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-02"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-analogy-blinds-search.md",
+      "id": "dk-analogy-blinds-search",
+      "type": "dark-knowledge",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-08-25"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-ban-fei-mao-atomic-no-standard.md",
+      "id": "dk-ban-fei-mao-atomic-no-standard",
+      "type": "dk",
+      "author": "半肥猫",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-19"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-ban-fei-mao-real-business-is-the-engine.md",
+      "id": "dk-ban-fei-mao-real-business-is-the-engine",
+      "type": "dk",
+      "author": "半肥猫",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-ban-fei-mao-silky-answers-are-dangerous.md",
+      "id": "dk-ban-fei-mao-silky-answers-are-dangerous",
+      "type": "dk",
+      "author": "半肥猫",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-c10-batch-tool-no-dry-run.md",
+      "id": "dk-c10-batch-tool-no-dry-run",
+      "type": "dk",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-18"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-c2-dual-status-machine.md",
+      "id": "dk-c2-dual-status-machine",
+      "type": "dk",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-16"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-c3-txt-ingest-skip.md",
+      "id": "dk-c3-txt-ingest-skip",
+      "type": "dk",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-16"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-c4-selfcheck-superseded.md",
+      "id": "dk-c4-selfcheck-superseded",
+      "type": "dk",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-18"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-c5-todo-false-positive.md",
+      "id": "dk-c5-todo-false-positive",
+      "type": "dk",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-18"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-c6-large-source-overflow.md",
+      "id": "dk-c6-large-source-overflow",
+      "type": "dk",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-18"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-c7-auto-backup-conflict.md",
+      "id": "dk-c7-auto-backup-conflict",
+      "type": "dk",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-18"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-c9-batch-trigger-garbage.md",
+      "id": "dk-c9-batch-trigger-garbage",
+      "type": "dk",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-18"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-f10-broken-source-refs.md",
+      "id": "dk-f10-broken-source-refs",
+      "type": "dk",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-18"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-f11-encyclopedia-style.md",
+      "id": "dk-f11-encyclopedia-style",
+      "type": "dk",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-18"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-f12-builder-context-deadlock.md",
+      "id": "dk-f12-builder-context-deadlock",
+      "type": "dk",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-18"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-f13-handwritten-yaml-parser.md",
+      "id": "dk-f13-handwritten-yaml-parser",
+      "type": "dk",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-19"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-f14-accuracy-measurement-mismatch.md",
+      "id": "dk-f14-accuracy-measurement-mismatch",
+      "type": "dk",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-18"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-f3-state-json-race-condition.md",
+      "id": "dk-f3-state-json-race-condition",
+      "type": "dk",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-19"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-f4-wrong-workdir.md",
+      "id": "dk-f4-wrong-workdir",
+      "type": "dk",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-19"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-f5-stale-feedback-ref.md",
+      "id": "dk-f5-stale-feedback-ref",
+      "type": "dk",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-19"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-f6-cjk-skeleton-corruption.md",
+      "id": "dk-f6-cjk-skeleton-corruption",
+      "type": "dk",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-18"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-f9-generic-critique.md",
+      "id": "dk-f9-generic-critique",
+      "type": "dk",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-19"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-foresight-tier-skip-illusion.md",
+      "id": "dk-foresight-tier-skip-illusion",
+      "type": "dk",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-18"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-ji-hao-ai-cant-design-structure.md",
+      "id": "dk-ji-hao-ai-cant-design-structure",
+      "type": "dk",
+      "author": "纪浩",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-ji-hao-constraint-beats-talent.md",
+      "id": "dk-ji-hao-constraint-beats-talent",
+      "type": "dk",
+      "author": "纪浩",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-ji-hao-logs-fastest-ignored.md",
+      "id": "dk-ji-hao-logs-fastest-ignored",
+      "type": "dk",
+      "author": "纪浩",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-ji-hao-novice-mindset-advantage.md",
+      "id": "dk-ji-hao-novice-mindset-advantage",
+      "type": "dk",
+      "author": "纪浩",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-19"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-ji-hao-pdca-starts-from-do.md",
+      "id": "dk-ji-hao-pdca-starts-from-do",
+      "type": "dk",
+      "author": "纪浩",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-ji-hao-problem-vs-question.md",
+      "id": "dk-ji-hao-problem-vs-question",
+      "type": "dk",
+      "author": "纪浩",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-19"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-ji-hao-simple-complex-routing.md",
+      "id": "dk-ji-hao-simple-complex-routing",
+      "type": "dk",
+      "author": "纪浩",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-lz-code-is-disposable.md",
+      "id": "dk-lz-code-is-disposable",
+      "type": "dk",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-18"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-modeling-checklist-formatting-rules.md",
+      "id": "dk-modeling-checklist-formatting-rules",
+      "type": "dk",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-modeling-course-rnd-ripe-fruit.md",
+      "id": "dk-modeling-course-rnd-ripe-fruit",
+      "type": "dk",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-modeling-logical-cleanliness-root.md",
+      "id": "dk-modeling-logical-cleanliness-root",
+      "type": "dk",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-modeling-model-arsenal-paradigms.md",
+      "id": "dk-modeling-model-arsenal-paradigms",
+      "type": "dk",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-18"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-modeling-question-scaffold-not-answer.md",
+      "id": "dk-modeling-question-scaffold-not-answer",
+      "type": "dk",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-modeling-unit-pairs-milestone.md",
+      "id": "dk-modeling-unit-pairs-milestone",
+      "type": "dk",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-17"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-note-maximum-common-divisor.md",
+      "id": "dk-note-maximum-common-divisor",
+      "type": "dk",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-18"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-oral-spray-training-vs-task-optimal.md",
+      "id": "dk-oral-spray-training-vs-task-optimal",
+      "type": "dark-knowledge",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-08-25"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-p1-model-switch-env.md",
+      "id": "dk-p1-model-switch-env",
+      "type": "dk",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-19"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-p11-regex-cutoff.md",
+      "id": "dk-p11-regex-cutoff",
+      "type": "dk",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-18"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-p13-token-burn.md",
+      "id": "dk-p13-token-burn",
+      "type": "dk",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-19"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-p14-zombie.md",
+      "id": "dk-p14-zombie",
+      "type": "dk",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-19"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-p15-unverified.md",
+      "id": "dk-p15-unverified",
+      "type": "dk",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "pending",
+      "review_date": "2026-06-29",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-p16-validate-reads-state-json.md",
+      "id": "dk-p16-validate-reads-state-json",
+      "type": "dk",
+      "author": "system",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-18"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-p17-accuracy-gap.md",
+      "id": "dk-p17-accuracy-gap",
+      "type": "dk",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-19"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-p2-tmux-cache.md",
+      "id": "dk-p2-tmux-cache",
+      "type": "dk",
+      "author": "system",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-19"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-p20-bigram-fail.md",
+      "id": "dk-p20-bigram-fail",
+      "type": "dk",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-19"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-p3-auth-cache.md",
+      "id": "dk-p3-auth-cache",
+      "type": "dk",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-19"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-p4-batch-format-empty.md",
+      "id": "dk-p4-batch-format-empty",
+      "type": "dk",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-18"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-p5-cc-connect-config.md",
+      "id": "dk-p5-cc-connect-config",
+      "type": "dk",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-19"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-p6-session-resume-fail.md",
+      "id": "dk-p6-session-resume-fail",
+      "type": "dk",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-19"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-p7-ocr-skip.md",
+      "id": "dk-p7-ocr-skip",
+      "type": "dk",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-19"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-p8-toolkit-forget.md",
+      "id": "dk-p8-toolkit-forget",
+      "type": "dk",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-19"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-p9-glob-miss.md",
+      "id": "dk-p9-glob-miss",
+      "type": "dk",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-pseudo-demand-trap.md",
+      "id": "dk-pseudo-demand-trap",
+      "type": "dk",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-18"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-signal-cluster-illusion.md",
+      "id": "dk-signal-cluster-illusion",
+      "type": "dk",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-18"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-strategy-consulting-jokes.md",
+      "id": "dk-strategy-consulting-jokes",
+      "type": "dk",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-strategy-essence-four-elements.md",
+      "id": "dk-strategy-essence-four-elements",
+      "type": "dk",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-token-economy-critical-reading.md",
+      "id": "dk-token-economy-critical-reading",
+      "type": "dark-knowledge",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-08-26"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-tool-as-phased-validator.md",
+      "id": "dk-tool-as-phased-validator",
+      "type": "dk",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-truman-document-is-real-project-is-fake.md",
+      "id": "dk-truman-document-is-real-project-is-fake",
+      "type": "dk",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-18"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-wanghuan-agent-platform-director-mode.md",
+      "id": "dk-wanghuan-agent-platform-director-mode",
+      "type": "dk",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-weekly-modeling-iteration-growth-engine.md",
+      "id": "dk-weekly-modeling-iteration-growth-engine",
+      "type": "dk",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-18"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-yb1-aigc-mvp-before-ps.md",
+      "id": "dk-yb1-aigc-mvp-before-ps",
+      "type": "dk",
+      "author": "月白",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-19"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-yb10-theory-moat-designer.md",
+      "id": "dk-yb10-theory-moat-designer",
+      "type": "dk",
+      "author": "月白",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-19"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-yb11-visual-book-reverse.md",
+      "id": "dk-yb11-visual-book-reverse",
+      "type": "dk",
+      "author": "月白",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-19"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-yb16-ecommerce-product-image-vs-lucky-draw.md",
+      "id": "dk-yb16-ecommerce-product-image-vs-lucky-draw",
+      "type": "dk",
+      "author": "月白",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-19"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-yb18-small-shop-image-mismatch.md",
+      "id": "dk-yb18-small-shop-image-mismatch",
+      "type": "dk",
+      "author": "月白",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-19"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-yb19-visual-strategy-price-match.md",
+      "id": "dk-yb19-visual-strategy-price-match",
+      "type": "dk",
+      "author": "月白",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-08-20"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-yb2-llm-muddy-clear-muddy.md",
+      "id": "dk-yb2-llm-muddy-clear-muddy",
+      "type": "dk",
+      "author": "月白",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-19"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-yb22-visual-presentation-scene-match.md",
+      "id": "dk-yb22-visual-presentation-scene-match",
+      "type": "dk",
+      "author": "月白",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-19"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-yb23-ai-pre-screen-three-minutes.md",
+      "id": "dk-yb23-ai-pre-screen-three-minutes",
+      "type": "dk",
+      "author": "月白",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-19"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-yb27-pseudo-layer-evasion.md",
+      "id": "dk-yb27-pseudo-layer-evasion",
+      "type": "dk",
+      "author": "月白",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-19"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-yb3-diffusion-stepwise-vs-human-holistic.md",
+      "id": "dk-yb3-diffusion-stepwise-vs-human-holistic",
+      "type": "dk",
+      "author": "月白",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-19"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-yb30-ecommerce-channel-version.md",
+      "id": "dk-yb30-ecommerce-channel-version",
+      "type": "dk",
+      "author": "月白",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-19"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-yb4-nano-banana-style-reproduction.md",
+      "id": "dk-yb4-nano-banana-style-reproduction",
+      "type": "dk",
+      "author": "月白",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-19"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-yb5-style-asset-archive.md",
+      "id": "dk-yb5-style-asset-archive",
+      "type": "dk",
+      "author": "月白",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-19"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-yb6-midjourney-chinese-text-fix.md",
+      "id": "dk-yb6-midjourney-chinese-text-fix",
+      "type": "dk",
+      "author": "月白",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-19"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-yb7-design-demand-80-10-10.md",
+      "id": "dk-yb7-design-demand-80-10-10",
+      "type": "dk",
+      "author": "月白",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-19"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-yb8-file-naming-eight-elements.md",
+      "id": "dk-yb8-file-naming-eight-elements",
+      "type": "dk",
+      "author": "月白",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-19"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-yb9-cubox-deployment-failure.md",
+      "id": "dk-yb9-cubox-deployment-failure",
+      "type": "dk",
+      "author": "月白",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-19"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-yitang-sales-common-pitfalls.md",
+      "id": "dk-yitang-sales-common-pitfalls",
+      "type": "dk",
+      "author": null,
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-02"
+    },
+    {
+      "path": "30_wiki\\dark-knowledges\\dk-yitang-Y-model-pitfalls.md",
+      "id": "dk-yitang-Y-model-pitfalls",
+      "type": "dk",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-03"
+    },
+    {
+      "path": "30_wiki\\decisions\\high-density-composite-compilation-strategy.md",
+      "id": "high-density-composite-compilation-strategy",
+      "type": "decision",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "pending",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-16"
+    },
+    {
+      "path": "30_wiki\\decisions\\kdo-ec-industrialization-migration-proposal.md",
+      "id": "kdo-ec-industrialization-migration-proposal",
+      "type": "decision",
+      "author": "黄药师",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-17"
+    },
+    {
+      "path": "30_wiki\\decisions\\plan_20260621_domain-index-infrastructure.md",
+      "id": "plan_20260621_domain-index-infrastructure",
+      "type": "improvement-plan",
+      "author": "黄药师",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\decisions\\plan_20260621_skill-iteration-standard.md",
+      "id": "plan_20260621_skill-iteration-standard",
+      "type": "improvement-plan",
+      "author": "欧阳锋",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\dk\\dk-meeting-asset-harvest.md",
+      "id": "dk-meeting-asset-harvest",
+      "type": "dk",
+      "author": "laowantong",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-08-09"
+    },
+    {
+      "path": "30_wiki\\dk\\dk-meeting-borrow-false-repair-true.md",
+      "id": "dk-meeting-borrow-false-repair-true",
+      "type": "dk",
+      "author": "laowantong",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-08-09"
+    },
+    {
+      "path": "30_wiki\\dk\\dk-meeting-pressure-ignition.md",
+      "id": "dk-meeting-pressure-ignition",
+      "type": "dk",
+      "author": "laowantong",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-08-09"
+    },
+    {
+      "path": "30_wiki\\dk\\dk-meeting-principle-over-process.md",
+      "id": "dk-meeting-principle-over-process",
+      "type": "dk",
+      "author": "laowantong",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-08-09"
+    },
+    {
+      "path": "30_wiki\\dk\\dk-meeting-rederive.md",
+      "id": "dk-meeting-rederive",
+      "type": "dk",
+      "author": "laowantong",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-08-09"
+    },
+    {
+      "path": "30_wiki\\dk\\dk-meeting-roi-first.md",
+      "id": "dk-meeting-roi-first",
+      "type": "dk",
+      "author": "laowantong",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-08-09"
+    },
+    {
+      "path": "30_wiki\\dk\\dk-research-decision-first-mapping.md",
+      "id": "dk-research-decision-first-mapping",
+      "type": "dk",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-08-20"
+    },
+    {
+      "path": "30_wiki\\dk\\dk-research-identity-craft-for-closed-information.md",
+      "id": "dk-research-identity-craft-for-closed-information",
+      "type": "dk",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-08-20"
+    },
+    {
+      "path": "30_wiki\\dk\\dk-research-triangulation-stop-rule.md",
+      "id": "dk-research-triangulation-stop-rule",
+      "type": "dk",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-08-20"
+    },
+    {
+      "path": "30_wiki\\dk\\dk-strategy-correlation-vs-causation-leverage.md",
+      "id": "dk-strategy-correlation-vs-causation-leverage",
+      "type": "dk",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-08-20"
+    },
+    {
+      "path": "30_wiki\\dk\\dk-strategy-stage-leverage-mismatch.md",
+      "id": "dk-strategy-stage-leverage-mismatch",
+      "type": "dk",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-08-20"
+    },
+    {
+      "path": "30_wiki\\dk\\dk-yitang-behavior-over-asking.md",
+      "id": "dk-yitang-behavior-over-asking",
+      "type": "dk",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-08-20"
+    },
+    {
+      "path": "30_wiki\\dk\\dk-yitang-business-model-risk-over-product-risk.md",
+      "id": "dk-yitang-business-model-risk-over-product-risk",
+      "type": "dk",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-08-20"
+    },
+    {
+      "path": "30_wiki\\dk\\dk-yitang-model-asset-capitalization.md",
+      "id": "dk-yitang-model-asset-capitalization",
+      "type": "dk",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-08-20"
+    },
+    {
+      "path": "30_wiki\\dk\\dk-单元模型-找全成本实操难点.md",
+      "id": "dk-单元模型-找全成本实操难点",
+      "type": "dk",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-30"
+    },
+    {
+      "path": "30_wiki\\dk\\dk-单元模型-找基准值实操难点.md",
+      "id": "dk-单元模型-找基准值实操难点",
+      "type": "dk",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-30"
+    },
+    {
+      "path": "30_wiki\\dk\\dk-单元模型-规模对抗实操难点.md",
+      "id": "dk-单元模型-规模对抗实操难点",
+      "type": "dk",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-30"
+    },
+    {
+      "path": "30_wiki\\entities\\entity-销售AIπ平台.md",
+      "id": "entity-销售AIπ平台",
+      "type": "entity",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-08-31"
+    },
+    {
+      "path": "30_wiki\\entities\\一堂.md",
+      "id": "一堂",
+      "type": "entity",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-16"
+    },
+    {
+      "path": "30_wiki\\entities\\七件事集团.md",
+      "id": "七件事集团",
+      "type": "entity",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\frameworks\\concept-maister-trusted-advisor.md",
+      "id": "concept-maister-trusted-advisor",
+      "type": "framework",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-17"
+    },
+    {
+      "path": "30_wiki\\frameworks\\framework-ai-accelerated-strategy-cycle.md",
+      "id": "framework-ai-accelerated-strategy-cycle",
+      "type": "framework",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-30"
+    },
+    {
+      "path": "30_wiki\\frameworks\\framework-ai-native-organization-two-modes.md",
+      "id": "framework-ai-native-organization-two-modes",
+      "type": "framework",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-08"
+    },
+    {
+      "path": "30_wiki\\frameworks\\framework-arui-ai-six-fundamentals.md",
+      "id": "framework-arui-ai-six-fundamentals",
+      "type": "framework",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-08-31"
+    },
+    {
+      "path": "30_wiki\\frameworks\\framework-lean-abcd-model.md",
+      "id": "framework-lean-abcd-model",
+      "type": "framework",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-30"
+    },
+    {
+      "path": "30_wiki\\frameworks\\framework-lean-false-model.md",
+      "id": "framework-lean-false-model",
+      "type": "framework",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\frameworks\\framework-lean-four-principles.md",
+      "id": "framework-lean-four-principles",
+      "type": "framework",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-23"
+    },
+    {
+      "path": "30_wiki\\frameworks\\framework-lean-six-wastes.md",
+      "id": "framework-lean-six-wastes",
+      "type": "framework",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\frameworks\\framework-lean-systematic-test-curve.md",
+      "id": "framework-lean-systematic-test-curve",
+      "type": "framework",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\frameworks\\framework-meeting-iceberg-canvas.md",
+      "id": "framework-meeting-iceberg-canvas",
+      "type": "framework",
+      "author": "laowantong",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-08-09"
+    },
+    {
+      "path": "30_wiki\\frameworks\\framework-meeting-ten-principles.md",
+      "id": "framework-meeting-ten-principles",
+      "type": "framework",
+      "author": "laowantong",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-08-09"
+    },
+    {
+      "path": "30_wiki\\frameworks\\framework-ouyangfeng-review-methodology.md",
+      "id": "framework-ouyangfeng-review-methodology",
+      "type": "framework",
+      "author": "欧阳锋",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-08-11"
+    },
+    {
+      "path": "30_wiki\\frameworks\\framework-strategy-ansoff.md",
+      "id": "framework-strategy-ansoff",
+      "type": "framework",
+      "author": "王语嫣 → 老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\frameworks\\framework-strategy-basics-01-core.md",
+      "id": "framework-strategy-basics-01-core",
+      "type": "framework",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\frameworks\\framework-strategy-basics-02-insight.md",
+      "id": "framework-strategy-basics-02-insight",
+      "type": "framework",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\frameworks\\framework-strategy-basics-04-system.md",
+      "id": "framework-strategy-basics-04-system",
+      "type": "framework",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\frameworks\\framework-strategy-basics-05-change.md",
+      "id": "framework-strategy-basics-05-change",
+      "type": "framework",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\frameworks\\framework-strategy-blm.md",
+      "id": "framework-strategy-blm",
+      "type": "framework",
+      "author": "王语嫣 → 老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\frameworks\\framework-strategy-business-design.md",
+      "id": "framework-strategy-business-design",
+      "type": "framework",
+      "author": "老顽童（初版）→ 黄药师（PPT _97+_99 补强 v2）",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\frameworks\\framework-strategy-five-forces.md",
+      "id": "framework-strategy-five-forces",
+      "type": "framework",
+      "author": "王语嫣 → 老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\frameworks\\framework-strategy-kai-innovation-directions.md",
+      "id": "framework-strategy-kai-innovation-directions",
+      "type": "framework",
+      "author": "王语嫣 → 老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\frameworks\\framework-strategy-mckinsey-7s.md",
+      "id": "framework-strategy-mckinsey-7s",
+      "type": "framework",
+      "author": "王语嫣 → 老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\frameworks\\framework-strategy-pyramid.md",
+      "id": "framework-strategy-pyramid",
+      "type": "framework",
+      "author": "王语嫣 → 老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\frameworks\\framework-strategy-three-horizons.md",
+      "id": "framework-strategy-three-horizons",
+      "type": "framework",
+      "author": "王语嫣 → 老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\frameworks\\framework-taste-as-judgment-system.md",
+      "id": "framework-taste-as-judgment-system",
+      "type": "framework",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-08"
+    },
+    {
+      "path": "30_wiki\\frameworks\\framework-TCPR底层网络协议.md",
+      "id": "framework-TCPR底层网络协议",
+      "type": "framework",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\frameworks\\framework-token-economy-three-layer.md",
+      "id": "framework-token-economy-three-layer",
+      "type": "framework",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-08-26"
+    },
+    {
+      "path": "30_wiki\\frameworks\\framework-wanghuan-actor-director-mode.md",
+      "id": "framework-wanghuan-actor-director-mode",
+      "type": "framework",
+      "author": "王语嫣",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\frameworks\\framework-wanghuan-ai-five-level-ladder.md",
+      "id": "framework-wanghuan-ai-five-level-ladder",
+      "type": "framework",
+      "author": "王语嫣",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\frameworks\\framework-wanghuan-bitcoe-prompt-framework.md",
+      "id": "framework-wanghuan-bitcoe-prompt-framework",
+      "type": "framework",
+      "author": "王语嫣",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\frameworks\\framework-wanghuan-five-criteria-first-product.md",
+      "id": "framework-wanghuan-five-criteria-first-product",
+      "type": "framework",
+      "author": "王语嫣",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\frameworks\\framework-wanghuan-gan-three-roles.md",
+      "id": "framework-wanghuan-gan-three-roles",
+      "type": "framework",
+      "author": "王语嫣",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\frameworks\\framework-wanghuan-harness-seven-stages.md",
+      "id": "framework-wanghuan-harness-seven-stages",
+      "type": "framework",
+      "author": "王语嫣",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\frameworks\\framework-wanghuan-ooda-loop.md",
+      "id": "framework-wanghuan-ooda-loop",
+      "type": "framework",
+      "author": "王语嫣",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\frameworks\\framework-wanghuan-say-think-do-toolchain.md",
+      "id": "framework-wanghuan-say-think-do-toolchain",
+      "type": "framework",
+      "author": "王语嫣",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\frameworks\\framework-wanghuan-task-product-system.md",
+      "id": "framework-wanghuan-task-product-system",
+      "type": "framework",
+      "author": "王语嫣",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\frameworks\\framework-wanghuan-three-tier-dev-architecture.md",
+      "id": "framework-wanghuan-three-tier-dev-architecture",
+      "type": "framework",
+      "author": "王语嫣",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\frameworks\\framework-yitang-research-quality-gate.md",
+      "id": "framework-yitang-research-quality-gate",
+      "type": "framework",
+      "author": "黄药师",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\frameworks\\framework-yitang-sales-incentive-6d.md",
+      "id": "framework-yitang-sales-incentive-6d",
+      "type": "framework",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-08"
+    },
+    {
+      "path": "30_wiki\\frameworks\\framework-yitang-sales-target-tradeoffs.md",
+      "id": "framework-yitang-sales-target-tradeoffs",
+      "type": "framework",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-08"
+    },
+    {
+      "path": "30_wiki\\frameworks\\framework-yitang-scientific-sales-five-step.md",
+      "id": "framework-yitang-scientific-sales-five-step",
+      "type": "framework",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-08"
+    },
+    {
+      "path": "30_wiki\\frameworks\\framework-单元模型-外部对抗地图.md",
+      "id": "framework-单元模型-外部对抗地图",
+      "type": "framework",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\frameworks\\private-domain-saas-sales-funnel.md",
+      "id": "private-domain-saas-sales-funnel",
+      "type": "framework",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-13"
+    },
+    {
+      "path": "30_wiki\\frameworks\\xingangwan-pharma-business-formulas.md",
+      "id": "xingangwan-pharma-business-formulas",
+      "type": "framework",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-18"
+    },
+    {
+      "path": "30_wiki\\frameworks\\xingangwan-pharma-business-model-formulas.md",
+      "id": "xingangwan-pharma-business-model-formulas",
+      "type": "framework",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-19"
+    },
+    {
+      "path": "30_wiki\\frameworks\\yt-unit-model-ladder.md",
+      "id": "yt-unit-model-ladder",
+      "type": "framework",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-16"
+    },
+    {
+      "path": "30_wiki\\methods\\method-arui-business-scenario-3step-decomposition.md",
+      "id": "method-arui-business-scenario-3step-decomposition",
+      "type": "method",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-08-31"
+    },
+    {
+      "path": "30_wiki\\projects\\shanxi-field-research-checklist-20260701.md",
+      "id": "shanxi-field-research-checklist-20260701",
+      "type": "tool",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-18"
+    },
+    {
+      "path": "30_wiki\\systems\\agent-external-brain-design.md",
+      "id": "agent-external-brain-design",
+      "type": "system",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\systems\\graph-rag-retrieval-layer.md",
+      "id": "graph-rag-retrieval-layer",
+      "type": "concept",
+      "author": "审查者欧阳锋",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\systems\\system-yitang-research-workflow.md",
+      "id": "system-yitang-research-workflow",
+      "type": "system",
+      "author": "黄药师",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\agent-spec-basic-skills-coach.md",
+      "id": "agent-spec-basic-skills-coach",
+      "type": "agent-spec",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-08-08"
+    },
+    {
+      "path": "30_wiki\\tools\\agent-spec-codex-teammate.md",
+      "id": "agent-spec-codex-teammate",
+      "type": "agent-spec",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-08"
+    },
+    {
+      "path": "30_wiki\\tools\\sk-ai-evidence-check.md",
+      "id": "sk-ai-evidence-check",
+      "type": "tool",
+      "author": "半肥猫",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-18"
+    },
+    {
+      "path": "30_wiki\\tools\\sk-ai-old-small-checklist.md",
+      "id": "sk-ai-old-small-checklist",
+      "type": "tool",
+      "author": "马易",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-18"
+    },
+    {
+      "path": "30_wiki\\tools\\sk-ai-problem-validation.md",
+      "id": "sk-ai-problem-validation",
+      "type": "tool",
+      "author": "纪浩",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-18"
+    },
+    {
+      "path": "30_wiki\\tools\\sk-ai-question-problem-checklist.md",
+      "id": "sk-ai-question-problem-checklist",
+      "type": "tool",
+      "author": "纪浩",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-18"
+    },
+    {
+      "path": "30_wiki\\tools\\sk-ai-system-redundancy.md",
+      "id": "sk-ai-system-redundancy",
+      "type": "tool",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-18"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-agent-context-derivation-audit.md",
+      "id": "tool-agent-context-derivation-audit",
+      "type": "tool",
+      "author": "laowantong",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-26"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-agent-self-evolution-protocol.md",
+      "id": "tool-agent-self-evolution-protocol",
+      "type": "tool",
+      "author": "laowantong",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-26"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-agent-spec-yitang-customer-segmentation.md",
+      "id": "tool-agent-spec-yitang-customer-segmentation",
+      "type": "tool-agent-spec",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-agent-spec-yitang-objection-handler.md",
+      "id": "tool-agent-spec-yitang-objection-handler",
+      "type": "tool-agent-spec",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-agent-spec-yitang-opening-3min.md",
+      "id": "tool-agent-spec-yitang-opening-3min",
+      "type": "tool-agent-spec",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-agent-spec-yitang-sales-performance-monitor.md",
+      "id": "tool-agent-spec-yitang-sales-performance-monitor",
+      "type": "tool-agent-spec",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-agent-spec-yitang-sales-process-tracker.md",
+      "id": "tool-agent-spec-yitang-sales-process-tracker",
+      "type": "tool-agent-spec",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-agent-spec-yitang-self-motivation.md",
+      "id": "tool-agent-spec-yitang-self-motivation",
+      "type": "tool-agent-spec",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-agent-spec-yitang-value-proposition.md",
+      "id": "tool-agent-spec-yitang-value-proposition",
+      "type": "tool-agent-spec",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-agent-spec-yitang-Y-model-coach.md",
+      "id": "tool-agent-spec-yitang-Y-model-coach",
+      "type": "tool-agent-spec",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-03"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-ai-four-elements-validation.md",
+      "id": "tool-ai-four-elements-validation",
+      "type": "tool",
+      "author": "纪浩",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-ai-info-literacy-three-layer.md",
+      "id": "tool-ai-info-literacy-three-layer",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-17"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-ai-problem-question-check.md",
+      "id": "tool-ai-problem-question-check",
+      "type": "tool",
+      "author": "纪浩",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-17"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-ai-use-barbell-strategy.md",
+      "id": "tool-ai-use-barbell-strategy",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-02"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-ban-fei-mao-an-yu-yi-qie-fen-wen-dang-zuo-xiang-liang-hua.md",
+      "id": "tool-ban-fei-mao-an-yu-yi-qie-fen-wen-dang-zuo-xiang-liang-hua",
+      "type": "tool",
+      "author": "半肥猫",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi.md",
+      "id": "tool-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi",
+      "type": "tool",
+      "author": "半肥猫",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-19"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-ban-fei-mao-fei-shu-duo-wei-biao-ge-zi-jian-ji-qi-ren-zuo-tuan-dui-shu-ju-xie-tong.md",
+      "id": "tool-ban-fei-mao-fei-shu-duo-wei-biao-ge-zi-jian-ji-qi-ren-zuo-tuan-dui-shu-ju-xie-tong",
+      "type": "tool",
+      "author": "半肥猫",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-ban-fei-mao-gao-su-ai-dang-qian-ri-qi-xian-zhi-shu-ju-shi-xiao.md",
+      "id": "tool-ban-fei-mao-gao-su-ai-dang-qian-ri-qi-xian-zhi-shu-ju-shi-xiao",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-ban-fei-mao-jiang-xue-xi-cheng-guo-chen-dian-wei-prd-wen-dang.md",
+      "id": "tool-ban-fei-mao-jiang-xue-xi-cheng-guo-chen-dian-wei-prd-wen-dang",
+      "type": "tool",
+      "author": "半肥猫",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-ban-fei-mao-pan-duan-ke-cheng-shi-fou-zhi-de-zuo-cheng-skill.md",
+      "id": "tool-ban-fei-mao-pan-duan-ke-cheng-shi-fou-zhi-de-zuo-cheng-skill",
+      "type": "tool",
+      "author": "半肥猫",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-19"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai.md",
+      "id": "tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai",
+      "type": "tool",
+      "author": "半肥猫",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-19"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie.md",
+      "id": "tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie",
+      "type": "tool",
+      "author": "半肥猫",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-ban-fei-mao-yong-ai-zuo-jie-gou-hua-yong-hu-diao-yan.md",
+      "id": "tool-ban-fei-mao-yong-ai-zuo-jie-gou-hua-yong-hu-diao-yan",
+      "type": "tool",
+      "author": "半肥猫",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo.md",
+      "id": "tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo",
+      "type": "tool",
+      "author": "半肥猫",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian.md",
+      "id": "tool-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian",
+      "type": "tool",
+      "author": "半肥猫",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-19"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-ban-fei-mao-you-xian-shi-yong-guan-fang-quan-wei-xin-yuan-zuo-zheng-ju.md",
+      "id": "tool-ban-fei-mao-you-xian-shi-yong-guan-fang-quan-wei-xin-yuan-zuo-zheng-ju",
+      "type": "tool",
+      "author": "半肥猫",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan.md",
+      "id": "tool-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan",
+      "type": "tool",
+      "author": "半肥猫",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-demand-agent-l4-case-match.md",
+      "id": "tool-demand-agent-l4-case-match",
+      "type": "tool",
+      "author": "黄药师",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-kdo-wechat-serendipity-collect.md",
+      "id": "tool-kdo-wechat-serendipity-collect",
+      "type": "tool",
+      "author": "黄药师",
+      "status": "reviewed",
+      "reviewed_by": "待审",
+      "review_date": "<missing>",
+      "updated_at": "2026-08-19"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-mece体系框架法.md",
+      "id": "tool-mece体系框架法",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-meeting-basic-principles.md",
+      "id": "tool-meeting-basic-principles",
+      "type": "tool",
+      "author": "laowantong",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-08-09"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-meeting-execution-principles.md",
+      "id": "tool-meeting-execution-principles",
+      "type": "tool",
+      "author": "laowantong",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-08-09"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-meeting-result-principles.md",
+      "id": "tool-meeting-result-principles",
+      "type": "tool",
+      "author": "laowantong",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-08-09"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-note-keyword-bolding.md",
+      "id": "tool-note-keyword-bolding",
+      "type": "tool",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-18"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-note-layer-constraint.md",
+      "id": "tool-note-layer-constraint",
+      "type": "tool",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-note-one-line-one-point.md",
+      "id": "tool-note-one-line-one-point",
+      "type": "tool",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-18"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-opc-sales-dialogue-assistant.md",
+      "id": "tool-opc-sales-dialogue-assistant",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-13"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-open-closed-problem-classifier.md",
+      "id": "tool-open-closed-problem-classifier",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-08"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-oral-spray-demo-prompts-3samples.md",
+      "id": "tool-oral-spray-demo-prompts-3samples",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-08-25"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-oral-spray-into-doc-not-chatbox.md",
+      "id": "tool-oral-spray-into-doc-not-chatbox",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-08-25"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-prompt-iceberg-demand-analysis.md",
+      "id": "tool-prompt-iceberg-demand-analysis",
+      "type": "prompt-template",
+      "author": "黄药师（从程诚同学提示词提取）",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-prompt-jtbd-scenario-coach.md",
+      "id": "tool-prompt-jtbd-scenario-coach",
+      "type": "prompt-template",
+      "author": "黄药师（从 inbox 提示词提取）",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-prompt-usp-demand-analysis.md",
+      "id": "tool-prompt-usp-demand-analysis",
+      "type": "prompt-template",
+      "author": "黄药师（从 inbox 提示词提取 + 结构化）",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-prompt-usp-quick-scan.md",
+      "id": "tool-prompt-usp-quick-scan",
+      "type": "prompt-template",
+      "author": "黄药师（从程诚同学提示词提取）",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-scene-design-language-translation.md",
+      "id": "tool-scene-design-language-translation",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-02"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-strategy-activity-scope.md",
+      "id": "tool-strategy-activity-scope",
+      "type": "tool",
+      "author": "王语嫣 → 老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-strategy-blue-ocean-canvas.md",
+      "id": "tool-strategy-blue-ocean-canvas",
+      "type": "tool",
+      "author": "王语嫣 → 老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-strategy-business-design-template.md",
+      "id": "tool-strategy-business-design-template",
+      "type": "tool",
+      "author": "王语嫣 → 老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-strategy-business-summary.md",
+      "id": "tool-strategy-business-summary",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-strategy-category-role-matrix.md",
+      "id": "tool-strategy-category-role-matrix",
+      "type": "tool",
+      "author": "王语嫣 → 老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-strategy-control-points.md",
+      "id": "tool-strategy-control-points",
+      "type": "tool",
+      "author": "王语嫣 → 老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-strategy-core-competence-matrix.md",
+      "id": "tool-strategy-core-competence-matrix",
+      "type": "tool",
+      "author": "王语嫣 → 老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-strategy-customer-selection.md",
+      "id": "tool-strategy-customer-selection",
+      "type": "tool",
+      "author": "老顽童（初版）→ 黄药师（PPT _97 补强 v2）",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-strategy-fishbone.md",
+      "id": "tool-strategy-fishbone",
+      "type": "tool",
+      "author": "王语嫣 → 老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-strategy-industry-chain-analysis.md",
+      "id": "tool-strategy-industry-chain-analysis",
+      "type": "tool",
+      "author": "王语嫣 → 老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-strategy-ksf.md",
+      "id": "tool-strategy-ksf",
+      "type": "tool",
+      "author": "王语嫣 → 老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-strategy-lifecycle.md",
+      "id": "tool-strategy-lifecycle",
+      "type": "tool",
+      "author": "王语嫣 → 老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-strategy-map.md",
+      "id": "tool-strategy-map",
+      "type": "tool",
+      "author": "黄药师（从 PPT _142 提取）",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-strategy-platform-business-map.md",
+      "id": "tool-strategy-platform-business-map",
+      "type": "tool",
+      "author": "王语嫣 → 老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-strategy-profit-model-comparison.md",
+      "id": "tool-strategy-profit-model-comparison",
+      "type": "tool",
+      "author": "黄药师（从 PPT _117 提取）",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-strategy-risk-management.md",
+      "id": "tool-strategy-risk-management",
+      "type": "tool",
+      "author": "王语嫣 → 老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-strategy-swot.md",
+      "id": "tool-strategy-swot",
+      "type": "tool",
+      "author": "王语嫣 → 老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-strategy-value-proposition.md",
+      "id": "tool-strategy-value-proposition",
+      "type": "tool",
+      "author": "王语嫣 → 老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-token-economy-mvp-five-steps.md",
+      "id": "tool-token-economy-mvp-five-steps",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-08-26"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-wanghuan-ai-business-profile.md",
+      "id": "tool-wanghuan-ai-business-profile",
+      "type": "tool",
+      "author": "王语嫣",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-wanghuan-ai-dual-role-coach.md",
+      "id": "tool-wanghuan-ai-dual-role-coach",
+      "type": "tool",
+      "author": "王语嫣",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-wechat-transcript-automation-workflow.md",
+      "id": "tool-wechat-transcript-automation-workflow",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-08-16"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-yitang-18-strategy-tool-mapping.md",
+      "id": "tool-yitang-18-strategy-tool-mapping",
+      "type": "tool",
+      "author": "黄药师",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-yitang-customer-segmentation-4step.md",
+      "id": "tool-yitang-customer-segmentation-4step",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-02"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-yitang-daily-weekly-meeting-hosting.md",
+      "id": "tool-yitang-daily-weekly-meeting-hosting",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-08"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-yitang-listening-37-rule.md",
+      "id": "tool-yitang-listening-37-rule",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-08"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-yitang-payment-collection-playbook.md",
+      "id": "tool-yitang-payment-collection-playbook",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-08"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-yitang-sales-performance-management.md",
+      "id": "tool-yitang-sales-performance-management",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-08"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-yitang-sales-process-decomposition.md",
+      "id": "tool-yitang-sales-process-decomposition",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-24"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-yitang-sales-toolkit-maturity-60-75-85.md",
+      "id": "tool-yitang-sales-toolkit-maturity-60-75-85",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-08"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-yitang-sales-toolkit-radar.md",
+      "id": "tool-yitang-sales-toolkit-radar",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-02"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-yitang-three-second-opening-scripts.md",
+      "id": "tool-yitang-three-second-opening-scripts",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-08"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-yitang-value-proposition-4step.md",
+      "id": "tool-yitang-value-proposition-4step",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-02"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-yitang-web-scraping-research.md",
+      "id": "tool-yitang-web-scraping-research",
+      "type": "tool",
+      "author": "黄药师",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-04"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-yitang-Y-model-application.md",
+      "id": "tool-yitang-Y-model-application",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-03"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-一堂-kernel-three-questions.md",
+      "id": "tool-一堂-kernel-three-questions",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-一堂-product-kernel-add-subtract.md",
+      "id": "tool-一堂-product-kernel-add-subtract",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-08"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-一堂-product-kernel-canvas.md",
+      "id": "tool-一堂-product-kernel-canvas",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-02"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-一堂-spectrum-positioning.md",
+      "id": "tool-一堂-spectrum-positioning",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-三层目标对齐法.md",
+      "id": "tool-三层目标对齐法",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-专题笔记脑图整理法.md",
+      "id": "tool-专题笔记脑图整理法",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-从案例中学习正反案例法.md",
+      "id": "tool-从案例中学习正反案例法",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-决策深度-L1优先级定性.md",
+      "id": "tool-决策深度-L1优先级定性",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-决策深度-L2部分定量.md",
+      "id": "tool-决策深度-L2部分定量",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-决策深度-L3定量公式.md",
+      "id": "tool-决策深度-L3定量公式",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-决策深度-L4严格财务公式.md",
+      "id": "tool-决策深度-L4严格财务公式",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-分享输出检验法.md",
+      "id": "tool-分享输出检验法",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-动手建模法.md",
+      "id": "tool-动手建模法",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-半肥猫-ai-research-validation.md",
+      "id": "tool-半肥猫-ai-research-validation",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-半肥猫-course-to-skill-workflow.md",
+      "id": "tool-半肥猫-course-to-skill-workflow",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-半肥猫-课程Skill化的八步工作流.md",
+      "id": "tool-半肥猫-课程Skill化的八步工作流",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-半肥猫-边学边练边沉淀的AI学习法.md",
+      "id": "tool-半肥猫-边学边练边沉淀的AI学习法",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-单元模型-单城市.md",
+      "id": "tool-单元模型-单城市",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-单元模型-壁垒预判.md",
+      "id": "tool-单元模型-壁垒预判",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-四层联系建立法.md",
+      "id": "tool-四层联系建立法",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-场景推演.md",
+      "id": "tool-场景推演",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-复盘推演法.md",
+      "id": "tool-复盘推演法",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-多源输入法.md",
+      "id": "tool-多源输入法",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-完整财务公式决策.md",
+      "id": "tool-完整财务公式决策",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-审美工具箱.md",
+      "id": "tool-审美工具箱",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-寻找学习教练法.md",
+      "id": "tool-寻找学习教练法",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-提问刻意练习画布.md",
+      "id": "tool-提问刻意练习画布",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-最佳实践收集.md",
+      "id": "tool-最佳实践收集",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-最佳实践池子.md",
+      "id": "tool-最佳实践池子",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-月白-文件命名与图层命名规范.md",
+      "id": "tool-月白-文件命名与图层命名规范",
+      "type": "tool",
+      "author": "月白",
+      "status": "reviewed",
+      "reviewed_by": "老顽童",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-26"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-月白-文件命名与存档规范（口述暗示）.md",
+      "id": "tool-月白-文件命名与存档规范（口述暗示）",
+      "type": "tool",
+      "author": "月白",
+      "status": "reviewed",
+      "reviewed_by": "老顽童",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-26"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-月白-文件命名与平台适配规范.md",
+      "id": "tool-月白-文件命名与平台适配规范",
+      "type": "tool",
+      "author": "月白",
+      "status": "reviewed",
+      "reviewed_by": "老顽童",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-26"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-月白-设计师AI资产四类型沉淀.md",
+      "id": "tool-月白-设计师AI资产四类型沉淀",
+      "type": "tool",
+      "author": "月白",
+      "status": "reviewed",
+      "reviewed_by": "老顽童",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-26"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-月白-设计文件八要素命名法.md",
+      "id": "tool-月白-设计文件八要素命名法",
+      "type": "tool",
+      "author": "月白",
+      "status": "reviewed",
+      "reviewed_by": "老顽童",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-26"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-月白-课程资料文件命名规范.md",
+      "id": "tool-月白-课程资料文件命名规范",
+      "type": "tool",
+      "author": "月白",
+      "status": "reviewed",
+      "reviewed_by": "老顽童",
+      "review_date": "<missing>",
+      "updated_at": "2026-07-26"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-水水-管理决策权重偏差.md",
+      "id": "tool-水水-管理决策权重偏差",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-17"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-清单小抄工具箱法.md",
+      "id": "tool-清单小抄工具箱法",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-用户分层.md",
+      "id": "tool-用户分层",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-用户视角.md",
+      "id": "tool-用户视角",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-知识树存储记忆法.md",
+      "id": "tool-知识树存储记忆法",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-科学决策关键训练清单.md",
+      "id": "tool-科学决策关键训练清单",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-科学学习IPO完整清单.md",
+      "id": "tool-科学学习IPO完整清单",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-科学提问刻意练习.md",
+      "id": "tool-科学提问刻意练习",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-稀缺资源清单.md",
+      "id": "tool-稀缺资源清单",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-立即实践转化法.md",
+      "id": "tool-立即实践转化法",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-纪浩-Agent开工检查单制作法.md",
+      "id": "tool-纪浩-Agent开工检查单制作法",
+      "type": "tool",
+      "author": "纪浩",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-17"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-纪浩-Agent技能市场设计法.md",
+      "id": "tool-纪浩-Agent技能市场设计法",
+      "type": "tool",
+      "author": "纪浩",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-17"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-纪浩-AI使用边界管理法.md",
+      "id": "tool-纪浩-AI使用边界管理法",
+      "type": "tool",
+      "author": "纪浩",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-17"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-纪浩-AI工作空间与导诊台设计法.md",
+      "id": "tool-纪浩-AI工作空间与导诊台设计法",
+      "type": "tool",
+      "author": "纪浩",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-17"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-纪浩-AI工具脚本化约束.md",
+      "id": "tool-纪浩-AI工具脚本化约束",
+      "type": "tool",
+      "author": "纪浩",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-17"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-纪浩-Do-first-PDCA渐进迭代法.md",
+      "id": "tool-纪浩-Do-first-PDCA渐进迭代法",
+      "type": "tool",
+      "author": "纪浩",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-纪浩-problem-validation-four-checks.md",
+      "id": "tool-纪浩-problem-validation-four-checks",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-纪浩-Problem与Question区分法.md",
+      "id": "tool-纪浩-Problem与Question区分法",
+      "type": "tool",
+      "author": "纪浩",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-纪浩-任务交付物标准化.md",
+      "id": "tool-纪浩-任务交付物标准化",
+      "type": "tool",
+      "author": "纪浩",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-17"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-纪浩-低成本输出验证法.md",
+      "id": "tool-纪浩-低成本输出验证法",
+      "type": "tool",
+      "author": "纪浩",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-17"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-纪浩-处理AI生成代码运行异常.md",
+      "id": "tool-纪浩-处理AI生成代码运行异常",
+      "type": "tool",
+      "author": "纪浩",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-17"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-纪浩-日志驱动排查法.md",
+      "id": "tool-纪浩-日志驱动排查法",
+      "type": "tool",
+      "author": "纪浩",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-17"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-纪浩-真需求四要素验证法.md",
+      "id": "tool-纪浩-真需求四要素验证法",
+      "type": "tool",
+      "author": "纪浩",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-行业分析画布.md",
+      "id": "tool-行业分析画布",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-讲香十指模型-超级武器库.md",
+      "id": "tool-讲香十指模型-超级武器库",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-费曼简单提炼法.md",
+      "id": "tool-费曼简单提炼法",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-辩证讨论法.md",
+      "id": "tool-辩证讨论法",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\tools\\tool-需求挖掘.md",
+      "id": "tool-需求挖掘",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-29"
+    },
+    {
+      "path": "30_wiki\\tools\\yt-note-five-levels-training.md",
+      "id": "yt-note-five-levels-training",
+      "type": "tool",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\tools\\yt-note-live-field-skill.md",
+      "id": "yt-note-live-field-skill",
+      "type": "tool",
+      "author": "unknown",
+      "status": "reviewed",
+      "reviewed_by": "欧阳锋",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-18"
+    },
+    {
+      "path": "30_wiki\\tools\\yt-tool-hiring-scorecard.md",
+      "id": "yt-tool-hiring-scorecard",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "周伯通",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\tools\\yt-tool-meeting-designer.md",
+      "id": "yt-tool-meeting-designer",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "周伯通",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\tools\\yt-tool-okr-cycle.md",
+      "id": "yt-tool-okr-cycle",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "周伯通",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-28"
+    },
+    {
+      "path": "30_wiki\\tools\\yt-tool-strategy-workshop.md",
+      "id": "yt-tool-strategy-workshop",
+      "type": "tool",
+      "author": "老顽童",
+      "status": "reviewed",
+      "reviewed_by": "周伯通",
+      "review_date": "<missing>",
+      "updated_at": "2026-06-16"
+    }
+  ]
+}

@@ -697,4 +697,1101 @@ reviewed_by='欧阳锋 - concept-collaboration-philosophy-foundation - tool-posi
   2. method-shizhi-jiangxiang-ten-strategies
   3. method-key-assumption-abcd ✓ (in hits)
   4. dk-koupen-decision-tiering-compromise ✓
-  5
+  5. tool-ai-koupen-training-partner-design ✓
+  6. method-anthropic-skill-design-patterns ✓
+  7. framework-muse-ai-full-map-v1 ✓
+  8. concept-brooks-three-lies-culture ✓
+  9. dk-brooks-cost-of-knowing ✓
+  10. method-spin-linking-sales-marketing ✓
+  11. framework-lobster-opt-one-person-team ✓
+  12. concept-agent-university ✓
+  13. case-jovida-ai-life-coach ✓
+  14. method-obsidian-km-camp ✓
+  15. method-shishiyanshi-evidence-based
+  16. case-yitang-jiangxiang-12-practices
+
+  12 of the 17 pending hits are in the #586 batch. So 12 cards are covered by #586 PASS A- (2026-09-01 07:45). Need git log evidence for those.
+
+  Remaining 5 without obvious evidence:
+  - dk-p15-unverified (updated 2026-06-29, review_date 2026-06-29 but reviewed_by missing/pending? Its reviewed_by shown in the "pending" filter... wait the filter listed it under reviewed_by pending/missing. Actually from earlier detail: dk-p15-unverified | author=unknown | review_date=2026-06-29. So reviewed_by=pending presumably.
+  - high-density-composite-compilation-strategy (2026-06-16, decision)
+  - tool-yitang-best-practice-as-golden-finger (review_date 2026-06-28)
+  - tool-yitang-channel-industrialization-node-design (review_date 2026-06-28)
+  - tool-yitang-channel-scan-cheat-sheet (review_date 2026-06-28)
+
+  Wait, but the earlier "reviewed_by=pending: 17 张" — all 17 in the detail list. The 5 older ones need evidence via git log / task records. Let me check git log for each of the 5 to find review evidence (e.g. commits by ouyangfeng changing status to reviewed, or review records).
+
+  Also for the 12 #586 cards, git log 取证: find commit where status became reviewed or the batch review commit around 09-01 07:45. Let me do git log per file.
+
+  Let me run git log for the 17 files to get the relevant review commits.
+
+• 12 张命中卡属 #586 批（PASS A- 2026-09-01 07:45），另有 5 张老卡待取证。现在用 git log 逐卡取终审佐证。=== 30_wiki/cases/case-jovida-ai-life-coach.md ===
+61e755cc5 2026-09-01 06:11 #586 W3-1 case-jovida-ai-life-coach 落盘（pre-submit PASS，W1 框架卡反向链接补齐）
+=== 30_wiki/concepts/concept-agent-university.md ===
+d743581cb 2026-09-02 08:26 #611 一堂方法论族增量：Eason审计case+事实三问dk（🔴传播限制#322先例）+3存量卡反向补链
+faa13f1ff 2026-09-01 07:20 #586 返工重提：欧阳锋 FAIL 清单 6 项修复——dk-brooks 补三节/lobster+agent-university 死链修复/4 概念框架卡补外部验证节(curl 直连 L1 实测)/deep-debug 补 frontmatter；pre-submit 16/16 PASS
+6ea1f8acc 2026-09-01 06:15 #586 Wave2 五件入仓：布鲁克斯三谎言概念/求知代价dk/SPIN方法卡/龙虾OPT框架/Agent大学概念（前会话已过pre-submit，补commit）
+=== 30_wiki/concepts/concept-brooks-three-lies-culture.md ===
+faa13f1ff 2026-09-01 07:20 #586 返工重提：欧阳锋 FAIL 清单 6 项修复——dk-brooks 补三节/lobster+agent-university 死链修复/4 概念框架卡补外部验证节(curl 直连 L1 实测)/deep-debug 补 frontmatter；pre-submit 16/16 PASS
+6ea1f8acc 2026-09-01 06:15 #586 Wave2 五件入仓：布鲁克斯三谎言概念/求知代价dk/SPIN方法卡/龙虾OPT框架/Agent大学概念（前会话已过pre-submit，补commit）
+=== 30_wiki/dark-knowledges/dk-brooks-cost-of-knowing.md ===
+faa13f1ff 2026-09-01 07:20 #586 返工重提：欧阳锋 FAIL 清单 6 项修复——dk-brooks 补三节/lobster+agent-university 死链修复/4 概念框架卡补外部验证节(curl 直连 L1 实测)/deep-debug 补 frontmatter；pre-submit 16/16 PASS
+6ea1f8acc 2026-09-01 06:15 #586 Wave2 五件入仓：布鲁克斯三谎言概念/求知代价dk/SPIN方法卡/龙虾OPT框架/Agent大学概念（前会话已过pre-submit，补commit）
+=== 30_wiki/dark-knowledges/dk-koupen-decision-tiering-compromise.md ===
+130366e68 2026-09-01 06:15 #586 Wave1 七件入仓：数字讲故事/十指讲香本体/关键假设ABCD/口喷决策分档dk/口喷陪练官tool/Anthropic技能设计法/MUSE框架v1（前会话已过pre-submit，本会话实测落盘补commit）
+=== 30_wiki/frameworks/framework-lobster-opt-one-person-team.md ===
+faa13f1ff 2026-09-01 07:20 #586 返工重提：欧阳锋 FAIL 清单 6 项修复——dk-brooks 补三节/lobster+agent-university 死链修复/4 概念框架卡补外部验证节(curl 直连 L1 实测)/deep-debug 补 frontmatter；pre-submit 16/16 PASS
+6ea1f8acc 2026-09-01 06:15 #586 Wave2 五件入仓：布鲁克斯三谎言概念/求知代价dk/SPIN方法卡/龙虾OPT框架/Agent大学概念（前会话已过pre-submit，补commit）
+=== 30_wiki/frameworks/framework-muse-ai-full-map-v1.md ===
+acc8bf88d 2026-09-02 08:50 vault backup: 2026-09-02 08:50:00
+faa13f1ff 2026-09-01 07:20 #586 返工重提：欧阳锋 FAIL 清单 6 项修复——dk-brooks 补三节/lobster+agent-university 死链修复/4 概念框架卡补外部验证节(curl 直连 L1 实测)/deep-debug 补 frontmatter；pre-submit 16/16 PASS
+130366e68 2026-09-01 06:15 #586 Wave1 七件入仓：数字讲故事/十指讲香本体/关键假设ABCD/口喷决策分档dk/口喷陪练官tool/Anthropic技能设计法/MUSE框架v1（前会话已过pre-submit，本会话实测落盘补commit）
+=== 30_wiki/methods/method-anthropic-skill-design-patterns.md ===
+130366e68 2026-09-01 06:15 #586 Wave1 七件入仓：数字讲故事/十指讲香本体/关键假设ABCD/口喷决策分档dk/口喷陪练官tool/Anthropic技能设计法/MUSE框架v1（前会话已过pre-submit，本会话实测落盘补commit）
+=== 30_wiki/methods/method-key-assumption-abcd.md ===
+130366e68 2026-09-01 06:15 #586 Wave1 七件入仓：数字讲故事/十指讲香本体/关键假设ABCD/口喷决策分档dk/口喷陪练官tool/Anthropic技能设计法/MUSE框架v1（前会话已过pre-submit，本会话实测落盘补commit）
+=== 30_wiki/methods/method-obsidian-km-camp.md ===
+bddee1fa0 2026-09-01 06:13 #586 W3-2 method-obsidian-km-camp 落盘（pre-submit PASS；MemPalace 58755 stars 实测验证）
+=== 30_wiki/methods/method-spin-linking-sales-marketing.md ===
+6ea1f8acc 2026-09-01 06:15 #586 Wave2 五件入仓：布鲁克斯三谎言概念/求知代价dk/SPIN方法卡/龙虾OPT框架/Agent大学概念（前会话已过pre-submit，补commit）
+=== 30_wiki/tools/tool-ai-koupen-training-partner-design.md ===
+130366e68 2026-09-01 06:15 #586 Wave1 七件入仓：数字讲故事/十指讲香本体/关键假设ABCD/口喷决策分档dk/口喷陪练官tool/Anthropic技能设计法/MUSE框架v1（前会话已过pre-submit，本会话实测落盘补commit）
+
+
+• All 12 #586 cards have commit evidence tying them to #586 batch. Review evidence: #586 task file 终审记录 PASS A- at 2026-09-01 07:45 (documented in task file, and queue row reviewed). Also queue_transition complete happened ~07:20, review PASS 07:37-07:45.
+
+  Now the 5 older cards need evidence check:
+  - dk-p15-unverified (2026-06-29, author unknown, review_date 2026-06-29, reviewed_by pending)
+  - high-density-composite-compilation-strategy (2026-06-16, decision)
+  - tool-yitang-best-practice-as-golden-finger (review_date 2026-06-28)
+  - tool-yitang-channel-industrialization-node-design (review_date 2026-06-28)
+  - tool-yitang-channel-scan-cheat-sheet (review_date 2026-06-28)
+
+  Interesting: three of them already have review_date but reviewed_by=pending. Let me check git log for those 5 to find who/when status was set to reviewed, and search for review records (task files / dashboards) that reviewed them.
+
+• 12 张 #586 卡全部有 commit 佐证。再查 5 张老卡的终审佐证。=== 30_wiki/dark-knowledges/dk-p15-unverified.md ===
+42446b1b0 2026-08-24 21:23 feat(tags): #499 无轴小域按复用轴映射治理 52 卡（#426 收官解封）
+ccaa8bf25 2026-08-24 03:13 feat(domain): #493 域归域治理——yitang 拆分 + unknown 补域 + 来源词清 tags
+cf96cc077 2026-08-22 20:24 feat(links): #411 第十九批 related-asymmetry 回填——250 条（154 张卡：domains/dk/tools 广覆盖）
+fe8afe606 2026-08-04 02:33 vault backup: 2026-08-04 02:33:09
+4982e69b8 2026-06-30 03:52 vault backup: 2026-06-30 03:52:05
+0021bf538 2026-06-29 01:44 vault backup: 2026-06-29 01:44:32
+a092d139f 2026-06-28 13:47 vault backup: 2026-06-28 13:47:43
+a4be4726e 2026-06-28 13:10 vault backup: 2026-06-28 13:10:43
+=== 30_wiki/decisions/high-density-composite-compilation-strategy.md ===
+e7e171d1d 2026-08-24 19:52 feat(tags): #426 第十九批 kdo 收官 + ai-collab 50 卡 tags 治理
+ccaa8bf25 2026-08-24 03:13 feat(domain): #493 域归域治理——yitang 拆分 + unknown 补域 + 来源词清 tags
+4670363fa 2026-08-22 20:46 feat(links): #411 第二十三批 related-asymmetry 回填——250 条（186 张卡：tools/cases 广覆盖）
+5129aa1df 2026-08-19 01:58 chore(metadata): #371 cleanup — 635 cards frontmatter normalized
+4982e69b8 2026-06-30 03:52 vault backup: 2026-06-30 03:52:05
+8eb235555 2026-06-28 18:18 vault backup: 2026-06-28 18:18:06
+5af7db307 2026-06-28 18:04 vault backup: 2026-06-28 18:04:48
+4be8dc2fc 2026-06-28 12:54 vault backup: 2026-06-28 12:54:29
+=== 30_wiki/tools/tool-yitang-best-practice-as-golden-finger.md ===
+ccaa8bf25 2026-08-24 03:13 feat(domain): #493 域归域治理——yitang 拆分 + unknown 补域 + 来源词清 tags
+fc6a660d0 2026-08-22 17:23 feat(links): #411 第十四批 related-asymmetry 回填——250 条（113 张卡：tools 设计域 + 案例锚点）
+26d374305 2026-08-06 20:47 vault backup: 2026-08-06 20:47:07
+a465099db 2026-08-03 03:17 vault backup: 2026-08-03 03:17:38
+c9ca9eac5 2026-07-26 21:57 vault backup: 2026-07-26 21:57:39
+93b7360e0 2026-07-26 20:49 vault backup: 2026-07-26 20:49:22
+1a809c577 2026-07-05 04:08 vault backup: 2026-07-05 04:08:24
+b8915648a 2026-07-02 19:33 vault backup: 2026-07-02 19:33:23
+=== 30_wiki/tools/tool-yitang-channel-industrialization-node-design.md ===
+f3a0bf336 2026-08-24 22:37 feat(tags): #500 第二批小域 65 卡映射治理（#426 收官）
+ccaa8bf25 2026-08-24 03:13 feat(domain): #493 域归域治理——yitang 拆分 + unknown 补域 + 来源词清 tags
+f0deb9af5 2026-08-22 19:56 feat(links): #411 第十六批 related-asymmetry 回填——250 条（164 张卡：domains/cases/personal-os 广覆盖）
+fc6a660d0 2026-08-22 17:23 feat(links): #411 第十四批 related-asymmetry 回填——250 条（113 张卡：tools 设计域 + 案例锚点）
+26d374305 2026-08-06 20:47 vault backup: 2026-08-06 20:47:07
+a465099db 2026-08-03 03:17 vault backup: 2026-08-03 03:17:38
+c9ca9eac5 2026-07-26 21:57 vault backup: 2026-07-26 21:57:39
+93b7360e0 2026-07-26 20:49 vault backup: 2026-07-26 20:49:22
+=== 30_wiki/tools/tool-yitang-channel-scan-cheat-sheet.md ===
+ccaa8bf25 2026-08-24 03:13 feat(domain): #493 域归域治理——yitang 拆分 + unknown 补域 + 来源词清 tags
+c647d56e8 2026-08-22 20:32 feat(links): #411 第二十批 related-asymmetry 回填——250 条（157 张卡：dk 战略域 + tools/cases）
+fc6a660d0 2026-08-22 17:23 feat(links): #411 第十四批 related-asymmetry 回填——250 条（113 张卡：tools 设计域 + 案例锚点）
+4ca684c54 2026-08-22 16:58 feat(links): #411 第十二批 related-asymmetry 回填——250 条（86 张卡：tools/dk/domains 域）
+26d374305 2026-08-06 20:47 vault backup: 2026-08-06 20:47:07
+a465099db 2026-08-03 03:17 vault backup: 2026-08-03 03:17:38
+c9ca9eac5 2026-07-26 21:57 vault backup: 2026-07-26 21:57:39
+93b7360e0 2026-07-26 20:49 vault backup: 2026-07-26 20:49:22
+
+
+• The 5 older cards have no explicit review commit — only vault backups and metadata-batch commits. No task record with review evidence found in git log. Per task spec: 对找不到终审佐证的卡，不改状态，单列清单报王语嫣.
+
+  But wait — I should do a bit more evidence hunting for the 5: search 60_feedback/tasks and dashboard for these card ids reviewed. Quick grep for card ids in task files.
+
+• 5 张老卡 git log 无显式终审 commit。再 grep 任务单/看板里有无这 5 卡的终审记录佐证。=== dk-p15-unverified ===
+60_feedback/tasks/task_20260825_laowantong-src-unknown-body-backfill/清单-src-unknown-body.md
+=== high-density-composite-compilation-strategy ===
+60_feedback/tasks/task_20260825_laowantong-src-unknown-body-backfill/清单-src-unknown-body.md
+70_product/tasks/HALT-stop-individual-cards-start-composite.md
+=== tool-yitang-best-practice-as-golden-finger ===
+60_feedback/tasks/task_20260627_laowantong-deliberate-practice-cards.md
+60_feedback/tasks/task_20260629_kimi-lint-content-debt-by-domain.md
+60_feedback/tasks/task_20260702_laowantong-yitang-scientific-sales-methodology-production.md
+=== tool-yitang-channel-industrialization-node-design ===
+60_feedback/tasks/review_20260628_ouyangfeng-channel-growth.md
+60_feedback/tasks/task_20260627_laowantong-channel-growth-cards.md
+60_feedback/tasks/task_20260629_kimi-lint-content-debt-by-domain.md
+60_feedback/tasks/task_20260822_laowantong-related-asymmetry-backfill.md
+=== tool-yitang-channel-scan-cheat-sheet ===
+60_feedback/tasks/review_20260628_ouyangfeng-channel-growth.md
+60_feedback/tasks/task_20260627_laowantong-channel-growth-cards.md
+60_feedback/tasks/task_20260629_kimi-lint-content-debt-by-domain.md
+
+
+• Interesting — `review_20260628_ouyangfeng-channel-growth.md` exists and references the two channel tool cards. And `task_20260627_laowantong-deliberate-practice-cards.md` references best-practice card. These may be review records. Let me check those review files to see if they contain PASS verdicts for the specific cards. Also check the channel-growth task's review. And tool-yitang cards have review_date 2026-06-28 already — consistent with review_20260628_ouyangfeng-channel-growth.md.
+
+• 发现 `review_20260628_ouyangfeng-channel-growth.md` 可能是终审记录。逐一核对内容。60_feedback/tasks/review_20260628_ouyangfeng-channel-growth.md-57-|:---:|:---|:---|:---|:---|
+60_feedback/tasks/review_20260628_ouyangfeng-channel-growth.md-58-| 6 | `30_wiki/tools/tool-yitang-growth-flywheel-design.md` | tool | 增长飞轮设计工具：从业务要素到增强回路 | worksheet、因果强度检查表 |
+60_feedback/tasks/review_20260628_ouyangfeng-channel-growth.md:59:| 7 | `30_wiki/tools/tool-yitang-channel-scan-cheat-sheet.md` | tool | 渠道扫描小抄：线上/线下/转化/推荐获客清单 | 分类完整性、可直接使用 |
+60_feedback/tasks/review_20260628_ouyangfeng-channel-growth.md-60-| 8 | `30_wiki/tools/tool-yitang-channel-scoring-matrix.md` | tool | 渠道预判评分矩阵：科学排序候选渠道 | 评分维度、示例 |
+60_feedback/tasks/review_20260628_ouyangfeng-channel-growth.md-61-| 9 | `30_wiki/tools/tool-yitang-referral-channel-optimization.md` | tool | 老带新渠道优化工具：动力 × 触点 × 阻力 | 检查清单、优化动作表 |
+60_feedback/tasks/review_20260628_ouyangfeng-channel-growth.md:62:| 10 | `30_wiki/tools/tool-yitang-channel-industrialization-node-design.md` | tool | 工业化生产节点设计工具：把复杂交付变成可控流程 | 四种节点定义、worksheet |
+60_feedback/tasks/review_20260628_ouyangfeng-channel-growth.md-63-| 11 | `30_wiki/tools/tool-yitang-industry-channel-arsenal-index.md` | tool | 24 行业获客清单索引：跨行业渠道灵感库 | 不要复制 24 行业、按类型提炼 |
+60_feedback/tasks/review_20260628_ouyangfeng-channel-growth.md-64-| 12 | `30_wiki/dark-knowledges/dk-yitang-channel-exploration-traps.md` | dk | 渠道探索常见陷阱：18 万字共建作业里的血泪教训 | 7-10 个陷阱、症状→根因→修复 |
+60_feedback/tasks/review_20260628_ouyangfeng-channel-growth.md-65-
+60_feedback/tasks/review_20260628_ouyangfeng-channel-growth.md-66-### 案例卡（13 张）
+--
+60_feedback/tasks/task_20260627_laowantong-deliberate-practice-cards.md-133-- related ≥ 5
+60_feedback/tasks/task_20260627_laowantong-deliberate-practice-cards.md-134-
+60_feedback/tasks/task_20260627_laowantong-deliberate-practice-cards.md:135:#### 2.5 `tool-yitang-best-practice-as-golden-finger`
+60_feedback/tasks/task_20260627_laowantong-deliberate-practice-cards.md-136-
+60_feedback/tasks/task_20260627_laowantong-deliberate-practice-cards.md-137-| 字段 | 要求 |
+60_feedback/tasks/task_20260627_laowantong-deliberate-practice-cards.md-138-|:---|:---|
+60_feedback/tasks/task_20260627_laowantong-deliberate-practice-cards.md-139-| type | tool |
+--
+60_feedback/tasks/task_20260627_laowantong-deliberate-practice-cards.md-373-| framework-yitang-three-ring-ability-focus | framework | enriched | 30_wiki/frameworks/framework-yitang-three-ring-ability-focus.md |
+60_feedback/tasks/task_20260627_laowantong-deliberate-practice-cards.md-374-| concept-yitang-comfort-stretch-panic-zones | concept | enriched | 30_wiki/concepts/concept-yitang-comfort-stretch-panic-zones.md |
+60_feedback/tasks/task_20260627_laowantong-deliberate-practice-cards.md:375:| tool-yitang-best-practice-as-golden-finger | tool | enriched | 30_wiki/tools/tool-yitang-best-practice-as-golden-finger.md |
+60_feedback/tasks/task_20260627_laowantong-deliberate-practice-cards.md-376-| tool-yitang-feedback-self-check | tool | enriched | 30_wiki/tools/tool-yitang-feedback-self-check.md |
+60_feedback/tasks/task_20260627_laowantong-deliberate-practice-cards.md-377-| framework-ai-deliberate-practice-loop | framework | enriched | 30_wiki/frameworks/framework-ai-deliberate-practice-loop.md |
+60_feedback/tasks/task_20260627_laowantong-deliberate-practice-cards.md-378-| case-yitang-poker-parameterized-practice | case | enriched | 30_wiki/cases/case-yitang-poker-parameterized-practice.md |
+60_feedback/tasks/task_20260627_laowantong-deliberate-practice-cards.md-379-| case-yitang-sales-routine-deconstruction | case | enriched | 30_wiki/cases/case-yitang-sales-routine-deconstruction.md |
+--
+60_feedback/tasks/task_20260627_laowantong-deliberate-practice-cards.md-455-| framework-yitang-three-ring-ability-focus | P0 framework | deep | Critique/失败模式/关联齐全；自攻击指出的「前三年后五年」评分表、Cal Newport 外部来源、职业转型期边界均已补。 |
+60_feedback/tasks/task_20260627_laowantong-deliberate-practice-cards.md-456-| concept-yitang-comfort-stretch-panic-zones | P1 concept | deep | 四区定义、常见误解、失败模式完整；审查中补注了 110%-120%、10%-30% 等经验参数的来源待核。 |
+60_feedback/tasks/task_20260627_laowantong-deliberate-practice-cards.md:457:| tool-yitang-best-practice-as-golden-finger | P1 tool | deep | 操作步骤/典型场景/失败模式完整；审查中补注了「超过 80% 的同行」的置信度与来源。 |
+60_feedback/tasks/task_20260627_laowantong-deliberate-practice-cards.md-458-| tool-yitang-feedback-self-check | P1 tool | deep | 三种机制/操作清单/典型场景完整；审查中补注了 27-28 个版本、10 张段位图、2-3 个同伴、5-7 个维度等口述数字的置信度。 |
+60_feedback/tasks/task_20260627_laowantong-deliberate-practice-cards.md-459-| framework-ai-deliberate-practice-loop | P1 framework（跨域桥接） | deep | 六段齐全；同时回答了「AI 给刻意练习带来什么」和「刻意练习给 AI 协作带来什么」。自攻击 🟡 问题已修复（2024 预印本、成本/隐私约束、固定套路稳定性说明）。 |
+60_feedback/tasks/task_20260627_laowantong-deliberate-practice-cards.md-460-| case-yitang-poker-parameterized-practice | P2 case | deep | 叙事完整，关键数字已按 `[conf=..., source=...]` 标注，迁移价值与失败模式完整。 |
+60_feedback/tasks/task_20260627_laowantong-deliberate-practice-cards.md-461-| case-yitang-sales-routine-deconstruction | P2 case | deep | 数字已标注，常见误解/失败风险/迁移价值完整。 |
+--
+60_feedback/tasks/task_20260702_laowantong-yitang-scientific-sales-methodology-production.md-236-8. **Anti-patterns**：工具由不一线人员编写、话术像台词脚本、工具不迭代、工具与场景背离。
+60_feedback/tasks/task_20260702_laowantong-yitang-scientific-sales-methodology-production.md-237-9. **Critique**：≥3 个外部反对者 + ≥2 个内部局限。
+60_feedback/tasks/task_20260702_laowantong-yitang-scientific-sales-methodology-production.md:238:10. **Synthesis**：桥接 `yt-panproduct-aesthetic-pool`、`tool-yitang-best-practice-as-golden-finger`、`tool-agent-research-swarm`、`framework-yitang-deliberate-practice-1plus4`。
+60_feedback/tasks/task_20260702_laowantong-yitang-scientific-sales-methodology-production.md-239-11. **Related**：≥5 条。
+60_feedback/tasks/task_20260702_laowantong-yitang-scientific-sales-methodology-production.md-240-
+60_feedback/tasks/task_20260702_laowantong-yitang-scientific-sales-methodology-production.md-241----
+60_feedback/tasks/task_20260702_laowantong-yitang-scientific-sales-methodology-production.md-242-
+--
+60_feedback/tasks/task_20260702_laowantong-yitang-scientific-sales-methodology-production.md-397-17. `framework-yitang-deliberate-practice-1plus4`
+60_feedback/tasks/task_20260702_laowantong-yitang-scientific-sales-methodology-production.md-398-18. `yt-personal-deliberate-practice`
+60_feedback/tasks/task_20260702_laowantong-yitang-scientific-sales-methodology-production.md:399:19. `tool-yitang-best-practice-as-golden-finger`
+60_feedback/tasks/task_20260702_laowantong-yitang-scientific-sales-methodology-production.md-400-20. `tool-agent-research-swarm`
+60_feedback/tasks/task_20260702_laowantong-yitang-scientific-sales-methodology-production.md-401-21. `case-yitang-sales-routine-deconstruction`
+60_feedback/tasks/task_20260702_laowantong-yitang-scientific-sales-methodology-production.md-402-22. `case-yitang-ai-painting-commercialization`
+60_feedback/tasks/task_20260702_laowantong-yitang-scientific-sales-methodology-production.md-403-23. `opc-ai-sales-agent-architecture`
+--
+60_feedback/tasks/task_20260702_laowantong-yitang-scientific-sales-methodology-production.md-512-3. **`tool-yitang-sales-toolkit-radar.md` Synthesis 0 wikilink**
+60_feedback/tasks/task_20260702_laowantong-yitang-scientific-sales-methodology-production.md-513-   - pre-submit 警告 Synthesis section wikilink 不足
+60_feedback/tasks/task_20260702_laowantong-yitang-scientific-sales-methodology-production.md:514:   - 修复：在 Synthesis 开头增加一条含 `[[framework-yitang-scientific-sales-five-step]]` 和 `[[tool-yitang-best-practice-as-golden-finger]]` 的链接
+60_feedback/tasks/task_20260702_laowantong-yitang-scientific-sales-methodology-production.md-515-
+60_feedback/tasks/task_20260702_laowantong-yitang-scientific-sales-methodology-production.md-516-4. **`opc-ai-sales-agent-architecture.md` 实际回链只有 9 张**
+60_feedback/tasks/task_20260702_laowantong-yitang-scientific-sales-methodology-production.md-517-   - 任务单/自攻击报告声称 12 张新卡均已回链
+60_feedback/tasks/task_20260702_laowantong-yitang-scientific-sales-methodology-production.md-518-   - 修复：补充 3 个 case 卡的 related 回链
+--
+60_feedback/tasks/task_20260627_laowantong-channel-growth-cards.md-144-- related ≥ 5
+60_feedback/tasks/task_20260627_laowantong-channel-growth-cards.md-145-
+60_feedback/tasks/task_20260627_laowantong-channel-growth-cards.md:146:#### 2.5 `tool-yitang-channel-scan-cheat-sheet`
+60_feedback/tasks/task_20260627_laowantong-channel-growth-cards.md-147-
+60_feedback/tasks/task_20260627_laowantong-channel-growth-cards.md-148-| 字段 | 要求 |
+60_feedback/tasks/task_20260627_laowantong-channel-growth-cards.md-149-|:---|:---|
+60_feedback/tasks/task_20260627_laowantong-channel-growth-cards.md-150-| type | tool |
+--
+60_feedback/tasks/task_20260627_laowantong-channel-growth-cards.md-197-- related ≥ 5
+60_feedback/tasks/task_20260627_laowantong-channel-growth-cards.md-198-
+60_feedback/tasks/task_20260627_laowantong-channel-growth-cards.md:199:#### 2.8 `tool-yitang-channel-industrialization-node-design`
+60_feedback/tasks/task_20260627_laowantong-channel-growth-cards.md-200-
+60_feedback/tasks/task_20260627_laowantong-channel-growth-cards.md-201-| 字段 | 要求 |
+60_feedback/tasks/task_20260627_laowantong-channel-growth-cards.md-202-|:---|:---|
+60_feedback/tasks/task_20260627_laowantong-channel-growth-cards.md-203-| type | tool |
+--
+60_feedback/tasks/task_20260627_laowantong-channel-growth-cards.md-596-| concept-yitang-channel-lean-validation-bridge | concept | enriched |
+60_feedback/tasks/task_20260627_laowantong-channel-growth-cards.md-597-| tool-yitang-growth-flywheel-design | tool | enriched |
+60_feedback/tasks/task_20260627_laowantong-channel-growth-cards.md:598:| tool-yitang-channel-scan-cheat-sheet | tool | enriched |
+60_feedback/tasks/task_20260627_laowantong-channel-growth-cards.md-599-| tool-yitang-channel-scoring-matrix | tool | enriched |
+60_feedback/tasks/task_20260627_laowantong-channel-growth-cards.md-600-| tool-yitang-referral-channel-optimization | tool | enriched |
+
+
+• The two channel cards (scan-cheat-sheet, industrialization-node-design) are in review_20260628_ouyangfeng-channel-growth.md scope. Need to check if that review file contains a PASS verdict. Let me check the review file's conclusion. Also check best-practice-as-golden-finger: it was "deep" reviewed in task_20260627_laowantong-deliberate-practice-cards.md — but is that an actual review record with PASS? It says 审查中补注 — likely self-review. Need a review verdict.
+
+  Also dk-p15-unverified and high-density-composite-compilation-strategy only appear in 清单-src-unknown-body.md and HALT file — likely no review evidence.
+
+  Let me check the conclusion of review_20260628_ouyangfeng-channel-growth.md.14:status: reviewed
+20:> 25 张卡已由 Kimi 老顽童生产完成，全量 `kdo pre-submit` 通过，5 张核心卡已跑四路自攻击并修复。
+24:## 0. 任务元信息
+33:| 质量门禁 | 25 张卡 `kdo pre-submit` 全通过（25 passed / 0 failed）；5 张核心卡四路自攻击已完成并修复 |
+37:## 1. 待审 25 张卡清单
+39:### P0 核心框架（3 张）
+47:### 跨域桥接（2 张）
+54:### P1/P2 工具（7 张）
+66:### 案例卡（13 张）
+73:| 16 | `30_wiki/cases/case-yitang-solid-redbull-channel.md` | case | 案例：固体红牛如何通过渠道探索找到司机群体 | 扫描→预判→测试→建模 |
+79:| 22 | `30_wiki/cases/case-yitang-xujian-invoice-saas-channel.md` | case | 案例：徐建发票 SaaS 如何通过渠道探索找到支付推手 | 100+ 方向→3 个通过 |
+81:| 24 | `30_wiki/cases/case-yitang-shuzu-channel-scan-test.md` | case | 案例：数族如何扫描 100+ 渠道并跑通支付合作 | 100+ 方向→9 候选→3 通过 |
+86:## 2. 欧阳锋审查标准
+88:### 2.1 通用标准
+92:| **deep / 通过** | 正文 ≥100 行（P0 framework ≥150 行）；Claims/Evidence/Critique/Synthesis/Action Triggers/Failure Modes 六段齐全；失败模式具体（非模板话）；数字有来源标注；`related` 有效 |
+96:### 2.2 本次重点审查项（老顽童已标注）
+129:## 3. 判定规则
+133:| 25 张全部 deep | 全部标记 `reviewed_by: 欧阳锋`，`status: reviewed`，任务状态改 `reviewed` |
+134:| 少数 shallow/borderline | 通过的卡先标记 reviewed；返工卡列清单退回 Kimi 老顽童；任务保持 `pending_review` |
+140:## 4. 审查后动作
+142:### 4.1 若全部或大部分通过
+144:1. 通过的卡片 frontmatter：
+145:   - `status: enriched` → `reviewed`
+146:   - `reviewed_by: pending` → `欧阳锋`
+148:2. `70_product/tasks/production-queue.md`：任务 #3 状态改为 `reviewed`
+149:3. `70_product/tasks/dashboard.md`：该任务状态改 `reviewed`；Summary 中 `Queued` 减 1，`Review Done` 加 1
+151:5. 本文件末尾追加审查结论
+153:### 4.2 若有返工
+161:## 5. 给欧阳锋的启动口令
+171:## 6. 状态记录
+**短版**：
+> 欧阳锋，切到 wiki 目录，读 startup、队列、渠道增长审查任务单（`60_feedback/tasks/review_20260628_ouyangfeng-channel-growth.md`），审 25 张卡。
+
+---
+
+## 6. 状态记录
+
+| 日期 | 事件 | 操作人 |
+|:---|:---|:---|
+| 2026-06-27 | 王语嫣完成九层深挖诊断与任务标注 | 王语嫣 |
+| 2026-06-28 | Kimi 老顽童完成 25 张卡生产 | Kimi 老顽童 |
+| 2026-06-28 | 25 张卡 `kdo pre-submit` 全通过 | Kimi 老顽童 |
+| 2026-06-28 | 王语嫣写本审查任务单 | 王语嫣 |
+| 待填写 | 欧阳锋终审 | 欧阳锋 |
+
+---
+
+## 6. 欧阳锋终审结论
+
+**Verdict：渠道增长域 25 张卡通过（附条件 / conditional pass）**
+
+### 审查动作
+
+- 抽查 6 张核心卡跑 `kdo pre-submit -f`：全部通过
+  - `framework-yitang-growth-flywheel`
+  - `framework-yitang-channel-industrialization`
+  - `framework-yitang-channel-exploration-4step`
+  - `framework-yitang-channel-unit-economics`
+  - `concept-yitang-channel-lean-validation-bridge`
+  - `dk-yitang-channel-exploration-traps`
+- 跑 `kdo lint`：25 张卡中 13 张 case 卡存在 missing section ERROR，其余 12 张卡无新增 ERROR
+
+### 审查结果
+
+| 检查项 | 结果 |
+|:---|:---|
+| 25 张卡 `kdo pre-submit` 全通过 | ✅ 通过 |
+| P0 framework 内容深度（≥150 行、六段齐全） | ✅ 通过 |
+| 跨域桥接卡边界与公式正确性 | ✅ 通过（单元经济公式已修正，不再重复扣毛利率） |
+| 案例数字有来源标注 | ✅ 通过（抽检关键数字均带 `[conf=..., source=...]`） |
+| 5 张核心卡四路自攻击修复 | ✅ 通过 |
+| 工具卡可执行性 | ✅ 通过（worksheet/checklist 可直接使用） |
+| case 卡 section 标题符合 lint 新标准 | ⚠️ 13 张 case 卡缺标准 section，见下方遗留问题 |
+| dk/目录与 taxonomy 一致 | ⚠️ 1 张 dk 卡在 `30_wiki/dk/` 目录，见下方遗留问题 |
+| concept 卡目录与 type 一致 | ⚠️ 1 张 concept 卡在 `30_wiki/frameworks/` 目录，见下方遗留问题 |
+
+### 已执行动作
+
+1. 25 张卡片 frontmatter 更新：
+   - `status: enriched` → `reviewed`
+   - `reviewed_by:` → `欧阳锋`
+   - `review_date:` → `2026-06-28`
+   - `updated_at:` → `2026-06-28`
+2. `70_product/tasks/production-queue.md` 任务 #3 状态改为 `reviewed`
+3. `70_product/tasks/dashboard.md` 中渠道增长域任务状态改为 `reviewed`，Summary Review Done +1
+The review_20260628_ouyangfeng-channel-growth.md is a real review record with PASS (conditional) verdict, executed actions: status→reviewed, reviewed_by→欧阳锋, review_date→2026-06-28. It covers tool-yitang-channel-scan-cheat-sheet and tool-yitang-channel-industrialization-node-design (both in the 25-card list). So those two cards have review evidence: review_20260628_ouyangfeng-channel-growth.md, date 2026-06-28. Their current frontmatter already has review_date: 2026-06-28 but reviewed_by: pending — residue. Evidence solid → fix: reviewed_by: 欧阳锋 (review_date already correct).
+
+  For tool-yitang-best-practice-as-golden-finger: it appears in task_20260627_laowantong-deliberate-practice-cards.md with a review table ("deep" column) — but is that review by 欧阳锋? Let me check whether that task file has a 终审记录 with PASS by 欧阳锋. The table shown is probably "审查结果" by someone. Let me check the task file frontmatter/ending.---
+id: task_20260627_laowantong-deliberate-practice-cards
+type: production_task
+created_at: 2026-06-27
+author: 王语嫣
+assignee: Hermes 老顽童
+priority: P1
+status: reviewed
+scope: 元能力-刻意练习素材卡片化生产
+related:
+- '[[diag_20260627_wangyuyan-deliberate-practice-nine-layer]]'
+- '[[diag_20260627_wangyuyan-cross-domain-bridge-supplement]]'
+- '[[framework-ai-deliberate-practice-loop]]'
+review_date: '2026-06-27'
+reviewed_by: 欧阳锋
+---
+
+# Hermes 老顽童生产任务：元能力-刻意练习卡片化
+
+> 王语嫣已完成九层深挖 + 六层交叉验证，本任务基于诊断报告 `diag_20260627_wangyuyan-deliberate-practice-nine-layer` 生成。
+14:review_date: '2026-06-27'
+15:reviewed_by: 欧阳锋
+347:3. 问题整改后，提交欧阳锋终审 P0 卡；
+348:4. P1/P2 卡由王语嫣终审后入库。
+409:### 需要王语嫣/欧阳锋重点审查的项
+437:## 欧阳锋终审结论
+440:**审查人**：欧阳锋（KDO 知识工厂架构师 + 审查者）  
+441:**总体 verdict**：11 张卡全部通过，任务状态更新为 `reviewed`。
+471:- 11 张卡片 frontmatter 已更新：`status: reviewed`、`reviewed_by: 欧阳锋`、`review_date: 2026-06-28`。
+478:- 建议王语嫣在后续任务单中明确要求：所有 P1/P2 卡也必须跑 `/kdo-self-attack`，避免终审时再补口头数字标注。
+tool-yitang-best-practice-as-golden-finger: reviewed in task_20260627_laowantong-deliberate-practice-cards.md, 欧阳锋终审 verdict 11张全部通过, review_date 2026-06-28. Evidence solid. Fix: reviewed_by: 欧阳锋 (review_date already 2026-06-28).
+
+  Remaining 2 without evidence:
+  - dk-p15-unverified (2026-06-29, author unknown)
+  - high-density-composite-compilation-strategy (2026-06-16, decision)
+
+  Only references: src-unknown-body backfill 清单 (not a review) and HALT file (a stop-order doc). Let me quickly check the HALT file mention and the src-unknown 清单 to be thorough — HALT-stop-individual-cards-start-composite.md might actually be a decision authored by 王语嫣/老朱 which approved the composite strategy? Let me check.46-## 按顺序执行
+47-
+48-### Step 1：读更新后的策略
+49:打开 [[high-density-composite-compilation-strategy]]（v2.0，已修订）
+50-
+51-### Step 2：P0 修复（source_refs + Critique）
+52-
+53-**先修 source_refs**：
+54-- 将引用的 PNG 从 `00_inbox/` 复制到 `10_raw/sources/`
+=====清单=====
+1200-| 30_wiki/systems/kdo-batch-produce-req014.md | 11 | — |
+1201-| 30_wiki/frameworks/framework-ouyangfeng-review-methodology.md | 10 | — |
+1202:| 30_wiki/decisions/high-density-composite-compilation-strategy.md | 9 | — |
+1203-| 30_wiki/entities/Kimi-月之暗面.md | 8 | — |
+1204-| 30_wiki/systems/obsidian-git-sync-protocol.md | 8 | — |
+1205-| 30_wiki/tools/concept-toyota-5-whys.md | 6 | — |
+--
+1539-|:--|:--|:--|
+1540-| 30_wiki/cases/case-milktea-five-step.md | 36 | — |
+1541:| 30_wiki/dark-knowledges/dk-p15-unverified.md | 33 | — |
+1542-| 30_wiki/cases/case-treadmill-demand-analysis.md | 22 | — |
+1543-| 30_wiki/concepts/yt-product-kernel-aesthetic.md | 16 | — |
+1544-| 30_wiki/frameworks/framework-lean-product-kernel.md | 14 | — |
+No review evidence for dk-p15-unverified and high-density-composite-compilation-strategy — those only appear in a backfill 清单 and an operational HALT doc. Per task spec: 不改状态，单列清单报王语嫣.
+
+  Wait — but I should double check: the HALT file says the strategy doc was "v2.0 已修订" — but that's not a 终审记录 for the card status. Also, high-density-composite-compilation-strategy is a decision card updated 2026-06-16 with status reviewed. Maybe it was reviewed when created in June. Let me do a quick check on git log around creation for these two, to see if any commit message indicates review approval. Actually already did git log --follow head -8 — only vault backups and metadata batch commits. Let me check the earliest commits (creation).=== dk-p15-unverified 全部commit ===
+42446b1b0 2026-08-24 21:23 Linhai Zhu feat(tags): #499 无轴小域按复用轴映射治理 52 卡（#426 收官解封）
+ccaa8bf25 2026-08-24 03:13 Linhai Zhu feat(domain): #493 域归域治理——yitang 拆分 + unknown 补域 + 来源词清 tags
+cf96cc077 2026-08-22 20:24 Linhai Zhu feat(links): #411 第十九批 related-asymmetry 回填——250 条（154 张卡：domains/dk/tools 广覆盖）
+fe8afe606 2026-08-04 02:33 Linhai Zhu vault backup: 2026-08-04 02:33:09
+4982e69b8 2026-06-30 03:52 Linhai Zhu vault backup: 2026-06-30 03:52:05
+0021bf538 2026-06-29 01:44 Linhai Zhu vault backup: 2026-06-29 01:44:32
+a092d139f 2026-06-28 13:47 Linhai Zhu vault backup: 2026-06-28 13:47:43
+a4be4726e 2026-06-28 13:10 Linhai Zhu vault backup: 2026-06-28 13:10:43
+79242b67b 2026-06-27 20:33 Linhai Zhu vault backup: 2026-06-27 20:33:39
+251019d67 2026-06-27 10:43 Linhai Zhu vault backup: 2026-06-27 10:43:42
+27b716ba4 2026-06-27 09:48 Linhai Zhu vault backup: 2026-06-27 09:48:00
+d53ae9110 2026-06-23 02:28 Linhai Zhu vault backup: 2026-06-23 02:28:42
+9f8cf9226 2026-06-15 21:36 Linhai Zhu vault backup: 2026-06-15 21:36:09
+4d1593feb 2026-06-15 20:03 Linhai Zhu vault backup: 2026-06-15 20:03:06
+68ffffcaa 2026-06-15 08:30 Linhai Zhu vault backup: 2026-06-15 08:30:05
+81b7a8a73 2026-06-15 08:18 Linhai Zhu vault backup: 2026-06-15 08:18:07
+d7712a3ed 2026-06-15 03:37 Linhai Zhu vault backup: 2026-06-15 03:37:33
+9ae90416c 2026-06-15 01:42 Linhai Zhu vault backup: 2026-06-15 01:42:45
+6d02c604c 2026-06-15 01:40 Linhai Zhu vault backup: 2026-06-15 01:40:58
+c5d9242b5 2026-06-15 01:12 Linhai Zhu 复盘: 6/6文件全更新 — 索引+错误库+技能日志+雷达图+反馈档案+每日复盘
+25fc384e8 2026-06-12 22:16 Linhai Zhu vault backup: 2026-06-12 22:16:27
+f0fdf8aee 2026-06-11 18:00 Linhai Zhu vault backup: 2026-06-11 18:00:28
+b7fe1294c 2026-06-11 01:49 Linhai Zhu vault backup: 2026-06-11 01:49:29
+8e888d61b 2026-06-08 01:13 Linhai Zhu vault backup: 2026-06-08 01:13:25
+c56a5dc21 2026-06-06 15:46 Linhai Zhu feat: skill card system — type registration, template, first card, extraction infra
+87ba8b9dc 2026-06-06 02:42 Linhai Zhu vault backup: 2026-06-06 02:42:28
+35ae7b58e 2026-06-04 00:31 Linhai Zhu vault backup: 2026-06-04 00:31:55
+=== high-density 全部commit ===
+e7e171d1d 2026-08-24 19:52 Linhai Zhu feat(tags): #426 第十九批 kdo 收官 + ai-collab 50 卡 tags 治理
+ccaa8bf25 2026-08-24 03:13 Linhai Zhu feat(domain): #493 域归域治理——yitang 拆分 + unknown 补域 + 来源词清 tags
+4670363fa 2026-08-22 20:46 Linhai Zhu feat(links): #411 第二十三批 related-asymmetry 回填——250 条（186 张卡：tools/cases 广覆盖）
+5129aa1df 2026-08-19 01:58 Linhai Zhu chore(metadata): #371 cleanup — 635 cards frontmatter normalized
+4982e69b8 2026-06-30 03:52 Linhai Zhu vault backup: 2026-06-30 03:52:05
+8eb235555 2026-06-28 18:18 Linhai Zhu vault backup: 2026-06-28 18:18:06
+5af7db307 2026-06-28 18:04 Linhai Zhu vault backup: 2026-06-28 18:04:48
+4be8dc2fc 2026-06-28 12:54 Linhai Zhu vault backup: 2026-06-28 12:54:29
+79242b67b 2026-06-27 20:33 Linhai Zhu vault backup: 2026-06-27 20:33:39
+251019d67 2026-06-27 10:43 Linhai Zhu vault backup: 2026-06-27 10:43:42
+d53ae9110 2026-06-23 02:28 Linhai Zhu vault backup: 2026-06-23 02:28:42
+9f8cf9226 2026-06-15 21:36 Linhai Zhu vault backup: 2026-06-15 21:36:09
+b4762bb82 2026-06-15 20:53 Linhai Zhu vault backup: 2026-06-15 20:53:40
+4d1593feb 2026-06-15 20:03 Linhai Zhu vault backup: 2026-06-15 20:03:06
+68ffffcaa 2026-06-15 08:30 Linhai Zhu vault backup: 2026-06-15 08:30:05
+81b7a8a73 2026-06-15 08:18 Linhai Zhu vault backup: 2026-06-15 08:18:07
+cca1a6d14 2026-06-15 08:12 Linhai Zhu vault backup: 2026-06-15 08:12:04
+b57fdc5a7 2026-06-15 04:00 Linhai Zhu vault backup: 2026-06-15 04:00:27
+ff79c2995 2026-06-15 03:41 Linhai Zhu vault backup: 2026-06-15 03:41:12
+d7712a3ed 2026-06-15 03:37 Linhai Zhu vault backup: 2026-06-15 03:37:33
+8a0229f26 2026-06-15 03:22 Linhai Zhu vault backup: 2026-06-15 03:22:21
+8bbfd08d2 2026-06-15 02:45 Linhai Zhu 黄药师P0: source映射索引 + 48张decision/system/project卡补source_context
+6d02c604c 2026-06-15 01:40 Linhai Zhu vault backup: 2026-06-15 01:40:58
+c5d9242b5 2026-06-15 01:12 Linhai Zhu 复盘: 6/6文件全更新 — 索引+错误库+技能日志+雷达图+反馈档案+每日复盘
+25fc384e8 2026-06-12 22:16 Linhai Zhu vault backup: 2026-06-12 22:16:27
+3b439dd8d 2026-05-28 20:24 Linhai Zhu vault backup: 2026-05-28 20:24:27
+9e9200ac2 2026-05-11 03:00 Linhai Zhu vault backup: 2026-05-11 03:00:50
+b00e23898 2026-05-11 01:48 Linhai Zhu vault backup: 2026-05-11 01:48:21
+35fa4b01d 2026-05-10 23:58 Linhai Zhu vault backup: 2026-05-10 23:58:59
+Confirmed: dk-p15-unverified and high-density-composite-compilation-strategy have no explicit review commits — only vault backups and metadata governance commits. These 2 go to the "无佐证" list (don't touch, report to 王语嫣).
+
+  So the fix set = 15 cards:
+  - 12 #586 cards → reviewed_by: 欧阳锋, review_date: 2026-09-01 (PASS A- 2026-09-01 07:45, task file evidence + queue row reviewed)
+  - tool-yitang-best-practice-as-golden-finger → reviewed_by: 欧阳锋 (review_date already 2026-06-28)
+  - tool-yitang-channel-scan-cheat-sheet → reviewed_by: 欧阳锋 (review_date already 2026-06-28)
+  - tool-yitang-channel-industrialization-node-design → reviewed_by: 欧阳锋 (review_date already 2026-06-28)
+
+  Also should I add review_date where missing for #586 cards? Yes: review_date: '2026-09-01'.
+
+  Also grade: task says grade 若有实证. #586 PASS A- — the cards... Do other reviewed cards have a grade field? Task says 只动 frontmatter 三字段（reviewed_by/review_date/grade 若有实证）. #586 verdict was PASS A-. I could set grade: A- on the 12 #586 cards. Hmm — check whether card frontmatter conventionally has grade. Let me check a reviewed card from other batch, e.g. #596 cards. Let me check one quickly.
+
+  Actually, keep it minimal: the task is about reviewed_by=pending residue. Grade — "若有实证". PASS A- is real evidence. But do cards use grade field? Check.
+
+• 2 张老卡（dk-p15-unverified、high-density-composite）无终审佐证，归入不改清单。先看惯例——其它 reviewed 卡是否有 grade 字段。30_wiki/cases/case-infinite-canvas-founders-playbook.md
+30_wiki/concepts/concept-spatial-narrative-design.md
+30_wiki/dark-knowledges/dk-spatial-narrative-pitfalls.md
+---
+---
+id: case-popmart-molly-transition
+title: 案例：泡泡玛特 MOLLY 诞生——代理权受制到自有 IP 的「掀桌子」转型
+type: case
+status: reviewed
+author: 老顽童
+reviewed_by: 欧阳锋
+confidence: 0.87
+trust_level: medium-high
+language: zh-CN
+domain:
+- strategy
+source_context: 拆书会第 218 期《因为独特》（李翔著，主角泡泡玛特王宁）精华提炼件——转述二等（原书一等，原书不在库）；关键事实已经公开报道在线补验（见 §三、§六）
+source_person: 王宁（泡泡玛特创始人，原话转述）
+source_refs:
+- 00_inbox/泡泡玛特的拆解/拆书会第218期《因为独特》· 精华提炼.md:33-37
+- 00_inbox/泡泡玛特的拆解/拆书会第218期《因为独特》· 精华提炼.md:13-19
+aliases:
+- MOLLY诞生
+- 掀桌子转型
+---586卡当前fm---
+---
+id: framework-muse-ai-full-map-v1
+title: MUSE AI 全景坐标系 v1（DataPack 版）——四层主层判断与跨层证据门槛
+type: framework
+status: reviewed
+author: 老顽童
+reviewed_by: pending
+confidence: 0.86
+trust_level: high
+language: zh-CN
+created_at: 2026-09-01
+updated_at: 2026-09-01
+domain:
+- strategy
+- ai-collaboration
+aliases:
+- MUSE模型
+- MUSE DataPack
+- MUSE四层模型
+- MUSE全景地图
+
+
+• Grade field exists in some cards (e.g. case-infinite-canvas-founders-playbook.md). Let me check the format of grade there quickly, then write the fix script:
+
+  - For 12 #586 cards: reviewed_by: pending → 欧阳锋, add review_date: '2026-09-01', add grade: A- (evidence: #586 PASS A-). Should I add grade? Task says "只动 frontmatter 三字段（reviewed_by/review_date/grade 若有实证）" — grade 有实证 (PASS A-). But do I risk overreach? The 终审记录 says "PASS A-". Adding grade: 'A-' is justified. But — check whether the other cards reviewed in recent batches (#609 etc.) have grade. case-popmart-molly-transition doesn't show grade in first 20 lines. Hmm. Let me check its full frontmatter for review_date and grade. Actually simplest: look at a card that has grade.
+
+  Let me keep scope tight: fix reviewed_by + review_date only; add grade only if it's a standard field. Check one grade file.14:grade: A-
+30_wiki/cases/case-popmart-molly-transition.md:7:reviewed_by: 欧阳锋
+30_wiki/cases/case-popmart-molly-transition.md:52:review_date: 2026-09-02
+30_wiki/cases/case-yitang-eason-truth-delivery-audit.md:7:reviewed_by: 欧阳锋
+30_wiki/cases/case-yitang-eason-truth-delivery-audit.md:67:review_date: 2026-09-02
+Convention: `grade: A-` exists on at least one card; recent reviewed cards (#609) have reviewed_by + review_date but no grade. Task spec allows grade "若有实证". I'll add grade: A- to the 12 #586 cards since the review record explicitly says PASS A-. Hmm — but risk: lint might not like unknown field? grade is already used in vault, fine.
+
+  Actually, be more conservative? The task: "只动 frontmatter 三字段（reviewed_by/review_date/grade 若有实证），不动正文". grade 实证 = PASS A- verdict for #586 batch. The 3 yitang tool cards: verdict was "conditional pass" / deep — no letter grade. So grade only for 12 #586 cards: grade: A-.
+
+  Hmm, but adding grade when recent convention (#609, reviewed 09-02) doesn't use it... The infinite-canvas card has grade: A-. It's used. I'll add grade for the 12, since 有实证. Actually wait — is that overreach? The task explicitly permits it. And it aligns E018 fix intent (metadata matches real review record). OK.
+
+  For the 3 yitang cards, review verdict "conditional pass" with review_date 2026-06-28 — no letter grade, so no grade field.
+
+  Now write the fix script:
+  - For each of the 15 files: read, split frontmatter, yaml.safe_load, modify dict (set reviewed_by: 欧阳锋; set review_date: '2026-09-01' for 12 cards / keep 2026-06-28 for 3 yitang cards; set grade: A- for 12 cards), then dump back with yaml. 
+
+  Careful: yaml round-trip will reformat frontmatter (ordering, quoting, unicode escapes). Must preserve field order and Chinese text. Use yaml.safe_dump with allow_unicode=True, sort_keys=False — but this rewrites the whole frontmatter formatting (lists style etc.). Risky but acceptable? It changes quoting of existing fields. Better approach: minimal line-level edit — but E017 bans regex for *parsing* frontmatter; editing text lines is fine as long as parsing/verification uses yaml.safe_load. The task: "yaml.safe_load 解析禁正则" — parsing for the scan. For the fix, minimal Edit per file is safer for diff cleanliness.
+
+  15 files × small edits. I can use Edit tool per file. Each needs: read frontmatter region, then edit:
+  1. `reviewed_by: pending` → `reviewed_by: 欧阳锋`
+  2. Insert `review_date: '2026-09-01'` after reviewed_by line (for 12 cards) — where to insert? Follow convention from case-popmart: reviewed_by at line 7, review_date at line 52? That's scattered. In popmart card review_date is near end of frontmatter. Simpler: insert right after reviewed_by line. YAML doesn't care about order.
+  3. Insert `grade: A-` after reviewed_by too (12 cards).
+
+  For 3 yitang cards: `reviewed_by: pending` → `reviewed_by: 欧阳锋` (review_date already 2026-06-28).
+
+  But wait — the 5-card older set: what exactly are their reviewed_by values? From the detail: dk-p15-unverified review_date=2026-06-29... the "pending" filter included reviewed_by missing or 'pending'. Which ones have reviewed_by literally 'pending' vs missing? From the by_rb tally: reviewed_by='pending': 17 张 — that's exact 17, matching all 17 in detail list. And no '<missing>' entries appeared in tally... wait, the detail filter also included <missing> but tally shows only 'pending' at 17 plus others. Hmm, tally had: 欧阳锋 477, pending 17, 待审 13, 黄药师 7, 周伯通 7, 老顽童 6, 老朱 1, +2 weird. Total = 530. And the detail listed 17 cards — all with reviewed_by='pending'. Good — no missing-reviewed_by reviewed cards.
+
+  So fix: 15 cards change reviewed_by pending→欧阳锋; 12 cards add review_date + grade; 2 cards no-change list.
+
+  Note: 13 cards with reviewed_by='待审' — those are out of scope? Task says "reviewed_by: pending（或缺 reviewed_by/review_date）". '待审' is equivalent to pending semantically! Those 13 cards have status: reviewed but reviewed_by: 待审. Should be included in scope. Hmm. Let me check those 13: from earlier detail — only one was shown with 待审: agent-spec-fengqingyang-observer. The detail filter only caught pending/<missing>. '待审' wasn't in my rb_pending set ("pending","", missing). Let me list those 13 and decide. The task intent (E018 alignment: status=reviewed must have real review record) covers 待审 too. But scope discipline: task says pending 或缺 reviewed_by/review_date. '待审' ≈ pending. I should at least list them in the scan report as an adjacent finding, but modifying them might be out of scope. Better: include them in the 排查清单 as a separate category, don't touch unless evidence. Actually — let me look at what those 13 are first.
+
+  Also the 477+ cards missing review_date with reviewed_by=欧阳锋 — huge legacy debt, definitely out of scope for fixing (can't fabricate dates), but worth noting in the report as 边界.
+
+  Let me get the 待审 list.
+
+• 补查 `reviewed_by: 待审` 的 13 张（与 pending 同义，需列入排查清单）。- 30_wiki\agent-specs\agent-spec-fengqingyang-observer.md | id=agent-spec-fengqingyang-observer | type=agent-spec | author=laowantong | review_date=<missing> | updated_at=2026-08-23
+- 30_wiki\cases\case-qinpeng-iot-module-tiering.md | id=case-qinpeng-iot-module-tiering | type=case | author=老顽童 | review_date=<missing> | updated_at=2026-07-08
+- 30_wiki\cases\case-shampoo-product-kernel.md | id=case-shampoo-product-kernel | type=case | author=老顽童（合并升级） | review_date=<missing> | updated_at=2026-07-08
+- 30_wiki\cases\case-yitang-chuanhe-seasoning-kernel.md | id=case-yitang-chuanhe-seasoning-kernel | type=case | author=老顽童 | review_date=<missing> | updated_at=2026-07-08
+- 30_wiki\cases\case-yitang-zhongzheng-parking-garage.md | id=case-yitang-zhongzheng-parking-garage | type=case | author=老顽童 | review_date=<missing> | updated_at=2026-07-08
+- 30_wiki\dark-knowledges\dk-customers-hate-ai.md | id=dk-customers-hate-ai | type=dk | author=老顽童 | review_date=<missing> | updated_at=2026-08-15
+- 30_wiki\dark-knowledges\dk-sales-big-deal-vs-small-deal.md | id=dk-sales-big-deal-vs-small-deal | type=dk | author=老顽童 | review_date=<missing> | updated_at=2026-08-15
+- 30_wiki\dark-knowledges\dk-sales-demand-mining-is-company-task.md | id=dk-sales-demand-mining-is-company-task | type=dk | author=老顽童 | review_date=<missing> | updated_at=2026-08-15
+- 30_wiki\frameworks\framework-ai-sales-collaboration.md | id=framework-ai-sales-collaboration | type=framework | author=老顽童 | review_date=<missing> | updated_at=2026-08-15
+- 30_wiki\frameworks\framework-sales-funnel-full.md | id=framework-sales-funnel-full | type=framework | author=老顽童 | review_date=<missing> | updated_at=2026-08-15
+- 30_wiki\tools\tool-candy-sales-recruiting.md | id=tool-candy-sales-recruiting | type=tool | author=老顽童 | review_date=<missing> | updated_at=2026-08-15
+- 30_wiki\tools\tool-kdo-wechat-serendipity-collect.md | id=tool-kdo-wechat-serendipity-collect | type=tool | author=黄药师 | review_date=<missing> | updated_at=2026-08-19
+- 30_wiki\tools\tool-sales-objection-dilution.md | id=tool-sales-objection-dilution | type=tool | author=老顽童 | review_date=<missing> | updated_at=2026-08-15
+
+
+• 13 cards with reviewed_by='待审', status=reviewed, all missing review_date. These are semantically the same problem (status=reviewed without real review metadata). But strictly the task says pending（或缺 reviewed_by/review_date）— '待审' means "pending review" so it fits "reviewed_by=pending" spirit. However fixing them requires evidence of real reviews. These are older (July/August). Finding evidence for each of 13 is a bigger dig. 
+
+  Scope discipline: 任务单决策来源是 #586 批残留。The scan requirement covers "reviewed_by: pending（或缺 reviewed_by/review_date）". '待审' is a third variant. Options:
+  1. Fix only the 17 pending; list 待审 13 as adjacent finding in report without touching.
+  2. Also investigate the 13.
+
+  Given "只做本次指令范围内的事" discipline, and 待审 is not literally pending — I'll include them in the scan report as a separately-listed category (same risk class), not modify, and note they need王语嫣 decision (whether they have review records). Actually wait — for thoroughness I could quickly grep for review evidence... but that's 13 cards × evidence hunt = scope creep. The task's core: #586 batch residue. The 待审 cards — for many, git log may reveal review commits. But deciding "reviewed_by 待审 → 欧阳锋" requires evidence per card.
+
+  Hmm, let me reconsider: the scan spec says "reviewed_by: pending（或缺 reviewed_by/review_date）". My scan already covers "缺 review_date" for ALL status=reviewed cards → that's the 530 hits (477 with 欧阳锋 but missing review_date). Fixing 477 by guessing dates = fabrication, absolutely not. So the sensible deliverable structure:
+
+  - 排查清单 (530 total, categorized):
+    - A. reviewed_by=pending: 17 → 12 fixed (#586 evidence), 3 fixed (review_20260628 + task_20260627 evidence), 2 无佐证上报
+    - B. reviewed_by=待审: 13 → list, no change (need separate decision; evidence hunt out of this task's scope) — actually, hmm, should I check evidence for these quickly? A quick grep of task/review files per card id. That's cheap-ish. But then fixing them... The task title: "#586批 reviewed 卡 reviewed_by=pending 元数据残留排查补齐". Title scope = #586 batch. The task body item 1 says scan the whole library for pending/missing, item 2 says fix those with real review evidence (#586 批及他批有 commit/任务单佐证的). So 他批有佐证的也要补。The 待审 13 fall under "缺 reviewed_by" semantics. I should at least attempt evidence check for them via grep. Let me do a quick grep pass for the 13 ids in 60_feedback/tasks and see which have review records.
+
+  Actually — wait. '待审' literally means "awaiting review" — a card with status: reviewed but reviewed_by: 待审 is the same E018 inconsistency. Let me do one batch grep for all 13 ids.
+
+• 13 张 `待审` 卡同属 E018 不一致。批量 grep 任务单里有无它们的终审佐证。=== agent-spec-fengqingyang-observer ===
+60_feedback/tasks/task_20260822_laowantong-fengqingyang-agent-spec-完成报告.md
+60_feedback/tasks/task_20260822_laowantong-fengqingyang-agent-spec.md
+60_feedback/tasks/task_20260823_laowantong-fengqingyang-l1-l4-caliber.md
+60_feedback/tasks/task_20260823_laowantong-role-special-fengqingyang.md
+=== case-qinpeng-iot-module-tiering ===
+60_feedback/tasks/task_20260827_laowantong-source-refs-batch-a/manifest-cards.txt
+=== case-shampoo-product-kernel ===
+60_feedback/tasks/task_20260827_laowantong-source-refs-batch-a/gone-refs-report.md
+60_feedback/tasks/task_20260827_laowantong-source-refs-batch-a/manifest-cards.txt
+=== case-yitang-chuanhe-seasoning-kernel ===
+60_feedback/tasks/task_20260827_laowantong-source-refs-batch-a/manifest-cards.txt
+=== case-yitang-zhongzheng-parking-garage ===
+60_feedback/tasks/task_20260827_laowantong-source-refs-batch-a/manifest-cards.txt
+=== dk-customers-hate-ai ===
+60_feedback/tasks/task_20260815_laowantong-spin-ai-sales-cards.md
+60_feedback/tasks/task_20260822_laowantong-tags-judgment-batch.md
+=== dk-sales-big-deal-vs-small-deal ===
+60_feedback/tasks/task_20260815_laowantong-spin-ai-sales-cards.md
+=== dk-sales-demand-mining-is-company-task ===
+60_feedback/tasks/task_20260815_laowantong-spin-ai-sales-cards.md
+=== framework-ai-sales-collaboration ===
+60_feedback/tasks/task_20260815_laowantong-spin-ai-sales-cards.md
+60_feedback/tasks/task_20260816_wangyuyan-snapshot-migration-pilot.md
+=== framework-sales-funnel-full ===
+60_feedback/tasks/task_20260815_laowantong-spin-ai-sales-cards.md
+60_feedback/tasks/task_20260816_wangyuyan-snapshot-migration-pilot.md
+=== tool-candy-sales-recruiting ===
+60_feedback/tasks/task_20260815_laowantong-candy-sales-recruiting.md
+60_feedback/tasks/task_20260815_laowantong-spin-ai-sales-cards.md
+60_feedback/tasks/task_20260816_huangyaoshi-index-doc-fix.md
+=== tool-kdo-wechat-serendipity-collect ===
+60_feedback/tasks/task_20260819_huangyaoshi-mcp-fix-rollout.md
+60_feedback/tasks/task_20260822_huangyaoshi-code-copies-cleanup.md
+=== tool-sales-objection-dilution ===
+60_feedback/tasks/task_20260815_laowantong-spin-ai-sales-cards.md
+60_feedback/tasks/task_20260816_wangyuyan-snapshot-migration-pilot.md
+
+
+• These are all production task references, not review verdicts. I need to check whether any of these task files contain 终审 PASS records covering those cards. Key candidate: task_20260815_laowantong-spin-ai-sales-cards.md (covers 7 of them), task_20260815_laowantong-candy-sales-recruiting.md, and the fengqingyang tasks.
+
+  Let me check each candidate task file's frontmatter status/reviewed_by and 终审记录, and whether the review covered the cards.=== task_20260815_laowantong-spin-ai-sales-cards ===
+id: task_20260815_laowantong-spin-ai-sales-cards
+status: reviewed
+reviewed_by: 欧阳锋
+review_date: 2026-08-16
+5:reviewed_by: 欧阳锋
+115:## 终审记录（2026-08-16 欧阳锋）
+117:**verdict: PASS A- · methodology v2.3**
+=== task_20260815_laowantong-candy-sales-recruiting ===
+id: task_20260815_laowantong-candy-sales-recruiting
+status: reviewed
+reviewed_by: 欧阳锋
+review_date: 2026-08-16
+5:reviewed_by: 欧阳锋
+72:## 终审记录（2026-08-16 欧阳锋）
+74:**verdict: PASS A- · methodology v2.3**
+=== task_20260822_laowantong-fengqingyang-agent-spec ===
+id: 428
+status: reviewed
+reviewed_by: 欧阳锋
+review_date: '2026-08-22'
+6:reviewed_by: 欧阳锋
+62:## 终审记录（欧阳锋 · 2026-08-22 深夜）
+64:**结论：PASS / A-**
+=== task_20260823_laowantong-fengqingyang-l1-l4-caliber ===
+id: 454
+status: reviewed
+reviewed_by: 欧阳锋
+review_date: '2026-08-23'
+8:reviewed_by: 欧阳锋
+53:## 终审记录（欧阳锋 · 2026-08-23 · 随 #447 一并）
+55:**结论：PASS / A-**
+=== task_20260823_laowantong-role-special-fengqingyang ===
+id: 447
+status: reviewed
+reviewed_by: 欧阳锋
+review_date: '2026-08-23'
+7:reviewed_by: 欧阳锋
+67:## 终审记录（欧阳锋 · 2026-08-23）
+69:**结论：PASS / A-**
+=== task_20260819_huangyaoshi-mcp-fix-rollout ===
+id: 361
+status: reviewed
+reviewed_by: 欧阳锋
+review_date: '2026-08-18'
+9:reviewed_by: 欧阳锋
+Several task files have PASS verdicts. Need to check whether the verdicts actually cover the specific 待审 cards:
+
+  1. task_20260815_laowantong-spin-ai-sales-cards (PASS A- 2026-08-16) — covers: dk-customers-hate-ai, dk-sales-big-deal-vs-small-deal, dk-sales-demand-mining-is-company-task, framework-ai-sales-collaboration, framework-sales-funnel-full, tool-candy-sales-recruiting(?), tool-sales-objection-dilution. Need to verify these cards are in the task's deliverable list.
+  2. task_20260815_laowantong-candy-sales-recruiting (PASS A- 2026-08-16) — covers tool-candy-sales-recruiting?
+  3. fengqingyang tasks — agent-spec-fengqingyang-observer: which task covers it? task_20260822 (PASS), task_20260823 ×2 (PASS).
+  4. tool-kdo-wechat-serendipity-collect — task_20260819_huangyaoshi-mcp-fix-rollout status reviewed. Check coverage.
+  5. case-qinpeng, case-shampoo, case-chuanhe, case-zhongzheng — only appear in source-refs batch manifest (not review evidence). These 4 likely 无佐证 → but wait, maybe they were reviewed in an earlier July task (updated 2026-07-08). Let me grep more broadly for them in review files.
+
+• 继续核对：这 13 张是否真被对应任务单的 PASS 覆盖。逐单查交付物清单。=== spin-ai-sales 终审覆盖卡 ===
+**verdict: PASS A- · methodology v2.3**
+4. **双向归集成立**：AI 协同卡 related 含 decision 域 3 张（yt-decision-ai-partner/科学决策三角形/dk-decision-value-overrides-roi）；反向 8 文件回链
+**结论**：PASS A-，7 卡入库验收通过。
+=== candy-sales-recruiting 终审 ===
+- 单角色单任务（E026）；与 #320 并行互不依赖 ✅
+
+## 终审记录（2026-08-16 欧阳锋）
+
+**verdict: PASS A- · methodology v2.3**
+
+O3 验证（#320 批内联动）：
+1. related=9 死链=0（补 dk-ai-collaboration-degradation-spiral 后达标）✅
+2. trust_level=medium + 传播限制标注（素材"不要外传"）符合内部库语义 ✅
+3. 卡内量化示例来源标注清晰，未冒充口述 ✅
+
+**结论**：PASS A-，Candy 招聘方法卡入库验收通过。
+
+
+• spin-ai-sales PASS covers 7 cards. Need the 7-card list. Let me find the deliverable list in that task file. Also confirm tool-candy-sales-recruiting is covered by its own task's PASS (Candy 招聘方法卡 — yes, that's the single-card task covering tool-candy-sales-recruiting).
+
+  For spin task: grep card ids in the deliverables/清单 section.25:- 笔记 `马易-SPIN销售方法与AI-笔记.txt`（2026-08-16 已补读，二手核对用）：无实质增量，但含一处口述稿没有的**量化话术示范**——价格异议："您觉得价格高是对比了哪类产品呢？我们的方法能帮您提升至少30%的转化率，按您团队每月100万的业绩目标，投入回报周期不到2个月"（并入 tool-sales-objection-dilution 素材）
+29:1. **framework-ai-sales-collaboration**（AI 销售协同）：
+37:2. **framework-sales-funnel-full**（销售漏斗全貌）：
+41:3. **tool-sales-objection-dilution**（异议处理：转化非消除）：
+75:1. `30_wiki/frameworks/framework-ai-sales-collaboration.md`——AI 销售协同（双条件框架：方法有效+可判断；主语非我/形容词禁忌/有效标签；周杰伦雪碧原理；正负样本 33 维模型；sales+decision 双向归集，related 含 yt-decision-ai-partner/科学决策三角形/dk-decision-value-overrides-roi）
+76:2. `30_wiki/frameworks/framework-sales-funnel-full.md`——销售漏斗全貌（正梯形复购裂变核心；每层物料/转化时间/获客成本/配套动作四件套）
+77:3. `30_wiki/tools/tool-sales-objection-dilution.md`——异议处理转化（承认→稀释→调动→案例；利润表达法含故意说错；量化话术示范并入=笔记 L58 增量）
+78:4. `30_wiki/dark-knowledges/dk-sales-demand-mining-is-company-task.md`——需求挖掘是公司的任务（痛点库+传递匹配）
+79:5. `30_wiki/dark-knowledges/dk-sales-big-deal-vs-small-deal.md`——大单小单之分非 ToB/ToC
+80:6. `30_wiki/dark-knowledges/dk-customers-hate-ai.md`——客户讨厌 AI（人情味边界）
+81:7. `30_wiki/tools/tool-candy-sales-recruiting.md`——（**属 #322 独立任务**，不在 #320 卡组内；见其任务单执行报告）
+85:- 笔记 txt 核对：唯一增量=量化话术示范（L58，价格异议 30% 转化率/100 万业绩/2 个月回报周期）已并入 tool-sales-objection-dilution 并标注二手来源
+89:- framework-ai-sales-collaboration: Passed 1/Failed 0
+90:- framework-sales-funnel-full: Passed 1/Failed 0
+91:- tool-sales-objection-dilution: Passed 1/Failed 0
+92:- dk-sales-demand-mining-is-company-task: Passed 1/Failed 0
+93:- dk-sales-big-deal-vs-small-deal: Passed 1/Failed 0
+94:- dk-customers-hate-ai: Passed 1/Failed 0
+108:- 逻辑攻击：framework-ai-sales-collaboration 双条件与 dk-customers-hate-ai 边界互斥检查——双条件解决"AI 胡说八道"、人情味解决"AI 没人情味"，两卡互相引用不冲突
+=== fengqingyang-agent-spec 终审覆盖 ===
+---
+
+## 终审记录（欧阳锋 · 2026-08-22 深夜）
+
+**结论：PASS / A-**
+
+**对齐核验**：commit af0620dd2（22:39）在 HEAD；审查对象=最新真相源。
+
+**O0 溯源逐条对**（交付物=agent-spec-fengqingyang-observer.md 95 行）：
+1. **五要素齐全** ✅：内核（特性）/职责/边界/工作流/Trigger+Interface 全有，另附基线用例 3 条
+2. **B2-2 入宪三条逐条吻合**（decisions.md L36 拍板原文对照）✅：①审计与建议书仅限王语嫣（卡 L61 + 边界 + Interface 下游"仅王语嫣"三处锁定）②记忆维护写文档不产卡（L62 红线段）③部署与自身迭代（L63，五件套 #423）——与拍板零偏差；与段王爷零重叠（L69）✅
+3. **G1/G2 两铁律** ✅（L86-89，老朱 08-22 补充项，与建议书 Go⑤ 一致）
+4. **底本对照不新造** ✅：与建议书 §角色 5 口径一致（审计=事后复核+建议/终审=当场裁决不可互替，L55；五权分立互不兼任，L57）
+5. **source_refs 4 条全存在** ✅（decisions.md / 5role-spec-workflow / memory-capsule-4layer / fengqingyang-amnesia-recovery）
+6. **pre-submit 独立复现**（O3）✅：0 ERROR / 75 分 / 一次通过——与提审记录输出一致
+7. **related 8 条全有效** ✅（6 agent-spec + framework-truman-agent-team-architecture + tool-agent-white-paper-five-elements，无死链）
+8. **commit 入档** ✅（E040，22:39）
+
+**发现问题**：
+- 🟠 aliases 噪声：11 条 aliases 中 6 条为文件名/路径（`decisions.md`/`20_memory`/`consultation`/`fengqingyang-amnesia-recovery.md` 等）——检索时 `decisions`/`20_memory` 会命中本卡，信息噪声；建议只留角色名/中文检索词（fengqingyang/风清扬/观察者/observer/记忆胶囊四层）
+- 🔵 无显式框架归属声明：L50 定位段（五权分立）承担了定位功能，agent-spec 类可接受，不强求
+=== mcp-fix-rollout 是否覆盖 wechat-serendipity ===
+72:4. 连续 `kdo_read` ×3：`framework-serendipity-five-channels` / `tool-kdo-wechat-serendipity-collect` / `tool-wechat-transcript-automation-workflow` —— 与 agent 回复引用的三张卡完全对应
+Now mapping for 待审 13:
+
+  1. **agent-spec-fengqingyang-observer** — covered by task_20260822 PASS/A- (explicit: 交付物=agent-spec-fengqingyang-observer.md). Evidence ✅ review_date 2026-08-22.
+  2. **framework-ai-sales-collaboration** — spin task PASS A- 2026-08-16 ✅ (card #1 in list)
+  3. **framework-sales-funnel-full** — spin ✅
+  4. **tool-sales-objection-dilution** — spin ✅
+  5. **dk-sales-demand-mining-is-company-task** — spin ✅
+  6. **dk-sales-big-deal-vs-small-deal** — spin ✅
+  7. **dk-customers-hate-ai** — spin ✅
+  8. **tool-candy-sales-recruiting** — spin list says it belongs to #322 独立任务; candy-sales-recruiting task PASS A- 2026-08-16 ✅
+  9. **tool-kdo-wechat-serendipity-collect** — mcp-fix-rollout only mentions it as a read reference, not review evidence. Author=黄药师, updated 2026-08-19. Need more checking. Maybe check git log for this file.
+  10-13. **case-qinpeng / case-shampoo / case-chuanhe / case-zhongzheng** (updated 2026-07-08) — only in source-refs manifest. Need broader check — maybe reviewed in July tasks. Let me grep 60_feedback/tasks for review files around 2026-07-08 mentioning them, or check git log.
+
+  Also I haven't verified the two remaining older cards from pending-17: dk-p15-unverified, high-density-composite-compilation-strategy — already determined 无佐证.
+
+  Also: are there review records for the 4 case cards? They were authored by 老顽童 updated 07-08. Grep review files dated around July.
+
+• 继续取证剩余 5 张（tool-kdo-wechat + 4 张 07-08 case 卡）。=== 30_wiki/tools/tool-kdo-wechat-serendipity-collect.md ===
+03e60541c 2026-08-22 21:05 feat(links): #411 第二十六批 related-asymmetry 回填——250 条（81 张卡：domains 域摘要 + skills/cases）
+fa2d36ccb 2026-08-22 20:55 feat(links): #411 第二十四批 related-asymmetry 回填——250 条（140 张卡：tools/cases/bridges 广覆盖）
+e48ce89a0 2026-08-22 20:18 docs(#414): FAIL 补件——guide/工具卡死引用改指 kdo-tools（5 处清零）+ W7 边界句落操作层 + 执行报告节
+fa20c6b82 2026-08-19 21:49 fix(wechat-collect): 四通道加固 + inbox监工迁Windows — 去重/断流降级/文章知识化/WSL cron清仓
+5129aa1df 2026-08-19 01:58 chore(metadata): #371 cleanup — 635 cards frontmatter normalized
+3039f6d4d 2026-08-19 00:28 vault backup: 2026-08-19 00:28:03
+=== 30_wiki/cases/case-qinpeng-iot-module-tiering.md ===
+695a2e67b 2026-08-27 02:33 #557 批次A（yitang-lectures 根目录散文件）：归档+引用改写 by laowantong
+ccaa8bf25 2026-08-24 03:13 feat(domain): #493 域归域治理——yitang 拆分 + unknown 补域 + 来源词清 tags
+e9aecb15c 2026-08-20 20:41 feat(tags): #393 标签体系第一波——全库审计+受控词表v1+yitang试点回填 100 卡（缺维度归零），pre-submit 95/95 全过
+fe8afe606 2026-08-04 02:33 vault backup: 2026-08-04 02:33:09
+a465099db 2026-08-03 03:17 vault backup: 2026-08-03 03:17:38
+e20cbce48 2026-07-08 22:07 vault backup: 2026-07-08 22:07:15
+=== 30_wiki/cases/case-shampoo-product-kernel.md ===
+5c2555e44 2026-08-27 02:46 #557 批次A收尾清理：折叠锚点合并+src_unknown孤儿清除+嵌套引用拍平（25卡） by laowantong
+695a2e67b 2026-08-27 02:33 #557 批次A（yitang-lectures 根目录散文件）：归档+引用改写 by laowantong
+ccaa8bf25 2026-08-24 03:13 feat(domain): #493 域归域治理——yitang 拆分 + unknown 补域 + 来源词清 tags
+49f8e5130 2026-08-22 17:13 feat(links): #411 第十三批 related-asymmetry 回填——250 条（92 张卡：domains 域摘要 + tools 锚点）
+4ca684c54 2026-08-22 16:58 feat(links): #411 第十二批 related-asymmetry 回填——250 条（86 张卡：tools/dk/domains 域）
+e9aecb15c 2026-08-20 20:41 feat(tags): #393 标签体系第一波——全库审计+受控词表v1+yitang试点回填 100 卡（缺维度归零），pre-submit 95/95 全过
+=== 30_wiki/cases/case-yitang-chuanhe-seasoning-kernel.md ===
+695a2e67b 2026-08-27 02:33 #557 批次A（yitang-lectures 根目录散文件）：归档+引用改写 by laowantong
+ccaa8bf25 2026-08-24 03:13 feat(domain): #493 域归域治理——yitang 拆分 + unknown 补域 + 来源词清 tags
+e9aecb15c 2026-08-20 20:41 feat(tags): #393 标签体系第一波——全库审计+受控词表v1+yitang试点回填 100 卡（缺维度归零），pre-submit 95/95 全过
+fe8afe606 2026-08-04 02:33 vault backup: 2026-08-04 02:33:09
+a465099db 2026-08-03 03:17 vault backup: 2026-08-03 03:17:38
+e20cbce48 2026-07-08 22:07 vault backup: 2026-07-08 22:07:15
+=== 30_wiki/cases/case-yitang-zhongzheng-parking-garage.md ===
+695a2e67b 2026-08-27 02:33 #557 批次A（yitang-lectures 根目录散文件）：归档+引用改写 by laowantong
+ccaa8bf25 2026-08-24 03:13 feat(domain): #493 域归域治理——yitang 拆分 + unknown 补域 + 来源词清 tags
+49f8e5130 2026-08-22 17:13 feat(links): #411 第十三批 related-asymmetry 回填——250 条（92 张卡：domains 域摘要 + tools 锚点）
+e9aecb15c 2026-08-20 20:41 feat(tags): #393 标签体系第一波——全库审计+受控词表v1+yitang试点回填 100 卡（缺维度归零），pre-submit 95/95 全过
+fe8afe606 2026-08-04 02:33 vault backup: 2026-08-04 02:33:09
+a465099db 2026-08-03 03:17 vault backup: 2026-08-03 03:17:38
+
+
+• For the 4 case cards (updated 07-08) and tool-kdo-wechat-serendipity-collect: git log shows no review commits. But maybe there are review task files from July. Let me grep the task files for these ids more broadly — earlier grep only covered 60_feedback/tasks and dashboard; it found only source-refs manifest. Also check 70_product/tasks/archive and any review_20260708 files. Quick: ls review files in 60_feedback/tasks around early July.review_20260804_huangyaoshi-7cards.md
+review_20260806_233-deep-review-cards.md
+review_20260807_245-246-247-review-cards.md
+===grep 4 case ids in review_* files===
+===wechat-serendipity in review files===
+No review records found for:
+  - tool-kdo-wechat-serendipity-collect
+  - case-qinpeng-iot-module-tiering
+  - case-shampoo-product-kernel
+  - case-yitang-chuanhe-seasoning-kernel
+  - case-yitang-zhongzheng-parking-garage
+
+  Let me do one more check: maybe these 4 case cards were reviewed as part of a July batch review in dashboard or a task like task_20260708. Quick grep in 70_product/tasks/archive for them.70_product/tasks/huangyaoshi-next-tasks.md
+70_product/tasks/task_20260708_wangyuyan-product-kernel-domain-supplement.md
+60_feedback/analysis/source-refs-health-latest.md
+60_feedback/audit/extract_strategy_tmp.md
+60_feedback/audit/extract_strategy_tmp2.md
+60_feedback/audit/kcard-legacy-author-fix-report-2026-06-15.md
+60_feedback/audit/kcard-stage4-fix-log-2026-06-15.md
+60_feedback/audit/kcard-stage4-trust-layer-report-2026-06-15.md
+60_feedback/audit/kcard-yaml-list-fix-report-2026-06-15.md
+60_feedback/audit/kf020-spot-check-report-2026-06-15.md
+---
+id: task_20260708_wangyuyan-product-kernel-domain-supplement
+title: 产品内核域 P0-P2 补产：核心概念升级 + 案例卡 + 验证工具 + Agent 规格
+status: reviewed
+priority: P1
+assignee: hermes
+reviewer: 欧阳锋
+expected_cards: 12
+expected_agent_specs: 7
+source_refs:
+- 60_feedback/diagnosis/diag_20260708_yitang-pan-product-design-deep-dive-v2.md
+- 00_inbox/一堂-产品内核实操课-Truman-口述.txt L524-L568,L1464-L2874,L3000-L3112
+- 00_inbox/一堂-产品内核迭代课-Truman-口述.txt L1304-L1346,L194-L657,L700-L1150,L2069-L2253,L3018-L3400
+- 00_inbox/一堂-产品内核验证课-Truman-口述.txt L1026-L1155,L1300-L1614,L1714-L2070,L2032-L2880,L2880-L3072
+related:
+- '[[diag_20260708_yitang-pan-product-design-deep-dive-v2]]'
+4:status: reviewed
+28:reviewed_by: 欧阳锋
+77:| 22 | 失败模式匹配诊断 Agent | agent-spec | `.agent/prompts/tool-agent-spec-yitang-kernel-failure-mode-diagnosis.md` | 输入业务症状+数据 → 匹配失败模式 |
+84:- [ ] 3 张 P0 concept 卡 `kdo pre-submit` PASS，无新增 ERROR；Critique ≥3 外部 + ≥2 内部；source_refs 精确到口述稿行号。
+85:- [ ] 1 张 P0 工具卡 `tool-一堂-kernel-six-verification-strategies` 通过欧阳锋终审。
+86:- [ ] 4 张 P1 case 卡通过终审；其中洗发水案例合并 `yt-product-kernel-shampoo-case`，删除重复卡并在原卡 frontmatter 添加 `merged_into`。
+105:**预计工时**：老顽童 4-5 天 + 欧阳锋终审 1 天
+55:| 5 | 川味调料供应链案例 | case | `30_wiki/cases/case-yitang-chuanhe-seasoning-kernel.md` | 从“厂家直销低价优质”到“买底料+免费培训+到店实训+全程帮扶”再到线上标准化的完整迭代 |
+56:| 6 | 立体车库案例 | case | `30_wiki/cases/case-yitang-zhongzheng-parking-garage.md` | 12 车位→智能化→部署自动化→规模经济 |
+57:| 7 | 秦鹏通信模组案例 | case | `30_wiki/cases/case-qinpeng-iot-module-tiering.md` | 价格战 50%→20% 黄金数字、良品率 80/90 分层、四格服务矩阵 |
+58:| 8 | 洗发水案例合并升级 | case | `30_wiki/cases/case-shampoo-product-kernel.md`（合并 `yt-product-kernel-shampoo-case`） | 以口述验证路径（竞品拆解→专家访谈→用户访谈→排列组合测试）为主线 |
+=== 终审记录 ===
+4:status: reviewed
+7:reviewer: 欧阳锋
+28:reviewed_by: 欧阳锋
+29:review_date: '2026-07-08'
+104:**Reviewer**：欧阳锋
+===尾部===
+| 16 | 机会预判概念卡 | concept | `30_wiki/concepts/concept-一堂-business-prediction.md`（或 `opportunity-prediction`） | 补建商业预判/机会预判概念卡，与关键假设、产品内核形成五门课闭环 |
+| 17 | 内核画布自动填充 Agent | agent-spec | `.agent/prompts/tool-agent-spec-yitang-kernel-canvas-autofill.md` | 输入产品描述 → 输出 5 格画布 |
+| 18 | 加减法诊断 Agent | agent-spec | `.agent/prompts/tool-agent-spec-yitang-kernel-add-subtract-diagnosis.md` | 输入功能清单 → 输出 3-5 条内核 |
+| 19 | 三问验证 Agent | agent-spec | `.agent/prompts/tool-agent-spec-yitang-kernel-three-questions.md` | 输入内核清单 → 决定性/优化性/完备性评估 |
+| 20 | 迭代方向选择器 Agent | agent-spec | `.agent/prompts/tool-agent-spec-yitang-kernel-iteration-direction.md` | 输入阶段+指标 → 推荐迭代方向 |
+| 21 | 验证策略阶梯推荐 Agent | agent-spec | `.agent/prompts/tool-agent-spec-yitang-kernel-verification-ladder.md` | 输入内核假设 → 聊/问/查/测/盘策略 |
+| 22 | 失败模式匹配诊断 Agent | agent-spec | `.agent/prompts/tool-agent-spec-yitang-kernel-failure-mode-diagnosis.md` | 输入业务症状+数据 → 匹配失败模式 |
+| 23 | 案例模式匹配 Agent | agent-spec | `.agent/prompts/tool-agent-spec-yitang-kernel-case-matching.md` | 输入业务描述 → 最相似口述案例 + 可迁移经验 |
+
+---
+
+## 二、验收标准
+
+- [ ] 3 张 P0 concept 卡 `kdo pre-submit` PASS，无新增 ERROR；Critique ≥3 外部 + ≥2 内部；source_refs 精确到口述稿行号。
+- [ ] 1 张 P0 工具卡 `tool-一堂-kernel-six-verification-strategies` 通过欧阳锋终审。
+- [ ] 4 张 P1 case 卡通过终审；其中洗发水案例合并 `yt-product-kernel-shampoo-case`，删除重复卡并在原卡 frontmatter 添加 `merged_into`。
+- [ ] 7 个 agent-spec 文件包含：触发场景、输入、输出、工作流、调用卡、边界风险、System Prompt。
+- [ ] 统一“决定性/优化性/完备性”与“聊问查测盘赌”两套命名：在 `concept-一堂-kernel-validation` 中显式说明“三维度用于评估假设性质，六策略用于选择验证动作”。
+- [ ] 所有口述稿中的量化数字（如自习室桌子 80/60cm、讲课 40–50%）降级为课程经验值，不当作普适标准。
+
+---
+
+## 三、最终判断
+
+**评级：A-（高价值，直接决定产品内核域 Agent 能否落地）**
+
+- 来源可靠：全部引用三份主口述稿行号，避免二手笔记失真。
+- 解决核心矛盾：统一验证/迭代框架命名，合并重复洗发水案例。
+- Agent 密度高：7 个 Agent 规格覆盖画布填充、加减法、三问验证、迭代方向、验证阶梯、失败模式、案例匹配七大高频场景。
+
+**建议入队编号**：`#138`
+**优先级**：P1
+**Assignee**：老顽童
+**Reviewer**：欧阳锋
+**预计工时**：老顽童 4-5 天 + 欧阳锋终审 1 天
+**依赖**：无（与 #137 可并行）
+
+---
+
+*王语嫣 2026-07-08*
+This task file (task_20260708_wangyuyan-product-kernel-domain-supplement) is itself a task spec by 王语嫣, status reviewed by 欧阳锋 review_date 2026-07-08 — but that's the review of the *task spec* (王语嫣's task creation), not necessarily the produced cards. Wait, actually reviewed_by: 欧阳锋 on the task frontmatter with review_date 2026-07-08. Hmm — 王语嫣 wrote it 2026-07-08. The status: reviewed on a task spec... The 4 case cards were production of this task. There's no explicit 终审记录 section covering the cards. The production happened later (cards updated 2026-07-08 in vault backup). 
+
+  This is weak evidence: task spec reviewed ≠ cards reviewed. The 4 case cards' updated_at=2026-07-08 matches the task date. But no card-level review record. Conservative call: these 4 cards lack explicit 终审记录 for the cards themselves → list as 无佐证? Hmm, but is that too strict? The task_20260708 spec's own "status: reviewed" means 欧阳锋 reviewed the task... 
+
+  Actually wait — this file seems to be the task *proposal* authored by 王语嫣 with 评级 A-, marked reviewed by 欧阳锋 on 2026-07-08 — i.e., 欧阳锋 reviewed the proposal and queued it as #138. The actual card production acceptance may exist in another task file. The grep earlier showed case-shampoo etc. also appear in task_20260827 manifest (source-refs batch). No card-level review evidence.
+
+  Given the E018 rigor required and the task instruction "对找不到终审佐证的卡，不改状态，单列清单报王语嫣", the safe action: these 4 case cards + tool-kdo-wechat-serendipity-collect + dk-p15-unverified + high-density-composite-compilation-strategy = 7 cards 无佐证 → don't change, report to 王语嫣.
+
+  Hmm wait, for tool-kdo-wechat-serendipity-collect — author 黄药师, and there's the #414 FAIL 补件 commit (e48ce89a0 2026-08-22). "#414 FAIL 补件" implies there was a review #414 with FAIL then fix. Let me check task #414's review record. Grep for 414 task file.
+
+• tool-kdo-wechat-serendipity-collect 出现在 #414 FAIL 补件 commit 中，查 #414 的终审记录。60_feedback/tasks/task_20260822_huangyaoshi-code-copies-cleanup.md
+70_product/tasks/production-queue.md
+---
+492:- ~~00_inbox/Live260-AI口喷基本功内测candy_v5.json｜P2｜41496B｜检测到 08-31 16:41~~ → 已处置（2026-09-01 01:01 王语嫣）：上行的结构化源数据（v5 allBlocks JSON），同源成对划销，归属判定以上行为准
+
+
+1:---
+2:id: production-queue
+3:type: queue
+60_feedback/tasks/task_20260822_huangyaoshi-code-copies-cleanup.md
+60_feedback/tasks/task_20260822_wangyuyan-kdo-charter-draft.md
+id: 414
+status: reviewed
+reviewed_by: 欧阳锋
+review_date: '2026-08-22'
+27:W3 核实（w3-verification.md）的 4 处字节级副本：`40_outputs/code/scripts/` vs `kdo-tools/` —— collect_wechat.py / douyin_cookie_extract.py / douyin_user_videos.py / wechat_link_monitor（全为微信/抖音采集管线脚本）。
+56:| 计划任务 wechat-link-monitor | 已指 kdo-tools/（无需改） |
+57:| .claude/skills/wechat-serendipity-collect/SKILL.md | 已指 kdo-tools/（无需改） |
+60:| wechat-serendipity-collect-guide.md L51/L53 | 改指 kdo-tools/（终审 P1-1 补） |
+62:| 30_wiki/tools/tool-kdo-wechat-serendipity-collect.md L45 | 改指 kdo-tools/（终审 P1-1 补） |
+68:- 操作层：wechat-serendipity-collect-guide.md L124 已加「素材边界（W7 拍板 2026-08-22）：公开课内容可自由使用，唯一边界 = 不得打着一堂名义进行商业活动。」
+70:- 顶层文档：proj_20260816_wechat-collect-顶层文档.md 已加
+90:- commit `ae2481e4c` 实锤：40_outputs 侧 4 文件删除（collect_wechat 407 行/douyin_cookie 76 行/douyin_user 100 行等）+ README 指针化（4 条目均"🔗 活代码单一真相源：kdo-tools/..."，#359 模式）✅
+94:**① P1（阻断）**：**死引用未改指**——`40_outputs/code/scripts/wechat-serendipity-collect-guide.md` L53 表格仍写 `40_outputs/code/scripts/collect_wechat.py`（已删路径）。任务单动作 2「引用方改指真身」未覆盖文档引用。期望形态：guide 路径改 `kdo-tools/collect_wechat.py`（并 grep 全库确认无其他 40_outputs/code/scripts/collect_wechat|douyin 残留引用）。
+96:**② P1（阻断）**：**W7 操作层边界句未落**——charter（原则层）L97 已有"唯一边界=不得打着一堂名义进行商业活动"✅，但任务单追加节明确「处置采集管线脚本时，顺带在采集管线规范文件加该边界句一行（操作层一行）」——采集管线规范文件（wechat-serendipity-collect-guide.md 等）grep 无该句。期望形态：采集管线规范文件加一行边界句（与 charter 措辞一致，以拍板原文为准）。
+• #414 (task_20260822_huangyaoshi-code-copies-cleanup) status reviewed by 欧阳锋 2026-08-22, and it touched tool-kdo-wechat-serendipity-collect.md L45 as a 终审 P1-1 fix. But that's a metadata/link fix under #414, not necessarily a card review marking it reviewed. The card's reviewed_by=待审 with updated_at 2026-08-19. The #414 task's deliverable was code cleanup; the card edit was a link fix. This is not evidence that the card content was terminally reviewed. Verdict: 无佐证 (weak/adjacent only) → list as no-evidence, don't change.
+
+  Decision summary:
+
+  **Fix set (20 cards)** — hmm wait, let me recount:
+  - Group A (#586 batch, 12 cards): reviewed_by pending → 欧阳锋, review_date: '2026-09-01', grade: A-. Evidence: #586 终审记录 PASS A- 2026-09-01 07:45 + per-card #586 commits.
+  - Group B (pending, other batches with evidence, 3 cards):
+    - tool-yitang-best-practice-as-golden-finger → reviewed_by: 欧阳锋 (review_date already 2026-06-28). Evidence: task_20260627_laowantong-deliberate-practice-cards.md 终审 11卡全过, review_date 2026-06-28.
+    - tool-yitang-channel-scan-cheat-sheet → 欧阳锋. Evidence: review_20260628_ouyangfeng-channel-growth.md conditional pass, actions executed with review_date 2026-06-28.
+    - tool-yitang-channel-industrialization-node-design → 欧阳锋. Same evidence.
+  - Group C (待审 → has evidence, 8 cards):
+    - 6 spin cards + tool-candy-sales-recruiting → reviewed_by: 欧阳锋, review_date: '2026-08-16', grade: A- (spin task PASS A- 2026-08-16; candy task PASS A- 2026-08-16).
+    - agent-spec-fengqingyang-observer → reviewed_by: 欧阳锋, review_date: '2026-08-22', grade: A- (task_20260822 PASS/A-).
+  - No-evidence list (7 cards, don't touch):
+    - dk-p15-unverified, high-density-composite-compilation-strategy (pending, 无佐证)
+    - tool-kdo-wechat-serendipity-collect, case-qinpeng-iot-module-tiering, case-shampoo-product-kernel, case-yitang-chuanhe-seasoning-kernel, case-yitang-zhongzheng-parking-garage (待审, 无卡级终审佐证)
+
+  Wait — should Group C 待审 cards be in scope? Task: "扫 status: reviewed 且 reviewed_by: pending（或缺 reviewed_by/review_date）". '待审' isn't 'pending' literally, nor missing. Hmm. Strictly literal: not in scope. But spirit (E018: status=reviewed 必须有真实终审记录): yes. And the deliverable asks 排查清单+补齐diff+无佐证清单. Risk of touching 待审 cards: 王语嫣 might consider it scope creep. But leaving status=reviewed/reviewed_by=待审 cards untouched when evidence exists would leave the same defect class half-fixed.
+
+  The task title says "#586批reviewed卡reviewed_by=pending元数据残留排查补齐" — the immediate driver. The body says scan whole library for reviewed_by pending or missing. '待审' cards: strictly they'd only be caught under a broader reading. I'll fix the 17 pending cards as the core scope, fix the 待审 ones with evidence too (they're the same defect; evidence is solid with review records), and clearly separate them in the report so 欧阳锋/王语嫣 can revert if they disagree. Hmm... but "只做本次指令范围内的事，做完收工" — is fixing 待审 within range? The task item 2 says "对能对应到真实终审记录的卡（#586 批及他批有 commit/任务单佐证的），补 reviewed_by: 欧阳锋 + review_date" — "他批有佐证的" is explicitly in scope. The scan criterion "reviewed_by: pending（或缺 reviewed_by/review_date）" — 待审 = pending in Chinese. I'm confident it's in scope.
+
+  Also grade field: 12 #586 cards + spin 6 + candy 1 + fengqingyang 1 all have explicit A- verdicts → grade: A-. The 3 yitang tool cards: channel-growth verdict "conditional pass", deliberate-practice verdict 11卡全过 (no letter). No letter grade → don't add grade (review_date already present).
+
+  Wait — actually, check: do those 3 yitang cards have grade already? They weren't in the grade grep list. Skip grade for them.
+
+  Also for #586 cards — check the current frontmatter more carefully: does each have review_date already? From scan, review_date=<missing> for all 12. Add review_date: '2026-09-01'.
+
+  Now, also "或缺 review_date" for reviewed_by=欧阳锋 477 cards — those are missing review_date. Fixing requires knowing actual review dates; git log could give approximate dates but the task spec's fix instruction targets cards with review evidence; manufacturing dates from git log for 477 cards is way out of scope. I'll note it in the report as a boundary finding.
+
+  Now write the fix script. Approach: python script that for each target file:
+  1. Read text, split frontmatter lines (first --- to second ---).
+  2. yaml.safe_load to verify current values (must match expected: reviewed_by in pending/待审).
+  3. Modify text lines: replace the `reviewed_by: ...` line; insert `review_date: 'YYYY-MM-DD'` (+ `grade: A-`) right after the reviewed_by line if review_date missing.
+  4. Re-parse with yaml.safe_load to verify result.
+
+  Line-level edit isn't regex-parsing of values for decision; decisions use yaml.safe_load. Good.
+
+  Note files may have CRLF. Read with open(..., newline='') or handle. I'll read bytes/text and split with splitlines(keepends=True) to preserve endings.
+
+  Then run pre-submit on changed files? These are card frontmatter changes; pre-submit required for card submissions. Run kdo pre-submit -f on all 21 changed files. Also kdo lint? pre-submit is the gate.
+
+  Let me write the fix script.
+
+• 取证完毕。证据映射已齐：21 张可补（12 张 #586 + 3 张 6-28 批 + 8 张待审批），7 张无佐证不改。写补齐脚本（判定用 yaml.safe_load，行级最小改动）。
+
+✅ 30_wiki/cases/case-jovida-ai-life-coach.md: reviewed_by→欧阳锋, review_date+=2026-09-01, grade+=A-
+✅ 30_wiki/concepts/concept-agent-university.md: reviewed_by→欧阳锋, review_date+=2026-09-01, grade+=A-
+✅ 30_wiki/concepts/concept-brooks-three-lies-culture.md: reviewed_by→欧阳锋, review_date+=2026-09-01, grade+=A-
+✅ 30_wiki/dark-knowledges/dk-brooks-cost-of-knowing.md: reviewed_by→欧阳锋, review_date+=2026-09-01, grade+=A-
+✅ 30_wiki/dark-knowledges/dk-koupen-decision-tiering-compromise.md: reviewed_by→欧阳锋, review_date+=2026-09-01, grade+=A-
+✅ 30_wiki/frameworks/framework-lobster-opt-one-person-team.md: reviewed_by→欧阳锋, review_date+=2026-09-01, grade+=A-
+✅ 30_wiki/frameworks/framework-muse-ai-full-map-v1.md: reviewed_by→欧阳锋, review_date+=2026-09-01, grade+=A-
+✅ 30_wiki/methods/method-anthropic-skill-design-patterns.md: reviewed_by→欧阳锋, review_date+=2026-09-01, grade+=A-
+✅ 30_wiki/methods/method-key-assumption-abcd.md: reviewed_by→欧阳锋, review_date+=2026-09-01, grade+=A-
+✅ 30_wiki/methods/method-obsidian-km-camp.md: reviewed_by→欧阳锋, review_date+=2026-09-01, grade+=A-
+✅ 30_wiki/methods/method-spin-linking-sales-marketing.md: reviewed_by→欧阳锋, review_date+=2026-09-01, grade+=A-
+✅ 30_wiki/tools/tool-ai-koupen-training-partner-design.md: reviewed_by→欧阳锋, review_date+=2026-09-01, grade+=A-
+✅ 30_wiki/tools/tool-yitang-best-practice-as-golden-finger.md: reviewed_by→欧阳锋
+✅ 30_wiki/tools/tool-yitang-channel-industrialization-node-design.md: reviewed_by→欧阳锋
+✅ 30_wiki/tools/tool-yitang-channel-scan-cheat-sheet.md: reviewed_by→欧阳锋
+✅ 30_wiki/frameworks/framework-ai-sales-collaboration.md: reviewed_by→欧阳锋, review_date+=2026-08-16, grade+=A-
+✅ 30_wiki/frameworks/framework-sales-funnel-full.md: reviewed_by→欧阳锋, review_date+=2026-08-16, grade+=A-
+✅ 30_wiki/tools/tool-sales-objection-dilution.md: reviewed_by→欧阳锋, review_date+=2026-08-16, grade+=A-
+✅ 30_wiki/dark-knowledges/dk-sales-demand-mining-is-company-task.md: reviewed_by→欧阳锋, review_date+=2026-08-16, grade+=A-
+✅ 30_wiki/dark-knowledges/dk-sales-big-deal-vs-small-deal.md: reviewed_by→欧阳锋, review_date+=2026-08-16, grade+=A-
+✅ 30_wiki/dark-knowledges/dk-customers-hate-ai.md: reviewed_by→欧阳锋, review_date+=2026-08-16, grade+=A-
+✅ 30_wiki/tools/tool-candy-sales-recruiting.md: reviewed_by→欧阳锋, review_date+=2026-08-16, grade+=A-
+✅ 30_wiki/agent-specs/agent-spec-fengqingyang-observer.md: reviewed_by→欧阳锋, review_date+=2026-08-22, grade+=A-
+
+共修复 23/23 张
+• 23/23 fixed. Now verify: git diff stat + rerun scan to confirm residue cleared. Also confirm the 7 no-evidence cards remain untouched.
+
+• 23 张全部修复。跑 diff 核验 + 复扫确认残留清零。warning: in the working copy of '30_wiki/cases/case-jovida-ai-life-coach.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '30_wiki/concepts/concept-agent-university.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '30_wiki/concepts/concept-brooks-three-lies-culture.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '30_wiki/dark-knowledges/dk-brooks-cost-of-knowing.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '30_wiki/dark-knowledges/dk-koupen-decision-tiering-compromise.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '30_wiki/frameworks/framework-lobster-opt-one-person-team.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '30_wiki/frameworks/framework-muse-ai-full-map-v1.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '30_wiki/methods/method-anthropic-skill-design-patterns.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '30_wiki/methods/method-key-assumption-abcd.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '30_wiki/methods/method-obsidian-km-camp.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '30_wiki/methods/method-spin-linking-sales-marketing.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '30_wiki/tools/tool-ai-koupen-training-partner-design.md', LF will be replaced by CRLF the next time Git touches it
+ 30_wiki/agent-specs/agent-spec-fengqingyang-observer.md            | 4 +++-
+ 30_wiki/cases/case-jovida-ai-life-coach.md                         | 4 +++-
+ 30_wiki/concepts/concept-agent-university.md                       | 4 +++-
+ 30_wiki/concepts/concept-brooks-three-lies-culture.md              | 4 +++-
+ 30_wiki/dark-knowledges/dk-brooks-cost-of-knowing.md               | 4 +++-
+ 30_wiki/dark-knowledges/dk-customers-hate-ai.md                    | 4 +++-
+ 30_wiki/dark-knowledges/dk-koupen-decision-tiering-compromise.md   | 4 +++-
+ 30_wiki/dark-knowledges/dk-sales-big-deal-vs-small-deal.md         | 4 +++-
+ 30_wiki/dark-knowledges/dk-sales-demand-mining-is-company-task.md  | 4 +++-
+ 30_wiki/frameworks/framework-ai-sales-collaboration.md             | 4 +++-
+ 30_wiki/frameworks/framework-lobster-opt-one-person-team.md        | 4 +++-
+ 30_wiki/frameworks/framework-muse-ai-full-map-v1.md                | 4 +++-
+ 30_wiki/frameworks/framework-sales-funnel-full.md                  | 4 +++-
+ 30_wiki/methods/method-anthropic-skill-design-patterns.md          | 4 +++-
+ 30_wiki/methods/method-key-assumption-abcd.md                      | 4 +++-
+ 30_wiki/methods/method-obsidian-km-camp.md                         | 4 +++-
+ 30_wiki/methods/method-spin-linking-sales-marketing.md             | 4 +++-
+ 30_wiki/tools/tool-ai-koupen-training-partner-design.md            | 4 +++-
+ 30_wiki/tools/tool-candy-sales-recruiting.md                       | 4 +++-
+ 30_wiki/tools/tool-sales-objection-dilution.md                     | 4 +++-
+ 30_wiki/tools/tool-yitang-best-practice-as-golden-finger.md        | 2 +-
+ 30_wiki/tools/tool-yitang-channel-industrialization-node-design.md | 2 +-
+ 30_wiki/tools/tool-yitang-channel-scan-cheat-sheet.md              | 2 +-
+ 23 files changed, 63 insertions(+), 23 deletions(-)
+扫描文件数: 2949
+命中卡数: 507
+- 30_wiki\cases\case-qinpeng-iot-module-tiering.md | id=case-qinpeng-iot-module-tiering | type=case | author=老顽童 | reviewed_by=待审 | review_date=<missing> | updated_at=2026-07-08
+- 30_wiki\cases\case-shampoo-product-kernel.md | id=case-shampoo-product-kernel | type=case | author=老顽童（合并升级） | reviewed_by=待审 | review_date=<missing> | updated_at=2026-07-08
+- 30_wiki\cases\case-yitang-chuanhe-seasoning-kernel.md | id=case-yitang-chuanhe-seasoning-kernel | type=case | author=老顽童 | reviewed_by=待审 | review_date=<missing> | updated_at=2026-07-08
+- 30_wiki\cases\case-yitang-zhongzheng-parking-garage.md | id=case-yitang-zhongzheng-parking-garage | type=case | author=老顽童 | reviewed_by=待审 | review_date=<missing> | updated_at=2026-07-08
+- 30_wiki\tools\tool-kdo-wechat-serendipity-collect.md | id=tool-kdo-wechat-serendipity-collect | type=tool | author=黄药师 | reviewed_by=待审 | review_date=<missing> | updated_at=2026-08-19
+复扫 reviewed_by=pending/missing: 2 张
+  - 30_wiki\dark-knowledges\dk-p15-unverified.md
+  - 30_wiki\decisions\high-density-composite-compilation-strategy.md
+复扫 reviewed_by=待审: 5 张
+  - 30_wiki\cases\case-qinpeng-iot-module-tiering.md
+  - 30_wiki\cases\case-shampoo-product-kernel.md
+  - 30_wiki\cases\case-yitang-chuanhe-seasoning-kernel.md
+  - 30_wiki\cases\case-yitang-zhongzheng-parking-garage.md
+  - 30_wiki\tools\tool-kdo-wechat-serendipity-collect.md
+
+
+• Diff: 23 files, each +3/-1 or +1/-1 (frontmatter only). Rescan: pending 17→2 (the 2 no-evidence remain), 待审 13→5 (5 no-evidence remain). 
+
+  Now: pre-submit on the 23 changed files (L4 门禁). Then write 排查清单+补齐diff+无佐证清单 deliverable file. Then git status check (L12), commit? Wait — 交付物入仓: the complete gate (E040) checks deliverables committed. Do I need to git commit? Past practice (per todos entries) — yes, they commit (e.g. "commit 249f59bea", "E040门禁过"). The card changes need committing. But my instructions say don't do git mutations unless explicitly asked... The queue complete gate requires deliverables 入仓 (committed). The task workflow in this project expects commits by the agent (previous entries show commits by laowantong instance). The user instruction includes "完成后 complete 613 提审" which requires the gate. I'll commit — this is the project's established workflow; the user explicitly instructed to complete the task via the queue script which enforces commit gate.
+
+  First pre-submit on 23 files. Run in one batch.
+
+• 残留清零符合预期（剩 7 张=无佐证清单）。现在跑 pre-submit 门禁（23 文件）。       卡片比检索索引新（kdo query/kdo_search 检索不到）——先跑 `kdo index --incremental`（秒级增量）再提审；全量重建用 `kdo index`（分钟级）
+    🔴 30_wiki/concepts/concept-brooks-three-lies-culture.md
+       卡片比检索索引新（kdo query/kdo_search 检索不到）——先跑 `kdo index --incremental`（秒级增量）再提审；全量重建用 `kdo index`（分钟级）
+    🔴 30_wiki/dark-knowledges/dk-brooks-cost-of-knowing.md
+       卡片比检索索引新（kdo query/kdo_search 检索不到）——先跑 `kdo index --incremental`（秒级增量）再提审；全量重建用 `kdo index`（分钟级）
+    🔴 30_wiki/dark-knowledges/dk-customers-hate-ai.md
+       卡片比检索索引新（kdo query/kdo_search 检索不到）——先跑 `kdo index --incremental`（秒级增量）再提审；全量重建用 `kdo index`（分钟级）
+    🔴 30_wiki/dark-knowledges/dk-koupen-decision-tiering-compromise.md
+       卡片比检索索引新（kdo query/kdo_search 检索不到）——先跑 `kdo index --incremental`（秒级增量）再提审；全量重建用 `kdo index`（分钟级）
+    🔴 30_wiki/dark-knowledges/dk-sales-big-deal-vs-small-deal.md
+       卡片比检索索引新（kdo query/kdo_search 检索不到）——先跑 `kdo index --incremental`（秒级增量）再提审；全量重建用 `kdo index`（分钟级）
+    🔴 30_wiki/dark-knowledges/dk-sales-demand-mining-is-company-task.md
+       卡片比检索索引新（kdo query/kdo_search 检索不到）——先跑 `kdo index --incremental`（秒级增量）再提审；全量重建用 `kdo index`（分钟级）
+    🔴 30_wiki/frameworks/framework-ai-sales-collaboration.md
+       卡片比检索索引新（kdo query/kdo_search 检索不到）——先跑 `kdo index --incremental`（秒级增量）再提审；全量重建用 `kdo index`（分钟级）
+    🔴 30_wiki/frameworks/framework-lobster-opt-one-person-team.md
+       卡片比检索索引新（kdo query/kdo_search 检索不到）——先跑 `kdo index --incremental`（秒级增量）再提审；全量重建用 `kdo index`（分钟级）
+    🔴 30_wiki/frameworks/framework-muse-ai-full-map-v1.md
+       卡片比检索索引新（kdo query/kdo_search 检索不到）——先跑 `kdo index --incremental`（秒级增量）再提审；全量重建用 `kdo index`（分钟级）
+
+  🔴 Result: FAIL — 12 个错误要修（#220 P1-5 讲香）
+     路径感：从上往下修——先修 YAML 结构错误（阻断后续检查），再修内容错误
+     修完重跑本命令，看到 ✅ PASS 再提交，省欧阳锋一轮往返
+====================================================================
+
+
+
+• pre-submit FAIL only due to "卡片比检索索引新" — index staleness, not content errors. Run `kdo index --incremental` then re-run. (Note: 铁律 6 says don't run `kdo index --rebuild` full rebuild; incremental is fine — #586 report also did incremental.)
+
+• FAIL 全是索引过期提示，跑增量索引后重跑门禁。Incremental: +0 ~23 -0 (total 4177) -> C:\Users\Administrator\Desktop\wiki\.kdo\search_index.json
+
+
+       本卡涉及已有概念：五角色（权威定义见 [[yt-business-formula-peahd-roles]]）、review（权威定义见 [[framework-ouyangfeng-review-methodology]]）、产品内核定义（权威定义见 [[yt-entrepreneur-product-core]]）、美好作品想象（权威定义见 [[concept-美好作品想象]]）、JTBD（权威定义见 [[concept-christensen-jtbd-link]]）——请人工核对与权威定义的一致性（#542 提示制不拦截；小昭事故根因 3 降档版）
+    🟡 30_wiki/frameworks/framework-muse-ai-full-map-v1.md
+       本卡涉及已有概念：分析工具（权威定义见 [[yt-decision-width-method]]）、业模型（权威定义见 [[yt-model-y-organization]]）、五步法（权威定义见 [[yt-entrepreneur-five-step-method]]）、双三角（权威定义见 [[concept-yihang-dual-triangle-core]]）、工具箱（权威定义见 [[yt-model-pan-product-aesthetic-toolkit]]）——请人工核对与权威定义的一致性（#542 提示制不拦截；小昭事故根因 3 降档版）
+
+  ✅ Result: PASS（19 条 WARNING 在列——有警在身，非全清，终审前自行掂量）
+     下一步：贴本输出到任务单 → 提交 → 欧阳锋终审（WARNING 明细如实附上）
+====================================================================
+
+       本卡涉及已有概念：Truman（权威定义见 [[concept-five-step-growth-to-barrier-transition]]）、工业化生产（权威定义见 [[yt-entrepreneur-industrial-production]]）、化生产（权威定义见 [[yt-entrepreneur-industrial-production]]）、点设计（权威定义见 [[challenge-point-design]]）、yt-unit-model-overview（权威定义见 [[framework-yitang-shishi-qiushi]]）——请人工核对与权威定义的一致性（#542 提示制不拦截；小昭事故根因 3 降档版）
+    🟡 30_wiki/tools/tool-yitang-channel-scan-cheat-sheet.md
+       本卡涉及已有概念：yt-unit-model-overview（权威定义见 [[framework-yitang-shishi-qiushi]]）、持续竞争优势（权威定义见 [[yt-business-model-competitive-moat]]）、layer（权威定义见 [[framework-yitang-nine-layer-deep-dig]]）、一堂五步法（权威定义见 [[yt-entrepreneur-five-step-method]]）、低成本测试（权威定义见 [[framework-lean-systematic-test-curve]]）——请人工核对与权威定义的一致性（#542 提示制不拦截；小昭事故根因 3 降档版）
+
+  ✅ Result: PASS（17 条 WARNING 在列——有警在身，非全清，终审前自行掂量）
+     下一步：贴本输出到任务单 → 提交 → 欧阳锋终审（WARNING 明细如实附上）
+====================================================================
+
+• 23/23 pre-submit PASS (warnings are #542 提示制, non-blocking). Now write the deliverable: 排查清单 + 补齐 diff 说明 + 无佐证清单. Where? Deliverable doc — put in the task folder: 60_feedback/tasks/task_20260902_laowantong-586batch-reviewedby-residue-fix/排查清单-613.md or a single md. Previous patterns use a folder with 清单. I'll create folder `60_feedback/tasks/task_20260902_laowantong-586batch-reviewedby-residue-fix/` with `scan-report-613.md` + the two JSONs already in _tmp (copy them? Better: reference _tmp or move the JSONs into the deliverable folder as 机读对账 per L11). L11 三问: ①判定字段可独立复跑证伪 → scan script in _tmp (should register path in report); ②附机读 json → copy 613-scan-result.json + 613-fix-result.json into deliverable folder; ③预览列只放实证过的值.
+
+  Let me write the report file.fix-result.json
+fix-script.py
+scan-result.json
+scan-script.py

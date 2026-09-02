@@ -371,3 +371,5 @@
 - [2026-09-02 08:42] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#611（laowantong 的单，挂审 15min）（事件驱动：有待终审）
 - [2026-09-02 08:51] ✅ #611 终审 PASS A-（task_20260902_laowantong-yitang-methodology-batch-cards）：O0 源文档 440 行全量对账（时间线/4 值/7 坑/80% 估计值全命中）；🔴脱敏口径达标（双标注合 #322 先例且更严）；KDO 同构映射表 5 行全部独立核实属实（E018/写审分离/P-28/E019×6/L9）；pre-submit 独立复跑 2/2 PASS+15 链零缺失+3 反向补链实证；arXiv 2606.04990 存在性已验。WAIC 裁定=建链成立（口径同 v1.0 反 V3.0），已补 MUSE 卡一行同族素材注记（纯文本路径避死链），reviewed 保留。瑕疵不阻断：🔵CHO 方案第 6 条编号合并有滑/🟠arXiv"六大功能"表述待校准（放行+TODO）。观察：framework-muse-ai-full-map-v1 status=reviewed 但 reviewed_by=pending（#586 批残留）→最小建议书 prop_20260902_ouyangfeng-muse-reviewed-by-pending-residue 已落并验探针回执（新登记 1）。四处同步齐+两新卡 review_mark 落元数据+index 增量 4177
 - [2026-09-02 09:17] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-02 09:27] 🔔 KDO 新提审 1 单：#612，请终审（新提审）
+- [2026-09-02 09:27] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#612（huangyaoshi 的单，挂审 4min）（事件驱动：有待终审）

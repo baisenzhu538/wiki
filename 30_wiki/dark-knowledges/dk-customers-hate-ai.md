@@ -4,7 +4,9 @@ title: 客户讨厌 AI：AI 生成的销售内容没人情味
 type: dk
 status: reviewed
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
+review_date: '2026-08-16'
+grade: A-
 confidence: 0.85
 trust_level: medium
 language: zh-CN
