@@ -10,7 +10,12 @@
   一律：dispatch → 王语嫣质量门/编排 → 任务单入队 → 老顽童生产 → 欧阳锋终审。
   _classify 的 P0/P2 标签仅作信息参考保留。
 
-排除目录：wechat-collect（偶遇采集自有管线 wechat_promote.py 处理，避免重复派发）
+扫描面（#619，2026-09-02 王语嫣裁定）：00_inbox 顶层文件 + 白名单子目录
+  （pending-cards/ wechat-collect/ video_transcripts/ video_transcripts_small/）——
+  #605 裁剪把 wechat/BV 管线落点误裁出扫描面（05:47 四件静默漏登记实证），本单回补。
+  Handle/_vlm_output/ocr_ingest 等大目录树继续排除（#605 裁剪目的仍成立）；
+  白名单目录内的 _ 前缀目录段与 wechat-collect/knowledge/（promote 中间产物，
+  case 卡另有 pending-cards/ 落点登记）不扫，防重复登记。
 """
 
 import os, json, hashlib
@@ -40,8 +45,14 @@ P0_KEYWORDS = ["Truman", "月白", "纪浩", "半肥猫", "马易", "水水", "�
                "招商", "访谈", "访谈", "诊断"]
 # File extensions to watch
 WATCH_EXTS = {".txt", ".md", ".json", ".pdf", ".docx", ".png", ".jpg"}
-# 已有独立自动化管线处理的目录，不再重复派发
-EXCLUDE_DIRS = {"wechat-collect"}
+
+# #619（2026-09-02 王语嫣裁定）：扫描面 = 00_inbox 顶层文件 + 白名单子目录。
+# 白名单=管线落点（#605 裁剪误伤 wechat-collect/video_transcripts*，05:47 四件漏登记实证）；
+# Handle/_vlm_output/ocr_ingest 等大目录树继续排除。增删落点改本常量即可。
+SCAN_SUBDIRS = ("pending-cards", "wechat-collect", "video_transcripts", "video_transcripts_small")
+# 白名单目录内不扫的子目录段：_ 前缀（_needs_rerun/_processed 等内部区）+
+# knowledge/（wechat_promote 中间产物——case 卡另有 pending-cards/ 落点登记，扫了=重复派发）
+SKIP_SUBDIR_PARTS = {"knowledge"}
 
 # #605（2026-09-02 王语嫣裁定）：dispatch 台账停发——17 份零签收，队列/收件箱监控
 # 职能已由看门狗 v5（90_control/scripts/clock_watchdog.py：队列三段+gate 增量）覆盖；
@@ -79,12 +90,22 @@ def scan() -> list[dict]:
     discoveries = []
 
     # #605（2026-09-02 王语嫣裁定）：目录树裁剪——只扫 00_inbox 顶层新素材 +
-    # pending-cards/（Handle/_vlm_output/ocr_ingest 等大目录树出扫描面；
+    # 白名单子目录（Handle/_vlm_output/ocr_ingest 等大目录树出扫描面；
     # 全树递归曾产出单份 863KB/7908 行 dispatch，无人消费）
+    # #619（2026-09-02 王语嫣裁定）：白名单回补管线落点——#605 只留 pending-cards/，
+    # 把 wechat-collect/video_transcripts* 误裁出扫描面（05:47 四件漏登记实证）
     scan_files = [p for p in INBOX.iterdir() if p.is_file()]
-    pending_dir = INBOX / "pending-cards"
-    if pending_dir.exists():
-        scan_files += [p for p in pending_dir.rglob("*") if p.is_file()]
+    for sub in SCAN_SUBDIRS:
+        subdir = INBOX / sub
+        if not subdir.exists():
+            continue
+        for p in subdir.rglob("*"):
+            if not p.is_file():
+                continue
+            inner = p.relative_to(subdir).parts[:-1]
+            if any(part.startswith("_") or part in SKIP_SUBDIR_PARTS for part in inner):
+                continue
+            scan_files.append(p)
 
     for path in scan_files:
         fname = path.name

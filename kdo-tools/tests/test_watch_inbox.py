@@ -61,3 +61,22 @@ def test_night_silent_marker(tmp_path, monkeypatch):
     todos.write_text("", encoding="utf-8")
     wi._notify_inbox([{"file": "00_inbox/口述-课程2.txt", "priority": "P0"}])
     assert "📥" in todos.read_text(encoding="utf-8")
+
+
+def test_scan_whitelist_subdirs(tmp_path, monkeypatch):
+    """#619 回归：白名单子目录（管线落点）回扫描面；内部子目录与大目录树不扫。"""
+    inbox, _ = _sandbox(tmp_path, monkeypatch)
+    (inbox / "wechat-collect").mkdir()
+    (inbox / "wechat-collect" / "src_wechat_abc.md").write_text("x" * 100, encoding="utf-8")
+    (inbox / "wechat-collect" / "knowledge").mkdir()
+    (inbox / "wechat-collect" / "knowledge" / "case-wechat-abc.md").write_text("x" * 100, encoding="utf-8")
+    (inbox / "wechat-collect" / "_needs_rerun").mkdir()
+    (inbox / "wechat-collect" / "_needs_rerun" / "case-wechat-def.md").write_text("x" * 100, encoding="utf-8")
+    (inbox / "video_transcripts").mkdir()
+    (inbox / "video_transcripts" / "BV1xx-逐字稿.md").write_text("x" * 100, encoding="utf-8")
+    (inbox / "Handle").mkdir()
+    (inbox / "Handle" / "big.md").write_text("x" * 100, encoding="utf-8")
+    found = {d["file"].replace("\\", "/") for d in wi.scan()}
+    assert "00_inbox/wechat-collect/src_wechat_abc.md" in found
+    assert "00_inbox/video_transcripts/BV1xx-逐字稿.md" in found
+    assert not any("knowledge" in f or "_needs_rerun" in f or "Handle" in f for f in found)
