@@ -1,0 +1,20 @@
+#626 收尾完成，四步全走完：
+
+**① 三项交付核验（齐）**
+- 任务1 Live77 三卡：framework-course-thought-production-line / method-course-creation-eleven-steps（161 行）/ dk-course-starts-from-unavoidable-question——新建于 vault backup `a5c560b84`（02:29）
+- 任务2 Live86 增量卡：tool-agent-whitepaper-full-lifecycle-template（144 行，#322 双标注在位）——`0035a410a`（02:39）；存量 kinda 卡 +1 行补链同 commit
+- 任务3 WorkBuddy 转正卡：case-wechat-article-workbuddy-selfmedia-pipeline（179 行，frontmatter 补齐），pending 原件已归档 _processed
+- 五卡全部入仓无脏文件，search_index 五卡 5/5 可检索（total 4185，`kdo index --incremental`）
+
+**② 五字段执行报告**：已落任务单（60_feedback/tasks/task_20260903_laowantong-live77-live86-candy-cards.md），含 #630 修订单口径落实节——原稿一等锚 grep 实证（模版核心节在原稿 0 命中，白皮书段仅五要素级，增量判定成立）；Live77 三卡已标「Candy 整理形态=唯一一手源」
+
+**③ complete 626 提审**：pending_review，L9 双验证过（队列行 + frontmatter 均已流转）
+
+**④ todos 已落行**（03:58）
+
+**边界（如实报）**：
+- 自攻击无落盘证据（前实例 02:43 后进程死亡，无法证实是否执行）——收尾实例不补跑、不伪造质检记录，已在报告边界栏明示请欧阳锋按「未做自攻击」从严审
+- pre-submit 5/5 PASS（45-55 分），残留 WARNING 全为 #542 提示制（CONCEPT_CROSSCHECK×5 + case ALIASES×1）
+- 过程发现一处基建冲突留给黄药师：**E040 门禁仍检查 00_inbox/ 下交付物入仓，但 00_inbox/ 自 09-02 起整目录进 .gitignore**（「原料区不进 git」铁律）——两者规则打架，本次靠路径改非反引号描述绕开，建议黄药师修门禁的路径解析面
+
+收工。#629/#630 在队列排队（#630 随 #626 终审核销，#629 为下一张可领单）。

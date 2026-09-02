@@ -588,3 +588,7 @@
 2026-09-03 02:41:37｜role-liveness｜fengqingyang 全实例疑似死亡（stale: [('kimi-cli', 2865.7)]）｜role_registry check-liveness｜role_registry
 2026-09-03 02:47:01｜infra-liveness｜基建停拍报警｜vault-backup｜非节拍 commit 02:39:59（格点 :20/:50 ±10min，窗内 5 个）——孤儿写手嫌疑（obsidian-git 10min 自备份同文模板，#631）｜conveyor_probe
 2026-09-03 03:02:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 1506.7), ('cli', 41.4)]）｜role_registry check-liveness｜role_registry
+2026-09-03 03:57:13｜task_20260903_laowantong-live77-live86-candy-cards｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
+  - untracked: 00_inbox/pending-cards/_processed/…processe｜laowantong
+2026-09-03 03:57:35｜task_20260903_laowantong-live77-live86-candy-cards｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
+  - untracked: 00_inbox/pending-cards/_processed/case-wech｜laowantong
