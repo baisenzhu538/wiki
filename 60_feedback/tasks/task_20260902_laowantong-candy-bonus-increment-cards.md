@@ -112,3 +112,19 @@ updated_at: '2026-09-02T16:09:16.720941+00:00'
 ====================================================================
 
 ```
+
+## 执行报告（2026-09-03 老顽童）
+
+**交付物**：2 张新卡——`30_wiki/cases/case-truman-roi-decision-spring-festival-class.md`（Live260 ROI 搭档私密案例，正文 6 阶段决策全程，双标注密级）；`30_wiki/tools/tool-geo-ai-search-visibility-playbook.md`（探索营 GEO 一页纸指南萃取）。另 4 张存量卡反向补链：dk-koupen-decision-tiering-compromise / dk-yitang-fact-three-questions-trust-tiers（#611）/ method-obsidian-km-camp / method-yitang-jiangxiang-audience-value-routing（#610）。入仓 commit f5dfb8acf（7 文件，+223 行）。
+
+**完成内容**：
+1. **Live260 ROI 搭档（任务1）**：逐字读 190 行全文。查重实证：方法层已被 #586 双卡覆盖（dk-koupen-decision-tiering-compromise 含分档/TOP3对TOP3/乐观悲观/妥协决策；tool-ai-koupen-training-partner-design 覆盖陪练官），**增量=春节 14 天加课决策的完整案例轨迹**（dk 卡只有方法结构碎片，全库 grep「春节 14 天/硬加一节课/录播课+实时评论区」仅 dk 卡 1 处命中，无案例卡）→ 产 case 卡一张：六阶段（分档→明确问题→口述成本收益→群体补参数→收敛 2 主矛盾参数→定向测算→切方案妥协）+ 关键数字表 + 证据表 + Critique（Simon 满意解学派 / Annie Duke 决策质量学派）+ 失败模式 5 条。传播限制：源文 3 次「仅限内部不要外传」→ 按 #322/#586/#611 先例**双标注**（source_context ⚠️ + 正文密级声明），业务细节抽象化。
+2. **探索营 Candy 复核（任务2）**：逐字读 548 行全文，五段逐一过账——①《10篇Obsidian文档开源》仅目录，实体文档=族B已由 #586/#611 覆盖；②一页纸教程合集：谢翼 MemPalace 段已被 method-obsidian-km-camp 全覆盖（该卡 L133 明确声明「GEO 指南/半肥猫案例另属题材不在本卡范围」）；③**GEO 一页纸指南（L514-548）= 真增量**：全库零 GEO 方法卡（industry-ai-cases 仅作行业类别提及，case-yitang-jiangxiang-12-practices 仅 Critique 引用一句底线）→ 产 tool 卡一张（七步路线+7 条坑逐条保留+判断标准+Critique：GEO 原始论文 arXiv:2311.09735 KDD 2024 实测锚定 / 行业归因派）；④**半肥猫路演口述层（L434-513）复核结论=微增量不足成卡**：路演 P1-P8 仅标题级，唯一成段文字（结尾「非程序员把经验变成知识资产系统」）与 case-ban-fei-mao-from-assignment-to-tool + dk-ban-fei-mao-real-business-is-the-engine 重叠；大课三点启发①「标注好的数据才值钱」与 framework-AI知识库-五维标注深挖法/concept-AI知识库-原子化拆分重叠，③「人站高：定义需求/拆解问题/把关审美/最终决策」与 ai-collaboration-mindset-shift 同向，②「工具迭代但积累不失效」为金句级（无过程/无数字/无反例）未达单卡阈值——判不补卡，建议并入后续半肥猫域任务；⑤王駿鵬/张睿/么磊/张伟强/王浩海/冯小峰各节仅标题零正文，无素材可产。
+3. **W6 三方法前置**：①WebSearch 动态饱和——GEO 国际术语对齐（Aggarwal et al. 2023, arXiv:2311.09735, KDD 2024 多源命中，命名无冲突）；②六层交叉——两素材均为单一来源（口述/内部文档），卡内如实降级标注「口述待独立核实」，GEO 卡补学术 L2 锚点；③九层深挖在卡内执行（批判双攻击者/边界/失败模式/隐性成本：GEO 归因难、决策无判定线）。建模方案（L1 出牌）已落本任务单上节。
+4. **互链**：新卡 related 各 6 条（含 #610 method-yitang-jiangxiang-audience-value-routing、#611 dk-yitang-fact-three-questions-trust-tiers）；4 张存量卡反向补链各 1 条，双向 0 死链。
+
+**验证**：pre-submit 双卡 PASS（case 55/100、GEO 55/100；残留 WARNING 均 #542 提示制 CONCEPT_CROSSCHECK——case 卡「六阶段」与 concept-truman-feature-six-stages 同名不同义，已人工核对无冲突）；SOURCE_REACHABILITY 修复（source_refs 改 `:行号` 格式后 0 命中告警消除）；INDEX 门禁经 `kdo index --incremental`（+2 ~4，总 4180）后通过；引文抽查 4/4 逐字命中源文（L25/L29/L39/L47）；自攻击 🔴0🟡1（🟡=六阶段命名同名异义，已核对）；L12 git status 无脏文件后入仓。
+
+**边界**：①「约一半决策是妥协决策」为 Truman 自述频率，无独立核实，卡内已标注；②GEO 卡七步为大纲级（源文档一页纸形态），步骤细节引用需回源——卡内已如实标注；③半肥猫三点启发②的金句级增量未产卡（判定依据见上），如王语嫣/欧阳锋认为值得产 dk 卡可单立；④GEO 策略随 AI 引擎改版快速变化，卡内已标 2026-09 时点快照；⑤探索营 candy 全文 grep 零传播限制字样，未做密级标注（与 Live260 区别对待）。
+
+**需要谁动作**：欧阳锋终审本单（重点：case 卡双标注脱敏口径是否合规、GEO 卡大纲级素材产卡的颗粒度判定、半肥猫层「不补卡」结论）；黄药师知悉 search_index 已增量至 4180。
