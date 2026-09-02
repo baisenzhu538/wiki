@@ -24,11 +24,27 @@ from pathlib import Path
 
 WIKI = Path(r"C:\Users\Administrator\Desktop\wiki")
 
-# 工具路由表：工具名 → 无头单发命令模板（{prompt} 为占位符）。
+# 工具路由表：工具名 → 无头单发命令模板（{prompt}/{role} 为占位符）。
 # 新工具上线前先实测其无头模式（-p/print/exec 形态+权限模式），再登记。
+# 09-03 实测登记（王语嫣）：claude=deepseek-v4-flash（黄药师线）/ hermes=glm-5.3-flash（老顽童线，profile 走 HERMES_PROFILE env）/ codex=deepseek-v4-pro（欧阳锋线，需 relay 4444 活着）。
+# 纪律：一律用原生 .exe——.cmd/.bat 壳在 DETACHED 无控制台环境下起不来（09-03 实测三次 0 字节日志）。
 TOOLS = {
     "kimi": [r"C:\Users\Administrator\.kimi-code\bin\kimi.exe", "-p", "{prompt}"],
-    # "codex": [...],  # 待接入时登记
+    "claude": [r"C:\Users\Administrator\AppData\Roaming\npm\node_modules\@anthropic-ai\claude-code\bin\claude.exe", "-p", "{prompt}", "--dangerously-skip-permissions"],
+    "codex": [r"C:\Users\Administrator\AppData\Roaming\npm\node_modules\@openai\codex\node_modules\@openai\codex-win32-x64\vendor\x86_64-pc-windows-msvc\bin\codex.exe", "exec", "{prompt}", "--dangerously-bypass-approvals-and-sandbox", "--skip-git-repo-check"],
+    "hermes": [r"C:\Users\Administrator\AppData\Local\hermes\hermes-agent\venv\Scripts\hermes.exe", "-z", "{prompt}", "--yolo"],
+}
+
+# 角色→默认工具路由（老朱 09-03 异构防线：不同模型防同构错误）。--tool 显式指定优先。
+ROLE_TOOL = {
+    "huangyaoshi": "claude",
+    "laowantong": "hermes",
+    "ouyangfeng": "codex",
+}
+
+# 工具级环境变量（{role} 占位符同样替换）——hermes 用 HERMES_PROFILE 选 profile。
+TOOL_ENV = {
+    "hermes": {"HERMES_PROFILE": "{role}"},
 }
 
 PROMPT_TEMPLATE = """你是{role}（KDO 知识工厂角色）。工作目录 {wiki}（先 cd 进去，一切操作在该目录下）。
@@ -51,18 +67,29 @@ PROMPT_TEMPLATE = """你是{role}（KDO 知识工厂角色）。工作目录 {wi
 
 def main() -> int:
     args = [a for a in sys.argv[1:] if not a.startswith("--tool")]
-    tool = "kimi"
+    tool = None
     if "--tool" in sys.argv:
         tool = sys.argv[sys.argv.index("--tool") + 1]
+    args = [a for a in args if a != tool]
     if len(args) < 2:
         print(__doc__)
         return 1
     role, instruction = args[0], args[1]
+    if tool is None:
+        tool = ROLE_TOOL.get(role, "kimi")  # 默认走角色路由，未登记角色回落 kimi
     if tool not in TOOLS:
         print(f"未知工具 {tool}（已登记：{list(TOOLS)}）——先实测无头模式再登记 TOOLS 表")
         return 1
     prompt = PROMPT_TEMPLATE.format(role=role, wiki=str(WIKI), instruction=instruction)
-    cmd = [part.replace("{prompt}", prompt) for part in TOOLS[tool]]
+    cmd = [part.replace("{prompt}", prompt).replace("{role}", role) for part in TOOLS[tool]]
+    # .cmd/.bat 壳在 DETACHED 下 CreateProcess 起不来（无控制台）——一律显式 cmd /c 包一层
+    if cmd[0].lower().endswith((".cmd", ".bat")):
+        cmd = ["cmd.exe", "/c"] + cmd
+
+    import os
+    env = dict(os.environ)
+    for k, v in TOOL_ENV.get(tool, {}).items():
+        env[k] = v.replace("{role}", role)
 
     ts = time.strftime("%Y%m%d-%H%M%S")
     log_path = WIKI / "logs" / f"headless-{role}-{ts}.log"
@@ -75,6 +102,7 @@ def main() -> int:
         stdout=log,
         stderr=log,
         creationflags=DETACHED,
+        env=env,
     )
     print(f"proc_{role}_{p.pid} | tool={tool} | log={log_path} | {time.strftime('%H:%M:%S')}")
     return 0
