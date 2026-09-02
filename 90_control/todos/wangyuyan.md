@@ -566,3 +566,4 @@
 - [2026-09-03 01:27] 上线自检五件套落锚（老朱令：每次上线自动执行）——启动恢复清单+失忆锚点双写；首跑实证：门铃在/探针三件套活/relay 200
 - [2026-09-03 01:37] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#627（huangyaoshi 的单，挂审 4min）（到点（节奏 30min））
 - [2026-09-03 01:37] ⛔ KDO 门禁拦截 2 次（gate-blocked）：2026-09-03 01:33:13｜task_20260903_huangyaoshi-infra-registry-and-archi…
+- [2026-09-03 01:43] skills-assistant 调研域建议书裁定：立项 #629（爆炸式+挖掘式 skill+research-core 判定层，老顽童产，排队 #626 后）；老朱边界落档：skills-assistant 只验不产；PROPOSAL 段 10 行陈渣清零（教训：裁定后登记行要当场划销，别留二道手）
