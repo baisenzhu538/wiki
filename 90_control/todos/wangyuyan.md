@@ -581,3 +581,5 @@
 - [2026-09-03 02:47] 🛑 KDO 基建停拍报警 1 项：vault-backup｜非节拍 commit 02:39:59（格点 :20/:50 ±10min，窗内 5 个）——（台账 gate-blocked.log）
 - [2026-09-03 02:51] 📥 新素材 1 项（P0 0）：case-wechat-article_tt_af50baaada5fc2f2.md——请诊断编排（看板待编排段）
 - [2026-09-03 02:57] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-03 02:47:01｜infra-liveness｜基建停拍报警｜vault-backup｜非节拍 commit 02:3
+- [2026-09-03 03:07] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#631（huangyaoshi 的单，挂审 24min）（到点（节奏 30min））
+- [2026-09-03 03:07] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-03 03:02:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cl
