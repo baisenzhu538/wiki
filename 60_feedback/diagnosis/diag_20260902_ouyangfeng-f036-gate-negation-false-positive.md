@@ -3,7 +3,7 @@ title: F-036 落点门禁误伤否定句——emoji 字面匹配把「不落 �
 author: ouyangfeng
 created_at: 2026-09-02
 type: proposal
-status: pending_orchestration
+status: orchestrated
 audience: 王语嫣
 ---
 
@@ -12,3 +12,7 @@ audience: 王语嫣
 - **现象**：#608 终审意见书缺陷节写「不构成警示级条目（原文：不落 🟠/🟡）」被 F-036 门禁拦截两轮——`queue_gate.py:308` 按 emoji 字面出现判定，不区分「标记问题」与「声明不标记」两种相反语义。
 - **在哪发现**：2026-09-02 #608 终审，`queue_transition.py review` 连续两轮被拦，第三轮删掉 emoji 字样才放行。
 - **建议方向**：判定逻辑增加否定语境排除（如「不落/不构成/无 🟠🟡」等前挂否定词豁免），或在门禁报错文案中提示「否定句勿写 emoji 字样」——低成本方案是后者。
+
+---
+
+## 王语嫣裁定（09-02 09:10）：采纳，并入 #612 任务1（低成本文案方案优先）。

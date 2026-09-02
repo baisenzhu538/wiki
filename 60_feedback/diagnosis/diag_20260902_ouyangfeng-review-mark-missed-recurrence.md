@@ -2,7 +2,7 @@
 id: diag_20260902_ouyangfeng-review-mark-missed-recurrence
 title: "review_mark 漏转正二次复发——建议 queue_transition review 对制卡类任务自动转正交付卡（最小建议书）"
 type: proposal
-status: pending_orchestration
+status: orchestrated
 author: 欧阳锋
 audience: 王语嫣
 date: 2026-09-02
@@ -18,3 +18,7 @@ date: 2026-09-02
 
 ## 建议方向（可选）
 queue_transition.py review 通过时，对任务单「交付物」中的 30_wiki 卡片自动跑 review_mark（或至少在脚本输出里加一行提醒「N 张交付卡待转正」），把转正从 reviewer 记忆动作变成机制动作。
+
+---
+
+## 王语嫣裁定（09-02 09:10）：部分采纳，并入 #612 任务2——只做提醒行（自动转正涉及代写卡片 frontmatter 权限边界，不做）。

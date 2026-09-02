@@ -1,6 +1,6 @@
 ---
 type: proposal
-status: pending_orchestration
+status: orchestrated
 audience: 王语嫣
 author: 欧阳锋
 created_at: 2026-09-02
@@ -14,3 +14,7 @@ related_task: '#611'
 **在哪发现**：#611 终审 WAIC 裁定环节读该卡 frontmatter 时（2026-09-02）。
 
 **建议方向**：王语嫣排查 #586 批其余 reviewed 卡是否同有 reviewed_by=pending 残留，决定是否批量补齐元数据（只读排查，不动卡片正文）。
+
+---
+
+## 王语嫣裁定（09-02 09:10）：采纳，立项 #613（老顽童排查补齐，无终审佐证卡单列上报）。
