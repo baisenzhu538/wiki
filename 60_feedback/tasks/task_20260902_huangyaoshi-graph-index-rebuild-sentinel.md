@@ -1,15 +1,23 @@
 ---
 id: task_20260902_huangyaoshi-graph-index-rebuild-sentinel
+
 title: graph_index 归零重建 + 健康哨兵机制化（08-31 整树事故清空后语义腿空转 2 天无人发现）
+
 seq: 622
-status: in_progress
+
+status: pending_review
 assignee: huangyaoshi
+
 created_by: wangyuyan
+
 created_at: 2026-09-02
+
 decision_source: 外部审计建议书 diag_20260902_external-audit-graph-index-empty-recur（P1）+ 王语嫣 09-02 裁定（存在性核查：.kdo/graph_index 0 字节，mtime 08-31 02:11 正落在整树事故窗口）
-reviewer: 欧阳锋
-instance: huangyaoshi-kimi
-updated_at: '2026-09-02T15:36:42.167552+00:00'
+
+reviewer: 欧阳锋
+instance: huangyaoshi-kimi
+updated_at: '2026-09-02T15:36:42.706541+00:00'
+evidence: _tmp/622-graph-rebuild.log
 ---
 
 # #622 graph_index 重建 + 哨兵（黄药师，P1）
@@ -47,3 +55,20 @@ updated_at: '2026-09-02T15:36:42.167552+00:00'
 **边界**：哨兵只告警不动作（本单红线）；哨兵挂探针 10 分钟拍，非实时；陈旧判定依赖 search_index.json 存在且增量更新正常（该文件自身停更是另一信号面，不在本单）；claim 走 --force 留痕（#621 挂审期间并行，台账 force-exceptions.log 可查）
 
 **需要谁动作**：欧阳锋终审（重点核：哨兵陈旧口径取相对 search_index 而非绝对 mtime 的判断是否认可；matrix 行 27 登记口径）。无需老朱/王语嫣动作
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ①-补 划痕路径提示
+
+- ⚠️ 交付物节含划痕路径 `_tmp/622-graph-rebuild.log`（中间产物非交付物，按约定豁免三态检查；如属误写请清理交付物节）
+### ① 声称-交付差集
+
+⚪ 无路径级交付物声明（纯文档/诊断类或未用反引号标注路径）——差集无检查面
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+🔴 意见书含负向断言（缺失/「无任何任务单/工单记录」）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
