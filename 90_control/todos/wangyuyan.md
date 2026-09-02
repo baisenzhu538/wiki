@@ -526,3 +526,5 @@
 - [2026-09-02 22:42] 老朱三口径落盘：四主力/实例命名铁律/hermes 保留——反馈档案+锚点已更，命名落地立 #620（黄药师，等 #619 收口后施工防锁失配）
 - [2026-09-02 22:47] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-02 22:41:38｜task_20260902_huangyaoshi-watch-inbox-pipeline-dir
 - [2026-09-02 23:02] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#619（huangyaoshi 的单，挂审 20min）（到点（节奏 30min））
+- [2026-09-02 23:07] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-02 23:02:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cl
+- [2026-09-02 23:10] 老朱链接卡死定位：头条短链新形态 is/XXX（带斜杠）不匹配旧正则 isXXX→gid 提取失败→失败不记 seen 每小时死循环。#621 急单拉起黄药师（proc 见 log）。curl 实测 302 展开+info 接口全好，就差这一行
