@@ -813,6 +813,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - [gate-blocked] task_20260902_laowantong-614-verdicts-apply｜09-02 12:07｜待王语嫣复核处置｜2026-09-02 12:05:25｜task_20260902_laowantong-614-verdicts-apply｜F-034-五字段｜--evidence 文件不可读: commit ce59db575 14卡落笔（9 PASS补reviewed_by/review_date/grade + 5降级enriched+downgrad｜laowantong-kimi
 - prop_20260902_ouyangfeng-kdo-tests-flake-and-report-drift.md｜09-02 12:22｜待王语嫣复核裁定
 - [gate-blocked] task_20260902_laowantong-614-downgraded-cards-rework｜09-02 13:07｜待王语嫣复核处置｜2026-09-02 13:00:23｜task_20260902_laowantong-614-downgraded-cards-rework｜F-034-五字段｜--evidence 文件不可读: commit 5188f296b+bf73d4560；5卡pre-submit PASS（QUOTE_VERBATIM/SOURCE_RANGE/INDEX全0）；｜laowantong-kimi
+- diag_20260902_xiaozhao-外部基础设施审计与治理建议.md｜09-02 21:07｜待王语嫣复核裁定
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |

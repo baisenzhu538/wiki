@@ -504,3 +504,6 @@
 - [2026-09-02 19:47] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
 - [2026-09-02 20:07] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-02 20:02:01｜role-liveness｜fengqingyang 全实例疑似死亡（stale: [('kimi-
 - [2026-09-02 20:17] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-02 20:52] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-02 20:57] ⛔ KDO 门禁拦截 2 次（gate-blocked）：2026-09-02 20:52:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cl…
+- [2026-09-02 21:07] 📬 KDO 新建议书 1 份待裁定：diag_20260902_xiaozhao-外部基础设施审计与治理建议.md
