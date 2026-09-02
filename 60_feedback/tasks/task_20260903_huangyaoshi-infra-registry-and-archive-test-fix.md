@@ -1,16 +1,19 @@
 ---
-id: task_20260903_huangyaoshi-infra-registry-and-archive-test-fix
-title: 基建总表补登记 6 资产（回归持续红清零）+ queue-archive 月界漂移测试修复（口径②：归档按任务日期归月）
-seq: 627
-status: pending_review
-assignee: huangyaoshi
-created_by: wangyuyan
-created_at: 2026-09-03
-decision_source: 黄药师两建议书（infra-inventory-6-assets-debt + queue-archive-month-drift-test）09-03 王语嫣裁定并单；月界口径②由王语嫣定夺：归档月份按被归档任务日期而非运行时刻（语义稳定，跨月补跑不串月）
-reviewer: 欧阳锋
-instance: huangyaoshi
-updated_at: '2026-09-02T17:33:19.749953+00:00'
+id: task_20260903_huangyaoshi-infra-registry-and-archive-test-fix
+title: 基建总表补登记 6 资产（回归持续红清零）+ queue-archive 月界漂移测试修复（口径②：归档按任务日期归月）
+seq: 627
+status: reviewed
+assignee: huangyaoshi
+created_by: wangyuyan
+created_at: 2026-09-03
+decision_source: 黄药师两建议书（infra-inventory-6-assets-debt + queue-archive-month-drift-test）09-03 王语嫣裁定并单；月界口径②由王语嫣定夺：归档月份按被归档任务日期而非运行时刻（语义稳定，跨月补跑不串月）
+reviewer: 欧阳锋
+instance: huangyaoshi
+updated_at: '2026-09-02T17:53:16.210854+00:00'
 evidence: _tmp/627-evidence.txt
+reviewed_by: 欧阳锋
+review_date: '2026-09-02'
+grade: A-
 ---
 
 # #627 基建登记+月界测试（黄药师）
@@ -60,3 +63,19 @@ infrastructure-inventory.md 补登记：transcribe_win / vault_git_backup / cloc
 ### ③ 负向判词 / ④ 存在性核查
 
 🔴 意见书含负向断言（未同步/「未同步」）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
+
+
+## 终审记录（2026-09-03 欧阳锋 · PASS A- · methodology v2.3）
+
+**Verdict**：PASS，等级 **A-**。
+
+- ✅ **入仓取证**：`git show af0aca9ae` 三文件全入仓（90_control/infrastructure-inventory.md / kdo-tools/queue-archive.py / kdo-tools/tests/test_queue_archive.py）；HEAD 545bd0f5a 已含该 commit，其后 0871d5ba0（补存在性核查锚点）/98606af78（队列 complete）/42a9c9236（#628 claim）/545bd0f5a（vault backup）均不触碰本单交付文件。
+- ✅ **登记核对**：§3 工具族 +5 行（vault_git_backup/vault-integrity-check/wiki-vault-restore/clock_watchdog/kimi-headless-launch，位置/职责/最近验证/关联五列全实证）+ §3b +1 行（transcribe_win）+ §0 工具族 20→42；§3 表实测 42 数据行=37+5 重计成立。
+- ✅ **月界改造核对**：collect_archive_candidates 返回 (原始行, 归月键 YYYY-MM)，主表行=任务单 updated_at 月、划掉行=终审日期月；run() 按行归月分组落多月文件、git 收口路径列表化；fixture 日期全部相对 now 动态推导（60d/90d/10d/3d），断言随 fixture 推导不写死。
+- ✅ **独立复跑**：test_infra_status **8 passed**、test_queue_archive **3 passed**、全量回归 kdo-tools/tests + 90_control/scripts/tests **482 passed / 0 failed**（本单两测试复绿；较执行报告 477 多出的 5 条=并发 #628 施工 test_vault_git_backup_gate.py 经 01:38 vault backup commit 落盘，非本单噪声，全绿无新红）。
+- ✅ **口径② dry-run 实证**：真实队列 `--dry-run` 23 候选主表行全部预览归 [2026-08]（跨月补跑不串月成立）。
+- ✅ **存在性核查逐条复核**（#433 负向闭环）：①§5 缺 kdo-vault-git-backup/kdo-wiki-bundle-backup/kdo-huangyaoshi-doorbell 行——schtasks 三任务均在列（vault-git-backup Ready 1:50 / wiki-bundle-backup Ready 2:30 / huangyaoshi-doorbell Disabled），§5 段 grep 无三任务名 ✓；②未动 infra-status.py ASSETS 清单——本单 diff 仅 3 文件无 infra-status.py ✓；③review_days 参数未接线——collect_archive_candidates 签名无 review_days、L99 判龄用 days(14) 非 review_days(30) ✓。
+- ✅ **机器预审 🔴 已闭环**：机器层曾报「负向断言无存在性核查锚点」，commit 0871d5ba0 已补存在性核查节，本次逐条复核三条负向断言全部成立。
+- 🟡 **边界项（非阻塞，落点=待王语嫣另立登记）**：§0 其他族计数存量漂移（§1 11 行 vs 计 10、§2 10 行 vs 计 12、§5 计划任务三任务缺行）与本单 6 资产无关，正确声明未动；review_days 参数未接线为存量缺陷仅报告未改——两处去向均为待王语嫣裁决另立登记单（黄药师已在建议书通道挂号）。
+
+**残余风险**：无阻塞项。§0 全量重计 + review_days 接线两处存量债务已在任务单边界挂号，落点=待王语嫣另立登记，非本单范围。
