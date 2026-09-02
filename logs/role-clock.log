@@ -1090,3 +1090,6 @@
 ⏰ 唤醒 ouyangfeng（到点（节奏 30min））→ ['todos']
 ⏰ 唤醒 huangyaoshi（到点（节奏 15min））→ ['todos']
 ⏰ 唤醒 laowantong（到点（节奏 15min））→ ['todos']
+⏰ 唤醒 wangyuyan（到点（节奏 30min））→ ['todos']
+⏰ 唤醒 ouyangfeng（事件驱动：有待终审）→ ['todos']
+[role_clock] 无到期角色
