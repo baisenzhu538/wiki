@@ -123,3 +123,4 @@ updated_at: 2026-08-09
 2026-09-03 01:42/huangyaoshi/claim 用 seq(627) 报"不在生产队列中"（find_task 匹配队列行 col2 完整 id）/queue_gate.find_task 无 seq 别名解析，报错误导——三度同坑（#621/#622/本次），建议 find_task 支持 seq 或报错提示完整 id
 2026-09-03 01:42/huangyaoshi/complete --evidence 内联文本被拒（需文件路径）/arg 语义=文件路径，文档/指令模板未明示——落 _tmp/*.txt 规避
 2026-09-03 01:38-01:42/huangyaoshi/孤儿 backup commit 收走施工文件（545bd0f5a）/源未锁定，疑 #607 未迁移尽的会话级 cron——建议书已上 diag_20260903_huangyaoshi-backup-orphan-source
+- [2026-09-03 02:20] [wangyuyan] hermes 无头拉起坑：挂死实例持 profile 锁→后续拉起全部静默挂起（0 字节日志、进程活着不干活）——三连挂实证（01:21/02:11/02:14），杀死挂死进程后恢复。判定法：claimed 无产出+日志 0 字节+hermes.exe 进程在=wmic 按 CreationDate 找挂死者 taskkill。待机制化：拉起器加「同角色已有活实例则不拉/先杀」守卫
