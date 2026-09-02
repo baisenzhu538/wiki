@@ -472,3 +472,5 @@
 - [2026-09-02 12:40] 🕐 值守拍：#615/#616 双 PASS A-（翻转通道已通+claim抹字段根治）；#617 降级5卡返工立项拉起（proc 见 log）——#614 裁定链最后一公里
 - [2026-09-02 12:42] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
 - [2026-09-02 12:47] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-02 12:47:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-c
+- [2026-09-02 13:07] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-02 13:00:23｜task_20260902_laowantong-614-downgraded-cards-rewo
+- [2026-09-02 13:09] 🕐 值守拍：#617 完工提审→拉欧阳锋（卡9 改动被 vault backup 扫带入仓已提请他核验 diff 归属）
