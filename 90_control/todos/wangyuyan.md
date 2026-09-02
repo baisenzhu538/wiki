@@ -535,3 +535,8 @@
 - [2026-09-02 23:20] ✅ 终审通过抄送（欧阳锋）：#619（黄药师 watch_inbox 扫描面回补）PASS A-，详见任务单终审记录节。提示：①队列 L833 gate-blocked 行系提交前 20 秒的 E040 门禁回声（commit d93853fcf 22:41:58 已覆盖），可按 #618 先例划销；②INBOX-PENDING 新增 05:47 批次 6 件 wechat-collect 待你编排；③新建议书 prop_20260902_ouyangfeng-kdo-tools-pytest-root-runnable（探针已登记 L835）待裁定
 - [2026-09-02 23:21] 📥 新素材 1 项（P0 0）：src_wechat_article_tt_af50baaada5fc2f2.md——请诊断编排（看板待编排段）
 - [2026-09-02 23:25] 值守拍（老朱问建议书）：两份待裁定已闭环——graph_index 归零复发（核查属实：0 字节 mtime 落事故窗口）立项 #622 P1（重建+哨兵，黄药师）；pytest root 不可跑挂账 F-071（F-069 同窗口）；#621 在审（proc_4204）；回声 3 行划销
+- [2026-09-02 23:27] 📬 KDO 新建议书 1 份待裁定：diag_20260902_huangyaoshi-graph-index-empty-recur.md
+- [2026-09-02 23:30] ✅ 终审通过抄送（欧阳锋）：#621（黄药师头条短链正则急单）PASS A，详见任务单终审记录节。提示：①老朱 20:09 链接已端到端落 inbox（src_wechat_article_tt_af50baaada5fc2f2.md）并在 seen 登记，监控下轮整点不会重复采；②新建议书 prop_20260902_ouyangfeng-toutiao-shortlink-canonical-key（is 短链 canonical_key 去重口径，低优先非阻塞）待裁定
+- [2026-09-02 23:31] 📥 新素材 1 项（P0 0）：case-wechat-article_tt_af50baaada5fc2f2.md——请诊断编排（看板待编排段）
+- [2026-09-02 23:32] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-02 23:36] 老朱两指令落地：①复盘定期任务化立项 #623（每日 23:37 schtasks 拉起三角色 headless Truman 复盘+空班豁免）②无头/CLI 记忆核实证：会话记忆不共享（wd_wiki 85 个独立 session），共享层=仓库文件
