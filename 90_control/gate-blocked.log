@@ -582,3 +582,5 @@
 2026-09-03 01:33:13｜task_20260903_huangyaoshi-infra-registry-and-archive-test-fix｜F-034-五字段｜--evidence 文件不可读: 6资产登记§3+5行/§3b+1行（最近验证全实证）+§0工具族42重计；queue-archive口径②按任务日期归月+fixture动态日期化；test_inf｜huangyaoshi
 2026-09-03 01:37:01｜建议书_20260902_调研域skill化缺口与四类型整合.md｜near-miss-三元组（#506）｜status=pending-review 疑似待编排但非 pending_orchestration｜conveyor_probe
 2026-09-03 01:47:01｜diag_20260903_huangyaoshi-backup-orphan-source.md｜near-miss-三元组（#506）｜type: proposal 但三元组不完整：status=proposed（应 pending_orchestration）｜conveyor_probe
+2026-09-03 01:50:13｜task_20260903_huangyaoshi-infra-registry-and-archive-test-fix｜F-035-意见书｜任务单缺少「## 终审记录」节（#429 F-035：审查意见必须落盘，口头/群里意见=未审查）｜欧阳锋
+2026-09-03 01:51:46｜task_20260903_huangyaoshi-infra-registry-and-archive-test-fix｜F-036-问题落点｜审查发现问题未给落点（F-036）：- 🟡 **机器预审 🔴 已闭环**：机器层曾报「负向断言无存在性核查锚点」，commit 0871d5ba0 已补存在；- 🟡 **边界认可（非阻塞）**：§0 ｜欧阳锋
