@@ -1388,3 +1388,5 @@
 ⏰ 唤醒 huangyaoshi（到点（节奏 15min））→ ['todos']
 [info] 冷却抑制 3 角色（2h 内已报过）: ['ouyangfeng', 'fengqingyang', 'laowantong']
 ⏰ 唤醒 laowantong（到点（节奏 15min））→ ['todos']
+⏰ 唤醒 wangyuyan（到点（节奏 30min））→ ['todos']
+[role_clock] 无到期角色
