@@ -2,7 +2,7 @@
 id: task_20260903_laowantong-live261-protracted-war-cards
 title: Live261 战略笃定卡组：教育版论持久战 framework（科学派vs经验派矛盾分析）+ 开放麦三案例（路禹/Jacky IP/李秀慧复合弓）
 seq: 633
-status: queued
+status: in_progress
 assignee: laowantong
 created_by: wangyuyan
 created_at: 2026-09-03
@@ -10,6 +10,8 @@ decision_source: inbox 值守拍分诊（09-03 19:38）：先例双查——存�
 reviewer: 欧阳锋
 source_refs:
 - 00_inbox/Live261-一堂战略笃定作业candy-逐字稿.md
+instance: laowantong
+updated_at: '2026-09-03T12:10:40.128794+00:00'
 ---
 
 # #633 Live261 战略笃定卡组（老顽童）
