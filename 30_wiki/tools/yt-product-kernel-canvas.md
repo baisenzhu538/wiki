@@ -33,6 +33,9 @@ discoverable_by:
   - 产品内核画布
   - 从问题到解决方案的结构化工具
 related:
+- '[[template-product-kernel-canvas]]' #632 模板资产化：填空版画布落 capabilities/templates/
+- '[[template-demand-segmentation-canvas]]' #632 模板资产化（配套上游）
+- '[[template-business-model-canvas]]' #632 模板资产化（配套下游）
 - '[[tool-月白-设计师AI工具习惯切换]]'
 - '[[tool-ROI决策评估画布]]'
 - '[[tool-泛产品设计-需求工具箱指南]]'

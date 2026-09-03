@@ -33,6 +33,7 @@ source_refs:
 - 00_inbox/龙虾员工实践/AI落地Live86-龙虾员工实践-逐字稿.md
 related:
 - '[[tool-agent-white-paper-five-elements]]'
+- '[[agent-whitepaper-template]]' #632 模板资产化：11 节填空模板落 capabilities/templates/
 - '[[framework-truman-agent-team-architecture]]'
 - '[[case-kinda-digital-employees-fullview]]'
 - '[[dk-rule-not-system-capability]]'

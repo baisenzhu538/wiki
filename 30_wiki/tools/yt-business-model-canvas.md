@@ -29,6 +29,7 @@ discoverable_by:
   - 商业模式画布
   - 一堂版
 related:
+- '[[template-business-model-canvas]]' #632 模板资产化：9 要素填空+匹配检查落 capabilities/templates/
 - '[[tool-ROI决策评估画布]]'
 - '[[tool-行业分析画布]]'
 - '[[tool-提问刻意练习画布]]'

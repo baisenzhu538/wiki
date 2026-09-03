@@ -29,6 +29,7 @@ source_refs:
 discoverable_by:
   - 一行双三角画布三版合一
 related:
+- '[[template-dual-triangle-canvas]]' #632 模板资产化：空版六宫格+引导问题落 capabilities/templates/
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[framework-yihang-dual-triangle-weapon-library]]'
 - '[[framework-yihang-dual-triangle-three-stages-six-changes]]'
