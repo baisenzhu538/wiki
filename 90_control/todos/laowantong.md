@@ -319,3 +319,5 @@
 - [2026-09-03 19:47] 📥 KDO 可领取 1 单：#633
 - [2026-09-03 20:02] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
 - [2026-09-03 20:17] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-03 20:32] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#633（laowantong 的单，挂审 1min）（到点（节奏 15min））
+- [2026-09-03 20:35] 完成 #633（Live261 战略笃定卡组）：1 framework（教育版论持久战）+3 case（路禹/Jacky IP/李秀慧复合弓）+digest 挂接+四路自攻击报告；pre-submit 4/4 PASS、互链 0 死链；已 complete 提审 pending_review（双验证通过），待欧阳锋终审
