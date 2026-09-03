@@ -1,16 +1,17 @@
 ---
-id: task_20260903_laowantong-template-assetization-batch1
-title: 模板资产化批1：Agent 白皮书模板文件化 + 复盘画布/私董会SOP/双三角画布/回款playbook/产品画布族抽模板（落 capabilities/templates/）
-seq: 632
-status: pending_review
-assignee: laowantong
-created_by: wangyuyan
-created_at: 2026-09-03
-decision_source: 老朱 09-03 直令「模板是重要资产，按同标准排查全库同样处理」+ 王语嫣全库扫描（子代理严标准：可直接填空/照做才算）
-reviewer: 欧阳锋
-instance: laowantong
-updated_at: '2026-09-03T02:23:37.299569+00:00'
+id: task_20260903_laowantong-template-assetization-batch1
+title: 模板资产化批1：Agent 白皮书模板文件化 + 复盘画布/私董会SOP/双三角画布/回款playbook/产品画布族抽模板（落 capabilities/templates/）
+seq: 632
+status: queued
+assignee: laowantong
+created_by: wangyuyan
+created_at: 2026-09-03
+decision_source: 老朱 09-03 直令「模板是重要资产，按同标准排查全库同样处理」+ 王语嫣全库扫描（子代理严标准：可直接填空/照做才算）
+reviewer: 欧阳锋
+instance: laowantong
+updated_at: '2026-09-03T02:50:50.164180+00:00'
 evidence: 60_feedback/tasks/evidence_20260903_632_template-batch1.md
+rework: true
 ---
 
 # #632 模板资产化批1（老顽童）
@@ -83,3 +84,44 @@ evidence: 60_feedback/tasks/evidence_20260903_632_template-batch1.md
 ### ③ 负向判词 / ④ 存在性核查
 
 ✅ 执行报告无负向断言词（检查面=执行报告节）
+
+## 终审记录
+
+**methodology_version**: v2.3
+**verdict**: FAIL（退回返工）
+**reviewer**: 欧阳锋
+**review_date**: 2026-09-03
+
+### P0/P1/P2 清单
+
+🔴 **P0（阻断）**：双向互链存在 15 处死链——模板文件名无 `template-` 前缀（如 `retrospective-canvas.md`，`id` 亦无前缀），但源卡 related 回链与模板间互链统一写成了 `[[template-XXX]]`，指向不存在的文件（`template-XXX.md`）。核心交付项「互链」未成立。
+
+🔵 **说明（非阻断，留痕）**：任务单「9 件/6+3」与文件清单 8 件不一致。裁定按文件清单 8 件（5 单件 + 产品画布族 3 件套）；「9」为编排侧对 item 6 三件套的重复计数，无缺交付，无需补第 9 件。
+
+### 字段级定位（L 行号）
+
+需将 15 处 `[[template-X]]` 改为 `[[X]]`（去掉 `template-` 前缀，对齐实际文件名/`id`）：
+
+源卡 related（9 处）：
+- 30_wiki/tools/tool-yitang-retrospective-canvas.md:30 `[[template-retrospective-canvas]]`
+- 30_wiki/tools/tool-private-board-facilitation-sop.md:39 `[[template-private-board-facilitation-sop]]`
+- 30_wiki/tools/tool-yihang-dual-triangle-canvas.md:32 `[[template-dual-triangle-canvas]]`
+- 30_wiki/tools/tool-yitang-payment-collection-playbook.md:36 `[[template-payment-collection-playbook]]`
+- 30_wiki/tools/yt-product-kernel-canvas.md:36/37/38 `[[template-product-kernel-canvas]]` `[[template-demand-segmentation-canvas]]` `[[template-business-model-canvas]]`
+- 30_wiki/tools/yt-business-model-canvas.md:32 `[[template-business-model-canvas]]`
+- 30_wiki/tools/yt-demand-segmentation-canvas.md:32 `[[template-demand-segmentation-canvas]]`
+
+模板间互链（6 处）：
+- 40_outputs/capabilities/templates/product-kernel-canvas.md:15 `[[template-demand-segmentation-canvas]]` `[[template-business-model-canvas]]`
+- 40_outputs/capabilities/templates/business-model-canvas.md:15 `[[template-product-kernel-canvas]]` `[[template-demand-segmentation-canvas]]`
+- 40_outputs/capabilities/templates/demand-segmentation-canvas.md:15 与 :84 `[[template-product-kernel-canvas]]`
+
+**存在性核查**：全库 glob 检索 7 个 `template-XXX.md` 文件名（retrospective-canvas / private-board-facilitation-sop / dual-triangle-canvas / payment-collection-playbook / product-kernel-canvas / business-model-canvas / demand-segmentation-canvas，均带 `template-` 前缀）0 命中；实际 8 件模板文件名均无 `template-` 前缀且 `id`=文件名。唯一可解析的回链是 `30_wiki/tools/tool-agent-whitepaper-full-lifecycle-template.md` 的 `[[agent-whitepaper-template]]`（文件 `agent-whitepaper-template.md` 存在）。git show 2e207340f 显示 8 源卡各 +1 行（product-kernel +3 行），即上述 backlink 行。
+
+### 期望形态
+
+1. 15 处 `[[template-XXX]]` 全部改为 `[[XXX]]`（与模板文件名/`id` 对齐），或 8 件模板文件统一重命名为 `template-XXX.md` 并同步改 `id`——二选一，全库一致；优先前者（改动面最小，且 `agent-whitepaper-template` 已按无前缀风格自洽）。
+2. 修复后重跑双向互链校验：源卡 related→模板文件名 0 死链、模板 head/source_card→源卡 0 死链。
+3. 任务单追记一句计数口径裁定（8 件，无缺交付）。
+
+**落点**：全部问题本单内返工修复（退回 queued），纯交付缺陷，无基建/流程/渠道/纪律项，不另立新单、不写建议书。
