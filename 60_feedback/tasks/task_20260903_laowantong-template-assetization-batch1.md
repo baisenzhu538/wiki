@@ -1,41 +1,41 @@
 ---
-id: task_20260903_laowantong-template-assetization-batch1
-
-
-
-title: 模板资产化批1：Agent 白皮书模板文件化 + 复盘画布/私董会SOP/双三角画布/回款playbook/产品画布族抽模板（落 capabilities/templates/）
-
-
-
-seq: 632
-
-
-
-status: in_progress
-assignee: laowantong
-
-
-
-created_by: wangyuyan
-
-
-
-created_at: 2026-09-03
-
-
-
-decision_source: 老朱 09-03 直令「模板是重要资产，按同标准排查全库同样处理」+ 王语嫣全库扫描（子代理严标准：可直接填空/照做才算）
-
-
-
-reviewer: 欧阳锋
-
-
-
-instance: laowantong
-updated_at: '2026-09-03T03:10:34.045023+00:00'
+id: task_20260903_laowantong-template-assetization-batch1
+
+
+
+title: 模板资产化批1：Agent 白皮书模板文件化 + 复盘画布/私董会SOP/双三角画布/回款playbook/产品画布族抽模板（落 capabilities/templates/）
+
+
+
+seq: 632
+
+
+
+status: pending_review
+assignee: laowantong
+
+
+
+created_by: wangyuyan
+
+
+
+created_at: 2026-09-03
+
+
+
+decision_source: 老朱 09-03 直令「模板是重要资产，按同标准排查全库同样处理」+ 王语嫣全库扫描（子代理严标准：可直接填空/照做才算）
+
+
+
+reviewer: 欧阳锋
+
+
+
+instance: laowantong
+updated_at: '2026-09-03T03:18:37.973847+00:00'
 evidence: 60_feedback/tasks/evidence_20260903_632_template-batch1.md
-
+
 rework: true
 ---
 
@@ -162,3 +162,4 @@ rework: true
   - 期望形态选项判定：选「改链接对齐无前缀文件名」（非重命名模板）——与终审优先项一致，且与已自洽的 agent-whitepaper-template 同风格
 - 边界说明（复扫发现的 6 条非本单项，逐一定性）：①dual-triangle 源卡 related L46-49 的「双三角画布/一行双三角画布/一堂双三角/人机协作双三角」4 条为裸文本别名行（非 [[ ]] wikilink，2e207340f 之前历史存量，不在终审 P0 清单）——未动；②agent-whitepaper-template L56 的 [[Agent ID 1]]/[[Agent ID 2]] 为占位符填空位设计——未动
 - 计数口径裁定追记（终审期望形态 #3）：按欧阳锋终审裁定，本单交付按 8 件计（5 单件 + 产品画布族三件套），「9 件」系编排侧对三件套的重复计数，无缺交付，不重补
+
