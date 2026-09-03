@@ -602,3 +602,4 @@
 2026-09-03 07:22:00｜role-liveness｜fengqingyang 全实例疑似死亡（stale: [('kimi-cli', 3146.1)]）｜role_registry check-liveness｜role_registry
 2026-09-03 07:52:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 1797.2), ('cli', 62.8), ('hermes', 1967.7)]）｜role_registry check-liveness｜role_registry
 2026-09-03 08:52:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 1856.7), ('cli', 120.2)]）｜role_registry check-liveness｜role_registry
+2026-09-03 09:22:00｜role-liveness｜fengqingyang 全实例疑似死亡（stale: [('kimi-cli', 3266.1)]）｜role_registry check-liveness｜role_registry
