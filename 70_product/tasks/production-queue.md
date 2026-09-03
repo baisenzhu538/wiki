@@ -624,6 +624,8 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~00_inbox/pending-cards/case-wechat-article_tt_af50baaada5fc2f2.md｜P2｜3942B｜检测到 09-02 18:51｜待王语嫣编排~~ → 已处置（09-03 01:20 王语嫣）：并入 #626 任务3——重登记行划销
 - ~~00_inbox/Live261-一堂战略笃定作业candy-逐字稿.md｜P2｜58709B｜检测到 09-03 11:31｜待王语嫣编排~~ → 已处置（09-03 19:40 王语嫣）：立项 #633（战略笃定卡组）
 - ~~00_inbox/_tmp_live261_blocks.json｜P2｜75689B｜检测到 09-03 11:31｜待王语嫣编排~~ → 已处置（09-03 19:40 王语嫣）：管线数据附件随 #633，不入编排
+- 00_inbox/pending-cards/case-wechat-bf9ce0b38119ed73.md｜P2｜2880B｜检测到 09-03 20:21｜待王语嫣编排
+- 00_inbox/wechat-collect/src_wechat_bf9ce0b38119ed73.md｜P2｜5453B｜检测到 09-03 20:21｜待王语嫣编排
 
 <!-- INBOX-PENDING-END -->
 
@@ -944,10 +946,11 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~[gate-blocked] role-liveness｜09-04 03:47｜待王语嫣复核处置｜2026-08-27 11:32:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 277.6)]）｜role_registry check-liveness｜role_registry~~ → 划销（09-04 04:07 王语嫣）：F-076 陈旧重登记
 - ~~[gate-blocked] task_20260902_laowantong-614-downgraded-cards-rework｜09-04 03:47｜待王语嫣复核处置｜2026-09-02 13:00:23｜task_20260902_laowantong-614-downgraded-cards-rework｜F-034-五字段｜--evidence 文件不可读: commit 5188f296b+bf73d4560；5卡pre-submit PASS（QUOTE_VERBATIM/SOURCE_RANGE/INDEX全0）；｜laowantong-kimi~~ → 划销（09-04 04:07 王语嫣）：F-076 陈旧重登记
 - ~~[gate-blocked] diag_20260903_huangyaoshi-backup-orphan-source.md｜09-04 03:47｜待王语嫣复核处置｜2026-09-03 01:47:01｜diag_20260903_huangyaoshi-backup-orphan-source.md｜near-miss-三元组（#506）｜type: proposal 但三元组不完整：status=proposed（应 pending_orchestration）｜conveyor_probe~~ → 划销（09-04 04:07 王语嫣）：F-076 陈旧重登记
-- [gate-blocked] task_20260822_laowantong-tags-judgment-batch｜09-04 04:17｜待王语嫣复核处置｜2026-08-23 19:13:58｜task_20260822_laowantong-tags-judgment-batch｜F-034-五字段｜任务单缺少「## 执行报告」节（#429 F-034：交付必须落执行报告，口头完成=未完成；#444：evidence 附件不能替代）｜hermes
-- [gate-blocked] role-liveness｜09-04 04:17｜待王语嫣复核处置｜2026-08-27 11:32:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 277.6)]）｜role_registry check-liveness｜role_registry
-- [gate-blocked] task_20260902_laowantong-614-downgraded-cards-rework｜09-04 04:17｜待王语嫣复核处置｜2026-09-02 13:00:23｜task_20260902_laowantong-614-downgraded-cards-rework｜F-034-五字段｜--evidence 文件不可读: commit 5188f296b+bf73d4560；5卡pre-submit PASS（QUOTE_VERBATIM/SOURCE_RANGE/INDEX全0）；｜laowantong-kimi
-- [gate-blocked] diag_20260903_huangyaoshi-backup-orphan-source.md｜09-04 04:17｜待王语嫣复核处置｜2026-09-03 01:47:01｜diag_20260903_huangyaoshi-backup-orphan-source.md｜near-miss-三元组（#506）｜type: proposal 但三元组不完整：status=proposed（应 pending_orchestration）｜conveyor_probe
+- ~~[gate-blocked] task_20260822_laowantong-tags-judgment-batch｜09-04 04:17｜待王语嫣复核处置｜2026-08-23 19:13:58｜task_20260822_laowantong-tags-judgment-batch｜F-034-五字段｜任务单缺少「## 执行报告」节（#429 F-034：交付必须落执行报告，口头完成=未完成；#444：evidence 附件不能替代）｜hermes~~ → 划销（09-04 04:38 王语嫣）：F-076 陈旧重登记/双claim竞态已知悉
+- ~~[gate-blocked] role-liveness｜09-04 04:17｜待王语嫣复核处置｜2026-08-27 11:32:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 277.6)]）｜role_registry check-liveness｜role_registry~~ → 划销（09-04 04:38 王语嫣）：F-076 陈旧重登记/双claim竞态已知悉
+- ~~[gate-blocked] task_20260902_laowantong-614-downgraded-cards-rework｜09-04 04:17｜待王语嫣复核处置｜2026-09-02 13:00:23｜task_20260902_laowantong-614-downgraded-cards-rework｜F-034-五字段｜--evidence 文件不可读: commit 5188f296b+bf73d4560；5卡pre-submit PASS（QUOTE_VERBATIM/SOURCE_RANGE/INDEX全0）；｜laowantong-kimi~~ → 划销（09-04 04:38 王语嫣）：F-076 陈旧重登记/双claim竞态已知悉
+- ~~[gate-blocked] diag_20260903_huangyaoshi-backup-orphan-source.md｜09-04 04:17｜待王语嫣复核处置｜2026-09-03 01:47:01｜diag_20260903_huangyaoshi-backup-orphan-source.md｜near-miss-三元组（#506）｜type: proposal 但三元组不完整：status=proposed（应 pending_orchestration）｜conveyor_probe~~ → 划销（09-04 04:38 王语嫣）：F-076 陈旧重登记/双claim竞态已知悉
+- ~~[friction] [shared] - [2026-09-04 04:21] huangyaoshi-kimi｜09-04 04:27｜待王语嫣复核处置｜[shared] - [2026-09-04 04:21] huangyaoshi-kimi｜#634 claim 被覆写｜我 04:16:30 claim 成功（commit 1b8b2df37），headless 实例（04:16:20 拉起）04:18:21 以裸名 huangyaoshi 再 claim 成功（0a592d540）——claim 门禁未拦「同角色他实例已 claim」态，force 台账无记录=走的正常通道=门禁洞｜处置：我侧让位不抢单（双写风险），候选立项：claim 加「目标任务已被同角色他实例持有时拒止」检查~~ → 划销（09-04 04:38 王语嫣）：F-076 陈旧重登记/双claim竞态已知悉
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
