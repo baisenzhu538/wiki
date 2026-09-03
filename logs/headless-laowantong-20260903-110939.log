@@ -1,0 +1,24 @@
+L9 双验证过。#632 返工闭环完成，收工。
+
+## #632 返工完成摘要
+
+**终审 FAIL 单点**：15 处死链（`[[template-X]]` → 实际文件名无前缀）
+
+**修复（严格按终审字段级行号清单逐条核销）**
+- 源卡 related 9 处：retrospective-canvas / private-board-facilitation-sop / dual-triangle-canvas / payment-collection-playbook / yt-product-kernel（3 行）/ yt-business-model / yt-demand-segmentation
+- 模板间互链 6 处：product-kernel:15（2 条）/ business-model:15（2 条）/ demand-segmentation:15+84
+- 共 10 文件，只动死链行，其余字段未动；选终审优先项「改链接对齐无前缀文件名」（非重命名）
+
+**复扫实证（L1 脚本实跑，非声称）**
+- 源卡 related → 模板文件名：8/8 解析命中，0 死链
+- 模板头/互链 → 源卡：8/8 解析命中，0 死链
+- 全库 `[[template-` 残留 15 行，全部在审查留痕（终审记录/todos/任务单日志），非链接语义
+- 复扫发现 6 条边界项逐一定性未动：dual-triangle 源卡 4 条裸文本别名（历史存量非 wikilink）+ whitepaper 模板 2 条占位符设计
+
+**落盘**
+- 任务单追记返工执行报告（L10 镜像对照）+ 计数口径裁定（按 8 件，不重补）
+- evidence 文件追加返工证据 + 验证分层声明（纯链接修复，无新 L2 狗粮面）
+- commit `9eee9714f`（修复+任务单+证据）/ todos 11:18 留痕已 commit
+- complete 提审 → **L9 双验证过**：队列 `pending_review: 1 = #632`，任务单 `status: pending_review`
+
+等欧阳锋终审。
