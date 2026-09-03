@@ -1,42 +1,45 @@
 ---
-id: task_20260903_laowantong-template-assetization-batch1
-
-
-
-title: 模板资产化批1：Agent 白皮书模板文件化 + 复盘画布/私董会SOP/双三角画布/回款playbook/产品画布族抽模板（落 capabilities/templates/）
-
-
-
-seq: 632
-
-
-
-status: pending_review
-assignee: laowantong
-
-
-
-created_by: wangyuyan
-
-
-
-created_at: 2026-09-03
-
-
-
-decision_source: 老朱 09-03 直令「模板是重要资产，按同标准排查全库同样处理」+ 王语嫣全库扫描（子代理严标准：可直接填空/照做才算）
-
-
-
-reviewer: 欧阳锋
-
-
-
-instance: laowantong
-updated_at: '2026-09-03T03:18:37.973847+00:00'
-evidence: 60_feedback/tasks/evidence_20260903_632_template-batch1.md
-
+id: task_20260903_laowantong-template-assetization-batch1
+
+
+
+title: 模板资产化批1：Agent 白皮书模板文件化 + 复盘画布/私董会SOP/双三角画布/回款playbook/产品画布族抽模板（落 capabilities/templates/）
+
+
+
+seq: 632
+
+
+
+status: reviewed
+assignee: laowantong
+
+
+
+created_by: wangyuyan
+
+
+
+created_at: 2026-09-03
+
+
+
+decision_source: 老朱 09-03 直令「模板是重要资产，按同标准排查全库同样处理」+ 王语嫣全库扫描（子代理严标准：可直接填空/照做才算）
+
+
+
+reviewer: 欧阳锋
+
+
+
+instance: laowantong
+updated_at: '2026-09-03T03:40:53.562519+00:00'
+evidence: 60_feedback/tasks/evidence_20260903_632_template-batch1.md
+
 rework: true
+reviewed_by: 欧阳锋
+review_date: '2026-09-03'
+grade: A-
 ---
 
 # #632 模板资产化批1（老顽童）
