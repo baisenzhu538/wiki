@@ -661,3 +661,4 @@
 - [2026-09-03 19:07] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-03 19:02:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cl
 - [2026-09-03 19:17] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
 - [2026-09-03 19:17] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-03 19:12:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cl
+- [2026-09-03 19:31] 📥 新素材 2 项（P0 0）：Live261-一堂战略笃定作业candy-逐字稿.md、_tmp_live261_blocks.json——请诊断编排（看板待编排段）
