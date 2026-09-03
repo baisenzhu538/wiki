@@ -461,11 +461,6 @@
       "domain": "framework-business-formula-y-model-bridge.md"
     },
     {
-      "path": "frameworks/framework-candy-transcript-workflow.md",
-      "type": "framework",
-      "domain": "framework-candy-transcript-workflow.md"
-    },
-    {
       "path": "frameworks/framework-ci-operating-model.md",
       "type": "framework",
       "domain": "framework-ci-operating-model.md"
@@ -1446,5 +1441,5 @@
       "domain": "yt-tool-unit-model-dynamic.md"
     }
   ],
-  "total_cards": 2917
+  "total_cards": 2924
 }

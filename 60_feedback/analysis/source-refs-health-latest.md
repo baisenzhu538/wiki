@@ -1,14 +1,14 @@
 # source_refs 健康检查报告
 
-**扫描范围**：2923 张卡片
-**有 source 的卡片**：2733 张
+**扫描范围**：2930 张卡片
+**有 source 的卡片**：2740 张
 **空 source 卡片**：187 张
-**source_refs 总数**：6007 条
-**文件路径类 source**：4323 条
-**✅ 文件存在**：4007 条
-**❌ 文件缺失**：316 条
+**source_refs 总数**：6015 条
+**文件路径类 source**：4332 条
+**✅ 文件存在**：4018 条
+**❌ 文件缺失**：314 条
 **⚠️ 污染引用**：8 条
-**🔗 行号锚引用**：783 条（剥锚后存在 783 条——剥锚修复前全被误判缺失，#543）
+**🔗 行号锚引用**：784 条（剥锚后存在 784 条——剥锚修复前全被误判缺失，#543）
 
 ---
 
@@ -104,8 +104,6 @@
 | `concept-yihang-human-in-the-loop-dual-triangle` | `https://arxiv.org/abs/2606.09848` |
 | `concept-yihang-human-in-the-loop-dual-triangle` | `https://repost.aws/articles/ARoAKFARXvRBOam8zeOs1ZbA/re-invent-2025-implementing-human-in-the-loop-controls-for-multi-agent-ai-systems` |
 | `concept-yitang-layered-self-consistency` | `00_inbox/解放思想探索营/解放思想创新体系-探索营-笔记.txt §4.2` |
-| `concept-一堂-business-prediction` | `00_inbox/一堂-商业预判课-Truman-口述.txt` |
-| `concept-一堂-business-prediction` | `00_inbox/一堂-商业预判课-truman-笔记.txt` |
 | `concept-目标-北极星型vs探索型` | `00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-笔记.txt §3.2` |
 | `concept-目标管理组织四阶段` | `00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-笔记.txt §7.1` |
 | `industry-ai-cases` | `3. **存量时代的企业竞争从“规模导向”转向“利润/品牌导向”，AI 既是加速器也是价格破坏者。** 奢侈品案例提出净利润 10%/20% 基线——来源：`src_20260614_3cefab90-奢侈品-存量时代营销逻辑.md:324-328`；AI 降低内容生产成本的同时，也压低服务报价，最终比拼的是产品竞争力与品牌溢价。` |
@@ -569,6 +567,7 @@
 | `case-truman-poker-deck-roi` | 1 | 1 | 0 | 0 | reviewed |
 | `case-truman-praise-wall-precondition` | 3 | 3 | 0 | 0 | reviewed |
 | `case-truman-prd-checklist-evolution` | 1 | 1 | 0 | 0 | reviewed |
+| `case-truman-roi-decision-spring-festival-class` | 1 | 1 | 0 | 0 | enriched |
 | `case-truman-sales-report-structure` | 1 | 1 | 0 | 0 | reviewed |
 | `case-truman-shower-toilet-ideation` | 2 | 2 | 0 | 0 | reviewed |
 | `case-truman-spring-festival-1000` | 3 | 0 | 3 | 0 | reviewed |
@@ -580,6 +579,7 @@
 | `case-wangfei-newyear-event-diagnosis` | 2 | 2 | 0 | 0 | draft |
 | `case-wechat-5291b61bc722d90d` | 1 | 1 | 0 | 0 | draft |
 | `case-wechat-6725b942182f6277` | 1 | 1 | 0 | 0 | draft |
+| `case-wechat-article-workbuddy-selfmedia-pipeline` | 1 | 1 | 0 | 0 | enriched |
 | `case-wechat-article_4dd7be7cd82f7e80` | 1 | 1 | 0 | 0 | draft |
 | `case-wechat-AWyGiJIRgc` | 1 | 1 | 0 | 0 | draft |
 | `case-wechat-dy_7666832665312982138` | 1 | 1 | 0 | 0 | draft |
@@ -626,7 +626,7 @@
 | `case-yitang-doorstep-pet-feeding-trust` | 2 | 2 | 0 | 0 | enriched |
 | `case-yitang-double-triangle-confidence` | 2 | 2 | 0 | 0 | reviewed |
 | `case-yitang-du-kids-education-sabc` | 3 | 3 | 0 | 0 | enriched |
-| `case-yitang-eason-truth-delivery-audit` | 1 | 1 | 0 | 0 | draft |
+| `case-yitang-eason-truth-delivery-audit` | 1 | 1 | 0 | 0 | reviewed |
 | `case-yitang-elderly-home-roleplay` | 1 | 1 | 0 | 0 | enriched |
 | `case-yitang-fake-interview-intelligence` | 1 | 1 | 0 | 0 | enriched |
 | `case-yitang-false-causality-collection` | 8 | 8 | 0 | 0 | enriched |
@@ -901,7 +901,7 @@
 | `concept-yitang-research-scope` | 2 | 2 | 0 | 0 | enriched |
 | `concept-一堂-Agent基本功修炼` | 3 | 3 | 0 | 0 | draft |
 | `concept-一堂-AI时代基本功变与不变` | 1 | 1 | 0 | 0 | enriched |
-| `concept-一堂-business-prediction` | 2 | 0 | 2 | 0 | reviewed |
+| `concept-一堂-business-prediction` | 2 | 2 | 0 | 0 | reviewed |
 | `concept-一堂-hypothesis-driven-business-methodology` | 4 | 4 | 0 | 0 | reviewed |
 | `concept-一堂-key-assumptions` | 5 | 5 | 0 | 0 | draft |
 | `concept-一堂-product-kernel` | 2 | 2 | 0 | 0 | reviewed |
@@ -1206,6 +1206,7 @@
 | `dk-content-implicit-value-without-price` | 1 | 1 | 0 | 0 | reviewed |
 | `dk-content-muscle-memory-vs-knowledge` | 1 | 1 | 0 | 0 | reviewed |
 | `dk-context-patching-recipe` | 1 | 1 | 0 | 0 | pending_review |
+| `dk-course-starts-from-unavoidable-question` | 1 | 1 | 0 | 0 | draft |
 | `dk-customers-hate-ai` | 1 | 1 | 0 | 0 | reviewed |
 | `dk-decision-when-to-defer` | 1 | 1 | 0 | 0 | reviewed |
 | `dk-delivery-path-type-bug` | 1 | 1 | 0 | 0 | reviewed |
@@ -1292,6 +1293,7 @@ expected <block end>, but found '<scalar>'
 | `dk-occhams-knife-tool-migration` | 1 | 1 | 0 | 0 | pending_review |
 | `dk-one-sentence-handover` | 1 | 1 | 0 | 0 | reviewed |
 | `dk-oral-spray-training-vs-task-optimal` | 2 | 0 | 2 | 0 | reviewed |
+| `dk-p15-unverified` | 1 | 1 | 0 | 0 | reviewed |
 | `dk-p16-validate-reads-state-json` | 1 | 1 | 0 | 0 | reviewed |
 | `dk-P42-agent-fact-check-gap` | 2 | 2 | 0 | 0 | reviewed |
 | `dk-panproduct-org-linear-to-circular` | 3 | 3 | 0 | 0 | reviewed |
@@ -1377,7 +1379,7 @@ expected <block end>, but found '<scalar>'
 | `dk-yitang-case-before-after` | 2 | 2 | 0 | 0 | draft |
 | `dk-yitang-case-crafting-pitfalls` | 2 | 2 | 0 | 0 | draft |
 | `dk-yitang-channel-exploration-traps` | 4 | 4 | 0 | 0 | reviewed |
-| `dk-yitang-fact-three-questions-trust-tiers` | 1 | 1 | 0 | 0 | draft |
+| `dk-yitang-fact-three-questions-trust-tiers` | 1 | 1 | 0 | 0 | reviewed |
 | `dk-yitang-innovation-failure-modes` | 2 | 2 | 0 | 0 | draft |
 | `dk-yitang-methodology-stack-fallacy` | 2 | 2 | 0 | 0 | reviewed |
 | `dk-yitang-over-abstraction` | 2 | 2 | 0 | 0 | reviewed |
@@ -1502,6 +1504,7 @@ expected <block end>, but found '<scalar>'
 | `framework-christensen-disruptive-innovation` | 3 | 1 | 0 | 0 | reviewed |
 | `framework-christensen-value-network` | 3 | 1 | 0 | 0 | reviewed |
 | `framework-coaching-leadership-core` | 1 | 1 | 0 | 0 | reviewed |
+| `framework-course-thought-production-line` | 1 | 1 | 0 | 0 | draft |
 | `framework-dopamine-recovery` | 4 | 4 | 0 | 0 | draft |
 | `framework-dual-center-feishu-obsidian` | 3 | 3 | 0 | 0 | reviewed |
 | `framework-fact-rule-insight` | 1 | 1 | 0 | 0 | pending_review |
@@ -1629,6 +1632,7 @@ expected <block end>, but found '<scalar>'
 | `knowledge-demand-2c-dictionary` | 2 | 2 | 0 | 0 | enriched |
 | `method-anthropic-skill-design-patterns` | 1 | 1 | 0 | 0 | reviewed |
 | `method-arui-business-scenario-3step-decomposition` | 2 | 2 | 0 | 0 | reviewed |
+| `method-course-creation-eleven-steps` | 1 | 1 | 0 | 0 | draft |
 | `method-dual-triangle-flywheel-engine` | 5 | 3 | 2 | 0 | draft |
 | `method-dual-triangle-human-ai-division` | 6 | 6 | 0 | 0 | draft |
 | `method-judge-skill-meta-evaluation` | 1 | 0 | 1 | 0 | reviewed |
@@ -1750,6 +1754,7 @@ expected <block end>, but found '<scalar>'
 | `tool-agent-spec-yitang-value-proposition` | 4 | 4 | 0 | 0 | reviewed |
 | `tool-agent-spec-yitang-Y-model-coach` | 6 | 6 | 0 | 0 | reviewed |
 | `tool-agent-white-paper-five-elements` | 1 | 0 | 1 | 0 | pending_review |
+| `tool-agent-whitepaper-full-lifecycle-template` | 2 | 2 | 0 | 0 | draft |
 | `tool-ai-adapted-workflow-design` | 1 | 0 | 1 | 0 | pending_review |
 | `tool-ai-agent-feature-comparison` | 5 | 4 | 1 | 0 | pending_review |
 | `tool-ai-critical-reading-three-layers` | 2 | 2 | 0 | 0 | enriched |
@@ -1825,6 +1830,7 @@ expected <block end>, but found '<scalar>'
 | `tool-four-line-review` | 2 | 0 | 2 | 0 | draft |
 | `tool-funnel-formula-modeling` | 4 | 4 | 0 | 0 | reviewed |
 | `tool-game-environment-checklist` | 9 | 2 | 0 | 0 | draft |
+| `tool-geo-ai-search-visibility-playbook` | 1 | 1 | 0 | 0 | enriched |
 | `tool-harness-adversarial-tester` | 1 | 1 | 0 | 0 | reviewed |
 | `tool-iceberg-triangle-modeling` | 3 | 3 | 0 | 0 | reviewed |
 | `tool-illuminator-vs-diminisher` | 2 | 2 | 0 | 0 | reviewed |
@@ -2389,8 +2395,6 @@ expected <block end>, but found '<scalar>'
 | browser-automation | draft | 2 |
 | feishu | reviewed | 2 |
 | human-insights | draft | 2 |
-| product | reviewed | 2 |
-| entrepreneurship | reviewed | 2 |
 | agent-engineering | draft | 2 |
 | management | pending_review | 2 |
 | modeling | reviewed | 2 |
@@ -2433,7 +2437,7 @@ expected <block end>, but found '<scalar>'
 | business-strategy | draft | 1 |
 | content | reviewed | 1 |
 
-### 指向 00_inbox 的死引（217 条——修复成本最低：归档即可）
+### 指向 00_inbox 的死引（215 条——修复成本最低：归档即可）
 
 | 卡片 ID | status | 缺失路径 |
 |---|---|---|
@@ -2481,8 +2485,6 @@ expected <block end>, but found '<scalar>'
 | `concept-yihang-ai-feature-thinking` | reviewed | `00_inbox/人机协作双三?一堂双三角-人机协作模型-口述.txt` |
 | `concept-yihang-ai-feature-thinking` | reviewed | `00_inbox/AI-study/一?AI学习-AI工具应用AMA口述.txt` |
 | `concept-yitang-layered-self-consistency` | draft | `00_inbox/解放思想探索营/解放思想创新体系-探索营-笔记.txt §4.2` |
-| `concept-一堂-business-prediction` | reviewed | `00_inbox/一堂-商业预判课-Truman-口述.txt` |
-| `concept-一堂-business-prediction` | reviewed | `00_inbox/一堂-商业预判课-truman-笔记.txt` |
 | `concept-目标-北极星型vs探索型` | draft | `00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-笔记.txt §3.2` |
 | `concept-目标管理组织四阶段` | draft | `00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-笔记.txt §7.1` |
 | `yt-management-basic-skills` | reviewed | `00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功方法论入门-口述.txt:L104-360（认知篇）` |
@@ -2537,7 +2539,9 @@ expected <block end>, but found '<scalar>'
 | `framework-oral-spray-five-advantages` | draft | `00_inbox/AI口喷能力训练全阶指南-口述.txt L764-L832（能流淌）` |
 | `framework-oral-spray-five-advantages` | draft | `00_inbox/AI口喷能力训练全阶指南-口述.txt L834-L870（阻力低）` |
 | `framework-oral-spray-five-advantages` | draft | `00_inbox/AI口喷能力训练全阶指南-口述.txt L888-L960（心法：把人当AI，把AI当人）` |
-| ... | 省略 117 条，见 JSON | |
+| `framework-strategy-conviction` | draft | `00_inbox/我用一堂做一堂/战略笃定-一堂AI转型复盘-口述.txt` |
+| `framework-strategy-conviction` | draft | `00_inbox/我用一堂做一堂/我用一堂做一堂-战略笃定篇-逐字稿.md` |
+| ... | 省略 115 条，见 JSON | |
 
 ### 缺引最多卡片 Top 50
 
@@ -2579,7 +2583,6 @@ expected <block end>, but found '<scalar>'
 | `case-wenxiaobao-campus-bilateral-network` | draft | 2 |
 | `case-wudi-innovation-contest-value` | draft | 2 |
 | `case-一堂-基本功-认知篇案例集` | enriched | 2 |
-| `concept-一堂-business-prediction` | reviewed | 2 |
 | `industry-ai-cases` | reviewed | 2 |
 | `dk-modeling-course-rnd-ripe-fruit` | reviewed | 2 |
 | `dk-modeling-jump-step-cost` | draft | 2 |
@@ -2593,6 +2596,7 @@ expected <block end>, but found '<scalar>'
 | `method-kdo-agent-design-meta` | reviewed | 2 |
 | `skill-yitang-project-spiral-thinking` | reviewed | 2 |
 | `tool-agent-research-supervisor` | reviewed | 2 |
+| `tool-agent-spec-yitang-daily-weekly-meeting-host` | reviewed | 2 |
 
 ---
 

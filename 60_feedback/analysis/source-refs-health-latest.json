@@ -1,16 +1,16 @@
 {
   "stats": {
-    "total_cards": 2923,
-    "cards_with_sources": 2733,
+    "total_cards": 2930,
+    "cards_with_sources": 2740,
     "cards_empty": 187,
     "cards_with_errors": 3,
-    "total_refs": 6007,
-    "refs_file_path": 4323,
-    "refs_ok": 4007,
-    "refs_missing": 316,
+    "total_refs": 6015,
+    "refs_file_path": 4332,
+    "refs_ok": 4018,
+    "refs_missing": 314,
     "refs_contaminated": 8,
-    "refs_line_anchor": 783,
-    "refs_line_anchor_alive": 783
+    "refs_line_anchor": 784,
+    "refs_line_anchor_alive": 784
   },
   "contaminated_cards": [
     {
@@ -398,14 +398,6 @@
       "file": "30_wiki/concepts/concept-yitang-layered-self-consistency.md",
       "missing": [
         "00_inbox/解放思想探索营/解放思想创新体系-探索营-笔记.txt §4.2"
-      ]
-    },
-    {
-      "card_id": "concept-一堂-business-prediction",
-      "file": "30_wiki/concepts/concept-一堂-business-prediction.md",
-      "missing": [
-        "00_inbox/一堂-商业预判课-Truman-口述.txt",
-        "00_inbox/一堂-商业预判课-truman-笔记.txt"
       ]
     },
     {
@@ -1753,16 +1745,6 @@
         "missing": 2
       },
       {
-        "domain": "product",
-        "status": "reviewed",
-        "missing": 2
-      },
-      {
-        "domain": "entrepreneurship",
-        "status": "reviewed",
-        "missing": 2
-      },
-      {
         "domain": "agent-engineering",
         "status": "draft",
         "missing": 2
@@ -2188,16 +2170,6 @@
         "card_id": "concept-yitang-layered-self-consistency",
         "status": "draft",
         "missing": "00_inbox/解放思想探索营/解放思想创新体系-探索营-笔记.txt §4.2"
-      },
-      {
-        "card_id": "concept-一堂-business-prediction",
-        "status": "reviewed",
-        "missing": "00_inbox/一堂-商业预判课-Truman-口述.txt"
-      },
-      {
-        "card_id": "concept-一堂-business-prediction",
-        "status": "reviewed",
-        "missing": "00_inbox/一堂-商业预判课-truman-笔记.txt"
       },
       {
         "card_id": "concept-目标-北极星型vs探索型",
@@ -3356,15 +3328,6 @@
         "missing": 2
       },
       {
-        "card_id": "concept-一堂-business-prediction",
-        "status": "reviewed",
-        "domain": [
-          "product",
-          "entrepreneurship"
-        ],
-        "missing": 2
-      },
-      {
         "card_id": "industry-ai-cases",
         "status": "reviewed",
         "domain": [
@@ -3469,6 +3432,16 @@
           "ai",
           "research",
           "agent"
+        ],
+        "missing": 2
+      },
+      {
+        "card_id": "tool-agent-spec-yitang-daily-weekly-meeting-host",
+        "status": "reviewed",
+        "domain": [
+          "personal-os",
+          "sales",
+          "ai-collaboration"
         ],
         "missing": 2
       }
