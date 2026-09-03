@@ -2,12 +2,14 @@
 id: task_20260903_laowantong-template-assetization-batch1
 title: 模板资产化批1：Agent 白皮书模板文件化 + 复盘画布/私董会SOP/双三角画布/回款playbook/产品画布族抽模板（落 capabilities/templates/）
 seq: 632
-status: queued
+status: in_progress
 assignee: laowantong
 created_by: wangyuyan
 created_at: 2026-09-03
 decision_source: 老朱 09-03 直令「模板是重要资产，按同标准排查全库同样处理」+ 王语嫣全库扫描（子代理严标准：可直接填空/照做才算）
 reviewer: 欧阳锋
+instance: laowantong
+updated_at: '2026-09-03T02:10:18.624670+00:00'
 ---
 
 # #632 模板资产化批1（老顽童）
