@@ -1,0 +1,38 @@
+---
+delivery_id: "del_20260903_live261_candy"
+artifact_id: "art_20260903_live261_candy"
+channel: "feishu_doc"
+shipped_at: "2026-09-03T19:50:00+08:00"
+feedback_status: "无反馈"
+source_url: "https://yitang.top/fs-doc/26266f7f7550cd2e6e216b1d5b750a34/AeoVd4QPGo355vx9STWc5ueenAg"
+extraction_method: "L3 (SSO登录态复用 + CDP window分段滚动DOM提取)"
+doc_id: "UKxidTr0aoWOJ0xgxb2chnhvncg"
+url: "https://yitanger.feishu.cn/docx/UKxidTr0aoWOJ0xgxb2chnhvncg"
+local_copy: "00_inbox/Live261-一堂战略笃定作业candy-逐字稿.md"
+permission: "anyone_readable"
+validation_snapshot:
+  passed: 509
+  failed: 0
+  warnings: 0
+---
+
+# Delivery Manifest: del_20260903_live261_candy
+
+## Artifact Info
+
+- title: Live261：一堂战略笃定作业 candy 逐字稿
+- chars: 21014
+- verify: raw_content 回读首尾完整，20174 字符；5 处 H5 降级段落修复为真 heading5
+
+## Extraction
+
+- source: yitang.top/fs-doc 非公开文档
+- method: TAT raw_content 403 → OAuth UAT 403（阿海账号无文档权限）→ L3 SSO 登录态复用 + CDP 分段滚动 listitem 提取
+- result: 334 blocks → Markdown 21014 字符
+
+## Publishing
+
+- blocks_ok: 509/509（11 批零失败）
+- h5_fix: 5 处（bt=2 带 ##### 前缀 → 删除+原位插 heading5；含 1 处误删补插）
+- permission: anyone_readable
+- url: https://yitanger.feishu.cn/docx/UKxidTr0aoWOJ0xgxb2chnhvncg
