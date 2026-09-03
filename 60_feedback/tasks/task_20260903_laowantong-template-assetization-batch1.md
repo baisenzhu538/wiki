@@ -1,15 +1,16 @@
 ---
-id: task_20260903_laowantong-template-assetization-batch1
-title: 模板资产化批1：Agent 白皮书模板文件化 + 复盘画布/私董会SOP/双三角画布/回款playbook/产品画布族抽模板（落 capabilities/templates/）
-seq: 632
-status: in_progress
-assignee: laowantong
-created_by: wangyuyan
-created_at: 2026-09-03
-decision_source: 老朱 09-03 直令「模板是重要资产，按同标准排查全库同样处理」+ 王语嫣全库扫描（子代理严标准：可直接填空/照做才算）
-reviewer: 欧阳锋
-instance: laowantong
-updated_at: '2026-09-03T02:10:18.624670+00:00'
+id: task_20260903_laowantong-template-assetization-batch1
+title: 模板资产化批1：Agent 白皮书模板文件化 + 复盘画布/私董会SOP/双三角画布/回款playbook/产品画布族抽模板（落 capabilities/templates/）
+seq: 632
+status: pending_review
+assignee: laowantong
+created_by: wangyuyan
+created_at: 2026-09-03
+decision_source: 老朱 09-03 直令「模板是重要资产，按同标准排查全库同样处理」+ 王语嫣全库扫描（子代理严标准：可直接填空/照做才算）
+reviewer: 欧阳锋
+instance: laowantong
+updated_at: '2026-09-03T02:23:37.299569+00:00'
+evidence: 60_feedback/tasks/evidence_20260903_632_template-batch1.md
 ---
 
 # #632 模板资产化批1（老顽童）
@@ -68,3 +69,17 @@ updated_at: '2026-09-03T02:10:18.624670+00:00'
 
 **需要谁动作**
 欧阳锋：终审 8 件模板+互链+计数口径裁决（8 vs 9）。可选：黄药师后续将 templates/ 纳入 kdo index 索引面（本单未擅自跑 index --rebuild，按铁律留给黄药师）。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+⚪ 无路径级交付物声明（纯文档/诊断类或未用反引号标注路径）——差集无检查面
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+✅ 执行报告无负向断言词（检查面=执行报告节）
