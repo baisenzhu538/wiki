@@ -1,18 +1,21 @@
 ---
-id: task_20260903_laowantong-live261-protracted-war-cards
-title: Live261 战略笃定卡组：教育版论持久战 framework（科学派vs经验派矛盾分析）+ 开放麦三案例（路禹/Jacky IP/李秀慧复合弓）
-seq: 633
-status: pending_review
-assignee: laowantong
-created_by: wangyuyan
-created_at: 2026-09-03
-decision_source: inbox 值守拍分诊（09-03 19:38）：先例双查——存量卡 case-20260829-zhanlue-dingding-l3-extraction 是提取方法卡非内容卡，内容级增量成立
-reviewer: 欧阳锋
-source_refs:
-- 00_inbox/Live261-一堂战略笃定作业candy-逐字稿.md
-instance: laowantong
-updated_at: '2026-09-03T12:31:51.883372+00:00'
+id: task_20260903_laowantong-live261-protracted-war-cards
+title: Live261 战略笃定卡组：教育版论持久战 framework（科学派vs经验派矛盾分析）+ 开放麦三案例（路禹/Jacky IP/李秀慧复合弓）
+seq: 633
+status: reviewed
+assignee: laowantong
+created_by: wangyuyan
+created_at: 2026-09-03
+decision_source: inbox 值守拍分诊（09-03 19:38）：先例双查——存量卡 case-20260829-zhanlue-dingding-l3-extraction 是提取方法卡非内容卡，内容级增量成立
+reviewer: 欧阳锋
+source_refs:
+- 00_inbox/Live261-一堂战略笃定作业candy-逐字稿.md
+instance: laowantong
+updated_at: '2026-09-03T12:47:34.295117+00:00'
 evidence: 60_feedback/adversarial/atk_live261-protracted-war-cards_20260903.md
+reviewed_by: 欧阳锋
+review_date: '2026-09-03'
+grade: A-
 ---
 
 # #633 Live261 战略笃定卡组（老顽童）
@@ -79,3 +82,29 @@ evidence: 60_feedback/adversarial/atk_live261-protracted-war-cards_20260903.md
 ### ③ 负向判词 / ④ 存在性核查
 
 ✅ 执行报告无负向断言词（检查面=执行报告节）
+
+## 终审记录
+
+**终审结论**：PASS A-（欧阳锋 · 2026-09-03 · methodology_version v2.3）
+**阻断判定**：无 Critical / High 阻断项；2 处低优先级表达层改进点（放行，不构成返工）
+**五维评分**：溯源完整 24/25 · 逻辑骨架 25/25 · 暗知识密度 18/20 · 可操作性 14/15 · 表达质量 13/15 → 94（A-）
+
+**O0 溯源**：已打开唯一 source_refs 源文件 `00_inbox/Live261-一堂战略笃定作业candy-逐字稿.md`（实测 868 行），逐条核验四卡引文与行号锚——L25/L53/L69-70（framework 原始表述）、L119/L142/L152/L210-212/L221-247（luyu 哲学三层+15 例）、L513/L519/L523/L531-L537/L553-L578/L607-609/L619-L638/L676-686（jacky）、L694-L754/L772/L786-L866（lixiuhui 战争叙事与拼接段）——全部命中，无编造、无跨场串行。
+
+**存在性核查**（互链/死链/先例/source_refs/digest）：
+- 互链：4 卡 related 共引用 10 个卡 id（3 张新卡 + 7 张存量卡），按 `id:` 逐一查证 10/10 文件存在，0 死链。
+- source_refs：`check-source-refs.py` 逐卡校验 4/4 文件存在、0 污染引用。
+- 先例双查：`case-20260829-zhanlue-dingding-l3-extraction`=提取方法卡、`framework-strategy-conviction`=战略笃定定义/实证层——本批为论证方法层+三行业应用层，增量成立无撞车。
+- digest 挂接：`strategy-domain-digest.md` 核心框架表+关键案例表各 1 行已入位。
+
+**审查裁定（生产方提出的三个重点）**：
+1. framework 判定规则跨场引用（L329-335 质/量双弱换分析主体、L363-367 补充速度>损耗速度）——**接受**：卡片在两处标注「路禹场补充/关键补充」出处，规则语义与 framework 第三步自洽，非移花接木。
+2. lixiuhui 生产侧推演标注——**核销**：「谈打抉择」节与「阶段判断」节开头均加 ⚠️ 推演属性标注，与自攻击 🟡 修复一致。
+3. 拼接段处置——**接受**：「素材形态备注」节如实记录 L786 起科学营销宣讲断裂、不作为复合弓案例证据、「阳谋论」留待归属对账后另行立项，符合任务单边界。
+
+**改进点（低优先级，放行）**：
+1. framework 卡「原始表述」L69-70 引文在「然后找到更底层的规律」处收口，源文该句后续为「，然后尝试找到更底层的一般性本质」——引文收口位置偏前，语义无损，建议后续补全或将引号前移。
+2. lixiuhui 卡 frontmatter source_context 标「L786-836 段」，而素材形态备注列举内容实际延至 L854/L866——边界口径小偏差（全貌已如实记录、不影响判定），建议统一为「L786-866」。
+（以上两处随老顽童下批顺手修订即可，不单独立项。）
+
+**需要谁动作**：老顽童（可选）——下批顺手修订上述两处表达层标注；王语嫣——拼接段（L786-866 科学营销宣讲/星哥讲增长）归属对账后决定「阳谋论」是否单独立项。
