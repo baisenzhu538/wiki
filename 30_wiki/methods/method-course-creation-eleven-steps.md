@@ -2,9 +2,9 @@
 id: method-course-creation-eleven-steps
 title: 课程创作 11 条方法口诀——思想生产线的操作化步骤（每条=触发信号+动作+判断标准）
 type: method
-status: draft
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.82
 trust_level: medium
 language: zh-CN
@@ -45,8 +45,8 @@ tags:
 - 课程创作
 - 方法论
 - SOP
+review_date: 2026-09-03
 ---
-
 # 课程创作 11 条方法口诀——思想生产线的操作化步骤
 
 > **本卡属于** [[framework-course-thought-production-line]] 的操作化步骤层。框架卡回答"整条生产线长什么样"，本卡回答"每一步具体怎么走、走没走对的信号是什么"。原稿 15 节拆出 11 条方法口诀（对仗句为原稿原貌），本卡逐条补触发信号+动作+判断标准。

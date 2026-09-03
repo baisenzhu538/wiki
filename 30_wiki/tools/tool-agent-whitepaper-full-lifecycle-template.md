@@ -2,9 +2,9 @@
 id: tool-agent-whitepaper-full-lifecycle-template
 title: Agent 工作白皮书 11 节全生命周期模板——从五要素定义到权限三层·初始化 16 步·灵魂校验的工程化蓝本
 type: tool
-status: draft
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: medium
 language: zh-CN
@@ -55,8 +55,8 @@ tags:
 - 数字员工
 - Agent
 - 模板
+review_date: 2026-09-03
 ---
-
 # Agent 工作白皮书 11 节全生命周期模板
 
 > ⚠️ **密级声明**：源文档标注「内容开放复制权限，自己练习，**不要外传**」。本卡按 #322 口径双标注：模板结构与工程原则可内化引用，业务配置细节（模型价格/内部域名/Agent 真名）已脱敏。

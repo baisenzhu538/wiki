@@ -2,9 +2,9 @@
 id: framework-course-thought-production-line
 title: 国帅思想生产线：人开题·机加工·人判断——AI 时代课程/内容生产的 11 环全链框架
 type: framework
-status: draft
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.82
 trust_level: medium
 language: zh-CN
@@ -53,8 +53,8 @@ tags:
 - 课程创作
 - 内容生产
 - 人机协作
+review_date: 2026-09-03
 ---
-
 # 国帅思想生产线：人开题·机加工·人判断——AI 时代课程/内容生产的 11 环全链框架
 
 > **本卡定位**：多文档内容产品（课程系列/系列文章）的生产线级框架。单篇稿子怎么写，见 [[framework-candy-transcript-workflow]]（九步法）；本卡管的是**从困惑到成品课程的全链路**——起点、引擎、收束、再生的完整生产系统。

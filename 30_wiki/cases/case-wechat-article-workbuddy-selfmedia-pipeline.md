@@ -2,9 +2,9 @@
 id: case-wechat-article-workbuddy-selfmedia-pipeline
 title: WorkBuddy 自媒体全自动流水线案例——每周 3 篇×6 小时到日更 22 篇+40%：AI 执行重复劳动+人工终审的人机分工实证
 type: case
-status: enriched
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.65
 trust_level: low
 language: zh-CN
@@ -51,8 +51,8 @@ tags:
 - 自媒体
 - 自动化
 - 人机协作
+review_date: 2026-09-03
 ---
-
 # WorkBuddy 自媒体全自动流水线案例——每周 3 篇×6 小时到日更 22 篇+40%：AI 执行重复劳动+人工终审的人机分工实证
 
 > **定位声明**：本卡是「AI 执行重复劳动+人工终审」人机分工模式的**流程实证案例**——它不回答"AI 写得好不好"，回答"把整条内容流水线交给 Agent 执行后，人应该守哪几个决策点"。

@@ -2,9 +2,9 @@
 id: dk-course-starts-from-unavoidable-question
 title: 课从绕不过去的问题开始，不从知识开始——困惑先于选题的暗知识
 type: dk
-status: draft
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.82
 trust_level: medium
 language: zh-CN
@@ -47,8 +47,8 @@ tags:
 - 暗知识
 - 选题
 - 课程创作
+review_date: 2026-09-03
 ---
-
 # 课从绕不过去的问题开始，不从知识开始——困惑先于选题的暗知识
 
 > **定位**：本卡属于 [[framework-course-thought-production-line]] 生产线起点环（环 1）的 dk 提炼；与 [[method-course-creation-eleven-steps]] 口诀 1 互为操作层。
