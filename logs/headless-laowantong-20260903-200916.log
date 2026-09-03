@@ -1,0 +1,145 @@
+kimi version 0.39.1
+• Let me start by reading the required files.
+
+• 我先做启动恢复，读取三个必读文件。
+
+• I need to read 90_control/AGENTS.md, and then find task #633's task spec. Let me read the AGENTS.md and look at the task file for #633. Also check queue status.
+
+• 收到提醒，先读 90_control/AGENTS.md，并查 #633 任务单位置。
+
+• Now read the task spec file for #633 and check the #626 Candy annotation standard. Also check queue status to ensure claiming is OK (front tasks: #626 reviewed, #629 reviewed, #632 reviewed, #630 cancelled — queue front seems clear; #633 is queued).
+
+• 现在读 #633 任务单规格和队列状态。队列总任务数: 216
+queued: 1
+claimed: 0
+pending_review: 0
+
+
+• Queue clear. Claim #633 now. Also need #626 Candy annotation口径 — read the #626 task file for the "Candy 整理形态" annotation spec. Let me claim first, then read materials.
+
+• 队列畅通，先领取 #633，再读 #626 的 Candy 标注口径。任务 633 不在生产队列中
+
+
+• "任务 633 不在生产队列中" — the seq is 633 but task_id✅ task_20260903_laowantong-live261-protracted-war-cards 已领取为 claimed-laowantong
+
+✅ dashboard.html 已生成 (216 个任务)
+   待领取: 0  |  审查中: 0  |  进行中: 1  |  已完成: 215
+
+
+• 已领取。现在读 #626 任务单确认 Candy 标注口径，并消费素材逐字稿。
+
+• #626 口径明确了：Candy 整理形态标注 = source_context 标注「Candy 整理形态逐字稿=唯一一手源」或「Candy 整理形态」降级标注，若有传播限制则双标注。Live261 素材是「Candy 作业整理版」——需要标注「Candy 整理形态」。
+
+  Now read the source material: 00_inbox/Live261-一堂战略笃定作业candy-逐字稿.md (58.7KB). Read in chunks. Also do the pre-work: 先例双查 (kdo query/cards), 建模方案 (L1), WebSearch 检查 (论持久战 is a well-known Mao essay — no international conflict likely, but 战略笃定 exists? The existing card case-20260829-zhanlue-dingding-l3-extraction exists). Let me first read the source.
+
+• #626 口径已明确。现在逐字读 Live261 素材（58.7KB，分段读全文）。
+
+• 素材读完（868 行全文已消费）。注意李秀慧那段有些断裂（L788-836 似乎混入了别人的内容——「星哥讲增长」那段像是另一场分享的残留，但按任务单就按三案例处理；实际上 L788-836 看起来是复合弓案例的具体策略+营销本质部分，可能是 Candy 整理时混入的第三场/或就是复合弓案例的续段。注意 L758-784 讲的是复合弓 vs 最大经销商的战争，但 L788 之后突然变成营销话题（项目消化能力、科学营销）——这看起来确实错位。需要如实处理：案例3应聚焦于复合弓 vs 经销商战争这段（L716-784），后面的营销策略段落与复合弓矛盾分析结构（重要条件/三阶段/具体策略）似乎也是 Candy 拼接的。我在 case 卡里如实标注素材的拼接形态。
+
+  任务：
+  1. framework：教育版论持久战（矛盾分析法做战略笃定）
+  2. case ×3：路禹《战略笃定》分享（这个是讲毛选哲学思考的分享，不是行业案例……任务单说"三个行业的持久战应用（各一张小 case：行业+矛盾判定+策略选择+阶段判断）"。但路禹的分享本身不是行业案例，是方法论讲解。开放麦三场：路禹/Jacky IP/李秀慧复合弓。路禹那场主要讲实践论/矛盾论/论持久战的解读，并嵌入一堂自身的教育版论持久战。Hmm, the task says "case ×3：三个行业的持久战应用". Jacky=IP营销行业，李秀慧=复合弓行业，路禹=教研/一堂自身？路禹的分享实际包含一堂的教育版论持久战+矛盾论应用示例（磨课例子：动力阻力、ROI迭代、五步法等）。可以把路禹案例定位为"一堂教研PM用矛盾分析法解读论持久战并迁移到教育行业"的案例。实际上主件 framework 就是教育版论持久战，路禹的分享是它的讲解+应用。case 卡：路禹=教育行业（一堂自身）；Jacky=IP营销；李秀慧=复合弓制造/渠道战争。
+
+  Per-spec 强检点（开工前五步）：
+  0. 建模方案（L1 出牌）写进任务文件「## 建模方案」节
+  1. 查路由：kdo cards --domain strategy / kdo query 论持久战
+  2. WebSearch：论持久战/战略笃定 国际术语冲突检查——论持久战 (On Protracted War) 是 Mao 1938 著作，无冲突；"战略笃定"是一堂术语。可以快速搜一下 "On Protracted War strategy framework business" 确认。
+  3. 素材消费检查：已逐字读 868 行。
+  4. 自攻击预留。
+
+  先看 strategy 域存量卡、论持久战相关卡、Candy 标注的先例卡（#626 三卡的 source_context 写法），strategy.yaml 词池。
+
+• 素材 868 行已逐字读完。接下来做开工前强检点：查路由（存量卡）+ Candy 标注先例 + strategy 词池。ai-collaboration-mindset-shift
+ai单元模型口述蒋老师
+ai时代判断力口述-3
+concept-agent-as-token-consumer
+concept-agent-university
+concept-brooks-three-lies-culture
+concept-christensen-jtbd-link
+concept-christensen-rpv-model
+concept-five-step-growth-to-barrier-transition
+concept-jevons-paradox-in-ai
+concept-mckinsey-mece
+concept-qinpeng-ai-as-amplifier
+concept-qinpeng-knowledge-base-conversion
+concept-satisfaction-vs-existence
+concept-strategy-2024-2026-supplement
+concept-strategy-capability-pyramid
+concept-strategy-evolution-cycle
+concept-strategy-framework-landscape
+concept-strategy-market-segmentation-yashili
+concept-thousand-people-square
+concept-token-capital
+concept-token-per-watt
+concept-wanghuan-flywheel-first-loop
+concept-wanghuan-tacit-knowledge-examples
+concept-一堂-hypothesis-driven-business-methodology
+concept-最简单元模型
+industry-ai-cases
+modeling-three-values
+supply-chain-beverage
+yitang-strategy-canvas
+---
+<string>:57: UserWarning: WARNING: log_level parameter is deprecated, use setup_logger in utils.py instead
+INFO: [] Loaded graph from C:\Users\Administrator\Desktop\wiki\.kdo\graph_index\graph_chunk_entity_relation.graphml with 3620 nodes, 6694 edges
+INFO:nano-vectordb:Load (2416, 384) data
+INFO:nano-vectordb:Init {'embedding_dim': 384, 'metric': 'cosine', 'storage_file': 'C:\\Users\\Administrator\\Desktop\\wiki\\.kdo\\graph_index\\vdb_entities.json'} 2416 data
+INFO:nano-vectordb:Load (6694, 384) data
+INFO:nano-vectordb:Init {'embedding_dim': 384, 'metric': 'cosine', 'storage_file': 'C:\\Users\\Administrator\\Desktop\\wiki\\.kdo\\graph_index\\vdb_relationships.json'} 6694 data
+INFO:nano-vectordb:Load (5243, 384) data
+INFO:nano-vectordb:Init {'embedding_dim': 384, 'metric': 'cosine', 'storage_file': 'C:\\Users\\Administrator\\Desktop\\wiki\\.kdo\\graph_index\\vdb_chunks.json'} 5243 data
+INFO: [] Process 7788 KV load full_docs with 0 records
+INFO: [] Process 7788 KV load text_chunks with 5243 records
+INFO: [] Process 7788 KV load full_entities with 0 records
+INFO: [] Process 7788 KV load full_relations with 0 records
+INFO: [] Process 7788 KV load entity_chunks with 0 records
+INFO: [] Process 7788 KV load relation_chunks with 0 records
+INFO: [] Process 7788 KV load llm_response_cache with 0 records
+INFO: [] Process 7788 doc status load doc_status with 0 records
+INFO: Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+INFO: Query nodes: �۳־�ս ս���ƶ� (top_k:16, cosine:0.2)
+INFO: Local query: 16 entites, 50 relations
+INFO: Query edges: �۳־�ս ս���ƶ� (top_k:16, cosine:0.2)
+INFO: Global query: 25 entites, 16 relations
+INFO: Naive query: 5 chunks (chunk_top_k:5 cosine:0.2)
+INFO: Raw search results: 39 entities, 61 relations, 5 vector chunks
+INFO: After truncation: 39 entities, 61 relations
+INFO: Selecting 34 from 34 entity-related chunks by vector similarity
+INFO: Find no additional relations-related chunks from 61 relations
+INFO: Round-robin merged chunks: 39 -> 39 (deduplicated 0)
+INFO: Final context: 39 entities, 61 relations, 5 chunks
+INFO: Final chunks S+F/O: C1/1 E1/1 C1/2 E1/2 C1/3
+Top 8 result(s) (hybrid RRF (graph+BM25+MOC), trust≥medium, Core→Extended→Reference):
+
+[0.45] 30_wiki/frameworks/framework-strategy-conviction.md
+    【未审 draft】 > **定位**：属于 strategy 域的 Truman 战略笃定实证卡——用一堂 2025.8→2026.8 一年 AI 转型的七轮重大决策，实证"战略（重大选择）+ 笃定（长期稳定）"的操作方法。通用战略理论（差距分析/九问题诊断/生命周期）见 strategy 域存量卡，本卡只做"战略笃定"这个特定概念 + 七轮决策实证。
+
+> **⚠️ 传播限制注记**：本卡内容来自 Truman 内部课《我用一堂做一堂·战略笃定篇》，Truman 明确要求"不要外传、阅后即焚"（口述 L48-50：这节课只有本周有效，周日消失）。仅供老朱学员学习，不得外传、不得作为公开引用素材。
+
+# 战略笃定...
+
+[0.26] 30_wiki/dk/dk-roi-three-step-decision.md
+    【未审 draft】 --- id: dk-roi-three-step-decision title: ROI 三步决策法——降噪（追真实案例）→算账（换不换）→对冲（5% 兵力侦察） type: dk dark_knowledge_type: decision status: draft confidence: 0.88 trust_level: medium domain: - decision-making - strategy author: 老顽童 reviewed_by: 待审 source_person: Truman source_context: 战略笃定篇口述（L326-330 追案例；L33
+
+
+• 重要发现：库里已有 `framework-strategy-conviction.md`（战略笃定 framework，Truman 战略笃定实证卡，有传播限制"不要外传"标注）。还有 case-20260829-zhanlue-dingding-l3-extraction（提取方法卡）。需要读存量 framework-strategy-conviction.md 确认增量边界——新 framework 是"教育版论持久战（矛盾分析法）"，与"战略笃定实证"不同，但相关。
+
+  还需要：
+  - 读 framework-strategy-conviction.md 的 frontmatter（related、传播限制标注格式）
+  - 查 strategy.yaml 词池（六维标签）
+  - 查 strategy-domain-digest 是否存在
+  - WebSearch 命名检查（L6）
+  - 确认 Live261 素材有无传播限制声明——素材全文没有看到"不要外传"字样。Live261 是开放麦+Candy 作业整理版，任务单说"发现传播限制声明则双标注"——素材中未发现，无需双标注，但需在执行报告中说明核查过。
+
+  Also check case-20260829-zhanlue-dingding-l3-extraction.
+
+• 发现存量战略笃定卡，需确认增量边界与传播限制格式。继续核查。ai-basic-domain-digest.md
+ai-collaboration-domain-digest.md
+business-formula-domain-digest.md
+conversion-rate-domain-digest.md
+decision-science-domain-digest.md
+design-moc.md
+domain-demand-analysis-index.md
+five-step-domain-digest.md
+human-ai-collaboration-double-triangle.md
+human-insights-domain-digest.md
