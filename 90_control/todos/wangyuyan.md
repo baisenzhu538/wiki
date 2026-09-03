@@ -685,3 +685,8 @@
 - [2026-09-03 23:27] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-02 13:00:23｜task_20260902_laowantong-614-downgraded-cards-rewo
 - [2026-09-03 23:37] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-02 13:00:23｜task_20260902_laowantong-614-downgraded-cards-rewo
 - [2026-09-03 23:43] kdo-daily-review 首跑验收：三角色拉起成功（kimi/claude/codex 三通道）复盘落盘中（laowantong 已落 29.7KB+镜像校验 PASS）；瑕疵=daily_review.py 日志文件锁 PermissionError（F-075 挂账）
+- [2026-09-03 23:47] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-03 23:47] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-02 13:00:23｜task_20260902_laowantong-614-downgraded-cards-rewo
+- [2026-09-03 23:57] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-02 13:00:23｜task_20260902_laowantong-614-downgraded-cards-rewo
+- [2026-09-04 00:07] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-02 13:00:23｜task_20260902_laowantong-614-downgraded-cards-rewo
+- [2026-09-04 00:09] 值守拍：三角色 09-03 复盘全落盘（黄药师 43.8K/老顽童 29.7K/欧阳锋 30.9K）——每日复盘机制首日全勤；队列全 0
