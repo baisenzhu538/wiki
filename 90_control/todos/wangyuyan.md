@@ -636,3 +636,4 @@
 - [2026-09-03 12:08] 值守拍：#632 复审 PASS A-——模板资产化批1闭环（8 件模板在库 capabilities/templates/）；队列 215 全清
 - [2026-09-03 12:12] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
 - [2026-09-03 12:17] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-03 12:17:00｜role-liveness｜fengqingyang 全实例疑似死亡（stale: [('kimi-
+- [2026-09-03 12:42] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
