@@ -1257,3 +1257,7 @@ FileNotFoundError: [WinError 2] ϵͳ�Ҳ���ָ�����ļ���: 'C:\\Users\\Administrato
 ✅ trace 索引已追加: D:\KDO-memory\L1-full\trace-index-2026-09-03.md
 ℹ️ C 盘镜像已移除（#491 老朱拍板）：采集后不再写 C 盘，D 主库为唯一全量
 ✅ verify PASS：主库 3831 文件完整 + 抽样可读（D 单盘口径，#491）
+✅ 采集完成: 新增 31 / 跳过 13016 → D:\KDO-memory\L1-full\2026-09-03（日期增量口径，#508）
+✅ trace 索引已追加: D:\KDO-memory\L1-full\trace-index-2026-09-03.md
+ℹ️ C 盘镜像已移除（#491 老朱拍板）：采集后不再写 C 盘，D 主库为唯一全量
+✅ verify PASS：主库 3831 文件完整 + 抽样可读（D 单盘口径，#491）
