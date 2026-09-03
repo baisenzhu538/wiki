@@ -105,6 +105,8 @@ task: '#420（B4-4 拍板：6 份旧停车场 → 单一工厂停车场）'
 
 | F-075 | 基建 | **daily_review.py 日志文件锁**：首跑实证——三角色拉起成功，但调度脚本自身二次写入 daily-review.log 撞 PermissionError（首次运行进程未释放文件句柄）。小改：open 加延时重试或写前检测 | #623 首跑留痕（09-03 23:37）+ 王语嫣挂账 | P3 | 待排期 | 触发=黄药师套件窗口 |
 
+| F-076 | 产线 | **conveyor_probe 陈旧事件重复登记**：已划销的历史 gate 事件（#426 8-23/#617/liveness 旧拍）每 ~30min 被重新登记进 PROPOSAL-PENDING——去重键不含「已划销/已闭环」判定。修法：登记前查同事件是否已划销（队列段内全文匹配） | 王语嫣 09-04 值守三连拍实证 | P3 | 待排期 | 触发=黄药师套件窗口；小改探针去重键 |
+
 | F-069 | 基建 | **KDO 全仓 pytest collection 期存量 UnicodeDecodeError**（qa/test_08_end_to_end.py）：文件编码声明/读取方式对齐 UTF-8，消除全仓回归口径长期噪音点 | 欧阳锋建议书 prop_20260902_repo-wide-pytest-collection-unicodeerror（#618 终审发现）+ 王语嫣 09-02 挂账 | P3 | 待排期 | 触发=黄药师顺手套件窗口（与 F-067 同批）；小改 |
 
 ## 生命周期说明
