@@ -101,6 +101,8 @@ task: '#420（B4-4 拍板：6 份旧停车场 → 单一工厂停车场）'
 
 | F-073 | 基建 | **queue_transition claim 支持 seq 别名或报错附完整 task_id**：claim 623 误报「不在生产队列」（find_task 只认完整 task_id）——三度同坑（friction 01:42 起） | 黄药师建议书 diag_20260903_stale-pull-of-reviewed-task 建议② + 王语嫣 09-03 挂账 | P3 | 待排期 | 触发=黄药师套件窗口；小改 |
 
+| F-074 | 产线 | **role-liveness 空窗误报收敛**：无单角色的静默期被当「疑似死亡」轮班报警（09-03 早连续三拍各报一角）——报警条件应加「该角色有 queued/claimed 单才报」，无单静默=收工常态不报警 | 王语嫣 09-03 值守实证（三连拍） | P3 | 待排期 | 触发=黄药师套件窗口；小改 check_liveness 报警条件 |
+
 | F-069 | 基建 | **KDO 全仓 pytest collection 期存量 UnicodeDecodeError**（qa/test_08_end_to_end.py）：文件编码声明/读取方式对齐 UTF-8，消除全仓回归口径长期噪音点 | 欧阳锋建议书 prop_20260902_repo-wide-pytest-collection-unicodeerror（#618 终审发现）+ 王语嫣 09-02 挂账 | P3 | 待排期 | 触发=黄药师顺手套件窗口（与 F-067 同批）；小改 |
 
 ## 生命周期说明
