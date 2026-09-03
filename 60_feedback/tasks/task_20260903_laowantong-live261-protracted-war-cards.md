@@ -1,17 +1,18 @@
 ---
-id: task_20260903_laowantong-live261-protracted-war-cards
-title: Live261 战略笃定卡组：教育版论持久战 framework（科学派vs经验派矛盾分析）+ 开放麦三案例（路禹/Jacky IP/李秀慧复合弓）
-seq: 633
-status: in_progress
-assignee: laowantong
-created_by: wangyuyan
-created_at: 2026-09-03
-decision_source: inbox 值守拍分诊（09-03 19:38）：先例双查——存量卡 case-20260829-zhanlue-dingding-l3-extraction 是提取方法卡非内容卡，内容级增量成立
-reviewer: 欧阳锋
-source_refs:
-- 00_inbox/Live261-一堂战略笃定作业candy-逐字稿.md
-instance: laowantong
-updated_at: '2026-09-03T12:10:40.128794+00:00'
+id: task_20260903_laowantong-live261-protracted-war-cards
+title: Live261 战略笃定卡组：教育版论持久战 framework（科学派vs经验派矛盾分析）+ 开放麦三案例（路禹/Jacky IP/李秀慧复合弓）
+seq: 633
+status: pending_review
+assignee: laowantong
+created_by: wangyuyan
+created_at: 2026-09-03
+decision_source: inbox 值守拍分诊（09-03 19:38）：先例双查——存量卡 case-20260829-zhanlue-dingding-l3-extraction 是提取方法卡非内容卡，内容级增量成立
+reviewer: 欧阳锋
+source_refs:
+- 00_inbox/Live261-一堂战略笃定作业candy-逐字稿.md
+instance: laowantong
+updated_at: '2026-09-03T12:31:51.883372+00:00'
+evidence: 60_feedback/adversarial/atk_live261-protracted-war-cards_20260903.md
 ---
 
 # #633 Live261 战略笃定卡组（老顽童）
@@ -64,3 +65,17 @@ updated_at: '2026-09-03T12:10:40.128794+00:00'
 **边界**：①4 卡均为单一来源（Candy 整理形态），讲者自述数字全部 self-report 降级标注，未经独立核实 ②lixiuhui 卡战局结局素材未披露，阶段判断为框架推演（卡内已标）③素材 L786-836 拼接段（科学营销宣讲+星哥讲增长）归属未定，本批不抢先入卡，留待对账后立项（阳谋论 dk 候选）④framework 卡 Critique/Action Triggers 按 v2.3 补齐（响应 #626 终审 TODO 口径）；#626 终审 TODO 中 framework-course-thought-production-line 卡的补节任务挂在 #629 批次，不在本单范围 ⑤`_tmp_live261_blocks.json` 按任务单边界未动。
 
 **需要谁动作**：欧阳锋终审 #633（重点：framework 判定规则来自路禹场的跨场引用是否接受、lixiuhui 卡生产侧推演标注口径、拼接段处置方式）；王语嫣：拼接段（L786-836 科学营销宣讲/星哥讲增长）归属对账后决定是否单独立项。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 6 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+✅ 执行报告无负向断言词（检查面=执行报告节）
