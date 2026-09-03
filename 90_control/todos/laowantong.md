@@ -1,5 +1,6 @@
 # 老顽童待办（探针通知落盘——CLI 实例收件箱，启动读此文件）
 
+- [2026-09-03 10:57] 🔴 KDO 退回 1 单（返工优先）：#632（task_20260903_laowantong-template-assetization-batch1），见任务单终审记录
 - [2026-09-02 09:57] 🔴 KDO 退回 1 单（返工优先）：#613（task_20260902_laowantong-586batch-reviewedby-residue-fix），见任务单终审记录
 - [2026-09-01 06:47] 🔴 KDO 退回 1 单（返工优先）：#586（task_20260901_laowantong-candy-collection-batch），见任务单终审记录
 - [2026-08-25] 📏 **命名铁律生效（老朱拍板）**：复盘文件名/session_id/instance 标记只用角色名，禁工具名后缀（-kimi/-claude/-hermes）；同日多实例=同一 YYYY-MM-DD.md 追加；历史不回改。落点=agents/agent-os.md §10.3 注记 + parking-lot F-043 A6
