@@ -8,8 +8,8 @@ created_by: wangyuyan
 created_at: 2026-09-04
 decision_source: 老朱 09-04 凌晨链路验证：414号文视频转写成功但关键名词全错（tiny 模型中文错字族，同族 09-02 05:47 批「失碎冲鞋」）——王语嫣门禁判定退回重转
 reviewer: 欧阳锋
-instance: huangyaoshi-kimi
-updated_at: '2026-09-03T20:16:30.288524+00:00'
+instance: huangyaoshi
+updated_at: '2026-09-03T20:18:20.852542+00:00'
 ---
 
 # #634 转写质量升级（黄药师）
