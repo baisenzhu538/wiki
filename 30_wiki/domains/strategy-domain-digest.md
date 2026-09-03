@@ -161,6 +161,7 @@ discoverable_by:
 | `framework-strategy-brm` | BRM 框架：差距分析→战略规划→执行——战略的完整闭环 |
 | `framework-strategy-six-stages` | 六阶段模型：初创→吃饱→吃好→吃撑→吃吐——企业在不同阶段的核心命题完全不同 |
 | `framework-strategy-five-basics` | 战略五基本功：定式/洞察/布局/体系/变革 |
+| `framework-education-protracted-war` | 教育版论持久战：矛盾分析法完成战略笃定——根本矛盾→质/量/趋势三维→内外部→持久战结论（Live261） |
 
 ### 🔍 战略诊断
 
@@ -182,6 +183,7 @@ discoverable_by:
 | 手机公司 N | 组织形态不适应互联网化→产品迭代缓慢 |
 | 良品铺子 | 涨价→暴跌→品牌升级+品类拓展+区域扩张→恢复增长 |
 | Gucci | 重新定位客群+供应链调整+渠道掌控→起死回生 |
+| Live261 开放麦三案例（`case-live261-luyu-strategy-conviction-maoxuan` / `case-live261-jacky-ip-marketing-protracted-war` / `case-live261-lixiuhui-compound-bow-dealer-war`） | 矛盾分析15例实例库 / IP营销科学派vs信息差经验派 / 复合弓Top1渠道持久战（谈打抉择） |
 
 > 更多案例见 `00_inbox/战略专题/` 冉鹏逐字稿
 

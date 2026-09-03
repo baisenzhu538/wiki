@@ -143,3 +143,207 @@ domain-demand-analysis-index.md
 five-step-domain-digest.md
 human-ai-collaboration-double-triangle.md
 human-insights-domain-digest.md
+./90_control/tags-vocab/strategy.yaml
+
+
+• The grep for 传播限制 in the Live261 source returned nothing (no output shown after strategy.yaml line — actually the last command output ended at strategy.yaml, so no 传播限制 found). Good: no 双标注 needed, but note it in the report.
+
+  No strategy-domain-digest found in 30_wiki root listing (grep -i strategy showed nothing). Let me check where domain digests live and if a strategy digest exists. The task says "互链：strategy-domain-digest 挂接". Let me check.
+
+  Also need:
+  - read strategy.yaml 词池 for tags
+  - check case-20260829-zhanlue-dingding-l3-extraction exists (先例卡)
+  - WebSearch for naming check (L6): "On Protracted War" business strategy — quick search.
+
+  Then write 建模方案 into the task file, produce 4 cards, self-attack, pre-submit, complete.ai-basic-domain-digest.md
+ai-collaboration-domain-digest.md
+business-formula-domain-digest.md
+conversion-rate-domain-digest.md
+decision-science-domain-digest.md
+design-moc.md
+domain-demand-analysis-index.md
+five-step-domain-digest.md
+human-ai-collaboration-double-triangle.md
+human-insights-domain-digest.md
+innovation-domain-digest.md
+kdo-moc.md
+lean-startup-domain-digest.md
+management-domain-digest.md
+master-moc.md
+product-moc.md
+retrospective-moc.md
+sales-domain-digest.md
+strategy-domain-digest.md
+yitang-domain-digest.md
+yitang-research-domain-digest.md
+===
+case-20260829-zhanlue-dingding-l3-extraction.md
+===
+# strategy 域维度轴 v0.1（#426 治理用——#485 轴文件先行：strategy 域 77 卡待治理）
+# 维度框架：六轴（专业/对象/性质/认知警示/使用者/经验）+ 来源轴（F-046）
+# 规则：细=维度覆盖，不堆量；每卡 5-8 个跨轴词；dk 暗知识卡豁免 1-3 词但核心维度覆盖（tags-vocab-design §三）；判断类走字段不进 tags；来源名禁入
+# 迭代规则：老顽童试点发现新词→王语嫣审词入轴→版本+0.1；索引不到→加词（双原则）
+# v0.1 依据：strategy 域 77 卡实测主题（克里斯滕森破坏性创新/RPV/价值网络 + 战略案例 30+ + 战略失败案例 + 冉鹏战略课）
+version: 0.1
+updated: '2026-08-24'
+
+axes:
+  专业维度:      # 战略学科/方法论层
+    words: [战略, 破坏性创新, 颠覆式创新, 价值网络, 增长战略, 竞争战略, 商业模式, 市场细分, 市场定位, 价值链, 战略规划, 护城河, 第二曲线, 单元模型]
+  对象维度:      # 战略对象/场景
+    words: [企业, 行业, 市场, 产品线, 新业务, 转型, 出海, 定价, 渠道, 组织, 并购, 品牌]
+  性质维度:      # 机制/框架/工具/边界
+    words: [机制, 框架, 工具, 方法, 模型, 边界, 反例, 实证, 悖论, 预测]
+  认知警示维度:  # 战略域风控轴=战略误区
+    words: [战略误区, 幸存者偏差, 归因错误, 规模陷阱, 路径依赖, 组织僵化, 能力陷阱, 相关性误判, 因果混淆, 机会主义]
+  使用者维度:    # 给谁用
+    words: [CEO, 创业者, 管理者, 战略负责人, 投资人, 顾问, 决策者]
+  经验维度:      # 隐性经验/实操词
+    words: [避坑, 踩坑, 复盘, 实战, 失败案例, 复兴案例, 决策复盘, 拍板]
+  来源维度:      # F-046 来源轴
+    words: [拆书会, 口述, 开放麦, Live, 外部报告, 书籍转述, 实战案例, 财报]
+
+# 迁移映射（v0.1 实测高频脏词→受控词，#426 治理用——strategy 域常见课程名/来源词）
+migration:
+  决策高度实操课口述: [战略, 拍板]     # 课程名拆词（#474 已实证案例）
+  战略专题: [战略, 实战案例]           # 来源形态词归位
+  冉鹏战略课: [战略, 口述]             # 课程名+来源归位
+
+# 标签示范（strategy 域代表卡，跨轴组合 5-8 词）：
+# framework-christensen-disruptive-innovation: [破坏性创新, 价值网络, 框架, 五大原则, 拆书会, 书籍转述]
+# case-strategy-shell-oil: [战略, 价值链, 转型, 市场规模预测, 案例, 实战, 口述]
+# case-strategy-failure-09-boeing: [战略, 失败案例, 组织僵化, 路径依赖, 避坑, 复盘, 外部报告]
+# case-strategy-walmart-vs-costco-pyramid: [竞争战略, 商业模式, 市场定位, 案例, 对比, 实战]
+
+# 跨域桥接词：
+# - 「破坏性创新」桥接 strategy ↔ demand-analysis（需求验证）↔ product（产品内核）
+# - 「商业模式」桥接 strategy ↔ five-step-method（五步法商业模式步）
+# - 「护城河」桥接 strategy ↔ five-step-method（壁垒步）
+# - 「单元模型」桥接 strategy ↔ decision-making（单元经济模型）
+
+# ⚠️ 来源形态词纪律（欧阳锋 #484 source-word-blacklist）：内容词=主题词，来源形态词（逐字稿/拆书会/口述/直播/训练营/开放麦/笔记/分享会/圆桌/对话）禁入内容词池——来源走来源维度轴或 source_person/source_context 字段（tags-vocab-design §二「来源名禁入 tags」工具化为 tags-audit 第5指标检查器）
+# 保留既有体系：audience:*/scene:*/skill-level:* 前缀词为结构化字段式标签，与本轴并行不冲突
+Good. strategy-domain-digest.md exists at 30_wiki/domains/. Existing cards to link: framework-strategy-conviction, case-20260829-zhanlue-dingding-l3-extraction, framework-strategy-brm, tool-strategy-nine-problems, framework-strategy-six-stages.
+
+  Now L6: WebSearch naming check for 论持久战/On Protracted War in business strategy context — quick check.
+
+  Also 先例卡 read briefly: case-20260829-zhanlue-dingding-l3-extraction (it's an extraction method card, not content card — already established by decision_source, no need to re-read fully; maybe just frontmatter to link properly). Let me do WebSearch + read the先例卡 frontmatter + check strategy-domain-digest related format.确认：
+  - 先例卡 = 提取方法卡（段王爷 feishu 提取），非内容卡 → 内容级增量成立。
+  - WebSearch：On Protracted War 国际通行译名就是 Mao 1938 军事著作，无商业战略框架同名冲突。「教育版论持久战」命名安全（加限定词"教育版"）。
+  - 素材中无传播限制声明（grep 0 命中）→ 无需双标注，报告中说明。
+
+  现在：
+  1. 写建模方案到任务单（L1）
+  2. 产 4 张卡：
+     - framework-yitang-education-protracted-war（教育版论持久战）— strategy 域
+     - case-live261-luyu-strategy-conviction-openmic（路禹：教育行业）
+     - case-live261-jacky-ip-marketing-protracted-war（Jacky：IP营销）
+     - case-live261-lixiuhui-compound-bow-channel-war（李秀慧：复合弓渠道战争）
+  3. 互链 strategy-domain-digest + framework-strategy-conviction + 论持久战相关。
+
+  卡片标准：framework 要有操作步骤/When NOT to Use/失败模式/适用边界（KF-024）；v2.3 要求 Critique/Action Triggers（#626 终审留了 TODO——本批 framework 卡应直接补上 Critique/Action Triggers 节）。case 卡要关键数字+证据表。正文 ≥100 行。
+
+  Candy 标注口径（照 #626）：source_context 标「Candy 整理形态逐字稿」。Live261 素材=Candy 作业整理版，全库无其他原始源（主件就是作业原文形态），所以标「Candy 整理形态，本稿即唯一一手源」。
+
+  Check strategy-domain-digest to see how cards are listed, so I can挂接 (add entry). Let me look at its structure briefly. Also check an existing recent case card (from #626) as template: case-wechat-article-workbuddy-selfmedia-pipeline.md frontmatter for format reference. And the framework-course-thought-production-line.md as framework template (it was graded, plus needs Critique/Action Triggers — v2.3).
+
+  Let me read those two files to match format.
+
+• 命名核查通过（论持久战=毛选通行术语，加"教育版"限定无冲突），素材无传播限制声明。现在读模板参照卡与 strategy digest 结构。
+
+• 模板清晰了。framework 卡结构：定位行→原始表述→使用场景→操作方法→适用边界/When NOT to Use→失败模式→Critique（双攻击者+Synthesis 不要用场景）→Action Triggers→与其他知识的关联。
+
+  case 卡看一个最近的模板：case-wechat-article-workbuddy-selfmedia-pipeline.md。另外看 strategy-domain-digest.md 怎么挂接。
+
+• 模板已明确。再看 case 卡模板和 strategy digest 的挂接方式。142:## 核心定位
+155:## 核心框架（先读）
+157:### 🏛️ 战略的本质
+165:### 🔍 战略诊断
+173:### 📖 关键案例
+188:## 跨案例合成暗知识
+196:## 跨域桥接（精益 · 五步法 · 决策 · AI 协作）
+207:## 可调用 Skill
+216:## 已入库（59张 + 16张已有 = 75张）
+218:### Wave 1-8 全量（老顽童 2026-06-21）
+228:### 已有战略相关卡（不重复，仅链接）
+232:### 交叉验证
+
+
+• 看 digest 的 216-240 行，确认已入库清单的格式，决定挂接方式。全部前置调研完成。现在动手：
+
+  1. 任务单写建模方案（L1 出牌）
+  2. 产 4 张卡
+  3. strategy-domain-digest 挂接（在「核心框架」或新增小节加一行）
+  4. 自攻击（kdo-self-attack）
+  5. pre-submit 每卡
+  6. 五字段执行报告写入任务单
+  7. complete 633 + 验证流转 + todos
+
+  建模方案出牌（17 张牌里选 5-8 张）：素材牌=#2 先消费全量素材；边界牌=#5 适用边界；结构牌=#10 先骨架再填肉；过程牌=？质量牌=#16 先 lint 再 pre-submit、#14 先跑脚本确认；还有 #6 先查已有卡、#7 先对标准则。
+
+  卡设计：
+
+  **framework 卡**：`framework-education-protracted-war`
+  - title: 教育版论持久战：用矛盾分析法完成战略笃定（科学派 vs 经验玄学派）
+  - 结构（素材主件 L1-71）：
+    - 问题背景（整体背景/直面问题/错误根源——亡国论速胜论式双误判）
+    - 底层矛盾（根本矛盾 + 内部矛盾质量/数量/趋势三维 + 外部矛盾）
+    - 结论（时间在哪边）
+    - 条件阶段（重要条件 + 三阶段）
+    - 具体策略（本质定义→主观能动性必经之路→增长飞轮→具体问题具体分析）
+  - domain: strategy + education? 看有没有 education 域……主件是一堂自身的战略，挂 strategy + yitang？framework-strategy-conviction 用 strategy+decision-making。我用 strategy + yitang。
+  - Candy 标注：source_context「一堂战略笃定作业·Candy 整理形态（本稿即唯一一手源）」
+  - 必须有 Critique/Action Triggers（v2.3）
+
+  **case ×3**：
+  1. `case-live261-luyu-maoxuan-reading-pm` — 路禹：一堂教研PM的毛选解读+矛盾分析法迁移（教育行业/教研场景）。其实路禹这场主要价值是矛盾分析法的 15 个应用例子（动力阻力/ROI迭代/客户产品/渠道自营/杨医生转型等）。case 卡聚焦：行业=创业教育；矛盾判定+阶段判断=一堂的教育版论持久战（路禹复述+自己的理解增量：质/量双弱→换分析主体；大公司相反；进步性=时间的朋友）。
+  2. `case-live261-jacky-ip-marketing-protracted-war` — Jacky：IP 营销行业。三阶段叙事（转型IP孵化手→商业模式探索→对标一堂）+ 完整论持久战作业。
+  3. `case-live261-lixiuhui-compound-bow-dealer-war` — 李秀慧：两用复合弓 top1 vs 最大经销商（占渠道 50-60%）的战争：低价倾销+盗图+仿造，谈打二选一，无协议大坑。注意 L788-836 段（营销策略部分）与复合弓战争衔接断裂，疑似 Candy 拼接其他场次的营销分享（「星哥讲增长」广告），如实标注。
+
+  先写建模方案进任务单，然后写卡。任务单编辑用 Edit（已读过）。
+
+  Let me now write the 建模方案 section into the task file.
+
+• 前置检查全部完成。现在按 L1 把建模方案写进任务单，然后产卡。
+
+• The claim script updated status to in_progress. Now append 建模方案.建模方案已落盘。现在产 4 张卡。先写 framework 卡（最重）。
+
+  framework 卡 ID：`framework-education-protracted-war`
+  domain: strategy + yitang（yitang 域存在——yitang-domain-digest.md 在）
+
+  正文结构（≥100 行）：
+  - 定位行（L8：本卡是战略笃定族的操作化框架卡）
+  - 原始表述
+  - 使用场景
+  - 操作方法（六步：①直面问题双误判 ②根本矛盾判定 ③内部矛盾质/量/趋势三维 ④外部矛盾 ⑤重要条件+三阶段 ⑥具体策略四件套）
+  - 适用边界 / When NOT to Use
+  - 失败模式
+  - Critique（双攻击者 + Synthesis 不要用场景表）
+  - Action Triggers
+  - 与其他知识的关联
+
+  related：framework-strategy-conviction, case-20260829-zhanlue-dingding-l3-extraction? 不，那张是提取方法卡无关内容。related: framework-strategy-conviction, framework-strategy-brm, tool-strategy-nine-problems, 3 张新 case 卡, dk-roi-three-step-decision? 那张是战略笃定篇 dk。还有 strategy-domain-digest。
+
+  tags（strategy.yaml 六轴）：战略（专业）、企业/转型（对象）、框架/实证（性质）、口述/开放麦/Live（来源）、创业者/CEO（使用者）。加 audience:ceo, scene:strategy, skill-level:advanced。
+
+  现在开始写。四张卡内容我直接从素材写。
+
+  Card 1: framework-education-protracted-war
+
+  Card 2: case-live261-luyu-strategy-conviction-maoxuan — 路禹场。行业=创业教育（一堂自身）；内容=毛选三层哲学（实践论/唯物辩证法/矛盾论）+论持久战解读（空间维度质/量/趋势+外部；时间维度三阶段；战术层实事求是+主观能动性）+15 个矛盾分析应用例子。关键增量：质/量双弱→换分析主体（杨医生例子）；进步性=时间的朋友；战略正确≠胜利（补充速度>损耗速度，现金流类比）。
+
+  Card 3: case-live261-jacky-ip-marketing — Jacky。行业=IP孵化/短视频营销。三阶段个人叙事+完整作业（科学派vs片面经验派；三阶段：小试牛刀/拓展边界/商业闭环；三个团队+双飞轮）。关键数字：2023.9离职创业、12月失败、2024.1入行、最高峰同时服务4个IP。
+
+  Card 4: case-live261-lixiuhui-compound-bow-dealer-war — 李秀慧。行业=两用复合弓（top1）。战争=最大经销商（占渠道50-60%）低价倾销+盗图+仿造+无协议。数字：抖音快手流量占行业80%、话题播放1亿 vs 同行合计2000万、2000元以上价位销量占80%+、全国三四家生产。抉择：谈（已失败）vs 打（断货→恶意抛售风险）。拼接断裂标注。
+
+  写卡。每张 ≥100 行正文。开始。
+
+• 建模方案已落盘。现在产第 1 张：framework 卡。
+
+• Framework 卡完成。现在 case 卡 ×3。每张小 case（行业+矛盾判定+策略选择+阶段判断+关键数字+证据表+Critique）。写 case 1：路禹场。
+
+• 第 3 张：Jacky IP 营销案例卡。
+
+• 第 4 张：李秀慧复合弓案例。注意素材拼接断裂问题：L758-784 是复合弓 vs 经销商战争，L786-836 突然变成"营销的本质/重要条件：项目消化能力"——这段从内容看是另一场（营销主题，结尾"星哥讲增长"视频号广告），但与 L788 的"重要条件"标题又接着论持久战结构。Candy 整理把不同来源拼了。处理：case 卡主体聚焦复合弓渠道战争（L694-784 完整自洽），L786-836 段标注为"Candy 拼接段，内容主体为科学营销宣讲（含另一账号'星哥讲增长'推广），与复合弓战争叙事衔接断裂，作为附属材料如实记录，不作为本案例核心证据"。
+
+• 第 4 张：李秀慧复合弓案例卡（含拼接断裂如实标注）。
