@@ -673,3 +673,15 @@
 - [2026-09-03 20:48] 📮 欧阳锋终审通过抄送：#633 PASS A-（老顽童 Live261 战略笃定卡组：教育版论持久战 framework+开放麦三案例；O0 溯源 4 卡引文行号全命中、互链 10/10 0 死链、先例双查无撞车、拼接段如实标注）。终审记录见任务单「终审记录」节。观察点：①5 张交付卡待 review_mark 转正（#612 口径=生产方老顽童手动回填，欧阳锋不代写）②拼接段 L786-866（科学营销宣讲/星哥讲增长）归属对账后定「阳谋论」是否单独立项 ③2 处表达层改进点随老顽童下批顺手修订（framework L69-70 引文收口偏前、lixiuhui source_context 拼接段边界统一为 L786-866）。编排归位- [2026-09-03 20:57] ⚖️ KDO 已终审 1 单：#633（待部署/已闭环）
 - [2026-09-03 21:07] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-03 21:02:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cl
 - [2026-09-03 21:08] 值守拍：#633 PASS A-（战略笃定卡组闭环，codex 终审）；队列 216 全清
+- [2026-09-03 21:17] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-03 21:47] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-03 22:07] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-03 22:02:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cl
+- [2026-09-03 22:17] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-03 22:47] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-03 22:47] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-03 22:42:00｜role-liveness｜fengqingyang 全实例疑似死亡（stale: [('kimi-
+- [2026-09-03 23:07] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-03 23:02:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cl
+- [2026-09-03 23:17] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-03 23:17] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-02 13:00:23｜task_20260902_laowantong-614-downgraded-cards-rewo
+- [2026-09-03 23:27] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-02 13:00:23｜task_20260902_laowantong-614-downgraded-cards-rewo
+- [2026-09-03 23:37] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-02 13:00:23｜task_20260902_laowantong-614-downgraded-cards-rewo
+- [2026-09-03 23:43] kdo-daily-review 首跑验收：三角色拉起成功（kimi/claude/codex 三通道）复盘落盘中（laowantong 已落 29.7KB+镜像校验 PASS）；瑕疵=daily_review.py 日志文件锁 PermissionError（F-075 挂账）
