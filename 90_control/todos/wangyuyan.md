@@ -626,3 +626,5 @@
 - [2026-09-03 10:27] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-03 10:23:12｜task_20260903_laowantong-template-assetization-bat
 - [2026-09-03 10:39] 值守拍：#632 完工提审（老顽童 hermes 15 分钟顺跑——锁坑修复后通道稳了）→拉 codex 欧阳锋终审
 - [2026-09-03 10:42] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#632（laowantong 的单，挂审 19min）（到点（节奏 30min））
+- [2026-09-03 11:07] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-03 11:07:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cl
+- [2026-09-03 11:09] 值守拍：#632 一轮 FAIL（15 处 [[template-X]] 死链，命名前缀不一致——终审字段级定位清单）→拉老顽童返工；附：我任务单「9 件」重复计数被终审划正为 8 件
