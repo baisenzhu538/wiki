@@ -260,6 +260,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 626 | `task_20260903_laowantong-live77-live86-candy-cards` | Live77国帅课程创作生产线卡组2-3张（思想生产线framework+创作八步method+dk）+Live86 Candy加餐对账（Agent创建模版增量判定）+WorkBuddy流水线pending卡门禁复核 | reviewed | laowantong | 卡组+对账结论+门禁判定+执行报告 | 无 | `60_feedback/tasks/task_20260903_laowantong-live77-live86-candy-cards.md` | 老朱09-03问责inbox漏检→王语嫣分诊（门铃v3已补INBOX扫描面）；先例双查+传播限制#322口径；欧阳锋终审 |
 | 629 | `task_20260903_laowantong-research-skills-explosion-digging` | 调研域skill补位：爆炸式五步法skill+挖掘式穷尽手段流程skill+research-core第一层嵌四类型判定（不另起平级skill防路由分裂） | reviewed | laowantong | 2个skill+第一层diff+三写一致+盲测记录 | #626 后（同角色排队） | `60_feedback/tasks/task_20260903_laowantong-research-skills-explosion-digging.md` | skills-assistant建议书（09-03王语嫣裁定）；验收挂载归skills-assistant本职；欧阳锋终审 |
 | 632 | `task_20260903_laowantong-template-assetization-batch1` | 模板资产化批1：Agent白皮书模板文件化+复盘画布/私董会SOP/双三角画布/回款playbook/产品画布族抽模板（9件落capabilities/templates/，占位符驱动+源卡互链） | reviewed | laowantong | 9模板文件+互链+可填性自检 | #629 后（同角色排队） | `60_feedback/tasks/task_20260903_laowantong-template-assetization-batch1.md` | 老朱09-03直令（模板=重要资产全库排查同标准处理）；白皮书模板继承密级标注；空洞族挂下批；欧阳锋终审 |
+| 633 | `task_20260903_laowantong-live261-protracted-war-cards` | Live261战略笃定卡组：教育版论持久战framework+开放麦三案例（路禹/Jacky IP/李秀慧复合弓） | queued | laowantong | 1 framework+3 case+互链实证 | 无 | `60_feedback/tasks/task_20260903_laowantong-live261-protracted-war-cards.md` | inbox值守拍分诊（先例双查：存量仅提取方法卡，内容增量成立）；Candy整理形态标注；欧阳锋终审 |
 | 630 | `task_20260903_laowantong-626-source-anchor-fix` | 修订单（传口径不改范围）：#626 素材锚升级——Live86对账以原稿为一等锚（00_inbox/龙虾员工实践/），Candy仅定位模版增量；Live77无原稿Candy即一手 | cancelled | laowantong | 口径落 #626 执行报告，随其终审 | #626 配套 | `60_feedback/tasks/task_20260903_laowantong-626-source-anchor-fix.md` | 老朱09-03直令「找原稿深挖」；王语嫣查实原稿在库；E047边界：修订单不传裁决 |
 | 631 | `task_20260903_huangyaoshi-orphan-backup-source-hunt` | 孤儿backup触发源追查（01:38非节拍收走在制品）+探针非节拍检测信号+守卫SKIPPED接第十信号 | reviewed | huangyaoshi | 触发源结论+探针信号实证 | #628 reviewed 后 | `60_feedback/tasks/task_20260903_huangyaoshi-orphan-backup-source-hunt.md` | 黄药师建议书（09-03王语嫣裁定）；欧阳锋终审 |
 | 627 | `task_20260903_huangyaoshi-infra-registry-and-archive-test-fix` | 基建总表补登记6资产（回归持续红清零）+queue-archive月界漂移修复（口径②按任务日期归月，王语嫣定夺） | reviewed | huangyaoshi | 登记diff+两测试复绿全量回归原样输出 | 无 | `60_feedback/tasks/task_20260903_huangyaoshi-infra-registry-and-archive-test-fix.md` | 黄药师两建议书并单（09-03王语嫣裁定）；欧阳锋终审 |
@@ -619,8 +620,8 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~00_inbox/AI落地Live77-国帅课程创作心路历程-逐字稿.md｜P0｜21890B｜检测到 09-02 16:31｜待王语嫣编排~~ → 已处置（09-03 01:20 王语嫣）：立项 #626（课程创作生产线卡组）
 - ~~00_inbox/AI落地Live86-Candy-kinda龙虾员工实践+Agent创建模版-逐字稿.md｜P0｜32442B｜检测到 09-02 16:31｜待王语嫣编排~~ → 已处置（09-03 01:20 王语嫣）：并入 #626 任务2（Candy 加餐对账）
 - ~~00_inbox/pending-cards/case-wechat-article_tt_af50baaada5fc2f2.md｜P2｜3942B｜检测到 09-02 18:51｜待王语嫣编排~~ → 已处置（09-03 01:20 王语嫣）：并入 #626 任务3——重登记行划销
-- 00_inbox/Live261-一堂战略笃定作业candy-逐字稿.md｜P2｜58709B｜检测到 09-03 11:31｜待王语嫣编排
-- 00_inbox/_tmp_live261_blocks.json｜P2｜75689B｜检测到 09-03 11:31｜待王语嫣编排
+- ~~00_inbox/Live261-一堂战略笃定作业candy-逐字稿.md｜P2｜58709B｜检测到 09-03 11:31｜待王语嫣编排~~ → 已处置（09-03 19:40 王语嫣）：立项 #633（战略笃定卡组）
+- ~~00_inbox/_tmp_live261_blocks.json｜P2｜75689B｜检测到 09-03 11:31｜待王语嫣编排~~ → 已处置（09-03 19:40 王语嫣）：管线数据附件随 #633，不入编排
 
 <!-- INBOX-PENDING-END -->
 
