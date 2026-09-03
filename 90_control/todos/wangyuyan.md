@@ -624,3 +624,4 @@
 - [2026-09-03 10:09] 值守拍：#629 reviewed A-（调研域两 skill+判定层落地）；#632 拉起老顽童（myqueue 可领实证后指令，v3.1 铁律执行）；liveness 误报划销
 - [2026-09-03 10:12] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
 - [2026-09-03 10:27] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-03 10:23:12｜task_20260903_laowantong-template-assetization-bat
+- [2026-09-03 10:39] 值守拍：#632 完工提审（老顽童 hermes 15 分钟顺跑——锁坑修复后通道稳了）→拉 codex 欧阳锋终审
