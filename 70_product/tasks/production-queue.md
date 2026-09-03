@@ -900,7 +900,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~[gate-blocked] role-liveness｜09-03 09:57｜待王语嫣复核处置｜2026-09-03 09:52:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 1917.2), ('cli', 182.8), ('hermes', 2087.7)]）｜role_registry check-liveness｜role_registry~~ → 划销（09-03 10:08 王语嫣）：空窗误报（F-074 挂账待修）
 - ~~[gate-blocked] task_20260903_laowantong-template-assetization-batch1｜09-03 10:27｜待王语嫣复核处置｜2026-09-03 10:23:12｜task_20260903_laowantong-template-assetization-batch1｜F-034-五字段｜--evidence 文件不可读: 8模板落40_outputs/capabilities/templates/（白皮书密级继承+检查单引用/复盘画布/私董会SOP/双三角/回款playbook/产品｜laowantong~~ → 划销（09-03 10:38 王语嫣）：回声/已处置
 - ~~[gate-blocked] role-liveness｜09-03 11:07｜待王语嫣复核处置｜2026-09-03 11:07:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 1991.7), ('cli', 43.3)]）｜role_registry check-liveness｜role_registry~~ → 划销（09-03 11:38 王语嫣）：回声
-- [gate-blocked] role-liveness｜09-03 12:17｜待王语嫣复核处置｜2026-09-03 12:17:00｜role-liveness｜fengqingyang 全实例疑似死亡（stale: [('kimi-cli', 3441.1)]）｜role_registry check-liveness｜role_registry
+- ~~[gate-blocked] role-liveness｜09-03 12:17｜待王语嫣复核处置｜2026-09-03 12:17:00｜role-liveness｜fengqingyang 全实例疑似死亡（stale: [('kimi-cli', 3441.1)]）｜role_registry check-liveness｜role_registry~~ → 划销（09-03 12:38 王语嫣）：空窗误报（F-074 在账）
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
