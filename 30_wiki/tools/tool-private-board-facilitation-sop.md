@@ -36,7 +36,7 @@ tags:
 - content-format:checklist
 - source-person:徐里
 related:
-- '[[template-private-board-facilitation-sop]]' #632 模板资产化：90 分钟七步填空执行版落 capabilities/templates/
+- '[[private-board-facilitation-sop]]' #632 模板资产化：90 分钟七步填空执行版落 capabilities/templates/
 - framework-yitang-shishi-qiushi
 - framework-kdo-modeling-methodology
 - concept-collaboration-philosophy-foundation

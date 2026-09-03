@@ -29,7 +29,7 @@ discoverable_by:
   - 需求分层画布
   - 从所有人到第一批100个的结构化工具
 related:
-- '[[template-demand-segmentation-canvas]]' #632 模板资产化：填空版画布落 capabilities/templates/
+- '[[demand-segmentation-canvas]]' #632 模板资产化：填空版画布落 capabilities/templates/
 - '[[tool-月白-设计师AI工具习惯切换]]'
 - '[[tool-ROI决策评估画布]]'
 - '[[tool-泛产品设计-需求工具箱指南]]'

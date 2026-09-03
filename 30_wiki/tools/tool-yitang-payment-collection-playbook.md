@@ -33,7 +33,7 @@ discoverable_by:
   - 回款 / 催款 / 履约阶段 playbook
   - 履约阶段
 related:
-- '[[template-payment-collection-playbook]]' #632 模板资产化：决策表+催款清单+关单确认表填空版落 capabilities/templates/
+- '[[payment-collection-playbook]]' #632 模板资产化：决策表+催款清单+关单确认表填空版落 capabilities/templates/
 - '[[dk-yitang-sales-common-pitfalls]]'
 - '[[framework-yitang-sales-incentive-6d]]'
 - '[[framework-yitang-scientific-sales-five-step]]'

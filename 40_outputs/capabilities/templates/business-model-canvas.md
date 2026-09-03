@@ -12,7 +12,7 @@ source_card: "[[yt-business-model-canvas]]"
 
 > **来源卡**：[[yt-business-model-canvas]]（要素详解、迭代节奏、失败模式见该卡）
 > **基础**：基于 Alexander Osterwalder Business Model Canvas，9 要素缺一不可。属于一堂五步法第三步——商业模式。
-> **配套**：上游 [[template-product-kernel-canvas]]（先想清楚产品内核）；用户分层用 [[template-demand-segmentation-canvas]]。
+> **配套**：上游 [[product-kernel-canvas]]（先想清楚产品内核）；用户分层用 [[demand-segmentation-canvas]]。
 
 ---
 

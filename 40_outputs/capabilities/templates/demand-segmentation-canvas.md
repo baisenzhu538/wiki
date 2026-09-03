@@ -12,7 +12,7 @@ source_card: "[[yt-demand-segmentation-canvas]]"
 
 > **来源卡**：[[yt-demand-segmentation-canvas]]（维度选择依据、分层后产品决策、失败模式见该卡）
 > **一句话**：用户分层不是分类，是识别需求差异，找到最值得先服务的群体。属于一堂五步法第一步——需求分析。
-> **配套**：分完层填 [[template-product-kernel-canvas]]（对第一批用户做产品内核）。
+> **配套**：分完层填 [[product-kernel-canvas]]（对第一批用户做产品内核）。
 
 ---
 
@@ -81,5 +81,5 @@ source_card: "[[yt-demand-segmentation-canvas]]"
 ## 使用说明
 
 1. 本模板从 [[yt-demand-segmentation-canvas]] 抽取。适用：新产品冷启动、需求验证、定位模糊、资源有限排优先级。不适用：成熟产品全量运营、已有明确 PMF 后的规模化。
-2. 输出纪律：画布的核心产出是**第一批目标用户层的定义**——它直接成为 [[template-product-kernel-canvas]] 第一区「目标用户（第一批 100 个）」的输入。
+2. 输出纪律：画布的核心产出是**第一批目标用户层的定义**——它直接成为 [[product-kernel-canvas]] 第一区「目标用户（第一批 100 个）」的输入。
 3. 分层会过期：定期（建议每季度）回看优先级矩阵，需求强度和付费意愿变了就重排。

@@ -605,3 +605,4 @@
 2026-09-03 09:22:00｜role-liveness｜fengqingyang 全实例疑似死亡（stale: [('kimi-cli', 3266.1)]）｜role_registry check-liveness｜role_registry
 2026-09-03 09:52:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 1917.2), ('cli', 182.8), ('hermes', 2087.7)]）｜role_registry check-liveness｜role_registry
 2026-09-03 10:23:12｜task_20260903_laowantong-template-assetization-batch1｜F-034-五字段｜--evidence 文件不可读: 8模板落40_outputs/capabilities/templates/（白皮书密级继承+检查单引用/复盘画布/私董会SOP/双三角/回款playbook/产品｜laowantong
+2026-09-03 11:07:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 1991.7), ('cli', 43.3)]）｜role_registry check-liveness｜role_registry

@@ -12,7 +12,7 @@ source_card: "[[yt-product-kernel-canvas]]"
 
 > **来源卡**：[[yt-product-kernel-canvas]]（关键洞察、失败模式、适用边界见该卡）
 > **何时用**：新产品定义、团队对齐、迭代规划、向客户介绍产品。属于一堂五步法第二步——产品内核。
-> **配套**：用户是谁还没想清楚？先填 [[template-demand-segmentation-canvas]]（需求分层）；内核之后再填 [[template-business-model-canvas]]（商业模式）。
+> **配套**：用户是谁还没想清楚？先填 [[demand-segmentation-canvas]]（需求分层）；内核之后再填 [[business-model-canvas]]（商业模式）。
 
 ---
 

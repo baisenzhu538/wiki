@@ -27,7 +27,7 @@ discoverable_by:
   - 项目复盘关键成果画布
 related:
 - "[[framework-yitang-project-retrospective]]"
-- "[[template-retrospective-canvas]]" #632 模板资产化：填空版画布落 capabilities/templates/
+- "[[retrospective-canvas]]" #632 模板资产化：填空版画布落 capabilities/templates/
 - "[[yt-management-project-management]]"
 - "[[framework-yitang-project-plan-design]]"
 - "[[framework-yitang-project-breakdown]]"
