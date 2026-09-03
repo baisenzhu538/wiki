@@ -1,16 +1,19 @@
 ---
-id: task_20260904_huangyaoshi-transcribe-quality-model-bump
-title: 转写质量升级：tiny→small/medium 模型评估切换（「公刑部/新党区/手购所用」关键名词错转实证）+ faster_whisper 失踪根因
-seq: 634
-status: pending_review
-assignee: huangyaoshi
-created_by: wangyuyan
-created_at: 2026-09-04
-decision_source: 老朱 09-04 凌晨链路验证：414号文视频转写成功但关键名词全错（tiny 模型中文错字族，同族 09-02 05:47 批「失碎冲鞋」）——王语嫣门禁判定退回重转
-reviewer: 欧阳锋
-instance: huangyaoshi
-updated_at: '2026-09-03T20:43:48.006485+00:00'
+id: task_20260904_huangyaoshi-transcribe-quality-model-bump
+title: 转写质量升级：tiny→small/medium 模型评估切换（「公刑部/新党区/手购所用」关键名词错转实证）+ faster_whisper 失踪根因
+seq: 634
+status: reviewed
+assignee: huangyaoshi
+created_by: wangyuyan
+created_at: 2026-09-04
+decision_source: 老朱 09-04 凌晨链路验证：414号文视频转写成功但关键名词全错（tiny 模型中文错字族，同族 09-02 05:47 批「失碎冲鞋」）——王语嫣门禁判定退回重转
+reviewer: 欧阳锋
+instance: huangyaoshi
+updated_at: '2026-09-03T21:17:15.161416+00:00'
 evidence: 60_feedback/tasks/task_20260904_huangyaoshi-transcribe-quality-model-bump-workdir/对照实测与校核记录.md
+reviewed_by: 欧阳锋
+review_date: '2026-09-03'
+grade: A-
 ---
 
 # #634 转写质量升级（黄药师）
@@ -88,3 +91,32 @@ case-wechat-bf9ce0b38119ed73.md，标题「工信部」修正——gitignored �
 ### ③ 负向判词 / ④ 存在性核查
 
 🔴 意见书含负向断言（「无日志」）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
+
+## 终审记录
+
+**终审结论**：PASS A-（欧阳锋 · 2026-09-04 · methodology_version v2.3）
+**阻断判定**：无 Critical / High 阻断项；机器预审③④ 🔴 已核销（锚点在证据文件 §三，见下）；1 处低优先级改进点（放行）
+**五维评分**：溯源完整 24/25 · 逻辑骨架 24/25 · 暗知识密度 18/20 · 可操作性 15/15 · 表达质量 13/15 → 94（A-）
+
+**O0 溯源**：已打开证据文件 `60_feedback/tasks/task_20260904_huangyaoshi-transcribe-quality-model-bump-workdir/对照实测与校核记录.md`，并核验交付物实体——
+① `kdo-tools/transcribe_win.py` v2（git 56bc82eda 已入仓）：`--model/--prompt` 参数、`check_import` 前置自检、`resolve_model` 完整性校验（model.bin 尺寸阈值禁静默降级）、引擎版本指纹入稿头——四处与执行报告交付物⑤一致；
+② `10_raw/sources/src_2026-09-04_wechat_bf9ce0b38119ed73.md`：基底 medium 全稿 + header 校核注「#634 术语修正 12 处」，12 处修正逐条与校核记录表对位（先导区/90天/供给端/帕兰提尔/首购首用×2/政府侧/区县/千万级/订单/发令枪/硬造〔疑〕），其中 6 处与官方文 414 号对位；
+③ 卡双副本（pending-cards + wechat-collect/knowledge）标题「昨天下午工信部发了一个重磅的行业文件」、正文「工信部/首购首用/订单」关键名词全对；
+④ 残错复查实测：`公刑|新党|手购|西安岛|2025年12` 在修正稿与两卡副本零命中（「病单」仅出现在订单修正注的括注说明内，属应留的疑注非残错）。
+
+**存在性核查**（负向断言闭环 + 交付物存在性）：
+- 机器预审③④ 🔴「无日志」核销：该负向断言的 `**存在性核查**` 锚点位于证据文件 §三，四查闭环——①Windows pip 无日志（%LOCALAPPDATA%/pip 仅 cache、%APPDATA%/pip 不存在、pip config list 无日志配置）；②全部 logs + 09-02/09-03 session-archives grep uninstall 零命中；③site-packages 三包 mtime 全 09-04 04:11（重装时刻）；④pip 轮子缓存无 faster 轮子。→ #433 实质（负向判词必须附核查节）已满足，放行。
+- 交付物五件（①脚本②重转稿③卡双副本④校核记录⑤根因结论+防护）全部存在；脚本已 git 跟踪无脏改动，00_inbox 双副本 gitignored 按 #380 A 方案流转（符合声明）。
+- 结论「不可考」为诚实口径：四查无果后不臆造归因，且补 import 自检/模型完整性/版本指纹三道防护——正确。
+
+**审查裁定（生产方提出的三边界 + 王语嫣归因修正）**：
+1. Live257 无 whisper 音频实体、对照改用同族批 5291b61——**接受**：5291b61 与「失碎冲鞋」同源、143s 可实测，对照样本成立。
+2. 5291b61 逐字稿仍为 tiny 乱码版、30_wiki draft 卡无害——**接受**：不引用乱码行即无污染，另案重转（发现项 2）不占本单。
+3. 王语嫣归因修正（414 号文 04:13 稿为 small 非 tiny）——**接受**：对照矩阵实证 tiny=全文乱码级、small=专名级错，方向结论（tiny 不可用、需 medium）不变，归因修正如实入档。
+4. 默认 small / 政策课程类显式 --model medium 口径——**裁定**：照此执行（脚本默认 small 已落地；自动按内容分类选模另案）。
+
+**改进点（低优先级，放行）**：
+1. 执行报告「完成内容」的负向断言「无日志/会话无卸载留痕」未内联 `**存在性核查**` 锚点（锚点在证据文件 §三）——机器预审③④ 因此 🔴。实质已闭环、不构成返工；生产侧后续同类负向断言可顺手把锚点或「见证据文件 §三」指引内联进执行报告节，便于机器预审一次命中。
+2. 修正稿 header 以「校核: #634 术语修正 12 处」替代 v2 脚本的「引擎: faster-whisper X.Y.Z」指纹（冒烟稿 smoke-tiny.md 已含指纹）——修正稿为人工定稿，可接受；后续重转定稿可顺手保留引擎指纹行便于漂移对照。
+
+**需要谁动作**：王语嫣——pending-cards case-wechat-bf9ce0b38119ed73 内容已修正，watch_inbox 按新字节重登记后走 #380 A 方案编排门禁入库；老朱/管线侧——5291b61 同族批重转（发现项 2）另案开单；黄药师（可选）——下批顺手修订上述两处低优先级改进点。
