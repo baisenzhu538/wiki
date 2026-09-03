@@ -1,0 +1,28 @@
+#632 施工完毕，已提审。收工汇报：
+
+## 交付（8 件模板 → 40_outputs/capabilities/templates/）
+
+| 文件 | 要点 |
+|:--|:--|
+| agent-whitepaper-template.md | 11 节填空+灵魂校验三问+身份断言+16 步打勾；**头部继承密级「内部使用·不要外传」**；§10 末挂 [[tool-kdo-agent-production-checklist]]（裁决 #5 留痕执行） |
+| retrospective-canvas.md | 六区填空，5Why 三层根因逐层填空行 |
+| private-board-facilitation-sop.md | Step 0-7 可照念话术+收敛句式套填+控时表 |
+| dual-triangle-canvas.md | 2×3 六宫格，每格 3 引导问题+填写区 |
+| payment-collection-playbook.md | 决策表（复核留痕栏）+9 条催款 Checklist+关单确认表 |
+| product-kernel / business-model / demand-segmentation 三件套 | 填空版+匹配检查+上下游互挂 |
+
+每件：头部 source_card 指源卡 + 尾部三行使用说明；8 张源卡 related 全部回链（双向互链）。
+
+## 验证（分层声明）
+
+- **L1 机械**：互链脚本四项检查（回链/头链/id=文件名/尾节）8/8 过；frontmatter YAML 逐件可解析。中途实测发现 id 前缀与文件名不一致，已统一修正后复验全过。
+- **L2 狗粮**：TEMP 目录假装使用者真实回填关键位 8/8 过（白皮书身份断言回填后可直接执行）。
+- **L9 双验证**：myqueue 待终审 1=#632 + 任务单 frontmatter `status: pending_review` 双落盘。
+
+## 留痕与边界
+
+- ⚠️ **计数口径差异**：任务单写「9 件/6+3」，文件清单实列 8 个文件名——按清单全量交付 8 件，差异留痕执行报告，请欧阳锋终审核对原扫描清单。
+- 「不在本批」的空洞族与不模板化 4 件均未动；src_unknown 内容未进模板。
+- 入仓：2e207340f（模板+互链）/ 32757b466（执行报告）/ 8795575da（evidence+队列流转）；todos 已落行。
+
+本单完成，等欧阳锋终审。按指令范围收工，不扩展其他任务。
