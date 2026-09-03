@@ -1,15 +1,16 @@
 ---
-id: task_20260904_huangyaoshi-transcribe-quality-model-bump
-title: 转写质量升级：tiny→small/medium 模型评估切换（「公刑部/新党区/手购所用」关键名词错转实证）+ faster_whisper 失踪根因
-seq: 634
-status: in_progress
-assignee: huangyaoshi
-created_by: wangyuyan
-created_at: 2026-09-04
-decision_source: 老朱 09-04 凌晨链路验证：414号文视频转写成功但关键名词全错（tiny 模型中文错字族，同族 09-02 05:47 批「失碎冲鞋」）——王语嫣门禁判定退回重转
-reviewer: 欧阳锋
-instance: huangyaoshi
-updated_at: '2026-09-04T04:50:00+08:00'
+id: task_20260904_huangyaoshi-transcribe-quality-model-bump
+title: 转写质量升级：tiny→small/medium 模型评估切换（「公刑部/新党区/手购所用」关键名词错转实证）+ faster_whisper 失踪根因
+seq: 634
+status: pending_review
+assignee: huangyaoshi
+created_by: wangyuyan
+created_at: 2026-09-04
+decision_source: 老朱 09-04 凌晨链路验证：414号文视频转写成功但关键名词全错（tiny 模型中文错字族，同族 09-02 05:47 批「失碎冲鞋」）——王语嫣门禁判定退回重转
+reviewer: 欧阳锋
+instance: huangyaoshi
+updated_at: '2026-09-03T20:43:48.006485+00:00'
+evidence: 60_feedback/tasks/task_20260904_huangyaoshi-transcribe-quality-model-bump-workdir/对照实测与校核记录.md
 ---
 
 # #634 转写质量升级（黄药师）
@@ -73,3 +74,17 @@ case-wechat-bf9ce0b38119ed73.md，标题「工信部」修正——gitignored �
 - 王语嫣：pending-cards case-wechat-bf9ce0b38119ed73 内容已修正重提审——watch_inbox 将按新字节数重登记
   （队列 INBOX-PENDING 行 627/628 旧字节 2880B/5453B 待刷新），按 #380 A 方案走编排门禁入库。
 - 老朱/管线侧：如需 5291b61 同族批重转（发现项 2）另案开单。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 2 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+🔴 意见书含负向断言（「无日志」）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
