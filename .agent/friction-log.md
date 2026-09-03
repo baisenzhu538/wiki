@@ -125,3 +125,4 @@ updated_at: 2026-08-09
 2026-09-03 01:38-01:42/huangyaoshi/孤儿 backup commit 收走施工文件（545bd0f5a）/源未锁定，疑 #607 未迁移尽的会话级 cron——建议书已上 diag_20260903_huangyaoshi-backup-orphan-source
 - [2026-09-03 02:20] [wangyuyan] hermes 无头拉起坑：挂死实例持 profile 锁→后续拉起全部静默挂起（0 字节日志、进程活着不干活）——三连挂实证（01:21/02:11/02:14），杀死挂死进程后恢复。判定法：claimed 无产出+日志 0 字节+hermes.exe 进程在=wmic 按 CreationDate 找挂死者 taskkill。待机制化：拉起器加「同角色已有活实例则不拉/先杀」守卫
 2026-09-03 05:17/huangyaoshi/值守拍以已终审单 #623 拉起施工实例（指令文本=claim+complete 模板，单实为 reviewed 终态）——claim/complete 双实测被状态机拒（「已经是 reviewed，无需领取」），实例空跑只核验；拉起的意图若为复盘通道演练，指令模板用错/根因：施工指令生成未查 myqueue 可领视图，终态单仍生成 claim 模板——建议书已上 diag_20260903_huangyaoshi-stale-pull-of-reviewed-task
+2026-09-03 23:41/huangyaoshi/#623 daily-review 23:37 S4U 首跑收尾日志自锁：三角色拉起成功后 daily_review.py 写日志崩溃（PermissionError: daily-review.log，当日结构化块丢失+GBK 乱码，rc≠0）——拉起功能未受损/kdo-daily-review.cmd `>>` 重定向句柄 vs 进程内 LOG_PATH.open 互斥；00:50 手动直跑无此问题=验证路径≠生产路径。E027 已入库错误模式库，修复待派单
