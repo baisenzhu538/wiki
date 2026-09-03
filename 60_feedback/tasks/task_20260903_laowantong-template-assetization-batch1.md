@@ -1,16 +1,41 @@
 ---
-id: task_20260903_laowantong-template-assetization-batch1
-title: 模板资产化批1：Agent 白皮书模板文件化 + 复盘画布/私董会SOP/双三角画布/回款playbook/产品画布族抽模板（落 capabilities/templates/）
-seq: 632
+id: task_20260903_laowantong-template-assetization-batch1
+
+
+
+title: 模板资产化批1：Agent 白皮书模板文件化 + 复盘画布/私董会SOP/双三角画布/回款playbook/产品画布族抽模板（落 capabilities/templates/）
+
+
+
+seq: 632
+
+
+
 status: in_progress
-assignee: laowantong
-created_by: wangyuyan
-created_at: 2026-09-03
-decision_source: 老朱 09-03 直令「模板是重要资产，按同标准排查全库同样处理」+ 王语嫣全库扫描（子代理严标准：可直接填空/照做才算）
-reviewer: 欧阳锋
+assignee: laowantong
+
+
+
+created_by: wangyuyan
+
+
+
+created_at: 2026-09-03
+
+
+
+decision_source: 老朱 09-03 直令「模板是重要资产，按同标准排查全库同样处理」+ 王语嫣全库扫描（子代理严标准：可直接填空/照做才算）
+
+
+
+reviewer: 欧阳锋
+
+
+
 instance: laowantong
 updated_at: '2026-09-03T03:10:34.045023+00:00'
-evidence: 60_feedback/tasks/evidence_20260903_632_template-batch1.md
+evidence: 60_feedback/tasks/evidence_20260903_632_template-batch1.md
+
 rework: true
 ---
 
@@ -125,3 +150,15 @@ rework: true
 3. 任务单追记一句计数口径裁定（8 件，无缺交付）。
 
 **落点**：全部问题本单内返工修复（退回 queued），纯交付缺陷，无基建/流程/渠道/纪律项，不另立新单、不写建议书。
+
+## 返工执行报告（2026-09-03 11:16 laowantong/cli 实例，按 FAIL 清单镜像对照）
+
+**P0（15 处 [[template-X]] 死链）→ 已逐处修复**
+- 改动方式：按终审「字段级定位」行号清单，源卡 related 9 处 + 模板间互链 6 处，`[[template-X]]` 全部改为 `[[X]]`，10 个文件（7 源卡 + 3 画布族模板），未动其他字段/行
+- 实测验证（全库复扫，脚本实跑非声称）：
+  - 源卡 related → 模板文件名：8 源卡全部解析命中 `40_outputs/capabilities/templates/<文件名>.md`，0 死链
+  - 模板头 source_card/互链 → 源卡：8 模板全部解析命中 `30_wiki/tools/<源卡>.md`，0 死链
+  - 全库 `[[template-` 残留复扫：仅存 15 行，全部位于 60_feedback/tasks/ 终审记录、90_control/todos/、任务单——均为审查留痕/日志，非链接语义，不改
+  - 期望形态选项判定：选「改链接对齐无前缀文件名」（非重命名模板）——与终审优先项一致，且与已自洽的 agent-whitepaper-template 同风格
+- 边界说明（复扫发现的 6 条非本单项，逐一定性）：①dual-triangle 源卡 related L46-49 的「双三角画布/一行双三角画布/一堂双三角/人机协作双三角」4 条为裸文本别名行（非 [[ ]] wikilink，2e207340f 之前历史存量，不在终审 P0 清单）——未动；②agent-whitepaper-template L56 的 [[Agent ID 1]]/[[Agent ID 2]] 为占位符填空位设计——未动
+- 计数口径裁定追记（终审期望形态 #3）：按欧阳锋终审裁定，本单交付按 8 件计（5 单件 + 产品画布族三件套），「9 件」系编排侧对三件套的重复计数，无缺交付，不重补
