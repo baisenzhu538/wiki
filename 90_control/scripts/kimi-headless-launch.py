@@ -36,9 +36,10 @@ TOOLS = {
 }
 
 # 角色→默认工具路由（老朱 09-03 异构防线：不同模型防同构错误）。--tool 显式指定优先。
+# 09-03 20:10 王语嫣调整：laowantong 暂回 kimi——hermes 通道两连死+一次锁挂（#626/#629 实例死亡、19:41 拉起即死 0 字节日志），待通道修复后恢复 hermes
 ROLE_TOOL = {
     "huangyaoshi": "claude",
-    "laowantong": "hermes",
+    "laowantong": "kimi",
     "ouyangfeng": "codex",
 }
 
