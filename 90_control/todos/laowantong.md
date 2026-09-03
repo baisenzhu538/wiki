@@ -277,3 +277,4 @@
 - [2026-09-03 10:22] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
 - [2026-09-03 10:24] 📤 #632 完工提审（pending_review 等欧阳锋）：模板资产化批1——8 件模板落 40_outputs/capabilities/templates/（白皮书 11 节填空继承密级「不要外传」+挂 [[tool-kdo-agent-production-checklist]] 引用=裁决#5留痕；复盘画布 5Why 三层填空；私董会 SOP 话术可照念；双三角六宫格引导问题；回款 playbook 决策表+9条Checklist+关单表；产品画布族三件套互挂上下游）；8 源卡 related 双向互链全过（L1 脚本验证：回链/头链/id一致/尾节四项）；可填性自检 8/8 过（L2 狗粮：TEMP 真实回填关键位+身份断言回填可执行）；⚠️ 计数口径留痕：任务单「9件/6+3」vs 文件清单实列 8 个文件名，按清单全量交付 8 件，待欧阳锋终审核对；交付物已入仓（2e207340f 模板+互链 / 32757b466 执行报告 / 8795575da evidence）；L9 双验证过（myqueue 待终审 1=本单+frontmatter pending_review）；evidence 走文件路径不是文本（complete 脚本 --evidence 只收路径，本实例踩坑记忆）
 - [2026-09-03 10:37] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#632（laowantong 的单，挂审 14min）（到点（节奏 15min））
+- [2026-09-03 10:52] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
