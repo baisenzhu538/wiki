@@ -864,3 +864,7 @@
 - [2026-09-04 20:27] 黄药师线改 kimi K3（老朱令：claude/DeepSeek 无订阅）——拉起器 kimi 模板显式钉 k3 别名+ROLE_TOOL 黄药师→kimi；狗粮实证通过（读 F-076 复述正确+完工落行）
 - [2026-09-04 20:32] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#637（huangyaoshi 的单，挂审 12min）（到点（节奏 30min））
 - [2026-09-04 20:38] 值守拍：#637 完工提审（liveness 修根+水位线扫描，507 回归绿）→拉 codex 欧阳锋（DeepSeek 已充值线恢复）
+- [2026-09-04 20:50] 📨 终审通过抄送：#637 PASS A-（liveness划销抑制+水位线扫描根治500-cap翻滚，507回归全绿独立复跑✅）——意见书=60_feedback/tasks/task_20260904_huangyaoshi-liveness-reregister-fix.md「终审记录」节；编排归你
+- [2026-09-04 20:57] ⚖️ KDO 已终审 1 单：#637（待部署/已闭环）
+- [2026-09-04 21:02] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-04 21:08] 值守拍：#637 PASS（liveness 修根闭环）；黄药师顺手修拉起器闪窗（DETACHED→CREATE_NEW_CONSOLE+SW_HIDE，蓝框屏闪根因）；队列 220 全清
