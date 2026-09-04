@@ -862,3 +862,5 @@
 - [2026-09-04 20:09] 值守拍：#637 实例 18:31 死于 cron 楔死退出（kimi 会话级 cron 缺陷面）——补拉收尾
 - [2026-09-04 20:27] ⛔ KDO 门禁拦截 2 次（gate-blocked）：2026-09-04 20:19:38｜task_20260904_huangyaoshi-liveness-reregister-fix｜…
 - [2026-09-04 20:27] 黄药师线改 kimi K3（老朱令：claude/DeepSeek 无订阅）——拉起器 kimi 模板显式钉 k3 别名+ROLE_TOOL 黄药师→kimi；狗粮实证通过（读 F-076 复述正确+完工落行）
+- [2026-09-04 20:32] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#637（huangyaoshi 的单，挂审 12min）（到点（节奏 30min））
+- [2026-09-04 20:38] 值守拍：#637 完工提审（liveness 修根+水位线扫描，507 回归绿）→拉 codex 欧阳锋（DeepSeek 已充值线恢复）

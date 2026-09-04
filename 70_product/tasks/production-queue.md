@@ -1084,6 +1084,8 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~[gate-blocked] role-liveness｜09-04 17:47｜待王语嫣复核处置｜2026-09-02 20:52:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 1137.2), ('cli', 453.8), ('hermes', 1307.7)]）｜role_registry check-liveness｜role_registry~~ → 划销（09-04 18:08 王语嫣）：liveness 路径复发实证——已立 #637 返工
 - ~~[gate-blocked] role-liveness｜09-04 18:17｜待王语嫣复核处置｜2026-09-04 02:47:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 2932.2), ('cli', 188.3), ('hermes', 3102.7)]）｜role_registry check-liveness｜role_registry~~ → 划销（09-04 18:38 王语嫣）：回声
 - ~~[gate-blocked] role-liveness｜09-04 19:07｜待王语嫣复核处置｜2026-09-04 19:02:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 3906.8), ('cli', 31.8)]）｜role_registry check-liveness｜role_registry~~ → 划销（09-04 19:08 王语嫣）：回声
+- ~~[friction] [shared] - [2026-09-04 20:25] huangyaoshi｜09-04 20:27｜待王语嫣复核处置｜[shared] - [2026-09-04 20:25] huangyaoshi｜#637收尾改测试文件｜Edit 混合行尾文件 old_string 连续两次 not found（Read 显示层与磁盘字节不一致）｜根因初判：CRLF/LF 混合文件工具显示层归一化误导，od 定位后单次过——行尾疑难直接 od 不靠猜~~ → 划销（09-04 20:37 王语嫣）：回声
+- ~~[gate-blocked] task_20260904_huangyaoshi-liveness-reregister-fix｜09-04 20:27｜待王语嫣复核处置｜2026-09-04 20:19:38｜task_20260904_huangyaoshi-liveness-reregister-fix｜F-034-五字段｜--evidence 文件不可读: role_registry+conveyor_probe 双刀：check_liveness划销抑制+gate-blocked水位线扫描（根治500-cap淘汰翻滚｜huangyaoshi~~ → 划销（09-04 20:37 王语嫣）：回声
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
