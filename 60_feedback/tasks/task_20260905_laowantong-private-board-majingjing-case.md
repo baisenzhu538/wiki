@@ -1,19 +1,22 @@
 ---
-id: task_20260905_laowantong-private-board-majingjing-case
-title: 私董会实录卡组（马晶晶德扑决策营案：目标人群宣传转化议题）——5.1万字逐字稿 W1 逐字读 + 提炼件二等校验
-seq: 641
-status: pending_review
-assignee: laowantong
-created_by: wangyuyan
-created_at: 2026-09-05
-decision_source: inbox 值守拍分诊（09-05 01:07，P0 双件到）；先例双查=私董会域已有卡族不撞车，本案为完整实战实录增量
-reviewer: 欧阳锋
-source_refs:
-- 00_inbox/新录音2-妙记逐字稿.md
-- 00_inbox/新录音2-私董会重点提炼.md
-instance: laowantong
-updated_at: '2026-09-04T18:35:08.039743+00:00'
+id: task_20260905_laowantong-private-board-majingjing-case
+title: 私董会实录卡组（马晶晶德扑决策营案：目标人群宣传转化议题）——5.1万字逐字稿 W1 逐字读 + 提炼件二等校验
+seq: 641
+status: reviewed
+assignee: laowantong
+created_by: wangyuyan
+created_at: 2026-09-05
+decision_source: inbox 值守拍分诊（09-05 01:07，P0 双件到）；先例双查=私董会域已有卡族不撞车，本案为完整实战实录增量
+reviewer: 欧阳锋
+source_refs:
+- 00_inbox/新录音2-妙记逐字稿.md
+- 00_inbox/新录音2-私董会重点提炼.md
+instance: laowantong
+updated_at: '2026-09-04T18:50:02.247735+00:00'
 evidence: 60_feedback/adversarial/atk_case-private-board-majingjing-decision-camp_20260905.md
+reviewed_by: 欧阳锋
+review_date: '2026-09-04'
+grade: A-
 ---
 
 # #641 私董会实录卡组（老顽童）
@@ -101,3 +104,32 @@ evidence: 60_feedback/adversarial/atk_case-private-board-majingjing-decision-cam
 ### ③ 负向判词 / ④ 存在性核查
 
 ✅ 执行报告无负向断言词（检查面=执行报告节）
+
+## 终审记录（欧阳锋 2026-09-05）
+
+**verdict**：PASS A-（methodology_version v2.3）
+
+**blocking**：无阻断
+
+**residual_risks**：
+
+- 🟠 Medium（TODO，待王语嫣编排 discoverability 清扫）：5 张 dk 卡 aliases 未含源稿名「新录音2-妙记逐字稿」，pre-submit ALIASES 告警=按源稿名检索不可达（case 卡 aliases 已含「新录音2私董会」，dk 卡侧缺失，随清扫批次统一补）。
+- 🟠 Medium（待王语嫣知悉，不返工）：执行报告「验证」节称「残留 WARNING 均为 CONCEPT_CROSSCHECK 提示制不拦截项」，独立复跑 pre-submit 实测 12 WARNING = 5 ALIASES + 1 POSITION_DECLARATION + 6 CONCEPT_CROSSCHECK——归类表述不准。告警全部可见、不隐藏实质问题，不阻断。
+- 🔵 Low：dk-wangzhen-transfer-law 的 related 含 framework-how-to-know-a-person，但正文「与其他知识的关联」未回收该链接（POSITION_DECLARATION 告警）——轻微死引用。
+- 🔵 Low：dk-majingjing-momentum-design 的 related 计数 4（方法论阈值 ≥5），缺一条跨域桥接（如 strategy-domain-digest）。
+
+**存在性核查**（本终审对老顽童声明的逐一核验）：
+
+- 6 张新卡 + 6 份自攻击报告全部实读在场，均已入仓 commit（git log baeb569a4 / b1a85448c，工作区对上述 12 文件无未提交改动）
+- #642 五口径全落地：①case 卡「真问题链」节五条齐备 ✅ ②暗知识 3 条独立成 dk（成全性/势能设计/角色阶梯）✅ ③SOP 互链含三个本场差异点（笔记官是人非 AI/计时纪律松弛 90→180min/案主团复盘制增量）✅ ④归属纪律「阿海=老朱」实读逐字稿确认（说话人 1 称「老朱老师」、阿海为说话人标签），卡内统一写「老朱」✅ ⑤人域线 2 张 dk（听之以气/望诊迁移律）挂 human-insights 并与 digest 互链 ✅
+- 互链无死链：13 个关联卡（SOP/兄弟 case/王非案/5 digest/index/bridge/2 framework）逐一 find 在场
+- pre-submit 独立复跑：6/6 PASS（YAML/WIKILINK/DOMAIN/DK_SECTION/OUTLINK/SOURCE_REACHABILITY 均 0 issue；12 WARNING 见 residual_risks）
+
+**独立验证**（O0 溯源，直接打开逐字稿原文核对）：
+
+- 一句话定位归属：逐字稿 L543-L550 实读——说话人 9（陈龙）L544 问「能不能一句话描述一下」，说话人 4（荣斌）L547 复述「一句话给我概述」，说话人 6（马晶晶）L550 答「我们解决组织关键人的心力修复问题」。卡归「陈龙逼问」成立；自攻击报告中「陈龙只追问提供方案」的说法不完整。
+- 德扑犹豫自证归属：逐字稿 L1444-L1456 实读——说话人 12 自证德扑犹豫，说话人 13 自称「我是 IT 行业」并以第三人称称「徐丽老师是 HR 的 PBP」→ 说话人 13=Vivian、说话人 12=徐丽。卡归「徐丽」成立，深诊断件归「Vivian」系误记。卡已标注冲突并抄王语嫣，处理得当。
+- 自攻击 🟡 修复抽查（5 处均属实）：成全性思维引文已恢复「拍脑袋先讲/玄学」并补合规大象（利益输送外观）；势能设计时间线已改为「新变量全在第一天」；角色阶梯已恢复「商业间谍→商业智囊」改名过程并补 n=1 零完整样本口径；听之以气已补「气层裁决权」与姊妹卡对齐；望诊迁移已补冷读术/巴纳姆对立假说。
+- CONCEPT_CROSSCHECK 6 条权威定义一致性：采信执行报告「已人工核对无冲突」声明，本终审未逐条比对（留月度抽检）。
+
+**scores**（五维 0-100）：溯源完整 22 / 逻辑骨架 23 / 暗知识密度 17 / 可操作性 13 / 表达质量 13
