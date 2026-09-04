@@ -2,14 +2,14 @@
 id: task_20260905_huangyaoshi-sysmon-cas-trace
 title: C:\Sysmon 59G 内容寻址存储溯源与处置（已冻结改名止血；09-01 11:34 生，正值 #592 备份施工窗口）
 seq: 646
-status: queued
+status: in_progress
 assignee: huangyaoshi
 created_by: wangyuyan
 created_at: 2026-09-05
 decision_source: 老朱确认无印象（非他装）→ 王语嫣冻结止血（改名 Sysmon.frozen-20260905），写入者溯源归黄药师
 reviewer: 欧阳锋
 instance: huangyaoshi
-updated_at: '2026-09-04T20:11:31.168721+00:00'
+updated_at: '2026-09-04T20:27:01.676256+00:00'
 ---
 
 # #646 C:\Sysmon CAS 溯源与处置（黄药师）
@@ -31,3 +31,24 @@ updated_at: '2026-09-04T20:11:31.168721+00:00'
 
 - 写入者结论（含证据）+ 处置结果（释放空间数）+ 执行报告
 - claim/complete 走 queue_transition（complete 646）
+
+## 执行报告（黄药师 2026-09-05 04:30）
+
+**交付物**：①写入者结论+铁证链（下述）②Sysmon 修正配置热加载生效（活体 hash 7E41628D…）③仓库配置同步修正 `90_control/scripts/sysmon-kdo-forensics.xml`④处置完成：C:\Sysmon.frozen-20260905（27,714 文件）+ C:\Sysmon 全删，C 盘可用 51G→111G（释放 **60G**，占用 86%→69%）
+
+**完成内容**：
+- **写入者 = Sysmon64 自身的 EID23 归档机制，#592 三件套全部排除**。机制链：#591 取证配置 `sysmon-kdo-forensics.xml` 含 `<FileDelete onmatch="include">Desktop\wiki</FileDelete>`——Sysmon EID23 对命中的删除事件会把被删文件按 **SHA256大写+原扩展名** 归档进 ArchiveDir（默认=C:\Sysmon，活体配置 dump 实证 `Archive Directory: -` 即默认值）。vault 高频原子替换写入（git/python/kimi 的 write-tmp-rename）= 持续产生「删除」→ 每次替换留一份归档 → 4 天堆出 59G（内含 2.3GB git pack ×N 版、616MB kdo 索引快照 ×3 版等，每次 rebuild/repack 双倍计费）。
+- #592 三件套+wiki-bundle-backup.bat 写路径逐一读码排除：vault-backup→~/kdo-backups、vault-integrity-check→gate-blocked.log、wiki-vault-restore→显式 target、vault-snapshot→90_control/vault-status.md、bundle.bat→D:\KDO-memory+坚果云，无一指向 C:\Sysmon。目录生于 09-01 11:34 是 #591 装 Sysmon+载配置的时点，与 #592（11:49 claim）窗口相邻纯属先后施工。
+- 修复：FileDelete(EID23 带归档) → FileDeleteDetected(EID26 只记录不归档)，schema 升 4.90（FileDeleteDetected 在 4.22 下校验静默失败 exit 127——坑已避开）；删除检测能力（Image+TargetFilename）保留。
+- 处置：两目录删除，内容全部为 vault 文件的被替换旧版本（git/vault 现行版全覆盖，零独有数据）。
+
+**验证**（全部实跑）：
+- 铁证1 USN：rename 对 `60_feedback\tasks\task_20260904_laowantong-transcript-to-qingdanti-skill.md`（父 FRN …0d7571=该目录实测）→ `C:\Sysmon\<SHA256>.md`（_tmp/646-usn-dump.csv 留档），vault 侧同名文件秒级重建（FRN …08f654=现行文件实测一致）
+- 铁证2 EID23 活体：04:11-04:13 删除事件 Image=kimi.exe/git.exe/python.exe 与 CAS blob 落盘时刻逐条对齐
+- 铁证3 内容：blob 文件名==内容 SHA256 大写（多文件实测）；blob=任务文件历史版本（sha 对账）
+- 修复验证：配置热载后 vault 内造删测试文件 → EID26 抓到（rm.exe 带路径）、C:\Sysmon blob 计数 118→118 零增长
+- 释放验证：df 51G→111G
+
+**边界**：①Sysmon 日志只留 ~28min 窗口（EID 量大滚动快），历史 EID1 不可回查，靠 USN+活体陷阱补位；②EID26 不归档=被删文件内容不再留底，检测能力不变；若终审认为归档有价值可另议 ArchiveDir 指 D 盘；③冻结期观察哨无工具报错找 Sysmon，与「Sysmon 自身归档、无业务依赖」结论互洽；④老朱 PROTOCOL §7：本次删除对象=取证工具自身归档垃圾（非 vault 内容，git 全覆盖），任务单已授权「确认可弃则删除」，执行留痕于此。
+
+**需要谁动作**：①欧阳锋终审本单；②王语嫣知会：后续查删除事件用 EID26 不再是 EID23（EID23 已随归档关闭归零）；③口径提示（不阻塞）：grep 全库无自动化消费 Sysmon 日志（仅报告文本提及 EID23），无改动面。
