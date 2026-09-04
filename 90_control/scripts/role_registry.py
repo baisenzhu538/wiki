@@ -136,6 +136,30 @@ def _roles_with_active_tasks(queue_file: Path | None = None) -> set[str] | None:
     return busy
 
 
+def _role_liveness_struck(role: str) -> bool:
+    """#637 任务1：该角色 liveness 死况「已登记且已划销」（王语嫣处置过）→ True。
+
+    判定面=production-queue.md PROPOSAL-PENDING 段内划销行（`- ~~[gate-blocked]
+    role-liveness｜{role} `）。fresh 告警的原始时间戳每次新生，「角色+原始时间戳」
+    身份在此路径无判别力——查的是「这一死况是否已处置」，处置标记=划销行（角色粒度）。
+    段/文件读不出 → False（不误压报警，误发>漏发）。"""
+    try:
+        sys.path.insert(0, str(ROOT / "kdo-tools"))
+        import conveyor_probe as cp  # PROPOSAL 段标记单一真相源（B3：不复制字符串）
+        begin, end = cp.PROPOSAL_BEGIN, cp.PROPOSAL_END
+    except Exception:
+        return False
+    try:
+        text = QUEUE_FILE.read_text(encoding="utf-8")
+    except OSError:
+        return False
+    if begin not in text or end not in text:
+        return False
+    block = text.split(begin)[1].split(end)[0]
+    needle = f"role-liveness｜{role} "
+    return any(ln.startswith("- ~~") and needle in ln for ln in block.splitlines())
+
+
 def check_liveness(now: float | None = None) -> list[str]:
     """全角色扫描：已注册但全死 → gate-blocked.log 自报（#471 通道复用，不新造报警器）。
     #562：同角色 2h 冷却（ALERT_STATE 记 last_alert_ts），恢复后清零重新武装。
@@ -158,6 +182,11 @@ def check_liveness(now: float | None = None) -> list[str]:
         if busy is not None and role not in busy:
             continue  # F-074：无单收工静默，不写 gate-blocked
         if role in state and now - float(state[role]) < ALERT_COOLDOWN_SEC:
+            suppressed.append(role)
+            continue
+        if role in state and _role_liveness_struck(role):
+            # #637：已报过（state 在）+ 王语嫣已划销处置 + 持续死亡未恢复 → 不再重复自报
+            #（恢复时 state 清零重新武装，再死必报——防过度收敛）
             suppressed.append(role)
             continue
         state[role] = now

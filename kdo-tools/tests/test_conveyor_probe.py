@@ -680,7 +680,8 @@ def test_gate_blocked_v1_to_v2_migration_absorbs_silently(tmp_path, monkeypatch)
 
     state = {"gate_seen": ["some-old-line-hash"]}  # 旧方案遗留键
     assert probe._scan_gate_blocked(state) == []  # 迁移首跑静默吸收
-    assert "gate_seen_v2" in state
+    assert state["gate_seen_pos"] == 1  # #637：水位线压到末尾，存量吸收
+    assert "gate_seen" not in state  # 旧键清除
 
     with gb.open("a", encoding="utf-8") as f:
         f.write("2026-08-28 01:00｜task_562｜E040｜新拦截｜laowantong\n")

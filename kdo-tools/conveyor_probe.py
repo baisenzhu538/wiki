@@ -616,16 +616,29 @@ def _scan_gate_blocked(state: dict) -> list[str]:
         # 首个记录前的孤儿行（历史残片）跳过
     records = [r for r in records if "｜" in r]
 
-    # #562 迁移：仅当旧行级方案的 gate_seen 存在时才静默吸收存量（它们已被旧方案
-    # 逐行见过+通知过），防升级后首跑重报/重登记风暴；全新状态（无 gate_seen）直接正常扫描
-    if "gate_seen_v2" not in state and "gate_seen" in state:
-        state["gate_seen_v2"] = sorted(_sha256(r) for r in records)[-500:]
-        return []
+    # #637：水位线扫描，根治 500-cap 排序淘汰翻滚——记录数（611）超上限（500）时
+    # sorted(known)[-500:] 按哈希字母序淘汰=随机淘汰：每拍淘汰一批 → 下拍这批重现为
+    # 「新记录」→ 30min 一滴陈旧事件重登记（09-04 14:17~17:47 六连滴实证，
+    # #636 事件身份去重拦不住——每滴都是首次登记的独立身份）。
+    # append-only 日志改水位线（gate_seen_pos=已处理记录数）；hash 集只兜水位线后尾部。
+    pos = state.get("gate_seen_pos")
+    if pos is None:
+        # 迁移：老 state（任一 hash 方案）→ 存量全部已通知过（或翻滚通知过），
+        # 水位线压到末尾=吸收存量止滴；新记录从下一拍起走尾部通道
+        if "gate_seen_v2" in state or "gate_seen" in state:
+            state["gate_seen_pos"] = len(records)
+            state.pop("gate_seen", None)
+            return []
+        state["gate_seen_pos"] = 0  # 全新安装：全扫（首跑全貌上报）
+    if not isinstance(pos, int) or len(records) < pos:
+        pos = 0  # 日志截断/轮换 → 水位重置（hash 集兜重，防重报）
+    tail = records[pos:]
+    state["gate_seen_pos"] = len(records)
 
     seen = state.setdefault("gate_seen_v2", [])
     known = set(seen)
     new_records = []
-    for rec in records:
+    for rec in tail:
         h = _sha256(rec)
         if h not in known:
             known.add(h)
