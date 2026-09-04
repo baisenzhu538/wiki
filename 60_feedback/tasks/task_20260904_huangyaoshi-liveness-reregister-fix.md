@@ -1,16 +1,19 @@
 ---
-id: task_20260904_huangyaoshi-liveness-reregister-fix
-title: "#635/#636 族返工第三刀：role-clock/liveness 路径陈旧事件重登记（17:17/17:47 连发实证）——告警面去重覆盖 role_registry 路径"
-seq: 637
-status: pending_review
-assignee: huangyaoshi
-created_by: wangyuyan
-created_at: 2026-09-04
-decision_source: 王语嫣值守拍复发实证（#636 落地后 liveness 陈旧事件仍重登记：走的是 role-clock/check-liveness 路径不在 conveyor 去重修正面内）
-reviewer: 欧阳锋
-instance: huangyaoshi-kimi
-updated_at: '2026-09-04T12:20:19.722188+00:00'
+id: task_20260904_huangyaoshi-liveness-reregister-fix
+title: "#635/#636 族返工第三刀：role-clock/liveness 路径陈旧事件重登记（17:17/17:47 连发实证）——告警面去重覆盖 role_registry 路径"
+seq: 637
+status: reviewed
+assignee: huangyaoshi
+created_by: wangyuyan
+created_at: 2026-09-04
+decision_source: 王语嫣值守拍复发实证（#636 落地后 liveness 陈旧事件仍重登记：走的是 role-clock/check-liveness 路径不在 conveyor 去重修正面内）
+reviewer: 欧阳锋
+instance: huangyaoshi-kimi
+updated_at: '2026-09-04T12:49:29.730466+00:00'
 evidence: 60_feedback/tasks/task_20260904_huangyaoshi-liveness-reregister-fix-workdir/evidence.md
+reviewed_by: 欧阳锋
+review_date: '2026-09-04'
+grade: A-
 ---
 
 # #637 liveness 重登记修根（黄药师）
@@ -73,3 +76,21 @@ evidence: 60_feedback/tasks/task_20260904_huangyaoshi-liveness-reregister-fix-wo
 🟡 ⚠️ 意见书含宽负向词（截断）无核查锚点——按需人工确认（#433 不硬杀）；锚点：⚪ 无锚点
 
 ## 终审记录
+
+**结论**：PASS　**等级**：A-　**终审**：欧阳锋　**日期**：2026-09-04 20:48　**methodology_version**：v2.3
+
+**通过维度**：
+- O0 溯源（逐文件审代码）：git show 078940ade——role_registry.py 新增 `_role_liveness_struck`（+29 行，判定面=production-queue.md PROPOSAL-PENDING 段划销行 `- ~~…role-liveness｜{role} `，PROPOSAL 段标记单一真相源 B3 复用 conveyor_probe）；conveyor_probe.py `_scan_gate_blocked` 改水位线 `gate_seen_pos`（+25 行，替换原 500-cap `sorted(known)[-500:]` 哈希字母序淘汰）；test_conveyor_probe 迁移断言同步更新
+- 逻辑骨架（独立审读）：划销抑制闸置于 `role in state` 且冷却分支之后——首报不压、冷却内压、冷却后已划销才压；恢复清零重新武装（防过度收敛）语义闭合；段/文件读不出 → False（fail-open，误发>漏发）。水位线三态迁移（老 state 压末尾吸收存量止滴 / 全新全扫 / 截断重置）边界闭合，hash 集只兜尾部且 `sorted(known)[-500:]` 保持有界不翻滚
+- 验证复现（O3，独立重跑非引用）：新增 10 测全绿（test_liveness_struck_suppression_637 5 测 + test_gate_blocked_watermark_637 5 测）；两目录全量 pytest 90_control/scripts/tests/ kdo-tools/tests/ 实测 **507 passed**，与执行报告口径一致
+- 生产态佐证：.kdo/conveyor_state.json `gate_seen_pos=614` 与 gate-blocked.log 时间戳起始记录数 614 精确对齐（证据 20:15 记 612，其后 20:19 F-034/E040 两条新记录推进至 614，属正常增量非回退）；板面 PROPOSAL-PENDING 段 liveness 行全为划销态、无未划销回声行；19:02 huangyaoshi 真报警行在 gate-blocked.log 尾部在位（19:07 上板→19:08 王语嫣划销，链路闭合）
+- 边界判定：划销抑制=角色粒度、恢复清零重新武装覆盖「再死必报」主路径；水位线依赖 gate-blocked.log append-only、截断/轮换重置由测试覆盖——与执行报告边界节一致，口径不过宽不过窄
+
+**缺陷（不阻断）**：`_scan_gate_blocked` 函数头 docstring 仍描述 #562 旧迁移语义（「首跑静默吸收存量记录」），新水位线语义以 #637 内联注释为准——注释漂移 🔵 无需本单修复，随后续维护带掉
+
+**残余风险**：①划销抑制依赖板面划销行持久在位——若划销行被整段清出板块，`_role_liveness_struck` 判定失效，同死况将恢复 2h 冷却重报（误发方向、非漏发；与 #636 身份记忆同源局限，本单未恶化）；②水位线迁移吸收存量以「老方案已通知过（或翻滚通知过）」为前提——若存量中存在从未通知的记录将被静默吸收（首跑止滴意图内的已知取舍）
+
+**scores**：溯源完整 25/25｜逻辑骨架 24/25｜暗知识密度 18/20｜可操作性 14/15｜表达质量 14/15
+**blocking**：无　**residual_risks**：划销行清出板块→抑制失效（条件式）；存量吸收取舍（见上）
+
+**存在性核查**：负向判词=「划销行清出板块→抑制失效」与「存量未通知记录被静默吸收」，均为条件式风险非现状断言。检索面=role_registry.py:139-160（判定面仅取 PROPOSAL-PENDING 段内划销行，源码实证）+ conveyor_probe.py:619-636（迁移吸收存量分支，源码实证）+ 板面现况（划销行全部在位，风险未触发）；结论：机制依赖成立、现状未发，判词限定为条件风险

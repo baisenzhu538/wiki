@@ -264,7 +264,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 634 | `task_20260904_huangyaoshi-transcribe-quality-model-bump` | 转写质量升级：tiny→small/medium评估切换（政策关键名词错转实证）+414号文重转卡重修+faster_whisper失踪根因 | reviewed | huangyaoshi | 切换diff+对照实证+重转产物+根因结论 | 无 | `60_feedback/tasks/task_20260904_huangyaoshi-transcribe-quality-model-bump.md` | 老朱09-04链路验证暴露；王语嫣门禁退回重转；欧阳锋终审 |
 | 635 | `task_20260904_huangyaoshi-probe-noise-converge` | 探针噪声收敛：liveness有单才报+conveyor陈旧事件去重加已划销判定（F-074+F-076提前出池） | reviewed | huangyaoshi | diff+回归+实证+F-074/076划销 | 无 | `60_feedback/tasks/task_20260904_huangyaoshi-probe-noise-converge.md` | 王语嫣值守实证提前触发（回声每拍递增）；小修；欧阳锋终审 |
 | 636 | `task_20260904_huangyaoshi-probe-dedup-event-identity` | #635返工：探针去重键改按事件身份（划销改写行文本致匹配失效，15:17复发实证） | reviewed | huangyaoshi | diff+复发阻断实证 | 无 | `60_feedback/tasks/task_20260904_huangyaoshi-probe-dedup-event-identity.md` | 王语嫣值守拍复发实证退回；欧阳锋终审 |
-| 637 | `task_20260904_huangyaoshi-liveness-reregister-fix` | liveness陈旧事件重登记修根：role-clock路径告警去重（事件身份）+#635有单才报实效核查（17:17/17:47复发实证） | pending_review | huangyaoshi | diff+两拍零重登+真报警实证 | 无 | `60_feedback/tasks/task_20260904_huangyaoshi-liveness-reregister-fix.md` | 王语嫣值守拍复发退回（#635/636族第三刀）；欧阳锋终审 |
+| 637 | `task_20260904_huangyaoshi-liveness-reregister-fix` | liveness陈旧事件重登记修根：role-clock路径告警去重（事件身份）+#635有单才报实效核查（17:17/17:47复发实证） | reviewed | huangyaoshi | diff+两拍零重登+真报警实证 | 无 | `60_feedback/tasks/task_20260904_huangyaoshi-liveness-reregister-fix.md` | 王语嫣值守拍复发退回（#635/636族第三刀）；欧阳锋终审 |
 | 630 | `task_20260903_laowantong-626-source-anchor-fix` | 修订单（传口径不改范围）：#626 素材锚升级——Live86对账以原稿为一等锚（00_inbox/龙虾员工实践/），Candy仅定位模版增量；Live77无原稿Candy即一手 | cancelled | laowantong | 口径落 #626 执行报告，随其终审 | #626 配套 | `60_feedback/tasks/task_20260903_laowantong-626-source-anchor-fix.md` | 老朱09-03直令「找原稿深挖」；王语嫣查实原稿在库；E047边界：修订单不传裁决 |
 | 631 | `task_20260903_huangyaoshi-orphan-backup-source-hunt` | 孤儿backup触发源追查（01:38非节拍收走在制品）+探针非节拍检测信号+守卫SKIPPED接第十信号 | reviewed | huangyaoshi | 触发源结论+探针信号实证 | #628 reviewed 后 | `60_feedback/tasks/task_20260903_huangyaoshi-orphan-backup-source-hunt.md` | 黄药师建议书（09-03王语嫣裁定）；欧阳锋终审 |
 | 627 | `task_20260903_huangyaoshi-infra-registry-and-archive-test-fix` | 基建总表补登记6资产（回归持续红清零）+queue-archive月界漂移修复（口径②按任务日期归月，王语嫣定夺） | reviewed | huangyaoshi | 登记diff+两测试复绿全量回归原样输出 | 无 | `60_feedback/tasks/task_20260903_huangyaoshi-infra-registry-and-archive-test-fix.md` | 黄药师两建议书并单（09-03王语嫣裁定）；欧阳锋终审 |
@@ -509,7 +509,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#634 task_20260904_huangyaoshi-transcribe-quality-model-bump｜huangyaoshi｜提审 09-04 04:43｜60_feedback/tasks/task_20260904_huangyaoshi-transcribe-quality-model-bump.md~~ → 已终审 PASS A-（2026-09-03 欧阳锋）
 - ~~#635 task_20260904_huangyaoshi-probe-noise-converge｜huangyaoshi｜提审 09-04 13:18｜60_feedback/tasks/task_20260904_huangyaoshi-probe-noise-converge.md~~ → 已终审 PASS A-（2026-09-04 欧阳锋）
 - ~~#636 task_20260904_huangyaoshi-probe-dedup-event-identity｜huangyaoshi｜提审 09-04 15:59｜60_feedback/tasks/task_20260904_huangyaoshi-probe-dedup-event-identity.md~~ → 已终审 PASS A-（2026-09-04 欧阳锋）
-- #637 task_20260904_huangyaoshi-liveness-reregister-fix｜huangyaoshi｜提审 09-04 20:20｜60_feedback/tasks/task_20260904_huangyaoshi-liveness-reregister-fix.md
+- ~~#637 task_20260904_huangyaoshi-liveness-reregister-fix｜huangyaoshi｜提审 09-04 20:20｜60_feedback/tasks/task_20260904_huangyaoshi-liveness-reregister-fix.md~~ → 已终审 PASS A-（2026-09-04 欧阳锋）
 
 <!-- REVIEW-PENDING-END -->
 
