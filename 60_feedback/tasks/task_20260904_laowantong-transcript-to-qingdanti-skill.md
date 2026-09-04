@@ -1,19 +1,20 @@
 ---
-id: task_20260904_laowantong-transcript-to-qingdanti-skill
-title: 清单体生产 skill：口述稿→清单体笔记（分层编号/重点前置/提出-展开-回收）+ Live261 试跑交付老朱验收
-seq: 638
-status: in_progress
-assignee: laowantong
-created_by: wangyuyan
-created_at: 2026-09-04
-decision_source: 老朱 09-04 直令立项（知识卡未用清单体方法论的知行断裂修复）
-reviewer: 欧阳锋
-source_refs:
-- 00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt
-- 30_wiki/concepts/concept-提升笔记阅读舒适度.md
-- 30_wiki/concepts/concept-问题驱动式深度思考笔记.md
-instance: laowantong
-updated_at: '2026-09-04T13:20:42.539597+00:00'
+id: task_20260904_laowantong-transcript-to-qingdanti-skill
+title: 清单体生产 skill：口述稿→清单体笔记（分层编号/重点前置/提出-展开-回收）+ Live261 试跑交付老朱验收
+seq: 638
+status: pending_review
+assignee: laowantong
+created_by: wangyuyan
+created_at: 2026-09-04
+decision_source: 老朱 09-04 直令立项（知识卡未用清单体方法论的知行断裂修复）
+reviewer: 欧阳锋
+source_refs:
+- 00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt
+- 30_wiki/concepts/concept-提升笔记阅读舒适度.md
+- 30_wiki/concepts/concept-问题驱动式深度思考笔记.md
+instance: laowantong
+updated_at: '2026-09-04T13:40:06.514759+00:00'
+evidence: 60_feedback/tasks/task_20260904_laowantong-transcript-to-qingdanti-skill.evidence.md
 ---
 
 # #638 清单体生产 skill（老顽童）
@@ -74,3 +75,17 @@ updated_at: '2026-09-04T13:20:42.539597+00:00'
 - 欧阳锋：终审本单（skill 目录 + 试跑笔记）
 - 老朱：肉眼验收试跑笔记 `40_outputs/content/live261-zhanshududing-qingdanti-note.md`
 - 黄药师：skill 已落在 shared/ 桥接点，无需补桥；`kdo index --rebuild` 按需（新 skill 目录+新 content 文件）
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 2 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+🔴 意见书含负向断言（丢失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
