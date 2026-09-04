@@ -15,12 +15,23 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 import role_registry as rr
 
 
+def _queue_with(roles: list[tuple[str, str]]) -> str:
+    """生产队列最小可解析文本：roles=[(assignee, status)]——F-074 有单判定的夹具。"""
+    lines = ["|:---:|:---|:---|:---:|:---|"]
+    for i, (role, status) in enumerate(roles, start=1):
+        lines.append(f"| {i} | task_test_{i} | 测试 | {status} | {role} |")
+    return "\n".join(lines) + "\n"
+
+
 def _wire(tmp_path, monkeypatch):
     reg = tmp_path / "role-registry.json"
     ledger = tmp_path / "gate-blocked.log"
+    queue = tmp_path / "production-queue.md"
+    queue.write_text(_queue_with([]), encoding="utf-8")
     monkeypatch.setattr(rr, "REGISTRY", reg)
     monkeypatch.setattr(rr, "GATE_BLOCKED_LOG", ledger)
     monkeypatch.setattr(rr, "ALERT_STATE", tmp_path / "alert-state.json")
+    monkeypatch.setattr(rr, "QUEUE_FILE", queue)
     return reg, ledger
 
 
@@ -64,8 +75,10 @@ def test_liveness_unregistered_not_dead(tmp_path, monkeypatch):
 
 
 def test_check_liveness_reports_all_dead(tmp_path, monkeypatch):
-    """全死 → gate-blocked.log 自报（#471 通道复用）；有活口不报。"""
+    """全死且有单（queued）→ gate-blocked.log 自报（#471 通道复用）；有活口不报。"""
     _, ledger = _wire(tmp_path, monkeypatch)
+    queue = tmp_path / "production-queue.md"
+    queue.write_text(_queue_with([("huangyaoshi", "queued")]), encoding="utf-8")
     rr.heartbeat("huangyaoshi", "cli", now=1000.0)          # 将死
     rr.heartbeat("wangyuyan", "cli", now=time.time())        # 活着
     alerts = rr.check_liveness(now=1000.0 + 60 * 60)
@@ -78,6 +91,8 @@ def test_check_liveness_reports_all_dead(tmp_path, monkeypatch):
 def test_check_liveness_cooldown_suppresses_repeat(tmp_path, monkeypatch):
     """#562：同角色 2h 冷却——连跑 3 拍仅首拍报警；恢复清零后再死重新报警。"""
     _, ledger = _wire(tmp_path, monkeypatch)
+    queue = tmp_path / "production-queue.md"
+    queue.write_text(_queue_with([("huangyaoshi", "queued")]), encoding="utf-8")
     t0 = 1000.0
     rr.heartbeat("huangyaoshi", "cli", now=t0)
     dead = t0 + 60 * 60
@@ -97,3 +112,24 @@ def test_check_liveness_cooldown_suppresses_repeat(tmp_path, monkeypatch):
     a5 = rr.check_liveness(now=dead + 5 * 3600)               # 又死 → 立即报
     assert a5 == ["huangyaoshi"]
     assert ledger.read_text(encoding="utf-8").count("role-liveness") == 3
+
+
+def test_check_liveness_no_tasks_silent(tmp_path, monkeypatch):
+    """F-074：无单角色全死静默（收工常态不报警，09-03 三连拍误报实证）。"""
+    _, ledger = _wire(tmp_path, monkeypatch)  # 队列夹具为空
+    rr.heartbeat("huangyaoshi", "cli", now=1000.0)
+    rr.heartbeat("laowantong", "cli", now=1000.0)
+    alerts = rr.check_liveness(now=1000.0 + 60 * 60)
+    assert alerts == []
+    assert not ledger.exists() or "role-liveness" not in ledger.read_text(encoding="utf-8")
+
+
+def test_check_liveness_claimed_task_alerts(tmp_path, monkeypatch):
+    """F-074：claimed-<role> 单也算有单——执行中死亡必须报（执行中断无人知）。"""
+    _, ledger = _wire(tmp_path, monkeypatch)
+    queue = tmp_path / "production-queue.md"
+    queue.write_text(_queue_with([("huangyaoshi", "claimed-huanggyaoshi")]), encoding="utf-8")
+    rr.heartbeat("huangyaoshi", "cli", now=1000.0)
+    alerts = rr.check_liveness(now=1000.0 + 60 * 60)
+    assert alerts == ["huangyaoshi"]
+    assert "role-liveness" in ledger.read_text(encoding="utf-8")

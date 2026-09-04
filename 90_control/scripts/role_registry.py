@@ -27,6 +27,7 @@ if hasattr(sys.stderr, "reconfigure"):
 ROOT = Path(__file__).resolve().parent.parent.parent
 REGISTRY = ROOT / "90_control" / "role-registry.json"
 GATE_BLOCKED_LOG = ROOT / "90_control" / "gate-blocked.log"
+QUEUE_FILE = ROOT / "70_product" / "tasks" / "production-queue.md"  # F-074：有单判定读口
 
 # 角色唤醒节奏（分钟）——活性判定基准（>2×节奏=疑似死亡）。
 # 来源 #555 编排：老顽童 15 / 王语嫣 30 / 黄药师 15 / 风清扬 720（日 2 拍）/ 欧阳锋事件驱动=30 兜底
@@ -114,13 +115,36 @@ def liveness(role: str, now: float | None = None, reg: dict | None = None) -> di
             "all_dead": not alive, "registered": True, "pace_min": pace}
 
 
+def _roles_with_active_tasks(queue_file: Path | None = None) -> set[str] | None:
+    """F-074：有单角色=生产队列中该角色存在 queued/claimed 任务（assignee=角色）。
+
+    无单=收工常态，其静默不报（09-03 早三连拍误报实证）。队列不可读 → None
+    （调用方按有单处理——活性报警误发>漏发，role_clock 同口径）。"""
+    try:
+        sys.path.insert(0, str(Path(__file__).resolve().parent))
+        from queue_gate import parse_queue
+        rows = parse_queue(queue_file or QUEUE_FILE)
+    except Exception:
+        return None
+    busy = set()
+    for r in rows:
+        status = r.get("status", "")
+        if status == "queued" or status.startswith("claimed-"):
+            assignee = (r.get("assignee") or "").strip()
+            if assignee:
+                busy.add(assignee)
+    return busy
+
+
 def check_liveness(now: float | None = None) -> list[str]:
     """全角色扫描：已注册但全死 → gate-blocked.log 自报（#471 通道复用，不新造报警器）。
     #562：同角色 2h 冷却（ALERT_STATE 记 last_alert_ts），恢复后清零重新武装。
+    #635 F-074：该角色有 queued/claimed 单才报——无单静默=收工常态不报警。
     返回本次实际新报警的角色列表（冷却抑制的不在内）。"""
     now = now or time.time()
     reg = _load()
     state = _load_alert_state()
+    busy = _roles_with_active_tasks()
     alerts = []
     suppressed = []
     lines = []
@@ -131,6 +155,8 @@ def check_liveness(now: float | None = None) -> list[str]:
         if not lv["all_dead"]:
             state.pop(role, None)  # 恢复 → 清零重新武装
             continue
+        if busy is not None and role not in busy:
+            continue  # F-074：无单收工静默，不写 gate-blocked
         if role in state and now - float(state[role]) < ALERT_COOLDOWN_SEC:
             suppressed.append(role)
             continue

@@ -635,11 +635,14 @@ def _scan_gate_blocked(state: dict) -> list[str]:
 
 
 def _update_proposal_board_gate(new_lines: list[str]) -> None:
-    """#460：门禁拦截登记 PROPOSAL-PENDING（[gate-blocked] 类型，幂等）。"""
+    """#460：门禁拦截登记 PROPOSAL-PENDING（[gate-blocked] 类型，幂等）。
+    #635 F-076：登记前查同事件是否已划销——处置行保留记录全文，段内全文匹配命中即跳过
+    （历史旧拍不再回声重登；state 淘汰后重扫同事件也零重复）。"""
     if not new_lines or not QUEUE_FILE.exists():
         return
     text = QUEUE_FILE.read_text(encoding="utf-8")
     items, known = [], set()
+    block = ""
     if PROPOSAL_BEGIN in text and PROPOSAL_END in text:
         block = text.split(PROPOSAL_BEGIN)[1].split(PROPOSAL_END)[0]
         for ln in block.splitlines():
@@ -652,6 +655,8 @@ def _update_proposal_board_gate(new_lines: list[str]) -> None:
         marker = f"[gate-blocked] {ln.split('｜')[1].strip()}"
         if marker in known:
             continue
+        if block and ln in block:
+            continue  # F-076：同事件已划销/已登记（行含记录全文）→ 跳过
         items.append(f"- {marker}｜{now}｜待王语嫣复核处置｜{ln}")
         known.add(marker)
         added += 1

@@ -754,3 +754,42 @@ def test_graph_index_healthy_no_alarm_and_rearm(tmp_path, monkeypatch):
 
     (gdir / "graph_chunk_entity_relation.graphml").write_bytes(b"<graphml></graphml>")
     assert len(probe._scan_graph_index_health(state)) == 1  # 再异常重报
+
+
+# ── #635 F-076：陈旧事件划销判定回归 ───────────────────────
+
+def _queue_with_gate_row(struck_record: str) -> str:
+    """队列含一条已划销 [gate-blocked] 行（处置行保留记录全文——真实划销形态）。"""
+    return (
+        f"# 队列\n\n{probe.PROPOSAL_BEGIN}\n"
+        f"- ~~[gate-blocked] role-liveness｜09-04 12:47｜待王语嫣复核处置｜{struck_record}~~ → 划销（F-076 回声）\n"
+        f"{probe.PROPOSAL_END}\n"
+    )
+
+
+def test_gate_board_skips_struck_same_event(tmp_path, monkeypatch):
+    """F-076：同事件已划销（段内全文匹配处置行）→ 跳过，不再回声重登。"""
+    record = ("2026-08-27 08:22:01｜role-liveness｜ouyangfeng 全实例疑似死亡"
+              "（stale: [('kimi-cli', 73.1)]）｜role_registry check-liveness｜role_registry")
+    queue = tmp_path / "production-queue.md"
+    queue.write_text(_queue_with_gate_row(record), encoding="utf-8")
+    monkeypatch.setattr(probe, "QUEUE_FILE", queue)
+
+    probe._update_proposal_board_gate([record])  # state 淘汰后重扫同旧事件
+    text = queue.read_text(encoding="utf-8")
+    assert text.count(record) == 1  # 未新增行
+    assert text.count("- ~~[gate-blocked]") == 1  # 历史划销行保留
+
+
+def test_gate_board_new_occurrence_still_registers(tmp_path, monkeypatch):
+    """F-076 边界：同任务新拦截（时间戳不同=新事件）不因旧划销行被吞——照常登记。"""
+    old = "2026-08-27 08:22:01｜task_426｜F-034-五字段｜旧拦截｜huangyaoshi"
+    queue = tmp_path / "production-queue.md"
+    queue.write_text(_queue_with_gate_row(old), encoding="utf-8")
+    monkeypatch.setattr(probe, "QUEUE_FILE", queue)
+
+    fresh = "2026-09-04 14:00:00｜task_426｜F-034-五字段｜新拦截｜huangyaoshi"
+    probe._update_proposal_board_gate([fresh])
+    text = queue.read_text(encoding="utf-8")
+    assert text.count(fresh) == 1  # 新事件照常登记
+    assert text.count("[gate-blocked]") == 2  # 旧划销行 + 新行
