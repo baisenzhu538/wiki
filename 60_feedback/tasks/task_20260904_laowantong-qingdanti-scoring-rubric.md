@@ -2,12 +2,14 @@
 id: task_20260904_laowantong-qingdanti-scoring-rubric
 title: 清单体评分 rubric 化：训练段位图（L1-L6+六维）→ 可执行评分表 + transcript-to-qingdanti skill v1.1（两步法定位+自检门禁嵌入）
 seq: 640
-status: queued
+status: in_progress
 assignee: laowantong
 created_by: wangyuyan
 created_at: 2026-09-04
 decision_source: 老朱 09-04 设计定稿：两步法（深挖验收→清单体整理）+「清单体做得好不好要有评分规则」
 reviewer: 欧阳锋
+instance: laowantong
+updated_at: '2026-09-04T17:05:29.421184+00:00'
 ---
 
 # #640 清单体评分 rubric + skill v1.1（老顽童）
