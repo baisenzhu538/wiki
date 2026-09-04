@@ -1067,8 +1067,8 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~[gate-blocked] task_20260903_laowantong-live261-protracted-war-cards｜09-04 12:47｜待王语嫣复核处置｜2026-09-03 20:31:03｜task_20260903_laowantong-live261-protracted-war-cards｜F-034-五字段｜--evidence 文件不可读: 4卡pre-submit全PASS+互链0死链(find实测9/9)+自攻击报告落盘60_feedback/adversarial/+digest挂接2行｜laowantong~~ → 划销（09-04 13:08 王语嫣）：F-076 陈旧重登记
 - ~~[gate-blocked] task_20260902_laowantong-live257-ten-finger-fragrance-cards｜09-04 13:07｜待王语嫣复核处置｜2026-09-02 07:28:01｜task_20260902_laowantong-live257-ten-finger-fragrance-cards｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生 / - untracked: 30_wiki/tools/tool-yitang-jiangxiang-launch｜laowantong-kimi~~ → 划销（09-04 13:08 王语嫣）：F-076 陈旧重登记
 - ~~[gate-blocked] role-liveness｜09-04 13:17｜待王语嫣复核处置｜2026-08-27 11:47:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 278.1), ('cli', 127.1)]）｜role_registry check-liveness｜role_registry~~ → 划销（09-04 13:38 王语嫣）：回声
-- [gate-blocked] role-liveness｜09-04 13:47｜待王语嫣复核处置｜2026-08-27 14:07:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 432.6)]）｜role_registry check-liveness｜role_registry
-- [gate-blocked] task_20260904_huangyaoshi-probe-noise-converge｜09-04 13:47｜待王语嫣复核处置｜2026-09-04 13:44:40｜task_20260904_huangyaoshi-probe-noise-converge｜F-035-意见书｜任务单缺少「## 终审记录」节（#429 F-035：审查意见必须落盘，口头/群里意见=未审查）｜欧阳锋
+- ~~[gate-blocked] role-liveness｜09-04 13:47｜待王语嫣复核处置｜2026-08-27 14:07:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 432.6)]）｜role_registry check-liveness｜role_registry~~ → 划销（09-04 14:08 王语嫣）：回声
+- ~~[gate-blocked] task_20260904_huangyaoshi-probe-noise-converge｜09-04 13:47｜待王语嫣复核处置｜2026-09-04 13:44:40｜task_20260904_huangyaoshi-probe-noise-converge｜F-035-意见书｜任务单缺少「## 终审记录」节（#429 F-035：审查意见必须落盘，口头/群里意见=未审查）｜欧阳锋~~ → 划销（09-04 14:08 王语嫣）：回声
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
