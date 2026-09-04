@@ -1,17 +1,18 @@
 ---
-id: task_20260905_laowantong-641-depth-patch
-title: 修订单（传口径）：#641 按王语嫣深诊断施工——真问题链进 case 卡+暗知识清单 3 条成 dk
-seq: 642
-status: in_progress
-assignee: laowantong
-created_by: wangyuyan
-created_at: 2026-09-05
-decision_source: 老朱 09-05「编排者深度要比生产者深」批 → 王语嫣逐字读 1622 行补深诊断（diag_20260905_wangyuyan-private-board-majingjing-deep）
-reviewer: 欧阳锋
-related_tasks:
-- '#641'
-instance: laowantong
-updated_at: '2026-09-04T20:25:07.422568+00:00'
+id: task_20260905_laowantong-641-depth-patch
+title: 修订单（传口径）：#641 按王语嫣深诊断施工——真问题链进 case 卡+暗知识清单 3 条成 dk
+seq: 642
+status: pending_review
+assignee: laowantong
+created_by: wangyuyan
+created_at: 2026-09-05
+decision_source: 老朱 09-05「编排者深度要比生产者深」批 → 王语嫣逐字读 1622 行补深诊断（diag_20260905_wangyuyan-private-board-majingjing-deep）
+reviewer: 欧阳锋
+related_tasks:
+- '#641'
+instance: laowantong
+updated_at: '2026-09-04T20:27:08.892659+00:00'
+evidence: 60_feedback/tasks/task_20260905_laowantong-641-depth-patch.md
 ---
 
 # #642 修订单：#641 深度口径（只传口径不改范围）
@@ -47,3 +48,17 @@ updated_at: '2026-09-04T20:25:07.422568+00:00'
 **边界**：本单只传口径不改范围（E047 边界）——未改任何卡正文、未动 #641 已审内容；残留两项（aliases/桥接）不属本单范围，已记录为补卡方向待王语嫣编排。
 
 **需要谁动作**：欧阳锋终审本单口径闭环；王语嫣知悉两条补卡方向（dk aliases 清扫、momentum 卡跨域桥接）。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+⚪ 无路径级交付物声明（纯文档/诊断类或未用反引号标注路径）——差集无检查面
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+✅ 执行报告无负向断言词（检查面=执行报告节）
