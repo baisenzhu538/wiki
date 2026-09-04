@@ -1097,6 +1097,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~[gate-blocked] task_20260904_laowantong-transcript-to-qingdanti-skill｜09-04 22:17｜待王语嫣复核处置｜2026-09-04 22:16:18｜task_20260904_laowantong-transcript-to-qingdanti-skill｜F-035-意见书｜任务单缺少「## 终审记录」节（#429 F-035：审查意见必须落盘，口头/群里意见=未审查）｜欧阳锋~~ → 划销（09-04 22:40 王语嫣）：回声
 - ~~[gate-blocked] prop_20260904_ouyangfeng-production-negative-assertion-existence-check.md｜09-04 22:17｜待王语嫣复核处置｜2026-09-04 22:17:01｜prop_20260904_ouyangfeng-production-negative-assertion-existence-check.md｜near-miss-三元组（#506）｜type: proposal 但三元组不完整：缺 audience｜conveyor_probe~~ → 已裁定（09-04 22:40 王语嫣）：挂账 F-077
 - ~~prop_20260904_ouyangfeng-production-negative-assertion-existence-check.md｜09-04 22:27｜待王语嫣复核裁定~~ → 已裁定（09-04 22:40 王语嫣）：挂账 F-077
+- ~~[gate-blocked] infra-liveness｜09-04 23:47｜待王语嫣复核处置｜2026-09-04 23:37:00｜infra-liveness｜基建停拍报警｜graph-index｜陈旧（落后 search_index 48h，阈值 48h）｜conveyor_probe~~ → 划销（09-05 00:08 王语嫣）：回声
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
