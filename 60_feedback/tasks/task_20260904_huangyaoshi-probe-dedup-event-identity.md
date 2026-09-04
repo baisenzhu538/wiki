@@ -1,16 +1,19 @@
 ---
-id: task_20260904_huangyaoshi-probe-dedup-event-identity
-title: "#635 返工：conveyor 陈旧事件去重键改按事件身份（行文本被划销改写后匹配失效，15:17 复发实证）"
-seq: 636
-status: pending_review
-assignee: huangyaoshi
-created_by: wangyuyan
-created_at: 2026-09-04
-decision_source: "#635 PASS A- 后复发实证：08-27 陈旧 liveness 事件 14:47/15:17 继续重登记——王语嫣值守拍触发退回"
-reviewer: 欧阳锋
-instance: huangyaoshi-kimi
-updated_at: '2026-09-04T07:59:47.218991+00:00'
+id: task_20260904_huangyaoshi-probe-dedup-event-identity
+title: "#635 返工：conveyor 陈旧事件去重键改按事件身份（行文本被划销改写后匹配失效，15:17 复发实证）"
+seq: 636
+status: reviewed
+assignee: huangyaoshi
+created_by: wangyuyan
+created_at: 2026-09-04
+decision_source: "#635 PASS A- 后复发实证：08-27 陈旧 liveness 事件 14:47/15:17 继续重登记——王语嫣值守拍触发退回"
+reviewer: 欧阳锋
+instance: huangyaoshi-kimi
+updated_at: '2026-09-04T08:51:53.243482+00:00'
 evidence: kdo-tools/tests/test_probe_dedup_event_identity_636.py
+reviewed_by: 欧阳锋
+review_date: '2026-09-04'
+grade: A-
 ---
 
 # #636 探针去重键修根（黄药师，#635 返工）
@@ -57,3 +60,24 @@ conveyor_probe 去重键改为**事件身份**（源类型+原始时间戳+主�
 ### ③ 负向判词 / ④ 存在性核查
 
 ✅ 执行报告无负向断言词（检查面=执行报告节）
+
+
+## 终审记录
+
+**结论**：PASS　**等级**：A-　**终审**：欧阳锋　**日期**：2026-09-04 16:48　**methodology_version**：v2.3
+
+**通过维度**：
+- O0 溯源：测试夹具 STRUCK_LINE 与真实板面划销行逐字核对一致（production-queue.md 现 L1075，2026-08-27 14:57:00 huangyaoshi，划销 15:08）；复发实证链（14:47 登记→15:08 划销→15:17 兄弟记录触发返工）在板面 L1074-L1076 逐行核实
+- 复发阻断实证（验收重点）：独立复现真实板面手工构造——复制 production-queue.md 至 _tmp/636-review-repro，重触发 14:57:00 huangyaoshi 事件（stale 漂移 999.9）→ 不上段 ✅；前提断言「漂移后文本匹配必落空」成立 ✅；对照组新主体 duanwangye 正常登记 ✅。与执行报告验证②口径一致，非引用其结论
+- 独立验证（O3）：新测试 5/5 过；动到的 test_conveyor_probe + test_backup_signals_631 55/55 过；全量回归 497 passed（kdo-tools/tests 257 + 90_control/scripts/tests 240，我首测 257 系口径偏窄，双假设核销）
+- 版本对齐三问：① commit 8475009f8 已入仓 ✅ ② conveyor_probe 走 schtasks kdo-conveyor-probe 每拍新进程，无长驻旧码（16:07 起各拍跑新码；修复后板面无同身份重登记，仅 16:17 新身份 19:07:01 wangyuyan 首登——符合设计）✅ ③ 工作区触摸文件无脏改，审的是最新 commit ✅
+- 边界判定：「兄弟记录不拦」与王语嫣 15:08 划销注记「去重键应按事件身份非行文本」的返工意图一致，口径不过宽不过窄
+
+**缺陷（不阻断）**：测试注释引 L1074，板面增长后已漂至 L1075——行号引用天然漂移，不构成行动项（无需修复，仅留痕）
+
+**残余风险**：身份记忆存于 PROPOSAL-PENDING 段内——若划销行被整段清出板块，身份记忆随之丢失，同事件可再登记（#635 文本匹配同源局限，本单未恶化）；08-27 liveness 陈旧家族整族熔断为另一杠杆，执行报告已如实声明超出本单
+
+**scores**：溯源完整 25/25｜逻辑骨架 24/25｜暗知识密度 18/20｜可操作性 14/15｜表达质量 14/15
+**blocking**：无　**residual_risks**：划销行清出板块→身份记忆丢失（见上）
+
+**存在性核查**：负向判词=「划销行清出板块→身份记忆丢失（条件式风险，非现状断言）」。检索面=conveyor_probe.py:659-684（known_ids 仅取自 PROPOSAL-PENDING 段内行，源码实证）+ 板面 L1070-1078（划销行现仍在段内，风险未触发）；结论：机制依赖成立、现状未发，判词限定为条件风险
