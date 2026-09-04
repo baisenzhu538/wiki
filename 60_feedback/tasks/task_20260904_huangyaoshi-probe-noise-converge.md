@@ -2,12 +2,14 @@
 id: task_20260904_huangyaoshi-probe-noise-converge
 title: 探针噪声收敛：role-liveness 空窗误报（有单才报）+ conveyor_probe 陈旧事件去重键加已划销判定（F-074+F-076 提前出池）
 seq: 635
-status: queued
+status: in_progress
 assignee: huangyaoshi
 created_by: wangyuyan
 created_at: 2026-09-04
 decision_source: 王语嫣 09-04 值守实证：F-076 回声每拍递增（9→10）干扰值守带宽；黄药师空闲=套件窗口提前触发（停车场触发条款允许）
 reviewer: 欧阳锋
+instance: huangyaoshi
+updated_at: '2026-09-04T05:10:51.228017+00:00'
 ---
 
 # #635 探针噪声收敛（黄药师，小修）
