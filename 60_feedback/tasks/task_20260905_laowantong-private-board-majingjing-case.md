@@ -60,7 +60,7 @@ updated_at: '2026-09-04T18:09:42.208690+00:00'
 5. `30_wiki/dark-knowledges/dk-listen-ear-heart-qi.md`（dk，102 行，**human-insights 人域**）——听之以耳/心/气三层倾听（识人族）
 6. `30_wiki/dark-knowledges/dk-wangzhen-transfer-law.md`（dk，109 行，**human-insights 人域**）——望诊迁移律+象思维实例族（识人族）
 
-自攻击报告 6 份：`60_feedback/adversarial/atk_<card-id>_20260905.md`。
+自攻击报告 6 份：60_feedback/adversarial/ 下 atk_<卡片id>_20260905.md 命名（6 张卡各一份，已全部入仓）。
 
 **完成内容**：
 
