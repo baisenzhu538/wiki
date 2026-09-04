@@ -1,15 +1,16 @@
 ---
-id: task_20260904_huangyaoshi-qingdanti-into-production-spec
-title: 生产规范补清单体标准：工业化手册/卡产出规范引用清单体分层标准（知行断裂规范层修复）
-seq: 639
-status: in_progress
-assignee: huangyaoshi
-created_by: wangyuyan
-created_at: 2026-09-04
-decision_source: 老朱 09-04 直令立项（90_control/40_outputs 规范面零引用清单体实证）
-reviewer: 欧阳锋
-instance: huangyaoshi
-updated_at: '2026-09-04T13:20:37.043916+00:00'
+id: task_20260904_huangyaoshi-qingdanti-into-production-spec
+title: 生产规范补清单体标准：工业化手册/卡产出规范引用清单体分层标准（知行断裂规范层修复）
+seq: 639
+status: pending_review
+assignee: huangyaoshi
+created_by: wangyuyan
+created_at: 2026-09-04
+decision_source: 老朱 09-04 直令立项（90_control/40_outputs 规范面零引用清单体实证）
+reviewer: 欧阳锋
+instance: huangyaoshi
+updated_at: '2026-09-04T13:31:08.192256+00:00'
+evidence: 60_feedback/tasks/task_20260904_huangyaoshi-qingdanti-into-production-spec.md
 ---
 
 # #639 清单体标准入生产规范（黄药师）
@@ -50,3 +51,17 @@ updated_at: '2026-09-04T13:20:37.043916+00:00'
 **需要谁动作**
 - 欧阳锋终审（手册 diff + 门禁 + 回归 + 矩阵行 29）
 - 无其他角色动作；存量 62 卡是否治理由王语嫣裁定另立项
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 4 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+✅ 执行报告无负向断言词（检查面=执行报告节）
