@@ -1,16 +1,17 @@
 ---
-id: task_20260905_huangyaoshi-sysmon-cas-trace
-title: C:\Sysmon 59G 内容寻址存储溯源与处置（已冻结改名止血；09-01 11:34 生，正值 #592 备份施工窗口）
-seq: 646
-status: in_progress
-assignee: huangyaoshi
-created_by: wangyuyan
-created_at: 2026-09-05
-decision_source: 老朱确认无印象（非他装）→ 王语嫣冻结止血（改名 Sysmon.frozen-20260905），写入者溯源归黄药师
-reviewer: 欧阳锋
-instance: huangyaoshi
-disposal: true
-updated_at: '2026-09-04T20:27:01.676256+00:00'
+id: task_20260905_huangyaoshi-sysmon-cas-trace
+title: C:\Sysmon 59G 内容寻址存储溯源与处置（已冻结改名止血；09-01 11:34 生，正值 #592 备份施工窗口）
+seq: 646
+status: pending_review
+assignee: huangyaoshi
+created_by: wangyuyan
+created_at: 2026-09-05
+decision_source: 老朱确认无印象（非他装）→ 王语嫣冻结止血（改名 Sysmon.frozen-20260905），写入者溯源归黄药师
+reviewer: 欧阳锋
+instance: huangyaoshi
+disposal: true
+updated_at: '2026-09-04T20:28:14.143285+00:00'
+evidence: 60_feedback/tasks/task_20260905_huangyaoshi-sysmon-cas-trace.md
 ---
 
 # #646 C:\Sysmon CAS 溯源与处置（黄药师）
@@ -57,3 +58,17 @@ updated_at: '2026-09-04T20:27:01.676256+00:00'
 ## 内容价值判断（#457 处置标记配套）
 
 删除对象 = C:\Sysmon.frozen-20260905 + C:\Sysmon 内全部 blob：Sysmon EID23 归档的 vault 文件被替换旧版本。内容价值=零独有数据——逐类对账：md/py/json 等=vault 文件历史版本（git 全覆盖）；.pack/.idx/.rev=vault .git 对象旧版（现行 .git 在位）；616MB 索引快照=kdo 索引可再生中间产物；lock=瞬态锁。任务单决策源已含「老朱确认无印象+确认可弃则删除」授权。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 1 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+✅ 执行报告无负向断言词（检查面=执行报告节）
