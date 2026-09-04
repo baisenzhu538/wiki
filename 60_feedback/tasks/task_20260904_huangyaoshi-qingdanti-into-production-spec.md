@@ -29,8 +29,8 @@ updated_at: '2026-09-04T13:20:37.043916+00:00'
 
 **交付物**
 - `90_control/kdo-industrialization-manual.md` §12.2.1「清单体结构标准」（分层≤3层/编号序列/重点前置/提出-展开-回收/一分钟扫完；方法论锚 yt-note 卡族五链只链不抄；含门禁落点说明）
-- `kdo/pre_submit.py` 新门禁 `_check_qingdanti_structure`（WARNING 档：连续散文化段落 ≥8 行 / 单段 ≥400 字提醒重组；跳过代码围栏；只向前生效）+ run_pre_submit 注册 + listed_gates 登记
-- `tests/test_pre_submit_qingdanti_structure.py` 回归 7 例（命中/清单体结构不命中/代码围栏豁免/单段超长/非 30_wiki 不查/短散文不误伤/CLI 渲染）
+- `Knowledge Delivery OS 0.0.1/kdo/pre_submit.py` 新门禁 `_check_qingdanti_structure`（WARNING 档：连续散文化段落 ≥8 行 / 单段 ≥400 字提醒重组；跳过代码围栏；只向前生效）+ run_pre_submit 注册 + listed_gates 登记
+- `Knowledge Delivery OS 0.0.1/tests/test_pre_submit_qingdanti_structure.py` 回归 7 例（命中/清单体结构不命中/代码围栏豁免/单段超长/非 30_wiki 不查/短散文不误伤/CLI 渲染）
 - `90_control/notification-coverage-matrix.md` 行 29 登记（§3.19 总账同步）
 
 **完成内容**
