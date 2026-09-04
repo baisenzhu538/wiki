@@ -262,7 +262,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 632 | `task_20260903_laowantong-template-assetization-batch1` | 模板资产化批1：Agent白皮书模板文件化+复盘画布/私董会SOP/双三角画布/回款playbook/产品画布族抽模板（9件落capabilities/templates/，占位符驱动+源卡互链） | reviewed | laowantong | 9模板文件+互链+可填性自检 | #629 后（同角色排队） | `60_feedback/tasks/task_20260903_laowantong-template-assetization-batch1.md` | 老朱09-03直令（模板=重要资产全库排查同标准处理）；白皮书模板继承密级标注；空洞族挂下批；欧阳锋终审 |
 | 633 | `task_20260903_laowantong-live261-protracted-war-cards` | Live261战略笃定卡组：教育版论持久战framework+开放麦三案例（路禹/Jacky IP/李秀慧复合弓） | reviewed | laowantong | 1 framework+3 case+互链实证 | 无 | `60_feedback/tasks/task_20260903_laowantong-live261-protracted-war-cards.md` | inbox值守拍分诊（先例双查：存量仅提取方法卡，内容增量成立）；Candy整理形态标注；欧阳锋终审 |
 | 634 | `task_20260904_huangyaoshi-transcribe-quality-model-bump` | 转写质量升级：tiny→small/medium评估切换（政策关键名词错转实证）+414号文重转卡重修+faster_whisper失踪根因 | reviewed | huangyaoshi | 切换diff+对照实证+重转产物+根因结论 | 无 | `60_feedback/tasks/task_20260904_huangyaoshi-transcribe-quality-model-bump.md` | 老朱09-04链路验证暴露；王语嫣门禁退回重转；欧阳锋终审 |
-| 635 | `task_20260904_huangyaoshi-probe-noise-converge` | 探针噪声收敛：liveness有单才报+conveyor陈旧事件去重加已划销判定（F-074+F-076提前出池） | pending_review | huangyaoshi | diff+回归+实证+F-074/076划销 | 无 | `60_feedback/tasks/task_20260904_huangyaoshi-probe-noise-converge.md` | 王语嫣值守实证提前触发（回声每拍递增）；小修；欧阳锋终审 |
+| 635 | `task_20260904_huangyaoshi-probe-noise-converge` | 探针噪声收敛：liveness有单才报+conveyor陈旧事件去重加已划销判定（F-074+F-076提前出池） | reviewed | huangyaoshi | diff+回归+实证+F-074/076划销 | 无 | `60_feedback/tasks/task_20260904_huangyaoshi-probe-noise-converge.md` | 王语嫣值守实证提前触发（回声每拍递增）；小修；欧阳锋终审 |
 | 630 | `task_20260903_laowantong-626-source-anchor-fix` | 修订单（传口径不改范围）：#626 素材锚升级——Live86对账以原稿为一等锚（00_inbox/龙虾员工实践/），Candy仅定位模版增量；Live77无原稿Candy即一手 | cancelled | laowantong | 口径落 #626 执行报告，随其终审 | #626 配套 | `60_feedback/tasks/task_20260903_laowantong-626-source-anchor-fix.md` | 老朱09-03直令「找原稿深挖」；王语嫣查实原稿在库；E047边界：修订单不传裁决 |
 | 631 | `task_20260903_huangyaoshi-orphan-backup-source-hunt` | 孤儿backup触发源追查（01:38非节拍收走在制品）+探针非节拍检测信号+守卫SKIPPED接第十信号 | reviewed | huangyaoshi | 触发源结论+探针信号实证 | #628 reviewed 后 | `60_feedback/tasks/task_20260903_huangyaoshi-orphan-backup-source-hunt.md` | 黄药师建议书（09-03王语嫣裁定）；欧阳锋终审 |
 | 627 | `task_20260903_huangyaoshi-infra-registry-and-archive-test-fix` | 基建总表补登记6资产（回归持续红清零）+queue-archive月界漂移修复（口径②按任务日期归月，王语嫣定夺） | reviewed | huangyaoshi | 登记diff+两测试复绿全量回归原样输出 | 无 | `60_feedback/tasks/task_20260903_huangyaoshi-infra-registry-and-archive-test-fix.md` | 黄药师两建议书并单（09-03王语嫣裁定）；欧阳锋终审 |
@@ -505,7 +505,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#632 task_20260903_laowantong-template-assetization-batch1｜laowantong｜提审 09-03 11:18｜60_feedback/tasks/task_20260903_laowantong-template-assetization-batch1.md~~ → 已终审 PASS A-（2026-09-03 欧阳锋）
 - ~~#633 task_20260903_laowantong-live261-protracted-war-cards｜laowantong｜提审 09-03 20:31｜60_feedback/tasks/task_20260903_laowantong-live261-protracted-war-cards.md~~ → 已终审 PASS A-（2026-09-03 欧阳锋）
 - ~~#634 task_20260904_huangyaoshi-transcribe-quality-model-bump｜huangyaoshi｜提审 09-04 04:43｜60_feedback/tasks/task_20260904_huangyaoshi-transcribe-quality-model-bump.md~~ → 已终审 PASS A-（2026-09-03 欧阳锋）
-- #635 task_20260904_huangyaoshi-probe-noise-converge｜huangyaoshi｜提审 09-04 13:18｜60_feedback/tasks/task_20260904_huangyaoshi-probe-noise-converge.md
+- ~~#635 task_20260904_huangyaoshi-probe-noise-converge｜huangyaoshi｜提审 09-04 13:18｜60_feedback/tasks/task_20260904_huangyaoshi-probe-noise-converge.md~~ → 已终审 PASS A-（2026-09-04 欧阳锋）
 
 <!-- REVIEW-PENDING-END -->
 
@@ -1067,6 +1067,8 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~[gate-blocked] task_20260903_laowantong-live261-protracted-war-cards｜09-04 12:47｜待王语嫣复核处置｜2026-09-03 20:31:03｜task_20260903_laowantong-live261-protracted-war-cards｜F-034-五字段｜--evidence 文件不可读: 4卡pre-submit全PASS+互链0死链(find实测9/9)+自攻击报告落盘60_feedback/adversarial/+digest挂接2行｜laowantong~~ → 划销（09-04 13:08 王语嫣）：F-076 陈旧重登记
 - ~~[gate-blocked] task_20260902_laowantong-live257-ten-finger-fragrance-cards｜09-04 13:07｜待王语嫣复核处置｜2026-09-02 07:28:01｜task_20260902_laowantong-live257-ten-finger-fragrance-cards｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生 / - untracked: 30_wiki/tools/tool-yitang-jiangxiang-launch｜laowantong-kimi~~ → 划销（09-04 13:08 王语嫣）：F-076 陈旧重登记
 - ~~[gate-blocked] role-liveness｜09-04 13:17｜待王语嫣复核处置｜2026-08-27 11:47:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 278.1), ('cli', 127.1)]）｜role_registry check-liveness｜role_registry~~ → 划销（09-04 13:38 王语嫣）：回声
+- [gate-blocked] role-liveness｜09-04 13:47｜待王语嫣复核处置｜2026-08-27 14:07:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 432.6)]）｜role_registry check-liveness｜role_registry
+- [gate-blocked] task_20260904_huangyaoshi-probe-noise-converge｜09-04 13:47｜待王语嫣复核处置｜2026-09-04 13:44:40｜task_20260904_huangyaoshi-probe-noise-converge｜F-035-意见书｜任务单缺少「## 终审记录」节（#429 F-035：审查意见必须落盘，口头/群里意见=未审查）｜欧阳锋
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
