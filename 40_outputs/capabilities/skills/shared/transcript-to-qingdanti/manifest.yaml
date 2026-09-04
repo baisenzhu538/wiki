@@ -1,5 +1,5 @@
 name: transcript-to-qingdanti
-version: 1.0.0
+version: 1.1.0
 author: 老顽童（#638，老朱 09-04 直令立项）
 adapted_from:
 - 00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt
@@ -21,3 +21,4 @@ trigger:
 - 老顽童
 changelog:
 - '2026-09-04 #638 初建：口述稿→清单体笔记产线能力（知行断裂修复）；Live261 试跑件=40_outputs/content/live261-zhanshududing-qingdanti-note.md'
+- '2026-09-05 #640 v1.1：写入两步法定位（本 skill 管第二步结构层；第一步深挖走 W6 另轨）+ 新增 rubric.md（段位图六维 0-2 分，L4 特征合格线）嵌入为 Step 5 交付前自检门禁；Live261 试跑件复评 11/12 优秀'
