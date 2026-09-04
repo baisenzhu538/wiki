@@ -1,16 +1,19 @@
 ---
-id: task_20260904_huangyaoshi-qingdanti-into-production-spec
-title: 生产规范补清单体标准：工业化手册/卡产出规范引用清单体分层标准（知行断裂规范层修复）
-seq: 639
-status: pending_review
-assignee: huangyaoshi
-created_by: wangyuyan
-created_at: 2026-09-04
-decision_source: 老朱 09-04 直令立项（90_control/40_outputs 规范面零引用清单体实证）
-reviewer: 欧阳锋
-instance: huangyaoshi
-updated_at: '2026-09-04T13:31:08.192256+00:00'
+id: task_20260904_huangyaoshi-qingdanti-into-production-spec
+title: 生产规范补清单体标准：工业化手册/卡产出规范引用清单体分层标准（知行断裂规范层修复）
+seq: 639
+status: reviewed
+assignee: huangyaoshi
+created_by: wangyuyan
+created_at: 2026-09-04
+decision_source: 老朱 09-04 直令立项（90_control/40_outputs 规范面零引用清单体实证）
+reviewer: 欧阳锋
+instance: huangyaoshi
+updated_at: '2026-09-04T13:44:08.516524+00:00'
 evidence: 60_feedback/tasks/task_20260904_huangyaoshi-qingdanti-into-production-spec.md
+reviewed_by: 欧阳锋
+review_date: '2026-09-04'
+grade: A-
 ---
 
 # #639 清单体标准入生产规范（黄药师）
@@ -65,3 +68,24 @@ evidence: 60_feedback/tasks/task_20260904_huangyaoshi-qingdanti-into-production-
 ### ③ 负向判词 / ④ 存在性核查
 
 ✅ 执行报告无负向断言词（检查面=执行报告节）
+
+## 终审记录（欧阳锋 2026-09-04）
+
+**verdict**：PASS A-（methodology_version v2.3）
+**blocking**：无阻断
+**residual_risks**：
+- 🔵 Low（TODO，随王语嫣裁定）：_is_card 未豁免 30_wiki/_archive/，全仓 pre-submit 离线扫描时会把归档卡当活跃卡提醒。常态提交流程走 --files/--batch 不触发，WARNING 不拦截，故不阻断；归档豁免建议随存量治理裁定一并处理。
+
+**存在性核查**（本终审对黄药师声明的逐一核验）：
+- 手册 §12.2.1 五条标准 + 门禁落点说明：git show 089af4ded 实读，diff 与任务书一致
+- 五条方法论锚卡片全部存在且 id 匹配：30_wiki/concepts/yt-note-checklist-concept.md、30_wiki/concepts/yt-note-fact-pattern-insight.md、30_wiki/tools/yt-note-five-levels-training.md、30_wiki/tools/yt-note-live-field-skill.md、30_wiki/concepts/concept-提升笔记阅读舒适度.md
+- pre_submit.py 新门禁 _check_qingdanti_structure + un_pre_submit 注册 + listed_gates 登记：git show 5a9d4cb 实读，均在场
+- 矩阵行 29 登记：git show 089af4ded 实读，已在「事件×通道×角色」表尾
+
+**独立验证**：
+- 新回归 7 例 python -m pytest tests/test_pre_submit_qingdanti_structure.py -q → 7 passed（独立复跑）
+- pre-submit 全族 34 例（#639 7 + 邻近 #616/#542/#540/body_src 27）→ 34 passed，零回归
+- 真实 vault 复扫：30_wiki 2960 卡触发 62 卡，与执行报告口径一致；触发项为真超长无分层段落（单段 400+ 字为主），非误报
+- 全量 pytest 因仓库内 openmontage-zh-mcp 用例在 GBK 环境读 YAML 缺 UTF-8 参数报 UnicodeDecodeError 无法全量收集——与本单改动无关（新门禁及全 pre-submit 族已独立全绿），列入环境性提示不阻断
+
+**scores**（五维 0-100）：溯源完整 24 / 逻辑骨架 24 / 暗知识密度 19 / 可操作性 14 / 表达质量 14
