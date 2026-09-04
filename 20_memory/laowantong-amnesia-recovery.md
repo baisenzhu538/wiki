@@ -58,6 +58,12 @@ type: memory/role-recovery
 
 > ⚠️ **08-26 晚 hermes 恢复会话确认**：队列实测总 126/queued=3（#541/#542/#543 全黄药师）/pending_review=2（#539 我+#540 黄药师），myqueue 可领 0/待终审 1（#539）——老顽童名下无活待命。#539 未被终审（任务单无终审记录、队列行仍 pending_review）。收件箱待办 L10/L11/L12 已补入 .agent/laowantong-context.md 行为牌组。恢复口令更新：启动必读 90_control/todos/laowantong.md 收件箱。
 
+## 4. 当前状态（截至 2026-09-04 晚 · #638 清单体生产 skill 收官）
+
+- **#638 已 pending_review**：新 skill `40_outputs/capabilities/skills/shared/transcript-to-qingdanti/`（SKILL.md+manifest.yaml，口述稿→清单体笔记生产 SOP，六条产出标准写死）+ 试跑件 `40_outputs/content/live261-zhanshududing-qingdanti-note.md`（老朱肉眼验收件）。pre-submit 双 PASS；E040 入仓门禁要求交付物先 commit 再 complete（已照做）
+- **complete 提交两个坑（黄药师同日也踩）**：①`--evidence` 要**文件路径**不是内联文本 ②E040 门禁=交付物未 commit 一律拒——complete 前先 git add+commit 交付物（门禁给出 commit 消息格式 `#<任务号> <说明> by <instance>`）
+- **队列实况（09-04 21:4x）**：queued=0 / claimed=0 / pending_review=2（#638 我+#639 黄药师清单体入生产规范）——老顽童名下无在途
+
 ## 4. 当前状态（截至 2026-09-01 凌晨 · 运维+基建+调研混合会话收官）
 
 - **王语嫣 bot 卡死诊断+修复（08-31 晚）**：新分型「工具挂死型 turn 悬死」——非会话膨胀；签名=state.db end_reason=NULL+last_activity 冻结在"terminal command running"+history=0 无压缩日志；修复=重启 gateway+DB 终结会话（end_reason=session_reset）。根因=wechat-collect 管线转写仍调 wsl.exe（WSL 已废除），wsl.exe 间歇僵死 180s。**已回写 skill `hermes-bot-slow-diagnosis`「模式二」**；诊断分型纪律：bot 慢/卡先采集三签名分型再动手

@@ -4415,3 +4415,1253 @@
 ⚠️ 无 webhook 配置（不发送）：laowantong → 📥 KDO 可领取 1 单：#633
 ⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
 [conveyor_probe] 新提审 1 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 3 次（gate-blocked）：2026-09-03 20:31:03｜task_20260903_laowantong-live261-protracted-war-ca…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#631——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → 📥 KDO 可领取 1 单：#633
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 0 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⚖️ KDO 已终审 1 单：#633（待部署/已闭环）
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#631——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 2 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⛔ gate-blocked 登记: +1 → PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-03 21:02:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cl
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#631——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-03 21:02:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cl
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#631——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 0 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-03 21:02:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cl
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#631——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 0 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-03 21:02:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cl
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#631——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 0 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-03 21:02:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cl
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#631——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 0 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-03 21:02:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cl
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#631——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 0 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⛔ gate-blocked 登记: +1 → PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-03 22:02:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cl
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#631——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-03 22:02:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cl
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#631——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 0 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-03 22:02:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cl
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#631——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 0 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-03 22:02:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cl
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#631——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 0 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⛔ gate-blocked 登记: +1 → PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-03 22:42:00｜role-liveness｜fengqingyang 全实例疑似死亡（stale: [('kimi-
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#631——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-03 22:42:00｜role-liveness｜fengqingyang 全实例疑似死亡（stale: [('kimi-
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#631——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 0 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-03 23:02:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cl
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#631——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⛔ gate-blocked 登记: +1 → PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-02 13:00:23｜task_20260902_laowantong-614-downgraded-cards-rewo
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#631——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-02 13:00:23｜task_20260902_laowantong-614-downgraded-cards-rewo
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#631——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-02 13:00:23｜task_20260902_laowantong-614-downgraded-cards-rewo
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#631——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-02 13:00:23｜task_20260902_laowantong-614-downgraded-cards-rewo
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#631——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-02 13:00:23｜task_20260902_laowantong-614-downgraded-cards-rewo
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#631——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-02 13:00:23｜task_20260902_laowantong-614-downgraded-cards-rewo
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#631——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⛔ gate-blocked 登记: +1 → PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-02 13:00:23｜task_20260902_laowantong-614-downgraded-cards-rewo
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#631——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-02 13:00:23｜task_20260902_laowantong-614-downgraded-cards-rewo
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#631——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-02 13:00:23｜task_20260902_laowantong-614-downgraded-cards-rewo
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#631——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⛔ gate-blocked 登记: +2 → PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 3 次（gate-blocked）：2026-09-02 13:00:23｜task_20260902_laowantong-614-downgraded-cards-rewo…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#631——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⛔ gate-blocked 登记: +1 → PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 3 次（gate-blocked）：2026-08-24 23:57:15｜task_20260822_laowantong-tags-judgment-batch｜F-035…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#631——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 4 次（gate-blocked）：2026-08-24 23:57:15｜task_20260822_laowantong-tags-judgment-batch｜F-035…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#631——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⛔ gate-blocked 登记: +3 → PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 4 次（gate-blocked）：2026-08-23 19:13:58｜task_20260822_laowantong-tags-judgment-batch｜F-034…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#631——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 4 次（gate-blocked）：2026-08-23 19:13:58｜task_20260822_laowantong-tags-judgment-batch｜F-034…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#631——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 4 次（gate-blocked）：2026-08-23 19:13:58｜task_20260822_laowantong-tags-judgment-batch｜F-034…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#631——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⛔ gate-blocked 登记: +3 → PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 4 次（gate-blocked）：2026-08-23 19:13:58｜task_20260822_laowantong-tags-judgment-batch｜F-034…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#631——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 4 次（gate-blocked）：2026-08-23 19:13:58｜task_20260822_laowantong-tags-judgment-batch｜F-034…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#631——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 4 次（gate-blocked）：2026-08-23 19:13:58｜task_20260822_laowantong-tags-judgment-batch｜F-034…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#631——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⛔ gate-blocked 登记: +3 → PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 4 次（gate-blocked）：2026-08-23 19:13:58｜task_20260822_laowantong-tags-judgment-batch｜F-034…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#631——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 4 次（gate-blocked）：2026-08-23 19:13:58｜task_20260822_laowantong-tags-judgment-batch｜F-034…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#631——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 4 次（gate-blocked）：2026-08-23 19:13:58｜task_20260822_laowantong-tags-judgment-batch｜F-034…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#631——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⛔ gate-blocked 登记: +3 → PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 4 次（gate-blocked）：2026-08-23 19:13:58｜task_20260822_laowantong-tags-judgment-batch｜F-034…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#631——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 6 次（gate-blocked）：2026-08-23 19:13:58｜task_20260822_laowantong-tags-judgment-batch｜F-034…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#631——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⛔ gate-blocked 登记: +1 → PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 6 次（gate-blocked）：2026-08-23 19:13:58｜task_20260822_laowantong-tags-judgment-batch｜F-034…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#631——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⛔ gate-blocked 登记: +4 → PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 7 次（gate-blocked）：2026-08-23 19:13:58｜task_20260822_laowantong-tags-judgment-batch｜F-034…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#631——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 7 次（gate-blocked）：2026-08-23 19:13:58｜task_20260822_laowantong-tags-judgment-batch｜F-034…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#631——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 7 次（gate-blocked）：2026-08-23 19:13:58｜task_20260822_laowantong-tags-judgment-batch｜F-034…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#631——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⛔ gate-blocked 登记: +4 → PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 7 次（gate-blocked）：2026-08-23 19:13:58｜task_20260822_laowantong-tags-judgment-batch｜F-034…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#631——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 7 次（gate-blocked）：2026-08-23 19:13:58｜task_20260822_laowantong-tags-judgment-batch｜F-034…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#631——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 7 次（gate-blocked）：2026-08-23 19:13:58｜task_20260822_laowantong-tags-judgment-batch｜F-034…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#631——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⛔ gate-blocked 登记: +4 → PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 7 次（gate-blocked）：2026-08-23 19:13:58｜task_20260822_laowantong-tags-judgment-batch｜F-034…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#631——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+🩹 friction 线索登记: +1（累计 316 条）→ PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 7 次（gate-blocked）：2026-08-23 19:13:58｜task_20260822_laowantong-tags-judgment-batch｜F-034…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#631——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 7 次（gate-blocked）：2026-08-23 19:13:58｜task_20260822_laowantong-tags-judgment-batch｜F-034…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#631——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+🔔 新提审叫醒（统一层）→ ['todos']
+⛔ gate-blocked 登记: +5 → PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 8 次（gate-blocked）：2026-08-23 19:13:58｜task_20260822_laowantong-tags-judgment-batch｜F-034…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#631——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 1 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⛔ gate-blocked 登记: +1 → PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 10 次（gate-blocked）：2026-08-23 15:15:14｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#631——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 10 次（gate-blocked）：2026-08-23 15:15:14｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#631——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⛔ gate-blocked 登记: +5 → PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 10 次（gate-blocked）：2026-08-23 15:15:14｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#631——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⚖️ KDO 已终审 1 单：#634（待部署/已闭环）
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#634——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 2 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 11 次（gate-blocked）：2026-08-23 15:15:14｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#634——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⛔ gate-blocked 登记: +5 → PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 11 次（gate-blocked）：2026-08-23 15:15:14｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#634——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 11 次（gate-blocked）：2026-08-23 15:15:14｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#634——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 11 次（gate-blocked）：2026-08-23 15:15:14｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#634——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⛔ gate-blocked 登记: +5 → PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 11 次（gate-blocked）：2026-08-23 15:15:14｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#634——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 12 次（gate-blocked）：2026-08-23 15:15:14｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#634——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 12 次（gate-blocked）：2026-08-23 15:15:14｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#634——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⛔ gate-blocked 登记: +5 → PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 12 次（gate-blocked）：2026-08-23 15:15:14｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#634——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 13 次（gate-blocked）：2026-08-23 15:15:14｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#634——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 13 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#634——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⛔ gate-blocked 登记: +5 → PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 13 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#634——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 14 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#634——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 14 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#634——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⛔ gate-blocked 登记: +5 → PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 14 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#634——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 14 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#634——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 14 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#634——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⛔ gate-blocked 登记: +5 → PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 14 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#634——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 15 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#634——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 15 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#634——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⛔ gate-blocked 登记: +5 → PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 15 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#634——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 16 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#634——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⛔ gate-blocked 登记: +1 → PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 16 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#634——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⛔ gate-blocked 登记: +6 → PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 16 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#634——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 17 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#634——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⛔ gate-blocked 登记: +1 → PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 17 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#634——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⛔ gate-blocked 登记: +7 → PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 17 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#634——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 17 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#634——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 17 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#634——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⛔ gate-blocked 登记: +7 → PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 17 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#634——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 18 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#634——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 18 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#634——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⛔ gate-blocked 登记: +7 → PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 18 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#634——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 19 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#634——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⛔ gate-blocked 登记: +1 → PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 19 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#634——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⛔ gate-blocked 登记: +8 → PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 19 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#634——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 19 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#634——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 20 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#634——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⛔ gate-blocked 登记: +9 → PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 20 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#634——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 20 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#634——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 20 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#634——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⛔ gate-blocked 登记: +9 → PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 20 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#634——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 20 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#634——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 20 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#634——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⛔ gate-blocked 登记: +9 → PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 21 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#634——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 22 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#634——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⛔ gate-blocked 登记: +1 → PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 22 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#634——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⛔ gate-blocked 登记: +1 → PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 22 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#634——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+🔔 新提审叫醒（统一层）→ ['todos']
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 22 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#634——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 1 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 22 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#634——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⛔ gate-blocked 登记: +2 → PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 23 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#634——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⚖️ KDO 已终审 1 单：#635（待部署/已闭环）
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#635——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 2 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 23 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#635——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⛔ gate-blocked 登记: +1 → PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 23 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#635——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 23 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#635——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 23 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#635——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⛔ gate-blocked 登记: +1 → PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 23 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#635——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 23 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#635——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 23 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#635——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⛔ gate-blocked 登记: +1 → PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 23 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#635——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 23 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#635——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 23 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#635——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⛔ gate-blocked 登记: +1 → PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 23 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → 📥 KDO 可领取 1 单：#636
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 1 / 新登记 0 / near-miss 2 / 通知 2 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 23 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → 📥 KDO 可领取 1 单：#636
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+🔔 新提审叫醒（统一层）→ ['todos']
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 23 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → 📥 KDO 可领取 1 单：#636
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 1 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⛔ gate-blocked 登记: +1 → PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 23 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → 📥 KDO 可领取 1 单：#636
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 23 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → 📥 KDO 可领取 1 单：#636
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 23 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → 📥 KDO 可领取 1 单：#636
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 23 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → 📥 KDO 可领取 1 单：#636
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⛔ gate-blocked 登记: +1 → PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⚖️ KDO 已终审 1 单：#636（待部署/已闭环）
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#636——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 2 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⛔ gate-blocked 登记: +1 → PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 25 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#636——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⛔ gate-blocked 登记: +1 → PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 25 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#636——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 25 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#636——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 25 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#636——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⛔ gate-blocked 登记: +1 → PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 25 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#636——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 25 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#636——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 25 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#636——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⛔ gate-blocked 登记: +1 → PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 25 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#636——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 25 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#636——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 0 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 25 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#636——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 0 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 25 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#636——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 0 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 25 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#636——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 0 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⛔ gate-blocked 登记: +1 → PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-04 19:02:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-c
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#636——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-04 19:02:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-c
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#636——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 0 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-04 19:02:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-c
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#636——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 0 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-04 19:02:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-c
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#636——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 0 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-04 19:02:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-c
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#636——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 0 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-04 19:02:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-c
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#636——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 0 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-04 19:02:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-c
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#636——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 0 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-04 19:02:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-c
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#636——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 0 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+🔔 新提审叫醒（统一层）→ ['todos']
+🩹 friction 线索登记: +1（累计 443 条）→ PROPOSAL-PENDING
+⛔ gate-blocked 登记: +1 → PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 2 次（gate-blocked）：2026-09-04 20:19:38｜task_20260904_huangyaoshi-liveness-reregister-fix｜…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#636——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 1 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 2 次（gate-blocked）：2026-09-04 20:19:38｜task_20260904_huangyaoshi-liveness-reregister-fix｜…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#636——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 0 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 2 次（gate-blocked）：2026-09-04 20:19:38｜task_20260904_huangyaoshi-liveness-reregister-fix｜…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#636——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 0 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⚖️ KDO 已终审 1 单：#637（待部署/已闭环）
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#637——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 2 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⚖️ KDO 已终审 1 单：#637（待部署/已闭环）
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#637——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 0 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⚖️ KDO 已终审 1 单：#637（待部署/已闭环）
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#637——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 0 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⚖️ KDO 已终审 1 单：#637（待部署/已闭环）
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#637——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 0 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+🔔 新提审叫醒（统一层）→ ['todos']
+🩹 friction 线索登记: +1（累计 445 条）→ PROPOSAL-PENDING
+⛔ gate-blocked 登记: +1 → PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 3 次（gate-blocked）：2026-09-04 21:29:28｜task_20260904_huangyaoshi-qingdanti-into-productio…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#637——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 1 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+🔔 新提审叫醒（统一层）→ ['todos']
+🩹 friction 线索登记: +1（累计 447 条）→ PROPOSAL-PENDING
+⛔ gate-blocked 登记: +1 → PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⚖️ KDO 已终审 1 单：#639（待部署/已闭环）
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#639——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 1 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 2 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⚖️ KDO 已终审 1 单：#639（待部署/已闭环）
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#639——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 0 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⚖️ KDO 已终审 1 单：#639（待部署/已闭环）
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#639——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 0 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] prop_20260904_ouyangfeng-production-negative-assertion-existence-check.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：缺 audience——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⛔ gate-blocked 登记: +2 → PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 2 次（gate-blocked）：2026-09-04 22:16:18｜task_20260904_laowantong-transcript-to-qingdanti-s…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#639——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#633——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 3 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⚖️ KDO 已终审 1 单：#638（待部署/已闭环）
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#639——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#638——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 1 / near-miss 2 / 通知 2 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⚖️ KDO 已终审 1 单：#638（待部署/已闭环）
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#639——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#638——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 0 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⚖️ KDO 已终审 1 单：#638（待部署/已闭环）
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#639——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#638——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 0 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⚖️ KDO 已终审 1 单：#638（待部署/已闭环）
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#639——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#638——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 0 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⚖️ KDO 已终审 1 单：#638（待部署/已闭环）
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#639——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#638——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 0 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⚖️ KDO 已终审 1 单：#638（待部署/已闭环）
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#639——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#638——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 0 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⚖️ KDO 已终审 1 单：#638（待部署/已闭环）
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#639——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#638——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 0 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → 🛑 KDO 基建停拍报警 1 项：graph-index｜陈旧（落后 search_index 48h，阈值 48h）（台账 gate-blocked.log）
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#639——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#638——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⛔ gate-blocked 登记: +1 → PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-04 23:37:00｜infra-liveness｜基建停拍报警｜graph-index｜陈旧（落后 search_ind
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#639——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#638——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-04 23:37:00｜infra-liveness｜基建停拍报警｜graph-index｜陈旧（落后 search_ind
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#639——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#638——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 0 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → 🛑 KDO 基建停拍报警 1 项：graph-index｜陈旧（落后 search_index 49h，阈值 48h）（台账 gate-blocked.log）
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#639——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#638——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⛔ gate-blocked 登记: +1 → PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-05 00:07:00｜infra-liveness｜基建停拍报警｜graph-index｜陈旧（落后 search_ind
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#639——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#638——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-05 00:07:00｜infra-liveness｜基建停拍报警｜graph-index｜陈旧（落后 search_ind
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#639——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#638——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 0 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-05 00:07:00｜infra-liveness｜基建停拍报警｜graph-index｜陈旧（落后 search_ind
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#639——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#638——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 0 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-05 00:07:00｜infra-liveness｜基建停拍报警｜graph-index｜陈旧（落后 search_ind
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → ✅ KDO 终审通过 1 单：#639——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#638——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ⛔ 总账未同步：#616 触碰基础设施（queue_transition.py）但 notification-coverage-matrix 未同改——终审暂缓闭环，请核查（§3.19/#537；纯重构请在任务单标 matrix_exempt: true 并注明理由）
+[conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 0 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）

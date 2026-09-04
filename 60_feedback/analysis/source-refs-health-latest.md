@@ -1,11 +1,11 @@
 # source_refs 健康检查报告
 
-**扫描范围**：2930 张卡片
-**有 source 的卡片**：2740 张
+**扫描范围**：2934 张卡片
+**有 source 的卡片**：2744 张
 **空 source 卡片**：187 张
-**source_refs 总数**：6015 条
-**文件路径类 source**：4332 条
-**✅ 文件存在**：4018 条
+**source_refs 总数**：6019 条
+**文件路径类 source**：4336 条
+**✅ 文件存在**：4022 条
 **❌ 文件缺失**：314 条
 **⚠️ 污染引用**：8 条
 **🔗 行号锚引用**：784 条（剥锚后存在 784 条——剥锚修复前全被误判缺失，#543）
@@ -483,6 +483,9 @@
 | `case-live258-fact-spread-18-bridges` | 1 | 1 | 0 | 0 | reviewed |
 | `case-live258-livestream-prompt-v1-v5` | 1 | 1 | 0 | 0 | reviewed |
 | `case-live258-zhihu-content-acquisition` | 1 | 1 | 0 | 0 | reviewed |
+| `case-live261-jacky-ip-marketing-protracted-war` | 1 | 1 | 0 | 0 | draft |
+| `case-live261-lixiuhui-compound-bow-dealer-war` | 1 | 1 | 0 | 0 | draft |
+| `case-live261-luyu-strategy-conviction-maoxuan` | 1 | 1 | 0 | 0 | draft |
 | `case-live81-ai-trademark-design` | 4 | 4 | 0 | 0 | reviewed |
 | `case-livestream-sop-modeling` | 2 | 2 | 0 | 0 | enriched |
 | `case-meeting-roi-awakening` | 1 | 1 | 0 | 0 | reviewed |
@@ -579,7 +582,7 @@
 | `case-wangfei-newyear-event-diagnosis` | 2 | 2 | 0 | 0 | draft |
 | `case-wechat-5291b61bc722d90d` | 1 | 1 | 0 | 0 | draft |
 | `case-wechat-6725b942182f6277` | 1 | 1 | 0 | 0 | draft |
-| `case-wechat-article-workbuddy-selfmedia-pipeline` | 1 | 1 | 0 | 0 | enriched |
+| `case-wechat-article-workbuddy-selfmedia-pipeline` | 1 | 1 | 0 | 0 | reviewed |
 | `case-wechat-article_4dd7be7cd82f7e80` | 1 | 1 | 0 | 0 | draft |
 | `case-wechat-AWyGiJIRgc` | 1 | 1 | 0 | 0 | draft |
 | `case-wechat-dy_7666832665312982138` | 1 | 1 | 0 | 0 | draft |
@@ -1206,7 +1209,7 @@
 | `dk-content-implicit-value-without-price` | 1 | 1 | 0 | 0 | reviewed |
 | `dk-content-muscle-memory-vs-knowledge` | 1 | 1 | 0 | 0 | reviewed |
 | `dk-context-patching-recipe` | 1 | 1 | 0 | 0 | pending_review |
-| `dk-course-starts-from-unavoidable-question` | 1 | 1 | 0 | 0 | draft |
+| `dk-course-starts-from-unavoidable-question` | 1 | 1 | 0 | 0 | reviewed |
 | `dk-customers-hate-ai` | 1 | 1 | 0 | 0 | reviewed |
 | `dk-decision-when-to-defer` | 1 | 1 | 0 | 0 | reviewed |
 | `dk-delivery-path-type-bug` | 1 | 1 | 0 | 0 | reviewed |
@@ -1504,9 +1507,10 @@ expected <block end>, but found '<scalar>'
 | `framework-christensen-disruptive-innovation` | 3 | 1 | 0 | 0 | reviewed |
 | `framework-christensen-value-network` | 3 | 1 | 0 | 0 | reviewed |
 | `framework-coaching-leadership-core` | 1 | 1 | 0 | 0 | reviewed |
-| `framework-course-thought-production-line` | 1 | 1 | 0 | 0 | draft |
+| `framework-course-thought-production-line` | 1 | 1 | 0 | 0 | reviewed |
 | `framework-dopamine-recovery` | 4 | 4 | 0 | 0 | draft |
 | `framework-dual-center-feishu-obsidian` | 3 | 3 | 0 | 0 | reviewed |
+| `framework-education-protracted-war` | 1 | 1 | 0 | 0 | draft |
 | `framework-fact-rule-insight` | 1 | 1 | 0 | 0 | pending_review |
 | `framework-how-to-know-a-person` | 2 | 2 | 0 | 0 | reviewed |
 | `framework-kdo-badcase-feedback-loop` | 5 | 5 | 0 | 0 | reviewed |
@@ -1632,7 +1636,7 @@ expected <block end>, but found '<scalar>'
 | `knowledge-demand-2c-dictionary` | 2 | 2 | 0 | 0 | enriched |
 | `method-anthropic-skill-design-patterns` | 1 | 1 | 0 | 0 | reviewed |
 | `method-arui-business-scenario-3step-decomposition` | 2 | 2 | 0 | 0 | reviewed |
-| `method-course-creation-eleven-steps` | 1 | 1 | 0 | 0 | draft |
+| `method-course-creation-eleven-steps` | 1 | 1 | 0 | 0 | reviewed |
 | `method-dual-triangle-flywheel-engine` | 5 | 3 | 2 | 0 | draft |
 | `method-dual-triangle-human-ai-division` | 6 | 6 | 0 | 0 | draft |
 | `method-judge-skill-meta-evaluation` | 1 | 0 | 1 | 0 | reviewed |
@@ -1754,7 +1758,7 @@ expected <block end>, but found '<scalar>'
 | `tool-agent-spec-yitang-value-proposition` | 4 | 4 | 0 | 0 | reviewed |
 | `tool-agent-spec-yitang-Y-model-coach` | 6 | 6 | 0 | 0 | reviewed |
 | `tool-agent-white-paper-five-elements` | 1 | 0 | 1 | 0 | pending_review |
-| `tool-agent-whitepaper-full-lifecycle-template` | 2 | 2 | 0 | 0 | draft |
+| `tool-agent-whitepaper-full-lifecycle-template` | 2 | 2 | 0 | 0 | reviewed |
 | `tool-ai-adapted-workflow-design` | 1 | 0 | 1 | 0 | pending_review |
 | `tool-ai-agent-feature-comparison` | 5 | 4 | 1 | 0 | pending_review |
 | `tool-ai-critical-reading-three-layers` | 2 | 2 | 0 | 0 | enriched |

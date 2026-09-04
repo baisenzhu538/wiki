@@ -1,0 +1,401 @@
+kimi version 0.39.1
+• Let me start with the startup recovery reads.
+
+• 先做启动恢复，读取必读文件。- [2026-09-04 19:52] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-04 20:07] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-04 20:20] ✅ #637 liveness重登记修根 complete 提审：双刀=check_liveness划销抑制闸（角色粒度处置标记，恢复清零重新武装）+gate-blocked水位线扫描（根治500-cap哈希淘汰翻滚，六连滴真根）；10新测全绿+全量507passed；实跑5+拍零陈旧重登记（板面回声0+沙盒重扫pos612=612）；19:02真报警全链路正常；#635核查=部署后零误报；边界=水位线依赖append-only（截断重置+hash兜重有测）
+- [2026-09-04 20:22] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#637（huangyaoshi 的单，挂审 2min）（到点（节奏 15min））
+- [2026-09-04 20:26] 通路验证（只读不施工）：复述 parking-lot F-076（conveyor_probe 陈旧事件重复登记，已随 #635 出池待终审）+ 报到身份/时间
+- [2026-09-04 20:37] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#637（huangyaoshi 的单，挂审 17min）（到点（节奏 15min））
+- [2026-09-04 20:52] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-04 20:57] ✅ KDO 终审通过 1 单：#637——你的单过了，见任务单终审记录
+- [2026-09-04 21:07] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-04 21:22] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-04 21:42] ✅ #639 清单体标准入生产规范 complete 提审：手册§12.2.1（五条标准+yt-note卡族五链只链不抄）+pre-submit新门禁_check_qingdanti_structure（WARNING连续散文≥8行/单段≥400字，跳过围栏，只向前生效）+回归7例（全量621passed零回归）+矩阵行29登记；实测2960卡62卡会触发不回扫；E040教训=CLI仓交付物路径须带「Knowledge Delivery OS 0.0.1/」前缀否则按vault相对路径误判untracked
+- [2026-09-04 21:37] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#639（huangyaoshi 的单，挂审 6min）（到点（节奏 15min））
+- [2026-09-04 21:47] ✅ KDO 终审通过 1 单：#639——你的单过了，见任务单终审记录
+- [2026-09-04 21:52] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#638（laowantong 的单，挂审 12min）（到点（节奏 15min））
+- [2026-09-04 22:07] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#638（laowantong 的单，挂审 27min）（到点（节奏 15min））
+- [2026-09-04 22:22] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-04 22:37] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-04 22:52] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-04 23:07] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-04 23:27] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+
+
+• 启动恢复完成。现在搜集今日素材：
+
+  1. Read 90_control/todos/huangyaoshi.md 中日期=2026-09-04 的条目（需要读全文的今日段，不只是最后20行——上面 tail 已显示部分，但可能有更早的条目）
+  2. git log --since='2026-09-04 00:00:00'
+  3. 定位今日任务单执行报告/终审记录（#637, #639 等）
+
+  并行跑。0f9137d6c 22:39 编排：F-077挂账+#638 PASS A-回声清
+f7b4c0018 22:17 chore(queue): #638 review by 欧阳锋
+fbfb43a0a 22:09 todos+队列：22:08值守拍
+06f5c2cab 21:44 chore(queue): #639 review by 欧阳锋
+969065709 21:40 chore(queue): #638 complete by laowantong
+08fc1caf3 21:39 #638 清单体生产skill+Live261试跑交付 by laowantong
+17578d27b 21:39 todos+队列：21:38值守拍
+430c3ea2d 21:31 chore(queue): #639 complete by huangyaoshi
+df860b2db 21:31 #639 任务单交付物路径补仓前缀(E040口径) by huangyaoshi
+089af4ded 21:30 #639 清单体标准入生产规范：手册§12.2.1+矩阵行29+任务单执行报告 by huangyaoshi
+d9bcd9e5d 21:20 chore(queue): #638 claim by laowantong
+0d3af6e93 21:20 chore(queue): #639 claim by huangyaoshi
+815ef35c4 21:19 编排：#638/#639 清单体双单立项（老朱直令）
+35b9c129a 21:08 todos：21:07值守拍
+475afbad9 20:56 拉起器闪窗修复：DETACHED 改 CREATE_NEW_CONSOLE+SW_HIDE——codex 无头执行子进程不再开可见 powershell 窗（09-04 蓝框屏闪根因；含 09-03 王语嫣 TOOLS/ROLE_TOOL 路由表登记 by huangyaoshi）
+4575422e6 20:49 chore(queue): #637 review by 欧阳锋
+91ebabe82 20:38 todos+队列：20:37值守拍（#637提审）
+e5be2ae98 20:27 拉起器：黄药师线改 kimi K3（老朱令）+kimi模板钉死k3别名
+fe0374901 20:20 chore(queue): #637 complete by huangyaoshi
+078940ade 20:20 fix(#637): liveness陈旧重登记修根——check_liveness划销抑制+gate-blocked水位线扫描（根治500-cap淘汰翻滚），507回归全绿 by huangyaoshi
+7109242f5 20:09 todos：20:08值守拍（#637补拉）
+9d0145d0a 19:09 todos+队列：19:08值守拍
+efbe8bc93 18:38 todos+队列：18:38值守拍
+36e3aa30d 18:16 chore(queue): #637 claim by huangyaoshi-kimi
+b047d9a5b 18:09 编排：#637 liveness重登记修根（第三刀）
+3267c82f0 17:39 todos+队列：17:38值守拍
+9fbbe20a9 17:38 队列：回声划销
+52a220e72 17:08 todos+队列：17:08值守拍（#636 PASS A-）
+f4ecf9a14 16:51 chore(queue): #636 review by 欧阳锋
+6c3a0b4a7 16:39 todos：DeepSeek余额告警+636改kimi通道
+0df3aa3f3 16:08 todos+队列：16:08值守拍（#636提审）
+731afe2bd 15:59 chore(queue): #636 complete by huangyaoshi-kimi
+8475009f8 15:59 fix(#636): conveyor去重键改事件身份（原始时间戳+源类型+主体，划销改写免疫）+#631微窗口flake修复 by huangyaoshi
+40b267535 15:47 chore(queue): #636 claim by huangyaoshi-kimi
+113a95c3e 15:39 编排：#636探针去重修根返工（#635复发实证）
+92eb9ba55 15:09 队列：#635窗口期残留划销（观察收敛）
+92b9944a4 14:38 队列：陈旧回声划销（#635后首见，观察）
+e4d2d8dad 14:08 todos+队列：14:08值守拍（#635 PASS A-）
+c448adc0e 13:49 chore(queue): #635 review by 欧阳锋
+0a1a23f80 13:38 todos+队列：13:38值守拍（#635提审）
+87c0c7432 13:18 探针噪声收敛 #635 收尾：F-074/F-076 停车场划销出池入清账表 + todos 留痕（提审 pending_review 待欧阳锋终审）
+8c69a3101 13:18 chore(queue): #635 complete by huangyaoshi
+d5580782a 13:18 探针噪声收敛 #635：F-074 check_liveness 有单才报（queued/claimed 判定，无单静默）+ F-076 gate 登记前段内全文匹配已划销行（回声零重登）——回归 69 passed + 实跑实证
+7a90a4782 13:10 chore(queue): #635 claim by huangyaoshi
+30825f6c0 13:09 编排：#635探针噪声收敛立项（F-074/F-076提前出池止血）
+6b080acfc 12:38 队列：F-076回声划销
+7b1858403 12:08 队列：F-076回声划销
+0a3406852 11:38 队列：F-076回声划销
+119f59178 11:08 队列：F-076回声划销
+aa0cde3ab 10:38 队列：F-076回声划销
+35c3a547b 10:08 队列：F-076回声划销
+e587d2bbc 09:38 队列：F-076回声划销
+e7d74a922 09:09 队列：F-076回声划销
+7e7fb8c75 08:38 队列：F-076回声划销
+62e89a08d 08:08 队列：F-076回声划销
+05f3748f3 07:39 队列：F-076回声划销
+864675f15 07:08 队列：F-076回声划销
+4fd8a1226 06:38 队列：F-076回声划销
+96af245b9 06:08 队列：F-076回声划销
+69d69173f 05:38 todos+队列：05:38值守拍（#634 PASS A-）
+C:\Users\Administrator\Desktop\agent复盘\huangyaoshi\daily-context\2026-09-04.md
+EXISTS
+Existing复盘文件已存在 → Read 全文，追加新节「# 黄药师 daily-context 2026-09-04（23:37 场）」。
+
+  今日黄药师相关任务：
+  - #635 探针噪声收敛（claim 13:10 → complete 13:18 → review 13:49 PASS A-）
+  - #636 探针去重修根返工（claim 15:47 → complete 15:59 → review 16:51 PASS A-）
+  - #637 liveness重登记修根（claim 18:16 → complete 20:20 → review 20:49 PASS A）
+  - #639 清单体标准入生产规范（claim 21:20 → complete 21:31 → review 21:44 PASS A）
+  - 拉起器闪窗修复（20:56 commit by huangyaoshi，可能无任务单，直接修复）
+
+  还有更早的？git log 只显示到 05:38。之前的也许更多，先 head -60 已全部列完？显示 54 条左右。最后一条 05:38，可能之前还有，但今日施工从 #635 13:09 立项开始。#634 05:38 PASS A- —— 那可能是 09-03 深夜的工作，09-04 早上终审。head -60 截断了，先看是否还有更多。
+
+  需要读：
+  1. 现有复盘文件全文
+  2. 任务单 #635/#636/#637/#639 的执行报告/终审记录
+  3. agent-os.md §10.2 Truman 11章格式
+  4. 错误模式库是否存在
+
+  先并行读。任务单在哪？可能在 70_product/tasks/ 下。找一下。
+
+• 今日素材已定位。读取现有复盘文件、agent-os.md §10.2 格式、今日任务单。/usr/bin/bash: -c: line 1: unexpected EOF while looking for matching `"'
+
+
+• Bash 命令因中文引号报错。重新跑。需要：
+  1. agent-os.md §10.2 Truman 11章格式
+  2. 今日 #635/#636/#637/#639 任务单的执行报告/终审记录（复盘需要 23:37 场的素材——本日已有 3 个节：#634 场、#637 收尾场（第2会话 20:07-20:25）、#639 场。现在是 23:37 场——headless 复盘场。今日施工除了已有的，还有哪些未覆盖？
+
+  git log 显示：
+  - #635 claim 13:10 complete 13:18 review 13:49（13:18 commit by huangyaoshi）—— 已有节？已有节是 #634（第1场）、#637 收尾（20:07-20:25）、#639（21:20-21:45）。#635、#636 的节没有！#636 claim 15:47 complete 15:59 review 16:51。#637 claim 18:16 by huangyaoshi-kimi。
+  - 拉起器闪窗修复 20:56 commit by huangyaoshi（无任务单号）
+  - 20:27 拉起器黄药师线改 kimi K3
+
+  所以 23:37 场是复盘会话本身（headless 无会话记忆），需要覆盖今日剩余未复盘场次？指令说「执行今日（2026-09-04）Truman 复盘」——追加新节「# 黄药师 daily-context 2026-09-04（23:37 场）」。本场是复盘场本身。但内容应该复盘什么？由于是 headless，应该基于今日未覆盖的素材：#635、#636 施工场，以及拉起器修复等。
+
+  先读 agent-os.md §10.2，再读 #635/#636 任务单的执行报告和终审记录，看 20:56 拉起器 commit 详情。task_20260904_huangyaoshi-liveness-reregister-fix-workdir
+task_20260904_huangyaoshi-liveness-reregister-fix.md
+task_20260904_huangyaoshi-probe-dedup-event-identity.md
+task_20260904_huangyaoshi-probe-noise-converge-workdir
+task_20260904_huangyaoshi-probe-noise-converge.md
+task_20260904_huangyaoshi-qingdanti-into-production-spec.md
+task_20260904_huangyaoshi-transcribe-quality-model-bump-workdir
+task_20260904_huangyaoshi-transcribe-quality-model-bump.md
+task_20260904_laowantong-transcript-to-qingdanti-skill.evidence.md
+task_20260904_laowantong-transcript-to-qingdanti-skill.md
+需要读 agent-os.md §10.2（11章格式）、#635（probe-noise-converge）、#636（probe-dedup-event-identity）任务单的执行报告/终审记录，还有 session-archives/2026-09-04/huangyaoshi.md（可能有归档的会话记录）。另外 20:56 拉起器闪窗修复 commit by huangyaoshi。
+
+  已有节覆盖：#634 场、#637 收尾场、#639 场。未覆盖：#635（13:09-13:49）、#636（15:47-16:51）、拉起器闪窗修复（20:56）、拉起器黄药师线改 kimi K3（20:27）。这些应该是「23:37 场」要复盘的——headless 场次基于仓库文件补复盘的剩余施工场。
+
+  读 agent-os.md §10.2。格式明确。现在读 #635 和 #636 任务单的执行报告/终审记录。任务单文件：
+  - task_20260904_huangyaoshi-probe-noise-converge.md (#635)
+  - task_20260904_huangyaoshi-probe-dedup-event-identity.md (#636)
+
+  还有 session-archives/2026-09-04/huangyaoshi.md 可能有归档会话。以及 20:56 拉起器闪窗修复 commit（无任务单）。读任务单。
+
+• 读取 #635、#636 任务单与今日会话归档。commit 475afbad9796f5d6e56518a2fba86124d724fe7b
+Author: Linhai Zhu <baisenzhu538@gmail.com>
+Date:   Fri Sep 4 20:56:50 2026 +0800
+
+    拉起器闪窗修复：DETACHED 改 CREATE_NEW_CONSOLE+SW_HIDE——codex 无头执行子进程不再开可见 powershell 窗（09-04 蓝框屏闪根因；含 09-03 王语嫣 TOOLS/ROLE_TOOL 路由表登记 by huangyaoshi）
+
+ 90_control/scripts/kimi-headless-launch.py | 13 +++++++++++--
+ 1 file changed, 11 insertions(+), 2 deletions(-)
+===
+commit e5be2ae981e9da6224b8f62a0ec8534ef2d3cc75
+Author: Linhai Zhu <baisenzhu538@gmail.com>
+Date:   Fri Sep 4 20:27:36 2026 +0800
+
+    拉起器：黄药师线改 kimi K3（老朱令）+kimi模板钉死k3别名
+
+ 90_control/scripts/kimi-headless-launch.py | 5 +++--
+ 90_control/todos/wangyuyan.md              | 2 ++
+ 2 files changed, 5 insertions(+), 2 deletions(-)
+
+
+• 素材基本齐了。还需要：
+  - #637 的终审记录（已有第 2 会话节覆盖 #637 收尾场，20:07-20:25，但终审 20:49 是欧阳锋的，细节已在 todos）。现有节已覆盖 #637。
+  - 20:26 通路验证（只读不施工）
+  - #639 已有节。
+  - 23:37 场本身=headless 复盘场。
+
+  那么 23:37 场这一节应该复盘什么？指令说「执行今日（2026-09-04）Truman 复盘，输入全部来自仓库文件（headless 无会话记忆）」。今日黄药师名下施工：
+  1. #635 探针噪声收敛（13:09-13:49，PASS A-）——未覆盖
+  2. #636 去重键改事件身份返工（15:47-16:51，PASS A-）——未覆盖
+  3. #637 liveness 重登记修根（已覆盖于「第2会话」节）
+  4. 拉起器黄药师线改 kimi K3（20:27）+ 拉起器闪窗修复（20:56）——未覆盖
+  5. #639 清单体（已覆盖）
+
+  23:37 场应补复盘 #635、#636、拉起器两笔，以及本场的 headless 复盘行为本身。差异栏要非空白：vs 已有三节——本场是「headless 补账场」：无会话记忆、全部输入来自仓库文件（git log + 任务单 + 终审记录），覆盖单日漏盘的三笔施工。
+
+  先看 session-archives/2026-09-04/huangyaoshi.md 有没有 #635/#636 施工场的更多细节？可能有用。也检查错误模式库文件是否存在。
+
+• 再确认会话归档与错误模式库。Codex-Kimi-配置复盘.md
+KDO端到端测试发现的问题.md
+Sprint6-三项不做决策逻辑.md
+cn-track-archive-20260819
+codebuddy-技能进化日志.md
+daily-context
+friction-log.md
+成功模式库.md
+技能进化日志.md
+用户反馈档案.md
+索引.md
+能力雷达图.md
+错误模式库.md
+===
+---
+session_id: huangyaoshi-2026-09-04
+agent_id: huangyaoshi
+date: 2026-09-04
+created_at: 2026-09-04T13:34:31.879203+00:00
+updated_at: 2026-09-04T13:34:31.879203+00:00
+git_head: 430c3ea2d
+content_hash: 2f5959f377ea
+---
+
+# huangyaoshi · 2026-09-04
+
+# 黄药师 daily-context 2026-09-04（#634 施工场）
+
+> 本日第 1 场（用户直派：#634 转写质量升级）。素材全部来自仓库实证：#634 任务单、工作区 A/B 实测、transcribe_win.py diff、git log。与 09-03 00:12 起活的 kimi 平行实例同仓并发——该实例 04:16 曾抢先 claim #634 后让位（其日志自述「让位，不抢单」），本场全程裸名 claim/complete。
+
+## 差异栏（第 1 章）
+
+vs 昨日（09-03 规则/门禁单为主）：① 本场是**质量事故根因单**——事故归因在施工中被两次反转（任务单说 tiny 错字，实证 04:13 稿是 small 产物；small 也非终点，medium+片段定向才到零错转），全程被「模型实测优先（#277）」拉着走，没拍脑袋下结论；② 被打破的假设：「模型切换 tiny→small 就能解决」——实测 small 专名照样错（工信部→公刑部），真解 = medium 全稿 + 术语对照校核（含官方文三角验证+片段级定向复核）；③ 平行实例让位与我的 claim 交接顺畅，但暴露同角色双实例 claim 无互斥的机械洞（两单都过了）——留 friction 待机制化。
+
+## 概要
+
+#634 转写质量升级施工完成并提审 pending_review（待欧阳锋）：① 4 模型对照矩阵（414 号文 222s CPU int8）——tiny 34s 全文乱码 / small 120s 专名错 / small+术语提示 152s 修复部分但数字漂移（2027→2020）/ medium 339s 最优，零错转=medium 全稿+片段级定向复核定案；② transcribe_win.py v2（默认 small，新增 --model/--prompt，import 自检+模型完整性校验禁静默降级+引擎版本指纹入稿头）；③ 414 逐字稿 12 处术语修正（对照工信厅科函〔2026〕414 号官方文+片段实测，逐条证据），medium 重转落 10_raw + inbox 双位；④ 卡 case-wechat-bf9ce0b38119ed73 重修双副本（标题「工信部」修正、关键名词全对，修 LLM 一处 2025→2026 自引错）；⑤ faster_whisper 失踪根因四查无果 → 「不可考」+ 防护落地；⑥ 边界发现 3 项上浮（Live257 无音频实体/5291b61 同族批待另案/王语嫣 tiny 归因修正）。medium 模型经 hf-mirror 17s 下载完成（90MB/s，HF 直连不通的镜像通路实证）。
+
+## 关键决策
+
+| 决策 | 理由 | 结果 |
+|:--|:--|:--|
+| 模型默认 small 而非 medium | 速度实测 small 0.54x 实时 vs medium 1.53x——日常偶遇采集 small 够用，政策/课程类显式 --model medium；CPU 机器还要跑多 agent | 默认 small+文档指引，口径留欧阳锋终审判 |
+| 专名定案用「官方文 + 片段级定向复核」双三角 | 全稿级模型对短专名（先导区/首购首用/帕兰提尔）不稳定，片段 clip+术语提示 10s/段即定案 | 12 处修正全部有证据，4 处挂〔疑〕低置信标注 |
+| 术语提示不单独作为零错转手段 | 实测提示修复部分专名但引入数字漂移（2027→2020），长稿尾段提示衰减 | 提示仅作片段定向复核工具 |
+| 转写脚本禁静默降级（残缺模型即报错） | 本次事故本质=烂稿入库污染检索面；宁失败不可将就 | v2 resolve_model 显式报错+下载指引 |
+| 03:13 旧卡移 workdir 留证而非删除 | 重产前保留旧版供对比审查 | old-card-*.md 在 workdir |
+| 5291b61 同族批不顺手修（只做对照） | B4 牌/任务范围纪律：#634 只含 414 重转 | 上浮边界发现项 3，建议另案 |
+
+## 思维盲点
+
+1. **ls 结论下早了**：查 small 模型目录用 `head -6` 截断输出，误判 model.bin 缺失得出「下载从未完成」结论——平行实例 K 的完整 ls 证明 model.bin 在（483MB）。为什么漏掉：目录内容多时 head 截断没意识到还有文件没显示。教训：模型/文件完整性判断必须看完整清单或 stat 单文件，不能看截断列表（同 #168 非 ASCII 文件漏扫教训同构）。
+2. **clip_timestamps API 用错一次**：传 tuple 列表报 TypeError 后才查对格式（float 列表=裁剪起点）。为什么漏掉：凭 faster-whisper 文档印象写，没先查签名——P-13「先查再写」的轻量版，改一行的事但浪费一轮。
+3. **没第一时间怀疑任务单归因**：王语嫣任务单断言「tiny 模型错字」，我直到 tiny 对照输出全文乱码、与 04:13 稿质量明显不符时才反转归因——若早做「04:13 稿 vs tiny 输出对照」能省一轮取证。模型实测优先（#277）应该第一时间覆盖任务单的推断性归因。
+
+
+• session-archives 是旧版镜像（git_head 430c3ea2d，即 21:31 时的快照，内容到 #639 场为止？实际它只包含 #634 节，因为它是 13:34 创建 21:31 更新的快照？created_at 13:34, updated_at 13:34？总之桌面文件是权威）。不需要再读归档。
+
+  错误模式库存在：`agent复盘/huangyaoshi/错误模式库.md`。本场（headless 复盘场）有什么新错误/新坑？本场本身是 headless 补账场——潜在的新坑：「同日多场施工靠各场自写复盘，但 #635/#636 两场没写（或写了？）」——等等，让我检查：#635 13:49 终审通过、#636 16:51 终审通过，但 daily-context 文件里没有这两场的节。这说明施工场实例没写复盘——这本身是复盘覆盖缺口，值得记。另外今天 git log 里 20:56 拉起器闪窗修复和 20:27 改 kimi K3 是 huangyaoshi 的施工（commit message 含 by huangyaoshi），也没有对应节。
+
+  让我确认 #635/#636 是否真的没复盘——已读文件全文 218 行，只有三节：#634、#637 收尾（第2会话）、#639。确认无 #635/#636。
+
+  现在写 23:37 场新节。内容规划：
+
+  标题：# 黄药师 daily-context 2026-09-04（23:37 场）
+
+  引言：headless 补账场——本实例无会话记忆，输入全部来自仓库文件（git log/todos/任务单执行报告与终审记录）。覆盖今日未被前三节复盘的三笔施工：#635（13:09-13:49 PASS A-）、#636（15:47-16:51 PASS A-）、拉起器两笔（20:27 kimi K3 切换 / 20:56 闪窗修复）。加上本场复盘行为本身。
+
+  ## 差异栏
+  vs 今日前三节（各为在场施工实例的第一人称复盘）：本场是 headless 事后补账——双三角要素只能从仓库痕迹重建，「人做什么」一列大量是「不在场/无可考」，如实标注而非编造。新视角：今日 #634→#635→#636→#637 四单其实是同一条噪声治理链（探针误报→有单才报→去重键→水位线），分属四个实例施工、三个实例写复盘、两个施工场（#635/#636）漏盘——复盘覆盖率靠补账场兜底。复发的模式：同日多实例各写各的节，漏盘无人发现直到补账。
+
+  ## 概要
+  今日黄药师线共五笔施工：#634（已有节）→ #635 探针噪声收敛双修（F-074 有单才报+F-076 划销判定，PASS A- 94分）→ #636 返工去重键改事件身份三元组（PASS A-）→ #637 liveness 水位线修根（已有节，PASS A）→ #639 清单体门禁（已有节，PASS A）；另有拉起器两笔无单直修（kimi K3 切换+闪窗修复）。本节补 #635/#636/拉起器三笔的 Truman 账。
+
+  ## 关键决策（表格：#635/#636/拉起器的决策，从执行报告提取）
+
+  ## 思维盲点（≥2条，每条追问为什么漏掉）
+  1. #635 的去重键设计盲点：用「段内全文匹配已划销行」——但划销动作本身改写行文本（加~~和处置后缀），匹配永远落空，15:17 复发实证打脸。为什么漏掉：设计时把「划销行」当静态文本，没想到划销是写操作；验收只测了「已存在的划销行」没测「划销动作之后的复发」。
+  2. #635/#636 两施工场漏写复盘节——为什么漏掉：短平快小修单（13:09-13:49 / 15:47-16:51）完工后实例直接退了，「小单不用复盘」的隐性假设；门禁只查文件存在不查场次覆盖。
+  3. 拉起器闪窗修复无任务单直改直提（20:56 commit 无任务号）——基建急修无单操作，证据链靠 commit message；为什么：蓝框屏闪是用户体验急症，走立项流程太慢，但事后应在 todos 留痕（实际 todos 20:26 通路验证有提到，但修复本身无行）。
+
+  等等，检查 todos 是否有拉起器修复的行。从 tail -20 看没有明确行。别过度断言，可以写「todos 未见对应留痕行（本节检索范围内）」。
+
+  域知识检索审视（§10.4.1 要求 B 级以上）：本场无域知识问答；素材定位走 git log + Glob/Grep 检索仓库文件，未凭记忆下结论——例如 #635/#636 的决策与验证细节全部引自任务单执行报告原文。
+
+  ## 顿悟
+  - 「修 Bug 的假设必须假设修复机制本身会被后续动作改写」——划销是写操作，任何以「行文本」为键的去重都免疫不了划销。事件身份（原始时间戳+源类型+主体）才是稳定键。这和 #637 的「去重拦不住新身份洪水」是一对镜像：#636 是键太脆（文本漂移），#637 是键太新（每滴新身份）——去重键设计要在「稳定性」和「区分度」之间取中。
+  - 复盘覆盖缺口是结构性的：同日多实例场景下，各场自扫门前雪，需要补账场机制兜底（本场即实例）。
+
+  ## 过程资产
+  本节新增：本文件新节。今日相关（补登记）：#635 diff role_registry.py/conveyor_probe.py+4测、#636 _event_id+5测+631 flake 修复、拉起器 kimi-headless-launch.py 两改。
+
+  ## 元反思
+  下次：① 去重/去抖类设计，键的材料先做「后续动作会不会改写它」检查（划销/编辑/时间重算）；② 小修单也要当场写复盘节，「小单不用复盘」是假节省——漏盘后靠 headless 补账成本高且失真；③ 无单直修（急修）后 todos 必留一行。
+
+  ## Truman复盘
+  ### 逐轮映射（表格）——headless 重建，人列如实写「不在场/无可考」
+  轮次：
+  1. #635 立项施工（13:09-13:49）：人=王语嫣值守实证 F-076 回声递增触发立项（H.审美/判断：噪声干扰带宽），欧阳锋终审 A-；AI=双修+回归 69 passed+实跑三拍零增长（A.基本功）
+  2. #636 返工（15:47-16:51）：人=王语嫣 15:08 划销注记指出「去重键应按事件身份非行文本」打回返工（H.审美——她看出了键材料的错误）；AI=_event_id 三元组+场景回放测试+497 全量回归（A.基本功/数据）
+  3. #637/#639：已由前两节覆盖，本表不重复
+  4. 拉起器两笔（20:27/20:56）：人=老朱直令黄药师线改 K3（H.判断）；AI=改模板钉死 k3 别名+DETACHED→CREATE_NEW_CONSOLE+SW_HIDE（A.基本功）
+  5. 本场 headless 补账（23:37）：人=老朱发复盘指令（H.体系——复盘门禁）；AI=git log/todos/任务单三源交叉重建当日时间线+写节（A.基本功）
+
+  ### 飞轮效应
+  #635→#636→#637 三连环：每次修复都被值守拍复发实证打回，再立项修更深一层（判定→键→水位线）。反馈环主体是「探针实跑 → 王语嫣值守观察 → 返工立项」，噪声治理一日三层递进到位。#636 的返工本身是飞轮健康的证据——终审 A- 过了还敢被复发实证打回。
+
+  ### 对照实验
+  无人：F-074/F-076 噪声持续，王语嫣值守带宽被 30min 一滴的回声拖死。无 AI：人手工划销可维持但治不了本；三连环根因（判定/键/水位线）靠人肉翻 612 行日志+改代码不现实。合起来：人提供复发实证与返工判断（划销注记一句话点破键材料错误），AI 施工+验证，单日四层修复闭环。
+
+  ### 下次改进
+  - Agent 自身：去重键材料检查单（稳定性/区分度/抗改写三问）；小修单当场写节不欠账。
+  - 方法论卡：「去重键设计三问」可沉淀暗知识卡（与 #637「治源 vs 治流」互链）——建议王语嫣编排，本场不越界。
+
+  ## 会话三问（补账场）
+  1. 新资产：本节（#635/#636/拉起器三笔的 Truman 账补齐）；间接登记今日五笔施工全貌。
+  2. 新问题：#635/#636 施工场漏盘暴露「同日多实例复盘覆盖无门禁」——review-check 只查文件存在不查场次；拉起器急修无任务单。
+  3. 下次启动最需记住：今日五单全 reviewed（#634 待终审？——检查：#634 的状态。git log 里没看到 #634 的 review commit。已有第一节说 pending_review 待欧阳锋。让我查一下任务单状态。
+
+  task_20260904_huangyaoshi-transcribe-quality-model-bump.md 的状态——快速 grep status。
+
+• 核对 #634 终审状态与拉起器修复在 todos 的留痕。status: reviewed
+
+
+• #634 已 reviewed（git log 可能有 review commit 在我 head -60 之外，或更晚）。拉起器修复在 todos 无留痕行——确认。
+
+  现在写新节追加到文件末尾。用 Bash printf 或 Edit 追加？文件尾部以「- 方法论卡更新：WARNING 门禁六件套清单值得沉淀进手册防呆节（§七）——本单不越界，留建议。」结尾。混合行尾——之前场次遇到 Edit 在混合行尾文件失败，建议用 printf 追加。指令场景：该文件 218 行。用 Bash printf 追加或者 Edit old_string 取最后一行。之前场次教训说混合行尾用 printf 更稳。但 Write append 模式也可以——「append adds content to the end exactly as provided and does not add a newline」。文件可能无末尾换行？检查 tail -c。稳妥用 Bash heredoc 追加（中文内容，printf 转义麻烦，用 cat <<'EOF' >> file）。虽然指南说 echo/cat <<EOF → Write，但 Write append 也行且更规范。需要确认文件末尾是否有换行。
+
+  直接 Read 最后一行附近确认，然后 Write mode=append 时先加 \n。前面 Read 显示 218 行结束于「留建议。」，不确定有尾换行。append 内容以 "\n\n---\n\n# ..." 开头即可保险（即使原本有换行也只多一空行，可接受）。
+
+  写内容。注意字数 ≥3000B 中文没问题。
+
+  关于「人做什么」列：headless 重建，如实写。
+
+  追加后用 daily-context-save.py 保存自检。0000000 347 225 214 357 274 214 347 225 231 345 273 272 350 256 256 343
+0000020 200 202  \r  \n
+0000024
+文件以 \r\n 结尾。append 时直接写 "\n---\n\n# ..."。
+
+  写新节内容。接下来第 4 步：新错误/新坑追加错误模式库。本场新坑：
+  - 去重键材料被后续动作改写（#635 键太脆）——这其实是 #636 施工场的教训，但作为补账场登记值得追加
+  - 小修单漏写复盘节+review-check 只查文件存在不查场次覆盖
+  - 无单急修后 todos 无留痕
+
+  先读错误模式库尾部看格式。
+
+• 追加新坑到错误模式库——先看既有格式。- E020 记录 + #263 流水线加"编译期验证"（spec 引用的 KDO 术语强制 grep 知识库）
+- 部署任何 Agent 前，SOUL 里的 KDO 术语（TCPR/MOC/framework 名等）逐项 grep 验证存在性
+- 修复完成证据：两个 SOUL + profile 已同步正确定义，错误版清零
+
+### E019: 提审后状态未流转——任务卡在 claimed（2026-08-09，次数：2）
+**症状**：#271 执行报告写完、宣布交付后，队列行仍停在 `claimed`（非标准值）——王语嫣核对时发现，已代为修复为 pending_review。2026-08-09 全天 6 次实证（#265/#264/#252/#233/#235/#271），"生产端提交后未更新状态"是模式。
+**根因**：写完执行报告 = 完成感触发，队列流转是机械动作无成就感——与 B1 牌（先入队再宣布完成）同构的孪生漏洞，只防了"入队"没防"出队流转"。
+**对策**：已升级 huangyaoshi-context.md 铁律 0"提审即流转"——提交 = 任务单 status + 队列行同步，两步缺一不可。复发计数触发行为牌升级（B1 扩展）。
+
+### E4: Agent只挖结构化笔记，跳过口述稿Q&A闲聊——暗知识遗漏（2026-06-19，次数：1）
+**症状**：老顽童产出王欢AI实践域20张卡，全部基于结构化工整笔记(127行)。口述稿末尾250行Q&A闲聊中的暗知识未被独立成卡——至少还缺2-3张dk。**根因**：笔记过滤效应——结构化笔记不覆盖Q&A；入口把关人也未标注Q&A部分。**对策**：P-31——口述稿末尾20%必须单独标注可能的暗知识；结构化材料是入口不是全集。
+
+### E3: 批量操作未声明变更范围（2026-06-17，次数：1）
+**症状**：470 skill 重分类导致 486 文件变更，欧阳锋无法快速审查。**根因**：执行前未在任务文件写明预期变更范围。**对策**：P-30——任何批量操作前声明影响文件数+修改字段+修改前后值。
+
+### E1: Provider 迁移时协议不匹配（2026-06-14，次数：1）
+
+**症状**：Hermes 切到 DeepSeek 后功能降级，模型显示为 `deepseek-chat` 而非 `deepseek-v4-pro`。
+
+**根因**：`models_dev_cache` 标注 deepseek provider 走 `@ai-sdk/openai-compatible`，但 config 配了 `/anthropic` URL。
+
+**对策**：改 provider 前先查 `models_dev_cache.json` 确认 `npm` 字段。
+
+### E2: 模型发布日不查公告（2026-06-14，次数：1）
+
+**症状**：Kimi API 全线 400 + tool call 截断 48 字符，3 小时改 model/temperature/base_url 无效。
+
+**根因**：K2.7 当天发布，Anthropic 协议 tool call 未适配。WebSearch 在第 30 步才触发。
+
+**对策**：API 大规模异常→第 3 步内 `WebSearch "<provider> update"`。
+
+
+• 错误模式库用 E 编号，最新的似乎是 E020/E019。追加新条目，取下一个编号——需要看库里最大编号。grep 一下。### E023
+### E024
+### E025
+### E026
+### E027
+第 5 步：保存自检。
+
+• 第 5 步：保存自检。✅ 已保存：C:\Users\Administrator\Desktop\agent复盘\huangyaoshi\daily-context\2026-09-04.md
+✅ 已存档：60_feedback\session-archives\2026-09-04\huangyaoshi.md
+📋 自检：🟡 B级 📚检索有发现
+✅ 事件 #1029 已写入: agent=huangyaoshi event=review_saved
+🧪 胶囊 L0 已留痕: agent=huangyaoshi event=review_saved
+✅ A → B 镜像完成: C:\Users\Administrator\.kdo-memory\L1 → D:\KDO-memory\L1-backup（robocopy /MIR，exit 1）
+✅ verify PASS：B 镜像文件 hash 全一致；从 B 打开 integrity=ok 行数 1024（A 同 1024）
+
+
+• 🟡 B级。指令要求 🟢/🟡 都算过。B 级原因是？文件整体很长（4 节），但自检可能按整场或最新节评。🟡 达标（指令：输出必须 🟢/🟡，🔴=重写）。OK。
+
+  第 6 步：todos 追加收尾行。注意之前场次教训——混合行尾文件 Edit 易失败，用 printf 追加。取当前时间。- [2026-09-04 23:42] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+[2026-09-04 23:43] 复盘完成：daily-context/2026-09-04.md 追加「23:37 场」节（补 #635/#636/拉起器三笔账，headless 三源重建）；自检 🟡 B级；错误模式库 +E028（去重键材料抗改写）/+E029（小修单漏盘无门禁）
+注意 todos 的行格式：既有行以 `- ` 开头。我追加的行没有 `- ` 前缀。看之前的行都是 `- [2026-09-04 ...]`。我这条没 dash。要不要修？一致性起见补上 `- ` 前缀更规范。最后一行是我刚加的，把它改成 `- [2026-09-04 23:43] ...`。文件是 CRLF，用 sed 或直接 printf 修复——删除最后一行再加？简单做法：用 sed 给该行加前缀。混合行尾 Edit 风险，用 sed -i。
+
+  sed -i 's/^\[2026-09-04 23:43\] 复盘完成/- &/' —— 但文件 CRLF，sed 处理 \r 无碍（& 不含行尾）。行尾 \r 在行尾，替换开头不影响。
+
+• 收尾行缺 `- ` 前缀，补齐列表格式。- [2026-09-04 23:43] 复盘完成：daily-context/2026-09-04.md 追加「23:37 场」节（补 #635/#636/拉起器三笔账，headless 三源重建）；自检 🟡 B级；错误模式库 +E028（去重键材料抗改写）/+E029（小修单漏盘无门禁）
+
+
+• 全部 6 步完成。总结收工。
+
+• 复盘完成，六步全部走毕：
+
+  - **素材搜集**：今日 git log 54 条 commit + todos 未读段 + #635/#636 任务单执行报告与终审记录原文交叉核对。#634/#637/#639 已有专节，本次补未覆盖的三笔：#635 探针噪声收敛（PASS A- 94 分）、#636 去重键改事件身份返工（PASS A-）、拉起器两笔无单直修（K3 切换 + 闪窗修复）。
+  - **复盘落盘**：`agent复盘/huangyaoshi/daily-context/2026-09-04.md` 文末追加「23:37 场」节，Truman 11 章全（差异栏非空白：headless 补账场 vs 在场实例复盘；逐轮映射如实标注人「不在场/无可考」，未编造）。
+  - **错误模式库**：追加 E028（去重键选用会被划销改写的材料，PASS 后 1 小时复发）+ E029（小修单漏写复盘节，场次覆盖无门禁）。
+  - **保存自检**：`daily-context-save.py` 输出 **🟡 B级**（达标，非 🔴），已存档 + L0 留痕 + 镜像验证 PASS。
+  - **收尾留痕**：`90_control/todos/huangyaoshi.md` 已追加 `[2026-09-04 23:43] 复盘完成+🟡 B级` 一行。
+
+  今日队列黄药师名下无在途单（#635/#636/#637/#639 全 reviewed 闭环，#638 是老顽童的已 PASS A-）。收工。
+
+To resume this session: kimi -r session_de192db2-9454-4ced-9a1f-e167c5f52687

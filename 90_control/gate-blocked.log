@@ -622,3 +622,51 @@
 2026-09-03 20:31:30｜task_20260903_laowantong-live261-protracted-war-cards｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
   - 未提交改动: 30_wiki/cases/case-live261-lixiuhui-compound-bo｜laowantong
 2026-09-03 20:32:00｜role-liveness｜fengqingyang 全实例疑似死亡（stale: [('kimi-cli', 3936.1)]）｜role_registry check-liveness｜role_registry
+2026-09-03 21:02:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 2586.7), ('cli', 30.1)]）｜role_registry check-liveness｜role_registry
+2026-09-03 22:02:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 2647.2), ('cli', 74.4), ('hermes', 2817.7)]）｜role_registry check-liveness｜role_registry
+2026-09-03 22:42:00｜role-liveness｜fengqingyang 全实例疑似死亡（stale: [('kimi-cli', 4066.1)]）｜role_registry check-liveness｜role_registry
+2026-09-03 23:02:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 2706.7), ('cli', 150.1)]）｜role_registry check-liveness｜role_registry
+2026-09-04 00:47:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 2812.2), ('cli', 68.3), ('hermes', 2982.7)]）｜role_registry check-liveness｜role_registry
+2026-09-04 00:47:00｜role-liveness｜fengqingyang 全实例疑似死亡（stale: [('kimi-cli', 4191.1)]）｜role_registry check-liveness｜role_registry
+2026-09-04 01:07:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 2831.7), ('cli', 275.1)]）｜role_registry check-liveness｜role_registry
+2026-09-04 02:47:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 2932.2), ('cli', 188.3), ('hermes', 3102.7)]）｜role_registry check-liveness｜role_registry
+2026-09-04 02:47:00｜role-liveness｜fengqingyang 全实例疑似死亡（stale: [('kimi-cli', 4311.1)]）｜role_registry check-liveness｜role_registry
+2026-09-04 03:12:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 2956.7), ('cli', 400.1)]）｜role_registry check-liveness｜role_registry
+2026-09-04 04:43:27｜task_20260904_huangyaoshi-transcribe-quality-model-bump｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
+  - untracked: 10_raw/sources/src_2026-09-04_wechat_bf9ce0｜huangyaoshi
+2026-09-04 04:47:01｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 3052.2), ('cli', 308.3), ('hermes', 3222.7)]）｜role_registry check-liveness｜role_registry
+2026-09-04 04:47:01｜role-liveness｜fengqingyang 全实例疑似死亡（stale: [('kimi-cli', 4431.1)]）｜role_registry check-liveness｜role_registry
+2026-09-04 05:22:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 3086.7), ('cli', 530.1)]）｜role_registry check-liveness｜role_registry
+2026-09-04 06:22:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 3147.2), ('cli', 64.8), ('hermes', 3317.7)]）｜role_registry check-liveness｜role_registry
+2026-09-04 06:52:00｜role-liveness｜fengqingyang 全实例疑似死亡（stale: [('kimi-cli', 4556.1)]）｜role_registry check-liveness｜role_registry
+2026-09-04 07:27:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 3211.7), ('cli', 655.1)]）｜role_registry check-liveness｜role_registry
+2026-09-04 08:27:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 3272.2), ('cli', 189.8), ('hermes', 3442.7)]）｜role_registry check-liveness｜role_registry
+2026-09-04 08:57:00｜role-liveness｜fengqingyang 全实例疑似死亡（stale: [('kimi-cli', 4681.1)]）｜role_registry check-liveness｜role_registry
+2026-09-04 09:27:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 3331.7), ('cli', 775.1)]）｜role_registry check-liveness｜role_registry
+2026-09-04 10:27:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 3392.2), ('cli', 309.8), ('hermes', 3562.7)]）｜role_registry check-liveness｜role_registry
+2026-09-04 10:57:00｜role-liveness｜fengqingyang 全实例疑似死亡（stale: [('kimi-cli', 4801.1)]）｜role_registry check-liveness｜role_registry
+2026-09-04 11:32:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 3456.7), ('cli', 900.1)]）｜role_registry check-liveness｜role_registry
+2026-09-04 12:42:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 3527.2), ('cli', 444.8), ('hermes', 3697.7)]）｜role_registry check-liveness｜role_registry
+2026-09-04 12:57:00｜role-liveness｜fengqingyang 全实例疑似死亡（stale: [('kimi-cli', 4921.1)]）｜role_registry check-liveness｜role_registry
+2026-09-04 13:44:40｜task_20260904_huangyaoshi-probe-noise-converge｜F-035-意见书｜任务单缺少「## 终审记录」节（#429 F-035：审查意见必须落盘，口头/群里意见=未审查）｜欧阳锋
+2026-09-04 16:50:37｜task_20260904_huangyaoshi-probe-dedup-event-identity｜F-035-负向判词｜意见书含负向断言（丢失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋
+2026-09-04 16:51:27｜task_20260904_huangyaoshi-probe-dedup-event-identity｜F-036-问题落点｜审查发现问题未给落点（F-036）：**缺陷（不阻断）**：测试注释引 L1074，板面增长后已漂至 L1075（行号引用天然漂移，🟠 随后续维护带掉）——必须在意见书注明去向（建议书路径 / 停车场｜欧阳锋
+2026-09-04 19:02:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 3906.8), ('cli', 31.8)]）｜role_registry check-liveness｜role_registry
+2026-09-04 20:19:38｜task_20260904_huangyaoshi-liveness-reregister-fix｜F-034-五字段｜--evidence 文件不可读: role_registry+conveyor_probe 双刀：check_liveness划销抑制+gate-blocked水位线扫描（根治500-cap淘汰翻滚｜huangyaoshi
+2026-09-04 20:19:56｜task_20260904_huangyaoshi-liveness-reregister-fix｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
+  - 未提交改动: 90_control/scripts/role_registry.py
+  - 未提交改动: ｜huangyaoshi
+2026-09-04 21:29:28｜task_20260904_huangyaoshi-qingdanti-into-production-spec｜F-034-五字段｜--evidence 文件不可读: 手册§12.2.1清单体结构标准(yt-note卡族五链只链不抄)+pre-submit新门禁_check_qingdanti_structure(WARNING:｜huangyaoshi
+2026-09-04 21:29:36｜task_20260904_huangyaoshi-qingdanti-into-production-spec｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
+  - 未提交改动: 90_control/kdo-industrialization-manual.md
+  - ｜huangyaoshi
+2026-09-04 21:30:31｜task_20260904_huangyaoshi-qingdanti-into-production-spec｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
+  - untracked: kdo/pre_submit.py
+  - untracked: tests/test｜huangyaoshi
+2026-09-04 21:38:43｜task_20260904_laowantong-transcript-to-qingdanti-skill｜F-034-五字段｜--evidence 文件不可读: 交付：skill=40_outputs/capabilities/skills/shared/transcript-to-qingdanti/(SKILL.md+m｜laowantong
+2026-09-04 21:39:37｜task_20260904_laowantong-transcript-to-qingdanti-skill｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
+  - untracked: 40_outputs/capabilities/skills/shared/trans｜laowantong
+2026-09-04 22:16:18｜task_20260904_laowantong-transcript-to-qingdanti-skill｜F-035-意见书｜任务单缺少「## 终审记录」节（#429 F-035：审查意见必须落盘，口头/群里意见=未审查）｜欧阳锋
+2026-09-04 22:17:01｜prop_20260904_ouyangfeng-production-negative-assertion-existence-check.md｜near-miss-三元组（#506）｜type: proposal 但三元组不完整：缺 audience｜conveyor_probe
+2026-09-04 23:37:00｜infra-liveness｜基建停拍报警｜graph-index｜陈旧（落后 search_index 48h，阈值 48h）｜conveyor_probe
+2026-09-05 00:07:00｜infra-liveness｜基建停拍报警｜graph-index｜陈旧（落后 search_index 49h，阈值 48h）｜conveyor_probe

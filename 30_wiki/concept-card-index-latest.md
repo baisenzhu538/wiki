@@ -1,4 +1,4 @@
-# Concept Card Index — 2026-09-02 18:07 UTC
+# Concept Card Index — 2026-09-03 18:07 UTC
 
 | ID | Title | Type | Domain |
 |---|---|---|---|
@@ -572,6 +572,7 @@
 | framework-community-knowledge-production-failure-modes | 社群知识生产失败模式库 | framework |  |
 | framework-content-business-six-step | 内容经营 6 步闭环 | framework | content |
 | framework-course-milestone-model | 课程里程碑模型：一堂做课的七步生产流程 | framework | content, design, kdo, master, modeling, strategy |
+| framework-course-thought-production-line | 国帅思想生产线：人开题·机加工·人判断——AI 时代课程/内容生产的 11 环全链框架 | framework | ai-collaboration |
 | framework-decision-cognitive-bias-map | 商业决策常见认知偏差地图 | framework | decision-making |
 | framework-decision-quality-checklist | 决策质量六问检查表 | framework | decision-making |
 | framework-deep-work-iceberg | L1-L5 深度工作冰山模型 | framework | kdo |
@@ -584,6 +585,7 @@
 | framework-dopamine-recovery | DOPAMINE 八字母恢复框架：数据→目标→问题→禁欲→正念→洞察→下一步→实验 | framework | human-insights, business-strategy |
 | framework-doris-industry-report-4step | 行业报告调研四步法：7天快速建立行业认知 | framework | strategy |
 | framework-dual-center-feishu-obsidian | 双中心原则：飞书给人、Obsidian 给 AI | framework | knowledge-management, ai-collaboration |
+| framework-education-protracted-war | 教育版论持久战：用矛盾分析法完成战略笃定——根本矛盾判定→质/量/趋势三维→内外部分解→持久战结论 | framework | strategy, yitang |
 | framework-fact-rule-insight | 事实-规律-洞察三层框架：专题学习的通用分析结构（认识他/理解他/用他） | framework | knowledge-management, research |
 | framework-five-step-lean-interface | 五步法与精益验证的接口 | framework | strategy |
 | framework-founder-ip-three-positioning | 创始人 IP 三定位模型 | framework | content |
@@ -892,6 +894,7 @@
 | tool-agent-spec-yitang-value-proposition | OPC 卖点提炼助手 Agent Spec | tool-agent-spec | personal-os, sales, ai-collaboration |
 | tool-agent-spec-yitang-Y-model-coach | Y模型 Coach 模式 Agent Spec | tool-agent-spec | epistemic-foundations, decision-science, ai-collaboration |
 | tool-agent-white-paper-five-elements | Agent 白皮书五要素：名字/职责/能力/数据库/虚拟人格（可复制 Agent 的定义模板） | tool | ai-collaboration, knowledge-management |
+| tool-agent-whitepaper-full-lifecycle-template | Agent 工作白皮书 11 节全生命周期模板——从五要素定义到权限三层·初始化 16 步·灵魂校验的工程化蓝本 | tool | ai-collaboration, knowledge-management |
 | tool-ai-adapted-workflow-design | AI 适配化工作流设计：四员分工+占位符防魔改+规则文件前置（十指讲香） | tool | ai-collaboration, knowledge-management |
 | tool-ai-agent-feature-comparison | 「AI Agent 工具对比：Claude Code / Hermes / Codex / CodeBuddy / OpenClaw / DeepSeek Harness 的 Feature 差异」 | tool | ai-basic, ai-collaboration |
 | tool-ai-ai-workspace-setup | 技能：结构化AI工作空间搭建 | tool | ai-collaboration, ai-saas |
@@ -1977,6 +1980,9 @@
 | case-live258-fact-spread-18-bridges | 「案例：18座桥口误扩散翻车——AI不质疑输入错误，只会工整扩散」 | case | ai-basic, education |
 | case-live258-livestream-prompt-v1-v5 | 「案例：直播复盘提示词五轮迭代——Feature链从4个到25+个」 | case | ai-basic, ecommerce |
 | case-live258-zhihu-content-acquisition | 「案例：知乎内容获客——无意识用对4个Feature到0成本获客」 | case | ai-basic, marketing |
+| case-live261-jacky-ip-marketing-protracted-war | Jacky《IP营销的持久战》：从代运营4个IP的人力陷阱到"IP营销领域的一堂"——科学派vs信息差经验派的行业论证 | case | strategy, growth |
+| case-live261-lixiuhui-compound-bow-dealer-war | 李秀慧《复合弓业务的论持久战》：两用复合弓Top1 vs 占渠道50-60%的最大经销商——低价倾销+盗图+仿造下的谈打抉择 | case | strategy, sales |
+| case-live261-luyu-strategy-conviction-maoxuan | 路禹《战略笃定》开放麦：一堂教研PM的毛选三层哲学解读——实践论/矛盾论/论持久战向教育行业的迁移（15个矛盾分析实例） | case | strategy, yitang |
 | case-live81-ai-trademark-design | 案例：Live81 AI 赋能喵善养商标设计 | case | design, ai-collaboration |
 | case-livestream-sop-modeling | 案例：直播前热身 SOP 建模 | case | content |
 | case-meeting-roi-awakening | 三次觉醒案例包：从抄流程到算 ROI（A 同学启动会 / B 同学复盘会 / Truman 砍周会） | case | management |
@@ -2093,6 +2099,7 @@
 | case-wanghuan-yiyu-qingji-medical-notes | 王欢案例：医语轻记用语音录入缩短病历时间 | case | ai-collaboration, content, decision-making, design, kdo, strategy |
 | case-wechat-5291b61bc722d90d | 5291b61bc722d90d | case |  |
 | case-wechat-6725b942182f6277 | 6725b942182f6277 | case |  |
+| case-wechat-article-workbuddy-selfmedia-pipeline | WorkBuddy 自媒体全自动流水线案例——每周 3 篇×6 小时到日更 22 篇+40%：AI 执行重复劳动+人工终审的人机分工实证 | case | ai-collaboration |
 | case-wechat-article_4dd7be7cd82f7e80 | 重构协同：关于AI Native团队的思考 | case | kdo |
 | case-wechat-AWyGiJIRgc | AWyGiJIRgc | case |  |
 | case-wechat-dy_7666832665312982138 | 什么是 Skill（普通人学 AI 的第一课）· 大李书房一盏灯 | case |  |
@@ -2408,6 +2415,7 @@
 | dk-content-implicit-value-without-price | 全文不提价格，但处处暗示价值 | dk | content-production, business-strategy, entrepreneur |
 | dk-content-muscle-memory-vs-knowledge | 内容创作中的肌肉记忆：很多能力不是知识 | dk | content-production, personal-growth, ai-collaboration |
 | dk-context-patching-recipe | 上下文补齐配方：内容质量不够时先补"价值观+方法论+素材"，不换模型 | dk | knowledge-management, ai-collaboration |
+| dk-course-starts-from-unavoidable-question | 课从绕不过去的问题开始，不从知识开始——困惑先于选题的暗知识 | dk | ai-collaboration |
 | dk-customers-hate-ai | 客户讨厌 AI：AI 生成的销售内容没人情味 | dk | sales, ai-collaboration |
 | dk-decision-value-overrides-roi | Y 模型失效场景：当价值观权重超过经济理性时，广义 ROI 公式不再适用 | dk | master, decision-making |
 | dk-decision-when-to-defer | 何时应该推迟决策 | dk | decision-science |

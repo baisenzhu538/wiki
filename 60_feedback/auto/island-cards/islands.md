@@ -1,6 +1,6 @@
 # 孤岛卡清单（#528：无出链无入链=检索死胡同）
 
-扫描面 2924 卡，孤岛 288 张（agent-spec 类已豁免）。
+扫描面 2928 卡，孤岛 288 张（agent-spec 类已豁免）。
 挂链批次由王语嫣编排——高优先=framework/tool 卡型（检索主靶）。
 
 ## case-yihang-dual-triangle-AI三角-场景.md（1）

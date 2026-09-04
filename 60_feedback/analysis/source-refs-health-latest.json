@@ -1,12 +1,12 @@
 {
   "stats": {
-    "total_cards": 2930,
-    "cards_with_sources": 2740,
+    "total_cards": 2934,
+    "cards_with_sources": 2744,
     "cards_empty": 187,
     "cards_with_errors": 3,
-    "total_refs": 6015,
-    "refs_file_path": 4332,
-    "refs_ok": 4018,
+    "total_refs": 6019,
+    "refs_file_path": 4336,
+    "refs_ok": 4022,
     "refs_missing": 314,
     "refs_contaminated": 8,
     "refs_line_anchor": 784,

@@ -609,3 +609,58 @@
 - [2026-09-04 12:57] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
 - [2026-09-04 13:12] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
 - [2026-09-04 13:19] 施工 #635 探针噪声收敛（F-074 check_liveness 有单才报 + F-076 gate 登记已划销判定）：回归 69 passed + 实跑实证（08-27 旧拍 3 拍零重登/有单报无单静默）；已 complete 提审 pending_review 待欧阳锋终审；停车场 F-074/F-076 划销出池入清账表
+- [2026-09-04 13:27] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#635（huangyaoshi 的单，挂审 9min）（到点（节奏 15min））
+- [2026-09-04 13:42] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#635（huangyaoshi 的单，挂审 24min）（到点（节奏 15min））
+- [2026-09-04 13:57] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-04 13:57] ✅ KDO 终审通过 1 单：#635——你的单过了，见任务单终审记录
+- [2026-09-04 14:12] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-04 14:27] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-04 14:42] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-04 14:57] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-04 15:12] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-04 15:27] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-04 15:47] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-04 15:47] 📥 KDO 可领取 1 单：#636
+- [2026-09-04 15:45] ✅ #636 探针去重键改事件身份 complete 提审：_event_id三元组（原始时间戳+源类型+主体，划销改写免疫）三道闸保留回退；真实板面重触发已划销事件不上段+对照新主体正常上段；5新测全过+全量497passed；顺手修自己#631微窗口flake（改独立旧仓真实出窗，3连跑绿）；边界声明=兄弟记录不拦（15:17复发实为首次上段的同族另一事件，整族熔断需另立）
+- [2026-09-04 16:02] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#636（huangyaoshi 的单，挂审 3min）（到点（节奏 15min））
+- [2026-09-04 16:17] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#636（huangyaoshi 的单，挂审 18min）（到点（节奏 15min））
+- [2026-09-04 16:32] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#636（huangyaoshi 的单，挂审 33min）（到点（节奏 15min））
+- [2026-09-04 16:47] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#636（huangyaoshi 的单，挂审 48min）（到点（节奏 15min））
+- [2026-09-04 16:57] ✅ KDO 终审通过 1 单：#636——你的单过了，见任务单终审记录
+- [2026-09-04 17:02] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-04 17:17] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-04 17:32] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-04 17:47] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-04 18:02] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-04 18:17] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-04 18:32] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-04 18:47] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-04 19:02] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-04 19:17] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-04 19:37] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-04 19:52] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-04 20:07] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-04 20:20] ✅ #637 liveness重登记修根 complete 提审：双刀=check_liveness划销抑制闸（角色粒度处置标记，恢复清零重新武装）+gate-blocked水位线扫描（根治500-cap哈希淘汰翻滚，六连滴真根）；10新测全绿+全量507passed；实跑5+拍零陈旧重登记（板面回声0+沙盒重扫pos612=612）；19:02真报警全链路正常；#635核查=部署后零误报；边界=水位线依赖append-only（截断重置+hash兜重有测）
+- [2026-09-04 20:22] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#637（huangyaoshi 的单，挂审 2min）（到点（节奏 15min））
+- [2026-09-04 20:26] 通路验证（只读不施工）：复述 parking-lot F-076（conveyor_probe 陈旧事件重复登记，已随 #635 出池待终审）+ 报到身份/时间
+- [2026-09-04 20:37] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#637（huangyaoshi 的单，挂审 17min）（到点（节奏 15min））
+- [2026-09-04 20:52] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-04 20:57] ✅ KDO 终审通过 1 单：#637——你的单过了，见任务单终审记录
+- [2026-09-04 21:07] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-04 21:22] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-04 21:42] ✅ #639 清单体标准入生产规范 complete 提审：手册§12.2.1（五条标准+yt-note卡族五链只链不抄）+pre-submit新门禁_check_qingdanti_structure（WARNING连续散文≥8行/单段≥400字，跳过围栏，只向前生效）+回归7例（全量621passed零回归）+矩阵行29登记；实测2960卡62卡会触发不回扫；E040教训=CLI仓交付物路径须带「Knowledge Delivery OS 0.0.1/」前缀否则按vault相对路径误判untracked
+- [2026-09-04 21:37] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#639（huangyaoshi 的单，挂审 6min）（到点（节奏 15min））
+- [2026-09-04 21:47] ✅ KDO 终审通过 1 单：#639——你的单过了，见任务单终审记录
+- [2026-09-04 21:52] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#638（laowantong 的单，挂审 12min）（到点（节奏 15min））
+- [2026-09-04 22:07] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#638（laowantong 的单，挂审 27min）（到点（节奏 15min））
+- [2026-09-04 22:22] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-04 22:37] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-04 22:52] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-04 23:07] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-04 23:27] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-04 23:42] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-04 23:43] 复盘完成：daily-context/2026-09-04.md 追加「23:37 场」节（补 #635/#636/拉起器三笔账，headless 三源重建）；自检 🟡 B级；错误模式库 +E028（去重键材料抗改写）/+E029（小修单漏盘无门禁）
+- [2026-09-04 23:57] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-05 00:12] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-05 00:32] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-05 00:47] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））

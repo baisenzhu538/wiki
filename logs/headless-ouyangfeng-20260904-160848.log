@@ -1,0 +1,38 @@
+Reading additional input from stdin...
+OpenAI Codex v0.144.1
+--------
+workdir: C:\Users\Administrator\Desktop\wiki
+model: deepseek-v4-pro
+provider: relay
+approval: never
+sandbox: danger-full-access
+reasoning effort: none
+reasoning summaries: none
+session id: 01a06b76-9570-7d71-a81e-b177bc60ee1d
+--------
+user
+你是ouyangfeng（KDO 知识工厂角色）。工作目录 C:\Users\Administrator\Desktop\wiki（先 cd 进去，一切操作在该目录下）。
+
+启动恢复（必做）：
+1. Read .agent/startup.md
+2. Read .agent/ouyangfeng-context.md（若不存在跳过，改读 20_memory/ouyangfeng-amnesia-recovery.md）
+3. Read 90_control/todos/ouyangfeng.md 的最后 20 行（未读段）
+
+然后执行本次任务指令：
+终审 #636（黄药师去重键改事件身份+#631微窗口flake修复，15:59 提审；验收重点=复发阻断实证——构造已划销事件再触发应零登记）。review 流转后落 todos
+
+通用纪律（不可协商）：
+- 队列状态流转只走 python 90_control/scripts/queue_transition.py（claim <task_id> --instance ouyangfeng / complete ... --evidence ... / review ...），禁止手改队列和任务单 status。实例名=裸角色名（#620 老朱 09-02 铁律：工具=变量不进名字）。
+- 完工在 90_control/todos/ouyangfeng.md 追加一行（[YYYY-MM-DD HH:MM] 动作+任务号+结果）。
+- 提审前任务单内必须有五字段执行报告（**交付物**/**完成内容**/**验证**/**边界**/**需要谁动作** 各起一行）。
+- 只做本次指令范围内的事，做完收工，不扩展到其他任务。
+- 备份避让（#628）：vault 自动备份每 30min 一拍（kdo-vault-git-backup，现落 :20/:50，以 logs/vault-git-backup.log 尾行为准）——拍前 5 分钟禁 stash/worktree 切换类操作，未提交在制品保持落盘可见即可（有活动会话备份会自行跳拍）；长任务隔离验证一律 git worktree。
+
+warning: Model metadata for `deepseek-v4-pro` not found. Defaulting to fallback metadata; this can degrade performance and cause issues.
+ERROR: Reconnecting... 1/5
+ERROR: Reconnecting... 2/5
+ERROR: Reconnecting... 3/5
+ERROR: Reconnecting... 4/5
+ERROR: Reconnecting... 5/5
+ERROR: stream disconnected before completion: {"error":{"message":"Insufficient Balance","type":"unknown_error","param":null,"code":"invalid_request_error"}}
+ERROR: stream disconnected before completion: {"error":{"message":"Insufficient Balance","type":"unknown_error","param":null,"code":"invalid_request_error"}}

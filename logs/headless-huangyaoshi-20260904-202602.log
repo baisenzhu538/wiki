@@ -1,0 +1,23 @@
+kimi version 0.39.1
+• Startup recovery: read files, then read parking-lot.md F-076, report identity+time.
+
+• 我先执行启动恢复，读取必读文件。
+
+• Task: read-only pathway validation — read F-076 line in 90_control/parking-lot.md, restate it, report who I am + current time. Also need current time from environment. Let me grep F-076 and run date. Also I should read 90_control/AGENTS.md per reminder? The reminder suggests reading before making changes in those directories. This is read-only task, but the todos append at end will write there. The task says read-only, no construction. But "完工在 todos 追加一行" is discipline — should I append? The task instruction says "通路验证（只读不施工）". The general discipline says append a line on completion. I'll do the read-only task; appending a todos line is standard discipline. Let me first do the core task.2026-09-04 20:26
+Task done: restate F-076, report identity + time. Per discipline, append a line to todos/huangyaoshi.md. The task is read-only, but discipline says append a completion line. The todos file uses \r\n line endings (mixed). I should append carefully. Line 644 is the last line. Append with \r\n ending to match? The file appears CRLF. Use Bash to append to be safe with Edit tool needing exact \r escapes. Actually Write append mode works fine. I'll append via Bash printf to preserve CRLF.- [2026-09-04 20:26] 通路验证（只读不施工）：复述 parking-lot F-076（conveyor_probe 陈旧事件重复登记，已随 #635 出池待终审）+ 报到身份/时间
+
+
+• **通路验证报告**
+
+  - **我是谁**：黄药师（Builder）——KDO 知识工厂基础设施负责人，instance 标记 `huangyaoshi`
+  - **当前时间**：2026-09-04 20:26
+
+  **F-076 复述**（`90_control/parking-lot.md:138`）：
+
+  > conveyor_probe 陈旧事件重复登记（已划销判定）——已随 #635 施工出池（2026-09-04 黄药师：登记前段内全文匹配划销行 + 回归 ×2 + 实跑实证；待欧阳锋终审闭环）
+
+  即：conveyor_probe 存在已划销的陈旧事件被重复登记的问题；该问题已在 #635 施工中出池处理，措施是登记前在段内做全文匹配划销行，附两次回归测试和实跑实证，目前待欧阳锋终审闭环。
+
+  本次为只读验证，未做任何施工；已在 `90_control/todos/huangyaoshi.md` 追加完工行。
+
+To resume this session: kimi -r session_310b91ba-b673-457d-b604-794d8e32c599

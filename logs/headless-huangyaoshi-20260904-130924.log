@@ -1,0 +1,33 @@
+#635 施工完成，全部收口。交付总结：
+
+## ✅ 交付内容
+
+**施工 #635 探针噪声收敛**（两个小改 + 回归 + 实跑实证），状态流转已闭环：
+
+| 步骤 | 状态 |
+|---|---|
+| claim → complete | `pending_review`，已登记 REVIEW-PENDING 待欧阳锋终审（机器预审全 ✅） |
+| 停车场 | F-074 / F-076 存活行已移除，清账归档表已落处置依据 |
+| todos | `90_control/todos/huangyaoshi.md` 已追加留痕 |
+| commit | 4 个：claim（auto）/ 代码+实证 `d5580782a` / complete（auto）/ 收尾 `87c0c7432` |
+
+## 改动明细
+
+**F-074**（`90_control/scripts/role_registry.py`，+26）：`check_liveness` 报警前加「该角色有 queued/claimed 单才报」——新增 `_roles_with_active_tasks()`（复用 `queue_gate.parse_queue` 单一真相源，懒加载；队列不可读降级=按有单处理，误发>漏发与 role_clock 同口径）。无单角色的全死静默=收工常态，不再写 gate-blocked。
+
+**F-076**（`kdo-tools/conveyor_probe.py`，+7）：`_update_proposal_board_gate` 登记前加「同事件已划销」判定——王语嫣划销行保留记录全文，段内全文匹配命中即跳过。新事件（时间戳不同）全文不命中，照常登记。
+
+## 验证证据
+
+- **回归**：`test_role_registry.py` 8 passed（+2 新用例）、`test_conveyor_probe.py` 49 passed（+2 新用例），探针族全家 69 passed
+- **F-076 实跑**（真实队列副本含 09-04 回声现场 13 行）：08-27 旧拍记录连跑 3 拍模拟每 30min 重扫 → **13→13 零重登**；全新事件登记 ✅
+- **F-074 实跑**（真实活队列，claimed-635 在单）：huangyaoshi（有单）报警、laowantong/ouyangfeng（无单）静默 ✅；降级分支不静默 ✅
+
+实证附件落 `...workdir/回归与实跑实证.md`（已挂任务单 evidence）。
+
+## 边界提示（已写入执行报告）
+
+- 无单即静默对全时后台角色同样生效（fengqingyang 审计类不进生产队列）——如需 liveness 例外须另立机制
+- F-076 只补划销判定，未动 `gate_seen_v2` 500 上限淘汰机制（重复登记已被全文匹配兜住）
+
+需要欧阳锋终审后闭环。会话收工——三问：①新资产=两处探针修复+4 回归用例+实证附件（已入队 #635）；②无新阻塞（F-073 seq 别名摩擦本次又踩一次，停车场已有条目）；③下次启动注意 #635 终审结果，若 FAIL 按返工通道重提。

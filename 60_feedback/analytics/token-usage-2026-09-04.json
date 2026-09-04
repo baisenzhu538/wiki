@@ -1,0 +1,42 @@
+{
+  "date": "2026-09-04",
+  "collected_at": "2026-09-04T02:07:58",
+  "usage": {
+    "claude": {
+      "f9a1bf8e-b887-4489-826d-d30181acebf9": {
+        "input": 124681,
+        "output": 94562,
+        "cache_read": 19361152,
+        "cache_write": 0
+      }
+    },
+    "kimi": {
+      "session_127d4cf5-965d-4bee-bcb4-f7540bc31d59/main": {
+        "input": 134763,
+        "output": 63168,
+        "cache_read": 109196032,
+        "cache_write": 0
+      },
+      "session_c27a6921-e211-4c14-b216-cadfe1d90194/main": {
+        "input": 104206,
+        "output": 32205,
+        "cache_read": 42310912,
+        "cache_write": 0
+      }
+    },
+    "hermes": {
+      "huangyaoshi": {
+        "input": 112049,
+        "output": 56,
+        "cache_read": 0,
+        "cache_write": 0
+      },
+      "laowantong": {
+        "input": 203713,
+        "output": 277,
+        "cache_read": 202944,
+        "cache_write": 0
+      }
+    }
+  }
+}

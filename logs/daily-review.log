@@ -3,3 +3,37 @@
 [launch] huangyaoshiÔºö‰ªäÊó• commit 12 Êù°Ôºàrc=0Ôºâ
 [launch] ouyangfengÔºö‰ªäÊó• commit 2 Êù°Ôºàrc=0Ôºâ
 --- ÂÖ±ÊãâËµ∑ 3 ËßíËâ≤ ---
+proc_laowantong_10888 | tool=kimi | log=C:\Users\Administrator\Desktop\wiki\logs\headless-laowantong-20260903-233700.log | 23:37:00
+proc_huangyaoshi_5756 | tool=claude | log=C:\Users\Administrator\Desktop\wiki\logs\headless-huangyaoshi-20260903-233701.log | 23:37:01
+proc_ouyangfeng_22496 | tool=codex | log=C:\Users\Administrator\Desktop\wiki\logs\headless-ouyangfeng-20260903-233702.log | 23:37:02
+[launch] laowantong£∫todos ΩÒ»’ 4 Ãı£®rc=0£©
+[launch] huangyaoshi£∫todos ΩÒ»’ 3 Ãı£®rc=0£©
+[launch] ouyangfeng£∫todos ΩÒ»’ 1 Ãı£®rc=0£©
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\wiki\kdo-tools\daily_review.py", line 106, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "C:\Users\Administrator\Desktop\wiki\kdo-tools\daily_review.py", line 100, in main
+    with LOG_PATH.open("a", encoding="utf-8") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\Administrator\\Desktop\\wiki\\logs\\daily-review.log'
+proc_laowantong_58644 | tool=kimi | log=C:\Users\Administrator\Desktop\wiki\logs\headless-laowantong-20260904-233701.log | 23:37:01
+proc_huangyaoshi_58864 | tool=kimi | log=C:\Users\Administrator\Desktop\wiki\logs\headless-huangyaoshi-20260904-233702.log | 23:37:02
+proc_ouyangfeng_58988 | tool=codex | log=C:\Users\Administrator\Desktop\wiki\logs\headless-ouyangfeng-20260904-233703.log | 23:37:03
+[launch] laowantong£∫ΩÒ»’ commit 3 Ãı£®rc=0£©
+[launch] huangyaoshi£∫ΩÒ»’ commit 17 Ãı£®rc=0£©
+[launch] ouyangfeng£∫ΩÒ»’ commit 7 Ãı£®rc=0£©
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\wiki\kdo-tools\daily_review.py", line 106, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "C:\Users\Administrator\Desktop\wiki\kdo-tools\daily_review.py", line 100, in main
+    with LOG_PATH.open("a", encoding="utf-8") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\Administrator\\Desktop\\wiki\\logs\\daily-review.log'
