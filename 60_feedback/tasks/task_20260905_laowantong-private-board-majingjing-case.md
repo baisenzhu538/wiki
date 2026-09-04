@@ -2,7 +2,7 @@
 id: task_20260905_laowantong-private-board-majingjing-case
 title: 私董会实录卡组（马晶晶德扑决策营案：目标人群宣传转化议题）——5.1万字逐字稿 W1 逐字读 + 提炼件二等校验
 seq: 641
-status: queued
+status: in_progress
 assignee: laowantong
 created_by: wangyuyan
 created_at: 2026-09-05
@@ -11,6 +11,8 @@ reviewer: 欧阳锋
 source_refs:
 - 00_inbox/新录音2-妙记逐字稿.md
 - 00_inbox/新录音2-私董会重点提炼.md
+instance: laowantong
+updated_at: '2026-09-04T18:09:42.208690+00:00'
 ---
 
 # #641 私董会实录卡组（老顽童）
