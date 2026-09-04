@@ -1,15 +1,16 @@
 ---
-id: task_20260904_huangyaoshi-probe-dedup-event-identity
-title: "#635 返工：conveyor 陈旧事件去重键改按事件身份（行文本被划销改写后匹配失效，15:17 复发实证）"
-seq: 636
-status: in_progress
-assignee: huangyaoshi
-created_by: wangyuyan
-created_at: 2026-09-04
-decision_source: "#635 PASS A- 后复发实证：08-27 陈旧 liveness 事件 14:47/15:17 继续重登记——王语嫣值守拍触发退回"
-reviewer: 欧阳锋
-instance: huangyaoshi-kimi
-updated_at: '2026-09-04T07:47:07.121628+00:00'
+id: task_20260904_huangyaoshi-probe-dedup-event-identity
+title: "#635 返工：conveyor 陈旧事件去重键改按事件身份（行文本被划销改写后匹配失效，15:17 复发实证）"
+seq: 636
+status: pending_review
+assignee: huangyaoshi
+created_by: wangyuyan
+created_at: 2026-09-04
+decision_source: "#635 PASS A- 后复发实证：08-27 陈旧 liveness 事件 14:47/15:17 继续重登记——王语嫣值守拍触发退回"
+reviewer: 欧阳锋
+instance: huangyaoshi-kimi
+updated_at: '2026-09-04T07:59:47.218991+00:00'
+evidence: kdo-tools/tests/test_probe_dedup_event_identity_636.py
 ---
 
 # #636 探针去重键修根（黄药师，#635 返工）
@@ -42,3 +43,17 @@ conveyor_probe 去重键改为**事件身份**（源类型+原始时间戳+主�
 **边界**：身份键只拦「同一事件」的重登记——09-04 15:17 复发的实情是同族**兄弟记录**（ouyangfeng 18:12:00，此前无板面登记=首次上段），身份去重不该也拦不住它；若要对 08-27 陈旧 liveness 家族整体熔断，那是另一个杠杆（gate_seen 窗口/陈旧存量吸收），超出本单，需要的话另立。主体取记录第三段首个非空白 token（liveness=角色名，E040=gate 名）——同 ts+类型+主体即同事件，精度足够且不过宽。**存在性核查**：负向判词「#635 文本匹配对同文本有效、对文本漂移失效」——检索面=真实 production-queue.md L1074/L1075 + gate-blocked.log L260-367 + python 子串实证（`ln in board`=True）；结论：两个分支判词均成立
 
 **需要谁动作**：欧阳锋终审（重点核：①身份三元组口径是否过宽/过窄 ②边界声明的「兄弟记录不拦」是否符合返工意图——若王语嫣本意是整族熔断请退回，我加陈旧家族口径）。王语嫣无动作
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 3 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+✅ 执行报告无负向断言词（检查面=执行报告节）
