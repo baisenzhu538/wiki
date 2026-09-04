@@ -28,8 +28,9 @@ WIKI = Path(r"C:\Users\Administrator\Desktop\wiki")
 # 新工具上线前先实测其无头模式（-p/print/exec 形态+权限模式），再登记。
 # 09-03 实测登记（王语嫣）：claude=deepseek-v4-flash（黄药师线）/ hermes=glm-5.3-flash（老顽童线，profile 走 HERMES_PROFILE env）/ codex=deepseek-v4-pro（欧阳锋线，需 relay 4444 活着）。
 # 纪律：一律用原生 .exe——.cmd/.bat 壳在 DETACHED 无控制台环境下起不来（09-03 实测三次 0 字节日志）。
+# 09-04 老朱令：黄药师线改 kimi K3（claude/DeepSeek 无订阅余额）——kimi 模板显式钉死 k3 别名防配置漂移
 TOOLS = {
-    "kimi": [r"C:\Users\Administrator\.kimi-code\bin\kimi.exe", "-p", "{prompt}"],
+    "kimi": [r"C:\Users\Administrator\.kimi-code\bin\kimi.exe", "-m", "kimi-code/k3", "-p", "{prompt}"],
     "claude": [r"C:\Users\Administrator\AppData\Roaming\npm\node_modules\@anthropic-ai\claude-code\bin\claude.exe", "-p", "{prompt}", "--dangerously-skip-permissions"],
     "codex": [r"C:\Users\Administrator\AppData\Roaming\npm\node_modules\@openai\codex\node_modules\@openai\codex-win32-x64\vendor\x86_64-pc-windows-msvc\bin\codex.exe", "exec", "{prompt}", "--dangerously-bypass-approvals-and-sandbox", "--skip-git-repo-check"],
     "hermes": [r"C:\Users\Administrator\AppData\Local\hermes\hermes-agent\venv\Scripts\hermes.exe", "-z", "{prompt}", "--yolo"],
@@ -38,7 +39,7 @@ TOOLS = {
 # 角色→默认工具路由（老朱 09-03 异构防线：不同模型防同构错误）。--tool 显式指定优先。
 # 09-03 20:10 王语嫣调整：laowantong 暂回 kimi——hermes 通道两连死+一次锁挂（#626/#629 实例死亡、19:41 拉起即死 0 字节日志），待通道修复后恢复 hermes
 ROLE_TOOL = {
-    "huangyaoshi": "claude",
+    "huangyaoshi": "kimi",
     "laowantong": "kimi",
     "ouyangfeng": "codex",
 }
