@@ -268,6 +268,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 638 | `task_20260904_laowantong-transcript-to-qingdanti-skill` | 清单体生产skill（口述稿→清单体笔记）+Live261主件试跑交付老朱验收 | reviewed | laowantong | skill目录+试跑笔记+执行报告 | 无 | `60_feedback/tasks/task_20260904_laowantong-transcript-to-qingdanti-skill.md` | 老朱09-04直令立项（知行断裂修复）；不改变原意不创造内容；欧阳锋终审 |
 | 640 | `task_20260904_laowantong-qingdanti-scoring-rubric` | 清单体评分rubric化（段位图六维→可打分表）+skill v1.1（两步法定位+rubric自检门禁）+Live261试跑件复评 | pending_review | laowantong | rubric+skill diff+复评分数实证 | 无 | `60_feedback/tasks/task_20260904_laowantong-qingdanti-scoring-rubric.md` | 老朱09-04两步法定稿+评分规则令；欧阳锋终审 |
 | 641 | `task_20260905_laowantong-private-board-majingjing-case` | 私董会实录卡组（马晶晶德扑决策营案）：5.1万字逐字稿W1逐字读+提炼件索引定位 | queued | laowantong | case1-2张+三方法记录+互链实证 | #640 后（同角色排队） | `60_feedback/tasks/task_20260905_laowantong-private-board-majingjing-case.md` | inbox值守拍分诊（P0双件）；私董会SOP实战样本互链；欧阳锋终审 |
+| 642 | `task_20260905_laowantong-641-depth-patch` | 修订单：#641 深度口径（真问题链进卡+暗知识3条成dk候选+SOP差异点+老朱归属口径） | queued | laowantong | 口径落#641执行报告随审 | #641 配套 | `60_feedback/tasks/task_20260905_laowantong-641-depth-patch.md` | 王语嫣深诊断补深（老朱09-05批编排深度）；E047边界传口径不改范围 |
 | 639 | `task_20260904_huangyaoshi-qingdanti-into-production-spec` | 生产规范补清单体标准：工业化手册引用yt-note卡族+质检超长无分层WARNING提示 | reviewed | huangyaoshi | 手册diff+门禁提示+回归 | 无 | `60_feedback/tasks/task_20260904_huangyaoshi-qingdanti-into-production-spec.md` | 老朱09-04直令；只链不抄；欧阳锋终审 |
 | 630 | `task_20260903_laowantong-626-source-anchor-fix` | 修订单（传口径不改范围）：#626 素材锚升级——Live86对账以原稿为一等锚（00_inbox/龙虾员工实践/），Candy仅定位模版增量；Live77无原稿Candy即一手 | cancelled | laowantong | 口径落 #626 执行报告，随其终审 | #626 配套 | `60_feedback/tasks/task_20260903_laowantong-626-source-anchor-fix.md` | 老朱09-03直令「找原稿深挖」；王语嫣查实原稿在库；E047边界：修订单不传裁决 |
 | 631 | `task_20260903_huangyaoshi-orphan-backup-source-hunt` | 孤儿backup触发源追查（01:38非节拍收走在制品）+探针非节拍检测信号+守卫SKIPPED接第十信号 | reviewed | huangyaoshi | 触发源结论+探针信号实证 | #628 reviewed 后 | `60_feedback/tasks/task_20260903_huangyaoshi-orphan-backup-source-hunt.md` | 黄药师建议书（09-03王语嫣裁定）；欧阳锋终审 |
@@ -1104,6 +1105,8 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~prop_20260904_ouyangfeng-production-negative-assertion-existence-check.md｜09-04 22:27｜待王语嫣复核裁定~~ → 已裁定（09-04 22:40 王语嫣）：挂账 F-077
 - ~~[gate-blocked] infra-liveness｜09-04 23:47｜待王语嫣复核处置｜2026-09-04 23:37:00｜infra-liveness｜基建停拍报警｜graph-index｜陈旧（落后 search_index 48h，阈值 48h）｜conveyor_probe~~ → 划销（09-05 00:08 王语嫣）：回声
 - ~~[gate-blocked] infra-liveness｜09-05 00:17｜待王语嫣复核处置｜2026-09-05 00:07:00｜infra-liveness｜基建停拍报警｜graph-index｜陈旧（落后 search_index 49h，阈值 48h）｜conveyor_probe~~ → 划销（09-05 00:38 王语嫣）：回声
+- [gate-blocked] infra-liveness｜09-05 01:17｜待王语嫣复核处置｜2026-09-05 01:07:00｜infra-liveness｜基建停拍报警｜graph-index｜陈旧（落后 search_index 50h，阈值 48h）｜conveyor_probe
+- [gate-blocked] task_20260904_laowantong-qingdanti-scoring-rubric｜09-05 01:17｜待王语嫣复核处置｜2026-09-05 01:15:30｜task_20260904_laowantong-qingdanti-scoring-rubric｜F-034-五字段｜--evidence 文件不可读: rubric.md六维0-2分锚点+档线落skill目录；SKILL.md v1.1两步法定位+Step5 rubric自检门禁；manifest 1.1.0；Li｜laowantong
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
