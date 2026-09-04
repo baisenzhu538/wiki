@@ -1078,6 +1078,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~[gate-blocked] role-liveness｜09-04 16:17｜待王语嫣复核处置｜2026-08-27 19:07:01｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 732.6)]）｜role_registry check-liveness｜role_registry~~ → 划销（09-04 17:08 王语嫣）：回声（#636 已 reviewed）
 - ~~[gate-blocked] task_20260904_huangyaoshi-probe-dedup-event-identity｜09-04 16:57｜待王语嫣复核处置｜2026-09-04 16:50:37｜task_20260904_huangyaoshi-probe-dedup-event-identity｜F-035-负向判词｜意见书含负向断言（丢失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋~~ → 划销（09-04 17:08 王语嫣）：回声（#636 已 reviewed）
 - ~~[gate-blocked] task_20260903_laowantong-live261-protracted-war-cards｜09-04 17:07｜待王语嫣复核处置｜2026-09-03 20:31:30｜task_20260903_laowantong-live261-protracted-war-cards｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生 / - 未提交改动: 30_wiki/cases/case-live261-lixiuhui-compound-bo｜laowantong~~ → 划销（09-04 17:08 王语嫣）：回声（#636 已 reviewed）
+- ~~[gate-blocked] role-liveness｜09-04 17:17｜待王语嫣复核处置｜2026-08-27 17:42:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 633.1), ('cli', 482.1)]）｜role_registry check-liveness｜role_registry~~ → 划销（09-04 17:38 王语嫣）：回声
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
