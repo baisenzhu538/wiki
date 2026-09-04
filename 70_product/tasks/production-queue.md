@@ -270,7 +270,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 641 | `task_20260905_laowantong-private-board-majingjing-case` | 私董会实录卡组（马晶晶德扑决策营案）：5.1万字逐字稿W1逐字读+提炼件索引定位 | pending_review | laowantong | case1-2张+三方法记录+互链实证 | #640 后（同角色排队） | `60_feedback/tasks/task_20260905_laowantong-private-board-majingjing-case.md` | inbox值守拍分诊（P0双件）；私董会SOP实战样本互链；欧阳锋终审 |
 | 642 | `task_20260905_laowantong-641-depth-patch` | 修订单：#641 深度口径（真问题链进卡+暗知识3条成dk候选+SOP差异点+老朱归属口径） | queued | laowantong | 口径落#641执行报告随审 | #641 配套 | `60_feedback/tasks/task_20260905_laowantong-641-depth-patch.md` | 王语嫣深诊断补深（老朱09-05批编排深度）；E047边界传口径不改范围 |
 | 643 | `task_20260905_laowantong-qingdanti-stress-test-private-board` | 清单体skill压力测试：5.1万字私董会实录两步法全跑（深挖已就位→清单体整理+skill检验报告回答去留） | queued | laowantong | 笔记+检验报告+执行报告 | #640 后 | `60_feedback/tasks/task_20260905_laowantong-qingdanti-stress-test-private-board.md` | 老朱09-05检验设计（skill去留试金石）；F-077口径对账证据；欧阳锋终审 |
-| 644 | `task_20260905_ouyangfeng-recent-quality-rescan` | 近期入库质量回扫（08-28起~30张抽10）：暗知识含量/一等证据锚/方向价值三轴+不合格清单 | pending_review | ouyangfeng | 回扫报告+模式判词 | 无 | `60_feedback/tasks/task_20260905_ouyangfeng-recent-quality-rescan.md` | 老朱09-05「担心入库变垃圾」直令；只审不动笔；王语嫣复核落点 |
+| 644 | `task_20260905_ouyangfeng-recent-quality-rescan` | 近期入库质量回扫（08-28起~30张抽10）：暗知识含量/一等证据锚/方向价值三轴+不合格清单 | reviewed | ouyangfeng | 回扫报告+模式判词 | 无 | `60_feedback/tasks/task_20260905_ouyangfeng-recent-quality-rescan.md` | 老朱09-05「担心入库变垃圾」直令；只审不动笔；王语嫣复核落点 |
 | 639 | `task_20260904_huangyaoshi-qingdanti-into-production-spec` | 生产规范补清单体标准：工业化手册引用yt-note卡族+质检超长无分层WARNING提示 | reviewed | huangyaoshi | 手册diff+门禁提示+回归 | 无 | `60_feedback/tasks/task_20260904_huangyaoshi-qingdanti-into-production-spec.md` | 老朱09-04直令；只链不抄；欧阳锋终审 |
 | 630 | `task_20260903_laowantong-626-source-anchor-fix` | 修订单（传口径不改范围）：#626 素材锚升级——Live86对账以原稿为一等锚（00_inbox/龙虾员工实践/），Candy仅定位模版增量；Live77无原稿Candy即一手 | cancelled | laowantong | 口径落 #626 执行报告，随其终审 | #626 配套 | `60_feedback/tasks/task_20260903_laowantong-626-source-anchor-fix.md` | 老朱09-03直令「找原稿深挖」；王语嫣查实原稿在库；E047边界：修订单不传裁决 |
 | 631 | `task_20260903_huangyaoshi-orphan-backup-source-hunt` | 孤儿backup触发源追查（01:38非节拍收走在制品）+探针非节拍检测信号+守卫SKIPPED接第十信号 | reviewed | huangyaoshi | 触发源结论+探针信号实证 | #628 reviewed 后 | `60_feedback/tasks/task_20260903_huangyaoshi-orphan-backup-source-hunt.md` | 黄药师建议书（09-03王语嫣裁定）；欧阳锋终审 |
@@ -520,7 +520,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#639 task_20260904_huangyaoshi-qingdanti-into-production-spec｜huangyaoshi｜提审 09-04 21:31｜60_feedback/tasks/task_20260904_huangyaoshi-qingdanti-into-production-spec.md~~ → 已终审 PASS A-（2026-09-04 欧阳锋）
 - ~~#638 task_20260904_laowantong-transcript-to-qingdanti-skill｜laowantong｜提审 09-04 21:40｜60_feedback/tasks/task_20260904_laowantong-transcript-to-qingdanti-skill.md~~ → 已终审 PASS A-（2026-09-04 欧阳锋）
 - ~~#640 task_20260904_laowantong-qingdanti-scoring-rubric｜laowantong｜提审 09-05 01:15｜60_feedback/tasks/task_20260904_laowantong-qingdanti-scoring-rubric.md~~ → 已终审 PASS A-（2026-09-04 欧阳锋）
-- #644 task_20260905_ouyangfeng-recent-quality-rescan｜ouyangfeng｜提审 09-05 02:18｜60_feedback/tasks/task_20260905_ouyangfeng-recent-quality-rescan.md
+- ~~#644 task_20260905_ouyangfeng-recent-quality-rescan｜ouyangfeng｜提审 09-05 02:18｜60_feedback/tasks/task_20260905_ouyangfeng-recent-quality-rescan.md~~ → 已终审 PASS A-（2026-09-04 王语嫣）
 - #641 task_20260905_laowantong-private-board-majingjing-case｜laowantong｜提审 09-05 02:35｜60_feedback/tasks/task_20260905_laowantong-private-board-majingjing-case.md
 
 <!-- REVIEW-PENDING-END -->
@@ -1114,6 +1114,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~[friction] [shared] - [2026-09-05 01:35] laowantong｜09-05 01:27｜待王语嫣复核处置｜[shared] - [2026-09-05 01:35] laowantong｜#640 complete --evidence 第三次踩坑｜内联文本被拒（要文件路径），#638 21:50 已落过一次 friction-log 仍再犯=落盘≠肌肉记忆｜根因：固定姿势没进启动检查单｜处置：复盘元反思+技能进化日志双落「--evidence 永远传任务单路径」~~ → 划销（09-05 01:38 王语嫣）：老顽童 friction 已知悉（详情见下）
 - ~~[gate-blocked] role-liveness｜09-05 02:07｜待王语嫣复核处置｜2026-09-05 02:02:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 4326.7), ('cli', 46.3)]）｜role_registry check-liveness｜role_registry~~ → 划销（09-05 02:09 王语嫣）：回声
 - [gate-blocked] infra-liveness｜09-05 02:17｜待王语嫣复核处置｜2026-09-05 02:07:01｜infra-liveness｜基建停拍报警｜graph-index｜陈旧（落后 search_index 51h，阈值 48h）｜conveyor_probe
+- [gate-blocked] task_20260905_laowantong-private-board-majingjing-case｜09-05 02:37｜待王语嫣复核处置｜2026-09-05 02:34:18｜task_20260905_laowantong-private-board-majingjing-case｜F-034-五字段｜--evidence 文件不可读: 6卡(1 case含真问题链+SOP差异点+3 dk+2人域dk)全入仓 commit 见 git log；四路自攻击6份落60_feedback/adversar｜laowantong
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |

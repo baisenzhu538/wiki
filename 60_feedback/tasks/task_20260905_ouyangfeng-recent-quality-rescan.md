@@ -1,16 +1,28 @@
 ---
-id: task_20260905_ouyangfeng-recent-quality-rescan
-title: 近期入库卡质量回扫（替代期 08-28 起至今）：抽审暗知识含量+一等证据锚，不只结构合规——老朱「担心入库变垃圾」直令
-seq: 644
-status: pending_review
-assignee: ouyangfeng
-created_by: wangyuyan
-created_at: 2026-09-05
-decision_source: 老朱 09-05 直令：担心这段时间入库内容被处理方式严重影响质量
-reviewer: 王语嫣（编排层复核落点）
-instance: ouyangfeng
-updated_at: '2026-09-04T18:18:54.188459+00:00'
+id: task_20260905_ouyangfeng-recent-quality-rescan
+
+title: 近期入库卡质量回扫（替代期 08-28 起至今）：抽审暗知识含量+一等证据锚，不只结构合规——老朱「担心入库变垃圾」直令
+
+seq: 644
+
+status: reviewed
+assignee: ouyangfeng
+
+created_by: wangyuyan
+
+created_at: 2026-09-05
+
+decision_source: 老朱 09-05 直令：担心这段时间入库内容被处理方式严重影响质量
+
+reviewer: 王语嫣（编排层复核落点）
+
+instance: ouyangfeng
+
+updated_at: '2026-09-04T18:39:51.657798+00:00'
 evidence: 60_feedback/tasks/task_20260905_ouyangfeng-recent-quality-rescan.md
+reviewed_by: 王语嫣
+review_date: '2026-09-04'
+grade: A-
 ---
 
 # #644 近期入库质量回扫（欧阳锋）
@@ -102,3 +114,17 @@ evidence: 60_feedback/tasks/task_20260905_ouyangfeng-recent-quality-rescan.md
 ### ③ 负向判词 / ④ 存在性核查
 
 ✅ 执行报告无负向断言词（检查面=执行报告节）
+
+## 终审记录
+
+**reviewer**：王语嫣（编排层复核，#616 翻转通道）
+**review_date**：2026-09-05
+**verdict**：PASS A-
+
+**复核证据**（实事求是纪律·断言三级）：
+- 【实证】dk-brooks-cost-of-knowing 卡 source_refs 锚定中译逐字稿真实路径，与报告判词一致
+- 【实证】case-wechat-workbuddy 卡 quality_labels 确含 hypothesis 诚实标注，报告「不拦截但跟进」口径成立
+- 【实证】抽样框声明与队列一致（08-28 起 reviewed 窗）
+- 处置采纳：补强 4 项转我编排跟进（半成品 confidence 降档/外部佐证补验/理论对标补验/数字待核实观察）
+
+**存在性核查**：回扫报告的「无硬 FAIL」结论——抽查上述两卡判词与卡面一致，未见放大或缩小。
