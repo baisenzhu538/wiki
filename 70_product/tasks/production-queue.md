@@ -268,7 +268,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 638 | `task_20260904_laowantong-transcript-to-qingdanti-skill` | 清单体生产skill（口述稿→清单体笔记）+Live261主件试跑交付老朱验收 | reviewed | laowantong | skill目录+试跑笔记+执行报告 | 无 | `60_feedback/tasks/task_20260904_laowantong-transcript-to-qingdanti-skill.md` | 老朱09-04直令立项（知行断裂修复）；不改变原意不创造内容；欧阳锋终审 |
 | 640 | `task_20260904_laowantong-qingdanti-scoring-rubric` | 清单体评分rubric化（段位图六维→可打分表）+skill v1.1（两步法定位+rubric自检门禁）+Live261试跑件复评 | reviewed | laowantong | rubric+skill diff+复评分数实证 | 无 | `60_feedback/tasks/task_20260904_laowantong-qingdanti-scoring-rubric.md` | 老朱09-04两步法定稿+评分规则令；欧阳锋终审 |
 | 641 | `task_20260905_laowantong-private-board-majingjing-case` | 私董会实录卡组（马晶晶德扑决策营案）：5.1万字逐字稿W1逐字读+提炼件索引定位 | reviewed | laowantong | case1-2张+三方法记录+互链实证 | #640 后（同角色排队） | `60_feedback/tasks/task_20260905_laowantong-private-board-majingjing-case.md` | inbox值守拍分诊（P0双件）；私董会SOP实战样本互链；欧阳锋终审 |
-| 642 | `task_20260905_laowantong-641-depth-patch` | 修订单：#641 深度口径（真问题链进卡+暗知识3条成dk候选+SOP差异点+老朱归属口径） | queued | laowantong | 口径落#641执行报告随审 | #641 配套 | `60_feedback/tasks/task_20260905_laowantong-641-depth-patch.md` | 王语嫣深诊断补深（老朱09-05批编排深度）；E047边界传口径不改范围 |
+| 642 | `task_20260905_laowantong-641-depth-patch` | 修订单：#641 深度口径（真问题链进卡+暗知识3条成dk候选+SOP差异点+老朱归属口径） | claimed-laowantong | laowantong | 口径落#641执行报告随审 | #641 配套 | `60_feedback/tasks/task_20260905_laowantong-641-depth-patch.md` | 王语嫣深诊断补深（老朱09-05批编排深度）；E047边界传口径不改范围 |
 | 643 | `task_20260905_laowantong-qingdanti-stress-test-private-board` | 清单体skill压力测试：5.1万字私董会实录两步法全跑（深挖已就位→清单体整理+skill检验报告回答去留） | queued | laowantong | 笔记+检验报告+执行报告 | #640 后 | `60_feedback/tasks/task_20260905_laowantong-qingdanti-stress-test-private-board.md` | 老朱09-05检验设计（skill去留试金石）；F-077口径对账证据；欧阳锋终审 |
 | 644 | `task_20260905_ouyangfeng-recent-quality-rescan` | 近期入库质量回扫（08-28起~30张抽10）：暗知识含量/一等证据锚/方向价值三轴+不合格清单 | reviewed | ouyangfeng | 回扫报告+模式判词 | 无 | `60_feedback/tasks/task_20260905_ouyangfeng-recent-quality-rescan.md` | 老朱09-05「担心入库变垃圾」直令；只审不动笔；王语嫣复核落点 |
 | 645 | `task_20260905_huangyaoshi-conversation-distill-pipeline` | 对话蒸馏管线：会话上下文→三层分流（外部知识/对老朱洞察/对他人洞察）+每日增量+原文锚红线 | claimed-huangyaoshi | huangyaoshi | 蒸馏器+三类样本+执行报告 | 无 | `60_feedback/tasks/task_20260905_huangyaoshi-conversation-distill-pipeline.md` | 老朱09-05长期机制；洞察分流口径王语嫣定；欧阳锋终审 |
@@ -534,34 +534,6 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 
 > 王语嫣维护看板时处理：诊断 → 写任务单 → 入队后把对应行划掉。编排规则不变，这里只解决「没人被通知」。
 
-- ~~00_inbox/学习candy合集/AI×知识管理 探索营内测 Candy-逐字稿.md｜P2｜27150B｜检测到 08-31 18:41｜待王语嫣编排~~ → 已处置（2026-09-01 09-01 03:05 王语嫣）：同源整理版重登记——探索营 Candy 已 01:01 诊断（knowledge-management/kdo 索引层，与根目录 16:41 版同源），本件=学习candy合集整理版，诊断沿用，不入编排；本目录=#586 施工素材面（老朱 0901 直令，老顽童 claimed 施工中），无需另立项
-- ~~00_inbox/学习candy合集/Live257：重讲十指讲香模型 内测 Candy-逐字稿.md｜P2｜131317B｜检测到 08-31 18:41｜待王语嫣编排~~ → 已处置（2026-09-01 09-01 03:05 王语嫣）：同源整理版重登记——Live257 已 01:01 诊断（拆书会/decision-making，《用数字讲故事》+十指讲香模型），诊断沿用，不入编排；本目录=#586 施工素材面（老朱 0901 直令，老顽童 claimed 施工中），无需另立项
-- ~~00_inbox/学习candy合集/Live260：AI口喷基本功内测 Candy-逐字稿.md｜P2｜36134B｜检测到 08-31 18:41｜待王语嫣编排~~ → 已处置（2026-09-01 09-01 03:05 王语嫣）：同源整理版重登记——Live260 已 01:01 诊断（ai-collaboration 口喷 Partner 原文层增量，自带传播限制），诊断沿用，不入编排；本目录=#586 施工素材面（老朱 0901 直令，老顽童 claimed 施工中），无需另立项
-- ~~00_inbox/学习candy合集/大卫·布鲁克斯：当代文化的3个主流谎言（TED）-视频逐字稿.md｜P2｜56103B｜检测到 08-31 18:41｜待王语嫣编排~~ → 已处置（2026-09-01 09-01 03:05 王语嫣）：同源整理版重登记——TED 主流谎言已 02:33 处置（BV1kp4y1v7p9 三采族同源派生，David Brooks 实证），诊断沿用，不入编排；本目录=#586 施工素材面（老朱 0901 直令，老顽童 claimed 施工中），无需另立项
-- ~~00_inbox/学习candy合集/大卫·布鲁克斯：芝大毕业演讲（求知是有代价的）-视频逐字稿.md｜P2｜33816B｜检测到 08-31 18:41｜待王语嫣编排~~ → 已处置（2026-09-01 09-01 03:05 王语嫣）：同源整理版重登记——芝大毕业演讲已 01:12/02:20 诊断（BV1rp4y1e76Y big 版为准，双采撞车族），诊断沿用，不入编排；本目录=#586 施工素材面（老朱 0901 直令，老顽童 claimed 施工中），无需另立项
-- ~~00_inbox/学习candy合集/尼尔·雷克汉姆：联结销售与营销（SPIN创始人）-视频逐字稿.md｜P2｜16894B｜检测到 08-31 18:41｜待王语嫣编排~~ → 已处置（2026-09-01 09-01 03:05 王语嫣）：同源整理版重登记——SPIN 访谈已 01:12 诊断（BV1JsgQzWEuD，sales 候选 ASR 差疑似管线测试流量；本件文件头自证同源 faster-whisper-small），诊断沿用，不入编排；本目录=#586 施工素材面（老朱 0901 直令，老顽童 claimed 施工中），无需另立项
-- ~~00_inbox/学习candy合集/translations/中译-大卫·布鲁克斯：芝大毕业演讲（求知是有代价的）-视频逐字稿.md｜P2｜31438B｜检测到 08-31 19:01｜待王语嫣编排~~ → 已处置（2026-09-01 03:35 王语嫣）：#586 Wave0 翻译施工产物（文件头自证「中译：2026-09-01 王语嫣编排」，三件=芝大/SPIN/TED主流谎言中译稿，对应 big 版逐字稿已 01:12/02:33 诊断在册），施工产物非新素材，不入编排；原文不动
-- ~~00_inbox/学习candy合集/translations/中译-尼尔·雷克汉姆：联结销售与营销（SPIN创始人）-视频逐字稿.md｜P2｜14353B｜检测到 08-31 19:01｜待王语嫣编排~~ → 已处置（2026-09-01 03:35 王语嫣）：#586 Wave0 翻译施工产物（文件头自证「中译：2026-09-01 王语嫣编排」，三件=芝大/SPIN/TED主流谎言中译稿，对应 big 版逐字稿已 01:12/02:33 诊断在册），施工产物非新素材，不入编排；原文不动
-- ~~00_inbox/学习candy合集/translations/中译-大卫·布鲁克斯：当代文化的3个主流谎言（TED）-视频逐字稿.md｜P2｜50158B｜检测到 08-31 19:11｜待王语嫣编排~~ → 已处置（2026-09-01 03:35 王语嫣）：#586 Wave0 翻译施工产物（文件头自证「中译：2026-09-01 王语嫣编排」，三件=芝大/SPIN/TED主流谎言中译稿，对应 big 版逐字稿已 01:12/02:33 诊断在册），施工产物非新素材，不入编排；原文不动
-- ~~00_inbox/泡泡玛特的拆解/拆书会第218期《因为独特》· 精华提炼.md｜P2｜10715B｜检测到 09-01 15:11｜待王语嫣编排~~ → 已诊断+立项 #596（2026-09-02 00:02 王语嫣）：域归属=strategy/拆书会系列——李翔《因为独特》泡泡玛特王宁精华提炼件（段王爷转述层）；已有卡仅覆盖招股书毛利率+盲盒机制，本书增量=长期主义经营/减宽加深/满足感×存在感/品牌包裹感，不撞车；按 0831/0901 老朱直令直接编排立项 4 卡（#596 老顽童）；原文不动
-- ~~00_inbox/AI知识管理探索营内测Candy-逐字稿.md｜P2｜27496B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：观察不立项——增量与族B学习candy合集重叠（diag_20260902_wangyuyan-inbox-batch-42），族B入库后复评
-- ~~00_inbox/AI知识管理探索营内测Candy_v5.json｜P2｜45371B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：同源数据附件随观察
-- ~~00_inbox/Live257-重讲十指讲香模型内测Candy-逐字稿.md｜P2｜131798B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：已立项 #610（十指讲香卡组）
-- ~~00_inbox/Live257-重讲十指讲香模型内测Candy_v5.json｜P2｜204123B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：同源数据附件随 #610
-- ~~00_inbox/Live260-AI口喷基本功内测candy-逐字稿.md｜P2｜36201B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：同源沿用——09-01 01:01 已诊（ai-collaboration 口喷 Partner，传播限制），不入编排
-- ~~00_inbox/Live260-AI口喷基本功内测candy_v5.json｜P2｜41971B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：同源附件沿用同上
-- ~~00_inbox/pending-cards/case-wechat-article_1a718b23df7e860b.md｜P2｜3900B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：双采族（F-065 活样本）——与 832f2544 同 title《重构协同》，本版缺作者出处，划销不入库；不删除（00_inbox 只增不删）
-- ~~00_inbox/pending-cards/case-wechat-article_832f2544fc7bb16a.md｜P2｜3760B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：双采族留候选——同 title 双采中信息更完整版（含作者书牧/淘天出处），待 F-065 去重机制落地后定夺
-- ~~00_inbox/video_transcripts/BV1JsgQzWEuD-逐字稿.md｜P2｜15760B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：同源沿用——09-01 已诊（BV 族：TED主流谎言/芝大毕业演讲/SPIN），不入编排
-- ~~00_inbox/video_transcripts/BV1kp4y1v7p9_p1-逐字稿.md｜P2｜18179B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：同源沿用——09-01 已诊（BV 族：TED主流谎言/芝大毕业演讲/SPIN），不入编排
-- ~~00_inbox/video_transcripts/BV1kp4y1v7p9_p2-逐字稿.md｜P2｜16794B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：同源沿用——09-01 已诊（BV 族：TED主流谎言/芝大毕业演讲/SPIN），不入编排
-- ~~00_inbox/video_transcripts/BV1kp4y1v7p9_p3-逐字稿.md｜P2｜18179B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：同源沿用——09-01 已诊（BV 族：TED主流谎言/芝大毕业演讲/SPIN），不入编排
-- ~~00_inbox/video_transcripts/BV1rp4y1e76Y-逐字稿.md｜P2｜30332B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：同源沿用——09-01 已诊（BV 族：TED主流谎言/芝大毕业演讲/SPIN），不入编排
-- ~~00_inbox/video_transcripts/BV1ug411i7bH-逐字稿.md｜P2｜30515B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：同源沿用——09-01 已诊（BV 族：TED主流谎言/芝大毕业演讲/SPIN），不入编排
-- ~~00_inbox/video_transcripts/BV1wb9XBXEGb-逐字稿.md｜P2｜63363B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：同源沿用——09-01 已诊（BV 族：TED主流谎言/芝大毕业演讲/SPIN），不入编排
-- ~~00_inbox/video_transcripts_small/BV1JsgQzWEuD-逐字稿.md｜P2｜16657B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：F-065 双采族 small 重转写派生，诊断沿用不入编排
-- ~~00_inbox/video_transcripts_small/BV1kp4y1v7p9_p1-逐字稿.md｜P2｜18397B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：F-065 双采族 small 重转写派生，诊断沿用不入编排
-- ~~00_inbox/video_transcripts_small/BV1kp4y1v7p9_p2-逐字稿.md｜P2｜18789B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：F-065 双采族 small 重转写派生，诊断沿用不入编排
 - ~~00_inbox/video_transcripts_small/BV1kp4y1v7p9_p3-逐字稿.md｜P2｜18397B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：F-065 双采族 small 重转写派生，诊断沿用不入编排
 - ~~00_inbox/video_transcripts_small/BV1rp4y1e76Y-逐字稿.md｜P2｜34305B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：F-065 双采族 small 重转写派生，诊断沿用不入编排
 - ~~00_inbox/video_transcripts_small/BV1ug411i7bH-逐字稿.md｜P2｜33578B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：F-065 双采族 small 重转写派生，诊断沿用不入编排
@@ -654,6 +626,34 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~00_inbox/pending-cards/distill-human-20260905-06.md｜P2｜1025B｜检测到 09-04 19:21｜待王语嫣编排~~ → 已处置（09-05 03:36 王语嫣）：#645 蒸馏器试跑样本，随 #645 终审+我门禁复核
 - ~~00_inbox/pending-cards/distill-human-20260905-07.md｜P2｜1097B｜检测到 09-04 19:21｜待王语嫣编排~~ → 已处置（09-05 03:36 王语嫣）：#645 蒸馏器试跑样本，随 #645 终审+我门禁复核
 - ~~00_inbox/pending-cards/distill-human-20260905-08.md｜P2｜1130B｜检测到 09-04 19:21｜待王语嫣编排~~ → 已处置（09-05 03:36 王语嫣）：#645 蒸馏器试跑样本，随 #645 终审+我门禁复核
+- 00_inbox/pending-cards/distill-external-20260905-01.md｜P2｜1057B｜检测到 09-04 20:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-02.md｜P2｜1106B｜检测到 09-04 20:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-03.md｜P2｜1058B｜检测到 09-04 20:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-04.md｜P2｜1006B｜检测到 09-04 20:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-05.md｜P2｜1075B｜检测到 09-04 20:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-06.md｜P2｜1147B｜检测到 09-04 20:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-07.md｜P2｜1076B｜检测到 09-04 20:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-08.md｜P2｜1128B｜检测到 09-04 20:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-09.md｜P2｜1193B｜检测到 09-04 20:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-10.md｜P2｜1047B｜检测到 09-04 20:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-11.md｜P2｜1145B｜检测到 09-04 20:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-12.md｜P2｜1215B｜检测到 09-04 20:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-13.md｜P2｜1123B｜检测到 09-04 20:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-14.md｜P2｜1212B｜检测到 09-04 20:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-15.md｜P2｜1165B｜检测到 09-04 20:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-16.md｜P2｜1015B｜检测到 09-04 20:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-17.md｜P2｜1091B｜检测到 09-04 20:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-18.md｜P2｜1111B｜检测到 09-04 20:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-19.md｜P2｜1055B｜检测到 09-04 20:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-20.md｜P2｜1078B｜检测到 09-04 20:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-21.md｜P2｜1195B｜检测到 09-04 20:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-22.md｜P2｜1173B｜检测到 09-04 20:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-23.md｜P2｜1165B｜检测到 09-04 20:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-24.md｜P2｜1177B｜检测到 09-04 20:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-25.md｜P2｜1214B｜检测到 09-04 20:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-26.md｜P2｜1088B｜检测到 09-04 20:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-human-20260905-01.md｜P2｜1116B｜检测到 09-04 20:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-human-20260905-02.md｜P2｜1078B｜检测到 09-04 20:21｜待王语嫣编排
 
 <!-- INBOX-PENDING-END -->
 
@@ -1127,6 +1127,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~[gate-blocked] infra-liveness｜09-05 03:17｜待王语嫣复核处置｜2026-09-05 03:07:01｜infra-liveness｜基建停拍报警｜graph-index｜陈旧（落后 search_index 52h，阈值 48h）｜conveyor_probe~~ → 划销（09-05 03:36 王语嫣）：回声
 - ~~[gate-blocked] task_20260905_huangyaoshi-conversation-distill-pipeline｜09-05 03:27｜待王语嫣复核处置｜2026-09-05 03:22:35｜task_20260905_huangyaoshi-conversation-distill-pipeline｜F-034-五字段｜--evidence 文件不可读: 蒸馏器 conversation_distill.py+计划任务 kdo-conversation-distill(23:50 S4U)+试跑 SUMMARY ex｜huangyaoshi~~ → 划销（09-05 03:36 王语嫣）：回声
 - [friction] [shared] - 2026-09-05 03:28 | huangyaoshi | #645 提审 | E040 交付物入仓门禁 vs gitignore 铁律（00_inbox 不进 git）冲突：候选卡样本落 00_inbox 无法 commit，门禁硬拦，只能改写交付物节措辞绕行 | 门禁缺「gitignore 豁免」分支，建议加 _git_ignored 判定自动转 WARNING｜09-05 03:37｜待王语嫣复核处置｜[shared] - 2026-09-05 03:28 | huangyaoshi | #645 提审 | E040 交付物入仓门禁 vs gitignore 铁律（00_inbox 不进 git）冲突：候选卡样本落 00_inbox 无法 commit，门禁硬拦，只能改写交付物节措辞绕行 | 门禁缺「gitignore 豁免」分支，建议加 _git_ignored 判定自动转 WARNING
+- [gate-blocked] infra-liveness｜09-05 04:17｜待王语嫣复核处置｜2026-09-05 04:07:03｜infra-liveness｜基建停拍报警｜graph-index｜陈旧（落后 search_index 53h，阈值 48h）｜conveyor_probe
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |

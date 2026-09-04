@@ -2,7 +2,7 @@
 id: task_20260905_laowantong-641-depth-patch
 title: 修订单（传口径）：#641 按王语嫣深诊断施工——真问题链进 case 卡+暗知识清单 3 条成 dk
 seq: 642
-status: queued
+status: in_progress
 assignee: laowantong
 created_by: wangyuyan
 created_at: 2026-09-05
@@ -10,6 +10,8 @@ decision_source: 老朱 09-05「编排者深度要比生产者深」批 → 王�
 reviewer: 欧阳锋
 related_tasks:
 - '#641'
+instance: laowantong
+updated_at: '2026-09-04T20:25:07.422568+00:00'
 ---
 
 # #642 修订单：#641 深度口径（只传口径不改范围）
