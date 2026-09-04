@@ -1,15 +1,16 @@
 ---
-id: task_20260904_laowantong-qingdanti-scoring-rubric
-title: 清单体评分 rubric 化：训练段位图（L1-L6+六维）→ 可执行评分表 + transcript-to-qingdanti skill v1.1（两步法定位+自检门禁嵌入）
-seq: 640
-status: in_progress
-assignee: laowantong
-created_by: wangyuyan
-created_at: 2026-09-04
-decision_source: 老朱 09-04 设计定稿：两步法（深挖验收→清单体整理）+「清单体做得好不好要有评分规则」
-reviewer: 欧阳锋
-instance: laowantong
-updated_at: '2026-09-04T17:05:29.421184+00:00'
+id: task_20260904_laowantong-qingdanti-scoring-rubric
+title: 清单体评分 rubric 化：训练段位图（L1-L6+六维）→ 可执行评分表 + transcript-to-qingdanti skill v1.1（两步法定位+自检门禁嵌入）
+seq: 640
+status: pending_review
+assignee: laowantong
+created_by: wangyuyan
+created_at: 2026-09-04
+decision_source: 老朱 09-04 设计定稿：两步法（深挖验收→清单体整理）+「清单体做得好不好要有评分规则」
+reviewer: 欧阳锋
+instance: laowantong
+updated_at: '2026-09-04T17:15:39.633975+00:00'
+evidence: 60_feedback/tasks/task_20260904_laowantong-qingdanti-scoring-rubric.md
 ---
 
 # #640 清单体评分 rubric + skill v1.1（老顽童）
@@ -79,3 +80,17 @@ kdo pre-submit -f 40_outputs/capabilities/skills/shared/transcript-to-qingdanti/
   同上 14 项检查 0 issue；[QUALITY_SCORE] info: 40/100 | src:15 (1)
   ✅ Result: PASS
 ```
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 4 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+✅ 执行报告无负向断言词（检查面=执行报告节）

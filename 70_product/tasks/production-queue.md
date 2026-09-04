@@ -266,7 +266,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 636 | `task_20260904_huangyaoshi-probe-dedup-event-identity` | #635返工：探针去重键改按事件身份（划销改写行文本致匹配失效，15:17复发实证） | reviewed | huangyaoshi | diff+复发阻断实证 | 无 | `60_feedback/tasks/task_20260904_huangyaoshi-probe-dedup-event-identity.md` | 王语嫣值守拍复发实证退回；欧阳锋终审 |
 | 637 | `task_20260904_huangyaoshi-liveness-reregister-fix` | liveness陈旧事件重登记修根：role-clock路径告警去重（事件身份）+#635有单才报实效核查（17:17/17:47复发实证） | reviewed | huangyaoshi | diff+两拍零重登+真报警实证 | 无 | `60_feedback/tasks/task_20260904_huangyaoshi-liveness-reregister-fix.md` | 王语嫣值守拍复发退回（#635/636族第三刀）；欧阳锋终审 |
 | 638 | `task_20260904_laowantong-transcript-to-qingdanti-skill` | 清单体生产skill（口述稿→清单体笔记）+Live261主件试跑交付老朱验收 | reviewed | laowantong | skill目录+试跑笔记+执行报告 | 无 | `60_feedback/tasks/task_20260904_laowantong-transcript-to-qingdanti-skill.md` | 老朱09-04直令立项（知行断裂修复）；不改变原意不创造内容；欧阳锋终审 |
-| 640 | `task_20260904_laowantong-qingdanti-scoring-rubric` | 清单体评分rubric化（段位图六维→可打分表）+skill v1.1（两步法定位+rubric自检门禁）+Live261试跑件复评 | claimed-laowantong | laowantong | rubric+skill diff+复评分数实证 | 无 | `60_feedback/tasks/task_20260904_laowantong-qingdanti-scoring-rubric.md` | 老朱09-04两步法定稿+评分规则令；欧阳锋终审 |
+| 640 | `task_20260904_laowantong-qingdanti-scoring-rubric` | 清单体评分rubric化（段位图六维→可打分表）+skill v1.1（两步法定位+rubric自检门禁）+Live261试跑件复评 | pending_review | laowantong | rubric+skill diff+复评分数实证 | 无 | `60_feedback/tasks/task_20260904_laowantong-qingdanti-scoring-rubric.md` | 老朱09-04两步法定稿+评分规则令；欧阳锋终审 |
 | 641 | `task_20260905_laowantong-private-board-majingjing-case` | 私董会实录卡组（马晶晶德扑决策营案）：5.1万字逐字稿W1逐字读+提炼件索引定位 | queued | laowantong | case1-2张+三方法记录+互链实证 | #640 后（同角色排队） | `60_feedback/tasks/task_20260905_laowantong-private-board-majingjing-case.md` | inbox值守拍分诊（P0双件）；私董会SOP实战样本互链；欧阳锋终审 |
 | 639 | `task_20260904_huangyaoshi-qingdanti-into-production-spec` | 生产规范补清单体标准：工业化手册引用yt-note卡族+质检超长无分层WARNING提示 | reviewed | huangyaoshi | 手册diff+门禁提示+回归 | 无 | `60_feedback/tasks/task_20260904_huangyaoshi-qingdanti-into-production-spec.md` | 老朱09-04直令；只链不抄；欧阳锋终审 |
 | 630 | `task_20260903_laowantong-626-source-anchor-fix` | 修订单（传口径不改范围）：#626 素材锚升级——Live86对账以原稿为一等锚（00_inbox/龙虾员工实践/），Candy仅定位模版增量；Live77无原稿Candy即一手 | cancelled | laowantong | 口径落 #626 执行报告，随其终审 | #626 配套 | `60_feedback/tasks/task_20260903_laowantong-626-source-anchor-fix.md` | 老朱09-03直令「找原稿深挖」；王语嫣查实原稿在库；E047边界：修订单不传裁决 |
@@ -516,6 +516,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#637 task_20260904_huangyaoshi-liveness-reregister-fix｜huangyaoshi｜提审 09-04 20:20｜60_feedback/tasks/task_20260904_huangyaoshi-liveness-reregister-fix.md~~ → 已终审 PASS A-（2026-09-04 欧阳锋）
 - ~~#639 task_20260904_huangyaoshi-qingdanti-into-production-spec｜huangyaoshi｜提审 09-04 21:31｜60_feedback/tasks/task_20260904_huangyaoshi-qingdanti-into-production-spec.md~~ → 已终审 PASS A-（2026-09-04 欧阳锋）
 - ~~#638 task_20260904_laowantong-transcript-to-qingdanti-skill｜laowantong｜提审 09-04 21:40｜60_feedback/tasks/task_20260904_laowantong-transcript-to-qingdanti-skill.md~~ → 已终审 PASS A-（2026-09-04 欧阳锋）
+- #640 task_20260904_laowantong-qingdanti-scoring-rubric｜laowantong｜提审 09-05 01:15｜60_feedback/tasks/task_20260904_laowantong-qingdanti-scoring-rubric.md
 
 <!-- REVIEW-PENDING-END -->
 
