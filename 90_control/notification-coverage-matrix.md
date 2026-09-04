@@ -40,6 +40,7 @@
 | 27 | graph_index 空目录/0 records/陈旧超 48h | conveyor_probe 第十一信号 `_scan_graph_index_health`（空目录/缺失→报；graphml `<node` 字节扫描 0 节点→报；陈旧口径=graphml mtime 落后 search_index.json 超 48h——#356 双索引同步语义，规避手动重建节奏的绝对时间误报；沿触发幂等，恢复重新武装，原因切换重报；只告警不动作） | 并入第九信号 infra_alerts 通道：gate-blocked.log 台账 + 推王语嫣 | 王语嫣 | defer（同第九信号口径，台账恒写） | #622（08-31 事故清空 graph_index 语义腿空转 2 天无人发现；「修完没加哨兵=同类事故必再发」#357/#358 模式闭环） |
 | 28 | 非节拍 backup commit（孤儿写手）+ 守卫跳拍误报停拍 | conveyor_probe 第十二信号 `_scan_offbeat_backup`（3h 窗内 `vault backup:` commit 距节拍格 :20/:50 超 ±10min → 报；沿触发幂等，全窗干净重新武装）+ 第十信号 `_scan_backup_stall` 口径细化（commit 超窗但守卫 SKIPPED 行在窗内 = #628 主动跳拍=健康，不报停拍；SKIPPED 也超窗则照报——守卫不能成停拍遮羞布） | 并入第九信号 infra_alerts 通道：gate-blocked.log 台账 + 推王语嫣 | 王语嫣 | defer（同第九信号口径，台账恒写） | #631（01:38 非节拍孤儿 commit 545bd0f5a 收走 #628 在制品；触发源锁定=obsidian-git 插件 auto backup 10min 同文模板，走自带 git 通道绕开 #628 守卫；信号上线真机首拍即现行：窗内 5 个非节拍 commit） |
 | 29 | 产卡超长无分层段落（清单体结构缺失） | kdo pre-submit `_check_qingdanti_structure`（#639：连续散文化段落 ≥8 行 / 单段 ≥400 字 → 提醒按清单体标准重组，跳过代码围栏，只向前生效不回扫存量） | pre-submit WARNING（提审输出可见，不拦截） | 生产者 | — | #639（清单体方法论在库但生产规范零引用的知行断裂修复；规范层=工业化手册 §12.2.1，方法论锚 yt-note 卡族只链不抄） |
+| 30 | 对话蒸馏每日运行结果 | conversation_distill（#645：计划任务 kdo-conversation-distill 每日 23:50 独立批次） | 无推送——落盘即交付：logs/conversation-distill-*.log + pending-cards 候选（走行 9 inbox 素材通道被王语嫣拾取过门禁）+ personal-os 追加；LLM 失败/锚校验丢弃计数写日志 | 王语嫣（经既有 inbox 通道）/ 黄药师（日志） | — | #645（老朱 09-05 长期机制；不新增推送通道，复用行 9 既有扫描面 pending-cards 白名单） |
 
 ## 缺口台账
 

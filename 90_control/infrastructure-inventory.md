@@ -25,7 +25,7 @@ audience: 全体 agent
 | 工具族 | 42 | 🟢 | conveyor_probe/胶囊/采集/lint/备份/拉起 工具（kdo-tools + 90_control/scripts 核心常驻，#627 补登记后重计） |
 | 一次性修复批 | 28 | 🟡 | fix-*/repair-*（历史遗留待归档，#488 只标注不清理） |
 | 服务 | 2 | 🟢 | hermes gateway（多实例）/ wx_video_download |
-| 计划任务 | 12 | 🟢 | conveyor(×2)/inbox-watch(×2)/role-clock/l1-capture/l1-archive/health-daily/health-check/quality-metrics/daily-audit-digest/wechat-link-monitor——**08-27 全部转 S4U 会话 0 无窗运行**（原 Interactive 每次触发弹黑框干扰桌面，老朱反馈后王语嫣转换+实跑验证 exit 0；今后新建计划任务硬纪律：LogonType 必须 S4U，禁 Interactive） |
+| 计划任务 | 13 | 🟢 | conveyor(×2)/inbox-watch(×2)/role-clock/l1-capture/l1-archive/health-daily/health-check/quality-metrics/daily-audit-digest/wechat-link-monitor/conversation-distill——**08-27 全部转 S4U 会话 0 无窗运行**（原 Interactive 每次触发弹黑框干扰桌面，老朱反馈后王语嫣转换+实跑验证 exit 0；今后新建计划任务硬纪律：LogonType 必须 S4U，禁 Interactive） |
 | 数据资产 | 8 | 🟢 | L1 库+镜像+全量/索引/台账/基线 |
 | 基线/轴文件 | 5 | 🟢 | tags-vocab 轴/role-routes/rescan-baseline 等 |
 
@@ -72,6 +72,7 @@ audience: 全体 agent
 | island_scan | kdo-tools/island_scan.py | 孤岛卡扫描（#528：双无卡清单 json+md 按域分组，WARNING 制不拦流转） | 08-26 4 例 passed | health-check/60_feedback/auto/island-cards |
 | check-vlm-two-section | 90_control/scripts/check-vlm-two-section.py | VLM/OCR 卡两段式存量扫描（#540：合规计数+缺隔离清单） | 08-26 2 例 passed | health-check/schemas/vlm-two-section.md |
 | scan_skills_registry | 40_outputs/code/scripts/scan_skills_registry.py | Skill 目录+挂载矩阵扫描生成（#588：INDEX.md + MOUNT-MATRIX.md 生成物；--check 新鲜度门禁 stale→exit 1；登记制=文件引用即挂载） | 09-01 73/73 fresh | infra-status skills-registry 行；登记维护归 Skills 助理（#587 分工表） |
+| conversation_distill | kdo-tools/conversation_distill.py + kdo-conversation-distill.cmd/.xml | 对话蒸馏管线（#645 老朱 09-05 长期机制：kimi wire/headless/hermes 三源抽取→三层分流蒸馏 external→pending-cards / zhu→personal-os / human→pending-cards；增量游标 .kdo/conversation_distill_state.json；原文锚红线=quote 子串强校验，不过即弃） | 09-05 试跑 09-02~05 出三类样本 | 计划任务 kdo-conversation-distill/矩阵行 30/zhu-conversation-insights.md |
 | pre_review | 90_control/scripts/pre_review.py | 机器预审管线（#515：差集/lint/负向判词/存在性核查四判据，报告随提审附任务单，参考层不放行不拦截） | 08-26 6 例 passed | queue_transition complete 内嵌调用 |
 | token_meter | kdo-tools/token_meter.py | 全厂 token 计量（#549：claude/kimi jsonl 偏移增量 + hermes state.db 会话差值 → 日汇总落 60_feedback/analytics/ + 事件层 token_usage；不回溯历史，首日引导只计当日） | 08-27 7 例 passed | 挂 kdo-health-daily（02:07）/60_feedback/analytics/token-usage-*.md |
 | on_duty | kdo-tools/on_duty.py | 在岗判定共享模块（#550：事件库近30min非机器事件 OR L1 当日新文件 → 在岗；双信号不可得默认激活；conveyor_probe/watch_inbox 同一判定源） | 08-27 6 例 passed | conveyor_probe/watch_inbox 通知静默判定 |
@@ -178,6 +179,7 @@ audience: 全体 agent
 | kdo-l1-archive | 每日 06:00 | L1 旧天日期目录 zip 归档（核验覆盖才删目录 #508） | l1_capture --archive |
 | kdo-quality-metrics | 每周一 06:35 | 质量指标周报（上周一~周日，#514 阶段 0 纯统计） | quality_metrics |
 | kdo-daily-review | 每日 23:37 | 四主力每日复盘计划任务化（#623：三角色 headless 复盘拉起+空班豁免 F-062；与 backup 30min 节拍错开；S4U 无窗硬纪律） | daily_review（经 kimi-headless-launch 拉起；laowantong/huangyaoshi/ouyangfeng） |
+| kdo-conversation-distill | 每日 23:50 | 对话蒸馏每日增量批次（#645 老朱 09-05 长期机制：三层分流+原文锚红线；S4U 无窗；与 daily-review 23:37 错开） | conversation_distill（kdo-conversation-distill.cmd 包装） |
 
 **L1 断流判读口径（#513 落档，08-25 黄药师核查闭环）**：判读某源「断流」前必须三对照——①该源 sessions 存储目录在窗口期是否有 mtime 活动（无活动=正常空转，非断流）；②检查时刻距会话启动是否 <30min 采集节拍（节拍内未采到属正常滞后）；③kdo-l1-capture 各拍是否在 `90_control/l1-size.log` 连续在跑。kimi 源实证：CLI 活跃期间 wire.jsonl/state.json/logs 实时写盘（非退出才写），采集路径 `~/.kimi-code` 全目录覆盖 sessions/ 无缺口；08-24「7.5h 断流」实为无活动窗口+节拍内检查的复合误判（zip 内 workspaces.json=23:39 版本实证 00:07 拍已采到）。
 
