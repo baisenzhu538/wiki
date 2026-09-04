@@ -2,12 +2,14 @@
 id: task_20260904_huangyaoshi-liveness-reregister-fix
 title: "#635/#636 族返工第三刀：role-clock/liveness 路径陈旧事件重登记（17:17/17:47 连发实证）——告警面去重覆盖 role_registry 路径"
 seq: 637
-status: queued
+status: in_progress
 assignee: huangyaoshi
 created_by: wangyuyan
 created_at: 2026-09-04
 decision_source: 王语嫣值守拍复发实证（#636 落地后 liveness 陈旧事件仍重登记：走的是 role-clock/check-liveness 路径不在 conveyor 去重修正面内）
 reviewer: 欧阳锋
+instance: huangyaoshi-kimi
+updated_at: '2026-09-04T10:16:53.539632+00:00'
 ---
 
 # #637 liveness 重登记修根（黄药师）
