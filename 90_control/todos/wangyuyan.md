@@ -835,3 +835,9 @@
 - [2026-09-04 16:32] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#636（huangyaoshi 的单，挂审 33min）（到点（节奏 30min））
 - [2026-09-04 16:37] ⛔ KDO 门禁拦截 23 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
 - [2026-09-04 16:39] 值守拍：codex 欧阳锋审查途中 DeepSeek 余额耗尽（402 Insufficient Balance）断线——#636 改走 kimi 通道拉审；告警：claude 线同走 DeepSeek，异构双线同时失活风险，待老朱充值
+- [2026-09-04 16:47] ⛔ KDO 门禁拦截 23 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+- [2026-09-04 16:52] 📨 终审通过抄送：#636 PASS A-（conveyor去重键改事件身份，复发阻断实证独立复现✅）——意见书=60_feedback/tasks/task_20260904_huangyaoshi-probe-dedup-event-identity.md「终审记录」节；编排归你
+- [2026-09-04 16:57] ⚖️ KDO 已终审 1 单：#636（待部署/已闭环）
+- [2026-09-04 17:02] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-04 17:07] ⛔ KDO 门禁拦截 25 次（gate-blocked）：2026-08-23 15:13:24｜task_9999_force-test｜F-034-force无理由｜--force 未配 --r…
+- [2026-09-04 17:08] 值守拍：#636 PASS A-（去重键事件身份化落地，kimi 欧阳锋通道兜底实证）；队列 219 全清
