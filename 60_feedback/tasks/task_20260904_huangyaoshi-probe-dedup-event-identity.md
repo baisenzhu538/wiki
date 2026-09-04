@@ -2,12 +2,14 @@
 id: task_20260904_huangyaoshi-probe-dedup-event-identity
 title: "#635 返工：conveyor 陈旧事件去重键改按事件身份（行文本被划销改写后匹配失效，15:17 复发实证）"
 seq: 636
-status: queued
+status: in_progress
 assignee: huangyaoshi
 created_by: wangyuyan
 created_at: 2026-09-04
 decision_source: "#635 PASS A- 后复发实证：08-27 陈旧 liveness 事件 14:47/15:17 继续重登记——王语嫣值守拍触发退回"
 reviewer: 欧阳锋
+instance: huangyaoshi-kimi
+updated_at: '2026-09-04T07:47:07.121628+00:00'
 ---
 
 # #636 探针去重键修根（黄药师，#635 返工）
