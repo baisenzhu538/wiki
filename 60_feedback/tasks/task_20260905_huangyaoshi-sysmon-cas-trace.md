@@ -2,14 +2,14 @@
 id: task_20260905_huangyaoshi-sysmon-cas-trace
 title: C:\Sysmon 59G 内容寻址存储溯源与处置（已冻结改名止血；09-01 11:34 生，正值 #592 备份施工窗口）
 seq: 646
-status: in_progress
+status: queued
 assignee: huangyaoshi
 created_by: wangyuyan
 created_at: 2026-09-05
 decision_source: 老朱确认无印象（非他装）→ 王语嫣冻结止血（改名 Sysmon.frozen-20260905），写入者溯源归黄药师
 reviewer: 欧阳锋
 instance: huangyaoshi
-updated_at: '2026-09-04T19:46:27.738569+00:00'
+updated_at: '2026-09-04T20:11:31.168721+00:00'
 ---
 
 # #646 C:\Sysmon CAS 溯源与处置（黄药师）
