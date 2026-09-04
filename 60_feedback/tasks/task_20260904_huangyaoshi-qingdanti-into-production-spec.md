@@ -2,12 +2,14 @@
 id: task_20260904_huangyaoshi-qingdanti-into-production-spec
 title: 生产规范补清单体标准：工业化手册/卡产出规范引用清单体分层标准（知行断裂规范层修复）
 seq: 639
-status: queued
+status: in_progress
 assignee: huangyaoshi
 created_by: wangyuyan
 created_at: 2026-09-04
 decision_source: 老朱 09-04 直令立项（90_control/40_outputs 规范面零引用清单体实证）
 reviewer: 欧阳锋
+instance: huangyaoshi
+updated_at: '2026-09-04T13:20:37.043916+00:00'
 ---
 
 # #639 清单体标准入生产规范（黄药师）
