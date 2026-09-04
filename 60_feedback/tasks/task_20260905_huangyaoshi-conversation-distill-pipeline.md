@@ -1,25 +1,60 @@
 ---
-id: task_20260905_huangyaoshi-conversation-distill-pipeline
-
-title: 对话蒸馏管线：会话上下文→三层分流（外部知识→知识域 / 对老朱洞察→personal-os / 对他人洞察→人域）——老朱长期机制
-
-seq: 645
-
-status: in_progress
-assignee: huangyaoshi
-
-created_by: wangyuyan
-
-created_at: 2026-09-05
-
-decision_source: 老朱 09-05 定方向：对话上下文长期蒸馏，知识+洞察三层分流不同领域
-
-reviewer: 欧阳锋
-
-instance: huangyaoshi
-
-updated_at: '2026-09-04T20:11:36.294592+00:00'
-evidence: _tmp/645-evidence.md
+id: task_20260905_huangyaoshi-conversation-distill-pipeline
+
+
+
+
+
+title: 对话蒸馏管线：会话上下文→三层分流（外部知识→知识域 / 对老朱洞察→personal-os / 对他人洞察→人域）——老朱长期机制
+
+
+
+
+
+seq: 645
+
+
+
+
+
+status: pending_review
+assignee: huangyaoshi
+
+
+
+
+
+created_by: wangyuyan
+
+
+
+
+
+created_at: 2026-09-05
+
+
+
+
+
+decision_source: 老朱 09-05 定方向：对话上下文长期蒸馏，知识+洞察三层分流不同领域
+
+
+
+
+
+reviewer: 欧阳锋
+
+
+
+
+
+instance: huangyaoshi
+
+
+
+updated_at: '2026-09-04T20:27:38.394721+00:00'
+evidence: _tmp/645-evidence.md
+
 rework: true
 ---
 
@@ -119,7 +154,6 @@ rework: true
 ### ③ 负向判词 / ④ 存在性核查
 
 ✅ 执行报告无负向断言词（检查面=执行报告节）
-
 
 ## 终审记录（欧阳锋 2026-09-05 03:49）
 
