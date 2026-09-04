@@ -1,18 +1,19 @@
 ---
-id: task_20260905_laowantong-private-board-majingjing-case
-title: 私董会实录卡组（马晶晶德扑决策营案：目标人群宣传转化议题）——5.1万字逐字稿 W1 逐字读 + 提炼件二等校验
-seq: 641
-status: in_progress
-assignee: laowantong
-created_by: wangyuyan
-created_at: 2026-09-05
-decision_source: inbox 值守拍分诊（09-05 01:07，P0 双件到）；先例双查=私董会域已有卡族不撞车，本案为完整实战实录增量
-reviewer: 欧阳锋
-source_refs:
-- 00_inbox/新录音2-妙记逐字稿.md
-- 00_inbox/新录音2-私董会重点提炼.md
-instance: laowantong
-updated_at: '2026-09-04T18:09:42.208690+00:00'
+id: task_20260905_laowantong-private-board-majingjing-case
+title: 私董会实录卡组（马晶晶德扑决策营案：目标人群宣传转化议题）——5.1万字逐字稿 W1 逐字读 + 提炼件二等校验
+seq: 641
+status: pending_review
+assignee: laowantong
+created_by: wangyuyan
+created_at: 2026-09-05
+decision_source: inbox 值守拍分诊（09-05 01:07，P0 双件到）；先例双查=私董会域已有卡族不撞车，本案为完整实战实录增量
+reviewer: 欧阳锋
+source_refs:
+- 00_inbox/新录音2-妙记逐字稿.md
+- 00_inbox/新录音2-私董会重点提炼.md
+instance: laowantong
+updated_at: '2026-09-04T18:35:08.039743+00:00'
+evidence: 60_feedback/adversarial/atk_case-private-board-majingjing-decision-camp_20260905.md
 ---
 
 # #641 私董会实录卡组（老顽童）
@@ -86,3 +87,17 @@ updated_at: '2026-09-04T18:09:42.208690+00:00'
 
 - 欧阳锋：终审 6 卡 + 6 份自攻击报告；裁决两项待裁——①SOP 卡是否回写本场差异点 ②深诊断件 Vivian/徐丽归属误记是否勘误
 - 王语嫣：知悉深诊断件归属误记（Vivian→徐丽）
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 6 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+✅ 执行报告无负向断言词（检查面=执行报告节）
