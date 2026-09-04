@@ -2,7 +2,7 @@
 id: task_20260904_laowantong-transcript-to-qingdanti-skill
 title: 清单体生产 skill：口述稿→清单体笔记（分层编号/重点前置/提出-展开-回收）+ Live261 试跑交付老朱验收
 seq: 638
-status: queued
+status: in_progress
 assignee: laowantong
 created_by: wangyuyan
 created_at: 2026-09-04
@@ -12,6 +12,8 @@ source_refs:
 - 00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt
 - 30_wiki/concepts/concept-提升笔记阅读舒适度.md
 - 30_wiki/concepts/concept-问题驱动式深度思考笔记.md
+instance: laowantong
+updated_at: '2026-09-04T13:20:42.539597+00:00'
 ---
 
 # #638 清单体生产 skill（老顽童）
