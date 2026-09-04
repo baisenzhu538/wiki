@@ -58,7 +58,7 @@ rework: true
 1. 蒸馏器：三源抽取（kimi wire 事件流解析 append_message/content.part；headless 日志按文件名日期过滤+硬切块；hermes state.db Windows 侧为空镜像，实现为优雅跳过——gateway 实库在 WSL 侧）；三层提示词一次调用出 JSON；chunk 7000 字、默认上限 8 块（F-062 成本纪律）
 2. 分流写死：external/human → pending-cards 候选（过王语嫣门禁）；zhu → personal-os 追加（隐私面不外流）
 3. 节奏：独立 23:50 计划任务（与 daily-review 23:37 错开）；增量=per-file 字节游标+全局水位 ts
-4. 红线：anchor_quote 空白归一化子串强校验，不过即弃——试跑实证拦截 3 条伪锚（64 提取→61 落盘）
+4. 红线：anchor_quote 空白归一化子串强校验，不过即弃——试跑实证拦截 3 条伪锚（67 提取→64 落盘）
 
 **验证**：
 - dry-run 09-02~05：抽取 kimi 1550 条 / headless 93 段 / hermes 0（空镜像跳过），分块 4602 个，修复了 headless 整文件 16MB 单块 bug 后复跑通过
@@ -76,6 +76,35 @@ rework: true
 - 欧阳锋：终审本单
 - 老朱：肉眼验收三类样本（pending-cards/distill-*-20260905-* 与 personal-os/zhu-conversation-insights.md）
 - 王语嫣：pending-cards 蒸馏候选卡过门禁（日常量：每日新增随 inbox 行 9 通道上浮）
+
+## 执行报告（返工二轮 黄药师 2026-09-05 04:35）
+
+**交付物**：
+- `kdo-tools/conversation_distill.py`（P1 修复：`chunk_events()` 改为产出 `(first_src, text, segments)`，segments 逐行携带真实源文件；新增 `resolve_src()` 锚文命中后回查行级真实 src；`write_candidate()`/zhu 缓冲改用事件自身 src。P2 修复：`append_zhu()` 签名改收 `(item, src)` 对，来源列存完整 session 路径含 agent id）
+- 复跑样本重制：32 张候选卡（external 29 / human 3）+ `30_wiki/personal-os/zhu-conversation-insights.md` 14 条 zhu 洞察（旧 51 卡与旧 13 条 zhu 段落已清除后重跑）
+- `_tmp/645-verify-src.py`（逐卡溯源核验器：候选卡 source_refs + zhu 来源列，.jsonl 按解析文本口径核验）
+- 一轮执行报告数字更正：67 提取→64 落盘（拦截 3 伪锚）——本文件「完成内容」第 4 点已改
+
+**完成内容**：
+1. P1（source_refs 错位 24/51）：根因=chunk 只记首事件 src。修法=分块保留每行 `(src, line)`，过锚后 `resolve_src()` 逐行 norm 子串回查真实源；fallback 才用首事件 src。事件级溯源，不再整块覆盖
+2. P2-a（zhu 来源列丢路径）：`append_zhu()` 来源列由 `Path(src).name` 改为完整路径 `C:\...\session_<id>\agents\<agent>\wire.jsonl`，与候选卡同口径
+3. P2-b（数字错）：64→61 更正为 67 提取→64 落盘（拦截 3）
+4. 旧产物清理后同窗复跑（09-02~05，8 块，--no-save 不动游标）
+
+**验证**：
+- 复跑 SUMMARY {"external":29,"zhu":14,"human":3,"dropped_anchor":6,"calls":8,"failed_calls":0}（8 次调用 0 失败；拦截 6 条伪锚）
+- 逐卡溯源核验 `_tmp/645-verify-src.py`：**46 条全命中（32 候选卡 + 14 zhu），错位 0**——首轮核验曾报 3 MISS，定位为核验器读 raw JSONL 时换行是字面 `\n` 两字符而锚文按解析文本归一化所致（核验器口径 bug，非管线 bug）；修正为 .jsonl 逐行 json 解析收集字符串值后 100% 命中。另用管线同源抽取独立复算：3 条曾 MISS 锚文均在各自声明源的行级事件中命中
+- 抽查 distill-external-01：source_refs 与正文「来源」均为完整路径；zhu 表 14 行来源列全部含 session id + agent id
+
+**边界**：
+- 复跑产出数随 LLM 非确定性变化（43/13/8 → 29/14/3），候选卡清单以盘上为准；王语嫣队列里旧 51 卡引用行已划线，处置口径不变（随本单终审+门禁复核）
+- 跨事件拼接锚（一句锚文横跨两条事件）当前 fallback 到 chunk 首事件 src——本轮 46 条未出现该形态，若日后出现需扩展 resolve_src 为窗口匹配
+- hermes 源仍未实证（同一轮边界，未变）
+
+**需要谁动作**：
+- 欧阳锋：终审本单（返工二轮；核验命令：`python _tmp/645-verify-src.py`）
+- 老朱：肉眼验收三类样本（32 张候选卡 + zhu 14 条）
+- 王语嫣：pending-cards 新一批蒸馏候选卡过门禁
 
 ## 机器预审报告
 

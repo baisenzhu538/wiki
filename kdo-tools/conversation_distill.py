@@ -229,23 +229,41 @@ def iter_hermes(since_ms, until_ms):
 # ---------- 分块 ----------
 
 def chunk_events(events):
+    """产出 (first_src, text, segments)。
+
+    segments = [(src, line_text), ...]——逐行携带真实源文件，
+    禁止用 chunk 首事件 src 覆盖整块（#645 终审 P1）。
+    """
     chunks, cur, cur_len, cur_src = [], [], 0, None
+    cur_segs = []
     for src, ts, role, text in events:
         if cur_src is None:
             cur_src = src
         line = f"[{role}] {text.strip()}\n"
         if cur_len + len(line) > CHUNK_CHARS and cur:
-            chunks.append((cur_src, "".join(cur)))
-            cur, cur_len, cur_src = [], 0, src
-        # 单条超块（headless 整段日志）→ 硬切
+            chunks.append((cur_src, "".join(cur), cur_segs))
+            cur, cur_len, cur_src, cur_segs = [], 0, src, []
+        # 单条超块（headless 整段日志）→ 硬切（单源，segments 只记一条）
         while len(line) > CHUNK_CHARS:
-            chunks.append((src, line[:CHUNK_CHARS]))
+            piece = line[:CHUNK_CHARS]
+            chunks.append((src, piece, [(src, piece)]))
             line = line[CHUNK_CHARS:]
         cur.append(line)
+        cur_segs.append((src, line))
         cur_len += len(line)
     if cur:
-        chunks.append((cur_src or "unknown", "".join(cur)))
+        chunks.append((cur_src or "unknown", "".join(cur), cur_segs))
     return chunks
+
+
+def resolve_src(quote, segments, fallback):
+    """锚文命中后回查真实源文件：norm 子串落在哪一行，src 就是哪一行的。"""
+    q = norm(quote)
+    if q:
+        for src, line in segments:
+            if q in norm(line):
+                return src
+    return fallback
 
 
 # ---------- 落盘 ----------
@@ -281,8 +299,9 @@ source_refs:
     return fp
 
 
-def append_zhu(items, src, run_tag):
-    if not items:
+def append_zhu(pairs, run_tag):
+    """pairs = [(item, src), ...]——每条洞察携带自己的真实源（#645 终审 P2：来源列存完整 session 路径）。"""
+    if not pairs:
         return None
     ZHU_FILE.parent.mkdir(parents=True, exist_ok=True)
     if not ZHU_FILE.exists():
@@ -306,10 +325,10 @@ related:
     now = datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
     lines = [f"\n## {now} 蒸馏（run {run_tag}）\n",
              "| # | 洞察 | 原文锚 | 来源 |", "|:---|:---|:---|:---|"]
-    for i, it in enumerate(items, 1):
+    for i, (it, src) in enumerate(pairs, 1):
         anchor = (it.get("anchor_quote", "") or "").replace("|", "\\|").replace("\n", " ")
         insight = (it.get("insight", "") or "").replace("|", "\\|").replace("\n", " ")
-        lines.append(f"| {i} | **{it.get('title', '')}**：{insight} | {anchor} | `{Path(src).name}` |")
+        lines.append(f"| {i} | **{it.get('title', '')}**：{insight} | {anchor} | `{src}` |")
     with ZHU_FILE.open("a", encoding="utf-8") as f:
         f.write("\n".join(lines) + "\n")
     return ZHU_FILE
@@ -369,7 +388,7 @@ def main():
         chunks.sort(key=lambda c: 0 if "wire.jsonl" in c[0] else (2 if "headless" in c[0] else 1))
         log(f"分块 {len(chunks)} 个（上限 {args.max_chunks}）", fh)
         if args.dry_run:
-            for i, (src, text) in enumerate(chunks[:args.max_chunks]):
+            for i, (src, text, _segs) in enumerate(chunks[:args.max_chunks]):
                 log(f"  chunk{i}: {len(text)} chars src={Path(src).name}", fh)
             log("dry-run 结束（未调 LLM）", fh)
             return 0
@@ -378,7 +397,7 @@ def main():
         stats = {"external": 0, "zhu": 0, "human": 0, "dropped_anchor": 0, "calls": 0, "failed_calls": 0}
         zhu_buf = []
         seq = {"external": 0, "human": 0}
-        for src, text in chunks[:args.max_chunks]:
+        for src, text, segs in chunks[:args.max_chunks]:
             stats["calls"] += 1
             try:
                 raw = llm_call(cfg, text)
@@ -394,16 +413,18 @@ def main():
                     continue
                 kept += 1
                 stats[it["layer"]] += 1
+                # 溯源回查：锚文实际出自 chunk 内哪条事件的源文件（不用首事件 src 覆盖）
+                real_src = resolve_src(it.get("anchor_quote"), segs, src)
                 if it["layer"] == "zhu":
-                    zhu_buf.append((it, src))
+                    zhu_buf.append((it, real_src))
                 else:
                     seq[it["layer"]] += 1
-                    fp = write_candidate(it["layer"], it, src, run_tag, seq[it["layer"]])
+                    fp = write_candidate(it["layer"], it, real_src, run_tag, seq[it["layer"]])
                     log(f"  落候选卡 {fp.name}", fh)
             log(f"chunk {Path(src).name}: 提取 {len(items)} 条，过锚校验 {kept} 条", fh)
 
         if zhu_buf:
-            fp = append_zhu([it for it, _ in zhu_buf], zhu_buf[0][1], run_tag)
+            fp = append_zhu(zhu_buf, run_tag)
             log(f"zhu 洞察 {len(zhu_buf)} 条追加 → {fp}", fh)
 
         log(f"完成：{stats}", fh)
