@@ -271,7 +271,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 642 | `task_20260905_laowantong-641-depth-patch` | 修订单：#641 深度口径（真问题链进卡+暗知识3条成dk候选+SOP差异点+老朱归属口径） | queued | laowantong | 口径落#641执行报告随审 | #641 配套 | `60_feedback/tasks/task_20260905_laowantong-641-depth-patch.md` | 王语嫣深诊断补深（老朱09-05批编排深度）；E047边界传口径不改范围 |
 | 643 | `task_20260905_laowantong-qingdanti-stress-test-private-board` | 清单体skill压力测试：5.1万字私董会实录两步法全跑（深挖已就位→清单体整理+skill检验报告回答去留） | queued | laowantong | 笔记+检验报告+执行报告 | #640 后 | `60_feedback/tasks/task_20260905_laowantong-qingdanti-stress-test-private-board.md` | 老朱09-05检验设计（skill去留试金石）；F-077口径对账证据；欧阳锋终审 |
 | 644 | `task_20260905_ouyangfeng-recent-quality-rescan` | 近期入库质量回扫（08-28起~30张抽10）：暗知识含量/一等证据锚/方向价值三轴+不合格清单 | reviewed | ouyangfeng | 回扫报告+模式判词 | 无 | `60_feedback/tasks/task_20260905_ouyangfeng-recent-quality-rescan.md` | 老朱09-05「担心入库变垃圾」直令；只审不动笔；王语嫣复核落点 |
-| 645 | `task_20260905_huangyaoshi-conversation-distill-pipeline` | 对话蒸馏管线：会话上下文→三层分流（外部知识/对老朱洞察/对他人洞察）+每日增量+原文锚红线 | claimed-huangyaoshi | huangyaoshi | 蒸馏器+三类样本+执行报告 | 无 | `60_feedback/tasks/task_20260905_huangyaoshi-conversation-distill-pipeline.md` | 老朱09-05长期机制；洞察分流口径王语嫣定；欧阳锋终审 |
+| 645 | `task_20260905_huangyaoshi-conversation-distill-pipeline` | 对话蒸馏管线：会话上下文→三层分流（外部知识/对老朱洞察/对他人洞察）+每日增量+原文锚红线 | pending_review | huangyaoshi | 蒸馏器+三类样本+执行报告 | 无 | `60_feedback/tasks/task_20260905_huangyaoshi-conversation-distill-pipeline.md` | 老朱09-05长期机制；洞察分流口径王语嫣定；欧阳锋终审 |
 | 639 | `task_20260904_huangyaoshi-qingdanti-into-production-spec` | 生产规范补清单体标准：工业化手册引用yt-note卡族+质检超长无分层WARNING提示 | reviewed | huangyaoshi | 手册diff+门禁提示+回归 | 无 | `60_feedback/tasks/task_20260904_huangyaoshi-qingdanti-into-production-spec.md` | 老朱09-04直令；只链不抄；欧阳锋终审 |
 | 630 | `task_20260903_laowantong-626-source-anchor-fix` | 修订单（传口径不改范围）：#626 素材锚升级——Live86对账以原稿为一等锚（00_inbox/龙虾员工实践/），Candy仅定位模版增量；Live77无原稿Candy即一手 | cancelled | laowantong | 口径落 #626 执行报告，随其终审 | #626 配套 | `60_feedback/tasks/task_20260903_laowantong-626-source-anchor-fix.md` | 老朱09-03直令「找原稿深挖」；王语嫣查实原稿在库；E047边界：修订单不传裁决 |
 | 631 | `task_20260903_huangyaoshi-orphan-backup-source-hunt` | 孤儿backup触发源追查（01:38非节拍收走在制品）+探针非节拍检测信号+守卫SKIPPED接第十信号 | reviewed | huangyaoshi | 触发源结论+探针信号实证 | #628 reviewed 后 | `60_feedback/tasks/task_20260903_huangyaoshi-orphan-backup-source-hunt.md` | 黄药师建议书（09-03王语嫣裁定）；欧阳锋终审 |
@@ -523,6 +523,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#640 task_20260904_laowantong-qingdanti-scoring-rubric｜laowantong｜提审 09-05 01:15｜60_feedback/tasks/task_20260904_laowantong-qingdanti-scoring-rubric.md~~ → 已终审 PASS A-（2026-09-04 欧阳锋）
 - ~~#644 task_20260905_ouyangfeng-recent-quality-rescan｜ouyangfeng｜提审 09-05 02:18｜60_feedback/tasks/task_20260905_ouyangfeng-recent-quality-rescan.md~~ → 已终审 PASS A-（2026-09-04 王语嫣）
 - ~~#641 task_20260905_laowantong-private-board-majingjing-case｜laowantong｜提审 09-05 02:35｜60_feedback/tasks/task_20260905_laowantong-private-board-majingjing-case.md~~ → 已终审 PASS A-（2026-09-04 欧阳锋）
+- #645 task_20260905_huangyaoshi-conversation-distill-pipeline｜huangyaoshi｜提审 09-05 03:26｜60_feedback/tasks/task_20260905_huangyaoshi-conversation-distill-pipeline.md
 
 <!-- REVIEW-PENDING-END -->
 
@@ -532,53 +533,6 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 
 > 王语嫣维护看板时处理：诊断 → 写任务单 → 入队后把对应行划掉。编排规则不变，这里只解决「没人被通知」。
 
-- ~~00_inbox/《真正的利润》拆书逐字稿 — 水水｜战略定价顾问.md｜P0｜14770B｜检测到 08-30 18:11｜待王语嫣编排~~ → 已诊断（08-31 02:35 王语嫣）：域归属=商业/strategy 候选素材（赫尔曼·西蒙隐形冠军定价/利润系统，水水拆书稿，14770B 完整逐字稿）；初判=有萃取价值（定价/利润框架可出概念+方法卡候选），待老朱触发编排
-- ~~00_inbox/智能纪要：思存｜知识库管理二重奏 2026年6月15日 副本.md｜P2｜14299B｜检测到 08-30 18:11｜待王语嫣编排~~ → 已诊断（08-31 02:35 王语嫣）：域归属=kdo/知识管理域外部参照（张若微元数据搭建+蓝宇实操，124人直播课，含 skill 化交付/存用分离方法论）；初判=与 KDO 自身方法同构可对标，待老朱触发编排
-- ~~00_inbox/AI Grand Voyage Pitch Deck/专家分享｜怎么用 Codex 做 PPT（方振义）— 逐字稿 副本.md｜P2｜107461B｜检测到 08-30 18:11｜待王语嫣编排~~ → 已诊断（08-31 02:35 王语嫣）：域归属=ai-collaboration（Codex/GPT-Image-2 做 HTML PPT 工作流，方振义/Lester，107KB 逐字稿）；初判=实操方法可出方法卡候选，待老朱触发编排
-- ~~00_inbox/内容生产域/专家分享｜AI x 内容工业化生产（熙熙）— 逐字稿.md｜P2｜39395B｜检测到 08-30 18:11｜待王语嫣编排~~ → 已诊断（08-31 02:35 王语嫣）：域归属=content/内容生产域（AI 内容工业化流水线：公域获客×AI 生产稳定性，熙熙，39KB 逐字稿）；初判=与 KDO 产线理念同构，可出概念+方法卡候选，待老朱触发编排
-- ~~00_inbox/私董会/罗毅-三阴交/文字记录：55组第3次会议｜S级私董会第6期（可编辑时间） 2026年7月30日.md｜P2｜244349B｜检测到 08-30 18:11｜待王语嫣编排~~ → 已诊断（08-31 03:10 王语嫣）：55组第3次私董会逐字稿（244KB，罗意案主·元气达人三阴交贴视频号项目问诊，与已产 #581 叶柳清案例同属 S级私董会第6期系列）；含保密承诺，素材原文不动；待老朱触发编排
-- ~~00_inbox/私董会/罗毅-三阴交/智能纪要：55组第3次会议｜S级私董会第6期（可编辑时间） 2026年7月30日.md｜P2｜11661B｜检测到 08-30 18:11｜待王语嫣编排~~ → 已诊断（08-31 03:10 王语嫣）：同场会议 AI 智能纪要（11.6KB）——12年电商操盘案主背景/三 SKU 定价/内容审核·投流·主播承接三卡点/多轮幕僚共创，结构化素材，与逐字稿同源互证；待老朱触发编排
-- ~~00_inbox/pending-cards/case-wechat-article_1a718b23df7e860b.md｜P2｜3900B｜检测到 08-31 15:31｜待王语嫣编排~~ → 已处置（08-31 23:32 王语嫣）：同文双采撞车——与下行 832f2544 同题「重构协同：AI Native团队」（wechat 管线重复采集，本件为泛化摘要版信息量小），以 832f2544 版为准，划销不单独立项；原文不动
-- ~~00_inbox/pending-cards/case-wechat-article_832f2544fc7bb16a.md｜P2｜3760B｜检测到 08-31 15:31｜待王语嫣编排~~ → 已诊断（08-31 23:32 王语嫣）：域归属=ai-collaboration+strategy——「重构协同：AI Native团队」（书牧/淘天天猫技术团队），核心=单点提效vs全局协同、串联者人→Agent、知识底座+Agent+人三层闭环、知识锚权威源+自治保鲜、存量知识债vs白纸优势；与 KDO 知识底座建设同构可对标，质量较高有萃取价值；🔴 只诊断不立项，待老朱触发
-- ~~00_inbox/AI知识库candy/审计：Eason文化审计与实事求是DataPack.md｜P2｜19350B｜检测到 08-31 16:31｜待王语嫣编排~~ → 已诊断（09-01 00:35 王语嫣）：🔴 密级件（CHO 私有仅限 Truman 审阅）两部分——Eason 文化审计事件报告（人事隐私域）+「实事求是」方法论 DataPack（有萃取价值）；涉老朱隐私域不自动编排，方法论段是否剥离入库待老朱裁定
-- ~~00_inbox/AI知识库candy/技能：deep-debug深度调试技能.md｜P2｜9424B｜检测到 08-31 16:31｜待王语嫣编排~~ → 已诊断（09-01 00:35 王语嫣）：域归属=kdo/ai-collaboration——ECC 科学调试方法论 skill（假设驱动/交叉验证/最小修复，「观察越多修改越少」）；与 KDO skills 体系同构可对标，中等偏上价值；待老朱触发编排
-- ~~00_inbox/AI知识库candy/指南：高阶 Skill 设计指南.md｜P2｜23507B｜检测到 08-31 16:31｜待王语嫣编排~~ → 已诊断（09-01 00:35 王语嫣）：域归属=kdo——Anthropic 旗舰 skill 拆解的高级设计教程（500 行护栏/references 拆分/token 经济/祈使句/节制美学）；与 kdo-context-design 及 KDO skill 规范高度同构，高质量对标素材；待老朱触发编排
-- ~~00_inbox/AI知识库candy/数据包：MUSE模型.md｜P2｜34793B｜检测到 08-31 16:31｜待王语嫣编排~~ → 已诊断（09-01 00:35 王语嫣）：域归属=strategy/ai-collaboration——MUSE 四层模型（Miracle/Usage/Startup/Evolution）+十层解读法，证据边界三标签严谨（原始定义/结构推导/扩展工具）；有萃取价值；待老朱触发编排
-- ~~00_inbox/AI知识库candy/架构：产品设想：龙虾团队OPT.md｜P2｜16302B｜检测到 08-31 16:31｜待王语嫣编排~~ → 已诊断（09-01 00:35 王语嫣）：域归属=strategy——OPT（One Person Team）产品设想：OPC 升维（CEO 孤独决策→24h 在线 AI 团队）；老朱一堂体系产品线素材；待老朱触发编排
-- ~~00_inbox/AI知识库candy/设想：Agent大学——让你的Agent来一堂进修.md｜P2｜23791B｜检测到 08-31 16:31｜待王语嫣编排~~ → 已诊断（09-01 00:35 王语嫣）：域归属=strategy——「让 Agent 来一堂进修」产品设想（工具型→管理型 Agent 教育），与一堂课程体系直接关联；产品域素材；待老朱触发编排
-- ~~00_inbox/AI知识库candy/调研：Jovida AI竞争力双三角洞察报告.md｜P2｜17946B｜检测到 08-31 16:31｜待王语嫣编排~~ → 已诊断（09-01 00:35 王语嫣）：域归属=ai-collaboration/strategy——双三角模型分析 Jovida（AI 竞争力=问题定义力×系统设计×人机协作³）；与库内双三角域同族可互链（#539 案例线）；待老朱触发编排
-- ~~00_inbox/AI知识库candy/调研：Jovida 深度产品调研报告.md｜P2｜12795B｜检测到 08-31 16:31｜待王语嫣编排~~ → 已诊断（09-01 00:35 王语嫣）：域归属=strategy/ai-collaboration——Jovida 主动式 AI Life Coach 深度调研（愿望→行动零摩擦/每日 3 微行动轻推/Pre-Seed 数千万融资）；与双三角洞察报告同源可合并观察；待老朱触发编排
-- ~~00_inbox/AI知识库candy/顶层：我对WAIC的顶层思考和学习框架.md｜P2｜11327B｜检测到 08-31 16:31｜待王语嫣编排~~ → 已诊断（09-01 00:35 王语嫣）：域归属=strategy——WAIC 学习顶层框架（AI 全景坐标系），与 MUSE 模型 DataPack 同族 MUSE 线；Truman 视角认知素材，中等价值；待老朱触发编排
-- ~~00_inbox/AI知识管理探索营内测Candy-逐字稿.md｜P2｜27496B｜检测到 08-31 16:41~~ → 已诊断（2026-09-01 01:01 王语嫣）：域归属=knowledge-management/kdo——「AI×知识管理探索营」内测 Candy（27KB），本体=10 篇典型 Obsidian 文档开源目录+一页纸教程合集（王駿鵬公众号好文AI入库/张睿 Obsidian 搭建）；目录 10 篇中 8 篇与 00_inbox/AI知识库candy/ 批次同源（Jovida 双三角/MUSE/deep-debug/高阶 Skill 指南/OPT/Agent大学/Eason审计/MUSE模型），本件为索引层重复素材；增量=学员实录视角（日报/教程合集）；待老朱触发编排
-- ~~00_inbox/AI知识管理探索营内测Candy_v5.json｜P2｜44164B｜检测到 08-31 16:41~~ → 已处置（2026-09-01 01:01 王语嫣）：上行逐字稿的结构化源数据（v5 allBlocks JSON，非独立内容素材），与逐字稿同源成对划销，归属判定以上行为准
-- ~~00_inbox/Live257-重讲十指讲香模型内测Candy-逐字稿.md｜P2｜131798B｜检测到 08-31 16:41~~ → 已诊断（2026-09-01 01:01 王语嫣）：域归属=拆书会/decision-making——Live257「重讲十指讲香模型」内测 Candy（131KB 大稿），开头=水水拆书第109期《用数字讲故事》（奇普·希思：大脑不爱数字/聪明使用数字四原则/数字转换技术）；十指讲香模型正文在后段；拆书会系列已有 90+ 卡先例，有萃取价值；待老朱触发编排
-- ~~00_inbox/Live257-重讲十指讲香模型内测Candy_v5.json｜P2｜199616B｜检测到 08-31 16:41~~ → 已处置（2026-09-01 01:01 王语嫣）：上行的结构化源数据（v5 allBlocks JSON），同源成对划销，归属判定以上行为准
-- ~~00_inbox/Live260-AI口喷基本功内测candy-逐字稿.md｜P2｜36201B｜检测到 08-31 16:41~~ → 已诊断（2026-09-01 01:01 王语嫣）：域归属=ai-collaboration——Live260「AI口喷基本功」内测 Candy（36KB）：Truman 教研内部 Partner 口喷私密案例（科学决策ROI搭档+AI口喷高阶陪练官双 Partner 原文）；⚠️ 素材自带传播限制标注「仅限内部不要外传」×3；口喷域已有 #487/#529 卡组在库，本件为 Partner 原文层增量；待老朱触发编排
-- ~~00_inbox/Live260-AI口喷基本功内测candy_v5.json｜P2｜41496B｜检测到 08-31 16:41~~ → 已处置（2026-09-01 01:01 王语嫣）：上行的结构化源数据（v5 allBlocks JSON），同源成对划销，归属判定以上行为准
-- ~~00_inbox/video_transcripts/BV1JsgQzWEuD-逐字稿.md｜P2｜15760B｜检测到 08-31 17:01｜待王语嫣编排~~ → 已诊断（2026-09-01 01:12 王语嫣）：sales 域候选——Neil Rackham（SPIN Selling 作者）访谈，创业者销售话题；英文 faster-whisper-tiny 转写质量一般；疑似视频转写管线测试流量，生产价值待老朱触发确认
-- ~~00_inbox/video_transcripts/BV1kp4y1v7p9_p1-逐字稿.md｜P2｜18179B｜检测到 08-31 17:01｜待王语嫣编排~~ → 已诊断（2026-09-01 01:12 王语嫣）：与 p2/p3 同视频三采（开头段落逐字相同），人生低谷叙事演讲（2013 婚变/保守派裂变，疑似 David Brooks）；human-insights 候选但 ASR 质量差；撞车件，三取一，待老朱触发
-- ~~00_inbox/video_transcripts/BV1kp4y1v7p9_p2-逐字稿.md｜P2｜16794B｜检测到 08-31 17:11｜待王语嫣编排~~ → 撞车划销（2026-09-01 01:12 王语嫣）：与 p1 同视频重复转写，不单独立项
-- ~~00_inbox/video_transcripts/BV1kp4y1v7p9_p3-逐字稿.md｜P2｜18179B｜检测到 08-31 17:11｜待王语嫣编排~~ → 撞车划销（2026-09-01 01:12 王语嫣）：与 p1 同视频重复转写，不单独立项
-- ~~00_inbox/video_transcripts/BV1rp4y1e76Y-逐字稿.md｜P2｜30332B｜检测到 08-31 17:11｜待王语嫣编排~~ → 已诊断（2026-09-01 01:12 王语嫣）：与 BV1ug411i7bH 同演讲双采（芝加哥大学 class day 毕业演讲，31min，文本逐字相同）；content 价值中等（演讲技巧域候选）；双取一，待老朱触发
-- ~~00_inbox/video_transcripts/BV1ug411i7bH-逐字稿.md｜P2｜30515B｜检测到 08-31 17:11｜待王语嫣编排~~ → 撞车划销（2026-09-01 01:12 王语嫣）：与 BV1rp4y1e76Y 同演讲重复转写，不单独立项
-- ~~00_inbox/video_transcripts/BV1wb9XBXEGb-逐字稿.md｜P2｜63363B｜检测到 08-31 17:11｜待王语嫣编排~~ → 已诊断（2026-09-01 01:12 王语嫣）：耶鲁演讲 63min（华盛顿往返/任教 90 年代起，疑似 David Brooks）；英文 ASR 质量一般；疑似管线测试流量，待老朱触发
-- ~~00_inbox/video_transcripts_small/BV1JsgQzWEuD-逐字稿.md｜P2｜16657B｜检测到 08-31 17:31｜待王语嫣编排~~ → 已处置（2026-09-01 01:40 王语嫣）：双采撞车——与 video_transcripts/BV1JsgQzWEuD 同视频（faster-whisper-small 重转写，头 3k 相似度 0.984），诊断结论以 17:01 批 big 版为准（01:12 已录：SPIN Selling 访谈，sales 候选，ASR 质量差疑似管线测试流量），small 版不单独立项
-- ~~00_inbox/video_transcripts_small/BV1kp4y1v7p9_p1-逐字稿.md｜P2｜18397B｜检测到 08-31 17:31｜待王语嫣编排~~ → 已处置（2026-09-01 01:40 王语嫣）：三重撞车——同视频已三采（video_transcripts p1/p2/p3）+本 small 版第四采，五取一以 17:01 批 p1 为准，不单独立项
-- ~~00_inbox/学习candy合集/审计：Eason文化审计与实事求是DataPack.md｜P2｜19350B｜检测到 08-31 17:31｜待王语嫣编排~~ → 已处置（2026-09-01 01:40 王语嫣）：目录迁移重登记——与 08-31 16:31 批「AI知识库candy/」同名同字节（19350B）逐件实证，原目录已不存在，诊断结论沿用（🔴 密级件待老朱裁定），非新素材
-- ~~00_inbox/学习candy合集/技能：deep-debug深度调试技能.md｜P2｜9424B｜检测到 08-31 17:31｜待王语嫣编排~~ → 已处置（2026-09-01 01:40 王语嫣）：目录迁移重登记——同名同字节（9424B）实证，诊断沿用 09-01 00:35（kdo/ai-collaboration，与 KDO skills 同构），非新素材
-- ~~00_inbox/学习candy合集/指南：高阶 Skill 设计指南.md｜P2｜23507B｜检测到 08-31 17:31｜待王语嫣编排~~ → 已处置（2026-09-01 01:40 王语嫣）：目录迁移重登记——同名同字节（23507B）实证，诊断沿用（kdo，Anthropic skill 高阶设计，高质量对标），非新素材
-- ~~00_inbox/学习candy合集/数据包：MUSE模型.md｜P2｜34793B｜检测到 08-31 17:31｜待王语嫣编排~~ → 已处置（2026-09-01 01:40 王语嫣）：目录迁移重登记——同名同字节（34793B）实证，诊断沿用（strategy/ai-collaboration，MUSE 四层模型），非新素材
-- ~~00_inbox/学习candy合集/架构：产品设想：龙虾团队OPT.md｜P2｜16302B｜检测到 08-31 17:31｜待王语嫣编排~~ → 已处置（2026-09-01 01:40 王语嫣）：目录迁移重登记——同名同字节（16302B）实证，诊断沿用（strategy，一堂产品线），非新素材
-- ~~00_inbox/学习candy合集/设想：Agent大学——让你的Agent来一堂进修.md｜P2｜23791B｜检测到 08-31 17:31｜待王语嫣编排~~ → 已处置（2026-09-01 01:40 王语嫣）：目录迁移重登记——同名同字节（23791B）实证，诊断沿用（strategy，Agent 大学设想），非新素材
-- ~~00_inbox/学习candy合集/调研：Jovida AI竞争力双三角洞察报告.md｜P2｜17946B｜检测到 08-31 17:31｜待王语嫣编排~~ → 已处置（2026-09-01 01:40 王语嫣）：目录迁移重登记——同名同字节（17946B）实证，诊断沿用（双三角模型，#539 同族），非新素材
-- ~~00_inbox/学习candy合集/调研：Jovida 深度产品调研报告.md｜P2｜12795B｜检测到 08-31 17:31｜待王语嫣编排~~ → 已处置（2026-09-01 01:40 王语嫣）：目录迁移重登记——同名同字节（12795B）实证，诊断沿用（Jovida 调研与双三角同源），非新素材
-- ~~00_inbox/学习candy合集/顶层：我对WAIC的顶层思考和学习框架.md｜P2｜11327B｜检测到 08-31 17:31｜待王语嫣编排~~ → 已处置（2026-09-01 01:40 王语嫣）：目录迁移重登记——同名同字节（11327B）实证，诊断沿用（strategy，WAIC 顶层框架），非新素材
-- ~~00_inbox/video_transcripts_small/BV1kp4y1v7p9_p2-逐字稿.md~~ → 撞车划销（2026-09-01 02:1x 王语嫣）：faster-whisper-small 重转写双采，与 video_transcripts/p2（tiny 版）同视频同内容（开头逐字一致实测），诊断沿用 01:12 拍 big 版结论（BV1kp4y1v7p9 三采撞车三取一以 p1 为准），不单独立项｜P2｜18789B｜检测到 08-31 17:41｜待王语嫣编排
-- ~~00_inbox/video_transcripts_small/BV1kp4y1v7p9_p3-逐字稿.md~~ → 撞车划销（2026-09-01 02:1x 王语嫣）：同上重转写双采，同视频 p3（tiny 版）已在册三采撞车族，五取一以 video_transcripts/p1 为准，不单独立项｜P2｜18397B｜检测到 08-31 17:41｜待王语嫣编排
-- ~~00_inbox/video_transcripts_small/BV1rp4y1e76Y-逐字稿.md~~ → 撞车划销（2026-09-01 02:1x 王语嫣）：faster-whisper-small 重转写双采，与 video_transcripts/BV1rp4y1e76Y（tiny 版）同演讲同内容（开头逐字一致实测），诊断沿用 01:12 拍（芝加哥大学 class day 演讲，与 BV1ug411i7bH 双采双取一以本件 big 版为准），不单独立项｜P2｜34305B｜检测到 08-31 17:51｜待王语嫣编排
-- ~~00_inbox/video_transcripts_small/BV1ug411i7bH-逐字稿.md｜P2｜33578B｜检测到 08-31 18:01｜待王语嫣编排~~ → 撞车划销（2026-09-01 02:08 王语嫣）：芝加哥大学 class day 演讲的 faster-whisper-small 重转写版（开头逐字确认同源）——tiny 版双采已于 01:12 划销（BV1rp4y1e76Y+BV1ug411i7bH），本件为同族 small 重跑，非新素材，不单独立项
-- ~~00_inbox/video_transcripts_small/BV1wb9XBXEGb-逐字稿.md｜P2｜64967B｜检测到 08-31 18:11｜待王语嫣编排~~ → 撞车划销（2026-09-01 02:33 王语嫣）：BV1wb9XBXEGb 耶鲁演讲（63min）的 faster-whisper-small 重转写版，与 video_transcripts/big 版同源（small 重转写族第六件，同管线五连先例），诊断沿用 01:12 拍 big 版结论（疑似 David Brooks、ASR 质量一般、疑似管线测试流量），不单独立项
-- ~~00_inbox/video_transcripts_small/TED-大卫布鲁克斯-3个主流谎言-逐字稿.md｜P2｜55486B｜检测到 08-31 18:11｜待王语嫣编排~~ → 已处置（2026-09-01 02:33 王语嫣）：派生件划销——merge_ted.py（02:10）把 BV1kp4y1v7p9 p1/p2/p3（small 版）合并的 TED 大卫·布鲁克斯「3个主流谎言」整稿，与三采撞车族同源；派生价值=实证 01:12 拍「疑似 David Brooks」推断为实（TED 演讲确认），诊断沿用，非独立新素材，不单独立项
 - ~~00_inbox/学习candy合集/AI×知识管理 探索营内测 Candy-逐字稿.md｜P2｜27150B｜检测到 08-31 18:41｜待王语嫣编排~~ → 已处置（2026-09-01 09-01 03:05 王语嫣）：同源整理版重登记——探索营 Candy 已 01:01 诊断（knowledge-management/kdo 索引层，与根目录 16:41 版同源），本件=学习candy合集整理版，诊断沿用，不入编排；本目录=#586 施工素材面（老朱 0901 直令，老顽童 claimed 施工中），无需另立项
 - ~~00_inbox/学习candy合集/Live257：重讲十指讲香模型 内测 Candy-逐字稿.md｜P2｜131317B｜检测到 08-31 18:41｜待王语嫣编排~~ → 已处置（2026-09-01 09-01 03:05 王语嫣）：同源整理版重登记——Live257 已 01:01 诊断（拆书会/decision-making，《用数字讲故事》+十指讲香模型），诊断沿用，不入编排；本目录=#586 施工素材面（老朱 0901 直令，老顽童 claimed 施工中），无需另立项
 - ~~00_inbox/学习candy合集/Live260：AI口喷基本功内测 Candy-逐字稿.md｜P2｜36134B｜检测到 08-31 18:41｜待王语嫣编排~~ → 已处置（2026-09-01 09-01 03:05 王语嫣）：同源整理版重登记——Live260 已 01:01 诊断（ai-collaboration 口喷 Partner 原文层增量，自带传播限制），诊断沿用，不入编排；本目录=#586 施工素材面（老朱 0901 直令，老顽童 claimed 施工中），无需另立项
@@ -648,6 +602,57 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~00_inbox/wechat-collect/src_wechat_bf9ce0b38119ed73.md｜P2｜5453B｜检测到 09-03 20:21｜待王语嫣编排~~ → 划销（09-04 05:38 王语嫣）：回声（#634 已 reviewed，F-076 在账）
 - ~~00_inbox/新录音2-妙记逐字稿.md｜P0｜146441B｜检测到 09-04 17:01｜待王语嫣编排~~ → 已处置（09-05 01:08 王语嫣）：立项 #641（私董会实录卡组）
 - ~~00_inbox/新录音2-私董会重点提炼.md｜P0｜7313B｜检测到 09-04 17:01｜待王语嫣编排~~ → 已处置（09-05 01:08 王语嫣）：二等提炼件随 #641 作索引
+- 00_inbox/pending-cards/distill-external-20260905-01.md｜P2｜1116B｜检测到 09-04 19:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-02.md｜P2｜1171B｜检测到 09-04 19:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-03.md｜P2｜1116B｜检测到 09-04 19:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-04.md｜P2｜1019B｜检测到 09-04 19:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-05.md｜P2｜1080B｜检测到 09-04 19:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-06.md｜P2｜1034B｜检测到 09-04 19:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-07.md｜P2｜1140B｜检测到 09-04 19:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-08.md｜P2｜1055B｜检测到 09-04 19:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-09.md｜P2｜1050B｜检测到 09-04 19:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-10.md｜P2｜1021B｜检测到 09-04 19:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-11.md｜P2｜1028B｜检测到 09-04 19:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-12.md｜P2｜1103B｜检测到 09-04 19:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-13.md｜P2｜1059B｜检测到 09-04 19:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-14.md｜P2｜1154B｜检测到 09-04 19:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-15.md｜P2｜1071B｜检测到 09-04 19:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-16.md｜P2｜1181B｜检测到 09-04 19:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-17.md｜P2｜1073B｜检测到 09-04 19:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-18.md｜P2｜1037B｜检测到 09-04 19:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-19.md｜P2｜1046B｜检测到 09-04 19:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-20.md｜P2｜1085B｜检测到 09-04 19:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-21.md｜P2｜1161B｜检测到 09-04 19:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-22.md｜P2｜1059B｜检测到 09-04 19:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-23.md｜P2｜1051B｜检测到 09-04 19:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-24.md｜P2｜1031B｜检测到 09-04 19:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-25.md｜P2｜1069B｜检测到 09-04 19:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-26.md｜P2｜1084B｜检测到 09-04 19:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-27.md｜P2｜1086B｜检测到 09-04 19:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-28.md｜P2｜1164B｜检测到 09-04 19:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-29.md｜P2｜1224B｜检测到 09-04 19:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-30.md｜P2｜1092B｜检测到 09-04 19:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-31.md｜P2｜1123B｜检测到 09-04 19:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-32.md｜P2｜1212B｜检测到 09-04 19:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-33.md｜P2｜1076B｜检测到 09-04 19:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-34.md｜P2｜1087B｜检测到 09-04 19:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-35.md｜P2｜1092B｜检测到 09-04 19:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-36.md｜P2｜1174B｜检测到 09-04 19:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-37.md｜P2｜1105B｜检测到 09-04 19:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-38.md｜P2｜1087B｜检测到 09-04 19:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-39.md｜P2｜1035B｜检测到 09-04 19:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-40.md｜P2｜1123B｜检测到 09-04 19:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-41.md｜P2｜1179B｜检测到 09-04 19:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-42.md｜P2｜1100B｜检测到 09-04 19:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-43.md｜P2｜1141B｜检测到 09-04 19:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-human-20260905-01.md｜P2｜1105B｜检测到 09-04 19:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-human-20260905-02.md｜P2｜998B｜检测到 09-04 19:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-human-20260905-03.md｜P2｜1088B｜检测到 09-04 19:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-human-20260905-04.md｜P2｜1087B｜检测到 09-04 19:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-human-20260905-05.md｜P2｜1103B｜检测到 09-04 19:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-human-20260905-06.md｜P2｜1025B｜检测到 09-04 19:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-human-20260905-07.md｜P2｜1097B｜检测到 09-04 19:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-human-20260905-08.md｜P2｜1130B｜检测到 09-04 19:21｜待王语嫣编排
 
 <!-- INBOX-PENDING-END -->
 
@@ -1117,6 +1122,8 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~[gate-blocked] infra-liveness｜09-05 02:17｜待王语嫣复核处置｜2026-09-05 02:07:01｜infra-liveness｜基建停拍报警｜graph-index｜陈旧（落后 search_index 51h，阈值 48h）｜conveyor_probe~~ → 划销（09-05 02:45 王语嫣）：回声
 - ~~[gate-blocked] task_20260905_laowantong-private-board-majingjing-case｜09-05 02:37｜待王语嫣复核处置｜2026-09-05 02:34:18｜task_20260905_laowantong-private-board-majingjing-case｜F-034-五字段｜--evidence 文件不可读: 6卡(1 case含真问题链+SOP差异点+3 dk+2人域dk)全入仓 commit 见 git log；四路自攻击6份落60_feedback/adversar｜laowantong~~ → 划销（09-05 02:45 王语嫣）：回声
 - [gate-blocked] task_20260905_ouyangfeng-recent-quality-rescan｜09-05 02:47｜待王语嫣复核处置｜2026-09-05 02:39:28｜task_20260905_ouyangfeng-recent-quality-rescan｜F-035-意见书｜任务单缺少「## 终审记录」节（#429 F-035：审查意见必须落盘，口头/群里意见=未审查）｜王语嫣
+- [gate-blocked] role-liveness｜09-05 03:07｜待王语嫣复核处置｜2026-09-05 03:07:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 4391.7), ('cli', 31.9)]）｜role_registry check-liveness｜role_registry
+- [gate-blocked] infra-liveness｜09-05 03:17｜待王语嫣复核处置｜2026-09-05 03:07:01｜infra-liveness｜基建停拍报警｜graph-index｜陈旧（落后 search_index 52h，阈值 48h）｜conveyor_probe
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
