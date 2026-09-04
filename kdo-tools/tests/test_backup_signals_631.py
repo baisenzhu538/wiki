@@ -75,14 +75,22 @@ def test_onbeat_commit_no_alarm(tmp_path, monkeypatch):
 
 
 def test_offbeat_window_expiry_rearm(tmp_path, monkeypatch):
-    """脏→窗口过期全干净 → 重新武装（state 落回 False，可再报）。"""
+    """脏→窗口过期全干净 → 重新武装（state 落回 False，可再报）。
+    用独立旧仓模拟窗口过期（commit 落在 3h 窗外），不靠微窗口竞速。"""
     repo = _repo(tmp_path, monkeypatch)
     _backup_commit_at(repo, _prev_grid_ts(minute_shift=15))
     state: dict = {}
     assert probe._scan_offbeat_backup(state) != []
     assert state["offbeat_backup"] is True
-    # 用 0.0001h 窗口（≈0.4s）模拟脏 commit 全部滑出窗口 → 干净 → 重新武装
-    assert probe._scan_offbeat_backup(state, window_h=0.0001) == []
+    # 窗口过期：另一个仓只有 4h 前的非节拍 commit（滑出默认 3h 窗）→ 干净 → 重新武装
+    repo2 = tmp_path / "wiki2"
+    repo2.mkdir()
+    _git(repo2, "init")
+    _git(repo2, "config", "user.email", "t@t")
+    _git(repo2, "config", "user.name", "t")
+    monkeypatch.setattr(probe, "ROOT", repo2)
+    _backup_commit_at(repo2, datetime.now() - timedelta(hours=4))
+    assert probe._scan_offbeat_backup(state) == []
     assert state["offbeat_backup"] is False
 
 

@@ -634,14 +634,31 @@ def _scan_gate_blocked(state: dict) -> list[str]:
     return new_records
 
 
+# #636：事件身份提取（去重键=源类型+原始时间戳+主体，与行文本无关）——
+# #635 的行文本匹配被划销改写绕过（王语嫣划销加 ~~ 和处置后缀，原行不复存在，
+# 匹配落空 → 09-04 14:47/15:17 陈旧 liveness 事件重登记实证）。
+# 记录格式 `ts｜类型｜主体…`（gate-blocked.log 行 / 板面行内嵌记录同构），
+# 划销行里的原始时间戳仍可提取（行改写不动内嵌记录的时间戳段）。
+_EVENT_ID_RE = _re.compile(r"(\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2})｜([^｜]+)｜([^\s｜（(]+)")
+
+
+def _event_id(text: str) -> str | None:
+    """从记录行/板面行提取事件身份（原始时间戳｜源类型｜主体）；提取不出 → None（回退文本匹配）。"""
+    m = _EVENT_ID_RE.search(text)
+    return f"{m.group(1)}｜{m.group(2).strip()}｜{m.group(3).strip()}" if m else None
+
+
 def _update_proposal_board_gate(new_lines: list[str]) -> None:
     """#460：门禁拦截登记 PROPOSAL-PENDING（[gate-blocked] 类型，幂等）。
     #635 F-076：登记前查同事件是否已划销——处置行保留记录全文，段内全文匹配命中即跳过
-    （历史旧拍不再回声重登；state 淘汰后重扫同事件也零重复）。"""
+    （历史旧拍不再回声重登；state 淘汰后重扫同事件也零重复）。
+    #636：去重键升级事件身份（_event_id）——划销改写行文本后文本匹配失效，
+    身份三元组（原始时间戳+源类型+主体）在划销行内仍可提取，命中即跳过。"""
     if not new_lines or not QUEUE_FILE.exists():
         return
     text = QUEUE_FILE.read_text(encoding="utf-8")
     items, known = [], set()
+    known_ids = set()
     block = ""
     if PROPOSAL_BEGIN in text and PROPOSAL_END in text:
         block = text.split(PROPOSAL_BEGIN)[1].split(PROPOSAL_END)[0]
@@ -649,6 +666,9 @@ def _update_proposal_board_gate(new_lines: list[str]) -> None:
             if ln.startswith("- "):
                 items.append(ln)
                 known.add(ln[2:].split("｜")[0].strip())
+                eid = _event_id(ln)
+                if eid:
+                    known_ids.add(eid)
     now = datetime.now().strftime("%m-%d %H:%M")
     added = 0
     for ln in new_lines:
@@ -657,8 +677,13 @@ def _update_proposal_board_gate(new_lines: list[str]) -> None:
             continue
         if block and ln in block:
             continue  # F-076：同事件已划销/已登记（行含记录全文）→ 跳过
+        eid = _event_id(ln)
+        if eid and eid in known_ids:
+            continue  # #636：同事件身份已登记/已划销（行文本被改写也拦得住）→ 跳过
         items.append(f"- {marker}｜{now}｜待王语嫣复核处置｜{ln}")
         known.add(marker)
+        if eid:
+            known_ids.add(eid)
         added += 1
     if not added and PROPOSAL_BEGIN in text:
         return
