@@ -138,3 +138,11 @@ type: memory/role-recovery
 - `70_product/tasks/dashboard.md` — 任务仪表盘
 - `30_wiki/agent-specs/agent-spec-duanwangye-publisher.md` — Agent Spec
 - `20_memory/duanwangye-amnesia-recovery-2026-07-21.md` — 本文件
+
+## 9. 妙记提取能力（2026-09-04 打通，API 正解）
+
+- **正解路径**：API + OAuth UAT，30 秒全自动。妙记 scope 双排权限（tenant 管元数据、user 管逐字稿）均已开通（2026-09-04），UAT 缓存在 `hermes/tmp/uat_cache.json`（含 refresh_token 可续期）
+- **流程**：TAT 读元数据 → transcript 用 UAT 调 → 返回纯文本（非 JSON！）直接存 md
+- **UAT 过期时**：生成 OAuth 链接（redirect_uri=https://api.hermes-chat.com/v1/callback/feishu/oauth）→ 用户点授权 → 回传跳转 URL 里的 code → 5 分钟内换 UAT
+- **⚠️ 扫码登录路径已废弃**：headless 下飞书登录卡手机确认步，6 轮实测全败，勿再尝试
+- 详见 skill `feishu-doc-l3-extraction` references/feishu-minutes-extraction.md（09-04 全量重写）
