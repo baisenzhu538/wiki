@@ -1,0 +1,23 @@
+name: transcript-to-qingdanti
+version: 1.0.0
+author: 老顽童（#638，老朱 09-04 直令立项）
+adapted_from:
+- 00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt
+- 00_inbox/一堂-AI清单体笔记（系统故事线）-truman-结构化.md
+- 00_inbox/一堂-AI清单体笔记（训练段位图）-truman-结构化.md
+- 30_wiki/tools/yt-note-five-levels-training.md
+- 30_wiki/concepts/concept-提升笔记阅读舒适度.md
+- 30_wiki/concepts/concept-问题驱动式深度思考笔记.md
+description: 【内容生产·结构重组】口述稿/逐字稿→清单体笔记生产 SOP——分层≤3层/编号序列/重点前置/提出-展开-回收/一分钟扫完/全>简但不漏；只重组不创作
+scope: shared
+trigger:
+  natural_language:
+  - 清单体笔记
+  - 把逐字稿整理成清单
+  - 口述稿转清单体
+  - transcript-to-qingdanti
+适用agent:
+- laowantong
+- 老顽童
+changelog:
+- '2026-09-04 #638 初建：口述稿→清单体笔记产线能力（知行断裂修复）；Live261 试跑件=40_outputs/content/live261-zhanshududing-qingdanti-note.md'
