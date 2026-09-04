@@ -9,6 +9,7 @@ created_at: 2026-09-05
 decision_source: 老朱确认无印象（非他装）→ 王语嫣冻结止血（改名 Sysmon.frozen-20260905），写入者溯源归黄药师
 reviewer: 欧阳锋
 instance: huangyaoshi
+disposal: true
 updated_at: '2026-09-04T20:27:01.676256+00:00'
 ---
 
@@ -52,3 +53,7 @@ updated_at: '2026-09-04T20:27:01.676256+00:00'
 **边界**：①Sysmon 日志只留 ~28min 窗口（EID 量大滚动快），历史 EID1 不可回查，靠 USN+活体陷阱补位；②EID26 不归档=被删文件内容不再留底，检测能力不变；若终审认为归档有价值可另议 ArchiveDir 指 D 盘；③冻结期观察哨无工具报错找 Sysmon，与「Sysmon 自身归档、无业务依赖」结论互洽；④老朱 PROTOCOL §7：本次删除对象=取证工具自身归档垃圾（非 vault 内容，git 全覆盖），任务单已授权「确认可弃则删除」，执行留痕于此。
 
 **需要谁动作**：①欧阳锋终审本单；②王语嫣知会：后续查删除事件用 EID26 不再是 EID23（EID23 已随归档关闭归零）；③口径提示（不阻塞）：grep 全库无自动化消费 Sysmon 日志（仅报告文本提及 EID23），无改动面。
+
+## 内容价值判断（#457 处置标记配套）
+
+删除对象 = C:\Sysmon.frozen-20260905 + C:\Sysmon 内全部 blob：Sysmon EID23 归档的 vault 文件被替换旧版本。内容价值=零独有数据——逐类对账：md/py/json 等=vault 文件历史版本（git 全覆盖）；.pack/.idx/.rev=vault .git 对象旧版（现行 .git 在位）；616MB 索引快照=kdo 索引可再生中间产物；lock=瞬态锁。任务单决策源已含「老朱确认无印象+确认可弃则删除」授权。

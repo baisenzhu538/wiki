@@ -1,4 +1,4 @@
-<Sysmon schemaversion="4.22">
+<Sysmon schemaversion="4.90">
   <EventFiltering>
     <ProcessCreate onmatch="exclude">
       <Image condition="is">cronjob_runner.exe</Image>
@@ -9,9 +9,12 @@
     <FileCreate onmatch="include">
       <TargetFilename condition="contains">Desktop\wiki</TargetFilename>
     </FileCreate>
-    <FileDelete onmatch="include">
+    <!-- #646: FileDelete(EID23) 会把每个被删文件按 SHA256+扩展名归档进 ArchiveDir（默认 C:\Sysmon）
+         ——vault 高频原子替换写入 4 天堆出 59G CAS。改用 FileDeleteDetected(EID26)：
+         只记录不归档，删除检测能力（Image+TargetFilename）保留。 -->
+    <FileDeleteDetected onmatch="include">
       <TargetFilename condition="contains">Desktop\wiki</TargetFilename>
-    </FileDelete>
+    </FileDeleteDetected>
     <RawAccessRead onmatch="include">
       <Device condition="begin with">\Device\</Device>
     </RawAccessRead>
