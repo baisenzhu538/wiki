@@ -1107,9 +1107,9 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~prop_20260904_ouyangfeng-production-negative-assertion-existence-check.md｜09-04 22:27｜待王语嫣复核裁定~~ → 已裁定（09-04 22:40 王语嫣）：挂账 F-077
 - ~~[gate-blocked] infra-liveness｜09-04 23:47｜待王语嫣复核处置｜2026-09-04 23:37:00｜infra-liveness｜基建停拍报警｜graph-index｜陈旧（落后 search_index 48h，阈值 48h）｜conveyor_probe~~ → 划销（09-05 00:08 王语嫣）：回声
 - ~~[gate-blocked] infra-liveness｜09-05 00:17｜待王语嫣复核处置｜2026-09-05 00:07:00｜infra-liveness｜基建停拍报警｜graph-index｜陈旧（落后 search_index 49h，阈值 48h）｜conveyor_probe~~ → 划销（09-05 00:38 王语嫣）：回声
-- [gate-blocked] infra-liveness｜09-05 01:17｜待王语嫣复核处置｜2026-09-05 01:07:00｜infra-liveness｜基建停拍报警｜graph-index｜陈旧（落后 search_index 50h，阈值 48h）｜conveyor_probe
-- [gate-blocked] task_20260904_laowantong-qingdanti-scoring-rubric｜09-05 01:17｜待王语嫣复核处置｜2026-09-05 01:15:30｜task_20260904_laowantong-qingdanti-scoring-rubric｜F-034-五字段｜--evidence 文件不可读: rubric.md六维0-2分锚点+档线落skill目录；SKILL.md v1.1两步法定位+Step5 rubric自检门禁；manifest 1.1.0；Li｜laowantong
-- [friction] [shared] - [2026-09-05 01:35] laowantong｜09-05 01:27｜待王语嫣复核处置｜[shared] - [2026-09-05 01:35] laowantong｜#640 complete --evidence 第三次踩坑｜内联文本被拒（要文件路径），#638 21:50 已落过一次 friction-log 仍再犯=落盘≠肌肉记忆｜根因：固定姿势没进启动检查单｜处置：复盘元反思+技能进化日志双落「--evidence 永远传任务单路径」
+- ~~[gate-blocked] infra-liveness｜09-05 01:17｜待王语嫣复核处置｜2026-09-05 01:07:00｜infra-liveness｜基建停拍报警｜graph-index｜陈旧（落后 search_index 50h，阈值 48h）｜conveyor_probe~~ → 划销（09-05 01:38 王语嫣）：回声
+- ~~[gate-blocked] task_20260904_laowantong-qingdanti-scoring-rubric｜09-05 01:17｜待王语嫣复核处置｜2026-09-05 01:15:30｜task_20260904_laowantong-qingdanti-scoring-rubric｜F-034-五字段｜--evidence 文件不可读: rubric.md六维0-2分锚点+档线落skill目录；SKILL.md v1.1两步法定位+Step5 rubric自检门禁；manifest 1.1.0；Li｜laowantong~~ → 划销（09-05 01:38 王语嫣）：#640 提审回声，欧阳锋在审
+- ~~[friction] [shared] - [2026-09-05 01:35] laowantong｜09-05 01:27｜待王语嫣复核处置｜[shared] - [2026-09-05 01:35] laowantong｜#640 complete --evidence 第三次踩坑｜内联文本被拒（要文件路径），#638 21:50 已落过一次 friction-log 仍再犯=落盘≠肌肉记忆｜根因：固定姿势没进启动检查单｜处置：复盘元反思+技能进化日志双落「--evidence 永远传任务单路径」~~ → 划销（09-05 01:38 王语嫣）：老顽童 friction 已知悉（详情见下）
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
