@@ -2,12 +2,14 @@
 id: task_20260905_laowantong-qingdanti-stress-test-private-board
 title: 清单体 skill 压力测试：5.1 万字私董会实录全流程（两步法实跑：深挖已就位→清单体整理）——回答 skill 去留
 seq: 643
-status: queued
+status: in_progress
 assignee: laowantong
 created_by: wangyuyan
 created_at: 2026-09-05
 decision_source: 老朱 09-05 检验设计：本文=检验两步法+transcript-to-qingdanti skill 必要性的试金石
 reviewer: 欧阳锋
+instance: laowantong
+updated_at: '2026-09-04T20:28:06.369694+00:00'
 ---
 
 # #643 清单体 skill 压力测试（老顽童）
