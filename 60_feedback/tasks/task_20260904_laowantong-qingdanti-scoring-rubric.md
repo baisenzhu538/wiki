@@ -1,16 +1,28 @@
 ---
 id: task_20260904_laowantong-qingdanti-scoring-rubric
+
 title: 清单体评分 rubric 化：训练段位图（L1-L6+六维）→ 可执行评分表 + transcript-to-qingdanti skill v1.1（两步法定位+自检门禁嵌入）
+
 seq: 640
-status: pending_review
+
+status: reviewed
 assignee: laowantong
+
 created_by: wangyuyan
+
 created_at: 2026-09-04
+
 decision_source: 老朱 09-04 设计定稿：两步法（深挖验收→清单体整理）+「清单体做得好不好要有评分规则」
+
 reviewer: 欧阳锋
+
 instance: laowantong
-updated_at: '2026-09-04T17:15:39.633975+00:00'
+
+updated_at: '2026-09-04T17:42:03.799689+00:00'
 evidence: 60_feedback/tasks/task_20260904_laowantong-qingdanti-scoring-rubric.md
+reviewed_by: 欧阳锋
+review_date: '2026-09-04'
+grade: A-
 ---
 
 # #640 清单体评分 rubric + skill v1.1（老顽童）
@@ -94,3 +106,32 @@ kdo pre-submit -f 40_outputs/capabilities/skills/shared/transcript-to-qingdanti/
 ### ③ 负向判词 / ④ 存在性核查
 
 ✅ 执行报告无负向断言词（检查面=执行报告节）
+
+
+## 终审记录（欧阳锋 2026-09-05）
+
+**verdict**：PASS A-（methodology_version v2.3）
+
+**blocking**：无阻断
+
+**residual_risks**：
+
+- 🔵 Low（仅记录，无需动作）：执行报告「验证」节把关键数据点写成「月入5万」，源稿 `00_inbox/Live261-一堂战略笃定作业candy-逐字稿.md` 原文为「月入5w」。笔记本体已同时保留「月入 5w」原文与「月入 5 万」结论前置规范化表述，语义等价、零走样，不阻断。
+
+**存在性核查**（本终审对老顽童声明的逐一核验）：
+
+- rubric 六维锚点（D1 笔记数/D2 完整度/D3 舒适度/D4 内化率/D5 思考量/D6 完成度）与训练段位图「六大提升维度」逐一对应，骨架源 `00_inbox/一堂-AI清单体笔记（训练段位图）-truman-结构化.md` 实读核对一致
+- L4 合格线三特征（重新整理/故事线/强逻辑）正确映射 D4/D5/D6，与源文件 L4 行「清单笔记/重新整理、有故事线、有强逻辑」一致
+- 两步法定位与老朱 09-04 定稿一致：第一步=接收→门禁验收（W6 三方法+暗知识全挖，另轨管增量）；第二步=清单体整理（本 skill，管可达性）；王语嫣「改可达性不改增量」背书在 SKILL.md 引用在场
+- 10 种故事线与 `00_inbox/一堂-AI清单体笔记（系统故事线）-truman-结构化.md` 十条逐条一致
+- 4 个声明交付路径全部实读在场：rubric.md / SKILL.md（version 1.1.0）/ manifest.yaml（1.1.0 + changelog）/ live261-zhanshududing-qingdanti-note.md（头部含 rubric 自评分数 11/12）
+- 关联引用可达性：note-coach / content-production-polish 为 skills 目录实体，tool-清单式笔记法 在 30_wiki/tools/ 在场，无死链
+- pre-submit 独立复跑：SKILL.md 与 rubric.md 均 PASS（14 项 0 issue）
+
+**独立验证**：
+
+- Live261 复评 11/12 可复现：D3=1 扣分点定位到「磨课小例子（15 个）」单行（实读：单行含 15 例，行长悬殊、一行多逻辑点），与自评扣分理由一致
+- D2 对账 11 个关键数据点独立 grep：1亿/2000万/1015/月入5w/星哥讲增长/杨医生/家庭医生/80%/50%/60%/行为经济学 全部在源稿命中（其中「月入5万」源稿为「月入5w」，见 residual_risks）
+- rubric 可分辨性基准自洽：逐字稿直交（D3=0/D4=0 触发单项否决）≤4；只删语气词不重排（D4≤1/D5≤1）5-7；与档线及单项否决无逻辑矛盾
+
+**scores**（五维 0-100）：溯源完整 24 / 逻辑骨架 24 / 暗知识密度 19 / 可操作性 14 / 表达质量 14
