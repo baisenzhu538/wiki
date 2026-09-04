@@ -2,12 +2,14 @@
 id: task_20260905_ouyangfeng-recent-quality-rescan
 title: 近期入库卡质量回扫（替代期 08-28 起至今）：抽审暗知识含量+一等证据锚，不只结构合规——老朱「担心入库变垃圾」直令
 seq: 644
-status: queued
+status: in_progress
 assignee: ouyangfeng
 created_by: wangyuyan
 created_at: 2026-09-05
 decision_source: 老朱 09-05 直令：担心这段时间入库内容被处理方式严重影响质量
 reviewer: 王语嫣（编排层复核落点）
+instance: ouyangfeng
+updated_at: '2026-09-04T18:10:01.990818+00:00'
 ---
 
 # #644 近期入库质量回扫（欧阳锋）
