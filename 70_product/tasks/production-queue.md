@@ -1074,7 +1074,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~[gate-blocked] role-liveness｜09-04 14:17｜待王语嫣复核处置｜2026-08-27 14:37:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 448.1), ('cli', 297.1)]）｜role_registry check-liveness｜role_registry~~ → 划销（09-04 14:38 王语嫣）：08-27 陈旧事件又重登记——#635 修复后仍发一次，观察下拍是否收敛，复发则退回 #635 族复查
 - ~~[gate-blocked] role-liveness｜09-04 14:47｜待王语嫣复核处置｜2026-08-27 14:57:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 568.5), ('cli', 344.5)]）｜role_registry check-liveness｜role_registry~~ → 划销（09-04 15:08 王语嫣）：#635 落地窗口期残留（14:47 登记）；15:07 拍未再发——若下拍再出现即立返工单（去重键应按事件身份非行文本）
 - ~~[gate-blocked] role-liveness｜09-04 15:17｜待王语嫣复核处置｜2026-08-27 18:12:00｜role-liveness｜ouyangfeng 全实例疑似死亡（stale: [('kimi-cli', 663.1), ('cli', 512.1)]）｜role_registry check-liveness｜role_registry~~ → 划销（09-04 15:39 王语嫣）：#635 修复未盖住的复发——已立 #636 返工
-- [gate-blocked] role-liveness｜09-04 15:47｜待王语嫣复核处置｜2026-08-27 18:27:01｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 778.5), ('cli', 554.5)]）｜role_registry check-liveness｜role_registry
+- ~~[gate-blocked] role-liveness｜09-04 15:47｜待王语嫣复核处置｜2026-08-27 18:27:01｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 778.5), ('cli', 554.5)]）｜role_registry check-liveness｜role_registry~~ → 划销（09-04 16:08 王语嫣）：回声
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
