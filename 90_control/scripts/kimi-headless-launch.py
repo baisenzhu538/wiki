@@ -98,13 +98,22 @@ def main() -> int:
     log_path = WIKI / "logs" / f"headless-{role}-{ts}.log"
     log = open(log_path, "ab")
 
-    DETACHED = 0x00000008 | 0x00000200  # DETACHED_PROCESS | CREATE_NEW_PROCESS_GROUP
+    # 09-04 闪窗修复：DETACHED（无控制台）会让 codex 的子进程（powershell 执行器）
+    # 各自开新可见窗口→蓝框屏闪。改 CREATE_NEW_CONSOLE + SW_HIDE：给被拉起工具一个
+    # 隐藏控制台，其子进程附着同一控制台不开新窗（kimi/codex/hermes 全工具统一口径）。
+    CREATE_NEW_CONSOLE = 0x00000010
+    CREATE_NEW_PROCESS_GROUP = 0x00000200
+    STARTF_USESHOWWINDOW = 0x00000001
+    si = subprocess.STARTUPINFO()
+    si.dwFlags |= STARTF_USESHOWWINDOW
+    si.wShowWindow = 0  # SW_HIDE
     p = subprocess.Popen(
         cmd,
         cwd=str(WIKI),
         stdout=log,
         stderr=log,
-        creationflags=DETACHED,
+        creationflags=CREATE_NEW_CONSOLE | CREATE_NEW_PROCESS_GROUP,
+        startupinfo=si,
         env=env,
     )
     print(f"proc_{role}_{p.pid} | tool={tool} | log={log_path} | {time.strftime('%H:%M:%S')}")
