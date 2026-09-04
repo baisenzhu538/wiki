@@ -14,7 +14,13 @@ rem --- ISO date stamp (locale-independent) ---
 for /f %%i in ('powershell -NoProfile -Command "Get-Date -Format yyyyMMdd"') do set "TODAY=%%i"
 set "BUNDLE=%DEST%\wiki-bundle-%TODAY%.bundle"
 
-echo [%DATE% %TIME%] === wiki daily bundle start === >> "%LOG%"
+rem --- 2026-09-05 laozhu: weekly full bundle gate (Monday only) ---
+rem Daily full bundle grew to ~2GB/day x2 disks (C: offsite copy kept 3) -> C: 95%.
+rem Obsidian snapshot + pruning still run DAILY; full bundle only on Monday.
+for /f %%w in ('powershell -NoProfile -Command "(Get-Date).DayOfWeek"') do set "WD=%%w"
+if /i not "%WD%"=="Monday" goto :daily_only
+
+echo [%DATE% %TIME%] === wiki weekly bundle start (Monday) === >> "%LOG%"
 
 rem --- create bundle (all refs) ---
 "%GIT%" -C "%WIKI%" bundle create "%BUNDLE%" --all >> "%LOG%" 2>&1
@@ -52,6 +58,12 @@ if errorlevel 1 (
 echo [%DATE% %TIME%] OK bundle=%BUNDLE% HEAD=%WIKIHEAD% >> "%LOG%"
 echo OK > "%DEST%\wiki-bundle-daily.last-result.txt"
 
+rem --- #592 R1: offsite copy (now weekly, runs only after Monday bundle) ---
+call "C:\Users\Administrator\Desktop\wiki\90_control\scripts\wiki-bundle-offsite-2nd.bat" >> "%LOG%" 2>&1
+if errorlevel 1 (
+    echo [%DATE% %TIME%] WARN: offsite step2 failed, main backup unaffected >> "%LOG%"
+)
+
 rem --- .obsidian snapshot (not git-tracked by design: multi-device sync concerns, 05-02 ab2bd33ba) ---
 rem 08-31 incident proved .obsidian is a backup blind spot (config total loss, zero recovery).
 rem Git tracking stays OFF (per-machine config). This is a per-machine rolling snapshot only.
@@ -66,21 +78,18 @@ if "%OBS_RESULT%"=="OK" (
     echo [%DATE% %TIME%] WARN: .obsidian snapshot failed, main bundle unaffected >> "%LOG%"
 )
 
-rem --- #592 R1: offsite copy to Nutstore dir (step 2, failure never blocks main) ---
-call "C:\Users\Administrator\Desktop\wiki\90_control\scripts\wiki-bundle-offsite-2nd.bat" >> "%LOG%" 2>&1
-if errorlevel 1 (
-    echo [%DATE% %TIME%] WARN: offsite step2 failed, main backup unaffected >> "%LOG%"
-)
+:daily_only
+echo [%DATE% %TIME%] skip: not Monday, full bundle skipped (obsidian snapshot still runs) >> "%LOG%"
 
-rem --- rolling cleanup: keep newest 4 (by date-suffixed name sort; 7->4 per laozhu 2026-09-02, D: 130G only 9.8G left) ---
+rem --- rolling cleanup: keep newest 2 (weekly cadence, laozhu 2026-09-05) ---
 set /a COUNT=0
 for /f "delims=" %%f in ('dir /b /o-n "%DEST%\wiki-bundle-2*.bundle" 2^>nul') do (
     set /a COUNT+=1
-    if !COUNT! GTR 4 (
+    if !COUNT! GTR 2 (
         echo [%DATE% %TIME%] cleanup: delete %%f >> "%LOG%"
         del /q "%DEST%\%%f"
     )
 )
-echo [%DATE% %TIME%] === wiki daily bundle done === >> "%LOG%"
+echo [%DATE% %TIME%] === wiki bundle task done === >> "%LOG%"
 endlocal
 exit /b 0

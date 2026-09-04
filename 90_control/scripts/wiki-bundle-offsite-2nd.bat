@@ -53,11 +53,11 @@ if not "%SZSRC%"=="%SZDST%" (
     exit /b 1
 )
 
-rem --- rolling cleanup: keep newest 3 in offsite dir ---
+rem --- rolling cleanup: keep newest 2 in offsite dir (laozhu 2026-09-05 weekly) ---
 set /a COUNT=0
 for /f "delims=" %%f in ('dir /b /o-n "%DEST%\wiki-bundle-2*.bundle" 2^>nul') do (
     set /a COUNT+=1
-    if !COUNT! GTR 3 (
+    if !COUNT! GTR 2 (
         echo [%TS%] cleanup: delete %%f >> "%LOG%"
         del /q "%DEST%\%%f"
     )
