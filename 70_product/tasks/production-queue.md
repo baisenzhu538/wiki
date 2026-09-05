@@ -268,7 +268,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 638 | `task_20260904_laowantong-transcript-to-qingdanti-skill` | 清单体生产skill（口述稿→清单体笔记）+Live261主件试跑交付老朱验收 | reviewed | laowantong | skill目录+试跑笔记+执行报告 | 无 | `60_feedback/tasks/task_20260904_laowantong-transcript-to-qingdanti-skill.md` | 老朱09-04直令立项（知行断裂修复）；不改变原意不创造内容；欧阳锋终审 |
 | 640 | `task_20260904_laowantong-qingdanti-scoring-rubric` | 清单体评分rubric化（段位图六维→可打分表）+skill v1.1（两步法定位+rubric自检门禁）+Live261试跑件复评 | reviewed | laowantong | rubric+skill diff+复评分数实证 | 无 | `60_feedback/tasks/task_20260904_laowantong-qingdanti-scoring-rubric.md` | 老朱09-04两步法定稿+评分规则令；欧阳锋终审 |
 | 641 | `task_20260905_laowantong-private-board-majingjing-case` | 私董会实录卡组（马晶晶德扑决策营案）：5.1万字逐字稿W1逐字读+提炼件索引定位 | reviewed | laowantong | case1-2张+三方法记录+互链实证 | #640 后（同角色排队） | `60_feedback/tasks/task_20260905_laowantong-private-board-majingjing-case.md` | inbox值守拍分诊（P0双件）；私董会SOP实战样本互链；欧阳锋终审 |
-| 642 | `task_20260905_laowantong-641-depth-patch` | 修订单：#641 深度口径（真问题链进卡+暗知识3条成dk候选+SOP差异点+老朱归属口径） | pending_review | laowantong | 口径落#641执行报告随审 | #641 配套 | `60_feedback/tasks/task_20260905_laowantong-641-depth-patch.md` | 王语嫣深诊断补深（老朱09-05批编排深度）；E047边界传口径不改范围 |
+| 642 | `task_20260905_laowantong-641-depth-patch` | 修订单：#641 深度口径（真问题链进卡+暗知识3条成dk候选+SOP差异点+老朱归属口径） | reviewed | laowantong | 口径落#641执行报告随审 | #641 配套 | `60_feedback/tasks/task_20260905_laowantong-641-depth-patch.md` | 王语嫣深诊断补深（老朱09-05批编排深度）；E047边界传口径不改范围 |
 | 643 | `task_20260905_laowantong-qingdanti-stress-test-private-board` | 清单体skill压力测试：5.1万字私董会实录两步法全跑（深挖已就位→清单体整理+skill检验报告回答去留） | claimed-laowantong | laowantong | 笔记+检验报告+执行报告 | #640 后 | `60_feedback/tasks/task_20260905_laowantong-qingdanti-stress-test-private-board.md` | 老朱09-05检验设计（skill去留试金石）；F-077口径对账证据；欧阳锋终审 |
 | 644 | `task_20260905_ouyangfeng-recent-quality-rescan` | 近期入库质量回扫（08-28起~30张抽10）：暗知识含量/一等证据锚/方向价值三轴+不合格清单 | reviewed | ouyangfeng | 回扫报告+模式判词 | 无 | `60_feedback/tasks/task_20260905_ouyangfeng-recent-quality-rescan.md` | 老朱09-05「担心入库变垃圾」直令；只审不动笔；王语嫣复核落点 |
 | 645 | `task_20260905_huangyaoshi-conversation-distill-pipeline` | 对话蒸馏管线：会话上下文→三层分流（外部知识/对老朱洞察/对他人洞察）+每日增量+原文锚红线 | pending_review | huangyaoshi | 蒸馏器+三类样本+执行报告 | 无 | `60_feedback/tasks/task_20260905_huangyaoshi-conversation-distill-pipeline.md` | 老朱09-05长期机制；洞察分流口径王语嫣定；欧阳锋终审 |
@@ -525,7 +525,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#644 task_20260905_ouyangfeng-recent-quality-rescan｜ouyangfeng｜提审 09-05 02:18｜60_feedback/tasks/task_20260905_ouyangfeng-recent-quality-rescan.md~~ → 已终审 PASS A-（2026-09-04 王语嫣）
 - ~~#641 task_20260905_laowantong-private-board-majingjing-case｜laowantong｜提审 09-05 02:35｜60_feedback/tasks/task_20260905_laowantong-private-board-majingjing-case.md~~ → 已终审 PASS A-（2026-09-04 欧阳锋）
 - ~~#645 task_20260905_huangyaoshi-conversation-distill-pipeline｜huangyaoshi｜提审 09-05 03:26｜60_feedback/tasks/task_20260905_huangyaoshi-conversation-distill-pipeline.md~~ → 终审退回 queued（2026-09-04 欧阳锋）
-- #642 task_20260905_laowantong-641-depth-patch｜laowantong｜提审 09-05 04:27｜60_feedback/tasks/task_20260905_laowantong-641-depth-patch.md
+- ~~#642 task_20260905_laowantong-641-depth-patch｜laowantong｜提审 09-05 04:27｜60_feedback/tasks/task_20260905_laowantong-641-depth-patch.md~~ → 已终审 PASS A-（2026-09-05 欧阳锋）
 - #645 task_20260905_huangyaoshi-conversation-distill-pipeline｜huangyaoshi｜提审 09-05 04:27｜60_feedback/tasks/task_20260905_huangyaoshi-conversation-distill-pipeline.md
 - #646 task_20260905_huangyaoshi-sysmon-cas-trace｜huangyaoshi｜提审 09-05 04:28｜60_feedback/tasks/task_20260905_huangyaoshi-sysmon-cas-trace.md
 
