@@ -1,16 +1,19 @@
 ---
-id: task_20260905_laowantong-qingdanti-stress-test-private-board
-title: 清单体 skill 压力测试：5.1 万字私董会实录全流程（两步法实跑：深挖已就位→清单体整理）——回答 skill 去留
-seq: 643
-status: pending_review
-assignee: laowantong
-created_by: wangyuyan
-created_at: 2026-09-05
-decision_source: 老朱 09-05 检验设计：本文=检验两步法+transcript-to-qingdanti skill 必要性的试金石
-reviewer: 欧阳锋
-instance: laowantong
-updated_at: '2026-09-05T18:07:29.222423+00:00'
+id: task_20260905_laowantong-qingdanti-stress-test-private-board
+title: 清单体 skill 压力测试：5.1 万字私董会实录全流程（两步法实跑：深挖已就位→清单体整理）——回答 skill 去留
+seq: 643
+status: reviewed
+assignee: laowantong
+created_by: wangyuyan
+created_at: 2026-09-05
+decision_source: 老朱 09-05 检验设计：本文=检验两步法+transcript-to-qingdanti skill 必要性的试金石
+reviewer: 欧阳锋
+instance: laowantong
+updated_at: '2026-09-05T18:22:36.995132+00:00'
 evidence: 60_feedback/tasks/task_20260905_laowantong-qingdanti-stress-test-private-board.md
+reviewed_by: 欧阳锋
+review_date: '2026-09-05'
+grade: A-
 ---
 
 # #643 清单体 skill 压力测试（老顽童）
@@ -110,3 +113,26 @@ evidence: 60_feedback/tasks/task_20260905_laowantong-qingdanti-stress-test-priva
 ### ③ 负向判词 / ④ 存在性核查
 
 ✅ 执行报告无负向断言词（检查面=执行报告节）
+
+
+## 终审记录（欧阳锋 2026-09-06 02:28）
+
+methodology_version: v2.3
+verdict: PASS A-
+blocking: 无阻断
+residual_risks:
+- 🟠 Medium（转王语嫣编排，本单范围外）：skill 去留裁定未闭环——检验报告建议 A（留为两步法第二步专用件、非全员必备、skill v1.2 增补「多说话人输入前提」3 行），裁定权在老朱；若采纳 A，v1.2 增补另立任务。去向：待老朱裁定 → 王语嫣编排。
+- 🔵 Low（转王语嫣编排，discoverability 清扫批次）：检验报告 pre-submit 1 条 ALIASES WARNING 残留（checker 对路径段 token 的匹配怪癖），老顽童已如实披露不复跑刷绿；不阻塞本单结论，随 discoverability 清扫批次处理。
+scores: 溯源完整 24/25 · 逻辑骨架 23/25 · 暗知识密度 16/20 · 可操作性 14/15 · 表达质量 14/15（合计 91/100）
+
+### 存在性核查
+- 两交付物在盘：`40_outputs/content/private-board-majingjing-qingdanti-note.md`（26.4KB）+ `60_feedback/assessments/老顽童-20260905-qingdanti-skill-stress-test-report.md`（9.4KB）✅
+- O0 溯源（本轮独立实读源稿）：`00_inbox/新录音2-妙记逐字稿.md` 1622 行（52,879 字）在盘；逐条 grep 复核 28 个关键数据点全部在源——累计 300 场 / 2 分钟 90% 疼痛 / 70 人左右 / 60 人湖畔 / 限定 18 个人 / 18 页课后总结 / 68 万财商老师 / 到课率 80% 模糊 / 100 到 200 人 / 年收入超 50 万 / 100 万美元买入 / 2024-2043 火运 / 599、899 / 2 小时 58 分钟 16 秒 / 望京 / 中科大 / 范德堡等——源句用空格分词（「累计 300 场」「2 分钟之内」），老顽童口径为空格归一化 grep，28/28 成立。
+- 引语抽查逐字回源：「我们不追求第一，我们追求的是唯一」「不擅长的环境，你不要介入」「赢不在牌桌之上，而在牌桌之外」「化解业力」「1 号位减 1」均命中；微缩引语 1 条（笔记「不追求第一，追求唯一」←源「我们不追求第一，我们追求的是唯一」）语义零走样，登记合规。
+- 机械结构自证复跑：6+ 空格缩进行 0 / 手工中文编号行 0 / `**回收` 8 处 + `**总回收` 1 处 / 结论前置 9 处（含总览）——与老顽童自评一致。
+- skill 三件在盘：SKILL.md(10.0KB) + rubric.md(4.3KB) + manifest.yaml(1.3KB)；深挖件 `60_feedback/diagnosis/diag_20260905_wangyuyan-private-board-majingjing-deep.md` 在盘。
+
+### 独立验证（O0 诚实申报）
+- 本单=两步法第二步「只重组不创作」：逐字稿本轮已实读并对账（上方），深挖件作结构参考已读；源稿 146KB→笔记 22KB（保留约 15%）删留判断留痕在笔记文末。
+- 检验报告三问证据链闭合：帮到 7 项（红线对账抓 4 处归源偏差 / 六条机械标准 / rubric 门禁前置 / 分段红线兜跨工具续命 / 两步法边界 / 失败模式对号）均可在笔记内找到对应锚点；帮不到 6 项诚实登记（多说话人归属 / 切轮 / 自述口径 / 长行拆点 / 删留最后一公里 / 深挖增量 0），未把 skill 外能力记到 skill 头上。
+- 去留建议 A 证据链成立：本稿 D1/D2 零走样（28/28+24/24）与 4 处归源偏差被红线抓出，构成「留」的硬证据；多说话人归属必须人工补（换不懂 #642 口径者会误配），构成「非全员必备」的硬证据。裁定权留给老朱，审查不越位。
