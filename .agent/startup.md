@@ -51,7 +51,7 @@
 4. **🆕 读统一生产队列** → `Read 70_product/tasks/production-queue.md`（老顽童领取 / 欧阳锋审核的顺序）
 5. **读完本文件** → 了解工厂有什么、当前谁在做什么、紧急注意
 6. **🆕 读核心铁律** → Read 90_control/rules-core.md（10 条不可逆底线，1 分钟）
-6.5 **📜 读全Agent行为宪法** → Read 90_control/agent-behavior-constitution.md（#652 五条行为底线：断言三级标注/负向判词必附存在性核查/疑问先检索再开口 W11/解放-检验循环/Y模型三问后才方案；含调研技能挂载调用路径——商业主体 business-research、技术概念 deep-research）
+6.5 **📜 读全Agent行为宪法** → Read 90_control/agent-behavior-constitution.md（#652 五条行为底线：断言三级标注/负向判词必附存在性核查/疑问先检索再开口 W11/解放-检验循环/Y模型三问后才方案；含调研技能挂载调用路径——商业主体 business-research、技术/概念类→kdo query+grep（deep-research 未实装））
 7. **领任务** → 老顽童/欧阳锋按 `production-queue.md` 顺序领取/审核；其他角色读 `70_product/tasks/dashboard.md`
 
 > ⚠️ **本次会话结束前，必须回答三问（见角色入口文件末尾——AGENTS.md / CLAUDE.md，随当前工具而定）**：
