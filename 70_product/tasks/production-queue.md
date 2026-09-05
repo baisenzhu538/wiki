@@ -1183,7 +1183,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 652 | `task_20260906_huangyaoshi-agent-behavior-constitution` | 全Agent行为宪法 v1.0：实事求是准则+调研基本技能挂载（五条行为规则；CLI startup+拉起器注入；hermes 端依赖 #650；狗粮验收） | pending_review | huangyaoshi | 宪法落盘+CLI注入 diff+抽 2 实例狗粮实测 | #650 后（hermes 注入段） | `60_feedback/tasks/task_20260906_huangyaoshi-agent-behavior-constitution.md` | 老朱 09-06 直令拍板；A5 理论依据+F-035 活体实证；欧阳锋终审 |
 | 653 | `task_20260906_huangyaoshi-e040-crossrepo-hint` | E040 报错提示跨仓前缀全路径（第2次复发工具化） | pending_review | huangyaoshi | 模拟场景提示出现+回归不红 | 无 | `60_feedback/tasks/task_20260906_huangyaoshi-e040-crossrepo-hint.md` | 王语嫣 04:18 立项（两次复发工具化）；欧阳锋终审 |
 | 654 | `task_20260906_laowantong-aidahangha-batch1` | AI大航海域批量生产 batch1：3 framework+5 case+4 bridge+dk挂靠+skill草案+存量自迭代（12+卡，P1，老朱夜令） | pending_review | laowantong | 12卡入库+定位声明/行号锚/标签全+自攻击+三方法证据 | 无 | `60_feedback/tasks/task_20260906_laowantong-aidahangha-batch1.md` | 诊断 diag_20260906_wangyuyan-aidahangha-diagnosis 为规格源；欧阳锋终审 |
-| 655 | `task_20260906_huangyaoshi-sequential-claim-window` | queue_transition 同执行者连续派工窗口：显式多单指令免 force（第3次复发工具化，F-050 族） | queued | huangyaoshi | 两单连发模拟不再 force+回归不红 | #653 后（同角色排队） | `60_feedback/tasks/task_20260906_huangyaoshi-sequential-claim-window.md` | 王语嫣 05:10 立项（friction 三连实证）；欧阳锋终审 |
+| 655 | `task_20260906_huangyaoshi-sequential-claim-window` | queue_transition 同执行者连续派工窗口：显式多单指令免 force（第3次复发工具化，F-050 族） | claimed-huangyaoshi | huangyaoshi | 两单连发模拟不再 force+回归不红 | #653 后（同角色排队） | `60_feedback/tasks/task_20260906_huangyaoshi-sequential-claim-window.md` | 王语嫣 05:10 立项（friction 三连实证）；欧阳锋终审 |
 
 ## PROPOSAL-PENDING
 ### diag_20260826_ouyangfeng-source-refs-line-anchor-unreachable（2026-08-26 欧阳锋）

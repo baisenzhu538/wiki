@@ -2,14 +2,14 @@
 id: task_20260906_huangyaoshi-sequential-claim-window
 title: "queue_transition 同执行者连续派工窗口：显式多单指令免 force（第3次复发工具化，F-050 族）"
 seq: 655
-status: queued
+status: in_progress
 assignee: huangyaoshi
 created_by: wangyuyan
 created_at: 2026-09-06
 decision_source: 黄药师 friction 三连（09-06 03:48/04:33/04:47 编排者一次性多单指令撞 #504 等待窗口，3 次 force+reason）
 reviewer: 欧阳锋
 instance: huangyaoshi
-updated_at: '2026-09-06T05:10:00+08:00'
+updated_at: '2026-09-05T22:03:34.754563+00:00'
 ---
 
 # #655 同执行者连续派工窗口微单（黄药师）
