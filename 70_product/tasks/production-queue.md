@@ -530,6 +530,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#646 task_20260905_huangyaoshi-sysmon-cas-trace｜huangyaoshi｜提审 09-05 04:28｜60_feedback/tasks/task_20260905_huangyaoshi-sysmon-cas-trace.md~~ → 已终审 PASS A-（2026-09-05 欧阳锋）
 - #647 task_20260906_huangyaoshi-queue-gate-two-fixes｜huangyaoshi｜提审 09-06 02:03｜60_feedback/tasks/task_20260906_huangyaoshi-queue-gate-two-fixes.md
 - #643 task_20260905_laowantong-qingdanti-stress-test-private-board｜laowantong｜提审 09-06 02:07｜60_feedback/tasks/task_20260905_laowantong-qingdanti-stress-test-private-board.md
+- #648 task_20260906_huangyaoshi-graph-index-stall-rootfix｜huangyaoshi｜提审 09-06 02:17｜60_feedback/tasks/task_20260906_huangyaoshi-graph-index-stall-rootfix.md
 
 <!-- REVIEW-PENDING-END -->
 
@@ -1153,7 +1154,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 443 | `task_20260823_huangyaoshi-probe-notify-assignee-routing` | 探针可领取通知按 assignee 路由（P1，#421 演进）：修硬编码 laowantong + 补 huangyaoshi 通道 | reviewed | huangyaoshi | 路由映射+通道+用例 | #442 立项实证（老朱指令入队） | `60_feedback/tasks/task_20260823_huangyaoshi-probe-notify-assignee-routing.md` | 留痕→archive/inbox-slim&main-reviewed-20260831|
 | 444 | `task_20260823_huangyaoshi-queue-force-ledger-assignee-role` | queue_transition 交接语义加固（P1，风清扬建议 1+3 裁定合并）：--force/--evidence 例外台账 + frontmatter assignee 角色名口径 | reviewed | huangyaoshi | 台账+口径改造+用例 | #441 complete --force 绕过 F-034 实证 | `60_feedback/tasks/task_20260823_huangyaoshi-queue-force-ledger-assignee-role.md` | 留痕→archive/inbox-slim&main-reviewed-20260831|
 | 647 | `task_20260906_huangyaoshi-queue-gate-two-fixes` | queue/门禁族两小修：①E040 加 _git_ignored 判定转 WARNING（gitignore 豁免分支）②queue_transition seq 寻址补扫 60_feedback/tasks/ 或报错提示传完整 id | pending_review | huangyaoshi | 两修 diff+回归用例（#645 两 friction 场景复现） | 无 | `60_feedback/tasks/task_20260906_huangyaoshi-queue-gate-two-fixes.md` | 黄药师 #645 两 friction（09-06 王语嫣裁定采纳）；欧阳锋终审 |
-| 648 | `task_20260906_huangyaoshi-graph-index-stall-rootfix` | graph_index 停拍根因+重建+哨兵复查：infra-liveness 六拍连续增长 48→53h 实证（#622 复发） | claimed-huangyaoshi | huangyaoshi | 根因结论+重建后 graph/search 时差回落+哨兵回归 | #646 终审后（同角色排队） | `60_feedback/tasks/task_20260906_huangyaoshi-graph-index-stall-rootfix.md` | 王语嫣值守拍立项（09-06，真实故障非回声）；欧阳锋终审 |
+| 648 | `task_20260906_huangyaoshi-graph-index-stall-rootfix` | graph_index 停拍根因+重建+哨兵复查：infra-liveness 六拍连续增长 48→53h 实证（#622 复发） | pending_review | huangyaoshi | 根因结论+重建后 graph/search 时差回落+哨兵回归 | #646 终审后（同角色排队） | `60_feedback/tasks/task_20260906_huangyaoshi-graph-index-stall-rootfix.md` | 王语嫣值守拍立项（09-06，真实故障非回声）；欧阳锋终审 |
 
 ## PROPOSAL-PENDING
 ### diag_20260826_ouyangfeng-source-refs-line-anchor-unreachable（2026-08-26 欧阳锋）
