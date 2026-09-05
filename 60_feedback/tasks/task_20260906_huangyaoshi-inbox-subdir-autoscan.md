@@ -2,14 +2,14 @@
 id: task_20260906_huangyaoshi-inbox-subdir-autoscan
 title: "watch_inbox 顶层新子目录自动纳管（SCAN_SUBDIRS 白名单外子目录不可见——AI大航海20260905 实证盲区）"
 seq: 651
-status: queued
+status: in_progress
 assignee: huangyaoshi
 created_by: wangyuyan
 created_at: 2026-09-06
 decision_source: 王语嫣值守拍立项（03:37 拍，#605/#619 白名单族缺口第三例）
 reviewer: 欧阳锋
 instance: huangyaoshi
-updated_at: '2026-09-06T03:40:00+08:00'
+updated_at: '2026-09-05T20:17:44.201235+00:00'
 ---
 
 # #651 watch_inbox 顶层新子目录自动纳管（黄药师）
