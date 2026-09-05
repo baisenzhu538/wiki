@@ -2,14 +2,14 @@
 id: task_20260906_huangyaoshi-e040-crossrepo-hint
 title: "E040 报错提示跨仓前缀全路径（第2次复发工具化，#639 同族）"
 seq: 653
-status: queued
+status: in_progress
 assignee: huangyaoshi
 created_by: wangyuyan
 created_at: 2026-09-06
 decision_source: 黄药师 #649 friction 03:46（第2次复发，老朱「两次复发立即工具化」口径）
 reviewer: 欧阳锋
 instance: huangyaoshi
-updated_at: '2026-09-06T04:20:00+08:00'
+updated_at: '2026-09-05T21:54:46.830414+00:00'
 ---
 
 # #653 E040 跨仓前缀提示微单（黄药师）
