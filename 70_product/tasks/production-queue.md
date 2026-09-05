@@ -269,7 +269,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 640 | `task_20260904_laowantong-qingdanti-scoring-rubric` | 清单体评分rubric化（段位图六维→可打分表）+skill v1.1（两步法定位+rubric自检门禁）+Live261试跑件复评 | reviewed | laowantong | rubric+skill diff+复评分数实证 | 无 | `60_feedback/tasks/task_20260904_laowantong-qingdanti-scoring-rubric.md` | 老朱09-04两步法定稿+评分规则令；欧阳锋终审 |
 | 641 | `task_20260905_laowantong-private-board-majingjing-case` | 私董会实录卡组（马晶晶德扑决策营案）：5.1万字逐字稿W1逐字读+提炼件索引定位 | reviewed | laowantong | case1-2张+三方法记录+互链实证 | #640 后（同角色排队） | `60_feedback/tasks/task_20260905_laowantong-private-board-majingjing-case.md` | inbox值守拍分诊（P0双件）；私董会SOP实战样本互链；欧阳锋终审 |
 | 642 | `task_20260905_laowantong-641-depth-patch` | 修订单：#641 深度口径（真问题链进卡+暗知识3条成dk候选+SOP差异点+老朱归属口径） | reviewed | laowantong | 口径落#641执行报告随审 | #641 配套 | `60_feedback/tasks/task_20260905_laowantong-641-depth-patch.md` | 王语嫣深诊断补深（老朱09-05批编排深度）；E047边界传口径不改范围 |
-| 643 | `task_20260905_laowantong-qingdanti-stress-test-private-board` | 清单体skill压力测试：5.1万字私董会实录两步法全跑（深挖已就位→清单体整理+skill检验报告回答去留） | claimed-laowantong | laowantong | 笔记+检验报告+执行报告 | #640 后 | `60_feedback/tasks/task_20260905_laowantong-qingdanti-stress-test-private-board.md` | 老朱09-05检验设计（skill去留试金石）；F-077口径对账证据；欧阳锋终审 |
+| 643 | `task_20260905_laowantong-qingdanti-stress-test-private-board` | 清单体skill压力测试：5.1万字私董会实录两步法全跑（深挖已就位→清单体整理+skill检验报告回答去留） | pending_review | laowantong | 笔记+检验报告+执行报告 | #640 后 | `60_feedback/tasks/task_20260905_laowantong-qingdanti-stress-test-private-board.md` | 老朱09-05检验设计（skill去留试金石）；F-077口径对账证据；欧阳锋终审 |
 | 644 | `task_20260905_ouyangfeng-recent-quality-rescan` | 近期入库质量回扫（08-28起~30张抽10）：暗知识含量/一等证据锚/方向价值三轴+不合格清单 | reviewed | ouyangfeng | 回扫报告+模式判词 | 无 | `60_feedback/tasks/task_20260905_ouyangfeng-recent-quality-rescan.md` | 老朱09-05「担心入库变垃圾」直令；只审不动笔；王语嫣复核落点 |
 | 645 | `task_20260905_huangyaoshi-conversation-distill-pipeline` | 对话蒸馏管线：会话上下文→三层分流（外部知识/对老朱洞察/对他人洞察）+每日增量+原文锚红线 | reviewed | huangyaoshi | 蒸馏器+三类样本+执行报告 | 无 | `60_feedback/tasks/task_20260905_huangyaoshi-conversation-distill-pipeline.md` | 老朱09-05长期机制；洞察分流口径王语嫣定；欧阳锋终审 |
 | 646 | `task_20260905_huangyaoshi-sysmon-cas-trace` | C:\Sysmon 59G CAS 溯源与处置（已冻结止血；09-01 11:34 生正值#592窗口） | reviewed | huangyaoshi | 写入者结论+处置释放空间数 | 无 | `60_feedback/tasks/task_20260905_huangyaoshi-sysmon-cas-trace.md` | 老朱确认无印象+王语嫣冻结；欧阳锋终审 |
@@ -529,6 +529,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#645 task_20260905_huangyaoshi-conversation-distill-pipeline｜huangyaoshi｜提审 09-05 04:27｜60_feedback/tasks/task_20260905_huangyaoshi-conversation-distill-pipeline.md~~ → 已终审 PASS A-（2026-09-05 欧阳锋）
 - ~~#646 task_20260905_huangyaoshi-sysmon-cas-trace｜huangyaoshi｜提审 09-05 04:28｜60_feedback/tasks/task_20260905_huangyaoshi-sysmon-cas-trace.md~~ → 已终审 PASS A-（2026-09-05 欧阳锋）
 - #647 task_20260906_huangyaoshi-queue-gate-two-fixes｜huangyaoshi｜提审 09-06 02:03｜60_feedback/tasks/task_20260906_huangyaoshi-queue-gate-two-fixes.md
+- #643 task_20260905_laowantong-qingdanti-stress-test-private-board｜laowantong｜提审 09-06 02:07｜60_feedback/tasks/task_20260905_laowantong-qingdanti-stress-test-private-board.md
 
 <!-- REVIEW-PENDING-END -->
 
@@ -1151,7 +1152,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 443 | `task_20260823_huangyaoshi-probe-notify-assignee-routing` | 探针可领取通知按 assignee 路由（P1，#421 演进）：修硬编码 laowantong + 补 huangyaoshi 通道 | reviewed | huangyaoshi | 路由映射+通道+用例 | #442 立项实证（老朱指令入队） | `60_feedback/tasks/task_20260823_huangyaoshi-probe-notify-assignee-routing.md` | 留痕→archive/inbox-slim&main-reviewed-20260831|
 | 444 | `task_20260823_huangyaoshi-queue-force-ledger-assignee-role` | queue_transition 交接语义加固（P1，风清扬建议 1+3 裁定合并）：--force/--evidence 例外台账 + frontmatter assignee 角色名口径 | reviewed | huangyaoshi | 台账+口径改造+用例 | #441 complete --force 绕过 F-034 实证 | `60_feedback/tasks/task_20260823_huangyaoshi-queue-force-ledger-assignee-role.md` | 留痕→archive/inbox-slim&main-reviewed-20260831|
 | 647 | `task_20260906_huangyaoshi-queue-gate-two-fixes` | queue/门禁族两小修：①E040 加 _git_ignored 判定转 WARNING（gitignore 豁免分支）②queue_transition seq 寻址补扫 60_feedback/tasks/ 或报错提示传完整 id | pending_review | huangyaoshi | 两修 diff+回归用例（#645 两 friction 场景复现） | 无 | `60_feedback/tasks/task_20260906_huangyaoshi-queue-gate-two-fixes.md` | 黄药师 #645 两 friction（09-06 王语嫣裁定采纳）；欧阳锋终审 |
-| 648 | `task_20260906_huangyaoshi-graph-index-stall-rootfix` | graph_index 停拍根因+重建+哨兵复查：infra-liveness 六拍连续增长 48→53h 实证（#622 复发） | queued | huangyaoshi | 根因结论+重建后 graph/search 时差回落+哨兵回归 | #646 终审后（同角色排队） | `60_feedback/tasks/task_20260906_huangyaoshi-graph-index-stall-rootfix.md` | 王语嫣值守拍立项（09-06，真实故障非回声）；欧阳锋终审 |
+| 648 | `task_20260906_huangyaoshi-graph-index-stall-rootfix` | graph_index 停拍根因+重建+哨兵复查：infra-liveness 六拍连续增长 48→53h 实证（#622 复发） | claimed-huangyaoshi | huangyaoshi | 根因结论+重建后 graph/search 时差回落+哨兵回归 | #646 终审后（同角色排队） | `60_feedback/tasks/task_20260906_huangyaoshi-graph-index-stall-rootfix.md` | 王语嫣值守拍立项（09-06，真实故障非回声）；欧阳锋终审 |
 
 ## PROPOSAL-PENDING
 ### diag_20260826_ouyangfeng-source-refs-line-anchor-unreachable（2026-08-26 欧阳锋）
