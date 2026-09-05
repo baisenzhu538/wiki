@@ -4,7 +4,7 @@ All queue status changes MUST go through this script. Manual edits to
 `production-queue.md` or task file `status` fields are forbidden.
 
 Usage:
-    python queue_transition.py claim <task-id> --instance <name> [--force] [--no-commit]
+    python queue_transition.py claim <task-id> --instance <name> [--force] [--sequence] [--no-commit]
     python queue_transition.py complete <task-id> --instance <name> [--evidence <path>] [--force --reason '<理由>'] [--no-commit]
     python queue_transition.py release <task-id> --instance <name> [--no-commit]
     python queue_transition.py review <task-id> --verdict pass|fail --reviewer 欧阳锋 [--grade A|A-|B+|B|B-|C] [--no-commit]
@@ -17,6 +17,8 @@ Exit codes:
     1 = transition rejected / error
 
 --force claim: 跳过队列前方 pending_review 阻塞（用于不同 assignee 的并行任务）
+--sequence claim: 同执行者显式多单连发窗口（#655）——编排指令含多单、complete 前单后
+        接下一单时用；own pending_review 不阻塞且不走 force 台账（FIFO 他单/claimed 锁照旧）
 --force complete: 允许从 queued 直接跳到 pending_review
         （用于生产已完成但未通过脚本领取的场景；#444 起必须配 --reason，例外入台账 90_control/force-exceptions.log）
 --no-commit: 跳过流转后的自动 git 收口（#390 逃生门，特殊场景手工控制）
@@ -670,11 +672,14 @@ def action_register(instance: str) -> tuple[bool, str]:
                   f"   登记表: {INSTANCE_REGISTRY}")
 
 
-def action_claim(task_id: str, instance: str, force: bool = False) -> tuple[bool, str]:
+def action_claim(task_id: str, instance: str, force: bool = False,
+                 sequence: bool = False) -> tuple[bool, str]:
     """Claim a queued task for an instance.
 
     --force: 跳过 pending_review 阻塞检查（用于不同 assignee 的并行任务）。
     #504：--force 放行保留但留痕——绕过任何阻塞都写 force-exceptions.log 台账（例外不得无痕）。
+    --sequence（#655）：同执行者显式多单连发窗口——own pending_review 不阻塞 claim 下一单，
+    不走 force 台账（非例外，是预期流）；FIFO 他单/#503 claimed 锁照旧阻塞。
     """
     force_note = ""
     # #620 实例命名铁律：新 claim 一律裸角色名（工具=变量不进名字）。例外=在册存量旧名
@@ -697,7 +702,7 @@ def action_claim(task_id: str, instance: str, force: bool = False) -> tuple[bool
                                           bypass="pending_review 阻塞（#504 审查等待期占位）")
             force_note = f"\n⚠️ force 例外已留痕: {ledger}"
     else:
-        ok, reason = can_claim(task_id, rows, instance)
+        ok, reason = can_claim(task_id, rows, instance, sequence=sequence)
         if not ok:
             return False, reason
 
@@ -715,7 +720,7 @@ def action_claim(task_id: str, instance: str, force: bool = False) -> tuple[bool
         # Re-check gate inside lock
         rows = parse_queue()
         if not force:
-            ok, reason = can_claim(task_id, rows, instance)
+            ok, reason = can_claim(task_id, rows, instance, sequence=sequence)
             if not ok:
                 return False, reason
 
@@ -735,7 +740,11 @@ def action_claim(task_id: str, instance: str, force: bool = False) -> tuple[bool
 
     _register_instance(task_id, instance)  # #546：claim 即上岗登记（无感）
 
-    return True, f"✅ {task_id} 已领取为 {new_status}{force_note}\n{gate_msg}"
+    # #655：连发窗口注记——前单 pending_review 状态机注记随 claim 回显留痕
+    seq_note = ("\n🔗 sequential 连发（--sequence，#655）：名下前单 pending_review 挂审中，"
+                "本单为显式连发第下一单，不走 force 台账") if sequence else ""
+
+    return True, f"✅ {task_id} 已领取为 {new_status}{force_note}{seq_note}\n{gate_msg}"
 
 
 # 代码类任务提审门禁：任务单 frontmatter 声明 code_files（相对仓库根的路径列表，
@@ -1752,6 +1761,7 @@ def main() -> int:
     note = None
     reason = None
     force = False
+    sequence = False
     override = False
     no_commit = False
 
@@ -1762,6 +1772,9 @@ def main() -> int:
             i += 2
         elif args[i] == "--force":
             force = True
+            i += 1
+        elif args[i] == "--sequence":
+            sequence = True  # #655：同执行者显式多单连发窗口（own pending 不阻塞，免 force）
             i += 1
         elif args[i] == "--override":
             override = True  # #538：reviewed→queued 改判通道（需 --verdict fail --reason）
@@ -1801,7 +1814,7 @@ def main() -> int:
         if not instance:
             print("claim 需要 --instance <instance>", file=sys.stderr)
             return 1
-        ok, msg = action_claim(task_id, instance, force=force)
+        ok, msg = action_claim(task_id, instance, force=force, sequence=sequence)
     elif action == "complete":
         if not instance:
             print("complete 需要 --instance <instance>", file=sys.stderr)

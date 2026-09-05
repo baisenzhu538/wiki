@@ -145,11 +145,15 @@ def find_blockers(rows: list[dict] | None = None) -> tuple[list[dict], list[dict
     return pending, claimed
 
 
-def can_claim(task_id: str, rows: list[dict] | None = None, instance: str = "") -> tuple[bool, str]:
+def can_claim(task_id: str, rows: list[dict] | None = None, instance: str = "",
+              sequence: bool = False) -> tuple[bool, str]:
     """Return (ok, reason).
 
     不同实例可以并行领取（Hermes 不堵 Kimi，Kimi 不堵 Claude）。
     同一实例不能跳队——前方有自己的 claimed 任务时必须等释放。
+    sequence=True（#655）：同执行者显式多单连发窗口——编排者一条指令派多单，
+    complete 前单后接下一单属预期流，不占 #504 审查等待窗口；只放宽 own pending
+    这一支，FIFO 他单阻塞/#503 claimed 锁/status 门全部照旧。
     """
     if rows is None:
         rows = parse_queue()
@@ -176,6 +180,7 @@ def can_claim(task_id: str, rows: list[dict] | None = None, instance: str = "") 
     # Find earlier tasks
     pending, claimed = find_blockers(rows)
     earlier_pending = [r for r in pending if r["task_id"] != task_id]
+    sequence_exempt_ids: set[str] = set()  # #655：--sequence 剔除的 own pending（空集=未用连发窗口）
 
     if earlier_pending:
         # #504 洞B/C：pending_review 占执行者位——执行者有自己的待终审任务（不论队列前后，
@@ -196,8 +201,18 @@ def can_claim(task_id: str, rows: list[dict] | None = None, instance: str = "") 
             own = []
         if own:
             own_ids = ", ".join(f"#{r['seq']} {r['task_id']}" for r in own)
-            return False, (f"你（{cur_role}）还有 pending_review 任务待欧阳锋终审：{own_ids}。"
-                           f"审查等待期不接新单（#504）——等终审后再领取 {task_id}")
+            if sequence:
+                # #655：显式连发窗口（修法一取稳者——显式 flag 而非 <30min 时间窗豁免，
+                # 不隐式放宽门禁；前单仍逐单终审）。own 从阻塞集剔除后【照走】下方 FIFO
+                # 检查——他单在前仍拦（同 #580 注释里的坑：只跳 own 分支会漏 FIFO 面）
+                sequence_exempt_ids = {o["task_id"] for o in own}
+                earlier_pending = [r for r in earlier_pending
+                                   if r["task_id"] not in sequence_exempt_ids]
+                own = []
+            else:
+                return False, (f"你（{cur_role}）还有 pending_review 任务待欧阳锋终审：{own_ids}。"
+                               f"审查等待期不接新单（#504）——等终审后再领取 {task_id}；"
+                               f"编排指令多单连发场景用 claim --sequence（#655）")
         if earlier_pending:
             ids = ", ".join(f"#{r['seq']} {r['task_id']}" for r in earlier_pending)
             return False, f"队列前方还有 pending_review 任务未终审：{ids}。必须等它们 reviewed 后才能领取 {task_id}"
@@ -228,6 +243,13 @@ def can_claim(task_id: str, rows: list[dict] | None = None, instance: str = "") 
     if same_instance_claimed:
         ids = ", ".join(f"#{r['seq']} {r['task_id']}" for r in same_instance_claimed)
         return False, f"你（实例 {instance} / 同角色）还有 claimed 任务未释放：{ids}。必须等它们释放后才能领取 {task_id}"
+
+    if sequence_exempt_ids:
+        # #655：走到这里 = 连发放行（own pending 已剔除，FIFO/claimed 锁全过）
+        exempt = ", ".join(f"#{r['seq']} {r['task_id']}" for r in rows
+                           if r["task_id"] in sequence_exempt_ids)
+        return True, (f"sequential 连发放行（--sequence，#655）：前单 {exempt} pending_review 挂审中——"
+                      f"显式多单连发不占 #504 等待窗口，前单照常等欧阳锋终审")
 
     return True, f"任务 {task_id} 可领取"
 
