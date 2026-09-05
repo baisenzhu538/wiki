@@ -737,3 +737,7 @@
 - [2026-09-06 02:17] 🔔 KDO 新提审 1 单：#643，请终审（新提审）
 - [2026-09-06 02:27] 🔔 KDO 新提审 1 单：#648，请终审（新提审）
 - [2026-09-06 02:30] 复审两单 PASS A-：#643 laowantong-qingdanti-stress-test（清单体压力测试，O0 溯源 28 数据点+引语逐字全命中）/ #647 huangyaoshi-queue-gate-two-fixes（queue/门禁两小修，251 tests 全过+活体 241 行寻址生效）；#642 终审负向判词更正注记已追加（两文件 00_inbox 在盘，GBK 编码坑 find 复现命令落盘）
+- [2026-09-06 02:32] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#648（huangyaoshi 的单，挂审 15min）（事件驱动：有待终审）
+- [2026-09-06 02:42] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#648（huangyaoshi 的单，挂审 25min）（事件驱动：有待终审）
+- [2026-09-06 02:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#648（huangyaoshi 的单，挂审 35min）（事件驱动：有待终审）
+- [2026-09-06 03:00] 终审 #648 huangyaoshi-graph-index-stall-rootfix PASS A-（根因三层附证据；哨兵陈旧分支自愈且对#622红线修订有声明，认可；mtime前跳判据认可；独立复跑 517 passed；重建后 lag -0.89h 下一拍回落）
