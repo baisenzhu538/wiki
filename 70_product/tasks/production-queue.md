@@ -531,7 +531,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#647 task_20260906_huangyaoshi-queue-gate-two-fixes｜huangyaoshi｜提审 09-06 02:03｜60_feedback/tasks/task_20260906_huangyaoshi-queue-gate-two-fixes.md~~ → 已终审 PASS A-（2026-09-05 欧阳锋）
 - ~~#643 task_20260905_laowantong-qingdanti-stress-test-private-board｜laowantong｜提审 09-06 02:07｜60_feedback/tasks/task_20260905_laowantong-qingdanti-stress-test-private-board.md~~ → 已终审 PASS A-（2026-09-05 欧阳锋）
 - ~~#648 task_20260906_huangyaoshi-graph-index-stall-rootfix｜huangyaoshi｜提审 09-06 02:17｜60_feedback/tasks/task_20260906_huangyaoshi-graph-index-stall-rootfix.md~~ → 已终审 PASS A-（2026-09-05 欧阳锋）
-- #649 task_20260906_huangyaoshi-transcribe-timeout-and-aliases｜huangyaoshi｜提审 09-06 03:47｜60_feedback/tasks/task_20260906_huangyaoshi-transcribe-timeout-and-aliases.md
+- ~~#649 task_20260906_huangyaoshi-transcribe-timeout-and-aliases｜huangyaoshi｜提审 09-06 03:47｜60_feedback/tasks/task_20260906_huangyaoshi-transcribe-timeout-and-aliases.md~~ → 已终审 PASS A-（2026-09-05 欧阳锋）
 - #650 task_20260906_huangyaoshi-launcher-hermes-profile-flag｜huangyaoshi｜提审 09-06 03:57｜60_feedback/tasks/task_20260906_huangyaoshi-launcher-hermes-profile-flag.md
 
 <!-- REVIEW-PENDING-END -->
@@ -542,7 +542,6 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 
 > 王语嫣维护看板时处理：诊断 → 写任务单 → 入队后把对应行划掉。编排规则不变，这里只解决「没人被通知」。
 
-- ~~00_inbox/学习candy合集/Live257：重讲十指讲香模型 内测 Candy-逐字稿.md｜P2｜133557B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：同源随 #610（素材锚=根目录版，两版本仅格式差）
 - ~~00_inbox/学习candy合集/Live260：AI口喷基本功内测 Candy-逐字稿.md｜P2｜36368B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：同源沿用——09-01 01:01 已诊（传播限制），不入编排
 - ~~00_inbox/学习candy合集/大卫·布鲁克斯：当代文化的3个主流谎言（TED）-视频逐字稿.md｜P2｜58091B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置沿用（09-02 王语嫣）：09-01 03:05 已诊（BV1kp4y1v7p9 三采族）
 - ~~00_inbox/学习candy合集/大卫·布鲁克斯：芝大毕业演讲（求知是有代价的）-视频逐字稿.md｜P2｜35008B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置沿用（09-02 王语嫣）：09-01 已诊（BV1rp4y1e76Y big 版为准）
@@ -662,6 +661,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~00_inbox/pending-cards/distill-human-20260905-03.md｜P2｜1050B｜检测到 09-04 20:31｜待王语嫣编排~~ → 门禁 PASS（09-06 王语嫣）：#645 返工二轮候选卡，机械门禁 32/32 溯源在+锚全非空+layer=external29/human3 与 SUMMARY 一致+抽读正文锚文真实；随 #645 终审+老朱肉眼验收定去留
 - ~~00_inbox/启动会-2026年全新AI大航海-逐字稿.md｜P2｜79863B｜检测到 09-05 16:21｜待王语嫣编排~~ → ⚠️ 前次误划销已撤销（09-06 02:00 王语嫣）：01:44 区间兜扫误挂「#645 候选卡」假去向——本件是真素材非蒸馏卡，错误模式待入错误模式库；正确处置见 diag_20260906_wangyuyan-launchmeeting-triage
 - 00_inbox/wechat-collect/src_wechat_4b6327b374540e2e.md｜P2｜116772B｜检测到 09-05 19:51｜待王语嫣编排
+- 00_inbox/pending-cards/case-wechat-4b6327b374540e2e.md｜P2｜5682B｜检测到 09-05 20:01｜待王语嫣编排
 
 <!-- INBOX-PENDING-END -->
 
@@ -1162,7 +1162,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 444 | `task_20260823_huangyaoshi-queue-force-ledger-assignee-role` | queue_transition 交接语义加固（P1，风清扬建议 1+3 裁定合并）：--force/--evidence 例外台账 + frontmatter assignee 角色名口径 | reviewed | huangyaoshi | 台账+口径改造+用例 | #441 complete --force 绕过 F-034 实证 | `60_feedback/tasks/task_20260823_huangyaoshi-queue-force-ledger-assignee-role.md` | 留痕→archive/inbox-slim&main-reviewed-20260831|
 | 647 | `task_20260906_huangyaoshi-queue-gate-two-fixes` | queue/门禁族两小修：①E040 加 _git_ignored 判定转 WARNING（gitignore 豁免分支）②queue_transition seq 寻址补扫 60_feedback/tasks/ 或报错提示传完整 id | reviewed | huangyaoshi | 两修 diff+回归用例（#645 两 friction 场景复现） | 无 | `60_feedback/tasks/task_20260906_huangyaoshi-queue-gate-two-fixes.md` | 黄药师 #645 两 friction（09-06 王语嫣裁定采纳）；欧阳锋终审 |
 | 648 | `task_20260906_huangyaoshi-graph-index-stall-rootfix` | graph_index 停拍根因+重建+哨兵复查：infra-liveness 六拍连续增长 48→53h 实证（#622 复发） | reviewed | huangyaoshi | 根因结论+重建后 graph/search 时差回落+哨兵回归 | #646 终审后（同角色排队） | `60_feedback/tasks/task_20260906_huangyaoshi-graph-index-stall-rootfix.md` | 王语嫣值守拍立项（09-06，真实故障非回声）；欧阳锋终审 |
-| 649 | `task_20260906_huangyaoshi-transcribe-timeout-and-aliases` | 采集链两修：①wechat 转写 15min 超时死循环根治（148MB 视频每拍重下实证，修前可停拍止血修后必恢复）②pre-submit ALIASES checker 取 basename | pending_review | huangyaoshi | 148MB 视频完整转写产出+seen+超时留痕；ALIASES 场景复跑不误报 | 无 | `60_feedback/tasks/task_20260906_huangyaoshi-transcribe-timeout-and-aliases.md` | 老朱链接卡循环+老顽童 #643 friction（03:07 王语嫣值守立项）；欧阳锋终审 |
+| 649 | `task_20260906_huangyaoshi-transcribe-timeout-and-aliases` | 采集链两修：①wechat 转写 15min 超时死循环根治（148MB 视频每拍重下实证，修前可停拍止血修后必恢复）②pre-submit ALIASES checker 取 basename | reviewed | huangyaoshi | 148MB 视频完整转写产出+seen+超时留痕；ALIASES 场景复跑不误报 | 无 | `60_feedback/tasks/task_20260906_huangyaoshi-transcribe-timeout-and-aliases.md` | 老朱链接卡循环+老顽童 #643 friction（03:07 王语嫣值守立项）；欧阳锋终审 |
 | 650 | `task_20260906_huangyaoshi-launcher-hermes-profile-flag` | 拉起器 hermes 通道角色机制修正：TOOL_ENV env 失效改 -p flag（段王爷 P0 实证三 profile 全错载默认）+ 历史影响面核查 | pending_review | huangyaoshi | launcher diff+狗粮自称核验+历史抽验清单 | 无 | `60_feedback/tasks/task_20260906_huangyaoshi-launcher-hermes-profile-flag.md` | 段王爷建议书（03:07 王语嫣裁定采纳，P0：历史 hermes 拉起疑同 profile 干活）；欧阳锋终审 |
 | 651 | `task_20260906_huangyaoshi-inbox-subdir-autoscan` | watch_inbox 顶层新子目录自动纳管（SCAN_SUBDIRS 白名单外不可见——AI大航海20260905 实证盲区，白名单族缺口第三例） | queued | huangyaoshi | 测试子目录下一拍登记出现+AI大航海补登记+回归不红 | 无 | `60_feedback/tasks/task_20260906_huangyaoshi-inbox-subdir-autoscan.md` | 03:37 王语嫣值守立项；欧阳锋终审 |
 | 652 | `task_20260906_huangyaoshi-agent-behavior-constitution` | 全Agent行为宪法 v1.0：实事求是准则+调研基本技能挂载（五条行为规则；CLI startup+拉起器注入；hermes 端依赖 #650；狗粮验收） | queued | huangyaoshi | 宪法落盘+CLI注入 diff+抽 2 实例狗粮实测 | #650 后（hermes 注入段） | `60_feedback/tasks/task_20260906_huangyaoshi-agent-behavior-constitution.md` | 老朱 09-06 直令拍板；A5 理论依据+F-035 活体实证；欧阳锋终审 |

@@ -1,16 +1,19 @@
 ---
-id: task_20260906_huangyaoshi-transcribe-timeout-and-aliases
-title: "采集链两修：①wechat 转写 15min 超时死循环根治（148MB 视频每拍重下实证）②pre-submit ALIASES checker 取 basename"
-seq: 649
-status: pending_review
-assignee: huangyaoshi
-created_by: wangyuyan
-created_at: 2026-09-06
-decision_source: 王语嫣值守拍立项（老朱 09-06 链接卡转写死循环 + 老顽童 #643 friction）
-reviewer: 欧阳锋
-instance: huangyaoshi
-updated_at: '2026-09-05T19:47:42.102342+00:00'
+id: task_20260906_huangyaoshi-transcribe-timeout-and-aliases
+title: "采集链两修：①wechat 转写 15min 超时死循环根治（148MB 视频每拍重下实证）②pre-submit ALIASES checker 取 basename"
+seq: 649
+status: reviewed
+assignee: huangyaoshi
+created_by: wangyuyan
+created_at: 2026-09-06
+decision_source: 王语嫣值守拍立项（老朱 09-06 链接卡转写死循环 + 老顽童 #643 friction）
+reviewer: 欧阳锋
+instance: huangyaoshi
+updated_at: '2026-09-05T20:03:44.889735+00:00'
 evidence: 60_feedback/tasks/task_20260906_huangyaoshi-transcribe-timeout-and-aliases.md
+reviewed_by: 欧阳锋
+review_date: '2026-09-05'
+grade: A-
 ---
 
 # #649 采集链两修（黄药师）
@@ -89,3 +92,38 @@ evidence: 60_feedback/tasks/task_20260906_huangyaoshi-transcribe-timeout-and-ali
 ### ③ 负向判词 / ④ 存在性核查
 
 🟡 ⚠️ 意见书含宽负向词（乱码）无核查锚点——按需人工确认（#433 不硬杀）；锚点：⚪ 无锚点
+
+## 终审记录
+
+> 欧阳锋终审意见书 · 2026-09-06 03:59 · verdict=PASS · grade=A- · methodology v2.3 · 五维 25/23/18/15/14 = 95
+
+**结论**：PASS A-。采集链两修均实证闭环、证据可复现，无 Critical/High 阻断项；仅修二回归计数口径有 1 处小瑕（不阻断）。
+
+**五字段核验（F-034）**：交付物 / 完成内容 / 验证 / 边界 / 需要谁动作 五字段齐备在位。
+
+**修法合理性**
+- 修一（转写超时死循环）：取任务三选一的选 1——timeout 挂 ffprobe 精确时长×1.0+300s（下限 900s 上限 4h，ffprobe 缺席按 60s/MB 体量兜底）；run_transcribe 收敛 L416/L512 两处固定 900s 调用点，新增失败 ledger（transcribe_fails.txt）+ 同素材 3 败熔断，scan_downloaded_videos 顺带统一走 knowledge_ize。选 2 异步任务化对该死循环过重、选 3 降 tiny 违反 #634 质量裁定的取舍判断成立。
+- 修二（ALIASES basename）：checker 只取 basename + 统一剥扩展名比对，保留 #569 日期工件豁免；目录段携带素材名不入比对（王语嫣裁决口径）已用 test_aliases_check_directory_carried_names_out_of_scope 双向钉死防无声回退。真根因（目录段当素材名 + .md 剥扩展名）定位准确。
+
+**回归证据（亲测复跑）**
+- `python -m pytest kdo-tools/tests/ -q` → 272 passed（含修一新增 6 例）
+- KDO CLI 仓 `python -m pytest tests/ -q` → 625 passed, 1 skipped（含修二新增 4 例）
+- 修二验收复跑 `kdo pre-submit --files 老顽童-20260905-qingdanti-skill-stress-test-report.md` → ALIASES 0 issues / PASS（#643 friction 场景不再误报）
+- 两仓 commit 均在盘：vault 49928fa76（修一）、KDO CLI 仓 4b0e45f（修二）
+
+**产出物实证**
+- `00_inbox/wechat-collect/src_wechat_4b6327b374540e2e.md`：116772 B / 3218 行；头段 [00:00]「妮妮妮 别吵架 也别骂架」/ 尾段 [65:02]「我们在一堂的课堂上不见不散」，覆盖 3905s 全长；header 自述 model=small、cpu、faster-whisper、耗时 2475s（RTF 0.63）
+- 知识化 `case-wechat-4b6327b374540e2e.md` 事实/规律/洞察三层次在盘
+- `seen_links.txt` 末行含 `https://weixin.qq.com/sph/A86PKGRQTu`；调度器 wechat-link-monitor State=Ready / Scheduled Task State=Enabled（03:51 已恢复拍跑，mp4 mtime 02:51 与停拍窗一致）
+
+**存在性核查**（#433 锚点）
+- 逐项核对：两仓 git diff、测试新增用例、00_inbox 两产物、seen 行、调度器状态均在盘。
+- 机器预审两处「声称但未入仓（untracked）」为 00_inbox gitignore 铁律所致（.gitignore:10），任务边界节已显式声明，非遗漏。
+
+**发现问题（均不阻断，放行）**
+- 🟢 修二自述「+5 回归」与 commit 实增 4 个 test_ 函数（另 1 个 _card_with_aliases helper）计数差 1。TODO：下次执行报告统一按 test_ 函数计数。
+- 🟢 00_inbox 产物不在 git 属预期（gitignore 铁律），机器预审红字无需处理。
+
+**需要谁动作**
+- 黄药师：无需返工。
+- 王语嫣：按执行报告知会老朱（死循环根治 + 148MB 视频完整稿入库可作素材消费）。
