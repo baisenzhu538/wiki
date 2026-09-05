@@ -16,6 +16,16 @@
   Handle/_vlm_output/ocr_ingest 等大目录树继续排除（#605 裁剪目的仍成立）；
   白名单目录内的 _ 前缀目录段与 wechat-collect/knowledge/（promote 中间产物，
   case 卡另有 pending-cards/ 落点登记）不扫，防重复登记。
+
+#651（2026-09-06 王语嫣立项）：白名单外顶层子目录目录级登记——修法二（稳者）。
+  实证：AI大航海20260905/ 整夹 14 件投放后 0 登记全盲，靠人肉指出才发现。
+  顶层发现白名单外子目录 → 只登记一行「目录待编排」让编排者知晓裁决，
+  目录内文件不全扫（Handle the business 1515 件/最大 6138 件，全扫=看板洪水，
+  #605 裁剪目的仍成立）；编排者要文件级跟踪就把该目录加进 SCAN_SUBDIRS。
+  目录签名=直接子项名+mtime（一层 scandir，逐拍零递归）；签名变化会再登记
+  （已划销的目录再进件=新素材，重推通知）。
+  一次性基线：--seed-top-dirs 把部署时刻已存在的顶层子目录记为已见（只写 state
+  不登记不通知）——存量目录是历史投放非新素材，否则新逻辑上线首拍 80 目录全登记。
 """
 
 import os, json, hashlib
@@ -50,7 +60,8 @@ WATCH_EXTS = {".txt", ".md", ".json", ".pdf", ".docx", ".png", ".jpg"}
 # 白名单=管线落点（#605 裁剪误伤 wechat-collect/video_transcripts*，05:47 四件漏登记实证）；
 # Handle/_vlm_output/ocr_ingest 等大目录树继续排除。增删落点改本常量即可。
 SCAN_SUBDIRS = ("pending-cards", "wechat-collect", "video_transcripts", "video_transcripts_small")
-# 白名单目录内不扫的子目录段：_ 前缀（_needs_rerun/_processed 等内部区）+
+# 不扫的目录段（白名单目录内 + #651 顶层目录级登记同用一份）：_ 前缀
+# （_needs_rerun/_processed/_vlm_output 等内部区）+
 # knowledge/（wechat_promote 中间产物——case 卡另有 pending-cards/ 落点登记，扫了=重复派发）
 SKIP_SUBDIR_PARTS = {"knowledge"}
 
@@ -67,6 +78,57 @@ def _hash_file(path: Path) -> str:
         return hashlib.md5(f"{path.name}:{stat.st_size}:{stat.st_mtime}".encode()).hexdigest()
     except OSError:
         return ""
+
+
+def _dir_signature(path: Path) -> str:
+    """目录签名：直接子项名+mtime（一层，不递归）——#651 目录级登记的判重键。
+
+    递归全树算签名会在大目录（6000+ 件）上逐拍烧 IO；只看一层意味着更深层
+    变化不再触发——该目录要深跟踪就让编排者加进 SCAN_SUBDIRS。
+    """
+    parts = []
+    try:
+        for child in path.iterdir():
+            try:
+                parts.append(f"{child.name}:{child.stat().st_mtime_ns}")
+            except OSError:
+                parts.append(child.name)
+    except OSError:
+        return ""
+    return hashlib.md5("\n".join(parts).encode("utf-8")).hexdigest()
+
+
+def _unknown_top_dirs() -> list[Path]:
+    """#651：白名单外的顶层子目录（_ 前缀/SKIP 段/白名单目录除外；符号链接不入）。"""
+    return [
+        p for p in INBOX.iterdir()
+        if p.is_dir() and not p.is_symlink()
+        and not p.name.startswith("_")
+        and p.name not in SKIP_SUBDIR_PARTS
+        and p.name not in SCAN_SUBDIRS
+    ]
+
+
+def seed_top_dirs(keep: str | None = None) -> list[str]:
+    """#651 一次性基线：把部署时刻已存在的顶层子目录记为已见（只写 state，不登记不通知）。
+
+    存量目录是历史投放、编排者已知——不设基线则新逻辑上线首拍几十个目录全量
+    登记冲看板（08-31 state 重建 7907 行洪水同类事故）。--keep <名> 留出例外目录
+    不基线化（本单用它留出 AI大航海20260905 让下一拍正式补登记）。
+    """
+    state = json.loads(STATE_FILE.read_text(encoding="utf-8") or "{}") if STATE_FILE.exists() else {}
+    seeded = []
+    for p in _unknown_top_dirs():
+        if keep and p.name == keep:
+            continue
+        key = f"00_inbox/{p.name}/"
+        if state.get(key):
+            continue
+        state[key] = _dir_signature(p)
+        seeded.append(key)
+    STATE_FILE.parent.mkdir(parents=True, exist_ok=True)
+    STATE_FILE.write_text(json.dumps(state, indent=2, ensure_ascii=False), encoding="utf-8")
+    return seeded
 
 
 def _classify(name: str) -> str:
@@ -107,6 +169,24 @@ def scan() -> list[dict]:
                 continue
             scan_files.append(p)
 
+    # #651（2026-09-06 王语嫣立项）：白名单外顶层子目录目录级登记——修法二（稳者）。
+    # AI大航海20260905/ 整夹 14 件投放后 0 登记全盲实证；只登记一行让编排者知晓，
+    # 不全扫目录内文件（大目录树全扫=看板洪水，#605 裁剪目的仍成立）。
+    for p in _unknown_top_dirs():
+        key = f"00_inbox/{p.name}/"
+        sig = _dir_signature(p)
+        if state.get(key) == sig:
+            continue
+        discoveries.append({
+            "file": key,
+            "priority": _classify(p.name),
+            "size": sum(1 for f in p.rglob("*") if f.is_file()),
+            "ext": "(dir)",
+            "is_dir": True,
+            "detected_at": datetime.now(timezone.utc).isoformat(),
+        })
+        state[key] = sig
+
     for path in scan_files:
         fname = path.name
         ext = os.path.splitext(fname)[1].lower()
@@ -127,6 +207,11 @@ def scan() -> list[dict]:
 
     STATE_FILE.write_text(json.dumps(state, indent=2, ensure_ascii=False), encoding="utf-8")
     return discoveries
+
+
+def _size_label(d: dict) -> str:
+    """登记行的体量列：文件=B，目录=#651 件数（目录级登记一行，内件不全扫）。"""
+    return f"{d['size']}件" if d.get("is_dir") else f"{d['size']}B"
 
 
 def dispatch(discoveries: list[dict]):
@@ -151,7 +236,7 @@ def dispatch(discoveries: list[dict]):
             "|------|------|------|------|",
         ]
         for d in discoveries:
-            lines.append(f"| {d['file']} | {d['priority']} | {d['size']}B | {d['ext']} |")
+            lines.append(f"| {d['file']} | {d['priority']} | {_size_label(d)} | {d['ext']} |")
         lines.append(f"\n**动作**：王语嫣诊断编排（六层交叉比对/质量门）→ 任务单入队 → 老顽童生产。任何素材不得绕过质量门直接产卡。\n")
         dispatch_file.write_text("\n".join(lines), encoding="utf-8")
         print(f"dispatched: {dispatch_file.name}（{len(discoveries)} 项 → 王语嫣质量门）")
@@ -221,7 +306,9 @@ def update_orchestration_board(discoveries: list[dict]):
         fpath = d["file"].replace("\\", "/")
         if fpath in known:
             continue
-        items.append(f"- {fpath}｜{d['priority']}｜{d['size']}B｜检测到 {now}｜待王语嫣编排")
+        # #651：目录级登记行尾注明口径——编排者裁决纳管，内件不在扫描面
+        scope = "（#651 目录级登记：内件不在扫描面，需文件级跟踪→加入 SCAN_SUBDIRS）" if d.get("is_dir") else ""
+        items.append(f"- {fpath}｜{d['priority']}｜{_size_label(d)}｜检测到 {now}｜待王语嫣编排{scope}")
         known.add(fpath)
         added += 1
     if not added and BOARD_BEGIN in text:
@@ -256,6 +343,15 @@ def update_orchestration_board(discoveries: list[dict]):
 
 
 if __name__ == "__main__":
+    # #651 一次性基线（部署动作，非常规节拍）：
+    #   python watch_inbox.py --seed-top-dirs [--keep <目录名>]
+    if "--seed-top-dirs" in sys.argv:
+        keep = sys.argv[sys.argv.index("--keep") + 1] if "--keep" in sys.argv else None
+        rows = seed_top_dirs(keep)
+        print(f"seeded {len(rows)} top dirs（keep={keep}）:")
+        for r in rows:
+            print(f"  {r}")
+        raise SystemExit(0)
     new_files = scan()
     if new_files:
         dispatch(new_files)
