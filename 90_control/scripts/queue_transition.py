@@ -898,6 +898,24 @@ def _git_tracked(repo_root: Path, rel: str) -> bool:
         return True
 
 
+def _git_ignored(repo_root: Path, rel: str) -> bool:
+    """#647：路径是否命中 .gitignore（00_inbox/ 等铁律不入仓区）。
+
+    判定用 `git check-ignore`——零维护、跟随真实规则（#645 friction 实证：候选卡
+    样本落 00_inbox 无法 commit，E040 硬拦只能改写交付物措辞绕行）。git 异常
+    fail-open 返回 False（维持硬拦现状，不因环境异常放大放行面，与 _git_tracked 同款）。
+    """
+    try:
+        r = subprocess.run(
+            ["git", "-C", str(repo_root), "check-ignore", "-q", "--", rel],
+            capture_output=True, timeout=15,
+        )
+        return r.returncode == 0
+    except Exception as e:
+        print(f"[warn] E040 门禁组件 _git_ignored({rel}) 异常按未忽略处理: {e}", file=sys.stderr)
+        return False
+
+
 def _check_deliverables_committed(task_file: Path, fm: dict[str, Any],
                                   wiki_root: Path | None = None) -> tuple[bool, str, str]:
     """#522：执行报告交付物必须已入仓（已跟踪+无未提交改动），未入仓即拦。
@@ -947,6 +965,7 @@ def _check_deliverables_committed(task_file: Path, fm: dict[str, Any],
 
     problems: list[str] = []
     external: list[str] = []
+    ignored: list[str] = []  # #647：gitignore 豁免路径（铁律不入仓，盘上验收）
     for rel in paths:
         # 库外绝对路径（D:/tech-wiki 等其他库/盘）：不属任何已知仓 git 无法核验
         # → WARNING 不拦（红线 4：识别不出不误拦——#534 狗粮实证撞线）
@@ -956,6 +975,11 @@ def _check_deliverables_committed(task_file: Path, fm: dict[str, Any],
         repo = KDO_REPO_ROOT if "Knowledge Delivery OS" in rel else wiki_root
         # KDO 仓路径给的是绝对/仓外相对——取仓内相对部分
         repo_rel = rel.split("Knowledge Delivery OS 0.0.1/")[-1] if repo == KDO_REPO_ROOT else rel
+        # #647：gitignore 豁免分支——命中 .gitignore（00_inbox/ 等）不入仓是既定铁律，
+        # 盘上存在即验收，转 WARNING 不硬拦
+        if _git_ignored(repo, repo_rel):
+            ignored.append(rel)
+            continue
         if not _git_tracked(repo, repo_rel):
             problems.append(f"untracked: {rel}")
             continue
@@ -972,7 +996,10 @@ def _check_deliverables_committed(task_file: Path, fm: dict[str, Any],
                  "节内路径用反引号包裹（如 `90_control/x.py`），下一粗体字段/## 标题即节边界；"
                  "命令文本（如 kdo pre-submit -f <路径>）勿放交付物节")
         return False, msg, ""
-    warn = f"交付物入仓核验通过（{len(paths) - len(external)} 个路径已跟踪且无脏改动）"
+    warn = f"交付物入仓核验通过（{len(paths) - len(external) - len(ignored)} 个路径已跟踪且无脏改动）"
+    if ignored:
+        warn += (f"；{len(ignored)} 个 gitignore 豁免路径（_git_ignored：铁律不入仓，"
+                 f"盘上验收不强制 commit）：{'、'.join(ignored[:3])}")
     if external:
         warn += f"；{len(external)} 个库外绝对路径无法 git 核验（WARNING 不拦，人工自核）：{'、'.join(external[:3])}"
     return True, "", warn
@@ -1627,6 +1654,23 @@ def _print_recent_reviews(role: str, hours: int = 48) -> None:
     print("\n".join(rows) if rows else "  (无)")
 
 
+def _resolve_task_ref(ref: str, rows: list[dict]) -> tuple[str | None, str]:
+    """#647：seq 号寻址——`647`/`#647` 解析为队列行 task_id。
+
+    #645 friction 实证：跨目录任务单（60_feedback/tasks/）seq 号查不到只能传完整
+    id，claim/complete 同病。消除坑而非提示坑：数字引用先按队列行 seq 解析；
+    非数字引用原样返回；数字未命中返回 None + 指路提示。所有走 task_id 的动作共用。
+    """
+    s = ref.strip().lstrip("#").strip()
+    if not s.isdigit():
+        return ref, ""
+    for r in rows:
+        if r["seq"] == s:
+            return r["task_id"], ""
+    return None, (f"任务 {ref} 不在生产队列中（seq 号未命中任何队列行；"
+                  f"先跑 myqueue <角色> 查名下任务，或传完整 task_id）")
+
+
 def main() -> int:
     if yaml is None:
         print("ERROR: PyYAML is required. Install with: pip install pyyaml", file=sys.stderr)
@@ -1672,6 +1716,13 @@ def main() -> int:
         return 1
 
     task_id = args[1]
+
+    # #647：seq 号寻址——数字引用先解析成队列行 task_id，未命中即报错指路
+    _resolved, _hint = _resolve_task_ref(task_id, parse_queue())
+    if _resolved is None:
+        print(_hint, file=sys.stderr)
+        return 1
+    task_id = _resolved
 
     instance = None
     evidence = None

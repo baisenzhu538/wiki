@@ -59,9 +59,12 @@ def parse_queue(path: Path = QUEUE_PATH) -> list[dict]:
             # Skip blank lines between rows
             if line.strip() == "":
                 continue
-            # End of table
+            # #647：表段可被段间块（划销清单/PROPOSAL 等非表行）打断——实证
+            # production-queue.md 中 #430-444/#647/#648 落第二段，break 使后续
+            # 队列行整体不可见（claim 报「不在生产队列中」）。改为跳过非表行
+            # 继续扫到文件尾；下方 ≥5 列守卫继续过滤非队列表。
             if not line.startswith("|"):
-                break
+                continue
             cells = [c.strip() for c in line.strip("|").split("|")]
             if len(cells) < 5:
                 continue

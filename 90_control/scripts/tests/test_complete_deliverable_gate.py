@@ -168,3 +168,39 @@ def test_569_f034_missing_field_error_has_sample():
         ok, msg = qt._check_delivery_fields(tf, None)
     assert not ok
     assert "合法写法样例" in msg and "**交付物**" in msg
+
+
+def _repo_with_gitignore(tmp_path: Path) -> Path:
+    """#647 沙盒：带 00_inbox/ gitignore 规则的 tmp 仓（#645 friction 场景复现）。"""
+    repo = _repo(tmp_path)
+    (repo / ".gitignore").write_text("00_inbox/\n", encoding="utf-8")
+    (repo / "00_inbox").mkdir()
+    (repo / "00_inbox" / "candidate-card.md").write_text("候选卡样本\n", encoding="utf-8")
+    return repo
+
+
+def test_647_gitignored_deliverable_warns_not_blocks(tmp_path):
+    """#647 用例①：交付物命中 .gitignore（00_inbox/ 铁律不入仓）→ WARNING 不硬拦。
+
+    #645 friction 复现：候选卡样本落 00_inbox 无法 commit，门禁硬拦只能改写
+    交付物节措辞绕行——豁免分支落地后按「_git_ignored：盘上验收」放行。
+    """
+    repo = _repo_with_gitignore(tmp_path)
+    tf = _task(tmp_path,
+               "**完成内容**：产候选卡样本\n\n**交付物**：\n- `00_inbox/candidate-card.md`\n\n**验证**：过\n")
+    ok, msg, warn = qt._check_deliverables_committed(tf, {}, wiki_root=repo)
+    assert ok, f"gitignore 豁免分支未生效，仍硬拦: {msg}"
+    assert "gitignore 豁免" in warn and "盘上验收" in warn
+    assert "00_inbox/candidate-card.md" in warn
+
+
+def test_647_exemption_does_not_open_untracked_gate(tmp_path):
+    """#647 反例护栏：豁免分支不得放大放行面——同清单里非豁免 untracked 仍硬拦。"""
+    repo = _repo_with_gitignore(tmp_path)
+    (repo / "kdo-tools" / "loose.py").write_text("x=1\n", encoding="utf-8")  # 未 add 未忽略
+    tf = _task(tmp_path,
+               "**交付物**：\n- `00_inbox/candidate-card.md`\n- `kdo-tools/loose.py`\n\n**验证**：过\n")
+    ok, msg, _warn = qt._check_deliverables_committed(tf, {}, wiki_root=repo)
+    assert not ok, "豁免分支误放了非豁免 untracked 交付物"
+    assert "untracked" in msg and "kdo-tools/loose.py" in msg
+    assert "00_inbox" not in msg
