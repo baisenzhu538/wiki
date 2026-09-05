@@ -1,16 +1,24 @@
 ---
-id: task_20260906_huangyaoshi-agent-behavior-constitution
-title: "全Agent行为宪法 v1.0：实事求是准则+调研基本技能挂载（老朱09-06拍板，全agent强制，含飞书hermes端）"
-seq: 652
-status: in_progress
-assignee: huangyaoshi
-created_by: wangyuyan
-created_at: 2026-09-06
-decision_source: 老朱 09-06 直令（实事求是是一个准则，调研是一个基本技能挂载，所有 agent 必须遵守）；宪法条款来源=库内桥接卡/Y模型卡/AI大航海金矿A5/A73/B34+既有纪律
-reviewer: 欧阳锋
-instance: huangyaoshi
-updated_at: '2026-09-05T21:45:56.613830+00:00'
-evidence: 60_feedback/tasks/task_20260906_huangyaoshi-agent-behavior-constitution.md
+id: task_20260906_huangyaoshi-agent-behavior-constitution
+
+title: "全Agent行为宪法 v1.0：实事求是准则+调研基本技能挂载（老朱09-06拍板，全agent强制，含飞书hermes端）"
+
+seq: 652
+
+status: pending_review
+assignee: huangyaoshi
+
+created_by: wangyuyan
+
+created_at: 2026-09-06
+
+decision_source: 老朱 09-06 直令（实事求是是一个准则，调研是一个基本技能挂载，所有 agent 必须遵守）；宪法条款来源=库内桥接卡/Y模型卡/AI大航海金矿A5/A73/B34+既有纪律
+
+reviewer: 欧阳锋
+
+instance: huangyaoshi
+updated_at: '2026-09-05T21:54:13.878220+00:00'
+evidence: .agent/startup.md
 rework: true
 ---
 
@@ -83,6 +91,26 @@ rework: true
 | hongqigong profile 未注册 | `hermes profile list`（2026-09-06 04:41 实跑）输出 12 个 profile：default/basic-skills-coach/beikai/coaching-leadership-assistant/duanwangye/huangyaoshi/laowantong/laowantong-feishu/meeting-assistant/ouyangfeng/research-explosion-partner/skills-assistant——无 hongqigong；但 `C:/Users/Administrator/.hermes/profiles/hongqigong/` 目录存在 |
 | kimi 通道周配额耗尽 | `logs/headless-laowantong-20260906-043943.log`：`error: failed to run prompt: provider.auth_error: 403 You've reached your weekly (7-day) usage limit` |
 
+### 返工执行报告（黄药师 2026-09-06 05:51——欧阳锋 05:26 终审 FAIL P1 一句话修复）
+
+**交付物**
+- `.agent/startup.md`（L54 步骤 6.5 尾句按终审裁定改写：「技术概念 deep-research」→「技术/概念类→kdo query+grep（deep-research 未实装）」，git diff 单行变更可核）
+
+**完成内容**
+- 仅动 L54 尾句一处，其余四处措辞（宪法第三条 / PROMPT_TEMPLATE L67 / 基建公告 L63 / startup.md L5）终审已判「已按实证，无需改动」——未越界多改一处。【实证】锚点：`git diff -- .agent/startup.md` 仅 L54 一行变更
+- 修复后 L54 与 L5、宪法第三条三处口径一致：商业主体→business-research（唯一实装），技术/概念类→kdo query+grep 手工调研，deep-research 仅有原始素材不虚指【实证】（`ls -d 40_outputs/capabilities/skills/*research*` 仅 business-research/、crystallized-research-first/，research-core 目录不存在——沿用 04:55 报告存在性核查节同锚，本会话未复跑因盘面无变更）
+
+**验证**
+- `grep -c "deep-research" .agent/startup.md` → 仅 L54 一处命中，且该处为「未实装」否定式表述（不再作为可调用路径出现）【实证】
+- L54 与 L5 / 宪法第三条 / PROMPT_TEMPLATE L67 四处交叉比对，无一 residual「技术概念 deep-research」式虚指【实证】
+
+**边界**
+- 本返工仅一句话修复，不重开狗粮验收/不重注入（挂载点文本未变的部分不受影响；startup.md 是被引用的挂载点而非注入模板，L54 文案修正不改变注入机制）
+- hermes SOUL.md 6 处注入保持 04:55 报告状态，本次未触碰
+
+**需要谁动作**
+- 欧阳锋：复审 L54 一句话修复（其余四处已判合规），通过 → 宪法 v1.0 转 reviewed 生效
+
 ## 机器预审报告
 
 > 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
@@ -95,7 +123,7 @@ rework: true
 ✅ frontmatter 可解析 + F-034 五字段在位
 ### ③ 负向判词 / ④ 存在性核查
 
-🔴 意见书含负向断言（不存在）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
+✅ 执行报告无负向断言词（检查面=执行报告节）
 
 ## 终审记录
 
@@ -123,3 +151,4 @@ rework: true
 - 其余四处措辞（宪法第三条 / PROMPT_TEMPLATE / 基建公告 / startup.md L5）已按实证，无需改动。
 
 **结论**：宪法内容、三挂载点注入、狗粮验收、存在性核查节整体达 A- 质量；但 startup.md L54 虚指 deep-research 与宪法第三条自相矛盾，属 P1 阻断——终审不通过，退回 queued 返工。
+
