@@ -1,15 +1,18 @@
 ---
-id: task_20260906_huangyaoshi-queue-gate-two-fixes
-title: "queue/门禁族两小修：E040 gitignore 豁免分支 + seq 跨目录寻址补扫"
-seq: 647
-status: pending_review
-assignee: huangyaoshi
-created_by: wangyuyan
-created_at: 2026-09-06
-decision_source: 黄药师 #645 两条 friction（09-06 王语嫣裁定采纳）
-reviewer: 欧阳锋
-instance: huangyaoshi
-updated_at: '2026-09-05T18:03:35.789339+00:00'
+id: task_20260906_huangyaoshi-queue-gate-two-fixes
+title: "queue/门禁族两小修：E040 gitignore 豁免分支 + seq 跨目录寻址补扫"
+seq: 647
+status: reviewed
+assignee: huangyaoshi
+created_by: wangyuyan
+created_at: 2026-09-06
+decision_source: 黄药师 #645 两条 friction（09-06 王语嫣裁定采纳）
+reviewer: 欧阳锋
+instance: huangyaoshi
+updated_at: '2026-09-05T18:27:15.276660+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-09-05'
+grade: A-
 ---
 
 # #647 queue/门禁族两小修（黄药师）
@@ -60,3 +63,26 @@ updated_at: '2026-09-05T18:03:35.789339+00:00'
 ### ③ 负向判词 / ④ 存在性核查
 
 🔴 意见书含负向断言（缺失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
+
+
+## 终审记录（欧阳锋 2026-09-06 02:41）
+
+methodology_version: v2.3
+verdict: PASS A-
+blocking: 无阻断
+residual_risks:
+- 🟠 Medium（转王语嫣裁定，本单范围外，已落建议书）：`kdo-tools/generate-dashboard.py` 存在独立 parse_queue 副本（B3 同源病）——看板仍显示 229 任务、#647 暂不上板。去向：已落最小建议书 `60_feedback/diagnosis/diag_20260906_huangyaoshi-dashboard-parse-queue-copy.md`，待王语嫣裁定是否立项修复。
+- 🔵 Low（记录即可，不立项）：KDO 仓交付物同样吃 E040 豁免分支（check-ignore 两仓通用）但未单独造用例；loose-scan 兜底路径本就 WARNING 不拦、无硬拦可豁免——两处均无放大放行面风险，记录在案。
+scores: 溯源完整 24/25 · 逻辑骨架 24/25 · 暗知识密度 15/20 · 可操作性 14/15 · 表达质量 14/15（合计 91/100）
+
+### **存在性核查**
+- diff 已读：queue_gate.py `parse_queue` 遇非表行 `break`→`continue`（+注释）；queue_transition.py 新增 `_git_ignored()`（git check-ignore 判定，异常 fail-open 返回 False 维持硬拦）+ `_check_deliverables_committed` 增 `ignored` 分支（先查 gitignore，命中转 WARNING 不拦）+ `_resolve_task_ref()`（`647`/`#647`→task_id，未命中给指路提示）+ `main()` 在 task_id 分发前统一解析。
+- 回归实测：`python -m pytest 90_control/scripts/tests/ -q` → **251 passed**（与执行报告「基线 245 + 新增 6」一致，无红）；新用例两文件 18 passed。
+- 活体验证：① `queue_transition.py status` → 队列总任务数 241（修前 229，parse_queue 多段扫描生效，断表后 #647/#648 可见）；② `claim 647`（seq 号）→ 正确解析出完整 task_id 并报「是 pending_review，等待欧阳锋终审」（寻址生效，非「不在生产队列中」）；③ `_git_ignored(00_inbox/新录音2-妙记逐字稿.md)=True`、`40_outputs/...`、`90_control/scripts/queue_transition.py`=False（豁免判定准确）。
+- 建议书在盘：`60_feedback/diagnosis/diag_20260906_huangyaoshi-dashboard-parse-queue-copy.md`（801B）✅
+- 边界自洽：myqueue/register/status 在 `_resolve_task_ref` 前早退，seq 寻址只作用于 claim/complete/release/review 等 task_id 动作，无回归面扩大。
+
+### 独立验证（O0 诚实申报）
+- 本单为基建/脚本类，溯源对象=diff+测试+活体运行：diff 已逐段读（上方）；测试自跑（251 passed）；活体三条已跑。根因修正成立：初判「seq→任务单解析只扫 70_product/tasks/」实为「parse_queue 断表 break 致第二段行整体不可见 + seq 解析缺失」双层，两处同单消除。
+- E040 豁免分支 fail-open 方向正确（git 异常返回 False 维持硬拦，不放大放行面）；反例护栏用例（同清单非豁免 untracked 仍硬拦）通过。
+- 未改队列/看板/任务单 status（全程走 queue_transition）；本单复审结论落任务单终审记录节，属出口 2 标配。
