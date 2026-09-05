@@ -656,7 +656,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~00_inbox/pending-cards/distill-external-20260905-28.md｜P2｜1138B｜检测到 09-04 20:31｜待王语嫣编排~~ → 门禁 PASS（09-06 王语嫣）：#645 返工二轮候选卡，机械门禁 32/32 溯源在+锚全非空+layer=external29/human3 与 SUMMARY 一致+抽读正文锚文真实；随 #645 终审+老朱肉眼验收定去留
 - ~~00_inbox/pending-cards/distill-external-20260905-29.md｜P2｜993B｜检测到 09-04 20:31｜待王语嫣编排~~ → 门禁 PASS（09-06 王语嫣）：#645 返工二轮候选卡，机械门禁 32/32 溯源在+锚全非空+layer=external29/human3 与 SUMMARY 一致+抽读正文锚文真实；随 #645 终审+老朱肉眼验收定去留
 - ~~00_inbox/pending-cards/distill-human-20260905-03.md｜P2｜1050B｜检测到 09-04 20:31｜待王语嫣编排~~ → 门禁 PASS（09-06 王语嫣）：#645 返工二轮候选卡，机械门禁 32/32 溯源在+锚全非空+layer=external29/human3 与 SUMMARY 一致+抽读正文锚文真实；随 #645 终审+老朱肉眼验收定去留
-- ~~00_inbox/启动会-2026年全新AI大航海-逐字稿.md｜P2｜79863B｜检测到 09-05 16:21｜待王语嫣编排~~ → 门禁 PASS（09-06 王语嫣）：#645 返工二轮候选卡，机械门禁 32/32 溯源在+锚全非空+layer=external29/human3 与 SUMMARY 一致+抽读正文锚文真实；随 #645 终审+老朱肉眼验收定去留
+- ~~00_inbox/启动会-2026年全新AI大航海-逐字稿.md｜P2｜79863B｜检测到 09-05 16:21｜待王语嫣编排~~ → ⚠️ 前次误划销已撤销（09-06 02:00 王语嫣）：01:44 区间兜扫误挂「#645 候选卡」假去向——本件是真素材非蒸馏卡，错误模式待入错误模式库；正确处置见 diag_20260906_wangyuyan-launchmeeting-triage
 
 <!-- INBOX-PENDING-END -->
 
@@ -1136,6 +1136,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~[friction] [shared] - 2026-09-05 03:59 | huangyaoshi | #645 claim/complete | queue_transition.py claim 645 报「不在生产队列中」，任务单在 60_feedback/tasks/ 时 seq 号查不到，必须传完整 task_id；complete 同此 | 根因初判：seq→任务单解析只扫 70_product/tasks/，跨目录任务单 seq 不可寻址——建议解析器补扫 60_feedback/tasks/ 或在报错里提示用完整 id｜09-05 04:37｜待王语嫣复核处置｜[shared] - 2026-09-05 03:59 | huangyaoshi | #645 claim/complete | queue_transition.py claim 645 报「不在生产队列中」，任务单在 60_feedback/tasks/ 时 seq 号查不到，必须传完整 task_id；complete 同此 | 根因初判：seq→任务单解析只扫 70_product/tasks/，跨目录任务单 seq 不可寻址——建议解析器补扫 60_feedback/tasks/ 或在报错里提示用完整 id~~ → 并入 #647（09-06 王语嫣）：queue_transition seq 寻址补扫 60_feedback/tasks/ 或报错提示传完整 id（#645 claim/complete 实证）
 - ~~[gate-blocked] task_20260905_huangyaoshi-sysmon-cas-trace｜09-05 04:37｜待王语嫣复核处置｜2026-09-05 04:27:02｜task_20260905_huangyaoshi-sysmon-cas-trace｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生 / - 未提交改动: 90_control/scripts/sysmon-kdo-forensics.xml / 补救：｜huangyaoshi~~ → 回声划销（09-06 王语嫣）：#646 补 commit 后提审成功，现 pending_review
 - ~~[gate-blocked] role-liveness｜09-05 05:07｜待王语嫣复核处置｜2026-09-05 05:07:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 4511.7), ('cli', 38.9)]）｜role_registry check-liveness｜role_registry~~ → 划销（09-06 王语嫣）：#643 claimed 在身非死亡空转；值守补拉时心跳自然刷新，无单不空拉
+- [gate-blocked] task_20260905_huangyaoshi-sysmon-cas-trace｜09-06 01:57｜待王语嫣复核处置｜2026-09-06 01:55:15｜task_20260905_huangyaoshi-sysmon-cas-trace｜F-035-负向判词｜意见书含负向断言（不存在）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
