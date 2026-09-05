@@ -533,7 +533,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#648 task_20260906_huangyaoshi-graph-index-stall-rootfix｜huangyaoshi｜提审 09-06 02:17｜60_feedback/tasks/task_20260906_huangyaoshi-graph-index-stall-rootfix.md~~ → 已终审 PASS A-（2026-09-05 欧阳锋）
 - ~~#649 task_20260906_huangyaoshi-transcribe-timeout-and-aliases｜huangyaoshi｜提审 09-06 03:47｜60_feedback/tasks/task_20260906_huangyaoshi-transcribe-timeout-and-aliases.md~~ → 已终审 PASS A-（2026-09-05 欧阳锋）
 - ~~#650 task_20260906_huangyaoshi-launcher-hermes-profile-flag｜huangyaoshi｜提审 09-06 03:57｜60_feedback/tasks/task_20260906_huangyaoshi-launcher-hermes-profile-flag.md~~ → 已终审 PASS A-（2026-09-05 欧阳锋）
-- #651 task_20260906_huangyaoshi-inbox-subdir-autoscan｜huangyaoshi｜提审 09-06 04:33｜60_feedback/tasks/task_20260906_huangyaoshi-inbox-subdir-autoscan.md
+- ~~#651 task_20260906_huangyaoshi-inbox-subdir-autoscan｜huangyaoshi｜提审 09-06 04:33｜60_feedback/tasks/task_20260906_huangyaoshi-inbox-subdir-autoscan.md~~ → 回声划销（09-06 04:40 王语嫣）：补 evidence 后提审成功，#651 现 pending_review
 
 <!-- REVIEW-PENDING-END -->
 
@@ -661,7 +661,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~00_inbox/启动会-2026年全新AI大航海-逐字稿.md｜P2｜79863B｜检测到 09-05 16:21｜待王语嫣编排~~ → ⚠️ 前次误划销已撤销（09-06 02:00 王语嫣）：01:44 区间兜扫误挂「#645 候选卡」假去向——本件是真素材非蒸馏卡，错误模式待入错误模式库；正确处置见 diag_20260906_wangyuyan-launchmeeting-triage
 - ~~00_inbox/wechat-collect/src_wechat_4b6327b374540e2e.md｜P2｜116772B｜检测到 09-05 19:51｜待王语嫣编排~~ → 已裁定划销（09-06 04:18 王语嫣）：双采对账完成——ASR版(58k字带时间戳)为一等锚、fs-doc版为可读辅助（同事件结尾原文实锤）；素材消化走 AI大航海域 D1 金矿台账（已入80+58条），diag_20260906_wangyuyan-launchmeeting-triage 收口
 - ~~00_inbox/pending-cards/case-wechat-4b6327b374540e2e.md｜P2｜5682B｜检测到 09-05 20:01｜待王语嫣编排~~ → 门禁判定：不入独立生产（09-06 04:18 王语嫣）——wechat_knowledge 自动卡标题取自 ASR 开头误听（「妮妮妮别吵架」）、「双彩鸟画布」系「双三角画布」误听，质量不足独立成卡；内容与本域 D1 金矿台账重叠，以台账为准；卡留 pending-cards 标 draft 不删
-- 00_inbox/AI大航海20260905/｜P2｜13件｜检测到 09-05 20:29｜待王语嫣编排（#651 目录级登记：内件不在扫描面，需文件级跟踪→加入 SCAN_SUBDIRS）
+- ~~00_inbox/AI大航海20260905/｜P2｜13件｜检测到 09-05 20:29｜待王语嫣编排（#651 目录级登记：内件不在扫描面，需文件级跟踪→加入 SCAN_SUBDIRS）~~ → 已裁定划销（09-06 04:40 王语嫣）：本域 14 件已全量消化（D1+D2 完成，192 金矿+8 图入台账），生产单 #654 在产——此行即 #651 目录级登记功能首个活体样本，功能自证生效 ✅
 
 <!-- INBOX-PENDING-END -->
 
@@ -1150,7 +1150,9 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~[gate-blocked] task_20260906_huangyaoshi-transcribe-timeout-and-aliases｜09-06 03:47｜待王语嫣复核处置｜2026-09-06 03:46:37｜task_20260906_huangyaoshi-transcribe-timeout-and-aliases｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生 / - untracked: kdo/pre_submit.py / - untracked: tests/test｜huangyaoshi~~ → 回声划销（09-06 03:55 王语嫣）：黄药师补 commit 后提审成功，#649 现 pending_review（转写产出 116KB 实证修一生效）
 - ~~[friction] [shared] - 2026-09-06 03:46 | huangyaoshi | #649 complete 提审 | E040 交付物入仓门禁拦跨仓交付物：KDO CLI 仓（Knowledge Delivery OS 0.0.1）已 commit 的路径按 vault 相对路径写被判 untracked；读源码才发现门禁支持「含 Knowledge Delivery OS 0.0.1 的路径切仓核验」 | 根因初判：E040 报错文案只给 git add 补救，未提示跨仓路径写法——建议报错补一句「KDO 仓交付物请写含仓名的全路径」｜09-06 04:07｜待王语嫣复核处置｜[shared] - 2026-09-06 03:46 | huangyaoshi | #649 complete 提审 | E040 交付物入仓门禁拦跨仓交付物：KDO CLI 仓（Knowledge Delivery OS 0.0.1）已 commit 的路径按 vault 相对路径写被判 untracked；读源码才发现门禁支持「含 Knowledge Delivery OS 0.0.1 的路径切仓核验」 | 根因初判：E040 报错文案只给 git add 补救，未提示跨仓路径写法——建议报错补一句「KDO 仓交付物请写含仓名的全路径」~~ → 立项 #653（09-06 04:18 王语嫣）：E040 跨仓前缀报错提示第2次复发（#639 后），按「两次复发立即工具化」立项微单——报错补「KDO CLI 份交付物请写带仓前缀全路径」
 - ~~[friction] [shared] - 2026-09-06 03:48 | huangyaoshi | 两连单 claim | 用户一指令派两单（#649→#650），claim #650 时因自己 #649 刚转 pending_review 撞 #504 等待期规则，只能再走一次 --force+reason（本会话第 2 次） | 根因初判：#504 门禁不区分「等终审空闲」与「用户显式连单指令」，连单场景注定次次 force——建议支持指令单号链登记或 force 理由引用前单｜09-06 04:07｜待王语嫣复核处置｜[shared] - 2026-09-06 03:48 | huangyaoshi | 两连单 claim | 用户一指令派两单（#649→#650），claim #650 时因自己 #649 刚转 pending_review 撞 #504 等待期规则，只能再走一次 --force+reason（本会话第 2 次） | 根因初判：#504 门禁不区分「等终审空闲」与「用户显式连单指令」，连单场景注定次次 force——建议支持指令单号链登记或 force 理由引用前单~~ → 划销挂 F-050 已有账（09-06 04:18 王语嫣）：同执行者多单连发撞等待窗口场景补记录；编排侧对策=值守拍及时拉审解锁（本夜已实证：#649 快审后 #650 正常流转）；根治面 F-050 batch 豁免不重开
-- [gate-blocked] task_20260906_huangyaoshi-launcher-hermes-profile-flag｜09-06 04:27｜待王语嫣复核处置｜2026-09-06 04:22:32｜task_20260906_huangyaoshi-launcher-hermes-profile-flag｜F-035-意见书｜任务单缺少「## 终审记录」节（#429 F-035：审查意见必须落盘，口头/群里意见=未审查）｜欧阳锋
+- ~~[gate-blocked] task_20260906_huangyaoshi-launcher-hermes-profile-flag｜09-06 04:27｜待王语嫣复核处置｜2026-09-06 04:22:32｜task_20260906_huangyaoshi-launcher-hermes-profile-flag｜F-035-意见书｜任务单缺少「## 终审记录」节（#429 F-035：审查意见必须落盘，口头/群里意见=未审查）｜欧阳锋~~ → 回声划销（09-06 04:40 王语嫣）：黄药师补 commit 后提审成功，#650 已终审闭环（04:27）
+- ~~[gate-blocked] role-liveness｜09-06 04:37｜待王语嫣复核处置｜2026-09-06 04:28:42｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 5913.4), ('cli', 141.2)]）｜role_registry check-liveness｜role_registry~~ → 划销（09-06 04:40 王语嫣）：误报——老顽童 claude 通道产 #654 中（liveness 只探 kimi-cli 面，异构盲区已知同前）
+- ~~[gate-blocked] task_20260906_huangyaoshi-inbox-subdir-autoscan｜09-06 04:37｜待王语嫣复核处置｜2026-09-06 04:33:07｜task_20260906_huangyaoshi-inbox-subdir-autoscan｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生 / - 未提交改动: kdo-tools/watch_inbox.py / - 未提交改动: kdo-tools/t｜huangyaoshi~~ → 回声划销（09-06 04:40 王语嫣）：补 evidence 后提审成功，#651 现 pending_review
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
