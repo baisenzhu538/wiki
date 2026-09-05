@@ -1,0 +1,2 @@
+2026-09-06 02:12:42｜lag=49h>阈值48h｜OK｜No changes since last rebuild. Use --full to force a full rebuild.
+2026-09-06 02:14:19｜lag=49h>阈值48h｜FAIL｜rc=0 但 graphml 未前跳（无内容变更/静默失败）——需人工判断
