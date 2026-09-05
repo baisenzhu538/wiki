@@ -1,16 +1,19 @@
 ---
-id: task_20260906_huangyaoshi-launcher-hermes-profile-flag
-title: "拉起器 hermes 通道角色机制修正：TOOL_ENV env 变量失效 → 改 -p flag（段王爷 P0 实证）+ 历史影响面核查"
-seq: 650
-status: pending_review
-assignee: huangyaoshi
-created_by: wangyuyan
-created_at: 2026-09-06
-decision_source: 段王爷建议书 diag_20260906_duanwangye-hermes-headless-profile-flag（王语嫣 09-06 裁定采纳，P0 发现）
-reviewer: 欧阳锋
-instance: huangyaoshi
-updated_at: '2026-09-05T19:57:05.637264+00:00'
+id: task_20260906_huangyaoshi-launcher-hermes-profile-flag
+title: "拉起器 hermes 通道角色机制修正：TOOL_ENV env 变量失效 → 改 -p flag（段王爷 P0 实证）+ 历史影响面核查"
+seq: 650
+status: reviewed
+assignee: huangyaoshi
+created_by: wangyuyan
+created_at: 2026-09-06
+decision_source: 段王爷建议书 diag_20260906_duanwangye-hermes-headless-profile-flag（王语嫣 09-06 裁定采纳，P0 发现）
+reviewer: 欧阳锋
+instance: huangyaoshi
+updated_at: '2026-09-05T20:25:34.652856+00:00'
 evidence: 60_feedback/tasks/task_20260906_huangyaoshi-launcher-hermes-profile-flag.md
+reviewed_by: 欧阳锋
+review_date: '2026-09-05'
+grade: A-
 ---
 
 # #650 拉起器 hermes 通道角色机制修正（黄药师）
@@ -84,3 +87,36 @@ evidence: 60_feedback/tasks/task_20260906_huangyaoshi-launcher-hermes-profile-fl
 ### ③ 负向判词 / ④ 存在性核查
 
 🔴 意见书含负向断言（不存在/丢失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
+
+
+## 终审记录
+
+**终审人**：欧阳锋（ouyangfeng）｜**判定**：PASS A-｜**methodology_version**：v2.3
+
+**三焦点独立核验（不复述自称，逐条复跑）**
+
+**① 修法是否真修（狗粮自称核验）——真修，通过**
+- `git show afff203ef`：`TOOLS.hermes` 模板由 `-z {prompt} --yolo` 改为 `-p {role} -z {prompt} --yolo`；`TOOL_ENV` 由 `{"hermes":{"HERMES_PROFILE":"{role}"}}` 清空为 `{}`。真改非改名。
+- 源码核验 `hermes_cli/main.py::_apply_profile_override`：解析链只认 argv `-p` → `active_profile` sticky → `HERMES_HOME` env 三支，均无 `HERMES_PROFILE` 分支。全量 grep main.py：`HERMES_PROFILE` 0 命中；该 env 仅 `kanban.py`/`kanban_db.py` 作 kanban 作者标签（注释明言 "HERMES_PROFILE is the author the kanban_comment tool defaults to"）。故「env 失效→改 flag、移除死配置不留兜底」论断成立。
+- 狗粮实跑：`logs/headless-skills-assistant-20260906-034853.log` 自称 "skills-assistant（Skills 助理…）" = 目标 profile，通过。
+- 回归亲跑：`pytest 90_control/scripts/tests/test_headless_launch_650.py` → 3 passed（flag 在位/死配置不回填/`{role}` 注入三例）。
+
+**② 历史影响面核查——坐实，受影响清单必须报老朱**
+- 权威枚举亲查（各 profile `state.db` sessions 表，非日志抽样）：huangyaoshi profile 09-02~09-03 窗口 13 条 cli 会话，其中 12 条首条 user message 以「你是laowantong…」或「回答两个字：通路」开头却落点 huangyaoshi——11 条老顽童意图 + 1 条通路探针，与报告一致。
+- 受影响任务：#626/#629/#630/#632 四单施工上下文错载黄药师 hermes profile。
+- 结论坐实。受影响清单已由黄药师 diag 落盘并指名「王语嫣转老朱知情」；本终审确认该知情必须送达老朱（涉角色隔离与记忆污染面）。王语嫣为对老朱唯一沟通通道，本审不越她直报，随本 PASS 抄送王语嫣编排。
+
+**③ 边界守住（不扩路由）——守住，通过**
+- 全 commit（afff203ef）仅 3 文件：launcher + test + diag；`git show` diff 全文仅 hermes 行/注释行/TOOL_ENV 三处，kimi/claude/codex 三模板不在 diff。
+- `ROLE_TOOL` 未动：laowantong→kimi（09-03 回 kimi 决定不变）、ouyangfeng→codex、huangyaoshi→kimi。只修机制，不扩路由。
+
+**评分**：溯源完整 ✅｜逻辑骨架 ✅｜暗知识密度 ✅｜可操作性 ✅｜表达质量 ✅ → **A-**
+
+**残留风险（非阻断，去向已定）**
+- 错载期 hermes token 用量已归因到 huangyaoshi 名下，token 报表按角色读数需带校正 → 去向：随老朱知情一并提示（diag 已列）。
+- 「两连死」0 字节日志 vs state.db 有会话的矛盾 → 去向：diag 建议 4 待王语嫣裁定是否立项，本单不展开。
+
+**存在性核查**（终审侧独立锚点）
+- 「HERMES_PROFILE 在 main.py 不被读」→ 全量 grep main.py 0 命中（见①）。
+- 「kimi/claude/codex 三模板未触碰」→ `git show afff203ef` diff 逐行核，三模板行不在 diff（见③）。
+- 「受影响清单坐实」→ 直查 state.db 首条 user message 逐条对意图与落点，12 条全对上（见②）。
