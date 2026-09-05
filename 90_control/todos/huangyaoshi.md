@@ -754,3 +754,25 @@
 - [2026-09-05 23:37] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 1150min）；#645（huangyaoshi 的单，挂审 1150min）；#646（huangyaoshi 的单，挂审 1149min）（到点（节奏 15min））
 - [2026-09-05 23:52] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 1165min）；#645（huangyaoshi 的单，挂审 1165min）；#646（huangyaoshi 的单，挂审 1164min）（到点（节奏 15min））
 - [2026-09-06 00:12] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 1185min）；#645（huangyaoshi 的单，挂审 1185min）；#646（huangyaoshi 的单，挂审 1184min）（到点（节奏 15min））
+- [2026-09-06 00:32] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 1205min）；#645（huangyaoshi 的单，挂审 1205min）；#646（huangyaoshi 的单，挂审 1204min）（到点（节奏 15min））
+- [2026-09-06 00:47] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 1220min）；#645（huangyaoshi 的单，挂审 1220min）；#646（huangyaoshi 的单，挂审 1219min）（到点（节奏 15min））
+- [2026-09-06 01:02] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 1235min）；#645（huangyaoshi 的单，挂审 1235min）；#646（huangyaoshi 的单，挂审 1234min）（到点（节奏 15min））
+- [2026-09-06 01:17] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 1250min）；#645（huangyaoshi 的单，挂审 1250min）；#646（huangyaoshi 的单，挂审 1249min）（到点（节奏 15min））
+- [2026-09-06 01:32] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 1265min）；#645（huangyaoshi 的单，挂审 1265min）；#646（huangyaoshi 的单，挂审 1264min）（到点（节奏 15min））
+- [2026-09-06 01:52] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 1285min）；#645（huangyaoshi 的单，挂审 1285min）；#646（huangyaoshi 的单，挂审 1284min）（到点（节奏 15min））
+- [2026-09-06 01:57] ✅ KDO 终审通过 10 单：#645, #646, #430, #432（PASS）, #433, #434, #435, #442, #443, #444——你的单过了，见任务单终审记录
+- [2026-09-06 02:12] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#647（huangyaoshi 的单，挂审 9min）；#643（laowantong 的单，挂审 5min）（到点（节奏 15min））
+- [2026-09-06 02:22] 【施工】#647 queue/门禁族两小修完成并提审：E040 加 _git_ignored 豁免分支（git check-ignore 判定转 WARNING）+ seq 号寻址（_resolve_task_ref）+ parse_queue 断表续扫（真根因：表段被划销清单打断，#430-444/#647/#648 共 12 行不可见）；回归 6 条新增、全量 251 passed；claim 647 即 seq 寻址活体验证（#504 撞线走 --force 留痕）→ pending_review 待欧阳锋
+- [2026-09-06 02:22] 【施工】#648 graph_index 停拍根因+重建+哨兵自愈完成并提审：根因三层（无自动刷新载体/48h 阈值必触线/lag 逐拍变化击穿幂等被误判回声）；增量重建 14s 解 73.9h 陈旧；哨兵陈旧分支自愈（mtime 前跳=成功判据，真机二轮模拟验证升级路径）+6h 防乒乓；回归 517 passed；#646 已 reviewed 依赖解锁后开工 → pending_review 待欧阳锋
+- [2026-09-06 02:32] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#648（huangyaoshi 的单，挂审 15min）（到点（节奏 15min））
+- [2026-09-06 02:37] ✅ KDO 终审通过 1 单：#647——你的单过了，见任务单终审记录
+- [2026-09-06 02:52] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#648（huangyaoshi 的单，挂审 35min）（到点（节奏 15min））
+- [2026-09-06 02:57] 📥 KDO 可领取 1 单：#650
+- [2026-09-06 03:07] ✅ KDO 终审通过 1 单：#648——你的单过了，见任务单终审记录
+- [2026-09-06 03:12] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-06 03:17] 📥 KDO 可领取 1 单：#651
+- [2026-09-06 03:27] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-06 03:47] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-06 03:48] 【施工】#649 采集链两修完成并提审：修一转写动态timeout（ffprobe时长×1.0+300s）+TimeoutExpired留痕+3败熔断，148MB死循环根治（实测RTF 0.63，旧900s仅实际1/2.75）；补转写src_wechat_4b6327b374540e2e.md 3214段+知识化+seen标注；止血02:54:17→恢复03:43:51（报告显式声明）；修二ALIASES取basename+剥扩展名（KDO CLI仓4b0e45f），#643场景复跑0 issues；回归272+CLI全绿 → pending_review 待欧阳锋
+- [2026-09-06 03:57] 📥 KDO 可领取 1 单：#652
+- [2026-09-06 04:02] 【施工】#650 拉起器 hermes 通道修正完成并提审：TOOLS.hermes 加 -p {role}+移除 HERMES_PROFILE 死配置（源码级核实解析链不读该 env）；狗粮 PASS（-p skills-assistant 自称正确）+阴性对照（env-only 自称 huangyaoshi 错载复现）；历史影响面核查落 diag_20260906_huangyaoshi-hermes-profile-impact-audit.md（09-03 11 会话错载黄药师 profile，涉 #626/#629/#630/#632，记忆层无污染、KDO 层身份未串，报王语嫣转老朱）；回归 3 例新增+kdo-tools 全量 272 passed → pending_review 待欧阳锋
