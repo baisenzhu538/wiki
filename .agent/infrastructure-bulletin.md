@@ -53,3 +53,11 @@
 | `kdo freeze` / `kdo verify-deps` | 对卡片 wikilink 依赖做 SHA256 锁定与变更检测 | 对应 EC 手册「依赖冻结」|
 | `kdo env-check --lock` / `kdo env-check` | 锁定并校验 Python/kdo/git 工具链版本 | 对应 EC 手册「环境锁定」|
 | `kdo snapshot` / `kdo revert` / `kdo batch` | 批量操作前打 tag 建回退点，失败回退 | 对应 EC 手册「回退预案」|
+
+## 全Agent行为宪法 v1.0（#652，2026-09-06 上线）
+
+> 老朱 09-06 拍板：实事求是=准则，调研=基本技能挂载，全 agent 强制（含飞书 hermes 端）。
+> 五条：断言三级标注【实证/推断/猜测】/ 负向判词必附存在性核查锚点 / 疑问先检索再开口（W11）/ 解放-检验循环 / Y模型三问后才方案。
+> 全文：`90_control/agent-behavior-constitution.md`（v1.0，欧阳锋终审后生效；增条款走修订单）。
+> 挂载点：`.agent/startup.md`（全角色开机必读）+ `90_control/scripts/kimi-headless-launch.py` PROMPT_TEMPLATE（无头实例）+ hermes 6 profile SOUL.md（飞书端）。
+> 调研技能实装面：business-research skill 唯一已实装（商业主体类）；deep-research 仅原始素材未封装、research-core 仅矩阵登记无文件——技术/概念类用 kdo query+grep，不虚指。
