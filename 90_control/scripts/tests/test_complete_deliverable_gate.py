@@ -204,3 +204,42 @@ def test_647_exemption_does_not_open_untracked_gate(tmp_path):
     assert not ok, "豁免分支误放了非豁免 untracked 交付物"
     assert "untracked" in msg and "kdo-tools/loose.py" in msg
     assert "00_inbox" not in msg
+
+
+def _kdo_repo(tmp_path: Path) -> Path:
+    """#653 沙盒：KDO CLI 仓替身（含已 commit 的 kdo/x.py）。"""
+    kdo = tmp_path / "Knowledge Delivery OS 0.0.1"
+    kdo.mkdir()
+    _git(kdo, "init")
+    _git(kdo, "config", "user.email", "t@t")
+    _git(kdo, "config", "user.name", "t")
+    (kdo / "kdo").mkdir()
+    (kdo / "kdo" / "x.py").write_text("x=1\n", encoding="utf-8")
+    _git(kdo, "add", "kdo/x.py")
+    _git(kdo, "commit", "-m", "init")
+    return kdo
+
+
+def test_653_crossrepo_hint_on_missing_prefix(tmp_path, monkeypatch):
+    """#653 场景复现：KDO CLI 仓交付物写成 vault 裸相对路径（#639/#649 两次复发）
+    → 拦截报错自动补跨仓前缀写法提示。"""
+    kdo = _kdo_repo(tmp_path)
+    monkeypatch.setattr(qt, "KDO_REPO_ROOT", kdo)
+    repo = _repo(tmp_path)
+    tf = _task(tmp_path, "**完成内容**：修工具\n\n**交付物**：\n- `kdo/x.py`\n\n**验证**：过\n")
+    ok, msg, _warn = qt._check_deliverables_committed(tf, {}, wiki_root=repo)
+    assert not ok and "untracked" in msg  # 硬拦行为不变（只补提示不放行）
+    assert "带仓前缀的全路径" in msg and "#542" in msg
+
+
+def test_653_no_hint_for_pure_vault_path(tmp_path, monkeypatch):
+    """#653 护栏：vault 自有路径（KDO 仓盘上无此文件）不误贴跨仓提示。"""
+    kdo = _kdo_repo(tmp_path)
+    monkeypatch.setattr(qt, "KDO_REPO_ROOT", kdo)
+    repo = _repo(tmp_path)
+    (repo / "60_feedback").mkdir()
+    (repo / "60_feedback" / "list.csv").write_text("a,b\n", encoding="utf-8")
+    tf = _task(tmp_path, "**完成内容**：产清单\n\n**交付物**：\n- `60_feedback/list.csv`\n\n**验证**：过\n")
+    ok, msg, _warn = qt._check_deliverables_committed(tf, {}, wiki_root=repo)
+    assert not ok and "untracked" in msg
+    assert "带仓前缀的全路径" not in msg

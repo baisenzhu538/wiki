@@ -916,6 +916,24 @@ def _git_ignored(repo_root: Path, rel: str) -> bool:
         return False
 
 
+def _crossrepo_hint(problems: list[str]) -> str:
+    """#653：疑似 KDO CLI 仓交付物写成 vault 裸相对路径 → 报错自动补跨仓写法提示。
+
+    #639（09-04 21:45）/#649（09-06 03:46）两次复发：已 commit 进 KDO CLI 仓的
+    路径按 vault 相对路径核验被判 untracked，报错只给 git add 补救、不提示跨仓
+    写法——源码里才翻得到「含 Knowledge Delivery OS 切仓核验」支持。判据=
+    KDO_REPO_ROOT/rel 盘上存在（存在性核查锚，#433 口径）；已带仓前缀的路径不提示。
+    """
+    sus = [p.split(": ", 1)[-1] for p in problems
+           if "Knowledge Delivery OS" not in p
+           and (KDO_REPO_ROOT / p.split(": ", 1)[-1]).exists()]
+    if not sus:
+        return ""
+    return ("\n提示（#653）：以上路径在 KDO CLI 仓（Knowledge Delivery OS 0.0.1/）盘上存在、"
+            "疑为跨仓交付物缺仓前缀——KDO CLI 份交付物请写带仓前缀的全路径"
+            "（如 `Knowledge Delivery OS 0.0.1/kdo/x.py`），参照 #542 先例")
+
+
 def _check_deliverables_committed(task_file: Path, fm: dict[str, Any],
                                   wiki_root: Path | None = None) -> tuple[bool, str, str]:
     """#522：执行报告交付物必须已入仓（已跟踪+无未提交改动），未入仓即拦。
@@ -994,7 +1012,8 @@ def _check_deliverables_committed(task_file: Path, fm: dict[str, Any],
                # #569：报错可操作化——节边界规则+期望格式样例
                + "\n期望格式样例：执行报告内 **交付物** 字段节（`- **` 子弹行起也算字段行），"
                  "节内路径用反引号包裹（如 `90_control/x.py`），下一粗体字段/## 标题即节边界；"
-                 "命令文本（如 kdo pre-submit -f <路径>）勿放交付物节")
+                 "命令文本（如 kdo pre-submit -f <路径>）勿放交付物节"
+               + _crossrepo_hint(problems))  # #653：跨仓交付物缺仓前缀 → 报错自动补提示
         return False, msg, ""
     warn = f"交付物入仓核验通过（{len(paths) - len(external) - len(ignored)} 个路径已跟踪且无脏改动）"
     if ignored:
