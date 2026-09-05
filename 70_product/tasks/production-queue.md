@@ -542,8 +542,6 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 
 > 王语嫣维护看板时处理：诊断 → 写任务单 → 入队后把对应行划掉。编排规则不变，这里只解决「没人被通知」。
 
-- ~~00_inbox/学习candy合集/Live260：AI口喷基本功内测 Candy-逐字稿.md｜P2｜36368B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：同源沿用——09-01 01:01 已诊（传播限制），不入编排
-- ~~00_inbox/学习candy合集/大卫·布鲁克斯：当代文化的3个主流谎言（TED）-视频逐字稿.md｜P2｜58091B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置沿用（09-02 王语嫣）：09-01 03:05 已诊（BV1kp4y1v7p9 三采族）
 - ~~00_inbox/学习candy合集/大卫·布鲁克斯：芝大毕业演讲（求知是有代价的）-视频逐字稿.md｜P2｜35008B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置沿用（09-02 王语嫣）：09-01 已诊（BV1rp4y1e76Y big 版为准）
 - ~~00_inbox/学习candy合集/审计：Eason文化审计与实事求是DataPack.md｜P2｜19790B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：已立项 #611（🔴密级传播限制标注 #322 先例）
 - ~~00_inbox/学习candy合集/尼尔·雷克汉姆：联结销售与营销（SPIN创始人）-视频逐字稿.md｜P2｜17398B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置沿用（09-02 王语嫣）：09-01 已诊（BV1JsgQzWEuD，ASR 差疑似管线测试流量）
@@ -662,6 +660,8 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~00_inbox/启动会-2026年全新AI大航海-逐字稿.md｜P2｜79863B｜检测到 09-05 16:21｜待王语嫣编排~~ → ⚠️ 前次误划销已撤销（09-06 02:00 王语嫣）：01:44 区间兜扫误挂「#645 候选卡」假去向——本件是真素材非蒸馏卡，错误模式待入错误模式库；正确处置见 diag_20260906_wangyuyan-launchmeeting-triage
 - ~~00_inbox/wechat-collect/src_wechat_4b6327b374540e2e.md｜P2｜116772B｜检测到 09-05 19:51｜待王语嫣编排~~ → 已裁定划销（09-06 04:18 王语嫣）：双采对账完成——ASR版(58k字带时间戳)为一等锚、fs-doc版为可读辅助（同事件结尾原文实锤）；素材消化走 AI大航海域 D1 金矿台账（已入80+58条），diag_20260906_wangyuyan-launchmeeting-triage 收口
 - ~~00_inbox/pending-cards/case-wechat-4b6327b374540e2e.md｜P2｜5682B｜检测到 09-05 20:01｜待王语嫣编排~~ → 门禁判定：不入独立生产（09-06 04:18 王语嫣）——wechat_knowledge 自动卡标题取自 ASR 开头误听（「妮妮妮别吵架」）、「双彩鸟画布」系「双三角画布」误听，质量不足独立成卡；内容与本域 D1 金矿台账重叠，以台账为准；卡留 pending-cards 标 draft 不删
+- 00_inbox/AI大航海20260905/｜P2｜13件｜检测到 09-05 20:29｜待王语嫣编排（#651 目录级登记：内件不在扫描面，需文件级跟踪→加入 SCAN_SUBDIRS）
+- 00_inbox/zz-651-autoscan-test/｜P2｜1件｜检测到 09-05 20:29｜待王语嫣编排（#651 目录级登记：内件不在扫描面，需文件级跟踪→加入 SCAN_SUBDIRS）
 
 <!-- INBOX-PENDING-END -->
 
@@ -1170,7 +1170,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 651 | `task_20260906_huangyaoshi-inbox-subdir-autoscan` | watch_inbox 顶层新子目录自动纳管（SCAN_SUBDIRS 白名单外不可见——AI大航海20260905 实证盲区，白名单族缺口第三例） | claimed-huangyaoshi | huangyaoshi | 测试子目录下一拍登记出现+AI大航海补登记+回归不红 | 无 | `60_feedback/tasks/task_20260906_huangyaoshi-inbox-subdir-autoscan.md` | 03:37 王语嫣值守立项；欧阳锋终审 |
 | 652 | `task_20260906_huangyaoshi-agent-behavior-constitution` | 全Agent行为宪法 v1.0：实事求是准则+调研基本技能挂载（五条行为规则；CLI startup+拉起器注入；hermes 端依赖 #650；狗粮验收） | queued | huangyaoshi | 宪法落盘+CLI注入 diff+抽 2 实例狗粮实测 | #650 后（hermes 注入段） | `60_feedback/tasks/task_20260906_huangyaoshi-agent-behavior-constitution.md` | 老朱 09-06 直令拍板；A5 理论依据+F-035 活体实证；欧阳锋终审 |
 | 653 | `task_20260906_huangyaoshi-e040-crossrepo-hint` | E040 报错提示跨仓前缀全路径（第2次复发工具化） | queued | huangyaoshi | 模拟场景提示出现+回归不红 | 无 | `60_feedback/tasks/task_20260906_huangyaoshi-e040-crossrepo-hint.md` | 王语嫣 04:18 立项（两次复发工具化）；欧阳锋终审 |
-| 654 | `task_20260906_laowantong-aidahangha-batch1` | AI大航海域批量生产 batch1：3 framework+5 case+4 bridge+dk挂靠+skill草案+存量自迭代（12+卡，P1，老朱夜令） | queued | laowantong | 12卡入库+定位声明/行号锚/标签全+自攻击+三方法证据 | 无 | `60_feedback/tasks/task_20260906_laowantong-aidahangha-batch1.md` | 诊断 diag_20260906_wangyuyan-aidahangha-diagnosis 为规格源；欧阳锋终审 |
+| 654 | `task_20260906_laowantong-aidahangha-batch1` | AI大航海域批量生产 batch1：3 framework+5 case+4 bridge+dk挂靠+skill草案+存量自迭代（12+卡，P1，老朱夜令） | claimed-laowantong | laowantong | 12卡入库+定位声明/行号锚/标签全+自攻击+三方法证据 | 无 | `60_feedback/tasks/task_20260906_laowantong-aidahangha-batch1.md` | 诊断 diag_20260906_wangyuyan-aidahangha-diagnosis 为规格源；欧阳锋终审 |
 
 ## PROPOSAL-PENDING
 ### diag_20260826_ouyangfeng-source-refs-line-anchor-unreachable（2026-08-26 欧阳锋）

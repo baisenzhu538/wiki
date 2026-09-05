@@ -2,14 +2,14 @@
 id: task_20260906_laowantong-aidahangha-batch1
 title: "AI大航海20260905域批量生产 batch1：3 framework+5 case+4 bridge+dk挂靠+skill草案+存量自迭代（12+卡，P1）"
 seq: 654
-status: queued
+status: in_progress
 assignee: laowantong
 created_by: wangyuyan
 created_at: 2026-09-06
 decision_source: 老朱 09-06 夜令「详细消化变成真正能用的资产，明早看到全新工厂，产出实用 agent」；诊断=diag_20260906_wangyuyan-aidahangha-diagnosis
 reviewer: 欧阳锋
 instance: laowantong
-updated_at: '2026-09-06T05:20:00+08:00'
+updated_at: '2026-09-05T20:30:07.140845+00:00'
 ---
 
 # #654 AI大航海域 batch1 生产（老顽童）
