@@ -68,7 +68,13 @@ hermes 无头 profile 解析链（`hermes_cli/main.py::_apply_profile_override`�
 2. **会话库混入**：11 个老顽童会话进黄药师 profile `state.db`（167 条历史中的 11 条）——黄药师若基于该库续聊/检索会看到老顽童的施工史（**已发生，不可逆，建议留存现状不清洗**，清洗风险大于收益）
 3. **上下文错载**：施工期间加载了黄药师 profile 的 SOUL/skills/config/auth——对产出物的影响无法事后完全排除，但四单产出均经独立终审+回流验证，实务风险低
 
+## 用量归因连带偏差
+
+`kdo-tools/token_meter.py::_scan_hermes` 按 `profiles/<name>/state.db` 做角色归因——错载期老顽童的 hermes token 花销被记到 **huangyaoshi** 名下（09-03 当日 `60_feedback/analytics/` 的 token 报表如按角色读数需带此偏差校正）。
+
 ## 附带更正（段王爷 diag 一处证据）
+
+
 
 `diag_20260906_duanwangye-hermes-headless-profile-flag.md` 证据 1 称 09-03 `headless-laowantong-20260903-200916.log / 233700.log`（84KB/30KB）为 hermes 通道成功日志——两文件首行均为 **`kimi version 0.39.1`**，实为 kimi 通道。"间歇故障非通道死刑"的结论方向不受影响（通道本身今日双实测存活），但该两条日志不能作为 hermes 成功证据引用。
 
