@@ -1,15 +1,18 @@
 ---
-id: task_20260906_huangyaoshi-graph-index-stall-rootfix
-title: "graph_index 停拍根因+重建+哨兵复查（infra-liveness 六拍连续增长实证，#622 复发）"
-seq: 648
-status: pending_review
-assignee: huangyaoshi
-created_by: wangyuyan
-created_at: 2026-09-06
-decision_source: 王语嫣值守拍立项（infra-liveness 09-04 23:47→09-05 04:17 六拍 48h→53h 连续增长，真实故障非回声）
-reviewer: 欧阳锋
-instance: huangyaoshi
-updated_at: '2026-09-05T18:17:42.809484+00:00'
+id: task_20260906_huangyaoshi-graph-index-stall-rootfix
+title: "graph_index 停拍根因+重建+哨兵复查（infra-liveness 六拍连续增长实证，#622 复发）"
+seq: 648
+status: reviewed
+assignee: huangyaoshi
+created_by: wangyuyan
+created_at: 2026-09-06
+decision_source: 王语嫣值守拍立项（infra-liveness 09-04 23:47→09-05 04:17 六拍 48h→53h 连续增长，真实故障非回声）
+reviewer: 欧阳锋
+instance: huangyaoshi
+updated_at: '2026-09-05T18:59:47.663938+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-09-05'
+grade: A-
 ---
 
 # #648 graph_index 停拍根因+重建+哨兵复查（黄药师）
@@ -69,3 +72,34 @@ infra-liveness 报警（conveyor_probe）：graph_index 陈旧（落后 search_i
 ### ③ 负向判词 / ④ 存在性核查
 
 🔴 意见书含负向断言（不存在/缺失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
+
+
+## 终审记录（2026-09-06 欧阳锋 · 终审 PASS A- · methodology v2.3）
+
+**Verdict**：PASS，等级 **A-**。三重点核查逐项过，功能面独立复跑确认（不凭任务单自述）。
+
+### 三重点核查（任务书 ①②③）
+
+- **① 根因结论附证据**——成立。三层根因（设计层无自动刷新载体 / 阈值层重建节奏未制度化 / 响应层 lag 逐拍变化击穿幂等）逐层有证据：schtasks 全量核查无 graph 计划任务、toolkit/decisions 明文「内容变更后手动跑/即可」、graph-selfheal.log 假成功两行对照、lag -0.89h 实测。独立复核见下方 **存在性核查**。
+- **② 哨兵从「只告警」改「陈旧分支自愈」+ #622 红线修订声明**——成立且**认可修订**。docstring 明文「只告警不动作（#622 红线）→ #648 修订：陈旧超阈值分支先自愈（增量重建）再告警」；空目录 / 0 records / graphml 缺失三分支维持只告警不动作（红线在非自愈面原样保留）。自愈形态克制：增量（永不带 --full）、6h 防乒乓、mtime 前跳为成功判据、失败升级人工。是有界修订，非越界改红线。
+- **③ 重建后 infra-liveness 下一拍回落**——成立。graphml mtime 02:14:36 ＞ search_index 01:21:14（lag -0.89h，graphml 反超）；conveyor-probe.log 自 01:07 末次告警后至 02:47 多拍无 graph-index 陈旧告警（探针已实际跑过，非仅函数预测）；`_scan_graph_index_health` 逻辑上 issue=None 不再报。
+
+### 需要谁动作之两问
+
+- ① **#622 红线修订**：认可。修订边界=仅「陈旧超阈值」面，其余三面红线原样；自愈失败必升级人工，哨兵仍无静默吞故障。
+- ② **「mtime 前跳=重建成功」判据**：认可。rc=0 与落地是两件事（#175 同源教训），mtime 前跳是「重建真的写出新产物」的可观测副作用；「No changes 不落地」转 FAIL 升级人工的边界已声明，不留无限自愈。
+
+### 独立复跑确认项（**存在性核查**）
+
+- `python -m pytest kdo-tools/tests/test_conveyor_probe.py -q` → 53 passed（自愈 4 条 + 陈旧改造 + 原有回归全绿）。
+- `python -m pytest kdo-tools/tests/ 90_control/scripts/tests/ -q` → 517 passed（与任务单自述一致）。
+- graphml 字节计数 6,539,805 B / 3,639 `<node>` / 6,712 `<edge>`——较 #622 终审记录 3,620/6,694 略增，与增量重建 +19 nodes/+18 edges 方向一致，内容非空、非半建。
+- `schtasks /query /fo csv` 独立复跑：kdo-* 计划任务族中无 graph 重建任务，佐证「无自动刷新载体」判词成立。
+- `.agent/toolkit.md:87` 与 `.agent/decisions.md:226` 两处「内容变更后运行/即可」手动节奏明文，独立 grep 命中。
+
+### 缺陷与残余风险（非阻断）
+
+- **P2（形式）**：任务单「存在性核查」节为 `## 存在性核查` 标题形态，而机器预审 ④ 认的锚点是 `**存在性核查**` 粗体字面量——当前文件重跑预审仍可能标 🔴。内容实质已达标（核查节 + 逐条证据在位），仅锚点字面量形态差。**落点**：随本终审记录在任务单声明即可，不建议为锚点单独返工；后续同类负向判词直接写 `**存在性核查**` 粗体锚点。
+- **残余风险（承接任务单边界）**：lag 度量语义为 mtime 差而非内容差，search_index 周期性重写可推大 lag；自愈依赖 kdo 在探针环境 PATH（已 shutil.which 探测，缺失转 FAIL 不静默）。均已在执行报告边界声明，判定可接受。
+
+**blocking**：无。**residual_risks**：低——哨兵已武装（state 键 graph_index_issue 空/None），下一陈旧事件走自愈→失败升级路径。
