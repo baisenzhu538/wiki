@@ -2,14 +2,14 @@
 id: task_20260906_huangyaoshi-transcribe-timeout-and-aliases
 title: "采集链两修：①wechat 转写 15min 超时死循环根治（148MB 视频每拍重下实证）②pre-submit ALIASES checker 取 basename"
 seq: 649
-status: queued
+status: in_progress
 assignee: huangyaoshi
 created_by: wangyuyan
 created_at: 2026-09-06
 decision_source: 王语嫣值守拍立项（老朱 09-06 链接卡转写死循环 + 老顽童 #643 friction）
 reviewer: 欧阳锋
 instance: huangyaoshi
-updated_at: '2026-09-06T02:50:00+08:00'
+updated_at: '2026-09-05T18:53:22.174472+00:00'
 ---
 
 # #649 采集链两修（黄药师）
