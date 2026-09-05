@@ -1,16 +1,17 @@
 ---
-id: task_20260906_huangyaoshi-agent-behavior-constitution
-title: "全Agent行为宪法 v1.0：实事求是准则+调研基本技能挂载（老朱09-06拍板，全agent强制，含飞书hermes端）"
-seq: 652
-status: pending_review
-assignee: huangyaoshi
-created_by: wangyuyan
-created_at: 2026-09-06
-decision_source: 老朱 09-06 直令（实事求是是一个准则，调研是一个基本技能挂载，所有 agent 必须遵守）；宪法条款来源=库内桥接卡/Y模型卡/AI大航海金矿A5/A73/B34+既有纪律
-reviewer: 欧阳锋
-instance: huangyaoshi
-updated_at: '2026-09-05T20:48:46.548864+00:00'
+id: task_20260906_huangyaoshi-agent-behavior-constitution
+title: "全Agent行为宪法 v1.0：实事求是准则+调研基本技能挂载（老朱09-06拍板，全agent强制，含飞书hermes端）"
+seq: 652
+status: queued
+assignee: huangyaoshi
+created_by: wangyuyan
+created_at: 2026-09-06
+decision_source: 老朱 09-06 直令（实事求是是一个准则，调研是一个基本技能挂载，所有 agent 必须遵守）；宪法条款来源=库内桥接卡/Y模型卡/AI大航海金矿A5/A73/B34+既有纪律
+reviewer: 欧阳锋
+instance: huangyaoshi
+updated_at: '2026-09-05T21:23:36.219400+00:00'
 evidence: 60_feedback/tasks/task_20260906_huangyaoshi-agent-behavior-constitution.md
+rework: true
 ---
 
 # #652 全Agent行为宪法 v1.0（黄药师执行注入，王语嫣已起草条款）
@@ -95,3 +96,30 @@ evidence: 60_feedback/tasks/task_20260906_huangyaoshi-agent-behavior-constitutio
 ### ③ 负向判词 / ④ 存在性核查
 
 🔴 意见书含负向断言（不存在）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
+
+## 终审记录
+
+### 终审（欧阳锋 2026-09-06 05:26）——判定 FAIL（打回返工）
+
+**五核点结论**
+- ① 宪法五条是否可执行行为规则：✅ 五条均为「触发条件 + 强制动作 + 依据锚」（断言三级标注 / 负向判词必附存在性核查 / 疑问先检索再开口 W11 / 解放-检验循环 / Y模型三问后才方案），非口号。
+- ② 三挂载点真实注入：✅ startup.md（顶部 blockquote L5 + 启动步骤 6.5 L54）、kimi-headless-launch.py PROMPT_TEMPLATE L67、.agent/infrastructure-bulletin.md L57-63 均在场（git show 670ee0f9f 核实为 #652 注入）。
+- ③ 调研技能措辞是否按实证不虚指：❌ 宪法第三条 / PROMPT_TEMPLATE L67 / 基建公告 L63 三处均正确（business-research 唯一实装；deep-research 仅素材、research-core 无文件→kdo query+grep，不虚指），**但 startup.md 步骤 6.5（L54）仍写「技术概念 deep-research」，把未实装的 deep-research 当可调用路径，与宪法第三条自相矛盾**。
+- ④ 狗粮验收设计：✅ 两通道实测在场（claude PROMPT_TEMPLATE 路径 log headless-laowantong-20260906-044234.log / hermes -p laowantong SOUL 路径 log -044241.log）；输出均带【实证】标注、负向判词附 grep 锚点、先 kdo query+grep 后答；测试指令未提「宪法」二字而两实例自发合规，验收设计有效。
+- ⑤ 执行报告存在性核查节：✅ 在场且锚点具体（deep-research 未封装 / research-core 无文件 / hongqigong 未注册 / kimi 403 四条，均附 ls、hermes profile list、log 实跑锚点）；机器预审 🔴 提示为 stale（节现已存在，仅供参考层，不构成结论）。
+
+**发现问题**
+- 🟠 P1：`.agent/startup.md` L54 步骤 6.5 尾句「含调研技能挂载调用路径——商业主体 business-research、技术概念 deep-research」把 deep-research 写作技术/概念类的可调用调研技能。宪法第三条已明确 deep-research 仅有原始素材、research-core 无 skill 文件、技术/概念类无实装 skill→kdo query+grep，并明文「不虚指不存在的工具」。startup.md 是全 CLI 角色开机必读挂载点，L54 与同文件 L5、宪法第三条、PROMPT_TEMPLATE L67 三处正确措辞互相矛盾。**去向：打回返工，黄药师把 L54 尾句改为「技术/概念类→kdo query+grep（deep-research 未实装）」后重提；一句话修复，无需另立项。**
+
+**存在性核查**（本意见书负向判词的核查锚点）
+| 负向判词 | 核查动作与锚点 |
+|:--|:--|
+| startup.md L54 虚指 deep-research | `Get-Content .agent/startup.md` L54 原文「…商业主体 business-research、技术概念 deep-research」；对照 L5「技术/概念类暂无实装 skill→kdo query+grep 手工调研」、宪法第三条「deep-research 仅有原始素材…不虚指不存在的工具」、PROMPT_TEMPLATE L67「其余 kdo query+grep」 |
+| deep-research 非已实装 skill | `Get-ChildItem 40_outputs/capabilities/skills -Filter *research*` → 仅 business-research、crystallized-research-first；`40_outputs/capabilities/skills/research-core` 不存在 |
+| 该矛盾为 #652 本次注入 | `git show 670ee0f9f -- .agent/startup.md`：L5 与 L54 同属本次 3 insertions，前者对后者错 |
+
+**需要谁动作**
+- 黄药师：返工改 `.agent/startup.md` L54（一句话），完成后 complete+重提 #652。
+- 其余四处措辞（宪法第三条 / PROMPT_TEMPLATE / 基建公告 / startup.md L5）已按实证，无需改动。
+
+**结论**：宪法内容、三挂载点注入、狗粮验收、存在性核查节整体达 A- 质量；但 startup.md L54 虚指 deep-research 与宪法第三条自相矛盾，属 P1 阻断——终审不通过，退回 queued 返工。
