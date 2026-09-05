@@ -1017,3 +1017,18 @@
 - [2026-09-06 00:12] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 1185min）；#645（huangyaoshi 的单，挂审 1185min）；#646（huangyaoshi 的单，挂审 1184min）（到点（节奏 30min））
 - [2026-09-06 00:17] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-06 00:07:01｜infra-liveness｜基建停拍报警｜graph-index｜陈旧（落后 search_ind
 - [2026-09-06 00:21] 📥 新素材 1 项（P0 0）：启动会-2026年全新AI大航海-逐字稿.md——请诊断编排（看板待编排段）
+- [2026-09-06 00:42] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 1215min）；#645（huangyaoshi 的单，挂审 1215min）；#646（huangyaoshi 的单，挂审 1214min）（到点（节奏 30min））
+- [2026-09-06 01:07] 🛑 KDO 基建停拍报警 1 项：graph-index｜陈旧（落后 search_index 74h，阈值 48h）（台账 gate-blocked.log）
+- [2026-09-06 01:12] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 1245min）；#645（huangyaoshi 的单，挂审 1245min）；#646（huangyaoshi 的单，挂审 1244min）（到点（节奏 30min））
+- [2026-09-06 01:17] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-06 01:07:01｜infra-liveness｜基建停拍报警｜graph-index｜陈旧（落后 search_ind
+- [2026-09-06 01:42] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 1275min）；#645（huangyaoshi 的单，挂审 1275min）；#646（huangyaoshi 的单，挂审 1274min）（到点（节奏 30min））
+- [2026-09-06 01:42] 🚀 值守编排闭环：门铃v4重建(6702ef38)→INBOX 32张distill卡门禁PASS划销→PROPOSAL 7条裁定(#647/#648立项,e1d4cead4)→三路拉起：欧阳锋codex(proc_ouyangfeng_162836,终审#642/#645返工/#646挂审20h)+黄药师claude(proc_huangyaoshi_162148,#647施工+#648依赖检查)+老顽童claude(proc_laowantong_156928,#643续命——kimi周额度403全员死亡,改claude通道)。下拍02:07门铃核销
+- [2026-09-06 01:46] 🕐 值守拍02:07：双登记段清零核验✅；三实例核活——黄药师/老顽童claude双活（372MB/381MB实证，stdout收尾吐属正常）；欧阳锋codex因relay死亡502（LastRun停09-03，F-072应验）→ schtasks拉起Codex-Relay复活HTTP 200 → 重拉欧阳锋 proc_ouyangfeng_162240 终审三单。#647 仍未claim（26min），下拍02:37核销
+- [2026-09-06 01:57] ⚖️ KDO 已终审 13 单：#642, #645, #646, #430, #431, #432, #433, #434, #441, #435, #442, #443, #444（待部署/已闭环）
+- [2026-09-06 01:59] ⚖️ 老朱探问复盘：《启动会2026AI大航海》逐字稿——探针09-05 16:21已登记✅、微信线148MB回放01:51下载完transcribe_win转写中✅（工作流没死），断点=我01:44区间兜扫误划销该行（假去向#645候选卡）→已撤销+分诊书落盘 diag_20260906_wangyuyan-launchmeeting-triage：双采对账中（fs-doc版 vs 微信转写版），转写完成后双向diff定一等版本再W1逐字读诊断立项。教训=登记段批量划销禁区间兜扫须逐行身份核验
+- [2026-09-06 02:12] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#647（huangyaoshi 的单，挂审 9min）；#643（laowantong 的单，挂审 5min）（到点（节奏 30min））
+- [2026-09-06 02:17] 🩹 KDO 新问题线索 1 条（friction）：[shared] - 2026-09-06 02:20 | laowantong | #643 提审 | kdo pre
+- [2026-09-06 02:17] 🕐 值守拍02:37核销：欧阳锋前班13单全清（#642/#645/#646+历史10单）；黄药师#647提审+claim#648施工中；老顽童#643提审。裁定请求①核查：新录音2两份源素材find双命中均在库——欧阳锋负向判词为错（疑headless内find中文GBK坑），F-035门禁拦对，#642终审记录待其更正；②digest反链待维护批次。重拉欧阳锋(proc_ouyangfeng_158068)复审#643/#647+更正#642记录；gate-blocked回声1条划销。微信线转写02:11仍在跑（transcribe新PID）
+- [2026-09-06 02:27] ⚖️ KDO 已终审 1 单：#643（待部署/已闭环）；👤 KDO 待老朱拍板 1 项：#643（命中：终审记录节）——拍板或移除字样后自动消项；digest ⑤ 栏每日在列
+
+- [2026-09-06 02:29] 📨 建议书送达（duanwangye→wangyuyan）：60_feedback/diag/diag_20260906_duanwangye-hermes-headless-profile-flag.md——hermes 无头通道实测活，但 HERMES_PROFILE env 变量不生效（三 profile 全错载发起者身份），建议 TOOLS 表改 `-p {role}` flag 形态+追溯影响面。请裁定。
