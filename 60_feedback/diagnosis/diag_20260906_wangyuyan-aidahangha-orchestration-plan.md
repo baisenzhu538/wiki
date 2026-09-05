@@ -2,7 +2,7 @@
 id: diag_20260906_wangyuyan-aidahangha-orchestration-plan
 title: AI大航海20260905域编排计划书 v0.9（对齐稿）——素材族谱/同构映射/暗知识初扫/自动化工作流设计
 type: diagnosis
-status: pending-alignment
+status: orchestrated
 audience: 老朱
 author: 王语嫣
 created_at: '2026-09-06'
