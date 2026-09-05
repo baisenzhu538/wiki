@@ -534,6 +534,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#649 task_20260906_huangyaoshi-transcribe-timeout-and-aliases｜huangyaoshi｜提审 09-06 03:47｜60_feedback/tasks/task_20260906_huangyaoshi-transcribe-timeout-and-aliases.md~~ → 已终审 PASS A-（2026-09-05 欧阳锋）
 - ~~#650 task_20260906_huangyaoshi-launcher-hermes-profile-flag｜huangyaoshi｜提审 09-06 03:57｜60_feedback/tasks/task_20260906_huangyaoshi-launcher-hermes-profile-flag.md~~ → 已终审 PASS A-（2026-09-05 欧阳锋）
 - ~~#651 task_20260906_huangyaoshi-inbox-subdir-autoscan｜huangyaoshi｜提审 09-06 04:33｜60_feedback/tasks/task_20260906_huangyaoshi-inbox-subdir-autoscan.md~~ → 回声划销（09-06 04:40 王语嫣）：补 evidence 后提审成功，#651 现 pending_review
+- #652 task_20260906_huangyaoshi-agent-behavior-constitution｜huangyaoshi｜提审 09-06 04:48｜60_feedback/tasks/task_20260906_huangyaoshi-agent-behavior-constitution.md
 
 <!-- REVIEW-PENDING-END -->
 
@@ -1170,7 +1171,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 649 | `task_20260906_huangyaoshi-transcribe-timeout-and-aliases` | 采集链两修：①wechat 转写 15min 超时死循环根治（148MB 视频每拍重下实证，修前可停拍止血修后必恢复）②pre-submit ALIASES checker 取 basename | reviewed | huangyaoshi | 148MB 视频完整转写产出+seen+超时留痕；ALIASES 场景复跑不误报 | 无 | `60_feedback/tasks/task_20260906_huangyaoshi-transcribe-timeout-and-aliases.md` | 老朱链接卡循环+老顽童 #643 friction（03:07 王语嫣值守立项）；欧阳锋终审 |
 | 650 | `task_20260906_huangyaoshi-launcher-hermes-profile-flag` | 拉起器 hermes 通道角色机制修正：TOOL_ENV env 失效改 -p flag（段王爷 P0 实证三 profile 全错载默认）+ 历史影响面核查 | reviewed | huangyaoshi | launcher diff+狗粮自称核验+历史抽验清单 | 无 | `60_feedback/tasks/task_20260906_huangyaoshi-launcher-hermes-profile-flag.md` | 段王爷建议书（03:07 王语嫣裁定采纳，P0：历史 hermes 拉起疑同 profile 干活）；欧阳锋终审 |
 | 651 | `task_20260906_huangyaoshi-inbox-subdir-autoscan` | watch_inbox 顶层新子目录自动纳管（SCAN_SUBDIRS 白名单外不可见——AI大航海20260905 实证盲区，白名单族缺口第三例） | pending_review | huangyaoshi | 测试子目录下一拍登记出现+AI大航海补登记+回归不红 | 无 | `60_feedback/tasks/task_20260906_huangyaoshi-inbox-subdir-autoscan.md` | 03:37 王语嫣值守立项；欧阳锋终审 |
-| 652 | `task_20260906_huangyaoshi-agent-behavior-constitution` | 全Agent行为宪法 v1.0：实事求是准则+调研基本技能挂载（五条行为规则；CLI startup+拉起器注入；hermes 端依赖 #650；狗粮验收） | claimed-huangyaoshi | huangyaoshi | 宪法落盘+CLI注入 diff+抽 2 实例狗粮实测 | #650 后（hermes 注入段） | `60_feedback/tasks/task_20260906_huangyaoshi-agent-behavior-constitution.md` | 老朱 09-06 直令拍板；A5 理论依据+F-035 活体实证；欧阳锋终审 |
+| 652 | `task_20260906_huangyaoshi-agent-behavior-constitution` | 全Agent行为宪法 v1.0：实事求是准则+调研基本技能挂载（五条行为规则；CLI startup+拉起器注入；hermes 端依赖 #650；狗粮验收） | pending_review | huangyaoshi | 宪法落盘+CLI注入 diff+抽 2 实例狗粮实测 | #650 后（hermes 注入段） | `60_feedback/tasks/task_20260906_huangyaoshi-agent-behavior-constitution.md` | 老朱 09-06 直令拍板；A5 理论依据+F-035 活体实证；欧阳锋终审 |
 | 653 | `task_20260906_huangyaoshi-e040-crossrepo-hint` | E040 报错提示跨仓前缀全路径（第2次复发工具化） | queued | huangyaoshi | 模拟场景提示出现+回归不红 | 无 | `60_feedback/tasks/task_20260906_huangyaoshi-e040-crossrepo-hint.md` | 王语嫣 04:18 立项（两次复发工具化）；欧阳锋终审 |
 | 654 | `task_20260906_laowantong-aidahangha-batch1` | AI大航海域批量生产 batch1：3 framework+5 case+4 bridge+dk挂靠+skill草案+存量自迭代（12+卡，P1，老朱夜令） | claimed-laowantong | laowantong | 12卡入库+定位声明/行号锚/标签全+自攻击+三方法证据 | 无 | `60_feedback/tasks/task_20260906_laowantong-aidahangha-batch1.md` | 诊断 diag_20260906_wangyuyan-aidahangha-diagnosis 为规格源；欧阳锋终审 |
 
