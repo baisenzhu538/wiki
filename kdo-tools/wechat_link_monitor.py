@@ -41,6 +41,8 @@ WIKI = Path(__file__).resolve().parent.parent
 INBOX_DIR = WIKI / "00_inbox" / "wechat-collect"
 WORK_DIR = WIKI / "60_feedback" / "wechat-collect"
 SEEN_FILE = WORK_DIR / "seen_links.txt"
+TRANSCRIBE_FAIL_FILE = WORK_DIR / "transcribe_fails.txt"  # #649：转写失败/超时留痕（原为静默重试死循环）
+MAX_TRANSCRIBE_ATTEMPTS = 3  # 同一素材累计 3 败熔断，失败重试有限度
 
 WECHAT_DECRYPT_DIR = Path(r"C:\Users\Administrator\wechat-decrypt")
 PASSPHRASE = bytes.fromhex("301c21c6a0ba4d28a8263a80193ba91bbe2aedb5b68646c3ba78f9ab96c29681")
@@ -90,6 +92,72 @@ def knowledge_ize(src_md: Path):
     r = subprocess.run([sys.executable, str(kscript), str(src_md)], capture_output=True, timeout=300)
     if r.returncode != 0:
         print(f"  ⚠️ 知识化失败: {r.stderr.decode('utf-8', errors='replace')[-120:]}")
+
+
+def media_duration_seconds(video: Path) -> float:
+    """ffprobe 取媒体时长（秒）；ffprobe 缺席/失败返回 0——调用方走体量兜底。"""
+    try:
+        r = subprocess.run(
+            ["ffprobe", "-v", "error", "-show_entries", "format=duration",
+             "-of", "default=noprint_wrappers=1:nokey=1", str(video)],
+            capture_output=True, timeout=30)
+        return float(r.stdout.decode("utf-8", errors="replace").strip() or 0)
+    except Exception:
+        return 0.0
+
+
+def transcribe_timeout(video: Path) -> int:
+    """#649：timeout 与媒体时长挂钩，替代固定 900s。
+
+    固定 900s 对 65min 视频必然超时杀进程 → 无产出未标 seen → 下一拍重下重转写
+    （148MB/10min 死循环实证）。small int8 CPU 实测快于实时 → 系数取 1.0（实时 1 倍）
+    +300s 加载/起播开销；下限 900s，上限 4h（防失控进程无限占拍）。
+    ffprobe 缺席时按体量兜底（60s/MB，300kbps 口径下的宽估）。
+    """
+    dur = media_duration_seconds(video)
+    if dur > 0:
+        return int(min(max(dur + 300, 900), 14400))
+    return int(min(max(video.stat().st_size // (1024 * 1024) * 60, 900), 14400))
+
+
+def transcribe_fail_count(fail_key: str) -> int:
+    if not TRANSCRIBE_FAIL_FILE.exists():
+        return 0
+    return sum(1 for line in TRANSCRIBE_FAIL_FILE.read_text(encoding="utf-8").splitlines()
+               if line.split("|", 1)[0] == fail_key)
+
+
+def record_transcribe_fail(fail_key: str, reason: str):
+    with open(TRANSCRIBE_FAIL_FILE, "a", encoding="utf-8") as f:
+        f.write(f"{fail_key}|{int(time.time())}|{reason.strip()[-160:]}\n")
+
+
+def run_transcribe(video: Path, out_md: Path, fail_key: str) -> bool:
+    """转写一步走完（#649）：动态 timeout + 超时/失败留痕 + 3 败熔断。
+
+    成功（returncode 0 且产出存在）→ True；超时/失败 → 留痕 transcribe_fails.txt
+    （时间+原因尾段）并 False，不再静默吞掉等下一拍重烧。
+    """
+    n_fail = transcribe_fail_count(fail_key)
+    if n_fail >= MAX_TRANSCRIBE_ATTEMPTS:
+        print(f"  ⛔ {fail_key} 转写已失败 {n_fail} 次，熔断跳过（人工核验后清 {TRANSCRIBE_FAIL_FILE.name}）")
+        return False
+    win_script = WIKI / "kdo-tools" / "transcribe_win.py"
+    tmo = transcribe_timeout(video)
+    print(f"  ⏳ 转写 {video.name}（timeout={tmo}s）")
+    try:
+        r = subprocess.run([sys.executable, str(win_script), str(video), str(out_md)],
+                           capture_output=True, timeout=tmo)
+    except subprocess.TimeoutExpired:
+        record_transcribe_fail(fail_key, f"timeout {tmo}s killed")
+        print(f"  ⚠️ 转写超时被杀（{tmo}s）——已留痕 {TRANSCRIBE_FAIL_FILE.name}，不再静默重试")
+        return False
+    if r.returncode == 0 and out_md.exists():
+        return True
+    err_tail = r.stderr.decode("utf-8", errors="replace")[-120:]
+    record_transcribe_fail(fail_key, err_tail)
+    print(f"  ⚠️ 转写失败（已留痕）: {err_tail}")
+    return False
 
 
 def ensure_dirs():
@@ -411,18 +479,12 @@ def scan_downloaded_videos() -> int:
         stem = hashlib.md5(v.name.encode()).hexdigest()[:16]
         out_md = INBOX_DIR / f"src_wechat_{stem}.md"
         # 2026-08-31 迁移：Windows 原生转写（WSL 已废除，wsl.exe 僵死会挂死调用方）
-        win_script = WIKI / "kdo-tools" / "transcribe_win.py"
-        cmd = [sys.executable, str(win_script), str(v), str(out_md)]
-        r = subprocess.run(cmd, capture_output=True, timeout=900)
-        if r.returncode == 0 and out_md.exists():
+        if run_transcribe(v, out_md, mark):
             print(f"  ✅ 转写完成: {out_md}")
-            kscript = WIKI / "kdo-tools" / "wechat_knowledge.py"
-            subprocess.run([sys.executable, str(kscript), str(out_md)], capture_output=True, timeout=300)
+            knowledge_ize(out_md)
             ok += 1
             with open(SEEN_FILE, "a", encoding="utf-8") as f:
                 f.write(mark + "\n")
-        else:
-            print(f"  ⚠️ 转写失败: {r.stderr.decode('utf-8', errors='replace')[-120:]}")
     return ok
 
 
@@ -507,18 +569,13 @@ def main():
         # 转写 → inbox
         out_md = INBOX_DIR / f"src_wechat_{stem}.md"
         # 2026-08-31 迁移：Windows 原生转写（WSL 已废除，wsl.exe 僵死会挂死调用方）
-        win_script = WIKI / "kdo-tools" / "transcribe_win.py"
-        cmd = [sys.executable, str(win_script), str(video_file), str(out_md)]
-        r = subprocess.run(cmd, capture_output=True, timeout=900)
-        if r.returncode == 0 and out_md.exists():
+        if run_transcribe(video_file, out_md, url):
             print(f"  ✅ 转写完成: {out_md}")
             # 知识化
             knowledge_ize(out_md)
             print(f"  ✅ 知识化完成 -> {INBOX_DIR / 'knowledge'}")
-            # 成功才记录（失败下次重试）
+            # 成功才记录（失败已留痕并熔断，不再无限重试）
             mark_seen(url)
-        else:
-            print(f"  ⚠️ 转写失败（不记录，下次重试）: {r.stderr.decode('utf-8', errors='replace')[-150:]}")
     # 自动转正：已知识化产物入仓（10_raw/sources + 30_wiki/cases）
     pscript = Path(__file__).resolve().parent / "wechat_promote.py"
     r = subprocess.run([sys.executable, str(pscript)], capture_output=True, timeout=600)
