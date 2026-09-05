@@ -26,14 +26,18 @@ WIKI = Path(r"C:\Users\Administrator\Desktop\wiki")
 
 # 工具路由表：工具名 → 无头单发命令模板（{prompt}/{role} 为占位符）。
 # 新工具上线前先实测其无头模式（-p/print/exec 形态+权限模式），再登记。
-# 09-03 实测登记（王语嫣）：claude=deepseek-v4-flash（黄药师线）/ hermes=glm-5.3-flash（老顽童线，profile 走 HERMES_PROFILE env）/ codex=deepseek-v4-pro（欧阳锋线，需 relay 4444 活着）。
+# 09-03 实测登记（王语嫣）：claude=deepseek-v4-flash（黄药师线）/ hermes=glm-5.3-flash（老顽童线，profile 走 -p flag，#650 前误用 HERMES_PROFILE env 致角色错载）/ codex=deepseek-v4-pro（欧阳锋线，需 relay 4444 活着）。
 # 纪律：一律用原生 .exe——.cmd/.bat 壳在 DETACHED 无控制台环境下起不来（09-03 实测三次 0 字节日志）。
 # 09-04 老朱令：黄药师线改 kimi K3（claude/DeepSeek 无订阅余额）——kimi 模板显式钉死 k3 别名防配置漂移
 TOOLS = {
     "kimi": [r"C:\Users\Administrator\.kimi-code\bin\kimi.exe", "-m", "kimi-code/k3", "-p", "{prompt}"],
     "claude": [r"C:\Users\Administrator\AppData\Roaming\npm\node_modules\@anthropic-ai\claude-code\bin\claude.exe", "-p", "{prompt}", "--dangerously-skip-permissions"],
     "codex": [r"C:\Users\Administrator\AppData\Roaming\npm\node_modules\@openai\codex\node_modules\@openai\codex-win32-x64\vendor\x86_64-pc-windows-msvc\bin\codex.exe", "exec", "{prompt}", "--dangerously-bypass-approvals-and-sandbox", "--skip-git-repo-check"],
-    "hermes": [r"C:\Users\Administrator\AppData\Local\hermes\hermes-agent\venv\Scripts\hermes.exe", "-z", "{prompt}", "--yolo"],
+    # #650：hermes 角色切换必须走 -p {role} flag——HERMES_PROFILE env 在 hermes 的
+    # profile 解析链里根本不被读（源码 _apply_profile_override：argv -p → active_profile
+    # 文件 → HERMES_HOME env），env-only 拉起全部错载 active_profile（=huangyaoshi）。
+    # 段王爷 09-06 实测三 profile 全自称错身份；-p flag PROFILE_OK。
+    "hermes": [r"C:\Users\Administrator\AppData\Local\hermes\hermes-agent\venv\Scripts\hermes.exe", "-p", "{role}", "-z", "{prompt}", "--yolo"],
 }
 
 # 角色→默认工具路由（老朱 09-03 异构防线：不同模型防同构错误）。--tool 显式指定优先。
@@ -44,10 +48,10 @@ ROLE_TOOL = {
     "ouyangfeng": "codex",
 }
 
-# 工具级环境变量（{role} 占位符同样替换）——hermes 用 HERMES_PROFILE 选 profile。
-TOOL_ENV = {
-    "hermes": {"HERMES_PROFILE": "{role}"},
-}
+# 工具级环境变量（{role} 占位符同样替换）。
+# #650：hermes 的 HERMES_PROFILE env 条目已移除——hermes 从不读它（无头解析链只认
+# -p flag / active_profile 文件 / HERMES_HOME env），留着的死配置会误导后人以为 env 在管角色。
+TOOL_ENV = {}
 
 PROMPT_TEMPLATE = """你是{role}（KDO 知识工厂角色）。工作目录 {wiki}（先 cd 进去，一切操作在该目录下）。
 
