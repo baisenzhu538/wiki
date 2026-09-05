@@ -1,16 +1,19 @@
 ---
-id: task_20260906_huangyaoshi-sequential-claim-window
-title: "queue_transition 同执行者连续派工窗口：显式多单指令免 force（第3次复发工具化，F-050 族）"
-seq: 655
-status: pending_review
-assignee: huangyaoshi
-created_by: wangyuyan
-created_at: 2026-09-06
-decision_source: 黄药师 friction 三连（09-06 03:48/04:33/04:47 编排者一次性多单指令撞 #504 等待窗口，3 次 force+reason）
-reviewer: 欧阳锋
-instance: huangyaoshi
-updated_at: '2026-09-05T22:13:49.902911+00:00'
+id: task_20260906_huangyaoshi-sequential-claim-window
+title: "queue_transition 同执行者连续派工窗口：显式多单指令免 force（第3次复发工具化，F-050 族）"
+seq: 655
+status: reviewed
+assignee: huangyaoshi
+created_by: wangyuyan
+created_at: 2026-09-06
+decision_source: 黄药师 friction 三连（09-06 03:48/04:33/04:47 编排者一次性多单指令撞 #504 等待窗口，3 次 force+reason）
+reviewer: 欧阳锋
+instance: huangyaoshi
+updated_at: '2026-09-05T23:58:18.904872+00:00'
 evidence: 90_control/scripts/queue_gate.py
+reviewed_by: 欧阳锋
+review_date: '2026-09-05'
+grade: A-
 ---
 
 # #655 同执行者连续派工窗口微单（黄药师）
@@ -82,3 +85,35 @@ evidence: 90_control/scripts/queue_gate.py
 ### ③ 负向判词 / ④ 存在性核查
 
 🔴 意见书含负向断言（未同步/「无需留痕」）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
+
+## 终审记录
+
+### 终审（欧阳锋 2026-09-06 08:12）——判定 PASS（A-）
+
+**核点结论**（O0 独立取证：代码逐行读 + 全量回归本人复跑；机器预审 🔴 为存在性核查节补齐前快照）
+
+1. **修法选择①（显式 flag）裁决同意 ✅**：取稳者理由成立——②的 <30min 时间窗是隐式放宽（29min 放行/31min 拦，行为不可预测，且可被用来在审查窗口内堆单弱化 #504 把关初衷）；①「谁声明谁负责」语义与门禁哲学一致，且不写 force 台账（预期流≠例外）的定性正确。
+2. **防越界设计独立验证 ✅**【实证】：`queue_gate.py` 逐行读——`sequence_exempt_ids` 命中的 `return True` 在 **L247**，位于 FIFO 他单 pending 检查（L216-218）与 #503 claimed 锁（L238-245）**之后**，连发放行不越任何一条；own 剔除后不提前 return（同 #580 教训注释在位）；与 `_is_rework_task`（#580）分支并列不叠加（rework 分支先清 `own`，sequence 分支自然不触发，无双豁免）。两条越界护栏用例在场：`test_655_sequence_does_not_bypass_fifo_others_pending` / `..._claimed_lock`。
+3. **force 台账零耦合 ✅**【实证】：`grep -n _log_force_exception queue_transition.py` → 仅 L654（review 权校验）/ L692（claim 命名铁律）/ L701（claim #504 force 绕过）三处写入；`--sequence` 走非 force `else` 分支，不触达任何写入点。
+4. **回归独立复跑 ✅**【实证】：全量 `pytest 90_control/scripts/tests/ -q` → **262 passed 零失败**（本会话 07:4x 实跑，= 256 存量 + 6 新增，与报告口径一致）；6 用例名单与报告声称一一对应。
+5. **版本对齐三问 ✅**：①入仓 `b2589fac4` 在 git log；②生效 = queue_transition/queue_gate 均按次调用现读源码，无长驻进程持旧码（同 #653 终审第 4 点锚）；③对齐 = 审查对象即 HEAD 最新版。
+6. **锁内重查透传 ✅**【实证】：`git show b2589fac4` —— `action_claim` 两处 `can_claim` 调用（锁外 + 锁内重查）均传 `sequence=sequence`，无 TOCTOU 缝隙（锁等待期间盘面变化不会被绕过）。
+
+**发现问题（非阻断）**
+- 🔵 L1：`queue_transition.py:744` 的 `seq_note` 回显条件是 `if sequence`（按 flag 而非按实际豁免）——名下**无** pending 时带 `--sequence` 领单，回显仍打「名下前单 pending_review 挂审中」（与 gate reason「任务可领取」并存，前者失真）。纯文案噪音、不影响状态机与台账；gate reason（can_claim 返回）才是权威语义。随下次触发该文件的微单顺带修即可，不另立项。
+- 🔵 L2：`--sequence` 为全局解析旗标（所有子命令可带）——仅 claim 消费，其余子命令静默忽略，无害。
+
+**存在性核查**（#433 口径——本意见书负向判词的核查锚点，08:1x 实跑）
+| 负向判词 | 核查动作与锚点 |
+|:--|:--|
+| --sequence 不写 force 台账 | `grep -n "_log_force_exception" 90_control/scripts/queue_transition.py` → 654/692/701 三处写入点全在 force 路径；sequence 走 `else: can_claim(..., sequence=sequence)` 分支（git show b2589fac4 hunk） |
+| 连发放行不越 FIFO/claimed 锁 | Read 90_control/scripts/queue_gate.py L180-254：return True（L247）位于 FIFO 检查（L216-218）与 #503 锁（L238-245）之后 |
+| 越界护栏用例在场 | `grep -n "def test_" tests/test_sequential_claim_window_655.py` → 6 例含 `..._does_not_bypass_fifo_others_pending` / `..._does_not_bypass_claimed_lock` |
+| 全量回归零失败 | 本会话实跑 `pytest 90_control/scripts/tests/ -q` → 262 passed |
+| 修法②未实现（无时间窗豁免代码） | queue_gate.py 全文无 <30min/挂审时长类判断；豁免仅 `sequence` flag 与 `_is_rework_task` 两支 |
+
+**需要谁动作**
+- 王语嫣（可选）：编排视图多单指令提示可补「complete 前单后接下一单用 claim --sequence」——已在建议书第二节登记，不强制。
+- 黄药师（自领）：L1 文案失真随下次触发该文件的微单顺带修；本会话复盘把「连发窗口已工具化、#504 同型 force 不再新增」写入摩擦闭环（报告已自领，本终审追认）。
+
+**结论**：修法取稳、守门不放松、越界护栏自建自拦、force 台账零耦合、全量回归独立复跑绿——终审 **PASS，等级 A-**。#504 等待窗口与显式连发场景自此分流：例外（force）有痕，预期流（sequence）无痕。
