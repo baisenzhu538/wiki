@@ -5,7 +5,7 @@ title: "全Agent行为宪法 v1.0：实事求是准则+调研基本技能挂载�
 
 seq: 652
 
-status: pending_review
+status: reviewed
 assignee: huangyaoshi
 
 created_by: wangyuyan
@@ -17,9 +17,12 @@ decision_source: 老朱 09-06 直令（实事求是是一个准则，调研是�
 reviewer: 欧阳锋
 
 instance: huangyaoshi
-updated_at: '2026-09-05T21:54:13.878220+00:00'
-evidence: .agent/startup.md
+updated_at: '2026-09-05T23:52:44.339740+00:00'
+evidence: .agent/startup.md
 rework: true
+reviewed_by: 欧阳锋
+review_date: '2026-09-05'
+grade: A-
 ---
 
 # #652 全Agent行为宪法 v1.0（黄药师执行注入，王语嫣已起草条款）
@@ -111,6 +114,13 @@ rework: true
 **需要谁动作**
 - 欧阳锋：复审 L54 一句话修复（其余四处已判合规），通过 → 宪法 v1.0 转 reviewed 生效
 
+#### 补正（黄药师 2026-09-06 06:00——#653 顺带核查发现，本节以上报告一处负向判词证伪）
+
+- **证伪本单 04:55 报告存在性核查表第 2 行「research-core skill 文件不存在」及本报告 05:51 补正第 2 条沿用句**【实证】：research-core **已实装**——`40_outputs/capabilities/skills/shared/research-core/SKILL.md` 存在（v1.1.0，status=reviewed，reviewed_by=欧阳锋，2026-09-02/03 落盘）。04:47 的 `ls -d 40_outputs/capabilities/skills/research-core` 查的是**根目录**，实装在 `shared/` 子目录——**存在性核查锚点选错路径，判词反了**。宪法第三条 L44「research-core 仅 MOUNT-MATRIX 登记无 skill 文件」、基建公告 L63 同句，均基于此错误锚。
+- **仍然成立的口径**【实证】：deep-research 无 SKILL.md（`40_outputs/capabilities/skills` 全树 glob 无命中，仅 10_raw 素材）；MOUNT-MATRIX 二节 78 个 skill 逐一对照盘面 **78/78 全有 SKILL.md，矩阵登记面零失真**（失真在判词不在矩阵）；research-core 未出现在本会话可调用 skill 清单——**登记面≠CLI 会话可用面**这个大方向仍对，只是「无文件」表述错误。
+- **建议修正措辞（供欧阳锋/王语嫣裁决，黄药师不自改条款——D4+审而不改）**：宪法第三条 L44「research-core 仅 MOUNT-MATRIX 登记无 skill 文件（ls … 不存在）」→「research-core 已实装在库（`40_outputs/capabilities/skills/shared/research-core/SKILL.md`，reviewed v1.1.0）但未挂载为 CLI 会话可调用 skill」。基建公告 L63 同步。**操作性结论不变**（技术/概念类→kdo query+grep；不虚指 deep-research），只修事实脚注。
+- 详见 #653 执行报告（MOUNT-MATRIX 顺带核查节，含全量对照命令可复跑）。
+
 ## 机器预审报告
 
 > 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
@@ -151,4 +161,37 @@ rework: true
 - 其余四处措辞（宪法第三条 / PROMPT_TEMPLATE / 基建公告 / startup.md L5）已按实证，无需改动。
 
 **结论**：宪法内容、三挂载点注入、狗粮验收、存在性核查节整体达 A- 质量；但 startup.md L54 虚指 deep-research 与宪法第三条自相矛盾，属 P1 阻断——终审不通过，退回 queued 返工。
+
+### 终审（复审 Round 2，欧阳锋 2026-09-06 07:52）——判定 PASS（A-，宪法 v1.0 转 reviewed 生效）
+
+**复审范围**：上轮 P1（startup.md L54 虚指 deep-research）一句话修复 + 全挂载点无新矛盾核查。按 O0/双假设独立取证，不采信执行报告数字（262 回归本人独立复跑通过）。
+
+**五核点复审结论**
+- ① L54 修复达标 ✅【实证】：`.agent/startup.md:54` 现文「技术/概念类→kdo query+grep（deep-research 未实装）」与裁定原文逐字一致；`git show f18f04d86 --stat` = 1 file / +1 −1，确为一句话修复、无夹带。
+- ② 无新矛盾 ✅【实证】：五处挂载点交叉 grep（startup.md L5/L54、宪法第三条 L44 deep-research 半句、PROMPT_TEMPLATE L67、基建公告 L63 deep-research 半句）全部同口径「business-research 唯一可调用 + 技术/概念类 kdo query+grep + deep-research 不虚指」；`grep -n deep-research .agent/startup.md` 仅 L5/L54 两处且均为否定式表述。
+- ③ 挂载点在场 ✅【实证】：hermes SOUL.md 宪法标记抽查 3/3（laowantong / hongqigong / skills-assistant 各命中 `constitution: v1.0`，含未注册的 hongqigong 目录——落盘待其注册生效，与 04:55 报告边界一致）。
+- ④ 上轮其余核点（宪法五条可执行 / 三挂载点注入 / 狗粮两通道 / 存在性核查节）维持 05:26 结论，不重复展开。
+- ⑤ **采纳 #653 顺带核查，自纠上轮判词**：我 05:26 终审③曾判「research-core 无文件」——**该判词错误，予以撤回**【实证】锚点见下表；同错也存在于宪法 L44 与公告 L63。
+
+**发现问题（非阻断）**
+- 🟠 M1：宪法第三条 L44 与基建公告 L63 的「research-core 仅 MOUNT-MATRIX 登记无 skill 文件（`ls …/skills/research-core` 不存在）」为**假判词**——实装在 `shared/` 子层。判词反了但操作性结论不变（research-core 未挂载为 CLI 会话可调用 skill，技术/概念类仍走 kdo query+grep），且非本次返工引入（670ee0f9f 原始提交即含，上轮我同样采信错锚）→ 按 🟠Medium 放行+TODO，列宪法 v1.1 修订单首条。**裁决：采纳黄药师建议措辞**，微调为「research-core 已实装在库（`40_outputs/capabilities/skills/shared/research-core/SKILL.md` v1.1.0 reviewed）但未挂载为 CLI 会话可调用 skill——CLI 会话内技术/概念类仍走 kdo query+grep；调用面实装归 skills-assistant 立项（#587 域）」。基建公告 L63 同步。已另落建议书给王语嫣编排执行。
+
+**存在性核查**（本意见书判定的核查锚点，07:4x 实跑）
+| 判定 | 锚点 |
+|:--|:--|
+| L54 已修复且单行变更 | `git show f18f04d86 --stat`（1 file, +1/-1）；Read .agent/startup.md L54 原文 |
+| research-core 实装在 shared/ 子层（L44 判词为假） | `ls -d 40_outputs/capabilities/skills/research-core` → No such file or directory；`ls -d …/skills/shared/research-core` → 存在（SKILL.md v1.1.0 / reviewed_by 欧阳锋 / JUDGEMENT.md / manifest.yaml） |
+| research-core 未挂载为 CLI 会话可调用 skill | 本会话（欧阳锋 claude 实例 09-06）available skills 列表无 research-core——与 #653 报告独立实例同观察 |
+| 五处挂载点无 residual 虚指 | `grep -n "deep-research\|research-core\|business-research"` 四文件全量输出 |
+| hermes SOUL.md 注入在场 | `grep -c "constitution: v1.0"` 三 profile SOUL.md 各 1 |
+
+**残余风险**
+- 宪法 v1.0 生效版携带 L44/L63 事实脚注错误，v1.1 修单落地前其他 agent 读到的仍是错句——操作性结论不受影响，但「不虚指」条款自身携带的例证是错的，v1.1 宜尽快落地。
+- hongqigong profile 未注册，SOUL.md 注入待其注册后生效（已有账，09-06 05:10 王语嫣划销留档）。
+
+**需要谁动作**
+- 王语嫣：编排宪法 v1.1 修单（L44 + 公告 L63 一句话事实修正，措辞见 M1）给黄药师执行；建议书已落 `60_feedback/diagnosis/`。
+- skills-assistant（经王语嫣）：research-core 调用面实装/暴露口径归 #587 域拍板。
+
+**结论**：P1 修复达标、无新增矛盾、五挂载点注入在场、狗粮验收有效——终审 **PASS，等级 A-**（宪法五条+挂载+验收达标；扣分=L44/L63 事实脚注错误待 v1.1 修单）。宪法 v1.0 转 reviewed 生效。
 
