@@ -1,16 +1,19 @@
 ---
-id: task_20260906_huangyaoshi-inbox-subdir-autoscan
-title: "watch_inbox 顶层新子目录自动纳管（SCAN_SUBDIRS 白名单外子目录不可见——AI大航海20260905 实证盲区）"
-seq: 651
-status: pending_review
-assignee: huangyaoshi
-created_by: wangyuyan
-created_at: 2026-09-06
-decision_source: 王语嫣值守拍立项（03:37 拍，#605/#619 白名单族缺口第三例）
-reviewer: 欧阳锋
-instance: huangyaoshi
-updated_at: '2026-09-05T20:33:24.256128+00:00'
+id: task_20260906_huangyaoshi-inbox-subdir-autoscan
+title: "watch_inbox 顶层新子目录自动纳管（SCAN_SUBDIRS 白名单外子目录不可见——AI大航海20260905 实证盲区）"
+seq: 651
+status: reviewed
+assignee: huangyaoshi
+created_by: wangyuyan
+created_at: 2026-09-06
+decision_source: 王语嫣值守拍立项（03:37 拍，#605/#619 白名单族缺口第三例）
+reviewer: 欧阳锋
+instance: huangyaoshi
+updated_at: '2026-09-05T20:52:17.136996+00:00'
 evidence: 60_feedback/tasks/task_20260906_huangyaoshi-inbox-subdir-autoscan.md
+reviewed_by: 欧阳锋
+review_date: '2026-09-05'
+grade: A-
 ---
 
 # #651 watch_inbox 顶层新子目录自动纳管（黄药师）
@@ -72,3 +75,33 @@ evidence: 60_feedback/tasks/task_20260906_huangyaoshi-inbox-subdir-autoscan.md
 ### ③ 负向判词 / ④ 存在性核查
 
 ✅ 执行报告无负向断言词（检查面=执行报告节）
+
+
+## 终审记录
+
+**终审人**：欧阳锋（ouyangfeng）｜**判定**：PASS A-｜**methodology_version**：v2.3
+
+**三核验点独立复跑（不复述自称）**
+
+**① 目录级登记只报存在+件数、不递归——通过**
+- `_dir_signature()`（watch_inbox.py L83-98）一层 `path.iterdir()` 取直接子项名+mtime_ns，无 `rglob`/递归；`_unknown_top_dirs()`（L101-109）同为 `INBOX.iterdir()` 一层。
+- `scan()` 目录级分支（L172-188）：白名单外顶层目录先算一层签名，未变即 `continue`，变了才追加**一条** discovery（`is_dir=True`+`size=件数`），不逐文件枚举进 discoveries。
+- 亲跑：`cd kdo-tools && python -m pytest tests/test_watch_inbox.py -q` → 8 passed；全量 `python -m pytest -q` → 310 passed（报告 04:35 落笔 276 系时点快照，当前更高，本单新增 4 条含在内，回归不红）。
+
+**② 负向核验（_ 前缀不登记 / 白名单无重复）——通过**
+- `_unknown_top_dirs()` 排除 `p.name.startswith("_")`、`SKIP_SUBDIR_PARTS={"knowledge"}`、`SCAN_SUBDIRS` 白名单、符号链接。
+- 亲跑 `test_top_dir_skip_rules`（`_vlm_output`/`knowledge` 零目录级发现、白名单 `wechat-collect` 仅文件级发现）+ `test_scan_whitelist_subdirs`（白名单目录无目录级重复行）通过。
+- 真机 state 键核查：`.kdo/inbox_state.json` 无 `00_inbox/_vlm_reprocess/`、无 `00_inbox/pending-cards/`、`wechat-collect/`、`video_transcripts/`、`video_transcripts_small/` 目录级键。
+
+**③ 活体样本 AI大航海20260905 已在 INBOX-PENDING——通过**
+- `70_product/tasks/production-queue.md` L664 现存该行（已由王语嫣 04:40 划销，注记明言「此行即 #651 目录级登记功能首个活体样本，功能自证生效 ✅」）；行体 `00_inbox/AI大航海20260905/｜P2｜13件｜检测到 09-05 20:29｜待王语嫣编排（#651 目录级登记…）` 与实测目录 13 件一致。
+
+**评分**：溯源完整 ✅｜逻辑骨架 ✅｜暗知识密度 ✅｜可操作性 ✅｜表达质量 ✅ → **A-**
+
+**残留风险（非阻断，去向已定）**
+- 🔵 任务书实证节「（14 件：口述×2/笔记×2/逐字稿×1/PNG×8）」与明细求和 13 件、真机目录 13 件不一致——纯文书笔误，看板 13件 正确。去向：留痕即可，无需返工；王语嫣划销注记同写「14 件」随其后更正口径即可。
+
+**存在性核查**（终审侧独立锚点）
+- 「登记不递归」→ 亲跑 watch_inbox 8 passed + 全量 310 passed（见①）。
+- 「_ 前缀/白名单零目录级键」→ 直查 `.kdo/inbox_state.json` 目录级键，无 `_vlm_reprocess`/白名单四目录键（见②）。
+- 「活体样本行在场」→ `production-queue.md` L664 字节级读取（见③）。
