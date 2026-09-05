@@ -1031,12 +1031,63 @@ def _scan_offbeat_backup(state: dict, window_h: float = 3, tolerance_min: float 
     return []
 
 
+def _graph_index_selfheal(lag_h: float, max_lag_h: float) -> tuple[bool, str]:
+    """#648：陈旧自愈——`kdo graph rebuild`（增量默认）。
+
+    真机实测（#648 施工时）：增量 14s/24 页/68 chunks；#622 的 `--full` 先删后建
+    才是重操作，自愈永不带 --full。成功/失败都落 logs/graph-selfheal.log（自愈是
+    事件不是故障——不进 gate-blocked 告警通道）；失败返回 False 由调用方转报警升级。
+    任何异常不外抛（#622 红线延续：哨兵自身故障不拖死探针拍）。
+    """
+    import shutil as _sh
+    import subprocess as _sp
+    log_f = ROOT / "logs" / "graph-selfheal.log"
+    graphml = ROOT / ".kdo" / "graph_index" / "graph_chunk_entity_relation.graphml"
+    try:
+        mt_before = graphml.stat().st_mtime
+    except OSError:
+        mt_before = 0.0
+    kdo = _sh.which("kdo")
+    try:
+        if not kdo:
+            ok, note = False, "kdo 不在 PATH"
+        else:
+            r = _sp.run([kdo, "graph", "rebuild"], capture_output=True, text=True,
+                        timeout=300, encoding="utf-8", errors="replace", cwd=str(ROOT))
+            ok = r.returncode == 0
+            lines = (r.stdout or r.stderr or "").strip().splitlines()
+            note = lines[-1][:120] if lines else f"rc={r.returncode}"
+            if ok:
+                # #175 教训同源：rc=0 ≠ 落地——内容无变化时增量重建返回
+                # 「No changes…」也是 rc=0 但 graphml 不前跳，lag 依旧超阈。
+                # 成功判据 = graphml mtime 前跳；未前跳转 FAIL 升级人工。
+                try:
+                    mt_after = graphml.stat().st_mtime
+                except OSError:
+                    mt_after = mt_before
+                if mt_after <= mt_before:
+                    ok, note = False, "rc=0 但 graphml 未前跳（无内容变更/静默失败）——需人工判断"
+    except Exception as e:
+        ok, note = False, f"{type(e).__name__}: {e}"
+    try:
+        log_f.parent.mkdir(parents=True, exist_ok=True)
+        with log_f.open("a", encoding="utf-8") as f:
+            f.write(f"{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}｜"
+                    f"lag={lag_h:.0f}h>阈值{max_lag_h:.0f}h｜{'OK' if ok else 'FAIL'}｜{note}\n")
+    except Exception:
+        pass
+    return ok, note
+
+
 def _scan_graph_index_health(state: dict, max_lag_h: float = 48) -> list[str]:
     """#622 第十一信号：graph_index 健康哨兵——空目录 / 0 records / 陈旧超 48h 告警。
 
     背景：08-31 整树事故清空 .kdo/graph_index（0 字节，mtime 02:11 落事故窗口），
     hybrid RRF 语义腿空转 2 天无人发现——「修完没加哨兵=同类事故必再发」（#357/#358 模式）。
-    只告警不动作（本单红线）。幂等=沿触发：同一异常原因只报一次，恢复后重新武装，
+    只告警不动作（#622 红线）→ #648 修订：陈旧超阈值分支先自愈（增量重建）再告警——
+    #648 根因=graph rebuild 手动节奏无制度化载体（无计划任务），48h 阈值结构性必触线，
+    告警五拍被值守误判回声无人重建；空目录/0 records/graphml 缺失分支维持只告警不动作。
+    幂等=沿触发：同一异常原因只报一次，恢复后重新武装，
     异常原因切换（如 空→0 records）重报。
     陈旧口径：graphml mtime 落后 search_index.json 超 48h（#356 双索引同步语义）——
     graph rebuild 是手动节奏，绝对 mtime 48h 会把正常静默期误报成事故；
@@ -1060,7 +1111,20 @@ def _scan_graph_index_health(state: dict, max_lag_h: float = 48) -> list[str]:
                 if search_idx.is_file():
                     lag_h = (search_idx.stat().st_mtime - graphml.stat().st_mtime) / 3600
                     if lag_h > max_lag_h:
-                        issue = f"陈旧（落后 search_index {lag_h:.0f}h，阈值 {max_lag_h:.0f}h）"
+                        # #648：停拍超阈值 → 先自愈（增量重建），失败才报警升级。
+                        # 6h 最小重试间隔：自愈后仍陈旧（search_index 前跳/重建静默失败）
+                        # 不乒乓重建，升级人工。
+                        if time.time() - state.get("graph_index_heal_last", 0.0) < 6 * 3600:
+                            issue = (f"陈旧（落后 search_index {lag_h:.0f}h，阈值 {max_lag_h:.0f}h；"
+                                     f"6h 内已试自愈未恢复——升级人工）")
+                        else:
+                            ok, note = _graph_index_selfheal(lag_h, max_lag_h)
+                            state["graph_index_heal_last"] = time.time()
+                            if ok:
+                                issue = None  # graphml 已前跳，下一拍自然复核恢复
+                            else:
+                                issue = (f"陈旧（落后 search_index {lag_h:.0f}h，阈值 {max_lag_h:.0f}h；"
+                                         f"自动增量重建失败: {note[:60]}）")
     except Exception:
         return []
     prev = state.get("graph_index_issue")

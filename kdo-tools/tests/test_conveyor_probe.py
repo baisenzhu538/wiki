@@ -726,16 +726,71 @@ def test_graph_index_zero_records_alarmed(tmp_path, monkeypatch):
 
 
 def test_graph_index_stale_over_48h_alarmed(tmp_path, monkeypatch):
-    """graphml 落后 search_index 超 48h → 陈旧告警；48h 内不告警。"""
+    """graphml 落后 search_index 超 48h → 陈旧告警；48h 内不告警。
+
+    #648 修订：陈旧分支先自愈再告警——本用例桩掉自愈为失败态以保持告警断言
+    （自愈成功路径见 #648 专项用例）。"""
     _mk_graph_index(tmp_path, nodes=3, graph_age_h=50, search_age_h=0)
     monkeypatch.setattr(probe, "ROOT", tmp_path)
+    monkeypatch.setattr(probe, "_graph_index_selfheal", lambda lag, mx: (False, "测试桩：自愈失败"))
     state = {}
     alerts = probe._scan_graph_index_health(state)
-    assert len(alerts) == 1 and "陈旧" in alerts[0]
+    assert len(alerts) == 1 and "陈旧" in alerts[0] and "自动增量重建失败" in alerts[0]
 
     _mk_graph_index(tmp_path, nodes=3, graph_age_h=10, search_age_h=0)
     state2 = {}
     assert probe._scan_graph_index_health(state2) == []  # 10h 滞后正常（手动重建节奏）
+
+
+# ── #648：陈旧自愈路径（停拍超阈值→自动重建，失败升级） ──────────
+
+def test_648_stale_selfheal_success_no_alarm(tmp_path, monkeypatch):
+    """陈旧超阈值 + 自愈成功 → 无告警、状态复位（graphml 已前跳下一拍自然复核）。"""
+    _mk_graph_index(tmp_path, nodes=3, graph_age_h=50, search_age_h=0)
+    monkeypatch.setattr(probe, "ROOT", tmp_path)
+    calls = []
+    monkeypatch.setattr(probe, "_graph_index_selfheal",
+                        lambda lag, mx: calls.append((lag, mx)) or (True, "Done. 24 updated."))
+    state = {}
+    assert probe._scan_graph_index_health(state) == []
+    assert len(calls) == 1 and calls[0][0] > 48  # 拿到真实 lag 且只治愈一次
+    assert state["graph_index_issue"] is None
+    assert "graph_index_heal_last" in state  # 重试间隔锚点落位
+
+
+def test_648_stale_selfheal_fail_escalates(tmp_path, monkeypatch):
+    """陈旧超阈值 + 自愈失败 → 报警升级（含失败原因，人工可接管）。"""
+    _mk_graph_index(tmp_path, nodes=3, graph_age_h=50, search_age_h=0)
+    monkeypatch.setattr(probe, "ROOT", tmp_path)
+    monkeypatch.setattr(probe, "_graph_index_selfheal", lambda lag, mx: (False, "kdo 不在 PATH"))
+    alerts = probe._scan_graph_index_health({})
+    assert len(alerts) == 1
+    assert "自动增量重建失败" in alerts[0] and "kdo 不在 PATH" in alerts[0]
+
+
+def test_648_selfheal_min_interval_no_pingpong(tmp_path, monkeypatch):
+    """6h 内已试过自愈仍陈旧 → 不再重建（防乒乓），报警升级人工。"""
+    import time as _t
+    _mk_graph_index(tmp_path, nodes=3, graph_age_h=50, search_age_h=0)
+    monkeypatch.setattr(probe, "ROOT", tmp_path)
+    calls = []
+    monkeypatch.setattr(probe, "_graph_index_selfheal",
+                        lambda lag, mx: calls.append(1) or (True, "不该被调用"))
+    state = {"graph_index_heal_last": _t.time() - 3600}  # 1h 前刚试过
+    alerts = probe._scan_graph_index_health(state)
+    assert calls == []  # 未触发重建
+    assert len(alerts) == 1 and "升级人工" in alerts[0]
+
+
+def test_648_healthy_no_selfheal_call(tmp_path, monkeypatch):
+    """健康（lag<48h）→ 自愈根本不被调用（零成本静默）。"""
+    _mk_graph_index(tmp_path, nodes=3, graph_age_h=10, search_age_h=0)
+    monkeypatch.setattr(probe, "ROOT", tmp_path)
+    calls = []
+    monkeypatch.setattr(probe, "_graph_index_selfheal",
+                        lambda lag, mx: calls.append(1) or (True, ""))
+    assert probe._scan_graph_index_health({}) == []
+    assert calls == []
 
 
 def test_graph_index_healthy_no_alarm_and_rearm(tmp_path, monkeypatch):
