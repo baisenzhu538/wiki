@@ -533,6 +533,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#648 task_20260906_huangyaoshi-graph-index-stall-rootfix｜huangyaoshi｜提审 09-06 02:17｜60_feedback/tasks/task_20260906_huangyaoshi-graph-index-stall-rootfix.md~~ → 已终审 PASS A-（2026-09-05 欧阳锋）
 - ~~#649 task_20260906_huangyaoshi-transcribe-timeout-and-aliases｜huangyaoshi｜提审 09-06 03:47｜60_feedback/tasks/task_20260906_huangyaoshi-transcribe-timeout-and-aliases.md~~ → 已终审 PASS A-（2026-09-05 欧阳锋）
 - ~~#650 task_20260906_huangyaoshi-launcher-hermes-profile-flag｜huangyaoshi｜提审 09-06 03:57｜60_feedback/tasks/task_20260906_huangyaoshi-launcher-hermes-profile-flag.md~~ → 已终审 PASS A-（2026-09-05 欧阳锋）
+- #651 task_20260906_huangyaoshi-inbox-subdir-autoscan｜huangyaoshi｜提审 09-06 04:33｜60_feedback/tasks/task_20260906_huangyaoshi-inbox-subdir-autoscan.md
 
 <!-- REVIEW-PENDING-END -->
 
@@ -661,7 +662,6 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~00_inbox/wechat-collect/src_wechat_4b6327b374540e2e.md｜P2｜116772B｜检测到 09-05 19:51｜待王语嫣编排~~ → 已裁定划销（09-06 04:18 王语嫣）：双采对账完成——ASR版(58k字带时间戳)为一等锚、fs-doc版为可读辅助（同事件结尾原文实锤）；素材消化走 AI大航海域 D1 金矿台账（已入80+58条），diag_20260906_wangyuyan-launchmeeting-triage 收口
 - ~~00_inbox/pending-cards/case-wechat-4b6327b374540e2e.md｜P2｜5682B｜检测到 09-05 20:01｜待王语嫣编排~~ → 门禁判定：不入独立生产（09-06 04:18 王语嫣）——wechat_knowledge 自动卡标题取自 ASR 开头误听（「妮妮妮别吵架」）、「双彩鸟画布」系「双三角画布」误听，质量不足独立成卡；内容与本域 D1 金矿台账重叠，以台账为准；卡留 pending-cards 标 draft 不删
 - 00_inbox/AI大航海20260905/｜P2｜13件｜检测到 09-05 20:29｜待王语嫣编排（#651 目录级登记：内件不在扫描面，需文件级跟踪→加入 SCAN_SUBDIRS）
-- 00_inbox/zz-651-autoscan-test/｜P2｜1件｜检测到 09-05 20:29｜待王语嫣编排（#651 目录级登记：内件不在扫描面，需文件级跟踪→加入 SCAN_SUBDIRS）
 
 <!-- INBOX-PENDING-END -->
 
@@ -1167,7 +1167,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 648 | `task_20260906_huangyaoshi-graph-index-stall-rootfix` | graph_index 停拍根因+重建+哨兵复查：infra-liveness 六拍连续增长 48→53h 实证（#622 复发） | reviewed | huangyaoshi | 根因结论+重建后 graph/search 时差回落+哨兵回归 | #646 终审后（同角色排队） | `60_feedback/tasks/task_20260906_huangyaoshi-graph-index-stall-rootfix.md` | 王语嫣值守拍立项（09-06，真实故障非回声）；欧阳锋终审 |
 | 649 | `task_20260906_huangyaoshi-transcribe-timeout-and-aliases` | 采集链两修：①wechat 转写 15min 超时死循环根治（148MB 视频每拍重下实证，修前可停拍止血修后必恢复）②pre-submit ALIASES checker 取 basename | reviewed | huangyaoshi | 148MB 视频完整转写产出+seen+超时留痕；ALIASES 场景复跑不误报 | 无 | `60_feedback/tasks/task_20260906_huangyaoshi-transcribe-timeout-and-aliases.md` | 老朱链接卡循环+老顽童 #643 friction（03:07 王语嫣值守立项）；欧阳锋终审 |
 | 650 | `task_20260906_huangyaoshi-launcher-hermes-profile-flag` | 拉起器 hermes 通道角色机制修正：TOOL_ENV env 失效改 -p flag（段王爷 P0 实证三 profile 全错载默认）+ 历史影响面核查 | reviewed | huangyaoshi | launcher diff+狗粮自称核验+历史抽验清单 | 无 | `60_feedback/tasks/task_20260906_huangyaoshi-launcher-hermes-profile-flag.md` | 段王爷建议书（03:07 王语嫣裁定采纳，P0：历史 hermes 拉起疑同 profile 干活）；欧阳锋终审 |
-| 651 | `task_20260906_huangyaoshi-inbox-subdir-autoscan` | watch_inbox 顶层新子目录自动纳管（SCAN_SUBDIRS 白名单外不可见——AI大航海20260905 实证盲区，白名单族缺口第三例） | claimed-huangyaoshi | huangyaoshi | 测试子目录下一拍登记出现+AI大航海补登记+回归不红 | 无 | `60_feedback/tasks/task_20260906_huangyaoshi-inbox-subdir-autoscan.md` | 03:37 王语嫣值守立项；欧阳锋终审 |
+| 651 | `task_20260906_huangyaoshi-inbox-subdir-autoscan` | watch_inbox 顶层新子目录自动纳管（SCAN_SUBDIRS 白名单外不可见——AI大航海20260905 实证盲区，白名单族缺口第三例） | pending_review | huangyaoshi | 测试子目录下一拍登记出现+AI大航海补登记+回归不红 | 无 | `60_feedback/tasks/task_20260906_huangyaoshi-inbox-subdir-autoscan.md` | 03:37 王语嫣值守立项；欧阳锋终审 |
 | 652 | `task_20260906_huangyaoshi-agent-behavior-constitution` | 全Agent行为宪法 v1.0：实事求是准则+调研基本技能挂载（五条行为规则；CLI startup+拉起器注入；hermes 端依赖 #650；狗粮验收） | queued | huangyaoshi | 宪法落盘+CLI注入 diff+抽 2 实例狗粮实测 | #650 后（hermes 注入段） | `60_feedback/tasks/task_20260906_huangyaoshi-agent-behavior-constitution.md` | 老朱 09-06 直令拍板；A5 理论依据+F-035 活体实证；欧阳锋终审 |
 | 653 | `task_20260906_huangyaoshi-e040-crossrepo-hint` | E040 报错提示跨仓前缀全路径（第2次复发工具化） | queued | huangyaoshi | 模拟场景提示出现+回归不红 | 无 | `60_feedback/tasks/task_20260906_huangyaoshi-e040-crossrepo-hint.md` | 王语嫣 04:18 立项（两次复发工具化）；欧阳锋终审 |
 | 654 | `task_20260906_laowantong-aidahangha-batch1` | AI大航海域批量生产 batch1：3 framework+5 case+4 bridge+dk挂靠+skill草案+存量自迭代（12+卡，P1，老朱夜令） | claimed-laowantong | laowantong | 12卡入库+定位声明/行号锚/标签全+自攻击+三方法证据 | 无 | `60_feedback/tasks/task_20260906_laowantong-aidahangha-batch1.md` | 诊断 diag_20260906_wangyuyan-aidahangha-diagnosis 为规格源；欧阳锋终审 |
