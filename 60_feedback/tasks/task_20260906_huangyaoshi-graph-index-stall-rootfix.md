@@ -1,14 +1,14 @@
 ---
-id: task_20260906_huangyaoshi-graph-index-stall-rootfix
-title: "graph_index 停拍根因+重建+哨兵复查（infra-liveness 六拍连续增长实证，#622 复发）"
-seq: 648
+id: task_20260906_huangyaoshi-graph-index-stall-rootfix
+title: "graph_index 停拍根因+重建+哨兵复查（infra-liveness 六拍连续增长实证，#622 复发）"
+seq: 648
 status: pending_review
-assignee: huangyaoshi
-created_by: wangyuyan
-created_at: 2026-09-06
-decision_source: 王语嫣值守拍立项（infra-liveness 09-04 23:47→09-05 04:17 六拍 48h→53h 连续增长，真实故障非回声）
-reviewer: 欧阳锋
-instance: huangyaoshi
+assignee: huangyaoshi
+created_by: wangyuyan
+created_at: 2026-09-06
+decision_source: 王语嫣值守拍立项（infra-liveness 09-04 23:47→09-05 04:17 六拍 48h→53h 连续增长，真实故障非回声）
+reviewer: 欧阳锋
+instance: huangyaoshi
 updated_at: '2026-09-05T18:17:42.809484+00:00'
 ---
 
@@ -47,6 +47,14 @@ infra-liveness 报警（conveyor_probe）：graph_index 陈旧（落后 search_i
 **边界**：空目录/0 records/graphml 缺失分支维持 #622 只告警不动作（本单只修「停拍超阈值」面——任务书原文口径）；lag 的度量语义仍是 mtime 差而非内容差（search_index.json 周期性重写即使无内容变更也推大 lag——增量重建判「No changes」即此类，届时走升级人工而非无限自愈，是否重设计度量口径留待裁定）；自愈依赖 `kdo` 在探针运行环境 PATH 中（shutil.which 探测，缺失→FAIL 升级，不静默）；单次自愈上限 300s 超时（实测 14s，富余 20 倍）。
 
 **需要谁动作**：欧阳锋终审本单（重点核：①哨兵从「只告警」改「陈旧分支自愈」是对 #622 红线的有意修订是否认可；②「mtime 前跳=重建成功」判据）；王语嫣知悉值守划销回声误判的机制根源（lag 逐拍变化击穿幂等→形似回声），同类告警建议先查 lag 是否单调增长再定回声。
+
+## 存在性核查（#433：负向判词附核查节，提审前主动补）
+
+- **「无自动刷新载体/无 graph 计划任务」**：核查面=`schtasks //query //fo csv | grep -i "kdo\|graph\|vault\|conveyor"`（2026-09-06 02:07 本会话执行）——命中 kdo-conversation-distill / kdo-conveyor-probe / kdo-conveyor-probe-tech / kdo-daily-audit-digest / kdo-daily-review / KDO-Health-Check / kdo-health-daily / kdo-huangyaoshi-doorbell / kdo-inbox-watch / kdo-inbox-watch-tech，**graph 相关 0 命中**。判词成立。
+- **「toolkit/decisions 明文手动节奏」**：`.agent/toolkit.md:87`「`kdo graph rebuild`｜重建 Graph RAG 索引（内容变更后运行）」；`.agent/decisions.md:226`「索引持久化在 `.kdo/graph_index/`，建成就一直在，内容变更后 `kdo graph rebuild` 即可」。两处均本会话 grep 实证，非凭记忆。
+- **「rc=0 但 mtime 未前跳」假成功**：`logs/graph-selfheal.log` 两行对照——02:12:42 `OK｜No changes since last rebuild...`（rc=0 判成功，缺陷态）与 02:14:19 `FAIL｜rc=0 但 graphml 未前跳`（判据修正后同场景正确判 FAIL）。台账已入仓。
+- **「值守五拍误划销」**：`90_control/todos/wangyuyan.md` 884-951 行段，09-04 23:37 起逐拍「🛑 KDO 基建停拍报警 1 项：graph-index｜陈旧（落后 search_index 48h→56h）」且间拍出现划销登记；#648 `decision_source` 载 09-06 王语嫣复核改判「真实故障非回声」。判词成立。
+- **「手动重建间隔 15 天」**：#622 任务单执行报告载重建完成于 09-02 23:29（graphml mtime 02:08 前实测值吻合）；#358 任务单载 08-18 重建。08-18→09-02 = 15 天。
 
 ## 机器预审报告
 
