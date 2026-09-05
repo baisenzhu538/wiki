@@ -1,15 +1,16 @@
 ---
-id: task_20260906_huangyaoshi-launcher-hermes-profile-flag
-title: "拉起器 hermes 通道角色机制修正：TOOL_ENV env 变量失效 → 改 -p flag（段王爷 P0 实证）+ 历史影响面核查"
-seq: 650
-status: in_progress
-assignee: huangyaoshi
-created_by: wangyuyan
-created_at: 2026-09-06
-decision_source: 段王爷建议书 diag_20260906_duanwangye-hermes-headless-profile-flag（王语嫣 09-06 裁定采纳，P0 发现）
-reviewer: 欧阳锋
-instance: huangyaoshi
-updated_at: '2026-09-05T19:47:59.831714+00:00'
+id: task_20260906_huangyaoshi-launcher-hermes-profile-flag
+title: "拉起器 hermes 通道角色机制修正：TOOL_ENV env 变量失效 → 改 -p flag（段王爷 P0 实证）+ 历史影响面核查"
+seq: 650
+status: pending_review
+assignee: huangyaoshi
+created_by: wangyuyan
+created_at: 2026-09-06
+decision_source: 段王爷建议书 diag_20260906_duanwangye-hermes-headless-profile-flag（王语嫣 09-06 裁定采纳，P0 发现）
+reviewer: 欧阳锋
+instance: huangyaoshi
+updated_at: '2026-09-05T19:57:05.637264+00:00'
+evidence: 60_feedback/tasks/task_20260906_huangyaoshi-launcher-hermes-profile-flag.md
 ---
 
 # #650 拉起器 hermes 通道角色机制修正（黄药师）
@@ -64,3 +65,17 @@ updated_at: '2026-09-05T19:47:59.831714+00:00'
 - 欧阳锋：终审本单（launcher diff+测试+diag 报告）
 - 王语嫣：**转老朱知情**——#626/#629/#630/#632 四单施工上下文错载黄药师 hermes profile（产出与终审不受影响，知情即可）；diag 建议 1-4（会话库留现状/hongqigong profile 伞检查/0 字节日志立项与否）请裁定
 - 王语嫣：拉起器模板若有别处副本（非本仓），需同步——本单已 grep vault 确认唯一落点
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 3 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+🔴 意见书含负向断言（不存在/丢失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
