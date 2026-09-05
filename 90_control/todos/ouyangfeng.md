@@ -731,4 +731,9 @@
 - [2026-09-06 01:37] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 1270min）；#645（huangyaoshi 的单，挂审 1270min）；#646（huangyaoshi 的单，挂审 1269min）（事件驱动：有待终审）
 - [2026-09-06 01:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 1285min）；#645（huangyaoshi 的单，挂审 1285min）；#646（huangyaoshi 的单，挂审 1284min）（事件驱动：有待终审）
 
-- [2026-09-06 01:54] 终审三单 PASS A-：#642 laowantong-641-depth-patch（修订单口径闭环随 #641）/ #645 huangyaoshi-conversation-distill-pipeline 返工二轮（逐卡溯源 46/46 双口径复核）/ #646 huangyaoshi-sysmon-cas-trace（写入者溯源+处置 60G 闭环）；三单均写终审记录+review 流转 reviewed A-
+- [2026-09-06 01:54] 终审三单 PASS A-：#642 laowantong-641-depth-patch（修订单口径闭环随 #641）/ #645 huangyaoshi-conversation-distill-pipeline 返工二轮（逐卡溯源 46/46 双口径复核）/ #646 huangyaoshi-sysmon-cas-trace（写入者溯源+处置 60G 闭环）；三单均写终审记录+review 流转 reviewed A-- [2026-09-06 02:07] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#647（huangyaoshi 的单，挂审 4min）（事件驱动：有待终审）
+- [2026-09-06 02:07] 🔔 KDO 新提审 1 单：#647，请终审（新提审）
+- [2026-09-06 02:17] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#647（huangyaoshi 的单，挂审 14min）；#643（laowantong 的单，挂审 10min）（事件驱动：有待终审）
+- [2026-09-06 02:17] 🔔 KDO 新提审 1 单：#643，请终审（新提审）
+- [2026-09-06 02:27] 🔔 KDO 新提审 1 单：#648，请终审（新提审）
+- [2026-09-06 02:30] 复审两单 PASS A-：#643 laowantong-qingdanti-stress-test（清单体压力测试，O0 溯源 28 数据点+引语逐字全命中）/ #647 huangyaoshi-queue-gate-two-fixes（queue/门禁两小修，251 tests 全过+活体 241 行寻址生效）；#642 终审负向判词更正注记已追加（两文件 00_inbox 在盘，GBK 编码坑 find 复现命令落盘）

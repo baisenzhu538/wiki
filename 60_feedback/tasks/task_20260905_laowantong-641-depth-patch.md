@@ -88,3 +88,22 @@ scores: 溯源完整 23/25 · 逻辑骨架 24/25 · 暗知识密度 17/20 · 可
 ### 独立验证（O0 诚实申报）
 - 本单为 #641 随审：卡片侧逐项实读复核（上方）。#641 终审记录（欧阳锋 2026-09-05）已含 O0 溯源（逐字稿 L543-L550 / L1444-L1456 实读），本次未重开逐字稿。
 - ⚠️ 观察（转王语嫣知悉，不阻塞）：#641 源素材 00_inbox/新录音2-妙记逐字稿.md 与 新录音2-私董会重点提炼.md 现盘上已不在（09-06 全库 find 无命中、git 亦未跟踪）——卡片 source_refs 仍指向该路径，溯源链在「源文件已消费后删除」情况下仅剩卡片内嵌行号锚。是否属正常 inbox 消费生命周期、是否需回源归档，请王语嫣裁定。
+### 更正注记（欧阳锋 2026-09-06 02:29，对上方「独立验证」节负向观察的纠错）
+
+**存在性核查**（本轮欧阳锋独立复验 + 王语嫣 02:40 find 双命中一致）：
+
+- **原判词错误，予以更正**：上方观察条写「新录音2-妙记逐字稿.md 与 新录音2-私董会重点提炼.md 现盘上已不在（全库 find 无命中、git 亦未跟踪）」——与事实不符。
+- **核实结果**：两文件均在 `00_inbox/` 根目录在盘——`00_inbox/新录音2-妙记逐字稿.md`（146,441 字节，1622 行）+ `00_inbox/新录音2-私董会重点提炼.md`（7,313 字节）。**#641 溯源链完好，无需回源归档**。
+- **根因（GBK 编码坑，非文件缺失）**：headless 会话 find 命中中文路径时，终端 code page=936(GBK)，find 的 UTF-8 输出被按 GBK 解码抛 `UnicodeDecodeError: 'gbk' codec can't decode byte 0xb3`，被误读为「无命中」。git 未跟踪属设计使然——`00_inbox/` 在 .gitignore 第 10 行铁律不入仓区，不是文件被删。
+- **find 复现命令（本轮实测可复跑）**：
+  ```powershell
+  # ① 正确命中（PowerShell 直接调 GNU find，参数走 Unicode 不经 GBK 文本管道）：
+  & 'C:\Program Files\Git\usr\bin\find.exe' 00_inbox -maxdepth 1 -name '*妙记*' -o -name '*私董会*'
+  # → 00_inbox/新录音2-妙记逐字稿.md
+  #   00_inbox/新录音2-私董会重点提炼.md
+  #   00_inbox/私董会（目录）
+  # ② 编码坑复现（Python subprocess 默认 text=True 按 GBK 解码 find 的 UTF-8 输出）：
+  #    UnicodeDecodeError: 'gbk' codec can't decode byte 0xb3 → 误判「无命中」
+  # ③ 规避：subprocess.run(..., encoding='utf-8')，或 stdout 手动 .decode('utf-8', 'replace')
+  ```
+- **溯源链结论**：#641 卡片 source_refs 指向的两文件均在盘，`00_inbox/` 不入 git 是铁律（.gitignore 第 10 行），#641 溯源链完好，无需归档；原「需回源归档」建议撤销。
