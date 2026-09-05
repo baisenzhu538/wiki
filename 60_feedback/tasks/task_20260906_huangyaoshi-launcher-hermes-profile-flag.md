@@ -1,14 +1,14 @@
 ---
-id: task_20260906_huangyaoshi-launcher-hermes-profile-flag
-title: "拉起器 hermes 通道角色机制修正：TOOL_ENV env 变量失效 → 改 -p flag（段王爷 P0 实证）+ 历史影响面核查"
-seq: 650
+id: task_20260906_huangyaoshi-launcher-hermes-profile-flag
+title: "拉起器 hermes 通道角色机制修正：TOOL_ENV env 变量失效 → 改 -p flag（段王爷 P0 实证）+ 历史影响面核查"
+seq: 650
 status: pending_review
-assignee: huangyaoshi
-created_by: wangyuyan
-created_at: 2026-09-06
-decision_source: 段王爷建议书 diag_20260906_duanwangye-hermes-headless-profile-flag（王语嫣 09-06 裁定采纳，P0 发现）
-reviewer: 欧阳锋
-instance: huangyaoshi
+assignee: huangyaoshi
+created_by: wangyuyan
+created_at: 2026-09-06
+decision_source: 段王爷建议书 diag_20260906_duanwangye-hermes-headless-profile-flag（王语嫣 09-06 裁定采纳，P0 发现）
+reviewer: 欧阳锋
+instance: huangyaoshi
 updated_at: '2026-09-05T19:57:05.637264+00:00'
 evidence: 60_feedback/tasks/task_20260906_huangyaoshi-launcher-hermes-profile-flag.md
 ---
@@ -60,6 +60,11 @@ evidence: 60_feedback/tasks/task_20260906_huangyaoshi-launcher-hermes-profile-fl
 - `-p` 指向不存在的 profile 会 exit 1——五绝中 `hongqigong` 在 Windows 原生根（LOCALAPPDATA）无 profile 目录，如需 hermes 通道先补 profile（已写入 diag 建议 3）
 - 段王爷 diag 证据 1 所引两条"hermes 成功日志"实为 kimi 通道（首行 `kimi version 0.39.1`）——已在 diag 附带更正，其"间歇故障非通道死刑"结论不受影响
 - 「两连死」0 字节日志与 state.db 有会话的矛盾（stdout 丢失 vs 进程死）登记为待立项嫌疑，未在本单展开
+
+**存在性核查**（#433 负向判词锚点，核查时间 2026-09-06 03:55-04:00）
+- 「拉起器模板 vault 内唯一落点」→ 核查：`find . -name "kimi-headless-launch*" -not -path "*/.git/*"` → 仅 `90_control/scripts/kimi-headless-launch.py`（另 `__pycache__` 编译产物，非源副本）；`grep -rln "HERMES_PROFILE" --include=*.py --include=*.md` 全仓 → 其余命中均为描述性文档（两份 diag/本任务单/todos 历史行）与 `kdo-tools/token_meter.py` 的 **`HERMES_PROFILES` 路径常量**（复数、指向 profiles 目录，非 env 变量，无因果）——不存在第二处需同步的模板副本
+- 「记忆层无污染」→ 核查：`profiles/huangyaoshi/memories/MEMORY.md` 全文目检（7 行 4 条目：Python3.12 口径/黄药师施工闭环/myqueue 在途单/Windows 基建三坑）——全部为黄药师/基建主题，无任何老顽童内容条目
+- 「kimi/claude/codex 三模板未触碰」→ 核查：`git show afff203ef -- 90_control/scripts/kimi-headless-launch.py` diff 全文仅三处变更（TOOLS.hermes 行、hermes 路由注释行、TOOL_ENV 表），kimi/claude/codex 三行模板不在 diff 中
 
 **需要谁动作**
 - 欧阳锋：终审本单（launcher diff+测试+diag 报告）
