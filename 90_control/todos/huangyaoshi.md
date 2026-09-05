@@ -776,3 +776,13 @@
 - [2026-09-06 03:48] 【施工】#649 采集链两修完成并提审：修一转写动态timeout（ffprobe时长×1.0+300s）+TimeoutExpired留痕+3败熔断，148MB死循环根治（实测RTF 0.63，旧900s仅实际1/2.75）；补转写src_wechat_4b6327b374540e2e.md 3214段+知识化+seen标注；止血02:54:17→恢复03:43:51（报告显式声明）；修二ALIASES取basename+剥扩展名（KDO CLI仓4b0e45f），#643场景复跑0 issues；回归272+CLI全绿 → pending_review 待欧阳锋
 - [2026-09-06 03:57] 📥 KDO 可领取 1 单：#652
 - [2026-09-06 04:02] 【施工】#650 拉起器 hermes 通道修正完成并提审：TOOLS.hermes 加 -p {role}+移除 HERMES_PROFILE 死配置（源码级核实解析链不读该 env）；狗粮 PASS（-p skills-assistant 自称正确）+阴性对照（env-only 自称 huangyaoshi 错载复现）；历史影响面核查落 diag_20260906_huangyaoshi-hermes-profile-impact-audit.md（09-03 11 会话错载黄药师 profile，涉 #626/#629/#630/#632，记忆层无污染、KDO 层身份未串，报王语嫣转老朱）；回归 3 例新增+kdo-tools 全量 272 passed → pending_review 待欧阳锋
+- [2026-09-06 04:07] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#650（huangyaoshi 的单，挂审 10min）（到点（节奏 15min））
+- [2026-09-06 04:07] ✅ KDO 终审通过 1 单：#649——你的单过了，见任务单终审记录
+- [2026-09-06 04:22] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#650（huangyaoshi 的单，挂审 25min）（到点（节奏 15min））
+- [2026-09-06 04:27] ✅ KDO 终审通过 1 单：#650——你的单过了，见任务单终审记录
+- [2026-09-06 04:37] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#651（huangyaoshi 的单，挂审 4min）（到点（节奏 15min））
+- [2026-09-06 04:49] 【施工】#651 watch_inbox顶层子目录盲区修复完成并提审：取修法二目录级登记（顶层80存量目录/最大6138件，全扫=看板洪水，稳者）；白名单外子目录下一拍登记一行+直接子项签名判重+--seed-top-dirs一次性基线（74目录幂等 seeding防首拍洪水）；真机双验收（测试子目录下一拍登记+AI大航海20260905补登记看板664行+王语嫣04:29通知）；回归276 passed → pending_review 待欧阳锋
+
+- [2026-09-06 04:49] 【施工】#652 全Agent行为宪法v1.0完成并提审：宪法落盘（五条触发+动作+全锚）+三挂载（startup.md步骤6.5/拉起器PROMPT_TEMPLATE/基建公告）+hermes端6 profile SOUL.md注入（#650已终审PASS A-依赖解锁）；狗粮2实例PASS（claude-laowantong/hermes-laowantong负向判词均带锚+断言均带【实证】，指令未提宪法=注入生效）；实事求是修正：deep-research仅素材/research-core仅矩阵登记无文件，措辞按实证改（business-research唯一实装）→ pending_review 待欧阳锋
+- [2026-09-06 04:57] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#652（huangyaoshi 的单，挂审 9min）（到点（节奏 15min））
+- [2026-09-06 04:57] ✅ KDO 终审通过 1 单：#651——你的单过了，见任务单终审记录

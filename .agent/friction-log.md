@@ -137,3 +137,8 @@ updated_at: 2026-08-09
 - 2026-09-06 02:20 | laowantong | #643 提审 | kdo pre-submit ALIASES 检查把 source_refs 全路径切段（capabilities/shared 目录名）当 source name 要求进 aliases 才清零——照做会污染 aliases 语义；已补有效 aliases 复跑仍报，执行报告如实披露不刷绿 | 根因初判：checker 对 source_refs 取 basename 失效/全路径切段，建议只取 basename
 - 2026-09-06 03:46 | huangyaoshi | #649 complete 提审 | E040 交付物入仓门禁拦跨仓交付物：KDO CLI 仓（Knowledge Delivery OS 0.0.1）已 commit 的路径按 vault 相对路径写被判 untracked；读源码才发现门禁支持「含 Knowledge Delivery OS 0.0.1 的路径切仓核验」 | 根因初判：E040 报错文案只给 git add 补救，未提示跨仓路径写法——建议报错补一句「KDO 仓交付物请写含仓名的全路径」
 - 2026-09-06 03:48 | huangyaoshi | 两连单 claim | 用户一指令派两单（#649→#650），claim #650 时因自己 #649 刚转 pending_review 撞 #504 等待期规则，只能再走一次 --force+reason（本会话第 2 次） | 根因初判：#504 门禁不区分「等终审空闲」与「用户显式连单指令」，连单场景注定次次 force——建议支持指令单号链登记或 force 理由引用前单
+- 2026-09-06 04:33 | huangyaoshi | 三连单 claim | 用户一指令派三单链（#649→#650→#651→#652），#651/#652 claim 均因名下有 pending_review 撞 #504，第 2/3 次走 --force+reason | 根因初判同 03:48 条：#504 门禁不区分「等终审空闲」与「用户显式连单指令」，连单场景注定逐单 force——建议支持指令单号链登记后放行同链 claim
+
+- 2026-09-06 04:45 | huangyaoshi | #652 hermes 注入 | hermes profile 目录存在≠注册：hongqigong/ 目录在 profiles/ 下但 hermes profile list 无此 profile（拉起即报 does not exist），照目录名注入会注进死 profile | 根因初判：profile 注册态在 config/注册表不在目录名——建议 profile list 与 profiles/ 目录做一致性巡检（孤儿目录告警）
+
+- 2026-09-06 04:46 | huangyaoshi | #652 调研技能挂载 | MOUNT-MATRIX 登记面≠可用面：research-core 登记 8 行但 skill 文件不存在，deep-research 仅原始素材——任务书按「可用可调」表述写了宪法条款，实跑 ls 证伪后修正措辞 | 根因初判：矩阵生成器按文件引用扫描（含历史引用）无存在性校验——建议 scan_skills_registry.py 加 skill 文件存在性列

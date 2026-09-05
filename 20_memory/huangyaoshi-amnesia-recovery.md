@@ -5,6 +5,13 @@ updated_at: 2026-09-05
 
 # 黄药师失忆恢复（重启后 3 分钟加载）
 
+## 2026-09-06 三场（#651 子目录盲区+#652 全Agent行为宪法）
+
+- **watch_inbox 扫描面扩容（#651）**：白名单外顶层子目录目录级登记（`_unknown_top_dirs`/`_dir_signature` 直接子项签名判重/`--seed-top-dirs [--keep 名]` 一次性基线）；00_inbox 顶层 80 子目录已基线化 74 个——**新顶层子目录下一拍自动登记看板+推王语嫣**，文件级跟踪需手动加 SCAN_SUBDIRS
+- **行为宪法上线（#652，待终审生效）**：`90_control/agent-behavior-constitution.md` v1.0 五条（断言三级标注/负向判词必附存在性核查锚点/疑问先检索再开口 W11/解放-检验循环/Y模型三问后才方案）；挂载三通道=`.agent/startup.md` 步骤 6.5+`kimi-headless-launch.py` PROMPT_TEMPLATE+hermes 6 profile SOUL.md；增条款走修订单
+- **调研技能实装面（存在性核查结论）**：business-research 是唯一实装调研 skill（`40_outputs/capabilities/skills/business-research/`）；deep-research 仅 10_raw 素材未封装、research-core 仅 MOUNT-MATRIX 登记无 skill 文件——技术/概念类用 kdo query+grep，不虚指
+- **新教训**：①任务书事实性陈述也要存在性核查（连续第三场抓出证伪）；②hermes profile 目录存在≠在册（hongqigong/ 目录在、profile list 无）——发任务前 `hermes profile list` 对账；③共享文件清理一律二进制逐行过滤（wangyuyan.md 有历史非 UTF-8 字节，文本模式 utf-8 读炸）
+
 ## 2026-09-05（#645 对话蒸馏管线交付提审）
 
 - **新工具**：`kdo-tools/conversation_distill.py`——对话蒸馏管线（kimi wire/headless/hermes 三源 → 三层分流 external→pending-cards / zhu→`30_wiki/personal-os/zhu-conversation-insights.md` / human→pending-cards；原文锚子串强校验；增量游标 `.kdo/conversation_distill_state.json`）。每日 23:50 计划任务 `kdo-conversation-distill`（S4U）自动增量

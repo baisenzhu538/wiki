@@ -1,14 +1,14 @@
 ---
-id: task_20260906_huangyaoshi-agent-behavior-constitution
-title: "全Agent行为宪法 v1.0：实事求是准则+调研基本技能挂载（老朱09-06拍板，全agent强制，含飞书hermes端）"
-seq: 652
+id: task_20260906_huangyaoshi-agent-behavior-constitution
+title: "全Agent行为宪法 v1.0：实事求是准则+调研基本技能挂载（老朱09-06拍板，全agent强制，含飞书hermes端）"
+seq: 652
 status: pending_review
-assignee: huangyaoshi
-created_by: wangyuyan
-created_at: 2026-09-06
-decision_source: 老朱 09-06 直令（实事求是是一个准则，调研是一个基本技能挂载，所有 agent 必须遵守）；宪法条款来源=库内桥接卡/Y模型卡/AI大航海金矿A5/A73/B34+既有纪律
-reviewer: 欧阳锋
-instance: huangyaoshi
+assignee: huangyaoshi
+created_by: wangyuyan
+created_at: 2026-09-06
+decision_source: 老朱 09-06 直令（实事求是是一个准则，调研是一个基本技能挂载，所有 agent 必须遵守）；宪法条款来源=库内桥接卡/Y模型卡/AI大航海金矿A5/A73/B34+既有纪律
+reviewer: 欧阳锋
+instance: huangyaoshi
 updated_at: '2026-09-05T20:48:46.548864+00:00'
 evidence: 60_feedback/tasks/task_20260906_huangyaoshi-agent-behavior-constitution.md
 ---
@@ -72,6 +72,15 @@ evidence: 60_feedback/tasks/task_20260906_huangyaoshi-agent-behavior-constitutio
 - 欧阳锋：终审宪法 v1.0（通过→status 改 reviewed/生效；条款修改走修订单）
 - skills-assistant（经王语嫣编排）：①deep-research 原始素材封装立项意向 ②research-core 矩阵登记无实装文件的登记面清理
 - 王语嫣：hongqigong profile 注册与否拍板（目录在、profile 不在册）
+
+**存在性核查**（#433 口径——本报告四条负向判词的核查锚点）
+
+| 负向判词 | 核查动作与锚点 |
+|:--|:--|
+| deep-research 未封装成 skill | `ls -d 40_outputs/capabilities/skills/*research*` → 仅 `business-research/`、`crystallized-research-first/` 命中；deep-research 只有 `10_raw/sources/src_20260620_deep-research-skill` 与 `00_inbox/调研专题/deep-research_extracted` 素材目录 |
+| research-core skill 文件不存在 | `ls -d 40_outputs/capabilities/skills/research-core` → No such file or directory（Bash 实跑 2026-09-06 04:47）；对照 `40_outputs/capabilities/skills/MOUNT-MATRIX.md` 表内 8 行登记 research-core——登记面≠可用面 |
+| hongqigong profile 未注册 | `hermes profile list`（2026-09-06 04:41 实跑）输出 12 个 profile：default/basic-skills-coach/beikai/coaching-leadership-assistant/duanwangye/huangyaoshi/laowantong/laowantong-feishu/meeting-assistant/ouyangfeng/research-explosion-partner/skills-assistant——无 hongqigong；但 `C:/Users/Administrator/.hermes/profiles/hongqigong/` 目录存在 |
+| kimi 通道周配额耗尽 | `logs/headless-laowantong-20260906-043943.log`：`error: failed to run prompt: provider.auth_error: 403 You've reached your weekly (7-day) usage limit` |
 
 ## 机器预审报告
 
