@@ -34,6 +34,9 @@ related:
 - '[[framework-muse-ai-full-map-v1]]'
 - '[[concept-agent-university]]'
 - '[[yt-model-dual-triangle-competitiveness]]'
+- '[[framework-ai-five-layer-architecture]]'  # 654互链：五层架构承载龙虾层全局
+- '[[framework-ai-native-working-paradigm]]'  # 654互链
+- '[[case-digital-avatar-pricing-review]]'  # 654互链
 - '[[framework-truman-agent-team-architecture]]'
 - '[[case-opc-agent-wave1-real-model-testing]]'
 - '[[method-kdo-agent-design-meta]]'

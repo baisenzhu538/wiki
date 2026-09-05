@@ -37,6 +37,8 @@ related:
 - '[[concept-agent-university]]'
 - '[[framework-lobster-opt-one-person-team]]'
 - '[[framework-kdo-self-attack]]'
+- '[[case-ai-performance-review-trial]]'  # 654互链：人审AI×AI审AI镜像案
+- '[[bridge-yitang-kdo-gate-philosophy]]'  # 654互链：只认证据内核同构
 - '[[concept-yihang-data-pack-ethics]]'
 discoverable_by:
 - Eason

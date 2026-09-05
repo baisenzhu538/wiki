@@ -1,0 +1,39 @@
+# ai-native 域维度轴 v0.1（AI大航海20260905 批驱动——#654 词池建轴随批，诊断 §五.1）
+# 建轴依据：diag_20260906_wangyuyan-aidahangha-diagnosis「域轴=ai-native 新轴 5-8 词，词池建轴随批」
+# 词量口径：普通卡 5-8 跨轴词；dk 暗知识卡豁免 1-3 词但核心维度覆盖（tags-vocab-design §三，#498）
+version: 0.1
+updated: '2026-09-06'
+
+axes:
+  专业维度:      # AI 应用层级与封装方法论
+    words: [五层架构, AI Native, OPT, 封装, 上下文工程, 多Agent协作, 数字分身, 编排, agentic workflow, 上下文文档, 技能中心, Feature思维, DataPack, 反向提问]
+  对象维度:
+    words: [业务资产, 数据包, 技能, 角色, 工作流, 路由规则, 宪法, 知识库, 团队, 员工, 任务书]
+  性质维度:
+    words: [层级, 复利, 频次, 边界, 跳级, 失败模式, 互证, 自进化, 显性化, 生产力, 口径]
+  受众维度:
+    words: [知识管理者, AI使用者, 创业者, 团队负责人, 一号位]
+  经验维度:
+    words: [避坑, 实操, 层级经济学, 借假修真, 口喷, 拉满实验, 追浪造船, 阳谋, 幸存者偏差]
+  来源维度:
+    words: [口述, 逐字稿, 大航海, 宣讲会, 视觉框架图, 金矿台账]
+
+# #654 批次 14 件打标建议（每卡 5-8 跨轴词；本轴词+既有轴词混用）：
+# framework-ai-five-layer-architecture: [五层架构, 层级经济学, 多Agent协作, 封装, 避坑, 口述, 数字分身, AI Native]
+# framework-ai-native-working-paradigm: [AI Native, 五层架构, 多Agent协作, 编排, 上下文工程, 避坑, 口述, OPT]
+# framework-encapsulation-methodology:  [封装, 上下文工程, 数据包, 技能封装, 复利, 频次, 避坑, 口述]
+# case-360-overnight-course-rebuild:    [多Agent协作, 顶层文档, 口喷, 实操, 避坑, 口述, AI Native, 编排]
+# case-kouspeng-13min-19tasks:          [口喷, 多Agent协作, 编排, 实操, 避坑, 口述, 数字分身, AI Native]
+# case-ai-performance-review-trial:     [多Agent协作, 数字分身, 实证, 归因反转, 避坑, 口述, 编排, 实操]
+# case-flowmax-20min-product:           [口喷, 实操, 小步验证, 多Agent协作, 口述, AI Native, 迭代]
+# case-digital-avatar-pricing-review:   [数字分身, 上下文工程, 实操, 方法, 口述, 多Agent协作, AI Native, 避坑]
+# bridge-yitang-kdo-dual-triangle-verification: [双三角, 互证, 编排, 方法, 口述, AI Native, 实证]
+# bridge-yitang-kdo-gate-philosophy:    [机制, 实证, 避坑, 归因反转, 口述, AI Native, 编排, 互证]
+# bridge-yitang-kdo-document-over-session: [上下文工程, 复利, 机制, 避坑, 口述, 实操, 互证, 知识沉淀]
+# bridge-yitang-kdo-skill-center-network: [技能封装, 知识沉淀, 复利, 互证, 口述, AI Native, 知识库, 方法]
+# skill-five-layer-positioning:         [五层架构, 层级经济学, 实操, 方法, 口述, 编排, AI Native, 避坑]
+# agent-spec-kouspeng-task-decomposer:  [口喷, 编排, 多Agent协作, 方法, 实操, AI Native, 知识库, 避坑]
+#
+# 审词说明（2026-09-06 老顽童自报，待王语嫣审词）：
+# 入轴=批内 14 件高频检索词（五层架构/AI Native/OPT/封装/上下文工程/多Agent协作/数字分身/编排/DataPack/上下文文档/任务书/层级经济学/借假修真/口喷/追浪造船/阳谋/互证/复利/频次/跳级等）
+# 不入轴=case 专属一次性词（360重构/炯炯/GrowMe/FlowMax/Eric/TinyEric/鱿鱼游戏/龙虾消失测试—— disappear 测试为台账命名不入通用词池）

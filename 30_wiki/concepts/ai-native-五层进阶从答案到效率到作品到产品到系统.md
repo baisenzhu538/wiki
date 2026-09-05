@@ -21,6 +21,7 @@ related:
 - '[[concept-wanghuan-ai-native-definition]]'
 - '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
 - '[[yt-tool-peas-agent-analysis]]'
+- '[[framework-ai-five-layer-architecture]]'  # 654消歧标记：同名「五层」异轴——本卡=个人进阶轴（问答→系统），一堂五层=组织行为学轴（对话→编排），不可互换引用
 aliases:
   - AINative五层进阶：从答案，到效率，到作品，到产品，到系统
   - 五层进阶

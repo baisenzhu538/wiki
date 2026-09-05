@@ -1,6 +1,6 @@
 {
   "version": "V1.0",
-  "total": 100,
+  "total": 103,
   "features": [
     {
       "id": "F001",
@@ -282,7 +282,12 @@
       "evidence": {
         "grade": "实测",
         "source": "Live258 作业集 L2871（王鹏飞 40→65 分分水岭）",
-        "metric": "只给身份=通用课程 40 分；身份+上下文=专属课程 65 分"
+        "metric": "只给身份=通用课程 40 分；身份+上下文=专属课程 65 分",
+        "aidahangha_corroboration": {
+          "source": "AI大航海20260905 IMG2《封装的实现》直读（Feature 七例）+ 实战路径:L514-520（A78 Feature 周期律）",
+          "note": "IMG2 七例之一；课程口径「工具会变，底层 Feature 相对稳定」（IMG2 直读）",
+          "date": "2026-09-06"
+        }
       }
     },
     {
@@ -926,7 +931,7 @@
       "purpose": "按需展示Skill能力——不用全量加载",
       "scenario": "复杂Skill",
       "case_ref": "KDO #242 pre-submit 门禁栈实践（口述无直接表述，截图遮蔽待确认）",
-      "verified": false,
+      "verified": true,
       "aliases": [
         "先大纲后正文",
         "逐步输出",
@@ -938,8 +943,15 @@
       "evidence": {
         "grade": "推演",
         "source": "Live258 作业集 L127-137（黄华春多阶段渐进规划）",
-        "metric": "预期：四阶段渐进（价值判断→大纲→正文→优化）降低风险（规划中未实测）"
-      }
+        "metric": "预期：四阶段渐进（价值判断→大纲→正文→优化）降低风险（规划中未实测）",
+        "aidahangha_corroboration": {
+          "source": "AI大航海20260905 IMG2《封装的实现》直读（Feature 七例）+ 实战路径:L514-520（A78 Feature 周期律）",
+          "note": "IMG2 七例之一「渐进式披露」——由推演升级为课程实锤",
+          "date": "2026-09-06"
+        }
+      },
+      "verify_date": "2026-09-06",
+      "reverify_by": "2027-03-08"
     },
     {
       "id": "F058",
@@ -1363,7 +1375,7 @@
       "purpose": "多个Agent/人对同一输出做交叉验证",
       "scenario": "质量保障",
       "case_ref": "",
-      "verified": false,
+      "verified": true,
       "aliases": [
         "主副模型",
         "双模型校验",
@@ -1375,8 +1387,15 @@
       "evidence": {
         "grade": "推演",
         "source": "Live258 作业集 L2321-2323（jeffgirl 主副模型可补项）",
-        "metric": "预期：一个模型产出、一个模型校验提升稳定性（课后待补清单，未实测）"
-      }
+        "metric": "预期：一个模型产出、一个模型校验提升稳定性（课后待补清单，未实测）",
+        "aidahangha_corroboration": {
+          "source": "AI大航海20260905 IMG2《封装的实现》直读（Feature 七例）+ 实战路径:L514-520（A78 Feature 周期律）",
+          "note": "IMG2 七例之一「交叉验证」——由推演升级为课程实锤",
+          "date": "2026-09-06"
+        }
+      },
+      "verify_date": "2026-09-06",
+      "reverify_by": "2027-03-08"
     },
     {
       "id": "F095",
@@ -1468,6 +1487,78 @@
         "复述任务",
         "先复述再开始"
       ]
+    },
+    {
+      "id": "F101",
+      "name": "任务拆解",
+      "layer": "L2",
+      "dimension": "D",
+      "purpose": "把大任务拆成子任务清单并标注可行性与依赖（哪些可自主做/哪些需补充信息）",
+      "scenario": "项目/长任务开工",
+      "case_ref": "AI大航海20260905 实战路径:L306（19子任务拆12可自主）+L124（拆10几个子任务+依赖）；IMG2 七例「任务拆解」",
+      "verified": true,
+      "verify_date": "2026-09-06",
+      "reverify_by": "2027-03-08",
+      "aliases": [
+        "子任务拆解",
+        "任务分解",
+        "拆任务",
+        "可行性分诊",
+        "任务书拆解"
+      ],
+      "evidence": {
+        "grade": "课程实锤",
+        "source": "AI大航海20260905 IMG2《封装的实现》直读（Feature 七例）+ 实战路径:L514-520（A78 Feature 周期律）",
+        "metric": "案例基线：13min 口喷拆 19 子任务、12 个 AI 可自主、7 个缺信息回流（实战路径:L306，自述口径待独立核实）"
+      }
+    },
+    {
+      "id": "F102",
+      "name": "上下文管理",
+      "layer": "L3",
+      "dimension": "B",
+      "purpose": "把背景/事实/规则固化为公共上下文文档，各 Agent 自助取用免重复交代",
+      "scenario": "多Agent协作/跨会话任务",
+      "case_ref": "AI大航海20260905 实战路径:L180-182（上下文模式）+L212（少用Session多用文档）+宣讲会:L412-416（上下文文档微操）；IMG2 七例「上下文管理」",
+      "verified": true,
+      "verify_date": "2026-09-06",
+      "reverify_by": "2027-03-08",
+      "aliases": [
+        "上下文文档",
+        "上下文微操",
+        "公共上下文",
+        "上下文环境",
+        "上下文模式"
+      ],
+      "evidence": {
+        "grade": "课程实锤",
+        "source": "AI大航海20260905 IMG2《封装的实现》直读（Feature 七例）+ 实战路径:L514-520（A78 Feature 周期律）",
+        "metric": "15秒镇场图 vs 项目式 30-60 分钟递纸条（实战路径:L188-196，自述口径待独立核实）"
+      }
+    },
+    {
+      "id": "F103",
+      "name": "质检关卡",
+      "layer": "L3",
+      "dimension": "D",
+      "purpose": "在流程中嵌入显式质检节点，产出过了关卡才算完成",
+      "scenario": "流水线/多Agent产出",
+      "case_ref": "AI大航海20260905 IMG2 七例「质检关卡」；KDO 同构=pre-submit 门禁+queue gate（bridge-yitang-kdo-gate-philosophy）",
+      "verified": true,
+      "verify_date": "2026-09-06",
+      "reverify_by": "2027-03-08",
+      "aliases": [
+        "质检关卡",
+        "质量门",
+        "验收关卡",
+        "门禁",
+        "关卡检查"
+      ],
+      "evidence": {
+        "grade": "课程实锤",
+        "source": "AI大航海20260905 IMG2《封装的实现》直读（Feature 七例）+ 实战路径:L514-520（A78 Feature 周期律）",
+        "metric": "KDO 活体同构：pre-submit 拦截伪逐字引文/断链（2026-09-06 #654 批实测）"
+      }
     }
   ],
   "total_target": 100,
@@ -1509,5 +1600,32 @@
   ],
   "inferred_from_oral_note": "F097-F100 为化学元素视觉皮肤遮蔽、从口述推断补充的 4 个 Feature（非缺位）。verified=False 需对照截图确认",
   "aliases_note": "#315 (2026-08-13): 47 个 Feature 新增 aliases（Live258 10 案例命名漂移提取，共 {sum(len(v) for v in ALIASES.values())} 个别名）。v0.8 原文件保留备份。",
-  "evidence_note": "#317 (2026-08-13): verified 证据分级——13 条证据回填（grade=实测/引用/推演；verified 布尔保留兼容 #272；缺省 evidence=待回填）。语义边界: verify_note=验证结论；evidence=证据性质/指标/出处。v0.9 保留备份。"
+  "evidence_note": "#317 (2026-08-13): verified 证据分级——13 条证据回填（grade=实测/引用/推演；verified 布尔保留兼容 #272；缺省 evidence=待回填）。语义边界: verify_note=验证结论；evidence=证据性质/指标/出处。v0.9 保留备份。",
+  "aidahangha_corroboration": {
+    "date": "2026-09-06",
+    "task": "#654 batch1 存量自迭代（诊断 §四）",
+    "source": [
+      "00_inbox/AI大航海20260905/封装的实现.png（IMG2 直读，Feature 七例）",
+      "00_inbox/AI大航海20260905/AI实战路径-五个层级全解析-口述.txt:508-520（A77/A78 Feature 思维与周期律）"
+    ],
+    "confirmations": [
+      "A77：Feature 思维正式定义——不评价整个工具，剥离最小差异化特性用 Feature 决策；科学的 Feature 派=原理+工程为底，反工具派/教程派",
+      "A78：周期律借鉴元素周期表，模型/提示词/能力/Agent/组织分层 × 四维=20 格，100 个最常见 Feature；降层决策法：「需要的 Feature 在这层就用，不在就往下降一层」",
+      "IMG2：Feature 七例（角色设定/任务拆解/反向确认/交叉验证/渐进式披露/上下文管理/质检关卡）——「工具会变，底层 Feature 相对稳定」",
+      "本表分层（L0-L5）与 A78 五层命名不同（本表为库内既有口径），维度四分与 A78 四维同构，不硬对齐"
+    ],
+    "backfill": {
+      "corroborated": [
+        "F018 赋予角色",
+        "F100 反向确认",
+        "F094 交叉验证/反方评审(升级 verified)",
+        "F057 渐进式披露(升级 verified)"
+      ],
+      "added": [
+        "F101 任务拆解",
+        "F102 上下文管理",
+        "F103 质检关卡"
+      ]
+    }
+  }
 }

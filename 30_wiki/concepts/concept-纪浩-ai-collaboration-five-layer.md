@@ -24,6 +24,7 @@ discoverable_by:
   - 概念：纪浩AI协作五层工作空间法
   - 纪浩AI协作五层工作空间法
 related:
+  - '[[framework-ai-five-layer-architecture]]'  # 654消歧标记：同名「五层」异轴——本卡=工作空间知识结构轴
 - - - concept-wanghuan-adversarial-generation
 - - - yt-concept-weapon-arsenal
 - - - yt-note-checklist-concept

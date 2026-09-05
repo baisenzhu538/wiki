@@ -38,6 +38,7 @@ review_date: '2026-06-29'
 confidence: 0.88
 trust_level: high
 related:
+- '[[framework-encapsulation-methodology]]'  # 654互链：封装=why/when，本卡=how
 - '[[tool-半肥猫-课程Skill化的八步工作流]]'
 - '[[tool-ai-skill-engineering-method]]'
 - '[[tool-Truman-Skill全生命周期管理]]'

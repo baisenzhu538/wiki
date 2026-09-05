@@ -33,6 +33,7 @@ related:
 - '[[yt-model-muse-ai-framework]]'
 - '[[yt-model-dual-triangle-competitiveness]]'
 - '[[concept-yihang-dual-triangle-core]]'
+- '[[framework-ai-five-layer-architecture]]'  # 654互链：MUSE=坐标系，五层=路径，互补不合并
 - '[[method-key-assumption-abcd]]'
 - '[[case-jovida-ai-life-coach]]'
 - '[[concept-agent-university]]'

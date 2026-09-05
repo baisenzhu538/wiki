@@ -32,6 +32,9 @@ related:
 - '[[framework-lobster-opt-one-person-team]]'
 - '[[framework-muse-ai-full-map-v1]]'
 - '[[method-key-assumption-abcd]]'
+- '[[framework-ai-five-layer-architecture]]'  # 654互链：Agent大学=第五层设想
+- '[[bridge-yitang-kdo-skill-center-network]]'  # 654互链
+- '[[case-ai-performance-review-trial]]'  # 654互链：述职审判=Agent测评实验同族
 - '[[method-anthropic-skill-design-patterns]]'
 - '[[dk-brooks-cost-of-knowing]]'
 - '[[tool-ai-koupen-training-partner-design]]'

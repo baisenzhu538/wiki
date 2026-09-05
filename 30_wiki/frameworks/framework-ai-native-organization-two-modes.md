@@ -25,7 +25,8 @@ aliases:
 - 组织的两种形态
 source_refs: null
 quality_labels: null
-related: null
+related:
+- '[[framework-ai-native-working-paradigm]]'  # 654互补标记：两形态=AI Native 范式的分场景落位（开放问题=控制台，封闭问题=平台）
 tags:
   - audience:general
   - scene:reference

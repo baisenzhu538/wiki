@@ -66,6 +66,7 @@ related:
 - '[[tool-knowledge-cheatsheet-sab]]'
 - '[[tool-skill-packaging-eight-steps]]'
 - '[[tool-top-level-document]]'
+- '[[bridge-yitang-kdo-document-over-session]]'  # 654抽检标记：09-05 大航海同口径再现——08-15 探索营口径获独立复证（同一讲者，间隔 3 周）
 review_date: 2026-08-16
 ---
 

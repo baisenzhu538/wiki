@@ -35,6 +35,7 @@ related:
 - '[[framework-muse-ai-full-map-v1]]'
 - '[[method-spin-linking-sales-marketing]]'
 - '[[concept-agent-university]]'
+- '[[case-digital-avatar-pricing-review]]'  # 654互链：AI教练/分身同族案例
 - '[[framework-lobster-opt-one-person-team]]'
 discoverable_by:
 - laowantong

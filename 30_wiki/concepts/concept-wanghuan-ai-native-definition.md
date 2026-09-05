@@ -37,6 +37,7 @@ discoverable_by:
   - 不是会用工具，而是默认把
   - 纳入流程
 related:
+- '[[framework-ai-native-working-paradigm]]'  # 654口径对比标记：王欢弱口径（默认纳入流程）vs 一堂强口径（整链路重构+人撤出）——两版并存记录不合并
 - '[[tool-月白-设计师AI工具习惯切换]]'
 - '[[tool-泛产品设计-需求工具箱指南]]'
 - '[[tool-Truman-AI工具选型决策]]'

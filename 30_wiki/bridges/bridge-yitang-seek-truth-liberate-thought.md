@@ -10,8 +10,6 @@ domain:
 author: 老顽童
 review_date: "2026-07-26"
 reviewed_by: 待审
-  - framework-kdo-modeling-methodology
-  - framework-yitang-shishi-qiushi
 created_at: "2026-07-26"
 updated_at: "2026-07-26"
 quality_labels:
@@ -31,6 +29,8 @@ related:
   - '[[innovation-domain-digest]]'
   - '[[tool-yitang-dual-guardrail-system]]'
   - '[[tool-yitang-quantity-bold-matrix]]'
+  - '[[bridge-yitang-kdo-gate-philosophy]]'  # 654补链：A5/「只认证据」段新证（实事求是=交叉验证Skill+宪法；只认证据不认头像）
+  - '[[case-ai-performance-review-trial]]'  # 654补链：只认证据段新证案例
 diagnostic_signals:
   - signal: "创新方案执行后效果不如预期"
     lens: 检查是否跳过了闪电模型的某个步骤
