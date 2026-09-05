@@ -137,3 +137,18 @@ created_at: '2026-09-06'
 2. **transcript-to-qingdanti skill**（#643 刚 PASS A-）：口述→清单体的转化路径已就位，D1 逐字读时同步产出**口述稿结构化大纲**（清单体），喂给检索层
 3. **检索优化三抓手**：①六维标签完整（上面第九节）②kdo query 的 BM25 关键词覆盖——卡标题/定位声明含高频检索词（如「五层」「封装」「OPT」「Agent 分层」）③MOC 卡（domain-digest）先行——本域产出后建/更新 ai-native 域 MOC，保证 W8「先找 MOC」有锚可溯
 4. **用知识库建设知识库（老朱：不能学而不用）**：D1 调研用库内 business-research OSCAR 武器；D3 诊断引 `framework-kdo-modeling-methodology` 四步自检；生产用 #640 qingdanti skill；审查用欧阳锋方法论 v2.0——本域全流程吃自己的狗粮，流程本身成为「封装」的活体示范
+
+## 十二、活知识库自迭代（老朱 09-06 追加，协议 8 首次应用）
+
+本域 D3 新增**存量自迭代审计**（新素材不只是产新卡，是对全库的一次进化）：
+
+| 存量资产 | 预判处置（D3 定稿） |
+|:--|:--|
+| feature-periodic-table-v0.8.json（25 verified） | **印证+补充**：本批口述=来源课程，回填 verified、补五层四维框架口径 |
+| #611 一堂方法论族（在产 5-7 卡） | **连接**：related 互链；口径冲突则矛盾标记 |
+| 老朱 OPC 战略文件（zhu-strategic-conclusions） | **补充**：OPT vs OPC 论述（B26-B28）报决策面——OPC 是 OPT 子集 |
+| ai-collaboration 域存量卡 | **逐张检视**：被 AI Native 定义（B34）更新或标记过时 |
+| KDO 自身 spec/宪法（封装哲学对照） | **印证**：Truman 封装四对象/频次引擎与 KDO 卡生产体系互证，回填案例 |
+| retrospective-moc / 一堂人物素材（Eason 等） | **核对**：source_person 维度补全（人域关联） |
+
+矛盾即资产：任何冲突裁定都是本批的高价值产出之一。生命体征（MOC 更新时间/verified 回填率/裁结率）纳入月度飞轮回顾。
