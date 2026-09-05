@@ -538,6 +538,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - #652 task_20260906_huangyaoshi-agent-behavior-constitution｜huangyaoshi｜提审 09-06 05:54｜60_feedback/tasks/task_20260906_huangyaoshi-agent-behavior-constitution.md
 - #654 task_20260906_laowantong-aidahangha-batch1｜laowantong｜提审 09-06 05:55｜60_feedback/tasks/task_20260906_laowantong-aidahangha-batch1.md
 - #653 task_20260906_huangyaoshi-e040-crossrepo-hint｜huangyaoshi｜提审 09-06 06:03｜60_feedback/tasks/task_20260906_huangyaoshi-e040-crossrepo-hint.md
+- #655 task_20260906_huangyaoshi-sequential-claim-window｜huangyaoshi｜提审 09-06 06:13｜60_feedback/tasks/task_20260906_huangyaoshi-sequential-claim-window.md
 
 <!-- REVIEW-PENDING-END -->
 
@@ -1163,6 +1164,8 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~[gate-blocked] task_20260906_huangyaoshi-inbox-subdir-autoscan｜09-06 04:57｜待王语嫣复核处置｜2026-09-06 04:51:17｜task_20260906_huangyaoshi-inbox-subdir-autoscan｜F-035-意见书｜任务单缺少「## 终审记录」节（#429 F-035：审查意见必须落盘，口头/群里意见=未审查）｜欧阳锋~~ → 回声划销（09-06 05:10 王语嫣）：#651 已终审 PASS A- 闭环（04:52）
 - ~~[gate-blocked] role-liveness｜09-06 05:17｜待王语嫣复核处置｜2026-09-06 05:12:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 5956.7), ('cli', 41.9)]）｜role_registry check-liveness｜role_registry~~ → 划销（09-06 05:40 王语嫣）：误报——老顽童 claude 通道产 #654 中（进程 175068 活体 531MB 实证），异构盲区已知
 - ~~[gate-blocked] task_20260906_huangyaoshi-agent-behavior-constitution｜09-06 05:27｜待王语嫣复核处置｜2026-09-06 05:21:31｜task_20260906_huangyaoshi-agent-behavior-constitution｜F-035-意见书｜任务单缺少「## 终审记录」节（#429 F-035：审查意见必须落盘，口头/群里意见=未审查）｜欧阳锋~~ → 回声划销（09-06 05:40 王语嫣）：欧阳锋审查流转中终审记录节写入时序拦截，随 review 完成自愈；终审结论=FAIL 打回（P1：startup.md L54 虚指 deep-research 与宪法第三条矛盾，一句话修复）——审查者用存在性核查锚点表办案，宪法第一次审查实战 ✅
+- [friction] [shared] - [2026-09-06 05:58][laowantong][#654 夜班] 三处摩擦：①git commit message 含 emoji 在 GBK 控制台编码失败两次→改 git commit -F utf8 文件（教训：Windows 提交信息禁 emoji）；②暂存区状态在并行会话下漂移（add 后 commit 前被外部动过）→提交前重查 git status 不假设状态保持；③pre-submit 单卡 20-40s×14 卡超 bash 2min 时限→批量验证放后台/分批跑 | 根因初判：多实例共享工作区+控制台编码，均属环境纪律非流程缺陷｜09-06 06:07｜待王语嫣复核处置｜[shared] - [2026-09-06 05:58][laowantong][#654 夜班] 三处摩擦：①git commit message 含 emoji 在 GBK 控制台编码失败两次→改 git commit -F utf8 文件（教训：Windows 提交信息禁 emoji）；②暂存区状态在并行会话下漂移（add 后 commit 前被外部动过）→提交前重查 git status 不假设状态保持；③pre-submit 单卡 20-40s×14 卡超 bash 2min 时限→批量验证放后台/分批跑 | 根因初判：多实例共享工作区+控制台编码，均属环境纪律非流程缺陷
+- [gate-blocked] task_20260906_huangyaoshi-e040-crossrepo-hint｜09-06 06:07｜待王语嫣复核处置｜2026-09-06 06:02:00｜task_20260906_huangyaoshi-e040-crossrepo-hint｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生 / - untracked: Knowledge Delivery OS 0.0.1/kdo/x.py / 补救：git｜huangyaoshi
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
@@ -1183,7 +1186,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 652 | `task_20260906_huangyaoshi-agent-behavior-constitution` | 全Agent行为宪法 v1.0：实事求是准则+调研基本技能挂载（五条行为规则；CLI startup+拉起器注入；hermes 端依赖 #650；狗粮验收） | pending_review | huangyaoshi | 宪法落盘+CLI注入 diff+抽 2 实例狗粮实测 | #650 后（hermes 注入段） | `60_feedback/tasks/task_20260906_huangyaoshi-agent-behavior-constitution.md` | 老朱 09-06 直令拍板；A5 理论依据+F-035 活体实证；欧阳锋终审 |
 | 653 | `task_20260906_huangyaoshi-e040-crossrepo-hint` | E040 报错提示跨仓前缀全路径（第2次复发工具化） | pending_review | huangyaoshi | 模拟场景提示出现+回归不红 | 无 | `60_feedback/tasks/task_20260906_huangyaoshi-e040-crossrepo-hint.md` | 王语嫣 04:18 立项（两次复发工具化）；欧阳锋终审 |
 | 654 | `task_20260906_laowantong-aidahangha-batch1` | AI大航海域批量生产 batch1：3 framework+5 case+4 bridge+dk挂靠+skill草案+存量自迭代（12+卡，P1，老朱夜令） | pending_review | laowantong | 12卡入库+定位声明/行号锚/标签全+自攻击+三方法证据 | 无 | `60_feedback/tasks/task_20260906_laowantong-aidahangha-batch1.md` | 诊断 diag_20260906_wangyuyan-aidahangha-diagnosis 为规格源；欧阳锋终审 |
-| 655 | `task_20260906_huangyaoshi-sequential-claim-window` | queue_transition 同执行者连续派工窗口：显式多单指令免 force（第3次复发工具化，F-050 族） | claimed-huangyaoshi | huangyaoshi | 两单连发模拟不再 force+回归不红 | #653 后（同角色排队） | `60_feedback/tasks/task_20260906_huangyaoshi-sequential-claim-window.md` | 王语嫣 05:10 立项（friction 三连实证）；欧阳锋终审 |
+| 655 | `task_20260906_huangyaoshi-sequential-claim-window` | queue_transition 同执行者连续派工窗口：显式多单指令免 force（第3次复发工具化，F-050 族） | pending_review | huangyaoshi | 两单连发模拟不再 force+回归不红 | #653 后（同角色排队） | `60_feedback/tasks/task_20260906_huangyaoshi-sequential-claim-window.md` | 王语嫣 05:10 立项（friction 三连实证）；欧阳锋终审 |
 
 ## PROPOSAL-PENDING
 ### diag_20260826_ouyangfeng-source-refs-line-anchor-unreachable（2026-08-26 欧阳锋）
