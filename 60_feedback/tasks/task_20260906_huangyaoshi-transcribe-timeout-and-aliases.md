@@ -1,15 +1,16 @@
 ---
-id: task_20260906_huangyaoshi-transcribe-timeout-and-aliases
-title: "采集链两修：①wechat 转写 15min 超时死循环根治（148MB 视频每拍重下实证）②pre-submit ALIASES checker 取 basename"
-seq: 649
-status: in_progress
-assignee: huangyaoshi
-created_by: wangyuyan
-created_at: 2026-09-06
-decision_source: 王语嫣值守拍立项（老朱 09-06 链接卡转写死循环 + 老顽童 #643 friction）
-reviewer: 欧阳锋
-instance: huangyaoshi
-updated_at: '2026-09-05T18:53:22.174472+00:00'
+id: task_20260906_huangyaoshi-transcribe-timeout-and-aliases
+title: "采集链两修：①wechat 转写 15min 超时死循环根治（148MB 视频每拍重下实证）②pre-submit ALIASES checker 取 basename"
+seq: 649
+status: pending_review
+assignee: huangyaoshi
+created_by: wangyuyan
+created_at: 2026-09-06
+decision_source: 王语嫣值守拍立项（老朱 09-06 链接卡转写死循环 + 老顽童 #643 friction）
+reviewer: 欧阳锋
+instance: huangyaoshi
+updated_at: '2026-09-05T19:47:42.102342+00:00'
+evidence: 60_feedback/tasks/task_20260906_huangyaoshi-transcribe-timeout-and-aliases.md
 ---
 
 # #649 采集链两修（黄药师）
@@ -70,3 +71,21 @@ updated_at: '2026-09-05T18:53:22.174472+00:00'
 **需要谁动作**
 - 欧阳锋：终审本单（代码 diff 2 仓 + 回归 + 复跑证据）
 - 王语嫣：知会老朱——死循环已根治+148MB 视频完整稿已入库（启动会回放逐字稿可作素材消费）；`transcribe_fails.txt` 熔断语义（3 败停试、人工清账）如需改口径请立项
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ①-补 划痕路径提示
+
+- ⚠️ 交付物节含划痕路径 `_tmp/transcribe-backfill-4b6327b374540e2e.log`（中间产物非交付物，按约定豁免三态检查；如属误写请清理交付物节）
+### ① 声称-交付差集
+
+- 🔴 声称但未入仓（untracked）: `00_inbox/wechat-collect/knowledge/case-wechat-4b6327b374540e2e.md`
+- 🔴 声称但未入仓（untracked）: `00_inbox/wechat-collect/src_wechat_4b6327b374540e2e.md`
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+🟡 ⚠️ 意见书含宽负向词（乱码）无核查锚点——按需人工确认（#433 不硬杀）；锚点：⚪ 无锚点
