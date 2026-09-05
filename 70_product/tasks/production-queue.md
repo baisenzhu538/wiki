@@ -528,6 +528,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#642 task_20260905_laowantong-641-depth-patch｜laowantong｜提审 09-05 04:27｜60_feedback/tasks/task_20260905_laowantong-641-depth-patch.md~~ → 已终审 PASS A-（2026-09-05 欧阳锋）
 - ~~#645 task_20260905_huangyaoshi-conversation-distill-pipeline｜huangyaoshi｜提审 09-05 04:27｜60_feedback/tasks/task_20260905_huangyaoshi-conversation-distill-pipeline.md~~ → 已终审 PASS A-（2026-09-05 欧阳锋）
 - ~~#646 task_20260905_huangyaoshi-sysmon-cas-trace｜huangyaoshi｜提审 09-05 04:28｜60_feedback/tasks/task_20260905_huangyaoshi-sysmon-cas-trace.md~~ → 已终审 PASS A-（2026-09-05 欧阳锋）
+- #647 task_20260906_huangyaoshi-queue-gate-two-fixes｜huangyaoshi｜提审 09-06 02:03｜60_feedback/tasks/task_20260906_huangyaoshi-queue-gate-two-fixes.md
 
 <!-- REVIEW-PENDING-END -->
 
@@ -1149,7 +1150,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 442 | `task_20260823_huangyaoshi-negative-gate-strong-word-fix` | 负向门禁强词误伤返工（P1，#435 审计返工）：STRONG 删「为空/空值」走正则 + 补「不为空/非空值」否定式反例 | reviewed | huangyaoshi | 词表修正+反例回归 | #435 已 reviewed（风清扬审计 diag_20260823_fengqingyang-gate-435-audit.md） | `60_feedback/tasks/task_20260823_huangyaoshi-negative-gate-strong-word-fix.md` | 一行级修正：STRONG 10→8 词，正则不动；正测「grade 为空/值为空」仍拦，反测「不为空/非空值」不误伤；pytest 全过；欧阳锋复审抽否定式反例 |
 | 443 | `task_20260823_huangyaoshi-probe-notify-assignee-routing` | 探针可领取通知按 assignee 路由（P1，#421 演进）：修硬编码 laowantong + 补 huangyaoshi 通道 | reviewed | huangyaoshi | 路由映射+通道+用例 | #442 立项实证（老朱指令入队） | `60_feedback/tasks/task_20260823_huangyaoshi-probe-notify-assignee-routing.md` | 留痕→archive/inbox-slim&main-reviewed-20260831|
 | 444 | `task_20260823_huangyaoshi-queue-force-ledger-assignee-role` | queue_transition 交接语义加固（P1，风清扬建议 1+3 裁定合并）：--force/--evidence 例外台账 + frontmatter assignee 角色名口径 | reviewed | huangyaoshi | 台账+口径改造+用例 | #441 complete --force 绕过 F-034 实证 | `60_feedback/tasks/task_20260823_huangyaoshi-queue-force-ledger-assignee-role.md` | 留痕→archive/inbox-slim&main-reviewed-20260831|
-| 647 | `task_20260906_huangyaoshi-queue-gate-two-fixes` | queue/门禁族两小修：①E040 加 _git_ignored 判定转 WARNING（gitignore 豁免分支）②queue_transition seq 寻址补扫 60_feedback/tasks/ 或报错提示传完整 id | claimed-huangyaoshi | huangyaoshi | 两修 diff+回归用例（#645 两 friction 场景复现） | 无 | `60_feedback/tasks/task_20260906_huangyaoshi-queue-gate-two-fixes.md` | 黄药师 #645 两 friction（09-06 王语嫣裁定采纳）；欧阳锋终审 |
+| 647 | `task_20260906_huangyaoshi-queue-gate-two-fixes` | queue/门禁族两小修：①E040 加 _git_ignored 判定转 WARNING（gitignore 豁免分支）②queue_transition seq 寻址补扫 60_feedback/tasks/ 或报错提示传完整 id | pending_review | huangyaoshi | 两修 diff+回归用例（#645 两 friction 场景复现） | 无 | `60_feedback/tasks/task_20260906_huangyaoshi-queue-gate-two-fixes.md` | 黄药师 #645 两 friction（09-06 王语嫣裁定采纳）；欧阳锋终审 |
 | 648 | `task_20260906_huangyaoshi-graph-index-stall-rootfix` | graph_index 停拍根因+重建+哨兵复查：infra-liveness 六拍连续增长 48→53h 实证（#622 复发） | queued | huangyaoshi | 根因结论+重建后 graph/search 时差回落+哨兵回归 | #646 终审后（同角色排队） | `60_feedback/tasks/task_20260906_huangyaoshi-graph-index-stall-rootfix.md` | 王语嫣值守拍立项（09-06，真实故障非回声）；欧阳锋终审 |
 
 ## PROPOSAL-PENDING
