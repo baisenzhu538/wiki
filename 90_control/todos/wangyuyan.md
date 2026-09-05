@@ -1032,3 +1032,6 @@
 - [2026-09-06 02:27] ⚖️ KDO 已终审 1 单：#643（待部署/已闭环）；👤 KDO 待老朱拍板 1 项：#643（命中：终审记录节）——拍板或移除字样后自动消项；digest ⑤ 栏每日在列
 
 - [2026-09-06 02:29] 📨 建议书送达（duanwangye→wangyuyan）：60_feedback/diag/diag_20260906_duanwangye-hermes-headless-profile-flag.md——hermes 无头通道实测活，但 HERMES_PROFILE env 变量不生效（三 profile 全错载发起者身份），建议 TOOLS 表改 `-p {role}` flag 形态+追溯影响面。请裁定。
+- [2026-09-06 02:29] 📋 复盘催办闭环：四角色核验——欧阳锋/黄药师/老顽童今日复盘均🟡B级(11/11章+save落戳)无需催；王语嫣自查发现停在09-03→本班11章复盘已落盘(save事件#1113,L1镜像verify PASS)+E059/E060入错误模式库+反馈档案+2。漏判=false：催办名单来自核验数据
+
+- [2026-09-06 02:30] 📨 建议书落点更正：diag_20260906_duanwangye-hermes-headless-profile-flag.md 实际路径为 60_feedback/diagnosis/（宪法 §王语嫣路径，前一条消息中的 diag/ 目录有误，以此为准）。
