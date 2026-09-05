@@ -1,61 +1,64 @@
 ---
-id: task_20260905_huangyaoshi-conversation-distill-pipeline
-
-
-
-
-
-title: 对话蒸馏管线：会话上下文→三层分流（外部知识→知识域 / 对老朱洞察→personal-os / 对他人洞察→人域）——老朱长期机制
-
-
-
-
-
-seq: 645
-
-
-
-
-
-status: pending_review
-assignee: huangyaoshi
-
-
-
-
-
-created_by: wangyuyan
-
-
-
-
-
-created_at: 2026-09-05
-
-
-
-
-
-decision_source: 老朱 09-05 定方向：对话上下文长期蒸馏，知识+洞察三层分流不同领域
-
-
-
-
-
-reviewer: 欧阳锋
-
-
-
-
-
-instance: huangyaoshi
-
-
-
-updated_at: '2026-09-04T20:27:38.394721+00:00'
-evidence: _tmp/645-evidence.md
-
+id: task_20260905_huangyaoshi-conversation-distill-pipeline
+
+
+
+
+
+title: 对话蒸馏管线：会话上下文→三层分流（外部知识→知识域 / 对老朱洞察→personal-os / 对他人洞察→人域）——老朱长期机制
+
+
+
+
+
+seq: 645
+
+
+
+
+
+status: reviewed
+assignee: huangyaoshi
+
+
+
+
+
+created_by: wangyuyan
+
+
+
+
+
+created_at: 2026-09-05
+
+
+
+
+
+decision_source: 老朱 09-05 定方向：对话上下文长期蒸馏，知识+洞察三层分流不同领域
+
+
+
+
+
+reviewer: 欧阳锋
+
+
+
+
+
+instance: huangyaoshi
+
+
+
+updated_at: '2026-09-05T17:55:11.048719+00:00'
+evidence: _tmp/645-evidence.md
+
 rework: true
+reviewed_by: 欧阳锋
+review_date: '2026-09-05'
+grade: A-
 ---
 
 # #645 对话蒸馏管线（黄药师）
@@ -188,3 +191,22 @@ scores: 溯源完整 12/25 · 逻辑骨架 20/25 · 暗知识密度 15/20 · 可
 
 去向：本单返工修复（rework:true 后重新提审）；TODO: 修复后由黄药师逐卡 100% 命中率自检后再提审。
 
+
+## 终审记录（欧阳锋 2026-09-06 01:53 · 返工二轮）
+
+methodology_version: v2.3
+verdict: PASS A-（P1/P2 修复核实，逐卡溯源 46/46）
+blocking: 无阻断
+residual_risks:
+- 🟠 Medium（不阻塞，边界已诚实声明）：hermes 会话源未实证（Windows 侧 state.db 空镜像，实库在 WSL，代码路径已就绪）；全量历史回扫成本未评估，默认只走每日增量。
+- 🟠 Medium（不阻塞）：跨事件拼接锚（一句锚文横跨两条事件）fallback 到 chunk 首事件 src——本轮 46 条未出现该形态，日后出现需扩展 resolve_src 为窗口匹配。
+scores: 溯源完整 24/25 · 逻辑骨架 23/25 · 暗知识密度 16/20 · 可操作性 14/15 · 表达质量 13/15（合计 90/100）
+
+### 存在性核查（逐项独立复算）
+1. 逐卡溯源核验：python _tmp/645-verify-src.py 实跑 = 46 条全命中 0 错位；另以独立 ASCII 口径脚本复算（.jsonl 逐行 json 解析收集字符串值）同样 46/46，双口径交叉印证。
+2. P1 修复读码：chunk_events() 现产出 (first_src, text, segments)，segments 逐行携带真实 src；resolve_src() 对锚文行级 norm 子串回查真实源；main 循环以 real_src 写 candidate/zhu（不再用 chunk 首事件 src 覆盖整块）。
+3. P2-a 修复读码：append_zhu(pairs) 来源列写完整 {src} 路径；zhu 表 14 行来源列全含 session id + agent id。
+4. P2-b：任务单完成内容第 4 点已更正为「67 提取→64 落盘（拦截 3）」。
+5. 复跑 SUMMARY 与 evidence 一致：external29/zhu14/human3/dropped6/calls8/failed0；盘上 32 候选卡（external29+human3）+ zhu 14 条在场。
+6. 候选卡结构抽查（external-01/human-01/external-29）：frontmatter type=distill-candidate/layer/source_refs/status=pending-triage 齐备，正文「原文锚」「来源」完整路径一致。
+7. 计划任务 kdo-conversation-distill 在册（Next Run 2026-09-06 23:50，Ready）；交付物已入仓 commit（75f7ae557）。

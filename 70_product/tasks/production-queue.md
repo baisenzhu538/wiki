@@ -271,7 +271,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 642 | `task_20260905_laowantong-641-depth-patch` | 修订单：#641 深度口径（真问题链进卡+暗知识3条成dk候选+SOP差异点+老朱归属口径） | reviewed | laowantong | 口径落#641执行报告随审 | #641 配套 | `60_feedback/tasks/task_20260905_laowantong-641-depth-patch.md` | 王语嫣深诊断补深（老朱09-05批编排深度）；E047边界传口径不改范围 |
 | 643 | `task_20260905_laowantong-qingdanti-stress-test-private-board` | 清单体skill压力测试：5.1万字私董会实录两步法全跑（深挖已就位→清单体整理+skill检验报告回答去留） | claimed-laowantong | laowantong | 笔记+检验报告+执行报告 | #640 后 | `60_feedback/tasks/task_20260905_laowantong-qingdanti-stress-test-private-board.md` | 老朱09-05检验设计（skill去留试金石）；F-077口径对账证据；欧阳锋终审 |
 | 644 | `task_20260905_ouyangfeng-recent-quality-rescan` | 近期入库质量回扫（08-28起~30张抽10）：暗知识含量/一等证据锚/方向价值三轴+不合格清单 | reviewed | ouyangfeng | 回扫报告+模式判词 | 无 | `60_feedback/tasks/task_20260905_ouyangfeng-recent-quality-rescan.md` | 老朱09-05「担心入库变垃圾」直令；只审不动笔；王语嫣复核落点 |
-| 645 | `task_20260905_huangyaoshi-conversation-distill-pipeline` | 对话蒸馏管线：会话上下文→三层分流（外部知识/对老朱洞察/对他人洞察）+每日增量+原文锚红线 | pending_review | huangyaoshi | 蒸馏器+三类样本+执行报告 | 无 | `60_feedback/tasks/task_20260905_huangyaoshi-conversation-distill-pipeline.md` | 老朱09-05长期机制；洞察分流口径王语嫣定；欧阳锋终审 |
+| 645 | `task_20260905_huangyaoshi-conversation-distill-pipeline` | 对话蒸馏管线：会话上下文→三层分流（外部知识/对老朱洞察/对他人洞察）+每日增量+原文锚红线 | reviewed | huangyaoshi | 蒸馏器+三类样本+执行报告 | 无 | `60_feedback/tasks/task_20260905_huangyaoshi-conversation-distill-pipeline.md` | 老朱09-05长期机制；洞察分流口径王语嫣定；欧阳锋终审 |
 | 646 | `task_20260905_huangyaoshi-sysmon-cas-trace` | C:\Sysmon 59G CAS 溯源与处置（已冻结止血；09-01 11:34 生正值#592窗口） | pending_review | huangyaoshi | 写入者结论+处置释放空间数 | 无 | `60_feedback/tasks/task_20260905_huangyaoshi-sysmon-cas-trace.md` | 老朱确认无印象+王语嫣冻结；欧阳锋终审 |
 | 639 | `task_20260904_huangyaoshi-qingdanti-into-production-spec` | 生产规范补清单体标准：工业化手册引用yt-note卡族+质检超长无分层WARNING提示 | reviewed | huangyaoshi | 手册diff+门禁提示+回归 | 无 | `60_feedback/tasks/task_20260904_huangyaoshi-qingdanti-into-production-spec.md` | 老朱09-04直令；只链不抄；欧阳锋终审 |
 | 630 | `task_20260903_laowantong-626-source-anchor-fix` | 修订单（传口径不改范围）：#626 素材锚升级——Live86对账以原稿为一等锚（00_inbox/龙虾员工实践/），Candy仅定位模版增量；Live77无原稿Candy即一手 | cancelled | laowantong | 口径落 #626 执行报告，随其终审 | #626 配套 | `60_feedback/tasks/task_20260903_laowantong-626-source-anchor-fix.md` | 老朱09-03直令「找原稿深挖」；王语嫣查实原稿在库；E047边界：修订单不传裁决 |
@@ -526,7 +526,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#641 task_20260905_laowantong-private-board-majingjing-case｜laowantong｜提审 09-05 02:35｜60_feedback/tasks/task_20260905_laowantong-private-board-majingjing-case.md~~ → 已终审 PASS A-（2026-09-04 欧阳锋）
 - ~~#645 task_20260905_huangyaoshi-conversation-distill-pipeline｜huangyaoshi｜提审 09-05 03:26｜60_feedback/tasks/task_20260905_huangyaoshi-conversation-distill-pipeline.md~~ → 终审退回 queued（2026-09-04 欧阳锋）
 - ~~#642 task_20260905_laowantong-641-depth-patch｜laowantong｜提审 09-05 04:27｜60_feedback/tasks/task_20260905_laowantong-641-depth-patch.md~~ → 已终审 PASS A-（2026-09-05 欧阳锋）
-- #645 task_20260905_huangyaoshi-conversation-distill-pipeline｜huangyaoshi｜提审 09-05 04:27｜60_feedback/tasks/task_20260905_huangyaoshi-conversation-distill-pipeline.md
+- ~~#645 task_20260905_huangyaoshi-conversation-distill-pipeline｜huangyaoshi｜提审 09-05 04:27｜60_feedback/tasks/task_20260905_huangyaoshi-conversation-distill-pipeline.md~~ → 已终审 PASS A-（2026-09-05 欧阳锋）
 - #646 task_20260905_huangyaoshi-sysmon-cas-trace｜huangyaoshi｜提审 09-05 04:28｜60_feedback/tasks/task_20260905_huangyaoshi-sysmon-cas-trace.md
 
 <!-- REVIEW-PENDING-END -->
