@@ -43,7 +43,7 @@ updated_at: '2026-09-05T18:53:22.174472+00:00'
 **交付物**
 - `kdo-tools/wechat_link_monitor.py`：转写步动态 timeout + 失败留痕 + 3 败熔断（`run_transcribe` 收敛两处 900s 调用点）+ 新增 `media_duration_seconds`/`transcribe_timeout`/`transcribe_fail_count`/`record_transcribe_fail`，`scan_downloaded_videos` 顺带统一走 `knowledge_ize`
 - `kdo-tools/tests/test_wechat_link_monitor.py`：+6 回归用例（时长挂钩/体量兜底/超时留痕/失败留痕/3 败熔断/成功路径）
-- KDO CLI 仓 `kdo/pre_submit.py` + `tests/test_source_refs_gate_567.py`：commit `4b0e45f`（ALIASES basename+剥扩展名，+5 回归）
+- KDO CLI 仓 `C:/Users/Administrator/Knowledge Delivery OS 0.0.1/kdo/pre_submit.py` + `C:/Users/Administrator/Knowledge Delivery OS 0.0.1/tests/test_source_refs_gate_567.py`：commit `4b0e45f`（ALIASES basename+剥扩展名，+5 回归）
 - 补转写产出：`00_inbox/wechat-collect/src_wechat_4b6327b374540e2e.md`（116KB / 3218 行 / 3214 段）+ 知识化 `00_inbox/wechat-collect/knowledge/case-wechat-4b6327b374540e2e.md`；施工日志 `_tmp/transcribe-backfill-4b6327b374540e2e.log`
 - seen 标注：`60_feedback/wechat-collect/seen_links.txt` 追加 `https://weixin.qq.com/sph/A86PKGRQTu` + 规范化键（管线自带 `mark_seen` 写入）
 
