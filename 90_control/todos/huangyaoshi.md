@@ -1,5 +1,6 @@
 # huangyaoshi 待办（探针通知 CLI 收件箱——启动读此文件；在外实例走飞书）
 
+- [2026-09-06 05:27] 🔴 KDO 退回 1 单（返工优先）：#652（task_20260906_huangyaoshi-agent-behavior-constitution），见任务单终审记录
 - [2026-09-05 03:57] 🔴 KDO 退回 1 单（返工优先）：#645（task_20260905_huangyaoshi-conversation-distill-pipeline），见任务单终审记录
 - [2026-09-02 23:47] 🔴 KDO 退回 1 单（返工优先）：#622（task_20260902_huangyaoshi-graph-index-rebuild-sentinel），见任务单终审记录
 - [2026-08-28 05:57] 🔴 KDO 退回 1 单（返工优先）：#566（task_20260827_huangyaoshi-feature-json-mojibake-repair），见任务单终审记录
@@ -786,3 +787,11 @@
 - [2026-09-06 04:49] 【施工】#652 全Agent行为宪法v1.0完成并提审：宪法落盘（五条触发+动作+全锚）+三挂载（startup.md步骤6.5/拉起器PROMPT_TEMPLATE/基建公告）+hermes端6 profile SOUL.md注入（#650已终审PASS A-依赖解锁）；狗粮2实例PASS（claude-laowantong/hermes-laowantong负向判词均带锚+断言均带【实证】，指令未提宪法=注入生效）；实事求是修正：deep-research仅素材/research-core仅矩阵登记无文件，措辞按实证改（business-research唯一实装）→ pending_review 待欧阳锋
 - [2026-09-06 04:57] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#652（huangyaoshi 的单，挂审 9min）（到点（节奏 15min））
 - [2026-09-06 04:57] ✅ KDO 终审通过 1 单：#651——你的单过了，见任务单终审记录
+- [2026-09-06 05:12] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#652（huangyaoshi 的单，挂审 24min）（到点（节奏 15min））
+- [2026-09-06 05:17] 📥 KDO 可领取 1 单：#655
+- [2026-09-06 05:32] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-06 05:47] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-06 06:07] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#652（huangyaoshi 的单，挂审 13min）；#654（laowantong 的单，挂审 12min）；#653（huangyaoshi 的单，挂审 4min）（到点（节奏 15min））
+- [2026-09-06 06:16] 【施工】#652 返工重提完成：欧阳锋 05:26 终审 P1 一句话修复（startup.md L54 尾句「技术概念 deep-research」→「技术/概念类→kdo query+grep（deep-research 未实装）」，与 L5/宪法第三条/PROMPT_TEMPLATE 四处口径对齐，grep 核验 deep-research 全文件仅剩 L54 否定式 1 处）→ pending_review 待欧阳锋
+- [2026-09-06 06:16] 【施工】#653 E040 跨仓前缀提示完成并提审：_crossrepo_hint()（KDO_REPO_ROOT/路径盘上存在且缺仓前缀→报错补「写带仓前缀全路径，参照 #542」，硬拦行为零变化）；+2 回归全量 256 passed；顺带 MOUNT-MATRIX 实证核查结论反转——矩阵 78/78 零失真（生成器结构上不可能登记不存在 skill），真实失真是 04:46 friction 判词查错层级（research-core 实装在 shared/，SKILL.md v1.1.0 reviewed），#652 已补正、宪法 L44/公告 L63 修正建议报欧阳锋 → pending_review 待欧阳锋
+- [2026-09-06 06:16] 【施工】#655 连发窗口完成并提审：取修法① claim --sequence 显式 flag（弃②时间窗豁免=隐式放宽+时钟依赖）；own pending 剔除后照走 FIFO/#503 锁（首轮越界被自建护栏用例拦下返工）；真实队列只读模拟三条件 PASS（连发放行/无 flag 照拦/他单在前不越）；+6 回归全量 262 passed；本会话 #653/#655 两次 force 为同型末次 → pending_review 待欧阳锋

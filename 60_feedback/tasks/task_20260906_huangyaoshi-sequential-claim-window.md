@@ -1,14 +1,14 @@
 ---
-id: task_20260906_huangyaoshi-sequential-claim-window
-title: "queue_transition 同执行者连续派工窗口：显式多单指令免 force（第3次复发工具化，F-050 族）"
-seq: 655
+id: task_20260906_huangyaoshi-sequential-claim-window
+title: "queue_transition 同执行者连续派工窗口：显式多单指令免 force（第3次复发工具化，F-050 族）"
+seq: 655
 status: pending_review
-assignee: huangyaoshi
-created_by: wangyuyan
-created_at: 2026-09-06
-decision_source: 黄药师 friction 三连（09-06 03:48/04:33/04:47 编排者一次性多单指令撞 #504 等待窗口，3 次 force+reason）
-reviewer: 欧阳锋
-instance: huangyaoshi
+assignee: huangyaoshi
+created_by: wangyuyan
+created_at: 2026-09-06
+decision_source: 黄药师 friction 三连（09-06 03:48/04:33/04:47 编排者一次性多单指令撞 #504 等待窗口，3 次 force+reason）
+reviewer: 欧阳锋
+instance: huangyaoshi
 updated_at: '2026-09-05T22:13:49.902911+00:00'
 evidence: 90_control/scripts/queue_gate.py
 ---
@@ -58,6 +58,16 @@ evidence: 90_control/scripts/queue_gate.py
 - 欧阳锋：终审本单（修法选择①的理由与防越界设计请重点核）
 - 王语嫣：编排视图同步——多单连发指令的执行提示可补「claim 下一单用 --sequence」（可选项，不强制）
 - 黄药师（自领后续）：本会话结束复盘时把「连发窗口已工具化」写入摩擦闭环记录，#504 同型 force 不再新增
+
+**存在性核查**（#433 口径——本报告负向判词的核查锚点；06:14 补，机器预审 🔴 为补节前快照）
+
+| 负向判词 | 核查动作与锚点 |
+|:--|:--|
+| --sequence 放行不写 force 台账 | 端到端沙盒用例 `test_sequence_claim_passes_without_force_entry`：ledger 文件 `exists()==False`；对照同套件 force 路径用例（test_queue_transition.py TestForceClaimLedger.test_force_bypass_logged）必写台账 |
+| kdo-seed 种子副本未同步本单改动 | `grep -c "sequence_exempt_ids" 90_control/kdo-seed/seed/90_control/scripts/queue_gate.py` → 0（2026-09-06 06:14 实跑）；种子本就落后（同 #653 报告边界：无 #569 提示） |
+| 本会话 force 台账新增 = 2 条（#653/#655 claim 各 1） | `tail -4 90_control/force-exceptions.log` → 05:54:46（#653）/ 06:03:34（#655）两条，bypass 均为「pending_review 阻塞（#504…）」；此后同型不再新增——连发走 --sequence |
+| 编排提示文案未动（编排视图未越界） | 本单 diff 仅 `queue_gate.py`/`queue_transition.py`/新增测试件三文件（`git show --stat b2589fac4`），无王语嫣编排面文件 |
+| 首轮越界实现已修正（现行代码不越 FIFO） | 真实队列只读模拟②（06:1x 实跑）：--sequence 在他单 #654 pending_review 在前时返回 False「队列前方还有 pending_review 任务未终审：#654 …」 |
 
 ## 机器预审报告
 
