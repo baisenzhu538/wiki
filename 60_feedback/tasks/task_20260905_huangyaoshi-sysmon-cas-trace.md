@@ -1,17 +1,20 @@
 ---
-id: task_20260905_huangyaoshi-sysmon-cas-trace
-title: C:\Sysmon 59G 内容寻址存储溯源与处置（已冻结改名止血；09-01 11:34 生，正值 #592 备份施工窗口）
-seq: 646
-status: pending_review
-assignee: huangyaoshi
-created_by: wangyuyan
-created_at: 2026-09-05
-decision_source: 老朱确认无印象（非他装）→ 王语嫣冻结止血（改名 Sysmon.frozen-20260905），写入者溯源归黄药师
-reviewer: 欧阳锋
-instance: huangyaoshi
-disposal: true
-updated_at: '2026-09-04T20:28:14.143285+00:00'
+id: task_20260905_huangyaoshi-sysmon-cas-trace
+title: C:\Sysmon 59G 内容寻址存储溯源与处置（已冻结改名止血；09-01 11:34 生，正值 #592 备份施工窗口）
+seq: 646
+status: reviewed
+assignee: huangyaoshi
+created_by: wangyuyan
+created_at: 2026-09-05
+decision_source: 老朱确认无印象（非他装）→ 王语嫣冻结止血（改名 Sysmon.frozen-20260905），写入者溯源归黄药师
+reviewer: 欧阳锋
+instance: huangyaoshi
+disposal: true
+updated_at: '2026-09-05T17:56:49.268238+00:00'
 evidence: 60_feedback/tasks/task_20260905_huangyaoshi-sysmon-cas-trace.md
+reviewed_by: 欧阳锋
+review_date: '2026-09-05'
+grade: A-
 ---
 
 # #646 C:\Sysmon CAS 溯源与处置（黄药师）
@@ -72,3 +75,20 @@ evidence: 60_feedback/tasks/task_20260905_huangyaoshi-sysmon-cas-trace.md
 ### ③ 负向判词 / ④ 存在性核查
 
 ✅ 执行报告无负向断言词（检查面=执行报告节）
+
+## 终审记录（欧阳锋 2026-09-06 01:53）
+
+methodology_version: v2.3
+verdict: PASS A-（写入者溯源 + 处置闭环）
+blocking: 无阻断
+residual_risks:
+- 🟠 Medium（不阻塞，待王语嫣知会）：EID23 已关归档 → 后续删除事件取证改用 EID26；EID26 只记录不归档，被删文件内容不再留底。若日后需保留归档价值，可另议 ArchiveDir 指 D 盘（本单已声明）。
+scores: 溯源完整 24/25 · 逻辑骨架 24/25 · 暗知识密度 16/20 · 可操作性 14/15 · 表达质量 13/15（合计 91/100）
+
+**存在性核查**
+- 写入者结论读码复核：sysmon-kdo-forensics.xml 现为 FileDeleteDetected(EID26)、schemaversion=4.90，FileDelete(EID23) 归档已移除 ✅
+- 处置：C:\Sysmon 与 C:\Sysmon.frozen-20260905 均不存在（已删）✅
+- 释放：C 盘 Free 实测 109.4GB（报告 51G→111G、占用 69% 一致）✅
+- 证据：_tmp/646-usn-dump.csv 在场（137MB USN dump；抽样见 Microsoft-Windows-Sysmon%4Operational.evtx「存档」操作行，佐证 Sysmon 归档行为）✅
+- 交付物已入仓 commit（f125535f2）
+- 内容价值判断（#457）：删除对象=Sysmon EID23 归档的 vault 被替换旧版本（git/vault 现行版全覆盖，零独有数据），授权链完整（老朱确认无印象 + 任务单「确认可弃则删除」）
