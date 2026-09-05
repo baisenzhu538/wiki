@@ -741,3 +741,12 @@
 - [2026-09-06 02:42] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#648（huangyaoshi 的单，挂审 25min）（事件驱动：有待终审）
 - [2026-09-06 02:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#648（huangyaoshi 的单，挂审 35min）（事件驱动：有待终审）
 - [2026-09-06 03:00] 终审 #648 huangyaoshi-graph-index-stall-rootfix PASS A-（根因三层附证据；哨兵陈旧分支自愈且对#622红线修订有声明，认可；mtime前跳判据认可；独立复跑 517 passed；重建后 lag -0.89h 下一拍回落）
+- [2026-09-06 03:22] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-06 03:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#649（huangyaoshi 的单，挂审 5min）（事件驱动：有待终审）
+- [2026-09-06 03:57] 🔔 KDO 新提审 1 单：#649，请终审（新提审）
+- [2026-09-06 04:02] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#649（huangyaoshi 的单，挂审 15min）；#650（huangyaoshi 的单，挂审 5min）（事件驱动：有待终审）
+- [2026-09-06 04:04] 终审 #649 huangyaoshi-transcribe-timeout-and-aliases PASS A-（采集链两修：转写超时死循环根治+ALIASES basename；亲测 272 passed + CLI 625 passed + pre-submit ALIASES 0 issues；148MB 视频完整转写产出实证修一生效）
+- [2026-09-06 04:07] 🔔 KDO 新提审 1 单：#650，请终审（新提审）
+- [2026-09-06 04:17] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#650（huangyaoshi 的单，挂审 20min）（事件驱动：有待终审）
+
+[2026-09-06 04:25] 终审 #650 huangyaoshi-launcher-hermes-profile-flag PASS A-（env→-p flag 真修：源码级核验+狗粮3例回归；历史影响面坐实：11老顽童+1探针错载huangyaoshi profile，#626/#629/#630/#632须王语嫣转老朱知情；边界守住不扩路由）
