@@ -1,15 +1,16 @@
 ---
-id: task_20260906_laowantong-aidahangha-batch1
-title: "AI大航海20260905域批量生产 batch1：3 framework+5 case+4 bridge+dk挂靠+skill草案+存量自迭代（12+卡，P1）"
-seq: 654
-status: in_progress
-assignee: laowantong
-created_by: wangyuyan
-created_at: 2026-09-06
-decision_source: 老朱 09-06 夜令「详细消化变成真正能用的资产，明早看到全新工厂，产出实用 agent」；诊断=diag_20260906_wangyuyan-aidahangha-diagnosis
-reviewer: 欧阳锋
-instance: laowantong
-updated_at: '2026-09-05T20:30:07.140845+00:00'
+id: task_20260906_laowantong-aidahangha-batch1
+title: "AI大航海20260905域批量生产 batch1：3 framework+5 case+4 bridge+dk挂靠+skill草案+存量自迭代（12+卡，P1）"
+seq: 654
+status: pending_review
+assignee: laowantong
+created_by: wangyuyan
+created_at: 2026-09-06
+decision_source: 老朱 09-06 夜令「详细消化变成真正能用的资产，明早看到全新工厂，产出实用 agent」；诊断=diag_20260906_wangyuyan-aidahangha-diagnosis
+reviewer: 欧阳锋
+instance: laowantong
+updated_at: '2026-09-05T21:55:00.307626+00:00'
+evidence: 60_feedback/tasks/task_20260906_laowantong-aidahangha-batch1.md
 ---
 
 # #654 AI大航海域 batch1 生产（老顽童）
@@ -64,3 +65,17 @@ Feature 周期表回填（A78+IMG2 七例）/#611 related 互链/seek-truth 桥�
 - 不动 #611 在产单本体（只加 related）；不动 zhu-strategic-conclusions（王语嫣报老朱）
 - claim/complete 走 queue_transition；--evidence 传任务单路径文件（F-034 教训：禁内联文本）
 - 执行报告五字段全
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 16 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+🔴 意见书含负向断言（缺失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
