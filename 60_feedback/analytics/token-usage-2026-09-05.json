@@ -1,0 +1,28 @@
+{
+  "date": "2026-09-05",
+  "collected_at": "2026-09-05T02:07:59",
+  "usage": {
+    "claude": {
+      "f9a1bf8e-b887-4489-826d-d30181acebf9": {
+        "input": 59240,
+        "output": 175507,
+        "cache_read": 69433216,
+        "cache_write": 0
+      }
+    },
+    "kimi": {
+      "session_127d4cf5-965d-4bee-bcb4-f7540bc31d59/main": {
+        "input": 215821,
+        "output": 93076,
+        "cache_read": 162049024,
+        "cache_write": 0
+      },
+      "session_c27a6921-e211-4c14-b216-cadfe1d90194/main": {
+        "input": 110894,
+        "output": 46211,
+        "cache_read": 48096000,
+        "cache_write": 0
+      }
+    }
+  }
+}

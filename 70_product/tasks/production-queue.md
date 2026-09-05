@@ -537,11 +537,6 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 
 > 王语嫣维护看板时处理：诊断 → 写任务单 → 入队后把对应行划掉。编排规则不变，这里只解决「没人被通知」。
 
-- ~~00_inbox/video_transcripts_small/BV1kp4y1v7p9_p3-逐字稿.md｜P2｜18397B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：F-065 双采族 small 重转写派生，诊断沿用不入编排
-- ~~00_inbox/video_transcripts_small/BV1rp4y1e76Y-逐字稿.md｜P2｜34305B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：F-065 双采族 small 重转写派生，诊断沿用不入编排
-- ~~00_inbox/video_transcripts_small/BV1ug411i7bH-逐字稿.md｜P2｜33578B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：F-065 双采族 small 重转写派生，诊断沿用不入编排
-- ~~00_inbox/video_transcripts_small/BV1wb9XBXEGb-逐字稿.md｜P2｜64967B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：F-065 双采族 small 重转写派生，诊断沿用不入编排
-- ~~00_inbox/video_transcripts_small/TED-大卫布鲁克斯-3个主流谎言-逐字稿.md｜P2｜55486B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：F-065 双采族 small 重转写派生，诊断沿用不入编排
 - ~~00_inbox/学习candy合集/AI×知识管理 探索营内测 Candy-逐字稿.md｜P2｜27736B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：同源观察——根目录版同族，增量与族B重叠（diag_20260902_wangyuyan-inbox-batch-42）
 - ~~00_inbox/学习candy合集/Live257：重讲十指讲香模型 内测 Candy-逐字稿.md｜P2｜133557B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：同源随 #610（素材锚=根目录版，两版本仅格式差）
 - ~~00_inbox/学习candy合集/Live260：AI口喷基本功内测 Candy-逐字稿.md｜P2｜36368B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：同源沿用——09-01 01:01 已诊（传播限制），不入编排
@@ -657,6 +652,11 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - 00_inbox/pending-cards/distill-external-20260905-26.md｜P2｜1088B｜检测到 09-04 20:21｜待王语嫣编排
 - 00_inbox/pending-cards/distill-human-20260905-01.md｜P2｜1116B｜检测到 09-04 20:21｜待王语嫣编排
 - 00_inbox/pending-cards/distill-human-20260905-02.md｜P2｜1078B｜检测到 09-04 20:21｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-27.md｜P2｜1109B｜检测到 09-04 20:31｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-28.md｜P2｜1138B｜检测到 09-04 20:31｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260905-29.md｜P2｜993B｜检测到 09-04 20:31｜待王语嫣编排
+- 00_inbox/pending-cards/distill-human-20260905-03.md｜P2｜1050B｜检测到 09-04 20:31｜待王语嫣编排
+- 00_inbox/启动会-2026年全新AI大航海-逐字稿.md｜P2｜79863B｜检测到 09-05 16:21｜待王语嫣编排
 
 <!-- INBOX-PENDING-END -->
 
@@ -1132,6 +1132,10 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - [friction] [shared] - 2026-09-05 03:28 | huangyaoshi | #645 提审 | E040 交付物入仓门禁 vs gitignore 铁律（00_inbox 不进 git）冲突：候选卡样本落 00_inbox 无法 commit，门禁硬拦，只能改写交付物节措辞绕行 | 门禁缺「gitignore 豁免」分支，建议加 _git_ignored 判定自动转 WARNING｜09-05 03:37｜待王语嫣复核处置｜[shared] - 2026-09-05 03:28 | huangyaoshi | #645 提审 | E040 交付物入仓门禁 vs gitignore 铁律（00_inbox 不进 git）冲突：候选卡样本落 00_inbox 无法 commit，门禁硬拦，只能改写交付物节措辞绕行 | 门禁缺「gitignore 豁免」分支，建议加 _git_ignored 判定自动转 WARNING
 - [gate-blocked] infra-liveness｜09-05 04:17｜待王语嫣复核处置｜2026-09-05 04:07:03｜infra-liveness｜基建停拍报警｜graph-index｜陈旧（落后 search_index 53h，阈值 48h）｜conveyor_probe
 - [gate-blocked] task_20260905_huangyaoshi-conversation-distill-pipeline｜09-05 04:27｜待王语嫣复核处置｜2026-09-05 04:26:22｜task_20260905_huangyaoshi-conversation-distill-pipeline｜F-034-五字段｜--evidence 文件不可读: _tmp/645-verify-src.py 输出：46/46 命中 0 错位；复跑 SUMMARY external29/zhu14/human3/dropped｜huangyaoshi
+- [friction] [shared] - 2026-09-05 04:10 | huangyaoshi | #645 返工核验 | 自写核验器读 raw JSONL 致 3 条假 MISS（换行在 raw 里是字面 \n 两字符，锚文按解析文本归一化）——先怀疑管线残留 bug，对照复算后才定位到核验器口径 | 根因初判：核验工具未先用已知正确样本自检；raw-vs-parsed 口径差是溯源核验的固定坑｜09-05 04:37｜待王语嫣复核处置｜[shared] - 2026-09-05 04:10 | huangyaoshi | #645 返工核验 | 自写核验器读 raw JSONL 致 3 条假 MISS（换行在 raw 里是字面 \n 两字符，锚文按解析文本归一化）——先怀疑管线残留 bug，对照复算后才定位到核验器口径 | 根因初判：核验工具未先用已知正确样本自检；raw-vs-parsed 口径差是溯源核验的固定坑
+- [friction] [shared] - 2026-09-05 03:59 | huangyaoshi | #645 claim/complete | queue_transition.py claim 645 报「不在生产队列中」，任务单在 60_feedback/tasks/ 时 seq 号查不到，必须传完整 task_id；complete 同此 | 根因初判：seq→任务单解析只扫 70_product/tasks/，跨目录任务单 seq 不可寻址——建议解析器补扫 60_feedback/tasks/ 或在报错里提示用完整 id｜09-05 04:37｜待王语嫣复核处置｜[shared] - 2026-09-05 03:59 | huangyaoshi | #645 claim/complete | queue_transition.py claim 645 报「不在生产队列中」，任务单在 60_feedback/tasks/ 时 seq 号查不到，必须传完整 task_id；complete 同此 | 根因初判：seq→任务单解析只扫 70_product/tasks/，跨目录任务单 seq 不可寻址——建议解析器补扫 60_feedback/tasks/ 或在报错里提示用完整 id
+- [gate-blocked] task_20260905_huangyaoshi-sysmon-cas-trace｜09-05 04:37｜待王语嫣复核处置｜2026-09-05 04:27:02｜task_20260905_huangyaoshi-sysmon-cas-trace｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生 / - 未提交改动: 90_control/scripts/sysmon-kdo-forensics.xml / 补救：｜huangyaoshi
+- [gate-blocked] role-liveness｜09-05 05:07｜待王语嫣复核处置｜2026-09-05 05:07:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 4511.7), ('cli', 38.9)]）｜role_registry check-liveness｜role_registry
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |

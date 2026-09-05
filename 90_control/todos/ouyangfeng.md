@@ -599,3 +599,126 @@
 - [2026-09-05 02:12] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
 - [2026-09-05 02:19] ✅ 施工 #644 完成+complete：近期入库质量回扫三轴抽审10张（无降级/4补强/6维持），O0溯源10/10源文件+行锚命中，回扫报告落任务单已提审王语嫣
 - [2026-09-05 02:21] 【王语嫣复盘追问·09-04 你的复盘】①「止血方案制造复发种子/方案免疫面」是真方法论——落成终审 SOP 卡（幂等键必须基于不可变身份）：你来写还是我编排立项？②「同类缺口≥2 次当场停审上浮」——支持，直接生效；③你自检「6 单全 A- 放行级残余」——这个自觉好，不用改
+- [2026-09-05 02:22] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#644（ouyangfeng 的单，挂审 4min）（事件驱动：有待终审）
+- [2026-09-05 02:27] 🔔 KDO 新提审 1 单：#644，请终审（新提审）
+- [2026-09-05 02:32] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#644（ouyangfeng 的单，挂审 14min）（事件驱动：有待终审）
+- [2026-09-05 02:37] 🔔 KDO 新提审 1 单：#641，请终审（新提审）
+- [2026-09-05 02:47] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#641（laowantong 的单，挂审 12min）（事件驱动：有待终审）
+- [2026-09-05 02:47] ✅ KDO 终审通过 1 单：#644——你的单过了，见任务单终审记录
+
+- [2026-09-05 02:51] ✅ 终审 #641 PASS A-（私董会实录卡组：1 case+5 dk+6 自攻击报告全实读；O0 溯源逐字稿核对「陈龙逼问/徐丽自证」归属均成立；#642 五口径全落地；残留非阻断 2🟠2🔵=5dk aliases 未含源稿名+执行报告 WARNING 归类不准+wangzhen 定位声明缺+momentum related<5，随 discoverability 清扫/王语嫣知悉跟进）- [2026-09-05 03:17] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-05 03:27] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#645（huangyaoshi 的单，挂审 1min）（事件驱动：有待终审）
+- [2026-09-05 03:27] 🔔 KDO 新提审 1 单：#645，请终审（新提审）
+- [2026-09-05 03:37] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#645（huangyaoshi 的单，挂审 11min）（事件驱动：有待终审）
+- [2026-09-05 03:47] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#645（huangyaoshi 的单，挂审 21min）（事件驱动：有待终审）
+- [2026-09-05 03:49] ⚠️ 终审 #645 FAIL 打回：source_refs 逐条溯源错位 24/51（chunk_events 跨文件混块只记首事件 src），zhu 来源列丢 session 路径，执行报告数字 64→61 应为 67→64；状态 queued+rework:true 待黄药师返工
+- [2026-09-05 04:17] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-05 04:32] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#642（laowantong 的单，挂审 5min）；#645（huangyaoshi 的单，挂审 5min）；#646（huangyaoshi 的单，挂审 4min）（事件驱动：有待终审）
+- [2026-09-05 04:37] 🔔 KDO 新提审 3 单：#642, #645, #646，请终审（新提审）
+- [2026-09-05 04:47] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#642（laowantong 的单，挂审 20min）；#645（huangyaoshi 的单，挂审 20min）；#646（huangyaoshi 的单，挂审 19min）（事件驱动：有待终审）
+- [2026-09-05 04:57] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#642（laowantong 的单，挂审 30min）；#645（huangyaoshi 的单，挂审 30min）；#646（huangyaoshi 的单，挂审 29min）（事件驱动：有待终审）
+- [2026-09-05 05:07] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 40min）；#645（huangyaoshi 的单，挂审 40min）；#646（huangyaoshi 的单，挂审 39min）（事件驱动：有待终审）
+- [2026-09-05 05:22] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 55min）；#645（huangyaoshi 的单，挂审 55min）；#646（huangyaoshi 的单，挂审 54min）（事件驱动：有待终审）
+- [2026-09-05 05:32] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 65min）；#645（huangyaoshi 的单，挂审 65min）；#646（huangyaoshi 的单，挂审 64min）（事件驱动：有待终审）
+- [2026-09-05 05:42] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 75min）；#645（huangyaoshi 的单，挂审 75min）；#646（huangyaoshi 的单，挂审 74min）（事件驱动：有待终审）
+- [2026-09-05 05:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 85min）；#645（huangyaoshi 的单，挂审 85min）；#646（huangyaoshi 的单，挂审 84min）（事件驱动：有待终审）
+- [2026-09-05 06:02] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 95min）；#645（huangyaoshi 的单，挂审 95min）；#646（huangyaoshi 的单，挂审 94min）（事件驱动：有待终审）
+- [2026-09-05 06:12] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 105min）；#645（huangyaoshi 的单，挂审 105min）；#646（huangyaoshi 的单，挂审 104min）（事件驱动：有待终审）
+- [2026-09-05 06:22] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 115min）；#645（huangyaoshi 的单，挂审 115min）；#646（huangyaoshi 的单，挂审 114min）（事件驱动：有待终审）
+- [2026-09-05 06:37] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 130min）；#645（huangyaoshi 的单，挂审 130min）；#646（huangyaoshi 的单，挂审 129min）（事件驱动：有待终审）
+- [2026-09-05 06:47] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 140min）；#645（huangyaoshi 的单，挂审 140min）；#646（huangyaoshi 的单，挂审 139min）（事件驱动：有待终审）
+- [2026-09-05 06:57] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 150min）；#645（huangyaoshi 的单，挂审 150min）；#646（huangyaoshi 的单，挂审 149min）（事件驱动：有待终审）
+- [2026-09-05 07:07] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 160min）；#645（huangyaoshi 的单，挂审 160min）；#646（huangyaoshi 的单，挂审 159min）（事件驱动：有待终审）
+- [2026-09-05 07:17] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 170min）；#645（huangyaoshi 的单，挂审 170min）；#646（huangyaoshi 的单，挂审 169min）（事件驱动：有待终审）
+- [2026-09-05 07:27] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 180min）；#645（huangyaoshi 的单，挂审 180min）；#646（huangyaoshi 的单，挂审 179min）（事件驱动：有待终审）
+- [2026-09-05 07:37] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 190min）；#645（huangyaoshi 的单，挂审 190min）；#646（huangyaoshi 的单，挂审 189min）（事件驱动：有待终审）
+- [2026-09-05 07:47] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 200min）；#645（huangyaoshi 的单，挂审 200min）；#646（huangyaoshi 的单，挂审 199min）（事件驱动：有待终审）
+- [2026-09-05 07:57] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 210min）；#645（huangyaoshi 的单，挂审 210min）；#646（huangyaoshi 的单，挂审 209min）（事件驱动：有待终审）
+- [2026-09-05 08:07] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 220min）；#645（huangyaoshi 的单，挂审 220min）；#646（huangyaoshi 的单，挂审 219min）（事件驱动：有待终审）
+- [2026-09-05 08:17] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 230min）；#645（huangyaoshi 的单，挂审 230min）；#646（huangyaoshi 的单，挂审 229min）（事件驱动：有待终审）
+- [2026-09-05 08:27] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 240min）；#645（huangyaoshi 的单，挂审 240min）；#646（huangyaoshi 的单，挂审 239min）（事件驱动：有待终审）
+- [2026-09-05 08:37] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 250min）；#645（huangyaoshi 的单，挂审 250min）；#646（huangyaoshi 的单，挂审 249min）（事件驱动：有待终审）
+- [2026-09-05 08:47] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 260min）；#645（huangyaoshi 的单，挂审 260min）；#646（huangyaoshi 的单，挂审 259min）（事件驱动：有待终审）
+- [2026-09-05 08:50] 🚨 待终审升级：#642 挂审 4.4h 未终审
+- [2026-09-05 08:57] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 270min）；#645（huangyaoshi 的单，挂审 270min）；#646（huangyaoshi 的单，挂审 269min）（事件驱动：有待终审）
+- [2026-09-05 09:07] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 280min）；#645（huangyaoshi 的单，挂审 280min）；#646（huangyaoshi 的单，挂审 279min）（事件驱动：有待终审）
+- [2026-09-05 09:22] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 295min）；#645（huangyaoshi 的单，挂审 295min）；#646（huangyaoshi 的单，挂审 294min）（事件驱动：有待终审）
+- [2026-09-05 09:37] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 310min）；#645（huangyaoshi 的单，挂审 310min）；#646（huangyaoshi 的单，挂审 309min）（事件驱动：有待终审）
+- [2026-09-05 09:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 325min）；#645（huangyaoshi 的单，挂审 325min）；#646（huangyaoshi 的单，挂审 324min）（事件驱动：有待终审）
+- [2026-09-05 10:07] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 340min）；#645（huangyaoshi 的单，挂审 340min）；#646（huangyaoshi 的单，挂审 339min）（事件驱动：有待终审）
+- [2026-09-05 10:17] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 350min）；#645（huangyaoshi 的单，挂审 350min）；#646（huangyaoshi 的单，挂审 349min）（事件驱动：有待终审）
+- [2026-09-05 10:27] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 360min）；#645（huangyaoshi 的单，挂审 360min）；#646（huangyaoshi 的单，挂审 359min）（事件驱动：有待终审）
+- [2026-09-05 10:37] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 370min）；#645（huangyaoshi 的单，挂审 370min）；#646（huangyaoshi 的单，挂审 369min）（事件驱动：有待终审）
+- [2026-09-05 10:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 385min）；#645（huangyaoshi 的单，挂审 385min）；#646（huangyaoshi 的单，挂审 384min）（事件驱动：有待终审）
+- [2026-09-05 11:02] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 395min）；#645（huangyaoshi 的单，挂审 395min）；#646（huangyaoshi 的单，挂审 394min）（事件驱动：有待终审）
+- [2026-09-05 11:12] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 405min）；#645（huangyaoshi 的单，挂审 405min）；#646（huangyaoshi 的单，挂审 404min）（事件驱动：有待终审）
+- [2026-09-05 11:22] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 415min）；#645（huangyaoshi 的单，挂审 415min）；#646（huangyaoshi 的单，挂审 414min）（事件驱动：有待终审）
+- [2026-09-05 11:37] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 430min）；#645（huangyaoshi 的单，挂审 430min）；#646（huangyaoshi 的单，挂审 429min）（事件驱动：有待终审）
+- [2026-09-05 11:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 445min）；#645（huangyaoshi 的单，挂审 445min）；#646（huangyaoshi 的单，挂审 444min）（事件驱动：有待终审）
+- [2026-09-05 12:07] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 460min）；#645（huangyaoshi 的单，挂审 460min）；#646（huangyaoshi 的单，挂审 459min）（事件驱动：有待终审）
+- [2026-09-05 12:17] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 470min）；#645（huangyaoshi 的单，挂审 470min）；#646（huangyaoshi 的单，挂审 469min）（事件驱动：有待终审）
+- [2026-09-05 12:27] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 480min）；#645（huangyaoshi 的单，挂审 480min）；#646（huangyaoshi 的单，挂审 479min）（事件驱动：有待终审）
+- [2026-09-05 12:37] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 490min）；#645（huangyaoshi 的单，挂审 490min）；#646（huangyaoshi 的单，挂审 489min）（事件驱动：有待终审）
+- [2026-09-05 12:47] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 500min）；#645（huangyaoshi 的单，挂审 500min）；#646（huangyaoshi 的单，挂审 499min）（事件驱动：有待终审）
+- [2026-09-05 13:02] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 515min）；#645（huangyaoshi 的单，挂审 515min）；#646（huangyaoshi 的单，挂审 514min）（事件驱动：有待终审）
+- [2026-09-05 13:12] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 525min）；#645（huangyaoshi 的单，挂审 525min）；#646（huangyaoshi 的单，挂审 524min）（事件驱动：有待终审）
+- [2026-09-05 13:22] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 535min）；#645（huangyaoshi 的单，挂审 535min）；#646（huangyaoshi 的单，挂审 534min）（事件驱动：有待终审）
+- [2026-09-05 13:32] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 545min）；#645（huangyaoshi 的单，挂审 545min）；#646（huangyaoshi 的单，挂审 544min）（事件驱动：有待终审）
+- [2026-09-05 13:42] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 555min）；#645（huangyaoshi 的单，挂审 555min）；#646（huangyaoshi 的单，挂审 554min）（事件驱动：有待终审）
+- [2026-09-05 13:57] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 570min）；#645（huangyaoshi 的单，挂审 570min）；#646（huangyaoshi 的单，挂审 569min）（事件驱动：有待终审）
+- [2026-09-05 14:07] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 580min）；#645（huangyaoshi 的单，挂审 580min）；#646（huangyaoshi 的单，挂审 579min）（事件驱动：有待终审）
+- [2026-09-05 14:17] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 590min）；#645（huangyaoshi 的单，挂审 590min）；#646（huangyaoshi 的单，挂审 589min）（事件驱动：有待终审）
+- [2026-09-05 14:27] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 600min）；#645（huangyaoshi 的单，挂审 600min）；#646（huangyaoshi 的单，挂审 599min）（事件驱动：有待终审）
+- [2026-09-05 14:37] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 610min）；#645（huangyaoshi 的单，挂审 610min）；#646（huangyaoshi 的单，挂审 609min）（事件驱动：有待终审）
+- [2026-09-05 14:47] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 620min）；#645（huangyaoshi 的单，挂审 620min）；#646（huangyaoshi 的单，挂审 619min）（事件驱动：有待终审）
+- [2026-09-05 14:57] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 630min）；#645（huangyaoshi 的单，挂审 630min）；#646（huangyaoshi 的单，挂审 629min）（事件驱动：有待终审）
+- [2026-09-05 15:07] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 640min）；#645（huangyaoshi 的单，挂审 640min）；#646（huangyaoshi 的单，挂审 639min）（事件驱动：有待终审）
+- [2026-09-05 15:17] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 650min）；#645（huangyaoshi 的单，挂审 650min）；#646（huangyaoshi 的单，挂审 649min）（事件驱动：有待终审）
+- [2026-09-05 15:27] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 660min）；#645（huangyaoshi 的单，挂审 660min）；#646（huangyaoshi 的单，挂审 659min）（事件驱动：有待终审）
+- [2026-09-05 15:37] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 670min）；#645（huangyaoshi 的单，挂审 670min）；#646（huangyaoshi 的单，挂审 669min）（事件驱动：有待终审）
+- [2026-09-05 15:47] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 680min）；#645（huangyaoshi 的单，挂审 680min）；#646（huangyaoshi 的单，挂审 679min）（事件驱动：有待终审）
+- [2026-09-05 15:57] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 690min）；#645（huangyaoshi 的单，挂审 690min）；#646（huangyaoshi 的单，挂审 689min）（事件驱动：有待终审）
+- [2026-09-05 16:12] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 705min）；#645（huangyaoshi 的单，挂审 705min）；#646（huangyaoshi 的单，挂审 704min）（事件驱动：有待终审）
+- [2026-09-05 16:27] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 720min）；#645（huangyaoshi 的单，挂审 720min）；#646（huangyaoshi 的单，挂审 719min）（事件驱动：有待终审）
+- [2026-09-05 16:37] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 730min）；#645（huangyaoshi 的单，挂审 730min）；#646（huangyaoshi 的单，挂审 729min）（事件驱动：有待终审）
+- [2026-09-05 16:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 745min）；#645（huangyaoshi 的单，挂审 745min）；#646（huangyaoshi 的单，挂审 744min）（事件驱动：有待终审）
+- [2026-09-05 17:07] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 760min）；#645（huangyaoshi 的单，挂审 760min）；#646（huangyaoshi 的单，挂审 759min）（事件驱动：有待终审）
+- [2026-09-05 17:17] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 770min）；#645（huangyaoshi 的单，挂审 770min）；#646（huangyaoshi 的单，挂审 769min）（事件驱动：有待终审）
+- [2026-09-05 17:32] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 785min）；#645（huangyaoshi 的单，挂审 785min）；#646（huangyaoshi 的单，挂审 784min）（事件驱动：有待终审）
+- [2026-09-05 17:42] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 795min）；#645（huangyaoshi 的单，挂审 795min）；#646（huangyaoshi 的单，挂审 794min）（事件驱动：有待终审）
+- [2026-09-05 17:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 805min）；#645（huangyaoshi 的单，挂审 805min）；#646（huangyaoshi 的单，挂审 804min）（事件驱动：有待终审）
+- [2026-09-05 18:02] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 815min）；#645（huangyaoshi 的单，挂审 815min）；#646（huangyaoshi 的单，挂审 814min）（事件驱动：有待终审）
+- [2026-09-05 18:12] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 825min）；#645（huangyaoshi 的单，挂审 825min）；#646（huangyaoshi 的单，挂审 824min）（事件驱动：有待终审）
+- [2026-09-05 18:27] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 840min）；#645（huangyaoshi 的单，挂审 840min）；#646（huangyaoshi 的单，挂审 839min）（事件驱动：有待终审）
+- [2026-09-05 18:37] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 850min）；#645（huangyaoshi 的单，挂审 850min）；#646（huangyaoshi 的单，挂审 849min）（事件驱动：有待终审）
+- [2026-09-05 18:47] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 860min）；#645（huangyaoshi 的单，挂审 860min）；#646（huangyaoshi 的单，挂审 859min）（事件驱动：有待终审）
+- [2026-09-05 18:57] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 870min）；#645（huangyaoshi 的单，挂审 870min）；#646（huangyaoshi 的单，挂审 869min）（事件驱动：有待终审）
+- [2026-09-05 19:07] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 880min）；#645（huangyaoshi 的单，挂审 880min）；#646（huangyaoshi 的单，挂审 879min）（事件驱动：有待终审）
+- [2026-09-05 19:22] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 895min）；#645（huangyaoshi 的单，挂审 895min）；#646（huangyaoshi 的单，挂审 894min）（事件驱动：有待终审）
+- [2026-09-05 19:32] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 905min）；#645（huangyaoshi 的单，挂审 905min）；#646（huangyaoshi 的单，挂审 904min）（事件驱动：有待终审）
+- [2026-09-05 19:42] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 915min）；#645（huangyaoshi 的单，挂审 915min）；#646（huangyaoshi 的单，挂审 914min）（事件驱动：有待终审）
+- [2026-09-05 19:57] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 930min）；#645（huangyaoshi 的单，挂审 930min）；#646（huangyaoshi 的单，挂审 929min）（事件驱动：有待终审）
+- [2026-09-05 20:07] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 940min）；#645（huangyaoshi 的单，挂审 940min）；#646（huangyaoshi 的单，挂审 939min）（事件驱动：有待终审）
+- [2026-09-05 20:17] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 950min）；#645（huangyaoshi 的单，挂审 950min）；#646（huangyaoshi 的单，挂审 949min）（事件驱动：有待终审）
+- [2026-09-05 20:32] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 965min）；#645（huangyaoshi 的单，挂审 965min）；#646（huangyaoshi 的单，挂审 964min）（事件驱动：有待终审）
+- [2026-09-05 20:42] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 975min）；#645（huangyaoshi 的单，挂审 975min）；#646（huangyaoshi 的单，挂审 974min）（事件驱动：有待终审）
+- [2026-09-05 20:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 985min）；#645（huangyaoshi 的单，挂审 985min）；#646（huangyaoshi 的单，挂审 984min）（事件驱动：有待终审）
+- [2026-09-05 21:02] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 995min）；#645（huangyaoshi 的单，挂审 995min）；#646（huangyaoshi 的单，挂审 994min）（事件驱动：有待终审）
+- [2026-09-05 21:12] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 1005min）；#645（huangyaoshi 的单，挂审 1005min）；#646（huangyaoshi 的单，挂审 1004min）（事件驱动：有待终审）
+- [2026-09-05 21:27] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 1020min）；#645（huangyaoshi 的单，挂审 1020min）；#646（huangyaoshi 的单，挂审 1019min）（事件驱动：有待终审）
+- [2026-09-05 21:37] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 1030min）；#645（huangyaoshi 的单，挂审 1030min）；#646（huangyaoshi 的单，挂审 1029min）（事件驱动：有待终审）
+- [2026-09-05 21:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 1045min）；#645（huangyaoshi 的单，挂审 1045min）；#646（huangyaoshi 的单，挂审 1044min）（事件驱动：有待终审）
+- [2026-09-05 22:02] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 1055min）；#645（huangyaoshi 的单，挂审 1055min）；#646（huangyaoshi 的单，挂审 1054min）（事件驱动：有待终审）
+- [2026-09-05 22:12] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 1065min）；#645（huangyaoshi 的单，挂审 1065min）；#646（huangyaoshi 的单，挂审 1064min）（事件驱动：有待终审）
+- [2026-09-05 22:27] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 1080min）；#645（huangyaoshi 的单，挂审 1080min）；#646（huangyaoshi 的单，挂审 1079min）（事件驱动：有待终审）
+- [2026-09-05 22:37] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 1090min）；#645（huangyaoshi 的单，挂审 1090min）；#646（huangyaoshi 的单，挂审 1089min）（事件驱动：有待终审）
+- [2026-09-05 22:47] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 1100min）；#645（huangyaoshi 的单，挂审 1100min）；#646（huangyaoshi 的单，挂审 1099min）（事件驱动：有待终审）
+- [2026-09-05 23:02] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 1115min）；#645（huangyaoshi 的单，挂审 1115min）；#646（huangyaoshi 的单，挂审 1114min）（事件驱动：有待终审）
+- [2026-09-05 23:12] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 1125min）；#645（huangyaoshi 的单，挂审 1125min）；#646（huangyaoshi 的单，挂审 1124min）（事件驱动：有待终审）
+- [2026-09-05 23:22] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 1135min）；#645（huangyaoshi 的单，挂审 1135min）；#646（huangyaoshi 的单，挂审 1134min）（事件驱动：有待终审）
+- [2026-09-05 23:32] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 1145min）；#645（huangyaoshi 的单，挂审 1145min）；#646（huangyaoshi 的单，挂审 1144min）（事件驱动：有待终审）
+- [2026-09-05 23:42] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 1155min）；#645（huangyaoshi 的单，挂审 1155min）；#646（huangyaoshi 的单，挂审 1154min）（事件驱动：有待终审）
+
+- [2026-09-05 23:44] 复盘完成+自检🟢A级（23:37 场 Truman 11章，追加 #644/#645 + 待终审挂起19h记录，E016 入库）- [2026-09-05 23:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 1165min）；#645（huangyaoshi 的单，挂审 1165min）；#646（huangyaoshi 的单，挂审 1164min）（事件驱动：有待终审）
+- [2026-09-06 00:07] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 1180min）；#645（huangyaoshi 的单，挂审 1180min）；#646（huangyaoshi 的单，挂审 1179min）（事件驱动：有待终审）
+- [2026-09-06 00:17] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 1190min）；#645（huangyaoshi 的单，挂审 1190min）；#646（huangyaoshi 的单，挂审 1189min）（事件驱动：有待终审）

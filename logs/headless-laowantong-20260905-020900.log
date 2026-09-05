@@ -1,0 +1,888 @@
+kimi version 0.39.1
+• Let me do the startup recovery reads.
+
+• 先按启动恢复读三个文件。
+
+• Startup done. Now read 90_control/AGENTS.md (required), and find task #641 task file, plus the diag file mentioned. Let me look at the queue and find task file #641, plus read 90_control/AGENTS.md.Now find the #641 task file. Check queue status and locate the task file. Let me check the queue and grep for #641.
+
+• 查队列状态并定位 #641 任务单。队列总任务数: 227
+queued: 4
+claimed: 0
+pending_review: 0
+
+
+• Now read #642 (修订单深度口径) and the diag file, both mandatory. Also check #643 mention ("#643 前的深诊断件" — the diag file is the deep diagnosis). Read the 642 task file and the diag file.Now I understand the task. Claim #641 first. The #642 is a separate queued task "修订单（传口径）" but the instruction says both口径 are in place and apply to #641's execution. The user instruction: "领取施工 #641...完成后 complete 641 提审+落 todos". Only claim and complete #641, not #642 (that's a separate queued task — but its交付 says "口径落 #641 执行报告，随 #641 一并终审"). I should only do #641 scope but incorporate the #642 口径 into the #641 execution report. Don't claim #642 — 只做本次指令范围内的事.
+
+  Claim #641 first.
+
+• 口径已读全。先领取 #641。任务 641 不在生产队列中
+
+
+• Task 641 not in production queue? The queue status said queued: 4. Let me check how the queue ids work — maybe claim uses the task_id string, not seq number. Check production-queue.md around line 270 and how queue_transition claim works.✅ task_20260905_laowantong-private-board-majingjing-case 已领取为 claimed-laowantong
+
+✅ dashboard.html 已生成 (227 个任务)
+   待领取: 3  |  审查中: 0  |  进行中: 1  |  已完成: 223
+Claimed. Now the mandatory pre-work per laowantong context:
+
+  0. 组件出牌（建模方案）— read framework-kdo-modeling-methodology.md + concept-kdo-component-library.md, pick 5-8 cards, write into task file「## 建模方案」section.
+  1. 查路由：kdo cards --domain 查同域卡; check existing private board cards (tool-private-board-facilitation-sop), human-insights domain digest.
+  2. WebSearch: 私董会 (private board / peer advisory) international standard? Also 德扑决策?
+  3. 全量素材消费 — read the 5.1万字逐字稿 fully (W1).
+  4. 自攻击预留.
+
+  Also check existing cards: tool-private-board-facilitation-sop, 私董会域 digest, human-insights 人域 digest.
+
+  This is a huge task — 5.1万字逐字稿 must be read fully. This is a good case for delegating the transcript reading to subagents? But素材消费率 ≥80% requires me to actually consume it. I can read it in chunks myself. 146KB ≈ maybe 1600 lines. The diag said 1622 lines. I can Read it in chunks (1000 lines + 622 lines). That's fine.
+
+  Let me set up todos and start. First parallel reads: the modeling methodology, component library, and check existing cards.===
+dk-AI知识库-隐性知识显性化60分原则.md
+dk-E010-duplicate-key-detection.md
+dk-P42-agent-fact-check-gap.md
+dk-aesthetic-redline-doc.md
+dk-agent-access-kdo-pitfalls.md
+dk-agent-evolution-pitfalls.md
+dk-agent-parallel-design-system.md
+dk-agent-promise-verification.md
+dk-agreeableness-double-edged.md
+dk-ai-as-last-step-not-first.md
+dk-ai-builder-illusion.md
+dk-ai-capability-illusion.md
+dk-ai-collaboration-degradation-spiral.md
+dk-ai-cross-domain-inference.md
+dk-ai-design-pitfalls.md
+dk-ai-does-not-question-your-mistake.md
+dk-ai-efficiency-and-management-radius.md
+dk-ai-entrepreneur-technical-blindspot.md
+dk-ai-judgment-human-responsibility.md
+dk-ai-judgment-programmer-paradox.md
+dk-ai-memory-four-layers.md
+dk-ai-self-evolution-prompt.md
+dk-ai-video-common-pitfalls.md
+dk-analogy-blinds-search.md
+dk-anti-human-ux-is-feature.md
+dk-ban-fei-mao-atomic-no-standard.md
+dk-ban-fei-mao-real-business-is-the-engine.md
+dk-ban-fei-mao-silky-answer-warning.md
+dk-ban-fei-mao-silky-answers-are-dangerous.md
+dk-ban-fei-mao-skill-rejection-value.md
+dk-best-datasource-is-floor.md
+dk-bfm-compression-path.md
+dk-brooks-cost-of-knowing.md
+dk-c1-cjk-regex-silent-fail.md
+dk-c10-batch-tool-no-dry-run.md
+dk-c11-hongqigong-skip-review.md
+dk-c2-dual-status-machine.md
+dk-c3-txt-ingest-skip.md
+dk-c4-selfcheck-superseded.md
+dk-c5-todo-false-positive.md
+===
+kdo cards --domain private-board returned nothing (the output before first === is empty). human-insights dir doesn't exist. Let me search for the private board SOP card and domain digest, and human-insights domain existence.<string>:57: UserWarning: WARNING: log_level parameter is deprecated, use setup_logger in utils.py instead
+INFO: [] Loaded graph from C:\Users\Administrator\Desktop\wiki\.kdo\graph_index\graph_chunk_entity_relation.graphml with 3620 nodes, 6694 edges
+INFO:nano-vectordb:Load (2416, 384) data
+INFO:nano-vectordb:Init {'embedding_dim': 384, 'metric': 'cosine', 'storage_file': 'C:\\Users\\Administrator\\Desktop\\wiki\\.kdo\\graph_index\\vdb_entities.json'} 2416 data
+INFO:nano-vectordb:Load (6694, 384) data
+INFO:nano-vectordb:Init {'embedding_dim': 384, 'metric': 'cosine', 'storage_file': 'C:\\Users\\Administrator\\Desktop\\wiki\\.kdo\\graph_index\\vdb_relationships.json'} 6694 data
+INFO:nano-vectordb:Load (5243, 384) data
+INFO:nano-vectordb:Init {'embedding_dim': 384, 'metric': 'cosine', 'storage_file': 'C:\\Users\\Administrator\\Desktop\\wiki\\.kdo\\graph_index\\vdb_chunks.json'} 5243 data
+INFO: [] Process 70396 KV load full_docs with 0 records
+INFO: [] Process 70396 KV load text_chunks with 5243 records
+INFO: [] Process 70396 KV load full_entities with 0 records
+INFO: [] Process 70396 KV load full_relations with 0 records
+INFO: [] Process 70396 KV load entity_chunks with 0 records
+INFO: [] Process 70396 KV load relation_chunks with 0 records
+INFO: [] Process 70396 KV load llm_response_cache with 0 records
+INFO: [] Process 70396 doc status load doc_status with 0 records
+INFO: Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+INFO: Query nodes: ˽���� (top_k:16, cosine:0.2)
+INFO: Local query: 16 entites, 59 relations
+INFO: Query edges: ˽���� (top_k:16, cosine:0.2)
+INFO: Global query: 14 entites, 16 relations
+INFO: Naive query: 1 chunks (chunk_top_k:5 cosine:0.2)
+INFO: Raw search results: 29 entities, 70 relations, 1 vector chunks
+INFO: After truncation: 29 entities, 70 relations
+INFO: Selecting 23 from 23 entity-related chunks by vector similarity
+INFO: Find no additional relations-related chunks from 70 relations
+INFO: Round-robin merged chunks: 24 -> 23 (deduplicated 1)
+INFO: Final context: 29 entities, 70 relations, 5 chunks
+INFO: Final chunks S+F/O: E4/1 E1/2 E1/3 E1/4 E4/5
+Top 8 result(s) (hybrid RRF (graph+BM25+MOC), trust≥medium, Core→Extended→Reference):
+
+[0.18] 30_wiki/frameworks/framework-一堂-基本功-九层金字塔.md
+    # 基本功九层金字塔：从底层信念到基本功化的完整地图
+
+> **一句话**：一堂把整套基本功方法论压进一张「武器库全景图」，并用逐层解读的方式读出九层结构——**底层信念**（人不是组织能力的最小单位，基本功才是）托着九层：理念 → 对象 → 目标 → 路径 → 各字目标 → 策略集合 → 演化路径 → 关键工具 → 内化。读透这张图，等于拿到基本功从认知到落地的完整地图；落地时从底层信念开始逐层往下走，缺一层上面全是空的。
+>
+> **口径说明**：整合笔记整理为「底层信念 + 九层」结构（L286-300）；课程口述逐层解读实际讲了十层——前九层与笔记一一对应，口述的「隐藏第十层」是把第八...
+
+[0.18] 30_wiki/frameworks/framework-一堂-苦练基本功-总纲.md
+    # 苦练基本功总纲：人不是组织能力的最小单位，基本功才是
+Good. Existing assets: tool-private-board-facilitation-sop (SOP卡), case-private-board-conversion-skincare (existing case card — dedup check target), bridge-how-to-know-person-to-business (relevant to人域), framework-how-to-know-a-person. human-insights domain: need to check if it's a domain directory. Let me check 30_wiki dirs for human-insights and find the人域 digest. Also check private board domain digest.
+
+  Let me look at the SOP card and existing private-board case card, and check human-insights digest location.60_feedback
+_archive
+agent-specs
+bridges
+cases
+concept-card-index-latest.md
+concepts
+contradictions.md
+cross-domain-patterns
+dark-knowledges
+decisions
+dk
+domains
+entities
+frameworks
+index.md
+index.md.bak.20260630
+knowledges
+links
+log.md
+methods
+operations
+personal-os
+principles
+projects
+prompt-methodology
+skills
+system
+systems
+tools
+workflows
+===
+30_wiki/dark-knowledges/dk-digest-registration-gap.md
+30_wiki/domains/human-insights-domain-digest.md
+===
+ai-basic-domain-digest.md
+ai-collaboration-domain-digest.md
+business-formula-domain-digest.md
+conversion-rate-domain-digest.md
+decision-science-domain-digest.md
+design-moc.md
+domain-demand-analysis-index.md
+five-step-domain-digest.md
+human-ai-collaboration-double-triangle.md
+human-insights-domain-digest.md
+innovation-domain-digest.md
+kdo-moc.md
+lean-startup-domain-digest.md
+management-domain-digest.md
+master-moc.md
+product-moc.md
+retrospective-moc.md
+sales-domain-digest.md
+strategy-domain-digest.md
+yitang-domain-digest.md
+yitang-research-domain-digest.md
+There's `30_wiki/domains/human-insights-domain-digest.md` — 人域 digest exists. Now find private board domain digest? Maybe under yitang or a dedicated one. Check for private-board digest. Also read the SOP card and existing case card for dedup/互链, and the human-insights digest.Good. Now the major work: read the 5.1万字 transcript (1622 lines). Read 00_inbox/新录音2-妙记逐字稿.md in chunks. Also read the 提炼件. Let me start reading. 146KB file — Read caps at 1000 lines/100KB per call. I'll read in 2-3 calls. Also read the 提炼件 fully (7.3KB).
+
+  Also check existing case card case-private-board-conversion-skincare for dedup (read briefly) and human-insights digest (for互链). And check existing dk cards maybe related (dk-sponsor-three-tier-pricing is private board related).
+
+  Start reading transcript in parallel chunks.
+
+• 现在 W1 逐字读 5.1 万字逐字稿，分块读全文。
+
+• Transcript fully read (1622 lines). Now read the 提炼件 (7.3KB, 二等) for 索引定位校验, plus read the human-insights digest and the existing case card (case-private-board-conversion-skincare) for dedup/互链. Also check existing related cards: dk-sponsor-three-tier-pricing (already linked in SOP), bridge-how-to-know-person-to-business.
+
+  Let me read 提炼件 + existing case card header + human-insights digest header in parallel.
+
+• 逐字稿全文读完（1622行）。接着读提炼件二等校验 + 存量卡查重/互链对象。
+
+• Good. Now I have the picture. Next steps per checklist:
+
+  - 建模方案（出牌）: write into task file「## 建模方案」section.
+  - WebSearch: check international terminology for私董会 (peer advisory groups, Vistage) — SOP card already covers this ("与 Vistage 的 issue-processing model 同源"). Also check "德州扑克决策训练" — probably no international standard. Per L6, WebSearch required for new method names. I'll do a quick search on peer advisory group facilitation best practices 2025 to check the framework alignment. But honestly the SOP card already did this对标. For this task, cards are case + dk cards. L6 triggered by "成全性思维"/"势能设计"/"角色阶梯" — these are案主口述 terms, internal命名, not international conflicts. I'll do one quick WebSearch to satisfy the checkpoint: "private board / peer advisory" already done in SOP. Maybe search "德扑 商业决策 培训" or check "deliberate practice poker decision training". Quick search is fine.
+
+  Then write the cards:
+  1. case 卡： case-private-board-majingjing-decision-camp (主卡，含真问题链节)
+  2. dk 卡候选（至少3条 from清单: 成全性思维 / 势能设计 / 角色阶梯）:
+     - dk-majingjing-chengquan-thinking (成全性思维「赢不在牌桌之上，而在牌桌之外」)
+     - dk-majingjing-momentum-design (势能设计：人不觉得自己聪明才会思考 / 输赢起伏)
+     - dk-majingjing-role-ladder (角色阶梯：学员→荷官→商业智囊)
+  3. 人域 dk 1-2 张 (human-insights 域): 识人族（听之以耳/心/气三层、望诊迁移律、象思维实例族）:
+     - dk-majingjing-listen-three-layers (听之以耳→听之以心→听之以气) — human-insights
+     - dk-majingjing-wangzhen-transfer (望诊迁移律：人身体哪里有问题=企业哪里有问题 + 象思维实例) — human-insights
+
+  That covers #642 items: 真问题链节 ✓, 3条dk ✓, SOP差异点互链 ✓, 老朱归属 ✓, 人域1-2张挂human-insights与人域digest互链 ✓.
+
+  Domain assignment: case卡 domain? Existing case-private-board-conversion-skincare uses conversion-rate. This case is about 目标人群/需求分析/私董会. Maybe domain: management (like SOP tool uses management) or a mix. The task says "私董会域 digest" — check if there's a private-board digest. Earlier grep found no私董会 in 30_wiki/domains/. Hmm, the SOP card is domain: management. The case skincare is conversion-rate. For this case, the真问题 is demand analysis / targeting. Let me check what domains exist: there's domain-demand-analysis-index.md. Given议题=目标人群宣传转化, demand analysis domain fits. I'll set case domain to management? Actually the card is a私董会 case — mirror existing convention: case-private-board-conversion-skincare uses conversion-rate. This one: 需求分析 (demand-analysis). Check 30_wiki/domains/domain-demand-analysis-index.md exists — yes. I'll use domain: demand-analysis for the case card, and cross-link to management SOP.
+
+  Wait — task says "互链：私董会域 digest + sales/strategy 域桥接". There's no private-board digest in domains/. Let me check if there's one elsewhere. Earlier grep of "私董会" in 30_wiki/domains returned nothing. Maybe私董会域 digest is in yitang or management digest. Check management-domain-digest for私董会 mentions. Quick grep.
+
+  dk cards: type dk needs the six DK sections per pre-submit: ## 原始表述 / ## 使用场景 / ## 操作方法 / ## 适用边界 / ## 为什么值钱 / ## 与其他知识的关联.
+
+  Let me check an existing dk card for frontmatter format (e.g. dk-sponsor-three-tier-pricing.md). Also check case card template requirements (key numbers + evidence table).
+
+  Also need to do WebSearch. And check naming — check kdo cards for existing ids to avoid collision: dk ids with majingjing prefix don't exist.
+
+  Also L7: check query for existing similar cards: "听之以气" "望诊" — grep 30_wiki.
+
+  Let me do these checks in parallel: WebSearch, grep for 听之以气/望诊/成全 in 30_wiki, read a dk example card, check management digest for私董会.
+
+• 素材全部消费完毕。现在查路由+对标+查重。
+
+• The grep for 私董会 in digests returned nothing (exit 1 — no matches), and no existing majingjing cards. WebSearch done: Vistage issue processing confirmed (statement → questions → ...). The SOP card already对标 Vistage; I'll reference that in cards.
+
+  Now write the modeling plan into the task file (## 建模方案 section), then write cards.
+
+  Card plan:
+  1. `case-private-board-majingjing-decision-camp` — 主case卡，domain: demand-analysis? Let me decide. The card covers: 案主背景、议题、真问题链（5条）、解剖过程（三轮）、方案与追问、行动落点。Domain: I'd pick `management` to live with the SOP? But the existing skincare case used conversion-rate (the议题 domain). Here议题 = 目标人群界定与宣传转化 → closest domain digest: domain-demand-analysis-index.md. Task says 互链： 私董会域 digest + sales/strategy 域桥接. No private-board digest exists. I'll互链 management-domain-digest? Hmm. Let me quickly check what domains/digests exist: ai-basic, ai-collaboration, business-formula, conversion-rate, decision-science, design-moc, domain-demand-analysis-index, five-step, human-ai-collaboration, human-insights, innovation, kdo-moc, lean-startup, management, master-moc, product-moc, retrospective-moc, sales, strategy, yitang, yitang-research.
+
+  Given the case is a 私董会实录 and SOP is domain: management, I'll set case domain: management (private-board material) and cross-link domain-demand-analysis-index + strategy-domain-digest + sales-domain-digest. Actually "私董会域 digest" in the task — doesn't exist; I'll link the SOP tool as the de-facto domain anchor and note in执行报告 that私董会域 digest 不存在（用 SOP 卡作锚点）. Also add related to case-private-board-conversion-skincare (兄弟case).
+
+  2. dk cards (商业域， from 暗知识清单 items 1/2/4):
+     - `dk-majingjing-chengquan-thinking` 成全性思维「赢不在牌桌之上，而在牌桌之外」— domain: management? or strategy? It's a negotiating/cooperation philosophy → strategy maybe. I'll use domain: strategy? Hmm. Actually card content is about合作/阴阳/识人. Given the bridge-how-to-know-person-to-business exists, maybe link there. Domain: strategy is fine for 商业博弈/合作选择.
+     - `dk-majingjing-momentum-design` 势能设计（输赢起伏，「人不觉得自己聪明才会思考」）— teaching design → domain: management (培训设计).
+     - `dk-majingjing-role-ladder` 角色阶梯（学员→荷官→商业智囊）— trainer pipeline/交付复制 → domain: management.
+
+  3. 人域 dk 1-2 张 (domain: human-insights):
+     - `dk-listen-ear-heart-qi` 听之以耳→心→气三层（中国人决策模式三层倾听）
+     - `dk-wangzhen-transfer-law` 望诊迁移律+象思维实例族（身体问题↔企业问题；横条纹=追求公平；上边框眼镜=喜欢与比自己强的人聊天）
+
+  That's 6 cards total (1 case + 5 dk). Deliverable says "case 1-2张 + (可选)method/dk" and #642 requires ≥3 dk + 1-2 人域 dk. 6 cards is reasonable.
+
+  Each dk card needs six required sections: 原始表述/使用场景/操作方法/适用边界/为什么值钱/与其他知识的关联. Plus Critique for quality. Case card ≥100 lines body, needs key numbers + evidence table + L1-L5 deep dig sections + 真问题链 section + 失败模式 with signal+fix.
+
+  Source refs: 00_inbox/新录音2-妙记逐字稿.md with line refs.
+
+  Privacy: 任务红线 says 案主隐私敏感词保持原样不扩写；私董会内容按内部素材口径标注. Existing skincare card has the 脱敏 + 保密承诺 banner. I should add a similar banner. Names: 马晶晶 is案主 (keep), 老朱 attribution per #642 (阿海=老朱, 引用写「老朱」). Other幕僚: 陈龙/罗毅/荣斌/柳青/Vivian/徐丽/王菲 — keep姓氏 as in existing precedent (保留姓氏去全名 — but these are first names in transcript... the transcript already uses these names; 提炼件 uses them too). I'll keep as-is but add the 保密 banner.
+
+  Now write the modeling plan section into the task file first. Then write cards. Let me be efficient.
+
+  建模方案 (5-8 cards from KDO component library): I haven't read concept-kdo-component-library.md fully. The出牌 format: [素材牌] → [边界牌] → [结构牌] → [过程牌] → [质量牌]. I know from laowantong context the牌 names partially (#1-#4 素材四张牌, #6 先查已有卡, #7 先对标准则, #10 先骨架再填肉, #14 先跑脚本确认, #16 先lint再pre-submit). Let me quickly grep the component library for card titles to cite牌号 accurately.
+
+• 查重零撞车，对标已确认（Vistage issue processing）。先取出牌用的组件库牌号。53:## 核心主张
+59:## 使用方法
+69:## 一、素材不确定（4 张）
+73:### 牌 1：先 OCR 再读文本
+80:### 牌 2：先全文扫描再选策略
+87:### 牌 3：先口述稿再笔记
+94:### 牌 4：先扫信号词再读内容
+103:## 二、边界不确定（3 张）
+107:### 牌 5：先判归属再消化
+114:### 牌 6：先查已有卡再新建
+121:### 牌 7：先对标准则再建模
+130:## 三、结构不确定（3 张）
+134:### 牌 8：先定总纲再子卡
+141:### 牌 9：先 framework 再 concept
+148:### 牌 10：先骨架再填肉
+157:## 四、过程不确定（4 张）
+161:### 牌 11：先 dry-run 再 apply
+168:### 牌 12：先抽样 10% 再放量
+175:### 牌 13：先诊断再动手
+182:### 牌 14：先跑脚本确认再下结论
+191:## 五、质量不确定（3 张）
+195:### 牌 15：先自攻击再提交
+202:### 牌 16：先 lint 再 pre-submit
+209:### 牌 17：先逐卡清单再批量
+218:## 五维度快速索引
+228:## When NOT to Use
+236:## 与 Truman 18 组件对照
+
+
+• Update todos: 2-5 done, move to writing cards. First write 建模方案 into task file, then write 6 cards.
+
+  建模方案 for #641 (write into task file):
+  - 素材牌：牌3 先口述稿再笔记（逐字稿 W1 1622行逐字读，提炼件仅索引）✓
+  - 边界牌：牌5 先判归属再消化（私董会保密素材→内部口径标注；人域 vs 商业域归属：识人族dk挂human-insights）
+  - 结构牌：牌6 先查已有卡再新建（SOP卡/护肤case/人域digest已查，零撞车）；牌10 先骨架再填肉（case卡骨架=背景/议题/真问题链/解剖/落点）
+  - 过程牌：牌7 先对标准则再建模（Vistage issue processing 对标已查）
+  - 质量牌：牌15 先自攻击再提交；牌16 先 lint 再 pre-submit
+
+  Write to task file. Then write cards.Now write the case card. Target: ≥100 lines body, with key numbers, evidence table, L1-L5 deep dig, 真问题链 section, 失败模式 with signal+fix, Critique (≥2 external critics + when-not), Synthesis, Action Triggers, 内部素材口径 banner, attribution 老朱 for 阿海.
+
+  Key facts from transcript with line numbers:
+  - L46-55: 马晶晶背景（2015 一心理年度突出贡献讲师、五行咨询、家传中医望诊、2023 湖畔创研中心谈判课、2026.3 一堂上海 5场公开课+4场工作坊）
+  - L85: 5场讲座4场工作坊 ~70人；德扑一周末上万次决策
+  - L118-127: 湖畔 60人（选修课要抢，18人/场）+ 一堂域70人（北上深杭宁，上海最好）；人群画像 30岁+管理团队/投资人/HRD/转型技术人
+  - L133-142: 门槛三要素：上升意愿/非纯学知识/愿竞争+高学识或人性敏感；Michael 范德堡统计博士 18页总结
+  - L148-166: 价格阶梯 99讲座/3000工作坊/3万年会员（6次工作坊+月度指导）；现场体验+超值交付
+  - L163: 势能设计——复旦大二学生第一天赢第二天输（故意设计）；「人不觉得自己聪明就不会思考」
+  - L175-199: 竞品≤5家（豆包说，未核实）；10万/天老师；湖畔20-25万/天 toB；定价弹性
+  - L223-229: 听之以耳/心/气三层；小奖池10-50元无赌博陷阱；牌桌=投标环境同构
+  - L250-253: 复购 70人中年卡6位、3次以上复购10+
+  - L289-292: 年卡会员画像：30+、男女各半、有管理权限或独立、独当一面；样本少不敢说规律
+  - L298: 没留下的人：时间问题/觉得已得到/不明白「赢在牌桌之外」
+  - L301-313: 老朱问打德扑的是什么人；马云等大老板打、美团副总裁望京输赢上限10万；销售/猎头/律师/投资人群
+  - L310-313: 收入线 50万+；不同人群不同价（美国100美元→100万美元买入同构）
+  - L325: 获客成本「没办法算」
+  - L346-355: 破冰望诊直断（讲师风险自担）；动态牌桌解析；突破=结果打破自我认知；扬长避短
+  - L361-379: Michael 能带 40-50% 功能；目标是课程脱离马老师但不标准化（标准化没风格）
+  - L385-403: 唯一指标=面相（前后拍照对比）；玄学自承
+  - L448-457: Vivian 证言：3期60小时≈150元/小时 vs 运动康复1000+/小时；心力循环+观之以气；来源=一堂域会员群
+  - L484-499: 知识付费→体验→训练三阶段；不追求第一追求唯一；验证指标=面相/能量场；火运2024-2043主心力
+  - L505-517: 初期目标100-200年卡；不追求规模（强链接）；68万财商老师翻车警惕——「不要让贪念和自负吞噬口碑」
+  - L544-568: 陈龙逼出一句话定位「解决组织关键人的心力修复问题，游戏化过程中完成」
+  - L613-682: 转化周期1-2个月（月一场）；到课率80%模糊知道；线下仅1人交钱没来
+  - L751: 老朱：需求刚性/频次/普遍性三性没拆；一堂学员可能不是目标客户；建议结构化访谈年卡学员
+  - L772-781: 面相变化第一天第二场（5秒决策局）就开始；第一天晚上嘉宾新环境+耐力局到10点
+  - L805-841: 角色阶梯：学员→荷官（公共信息平台=央行发政策信息）→商业智囊（观察+收集信息）
+  - L862-880: 象思维实例：横条纹=追求公平；上边框眼镜=喜欢和比自己强的人聊天
+  - L886-913: 不撞南墙不回头=撞得不够多不够疼；美国计算机学生连输两天后「以后你的课我都来」；Every single "I'm not" is creation
+  - L946-958: toC 100-200人则toB不成问题；年卡三年周期
+  - L976: 成全性思维：「赢不在牌桌之上，而在牌桌之外」；中国人打牌为聊事/找合作对象
+  - L1021-1027: 获客渠道倾向线下（听半天不如来半天）；邀请制一天工作坊计划
+  - L1033-1081: 店中店=长江中欧等顶级商学院，在推进
+  - L1090-1114: 老朱：需求三性分层分析；交付全靠马老师本人；马：火运2024-2043心力=社会主要矛盾；「我们不是在做创业」
+  - L1165-1180: 柳青：商会渠道建议
+  - L1192-1216: 陈龙收敛四点：重问卷重归纳人群/别锚定想象人群（最容易成交的可能没考虑到）；宣传聚焦（心力太宽泛）；动力阻力具象化；产品内核经验主义质疑+老事套新壳
+  - L1219-1237: 马：四层内核（德州壳→识人用人决策模式→中国人决策模式+心力修复→五行易经毛选）；德州=简洁系统环境+快速反馈
+  - L1276: 非目标人群处置=化解业力（擅长处赚钱，不擅长处义诊）
+  - L1282: 北京缺主理人
+  - L1291-1327: 名称「德扑商业决策营」拍脑袋而来；原名「沟通决策与共赢」；改名无数据支撑
+  - L1375: 罗毅（说话人11）收敛真问题：客群不是问题，交付能不能脱离马老师才是；店中店是放大器，交付复制不了谈再多没用
+  - L1381: 老朱收敛：客户分层和价值体验问题；「打着德扑名义，我对打牌没兴趣」
+  - L1387: 柳青：包装成极限环境高管决策训练
+  - L1393: 荣斌：最小闭环已跑通，跟一堂多合作
+  - L1414-1432: 陈龙收敛：C端需求=确定性；B端=价值点定位；公域=获客聚焦；私域=案例+用户证言；目标社群直接去杀
+  - L1447: 徐丽：德扑标签可能限制进入（她当初犹豫过）
+  - L1456: Vivian：模型包容性强；年度会员画像离散；后端强前端弱
+  - L1459-1462: 马复盘：需求端功课太少；德扑标签问题；考虑茶道/颂钵入口；做需求调研夯实基础
+  - L1555-1573: 王菲：事情本身没问题+意义感；599/899定价问题；商业模式再设计；从A跑到C堆价值感
+  - 暗知识清单#6 定价弹性；#7 火运；#8 化解业力；#9 一堂会员群转化实测；#10 三阶段论+追求唯一；#11 现场教学法（破冰即望诊直断+5秒决策局）；#12 流程实证差异
+
+  SOP 差异点（对账 tool-private-board-facilitation-sop）：
+  - SOP Step1 热场=签到破冰打几分+保密承诺+角色确认（10min）——本场实证：暖场状态分享+心情分 ✓ 符合（L7-43）
+  - SOP Step3 幕僚提问两轮（背景挖掘→聚焦真问题）——本场实际三轮：第一轮背景挖掘（L103起）、第二轮快问快答围绕目标问题（L448起）、第三轮共创加法（L985起）+第四轮收敛（L1345起）。SOP 的 Step4 共创和 Step5 收敛本场都有，但轮次命名/计时纪律不同
+  - 笔记官：本场有「笔记官同步」提及（L1006），SOP 是 AI笔记官——本场笔记官是人（说话人1 主持兼任/另有笔记官）
+  - 计时纪律：本场多次「再给大家一分钟」、最终超时3小时（L1576「连续3个小时，今天超时了」）——SOP 90分钟设计 vs 本场 ~180分钟，时长翻倍（线上场+案主团复盘插入）
+  - 案主团复盘制：本场有案主团（马+Vivian+徐丽）在收敛后单独发言环节（L1435），SOP Step6 只有案主总结——本场案主团（含用户Vivian+案主团成员徐丽）三人复盘是增量
+  - 30秒收获+合照收尾（L1465/L1576）✓ 对应 SOP Step7 复盘
+
+  Case card structure:
+  - banner 内部素材口径
+  - 定位行
+  - 案主背景与素材
+  - 表面议题
+  - 真问题链（五条，#642 口径）
+  - 私董会解剖过程（三轮+收敛+案主团复盘）
+  - 方案与追问（幕僚建议汇总）
+  - 关键数字与证据表
+  - 行动落点
+  - L1-L5 深挖（业务公式→假设审计→政策/边界→失败模式→隐性成本）
+  - SOP 实证差异点
+  - Critique（内部局限+外部攻击者≥2）
+  - Synthesis
+  - Action Triggers
+  - 失败模式（症状+修复）
+  - When NOT / 适用边界
+
+  Domain for case: management? Or demand-analysis? The SOP卡 is management. The case skincare is conversion-rate. For this one, 议题=目标人群+宣传转化 → could be demand-analysis. Let me check domain-demand-analysis-index exists and its id. It's 30_wiki/domains/domain-demand-analysis-index.md. id likely "domain-demand-analysis-index". I'll reference it in related and set domain: demand-analysis? Risky — domain values should match existing. Let me check what domain value existing cards use for that index. Quick grep.
+
+  Actually simpler: keep domain: management (private-board family, same as SOP卡 and dk-sponsor-three-tier-pricing). Cross-link demand analysis digest in related. Hmm, but the case's primary content is about需求分析/人群定位... The 互链 requirement says "私董会域 digest + sales/strategy 域桥接". 私董会域 digest 不存在 — anchor on management-domain-digest (where SOP lives) + strategy-domain-digest + sales-domain-digest.
+
+  Let me check what domain value case-private-board-conversion-skincare uses: conversion-rate. And SOP: management. I'll use domain: management for the case card (私董会实录族) — wait actually, better to check whether management-domain-digest lists私董会 cards. Earlier grep "私董会" in management-domain-digest returned nothing. OK whatever — decision: case domain = management（与 SOP 同域，私董会族）；related 里挂 strategy/sales/demand-analysis digest 做桥接。
+
+  Now write the case card. It'll be long (~200+ lines). Then 5 dk cards (~80-100 lines each).
+
+  Line references: transcript line numbers from my reads.
+
+  Let me write case card now.
+
+• 建模方案已落任务单。现在写主 case 卡。
+
+• Now the 3 商业域 dk cards. Write them in parallel (3 Write calls in one block is allowed — different files).
+
+• 主 case 卡完成。现在写 3 张商业域 dk 卡。
+
+• Now the 2 人域 dk cards (human-insights): dk-listen-ear-heart-qi + dk-wangzhen-transfer-law.
+
+• 3 张商业域 dk 完成。写 2 张人域（human-insights）dk 卡。
+
+• Six cards written. Now:
+  1. 自攻击 (self-attack) — read the skill? The discipline says call kdo-self-attack four-path attack. Doing a full four-agent attack is heavy; the skill description: 四路Agent攻击→人只审报告. I can run it via AgentSwarm (4 attack agents) or do a lighter self-review. Context says "每批卡提交前，跑一次自攻击。调用 kdo-self-attack Skill（40_outputs/capabilities/skills/shared/kdo-self-attack/SKILL.md）". Let me read the SKILL.md to see the expected process.
+
+  2. Then pre-submit each file with kdo pre-submit -f.
+
+  Let me read the self-attack SKILL.md first.
+
+• 六张卡写完。读自攻击 Skill，执行批前四路攻击。
+
+• I can delegate the four-path attack to subagents. Six cards × 4 attackers = a lot. A reasonable approach: launch a swarm of attack agents, each attacking one or two cards across all four attack dimensions. Or 4 attackers × all 6 cards. The skill's architecture is 4 attackers per card, but pragmatically: one agent per card doing all four attack paths, 6 agents in parallel. That's a reasonable adaptation — but skill says 4-path. I'll launch 6 subagents (one per card, each performing A/B/C/D four attacks) — or to be more faithful, maybe 2 swarms. Given budget pragmatics, 6 agents each doing four-path attack on one card is efficient and satisfies the "四路攻击" substance.
+
+  Actually to keep it manageable, launch a swarm with 6 items (card paths), each agent does the four-path attack and writes report to 60_feedback/adversarial/atk_<card-id>_20260905.md.
+
+  Wait — attackers writing reports to 60_feedback/adversarial/ is required by the skill (hard limits). Subagents are read-only? coder type can write. Use explore? No — they need to write the report file. Use coder (default). But careful about the "写审分离" — self-attack by fresh instances is fine (they're not reviewing for approval, just attacking).
+
+  Let me launch the swarm with 6 items.Six attack reports. Total: 🔴 0, 🟡 18, 🟢 30. Now fix the substantive 🟡 issues before submission. Let me triage:
+
+  **Case card (case-private-board-majingjing-decision-camp):**
+  1. 🟡 L550 attribution: attacker says L547 questioner was 荣斌 not 陈龙? Wait — let me check. L520 说话人1 says "我看见陈龙老师上线了". L522 说话人9 "天空一声巨响". But then L529-541 show 说话人9 and 说话人4 mixed... At L544 说话人9 asks the one-sentence question ("能不能一句话描述一下"), L547 说话人4 "能不能一句话给我概述一下?" Hmm, the transcript interleaves 说话人9 (陈龙) and 说话人4 (荣斌) confusingly. The提炼件 says 陈龙逼出一句话定位. The attacker claims 说话人4=荣斌铁证 via L1393/L1402. Hmm but at L531 说话人4 "你说", L535 说话人9, L541 说话人4 "抛得更加深一点啊...可能我就是有攻击性的人" — wait, 陈龙 is the one described as 犀利/攻击性 ("可能我就比较犀利一点" L529 说话人9). L733 说话人6 "我觉得这个攻击性还可以的" after 陈龙's questioning. So the attacker's claim that L547 is 荣斌 seems wrong — 说话人4 might actually be mislabeled segments of 陈龙 in that section. Actually earlier, L171-238 说话人4 = 荣斌 (established: L169 主持 "请下一位荣斌老师" then 说话人4 speaks). But in the second round, L586-739 is 陈龙's segment (L520 陈龙上线, L529 说话人9 犀利, then mixed 说话人4/9 labels — the diarization is noisy). 荣斌 speaks again in round 2 at L942 ("我问马老师几个简单的问题吧...toB还是toC"). The "一句话描述" question at L544-547 is within 陈龙's segment (it ends at L739 "感谢感谢手下留情" + L741 主持 "两位都是实事求是"). So the 一句话定位 was indeed 陈龙 (with noisy speaker labels). The attacker's "铁证" L1393/L1402 refers to 荣斌 in round 3, a different segment. So my original attribution to 陈龙 stands — 提炼件 also says 陈龙. I'll keep 陈龙 but can soften to note the attribution basis. Actually the diag file also says "陈龙（最犀利）的四大挑战 1. 一句话说不清——逼出定位". Keep as is; maybe add「（说话人标签在该段有串扰，按 09-05 深诊断与提炼件口径归属陈龙）」. Simple: keep.
+
+  2. 🟡 Title vs Synthesis tension: title says真问题是交付复制; synthesis says first step is structured interviews. Actually both: 真问题=交付复制 (per罗毅, per diag #1), and synthesis says "下一步不是放大，是把前端补到及格线——而补前端的第一步是结构化访谈". The tension: is the next step 交付复制 or 访谈? The diag's真问题链 #1 is 交付脱人. My synthesis says "下一步不是放大" — consistent, but then emphasizes 访谈 which is a前端 step. I can reconcile: 真问题在交付端；当下的第一步行动是低成本的结构化访谈（前端补课），但战略优先级是交付脱人。Let me edit synthesis slightly to dissolve the apparent contradiction.
+
+  3. 🟢 徐丽 vs Vivian attribution for "德扑标签犹豫" — transcript L1447: 说话人12 speaks after 马 says "Vivian 和徐丽老师先说吧" (L1444). 说话人12 says "首先非常感谢我们组的各位老师...也非常感谢马老师全程回答" — this sounds like 徐丽 (案主团成员, not the案主). And later "好的，那 Vivian 你如果在的话...好的，徐老师。方便的话开一下摄像头" — hmm confusing. Then L1449 说话人13 = Vivian ("我只是旁听一下...我参加了三期"). So 说话人12=徐丽, 说话人13=Vivian. The犹豫自证 is in L1447 (说话人12=徐丽). So my card is right; the diag file erred (said Vivian). My card is correct per transcript. I could add a note correcting the diag. Add a small note in the card? The diag is王语嫣's doc; I can note discrepancy in my执行报告 instead. Also maybe append note in card's证据表备注. I'll mention in执行报告.
+
+  **dk-chengquan-thinking:**
+  1. 🟡 quote sanitized: original includes「我先拍脑袋先讲」and「俗称玄学里最核心的思维」. Fix: restore/annotate in 原始表述 with ellipsis marks showing删节, and add the self-disclaimer. 
+  2. 🟡 操作方法2「用输换信息」concept drift with momentum-design. Fix: adjust step 2 wording to stay on 成全 (给对方赢的空间以观其行), moving the "design your own losses" aspect out or marking it as referencing momentum card. Simple: rewrite操作方法2 to 「在安全 stakes 里不回避输——局后复盘看自己在波动下的反应（与 [[dk-majingjing-momentum-design]] 的势能设计衔接，本条聚焦的是成全对方）」. Simpler: replace step2 with a note.
+  3. 🟡 elephant: 牌桌主动输 looks like 利益输送/围猎. Add a boundary row in 适用边界: 不适用——与商业贿赂外观混同的场景（对公职人员/采购决策者的牌局饭局，「输」即是利益输送）。
+  4. confidence 0.8 → 0.75.
+
+  **dk-momentum-design:**
+  1. 🟡 timeline error: 5秒决策/嘉宾/耐力局 all day 1. Fix操作方法第2步 wording: 「加新变量制造落差：第一天下午 5 秒限时决策（L772）、当晚陌生高手嘉宾局+超长耐力局到 22 点（L778-L781）；复旦学生的'第一天赢第二天输'是整场编排的结果（L163）」.
+  2. 🟡拼接删掉质疑: add to原始表述 or Critique the L895 质疑「有的人未必吧」and that马的回应是断言式重复——acknowledge in Critique内部局限.
+  3. 🟡 L253 复购数字 add 待核实 note; and the apparent口径矛盾 with case卡 — in case卡 L253 is evidence of 数据模糊? No — case卡 uses it as数据点 in证据表 with 待核实标注; the attacker says case卡定性为「数据面全模糊」的反面教材. Actually in my case卡, 真问题链#3 mentions 复购 70 人出 10 个 under 数据模糊 context. The momentum card uses it positively as 复购强. Fix: in momentum card, cite with 待核实 and softer wording "复购率对体验课而言不低（70 人中 10+ 复购 3 次以上，案主自述待核实）".
+
+  **dk-role-ladder:**
+  1. 🟡 商业间谍→商业智囊 naming: fix原始表述 to show the rename: quote L811「商业间谍」→ L829 改口「商业智囊」. Adjust quote with both lines.
+  2. 🟡 invented "临场解析" third function: remove or mark as重构者演绎. Fix操作方法1: 「讲师的功能=节奏控制（荷官）+信息判断（智囊）+现场望诊直断/动态解析（未拆，仍归案主——重构者注：逐字稿未明确此拆分，三级阶梯外剩余功能为本卡推断）」and Critique#1 cites it as推断 not事实.
+  3. 🟡 40-50% 口述标注 + n=1 大象: add 待核实 + Critique point about零完整样本.
+
+  **dk-listen-ear-heart-qi:**
+  1. 🟡 contradiction with wangzhen card (拍板权 vs 假设): reconcile — edit操作方法4: 气层做「拍板的最后输入」但在可核查场景仍以耳层事实为准 (match its own boundary). And in wangzhen card add互链 note of tension resolution: 破冰直断是「假设前置的破冰策略」与「层级不可跳」的张力 — actually add a line in both cards' 与其他知识的关联 noting the tension.
+  2. 🟡 add 自述/待核实 markings; confidence 0.8→0.75 for consistency.
+  3. 🟢 add 气场可表演 critique point (cheap, add it).
+
+  **dk-wangzhen-transfer-law:**
+  1. 🟡 add 冷读术/巴纳姆效应 as对立假说 in Critique外部挑战.
+  2. 🟡 tension with listen card — add note.
+  3. 🟡 因果方向: add note that 反向因果（经营压力→身体）同样成立, "律"字过强 → keep title but add in Critique; plus note 销售语境 in source_context or critique.
+
+  That's a decent fix set. Do them with Edits. Then run pre-submit on all six.
+
+  Let me do the edits efficiently. Case card first.
+
+• 四路攻击结果：🔴0 / 🟡18 / 🟢30。按修复闭环先修实质问题，再跑 pre-submit。先修主 case 卡。
+
+• Now fix the case card synthesis tension. Edit the Synthesis section (十一). Read current text — I wrote it: "本案是「后端 9 分、前端 3 分」项目的标准样本…下一步不是放大，是把前端补到及格线——而补前端的第一步不是获客，是老朱说的结构化访谈". The tension with title "真问题是交付复制". Fix by reconciling: 真问题=交付复制（结构性），但行动顺序=先低成本访谈画像+计量，交付复制立为战略优先级. Also add 徐丽/Vivian 归属勘误 note in证据表备注? Add to Critique内部局限? Simplest: add a note in 证据表 or in 真问题链 #4 noting diag said Vivian but transcript L1447 说话人12=徐丽. Add a footnote line under 真问题链.Case card fixed. Now fix dk-majingjing-chengquan-thinking:
+  1. Restore删节 in 原始表述 — the original L976 includes「我先拍脑袋先讲」and「俗称玄学里边最核心的思维」. Rewrite 原始表述 with ellipses marked.
+  2. Fix操作方法2 concept drift.
+  3. Add compliance boundary row (利益输送外观).
+  4. confidence 0.8 → 0.75.
+
+• 主卡修好。修成全性思维 dk 卡。
+
+• Now fix dk-majingjing-momentum-design: timeline fix, L895 质疑 acknowledgment, L253 待核实.
+
+• 修势能设计 dk 卡（时间线误置+拼接引用+复购口径）。
+
+• Now fix dk-majingjing-role-ladder: 商业间谍→智囊 quote, invented "临场解析", 40-50% n=1.
+
+• 修角色阶梯 dk 卡。
+
+• Now fix dk-listen-ear-heart-qi: 
+  1. reconcile 气层拍板 vs 边界矛盾 (操作方法4 vs 适用边界 "感觉不对不能推翻硬数据") and wangzhen card tension.
+  2. confidence 0.8→0.75.
+  3. add 气场可表演 critique.
+
+• 修听三层 dk 卡（裁决权矛盾+confidence+气场表演大象）。
+
+• 最后修望诊迁移律 dk 卡（冷读术对立假说+因果方向+姊妹卡张力标注）。
+
+• Also add tension note in dk-listen-ear-heart-qi's 关联 section? I added the裁决权口径 in操作方法 already referencing alignment. And wangzhen's Critique #4 references the tension both ways. Good enough.
+
+  Now run pre-submit on all six files. Also L12: git status before complete. First pre-submit.
+
+• 修复完毕。逐卡跑 pre-submit 门禁。=== 30_wiki/cases/case-private-board-majingjing-decision-camp.md ===
+       Quality pre-score: 65/100 | pos:N/A | tacit:0 (no section) | src:15 (2) | decomp:25 (3)
+  [BODY_SRC_UNKNOWN]: 0 issues
+  [VLM_TWO_SECTION]: 0 issues
+  [CONCEPT_CROSSCHECK]: 1 warnings
+    🟡 30_wiki/cases/case-private-board-majingjing-decision-camp.md
+       本卡涉及已有概念：Christensen（权威定义见 [[concept-christensen-jtbd-link]]）、conversion（权威定义见 [[framework-一堂-动力三曲线]]）、JTBD（权威定义见 [[concept-christensen-jtbd-link]]）、业务公式（权威定义见 [[yt-business-formula-l6-essence-formulas]]）、产品内核（权威定义见 [[concept-一堂-product-kernel]]）——请人工核对与权威定义的一致性（#542 提示制不拦截；小昭事故根因 3 降档版）
+  [QINGDANTI_STRUCTURE]: 0 issues
+  [QUOTE_VERBATIM]: 1 warnings
+    🟡 30_wiki/cases/case-private-board-majingjing-decision-camp.md
+       9 处声称逐字的引文在 source_refs 源文件中未逐字命中：「客群不是问题，交付能不能脱离马老师才是——店中店是放大器，交…」（L361）、「当你锚定目标用户是千万级/亿级老板，实际执行中最容易成交的反…」（L751）、「打着德扑的名义，我对打牌一点兴趣也没有——客户分层和价值提炼…」（L1447）等——伪逐字引文模式（#616/#614 实证：改写/拼贴不得包装成原话+行号），请核对源文件改为逐字引用或去掉引号
+  [SOURCE_RANGE]: 0 issues
+  [INDEX]: 1 errors
+    🔴 30_wiki/cases/case-private-board-majingjing-decision-camp.md
+       卡片比检索索引新（kdo query/kdo_search 检索不到）——先跑 `kdo index --incremental`（秒级增量）再提审；全量重建用 `kdo index`（分钟级）
+
+  🔴 Result: FAIL — 1 个错误要修（#220 P1-5 讲香）
+     路径感：从上往下修——先修 YAML 结构错误（阻断后续检查），再修内容错误
+     修完重跑本命令，看到 ✅ PASS 再提交，省欧阳锋一轮往返
+====================================================================
+
+=== 30_wiki/dark-knowledges/dk-majingjing-chengquan-thinking.md ===
+  [QUALITY_SCORE]: 1 info
+    📊 30_wiki/dark-knowledges/dk-majingjing-chengquan-thinking.md
+       Quality pre-score: 50/100 | pos:N/A | tacit:0 (no section) | src:15 (1) | decomp:10 (1)
+  [BODY_SRC_UNKNOWN]: 0 issues
+  [VLM_TWO_SECTION]: 0 issues
+  [CONCEPT_CROSSCHECK]: 1 warnings
+    🟡 30_wiki/dark-knowledges/dk-majingjing-chengquan-thinking.md
+       本卡涉及已有概念：作方法（权威定义见 [[framework-yitang-case-crafting-four-step]]）、方法论（权威定义见 [[concept-ji-hao-ai-collaboration-methodology]]）、是什么（权威定义见 [[framework-TCPR底层网络协议]]）、暗知识（权威定义见 [[yt-business-analysis-cognitive-biases]]）、逐字稿（权威定义见 [[yt-personal-verbatim-script]]）——请人工核对与权威定义的一致性（#542 提示制不拦截；小昭事故根因 3 降档版）
+  [QINGDANTI_STRUCTURE]: 0 issues
+  [QUOTE_VERBATIM]: 0 issues
+  [SOURCE_RANGE]: 0 issues
+  [INDEX]: 1 errors
+    🔴 30_wiki/dark-knowledges/dk-majingjing-chengquan-thinking.md
+       卡片比检索索引新（kdo query/kdo_search 检索不到）——先跑 `kdo index --incremental`（秒级增量）再提审；全量重建用 `kdo index`（分钟级）
+
+  🔴 Result: FAIL — 1 个错误要修（#220 P1-5 讲香）
+     路径感：从上往下修——先修 YAML 结构错误（阻断后续检查），再修内容错误
+     修完重跑本命令，看到 ✅ PASS 再提交，省欧阳锋一轮往返
+====================================================================
+
+=== 30_wiki/dark-knowledges/dk-majingjing-momentum-design.md ===
+       Quality pre-score: 50/100 | pos:N/A | tacit:0 (no section) | src:15 (1) | decomp:10 (1)
+  [BODY_SRC_UNKNOWN]: 0 issues
+  [VLM_TWO_SECTION]: 0 issues
+  [CONCEPT_CROSSCHECK]: 1 warnings
+    🟡 30_wiki/dark-knowledges/dk-majingjing-momentum-design.md
+       本卡涉及已有概念：作方法（权威定义见 [[framework-yitang-case-crafting-four-step]]）、品设计（权威定义见 [[yt-model-pan-product-36-strategies]]）、逐字稿（权威定义见 [[yt-personal-verbatim-script]]）——请人工核对与权威定义的一致性（#542 提示制不拦截；小昭事故根因 3 降档版）
+  [QINGDANTI_STRUCTURE]: 0 issues
+  [QUOTE_VERBATIM]: 1 warnings
+    🟡 30_wiki/dark-knowledges/dk-majingjing-momentum-design.md
+       2 处声称逐字的引文在 source_refs 源文件中未逐字命中：「一般第一天第二场输赢开始就有了…」（L766）、「但是有的人他未必（输了就反省）吧…」（L895）——伪逐字引文模式（#616/#614 实证：改写/拼贴不得包装成原话+行号），请核对源文件改为逐字引用或去掉引号
+  [SOURCE_RANGE]: 0 issues
+  [INDEX]: 1 errors
+    🔴 30_wiki/dark-knowledges/dk-majingjing-momentum-design.md
+       卡片比检索索引新（kdo query/kdo_search 检索不到）——先跑 `kdo index --incremental`（秒级增量）再提审；全量重建用 `kdo index`（分钟级）
+
+  🔴 Result: FAIL — 1 个错误要修（#220 P1-5 讲香）
+     路径感：从上往下修——先修 YAML 结构错误（阻断后续检查），再修内容错误
+     修完重跑本命令，看到 ✅ PASS 再提交，省欧阳锋一轮往返
+====================================================================
+
+=== 30_wiki/dark-knowledges/dk-majingjing-role-ladder.md ===
+       Quality pre-score: 50/100 | pos:N/A | tacit:0 (no section) | src:15 (1) | decomp:10 (2)
+  [BODY_SRC_UNKNOWN]: 0 issues
+  [VLM_TWO_SECTION]: 0 issues
+  [CONCEPT_CROSSCHECK]: 1 warnings
+    🟡 30_wiki/dark-knowledges/dk-majingjing-role-ladder.md
+       本卡涉及已有概念：作方法（权威定义见 [[framework-yitang-case-crafting-four-step]]）、创始人（权威定义见 [[framework-founder-ip-three-positioning]]）、是什么（权威定义见 [[framework-TCPR底层网络协议]]）、逐字稿（权威定义见 [[yt-personal-verbatim-script]]）——请人工核对与权威定义的一致性（#542 提示制不拦截；小昭事故根因 3 降档版）
+  [QINGDANTI_STRUCTURE]: 0 issues
+  [QUOTE_VERBATIM]: 1 warnings
+    🟡 30_wiki/dark-knowledges/dk-majingjing-role-ladder.md
+       2 处声称逐字的引文在 source_refs 源文件中未逐字命中：「不叫间谍了，叫商业智囊，智囊团好听一点…」（L811）、「标准化的东西没有风格和特色。目标是让大家可以带动，我集中在年…」（L379）——伪逐字引文模式（#616/#614 实证：改写/拼贴不得包装成原话+行号），请核对源文件改为逐字引用或去掉引号
+  [SOURCE_RANGE]: 0 issues
+  [INDEX]: 1 errors
+    🔴 30_wiki/dark-knowledges/dk-majingjing-role-ladder.md
+       卡片比检索索引新（kdo query/kdo_search 检索不到）——先跑 `kdo index --incremental`（秒级增量）再提审；全量重建用 `kdo index`（分钟级）
+
+  🔴 Result: FAIL — 1 个错误要修（#220 P1-5 讲香）
+     路径感：从上往下修——先修 YAML 结构错误（阻断后续检查），再修内容错误
+     修完重跑本命令，看到 ✅ PASS 再提交，省欧阳锋一轮往返
+====================================================================
+
+=== 30_wiki/dark-knowledges/dk-listen-ear-heart-qi.md ===
+       Quality pre-score: 25/100 | pos:0 | tacit:0 (no section) | src:15 (1) | decomp:10 (1)
+  [BODY_SRC_UNKNOWN]: 0 issues
+  [VLM_TWO_SECTION]: 0 issues
+  [CONCEPT_CROSSCHECK]: 1 warnings
+    🟡 30_wiki/dark-knowledges/dk-listen-ear-heart-qi.md
+       本卡涉及已有概念：作方法（权威定义见 [[framework-yitang-case-crafting-four-step]]）、逐字稿（权威定义见 [[yt-personal-verbatim-script]]）——请人工核对与权威定义的一致性（#542 提示制不拦截；小昭事故根因 3 降档版）
+  [QINGDANTI_STRUCTURE]: 0 issues
+  [QUOTE_VERBATIM]: 1 warnings
+    🟡 30_wiki/dark-knowledges/dk-listen-ear-heart-qi.md
+       1 处声称逐字的引文在 source_refs 源文件中未逐字命中：「什么时候会崩、什么时候会冲动、肢体语言表达了什么心理状态…」（L349）——伪逐字引文模式（#616/#614 实证：改写/拼贴不得包装成原话+行号），请核对源文件改为逐字引用或去掉引号
+  [SOURCE_RANGE]: 0 issues
+  [INDEX]: 1 errors
+    🔴 30_wiki/dark-knowledges/dk-listen-ear-heart-qi.md
+       卡片比检索索引新（kdo query/kdo_search 检索不到）——先跑 `kdo index --incremental`（秒级增量）再提审；全量重建用 `kdo index`（分钟级）
+
+  🔴 Result: FAIL — 1 个错误要修（#220 P1-5 讲香）
+     路径感：从上往下修——先修 YAML 结构错误（阻断后续检查），再修内容错误
+     修完重跑本命令，看到 ✅ PASS 再提交，省欧阳锋一轮往返
+====================================================================
+
+=== 30_wiki/dark-knowledges/dk-wangzhen-transfer-law.md ===
+       Quality pre-score: 25/100 | pos:0 | tacit:0 (no section) | src:15 (1) | decomp:10 (1)
+  [BODY_SRC_UNKNOWN]: 0 issues
+  [VLM_TWO_SECTION]: 0 issues
+  [CONCEPT_CROSSCHECK]: 1 warnings
+    🟡 30_wiki/dark-knowledges/dk-wangzhen-transfer-law.md
+       本卡涉及已有概念：作方法（权威定义见 [[framework-yitang-case-crafting-four-step]]）、创始人（权威定义见 [[framework-founder-ip-three-positioning]]）、在哪里（权威定义见 [[yt-note-ai-human-division]]）、方法论（权威定义见 [[concept-ji-hao-ai-collaboration-methodology]]）、暗知识（权威定义见 [[yt-business-analysis-cognitive-biases]]）——请人工核对与权威定义的一致性（#542 提示制不拦截；小昭事故根因 3 降档版）
+  [QINGDANTI_STRUCTURE]: 0 issues
+  [QUOTE_VERBATIM]: 1 warnings
+    🟡 30_wiki/dark-knowledges/dk-wangzhen-transfer-law.md
+       5 处声称逐字的引文在 source_refs 源文件中未逐字命中：「我们不敢说 100% 是对的，90% 以上没有问题……你可以…」（L154）、「身体哪里有问题→企业哪里有问题…」（L55）、「破冰直断→说中就建立威信…」（L154）等——伪逐字引文模式（#616/#614 实证：改写/拼贴不得包装成原话+行号），请核对源文件改为逐字引用或去掉引号
+  [SOURCE_RANGE]: 0 issues
+  [INDEX]: 1 errors
+    🔴 30_wiki/dark-knowledges/dk-wangzhen-transfer-law.md
+       卡片比检索索引新（kdo query/kdo_search 检索不到）——先跑 `kdo index --incremental`（秒级增量）再提审；全量重建用 `kdo index`（分钟级）
+
+  🔴 Result: FAIL — 1 个错误要修（#220 P1-5 讲香）
+     路径感：从上往下修——先修 YAML 结构错误（阻断后续检查），再修内容错误
+     修完重跑本命令，看到 ✅ PASS 再提交，省欧阳锋一轮往返
+====================================================================
+
+
+
+• All 6 FAIL on one error: INDEX — need `kdo index --incremental` first. That's allowed for me? 铁律6 says "产新卡后通知黄药师跑 kdo index --rebuild（你不要自己跑——全库扫描会阻塞）" — but that's about full rebuild; pre-submit itself instructs the producer to run `kdo index --incremental`（秒级增量）. The gate explicitly tells me to run incremental. I'll run it.
+
+  Also QUOTE_VERBATIM warnings (🟡 not blocking): several quotes are paraphrases with quotation marks. Since the gate is warning-level (not blocking), but the note says改写/拼贴不得包装成原话+行号 — I should fix the flagged ones to be verbatim or remove quotes. Let me fix the flagged quotes:
+
+  case card: 9处 — e.g. 「客群不是问题，交付能不能脱离马老师才是——店中店是放大器，交付复制不了，谈得越多交付不了」(L1375 area). Original L1375: "因为如果我是案主的话，我觉得马老师的问题呢，应该是，这问题啊，客群应该不是客群事实呀，而是交付能不能脱离马老师自己啊？因为我理解的这个店中店是是个放大器啊，放大不了它不存在产能的问题啊。交付复制不了，所以说店中店谈的越多，交付，要，交付不了，这个是个很大的一个问题". My quote is a cleaned-up paraphrase in quotes. I should either quote verbatim or paraphrase without quotes. There are 9 in the case card plus others. This could be laborious but worth fixing since it's a known pattern (#616/#614). Options: convert flagged quotes to unquoted paraphrase with line refs.
+
+  Rather than fixing each manually one by one, let me list the flagged quotes and adjust. The output truncated the full lists ("等"). Let me fix the ones I know:
+
+  Case card flagged examples:
+  1. 「客群不是问题，交付能不能脱离马老师才是——店中店是放大器，交付复制不了，谈得越多交付不了」(真问题链#1) → make it paraphrase without quotes: 罗毅在收敛轮点破：客群不是问题，交付能不能脱离马老师才是——店中店是放大器，交付复制不了，谈得越多交付不了（L1375，口语原文整理）
+  2. 「当你锚定目标用户是千万级/亿级老板，实际执行中最容易成交的反而是你没考虑到的人群」L1195-1198 — paraphrase → remove quotes
+  3. 「打着德扑的名义，我对打牌一点兴趣也没有——客户分层和价值提炼才是真问题」L1381 — original: "我觉得真正的问题还是客户分层和价值体验的问题...因为你打着德扑的名义，像我的话，像前面的这些需求我都有需求，但是你说德扑，我对打牌是一点兴趣也没有" → paraphrase without quotes.
+
+  There are 9 in case card; I only saw 3. Rather than hunting all, alternative: run pre-submit again after edits to see remaining list. But each flagged quote needs a fix. Let me get the full list by running pre-submit again and capturing full QUOTE_VERBATIM output for the case card.
+
+  Actually, more efficient: convert all my polished quotes to paraphrase style. But many quotes ARE verbatim (e.g. 我们不追求第一，我们追求的是唯一 L487: "因为我们不追求第一，我们追求的是唯一" — verbatim-ish). The flagged ones are those that don't hit verbatim.
+
+  Let me just rerun pre-submit on the case card with full output to get all 9 flagged quotes.
+
+• 六卡唯一阻断项都是索引未更新。先跑增量索引，再逐个处理引文 verbatim 告警。Incremental: +0 ~6 -0 (total 4210) -> C:\Users\Administrator\Desktop\wiki\.kdo\search_index.json
+
+
+  [QUOTE_VERBATIM]: 1 warnings
+    🟡 30_wiki/cases/case-private-board-majingjing-decision-camp.md
+       9 处声称逐字的引文在 source_refs 源文件中未逐字命中：「客群不是问题，交付能不能脱离马老师才是——店中店是放大器，交…」（L361）、「当你锚定目标用户是千万级/亿级老板，实际执行中最容易成交的反…」（L751）、「打着德扑的名义，我对打牌一点兴趣也没有——客户分层和价值提炼…」（L1447）等——伪逐字引文模式（#616/#614 实证：改写/拼贴不得包装成原话+行号），请核对源文件改为逐字引用或去掉引号
+  [SOURCE_RANGE]: 0 issues
+
+  ✅ Result: PASS（2 条 WARNING 在列——有警在身，非全清，终审前自行掂量）
+     下一步：贴本输出到任务单 → 提交 → 欧阳锋终审（WARNING 明细如实附上）
+====================================================================
+
+• Case card now PASSes with warnings. The QUOTE_VERBATIM is warning-level; but per #616/#614 discipline, 改写不得包装成原话. I should fix the flagged quotes. It only shows 3 of 9 ("等"). Let me find all non-verbatim quotes in the case card. Rather than guess, I'll review my case card quotes against the transcript and fix the paraphrased ones to either verbatim or remove quotes.
+
+  Flagged (shown): 
+  1. 真问题链#1 罗毅收敛 quote (L1375) — paraphrase → dequote.
+  2. 陈龙 锚定人群 (L1195/L1198) — paraphrase → dequote.
+  3. 老朱收敛 (L1381) — paraphrase → dequote.
+
+  Others among my quotes that may be flagged (not shown but count=9). Let me list quotes in case card and check quickly via grep against source. Quotes in case card:
+
+  - 「找到合适的目标人群，如何针对这群人做宣传和转化」（L106）— original L106: "复述问题这里就是找到合适的目标人群，怎么样针对这群人，我进行宣传和转化" — not verbatim → likely flagged. Dequote or adjust.
+  - 「我的时间不算成本，是必须要做的事情」L1021 — original: "如果算上我的时间，首先这件事情是它背后还有更宏观的更宏大的愿景，所以我的时间不算成本，是我必须要做的事情" — not exact ("是" vs "是" ... original "所以我的时间不算成本，是我必须要做的事情"). Mine: 「我的时间不算成本，是必须要做的事情」 — differs by 我. Flagged likely. Fix to exact: 「我的时间不算成本，是我必须要做的事情」.
+  - 「不追求第一，我们追求的是唯一」L487 — original: "因为我们不追求第一，我们追求的是唯一" — mine in card: 「我们不追求第一，我们追求的是唯一」 verbatim substring? Original has "我们不追求第一，我们追求的是唯一" — yes substring exists. OK.
+  - 「不要让贪念和自负吞噬掉我们过去积累的口碑……要认清自己」L517 — original: "就不要让贪念和自负。吞噬掉我们过去积累的口碑，这个也挺重要的，就是要认清自己" — mine uses 吞噬掉 vs original "吞噬掉"? Original: "不要让贪念和自负。吞噬掉我们过去积累的口碑" — the transcription has a period mid-sentence: "就不要让贪念和自负。吞噬掉我们过去积累的口碑，这个也挺重要的，就是要认清自己。" My quote uses ellipsis so "不要让贪念和自负吞噬掉" — original has "自负。吞噬掉" with period → not verbatim. Likely flagged. Dequote or use exact with punctuation.
+  - 「解决组织关键人的心力修复问题，在游戏化过程中完成」 L550/L562: original "我们解决组织关键人的心力修复问题。" and "在游戏化的过程当中提供这个心力修复的解决" — my composite quote is assembled → flagged. Fix: keep first verbatim part quoted, paraphrase rest: 「我们解决组织关键人的心力修复问题」（L550），方式=在游戏化过程中完成（L562）.
+  - 「客群不是问题…」罗毅 (flagged).
+  - 「当你锚定…」陈龙 (flagged).
+  - 「打着德扑的名义…」老朱 (flagged).
+  - 「以后你的课我都来」L910 — original: "输完之后跟我说，马老师，以后你的课我都来" — verbatim substring "以后你的课我都来" exists. OK.
+  - 「我对打牌一点兴趣也没有」 within 老朱 quote — part of flagged #3.
+  - 「我承诺保密」 banner mention L43: "在留言区打上我承诺保密" — that's in source_context description, not quoted with行号? I wrote "含全员保密承诺环节" without quotes. Fine.
+  - 「一年 6 次工作坊」etc no quotes.
+  - 「面相」 quotes fine (single word).
+  - Vivian quote? I paraphrased without quotes mostly.
+  - 「超值」? In Vivian section I wrote 「超值」 — original L454: "我觉得是超值" — contains 超值. OK.
+  - 「听之以耳、听之以心、听之以气」— original L223: "如何听之以耳，如何听之以心，如何听之以气" — contains "听之以耳" etc. but my combined quote with 顿号 isn't verbatim → possibly flagged. Dequote or use separate.
+
+  Rather than iterate endlessly, let me get the full list. The output truncated with "等" — maybe there's a verbose flag. Let me try grep the pre-submit output without truncation — the tool truncated display. Maybe the checker writes only 3 examples. I'll just fix all paraphrase-style quotes in the case card proactively, then rerun.
+
+  Edits for case card:
+  1. 表面议题 quote: 「找到合适的目标人群，如何针对这群人做宣传和转化」→ original verbatim: "找到合适的目标人群，怎么样针对这群人，我进行宣传和转化" (L106). Use exact.
+  2. 真问题链#1: dequote 罗毅 statement.
+  3. 真问题链#2 陈龙: dequote.
+  4. 真问题链#4 老朱收敛: dequote.
+  5. L1021 quote: fix to exact substring.
+  6. L517 quote: fix.
+  7. 一句话定位 quote: split.
+  8. 听之以耳/心/气 mention in 四层内核: it's in 「」brackets: "（听之以耳→心→气）" — that's in 四层内核 line: "③中国人的决策模式（听之以耳→心→气）+ 心力修复" — no quotes around it as逐字? I wrote 「听之以耳→心→气」? Let me check: "③中国人的决策模式（听之以耳→心→气）+ 心力修复" — uses（）not「」. OK.
+
+  Let me make the edits.
+
+• 主卡已 PASS（带 WARNING）。按 #616/#614 纪律把伪逐字引文逐条修实。
+
+• Now L1021 and L517 quotes. L1021: my card says （L5 隐性成本层）: 「我的时间不算成本，是必须要做的事情」（L1021）— original: "所以我的时间不算成本，是我必须要做的事情". Fix to exact: 「我的时间不算成本，是我必须要做的事情」. Also 方案与追问 section? I used it in L5 only. And L517: 「不要让贪念和自负吞噬掉我们过去积累的口碑……要认清自己」— original: "就不要让贪念和自负。吞噬掉我们过去积累的口碑，这个也挺重要的，就是要认清自己。" Fix to verbatim with the weird period: 「不要让贪念和自负。吞噬掉我们过去积累的口碑……就是要认清自己」— hmm, the period is transcription noise. Quote exactly as "不要让贪念和自负。吞噬掉我们过去积累的口碑"? That looks odd but verbatim. I'll dequote instead: 引用改为整理表述+行号。Actually 真问题链#5 says: 案主自己引用 68 万财商老师翻车事件：「不要让贪念和自负吞噬掉我们过去积累的口碑……要认清自己」（L517）. I'll dequote to 口语原文整理.Now fix dk cards' flagged quotes:
+
+  momentum-design flagged:
+  - 「一般第一天第一场/第二场输赢开始就有了」L766 — original L766: "一般第一天就会有。" L772: "第一天的下午，第二场战斗就是 5 秒钟决策" L775-776: 罗毅 "就是游戏做完，大家有输赢的落差感的时候，就会发生变化。" 说话人6 "哎，这个就会有变化的。" So my quote「一般第一天第二场输赢开始就有了」is a composite → dequote. In操作方法3: 面相变化「一般第一天第二场输赢开始就有了」（L766-L772）→ 改为： 面相变化一般第一天就有（L766），第一场输赢落差出现后即开始（L772-L776，口语原文整理）。
+  - 「但是有的人他未必（输了就反省）吧」（L895）— original L895: "但是有的人他未必吧。" — I inserted parenthetical → make exact: 「但是有的人他未必吧」（L895，柳青当场质疑）。
+
+  role-ladder flagged:
+  - 「不叫间谍了，叫商业智囊，智囊团好听一点」（L829）— original L829: "不叫间谍了，可能叫商业，可能叫那个什么商业智囊，啊智囊团好听一点。" → use verbatim: 「不叫间谍了，可能叫……商业智囊，啊智囊团好听一点」(L829) or dequote. Fix quote to exact with ellipsis.
+  - 「标准化的东西没有风格和特色。目标是让大家可以带动，我集中在年度会员服务上」（L379）— original: "那倒也不一定，因为标准化的东西没有风格和特色。我们的目标是说，就是让大家可以带动，这样我就主要集中在年度会员的服务上就可以了" → fix to verbatim substrings: 「标准化的东西没有风格和特色」……「让大家可以带动，我就主要集中在年度会员的服务上」（L379）.
+
+  listen-ear-heart-qi flagged:
+  - 「什么时候会崩、什么时候会冲动、肢体语言表达了什么心理状态」（L349）— original L349: "你在什么时候会崩？你在什么时候会冲动？你在什么时候的肢体语言表达了你的心理的状态什么样子？" → fix verbatim: 「你在什么时候会崩？你在什么时候会冲动？」（L349）and paraphrase the rest.
+
+  wangzhen flagged 5处:
+  - 「我们不敢说 100% 是对的，90% 以上没有问题……你可以…」（L154）— original: "我们不敢说 100% 是对的，90% 以上是没有问题的。你可以现场在你的生活当中去找对应" → fix: 「我们不敢说 100% 是对的，90% 以上是没有问题的」……「你可以现场在你的生活当中去找对应」（L154）.
+  - 「身体哪里有问题→企业哪里有问题」（L55）— original L55: "人哪里有问题？哪里身体哪里有问题？就意味着他的企业哪里有问题？" messy. In 原始表述 I wrote 「人哪里身体有问题，就意味着他的企业哪里有问题」— close to "哪里身体哪里有问题？就意味着他的企业哪里有问题" — my rendering normalized it. Fix by quoting the verbatim messy bits: 「人哪里有问题……哪里身体哪里有问题？就意味着他的企业哪里有问题」（L55）. Also title section references.
+  - 「破冰直断→说中就建立威信」（L154?）— that's my own phrasing not in quotes hopefully. The flagged "等" includes others. In操作方法2 I quoted 「万一你说不对，你就完蛋了」（L346）— original L346: "这个是对于讲师来讲是有风险的。然后万一你说不对，你就完蛋了嘛" — contains "万一你说不对，你就完蛋了嘛" — mine lacks 嘛 → flagged. Fix to include 嘛 or dequote.
+  - 横条纹 quote: 「我付出什么、你付出什么」— original L868: "比如说我付出什么，你付出什么" — mine in 原始表述: 不把「我付出什么、你付出什么」的公平条件设置好 — original uses 逗号 not 、→ fix to 「我付出什么，你付出什么」.
+  - Also "听之以气" etc fine.
+
+  Let me do these edits.
+
+• 修 dk 卡的伪逐字引文。
+
+• Now wangzhen-transfer-law fixes. Read relevant sections to edit precisely. Quotes to fix:
+  1. 原始表述 L55 quote: 「我们家里祖传有疼痛处理的技术，差不多 2 分钟之内可以处理 90% 的疼痛，其中很大一部分是通过**望诊**判断病根在哪里。同样可以移植到企业上——**人哪里身体有问题，就意味着他的企业哪里有问题**。这是我们经过反复实践出来的一个结果。」 Original L55: "是因为我们家里边祖传的是有疼痛处理的技术，我们差不多 2 分钟之内可以处理 90% 的疼痛。那这个过程当中有很大一部分程度是通过望诊的方式来判断病根在哪里。那同样移植可以移植到企业上去，那企业的。人哪里有问题？哪里身体哪里有问题？就意味着他的企业哪里有问题？这是我们经过反复实践出来的一个结果。" → my quote is polished. Fix with verbatim + ellipsis.
+  2. L862 quote: 「我们不敢说 100% 是对的...」 that's操作方法2 quote (L154). Original: "我们不敢说 100% 是对的，90% 以上是没有问题的。你可以现场在你的生活当中去找对应" → fix to exact.
+  3. 横条纹： 「我付出什么、你付出什么」→「我付出什么，你付出什么」.
+  4. L346: 「万一你说不对，你就完蛋了」→ add 嘛.
+  5. The third block quote in 原始表述 （所有的玄学都是跟生活对应的…): original L862: "所有的玄学都是跟生活对应的。象思维它并不是玄学。只是说我们没有把玄学跟生活这个链接打通而已。" Mine: 「所有的玄学都是跟生活对应的，象思维并不是玄学——只是我们没有把玄学跟生活的链接打通而已。」 — not verbatim. Fix.Also fix the wangzhen title/ Critique reference "身体哪里有问题→企业哪里有问题" flagged at L55 in Critique #3 — I wrote 「身体哪里有问题→企业哪里有问题」in Critique with quotes? Critique #3 text: 「身体哪里有问题→企业哪里有问题」预设了从人到企的方向 — uses「」. Dequote or adjust. Also the H1 title contains it but titles aren't quotes. Also 「破冰直断→说中就建立威信」 in 冷读 paragraph — uses「」 around my own phrase; that was flagged? The flagged list showed 「破冰直断→说中就建立威信…」（L154）— it's in the 冷读 critique I added. Fix by removing quotes there.
+
+  Let me fix both, then rerun pre-submit on all six.The Critique #3 already got fixed in my earlier edit (it exists at line 95). Wait, the earlier Edit that added points 3 and 4 succeeded. The remaining verbatim issue: line 102 has「你可以现场在你的生活中去找对应」— original: "你可以现场在你的生活当中去找对应" （当中 not 中）. Fix. And 「破冰直断→说中就建立威信」 is my own phrase in quotes — dequote. Also line 95's 「身体哪里有问题→企业哪里有问题」 — that's a paraphrase-ish quote with arrow; it's describing the claim. The flagged list from pre-submit was generated before these edits; I'll just fix the remaining quotes and rerun pre-submit to see if warnings clear.=== case-private-board-majingjing-decision-camp.md ===
+  [QUOTE_VERBATIM]: 1 warnings
+       4 处声称逐字的引文在 source_refs 源文件中未逐字命中：「持久战/不追求规模追求唯一…」（L517）、「目标人群=高净值 1 号位…」（L1195）、「门店式渠道（店中店）能放大…」（L1375）等——伪逐字引文模式（#616/#614 实证：改写/拼贴不得包装成原话+行号），请核对源文件改为逐字引用或去掉引号
+  🔴 Result: FAIL — 1 个错误要修（#220 P1-5 讲香）
+=== dk-majingjing-chengquan-thinking.md ===
+  [QUOTE_VERBATIM]: 0 issues
+  ✅ Result: PASS（2 条 WARNING 在列——有警在身，非全清，终审前自行掂量）
+=== dk-majingjing-momentum-design.md ===
+  [QUOTE_VERBATIM]: 0 issues
+  🔴 Result: FAIL — 1 个错误要修（#220 P1-5 讲香）
+=== dk-majingjing-role-ladder.md ===
+  [QUOTE_VERBATIM]: 1 warnings
+       1 处声称逐字的引文在 source_refs 源文件中未逐字命中：「不叫间谍了，可能叫……商业智囊，啊智囊团好听一点…」（L811）——伪逐字引文模式（#616/#614 实证：改写/拼贴不得包装成原话+行号），请核对源文件改为逐字引用或去掉引号
+  🔴 Result: FAIL — 1 个错误要修（#220 P1-5 讲香）
+=== dk-listen-ear-heart-qi.md ===
+  [QUOTE_VERBATIM]: 0 issues
+  🔴 Result: FAIL — 1 个错误要修（#220 P1-5 讲香）
+=== dk-wangzhen-transfer-law.md ===
+  [QUOTE_VERBATIM]: 1 warnings
+       2 处声称逐字的引文在 source_refs 源文件中未逐字命中：「身体哪里有问题→企业哪里有问题…」（L55）、「人对模糊人格描述的接受度天然很高…」（L154）——伪逐字引文模式（#616/#614 实证：改写/拼贴不得包装成原话+行号），请核对源文件改为逐字引用或去掉引号
+  🔴 Result: FAIL — 1 个错误要修（#220 P1-5 讲香）
+The dk cards FAIL again with INDEX error — my edits touched the files after the incremental index run, so they're newer than index again. I'll re-run `kdo index --incremental` at the end.
+
+  Remaining quote fixes:
+
+  case card (4 left):
+  1. 「持久战/不追求规模追求唯一」 (L517 reference in真问题链#5) — I wrote: 与战略域「持久战/不追求规模追求唯一」同构 — this is my phrase in quotes → dequote: 与战略域的持久战/不追求规模追求唯一思路同构.
+  2. 「目标人群=高净值 1 号位」 (L2假设审计） — my phrase in quotes → dequote.
+  3. 「门店式渠道（店中店）能放大」 — my phrase → dequote.
+  4. one more ("等") — probably 「我的时间不算成本，是我必须要做的事情」 should now hit... or 「我们对规模的严谨把控是一个非常重要的事情」? I didn't quote that. Or 德扑是最好载体 quote in L2: 假设「德扑是最好载体」→ dequote. Let me fix all quoted assumptions in L2 section: 「目标人群=高净值 1 号位」「德扑是最好载体」「门店式渠道（店中店）能放大」 — all my summary phrases in quotes → remove quotes.
+
+  role-ladder: 「不叫间谍了，可能叫……商业智囊，啊智囊团好听一点」 — original: "不叫间谍了，可能叫商业，可能叫那个什么商业智囊，啊智囊团好听一点。" My ellipsis version still doesn't match verbatim check (checker probably does substring of the full quoted string minus ellipsis handling?). The checker likely splits on ellipsis... apparently not matching. Simplest: dequote → 现场改口为「商业智囊」（L829 原话：不叫间谍了……智囊团好听一点）. Or quote the exact contiguous substring: 「可能叫那个什么商业智囊，啊智囊团好听一点」(L829). Use that.
+
+  wangzhen: 
+  1. 「身体哪里有问题→企业哪里有问题」 in Critique #3 — dequote (it's a paraphrase with arrow). Original is the messy quote already in 原始表述. Change to: 迁移律（人哪里身体有问题，企业哪里就有问题）预设方向…
+  2. 「人对模糊人格描述的接受度天然很高」 — my gloss of Barnum in quotes → dequote: 巴纳姆效应（人对模糊人格描述的接受度天然很高）.
+
+• 继续清剩余引文告警（多为我自己总结的短语误加引号）。
+
+Incremental: +0 ~5 -0 (total 4210) -> C:\Users\Administrator\Desktop\wiki\.kdo\search_index.json
+=== case-private-board-majingjing-decision-camp.md ===
+       1 处声称逐字的引文在 source_refs 源文件中未逐字命中：「再看是授课还是个人顾问…」（L952）——伪逐字引文模式（#616/#614 实证：改写/拼贴不得包装成原话+行号），请核对源文件改为逐字引用或去掉引号
+  ✅ Result: PASS（2 条 WARNING 在列——有警在身，非全清，终审前自行掂量）
+=== dk-majingjing-chengquan-thinking.md ===
+  ✅ Result: PASS（2 条 WARNING 在列——有警在身，非全清，终审前自行掂量）
+=== dk-majingjing-momentum-design.md ===
+  ✅ Result: PASS（2 条 WARNING 在列——有警在身，非全清，终审前自行掂量）
+=== dk-majingjing-role-ladder.md ===
+  ✅ Result: PASS（2 条 WARNING 在列——有警在身，非全清，终审前自行掂量）
+=== dk-listen-ear-heart-qi.md ===
+  ✅ Result: PASS（2 条 WARNING 在列——有警在身，非全清，终审前自行掂量）
+=== dk-wangzhen-transfer-law.md ===
+  ✅ Result: PASS（3 条 WARNING 在列——有警在身，非全清，终审前自行掂量）
+• All PASS. One last quote in case card: 「再看是授课还是个人顾问」（L952）— original: "再看是什么样的方式，是以授课的方式停留，还是以个人顾问的方式做停留，再说". Fix it to remove quotes or verbatim substring 「是以授课的方式停留，还是以个人顾问的方式做停留」. Then final index + pre-submit confirm for that file.
+
+• 六卡全 PASS。清掉最后一处引文告警后收尾。
+
+Incremental: +0 ~1 -0 (total 4210) -> C:\Users\Administrator\Desktop\wiki\.kdo\search_index.json
+  ✅ Result: PASS（1 条 WARNING 在列——有警在身，非全清，终审前自行掂量）
+ M .agent/friction-log.md
+ M 20_memory/laowantong-amnesia-recovery.md
+ M 30_wiki/concept-card-index-latest.md
+ M 60_feedback/tasks/task_20260905_laowantong-private-board-majingjing-case.md
+ M 90_control/gate-blocked.log
+ M 90_control/l1-size.log
+ M 90_control/role-registry.json
+ M 90_control/scripts/.derived-hashes.json
+ M 90_control/todos/huangyaoshi.md
+ M 90_control/todos/laowantong.md
+ M 90_control/todos/ouyangfeng.md
+ M "agent\345\244\215\347\233\230/laowantong/\346\212\200\350\203\275\350\277\233\345\214\226\346\227\245\345\277\227.md"
+ M logs/conveyor-probe.log
+ M logs/kdo-health-cron.log
+ M logs/l1-capture.log
+ M logs/role-clock.log
+ M logs/vault-git-backup.log
+?? 30_wiki/cases/case-private-board-majingjing-decision-camp.md
+?? 30_wiki/dark-knowledges/dk-listen-ear-heart-qi.md
+?? 30_wiki/dark-knowledges/dk-majingjing-chengquan-thinking.md
+• All six PASS. L12 says: complete 前先 git status 确认交付物已入仓 — "入仓" means committed? L12 says complete 门禁「交付物已入仓」校验 by #522. Previous #640 todos line said "commit 1692c2a2e入仓后complete成功". So the gate requires deliverables committed to git. I need to commit the six new cards + task file. But the general discipline says: DO NOT run git commit unless explicitly asked... The user's instruction says "完成后 complete 641 提审+落 todos" and the established workflow (L12 牌 + #640 precedent) requires commit before complete. The AGENTS.md/laowantong context explicitly endorses this flow ("commit ...入仓后complete"). This is a durable instruction from the workspace — committing deliverables is part of the standard pipeline. I'll commit only my deliverables (6 cards + task file), not the unrelated dirty files (logs, other todos, etc.).
+
+  Also there are vault backups every 30 min (:20/:50) — committing is fine, stash/worktree operations are the prohibited ones. Current time? Not critical.
+
+  Which files to commit: the 6 new cards + task file + 60_feedback/adversarial/atk_*_20260905.md (6 attack reports). Also .kdo/search_index.json changed by incremental index? Check git status for .kdo. It wasn't in the list shown (list truncated at 20). The attack reports are untracked too. Let me commit: 6 cards, task file, 6 atk reports. Maybe also 30_wiki/concept-card-index-latest.md modified? That was already modified before (it was in earlier git status from L12's embedded text... actually current status shows it modified — probably by earlier sessions). Not mine; leave it.
+
+  Now write the five-field execution report into the task file, then git add+commit my files, then complete, then verify (status + read task frontmatter), then append todos line.
+
+• 全 PASS。落五字段执行报告到任务单，然后入仓。
+
+  205 30_wiki/cases/case-private-board-majingjing-decision-camp.md
+   98 30_wiki/dark-knowledges/dk-majingjing-chengquan-thinking.md
+  103 30_wiki/dark-knowledges/dk-majingjing-momentum-design.md
+  101 30_wiki/dark-knowledges/dk-majingjing-role-ladder.md
+  102 30_wiki/dark-knowledges/dk-listen-ear-heart-qi.md
+  109 30_wiki/dark-knowledges/dk-wangzhen-transfer-law.md
+  718 total
+• Now commit deliverables (L12 + #522 gate「交付物已入仓」). Commit: 6 cards, task file, 6 atk reports. Check atk report filenames first. Then git add specific files and commit. The AGENTS.md flow endorses commit before complete (previous task did commit). This is within the durable workspace instruction, so proceed.atk_case-private-board-majingjing-decision-camp_20260905.md
+atk_dk-listen-ear-heart-qi_20260905.md
+atk_dk-majingjing-chengquan-thinking_20260905.md
+atk_dk-majingjing-momentum-design_20260905.md
+atk_dk-majingjing-role-ladder_20260905.md
+atk_dk-wangzhen-transfer-law_20260905.md
+warning: in the working copy of '60_feedback/tasks/task_20260905_laowantong-private-board-majingjing-case.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '30_wiki/cases/case-private-board-majingjing-decision-camp.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '30_wiki/dark-knowledges/dk-listen-ear-heart-qi.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '30_wiki/dark-knowledges/dk-majingjing-chengquan-thinking.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '30_wiki/dark-knowledges/dk-majingjing-momentum-design.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '30_wiki/dark-knowledges/dk-majingjing-role-ladder.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '30_wiki/dark-knowledges/dk-wangzhen-transfer-law.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '60_feedback/adversarial/atk_case-private-board-majingjing-decision-camp_20260905.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '60_feedback/adversarial/atk_dk-listen-ear-heart-qi_20260905.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '60_feedback/adversarial/atk_dk-majingjing-chengquan-thinking_20260905.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '60_feedback/adversarial/atk_dk-majingjing-momentum-design_20260905.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '60_feedback/adversarial/atk_dk-majingjing-role-ladder_20260905.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '60_feedback/adversarial/atk_dk-wangzhen-transfer-law_20260905.md', LF will be replaced by CRLF the next time Git touches it
+ create mode 100644 60_feedback/adversarial/atk_dk-majingjing-momentum-design_20260905.md
+ create mode 100644 60_feedback/adversarial/atk_dk-majingjing-role-ladder_20260905.md
+ create mode 100644 60_feedback/adversarial/atk_dk-wangzhen-transfer-law_20260905.md
+baeb569a4
+--evidence 文件不可读: 6卡(1 case含真问题链+SOP差异点+3 dk+2人域dk)全入仓 commit 见 git log；四路自攻击6份落60_feedback/adversarial/(🔴0/🟡18全修/🟢30)；pre-submit六卡全PASS；五字段执行报告+建模方案已落任务单
+--evidence expects a file path. Check the script usage for complete.complete 需要 --instance <instance>
+8:    python queue_transition.py complete <task-id> --instance <name> [--evidence <path>] [--force --reason '<理由>'] [--no-commit]
+1005:# 机读锚点：执行报告节或 --evidence 文件含以下标记即算该字段存在（只验存在性，不判内容质量——只拦机械项不碰判断）
+1024:def _check_delivery_fields(task_file, evidence: str | None) -> tuple[bool, str]:
+1027:    #444：evidence 不再作为五字段的替代检查面——五字段必须落在任务单「## 执行报告」节
+1028:    （evidence 只是佐证附件，防止指向任务单外文件绕过交接语义——#441 实证侧门）。
+1030:    if evidence is not None:
+1031:        # evidence 仅验证可读性（佐证附件），检查面恒为任务单执行报告节
+1033:            Path(evidence).read_text(encoding="utf-8", errors="ignore")
+1035:            return False, f"--evidence 文件不可读: {evidence}"
+1039:        return False, "任务单缺少「## 执行报告」节（#429 F-034：交付必须落执行报告，口头完成=未完成；#444：evidence 附件不能替代）"
+--evidence takes a file path. I already have the 执行报告 section in the task file (the gate checks that). I can pass an evidence file — e.g. the execution report is in the task file itself; evidence could point to an adversarial report or a small evidence file. Previous #640 used "--evidence ..." presumably with a path. Simplest: pass the case card path or the adversarial report as evidence attachment. I'll pass the main attack report as evidence.E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
+  - untracked: 60_feedback/adversarial/atk_<card-id>_20260905.md
+补救：git add <路径> && git commit -m '#<任务号> <交付说明> by <instance>' 后重跑 complete
+期望格式样例：执行报告内 **交付物** 字段节（`- **` 子弹行起也算字段行），节内路径用反引号包裹（如 `90_control/x.py`），下一粗体字段/## 标题即节边界；命令文本（如 kdo pre-submit -f <路径>）勿放交付物节
+The gate parses the 交付物 section: it found `60_feedback/adversarial/atk_<card-id>_20260905.md` from my执行报告 line "自攻击报告 6 份：`60_feedback/adversarial/atk_<card-id>_20260905.md`" — the literal `<card-id>` placeholder is treated as a path. Fix: change that line to not look like a path, or list actual paths. Edit the task file: replace the backticked placeholder with plain text without backticks.warning: in the working copy of '60_feedback/tasks/task_20260905_laowantong-private-board-majingjing-case.md', LF will be replaced by CRLF the next time Git touches it
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+✅ task_20260905_laowantong-private-board-majingjing-case 已提交为 pending_review，等待欧阳锋终审
+📦 交付物校验: 交付物入仓核验通过（6 个路径已跟踪且无脏改动）
+✅ dashboard.html 已生成 (227 个任务)
+   待领取: 2  |  审查中: 2  |  进行中: 0  |  已完成: 223
+
+
+• L9 牌：complete 后双验证——队列状态 + 任务单 frontmatter 回读。队列总任务数: 227
+queued: 2
+claimed: 0
+pending_review: 2
+  #641 task_20260905_laowantong-private-board-majingjing-case — 私董会实录卡组（马晶晶德扑决策营案）：5.1万字逐字稿W1逐字读+提炼件索引定位
+  #644 task_20260905_ouyangfeng-recent-quality-rescan — 近期入库质量回扫（08-28起~30张抽10）：暗知识含量/一等证据锚/方向价值三轴+不合格清单
+270:| 641 | `task_20260905_laowantong-private-board-majingjing-case` | 私董会实录卡组（马晶晶德扑决策营案）：5.1万字逐字稿W1逐字读+提炼件索引定位 | pending_review | laowantong | case1-2张+三方法记录+互链实证 | #640 后（同角色排队） | `60_feedback/tasks/task_20260905_laowantong-private-board-majingjing-case.md` | inbox值守拍分诊（P0双件）；私董会SOP实战样本互链；欧阳锋终审 |
+271:| 642 | `task_20260905_laowantong-641-depth-patch` | 修订单：#641 深度口径（真问题链进卡+暗知识3条成dk候选+SOP差异点+老朱归属口径） | queued | laowantong | 口径落#641执行报告随审 | #641 配套 | `60_feedback/tasks/task_20260905_laowantong-641-depth-patch.md` | 王语嫣深诊断补深（老朱09-05批编排深度）；E047边界传口径不改范围 |
+524:- #641 task_20260905_laowantong-private-board-majingjing-case｜laowantong｜提审 09-05 02:35｜60_feedback/tasks/task_20260905_laowantong-private-board-majingjing-case.md
+
+
+• Double verification passed: queue shows pending_review, task frontmatter status: pending_review. Now append todos line to 90_control/todos/laowantong.md. Current time ~02:35+ (提审时间 02:35 per queue log). Get current time.
+
+• 双验证通过。落 todos 收尾。2026-09-05 02:35
+
+
+- [2026-09-05 02:32] 【叫醒】laowantong：读 todos/laowantong.md 未读段 
+[2026-09-05 02:35] 完成提审 #641（私董会实录卡组-马晶晶德扑决�
+• #641 施工完毕，已提审。要点：
+
+  **交付（6 张新卡，commit baeb569a4 入仓）**
+  - `30_wiki/cases/case-private-board-majingjing-decision-camp.md`（205 行）：真问题链五条全覆盖（交付脱人/需求三性/数据模糊/内核四层/规模警惕）+ SOP 实证差异点（笔记官是人非 AI、计时 90min→180min 松弛、案主团复盘制增量）+ L1-L5 深挖 + 12 项证据表
+  - 3 张商业 dk：成全性思维、势能设计（输赢起伏）、角色阶梯（学员→荷官→商业智囊）
+  - 2 张人域 dk（挂 `human-insights`，与人域 digest 互链）：听之以耳/心/气三层、望诊迁移律+象思维实例族
+
+  **口径执行**
+  - #642 五条全落地：真问题链进卡、暗知识清单 1/2/4 成 dk、SOP 差异点标注、阿海引用归属「老朱」、识人族入人域
+  - W1 逐字读 1622 行全文；提炼件只作索引，二等校验时发现**深诊断件一处归属误记**（「德扑标签犹豫」自证=徐丽 L1447，非 Vivian），卡内已按逐字稿修正并标注，执行报告中提请欧阳锋裁决是否勘误深诊断件
+
+  **质量链**
+  - 四路自攻击 6 份报告落 `60_feedback/adversarial/`：🔴0 / 🟡18（引用失真、时间线误置、互链口径矛盾、合规大象等实质项全部修复）/ 🟢30
+  - 伪逐字引文告警 13 处逐条修实（改原话或去引号标「口语原文整理」）；`pre-submit` 六卡全 PASS；索引增量已跑
+  - complete 走 `queue_transition.py`，双验证通过：队列行 + 任务单 frontmatter 均 `pending_review`；todos 已落行
+
+  按纪律不扩展：#642 修订单仍 queued（其交付口径=随 #641 随审，已满足），#643 未动。
+
+To resume this session: kimi -r session_196adadc-c906-4302-8085-b93d6075aee1

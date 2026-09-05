@@ -1,11 +1,11 @@
 # source_refs 健康检查报告
 
-**扫描范围**：2934 张卡片
-**有 source 的卡片**：2744 张
-**空 source 卡片**：187 张
-**source_refs 总数**：6019 条
-**文件路径类 source**：4336 条
-**✅ 文件存在**：4022 条
+**扫描范围**：2941 张卡片
+**有 source 的卡片**：2750 张
+**空 source 卡片**：188 张
+**source_refs 总数**：6026 条
+**文件路径类 source**：4343 条
+**✅ 文件存在**：4029 条
 **❌ 文件缺失**：314 条
 **⚠️ 污染引用**：8 条
 **🔗 行号锚引用**：784 条（剥锚后存在 784 条——剥锚修复前全被误判缺失，#543）
@@ -515,6 +515,7 @@
 | `case-popmart-molly-transition` | 2 | 2 | 0 | 0 | reviewed |
 | `case-popmart-prospectus-pricing` | 1 | 1 | 0 | 0 | enriched |
 | `case-private-board-conversion-skincare` | 4 | 0 | 4 | 0 | reviewed |
+| `case-private-board-majingjing-decision-camp` | 2 | 2 | 0 | 0 | draft |
 | `case-private-domain-ecommerce-formula` | 3 | 3 | 0 | 0 | reviewed |
 | `case-proya-betaine-skincare-benchmark` | 1 | 1 | 0 | 0 | enriched |
 | `case-qinpeng-hardware-ai-amplification` | 1 | 1 | 0 | 0 | reviewed |
@@ -1269,10 +1270,14 @@ expected <block end>, but found '<scalar>'
 | `dk-leadership-trust-coin-sensitivity` | 1 | 1 | 0 | 0 | reviewed |
 | `dk-let-ai-learn-for-me` | 1 | 0 | 1 | 0 | pending_review |
 | `dk-level-blindspot-external-feedback` | 1 | 1 | 0 | 0 | reviewed |
+| `dk-listen-ear-heart-qi` | 1 | 1 | 0 | 0 | draft |
 | `dk-long-material-layered-reading-protocol` | 2 | 2 | 0 | 0 | enriched |
 | `dk-lu-gui-lv-bu-bei-yu-wang` | 2 | 1 | 0 | 0 | reviewed |
 | `dk-lz-ai-native-organization` | 2 | 2 | 0 | 0 | reviewed |
 | `dk-lz-code-is-disposable` | 2 | 2 | 0 | 0 | reviewed |
+| `dk-majingjing-chengquan-thinking` | 1 | 1 | 0 | 0 | draft |
+| `dk-majingjing-momentum-design` | 1 | 1 | 0 | 0 | draft |
+| `dk-majingjing-role-ladder` | 1 | 1 | 0 | 0 | draft |
 | `dk-market-info-gap-to-product-strategy` | 1 | 1 | 0 | 0 | draft |
 | `dk-mcp-pythonpath-pollution` | 1 | 0 | 1 | 0 | draft |
 | `dk-model-demystification` | 1 | 1 | 0 | 0 | reviewed |
@@ -1340,6 +1345,7 @@ expected <block end>, but found '<scalar>'
 | `dk-wanghuan-output-equals-standard-times-iteration` | 2 | 2 | 0 | 0 | reviewed |
 | `dk-wanghuan-standard-by-iteration` | 2 | 2 | 0 | 0 | reviewed |
 | `dk-wanghuan-tacit-decision-extraction-cross-domain` | 3 | 3 | 0 | 0 | draft |
+| `dk-wangzhen-transfer-law` | 1 | 1 | 0 | 0 | draft |
 | `dk-weekly-modeling-iteration-growth-engine` | 1 | 1 | 0 | 0 | reviewed |
 | `dk-y-model-communication` | 1 | 1 | 0 | 0 | reviewed |
 | `dk-yb11-visual-book-reverse` | 1 | 1 | 0 | 0 | reviewed |

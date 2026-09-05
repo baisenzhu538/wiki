@@ -1,5 +1,6 @@
 # huangyaoshi 待办（探针通知 CLI 收件箱——启动读此文件；在外实例走飞书）
 
+- [2026-09-05 03:57] 🔴 KDO 退回 1 单（返工优先）：#645（task_20260905_huangyaoshi-conversation-distill-pipeline），见任务单终审记录
 - [2026-09-02 23:47] 🔴 KDO 退回 1 单（返工优先）：#622（task_20260902_huangyaoshi-graph-index-rebuild-sentinel），见任务单终审记录
 - [2026-08-28 05:57] 🔴 KDO 退回 1 单（返工优先）：#566（task_20260827_huangyaoshi-feature-json-mojibake-repair），见任务单终审记录
 - [2026-08-27 20:47] 🔴 KDO 退回 1 单（返工优先）：#556（task_20260827_huangyaoshi-pending-laozhu-decision-signal），见任务单终审记录
@@ -670,3 +671,86 @@
 - [2026-09-05 02:02] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
 - [2026-09-05 02:17] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
 - [2026-09-05 02:21] 【王语嫣复盘追问·09-04 你的复盘】①「治流不如治源」深；但你记的「同角色双实例 claim 无互斥竞态」是机制洞——你要方案还是挂停车场？回一行；②「任务单推断性归因先跑最小对照」——我认账（#634 tiny 归因我没实证就写死），今后任务单归因我标「推断/实证」；③完整性判断禁截断 ls——你和 K 会话同坑共享得好
+- [2026-09-05 02:32] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#644（ouyangfeng 的单，挂审 14min）（到点（节奏 15min））
+- [2026-09-05 02:52] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-05 03:07] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-05 03:22] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-05 03:27] 完成 #645 对话蒸馏管线（三层分流+每日23:50批次+原文锚红线）：蒸馏器 conversation_distill.py 交付，试跑 09-02~05 出样本 external43/zhu13/human8（锚拦截3/调用8失败0），计划任务 kdo-conversation-distill 已注册 S4U，矩阵行30+inventory 已同步，已提审 pending_review 待欧阳锋
+- [2026-09-05 03:32] 复盘完成：daily-context/2026-09-05.md（#645 一场，11 章全）；自检 🟡 B级；技能进化日志+失忆锚点已同步；friction-log 记 E040×gitignore 门禁冲突一条
+- [2026-09-05 03:42] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#645（huangyaoshi 的单，挂审 16min）（到点（节奏 15min））
+- [2026-09-05 03:57] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-05 04:17] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-05 04:17] 📥 KDO 可领取 1 单：#646
+- [2026-09-05 04:28] 返工完成 #645 对话蒸馏管线（欧阳锋 FAIL P1 修复）：chunk_events 改事件级 segments+resolve_src 行级回查真实 src，write_candidate/append_zhu 用事件自身 src；zhu 来源列存完整 session 路径；执行报告数字更正 67→64；旧 51 卡清除后复跑（external29/zhu14/human3），_tmp/645-verify-src.py 核验 46/46 命中 0 错位；已 complete 重提 pending_review（commit 75f7ae557）
+- [2026-09-05 04:35] 完成 #646 C:\Sysmon 59G CAS 溯源+处置：写入者=Sysmon EID23 归档机制（#591 配置 FileDelete include vault 触发，ArchiveDir 默认 C:\Sysmon），#592 三件套读码排除；FileDelete→FileDeleteDetected 关归档（EID26 检测保留），59G 归档+新目录全删，C 盘 51G→111G；已提审 pending_review 待欧阳锋
+- [2026-09-05 04:32] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#642（laowantong 的单，挂审 5min）；#645（huangyaoshi 的单，挂审 5min）；#646（huangyaoshi 的单，挂审 4min）（到点（节奏 15min））
+- [2026-09-05 04:52] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#642（laowantong 的单，挂审 25min）；#645（huangyaoshi 的单，挂审 25min）；#646（huangyaoshi 的单，挂审 24min）（到点（节奏 15min））
+- [2026-09-05 05:07] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 40min）；#645（huangyaoshi 的单，挂审 40min）；#646（huangyaoshi 的单，挂审 39min）（到点（节奏 15min））
+- [2026-09-05 05:27] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 60min）；#645（huangyaoshi 的单，挂审 60min）；#646（huangyaoshi 的单，挂审 59min）（到点（节奏 15min））
+- [2026-09-05 05:42] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 75min）；#645（huangyaoshi 的单，挂审 75min）；#646（huangyaoshi 的单，挂审 74min）（到点（节奏 15min））
+- [2026-09-05 05:57] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 90min）；#645（huangyaoshi 的单，挂审 90min）；#646（huangyaoshi 的单，挂审 89min）（到点（节奏 15min））
+- [2026-09-05 06:12] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 105min）；#645（huangyaoshi 的单，挂审 105min）；#646（huangyaoshi 的单，挂审 104min）（到点（节奏 15min））
+- [2026-09-05 06:27] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 120min）；#645（huangyaoshi 的单，挂审 120min）；#646（huangyaoshi 的单，挂审 119min）（到点（节奏 15min））
+- [2026-09-05 06:42] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 135min）；#645（huangyaoshi 的单，挂审 135min）；#646（huangyaoshi 的单，挂审 134min）（到点（节奏 15min））
+- [2026-09-05 06:57] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 150min）；#645（huangyaoshi 的单，挂审 150min）；#646（huangyaoshi 的单，挂审 149min）（到点（节奏 15min））
+- [2026-09-05 07:12] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 165min）；#645（huangyaoshi 的单，挂审 165min）；#646（huangyaoshi 的单，挂审 164min）（到点（节奏 15min））
+- [2026-09-05 07:32] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 185min）；#645（huangyaoshi 的单，挂审 185min）；#646（huangyaoshi 的单，挂审 184min）（到点（节奏 15min））
+- [2026-09-05 07:52] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 205min）；#645（huangyaoshi 的单，挂审 205min）；#646（huangyaoshi 的单，挂审 204min）（到点（节奏 15min））
+- [2026-09-05 08:07] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 220min）；#645（huangyaoshi 的单，挂审 220min）；#646（huangyaoshi 的单，挂审 219min）（到点（节奏 15min））
+- [2026-09-05 08:22] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 235min）；#645（huangyaoshi 的单，挂审 235min）；#646（huangyaoshi 的单，挂审 234min）（到点（节奏 15min））
+- [2026-09-05 08:42] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 255min）；#645（huangyaoshi 的单，挂审 255min）；#646（huangyaoshi 的单，挂审 254min）（到点（节奏 15min））
+- [2026-09-05 08:57] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 270min）；#645（huangyaoshi 的单，挂审 270min）；#646（huangyaoshi 的单，挂审 269min）（到点（节奏 15min））
+- [2026-09-05 09:12] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 285min）；#645（huangyaoshi 的单，挂审 285min）；#646（huangyaoshi 的单，挂审 284min）（到点（节奏 15min））
+- [2026-09-05 09:32] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 305min）；#645（huangyaoshi 的单，挂审 305min）；#646（huangyaoshi 的单，挂审 304min）（到点（节奏 15min））
+- [2026-09-05 09:52] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 325min）；#645（huangyaoshi 的单，挂审 325min）；#646（huangyaoshi 的单，挂审 324min）（到点（节奏 15min））
+- [2026-09-05 10:12] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 345min）；#645（huangyaoshi 的单，挂审 345min）；#646（huangyaoshi 的单，挂审 344min）（到点（节奏 15min））
+- [2026-09-05 10:32] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 365min）；#645（huangyaoshi 的单，挂审 365min）；#646（huangyaoshi 的单，挂审 364min）（到点（节奏 15min））
+- [2026-09-05 10:47] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 380min）；#645（huangyaoshi 的单，挂审 380min）；#646（huangyaoshi 的单，挂审 379min）（到点（节奏 15min））
+- [2026-09-05 11:02] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 395min）；#645（huangyaoshi 的单，挂审 395min）；#646（huangyaoshi 的单，挂审 394min）（到点（节奏 15min））
+- [2026-09-05 11:22] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 415min）；#645（huangyaoshi 的单，挂审 415min）；#646（huangyaoshi 的单，挂审 414min）（到点（节奏 15min））
+- [2026-09-05 11:42] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 435min）；#645（huangyaoshi 的单，挂审 435min）；#646（huangyaoshi 的单，挂审 434min）（到点（节奏 15min））
+- [2026-09-05 11:57] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 450min）；#645（huangyaoshi 的单，挂审 450min）；#646（huangyaoshi 的单，挂审 449min）（到点（节奏 15min））
+- [2026-09-05 12:12] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 465min）；#645（huangyaoshi 的单，挂审 465min）；#646（huangyaoshi 的单，挂审 464min）（到点（节奏 15min））
+- [2026-09-05 12:27] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 480min）；#645（huangyaoshi 的单，挂审 480min）；#646（huangyaoshi 的单，挂审 479min）（到点（节奏 15min））
+- [2026-09-05 12:42] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 495min）；#645（huangyaoshi 的单，挂审 495min）；#646（huangyaoshi 的单，挂审 494min）（到点（节奏 15min））
+- [2026-09-05 13:02] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 515min）；#645（huangyaoshi 的单，挂审 515min）；#646（huangyaoshi 的单，挂审 514min）（到点（节奏 15min））
+- [2026-09-05 13:22] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 535min）；#645（huangyaoshi 的单，挂审 535min）；#646（huangyaoshi 的单，挂审 534min）（到点（节奏 15min））
+- [2026-09-05 13:42] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 555min）；#645（huangyaoshi 的单，挂审 555min）；#646（huangyaoshi 的单，挂审 554min）（到点（节奏 15min））
+- [2026-09-05 14:02] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 575min）；#645（huangyaoshi 的单，挂审 575min）；#646（huangyaoshi 的单，挂审 574min）（到点（节奏 15min））
+- [2026-09-05 14:17] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 590min）；#645（huangyaoshi 的单，挂审 590min）；#646（huangyaoshi 的单，挂审 589min）（到点（节奏 15min））
+- [2026-09-05 14:32] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 605min）；#645（huangyaoshi 的单，挂审 605min）；#646（huangyaoshi 的单，挂审 604min）（到点（节奏 15min））
+- [2026-09-05 14:47] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 620min）；#645（huangyaoshi 的单，挂审 620min）；#646（huangyaoshi 的单，挂审 619min）（到点（节奏 15min））
+- [2026-09-05 15:02] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 635min）；#645（huangyaoshi 的单，挂审 635min）；#646（huangyaoshi 的单，挂审 634min）（到点（节奏 15min））
+- [2026-09-05 15:22] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 655min）；#645（huangyaoshi 的单，挂审 655min）；#646（huangyaoshi 的单，挂审 654min）（到点（节奏 15min））
+- [2026-09-05 15:42] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 675min）；#645（huangyaoshi 的单，挂审 675min）；#646（huangyaoshi 的单，挂审 674min）（到点（节奏 15min））
+- [2026-09-05 15:57] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 690min）；#645（huangyaoshi 的单，挂审 690min）；#646（huangyaoshi 的单，挂审 689min）（到点（节奏 15min））
+- [2026-09-05 16:12] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 705min）；#645（huangyaoshi 的单，挂审 705min）；#646（huangyaoshi 的单，挂审 704min）（到点（节奏 15min））
+- [2026-09-05 16:27] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 720min）；#645（huangyaoshi 的单，挂审 720min）；#646（huangyaoshi 的单，挂审 719min）（到点（节奏 15min））
+- [2026-09-05 16:42] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 735min）；#645（huangyaoshi 的单，挂审 735min）；#646（huangyaoshi 的单，挂审 734min）（到点（节奏 15min））
+- [2026-09-05 16:57] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 750min）；#645（huangyaoshi 的单，挂审 750min）；#646（huangyaoshi 的单，挂审 749min）（到点（节奏 15min））
+- [2026-09-05 17:17] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 770min）；#645（huangyaoshi 的单，挂审 770min）；#646（huangyaoshi 的单，挂审 769min）（到点（节奏 15min））
+- [2026-09-05 17:37] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 790min）；#645（huangyaoshi 的单，挂审 790min）；#646（huangyaoshi 的单，挂审 789min）（到点（节奏 15min））
+- [2026-09-05 17:52] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 805min）；#645（huangyaoshi 的单，挂审 805min）；#646（huangyaoshi 的单，挂审 804min）（到点（节奏 15min））
+- [2026-09-05 18:07] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 820min）；#645（huangyaoshi 的单，挂审 820min）；#646（huangyaoshi 的单，挂审 819min）（到点（节奏 15min））
+- [2026-09-05 18:22] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 835min）；#645（huangyaoshi 的单，挂审 835min）；#646（huangyaoshi 的单，挂审 834min）（到点（节奏 15min））
+- [2026-09-05 18:37] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 850min）；#645（huangyaoshi 的单，挂审 850min）；#646（huangyaoshi 的单，挂审 849min）（到点（节奏 15min））
+- [2026-09-05 18:52] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 865min）；#645（huangyaoshi 的单，挂审 865min）；#646（huangyaoshi 的单，挂审 864min）（到点（节奏 15min））
+- [2026-09-05 19:07] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 880min）；#645（huangyaoshi 的单，挂审 880min）；#646（huangyaoshi 的单，挂审 879min）（到点（节奏 15min））
+- [2026-09-05 19:27] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 900min）；#645（huangyaoshi 的单，挂审 900min）；#646（huangyaoshi 的单，挂审 899min）（到点（节奏 15min））
+- [2026-09-05 19:42] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 915min）；#645（huangyaoshi 的单，挂审 915min）；#646（huangyaoshi 的单，挂审 914min）（到点（节奏 15min））
+- [2026-09-05 20:02] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 935min）；#645（huangyaoshi 的单，挂审 935min）；#646（huangyaoshi 的单，挂审 934min）（到点（节奏 15min））
+- [2026-09-05 20:17] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 950min）；#645（huangyaoshi 的单，挂审 950min）；#646（huangyaoshi 的单，挂审 949min）（到点（节奏 15min））
+- [2026-09-05 20:37] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 970min）；#645（huangyaoshi 的单，挂审 970min）；#646（huangyaoshi 的单，挂审 969min）（到点（节奏 15min））
+- [2026-09-05 20:57] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 990min）；#645（huangyaoshi 的单，挂审 990min）；#646（huangyaoshi 的单，挂审 989min）（到点（节奏 15min））
+- [2026-09-05 21:17] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 1010min）；#645（huangyaoshi 的单，挂审 1010min）；#646（huangyaoshi 的单，挂审 1009min）（到点（节奏 15min））
+- [2026-09-05 21:32] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 1025min）；#645（huangyaoshi 的单，挂审 1025min）；#646（huangyaoshi 的单，挂审 1024min）（到点（节奏 15min））
+- [2026-09-05 21:47] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 1040min）；#645（huangyaoshi 的单，挂审 1040min）；#646（huangyaoshi 的单，挂审 1039min）（到点（节奏 15min））
+- [2026-09-05 22:02] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 1055min）；#645（huangyaoshi 的单，挂审 1055min）；#646（huangyaoshi 的单，挂审 1054min）（到点（节奏 15min））
+- [2026-09-05 22:17] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 1070min）；#645（huangyaoshi 的单，挂审 1070min）；#646（huangyaoshi 的单，挂审 1069min）（到点（节奏 15min））
+- [2026-09-05 22:32] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 1085min）；#645（huangyaoshi 的单，挂审 1085min）；#646（huangyaoshi 的单，挂审 1084min）（到点（节奏 15min））
+- [2026-09-05 22:47] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 1100min）；#645（huangyaoshi 的单，挂审 1100min）；#646（huangyaoshi 的单，挂审 1099min）（到点（节奏 15min））
+- [2026-09-05 23:07] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 1120min）；#645（huangyaoshi 的单，挂审 1120min）；#646（huangyaoshi 的单，挂审 1119min）（到点（节奏 15min））
+- [2026-09-05 23:22] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 1135min）；#645（huangyaoshi 的单，挂审 1135min）；#646（huangyaoshi 的单，挂审 1134min）（到点（节奏 15min））
+- [2026-09-05 23:37] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 1150min）；#645（huangyaoshi 的单，挂审 1150min）；#646（huangyaoshi 的单，挂审 1149min）（到点（节奏 15min））
+- [2026-09-05 23:52] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 1165min）；#645（huangyaoshi 的单，挂审 1165min）；#646（huangyaoshi 的单，挂审 1164min）（到点（节奏 15min））
+- [2026-09-06 00:12] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 1185min）；#645（huangyaoshi 的单，挂审 1185min）；#646（huangyaoshi 的单，挂审 1184min）（到点（节奏 15min））

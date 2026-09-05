@@ -1,0 +1,12 @@
+[03:11:13] #645 conversation_distill 启动 since=1788278400000 until=1788624000000 cursor=False
+[03:11:20] 抽取：kimi 1550 条 / headless 93 段 / hermes 0 条
+[03:11:20] 分块 129 个（上限 8）
+[03:11:20]   chunk0: 27263 chars src=headless-huangyaoshi-20260902-025325.log
+[03:11:20]   chunk1: 16215740 chars src=headless-huangyaoshi-20260902-044139.log
+[03:11:20]   chunk2: 34382 chars src=headless-huangyaoshi-20260902-091141.log
+[03:11:20]   chunk3: 85600 chars src=headless-huangyaoshi-20260902-114340.log
+[03:11:20]   chunk4: 128448 chars src=headless-huangyaoshi-20260902-212943.log
+[03:11:20]   chunk5: 2457 chars src=headless-huangyaoshi-20260902-220529.log
+[03:11:20]   chunk6: 60422 chars src=headless-huangyaoshi-20260902-222941.log
+[03:11:20]   chunk7: 29033 chars src=headless-huangyaoshi-20260902-231026.log
+[03:11:20] dry-run 结束（未调 LLM）

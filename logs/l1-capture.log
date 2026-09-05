@@ -1521,3 +1521,191 @@ FileNotFoundError: [WinError 2] ϵͳ�Ҳ���ָ�����ļ���: 'C:\\Users\\Administrato
 ✅ trace 索引已追加: D:\KDO-memory\L1-full\trace-index-2026-09-05.md
 ℹ️ C 盘镜像已移除（#491 老朱拍板）：采集后不再写 C 盘，D 主库为唯一全量
 ✅ verify PASS：主库 165 文件完整 + 抽样可读（D 单盘口径，#491）
+✅ 采集完成: 新增 49 / 跳过 13054 → D:\KDO-memory\L1-full\2026-09-05（日期增量口径，#508）
+✅ trace 索引已追加: D:\KDO-memory\L1-full\trace-index-2026-09-05.md
+ℹ️ C 盘镜像已移除（#491 老朱拍板）：采集后不再写 C 盘，D 主库为唯一全量
+✅ verify PASS：主库 171 文件完整 + 抽样可读（D 单盘口径，#491）
+✅ 采集完成: 新增 46 / 跳过 13060 → D:\KDO-memory\L1-full\2026-09-05（日期增量口径，#508）
+✅ trace 索引已追加: D:\KDO-memory\L1-full\trace-index-2026-09-05.md
+ℹ️ C 盘镜像已移除（#491 老朱拍板）：采集后不再写 C 盘，D 主库为唯一全量
+✅ verify PASS：主库 174 文件完整 + 抽样可读（D 单盘口径，#491）
+✅ 采集完成: 新增 36 / 跳过 13070 → D:\KDO-memory\L1-full\2026-09-05（日期增量口径，#508）
+✅ trace 索引已追加: D:\KDO-memory\L1-full\trace-index-2026-09-05.md
+ℹ️ C 盘镜像已移除（#491 老朱拍板）：采集后不再写 C 盘，D 主库为唯一全量
+✅ verify PASS：主库 174 文件完整 + 抽样可读（D 单盘口径，#491）
+✅ 采集完成: 新增 51 / 跳过 13065 → D:\KDO-memory\L1-full\2026-09-05（日期增量口径，#508）
+✅ trace 索引已追加: D:\KDO-memory\L1-full\trace-index-2026-09-05.md
+ℹ️ C 盘镜像已移除（#491 老朱拍板）：采集后不再写 C 盘，D 主库为唯一全量
+✅ verify PASS：主库 184 文件完整 + 抽样可读（D 单盘口径，#491）
+✅ 采集完成: 新增 46 / 跳过 13076 → D:\KDO-memory\L1-full\2026-09-05（日期增量口径，#508）
+✅ trace 索引已追加: D:\KDO-memory\L1-full\trace-index-2026-09-05.md
+ℹ️ C 盘镜像已移除（#491 老朱拍板）：采集后不再写 C 盘，D 主库为唯一全量
+✅ verify PASS：主库 190 文件完整 + 抽样可读（D 单盘口径，#491）
+✅ 采集完成: 新增 42 / 跳过 13085 → D:\KDO-memory\L1-full\2026-09-05（日期增量口径，#508）
+✅ trace 索引已追加: D:\KDO-memory\L1-full\trace-index-2026-09-05.md
+ℹ️ C 盘镜像已移除（#491 老朱拍板）：采集后不再写 C 盘，D 主库为唯一全量
+✅ verify PASS：主库 195 文件完整 + 抽样可读（D 单盘口径，#491）
+✅ 采集完成: 新增 55 / 跳过 13078 → D:\KDO-memory\L1-full\2026-09-05（日期增量口径，#508）
+✅ trace 索引已追加: D:\KDO-memory\L1-full\trace-index-2026-09-05.md
+ℹ️ C 盘镜像已移除（#491 老朱拍板）：采集后不再写 C 盘，D 主库为唯一全量
+✅ verify PASS：主库 205 文件完整 + 抽样可读（D 单盘口径，#491）
+✅ 采集完成: 新增 59 / 跳过 13085 → D:\KDO-memory\L1-full\2026-09-05（日期增量口径，#508）
+✅ trace 索引已追加: D:\KDO-memory\L1-full\trace-index-2026-09-05.md
+ℹ️ C 盘镜像已移除（#491 老朱拍板）：采集后不再写 C 盘，D 主库为唯一全量
+✅ verify PASS：主库 220 文件完整 + 抽样可读（D 单盘口径，#491）
+✅ 采集完成: 新增 31 / 跳过 13113 → D:\KDO-memory\L1-full\2026-09-05（日期增量口径，#508）
+✅ trace 索引已追加: D:\KDO-memory\L1-full\trace-index-2026-09-05.md
+ℹ️ C 盘镜像已移除（#491 老朱拍板）：采集后不再写 C 盘，D 主库为唯一全量
+✅ verify PASS：主库 220 文件完整 + 抽样可读（D 单盘口径，#491）
+✅ 采集完成: 新增 32 / 跳过 13112 → D:\KDO-memory\L1-full\2026-09-05（日期增量口径，#508）
+✅ trace 索引已追加: D:\KDO-memory\L1-full\trace-index-2026-09-05.md
+ℹ️ C 盘镜像已移除（#491 老朱拍板）：采集后不再写 C 盘，D 主库为唯一全量
+✅ verify PASS：主库 220 文件完整 + 抽样可读（D 单盘口径，#491）
+✅ 采集完成: 新增 31 / 跳过 13113 → D:\KDO-memory\L1-full\2026-09-05（日期增量口径，#508）
+✅ trace 索引已追加: D:\KDO-memory\L1-full\trace-index-2026-09-05.md
+ℹ️ C 盘镜像已移除（#491 老朱拍板）：采集后不再写 C 盘，D 主库为唯一全量
+✅ verify PASS：主库 112 文件完整 + 抽样可读（D 单盘口径，#491）
+✅ 采集完成: 新增 32 / 跳过 13112 → D:\KDO-memory\L1-full\2026-09-05（日期增量口径，#508）
+✅ trace 索引已追加: D:\KDO-memory\L1-full\trace-index-2026-09-05.md
+ℹ️ C 盘镜像已移除（#491 老朱拍板）：采集后不再写 C 盘，D 主库为唯一全量
+✅ verify PASS：主库 112 文件完整 + 抽样可读（D 单盘口径，#491）
+✅ 采集完成: 新增 31 / 跳过 13113 → D:\KDO-memory\L1-full\2026-09-05（日期增量口径，#508）
+✅ trace 索引已追加: D:\KDO-memory\L1-full\trace-index-2026-09-05.md
+ℹ️ C 盘镜像已移除（#491 老朱拍板）：采集后不再写 C 盘，D 主库为唯一全量
+✅ verify PASS：主库 112 文件完整 + 抽样可读（D 单盘口径，#491）
+✅ 采集完成: 新增 32 / 跳过 13112 → D:\KDO-memory\L1-full\2026-09-05（日期增量口径，#508）
+✅ trace 索引已追加: D:\KDO-memory\L1-full\trace-index-2026-09-05.md
+ℹ️ C 盘镜像已移除（#491 老朱拍板）：采集后不再写 C 盘，D 主库为唯一全量
+✅ verify PASS：主库 112 文件完整 + 抽样可读（D 单盘口径，#491）
+✅ 采集完成: 新增 31 / 跳过 13113 → D:\KDO-memory\L1-full\2026-09-05（日期增量口径，#508）
+✅ trace 索引已追加: D:\KDO-memory\L1-full\trace-index-2026-09-05.md
+ℹ️ C 盘镜像已移除（#491 老朱拍板）：采集后不再写 C 盘，D 主库为唯一全量
+✅ verify PASS：主库 112 文件完整 + 抽样可读（D 单盘口径，#491）
+✅ 采集完成: 新增 32 / 跳过 13112 → D:\KDO-memory\L1-full\2026-09-05（日期增量口径，#508）
+✅ trace 索引已追加: D:\KDO-memory\L1-full\trace-index-2026-09-05.md
+ℹ️ C 盘镜像已移除（#491 老朱拍板）：采集后不再写 C 盘，D 主库为唯一全量
+✅ verify PASS：主库 112 文件完整 + 抽样可读（D 单盘口径，#491）
+✅ 采集完成: 新增 31 / 跳过 13113 → D:\KDO-memory\L1-full\2026-09-05（日期增量口径，#508）
+✅ trace 索引已追加: D:\KDO-memory\L1-full\trace-index-2026-09-05.md
+ℹ️ C 盘镜像已移除（#491 老朱拍板）：采集后不再写 C 盘，D 主库为唯一全量
+✅ verify PASS：主库 112 文件完整 + 抽样可读（D 单盘口径，#491）
+✅ 采集完成: 新增 32 / 跳过 13112 → D:\KDO-memory\L1-full\2026-09-05（日期增量口径，#508）
+✅ trace 索引已追加: D:\KDO-memory\L1-full\trace-index-2026-09-05.md
+ℹ️ C 盘镜像已移除（#491 老朱拍板）：采集后不再写 C 盘，D 主库为唯一全量
+✅ verify PASS：主库 112 文件完整 + 抽样可读（D 单盘口径，#491）
+✅ 采集完成: 新增 31 / 跳过 13113 → D:\KDO-memory\L1-full\2026-09-05（日期增量口径，#508）
+✅ trace 索引已追加: D:\KDO-memory\L1-full\trace-index-2026-09-05.md
+ℹ️ C 盘镜像已移除（#491 老朱拍板）：采集后不再写 C 盘，D 主库为唯一全量
+✅ verify PASS：主库 112 文件完整 + 抽样可读（D 单盘口径，#491）
+✅ 采集完成: 新增 32 / 跳过 13112 → D:\KDO-memory\L1-full\2026-09-05（日期增量口径，#508）
+✅ trace 索引已追加: D:\KDO-memory\L1-full\trace-index-2026-09-05.md
+ℹ️ C 盘镜像已移除（#491 老朱拍板）：采集后不再写 C 盘，D 主库为唯一全量
+✅ verify PASS：主库 112 文件完整 + 抽样可读（D 单盘口径，#491）
+✅ 采集完成: 新增 31 / 跳过 13113 → D:\KDO-memory\L1-full\2026-09-05（日期增量口径，#508）
+✅ trace 索引已追加: D:\KDO-memory\L1-full\trace-index-2026-09-05.md
+ℹ️ C 盘镜像已移除（#491 老朱拍板）：采集后不再写 C 盘，D 主库为唯一全量
+✅ verify PASS：主库 112 文件完整 + 抽样可读（D 单盘口径，#491）
+✅ 采集完成: 新增 32 / 跳过 13112 → D:\KDO-memory\L1-full\2026-09-05（日期增量口径，#508）
+✅ trace 索引已追加: D:\KDO-memory\L1-full\trace-index-2026-09-05.md
+ℹ️ C 盘镜像已移除（#491 老朱拍板）：采集后不再写 C 盘，D 主库为唯一全量
+✅ verify PASS：主库 112 文件完整 + 抽样可读（D 单盘口径，#491）
+✅ 采集完成: 新增 31 / 跳过 13113 → D:\KDO-memory\L1-full\2026-09-05（日期增量口径，#508）
+✅ trace 索引已追加: D:\KDO-memory\L1-full\trace-index-2026-09-05.md
+ℹ️ C 盘镜像已移除（#491 老朱拍板）：采集后不再写 C 盘，D 主库为唯一全量
+✅ verify PASS：主库 112 文件完整 + 抽样可读（D 单盘口径，#491）
+✅ 采集完成: 新增 32 / 跳过 13112 → D:\KDO-memory\L1-full\2026-09-05（日期增量口径，#508）
+✅ trace 索引已追加: D:\KDO-memory\L1-full\trace-index-2026-09-05.md
+ℹ️ C 盘镜像已移除（#491 老朱拍板）：采集后不再写 C 盘，D 主库为唯一全量
+✅ verify PASS：主库 112 文件完整 + 抽样可读（D 单盘口径，#491）
+✅ 采集完成: 新增 31 / 跳过 13113 → D:\KDO-memory\L1-full\2026-09-05（日期增量口径，#508）
+✅ trace 索引已追加: D:\KDO-memory\L1-full\trace-index-2026-09-05.md
+ℹ️ C 盘镜像已移除（#491 老朱拍板）：采集后不再写 C 盘，D 主库为唯一全量
+✅ verify PASS：主库 112 文件完整 + 抽样可读（D 单盘口径，#491）
+✅ 采集完成: 新增 32 / 跳过 13112 → D:\KDO-memory\L1-full\2026-09-05（日期增量口径，#508）
+✅ trace 索引已追加: D:\KDO-memory\L1-full\trace-index-2026-09-05.md
+ℹ️ C 盘镜像已移除（#491 老朱拍板）：采集后不再写 C 盘，D 主库为唯一全量
+✅ verify PASS：主库 112 文件完整 + 抽样可读（D 单盘口径，#491）
+✅ 采集完成: 新增 31 / 跳过 13113 → D:\KDO-memory\L1-full\2026-09-05（日期增量口径，#508）
+✅ trace 索引已追加: D:\KDO-memory\L1-full\trace-index-2026-09-05.md
+ℹ️ C 盘镜像已移除（#491 老朱拍板）：采集后不再写 C 盘，D 主库为唯一全量
+✅ verify PASS：主库 112 文件完整 + 抽样可读（D 单盘口径，#491）
+✅ 采集完成: 新增 32 / 跳过 13112 → D:\KDO-memory\L1-full\2026-09-05（日期增量口径，#508）
+✅ trace 索引已追加: D:\KDO-memory\L1-full\trace-index-2026-09-05.md
+ℹ️ C 盘镜像已移除（#491 老朱拍板）：采集后不再写 C 盘，D 主库为唯一全量
+✅ verify PASS：主库 112 文件完整 + 抽样可读（D 单盘口径，#491）
+✅ 采集完成: 新增 31 / 跳过 13113 → D:\KDO-memory\L1-full\2026-09-05（日期增量口径，#508）
+✅ trace 索引已追加: D:\KDO-memory\L1-full\trace-index-2026-09-05.md
+ℹ️ C 盘镜像已移除（#491 老朱拍板）：采集后不再写 C 盘，D 主库为唯一全量
+✅ verify PASS：主库 112 文件完整 + 抽样可读（D 单盘口径，#491）
+✅ 采集完成: 新增 32 / 跳过 13112 → D:\KDO-memory\L1-full\2026-09-05（日期增量口径，#508）
+✅ trace 索引已追加: D:\KDO-memory\L1-full\trace-index-2026-09-05.md
+ℹ️ C 盘镜像已移除（#491 老朱拍板）：采集后不再写 C 盘，D 主库为唯一全量
+✅ verify PASS：主库 112 文件完整 + 抽样可读（D 单盘口径，#491）
+✅ 采集完成: 新增 31 / 跳过 13113 → D:\KDO-memory\L1-full\2026-09-05（日期增量口径，#508）
+✅ trace 索引已追加: D:\KDO-memory\L1-full\trace-index-2026-09-05.md
+ℹ️ C 盘镜像已移除（#491 老朱拍板）：采集后不再写 C 盘，D 主库为唯一全量
+✅ verify PASS：主库 112 文件完整 + 抽样可读（D 单盘口径，#491）
+✅ 采集完成: 新增 32 / 跳过 13112 → D:\KDO-memory\L1-full\2026-09-05（日期增量口径，#508）
+✅ trace 索引已追加: D:\KDO-memory\L1-full\trace-index-2026-09-05.md
+ℹ️ C 盘镜像已移除（#491 老朱拍板）：采集后不再写 C 盘，D 主库为唯一全量
+✅ verify PASS：主库 112 文件完整 + 抽样可读（D 单盘口径，#491）
+✅ 采集完成: 新增 31 / 跳过 13113 → D:\KDO-memory\L1-full\2026-09-05（日期增量口径，#508）
+✅ trace 索引已追加: D:\KDO-memory\L1-full\trace-index-2026-09-05.md
+ℹ️ C 盘镜像已移除（#491 老朱拍板）：采集后不再写 C 盘，D 主库为唯一全量
+✅ verify PASS：主库 112 文件完整 + 抽样可读（D 单盘口径，#491）
+✅ 采集完成: 新增 32 / 跳过 13112 → D:\KDO-memory\L1-full\2026-09-05（日期增量口径，#508）
+✅ trace 索引已追加: D:\KDO-memory\L1-full\trace-index-2026-09-05.md
+ℹ️ C 盘镜像已移除（#491 老朱拍板）：采集后不再写 C 盘，D 主库为唯一全量
+✅ verify PASS：主库 112 文件完整 + 抽样可读（D 单盘口径，#491）
+✅ 采集完成: 新增 31 / 跳过 13113 → D:\KDO-memory\L1-full\2026-09-05（日期增量口径，#508）
+✅ trace 索引已追加: D:\KDO-memory\L1-full\trace-index-2026-09-05.md
+ℹ️ C 盘镜像已移除（#491 老朱拍板）：采集后不再写 C 盘，D 主库为唯一全量
+✅ verify PASS：主库 112 文件完整 + 抽样可读（D 单盘口径，#491）
+✅ 采集完成: 新增 32 / 跳过 13112 → D:\KDO-memory\L1-full\2026-09-05（日期增量口径，#508）
+✅ trace 索引已追加: D:\KDO-memory\L1-full\trace-index-2026-09-05.md
+ℹ️ C 盘镜像已移除（#491 老朱拍板）：采集后不再写 C 盘，D 主库为唯一全量
+✅ verify PASS：主库 112 文件完整 + 抽样可读（D 单盘口径，#491）
+✅ 采集完成: 新增 31 / 跳过 13113 → D:\KDO-memory\L1-full\2026-09-05（日期增量口径，#508）
+✅ trace 索引已追加: D:\KDO-memory\L1-full\trace-index-2026-09-05.md
+ℹ️ C 盘镜像已移除（#491 老朱拍板）：采集后不再写 C 盘，D 主库为唯一全量
+✅ verify PASS：主库 112 文件完整 + 抽样可读（D 单盘口径，#491）
+✅ 采集完成: 新增 32 / 跳过 13112 → D:\KDO-memory\L1-full\2026-09-05（日期增量口径，#508）
+✅ trace 索引已追加: D:\KDO-memory\L1-full\trace-index-2026-09-05.md
+ℹ️ C 盘镜像已移除（#491 老朱拍板）：采集后不再写 C 盘，D 主库为唯一全量
+✅ verify PASS：主库 112 文件完整 + 抽样可读（D 单盘口径，#491）
+✅ 采集完成: 新增 31 / 跳过 13113 → D:\KDO-memory\L1-full\2026-09-05（日期增量口径，#508）
+✅ trace 索引已追加: D:\KDO-memory\L1-full\trace-index-2026-09-05.md
+ℹ️ C 盘镜像已移除（#491 老朱拍板）：采集后不再写 C 盘，D 主库为唯一全量
+✅ verify PASS：主库 112 文件完整 + 抽样可读（D 单盘口径，#491）
+✅ 采集完成: 新增 32 / 跳过 13112 → D:\KDO-memory\L1-full\2026-09-05（日期增量口径，#508）
+✅ trace 索引已追加: D:\KDO-memory\L1-full\trace-index-2026-09-05.md
+ℹ️ C 盘镜像已移除（#491 老朱拍板）：采集后不再写 C 盘，D 主库为唯一全量
+✅ verify PASS：主库 112 文件完整 + 抽样可读（D 单盘口径，#491）
+✅ 采集完成: 新增 31 / 跳过 13113 → D:\KDO-memory\L1-full\2026-09-05（日期增量口径，#508）
+✅ trace 索引已追加: D:\KDO-memory\L1-full\trace-index-2026-09-05.md
+ℹ️ C 盘镜像已移除（#491 老朱拍板）：采集后不再写 C 盘，D 主库为唯一全量
+✅ verify PASS：主库 112 文件完整 + 抽样可读（D 单盘口径，#491）
+✅ 采集完成: 新增 32 / 跳过 13112 → D:\KDO-memory\L1-full\2026-09-05（日期增量口径，#508）
+✅ trace 索引已追加: D:\KDO-memory\L1-full\trace-index-2026-09-05.md
+ℹ️ C 盘镜像已移除（#491 老朱拍板）：采集后不再写 C 盘，D 主库为唯一全量
+✅ verify PASS：主库 112 文件完整 + 抽样可读（D 单盘口径，#491）
+✅ 采集完成: 新增 31 / 跳过 13113 → D:\KDO-memory\L1-full\2026-09-05（日期增量口径，#508）
+✅ trace 索引已追加: D:\KDO-memory\L1-full\trace-index-2026-09-05.md
+ℹ️ C 盘镜像已移除（#491 老朱拍板）：采集后不再写 C 盘，D 主库为唯一全量
+✅ verify PASS：主库 112 文件完整 + 抽样可读（D 单盘口径，#491）
+✅ 采集完成: 新增 32 / 跳过 13112 → D:\KDO-memory\L1-full\2026-09-05（日期增量口径，#508）
+✅ trace 索引已追加: D:\KDO-memory\L1-full\trace-index-2026-09-05.md
+ℹ️ C 盘镜像已移除（#491 老朱拍板）：采集后不再写 C 盘，D 主库为唯一全量
+✅ verify PASS：主库 112 文件完整 + 抽样可读（D 单盘口径，#491）
+✅ 采集完成: 新增 49 / 跳过 13107 → D:\KDO-memory\L1-full\2026-09-05（日期增量口径，#508）
+✅ trace 索引已追加: D:\KDO-memory\L1-full\trace-index-2026-09-05.md
+ℹ️ C 盘镜像已移除（#491 老朱拍板）：采集后不再写 C 盘，D 主库为唯一全量
+✅ verify PASS：主库 130 文件完整 + 抽样可读（D 单盘口径，#491）
+✅ 采集完成: 新增 36 / 跳过 13121 → D:\KDO-memory\L1-full\2026-09-05（日期增量口径，#508）
+✅ trace 索引已追加: D:\KDO-memory\L1-full\trace-index-2026-09-05.md
+ℹ️ C 盘镜像已移除（#491 老朱拍板）：采集后不再写 C 盘，D 主库为唯一全量
+✅ verify PASS：主库 131 文件完整 + 抽样可读（D 单盘口径，#491）
+✅ 采集完成: 新增 54 / 跳过 13112 → D:\KDO-memory\L1-full\2026-09-06（日期增量口径，#508）
+✅ trace 索引已追加: D:\KDO-memory\L1-full\trace-index-2026-09-06.md
+ℹ️ C 盘镜像已移除（#491 老朱拍板）：采集后不再写 C 盘，D 主库为唯一全量
+✅ verify PASS：主库 186 文件完整 + 抽样可读（D 单盘口径，#491）

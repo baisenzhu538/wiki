@@ -1,0 +1,12 @@
+[03:11:55] #645 conversation_distill 启动 since=1788278400000 until=1788624000000 cursor=False
+[03:12:01] 抽取：kimi 1550 条 / headless 93 段 / hermes 0 条
+[03:12:24] 分块 4602 个（上限 8）
+[03:12:24]   chunk0: 4649 chars src=wire.jsonl
+[03:12:24]   chunk1: 6380 chars src=wire.jsonl
+[03:12:24]   chunk2: 3561 chars src=wire.jsonl
+[03:12:24]   chunk3: 5889 chars src=wire.jsonl
+[03:12:24]   chunk4: 7000 chars src=wire.jsonl
+[03:12:24]   chunk5: 6567 chars src=wire.jsonl
+[03:12:24]   chunk6: 6923 chars src=wire.jsonl
+[03:12:24]   chunk7: 6975 chars src=wire.jsonl
+[03:12:24] dry-run 结束（未调 LLM）

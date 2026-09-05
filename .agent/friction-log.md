@@ -130,3 +130,7 @@ updated_at: 2026-08-09
 - [2026-09-04 20:25] huangyaoshi｜#637收尾改测试文件｜Edit 混合行尾文件 old_string 连续两次 not found（Read 显示层与磁盘字节不一致）｜根因初判：CRLF/LF 混合文件工具显示层归一化误导，od 定位后单次过——行尾疑难直接 od 不靠猜
 - [2026-09-04 21:45] huangyaoshi｜#639 complete 被 E040 拦两次｜交付物节 CLI 仓路径写 `kdo/pre_submit.py` 裸相对路径 → 门禁按 vault 相对路径查 git 判 untracked；首次 evidence 传文本串也被拒（--evidence 要文件路径）｜根因：E040 口径=跨仓交付物路径必须带仓前缀「Knowledge Delivery OS 0.0.1/」；先例在 #542 报告里但没进交卷肌肉记忆——下次 CLI 仓交付物直接带前缀写
 - [2026-09-04 21:50] laowantong｜#638 complete 两连拒｜①--evidence 传内联文本被拒（要文件路径，黄药师 21:45 同坑第二例=该进交卷肌肉记忆）②E040 门禁拦：交付物 untracked 未 commit——按门禁提示 git add 五路径+commit 后 complete 通过｜根因：complete 门禁口径（evidence=附件文件/交付物必须入仓）没进启动肌肉，首次踩靠门禁提示自救
+- [2026-09-05 01:35] laowantong｜#640 complete --evidence 第三次踩坑｜内联文本被拒（要文件路径），#638 21:50 已落过一次 friction-log 仍再犯=落盘≠肌肉记忆｜根因：固定姿势没进启动检查单｜处置：复盘元反思+技能进化日志双落「--evidence 永远传任务单路径」
+- 2026-09-05 03:28 | huangyaoshi | #645 提审 | E040 交付物入仓门禁 vs gitignore 铁律（00_inbox 不进 git）冲突：候选卡样本落 00_inbox 无法 commit，门禁硬拦，只能改写交付物节措辞绕行 | 门禁缺「gitignore 豁免」分支，建议加 _git_ignored 判定自动转 WARNING
+- 2026-09-05 04:10 | huangyaoshi | #645 返工核验 | 自写核验器读 raw JSONL 致 3 条假 MISS（换行在 raw 里是字面 \n 两字符，锚文按解析文本归一化）——先怀疑管线残留 bug，对照复算后才定位到核验器口径 | 根因初判：核验工具未先用已知正确样本自检；raw-vs-parsed 口径差是溯源核验的固定坑
+- 2026-09-05 03:59 | huangyaoshi | #645 claim/complete | queue_transition.py claim 645 报「不在生产队列中」，任务单在 60_feedback/tasks/ 时 seq 号查不到，必须传完整 task_id；complete 同此 | 根因初判：seq→任务单解析只扫 70_product/tasks/，跨目录任务单 seq 不可寻址——建议解析器补扫 60_feedback/tasks/ 或在报错里提示用完整 id

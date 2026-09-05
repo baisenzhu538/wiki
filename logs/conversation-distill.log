@@ -1,0 +1,8 @@
+[23:50:01] #645 conversation_distill 启动 since=1788549657107 until=1788623401744 cursor=True
+[23:50:02] 抽取：kimi 59 条 / headless 0 段 / hermes 0 条
+[23:50:02] 分块 3 个（上限 8）
+[23:50:02] LLM 调用失败（wire.jsonl）：HTTP Error 403: Forbidden
+[23:50:02] LLM 调用失败（wire.jsonl）：HTTP Error 403: Forbidden
+[23:50:03] LLM 调用失败（wire.jsonl）：HTTP Error 403: Forbidden
+[23:50:03] 完成：{'external': 0, 'zhu': 0, 'human': 0, 'dropped_anchor': 0, 'calls': 3, 'failed_calls': 3}
+SUMMARY {"external": 0, "zhu": 0, "human": 0, "dropped_anchor": 0, "calls": 3, "failed_calls": 3}

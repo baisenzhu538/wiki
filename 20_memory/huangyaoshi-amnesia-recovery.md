@@ -1,9 +1,17 @@
 ---
 title: 黄药师失忆恢复记录
-updated_at: 2026-09-02
+updated_at: 2026-09-05
 ---
 
 # 黄药师失忆恢复（重启后 3 分钟加载）
+
+## 2026-09-05（#645 对话蒸馏管线交付提审）
+
+- **新工具**：`kdo-tools/conversation_distill.py`——对话蒸馏管线（kimi wire/headless/hermes 三源 → 三层分流 external→pending-cards / zhu→`30_wiki/personal-os/zhu-conversation-insights.md` / human→pending-cards；原文锚子串强校验；增量游标 `.kdo/conversation_distill_state.json`）。每日 23:50 计划任务 `kdo-conversation-distill`（S4U）自动增量
+- **试跑实证**：09-02~05 真实历史 8 块 LLM 调用 0 失败，external 43/zhu 13/human 8，伪锚拦截 3；51 张候选卡在 00_inbox/pending-cards/distill-*-20260905-*（免仓区不进 git）
+- **登记面**：矩阵行 30 + inventory（工具族+§5 计划任务，计划任务总数 13）
+- **新教训**：交付物节路径先做 git 可达性三分类再加反引号（E040 vs gitignore 铁律交集无解，friction-log 09-05 已记）
+- **hermes 源边界**：Windows 侧 `~/.hermes/state.db` 是 0 字节空镜像，实库在 WSL gateway——蒸馏器优雅跳过，接 WSL 侧需另立项
 
 ## 2026-09-03 早场（记忆恢复+#620/#623 双单终审闭环+建议书 ×3）
 

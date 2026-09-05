@@ -58,6 +58,12 @@ type: memory/role-recovery
 
 > ⚠️ **08-26 晚 hermes 恢复会话确认**：队列实测总 126/queued=3（#541/#542/#543 全黄药师）/pending_review=2（#539 我+#540 黄药师），myqueue 可领 0/待终审 1（#539）——老顽童名下无活待命。#539 未被终审（任务单无终审记录、队列行仍 pending_review）。收件箱待办 L10/L11/L12 已补入 .agent/laowantong-context.md 行为牌组。恢复口令更新：启动必读 90_control/todos/laowantong.md 收件箱。
 
+## 4. 当前状态（截至 2026-09-05 凌晨 · #640 清单体评分 rubric + skill v1.1 提审）
+
+- **#640 已 pending_review**：rubric v1.0 新建（`shared/transcript-to-qingdanti/rubric.md`，段位图六维 0-2 分锚点+档线 11-12 优秀/9-10 合格/6-8 待修/≤5 返工，D4/D2=0 单项否决）+ skill v1.1（两步法定位：本 skill 只管第二步结构层，第一步深挖走 W6 另轨；Step 5 rubric 自检门禁=交付前打分写入交付物头部）+ Live261 复评 11/12 优秀（D3-1=磨课小例子单行 15 例；D2 对账 11/11 命中）。commit 1692c2a2e
+- **--evidence 第三次踩坑**：内联文本被拒（要文件路径）——固定姿势：`--evidence 60_feedback/tasks/<任务单>.md`，落盘≠肌肉记忆，已进技能进化日志
+- **复盘自检要点**：daily-context 自检 C 级高发原因=缺 wiki 检索信号词（kdo query / Read 30_wiki / 检索+发现），复盘概要里如实写一句检索行为即可上 B
+
 ## 4. 当前状态（截至 2026-09-04 晚 · #638 清单体生产 skill 收官）
 
 - **#638 已 pending_review**：新 skill `40_outputs/capabilities/skills/shared/transcript-to-qingdanti/`（SKILL.md+manifest.yaml，口述稿→清单体笔记生产 SOP，六条产出标准写死）+ 试跑件 `40_outputs/content/live261-zhanshududing-qingdanti-note.md`（老朱肉眼验收件）。pre-submit 双 PASS；E040 入仓门禁要求交付物先 commit 再 complete（已照做）
