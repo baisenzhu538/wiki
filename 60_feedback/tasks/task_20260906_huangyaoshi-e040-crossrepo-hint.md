@@ -2,15 +2,18 @@
 id: task_20260906_huangyaoshi-e040-crossrepo-hint
 title: "E040 报错提示跨仓前缀全路径（第2次复发工具化，#639 同族）"
 seq: 653
-status: pending_review
+status: reviewed
 assignee: huangyaoshi
 created_by: wangyuyan
 created_at: 2026-09-06
 decision_source: 黄药师 #649 friction 03:46（第2次复发，老朱「两次复发立即工具化」口径）
 reviewer: 欧阳锋
 instance: huangyaoshi
-updated_at: '2026-09-05T22:03:16.919533+00:00'
+updated_at: '2026-09-05T23:56:44.720893+00:00'
 evidence: 90_control/scripts/queue_transition.py
+reviewed_by: 欧阳锋
+review_date: '2026-09-05'
+grade: A-
 ---
 
 # #653 E040 跨仓前缀提示微单（黄药师）
@@ -78,3 +81,32 @@ E040 报错文案：检测到疑似 KDO CLI 仓路径（Knowledge Delivery OS 0.
 ### ③ 负向判词 / ④ 存在性核查
 
 ✅ 执行报告无负向断言词（检查面=执行报告节）
+
+## 终审记录
+
+### 终审（欧阳锋 2026-09-06 08:02）——判定 PASS（A-）
+
+**核点结论**（O0 独立取证，不采信报告数字）
+
+1. **修法落地与拦截语义 ✅**【实证】：`git show 58c628280` 核 `_crossrepo_hint()`——判据 = 路径未含「Knowledge Delivery OS」前缀 且 `KDO_REPO_ROOT/<路径>` 盘上存在（存在性核查锚）；返回值只作提示串拼接进 E040 msg，`return False` 硬拦分支零变化，**拦截面无放大**。
+2. **回归独立复跑 ✅**【实证】：全量 `pytest 90_control/scripts/tests/ -q` → **262 passed 零失败**（本会话 07:4x 实跑；报告口径 256+2 与之相容）。两条 #653 用例断言实体核对：`test_653_crossrepo_hint_on_missing_prefix` 同时断言硬拦保持（`not ok` + `"untracked" in msg`）与提示在场（「带仓前缀的全路径」「#542」）；`test_653_no_hint_for_pure_vault_path` 护栏断言 vault 自有路径拦但不贴提示——防提示噪音外溢。
+3. **顺带核查价值认定 ✅**：MOUNT-MATRIX 78/78 零失真 + research-core 实装在 `shared/` 子层——本人独立复核关键锚成立【实证】：`ls -d 40_outputs/capabilities/skills/research-core` → No such file；`ls -d …/skills/shared/research-core` → 存在（SKILL.md v1.1.0 reviewed_by 欧阳锋 09-02）。该核查推翻「research-core 无 skill 文件」假判词（**含欧阳锋上轮 #652 终审③的错判，已在 #652 复审记录撤回**）；#652 侧已裁决宪法 v1.1 修单，建议书已落 `60_feedback/diagnosis/diag_20260906_ouyangfeng-constitution-v11-and-misc.md`（c28f2c8b9）。
+4. **版本对齐三问 ✅**：①入仓 `58c628280` 在 git log；②生效 = queue_transition.py 每次调用现读源码、无长驻进程持旧码，交付物工作区零脏改动；③对齐 = 审查对象即 HEAD 最新版。
+5. **边界诚实度 ✅**：流程瑕疵自报（改动起草于 claim #653 之前）如实留痕不粉饰；E040-loose 分支未动、种子副本未同步均显式声明。
+
+**发现问题（非阻断）**
+- 🔵 L1：`_crossrepo_hint` 的已前缀过滤用 `"Knowledge Delivery OS" not in p` 子串判断——问题行文本若恰含该字串（如交付物节内的示例路径）会跳过提示，属**提示漏报**非误报，方向安全。示例路径误拦/提示过敏已由王语嫣 06:40 划销登记为观察项（复发才加豁免），不另立项。
+
+**存在性核查**（#433 口径——本意见书负向判词的核查锚点；首轮 review 被 F-035 拦后补，08:0x 实跑）
+| 负向判词 | 核查动作与锚点 |
+|:--|:--|
+| 硬拦分支零变化（拦截面无放大） | `git show 58c628280 -- …/queue_transition.py`：hunk 仅 msg 拼接 `+ _crossrepo_hint(problems)`，`return False, msg, ""` 原样 |
+| 提示只在硬拦分支一处（E040-loose 未加） | `grep -n "_crossrepo_hint" 90_control/scripts/queue_transition.py` → 928（def）+ 1025（唯一调用点，硬拦 msg）两行 |
+| kdo-seed 种子副本未同步 | `grep -c "_crossrepo_hint" 90_control/kdo-seed/seed/90_control/scripts/queue_transition.py` → 0 |
+| 无长驻进程持旧码（生效面=每次调用现读源码） | `grep -rn "import queue_transition\|from queue_transition" --include=*.py` 全库 → pre_review.py:29（模块级，CLI 按次跑）/ clock_watchdog.py:87（函数内局部 import，Hermes cron no_agent 按次拉起）/ kdo-tools 测试（test_conveyor_probe.py:74-75 且反向断言探针不 import）——无 daemon 常驻持有旧码 |
+
+**需要谁动作**
+- 王语嫣：宪法 v1.1 修单编排（见建议书第一节）；04:46 friction 划销行 06:40 已按修正后结论闭环，无需再动。
+- skills-assistant（经王语嫣）：research-core 调用面实装/暴露口径归 #587 域拍板。
+
+**结论**：一行改动+2 回归，拦截语义零变化、提示可操作化达标，顺带核查以实证纠正了一处已传播的假判词——终审 **PASS，等级 A-**。
