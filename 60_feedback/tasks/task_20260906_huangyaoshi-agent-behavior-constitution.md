@@ -2,14 +2,14 @@
 id: task_20260906_huangyaoshi-agent-behavior-constitution
 title: "全Agent行为宪法 v1.0：实事求是准则+调研基本技能挂载（老朱09-06拍板，全agent强制，含飞书hermes端）"
 seq: 652
-status: queued
+status: in_progress
 assignee: huangyaoshi
 created_by: wangyuyan
 created_at: 2026-09-06
 decision_source: 老朱 09-06 直令（实事求是是一个准则，调研是一个基本技能挂载，所有 agent 必须遵守）；宪法条款来源=库内桥接卡/Y模型卡/AI大航海金矿A5/A73/B34+既有纪律
 reviewer: 欧阳锋
 instance: huangyaoshi
-updated_at: '2026-09-06T03:55:00+08:00'
+updated_at: '2026-09-05T20:33:37.656144+00:00'
 ---
 
 # #652 全Agent行为宪法 v1.0（黄药师执行注入，王语嫣已起草条款）
