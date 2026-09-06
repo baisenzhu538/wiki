@@ -1,16 +1,19 @@
 ---
-id: task_20260906_laowantong-multi-researcher-cross
-title: "场景复现一：多研究员交叉研究工作流（老朱拍板第一优先，A60-61 课程口径 KDO 化）"
-seq: 664
-status: pending_review
-assignee: laowantong
-created_by: wangyuyan
-created_at: 2026-09-06
-decision_source: 老朱 09-06 拍板第 4 项「多研究院交叉」；课程金矿 A60-A62+B93（楚门哈佛案例教学法研究）
-reviewer: 欧阳锋
-instance: laowantong
-updated_at: '2026-09-06T09:23:09.688697+00:00'
+id: task_20260906_laowantong-multi-researcher-cross
+title: "场景复现一：多研究员交叉研究工作流（老朱拍板第一优先，A60-61 课程口径 KDO 化）"
+seq: 664
+status: reviewed
+assignee: laowantong
+created_by: wangyuyan
+created_at: 2026-09-06
+decision_source: 老朱 09-06 拍板第 4 项「多研究院交叉」；课程金矿 A60-A62+B93（楚门哈佛案例教学法研究）
+reviewer: 欧阳锋
+instance: laowantong
+updated_at: '2026-09-06T09:49:35.767443+00:00'
 evidence: 60_feedback/diagnosis/working/pilot-multi-researcher-cross-20260906.md
+reviewed_by: 欧阳锋
+review_date: '2026-09-06'
+grade: A-
 ---
 
 # #664 多研究员交叉研究工作流（老顽童）
@@ -111,3 +114,48 @@ evidence: 60_feedback/diagnosis/working/pilot-multi-researcher-cross-20260906.md
 ### ③ 负向判词 / ④ 存在性核查
 
 ✅ 执行报告无负向断言词（检查面=执行报告节）
+
+## 终审记录（欧阳锋 2026-09-06 17:50）
+
+**verdict**：PASS
+**grade**：A-
+**methodology_version**：v2.3
+**blocking**：无 Critical/High；🟠 2 项放行+TODO（600s 后台上限约束「另行立项」；「合并报告优于单角色」未验证，归后续同课题双跑对照）——二者均已在执行报告边界节如实声明，不属本单交付缺陷。
+
+**O0 溯源自检**：本端独立复跑 pre-submit（3/3 PASS、2 WARNING，输出与执行报告贴出逐项一致）；通读三件交付物全文（workflow 卡 223 行 / SKILL 202 行 / 试金石存档 477 行）；抽样复跑关键锚（A60-A62 口述原文、B93 技能中心原文、ai-methodology-tools.md:185、framework-encapsulation-methodology.md:220、bridge-yitang-kdo-document-over-session.md:84/92、src_unk grep=218）。三件 source_refs 源文件均已打开核对，非未溯源下结论。
+
+**存在性核查（负向判词锚 + 本次四重点核）**：
+
+① workflow 卡 + skill 可执行性——四件套全在位【实证】：
+- 任务书模板（skill §3 六节齐，A62 信息完整性门内置为五条打勾自检清单）✓
+- 研究员画像池 10 张（P1-P10，每张「看什么/不信什么/产出什么」三要素齐）✓
+- 合并裁决规则 R1-R6（同类项对齐/三级标注贯穿/三关系三处理/反方门控/单源隔离/报告分层）✓
+- A62「不省 Token/信息传清楚」嘱咐在位：workflow 卡第 3 步 + skill §3 双处引，原文锚口述稿 L380 逐字命中 ✓
+
+② 试金石真跑报告真实性——真跑，非纸面推演【实证】：
+- 三份研究员报告全文存档（P3 决策心理师 32 调用/417s、P7 交付运营 29 调用/391s、P5 壁垒审计 27 调用/406s），并行墙钟≈417s、加速比≈2.9×（串行等效≈1214s）
+- 三报告结论三层分工（P3 动机层 / P7 流程层 / P5 资产性质层）≈0 重叠——不是同一结论三次复述，视角分歧真实产生覆盖增量
+- 锚点回验抓到 1 处真实缺陷：P5 报「工具会变，Feature 相对稳定」出处 :1522 实为 case_ref 字段，引语实际在 :1614/:288，编排者已修正——真跑产生了实际纠错价值
+- 我端抽样复跑：A60-A62 口述原文（L358-408：单角色偏好狭窄性/10 研究员池/3-5 挑选/哈佛案例教学法/任务书翻译/A62）逐字命中；B93 技能中心（宣讲会 L1054-1070）逐字命中；关键锚 ai-methodology-tools.md:185（Feature 思维条件层）、encapsulation:220（三件齐判据）、bridge:84/92（上下文显性复利）逐字命中
+
+③ 与 kdo-self-attack 边界——互补不重叠【实证】：
+- 交叉=多视角并行研究（产出前）；攻击=对抗性验证（产出后）。kdo-self-attack SKILL 头部自述「用对抗 Agent 主动找出知识卡片的弱点」——与并行研究定位互斥互补
+- 任务单边界节 / workflow 卡「不用」节 / skill §6 适用边界表三处口径一致
+
+④ 执行报告边界节 600s 声明——如实【实证】：
+- 边界节明确「本次真跑曾撞 Claude Code 后台任务 600s 等待上限被掐断，四件交付物已完整落盘后才由后续会话收尾」，标注「已知运行限制」+「另行立项，不属本单」
+- git 历史印证：c1471d190（存档收尾）→ ab05f04df（complete）→ a6e8c1d4b（执行报告补记）确为分会话收尾，与声明一致
+
+⑤ BODY_SRC_UNKNOWN 字面门禁误伤（同族第二例）——观察确认【实证】：
+- 老顽童 friction-log:154 已登记：body.count("src_unknown") 把 P5 报告作为证据引用的占位 token 误判为占位符拦截（前例 12:47 E040 反引号命令误判）
+- 本次补救=截写 src_unk* + grep 锚（218 命中）过门禁并留痕——证据未丢、内容诚实，但补救路径系自行发明、无成文口径
+- 已随本终审写建议书 diag_20260906_ouyangfeng-body-src-unknown-gate.md 交王语嫣
+
+**审查结论**：三件交付物主体扎实，本次终审四重点核全部通过；试金石是真跑（三视角分歧真实、抓出真实锚点行号错、并行加速比实测 2.9×）。扣分点集中在两处边界未闭环：①「合并报告优于单角色报告」未验证（本卡价值主张的核心证据缺口，已如实标注并归后续同课题双跑对照）；②画像 3/10 抽样、全池未覆盖。二者均为如实声明的范围限制，非簿记缺陷，不构成阻断。
+
+**放行条件（residual_risks / 需要谁动作）**：
+- 老顽童（后续工作，不在本单）：①「合并报告优于单角色」同课题双跑对照（单角色 vs 三研究员交叉）；②画像池 7/10 未跑画像随使用迭代
+- 黄药师：600s 后台任务上限约束化解（CLAUDE_CODE_PRINT_BG_WAIT_CEILING_MS=0 或改异步模式）——老顽童已标注「另行立项」，等王语嫣编排
+- 王语嫣：①收建议书 diag_20260906_ouyangfeng-body-src-unknown-gate.md（门禁引用语境豁免/补救路径成文）；②600s 化解立项编排
+
+**五维评分**：溯源完整 22/25（锚多真且逐字命中，但核心实证「存量封装决定起点」为单源+同源偏置，P5 行号曾错虽自纠）、逻辑骨架 24/25、暗知识密度 19/20、可操作性 14/15、表达质量 14/15，合计 93/100 → A-

@@ -546,7 +546,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#659 task_20260906_laowantong-audit-batch1｜laowantong｜提审 09-06 13:06｜60_feedback/tasks/task_20260906_laowantong-audit-batch1.md~~ → 回声划销（09-06 13:15 王语嫣）：补五字段后提审成功，#659 现 pending_review（批 1a：124 条金矿+台账 A 级证伪+漏挖 22 项，王语嫣抽验双签已落）
 - ~~#657 task_20260906_wangyuyan-audit-pilot-orgbehavior｜wangyuyan｜提审 09-06 13:45｜60_feedback/tasks/task_20260906_wangyuyan-audit-pilot-orgbehavior.md~~ → 已终审 PASS B（2026-09-06 欧阳锋）
 - ~~#662 task_20260906_laowantong-audit-batch1bc｜laowantong｜提审 09-06 15:09｜60_feedback/tasks/task_20260906_laowantong-audit-batch1bc.md~~ → 已终审 PASS B+（2026-09-06 欧阳锋）
-- #664 task_20260906_laowantong-multi-researcher-cross｜laowantong｜提审 09-06 17:23｜60_feedback/tasks/task_20260906_laowantong-multi-researcher-cross.md
+- ~~#664 task_20260906_laowantong-multi-researcher-cross｜laowantong｜提审 09-06 17:23｜60_feedback/tasks/task_20260906_laowantong-multi-researcher-cross.md~~ → 已终审 PASS A-（2026-09-06 欧阳锋）
 
 <!-- REVIEW-PENDING-END -->
 
@@ -1225,7 +1225,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 661 | `task_20260906_duanwangye-datapack-weblogin` | DataPack 试点二：登录内容样本库（段王爷整理弹药，脱敏入库） | reviewed | duanwangye | 四要素齐+敏感信息脱敏 | 无 | `60_feedback/tasks/task_20260906_duanwangye-datapack-weblogin.md` | 老朱 09-06 点名授权；欧阳锋终审 |
 | 662 | `task_20260906_laowantong-audit-batch1bc` | A1 批 1b/1c 放行+28候选 grep 重跑出拍板清单（老朱：继续挖+清单他拍板） | reviewed | laowantong | 重跑清单+批1b/1c 金矿台账（分小批提审） | 无 | `60_feedback/tasks/task_20260906_laowantong-audit-batch1bc.md` | 老朱六项拍板；欧阳锋终审 |
 | 663 | `task_20260906_wangyuyan-audit-c340-program` | 340 份 C 级深检放量程序（密度分诊排序+流水线分批，老朱：必须跑） | in_progress | wangyuyan | 2a 密度分诊排期表+2b 滚动批报告 | #659 批 1b/1c 后排队老顽童 | `60_feedback/tasks/task_20260906_wangyuyan-audit-c340-program.md` | 老朱拍板必须跑；欧阳锋批审 |
-| 664 | `task_20260906_laowantong-multi-researcher-cross` | 场景复现一：多研究员交叉研究工作流+skill+试金石真跑 | pending_review | laowantong | workflow卡+skill+小课题真跑报告 | #662 后（同角色排队） | `60_feedback/tasks/task_20260906_laowantong-multi-researcher-cross.md` | 老朱拍板第一优先；欧阳锋终审 |
+| 664 | `task_20260906_laowantong-multi-researcher-cross` | 场景复现一：多研究员交叉研究工作流+skill+试金石真跑 | reviewed | laowantong | workflow卡+skill+小课题真跑报告 | #662 后（同角色排队） | `60_feedback/tasks/task_20260906_laowantong-multi-researcher-cross.md` | 老朱拍板第一优先；欧阳锋终审 |
 | 665 | `task_20260906_laowantong-dkcard-ruling-batch` | 老朱拍板产卡批：A 组 5 dk 新卡+B 组 6 补强+C 组 3 登记（伦理 c4-38 选 a 不入库） | queued | laowantong | 5 dk 卡+6 补强 diff+3 登记行+伦理注记 | #664 后（同角色排队） | `60_feedback/tasks/task_20260906_laowantong-dkcard-ruling-batch.md` | 老朱 09-06 拍板；候选清单 a1-batch1bc-greprerun-decision-list；欧阳锋终审 |
 | 666 | `task_20260906_laowantong-batch1c-cards` | 批 1c 高优产卡批：框架 10+case 5+四源同构 dk 1（分两小批） | queued | laowantong | 16 件入库+三方法证据+自攻击 | #665 后（同角色排队） | `60_feedback/tasks/task_20260906_laowantong-batch1c-cards.md` | 老朱拍板「要产排队不急」；欧阳锋终审 |
 
