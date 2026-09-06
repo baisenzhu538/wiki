@@ -1194,6 +1194,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 654 | `task_20260906_laowantong-aidahangha-batch1` | AI大航海域批量生产 batch1：3 framework+5 case+4 bridge+dk挂靠+skill草案+存量自迭代（12+卡，P1，老朱夜令） | reviewed | laowantong | 12卡入库+定位声明/行号锚/标签全+自攻击+三方法证据 | 无 | `60_feedback/tasks/task_20260906_laowantong-aidahangha-batch1.md` | 诊断 diag_20260906_wangyuyan-aidahangha-diagnosis 为规格源；欧阳锋终审 |
 | 655 | `task_20260906_huangyaoshi-sequential-claim-window` | queue_transition 同执行者连续派工窗口：显式多单指令免 force（第3次复发工具化，F-050 族） | reviewed | huangyaoshi | 两单连发模拟不再 force+回归不红 | #653 后（同角色排队） | `60_feedback/tasks/task_20260906_huangyaoshi-sequential-claim-window.md` | 王语嫣 05:10 立项（friction 三连实证）；欧阳锋终审 |
 | 656 | `task_20260906_huangyaoshi-channel-health-fallback` | 拉起器通道健康预检+余额感知 fallback（F-073 落地）+通道-真实模型对照表 | claimed-huangyaoshi | huangyaoshi | 坏key模拟自动fallback+通知/全死明确报错/回归不红 | 无 | `60_feedback/tasks/task_20260906_huangyaoshi-channel-health-fallback.md` | 老朱晨问立项（两墙连撞根治）；欧阳锋终审 |
+| 657 | `task_20260906_wangyuyan-audit-pilot-orgbehavior` | 暗知识体检试金石：AI组织行为学口述全量重挖（王语嫣亲读，完备性双签制首跑） | in_progress | wangyuyan | 金矿台账+体检报告+存量五态对账 | 无 | `60_feedback/tasks/task_20260906_wangyuyan-audit-pilot-orgbehavior.md` | 老朱晨令；计划 diag_20260906_wangyuyan-kb-darkknowledge-audit-plan；欧阳锋终审（抽源对照） |
 
 ## PROPOSAL-PENDING
 ### diag_20260826_ouyangfeng-source-refs-line-anchor-unreachable（2026-08-26 欧阳锋）
