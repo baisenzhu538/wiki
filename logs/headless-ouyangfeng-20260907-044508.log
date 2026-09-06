@@ -4090,3 +4090,277 @@ vs 本日会话 1（#668 draft 卡族转正批终审）：本轮审查对象从�
 - Agent自身：佐证包锚点回原始日志/源码独立复核；读 bat/shell 对 label fall-through 保持警觉；核心改动 `git log -S` 追溯落点。
 - 方法论卡更新：审查方法论 v2.3 追加「基建处置单四核（根因/新bundle/节拍/阈值）」+「佐证包交叉引用须回原始源复核」+「auto-backup 抢跑提交的 commit 追溯口径」。
 
+I see the daily context file already has two complete session blocks—the #668 session and a #673 session from 04:24 that ends with the full Truman review section. Now I need to add a third session block for the #674 review following the same structure, making sure the file still passes the review-check. I'll include the full Truman review template with the difference column, summary, and key decisions sections.
+
+For this new block, I need to cover the three key decisions: marking #674 as PASS A- since all three review checkpoints passed with only non-blocking issues, running independent verification rather than trusting the execution report alone, and logging the KDO entity layer merge and probe commit route as non-blocking observations rather than requiring rework. I'm also noting the blindspots: initially taking the execution report at face value without independently verifying the test count, probe gaps, and collision card traceability, and the trap of my first pytest run hitting a GBK Unicode error due to not setting PYTHONUTF8 when running in PowerShell—the fix was setting that environment variable. The key insight is that the core test suite runs 639 tests but the full repo with tools subdirectory runs 994 tests. I need to document the process assets including the terminal review record, queue transition, task ledger, and this retrospective. Looking ahead, I'll do three things differently: independently re-run the probe and pytest rather than relying on report claims, set PYTHONUTF8 for full test coverage, and use git log to trace where the deliverable actually landed. For the Truman section, I'm mapping each round of work: Wang Yuyan's review and queue management, Huang Yaoshi's coding and testing, my own three-point verification and final review, and the closing actions like the retrospective and ledger. The flywheel effect is accelerating the infrastructure ticket review loop.
+
+The three-point verification becomes the standard pattern: independently re-run the probe, run the regression tests, and trace the collision card set. I'm comparing manual versus AI-assisted approaches for the time estimates, and for the next improvement I'll focus on standardizing the three-point verification for code hardening tickets and updating the methodology card to include the new review process for code/hardening tickets.
+
+I'm going to append a third block to the daily context file with a full 11-chapter structure, then run the save script to verify the grade stays at A. The existing file already has the header, so I'll append the new content after the previous blocks, and the save script will handle the rest.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "cd C:\\Users\\Administrator\\Desktop\\wiki; [Console]::OutputEncoding=[System.Text.Encoding]::UTF8; "'$block = @'"'
+
+
+---
+
+# 会话 3 · #674 path_map 键硬化终审（2026-09-07 04:57）
+
+## 差异栏
+vs 本日会话 2（#673 bundle 处置单终审）：本轮审查对象从「运维处置单」切换为「代码硬化单」（graph_state path_map 改 path/id 键根除同标题撞车），且是我定位根因（#671 探针首报警 → diag 建议书）后回流到我手上终审的闭环单。三个新点：①验收从「读日志采信」升级为「三测独立复跑」——撞车卡溯源脚本、探针 --json、pytest tests/ 全都不信执行报告声明，自己重跑；②首次踩到 pytest 全量收集被 PowerShell GBK 默认编码打断（openmontage YAML 0x94 解码失败），需 PYTHONUTF8=1 才恢复全量——但发现任务声称的「639 passed」实指 tests/ 目录而非整仓（整仓含 tools 子目录=994），先定口径再判红绿；③用 git log -S 追溯 vault 侧探针适配真实落点，确认它进了 auto-backup commit 22081f4da 而非 #674 专属 commit。被打破的假设：默认「执行报告的验证数字可直接采信，无需复跑」。
+
+## 概要
+终审 #674 huangyaoshi-pathmap-key-hardening PASS A-（graph_state path_map 键 title→path/id，根除同标题撞车致 13 张溯源丢失），三项重点核全过（13 组 26 张撞车卡全可溯源 / 探针 concepts 缺口清零 / 回归 639 passed 1 skipped 不红）；非阻断 3 条（探针适配落备份 commit 路由 / KG 实体层仍按 title 合流 / graph.py:358 全删空 pre-existing 边界缺陷）；todos 落账 1 行。
+
+## 关键决策
+| 决策 | 理由 | 结果 |
+|:--|:--|:--|
+| PASS A- 而非返工 | 三项重点核独立复跑全过，缺口均为非阻断且已在执行报告边界节声明 | 通过 |
+| 三测独立复跑不信报告 | O0 溯源纪律：代码单的「可溯源/缺口清零/回归不红」必须自己重跑验证 | 三项全部独立实证 |
+| KG 实体层合流+落备份 commit 记非阻断不返工 | 前者已在边界节声明为内容侧改名/KG 硬化新单；后者纯提交路由，功能已提交无脏改动 | 记缺口清单，无需回退 |
+| 先定「639= tests/ 目录」口径再判红绿 | 整仓 pytest 因 GBK 收集报错、PYTHONUTF8 后 994 passed；任务 639 实指核心 tests/ | 用核心 tests/ 口径核对，与声称一致 |
+
+## 思维盲点
+1. 一度准备只读验收日志就下「验收通过」结论，没先自己跑撞车溯源脚本和探针。为什么漏掉：执行报告数字完整（path_map=2941、639/1），我默认「报告=已复跑」，没独立验证 13 组撞车卡是否真的 26/26 全在 path_map。
+2. 第一次跑 pytest 全量被 GBK UnicodeDecodeError 打断（openmontage-zh-mcp 测试收集读 YAML 报 0x94 非法多字节），差点误判「回归跑不了/环境坏」。为什么漏掉：没意识到 PowerShell 默认 console 编码 GBK 会让 Python 文件读取缺省编码，需 PYTHONUTF8=1 或目标子目录才恢复。
+3. 一度把「639 passed」当整仓数字。为什么漏掉：没先确认任务跑的 pytest 范围——实际 639 是 "'`pytest tests/`（核心目录），整仓含 tools 子目录是 994；两个口径都对，但必须先把口径对齐再核对声称。
+
+## 顿悟
+1. 推翻「执行报告验证数字可采信」的旧认知：数字会漂移、范围会二义（639 是 tests/ 而非整仓），代码单验收必须自己复跑三测（溯源脚本+探针+pytest）并对齐口径。
+2. 纠正「pytest 报错=代码坏」的旧理解：报错可能是环境编码（PowerShell GBK vs UTF-8 文件），先 PYTHONUTF8=1 重跑再判红绿，避免误伤。
+3. 发现「vault 侧适配改动会被 auto-backup 抢跑进备份 commit」是规律性现象——#673 的 integrity-check 和 #674 的 probe 都是同款，追溯交付物真实落点必须 `git log -S` 而非只看专属 commit。
+
+## 过程资产
+| 新增/更新 | 路径 |
+|:--|:--|
+| 终审记录 PASS A- | 60_feedback/tasks/task_20260907_huangyaoshi-pathmap-key-hardening.md |
+| 队列流转 | queue_transition review #674 → reviewed A- |
+| 落账 | 90_control/todos/ouyangfeng.md +1 行 |
+| 本复盘 | 桌面/agent复盘/ouyangfeng/daily-context/2026-09-07.md |
+
+## 元反思
+下次代码硬化/基建单终审：①「可溯源/缺口清零/回归不红」三测一律自己复跑，不信执行报告数字；②pytest 报错先查环境编码（PYTHONUTF8=1）再判红绿，并先对齐「tests/ vs 整仓」口径；③交付物真实落点用 git log -S 追溯，警惕 auto-backup 抢跑进备份 commit。检索行为审视：本单为代码/基建类审查，知识问题第一动作跑了 kdo query（path_map 键设计/覆盖率/停止规则 三词），确认无同型既有方案卡、属代码侧硬化——命中结论与生产者一致，不降级 grep 兜底。
+
+---
+
+## 本会话发现的问题
+1. vault 侧探针适配经 auto-backup commit 22081f4da 落仓，而非 #674 专属 commit f8cd50040（后者仅含任务单+验收日志）——纯提交路由，功能已提交无脏改动。
+2. KG 实体层 entity_name 仍=title：13 组撞名卡 path_map 已可溯源，但 LightRAG 图内仍合流——根治需 KG 层同步硬化或内容侧改名（已声明的边界，归新单）。
+3. pre-existing 边界缺陷：30_wiki 页全删空时 cmd_graph_ingest 于 graph.py:358 提前 return、删除传播不触发——测试踩到未动，记录级。
+
+## Truman复盘
+
+### 逐轮映射
+| 轮次 | 人做了什么 | 双三角 | AI做了什么 | 双三角 |
+|:--|:--|:--|:--|:--|
+| 1 | 我 #671 定位根因落建议书+王语嫣立项 #674 | H.创造力·A.场景 | 读启动/角色/宪法+队列+任务单 | A.数据 |
+| 2 | 黄药师改 graph.py 写/读/删除传播+探针适配+3 测试+回归 | A.基本功(实证) | KDO 仓 commit+回归 639/1+vault 探针适配 | A.基本功 |
+| 3 | 我三测独立复跑（溯源脚本/探针/pytest）+裁量 A-+review 流转 | H.体系(门禁) | 撞车溯源脚本+探针 --json+pytest tests/+queue_transition review | H.体系(门禁) |
+| 4 | 我落终审记录+todos 落账 | H.体系(出口) | 写终审记录+本复盘 | H.体系(出口) |
+
+### 飞轮效应
+加速「代码硬化单终审」回路：把「三测独立复跑（溯源脚本+探针+pytest）」固化为标准动作，并把「pytest 范围口径（tests/ vs 整仓）」和「auto-backup 抢跑提交追溯（git log -S）」补进终审习惯，避免按报告数字采信和提交路由误判。
+
+### 对照实验
+- 无人协作：人手工跑撞车溯源脚本、探针、pytest、读 graph.py diff、git log -S 追溯，约 30-45 分钟。
+- 无AI协作：人易漏「pytest 范围二义」「GBK 编码坑」「auto-backup 抢跑提交」这类环境/口径/追溯问题，易按报告数字直接放行。
+- 合在一起：约 20 分钟闭环，三测全过 + 3 条非阻断缺口，五维 95/100。
+
+### 下次改进
+- Agent自身：代码单三测必复跑；pytest 先 PYTHONUTF8=1 并对齐 tests/ vs 整仓口径；交付物真实落点 git log -S 追溯。
+- 方法论卡更新：审查方法论 v2.3 追加「代码硬化单三测核（溯源/探针/pytest）」+「pytest 范围与编码口径」+「auto-backup 抢跑提交追溯」。
+'"'@; Add-Content -LiteralPath 'C:\\Users\\Administrator\\Desktop\\agent复盘\\ouyangfeng\\daily-context\\2026-09-07.md' -Value "'$block -Encoding UTF8; Write-Output '"'appended block'; (Get-Content -LiteralPath 'C:\\Users\\Administrator\\Desktop\\agent复盘\\ouyangfeng\\daily-context\\2026-09-07.md' -Encoding UTF8 | Measure-Object -Line).Lines" in C:\Users\Administrator\Desktop\wiki
+ succeeded in 276ms:
+appended block
+168
+
+I'm about to run the save command to update the daily context file with the --file flag. Before I do, I need to verify that review-check still passes with the appended block.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "cd C:\\Users\\Administrator\\Desktop\\wiki; [Console]::OutputEncoding=[System.Text.Encoding]::UTF8; python kdo-tools/daily-context-save.py save --agent ouyangfeng --truman --file 桌面/agent复盘/ouyangfeng/daily-context/2026-09-07.md 2>&1" in C:\Users\Administrator\Desktop\wiki
+2026-09-06T20:58:52.810514Z ERROR codex_core::tools::router: error=Exit code: 1
+Wall time: 0.3 seconds
+Output:
+python : \u274c �ļ������ڣ�����/agent����/ouyangfeng/daily-context/2026-09-07.md
+At line:2 char:97
++ ... ing]::UTF8; python kdo-tools/daily-context-save.py save --agent ouyan ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (\u274c �ļ������...t/2026-09-07.md:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+ exited 1 in 338ms:
+python : \u274c �ļ������ڣ�����/agent����/ouyangfeng/daily-context/2026-09-07.md
+At line:2 char:97
++ ... ing]::UTF8; python kdo-tools/daily-context-save.py save --agent ouyan ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (\u274c �ļ������...t/2026-09-07.md:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+The file path is being resolved incorrectly because the `桌面/agent复盘/...` path isn't being interpreted as expected—it seems the script is using the current working directory or a different base path. The error message indicates "文件不存在" (file doesn't exist), likely because the script is joining the user's home directory with the relative path rather than resolving it correctly.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "cd C:\\Users\\Administrator\\Desktop\\wiki; [Console]::OutputEncoding=[System.Text.Encoding]::UTF8; python -c \"import pathlib; p=pathlib.Path('桌面/agent复盘/ouyangfeng/daily-context/2026-09-07.md'); print('relative exists:', p.exists()); print('absolute:', p.resolve())\"; Write-Output '---LIST-DESKTOP---'; Get-ChildItem -LiteralPath 'C:\\Users\\Administrator\\Desktop' -Filter 'agent复盘' | Select-Object FullName" in C:\Users\Administrator\Desktop\wiki
+ succeeded in 330ms:
+relative exists: False
+absolute: C:\Users\Administrator\Desktop\wiki\桌面\agent复盘\ouyangfeng\daily-context\2026-09-07.md
+---LIST-DESKTOP---
+
+FullName                              
+--------                              
+C:\Users\Administrator\Desktop\agent澶嶇洏
+
+
+
+I see the path issue—the `--file` argument is being treated as a relative path under the wiki directory, but the file actually exists at the Desktop level, which explains why it's not being found. I need to use the absolute path `C:\Users\Administrator\Desktop\agent复盘\ouyangfeng\daily-context\2026-09-07.md` instead.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "cd C:\\Users\\Administrator\\Desktop\\wiki; [Console]::OutputEncoding=[System.Text.Encoding]::UTF8; python kdo-tools/daily-context-save.py save --agent ouyangfeng --truman --file 'C:\\Users\\Administrator\\Desktop\\agent复盘\\ouyangfeng\\daily-context\\2026-09-07.md' 2>&1" in C:\Users\Administrator\Desktop\wiki
+ succeeded in 393ms:
+✅ 已保存：C:\Users\Administrator\Desktop\agent复盘\ouyangfeng\daily-context\2026-09-07.md
+✅ 已存档：60_feedback\session-archives\2026-09-07\ouyangfeng.md
+📋 自检：🟢 A级 📚检索有发现
+✅ 事件 #1307 已写入: agent=ouyangfeng event=review_saved
+🧪 胶囊 L0 已留痕: agent=ouyangfeng event=review_saved
+✅ A → B 镜像完成: C:\Users\Administrator\.kdo-memory\L1 → D:\KDO-memory\L1-backup（robocopy /MIR，exit 1）
+✅ verify PASS：B 镜像文件 hash 全一致；从 B 打开 integrity=ok 行数 1302（A 同 1302）
+
+The save completed successfully with an A grade and the retrospective written. Now I need to finish the remaining tasks: update the skill evolution log with the key lesson from #674, and update the amnesia recovery file since the review methodology may have changed—though it's more likely the methodology card needs updating rather than the amnesia recovery anchor itself. I'll also need to check the friction log for the PowerShell GBK issue during pytest.
+
+Let me handle the skill evolution log and amnesia recovery, then wrap up. I should append a row to the skill evolution log following the existing format, and for amnesia recovery, I need to check if the file needs updating since the methodology is in the context file rather than the recovery anchor. I'll skip that if it's just a pointer. I'm noticing the PowerShell GBK issue is recurring—this is actually the 5th recurrence of the Chinese text corruption problem in pipes, but this time it's about pytest encoding rather than text corruption, so I'll log it as a pitfall in the skill evolution row.
+
+Adding the skill evolution log entry...
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "cd C:\\Users\\Administrator\\Desktop\\wiki; [Console]::OutputEncoding=[System.Text.Encoding]::UTF8; Add-Content -LiteralPath 'C:\\Users\\Administrator\\Desktop\\agent复盘\\ouyangfeng\\技能进化日志.md' -Value \"| 2026-09-07 | #674 path_map 键硬化终审：代码单三测独立复跑（撞车溯源脚本+探针 --json+pytest）不信执行报告数字；pytest 全量收集报 GBK UnicodeDecodeError 是环境编码不是代码坏——先 PYTHONUTF8=1 并对齐口径（639=核心 tests/，整仓含 tools 子目录=994）再判红绿；交付物真实落点用 git log -S 追溯，警惕 auto-backup 抢跑进备份 commit（#673/#674 同款） | 方法升级+踩坑教训 | #674 终审实战 |\" -Encoding UTF8; Get-Content -LiteralPath 'C:\\Users\\Administrator\\Desktop\\agent复盘\\ouyangfeng\\技能进化日志.md' -Encoding UTF8 | Select-Object -Last 2" in C:\Users\Administrator\Desktop\wiki
+ succeeded in 237ms:
+| 2026-09-07 | 基建处置单终审四核（根因/新bundle/节拍/阈值）：佐证包交叉引用须回原始源复核（正文称"09-03 行在 B 节"实际在 daily.log 原文件 line 92）；读 bat/shell 对 label fall-through 保持警觉（:daily_only 复用标签=误导读日志行+obsidian 快照仅周一跑双 bug）；核心改动用 git log -S 追溯真实落点（auto-backup 抢跑提交致专属 commit overclaim） | 方法升级 | #673 终审实战 |
+| 2026-09-07 | #674 path_map 键硬化终审：代码单三测独立复跑（撞车溯源脚本+探针 --json+pytest）不信执行报告数字；pytest 全量收集报 GBK UnicodeDecodeError 是环境编码不是代码坏——先 PYTHONUTF8=1 并对齐口径（639=核心 tests/，整仓含 tools 子目录=994）再判红绿；交付物真实落点用 git log -S 追溯，警惕 auto-backup 抢跑进备份 commit（#673/#674 同款） | 方法升级+踩坑教训 | #674 终审实战 |
+
+The skill log is updated, and the amnesia recovery file doesn't need changes since my methodology hasn't fundamentally shifted—only the methodology card needs updating, which isn't part of my scope as the reviewer. I've completed the mandatory session-end actions including the Truman review, save, and self-check, all achieving A grade. Now I'm checking the friction log to see if the GBK/pytest issue qualifies for a minimal advice book, but it's already documented in the skill log and daily context, so a separate friction log entry isn't required.
+
+I've finished the core task: read startup files, reviewed #674 with three verification points (traceability of 13 collision cards, probe concepts gap, regression status), wrote the terminal review record, ran the queue transition to mark it reviewed with A- grade, and logged the entry in todos. The mandatory actions are done. I should verify the final state with a quick check of the queue, task status, and todos to ensure everything is recorded properly. The remaining modified files in git status are other agents' WIP—logs and registry entries—which I won't commit since that's handled by the vault backup or those agents themselves.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "cd C:\\Users\\Administrator\\Desktop\\wiki; [Console]::OutputEncoding=[System.Text.Encoding]::UTF8; python 90_control/scripts/queue_transition.py myqueue ouyangfeng 2>&1 | Select-Object -First 30; Write-Output '---674-STATUS---'; Select-String -LiteralPath '70_product\\tasks\\production-queue.md' -Pattern '"'^ *'"\\| 674 \\|' -Encoding UTF8 | Select-Object -First 1 -ExpandProperty Line; Write-Output '---TASK-STATUS-FIELD---'; Select-String -LiteralPath '60_feedback\\tasks\\task_20260907_huangyaoshi-pathmap-key-hardening.md' -Pattern '"'^status:'"' -Encoding UTF8 | Select-Object -First 1 -ExpandProperty Line" in C:\Users\Administrator\Desktop\wiki
+ succeeded in 441ms:
+# role=ouyangfeng · 任务路由（#472 只读视图，不动状态机）
+✅ 可领 0:
+  (无)
+⏸ 等依赖 0:
+  (无)
+🧊 冻结 0:
+  (无)
+🚧 进行中 0:
+  (无)
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 1:
+  #672 task_20260907_ouyangfeng-skilllog-merge — ✅PASS （2026-09-06）
+---674-STATUS---
+| 674 | `task_20260907_huangyaoshi-pathmap-key-hardening` | graph_state path_map 改 path/id 键根除同标题撞车（13 张溯源丢失，欧阳锋根因定位） | reviewed | huangyaoshi | 重建后无撞车+13张可溯源+探针concepts清零+回归不红 | #673 后（同角色排队） | `60_feedback/tasks/task_20260907_huangyaoshi-pathmap-key-hardening.md` | 欧阳锋建议书三连（09-07 王语嫣立项）；欧阳锋终审 |
+---TASK-STATUS-FIELD---
+status: reviewed
+
+The queue shows #674 has moved to reviewed status and cleared from the pending list, which is the right outcome. I'm verifying the final state of everything: the review is done, todos are logged, and the retrospective is complete. I notice the "最近终审" display shows #672 but not #674, which is a bit odd.
+
+Actually, looking at the myqueue output more carefully, the "最近终审（48h）" section is supposed to show my recent reviews, but #674 (which I just reviewed) isn't appearing there—only #672 shows up. This might be because #672 was my own task with a different routing classification, but #674 has reviewer=欧阳锋 so it should be listed under my recent reviews too. The queue_transition already committed the review and flipped the status, so this is likely just a display nuance with the 48h window rather than a workflow problem. The core work is complete—the status is now reviewed, the todos are updated, and the review record is saved. The myqueue display showing only #672 might be a 48-hour window artifact, but since the status field correctly shows #674 as reviewed and it's no longer in my pending queue, the review is properly recorded.
+
+Now I need to verify the git status and check whether there are any untracked files or uncommitted work I should handle. The queue_transition script should have committed the task and queue changes, but the todos and daily context files might still be uncommitted. The vault backup runs at :20/:50, so I should confirm the current time relative to those windows and ensure all my work is either committed or visible for the next backup cycle.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "cd C:\\Users\\Administrator\\Desktop\\wiki; [Console]::OutputEncoding=[System.Text.Encoding]::UTF8; Get-Date -Format 'HH:mm:ss'; Write-Output '---GIT-STATUS---'; git status --short | Select-Object -First 30; Write-Output '---LAST-COMMITS---'; git log --oneline -3" in C:\Users\Administrator\Desktop\wiki
+ succeeded in 331ms:
+04:59:23
+---GIT-STATUS---
+ M 60_feedback/session-archives/2026-09-07/ouyangfeng.md
+ M 90_control/role-registry.json
+---LAST-COMMITS---
+ebd774eb4 vault backup: 2026-09-07 04:58:30
+ae7d72a1f chore(queue): #674 review by 欧阳锋
+92b3dd717 vault backup: 2026-09-07 04:47:40
+
+The git status shows two modified files: the session archive for my daily context that the save script wrote, and the role registry that appears to be modified by another agent. I'm trying to understand how the vault backup happened at 04:58:30 even though the log previously showed backups at :20 and :50, and the 04:47:40 backup was earlier.
+
+Looking at the commits, it seems my review commit ae7d72a1f at 04:57 was followed by a backup at 04:58:30, which wasn't the typical 30-minute interval. The :50 backup should have been at 04:50, but instead I see 04:47:40 and 04:58:30, suggesting the backup cadence may have shifted or these are snapshot times rather than exact 30-minute markers. My session archive file remains uncommitted, which is expected since the backup process handles those files. The role-registry.json is also modified, likely from another agent's in-flight work, but I should avoid committing it since it's not my file. I could commit just my archive file, but that risks interfering with the backup process.  Let me check the vault backup log to see if it actually ran at 04:58 and whether my archive was included.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "cd C:\\Users\\Administrator\\Desktop\\wiki; [Console]::OutputEncoding=[System.Text.Encoding]::UTF8; Get-Content -LiteralPath 'logs\\vault-git-backup.log' -Encoding UTF8 | Select-Object -Last 5; Write-Output '---ARCHIVE-DIFF---'; git diff --stat -- 60_feedback/session-archives/2026-09-07/ouyangfeng.md; Write-Output '---REGISTRY-CHANGED-BY-WHOM---'; git log -1 --format='%h %ad %s' --date=format:'%Y-%m-%d %H:%M:%S' -- 90_control/role-registry.json" in C:\Users\Administrator\Desktop\wiki
+ succeeded in 301ms:
+vault backup: 2026-09-07 02:50:01 SKIPPED（#628 活动会话 4：huangyaoshi(cli), proc:claude.exe, proc:codex.exe, proc:kimi.exe）
+vault backup: 2026-09-07 03:20:01 SKIPPED（#628 活动会话 5：ouyangfeng(cli), huangyaoshi(cli), proc:claude.exe, proc:codex.exe, proc:kimi.exe）
+vault backup: 2026-09-07 03:50:01 SKIPPED（#628 活动会话 4：ouyangfeng(cli), proc:claude.exe, proc:codex.exe, proc:kimi.exe）
+vault backup: 2026-09-07 04:20:01 SKIPPED（#628 活动会话 5：ouyangfeng(cli), huangyaoshi(cli), proc:claude.exe, proc:codex.exe, proc:kimi.exe）
+vault backup: 2026-09-07 04:50:01 SKIPPED（#628 活动会话 4：huangyaoshi(cli), proc:claude.exe, proc:codex.exe, proc:kimi.exe）
+---ARCHIVE-DIFF---
+ .../session-archives/2026-09-07/ouyangfeng.md      | 77 ++++++++++++++++++++--
+ 1 file changed, 73 insertions(+), 4 deletions(-)
+---REGISTRY-CHANGED-BY-WHOM---
+ebd774eb4 2026-09-07 04:58:30 vault backup: 2026-09-07 04:58:30
+
+The vault backup is still running on the :20/:50 schedule and skipped at 04:50 due to an active session, but it executed at 04:58:30 because the active session count dropped to 3, which is below the threshold for skipping. I need to check what the actual #628 skip threshold is to understand why that specific time triggered the backup.
+
+Looking at the commit history, the 04:58:30 backup commit (ebd774eb4) already committed the role-registry.json file, so the current working tree modification to that file is a new change made after the backup. My session archive file is modified but not yet committed. The role registry is another agent's in-flight work that I shouldn't touch. The question is whether I need to commit my session archive file myself or if it's fine to leave it uncommitted and visible on disk. The instructions say in-progress work should remain visible on disk, and active sessions cause the backup to skip anyway, so the archive file will eventually get picked up by a backup or I can commit it separately.
+
+Given that the daily-context-save script already wrote to both locations and there's a clear path for session archives to be committed, and since I'm the only one who changed that file, I should commit just my archive file to keep the work durable. I'll use git add with the specific path and commit it. Let me also verify that the backup is safe to run right now—the current time is around 04:59 and the next backup is at 05:20, so I'm outside the pre-backup window. I'll commit just my archive file.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "cd C:\\Users\\Administrator\\Desktop\\wiki; [Console]::OutputEncoding=[System.Text.Encoding]::UTF8; git add -- '60_feedback/session-archives/2026-09-07/ouyangfeng.md'; git commit -m \"chore(ouyangfeng): #674 终审复盘归档（session-archives 会话3）\" 2>&1; Write-Output '---POST-STATUS---'; git status --short | Select-Object -First 20" in C:\Users\Administrator\Desktop\wiki
+ succeeded in 469ms:
+[master dc3f2ba6c] chore(ouyangfeng): #674 终审复盘归档（session-archives 会话3）
+ 1 file changed, 73 insertions(+), 4 deletions(-)
+---POST-STATUS---
+ M 90_control/role-registry.json
+
+The archive commit is done, and only role-registry.json remains modified—that's from another agent's active work, so I'm leaving it as is. Now I'm ready to summarize the completed review: I went through the startup files, finished the final review of #674 with all three checkpoints independently verified, recorded the terminal review, ran the queue transition to mark it reviewed with an A- grade, logged it in the todos, and completed the mandatory session-end actions.
+
+I should note the non-blocking findings—the three items and #675 being queued after #674—plus the retrospective passing with an A grade. I'll keep the summary concise in Chinese since the user is Chinese-speaking.
+codex
+终审 #674 完成，已 PASS 收口。以下是本次会话的闭环记录。
+
+## 三项重点核（本端独立复跑，非仅读报告）
+| 核查项 | 结论 | 证据 |
+|---|---|---|
+| ① 13 张撞车卡溯源全部恢复 | ✅ 26/26 全可溯源 | 本端跑收集脚本：13 组同 title 共 26 张卡（concepts 1/dk 1/frameworks 1/tools 10），`collision_cards_missing_from_path_map=0`，每组 2/2 均在 path_map 且带各自 id |
+| ② 探针 concepts 缺口清零 | ✅ 0 缺口 | 本端独立 `graph-index-coverage-probe.py --json`：ok=true / pages=2941 / path_map=2941 / gap_by_dir 全 0 / anomalies=[]；graph_state.json：str_vals=0、dict_vals=2941 |
+| ③ 回归不红 | ✅ 639 passed 1 skipped | 本端 `pytest tests/` 独立实跑=639 passed 1 skipped；`tests/test_graph.py` 27 passed（+3 新例全绿） |
+
+## 代码实现核查（KDO 仓 6fb4a42）
+写侧 `path_map` 键 title→page_path（值 `{title,id}`）、legacy str 值检测→强制 full rebuild、删除传播按键差集+entry.title 回取 LightRAG 实体名——三处与任务单声明一致，工作区无脏改动。
+
+## 非阻断缺口（3 条，无需回退）
+1. vault 侧探针适配经 auto-backup commit `22081f4da` 落仓，而非 #674 专属 commit（纯提交路由记录级，功能已提交无脏改动）。
+2. KG 实体层 entity_name 仍=title，13 组撞名卡在图内仍合流（已声明的边界，根治归内容侧改名/KG 硬化新单）。
+3. `graph.py:358` 全删空时提前 return、删除传播不触发的 pre-existing 边界缺陷（记录级，未动）。
+
+## 状态流转与落账
+- `queue_transition.py review 674 --verdict pass --reviewer 欧阳锋 --grade A-` → 队列已翻 `reviewed`，任务单 status=reviewed，终审记录节已写入任务单。
+- todos/ouyangfeng.md 已追加 04:57 落账行。
+- #675（bundle bat 双问题）确认为 queued、排 #674 后接续，无需回退。
+
+## 会话结束复盘（ouyangfeng 强制动作）
+- 技能进化日志 +1 行（三测独立复跑 / pytest GBK 编码与 tests/ vs 整仓口径 / git log -S 追溯 auto-backup 抢跑提交）。
+- Truman 复盘会话 3 已写入 `桌面/agent复盘/ouyangfeng/daily-context/2026-09-07.md`，`daily-context-save.py` 自检 **🟢 A 级 📚检索有发现**，session-archives 已归档并提交（dc3f2ba6c）。
+
+工作区仅剩 `90_control/role-registry.json` 未提交——系他人活跃会话的在制品，按纪律未触碰，留待备份/其本人收口。
+tokens used
+94,001
+终审 #674 完成，已 PASS 收口。以下是本次会话的闭环记录。
+
+## 三项重点核（本端独立复跑，非仅读报告）
+| 核查项 | 结论 | 证据 |
+|---|---|---|
+| ① 13 张撞车卡溯源全部恢复 | ✅ 26/26 全可溯源 | 本端跑收集脚本：13 组同 title 共 26 张卡（concepts 1/dk 1/frameworks 1/tools 10），`collision_cards_missing_from_path_map=0`，每组 2/2 均在 path_map 且带各自 id |
+| ② 探针 concepts 缺口清零 | ✅ 0 缺口 | 本端独立 `graph-index-coverage-probe.py --json`：ok=true / pages=2941 / path_map=2941 / gap_by_dir 全 0 / anomalies=[]；graph_state.json：str_vals=0、dict_vals=2941 |
+| ③ 回归不红 | ✅ 639 passed 1 skipped | 本端 `pytest tests/` 独立实跑=639 passed 1 skipped；`tests/test_graph.py` 27 passed（+3 新例全绿） |
+
+## 代码实现核查（KDO 仓 6fb4a42）
+写侧 `path_map` 键 title→page_path（值 `{title,id}`）、legacy str 值检测→强制 full rebuild、删除传播按键差集+entry.title 回取 LightRAG 实体名——三处与任务单声明一致，工作区无脏改动。
+
+## 非阻断缺口（3 条，无需回退）
+1. vault 侧探针适配经 auto-backup commit `22081f4da` 落仓，而非 #674 专属 commit（纯提交路由记录级，功能已提交无脏改动）。
+2. KG 实体层 entity_name 仍=title，13 组撞名卡在图内仍合流（已声明的边界，根治归内容侧改名/KG 硬化新单）。
+3. `graph.py:358` 全删空时提前 return、删除传播不触发的 pre-existing 边界缺陷（记录级，未动）。
+
+## 状态流转与落账
+- `queue_transition.py review 674 --verdict pass --reviewer 欧阳锋 --grade A-` → 队列已翻 `reviewed`，任务单 status=reviewed，终审记录节已写入任务单。
+- todos/ouyangfeng.md 已追加 04:57 落账行。
+- #675（bundle bat 双问题）确认为 queued、排 #674 后接续，无需回退。
+
+## 会话结束复盘（ouyangfeng 强制动作）
+- 技能进化日志 +1 行（三测独立复跑 / pytest GBK 编码与 tests/ vs 整仓口径 / git log -S 追溯 auto-backup 抢跑提交）。
+- Truman 复盘会话 3 已写入 `桌面/agent复盘/ouyangfeng/daily-context/2026-09-07.md`，`daily-context-save.py` 自检 **🟢 A 级 📚检索有发现**，session-archives 已归档并提交（dc3f2ba6c）。
+
+工作区仅剩 `90_control/role-registry.json` 未提交——系他人活跃会话的在制品，按纪律未触碰，留待备份/其本人收口。
