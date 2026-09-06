@@ -2,14 +2,14 @@
 id: task_20260906_duanwangye-datapack-weblogin
 title: "DataPack 试点二：网络登录内容样本库（解析对照/反爬失败案例/字段抽取金标准，段王爷整理弹药）"
 seq: 661
-status: queued
+status: in_progress
 assignee: duanwangye
 created_by: wangyuyan
 created_at: 2026-09-06
 decision_source: 老朱 09-06 点名（段王爷把处理网络登录内容的工作流整理成 datapack）
 reviewer: 欧阳锋
 instance: duanwangye
-updated_at: '2026-09-06T12:50:00+08:00'
+updated_at: '2026-09-06T04:44:32.189847+00:00'
 ---
 
 # #661 DataPack 试点二：登录内容样本库（段王爷）
