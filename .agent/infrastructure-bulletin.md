@@ -4,6 +4,15 @@
 > 面向：所有 Agent  
 > **每个 Agent 启动时必须读此文件了解最新基建变更。**
 
+## 2026-09-06 行为宪法 v1.1 第六条：kdo query 第一优先门禁（#669）
+
+| 变更 | 内容 |
+|:--|:--|
+| 宪法 v1.0→v1.1 | 增补**第六条**：知识问题第一动作=`kdo query`（检索词同义/中英扩展 ≥2 变体）；0 命中或证据不足才降级 grep 兜底；诊断/调研/报告产出必附「kdo query 检索记录」节（查询词+命中数+日期），无检索记录=不闭环 |
+| grep 降级双口径 | grep 只用于①kdo query 之后补充定位②非知识类检索（代码/配置/日志）。grep 沿自己足迹搜 ≠ 调研（W11 违例实证：grep 漏库内已有方法卡两周） |
+| pre-submit 新门禁 | `kdo pre-submit` 新增 `KDO_QUERY_LOG` 检查：诊断/调研/报告类（frontmatter type=diagnosis/research/report 或落 60_feedback/diagnosis|diag|diags|analysis/）缺检索记录节 → **WARNING 软一周（至 2026-09-13）→ 升 HARD 拦截**；`KDO_QUERYLOG_HARD_DATE` env 可提前门禁化 |
+| 谁改的 | 黄药师（任务单 #669，老朱直令「不信自律信门禁」，欧阳锋终审中） |
+
 ## 2026-09-06 拉起器通道健康预检+fallback（#656，F-073）
 
 | 变更 | 内容 |

@@ -142,7 +142,7 @@ PROMPT_TEMPLATE = """你是{role}（KDO 知识工厂角色）。工作目录 {wi
 {instruction}
 
 通用纪律（不可协商）：
-- 行为宪法（#652 老朱 09-06 拍板，五条行为底线，全 agent 强制）：Read 90_control/agent-behavior-constitution.md——断言三级标注【实证/推断/猜测】、负向判词必附存在性核查锚点、疑问先检索再开口（商业主体调研用 business-research skill，其余 kdo query+grep）、解放-检验循环、Y模型三问后才方案。
+- 行为宪法（#652 老朱 09-06 拍板，v1.1 六条行为底线，全 agent 强制）：Read 90_control/agent-behavior-constitution.md——断言三级标注【实证/推断/猜测】、负向判词必附存在性核查锚点、疑问先检索再开口（商业主体调研用 business-research skill，其余 kdo query+grep）、解放-检验循环、Y模型三问后才方案、知识问题第一动作=kdo query（检索词同义/中英扩展，0 命中或证据不足才降级 grep 兜底；grep 只用于①kdo query 后补充定位②非知识类检索（代码/配置/日志）；诊断/调研/报告产出必附「kdo query 检索记录」节=查询词+命中数+日期，pre-submit 校验 #669）。
 - 队列状态流转只走 python 90_control/scripts/queue_transition.py（claim <task_id> --instance {role} / complete ... --evidence ... / review ...），禁止手改队列和任务单 status。实例名=裸角色名（#620 老朱 09-02 铁律：工具=变量不进名字）。
 - 完工在 90_control/todos/{role}.md 追加一行（[YYYY-MM-DD HH:MM] 动作+任务号+结果）。
 - 提审前任务单内必须有五字段执行报告（**交付物**/**完成内容**/**验证**/**边界**/**需要谁动作** 各起一行）。

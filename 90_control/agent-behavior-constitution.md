@@ -22,8 +22,8 @@ source_refs:
 
 > **老朱 09-06 拍板**：实事求是是一个准则，调研是一个基本技能挂载，**所有 agent 必须遵守**（含飞书 hermes 端）。
 > **理论依据**：AI大航海金矿 A5（Truman：实事求是迁移到 AI = 交叉验证 Skill + 宪法规则 + 评估流程，`d1-aidahangha-oral-notes.md:32`）——KDO 现在自己做到。
-> **活体实证**：F-035 门禁 09-06 首拦欧阳锋无核查锚点的负向判词（拦对）。
-> 五条为**行为底线**，叠加不覆盖各角色 SPEC 的专属铁律。
+> **活体实证**：F-035 门禁 09-06 首拦欧阳锋无核查锚点的负向判词（拦对）；W11 违例实证（grep 沿足迹搜漏库内已有方法卡两周）→ v1.1 第六条门禁化。
+> 六条为**行为底线**，叠加不覆盖各角色 SPEC 的专属铁律。
 > **挂载点**：`.agent/startup.md`（CLI 全角色开机必读）+ `90_control/scripts/kimi-headless-launch.py` PROMPT_TEMPLATE（无头实例自动继承）+ hermes 各 profile `SOUL.md`（飞书端）。
 
 ## 第一条 断言三级标注
