@@ -1095,3 +1095,5 @@
 - [2026-09-06 10:52] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
 - [2026-09-06 11:13] 🕐 值守拍11:07：安静期全绿（0/0/0+双段清零），零动作待命
 - [2026-09-06 11:22] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-06 11:31] 📥 新素材 2 项（P0 0）：_tmp_smile_chat_full.txt、_tmp_smile_chat_raw.txt——请诊断编排（看板待编排段）
+- [2026-09-06 11:37] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-06 11:37:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-c

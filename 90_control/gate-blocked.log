@@ -739,3 +739,4 @@
   - untracked: Knowledge Delivery OS 0.0.1/kdo/x.py
 补救：git｜huangyaoshi
 2026-09-06 07:55:25｜task_20260906_huangyaoshi-e040-crossrepo-hint｜F-035-负向判词｜意见书含负向断言（未同步/「未动、种子副本」）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋
+2026-09-06 11:37:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 6341.8), ('cli', 229.4)]）｜role_registry check-liveness｜role_registry
