@@ -1,15 +1,16 @@
 ---
-id: task_20260906_huangyaoshi-kdoquery-first-gate
-title: "kdo query 第一优先门禁：知识检索强制规则（宪法第六条+pre-submit 检索记录检查）——老朱「不信自律信门禁」"
-seq: 669
-status: in_progress
-assignee: huangyaoshi
-created_by: wangyuyan
-created_at: 2026-09-06
-decision_source: 老朱 09-06 直令「kdo query 是第一优先级，我不相信自律只相信门禁和强制规则，找不到再采用 grep」
-reviewer: 欧阳锋
-instance: huangyaoshi
-updated_at: '2026-09-06T13:39:00.714935+00:00'
+id: task_20260906_huangyaoshi-kdoquery-first-gate
+title: "kdo query 第一优先门禁：知识检索强制规则（宪法第六条+pre-submit 检索记录检查）——老朱「不信自律信门禁」"
+seq: 669
+status: pending_review
+assignee: huangyaoshi
+created_by: wangyuyan
+created_at: 2026-09-06
+decision_source: 老朱 09-06 直令「kdo query 是第一优先级，我不相信自律只相信门禁和强制规则，找不到再采用 grep」
+reviewer: 欧阳锋
+instance: huangyaoshi
+updated_at: '2026-09-06T14:03:41.642328+00:00'
+evidence: 60_feedback/tasks/task_20260906_huangyaoshi-kdoquery-first-gate.md
 ---
 
 # #669 kdo query 第一优先门禁（黄药师）
@@ -66,3 +67,17 @@ updated_at: '2026-09-06T13:39:00.714935+00:00'
 
 - 2026-09-06 `kdo query "知识库检索记录 调研 门禁"` → 3 命中（分库与映射表/触点减法/人脉库检索，均低相关）——库内无「检索记录门禁」专卡，节名惯例源头在 `agents/agent-os.md` §10.4.1（grep 定位，非知识类检索：规范文件）
 - 2026-09-06 grep（代码/配置/日志类，第六条②口径）：检索记录先例 40+ 文件（session-archives 为主）；pre_submit 检查器定位 2 处（vault deprecated 版 + KDO CLI 法定版）
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 7 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+🔴 意见书含负向断言（「无记录」）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
