@@ -2,14 +2,14 @@
 id: dk-AI知识库-隐性知识显性化60分原则
 title: 隐性知识显性化 60 分原则：先 60 分能解 60-70% 问题即值得
 type: dk
-status: pending_review
+status: reviewed
 confidence: 0.85
 trust_level: high
 domain:
 - ai-knowledge
 - knowledge-management
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 created_at: '2026-08-23'
 updated_at: '2026-09-07'
 quality_labels:
@@ -42,8 +42,8 @@ tags:
 - skill-level:advanced
 - 知识管理
 - 隐性知识
+review_date: 2026-09-07
 ---
-
 # 隐性知识显性化 60 分原则：先 60 分能解 60-70% 问题即值得
 
 > **定位**：半肥猫《AI×知识管理》暗知识 №6——自动化最容易被「完美主义」卡死，60 分原则是启动自动化、显性化隐性判断的破局点。

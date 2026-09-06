@@ -2,14 +2,14 @@
 id: framework-AI知识库-分库与映射表
 title: 分库与映射表：专业库隔离 + 映射表联动
 type: framework
-status: pending_review
+status: reviewed
 confidence: 0.85
 trust_level: high
 domain:
 - ai-knowledge
 - knowledge-management
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 created_at: '2026-08-23'
 updated_at: '2026-09-07'
 quality_labels:
@@ -41,8 +41,8 @@ tags:
 - scene:diagnosis
 - skill-level:advanced
 - 知识管理
+review_date: 2026-09-07
 ---
-
 # 分库与映射表：专业库隔离 + 映射表联动
 
 > **定位**：半肥猫《AI×知识管理》知识库组织方式——专业领域库隔离（防污染）+ 映射表联动（跨库检索），图书馆类比。

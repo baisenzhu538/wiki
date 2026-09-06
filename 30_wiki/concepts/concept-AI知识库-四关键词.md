@@ -2,14 +2,14 @@
 id: concept-AI知识库-四关键词
 title: AI 知识管理四关键词：协作桥梁/问题驱动/范式复利/拒绝焦虑
 type: concept
-status: pending_review
+status: reviewed
 confidence: 0.85
 trust_level: high
 domain:
 - ai-knowledge
 - knowledge-management
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 created_at: '2026-08-23'
 updated_at: '2026-09-07'
 quality_labels:
@@ -41,8 +41,8 @@ tags:
 - skill-level:advanced
 - 知识管理
 - AI认知
+review_date: 2026-09-07
 ---
-
 # AI 知识管理四关键词：协作桥梁/问题驱动/范式复利/拒绝焦虑
 
 > **定位**：半肥猫《AI×知识管理》课程的「魂」（洪七公建议书 §2.2）——四个关键词定义 AI 与知识、与人的关系，拒绝焦虑的认知底座。

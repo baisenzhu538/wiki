@@ -2,9 +2,9 @@
 id: framework-socialization-capability-pyramid
 title: "社会化能力金字塔——厌学不是病，是社会化功能卡在哪一层的分层诊断"
 type: framework
-status: draft
+status: reviewed
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
 language: zh-CN
@@ -56,7 +56,7 @@ tags:
 - 实证
 - 边界
 - 口述
-review_date: 2026-09-06
+review_date: 2026-09-07
 ---
 # 社会化能力金字塔
 

@@ -2,9 +2,9 @@
 id: framework-client-acceptable-decoupled-delivery
 title: "客户能接受什么（解耦交付）——产品设计原点从「我们能交付什么」到「客户能用出什么」的反转"
 type: framework
-status: draft
+status: reviewed
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 confidence: 0.84
 trust_level: high
 language: zh-CN
@@ -61,7 +61,7 @@ tags:
 - 避坑
 - 失败案例
 - 口述
-review_date: 2026-09-06
+review_date: 2026-09-07
 ---
 # 客户能接受什么（解耦交付）
 

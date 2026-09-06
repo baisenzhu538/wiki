@@ -2,9 +2,9 @@
 id: framework-zero-user-immersive-research
 title: "零号用户 + 沉浸式调研——普通访谈提不出来的需求从哪来"
 type: framework
-status: draft
+status: reviewed
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 confidence: 0.84
 trust_level: high
 language: zh-CN
@@ -57,7 +57,7 @@ tags:
 - 实操
 - 小步验证
 - 口述
-review_date: 2026-09-06
+review_date: 2026-09-07
 ---
 # 零号用户 + 沉浸式调研
 

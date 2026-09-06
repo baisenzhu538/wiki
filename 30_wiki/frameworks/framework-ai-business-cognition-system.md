@@ -2,9 +2,9 @@
 id: framework-ai-business-cognition-system
 title: "AI 业务认知系统 × 真人独立意志（正反合）——业务认知显性化的两个互补引擎"
 type: framework
-status: draft
+status: reviewed
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 confidence: 0.82
 trust_level: high
 language: zh-CN
@@ -60,7 +60,7 @@ tags:
 - 创业者
 - 避坑
 - 口述
-review_date: 2026-09-06
+review_date: 2026-09-07
 ---
 # AI 业务认知系统 × 真人独立意志（正反合）
 

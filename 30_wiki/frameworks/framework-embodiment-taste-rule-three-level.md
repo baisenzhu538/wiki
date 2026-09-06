@@ -2,9 +2,9 @@
 id: framework-embodiment-taste-rule-three-level
 title: "体感→审美→规则三级抽象——把业务判断变成 AI 可执行规则的外显阶梯"
 type: framework
-status: draft
+status: reviewed
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 confidence: 0.84
 trust_level: high
 language: zh-CN
@@ -58,7 +58,7 @@ tags:
 - 实操
 - 迭代
 - 口述
-review_date: 2026-09-06
+review_date: 2026-09-07
 ---
 # 体感→审美→规则三级抽象
 

@@ -2,14 +2,14 @@
 id: framework-AI知识库-知识卡片公式
 title: 知识卡片公式：YAML 标签（给 AI 看）+ 原子化正文（给人看）
 type: framework
-status: pending_review
+status: reviewed
 confidence: 0.9
 trust_level: high
 domain:
 - ai-knowledge
 - knowledge-management
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 created_at: '2026-08-23'
 updated_at: '2026-09-07'
 quality_labels:
@@ -43,8 +43,8 @@ tags:
 - skill-level:advanced
 - 知识管理
 - 标签体系
+review_date: 2026-09-07
 ---
-
 # 知识卡片公式：YAML 标签（给 AI 看）+ 原子化正文（给人看）
 
 > **定位**：半肥猫《AI×知识管理》知识卡片最小结构——AI 可检索 + 人可读的双层设计，KDO 卡片 frontmatter 的同构范式。

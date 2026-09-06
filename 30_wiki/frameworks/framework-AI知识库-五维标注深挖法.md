@@ -2,14 +2,14 @@
 id: framework-AI知识库-五维标注深挖法
 title: 标签五维标注深挖法：专业/风控/话术/视觉/经验
 type: framework
-status: pending_review
+status: reviewed
 confidence: 0.85
 trust_level: high
 domain:
 - ai-knowledge
 - knowledge-management
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 created_at: '2026-08-23'
 updated_at: '2026-09-07'
 quality_labels:
@@ -44,8 +44,8 @@ tags:
 - skill-level:advanced
 - 知识管理
 - 标签体系
+review_date: 2026-09-07
 ---
-
 # 标签五维标注深挖法：专业/风控/话术/视觉/经验
 
 > **定位**：半肥猫《AI×知识管理》标签方法论核心（老朱最关注）——标签不是打一个主题词，而是从五个维度深挖，让 AI 检索时能命中「为什么/给谁/怎么用」。

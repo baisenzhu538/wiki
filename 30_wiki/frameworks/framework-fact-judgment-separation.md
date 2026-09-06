@@ -2,9 +2,9 @@
 id: framework-fact-judgment-separation
 title: "事实与判断分离——AI 诊断系统的第一条设计规则"
 type: framework
-status: draft
+status: reviewed
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 confidence: 0.83
 trust_level: high
 language: zh-CN
@@ -59,7 +59,7 @@ tags:
 - 实证
 - 清单
 - 口述
-review_date: 2026-09-06
+review_date: 2026-09-07
 ---
 # 事实与判断分离
 

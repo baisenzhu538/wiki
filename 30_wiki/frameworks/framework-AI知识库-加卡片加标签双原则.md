@@ -2,14 +2,14 @@
 id: framework-AI知识库-加卡片加标签双原则
 title: 加卡片加标签双原则：知识不够加卡片，索引不到加标签
 type: framework
-status: pending_review
+status: reviewed
 confidence: 0.9
 trust_level: high
 domain:
 - ai-knowledge
 - knowledge-management
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 created_at: '2026-08-23'
 updated_at: '2026-09-07'
 quality_labels:
@@ -44,8 +44,8 @@ tags:
 - skill-level:advanced
 - 知识管理
 - 标签体系
+review_date: 2026-09-07
 ---
-
 # 加卡片加标签双原则：知识不够加卡片，索引不到加标签
 
 > **定位**：半肥猫《AI×知识管理》暗知识 №1（Q&A 三遍强调的最高频原则）——知识库增长与检索的最简决策规则，KDO 标签体系（#426 词表）的核心参考。

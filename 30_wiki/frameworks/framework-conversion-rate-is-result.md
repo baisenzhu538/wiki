@@ -2,9 +2,9 @@
 id: framework-conversion-rate-is-result
 title: "转化率是结果不是问题——症状≠病因的诊断反转"
 type: framework
-status: draft
+status: reviewed
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: high
 language: zh-CN
@@ -58,7 +58,7 @@ tags:
 - 归因错误
 - 反例
 - 口述
-review_date: 2026-09-06
+review_date: 2026-09-07
 ---
 # 转化率是结果不是问题
 

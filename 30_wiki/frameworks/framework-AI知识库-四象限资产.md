@@ -2,14 +2,14 @@
 id: framework-AI知识库-四象限资产
 title: 知识库四象限资产：私有事实/经验判断/业务边界/可复用输出
 type: framework
-status: pending_review
+status: reviewed
 confidence: 0.85
 trust_level: high
 domain:
 - ai-knowledge
 - knowledge-management
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 created_at: '2026-08-23'
 updated_at: '2026-09-07'
 quality_labels:
@@ -40,8 +40,8 @@ tags:
 - scene:diagnosis
 - skill-level:advanced
 - 知识管理
+review_date: 2026-09-07
 ---
-
 # 知识库四象限资产：私有事实/经验判断/业务边界/可复用输出
 
 > **定位**：半肥猫《AI×知识管理》最核心可复用框架（洪七公建议书：图 1 四象限）——知识库里到底该装什么，四类资产定边界。

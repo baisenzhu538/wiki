@@ -2,9 +2,9 @@
 id: framework-dual-triangle-gap-diagnosis
 title: "双三角缺口诊断法——每个卡住都是要素没凑齐，每个突破都是补上缺口"
 type: framework
-status: draft
+status: reviewed
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 confidence: 0.83
 trust_level: high
 language: zh-CN
@@ -59,7 +59,7 @@ tags:
 - 实证
 - 迭代
 - 口述
-review_date: 2026-09-06
+review_date: 2026-09-07
 ---
 # 双三角缺口诊断法
 

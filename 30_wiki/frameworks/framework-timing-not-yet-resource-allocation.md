@@ -2,9 +2,9 @@
 id: framework-timing-not-yet-resource-allocation
 title: "时机未到的资源配置框架——不猜彩票也不等待的重投/保留/停止三问"
 type: framework
-status: draft
+status: reviewed
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 confidence: 0.82
 trust_level: high
 language: zh-CN
@@ -56,7 +56,7 @@ tags:
 - 决策
 - 创业者
 - 口述
-review_date: 2026-09-06
+review_date: 2026-09-07
 ---
 # 时机未到的资源配置框架
 

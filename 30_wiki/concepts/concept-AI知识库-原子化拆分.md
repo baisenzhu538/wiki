@@ -2,14 +2,14 @@
 id: concept-AI知识库-原子化拆分
 title: 原子化拆分：按语义切分，拆到歧义为止
 type: concept
-status: pending_review
+status: reviewed
 confidence: 0.85
 trust_level: high
 domain:
 - ai-knowledge
 - knowledge-management
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 created_at: '2026-08-23'
 updated_at: '2026-09-07'
 quality_labels:
@@ -41,8 +41,8 @@ tags:
 - scene:diagnosis
 - skill-level:advanced
 - 知识管理
+review_date: 2026-09-07
 ---
-
 # 原子化拆分：按语义切分，拆到歧义为止
 
 > **定位**：半肥猫《AI×知识管理》知识加工核心动作——卡片的最小粒度标准，KDO 卡片生产（dk 七段/concept 结构）的底层逻辑。

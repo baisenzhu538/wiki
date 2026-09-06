@@ -2,9 +2,9 @@
 id: framework-knowledge-base-vs-ontology
 title: "知识库 vs 本体论之辨——三件套只叫知识库，推理逻辑才是本体的分界线"
 type: framework
-status: draft
+status: reviewed
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 confidence: 0.83
 trust_level: high
 language: zh-CN
@@ -59,7 +59,7 @@ tags:
 - 实证
 - 避坑
 - 口述
-review_date: 2026-09-06
+review_date: 2026-09-07
 ---
 # 知识库 vs 本体论之辨
 

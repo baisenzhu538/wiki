@@ -2,14 +2,14 @@
 id: framework-AI知识库-Workflow六要素
 title: Workflow 六要素 + 节点拆细降模型门槛
 type: framework
-status: pending_review
+status: reviewed
 confidence: 0.9
 trust_level: high
 domain:
 - ai-knowledge
 - knowledge-management
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 created_at: '2026-08-23'
 updated_at: '2026-09-07'
 quality_labels:
@@ -44,8 +44,8 @@ tags:
 - skill-level:advanced
 - 知识管理
 - 工作流
+review_date: 2026-09-07
 ---
-
 # Workflow 六要素 + 节点拆细降模型门槛
 
 > **定位**：半肥猫《AI×知识管理》阶段 3 核心框架——工作流不是把任务丢给 AI，而是六个要素配齐 + 节点拆细到「小模型也能稳定跑」。

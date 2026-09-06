@@ -2,14 +2,14 @@
 id: framework-AI知识库-五阶段演进
 title: AI 知识库五阶段演进：从内容生产到多 AI 协同
 type: framework
-status: pending_review
+status: reviewed
 confidence: 0.85
 trust_level: high
 domain:
 - ai-knowledge
 - knowledge-management
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 created_at: '2026-08-23'
 updated_at: '2026-09-07'
 quality_labels:
@@ -46,8 +46,8 @@ tags:
 - skill-level:advanced
 - 知识管理
 - AI知识库
+review_date: 2026-09-07
 ---
-
 # AI 知识库五阶段演进：从内容生产到多 AI 协同
 
 > **定位**：半肥猫《AI×知识管理》主模型卡——五阶段演进贯穿全程的唯一主线，KDO 知识库体系的可对照演进路径。
