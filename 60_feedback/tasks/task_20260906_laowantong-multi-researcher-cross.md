@@ -2,14 +2,14 @@
 id: task_20260906_laowantong-multi-researcher-cross
 title: "场景复现一：多研究员交叉研究工作流（老朱拍板第一优先，A60-61 课程口径 KDO 化）"
 seq: 664
-status: queued
+status: in_progress
 assignee: laowantong
 created_by: wangyuyan
 created_at: 2026-09-06
 decision_source: 老朱 09-06 拍板第 4 项「多研究院交叉」；课程金矿 A60-A62+B93（楚门哈佛案例教学法研究）
 reviewer: 欧阳锋
 instance: laowantong
-updated_at: '2026-09-06T14:30:00+08:00'
+updated_at: '2026-09-06T07:44:59.468495+00:00'
 ---
 
 # #664 多研究员交叉研究工作流（老顽童）
