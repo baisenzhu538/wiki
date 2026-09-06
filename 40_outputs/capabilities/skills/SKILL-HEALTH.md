@@ -1,12 +1,12 @@
 # Skill 健康雷达（SKILL-HEALTH）
 
-> #598 扫描生成物（生成时间 2026-09-03 04:48，共 78 个 skill）。
+> #598 扫描生成物（生成时间 2026-09-06 12:25，共 85 个 skill）。
 > 8 维口径 = 建议书_20260901_skill健康度勘察与检测方法论 §三；溯源 darwin-skill 9 维 rubric + skill-architecture-design 五维量化。
 > 档位：≥6/8 🟢 健康；4-5/8 🟡 亚健康（补短板即可）；≤3/8 🔴 不健康（路由/内容至少一项阻塞）。
 > **结构层 triage，不替代实测**（test-prompts 效果实测=建议书动作8 缓议）；生成物勿手改，
 > 重跑 `python 40_outputs/code/scripts/scan_skills_registry.py` 刷新。
 
-**总览：🟢 9 / 🟡 45 / 🔴 24（共 78）**
+**总览：🟢 10 / 🟡 51 / 🔴 24（共 85）**
 
 | skill | 档位 | 得分 | A触发 | B描述 | C失败 | D边界 | E来源 | F三写 | G克制 | H步骤 | 主文件行数 |
 |:--|:--|--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|--:|
@@ -15,6 +15,7 @@
 | `research-digging-approach` | 🟢 | 8/8 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 146 |
 | `research-explosion-five-step` | 🟢 | 8/8 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 130 |
 | `skill-architecture-design` | 🟢 | 8/8 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 103 |
+| `transcript-to-qingdanti` | 🟢 | 7/8 | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 155 |
 | `agent-self-iteration` | 🟢 | 6/8 | ✅ | ❌ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | 125 |
 | `kdo-self-attack` | 🟢 | 6/8 | ✅ | ❌ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | 170 |
 | `knowledge-collision` | 🟢 | 6/8 | ✅ | ✅ | ❌ | ✅ | ❌ | ✅ | ✅ | ✅ | 158 |
@@ -27,10 +28,16 @@
 | `content-production-positioning` | 🟡 | 5/8 | ✅ | ❌ | ❌ | ✅ | ❌ | ✅ | ✅ | ✅ | 80 |
 | `decision-prediction` | 🟡 | 5/8 | ✅ | ❌ | ❌ | ✅ | ❌ | ✅ | ✅ | ✅ | 108 |
 | `demand-analysis-synthetic` | 🟡 | 5/8 | ✅ | ❌ | ❌ | ✅ | ❌ | ✅ | ✅ | ✅ | 257 |
+| `intake-registry` | 🟡 | 5/8 | ✅ | ❌ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | 111 |
+| `kimi-headless-launch` | 🟡 | 5/8 | ✅ | ❌ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | 113 |
 | `nine-layer-deep-dig` | 🟡 | 5/8 | ✅ | ❌ | ✅ | ✅ | ❌ | ✅ | ✅ | ❌ | 72 |
+| `oral-transcript-trio` | 🟡 | 5/8 | ✅ | ❌ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | 127 |
+| `queue-transition` | 🟡 | 5/8 | ✅ | ❌ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | 136 |
 | `research-ci-framework` | 🟡 | 5/8 | ✅ | ❌ | ❌ | ✅ | ❌ | ✅ | ✅ | ✅ | 123 |
+| `review-chain` | 🟡 | 5/8 | ✅ | ❌ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | 133 |
 | `self-evolution` | 🟡 | 5/8 | ✅ | ❌ | ❌ | ✅ | ❌ | ✅ | ✅ | ✅ | 113 |
 | `stage-3-tooling` | 🟡 | 5/8 | ✅ | ❌ | ✅ | ✅ | ❌ | ✅ | ✅ | ❌ | 63 |
+| `transcribe-win` | 🟡 | 5/8 | ✅ | ❌ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | 125 |
 | `agent-migration-health-check` | 🟡 | 4/8 | ✅ | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | 110 |
 | `ai-collaboration-bitcoe` | 🟡 | 4/8 | ✅ | ❌ | ❌ | ✅ | ❌ | ✅ | ✅ | ❌ | 65 |
 | `ai-collaboration-ooda` | 🟡 | 4/8 | ✅ | ❌ | ❌ | ✅ | ❌ | ✅ | ✅ | ❌ | 73 |
@@ -91,10 +98,11 @@
 
 ## 短板聚合（非 🟢 的共性欠账，修复优先级参考）
 
-- B 描述信息量≥80字+场景：缺 68 个——`agent-migration-health-check`、`ai-collaboration`、`ai-collaboration-bitcoe`、`ai-collaboration-dev`、`ai-collaboration-gan`、`ai-collaboration-harness`、`ai-collaboration-ooda`、`beikai-multimodal-pipeline`、`comfyui-local`、`content-production`…
+- B 描述信息量≥80字+场景：缺 74 个——`agent-migration-health-check`、`ai-collaboration`、`ai-collaboration-bitcoe`、`ai-collaboration-dev`、`ai-collaboration-gan`、`ai-collaboration-harness`、`ai-collaboration-ooda`、`beikai-multimodal-pipeline`、`comfyui-local`、`content-production`…
 - C 失败模式编码：缺 65 个——`agent-migration-health-check`、`ai-collaboration`、`ai-collaboration-bitcoe`、`ai-collaboration-dev`、`ai-collaboration-gan`、`ai-collaboration-harness`、`ai-collaboration-ooda`、`comfyui-local`、`content-production`、`content-production-draft`…
 - D 边界与反例：缺 42 个——`agent-migration-health-check`、`ai-collaboration`、`content-production`、`content-production-draft`、`cosyvoice-tts`、`demand-analysis`、`demand-analysis-blindspot`、`demand-analysis-evaluate`、`demand-analysis-iceberg`、`domain-iteration`…
-- E 来源可追溯：缺 68 个——`agent-migration-health-check`、`ai-collaboration`、`ai-collaboration-bitcoe`、`ai-collaboration-dev`、`ai-collaboration-gan`、`ai-collaboration-harness`、`ai-collaboration-ooda`、`beikai-multimodal-pipeline`、`comfyui-local`、`content-production`…
+- E 来源可追溯：缺 74 个——`agent-migration-health-check`、`ai-collaboration`、`ai-collaboration-bitcoe`、`ai-collaboration-dev`、`ai-collaboration-gan`、`ai-collaboration-harness`、`ai-collaboration-ooda`、`beikai-multimodal-pipeline`、`comfyui-local`、`content-production`…
+- F 三写一致(manifest)：缺 6 个——`intake-registry`、`kimi-headless-launch`、`oral-transcript-trio`、`queue-transition`、`review-chain`、`transcribe-win`
 - G 主文件克制≤300行：缺 7 个——`beikai-multimodal-pipeline`、`comfyui-local`、`cosyvoice-tts`、`deep-debug`、`hermes-multi-bot-feishu-setup`、`multi-page-article-capture`、`vlm-image-describe-pipeline`
 - H 操作可执行(编号步骤)：缺 38 个——`ai-collaboration`、`ai-collaboration-bitcoe`、`ai-collaboration-ooda`、`comfyui-local`、`decision`、`decision-bias`、`decision-hygiene`、`decision-y-model`、`demand-analysis`、`demand-analysis-blindspot`…
 

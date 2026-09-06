@@ -1,5 +1,6 @@
 ---
 name: oral-transcript-trio
+title: "oral-transcript-trio——口述稿处理三件套（扫描演示段 + 主题索引 + 逐字读红线）"
 description: |
   口述稿处理三件套：scan-demo-sections（高价值演示段定位）+ transcript-index（关键词→段落索引）+ W1 逐字读红线。
   工具只做导航（行号+段落），不替代阅读；跳过逐字读 = P-31 级知识遗漏（250 行 Q&A 闲聊被跳过的实证）。
@@ -8,6 +9,11 @@ version: 1.0.0
 related_skills:
   - transcribe-win
 encapsulates: kdo-tools/scan-demo-sections.py + kdo-tools/transcript-index.py
+tags:
+  - audience:laowantong
+  - scene:material-processing
+  - 口述稿
+  - 逐字稿索引
 status: draft
 reviewed_by: 待审
 review_date:

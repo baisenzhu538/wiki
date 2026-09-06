@@ -575,3 +575,8 @@
 - [2026-09-06 11:57] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
 - [2026-09-06 12:10] 【通道预检 #656】notify 通路自检（黄药师手工触发，验证 laowantong.md 可写——非系统通知，#656 验收）
 - [2026-09-06 12:12] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-06 12:21] 【通道预检 #656】【通道全死】laowantong 拉起中止，不硬派（假跑必撞墙）——报王语嫣处置
+- [2026-09-06 12:21] 【通道预检 #656】探测明细：kimi: force_dead（模拟死通道）；claude: force_dead（模拟死通道）；codex: force_dead（模拟死通道）；hermes: 同上游 kimi 已判定（force_dead（模拟死通道）），未重复探测
+- [2026-09-06 12:21] 【通道预检 #656】应急直通：python 90_control/scripts/kimi-headless-launch.py laowantong '<指令>' --no-probe
+- [2026-09-06 12:21] 【狗粮实测 #658 注记】上行 3 行「通道全死」系老顽童 #658 狗粮测试钩（--force-dead kimi,claude,codex,hermes 模拟死通道，验证全死不硬派 exit 2 + 同上游去重），非真实通道故障，无需处置
+- [2026-09-06 12:42] ✅ #658 完成生产：6 件高频基建 skill 壳落盘（queue-transition/kimi-headless-launch/review-chain/oral-transcript-trio/transcribe-win/intake-registry）+ 狗粮实测 6/6 通过 + pre-submit 6/6 PASS + INDEX.md 刷新 85 skills → 已 commit，提审 pending_review

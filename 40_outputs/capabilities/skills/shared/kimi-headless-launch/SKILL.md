@@ -1,5 +1,6 @@
 ---
 name: kimi-headless-launch
+title: "kimi-headless-launch——角色无头拉起器（通道健康预检+fallback）"
 description: |
   角色无头拉起器：一条命令把任意 KDO 角色拉起在后台干活（自包含 prompt 自动带角色恢复+队列纪律+收尾留痕）。
   内置通道健康预检+fallback（claude/codex/kimi/hermes 四通道，同上游去重），通道全死不硬派。
@@ -10,6 +11,11 @@ related_skills:
   - queue-transition
   - review-chain
 encapsulates: 90_control/scripts/kimi-headless-launch.py
+tags:
+  - audience:wangyuyan
+  - scene:agent-launch
+  - 无头拉起
+  - 通道fallback
 status: draft
 reviewed_by: 待审
 review_date:

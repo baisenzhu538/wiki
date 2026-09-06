@@ -1,5 +1,6 @@
 ---
 name: review-chain
+title: "review-chain——收尾复盘链（daily-context-save + review-check 判级）"
 description: |
   Agent 收尾复盘链：daily-context-save（双写复盘 + 自动自检）+ review-check（11 章格式与深度判级 🟢A/🟡B/🔴C）。
   会话不跑这条链 = 会话未完成。含 11 章标题清单、判级硬指标、🔴 C 级重写路径、--file 传文件姿势。
@@ -8,6 +9,11 @@ version: 1.0.0
 related_skills:
   - queue-transition
 encapsulates: kdo-tools/daily-context-save.py + kdo-tools/review-check.py
+tags:
+  - audience:all-agents
+  - scene:session-retro
+  - 复盘
+  - Truman11章
 status: draft
 reviewed_by: 待审
 review_date:

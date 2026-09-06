@@ -1,5 +1,6 @@
 ---
 name: queue-transition
+title: "queue-transition——生产队列唯一状态流转入口（claim/complete/release/review）"
 description: |
   KDO 生产队列唯一状态流转入口：claim / complete / release / review / status / myqueue。
   所有队列状态变更必须走本脚本——手改 production-queue.md 状态列或任务单 status = 违规。
@@ -11,6 +12,11 @@ related_skills:
   - review-chain
   - kimi-headless-launch
 encapsulates: 90_control/scripts/queue_transition.py
+tags:
+  - audience:all-agents
+  - scene:queue-transition
+  - 队列状态流转
+  - 领单提审
 status: draft
 reviewed_by: 待审
 review_date:
