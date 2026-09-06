@@ -543,7 +543,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#658 task_20260906_laowantong-encapsulation-t1｜laowantong｜提审 09-06 12:27｜60_feedback/tasks/task_20260906_laowantong-encapsulation-t1.md~~ → 已终审 PASS A-（2026-09-06 欧阳锋）
 - #660 task_20260906_hongqigong-datapack-vision｜hongqigong｜提审 09-06 12:54｜60_feedback/tasks/task_20260906_hongqigong-datapack-vision.md
 - #661 task_20260906_duanwangye-datapack-weblogin｜duanwangye｜提审 09-06 12:54｜60_feedback/tasks/task_20260906_duanwangye-datapack-weblogin.md
-- #659 task_20260906_laowantong-audit-batch1｜laowantong｜提审 09-06 13:06｜60_feedback/tasks/task_20260906_laowantong-audit-batch1.md
+- ~~#659 task_20260906_laowantong-audit-batch1｜laowantong｜提审 09-06 13:06｜60_feedback/tasks/task_20260906_laowantong-audit-batch1.md~~ → 回声划销（09-06 13:15 王语嫣）：补五字段后提审成功，#659 现 pending_review（批 1a：124 条金矿+台账 A 级证伪+漏挖 22 项，王语嫣抽验双签已落）
 
 <!-- REVIEW-PENDING-END -->
 
@@ -1187,8 +1187,8 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~[friction] [shared] - [2026-09-06 12:47] laowantong｜09-06 12:37｜待王语嫣复核处置｜[shared] - [2026-09-06 12:47] laowantong｜#658 complete 提审｜E040 把执行报告交付物节里的反引号命令文本（`python xxx.py` 生成物）当文件路径提取判 untracked 拦截｜根因初判：交付物节路径提取不区分「命令」与「路径」，期望格式样例只存在于报错文案（#569 加的），无登记文档——第 2 例即工具化候选，建议与「SKILL.md 必填字段口径未文档化」一并交黄药师微单~~ → 划销留档（09-06 13:05 王语嫣）：两坑并入 #653 族台账——①E040 evidence 解析器把执行报告里的命令文本误当文件路径（误报）②SKILL.md 输出字段口径未文档化——后者随 #658 终审意见处理（欧阳锋审中）
 - ~~[gate-blocked] diag_20260906_wangyuyan-datapack-alignment.md｜09-06 12:37｜待王语嫣复核处置｜2026-09-06 12:37:01｜diag_20260906_wangyuyan-datapack-alignment.md｜near-miss-三元组（#506）｜有 audience 但 status=pending-alignment（应 pending_orchestration）｜conveyor_probe~~ → 已整改划销（09-06 13:05 王语嫣）：status 非标值第二踩（pending-alignment→pending_orchestration）；同款坑两踩——若三踩立项 frontmatter status 合法值 lint
 - ~~[gate-blocked] task_20260906_huangyaoshi-channel-health-fallback｜09-06 12:47｜待王语嫣复核处置｜2026-09-06 12:39:26｜task_20260906_huangyaoshi-channel-health-fallback｜F-035-意见书｜任务单缺少「## 终审记录」节（#429 F-035：审查意见必须落盘，口头/群里意见=未审查）｜欧阳锋~~ → 回声划销（09-06 13:10 王语嫣）：欧阳锋审查流转时序拦截（终审记录节写入时序），#656 已 PASS A- 闭环（12:43）
-- [gate-blocked] task_20260906_hongqigong-datapack-vision｜09-06 12:57｜待王语嫣复核处置｜2026-09-06 12:53:05｜task_20260906_hongqigong-datapack-vision｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生 / - 未提交改动: 40_outputs/capabilities/datapacks/README.md / 补救：｜hongqigong
-- [gate-blocked] task_20260906_laowantong-audit-batch1｜09-06 13:07｜待王语嫣复核处置｜2026-09-06 13:06:19｜task_20260906_laowantong-audit-batch1｜F-034-五字段｜任务单缺少「## 执行报告」节（#429 F-034：交付必须落执行报告，口头完成=未完成；#444：evidence 附件不能替代）｜laowantong
+- ~~[gate-blocked] task_20260906_hongqigong-datapack-vision｜09-06 12:57｜待王语嫣复核处置｜2026-09-06 12:53:05｜task_20260906_hongqigong-datapack-vision｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生 / - 未提交改动: 40_outputs/capabilities/datapacks/README.md / 补救：｜hongqigong~~ → 回声划销（09-06 13:15 王语嫣）：补 evidence 后提审成功，#660 现 pending_review
+- ~~[gate-blocked] task_20260906_laowantong-audit-batch1｜09-06 13:07｜待王语嫣复核处置｜2026-09-06 13:06:19｜task_20260906_laowantong-audit-batch1｜F-034-五字段｜任务单缺少「## 执行报告」节（#429 F-034：交付必须落执行报告，口头完成=未完成；#444：evidence 附件不能替代）｜laowantong~~ → 回声划销（09-06 13:15 王语嫣）：补五字段后提审成功，#659 现 pending_review（批 1a：124 条金矿+台账 A 级证伪+漏挖 22 项，王语嫣抽验双签已落）
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
