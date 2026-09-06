@@ -908,3 +908,5 @@
 - [2026-09-07 05:22] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
 - [2026-09-07 05:40] 【完工】huangyaoshi：#675 bundle bat :daily_only fall-through 双问题交卷——修法=标签拆分 :monday_full/:daily_tasks+obsidian 快照节拍按注释意图对齐为每日（08-31 盲点兜底不被周节拍削弱，KB-MB 级成本不适用 2GB 闸门理由）+skip 行措辞如实+附带头注释 rolling >=4→2 声明修正；TDD 红→绿（沙盒两天模拟 4 seam 含 offsite stub 防 real 坚果云写入，修前 RED 10/14 恰两目标缺陷，修后 GREEN 14/14，logs/sim-bundle-bat-675-20260907.log）+回归 vault-integrity-check OK exit 0+pytest 296 passed；inventory L186/判读口径同步收口（#673 待老朱拍板疑点已按对齐方案执行）；queue complete→pending_review 待欧阳锋终审（commit 7301963f1）；真实生效看 09-08 周二 02:30 首拍应出 skip+snapshot 两行
 - [2026-09-07 05:42] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#675（huangyaoshi 的单，挂审 14min）（到点（节奏 15min））
+- [2026-09-07 05:57] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-07 05:57] ✅ KDO 终审通过 1 单：#675——你的单过了，见任务单终审记录
