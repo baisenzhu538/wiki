@@ -2,14 +2,14 @@
 id: task_20260907_huangyaoshi-bundle-bat-branch-fix
 title: "wiki-bundle-backup.bat :daily_only fall-through 双问题修复（周一误导读日志+obsidian快照仅周一跑与注释不符）"
 seq: 675
-status: queued
+status: in_progress
 assignee: huangyaoshi
 created_by: wangyuyan
 created_at: 2026-09-07
 decision_source: 欧阳锋 #673 终审附带发现建议书 diag_20260907_ouyangfeng-bundle-bat-branch-structure（08-31 事故修复被周节拍静默削弱）
 reviewer: 欧阳锋
 instance: huangyaoshi
-updated_at: '2026-09-07T04:45:00+08:00'
+updated_at: '2026-09-06T21:14:57.084483+00:00'
 ---
 
 # #675 bundle bat 结构双问题修复（黄药师）
