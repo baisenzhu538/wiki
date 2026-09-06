@@ -829,3 +829,4 @@
 - [2026-09-06 12:08] 【通道预检 #656】应急直通：python 90_control/scripts/kimi-headless-launch.py huangyaoshi '<指令>' --no-probe
 - [2026-09-06 12:12] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
 - [2026-09-06 12:26] 📤 #656 完成并提审（pending_review 等欧阳锋）：拉起器通道健康预检+fallback（channel_health.py 探针引擎+launch 预检/fallback/全死不硬派+11 用例）+ 90_control/channel-model-map.md 认知表落地（relay≠GLM 实证闭环、hermes=kimi 同墙新发现、指纹约定=sha256[:8]…[-4:]）；全量回归 273 passed；验收①②③全实测过；生产已实战生效（12:07 laowantong kimi 403→自动切 claude）；commit 4282b4738
+- [2026-09-06 12:27] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#656（huangyaoshi 的单，挂审 11min）（到点（节奏 15min））

@@ -745,3 +745,6 @@
 2026-09-06 12:15:11｜task_20260906_huangyaoshi-channel-health-fallback｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
   - 未提交改动: 90_control/scripts/kimi-headless-launch.py
   - ｜huangyaoshi
+2026-09-06 12:22:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 761.8), ('hermes', 6489.4), ('cli', 2022.1)]）｜role_registry check-liveness｜role_registry
+2026-09-06 12:26:47｜task_20260906_laowantong-encapsulation-t1｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
+  - untracked: python 40_outputs/code/scripts/scan_skills_｜laowantong

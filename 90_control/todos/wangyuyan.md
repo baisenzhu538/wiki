@@ -1105,3 +1105,7 @@
 - [2026-09-06 12:11] 📥 新素材 1 项（P0 0）：人机协作双三角——请诊断编排（看板待编排段）
 - [2026-09-06 12:17] 🕐 值守拍12:30：#657 试金石完成——OCR四源复核PASS（我独立抽取0.9937）+口述者裁定Truman（纠洪七公推断）+漏挖率30%定量（6条dk候选）+单件成本校准（短素材1h/长口述3-6h）+新检查维度OCR损伤族+第三道额度墙minimax发现；报告diag_20260906_wangyuyan-audit-pilot-report已交，等老朱「按此放量」启动Phase 0全量台账
 - [2026-09-06 12:17] ⛔ KDO 门禁拦截 2 次（gate-blocked）：2026-09-06 12:14:41｜task_20260906_huangyaoshi-channel-health-fallback｜…
+- [2026-09-06 12:21] 📥 新素材 1 项（P0 0）：AI大航海20260905——请诊断编排（看板待编排段）
+- [2026-09-06 12:22] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#656（huangyaoshi 的单，挂审 6min）（到点（节奏 30min））
+- [2026-09-06 12:26] 🕐 值守拍12:55：minimax订阅key挂载完成(~/.kdo/config.yaml厂级共享)+199tokens实测✅+channel-model-map增补MiniMax行(86b25e922)；#656拉欧阳锋终审(proc_202372,codex通道充值复活实证)——终审通过即解锁#657领取；洪七公OCR交付已复核入试金石报告
+- [2026-09-06 12:27] ⛔ KDO 门禁拦截 2 次（gate-blocked）：2026-09-06 12:22:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli…

@@ -1,0 +1,37 @@
+#656 收工。已提审 `pending_review`（队列行同步流转 ✓）。
+
+## 交付（任务单三修法全落地）
+
+| 修法 | 落地 |
+|:--|:--|
+| ①预检 | 新增 `90_control/scripts/channel_health.py`：launch 前逐通道最小探针。claude/codex 走 HTTP（1-token/16-token），kimi 走 CLI 级（OAuth 15min 一换，HTTP 探针会撞过期 401 假阴性——实测证伪后弃用），401/402/403/429=**上游级**死亡（同上游连坐）、5xx/不可达=**工具级**（不连坐） |
+| ②fallback | `kimi-headless-launch.py`：主通道死→自动切下一个健康通道+todos/stdout 双通知；全死→**exit 2 不硬派**+报王语嫣+自带 `--no-probe` 应急出口；新增 `--force-dead` 测试钩 |
+| ③认知表 | 新增 `90_control/channel-model-map.md`：四条给定事实全落表，附核对命令 |
+
+## 验收（全实测）
+
+- **①死通道→fallback**：`launch --force-dead kimi` → rc=0、通知「kimi 不健康→已切 claude（上游 zhipu-glm）」，真实拉起的 claude.exe 会话跑完（日志尾=`通道fallback验收OK`）
+- **②全死→不假跑**：`--force-dead claude,codex,kimi,hermes` → rc=2、零进程 spawn、落「不硬派——报王语嫣处置」
+- **③回归**：全量 `pytest` → **273 passed**（含新增 11 用例 + #650 回归 3）
+- **加菜—生产实证**：12:07:16 王语嫣拉 laowantong，新预检当场真实拦截——kimi 撞 `403 weekly usage limit` → 自动切 claude（`logs/channel-health.log` 首行）。验收还没跑，机制已被真实流量检验过一次
+
+## 三个新发现（给定口径之外）
+
+1. **任务单遗留核实项闭环：relay 不是 GLM、与 claude.exe 不同供应商不同账号**【实证：relay 进程命令行 `--upstream https://api.deepseek.com/v1 --api-key sk-…b2f0`，PID 161248】
+2. **hermes 与 kimi 是同一堵墙**【实证:`~/.hermes/config.yaml` 上游同为 api.kimi.com】——kimi 403 周额度时 hermes 同死，fallback 链已按上游去重，**kimi 7 天窗内 hermes 不要再排为 fallback**
+3. **key 指纹约定破案**：`sha256(key)[:8]+'…'+key[-4:]`——两条 key 重算均吻合（GLM `1cdfd9b3`、deepseek `1511248f`），已写进认知表
+
+## 边界
+
+- codex 通道坏 key 模拟物理不可行（relay 不校验调用方 key，坏 Bearer 仍 200 实测）→ 用 `--force-dead` 钩子替代，坏 key 路径的实弹验收落在 GLM 通道（401 判死）
+- todos 通知是 best-effort：12:07 那条 laowantong 生产通知未落账（写失败被吞或被并发会话全文件重写冲掉，无法回溯【推断】）——已改为失败打 stdout 告警，**台账以 `logs/channel-health.log` 为准**
+- 探针每次 launch 实发、无缓存：单次 1-token 级成本，预检+决策 <10s（daily_review 60s 预算内）
+
+## 需要谁动作
+
+- **欧阳锋**：终审（三条待裁：fallback 链 claude 优先是否合异构防线口径／全死送达面够不够／`--no-probe` 口子留不留）
+- **王语嫣**：认知表收值守口径——报通道连报真实供应商+模型
+
+---
+
+**收尾三问**：①新资产=channel_health.py+11 用例+channel-model-map.md+基建公告节（commit `4282b4738`）；②新阻塞=无，三条裁量项已列给欧阳锋；③下次启动记住=额度墙按上游建模不按 CLI、台账在 channel-health.log、kimi 复活后自动回主通道无需人工切回。复盘已存（🟡 B级）、技能进化日志+friction 3 行已落。
