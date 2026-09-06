@@ -656,3 +656,4 @@
 - [2026-09-07 02:47] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#670（huangyaoshi 的单，挂审 0min）（到点（节奏 15min））
 - [2026-09-07 03:07] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#670（huangyaoshi 的单，挂审 20min）；#672（ouyangfeng 的单，挂审 5min）（到点（节奏 15min））
 - [2026-09-07 03:22] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#670（huangyaoshi 的单，挂审 35min）；#672（ouyangfeng 的单，挂审 20min）；#671（huangyaoshi 的单，挂审 13min）；#673（huangyaoshi 的单，挂审 6min）（到点（节奏 15min））
+- [2026-09-07 03:42] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#673（huangyaoshi 的单，挂审 26min）（到点（节奏 15min））

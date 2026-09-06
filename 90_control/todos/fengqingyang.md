@@ -20,3 +20,4 @@
 - [2026-09-05 15:42] 【叫醒】fengqingyang：读 todos/fengqingyang.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 675min）；#645（huangyaoshi 的单，挂审 675min）；#646（huangyaoshi 的单，挂审 674min）（到点（节奏 720min））
 - [2026-09-06 03:42] 【叫醒】fengqingyang：读 todos/fengqingyang.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 720min））
 - [2026-09-06 15:42] 【叫醒】fengqingyang：读 todos/fengqingyang.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 720min））
+- [2026-09-07 03:42] 【叫醒】fengqingyang：读 todos/fengqingyang.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#673（huangyaoshi 的单，挂审 26min）（到点（节奏 720min））
