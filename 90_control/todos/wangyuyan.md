@@ -1152,3 +1152,5 @@
 - [2026-09-06 18:07] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-06 18:02:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cl
 - [2026-09-06 18:14] 🕐 值守拍18:14：#664 终审闭环（场景复现一交付）——digest「待老朱拍板」标记系误报（备注含拍板字样触发，实为拍板产物非待决项，随#653族记digest关键词优化）；#665 拍板产卡批派老顽童(proc_227440)；回声划销
 - [2026-09-06 18:22] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-06 18:43] 🕐 值守拍18:45：#665 在产（35min，A组卡持续落库：新增dk-ai-stronger-need-to-know-what-you-want/dk-modeling-course-rnd-ripe-fruit/dk-modeling-logical-cleanliness-root）；队列0/0/0双段清零，零动作
+- [2026-09-06 18:52] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#665（laowantong 的单，挂审 8min）（到点（节奏 30min））

@@ -1,0 +1,24 @@
+#665 完工。收尾自检 🟡 B级通过，会话已存档。
+
+## #665 拍板产卡批——完工提审
+
+**任务流转**：claim → complete 全走 `queue_transition.py`，现状态 `pending_review`（队列行 + 任务单 frontmatter 双落盘已验，L9）。
+
+**交付明细**
+
+| 组 | 内容 | 落点 |
+|:--|:--|:--|
+| A 组 5 张 dk 新卡 | M-07 骄傲感（未练先用的人格代价）/ M-58 清单体=建模工作介质 / J-32 初心故事·心理坐标系（教育主张一等出处）/ J-51 AI 越强越要知道自己要什么 / M-44 战略会质量判据 | `30_wiki/dark-knowledges/` |
+| B 组 6 补强 | M-16→逻辑洁癖卡、M-26→个人成长图卡、M-62→双三角卡、M-66→建模能力体系卡、M-68→教育供应链卡、M-69→教育持久战卡 | 补强节形态，宿主原文零改动 |
+| C 组 3 登记 | M-65/M-67/S-5 入候选清单「已登记」节 + M-65/M-65 相关卡一行注记 | `a1-batch1bc-greprerun-decision-list.md` 尾部 |
+| 伦理 c4-38 | 按指令未处理（裁定注记王语嫣已落地 f55bbda5e，已核） | — |
+
+**门禁实测**：pre-submit 13/13 PASS（2 卡首轮 INDEX error→`kdo index --incremental` 复跑过）；主引语 12 处 `sed` 逐行回验逐字命中，ASR 噪声保留并加注；互链脚本实核 0 死链；四路自攻击 **0🔴 / 2🟡**（均为 in-quote ASR 校词未标注）当场修复复跑 PASS，报告落 `60_feedback/adversarial/atk_task665-…md`。
+
+**留欧阳锋终审的两处裁量**（均附存在性核查锚点，写进任务单「需要谁动作」）：
+1. **M-69 宿主路由偏差**——任务单写“挂 concept 族”，库内无承载学科愿景的 concept 卡（grep 0 命中），改挂最邻近学科使命卡 `framework-education-protracted-war`。
+2. **M-67 不强行挂卡**——“招人标准”无自然宿主（最近邻 AI 原生组织卡讲结构不讲用人），只登记不误挂。
+
+**落账**：todos 1 行（18:45）、技能进化日志 1 行、friction-log 1 行（QUOTE_VERBATIM 把 ASR 注记误报为引语——门禁无语境判断同族第三例，建议与 #664 微单并案）、Truman 复盘已存（🟡 B级）。
+
+Sources: [Springer 2025 — competence paradox](https://link.springer.com/article/10.1007/s00146-025-02814-9), [Live Science — AI use and overestimating abilities](https://www.livescience.com/technology/artificial-intelligence/the-more-that-people-use-ai-the-more-likely-they-are-to-overestimate-their-own-abilities), [McKinsey — Three keys to faster, better decisions](https://www.mckinsey.com/capabilities/people-and-organization/our-insights/three-keys-to-faster-better-decisions), [Amodei et al. 2016 — Concrete Problems in AI Safety](https://arxiv.org/abs/1606.06565)
