@@ -1,14 +1,14 @@
 ---
-id: task_20260906_huangyaoshi-card-status-flip
-title: "终审 PASS 后卡 status 自动翻转机制（#666 批 7 张+business-cognition-system 停留 draft 实证——检索降权复现根因）"
-seq: 670
+id: task_20260906_huangyaoshi-card-status-flip
+title: "终审 PASS 后卡 status 自动翻转机制（#666 批 7 张+business-cognition-system 停留 draft 实证——检索降权复现根因）"
+seq: 670
 status: pending_review
-assignee: huangyaoshi
-created_by: wangyuyan
-created_at: 2026-09-07
-decision_source: 老顽童 #668 执行报告边界节发现（终审 PASS 但卡状态未翻转→检索降权复现机制）
-reviewer: 欧阳锋
-instance: huangyaoshi
+assignee: huangyaoshi
+created_by: wangyuyan
+created_at: 2026-09-07
+decision_source: 老顽童 #668 执行报告边界节发现（终审 PASS 但卡状态未翻转→检索降权复现机制）
+reviewer: 欧阳锋
+instance: huangyaoshi
 updated_at: '2026-09-06T18:47:01.165259+00:00'
 evidence: 60_feedback/tasks/task_20260906_huangyaoshi-card-status-flip.md
 ---
@@ -32,7 +32,7 @@ review 流转（queue_transition review）钩子化：终审 PASS 时按任务�
 
 **验证**：①新测试 23/23 PASS、全量回归 `90_control/scripts/tests/` 296 passed 0 failed【实证：pytest 输出，2026-09-07】；②CLI 级沙盒真跑（`_tmp/sim670b`，脚本副本+沙盒队列/注册表）：`review --verdict pass --grade A-` 后 3 张 draft 卡翻转（tier1/2/3 各验一张）+1 张已 reviewed 卡护栏跳过+队列行流转 reviewed，transcript 存档 `logs/sim-card-flip-670-20260907.log`【实证】；③存量 8 张点名卡已由欧阳锋 09-07 02:09 手工批收口（commit `1ceef00d5`，21 张=11 张 #668 AI-KB+10 张 #666 框架批），逐卡 grep 三态均 `reviewed/欧阳锋/2026-09-07`【实证】；④解析器对 #665/#666/#668 三张真实历史报告回归命中（tier3b 7/7 张 #668 卡全中）。
 
-**边界**：①「检索降权」口径校准【实证】：KDO CLI 检索层对 draft 卡是 `【未审 draft】` **标注**不降权不排除（delivery.py:398-424 `_label_unreviewed` #380「只标注不降权不排除」），trust 过滤按 `trust_level` 非 `status`（delivery.py:330-351）——本单修的是状态停留导致的未审标注，非算法降权；②审计另发现 33 张更早的 draft 类停留卡（16 个已终审单，含 #665 五张 dk 新卡/#641 六张/#633 四张）+7 项非 draft 怪状态——**未翻转**：`reviewed_by` 归属=审查者动作，历史单是否在终审覆盖范围内属审查裁量（E018 家族防线），清单+批收口命令已落 `60_feedback/diagnosis/working/audit-stuck-cards-20260907.md` 交欧阳锋核裁；③`90_control/kdo-seed/seed/.agent/ouyangfeng-context.md` 等 SOP 文档里的手工 review_mark 话术未同步（他角色 context/seed 不属 Builder 写权）；④KDO CLI 仓（Knowledge Delivery OS 0.0.1）零改动，其 633 用例套件不涉本次回归面。
+**边界**：①「检索降权」口径校准【实证】：KDO CLI 检索层对 draft 卡是 `【未审 draft】` **标注**不降权不排除（delivery.py:398-424 `_label_unreviewed` #380「只标注不降权不排除」），trust 过滤按 `trust_level` 非 `status`（delivery.py:330-351）——本单修的是状态停留导致的未审标注，非算法降权；②审计另发现 33 张更早的 draft 类停留卡（16 个已终审单，含 #665 五张 dk 新卡/#641 六张/#633 四张）+7 项非 draft 怪状态——**未翻转**：`reviewed_by` 归属=审查者动作，历史单是否在终审覆盖范围内属审查裁量（E018 家族防线），清单+批收口命令已落 `60_feedback/diagnosis/working/audit-stuck-cards-20260907.md` 交欧阳锋核裁；③seed/SOP 文档里的手工 review_mark 话术未同步【存在性核查锚点（#433）：`grep -rln "review_mark" --include="*.md" 90_control/ .agent/` → 命中 `90_control/kdo-seed/seed/.agent/ouyangfeng-context.md`、`90_control/kdo-seed/seed/20_memory/ouyangfeng-amnesia-recovery.md`、`90_control/notification-coverage-matrix.md`、`.agent/friction-log.md` 等仍为「手工 review_mark 收口」话术，2026-09-07；他角色 context/seed 不属 Builder 写权，故只登记不改】；④KDO CLI 仓（Knowledge Delivery OS 0.0.1）零改动，其 633 用例套件不涉本次回归面。
 
 **需要谁动作**：欧阳锋——①本单终审；②核裁 `audit-stuck-cards-20260907.md` 存量 33 张清单并批收口（dry-run 命令已附）；③（可选）seed/SOP 侧 review_mark 话术同步交王语嫣编排。老朱/王语嫣/老顽童——无（#670 钩子对生产侧零动作变化，交付物节写法保持现习惯即可）。
 
