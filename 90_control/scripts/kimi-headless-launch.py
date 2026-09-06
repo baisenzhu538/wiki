@@ -75,7 +75,9 @@ def chain_for(role, explicit_tool=None):
 
 
 def notify(role, lines):
-    """通道切换/全死通知：stdout（时钟契约=送达飞书 DM，见 clock_watchdog.py 头注）+ todos 落账。"""
+    """通道切换/全死通知：stdout（时钟契约=送达飞书 DM，见 clock_watchdog.py 头注）+ todos 落账。
+    台账=logs/channel-health.log（append-only JSONL）；todos 可能被并发会话全文件重写冲掉，
+    写失败只降级告警不阻断拉起。"""
     for line in lines:
         print(line)
     try:
@@ -84,8 +86,10 @@ def notify(role, lines):
             with open(todos, "a", encoding="utf-8") as f:
                 for line in lines:
                     f.write(f"- [{time.strftime('%Y-%m-%d %H:%M')}] 【通道预检 #656】{line}\n")
-    except OSError:
-        pass
+        else:
+            print(f"⚠ todos 通知未落账：{todos} 不存在（台账见 logs/channel-health.log）")
+    except OSError as e:
+        print(f"⚠ todos 通知写失败（{e}）——stdout/台账已留痕，不阻断拉起")
 
 
 def parse_args(argv):

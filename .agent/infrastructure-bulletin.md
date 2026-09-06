@@ -1,8 +1,18 @@
 # KDO 基建变更公告
 
-> 更新：2026-06-29  
+> 更新：2026-09-06  
 > 面向：所有 Agent  
 > **每个 Agent 启动时必须读此文件了解最新基建变更。**
+
+## 2026-09-06 拉起器通道健康预检+fallback（#656，F-073）
+
+| 变更 | 内容 |
+|:--|:--|
+| 通道预检+fallback | `kimi-headless-launch.py` launch 前逐通道最小探针（1-token HTTP / CLI 级），主通道死→自动切下一个健康通道（todos+stdout 通知）；全死→**不硬派** exit 2 报王语嫣 |
+| 通道-模型认知表 | `90_control/channel-model-map.md`——CLI 名→真实供应商→模型→key 指纹。**值守报通道必须连报真实供应商+模型**（claude.exe=智谱GLM，codex=relay→DeepSeek，kimi/hermes=kimi-for-coding 同墙） |
+| 新 flag | `--no-probe` 应急跳预检硬拉；`--force-dead kimi,claude` 模拟死通道（测试钩） |
+| 新台账 | `logs/channel-health.log`（append-only JSONL，每次拉起决策一行） |
+| 谁改的 | 黄药师（任务单 #656，欧阳锋终审中） |
 
 ## 新增工具
 
