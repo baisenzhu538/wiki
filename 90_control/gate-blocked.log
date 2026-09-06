@@ -773,3 +773,4 @@
 2026-09-07 02:06:04｜task_20260906_laowantong-ai-kb-cards-promotion｜F-035-意见书｜任务单缺少「## 终审记录」节（#429 F-035：审查意见必须落盘，口头/群里意见=未审查）｜欧阳锋
 2026-09-07 02:08:26｜vault-integrity｜bundle 过期｜wiki-bundle-20260905.bundle mtime 47.6h ago > 26h｜vault-integrity-check
 2026-09-07 02:17:01｜diag_20260907_ouyangfeng-dark-knowledges-graph-index-gap.md｜near-miss-三元组（#506）｜有 audience 但 status=working（应 pending_orchestration）｜conveyor_probe
+2026-09-07 02:27:01｜diag_20260907_ouyangfeng-skill-log-split-brain.md｜near-miss-三元组（#506）｜有 audience 但 status=working（应 pending_orchestration）｜conveyor_probe

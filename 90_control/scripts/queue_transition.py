@@ -12,6 +12,10 @@ Usage:
 #616 任务3 翻转通道：--reviewer 王语嫣 仅限 assignee=ouyangfeng 的编排骨架单
 （欧阳锋自己的单无人可终审：#544 手工翻转先例 + 09-02 #614 第二例），留痕不变。
 
+#670：review verdict=pass 时按任务单交付物清单自动翻转交付卡 status
+（draft→reviewed + reviewed_by + review_date），翻转卡随 chore(review) 落仓；
+只翻 draft（reviewed/stable 不动=幂等护栏），识别不出写法降级为 #612 转正提醒。
+
 Exit codes:
     0 = transition applied
     1 = transition rejected / error
@@ -57,6 +61,7 @@ sys.path.insert(0, str(SCRIPT_DIR))
 
 from queue_gate import QUEUE_PATH, can_claim, find_task, parse_queue
 from queue_lock import QueueLock
+import review_mark  # #670：终审 PASS 卡状态翻转与手工批收口共用同一实现（mark_card）
 
 # 看板自动刷新
 import importlib.util
@@ -1037,8 +1042,10 @@ def _review_card_mark_reminder(task_file: Path) -> str:
     """#612 任务2：review verdict=pass 时，若执行报告「交付物」节含 30_wiki 卡片
     路径，返回一行「N 张交付卡待 review_mark 转正」提醒；否则返回空串。
 
-    只提醒不自动转正——自动转正=代写卡片 frontmatter，越权限边界，不做。
-    识别不出/读取异常=空串（提醒性输出，绝不阻断终审主流程）。
+    #670 起降级为兜底网：终审 PASS 已由 `_flip_delivered_cards` 自动翻转交付卡
+    status（授权链：#612「只提醒不自动转正」→ #668 实证缺口 → #670 王语嫣立项/
+    欧阳锋终审授权钩子化）；本函数只在自动翻转未产出报告时触发（识别不出卡的老
+    报告写法）。识别不出/读取异常=空串（提醒性输出，绝不阻断终审主流程）。
     """
     try:
         body = task_file.read_text(encoding="utf-8", errors="ignore")
@@ -1050,9 +1057,207 @@ def _review_card_mark_reminder(task_file: Path) -> str:
         shown = "、".join(f"`{c}`" for c in cards[:5])
         more = f" 等 {len(cards)} 张" if len(cards) > 5 else ""
         return (f"\n📌 提醒：{len(cards)} 张交付卡待 review_mark 转正：{shown}{more}"
-                "（终审通过不自动转正——自动转正涉及代写卡片 frontmatter 权限边界，请生产方手动回填）")
+                "（#670 自动翻转未识别出本报告写法——请按清单人工 review_mark 收口）")
     except Exception:
         return ""
+
+
+# #670：终审 PASS 后按交付物清单自动翻转卡 status（draft→reviewed+reviewed_by+review_date）。
+# 授权链：#612「只提醒不自动转正」→ #668 实证缺口（终审 PASS 卡停留 draft→检索层带
+# 【未审 draft】标，KDO CLI delivery.py `_label_unreviewed` #380）→ #670 王语嫣立项、
+# 欧阳锋终审，授权钩子化替代人肉 review_mark 补丁（#656/#666 先例=手工批收口）。
+_CARD_FLIP_FROM = ("draft",)  # 只翻 draft；reviewed/stable/needs-review 不动（幂等护栏，防误翻历史卡）
+_CARD_ID_RE = re.compile(r"[A-Za-z0-9一-鿿]+(?:-[A-Za-z0-9一-鿿]+)+")
+_CARD_TYPE_PREFIX_RE = re.compile(
+    r"(framework|case|dk|concept|tool|bridge|method|system|entity|workflow)\s*[×x]\s*\d+\s*（([^）]*)）")
+_STEM_INDEX: dict[str, Path] | None = None
+
+
+def _card_stem_index() -> dict[str, Path]:
+    """30_wiki 卡片 stem → 路径索引（懒构建缓存；tier2/tier3 解析用）。"""
+    global _STEM_INDEX
+    if _STEM_INDEX is None:
+        idx: dict[str, Path] = {}
+        root = _WIKI_ROOT / "30_wiki"
+        if root.is_dir():
+            for p in root.rglob("*.md"):
+                idx.setdefault(p.stem, p)
+        _STEM_INDEX = idx
+    return _STEM_INDEX
+
+
+def _resolve_delivered_cards(report: str, task_file_name: str) -> tuple[list[Path], list[str]]:
+    """执行报告「交付物」节 → 30_wiki 卡片路径清单（三层解析；只解析不写盘）。
+
+    tier1 反引号完整路径 `30_wiki/**.md`（最可靠，#612 提醒同口径）；
+    tier2 反引号裸卡 id（无路径无扩展名，#665 `dk-modeling-...` 写法）→ stem 索引精确匹配；
+    tier3 裸文本卡 id，且节内已反引号声明 30_wiki 目录（#666 写法：
+        `30_wiki/frameworks/`：framework-x(199 行)/…）→ 限定该目录内 stem 精确匹配；
+    tier3b 「type×N（标题/标题…）」写法（#668）→ `type-标题` stem 精确匹配。
+    识别不出的 id 进 unresolved（不写盘，报告提醒人工 review_mark 兜底）。
+    """
+    section = _extract_deliverable_section(report)
+    if not section or any(m in section for m in DELIVERABLE_EXEMPT_MARKERS):
+        return [], []
+    resolved: list[Path] = []
+    unresolved: list[str] = []
+    seen: set[str] = set()
+
+    def _add(cp: Path) -> None:
+        try:
+            rel = cp.resolve().relative_to(_WIKI_ROOT).as_posix()
+        except (ValueError, OSError):
+            rel = cp.as_posix()
+        if rel not in seen:
+            seen.add(rel)
+            resolved.append(cp)
+
+    # tier1：反引号完整路径
+    for rel in _extract_deliverable_paths(report, task_file_name):
+        if rel.startswith("30_wiki/") and rel.endswith(".md"):
+            cp = _WIKI_ROOT / rel
+            (_add(cp) if cp.exists() else unresolved.append(rel))
+
+    backticks = _DELIVERABLE_PATH_RE.findall(section)
+    # 声明的 30_wiki 目录（tier3 锚）：`30_wiki/<dir>` 反引号目录路径
+    declared_dirs: list[Path] = []
+    for tok in backticks:
+        norm = tok.strip().replace("\\", "/").rstrip("/")
+        if norm.startswith("30_wiki/") and "." not in norm.rsplit("/", 1)[-1]:
+            d = _WIKI_ROOT / norm
+            if d.is_dir():
+                declared_dirs.append(d)
+
+    idx = _card_stem_index()
+    # tier2：反引号裸卡 id（无路径无扩展名无空格）
+    for tok in backticks:
+        t = tok.strip()
+        if "/" in t or "\\" in t or "." in t or " " in t:
+            continue
+        hit = idx.get(t)
+        if hit is not None:
+            _add(hit)
+        elif re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)+", t):
+            unresolved.append(t)  # 像卡 id 但库内无此 stem → 提醒兜底，不写盘
+
+    # tier3：裸文本卡 id，限定节内反引号声明过的 30_wiki 目录
+    for d in declared_dirs:
+        for m in _CARD_ID_RE.finditer(section):
+            hit = idx.get(m.group(0))
+            if hit is not None and hit.parent == d:
+                _add(hit)
+
+    # tier3b：「type×N（标题…）」写法（#668）——先精确 `type-标题`，未中再同前缀
+    # 后缀匹配（实际文件名常带域中缀，如 framework-AI知识库-知识卡片公式）；
+    # 0 命中或歧义（>1 候选）→ unresolved（宁漏勿错翻，人工 review_mark 兜底）
+    for m in _CARD_TYPE_PREFIX_RE.finditer(section):
+        prefix, titles = m.group(1), m.group(2)
+        for t in re.split(r"[、/，,；;]", titles):
+            t = t.strip()
+            if not t or len(t) < 2:
+                continue
+            hit = idx.get(f"{prefix}-{t}")
+            if hit is not None:
+                _add(hit)
+                continue
+            suffix_hits = [p for s, p in idx.items()
+                           if s.startswith(prefix + "-") and s.endswith("-" + t)]
+            if len(suffix_hits) == 1:
+                _add(suffix_hits[0])
+            else:
+                unresolved.append(f"{prefix}-{t}")
+    return resolved, unresolved
+
+
+def _try_repo_rel(cp: Path) -> str:
+    """卡路径 → vault 内相对 posix 路径；仓外（沙盒测试）返回空串。"""
+    try:
+        return cp.resolve().relative_to(_WIKI_ROOT).as_posix()
+    except (ValueError, OSError):
+        return ""
+
+
+def _git_commit_card_flips(ref: str, rels: list[str], actor: str) -> None:
+    """#670：翻转后的卡随 chore(review) 落仓（path-scoped，fail-open 同 #390 语义）。
+
+    未 commit=不存在（#622 实证）——翻转只改工作区等于半路卡，故随翻转自动收口；
+    git 失败不阻断流转：stderr 报警 + 待收口清单留痕。
+    """
+    try:
+        existing = [r for r in rels if r and (_WIKI_ROOT / r).exists()]
+        if not existing or not (_WIKI_ROOT / ".git").exists():
+            return
+        subprocess.run(["git", "-C", str(_WIKI_ROOT), "add", "--", *existing],
+                       check=True, capture_output=True, text=True, encoding="utf-8",
+                       errors="replace", timeout=15)
+        subprocess.run(["git", "-C", str(_WIKI_ROOT), "commit", "-m",
+                        f"chore(review): {ref} 终审 PASS 卡状态自动翻转 {len(existing)} 张 by {actor}",
+                        "--", *existing],
+                       check=True, capture_output=True, text=True, encoding="utf-8",
+                       errors="replace", timeout=15)
+    except Exception as e:
+        print(f"🚨 [GIT-COMMIT-FAILED] {ref} 卡状态翻转已生效但自动 commit 失败: {e}"
+              f" —— 已记入 {PENDING_COMMIT_LOG.name} 待收口清单，请手工收口", file=sys.stderr)
+        _record_commit_failure(ref, "review_card_flip", str(e))
+
+
+def _flip_delivered_cards(task_file: Path, reviewer: str, ref: str = "",
+                          no_commit: bool = False) -> str:
+    """#670：终审 PASS → 按交付物清单自动翻转交付卡 status（draft→reviewed）。
+
+    追加到 review 成功消息的报告串（无 30_wiki 交付物=空串）。
+    识别不出/翻转异常绝不阻断终审主流程——降级为报告内提醒（#612 兜底语义）。
+    """
+    try:
+        body = task_file.read_text(encoding="utf-8", errors="ignore")
+        report = _extract_exec_report(body)
+        if not report:
+            return ""
+        cards, unresolved = _resolve_delivered_cards(report, task_file.name)
+    except Exception:
+        return ""
+    if not cards and not unresolved:
+        return ""
+
+    flipped: list[str] = []
+    flipped_rels: list[str] = []
+    untouched: list[str] = []
+    failed: list[str] = []
+    for cp in cards:
+        rel = _try_repo_rel(cp)
+        label = rel or cp.as_posix()
+        try:
+            ok, msg = review_mark.mark_card(cp, reviewer=reviewer,
+                                            only_flip_from=_CARD_FLIP_FROM)
+        except Exception as e:
+            ok, msg = False, f"异常 {e}"
+        if ok:
+            flipped.append(label)
+            if rel:
+                flipped_rels.append(rel)
+        elif msg.startswith("skip:"):
+            untouched.append(f"{label}（{msg.split(':', 1)[1].strip()}）")
+        else:
+            failed.append(f"{label}（{msg}）")
+
+    parts: list[str] = []
+    if flipped:
+        shown = "、".join(f"`{c}`" for c in flipped[:5])
+        more = f" 等 {len(flipped)} 张" if len(flipped) > 5 else ""
+        parts.append(f"\n🔄 #670 卡状态自动翻转 {len(flipped)} 张"
+                     f"（draft→reviewed，reviewed_by={reviewer}）：{shown}{more}")
+    if untouched:
+        head = "、".join(untouched[:3])
+        parts.append(f"\n⏭️ {len(untouched)} 张非 {_CARD_FLIP_FROM[0]} 未动（幂等护栏）：{head}"
+                     + ("…" if len(untouched) > 3 else ""))
+    bad = failed + [f"{u}（库内未识别）" for u in unresolved]
+    if bad:
+        shown = "、".join(f"`{b}`" for b in bad[:5])
+        more = f" 等 {len(bad)} 项" if len(bad) > 5 else ""
+        parts.append(f"\n📌 {len(bad)} 项未能自动翻转，请人工 review_mark 收口：{shown}{more}")
+    if flipped_rels and not no_commit:
+        _git_commit_card_flips(ref or task_file.stem, flipped_rels, reviewer)
+    return "".join(parts)
 
 
 
@@ -1446,12 +1651,15 @@ def _action_review_override(task: dict, task_file: Path, reviewer: str, reason: 
 
 def action_review(task_id: str, verdict: str, reviewer: str, grade: str | None = None,
                   review_file: str | None = None, override: bool = False,
-                  reason: str | None = None, force: bool = False) -> tuple[bool, str]:
+                  reason: str | None = None, force: bool = False,
+                  no_commit: bool = False) -> tuple[bool, str]:
     """Ouyangfeng-only: review a pending_review task.
 
     #616 任务3 翻转通道：欧阳锋自己的单无人可终审（#544 手工翻转先例 + 09-02 #614
     第二例），`--reviewer 王语嫣` 限「编排骨架单」（队列行 assignee=ouyangfeng）放行，
     审查意见书/负向判词/落点门禁与台账留痕全部不变。
+    #670：verdict=pass 时按交付物清单自动翻转交付卡 status（draft→reviewed），见
+    `_flip_delivered_cards`；no_commit 透传 --no-commit（翻转卡的自动 git 收口同步跳过）。
     """
     if reviewer != "欧阳锋":
         if reviewer != "王语嫣":
@@ -1536,10 +1744,14 @@ def action_review(task_id: str, verdict: str, reviewer: str, grade: str | None =
                 strike=task_id,
                 strike_note=f" → 已终审 PASS {grade or ''}（{current_utc_date()} {reviewer}）",
             )
-            # #612 任务2：review_mark 漏转正二次复发（#586/#596，E018 家族同源）——
-            # 终审通过时交付物含 30_wiki 卡片 → 输出转正提醒（提醒即可，不代写）
-            remind = _review_card_mark_reminder(task_file)
-            return True, f"✅ {task_id} 终审通过，状态更新为 reviewed{grade_note}{remind}"
+            # #612 任务2 → #670 升级：review_mark 漏转正二次复发（#586/#596，E018 家族
+            # 同源）——终审 PASS 时按交付物清单自动翻转交付卡 status（draft→reviewed）；
+            # 识别不出/翻转失败时降级回 #612 提醒（兜底网语义保留，不阻断终审）。
+            flip = _flip_delivered_cards(task_file, reviewer,
+                                         ref=f"#{task['seq']}" if task else task_id,
+                                         no_commit=no_commit)
+            remind = _review_card_mark_reminder(task_file) if not flip else ""
+            return True, f"✅ {task_id} 终审通过，状态更新为 reviewed{grade_note}{flip}{remind}"
         else:
             # #580（F-064）：FAIL 打回时自动打 rework:true 标——返工重提 claim 时
             # _is_rework_task 读到该标即豁免 #504 own-pending 阻塞（重提≠接新单）。
@@ -1832,7 +2044,8 @@ def main() -> int:
         if not reviewer:
             reviewer = "欧阳锋"
         ok, msg = action_review(task_id, verdict, reviewer, grade, review_file=review_file,
-                                override=override, reason=reason, force=force)
+                                override=override, reason=reason, force=force,
+                                no_commit=no_commit)
     elif action in ("mark-waiting", "mark_waiting"):
         ok, msg = action_mark_waiting(task_id, note)
     elif action in ("resume",):
