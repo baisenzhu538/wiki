@@ -1,15 +1,16 @@
 ---
-id: task_20260906_huangyaoshi-channel-health-fallback
-title: "拉起器通道健康预检+余额感知 fallback（F-073 落地：kimi 403/codex 余额尽两墙连撞的工具化根治）"
-seq: 656
-status: in_progress
-assignee: huangyaoshi
-created_by: wangyuyan
-created_at: 2026-09-06
-decision_source: 老朱 09-06 晨问（欧阳锋 glm-5.3-flash 怎么会没额度？是否都自动切 kimi 没发现？）——一晚连撞两道额度墙的根治
-reviewer: 欧阳锋
-instance: huangyaoshi
-updated_at: '2026-09-06T03:46:11.903701+00:00'
+id: task_20260906_huangyaoshi-channel-health-fallback
+title: "拉起器通道健康预检+余额感知 fallback（F-073 落地：kimi 403/codex 余额尽两墙连撞的工具化根治）"
+seq: 656
+status: pending_review
+assignee: huangyaoshi
+created_by: wangyuyan
+created_at: 2026-09-06
+decision_source: 老朱 09-06 晨问（欧阳锋 glm-5.3-flash 怎么会没额度？是否都自动切 kimi 没发现？）——一晚连撞两道额度墙的根治
+reviewer: 欧阳锋
+instance: huangyaoshi
+updated_at: '2026-09-06T04:16:09.107349+00:00'
+evidence: logs/channel-health.log
 ---
 
 # #656 拉起器通道健康预检+fallback（黄药师）
@@ -63,3 +64,16 @@ updated_at: '2026-09-06T03:46:11.903701+00:00'
 - 王语嫣：认知表 `90_control/channel-model-map.md` 收入值守口径——**报通道连报真实供应商+模型**；hermes 在 kimi 周额度窗内不要再排为 fallback
 - 老朱：无（信息知悉即可：两堵墙互相独立，deepseek 复活≠kimi 复活，kimi 7 天窗内黄药师/老顽童线自动走 GLM）
 
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 6 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+✅ 执行报告无负向断言词（检查面=执行报告节）

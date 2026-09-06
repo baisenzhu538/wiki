@@ -539,6 +539,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#654 task_20260906_laowantong-aidahangha-batch1｜laowantong｜提审 09-06 05:55｜60_feedback/tasks/task_20260906_laowantong-aidahangha-batch1.md~~ → 已终审 PASS A-（2026-09-06 欧阳锋）
 - ~~#653 task_20260906_huangyaoshi-e040-crossrepo-hint｜huangyaoshi｜提审 09-06 06:03｜60_feedback/tasks/task_20260906_huangyaoshi-e040-crossrepo-hint.md~~ → 已终审 PASS A-（2026-09-05 欧阳锋）
 - ~~#655 task_20260906_huangyaoshi-sequential-claim-window｜huangyaoshi｜提审 09-06 06:13｜60_feedback/tasks/task_20260906_huangyaoshi-sequential-claim-window.md~~ → 已终审 PASS A-（2026-09-05 欧阳锋）
+- #656 task_20260906_huangyaoshi-channel-health-fallback｜huangyaoshi｜提审 09-06 12:16｜60_feedback/tasks/task_20260906_huangyaoshi-channel-health-fallback.md
 
 <!-- REVIEW-PENDING-END -->
 
@@ -548,7 +549,6 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 
 > 王语嫣维护看板时处理：诊断 → 写任务单 → 入队后把对应行划掉。编排规则不变，这里只解决「没人被通知」。
 
-- ~~00_inbox/学习candy合集/审计：Eason文化审计与实事求是DataPack.md｜P2｜19790B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：已立项 #611（🔴密级传播限制标注 #322 先例）
 - ~~00_inbox/学习candy合集/尼尔·雷克汉姆：联结销售与营销（SPIN创始人）-视频逐字稿.md｜P2｜17398B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置沿用（09-02 王语嫣）：09-01 已诊（BV1JsgQzWEuD，ASR 差疑似管线测试流量）
 - ~~00_inbox/学习candy合集/技能：deep-debug深度调试技能.md｜P2｜9840B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：观察不立项——调试方法论与现有 skill 库重叠待复核，增量中等
 - ~~00_inbox/学习candy合集/指南：高阶 Skill 设计指南.md｜P2｜23837B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：已立项 #611
@@ -668,6 +668,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~00_inbox/AI大航海20260905/｜P2｜13件｜检测到 09-05 20:29｜待王语嫣编排（#651 目录级登记：内件不在扫描面，需文件级跟踪→加入 SCAN_SUBDIRS）~~ → 已裁定划销（09-06 04:40 王语嫣）：本域 14 件已全量消化（D1+D2 完成，192 金矿+8 图入台账），生产单 #654 在产——此行即 #651 目录级登记功能首个活体样本，功能自证生效 ✅
 - ~~00_inbox/_tmp_smile_chat_full.txt｜P2｜52725B｜检测到 09-06 03:31｜待王语嫣编排~~ → 挂起待老朱指令（09-06 12:10 王语嫣）：个人微信聊天记录导出（full/raw 同源双份，07-29~30 协议对齐话题，含手机号）——涉隐私不自动编排不删除（00_inbox 只增不删）；老朱若要入域分析（销售对话/人域）请口喷指令明确用途后走协议 9 通道
 - ~~00_inbox/_tmp_smile_chat_raw.txt｜P2｜8152B｜检测到 09-06 03:31｜待王语嫣编排~~ → 挂起待老朱指令（09-06 12:10 王语嫣）：个人微信聊天记录导出（full/raw 同源双份，07-29~30 协议对齐话题，含手机号）——涉隐私不自动编排不删除（00_inbox 只增不删）；老朱若要入域分析（销售对话/人域）请口喷指令明确用途后走协议 9 通道
+- 00_inbox/人机协作双三角/｜P2｜304件｜检测到 09-06 04:11｜待王语嫣编排（#651 目录级登记：内件不在扫描面，需文件级跟踪→加入 SCAN_SUBDIRS）
 
 <!-- INBOX-PENDING-END -->
 
@@ -1194,7 +1195,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 653 | `task_20260906_huangyaoshi-e040-crossrepo-hint` | E040 报错提示跨仓前缀全路径（第2次复发工具化） | reviewed | huangyaoshi | 模拟场景提示出现+回归不红 | 无 | `60_feedback/tasks/task_20260906_huangyaoshi-e040-crossrepo-hint.md` | 王语嫣 04:18 立项（两次复发工具化）；欧阳锋终审 |
 | 654 | `task_20260906_laowantong-aidahangha-batch1` | AI大航海域批量生产 batch1：3 framework+5 case+4 bridge+dk挂靠+skill草案+存量自迭代（12+卡，P1，老朱夜令） | reviewed | laowantong | 12卡入库+定位声明/行号锚/标签全+自攻击+三方法证据 | 无 | `60_feedback/tasks/task_20260906_laowantong-aidahangha-batch1.md` | 诊断 diag_20260906_wangyuyan-aidahangha-diagnosis 为规格源；欧阳锋终审 |
 | 655 | `task_20260906_huangyaoshi-sequential-claim-window` | queue_transition 同执行者连续派工窗口：显式多单指令免 force（第3次复发工具化，F-050 族） | reviewed | huangyaoshi | 两单连发模拟不再 force+回归不红 | #653 后（同角色排队） | `60_feedback/tasks/task_20260906_huangyaoshi-sequential-claim-window.md` | 王语嫣 05:10 立项（friction 三连实证）；欧阳锋终审 |
-| 656 | `task_20260906_huangyaoshi-channel-health-fallback` | 拉起器通道健康预检+余额感知 fallback（F-073 落地）+通道-真实模型对照表 | claimed-huangyaoshi | huangyaoshi | 坏key模拟自动fallback+通知/全死明确报错/回归不红 | 无 | `60_feedback/tasks/task_20260906_huangyaoshi-channel-health-fallback.md` | 老朱晨问立项（两墙连撞根治）；欧阳锋终审 |
+| 656 | `task_20260906_huangyaoshi-channel-health-fallback` | 拉起器通道健康预检+余额感知 fallback（F-073 落地）+通道-真实模型对照表 | pending_review | huangyaoshi | 坏key模拟自动fallback+通知/全死明确报错/回归不红 | 无 | `60_feedback/tasks/task_20260906_huangyaoshi-channel-health-fallback.md` | 老朱晨问立项（两墙连撞根治）；欧阳锋终审 |
 | 657 | `task_20260906_wangyuyan-audit-pilot-orgbehavior` | 暗知识体检试金石：AI组织行为学口述全量重挖（王语嫣亲读，完备性双签制首跑） | in_progress | wangyuyan | 金矿台账+体检报告+存量五态对账 | 无 | `60_feedback/tasks/task_20260906_wangyuyan-audit-pilot-orgbehavior.md` | 老朱晨令；计划 diag_20260906_wangyuyan-kb-darkknowledge-audit-plan；欧阳锋终审（抽源对照） |
 | 658 | `task_20260906_laowantong-encapsulation-t1` | 封装复盘 T1 生产：6 件高频基建 skill 壳（狗粮验收：新 agent 凭 skill 检索即可正确调用） | claimed-laowantong | laowantong | 6 SKILL.md+狗粮实测记录 | 无 | `60_feedback/tasks/task_20260906_laowantong-encapsulation-t1.md` | 老朱晨令；报告 diag_20260906_wangyuyan-encapsulation-gap-review；欧阳锋终审 |
 
