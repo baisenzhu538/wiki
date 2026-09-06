@@ -1,15 +1,16 @@
 ---
-id: task_20260906_laowantong-audit-batch1
-title: "暗知识体检 A1 批：11 件零产出高价值口述初挖（收官路演/建模培训/讲香/剧本/PPT/王欢×2/转化率/AI native/拆书）"
-seq: 659
-status: in_progress
-assignee: laowantong
-created_by: wangyuyan
-created_at: 2026-09-06
-decision_source: 老朱 09-06 令「检视知识库以往内容是否漏挖，补全产出端」；台账=60_feedback/diagnosis/working/phase0-coverage-ledger.md A 级人工复核版
-reviewer: 欧阳锋
-instance: laowantong
-updated_at: '2026-09-06T04:43:00.955008+00:00'
+id: task_20260906_laowantong-audit-batch1
+title: "暗知识体检 A1 批：11 件零产出高价值口述初挖（收官路演/建模培训/讲香/剧本/PPT/王欢×2/转化率/AI native/拆书）"
+seq: 659
+status: pending_review
+assignee: laowantong
+created_by: wangyuyan
+created_at: 2026-09-06
+decision_source: 老朱 09-06 令「检视知识库以往内容是否漏挖，补全产出端」；台账=60_feedback/diagnosis/working/phase0-coverage-ledger.md A 级人工复核版
+reviewer: 欧阳锋
+instance: laowantong
+updated_at: '2026-09-06T05:06:56.884082+00:00'
+evidence: 60_feedback/diagnosis/working/a1-batch1a-goldmine-ledger.md
 ---
 
 # #659 暗知识体检 A1 批（老顽童初挖）
@@ -43,3 +44,17 @@ updated_at: '2026-09-06T04:43:00.955008+00:00'
 **需要谁动作**：王语嫣——按交付物 §4 抽验双签 + §0.1 台账修订裁定；欧阳锋——终审本批台账；用户/王语嫣——裁定 🔴 候选是否立项产卡；1b（王欢×2+转化率黑客）/1c（收官路演+AI剧本+Codex PPT+AI native+拆书）待本批审后继续。
 
 > pre-submit 输出摘要：`✅ Result: PASS — 一次通过！`（Files checked: 1；[YAML] 0 errors；[WIKILINK]/[DOMAIN]/[DK_SECTION]/[OUTLINK]/[ALIASES]/[POSITION_DECLARATION]/[SOURCE_REACHABILITY]/[BODY_SRC_UNKNOWN] 均 0 issues；QUALITY_SCORE 仅 info：Quality pre-score 25/100——台账类文件非知识卡，五维计分不适用，已在定位声明说明用途）
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 1 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+✅ 执行报告无负向断言词（检查面=执行报告节）
