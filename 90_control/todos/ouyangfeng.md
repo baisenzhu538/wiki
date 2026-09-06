@@ -750,3 +750,33 @@
 - [2026-09-06 04:17] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#650（huangyaoshi 的单，挂审 20min）（事件驱动：有待终审）
 
 [2026-09-06 04:25] 终审 #650 huangyaoshi-launcher-hermes-profile-flag PASS A-（env→-p flag 真修：源码级核验+狗粮3例回归；历史影响面坐实：11老顽童+1探针错载huangyaoshi profile，#626/#629/#630/#632须王语嫣转老朱知情；边界守住不扩路由）
+- [2026-09-06 04:37] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#651（huangyaoshi 的单，挂审 4min）（事件驱动：有待终审）
+- [2026-09-06 04:37] 🔔 KDO 新提审 1 单：#651，请终审（新提审）
+- [2026-09-06 04:47] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（事件驱动：有待终审）
+
+- [2026-09-06 04:52] 终审 #651 huangyaoshi-inbox-subdir-autoscan PASS A-（watch_inbox 顶层子目录目录级登记三核验点独立复跑全过：签名一层不递归防洪水 / 负向 _前缀+白名单零目录级键 / AI大航海20260905 活体样本 L664 在场；全量 310 passed 回归不红；🔵残留=任务书「14件」笔误实为13件，留痕不返工）- [2026-09-06 04:57] 🔔 KDO 新提审 1 单：#652，请终审（新提审）
+- [2026-09-06 05:02] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#652（huangyaoshi 的单，挂审 14min）（事件驱动：有待终审）
+- [2026-09-06 05:12] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#652（huangyaoshi 的单，挂审 24min）（事件驱动：有待终审）
+- [2026-09-06 05:24] 终审 #652 huangyaoshi-agent-behavior-constitution FAIL C（宪法五条可执行/三挂载点真实注入/狗粮验收/存在性核查节整体A-，但 startup.md L54 步骤6.5「技术概念 deep-research」虚指未实装skill，与宪法第三条自相矛盾→P1打回返工，改L54后重提）
+- [2026-09-06 05:42] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-06 05:57] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#652（huangyaoshi 的单，挂审 3min）；#654（laowantong 的单，挂审 2min）（事件驱动：有待终审）
+- [2026-09-06 05:57] 🔔 KDO 新提审 2 单：#652, #654，请终审（新提审）
+- [2026-09-06 06:07] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#652（huangyaoshi 的单，挂审 13min）；#654（laowantong 的单，挂审 12min）；#653（huangyaoshi 的单，挂审 4min）（事件驱动：有待终审）
+- [2026-09-06 06:07] 🔔 KDO 新提审 1 单：#653，请终审（新提审）
+- [2026-09-06 06:17] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#652（huangyaoshi 的单，挂审 23min）；#654（laowantong 的单，挂审 22min）；#653（huangyaoshi 的单，挂审 14min）；#655（huangyaoshi 的单，挂审 4min）（事件驱动：有待终审）
+- [2026-09-06 06:17] 🔔 KDO 新提审 1 单：#655，请终审（新提审）
+- [2026-09-06 06:27] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#652（huangyaoshi 的单，挂审 33min）；#654（laowantong 的单，挂审 32min）；#653（huangyaoshi 的单，挂审 24min）；#655（huangyaoshi 的单，挂审 14min）（事件驱动：有待终审）
+- [2026-09-06 06:37] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#652（huangyaoshi 的单，挂审 43min）；#654（laowantong 的单，挂审 42min）；#653（huangyaoshi 的单，挂审 34min）；#655（huangyaoshi 的单，挂审 24min）（事件驱动：有待终审）
+- [2026-09-06 06:47] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#652（huangyaoshi 的单，挂审 53min）；#654（laowantong 的单，挂审 52min）；#653（huangyaoshi 的单，挂审 44min）；#655（huangyaoshi 的单，挂审 34min）（事件驱动：有待终审）
+- [2026-09-06 06:57] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#652（huangyaoshi 的单，挂审 63min）；#654（laowantong 的单，挂审 62min）；#653（huangyaoshi 的单，挂审 54min）；#655（huangyaoshi 的单，挂审 44min）（事件驱动：有待终审）
+- [2026-09-06 07:07] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#652（huangyaoshi 的单，挂审 73min）；#654（laowantong 的单，挂审 72min）；#653（huangyaoshi 的单，挂审 64min）；#655（huangyaoshi 的单，挂审 54min）（事件驱动：有待终审）
+- [2026-09-06 07:17] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#652（huangyaoshi 的单，挂审 83min）；#654（laowantong 的单，挂审 82min）；#653（huangyaoshi 的单，挂审 74min）；#655（huangyaoshi 的单，挂审 64min）（事件驱动：有待终审）
+- [2026-09-06 07:27] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#652（huangyaoshi 的单，挂审 93min）；#654（laowantong 的单，挂审 92min）；#653（huangyaoshi 的单，挂审 84min）；#655（huangyaoshi 的单，挂审 74min）（事件驱动：有待终审）
+- [2026-09-06 07:37] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#652（huangyaoshi 的单，挂审 103min）；#654（laowantong 的单，挂审 102min）；#653（huangyaoshi 的单，挂审 94min）；#655（huangyaoshi 的单，挂审 84min）（事件驱动：有待终审）
+- [2026-09-06 07:47] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#652（huangyaoshi 的单，挂审 113min）；#654（laowantong 的单，挂审 112min）；#653（huangyaoshi 的单，挂审 104min）；#655（huangyaoshi 的单，挂审 94min）（事件驱动：有待终审）
+- [2026-09-06 08:02] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#654（laowantong 的单，挂审 127min）（事件驱动：有待终审）
+
+- [2026-09-06 07:52] 终审 #652 huangyaoshi-agent-behavior-constitution 复审 PASS A-（L54 一句话修复达标 f18f04d86 单行变更+五挂载点无新矛盾+hermes SOUL 抽查3/3；自纠上轮错判「research-core 无文件」——实装在 shared/ 子层，宪法 L44/公告 L63 列 v1.1 修单，建议书已落 diag_20260906_ouyangfeng-constitution-v11-and-misc.md）
+- [2026-09-06 07:56] 终审 #653 huangyaoshi-e040-crossrepo-hint PASS A-（_crossrepo_hint 只补提示不放松拦截面+2 回归断言实体核对+262 全量独立复跑绿；意见书首轮被 F-035 拦（负向判词无锚），补存在性核查节后过——宪法第二条拦对）
+- [2026-09-06 07:58] 终审 #655 huangyaoshi-sequential-claim-window PASS A-（修法①取稳者裁决同意；连发放行 return True 在 FIFO/#503 锁之后不越权，force 台账零耦合，锁内重查透传无 TOCTOU；🔵低危 2 项留痕）
+- [2026-09-06 08:07] 终审 #654 laowantong-aidahangha-batch1 PASS A-（抽审：3 framework 全读+case/bridge 抽 3+其余机械核验；引语独立回验 23/23 逐字命中零伪造；自攻击真攻击且修复实落；存量自迭代全实证（周期表 100→103/#611 互链 6/6/seek-truth 补链）；12 卡 review_mark 转正，skill+spec 草案留 draft；🟠2 流程项留痕=预标 reviewed+报告缺存在性核查节）
