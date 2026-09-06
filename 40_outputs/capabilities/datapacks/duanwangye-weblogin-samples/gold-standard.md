@@ -49,7 +49,7 @@ parent: README.md
 | 真实产物 | `60_feedback/wechat-collect/douyin-dali/7654610643165120177.mp4` + 逐字稿 `00_inbox/wechat-collect/src_wechat_dy_7654610643165120177.md` |
 | 抽取路径 | CDP `Network.getAllCookies` → 域过滤（`douyin`/`iesdouyin`）→ Netscape 格式落盘 → 转写头记元数据（`模型: tiny | 设备: cuda | 时长: 346s | 耗时: 30s`） |
 | 判定要点 | ①**cookie 值不落 DataPack**，只记结构事实；②转写头部元数据行是金标准契约——模型名/设备/时长/耗时四项让下游能判断这份逐字稿可信度；③tiny 模型转写质量有实锤损伤，见样本 6 判定 |
-| 脱敏说明 | cookies.txt 真实值留在采集目录，本包零复制【实证：`60_feedback/wechat-collect/douyin-dali/cookies.txt` 存在于采集目录，未在本包出现】 |
+| 脱敏说明 | cookie 产物的落点由脚本默认输出路径定义（`kdo-tools/douyin_cookie_extract.py:18` OUT 默认 `60_feedback/wechat-collect/douyin-dali/cookies.txt`）；该文件当前不在库内【实证：2026-09-06 find 全采集目录 `cookies*.txt` 零命中】；无论其在否，本包零复制 cookie 值【实证：全包 grep 凭据特征串仅命中掩码示例与判定规则本身】 |
 
 ## 样本 5｜视频号 sph 短链（parse_sph → 直链 → 逐字稿）
 

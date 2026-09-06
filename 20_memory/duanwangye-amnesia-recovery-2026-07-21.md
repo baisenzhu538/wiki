@@ -99,6 +99,7 @@ type: memory/role-recovery
   - 错误模式新增 **E008**（cron 引用失效 skill）+ **E009**（发布后未同步 Bitable 追踪表，D4 牌违反）
   - 飞书发布追踪表补录 8 月 3 条发布记录（拆书会 213 期 / 如何了解一个人 / 供应商管理手册）
   - 待用户确认：Bitable 10 条空壳记录（rec27DElQ06*）清理
+- **2026-09-06**：#661 DataPack 试点二交付（`40_outputs/capabilities/datapacks/duanwangye-weblogin-samples/`，金标准 8 组/踩坑 14 条/字段三分类判定/使用说明）——其他 agent 处理公众号/视频号/头条/抖音/微信DB/工具 profile 等登录态内容时挂载；pending_review 待欧阳锋终审。同日完成 hermes 无头 `-p` flag 建议书 + 听脑 API/微信 MCP 双通道体检（详见当日 daily-context）。注意：技能进化日志实际路径是 `桌面/agent复盘/duanwangye/技能进化日志.md`（拼音目录，context 里写的 `段王爷/` 已漂移）。
 - **当前**：待命。任务由欧阳锋通过飞书直接分配；每周一 9:00 cron 自动巡检。
 
 ---

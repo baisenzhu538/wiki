@@ -2,10 +2,10 @@
 session_id: duanwangye-2026-09-06
 agent_id: duanwangye
 date: 2026-09-06
-created_at: 2026-09-05T21:21:45.710453+00:00
-updated_at: 2026-09-05T21:21:45.710453+00:00
-git_head: cb69e771d
-content_hash: 9dbd29480e7c
+created_at: 2026-09-06T04:59:10.641745+00:00
+updated_at: 2026-09-06T04:59:10.641745+00:00
+git_head: 2cdade342
+content_hash: cbd5b8229523
 ---
 
 # duanwangye · 2026-09-06
@@ -157,3 +157,67 @@ Agent 自身：检索失败立即三轮换词+跨 profile 库；修坑先横向�
 1. 【微信 MCP PYTHONPATH 污染】Python312 直跑 mcp_server.py 时被 shell 注入 hermes venv cp313 site-packages，pydantic_core 加载失败 → stdio 连接秒断。根因：KDO 修复时未横向排查同型 MCP。处置：run_wechat_mcp.cmd 清 PYTHONPATH，已验证 Connected + 17 tools。
 2. 【检索盲区：中文名≠工具名】"听脑"工具包实际名 itingnao-kit，wiki/会话检索"听脑"零命中，靠跨 profile state.db FTS 才定位。根因：无中英文名映射检索习惯。处置：沉淀三轮检索法（中文→拼音→跨库）。
 3. 【hermes mcp add 交互卡点】不接 stdin 时 "Enable all tools?" 交互提示导致静默 Cancelled。处置：echo Y 管道喂确认。
+
+---
+
+# duanwangye · 2026-09-06 第3次会话（#661 DataPack 试点二：登录内容样本库）
+
+## 差异栏
+本次 vs 上午会话（听脑/MCP 通道体检）：**产出物性质反转——前两次是"让通道能用"，本次是"把经验变成别人的弹药"**。第一次做 DataPack（陈述性弹药库），核心动作不是写新东西而是编译已有实战：8 组金标准里 7 组来自库内既有产物（采集 guide 故障排查表、wechat_link_monitor.py、自家 wechat-extraction skill），只有 hermes 建议书是今早新产。被打破的隐含预期一个："素材在我手里=要新写素材"——实际先 grep 自己的库，弹药已经在了。新踩的坑也换了类型：不是工具故障，是**自己产出的假断言**（cookies.txt 凭脚本默认路径断言存在，ls 实证不在）和 **cwd 跨调用持续生效**导致的"目录被删"误判。
+
+## 概要
+claim #661（--force 过 #658 laowantong 单 pending_review 阻塞，不同 assignee 并行正规通道，留痕 force-exceptions.log）→ 调研库内登录态实证素材 → 产 `40_outputs/capabilities/datapacks/duanwangye-weblogin-samples/` 四文件：README（使用说明+脱敏红线）、gold-standard（8 组金标准对照）、pitfalls（14 条踩坑实录全带锚点）、field-extraction（字段三分类判定+质量四级）→ 三道验证（YAML 4/4 可解析、脱敏扫描零真实凭据、锚点 21+2 自动核验）→ 五字段执行报告落任务单（含机器预审字段契约修正）→ complete → pending_review，等欧阳锋终审。
+
+## 关键决策
+| 决策 | 理由 | 结果 |
+|------|------|------|
+| claim 用 --force 而非干等 #658 终审 | 不同 assignee 并行是 --force 的文档化用途，别人的审查阻塞不该停我的活 | ✅ 留痕台账，正常施工 |
+| 金标准以库内真实产物为锚，不复述不转写 | 宪法"真实案例不编造"+ 三级标注 | ✅ 8 组全实证；验证时抓到自己一处假断言（cookies.txt）当场改写为核查性引用 |
+| 逐字稿单列质量分级（🟢🟡🔴⚫） | 样本实锤：tiny 转写把"缸中之脑"转成"刚中之导"，同为"成功解析"可信度差三个量级 | ✅ 成为包内最关键判定，防下游误引 |
+| 不碰台账/infrastructure-inventory 登记 | 对齐稿 §四.5 归王语嫣线，只做指令范围 | ✅ 移交"需要谁动作" |
+
+## 思维盲点
+1. **把「素材在我手里」理解成「要新写素材」**。为什么漏掉：惯性把 DataPack 当"新产物"而非"已有实战的编译"。下次：任何"整理经验"类任务第一动作 grep 自己的库（guide 的故障排查表、代码注释里的实锤、skill 的已知限制全是现成弹药）。
+2. **凭"脚本默认输出路径"断言文件存在，没跑 ls**。为什么漏掉：把"代码里写着"当成"文件在"。宪法第二条就是防这个的，被自己的锚点自动核验抓到。下次：存在性断言只认 ls/find 结果，不认代码意图。
+3. **Bash 工具 cd 跨调用持续生效，相对路径全错，一度误判 60_feedback/wechat-collect 整目录被删**。为什么漏掉：把会话级 cwd 当成每次重置。下次：跨目录操作一律绝对路径。
+
+## 顿悟
+1. **「登录失效」在网页层和工具层是同一个模式**：凭据传递不完整/不走正确通道，表现都是"看起来配了但拒你"——元宝 cookie 缺 hy_token 拒播 ≡ hermes env 变量不生效错加载 profile。跨层同构识别一次，两个域的排查路径各省一半。
+2. **机器预审的字段名是契约不是建议**：`未做项/边界` 要用原词，自拟同义标题（"边界（未做/不含）"）就过不了 #515 防吞自检。契约类报错先对词表，别先改内容。
+
+## 知识碰撞记录
+- `40_outputs/capabilities/datapacks/README.md` 四要素规范 + `diag_20260906_wangyuyan-datapack-alignment`（Skill 步骤/DataPack 弹药分层）→ **对得上**，按规范产
+- 洪七公 #660 `hongqigong-vision-goldstandard/` 同日并行在产（git status 实证）→ 试点模板效应成立，两例可互为参照
+- 新发现（规范上没有）：逐字稿需质量分级（原文抓取 🟢 vs 转写 🟡/🔴）、字段三分类判定表（保留/可弃/禁止入库）→ 待欧阳锋审后由王语嫣定是否回写 datapacks/README 作为编制指引
+
+## 本会话发现的问题
+1. 【执行报告字段名契约】queue_transition 的机器预审要求执行报告含 `未做项/边界` 原词字段，自拟同义标题触发 #515 自检拒收（不阻断提转但预审不落盘）。处置：字段名对齐原词后已闭环。建议：契约词表写进 AGENTS.md 提审纪律行，省掉每个 agent 试错一轮。
+2. 【工具路径漂移无标注】角色 context 写技能进化日志在 `桌面/agent复盘/段王爷/`，实际在 `duanwangye/`（拼音目录）。根因：目录迁移后 context 未同步。处置：本次按实际路径落账。
+3. 【库内凭据产物无固定落点】douyin cookies.txt 脚本默认输出路径当前无文件（可能已清理），凭据类产物的"在哪/清没清"无台账。建议：凭据类产物清单化或明确"用后即清"纪律，避免凭据散落无审计锚点。
+
+## 过程资产
+- `40_outputs/capabilities/datapacks/duanwangye-weblogin-samples/`（README / gold-standard / pitfalls / field-extraction 四文件）
+- `60_feedback/tasks/task_20260906_duanwangye-datapack-weblogin.md`（五字段执行报告，含字段契约修正）
+- `90_control/todos/duanwangye.md`（首建落账）
+- `90_control/force-exceptions.log`（--force 留痕，队列脚本自动写入）
+
+## 元反思
+下次"沉淀弹药"类任务三步固定：①先 grep 库再动手；②产物锚点脚本自动核验存在性，不信手写路径；③提审前对照机器预审字段契约。知识检索行为审视：本次按宪法第三条先检索（读对齐稿+grep 库+多源对比）再动笔，未出现凭记忆断言。
+
+## Truman复盘
+### 逐轮映射
+| 轮次 | 人做什么 | 双三角 | AI做什么 | 双三角 |
+|------|---------|--------|---------|--------|
+| 1 | 老朱点名授权 + 王语嫣立项（#661 四要素规格） | 方向 | 读规格+对齐稿，定位"弹药在主人手里" | 场景 |
+| 2 | — | — | 库内调研：采集 guide/monitor 代码/skill/建议书，7 组实锤对照 | 基本功 |
+| 3 | — | — | 产四文件 + 三道验证（YAML/脱敏/锚点）+ 流转提审 | 数据→判断 |
+
+### 飞轮效应
+本包让"任何 agent 处理登录态内容"从通用经验升级为有 8 组金标准+14 条踩坑的领域专家；与洪七公 #660 同日并行，DataPack 试点模板第一次跑出第二例。另外 09-05 的教训（先加载技能/先查库）本次直接兑现为"先 grep 库"，踩坑沉淀的复利跨任务兑现。
+
+### 对照实验
+无AI：把 5 个通道的解析经验编成可复用库靠人写文档，至少一天且大概率漏掉"错词分级"这种只有对照过样本才会发现的细节；无用户：没有老朱点名授权，登录态素材永远散在各 agent 手里不成库；合在一起：一次会话产四文件全实证，且顺手抓出自己两处假断言。
+
+### 下次改进
+- Agent 自身：存在性断言只认 ls/find；跨目录绝对路径；契约报错先对词表。
+- 方法论卡更新：DataPack 编制三步（grep 库→锚点核验→字段契约对齐）待欧阳锋审完本包后，随王语嫣的 datapacks/README 迭代一并提。

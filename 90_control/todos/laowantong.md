@@ -582,3 +582,5 @@
 - [2026-09-06 12:42] ✅ #658 完成生产：6 件高频基建 skill 壳落盘（queue-transition/kimi-headless-launch/review-chain/oral-transcript-trio/transcribe-win/intake-registry）+ 狗粮实测 6/6 通过 + pre-submit 6/6 PASS + INDEX.md 刷新 85 skills → 已 commit，提审 pending_review
 - [2026-09-06 12:27] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#656（huangyaoshi 的单，挂审 11min）（到点（节奏 15min））
 - [2026-09-06 12:42] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#656（huangyaoshi 的单，挂审 26min）；#658（laowantong 的单，挂审 15min）（到点（节奏 15min））
+- [2026-09-06 12:57] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#660（hongqigong 的单，挂审 3min）；#661（duanwangye 的单，挂审 3min）（到点（节奏 15min））
+- [2026-09-06 12:57] ✅ KDO 终审通过 1 单：#658——你的单过了，见任务单终审记录

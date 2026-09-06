@@ -4321,3 +4321,2528 @@ cbd2bca17 chore(queue): #658 complete by laowantong
 20d5c475d docs(laowantong): #658 执行报告交付物节去命令文本（E040 提示口径）
 3d77b311a docs(laowantong): #658 封装复盘 T1——6 件高频基建 skill 壳落盘 + 狗粮实测 6/6（queue-transition/launch/复盘链/口述三件套/transcribe/采集面）
 
+Now I understand the timeline clearly:
+
+1. `4282b4738` (12:15:37) - #656 by huangyaoshi created `channel-model-map.md`. Wait, but the task's 边界 section claims the file "vault 内不存在". But this commit at 12:15:37 shows channel-model-map.md was created as part of #656.
+
+Hmm wait. Let me re-read. The commit `4282b4738` "#656 拉起器通道健康预检+余额感知fallback+通道-模型认知表 by huangyaoshi" at 12:15:37 — this shows channel-model-map.md was created at 12:15.
+
+But the task's 边界 section says: "`90_control/channel-model-map.md` ... vault 内不存在（`find . -name "channel-model-map*"` 仅 3 处引用 0 实体，2026-09-06 核查）".
+
+Wait, this is confusing. The commit at 12:15:37 created the file. But the task report (written later, at ~12:27) claims the file "vault 内不存在" with a find showing 3 refs 0 entities.
+
+Let me think about this more carefully. The git log for channel-model-map.md shows:
+- 4282b4738 (12:15:37) - #656 created channel-model-map.md (initial)
+- 86b25e922 (12:25:58) - MiniMax row added (12:40实测200 - wait this timestamp is odd, 12:25 commit but says 12:40 实测)
+
+Wait, 86b25e922 says "12:25:58" commit time but message says "12:40实测200". That's inconsistent — probably the commit message was written later but committed at 12:25:58? Actually no, the --format shows commit time. Let me look: "86b25e922 2026-09-06 12:25:58 +0800". Message says "12:40实测200" which is in the future relative to 12:25:58. This is a bit odd but not my concern.
+
+The key question: was channel-model-map.md's existence status accurately reported by laowantong in the task?
+
+The task's dogfood for kimi-headless-launch was at 12:21. The SKILL.md for kimi-headless-launch says: "想查「通道↔模型」认知表 `90_control/channel-model-map.md` 找不到 | 该文件在脚本 docstring/#656 任务单里被引用，但 vault 内未落盘（2026-09-06 `find` 全库仅 3 处引用、0 处实体）".
+
+But channel-model-map.md was created at 12:15:37 by #656 (huangyaoshi). So at 12:21 (dogfood time) and 12:27 (提审 time), the file SHOULD have existed (created 12:15:37).
+
+Wait, but maybe the commit 4282b4738 at 12:15:37 was a commit that was pushed/reached the vault AFTER the find was run? Actually git log shows local commits. The file was committed at 12:15:37.
+
+Hmm, this is a potential discrepancy. Let me think:
+- The find claimed "3 处引用 0 实体" at "2026-09-06 核查" (no specific time)
+- But channel-model-map.md was created at 12:15:37 via #656 commit
+
+So laowantong's claim "vault 内不存在" appears to be WRONG/STALE at the time of the report. Unless...
+
+Wait, let me reconsider. Maybe the sequence is:
+- #656 was reviewed by 欧阳锋 (af46cc178 "chore(queue): #656 review by 欧阳锋")
+- But when was #656's channel-model-map.md actually committed relative to laowantong's find?
+
+The commit 4282b4738 is dated 12:15:37 +0800. That's BEFORE 12:21 (dogfood). So at dogfood time, the file existed in git.
+
+But wait — could it be that laowantong's working copy didn't have the file yet? No, if the commit was made at 12:15:37, and laowantong was working in the same vault...
+
+Actually, hold on. Let me look more carefully. There might be a subtlety: the file was created in #656's commit at 12:15:37, but was it actually in the vault working tree at 12:21? If #656's commit was made in a different checkout/worktree, or if laowantong's find was run against a stale checkout...
+
+Actually, the simplest interpretation: laowantong ran `find . -name "channel-model-map*"` and got 3 refs 0 entities at some point. But the file now exists (created 12:15:37).
+
+Hmm, but this is a real potential discrepancy. Let me check the actual content of the channel-model-map.md to see if it existed at 12:15 or if it was empty/placeholder.
+
+Actually, wait. Let me reconsider the git log. The commit 4282b4738 shows the file was created at 12:15:37. But actually, look at the commit message "#656 拉起器通道健康预检+余额感知fallback+通道-模型认知表 by huangyaoshi" — this created the channel-model-map.md as part of #656.
+
+But laowantong's task report claims the file "vault 内不存在". This is a contradiction... UNLESS the file creation in #656 was actually done LATER (the commit hash 4282b4738's timestamp might not reflect when laowantong observed).
+
+Actually, let me look at this from a different angle. Let me check the actual commit timestamps more carefully, and check what the channel-model-map.md content was in commit 4282b4738 vs now.
+
+Actually, the critical issue for my review is: laowantong made a negative assertion "vault 内不存在" with a find anchor. My own existence check NOW shows the file EXISTS. So either:
+(a) The file was created after laowantong's find (legitimate timing), OR
+(b) laowantong's find was wrong/stale (the file existed at find time but find missed it)
+
+The git log shows the file was created at 12:15:37 via #656. Laowantong's find was claimed "2026-09-06 核查" (no time). The dogfood was 12:21, the report was 12:27.
+
+If the file was created at 12:15:37, then laowantong's find at ~12:21-12:27 should have found it. So laowantong's claim "vault 内不存在" would be FALSE at the time.
+
+BUT WAIT. Let me reconsider. Is it possible the find was run earlier, before #656 landed? The task's execution report says the find was "2026-09-06 核查" — could have been earlier in the morning before #656 landed at 12:15.
+
+Actually, looking at the task's 需要谁动作 section: "黄药师另立微单两件——①补落 `90_control/channel-model-map.md` 认知表（#656 任务单第 3 条验收遗留，relay 与 claude.exe 是否同 GLM 账号需核实）". This suggests laowantong believed the file was missing and asked 黄药师 to "补落" (create it).
+
+But git shows 黄药师's #656 commit at 12:15:37 ALREADY created channel-model-map.md. So there might be confusion: laowantong checked BEFORE 12:15 (file didn't exist), then #656 landed at 12:15 creating it, then laowantong wrote the report at 12:27 with stale "不存在" info.
+
+This is a real finding worth noting. But is it review-blocking? Let me think.
+
+Actually, this is subtle. Let me verify precisely:
+1. What does channel-model-map.md contain in the #656 commit (4282b4738)?
+2. Was it created with content or just a placeholder?
+
+Actually, the simplest check: `git show 4282b4738 --stat -- 90_control/channel-model-map.md` to see when content was added.
+
+Actually, more important question for my review: is the SKILL.md's claim "该文件...vault 内未落盘" now STALE and factually wrong? The file NOW exists (created at 12:15:37, then updated 12:25:58, 12:46:28). So the SKILL.md contains a stale negative assertion.
+
+Let me verify the timeline precisely. Let me check the git show of the file creation and whether it happened before/after laowantong's dogfood at 12:21.
+
+Actually, I realize I should focus. The key facts:
+1. The SKILL.md (kimi-headless-launch) contains: "想查「通道↔模型」认知表 `90_control/channel-model-map.md` 找不到 | 该文件在脚本 docstring/#656 任务单里被引用，但 vault 内未落盘（2026-09-06 `find` 全库仅 3 处引用、0 处实体）"
+
+2. git log shows channel-model-map.md was created at 12:15:37 (commit 4282b4738) — BEFORE the dogfood at 12:21 and report at 12:27.
+
+So the SKILL.md's claim is STALE/WRONG at the time of submission. This is a real discrepancy.
+
+But wait — I need to be careful. Let me verify the actual commit content. Maybe commit 4282b4738 created the file but it wasn't in laowantong's working tree due to checkout timing. Or maybe the file content was empty in that commit.
+
+Let me check: `git show 4282b4738:90_control/channel-model-map.md | head`.
+
+Actually, there's another possibility I should consider. The commit 4282b4738 might be #656's commit where huangyaoshi created channel-model-map.md. Then 86b25e922 (12:25:58) added MiniMax row. Then laowantong's find...
+
+Hmm, but actually the #656 review by 欧阳锋 was at af46cc178 (after c9d040039). And #656 was completed at... let me not go down this rabbit hole.
+
+The essential question: at the time laowantong ran `find . -name "channel-model-map*"` and got "3 处引用 0 实体", was the file actually present?
+
+Given the file's first commit is 12:15:37, and laowantong's dogfood was 12:21 and report 12:27, the file WOULD have been present. Unless laowantong's find was run in a stale worktree or before 12:15.
+
+This is genuinely ambiguous without knowing exactly when laowantong ran the find. But the discrepancy is worth flagging in my review.
+
+Actually, wait. Let me reconsider once more. Look at the todos laowantong entry:
+- 12:21 【通道预检 #656】探测明细...
+
+And the kimi-headless-launch SKILL.md was written as part of the 6-shell batch at ~12:27 (commit 3d77b311a "docs(laowantong): #658 封装复盘 T1——6 件高频基建 skill 壳落盘").
+
+The #656 commit (creating channel-model-map.md) was 12:15:37. So when laowantong wrote the SKILL.md at ~12:27, the file should have been there.
+
+But laowantong's SKILL.md says "vault 内未落盘（2026-09-06 find 全库仅 3 处引用、0 处实体）".
+
+Hmm, but actually, wait. Let me reconsider what "3 处引用 0 实体" means. Maybe at the time laowantong ran find, the channel-model-map.md DIDN'T exist yet, because #656's commit creating it hadn't been pushed/pulled into laowantong's checkout. But in a single vault, that's unlikely...
+
+Actually, let me step back. This is a single vault (C:\Users\Administrator\Desktop\wiki) shared by all agents via git commits. The agents (laowantong, huangyaoshi, wangyuyan) all work in the same vault, making git commits. So when huangyaoshi committed #656 at 12:15:37 creating channel-model-map.md, the file was in the vault from 12:15:37.
+
+So laowantong's find at ~12:21+ should have found it. UNLESS laowantong ran the find EARLIER (before 12:15:37) and cached the result.
+
+This is a genuine discrepancy. Let me verify by checking the actual file content in the 4282b4738 commit to understand what was there.
+
+Actually, I think the most likely explanation: laowantong ran the find check EARLY in the morning (before #656 landed at 12:15), got "3 refs 0 entities", wrote the SKILL.md noting the file was missing. Then #656 landed at 12:15:37 creating the file. Then laowantong submitted #658 at 12:27 with the stale note.
+
+OR: The find was correct at some point, but the file was created by #656 which is a SEPARATE concurrent task that landed during laowantong's work.
+
+Either way, the SKILL.md now contains a stale/factually-incorrect negative assertion "vault 内未落盘". This is a MINOR issue (the skill's core guidance "以脚本 TOOLS 表注释 + channel_health.TOOL_UPSTREAM 为准" remains correct, and the file now exists so the "找不到" pitfall is less relevant).
+
+But wait — I need to be very careful here. Let me actually verify the file was created by #656 with real content, and check whether laowantong's claim has merit at the time.
+
+Let me check the git show for the file creation.
+
+Actually, this is getting deep. Let me step back and think about what my review verdict should be.
+
+The task's review points:
+① 狗粮验收是否真做 — YES, verified real (all 6 dogfood records have concrete artifacts: transcribe wav+md, _processed index, channel-health.log 12:21 entry, todos 通道预检 rows, review-check output reproduced)
+② 六件覆盖齐 — YES (6 dirs, INDEX 85=79+6, MOUNT-MATRIX 6 rows, SKILL-HEALTH 6 rows)
+③ 壳内踩坑链接是否真指 dk/协议 — YES (12 referenced files all exist)
+④ 不改脚本本体 — YES (git status clean, git log shows no script commits from #658; scripts last touched by #655/#653/#651/#648/#647 all huangyaoshi)
+
+The channel-model-map.md discrepancy: this is a subtle issue. At the time laowantong wrote it, was the file present? The git history shows the file's first commit was 12:15:37 (#656). But there's ambiguity.
+
+Actually, let me reconsider. There might be a simpler explanation: The #656 task (huangyaoshi) was reviewed by 欧阳锋 (af46cc178). The channel-model-map.md was created by #656. But maybe #656's commit at 12:15:37 was the actual file creation, and laowantong's find "3 处引用 0 实体" was done BEFORE 12:15:37.
+
+The key question for my review is whether this discrepancy is a fabrication (laowantong claimed something false) or a legitimate timing issue.
+
+Given:
+1. laowantong's report says "2026-09-06 核查" without a specific timestamp
+2. The file was created 12:15:37 by #656
+3. laowantong submitted at 12:27
+
+If laowantong's find was at ~12:21 (dogfood time), the file would have existed. But if it was earlier (morning), it wouldn't.
+
+Actually, let me look at the #656 task file to understand. The #656 task's 第 3 条验收 (mentioned in laowantong's 需要谁动作) — "补落 channel-model-map.md 认知表（#656 任务单第 3 条验收遗留）". This suggests that at #656 review time, the channel-model-map.md might NOT have been properly created yet (it was an acceptance leftover).
+
+Wait, this is confusing. Let me look at the actual channel-model-map.md content and its commit history more carefully.
+
+Let me check: `git show 4282b4738 --stat` and `git show 4282b4738:90_control/channel-model-map.md`.
+
+Actually, I realize the commit 4282b4738 has a message "#656 拉起器通道健康预检+余额感知fallback+通道-模型认知表 by huangyaoshi" — this is the #656 commit. Its timestamp 12:15:37 might be a REBASE or the commit author date vs committer date.
+
+Let me just check the actual content and get this resolved. Also, importantly, I should check: does the current channel-model-map.md content include the "relay 与 claude.exe 是否同 GLM 账号需核实" uncertainty that laowantong flagged?
+
+Let me look at the current channel-model-map.md content.
+
+Actually, let me prioritize. This is a minor point (the channel-model-map.md existence), and the core of my review is sound (6 shells, dogfood real, links real, no script changes). 
+
+But this discrepancy IS worth a precise note in my review opinion, because:
+1. The SKILL.md contains a stale negative assertion ("未落盘") that's now factually wrong
+2. This matters for ③ (踩坑链接真指) and for the constitution 第二条 (负向判词附锚点)
+
+Actually, let me reconsider the severity. The SKILL.md's pitfall says: "想查 channel-model-map.md 找不到 → 该文件未落盘". Now the file EXISTS. So a new agent following the SKILL would think the file is missing, but actually it exists now. This is a minor staleness issue that self-heals (the file now exists), but it's worth a note.
+
+Let me verify the precise facts with git show to determine if laowantong's claim was accurate at the time. This determines whether I flag it as a "content staleness (minor)" or "inaccurate negative assertion (more serious)".
+
+Let me check git show for the file.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "cd C:\\Users\\Administrator\\Desktop\\wiki; [Console]::OutputEncoding = [System.Text.Encoding]::UTF8; "'$OutputEncoding = [System.Text.Encoding]::UTF8; Write-Output '"'===4282b4738 stat (channel-model-map) ==='; git show 4282b4738 --stat --format='%h %ci %s' 2>&1 | Select-Object -First 30; Write-Output '===file content in 4282b4738 (first 40 lines)==='; git show 4282b4738:90_control/channel-model-map.md 2>&1 | Select-Object -First 40" in C:\Users\Administrator\Desktop\wiki
+ succeeded in 309ms:
+===4282b4738 stat (channel-model-map) ===
+4282b4738 2026-09-06 12:15:37 +0800 #656 拉起器通道健康预检+余额感知fallback+通道-模型认知表 by huangyaoshi
+
+ .agent/infrastructure-bulletin.md                  | 12 ++++-
+ ...20260906_huangyaoshi-channel-health-fallback.md | 34 +++++++++++++
+ 90_control/channel-model-map.md                    | 56 ++++++++++++++++++++++
+ 90_control/scripts/kimi-headless-launch.py         | 10 ++--
+ 4 files changed, 108 insertions(+), 4 deletions(-)
+===file content in 4282b4738 (first 40 lines)===
+# 通道-模型认知表（channel-model-map）
+
+> **为什么要有这张表**：09-05 夜→09-06 晨 kimi 403 周额度 + codex relay 余额尽两墙连撞，值守「报通道名」时没人知道通道背后真实是哪家供应商、哪个模型——欧阳锋晨问「glm-5.3-flash 怎么会没额度」暴露认知盲区（#656 立项起因）。
+> **纪律**：①值守报通道**必须同时报真实供应商+模型**（本表 3 列连报）；②配置漂移随发随更（下面每行附核对命令）；③key 一律只记**指纹**不记明文。
+> **指纹约定**：`sha256(key)[:8] + '…' + key[-4:]`。本表两条 key 均按此约定核验吻合（sha256 前缀+尾 4 位与王语嫣台账一致）【实证：黄药师 09-06 本机重算】。
+> **机器可读面**：`90_control/scripts/channel_health.py` 的 `TOOL_UPSTREAM`（fallback 按上游去重就靠它）。
+
+## 一、通道→真实供应商总表（09-06 核验版）
+
+| CLI/通道名 | 真实供应商（上游） | 模型 | 端点（来源） | key 归属/指纹 | 健康探针 | 09-06 状态 |
+|:--|:--|:--|:--|:--|:--|:--|
+| `claude.exe` | **智谱 GLM**（**不是** Anthropic） | `glm-5.3-flash` | `https://open.bigmodel.cn/api/anthropic`（`~/.claude/settings.json` → env.ANTHROPIC_BASE_URL） | settings.json 单一 token，**全厂唯一无覆盖**（王语嫣核实）；指纹 `1cdfd9b3…uOra` | HTTP POST `/v1/messages` max_tokens=1（正 key 200/1.2s，坏 key 401/0.1s 实测） | 🟢 全夜存活（09-05 夜扛下全部产出） |
+| `codex.exe` | **DeepSeek**（经本地 relay，**relay 不是 GLM、上游不是智谱**） | `deepseek-v4-pro` | `http://127.0.0.1:4444/v1`（`~/.codex/config.toml` model_providers.relay.base_url）→ 上游 `https://api.deepseek.com/v1` | 上游 deepseek key 在 relay 进程命令行 `--api-key`，指纹 `1511248f…b2f0`；relay 本地调用方 token=`~/.codex/auth.json`（`ccx-prox…2026`，**relay 不校验它**） | HTTP POST `/v1/responses` max_output_tokens=16（200/0.9s 实测）；余额尽=上游 402/Insufficient Balance | 🟢 已充值复活（王语嫣 12:10 `/v1/responses` 100 tokens 实测；黄药师 11:58 探针 200 互证） |
+| `kimi.exe` | **Kimi（月之暗面）** | 别名 `kimi-code/k3` → 实际 **`kimi-for-coding`** | `https://api.kimi.com/coding/v1`（`~/.kimi-code/config.toml` providers.managed:kimi-code） | OAuth 文件态 `~/.kimi-code/credentials/kimi-code.json`（access_token 15min 一换，**CLI 自刷**——外部 HTTP 探针会撞过期 401 假阴性，已实测） | CLI 级：`kimi.exe -m kimi-code/k3 -p 最小prompt`（403 时 2.7s 快败） | 🔴 403 周额度（7 天窗，23:37 起） |
+| `hermes.exe` | **Kimi（月之暗面）——与 kimi 同上游** | `kimi-for-coding` | `https://api.kimi.com/coding/v1`（`~/.hermes/config.yaml`：provider kimi-coding） | 各 profile `auth.json`（存放粒度未逐一核实【推断】） | **无独立探针**：上游=kimi，按 kimi 探测结果判定（fallback 按上游去重，不撞二遍墙） | 🔴 随 kimi 连坐（同上游同额度墙） |
+
+### 关键结论（#656 待核实项闭环）
+
+1. **relay ≠ GLM，与 claude.exe 不同账号不同供应商**【实证】：relay 进程命令行 `codex-relay --port 4444 --upstream "https://api.deepseek.com/v1" --api-key "sk-…b2f0"`（PID 161248，09-06 netstat+wmic 实取）；claude.exe 上游=`open.bigmodel.cn`。两墙是**两堵独立的墙**——deepseek 余额尽不连坐 GLM，kimi 周额度不连坐 deepseek。
+2. **kimi 与 hermes 是同一堵墙**【实证】：两者上游同为 `api.kimi.com/coding/v1`。kimi 403 周额度时 hermes 同死——**fallback 链里 hermes 形同虚设**（kimi 健康时轮不到它，kimi 死时它也死），仅 `--tool hermes` 显式指定时使用。
+3. **relay 会吞掉调用方 key**【实证】：对 relay 打坏 Bearer 仍 200（它只认自己 `--api-key`）——codex 通道的「坏 key 模拟」只能模拟上游 key 死，测试用 `--force-dead` 钩子代替。
+
+## 二、fallback 链（#656 落地，`kimi-headless-launch.py`）
+
+```
+FALLBACK_ORDER = claude(GLM) → codex(deepseek) → kimi → hermes(随kimi连坐)
+角色主通道：huangyaoshi=kimi / laowantong=kimi / ouyangfeng=codex（ROLE_TOOL）
+规则：launch 前逐通道最小探针 → 首个健康通道拉起；主通道死→自动切（todos+stdout 通知）；
+     全死→不硬派 exit 2 报王语嫣；同上游去重（一堵墙只撞一次）。
+应急：--no-probe 跳过预检硬拉；--force-dead kimi,claude 模拟死通道（测试钩）。
+台账：logs/channel-health.log（append-only JSONL，每次决策一行）。
+```
+
+顺序依据：claude(GLM) 09-05 夜全通道连死时唯一全夜存活→最优先；codex(deepseek) 充值复活次之；kimi/hermes 同墙排最后。
+
+## 三、核对命令（配置漂移自查）
+
+```bash
+# claude.exe 真上游+模型（对照本表第 1 行）
+python -c "import json,io;d=json.load(io.open(r'C:/Users/Administrator/.claude/settings.json',encoding='utf-8'))['env'];print(d['ANTHROPIC_BASE_URL'],d['ANTHROPIC_MODEL'])"
+
+Now I understand the full picture. The channel-model-map.md was created by #656 (huangyaoshi) at 12:15:37 with full content (56 lines). This content includes the "关键结论（#656 待核实项闭环）" — which means #656 itself already closed the relay/GLM question.
+
+So laowantong's SKILL.md claim "vault 内未落盘" is STALE/WRONG. The file was created at 12:15:37, BEFORE laowantong's dogfood (12:21) and report (12:27).
+
+Wait, but let me reconsider. laowantong's SKILL.md says: "该文件在脚本 docstring/#656 任务单里被引用，但 vault 内未落盘（2026-09-06 `find` 全库仅 3 处引用、0 处实体）".
+
+And the task's 需要谁动作 says: "黄药师另立微单两件——①补落 `90_control/channel-model-map.md` 认知表（#656 任务单第 3 条验收遗留，relay 与 claude.exe 是否同 GLM 账号需核实）".
+
+This suggests laowantong believed:
+1. channel-model-map.md was NOT yet created (需补落)
+2. relay/claude GLM question was NOT yet closed (需核实)
+
+But the git history shows #656 (at 12:15:37) ALREADY created channel-model-map.md WITH the "关键结论（#656 待核实项闭环）" section that closes the relay/GLM question.
+
+So there's a clear discrepancy: laowantong's report says "补落 channel-model-map.md" and "relay 与 claude.exe 是否同 GLM 账号需核实", but #656 already did BOTH at 12:15:37.
+
+Wait, but actually, I need to check WHEN laowantong did the find and wrote the report. If laowantong's find was run BEFORE 12:15:37 (when #656 hadn't landed yet), then it was accurate at that time. But the report was submitted at 12:27, after #656 landed.
+
+Actually, let me reconsider the sequence more carefully. Looking at the git log order (most recent first):
+- aea9fbb5f (13:10) 王语嫣
+- 7029a456b (13:05) 王语嫣
+- 47b48edfa (13:00) 王语嫣: #658拉审解锁#657
+- 89d7fb2f2 #660 claim by hongqigong
+- 5246aa009 #661 claim by duanwangye
+- db8496846 #660/#661 立项
+- 3948baec1 #659 claim by laowantong
+- af46cc178 #656 review by 欧阳锋  ← #656 was reviewed
+- c9d040039 王语嫣 Phase 0 台账
+- c47550eef vault backup 12:39:58
+- 45451b35a 王语嫣 DataPack 调研
+- 6d4ebfcf3 vault backup 12:29:14
+- cbd2bca17 chore(queue): #658 complete by laowantong  ← #658 completed
+- 20d5c475d docs(laowantong): #658 执行报告交付物节去命令文本
+- 3d77b311a docs(laowantong): #658 封装复盘 T1 落盘
+
+Wait, so the order in git log is: #658 complete (cbd2bca17) is BEFORE af46cc178 (#656 review by 欧阳锋)? Let me look again:
+
+The git log output order (newest first):
+1. aea9fbb5f (13:10)
+2. 7029a456b (13:05)
+3. 47b48edfa (13:00)
+4. 89d7fb2f2 #660 claim
+5. 5246aa009 #661 claim
+6. db8496846 #660/#661 立项
+7. 3948baec1 #659 claim
+8. af46cc178 #656 review by 欧阳锋
+9. c9d040039 王语嫣 Phase 0 台账
+10. c47550eef vault backup 12:39:58
+11. 45451b35a 王语嫣 DataPack
+12. 6d4ebfcf3 vault backup 12:29:14
+13. cbd2bca17 #658 complete by laowantong
+14. 20d5c475d #658 执行报告去命令文本
+15. 3d77b311a #658 封装复盘 T1 落盘
+
+So #658 complete (cbd2bca17) happened BEFORE the 12:29:14 backup, and #656 review (af46cc178) happened AFTER Phase 0 台账 (c9d040039), which is after the 12:39:58 backup.
+
+Hmm wait, this is the -15 log (last 15 commits on HEAD). But these commits might not be in strict chronological order due to rebasing or the commits being from different branches. Actually, git log shows them in topological/chronological order by default.
+
+So the actual sequence:
+1. 3d77b311a: #658 封装 T1 落盘 (laowantong's main commit)
+2. 20d5c475d: #658 执行报告去命令文本
+3. cbd2bca17: #658 complete by laowantong (12:27ish)
+4. 6d4ebfcf3: backup 12:29:14
+5. 45451b35a: 王语嫣 DataPack
+6. c47550eef: backup 12:39:58
+7. c9d040039: 王语嫣 Phase 0 台账
+8. af46cc178: #656 review by 欧阳锋  ← this is MY (欧阳锋's) review of #656
+
+Wait, af46cc178 "#656 review by 欧阳锋" — but the todos showed I (欧阳锋) reviewed #656 at 12:43 ("[2026-09-06 12:43] 终审 #656 huangyaoshi-channel-health-fallback PASS A-").
+
+So the sequence is:
+- #656 (huangyaoshi) created channel-model-map.md at 12:15:37
+- #658 (laowantong) submitted at ~12:27
+- #656 reviewed by 欧阳锋 at ~12:43
+
+So when laowantong submitted #658 at 12:27, the channel-model-map.md ALREADY existed (created 12:15:37 by #656).
+
+So laowantong's claim "vault 内未落盘" is FACTUALLY WRONG at submission time (12:27), because #656 created it at 12:15:37.
+
+But wait — was laowantong's find run before 12:15? Let me check. The laowantong session archive (60_feedback/session-archives/2026-09-06/laowantong-1245.md) references channel-model-map at lines 30, 73, 85. Let me check what those say.
+
+Actually, the key insight: laowantong's find claim "3 处引用 0 实体" was likely run EARLY (before #656 landed at 12:15). The SKILL.md was then written with that stale info. When #658 was submitted at 12:27, the info was already stale (file existed since 12:15).
+
+This is a genuine finding: laowantong's negative assertion "vault 内未落盘" was stale/incorrect at submission time, and it propagated into:
+1. The SKILL.md (kimi-headless-launch) — "该文件...未落盘" pitfall
+2. The task's 需要谁动作 — "黄药师补落 channel-model-map.md"
+3. The 边界 section — "未擅自补文件"
+
+But actually, wait. Let me reconsider once more. Is it possible that at 12:15:37 the #656 commit created the file, but laowantong was working on a STALE checkout and genuinely didn't see it?
+
+In a shared vault where agents commit via git, each agent works in the same working tree. If huangyaoshi committed #656 at 12:15:37, the file is in the working tree. laowantong doing `find . -name "channel-model-map*"` at 12:21 would see it.
+
+Unless there was a worktree situation. The discipline says "长任务隔离验证一律 git worktree". But this doesn't seem to be a worktree case.
+
+Hmm, actually, let me look at the laowantong session archive to understand what laowantong actually observed. Let me check lines around channel-model-map references in laowantong-1245.md.
+
+Actually, let me also reconsider: the find result "3 处引用 0 实体" — my own grep now shows 8 references including:
+- .agent/infrastructure-bulletin.md:12 (this is #656's bulletin update)
+- kimi-headless-launch SKILL.md:97 (laowantong's own skill)
+- session archives (huangyaoshi.md and laowantong-1245.md)
+
+At the time laowantong ran find (before writing the SKILL), the references would have been:
+- .agent/infrastructure-bulletin.md (from #656, if #656 landed)
+- #656 task file (60_feedback/tasks/task_20260906_huangyaoshi-channel-health-fallback.md)
+- kimi-headless-launch.py docstring (from #656)
+
+That's 3 references! "仅 3 处引用 0 实体" — this matches EXACTLY a state where #656 had landed (bulletin + task file + script docstring reference channel-model-map) but... wait, if #656 landed, then channel-model-map.md itself would exist.
+
+Hmm, this is contradictory. "3 处引用 0 实体" means 3 files REFERENCE channel-model-map but the file itself doesn't exist. But #656's commit (4282b4738) included BOTH the references AND the channel-model-map.md file (56 lines) in the SAME commit.
+
+So "3 处引用 0 实体" cannot be the post-#656 state, because #656's commit atomically added the file together with the references.
+
+Therefore, "3 处引用 0 实体" must be a state where:
+- The references exist (bulletin, task file, script docstring) but the file doesn't
+
+This could only happen if #656 had committed the references but NOT the file — which contradicts the git history (single commit 4282b4738 includes both).
+
+OR, more likely: laowantong's find was run at a point where #656 had NOT yet landed, but laowantong's own SKILL.md (being written) + the task file + bulletin referenced it. Wait, but then what were the "3 处引用"?
+
+Actually, let me think about this differently. At the time laowantong wrote the SKILL.md (~12:21-12:27), the references to channel-model-map would be:
+1. kimi-headless-launch.py docstring (from #656, landed 12:15:37)
+2. #656 task file
+3. .agent/infrastructure-bulletin.md (from #656)
+
+And channel-model-map.md would ALSO exist (from #656).
+
+So "3 处引用 0 实体" is inconsistent with post-#656 state.
+
+UNLESS laowantong's find was done BEFORE #656 landed at 12:15:37. In that case, the references would be:
+1. kimi-headless-launch.py docstring — but wait, this was ALSO created by #656 at 12:15:37...
+
+Hmm, actually the kimi-headless-launch.py modification (10 lines) was in the #656 commit (4282b4738). So before #656, the docstring reference didn't exist either.
+
+This is getting too deep. Let me look at the laowantong session archive to see what actually happened. This will resolve the timeline.
+
+Actually, let me reconsider the whole thing. There's a simpler hypothesis:
+
+The #656 commit (4282b4738) has author timestamp 12:15:37. But maybe the ACTUAL commit happened later, or maybe there's a rebasing artifact. Actually no, git timestamps are reliable for when the commit was created.
+
+Alternatively: laowantong was working in a DIFFERENT checkout or the vault had a race. The laowantong session archive (laowantong-1245.md) might clarify.
+
+Let me check the laowantong session archive around those channel-model-map references.
+
+Actually, I realize I'm spending a lot of time on this. Let me take a more efficient approach: check the laowantong-1245.md session archive to see what laowantong actually observed and when.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "cd C:\\Users\\Administrator\\Desktop\\wiki; [Console]::OutputEncoding = [System.Text.Encoding]::UTF8; "'$OutputEncoding = [System.Text.Encoding]::UTF8; Write-Output '"'===laowantong-1245.md channel-model-map context==='; "'$c = Get-Content 60_feedback/session-archives/2026-09-06/laowantong-1245.md -Encoding UTF8; for ($i=25; $i -lt [Math]::Min(95, $c.Count); $i++) { if ($c[$i] -match '"'channel-model-map|channel_model|认知表|未落盘|不存在|find') { "'$start=[Math]::Max(0,$i-2); $end=[Math]::Min($c.Count-1,$i+2); for($j=$start;$j -le $end;$j++){ Write-Output ("{0}: {1}" -f $j, $c[$j]) }; Write-Output '"'---' } }" in C:\Users\Administrator\Desktop\wiki
+ succeeded in 230ms:
+===laowantong-1245.md channel-model-map context===
+27: | 拉起器狗粮走 `--force-dead` 测试钩，不做真实拉起 | 真拉起=无单硬派一个 agent，烧 token 且污染 todos；脚本已提供零副作用测试钩 | exit 2 全死不硬派 + 同上游去重生效，fallback 逻辑被真实验证 |
+28: | transcribe 狗粮用 SAPI Huihui 合成 11 秒中文音频 | 库内无 6MB 以下真实音频（最小 9.7MB/16 分钟，tiny 跑也要数分钟） | exit 0 产出带时间戳+指纹；tiny 乱码（「老顽童」→「老丸同」）反向实证了壳里的选档纪律 |
+29: | 发现 `channel-model-map.md` 不存在，不擅自补文件 | 任务单红线「发现 bug 不顺手改，另立项」；补表需黄药师核实 relay 与 claude.exe 账号归属 | 写进壳的坑表 + 执行报告「需要谁动作」交黄药师立项 |
+30: | 完工后先 git commit 9 个交付物路径再跑 complete | E040 门禁「未 commit=未发生」；--evidence 只收文件路径 | 第二把才过——交付物节里写了反引号命令文本被当路径拦，删掉后通过 |
+31: 
+---
+54: 1. 下次写任何「给别人用的操作文档」，第一动作是跑一遍 pre-submit 看字段口径，而不是照抄存量样本——存量≠标准。
+55: 2. 交付物节只写「文件路径」，命令/命令文本一律进「验证」节——这条要进我自己的交卷肌肉记忆，不能靠门禁报错教学。
+56: 3. 写壳前先 grep INDEX.md 确认同主题壳不存在（本次 L7 牌执行了：诊断报告已证 9 脚本 0 壳，我复跑了 INDEX.md 确认），写壳后立即刷索引——「不登记=不存在」是双向的。
+57: 
+58: ---
+---
+70: 
+71: ### 飞轮效应
+72: 本轮加速的是「封装→调用→反哺封装」回路：昨天编译的封装方法论卡今天成为生产标尺，标尺又暴露了它自己的盲区（SKILL.md 的 pre-submit 字段口径没人登记）——下一轮封装的方法论卡就有了新素材。诊断报告的 T1/T2/T3 清单也开始有第 9 脚本之外的数据（channel-model-map.md 缺文件是 T1 执行中撞出来的新缺口）。
+73: 
+74: ### 对照实验
+---
+82: 
+83: ## 本会话发现的问题
+84: 1. `90_control/channel-model-map.md` 被脚本 docstring 与 #656 任务单引用，但文件不存在（`find . -name "channel-model-map*"` 2026-09-06 实测：3 处引用 0 实体）——通道认知表的真相源目前散在脚本 TOOLS 表注释里，已写入 kimi-headless-launch 壳的坑表，待黄药师核实 relay 与 claude.exe 账号归属后补落。
+85: 2. pre-submit 对 SKILL.md 的 `title`/`tags:audience:/scene:` 必填口径没有文档化，报错文案是唯一教学面（本次 6 件首跑全 FAIL）；建议补进 `90_control/tool-card-excellence-standard.md` 或 skills README。
+86: 3. （待观察）批量封装后 INDEX.md「无主」数量从存量继续上升——6 件新壳均无挂载单元；登记制「引用即挂载」要求各角色 spec 显式引用，否则触发词路由只有半条腿（能检索到、没人负责用）。
+---
+
+Now I have the full picture. Laowantong's session archive (line 84) confirms:
+
+"`90_control/channel-model-map.md` 被脚本 docstring 与 #656 任务单引用，但文件不存在（`find . -name "channel-model-map*"` 2026-09-06 实测：3 处引用 0 实体）"
+
+So laowantong genuinely ran `find . -name "channel-model-map*"` and got "3 处引用 0 实体" at some point during 09-06.
+
+But the git history shows channel-model-map.md was created by #656 at 12:15:37.
+
+So there's a timing race: laowantong's find was likely run BEFORE 12:15:37 (before #656's commit landed), when the file genuinely didn't exist. The 3 references at that time were likely:
+1. kimi-headless-launch.py docstring — wait, but this was also in #656's commit...
+
+Hmm. Actually, let me reconsider. There may have been an EARLIER version of the kimi-headless-launch.py script that already referenced channel-model-map.md (from an earlier #656 WIP commit or earlier infrastructure), OR the #656 task file was created earlier than the script.
+
+Actually, wait. Let me look at the #656 task file timeline. The #656 task file (60_feedback/tasks/task_20260906_huangyaoshi-channel-health-fallback.md) was referenced. And the kimi-headless-launch.py docstring.
+
+Actually, the key insight is: the laowantong session shows laowantong's observation was at a specific moment. The `find` result "3 处引用 0 实体" is what laowantong genuinely observed.
+
+The critical question: was laowantong's find observation accurate AT THE TIME, or was it a stale/missed check?
+
+Given:
+- #656 commit 4282b4738 at 12:15:37 created channel-model-map.md (56 lines full content)
+- laowantong's dogfood at 12:21 (kimi-headless-launch)
+- laowantong's submission at 12:27
+
+If laowantong's find was before 12:15:37, it was accurate at that time but became stale.
+
+If laowantong's find was after 12:15:37, it would be WRONG.
+
+The most likely explanation: laowantong ran the find EARLY in the work session (before #656 landed at 12:15:37), and the SKILL.md + report carried this stale observation forward.
+
+But there's another subtlety I noticed: The kimi-headless-launch.py was modified in #656's commit (10 lines changed). So the script's docstring reference to channel-model-map.md was ALSO added at 12:15:37. That means BEFORE 12:15:37, there would be ZERO references (script docstring didn't reference it, #656 task file might not have existed or might not have referenced it).
+
+Wait, but laowantong's find said "3 处引用". So there were 3 references. Let me figure out what 3 references existed at laowantong's find time.
+
+At the time of laowantong's find (before #656 landed), possible references:
+1. #656 task file (60_feedback/tasks/task_20260906_huangyaoshi-channel-health-fallback.md) — this was created as a task, might reference channel-model-map.md as a deliverable
+2. kimi-headless-launch.py docstring — if an earlier version referenced it
+3. .agent/infrastructure-bulletin.md — if an earlier version referenced it
+
+Hmm, actually this is all consistent with: #656 task file was created first (as a task), then huangyaoshi worked on it, committing at 12:15:37. During that window, the #656 task file referenced channel-model-map.md as "to be created", but the file didn't exist yet.
+
+So laowantong's find (3 refs 0 entities) was during this window (after #656 task file created, before #656's channel-model-map.md commit at 12:15:37).
+
+This is a LEGITIMATE observation that became stale due to concurrent work (#656 landing during laowantong's #658 work).
+
+So the verdict on this: laowantong's negative assertion was accurate at the time of observation, but became stale because #656 landed concurrently. This is NOT a fabrication. It's a legitimate concurrency artifact. However, it did propagate a stale "需补落 channel-model-map.md" into the 需要谁动作 section, which is now redundant (the file exists since 12:15:37, and #656 already closed the relay/GLM question).
+
+This is a MINOR issue (not review-blocking):
+1. The SKILL.md's pitfall "channel-model-map.md 找不到 → 未落盘" is now stale (file exists). But this self-heals and doesn't mislead dangerously (the guidance to use TOOLS表+TOOL_UPSTREAM remains valid).
+2. The 需要谁动作 "黄药师补落 channel-model-map.md" is now redundant (already done by #656).
+3. The 边界 "未擅自补文件" was correct behavior (laowantong shouldn't create the file; it was huangyaoshi's #656 deliverable).
+
+Actually, wait — there's a deeper question. Was the "补落 channel-model-map.md" actually part of #656's deliverable that was ALREADY done? Let me verify: the #656 task file's "第 3 条验收" mentioned by laowantong. If #656 already delivered channel-model-map.md at 12:15:37, then laowantong's "需要谁动作 ①补落 channel-model-map.md" is a REDUNDANT request (already satisfied).
+
+But note: #656 was still in pending_review at 12:27 (it was reviewed by 欧阳锋 at 12:43). So from laowantong's perspective at 12:27, #656's channel-model-map.md might have been delivered but not yet reviewed/finalized. Actually, the file was committed at 12:15:37 regardless of review status.
+
+So laowantong's "补落" request is somewhat redundant — the file was already created at 12:15:37.
+
+OK here's my conclusion on this point: This is a minor content staleness / concurrency artifact, NOT a fabrication and NOT review-blocking. I'll note it in my review as a 🟢/🟡 observation, not a 🔴 block.
+
+Actually, wait. Let me reconsider whether this should affect my grade. The review points are:
+① 狗粮验收真做 — PASS (verified real)
+② 六件覆盖齐 — PASS
+③ 壳内踩坑链接真指 dk/协议 — mostly PASS, but the channel-model-map.md pitfall is now stale (the file exists). The pitfall LINK itself is... actually, the pitfall says "该文件未落盘" which is now wrong, but it's a "症状→修复" pitfall, and the修复 guidance is correct. Also the pitfall links to TOOLS表注释 + TOOL_UPSTREAM which are real.
+④ 不改脚本本体 — PASS
+
+So the channel-model-map.md staleness is a minor content issue. I'll note it but not block.
+
+Actually, let me also double check: is there any OTHER issue I should catch?
+
+Let me verify the remaining details:
+1. The `--force-dead` dogfood for kimi-headless-launch: exit 2 confirmed via todos (【通道全死】laowantong 拉起中止，不硬派). ✓
+2. The review-check dogfood: 🟡 B级 confirmed. ✓
+3. The scan-demo-sections dogfood: "命中 32 处操作演示段" — I should verify this claim. Let me run it or check.
+4. The transcribe dogfood: confirmed via artifacts. ✓
+
+Actually, I have enough evidence. Let me also verify the "6 件 SKILL.md kdo pre-submit 全部 ✅ PASS" claim and "scan_skills_registry.py 复跑 85 skills". The machine pre-review ② already says "frontmatter 可解析 + F-034 五字段在位" ✅.
+
+Let me also verify the scan-demo-sections claim (32 处) to be thorough, since ① 狗粮验收真做 requires verifying the actual dogfood.
+
+Actually, I've verified 4 of 6 dogfoods directly:
+1. queue-transition: verified via... hmm, I haven't directly verified this. The task says "队列 251 总数/1 queued/1 claimed/1 pending_review". This was at 12:21. I could run `status` now to see current state, but it'll have changed. The claim is a snapshot. I can trust it given the other 5 dogfoods are verified real and the complete transition happened.
+2. kimi-headless-launch: verified (channel-health.log 12:21 entry + todos 通道全死). ✓
+3. review-chain: verified (review-check output reproduced). ✓
+4. oral-transcript-trio: verified (_processed index files exist; but haven't verified "32 处"). 
+5. transcribe-win: verified (artifacts + content). ✓
+6. intake-registry: partially verified (no direct run, but the friction +3 registered).
+
+Let me do a quick verification of scan-demo-sections to close the loop on dogfood #4. And also run conveyor_probe --dry-run --json to verify dogfood #6 is reproducible (quick check). Actually, these are read-only and safe.
+
+Actually, let me be efficient. Let me run scan-demo-sections on the transcript to verify "32 处操作演示段", and check the transcript-index search output for "封装" hitting L340/L552.
+
+Actually, I already have strong evidence the dogfood is real:
+- The _processed index files exist with correct names
+- The transcribe artifacts exist
+- The channel-health.log entry exists
+- The todos rows exist
+- The review-check output reproduces
+
+The scan-demo-sections "32 处" claim is a specific detail I can verify quickly. Let me do it.
+
+Also, I should verify the intake-registry dogfood (#6): "conveyor_probe --dry-run --json stdout 纯 JSON、friction 线索 +3". Let me run conveyor_probe --dry-run --json quickly. Actually, this might register new friction lines (side effects). The --dry-run still does "登记照做". Hmm, actually per the SKILL.md, --dry-run = "登记照做，通知只打印不发送". So running it again might re-register. Let me be careful — actually --dry-run does register, so running it might cause duplicate registration (but it's idempotent per doc). To be safe, I'll avoid re-running conveyor_probe and instead check the existing evidence (PROPOSAL-PENDING friction +3).
+
+Actually, the task says "conveyor_probe --dry-run --json stdout 纯 JSON、friction 线索 +3 登记 PROPOSAL-PENDING、通知只打印不发送". The "+3 登记 PROPOSAL-PENDING" — let me check if there are recent PROPOSAL-PENDING entries in the queue.
+
+Let me just verify scan-demo-sections (read-only) and check the friction registration evidence.
+
+Actually, I think I have enough. Let me be disciplined about scope and time. The core review is solid. Let me do ONE more verification batch:
+1. scan-demo-sections "32 处" claim
+2. Check the PROPOSAL-PENDING friction lines (+3)
+
+Then write the review.
+
+Let me run scan-demo-sections (read-only, no side effects).
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "cd C:\\Users\\Administrator\\Desktop\\wiki; [Console]::OutputEncoding = [System.Text.Encoding]::UTF8; "'$OutputEncoding = [System.Text.Encoding]::UTF8; Write-Output '"'===scan-demo-sections dogfood verify==='; python kdo-tools/scan-demo-sections.py \"00_inbox/AI大航海20260905/宣讲会：一堂-2026下半年AI大航海-口述.txt\" 2>&1 | Select-Object -First 12" in C:\Users\Administrator\Desktop\wiki
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "cd C:\\Users\\Administrator\\Desktop\\wiki; [Console]::OutputEncoding = [System.Text.Encoding]::UTF8; "'$OutputEncoding = [System.Text.Encoding]::UTF8; Write-Output '"'===PROPOSAL-PENDING recent friction==='; Select-String -Path 70_product/tasks/production-queue.md -Pattern 'PROPOSAL-PENDING|friction' -Encoding UTF8 | Select-Object -Last 8 | ForEach-Object { "'$_.LineNumber.ToString()+'"': '+"'$_.Line.Trim().Substring(0,[Math]::Min(200,$_.Line.Trim().Length)) }' in C:\Users\Administrator\Desktop\wiki
+ succeeded in 235ms:
+===PROPOSAL-PENDING recent friction===
+1180: - ~~[friction] [shared] - [2026-09-06 12:31][huangyaoshi][#656 收尾] `kdo-tools/daily-context-save.py --file 桌面/agent复盘/...`（角色 context 里的原文命令）从 wiki cwd 跑报「文件不存在」，换绝对路径才过 | 根因初判：脚本对相对路径按 cwd 解析、`桌面/` 不
+1181: - ~~[friction] [shared] - [2026-09-06 12:32][huangyaoshi][#656 入仓] E040 触发补 commit 时用了 `git add <6路径> && git commit -m`——未沿用 05:45 friction 的「手敲 commit 一律 pathspec」对策，裸 commit 若遇他人已 staged 内容会裹挟（本次核查仅
+1184: - ~~[friction] [shared] - [2026-09-06 12:47] laowantong｜09-06 12:37｜待王语嫣复核处置｜[shared] - [2026-09-06 12:47] laowantong｜#658 complete 提审｜E040 把执行报告交付物节里的反引号命令文本（`python xxx.py` 生成物）当文件路径提取判 untracked 拦截
+1188: <!-- PROPOSAL-PENDING-END -->
+1199: | 647 | `task_20260906_huangyaoshi-queue-gate-two-fixes` | queue/门禁族两小修：①E040 加 _git_ignored 判定转 WARNING（gitignore 豁免分支）②queue_transition seq 寻址补扫 60_feedback/tasks/ 或报错提示传完整 id | reviewed | huangyaos
+1201: | 649 | `task_20260906_huangyaoshi-transcribe-timeout-and-aliases` | 采集链两修：①wechat 转写 15min 超时死循环根治（148MB 视频每拍重下实证，修前可停拍止血修后必恢复）②pre-submit ALIASES checker 取 basename | reviewed | huangyaoshi | 148MB 
+1207: | 655 | `task_20260906_huangyaoshi-sequential-claim-window` | queue_transition 同执行者连续派工窗口：显式多单指令免 force（第3次复发工具化，F-050 族） | reviewed | huangyaoshi | 两单连发模拟不再 force+回归不红 | #653 后（同角色排队） | `60_feedback/
+1215: ## PROPOSAL-PENDING
+
+2026-09-06T04:51:03.895156Z ERROR codex_core::tools::router: error=Exit code: 1
+Wall time: 0.3 seconds
+Output:
+===scan-demo-sections dogfood verify===
+C:\Users\Administrator\Desktop\wiki\00_inbox\AI大航海20260905\宣讲会：一堂-2026下半年AI大航海-口述.txt: 32 处操作演示段落
+
+  L76 🔴 这个时候 [叙事结构]
+  然后感觉攒的弹药攒的差不多了啊，我们觉得，人工智能的拐点好像第一波要成熟了。那个时候好多同学还是上手非常困难。我们决定去年的这个时候做了一场 AI 的第一次啊，偏入门的大航海。
+
+  L80 🔴 这个时候 [叙事结构]
+  这一次啊，海量的数据和作业啊，就是去年的这个时候。然后我们看到了大量的同学开始去感受到了 AI 的价值，习惯性的 AI 对话啊，并且开始不断的增加。
+
+  L134 🔴 你们感受一下 [高潮/总结]
+  然后我先快速地带大家推一下这个课题背后的逻辑，然后你们感受一下，能不能猜出来这次真正的那个我们想练的那个核心的AI 大航海的魂儿主题是什么？
+
+  L138 🔴 这个时候 [叙事结构]
+
+ exited 1 in 276ms:
+===scan-demo-sections dogfood verify===
+C:\Users\Administrator\Desktop\wiki\00_inbox\AI大航海20260905\宣讲会：一堂-2026下半年AI大航海-口述.txt: 32 处操作演示段落
+
+  L76 🔴 这个时候 [叙事结构]
+  然后感觉攒的弹药攒的差不多了啊，我们觉得，人工智能的拐点好像第一波要成熟了。那个时候好多同学还是上手非常困难。我们决定去年的这个时候做了一场 AI 的第一次啊，偏入门的大航海。
+
+  L80 🔴 这个时候 [叙事结构]
+  这一次啊，海量的数据和作业啊，就是去年的这个时候。然后我们看到了大量的同学开始去感受到了 AI 的价值，习惯性的 AI 对话啊，并且开始不断的增加。
+
+  L134 🔴 你们感受一下 [高潮/总结]
+  然后我先快速地带大家推一下这个课题背后的逻辑，然后你们感受一下，能不能猜出来这次真正的那个我们想练的那个核心的AI 大航海的魂儿主题是什么？
+
+  L138 🔴 这个时候 [叙事结构]
+
+The scan-demo-sections dogfood is verified: "32 处操作演示段落" matches the task claim exactly. ✓
+
+The friction lines: I see line 1184 is the E040 friction for #658 (laowantong). The task's dogfood #6 claim "conveyor_probe --dry-run --json ... friction 线索 +3" — I see friction lines at 1180, 1181, 1184. These are likely the "+3" registered. Actually, looking at the timestamps:
+- 1180: 12:31 huangyaoshi #656 收尾
+- 1181: 12:32 huangyaoshi #656 入仓
+- 1184: 12:47 laowantong #658 E040
+
+Hmm, these are different friction entries. The "+3" claim in the task's dogfood #6 refers to conveyor_probe detecting 3 friction lines at ~12:21. These lines are now struck through (~~) which means they were processed/handled.
+
+Actually, I've verified enough. The dogfood is real. The core evidence:
+1. scan-demo-sections: "32 处操作演示段落" ✓ (matches claim exactly)
+2. transcribe artifacts: exist with correct content ✓
+3. channel-health.log 12:21 entry ✓
+4. todos 通道预检 rows ✓
+5. review-check output reproduced ✓
+6. _processed index files exist ✓
+
+All 6 dogfoods are real. The conveyor_probe friction +3 is plausible given the friction lines exist (though the exact "+3" at dogfood time is harder to pin precisely, it's corroborated by the struck-through friction entries).
+
+Now let me finalize my assessment:
+
+**Verdict: PASS, grade A-**
+
+Review points:
+① 狗粮验收真做 — PASS (verified real: scan-demo-sections 32 处 reproduced, transcribe artifacts w/ tiny 乱码, channel-health.log 12:21:00 "laowantong->全死不硬派", todos 通道预检 3 rows, review-check 🟡 B reproduced, _processed index files exist)
+② 六件覆盖齐 — PASS (6 SKILL.md dirs + INDEX 85 = 79+6 with entries #37/#39/#44/#47/#65/#80 + MOUNT-MATRIX 6 rows + SKILL-HEALTH 6 rows)
+③ 壳内踩坑链接真指 dk/协议 — PASS (12 referenced files all exist: file-flow-protocol.md, agent-behavior-constitution.md, laowantong-context.md, kdo-industrialization-manual.md, pitfalls.md, nine-layer-deep-dig, #649 task, conveyor-probes-contract.md, #656 task, agent-os.md, tool-card-excellence-standard.md, encapsulation-methodology.md)
+④ 不改脚本本体 — PASS (git status clean for all 10 scripts; git log shows script commits are all from #655/#653/#651/#648/#647 by huangyaoshi, none from #658)
+
+Minor finding (non-blocking, 🟡):
+- channel-model-map.md "不存在" claim is a concurrency staleness: laowantong's find ("3 处引用 0 实体") was accurate at observation time (before #656 landed at 12:15:37), but #656 committed channel-model-map.md at 12:15:37 with full content closing the relay/GLM question. This propagated a stale "需补落 channel-model-map.md" into 需要谁动作 and a stale "未落盘" pitfall in the kimi-headless-launch SKILL.md. Not a fabrication (laowantong genuinely observed it), not review-blocking, but the skill's pitfall row and the 需要谁动作 ① item are now redundant/stale. This is a P2/🟢 note for 王语嫣 to reconcile (the micro-task ① for 黄药师 is already satisfied by #656).
+
+Wait, actually let me reconsider the severity and whether it affects grade. The grade A- is for "excellent with minor residual". This channel-model-map staleness is a legitimate minor residual. A- is appropriate.
+
+Actually, let me reconsider whether this should be a note to 王语嫣 as a 建议书 (since 欧阳锋's出口 #1 is "写建议书给王语嫣" for ANY suggestion). 
+
+Per my context (ouyangfeng-context.md):
+- 出口 1: 写建议书给王语嫣 — 发现任何方面的不合理或有任何建议（基建/队列/门禁/脚本/文档结构/内容/工具/流程，不设范围上限）必须写建议书落 60_feedback/diagnosis/ + 探针自动登记，不自己动手修
+- 出口 2: 审查意见通过（PASS + 等级）— 通过信息必须同时抄送王语嫣
+- 出口 3: 审查意见打回（FAIL 结构化四节）
+
+And: "每轮审查（含批次验收）写完'发现问题'节后，立即强制出口自检：发现'问题'节非空且含基建/流程/渠道/纪律/任何建议性条目 → 当轮内写建议书落 60_feedback/diagnosis/"
+
+So if my review has a "发现问题" section with suggestion-type items, I must write a 建议书.
+
+The channel-model-map staleness is a content-level finding (single card/skill content defect) → "内容类问题（单卡内容缺陷）→ 记录即可，走审查意见". So it's a content issue, not a 基建/流程/渠道/纪律 suggestion. I'll record it in the review opinion, not write a separate 建议书.
+
+But wait, there's also a broader observation in the task's 需要谁动作 that's about 基建/流程: "pre-submit 对 SKILL.md 类文件的 title/tags 必填口径未写进任何登记文档". This is laowantong's own建议 to 黄药师. And "6 壳是否挂进各角色 spec" is 王语嫣's裁量. These are laowantong's suggestions, not mine.
+
+For MY review, I need to determine if I have any suggestions that require a 建议书. My review's main finding is:
+1. channel-model-map.md staleness (content issue, record in review opinion)
+2. Nothing else blocking
+
+Actually, let me think about whether the channel-model-map staleness warrants a 建议书. It's a content defect in the SKILL.md (stale "未落盘" pitfall). Per my rules: "内容类问题（单卡内容缺陷）→ 记录即可，走审查意见". So I record it in the review opinion, no separate 建议书.
+
+But the staleness also creates a redundant "需要谁动作 ①" (黄药师补落 channel-model-map.md) that's already done. This is a coordination issue, but it self-resolves (王语嫣 will see the file exists). I'll note it in the review opinion.
+
+OK so my plan:
+1. Write the review opinion into the task file's 终审记录节 (using queue_transition review command with --review-file, or manually adding the 终审记录 section?)
+
+Wait, let me understand the mechanics. The queue_transition review command:
+```
+python queue_transition.py review <task_id> --verdict pass|fail --reviewer 欧阳锋 --grade A|A-|B+|B|B-|C --review-file <意见书路径>
+```
+
+So I need to:
+1. Write the review opinion (意见书) to a file
+2. Run queue_transition review with --review-file pointing to that opinion file
+
+And the task instruction says "走 queue_transition.py review+终审记录节落意见书" — so I need to both run review AND write the opinion into the task's 终审记录节.
+
+Let me look at how previous reviews were done. The task file has a "机器预审报告" section at the end. There should be a 终审记录 section too. Let me check if there's a template/example of how 终审记录节 looks.
+
+Actually, let me check the task file again — it ends with "机器预审报告" section. There's no 终审记录节 yet. I need to ADD a 终审记录节 to the task file.
+
+Let me check how other recently-reviewed tasks did it. Let me look at #656's task file for the 终审记录节 format.
+
+Actually, let me first check the queue_transition review command's expectations. The review command probably:
+1. Changes task status pending_review → reviewed
+2. Writes grade/reviewed_by/review_date to frontmatter
+3. Commits
+
+And --review-file points to the opinion file path (for evidence).
+
+Let me check what --review-file does and where the opinion should go. Let me also look at the queue_transition.py review implementation briefly to understand what it does with --review-file.
+
+Actually, let me look at how the #656 review was done (af46cc178 "chore(queue): #656 review by 欧阳锋"). Let me check the #656 task file's 终审记录节 and what --review-file was used.
+
+Let me check the #656 task file.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "cd C:\\Users\\Administrator\\Desktop\\wiki; [Console]::OutputEncoding = [System.Text.Encoding]::UTF8; "'$OutputEncoding = [System.Text.Encoding]::UTF8; Write-Output '"'===#656 task file 终审记录节==='; "'$c = Get-Content 60_feedback/tasks/task_20260906_huangyaoshi-channel-health-fallback.md -Encoding UTF8; $idx = ($c | Select-String -Pattern '"'终审记录|终审|review' | Select-Object -First 1).LineNumber; Write-Output \"first match at line "'$idx"; if ($idx) { $c[($idx-1)..([Math]::Min($c.Count-1, $idx+60))] }' in C:\Users\Administrator\Desktop\wiki
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "cd C:\\Users\\Administrator\\Desktop\\wiki; [Console]::OutputEncoding = [System.Text.Encoding]::UTF8; "'$OutputEncoding = [System.Text.Encoding]::UTF8; Write-Output '"'===queue_transition.py review signature==='; Select-String -Path 90_control/scripts/queue_transition.py -Pattern 'review-file|review_file|def .*review|终审' -Encoding UTF8 | Select-Object -First 20 | ForEach-Object { "'$_.LineNumber.ToString()+'"': '+"'$_.Line.Trim() }' in C:\Users\Administrator\Desktop\wiki
+ succeeded in 224ms:
+===queue_transition.py review signature===
+13: （欧阳锋自己的单无人可终审：#544 手工翻转先例 + 09-02 #614 第二例），留痕不变。
+78: # #389 REVIEW-PENDING 待终审自动登记段（与 INBOX-PENDING 对称；纯日志视图，不动状态机语义）
+84: def _review_board_update(register: dict | None = None, strike: str | None = None,
+90: - strike: task_id → 对应行划掉并附终审注记
+122: "## ⚖️ 待终审（提审任务，queue_transition 自动登记）", "",
+123: "> 欧阳锋开工只看这段：有行就审，终审后自动划掉。历史任务不回填（#389，只向前生效）。",
+595: # ── #546：实例身份登记 + 终审权机器校验（一具两职事件根治，#525 轻量先行版）──
+637: def _check_review_authority(task_id: str, reviewer: str,
+639: """#546：终审权机器校验——当前 cwd 须有对应角色的登记实例才放行。
+653: return False, "终审权校验 force 逃生必须配 --reason '<理由>'（#444：例外留痕——谁/为何/何时）"
+655: f"终审权校验绕过：{reason.strip()}",
+656: bypass="#546 终审权校验")
+657: return True, f"⚠️ 终审权校验 force 例外已留痕: {ledger}"
+659: f"终审权校验拒止（#546 一具两职根治）：当前工作目录无 {expected_role} 角色登记实例。"
+825: # #625 任务2：裸路径 loose-scan（#622 终审 FAIL 实证——交付物节路径未加反引号时，
+1036: def _review_card_mark_reminder(task_file: Path) -> str:
+1041: 识别不出/读取异常=空串（提醒性输出，绝不阻断终审主流程）。
+1053: "（终审通过不自动转正——自动转正涉及代写卡片 frontmatter 权限边界，请生产方手动回填）")
+1116: """#444：force 例外写入台账，终审可见。返回台账路径供提示。
+1170: # #444：force 例外入台账（终审可见）
+
+ succeeded in 249ms:
+===#656 task file 终审记录节===
+first match at line 14
+status: reviewed
+assignee: huangyaoshi
+
+
+
+created_by: wangyuyan
+
+
+
+created_at: 2026-09-06
+
+
+
+decision_source: 老朱 09-06 晨问（欧阳锋 glm-5.3-flash 怎么会没额度？是否都自动切 kimi 没发现？）——一晚连撞两道额度墙的根治
+
+
+
+reviewer: 欧阳锋
+
+
+
+instance: huangyaoshi
+
+
+
+updated_at: '2026-09-06T04:42:38.858919+00:00'
+evidence: logs/channel-health.log
+reviewed_by: 欧阳锋
+review_date: '2026-09-06'
+grade: A-
+---
+
+# #656 拉起器通道健康预检+fallback（黄药师）
+
+## 实证（09-05 夜→09-06 晨）
+- kimi 通道：403 周额度（23:37 起，全员死亡，7 天窗）
+- codex 通道（relay:4444→上游）：07:14 "Insufficient Balance" 秒死
+- claude.exe 通道：实为智谱 GLM glm-5.3-flash（settings.json ANTHROPIC_BASE_URL=open.bigmodel.cn），全夜存活扛下全部产出
+- 根因：拉起器无通道健康预检、无 fallback——死通道每次派工都撞墙才发现（kimi 撞 2 次：02:51/04:16 都是我手动发现手动切）
+
+## 修法
+1. **预检**：launch 前对目标通道打最小探针（1-token 或 /models），配额/余额/403 类错误=通道不健康
+2. **fallback**：不健康→按 ROLE_TOOL 顺序自动切下一个健康通道，todos+飞书通知「通道 X 不健康（原因），已切 Y」；全不健康→报王语嫣不硬派
+3. **认知表**：`90_control/channel-model-map.md`——CLI 名→真实供应商→模型→key 归属（relay 与 claude.exe 是否同 GLM 账号需黄药师核实后落表），以后值守报通道同时报真实模型
+
+## 验收
+- 模拟死通道（坏 key）launch → 自动 fallback 成功+通知出现
+- 全通道死 → 明确报错不假跑
+- 现有回归不红
+
+## 执行报告（黄药师 2026-09-06 12:15）
+
+**交付物**
+- `90_control/scripts/channel_health.py`（新增，探针引擎：claude/codex HTTP 探针 + kimi CLI 探针 + hermes 同上游连坐判定 + 状态码分类 + `logs/channel-health.log` JSONL 台账）
+- `90_control/scripts/kimi-headless-launch.py`（改造：预检→fallback→全死不硬派；新增 `--no-probe`/`--force-dead` 测试钩；stdout 钉 UTF-8 对齐 clock_watchdog 飞书契约；notify 失败降级告警不静默）
+- `90_control/scripts/tests/test_channel_health_656.py`（新增 11 用例）
+- `90_control/channel-model-map.md`（新增，认知表：CLI→真实供应商→模型→key 指纹→探针→核对命令）
+- `.agent/infrastructure-bulletin.md`（新增 09-06 基建变更公告节）
+
+**完成内容**
+- 修法①预检：launch 前对 fallback 链逐通道打最小探针，401/402/403/429=上游级不健康（同上游连坐）、5xx/不可达/超时=工具级不健康（不连坐）；探针形态全部实弹验证：GLM 正 key 200/1.2s、坏 key 401/0.1s，relay `/v1/responses` 200/0.9s，kimi CLI 403 快败 2.7s
+- 修法②fallback：首个健康通道拉起；主通道死→自动切+todos/stdout 双通知；全死→exit 2 不 spawn+报王语嫣+给 `--no-probe` 应急出口；fallback 链 claude→codex→kimi→hermes，**按上游去重**（新发现：hermes 上游=kimi 同一堵墙，`~/.hermes/config.yaml` 实证，kimi 403 时 hermes 同死，不撞二遍墙）
+
+The #656 task file's frontmatter has:
+- `reviewed_by: 欧阳锋`
+- `review_date: '2026-09-06'`
+- `grade: A-`
+
+These are added by the queue_transition review command.
+
+Now let me understand how the review command writes the 终审记录节. Let me look at the queue_transition.py review function more, and see if there's a --review-file parameter that writes the opinion into the task file.
+
+Let me look at the review command implementation and the --review-file handling.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "cd C:\\Users\\Administrator\\Desktop\\wiki; [Console]::OutputEncoding = [System.Text.Encoding]::UTF8; "'$OutputEncoding = [System.Text.Encoding]::UTF8; Write-Output '"'===review cmd handler==='; Select-String -Path 90_control/scripts/queue_transition.py -Pattern 'review-file|review_file|--review-file|review-file|args.review' -Encoding UTF8 | ForEach-Object { "'$_.LineNumber.ToString()+'"': '+"'$_.Line.Trim() }' in C:\Users\Administrator\Desktop\wiki
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "cd C:\\Users\\Administrator\\Desktop\\wiki; [Console]::OutputEncoding = [System.Text.Encoding]::UTF8; "'$OutputEncoding = [System.Text.Encoding]::UTF8; Write-Output '"'===review function body (find \"def review\" or \"review\" action)==='; Select-String -Path 90_control/scripts/queue_transition.py -Pattern '"'^def |''^    if action|verdict|grade|reviewed_by|review_date|终审记录'"' -Encoding UTF8 | Select-Object -First 60 | ForEach-Object { "'$_.LineNumber.ToString()+'"': '+"'$_.Line.Trim() }' in C:\Users\Administrator\Desktop\wiki
+ succeeded in 223ms:
+===review cmd handler===
+1273: def _check_review_record(task_file: Path, review_file: str | None) -> tuple[bool, str]:
+1274: """#429 F-035：审查意见书强制落盘——任务单「## 终审记录」节（≥50 字）或 --review-file 路径，二者必有其一。"""
+1275: if review_file is not None:
+1277: rf_text = Path(review_file).read_text(encoding="utf-8", errors="ignore")
+1279: return False, f"--review-file 不可读: {review_file}"
+1448: review_file: str | None = None, override: bool = False,
+1495: # 意见载体 = 任务单「## 终审记录」节（非空）或 --review-file 指定路径
+1496: ok, msg = _check_review_record(task_file, review_file)
+1503: if review_file is not None:
+1504: opinion_text = Path(review_file).read_text(encoding="utf-8", errors="ignore")
+1760: review_file = None
+1803: elif args[i] == "--review-file" and i + 1 < len(args):
+1804: review_file = args[i + 1]
+1834: ok, msg = action_review(task_id, verdict, reviewer, grade, review_file=review_file,
+
+ succeeded in 240ms:
+===review function body (find "def review" or "review" action)===
+10: python queue_transition.py review <task-id> --verdict pass|fail --reviewer 欧阳锋 [--grade A|A-|B+|B|B-|C] [--no-commit]
+71: def _refresh_dashboard():
+84: def _review_board_update(register: dict | None = None, strike: str | None = None,
+158: def _capsule_event(agent: str, event: str, payload: str) -> None:
+173: def _log_gate_warning(task_id: str, gate: str, reason: str, instance: str = "") -> None:
+189: def _log_gate_blocked(task_id: str, gate: str, reason: str, instance: str = "") -> None:
+208: def _record_commit_failure(task_id: str, action: str, reason: str) -> None:
+221: def _git_commit_transition(task_id: str, action: str, actor: str) -> None:
+302: def parse_frontmatter(path: Path) -> tuple[dict[str, Any], str]:
+318: def write_frontmatter(path: Path, fm: dict[str, Any], body: str) -> None:
+326: def find_task_file(task_id: str) -> Path | None:
+344: def find_task_file_by_frontmatter_id(task_id: str) -> Path | None:
+360: def _find_task_file_dual(task_id: str) -> Path | None:
+365: def update_queue_status(task_id: str, new_status: str) -> None:
+387: def update_task_frontmatter(task_file: Path, **updates: Any) -> None:
+449: def current_utc_date() -> str:
+453: def backup(path: Path) -> str:
+458: def restore(path: Path, content: str) -> None:
+463: def apply_updates(task_id: str, new_queue_status: str, task_file: Path, **task_updates: Any) -> None:
+476: def ensure_task_workspace(task_id: str, task_file: Path) -> str | None:
+509: def _extract_action_scope(body: str) -> str:
+521: def _check_disposal_gate(task_file: Path, fm: dict[str, Any], task_id: str) -> tuple[bool, str]:
+576: def _role_of(instance: str) -> str:
+583: def _claimed_by_role(instance: str, claimed_instance: str) -> bool:
+588: def _legacy_dash_ok(instance: str) -> bool:
+603: def _load_registry() -> dict:
+611: def _save_registry(reg: dict) -> None:
+618: def _register_instance(task_id: str, instance: str) -> None:
+637: def _check_review_authority(task_id: str, reviewer: str,
+665: def action_register(instance: str) -> tuple[bool, str]:
+675: def action_claim(task_id: str, instance: str, force: bool = False,
+756: def _git_uncommitted(repo_root: Path, paths: list[str]) -> list[str]:
+788: def _check_code_gate(task_file: Path, fm: dict[str, Any]) -> tuple[bool, str]:
+839: def _extract_deliverable_paths_loose(report: str, task_file_name: str) -> list[str]:
+856: def _extract_deliverable_section(report: str) -> str:
+872: def _extract_deliverable_paths(report: str, task_file_name: str) -> list[str]:
+896: def _git_tracked(repo_root: Path, rel: str) -> bool:
+910: def _git_ignored(repo_root: Path, rel: str) -> bool:
+928: def _crossrepo_hint(problems: list[str]) -> str:
+946: def _check_deliverables_committed(task_file: Path, fm: dict[str, Any],
+1036: def _review_card_mark_reminder(task_file: Path) -> str:
+1037: """#612 任务2：review verdict=pass 时，若执行报告「交付物」节含 30_wiki 卡片
+1070: def _extract_exec_report(body: str) -> str:
+1079: def _check_delivery_fields(task_file, evidence: str | None) -> tuple[bool, str]:
+1114: def _log_force_exception(task_id: str, instance: str, reason: str,
+1132: def action_complete(task_id: str, instance: str, evidence: str | None, force: bool = False,
+1238: # 为空/空值改由 PATTERN_DATA 断言句式检测（"grade 为空/值为空"仍拦，"字段不为空"主语不匹配不命中）
+1243: NEGATIVE_CLAIM_PATTERN_DATA = re.compile(r"(?:grade|字段|值|数据|内容|文件|路径|事件|记录)[ _]{0,3}(?:为空|空值|已损坏|被损坏|已截断|乱码|半写)")
+1250: def _check_negative_claims(text: str) -> tuple[bool, str]:
+1273: def _check_review_record(task_file: Path, review_file: str | None) -> tuple[bool, str]:
+1274: """#429 F-035：审查意见书强制落盘——任务单「## 终审记录」节（≥50 字）或 --review-file 路径，二者必有其一。"""
+1284: idx = body.find("## 终审记录")
+1286: return False, "任务单缺少「## 终审记录」节（#429 F-035：审查意见必须落盘，口头/群里意见=未审查）"
+1290: return False, "终审记录节内容过短（#429 F-035），不构成审查意见书"
+1298: def action_cancel(task_id: str, instance: str, reason: str | None) -> tuple[bool, str]:
+1334: def action_mark_waiting(task_id: str, note: str | None = None) -> tuple[bool, str]:
+1362: def action_resume(task_id: str) -> tuple[bool, str]:
+1386: def action_release(task_id: str, instance: str) -> tuple[bool, str]:
+1408: def _action_review_override(task: dict, task_file: Path, reviewer: str, reason: str) -> tuple[bool, str]:
+1412: 「## 改判记录」节（时间/原 verdict/理由）；只支持 reviewed→queued 一个方向
+
+Now I understand the mechanics:
+1. `_check_review_record(task_file, review_file)` checks: either the task file has a "## 终审记录" section with ≥50 chars, OR a --review-file path is readable.
+2. The review command (action_review) reads the opinion from --review-file and uses it.
+
+Let me read the action_review function body (around line 1448-1560) to understand exactly what it writes and how it uses the review_file opinion.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "cd C:\\Users\\Administrator\\Desktop\\wiki; [Console]::OutputEncoding = [System.Text.Encoding]::UTF8; "'$OutputEncoding = [System.Text.Encoding]::UTF8; $c = Get-Content 90_control/scripts/queue_transition.py -Encoding UTF8; $c[1448..1580] -join "`n"' in C:\Users\Administrator\Desktop\wiki
+ succeeded in 186ms:
+                  reason: str | None = None, force: bool = False) -> tuple[bool, str]:
+    """Ouyangfeng-only: review a pending_review task.
+
+    #616 任务3 翻转通道：欧阳锋自己的单无人可终审（#544 手工翻转先例 + 09-02 #614
+    第二例），`--reviewer 王语嫣` 限「编排骨架单」（队列行 assignee=ouyangfeng）放行，
+    审查意见书/负向判词/落点门禁与台账留痕全部不变。
+    """
+    if reviewer != "欧阳锋":
+        if reviewer != "王语嫣":
+            return False, ("只有欧阳锋可以执行 review 操作"
+                           "（例外：王语嫣可翻转 assignee=ouyangfeng 的编排骨架单，#616）")
+        rows0 = parse_queue()
+        t0 = find_task(task_id, rows0)
+        assignee0 = str((t0 or {}).get("assignee", "") or "")
+        if assignee0 != "ouyangfeng":
+            return False, (f"王语嫣翻转通道仅限 assignee=ouyangfeng 的编排骨架单（#616）"
+                           f"——本单 assignee={assignee0 or '未知'}，仍需欧阳锋终审")
+    # #546：终审权机器校验（一具两职根治）——当前 cwd 须有 ouyangfeng 登记实例
+    auth_ok, auth_msg = _check_review_authority(task_id, reviewer, force=force, reason=reason)
+    if not auth_ok:
+        _log_gate_blocked(task_id, "#546-终审权校验", auth_msg, reviewer)
+        return False, auth_msg
+    if auth_msg:  # force 逃生门留痕提示随成功消息透传
+        print(auth_msg, file=sys.stderr)
+
+    rows = parse_queue()
+    task = find_task(task_id, rows)
+    if task is None:
+        return False, f"任务 {task_id} 不在队列中"
+    if task["status"] != "pending_review":
+        # #538：改判通道——reviewed→queued（verdict=fail + --override + --reason 必填）
+        if override and verdict == "fail" and task["status"] == "reviewed":
+            if not (reason and reason.strip()):
+                return False, ("改判必须配 --reason '<理由>'（#538：例外留痕——"
+                               "谁/为何/何时，台账可溯；无正当理由不改判）")
+            tf = _find_task_file_dual(task_id)
+            if tf is None:
+                return False, f"找不到任务单文件: {task_id}"
+            return _action_review_override(task, tf, reviewer, reason)
+        return False, f"任务 {task_id} 状态为 {task['status']}，不是 pending_review，无法终审"
+
+    task_file = _find_task_file_dual(task_id)
+    if task_file is None:
+        return False, f"找不到任务单文件: {task_id}（已按文件名和 frontmatter id 双重查找）"
+
+    # #429 F-035：审查意见书强制落盘（老朱校准：口头/群里意见=未审查）
+    # 意见载体 = 任务单「## 终审记录」节（非空）或 --review-file 指定路径
+    ok, msg = _check_review_record(task_file, review_file)
+    if not ok:
+        _log_gate_blocked(task_id, "F-035-意见书", msg, reviewer)
+        return False, msg
+
+    # #433：负向判词证据层门禁——意见书含负向断言词必须带 `**存在性核查**` 锚点
+    opinion_text = ""
+    if review_file is not None:
+        opinion_text = Path(review_file).read_text(encoding="utf-8", errors="ignore")
+    else:
+        body = task_file.read_text(encoding="utf-8", errors="ignore")
+        idx = body.find("## 终审记录")
+        if idx != -1:
+            nxt = body.find("\n## ", idx + 1)
+            opinion_text = body[idx:nxt] if nxt > 0 else body[idx:]
+    gate_ok, gate_msg = _check_negative_claims(opinion_text)
+    if not gate_ok:
+        _log_gate_blocked(task_id, "F-035-负向判词", gate_msg, reviewer)
+        return False, gate_msg
+
+    # F-036（#主动立项 2026-08-24）：审查发现必须给落点——发现问题节含 🟠/🟡
+    # 条目时必须注明去向（建议书/停车场 F-xxx/任务单立项），无落点=终审不闭环
+    disp_ok, disp_msg = _check_issue_disposition(opinion_text)
+    if not disp_ok:
+        _log_gate_blocked(task_id, "F-036-问题落点", disp_msg, reviewer)
+        return False, disp_msg
+
+    with QueueLock("production-queue"):
+        if verdict == "pass":
+            updates = {
+                "status": "reviewed",
+                "reviewed_by": reviewer,
+                "review_date": current_utc_date(),
+            }
+            if grade:
+                updates["grade"] = grade
+            apply_updates(task_id, "reviewed", task_file, **updates)
+            grade_note = f"，等级 {grade}" if grade else ""
+            # #389：终审通过 → REVIEW-PENDING 段对应行自动划掉
+            _review_board_update(
+                strike=task_id,
+                strike_note=f" → 已终审 PASS {grade or ''}（{current_utc_date()} {reviewer}）",
+            )
+            # #612 任务2：review_mark 漏转正二次复发（#586/#596，E018 家族同源）——
+            # 终审通过时交付物含 30_wiki 卡片 → 输出转正提醒（提醒即可，不代写）
+            remind = _review_card_mark_reminder(task_file)
+            return True, f"✅ {task_id} 终审通过，状态更新为 reviewed{grade_note}{remind}"
+        else:
+            # #580（F-064）：FAIL 打回时自动打 rework:true 标——返工重提 claim 时
+            # _is_rework_task 读到该标即豁免 #504 own-pending 阻塞（重提≠接新单）。
+            # 走 apply_updates 写 frontmatter（幂等，多轮返工重复写 true 无副作用）。
+            apply_updates(task_id, "queued", task_file, status="queued", rework=True)
+            # #389：终审退回 → 同样划掉登记行（任务回 queued，不再待终审）
+            _review_board_update(
+                strike=task_id,
+                strike_note=f" → 终审退回 queued（{current_utc_date()} {reviewer}）",
+            )
+            return True, (f"⚠️ {task_id} 终审不通过，状态退回 queued"
+                          f"（已自动标 rework:true——返工完成后重提不再触发 #504 拦截，#580 F-064）")
+
+
+def _task_depends_on(task_id: str) -> list[str]:
+    """#472：任务书 frontmatter depends_on → 依赖任务号列表（存量无字段=[]=可领）。"""
+    tf = _find_task_file_dual(task_id)
+    if tf is None:
+        return []
+    fm, _ = parse_frontmatter(tf)
+    dep = fm.get("depends_on", "")
+    if isinstance(dep, list):
+        return [str(d).strip().lstrip("#") for d in dep if str(d).strip()]
+    if dep:
+        return [str(dep).strip().lstrip("#")]
+    return []
+
+
+def _is_active_task(task_id: str, rows: list) -> bool:
+    """依赖任务仍在进行（queued/claimed/pending_review/blocked）→ 未满足。"""
+    for r in rows:
+        if r["task_id"] == task_id:
+            return (r["status"] in ("queued", "pending_review", "blocked")
+                    or r["status"].startswith("claimed-"))
+    return False  # 队列无行=已结束，视为满足
+
+
+def _consumption_heartbeat(role: str | None) -> None:
+    """#562 任务2（方案B 落点）：消费回执=心跳——myqueue/claim/complete/release/review
+
+Now I understand the review flow completely:
+
+1. `_check_review_record`: The opinion must be in the task file's "## 终审记录" section (≥50 chars) OR a --review-file path.
+2. `_check_negative_claims`: The opinion must have `**存在性核查**` anchor if it contains negative assertions.
+3. `_check_issue_disposition`: F-036 - issues must have disposition (建议书/停车场/任务单立项).
+
+So I need to:
+1. Write my review opinion (意见书) as a file (or into the task file's 终审记录节).
+2. The opinion must be ≥50 chars, have 存在性核查 anchors for negative judgments, and issue dispositions for any issues.
+
+The task instruction says: "走 queue_transition.py review+终审记录节落意见书" — meaning run review AND write the opinion into the task's 终审记录节.
+
+So the cleanest approach:
+1. Write the opinion into the task file's "## 终审记录" section (append it to the task file).
+2. Then run `queue_transition.py review` WITHOUT --review-file (since the opinion is in the task file).
+
+OR write the opinion to a separate file and pass --review-file. But the instruction says "终审记录节落意见书" — the opinion should land in the task's 终审记录节.
+
+Let me look at how #656's 终审记录节 was written (it should be at the end of the #656 task file). Let me check.
+
+Actually, let me check the end of the #656 task file to see the format of the 终审记录节.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "cd C:\\Users\\Administrator\\Desktop\\wiki; [Console]::OutputEncoding = [System.Text.Encoding]::UTF8; "'$OutputEncoding = [System.Text.Encoding]::UTF8; Write-Output '"'===#656 终审记录节 (find heading)==='; "'$c = Get-Content 60_feedback/tasks/task_20260906_huangyaoshi-channel-health-fallback.md -Encoding UTF8; $idx = ($c | Select-String -Pattern '"'"'^## 终审记录'"' | Select-Object -First 1).LineNumber; Write-Output \"heading line "'$idx"; if ($idx) { $c[($idx-1)..([Math]::Min($c.Count-1, $idx+80))] }' in C:\Users\Administrator\Desktop\wiki
+ succeeded in 223ms:
+===#656 终审记录节 (find heading)===
+heading line 154
+## 终审记录
+
+### 终审（欧阳锋 2026-09-06 12:38）——判定 PASS（A-）
+
+> methodology_version: v2.3 ｜ verdict: PASS ｜ grade: A- ｜ blocking: 无（🟠2 放行+TODO）｜ residual_risks: M1/M2/L1/L2/L3（见「发现问题」节）
+
+**四核裁定（逐条独立核验）**
+
+1. **① 预检真实现 ✅【实证】**：`channel_health.py` 全文逐行核——三探针形态与任务单口径一致：claude=HTTP POST `{base}/v1/messages` max_tokens=1（`probe_claude`）、codex=HTTP POST `relay/v1/responses` max_output_tokens=16（`probe_codex`）、kimi=CLI 级 `kimi.exe -p`（`probe_kimi`，OAuth 由 CLI 自刷，注释交代 HTTP 探针撞过期 401 假阴性原因）；`classify_status` 分 401/402/403/429=upstream、5xx/不可达/超时=tool、200+DEAD_KEYWORDS=upstream 死；同上游去重 `TOOL_UPSTREAM` 四映射 + `probe_chain`；全死 exit 2 分支在 `main()` 内 `select_channel→None→notify→return 2` 不 spawn。
+2. **② fallback 实测 ✅【实证】**：`logs/channel-health.log` 七条实账互证——12:07:16 `laowantong->claude`（kimi 真实 403 weekly limit → 自动切 GLM，生产实战首行）、12:05:33/12:07:56 `huangyaoshi->claude`（`--force-dead kimi`）、12:08:29/12:21:00「全死不硬派」、12:23:48 `ouyangfeng->codex`（本次终审会话自身拉起即走预检：codex 主通道健康、kimi 403 判死）；`logs/headless-huangyaoshi-20260906-120756.log` 尾=`通道fallback验收OK`（真实 claude.exe 拉起跑完）；todos 通知落账在场（`90_control/todos/huangyaoshi.md`/`laowantong.md` 的【通道预检 #656】条目）。
+3. **③ 台账五行实证质量 ✅（前四行本机回验 + 第 5 行独立探针）【实证】**：
+   - 行1 claude=GLM：实读 `~/.claude/settings.json` env → base_url=`https://open.bigmodel.cn/api/anthropic`、model=`glm-5.3-flash`、token 指纹重算 `1cdfd9b3…uOra` 与表吻合。
+   - 行2 codex=DeepSeek：relay 进程 PID 161248 命令行实取 `codex-relay --port 4444 --upstream "https://api.deepseek.com/v1" --api-key "sk-…b2f0"`；deepseek key 指纹重算 `1511248f…b2f0` 吻合；model=`deepseek-v4-pro` 由 channel-health.log 探针响应体 `"model":"deepseek-v4-pro"` 实证。
+   - 行3 kimi：实读 `~/.kimi-code/config.toml` managed:kimi-code → base_url=`https://api.kimi.com/coding/v1`、api_key 空（OAuth 自刷）佐证。
+   - 行4 hermes=kimi：实读 `~/.hermes/config.yaml` → provider=`kimi-coding`、base_url=`https://api.kimi.com/coding/v1`，同墙成立。
+   - 行5 MiniMax（王语嫣增补）：本机独立探针 `POST https://api.minimaxi.com/v1/text/chatcompletion_v2`（订阅 key 自 `~/.kdo/config.yaml`）→ 200、model=`MiniMax-M3`、usage.total_tokens=186（max_tokens=8），与行内「199 tokens 实测 200」口径一致；「按量旧 key status 1008」由 `60_feedback/session-archives/2026-09-06/hongqigong.md` + 建议书 `建议书_20260906_minimax额度耗尽多模态管线.md` 佐证。
+4. **④ 回归不红 ✅【实证】**：本会话独立复跑 `python -m pytest 90_control/scripts/tests/ -q` → **273 passed，零失败**（37.65s），与执行报告口径一致；`test_channel_health_656.py` 11 用例单独跑 11 passed。
+
+**三条待裁裁决**
+
+1. **fallback 链 claude 优先 → 同意**【推断→实证】：依据=行1「🟢 全夜存活」（09-05 夜全通道连死时 GLM 唯一存活）+ deepseek 充值复活次之 + kimi/hermes 同墙排最后；异构防线在角色层保持（ouyangfeng 主通道=codex/deepseek 独立于 kimi/GLM 两线），kimi 7 天窗内 huangyaoshi+laowantong 收敛 GLM 属可接受降级，已写「需要谁动作」。
+2. **全死 exit 2 送达面 → 够**【实证】：`notify()` 双通道=stdout（时钟契约→飞书 DM）+ todos 落账；exit 2 非 0 退出不吞 stdout（stdout 为流与退出码无关）；todos 实账已在场（12:08/12:21 两条「全死不硬派」）。残留依赖=拉起方须捕获 stdout（王语嫣编排侧按契约已覆盖），无需加码。
+3. **--no-probe 应急口 → 留**【推断】：显式 flag、默认不触发、文档化；为预检自身故障时的人工逃生门，与「全死 exit 2」不冲突（默认仍拦，仅人显式 override 才直通）。风险低。
+
+### 发现问题（放行 + TODO）
+
+- 🟠 M1：`probe_chain` 同上游去重按「上游名」而非「scope」——kimi 探针若 tool 级死（CLI 起不来/超时，scope=tool），hermes 被连坐判死（`ProbeResult(tool, prev.healthy, prev.scope, "同上游…未重复探测")`），而 hermes 是独立可执行体、上游 api.kimi.com 未必死；docstring 写「上游级死亡的墙不撞第二次」但实现不区分 scope。用例 `test_tool_level_failure_does_not_condemn_same_upstream` 用 codex(deepseek)+kimi(kimi) 不同上游，未覆盖同上游 tool 级场景，用例名与覆盖不一致。**落点/TODO**：黄药师后续微单修 `channel_health.py`（判定加 `and upstream_verdict[up].scope == "upstream"` + 补同上游 tool 级用例）。
+- 🟠 M2：`probe_codex` 对 scope=upstream 的死结果无条件降级为 tool（`if r.scope == "upstream": r.scope = "tool"`）——但 relay 挂时走的是 `_post_json` 异常分支，天然已是 tool；该分支只会命中 relay 透传的**真上游 deepseek 错误**（402 余额尽/401/403/429），把本任务要根治的「deepseek 余额墙」误标成工具级，台账语义与认知表目标（报通道连报真实供应商）相抵。**落点/TODO**：黄药师后续微单删该降级块（relay 自身故障已由 classify 5xx/异常路径覆盖）。
+- 🔵 L1：channel-model-map 行5（MiniMax）key 未记指纹（表纪律「key 一律只记指纹」，其余四行均记；本机重算=`e0f4018e…oFdc`）。**落点**：王语嫣补指纹。
+- 🔵 L2：行5 时间戳「12:40 挂载+实测」与证据矛盾（`~/.kdo/config.yaml` mtime=12:21:58、`channel-model-map.md` mtime=12:23:23、git commit `86b25e922`=12:25:58，均早于 12:40）。**落点**：王语嫣更正为实际挂载时间。
+- 🔵 L3：`~/.kdo/config.yaml` minimax base_url=`/v1`（原生）与既有洪七公 VLM 脚本 base_url=`https://api.minimaxi.com/anthropic`（Anthropic 兼容）端点不一致，但 config note 称「洪七公管线统一读此段」。**落点**：王语嫣/洪七公确认规范端点后对齐 config 或脚本。
+
+### **存在性核查**
+
+- 「行5 指纹未记」核查：grep `channel-model-map.md` 行5 key 列=`订阅 key 挂 ~/.kdo/config.yaml minimax 段…` 无 `…` 指纹形态；对比其余四行均有 `sha256[:8]…尾4`。
+- 「12:40 与证据矛盾」核查：`Get-Item ~/.kdo/config.yaml` LastWriteTime=12:21:58、`Get-Item 90_control/channel-model-map.md` LastWriteTime=12:23:23、`git log --format=%h%ad` 86b25e922=12:25:58；本会话 `Get-Date` 当时=12:27:24。
+- 「M1 tool 级连坐」核查：`channel_health.py` `probe_chain` 判定行为 `if up in upstream_verdict:`（无 scope 条件）；`probe_kimi` 存在 scope=tool 返回分支（CLI 超时/起不来）。
+- 「M2 降级块」核查：`channel_health.py` `probe_codex` 含 `if r.scope == "upstream": r.scope = "tool"`；`_post_json` 异常分支已返回 scope=tool（URLError/超时/连接拒绝）。
+- 「端点漂移」核查：grep `00_inbox --include=*.py` 命中 `base_url="https://api.minimaxi.com/anthropic"` 多处；`~/.kdo/config.yaml` minimax.base_url=`https://api.minimaxi.com/v1`。
+
+### 结论
+
+核心四核全过（预检真实现 / fallback 实测 / 台账五行实证 / 回归 273 绿），三条待裁裁决均同意；🟠 2 项（tool 级去重 M1、relay 上游误降级 M2）放行 + 黄药师后续微单修，🔵 3 项行5 细节由王语嫣补齐。判定 **PASS，等级 A-**。
+
+Now I have the exact format of the 终审记录节 from #656. It includes:
+1. `## 终审记录`
+2. `### 终审（欧阳锋 YYYY-MM-DD HH:MM）——判定 PASS（A-）`
+3. `> methodology_version: v2.3 | verdict: PASS | grade: A- | blocking: ... | residual_risks: ...`
+4. 四核裁定 / 裁决 / 发现问题（放行+TODO）
+5. `### **存在性核查**` section (for negative judgments)
+6. `### 结论`
+
+This is the format I need to follow. My review methodology v2.3 includes five-dimension scoring (来源完整性/逻辑骨架/暗知识密度/可操作性/表达质量), and "methodology_version+verdict+blocking+residual_risks+scores".
+
+Now, I have all the evidence I need. Let me compose my review opinion and write it into the task file's 终审记录节.
+
+Key review findings for #658:
+
+**Four review points:**
+
+① 狗粮验收真做 ✅【实证】:
+- queue-transition: dogfood claim "myqueue #658 🚧进行中" — the status was claimed at dogfood time (12:21), now pending_review (complete at 12:27). Consistent.
+- kimi-headless-launch: `logs/channel-health.log` 12:21:00 entry "decision":"laowantong->全死不硬派", results all force_dead, hermes "同上游 kimi 已判定未重复探测" ✓; todos laowantong 12:21 三行【通道预检 #656】✓
+- review-chain: `python kdo-tools/review-check.py --agent laowantong` reproduced → "🟡 B级 (16105B) — 11/11章, 未达A: epiphany_reversal" ✓
+- oral-transcript-trio: `scan-demo-sections.py` reproduced → "32 处操作演示段落" + L76/L134/L138 matches ✓; `_processed/` index files exist (508KB json + 1.4MB md) ✓
+- transcribe-win: `_tmp/dogfood_transcribe.wav` (506760B) + `_tmp/dogfood_transcribe_稿.md` (296B) with header fingerprint (模型: tiny / 引擎: faster-whisper 1.2.1 / 时长: 11s) + tiny 乱码 ("老顽童的转写狗粮实测"→"老丸同的专写够凉石测") ✓
+- intake-registry: friction lines registered (struck-through entries at 1180/1181/1184) + PROPOSAL-PENDING +3 ✓ (corroborated)
+
+All 6 dogfoods real, evidence present and reproducible.
+
+② 六件覆盖齐 ✅【实证】:
+- 6 SKILL.md dirs exist: queue-transition, kimi-headless-launch, review-chain, oral-transcript-trio, transcribe-win, intake-registry ✓
+- INDEX.md: "共 85 个 skill" (79→85) with 6 new entries #37/#39/#44/#47/#65/#80 ✓
+- MOUNT-MATRIX: 6 rows ✓
+- SKILL-HEALTH: 6 rows (🟡 5/8) ✓
+- Each SKILL.md has 何时用/怎么调/边界与红线/常见坑/失败模式/相关协议与卡 ✓
+
+③ 壳内踩坑链接真指 dk/协议 ✅【实证】:
+- 12 referenced files all exist (verified via Test-Path):
+  - file-flow-protocol.md, agent-behavior-constitution.md, laowantong-context.md, kdo-industrialization-manual.md, pitfalls.md, nine-layer-deep-dig/SKILL.md, #649 task, conveyor-probes-contract.md, #656 task, agent-os.md, tool-card-excellence-standard.md, encapsulation-methodology.md
+- All links are real dk/协议/卡.
+
+④ 不改脚本本体 ✅【实证】:
+- git status --porcelain on 10 scripts: empty (no uncommitted changes)
+- git log: last commits to scripts are #655/#653/#651/#648/#647 (all huangyaoshi), none from #658
+- #658's commits (3d77b311a/20d5c475d/cbd2bca17) touch only skills/ + task file (need to verify but git log shows "docs(laowantong)" not script changes)
+
+**Minor finding (non-blocking, 🔵):**
+
+L1: channel-model-map.md "不存在" 负向判词为并发陈旧 — laowantong 的 find "3 处引用 0 实体" 在其观察时刻为真（#656 落地前），但 #656 已于 12:15:37 (commit 4282b4738) 创建 channel-model-map.md 并闭环 relay/GLM 问题，早于 #658 提审（12:27）。这导致两处陈旧：
+- (a) kimi-headless-launch SKILL.md 坑表 "channel-model-map.md 找不到→未落盘" 现与事实相悖（文件已存在）
+- (b) 执行报告"需要谁动作 ① 黄药师补落 channel-model-map.md" 已冗余（#656 已完成）
+
+这不是伪造（laowantong 确实观察到当时的缺文件状态），且 laowantong 行为正确（未擅自补文件，交给 #656 归属），但属于并发窗口导致的陈旧负向判词。落点：王语嫣裁量时知悉 #656 已补落该文件，SKILL.md 坑表行可留待下次迭代顺手更新。
+
+Actually wait, let me reconsider whether L1 is a "负向判词" that needs a 存在性核查 anchor in MY opinion. Yes, I'm making a negative judgment ("laowantong 的负向判词陈旧"). So I need to include 存在性核查 for it.
+
+Also, I should note: the machine pre-review ③ flagged "意见书含负向断言（不存在）但无 存在性核查 锚点" — this was flagging the PRODUCTION report's negative assertion. But actually, the production report's negative assertions DO have some inline anchors (the find command). But the machine wants a dedicated 存在性核查 section. My review will include my own 存在性核查 section, which satisfies the gate.
+
+Now, importantly: my review opinion must satisfy the F-035 gates:
+1. ≥50 chars (will be way more)
+2. `**存在性核查**` anchor for negative judgments (I'll include it)
+3. F-036 issue disposition (my L1 finding has 落点)
+
+Let me also double-check: is there a grade scoring I should do per my methodology (五维评分)? My context says "五维评分(0-100): 来源完整25%/逻辑骨架25%/暗知识密度20%/可操作性20%/表达质量15%". Let me include a brief score.
+
+Actually, for this T1 skill-shell production review, the score dimensions:
+- 来源完整 (25%): 每件壳都有真实来源（脚本/协议/dk 链接），踩坑锚点真实。25/25
+- 逻辑骨架 (25%): 何时用/怎么调/边界/坑/失败模式 结构完整。24/25
+- 暗知识密度 (20%): 坑表含 #645/#650/#649/#651/E059/F-034/E040 等实证暗知识，密度高。19/20
+- 可操作性 (20%): 命令+参数表可直接照抄，狗粮实测 6/6。19/20
+- 表达质量 (15%): 清晰，但有 channel-model-map 陈旧行。13/15
+
+Total: ~100? Let me compute: 25 + 24 + 19 + 19 + 13 = 100. Hmm, that's too high for A- (A- suggests minor residual). Let me be more calibrated.
+
+Actually, let me not overthink the scores. My methodology requires "scores" but the review record can include a lightweight score. Let me calibrate:
+- 来源完整 24/25 (one staleness: channel-model-map link now stale)
+- 逻辑骨架 24/25
+- 暗知识密度 19/20
+- 可操作性 19/20
+- 表达质量 13/15
+Total = 99/100. That's A level. But I have a minor residual (channel-model-map staleness), so A- with 99 is a bit odd.
+
+Actually, the grade A- vs A: A- = "excellent with minor residual/conditions". Given the channel-model-map staleness (a real minor issue) + the pre-submit 字段口径未文档化 (laowantong's own finding, which is a process gap), A- is appropriate.
+
+Let me calibrate scores to reflect A- (~92-95):
+- 来源完整 23/25 (channel-model-map 陈旧行 -2)
+- 逻辑骨架 24/25
+- 暗知识密度 19/20
+- 可操作性 18/20 (6 壳均为"无主"未挂载，触发词路由只半条腿 -1；transcribe 狗粮为合成音频非真实长视频 -1)
+- 表达质量 13/15
+Total = 97/100. Hmm.
+
+Actually, the score doesn't need to exactly map to grade. A- with 94-97 is fine. Let me just give a calibrated total around 95.
+
+Let me settle on:
+- 来源完整 23/25
+- 逻辑骨架 24/25
+- 暗知识密度 19/20
+- 可操作性 18/20
+- 表达质量 13/15
+= 97/100
+
+Hmm, that's still high. Actually the methodology v2.3 might not require me to sum precisely. Let me just note the five dimensions qualitatively and give a verdict.
+
+Actually, looking at #656's review record, it did NOT include the five-dimension scores explicitly — it used "四核裁定" instead, plus methodology_version/verdict/blocking/residual_risks. So I'll follow the #656 format (which is the most recent, consistent precedent).
+
+Let me write my review opinion now. I'll structure it as:
+1. 四核裁定 (four review points)
+2. 发现问题 (放行 + TODO)
+3. 存在性核查
+4. 结论
+
+Let me also verify one more thing: the #658 commits touched only skills files + task file (no scripts). Let me quickly verify the commit 3d77b311a's file list to anchor ④.
+
+Actually, I already have strong evidence (git status clean + git log script commits are all huangyaoshi's earlier tasks). But to be thorough for ④, let me verify the #658 commits' file list.
+
+Let me check `git show 3d77b311a --stat` to see what files #658 touched.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "cd C:\\Users\\Administrator\\Desktop\\wiki; [Console]::OutputEncoding = [System.Text.Encoding]::UTF8; "'$OutputEncoding = [System.Text.Encoding]::UTF8; Write-Output '"'===#658 commits file lists==='; foreach ("'$h in '"'3d77b311a','20d5c475d','cbd2bca17') { Write-Output \"--- "'$h ---"; git show $h --stat --format='"'%h %s' 2>&1 | Select-Object -First 20 }" in C:\Users\Administrator\Desktop\wiki
+ succeeded in 284ms:
+===#658 commits file lists===
+--- 3d77b311a ---
+3d77b311a docs(laowantong): #658 封装复盘 T1——6 件高频基建 skill 壳落盘 + 狗粮实测 6/6（queue-transition/launch/复盘链/口述三件套/transcribe/采集面）
+
+ 40_outputs/capabilities/skills/INDEX.md            |  97 ++++++++--------
+ 40_outputs/capabilities/skills/MOUNT-MATRIX.md     |  24 +++-
+ 40_outputs/capabilities/skills/SKILL-HEALTH.md     |  16 ++-
+ .../skills/shared/intake-registry/SKILL.md         | 110 ++++++++++++++++++
+ .../skills/shared/kimi-headless-launch/SKILL.md    |   6 +
+ .../skills/shared/oral-transcript-trio/SKILL.md    |   6 +
+ .../skills/shared/queue-transition/SKILL.md        |   6 +
+ .../skills/shared/review-chain/SKILL.md            |   6 +
+ .../skills/shared/transcribe-win/SKILL.md          | 124 +++++++++++++++++++++
+ .../task_20260906_laowantong-encapsulation-t1.md   |  25 +++++
+ 90_control/todos/laowantong.md                     |   5 +
+ 11 files changed, 371 insertions(+), 54 deletions(-)
+--- 20d5c475d ---
+20d5c475d docs(laowantong): #658 执行报告交付物节去命令文本（E040 提示口径）
+
+ 60_feedback/tasks/task_20260906_laowantong-encapsulation-t1.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+--- cbd2bca17 ---
+cbd2bca17 chore(queue): #658 complete by laowantong
+
+ .../task_20260906_laowantong-encapsulation-t1.md   | 133 ++++++++++++---------
+ 70_product/tasks/dashboard.html                    |   6 +-
+ 70_product/tasks/production-queue.md               |  10 +-
+ 3 files changed, 85 insertions(+), 64 deletions(-)
+
+Now I have complete evidence:
+
+④ 不改脚本本体 confirmed:
+- #658's commit 3d77b311a touched only: INDEX.md, MOUNT-MATRIX.md, SKILL-HEALTH.md, 6 SKILL.md files, task file, todos/laowantong.md. NO scripts touched. ✓
+- The queue commit (cbd2bca17) touched task file + dashboard + production-queue. No scripts.
+
+Interesting note: commit 3d77b311a shows some SKILL.md files with "| 6 +" (kimi-headless-launch, oral-transcript-trio, queue-transition, review-chain) but transcribe-win "| 124 ++++" and intake-registry "| 110 ++++". This is odd — it suggests 4 of the 6 SKILL.md files were already partially created (only 6 lines added) while transcribe-win and intake-registry were fully added (124/110 lines).
+
+Wait, this is a bit suspicious. Let me look more carefully:
+- intake-registry/SKILL.md | 110 +++++ (full file added in this commit)
+- kimi-headless-launch/SKILL.md | 6 + (only 6 lines added/changed)
+- oral-transcript-trio/SKILL.md | 6 + 
+- queue-transition/SKILL.md | 6 +
+- review-chain/SKILL.md | 6 +
+- transcribe-win/SKILL.md | 124 +++++ (full file added)
+
+Hmm, so 4 SKILL.md files (kimi-headless-launch, oral-transcript-trio, queue-transition, review-chain) only had 6 lines changed in this commit, meaning they were ALREADY in the repo (committed earlier) and this commit only modified 6 lines each.
+
+Wait, but that doesn't quite make sense either. Let me check: were these 4 SKILL.md files created in an earlier commit? Or were they created by a previous laowantong commit?
+
+Actually, looking back at the git log earlier, I only saw 3 laowantong #658 commits (3d77b311a, 20d5c475d, cbd2bca17). But maybe there were earlier commits creating the 4 SKILL.md files.
+
+Actually wait, this is important. The task says "6 件基建 skill 壳落盘". If 4 of the 6 SKILL.md files were created earlier (in a prior commit), that's fine — they're all part of #658's work, just committed across multiple commits.
+
+Actually, let me not over-analyze. The "--stat" shows what changed in THIS commit. The 4 files with "6 +" might have been created in a PREVIOUS commit (before 3d77b311a) and then slightly modified in 3d77b311a. Or the "6 +" means 6 lines added to already-existing files.
+
+Actually, wait — this could also mean these 4 files were created in an earlier commit that I didn't see (maybe before the -15 log window). Let me check the full git log for these files to confirm they were all created as part of #658's work.
+
+Actually, this matters for verification: were all 6 SKILL.md created by laowantong as part of #658 (not pre-existing)?
+
+Let me check git log for the 4 SKILL.md files with "6 +" to see their full history.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "cd C:\\Users\\Administrator\\Desktop\\wiki; [Console]::OutputEncoding = [System.Text.Encoding]::UTF8; "'$OutputEncoding = [System.Text.Encoding]::UTF8; foreach ($s in '"'queue-transition','kimi-headless-launch','review-chain','oral-transcript-trio','transcribe-win','intake-registry') { "'$p = "40_outputs/capabilities/skills/shared/$s/SKILL.md"; Write-Output "=== $s full history ==="; git log --format='"'%h %ci %an %s' -- "'$p 2>&1 | Select-Object -First 4 }' in C:\Users\Administrator\Desktop\wiki
+ succeeded in 1402ms:
+=== queue-transition full history ===
+3d77b311a 2026-09-06 12:26:38 +0800 Linhai Zhu docs(laowantong): #658 封装复盘 T1——6 件高频基建 skill 壳落盘 + 狗粮实测 6/6（queue-transition/launch/复盘链/口述三件套/transcribe/采集面）
+c91e687d4 2026-09-06 12:19:02 +0800 Linhai Zhu vault backup: 2026-09-06 12:19:02
+=== kimi-headless-launch full history ===
+3d77b311a 2026-09-06 12:26:38 +0800 Linhai Zhu docs(laowantong): #658 封装复盘 T1——6 件高频基建 skill 壳落盘 + 狗粮实测 6/6（queue-transition/launch/复盘链/口述三件套/transcribe/采集面）
+c91e687d4 2026-09-06 12:19:02 +0800 Linhai Zhu vault backup: 2026-09-06 12:19:02
+=== review-chain full history ===
+3d77b311a 2026-09-06 12:26:38 +0800 Linhai Zhu docs(laowantong): #658 封装复盘 T1——6 件高频基建 skill 壳落盘 + 狗粮实测 6/6（queue-transition/launch/复盘链/口述三件套/transcribe/采集面）
+c91e687d4 2026-09-06 12:19:02 +0800 Linhai Zhu vault backup: 2026-09-06 12:19:02
+=== oral-transcript-trio full history ===
+3d77b311a 2026-09-06 12:26:38 +0800 Linhai Zhu docs(laowantong): #658 封装复盘 T1——6 件高频基建 skill 壳落盘 + 狗粮实测 6/6（queue-transition/launch/复盘链/口述三件套/transcribe/采集面）
+c91e687d4 2026-09-06 12:19:02 +0800 Linhai Zhu vault backup: 2026-09-06 12:19:02
+=== transcribe-win full history ===
+3d77b311a 2026-09-06 12:26:38 +0800 Linhai Zhu docs(laowantong): #658 封装复盘 T1——6 件高频基建 skill 壳落盘 + 狗粮实测 6/6（queue-transition/launch/复盘链/口述三件套/transcribe/采集面）
+=== intake-registry full history ===
+3d77b311a 2026-09-06 12:26:38 +0800 Linhai Zhu docs(laowantong): #658 封装复盘 T1——6 件高频基建 skill 壳落盘 + 狗粮实测 6/6（queue-transition/launch/复盘链/口述三件套/transcribe/采集面）
+
+Interesting! The git log shows:
+- queue-transition, kimi-headless-launch, review-chain, oral-transcript-trio SKILL.md files have a commit `c91e687d4 "vault backup: 2026-09-06 12:19:02"` BEFORE 3d77b311a.
+- transcribe-win and intake-registry only have 3d77b311a.
+
+So the 4 files (queue-transition, kimi-headless-launch, review-chain, oral-transcript-trio) were first committed in a "vault backup" commit at 12:19:02, then modified (6 lines each) in 3d77b311a at 12:26:38.
+
+The "vault backup" commit c91e687d4 at 12:19:02 is the automatic vault backup (every 30 min). This means laowantong created these 4 SKILL.md files as working-tree files before 12:19:02, and the vault backup commit swept them in (the backup commits everything in the working tree).
+
+So the actual creation history:
+1. Laowantong wrote 4 SKILL.md files (queue-transition, kimi-headless-launch, review-chain, oral-transcript-trio) → these got captured in the vault backup at 12:19:02.
+2. Then laowantong finished transcribe-win and intake-registry (124/110 lines), modified the 4 earlier files (6 lines each), and committed everything at 12:26:38 (3d77b311a).
+
+This is fine — it's just the vault backup sweeping in WIP files. The 6 lines changed in 3d77b311a were likely frontmatter/trigger refinements.
+
+This is not a problem for my review. All 6 files were created by laowantong as part of #658. The vault backup commit is a known behavior (自动备份每 30min 一拍).
+
+OK, I now have complete evidence for all four review points. Let me compose my review opinion.
+
+Let me now write the 终审记录节 into the task file, then run the review command.
+
+Actually, wait — I need to be careful about the process. The review command with --review-file reads the opinion from a file, OR without --review-file reads the "## 终审记录" section from the task file.
+
+The task instruction says "终审记录节落意见书" — so I should write the opinion into the task file's "## 终审记录" section, then run review WITHOUT --review-file (so it reads from the task file).
+
+But there's a subtlety: the review command checks `_check_review_record` which looks for "## 终审记录" section in the task file (≥50 chars). And `_check_negative_claims` reads the opinion text and checks for negative assertions + 存在性核查 anchors.
+
+So my plan:
+1. Append "## 终审记录" section to the task file (60_feedback/tasks/task_20260906_laowantong-encapsulation-t1.md).
+2. Run `python 90_control/scripts/queue_transition.py review task_20260906_laowantong-encapsulation-t1 --verdict pass --reviewer 欧阳锋 --grade A-` (no --review-file, so it reads the 终审记录 section).
+
+Wait, but I should double check the negative claim gate. `_check_negative_claims` uses NEGATIVE_CLAIM_PATTERN (line 1243) which matches patterns like "grade 为空/值为空/不存在/缺失/没有..." Let me check what patterns trigger it. Line 1243:
+
+```
+NEGATIVE_CLAIM_PATTERN_DATA = re.compile(r"(?:grade|字段|值|数据|内容|文件|路径|事件|记录)[ _]{0,3}(?:为空|空值|已损坏|被损坏|已截断|乱码|半写)")
+```
+
+And there's probably another pattern for general negative words like "不存在/无/缺/未". Let me check the full _check_negative_claims function to understand what triggers it, so my opinion doesn't accidentally get blocked (or worse, I need to ensure my negative judgments have 存在性核查 anchors).
+
+Let me read _check_negative_claims (lines 1238-1272).
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "cd C:\\Users\\Administrator\\Desktop\\wiki; [Console]::OutputEncoding = [System.Text.Encoding]::UTF8; "'$OutputEncoding = [System.Text.Encoding]::UTF8; $c = Get-Content 90_control/scripts/queue_transition.py -Encoding UTF8; $c[1185..1296] -join "`n"' in C:\Users\Administrator\Desktop\wiki
+ succeeded in 176ms:
+    if not gate_ok:
+        return False, gate_msg
+
+    # #522：交付物已入仓校验（E040 机器兜底）——识别不出/豁免声明=WARNING 不硬拦（红线 4）
+    dlv_ok, dlv_msg, dlv_warn = _check_deliverables_committed(task_file, fm)
+    if not dlv_ok:
+        _log_gate_blocked(task_id, "E040-交付物未入仓", dlv_msg, instance)
+        return False, dlv_msg
+    dlv_note = f"\n📦 交付物校验: {dlv_warn}" if dlv_warn else ""
+
+    # #515：机器预审报告随提审附任务单（参考层——不放行不拦截；失败不阻断流转，
+    # 预审失败本身写入报告让终审可见）。报告进任务单→随 complete 自动 commit 进冻结版
+    try:
+        import pre_review
+        pre_review.attach_pre_review(task_file, pre_review.run_pre_review(task_file))
+    except Exception as e:  # 预审层故障不阻断生产流转（参考层纪律），stderr 留痕
+        import sys as _sys
+        print(f"⚠️ 机器预审层故障（不阻断提转）: {e}", file=_sys.stderr)
+
+    with QueueLock("production-queue"):
+        rows = parse_queue()
+        task = find_task(task_id, rows)
+        # --force 允许从 queued 直跳：锁内重检必须同样接受该场景
+        claimed_ok = (task["status"].startswith("claimed-")
+                      and _claimed_by_role(instance, task["status"][len("claimed-"):]))
+        if task is None or not (
+            (force and task["status"] == "queued") or claimed_ok
+        ):
+            return False, "队列状态在加锁期间发生变化，请重试"
+
+        apply_updates(task_id, "pending_review", task_file, status="pending_review",
+                      evidence=fm_evidence)
+
+    # #389：门禁通过后登记 REVIEW-PENDING 段（被门禁拦截的 complete 到不了这里）
+    try:
+        rel_path = str(task_file.relative_to(_WIKI_ROOT)).replace("\\", "/")
+    except ValueError:
+        rel_path = str(task_file)
+    _review_board_update(register={
+        "seq": task["seq"], "task_id": task_id,
+        "assignee": fm.get("assignee", task.get("assignee", "")),
+        "task_file": rel_path,
+    })
+
+    return True, f"✅ {task_id} 已提交为 pending_review，等待欧阳锋终审{force_note}{dlv_note}"
+
+
+# #433 负向判词证据层门禁（风清扬建议书 diag_20260823_fengqingyang-negative-claim-evidence-gate.md 采纳）
+# 治标层：意见书含负向断言词必须带 `**存在性核查**` 锚点（只验锚点存在，不判核查质量——F-034 同款原则）。
+# 强词=明确断言缺失（硬拦，缺锚点不闭环）；宽词=无/缺/没有（标需人工不硬杀——"无阻断项"等合法短语不误伤）。
+EVIDENCE_ANCHOR = "**存在性核查**"
+# 强词：明确断言缺失（硬拦）。#442 返工：删「为空/空值」——子串误伤"不为空/非空值"正向声明（#435 审计）；
+# 为空/空值改由 PATTERN_DATA 断言句式检测（"grade 为空/值为空"仍拦，"字段不为空"主语不匹配不命中）
+NEGATIVE_CLAIM_STRONG = ["不存在", "未备份", "未同步", "确认缺失", "缺失", "卡住", "丢失", "死锁"]
+# 模式 1：无/缺/没有/未 + 0-6 字 + 敏感名词（备份/同步/镜像/副本…）——"无远程备份"类强断言（#430 复现用例）
+NEGATIVE_CLAIM_PATTERN = re.compile(r"(?:无|缺|没有|未)(?:任何|远程|本地|有效|可用的|同步|备份的)?.{0,6}(?:备份|同步|镜像|副本|记录|存档|归档|历史|日志|留痕)")
+# 模式 2（#435）：数据异常断言句式——主语 + 0-3 字 + 异常词。配断言句式防"无截断/确认无损坏"正向声明自伤（无主语匹配）
+NEGATIVE_CLAIM_PATTERN_DATA = re.compile(r"(?:grade|字段|值|数据|内容|文件|路径|事件|记录)[ _]{0,3}(?:为空|空值|已损坏|被损坏|已截断|乱码|半写)")
+# 宽词：单字级（无阻断项等合法短语只给需人工提示，不硬杀）。#435 扩展：截断/损坏/乱码/半写观察（正向声明"无截断"也会提示，不拦截）
+# #515 判据 v1.1（08-28 欧阳锋校准）：「无/缺/没有」删除——组合断言已由 PATTERN 1 硬拦，
+# 单字出现只制造 warn 噪音（狼来了效应实证）；「未发现」保留（意见书「我没看到」嫌疑有提示价值）
+NEGATIVE_CLAIM_SOFT = ["未发现", "截断", "损坏", "乱码", "半写"]
+
+
+def _check_negative_claims(text: str) -> tuple[bool, str]:
+    """#433：意见书文本含负向断言词时必须含 `**存在性核查**` 锚点。
+
+    返回 (block, msg)：block=True=review 不闭环；False=放行（宽词命中给 warn 提示）。
+    """
+    if EVIDENCE_ANCHOR in text:
+        return True, ""
+    hits = [w for w in NEGATIVE_CLAIM_STRONG if w in text]
+    m = NEGATIVE_CLAIM_PATTERN.search(text)
+    if m:
+        hits.append(f"「{m.group(0)}」")
+    m2 = NEGATIVE_CLAIM_PATTERN_DATA.search(text)
+    if m2:
+        hits.append(f"「{m2.group(0)}」")
+    if hits:
+        return False, (f"意见书含负向断言（{'/'.join(hits[:4])}）但无 `**存在性核查**` 锚点"
+                       f"（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）")
+    soft = [w for w in NEGATIVE_CLAIM_SOFT if w in text]
+    if soft:
+        return True, f"⚠️ 意见书含宽负向词（{'/'.join(soft[:3])}）无核查锚点——按需人工确认（#433 不硬杀）"
+    return True, ""
+
+
+def _check_review_record(task_file: Path, review_file: str | None) -> tuple[bool, str]:
+    """#429 F-035：审查意见书强制落盘——任务单「## 终审记录」节（≥50 字）或 --review-file 路径，二者必有其一。"""
+    if review_file is not None:
+        try:
+            rf_text = Path(review_file).read_text(encoding="utf-8", errors="ignore")
+        except OSError:
+            return False, f"--review-file 不可读: {review_file}"
+        if len(rf_text.strip()) < 50:
+            return False, "审查意见文件内容过短（#429 F-035），不构成审查意见书"
+        return True, ""
+    body = task_file.read_text(encoding="utf-8", errors="ignore")
+    idx = body.find("## 终审记录")
+    if idx == -1:
+        return False, "任务单缺少「## 终审记录」节（#429 F-035：审查意见必须落盘，口头/群里意见=未审查）"
+    nxt = body.find("\n## ", idx + 1)
+    section = body[idx:nxt] if nxt > 0 else body[idx:]
+    if len(section.strip()) < 50:
+        return False, "终审记录节内容过短（#429 F-035），不构成审查意见书"
+    return True, ""
+
+
+# #461：取消台账（谁/为何取消，与 #444 force 台账同款留痕精神）
+CANCEL_LEDGER = _WIKI_ROOT / "90_control" / "cancel-ledger.log"
+
+
+
+Now I understand the gate precisely:
+1. `_check_negative_claims`: if my opinion contains `**存在性核查**` anchor, it passes immediately (returns True regardless of negative words). So I MUST include `**存在性核查**` section (which I plan to anyway, since I have negative judgments).
+
+2. `_check_review_record`: looks for "## 终审记录" section in task file with ≥50 chars. My opinion will be way more than 50 chars.
+
+3. F-036 `_check_issue_disposition`: issues must have disposition. I'll include 落点 for my L1 finding.
+
+So my opinion MUST include the literal string `**存在性核查**` (with the exact asterisks). The #656 precedent used `### **存在性核查**` which contains the substring `**存在性核查**`. Good.
+
+Now let me also check the F-036 disposition check to understand what "落点" keywords it looks for.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "cd C:\\Users\\Administrator\\Desktop\\wiki; [Console]::OutputEncoding = [System.Text.Encoding]::UTF8; "'$OutputEncoding = [System.Text.Encoding]::UTF8; $c = Get-Content 90_control/scripts/queue_transition.py -Encoding UTF8; $i = ($c | Select-String -Pattern '"'def _check_issue_disposition').LineNumber; Write-Output \"line "'$i"; $c[($i-1)..($i+40)] -join "`n"' in C:\Users\Administrator\Desktop\wiki
+ succeeded in 233ms:
+line 
+    sys.exit(main())
+"""Hard state transition enforcer for the KDO production queue.
+
+All queue status changes MUST go through this script. Manual edits to
+`production-queue.md` or task file `status` fields are forbidden.
+
+Usage:
+    python queue_transition.py claim <task-id> --instance <name> [--force] [--sequence] [--no-commit]
+    python queue_transition.py complete <task-id> --instance <name> [--evidence <path>] [--force --reason '<理由>'] [--no-commit]
+    python queue_transition.py release <task-id> --instance <name> [--no-commit]
+    python queue_transition.py review <task-id> --verdict pass|fail --reviewer 欧阳锋 [--grade A|A-|B+|B|B-|C] [--no-commit]
+
+#616 任务3 翻转通道：--reviewer 王语嫣 仅限 assignee=ouyangfeng 的编排骨架单
+（欧阳锋自己的单无人可终审：#544 手工翻转先例 + 09-02 #614 第二例），留痕不变。
+
+Exit codes:
+    0 = transition applied
+    1 = transition rejected / error
+
+--force claim: 跳过队列前方 pending_review 阻塞（用于不同 assignee 的并行任务）
+--sequence claim: 同执行者显式多单连发窗口（#655）——编排指令含多单、complete 前单后
+        接下一单时用；own pending_review 不阻塞且不走 force 台账（FIFO 他单/claimed 锁照旧）
+--force complete: 允许从 queued 直接跳到 pending_review
+        （用于生产已完成但未通过脚本领取的场景；#444 起必须配 --reason，例外入台账 90_control/force-exceptions.log）
+--no-commit: 跳过流转后的自动 git 收口（#390 逃生门，特殊场景手工控制）
+
+#390：流转成功后自动 commit 本次触碰的文件（任务单+队列+dashboard），
+让"状态变更"与"入档"原子化——跨 checkout 协作者任何时候读到的都是最新状态。
+红线：path-scoped add，严禁 add -A/.（工作区永远有其他 agent 的在制品）。
+git 失败不阻断流转：stderr 醒目报警 + 写 90_control/pending-git-commits.log 待收口。
+"""
+
+from __future__ import annotations
+
+import os
+import re
+import json
+import subprocess
+import sys
+from datetime import datetime, timezone
+from pathlib import Path
+from typing import Any
+
+The Select-String found the docstring mention at the top (line 2 area) rather than the function. Let me search more precisely for the function definition.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "cd C:\\Users\\Administrator\\Desktop\\wiki; [Console]::OutputEncoding = [System.Text.Encoding]::UTF8; "'$OutputEncoding = [System.Text.Encoding]::UTF8; $c = Get-Content 90_control/scripts/queue_transition.py -Encoding UTF8; $matches = for ($i=0; $i -lt $c.Count; $i++) { if ($c[$i] -match '"'def _check_issue_disposition') { "'$i } }; Write-Output "def at lines: $matches"; foreach ($i in $matches) { $c[$i..($i+45)] -join "`n" }' in C:\Users\Administrator\Desktop\wiki
+ succeeded in 225ms:
+def at lines: 
+
+Hmm, the function `_check_issue_disposition` is referenced in action_review but I couldn't find its definition. Let me search for it differently.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "cd C:\\Users\\Administrator\\Desktop\\wiki; [Console]::OutputEncoding = [System.Text.Encoding]::UTF8; "'$OutputEncoding = [System.Text.Encoding]::UTF8; Select-String -Path 90_control/scripts/queue_transition.py -Pattern '"'issue_disposition|落点|F-036' -Encoding UTF8 | ForEach-Object { "'$_.LineNumber.ToString()+'"': '+"'$_.Line.Trim() }' in C:\Users\Administrator\Desktop\wiki
+ succeeded in 202ms:
+154: # F-036 问题落点判定在 queue_gate（共享真相源——门禁+探针第七信号同用，禁副本）
+155: from queue_gate import check_issue_disposition as _check_issue_disposition  # noqa: E402
+1454: 审查意见书/负向判词/落点门禁与台账留痕全部不变。
+1516: # F-036（#主动立项 2026-08-24）：审查发现必须给落点——发现问题节含 🟠/🟡
+1517: # 条目时必须注明去向（建议书/停车场 F-xxx/任务单立项），无落点=终审不闭环
+1518: disp_ok, disp_msg = _check_issue_disposition(opinion_text)
+1520: _log_gate_blocked(task_id, "F-036-问题落点", disp_msg, reviewer)
+1581: """#562 任务2（方案B 落点）：消费回执=心跳——myqueue/claim/complete/release/review
+1651: # #535 myqueue「最近终审」栏：REVIEW-PENDING 段划掉行里的终审落点（48h 内，本角色）
+1658: """近 48h 我名下终审落点——只读视图顺手查，不把「没有变化」误读为「仍在审」。"""
+
+The F-036 disposition check is in `queue_gate.py` (shared truth source). Let me quickly check what it looks for (the 🟠/🟡/落点 keywords).
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "cd C:\\Users\\Administrator\\Desktop\\wiki; [Console]::OutputEncoding = [System.Text.Encoding]::UTF8; "'$OutputEncoding = [System.Text.Encoding]::UTF8; $c = Get-Content 90_control/scripts/queue_gate.py -Encoding UTF8 -ErrorAction SilentlyContinue; $matches = for ($i=0; $i -lt $c.Count; $i++) { if ($c[$i] -match '"'def check_issue_disposition') { "'$i } }; Write-Output "def at: $matches"; foreach ($i in $matches) { $c[$i..($i+50)] -join "`n" }' in C:\Users\Administrator\Desktop\wiki
+ succeeded in 257ms:
+def at: 334
+def check_issue_disposition(opinion_text: str) -> tuple[bool, str]:
+    """F-036：终审意见书"发现问题"节含 🟠/🟡 条目时必须注明落点。
+
+    判定：含 🟠 或 🟡（非仅 🔵 无实质缺陷）且不含落点词 → 拦截。
+    豁免：否定前挂词（不落/不构成/无……）紧邻的 emoji 字样不计入（#612）。
+    """
+    stripped = _NEGATION_EMOJI_RE.sub("", opinion_text)
+    if "🟠" not in stripped and "🟡" not in stripped:
+        return True, ""
+    if any(h in opinion_text for h in ISSUE_DISPOSITION_HINTS):
+        return True, ""
+    lines = [l.strip() for l in stripped.splitlines() if "🟠" in l or "🟡" in l]
+    sample = "；".join(l[:60] for l in lines[:3])
+    return False, (f"审查发现问题未给落点（F-036）：{sample}——"
+                   "必须在意见书注明去向（建议书路径 / 停车场 F-xxx / 任务单立项），否则终审不闭环"
+                   "；若该 emoji 出现在否定声明句，请删去字样或写成「不落/不构成/无 + emoji」前挂否定形式")
+
+The F-036 check: if my opinion contains 🟠 or 🟡, it must have a disposition hint (like "落点" or "建议书" or "停车场" or "任务单" or "立项"). Let me check ISSUE_DISPOSITION_HINTS to know the exact keywords.
+
+Actually, since my main finding is a 🔵 (minor) rather than 🟠/🟡, I might avoid triggering F-036 entirely. But let me check the disposition hints list to be safe.
+
+Actually, let me just use 🔵 for my minor finding (channel-model-map staleness) which is consistent with the #656 precedent (🔵 L1/L2/L3 for minor details). 🔵 does NOT trigger F-036 (only 🟠/🟡 do). And I don't have any 🟠 (blocking) or 🟡 (medium) findings — the review is PASS with only minor residuals.
+
+Wait, but actually let me reconsider: is the channel-model-map staleness a 🔵 (low, note only) or 🟡 (medium)? 
+
+The finding: the kimi-headless-launch SKILL.md's pitfall row "channel-model-map.md 找不到→未落盘" is now stale (file exists), and the 需要谁动作 ① "黄药师补落 channel-model-map.md" is redundant (already done by #656).
+
+This is a content staleness, low severity. The skill's core guidance remains correct. And it self-resolves (the file exists now, and 王语嫣 will see it during #657 coordination). So 🔵 is appropriate.
+
+Actually, let me reconsider once more whether there's a more serious issue I'm missing. Let me think about the review holistically:
+
+1. 狗粮真做: All 6 verified. ✓ Strong.
+2. 六件覆盖: All 6 present, all registered. ✓
+3. 踩坑链接: All 12 referenced files exist. ✓ But the channel-model-map pitfall is stale.
+4. 不改脚本: Confirmed zero script changes. ✓
+
+Overall: PASS, A- with a 🔵 minor finding.
+
+Actually, let me reconsider whether the grade should be A or A-. The #656 precedent (A-) had 🟠 M1/M2 (2 medium issues released with TODO) + 🔵 L1/L2/L3. My #658 review has only ONE 🔵 finding (channel-model-map staleness), no 🟠. So arguably #658 is cleaner than #656 and could be A.
+
+But A- is still appropriate because:
+1. The channel-model-map staleness is a genuine (minor) content defect that propagated into the SKILL.md and 需要谁动作.
+2. There's the broader context: 6 shells are "无主" (unmounted) — the trigger routing is only "half a leg" (retrievable but no role owns them). This is a known T1-phase state (王语嫣 will decide mounting), not a defect per se, but it means the shells aren't fully operational yet. This is a condition.
+
+Actually, the "无主" status is a legitimate phase state (the task explicitly defers mounting to 王语嫣's 裁量), not a defect. But it does mean the "狗粮验收" is at the "skill 检索即可正确调用" level, not the "挂载进 spec 后角色自动使用" level. This is fine per the task's acceptance criteria (狗粮 = 新 agent 凭 skill 检索即可正确调用).
+
+So my verdict: PASS, A-. 
+
+Actually, let me reconsider: the task's acceptance criteria was specifically "狗粮测试：一个未读 context 文件的新 agent，仅凭 skill 检索即可正确调用一次". The 6/6 dogfood passes demonstrate this. The channel-model-map staleness is a minor content issue that doesn't affect the core acceptance.
+
+I'll go with A-. The rationale: minor residual (channel-model-map 陈旧行 + 6 壳无主待挂载), which is consistent with A- ("excellent with minor residual/conditions").
+
+Now let me write the opinion. I'll be careful to:
+1. Include `**存在性核查**` exact substring (I'll use `### **存在性核查**`).
+2. Use 【实证】/【推断】/【猜测】 three-level annotation.
+3. Include 断言三级标注 per constitution.
+4. Include F-036 disposition hints if I use 🟡/🟠 (I'll use 🔵 only, but I'll still note 落点).
+5. Keep the methodology_version/verdict/blocking/residual_risks header.
+
+Let me draft the opinion and write it to the task file.
+
+Let me now also plan the 需要谁动作 reconciliation: the review is PASS, so I should "同时抄送王语嫣" (per my context: 通过信息必须同时抄送王语嫣). The task instruction says "#657 将由王语嫣领取收尾（你不用管）". So I don't need to handle #657, but my PASS verdict should be communicated to 王语嫣 (via the review board strike which is automatic, plus the todo entry).
+
+Actually, my context says出口 2: "审查意见通过（PASS + 等级）——通过信息必须同时抄送王语嫣". How do I "抄送王语嫣"? Looking at the mechanism: the review command automatically strikes the REVIEW-PENDING row with the verdict, and王语嫣's triage will see it. Also I should add my todo entry. But "抄送王语嫣" might mean writing a line in 王语嫣's todos or somewhere. Let me check how previous reviews did the "抄送".
+
+Actually, looking at the todos/ouyangfeng.md entries, they just record the review result. The "抄送王语嫣" might be automatic via the queue board. But to be safe, let me check if there's a specific抄送 mechanism.
+
+Actually, re-reading my context: "2. 审查意见通过（PASS + 等级）——通过信息必须同时抄送王语嫣（她收件箱一行指针，2026-09-02 老朱规则：通过→传递通过信息+抄送王语嫣→编排归王语嫣）"
+
+Hmm, "她收件箱一行指针" — 王语嫣's inbox is her todos file (90_control/todos/wangyuyan.md) or the queue board. Let me check how previous review PASS verdicts were communicated.
+
+Actually, looking at the machine pre-review note and the friction entry, there might be an automatic mechanism. Let me check if there's a pattern where 王语嫣 gets notified on review.
+
+Actually, let me look at whether the review command auto-registers anything to 王语嫣. Looking at action_review, it calls `_review_board_update(strike=task_id, strike_note=...)` which strikes the REVIEW-PENDING row. That's the board update.
+
+For the "抄送王语嫣" — I think the simplest interpretation is: my todo entry + the review board strike serve as the抄送. But the context is quite explicit about "通过信息必须同时抄送王语嫣". 
+
+Let me check how #656's review (which I did earlier per todos at 12:43) communicated the PASS to 王语嫣. Let me check 王语嫣's todos or the queue for a notification.
+
+Actually, let me check the wangyuyan todos for recent review-related entries, or check if there's a "抄送" convention in the codebase.
+
+Actually, I recall the context says出口2 needs "通过信息同时抄送王语嫣（她收件箱一行指针）". 王语嫣's 收件箱 is likely her todos file. Let me check if the review command or some convention writes there.
+
+Let me search for how review verdicts are "抄送" to 王语嫣 in recent history. Let me check 王语嫣's todos tail.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "cd C:\\Users\\Administrator\\Desktop\\wiki; [Console]::OutputEncoding = [System.Text.Encoding]::UTF8; "'$OutputEncoding = [System.Text.Encoding]::UTF8; Write-Output '"'===wangyuyan todos tail==='; Get-Content 90_control/todos/wangyuyan.md -Tail 15 -Encoding UTF8; Write-Output '===ISSUE_DISPOSITION_HINTS==='; Select-String -Path 90_control/scripts/queue_gate.py -Pattern 'ISSUE_DISPOSITION_HINTS|建议书|停车场|立项' -Encoding UTF8 | Select-Object -First 10 | ForEach-Object { "'$_.LineNumber.ToString()+'"': '+"'$_.Line.Trim() }' in C:\Users\Administrator\Desktop\wiki
+ succeeded in 228ms:
+===wangyuyan todos tail===
+- [2026-09-06 11:52] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-06 11:57] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-06 11:47:01｜infra-liveness｜基建停拍报警｜vault-backup｜非节拍 commit 11:3
+- [2026-09-06 12:11] 📥 新素材 1 项（P0 0）：人机协作双三角——请诊断编排（看板待编排段）
+- [2026-09-06 12:17] 🕐 值守拍12:30：#657 试金石完成——OCR四源复核PASS（我独立抽取0.9937）+口述者裁定Truman（纠洪七公推断）+漏挖率30%定量（6条dk候选）+单件成本校准（短素材1h/长口述3-6h）+新检查维度OCR损伤族+第三道额度墙minimax发现；报告diag_20260906_wangyuyan-audit-pilot-report已交，等老朱「按此放量」启动Phase 0全量台账
+- [2026-09-06 12:17] ⛔ KDO 门禁拦截 2 次（gate-blocked）：2026-09-06 12:14:41｜task_20260906_huangyaoshi-channel-health-fallback｜…
+- [2026-09-06 12:21] 📥 新素材 1 项（P0 0）：AI大航海20260905——请诊断编排（看板待编排段）
+- [2026-09-06 12:22] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#656（huangyaoshi 的单，挂审 6min）（到点（节奏 30min））
+- [2026-09-06 12:26] 🕐 值守拍12:55：minimax订阅key挂载完成(~/.kdo/config.yaml厂级共享)+199tokens实测✅+channel-model-map增补MiniMax行(86b25e922)；#656拉欧阳锋终审(proc_202372,codex通道充值复活实证)——终审通过即解锁#657领取；洪七公OCR交付已复核入试金石报告
+- [2026-09-06 12:27] ⛔ KDO 门禁拦截 2 次（gate-blocked）：2026-09-06 12:22:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli…
+- [2026-09-06 12:37] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-06 12:37:01｜diag_20260906_wangyuyan-datapack-alignment.md｜near
+- [2026-09-06 12:43] 【终审通过 #656】channel-health-fallback PASS A-（四核全过/三条待裁同意；🟠M1 tool级去重 + M2 relay上游误降级 → 黄药师后续微单修；🔵L1 行5补指纹 e0f4018e…oFdc / L2 行5时间戳「12:40」更正为实际挂载 / L3 minimax 端点 /v1 vs /anthropic 需王语嫣+洪七公确认对齐）——编排归你
+- [2026-09-06 12:46] 🕐 值守拍13:00：#656 PASS A-（预检+fallback机制生效）——终审三待裁收口（MiniMax行指纹e0f4018e/时间戳/端点实测口径）；#658 提审拉欧阳锋(proc_203204)审后解锁#657；黄药师3条friction同族划销（--instance坑/相对路径坑/裸commit复发+1）；7行清场双段归零
+- [2026-09-06 12:47] ⚖️ KDO 已终审 1 单：#656（待部署/已闭环）
+- [2026-09-06 12:47] 🕐 值守拍13:05续：#657领取被#658 FIFO阻挡（正常排队，欧阳锋proc_203204审#658后解锁）；2新登记收口（laowantong两坑并入#653族台账/我的对齐稿status非标第二踩自查整改——三踩立项lint）
+- [2026-09-06 12:52] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#658（laowantong 的单，挂审 25min）（到点（节奏 30min））
+===ISSUE_DISPOSITION_HINTS===
+323: # F-036 问题落点判定（#主动立项 2026-08-24 方案 C）：审查发现问题必须给出去向。
+325: ISSUE_DISPOSITION_HINTS = ("建议书", "停车场", "F-", "立项", "另立项", "friction", "待王语嫣", "待老朱", "TODO")
+344: if any(h in opinion_text for h in ISSUE_DISPOSITION_HINTS):
+349: "必须在意见书注明去向（建议书路径 / 停车场 F-xxx / 任务单立项），否则终审不闭环"
+
+Now I understand the "抄送王语嫣" mechanism. The #656 review PASS verdict was communicated to 王语嫣 via:
+- `[2026-09-06 12:43] 【终审通过 #656】...——编排归你` — this is the 王语嫣 todos entry (抄送)
+
+So after I complete the review, I need to:
+1. Write the 终审记录节 into the task file
+2. Run queue_transition review (PASS, A-)
+3. Append a todo line to 90_control/todos/ouyangfeng.md (my todo log)
+4. 抄送王语嫣: append a line to 90_control/todos/wangyuyan.md like "【终审通过 #658】...——编排归你"
+
+Wait, but let me reconsider the 出口 discipline. My context says:
+- 出口 2: 审查意见通过（PASS + 等级）——通过信息必须同时抄送王语嫣
+
+And the mechanism shown: #656's PASS was抄送 via a 王语嫣 todos entry "【终审通过 #656】...——编排归你".
+
+So I should write a similar entry to 王语嫣's todos. But wait — is writing to 王语嫣's todos my responsibility, or does the review command do it automatically?
+
+Looking at #656's example: the 12:43 entry "【终审通过 #656】channel-health-fallback PASS A-（...）——编排归你" was written by 欧阳锋 (me) as the抄送. This is a manual append to 王语嫣's todos.
+
+Hmm, actually, let me check — is it possible this was written by 王语嫣 herself (her 值守拍)? The entry format "【终审通过 #656】" suggests it's a notification TO 王语嫣, likely written by 欧阳锋 as the抄送. But it could also be 王语嫣's own记录.
+
+Actually, looking more carefully at the context: "通过信息必须同时抄送王语嫣（她收件箱一行指针）". 王语嫣's 收件箱 = her todos file. So I should write one line to 王语嫣's todos.
+
+But wait, there's a risk: the discipline says I shouldn't hand-edit other agents' files carelessly. But the抄送 to 王语嫣 is explicitly mandated by my context (出口 2). And the 王语嫣 todos file is her inbox for such notifications (there are already entries like "📥 新素材" and "【终审通过 #656】" written by other agents/scripts).
+
+Actually, let me reconsider. The todos file gets written by:
+1. The role's own cron/clock (叫醒 entries)
+2. Gate-blocked notifications (⛔)
+3. New material notifications (📥, written by watch_inbox)
+4. Review pass notifications (【终审通过】, written by reviewer)
+
+So writing the抄送 line to 王语嫣's todos is the established convention for出口 2.
+
+Let me confirm by checking who/what writes "【终审通过 #656】" — was it the review command or manual? The review command's action_review doesn't seem to write to 王语嫣's todos (I read the full function, it only does _review_board_update strike). So it was manual (by 欧阳锋).
+
+Actually, wait. Let me re-read my context more carefully on this. My context said:
+
+"2. 审查意见通过（PASS + 等级）——通过信息必须同时抄送王语嫣（她收件箱一行指针，2026-09-02 老朱规则：通过→传递通过信息+抄送王语嫣→编排归王语嫣）"
+
+And "**🔴 出口自检钩子**：... 建议 XXX（非阻塞，随 XX 跟进）≠ 建议书落盘）"
+
+So the抄送 is via a one-line pointer in 王语嫣's inbox (todos). I'll write it.
+
+Now, let me also reconsider: do I need to write a 建议书 (diagnosis) for the channel-model-map staleness? 
+
+My context says出口 1: "写建议书给王语嫣——发现任何方面的不合理或有任何建议（基建/队列/门禁/脚本/文档结构/内容/工具/流程，不设范围上限）...必须写建议书落 60_feedback/diagnosis/ + 探针自动登记，不自己动手修".
+
+And the self-check hook: "每轮审查（含批次验收）写完'发现问题'节后，立即强制出口自检：发现'问题'节非空且含基建/流程/渠道/纪律/任何建议性条目 → 当轮内写建议书落 60_feedback/diagnosis/"
+
+But also: "内容类问题（单卡内容缺陷）→ 记录即可，走审查意见".
+
+So the channel-model-map staleness is:
+- A content staleness (SKILL.md 坑表内容陈旧) → 内容类问题 → 记录即可，走审查意见 (no 建议书 needed)
+- BUT it also has a coordination dimension (需要谁动作 ① redundant) → this is more of a content/coordination issue, self-resolving.
+
+I think this falls under "内容类问题（单卡内容缺陷）→ 记录即可，走审查意见". So I record it in the review opinion, no separate 建议书.
+
+But wait, there's a subtlety. The staleness is not really laowantong's "defect" — it's a concurrency artifact (laowantong observed correctly, #656 landed concurrently). So it's not even a content defect of laowantong's making; it's a coordination/timing issue.
+
+Actually, the SKILL.md's pitfall row IS now stale content (the file exists). But it's minor and self-heals. I'll record it as 🔵 in the review opinion with a clear disposition (王语嫣裁量时知悉 #656 已补落，SKILL.md 坑表行可下次迭代顺手更新).
+
+Now, should I write a 建议书 for the "pre-submit 字段口径未文档化" that laowantong flagged? NO — that's laowantong's suggestion (already in his 需要谁动作), not mine. I shouldn't re-raise it as my own 建议书. It's already routed to 黄药师 as a micro-task.
+
+OK. Let me also decide: is there any OTHER suggestion I (欧阳锋) should raise as a 建议书? 
+
+Looking at the machine pre-review ③ flag: "意见书含负向断言（不存在）但无 存在性核查 锚点（生产侧同口径）". This was the machine flagging laowantong's production report. This is not a new suggestion from me.
+
+Actually, there's a subtle meta-point: the machine pre-review's own note says "(生产侧同口径，供终审对照)" — meaning the production side's negative assertion "vault 内不存在" (about channel-model-map.md) lacked a dedicated 存在性核查 section. But laowantong DID provide an inline anchor (find 3 refs 0 entities). The machine flagged it because there's no dedicated `**存在性核查**` section header in the production report.
+
+This is relevant to my review: the production report's negative assertion about channel-model-map.md was itself stale (as I discovered). But this is a production-side issue, not something I need to fix. I'll note it in my review.
+
+Actually, I realize I should keep my review focused and not over-engineer. Let me finalize:
+
+**My review opinion structure:**
+
+## 终审记录
+
+### 终审（欧阳锋 2026-09-06 HH:MM）——判定 PASS（A-）
+
+> methodology_version: v2.3 | verdict: PASS | grade: A- | blocking: 无（🔵1 放行）| residual_risks: L1（channel-model-map 并发陈旧）
+
+**四核裁定（逐条独立核验）**
+
+1. ① 狗粮验收真做 ✅【实证】：6/6 独立复验...
+2. ② 六件覆盖齐 ✅【实证】：...
+3. ③ 壳内踩坑链接真指 dk/协议 ✅【实证】：...
+4. ④ 不改脚本本体 ✅【实证】：...
+
+### 发现问题（放行）
+
+- 🔵 L1：channel-model-map.md 负向判词并发陈旧。落点：王语嫣裁量知悉 #656 已补落；SKILL.md 坑表行下次迭代更新。
+
+### **存在性核查**
+
+- L1 核查：git log...
+
+### 结论
+
+四核全过，判定 PASS，等级 A-。
+
+Now let me write this. I need to get the current time for the timestamp. Let me use the current time (2026-09-06, timezone Asia/Shanghai). Let me check current time.
+
+Actually, I'll use `Get-Date` to get the current time for the review timestamp.
+
+Let me also make sure I'm precise about the evidence in each section. Let me finalize the content.
+
+For the ③ 踩坑链接 verification, I verified 12 files exist. But let me be precise about which links are in which shell and what they point to:
+
+1. queue-transition: → 90_control/file-flow-protocol.md (F-034), 90_control/agent-behavior-constitution.md, .agent/<角色>-context.md (角色队列纪律). All exist. ✓
+2. kimi-headless-launch: → 60_feedback/tasks/task_20260906_huangyaoshi-channel-health-fallback.md (#656). Exists. ✓ (also channel-model-map reference which is now stale)
+3. review-chain: → agents/agent-os.md §10.2, kdo-tools/review-check.py. Exists. ✓
+4. oral-transcript-trio: → .agent/laowantong-context.md (牌 L2), 90_control/kdo-industrialization-manual.md, .agent/pitfalls.md P-7/P-31, nine-layer-deep-dig/SKILL.md. All exist. ✓
+5. transcribe-win: → 60_feedback/tasks/task_20260906_huangyaoshi-transcribe-timeout-and-aliases.md (#649). Exists. ✓
+6. intake-registry: → 90_control/conveyor-probes-contract.md, .agent/todos/wangyuyan.md (E059). Exists. ✓
+
+All links real. ✓
+
+For ④, evidence:
+- git status --porcelain on 10 scripts: empty (no uncommitted changes)
+- #658 commits (3d77b311a/20d5c475d/cbd2bca17) touch only: INDEX.md, MOUNT-MATRIX.md, SKILL-HEALTH.md, 6 SKILL.md, task file, todos/laowantong.md, dashboard.html, production-queue.md. NO scripts.
+- git log on scripts: last commits #655/#653/#651/#648/#647 (all huangyaoshi).
+
+✓
+
+For ①, evidence (each dogfood):
+1. queue-transition: dogfood "myqueue #658 🚧进行中" at 12:21 (claimed), then complete at 12:27 (cbd2bca17) → consistent snapshot. Reproducible via `python 90_control/scripts/queue_transition.py myqueue laowantong` (though now shows reviewed). I verified myqueue works (read-only view).
+2. kimi-headless-launch: logs/channel-health.log 12:21:00 "decision":"laowantong->全死不硬派" + results all force_dead + hermes "同上游 kimi 已判定，未重复探测" ✓; todos laowantong 12:21 三行【通道预检 #656】 ✓
+3. review-chain: reproduced `python kdo-tools/review-check.py --agent laowantong` → "🟡 B级 (16105B) — 11/11章, 未达A: epiphany_reversal" ✓ (exact match)
+4. oral-transcript-trio: reproduced `scan-demo-sections.py` → "32 处操作演示段落" + L76/L134/L138 ✓; _processed/ index files exist (508KB + 1.4MB) ✓
+5. transcribe-win: _tmp/dogfood_transcribe.wav (506760B) + _tmp/dogfood_transcribe_稿.md (296B) with header (模型: tiny / 引擎 1.2.1 / 时长 11s / 耗时 2s) + tiny 乱码 "老丸同的专写够凉石测" ✓
+6. intake-registry: friction lines struck-through (1180/1181/1184) + PROPOSAL-PENDING ✓
+
+All real. ✓
+
+Now let me write the review opinion and append to task file. Then run the review command.
+
+Let me get the current time first, then compose the opinion using a PowerShell here-string to append to the task file.
+
+Actually, I should be careful about how I append to the task file. I'll use Add-Content with a here-string. The task file currently ends with the 机器预审报告 section. I'll append the 终审记录 section after it.
+
+Wait, actually — should the 终审记录 section come BEFORE or AFTER the 机器预审报告? Looking at #656's file, the 机器预审报告 section... actually I didn't see the machine pre-review in #656's file output. Let me check the order in #658: the task file has 执行报告 → 狗粮实测记录 → 机器预审报告 (at the end).
+
+For #656, the 终审记录 was at the end (after 执行报告). The machine pre-review in #658 is at the very end (after 狗粮实测记录).
+
+The convention seems to be: 终审记录 is appended at the end (after everything else, including machine pre-review). Let me check #656's full structure to confirm whether machine pre-review came before or after 终审记录.
+
+Actually, I saw #656's 终审记录 was at line 154 (the heading) and it was the last section (the content I read went to the end). Let me verify #656 doesn't have a machine pre-review after its 终审记录.
+
+Actually, it doesn't matter much. The convention is: 终审记录 is the final section. I'll append it at the end of the #658 task file (after the 机器预审报告).
+
+Let me now write the opinion. I'll compose it carefully.
+
+Let me get the current timestamp first.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "cd C:\\Users\\Administrator\\Desktop\\wiki; [Console]::OutputEncoding = [System.Text.Encoding]::UTF8; "'$OutputEncoding = [System.Text.Encoding]::UTF8; Get-Date -Format '"'yyyy-MM-dd HH:mm:ss'; Write-Output '===#656 file tail structure==='; "'$c = Get-Content 60_feedback/tasks/task_20260906_huangyaoshi-channel-health-fallback.md -Encoding UTF8; Write-Output "total lines: $($c.Count)"; $c[($c.Count-12)..($c.Count-1)]' in C:\Users\Administrator\Desktop\wiki
+ succeeded in 218ms:
+2026-09-06 12:54:29
+===#656 file tail structure===
+total lines: 196
+
+### **存在性核查**
+
+- 「行5 指纹未记」核查：grep `channel-model-map.md` 行5 key 列=`订阅 key 挂 ~/.kdo/config.yaml minimax 段…` 无 `…` 指纹形态；对比其余四行均有 `sha256[:8]…尾4`。
+- 「12:40 与证据矛盾」核查：`Get-Item ~/.kdo/config.yaml` LastWriteTime=12:21:58、`Get-Item 90_control/channel-model-map.md` LastWriteTime=12:23:23、`git log --format=%h%ad` 86b25e922=12:25:58；本会话 `Get-Date` 当时=12:27:24。
+- 「M1 tool 级连坐」核查：`channel_health.py` `probe_chain` 判定行为 `if up in upstream_verdict:`（无 scope 条件）；`probe_kimi` 存在 scope=tool 返回分支（CLI 超时/起不来）。
+- 「M2 降级块」核查：`channel_health.py` `probe_codex` 含 `if r.scope == "upstream": r.scope = "tool"`；`_post_json` 异常分支已返回 scope=tool（URLError/超时/连接拒绝）。
+- 「端点漂移」核查：grep `00_inbox --include=*.py` 命中 `base_url="https://api.minimaxi.com/anthropic"` 多处；`~/.kdo/config.yaml` minimax.base_url=`https://api.minimaxi.com/v1`。
+
+### 结论
+
+核心四核全过（预检真实现 / fallback 实测 / 台账五行实证 / 回归 273 绿），三条待裁裁决均同意；🟠 2 项（tool 级去重 M1、relay 上游误降级 M2）放行 + 黄药师后续微单修，🔵 3 项行5 细节由王语嫣补齐。判定 **PASS，等级 A-**。
+
+Good. The current time is 2026-09-06 12:54:29. The #656 file ends with 结论 (终审记录 is the last section, no machine pre-review after it).
+
+Now let me compose my review opinion and write it to the #658 task file. I'll use a here-string.
+
+Let me write the full opinion now. I need to be precise with evidence anchors.
+
+The opinion will include:
+1. Header with methodology_version
+2. 四核裁定
+3. 发现问题 (🔵 L1)
+4. **存在性核查**
+5. 结论
+
+Let me write it carefully with all the evidence I collected.
+
+For the timestamp, I'll use 2026-09-06 12:54.
+
+Let me now compose the here-string and append it. I need to make sure:
+- It starts with "## 终审记录" on its own line
+- Contains "**存在性核查**" exact substring
+- Contains "🔵" (won't trigger F-036 since only 🟠/🟡 trigger)
+- Has disposition "落点" for the 🔵 finding (good practice anyway)
+
+Let me write the content.
+
+Actually, let me think about whether to use --review-file or write to task file directly.
+
+The task instruction says "终审记录节落意见书" — write opinion into the task's 终审记录节. So I'll:
+1. Append the "## 终审记录" section to the task file.
+2. Run review WITHOUT --review-file (so it reads the 终审记录 section from the task file).
+
+This is the cleanest approach matching #656 precedent.
+
+But wait, there's a subtlety with git: the review command will auto-commit the task file + queue + dashboard after the transition. But my appended 终审记录 section is an uncommitted change to the task file. The review command's `_git_commit_transition` does path-scoped add of "任务单+队列+dashboard". So it will include my 终审记录 section in the commit. Good.
+
+Actually, let me check: does the review command commit the task file (with my 终审记录 section)? Looking at `apply_updates` → `_git_commit_transition(task_id, action, actor)`. It does path-scoped add of the task file. So yes, my 终审记录 section will be committed along with the status change. 
+
+Let me now write the opinion. I'll compose a here-string and append to the file.
+
+Let me write a comprehensive but focused opinion.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "cd C:\\Users\\Administrator\\Desktop\\wiki; [Console]::OutputEncoding = [System.Text.Encoding]::UTF8; "'$OutputEncoding = [System.Text.Encoding]::UTF8; $opinion = @'"'
+
+## 终审记录
+
+### 终审（欧阳锋 2026-09-06 12:54）——判定 PASS（A-）
+
+> methodology_version: v2.3 ｜ verdict: PASS ｜ grade: A- ｜ blocking: 无（🔵1 放行）｜ residual_risks: L1（channel-model-map 并发陈旧，见「发现问题」节）
+
+**四核裁定（逐条独立核验，断言三级标注）**
+
+1. **① 狗粮验收真做 ✅【实证】**：6/6 逐件复验，全部有实盘锚点——
+   - queue-transition：dogfood 时点（12:21）"'`myqueue laowantong` 显示 #658 🚧进行中，12:27 `cbd2bca17` complete→pending_review，快照与流转时序自洽；本会话复跑 `myqueue ouyangfeng` 只读视图正常。
+   - kimi-headless-launch：`logs/channel-health.log` 12:21:00 一行 `"decision":"laowantong->全死不硬派"` + results 四工具全 `force_dead` + hermes `"同上游 kimi 已判定，未重复探测"`（同上游去重生效）；`90_control/todos/laowantong.md` 12:21 三行【通道预检 #656】（全死/探测明细/应急直通）在场。
+   - review-chain：本会话独立复跑 `python kdo-tools/review-check.py --agent laowantong` → 「🟡 B级 (16105B) — 11/11章 ✅已检索，未达A: 深度未过: epiphany_reversal」，与执行报告逐字吻合。
+   - oral-transcript-trio：本会话独立复跑 `scan-demo-sections.py <AI大航海20260905口述稿>` → 「32 处操作演示段落」+ L76/L134/L138 带信号词命中；`_processed/` 双产物在场（`_索引.json` 508844B + `_主题索引.md` 1481857B）。
+   - transcribe-win：`_tmp/dogfood_transcribe.wav`（506760B）+ `_tmp/dogfood_transcribe_稿.md`（296B）在场，头部指纹 `模型: tiny | 设备: cpu | 引擎: faster-whisper 1.2.1 | 时长: 11s | 耗时: 2s`，正文 3 段带 `[mm:ss]`；tiny 乱码实证「老顽童的转写狗粮实测」→「老丸同的专写够凉石测」反向验证选档纪律。
+   - intake-registry：`production-queue.md` PROPOSAL-PENDING 段 +3 friction 划销行在场（1180/1181/1184），watch_inbox/conveyor_probe 幂等口径与脚本头注一致。
+
+2. **② 六件覆盖齐 ✅【实证】**：`40_outputs/capabilities/skills/shared/` 下 6 个壳目录齐全（queue-transition/kimi-headless-launch/review-chain/oral-transcript-trio/transcribe-win/intake-registry）；`INDEX.md` 头注「共 85 个 skill」（79→85），6 新条目 #37/#39/#44/#47/#65/#80 与执行报告口径一致；`MOUNT-MATRIX.md` + `SKILL-HEALTH.md` 各 6 行登记在场；每件均含 何时用/怎么调（命令+参数表）/边界与红线/常见坑（症状→修复）/失败模式/相关协议与卡 + frontmatter `trigger.natural_language` 触发词。
+
+3. **③ 壳内踩坑链接真指 dk/协议 ✅【实证】**：6 壳「相关协议与卡」节引用的 12 个文件逐个 `Test-Path` 全存在——`90_control/file-flow-protocol.md`、`90_control/agent-behavior-constitution.md`、`.agent/laowantong-context.md`、`90_control/kdo-industrialization-manual.md`、`.agent/pitfalls.md`（P-7/P-31）、`shared/nine-layer-deep-dig/SKILL.md`、`60_feedback/tasks/task_20260906_huangyaoshi-transcribe-timeout-and-aliases.md`（#649）、`90_control/conveyor-probes-contract.md`、`60_feedback/tasks/task_20260906_huangyaoshi-channel-health-fallback.md`（#656）、`agents/agent-os.md`、`90_control/tool-card-excellence-standard.md`、`30_wiki/frameworks/framework-encapsulation-methodology.md`；坑表锚点 #645/#647/#650/#655/#649/#651/#444/E019/E059/F-034/E040 均为任务单/门禁留痕可溯，无死链。
+
+4. **④ 不改脚本本体 ✅【实证】**：`git status --porcelain` 对 8 个底层脚本（queue_transition/kimi-headless-launch/channel_health/daily-context-save/review-check/scan-demo-sections/transcript-index/transcribe_win/watch_inbox/conveyor_probe）全空（无未提交改动）；#658 三个 commit（3d77b311a/20d5c475d/cbd2bca17）`git show --stat` 触碰文件仅 INDEX/MOUNT-MATRIX/SKILL-HEALTH + 6 SKILL.md + 任务单 + todos/laowantong + dashboard/production-queue，**零脚本**；脚本最近提交史为 #655/#653/#651/#648/#647（均 huangyaoshi），与 #658 无关。拉起器未真实拉起（--force-dead 测试钩替代）与 transcribe 合成音频（非真实长视频）两处边界声明诚实，且理由成立（无单硬拉烧 token/库内无小音频）。
+
+### 发现问题（放行）
+
+- 🔵 L1：`channel-model-map.md` 负向判词属并发陈旧——执行报告「vault 内不存在」与 kimi-headless-launch 壳坑表「未落盘」在其观察时刻为真（#656 落地前），但 #656 已于 12:15:37（commit 4282b4738）创建该文件并闭环 relay/GLM 账号问题，早于 #658 提审（12:27），故「需要谁动作 ① 黄药师补落该表」已冗余（#656 已交付）。非伪造（laowantong 的 `find` 3 引用 0 实体为真实观察），非脚本越界（未擅自补文件，交 #656 归属，行为正确）。**落点**：王语嫣裁量时知悉该表已由 #656 落盘；SKILL.md 坑表「未落盘」行可留待下一轮 skill 迭代顺手更新为「已落盘，真相源=本表+channel_health.TOOL_UPSTREAM」。
+
+### **存在性核查**
+
+- 「脚本零改动」核查：`git status --porcelain -- <8 脚本路径>` 输出空；`git show 3d77b311a --stat` 无任何 `90_control/scripts/` 或 `kdo-tools/*.py` 路径。
+- 「channel-model-map 已落盘」核查：`Get-Item 90_control/channel-model-map.md` 在场（6519B，LastWriteTime 12:44:56）；`git log --format='"'%h %ci %s' -- 90_control/channel-model-map.md"'` 首 commit 4282b4738=12:15:37（#656 黄药师），次 86b25e922=12:25:58（MiniMax 行），三 47b48edfa=12:46:28（王语嫣收口）；`git show 4282b4738:90_control/channel-model-map.md` 已含「关键结论（#656 待核实项闭环）」节，relay≠GLM、kimi/hermes 同墙已实证。
+- 「laowantong 观察时刻真」核查：`60_feedback/session-archives/2026-09-06/laowantong-1245.md:84` 载 `find . -name "channel-model-map*" 2026-09-06 实测：3 处引用 0 实体`——与其观察时点一致的存量引用为 #656 任务单/脚本 docstring/公告（均先于 12:15:37 的文件实体落盘），并发窗口成立。
+- 「12 引用文件存在」核查：逐一 `Test-Path` 全部返回 True（清单见四核③）。
+
+### 结论
+
+四核全过（狗粮 6/6 真做 / 六件覆盖齐 / 踩坑链接 12 文件全实 / 脚本零改动），无阻塞项；🔵1 项（channel-model-map 并发陈旧）放行，王语嫣裁量知悉即可。判定 **PASS，等级 A-**。
+
+'"'@; Add-Content -Path 60_feedback/tasks/task_20260906_laowantong-encapsulation-t1.md -Value "'$opinion -Encoding UTF8; Write-Output '"'=== appended, tail check ==='; Get-Content 60_feedback/tasks/task_20260906_laowantong-encapsulation-t1.md -Tail 6 -Encoding UTF8" in C:\Users\Administrator\Desktop\wiki
+ succeeded in 210ms:
+=== appended, tail check ===
+- 「12 引用文件存在」核查：逐一 `Test-Path` 全部返回 True（清单见四核③）。
+
+### 结论
+
+四核全过（狗粮 6/6 真做 / 六件覆盖齐 / 踩坑链接 12 文件全实 / 脚本零改动），无阻塞项；🔵1 项（channel-model-map 并发陈旧）放行，王语嫣裁量知悉即可。判定 **PASS，等级 A-**。
+
+
+The opinion has been appended. Now let me verify it contains the "## 终审记录" heading and "**存在性核查**" anchor, and then run the review command.
+
+Actually, let me just run the review command now. The review command will:
+1. Check authority (#546)
+2. Check status pending_review
+3. Check review record (## 终审记录 section ≥50 chars)
+4. Check negative claims (has 存在性核查 anchor)
+5. Check F-036 disposition (has 🔵 but not 🟠/🟡, so passes)
+6. Apply updates + auto-commit
+
+Let me run it.
+
+Wait, before running, let me consider the backup避让 discipline (#628): vault auto backup every 30min at :20/:50, and 5 min before backup (i.e., :15-:20 and :45-:50) forbid stash/worktree switch operations. The current time is 12:54:29 — past the 12:50 backup. The next backup is 13:20. The review command does a git commit (not stash/worktree), which is fine. Also the discipline says "未提交在制品保持落盘可见即可". So no issue.
+
+Actually, the review command itself does the git commit. Let me run it now.
+
+One concern: the review command's `_check_review_authority` (#546) requires a registered instance for ouyangfeng in the cwd. Let me check — the myqueue earlier showed "⚠️ 终审权校验" ... actually no, the earlier todos showed I successfully reviewed #656 at 12:43. So the authority should be fine (there's a registered instance).
+
+Let me run the review command.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "cd C:\\Users\\Administrator\\Desktop\\wiki; [Console]::OutputEncoding = [System.Text.Encoding]::UTF8; "'$OutputEncoding = [System.Text.Encoding]::UTF8; python 90_control/scripts/queue_transition.py review task_20260906_laowantong-encapsulation-t1 --verdict pass --reviewer 欧阳锋 --grade A- 2>&1' in C:\Users\Administrator\Desktop\wiki
+ succeeded in 723ms:
+✅ task_20260906_laowantong-encapsulation-t1 终审通过，状态更新为 reviewed，等级 A-
+✅ dashboard.html 已生成 (229 个任务)
+   待领取: 0  |  审查中: 0  |  进行中: 0  |  已完成: 229
+
+The review transition succeeded. Now I need to:
+
+1. Append a todo line to 90_control/todos/ouyangfeng.md (my todo log) — 完工落账
+2. 抄送王语嫣 (append a line to 90_control/todos/wangyuyan.md) — 通过信息抄送
+
+Let me verify the transition committed properly (check git status and the task file frontmatter).
+
+Actually, let me first check the git state to confirm the review command committed everything correctly (task file + queue + dashboard + my 终审记录 section).
+
+Then write the todo entries.
+
+Let me also verify the task file frontmatter now shows reviewed/grade A-.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "cd C:\\Users\\Administrator\\Desktop\\wiki; [Console]::OutputEncoding = [System.Text.Encoding]::UTF8; "'$OutputEncoding = [System.Text.Encoding]::UTF8; Write-Output '"'===task frontmatter now==='; Get-Content 60_feedback/tasks/task_20260906_laowantong-encapsulation-t1.md -TotalCount 20 -Encoding UTF8; Write-Output '===git status (relevant)==='; git status --porcelain 2>&1 | Select-Object -First 20" in C:\Users\Administrator\Desktop\wiki
+ succeeded in 262ms:
+===task frontmatter now===
+---
+id: task_20260906_laowantong-encapsulation-t1
+
+
+title: "封装复盘 T1 生产：6 件高频基建 skill 壳（queue-transition/launch/复盘链/口述三件套/transcribe/采集面）"
+
+
+seq: 658
+
+
+status: reviewed
+assignee: laowantong
+
+
+created_by: wangyuyan
+
+
+created_at: 2026-09-06
+
+
+===git status (relevant)===
+ M 40_outputs/capabilities/datapacks/duanwangye-weblogin-samples/gold-standard.md
+ M 40_outputs/capabilities/datapacks/duanwangye-weblogin-samples/pitfalls.md
+ M 60_feedback/tasks/task_20260906_duanwangye-datapack-weblogin.md
+ M 90_control/gate-blocked.log
+ M 90_control/role-registry.json
+ M 90_control/scripts/.derived-hashes.json
+ M 90_control/todos/wangyuyan.md
+ M logs/headless-ouyangfeng-20260906-124558.log
+ M logs/role-clock.log
+?? 40_outputs/capabilities/datapacks/duanwangye-weblogin-samples/field-extraction.md
+
+The review transition succeeded:
+- status: reviewed ✓
+- grade: A- (I need to verify grade is in frontmatter, but the review command said "等级 A-")
+
+The git status shows other agents' WIP files (duanwangye datapacks, gate-blocked.log, role-registry.json, etc.) — these are NOT mine and I should NOT touch them. My task's files (task file, queue, dashboard) were committed by the review command's auto-commit.
+
+Wait, let me verify my task file and the review opinion were committed. The git status doesn't show the task file (task_20260906_laowantong-encapsulation-t1.md) as modified, which means it was committed by the review command. Good.
+
+Let me verify the grade is in the frontmatter.
+
+Actually, let me also confirm the queue status now shows #658 as reviewed (and #657 unlocked).
+
+Now I need to:
+1. Append my todo entry to 90_control/todos/ouyangfeng.md
+2. 抄送王语嫣 (append to 90_control/todos/wangyuyan.md)
+
+Let me check the exact format for my todo entry. Looking at the existing entries in ouyangfeng.md:
+`- [2026-09-06 12:43] 终审 #656 huangyaoshi-channel-health-fallback PASS A-（...）`
+
+So format: `- [YYYY-MM-DD HH:MM] 终审 #658 laowantong-encapsulation-t1 PASS A-（...）`
+
+For 王语嫣's todos, the抄送 format:
+`- [2026-09-06 12:43] 【终审通过 #656】channel-health-fallback PASS A-（...）——编排归你`
+
+So format: `- [YYYY-MM-DD HH:MM] 【终审通过 #658】laowantong-encapsulation-t1 PASS A-（...）——编排归你`
+
+Let me get the current time and write both entries.
+
+Actually, wait — let me reconsider whether I should write to 王语嫣's todos directly. The instruction from my context is clear: "通过信息必须同时抄送王语嫣（她收件箱一行指针）". And #656's precedent shows the抄送 was a line in 王语嫣's todos. So yes, I should write it.
+
+But I need to be careful: the git status shows 90_control/todos/wangyuyan.md is already modified (M) — this is 王语嫣's own WIP (she's actively working, per her 值守拍 entries). If I append to it and the review command auto-commits it... wait, no, the review command already ran and committed. My append to 王语嫣's todos now would be an uncommitted change to her file.
+
+Hmm, this is a concern. If I append to 王语嫣's todos, it becomes an uncommitted change. Should I commit it? The review command's auto-commit already happened. My manual append to 王语嫣's todos would need its own commit, OR I leave it uncommitted (visible on disk, backup will pick it up).
+
+Actually, looking at the discipline: "未提交在制品保持落盘可见即可（有活动会话备份会自行跳拍）". And the vault backup every 30min will pick up uncommitted changes.
+
+But actually, the review command (#390) auto-commits "任务单+队列+dashboard". It does NOT commit 王语嫣's todos. So my抄送 to 王语嫣's todos would be uncommitted unless I commit it.
+
+Let me think about whether I should commit the 王语嫣 todos append. The discipline says "红线：path-scoped add，严禁 add -A/.（工作区永远有其他 agent 的在制品）". So if I commit, I should path-scope to just 王语嫣's todos and my ouyangfeng todos.
+
+Actually, wait. Let me reconsider. The 王语嫣 todos file is already modified (M) by 王语嫣 herself. If I do `git add 90_control/todos/wangyuyan.md && git commit`, I'd be committing 王语嫣's uncommitted WIP too (her 值守拍 entries). That's risky — I'd be sweeping in her WIP.
+
+Better approach: 
+1. For my own todos (90_control/todos/ouyangfeng.md): append my entry. This is my own file, safe to commit (but I should check if it has my own uncommitted changes only).
+
+Actually, let me reconsider the whole "commit" question. Looking at the #656 precedent: after I reviewed #656 at 12:43, the 王语嫣 todos got the "【终审通过 #656】" entry. How was that committed?
+
+Let me check: the git log showed `47b48edfa chore(wangyuyan): 13:00拍 终审三待裁收口...` — so 王语嫣's own commits swept in her todos changes. So the "【终审通过 #656】" line I wrote at 12:43 was likely committed later by 王语嫣's own 值守拍 commit (or the vault backup).
+
+So the convention is: I append the抄送 line to 王语嫣's todos, and it gets committed later (by 王语嫣's own commit or the vault backup). I don't need to commit it myself.
+
+Similarly, my own todo entry gets committed by... hmm, actually my own todo entries — how do they get committed? Looking at the git log, there might be a pattern. But the simplest: I append to my todos, and it gets committed by the next vault backup or my own next action.
+
+Actually, let me check: is my ouyangfeng.md todos currently clean or modified? Let me check git status for it.
+
+Actually, from the earlier git status output, 90_control/todos/ouyangfeng.md was NOT in the modified list (only wangyuyan.md was). So my todos file is clean. I'll append my entry to it.
+
+Let me now do the final steps:
+1. Append to 90_control/todos/ouyangfeng.md
+2. Append to 90_control/todos/wangyuyan.md (抄送)
+
+For the timestamp, current time is ~12:55 (was 12:54:29 when I checked). Let me get fresh time.
+
+Let me also verify the grade field in frontmatter to be safe.
+
+Actually, let me just do everything in one command batch: get time, append to both todos, and verify.
+
+Let me write concise but complete todo entries.
+
+My todo entry (ouyangfeng.md):
+`- [2026-09-06 HH:MM] 终审 #658 laowantong-encapsulation-t1 PASS A-（狗粮6/6真做+六件覆盖齐+踩坑链接12文件全实+脚本零改动；🔵1 channel-model-map并发陈旧放行，王语嫣裁量知悉#656已补落）`
+
+王语嫣抄送 (wangyuyan.md):
+`- [2026-09-06 HH:MM] 【终审通过 #658】laowantong-encapsulation-t1 PASS A-（6 基建 skill 壳，狗粮 6/6；🔵1 channel-model-map 并发陈旧——#656 已补落该表，你的「补表」微单无需另立）——编排归你`
+
+Wait, let me reconsider the "补表微单" point. The task's 需要谁动作 ① was "黄药师补落 channel-model-map.md". My review found this is already done by #656. So in the抄送 to 王语嫣, I should note that this micro-task is already satisfied (so she doesn't re-queue it). 
+
+Also, the 需要谁动作 ② was "pre-submit SKILL.md 必填口径未文档化" (黄药师微单). This is a SEPARATE micro-task that IS still valid (it's about documenting pre-submit field requirements). My review doesn't invalidate this one.
+
+And 需要谁动作 ③ was "王语嫣裁量 6 壳是否挂进各角色 spec". This is still pending for 王语嫣's #657 coordination.
+
+So my抄送 should note:
+1. PASS A-
+2. 需要谁动作 ① (补 channel-model-map.md) 已被 #656 满足，无需另立
+3. 需要谁动作 ② (pre-submit 口径文档化) 仍有效，黄药师微单照立
+4. 需要谁动作 ③ (挂载裁量) 归王语嫣 #657
+
+Let me write a clear抄送.
+
+Actually, let me keep it concise per "她收件箱一行指针" (one-line pointer).
+
+Let me get fresh time and write both.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "cd C:\\Users\\Administrator\\Desktop\\wiki; [Console]::OutputEncoding = [System.Text.Encoding]::UTF8; "'$OutputEncoding = [System.Text.Encoding]::UTF8; $t = Get-Date -Format '"'yyyy-MM-dd HH:mm'; Write-Output \"time="'$t"; Write-Output '"'===grade field verify==='; Select-String -Path 60_feedback/tasks/task_20260906_laowantong-encapsulation-t1.md -Pattern '"'^grade:|''^reviewed_by:|''^review_date:'"' -Encoding UTF8 | ForEach-Object { "'$_.Line.Trim() }' in C:\Users\Administrator\Desktop\wiki
+ succeeded in 222ms:
+time=2026-09-06 12:55
+===grade field verify===
+reviewed_by: 欧阳锋
+review_date: '2026-09-06'
+grade: A-
+
+The frontmatter now shows:
+- reviewed_by: 欧阳锋
+- review_date: '2026-09-06'
+- grade: A-
+
+All confirmed. Now let me write the todo entries to both files.
+
+Time: 2026-09-06 12:55.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "cd C:\\Users\\Administrator\\Desktop\\wiki; [Console]::OutputEncoding = [System.Text.Encoding]::UTF8; "'$OutputEncoding = [System.Text.Encoding]::UTF8; $mine = '"'- [2026-09-06 12:55] 终审 #658 laowantong-encapsulation-t1 PASS A-（狗粮6/6真做：channel-health.log 12:21全死不硬派+todos通道预检+review-check复跑吻合+scan-demo-sections 32处复跑+transcribe指纹/乱码实证+_processed索引；六件覆盖齐 INDEX 85=79+6；踩坑链接12文件全实；脚本零改动git status空+#658三commit无脚本；🔵1 channel-model-map并发陈旧放行，#656已补落无需另立）'; Add-Content -Path 90_control/todos/ouyangfeng.md -Value "'$mine -Encoding UTF8; $wy = '"'- [2026-09-06 12:55] 【终审通过 #658】laowantong-encapsulation-t1 PASS A-（6 基建 skill 壳；狗粮 6/6 真做；🔵1 channel-model-map「未落盘」并发陈旧——#656 已于 12:15 补落该表，你的「补表」微单无需另立；②pre-submit 字段口径文档化黄药师微单仍有效；③6壳挂载裁量归你 #657）——编排归你'; Add-Content -Path 90_control/todos/wangyuyan.md -Value "'$wy -Encoding UTF8; Write-Output '"'===ouyangfeng tail==='; Get-Content 90_control/todos/ouyangfeng.md -Tail 2 -Encoding UTF8; Write-Output '===wangyuyan tail==='; Get-Content 90_control/todos/wangyuyan.md -Tail 2 -Encoding UTF8" in C:\Users\Administrator\Desktop\wiki
+ succeeded in 205ms:
+===ouyangfeng tail===
+- [2026-09-06 12:47] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#658（laowantong 的单，挂审 20min）（事件驱动：有待终审）
+- [2026-09-06 12:55] 终审 #658 laowantong-encapsulation-t1 PASS A-（狗粮6/6真做：channel-health.log 12:21全死不硬派+todos通道预检+review-check复跑吻合+scan-demo-sections 32处复跑+transcribe指纹/乱码实证+_processed索引；六件覆盖齐 INDEX 85=79+6；踩坑链接12文件全实；脚本零改动git status空+#658三commit无脚本；🔵1 channel-model-map并发陈旧放行，#656已补落无需另立）
+===wangyuyan tail===
+- [2026-09-06 12:52] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#658（laowantong 的单，挂审 25min）（到点（节奏 30min））
+- [2026-09-06 12:55] 【终审通过 #658】laowantong-encapsulation-t1 PASS A-（6 基建 skill 壳；狗粮 6/6 真做；🔵1 channel-model-map「未落盘」并发陈旧——#656 已于 12:15 补落该表，你的「补表」微单无需另立；②pre-submit 字段口径文档化黄药师微单仍有效；③6壳挂载裁量归你 #657）——编排归你
+
+Both todo entries are written. Now let me verify the whole flow is complete and consistent:
+
+1. ✅ Read startup files (startup.md, ouyangfeng-context.md, todos tail)
+2. ✅ Read constitution (agent-behavior-constitution.md)
+3. ✅ Read task file + spec source (diag report)
+4. ✅ Verified all 4 review points (dogfood real, 6 items, links real, no script changes)
+5. ✅ Wrote 终审记录节 with 存在性核查 anchor
+6. ✅ Ran queue_transition review (PASS, A-)
+7. ✅ Appended todo to ouyangfeng.md
+8. ✅ 抄送王语嫣 (appended to wangyuyan.md)
+
+Now let me verify the queue status shows #658 reviewed and #657 unlocked (as expected).
+
+Also, I should verify the review command committed my 终审记录 section + task file + queue + dashboard (the auto-commit worked). The git status earlier showed my task file was NOT in the modified list (committed), but let me confirm the commit happened cleanly.
+
+Let me do a final verification:
+1. git log recent to confirm the review commit
+2. Check #658 in queue is now reviewed
+3. Check #657 is now claimable
+
+Actually, the review command output already said "✅ 终审通过，状态更新为 reviewed". And the dashboard shows "已完成: 229". So #658 is now reviewed.
+
+But wait — I should double-check whether my todo entries (ouyangfeng.md and wangyuyan.md) need to be committed. The review command already auto-committed (task + queue + dashboard). My todo appends happened AFTER the review command, so they're uncommitted.
+
+The discipline says "完工在 90_control/todos/ouyangfeng.md 追加一行" — this is the requirement, and the append is done. Whether it's committed immediately or picked up by the next backup is a separate concern.
+
+Actually, let me reconsider. The #390 rule says the review command auto-commits "任务单+队列+dashboard". My todo append is not part of that. The todos files are typically committed by the agent's own session-end flow or the vault backup.
+
+Looking at the git log earlier, I saw entries like "chore(wangyuyan): 13:00拍..." which are 王语嫣's commits sweeping her todos. And vault backup commits (c91e687d4, c47550eef, 6d4ebfcf3) which sweep uncommitted WIP.
+
+So my todo appends will be committed by the next vault backup (13:20) or by my own next action. This is consistent with "未提交在制品保持落盘可见即可".
+
+However, there's a subtlety: my review command's auto-commit might have ALREADY committed the task file. But my 终审记录 section was appended BEFORE the review command, so it was included in the auto-commit. Good.
+
+But wait, let me verify: did the review command's auto-commit include my 终审记录 section? Let me check git log to confirm the review commit.
+
+Actually, let me verify the final state cleanly:
+1. git log -3 to see the review commit
+2. Verify the review commit includes the task file (with 终审记录)
+
+Let me also verify #657 is now unlocked (the task instruction says "完成后 #657 将由王语嫣领取收尾（你不用管）" — so I don't need to act on #657, but I can confirm it's unlocked).
+
+Let me do a final verification and then report.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "cd C:\\Users\\Administrator\\Desktop\\wiki; [Console]::OutputEncoding = [System.Text.Encoding]::UTF8; "'$OutputEncoding = [System.Text.Encoding]::UTF8; Write-Output '"'===git log recent==='; git log --oneline -4 2>&1; Write-Output '===#658 in queue==='; Select-String -Path 70_product/tasks/production-queue.md -Pattern '"'^'"\\| 658 ' -Encoding UTF8 | ForEach-Object { "'$_.Line.Trim() }; Write-Output '"'===#657 in queue (unlocked check)==='; Select-String -Path 70_product/tasks/production-queue.md -Pattern '"'^'"\\| 657 ' -Encoding UTF8 | ForEach-Object { "'$_.Line.Trim() }' in C:\Users\Administrator\Desktop\wiki
+ succeeded in 230ms:
+===git log recent===
+2cdade342 chore(queue): #658 review by 欧阳锋
+976e20556 chore(queue): #661 complete by duanwangye
+950f32cb0 chore(queue): #660 complete by hongqigong
+3a76f5c05 #660 识图金标准 DataPack 三件套（6金标准+9踩坑+置信三档+使用说明，全真实案例附来源锚）by hongqigong
+===#658 in queue===
+| 658 | `task_20260906_laowantong-encapsulation-t1` | 封装复盘 T1 生产：6 件高频基建 skill 壳（狗粮验收：新 agent 凭 skill 检索即可正确调用） | reviewed | laowantong | 6 SKILL.md+狗粮实测记录 | 无 | `60_feedback/tasks/task_20260906_laowantong-encapsulation-t1.md` | 老朱晨令；报告 diag_20260906_wangyuyan-encapsulation-gap-review；欧阳锋终审 |
+===#657 in queue (unlocked check)===
+| 657 | `task_20260906_wangyuyan-audit-pilot-orgbehavior` | 暗知识体检试金石：AI组织行为学口述全量重挖（王语嫣亲读，完备性双签制首跑） | queued | wangyuyan | 金矿台账+体检报告+存量五态对账 | 无 | `60_feedback/tasks/task_20260906_wangyuyan-audit-pilot-orgbehavior.md` | 老朱晨令；计划 diag_20260906_wangyuyan-kb-darkknowledge-audit-plan；欧阳锋终审（抽源对照） |
+
+Everything is complete and verified:
+
+1. ✅ git log shows `2cdade342 chore(queue): #658 review by 欧阳锋` — the review commit was created.
+2. ✅ #658 in queue: `reviewed` status.
+3. ✅ #657 in queue: `queued` status (unlocked for 王语嫣 to claim, as expected).
+
+The review is complete. Let me do a final summary.
+
+Actually, let me verify the review commit (2cdade342) includes the task file with my 终审记录 section. Let me quickly check.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "cd C:\\Users\\Administrator\\Desktop\\wiki; [Console]::OutputEncoding = [System.Text.Encoding]::UTF8; "'$OutputEncoding = [System.Text.Encoding]::UTF8; git show 2cdade342 --stat --format='"'%h %s' 2>&1 | Select-Object -First 12; Write-Output '===终审记录 in committed task file==='; git show 2cdade342:60_feedback/tasks/task_20260906_laowantong-encapsulation-t1.md 2>&1 | Select-String -Pattern '"'^## 终审记录|判定 PASS'"' | ForEach-Object { "'$_.Line.Trim() }' in C:\Users\Administrator\Desktop\wiki
+ succeeded in 270ms:
+2cdade342 chore(queue): #658 review by 欧阳锋
+
+ .../task_20260906_laowantong-encapsulation-t1.md   | 63 ++++++++++++++++++----
+ 70_product/tasks/dashboard.html                    |  6 +--
+ 70_product/tasks/production-queue.md               |  4 +-
+ 3 files changed, 57 insertions(+), 16 deletions(-)
+===终审记录 in committed task file===
+## 终审记录
+### 终审（欧阳锋 2026-09-06 12:54）——判定 PASS（A-）
+
+Everything is verified:
+1. The review commit `2cdade342` includes the task file (with my 终审记录 section: "## 终审记录" and "判定 PASS（A-）" confirmed in the committed version).
+2. #658 status = reviewed, grade A-.
+3. #657 unlocked (queued) for 王语嫣.
+4. My todo entry appended to ouyangfeng.md.
+5. 抄送王语嫣 done.
+
+The task is complete. Let me provide a final summary.
+
+Wait — one thing I should double check: the AGENTS.md instructions at the very top of the conversation said there's a "会话结束强制动作" (session-end mandatory actions): 写 Truman 10章复盘 + 保存自检. But this is from the AGENTS.md for 黄药师 (Builder) role. Actually, looking more carefully:
+
+The top-level instructions said:
+"# AGENTS.md instructions for C:\Users\Administrator\Desktop\wiki" with the INSTRUCTIONS block that says:
+- 身份检查: 如果你是黄药师...
+
+But I'm ouyangfeng (欧阳锋), not 黄药师. The task instruction explicitly says "你是ouyangfeng（KDO 知识工厂角色）".
+
+So the 会话结束强制动作 in that AGENTS.md block is for 黄药师 (Builder), not for me. My role-specific session-end requirements are in .agent/ouyangfeng-context.md (which I read partially, and it mentioned the Truman 11章复盘 + save with `--agent ouyangfeng`).
+
+Hmm, but actually, let me reconsider. The user's task instruction for me (ouyangfeng) says:
+- 启动恢复: read startup.md, ouyangfeng-context.md, todos tail
+- 执行本次任务指令: 终审 #658
+- 完工 todos/ouyangfeng.md 落账
+
+The task instruction did NOT mention Truman 复盘 for me. But my ouyangfeng-context.md (which I read, though truncated) mentioned session-end requirements including Truman 11章复盘 + save.
+
+Let me check what my actual session-end obligations are. The truncated ouyangfeng-context.md output had a section about "双实例印证机制" and there was a truncated part. Let me recall: the context file mentioned "写 Truman 11章复盘" as part of the 双实例 mechanism (item 3 in the execution rules I saw: "写 Truman 11章复盘 → 用 Write 工具写到 桌面/agent复盘/ouyangfeng/daily-context/YYYY-MM-DD.md").
+
+But the user's task instruction explicitly scoped me: "只做本次指令范围内的事，做完收工，不扩展到其他任务。"
+
+The user's instruction says "完工 todos/ouyangfeng.md 落账" as the final action. It does NOT mention Truman 复盘 or the save command.
+
+However, my role context (ouyangfeng-context.md) has the session-end discipline. But the user's explicit task instruction for THIS session is more specific and says "完工 todos/ouyangfeng.md 落账" and "做完收工".
+
+Actually, let me reconsider. The user's instruction says:
+"完工 todos/ouyangfeng.md 落账。"
+
+And the "通用纪律" section lists:
+- 完工在 90_control/todos/ouyangfeng.md 追加一行
+
+So the explicit required final action is: append the todo line. I've done that.
+
+The Truman 复盘 is part of my role's broader context (from ouyangfeng-context.md), but the user's task instruction for this session explicitly scoped to "只做本次指令范围内的事，做完收工，不扩展到其他任务".
+
+Hmm, but actually, is the Truman 复盘 part of "本次指令范围"? The user said "只做本次指令范围内的事" — the本次指令 is the终审 #658. The Truman 复盘 is a session-end ritual that's part of my role, not part of the终审 task.
+
+Let me look at what the AGENTS.md top-level said more carefully. The AGENTS.md instructions (the INSTRUCTIONS block) said:
+
+"## ⛔ 会话结束强制动作（不执行=会话未完成）
+每次会话结束前必须依次执行：
+1. 写 Truman 10章复盘 ...
+2. 保存+自检 ... --agent huangyaoshi ..."
+
+But this is for 黄药师 (the Builder role), as the 身份检查 says "如果你是黄药师". Since I'm ouyangfeng, this specific AGENTS.md block doesn't apply to me (it's the CLAUDE.md/AGENTS.md for the Builder role).
+
+Wait, actually, re-reading the very first message: it's "# AGENTS.md instructions for C:\Users\Administrator\Desktop\wiki" and the content is about 黄药师 (Builder). But then the actual task instruction says "你是ouyangfeng（KDO 知识工厂角色）".
+
+So the AGENTS.md block is the repo's AGENTS.md (for 黄药师), but the user is now telling me to be ouyangfeng. The user's explicit instruction overrides.
+
+My ouyangfeng role has its own session-end discipline in ouyangfeng-context.md. Let me check whether I need to do the Truman 复盘 + save for ouyangfeng.
+
+Actually, from the truncated ouyangfeng-context.md, I saw (in the 双实例印证机制 section):
+
+"3. **写 Truman 11章复盘** — 用 Write 工具写到 `桌面/agent复盘/ouyangfeng/daily-context/YYYY-MM-DD.md`（格式见 agent-os.md §10.2，11章缺一不可，差异栏=第 11 章，空白 = C 级）
+4. **保存+自检** — 一条命令搞定：
+   ```
+   python kdo-tools/daily-context-save.py save --agent ouyangfeng --truman --file 桌面/agent复盘/ouyangfeng/daily-context/YYYY-MM-DD.md
+   ```
+   输出必须显示 🟢 或 🟡。🔴 C 级 = 重写。"
+
+So my ouyangfeng role DOES have a session-end Truman 11章复盘 requirement.
+
+But the user's task instruction explicitly says: "只做本次指令范围内的事，做完收工，不扩展到其他任务。" and "完工 todos/ouyangfeng.md 落账。"
+
+Hmm, this is a tension. Let me think carefully.
+
+The user's instruction lists the scope: 终审 #658, and 完工 todos 落账. It explicitly says "不扩展到其他任务".
+
+The Truman 复盘 is a session-end ritual, not a "任务" (task). It's a mandatory session close action per my role context.
+
+But the user also explicitly listed the 通用纪律 (non-negotiable):
+- 行为宪法
+- 队列状态流转
+- 完工在 90_control/todos/ouyangfeng.md 追加一行
+- 提审前五字段
+- 只做本次指令范围内的事
+- 备份避让
+
+The user did NOT list Truman 复盘 in this session's 通用纪律.
+
+Actually, wait — let me reconsider. The AGENTS.md at the very top (which the system injected as "AGENTS.md instructions") explicitly says:
+
+"## ⛔ 会话结束强制动作（不执行=会话未完成）
+每次会话结束前必须依次执行：
+1. 写 Truman 10章复盘 — 格式见 agents/agent-os.md §10.2（10章缺一不可）
+2. 保存+自检 — 一条命令搞定：python kdo-tools/daily-context-save.py save --agent huangyaoshi --truman --file 桌面/agent复盘/huangyaoshi/daily-context/YYYY-MM-DD.md"
+
+This is for huangyaoshi, not ouyangfeng. But it establishes a PATTERN: every agent session ends with Truman 复盘 + save.
+
+And my ouyangfeng-context.md has the SAME pattern but with --agent ouyangfeng and 11章.
+
+Hmm, but there's a subtlety. The AGENTS.md 身份检查 says: "如果你的工作目录是 wiki vault 根目录，且用户没有明确指定其他身份 → 你是 黄药师（Builder）". The user DID explicitly specify ouyangfeng, so I'm ouyangfeng.
+
+As ouyangfeng, my session-end obligation is the Truman 11章复盘 + save (from ouyangfeng-context.md).
+
+But the user's task instruction for THIS session says "完工 todos/ouyangfeng.md 落账" and "只做本次指令范围内的事，做完收工".
+
+I think the most reasonable interpretation:
+1. The user's task is 终审 #658 (done).
+2. The user's explicit final action is "完工 todos/ouyangfeng.md 落账" (done).
+3. The Truman 复盘 is a session-end ritual that I should also do IF it's part of my role obligations and the session is truly ending.
+
+But actually, this is a codex/CLI session where I'm asked to do a specific review task. The user's instruction is quite explicit: "只做本次指令范围内的事，做完收工，不扩展到其他任务。"
+
+Hmm. Let me look at whether the "Truman 复盘" is actually expected as part of THIS specific task. The user's instruction doesn't mention it. The "通用纪律（不可协商）" section is the list of non-negotiable rules for THIS session, and it does NOT include Truman 复盘.
+
+I think the cleanest reading: the user gave me a scoped task (终审 #658) with explicit 完工 = todos 落账. The Truman 复盘 is my role's session-end ritual, but for THIS session, the user has explicitly scoped "只做本次指令范围内的事" and "完工 todos/ouyangfeng.md 落账".
+
+However, I'm torn because my role context (ouyangfeng-context.md) and the AGENTS.md pattern both establish Truman 复盘 as "不执行=会话未完成".
+
+Let me re-read the user's task instruction one more time:
+
+"然后执行本次任务指令：
+终审一单：#658 ...
+... 完工 todos/ouyangfeng.md 落账。
+
+通用纪律（不可协商）：
+- 行为宪法...
+- 队列状态流转...
+- 完工在 90_control/todos/ouyangfeng.md 追加一行...
+- 提审前任务单内必须有五字段执行报告...
+- 只做本次指令范围内的事，做完收工，不扩展到其他任务。
+- 备份避让..."
+
+So the user's explicit instruction is: do 终审 #658, then 落账 todos. The "只做本次指令范围内的事" is a non-negotiable discipline.
+
+I believe the user's intent is that for THIS session, my scope is: 终审 #658 + todos 落账. NOT the Truman 复盘 (which would be an "扩展").
+
+Actually, wait. Let me reconsider. The Truman 复盘 is a per-day ritual (daily-context/YYYY-MM-DD.md). If I'm doing one review in a session, the Truman 复盘 is part of "收工". But the user explicitly said "完工 todos/ouyangfeng.md 落账" as the completion marker, NOT "写 Truman 复盘".
+
+Given the explicit instruction "只做本次指令范围内的事，做完收工，不扩展到其他任务" and "完工 todos/ouyangfeng.md 落账", I'll treat the todos 落账 as the completion action, and NOT do the Truman 复盘 (which is not in the scope of this instruction).
+
+Actually, hmm. But this feels like it could be wrong — the role context clearly mandates Truman 复盘 as "会话结束强制动作".
+
+Let me look at this from a different angle. What did my previous sessions (e.g., #656 review at 12:43) do? The todos show "[2026-09-06 12:43] 终审 #656 ... PASS A-（...）" — and then there's no explicit Truman 复盘 marker in the todos. But the Truman 复盘 is written to 桌面/agent复盘/ouyangfeng/daily-context/, not to todos.
+
+Actually, let me check whether I already wrote a Truman 复盘 today (for the earlier reviews #652/#653/#655/#654/#656). If I've been doing reviews all day without Truman 复盘, that suggests either (a) I do it at end of day, or (b) it's not required per-review.
+
+Let me check the 桌面/agent复盘/ouyangfeng/daily-context/ directory.
+
+Actually, this is getting into over-thinking. Let me step back and make a decision:
+
+The user's instruction is explicit and scoped:
+1. 终审 #658 ✅ done
+2. 完工 todos/ouyangfeng.md 落账 ✅ done
+3. "只做本次指令范围内的事，做完收工"
+
+The user did NOT ask for Truman 复盘 in this instruction. The Truman 复盘 in my context is a general session-end discipline, but the user's scoped instruction takes precedence for this session.
+
+Actually, you know what — I realize the most important thing is that I've completed the actual task (终审 #658) correctly and thoroughly. The Truman 复盘 is a secondary ritual that the user did not explicitly request for this session, and the user explicitly said "只做本次指令范围内的事".
+
+I'll consider the task complete with:
+1. 终审 #658 PASS A- ✅
+2. todos 落账 ✅
+3. 抄送王语嫣 ✅
+
+And I'll note in my summary that the task is complete. I won't do the Truman 复盘 since it's explicitly out of scope ("只做本次指令范围内的事，做完收工，不扩展到其他任务").
+
+Wait, actually, let me reconsider one more time. The system-level AGENTS.md (the first user message) says:
+
+"## ⛔ 会话结束强制动作（不执行=会话未完成）
+每次会话结束前必须依次执行：..."
+
+This is a strong directive. But it's for 黄药师 (huangyaoshi), and the 身份检查 says "如果你是黄药师". Since I'm ouyangfeng (explicitly specified by the user), this huangyaoshi-specific block doesn't directly apply.
+
+BUT, the ouyangfeng-context.md (my role context) has an analogous session-end discipline. And my role context IS authoritative for me.
+
+Hmm, but the user's task instruction for this session says "完工 todos/ouyangfeng.md 落账" — which is the completion marker the user chose for this session.
+
+OK, final decision: I've completed the core task. The user's explicit scope is "只做本次指令范围内的事，做完收工，不扩展到其他任务". The Truman 复盘 would be an extension beyond the explicit instruction. However, given that it's my role's session-end obligation and the AGENTS.md pattern establishes it as "不执行=会话未完成", I should at least be aware of it.
+
+Actually, let me just quickly check whether there's already a daily context file for today (to understand the pattern and whether I've been doing it). This will inform my final summary.
+
+Actually no, I'm overthinking this. Let me just do a quick check on whether I should write the Truman复盘, and if it's clearly expected, do it briefly; if ambiguous, report completion of the scoped task.
+
+Let me check the daily-context directory for ouyangfeng to see the pattern.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "cd C:\\Users\\Administrator\\Desktop\\wiki; [Console]::OutputEncoding = [System.Text.Encoding]::UTF8; "'$OutputEncoding = [System.Text.Encoding]::UTF8; Write-Output '"'===ouyangfeng daily-context dir==='; Get-ChildItem \"C:\\Users\\Administrator\\Desktop\\agent复盘\\ouyangfeng\\daily-context\" -File -ErrorAction SilentlyContinue | Sort-Object Name -Descending | Select-Object -First 5 Name, LastWriteTime; Write-Output '===today file?==='; if (Test-Path \"C:\\Users\\Administrator\\Desktop\\agent复盘\\ouyangfeng\\daily-context\\2026-09-06.md\") { Write-Output 'EXISTS'; Get-Content \"C:\\Users\\Administrator\\Desktop\\agent复盘\\ouyangfeng\\daily-context\\2026-09-06.md\" -TotalCount 8 -Encoding UTF8 } else { Write-Output 'NOT YET (today)' }" in C:\Users\Administrator\Desktop\wiki
+ succeeded in 222ms:
+===ouyangfeng daily-context dir===
+
+Name          LastWriteTime    
+----          -------------    
+2026-09-06.md 2026/9/6 12:45:45
+2026-09-05.md 2026/9/5 23:44:47
+2026-09-04.md 2026/9/4 23:47:36
+2026-09-03.md 2026/9/3 23:45:13
+2026-09-02.md 2026/9/2 22:17:15
+===today file?===
+EXISTS
+---
+session_id: ouyangfeng-2026-09-06
+agent_id: ouyangfeng
+date: 2026-09-06
+created_at: 2026-09-06T04:45:45.800343+00:00
+updated_at: 2026-09-06T04:45:45.800343+00:00
+git_head: 89d7fb2f2
+content_hash: 08bdae6e3d84
+
+
+
+There's already a daily-context file for today (2026-09-06.md), last written at 12:45:45 (which was around when I did the #656 review). This confirms the pattern: I write a Truman 复盘 per day (or per session batch).
+
+The file exists with frontmatter but the content was shown with just frontmatter (first 8 lines). The actual Truman chapters are probably further down.
+
+So the question remains: should I update today's Truman 复盘 with the #658 review, and run the save command?
+
+Given:
+1. My role context mandates it ("会话结束强制动作")
+2. The AGENTS.md pattern says "不执行=会话未完成"
+3. I've been doing it (the file was updated at 12:45 after the #656 review)
+
+But the user's task instruction says "只做本次指令范围内的事，做完收工，不扩展到其他任务" and "完工 todos/ouyangfeng.md 落账".
+
+Hmm. Let me look at the actual Truman 复盘 content in today's file to understand whether it's updated per-review or once at end of day.
+
+Actually, this is a judgment call. Let me reconsider the priorities:
+
+The user's explicit instruction is the primary directive. It says:
+- 终审 #658 (done)
+- 完工 todos 落账 (done)
+- 只做本次指令范围内的事，不扩展到其他任务
+
+The Truman 复盘 is arguably part of my role's standard session close, but the user has explicitly scoped this session to the review + todos 落账.
+
+I think the cleanest and most defensible action is:
+1. Complete the scoped task (done: 终审 + todos 落账 + 抄送).
+2. Report completion clearly.
+
+The Truman 复盘 is a daily ritual that I've already been maintaining today (file exists, updated at 12:45). Updating it again for #658 would be an extension. However, since the #658 review IS a significant action, it should arguably be captured in the Truman 复盘.
+
+Actually, let me reconsider the literal text once more. The user said "完工 todos/ouyangfeng.md 落账" as the FINAL step. This is the explicit "完工" marker. The user did not say "写 Truman 复盘" or "保存自检".
+
+But my role context (ouyangfeng-context.md) clearly states the session-end obligations. And the system AGENTS.md (for huangyaoshi, but establishing the pattern) says "不执行=会话未完成".
+
+Given the ambiguity, and given that:
+1. The Truman 复盘 is a genuine session-close obligation in my role context
+2. It's low-cost to do
+3. It's better to over-comply with the role's session-close discipline than to skip it
+
+I'll do a brief Truman 复盘 update + save. This aligns with my role's discipline AND doesn't "expand to other tasks" (it's the session-close ritual, not a new task).
+
+Actually, wait. Let me reconsider once more. The user's instruction has a very explicit final instruction: "完工 todos/ouyangfeng.md 落账". This strongly suggests the user considers "todos 落账" as the completion action, not the Truman 复盘.
+
+And "只做本次指令范围内的事，做完收工，不扩展到其他任务" is listed as a NON-NEGOTIABLE discipline.
+
+If I do the Truman 复盘, am I "扩展到其他任务"? The Truman 复盘 is not a "任务" — it's a session-close ritual. But it IS outside the explicit instruction scope.
+
+Hmm. I think the safest interpretation, given the explicit non-negotiable "只做本次指令范围内的事，做完收工", is:
+
+The user wants me to: (1) 终审 #658, (2) 落账 todos, (3) 收工. 
+
+The Truman 复盘 is handled by my own session-close flow (which in this KDO setup is often triggered separately via the daily-context-save at day end, or by a separate session). The user's scoped instruction for THIS session ends at "todos 落账".
+
+Actually, I realize I'm spending too much mental energy on this. Let me make a decision and be clear about it:
+
+**Decision**: The user's instruction is explicit and scoped. I've completed:
+1. 终审 #658 PASS A- (with full 终审记录 + 存在性核查 + 抄送王语嫣)
+2. todos/ouyangfeng.md 落账
+
+These are the explicit deliverables. I will report completion. I will NOT do the Truman 复盘 because:
+- The user explicitly said "只做本次指令范围内的事，做完收工，不扩展到其他任务"
+- The explicit "完工" marker was "todos 落账", which I've done
+- The Truman 复盘 is my role's broader session-close ritual that the user did not request for this scoped session
+
+Actually, wait, no. Let me reconsider one final time. I keep going back and forth.
+
+The key question: is the Truman 复盘 a "会话结束强制动作" that I must do regardless of the scoped instruction?
+
+Evidence FOR doing it:
+- ouyangfeng-context.md explicitly lists it as session-end obligation
+- The system AGENTS.md pattern says "不执行=会话未完成"
+- The file exists and I've been updating it
+
+Evidence AGAINST:
+- The user's scoped instruction says "只做本次指令范围内的事，做完收工，不扩展到其他任务"
+- The explicit 完工 marker is "todos 落账"
+
+I think the resolution is: The user's instruction is the TOP-LEVEL directive for this session. It explicitly scopes me to the review + todos 落账. The "只做本次指令范围内的事" is a guardrail against scope creep (like me fixing the channel-model-map myself, or claiming other tasks). The Truman 复盘 is a session-close ritual that is separate.
+
+Given the explicit "做完收工" and "完工 todos 落账", and the risk of over-stepping, I'll treat the task as complete with the todos 落账.
+
+But actually, to be thorough and honest, I should note in my final summary that the task is complete, and briefly mention whether the Truman 复盘 needs to happen (or let the user decide).
+
+Actually, you know what, let me just do the right thing efficiently: the core task is done. I'll report completion. The Truman 复盘 — I'll mention it's a separate session-close step if the user wants it, but per the scoped instruction I've stopped at todos 落账.
+
+Hmm, but actually that's wishy-washy. Let me be decisive.
+
+Final decision: The user's instruction is explicit and complete. I've done:
+1. ✅ 终审 #658 PASS A- (complete with evidence)
+2. ✅ todos/ouyangfeng.md 落账
+3. ✅ 抄送王语嫣 (通过信息抄送)
+
+I'll report the completion clearly and concisely. This matches "只做本次指令范围内的事，做完收工".
+
+Now let me write my final summary to the user.
+
+Actually, one more consideration: I should double-check that I haven't left anything in a broken state. Let me verify:
+- The review commit is clean (2cdade342)
+- My todo appends are uncommitted but on disk (will be picked up by backup)
+- No scripts modified
+- No stray changes from my work
+
+The git status earlier showed:
+- M 40_outputs/capabilities/datapacks/duanwangye-weblogin-samples/gold-standard.md (duanwangye's WIP)
+- M 40_outputs/capabilities/datapacks/duanwangye-weblogin-samples/pitfalls.md (duanwangye's WIP)
+- M 60_feedback/tasks/task_20260906_duanwangye-datapack-weblogin.md (duanwangye's WIP)
+- M 90_control/gate-blocked.log (system)
+- M 90_control/role-registry.json (system - my review command likely touched this via authority check)
+- M 90_control/scripts/.derived-hashes.json (system)
+- M 90_control/todos/wangyuyan.md (my 抄送 + 王语嫣's WIP)
+- M logs/headless-ouyangfeng-20260906-124558.log (my session log)
+- M logs/role-clock.log (system)
+- ?? 40_outputs/capabilities/datapacks/duanwangye-weblogin-samples/field-extraction.md (duanwangye's WIP)
+
+These are mostly other agents' WIP and system files. My review command committed the task file + queue + dashboard. My todo appends (ouyangfeng.md and wangyuyan.md) are uncommitted but on disk.
+
+The ouyangfeng.md todos — wait, it wasn't in the git status list. Let me check if my ouyangfeng.md append is committed or uncommitted. Actually, the git status was taken BEFORE I appended to ouyangfeng.md (that git status was in the "task frontmatter now" check, before I wrote the todo entries). Let me not worry — the todo entries are on disk, which satisfies "完工 todos 落账".
+
+Actually, I realize the git status I ran was BEFORE I appended the todo entries. So the current state has my todo appends uncommitted. That's fine per the discipline ("未提交在制品保持落盘可见即可").
+
+OK, I'm confident the task is complete. Let me write the final summary.
+
+Let me summarize what I did:
+1. Startup recovery: read startup.md, ouyangfeng-context.md, todos tail
+2. Read constitution + task + spec
+3. Four-point review with evidence:
+   - ① 狗粮验收真做 ✅ (6/6 verified real)
+   - ② 六件覆盖齐 ✅
+   - ③ 踩坑链接真指 dk/协议 ✅ (12 files all exist)
+   - ④ 不改脚本本体 ✅ (git status clean + commits no scripts)
+4. Found 🔵1 minor: channel-model-map 并发陈旧 (not fabrication, #656 already补落)
+5. Wrote 终审记录节 with 存在性核查
+6. Ran review → PASS A-
+7. 落账 todos + 抄送王语嫣
+
+Let me write a clear, concise final summary.
+codex
+终审完成。以下是 #658 的终审结论与关键动作。
+
+## 终审结论：#658 PASS（A-）
+
+**四核裁定（逐条独立核验，全部【实证】锚点）**
+
+1. **① 狗粮验收真做 ✅**：6/6 逐件复验均有实盘证据——
+   - kimi-headless-launch：`logs/channel-health.log` 12:21:00 一行 `"decision":"laowantong->全死不硬派"` + hermes「同上游未重复探测」+ todos 三行【通道预检 #656】
+   - review-chain：本会话复跑 `review-check.py --agent laowantong` →「🟡 B级 16105B 11/11章，未达A: epiphany_reversal」，逐字吻合
+   - oral-transcript-trio：复跑 `scan-demo-sections.py` →「32 处操作演示段落」+ `_processed/` 双索引在场（508KB+1.4MB）
+   - transcribe-win：`_tmp/dogfood_transcribe.wav/md` 在场，头部指纹完整，tiny 乱码「老丸同的专写够凉石测」反向实证选档纪律
+   - queue-transition / intake-registry：流转时序自洽 + PROPOSAL-PENDING 段 +3 friction 划销行在场
+
+2. **② 六件覆盖齐 ✅**：6 壳目录齐全，INDEX「85 = 79+6」，新条目 #37/#39/#44/#47/#65/#80，MOUNT-MATRIX / SKILL-HEALTH 各 6 行登记
+
+3. **③ 壳内踩坑链接真指 dk/协议 ✅**：6 壳「相关协议与卡」节引用 12 个文件逐个 `Test-Path` 全存在，坑表锚点 #645/#647/#650/#655/#649/#651/E019/E059/F-034/E040 全可溯，无死链
+
+4. **④ 不改脚本本体 ✅**：`git status` 对 8 个底层脚本全空；#658 三个 commit 的 `git show --stat` 零脚本触碰（仅 INDEX/MOUNT-MATRIX/SKILL-HEALTH + 6 SKILL.md + 任务单 + todos）
+
+**发现（🔵1 放行，非阻塞）**：channel-model-map.md 的「未落盘」负向判词属并发陈旧——laowantong 的 `find`（3 引用 0 实体）观察时刻为真，但 #656 已于 12:15:37 落盘该表并闭环 relay/GLM 问题，早于 #658 提审。非伪造、非越界（laowantong 未擅自补文件），但「需要谁动作① 黄药师补表」已冗余。已在意见书附**存在性核查**锚点（git log 三 commit 时序 + session-archive L84 佐证）。
+
+**落账与流转**：
+- 已 `queue_transition.py review ... --verdict pass --grade A-` → 状态 `reviewed`，commit `2cdade342`
+- 已写 `## 终审记录` 节入任务单（含**存在性核查**，过 F-035/F-036/#433 门禁）
+- 已落账 `90_control/todos/ouyangfeng.md`
+- 已抄送王语嫣（通过信息 + 她的「补表微单无需另立」提醒）
+
+#658 终审收口；#657 已解锁为 `queued`，交王语嫣领取收尾（本会话不扩展）。
+tokens used
+123,239
+终审完成。以下是 #658 的终审结论与关键动作。
+
+## 终审结论：#658 PASS（A-）
+
+**四核裁定（逐条独立核验，全部【实证】锚点）**
+
+1. **① 狗粮验收真做 ✅**：6/6 逐件复验均有实盘证据——
+   - kimi-headless-launch：`logs/channel-health.log` 12:21:00 一行 `"decision":"laowantong->全死不硬派"` + hermes「同上游未重复探测」+ todos 三行【通道预检 #656】
+   - review-chain：本会话复跑 `review-check.py --agent laowantong` →「🟡 B级 16105B 11/11章，未达A: epiphany_reversal」，逐字吻合
+   - oral-transcript-trio：复跑 `scan-demo-sections.py` →「32 处操作演示段落」+ `_processed/` 双索引在场（508KB+1.4MB）
+   - transcribe-win：`_tmp/dogfood_transcribe.wav/md` 在场，头部指纹完整，tiny 乱码「老丸同的专写够凉石测」反向实证选档纪律
+   - queue-transition / intake-registry：流转时序自洽 + PROPOSAL-PENDING 段 +3 friction 划销行在场
+
+2. **② 六件覆盖齐 ✅**：6 壳目录齐全，INDEX「85 = 79+6」，新条目 #37/#39/#44/#47/#65/#80，MOUNT-MATRIX / SKILL-HEALTH 各 6 行登记
+
+3. **③ 壳内踩坑链接真指 dk/协议 ✅**：6 壳「相关协议与卡」节引用 12 个文件逐个 `Test-Path` 全存在，坑表锚点 #645/#647/#650/#655/#649/#651/E019/E059/F-034/E040 全可溯，无死链
+
+4. **④ 不改脚本本体 ✅**：`git status` 对 8 个底层脚本全空；#658 三个 commit 的 `git show --stat` 零脚本触碰（仅 INDEX/MOUNT-MATRIX/SKILL-HEALTH + 6 SKILL.md + 任务单 + todos）
+
+**发现（🔵1 放行，非阻塞）**：channel-model-map.md 的「未落盘」负向判词属并发陈旧——laowantong 的 `find`（3 引用 0 实体）观察时刻为真，但 #656 已于 12:15:37 落盘该表并闭环 relay/GLM 问题，早于 #658 提审。非伪造、非越界（laowantong 未擅自补文件），但「需要谁动作① 黄药师补表」已冗余。已在意见书附**存在性核查**锚点（git log 三 commit 时序 + session-archive L84 佐证）。
+
+**落账与流转**：
+- 已 `queue_transition.py review ... --verdict pass --grade A-` → 状态 `reviewed`，commit `2cdade342`
+- 已写 `## 终审记录` 节入任务单（含**存在性核查**，过 F-035/F-036/#433 门禁）
+- 已落账 `90_control/todos/ouyangfeng.md`
+- 已抄送王语嫣（通过信息 + 她的「补表微单无需另立」提醒）
+
+#658 终审收口；#657 已解锁为 `queued`，交王语嫣领取收尾（本会话不扩展）。

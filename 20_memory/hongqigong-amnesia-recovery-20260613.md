@@ -57,7 +57,8 @@ type: memory/role-recovery
   - 模型铁律：**只用 MiniMax-M3**，`abab6.5s-chat` 禁用（7% 随机失败）
 - **2026-08-16**：①Live259《爆炸式调研》全量收官（Windows 场）——47 图 OCR+VLM 173/173 段零失败（cap_hub.vlm 链路 + `_batch_ocr.py` Windows 版）+4 PDF 原生文本直提 183k 字符+口述 6718 行消化+47 图映射表+建议书（P0×4/P1×7/P2）交王语嫣，全落 `00_inbox/爆炸式调研/`；新增 **E025**（上下文注入术语渗入编造——注入词表须配"禁止替换图中标题"禁令，框架图必人工抽核标题/箭头/颜色）。②《AI×知识管理探索营》收官——25 图 42/42 段零失败+口述 3510 行消化（无拼接）+建议书（P0×6/P1×9/dk×6+KDO 照镜子专节：PatrolKit 巡查是 KDO 缺口）落 `00_inbox/AI知识库/`；E025 禁令进 prompt 首战生效；新纪律"OCR 不等消化，两路并行"
 - **2026-09-06**：老朱直派单（多模态直派首例，落账 `90_control/todos/hongqigong.md` 首建）——《AI组织行为学的口述.pdf》逐字稿交付王语嫣 #657 暗知识体检。**两个状态变更**：① **minimax 额度已耗尽**【实证：`api.minimaxi.com` 返 1008 insufficient balance，09-06】——所有 M3 链路（cap_hub.vlm/chatcompletion_v2/anthropic 兼容）全断，充值决策在老朱（建议书 `60_feedback/diagnosis/建议书_20260906_minimax额度耗尽多模态管线.md`）；② **实例自身视觉升格为第二引擎**——PDF 逐字保真任务实测三源校勘 2087/2087 零差异，优于 VLM 转录（漏 3 字），"不增不删"级任务原文优先级：**文档自有文本层 > 实例视觉 > VLM 转录**。
-- **当前**：本单已交付，待命。任务由欧阳锋派（看 `70_product/tasks/production-queue.md` + `.agent/context.md`）；直派单落 todo 文件
+- **2026-09-06（会话二，#660）**：**DataPack 库首件落地**——识图金标准库 `40_outputs/capabilities/datapacks/hongqigong-vision-goldstandard/`（README 置信三档表 + gold-samples.md 金标准 6 组 + pitfall-cases.md 踩坑 9 例+无病例声明 2 类），全真实案例附来源锚。角色级新职责实装：**Skill 管步骤、DataPack 管判定**——识图类任务领取后先挂本包对照置信档；新病例先入错误模式库（E0xx）再同步 pitfall-cases.md。已提审 pending_review 等欧阳锋终审。
+- **当前**：#660 已提审待终审。任务由欧阳锋派（看 `70_product/tasks/production-queue.md` + `.agent/context.md`）；直派单落 todo 文件
 
 ---
 

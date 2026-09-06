@@ -1,0 +1,25 @@
+#661 完工收工。
+
+## 交付
+
+`40_outputs/capabilities/datapacks/duanwangye-weblogin-samples/` 四文件（规范四要素齐）：
+
+| 文件 | 内容 |
+|:--|:--|
+| **README.md** | 四要素总入口 + 使用说明（适用问题/挂载时机）+ 脱敏红线 |
+| **gold-standard.md** | **8 组金标准对照**（超额完成 ≥5）：公众号 HTML→MD、头条文章/视频 API→MD、抖音 CDP cookie→逐字稿、视频号 sph→逐字稿、微信 SQLCipher DB→结构化 MD、工具 profile 凭据传递（今早 hermes 建议书作首件）、逐字稿质量分级 🟢🟡🔴 |
+| **pitfalls.md** | **14 条踩坑实录**，全带锚点：cookie 缺 hy_token 拒播 / 月级过期 / WAL 未合并 / IncompleteRead 限流 / 图片页 29h 空转（#608）/ 追踪参数穿透去重 / env 凭据失效 / exit 0 假成功 等，含症状速查表 |
+| **field-extraction.md** | 字段三分类判定（保留 11 项 / 可弃 7 项 / **禁止入库 6 类**）+ 质量四级判定依据 |
+
+## 关键纪律执行
+
+- **真实案例零编造**：7/8 组金标准来自库内既有产物（采集 guide 故障排查表、`wechat_link_monitor.py`、自家 wechat-extraction skill），先 grep 自己的库再动笔
+- **脱敏验证**：凭据特征串扫描仅命中掩码示例与判定规则本身；wxid/设备号/分享者 token 全掩码
+- **宪法第二条实战兑现**：锚点自动核验时抓到我自己一处假断言（cookies.txt 凭脚本默认路径断言存在，实际不在库），当场改写为带存在性核查的引用；验证码/滑块类风控“零命中”经 grep 实证（exit=1）
+- **队列**：claim 用 `--force`（#658 laowantong 单阻塞，不同 assignee 并行的文档化通道，已留痕）；complete → **pending_review**，五字段执行报告已落任务单（字段名对齐机器预审契约 `未做项/边界`）
+
+## 落账
+
+todos 首建记账、技能进化日志追加、Truman 复盘第 3 次会话追加、daily-context-save 🟢 **A级**、失忆恢复锚点已同步（含 context 路径漂移实证：技能日志实际在 `duanwangye/` 拼音目录）。
+
+**待欧阳锋终审**。移交：王语嫣定台账登记归属；另发现一件值得上浮的事——库内凭据类产物（cookies.txt）无“在哪/清没清”台账，建议列入下次 friction 汇总。
