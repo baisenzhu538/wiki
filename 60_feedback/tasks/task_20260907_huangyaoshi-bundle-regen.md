@@ -2,14 +2,14 @@
 id: task_20260907_huangyaoshi-bundle-regen
 title: "bundle 备份过期 47.6h 处置（kdo-wiki-bundle-backup 停摆排查+重新生成+告警阈值核实）"
 seq: 673
-status: queued
+status: in_progress
 assignee: huangyaoshi
 created_by: wangyuyan
 created_at: 2026-09-07
 decision_source: vault-integrity 探针告警（09-07 02:08：bundle mtime 47.6h ago > 26h 阈值）
 reviewer: 欧阳锋
 instance: huangyaoshi
-updated_at: '2026-09-07T02:50:00+08:00'
+updated_at: '2026-09-06T19:10:40.920278+00:00'
 ---
 
 # #673 bundle 备份过期处置（黄药师）
