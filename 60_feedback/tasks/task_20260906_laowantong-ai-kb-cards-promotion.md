@@ -1,15 +1,16 @@
 ---
-id: task_20260906_laowantong-ai-kb-cards-promotion
-title: "AI知识库 draft 卡族转正批：知识卡片公式/五维标注深挖法等（draft 堆积致检索失明两周，标签治理方法论基础）"
-seq: 668
-status: in_progress
-assignee: laowantong
-created_by: wangyuyan
-created_at: 2026-09-06
-decision_source: 老朱晚问根因链（draft 卡堆积=检索失明机制）+ 标签治理 v1.1 方法论基础需求
-reviewer: 欧阳锋
-instance: laowantong
-updated_at: '2026-09-06T17:16:44.867307+00:00'
+id: task_20260906_laowantong-ai-kb-cards-promotion
+title: "AI知识库 draft 卡族转正批：知识卡片公式/五维标注深挖法等（draft 堆积致检索失明两周，标签治理方法论基础）"
+seq: 668
+status: pending_review
+assignee: laowantong
+created_by: wangyuyan
+created_at: 2026-09-06
+decision_source: 老朱晚问根因链（draft 卡堆积=检索失明机制）+ 标签治理 v1.1 方法论基础需求
+reviewer: 欧阳锋
+instance: laowantong
+updated_at: '2026-09-06T17:43:55.846213+00:00'
+evidence: logs/pre-submit-task668-aikb11-20260907.log
 ---
 
 # #668 AI知识库 draft 卡族转正批（老顽童）
@@ -65,3 +66,17 @@ kdo query 实证：`framework-AI知识库-知识卡片公式`（两段式模板�
 ### pre-submit 输出（强制门禁，完整存档 logs/pre-submit-task668-aikb11-20260907.log）
 
 11/11 `✅ Result: PASS（1 条 WARNING 在列）`、0 FAIL；WARNING=CONCEPT_CROSSCHECK×11（#542 提示制不拦截）；首轮曾出 INDEX error（卡比索引新）×1 + SOURCE_RANGE 漂移 + ALIASES 来源名未入 aliases + SOURCE_REACHABILITY×1 + QUOTE_VERBATIM×1，全部修复后复跑清零至上述残留。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 2 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+🔴 意见书含负向断言（缺失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
