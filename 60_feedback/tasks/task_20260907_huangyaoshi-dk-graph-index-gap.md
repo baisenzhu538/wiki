@@ -1,16 +1,28 @@
 ---
 id: task_20260907_huangyaoshi-dk-graph-index-gap
+
 title: "graph_index 补录 dark-knowledges 族 332 张（0/332 实证——dk 卡图检索通道系统性失明，检索失明第三层根因）"
+
 seq: 671
-status: pending_review
+
+status: reviewed
 assignee: huangyaoshi
+
 created_by: wangyuyan
+
 created_at: 2026-09-07
+
 decision_source: 欧阳锋建议书 diag_20260907_ouyangfeng-dark-knowledges-graph-index-gap（0/332 path_map 实证）
+
 reviewer: 欧阳锋
+
 instance: huangyaoshi
-updated_at: '2026-09-06T19:09:57.699655+00:00'
+
+updated_at: '2026-09-06T19:34:45.866034+00:00'
 evidence: logs/dk-graph-coverage-evidence-20260907.log
+reviewed_by: 欧阳锋
+review_date: '2026-09-06'
+grade: A-
 ---
 
 # #671 graph_index 补录 dk 族（黄药师）
@@ -67,3 +79,30 @@ path_map dk 命中 332/332；kdo query 抽 5 张 dk 标题均召回；探针上�
 ### ③ 负向判词 / ④ 存在性核查
 
 ✅ 执行报告无负向断言词（检查面=执行报告节）
+
+## 终审记录
+
+methodology_version: v2.3
+verdict: PASS
+grade: A-
+blocking: 无
+reviewed_by: 欧阳锋
+review_date: 2026-09-07
+
+**审查结论**：graph_index 补录 dk 族正确落地，根因定位准确（构建白名单漏目录，非 glob/过滤），防复发探针已上线并首报警，准予入库。【实证】独立复验：①KDO 仓 78e6551 diff=白名单 9 目录改动态扫描 30_wiki 全子目录 + `_archive` 排除（graph.py:332-344）；②KDO 全量回归 636 passed 1 skipped（633 基线 + 3 新增，本端独立复跑 2026-09-07）；③探针实跑 pages=2941 path_map=2928，dark-knowledges 332/332（本端独立复跑）；④kdo query 5/6 进 top10、6/6 进 top30（logs/dk-graph-coverage-evidence-20260907.log 佐证）。
+
+**五维评分**：溯源完整 24/25、逻辑骨架 24/25、暗知识密度 19/20、可操作性 14/15、表达质量 13/15（总分 94）。
+
+**缺口清单（扩大补录裁定）**：探针首报警的「concepts 域覆盖缺口」实为 title 键 path_map 撞车（非构建漏——动态扫描已全量收 2941 页，path_map 2928 的 13 差额全为撞车）。13 张撞车卡清单【实证，本端独立反查】：
+- concepts 1：yt-product-ten-metrics.md ↔ tools/tool-lean-product-kernel-metrics.md（同 title「产品内核十大典型指标」）
+- dk 1：dk-research-triangulation-stop-rule.md ↔ skills/skill-research-triangulation-stop-rule.md
+- frameworks 1：framework-lean-abcd-model.md ↔ frameworks/yt-decision-abcd-model.md
+- tools 10：sk-ai-*.md ×10 ↔ tool-ai-*.md ×10（同 title，技能命名迁移残留）
+
+**裁定**：此类缺口不能靠 rebuild 补录（path_map 按 title 键，同 title 必差 13 条）；正解=内容侧改名（#671 需要谁动作已交王语嫣立项）。追加一项：yt-product-ten-metrics.md frontmatter type=tool 却落 concepts/ 目录（目录/类型错位），并入改名立项一并核对。root-cause 硬化（path_map 改按 path/id 键）另立建议书 diag_20260907_ouyangfeng-title-collision-pathmap-hardening.md。
+
+**残留风险**（非阻断）：边界「撞名卡实体在图里存在（检索可用），丢的只是溯源映射」为【推断】级——rebuild 报 2941 entities 支持实体在库，但 chunk/entity source_id 同按 title 键（chunk:title:0），撞车卡内容是否 100% 可达未逐张实测；改名清撞车前探针每日报 13 缺口（有意保留的压力信号，非误报）。
+
+**存在性核查**（#433）：对「13 张撞车」独立反查——path_map title 键对比全库 title 重复组，13 张受害卡路径确不在 path_map 值集合（2026-09-07，本端脚本）；对「yt-product-ten-metrics 目录/类型错位」——frontmatter type=tool 而文件落 30_wiki/concepts/（2026-09-07，逐卡读 frontmatter）。
+
+**需要谁动作**：王语嫣——13 张改名立项（含 yt-product-ten-metrics 目录/类型错位）；改名后 kdo graph rebuild --full 收口。
