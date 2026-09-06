@@ -793,3 +793,6 @@
 2026-09-07 03:19:20｜graph-index-coverage｜graph index 覆盖缺口｜30_wiki/tools 部分卡未入索引（1027/1037）｜graph-index-coverage-probe
 2026-09-07 03:19:20｜graph-index-coverage｜graph index 覆盖缺口｜标题撞车致 13 张卡被 path_map 覆盖丢失：yt-product-ten-metrics.md, dk-research-triangulation-stop-rule.md, framework-lean-abcd-model.md, sk-ai-ai-workspace-setup.md, sk-ai-evidence-check.md 等 13 张（同名 title 后者覆盖前者—｜graph-index-coverage-probe
 2026-09-07 04:12:01｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 7336.8), ('cli', 44.9)]）｜role_registry check-liveness｜role_registry
+2026-09-07 04:32:16｜task_20260907_huangyaoshi-pathmap-key-hardening｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
+  - untracked: logs/pathmap-hardening-674-20260907.log
+补救：｜huangyaoshi

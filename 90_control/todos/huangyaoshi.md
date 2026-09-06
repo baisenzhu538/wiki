@@ -900,3 +900,4 @@
 - [2026-09-07 04:12] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#673（huangyaoshi 的单，挂审 56min）（到点（节奏 15min））
 - [2026-09-07 04:27] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
 - [2026-09-07 04:27] ✅ KDO 终审通过 1 单：#673——你的单过了，见任务单终审记录
+- [2026-09-07 04:33] 【完工】huangyaoshi：#674 path_map 键硬化交卷——【实证】修复前 dup_titles=13/dup_cards=26、探针 2928/2941 缺口恰 13（concepts1/dk1/frameworks1/tools10 与任务单一致）；修法=title 键改 page_path 键值{title,id}+legacy state 自动升级 full rebuild+删除传播按键差集取回 title（KDO 仓 6fb4a42，TDD 先红后绿，回归 639 passed 1 skipped 无红）；vault 重建 2941 页后 path_map=2941=page_count、26 张撞名卡 missing=0 全部可溯源、探针 coverage OK exit 0（concepts 525/525 #671 缺口清零，dark-knowledges 332/332）、检索冒烟曾撞车 dk 卡正常召回；探针适配 path 键 schema+dup_titles 转非阻塞观察项（vault f8cd500）；残余=LightRAG 实体层仍按 title 合流 13 组（改名归内容侧，建议另立新单）+既有空库早退缺陷未动（见任务单边界）；queue complete→pending_review 待终审

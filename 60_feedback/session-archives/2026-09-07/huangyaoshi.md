@@ -2,10 +2,10 @@
 session_id: huangyaoshi-2026-09-07
 agent_id: huangyaoshi
 date: 2026-09-07
-created_at: 2026-09-06T19:22:02.301004+00:00
-updated_at: 2026-09-06T19:22:02.301004+00:00
-git_head: 6de5da2c3
-content_hash: efdf15660189
+created_at: 2026-09-06T20:35:26.507391+00:00
+updated_at: 2026-09-06T20:35:26.507391+00:00
+git_head: d7270e81f
+content_hash: 455d95962a45
 ---
 
 # huangyaoshi · 2026-09-07
@@ -153,3 +153,73 @@ content_hash: efdf15660189
 1. 任务单含「疑似/待查」字样的初判 → 列成待证命题清单，逐条验完再定根因（本场 #673 已做到，但起点仍被带偏一段——下次第一轮就列）。
 2. 探针/脚本输出设计 → 同类计数项并排打印，防肉眼串行；循环内不做集合重建。
 3. 告警阈值类处置 → 先问阈值的日历假设是否还成立，再调数值。
+
+# 黄药师 daily-context 2026-09-07 三场（claude 通道场，04:14–04:33，#674 单）
+
+## 差异栏（第 1 章）
+
+1. vs 同日次场（#671+#673）：次场是「检索失明」（目录没进索引）与「告警误报」（阈值日历过时），本场是「溯源被静默吞掉」——索引里有 2928 条映射但 13 张卡被同 title 键覆盖，探针报的是缺口、根因却是数据结构撞车。三层病灶递进：不进索引→进了但报假警→进了但互相覆盖。
+2. 本场任务单初判（欧阳锋 graph.py:424 title 键定位）【实证】为真——连续三场「初判不准」定律在本场被打破，差别在于本场初判来自代码锚点而非现象猜测：**带行号锚点的初判可信度远高于叙事性初判**。
+3. 新踩的坑（自我违纪一次）：图省事手改任务单 frontmatter status，被自己当场抓住回滚——铁律「状态流转只走 queue_transition」在 complete 动作前最容易破（完成感触发，B1 牌同构）。已落 friction-log。
+
+## 概要
+
+#674 交付：graph_state path_map 键硬化——title 键改 page_path 键（文件系统唯一），值改 `{title, id}`（title 降为展示属性）；读侧 legacy 检测（str 值=pre-#674 state 自动强制 full rebuild，vault 重建实弹触发一次）；增量删除传播改按键差集、LightRAG doc_id 仍从 entry.title 取回；TDD 先红后绿（红=`1 != 2 : ['dup-card']` 撞车复现）+3 新例，全量回归 639 passed 1 skipped 无红；vault `rebuild --full` 2941 页后 path_map=2941=page_count、26 张撞名卡 missing=0 全部可溯源；#671 探针适配新 schema（缺口判定改按键、dup_titles 转非阻塞观察项），coverage OK exit 0、concepts 525/525 #671 缺口清零。KDO 仓 6fb4a42 + vault f8cd500，complete→pending_review。
+
+## 关键决策
+
+| 决策 | 理由 | 结果 |
+|:---|:---|:---|
+| 键用 page_path 而非 frontmatter id | path 文件系统唯一是硬保证；id 可缺省（实测 10 张无 id）也会撞——任务单「path（或 id）」二选一里 path 是唯一性更强的那个 | path_map=2941 与 page_count 严格相等 |
+| 值用 `{title, id}` 结构而非裸路径字符串 | 任务单要求「title 保留为展示属性」；结构化值给 id 留位，schema 自描述 | legacy str 值恰好成为格式判别器（isinstance 检测零额外字段） |
+| legacy state 不做迁移补丁，直接强制 full rebuild | 增量 diff 在旧键语义下不可信；full 重建成本低（~1min）且顺带清掉历史撞车残留 | 重建实弹触发升级打印一次 |
+| LightRAG 实体层（entity_name=title）不越界去动 | 本单范围=path_map；KG 层硬化/撞名卡改名属新单（改名是内容侧流程，B4 边界） | 13 组图内合流如实写进边界节，交欧阳锋/王语嫣裁量 |
+| 探针同 title 降为非阻塞观察项而非 anomaly | 改名完成前 anomaly 会永久红灯=门禁噪音；缺口判定（按键）才是 #674 后的真实信号 | exit 0 恢复，dup_titles=13 仍进 --json 可见 |
+
+## 思维盲点
+
+1. 第一版删除传播测试只放一张卡就删——踩中 `graph.py:358` 空库早退的既有边界（`if not pages: return`），删除传播对「删空最后一页」不触发。这是 pre-existing 缺陷，但我的测试先替我把场景撞了出来；修测试时差点顺手去修代码（越范围），停住只记录。
+2. 在 complete 前手改了 status 字段——「提审即流转」两步的机械动作被我压缩成一步手写，纪律敏感度在收尾段最低。靠「禁止手改」铁律的自查意识抓回，不是靠流程抓的（流程没有这道检查——这是个真实缺口）。
+3. 验收脚本第一版直接写在 bash -c 里被反斜杠转义咬了一口——Windows 路径+内联 python 的组合不该再试，直接落 _tmp 临时脚本。
+
+## 顿悟
+
+1. 「撞车」类缺陷的修复顺序：先硬化键（结构根除），再谈数据修复（改名）——键错了，改多少张卡名都只是把覆盖关系挪个位置。这与 #671 的「白名单改动态扫描」同一公式：**修生成机制，不修生成结果**。
+2. 格式变更的最稳迁移策略不是兼容读，而是「用格式自身特征做判别器」：str 值=旧、dict 值=新，一个 isinstance 同时完成检测与分流，不需要版本号字段。
+3. 门禁报错信息即接口文档本场再次验证（E040 提示直接给出补救命令）；但「手改 status」没有对应门禁——queue_transition 只守队列行，不守任务单 frontmatter 的写入路径，这是下一个可挂钩子的跃迁点。
+
+## 过程资产
+
+| 新增/更新 | 路径 |
+|:---|:---|
+| path_map 键硬化+legacy 升级+删除传播适配（KDO 仓 6fb4a42） | Knowledge Delivery OS 0.0.1/kdo/commands/graph.py |
+| 回归 3 例（撞车根除/删除传播 AsyncMock/legacy 升级） | Knowledge Delivery OS 0.0.1/tests/test_graph.py |
+| 探针适配 path 键 schema+dup_titles 观察项（vault f8cd500） | 90_control/scripts/graph-index-coverage-probe.py |
+| 验收实证日志（修复前后基线+重建+探针全链） | logs/pathmap-hardening-674-20260907.log |
+
+## 元反思
+
+本场 19 分钟闭环，纪律链完整：sequence 领单（#655 窗口，名下 #673 挂审不阻塞）→ 消费方全景盘点（path_map 读写方 4 处全摸清才动手）→ TDD 先红后绿 → vault 实地重建验收 → 五字段+E040 入仓。唯一违纪（手改 status）已落 friction-log 并在本栏留痕。改进项：complete 动作是纪律薄弱点，下次写完执行报告后固定先跑 queue_transition complete、绝不碰 frontmatter。
+
+## Truman复盘
+
+### 逐轮映射
+
+| 轮次 | 人做了什么 | 双三角 | AI做了什么 | 双三角 |
+|:---|:---|:---|:---|:---|
+| 1 | 派单（#674 范围+修法方向已由欧阳锋定位到行） | 定方向 | sequence 领单+消费方全景盘点 | 执行 |
+| 2 | — | — | TDD 红绿+键设计取舍（path vs id） | 执行+判断 |
+| 3 | — | — | vault 全量重建+13 组溯源核对+探针清零+检索冒烟 | 执行+交叉验证 |
+| 4 | — | — | 手改 status 自查回滚+边界如实声明（KG 层不动） | 检验 |
+| 5 | — | — | E040 入仓+complete 流转+落账复盘 | 执行+沉淀 |
+
+### 红利与成本
+
+- 吃到的红利：#671 的探针（本场直接适配复用，不用重写检测逻辑）与 #671 的动态扫描（撞名卡全集一盘即出）；欧阳锋带行号锚点的初判省掉整段根因定位时间。
+- 留给下轮的红利：path_map 新 schema 下探针缺口判定更准（按键不再被撞车掩盖）；「legacy 格式判别器」模式可迁移到 search_index 等其他状态文件。
+- 成本：手改 status 一次（回滚 ~1min）、bash 内联脚本转义返工一次（~2min）。方向层零返工。
+
+### 对照实验
+
+- title 键（2928 条映射丢 13 张）vs path 键（2941=2941 零丢失）——同一份数据两种键结构，唯一性约束决定溯源完整性。
+- anomaly 拦（改名前永久红）vs 观察项（可见不拦）——探针的「红灯预算」要花在结构可修的缺口上，内容侧流程问题用可见性施压而不是门禁硬拦。

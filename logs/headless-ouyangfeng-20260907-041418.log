@@ -5960,3 +5960,109 @@ True
 ===== task status =====
 ['seq: 673', 'status: reviewed', 'reviewed_by: 欧阳锋', 'grade: A-', 'verdict: PASS', 'grade: A-', 'reviewed_by: 欧阳锋']
 
+Everything is complete. Let me do a final summary of the work and verify there's nothing else needed.
+
+Note: the myqueue "最近终审" still shows only #672 (48h), not #673. That's because the "最近终审" view might only show tasks where I'm the assignee or might have a slight lag. Actually, looking more carefully, the myqueue shows "最近终审（48h）1: #672". But #673 was also just reviewed by me. Hmm, why doesn't it show #673?
+
+Wait, let me think. The myqueue "最近终审" list might show tasks that I (ouyangfeng) recently reviewed AND that... actually, #670, #671, #672, #673 were all reviewed by me. The view only shows #672. This might be because the "最近终审" view has some filter. But it doesn't matter — the task status is "reviewed" and grade A-, which is the authoritative state.
+
+Actually, let me verify the queue file shows #673 as reviewed. Earlier the `queue_transition.py status 673` showed it as pending_review. Let me check it's now reviewed in the queue file.
+
+Actually, the review command said "task_20260907_huangyaoshi-bundle-regen 终审通过，状态更新为 reviewed，等级 A-". And the task file frontmatter shows status: reviewed. So it's done.
+
+The "最近终审（48h）" in myqueue showing only #672 might be because that view is based on a different field (e.g., tasks assigned to me vs reviewed by me). Not important.
+
+Let me verify the queue file now shows #673 as reviewed (not pending_review).
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "cd C:\\Users\\Administrator\\Desktop\\wiki; Select-String -Path '70_product/tasks/production-queue.md' -Pattern '"'^'"\\| 673 ' | Out-String; Write-Output '===== queue status 673 ====='; "'$env:PYTHONIOENCODING='"'utf-8'; python 90_control/scripts/queue_transition.py status 673 2>&1 | Out-String" in C:\Users\Administrator\Desktop\wiki
+ succeeded in 720ms:
+
+70_product\tasks\production-queue.md:1265:| 673 | `task_20260907_huangyaoshi-bundle-regen` | bundle 备份过期 47.6h 处置（停摆排查+
+重新生成+阈值核实） | reviewed | huangyaoshi | 新bundle+integrity PASS+节拍恢复 | 无 | `60_feedback/tasks/task_20260907_huangyaoshi-bu
+ndle-regen.md` | vault-integrity 探针告警（09-07 王语嫣立项）；欧阳锋终审 |
+
+
+
+===== queue status 673 =====
+队列总任务数: 267
+queued: 0
+claimed: 2
+pending_review: 0
+
+
+The queue now shows #673 as "reviewed" (in the production-queue.md table row 673 status column shows "reviewed"), and the status command shows pending_review: 0 (nothing pending for me to review). claimed: 2 (probably #674 and another).
+
+Everything is complete. Let me update the plan to mark all steps complete.
+
+Let me also do a final self-check on the mandatory session-end actions:
+1. ✅ 技能进化日志 updated (1 line)
+2. ✅ 失忆恢复锚点 — no change needed (no 武器库/状态/能力 change)
+3. ✅ O0 溯源自检 — no violation (opened all原始 sources)
+4. ✅ Truman 11章复盘 written + save self-check 🟢 A级
+5. ✅ 建议书 written (for 基建 finding)
+
+The main task deliverables:
+1. ✅ 终审 #673 via queue_transition.py review → PASS A-
+2. ✅ 终审记录节落意见书 (in task file)
+3. ✅ todos/ouyangfeng.md 落账
+
+Let me mark the plan complete.
+  ✓ 启动恢复：读 startup/context/todos
+  ✓ 核实 #673 四项重点证据（根因/新bundle PASS/节拍恢复/阈值）
+  ✓ 跑 queue_transition.py review + 任务单终审记录节落意见书
+  ✓ todos/ouyangfeng.md 落账 + 收尾复盘
+codex
+#673 终审完成 ✅
+
+**结论：PASS A-**（已走 `queue_transition.py review 673 --verdict pass --grade A-`，状态→reviewed）
+
+## 四项重点核（全部本端独立复核，非采信佐证包）
+
+| 重点 | 结论 | 证据 |
+|:--|:--|:--|
+| ① 停摆根因 | **非停摆**，09-05 周节拍改革后 26h 阈值未同步 → 周一晨结构性误报 | schtasks Last Run 09-07 02:30:01/Result 0；daily.log L92 09-03 `OK bundle` 否决「D 盘清理后遗」【实证】 |
+| ② 新 bundle PASS | **通过** | `git bundle verify wiki-bundle-20260907.bundle` → "is okay"；vault-integrity-check.py 独立实跑 exit=0【实证】 |
+| ③ 节拍恢复 | **实证到位** | 日志 09-05/06/07 三日有运行行 + Next 09-08 02:30 已排程【实证】 |
+| ④ 阈值核实 | **数学正确** | 合法上限 167.6h<180h、漏拍 191.6h>180h（12.4h 裕度）；LOG_STALE 26h 检测不降级【推断，任务已诚实标注待 09-14 实测】 |
+
+## 非阻断缺口（4 条，未返工）
+1. bat `:daily_only` fall-through → **周一误导读日志行**（L143 OK bundle 后 L145 仍 echo "skip"）
+2. **obsidian 快照仅周一执行**，与头注释「每日跑」不符（08-31 盲点被削弱）
+3. 佐证包引用瑕疵：正文称「09-03 行在 B 节」，实际在 daily.log 原文件
+4. vault-integrity-check.py 阈值改动经 auto-backup commit `2f055a94c` 落仓，非专属 commit（message 略 overclaim）
+
+→ 第 1/2 项落**建议书** `60_feedback/diagnosis/diag_20260907_ouyangfeng-bundle-bat-branch-structure.md`（归王语嫣立项/老朱拍板）；第 3/4 项为记录级提示。
+
+## 收尾落账
+- 任务单终审记录节已落（methodology v2.3 / PASS A- / 五维 93 / 存在性核查 / kdo query 检索记录）
+- `todos/ouyangfeng.md` +1 行
+- 复盘：`daily-context/2026-09-07.md` 追加会话 2，save 自检 🟢 A级 📚检索有发现
+- 技能进化日志 +1 行
+tokens used
+123,649
+#673 终审完成 ✅
+
+**结论：PASS A-**（已走 `queue_transition.py review 673 --verdict pass --grade A-`，状态→reviewed）
+
+## 四项重点核（全部本端独立复核，非采信佐证包）
+
+| 重点 | 结论 | 证据 |
+|:--|:--|:--|
+| ① 停摆根因 | **非停摆**，09-05 周节拍改革后 26h 阈值未同步 → 周一晨结构性误报 | schtasks Last Run 09-07 02:30:01/Result 0；daily.log L92 09-03 `OK bundle` 否决「D 盘清理后遗」【实证】 |
+| ② 新 bundle PASS | **通过** | `git bundle verify wiki-bundle-20260907.bundle` → "is okay"；vault-integrity-check.py 独立实跑 exit=0【实证】 |
+| ③ 节拍恢复 | **实证到位** | 日志 09-05/06/07 三日有运行行 + Next 09-08 02:30 已排程【实证】 |
+| ④ 阈值核实 | **数学正确** | 合法上限 167.6h<180h、漏拍 191.6h>180h（12.4h 裕度）；LOG_STALE 26h 检测不降级【推断，任务已诚实标注待 09-14 实测】 |
+
+## 非阻断缺口（4 条，未返工）
+1. bat `:daily_only` fall-through → **周一误导读日志行**（L143 OK bundle 后 L145 仍 echo "skip"）
+2. **obsidian 快照仅周一执行**，与头注释「每日跑」不符（08-31 盲点被削弱）
+3. 佐证包引用瑕疵：正文称「09-03 行在 B 节」，实际在 daily.log 原文件
+4. vault-integrity-check.py 阈值改动经 auto-backup commit `2f055a94c` 落仓，非专属 commit（message 略 overclaim）
+
+→ 第 1/2 项落**建议书** `60_feedback/diagnosis/diag_20260907_ouyangfeng-bundle-bat-branch-structure.md`（归王语嫣立项/老朱拍板）；第 3/4 项为记录级提示。
+
+## 收尾落账
+- 任务单终审记录节已落（methodology v2.3 / PASS A- / 五维 93 / 存在性核查 / kdo query 检索记录）
+- `todos/ouyangfeng.md` +1 行
+- 复盘：`daily-context/2026-09-07.md` 追加会话 2，save 自检 🟢 A级 📚检索有发现
+- 技能进化日志 +1 行

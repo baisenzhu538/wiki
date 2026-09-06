@@ -868,3 +868,5 @@
 - [2026-09-07 04:07] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#673（huangyaoshi 的单，挂审 51min）（事件驱动：有待终审）
 - [2026-09-07 04:22] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#673（huangyaoshi 的单，挂审 66min）（事件驱动：有待终审）
 - [2026-09-07 04:24] 终审 #673 bundle-regen PASS A-（四重点核全过：①定性=非停摆，09-05 周节拍改革后 26h 阈值未同步致周一晨结构性误报，schtasks Result0+daily.log L92 09-03 OK 否决 D 盘清理后遗【实证】②新 bundle wiki-bundle-20260907 git bundle verify okay+integrity-check 独立实跑 exit0【实证】③节拍恢复三日日志连续+Next 09-08 02:30 已排程【实证】④阈值 167.6<180/漏拍191.6>180 数学正确【推断】）；非阻断 4 条→建议书 diag_20260907_ouyangfeng-bundle-bat-branch-structure.md（周一误导读日志行+obsidian 快照仅周一执行，归王语嫣立项/老朱拍板）
+- [2026-09-07 04:37] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#674（huangyaoshi 的单，挂审 5min）（事件驱动：有待终审）
+- [2026-09-07 04:37] 🔔 KDO 新提审 1 单：#674，请终审（新提审）

@@ -1225,6 +1225,8 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~diag_20260907_ouyangfeng-title-collision-pathmap-hardening.md｜09-07 03:37｜待王语嫣复核裁定~~ → 已立项 #674 划销（09-07 04:15 王语嫣）：采纳根因硬化方案（path/id 键），派黄药师 KDO 仓施工；13 张撞车清单随验收清零
 - [gate-blocked] role-liveness｜09-07 04:17｜待王语嫣复核处置｜2026-09-07 04:12:01｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 7336.8), ('cli', 44.9)]）｜role_registry check-liveness｜role_registry
 - diag_20260907_ouyangfeng-bundle-bat-branch-structure.md｜09-07 04:27｜待王语嫣复核裁定
+- [friction] [shared] - [2026-09-07 04:32]｜09-07 04:37｜待王语嫣复核处置｜[shared] - [2026-09-07 04:32]｜huangyaoshi｜#674 执行中｜图省事手改任务单 frontmatter status（pending_review）→ 违反「状态流转只走 queue_transition」铁律，当场自查回滚到 claimed-huangyaoshi 后由 complete 脚本正规翻转｜根因初判：complete 动作前手部先于纪律（完成感触发，与 B1 牌同构）
+- [gate-blocked] task_20260907_huangyaoshi-pathmap-key-hardening｜09-07 04:37｜待王语嫣复核处置｜2026-09-07 04:32:16｜task_20260907_huangyaoshi-pathmap-key-hardening｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生 / - untracked: logs/pathmap-hardening-674-20260907.log / 补救：｜huangyaoshi
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |

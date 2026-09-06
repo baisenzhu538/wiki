@@ -1,0 +1,22 @@
+#674 交卷完成。收工汇总：
+
+## #674 path_map 键硬化 — 已提审待欧阳锋终审
+
+**根因修复**（KDO 仓 `6fb4a42`）
+- 写侧 `graph.py`：`path_map` 键 title→**page_path**（文件系统唯一），值改 `{title, id}`，title 降为展示属性——【实证】原 `graph.py:424` 字典推导后者覆盖前者
+- 读侧：legacy state（str 值）自动判别并强制 full rebuild——vault 重建时实弹触发一次
+- 删除传播：改按键差集，LightRAG doc_id 仍从 `entry.title` 取回（KG 实体层键未动，不越范围）
+
+**验收全过**【实证】
+| 项 | 修复前 | 修复后 |
+|---|---|---|
+| 撞车实证 | dup_titles=13 / dup_cards=26（concepts1/dk1/frameworks1/tools10，与任务单一致） | path_map=2941=page_count，**26 张 missing=0 全部可溯源** |
+| #671 探针 | 2928/2941 缺口恰 13，concepts 524/525 | coverage OK exit 0，concepts **525/525 清零**，dk 332/332 |
+| 回归 | 636 passed | **639 passed 1 skipped**（+3 新例：撞车根除/删除传播/legacy 升级），TDD 先红后绿 |
+| 检索 | — | `kdo query` 曾被顶掉的 dk 卡正常召回 |
+
+**边界**（任务单已声明）：①LightRAG 实体层 entity_name 仍=title，13 组图内仍合流——根治需内容侧改名（归王语嫣）或 KG 层硬化（建议另立新单）；②既有空库早退缺陷（`graph.py:358`）踩到未动，pre-existing。
+
+**落账**：vault `f8cd500`（探针适配+证据日志 `logs/pathmap-hardening-674-20260907.log`）· complete→pending_review · todos/friction-log/daily-context 🟡 各已落一行。
+
+一次自我违纪当场纠正：complete 前手改了任务单 status，违反「流转只走 queue_transition」，已回滚由脚本正规翻转，friction-log 留痕。
