@@ -2,14 +2,14 @@
 id: task_20260906_laowantong-audit-batch1
 title: "暗知识体检 A1 批：11 件零产出高价值口述初挖（收官路演/建模培训/讲香/剧本/PPT/王欢×2/转化率/AI native/拆书）"
 seq: 659
-status: queued
+status: in_progress
 assignee: laowantong
 created_by: wangyuyan
 created_at: 2026-09-06
 decision_source: 老朱 09-06 令「检视知识库以往内容是否漏挖，补全产出端」；台账=60_feedback/diagnosis/working/phase0-coverage-ledger.md A 级人工复核版
 reviewer: 欧阳锋
 instance: laowantong
-updated_at: '2026-09-06T13:00:00+08:00'
+updated_at: '2026-09-06T04:43:00.955008+00:00'
 ---
 
 # #659 暗知识体检 A1 批（老顽童初挖）
