@@ -2871,5 +2871,6 @@ _Last updated: 2026-08-29T16:36:37+00:00_
 - [[tools/yt-tool-unit-model-dynamic|yt tool unit model dynamic]] — source `src_unknown`
 - [[tools/yt-tool-unit-model-selection|yt tool unit model selection]] — source `src_unknown`
 - [[workflows/workflow-cross-agent-fact-dispute|跨 Agent 事实争议裁决协议]] — source `20_memory/operating-principles.md`
+- [[workflows/workflow-multi-researcher-cross|多研究员交叉研究工作流：分视角并行调研→合并裁决→多视角总报告]] — source `00_inbox/AI大航海20260905/AI实战路径-五个层级全解析-口述.txt`
 - [[workflows/workflow-kdo-agent-production-pipeline|KDO Agent 生产流水线：spec → 三件套注入 → Agent 自举]] — source `00_inbox/Agent生产流水线-案例-AI基本功教练自举-20260809.md`
 - [[workflows/workflow-yitang-project-four-step-loop|项目四步闭环工作流：定方案→拆计划→管过程→做复盘]] — source `00_inbox/管项目/项目管理-入门篇-口述.txt`
