@@ -1102,3 +1102,6 @@
 - [2026-09-06 11:47] 🛑 KDO 基建停拍报警 1 项：vault-backup｜非节拍 commit 11:37:59（格点 :20/:50 ±10min，窗内 1 个）——（台账 gate-blocked.log）
 - [2026-09-06 11:52] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
 - [2026-09-06 11:57] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-06 11:47:01｜infra-liveness｜基建停拍报警｜vault-backup｜非节拍 commit 11:3
+- [2026-09-06 12:11] 📥 新素材 1 项（P0 0）：人机协作双三角——请诊断编排（看板待编排段）
+- [2026-09-06 12:17] 🕐 值守拍12:30：#657 试金石完成——OCR四源复核PASS（我独立抽取0.9937）+口述者裁定Truman（纠洪七公推断）+漏挖率30%定量（6条dk候选）+单件成本校准（短素材1h/长口述3-6h）+新检查维度OCR损伤族+第三道额度墙minimax发现；报告diag_20260906_wangyuyan-audit-pilot-report已交，等老朱「按此放量」启动Phase 0全量台账
+- [2026-09-06 12:17] ⛔ KDO 门禁拦截 2 次（gate-blocked）：2026-09-06 12:14:41｜task_20260906_huangyaoshi-channel-health-fallback｜…

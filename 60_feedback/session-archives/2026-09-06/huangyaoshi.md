@@ -2,10 +2,10 @@
 session_id: huangyaoshi-2026-09-06
 agent_id: huangyaoshi
 date: 2026-09-06
-created_at: 2026-09-05T20:55:41.000550+00:00
-updated_at: 2026-09-05T20:55:41.000550+00:00
-git_head: 8843086d6
-content_hash: 585104268bae
+created_at: 2026-09-06T04:18:19.481868+00:00
+updated_at: 2026-09-06T04:18:19.481868+00:00
+git_head: bb422fc00
+content_hash: a83918cbd535
 ---
 
 # huangyaoshi · 2026-09-06
@@ -225,3 +225,73 @@ vs 同日续场（#649/#650）：续场是「跨三系统的根因取证」，�
 
 - Agent 自身：①共享文件批量重写前先定「二进制逐行」还是「文本整体」并验证编码/换行走向；②对外发任务（狗粮/拉起）前先验通道健康+目标存在（profile list/配额），不凭上次记忆；③往结构化 prompt 文件注入先查包裹结构（fence 配对）
 - 方法论/机制候选：#504 连单放行机制（friction 已记，第 3 次 force，待王语嫣裁定）；hermes 孤儿 profile 目录巡检（friction 已记）；MOUNT-MATRIX 存在性校验列（friction 已记，报 skills-assistant）；deep-research 封装立项意向（执行报告「需要谁动作」已列）
+
+---
+
+# 黄药师 daily-context 2026-09-06 三场（claude 通道场，11:42–12:26，#656 通道预检+fallback）
+
+## 差异栏（第 1 章）
+
+vs 同日续场（#649/#650 跨系统审计）：续场是「在三个系统里找根因」，本场是「在单仓里新建一层防护机制」，但第一性动作同源——**动手前先实弹验证每个假设**：四个通道的探针形态全部先实测才写代码（GLM 正/坏 key、relay 正 token、kimi CLI、kimi HTTP 被证伪）。本场最大新差异：第一次把「上游」和「工具」拆成两层建模——hermes 上游=kimi 同墙的发现直接改掉了 fallback 设计（纯工具顺序→按上游去重），这是任务书里没有、配置文件里挖出来的结构性事实。
+
+## 概要
+
+一句话：#656 一单三修法全落地——①预检（channel_health.py：claude/codex HTTP 探针 + kimi CLI 探针 + 状态码分类 401/402/403/429=上游级连坐、5xx/不可达=工具级不连坐 + JSONL 台账）②fallback（launch 前逐通道探活，主通道死自动切+todos/stdout 双通知，全死 exit 2 不硬派报王语嫣，`--no-probe`/`--force-dead` 双钩子）③认知表（90_control/channel-model-map.md：CLI→真实供应商→模型→key 指纹→探针→核对命令）；全量回归 273 passed，验收①②③全实测过，已提审 pending_review 待欧阳锋。
+
+## 关键决策
+
+| 决策 | 理由 | 结果 |
+|:---|:---|:---|
+| 死亡分「上游级/工具级」两级，连坐只沿上游级传播 | relay 进程挂（连接拒绝）≠deepseek 死——工具级连坐会误杀健康上游；401/402/403/429 是供应商账号层的判词才可连坐 | dedup 表 TOOL_UPSTREAM 一张表两个用途（判定+文档机器可读面） |
+| kimi 通道弃 HTTP 探针改 CLI 级 | 实测 credentials 里 access_token 08:21 已过期→HTTP 探针 401 假阴性（把活通道判死=错误 fallback）；OAuth 15min 一换只有 CLI 自己会刷 | 探针成本 ~3s（403 快败实测 2.7s），换来不误报 |
+| fallback 链按上游去重，hermes 排最后 | `~/.hermes/config.yaml` 实证 provider kimi-coding 与 kimi 同上游——kimi 403 时 hermes 同死，撞它=浪费一次拉起 | 链=主通道→claude→codex→kimi→hermes；单测钉死「工具级死亡不连坐」 |
+| 链序 claude(GLM) 最优先 | 09-05 夜两墙连撞时 GLM 全夜存活扛下全部产出（任务书实证） | laowantong/huangyaoshi 线 7 天窗内自动走 GLM |
+| 全死 exit 2 不硬派 + 保留 `--no-probe` 口子 | 假跑必撞墙且烧 token；但预检本身故障时不能把工厂锁死 | 通知里自带应急命令行，报王语嫣不静默 |
+| codex 通道坏 key 模拟改 `--force-dead` 钩子 | 实测 relay 不校验调用方 key（坏 Bearer 仍 200）——本地无法伪造上游 401 | 坏 key 路径的验收落在 GLM 通道实弹（401 判死）+钩子路径 |
+
+## 思维盲点
+
+1. **测试里给 channel_health 载了第二个模块实例**——importlib module_from_spec 又 exec 了一遍，patch 打在副本上、launcher 用的是它自己 import 的那份，三个用例假绿/假红。教训：patch 必须打在被测对象实际持有的引用上（`launcher.channel_health`），不是「同名文件再加载一次」。
+2. **「坏 key 模拟」四通道通用这个预设没验就写进验收理解**——relay 实测不校验调用方 key，假设塌了一半。行为宪法第二条（负向判词附核查锚点）的反向同样成立：正向「可以」也要先跑一次。
+3. **12:07:16 laowantong 生产 fallback 的 todos 通知未落账**，最初我连「通知必达」都没怀疑——排查后确认 todos 是 best-effort 面（写失败被吞/并发会话全文件重写冲掉，二选一无法回溯【推断】）。把写失败从 `pass` 改成 stdout 告警，台账职责彻底交给 append-only 的 channel-health.log。
+
+## 顿悟
+
+「额度墙」长在**供应商账号**上，不长在 CLI 客户端上——claude.exe/kimi.exe/hermes.exe 这些名字是给人看的标签，探针和 fallback 必须按上游建模。同构推论：值守报障要报「哪堵墙」而不是「哪个客户端」，这正是认知表存在的理由（#656 立项起因那句「glm-5.3-flash 怎么会没额度」就是把墙认在了客户端头上）。另一条副产品：key 指纹约定（sha256[:8]+'…'+尾 4 位）是我靠两条给定指纹**重算破案**出来的——台账约定本身也要可验证，否则下一双手接不上。
+
+## 过程资产
+
+- 新增：`90_control/scripts/channel_health.py`、`90_control/scripts/tests/test_channel_health_656.py`（11 用例）、`90_control/channel-model-map.md`（认知表）
+- 修改：`90_control/scripts/kimi-headless-launch.py`（预检→fallback→全死不硬派+双钩子+stdout 钉 UTF-8+notify 失败告警）、`.agent/infrastructure-bulletin.md`（09-06 公告节）
+- 台账：`logs/channel-health.log`（含 12:07:16 生产实战一条：laowantong kimi 真 403→自动切 claude）
+- commit：7e7d4e33a（vault 备份拍扫入在制品）+ 4282b4738（#656 交付物）
+- 队列：#656 pending_review 待欧阳锋；todos 落账 1 行（12:26）
+
+## 元反思
+
+本场最值钱的一幕是**验收还没跑、机制已实战验证**：12:07:16 我还在改代码，王语嫣拉 laowantong 的一次真实派工就触发了新预检——kimi 真实撞 403 →自动切 claude，台账首行就是生产证据。这比任何 force_dead 模拟都有说服力，也印证了「给活系统加防护时，防护上线即被真实流量检验」是最高质量的验收。另一条复利：续场的「证据源升级」（渲染层→机制层→账本层）本场直接复用——配置文件（机制层）+进程命令行（账本层）两条证据就把「relay≠GLM」钉死，没走一步弯路。
+
+## Truman复盘
+
+### 逐轮映射
+
+- **人定方向**：老朱晨问「glm-5.3-flash 怎么会没额度？是否都自动切 kimi 没发现」定根因方向（无预检无 fallback），王语嫣把它编译成带实证的任务书+四条核实事实——我全程没做方向判断，只做实现与取证。
+- **AI 做执行**：四通道探针形态实弹验证、探针引擎+fallback 编码、11 用例、认知表落地、E040 门禁补 commit。
+- **AI 做交叉验证**：用户给定事实逐条本机重算/实证核验（指纹 sha256 重算吻合、relay 上游进程命令行实取、hermes config 实读），发现并修正了给定口径之外的一个结构性事实（hermes=kimi 同墙）。
+- **人做判断**：fallback 链顺序是否合异构防线口径、`--no-probe` 口子留不留、全死送达面够不够——三条显式留给欧阳锋终审，不越权自裁。
+
+### 飞轮效应
+
+行为宪法五条本场全部用上且见效：断言三级标注（执行报告全部【实证】/【推断】落锚点）；负向判词附存在性核查（「channel-model-map 不存在」先 ls exit 1 才下判词）；疑问先检索再开口（hermes 上游先读 config 再设计 fallback）；解放-检验循环（先验四个探针形态再写代码，两条预设被实测证伪省了返工）；Y 模型（任务书=老朱深层动机「一晚两墙连撞根治」，不是「加个重试」）。
+
+### 对照实验
+
+- 正：GLM 正 key 探针 200/1.2s ↔ 反：坏 key 401/0.1s（分类正确性）
+- 正：relay 正 token 200/0.9s ↔ 反：坏 Bearer 仍 200（证伪「坏 key 模拟通用」预设）
+- 正：kimi HTTP+过期 token 401（假阴性）↔ 反：kimi CLI 同刻 403 快败 2.7s（探针形态选择依据）
+- 正：`--force-dead kimi` launch 切 claude+会话跑完 ↔ 反：全 force-dead exit 2 零 spawn（不假跑）
+
+### 下次改进
+
+- Agent 自身：①给共享文件做 append 通知类写入时，默认假设「可能被并发会话全文件重写冲掉」，重要留痕走独立 append-only 台账（channel-health.log 模式可复制）；②测试里 patch 第三方模块必须引用被测方实际持有的同一实例，importlib 双载是隐形坑；③「模拟 X 不可行」要当场给替代钩子（--force-dead），不要把不可行留成验收缺口。
+- 方法论/机制候选：①「上游≠工具」两层建模值得沉淀为通用卡（任何多通道/多供应商防护都适用）；②channel-health.log 的 JSONL 决策台账模式可推广到其他值守类脚本；③kimi 周额度 7 天窗结束时刻值得进时钟（恢复即自动回主通道，无需人工切回）。

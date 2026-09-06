@@ -7203,3 +7203,12 @@
 ⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#654——你的单过了，见任务单终审记录
 ⚠️ 无 webhook 配置（不发送）：ouyangfeng → ✅ KDO 终审通过 1 单：#644——你的单过了，见任务单终审记录
 [conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 0 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+⚠️ [near-miss] diag_20260826_ouyangfeng-feature-json-mojibake.md 疑似建议书但三元组不完整：type: proposal 但三元组不完整：status=retracted（应 pending_orchestration）——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+⚠️ [near-miss] diag_20260831_huangyaoshi-mnemosyne-dogfood.md 疑似建议书但三元组不完整：status=REVIEW-PENDING 疑似待编排但非 pending_orchestration——探针不登记（#506：frontmatter 漂移当场可见，不再静默 continue）
+🔔 新提审叫醒（统一层）→ ['todos']
+⛔ gate-blocked 登记: +1 → PROPOSAL-PENDING
+⚠️ 无 webhook 配置（不发送）：wangyuyan → ⛔ KDO 门禁拦截 2 次（gate-blocked）：2026-09-06 12:14:41｜task_20260906_huangyaoshi-channel-health-fallback｜…
+⚠️ 无 webhook 配置（不发送）：huangyaoshi → 📥 KDO 可领取 1 单：#656
+⚠️ 无 webhook 配置（不发送）：laowantong → ✅ KDO 终审通过 1 单：#654——你的单过了，见任务单终审记录
+⚠️ 无 webhook 配置（不发送）：ouyangfeng → ✅ KDO 终审通过 1 单：#644——你的单过了，见任务单终审记录
+[conveyor_probe] 新提审 1 / 新 queued 0 / 新登记 0 / near-miss 2 / 通知 1 条 / 活性实例 11（huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
