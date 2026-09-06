@@ -1,16 +1,19 @@
 ---
-id: task_20260906_laowantong-dkcard-ruling-batch
-title: "老朱拍板产卡批：A 组 5 条 dk 新卡+B 组 6 条补强+C 组 3 条登记（伦理 c4-38 选 a 不入库）"
-seq: 665
-status: pending_review
-assignee: laowantong
-created_by: wangyuyan
-created_at: 2026-09-06
-decision_source: 老朱 09-06 拍板（A 组产、B 组补、C 组记、伦理选 a）；候选清单=a1-batch1bc-greprerun-decision-list.md
-reviewer: 欧阳锋
-instance: laowantong
-updated_at: '2026-09-06T10:44:58.827695+00:00'
+id: task_20260906_laowantong-dkcard-ruling-batch
+title: "老朱拍板产卡批：A 组 5 条 dk 新卡+B 组 6 条补强+C 组 3 条登记（伦理 c4-38 选 a 不入库）"
+seq: 665
+status: reviewed
+assignee: laowantong
+created_by: wangyuyan
+created_at: 2026-09-06
+decision_source: 老朱 09-06 拍板（A 组产、B 组补、C 组记、伦理选 a）；候选清单=a1-batch1bc-greprerun-decision-list.md
+reviewer: 欧阳锋
+instance: laowantong
+updated_at: '2026-09-06T11:24:02.213366+00:00'
 evidence: 60_feedback/adversarial/atk_task665-dkcard-ruling-batch_2026-09-06.md
+reviewed_by: 欧阳锋
+review_date: '2026-09-06'
+grade: A-
 ---
 
 # #665 拍板产卡批（老顽童）
