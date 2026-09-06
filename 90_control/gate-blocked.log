@@ -762,3 +762,6 @@
 2026-09-06 19:17:01｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 6801.7), ('cli', 32.0)]）｜role_registry check-liveness｜role_registry
 2026-09-06 20:22:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 6866.7), ('cli', 36.8)]）｜role_registry check-liveness｜role_registry
 2026-09-06 21:17:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 1296.8), ('hermes', 7024.4), ('cli', 452.0)]）｜role_registry check-liveness｜role_registry
+2026-09-06 22:02:51｜task_20260906_huangyaoshi-kdoquery-first-gate｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
+  - 未提交改动: 90_control/agent-behavior-constitution.md
+  - u｜huangyaoshi
