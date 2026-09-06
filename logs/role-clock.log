@@ -3322,3 +3322,5 @@
 ⏰ 唤醒 huangyaoshi（到点（节奏 15min））→ ['todos']
 [info] 冷却抑制 1 角色（2h 内已报过）: ['wangyuyan']
 ⏰ 唤醒 laowantong（到点（节奏 15min））→ ['todos']
+[role_clock] 无到期角色
+⏰ 唤醒 ouyangfeng（事件驱动：有待终审）→ ['todos']
