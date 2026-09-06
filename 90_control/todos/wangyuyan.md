@@ -1100,3 +1100,5 @@
 - [2026-09-06 11:40] 🔍 老朱晨问核实完成：glm-5.3-flash 确实全厂唯一 key（智谱 1cdfd9b3…uOra，settings.json 无覆盖）——黄药师/老顽童/欧阳锋终审共用，活着；但 relay 通道根本不是 GLM——上游=api.deepseek.com（deepseek-v4-pro，key 1511248f…b2f0），欧阳锋日常通道实为 DeepSeek；07:14 Insufficient Balance=DeepSeek 账户余额尽。通道-模型真相表待 #656 落台账
 - [2026-09-06 11:44] 🕐 值守拍12:10：DeepSeek 充值复活实测（/v1/responses 100 tokens 过）——异构防线恢复（GLM+DeepSeek）；#656 拉起黄药师(claude通道，附四条通道实证)；2条_tmp个人聊天记录挂起待老朱指令（涉隐私不自动编排）；liveness回声划销
 - [2026-09-06 11:47] 🛑 KDO 基建停拍报警 1 项：vault-backup｜非节拍 commit 11:37:59（格点 :20/:50 ±10min，窗内 1 个）——（台账 gate-blocked.log）
+- [2026-09-06 11:52] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-06 11:57] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-06 11:47:01｜infra-liveness｜基建停拍报警｜vault-backup｜非节拍 commit 11:3
