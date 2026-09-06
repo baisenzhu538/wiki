@@ -1,16 +1,19 @@
 ---
-id: task_20260906_hongqigong-datapack-vision
-title: "DataPack 试点一：识图金标准库（金标准样本+踩坑案例+置信对照，洪七公整理弹药）"
-seq: 660
-status: pending_review
-assignee: hongqigong
-created_by: wangyuyan
-created_at: 2026-09-06
-decision_source: 老朱 09-06 点名（洪七公把识图整个工作流的踩坑案例、金标准封装成 datapack）
-reviewer: 欧阳锋
-instance: hongqigong
-updated_at: '2026-09-06T04:54:11.564058+00:00'
+id: task_20260906_hongqigong-datapack-vision
+title: "DataPack 试点一：识图金标准库（金标准样本+踩坑案例+置信对照，洪七公整理弹药）"
+seq: 660
+status: reviewed
+assignee: hongqigong
+created_by: wangyuyan
+created_at: 2026-09-06
+decision_source: 老朱 09-06 点名（洪七公把识图整个工作流的踩坑案例、金标准封装成 datapack）
+reviewer: 欧阳锋
+instance: hongqigong
+updated_at: '2026-09-06T05:29:43.216768+00:00'
 evidence: 40_outputs/capabilities/datapacks/hongqigong-vision-goldstandard/README.md
+reviewed_by: 欧阳锋
+review_date: '2026-09-06'
+grade: A-
 ---
 
 # #660 DataPack 试点一：识图金标准库（洪七公）
@@ -49,3 +52,31 @@ evidence: 40_outputs/capabilities/datapacks/hongqigong-vision-goldstandard/READM
 ### ③ 负向判词 / ④ 存在性核查
 
 🟡 ⚠️ 意见书含宽负向词（乱码）无核查锚点——按需人工确认（#433 不硬杀）；锚点：⚪ 无锚点
+
+
+## 终审记录（欧阳锋 2026-09-06 13:42）
+
+**verdict**：PASS
+**grade**：A-
+**methodology_version**：v2.3
+**blocking**：无
+
+**O0 溯源自检**：通读 README.md / gold-samples.md / pitfall-cases.md 全文；开 6 处来源锚文件复核量化数字（2087/2087、173/173、83/86、92.8%、286B vs 9164B），全部实盘命中。
+
+**实证核对（四要素 + 来源锚 + 真实性）**：
+- 四要素齐：①金标准 6 组（≥5）✅ ②踩坑 9 例 + 2 类无病例声明（≥5）✅ ③置信三档 + 量化基线 8 行 ✅ ④使用说明（适用问题/挂载时机/边界/更新机制）✅
+- 量化锚全真【实证】：2087/2087 与 U+200B 见 `AI组织行为学的口述-ocr.md` frontmatter；173/173 见爆炸式调研建议书:17；83/86=96% 见科学开会建议书:16；92.8%=69/64/5 见 VLM识别成果:159；286B vs 9164B 经 wc -c 复核一致
+- 来源锚 9/9 存在；vault 外错误模式库（E001-E027）已在 source_refs 显式声明【实证】
+- 无病例声明（手写体/扫描倾斜）附 E001-E027 存在性核查锚，「库里没有的说没有」诚实边界到位【实证】
+
+**发现问题**：
+- 🔵 G5「双引擎补跑收敛」为复盘记录单一来源，未复验落盘——作者已自标「置信中」，不阻断【存在性核查：gold-samples.md:69 原文 self-flag】
+- 🔵 机器预审「意见书含宽负向词（乱码）无核查锚」为误报：乱码出现在 P5 现象描述，该病例带 E016 + rerun_hires.py 锚【存在性核查：pitfall-cases.md:60 + E016 行】
+
+**脱敏核（识图包无凭据面）**：本包为 OCR/VLM 判定弹药，不含 cookie/token/账号类内容；唯一 vault 外引用（错误模式库）已在 source_refs 声明，无泄露面【实证】
+
+**审查结论**：识别金标准库四要素齐全、量化基线可复算、真实病例零编造（无病例类如实声明而非硬凑），达到 DataPack 试点标准。G5 单一来源已透明降置信，无隐瞒。
+
+**residual_risks**：①错误模式库在 vault 外，若迁位需同步更新锚；②置信三档阈值是洪七公 06~09-06 实测基线，跨引擎/新素材需按 README 更新纪律追加，不可外推。
+
+**五维评分**：溯源完整 24/25、逻辑骨架 23/25、暗知识密度 19/20、可操作性 14/15、表达质量 14/15，合计 94/100 → A-
