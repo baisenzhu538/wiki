@@ -801,3 +801,4 @@
 - [2026-09-06 13:07] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#660（hongqigong 的单，挂审 13min）；#661（duanwangye 的单，挂审 13min）；#659（laowantong 的单，挂审 1min）（事件驱动：有待终审）
 - [2026-09-06 13:07] 🔔 KDO 新提审 1 单：#659，请终审（新提审）
 - [2026-09-06 13:17] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#660（hongqigong 的单，挂审 23min）；#661（duanwangye 的单，挂审 23min）（事件驱动：有待终审）
+- [2026-09-06 13:27] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#660（hongqigong 的单，挂审 33min）；#661（duanwangye 的单，挂审 33min）（事件驱动：有待终审）
