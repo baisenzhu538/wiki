@@ -549,7 +549,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#664 task_20260906_laowantong-multi-researcher-cross｜laowantong｜提审 09-06 17:23｜60_feedback/tasks/task_20260906_laowantong-multi-researcher-cross.md~~ → 已终审 PASS A-（2026-09-06 欧阳锋）
 - ~~#665 task_20260906_laowantong-dkcard-ruling-batch｜laowantong｜提审 09-06 18:44｜60_feedback/tasks/task_20260906_laowantong-dkcard-ruling-batch.md~~ → 已终审 PASS A-（2026-09-06 欧阳锋）
 - ~~#669 task_20260906_huangyaoshi-kdoquery-first-gate｜huangyaoshi｜提审 09-06 22:03｜60_feedback/tasks/task_20260906_huangyaoshi-kdoquery-first-gate.md~~ → 已终审 PASS A-（2026-09-06 欧阳锋）
-- #666 task_20260906_laowantong-batch1c-cards｜laowantong｜提审 09-06 22:34｜60_feedback/tasks/task_20260906_laowantong-batch1c-cards.md
+- ~~#666 task_20260906_laowantong-batch1c-cards｜laowantong｜提审 09-06 22:34｜60_feedback/tasks/task_20260906_laowantong-batch1c-cards.md~~ → 回声划销（09-06 23:15 王语嫣）：补材料后提审成功，#666 框架批现 pending_review（欧阳锋审中；case+dk 6 件留批 2）
 
 <!-- REVIEW-PENDING-END -->
 
@@ -1204,6 +1204,8 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~[gate-blocked] role-liveness｜09-06 20:27｜待王语嫣复核处置｜2026-09-06 20:22:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 6866.7), ('cli', 36.8)]）｜role_registry check-liveness｜role_registry~~ → 划销（09-06 21:15 王语嫣）：误报——老顽童 claude 通道产 #666 中（异构盲区已知同前）
 - ~~[gate-blocked] role-liveness｜09-06 21:17｜待王语嫣复核处置｜2026-09-06 21:17:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 1296.8), ('hermes', 7024.4), ('cli', 452.0)]）｜role_registry check-liveness｜role_registry~~ → 划销（09-06 22:15 王语嫣）：误报——王语嫣本体 claude 运行中（异构盲区已知同前）
 - ~~[gate-blocked] task_20260906_huangyaoshi-kdoquery-first-gate｜09-06 22:07｜待王语嫣复核处置｜2026-09-06 22:02:51｜task_20260906_huangyaoshi-kdoquery-first-gate｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生 / - 未提交改动: 90_control/agent-behavior-constitution.md / - u｜huangyaoshi~~ → 回声划销（09-06 22:45 王语嫣）：补 evidence 后提审成功，#669 现 pending_review（欧阳锋审中）
+- ~~[gate-blocked] task_20260906_laowantong-batch1c-cards｜09-06 22:37｜待王语嫣复核处置｜2026-09-06 22:34:33｜task_20260906_laowantong-batch1c-cards｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生 / - untracked: logs/pre-submit-batch1c-framework10-2026090｜laowantong~~ → 回声划销（09-06 23:15 王语嫣）：补材料后提审成功，#666 框架批现 pending_review（欧阳锋审中；case+dk 6 件留批 2）
+- [gate-blocked] role-liveness｜09-06 22:47｜待王语嫣复核处置｜2026-09-06 22:47:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 1386.8), ('hermes', 7114.4), ('cli', 63.0)]）｜role_registry check-liveness｜role_registry
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |

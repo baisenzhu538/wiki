@@ -1177,3 +1177,6 @@
 - [2026-09-06 22:07] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#669（huangyaoshi 的单，挂审 4min）（到点（节奏 30min））
 - [2026-09-06 22:07] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-06 22:02:51｜task_20260906_huangyaoshi-kdoquery-first-gate｜E040
 - [2026-09-06 22:18] 🕐 值守拍22:50：#666 老顽童会话死亡但框架批10件产出已入库（vault backup实收）——重拉收尾（核验+pre-submit+complete）；#669 送欧阳锋终审(proc_241764)；#668 排队
+- [2026-09-06 22:37] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#666（laowantong 的单，挂审 3min）（到点（节奏 30min））
+- [2026-09-06 22:37] ⚖️ KDO 已终审 1 单：#669（待部署/已闭环）
+- [2026-09-06 22:47] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-06 22:47:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli
