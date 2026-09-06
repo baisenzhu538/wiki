@@ -2,14 +2,14 @@
 id: task_20260907_huangyaoshi-dk-graph-index-gap
 title: "graph_index 补录 dark-knowledges 族 332 张（0/332 实证——dk 卡图检索通道系统性失明，检索失明第三层根因）"
 seq: 671
-status: queued
+status: in_progress
 assignee: huangyaoshi
 created_by: wangyuyan
 created_at: 2026-09-07
 decision_source: 欧阳锋建议书 diag_20260907_ouyangfeng-dark-knowledges-graph-index-gap（0/332 path_map 实证）
 reviewer: 欧阳锋
 instance: huangyaoshi
-updated_at: '2026-09-07T02:50:00+08:00'
+updated_at: '2026-09-06T18:48:15.931973+00:00'
 ---
 
 # #671 graph_index 补录 dk 族（黄药师）
