@@ -1,7 +1,7 @@
 # 队列完整性审计报告
 
 - 审计范围: `C:\Users\Administrator\Desktop\wiki\60_feedback\tasks`, `C:\Users\Administrator\Desktop\wiki\70_product\tasks`
-- reviewed 任务单总数: 584
+- reviewed 任务单总数: 588
 - 任务单元数据异常数: 36
 - 队列/任务单状态不一致数: 3
 - 队列解析行数: 229

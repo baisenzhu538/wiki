@@ -13,7 +13,7 @@
 | 6 | 复盘 A 级覆盖率 | 5/7 | 2/7 | ↑ 改善 |
 | 7 | 队列一致性（漂移） | 3 | 0 | ↑ 恶化 |
 | 8 | 未登记建议书数 | 0（目标 0） | 0 | = |
-| 11 | 交接留痕完整度 | 345/665（51.9%） | 待首扫 | — |
+| 11 | 交接留痕完整度 | 345/667（51.7%） | 待首扫 | — |
 | 12 | waiting-external 滞留 | 0 个（最长 0 天） | 待首扫 | — |
 
 ## 待定义（留接口，不硬造）
@@ -24,7 +24,7 @@
 
 ## 明细
 
-- 复盘明细：ouyangfeng: A（0.1 天前）；huangyaoshi: A（0.1 天前）；wangyuyan: A（0.2 天前）；laowantong: A（0.1 天前）；hongqigong: 欠（12.2 天前）；duanwangye: A（0.1 天前）；fengqingyang: 欠（10.5 天前）
+- 复盘明细：ouyangfeng: A（0.2 天前）；huangyaoshi: A（0.3 天前）；wangyuyan: A（0.4 天前）；laowantong: A（0.3 天前）；hongqigong: 欠（12.4 天前）；duanwangye: A（0.3 天前）；fengqingyang: 欠（10.6 天前）
 - 未登记建议书：无
 - 队列一致性：异常 36 项（漂移 3）
 - waiting-external 滞留：无

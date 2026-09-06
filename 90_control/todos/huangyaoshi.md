@@ -820,3 +820,10 @@
 - [2026-09-06 11:37] 📥 KDO 可领取 1 单：#656
 - [2026-09-06 11:42] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
 - [2026-09-06 11:57] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-06 12:07] 【通道预检 #656】【通道fallback】kimi 不健康（force_dead（模拟死通道））→ huangyaoshi 已切 claude（上游 zhipu-glm）
+- [2026-09-06 12:07] 【通道预检 #656】【通道全死】huangyaoshi 拉起中止，不硬派（假跑必撞墙）——报王语嫣处置
+- [2026-09-06 12:07] 【通道预检 #656】探测明细：kimi: force_dead（模拟死通道）；claude: force_dead（模拟死通道）；codex: force_dead（模拟死通道）；hermes: 同上游 kimi 已判定（force_dead（模拟死通道）），未重复探测
+- [2026-09-06 12:07] 【通道预检 #656】应急直通：python 90_control/scripts/kimi-headless-launch.py huangyaoshi '<指令>' --no-probe
+- [2026-09-06 12:08] 【通道预检 #656】【通道全死】huangyaoshi 拉起中止，不硬派（假跑必撞墙）——报王语嫣处置
+- [2026-09-06 12:08] 【通道预检 #656】探测明细：kimi: force_dead（模拟死通道）；claude: force_dead（模拟死通道）；codex: force_dead（模拟死通道）；hermes: 同上游 kimi 已判定（force_dead（模拟死通道）），未重复探测
+- [2026-09-06 12:08] 【通道预检 #656】应急直通：python 90_control/scripts/kimi-headless-launch.py huangyaoshi '<指令>' --no-probe

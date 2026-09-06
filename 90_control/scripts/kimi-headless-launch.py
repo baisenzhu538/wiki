@@ -12,6 +12,13 @@
   <tool> 无头单发 "<自包含 prompt>"（cwd=wiki，DETACHED 后台，日志 logs/headless-<role>-<ts>.log）
   prompt = 角色恢复（读 .agent/<role>-context.md）+ 队列纪律 + 本次任务指令 + 收尾留痕
 
+通道健康预检+fallback（#656，F-073：kimi 403 周额度/codex 余额尽两墙连撞的根治）：
+  launch 前对 fallback 链逐通道打最小探针（1-token HTTP 或 CLI 级，见 channel_health.py）——
+  首个健康通道执行拉起；主通道死→自动切下一个（todos+stdout 通知，stdout 走时钟契约=飞书 DM）；
+  全部不健康→不硬派（假跑必撞墙），报王语嫣处置，exit 2。
+  --no-probe 应急跳过预检；--force-dead kimi,claude 模拟死通道（测试钩）。
+  认知表（CLI 名→真实供应商→模型→key 指纹）：90_control/channel-model-map.md
+
 纪律（写死进 prompt，每次拉起自带）：
   - 状态流转只走 90_control/scripts/queue_transition.py（claim/complete/review）
   - 完工在 90_control/todos/<role>.md 追加一行（时间戳+动作+任务号）
@@ -23,6 +30,14 @@ import time
 from pathlib import Path
 
 WIKI = Path(r"C:\Users\Administrator\Desktop\wiki")
+TODOS_DIR = WIKI / "90_control" / "todos"
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import channel_health
+
+# 通知走 stdout（时钟契约=飞书 DM）——编码钉死 UTF-8（clock_watchdog.py 同款），不吃控制台 GBK
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 # 工具路由表：工具名 → 无头单发命令模板（{prompt}/{role} 为占位符）。
 # 新工具上线前先实测其无头模式（-p/print/exec 形态+权限模式），再登记。
@@ -47,6 +62,65 @@ ROLE_TOOL = {
     "laowantong": "kimi",
     "ouyangfeng": "codex",
 }
+
+# fallback 链顺序（#656）：主工具不健康 → 按此序找下一个健康通道。
+# 依据：claude(GLM) 09-05 夜全通道连死时唯一全夜存活→最优先；codex(deepseek) 已充值复活次之；
+# kimi/hermes 同上游 api.kimi.com（403 周额度连坐，探针按上游去重不撞二遍墙）→排最后。
+FALLBACK_ORDER = ["claude", "codex", "kimi", "hermes"]
+
+
+def chain_for(role, explicit_tool=None):
+    primary = explicit_tool or ROLE_TOOL.get(role, "kimi")
+    return [primary] + [t for t in FALLBACK_ORDER if t != primary]
+
+
+def notify(role, lines):
+    """通道切换/全死通知：stdout（时钟契约=送达飞书 DM，见 clock_watchdog.py 头注）+ todos 落账。"""
+    for line in lines:
+        print(line)
+    try:
+        todos = TODOS_DIR / f"{role}.md"
+        if todos.exists():
+            with open(todos, "a", encoding="utf-8") as f:
+                for line in lines:
+                    f.write(f"- [{time.strftime('%Y-%m-%d %H:%M')}] 【通道预检 #656】{line}\n")
+    except OSError:
+        pass
+
+
+def parse_args(argv):
+    """→ dict(role, instruction, tool, no_probe, force_dead)。位置参数之外的 flag 原样吞掉。"""
+    opts = {"role": None, "instruction": None, "tool": None, "no_probe": False, "force_dead": []}
+    positional = []
+    i = 0
+    while i < len(argv):
+        a = argv[i]
+        if a == "--tool":
+            i += 1
+            opts["tool"] = argv[i] if i < len(argv) else ""
+        elif a == "--no-probe":
+            opts["no_probe"] = True
+        elif a == "--force-dead":
+            i += 1
+            if i < len(argv):
+                opts["force_dead"] = [t for t in argv[i].split(",") if t]
+        else:
+            positional.append(a)
+        i += 1
+    if len(positional) > 0:
+        opts["role"] = positional[0]
+    if len(positional) > 1:
+        opts["instruction"] = positional[1]
+    return opts
+
+
+def select_channel(role, chain, force_dead=(), prober=None):
+    """预检+选通道：返回 (选中工具, 探测结果列表)。全死→(None, results)。"""
+    results = channel_health.probe_chain(chain, force_dead=force_dead, prober=prober)
+    ok = channel_health.first_healthy(results)
+    selected = ok.tool if ok else None
+    channel_health.log_results(results, decision=f"{role}->{selected or '全死不硬派'}")
+    return selected, results
 
 # 工具级环境变量（{role} 占位符同样替换）。
 # #650：hermes 的 HERMES_PROFILE env 条目已移除——hermes 从不读它（无头解析链只认
@@ -73,21 +147,36 @@ PROMPT_TEMPLATE = """你是{role}（KDO 知识工厂角色）。工作目录 {wi
 """
 
 
-def main() -> int:
-    args = [a for a in sys.argv[1:] if not a.startswith("--tool")]
-    tool = None
-    if "--tool" in sys.argv:
-        tool = sys.argv[sys.argv.index("--tool") + 1]
-    args = [a for a in args if a != tool]
-    if len(args) < 2:
+def main(argv=None) -> int:
+    opts = parse_args(sys.argv[1:] if argv is None else argv)
+    role, instruction, tool = opts["role"], opts["instruction"], opts["tool"]
+    if not role or not instruction:
         print(__doc__)
         return 1
-    role, instruction = args[0], args[1]
-    if tool is None:
-        tool = ROLE_TOOL.get(role, "kimi")  # 默认走角色路由，未登记角色回落 kimi
-    if tool not in TOOLS:
+    if tool is not None and tool not in TOOLS:
         print(f"未知工具 {tool}（已登记：{list(TOOLS)}）——先实测无头模式再登记 TOOLS 表")
         return 1
+
+    chain = chain_for(role, tool)
+    if opts["no_probe"]:
+        tool = chain[0]  # 应急直通：跳过预检，按主通道硬拉
+    else:
+        tool, results = select_channel(role, chain, force_dead=opts["force_dead"])
+        if tool is None:
+            dead = "；".join(f"{r.tool}: {r.reason}" for r in results)
+            notify(role, [
+                f"【通道全死】{role} 拉起中止，不硬派（假跑必撞墙）——报王语嫣处置",
+                f"探测明细：{dead}",
+                "应急直通：python 90_control/scripts/kimi-headless-launch.py {r} '<指令>' --no-probe".replace("{r}", role),
+            ])
+            return 2
+        if tool != chain[0]:
+            dead = next(r for r in results if r.tool == chain[0])
+            notify(role, [
+                f"【通道fallback】{chain[0]} 不健康（{dead.reason}）→ {role} 已切 {tool}"
+                f"（上游 {channel_health.TOOL_UPSTREAM.get(tool, '?')}）",
+            ])
+
     prompt = PROMPT_TEMPLATE.format(role=role, wiki=str(WIKI), instruction=instruction)
     cmd = [part.replace("{prompt}", prompt).replace("{role}", role) for part in TOOLS[tool]]
     # .cmd/.bat 壳在 DETACHED 下 CreateProcess 起不来（无控制台）——一律显式 cmd /c 包一层
