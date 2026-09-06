@@ -1,0 +1,23 @@
+=== #671 证据包 2026-09-07 03:07:10 ===
+--- rebuild 日志尾部:
+Full rebuild: 2941 pages, 6242 chunks, 8767 relations...
+Done. 2941 entities indexed.
+Index stored at: C:\Users\Administrator\Desktop\wiki\.kdo\graph_index
+--- path_map 分目录计数:
+dark-knowledges: 332  dk: 56  total: 2928
+--- 探针输出:
+coverage GAP pages=2941 path_map=2928
+   dark-knowledges: disk=332 indexed=332 gap=0
+   dk: disk=57 indexed=56 gap=1
+   title-collision victims: yt-product-ten-metrics.md, dk-research-triangulation-stop-rule.md, framework-lean-abcd-model.md, sk-ai-ai-workspace-setup.md, sk-ai-evidence-check.md
+--- dk 标题召回实测:
+      [0.02] 30_wiki/dark-knowledges/dk-agent-parallel-design-system.md
+HIT  dk-feature-not-learned-but-used.md
+      [0.03] 30_wiki/dark-knowledges/dk-feature-not-learned-but-used.md
+HIT  dk-wanghuan-spec-trap.md
+      [0.03] 30_wiki/dark-knowledges/dk-wanghuan-spec-trap.md
+MISS yt-product-kernel-premature-optimization.md
+
+== 5/6 recalled
+--- 回归:
+24 passed in 2.18s
