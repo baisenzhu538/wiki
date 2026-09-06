@@ -2,10 +2,10 @@
 session_id: ouyangfeng-2026-09-06
 agent_id: ouyangfeng
 date: 2026-09-06
-created_at: 2026-09-06T11:26:41.641292+00:00
-updated_at: 2026-09-06T11:26:41.641292+00:00
-git_head: 6c7b8b530
-content_hash: 3a58dfcb306f
+created_at: 2026-09-06T14:35:36.487030+00:00
+updated_at: 2026-09-06T14:35:36.487030+00:00
+git_head: eaf0163ec
+content_hash: 9f3dcb83e803
 ---
 
 # ouyangfeng · 2026-09-06
@@ -437,3 +437,67 @@ vs 第6次会话（#664 workflow+skill+真跑）：本轮是 #665 拍板产卡�
 ### 下次改进
 - Agent自身：中文正文构建单引号 here-string；补强非重写 numstat 0 删除硬判；卡内 grep 引用逐字对账。
 - 方法论卡更新：审查方法论 v2.3 未升级，踩坑追加「PowerShell 双引号 here-string 反引号转义（`0/`a/`f）」+「补强 diff 用 numstat 0 删除证明非重写」。
+
+
+---
+
+## 差异栏
+vs 本日上一会话（#665 拍板产卡批）：本轮是「门禁/宪法类任务终审」——审查对象不是知识卡，而是强制规则的落地（宪法第六条 + pre-submit 检查器 + 三挂载点）。新视角=门禁类任务终审的证据链必须是「独立复跑全链路两态 + pytest 全量回归 + 挂载点逐点 grep」三重交叉，生产方的执行报告与单测只是线索不是结论。被打破的假设：默认「执行报告写的实证声明可直接采信」——本轮全部独立复跑，包括用真实库文件切 env 档复现 WARNING→HARD，而非只看 8 例单测。
+
+## 概要
+终审 #669 huangyaoshi-kdoquery-first-gate PASS A-。四重点核全过：①宪法第六条表述精度②检查器两态 WARNING→HARD 实证③grep 降级双口径三挂载点在场④回归 633/1 不红。终审记录落任务单 + queue_transition review 流转 reviewed A- + todos 落账。
+
+## 关键决策
+| 决策 | 理由 | 结果 |
+|:--|:--|:--|
+| 独立复跑全链路 run_pre_submit+format_report 验证两态，而非只跑新单测 | 单测是生产方自证，真实库文件+全链路输出才是终审证据 | SOFT=`[KDO_QUERY_LOG]: 1 warnings`；HARD=`1 errors`（error 计数 +1）成立 |
+| 跑全量 pytest 而不只跑新单测 | 「回归不红」验收要求全量 | 633 passed, 1 skipped；新门禁 8/8 |
+| startup.md 未逐字列 grep ①②双口径判为非阻断注记而非 FAIL | 权威口径已在宪法/公告/拉起器/agent-os/SOUL 全在场，startup 是开机引导指针 | PASS A-，注记随下次修订跟进 |
+| 中文意见书用 Python write_text(UTF-8 无 BOM) 落盘 | 规避 Windows 控制台 GBK 与 PowerShell 双引号 here-string 反引号转义两坑 | 终审记录无乱码 |
+
+## 思维盲点
+1. 一度打算只跑 `tests/test_pre_submit_kdo_query_log.py` 8 例就下「两态生效」结论。为什么漏掉：任务验收写「两态生效实证」，我下意识把生产方单测当实证，没意识到终审要独立复跑真实库文件——单测覆盖函数级两态，全链路 wiring 是否真实生效要靠 run_pre_submit 实测。
+2. 首次全链路复跑被 `UnicodeEncodeError: 'gbk' codec can't encode '🔴'` 打断。为什么漏掉：Windows 控制台 stdout 默认 GBK，Python 输出 emoji 要先 reconfigure UTF-8——老坑复发，没在开工前顺手设。
+3. 差点把 startup.md 的①②口径缺失直接判 FAIL。为什么漏掉：只盯「三挂载点同步」字面，没先分清「开机引导摘要 vs 权威全文」的定位差异——startup 是引导指针，全文口径在宪法/公告/拉起器/agent-os/SOUL 已在场。
+
+## 顿悟
+1. 推翻「门禁任务终审=读代码 diff」：真正证据链=真实库文件+全链路两态输出+pytest 全量，三重独立交叉；生产方执行报告/单测只是线索。
+2. 纠正「负向判词只对生产方生效」：本会话我自己的负向判词（startup 未列①②、SOUL v1.0 残留 0、五条残留 0）逐条配了 **存在性核查** 锚点——宪法第二条对审查者同样生效，与 F-035 同构。
+3. 发现「三挂载点」术语在宪法 frontmatter（=startup/拉起器/SOUL，注入通道语义）与任务验收（=startup/拉起器/公告，文档同步点语义）不一致——同一词两义，值得统一口径。
+
+## 过程资产
+| 新增/更新 | 路径 |
+|:--|:--|
+| 终审记录 PASS A- | 60_feedback/tasks/task_20260906_huangyaoshi-kdoquery-first-gate.md |
+| 队列流转 | queue_transition review #669 → reviewed A- |
+| 落账 | 90_control/todos/ouyangfeng.md +1 行 |
+| 技能进化日志 | 桌面/agent复盘/ouyangfeng/技能进化日志.md +1 行 |
+| 本复盘 | 桌面/agent复盘/ouyangfeng/daily-context/2026-09-06.md 第 8 次会话 |
+
+## 元反思
+门禁/规则类任务终审：①先独立复跑全链路（真实文件+env 切档）再采信「两态生效」；②回归验收必跑全量 pytest 而非单测；③写意见书前先 grep 自己的负向断言强词、配存在性核查锚点；④中文落盘统一 Python write_text(UTF-8 无 BOM)。
+
+## 域知识检索审视
+本会话是代码/配置/日志类审查（宪法第六条②口径）：检索动作=grep/读 pre_submit.py 源码+git diff+pytest+挂载点逐点 grep，属非知识类检索，未触发知识类调研问题故未跑 kdo query 工具。对规范面的核验通过直接读 wiki 文件（宪法第六条/agent-os §10.4.2/公告）完成，发现「三挂载点」术语二义性（宪法 frontmatter 的注入通道语义 vs 任务验收的文档同步点语义）——这是读 wiki 后纠正的一个认知：同一「挂载点」词在两处不是同一件事。
+
+## Truman复盘
+
+### 逐轮映射
+| 轮次 | 人做了什么 | 双三角 | AI做了什么 | 双三角 |
+|:--|:--|:--|:--|:--|
+| 1 | 老朱直令+王语嫣立项+黄药师完工提审（宪法v1.1+pre-submit+三挂载） | H.创造力·A.场景 | 三读（启动/角色/宪法）+队列+任务单 | A.数据 |
+| 2 | 王语嫣机器预审（声称-交付差集/负向判词提示） | H.体系 | 读宪法第六条+执行报告+git status/log | H.体系(审查) |
+| 3 | 我四重点核+独立复跑 | A.基本功(实证) | 真实文件两态复跑+pytest 全量+挂载点逐点 grep | A.基本功 |
+| 4 | review 流转 reviewed A-+todos 落账 | — | F-035/F-036 自检+出口自检 | H.体系(门禁) |
+
+### 飞轮效应
+加速「门禁/规则类任务终审」回路：从「读执行报告+看单测」升级为「独立复跑全链路两态+全量回归+挂载点逐点 grep」三重证据链——门禁审查结论从「信声称」变「复现实证」。
+
+### 对照实验
+- 无人协作：读 pre_submit.py diff+跑 pytest 全量+挂载点逐点核，约 30-40 分钟。
+- 无AI协作：两态 env 切档复现、挂载点 ①② 口径交叉、回归 skip 归属，可能漏其中一环。
+- 合在一起：约 20 分钟闭环，四重点核全过+1 处术语差异+1 处引导摘要缺口定位。
+
+### 下次改进
+- Agent自身：开工先 reconfigure stdout UTF-8；门禁任务必独立复跑全链路；负向判词先 grep 强词表再落笔。
+- 方法论卡更新：审查方法论 v2.3 追加「门禁/规则类任务终审证据链三管齐下（全链路复跑+全量回归+挂载点逐点 grep）」+「三挂载点术语二义性需统一口径」。

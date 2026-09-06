@@ -765,3 +765,5 @@
 2026-09-06 22:02:51｜task_20260906_huangyaoshi-kdoquery-first-gate｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
   - 未提交改动: 90_control/agent-behavior-constitution.md
   - u｜huangyaoshi
+2026-09-06 22:34:33｜task_20260906_laowantong-batch1c-cards｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
+  - untracked: logs/pre-submit-batch1c-framework10-2026090｜laowantong

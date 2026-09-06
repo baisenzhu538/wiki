@@ -1,0 +1,17 @@
+#666 收尾完成。全程摘要：
+
+**① 完整性核验（对照任务单 A 节）**
+- 10/10 在 `30_wiki/frameworks/`，183–199 行/卡，id↔文件名全匹配
+- frontmatter 三态 10/10：`status: draft` + `author: 老顽童` + `reviewed_by: 待审`（写审分离保持）
+- 入库：随 vault backup 两拍（d1f8e2bd0 20:15 / bc5adf7a6 20:25），`git status --porcelain 30_wiki/frameworks/` = 0 行
+- 批 2（case×5+dk×1）六件 find 全 0 命中——未开工，按分批设计留批 2，本批提审=框架 10
+
+**② pre-submit 补跑**：10/10 PASS、0 FAIL，存档 `logs/pre-submit-batch1c-framework10-20260906.log`。WARNING 分布如实记录，其中 QUOTE_VERBATIM×8 卡（timing / knowledge-base-vs-ontology 两卡干净）**抽验定性为真伪逐字而非机械误报**【实证：`framework-ai-business-cognition-system.md:76`「从帮助角度出发的真实反馈」源句 L5670 实为「会从帮助你的角度给你反馈」——压缩改写加引号+行号锚，#616/#614 家族】。收尾单不擅改正文，逐卡处数与引文示例已入报告留终审裁量。
+
+**③ complete 流转**：走 `queue_transition.py complete 666 --instance laowantong --evidence logs/pre-submit-batch1c-framework10-20260906.log`（首跑被 E040 拦——evidence 未入仓；按脚本口径 commit 5a49c7e72 后重跑过）。**L9 三落盘验证过**：status 输出、production-queue.md 行 1238、任务单 frontmatter 均 `pending_review`；evidence 已留档 frontmatter。
+
+**④ 报告与落账**：任务单新增五字段执行报告 + 「kdo query 检索记录」节（3 查询，首位均=本批卡自身——索引可达且无同主题旧卡）+ 边界节注明会话中断与恢复（前班提审动作未发生、无半提交状态、本会话纯收尾未碰卡片正文）。todos 22:37 行已落账。
+
+**终审提示**（已写入「需要谁动作」）：欧阳锋重点裁量 ①QUOTE_VERBATIM×8 定级 ②F7 域归属（实挂 human-insights，建儿童/教育域建议留终审）。#668 在队列排队——#666 pending_review 在前，此刻不领。
+
+两点边界说明：todos 行未单独 commit（等 22:50 vault backup 自拾，#628 口径）；会话级 Truman 复盘等强制动作未跑——本次指令明确「只做范围内的事」，如需补跑说一声。

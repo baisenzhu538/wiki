@@ -836,3 +836,4 @@
 - [2026-09-06 22:07] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#669（huangyaoshi 的单，挂审 4min）（事件驱动：有待终审）
 - [2026-09-06 22:07] 🔔 KDO 新提审 1 单：#669，请终审（新提审）
 - [2026-09-06 22:17] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#669（huangyaoshi 的单，挂审 14min）（事件驱动：有待终审）
+- [2026-09-06 22:31] 终审 #669 huangyaoshi-kdoquery-first-gate PASS A-（四重点核全过：①宪法第六条表述精度过关 ②检查器两态WARNING→HARD实证 ③grep降级双口径三挂载点在场 ④回归633/1不红；非阻断注记：startup.md 6.5摘要未逐字列①②双口径，权威口径已在宪法/公告/拉起器/agent-os/SOUL全在场）
