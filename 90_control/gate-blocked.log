@@ -797,3 +797,6 @@
   - untracked: logs/pathmap-hardening-674-20260907.log
 补救：｜huangyaoshi
 2026-09-07 05:07:01｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 7391.8), ('cli', 34.5)]）｜role_registry check-liveness｜role_registry
+2026-09-07 05:27:54｜task_20260907_huangyaoshi-bundle-bat-branch-fix｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
+  - 未提交改动: 90_control/scripts/wiki-bundle-backup.bat
+  - 未｜huangyaoshi

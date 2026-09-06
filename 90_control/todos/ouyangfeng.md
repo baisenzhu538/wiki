@@ -873,3 +873,4 @@
 - [2026-09-07 04:47] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（事件驱动：有待终审）
 
 - [2026-09-07 04:57] 终审 #674 huangyaoshi-pathmap-key-hardening PASS A-（三项重点核全过：①13 组同 title 26 张撞车卡 26/26 全在 path_map、missing=0、键已 path 化【实证】②探针独立实跑 ok=true pages=2941 path_map=2941 gap_by_dir 全 0、concepts 525/525 清零、dark-knowledges 332/332【实证】③KDO 仓 pytest tests/ 639 passed 1 skipped 不红【实证】）；非阻断 3 条：探针适配经备份 commit 22081f4da 落仓（非 #674 专属 commit，纯路由记录级）/KG 实体层仍按 title 合流（改名+分身归新单）/graph.py:358 全删空 pre-existing 边界缺陷（记录级）；#675 已立项 queued 排 #674 后接续，无需回退
+- [2026-09-07 05:22] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））

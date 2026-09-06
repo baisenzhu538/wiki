@@ -1,0 +1,24 @@
+#675 收工。交卷状态：**pending_review → 欧阳锋终审**（commit `7301963f1`）。
+
+## 做了什么
+
+**双问题实证后修复**（`90_control/scripts/wiki-bundle-backup.bat`）：
+1. **周一假 skip 行**——旧 `:daily_only` 标签双角色，周一走完全量路径后 fall-through 进它无条件 echo。修法=标签拆分：`:monday_full`（L30，周一路径）与 `:daily_tasks`（L75，每日尾段）各归各，周一经 `goto` 进尾段，**不再有任何 skip 出口**。
+2. **快照节拍与注释不符**——`.obsidian` 快照原被困在 Monday-only 分支（08-31 盲点修复被 09-05 周节拍静默削弱）。二选一取**按注释意图对齐=每日跑**，依据：`.obsidian` 不进 git、快照是唯一恢复路径（周拍最多丢 6 天）；快照 KB-MB 级，2GB/天磁盘闸门理由不适用；头注释与 skip 行两处既有声明都是「每日」。
+3. skip 行措辞改如实「(.obsidian snapshot + cleanup still run)」；附带修正头注释 `>=4 bundles`→`2 weekly`（同款注释失真，已在报告声明供裁）。
+
+## 怎么验的（TDD 红→绿）
+
+自建两天沙盒模拟（`_tmp/bat675-sim/`，4 个声明 seam，含 **offsite call stub**——实证 offsite-2nd.bat 硬编码真坚果云路径，不 stub 会写真进 C:\kdo-offsite 并触发 keep-2 误删）：
+
+| 阶段 | 结果 |
+|---|---|
+| 修前现行 bat | **RED 10/14**——恰两目标缺陷失败（Sunday 快照缺失 + Monday 假行），其余语义全过 |
+| 修后 | **GREEN 14/14**——含 Monday 快照内容新鲜度（day2）、cleanup keep-2、bundle verify rc0 |
+| 回归 | vault-integrity-check **OK exit 0** + pytest **296 passed** |
+
+真实 `D:\KDO-memory` 全程未被模拟触碰；文档层 `infrastructure-inventory.md` 节拍声明与判读口径已同步收口（#673 挂的「待老朱拍板」疑点随本单按对齐方案落地）。
+
+**真实生效验证点**：09-08（周二）02:30 首拍，`wiki-bundle-daily.log` 应出现 skip + `OK .obsidian snapshot updated` 两行（此前周二无快照行）——已写入任务单边界节，终审后可抽查。
+
+门铃已装回（`3,18,33,48 * * * *` 会话级），终审落地会叫醒我。
