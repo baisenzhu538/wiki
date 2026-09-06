@@ -1,0 +1,1187 @@
+{
+ "scope": "30_wiki/**/*.md (2981 files)",
+ "candidates": [
+  {
+   "id": "A1-M-07",
+   "source": "建模",
+   "ledger_ref": "1.3#7",
+   "anchor": "L3824-3832",
+   "patterns": [
+    {
+     "pattern": "骄傲感",
+     "total_hits": 0,
+     "file_count": 0,
+     "clean_file_count": 0,
+     "clean_files": {}
+    }
+   ]
+  },
+  {
+   "id": "A1-M-11",
+   "source": "建模",
+   "ledger_ref": "1.3#11",
+   "anchor": "L574-654",
+   "patterns": [
+    {
+     "pattern": "正在睡觉请勿敲门",
+     "total_hits": 0,
+     "file_count": 0,
+     "clean_file_count": 0,
+     "clean_files": {}
+    },
+    {
+     "pattern": "脆脆鲨",
+     "total_hits": 1,
+     "file_count": 1,
+     "clean_file_count": 1,
+     "clean_files": {
+      "cases\\case-truman-livestream-sop-iteration.md": 1
+     }
+    },
+    {
+     "pattern": "表白墙",
+     "total_hits": 5,
+     "file_count": 2,
+     "clean_file_count": 2,
+     "clean_files": {
+      "cases\\case-yihang-dual-triangle-一堂双三角-作业洞察和特别表白.md": 4,
+      "tools\\tool-一堂-名利权情动力法.md": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "A1-M-16",
+   "source": "建模",
+   "ledger_ref": "1.3#16",
+   "anchor": "L1056-1064",
+   "patterns": [
+    {
+     "pattern": "传染",
+     "total_hits": 4,
+     "file_count": 3,
+     "clean_file_count": 3,
+     "clean_files": {
+      "dark-knowledges\\dk-f1-regex-on-cjk.md": 1,
+      "dark-knowledges\\dk-yitang-business-formula-a-missing-syndrome.md": 1,
+      "tools\\tool-yitang-weapon-product-reputation.md": 2
+     }
+    }
+   ]
+  },
+  {
+   "id": "A1-M-23",
+   "source": "建模",
+   "ledger_ref": "1.3#23",
+   "anchor": "L1582-1658",
+   "patterns": [
+    {
+     "pattern": "太主流",
+     "total_hits": 2,
+     "file_count": 2,
+     "clean_file_count": 2,
+     "clean_files": {
+      "cases\\case-personal-map-modeling.md": 1,
+      "cases\\case-truman-personal-growth-map-creation.md": 1
+     }
+    },
+    {
+     "pattern": "特别喜欢这种总结",
+     "total_hits": 1,
+     "file_count": 1,
+     "clean_file_count": 1,
+     "clean_files": {
+      "cases\\case-truman-personal-growth-map-creation.md": 1
+     }
+    },
+    {
+     "pattern": "约等于放弃思考",
+     "total_hits": 3,
+     "file_count": 3,
+     "clean_file_count": 3,
+     "clean_files": {
+      "cases\\case-personal-map-modeling.md": 1,
+      "cases\\case-truman-personal-growth-map-creation.md": 1,
+      "frameworks\\model-quality-four-levels.md": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "A1-M-24",
+   "source": "建模",
+   "ledger_ref": "1.3#24",
+   "anchor": "L1676",
+   "patterns": [
+    {
+     "pattern": "没认怂",
+     "total_hits": 1,
+     "file_count": 1,
+     "clean_file_count": 1,
+     "clean_files": {
+      "cases\\case-personal-map-modeling.md": 1
+     }
+    },
+    {
+     "pattern": "不认怂",
+     "total_hits": 3,
+     "file_count": 1,
+     "clean_file_count": 1,
+     "clean_files": {
+      "dark-knowledges\\dk-key-hypothesis-still-hope.md": 3
+     }
+    }
+   ]
+  },
+  {
+   "id": "A1-M-25",
+   "source": "建模",
+   "ledger_ref": "1.3#25",
+   "anchor": "L1680-1708",
+   "patterns": [
+    {
+     "pattern": "气儿就顺",
+     "total_hits": 0,
+     "file_count": 0,
+     "clean_file_count": 0,
+     "clean_files": {}
+    },
+    {
+     "pattern": "人生空间决定人生上限",
+     "total_hits": 0,
+     "file_count": 0,
+     "clean_file_count": 0,
+     "clean_files": {}
+    },
+    {
+     "pattern": "人生下限",
+     "total_hits": 1,
+     "file_count": 1,
+     "clean_file_count": 1,
+     "clean_files": {
+      "cases\\case-personal-map-modeling.md": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "A1-M-26",
+   "source": "建模",
+   "ledger_ref": "1.3#26",
+   "anchor": "L1752-1776",
+   "patterns": [
+    {
+     "pattern": "徐大勇",
+     "total_hits": 0,
+     "file_count": 0,
+     "clean_file_count": 0,
+     "clean_files": {}
+    },
+    {
+     "pattern": "顶天立地",
+     "total_hits": 3,
+     "file_count": 3,
+     "clean_file_count": 3,
+     "clean_files": {
+      "concepts\\modeling-capability-system.md": 1,
+      "frameworks\\modeling-three-stages.md": 1,
+      "systems\\一堂方法论体系总图.md": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "A1-M-44",
+   "source": "建模",
+   "ledger_ref": "1.3#44",
+   "anchor": "L2982-2988",
+   "patterns": [
+    {
+     "pattern": "开开心心",
+     "total_hits": 0,
+     "file_count": 0,
+     "clean_file_count": 0,
+     "clean_files": {}
+    },
+    {
+     "pattern": "战略会",
+     "total_hits": 151,
+     "file_count": 33,
+     "clean_file_count": 31,
+     "clean_files": {
+      "cases\\case-essence-education-strategy.md": 3,
+      "concepts\\concept-一堂-kernel-validation.md": 1,
+      "concepts\\concept-最简单元模型.md": 1,
+      "concepts\\yt-management-company-culture.md": 2,
+      "concepts\\yt-management-finance-basics.md": 1,
+      "concepts\\yt-management-founder-role.md": 2,
+      "concepts\\yt-management-partnership-equity.md": 1,
+      "concepts\\yt-management-strategy-meeting.md": 57,
+      "concepts\\yt-management-toolkit-overview.md": 2,
+      "concepts\\yt-model-management-map.md": 1,
+      "concepts\\yt-system-course-catalog.md": 2,
+      "concepts\\yt-tool-product-core-canvas.md": 2,
+      "dark-knowledges\\dk-strategy-01-not-goal-setting.md": 6,
+      "dk\\dk-meeting-rederive.md": 1,
+      "dk\\dk-strategy-stage-leverage-mismatch.md": 1,
+      "frameworks\\framework-meeting-iceberg-canvas.md": 2,
+      "frameworks\\framework-strategy-conviction.md": 3,
+      "frameworks\\framework-TCPR底层网络协议.md": 1,
+      "frameworks\\framework-单元模型-外部对抗地图.md": 1,
+      "frameworks\\yt-lean-b2b-b2c-hardware-content-testing.md": 1,
+      "frameworks\\yt-product-kernel-validation.md": 1,
+      "systems\\一堂方法论体系总图.md": 3,
+      "tools\\agent-spec-meeting-assistant.md": 1,
+      "tools\\tool-meeting-basic-principles.md": 2,
+      "tools\\tool-meeting-execution-principles.md": 3,
+      "tools\\tool-strategy-map.md": 1,
+      "tools\\tool-yitang-bp-analysis.md": 1,
+      "tools\\tool-提问刻意练习画布.md": 1,
+      "tools\\yt-tool-meeting-designer.md": 1,
+      "tools\\yt-tool-okr-cycle.md": 4,
+      "tools\\yt-tool-strategy-workshop.md": 40
+     }
+    }
+   ]
+  },
+  {
+   "id": "A1-M-48",
+   "source": "建模",
+   "ledger_ref": "1.3#48",
+   "anchor": "L3260-3278",
+   "patterns": [
+    {
+     "pattern": "现场说话能力",
+     "total_hits": 3,
+     "file_count": 1,
+     "clean_file_count": 1,
+     "clean_files": {
+      "dark-knowledges\\dk-modeling-essence-predictive.md": 3
+     }
+    },
+    {
+     "pattern": "逐字稿的本质",
+     "total_hits": 1,
+     "file_count": 1,
+     "clean_file_count": 1,
+     "clean_files": {
+      "dark-knowledges\\dk-modeling-essence-predictive.md": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "A1-M-58",
+   "source": "建模",
+   "ledger_ref": "1.3#58",
+   "anchor": "L3804-3806",
+   "patterns": [
+    {
+     "pattern": "拉单子",
+     "total_hits": 1,
+     "file_count": 1,
+     "clean_file_count": 1,
+     "clean_files": {
+      "cases\\case-ai-learning-series-modeling.md": 1
+     }
+    },
+    {
+     "pattern": "排列组合",
+     "total_hits": 56,
+     "file_count": 22,
+     "clean_file_count": 20,
+     "clean_files": {
+      "cases\\case-shampoo-product-kernel.md": 14,
+      "cases\\case-yitang-fupanying-five-years-1000-hypotheses.md": 1,
+      "cases\\case-yitang-woqingke-referral-15-to-40.md": 3,
+      "cases\\case-yitang-yitang-self-growth-channel.md": 1,
+      "concepts\\concept-一堂-business-prediction.md": 1,
+      "concepts\\concept-一堂-kernel-validation.md": 1,
+      "concepts\\yt-ai-trend-12-signals.md": 1,
+      "concepts\\yt-concept-weapon-arsenal.md": 1,
+      "concepts\\yt-entrepreneur-needs-analysis.md": 1,
+      "concepts\\yt-model-pan-product-demand-toolkit.md": 1,
+      "concepts\\yt-three-dimension-opportunity-matrix.md": 9,
+      "dark-knowledges\\dk-ai-entrepreneur-technical-blindspot.md": 4,
+      "dark-knowledges\\dk-signal-cluster-illusion.md": 2,
+      "domains\\lean-startup-domain-digest.md": 1,
+      "systems\\一堂方法论体系总图.md": 1,
+      "tools\\tool-doris-industry-report-search-tips.md": 1,
+      "tools\\tool-yitang-industry-report-search.md": 2,
+      "tools\\tool-泛产品落地-攻坚会.md": 1,
+      "tools\\tool-泛产品设计-出牌指南.md": 1,
+      "_archive\\panproduct\\yt-panproduct-execution-war-room.md": 3
+     }
+    },
+    {
+     "pattern": "清单体",
+     "total_hits": 638,
+     "file_count": 90,
+     "clean_file_count": 86,
+     "clean_files": {
+      "log.md": 2,
+      "agent-specs\\agent-spec-kouspeng-task-decomposer.md": 2,
+      "cases\\case-ban-fei-mao-conversion-hacker-skill.md": 1,
+      "cases\\case-truman-ai-partner.md": 11,
+      "cases\\case-truman-roi-decision-spring-festival-class.md": 2,
+      "cases\\case-truman-yitang-foresight.md": 1,
+      "cases\\case-yihang-dual-triangle-一堂双三角-双三角预判画布.md": 10,
+      "cases\\case-yitang-model-valuation-flywheel.md": 1,
+      "cases\\case-一堂-优秀案例逐字稿合集.md": 3,
+      "concepts\\ai-native-五层进阶从答案到效率到作品到产品到系统.md": 3,
+      "concepts\\concept-半肥猫-ai-learning-toolification-methodology.md": 2,
+      "concepts\\concept-提升笔记阅读舒适度.md": 8,
+      "concepts\\concept-问题驱动式深度思考笔记.md": 5,
+      "concepts\\modeling-capability-system.md": 1,
+      "concepts\\yt-model-cognitive-upgrade-framework.md": 2,
+      "concepts\\yt-model-ipo-complete-checklist.md": 3,
+      "concepts\\yt-model-ipo-learning-strategy.md": 3,
+      "concepts\\yt-model-pan-product-36-strategies.md": 1,
+      "concepts\\yt-model-pan-product-execution-toolkit.md": 3,
+      "concepts\\yt-note-ai-human-division.md": 23,
+      "concepts\\yt-note-checklist-concept.md": 49,
+      "concepts\\yt-note-deliberate-practice-four-elements.md": 8,
+      "concepts\\yt-note-expert-interview-modeling.md": 6,
+      "concepts\\yt-note-extensive-research-input.md": 2,
+      "concepts\\yt-note-fact-pattern-insight.md": 1,
+      "concepts\\yt-note-l4-internalization.md": 13,
+      "concepts\\yt-note-l6-extraction.md": 10,
+      "concepts\\yt-note-problem-solving-capability.md": 3,
+      "concepts\\yt-personal-ai-thinking-card.md": 2,
+      "concepts\\yt-personal-checklist-notes.md": 19,
+      "concepts\\yt-personal-pan-product-02.md": 1,
+      "concepts\\yt-skill-checklist-as-ai-protocol.md": 19,
+      "concepts\\yt-skill-p-role-prompt-design.md": 12,
+      "concepts\\yt-skill-storyline-contrast-analysis.md": 6,
+      "concepts\\yt-skill-storyline-key-elements.md": 6,
+      "concepts\\yt-skill-storyline-problem-solving.md": 7,
+      "concepts\\yt-skill-storyline-target-tradeoff.md": 7,
+      "concepts\\yt-skill-storyline-timeline.md": 8,
+      "dark-knowledges\\dk-fundamentals-before-advanced-ops.md": 9,
+      "dark-knowledges\\dk-infrastructure-guardrails-over-checklist.md": 1,
+      "dark-knowledges\\dk-modeling-ai-self-retrospection.md": 1,
+      "dark-knowledges\\dk-modeling-checklist-formatting-rules.md": 13,
+      "dark-knowledges\\dk-modeling-timely-review-session-window.md": 2,
+      "dark-knowledges\\dk-note-maximum-common-divisor.md": 33,
+      "dark-knowledges\\dk-note-surplus-brainpower.md": 7,
+      "dark-knowledges\\dk-tool-as-phased-validator.md": 1,
+      "dark-knowledges\\dk-truman-flag-note-taking.md": 3,
+      "dark-knowledges\\yt-note-ai-p-role-not-c-role.md": 2,
+      "dark-knowledges\\yt-note-p-c-role-boundary-realworld.md": 2,
+      "dark-knowledges\\yt-note-three-level-evolution.md": 1,
+      "decisions\\agent-ecosystem-design.md": 4,
+      "decisions\\modeling-capability-for-kdo.md": 1,
+      "decisions\\plan_20260531_data-curator-v1.3.md": 3,
+      "decisions\\truman-ai-partner-design-analysis.md": 14,
+      "frameworks\\framework-ai-native-working-paradigm.md": 1,
+      "frameworks\\framework-一堂-转化率提升六步法.md": 1,
+      "frameworks\\modeling-three-stages.md": 3,
+      "frameworks\\yt-business-formula-three-stage-workflow.md": 2,
+      "frameworks\\yt-model-pan-product-three-virtues.md": 1,
+      "methods\\method-obsidian-ai-collaboration.md": 2,
+      "methods\\method-一堂-教练对话引擎协议.md": 1,
+      "skills\\skill-five-layer-positioning.md": 3,
+      "systems\\一堂方法论体系总图.md": 2,
+      "tools\\process-modeling.md": 1,
+      "tools\\sk-ai-old-small-checklist.md": 1,
+      "tools\\tool-ai-koupen-training-partner-design.md": 7,
+      "tools\\tool-checklist-cheatsheet-modeling.md": 1,
+      "tools\\tool-leadership-listening-cards.md": 1,
+      "tools\\tool-note-keyword-bolding.md": 7,
+      "tools\\tool-note-layer-constraint.md": 13,
+      "tools\\tool-note-one-line-one-point.md": 10,
+      "tools\\tool-一堂-ABACC叙事法.md": 1,
+      "tools\\tool-一堂-经典故事线框架库.md": 13,
+      "tools\\tool-一堂-讲香双策略.md": 1,
+      "tools\\tool-专题笔记整理.md": 2,
+      "tools\\tool-提升笔记练习频次的方法.md": 5,
+      "tools\\tool-清单式笔记法.md": 8,
+      "tools\\tool-现场建模式萃取笔记.md": 5,
+      "tools\\tool-用topdown方式整理内化笔记.md": 5,
+      "tools\\tool-用清单体记备忘笔记.md": 17,
+      "tools\\tool-纪浩-AI工作空间与导诊台设计法.md": 1,
+      "tools\\tool-自我反馈修正笔记姿势.md": 5,
+      "tools\\tool-获取他人反馈优化笔记.md": 5,
+      "tools\\yt-note-five-levels-training.md": 41,
+      "tools\\yt-note-live-field-skill.md": 13,
+      "tools\\yt-tool-business-formula-format-spec.md": 25
+     }
+    }
+   ]
+  },
+  {
+   "id": "A1-M-60",
+   "source": "建模",
+   "ledger_ref": "1.3#60",
+   "anchor": "L3866-3870",
+   "patterns": [
+    {
+     "pattern": "体系不行",
+     "total_hits": 2,
+     "file_count": 2,
+     "clean_file_count": 2,
+     "clean_files": {
+      "cases\\case-yitang-double-triangle-confidence.md": 1,
+      "frameworks\\framework-yitang-y-model-dual-triangle-synergy.md": 1
+     }
+    },
+    {
+     "pattern": "没有里程碑",
+     "total_hits": 1,
+     "file_count": 1,
+     "clean_file_count": 1,
+     "clean_files": {
+      "cases\\case-yitang-double-triangle-confidence.md": 1
+     }
+    },
+    {
+     "pattern": "循序渐进的里程碑",
+     "total_hits": 2,
+     "file_count": 1,
+     "clean_file_count": 1,
+     "clean_files": {
+      "_archive\\panproduct\\yt-panproduct-execution-milestone-breakdown.md": 2
+     }
+    }
+   ]
+  },
+  {
+   "id": "A1-M-62",
+   "source": "建模",
+   "ledger_ref": "1.3#62",
+   "anchor": "L3942-3958",
+   "patterns": [
+    {
+     "pattern": "30到50层",
+     "total_hits": 0,
+     "file_count": 0,
+     "clean_file_count": 0,
+     "clean_files": {}
+    },
+    {
+     "pattern": "30-50层",
+     "total_hits": 0,
+     "file_count": 0,
+     "clean_file_count": 0,
+     "clean_files": {}
+    },
+    {
+     "pattern": "TCP-R",
+     "total_hits": 45,
+     "file_count": 14,
+     "clean_file_count": 11,
+     "clean_files": {
+      "cases\\case-yitang-zhongzheng-parking-garage.md": 1,
+      "concepts\\ai单元模型口述蒋老师.md": 3,
+      "concepts\\concept-一堂-kernel-iteration.md": 1,
+      "concepts\\yt-unit-model-ai-assisted.md": 8,
+      "domains\\decision-science-domain-digest.md": 1,
+      "domains\\sales-domain-digest.md": 1,
+      "frameworks\\framework-multi-agent-collab-chain-six.md": 1,
+      "frameworks\\framework-TCPR底层网络协议.md": 14,
+      "frameworks\\framework-TCPR皇冠模型.md": 4,
+      "frameworks\\yt-product-kernel-iteration.md": 1,
+      "tools\\yt-tool-unit-model-ai-assisted.md": 3
+     }
+    },
+    {
+     "pattern": "TCP",
+     "total_hits": 475,
+     "file_count": 91,
+     "clean_file_count": 88,
+     "clean_files": {
+      "log.md": 2,
+      "agent-specs\\agent-spec-zhu-ai-coach.md": 1,
+      "bridges\\bridge-lightning-agent-evolution.md": 1,
+      "cases\\case-agent-self-evolution-pilot.md": 3,
+      "cases\\case-kdo-agent-factory-dual-triangle-practice.md": 15,
+      "cases\\case-yitang-zhongzheng-parking-garage.md": 1,
+      "concepts\\ai-tool-learning-workbook.md": 2,
+      "concepts\\ai-virtual-coach-prompt.md": 1,
+      "concepts\\ai单元模型口述蒋老师.md": 3,
+      "concepts\\comfort-zone-expansion.md": 2,
+      "concepts\\concept-kdo-agent-design-principles.md": 7,
+      "concepts\\concept-kdo-review-workflow.md": 1,
+      "concepts\\concept-X型Y型决策习惯.md": 2,
+      "concepts\\concept-yihang-dual-triangle-core.md": 1,
+      "concepts\\concept-yihang-human-in-the-loop-dual-triangle.md": 1,
+      "concepts\\concept-一堂-kernel-iteration.md": 1,
+      "concepts\\concept-一堂-基本功-刻意练习四要素.md": 1,
+      "concepts\\concept-发现决策.md": 2,
+      "concepts\\concept-最简单元模型.md": 1,
+      "concepts\\deliberate-practice-four-elements.md": 2,
+      "concepts\\deliberate-repetition.md": 2,
+      "concepts\\fixed-routine-design.md": 1,
+      "concepts\\practice-card-decomposition.md": 1,
+      "concepts\\timely-feedback-loop.md": 1,
+      "concepts\\yai-counsel-role.md": 3,
+      "concepts\\yai-tcp-teacher-role.md": 2,
+      "concepts\\yitang-methodology-system.md": 14,
+      "concepts\\yt-decision-y-model.md": 1,
+      "concepts\\yt-skill-checklist-as-ai-protocol.md": 1,
+      "concepts\\yt-unit-model-ai-assisted.md": 9,
+      "dk\\dk-单元模型-找单元模型实操难点.md": 1,
+      "domains\\decision-science-domain-digest.md": 3,
+      "domains\\sales-domain-digest.md": 2,
+      "domains\\yitang-domain-digest.md": 2,
+      "frameworks\\ai-methodology-tools.md": 5,
+      "frameworks\\framework-business-formula-fundamentals-bridge.md": 1,
+      "frameworks\\framework-multi-agent-collab-chain-six.md": 1,
+      "frameworks\\framework-TCPR底层网络协议.md": 28,
+      "frameworks\\framework-TCPR皇冠模型.md": 26,
+      "frameworks\\framework-yitang-shishi-qiushi.md": 1,
+      "frameworks\\yt-product-kernel-iteration.md": 1,
+      "methods\\method-一堂-教练对话引擎协议.md": 8,
+      "operations\\runbook-agent-spec-to-runtime.md": 4,
+      "personal-os\\opc-ai-sales-agent-architecture.md": 1,
+      "systems\\agent-native-card-design.md": 43,
+      "systems\\system-yitang-Y-model-os.md": 4,
+      "tools\\agent-spec-basic-skills-coach.md": 5,
+      "tools\\agent-spec-coaching-leadership-assistant.md": 3,
+      "tools\\agent-spec-codex-teammate.md": 9,
+      "tools\\agent-spec-dual-triangle-canvas-filler.md": 6,
+      "tools\\agent-spec-meeting-assistant.md": 1,
+      "tools\\agent-spec-project-management-assistant.md": 8,
+      "tools\\agent-spec-research-explosion-partner.md": 2,
+      "tools\\agent-spec-复盘教练.md": 3,
+      "tools\\tool-agent-spec-yitang-ability-migration-diagnosis.md": 5,
+      "tools\\tool-agent-spec-yitang-aesthetic-radar-modeling.md": 5,
+      "tools\\tool-agent-spec-yitang-beautiful-work-imagination.md": 5,
+      "tools\\tool-agent-spec-yitang-card-dealing-guide.md": 5,
+      "tools\\tool-agent-spec-yitang-customer-segmentation.md": 7,
+      "tools\\tool-agent-spec-yitang-daily-weekly-meeting-host.md": 5,
+      "tools\\tool-agent-spec-yitang-incentive-design.md": 5,
+      "tools\\tool-agent-spec-yitang-kernel-add-subtract-diagnosis.md": 5,
+      "tools\\tool-agent-spec-yitang-kernel-canvas-autofill.md": 5,
+      "tools\\tool-agent-spec-yitang-kernel-case-matching.md": 5,
+      "tools\\tool-agent-spec-yitang-kernel-failure-mode-diagnosis.md": 5,
+      "tools\\tool-agent-spec-yitang-kernel-iteration-direction.md": 5,
+      "tools\\tool-agent-spec-yitang-kernel-three-questions.md": 5,
+      "tools\\tool-agent-spec-yitang-kernel-verification-ladder.md": 5,
+      "tools\\tool-agent-spec-yitang-lead-funnel-health.md": 5,
+      "tools\\tool-agent-spec-yitang-objection-handler.md": 7,
+      "tools\\tool-agent-spec-yitang-opening-3min.md": 7,
+      "tools\\tool-agent-spec-yitang-payment-collection-risk.md": 5,
+      "tools\\tool-agent-spec-yitang-project-background-analysis.md": 5,
+      "tools\\tool-agent-spec-yitang-sales-performance-monitor.md": 7,
+      "tools\\tool-agent-spec-yitang-sales-process-tracker.md": 7,
+      "tools\\tool-agent-spec-yitang-sales-toolkit-gap.md": 5,
+      "tools\\tool-agent-spec-yitang-scenario-walkthrough.md": 5,
+      "tools\\tool-agent-spec-yitang-self-motivation.md": 7,
+      "tools\\tool-agent-spec-yitang-three-second-opening-scripts.md": 5,
+      "tools\\tool-agent-spec-yitang-user-perspective-training.md": 5,
+      "tools\\tool-agent-spec-yitang-value-proposition.md": 7,
+      "tools\\tool-agent-spec-yitang-Y-model-coach.md": 1,
+      "tools\\tool-kdo-agent-production-checklist.md": 2,
+      "tools\\tool-opc-sales-dialogue-assistant.md": 1,
+      "tools\\tool-月白-AI模型选择策略.md": 1,
+      "tools\\tool-模型组合调用.md": 1,
+      "tools\\yt-tool-unit-model-ai-assisted.md": 3,
+      "workflows\\workflow-kdo-agent-production-pipeline.md": 6
+     }
+    }
+   ]
+  },
+  {
+   "id": "A1-M-65",
+   "source": "建模",
+   "ledger_ref": "1.3#65",
+   "anchor": "L4148-4182",
+   "patterns": [
+    {
+     "pattern": "陪跑顾问",
+     "total_hits": 0,
+     "file_count": 0,
+     "clean_file_count": 0,
+     "clean_files": {}
+    },
+    {
+     "pattern": "业务教练",
+     "total_hits": 0,
+     "file_count": 0,
+     "clean_file_count": 0,
+     "clean_files": {}
+    }
+   ]
+  },
+  {
+   "id": "A1-M-66",
+   "source": "建模",
+   "ledger_ref": "1.3#66",
+   "anchor": "L4216-4232",
+   "patterns": [
+    {
+     "pattern": "迁移率",
+     "total_hits": 0,
+     "file_count": 0,
+     "clean_file_count": 0,
+     "clean_files": {}
+    },
+    {
+     "pattern": "重做一遍",
+     "total_hits": 7,
+     "file_count": 7,
+     "clean_file_count": 7,
+     "clean_files": {
+      "concepts\\yt-five-step-level-blindspots.md": 1,
+      "concepts\\yt-model-management-map.md": 1,
+      "frameworks\\framework-ai-native-working-paradigm.md": 1,
+      "frameworks\\framework-yitang-project-retrospective.md": 1,
+      "tools\\tool-yitang-best-practice-as-golden-finger.md": 1,
+      "tools\\tool-yitang-value-proposition-4step.md": 1,
+      "workflows\\workflow-yitang-project-four-step-loop.md": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "A1-M-67",
+   "source": "建模",
+   "ledger_ref": "1.3#67",
+   "anchor": "L4236-4258",
+   "patterns": [
+    {
+     "pattern": "龙峰",
+     "total_hits": 5,
+     "file_count": 1,
+     "clean_file_count": 1,
+     "clean_files": {
+      "dark-knowledges\\dk-key-hypothesis-still-hope.md": 5
+     }
+    },
+    {
+     "pattern": "AI 探索状态",
+     "total_hits": 0,
+     "file_count": 0,
+     "clean_file_count": 0,
+     "clean_files": {}
+    },
+    {
+     "pattern": "AI探索状态",
+     "total_hits": 0,
+     "file_count": 0,
+     "clean_file_count": 0,
+     "clean_files": {}
+    }
+   ]
+  },
+  {
+   "id": "A1-M-68",
+   "source": "建模",
+   "ledger_ref": "1.3#68",
+   "anchor": "L4304-4380",
+   "patterns": [
+    {
+     "pattern": "家里种地",
+     "total_hits": 0,
+     "file_count": 0,
+     "clean_file_count": 0,
+     "clean_files": {}
+    },
+    {
+     "pattern": "严肃教育",
+     "total_hits": 5,
+     "file_count": 3,
+     "clean_file_count": 3,
+     "clean_files": {
+      "cases\\case-essence-education-strategy.md": 1,
+      "concepts\\yt-pitch-conflict.md": 3,
+      "frameworks\\framework-一堂-动力三曲线.md": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "A1-M-69",
+   "source": "建模",
+   "ledger_ref": "1.3#69",
+   "anchor": "L4388-4412",
+   "patterns": [
+    {
+     "pattern": "瑞典",
+     "total_hits": 0,
+     "file_count": 0,
+     "clean_file_count": 0,
+     "clean_files": {}
+    },
+    {
+     "pattern": "常识级别",
+     "total_hits": 0,
+     "file_count": 0,
+     "clean_file_count": 0,
+     "clean_files": {}
+    }
+   ]
+  },
+  {
+   "id": "A1-J-21",
+   "source": "讲香",
+   "ledger_ref": "2.3#21",
+   "anchor": "L1194-1224",
+   "patterns": [
+    {
+     "pattern": "边试边复盘",
+     "total_hits": 1,
+     "file_count": 1,
+     "clean_file_count": 1,
+     "clean_files": {
+      "cases\\case-yitang-jiangxiang-scene-montage.md": 1
+     }
+    },
+    {
+     "pattern": "196 期",
+     "total_hits": 0,
+     "file_count": 0,
+     "clean_file_count": 0,
+     "clean_files": {}
+    },
+    {
+     "pattern": "196期",
+     "total_hits": 3,
+     "file_count": 2,
+     "clean_file_count": 2,
+     "clean_files": {
+      "cases\\case-yitang-jiangxiang-scene-montage.md": 2,
+      "frameworks\\framework-yitang-jiangxiang-strategy-selection.md": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "A1-J-30",
+   "source": "讲香",
+   "ledger_ref": "2.3#30",
+   "anchor": "L1590-1616",
+   "patterns": [
+    {
+     "pattern": "4000家门店",
+     "total_hits": 0,
+     "file_count": 0,
+     "clean_file_count": 0,
+     "clean_files": {}
+    },
+    {
+     "pattern": "4000 家门店",
+     "total_hits": 0,
+     "file_count": 0,
+     "clean_file_count": 0,
+     "clean_files": {}
+    },
+    {
+     "pattern": "31家连锁",
+     "total_hits": 0,
+     "file_count": 0,
+     "clean_file_count": 0,
+     "clean_files": {}
+    },
+    {
+     "pattern": "31 家连锁",
+     "total_hits": 0,
+     "file_count": 0,
+     "clean_file_count": 0,
+     "clean_files": {}
+    },
+    {
+     "pattern": "陈先敏",
+     "total_hits": 7,
+     "file_count": 3,
+     "clean_file_count": 3,
+     "clean_files": {
+      "cases\\case-yitang-coke-spill-compensation.md": 4,
+      "cases\\case-yitang-redburger-selection-industrialization.md": 2,
+      "cases\\case-一堂-基本功-认知篇案例集.md": 1
+     }
+    },
+    {
+     "pattern": "陈肖青",
+     "total_hits": 0,
+     "file_count": 0,
+     "clean_file_count": 0,
+     "clean_files": {}
+    },
+    {
+     "pattern": "范明阳",
+     "total_hits": 0,
+     "file_count": 0,
+     "clean_file_count": 0,
+     "clean_files": {}
+    }
+   ]
+  },
+  {
+   "id": "A1-J-32",
+   "source": "讲香",
+   "ledger_ref": "2.3#32",
+   "anchor": "L1644-1692",
+   "patterns": [
+    {
+     "pattern": "凤凰卫视",
+     "total_hits": 0,
+     "file_count": 0,
+     "clean_file_count": 0,
+     "clean_files": {}
+    },
+    {
+     "pattern": "一虎奇谈",
+     "total_hits": 0,
+     "file_count": 0,
+     "clean_file_count": 0,
+     "clean_files": {}
+    },
+    {
+     "pattern": "心理的坐标系",
+     "total_hits": 0,
+     "file_count": 0,
+     "clean_file_count": 0,
+     "clean_files": {}
+    }
+   ]
+  },
+  {
+   "id": "A1-J-40",
+   "source": "讲香",
+   "ledger_ref": "2.3#40",
+   "anchor": "L1960-1984",
+   "patterns": [
+    {
+     "pattern": "火箭模型",
+     "total_hits": 124,
+     "file_count": 24,
+     "clean_file_count": 21,
+     "clean_files": {
+      "log.md": 4,
+      "cases\\case-fuzeyu-ai-koubo-tool-dev.md": 2,
+      "cases\\case-infinite-canvas-founders-playbook.md": 1,
+      "concepts\\concept-ai-video-wanggan-componentization.md": 2,
+      "concepts\\concept-spatial-narrative-design.md": 1,
+      "concepts\\concept-讲香-卖点直给到价值感.md": 1,
+      "concepts\\yt-concept-weapon-arsenal.md": 1,
+      "concepts\\yt-model-personal-pitch-toolkit.md": 2,
+      "concepts\\yt-personal-scientific-expression.md": 35,
+      "concepts\\yt-personal-verbatim-script.md": 3,
+      "concepts\\yt-pitch-colloquialization.md": 1,
+      "dark-knowledges\\dk-collection-vs-assets.md": 1,
+      "dark-knowledges\\dk-spatial-narrative-pitfalls.md": 2,
+      "domains\\design-moc.md": 3,
+      "frameworks\\framework-knowledge-compound-rocket-six.md": 7,
+      "frameworks\\framework-visual-analysis-four-dimensions.md": 1,
+      "frameworks\\framework-一堂-个人表达力.md": 16,
+      "frameworks\\framework-一堂-表达力火箭模型.md": 6,
+      "systems\\一堂方法论体系总图.md": 1,
+      "tools\\tool-一堂-表达力火箭模型-执行武器库.md": 11,
+      "tools\\yt-pitch-metaphor.md": 1
+     }
+    },
+    {
+     "pattern": "火箭头",
+     "total_hits": 0,
+     "file_count": 0,
+     "clean_file_count": 0,
+     "clean_files": {}
+    }
+   ]
+  },
+  {
+   "id": "A1-J-51",
+   "source": "讲香",
+   "ledger_ref": "2.3#51",
+   "anchor": "L2656-2662+L2704",
+   "patterns": [
+    {
+     "pattern": "越强，你越需要知道",
+     "total_hits": 0,
+     "file_count": 0,
+     "clean_file_count": 0,
+     "clean_files": {}
+    },
+    {
+     "pattern": "调用什么",
+     "total_hits": 7,
+     "file_count": 3,
+     "clean_file_count": 3,
+     "clean_files": {
+      "concepts\\concept-ai-style-knowledge-docs.md": 1,
+      "frameworks\\framework-一堂-个人表达力.md": 1,
+      "tools\\tool-jiangxiang-ai-four-levels.md": 5
+     }
+    },
+    {
+     "pattern": "越需要知道自己要什么",
+     "total_hits": 0,
+     "file_count": 0,
+     "clean_file_count": 0,
+     "clean_files": {}
+    }
+   ]
+  },
+  {
+   "id": "S-1",
+   "source": "试金石",
+   "ledger_ref": "pilot①",
+   "anchor": "ocr L76",
+   "patterns": [
+    {
+     "pattern": "人工合并",
+     "total_hits": 1,
+     "file_count": 1,
+     "clean_file_count": 1,
+     "clean_files": {
+      "cases\\case-yihang-dual-triangle-ai-organizational-behavior.md": 1
+     }
+    },
+    {
+     "pattern": "过一遍我脑子",
+     "total_hits": 0,
+     "file_count": 0,
+     "clean_file_count": 0,
+     "clean_files": {}
+    },
+    {
+     "pattern": "漫长的人工",
+     "total_hits": 0,
+     "file_count": 0,
+     "clean_file_count": 0,
+     "clean_files": {}
+    }
+   ]
+  },
+  {
+   "id": "S-2",
+   "source": "试金石",
+   "ledger_ref": "pilot②",
+   "anchor": "ocr L102+L106",
+   "patterns": [
+    {
+     "pattern": "勉强相信",
+     "total_hits": 1,
+     "file_count": 1,
+     "clean_file_count": 1,
+     "clean_files": {
+      "methods\\method-dual-triangle-human-ai-division.md": 1
+     }
+    },
+    {
+     "pattern": "幻觉是可控",
+     "total_hits": 0,
+     "file_count": 0,
+     "clean_file_count": 0,
+     "clean_files": {}
+    },
+    {
+     "pattern": "4乘4",
+     "total_hits": 0,
+     "file_count": 0,
+     "clean_file_count": 0,
+     "clean_files": {}
+    },
+    {
+     "pattern": "4乘4个",
+     "total_hits": 0,
+     "file_count": 0,
+     "clean_file_count": 0,
+     "clean_files": {}
+    }
+   ]
+  },
+  {
+   "id": "S-3",
+   "source": "试金石",
+   "ledger_ref": "pilot③",
+   "anchor": "ocr L82",
+   "patterns": [
+    {
+     "pattern": "龙虾组织",
+     "total_hits": 7,
+     "file_count": 2,
+     "clean_file_count": 2,
+     "clean_files": {
+      "frameworks\\ai-methodology-tools.md": 6,
+      "methods\\method-dual-triangle-human-ai-division.md": 1
+     }
+    },
+    {
+     "pattern": "分了五层",
+     "total_hits": 0,
+     "file_count": 0,
+     "clean_file_count": 0,
+     "clean_files": {}
+    },
+    {
+     "pattern": "什么是龙虾",
+     "total_hits": 0,
+     "file_count": 0,
+     "clean_file_count": 0,
+     "clean_files": {}
+    }
+   ]
+  },
+  {
+   "id": "S-4",
+   "source": "试金石",
+   "ledger_ref": "pilot④",
+   "anchor": "ocr L84+L86",
+   "patterns": [
+    {
+     "pattern": "依然健在",
+     "total_hits": 0,
+     "file_count": 0,
+     "clean_file_count": 0,
+     "clean_files": {}
+    },
+    {
+     "pattern": "没有删除任何一个",
+     "total_hits": 1,
+     "file_count": 1,
+     "clean_file_count": 1,
+     "clean_files": {
+      "methods\\method-dual-triangle-human-ai-division.md": 1
+     }
+    },
+    {
+     "pattern": "没删除任何一个",
+     "total_hits": 0,
+     "file_count": 0,
+     "clean_file_count": 0,
+     "clean_files": {}
+    }
+   ]
+  },
+  {
+   "id": "S-5",
+   "source": "试金石",
+   "ledger_ref": "pilot⑤",
+   "anchor": "ocr L82",
+   "patterns": [
+    {
+     "pattern": "技术限制",
+     "total_hits": 4,
+     "file_count": 3,
+     "clean_file_count": 3,
+     "clean_files": {
+      "cases\\case-yitang-leo-website-redesign.md": 1,
+      "dark-knowledges\\dk-yihang-ai-false-certainty.md": 1,
+      "tools\\tool-agent-spec-yitang-scenario-walkthrough.md": 2
+     }
+    },
+    {
+     "pattern": "辩证统一",
+     "total_hits": 3,
+     "file_count": 2,
+     "clean_file_count": 2,
+     "clean_files": {
+      "concepts\\yt-business-formula-six-level-logic.md": 1,
+      "frameworks\\framework-一堂-业务公式拆解-总纲.md": 2
+     }
+    }
+   ]
+  },
+  {
+   "id": "S-6",
+   "source": "试金石",
+   "ledger_ref": "pilot⑥",
+   "anchor": "ocr L38",
+   "patterns": [
+    {
+     "pattern": "组织行为学校",
+     "total_hits": 0,
+     "file_count": 0,
+     "clean_file_count": 0,
+     "clean_files": {}
+    },
+    {
+     "pattern": "组织行为学",
+     "total_hits": 109,
+     "file_count": 61,
+     "clean_file_count": 59,
+     "clean_files": {
+      "bridges\\bridge-meeting-leadership-coaching.md": 1,
+      "cases\\case-morfei-semiconductor.md": 1,
+      "cases\\case-panproduct-lanyi-dahanghui-team.md": 3,
+      "cases\\case-panproduct-lanyi-intern-flywheel.md": 1,
+      "cases\\case-yihang-dual-triangle-ai-organizational-behavior.md": 14,
+      "cases\\case-yitang-eason-truth-delivery-audit.md": 1,
+      "cases\\case-yitang-Y-model-advertising-turnaround.md": 1,
+      "cases\\case-yitang-Y-model-seven-applications.md": 1,
+      "concepts\\ai-native-五层进阶从答案到效率到作品到产品到系统.md": 1,
+      "concepts\\concept-yihang-dual-triangle-core.md": 1,
+      "concepts\\master-first-principles.md": 1,
+      "concepts\\master-systems-thinking.md": 2,
+      "concepts\\yt-decision-consensus-iceberg.md": 1,
+      "concepts\\yt-management-basic-skills.md": 1,
+      "concepts\\yt-management-business-formula.md": 1,
+      "concepts\\yt-management-company-culture.md": 1,
+      "concepts\\yt-management-scientific-meetings.md": 1,
+      "concepts\\yt-note-extensive-research-input.md": 3,
+      "concepts\\yt-note-l4-internalization.md": 1,
+      "concepts\\yt-skill-storyline-problem-solving.md": 1,
+      "dark-knowledges\\dk-koupen-decision-tiering-compromise.md": 1,
+      "dark-knowledges\\dk-leadership-trust-coin-sensitivity.md": 1,
+      "dark-knowledges\\dk-panproduct-org-linear-to-circular.md": 1,
+      "dark-knowledges\\dk-yihang-multi-ai-cross-validation.md": 2,
+      "dark-knowledges\\dk-yitang-Y-model-pitfalls.md": 1,
+      "dk\\dk-project-skill-agent-loop.md": 1,
+      "dk\\dk-决策经验值.md": 1,
+      "dk\\dk-单元模型-对抗小抄.md": 1,
+      "frameworks\\ai-methodology-tools.md": 6,
+      "frameworks\\framework-ai-five-layer-architecture.md": 5,
+      "frameworks\\framework-coaching-leadership-core.md": 1,
+      "frameworks\\framework-leadership-coin-model.md": 1,
+      "frameworks\\framework-lobster-opt-one-person-team.md": 3,
+      "frameworks\\framework-meeting-ten-principles.md": 1,
+      "frameworks\\framework-openclaw-vs-harness-selection.md": 2,
+      "frameworks\\framework-truman-agent-team-architecture.md": 2,
+      "frameworks\\framework-wanghuan-bitcoe-prompt-framework.md": 1,
+      "frameworks\\framework-yihang-dual-triangle-three-stages-six-changes.md": 1,
+      "frameworks\\framework-yitang-jiefang-sixiang.md": 1,
+      "frameworks\\framework-yitang-sales-incentive-6d.md": 1,
+      "methods\\method-dual-triangle-flywheel-engine.md": 1,
+      "methods\\method-dual-triangle-human-ai-division.md": 11,
+      "methods\\method-key-assumption-abcd.md": 2,
+      "methods\\method-spin-linking-sales-marketing.md": 1,
+      "methods\\method-storytelling-with-numbers.md": 1,
+      "tools\\tool-agent-spec-yitang-customer-segmentation.md": 1,
+      "tools\\tool-agent-spec-yitang-daily-weekly-meeting-host.md": 1,
+      "tools\\tool-agent-spec-yitang-sales-toolkit-gap.md": 1,
+      "tools\\tool-leadership-three-stubborn-subordinates.md": 2,
+      "tools\\tool-yitang-customer-segmentation-4step.md": 1,
+      "tools\\tool-yitang-daily-weekly-meeting-hosting.md": 2,
+      "tools\\tool-yitang-growth-flywheel-design.md": 1,
+      "tools\\tool-月白-模型识别与边界测试法.md": 1,
+      "tools\\tool-月白-烧Token快速积累体感.md": 1,
+      "tools\\tool-月白-用一堂方法论找最佳实践并拉满执行.md": 1,
+      "tools\\tool-月白-眼高手低训练法.md": 1,
+      "tools\\tool-月白-眼高手低转化法.md": 1,
+      "tools\\tool-月白-色块分区控制法.md": 1,
+      "tools\\yt-tool-onboarding-90day.md": 1
+     }
+    },
+    {
+     "pattern": "AI组织行为学",
+     "total_hits": 12,
+     "file_count": 6,
+     "clean_file_count": 5,
+     "clean_files": {
+      "cases\\case-yihang-dual-triangle-ai-organizational-behavior.md": 2,
+      "concepts\\concept-yihang-dual-triangle-core.md": 1,
+      "frameworks\\ai-methodology-tools.md": 2,
+      "methods\\method-dual-triangle-flywheel-engine.md": 1,
+      "methods\\method-dual-triangle-human-ai-division.md": 3
+     }
+    },
+    {
+     "pattern": "AI 组织行为学",
+     "total_hits": 19,
+     "file_count": 7,
+     "clean_file_count": 5,
+     "clean_files": {
+      "cases\\case-yihang-dual-triangle-ai-organizational-behavior.md": 6,
+      "dark-knowledges\\dk-yihang-multi-ai-cross-validation.md": 2,
+      "frameworks\\ai-methodology-tools.md": 4,
+      "frameworks\\framework-yihang-dual-triangle-three-stages-six-changes.md": 1,
+      "methods\\method-dual-triangle-human-ai-division.md": 4
+     }
+    }
+   ]
+  }
+ ]
+}
