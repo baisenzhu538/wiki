@@ -2,14 +2,14 @@
 id: task_20260906_wangyuyan-renyu-personal-batch
 title: "人域批诊断：老朱个人域 26 件（识己线——性格诊断/思维模型/私董会全程/Feature思维学习线）"
 seq: 667
-status: queued
+status: in_progress
 assignee: wangyuyan
 created_by: wangyuyan
 created_at: 2026-09-06
 decision_source: 老朱 09-05 人域纲领定调（识己+识他）+ 09-06 亲放入 00_inbox（编排意图）；分诊=王语嫣值守拍
 reviewer: 欧阳锋
 instance: wangyuyan
-updated_at: '2026-09-06T21:30:00+08:00'
+updated_at: '2026-09-06T13:44:02.162906+00:00'
 ---
 
 # #667 人域批诊断（王语嫣——识己线原料）
