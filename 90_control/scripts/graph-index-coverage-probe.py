@@ -6,12 +6,15 @@
 对照两边：
   A. 30_wiki 各子目录实际卡数（复用 kdo.commands.graph._collect_all_wiki_pages
      ——与构建脚本同一套收集逻辑，不会漂移）
-  B. .kdo/graph_state.json path_map（title -> path）
+  B. .kdo/graph_state.json path_map（#674 起 page_path -> {title,id}；
+     pre-#674 为 title -> path，str 值仍兼容识别）
 
 缺口=该入索引而没进的卡。>0 即报警（#472 gate-blocked 格式），两圈同拦：
   - 子目录级：目录在盘上有卡、索引里 0 张或少数（#671 实证形态：dark-knowledges 0/332）
-  - 标题撞车级：path_map 按 title 键，同 title 后者覆盖前者（#671 实证形态：
-    dk-research-triangulation-stop-rule 被 skills 同名卡顶掉，dk 少 1 张）
+  - 卡级：盘上 path 不在 path_map（#674 前实证形态=标题撞车：dk-research-triangulation-stop-rule
+    被同名卡顶掉；#674 键硬化后该形态根除，残余缺口=索引过期/漏收）
+  - 同 title 观察项（非阻塞）：KG 实体层仍以 title 为 entity_name，撞名卡在图内仍合流
+    ——改名是内容侧流程，探针只记录不拦
 
 每次运行追加一行到 logs/graph-index-coverage.log（探针心跳）；异常另写
 90_control/gate-blocked.log。Exit 0 = 覆盖完整，1 = 有缺口。
@@ -70,8 +73,9 @@ def main() -> int:
         path_map = state.get("path_map", {})
         if not path_map:
             anomalies.append("path_map 为空（索引疑似未构建）")
-        for v in path_map.values():
-            idx_by_dir[Path(v).parent.name] += 1
+        for k, v in path_map.items():
+            # #674 起 key=page_path；pre-#674 值也是 path，str 值按 legacy 兼容
+            idx_by_dir[Path(k if isinstance(v, dict) else v).parent.name] += 1
 
     # 子目录级缺口：盘上有卡、索引没进全
     for d in sorted(disk_by_dir):
@@ -87,16 +91,27 @@ def main() -> int:
         if d not in disk_by_dir:
             anomalies.append(f"30_wiki/{d} 索引有 {idx_by_dir[d]} 张但盘上已无卡（陈旧索引，需 kdo graph rebuild --full）")
 
-    # 标题撞车级缺口：收集到的卡有 path 不在 path_map 值集合里
-    missing_by_title = [p for p in pages if p["path"] not in set(path_map.values())]
+    # 卡级缺口：收集到的卡有 path 不在 path_map（#674 前多因标题撞车覆盖丢失）
+    indexed_paths = {k if isinstance(v, dict) else v for k, v in path_map.items()}
+    missing_by_title = [p for p in pages if p["path"] not in indexed_paths]
     if missing_by_title:
         names = ", ".join(Path(p["path"]).name for p in missing_by_title[:5])
         more = f" 等 {len(missing_by_title)} 张" if len(missing_by_title) > 5 else ""
         anomalies.append(
-            f"标题撞车致 {len(missing_by_title)} 张卡被 path_map 覆盖丢失：{names}{more}"
-            "（同名 title 后者覆盖前者——撞名卡需改名，改卡走内容侧流程）"
+            f"{len(missing_by_title)} 张盘上卡不在 path_map：{names}{more}"
+            "（索引过期或漏收——kdo graph rebuild --full）"
         )
-        detail_lines.append("title-collision victims: " + names)
+        detail_lines.append("path_map 缺失卡: " + names)
+
+    # 同 title 观察项（非阻塞）：path_map 已不丢卡，但 LightRAG 实体层仍以
+    # title 为 entity_name——撞名卡在图内仍合流，改名走内容侧流程
+    dup_titles = {t: n for t, n in Counter(p["title"] for p in pages).items() if n > 1}
+    if dup_titles:
+        dup_names = ", ".join(sorted(dup_titles)[:5])
+        more = f" 等 {len(dup_titles)} 个" if len(dup_titles) > 5 else ""
+        detail_lines.append(
+            f"同 title 卡（观察项，实体层仍合流）：{len(dup_titles)} 个——{dup_names}{more}"
+        )
 
     ok = not anomalies
     ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -111,6 +126,7 @@ def main() -> int:
         print(json.dumps({
             "ts": ts, "ok": ok, "pages": len(pages), "path_map": len(path_map),
             "gap_by_dir": per_dir,
+            "dup_titles": len(dup_titles),
             "anomalies": anomalies,
         }, ensure_ascii=False, indent=2))
     else:
