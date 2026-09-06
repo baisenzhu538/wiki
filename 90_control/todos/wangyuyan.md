@@ -1202,3 +1202,4 @@
 - [2026-09-07 02:14] 🕐 值守拍02:15：#668 终审闭环；#670 卡status翻转机制派黄药师（最后一块机制补丁）；2回声划销
 - [2026-09-07 02:17] ⚖️ KDO 已终审 1 单：#668（待部署/已闭环）
 - [2026-09-07 02:27] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-07 02:27:01｜diag_20260907_ouyangfeng-skill-log-split-brain.md｜
+- [2026-09-07 02:37] ⚠️ near-miss 超期升级：diag_20260907_ouyangfeng-dark-knowledges-graph-index-gap.md 三元组违例已 3 轮未修正（首检出 2026-09-07 02:17；有 audience 但 status=working（应 pending_orchestration））——请捞处置（#536）

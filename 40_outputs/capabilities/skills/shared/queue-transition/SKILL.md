@@ -7,7 +7,7 @@ description: |
   含完整 task_id 寻址、F-034 五字段执行报告门禁、E040 交付物入仓门禁、--evidence 传文件口径。
   领单失败/提审被拦时先读本 skill，不要猜参数形态。
 category: kdo-infrastructure
-version: 1.0.0
+version: 1.1.0
 related_skills:
   - review-chain
   - kimi-headless-launch
@@ -66,9 +66,23 @@ python 90_control/scripts/queue_transition.py complete <task_id> --instance <角
 # 释放回队列（合法前置：claimed-<同一实例>）
 python 90_control/scripts/queue_transition.py release <task_id> --instance <角色名>
 
-# 终审（审查者专属）
+# 终审（审查者专属）——verdict=pass 时自动翻转交付卡 status（#670，见下）
 python 90_control/scripts/queue_transition.py review <task_id> --verdict pass|fail --reviewer 欧阳锋 --grade A|A-|B+|B|B-|C --review-file <意见书路径>
 ```
+
+### 终审 PASS 自动翻转交付卡（#670，2026-09-07 上线）
+
+`review --verdict pass` 时按任务单执行报告「交付物」节自动翻转交付卡 frontmatter：
+`status: draft → reviewed` + `reviewed_by=<审查者>` + `review_date=<当日>`，翻转卡随
+`chore(review)` 自动落仓（path-scoped，fail-open）。要点：
+
+- **只翻 draft**：`reviewed`/`stable`/`needs-review` 不动（幂等护栏，#668 批部分已收口场景不双写）。
+- **四种交付物写法都认**：反引号完整路径 / 反引号裸卡 id（#665 写法）/ 裸 id+节内声明的
+  `30_wiki/<dir>/` 目录（#666 写法）/ `type×N（标题…）`（#668 写法，文件名带域中缀也命中）。
+- **识别不出=不写盘**：报告项列明「请人工 review_mark 收口」（#612 提醒兜底网保留），
+  终审主流程绝不因翻转失败阻断。
+- 翻转由审查者的 review 动作触发 → `reviewed_by` 归属真实审查者（写审分离不破）。
+  存量历史单的停留卡仍走 `review_mark.py` 人工批收口（由欧阳锋裁量后执行）。
 
 ### 参数表
 

@@ -1,0 +1,39 @@
+# #670 CLI 级沙盒模拟：终审 PASS → 卡 status 自动翻转（2026-09-07 03:1x）
+
+沙盒：_tmp/sim670b（脚本副本+沙盒队列/注册表，与生产 vault 隔离）
+
+## 命令
+```
+python 90_control/scripts/queue_transition.py review task_20260907_sim-card-flip-670 --verdict pass --grade A- --reviewer 欧阳锋
+```
+
+## BEFORE（framework-sim-a，draft/待审）
+---
+title: framework-sim-a
+type: framework
+status: draft
+author: laowantong
+reviewed_by: 待审
+---
+
+## 运行输出
+⛔ 胶囊事件钩异常（流转/台账已成功，不阻断）：agent=欧阳锋 event=queue_transition: No module named 'memory_capsule'
+⛔ 胶囊事件钩异常（流转/台账已成功，不阻断）：agent=欧阳锋 event=decision: No module named 'memory_capsule'
+✅ task_20260907_sim-card-flip-670 终审通过，状态更新为 reviewed，等级 A-
+🔄 #670 卡状态自动翻转 3 张（draft→reviewed，reviewed_by=欧阳锋）：`30_wiki/dark-knowledges/dk-sim-c.md`、`30_wiki/frameworks/framework-sim-a.md`、`30_wiki/frameworks/framework-sim-b.md`
+⏭️ 1 张非 draft 未动（幂等护栏）：30_wiki/frameworks/framework-sim-d.md（status=reviewed 不在 draft）
+✅ dashboard.html 已生成 (1 个任务)
+   待领取: 0  |  审查中: 0  |  进行中: 0  |  已完成: 1
+
+## AFTER：四张卡 frontmatter 三态
+-- 30_wiki/frameworks/framework-sim-a.md
+status: reviewed reviewed_by: 欧阳锋 review_date: 2026-09-07 
+-- 30_wiki/frameworks/framework-sim-b.md
+status: reviewed reviewed_by: 欧阳锋 review_date: 2026-09-07 
+-- 30_wiki/dark-knowledges/dk-sim-c.md
+status: reviewed reviewed_by: 欧阳锋 review_date: 2026-09-07 
+-- 30_wiki/frameworks/framework-sim-d.md
+status: reviewed reviewed_by: 欧阳锋 
+
+## 队列行（翻转后）
+| 1 | `task_20260907_sim-card-flip-670` | 模拟终审PASS卡翻转实证 | reviewed | laowantong | 翻转实证 | 无 | `60_feedback/tasks/task_20260907_sim-card-flip-670.md` | 沙盒 |

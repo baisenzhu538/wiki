@@ -151,7 +151,7 @@ audience: 全体 agent
 - init_flywheel / init_zhu_personal_domain — 初始化
 - kcard-diff-new-vs-existing / kcard-refinement-grader / kcard-simulate-feedback — 卡精修辅助
 - normalize-tag-registry — 标签注册归一
-- review_mark — 审查标记
+- review_mark — 审查标记（#670 起翻转核心 mark_card() 由 queue_transition 终审 PASS 钩子复用；CLI 保留为存量卡人工批收口入口）
 - rule-gate-inventory — 规则门禁盘点
 - run_agent_spec_tests / run_v11_retests — spec 测试
 - source-id-registry — 源 ID 注册
