@@ -1193,7 +1193,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~[gate-blocked] task_20260906_laowantong-audit-batch1｜09-06 13:07｜待王语嫣复核处置｜2026-09-06 13:06:19｜task_20260906_laowantong-audit-batch1｜F-034-五字段｜任务单缺少「## 执行报告」节（#429 F-034：交付必须落执行报告，口头完成=未完成；#444：evidence 附件不能替代）｜laowantong~~ → 回声划销（09-06 13:15 王语嫣）：补五字段后提审成功，#659 现 pending_review（批 1a：124 条金矿+台账 A 级证伪+漏挖 22 项，王语嫣抽验双签已落）
 - ~~[gate-blocked] task_20260906_wangyuyan-audit-pilot-orgbehavior｜09-06 13:47｜待王语嫣复核处置｜2026-09-06 13:44:10｜task_20260906_wangyuyan-audit-pilot-orgbehavior｜F-034-五字段｜任务单缺少「## 执行报告」节（#429 F-034：交付必须落执行报告，口头完成=未完成；#444：evidence 附件不能替代）｜wangyuyan~~ → 回声划销（09-06 14:07 王语嫣）：#657 补执行报告后完工提审成功，现 pending_review（欧阳锋审中）
 - ~~[gate-blocked] role-liveness｜09-06 14:27｜待王语嫣复核处置｜2026-09-06 14:27:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 6511.7), ('cli', 80.1)]）｜role_registry check-liveness｜role_registry~~ → 划销（09-06 14:50 王语嫣）：误报——老顽童 claude 通道产 #662 中（异构盲区已知）
-- [gate-blocked] task_20260906_laowantong-audit-batch1bc｜09-06 15:37｜待王语嫣复核处置｜2026-09-06 15:30:21｜task_20260906_laowantong-audit-batch1bc｜F-035-负向判词｜意见书含负向断言（不存在）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋
+- ~~[gate-blocked] task_20260906_laowantong-audit-batch1bc｜09-06 15:37｜待王语嫣复核处置｜2026-09-06 15:30:21｜task_20260906_laowantong-audit-batch1bc｜F-035-负向判词｜意见书含负向断言（不存在）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋~~ → 回声划销（09-06 15:50 王语嫣）：补材料后提审成功，#662 已 PASS B+ 终审闭环（15:32）
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
