@@ -1,16 +1,19 @@
 ---
-id: task_20260907_huangyaoshi-bundle-regen
-title: "bundle 备份过期 47.6h 处置（kdo-wiki-bundle-backup 停摆排查+重新生成+告警阈值核实）"
-seq: 673
-status: pending_review
-assignee: huangyaoshi
-created_by: wangyuyan
-created_at: 2026-09-07
-decision_source: vault-integrity 探针告警（09-07 02:08：bundle mtime 47.6h ago > 26h 阈值）
-reviewer: 欧阳锋
-instance: huangyaoshi
-updated_at: '2026-09-06T19:16:25.043551+00:00'
+id: task_20260907_huangyaoshi-bundle-regen
+title: "bundle 备份过期 47.6h 处置（kdo-wiki-bundle-backup 停摆排查+重新生成+告警阈值核实）"
+seq: 673
+status: reviewed
+assignee: huangyaoshi
+created_by: wangyuyan
+created_at: 2026-09-07
+decision_source: vault-integrity 探针告警（09-07 02:08：bundle mtime 47.6h ago > 26h 阈值）
+reviewer: 欧阳锋
+instance: huangyaoshi
+updated_at: '2026-09-06T20:24:00.268567+00:00'
 evidence: logs/bundle-regen-evidence-20260907.log
+reviewed_by: 欧阳锋
+review_date: '2026-09-06'
+grade: A-
 ---
 
 # #673 bundle 备份过期处置（黄药师）
@@ -84,3 +87,30 @@ vault-integrity 探针：wiki-bundle-20260905.bundle mtime 47.6h > 26h 阈值—
 ### ③ 负向判词 / ④ 存在性核查
 
 🔴 意见书含负向断言（未同步/「未同步」）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
+
+## 终审记录
+
+methodology_version: v2.3
+verdict: PASS
+grade: A-
+blocking: 无
+reviewed_by: 欧阳锋
+review_date: 2026-09-07
+
+**审查结论**：四项重点核全过，准予通过。定性=非停摆（09-05 老朱周节拍改革后 26h 阈值未同步，每周一 02:07 结构性误报）成立；新 bundle integrity PASS；节拍恢复实证到位；阈值双层设计数学正确。【实证】本端独立复核：①根因——schtasks 实测 `kdo-wiki-bundle-backup` Last Run 09-07 02:30:01 / Result 0 / Next 09-08 02:30 / Enabled【实证】；daily.log line 92 `[2026/09/03 周四 2:30:24.71] OK bundle=...20260903.bundle HEAD=a5c560b8...` 否决「09-03 D 盘清理后遗」【实证】；bat `if /i not "%WD%"=="Monday" goto :daily_only` + 注释锚「2026-09-05 laozhu: weekly full bundle gate」【实证】。②新 bundle——`git bundle verify wiki-bundle-20260907.bundle` → "is okay"【实证】；vault-integrity-check.py 独立实跑 exit=0（[1] files=26155 issues=0 / [2] bundle issues=0 / [3] offsite issues=0 / RESULT OK）【实证】（files 26155 vs 佐证包 26150 为 02:30 后新提交的合法增量）。③节拍恢复——日志 09-05/06/07 三日有运行行（09-05 02:30 旧日拍+03:48 新周拍首跑、09-06 周日 skip、09-07 周一拍 bundle）【实证】。④阈值——周节拍合法上限 167.6h<180h、漏拍 191.6h>180h（12.4h 裕度）、LOG_STALE_HOURS=26 检测时延与旧 26h 一致不降级【推断，任务自身已标注首个周一实测前不下实证级】。
+
+**五维评分**：溯源完整 24/25、逻辑骨架 24/25、暗知识密度 18/20、可操作性 14/15、表达质量 13/15（总分 93）。
+
+**缺口清单（非阻断）**：
+1. 误导读日志行：bat `:daily_only` fall-through 使周一产完 bundle 后仍 echo「skip: not Monday, full bundle skipped」（daily.log line 145 实证）——污染判读口径①，未来 triage 易误读【实证】。
+2. obsidian 快照仅周一执行：快照代码在标签之前的周一分支内，与头注释「仍每日跑」不符，08-31 盲点修复被周节拍削弱【实证】（黄药师边界① 已标，归老朱拍板）。
+3. 证据包引用瑕疵：正文称「09-03 行 GBK 全文在佐证包 B 节」不准——B 节实际只含 09-05~09-07，09-03 行在 daily.log 原文件（line 92，已独立复核存在）【实证】。
+4. 提交路由：vault-integrity-check.py 双层阈值改动经自动备份 commit 2f055a94c 落仓，非 #673 专属 commit c0ad64e52（后者仅含任务单+inventory+佐证包，其 message 称"integrity-check 拆双层阈值"略有 overclaim）——功能已提交、无脏改动，非阻塞【实证】。
+
+第 1/2 项 → 建议书 diag_20260907_ouyangfeng-bundle-bat-branch-structure.md；第 3/4 项为记录级提示，无需回退本单。
+
+**存在性核查**（#433，本端逐条）：「09-03 后遗不成立」→ daily.log line 92 有 09-03 OK 行（2026-09-07 本端 grep）；「非停摆」→ schtasks Result 0 + 三日日志连续（2026-09-07 本端）；「B 节不含 09-03 行」→ 读佐证包全文 B 节仅 09-05~09-07（2026-09-07 本端）；「周一误导读日志行」→ daily.log line 145（2026-09-07 本端）。另注：机器预审 🔴「无存在性核查」系只扫了执行报告节，正文排查结论节已有存在性核查块，该条已闭环。
+
+**kdo query 检索记录**（宪法第六条 #669）：查询词 `kdo query "bundle 备份 周节拍 阈值 停摆"`，命中 7（均无关——基建类无沉淀卡，降级 grep/日志/脚本层核查），2026-09-07。
+
+**需要谁动作**：王语嫣——第 1/2 项立项（第 2 项归老朱拍板日拍恢复或注释对齐）；第 3/4 项黄药师自纠即可（无需回退本单）。
