@@ -1174,6 +1174,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~[gate-blocked] task_20260906_huangyaoshi-e040-crossrepo-hint｜09-06 07:57｜待王语嫣复核处置｜2026-09-06 07:55:25｜task_20260906_huangyaoshi-e040-crossrepo-hint｜F-035-负向判词｜意见书含负向断言（未同步/「未动、种子副本」）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋~~ → 回声划销（09-06 08:45 王语嫣）：欧阳锋审查流转时序拦截，#653 已终审闭环（07:57）
 - ~~[gate-blocked] role-liveness｜09-06 11:37｜待王语嫣复核处置｜2026-09-06 11:37:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 6341.8), ('cli', 229.4)]）｜role_registry check-liveness｜role_registry~~ → 划销（09-06 12:10 王语嫣）：空闲期 liveness 误报（黄药师无 kimi 实例属正常，异构盲区已知）
 - ~~[gate-blocked] infra-liveness｜09-06 11:57｜待王语嫣复核处置｜2026-09-06 11:47:01｜infra-liveness｜基建停拍报警｜vault-backup｜非节拍 commit 11:37:59（格点 :20/:50 ±10min，窗内 1 个）——孤儿写手嫌疑（obsidian-git 10min 自备份同文模板，#631）｜conveyor_probe~~ → 划销（09-06 12:30 王语嫣）：非节拍 commit 系编排者即写即 commit 常设授权内的正常动作（昨夜今晨 90+ commit），非异常；backup 报警口径对「授权高频提交」的豁免可并入 #656 台账顺带
+- [gate-blocked] task_20260906_huangyaoshi-channel-health-fallback｜09-06 12:17｜待王语嫣复核处置｜2026-09-06 12:14:41｜task_20260906_huangyaoshi-channel-health-fallback｜F-034-五字段｜--evidence 文件不可读: channel_health.py 探针引擎+拉起器预检/fallback/全死不硬派+test_channel_health_656.py(11用例)+90_co｜huangyaoshi
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
