@@ -1,1 +1,21 @@
 Warning: no stdin data received in 3s, proceeding without it. If piping from a slow command, redirect stdin explicitly: < /dev/null to skip, or wait longer.
+双单连发完毕。收工汇报——
+
+## 施工结果
+
+**#671 graph_index 补录 dk 族 → pending_review 待欧阳锋终审**
+- 根因【实证】：`kdo/commands/graph.py:333-342`（修复前）硬编码 9 子目录白名单，`dark-knowledges`（332 张）与 `dk`（57 张）均不在名单——新目录上线后从未回填，非 glob 漏
+- 修法：白名单→30_wiki 全子目录动态扫描（治根因，新目录免改码即检索）+ `_archive` 排除；`graph rebuild --full` 全量 2941 页（增量通道看不见 mtime 早于上次重建的从未入索引卡，必须 full；重建前 82M 索引已备份）
+- 验收：path_map **dark-knowledges 332/332**；kdo query 抽 6 标题 5/6 进 top10、6/6 进 top30；探针 `graph-index-coverage-probe.py` 上线并挂每日 02:07 健康节拍（复用构建脚本同一收集逻辑，不漂移）；回归 **633 passed 1 skipped** + 新增 3 例（KDO 仓 commit `78e6551`）
+
+**#673 bundle 备份 47.6h 处置 → pending_review（force 台账留痕：#672 FIFO 前单他属）**
+- 定性反转【实证】：**不是停摆**——09-05 老朱已把日全量改周节拍（bat 内闸门注释为锚：2GB/天×2盘 C盘95%），09-06 空 batch 属设计行为，09-07 周一 02:30 已产 2.1GB 新 bundle；「09-03 D盘清理后遗」假设被日志证伪（当日拍正常成功）。47.6h 告警 = 26h 阈值内嵌的「daily bundle」日历假设过时，**每周一 02:07 必误报**
+- 处置：阈值拆双层——26h 查任务日志活性（每日必写含 skip 日，**停摆检出能力不降级**）+ 180h 查 bundle 周新鲜度；实跑 PASS exit 0；判读口径落 infrastructure-inventory 已知故障族；不手动重生成（0.8h 龄双 verify 过，覆盖式重写反引损坏风险）
+
+**两场新发现（已路由，不越界）**：①探针上线即捕 **13 张历史标题撞名卡**（path_map 按 title 键被覆盖丢溯源映射，如 dk 与 skills 同名卡）——改名属内容侧，待王语嫣立项；②bat 注释称 obsidian 快照每日跑、实际仅周一执行——08-31 事故盲点被周节拍静默削弱，待老朱拍板。
+
+## 会话三问
+
+1. **新资产**：graph.py 动态扫描+3 回归例（KDO 仓 78e6551）、coverage 探针+integrity-check 双层阈值+run-kdo-health.cmd 挂载、判读口径与工具登记（inventory §3/§5）、佐证包×2、两份五字段任务单——全部入仓
+2. **新问题/阻塞**：13 撞名卡改名待立项、.obsidian 快照待拍板——已落 `.agent/context.md` blockers + 两任务单「需要谁动作」；friction 新增 1 条（pre-submit `reviewed_by` 按知识卡口径误拦任务单，存在 E018 诱导风险）
+3. **下次最需记住**：连续三场任务单初判都不准（#647/#650/#673）——「疑似/待查」字样的初判一律先列待证命题再展开；阈值/告警类处置先问其内嵌的日历假设是否还成立。Truman 续场已存（🟡 B 级），todos 两行落账，门铃时钟在位。

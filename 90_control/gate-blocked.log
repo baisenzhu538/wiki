@@ -787,3 +787,8 @@
 2026-09-07 03:08:40｜task_20260907_huangyaoshi-dk-graph-index-gap｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
   - untracked: kdo/commands/graph.py
   - untracked: tests/｜huangyaoshi
+2026-09-07 03:19:20｜graph-index-coverage｜graph index 覆盖缺口｜30_wiki/concepts 部分卡未入索引（524/525）｜graph-index-coverage-probe
+2026-09-07 03:19:20｜graph-index-coverage｜graph index 覆盖缺口｜30_wiki/dk 部分卡未入索引（56/57）｜graph-index-coverage-probe
+2026-09-07 03:19:20｜graph-index-coverage｜graph index 覆盖缺口｜30_wiki/frameworks 部分卡未入索引（308/309）｜graph-index-coverage-probe
+2026-09-07 03:19:20｜graph-index-coverage｜graph index 覆盖缺口｜30_wiki/tools 部分卡未入索引（1027/1037）｜graph-index-coverage-probe
+2026-09-07 03:19:20｜graph-index-coverage｜graph index 覆盖缺口｜标题撞车致 13 张卡被 path_map 覆盖丢失：yt-product-ten-metrics.md, dk-research-triangulation-stop-rule.md, framework-lean-abcd-model.md, sk-ai-ai-workspace-setup.md, sk-ai-evidence-check.md 等 13 张（同名 title 后者覆盖前者—｜graph-index-coverage-probe

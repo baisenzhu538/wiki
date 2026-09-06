@@ -1208,3 +1208,6 @@
 - [2026-09-07 02:57] 📬 KDO 新建议书 1 份待裁定：diag_20260907_ouyangfeng-dark-knowledges-graph-index-gap.md
 - [2026-09-07 02:57] ⚠️ near-miss 超期升级：diag_20260907_ouyangfeng-skill-log-split-brain.md 三元组违例已 3 轮未修正（首检出 2026-09-07 02:27；有 audience 但 status=working（应 pending_orchestration））——请捞处置（#536）
 - [2026-09-07 03:07] ⛔ KDO 门禁拦截 5 次（gate-blocked）：2026-09-07 03:02:10｜graph-index-coverage｜graph index 覆盖缺口｜30_wiki/conc…
+- [2026-09-07 03:17] ⛔ KDO 门禁拦截 6 次（gate-blocked）：2026-09-07 03:07:22｜graph-index-coverage｜graph index 覆盖缺口｜30_wiki/conc…
+- [2026-09-07 03:18] 🕐 值守拍03:15：#666框架批10卡终审闭环✅；凌晨基建三单（#670卡status翻转/#671 dk图索引补录/#672日志双轨）全完工提审→送欧阳锋(proc_258836)；#671防复发探针首报警concepts域新缺口（超范围发现转产卡）；#673黄药师在产
+- [2026-09-07 03:22] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#670（huangyaoshi 的单，挂审 35min）；#672（ouyangfeng 的单，挂审 20min）；#671（huangyaoshi 的单，挂审 13min）；#673（huangyaoshi 的单，挂审 6min）（到点（节奏 30min））
