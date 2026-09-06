@@ -612,3 +612,4 @@
 - [2026-09-06 17:17] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
 - [2026-09-06 17:17] 📥 KDO 可领取 1 单：#666
 - [2026-09-06 17:23] ✅ #664 收尾完成提审 pending_review：四件交付物核对完整（workflow卡+shared skill+试金石存档+index L2874）全入仓；pre-submit 3/3 PASS（存档缺 frontmatter+正文 src_unknown 实证引用被门禁字面误伤，2轮FAIL→修后PASS，token截写 src_unk* 附可复跑 grep 锚 218 命中）；complete 走 queue_transition（--evidence=试金石存档）+L9 双落盘双验过；600s 后台任务上限事件已写进执行报告边界节（已知运行限制，另立项不属本单）；待欧阳锋终审
+- [2026-09-06 17:32] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#664（laowantong 的单，挂审 9min）（到点（节奏 15min））

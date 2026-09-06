@@ -1,0 +1,25 @@
+#664 收尾完成，收工。
+
+## 四件核对（【实证】均带锚点）
+
+| 交付物 | 状态 |
+|:--|:--|
+| workflow 卡 `30_wiki/workflows/workflow-multi-researcher-cross.md` | ✅ 在盘，已入仓（062924400），含试金石实录节（:149 指向存档） |
+| skill `40_outputs/capabilities/skills/shared/multi-researcher-cross/SKILL.md` | ✅ 在盘，已入仓 |
+| 试金石存档 `60_feedback/diagnosis/working/pilot-multi-researcher-cross-20260906.md` | ✅ 在盘；**本次修补**：缺 frontmatter（补齐）+ 正文 1 处实证 token 被门禁字面误伤（截写 `src_unk*` + 可复跑锚 `grep -c "src_unk" 30_wiki/log.md` → 218 命中），commit c1471d190 |
+| index 登记 | ✅ `30_wiki/index.md:2874` |
+
+## pre-submit 补跑
+
+修前 2 轮 FAIL（①存档缺 frontmatter；②BODY_SRC_UNKNOWN 用 `body.count("src_unknown")` 字面匹配，把 P5 报告里**作为证据引用**的占位 token 当占位符拦下——存档声明“不删减”，故走截写+显式声明，不改写证据）→ 修后 **3/3 PASS，0 errors**，完整输出已贴任务单执行报告（2 条非阻断 WARNING 如实在列）。
+
+## 流转与验证
+
+- `queue_transition.py complete 664 --instance laowantong --evidence <试金石存档>` 一次过：交付物入仓核验 4 路径通过，任务单 frontmatter `status: pending_review` + `evidence` 留档
+- L9 双落盘双验：队列 `pending_review: 1 → #664` ✅
+- 600s 后台任务上限事件已写进执行报告**边界**节：标为本工作流已知运行限制，`CLAUDE_CODE_PRINT_BG_WAIT_CEILING_MS=0`/异步模式另行立项不属本单【实证】
+- 五字段执行报告已入任务单，todos 落账 1 行；commit 链 c1471d190 → ab05f04df（流转自动）→ a6e8c1d4b → 33966da15
+
+## 收尾
+
+复盘已存（🟡 B级，`daily-context/2026-09-06-1725.md`）；friction 一行（门禁字面匹配误伤证据引用，同族第二例，建议黄药师微单加引用语境豁免）；技能进化日志一行。**#665/#666 已可领但不碰**——按指令只做本单，现收工待命。
