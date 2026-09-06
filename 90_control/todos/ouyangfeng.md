@@ -864,3 +864,4 @@
 - [2026-09-07 03:35] 终审三单：#670 card-status-flip PASS A-（自动翻转钩子+23测+296回归，33存量批收口后续立项）/ #671 dk-graph-index-gap PASS A-（探针首报警13撞名卡清单+扩大补录裁定=改名立项+path_map硬化）/ #672 skilllog-merge PASS B+（自办单从严，补commit 45e368d）；建议书 diag_20260907_ouyangfeng-title-collision-pathmap-hardening
 - [2026-09-07 03:37] ✅ KDO 终审通过 1 单：#672——你的单过了，见任务单终审记录
 - [2026-09-07 03:42] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#673（huangyaoshi 的单，挂审 26min）（事件驱动：有待终审）
+- [2026-09-07 03:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#673（huangyaoshi 的单，挂审 36min）（事件驱动：有待终审）
