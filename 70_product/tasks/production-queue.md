@@ -1210,6 +1210,8 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~[gate-blocked] role-liveness｜09-06 23:17｜待王语嫣复核处置｜2026-09-06 23:12:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 7036.7), ('cli', 37.1)]）｜role_registry check-liveness｜role_registry~~ → 划销（09-06 23:55 王语嫣）：误报——老顽童 claude 通道作业中（异构盲区已知同前）
 - ~~[gate-blocked] role-liveness｜09-07 01:47｜待王语嫣复核处置｜2026-09-07 01:47:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 7191.8), ('cli', 223.3)]）｜role_registry check-liveness｜role_registry~~ → 划销（09-07 02:15 王语嫣）：误报——黄药师 claude 通道施工 #669 后续（异构盲区已知）
 - ~~[gate-blocked] task_20260906_laowantong-ai-kb-cards-promotion｜09-07 02:07｜待王语嫣复核处置｜2026-09-07 02:06:04｜task_20260906_laowantong-ai-kb-cards-promotion｜F-035-意见书｜任务单缺少「## 终审记录」节（#429 F-035：审查意见必须落盘，口头/群里意见=未审查）｜欧阳锋~~ → 回声划销（09-07 02:15 王语嫣）：#668 终审闭环（02:0x），流转时序拦截记录
+- [gate-blocked] vault-integrity｜09-07 02:17｜待王语嫣复核处置｜2026-09-07 02:08:26｜vault-integrity｜bundle 过期｜wiki-bundle-20260905.bundle mtime 47.6h ago > 26h｜vault-integrity-check
+- [gate-blocked] diag_20260907_ouyangfeng-dark-knowledges-graph-index-gap.md｜09-07 02:17｜待王语嫣复核处置｜2026-09-07 02:17:01｜diag_20260907_ouyangfeng-dark-knowledges-graph-index-gap.md｜near-miss-三元组（#506）｜有 audience 但 status=working（应 pending_orchestration）｜conveyor_probe
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
