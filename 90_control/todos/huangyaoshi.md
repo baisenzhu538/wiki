@@ -795,3 +795,25 @@
 - [2026-09-06 06:16] 【施工】#652 返工重提完成：欧阳锋 05:26 终审 P1 一句话修复（startup.md L54 尾句「技术概念 deep-research」→「技术/概念类→kdo query+grep（deep-research 未实装）」，与 L5/宪法第三条/PROMPT_TEMPLATE 四处口径对齐，grep 核验 deep-research 全文件仅剩 L54 否定式 1 处）→ pending_review 待欧阳锋
 - [2026-09-06 06:16] 【施工】#653 E040 跨仓前缀提示完成并提审：_crossrepo_hint()（KDO_REPO_ROOT/路径盘上存在且缺仓前缀→报错补「写带仓前缀全路径，参照 #542」，硬拦行为零变化）；+2 回归全量 256 passed；顺带 MOUNT-MATRIX 实证核查结论反转——矩阵 78/78 零失真（生成器结构上不可能登记不存在 skill），真实失真是 04:46 friction 判词查错层级（research-core 实装在 shared/，SKILL.md v1.1.0 reviewed），#652 已补正、宪法 L44/公告 L63 修正建议报欧阳锋 → pending_review 待欧阳锋
 - [2026-09-06 06:16] 【施工】#655 连发窗口完成并提审：取修法① claim --sequence 显式 flag（弃②时间窗豁免=隐式放宽+时钟依赖）；own pending 剔除后照走 FIFO/#503 锁（首轮越界被自建护栏用例拦下返工）；真实队列只读模拟三条件 PASS（连发放行/无 flag 照拦/他单在前不越）；+6 回归全量 262 passed；本会话 #653/#655 两次 force 为同型末次 → pending_review 待欧阳锋
+- [2026-09-06 06:22] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#652（huangyaoshi 的单，挂审 28min）；#654（laowantong 的单，挂审 27min）；#653（huangyaoshi 的单，挂审 19min）；#655（huangyaoshi 的单，挂审 9min）（到点（节奏 15min））
+- [2026-09-06 06:37] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#652（huangyaoshi 的单，挂审 43min）；#654（laowantong 的单，挂审 42min）；#653（huangyaoshi 的单，挂审 34min）；#655（huangyaoshi 的单，挂审 24min）（到点（节奏 15min））
+- [2026-09-06 06:52] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#652（huangyaoshi 的单，挂审 58min）；#654（laowantong 的单，挂审 57min）；#653（huangyaoshi 的单，挂审 49min）；#655（huangyaoshi 的单，挂审 39min）（到点（节奏 15min））
+- [2026-09-06 07:07] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#652（huangyaoshi 的单，挂审 73min）；#654（laowantong 的单，挂审 72min）；#653（huangyaoshi 的单，挂审 64min）；#655（huangyaoshi 的单，挂审 54min）（到点（节奏 15min））
+- [2026-09-06 07:22] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#652（huangyaoshi 的单，挂审 88min）；#654（laowantong 的单，挂审 87min）；#653（huangyaoshi 的单，挂审 79min）；#655（huangyaoshi 的单，挂审 69min）（到点（节奏 15min））
+- [2026-09-06 07:42] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#652（huangyaoshi 的单，挂审 108min）；#654（laowantong 的单，挂审 107min）；#653（huangyaoshi 的单，挂审 99min）；#655（huangyaoshi 的单，挂审 89min）（到点（节奏 15min））
+- [2026-09-06 07:57] ✅ KDO 终审通过 2 单：#652, #653——你的单过了，见任务单终审记录
+- [2026-09-06 08:02] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#654（laowantong 的单，挂审 127min）（到点（节奏 15min））
+- [2026-09-06 08:07] ✅ KDO 终审通过 1 单：#655——你的单过了，见任务单终审记录
+- [2026-09-06 08:22] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-06 08:37] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-06 08:52] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-06 09:07] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-06 09:22] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-06 09:37] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-06 09:52] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-06 10:12] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-06 10:27] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-06 10:42] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-06 10:57] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-06 11:12] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-06 11:27] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））

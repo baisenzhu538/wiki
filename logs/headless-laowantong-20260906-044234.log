@@ -1,0 +1,26 @@
+答完即收工。检索已做双路核查（`kdo query` 语义+图检索 / grep 全库），结论如下：
+
+## 有——直接命中 1 张
+
+**《订阅制商业模式：从一次性到持续收入》** 【实证】
+- 路径：`30_wiki/concepts/yt-business-model-subscription.md`（160 行，type: concept，status: enriched，来源：一堂商业模式系列课——订阅制）
+- 正文即含「订阅定价策略」小节（该卡 `:90`），另有订阅制类型、关键指标、留存策略、一次性转订阅的转型——订阅制定价的问题这张卡能直接覆盖。
+
+## 相邻卡（定价族，但不是订阅/会员制专属）【实证】
+
+- `30_wiki/concepts/yt-business-model-pricing-psychology.md` — 定价心理学：让用户觉得值
+- `30_wiki/concepts/yt-business-model-b2b-pricing.md` — B2B定价策略：从SMB到Enterprise
+- `30_wiki/concepts/concept-定价-价格杠杆.md` — 价格杠杆：定价那一刻，利润已经锁定
+- 桥接：`30_wiki/frameworks/bridge-利润-单元模型-定价闭环.md` — 用业务公式做定价决策
+
+## 案例卡（会员制/订阅制落地）【实证】
+
+- `30_wiki/cases/case-gym-membership-formula.md` — 线下连锁健身：把“到店频率”变成“到店习惯”才是续卡率抓手（健身房会员卡续费）
+- `30_wiki/cases/case-saas-renewal-formula.md` — ToB 企业培训 SaaS：续费率 50%→80% 不是靠催费（订阅制续费）
+
+## 负向判词（附核查锚点）【实证】
+
+库内**没有**一张标题就叫“会员制定价”的独立卡。锚点：① grep `会员制|订阅制` 全 `30_wiki/` → 41 个文件，无一卡题含“会员制定价”；② `30_wiki/concept-card-index-latest.md` 全表检「会员/订阅/定价」→ 定价族 concept 仅 `:165 / :277 / :285 / :287` 四条（即上面列的几张）。若你正做会员制定价相关的业务判断，最贴近的就是 `yt-business-model-subscription` + 定价心理学两卡拼用；要成体系可走队列单提老顽童补一张。
+
+---
+**收工状态**：只读任务已完成，未领队列单、未改任何文件、未写 todos、未做队列流转。

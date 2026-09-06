@@ -780,3 +780,9 @@
 - [2026-09-06 07:56] 终审 #653 huangyaoshi-e040-crossrepo-hint PASS A-（_crossrepo_hint 只补提示不放松拦截面+2 回归断言实体核对+262 全量独立复跑绿；意见书首轮被 F-035 拦（负向判词无锚），补存在性核查节后过——宪法第二条拦对）
 - [2026-09-06 07:58] 终审 #655 huangyaoshi-sequential-claim-window PASS A-（修法①取稳者裁决同意；连发放行 return True 在 FIFO/#503 锁之后不越权，force 台账零耦合，锁内重查透传无 TOCTOU；🔵低危 2 项留痕）
 - [2026-09-06 08:07] 终审 #654 laowantong-aidahangha-batch1 PASS A-（抽审：3 framework 全读+case/bridge 抽 3+其余机械核验；引语独立回验 23/23 逐字命中零伪造；自攻击真攻击且修复实落；存量自迭代全实证（周期表 100→103/#611 互链 6/6/seek-truth 补链）；12 卡 review_mark 转正，skill+spec 草案留 draft；🟠2 流程项留痕=预标 reviewed+报告缺存在性核查节）
+- [2026-09-06 08:32] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-06 09:02] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-06 09:32] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-06 10:02] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-06 10:37] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-06 11:07] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））

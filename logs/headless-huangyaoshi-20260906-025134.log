@@ -1,0 +1,22 @@
+两单全部闭环提审。收工汇报：
+
+## 施工结果
+
+**#649 采集链两修** → `pending_review`（commit `49928fa76`/`538e93607` + KDO CLI 仓 `4b0e45f`）
+- **修一**：根因双层实锤——`timeout=900` 对 3905s（65min）视频必然杀进程，且 `TimeoutExpired` 未捕获整拍崩溃→无产出未标 seen→每 10min 重下 148MB。修法取任务三选一的选 1：ffprobe 时长×1.0+300s（下限 900s/上限 4h），另加失败留痕 ledger + 同素材 3 败熔断。**实测 RTF 0.63（转写实耗 2475s），旧 900s 只有实际所需的 36%**
+- **止血/恢复（显式声明）**：`/disable` 02:54:17 → 终止 02:51 在途败拍 02:59:11 → 修复+补转写后 `/enable` 03:43:51；恢复后首拍 03:51 实跑 rc=0、mp4 零重下
+- **验收**：`src_wechat_4b6327b374540e2e.md`（3218 行/3214 段，头尾全覆盖）+ 知识化件 + seen 双键标注 ✓；模拟超时留痕由 6 条新回归钉死；vault 全量 **272 passed**
+- **修二**：真根因两个（目录段被当素材名 + 扩展名未剥致 alias 实存仍误报），`_check_aliases_has_source_name` 改只取 basename+剥扩展名；**#643 原卡复跑 ALIASES 0 issues**；+5 回归，KDO CLI 全量 **625 passed / 1 skipped**
+
+**#650 拉起器 hermes 修正** → `pending_review`（commit `afff203ef`/`9bb442b43`/`0304397cb`）
+- 源码级核实：hermes 解析链只认 `-p` flag → `active_profile` 文件（现值 **huangyaoshi**，09-02 00:09 起）→ `HERMES_HOME`；`HERMES_PROFILE` env **整条链不被读** → TOOLS 加 `-p {role}`、TOOL_ENV 死配置移除
+- 狗粮 PASS（拉起器拉 `skills-assistant` 自称正确）+ 阴性对照（env-only 直跑当场自称 huangyaoshi，错载复现）双实测闭环；+3 回归
+- **历史影响面核查**（弃日志抽样，直查各 profile `state.db` 账本）：09-03 01:09–11:09 有 **11 个老顽童意图会话错载黄药师 profile**，涉 **#626/#629/#630/#632** 四单；记忆层无污染（MEMORY.md 全文目检）、KDO 层身份未串（自称全是老顽童）。清单+建议落 `diag_20260906_huangyaoshi-hermes-profile-impact-audit.md` **报王语嫣转老朱**，附带更正段王爷 diag 一处引证（两条"hermes 成功日志”实为 kimi 通道）+ token 报表归因偏差提示
+
+## 收尾三问
+
+1. **新资产**：148MB 启动会回放完整逐字稿+知识化件入库；三处代码修复（monitor/launcher/pre_submit）+14 条回归；影响面审计报告；7 个 commit 两仓落账
+2. **新问题**：E040 报错缺跨仓路径提示、#504 对用户连单场景次次 force（两条 friction 已记待裁定）；hermes「0 字节日志但会话实存」立项嫌疑登记在 diag 建议 4
+3. **下次记住**：hermes 通道角色=`-p` flag，env 永不生效；转写失败先看 `transcribe_fails.txt`（3 败熔断，人工清账才重试）；审计类任务直奔账本表（state.db），日志只做旁证
+
+复盘已存档（🟡 B 级），todos/friction/技能进化日志/Truman 全部落账。

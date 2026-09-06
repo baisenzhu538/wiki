@@ -426,11 +426,6 @@
       "domain": "framework-ai-deconstruction-methodology.md"
     },
     {
-      "path": "frameworks/framework-ai-native-organization-two-modes.md",
-      "type": "framework",
-      "domain": "framework-ai-native-organization-two-modes.md"
-    },
-    {
       "path": "frameworks/framework-ai2041-critical-reading-os.md",
       "type": "framework",
       "domain": "framework-ai2041-critical-reading-os.md"
@@ -1441,5 +1436,5 @@
       "domain": "yt-tool-unit-model-dynamic.md"
     }
   ],
-  "total_cards": 2935
+  "total_cards": 2948
 }

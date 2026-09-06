@@ -1,14 +1,14 @@
 # source_refs 健康检查报告
 
-**扫描范围**：2941 张卡片
-**有 source 的卡片**：2750 张
+**扫描范围**：2955 张卡片
+**有 source 的卡片**：2763 张
 **空 source 卡片**：188 张
-**source_refs 总数**：6026 条
-**文件路径类 source**：4343 条
-**✅ 文件存在**：4029 条
+**source_refs 总数**：6090 条
+**文件路径类 source**：4407 条
+**✅ 文件存在**：4093 条
 **❌ 文件缺失**：314 条
 **⚠️ 污染引用**：8 条
-**🔗 行号锚引用**：784 条（剥锚后存在 784 条——剥锚修复前全被误判缺失，#543）
+**🔗 行号锚引用**：813 条（剥锚后存在 813 条——剥锚修复前全被误判缺失，#543）
 
 ---
 
@@ -352,6 +352,7 @@
 | `agent-spec-fengqingyang-observer` | 6 | 6 | 0 | 0 | reviewed |
 | `agent-spec-hongqigong-multimodal` | 12 | 12 | 0 | 0 | draft |
 | `agent-spec-huangyaoshi-builder` | 7 | 7 | 0 | 0 | reviewed |
+| `agent-spec-kouspeng-task-decomposer` | 5 | 5 | 0 | 0 | draft |
 | `agent-spec-laowantong-producer` | 6 | 6 | 0 | 0 | draft |
 | `agent-spec-ouyangfeng-reviewer` | 6 | 6 | 0 | 0 | reviewed |
 | `agent-spec-skills-assistant` | 3 | 2 | 1 | 0 | reviewed |
@@ -366,16 +367,22 @@
 | `bridge-meeting-leadership-coaching` | 4 | 4 | 0 | 0 | reviewed |
 | `bridge-panproduct-kids-translation` | 2 | 2 | 0 | 0 | reviewed |
 | `bridge-two-feature-systems` | 3 | 3 | 0 | 0 | reviewed |
+| `bridge-yitang-kdo-document-over-session` | 6 | 6 | 0 | 0 | reviewed |
+| `bridge-yitang-kdo-dual-triangle-verification` | 5 | 5 | 0 | 0 | reviewed |
+| `bridge-yitang-kdo-gate-philosophy` | 6 | 6 | 0 | 0 | reviewed |
+| `bridge-yitang-kdo-skill-center-network` | 6 | 6 | 0 | 0 | reviewed |
 | `bridge-yitang-seek-truth-liberate-thought` | 2 | 1 | 1 | 0 | draft |
 | `bridge-个人复盘×知识管理W-Z-K-P` | 1 | 0 | 1 | 0 | reviewed |
 | `case-20260829-zhanlue-dingding-l3-extraction` | 1 | 0 | 1 | 0 | draft |
 | `case-252-quality-gate-pilot` | 4 | 4 | 0 | 0 | draft |
+| `case-360-overnight-course-rebuild` | 3 | 3 | 0 | 0 | reviewed |
 | `case-4000-titles-ten-strategies` | 1 | 1 | 0 | 0 | reviewed |
 | `case-agent-self-evolution-pilot` | 4 | 4 | 0 | 0 | reviewed |
 | `case-ai-agent-milestone-design` | 1 | 1 | 0 | 0 | reviewed |
 | `case-ai-companion-emotional` | 3 | 3 | 0 | 0 | enriched |
 | `case-ai-job-displacement-wef` | 3 | 3 | 0 | 0 | enriched |
 | `case-ai-learning-series-modeling` | 2 | 2 | 0 | 0 | reviewed |
+| `case-ai-performance-review-trial` | 3 | 3 | 0 | 0 | reviewed |
 | `case-ai-pet-emotional-product` | 1 | 1 | 0 | 0 | reviewed |
 | `case-ai-search-commerce-platform-hedge` | 2 | 2 | 0 | 0 | reviewed |
 | `case-ai-time-management-tiered-growth` | 1 | 1 | 0 | 0 | enriched |
@@ -423,6 +430,7 @@
 | `case-demand-travel-agent` | 1 | 1 | 0 | 0 | reviewed |
 | `case-dental-clinic-formula` | 3 | 3 | 0 | 0 | reviewed |
 | `case-design-principles-90` | 2 | 2 | 0 | 0 | reviewed |
+| `case-digital-avatar-pricing-review` | 4 | 4 | 0 | 0 | reviewed |
 | `case-doris-2014-music-streaming-prediction` | 2 | 2 | 0 | 0 | reviewed |
 | `case-doris-beauty-ecommerce-channel` | 1 | 1 | 0 | 0 | enriched |
 | `case-doris-catering-chain-benchmark` | 1 | 1 | 0 | 0 | enriched |
@@ -442,6 +450,7 @@
 | `case-feishu-minutes-extraction-attempt` | 1 | 0 | 1 | 0 | draft |
 | `case-five-step-fake-vs-real-barriers` | 3 | 3 | 0 | 0 | enriched |
 | `case-five-step-growth-first-lever` | 2 | 2 | 0 | 0 | enriched |
+| `case-flowmax-20min-product` | 3 | 3 | 0 | 0 | reviewed |
 | `case-friend-circle-aigc-transformation` | 1 | 1 | 0 | 0 | pending_review |
 | `case-fuzeyu-ai-koubo-tool-dev` | 2 | 2 | 0 | 0 | draft |
 | `case-guang-leng-dian-zi-hx-smj` | 4 | 4 | 0 | 0 | reviewed |
@@ -454,6 +463,7 @@
 | `case-jovida-ai-life-coach` | 2 | 2 | 0 | 0 | reviewed |
 | `case-kdo-agent-factory-dual-triangle-practice` | 5 | 5 | 0 | 0 | reviewed |
 | `case-kinda-digital-employees-fullview` | 1 | 0 | 1 | 0 | reviewed |
+| `case-kouspeng-13min-19tasks` | 3 | 3 | 0 | 0 | reviewed |
 | `case-laozhu-hongqigong-human-ai-partner-evolution` | 5 | 1 | 4 | 0 | reviewed |
 | `case-leadership-communication-failures` | 1 | 1 | 0 | 0 | reviewed |
 | `case-lean-2b-gray-test` | 2 | 2 | 0 | 0 | enriched |
@@ -936,7 +946,14 @@
 | `concept-目标管理组织四阶段` | 2 | 1 | 1 | 0 | draft |
 | `concept-科学决策宽度` | 3 | 3 | 0 | 0 | reviewed |
 | `concept-稀缺机会窗口` | 1 | 1 | 0 | 0 | reviewed |
-| `concept-纪浩-ai-collaboration-five-layer` | 4 | 4 | 0 | 0 | reviewed |
+| `concept-纪浩-ai-collaboration-five-layer` | - | - | - | - | ERROR: YAML parse error: while parsing a block mapping
+  in "<unicode string>", line 1, column 1:
+    id: concept-纪浩-ai-collaboration- ... 
+    ^
+expected <block end>, but found '-'
+  in "<unicode string>", line 27, column 1:
+    - - - concept-wanghuan-adversari ... 
+    ^ |
 | `concept-讲香-卖点直给到价值感` | 2 | 2 | 0 | 0 | reviewed |
 | `concept-问题驱动式深度思考笔记` | 1 | 1 | 0 | 0 | reviewed |
 | `contingency-decision-making` | 1 | 1 | 0 | 0 | reviewed |
@@ -1494,7 +1511,9 @@ expected <block end>, but found '<scalar>'
 | `bridge-利润-需求冰山-价值定价` | 4 | 4 | 0 | 0 | draft |
 | `business-formula-to-kdo-card-quality` | 3 | 3 | 0 | 0 | enriched |
 | `framework-agent-card-execution-pattern` | 4 | 4 | 0 | 0 | draft |
+| `framework-ai-five-layer-architecture` | 7 | 7 | 0 | 0 | reviewed |
 | `framework-ai-human-70-30-division` | 2 | 2 | 0 | 0 | reviewed |
+| `framework-ai-native-working-paradigm` | 5 | 5 | 0 | 0 | reviewed |
 | `framework-ai-report-value-ladder-l1-l6` | 2 | 2 | 0 | 0 | reviewed |
 | `framework-ai-sales-collaboration` | 1 | 1 | 0 | 0 | reviewed |
 | `framework-AI知识库-Workflow六要素` | 4 | 3 | 1 | 0 | draft |
@@ -1517,6 +1536,7 @@ expected <block end>, but found '<scalar>'
 | `framework-dopamine-recovery` | 4 | 4 | 0 | 0 | draft |
 | `framework-dual-center-feishu-obsidian` | 3 | 3 | 0 | 0 | reviewed |
 | `framework-education-protracted-war` | 1 | 1 | 0 | 0 | draft |
+| `framework-encapsulation-methodology` | 7 | 7 | 0 | 0 | reviewed |
 | `framework-fact-rule-insight` | 1 | 1 | 0 | 0 | pending_review |
 | `framework-how-to-know-a-person` | 2 | 2 | 0 | 0 | reviewed |
 | `framework-kdo-badcase-feedback-loop` | 5 | 5 | 0 | 0 | reviewed |
@@ -1689,6 +1709,7 @@ expected <block end>, but found '<scalar>'
 | `skill-duanwangye-prezi` | 1 | 0 | 1 | 0 | draft |
 | `skill-duanwangye-wechat-extraction` | 1 | 0 | 1 | 0 | reviewed |
 | `skill-feishu-doc-l3-extraction` | 1 | 0 | 1 | 0 | reviewed |
+| `skill-five-layer-positioning` | 5 | 5 | 0 | 0 | draft |
 | `skill-research-behavior-over-asking` | 2 | 2 | 0 | 0 | reviewed |
 | `skill-research-decision-first-mapping` | 2 | 2 | 0 | 0 | reviewed |
 | `skill-research-triangulation-stop-rule` | 2 | 2 | 0 | 0 | reviewed |

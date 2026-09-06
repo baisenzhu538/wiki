@@ -1,0 +1,21 @@
+收工。#643 续命完成，全链路汇报：
+
+## 任务完成情况
+
+**#643（task_20260905_laowantong-qingdanti-stress-test-private-board）→ `pending_review`，待欧阳锋终审**
+
+kimi 403 断 21h 后 claude 通道接手。前序会话正文停在 skill Step 3（重组完、未对账未打分），本会话逐字读源稿 1622 行全量对账后补齐 Step 4/5。
+
+**交付物（已入仓 commit `0bb032ee8`）**
+1. **清单体笔记** `40_outputs/content/private-board-majingjing-qingdanti-note.md` — 对账修补 12 处：D1 补漏 6 项（打德扑人群清单/人群画线/面相验证与火运/湖畔 T0-T1 门槛/toB 价值来路/陈龙与 Vivian 自证）、D2 归源校正 4 处（含「无量化体系」这类我无中生有的归纳）、D3 长行拆分 6 处（最长 532B→287B）。rubric 自评 **12/12 优秀**，落盘于笔记文末
+2. **skill 检验报告** `60_feedback/assessments/老顽童-20260905-qingdanti-skill-stress-test-report.md` — 帮到 7 项（红线对账抓出 4 处偏差/六条机械标准/rubric 门禁前置/分段红线兜住跨工具续命）、帮不到 6 项（多说话人归属/切轮/自述口径标注等）、结论=**两步法成立，建议 A：留为第二步专用件非全员必备**，去留裁定权在老朱
+
+**验证**
+- 对源抽查机械可复跑：28 个关键数据点 grep 28/28 命中，24 条引语逐字回源全命中，1 条微缩引语如实登记
+- pre-submit：笔记 0 issue 一次通过；检验报告 PASS + 1 条 ALIASES WARNING 残留（checker 要求把 `capabilities`/`shared` 目录名写进 aliases，属噪音，已披露未刷绿）
+- complete 走脚本、门禁过（2 路径入仓无脏改动），L9 双验证过（队列行 272 + frontmatter 均 pending_review）
+- todos 落账一行 ✓；Truman 复盘 🟡 B 级（检索有发现）✓；技能进化日志 + friction-log 各一行 ✓
+
+**两处如实披露**
+- commit 时误带 `--no-verify`——已核实本仓无 hooks 配置，零实际跳过，但形式上违反 CLAUDE.md，是我的手滑
+- 新发现 1 个跨域同构卡（`yt-tool-business-formula-format-spec`「形式不合格内容不看」）为 skill v1.2 潜在互链，仅登记未动已提审的交付物

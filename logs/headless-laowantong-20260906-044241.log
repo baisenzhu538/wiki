@@ -1,0 +1,20 @@
+证据已足够闭环。核验完成，直接作答。
+
+**结论【实证】：有。** 检索锚点：`kdo query "会员制定价 订阅制定价"`（Top8 命中）+ `30_wiki` 全域 grep（订阅制/会员/定价 共 130+ 处命中），以下为直接相关的知识卡：
+
+**最直接命中（订阅制定价核心卡）**
+- 订阅制商业模式：从一次性到持续收入 — `30_wiki/concepts/yt-business-model-subscription.md`（concept/enriched/confidence 0.92；含收入公式「收入 = 订阅价 × 订阅用户数 × 订阅周期」+ 订阅定价价值匹配的诊断信号）
+- 收入模式：6种典型变现方式 — `30_wiki/concepts/yt-business-model-revenue-types.md`（订阅/会员制属其中变现方式之一）
+
+**定价方法层（配套）**
+- 利润-单元模型-定价闭环 — `30_wiki/frameworks/bridge-利润-单元模型-定价闭环.md`
+- 利润-需求冰山-价值定价 — `30_wiki/frameworks/bridge-利润-需求冰山-价值定价.md`
+
+**会员制/续费案例层（配套实证）**
+- 健身房会员公式 — `30_wiki/cases/case-gym-membership-formula.md`
+- SaaS 续费公式 — `30_wiki/cases/case-saas-renewal-formula.md`
+- 脱离成本：续费/留存的本质是「离开太痛」— `30_wiki/concepts/concept-一堂-脱离成本.md`
+
+边界说明【实证】：库里**没有**单独命名为「会员制定价」的卡片（grep `会员制定价` 字面量在 30_wiki 零命中），该主题由上面「订阅制商业模式」主卡 + 定价框架 + 会员制案例组合覆盖。
+
+——本次为只读快答，未领单、未改任何文件，收工。

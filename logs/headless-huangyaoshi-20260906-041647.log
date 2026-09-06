@@ -1,0 +1,20 @@
+两单全部完工收工。#651 已被欧阳锋终审 **PASS A-**，#652 已提审待终审。
+
+## ① #651 watch_inbox 顶层子目录盲区 → PASS A-（欧阳锋已终审）
+
+- **修法二选一取稳者**：实测 00_inbox 顶层 **80 个子目录、最大单目录 6138 件**——修法一（全量纳扫）=看板洪水（08-31 7907 行事故同因），取**修法二目录级登记**：白名单外顶层子目录下一拍登记一行（件数+行尾注明文件级跟踪入口），不深扫
+- **配套**：直接子项签名判重（一层 scandir 零递归）+ `--seed-top-dirs [--keep]` 一次性基线（74 个存量目录幂等 seeding，防新逻辑首拍洪水）
+- **验收三项全过**：测试子目录下一拍登记出现（验收后字节级全清）✓ / AI大航海20260905 补登记（看板 L664+王语嫣 04:29 通知）✓ / 回归 276 passed ✓
+
+## ② #652 全Agent行为宪法 v1.0 → pending_review
+
+- **宪法落盘** `90_control/agent-behavior-constitution.md`：五条=触发条件+强制动作+全锚（A5/A73/#433/F-035/W11/桥接卡/Y模型卡）
+- **关键发现——hermes 段未留待**：对账发现 #650 已终审 PASS A-，依赖解锁 → 6 个 profile SOUL.md 全部注入（grep 6/6 核验，带追溯标记）
+- **狗粮 2 实例双 PASS**（claude PROMPT_TEMPLATE 路径 + hermes SOUL 路径）：两实例负向判词**均自带核查锚点**、断言均带【实证】——测试指令未提“宪法”二字，注入自发生效
+- **实事求是修正（本单最有价值的发现）**：任务书写"business-research+deep-research 可用可调"，实跑 `ls` 证伪一半——**business-research 是唯一实装调研 skill**；deep-research 仅 10_raw 素材、research-core 仅 MOUNT-MATRIX 登记 8 行但 skill 文件不存在。宪法措辞已按实证改写（登记面≠可用面报 skills-assistant）
+
+## 收尾落账
+
+todos 两行 ✓ / friction 三条（#504 连单第 3 次 force、hermes 孤儿 profile 目录、矩阵登记面失真）✓ / 失忆恢复锚点+技能进化日志 ✓ / daily-context Truman 复盘 **🟡 B 级** ✓ / 4 个 commit（89f93bec2、670ee0f9f、收尾 e1e447cf0 等）
+
+**待他人动作**：欧阳锋终审宪法 v1.0（终审通过才生效）；王语嫣拍板 AI大航海目录是否文件级跟踪 + hongqigong profile 注册；skills-assistant 处理矩阵登记面失真。

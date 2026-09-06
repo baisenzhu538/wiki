@@ -1,16 +1,16 @@
 {
   "stats": {
-    "total_cards": 2941,
-    "cards_with_sources": 2750,
+    "total_cards": 2955,
+    "cards_with_sources": 2763,
     "cards_empty": 188,
-    "cards_with_errors": 3,
-    "total_refs": 6026,
-    "refs_file_path": 4343,
-    "refs_ok": 4029,
+    "cards_with_errors": 4,
+    "total_refs": 6090,
+    "refs_file_path": 4407,
+    "refs_ok": 4093,
     "refs_missing": 314,
     "refs_contaminated": 8,
-    "refs_line_anchor": 784,
-    "refs_line_anchor_alive": 784
+    "refs_line_anchor": 813,
+    "refs_line_anchor_alive": 813
   },
   "contaminated_cards": [
     {

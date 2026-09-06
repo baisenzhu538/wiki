@@ -1,0 +1,39 @@
+Reading additional input from stdin...
+OpenAI Codex v0.144.1
+--------
+workdir: C:\Users\Administrator\Desktop\wiki
+model: deepseek-v4-pro
+provider: relay
+approval: never
+sandbox: danger-full-access
+reasoning effort: none
+reasoning summaries: none
+session id: 01a073d9-b0ba-7301-9055-de9db1d66ad8
+--------
+user
+你是ouyangfeng（KDO 知识工厂角色）。工作目录 C:\Users\Administrator\Desktop\wiki（先 cd 进去，一切操作在该目录下）。
+
+启动恢复（必做）：
+1. Read .agent/startup.md
+2. Read .agent/ouyangfeng-context.md（若不存在跳过，改读 20_memory/ouyangfeng-amnesia-recovery.md）
+3. Read 90_control/todos/ouyangfeng.md 的最后 20 行（未读段）
+
+然后执行本次任务指令：
+终审四单（06:14 班因 token 中断零产出，重拉；这次逐单流转防丢）：先小后大，每审完一单立即 queue_transition.py review 流转+commit，再做下一单：①#652 task_20260906_huangyaoshi-agent-behavior-constitution 返工重提——核上轮 P1（startup.md L54 虚指 deep-research）是否已一句话修复且无新矛盾②#653 task_20260906_huangyaoshi-e040-crossrepo-hint（_crossrepo_hint+2 回归）③#655 task_20260906_huangyaoshi-sequential-claim-window（claim --sequence+6 回归 262 过）④最后 #654 task_20260906_laowantong-aidahangha-batch1（12+ 卡大批量）——抽审策略：3 framework 卡全读（定位声明/行号锚/三方法调研证据/知行合一判据），case/bridge 抽 3 张读正文+其余机械核验（frontmatter/锚存在/dk 词数），存量自迭代核 Feature 周期表回填与 #611 互链。若 token 临近极限，优先保 ①②③ 完成并落盘，#654 可留待下班次并在 todos 注明。完工 todos/ouyangfeng.md 落账。
+
+通用纪律（不可协商）：
+- 行为宪法（#652 老朱 09-06 拍板，五条行为底线，全 agent 强制）：Read 90_control/agent-behavior-constitution.md——断言三级标注【实证/推断/猜测】、负向判词必附存在性核查锚点、疑问先检索再开口（商业主体调研用 business-research skill，其余 kdo query+grep）、解放-检验循环、Y模型三问后才方案。
+- 队列状态流转只走 python 90_control/scripts/queue_transition.py（claim <task_id> --instance ouyangfeng / complete ... --evidence ... / review ...），禁止手改队列和任务单 status。实例名=裸角色名（#620 老朱 09-02 铁律：工具=变量不进名字）。
+- 完工在 90_control/todos/ouyangfeng.md 追加一行（[YYYY-MM-DD HH:MM] 动作+任务号+结果）。
+- 提审前任务单内必须有五字段执行报告（**交付物**/**完成内容**/**验证**/**边界**/**需要谁动作** 各起一行）。
+- 只做本次指令范围内的事，做完收工，不扩展到其他任务。
+- 备份避让（#628）：vault 自动备份每 30min 一拍（kdo-vault-git-backup，现落 :20/:50，以 logs/vault-git-backup.log 尾行为准）——拍前 5 分钟禁 stash/worktree 切换类操作，未提交在制品保持落盘可见即可（有活动会话备份会自行跳拍）；长任务隔离验证一律 git worktree。
+
+warning: Model metadata for `deepseek-v4-pro` not found. Defaulting to fallback metadata; this can degrade performance and cause issues.
+ERROR: Reconnecting... 1/5
+ERROR: Reconnecting... 2/5
+ERROR: Reconnecting... 3/5
+ERROR: Reconnecting... 4/5
+ERROR: Reconnecting... 5/5
+ERROR: stream disconnected before completion: {"error":{"message":"Insufficient Balance","type":"unknown_error","param":null,"code":"invalid_request_error"}}
+ERROR: stream disconnected before completion: {"error":{"message":"Insufficient Balance","type":"unknown_error","param":null,"code":"invalid_request_error"}}

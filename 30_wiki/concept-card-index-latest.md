@@ -1,4 +1,4 @@
-# Concept Card Index — 2026-09-04 18:07 UTC
+# Concept Card Index — 2026-09-05 18:07 UTC
 
 | ID | Title | Type | Domain |
 |---|---|---|---|
@@ -2016,6 +2016,7 @@
 | case-popmart-molly-transition | 案例：泡泡玛特 MOLLY 诞生——代理权受制到自有 IP 的「掀桌子」转型 | case | strategy |
 | case-popmart-prospectus-pricing | 案例：泡泡玛特招股书——IP产品毛利率60-70% | case | research |
 | case-private-board-conversion-skincare | 转化率私董会实录：古法护肤祛斑项目的动力/阻力/触点三轮共创与幕僚收敛（脱敏版） | case | conversion-rate |
+| case-private-board-majingjing-decision-camp | 私董会实录：马晶晶德扑商业决策营——表面是获客题，真问题是交付复制（内部素材） | case | management |
 | case-private-domain-ecommerce-formula | 私域电商 10W 人社群：从"拉人发广告"到"信任 × 用户升级路径" | case | e-commerce, business-strategy |
 | case-proya-betaine-skincare-benchmark | 案例：贝泰妮招股书——敏感肌市场的完整画像 | case | research |
 | case-qinpeng-hardware-ai-amplification | 上海合宙硬件：20年积累→2000万字知识库→AI放大交付 | case |  |
@@ -2484,10 +2485,14 @@
 | dk-leadership-trust-coin-sensitivity | 信任硬币敏感性（暗知识：领导力=加减币觉察） | dk | management, coaching |
 | dk-let-ai-learn-for-me | 让 AI 替我学：自己学太慢时的转向点（自学失败→训练 AI 代学） | dk | ai-collaboration, knowledge-management |
 | dk-level-blindspot-external-feedback | 暗知识：「7-8分幻觉」是结构性盲区——低段位者高估自己，因为没见过高段位的具体打法 | dk | entrepreneur |
+| dk-listen-ear-heart-qi | 听之以耳→听之以心→听之以气：中国人识人决策的三层倾听 | dk | human-insights |
 | dk-long-material-layered-reading-protocol | 长素材分层读取协议：密度×长度选策略 / 子代理外存+行号锚点 / 三道防线 | dk | personal-os |
 | dk-lu-gui-lv-bu-bei-yu-wang | 按规律办事，不被欲望左右：多藏而厚亡 | dk | decision-science, personal-os |
 | dk-lz-ai-native-organization | AI原生组织：罗马军团正在被自进化有机体取代——中层管理的全部存在理由是人脑带宽不足 | dk | ai-saas, business-strategy |
 | dk-lz-code-is-disposable | 代码正在变成一次性消耗品——业务上下文才是AI时代的永恒资产 | dk | ai-saas, business-strategy |
+| dk-majingjing-chengquan-thinking | 成全性思维：赢不在牌桌之上，而在牌桌之外 | dk | strategy |
+| dk-majingjing-momentum-design | 势能设计：人不觉得自己聪明才会思考——输赢起伏是教学引擎 | dk | management |
+| dk-majingjing-role-ladder | 角色阶梯培养法：学员→荷官→商业智囊——把「交付脱人」拆成三级能力台阶 | dk | management |
 | dk-market-info-gap-to-product-strategy | 市场信息差→产品策略决策链——从"怎么还有人不知道"到"零门槛+80分" | dk | ai-collaboration |
 | dk-mckinsey-hypothesis-driven-pitfalls | 暗知：假设驱动方法论的三个反直觉陷阱 | dk | consulting |
 | dk-mcp-pythonpath-pollution | PYTHONPATH 跨版本污染：cp313 venv 注入 Python312 子进程导致 MCP 崩溃 | dk | hermes, mcp, infrastructure |
@@ -2602,6 +2607,7 @@
 | dk-wanghuan-spec-trap | 王欢暗知识：Spec 陷阱——过度拆解会锁死 AI 上限 | dk |  |
 | dk-wanghuan-standard-by-iteration | 王欢暗知识：标准不清时，用AI对抗AI生成标准 | dk | human-ai-collaboration, ai-collaboration |
 | dk-wanghuan-tacit-decision-extraction-cross-domain | 王欢暗知识：销冠能力萃取的底层逻辑可迁移到任何“隐性判断型”销售 | dk | human-ai-collaboration, ai-collaboration, sales, b2b, consulting |
+| dk-wangzhen-transfer-law | 望诊迁移律：人身体哪里有问题，他的企业哪里就有问题——象思维识人实例族 | dk | human-insights |
 | dk-weekly-modeling-iteration-growth-engine | 暗知识：一堂真正的增长引擎是'周对周的建模能力增长' | dk | modeling |
 | dk-y-model-communication | Y模型沟通版暗知识（目标/现况/参与/行动/反思 + 主观能动性本土化） | dk | management, coaching |
 | dk-yb1-aigc-mvp-before-ps | 设计师AIGC工作流：先跑MVP再开PS | dk | design, ai-collaboration |

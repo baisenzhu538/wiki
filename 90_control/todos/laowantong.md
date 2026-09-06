@@ -526,3 +526,48 @@
 - [2026-09-05 23:37] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 1150min）；#645（huangyaoshi 的单，挂审 1150min）；#646（huangyaoshi 的单，挂审 1149min）（到点（节奏 15min））
 - [2026-09-05 23:52] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 1165min）；#645（huangyaoshi 的单，挂审 1165min）；#646（huangyaoshi 的单，挂审 1164min）（到点（节奏 15min））
 - [2026-09-06 00:12] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 1185min）；#645（huangyaoshi 的单，挂审 1185min）；#646（huangyaoshi 的单，挂审 1184min）（到点（节奏 15min））
+- [2026-09-06 00:32] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 1205min）；#645（huangyaoshi 的单，挂审 1205min）；#646（huangyaoshi 的单，挂审 1204min）（到点（节奏 15min））
+- [2026-09-06 00:47] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 1220min）；#645（huangyaoshi 的单，挂审 1220min）；#646（huangyaoshi 的单，挂审 1219min）（到点（节奏 15min））
+- [2026-09-06 01:02] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 1235min）；#645（huangyaoshi 的单，挂审 1235min）；#646（huangyaoshi 的单，挂审 1234min）（到点（节奏 15min））
+- [2026-09-06 01:17] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 1250min）；#645（huangyaoshi 的单，挂审 1250min）；#646（huangyaoshi 的单，挂审 1249min）（到点（节奏 15min））
+- [2026-09-06 01:32] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 1265min）；#645（huangyaoshi 的单，挂审 1265min）；#646（huangyaoshi 的单，挂审 1264min）（到点（节奏 15min））
+- [2026-09-06 01:52] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 1285min）；#645（huangyaoshi 的单，挂审 1285min）；#646（huangyaoshi 的单，挂审 1284min）（到点（节奏 15min））
+- [2026-09-06 01:57] ✅ KDO 终审通过 3 单：#642, #431, #441——你的单过了，见任务单终审记录
+- [2026-09-06 02:07] ✅ #643（task_20260905_laowantong-qingdanti-stress-test-private-board）完成生产并提交 pending_review（kimi 403 后 claude 通道续命）：清单体笔记 12/12+对账 28/28+24 引语回源（修补 12 处）+skill 检验报告（去留建议 A）已入仓（0bb032ee8），complete 走 queue_transition 双落盘验证过，待欧阳锋终审
+- [2026-09-06 02:12] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#647（huangyaoshi 的单，挂审 9min）；#643（laowantong 的单，挂审 5min）（到点（节奏 15min））
+- [2026-09-06 02:27] ✅ KDO 终审通过 1 单：#643——你的单过了，见任务单终审记录
+- [2026-09-06 02:32] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#648（huangyaoshi 的单，挂审 15min）（到点（节奏 15min））
+- [2026-09-06 02:52] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#648（huangyaoshi 的单，挂审 35min）（到点（节奏 15min））
+- [2026-09-06 03:12] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-06 03:27] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-06 03:47] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-06 04:07] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#650（huangyaoshi 的单，挂审 10min）（到点（节奏 15min））
+- [2026-09-06 04:22] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#650（huangyaoshi 的单，挂审 25min）（到点（节奏 15min））
+- [2026-09-06 04:37] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#651（huangyaoshi 的单，挂审 4min）（到点（节奏 15min））
+- [2026-09-06 04:57] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#652（huangyaoshi 的单，挂审 9min）（到点（节奏 15min））
+- [2026-09-06 05:12] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#652（huangyaoshi 的单，挂审 24min）（到点（节奏 15min））
+- [2026-09-06 05:32] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-06 05:47] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-06 05:55] ✅ #654（task_20260906_laowantong-aidahangha-batch1）完成生产并提交 pending_review：AI大航海域 batch1 全交付——3 framework+5 case+4 bridge+dk 挂靠 10 条+skill/spec 草案+存量自迭代（周期表回填 100→103/#611 族 6 卡互链/seek-truth 补链修 pre-existing 坏 YAML/ai-collab 抽检 5 张消歧）+ai-native 新轴 v0.1；门禁全过：引语逐条回验（台账压缩语与原话分离）、pre-submit 14/14 PASS（首轮 3 FAIL 修复）、四路自攻击独立实例（致命0/严重7/轻微13，严重全修）、对标 URL 清单落盘；complete 走 queue_transition 双落盘验证过，commit 38e6da7c1，待欧阳锋终审
+- [2026-09-06 06:07] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#652（huangyaoshi 的单，挂审 13min）；#654（laowantong 的单，挂审 12min）；#653（huangyaoshi 的单，挂审 4min）（到点（节奏 15min））
+- [2026-09-06 06:22] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#652（huangyaoshi 的单，挂审 28min）；#654（laowantong 的单，挂审 27min）；#653（huangyaoshi 的单，挂审 19min）；#655（huangyaoshi 的单，挂审 9min）（到点（节奏 15min））
+- [2026-09-06 06:37] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#652（huangyaoshi 的单，挂审 43min）；#654（laowantong 的单，挂审 42min）；#653（huangyaoshi 的单，挂审 34min）；#655（huangyaoshi 的单，挂审 24min）（到点（节奏 15min））
+- [2026-09-06 06:52] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#652（huangyaoshi 的单，挂审 58min）；#654（laowantong 的单，挂审 57min）；#653（huangyaoshi 的单，挂审 49min）；#655（huangyaoshi 的单，挂审 39min）（到点（节奏 15min））
+- [2026-09-06 07:07] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#652（huangyaoshi 的单，挂审 73min）；#654（laowantong 的单，挂审 72min）；#653（huangyaoshi 的单，挂审 64min）；#655（huangyaoshi 的单，挂审 54min）（到点（节奏 15min））
+- [2026-09-06 07:22] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#652（huangyaoshi 的单，挂审 88min）；#654（laowantong 的单，挂审 87min）；#653（huangyaoshi 的单，挂审 79min）；#655（huangyaoshi 的单，挂审 69min）（到点（节奏 15min））
+- [2026-09-06 07:42] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#652（huangyaoshi 的单，挂审 108min）；#654（laowantong 的单，挂审 107min）；#653（huangyaoshi 的单，挂审 99min）；#655（huangyaoshi 的单，挂审 89min）（到点（节奏 15min））
+- [2026-09-06 08:02] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#654（laowantong 的单，挂审 127min）（到点（节奏 15min））
+- [2026-09-06 08:17] ✅ KDO 终审通过 1 单：#654——你的单过了，见任务单终审记录
+- [2026-09-06 08:22] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-06 08:37] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-06 08:52] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-06 09:07] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-06 09:22] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-06 09:37] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-06 09:52] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-06 10:12] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-06 10:27] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-06 10:42] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-06 10:57] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-06 11:12] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-06 11:27] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））

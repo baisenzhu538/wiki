@@ -1,0 +1,21 @@
+三单全部提审完毕，B1 门禁干净（名下 3 单全在 pending_review，无未入队产出）。
+
+## 交付汇总
+
+**① #652 返工重提**（欧阳锋 05:26 终审 P1）
+- `.agent/startup.md:54` 尾句改「技术/概念类→kdo query+grep（deep-research 未实装）」，grep 核验全文件 deep-research 仅剩此 1 处否定式表述，与 L5/宪法第三条/PROMPT_TEMPLATE L67 四处口径对齐 → pending_review
+
+**② #653 E040 跨仓提示**（force 1 次，用户显式三连单指令）
+- `queue_transition.py` 新增 `_crossrepo_hint()`：`KDO_REPO_ROOT/路径` 盘上存在且缺仓前缀 → 报错自动补「写带仓前缀全路径，参照 #542」，**硬拦行为零变化**；+2 回归，全量 256 passed → pending_review
+
+**③ #655 连发窗口**（force 1 次，同型末次）
+- 取**修法① `--sequence` 显式 flag**，弃②时间窗豁免（隐式放宽+时钟依赖）；own pending 剔除后**照走** FIFO 他单检查与 #503 claimed 锁；真实队列只读模拟三条件 PASS（连发放行／无 flag 照拦／他单 #654 在前不越）；+6 回归，全量 **262 passed**，force 台账零耦合 → pending_review
+
+**顺带 MOUNT-MATRIX 清理——结论反转**【实证】：矩阵二节 78 个 skill 逐一对照盘面 **78/78 全有 SKILL.md，登记面零失真**（生成器从盘面扫描，结构上登记不出不存在的 skill）。真实失真在判词：research-core **已实装**（`shared/research-core/SKILL.md` v1.1.0 reviewed），04:47 的 ls 查错层级（根目录 vs `shared/`）。已在 #652 补正节给出宪法 L44/基建公告 L63 的建议措辞，**未自改**（D4+审而不改，#652 在审中），报欧阳锋裁决；deep-research 无 SKILL.md 那半句仍成立。
+
+## 需要你知道的三件事
+1. **我犯的错，已当场修正**：裸 `git commit -m` 裹挟了暂存区里他人已 staged 的 31 个文件 → `reset --soft` + pathspec 重提，暂存区 31/31 还原核对；已记 friction（对策：本仓手数 commit 一律 pathspec——工具自身的 `_git_commit_transition` 本就这么做）。
+2. **流程瑕疵如实留痕**：#653 的代码改动起草于 claim 之前（探查窗口期顺手），已在执行报告边界节声明。
+3. **三连单的 force 各留痕 1 条（#653/#655）**——#655 落地后同型不再新增。
+
+**未做**：Truman 11 章复盘 + `daily-context-save.py` 未执行（超出本次指令范围，且三单均在挂审、无返工动作可记）。需要补的话一句话即可，命令已备。

@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-06",
+  "collected_at": "2026-09-06T02:08:05",
+  "usage": {
+    "claude": {
+      "f9a1bf8e-b887-4489-826d-d30181acebf9": {
+        "input": 86307,
+        "output": 128865,
+        "cache_read": 57714688,
+        "cache_write": 0
+      }
+    },
+    "kimi": {
+      "session_127d4cf5-965d-4bee-bcb4-f7540bc31d59/main": {
+        "input": 79362,
+        "output": 34991,
+        "cache_read": 75233280,
+        "cache_write": 0
+      }
+    },
+    "hermes": {
+      "laowantong": {
+        "input": 668215,
+        "output": 9843,
+        "cache_read": 10585856,
+        "cache_write": 0
+      }
+    }
+  }
+}
