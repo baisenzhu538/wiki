@@ -676,7 +676,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~00_inbox/_tmp_smile_chat_raw.txt｜P2｜8152B｜检测到 09-06 03:31｜待王语嫣编排~~ → 挂起待老朱指令（09-06 12:10 王语嫣）：个人微信聊天记录导出（full/raw 同源双份，07-29~30 协议对齐话题，含手机号）——涉隐私不自动编排不删除（00_inbox 只增不删）；老朱若要入域分析（销售对话/人域）请口喷指令明确用途后走协议 9 通道
 - ~~00_inbox/人机协作双三角/｜P2｜304件｜检测到 09-06 04:11｜待王语嫣编排（#651 目录级登记：内件不在扫描面，需文件级跟踪→加入 SCAN_SUBDIRS）~~ → 已裁定划销（09-06 12:30 王语嫣）：目录新增件=洪七公 OCR 交付稿，已入 #657 试金石流程（OCR 复核 PASS+19 金矿+6 条漏挖 dk 候选，报告 diag_20260906_wangyuyan-audit-pilot-report）
 - ~~00_inbox/AI大航海20260905/｜P2｜15件｜检测到 09-06 04:21｜待王语嫣编排（#651 目录级登记：内件不在扫描面，需文件级跟踪→加入 SCAN_SUBDIRS）~~ → 回声划销（09-06 13:00 王语嫣）：#651 目录级登记重fire（件数 14→15 系洪七公 OCR 交付稿入目录）——本域全量已消化，素材在 #657 流程内闭环
-- 00_inbox/老朱的个人域/｜P2｜26件｜检测到 09-06 12:51｜待王语嫣编排（#651 目录级登记：内件不在扫描面，需文件级跟踪→加入 SCAN_SUBDIRS）
+- ~~00_inbox/老朱的个人域/｜P2｜26件｜检测到 09-06 12:51｜待王语嫣编排（#651 目录级登记：内件不在扫描面，需文件级跟踪→加入 SCAN_SUBDIRS）~~ → 已分诊划销（09-06 21:30 王语嫣）：人域纲领「识己」线原料 26 件——立项 #667 诊断批（MOC 先行+隐私受控）；0 字节履历.txt 异常已登记
 
 <!-- INBOX-PENDING-END -->
 
@@ -1232,6 +1232,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 664 | `task_20260906_laowantong-multi-researcher-cross` | 场景复现一：多研究员交叉研究工作流+skill+试金石真跑 | reviewed | laowantong | workflow卡+skill+小课题真跑报告 | #662 后（同角色排队） | `60_feedback/tasks/task_20260906_laowantong-multi-researcher-cross.md` | 老朱拍板第一优先；欧阳锋终审 |
 | 665 | `task_20260906_laowantong-dkcard-ruling-batch` | 老朱拍板产卡批：A 组 5 dk 新卡+B 组 6 补强+C 组 3 登记（伦理 c4-38 选 a 不入库） | reviewed | laowantong | 5 dk 卡+6 补强 diff+3 登记行+伦理注记 | #664 后（同角色排队） | `60_feedback/tasks/task_20260906_laowantong-dkcard-ruling-batch.md` | 老朱 09-06 拍板；候选清单 a1-batch1bc-greprerun-decision-list；欧阳锋终审 |
 | 666 | `task_20260906_laowantong-batch1c-cards` | 批 1c 高优产卡批：框架 10+case 5+四源同构 dk 1（分两小批） | claimed-laowantong | laowantong | 16 件入库+三方法证据+自攻击 | #665 后（同角色排队） | `60_feedback/tasks/task_20260906_laowantong-batch1c-cards.md` | 老朱拍板「要产排队不急」；欧阳锋终审 |
+| 667 | `task_20260906_wangyuyan-renyu-personal-batch` | 人域批诊断：老朱个人域 26 件（识己线，隐私面受控，产卡范围报老朱定） | queued | wangyuyan | 诊断报告+编排建议（MOC先行+五态对账） | #666 后 | `60_feedback/tasks/task_20260906_wangyuyan-renyu-personal-batch.md` | 人域纲领原料（老朱亲放）；欧阳锋终审 |
 
 ## PROPOSAL-PENDING
 ### diag_20260826_ouyangfeng-source-refs-line-anchor-unreachable（2026-08-26 欧阳锋）
