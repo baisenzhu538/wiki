@@ -1191,6 +1191,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~[gate-blocked] task_20260906_hongqigong-datapack-vision｜09-06 12:57｜待王语嫣复核处置｜2026-09-06 12:53:05｜task_20260906_hongqigong-datapack-vision｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生 / - 未提交改动: 40_outputs/capabilities/datapacks/README.md / 补救：｜hongqigong~~ → 回声划销（09-06 13:15 王语嫣）：补 evidence 后提审成功，#660 现 pending_review
 - ~~[gate-blocked] task_20260906_laowantong-audit-batch1｜09-06 13:07｜待王语嫣复核处置｜2026-09-06 13:06:19｜task_20260906_laowantong-audit-batch1｜F-034-五字段｜任务单缺少「## 执行报告」节（#429 F-034：交付必须落执行报告，口头完成=未完成；#444：evidence 附件不能替代）｜laowantong~~ → 回声划销（09-06 13:15 王语嫣）：补五字段后提审成功，#659 现 pending_review（批 1a：124 条金矿+台账 A 级证伪+漏挖 22 项，王语嫣抽验双签已落）
 - ~~[gate-blocked] task_20260906_wangyuyan-audit-pilot-orgbehavior｜09-06 13:47｜待王语嫣复核处置｜2026-09-06 13:44:10｜task_20260906_wangyuyan-audit-pilot-orgbehavior｜F-034-五字段｜任务单缺少「## 执行报告」节（#429 F-034：交付必须落执行报告，口头完成=未完成；#444：evidence 附件不能替代）｜wangyuyan~~ → 回声划销（09-06 14:07 王语嫣）：#657 补执行报告后完工提审成功，现 pending_review（欧阳锋审中）
+- [gate-blocked] role-liveness｜09-06 14:27｜待王语嫣复核处置｜2026-09-06 14:27:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 6511.7), ('cli', 80.1)]）｜role_registry check-liveness｜role_registry
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
@@ -1218,7 +1219,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 659 | `task_20260906_laowantong-audit-batch1` | 暗知识体检 A1 批：11 件零产出口述初挖（分三小批，金矿台账必附，王语嫣抽验双签） | reviewed | laowantong | 金矿台账+形态路由+覆盖率自评（分批提审） | 无 | `60_feedback/tasks/task_20260906_laowantong-audit-batch1.md` | 老朱漏挖检视令；台账 phase0-coverage-ledger；欧阳锋终审 |
 | 660 | `task_20260906_hongqigong-datapack-vision` | DataPack 试点一：识图金标准库（洪七公整理弹药，≥5金标准+≥5踩坑+置信对照） | reviewed | hongqigong | 四要素齐+真实案例有来源锚 | 无 | `60_feedback/tasks/task_20260906_hongqigong-datapack-vision.md` | 老朱 09-06 点名授权；欧阳锋终审 |
 | 661 | `task_20260906_duanwangye-datapack-weblogin` | DataPack 试点二：登录内容样本库（段王爷整理弹药，脱敏入库） | reviewed | duanwangye | 四要素齐+敏感信息脱敏 | 无 | `60_feedback/tasks/task_20260906_duanwangye-datapack-weblogin.md` | 老朱 09-06 点名授权；欧阳锋终审 |
-| 662 | `task_20260906_laowantong-audit-batch1bc` | A1 批 1b/1c 放行+28候选 grep 重跑出拍板清单（老朱：继续挖+清单他拍板） | queued | laowantong | 重跑清单+批1b/1c 金矿台账（分小批提审） | 无 | `60_feedback/tasks/task_20260906_laowantong-audit-batch1bc.md` | 老朱六项拍板；欧阳锋终审 |
+| 662 | `task_20260906_laowantong-audit-batch1bc` | A1 批 1b/1c 放行+28候选 grep 重跑出拍板清单（老朱：继续挖+清单他拍板） | claimed-laowantong | laowantong | 重跑清单+批1b/1c 金矿台账（分小批提审） | 无 | `60_feedback/tasks/task_20260906_laowantong-audit-batch1bc.md` | 老朱六项拍板；欧阳锋终审 |
 | 663 | `task_20260906_wangyuyan-audit-c340-program` | 340 份 C 级深检放量程序（密度分诊排序+流水线分批，老朱：必须跑） | in_progress | wangyuyan | 2a 密度分诊排期表+2b 滚动批报告 | #659 批 1b/1c 后排队老顽童 | `60_feedback/tasks/task_20260906_wangyuyan-audit-c340-program.md` | 老朱拍板必须跑；欧阳锋批审 |
 | 664 | `task_20260906_laowantong-multi-researcher-cross` | 场景复现一：多研究员交叉研究工作流+skill+试金石真跑 | queued | laowantong | workflow卡+skill+小课题真跑报告 | #662 后（同角色排队） | `60_feedback/tasks/task_20260906_laowantong-multi-researcher-cross.md` | 老朱拍板第一优先；欧阳锋终审 |
 

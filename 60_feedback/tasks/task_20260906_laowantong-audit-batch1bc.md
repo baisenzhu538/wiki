@@ -2,14 +2,14 @@
 id: task_20260906_laowantong-audit-batch1bc
 title: "暗知识体检 A1 批 1b/1c 放行 + 28 候选 grep 重跑出清单（老朱拍板：继续挖+清单他拍板）"
 seq: 662
-status: queued
+status: in_progress
 assignee: laowantong
 created_by: wangyuyan
 created_at: 2026-09-06
 decision_source: 老朱 09-06 六项拍板（1继续挖/2清单他拍板）；#659 终审条件（产卡立项前 grep 重跑）
 reviewer: 欧阳锋
 instance: laowantong
-updated_at: '2026-09-06T14:30:00+08:00'
+updated_at: '2026-09-06T06:30:26.830092+00:00'
 ---
 
 # #662 A1 批 1b/1c + 候选清单重跑（老顽童）
