@@ -536,7 +536,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#651 task_20260906_huangyaoshi-inbox-subdir-autoscan｜huangyaoshi｜提审 09-06 04:33｜60_feedback/tasks/task_20260906_huangyaoshi-inbox-subdir-autoscan.md~~ → 回声划销（09-06 04:40 王语嫣）：补 evidence 后提审成功，#651 现 pending_review
 - ~~#652 task_20260906_huangyaoshi-agent-behavior-constitution｜huangyaoshi｜提审 09-06 04:48｜60_feedback/tasks/task_20260906_huangyaoshi-agent-behavior-constitution.md~~ → 终审退回 queued（2026-09-05 欧阳锋）
 - ~~#652 task_20260906_huangyaoshi-agent-behavior-constitution｜huangyaoshi｜提审 09-06 05:54｜60_feedback/tasks/task_20260906_huangyaoshi-agent-behavior-constitution.md~~ → 已终审 PASS A-（2026-09-05 欧阳锋）
-- #654 task_20260906_laowantong-aidahangha-batch1｜laowantong｜提审 09-06 05:55｜60_feedback/tasks/task_20260906_laowantong-aidahangha-batch1.md
+- ~~#654 task_20260906_laowantong-aidahangha-batch1｜laowantong｜提审 09-06 05:55｜60_feedback/tasks/task_20260906_laowantong-aidahangha-batch1.md~~ → 已终审 PASS A-（2026-09-06 欧阳锋）
 - ~~#653 task_20260906_huangyaoshi-e040-crossrepo-hint｜huangyaoshi｜提审 09-06 06:03｜60_feedback/tasks/task_20260906_huangyaoshi-e040-crossrepo-hint.md~~ → 已终审 PASS A-（2026-09-05 欧阳锋）
 - ~~#655 task_20260906_huangyaoshi-sequential-claim-window｜huangyaoshi｜提审 09-06 06:13｜60_feedback/tasks/task_20260906_huangyaoshi-sequential-claim-window.md~~ → 已终审 PASS A-（2026-09-05 欧阳锋）
 
@@ -1189,7 +1189,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 651 | `task_20260906_huangyaoshi-inbox-subdir-autoscan` | watch_inbox 顶层新子目录自动纳管（SCAN_SUBDIRS 白名单外不可见——AI大航海20260905 实证盲区，白名单族缺口第三例） | reviewed | huangyaoshi | 测试子目录下一拍登记出现+AI大航海补登记+回归不红 | 无 | `60_feedback/tasks/task_20260906_huangyaoshi-inbox-subdir-autoscan.md` | 03:37 王语嫣值守立项；欧阳锋终审 |
 | 652 | `task_20260906_huangyaoshi-agent-behavior-constitution` | 全Agent行为宪法 v1.0：实事求是准则+调研基本技能挂载（五条行为规则；CLI startup+拉起器注入；hermes 端依赖 #650；狗粮验收） | reviewed | huangyaoshi | 宪法落盘+CLI注入 diff+抽 2 实例狗粮实测 | #650 后（hermes 注入段） | `60_feedback/tasks/task_20260906_huangyaoshi-agent-behavior-constitution.md` | 老朱 09-06 直令拍板；A5 理论依据+F-035 活体实证；欧阳锋终审 |
 | 653 | `task_20260906_huangyaoshi-e040-crossrepo-hint` | E040 报错提示跨仓前缀全路径（第2次复发工具化） | reviewed | huangyaoshi | 模拟场景提示出现+回归不红 | 无 | `60_feedback/tasks/task_20260906_huangyaoshi-e040-crossrepo-hint.md` | 王语嫣 04:18 立项（两次复发工具化）；欧阳锋终审 |
-| 654 | `task_20260906_laowantong-aidahangha-batch1` | AI大航海域批量生产 batch1：3 framework+5 case+4 bridge+dk挂靠+skill草案+存量自迭代（12+卡，P1，老朱夜令） | pending_review | laowantong | 12卡入库+定位声明/行号锚/标签全+自攻击+三方法证据 | 无 | `60_feedback/tasks/task_20260906_laowantong-aidahangha-batch1.md` | 诊断 diag_20260906_wangyuyan-aidahangha-diagnosis 为规格源；欧阳锋终审 |
+| 654 | `task_20260906_laowantong-aidahangha-batch1` | AI大航海域批量生产 batch1：3 framework+5 case+4 bridge+dk挂靠+skill草案+存量自迭代（12+卡，P1，老朱夜令） | reviewed | laowantong | 12卡入库+定位声明/行号锚/标签全+自攻击+三方法证据 | 无 | `60_feedback/tasks/task_20260906_laowantong-aidahangha-batch1.md` | 诊断 diag_20260906_wangyuyan-aidahangha-diagnosis 为规格源；欧阳锋终审 |
 | 655 | `task_20260906_huangyaoshi-sequential-claim-window` | queue_transition 同执行者连续派工窗口：显式多单指令免 force（第3次复发工具化，F-050 族） | reviewed | huangyaoshi | 两单连发模拟不再 force+回归不红 | #653 后（同角色排队） | `60_feedback/tasks/task_20260906_huangyaoshi-sequential-claim-window.md` | 王语嫣 05:10 立项（friction 三连实证）；欧阳锋终审 |
 
 ## PROPOSAL-PENDING
