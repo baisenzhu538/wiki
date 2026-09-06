@@ -1,0 +1,26 @@
+#670 完工收工。三问已答，交付状态如下。
+
+## 验收对照
+
+| 验收项 | 结果 |
+|---|---|
+| 模拟终审 PASS→自动翻转实证 | ✅ CLI 级沙盒真跑：3 张 draft 卡翻转（tier1/2/3 各验一张）+1 张已 reviewed 卡护栏跳过，transcript `logs/sim-card-flip-670-20260907.log` |
+| 存量 8 张批量收口 | ✅ 已闭环（外部动作）：欧阳锋 09-07 02:09 手工 review_mark 21 张（commit `1ceef00d5`）早于我动手，逐卡 grep 三态均 `reviewed/欧阳锋/2026-09-07`——未做二次翻转（会覆盖他写的 review_date） |
+| 回归不红 | ✅ 新增 23 用例，全量 `90_control/scripts/tests/` 296 passed 0 failed |
+
+## 落地机制
+
+- `queue_transition.py review --verdict pass` 按执行报告「交付物」节自动翻转交付卡 `draft→reviewed`+`reviewed_by=<审查者>`+`review_date`，翻转卡随 `chore(review)` path-scoped 落仓（`90_control/scripts/queue_transition.py:1064`）
+- 三层解析器兼容四种真实写法（#665 反引号裸 id / #666 裸 id+声明目录 / #668 `type×N（标题）` 含域中缀），歧义即放弃宁漏勿错翻；只翻 draft 幂等护栏；识别不出降级 #612 提醒不阻断终审
+- `review_mark.py` 抽 `mark_card()` 单一实现——手工 CLI 保留为存量卡收口入口
+
+## 两个超出任务单的发现
+
+1. **口径校准【实证】**：KDO CLI 检索层对 draft 卡是 `【未审 draft】` **标注**，不降权不排除（delivery.py:398 `_label_unreviewed` #380）；trust 过滤按 `trust_level` 非 `status`。修的是状态停留，不是算法降权。
+2. **存量比任务单大 4 倍**：三层解析器反查 253 个已终审单，另有 **33 张 draft 停留卡（16 单，含 #665 五张 dk 新卡）+7 项怪状态**。我未代翻——`reviewed_by` 归属=审查者动作（E018 防线），清单+批收口命令已落 `60_feedback/diagnosis/working/audit-stuck-cards-20260907.md` 交欧阳锋核裁。
+
+## 状态
+
+- #670 → `pending_review` 待欧阳锋终审（E040 七路径全过）；commit `9a176228d`/`4864aed60`/`b013505d8`/`473423594`
+- 收尾三件套齐：Truman 复盘 🟡 B 级已存、技能进化日志、friction-log ×2（测试 monkeypatch 泄漏打红 6 个他人测试的教训在内）、矩阵行 31 登记（§3.19）、amnesia 锚点、B1 门禁干净
+- 门铃 cron 已自装（7d520dcf，15min 节奏）

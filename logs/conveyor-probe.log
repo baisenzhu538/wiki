@@ -7854,3 +7854,22 @@
 ⚠️ 无 webhook 配置（不发送）：ouyangfeng → ✅ KDO 终审通过 1 单：#644——你的单过了，见任务单终审记录
 📤 near-miss 升级推送: diag_20260907_ouyangfeng-dark-knowledges-graph-index-gap.md（3 轮未修正）
 [conveyor_probe] 新提审 0 / 新 queued 0 / 新登记 0 / near-miss 4 / 通知 0 条 / 活性实例 13（duanwangye,hongqigong,huangyaoshi,huangyaoshi-kimi,laowantong,laowantong-kimi,ouyangfeng,ouyangfeng-kimi,skills-assistant,skills-assistant-kimi,wangyuyan,wangyuyan-kimi-0902,wyy-cli-0902）
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\wiki\kdo-tools\conveyor_probe.py", line 1469, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "C:\Users\Administrator\Desktop\wiki\kdo-tools\conveyor_probe.py", line 1256, in main
+    registered = _update_proposal_board(proposal_hits)  # 登记（幂等）
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\Desktop\wiki\kdo-tools\conveyor_probe.py", line 76, in wrapper
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\Desktop\wiki\kdo-tools\conveyor_probe.py", line 371, in _update_proposal_board
+    QUEUE_FILE.write_text(new_text, encoding="utf-8")
+  File "C:\Program Files\Python312\Lib\pathlib.py", line 1047, in write_text
+    with self.open(mode='w', encoding=encoding, errors=errors, newline=newline) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument: 'C:\\Users\\Administrator\\Desktop\\wiki\\70_product\\tasks\\production-queue.md'

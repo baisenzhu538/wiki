@@ -1,0 +1,22 @@
+<string>:57: UserWarning: WARNING: log_level parameter is deprecated, use setup_logger in utils.py instead
+INFO: [] Loaded graph from C:\Users\Administrator\Desktop\wiki\.kdo\graph_index\graph_chunk_entity_relation.graphml with 3639 nodes, 6712 edges
+INFO:nano-vectordb:Load (2426, 384) data
+INFO:nano-vectordb:Init {'embedding_dim': 384, 'metric': 'cosine', 'storage_file': 'C:\\Users\\Administrator\\Desktop\\wiki\\.kdo\\graph_index\\vdb_entities.json'} 2426 data
+INFO:nano-vectordb:Load (6712, 384) data
+INFO:nano-vectordb:Init {'embedding_dim': 384, 'metric': 'cosine', 'storage_file': 'C:\\Users\\Administrator\\Desktop\\wiki\\.kdo\\graph_index\\vdb_relationships.json'} 6712 data
+INFO:nano-vectordb:Load (5274, 384) data
+INFO:nano-vectordb:Init {'embedding_dim': 384, 'metric': 'cosine', 'storage_file': 'C:\\Users\\Administrator\\Desktop\\wiki\\.kdo\\graph_index\\vdb_chunks.json'} 5274 data
+INFO: [] Process 248112 KV load full_docs with 0 records
+INFO: [] Process 248112 KV load text_chunks with 5274 records
+INFO: [] Process 248112 KV load full_entities with 0 records
+INFO: [] Process 248112 KV load full_relations with 0 records
+INFO: [] Process 248112 KV load entity_chunks with 0 records
+INFO: [] Process 248112 KV load relation_chunks with 0 records
+INFO: [] Process 248112 KV load llm_response_cache with 0 records
+INFO: [] Process 248112 doc status load doc_status with 0 records
+INFO: Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+INFO: [] Writing graph with 4505 nodes, 8756 edges
+INFO: In memory DB persist to disk
+Full rebuild: 2941 pages, 6242 chunks, 8767 relations...
+Done. 2941 entities indexed.
+Index stored at: C:\Users\Administrator\Desktop\wiki\.kdo\graph_index
