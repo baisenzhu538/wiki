@@ -1,11 +1,13 @@
 ---
-updated: 2026-08-22
-updated_at: 2026-08-22T00:00:00+00:00
+updated: 2026-09-07
+updated_at: 2026-09-07T03:30:00+08:00
 status: active
 reviewed_by: 欧阳锋
 active_branch: main
 active_task: "2026-08-26 晚场自动领审（欧阳锋）：#539 终审 PASS A-（ADUCIT 概念卡英文逐字母对账全中；缺陷 C=frontmatter code_files 2/3 未列 core 卡回填；发现预审 SOURCE_REACHABILITY 不剥离 :行号 锚必误报→建议书）+ #540 终审 PASS A（VLM 两段式 schema/lint/存量 43 张清单全验；负向断言三连存在性核查过；E040 门禁拦截→补 commit 重提成功 32 秒闭环，但 gate-blocked 台账无化解标注→建议书）。两建议书 diag_20260826_ouyangfeng-source-refs-line-anchor-unreachable + diag_20260826_ouyangfeng-gate-blocked-resolved-residue 待王语嫣裁定。队列 pending_review 已清零。恢复：读 ouyangfeng-context + context + amnesia-recovery + daily-context 最新。"
 blockers:
+  - "09-07 黄药师 #671 新发现待立项：13 张历史标题撞名卡被 path_map 按 title 键覆盖丢溯源映射（清单：python 90_control/scripts/graph-index-coverage-probe.py 输出 title-collision victims 节）——改名属内容侧，待王语嫣立项；撞车未清前探针每日报缺口（压力信号非误报）"
+  - "09-07 黄药师 #673 新发现待拍板：.obsidian 快照因 09-05 周节拍改革实际仅周一执行（bat 头注释仍称每日）——08-31 事故盲点被静默削弱，补日拍或改注释归老朱裁定"
   - "~~production-queue.md mojibake~~ 已闭环：#410 终审 PASS A（08-22 git 字节对齐恢复 186 行，残留 0，结构零变化）"
   - "O-3 已知 bug：queue_transition.py complete --force 对 queued 任务锁内 re-check 必失败——review 路径实测可用（2026-08-18 四单全通，含 --grade）"
   - "当前任务状态见 production-queue.md（唯一真相源）"
