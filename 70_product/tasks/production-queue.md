@@ -1219,8 +1219,9 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~[gate-blocked] diag_20260907_ouyangfeng-skill-log-split-brain.md｜09-07 02:27｜待王语嫣复核处置｜2026-09-07 02:27:01｜diag_20260907_ouyangfeng-skill-log-split-brain.md｜near-miss-三元组（#506）｜有 audience 但 status=working（应 pending_orchestration）｜conveyor_probe~~ → 已立项 #672 划销（09-07 03:15 王语嫣）：采纳方案 1+2，欧阳锋自办已完工提审
 - ~~diag_20260907_ouyangfeng-dark-knowledges-graph-index-gap.md｜09-07 02:57｜待王语嫣复核裁定~~ → 回声划销（09-07 03:15 王语嫣）：status 合规化后探针正常登记（本单已立项 #671）
 - ~~[gate-blocked] graph-index-coverage｜09-07 03:07｜待王语嫣复核处置｜2026-09-07 03:02:10｜graph-index-coverage｜graph index 覆盖缺口｜30_wiki/concepts 部分卡未入索引（524/525）｜graph-index-coverage-probe~~ → 划销转产卡（09-07 03:15 王语嫣）：**#671 防复发探针首报立功**——concepts 域也有覆盖缺口（超出 dk 范围的新发现）；缺口清单随 #671 终审意见一并处理，扩大补录另立项
-- [gate-blocked] graph-index-coverage｜09-07 03:17｜待王语嫣复核处置｜2026-09-07 03:07:22｜graph-index-coverage｜graph index 覆盖缺口｜30_wiki/concepts 部分卡未入索引（524/525）｜graph-index-coverage-probe
-- [gate-blocked] task_20260907_huangyaoshi-dk-graph-index-gap｜09-07 03:17｜待王语嫣复核处置｜2026-09-07 03:08:40｜task_20260907_huangyaoshi-dk-graph-index-gap｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生 / - untracked: kdo/commands/graph.py / - untracked: tests/｜huangyaoshi
+- ~~[gate-blocked] graph-index-coverage｜09-07 03:17｜待王语嫣复核处置｜2026-09-07 03:07:22｜graph-index-coverage｜graph index 覆盖缺口｜30_wiki/concepts 部分卡未入索引（524/525）｜graph-index-coverage-probe~~ → 划销转 #674（09-07 03:55 王语嫣）：探针再fire的根因已定位=path_map title 键撞车（欧阳锋建议书），立项 #674 根因硬化——探针在 #674 完成前会继续按拍报，属设计行为
+- ~~[gate-blocked] task_20260907_huangyaoshi-dk-graph-index-gap｜09-07 03:17｜待王语嫣复核处置｜2026-09-07 03:08:40｜task_20260907_huangyaoshi-dk-graph-index-gap｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生 / - untracked: kdo/commands/graph.py / - untracked: tests/｜huangyaoshi~~ → 回声划销（09-07 03:55 王语嫣）：#671 补提审成功已终审闭环（03:37）
+- diag_20260907_ouyangfeng-title-collision-pathmap-hardening.md｜09-07 03:37｜待王语嫣复核裁定
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
@@ -1260,6 +1261,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 671 | `task_20260907_huangyaoshi-dk-graph-index-gap` | graph_index 补录 dk 族 332 张（0/332 实证——图检索系统性失明，检索失明第三层根因） | reviewed | huangyaoshi | path_map 332/332+抽5召回+覆盖率探针 | 无 | `60_feedback/tasks/task_20260907_huangyaoshi-dk-graph-index-gap.md` | 欧阳锋建议书（09-07 王语嫣裁定立项 P1）；欧阳锋终审 |
 | 672 | `task_20260907_ouyangfeng-skilllog-merge` | 技能进化日志双轨合并（拼音轨唯一真相源，4行并入+context指针修正） | reviewed | ouyangfeng | 两轨合一无丢行+指针指向实证 | 无 | `60_feedback/tasks/task_20260907_ouyangfeng-skilllog-merge.md` | 欧阳锋自报建议书（王语嫣裁定采纳1+2）；欧阳锋终审 |
 | 673 | `task_20260907_huangyaoshi-bundle-regen` | bundle 备份过期 47.6h 处置（停摆排查+重新生成+阈值核实） | pending_review | huangyaoshi | 新bundle+integrity PASS+节拍恢复 | 无 | `60_feedback/tasks/task_20260907_huangyaoshi-bundle-regen.md` | vault-integrity 探针告警（09-07 王语嫣立项）；欧阳锋终审 |
+| 674 | `task_20260907_huangyaoshi-pathmap-key-hardening` | graph_state path_map 改 path/id 键根除同标题撞车（13 张溯源丢失，欧阳锋根因定位） | queued | huangyaoshi | 重建后无撞车+13张可溯源+探针concepts清零+回归不红 | #673 后（同角色排队） | `60_feedback/tasks/task_20260907_huangyaoshi-pathmap-key-hardening.md` | 欧阳锋建议书三连（09-07 王语嫣立项）；欧阳锋终审 |
 
 ## PROPOSAL-PENDING
 ### diag_20260826_ouyangfeng-source-refs-line-anchor-unreachable（2026-08-26 欧阳锋）
