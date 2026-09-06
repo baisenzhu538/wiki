@@ -1,16 +1,28 @@
 ---
 id: task_20260906_huangyaoshi-kdoquery-first-gate
+
 title: "kdo query 第一优先门禁：知识检索强制规则（宪法第六条+pre-submit 检索记录检查）——老朱「不信自律信门禁」"
+
 seq: 669
-status: pending_review
+
+status: reviewed
 assignee: huangyaoshi
+
 created_by: wangyuyan
+
 created_at: 2026-09-06
+
 decision_source: 老朱 09-06 直令「kdo query 是第一优先级，我不相信自律只相信门禁和强制规则，找不到再采用 grep」
+
 reviewer: 欧阳锋
+
 instance: huangyaoshi
-updated_at: '2026-09-06T14:03:41.642328+00:00'
+
+updated_at: '2026-09-06T14:30:55.422797+00:00'
 evidence: 60_feedback/tasks/task_20260906_huangyaoshi-kdoquery-first-gate.md
+reviewed_by: 欧阳锋
+review_date: '2026-09-06'
+grade: A-
 ---
 
 # #669 kdo query 第一优先门禁（黄药师）
@@ -91,3 +103,37 @@ evidence: 60_feedback/tasks/task_20260906_huangyaoshi-kdoquery-first-gate.md
 | 挂载链「五条行为底线」残留 0 处 | `grep -rn "五条行为底线" .agent/startup.md .agent/infrastructure-bulletin.md 90_control/agent-behavior-constitution.md 90_control/scripts/kimi-headless-launch.py agents/agent-os.md \| wc -l` | 0；同命令改搜「六条」各挂载点 ≥1 |
 | SOUL.md v1.0 标记残留 0 | `grep -l "constitution: v1.0" C:/Users/Administrator/.hermes/profiles/*/SOUL.md \| wc -l` | 0；v1.1 标记 6/6；`grep -c '^```'` 各文件偶数配平 |
 | 回归 skip 为既有、与本门禁无关 | `python -m pytest tests/ -q -rs` | skip= `tests\test_validate_v15.py:955`（catalog-index 豁免用例，与 pre_submit 无关）；633 passed |
+
+## 终审记录
+
+**终审人**：欧阳锋
+**终审日期**：2026-09-06
+**结论**：PASS A-
+**methodology_version**：v2.3
+
+### 四重点核查（逐项实证）
+
+① 宪法第六条表述精度【实证】通过。三要素齐备且措辞精确：第一动作定义（第一动作=`kdo query`，检索词同义/中英扩展 ≥2 变体，单一命中不下定论）、降级条件（0 命中或证据不足才降级 grep 兜底 + grep 双口径①kdo query 之后补充定位②非知识类检索：代码/配置/日志/脚本）、检索记录节要求（诊断/调研/报告类产出必附「kdo query 检索记录」节=查询词+命中数+日期，无记录=不闭环；WARNING 软一周至 2026-09-13 → 升 HARD，与 F-035 同级）。
+
+② 检查器两态真实生效【实证】通过。本终审独立复跑全链路 `run_pre_submit`+`format_report`（真实库文件 `60_feedback/diagnosis/diag_20260906_wangyuyan-audit-pilot-report.md`，frontmatter type: diagnosis，无检索记录节）：默认档→`[KDO_QUERY_LOG]: 1 warnings`（不占 error 计数）；`KDO_QUERYLOG_HARD_DATE=2026-09-01`→`[KDO_QUERY_LOG]: 1 errors`（error 计数 +1，Result 由 4 errors 变 5 errors）。两态实证成立，非仅单测。
+
+③ grep 降级口径三挂载点【实证】通过。双口径全文在场：宪法第六条、`agents/agent-os.md` §10.4.2、拉起器 `90_control/scripts/kimi-headless-launch.py` PROMPT_TEMPLATE、基建公告 `.agent/infrastructure-bulletin.md` #669 条目、hermes SOUL.md ×6（v1.1=6/6、v1.0 残留 0）；挂载链「五条行为底线」残留 0。startup.md 6.5 为开机引导摘要，含降级触发条件（0 命中才降级 grep）与宪法指针、未逐字列①②——非阻断，见注记。
+
+④ 回归不红【实证】通过。`python -m pytest tests/ -q` → 633 passed, 1 skipped（skip=`tests/test_validate_v15.py:955` catalog-index 豁免，与本门禁无关）；新门禁单测 `tests/test_pre_submit_kdo_query_log.py` 8/8。
+
+### **存在性核查**（宪法第二条：负向判词逐条附锚）
+
+| 负向判词 | 核查动作 | 锚点结果 |
+|:--|:--|:--|
+| startup.md 未逐字列 grep ①②双口径 | `Select-String startup.md "①|补充定位|非知识类"` | 0 命中；仅 6.5 行「0 命中才降级 grep」+宪法指针 |
+| SOUL.md v1.0 残留 0 | 六 profile grep `constitution: v1.0` | 0；v1.1=6/6 |
+| 挂载链「五条行为底线」残留 0 | 五挂载点 grep `五条行为底线` | 0 |
+| 回归 skip 与本门禁无关 | `pytest -rs` | skip=`test_validate_v15.py:955` |
+| 检查器只查节存在性、不查查询词真实性 | 读 `_check_kdo_query_log` 源码 | 仅 `_QUERY_LOG_HEADING_RE.search(body)` 判存在性，无内容校验——符合 #433 机器存在性/人正确性分工，已声明边界 |
+
+### 非阻断注记（无 🟠/🟡，无需落点）
+
+- startup.md 6.5 摘要未逐字列 grep ①②双口径，建议下次修订时补齐或显式标注「详见宪法第六条」；权威口径已在宪法/公告/拉起器/agent-os/SOUL 全在场，不阻断。
+- 宪法 frontmatter「挂载点」行声明 startup/拉起器/SOUL 三注入通道，与任务验收「三挂载点=startup/拉起器/公告」存在术语差异；公告与 agent-os §10.4.2 为同步点未列入该声明。属注入通道 vs 文档同步点两种语义，建议后续统一术语，不阻断。
+
+
