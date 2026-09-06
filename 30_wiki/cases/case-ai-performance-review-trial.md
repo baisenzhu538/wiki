@@ -4,7 +4,7 @@ title: "AI 述职审判案——数字分身当法官、两个运维 Agent 争�
 type: case
 status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.83
 trust_level: high
 language: zh-CN
@@ -63,8 +63,8 @@ tags:
 - 口述
 - 编排
 - 实操
+review_date: 2026-09-06
 ---
-
 # AI 述职审判案
 
 > **定位声明**：本卡是 [[framework-ai-five-layer-architecture]] 第五层（编排层）的**解压案例**，也是 [[framework-ai-native-working-paradigm]]「人撤出、机制在场」的最极端实验——数字分身当法官，两个运维 Agent 在群里答辩竞争，人只当「箱子外面的观察者」。它回答一个 KDO 直接相关的问题：**没有人类法官在场时，AI 组织靠什么纠错？**

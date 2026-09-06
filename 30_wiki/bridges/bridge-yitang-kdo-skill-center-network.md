@@ -4,7 +4,7 @@ title: "桥接：一堂技能中心/能力网络 × KDO 30_wiki 知识库——�
 type: bridge
 status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.86
 trust_level: high
 language: zh-CN
@@ -66,8 +66,8 @@ tags:
 - AI Native
 - 知识库
 - 方法
+review_date: 2026-09-06
 ---
-
 # 桥接：一堂技能中心/能力网络 × KDO 30_wiki 知识库
 
 > **定位声明**：本桥做两件事：①把一堂「技能中心→能力网络」的设想与 KDO 已在跑的 30_wiki 对表——确认同构、标出差距；②收录配套的**阳谋论**——能力网络成立的前提是全部打开，这正是本库全库公开 git 化的理由。dk「阳谋论」挂靠本卡。

@@ -4,7 +4,7 @@ title: "桥接：一堂双三角画布 × KDO 人机协作双三角——两个�
 type: bridge
 status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.86
 trust_level: high
 language: zh-CN
@@ -59,8 +59,8 @@ tags:
 - 口述
 - AI Native
 - 实证
+review_date: 2026-09-06
 ---
-
 # 桥接：一堂双三角画布 × KDO 人机协作双三角
 
 > **定位声明**：本桥记录一次**独立发明互证**——一堂在 360 课程重构案里用「双三角画布」防 AI 任务跑偏（实战路径:L124），KDO 用「人机协作双三角」定义整个操作系统的分工（本库 CLAUDE.md：人定方向做判断，AI 做执行与交叉验证）。两端无传承关系，结论同构——这不是引用关系，是**同一个结构被两条路径各自撞见**的证据。

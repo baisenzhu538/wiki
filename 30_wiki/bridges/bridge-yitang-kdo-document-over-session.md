@@ -4,7 +4,7 @@ title: "桥接：一堂「少用 Session 多用文档」 × KDO .agent/ 文档�
 type: bridge
 status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: high
 language: zh-CN
@@ -65,8 +65,8 @@ tags:
 - 实操
 - 互证
 - 知识沉淀
+review_date: 2026-09-06
 ---
-
 # 桥接：一堂「少用 Session 多用文档」 × KDO .agent/ 文档体系
 
 > **定位声明**：本桥记录第三组互证——一堂给个人 AI 用户的资产化建议（少用 Session 多用文档），与本库的组织级制度（.agent/ 是唯一真相源、禁止用工具私有记忆替代）是同一个原理的两个应用尺度。本卡同时承载 dk「上下文显性复利」。

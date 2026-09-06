@@ -4,7 +4,7 @@ title: "360 内训课隔夜重构案——人只站头尾、AI 跑满中间的�
 type: case
 status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.83
 trust_level: high
 language: zh-CN
@@ -64,8 +64,8 @@ tags:
 - 口述
 - AI Native
 - 编排
+review_date: 2026-09-06
 ---
-
 # 360 内训课隔夜重构案
 
 > **定位声明**：本卡是 [[framework-ai-five-layer-architecture]] 第二层（Agent 层）与 [[framework-ai-native-working-paradigm]]「头尾站位」的**解压案例**——记录一堂给 360 做内训课时「课后复盘发现问题→当晚推翻重设计→6 小时交付」的完整决策链与操作序列。它不是教程（照抄流程没用），价值在**决策点序列**：什么时候决定推翻、推翻后第一件事做什么、人站哪。

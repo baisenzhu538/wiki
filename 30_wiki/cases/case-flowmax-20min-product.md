@@ -4,7 +4,7 @@ title: "FlowMax 20 分钟产品案——洗手间口喷起步、过夜自督开�
 type: case
 status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: high
 language: zh-CN
@@ -56,8 +56,8 @@ tags:
 - 口述
 - AI Native
 - 迭代
+review_date: 2026-09-06
 ---
-
 # FlowMax 20 分钟产品案
 
 > **定位声明**：本卡是 [[framework-ai-five-layer-architecture]] 第四层（龙虾层）的**解压案例**——展示「长期默契的 AI 员工 + 最小人类输入」能把产品开发的启动成本压到多低。它不是「AI 一句话出产品」的爽文：人的 20 分钟分布在三个精确位置上，其余是龙虾自主跑。价值在**这 20 分钟的位置**，不在 20 分钟这个数。

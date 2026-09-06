@@ -4,7 +4,7 @@ title: "封装方法论——把一次性工作经验固化成可调用资产的
 type: framework
 status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.84
 trust_level: high
 language: zh-CN
@@ -75,8 +75,8 @@ tags:
 - 频次
 - 避坑
 - 口述
+review_date: 2026-09-06
 ---
-
 # 封装方法论
 
 > **定位声明**：本卡是一堂 2026 大航海体系里「搭 OPT 最重要的动词」（宣讲会抢答互动，台账 B37）的展开——封装的定义、对象、去处、频次、形态与失败模式。它是资产化操作方法论，**不是**五层架构（[[framework-ai-five-layer-architecture]]，本卡服务于其中第三层「资产层」），**不是**某个具体工具的使用说明，也**不替代**本库已有的 Skill 工程卡（[[tool-ai-skill-engineering-guide]] / [[method-anthropic-skill-design-patterns]]——那两张讲「怎么做一个好 Skill」，本卡讲「为什么要封装、封装成什么、多久封装一次」）。

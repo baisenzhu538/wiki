@@ -4,7 +4,7 @@ title: "AI Native 工作范式——整链路以 AI 为主、人提供最小必�
 type: framework
 status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.82
 trust_level: high
 language: zh-CN
@@ -70,8 +70,8 @@ tags:
 - 避坑
 - 口述
 - OPT
+review_date: 2026-09-06
 ---
-
 # AI Native 工作范式
 
 > **定位声明**：本卡是一堂 2026 大航海两大主题（OPT × AI Native）中**组织维度**的那一半（讲者原话：一个目标是 OPT 个人维度、一个是 AI Native 组织维度，宣讲会:L320-326）。本卡回答「一条业务链路该怎么围绕 AI 重新设计」，是设计原则+设计工具，**不是**成熟度评级，**不是**「用 AI 多=Native」的进度条，也**不是**五层架构的替代（[[framework-ai-five-layer-architecture]] 回答用哪层，本卡回答链路怎么重构）。

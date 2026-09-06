@@ -4,7 +4,7 @@ title: "桥接：一堂实事求是迁移 × KDO 门禁哲学——证据优先�
 type: bridge
 status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.86
 trust_level: high
 language: zh-CN
@@ -66,8 +66,8 @@ tags:
 - AI Native
 - 编排
 - 互证
+review_date: 2026-09-06
 ---
-
 # 桥接：一堂实事求是迁移 × KDO 门禁哲学
 
 > **定位声明**：本桥记录第二组独立发明互证——一堂问「怎么让 AI 团队拥有实事求是的品质」（实战路径:L20），KDO 用三年失败模式喂出了一套门禁体系（pre-submit/queue gate/charter/存在性核查）。两端答案在三个点上同构：**证据优先于身份、宪法写在文件里、删除是特权动作**。

@@ -4,7 +4,7 @@ title: "口喷 13 分钟拆 19 子任务案——AI 干完 70% 工作量的短�
 type: case
 status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.83
 trust_level: high
 language: zh-CN
@@ -61,8 +61,8 @@ tags:
 - 口述
 - 数字分身
 - AI Native
+review_date: 2026-09-06
 ---
-
 # 口喷 13 分钟拆 19 子任务案
 
 > **定位声明**：本卡是 [[framework-ai-five-layer-architecture]] 第二层→第四层的**贯通案例**——一条短视频从电梯里 13 分钟口喷，到龙虾拆成 19 个子任务、12 个自主完成、数小时自督执行、卡点自己找别的 AI 求助、最终完成 70% 工作量的完整过程。它同时是 [[agent-spec-kouspeng-task-decomposer]] 草案（口喷任务分解官）的**行为母本**。不是教程；价值在「人对 AI 说的那几句话」的结构。

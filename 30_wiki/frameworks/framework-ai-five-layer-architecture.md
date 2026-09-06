@@ -4,7 +4,7 @@ title: "AI 应用五层架构（一堂 2026 大航海版）——从做好对话
 type: framework
 status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: high
 language: zh-CN
@@ -79,8 +79,8 @@ tags:
 - 口述
 - 数字分身
 - AI Native
+review_date: 2026-09-06
 ---
-
 # AI 应用五层架构（一堂 2026 大航海版）
 
 > **定位声明**：本卡是一堂 2026 下半年 AI 大航海体系的**总纲框架**——把「人和 AI 怎么协作」组织成五个层级，并给出每层的能力边界、判据与升级动因。它是选层决策系统，**不是**工具评测榜，**不是**通用成熟度模型的翻译（对标见专门节），也**不是**本库 OPT 卡（[[framework-lobster-opt-one-person-team]]）的替代——那张卡展开第四层的一个组织形态，本卡承载五层全局。

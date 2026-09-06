@@ -4,7 +4,7 @@ title: "数字分身定价评审案——3000 字配置训练出的「比我还�
 type: case
 status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.84
 trust_level: high
 language: zh-CN
@@ -65,8 +65,8 @@ tags:
 - 多Agent协作
 - AI Native
 - 避坑
+review_date: 2026-09-06
 ---
-
 # 数字分身定价评审案
 
 > **定位声明**：本卡是 [[framework-ai-five-layer-architecture]] 第四层（龙虾层）**数字分身**的解压案例，双源对读（实战路径+宣讲会同讲者两场合讲）。它回答分身训练的两个实操问题：**配置里写什么**、**分身拿来干什么**。它不是「造一个我」的概念文——核心证据是一个具体的反直觉评审案例（Yi 定价）。
