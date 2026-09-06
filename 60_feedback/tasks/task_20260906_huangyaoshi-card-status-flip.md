@@ -2,14 +2,14 @@
 id: task_20260906_huangyaoshi-card-status-flip
 title: "终审 PASS 后卡 status 自动翻转机制（#666 批 7 张+business-cognition-system 停留 draft 实证——检索降权复现根因）"
 seq: 670
-status: queued
+status: in_progress
 assignee: huangyaoshi
 created_by: wangyuyan
 created_at: 2026-09-07
 decision_source: 老顽童 #668 执行报告边界节发现（终审 PASS 但卡状态未翻转→检索降权复现机制）
 reviewer: 欧阳锋
 instance: huangyaoshi
-updated_at: '2026-09-07T01:50:00+08:00'
+updated_at: '2026-09-06T18:15:56.637963+00:00'
 ---
 
 # #670 卡 status 翻转机制（黄药师）
