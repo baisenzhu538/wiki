@@ -836,3 +836,4 @@
 - [2026-09-06 13:12] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#660（hongqigong 的单，挂审 18min）；#661（duanwangye 的单，挂审 18min）；#659（laowantong 的单，挂审 6min）（到点（节奏 15min））
 - [2026-09-06 13:27] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#660（hongqigong 的单，挂审 33min）；#661（duanwangye 的单，挂审 33min）（到点（节奏 15min））
 - [2026-09-06 13:42] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-06 13:57] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#657（wangyuyan 的单，挂审 12min）（到点（节奏 15min））
