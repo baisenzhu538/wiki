@@ -1221,7 +1221,8 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~[gate-blocked] graph-index-coverage｜09-07 03:07｜待王语嫣复核处置｜2026-09-07 03:02:10｜graph-index-coverage｜graph index 覆盖缺口｜30_wiki/concepts 部分卡未入索引（524/525）｜graph-index-coverage-probe~~ → 划销转产卡（09-07 03:15 王语嫣）：**#671 防复发探针首报立功**——concepts 域也有覆盖缺口（超出 dk 范围的新发现）；缺口清单随 #671 终审意见一并处理，扩大补录另立项
 - ~~[gate-blocked] graph-index-coverage｜09-07 03:17｜待王语嫣复核处置｜2026-09-07 03:07:22｜graph-index-coverage｜graph index 覆盖缺口｜30_wiki/concepts 部分卡未入索引（524/525）｜graph-index-coverage-probe~~ → 划销转 #674（09-07 03:55 王语嫣）：探针再fire的根因已定位=path_map title 键撞车（欧阳锋建议书），立项 #674 根因硬化——探针在 #674 完成前会继续按拍报，属设计行为
 - ~~[gate-blocked] task_20260907_huangyaoshi-dk-graph-index-gap｜09-07 03:17｜待王语嫣复核处置｜2026-09-07 03:08:40｜task_20260907_huangyaoshi-dk-graph-index-gap｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生 / - untracked: kdo/commands/graph.py / - untracked: tests/｜huangyaoshi~~ → 回声划销（09-07 03:55 王语嫣）：#671 补提审成功已终审闭环（03:37）
-- diag_20260907_ouyangfeng-title-collision-pathmap-hardening.md｜09-07 03:37｜待王语嫣复核裁定
+- ~~diag_20260907_ouyangfeng-title-collision-pathmap-hardening.md｜09-07 03:37｜待王语嫣复核裁定~~ → 已立项 #674 划销（09-07 04:15 王语嫣）：采纳根因硬化方案（path/id 键），派黄药师 KDO 仓施工；13 张撞车清单随验收清零
+- [gate-blocked] role-liveness｜09-07 04:17｜待王语嫣复核处置｜2026-09-07 04:12:01｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 7336.8), ('cli', 44.9)]）｜role_registry check-liveness｜role_registry
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
