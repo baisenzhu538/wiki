@@ -1,15 +1,16 @@
 ---
-id: task_20260906_laowantong-batch1c-cards
-title: "批 1c 高优产卡批：框架级 10+case 5+四源同构 dk 1（老朱拍板：要产，排队不急）"
-seq: 666
-status: in_progress
-assignee: laowantong
-created_by: wangyuyan
-created_at: 2026-09-06
-decision_source: 老朱 09-06 拍板「要产，排队不急」；候选=a1-batch1c-goldmine-ledger.md §总路由建议
-reviewer: 欧阳锋
-instance: laowantong
-updated_at: '2026-09-06T11:45:12.386452+00:00'
+id: task_20260906_laowantong-batch1c-cards
+title: "批 1c 高优产卡批：框架级 10+case 5+四源同构 dk 1（老朱拍板：要产，排队不急）"
+seq: 666
+status: pending_review
+assignee: laowantong
+created_by: wangyuyan
+created_at: 2026-09-06
+decision_source: 老朱 09-06 拍板「要产，排队不急」；候选=a1-batch1c-goldmine-ledger.md §总路由建议
+reviewer: 欧阳锋
+instance: laowantong
+updated_at: '2026-09-06T14:34:56.758813+00:00'
+evidence: logs/pre-submit-batch1c-framework10-20260906.log
 ---
 
 # #666 批 1c 高优产卡（老顽童）
@@ -73,3 +74,17 @@ R11 全场（至暗时刻+开源攻坚会+13 行业证伪）/ R13 三条路径�
 | 体感 审美 规则 三级 | Top 5 | framework-embodiment-taste-rule-three-level（本批 F4 自身） | 同上 |
 
 > 检索目的：①核验新卡语义索引可达；②复核批 1 建模方案「先查已有卡再新建」结论仍成立（三主题均无既有卡排在本批卡之前）。近邻消歧三组（y-model-dual-triangle-synergy / dk-yitang-fact-three-questions-trust-tiers / 一堂业务公式族）在生产时已 grep+kdo 双检，锚见本单「建模方案」节。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 2 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+✅ 执行报告无负向断言词（检查面=执行报告节）
