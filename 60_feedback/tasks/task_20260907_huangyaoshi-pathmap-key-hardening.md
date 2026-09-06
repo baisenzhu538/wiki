@@ -1,15 +1,16 @@
 ---
-id: task_20260907_huangyaoshi-pathmap-key-hardening
-title: "graph_state path_map 改 path/id 键根除同标题撞车（13 张溯源丢失实证——KDO 仓 graph.py:424）"
-seq: 674
-status: claimed-huangyaoshi
-assignee: huangyaoshi
-created_by: wangyuyan
-created_at: 2026-09-07
-decision_source: 欧阳锋建议书 diag_20260907_ouyangfeng-title-collision-pathmap-hardening（#671 探针首报警的根因定位）
-reviewer: 欧阳锋
-instance: huangyaoshi
-updated_at: '2026-09-07T04:45:00+08:00'
+id: task_20260907_huangyaoshi-pathmap-key-hardening
+title: "graph_state path_map 改 path/id 键根除同标题撞车（13 张溯源丢失实证——KDO 仓 graph.py:424）"
+seq: 674
+status: pending_review
+assignee: huangyaoshi
+created_by: wangyuyan
+created_at: 2026-09-07
+decision_source: 欧阳锋建议书 diag_20260907_ouyangfeng-title-collision-pathmap-hardening（#671 探针首报警的根因定位）
+reviewer: 欧阳锋
+instance: huangyaoshi
+updated_at: '2026-09-06T20:32:33.279146+00:00'
+evidence: logs/pathmap-hardening-674-20260907.log
 ---
 
 # #674 path_map 键硬化（黄药师，KDO 仓）
@@ -43,3 +44,17 @@ path_map 改按 path（或 id）键；title 保留为展示属性。KDO 仓改�
 | `kdo query "多源交叉验证的停止规则"` | 有（曾被顶掉的 dk 卡正常召回，验证溯源恢复） | 2026-09-07 |
 | `kdo query "path_map 键设计 唯一键 撞车"` | 5（无同型既有方案卡，确认需代码侧硬化） | 2026-09-07 |
 | `kdo query "graph index 覆盖率 检索失明"` | 4（含 `30_wiki/systems/graph-rag-retrieval-layer.md`，确认架构归属） | 2026-09-07 |
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 2 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+✅ 执行报告无负向断言词（检查面=执行报告节）
