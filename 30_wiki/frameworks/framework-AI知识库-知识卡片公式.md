@@ -2,7 +2,7 @@
 id: framework-AI知识库-知识卡片公式
 title: 知识卡片公式：YAML 标签（给 AI 看）+ 原子化正文（给人看）
 type: framework
-status: draft
+status: pending_review
 confidence: 0.9
 trust_level: high
 domain:
@@ -11,9 +11,11 @@ domain:
 author: 老顽童
 reviewed_by: 待审
 created_at: '2026-08-23'
-updated_at: '2026-08-23'
+updated_at: '2026-09-07'
 quality_labels:
 - actionable
+quality_score: 9
+reuse_direction: "KDO 卡片 frontmatter 设计，标签字段数量判断，知识卡片制作培训，Agent 卡片结构校验"
 aliases:
 - 知识卡片公式
 - YAML标签加原子化正文
@@ -26,6 +28,7 @@ source_refs:
 - 10_raw/sources/banfeimao-openmic/AI×知识管理-开放麦-逐字稿.md:1-2751
 - 10_raw/sources/banfeimao-openmic/AI知识库-知识库搭建与落地-半肥猫-口述.txt:1382-1390
 - 10_raw/sources/banfeimao-openmic/给王语嫣的任务编排建议-半肥猫开放麦-AI知识库.md:20-28
+- 10_raw/sources/banfeimao-openmic/标签示例.yaml:1-65
 related:
 - framework-AI知识库-五阶段演进
 - framework-AI知识库-加卡片加标签双原则
@@ -69,7 +72,7 @@ tags:
 
 ## 三、标签字段设计（索引标签 19 行结构，暗知识 №19）
 
-- YAML 头给 AI / 正文给人——KDO frontmatter 同构
+- 索引标签 19 行结构 = YAML 索引段约 19 行（给 AI），其后为原子化正文（给人）——KDO frontmatter 同构（诊断书暗知识 №19 定义）
 - 字段颗粒度选择：先 60 分（能检索到够用），再逐步细化
 - 五维标注深挖法决定 tags 维度质量（专业/风控/话术/视觉/经验）
 
@@ -99,6 +102,25 @@ tags:
 | KDO 卡片 frontmatter 设计 | 对照 YAML 头给 AI/正文给人的双层结构 | frontmatter 字段服务检索而非装饰 |
 | 讨论标签颗粒度 | 用「业务强绑定」判断字段数量 | 字段数由业务需要决定，非固定标准 |
 
+## 复用指引（标签治理 v1.1，#668 转正批补齐）
+
+> 本卡为标签治理 v1.1（`diag_20260906_wangyuyan-bfm-template-distilled.md §二·六`）方法论引用源；三节骨架与 reuse_direction 字段级 gold example=`10_raw/sources/banfeimao-openmic/标签示例.yaml`（10_raw 原件升格链接）。
+
+**适用场景**
+- 设计/评审知识卡片结构（YAML 标签段 + 原子化正文）时
+- 讨论标签字段颗粒度（业务强绑定 vs 固定标准）时
+- 新人学「一张知识卡片长什么样」时
+
+**可复用方式**
+- Agent 回答「知识卡片怎么建」时按五步框架输出（选知识→原子化→打标签→入库→调试）
+- KDO 卡模板校验：frontmatter 字段服务检索而非装饰
+- 29 字段争议时用「业务强绑定」判断，不套数字
+
+**注意事项**
+- 29 字段 QBD2 是营销业务实测，非通用标准（「你未必要拆那么多」）
+- 只有标签没有正文=AI 找得到但人读不懂
+- 一次性内容（用完即弃）不入库——打标成本大于复用价值
+
 ## 七、Critique
 
 - **内部局限**：29 字段是单一行业（营销增长）实测，字段设计高度依赖业务理解（「标注质量取决于行业理解深度」）——非技术者照搬会过度设计；且标签体系需要长期维护（试错成本：QBD2 是「测了很多版本」出来的）。
@@ -108,3 +130,4 @@ tags:
 ## 迭代日志
 
 - **2026-08-23 v1.0**：基于标签示例.yaml + 口述 L1382-1390/L2688-2702（QBD2 29 字段）+ 洪七公建议书 §2.3 编写。
+- **2026-09-07 v1.1（#668 转正批）**：四节补齐（`reuse_direction` + 适用场景/可复用方式/注意事项，gold example=`10_raw/sources/banfeimao-openmic/标签示例.yaml:1-65`）；自攻击：无内容性发现（机械核查 0 死链 0 缺源）；仅补「19 行结构」释义与四节；status draft→pending_review 提审转正；本卡登记为标签治理 v1.1（`diag_20260906_wangyuyan-bfm-template-distilled.md §二·六`）方法论引用源（与词表线 90_control/tags-vocab 互链待规范侧回填）。

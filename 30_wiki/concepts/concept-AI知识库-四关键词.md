@@ -2,7 +2,7 @@
 id: concept-AI知识库-四关键词
 title: AI 知识管理四关键词：协作桥梁/问题驱动/范式复利/拒绝焦虑
 type: concept
-status: draft
+status: pending_review
 confidence: 0.85
 trust_level: high
 domain:
@@ -11,9 +11,11 @@ domain:
 author: 老顽童
 reviewed_by: 待审
 created_at: '2026-08-23'
-updated_at: '2026-08-23'
+updated_at: '2026-09-07'
 quality_labels:
 - insight
+quality_score: 8
+reuse_direction: "AI 认知培训，工具焦虑疏导，AI 战略讨论框架，Agent 认知层问答"
 aliases:
 - 四关键词
 - 协作桥梁问题驱动范式复利拒绝焦虑
@@ -25,6 +27,7 @@ source_refs:
 - 10_raw/sources/banfeimao-openmic/AI×知识管理-开放麦-逐字稿.md:1-2751
 - 10_raw/sources/banfeimao-openmic/AI知识库-知识库搭建与落地-半肥猫-口述.txt:1-2751
 - 10_raw/sources/banfeimao-openmic/给王语嫣的任务编排建议-半肥猫开放麦-AI知识库.md:16-25
+- 10_raw/sources/banfeimao-openmic/标签示例.yaml:1-65
 related:
 - framework-AI知识库-五阶段演进
 - framework-AI知识库-四象限资产
@@ -62,7 +65,7 @@ tags:
 | 模型+业务结合 | 在模型之上做产品 | 半肥猫选择：知识库+业务经验 |
 | 买工具用 | 直接使用成熟工具 | 不自己搭 |
 
-- 半肥猫选第二类（艺术生+20 年商业经验）——不追底层技术，把业务经验变成 AI 燃料
+- 半肥猫选第二类（艺术生 L2460+一二十年积累 L1476，均为讲者自述）——不追底层技术，把业务经验变成 AI 燃料
 - 拒绝焦虑 = 找到自己的位置，不跟风、不追工具
 
 ## 三、范式复利（黑盒变白盒）
@@ -96,6 +99,25 @@ tags:
 | 团队 AI 战略讨论 | 用四关键词审视：燃料/问题/复利/定位 | 讨论从工具对比转向资产与问题 |
 | 学习新 AI 工具 | 先问「卡在哪个动作」再决定学不学 | 不追工具，只解决卡点 |
 
+## 复用指引（标签治理 v1.1，#668 转正批补齐）
+
+> 本卡为标签治理 v1.1（`diag_20260906_wangyuyan-bfm-template-distilled.md §二·六`）方法论引用源；三节骨架与 reuse_direction 字段级 gold example=`10_raw/sources/banfeimao-openmic/标签示例.yaml`（10_raw 原件升格链接）。
+
+**适用场景**
+- AI/工具焦虑、不知道自己在 AI 地图哪个位置
+- 团队 AI 战略讨论（燃料/问题/复利/定位）
+- 学新工具前判断值不值得学
+
+**可复用方式**
+- Agent 用四关键词+三类人帮用户定位：协作桥梁/问题驱动/范式复利/拒绝焦虑
+- 追工具冲动时先问「卡在哪个动作上」
+- 战略讨论从工具对比转向资产与问题
+
+**注意事项**
+- 认知层框架不提供操作细节——单独用容易「懂了但不会做」，需配操作卡
+- 三类人是理想分类，现实中多数人横跨多类
+- 「拒绝焦虑」≠不学技术——定位不等于停步
+
 ## 七、Critique
 
 - **内部局限**：四关键词是认知层框架，不提供操作细节（如何建库/如何打标在别的卡）——单独使用容易「懂了但不会做」；「三类人」是理想分类，现实中多数人横跨多类。
@@ -105,3 +127,4 @@ tags:
 ## 迭代日志
 
 - **2026-08-23 v1.0**：基于洪七公建议书 §2.2（四关键词表）+ 诊断书暗知识 №12（三类人定位）编写。
+- **2026-09-07 v1.1（#668 转正批）**：四节补齐（`reuse_direction` + 适用场景/可复用方式/注意事项，gold example=`10_raw/sources/banfeimao-openmic/标签示例.yaml:1-65`）；自攻击：「20 年商业经验」修正为「一二十年积累」并附口述 L1476/L2460 锚（原表述拔高数字）；status draft→pending_review 提审转正；本卡登记为标签治理 v1.1（`diag_20260906_wangyuyan-bfm-template-distilled.md §二·六`）方法论引用源（与词表线 90_control/tags-vocab 互链待规范侧回填）。

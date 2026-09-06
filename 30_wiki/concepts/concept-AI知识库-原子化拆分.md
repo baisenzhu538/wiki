@@ -2,7 +2,7 @@
 id: concept-AI知识库-原子化拆分
 title: 原子化拆分：按语义切分，拆到歧义为止
 type: concept
-status: draft
+status: pending_review
 confidence: 0.85
 trust_level: high
 domain:
@@ -11,9 +11,11 @@ domain:
 author: 老顽童
 reviewed_by: 待审
 created_at: '2026-08-23'
-updated_at: '2026-08-23'
+updated_at: '2026-09-07'
 quality_labels:
 - actionable
+quality_score: 8
+reuse_direction: "长文拆卡作业，卡片粒度评审，检索命中率优化，Agent 拆分标准判断"
 aliases:
 - 原子化拆分
 - 原子化
@@ -26,6 +28,7 @@ source_refs:
 - 10_raw/sources/banfeimao-openmic/AI×知识管理-开放麦-逐字稿.md:1-2751
 - 10_raw/sources/banfeimao-openmic/AI知识库-知识库搭建与落地-半肥猫-口述.txt:1-2751
 - 10_raw/sources/banfeimao-openmic/给王语嫣的任务编排建议-半肥猫开放麦-AI知识库.md:20-28
+- 10_raw/sources/banfeimao-openmic/标签示例.yaml:1-65
 related:
 - framework-AI知识库-知识卡片公式
 - framework-AI知识库-五阶段演进
@@ -85,6 +88,25 @@ tags:
 | AI 检索命中率低 | 检查卡片粒度（太大？） | 拆细后命中率提升 |
 | KDO 卡生产（长口述稿拆卡） | 按「拆到歧义为止」判定 | 每张卡一个完整知识单元，不碎片化 |
 
+## 复用指引（标签治理 v1.1，#668 转正批补齐）
+
+> 本卡为标签治理 v1.1（`diag_20260906_wangyuyan-bfm-template-distilled.md §二·六`）方法论引用源；三节骨架与 reuse_direction 字段级 gold example=`10_raw/sources/banfeimao-openmic/标签示例.yaml`（10_raw 原件升格链接）。
+
+**适用场景**
+- 长口述稿/长文转知识卡片时
+- AI 检索命中率低、怀疑卡片粒度太大
+- KDO 卡片生产（一卡一事自查）
+
+**可复用方式**
+- Agent 按「往下拆出现歧义=到底，语义完整=原子」判定拆分终点
+- 每个候选单元验「能否独立回答一个问题」
+- 粒度争议时回到「业务决定颗粒度」，不套字数标准
+
+**注意事项**
+- 原子≠最小颗粒（字/词级）——拆到碎片 AI 检索反而碎片化
+- 流程/故事类内容强拆会断叙事线——原子化只用于知识单元
+- 追求一次拆完美=过度设计，按 60 分先拆到能用
+
 ## 六、Critique
 
 - **内部局限**：原子化判定（「歧义为止」）依赖主观语义判断——同一内容不同人拆法不同；且语义原子 ≠ 检索最优粒度（检索可能跨多个原子，需要标签聚合）。
@@ -94,3 +116,4 @@ tags:
 ## 迭代日志
 
 - **2026-08-23 v1.0**：基于洪七公建议书 §2.3 + 诊断书暗知识 №4（原子化判定）+ L8 反例（业务决定颗粒度）编写。
+- **2026-09-07 v1.1（#668 转正批）**：四节补齐（`reuse_direction` + 适用场景/可复用方式/注意事项，gold example=`10_raw/sources/banfeimao-openmic/标签示例.yaml:1-65`）；自攻击：无内容性发现（机械核查 0 死链 0 缺源）；补四节；status draft→pending_review 提审转正；本卡登记为标签治理 v1.1（`diag_20260906_wangyuyan-bfm-template-distilled.md §二·六`）方法论引用源（与词表线 90_control/tags-vocab 互链待规范侧回填）。

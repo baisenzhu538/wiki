@@ -2,7 +2,7 @@
 id: dk-AI知识库-隐性知识显性化60分原则
 title: 隐性知识显性化 60 分原则：先 60 分能解 60-70% 问题即值得
 type: dk
-status: draft
+status: pending_review
 confidence: 0.85
 trust_level: high
 domain:
@@ -11,9 +11,11 @@ domain:
 author: 老顽童
 reviewed_by: 待审
 created_at: '2026-08-23'
-updated_at: '2026-08-23'
+updated_at: '2026-09-07'
 quality_labels:
 - insight
+quality_score: 9
+reuse_direction: "自动化启动决策，规则显性化工作坊，完美主义卡点疏导，Agent 迭代策略建议"
 aliases:
 - 隐性知识显性化60分原则
 - 60分原则
@@ -26,6 +28,7 @@ source_refs:
 - 10_raw/sources/banfeimao-openmic/AI知识库-知识库搭建与落地-半肥猫-口述.txt:1004-1014
 - 10_raw/sources/banfeimao-openmic/AI×知识管理-开放麦-逐字稿.md:1-2751
 - 60_feedback/diagnosis/diag_20260823_wangyuyan-banfeimao-ai-kb-diagnosis.md#L1-L100
+- 10_raw/sources/banfeimao-openmic/标签示例.yaml:1-65
 related:
 - framework-AI知识库-Workflow六要素
 - framework-AI知识库-知识卡片公式
@@ -73,6 +76,25 @@ tags:
 2. **隐性知识是 AI 燃料**（四象限「经验判断」）：不显性化的判断 AI 无法调用；60 分是显性化的最低可行门槛。
 3. **迭代数据自动积累**：60 分上线后，运行数据反哺细化——比闭门写 100 分规则更高效。
 
+## 复用指引（标签治理 v1.1，#668 转正批补齐）
+
+> 本卡为标签治理 v1.1（`diag_20260906_wangyuyan-bfm-template-distilled.md §二·六`）方法论引用源；三节骨架与 reuse_direction 字段级 gold example=`10_raw/sources/banfeimao-openmic/标签示例.yaml`（10_raw 原件升格链接）。
+
+**适用场景**
+- 自动化项目被「规则还没写完美」卡死
+- 隐性判断要显性化成规则/评估标准
+- 「不完美就不开工」的项目决策
+
+**可复用方式**
+- Agent 按「60 分上线→运行数据反哺细化→逐步逼近」给迭代路径
+- 先判场景风险等级：低风险迭代区可 60 分，高风险硬规则区必须 100 分+人工兜底
+- 与 Workflow 六要素的验收方法配套使用兜底质量
+
+**注意事项**
+- 安全/合规/风控类硬规则 60 分会出事——不适用
+- 规则质量差会让错误输出被当成基准（垃圾进垃圾出），需验收环节兜底
+- 60 分指「可编码部分」的 60%，不是全部知识（默会部分无法显性化）
+
 ## Critique
 
 - **内部局限**：60 分原则假定「先跑起来再细化」的迭代路径成立——但规则质量差会导致错误输出被当成基准（垃圾进垃圾出），需要验收环节兜底；且「60-70% 覆盖」的判断本身依赖经验。
@@ -88,3 +110,4 @@ tags:
 ## 迭代日志
 
 - **2026-08-23 v1.0**：基于口述稿 L1004-1014（60 分原话）+ 诊断书暗知识 №6 编写；dk 七段含 Critique。
+- **2026-09-07 v1.1（#668 转正批）**：四节补齐（`reuse_direction` + 适用场景/可复用方式/注意事项，gold example=`10_raw/sources/banfeimao-openmic/标签示例.yaml:1-65`）；自攻击：无内容性发现（机械核查 0 死链 0 缺源）；补四节；status draft→pending_review 提审转正；本卡登记为标签治理 v1.1（`diag_20260906_wangyuyan-bfm-template-distilled.md §二·六`）方法论引用源（与词表线 90_control/tags-vocab 互链待规范侧回填）。

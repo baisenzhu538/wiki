@@ -2,7 +2,7 @@
 id: framework-AI知识库-四象限资产
 title: 知识库四象限资产：私有事实/经验判断/业务边界/可复用输出
 type: framework
-status: draft
+status: pending_review
 confidence: 0.85
 trust_level: high
 domain:
@@ -11,9 +11,11 @@ domain:
 author: 老顽童
 reviewed_by: 待审
 created_at: '2026-08-23'
-updated_at: '2026-08-23'
+updated_at: '2026-09-07'
 quality_labels:
 - actionable
+quality_score: 8
+reuse_direction: "知识库内容规划，资产盘点工作坊，AI 替代性讨论，Agent 内容边界判断"
 aliases:
 - 四象限资产
 - 私有事实经验判断业务边界可复用输出
@@ -25,6 +27,7 @@ source_refs:
 - 10_raw/sources/banfeimao-openmic/AI×知识管理-开放麦-逐字稿.md:1-2751
 - 10_raw/sources/banfeimao-openmic/AI知识库-知识库搭建与落地-半肥猫-口述.txt:1-2751
 - 10_raw/sources/banfeimao-openmic/给王语嫣的任务编排建议-半肥猫开放麦-AI知识库.md:20-28
+- 10_raw/sources/banfeimao-openmic/标签示例.yaml:1-65
 related:
 - framework-AI知识库-五阶段演进
 - framework-AI知识库-知识卡片公式
@@ -84,6 +87,25 @@ tags:
 | 资料堆了但 AI 用不上 | 检查是否四类齐全（缺经验判断/业务边界？） | 补齐缺失象限，AI 输出质量提升 |
 | 讨论「AI 能替代我什么」 | 用四象限回答：替代的是检索，不是你的私有资产 | 定位到不可替代的四类资产 |
 
+## 复用指引（标签治理 v1.1，#668 转正批补齐）
+
+> 本卡为标签治理 v1.1（`diag_20260906_wangyuyan-bfm-template-distilled.md §二·六`）方法论引用源；三节骨架与 reuse_direction 字段级 gold example=`10_raw/sources/banfeimao-openmic/标签示例.yaml`（10_raw 原件升格链接）。
+
+**适用场景**
+- 设计知识库该装什么（内容边界）时
+- 资料堆了很多但 AI 用不上
+- 「AI 能替代我什么」类讨论
+
+**可复用方式**
+- Agent 用四象限给知识资产分类：私有事实/经验判断/业务边界/可复用输出
+- 盘点时逐条归类并检查四类是否齐全（缺经验判断/业务边界=档案室）
+- KDO 场景：判别什么进 personal-os、什么进 30_wiki
+
+**注意事项**
+- 公开资料本身不是资产——AI 自己能搜到，只入被你加工/绑定业务的部分
+- 只装事实不装判断=档案室，AI 只能查不能判断
+- 隐性判断显性化成本高（60 分原则降门槛但不消失）
+
 ## 六、Critique
 
 - **内部局限**：四象限是内容分类，不解决「知识怎么被检索调用」（需要标签/Workflow）；且「经验判断」的显性化成本高（60 分原则可降低门槛但不会消失）。
@@ -93,3 +115,4 @@ tags:
 ## 迭代日志
 
 - **2026-08-23 v1.0**：基于洪七公建议书 §2.3（四象限图 1）+ 诊断书 L1 表面层编写；金句「技术是公器，经验是私产」入卡。
+- **2026-09-07 v1.1（#668 转正批）**：四节补齐（`reuse_direction` + 适用场景/可复用方式/注意事项，gold example=`10_raw/sources/banfeimao-openmic/标签示例.yaml:1-65`）；自攻击：无内容性发现（机械核查 0 死链 0 缺源）；补四节；status draft→pending_review 提审转正；本卡登记为标签治理 v1.1（`diag_20260906_wangyuyan-bfm-template-distilled.md §二·六`）方法论引用源（与词表线 90_control/tags-vocab 互链待规范侧回填）。

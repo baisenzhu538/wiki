@@ -2,7 +2,7 @@
 id: framework-AI知识库-分库与映射表
 title: 分库与映射表：专业库隔离 + 映射表联动
 type: framework
-status: draft
+status: pending_review
 confidence: 0.85
 trust_level: high
 domain:
@@ -11,9 +11,11 @@ domain:
 author: 老顽童
 reviewed_by: 待审
 created_at: '2026-08-23'
-updated_at: '2026-08-23'
+updated_at: '2026-09-07'
 quality_labels:
 - actionable
+quality_score: 8
+reuse_direction: "知识库架构设计，域划分评审，跨库检索治理，Agent 库结构咨询"
 aliases:
 - 分库与映射表
 - 分库管理
@@ -26,6 +28,7 @@ source_refs:
 - 10_raw/sources/banfeimao-openmic/AI×知识管理-开放麦-逐字稿.md:1-2751
 - 10_raw/sources/banfeimao-openmic/AI知识库-知识库搭建与落地-半肥猫-口述.txt:1-2751
 - 10_raw/sources/banfeimao-openmic/给王语嫣的任务编排建议-半肥猫开放麦-AI知识库.md:20-28
+- 10_raw/sources/banfeimao-openmic/标签示例.yaml:1-65
 related:
 - framework-AI知识库-五阶段演进
 - framework-AI知识库-知识卡片公式
@@ -89,6 +92,25 @@ tags:
 | 跨库知识检索断裂 | 建映射表/回链 | 从一个库能跳到关联库 |
 | KDO 库结构设计 | 对照 30_wiki 分域（concepts/cases/tools/...）| 域划分清晰 + related 跨域回链完整 |
 
+## 复用指引（标签治理 v1.1，#668 转正批补齐）
+
+> 本卡为标签治理 v1.1（`diag_20260906_wangyuyan-bfm-template-distilled.md §二·六`）方法论引用源；三节骨架与 reuse_direction 字段级 gold example=`10_raw/sources/banfeimao-openmic/标签示例.yaml`（10_raw 原件升格链接）。
+
+**适用场景**
+- 知识库内容混杂、检索被无关知识干扰时
+- 跨库知识检索断裂、知识孤岛
+- 库结构设计/评审（分库粒度争议）
+
+**可复用方式**
+- Agent 按「定库→入库→联动」三步给架构建议
+- 用映射表/related 判断跨域知识是否断链
+- KDO 场景对照 30_wiki 分域 + related 回链
+
+**注意事项**
+- <100 卡单库即可，分库增加复杂度收益低
+- 库拆太细（每主题一库）管理成本爆炸——3-5 个大库+标签细分
+- 只分库不建映射=知识孤岛，映射表是配套不是可选项
+
 ## 七、Critique
 
 - **内部局限**：分库粒度无标准答案——业务决定；映射表需要维护成本（库结构调整时要同步更新）；分库过细会放大管理成本。
@@ -98,3 +120,4 @@ tags:
 ## 迭代日志
 
 - **2026-08-23 v1.0**：基于洪七公建议书 §2.4（专业领域库/流量运营库/人设表达库 + 映射表联动）+ 诊断书 L1 表面层编写；图书馆类比入卡。
+- **2026-09-07 v1.1（#668 转正批）**：四节补齐（`reuse_direction` + 适用场景/可复用方式/注意事项，gold example=`10_raw/sources/banfeimao-openmic/标签示例.yaml:1-65`）；自攻击：无内容性发现（机械核查 0 死链 0 缺源）；补四节；status draft→pending_review 提审转正；本卡登记为标签治理 v1.1（`diag_20260906_wangyuyan-bfm-template-distilled.md §二·六`）方法论引用源（与词表线 90_control/tags-vocab 互链待规范侧回填）。

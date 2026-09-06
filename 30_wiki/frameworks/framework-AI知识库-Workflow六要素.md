@@ -2,7 +2,7 @@
 id: framework-AI知识库-Workflow六要素
 title: Workflow 六要素 + 节点拆细降模型门槛
 type: framework
-status: draft
+status: pending_review
 confidence: 0.9
 trust_level: high
 domain:
@@ -11,10 +11,12 @@ domain:
 author: 老顽童
 reviewed_by: 待审
 created_at: '2026-08-23'
-updated_at: '2026-08-23'
+updated_at: '2026-09-07'
 quality_labels:
 - actionable
 - insight
+quality_score: 9
+reuse_direction: "AI 工作流设计评审，自动化任务拆分，token 成本优化，Agent 流水线搭建"
 aliases:
 - Workflow六要素
 - 节点拆细
@@ -28,6 +30,7 @@ source_refs:
 - 10_raw/sources/banfeimao-openmic/AI×知识管理-开放麦-逐字稿.md:1-2751
 - 10_raw/sources/banfeimao-openmic/给王语嫣的任务编排建议-半肥猫开放麦-AI知识库.md:20-28
 - 60_feedback/diagnosis/diag_20260823_wangyuyan-banfeimao-ai-kb-diagnosis.md#L1-L100
+- 10_raw/sources/banfeimao-openmic/标签示例.yaml:1-65
 related:
 - framework-AI知识库-五阶段演进
 - framework-AI知识库-知识卡片公式
@@ -98,6 +101,25 @@ tags:
 | 设计 AI 工作流 | 六要素逐项检查 | 六要素全配齐，缺一不可 |
 | KDO 流水线讨论 | 对照六要素（capture→ingest→enrich→produce） | 每个环节有明确输入输出标准+验收 |
 
+## 复用指引（标签治理 v1.1，#668 转正批补齐）
+
+> 本卡为标签治理 v1.1（`diag_20260906_wangyuyan-bfm-template-distilled.md §二·六`）方法论引用源；三节骨架与 reuse_direction 字段级 gold example=`10_raw/sources/banfeimao-openmic/标签示例.yaml`（10_raw 原件升格链接）。
+
+**适用场景**
+- 自动化任务不稳定、挑模型、贵时
+- 设计/评审一个 AI 工作流方案
+- KDO 流水线环节对照（capture→ingest→enrich→produce）
+
+**可复用方式**
+- Agent 按六要素清单逐项检查：知识库/Prompt/检索/任务/IO 标准/验收
+- 用「节点拆细→便宜小模型也能稳定输出」判断拆分是否到位
+- 前置节点输出=后置节点输入的串联检查
+
+**注意事项**
+- 一次性/演示任务直接对话完成，不建工作流
+- 没有可检索知识库先别建 Workflow（空转，AI 没燃料）
+- 拆节点过度（每句话一节点）维护成本爆炸——按语义原子拆
+
 ## 六、Critique
 
 - **内部局限**：节点拆细增加搭建与维护成本（「workflow 拉线维护，小 bug 调两天」——诊断书 L5 隐性成本）；拆多细没有公式，靠试错。
@@ -107,3 +129,4 @@ tags:
 ## 迭代日志
 
 - **2026-08-23 v1.0**：基于口述稿 L1084-1100（节点拆细原话）+ 洪七公建议书 §2.3（六要素）+ 诊断书暗知识 №5（省 token 呼应）编写。
+- **2026-09-07 v1.1（#668 转正批）**：四节补齐（`reuse_direction` + 适用场景/可复用方式/注意事项，gold example=`10_raw/sources/banfeimao-openmic/标签示例.yaml:1-65`）；自攻击：无内容性发现（机械核查 0 死链 0 缺源）；补四节；status draft→pending_review 提审转正；本卡登记为标签治理 v1.1（`diag_20260906_wangyuyan-bfm-template-distilled.md §二·六`）方法论引用源（与词表线 90_control/tags-vocab 互链待规范侧回填）。

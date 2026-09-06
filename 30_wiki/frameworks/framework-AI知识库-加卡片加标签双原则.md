@@ -2,7 +2,7 @@
 id: framework-AI知识库-加卡片加标签双原则
 title: 加卡片加标签双原则：知识不够加卡片，索引不到加标签
 type: framework
-status: draft
+status: pending_review
 confidence: 0.9
 trust_level: high
 domain:
@@ -11,10 +11,12 @@ domain:
 author: 老顽童
 reviewed_by: 待审
 created_at: '2026-08-23'
-updated_at: '2026-08-23'
+updated_at: '2026-09-07'
 quality_labels:
 - actionable
 - insight
+quality_score: 9
+reuse_direction: "知识库增长决策，检索失败归因，标签治理培训，Agent 检索问题诊断"
 aliases:
 - 加卡片加标签双原则
 - 知识不够加卡片
@@ -27,6 +29,7 @@ source_refs:
 - 10_raw/sources/banfeimao-openmic/AI知识库-知识库搭建与落地-半肥猫-口述.txt:2636-2638
 - 10_raw/sources/banfeimao-openmic/AI×知识管理-开放麦-逐字稿.md:1-2751
 - 10_raw/sources/banfeimao-openmic/给王语嫣的任务编排建议-半肥猫开放麦-AI知识库.md:20-30
+- 10_raw/sources/banfeimao-openmic/标签示例.yaml:1-65
 related:
 - framework-AI知识库-五阶段演进
 - framework-AI知识库-知识卡片公式
@@ -88,6 +91,25 @@ tags:
 | 搜索某个内容搜不出来 | 先查库里有没有（没有→加卡片；有→加标签） | 搜不到的问题被归因到正确动作 |
 | 设计 KDO 标签体系（#426 词表） | 用双原则 + 五维标注框架作为词表方向 | 词表从「固定清单」转向「维度框架+增长原则」 |
 
+## 复用指引（标签治理 v1.1，#668 转正批补齐）
+
+> 本卡为标签治理 v1.1（`diag_20260906_wangyuyan-bfm-template-distilled.md §二·六`）方法论引用源；三节骨架与 reuse_direction 字段级 gold example=`10_raw/sources/banfeimao-openmic/标签示例.yaml`（10_raw 原件升格链接）。
+
+**适用场景**
+- 知识库资料越来越多但找不到东西时
+- 搜索失败需要归因（内容缺失还是元数据缺失）
+- 标签体系/词表方向讨论（固定清单 vs 维度框架）
+
+**可复用方式**
+- Agent 遇「搜不到」先二分归因再动手：知识不够→加卡片；索引不到→加标签
+- 归因后按知识卡片公式/五维标注法执行对应动作
+- 加完还搜不到→检查标签维度颗粒度
+
+**注意事项**
+- 「知识不够 vs 索引不到」现实中常同时发生——先补卡再打标
+- 搜不到也可能是检索方式问题（Workflow 检索环节），不全是标签问题
+- 纯收藏型资料先清洗，不相关不入库（垃圾进垃圾出）
+
 ## 六、Critique
 
 - **内部局限**：双原则假定「知识不够 vs 索引不到」是清晰二分——现实中常同时发生（内容半成品 + 标签缺失），需要先补卡再打标；且「搜不到」可能是检索方式问题而非标签问题（Workflow 检索环节未设计好）。
@@ -97,3 +119,4 @@ tags:
 ## 迭代日志
 
 - **2026-08-23 v1.0**：基于口述稿 L2636-2638（双原则原话）+ 诊断书暗知识 №1 编写；定位 KDO 标签体系核心参考（#426 词表方向）。
+- **2026-09-07 v1.1（#668 转正批）**：四节补齐（`reuse_direction` + 适用场景/可复用方式/注意事项，gold example=`10_raw/sources/banfeimao-openmic/标签示例.yaml:1-65`）；自攻击：无内容性发现（机械核查 0 死链 0 缺源）；补四节；status draft→pending_review 提审转正；本卡登记为标签治理 v1.1（`diag_20260906_wangyuyan-bfm-template-distilled.md §二·六`）方法论引用源（与词表线 90_control/tags-vocab 互链待规范侧回填）。

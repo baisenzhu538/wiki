@@ -2,7 +2,7 @@
 id: framework-AI知识库-五阶段演进
 title: AI 知识库五阶段演进：从内容生产到多 AI 协同
 type: framework
-status: draft
+status: pending_review
 confidence: 0.85
 trust_level: high
 domain:
@@ -11,10 +11,12 @@ domain:
 author: 老顽童
 reviewed_by: 待审
 created_at: '2026-08-23'
-updated_at: '2026-08-23'
+updated_at: '2026-09-07'
 quality_labels:
 - actionable
 - insight
+quality_score: 9
+reuse_direction: "知识库成熟度评估，AI 转型路线咨询，老板问答框架，Agent 阶段定位判断"
 aliases:
 - 五阶段演进
 - 内容生产到多AI协同
@@ -27,6 +29,7 @@ source_refs:
 - 10_raw/sources/banfeimao-openmic/AI×知识管理-开放麦-逐字稿.md:1-2751
 - 10_raw/sources/banfeimao-openmic/AI知识库-知识库搭建与落地-半肥猫-口述.txt:48-62
 - 10_raw/sources/banfeimao-openmic/给王语嫣的任务编排建议-半肥猫开放麦-AI知识库.md:15-40
+- 10_raw/sources/banfeimao-openmic/标签示例.yaml:1-65
 related:
 - framework-AI知识库-知识卡片公式
 - framework-AI知识库-加卡片加标签双原则
@@ -103,6 +106,25 @@ tags:
 | 知识库资料越多越乱 | 检查是否跳过阶段 2（原子化+标签） | 定位到「垃圾进垃圾出」并给出阶段 2 动作 |
 | KDO 体系演进路线讨论 | 对照五阶段同构表 | 能指出现处阶段 + 下一步升级动作 |
 
+## 复用指引（标签治理 v1.1，#668 转正批补齐）
+
+> 本卡为标签治理 v1.1（`diag_20260906_wangyuyan-bfm-template-distilled.md §二·六`）方法论引用源；三节骨架与 reuse_direction 字段级 gold example=`10_raw/sources/banfeimao-openmic/标签示例.yaml`（10_raw 原件升格链接）。
+
+**适用场景**
+- 被问「知识库怎么搭」类咨询
+- 知识库资料越多越乱、检索失明
+- KDO 体系演进路线/现状对照讨论
+
+**可复用方式**
+- Agent 先用五阶段定位提问者所处阶段+当前卡点，再给动作（不推工具清单）
+- 用「上一级是下一级底座」判断能否升级
+- 用同构表对照 KDO 现状（文件→标签→工作流→数字员工→多 agent）
+
+**注意事项**
+- 五阶段是营销业务实证路线，阶段 4 的 QBD2 29 字段非通用标准
+- 阶段可并行/跳跃，但阶段 4 数字员工必须以 1-3 知识资产为前提
+- 多 AI 堆积≠协同——阶段 5 需要项目知识库五件套作共同协议
+
 ## 七、Critique
 
 - **内部局限**：五阶段是半肥猫个人业务（营销增长）实证的路线，阶段 4 的 QBD2 29 字段=营销场景实测，**非通用标准**（口述 L2688-2702：29 个分类是他自己做业务用的，业务强绑定，数量因人而异）。
@@ -112,3 +134,4 @@ tags:
 ## 迭代日志
 
 - **2026-08-23 v1.0**：基于半肥猫开放麦口述稿+逐字稿+洪七公建议书编写；口述行号 O0 溯源（L48-L62 传承实证）；与 KDO 体系同构对照。
+- **2026-09-07 v1.1（#668 转正批）**：四节补齐（`reuse_direction` + 适用场景/可复用方式/注意事项，gold example=`10_raw/sources/banfeimao-openmic/标签示例.yaml:1-65`）；自攻击：无内容性发现（机械核查 0 死链 0 缺源）；补四节；status draft→pending_review 提审转正；本卡登记为标签治理 v1.1（`diag_20260906_wangyuyan-bfm-template-distilled.md §二·六`）方法论引用源（与词表线 90_control/tags-vocab 互链待规范侧回填）。

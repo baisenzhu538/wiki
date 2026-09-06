@@ -2,7 +2,7 @@
 id: concept-AI知识库-KDO传承溯源
 title: KDO 传承溯源：楚门-半肥猫「笨办法有点意思」
 type: concept
-status: draft
+status: pending_review
 confidence: 0.9
 trust_level: high
 domain:
@@ -11,9 +11,11 @@ domain:
 author: 老顽童
 reviewed_by: 待审
 created_at: '2026-08-23'
-updated_at: '2026-08-23'
+updated_at: '2026-09-07'
 quality_labels:
 - insight
+quality_score: 8
+reuse_direction: "KDO 起源讲解，选型逻辑答辩，传承链引用，Agent 溯源问答"
 aliases:
 - KDO传承溯源
 - 楚门半肥猫传承
@@ -26,6 +28,7 @@ source_refs:
 - 10_raw/sources/banfeimao-openmic/AI知识库-知识库搭建与落地-半肥猫-口述.txt:48-62
 - 10_raw/sources/banfeimao-openmic/给王语嫣的任务编排建议-半肥猫开放麦-AI知识库.md:96-110
 - 60_feedback/diagnosis/diag_20260823_wangyuyan-banfeimao-ai-kb-diagnosis.md#L1-L100
+- 10_raw/sources/banfeimao-openmic/标签示例.yaml:1-65
 related:
 - framework-AI知识库-五阶段演进
 - framework-AI知识库-知识卡片公式
@@ -91,6 +94,25 @@ tags:
 | 质疑 KDO 选型（为什么 Obsidian/Markdown） | 引用传承链 + AI 友好结构 | 选型逻辑清晰（不是随大流） |
 | 半肥猫素材成卡 | 把传承关系写进卡片 related | 传承卡与五阶段/卡片公式互链 |
 
+## 复用指引（标签治理 v1.1，#668 转正批补齐）
+
+> 本卡为标签治理 v1.1（`diag_20260906_wangyuyan-bfm-template-distilled.md §二·六`）方法论引用源；三节骨架与 reuse_direction 字段级 gold example=`10_raw/sources/banfeimao-openmic/标签示例.yaml`（10_raw 原件升格链接）。
+
+**适用场景**
+- 介绍 KDO 体系起源/为什么长这样
+- 质疑 Obsidian+Markdown 选型逻辑
+- 引用半肥猫-楚门-一堂传承关系时
+
+**可复用方式**
+- Agent 讲「为什么长这样」时引 2025-11-23 传承链（阿蕊→楚门→一堂）
+- 结构与工具分开答：Markdown+YAML+原子化是结构本体，Obsidian 只是载体
+- KDO 自研增量（队列治理/门禁/写审分离）与传承部分分开表述
+
+**注意事项**
+- 传承原话是半肥猫单方口述（楚门侧无独立印证，待独立核实）
+- 单一来源起源叙事有「英雄起源」偏差——Obsidian+Markdown+YAML 是普遍实践
+- 不抹传承，也不把 KDO 价值全归因传承（弱化自研部分）
+
 ## 七、Critique
 
 - **内部局限**：传承原话是半肥猫单方口述（L48-62），楚门视角未直接记录——「被楚门发现」是半肥猫的表述，无楚门侧独立印证（口述待独立核实）；传承关系可能被简化（阿蕊的角色/更多参与者的贡献未记录）。
@@ -100,3 +122,4 @@ tags:
 ## 迭代日志
 
 - **2026-08-23 v1.0**：基于口述稿 L48-62（传承原话实证）+ 洪七公建议书特别提醒 1（传承关系卡必做）+ 诊断书 L9 整合判断编写。
+- **2026-09-07 v1.1（#668 转正批）**：四节补齐（`reuse_direction` + 适用场景/可复用方式/注意事项，gold example=`10_raw/sources/banfeimao-openmic/标签示例.yaml:1-65`）；自攻击：无内容性发现（机械核查 0 死链 0 缺源）；补四节；status draft→pending_review 提审转正；本卡登记为标签治理 v1.1（`diag_20260906_wangyuyan-bfm-template-distilled.md §二·六`）方法论引用源（与词表线 90_control/tags-vocab 互链待规范侧回填）。
