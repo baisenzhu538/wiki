@@ -51,3 +51,25 @@ R11 全场（至暗时刻+开源攻坚会+13 行业证伪）/ R13 三条路径�
 | F10 | framework-conversion-rate-is-result | R10-02（L5460-5480） | ①dk 挂靠「结果非问题」②[[framework-一堂-业务公式拆解-总纲]]（业务公式=真问题层）③[[framework-一堂-12种阻力总表]]（阻力=可操作病因层）④批2 `case-dance-lean-validation-data-chain`（刚性不足=转化率背后的真问题实证） |
 
 > 解压比：批 1 框架 10 张 → 解压资产 10×4=40 条路径（批 2 case/dk 6 件+dk 挂靠 10 条+存量互链 24 条），压缩比 1:4.0，达标 ≥1:3。
+
+## 执行报告（批 1=框架 10，2026-09-06 22:33 laowantong 收尾提交）
+
+**交付物**：批 1 框架 10 件已入库 `30_wiki/frameworks/`（与本单 A 节清单 10/10 对齐，id↔文件名 10/10 匹配）：framework-ai-business-cognition-system(199 行)/framework-timing-not-yet-resource-allocation(195)/framework-client-acceptable-decoupled-delivery(192)/framework-embodiment-taste-rule-three-level(189)/framework-knowledge-base-vs-ontology(190)/framework-zero-user-immersive-research(183)/framework-socialization-capability-pyramid(190)/framework-fact-judgment-separation(190)/framework-dual-triangle-gap-diagnosis(194)/framework-conversion-rate-is-result(195)；pre-submit 补跑存档 `logs/pre-submit-batch1c-framework10-20260906.log`；源台账 `60_feedback/diagnosis/working/a1-batch1c-goldmine-ledger.md`。
+
+**完成内容**：批 1c 框架批完整性核验+pre-submit 补跑+收尾提交（本批=框架 10，按「16 件分两小批」设计提审）。frontmatter 三态 10/10：`status: draft`、`author: 老顽童`、`reviewed_by: 待审`（写审分离）【实证：sed -n '1,20p' 抽验+grep -l 计数=10】。**会话中断与恢复**：前班会话在框架 10 件产出完、提审动作未发生时中断（本单停在 claimed-laowantong，无半提交状态）；交付物已随 vault backup 入库【实证：git log --diff-filter=A → d1f8e2bd0 20:15:42 / bc5adf7a6 20:25:53】；本会话为纯收尾接续——只补跑门禁+落报告+走 complete，未触碰任何卡片正文。**批 2 进度**：case×5+dk×1（case-chip-yitijia-13-industry-falsified/case-xiaohongshu-three-path-falsified/case-otc-blind-test-benchmark/case-dance-lean-validation-data-chain/case-ai-video-tool-triple-climb/dk-ai-plus-scenario-value）未开工【实证：find 30_wiki -name 六件全 0 命中，2026-09-06】，留批 2 按队列序另启。
+
+**验证**：①存在性+行数：10/10 在 `30_wiki/frameworks/`，183-199 行/卡，全部 ≥100 行正文门禁【实证，本报告上方清单】。②入库：`git status --porcelain 30_wiki/frameworks/` 输出 0 行（工作树干净，无脏文件）；新增随 vault backup 两拍入库（锚点见上）。③pre-submit 补跑 10/10 PASS、0 FAIL【实证：`logs/pre-submit-batch1c-framework10-20260906.log`，grep "Result: PASS"=10 / FAIL=0】；WARNING 分布：ALIASES×10（台账源名 a1-batch1c-goldmine-ledger 未入 aliases，提示制）、CONCEPT_CROSSCHECK×10（#542 提示制）、QUALITY_SCORE info×10（decomp 维度 0）、QUOTE_VERBATIM×8 卡、QINGDANTI_STRUCTURE×8 卡；#669 新检查器 KDO_QUERY_LOG 10/10 卡 0 issues。④检索可达：kdo query 三查询（见下方检索记录节）均 Top-5 命中且首位=本批卡自身——语义索引已含新卡，无更高位同主题旧卡【实证，2026-09-06】。
+
+**边界**：①QUOTE_VERBATIM×8 卡（timing/knowledge-base-vs-ontology 两卡 0 命中干净）为**真伪逐字信号而非机械误报**【实证抽验：framework-ai-business-cognition-system.md:76「从帮助角度出发的真实反馈」标注 L5670，源文原句为「他能够给你真实的反馈，而且会从帮助你的角度给你反馈」——压缩改写后加引号+行号锚，#616/#614 家族】；本收尾单不擅自改写正文，逐卡处数（5/3/3/1/1/3/3/3）与引文示例全在补跑存档 log，留终审裁量（改逐字或去引号；若判返工走 L10 镜像对照）。②QINGDANTI 超长段×8 为提示制（#639）未重组，随批 2 或返工一并处理。③批 1 卡内含批 2 预声明链接（本单「逐卡解压路径」节显式声明六件 id），批 2 产出前这些 wikilink 悬空——终审请按预声明核对，勿按死链判。④F7 社会化能力金字塔域归属：卡实挂 `domain: human-insights`【实证：sed 抽验】，建儿童/教育域建议按本单 F7 行预声明留终审。⑤伦理敏感项 c4-38 维持台账§8「不立卡」口径，本批未触碰。
+
+**需要谁动作**：欧阳锋——终审批 1（框架 10）：重点裁量 ①QUOTE_VERBATIM×8 处真伪逐字的定级与返工口径 ②F7 域归属（human-insights vs 新建儿童/教育域）。王语嫣——无（抽验指引已在源台账§7）。老朱——无（#668 AI知识库卡族转正已在队列排队，本单终审后按序）。
+
+### kdo query 检索记录（宪法第六条，2026-09-06）
+
+| 检索词 | 命中 | 首位结果 | 备注 |
+|:--|:--|:--|:--|
+| 转化率是结果不是问题 | Top 5 | framework-conversion-rate-is-result（本批 F10 自身） | 无更高位同主题旧卡 |
+| 知识库 本体论 | Top 5 | framework-knowledge-base-vs-ontology（本批 F5 自身） | 同上 |
+| 体感 审美 规则 三级 | Top 5 | framework-embodiment-taste-rule-three-level（本批 F4 自身） | 同上 |
+
+> 检索目的：①核验新卡语义索引可达；②复核批 1 建模方案「先查已有卡再新建」结论仍成立（三主题均无既有卡排在本批卡之前）。近邻消歧三组（y-model-dual-triangle-synergy / dk-yitang-fact-three-questions-trust-tiers / 一堂业务公式族）在生产时已 grep+kdo 双检，锚见本单「建模方案」节。
