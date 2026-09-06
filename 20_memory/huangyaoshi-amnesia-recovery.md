@@ -5,6 +5,12 @@ updated_at: 2026-09-05
 
 # 黄药师失忆恢复（重启后 3 分钟加载）
 
+## 2026-09-07（#670 终审 PASS 卡状态自动翻转钩子）
+
+- **queue_transition review pass 钩子化（#670，已提审）**：终审 PASS 时按执行报告「交付物」节自动翻转交付卡 `draft→reviewed`+`reviewed_by=<审查者>`+`review_date`（`_flip_delivered_cards`+三层交付卡解析器 `_resolve_delivered_cards`，兼容 #665 反引号裸 id/#666 裸 id+声明目录/#668 `type×N（标题）` 含域中缀四种写法）；只翻 draft（幂等护栏），识别不出降级 #612 提醒不阻断；翻转卡随 `chore(review)` path-scoped 落仓。**review_mark.py 手工 CLI 仍是存量卡收口入口**（`mark_card()` 与钩子同一实现，`--dry-run` 可先看）；矩阵行 31 已登记，SKILL queue-transition v1.1.0
+- **存量教训**：审计发现 33+7 张历史停留卡（#665 五张 dk/#641 六张/#633 四张等 16 单）——`reviewed_by` 归属=审查者动作，基建/生产侧不代翻（E018 防线），清单在 `60_feedback/diagnosis/working/audit-stuck-cards-20260907.md` 待欧阳锋核裁批收口
+- **检索降权口径校准【实证】**：KDO CLI 检索层对 draft 卡=「只标注（【未审 draft】）不降权不排除」（delivery.py `_label_unreviewed` #380），trust 过滤按 `trust_level` 非 `status`——别再沿用「draft=被降权」的说法
+
 ## 2026-09-06 三场（#651 子目录盲区+#652 全Agent行为宪法）
 
 - **watch_inbox 扫描面扩容（#651）**：白名单外顶层子目录目录级登记（`_unknown_top_dirs`/`_dir_signature` 直接子项签名判重/`--seed-top-dirs [--keep 名]` 一次性基线）；00_inbox 顶层 80 子目录已基线化 74 个——**新顶层子目录下一拍自动登记看板+推王语嫣**，文件级跟踪需手动加 SCAN_SUBDIRS

@@ -12,7 +12,7 @@
 |---|------|--------|------|--------|--------------|----------|
 | 1 | 新 queued（可领取） | conveyor_probe `_queue_signal` | todos 推送 | assignee 路由（未知回落 laowantong） | 静默期 defer 天亮补发 | #501/#443 |
 | 2 | 新提审（pending_review） | conveyor_probe | 叫醒推送 | 欧阳锋 | 豁免（终审类） | #421/#520 |
-| 3 | 终审 PASS（reviewed） | conveyor_probe `new_reviewed`（#612：queue_transition review pass 终端输出附带提醒——交付物节含 30_wiki 卡片时提示「N 张交付卡待 review_mark 转正」，只提醒不代写，#586/#596 漏转正二次复发对策） | todos 推送 | assignee + 抄送王语嫣 | 豁免（终审类） | #462/#521 R1/R2；#612 转正提醒 |
+| 3 | 终审 PASS（reviewed） | conveyor_probe `new_reviewed`（#612：queue_transition review pass 终端输出附带提醒——交付物节含 30_wiki 卡片时提示「N 张交付卡待 review_mark 转正」；**#670 起该提醒降级为兜底网**——自动翻转钩子（行 31）识别不出交付卡写法时才触发，语义不变：只提醒不代写） | todos 推送 | assignee + 抄送王语嫣 | 豁免（终审类） | #462/#521 R1/R2；#612 转正提醒；#670 兜底化 |
 | 4 | 终审退回 FAIL（failback） | conveyor_probe `new_failback` | todos 推送 | assignee 路由 | defer（未豁免，观察项 O1） | #462；#538 补「曾 reviewed」场景 |
 | 5 | 门禁拦截（gate-blocked） | conveyor_probe `_scan_gate_blocked`（#562：时间戳锚定记录聚合——多行拦截消息（如 E040 交付物清单）续行并入首记录，不再按物理行切出垃圾残片；状态键 gate_seen_v2，旧行级方案升级首跑静默吸收存量防重报。#568：通知类打印一律改走 stderr——`--json` stdout 纯 JSON 可被机器 json.loads；queue_transition subprocess 全点强制 UTF-8/replace（GBK reader 线程崩溃族根治）；E040 fail-open 异常 stderr WARNING 可见化，门禁静默致盲→可见。#569：F-034 锚点改前缀匹配（`**改动文件清单**` 不再被闭合 ** 阻断）+E040 节边界放宽（`- **` 子弹行算字段行）+两门禁报错附期望格式样例——锚点容错不松语义） | 推送+看板登记 | 王语嫣 | — | #460；#562 多行解析修复；#568 GBK 族+stdout 污染根治；#569 锚点三层修复（#562/#568/#569 §3.19 三连合并补登 08-28）；#515 E040 `_tmp/` 划痕豁免（校准点1：`_extract_deliverable_paths` 提取层过滤中间产物非交付物，不判 missing/untracked，08-28 补登） |
 | 6 | 建议书登记（三元组命中） | conveyor_probe `_scan_proposals` | 推送+PROPOSAL-PENDING 登记 | 王语嫣 | — | #421/#506 |
@@ -41,6 +41,7 @@
 | 28 | 非节拍 backup commit（孤儿写手）+ 守卫跳拍误报停拍 | conveyor_probe 第十二信号 `_scan_offbeat_backup`（3h 窗内 `vault backup:` commit 距节拍格 :20/:50 超 ±10min → 报；沿触发幂等，全窗干净重新武装）+ 第十信号 `_scan_backup_stall` 口径细化（commit 超窗但守卫 SKIPPED 行在窗内 = #628 主动跳拍=健康，不报停拍；SKIPPED 也超窗则照报——守卫不能成停拍遮羞布） | 并入第九信号 infra_alerts 通道：gate-blocked.log 台账 + 推王语嫣 | 王语嫣 | defer（同第九信号口径，台账恒写） | #631（01:38 非节拍孤儿 commit 545bd0f5a 收走 #628 在制品；触发源锁定=obsidian-git 插件 auto backup 10min 同文模板，走自带 git 通道绕开 #628 守卫；信号上线真机首拍即现行：窗内 5 个非节拍 commit） |
 | 29 | 产卡超长无分层段落（清单体结构缺失） | kdo pre-submit `_check_qingdanti_structure`（#639：连续散文化段落 ≥8 行 / 单段 ≥400 字 → 提醒按清单体标准重组，跳过代码围栏，只向前生效不回扫存量） | pre-submit WARNING（提审输出可见，不拦截） | 生产者 | — | #639（清单体方法论在库但生产规范零引用的知行断裂修复；规范层=工业化手册 §12.2.1，方法论锚 yt-note 卡族只链不抄） |
 | 30 | 对话蒸馏每日运行结果 | conversation_distill（#645：计划任务 kdo-conversation-distill 每日 23:50 独立批次） | 无推送——落盘即交付：logs/conversation-distill-*.log + pending-cards 候选（走行 9 inbox 素材通道被王语嫣拾取过门禁）+ personal-os 追加；LLM 失败/锚校验丢弃计数写日志 | 王语嫣（经既有 inbox 通道）/ 黄药师（日志） | — | #645（老朱 09-05 长期机制；不新增推送通道，复用行 9 既有扫描面 pending-cards 白名单） |
+| 31 | 终审 PASS 交付卡状态自动翻转 | queue_transition `_flip_delivered_cards`（#670：review --verdict pass 时按执行报告「交付物」节自动翻转交付卡 draft→reviewed+reviewed_by+review_date，三层解析兼容 #665/#666/#668 四种写法，只翻 draft 幂等护栏，识别不出降级行 3 的 #612 提醒不阻断；翻转卡随 chore(review) path-scoped 落仓，git 失败走 pending-git-commits.log 待收口） | 终端输出报告（翻转/未动/未识别三段）+ 卡 frontmatter + chore(review) commit | 欧阳锋（触发者=reviewed_by 归属）/生产者（零动作） | 不适用（终审同步动作，非通知） | #670（#612 提醒三次漏转复发 #586/#596/#666 的机制化根治；存量 33+7 张历史卡不代翻——reviewed_by 归属=审查者动作，清单 `60_feedback/diagnosis/working/audit-stuck-cards-20260907.md` 待欧阳锋核裁） |
 
 ## 缺口台账
 
