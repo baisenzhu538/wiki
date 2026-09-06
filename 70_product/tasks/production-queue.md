@@ -1207,6 +1207,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 656 | `task_20260906_huangyaoshi-channel-health-fallback` | 拉起器通道健康预检+余额感知 fallback（F-073 落地）+通道-真实模型对照表 | pending_review | huangyaoshi | 坏key模拟自动fallback+通知/全死明确报错/回归不红 | 无 | `60_feedback/tasks/task_20260906_huangyaoshi-channel-health-fallback.md` | 老朱晨问立项（两墙连撞根治）；欧阳锋终审 |
 | 657 | `task_20260906_wangyuyan-audit-pilot-orgbehavior` | 暗知识体检试金石：AI组织行为学口述全量重挖（王语嫣亲读，完备性双签制首跑） | queued | wangyuyan | 金矿台账+体检报告+存量五态对账 | 无 | `60_feedback/tasks/task_20260906_wangyuyan-audit-pilot-orgbehavior.md` | 老朱晨令；计划 diag_20260906_wangyuyan-kb-darkknowledge-audit-plan；欧阳锋终审（抽源对照） |
 | 658 | `task_20260906_laowantong-encapsulation-t1` | 封装复盘 T1 生产：6 件高频基建 skill 壳（狗粮验收：新 agent 凭 skill 检索即可正确调用） | pending_review | laowantong | 6 SKILL.md+狗粮实测记录 | 无 | `60_feedback/tasks/task_20260906_laowantong-encapsulation-t1.md` | 老朱晨令；报告 diag_20260906_wangyuyan-encapsulation-gap-review；欧阳锋终审 |
+| 659 | `task_20260906_laowantong-audit-batch1` | 暗知识体检 A1 批：11 件零产出口述初挖（分三小批，金矿台账必附，王语嫣抽验双签） | queued | laowantong | 金矿台账+形态路由+覆盖率自评（分批提审） | 无 | `60_feedback/tasks/task_20260906_laowantong-audit-batch1.md` | 老朱漏挖检视令；台账 phase0-coverage-ledger；欧阳锋终审 |
 
 ## PROPOSAL-PENDING
 ### diag_20260826_ouyangfeng-source-refs-line-anchor-unreachable（2026-08-26 欧阳锋）
