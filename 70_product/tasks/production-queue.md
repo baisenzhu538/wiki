@@ -1262,7 +1262,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 671 | `task_20260907_huangyaoshi-dk-graph-index-gap` | graph_index 补录 dk 族 332 张（0/332 实证——图检索系统性失明，检索失明第三层根因） | reviewed | huangyaoshi | path_map 332/332+抽5召回+覆盖率探针 | 无 | `60_feedback/tasks/task_20260907_huangyaoshi-dk-graph-index-gap.md` | 欧阳锋建议书（09-07 王语嫣裁定立项 P1）；欧阳锋终审 |
 | 672 | `task_20260907_ouyangfeng-skilllog-merge` | 技能进化日志双轨合并（拼音轨唯一真相源，4行并入+context指针修正） | reviewed | ouyangfeng | 两轨合一无丢行+指针指向实证 | 无 | `60_feedback/tasks/task_20260907_ouyangfeng-skilllog-merge.md` | 欧阳锋自报建议书（王语嫣裁定采纳1+2）；欧阳锋终审 |
 | 673 | `task_20260907_huangyaoshi-bundle-regen` | bundle 备份过期 47.6h 处置（停摆排查+重新生成+阈值核实） | pending_review | huangyaoshi | 新bundle+integrity PASS+节拍恢复 | 无 | `60_feedback/tasks/task_20260907_huangyaoshi-bundle-regen.md` | vault-integrity 探针告警（09-07 王语嫣立项）；欧阳锋终审 |
-| 674 | `task_20260907_huangyaoshi-pathmap-key-hardening` | graph_state path_map 改 path/id 键根除同标题撞车（13 张溯源丢失，欧阳锋根因定位） | queued | huangyaoshi | 重建后无撞车+13张可溯源+探针concepts清零+回归不红 | #673 后（同角色排队） | `60_feedback/tasks/task_20260907_huangyaoshi-pathmap-key-hardening.md` | 欧阳锋建议书三连（09-07 王语嫣立项）；欧阳锋终审 |
+| 674 | `task_20260907_huangyaoshi-pathmap-key-hardening` | graph_state path_map 改 path/id 键根除同标题撞车（13 张溯源丢失，欧阳锋根因定位） | claimed-huangyaoshi | huangyaoshi | 重建后无撞车+13张可溯源+探针concepts清零+回归不红 | #673 后（同角色排队） | `60_feedback/tasks/task_20260907_huangyaoshi-pathmap-key-hardening.md` | 欧阳锋建议书三连（09-07 王语嫣立项）；欧阳锋终审 |
 
 ## PROPOSAL-PENDING
 ### diag_20260826_ouyangfeng-source-refs-line-anchor-unreachable（2026-08-26 欧阳锋）

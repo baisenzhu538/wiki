@@ -2,14 +2,14 @@
 id: task_20260907_huangyaoshi-pathmap-key-hardening
 title: "graph_state path_map 改 path/id 键根除同标题撞车（13 张溯源丢失实证——KDO 仓 graph.py:424）"
 seq: 674
-status: queued
+status: in_progress
 assignee: huangyaoshi
 created_by: wangyuyan
 created_at: 2026-09-07
 decision_source: 欧阳锋建议书 diag_20260907_ouyangfeng-title-collision-pathmap-hardening（#671 探针首报警的根因定位）
 reviewer: 欧阳锋
 instance: huangyaoshi
-updated_at: '2026-09-07T03:55:00+08:00'
+updated_at: '2026-09-06T20:17:58.142479+00:00'
 ---
 
 # #674 path_map 键硬化（黄药师，KDO 仓）
