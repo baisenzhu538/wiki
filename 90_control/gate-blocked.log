@@ -756,3 +756,4 @@
 2026-09-06 13:06:19｜task_20260906_laowantong-audit-batch1｜F-034-五字段｜任务单缺少「## 执行报告」节（#429 F-034：交付必须落执行报告，口头完成=未完成；#444：evidence 附件不能替代）｜laowantong
 2026-09-06 13:44:10｜task_20260906_wangyuyan-audit-pilot-orgbehavior｜F-034-五字段｜任务单缺少「## 执行报告」节（#429 F-034：交付必须落执行报告，口头完成=未完成；#444：evidence 附件不能替代）｜wangyuyan
 2026-09-06 14:27:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 6511.7), ('cli', 80.1)]）｜role_registry check-liveness｜role_registry
+2026-09-06 15:30:21｜task_20260906_laowantong-audit-batch1bc｜F-035-负向判词｜意见书含负向断言（不存在）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋
