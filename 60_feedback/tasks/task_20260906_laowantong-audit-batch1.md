@@ -1,16 +1,19 @@
 ---
-id: task_20260906_laowantong-audit-batch1
-title: "暗知识体检 A1 批：11 件零产出高价值口述初挖（收官路演/建模培训/讲香/剧本/PPT/王欢×2/转化率/AI native/拆书）"
-seq: 659
-status: pending_review
-assignee: laowantong
-created_by: wangyuyan
-created_at: 2026-09-06
-decision_source: 老朱 09-06 令「检视知识库以往内容是否漏挖，补全产出端」；台账=60_feedback/diagnosis/working/phase0-coverage-ledger.md A 级人工复核版
-reviewer: 欧阳锋
-instance: laowantong
-updated_at: '2026-09-06T05:06:56.884082+00:00'
+id: task_20260906_laowantong-audit-batch1
+title: "暗知识体检 A1 批：11 件零产出高价值口述初挖（收官路演/建模培训/讲香/剧本/PPT/王欢×2/转化率/AI native/拆书）"
+seq: 659
+status: reviewed
+assignee: laowantong
+created_by: wangyuyan
+created_at: 2026-09-06
+decision_source: 老朱 09-06 令「检视知识库以往内容是否漏挖，补全产出端」；台账=60_feedback/diagnosis/working/phase0-coverage-ledger.md A 级人工复核版
+reviewer: 欧阳锋
+instance: laowantong
+updated_at: '2026-09-06T05:29:24.438106+00:00'
 evidence: 60_feedback/diagnosis/working/a1-batch1a-goldmine-ledger.md
+reviewed_by: 欧阳锋
+review_date: '2026-09-06'
+grade: B
 ---
 
 # #659 暗知识体检 A1 批（老顽童初挖）
@@ -58,3 +61,42 @@ evidence: 60_feedback/diagnosis/working/a1-batch1a-goldmine-ledger.md
 ### ③ 负向判词 / ④ 存在性核查
 
 ✅ 执行报告无负向断言词（检查面=执行报告节）
+
+
+## 终审记录（欧阳锋 2026-09-06 13:38）
+
+**verdict**：PASS
+**grade**：B
+**methodology_version**：v2.3
+**blocking**：无 Critical/High；🔴 漏挖候选清单在下游「产卡立项」前必须复检修正（条件放行）
+
+**O0 溯源自检**：通读交付台账 `a1-batch1a-goldmine-ledger.md` 全文 284 行；开源核对 `00_inbox/建模能力/一堂-建模能力培训-truman-口述.txt`（4444 行）、`00_inbox/讲香基本功-李頔-260731/讲香基本功-李頔-260731-口述.txt`（2810 行）及两份 10_raw 副本；grep 复核 15 条负向判词锚。
+
+**实证核对（通过项）**：
+- 行数/字节：建模 4444 行 236895B、讲香 2810 行 156413B，与台账一致【实证】
+- 同内容异路径：讲香 inbox vs raw `md5` IDENTICAL；建模 raw = 同正文 + frontmatter【实证】
+- 派生卡量：`src_20260614_8269ccdb` grep 30_wiki/ = 64 文件（63 卡 + 1 index），"60+" 成立；讲香 9 卡成立【实证】
+- 负向锚抽样 11 条为真：骄傲感/4000家门店/31家连锁/凤凰卫视/一虎奇谈/家里种地/越强你越需要知道/开开心心/迁移率/瑞典均 0 命中，传染 3 命中（台账所列 3 卡一致）【实证】
+
+**发现问题（负向判词核查锚真实性，本次重点核）**：
+- 🟡 3 条「0 命中」锚为假，产卡前必须修正——去向：随 1b/1c 复检 + 产卡立项前重跑 grep 留痕【存在性核查】：
+  1. #40 火箭模型：台账称 grep「火箭模型」30_wiki/ 0 命中；实测 124 命中/24 文件，且已存在卡 `yt-personal-scientific-expression`（科学表达（火箭模型），type tool，status enriched）及 `tool-一堂-表达力火箭模型-执行武器库`——该候选非漏挖、属已卡化，应从 🔴 清单剔除【实证：grep 全量命中 + 卡 frontmatter】
+  2. #24 没认怂：台账称 0 命中；实测 `case-personal-map-modeling.md` Step 7 已含原句「一直没认怂」——已卡化，应从 🔴 清单剔除【实证】
+  3. #67 龙峰：台账称 0 命中；实测 `dk-key-hypothesis-still-hope.md` 含「龙峰」5 处（语境为 feature 未测不怂，非本条招人标准语义）——负向锚为假，本条语义仍可能未覆盖，需重查后改判【实证】
+- 🔵 4 处小瑕（不阻断）：
+  1. #58 排列组合锚「均为无关卡」只举 1 例，实测 22 文件/56 命中，锚不完整【实证】
+  2. §0.1「24 文件」与「60+ 卡」及实测 64 文件自相矛盾（疑为 24 case 与总数混写）【实证】
+  3. §1.1 建模 10_raw 行号偏移写 +16，实测 +17（frontmatter 1+13+1+2 行）【实证】
+  4. #66 重做一遍「无对应命中」可辩护（7 命中均为泛词义），无硬伤【实证】
+
+**形态路由判定合理性（重点核）**：✅ 合理。两件均按 `framework-encapsulation-methodology.md:211`「六层形态表对号入座、不新造分类」裁定不新建 framework，三方法留痕完整（查重=§1.2/§2.2 卡清单；对标=素材是已卡化框架的源；外部命名=无新术语）。#40 火箭模型虽查重锚失实，但其路由结论（不新建 framework、作 tool 候选）方向仍对，只需修正「已卡化」判定。
+
+**不产新卡裁定的查重留痕（重点核）**：✅ 留痕在位且可复跑。§1.4/§2.4 均附「三方法」+ 具体卡清单 + 路由依据行号；负向判定逐条附 grep 命令/命中数（真值问题见上，形式完整）。
+
+**审查结论**：台账主体（逐字读、同内容异路径误判修正、覆盖判定、形态路由、自攻击四路）扎实可复跑，核心结论「主干已卡化、漏挖集中在过程性暗知识三类」成立。扣分点=负向判词核查锚存在系统性失实（15 条抽样 3 条为假，其中 1 条已卡化），违反行为宪法第二条的真值要求（锚点形式在位、内容失真）。不判 FAIL 的理由：台账本身不入库，下游产卡另行立项且被「产卡前查重」二次拦截，缺陷为可修复的清单级问题。
+
+**放行条件（residual_risks / 需要谁动作）**：
+- 老顽童：🔴 漏挖候选清单（建模 17 + 讲香 5）在产卡立项前统一重跑 grep 并留痕；#40/#24 直接剔除，#67 重查后改判。
+- 王语嫣：§0.1 台账修正（同内容异路径归并）是否立项 Phase 0 修订，随其裁定。
+
+**五维评分**：溯源完整 20/25（锚多真但 3 条失实）、逻辑骨架 22/25、暗知识密度 18/20、可操作性 13/15、表达质量 14/15，合计 87/100 → B
