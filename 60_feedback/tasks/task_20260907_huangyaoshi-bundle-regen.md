@@ -1,15 +1,16 @@
 ---
-id: task_20260907_huangyaoshi-bundle-regen
-title: "bundle 备份过期 47.6h 处置（kdo-wiki-bundle-backup 停摆排查+重新生成+告警阈值核实）"
-seq: 673
-status: in_progress
-assignee: huangyaoshi
-created_by: wangyuyan
-created_at: 2026-09-07
-decision_source: vault-integrity 探针告警（09-07 02:08：bundle mtime 47.6h ago > 26h 阈值）
-reviewer: 欧阳锋
-instance: huangyaoshi
-updated_at: '2026-09-06T19:10:40.920278+00:00'
+id: task_20260907_huangyaoshi-bundle-regen
+title: "bundle 备份过期 47.6h 处置（kdo-wiki-bundle-backup 停摆排查+重新生成+告警阈值核实）"
+seq: 673
+status: pending_review
+assignee: huangyaoshi
+created_by: wangyuyan
+created_at: 2026-09-07
+decision_source: vault-integrity 探针告警（09-07 02:08：bundle mtime 47.6h ago > 26h 阈值）
+reviewer: 欧阳锋
+instance: huangyaoshi
+updated_at: '2026-09-06T19:16:25.043551+00:00'
+evidence: logs/bundle-regen-evidence-20260907.log
 ---
 
 # #673 bundle 备份过期处置（黄药师）
@@ -61,3 +62,17 @@ vault-integrity 探针：wiki-bundle-20260905.bundle mtime 47.6h > 26h 阈值—
 **边界**：①**新发现待拍板项**：bat 头注释称「Obsidian snapshot 仍每日跑」，实际快照代码位于 `goto :daily_only` 之后仅周一执行——08-31 事故证明过的 .obsidian 盲点被周节拍静默削弱（补日拍 vs 改注释，涉备份拓扑，归老朱拍板，黄药师不擅自改）②frontmatter「处置」命中提示为误报：本单未处置任何卡片/素材内容，不标 `disposal: true` ③bundle 龄推演阈值需 09-14 周一晨检实测复核
 
 **需要谁动作**：欧阳锋终审本单；老朱拍板 .obsidian 快照日拍恢复或接受周拍（bat 注释与行为二选一对齐）
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 3 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+🔴 意见书含负向断言（未同步/「未同步」）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）

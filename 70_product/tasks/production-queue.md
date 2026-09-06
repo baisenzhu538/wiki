@@ -554,6 +554,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - #670 task_20260906_huangyaoshi-card-status-flip｜huangyaoshi｜提审 09-07 02:47｜60_feedback/tasks/task_20260906_huangyaoshi-card-status-flip.md
 - #672 task_20260907_ouyangfeng-skilllog-merge｜ouyangfeng｜提审 09-07 03:02｜60_feedback/tasks/task_20260907_ouyangfeng-skilllog-merge.md
 - #671 task_20260907_huangyaoshi-dk-graph-index-gap｜huangyaoshi｜提审 09-07 03:09｜60_feedback/tasks/task_20260907_huangyaoshi-dk-graph-index-gap.md
+- #673 task_20260907_huangyaoshi-bundle-regen｜huangyaoshi｜提审 09-07 03:16｜60_feedback/tasks/task_20260907_huangyaoshi-bundle-regen.md
 
 <!-- REVIEW-PENDING-END -->
 
@@ -1256,7 +1257,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 670 | `task_20260906_huangyaoshi-card-status-flip` | 终审 PASS 后卡 status 自动翻转机制（#666 批 7 张停留 draft 实证——检索降权复现根因） | pending_review | huangyaoshi | 自动翻转实证+存量8张收口+回归不红 | 无 | `60_feedback/tasks/task_20260906_huangyaoshi-card-status-flip.md` | 老顽童 #668 发现（09-07）；欧阳锋终审 |
 | 671 | `task_20260907_huangyaoshi-dk-graph-index-gap` | graph_index 补录 dk 族 332 张（0/332 实证——图检索系统性失明，检索失明第三层根因） | pending_review | huangyaoshi | path_map 332/332+抽5召回+覆盖率探针 | 无 | `60_feedback/tasks/task_20260907_huangyaoshi-dk-graph-index-gap.md` | 欧阳锋建议书（09-07 王语嫣裁定立项 P1）；欧阳锋终审 |
 | 672 | `task_20260907_ouyangfeng-skilllog-merge` | 技能进化日志双轨合并（拼音轨唯一真相源，4行并入+context指针修正） | pending_review | ouyangfeng | 两轨合一无丢行+指针指向实证 | 无 | `60_feedback/tasks/task_20260907_ouyangfeng-skilllog-merge.md` | 欧阳锋自报建议书（王语嫣裁定采纳1+2）；欧阳锋终审 |
-| 673 | `task_20260907_huangyaoshi-bundle-regen` | bundle 备份过期 47.6h 处置（停摆排查+重新生成+阈值核实） | claimed-huangyaoshi | huangyaoshi | 新bundle+integrity PASS+节拍恢复 | 无 | `60_feedback/tasks/task_20260907_huangyaoshi-bundle-regen.md` | vault-integrity 探针告警（09-07 王语嫣立项）；欧阳锋终审 |
+| 673 | `task_20260907_huangyaoshi-bundle-regen` | bundle 备份过期 47.6h 处置（停摆排查+重新生成+阈值核实） | pending_review | huangyaoshi | 新bundle+integrity PASS+节拍恢复 | 无 | `60_feedback/tasks/task_20260907_huangyaoshi-bundle-regen.md` | vault-integrity 探针告警（09-07 王语嫣立项）；欧阳锋终审 |
 
 ## PROPOSAL-PENDING
 ### diag_20260826_ouyangfeng-source-refs-line-anchor-unreachable（2026-08-26 欧阳锋）
