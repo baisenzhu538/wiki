@@ -542,7 +542,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#656 task_20260906_huangyaoshi-channel-health-fallback｜huangyaoshi｜提审 09-06 12:16｜60_feedback/tasks/task_20260906_huangyaoshi-channel-health-fallback.md~~ → 已终审 PASS A-（2026-09-06 欧阳锋）
 - ~~#658 task_20260906_laowantong-encapsulation-t1｜laowantong｜提审 09-06 12:27｜60_feedback/tasks/task_20260906_laowantong-encapsulation-t1.md~~ → 已终审 PASS A-（2026-09-06 欧阳锋）
 - ~~#660 task_20260906_hongqigong-datapack-vision｜hongqigong｜提审 09-06 12:54｜60_feedback/tasks/task_20260906_hongqigong-datapack-vision.md~~ → 已终审 PASS A-（2026-09-06 欧阳锋）
-- #661 task_20260906_duanwangye-datapack-weblogin｜duanwangye｜提审 09-06 12:54｜60_feedback/tasks/task_20260906_duanwangye-datapack-weblogin.md
+- ~~#661 task_20260906_duanwangye-datapack-weblogin｜duanwangye｜提审 09-06 12:54｜60_feedback/tasks/task_20260906_duanwangye-datapack-weblogin.md~~ → 已终审 PASS A-（2026-09-06 欧阳锋）
 - ~~#659 task_20260906_laowantong-audit-batch1｜laowantong｜提审 09-06 13:06｜60_feedback/tasks/task_20260906_laowantong-audit-batch1.md~~ → 回声划销（09-06 13:15 王语嫣）：补五字段后提审成功，#659 现 pending_review（批 1a：124 条金矿+台账 A 级证伪+漏挖 22 项，王语嫣抽验双签已落）
 
 <!-- REVIEW-PENDING-END -->
@@ -1215,7 +1215,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 658 | `task_20260906_laowantong-encapsulation-t1` | 封装复盘 T1 生产：6 件高频基建 skill 壳（狗粮验收：新 agent 凭 skill 检索即可正确调用） | reviewed | laowantong | 6 SKILL.md+狗粮实测记录 | 无 | `60_feedback/tasks/task_20260906_laowantong-encapsulation-t1.md` | 老朱晨令；报告 diag_20260906_wangyuyan-encapsulation-gap-review；欧阳锋终审 |
 | 659 | `task_20260906_laowantong-audit-batch1` | 暗知识体检 A1 批：11 件零产出口述初挖（分三小批，金矿台账必附，王语嫣抽验双签） | reviewed | laowantong | 金矿台账+形态路由+覆盖率自评（分批提审） | 无 | `60_feedback/tasks/task_20260906_laowantong-audit-batch1.md` | 老朱漏挖检视令；台账 phase0-coverage-ledger；欧阳锋终审 |
 | 660 | `task_20260906_hongqigong-datapack-vision` | DataPack 试点一：识图金标准库（洪七公整理弹药，≥5金标准+≥5踩坑+置信对照） | reviewed | hongqigong | 四要素齐+真实案例有来源锚 | 无 | `60_feedback/tasks/task_20260906_hongqigong-datapack-vision.md` | 老朱 09-06 点名授权；欧阳锋终审 |
-| 661 | `task_20260906_duanwangye-datapack-weblogin` | DataPack 试点二：登录内容样本库（段王爷整理弹药，脱敏入库） | pending_review | duanwangye | 四要素齐+敏感信息脱敏 | 无 | `60_feedback/tasks/task_20260906_duanwangye-datapack-weblogin.md` | 老朱 09-06 点名授权；欧阳锋终审 |
+| 661 | `task_20260906_duanwangye-datapack-weblogin` | DataPack 试点二：登录内容样本库（段王爷整理弹药，脱敏入库） | reviewed | duanwangye | 四要素齐+敏感信息脱敏 | 无 | `60_feedback/tasks/task_20260906_duanwangye-datapack-weblogin.md` | 老朱 09-06 点名授权；欧阳锋终审 |
 
 ## PROPOSAL-PENDING
 ### diag_20260826_ouyangfeng-source-refs-line-anchor-unreachable（2026-08-26 欧阳锋）

@@ -2,15 +2,18 @@
 id: task_20260906_duanwangye-datapack-weblogin
 title: "DataPack 试点二：网络登录内容样本库（解析对照/反爬失败案例/字段抽取金标准，段王爷整理弹药）"
 seq: 661
-status: pending_review
+status: reviewed
 assignee: duanwangye
 created_by: wangyuyan
 created_at: 2026-09-06
 decision_source: 老朱 09-06 点名（段王爷把处理网络登录内容的工作流整理成 datapack）
 reviewer: 欧阳锋
 instance: duanwangye
-updated_at: '2026-09-06T04:54:46.778598+00:00'
+updated_at: '2026-09-06T05:29:58.520322+00:00'
 evidence: 40_outputs/capabilities/datapacks/duanwangye-weblogin-samples/README.md
+reviewed_by: 欧阳锋
+review_date: '2026-09-06'
+grade: A-
 ---
 
 # #661 DataPack 试点二：登录内容样本库（段王爷）
@@ -42,3 +45,28 @@ YAML frontmatter 4/4 可解析；脱敏红线扫描（MS4wLjA/wxid_/cookie=/toke
 
 **需要谁动作**
 欧阳锋终审（reviewer）。王语嫣：DataPack 台账+infrastructure-inventory 登记是否纳入其线（对齐稿 §四.5）；老顽童：#658 T1 skill 壳如需引用本包，挂载点见 README「使用说明」。
+
+
+## 终审记录（欧阳锋 2026-09-06 13:47）
+
+**verdict**：PASS
+**grade**：A-
+**methodology_version**：v2.3
+**blocking**：无
+
+**O0 溯源自检**：通读 README / gold-standard / field-extraction / pitfalls 四文件；抽查 12 处来源锚/产物/脚本全部存在；对全包跑敏感特征扫描（cookie=/token=/passphrase/wxid_/MS4wLjA/hy_token），确认零真实凭据入包。
+
+**实证核对（四要素 + 来源锚 + 脱敏重点核）**：
+- 四要素齐：①金标准 8 组（≥5）✅ ②踩坑 14 例（≥5）✅ ③对照数据（保留 11/可弃 7/禁止 6 类 + 质量四级）✅ ④使用说明 + 脱敏红线 ✅
+- 敏感脱敏【实证】：全包敏感特征扫描仅命中掩码示例（`share_token=***` 等）与判定规则本身，零真实 cookie/token/passphrase/wxid 值；`cookies.txt`「当前不在库」已显式标注（find 全采集目录 cookies*.txt 零命中），非假断言
+- 12 处产物/脚本/建议书锚全存在（含 5 个真实产物文件、wechat_link_monitor.py、douyin_cookie_extract.py、guide、skill、diag 建议书、duplicates-archive）【实证】
+
+**发现问题**：
+- 🔵 gold-standard.md 标题写「7 组」，正文实为 8 组（第 8 组为工具凭据镜像案例）——标题计数与执行报告「8 组」不一致【实证：frontmatter title vs 样本 1-8】
+- 🔵 datapacks 索引 README 仍留 `duanwangye-登录内容样本/`（待产）陈旧条目，与实际交付目录 `duanwangye-weblogin-samples/`（已产、pending_review→reviewed）不符——去向：待王语嫣（infrastructure/index 登记归其线，#661 未做项已声明归王语嫣线）【实证：40_outputs/capabilities/datapacks/README.md 在库表】
+
+**审查结论**：登录内容样本库四要素齐全、来源锚可复现、敏感信息脱敏重点核验通过（零真实凭据入包）、反爬风控面诚实声明（未遇验证码/滑块类主动风控，非假装有），达到 DataPack 试点标准。
+
+**residual_risks**：①vod 直链存活期未实测已标【推断】；②微信反爬策略时效为原厂书面承认「随时可能变化」；③whisper tiny 转写稿定级 🟡 的「错词应为」属上下文推断，引用专名前须回原音视频。
+
+**五维评分**：溯源完整 24/25、逻辑骨架 23/25、暗知识密度 19/20、可操作性 14/15、表达质量 13/15（标题计数小瑕），合计 93/100 → A-
