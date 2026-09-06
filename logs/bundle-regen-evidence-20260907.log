@@ -1,0 +1,31 @@
+=== #673 证据包 2026-09-07 03:15:41 ===
+--- [A] bundle 文件实测（D:/KDO-memory）:
+  wiki-bundle-20260905.bundle  2,096,614,948 bytes  mtime 2026-09-05 02:30:33  (age 48.8h)
+  wiki-bundle-20260907.bundle  2,103,560,619 bytes  mtime 2026-09-07 02:30:24  (age 0.8h)
+--- [B] 任务日志关键行（GBK 解码，09-05~09-07 节拍）:
+  [2026/09/05 周六  2:30:01.25] === wiki daily bundle start === 
+  [2026/09/05 周六  2:30:34.19] OK bundle=D:\KDO-memory\wiki-bundle-20260905.bundle HEAD=fb89c1c88c9860217ad617b2038cd62aa2217d28 
+  [2026/09/05 周六  2:30:34.87] OK .obsidian snapshot updated 
+  [2026/09/05 周六  2:30:52.26] cleanup: delete wiki-bundle-20260901.bundle 
+  [2026/09/05 周六  2:30:52.27] === wiki daily bundle done === 
+  [2026/09/05 周六  3:48:29.23] skip: not Monday, full bundle skipped (obsidian snapshot still runs) 
+  [2026/09/05 周六  3:48:29.23] cleanup: delete wiki-bundle-20260903.bundle 
+  [2026/09/05 周六  3:48:29.23] cleanup: delete wiki-bundle-20260902.bundle 
+  [2026/09/05 周六  3:48:29.24] === wiki bundle task done === 
+  [2026/09/06 周日  2:30:01.44] skip: not Monday, full bundle skipped (obsidian snapshot still runs) 
+  [2026/09/06 周日  2:30:01.45] === wiki bundle task done === 
+  [2026/09/07 周一  2:30:01.60] === wiki weekly bundle start (Monday) === 
+  [2026/09/07 周一  2:30:24.70] OK bundle=D:\KDO-memory\wiki-bundle-20260907.bundle HEAD=912c1b40a79e7ec38a2c4e25163f478bf23655bc 
+  [2026/09/07 周一  2:30:35.06] OK .obsidian snapshot updated 
+  [2026/09/07 周一  2:30:35.06] skip: not Monday, full bundle skipped (obsidian snapshot still runs) 
+  [2026/09/07 周一  2:30:35.08] cleanup: delete wiki-bundle-20260904.bundle 
+  [2026/09/07 周一  2:30:35.10] === wiki bundle task done === 
+--- [C] bat 周节拍闸门注释锚点（wiki-bundle-backup.bat）:
+  rem --- 2026-09-05 laozhu: weekly full bundle gate (Monday only) ---
+  rem --- rolling cleanup: keep newest 2 (weekly cadence, laozhu 2026-09-05) ---
+--- [D] vault-integrity-check 修复后实跑:
+  [1] vault: files=26150, issues=0
+  [2] bundle: wiki-bundle-20260907.bundle, issues=0
+  [3] offsite: issues=0
+  [RESULT] OK: vault+bundle+offsite all healthy
+  exit=0

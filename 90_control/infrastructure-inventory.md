@@ -183,8 +183,11 @@ audience: 全体 agent
 | kdo-quality-metrics | 每周一 06:35 | 质量指标周报（上周一~周日，#514 阶段 0 纯统计） | quality_metrics |
 | kdo-daily-review | 每日 23:37 | 四主力每日复盘计划任务化（#623：三角色 headless 复盘拉起+空班豁免 F-062；与 backup 30min 节拍错开；S4U 无窗硬纪律） | daily_review（经 kimi-headless-launch 拉起；laowantong/huangyaoshi/ouyangfeng） |
 | kdo-conversation-distill | 每日 23:50 | 对话蒸馏每日增量批次（#645 老朱 09-05 长期机制：三层分流+原文锚红线；S4U 无窗；与 daily-review 23:37 错开） | conversation_distill（kdo-conversation-distill.cmd 包装） |
+| kdo-wiki-bundle-backup | 每日 02:30（**周一=全量 bundle**，非周一 skip-only；09-05 老朱改：日全量 2GB/天×2盘 C盘95%） | wiki vault git bundle 备份（rolling 2+obsidian 快照+周一后异机副本；日志 D:\KDO-memory\wiki-bundle-daily.log） | wiki-bundle-backup.bat #589/#673 |
 
 **L1 断流判读口径（#513 落档，08-25 黄药师核查闭环）**：判读某源「断流」前必须三对照——①该源 sessions 存储目录在窗口期是否有 mtime 活动（无活动=正常空转，非断流）；②检查时刻距会话启动是否 <30min 采集节拍（节拍内未采到属正常滞后）；③kdo-l1-capture 各拍是否在 `90_control/l1-size.log` 连续在跑。kimi 源实证：CLI 活跃期间 wire.jsonl/state.json/logs 实时写盘（非退出才写），采集路径 `~/.kimi-code` 全目录覆盖 sessions/ 无缺口；08-24「7.5h 断流」实为无活动窗口+节拍内检查的复合误判（zip 内 workspaces.json=23:39 版本实证 00:07 拍已采到）。
+
+**bundle「过期/停摆」判读口径（#673 落档，09-07 黄药师核查闭环）**：判读 bundle 备份停摆前必须三对照——①`D:\KDO-memory\wiki-bundle-daily.log` 尾部有无当日 02:30 运行行（任务**每日**都跑：周一产 bundle，非周一合法 skip-only 不产 bundle）；②schtasks 上次结果是否 0；③`wiki-bundle-daily.last-result.txt` 是否 OK。已知故障族两条：**09-07「47.6h 过期」误报**——09-05 老朱改周节拍（周一 full bundle）后 vault-integrity-check 的 26h 阈值未同步，每周一 02:07 探针必然误报（02:07 探针在 02:30 拍前，bundle 龄恰 47.6h）；已改双层阈值（日志活性 26h+bundle 新鲜度 180h，停摆检测不降级）。**待办疑点**：bat 头注释写「Obsidian snapshot 仍每日跑」，实际 obsidian 快照代码在 `goto :daily_only` 之后仅周一执行（08-31 事故的盲点修复被周节拍静默削弱）——#673 边界外，待老朱拍板补日拍或改注释。
 
 ## 6 · 数据资产
 
