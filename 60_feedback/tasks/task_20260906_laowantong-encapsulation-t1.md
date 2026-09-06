@@ -1,16 +1,19 @@
 ---
-id: task_20260906_laowantong-encapsulation-t1
-title: "封装复盘 T1 生产：6 件高频基建 skill 壳（queue-transition/launch/复盘链/口述三件套/transcribe/采集面）"
-seq: 658
-status: pending_review
-assignee: laowantong
-created_by: wangyuyan
-created_at: 2026-09-06
-decision_source: 老朱 09-06 晨令「全库封装复盘+基础设施封装化」；报告=diag_20260906_wangyuyan-encapsulation-gap-review
-reviewer: 欧阳锋
-instance: laowantong
-updated_at: '2026-09-06T04:27:06.282562+00:00'
+id: task_20260906_laowantong-encapsulation-t1
+title: "封装复盘 T1 生产：6 件高频基建 skill 壳（queue-transition/launch/复盘链/口述三件套/transcribe/采集面）"
+seq: 658
+status: reviewed
+assignee: laowantong
+created_by: wangyuyan
+created_at: 2026-09-06
+decision_source: 老朱 09-06 晨令「全库封装复盘+基础设施封装化」；报告=diag_20260906_wangyuyan-encapsulation-gap-review
+reviewer: 欧阳锋
+instance: laowantong
+updated_at: '2026-09-06T04:55:14.365383+00:00'
 evidence: 60_feedback/tasks/task_20260906_laowantong-encapsulation-t1.md
+reviewed_by: 欧阳锋
+review_date: '2026-09-06'
+grade: A-
 ---
 
 # #658 T1 封装生产（老顽童）
@@ -72,3 +75,41 @@ evidence: 60_feedback/tasks/task_20260906_laowantong-encapsulation-t1.md
 ### ③ 负向判词 / ④ 存在性核查
 
 🔴 意见书含负向断言（不存在）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
+
+## 终审记录
+
+### 终审（欧阳锋 2026-09-06 12:54）——判定 PASS（A-）
+
+> methodology_version: v2.3 ｜ verdict: PASS ｜ grade: A- ｜ blocking: 无（🔵1 放行）｜ residual_risks: L1（channel-model-map 并发陈旧，见「发现问题」节）
+
+**四核裁定（逐条独立核验，断言三级标注）**
+
+1. **① 狗粮验收真做 ✅【实证】**：6/6 逐件复验，全部有实盘锚点——
+   - queue-transition：dogfood 时点（12:21）`myqueue laowantong` 显示 #658 🚧进行中，12:27 `cbd2bca17` complete→pending_review，快照与流转时序自洽；本会话复跑 `myqueue ouyangfeng` 只读视图正常。
+   - kimi-headless-launch：`logs/channel-health.log` 12:21:00 一行 `"decision":"laowantong->全死不硬派"` + results 四工具全 `force_dead` + hermes `"同上游 kimi 已判定，未重复探测"`（同上游去重生效）；`90_control/todos/laowantong.md` 12:21 三行【通道预检 #656】（全死/探测明细/应急直通）在场。
+   - review-chain：本会话独立复跑 `python kdo-tools/review-check.py --agent laowantong` → 「🟡 B级 (16105B) — 11/11章 ✅已检索，未达A: 深度未过: epiphany_reversal」，与执行报告逐字吻合。
+   - oral-transcript-trio：本会话独立复跑 `scan-demo-sections.py <AI大航海20260905口述稿>` → 「32 处操作演示段落」+ L76/L134/L138 带信号词命中；`_processed/` 双产物在场（`_索引.json` 508844B + `_主题索引.md` 1481857B）。
+   - transcribe-win：`_tmp/dogfood_transcribe.wav`（506760B）+ `_tmp/dogfood_transcribe_稿.md`（296B）在场，头部指纹 `模型: tiny | 设备: cpu | 引擎: faster-whisper 1.2.1 | 时长: 11s | 耗时: 2s`，正文 3 段带 `[mm:ss]`；tiny 乱码实证「老顽童的转写狗粮实测」→「老丸同的专写够凉石测」反向验证选档纪律。
+   - intake-registry：`production-queue.md` PROPOSAL-PENDING 段 +3 friction 划销行在场（1180/1181/1184），watch_inbox/conveyor_probe 幂等口径与脚本头注一致。
+
+2. **② 六件覆盖齐 ✅【实证】**：`40_outputs/capabilities/skills/shared/` 下 6 个壳目录齐全（queue-transition/kimi-headless-launch/review-chain/oral-transcript-trio/transcribe-win/intake-registry）；`INDEX.md` 头注「共 85 个 skill」（79→85），6 新条目 #37/#39/#44/#47/#65/#80 与执行报告口径一致；`MOUNT-MATRIX.md` + `SKILL-HEALTH.md` 各 6 行登记在场；每件均含 何时用/怎么调（命令+参数表）/边界与红线/常见坑（症状→修复）/失败模式/相关协议与卡 + frontmatter `trigger.natural_language` 触发词。
+
+3. **③ 壳内踩坑链接真指 dk/协议 ✅【实证】**：6 壳「相关协议与卡」节引用的 12 个文件逐个 `Test-Path` 全存在——`90_control/file-flow-protocol.md`、`90_control/agent-behavior-constitution.md`、`.agent/laowantong-context.md`、`90_control/kdo-industrialization-manual.md`、`.agent/pitfalls.md`（P-7/P-31）、`shared/nine-layer-deep-dig/SKILL.md`、`60_feedback/tasks/task_20260906_huangyaoshi-transcribe-timeout-and-aliases.md`（#649）、`90_control/conveyor-probes-contract.md`、`60_feedback/tasks/task_20260906_huangyaoshi-channel-health-fallback.md`（#656）、`agents/agent-os.md`、`90_control/tool-card-excellence-standard.md`、`30_wiki/frameworks/framework-encapsulation-methodology.md`；坑表锚点 #645/#647/#650/#655/#649/#651/#444/E019/E059/F-034/E040 均为任务单/门禁留痕可溯，无死链。
+
+4. **④ 不改脚本本体 ✅【实证】**：`git status --porcelain` 对 8 个底层脚本（queue_transition/kimi-headless-launch/channel_health/daily-context-save/review-check/scan-demo-sections/transcript-index/transcribe_win/watch_inbox/conveyor_probe）全空（无未提交改动）；#658 三个 commit（3d77b311a/20d5c475d/cbd2bca17）`git show --stat` 触碰文件仅 INDEX/MOUNT-MATRIX/SKILL-HEALTH + 6 SKILL.md + 任务单 + todos/laowantong + dashboard/production-queue，**零脚本**；脚本最近提交史为 #655/#653/#651/#648/#647（均 huangyaoshi），与 #658 无关。拉起器未真实拉起（--force-dead 测试钩替代）与 transcribe 合成音频（非真实长视频）两处边界声明诚实，且理由成立（无单硬拉烧 token/库内无小音频）。
+
+### 发现问题（放行）
+
+- 🔵 L1：`channel-model-map.md` 负向判词属并发陈旧——执行报告「vault 内不存在」与 kimi-headless-launch 壳坑表「未落盘」在其观察时刻为真（#656 落地前），但 #656 已于 12:15:37（commit 4282b4738）创建该文件并闭环 relay/GLM 账号问题，早于 #658 提审（12:27），故「需要谁动作 ① 黄药师补落该表」已冗余（#656 已交付）。非伪造（laowantong 的 `find` 3 引用 0 实体为真实观察），非脚本越界（未擅自补文件，交 #656 归属，行为正确）。**落点**：王语嫣裁量时知悉该表已由 #656 落盘；SKILL.md 坑表「未落盘」行可留待下一轮 skill 迭代顺手更新为「已落盘，真相源=本表+channel_health.TOOL_UPSTREAM」。
+
+### **存在性核查**
+
+- 「脚本零改动」核查：`git status --porcelain -- <8 脚本路径>` 输出空；`git show 3d77b311a --stat` 无任何 `90_control/scripts/` 或 `kdo-tools/*.py` 路径。
+- 「channel-model-map 已落盘」核查：`Get-Item 90_control/channel-model-map.md` 在场（6519B，LastWriteTime 12:44:56）；`git log --format='%h %ci %s' -- 90_control/channel-model-map.md` 首 commit 4282b4738=12:15:37（#656 黄药师），次 86b25e922=12:25:58（MiniMax 行），三 47b48edfa=12:46:28（王语嫣收口）；`git show 4282b4738:90_control/channel-model-map.md` 已含「关键结论（#656 待核实项闭环）」节，relay≠GLM、kimi/hermes 同墙已实证。
+- 「laowantong 观察时刻真」核查：`60_feedback/session-archives/2026-09-06/laowantong-1245.md:84` 载 `find . -name "channel-model-map*" 2026-09-06 实测：3 处引用 0 实体`——与其观察时点一致的存量引用为 #656 任务单/脚本 docstring/公告（均先于 12:15:37 的文件实体落盘），并发窗口成立。
+- 「12 引用文件存在」核查：逐一 `Test-Path` 全部返回 True（清单见四核③）。
+
+### 结论
+
+四核全过（狗粮 6/6 真做 / 六件覆盖齐 / 踩坑链接 12 文件全实 / 脚本零改动），无阻塞项；🔵1 项（channel-model-map 并发陈旧）放行，王语嫣裁量知悉即可。判定 **PASS，等级 A-**。
+
