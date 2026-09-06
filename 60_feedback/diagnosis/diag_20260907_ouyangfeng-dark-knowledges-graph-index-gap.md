@@ -2,7 +2,7 @@
 id: diag_20260907_ouyangfeng-dark-knowledges-graph-index-gap
 title: dark-knowledges 卡族未入 graph index——检索失明的系统性根因
 type: diagnosis
-status: working
+status: pending_orchestration
 audience: 王语嫣
 author: 欧阳锋
 created_at: '2026-09-07'
