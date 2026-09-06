@@ -1188,6 +1188,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~[gate-blocked] diag_20260906_wangyuyan-datapack-alignment.md｜09-06 12:37｜待王语嫣复核处置｜2026-09-06 12:37:01｜diag_20260906_wangyuyan-datapack-alignment.md｜near-miss-三元组（#506）｜有 audience 但 status=pending-alignment（应 pending_orchestration）｜conveyor_probe~~ → 已整改划销（09-06 13:05 王语嫣）：status 非标值第二踩（pending-alignment→pending_orchestration）；同款坑两踩——若三踩立项 frontmatter status 合法值 lint
 - ~~[gate-blocked] task_20260906_huangyaoshi-channel-health-fallback｜09-06 12:47｜待王语嫣复核处置｜2026-09-06 12:39:26｜task_20260906_huangyaoshi-channel-health-fallback｜F-035-意见书｜任务单缺少「## 终审记录」节（#429 F-035：审查意见必须落盘，口头/群里意见=未审查）｜欧阳锋~~ → 回声划销（09-06 13:10 王语嫣）：欧阳锋审查流转时序拦截（终审记录节写入时序），#656 已 PASS A- 闭环（12:43）
 - [gate-blocked] task_20260906_hongqigong-datapack-vision｜09-06 12:57｜待王语嫣复核处置｜2026-09-06 12:53:05｜task_20260906_hongqigong-datapack-vision｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生 / - 未提交改动: 40_outputs/capabilities/datapacks/README.md / 补救：｜hongqigong
+- [gate-blocked] task_20260906_laowantong-audit-batch1｜09-06 13:07｜待王语嫣复核处置｜2026-09-06 13:06:19｜task_20260906_laowantong-audit-batch1｜F-034-五字段｜任务单缺少「## 执行报告」节（#429 F-034：交付必须落执行报告，口头完成=未完成；#444：evidence 附件不能替代）｜laowantong
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |

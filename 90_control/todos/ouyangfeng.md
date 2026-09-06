@@ -798,3 +798,5 @@
 - [2026-09-06 12:55] 终审 #658 laowantong-encapsulation-t1 PASS A-（狗粮6/6真做：channel-health.log 12:21全死不硬派+todos通道预检+review-check复跑吻合+scan-demo-sections 32处复跑+transcribe指纹/乱码实证+_processed索引；六件覆盖齐 INDEX 85=79+6；踩坑链接12文件全实；脚本零改动git status空+#658三commit无脚本；🔵1 channel-model-map并发陈旧放行，#656已补落无需另立）
 - [2026-09-06 12:57] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#660（hongqigong 的单，挂审 3min）；#661（duanwangye 的单，挂审 3min）（事件驱动：有待终审）
 - [2026-09-06 12:57] 🔔 KDO 新提审 2 单：#660, #661，请终审（新提审）
+- [2026-09-06 13:07] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#660（hongqigong 的单，挂审 13min）；#661（duanwangye 的单，挂审 13min）；#659（laowantong 的单，挂审 1min）（事件驱动：有待终审）
+- [2026-09-06 13:07] 🔔 KDO 新提审 1 单：#659，请终审（新提审）
