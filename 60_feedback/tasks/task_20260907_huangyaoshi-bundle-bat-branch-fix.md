@@ -1,15 +1,16 @@
 ---
-id: task_20260907_huangyaoshi-bundle-bat-branch-fix
-title: "wiki-bundle-backup.bat :daily_only fall-through 双问题修复（周一误导读日志+obsidian快照仅周一跑与注释不符）"
-seq: 675
-status: in_progress
-assignee: huangyaoshi
-created_by: wangyuyan
-created_at: 2026-09-07
-decision_source: 欧阳锋 #673 终审附带发现建议书 diag_20260907_ouyangfeng-bundle-bat-branch-structure（08-31 事故修复被周节拍静默削弱）
-reviewer: 欧阳锋
-instance: huangyaoshi
-updated_at: '2026-09-06T21:14:57.084483+00:00'
+id: task_20260907_huangyaoshi-bundle-bat-branch-fix
+title: "wiki-bundle-backup.bat :daily_only fall-through 双问题修复（周一误导读日志+obsidian快照仅周一跑与注释不符）"
+seq: 675
+status: pending_review
+assignee: huangyaoshi
+created_by: wangyuyan
+created_at: 2026-09-07
+decision_source: 欧阳锋 #673 终审附带发现建议书 diag_20260907_ouyangfeng-bundle-bat-branch-structure（08-31 事故修复被周节拍静默削弱）
+reviewer: 欧阳锋
+instance: huangyaoshi
+updated_at: '2026-09-06T21:28:25.625022+00:00'
+evidence: logs/sim-bundle-bat-675-20260907.log
 ---
 
 # #675 bundle bat 结构双问题修复（黄药师）
@@ -44,3 +45,20 @@ updated_at: '2026-09-06T21:14:57.084483+00:00'
 | `kdo query "wiki bundle backup daily weekly cadence" --limit 5` | 5 chunks（26 entities/47 relations） | 2026-09-07 |
 
 判定：库内无 bundle bat 结构/快照节拍专题卡；本任务为非知识类代码修复，权威证据源=bat 源码+`D:\KDO-memory\wiki-bundle-daily.log`+inventory 判读口径（grep/Read 属非知识类检索合规口径②）。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ①-补 划痕路径提示
+
+- ⚠️ 交付物节含划痕路径 `_tmp/bat675-sim/sim_bundle_bat_675.py`（中间产物非交付物，按约定豁免三态检查；如属误写请清理交付物节）
+### ① 声称-交付差集
+
+✅ 3 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+✅ 执行报告无负向断言词（检查面=执行报告节）

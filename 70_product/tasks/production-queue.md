@@ -556,6 +556,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#671 task_20260907_huangyaoshi-dk-graph-index-gap｜huangyaoshi｜提审 09-07 03:09｜60_feedback/tasks/task_20260907_huangyaoshi-dk-graph-index-gap.md~~ → 已终审 PASS A-（2026-09-06 欧阳锋）
 - ~~#673 task_20260907_huangyaoshi-bundle-regen｜huangyaoshi｜提审 09-07 03:16｜60_feedback/tasks/task_20260907_huangyaoshi-bundle-regen.md~~ → 已终审 PASS A-（2026-09-06 欧阳锋）
 - ~~#674 task_20260907_huangyaoshi-pathmap-key-hardening｜huangyaoshi｜提审 09-07 04:32｜60_feedback/tasks/task_20260907_huangyaoshi-pathmap-key-hardening.md~~ → 回声划销（09-07 04:45 王语嫣）：补 commit 后提审成功，#674 现 pending_review
+- #675 task_20260907_huangyaoshi-bundle-bat-branch-fix｜huangyaoshi｜提审 09-07 05:28｜60_feedback/tasks/task_20260907_huangyaoshi-bundle-bat-branch-fix.md
 
 <!-- REVIEW-PENDING-END -->
 
@@ -1268,7 +1269,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 672 | `task_20260907_ouyangfeng-skilllog-merge` | 技能进化日志双轨合并（拼音轨唯一真相源，4行并入+context指针修正） | reviewed | ouyangfeng | 两轨合一无丢行+指针指向实证 | 无 | `60_feedback/tasks/task_20260907_ouyangfeng-skilllog-merge.md` | 欧阳锋自报建议书（王语嫣裁定采纳1+2）；欧阳锋终审 |
 | 673 | `task_20260907_huangyaoshi-bundle-regen` | bundle 备份过期 47.6h 处置（停摆排查+重新生成+阈值核实） | reviewed | huangyaoshi | 新bundle+integrity PASS+节拍恢复 | 无 | `60_feedback/tasks/task_20260907_huangyaoshi-bundle-regen.md` | vault-integrity 探针告警（09-07 王语嫣立项）；欧阳锋终审 |
 | 674 | `task_20260907_huangyaoshi-pathmap-key-hardening` | graph_state path_map 改 path/id 键根除同标题撞车（13 张溯源丢失，欧阳锋根因定位） | reviewed | huangyaoshi | 重建后无撞车+13张可溯源+探针concepts清零+回归不红 | #673 后（同角色排队） | `60_feedback/tasks/task_20260907_huangyaoshi-pathmap-key-hardening.md` | 欧阳锋建议书三连（09-07 王语嫣立项）；欧阳锋终审 |
-| 675 | `task_20260907_huangyaoshi-bundle-bat-branch-fix` | bundle bat :daily_only fall-through 双问题修复（周一误导读日志+obsidian快照仅周一与注释不符） | claimed-huangyaoshi | huangyaoshi | 两天模拟日志如实+快照对齐+回归 | #674 后（同角色排队） | `60_feedback/tasks/task_20260907_huangyaoshi-bundle-bat-branch-fix.md` | 欧阳锋 #673 终审附带发现（09-07 王语嫣立项）；欧阳锋终审 |
+| 675 | `task_20260907_huangyaoshi-bundle-bat-branch-fix` | bundle bat :daily_only fall-through 双问题修复（周一误导读日志+obsidian快照仅周一与注释不符） | pending_review | huangyaoshi | 两天模拟日志如实+快照对齐+回归 | #674 后（同角色排队） | `60_feedback/tasks/task_20260907_huangyaoshi-bundle-bat-branch-fix.md` | 欧阳锋 #673 终审附带发现（09-07 王语嫣立项）；欧阳锋终审 |
 
 ## PROPOSAL-PENDING
 ### diag_20260826_ouyangfeng-source-refs-line-anchor-unreachable（2026-08-26 欧阳锋）
