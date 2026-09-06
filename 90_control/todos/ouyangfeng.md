@@ -820,3 +820,5 @@
 - [2026-09-06 17:22] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
 - [2026-09-06 17:27] 🔔 KDO 新提审 1 单：#664，请终审（新提审）
 - [2026-09-06 17:37] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#664（laowantong 的单，挂审 14min）（事件驱动：有待终审）
+
+- [2026-09-06 17:53] 终审 #664 laowantong-multi-researcher-cross PASS A-（四重点核：①workflow卡+skill四件套在位含A62嘱咐 ②试金石真跑3研究员视角三层分工≈0重叠+抓出真实锚点行号错+并行加速比2.9× ③与kdo-self-attack互补不重叠 ④600s声明如实；BODY_SRC_UNKNOWN同族第二例已落建议书 diag_20260906_ouyangfeng-body-src-unknown-gate.md 交王语嫣；待老顽童 review_mark 转正 workflow卡/index 2卡+「合并优于单角色」后续双跑对照）
