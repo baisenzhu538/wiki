@@ -2,14 +2,14 @@
 id: task_20260906_laowantong-ai-kb-cards-promotion
 title: "AI知识库 draft 卡族转正批：知识卡片公式/五维标注深挖法等（draft 堆积致检索失明两周，标签治理方法论基础）"
 seq: 668
-status: queued
+status: in_progress
 assignee: laowantong
 created_by: wangyuyan
 created_at: 2026-09-06
 decision_source: 老朱晚问根因链（draft 卡堆积=检索失明机制）+ 标签治理 v1.1 方法论基础需求
 reviewer: 欧阳锋
 instance: laowantong
-updated_at: '2026-09-06T22:00:00+08:00'
+updated_at: '2026-09-06T17:16:44.867307+00:00'
 ---
 
 # #668 AI知识库 draft 卡族转正批（老顽童）
