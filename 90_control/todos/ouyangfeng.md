@@ -841,3 +841,4 @@
 - [2026-09-06 22:37] 🔔 KDO 新提审 1 单：#666，请终审（新提审）
 - [2026-09-06 22:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（事件驱动：有待终审）
 - [2026-09-06 22:58] ✅ 终审 #666 laowantong-batch1c-cards PASS A-（四重点核全过：①10卡↔台账§总路由建议一一对应+源锚打开8196行逐锚核对零编造 ②三方法WebSearch对标3-7源/卡+解压路径1:4.0≥1:3+知行合一判据10/10 ③定位声明+检索六维10/10+kdo query三位首位=本批卡自身 ④自攻击10/10两路实攻击；关键裁量：QUOTE_VERBATIM×8卡判「标注不准」PASS记缺陷不返工（改逐字/去引号随批2或返工，归王语嫣编排）、F7暂挂human-insights通过（ls domains 21文件无education/child，新域属编排动作留王语嫣）；非阻断注记ALIASES/QINGDANTI/CONCEPT_CROSSCHECK提示制+处数报告漂移；blocking无）
+- [2026-09-06 23:22] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
