@@ -175,6 +175,8 @@ audience: 全体 agent
 | kdo-health-daily | 每日 02:07 | 健康检查（9 项+标签健康） | health-check |
 | KDO-Health-Check | 每日 08:47 | 健康检查计划任务（#364 漂移巡检） | health-check |
 | wechat-link-monitor | 每 10 分钟 | 微信链接监测（偶遇采集） | wechat_link_monitor |
+| datapacks 库 | 按需 | 厂级领域弹药库（金标准/踩坑/对照数据；#660/#661 双试点 PASS） | 40_outputs/capabilities/datapacks/ |
+| channel-model-map + channel_health | 每次拉起预检 | 通道-真实供应商台账+健康预检 fallback（#656 PASS A-） | 90_control/channel-model-map.md + scripts/channel_health.py |
 | kdo-daily-audit-digest | 每日 06:00 | 每日审计轮段①抽数（四原料→D 盘 digest） | daily-audit-digest |
 | kdo-l1-archive | 每日 06:00 | L1 旧天日期目录 zip 归档（核验覆盖才删目录 #508） | l1_capture --archive |
 | kdo-quality-metrics | 每周一 06:35 | 质量指标周报（上周一~周日，#514 阶段 0 纯统计） | quality_metrics |
