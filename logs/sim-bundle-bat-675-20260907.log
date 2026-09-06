@@ -1,0 +1,38 @@
+=== #675 bat two-day sim | label=red-against-current-bat | bat=90_control/scripts/wiki-bundle-backup.bat ===
+seams applied: S1 WIKI, S2 DEST, S3 weekday-stub, S4 offsite-stub
+rc: Sunday=0 Monday=0
+[PASS] S1 Sunday: skip line present exactly once
+[PASS] S2 Sunday: no weekly start / no OK bundle
+[FAIL] S3 Sunday: snapshot updated line
+[FAIL] S4 Sunday: snapshot dir really written
+[FAIL] S5 Sunday: skip wording truthfully implies snapshot ran | [2026/09/07 ��һ  5:24:18.94] skip: not Monday, full bundle skipped (obsidian snapshot still runs)
+[PASS] M1 Monday: weekly start line
+[PASS] M2 Monday: OK bundle line
+[FAIL] M3 Monday: NO skip line after Monday start (fall-through fixed)
+[PASS] M4 Monday: snapshot updated line
+[PASS] M5 Monday: snapshot content is day2 (fresh copy each run)
+[PASS] M6 Monday: offsite seam stub fired (real Nutstore untouched)
+[PASS] M7 Monday: cleanup keep-2 (one delete line, 2 bundles remain) | bundles=['wiki-bundle-20260904.bundle', 'wiki-bundle-20260907.bundle']
+[PASS] M8 Monday: bundle verify passes
+[PASS] M9 both runs: done line twice, rc==0 both
+VERDICT: RED (10/14 passed)
+
+=== #675 bat two-day sim | label=green-after-fix | bat=90_control/scripts/wiki-bundle-backup.bat ===
+seams applied: S1 WIKI, S2 DEST, S3 weekday-stub, S4 offsite-stub
+rc: Sunday=0 Monday=0
+[PASS] S1 Sunday: skip line present exactly once
+[PASS] S2 Sunday: no weekly start / no OK bundle
+[PASS] S3 Sunday: snapshot updated line
+[PASS] S4 Sunday: snapshot dir really written
+[PASS] S5 Sunday: skip wording truthfully implies snapshot ran | [2026/09/07 ��һ  5:25:17.90] skip: not Monday, full bundle skipped (.obsidian snapshot + cleanup still run)
+[PASS] M1 Monday: weekly start line
+[PASS] M2 Monday: OK bundle line
+[PASS] M3 Monday: NO skip line after Monday start (fall-through fixed)
+[PASS] M4 Monday: snapshot updated line
+[PASS] M5 Monday: snapshot content is day2 (fresh copy each run)
+[PASS] M6 Monday: offsite seam stub fired (real Nutstore untouched)
+[PASS] M7 Monday: cleanup keep-2 (one delete line, 2 bundles remain) | bundles=['wiki-bundle-20260904.bundle', 'wiki-bundle-20260907.bundle']
+[PASS] M8 Monday: bundle verify passes
+[PASS] M9 both runs: done line twice, rc==0 both
+VERDICT: GREEN (14/14 passed)
+

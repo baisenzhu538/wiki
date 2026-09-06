@@ -2,7 +2,7 @@
 rem ============================================================
 rem #589 wiki vault daily bundle backup (incident anti-recurrence)
 rem Schedule: daily 02:30 (offset from 02:00 incident window), S4U no-window
-rem Keeps rolling >=4 bundles, logs to %LOG%, exit code file for verification
+rem Keeps rolling 2 weekly bundles, logs to %LOG%, exit code file for verification
 rem ============================================================
 setlocal enabledelayedexpansion
 set "GIT=C:\Program Files\Git\cmd\git.exe"
@@ -16,10 +16,18 @@ set "BUNDLE=%DEST%\wiki-bundle-%TODAY%.bundle"
 
 rem --- 2026-09-05 laozhu: weekly full bundle gate (Monday only) ---
 rem Daily full bundle grew to ~2GB/day x2 disks (C: offsite copy kept 3) -> C: 95%.
-rem Obsidian snapshot + pruning still run DAILY; full bundle only on Monday.
+rem Full bundle + offsite copy: Monday only. .obsidian snapshot + rolling cleanup:
+rem EVERY day (#675 -- the 08-31 .obsidian blind-spot fix must not be weakened by the
+rem weekly gate; snapshot is KB-MB scale, the 2GB/day disk pressure does not apply).
+rem #675: labels split -- :monday_full (weekly path) vs :daily_tasks (daily tail).
+rem The old :daily_only label did double duty: Monday also fell through it and
+rem logged a false "skip: not Monday" line (09-07 daily.log evidence).
 for /f %%w in ('powershell -NoProfile -Command "(Get-Date).DayOfWeek"') do set "WD=%%w"
-if /i not "%WD%"=="Monday" goto :daily_only
+if /i "%WD%"=="Monday" goto :monday_full
+echo [%DATE% %TIME%] skip: not Monday, full bundle skipped (.obsidian snapshot + cleanup still run) >> "%LOG%"
+goto :daily_tasks
 
+:monday_full
 echo [%DATE% %TIME%] === wiki weekly bundle start (Monday) === >> "%LOG%"
 
 rem --- create bundle (all refs) ---
@@ -64,7 +72,9 @@ if errorlevel 1 (
     echo [%DATE% %TIME%] WARN: offsite step2 failed, main backup unaffected >> "%LOG%"
 )
 
-rem --- .obsidian snapshot (not git-tracked by design: multi-device sync concerns, 05-02 ab2bd33ba) ---
+:daily_tasks
+rem --- .obsidian snapshot: EVERY day (#675 cadence realigned to the 08-31 blind-spot fix) ---
+rem (not git-tracked by design: multi-device sync concerns, 05-02 ab2bd33ba)
 rem 08-31 incident proved .obsidian is a backup blind spot (config total loss, zero recovery).
 rem Git tracking stays OFF (per-machine config). This is a per-machine rolling snapshot only.
 set "OBS_SNAP=%DEST%\obsidian-snapshot"
@@ -78,10 +88,7 @@ if "%OBS_RESULT%"=="OK" (
     echo [%DATE% %TIME%] WARN: .obsidian snapshot failed, main bundle unaffected >> "%LOG%"
 )
 
-:daily_only
-echo [%DATE% %TIME%] skip: not Monday, full bundle skipped (obsidian snapshot still runs) >> "%LOG%"
-
-rem --- rolling cleanup: keep newest 2 (weekly cadence, laozhu 2026-09-05) ---
+rem --- rolling cleanup: keep newest 2 (laozhu 2026-09-05; runs daily, deletes only when >2) ---
 set /a COUNT=0
 for /f "delims=" %%f in ('dir /b /o-n "%DEST%\wiki-bundle-2*.bundle" 2^>nul') do (
     set /a COUNT+=1
