@@ -1,16 +1,19 @@
 ---
-id: task_20260906_laowantong-ai-kb-cards-promotion
-title: "AI知识库 draft 卡族转正批：知识卡片公式/五维标注深挖法等（draft 堆积致检索失明两周，标签治理方法论基础）"
-seq: 668
-status: pending_review
-assignee: laowantong
-created_by: wangyuyan
-created_at: 2026-09-06
-decision_source: 老朱晚问根因链（draft 卡堆积=检索失明机制）+ 标签治理 v1.1 方法论基础需求
-reviewer: 欧阳锋
-instance: laowantong
-updated_at: '2026-09-06T17:43:55.846213+00:00'
+id: task_20260906_laowantong-ai-kb-cards-promotion
+title: "AI知识库 draft 卡族转正批：知识卡片公式/五维标注深挖法等（draft 堆积致检索失明两周，标签治理方法论基础）"
+seq: 668
+status: reviewed
+assignee: laowantong
+created_by: wangyuyan
+created_at: 2026-09-06
+decision_source: 老朱晚问根因链（draft 卡堆积=检索失明机制）+ 标签治理 v1.1 方法论基础需求
+reviewer: 欧阳锋
+instance: laowantong
+updated_at: '2026-09-06T18:08:01.903037+00:00'
 evidence: logs/pre-submit-task668-aikb11-20260907.log
+reviewed_by: 欧阳锋
+review_date: '2026-09-06'
+grade: A-
 ---
 
 # #668 AI知识库 draft 卡族转正批（老顽童）
@@ -94,3 +97,55 @@ kdo query 实证：`framework-AI知识库-知识卡片公式`（两段式模板�
 ### ③ 负向判词 / ④ 存在性核查
 
 🔴 意见书含负向断言（缺失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
+---
+
+
+## 终审记录
+
+**终审人**：欧阳锋
+**终审日期**：2026-09-07
+**结论**：PASS A-
+**methodology_version**：v2.3
+**blocking**：无
+**residual_risks**：L598 行锚 off-by-2（实 L600）；查重摘要③对「隐性知识显性化」组措辞过强（检索记录#9 已如实）；dk 隐性知识显性化60分原则卡语义检索不可达（dark-knowledges 全量 0/332 未入 graph index，独立建议书已落）；卡内硬换行格式瑕疵
+**scores（五维）**：溯源完整 22/25 · 逻辑骨架 24/25 · 暗知识密度 19/20 · 可操作性 14/15 · 表达质量 12/15 ≈ 91/100
+
+### 四重点核查（逐项实证）
+
+**① 四节补齐 v1.1 试行口径**：通过。11/11 卡 frontmatter 含 reuse_direction（v1.1 必填）+ quality_score（8-9 自评试行），正文含「复用指引（标签治理 v1.1）」节且三节骨架（适用场景/可复用方式/注意事项，清单体）齐备；permission_scope 未加正确（v1.1 §二·六 增补清单不含该字段，留规范侧定夺——生产者边界声明在案）。复用指引内容由卡内已有节提炼、零虚构（抽读知识卡片公式/五维标注深挖法/传承溯源/原子化拆分/四关键词/双原则/60分原则 7 卡逐节对照，内容均可在卡内定位）。
+
+**② CONCEPT_CROSSCHECK×11 裁量**：通过（#542 提示制不拦截）。独立复跑 kdo pre-submit 11/11 PASS、0 FAIL、WARNING=CONCEPT_CROSSCHECK×11（ALIASES/POSITION_DECLARATION/QUOTE_VERBATIM/SOURCE_RANGE 均已清零，生产者「全修复」声称实证成立）。逐条核对所涉概念两类：一是通用词（知识库→framework-kdo-mcp-server / 知识管理→yt-management-team-knowledge / control、review、逐字稿），对权威定义无语义冲突；二是本批自产概念（半肥猫/标签示例/原子化/知识卡片公式/五阶段演进），权威定义指向本批卡自身——批量引入新概念的正常形态。唯一近邻 AI知识库 alias 重叠 concept-ai-style-knowledge-docs（08-16 另一源「AI Style 新型知识文档」），邻域不同不冲突。与 #666 先例（CONCEPT_CROSSCHECK×10 提示制）口径一致。
+
+**③ 查重证据（四组同义扩展）**：结论成立（无同主题旧卡）。独立 kdo query 复核四组：知识资产四象限→首位 framework-AI知识库-四象限资产[0.20]；工作流节点拆细→首位 framework-AI知识库-Workflow六要素[0.20]；AI知识库演进→首位 framework-AI知识库-五阶段演进[0.18]；隐性知识显性化→首位 framework-一堂-六大优化原则[0.18]（非本批卡，但无同主题旧卡）。生产者检索记录 #9 已如实写「无本卡主题重复」，摘要③「四组首位均本批卡自身」对该组措辞过强（见非阻断注记），查重结论不受影响。
+
+**④ 自攻击证据**：通过。严重 2 条已修（「20 年商业经验」拔高→「一二十年积累」附口述 L1476 锚；L598 释义转述包装成引文→改转述+附逐字原话），轻微 3 条修 2 留 1（CONCEPT_CROSSCHECK 提示制）；机械核查 related 60 条死链 0、source 44 条缺文件 0、引语锚点抽验回验 3/3。本终审独立打开源文件逐行核对 L48-62（传承）/L582-598（五维标注）/L2636-2638（双原则）/L1004-1014（60分）/L1382-1390（QBD2）均为真实源内容，零编造。
+
+### 存在性核查（宪法第二条：负向判词逐条附锚）
+
+| 负向判词 | 核查动作 | 锚点结果 |
+|:--|:--|:--|
+| 复用指引零虚构 | 抽读 7 卡复用指引三节对照卡内已有节 | 内容均可在卡内定位【实证】 |
+| permission_scope 未加 | 读 diag_20260906_wangyuyan-bfm-template-distilled.md §二·六 增补清单 | 清单无该字段，未加正确【实证】 |
+| 无同主题旧卡 | kdo query 四组独立复跑 | 首位均非同主题旧卡（3 组本批卡/1 组无关卡）【实证】 |
+| 源锚零编造 | 打开口述.txt 逐行核对 5 组锚 | 全数真实命中【实证】 |
+| L598 行锚漂移 | sed 逐行读口述.txt L597-601 | 引文实为 L600，卡标 L598【实证】 |
+| dark-knowledges 未入 graph index | 比对 graph_state.json path_map 与 30_wiki/dark-knowledges 332 文件 | 0/332 命中【实证】 |
+
+### 非阻断注记（内容级，走审查意见，不触发建议书）
+
+- L598 行锚 off-by-2（五维标注深挖法：引文「说白了就是标准的质量度…」实为口述.txt L600，卡标 L598）——引文真实且已标释义转述，仅行号漂移 2 行，随返工批或下批纠正。
+- 查重摘要③「四组首位均本批卡自身」与检索记录 #9「隐性知识显性化组=无本卡主题重复」内部口径不一致——结论（无同主题旧卡）不受影响，注记留痕。
+- dk-AI知识库-隐性知识显性化60分原则 卡语义检索不可达：独立 kdo query（隐性知识显性化 自动化 / 60分原则 隐性知识 / 其 id / 其标题）均未召回本卡。根因【实证】= dark-knowledges 全量 332 文件 0 入 graph index（graph_state.json path_map 比对），非本卡内容缺陷，属基础设施检索盲区——已落独立建议书 diag_20260907_ouyangfeng-dark-knowledges-graph-index-gap.md，不阻断本批内容转正。
+- 部分卡 frontmatter/正文硬换行致反引号路径断裂（如双原则卡复用指引 gold example 跨行）——格式瑕疵，不阻断。
+
+### kdo query 检索记录（宪法第六条，2026-09-07）
+
+| 检索词 | 命中 | 首位结果 | 备注 |
+|:--|:--|:--|:--|
+| 知识资产 四象限 私有事实 | Top 5 | framework-AI知识库-四象限资产（本批） | 无同主题旧卡 |
+| 隐性知识 显性化 自动化 | Top 4 | framework-一堂-六大优化原则（无关） | 无同主题旧卡 |
+| 工作流 节点拆细 小模型 | Top 5 | framework-AI知识库-Workflow六要素（本批） | 无同主题旧卡 |
+| AI 知识库 演进 阶段 | Top 5 | framework-AI知识库-五阶段演进（本批） | 无同主题旧卡 |
+| 60分原则 隐性知识 | Top 5 | framework-AI知识库-四象限资产 | dk 卡未召回（见注记） |
+
+> 检索目的：①独立复核查重结论（四组无同主题旧卡）；②复测生产者「检索失明清偿」声称（dk 卡未召回，根因=dark-knowledges 未入 graph index）。
