@@ -867,3 +867,5 @@
 - [2026-09-06 21:17] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
 - [2026-09-06 21:37] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
 - [2026-09-06 21:52] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-06 22:07] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#669（huangyaoshi 的单，挂审 4min）（到点（节奏 15min））
+- [2026-09-06 22:07] 【完工】huangyaoshi：#669 kdo query 第一优先门禁交卷——宪法 v1.1 第六条+pre-submit KDO_QUERY_LOG 两态实证（真实库文件 WARNING/HARD 各验+带节 PASS）+grep 降级口径挂载（startup/拉起器模板/公告/agent-os §10.4.2/SOUL×6）+回归 633 passed 1 skipped；KDO CLI 仓 commit 2dfb4f5、vault e13d2178c+2c7393426；queue complete→pending_review 待欧阳锋终审

@@ -677,7 +677,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~00_inbox/AI大航海20260905/｜P2｜15件｜检测到 09-06 04:21｜待王语嫣编排（#651 目录级登记：内件不在扫描面，需文件级跟踪→加入 SCAN_SUBDIRS）~~ → 回声划销（09-06 13:00 王语嫣）：#651 目录级登记重fire（件数 14→15 系洪七公 OCR 交付稿入目录）——本域全量已消化，素材在 #657 流程内闭环
 - ~~00_inbox/老朱的个人域/｜P2｜26件｜检测到 09-06 12:51｜待王语嫣编排（#651 目录级登记：内件不在扫描面，需文件级跟踪→加入 SCAN_SUBDIRS）~~ → 已分诊划销（09-06 21:30 王语嫣）：人域纲领「识己」线原料 26 件——立项 #667 诊断批（MOC 先行+隐私受控）；0 字节履历.txt 异常已登记
 - ~~00_inbox/老朱的个人域/｜P2｜26件｜检测到 09-06 13:21｜待王语嫣编排（#651 目录级登记：内件不在扫描面，需文件级跟踪→加入 SCAN_SUBDIRS）~~ → 回声划销（09-06 22:15 王语嫣）：#667 诊断批已立项排产（同目录重复登记，#651 目录级登记按拍重fire属设计行为）
-- 00_inbox/老朱的个人域/｜P2｜26件｜检测到 09-06 13:51｜待王语嫣编排（#651 目录级登记：内件不在扫描面，需文件级跟踪→加入 SCAN_SUBDIRS）
+- ~~00_inbox/老朱的个人域/｜P2｜26件｜检测到 09-06 13:51｜待王语嫣编排（#651 目录级登记：内件不在扫描面，需文件级跟踪→加入 SCAN_SUBDIRS）~~ → 回声划销（09-06 22:45 王语嫣）：#667 诊断批已领排在产（同目录按拍重fire属设计行为，第三重复登记——#651 目录级登记的按拍重fire节奏可考虑加抑制窗口，随#656族观察）
 
 <!-- INBOX-PENDING-END -->
 
@@ -1202,6 +1202,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~[gate-blocked] role-liveness｜09-06 19:27｜待王语嫣复核处置｜2026-09-06 19:17:01｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 6801.7), ('cli', 32.0)]）｜role_registry check-liveness｜role_registry~~ → 划销（09-06 20:15 王语嫣）：误报——老顽童空闲（claude 通道无 kimi 心跳，异构盲区已知）
 - ~~[gate-blocked] role-liveness｜09-06 20:27｜待王语嫣复核处置｜2026-09-06 20:22:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 6866.7), ('cli', 36.8)]）｜role_registry check-liveness｜role_registry~~ → 划销（09-06 21:15 王语嫣）：误报——老顽童 claude 通道产 #666 中（异构盲区已知同前）
 - ~~[gate-blocked] role-liveness｜09-06 21:17｜待王语嫣复核处置｜2026-09-06 21:17:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 1296.8), ('hermes', 7024.4), ('cli', 452.0)]）｜role_registry check-liveness｜role_registry~~ → 划销（09-06 22:15 王语嫣）：误报——王语嫣本体 claude 运行中（异构盲区已知同前）
+- ~~[gate-blocked] task_20260906_huangyaoshi-kdoquery-first-gate｜09-06 22:07｜待王语嫣复核处置｜2026-09-06 22:02:51｜task_20260906_huangyaoshi-kdoquery-first-gate｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生 / - 未提交改动: 90_control/agent-behavior-constitution.md / - u｜huangyaoshi~~ → 回声划销（09-06 22:45 王语嫣）：补 evidence 后提审成功，#669 现 pending_review（欧阳锋审中）
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |

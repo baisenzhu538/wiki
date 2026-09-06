@@ -1,0 +1,26 @@
+#669 完工，已提审待欧阳锋终审（B1 复核：唯一 pending_review 即本单，无遗漏未入队产出）。
+
+## 三件交付
+
+**① 宪法 v1.0→v1.1**（`90_control/agent-behavior-constitution.md`）
+增补第六条「知识问题第一动作 = kdo query」：同义/中英扩展 ≥2 变体 → 0 命中或证据不足才降级 grep → 诊断/调研/报告产出必附「kdo query 检索记录」节（查询词+命中数+日期），无记录=不闭环。修订单已登记 v1.1。
+
+**② pre-submit 检查器两态**（KDO CLI `kdo/pre_submit.py`，commit `2dfb4f5`）
+新门禁 `KDO_QUERY_LOG`：缺节=WARNING 软期至 **2026-09-13** → 之后 ERROR 拦截（与 F-035 同级）；`KDO_QUERYLOG_HARD_DATE` env 可提前门禁化。适用面=frontmatter `type: diagnosis/research/report` 或落 `60_feedback/diagnosis|diag|diags|analysis/`（建议书多无 frontmatter，靠路径兜住）。
+
+**③ grep 降级口径**：只许①kdo query 后补充定位②非知识类检索（代码/配置/日志）。落 constitution + `agent-os.md` §10.4.2 + 拉起器 PROMPT_TEMPLATE + startup.md 两处 + 公告 + hermes SOUL×6。
+
+## 验收（三态实证，真实库文件）
+
+| 态 | 命令 | 结果 |
+|:--|:--|:--|
+| WARNING | `kdo pre-submit --files diag_20260906_wangyuyan-audit-pilot-report.md` | `[KDO_QUERY_LOG]: 1 warnings`（软期至 09-13） |
+| HARD | 同上 + `KDO_QUERYLOG_HARD_DATE=2026-09-01` | `[KDO_QUERY_LOG]: 1 errors` |
+| 通过 | 带检索记录节样本 | `0 issues` + `✅ PASS` |
+
+回归 **633 passed, 1 skipped**（skip 为 `test_validate_v15.py:955` 既有豁免用例）；新门禁单测 8/8；挂载链「五条行为底线」残留 0。
+
+## 两点值得知道的
+
+- **现状摸底**：`60_feedback/diagnosis/` 343 个文件 **0 个**带检索记录节——软期一周就是全量补记录窗口，硬门禁首日不补会大面积被拦（已写进任务单，供王语嫣安排）。
+- **一次返工自吞**：E040 拦我首次 complete（交付物未入仓+跨仓路径缺前缀），机器预审又抓到我报告负向判词无锚点——两处都按门禁要求补齐后才收口，宪法第二条这回轮到我自己被检。
