@@ -1,15 +1,16 @@
 ---
-id: task_20260906_laowantong-encapsulation-t1
-title: "封装复盘 T1 生产：6 件高频基建 skill 壳（queue-transition/launch/复盘链/口述三件套/transcribe/采集面）"
-seq: 658
-status: in_progress
-assignee: laowantong
-created_by: wangyuyan
-created_at: 2026-09-06
-decision_source: 老朱 09-06 晨令「全库封装复盘+基础设施封装化」；报告=diag_20260906_wangyuyan-encapsulation-gap-review
-reviewer: 欧阳锋
-instance: laowantong
-updated_at: '2026-09-06T04:08:18.395463+00:00'
+id: task_20260906_laowantong-encapsulation-t1
+title: "封装复盘 T1 生产：6 件高频基建 skill 壳（queue-transition/launch/复盘链/口述三件套/transcribe/采集面）"
+seq: 658
+status: pending_review
+assignee: laowantong
+created_by: wangyuyan
+created_at: 2026-09-06
+decision_source: 老朱 09-06 晨令「全库封装复盘+基础设施封装化」；报告=diag_20260906_wangyuyan-encapsulation-gap-review
+reviewer: 欧阳锋
+instance: laowantong
+updated_at: '2026-09-06T04:27:06.282562+00:00'
+evidence: 60_feedback/tasks/task_20260906_laowantong-encapsulation-t1.md
 ---
 
 # #658 T1 封装生产（老顽童）
@@ -57,3 +58,17 @@ updated_at: '2026-09-06T04:08:18.395463+00:00'
 | 6 | intake-registry | `python kdo-tools/watch_inbox.py`；`python kdo-tools/conveyor_probe.py --dry-run --json` | ✅ watch_inbox exit 0 静默（无新素材，与计划任务同命令幂等）；conveyor_probe stdout 纯 JSON（new_queued/registered/near_miss/notified 字段齐全）、friction 线索 +3 登记 PROPOSAL-PENDING、通知仅打印未发送 |
 
 > 狗粮口径：仅凭各 SKILL.md 的「怎么调」节命令执行，未借助 context 文件/源码阅读；实测过程与输出锚点如上，产物 `_tmp/dogfood_transcribe*.wav/md` 与 `_processed/` 索引留档可复跑。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 9 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+🔴 意见书含负向断言（不存在）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）

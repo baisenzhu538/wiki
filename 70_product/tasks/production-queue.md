@@ -540,6 +540,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#653 task_20260906_huangyaoshi-e040-crossrepo-hint｜huangyaoshi｜提审 09-06 06:03｜60_feedback/tasks/task_20260906_huangyaoshi-e040-crossrepo-hint.md~~ → 已终审 PASS A-（2026-09-05 欧阳锋）
 - ~~#655 task_20260906_huangyaoshi-sequential-claim-window｜huangyaoshi｜提审 09-06 06:13｜60_feedback/tasks/task_20260906_huangyaoshi-sequential-claim-window.md~~ → 已终审 PASS A-（2026-09-05 欧阳锋）
 - #656 task_20260906_huangyaoshi-channel-health-fallback｜huangyaoshi｜提审 09-06 12:16｜60_feedback/tasks/task_20260906_huangyaoshi-channel-health-fallback.md
+- #658 task_20260906_laowantong-encapsulation-t1｜laowantong｜提审 09-06 12:27｜60_feedback/tasks/task_20260906_laowantong-encapsulation-t1.md
 
 <!-- REVIEW-PENDING-END -->
 
@@ -549,7 +550,6 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 
 > 王语嫣维护看板时处理：诊断 → 写任务单 → 入队后把对应行划掉。编排规则不变，这里只解决「没人被通知」。
 
-- ~~00_inbox/学习candy合集/尼尔·雷克汉姆：联结销售与营销（SPIN创始人）-视频逐字稿.md｜P2｜17398B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置沿用（09-02 王语嫣）：09-01 已诊（BV1JsgQzWEuD，ASR 差疑似管线测试流量）
 - ~~00_inbox/学习candy合集/技能：deep-debug深度调试技能.md｜P2｜9840B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：观察不立项——调试方法论与现有 skill 库重叠待复核，增量中等
 - ~~00_inbox/学习candy合集/指南：高阶 Skill 设计指南.md｜P2｜23837B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：已立项 #611
 - ~~00_inbox/学习candy合集/数据包：MUSE模型.md｜P2｜35685B｜检测到 09-01 17:51｜待王语嫣编排~~ → 已处置（09-02 王语嫣）：已立项 #611（上位框架级资产）
@@ -669,6 +669,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~00_inbox/_tmp_smile_chat_full.txt｜P2｜52725B｜检测到 09-06 03:31｜待王语嫣编排~~ → 挂起待老朱指令（09-06 12:10 王语嫣）：个人微信聊天记录导出（full/raw 同源双份，07-29~30 协议对齐话题，含手机号）——涉隐私不自动编排不删除（00_inbox 只增不删）；老朱若要入域分析（销售对话/人域）请口喷指令明确用途后走协议 9 通道
 - ~~00_inbox/_tmp_smile_chat_raw.txt｜P2｜8152B｜检测到 09-06 03:31｜待王语嫣编排~~ → 挂起待老朱指令（09-06 12:10 王语嫣）：个人微信聊天记录导出（full/raw 同源双份，07-29~30 协议对齐话题，含手机号）——涉隐私不自动编排不删除（00_inbox 只增不删）；老朱若要入域分析（销售对话/人域）请口喷指令明确用途后走协议 9 通道
 - ~~00_inbox/人机协作双三角/｜P2｜304件｜检测到 09-06 04:11｜待王语嫣编排（#651 目录级登记：内件不在扫描面，需文件级跟踪→加入 SCAN_SUBDIRS）~~ → 已裁定划销（09-06 12:30 王语嫣）：目录新增件=洪七公 OCR 交付稿，已入 #657 试金石流程（OCR 复核 PASS+19 金矿+6 条漏挖 dk 候选，报告 diag_20260906_wangyuyan-audit-pilot-report）
+- 00_inbox/AI大航海20260905/｜P2｜15件｜检测到 09-06 04:21｜待王语嫣编排（#651 目录级登记：内件不在扫描面，需文件级跟踪→加入 SCAN_SUBDIRS）
 
 <!-- INBOX-PENDING-END -->
 
@@ -1175,6 +1176,11 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~[gate-blocked] role-liveness｜09-06 11:37｜待王语嫣复核处置｜2026-09-06 11:37:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 6341.8), ('cli', 229.4)]）｜role_registry check-liveness｜role_registry~~ → 划销（09-06 12:10 王语嫣）：空闲期 liveness 误报（黄药师无 kimi 实例属正常，异构盲区已知）
 - ~~[gate-blocked] infra-liveness｜09-06 11:57｜待王语嫣复核处置｜2026-09-06 11:47:01｜infra-liveness｜基建停拍报警｜vault-backup｜非节拍 commit 11:37:59（格点 :20/:50 ±10min，窗内 1 个）——孤儿写手嫌疑（obsidian-git 10min 自备份同文模板，#631）｜conveyor_probe~~ → 划销（09-06 12:30 王语嫣）：非节拍 commit 系编排者即写即 commit 常设授权内的正常动作（昨夜今晨 90+ commit），非异常；backup 报警口径对「授权高频提交」的豁免可并入 #656 台账顺带
 - [gate-blocked] task_20260906_huangyaoshi-channel-health-fallback｜09-06 12:17｜待王语嫣复核处置｜2026-09-06 12:14:41｜task_20260906_huangyaoshi-channel-health-fallback｜F-034-五字段｜--evidence 文件不可读: channel_health.py 探针引擎+拉起器预检/fallback/全死不硬派+test_channel_health_656.py(11用例)+90_co｜huangyaoshi
+- [friction] [shared] - [2026-09-06 12:30][huangyaoshi][#656 提审] `queue_transition.py complete --evidence` 语义两连败：①漏 `--instance`（报错信息倒直白）；②evidence 是**文件路径**（佐证附件入 frontmatter）非内联文本，按内联传长文案被「文件不可读」拦 | 根因初判：参数名义上是 evidence 实际是 path，直觉用法（贴一段证据文字）与实现不符，且通用纪律示例只写 `--evidence ...` 没写类型 | 对策：evidence 传仓内真实佐证文件（本次=logs/channel-health.log）；建议 help 文案补「--evidence <文件路径>」字样｜09-06 12:21｜待王语嫣复核处置｜[shared] - [2026-09-06 12:30][huangyaoshi][#656 提审] `queue_transition.py complete --evidence` 语义两连败：①漏 `--instance`（报错信息倒直白）；②evidence 是**文件路径**（佐证附件入 frontmatter）非内联文本，按内联传长文案被「文件不可读」拦 | 根因初判：参数名义上是 evidence 实际是 path，直觉用法（贴一段证据文字）与实现不符，且通用纪律示例只写 `--evidence ...` 没写类型 | 对策：evidence 传仓内真实佐证文件（本次=logs/channel-health.log）；建议 help 文案补「--evidence <文件路径>」字样
+- [friction] [shared] - [2026-09-06 12:31][huangyaoshi][#656 收尾] `kdo-tools/daily-context-save.py --file 桌面/agent复盘/...`（角色 context 里的原文命令）从 wiki cwd 跑报「文件不存在」，换绝对路径才过 | 根因初判：脚本对相对路径按 cwd 解析、`桌面/` 不是 cwd 下真实目录，文档命令隐含了「从用户主目录跑」的语境 | 对策：记住用绝对路径；建议脚本对 `桌面/` 前缀做 ~ 兜底解析｜09-06 12:21｜待王语嫣复核处置｜[shared] - [2026-09-06 12:31][huangyaoshi][#656 收尾] `kdo-tools/daily-context-save.py --file 桌面/agent复盘/...`（角色 context 里的原文命令）从 wiki cwd 跑报「文件不存在」，换绝对路径才过 | 根因初判：脚本对相对路径按 cwd 解析、`桌面/` 不是 cwd 下真实目录，文档命令隐含了「从用户主目录跑」的语境 | 对策：记住用绝对路径；建议脚本对 `桌面/` 前缀做 ~ 兜底解析
+- [friction] [shared] - [2026-09-06 12:32][huangyaoshi][#656 入仓] E040 触发补 commit 时用了 `git add <6路径> && git commit -m`——未沿用 05:45 friction 的「手敲 commit 一律 pathspec」对策，裸 commit 若遇他人已 staged 内容会裹挟（本次核查仅 4 文件入账、无裹挟，属侥幸未遂） | 根因初判：E040 补救文案给的就是 `git add && git commit` 序列，与 05:45 对策相抵，照抄门禁提示忘了自己的教训 | 对策：下次直接 `git commit <paths> -m`；顺带建议 E040 补救文案改 pathspec 形态｜09-06 12:21｜待王语嫣复核处置｜[shared] - [2026-09-06 12:32][huangyaoshi][#656 入仓] E040 触发补 commit 时用了 `git add <6路径> && git commit -m`——未沿用 05:45 friction 的「手敲 commit 一律 pathspec」对策，裸 commit 若遇他人已 staged 内容会裹挟（本次核查仅 4 文件入账、无裹挟，属侥幸未遂） | 根因初判：E040 补救文案给的就是 `git add && git commit` 序列，与 05:45 对策相抵，照抄门禁提示忘了自己的教训 | 对策：下次直接 `git commit <paths> -m`；顺带建议 E040 补救文案改 pathspec 形态
+- [gate-blocked] role-liveness｜09-06 12:27｜待王语嫣复核处置｜2026-09-06 12:22:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 761.8), ('hermes', 6489.4), ('cli', 2022.1)]）｜role_registry check-liveness｜role_registry
+- [gate-blocked] task_20260906_laowantong-encapsulation-t1｜09-06 12:27｜待王语嫣复核处置｜2026-09-06 12:26:47｜task_20260906_laowantong-encapsulation-t1｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生 / - untracked: python 40_outputs/code/scripts/scan_skills_｜laowantong
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
@@ -1198,7 +1204,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 655 | `task_20260906_huangyaoshi-sequential-claim-window` | queue_transition 同执行者连续派工窗口：显式多单指令免 force（第3次复发工具化，F-050 族） | reviewed | huangyaoshi | 两单连发模拟不再 force+回归不红 | #653 后（同角色排队） | `60_feedback/tasks/task_20260906_huangyaoshi-sequential-claim-window.md` | 王语嫣 05:10 立项（friction 三连实证）；欧阳锋终审 |
 | 656 | `task_20260906_huangyaoshi-channel-health-fallback` | 拉起器通道健康预检+余额感知 fallback（F-073 落地）+通道-真实模型对照表 | pending_review | huangyaoshi | 坏key模拟自动fallback+通知/全死明确报错/回归不红 | 无 | `60_feedback/tasks/task_20260906_huangyaoshi-channel-health-fallback.md` | 老朱晨问立项（两墙连撞根治）；欧阳锋终审 |
 | 657 | `task_20260906_wangyuyan-audit-pilot-orgbehavior` | 暗知识体检试金石：AI组织行为学口述全量重挖（王语嫣亲读，完备性双签制首跑） | queued | wangyuyan | 金矿台账+体检报告+存量五态对账 | 无 | `60_feedback/tasks/task_20260906_wangyuyan-audit-pilot-orgbehavior.md` | 老朱晨令；计划 diag_20260906_wangyuyan-kb-darkknowledge-audit-plan；欧阳锋终审（抽源对照） |
-| 658 | `task_20260906_laowantong-encapsulation-t1` | 封装复盘 T1 生产：6 件高频基建 skill 壳（狗粮验收：新 agent 凭 skill 检索即可正确调用） | claimed-laowantong | laowantong | 6 SKILL.md+狗粮实测记录 | 无 | `60_feedback/tasks/task_20260906_laowantong-encapsulation-t1.md` | 老朱晨令；报告 diag_20260906_wangyuyan-encapsulation-gap-review；欧阳锋终审 |
+| 658 | `task_20260906_laowantong-encapsulation-t1` | 封装复盘 T1 生产：6 件高频基建 skill 壳（狗粮验收：新 agent 凭 skill 检索即可正确调用） | pending_review | laowantong | 6 SKILL.md+狗粮实测记录 | 无 | `60_feedback/tasks/task_20260906_laowantong-encapsulation-t1.md` | 老朱晨令；报告 diag_20260906_wangyuyan-encapsulation-gap-review；欧阳锋终审 |
 
 ## PROPOSAL-PENDING
 ### diag_20260826_ouyangfeng-source-refs-line-anchor-unreachable（2026-08-26 欧阳锋）
