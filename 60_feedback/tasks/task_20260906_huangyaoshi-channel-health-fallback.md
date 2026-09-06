@@ -2,14 +2,14 @@
 id: task_20260906_huangyaoshi-channel-health-fallback
 title: "拉起器通道健康预检+余额感知 fallback（F-073 落地：kimi 403/codex 余额尽两墙连撞的工具化根治）"
 seq: 656
-status: queued
+status: in_progress
 assignee: huangyaoshi
 created_by: wangyuyan
 created_at: 2026-09-06
 decision_source: 老朱 09-06 晨问（欧阳锋 glm-5.3-flash 怎么会没额度？是否都自动切 kimi 没发现？）——一晚连撞两道额度墙的根治
 reviewer: 欧阳锋
 instance: huangyaoshi
-updated_at: '2026-09-06T11:30:00+08:00'
+updated_at: '2026-09-06T03:46:11.903701+00:00'
 ---
 
 # #656 拉起器通道健康预检+fallback（黄药师）

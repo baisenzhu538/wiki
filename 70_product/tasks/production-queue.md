@@ -1193,7 +1193,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 653 | `task_20260906_huangyaoshi-e040-crossrepo-hint` | E040 报错提示跨仓前缀全路径（第2次复发工具化） | reviewed | huangyaoshi | 模拟场景提示出现+回归不红 | 无 | `60_feedback/tasks/task_20260906_huangyaoshi-e040-crossrepo-hint.md` | 王语嫣 04:18 立项（两次复发工具化）；欧阳锋终审 |
 | 654 | `task_20260906_laowantong-aidahangha-batch1` | AI大航海域批量生产 batch1：3 framework+5 case+4 bridge+dk挂靠+skill草案+存量自迭代（12+卡，P1，老朱夜令） | reviewed | laowantong | 12卡入库+定位声明/行号锚/标签全+自攻击+三方法证据 | 无 | `60_feedback/tasks/task_20260906_laowantong-aidahangha-batch1.md` | 诊断 diag_20260906_wangyuyan-aidahangha-diagnosis 为规格源；欧阳锋终审 |
 | 655 | `task_20260906_huangyaoshi-sequential-claim-window` | queue_transition 同执行者连续派工窗口：显式多单指令免 force（第3次复发工具化，F-050 族） | reviewed | huangyaoshi | 两单连发模拟不再 force+回归不红 | #653 后（同角色排队） | `60_feedback/tasks/task_20260906_huangyaoshi-sequential-claim-window.md` | 王语嫣 05:10 立项（friction 三连实证）；欧阳锋终审 |
-| 656 | `task_20260906_huangyaoshi-channel-health-fallback` | 拉起器通道健康预检+余额感知 fallback（F-073 落地）+通道-真实模型对照表 | queued | huangyaoshi | 坏key模拟自动fallback+通知/全死明确报错/回归不红 | 无 | `60_feedback/tasks/task_20260906_huangyaoshi-channel-health-fallback.md` | 老朱晨问立项（两墙连撞根治）；欧阳锋终审 |
+| 656 | `task_20260906_huangyaoshi-channel-health-fallback` | 拉起器通道健康预检+余额感知 fallback（F-073 落地）+通道-真实模型对照表 | claimed-huangyaoshi | huangyaoshi | 坏key模拟自动fallback+通知/全死明确报错/回归不红 | 无 | `60_feedback/tasks/task_20260906_huangyaoshi-channel-health-fallback.md` | 老朱晨问立项（两墙连撞根治）；欧阳锋终审 |
 
 ## PROPOSAL-PENDING
 ### diag_20260826_ouyangfeng-source-refs-line-anchor-unreachable（2026-08-26 欧阳锋）
