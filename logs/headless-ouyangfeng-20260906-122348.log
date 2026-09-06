@@ -9296,3 +9296,2689 @@ exec
 
 ???????????? / fallback ?? / ?????? / ?? 273 ??????????????? 2 ??tool ??? M1?relay ????? M2??? + ??????????? 3 ??5 ??????????? **PASS??? A-**?
 
+There's an encoding problem! The file now has mojibake (????) because my Python script wrote the file with `encoding="utf-8"` but... wait, the Select-String found no "终审记录" match, and the tail shows mojibake. This means the file was corrupted or the read/write encoding mismatched.
+
+Wait, actually the issue: I used a PowerShell here-string `@'...'@` piped to `python -`. The here-string contains Chinese characters. When PowerShell pipes the string to python's stdin, the encoding might be wrong (PowerShell default output encoding for piping to native processes could be GBK or the console codepage). Then Python read stdin as... actually my Python script has the Chinese text INSIDE the Python source (the `record = """..."""`). When Python reads the source from stdin, it decodes stdin using the default encoding (which on Windows might be cp936/GBK or cp1252). If PowerShell sends UTF-8 bytes but Python decodes as GBK or vice versa, mojibake results.
+
+The result: the appended text is mojibake (the Chinese chars became `?` or corrupted). The file got corrupted.
+
+Actually, looking more carefully: the tail shows `- ?????????grep` — the Chinese became `?`. This means the text was decoded with replacement characters or lost. The file is now corrupted.
+
+I need to FIX this. The file originally was fine (UTF-8). My append corrupted the tail. I need to:
+1. Check the extent of corruption. The original content (before my append) should still be intact, but my appended section is mojibake.
+2. Restore: I can use git to recover the original file content (the file was committed at 54bf53f4c, but there might be later modifications? The git status earlier showed production-queue.md modified but NOT the task file. So the task file's committed version (54bf53f4c or later) should be clean).
+
+Wait, let me check: is the task file committed and clean? Earlier git status showed:
+```
+ M .agent/friction-log.md
+ M 70_product/tasks/archive/inbox-pending-overflow.md
+ M 70_product/tasks/production-queue.md
+ M 90_control/gate-blocked.log
+ M 90_control/role-registry.json
+ M 90_control/todos/wangyuyan.md
+ M kdo-tools/__pycache__/...
+ M logs/channel-health.log
+ M logs/headless-huangyaoshi-...log
+ M logs/role-clock.log
+ M logs/vault-git-backup.log
+?? logs/headless-ouyangfeng-20260906-122348.log
+```
+
+The task file `60_feedback/tasks/task_20260906_huangyaoshi-channel-health-fallback.md` was NOT in the modified list, meaning it was clean (committed) before my append. Now my append corrupted it.
+
+So I can restore it with `git checkout -- 60_feedback/tasks/task_20260906_huangyaoshi-channel-health-fallback.md` to get back to the committed version, then re-append CORRECTLY.
+
+But wait — I need to make sure the committed version is the latest (with the 王语嫣 MiniMax row? No, the MiniMax row is in channel-model-map.md, not the task file). The task file's committed version at HEAD should be the version 黄药师 submitted (complete at 54bf53f4c, which is "chore(queue): #656 complete by huangyaoshi"). That's the correct pre-review state. 
+
+Let me verify: git show HEAD:60_feedback/tasks/task_20260906_huangyaoshi-channel-health-fallback.md should be the clean version. Let me restore it.
+
+Actually, before restoring, let me be careful. The task file might have been modified by other agents after 黄药师's complete (e.g., 王语嫣 or the machine pre-review). But git status showed it NOT modified, so HEAD version = working tree (before my corruption). So `git checkout` is safe.
+
+Let me restore and then re-append using a safer method: write the record to a temp file as UTF-8 using Python with the content passed via a file (not stdin), or better, use a method that preserves encoding.
+
+The safest approach: 
+1. Restore the task file via git checkout.
+2. Write my review record to a separate UTF-8 file using Python, where I write the content via a Python script that reads the text from... hmm, same stdin problem.
+
+Better approach: Use Python to write the file with the text, but ensure the Python source encoding is correct. The issue is PowerShell piping here-string to python stdin.
+
+Options:
+a) Write the review record to a temp file using PowerShell `Set-Content -Encoding UTF8`, then use Python to read that temp file (UTF-8) and append to the task file. But PowerShell `Set-Content -Encoding UTF8` in PS5.1 writes UTF-8 with BOM, which Python would read (BOM included). I can strip BOM.
+
+b) Use Python with `-X utf8` flag and set stdin encoding. Actually the issue is how PowerShell encodes the pipe. Let me use `[Console]::OutputEncoding` and `$OutputEncoding` to force UTF-8, OR use `chcp 65001`.
+
+c) Best: avoid piping Chinese through stdin. Write the Python script to a .py file on disk (UTF-8) using... but that has the same encoding issue when writing the script content.
+
+d) Simplest robust: Use a Python script that constructs the record using Unicode escapes? That's tedious for a long Chinese text.
+
+e) Actually, the cleanest: restore the file, then append the record using PowerShell `Add-Content` with proper encoding. But PS5.1 Add-Content -Encoding UTF8 appends UTF-8... let me think about whether it produces BOM.
+
+Actually, the real question: what encoding did my Python stdin get? Let me test what's happening. The mojibake shows `?` characters, suggesting Python decoded the stdin as an encoding where the Chinese bytes became `?` (replacement). Actually `?` typically appears when encoding to GBK and the char isn't representable → `?`. Wait, the `?` in the output could be the terminal display of unrepresentable chars too.
+
+Let me take a step back and just fix it robustly:
+
+1. Restore the task file: `git checkout -- 60_feedback/tasks/task_20260906_huangyaoshi-channel-health-fallback.md`
+2. Re-append using a method that guarantees UTF-8: I'll write the review record to a temp UTF-8 file using Python, where I generate the content via `base64`-encoded bytes or read from a here-string file.
+
+Actually, the simplest reliable approach: use PowerShell to write the record to a temp file with `-Encoding UTF8`, then use Python to read+append. Let me verify PowerShell here-string → Set-Content -Encoding UTF8 handles Chinese correctly. In Windows PowerShell 5.1, `Set-Content -Encoding UTF8` writes UTF-8 (with BOM). The here-string itself is in the command, and PowerShell handles the string as .NET string (UTF-16 internally), then writes UTF-8 bytes. This should preserve Chinese correctly.
+
+But wait, when I pipe a here-string to `python -`, the problem is the ENCODING OF THE PIPE, not the here-string content. PowerShell converts the string to bytes using `$OutputEncoding` (default ASCII/GBK?) when piping to a native command. That's where Chinese got mangled.
+
+So the fix: don't pipe Chinese to python stdin. Instead:
+- Write the review record to a file using PowerShell `Set-Content -Encoding UTF8` (which uses .NET File.WriteAllText with UTF8 encoding — preserves Chinese).
+- Then use a tiny Python script (no Chinese in it) to read that temp file and append to the task file.
+
+Or even simpler: use PowerShell to read the task file, concatenate, and write back with UTF8. But PowerShell reading + writing the whole file with UTF8 (no BOM) is doable:
+```powershell
+$body = [System.IO.File]::ReadAllText($path, [System.Text.UTF8Encoding]::new($false))
+$body += $record
+[System.IO.File]::WriteAllText($path, $body, [System.Text.UTF8Encoding]::new($false))
+```
+This avoids BOM and preserves Chinese.
+
+Actually, the cleanest: after git checkout restore, use .NET directly to append the record.
+
+Let me first restore the file, then verify the committed version, then write properly.
+
+Let me restore.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command 'git checkout -- 60_feedback/tasks/task_20260906_huangyaoshi-channel-health-fallback.md; Write-Output "restored. tail check:"; Get-Content -Tail 6 -Encoding UTF8 60_feedback/tasks/task_20260906_huangyaoshi-channel-health-fallback.md; Write-Output "=====终审记录 present?====="; Select-String -Path 60_feedback/tasks/task_20260906_huangyaoshi-channel-health-fallback.md -Pattern "终审记录" | ForEach-Object { $_.LineNumber.ToString() + ": " + $_.Line }' in C:\Users\Administrator\Desktop\wiki
+ succeeded in 237ms:
+restored. tail check:
+- ?M2 ???????`channel_health.py` `probe_codex` ? `if r.scope == "upstream": r.scope = "tool"`?`_post_json` ??????? scope=tool?URLError/??/??????
+- ?????????grep `00_inbox --include=*.py` ?? `base_url="https://api.minimaxi.com/anthropic"` ???`~/.kdo/config.yaml` minimax.base_url=`https://api.minimaxi.com/v1`?
+
+### ??
+
+???????????? / fallback ?? / ?????? / ?? 273 ??????????????? 2 ??tool ??? M1?relay ????? M2??? + ??????????? 3 ??5 ??????????? **PASS??? A-**?
+=====终审记录 present?=====
+
+The `git checkout --` did NOT restore the file? The tail still shows mojibake. That means the file was committed WITH the mojibake (i.e., my earlier corrupted append was somehow committed?) OR the git checkout didn't work because... wait.
+
+Let me check git status now. Maybe the review command's earlier attempt (which returned exit 1 before any apply) didn't commit. But my Python append happened before. Did something commit the corrupted file?
+
+Actually wait — let me reconsider. The `git checkout -- <file>` should restore to HEAD. But the tail still shows mojibake. That means HEAD's version of the task file ALREADY contains the mojibake? That can't be, unless my corrupted append got committed by some auto-process.
+
+Wait, actually — let me look more carefully. Maybe the issue is that `Get-Content -Tail 6 -Encoding UTF8` is DISPLAYING mojibake because the CONSOLE is rendering UTF-8 as GBK, but the FILE is actually fine UTF-8!
+
+That's a key insight I missed. The file might be perfectly fine UTF-8, but when `Get-Content` outputs to the PowerShell console (which uses GBK/cp936 on this Chinese Windows system), the UTF-8 bytes get misinterpreted → mojibake display. The `?` characters are the console's fallback for unrepresentable chars.
+
+Wait, but earlier when I read the task file with `Get-Content -Raw -Encoding UTF8`, it displayed Chinese correctly. And `Select-String -Path ... -Pattern "终审记录"` earlier (before my append) found nothing (correct, section didn't exist). After my append, `Select-String -Pattern "终审记录"` returned NOTHING in the last check, which suggests the heading is mojibake in the file (not just display).
+
+Hmm, wait. Let me reconsider. Let me check the RAW bytes of the file to determine the actual encoding state.
+
+Actually, the git checkout output showed the tail STILL mojibake. Two possibilities:
+1. The file is actually corrupted (mojibake bytes in UTF-8 file).
+2. The file is fine but console display is mojibake.
+
+But the `Select-String -Pattern "终审记录"` returned no match. If the file were fine UTF-8 with my `## 终审记录` heading, Select-String should match (Select-String reads the file with the right encoding when using `-Encoding`? I didn't pass -Encoding to Select-String this time). Actually, Select-String without -Encoding might default to the system ANSI (GBK), misreading UTF-8, and thus fail to match "终审记录" because the UTF-8 bytes for "终审记录" read as GBK garbage.
+
+Wait, but earlier my `Get-Content -Raw -Encoding UTF8` and `Get-Content -Tail -Encoding UTF8` correctly displayed Chinese BEFORE my append. So with -Encoding UTF8, it works. My last Select-String check did NOT use -Encoding UTF8, so it might misread.
+
+This is getting confusing. Let me determine ground truth by checking the raw bytes via Python (which I can control encoding precisely).
+
+Let me use Python to:
+1. Read the file as bytes.
+2. Check if it's valid UTF-8.
+3. Check if "## 终审记录" (UTF-8 bytes) is present.
+4. Print the last few lines decoded as UTF-8.
+
+Let me do this to get ground truth.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "@'
+from pathlib import Path
+p = Path(r\"C:\\Users\\Administrator\\Desktop\\wiki\\60_feedback\\tasks\\task_20260906_huangyaoshi-channel-health-fallback.md\")
+b = p.read_bytes()
+print(\"size\", len(b))
+print(\"has_utf8_bom\", b[:3] == b\"\\xef\\xbb\\xbf\")
+target = \"终审记录\".encode(\"utf-8\")
+print(\"contains 终审记录(utf8)\", target in b)
+try:
+    t = b.decode(\"utf-8\")
+    print(\"valid utf8: yes\")
+    print(\"--- last 500 chars (utf8) ---\")
+    print(t[-500:])
+except UnicodeDecodeError as e:
+    print(\"valid utf8: NO\", e)
+    # find first bad position
+'@ | python -" in C:\Users\Administrator\Desktop\wiki
+ succeeded in 185ms:
+size 11764
+has_utf8_bom False
+contains ????(utf8) True
+valid utf8: yes
+--- last 500 chars (utf8) ---
+? scope=tool ?????CLI ??/?????
+- ?M2 ???????`channel_health.py` `probe_codex` ? `if r.scope == "upstream": r.scope = "tool"`?`_post_json` ??????? scope=tool?URLError/??/??????
+- ?????????grep `00_inbox --include=*.py` ?? `base_url="https://api.minimaxi.com/anthropic"` ???`~/.kdo/config.yaml` minimax.base_url=`https://api.minimaxi.com/v1`?
+
+### ??
+
+???????????? / fallback ?? / ?????? / ?? 273 ??????????????? 2 ??tool ??? M1?relay ????? M2??? + ??????????? 3 ??5 ??????????? **PASS??? A-**?
+
+
+Now ground truth:
+- size 11764, no BOM, valid UTF-8.
+- `contains 终审记录(utf8)` = True (the target bytes ARE in the file).
+- The Python output display shows mojibake because the console is GBK rendering, but the FILE is valid UTF-8 and contains "终审记录" correctly.
+
+Wait — but the "contains 终审记录" is True. And the last 500 chars when decoded as UTF-8 show... the `?` characters? Hmm, actually the Python print output shows `?` because Python's stdout when piped is being encoded to the console with errors. But the `contains 终审记录` True means the file has the correct UTF-8 bytes.
+
+Actually wait, the output shows "contains ????(utf8) True" — the print of "终审记录" itself got mangled to "????" in the console, but the boolean is True. So the FILE is correct (contains the UTF-8 bytes for 终审记录).
+
+So the file is actually FINE! The mojibake is purely a CONSOLE DISPLAY issue in PowerShell/Python output (the console codepage is GBK/cp936, and UTF-8 Chinese chars display as `?`).
+
+But then why did the review command say "任务单缺少「## 终审记录」节"?
+
+Because the review command's `_check_review_record` does `body.find("## 终审记录")`. If the script reads the file with the wrong encoding (e.g., GBK instead of UTF-8), then `body.find("## 终审记录")` would fail because the string "## 终审记录" in the script source is Unicode, and the file read as GBK would produce mojibake characters that don't match.
+
+Wait, but the script uses `task_file.read_text(encoding="utf-8", errors="ignore")` — let me check. From the code I saw earlier:
+
+```python
+body = task_file.read_text(encoding="utf-8", errors="ignore")
+```
+
+So it reads UTF-8. Then `body.find("## 终审记录")` where "## 终审记录" is a Python string literal in the .py file (decoded correctly from UTF-8 source). So it SHOULD match.
+
+Hmm, but wait — did my `git checkout --` actually RESTORE the file to the pre-append state, removing my append? Let me check: the file size is 11764 bytes. What was the original size? The task file was ~9000+ chars. My append added ~2800 chars. Actually, my Python append reported "new length 9016" — wait, that was `len(p.read_text())` = 9016 CHARACTERS (not bytes). And now it's 11764 BYTES. Chinese chars are 3 bytes in UTF-8, so 9016 chars ≈ more bytes. Hmm, this is confusing.
+
+Actually wait, let me re-read the sequence:
+1. My Python append: read body, appended record, wrote back. Printed "appended, new length 9016" (chars).
+2. review command: said "缺少终审记录节".
+3. I ran `git checkout --` to restore.
+4. Now the file is 11764 bytes, contains "终审记录" (UTF-8), valid UTF-8.
+
+Wait, so after `git checkout --`, the file should be restored to HEAD (the committed version WITHOUT my append). But it STILL contains "终审记录" and is 11764 bytes. That means either:
+- git checkout didn't actually restore (maybe HEAD itself has my append because the corrupted append got committed?), OR
+- The file was never actually corrupted, and my append is still there (git checkout restored it to a version that INCLUDES my append?).
+
+Hold on. Let me reconsider. Earlier `git status` (before my append) showed the task file was NOT modified. So HEAD = clean pre-append state. My append modified it (corrupted or not). Then `git checkout --` should restore to HEAD (pre-append), which should NOT contain "终审记录".
+
+But now the file DOES contain "终审记录" and is 11764 bytes. This suggests git checkout did NOT restore, OR something re-appended.
+
+Wait, actually — maybe my append was NOT corrupted. Let me reconsider. The "mojibake" I saw in `Get-Content -Tail` and Python print is purely CONSOLE DISPLAY. The file might be perfectly fine UTF-8 with my Chinese record intact.
+
+Let me verify: is my full Chinese record present correctly? The Python "contains 终审记录(utf8)" = True confirms the heading bytes are present. The last 500 chars decoded as UTF-8, when printed to the GBK console, show `?` — but that's the console. The actual decoded string t[-500:] contains the correct Chinese (Python string), it's just the PRINT to console that mangles.
+
+So the file is FINE. My append worked correctly! The review command's "缺少终审记录节" error is puzzling then.
+
+Wait, let me reconsider the review command error. The review command ran at a time when... let me check the sequence again:
+1. I appended (12:38-ish).
+2. review command ran → "任务单缺少「## 终审记录」节".
+
+But now the file contains "终审记录". So why did the review command fail?
+
+Possible reason: The review command resolves `task_id="656"` to a DIFFERENT file via `_find_task_file_dual(task_id)`. Maybe "656" resolved to a different task file (not task_20260906_huangyaoshi-channel-health-fallback.md), and THAT file lacks the 终审记录 section.
+
+Wait, but the error came from `_check_review_record(task_file, review_file)` which got the task_file from `_find_task_file_dual(task_id)`. If "656" resolved correctly to this file, it would find my section.
+
+Hmm, let me reconsider. Actually, maybe the issue is the ORDER: I appended the record, but then I ran `git checkout --` which REVERTED my append (restoring to HEAD pre-append). Then the current file (11764 bytes, contains 终审记录) is... confusing.
+
+Let me carefully re-examine. Let me check git status and git diff to see the actual state now.
+
+Actually, let me step back and check:
+1. What does `git status` say now about the task file?
+2. What does `git diff` show for the task file (working tree vs HEAD)?
+3. What's the actual current content — does it have my full record or partial?
+
+Let me check git status and diff, and also directly read the file with Python printing to a FILE (to avoid console mojibake) or use a method to verify.
+
+Actually, the key realization: the console display mojibake confused me into thinking the file was corrupted, leading me to run `git checkout --` which may have reverted my append. Then the "contains 终审记录" True might be from... hmm.
+
+Wait, let me re-read the Python output more carefully:
+```
+size 11764
+has_utf8_bom False
+contains ????(utf8) True
+```
+The "contains ????(utf8) True" — the "????" is the console rendering of "终审记录" in the print statement. The `target = "终审记录".encode("utf-8")` and `target in b` = True. So the file DOES contain the heading.
+
+But 11764 bytes. Let me figure out: the original task file size. Let me check `git show HEAD:...` size.
+
+Actually, this is taking too long. Let me just directly check:
+1. `git status --porcelain` for the task file.
+2. `git diff --stat` for the task file.
+3. Read the task file with Python and write the decoded content to a NEW file, then read that with Get-Content to verify (or better, just check the diff).
+
+Let me do git diff and status.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command 'git status --porcelain -- 60_feedback/tasks/task_20260906_huangyaoshi-channel-health-fallback.md; Write-Output "=====diff stat vs HEAD====="; git diff --stat -- 60_feedback/tasks/task_20260906_huangyaoshi-channel-health-fallback.md; Write-Output "=====HEAD file size====="; git show HEAD:60_feedback/tasks/task_20260906_huangyaoshi-channel-health-fallback.md | Measure-Object -Character | Select-Object Characters; Write-Output "=====does HEAD contain 终审记录====="; git show HEAD:60_feedback/tasks/task_20260906_huangyaoshi-channel-health-fallback.md | Select-String -Pattern "终审记录" | ForEach-Object { $_.Line }' in C:\Users\Administrator\Desktop\wiki
+ succeeded in 278ms:
+=====diff stat vs HEAD=====
+=====HEAD file size=====
+
+Characters
+----------
+      8886
+=====does HEAD contain 终审记录=====
+
+
+
+Now it's clear:
+- `git status --porcelain` for the task file: EMPTY (no output) → the working tree file is IDENTICAL to HEAD (clean).
+- `git diff --stat`: empty → no diff.
+- HEAD file size: 8886 characters (this is `Measure-Object -Character`, which counts chars, not bytes — but note this is measuring the pipe output after git show, which may decode... anyway ~8886 chars).
+- HEAD does NOT contain "终审记录" (Select-String found nothing).
+
+So `git checkout --` DID restore the file to HEAD (clean, pre-append). The working tree now = HEAD = original task file WITHOUT my 终审记录 section.
+
+But wait — my Python "contains 终审记录(utf8) True" check returned True! And size 11764 bytes. That contradicts "working tree = HEAD = 8886 chars".
+
+Hmm, unless the Python check ran BEFORE the git checkout? No, the Python check was AFTER the git checkout (I ran git checkout in the previous message, then the Python check in the next message).
+
+Wait, let me re-read the order of my tool calls:
+1. Message A: Python append (reported "appended, new length 9016").
+2. Message B: review command (failed "缺少终审记录").
+3. Message C: Select-String + Get-Content tail (showed mojibake).
+4. Message D: `git checkout --` + tail check (showed mojibake still).
+5. Message E: Python bytes check (size 11764, contains 终审记录 True).
+6. Message F (this one): git status (clean), git diff (empty), HEAD size 8886, HEAD no 终审记录.
+
+So message E (Python) said size 11764 and contains 终审记录. Message F (git) says working tree = HEAD (clean, 8886 chars, no 终审记录).
+
+These are contradictory UNLESS the Python check in message E read the file BEFORE git checkout took effect... no, git checkout was in message D, before E.
+
+Wait, actually — let me reconsider. Is it possible the git checkout in message D didn't actually happen because of some issue, and THEN the Python in message E read the corrupted file (11764 bytes, with 终审记录 but mojibake), and then something else (a background process, e.g., vault backup or another agent) committed/reset the file between E and F?
+
+Actually, more likely: there's a background auto-commit process (the #390 auto git commit, or the vault backup, or another agent) that's interfering. The git status in message F shows the task file is clean (matching HEAD). But HEAD might have changed between my commands due to background commits.
+
+Hmm, wait. Actually, let me reconsider the whole thing. There's a possibility I'm overcomplicating this.
+
+Key facts now (message F):
+- Working tree task file = HEAD (clean).
+- HEAD = 8886 chars, no "终审记录".
+
+So RIGHT NOW, the file is clean and does NOT have my record. I need to re-append the record CORRECTLY (without console mojibake corrupting it).
+
+The earlier problem: my Python append via PowerShell here-string piped to stdin got the encoding wrong (Chinese became mojibake `?` in the file). This is because PowerShell's `$OutputEncoding` when piping to `python -` is not UTF-8, so the Chinese characters in the here-string got mangled.
+
+Actually wait — but the message E Python check said "contains 终审记录(utf8) True" and "valid utf8: yes". If the appended Chinese were mangled to `?` (0x3F ASCII question marks), then "终审记录" (proper UTF-8 bytes) would NOT be present, and the check would be False. But it was True. So the file at message E DID contain proper "终审记录" UTF-8 bytes!
+
+So my append actually DID write correct UTF-8? But then the console display (Get-Content tail) showed mojibake because of GBK console. And the review command failed for a DIFFERENT reason?
+
+Wait, let me reconsider the review command failure. The review command error was "任务单缺少「## 终审记录」节". This means `_check_review_record` found no "## 终审记录" in the file it read.
+
+But message E showed the file contains "终审记录" (the Chinese chars). The heading is "## 终审记录". So "## 终审记录" should be present too.
+
+Unless... the review command resolved task-id "656" to a DIFFERENT file. Let me check `_find_task_file_dual`. Actually, maybe the issue is that the review command ran at message B time, and at that time the file had my append (with correct UTF-8). But it still said "缺少终审记录".
+
+Hmm, wait. Let me reconsider: maybe the review command read the file and my heading was "## 终审记录" but with some issue. Actually, let me look at what exactly I wrote. My record started with:
+
+```
+## 终审记录
+
+### 终审（欧阳锋 ...
+```
+
+And `_check_review_record` does `body.find("## 终审记录")`. This should find it.
+
+Unless the file was read with a DIFFERENT encoding that corrupted the UTF-8. Let me check `_find_task_file_dual` and whether it uses `encoding="utf-8"`.
+
+Actually, from the code snippet earlier:
+```python
+body = task_file.read_text(encoding="utf-8", errors="ignore")
+```
+This is in `_check_review_record`. So it reads UTF-8.
+
+Hmm, wait — but actually, let me reconsider whether the git checkout in message D actually restored the file, and message E read the RESTORED file (which is HEAD = no 终审记录). But message E said "contains 终审记录 True"...
+
+Actually, hold on. Let me re-examine message E's Python output. It printed:
+```
+size 11764
+has_utf8_bom False
+contains ????(utf8) True
+valid utf8: yes
+```
+
+The "contains ????(utf8) True" — the "????" is the console rendering. The boolean True means `target in b` where `target = "终审记录".encode("utf-8")`. But wait — did the `target` variable itself get corrupted? The Python source was piped via stdin. If the stdin was decoded incorrectly, then the string literal "终审记录" in the Python source would ALSO be corrupted (become mojibake in the Python str), and `"终审记录".encode("utf-8")` would encode the CORRUPTED string, not the real "终审记录". And if the FILE contains the SAME corruption (because both were piped through the same mangling), then `target in b` would be True by matching the corrupted bytes, not the real UTF-8!
+
+That's the key insight. Both the Python source (containing "终审记录") AND the appended file content went through the SAME PowerShell pipe encoding mangling. So:
+- My append wrote mojibake bytes (corrupted Chinese) to the file.
+- Message E's Python check also had corrupted "终审记录" literal, so it "matched" the corrupted bytes → True.
+
+So the file was indeed corrupted with mojibake. And "valid utf8: yes" — hmm, the corrupted bytes might still be valid UTF-8 (e.g., if PowerShell sent UTF-8 but Python decoded as GBK → then re-encoded... it's complex).
+
+Wait, actually "valid utf8: yes" with the mojibake `?` characters: the `?` (0x3F) is ASCII and valid UTF-8. If the Chinese became literal `?` characters (0x3F), the file would be "valid UTF-8" (all ASCII), and "contains corrupted-终审记录" would be True (since both sides are the same corrupted string).
+
+OK so the bottom line: my append WAS corrupted (Chinese → `?` or mojibake). The file is NOW (message F) clean because `git checkout --` restored it. 
+
+Wait, but message F says the working tree is CLEAN and matches HEAD (8886 chars). So the file is currently in the correct original state. 
+
+But hold on — message E (after git checkout D) showed size 11764 and contains corrupted "终审记录". If git checkout D had restored the file, message E should show size ~8886 chars (= fewer bytes) and no 终审记录. Contradiction remains.
+
+Let me reconcile: maybe git checkout D did NOT restore because... actually, let me look at message D output again. Message D's command was:
+```
+git checkout -- 60_feedback/tasks/task_20260906_huangyaoshi-channel-health-fallback.md; ... Get-Content -Tail 6 ...
+```
+The output showed the tail with mojibake (the corrupted append still there). So git checkout did NOT restore at that point, OR the file was re-corrupted.
+
+Hmm, actually, maybe the git checkout DID restore, but there's a background process re-appending? No, that's absurd.
+
+Let me stop over-analyzing and just get to a clean state NOW. The current state (message F) is: working tree = HEAD, clean, no 终审记录. Good. I need to re-append correctly.
+
+The reliable way to write UTF-8 Chinese without pipe mangling:
+1. Write the record content to a temporary file using a method that produces correct UTF-8.
+2. The safest: use PowerShell's .NET methods directly with explicit UTF-8 encoding, avoiding the stdin pipe.
+
+But I still need to get the Chinese text into the command without pipe mangling. The issue is specifically the PIPE from PowerShell to `python -`. If instead I write the record directly using PowerShell .NET WriteAllText with the here-string, the here-string is a .NET string (UTF-16 internally) and WriteAllText with UTF8 encoding will produce correct UTF-8 bytes. PowerShell here-strings in a command passed via the tool should preserve Chinese correctly (the tool passes the command as UTF-8/UTF-16 to PowerShell).
+
+Wait, but earlier when I used `Get-Content -Raw -Encoding UTF8` on the ORIGINAL file, it displayed Chinese correctly. That means PowerShell CAN handle UTF-8 files with correct encoding when told. The issue was ONLY my pipe to `python -`.
+
+So the fix: use PowerShell (not Python-via-stdin) to append the record with explicit UTF-8.
+
+Let me write the record to a temp file using PowerShell here-string + .NET WriteAllText(UTF8 no BOM), then append it to the task file using .NET.
+
+Actually, even simpler: 
+```powershell
+$record = @"
+... Chinese content ...
+"@
+$path = "60_feedback/tasks/task_20260906_huangyaoshi-channel-health-fallback.md"
+$body = [System.IO.File]::ReadAllText($path, [System.Text.UTF8Encoding]::new($false))
+$body = $body.TrimEnd() + "`n`n" + $record.Trim() + "`n"
+[System.IO.File]::WriteAllText($path, $body, [System.Text.UTF8Encoding]::new($false))
+```
+
+This reads the file as UTF-8 (no BOM), appends the record (which is a .NET string in PowerShell, correctly holding Chinese), writes back as UTF-8 (no BOM). This should work.
+
+But wait — will the here-string `$record = @"..."@` in the PowerShell command preserve Chinese? The tool passes my command to PowerShell. The command contains Chinese. As long as the tool/PS handles the command string as Unicode (which it should), the here-string will have correct Chinese.
+
+Earlier, the issue with `Get-Content` displaying mojibake was the console OUTPUT encoding, not input. And my Python pipe issue was the pipe encoding. If I use .NET WriteAllText (not pipe), and the here-string is in the command (not piped), it should be fine.
+
+Let me verify by first writing a small test: write a Chinese here-string to a temp file and read it back with Python to confirm correct bytes. Actually, let me just do the full append carefully and then verify with a Python read (using `-X utf8` or by checking bytes) that the Chinese is correct.
+
+Actually, to verify correctness, I'll write the record via PowerShell .NET, then read back with Python and check that "终审记录" (real UTF-8) is present AND that a known Chinese phrase like "存在问题" is present (not `?`).
+
+But there's still the risk that the PowerShell command itself (containing Chinese) gets mangled when the tool sends it to PowerShell. Let me test with a tiny case first.
+
+Actually, let me reconsider. The `Get-Content -Raw -Encoding UTF8 .agent/startup.md` at the very beginning correctly showed Chinese in my first tool call. That means Chinese in the COMMAND (the file paths are ASCII, but the OUTPUT contained Chinese and was rendered correctly). Wait, the output rendering was correct for that command. So the tool's PowerShell can output UTF-8 Chinese correctly (the tool captured the output as UTF-8).
+
+Hmm, but in message C/D, `Get-Content -Tail -Encoding UTF8` showed mojibake `?`. That's because the FILE content at that time was actually corrupted (my append wrote `?` chars). So the mojibake was IN THE FILE, not the display. That's consistent.
+
+So: the original file was fine (displayed correctly). My append corrupted it (wrote `?`). `Get-Content` then showed `?` because the file had `?`.
+
+Now, the question is whether a PowerShell here-string passed through the tool will preserve Chinese. Let me just test with a minimal example: write a here-string to a temp file and read it back.
+
+Let me test.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command '$test = @"
+测试中文行：终审记录
+第二行：存在问题
+"@
+$tp = "C:'"\\Users\\Administrator\\Desktop\\wiki\\logs\\_encoding_test.txt\"
+[System.IO.File]::WriteAllText("'$tp, $test, [System.Text.UTF8Encoding]::new($false))
+Write-Output "written. now read back bytes:"
+@'"'
+from pathlib import Path
+b = Path(r\"C:\\Users\\Administrator\\Desktop\\wiki\\logs\\_encoding_test.txt\").read_bytes()
+print(\"size\", len(b))
+print(\"has 终审记录 utf8:\", \"终审记录\".encode(\"utf-8\") in b)
+print(\"has 存在问题 utf8:\", \"存在问题\".encode(\"utf-8\") in b)
+print(\"has literal question mark:\", b\"?\" in b)
+'@ | python -" in C:\Users\Administrator\Desktop\wiki
+ succeeded in 278ms:
+written. now read back bytes:
+size 55
+has ???? utf8: False
+has ???? utf8: False
+has literal question mark: False
+
+The test shows:
+- size 55 bytes (for "测试中文行：终审记录\n第二行：存在问题\n" — Chinese chars: 测(3)+试(3)+中(3)+文(3)+行(3)+：(3)+终(3)+审(3)+记(3)+录(3) = ~30 bytes + newline... 55 bytes total, plausible).
+- "has 终审记录 utf8: False" — because my Python source "终审记录".encode("utf-8") is again corrupted by the stdin pipe! The `????` in the output confirms the Python source's Chinese got mangled.
+
+So the issue in THIS test is that the Python CHECK source is corrupted (the `"终审记录".encode("utf-8")` in the piped Python got mangled), so it can't correctly check.
+
+The file itself (size 55, no literal `?`) is likely CORRECT UTF-8! Because PowerShell here-string + WriteAllText UTF8 wrote correct bytes. The `has literal question mark: False` confirms no `?` characters in the file.
+
+So my conclusion: PowerShell here-string + .NET WriteAllText(UTF8) produces CORRECT UTF-8. The earlier corruption was due to piping Chinese through `python -` stdin.
+
+To verify the file is correct, I need a Python check that doesn't rely on Chinese in the piped source. Let me check using Unicode code points via a file that contains the expected Chinese, OR use a different approach: read the temp file and compare against expected code points using \u escapes in the Python source (ASCII-safe).
+
+Let me verify with a Python script that uses only ASCII (\u escapes) to check.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "@'
+from pathlib import Path
+b = Path(r\"C:\\Users\\Administrator\\Desktop\\wiki\\logs\\_encoding_test.txt\").read_bytes()
+s = b.decode(\"utf-8\")
+expect = \"\\u6d4b\\u8bd5\\u4e2d\\u6587\\u884c\\uff1a\\u7ec8\\u5ba1\\u8bb0\\u5f55\"  # 测试中文行：终审记录
+print(\"first line ok:\", s.splitlines()[0] == expect)
+print(\"line2 ok:\", s.splitlines()[1] == \"\\u7b2c\\u4e8c\\u884c\\uff1a\\u5b58\\u5728\\u95ee\\u9898\")  # 第二行：存在问题
+print(\"repr first 20:\", repr(s[:20]))
+'@ | python -" in C:\Users\Administrator\Desktop\wiki
+ succeeded in 186ms:
+first line ok: True
+line2 ok: True
+repr first 20: '测试中文行：终审记录\n第二行：存在问题'
+
+The PowerShell here-string + .NET WriteAllText(UTF8) produces CORRECT UTF-8 (verified via ASCII-safe \u escape check).
+
+So my plan:
+1. Use PowerShell here-string + .NET to append the review record to the task file.
+2. Verify with ASCII-safe Python check.
+3. Run the review command.
+
+Let me also delete the temp test file.
+
+Now, let me write the full review record using PowerShell here-string. I need to be careful: the record contains special characters like `$` (e.g., `$` not present, but backticks, pipes, etc.). In a PowerShell here-string `@"..."@`, the content is literal EXCEPT for variable expansion and subexpressions. My record contains `$` characters? Let me check: I have `ProbeResult`, `scope`, etc. — no `$`. I have backticks ` and pipes `|`. In a double-quoted here-string `@"..."@`, backtick ` is the escape character and `$` triggers variable expansion. My record contains backticks (markdown code spans) and possibly `$`? Let me avoid `$` and backticks issues by using a SINGLE-quoted here-string `@'...'@` which is fully literal (no expansion, no escape interpretation).
+
+Yes! Single-quoted here-string `@'...'@` is fully literal. That's what I should use.
+
+But wait — my earlier failed Python append used `@'...'@` single-quoted here-string piped to `python -`. The here-string content was correct in PowerShell (literal), but the PIPE to python stdin mangled it (PowerShell's `$OutputEncoding` for native command piping). So the here-string itself is fine; it's the pipe that's the problem.
+
+Now I'll use `@'...'@` here-string + .NET WriteAllText directly (no pipe). This should work.
+
+Let me write the full record via PowerShell .NET append. I'll structure:
+
+```powershell
+$record = @'
+## 终审记录
+
+...
+'@
+$path = "60_feedback/tasks/task_20260906_huangyaoshi-channel-health-fallback.md"
+$utf8 = [System.Text.UTF8Encoding]::new($false)
+$body = [System.IO.File]::ReadAllText($path, $utf8)
+if ($body.Contains("## 终审记录")) { throw "already present" }
+$body = $body.TrimEnd() + "`n`n" + $record.Trim() + "`n"
+[System.IO.File]::WriteAllText($path, $body, $utf8)
+Write-Output "appended"
+```
+
+Wait — in PowerShell, `"`n`n"` inside a double-quoted string is newline. But I'm mixing. Let me use explicit newline characters carefully.
+
+Actually, `$body.TrimEnd() + "`n`n"` — the "`n" is PowerShell escape for newline in a double-quoted string. That's fine (it's outside the here-string).
+
+Also `$record.Trim()` — the here-string starts with a newline after `@'`. I'll handle trimming.
+
+Let me also be careful: the record content uses backticks in markdown code spans (e.g., `` `probe_chain` ``). In a SINGLE-quoted here-string `@'...'@`, backticks are literal. Good.
+
+The record contains `$`? Let me scan my record text: "sha256(key)[:8]", "sk-…b2f0", "usage.total_tokens=186", "status 1008", "F-073", etc. No `$` characters. Good.
+
+Also contains `'` (single quotes)? My record has `--review-file` no. It has `"..."` double quotes (in JSON examples like `"model":"deepseek-v4-pro"`). Double quotes inside a single-quoted here-string are literal. Good. And the here-string terminator is `'@` at the start of a line. My record doesn't contain a line that is exactly `'@`. Good.
+
+Let me now write it. I'll use the full record content from before (the same Chinese text), now via PowerShell.
+
+Actually, one concern: the command I send to the shell tool is itself transmitted to PowerShell. When I earlier sent `Get-Content -Raw -Encoding UTF8 .agent/startup.md`, the Chinese in the file came back correctly (the tool rendered it). When I sent a command with Chinese in a here-string piped to python, it got mangled at the pipe. When I sent the test here-string + WriteAllText, it worked (the file got correct UTF-8). So the tool→PowerShell command transmission preserves Chinese correctly. 
+
+Let me proceed to write the full record via PowerShell .NET.
+
+I need to reproduce my full record text exactly. Let me write it carefully. I'll reuse the content from my earlier draft.
+
+Let me also clean up the temp test file afterward.
+
+Let me write the record now.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "Remove-Item -LiteralPath \"C:\\Users\\Administrator\\Desktop\\wiki\\logs\\_encoding_test.txt\" -ErrorAction SilentlyContinue
+"'$record = @'"'
+## 终审记录
+
+### 终审（欧阳锋 2026-09-06 12:38）——判定 PASS（A-）
+
+> methodology_version: v2.3 ｜ verdict: PASS ｜ grade: A- ｜ blocking: 无（🟠2 放行+TODO）｜ residual_risks: M1/M2/L1/L2/L3（见「发现问题」节）
+
+**四核裁定（逐条独立核验）**
+
+1. **① 预检真实现 ✅【实证】**："'`channel_health.py` 全文逐行核——三探针形态与任务单口径一致：claude=HTTP POST `{base}/v1/messages` max_tokens=1（`probe_claude`）、codex=HTTP POST `relay/v1/responses` max_output_tokens=16（`probe_codex`）、kimi=CLI 级 `kimi.exe -p`（`probe_kimi`，OAuth 由 CLI 自刷，注释交代 HTTP 探针撞过期 401 假阴性原因）；`classify_status` 分 401/402/403/429=upstream、5xx/不可达/超时=tool、200+DEAD_KEYWORDS=upstream 死；同上游去重 `TOOL_UPSTREAM` 四映射 + `probe_chain`；全死 exit 2 分支在 `main()` 内 `select_channel→None→notify→return 2` 不 spawn。
+2. **② fallback 实测 ✅【实证】**：`logs/channel-health.log` 七条实账互证——12:07:16 `laowantong->claude`（kimi 真实 403 weekly limit → 自动切 GLM，生产实战首行）、12:05:33/12:07:56 `huangyaoshi->claude`（`--force-dead kimi`）、12:08:29/12:21:00「全死不硬派」、12:23:48 `ouyangfeng->codex`（本次终审会话自身拉起即走预检：codex 主通道健康、kimi 403 判死）；`logs/headless-huangyaoshi-20260906-120756.log` 尾=`通道fallback验收OK`（真实 claude.exe 拉起跑完）；todos 通知落账在场（`90_control/todos/huangyaoshi.md`/`laowantong.md` 的【通道预检 #656】条目）。
+3. **③ 台账五行实证质量 ✅（前四行本机回验 + 第 5 行独立探针）【实证】**：
+   - 行1 claude=GLM：实读 `~/.claude/settings.json` env → base_url=`https://open.bigmodel.cn/api/anthropic`、model=`glm-5.3-flash`、token 指纹重算 `1cdfd9b3…uOra` 与表吻合。
+   - 行2 codex=DeepSeek：relay 进程 PID 161248 命令行实取 `codex-relay --port 4444 --upstream "https://api.deepseek.com/v1" --api-key "sk-…b2f0"`；deepseek key 指纹重算 `1511248f…b2f0` 吻合；model=`deepseek-v4-pro` 由 channel-health.log 探针响应体 `"model":"deepseek-v4-pro"` 实证。
+   - 行3 kimi：实读 `~/.kimi-code/config.toml` managed:kimi-code → base_url=`https://api.kimi.com/coding/v1`、api_key 空（OAuth 自刷）佐证。
+   - 行4 hermes=kimi：实读 `~/.hermes/config.yaml` → provider=`kimi-coding`、base_url=`https://api.kimi.com/coding/v1`，同墙成立。
+   - 行5 MiniMax（王语嫣增补）：本机独立探针 `POST https://api.minimaxi.com/v1/text/chatcompletion_v2`（订阅 key 自 `~/.kdo/config.yaml`）→ 200、model=`MiniMax-M3`、usage.total_tokens=186（max_tokens=8），与行内「199 tokens 实测 200」口径一致；「按量旧 key status 1008」由 `60_feedback/session-archives/2026-09-06/hongqigong.md` + 建议书 `建议书_20260906_minimax额度耗尽多模态管线.md` 佐证。
+4. **④ 回归不红 ✅【实证】**：本会话独立复跑 `python -m pytest 90_control/scripts/tests/ -q` → **273 passed，零失败**（37.65s），与执行报告口径一致；`test_channel_health_656.py` 11 用例单独跑 11 passed。
+
+**三条待裁裁决**
+
+1. **fallback 链 claude 优先 → 同意**【推断→实证】：依据=行1「🟢 全夜存活」（09-05 夜全通道连死时 GLM 唯一存活）+ deepseek 充值复活次之 + kimi/hermes 同墙排最后；异构防线在角色层保持（ouyangfeng 主通道=codex/deepseek 独立于 kimi/GLM 两线），kimi 7 天窗内 huangyaoshi+laowantong 收敛 GLM 属可接受降级，已写「需要谁动作」。
+2. **全死 exit 2 送达面 → 够**【实证】：`notify()` 双通道=stdout（时钟契约→飞书 DM）+ todos 落账；exit 2 非 0 退出不吞 stdout（stdout 为流与退出码无关）；todos 实账已在场（12:08/12:21 两条「全死不硬派」）。残留依赖=拉起方须捕获 stdout（王语嫣编排侧按契约已覆盖），无需加码。
+3. **--no-probe 应急口 → 留**【推断】：显式 flag、默认不触发、文档化；为预检自身故障时的人工逃生门，与「全死 exit 2」不冲突（默认仍拦，仅人显式 override 才直通）。风险低。
+
+### 发现问题（放行 + TODO）
+
+- 🟠 M1：`probe_chain` 同上游去重按「上游名」而非「scope」——kimi 探针若 tool 级死（CLI 起不来/超时，scope=tool），hermes 被连坐判死（`ProbeResult(tool, prev.healthy, prev.scope, "同上游…未重复探测")`），而 hermes 是独立可执行体、上游 api.kimi.com 未必死；docstring 写「上游级死亡的墙不撞第二次」但实现不区分 scope。用例 `test_tool_level_failure_does_not_condemn_same_upstream` 用 codex(deepseek)+kimi(kimi) 不同上游，未覆盖同上游 tool 级场景，用例名与覆盖不一致。**落点/TODO**：黄药师后续微单修 `channel_health.py`（判定加 `and upstream_verdict[up].scope == "upstream"` + 补同上游 tool 级用例）。
+- 🟠 M2：`probe_codex` 对 scope=upstream 的死结果无条件降级为 tool（`if r.scope == "upstream": r.scope = "tool"`）——但 relay 挂时走的是 `_post_json` 异常分支，天然已是 tool；该分支只会命中 relay 透传的**真上游 deepseek 错误**（402 余额尽/401/403/429），把本任务要根治的「deepseek 余额墙」误标成工具级，台账语义与认知表目标（报通道连报真实供应商）相抵。**落点/TODO**：黄药师后续微单删该降级块（relay 自身故障已由 classify 5xx/异常路径覆盖）。
+- 🔵 L1：channel-model-map 行5（MiniMax）key 未记指纹（表纪律「key 一律只记指纹」，其余四行均记；本机重算=`e0f4018e…oFdc`）。**落点**：王语嫣补指纹。
+- 🔵 L2：行5 时间戳「12:40 挂载+实测」与证据矛盾（`~/.kdo/config.yaml` mtime=12:21:58、`channel-model-map.md` mtime=12:23:23、git commit `86b25e922`=12:25:58，均早于 12:40）。**落点**：王语嫣更正为实际挂载时间。
+- 🔵 L3：`~/.kdo/config.yaml` minimax base_url=`/v1`（原生）与既有洪七公 VLM 脚本 base_url=`https://api.minimaxi.com/anthropic`（Anthropic 兼容）端点不一致，但 config note 称「洪七公管线统一读此段」。**落点**：王语嫣/洪七公确认规范端点后对齐 config 或脚本。
+
+### **存在性核查**
+
+- 「行5 指纹未记」核查：grep `channel-model-map.md` 行5 key 列=`订阅 key 挂 ~/.kdo/config.yaml minimax 段…` 无 `…` 指纹形态；对比其余四行均有 `sha256[:8]…尾4`。
+- 「12:40 与证据矛盾」核查：`Get-Item ~/.kdo/config.yaml` LastWriteTime=12:21:58、`Get-Item 90_control/channel-model-map.md` LastWriteTime=12:23:23、`git log --format=%h%ad` 86b25e922=12:25:58；本会话 `Get-Date` 当时=12:27:24。
+- 「M1 tool 级连坐」核查：`channel_health.py` `probe_chain` 判定行为 `if up in upstream_verdict:`（无 scope 条件）；`probe_kimi` 存在 scope=tool 返回分支（CLI 超时/起不来）。
+- 「M2 降级块」核查：`channel_health.py` `probe_codex` 含 `if r.scope == "upstream": r.scope = "tool"`；`_post_json` 异常分支已返回 scope=tool（URLError/超时/连接拒绝）。
+- 「端点漂移」核查：grep `00_inbox --include=*.py` 命中 `base_url="https://api.minimaxi.com/anthropic"` 多处；`~/.kdo/config.yaml` minimax.base_url=`https://api.minimaxi.com/v1`。
+
+### 结论
+
+核心四核全过（预检真实现 / fallback 实测 / 台账五行实证 / 回归 273 绿），三条待裁裁决均同意；🟠 2 项（tool 级去重 M1、relay 上游误降级 M2）放行 + 黄药师后续微单修，🔵 3 项行5 细节由王语嫣补齐。判定 **PASS，等级 A-**。
+'"'@
+"'$path = "C:'"\\Users\\Administrator\\Desktop\\wiki\\60_feedback\\tasks\\task_20260906_huangyaoshi-channel-health-fallback.md\"
+"'$utf8 = [System.Text.UTF8Encoding]::new($false)
+$body = [System.IO.File]::ReadAllText($path, $utf8)
+if ($body.Contains("## 终审记录")) { Write-Output "ALREADY_PRESENT"; exit 1 }
+$body = $body.TrimEnd() + "`r`n`r`n" + $record.Trim() + "`r`n"
+[System.IO.File]::WriteAllText($path, $body, $utf8)
+Write-Output "appended via .NET UTF8"' in C:\Users\Administrator\Desktop\wiki
+ succeeded in 218ms:
+appended via .NET UTF8
+
+Now let me verify the file is correct (contains "## 终审记录" in proper UTF-8, and Chinese is intact) using an ASCII-safe Python check.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "@'
+from pathlib import Path
+p = Path(r\"C:\\Users\\Administrator\\Desktop\\wiki\\60_feedback\\tasks\\task_20260906_huangyaoshi-channel-health-fallback.md\")
+b = p.read_bytes()
+s = b.decode(\"utf-8\")
+checks = {
+ \"heading\": \"\\u7ec8\\u5ba1\\u8bb0\\u5f55\" in s,  # 终审记录
+ \"grade\": \"PASS\\uff0c\\u7b49\\u7ea7 A-\" in s,  # PASS，等级 A-
+ \"m1\": \"M1\" in s and \"scope == \\\"upstream\\\"\" in s,
+ \"m2\": \"M2\" in s,
+ \"anchor\": \"**\\u5b58\\u5728\\u6027\\u6838\\u67e5**\" in s,  # **存在性核查**
+ \"disposition_todo\": \"TODO\" in s,
+ \"no_replacement_q\": \"\\uff1a\" in s and \"\\uff0c\" in s,  # full-width colon/comma present
+}
+for k,v in checks.items():
+    print(k, v)
+print(\"total len\", len(s))
+print(\"tail 120:\", repr(s[-120:]))
+'@ | python -" in C:\Users\Administrator\Desktop\wiki
+2026-09-06T04:42:33.833252Z ERROR codex_core::tools::router: error=Exit code: 1
+Wall time: 0.2 seconds
+Output:
+heading True
+grade True
+m1 True
+m2 True
+anchor True
+disposition_todo True
+no_replacement_q True
+total len 14259
+tail 120: Traceback (most recent call last):
+  File "<stdin>", line 17, in <module>
+UnicodeEncodeError: 'gbk' codec can't encode character '\U0001f7e0' in position 37: illegal multibyte sequence
+
+ exited 1 in 197ms:
+heading True
+grade True
+m1 True
+m2 True
+anchor True
+disposition_todo True
+no_replacement_q True
+total len 14259
+tail 120: Traceback (most recent call last):
+  File "<stdin>", line 17, in <module>
+UnicodeEncodeError: 'gbk' codec can't encode character '\U0001f7e0' in position 37: illegal multibyte sequence
+
+The checks all passed:
+- heading True
+- grade True
+- m1 True
+- m2 True
+- anchor True (存在性核查)
+- disposition_todo True (TODO)
+- no_replacement_q True (full-width chars present)
+
+The error at the end was just the `repr(s[-120:])` failing because of the 🟠 emoji (U+1F7E0) when printing to GBK console. That's a harmless display error, not a file corruption.
+
+So the file is correctly written with proper UTF-8 Chinese. The `## 终审记录` section is present.
+
+Now let me run the review command again.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command 'python 90_control/scripts/queue_transition.py review 656 --verdict pass --reviewer 欧阳锋 --grade A-' in C:\Users\Administrator\Desktop\wiki
+ succeeded in 705ms:
+✅ task_20260906_huangyaoshi-channel-health-fallback 终审通过，状态更新为 reviewed，等级 A-
+✅ dashboard.html 已生成 (229 个任务)
+   待领取: 0  |  审查中: 0  |  进行中: 0  |  已完成: 229
+
+The review passed: status updated to reviewed, grade A-. Dashboard regenerated.
+
+Now I need to:
+1. 抄送王语嫣 (pass info + copy to王语嫣收件箱) — per my export rule 2: "通过信息必须同时抄送王语嫣（她收件箱一行指针）". 王语嫣's收件箱 = 90_control/todos/wangyuyan.md. I need to append a line to her todos about the pass.
+
+Wait, let me check: the rule says "通过信息必须同时抄送王语嫣（她收件箱一行指针，2026-09-02 老朱规则：通过→传递通过信息+抄送王语嫣→编排归王语嫣）". So I should append a line to wangyuyan.md todos.
+
+2. 完工在 90_control/todos/ouyangfeng.md 追加一行.
+
+3. 复盘 (Truman) + save + self-check.
+
+Let me also verify the task file status is now "reviewed" and grade A- (the script should have done this). And verify the queue row is updated.
+
+Also, I need to check whether I need to write a建议书. My review found:
+- M1/M2: 🟠 code bugs → these are "内容类问题" (deliverable defects), record-only (already in review record with TODO 落点). No建议书.
+- L1/L2/L3: 🔵 content issues in 王语嫣's supplement → record-only + 抄送王语嫣.
+
+Do any of these constitute "建议" that would trigger the建议书 rule? The 出口自检钩子 says: "发现问题节非空且含基建/流程/渠道/纪律/任何建议性条目 → 当轮内写建议书". My M1/M2 are code defects in the deliverable (channel_health.py), which is infrastructure code. Hmm. Are they "基建/流程建议" or "内容类问题"?
+
+Let me think carefully. The distinction:
+- 内容类问题（单卡内容缺陷）→ 记录即可，走审查意见。
+- 基建/流程/渠道/纪律/建议性 → 建议书。
+
+M1/M2 are bugs in the infrastructure script (channel_health.py) — but they're DEFECTS in the deliverable being reviewed, not suggestions about how the factory should operate. The review protocol's "审查意见" is exactly the channel for such defects (P0/P1/P2 + 字段级定位 + 证据 + 期望形态). So they belong in the review record (which I've done), not a separate建议书.
+
+The key trigger for建议书 is "建议" (suggestion) about infrastructure/process/channel/discipline — i.e., proposing a change to how the factory works, beyond the scope of the reviewed deliverable. M1/M2 are "fix this bug in your deliverable" — that's review feedback, not a factory-level suggestion.
+
+Also, the review was PASS (not FAIL), so these are non-blocking TODOs in the pass opinion. The pass opinion itself is export 2 (通过信息 + 抄送王语嫣). The TODOs go to 黄药师 (and L1-L3 to 王语嫣) via the review record.
+
+I don't think a separate建议书 is required here. My findings are all within the reviewed deliverable's scope (code defects + 台账 content fixes), which is "内容类问题 → 记录即可".
+
+Actually, wait. Let me reconsider the 口诀: "「建议」两字出现在验收记录/终审记录里 = 必须当天有对应建议书文件". My review record does NOT use the word "建议" (I used "落点/TODO" and "王语嫣补/更正/确认"). Let me verify my record doesn't contain "建议". Looking at my record: I wrote "落点/TODO：黄药师后续微单修..." and "落点：王语嫣补指纹" etc. No "建议" word. Good. So no建议书 trigger.
+
+But hold on — is there a risk that the L3 endpoint drift finding is actually a "基建/渠道建议" that should go to建议书? The L3 is about config.yaml base_url `/v1` vs VLM scripts `/anthropic` endpoint inconsistency. This is a documentation/config drift issue within the MiniMax channel (王语嫣's supplement). It's a content correction (台账 + config alignment), which I've recorded as 🔵 with 落点=王语嫣/洪七公确认. This is "内容类" (台账 content + config), not a factory-process suggestion. Record-only is fine.
+
+Actually, let me reconsider whether I'm overthinking. The core deliverable (#656) passed. My residual findings are:
+- 2 🟠 code bugs (in scope, TODO to 黄药师).
+- 3 🔵 台账 detail issues (王语嫣's supplement, 抄送).
+
+These are all "审查意见" content, properly dispositioned. No separate建议书 needed because I'm not proposing factory-level changes.
+
+OK, so my remaining actions:
+1. 抄送王语嫣: append a line to 90_control/todos/wangyuyan.md about #656 PASS + the 3 🔵 items for her to fix.
+2. Append to 90_control/todos/ouyangfeng.md (完工落账).
+3. Truman 复盘 + save + self-check.
+
+Let me first check the current state of the task file (verify status=reviewed, grade A-) and the queue row, then do the 抄送 and todos.
+
+Actually, let me also verify: the review command's output confirmed "状态更新为 reviewed，等级 A-". Good.
+
+For 抄送王语嫣, I need to append a line to her收件箱. Her收件箱 is 90_control/todos/wangyuyan.md (per CAPSULE_STARTUP: "角色待办收件箱（#501）→ 90_control/todos/<拼音角色名>.md"). Let me append a concise pointer line.
+
+Actually, wait — let me re-read the exact rule from ouyangfeng-context: "审查意见通过（PASS + 等级 A/A-/B+/B/B-/C）——通过信息必须同时抄送王语嫣（她收件箱一行指针，2026-09-02 老朱规则：通过→传递通过信息+抄送王语嫣→编排归王语嫣）".
+
+So I append one line to wangyuyan.md. The line should be a pointer: #656 PASS A- + the 3 🔵 items she needs to address (L1 指纹, L2 时间戳, L3 端点) + 2 🟠 M1/M2 → 黄药师.
+
+Let me write a concise line.
+
+Also, for my own todos (ouyangfeng.md), the format is: `[YYYY-MM-DD HH:MM] 动作+任务号+结果`.
+
+Let me get the current timestamp first.
+
+Actually, let me do these appends carefully using the .NET UTF8 method (to avoid encoding issues), or since the content is short, I can use Add-Content with UTF8... but PS5.1 Add-Content -Encoding UTF8 may add BOM. Let me use .NET AppendAllText with UTF8 (no BOM) for correctness.
+
+Let me write a single PowerShell command that:
+1. Appends to wangyuyan.md (抄送).
+2. Appends to ouyangfeng.md (落账).
+
+Both with .NET AppendAllText UTF8 no BOM.
+
+Let me get current time and do it.
+
+Actually, I should be careful about the todos file append: I need to append a NEW line at the end. Let me use `[System.IO.File]::AppendAllText($path, $line + "`r`n", $utf8)`.
+
+Let me draft the two lines.
+
+For wangyuyan.md (抄送王语嫣):
+`- [2026-09-06 12:40] 【终审通过 #656】channel-health-fallback PASS A-（四核全过/三条待裁同意；🟠M1 tool级去重+M2 relay上游误降级 → 黄药师后续微单修；🔵L1 行5指纹补 e0f4018e…oFdc / L2 行5时间戳12:40更正为实际挂载 / L3 minimax端点 /v1 vs /anthropic 需确认对齐）——编排归你`
+
+Hmm, that's a bit long but it's a "一行指针". Let me make it concise but informative.
+
+For ouyangfeng.md (落账):
+`- [2026-09-06 12:40] 终审 #656 huangyaoshi-channel-health-fallback PASS A-（预检真实现核过/fallback七条实账/台账五行本机回验含MiniMax独立探针200/回归273绿独立复跑；三条待裁同意；🟠2项 tool级去重+relay误降级放行留黄药师微单，🔵3项行5细节留王语嫣）`
+
+Let me get the current timestamp and append.
+
+Actually, I realize I should double-check the current time to use an accurate timestamp. Let me get it in the same command and use it dynamically, or just get it and then hardcode. Let me get it first.
+
+Actually, let me just do one command that gets the time, formats it, and appends both lines. Using PowerShell string formatting.
+
+Let me write it carefully.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command '$stamp = Get-Date -Format "yyyy-MM-dd HH:mm"
+$utf8 = [System.Text.UTF8Encoding]::new($false)
+$wy = "C:'"\\Users\\Administrator\\Desktop\\wiki\\90_control\\todos\\wangyuyan.md\"
+"'$of = "C:'"\\Users\\Administrator\\Desktop\\wiki\\90_control\\todos\\ouyangfeng.md\"
+"'$wyLine = "- [$stamp] 【终审通过 #656】channel-health-fallback PASS A-（四核全过/三条待裁同意；🟠M1 tool级去重 + M2 relay上游误降级 → 黄药师后续微单修；🔵L1 行5补指纹 e0f4018e…oFdc / L2 行5时间戳「12:40」更正为实际挂载 / L3 minimax 端点 /v1 vs /anthropic 需王语嫣+洪七公确认对齐）——编排归你"
+$ofLine = "- [$stamp] 终审 #656 huangyaoshi-channel-health-fallback PASS A-（预检真实现核过；fallback 七条实账；台账五行本机回验含 MiniMax 独立探针 200/186tokens；回归 273 绿独立复跑；三条待裁同意；🟠2 项 tool级去重+relay误降级放行留黄药师微单，🔵3 项行5细节留王语嫣）"
+[System.IO.File]::AppendAllText($wy, $wyLine + "`r`n", $utf8)
+[System.IO.File]::AppendAllText($of, $ofLine + "`r`n", $utf8)
+Write-Output "done at $stamp"
+Write-Output "===== wangyuyan tail ====="
+Get-Content -Tail 1 -Encoding UTF8 $wy
+Write-Output "===== ouyangfeng tail ====="
+Get-Content -Tail 1 -Encoding UTF8 $of' in C:\Users\Administrator\Desktop\wiki
+ succeeded in 217ms:
+done at 2026-09-06 12:43
+===== wangyuyan tail =====
+- [2026-09-06 12:43] 【终审通过 #656】channel-health-fallback PASS A-（四核全过/三条待裁同意；🟠M1 tool级去重 + M2 relay上游误降级 → 黄药师后续微单修；🔵L1 行5补指纹 e0f4018e…oFdc / L2 行5时间戳「12:40」更正为实际挂载 / L3 minimax 端点 /v1 vs /anthropic 需王语嫣+洪七公确认对齐）——编排归你
+===== ouyangfeng tail =====
+- [2026-09-06 12:43] 终审 #656 huangyaoshi-channel-health-fallback PASS A-（预检真实现核过；fallback 七条实账；台账五行本机回验含 MiniMax 独立探针 200/186tokens；回归 273 绿独立复跑；三条待裁同意；🟠2 项 tool级去重+relay误降级放行留黄药师微单，🔵3 项行5细节留王语嫣）
+
+Good. The 抄送王语嫣 and my own 落账 are done, with correct UTF-8 (Chinese preserved, emoji preserved).
+
+Now I need to do the Truman 复盘 + save + self-check (the 会话结束强制动作).
+
+Let me check the requirements:
+From AGENTS.md (top-level):
+1. 写 Truman 10章复盘 — 格式见 agents/agent-os.md §10.2（10章缺一不可）
+2. 保存+自检:
+```
+python kdo-tools/daily-context-save.py save --agent huangyaoshi --truman --file 桌面/agent复盘/huangyaoshi/daily-context/YYYY-MM-DD.md
+```
+Wait, that's for huangyaoshi. For ouyangfeng, the command is (from ouyangfeng-context):
+```
+python kdo-tools/daily-context-save.py save --agent ouyangfeng --truman --file 桌面/agent复盘/ouyangfeng/daily-context/YYYY-MM-DD.md
+```
+
+And the ouyangfeng-context says "写 Truman 11章复盘" (11 chapters). The AGENTS.md says 10章. There's a discrepancy.
+
+Let me check the agent-os.md §10.2 for the actual required chapter count, and check the daily-context-save.py to understand what "Truman" validation expects (10 vs 11 chapters).
+
+Also, the ouyangfeng-context 复盘 section says:
+0. 更新技能进化日志 — append one line to 桌面/agent复盘/欧阳锋/技能进化日志.md
+1. 更新失忆恢复锚点 (if changed)
+2. O0 溯源自检 (did I open source_refs?)
+3. 写 Truman 11章复盘 to 桌面/agent复盘/ouyangfeng/daily-context/YYYY-MM-DD.md
+4. 保存+自检
+
+Wait, there are TWO different paths mentioned:
+- ouyangfeng-context: "桌面/agent复盘/ouyangfeng/daily-context/YYYY-MM-DD.md" (pinyin ouyangfeng)
+- CAPSULE_STARTUP route: "桌面/agent复盘/ouyangfeng/daily-context/" (also pinyin)
+- but the 技能进化日志: "桌面/agent复盘/欧阳锋/技能进化日志.md" (Chinese 欧阳锋)
+
+Hmm, inconsistent paths. Let me check what actually exists on disk. The复盘 directory is at Desktop level (wiki外): C:\Users\Administrator\Desktop\agent复盘\.
+
+Let me check the actual directory structure to determine the correct paths and the existing daily-context files (to read the latest and match format).
+
+Also, let me check the agent-os.md §10.2 format and the daily-context-save.py to understand the exact requirements (chapter count, validation).
+
+Let me explore:
+1. C:\Users\Administrator\Desktop\agent复盘\ structure.
+2. kdo-tools/daily-context-save.py (to understand --truman validation and chapter requirements).
+3. agent-os.md §10.2 (format).
+
+Let me do these reads.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "Get-ChildItem \"C:\\Users\\Administrator\\Desktop\\agent复盘\" -Force -ErrorAction SilentlyContinue | Select-Object Name,Mode; Write-Output \"===== ouyangfeng dir =====\"; Get-ChildItem \"C:\\Users\\Administrator\\Desktop\\agent复盘\\ouyangfeng\" -Force -ErrorAction SilentlyContinue | Select-Object Name,Mode,LastWriteTime; Write-Output \"===== 欧阳锋 dir (if exists) =====\"; Get-ChildItem \"C:\\Users\\Administrator\\Desktop\\agent复盘\\欧阳锋\" -Force -ErrorAction SilentlyContinue | Select-Object Name,Mode,LastWriteTime" in C:\Users\Administrator\Desktop\wiki
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command '$f = Get-ChildItem -Recurse -Filter "agent-os.md" -ErrorAction SilentlyContinue | Select-Object -First 1; if ($f) { Write-Output "FOUND: $($f.FullName)"; Select-String -Path $f.FullName -Pattern "10'"\\.2|Truman|十一|11章|十章|10章\" -Context 0,40 | Select-Object -First 20 | ForEach-Object { \"L\"+"'$_.LineNumber+": "+$_.Line; $_.Context.PostContext } } else { Write-Output "agent-os.md not found" }' in C:\Users\Administrator\Desktop\wiki
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command 'Get-Content -Raw -Encoding UTF8 kdo-tools/daily-context-save.py -ErrorAction SilentlyContinue | Select-String -Pattern "truman|章|11|10|--truman|save" -Context 1,3 | Select-Object -First 80 | ForEach-Object { $_.Line }' in C:\Users\Administrator\Desktop\wiki
+ succeeded in 293ms:
+
+Name                      Mode  
+----                      ----  
+.git                      d--h-l
+AI基本功教练                   d----l
+codebuddy                 d----l
+codex                     d----l
+duanwangye                d----l
+fengqingyang              d----l
+hongqigong                d----l
+huangyaoshi               d----l
+Kimi                      d----l
+kimi-code                 d----l
+laowantong                d----l
+ouyangfeng                d----l
+wangyuyan                 d----l
+_archive                  d----l
+教练式领导力助理                  d----l
+欧阳锋                       d----l
+段王爷                       d----l
+洪七公                       d----l
+科学开会助理                    d----l
+老顽童                       d----l
+销售对话参谋                    d----l
+黄药师                       d----l
+.gitignore                -a---l
+README.md                 -a---l
+===== ouyangfeng dir =====
+cn-track-archive-20260819 d----l
+daily-context             d----l
+friction-log.md           -a---l
+技能进化日志.md                 -a---l
+用户反馈档案.md                 -a---l
+索引.md                     -a---l
+能力雷达图.md                  -a---l
+错误模式库.md                  -a---l
+===== 欧阳锋 dir (if exists) =====
+DEPRECATED.md             -a---l
+技能进化日志.md                 -a---l
+
+
+
+ succeeded in 283ms:
+#!/usr/bin/env python3
+"""
+Agent 每日上下文自动存储——双写管线 + Truman 模板 + 自动自检。
+
+每次保存同时写入两个位置：
+  1. 桌面 agent复盘/<agent>/daily-context/YYYY-MM-DD.md  （人看）
+  2. 60_feedback/session-archives/YYYY-MM-DD/{agent-id}.md （Agent检索+kdo query可查）
+
+Usage:
+  python kdo-tools/daily-context-save.py save --agent <id> --truman --stdin  # 从 stdin 读复盘（推荐）
+  python kdo-tools/daily-context-save.py save --agent <id> --text "<摘要>" [--truman]
+  python kdo-tools/daily-context-save.py list --agent <id>
+"""
+
+import argparse
+import re
+import sys
+from datetime import datetime, timezone
+from pathlib import Path
+
+WIKI = Path(__file__).resolve().parent.parent
+REVIEW_DIR = Path.home() / "Desktop" / "agent复盘"
+ARCHIVE_DIR = WIKI / "60_feedback" / "session-archives"
+
+TRUMAN_TEMPLATE = """## 差异栏
+> #268：本次 vs 上次复盘哪里不同——新的视角/复发的模式/被打破的假设。空白 = 重复自审 = C 级。
+
+1.
+
+## 概要
+> 一句话：今天做了什么？
+
+
+
+## 关键决策
+
+| 决策 | 理由 | 结果 |
+|:---|:---|:---|
+| | | |
+
+## 思维盲点
+> ≥1条：什么被漏掉了？每条追问"为什么漏掉"。
+
+1.
+
+## 顿悟
+> ≥1条：什么基础认知被推翻了？
+
+1.
+
+## 过程资产
+
+| 新增/更新 | 路径 |
+|:---|:---|
+| | |
+
+## 元反思
+> 下次怎么做才能不一样？
+
+1.
+
+---
+
+## Truman复盘
+
+### 逐轮映射
+
+| 轮次 | 人做了什么 | 双三角 | AI做了什么 | 双三角 |
+|:---|:---|:---|:---|:---|
+| 1 | | | | |
+
+### 飞轮效应
+> 本轮加速了哪个回路？
+
+
+
+### 对照实验
+- 无人协作：人需要____小时
+- 无AI协作：AI只能产出____分
+- 合在一起：____分钟，质量____
+
+### 下次改进
+- Agent自身：____
+- 方法论卡更新：____
+"""
+
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
+
+
+def now_iso():
+    return datetime.now(timezone.utc).isoformat()
+
+
+def _run_review_check(agent: str) -> str:
+    """运行 review-check.py 并返回等级字符串。"""
+    try:
+        import importlib.util
+        rc_path = Path(__file__).parent / "review-check.py"
+        spec = importlib.util.spec_from_file_location("review_check", str(rc_path))
+        rc = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(rc)
+        today = datetime.now().strftime("%Y-%m-%d")
+        results = rc.check_agent(agent, today)
+        if not results or results[0]["status"] != "ok":
+            return "❌ 未复盘"
+        result = results[0]  # 取第一个实例的结果用于自检显示
+        g = result.get("grade", "?")
+        e = result.get("emoji", "")
+        if result.get("retrieval", {}).get("has_discovery"):
+            return f"{e} {g}级 📚检索有发现"
+        elif result.get("retrieval", {}).get("has_retrieval"):
+            return f"{e} {g}级 ✅已检索"
+        return f"{e} {g}级 ⚠️未检索wiki"
+    except Exception as ex:
+        return f"⚠️ {ex}"
+
+
+# #456：agent_id 口径——拼音角色名唯一（与 #444 frontmatter assignee 口径同族）
+AGENT_ID_CN_MAP = {
+    "老顽童": "laowantong", "欧阳锋": "ouyangfeng", "黄药师": "huangyaoshi",
+    "王语嫣": "wangyuyan", "洪七公": "hongqigong", "段王爷": "duanwangye",
+    "风清扬": "fengqingyang",
+}
+_AGENT_ID_TEST_RE = re.compile(r"__.*__$")
+
+
+def _normalize_agent_id(agent: str) -> str | None:
+    """#456：写入端口径对齐——中文角色名映射拼音；测试残留（__x__）拒绝写入。
+
+    返回 None = 拒绝（防 __test434__ 类测试残留继续混入 L1 库）。
+    """
+    agent = AGENT_ID_CN_MAP.get(agent, agent)
+    if _AGENT_ID_TEST_RE.match(agent):
+        return None
+    return agent
+
+
+def _write_l0_event(agent: str, desktop_path: Path, grade: str) -> None:
+    """#434：复盘保存成功 → 写 L0 事件（event_type=review_saved）。
+
+    失败不阻断复盘保存（复盘是主产物），但必须 stderr 醒目报警 + 落待收口记录——禁止静默吞。
+    """
+    agent = _normalize_agent_id(agent)  # #456：口径对齐，None=测试残留拒绝
+    if agent is None:
+        print("⛔ 胶囊 L0 跳过写入：agent_id 为测试残留（__x__ 模式，#456 口径）", file=sys.stderr)
+        return
+    try:
+        sys.path.insert(0, str(Path(__file__).resolve().parent))
+        import memory_capsule as mc
+        if not mc.A_DB.exists():
+            mc.cmd_init()
+        text = desktop_path.read_text(encoding="utf-8", errors="ignore")
+        # #512：去重签名基于正文（剥 frontmatter/标题层）——重打只变时间戳时签名不变，
+        # 同内容重打不刷屏；正文真实变化 → 签名变 → 正常留新事件
+        content_sig = mc._sha256(_strip_existing_layers(text))[:16]
+        payload = (
+            f"path={desktop_path};grade={grade};size={len(text.encode('utf-8'))};"
+            f"content_hash={content_sig}"
+        )
+        # #512：同内容重打不刷屏——同 agent+event_type+payload_hash 已存在则跳过
+        # （覆盖写后重打=同一文件替换，事件层只对"内容真实变化"留痕）
+        try:
+            con = mc._connect(mc.A_DB)
+            dup = con.execute(
+                "SELECT 1 FROM activity_log WHERE agent_id=? AND event_type=? AND payload_hash=? LIMIT 1",
+                (agent, "review_saved", mc._sha256(payload))).fetchone()
+            con.close()
+            if dup:
+                print("🧪 胶囊 L0 跳过：同内容事件已存在（#512 重打不刷屏）")
+                return
+        except Exception:
+            pass  # 查重失败不阻断写入（主流程=留痕）
+        mc.cmd_log(agent=agent, event="review_saved", payload=payload, session=None)
+        print("🧪 胶囊 L0 已留痕: agent=%s event=review_saved" % agent)
+    except Exception as e:
+        print(f"⛔ 胶囊 L0 写入失败（复盘已保存，不阻断）：{e}", file=sys.stderr)
+        try:
+            log_path = Path(__file__).resolve().parent.parent / "90_control" / "pending-git-commits.log"
+            with open(log_path, "a", encoding="utf-8") as f:
+                f.write(f"\n# {datetime.now().strftime('%Y-%m-%d %H:%M')} 胶囊 L0 写入失败（#434）agent={agent} grade={grade}: {e}\n")
+        except Exception:
+            pass
+
+    # #464：镜像保存后联动——save→log→mirror 一条链（事件驱动非 cron，老朱时间锚）
+    try:
+        import memory_capsule as mc
+        mc.cmd_mirror()
+        ok = mc.cmd_verify() == 0
+        if not ok:
+            print("⛔ 胶囊镜像 verify 不一致（#464）——B 镜像滞后，请手动检查", file=sys.stderr)
+    except Exception as e:
+        print(f"⛔ 胶囊镜像失败（复盘已保存，不阻断）：{e}", file=sys.stderr)
+        try:
+            log_path = Path(__file__).resolve().parent.parent / "90_control" / "pending-git-commits.log"
+            with open(log_path, "a", encoding="utf-8") as f:
+                f.write(f"\n# {datetime.now().strftime('%Y-%m-%d %H:%M')} 胶囊镜像失败（#464）agent={agent}: {e}\n")
+        except Exception:
+            pass
+
+
+def _strip_existing_layers(body: str) -> str:
+    """#512 重打覆盖写：剥掉输入文件既有的 frontmatter 层与 save 生成的旧标题行
+    （可多层堆叠），只留正文内容，再套新 frontmatter——同 agent 同日同文件重打=替换不追加。
+
+    旧标题行只匹配 save 生成格式 `# <agent> · <YYYY-MM-DD>[-instance]`（日期结尾），
+    Truman 内容标题（`# Truman 11章复盘 · ...（后缀）`）不匹配不误伤。
+    """
+    import re
+    title_re = re.compile(r"^# [^·\n]+ · \d{4}-\d{2}-\d{2}(-[A-Za-z0-9]+)?\s*$")
+    text = body.strip()
+    changed = True
+    while changed:
+        changed = False
+        if text.startswith("---"):
+            parts = text.split("---", 2)
+            if len(parts) >= 3:
+                text = parts[2].strip()
+                changed = True
+        lines = text.splitlines()
+        if lines and title_re.match(lines[0]):
+            text = "\n".join(lines[1:]).strip()
+            changed = True
+    return text
+
+
+def cmd_save(args):
+    agent = args.agent
+    today = datetime.now().strftime("%Y-%m-%d")
+    instance = getattr(args, "instance", "") or ""
+    ts = now_iso()
+    session_id = f"{agent}-{today}" + (f"-{instance}" if instance else "")
+
+    # 读取复盘内容：优先级 --file > --stdin > --text
+    body = ""
+    if getattr(args, "file", ""):
+        fp = Path(args.file)
+        if fp.exists():
+            body = fp.read_text(encoding="utf-8")
+        else:
+            print(f"❌ 文件不存在：{args.file}", file=sys.stderr)
+            return 1
+    elif getattr(args, "stdin", False):
+        body = sys.stdin.read()
+    else:
+        body = args.text or ""
+
+    fm_lines = [
+        "---",
+        f"session_id: {session_id}",
+        f"agent_id: {agent}",
+        f"date: {today}",
+        f"created_at: {ts}",
+        f"updated_at: {ts}",
+    ]
+    # #369：留痕——wiki 仓 git_head + 正文 content_hash（手改可检测）
+    try:
+        import hashlib, subprocess as _sp
+        head = _sp.run(["git", "-C", str(WIKI), "rev-parse", "--short", "HEAD"],
+                       capture_output=True, text=True, timeout=10).stdout.strip()
+    except Exception:
+        head = "unknown"
+    fm_lines.append(f"git_head: {head or 'unknown'}")
+    fm_lines.append("---")
+    fm = "\n".join(fm_lines)
+
+    # Truman 模板模式：内容直接作为正文（不再套 Agent 输入壳）
+    # #512：重打覆盖写——--file 输入若带既有 frontmatter/旧标题层（上次 save 产物），
+    # 先剥层再套新 frontmatter（重打=替换不追加，多层堆叠根治）
+    if getattr(args, "truman", False):
+        if body.strip():
+            full_body = _strip_existing_layers(body)
+        else:
+            full_body = TRUMAN_TEMPLATE
+    else:
+        full_body = _strip_existing_layers(body) if body.strip() else "(无内容)"
+
+    content = f"{fm}\n\n# {agent} · {today}\n\n{full_body}\n"
+    # #369：content_hash 基于最终正文（frontmatter 除 hash 行外）——手改可检测
+    try:
+        import hashlib
+        content_hash = hashlib.sha256(content.encode("utf-8")).hexdigest()[:12]
+        content = content.replace("---\n\n# ", f"content_hash: {content_hash}\n---\n\n# ", 1)
+    except Exception:
+        pass
+
+    # Write 1: Desktop (human-readable)
+    desktop_dir = REVIEW_DIR / agent / "daily-context"
+    desktop_dir.mkdir(parents=True, exist_ok=True)
+    filename = f"{today}-{instance}.md" if instance else f"{today}.md"
+    desktop_path = desktop_dir / filename
+    desktop_path.write_text(content, encoding="utf-8")
+
+    # Write 2: Archive (agent-searchable, kdo query can find)
+    archive_dir = ARCHIVE_DIR / today
+    archive_dir.mkdir(parents=True, exist_ok=True)
+    archive_name = f"{agent}-{instance}.md" if instance else f"{agent}.md"
+    archive_path = archive_dir / archive_name
+    archive_path.write_text(content, encoding="utf-8")
+
+    print(f"✅ 已保存：{desktop_path}")
+    print(f"✅ 已存档：{archive_path.relative_to(WIKI)}")
+
+    # 自动跑 review-check 并显示等级
+    grade = _run_review_check(agent)
+    print(f"📋 自检：{grade}")
+
+    if grade.startswith("🔴"):
+        print(f"⛔ C 级不合格——请用 Write 工具打开上述文件，补充缺失章节后重跑：")
+        print(f"   python {Path(__file__).name} save --agent {agent} --truman --file {desktop_path}")
+
+    # #434：L0 自动写入端——save 成功即写胶囊事件（失败不阻断保存，stderr 醒目报警，禁静默吞）
+    _write_l0_event(agent, desktop_path, grade)
+
+    return 0
+
+
+def cmd_list(args):
+    agent = args.agent
+    d = REVIEW_DIR / agent / "daily-context"
+    if not d.exists():
+        print("暂无上下文记录")
+        return 0
+    files = sorted(d.glob("*.md"), reverse=True)
+    print(f"{agent} 每日上下文（{len(files)} 条）")
+    for f in files[:10]:
+        size = f.stat().st_size
+        fname = f.stem
+        # Quick quality check
+        content = f.read_text(encoding="utf-8", errors="ignore")
+        ch_count = sum(1 for ch in ["概要", "关键决策", "思维盲点", "顿悟", "逐轮映射"] if ch in content)
+        flag = "✅" if ch_count >= 5 else "⚠️" if ch_count >= 3 else "❌"
+        print(f"  {fname} — {size}B {flag} ({ch_count}/5 关键章)")
+    return 0
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Agent 每日上下文存储")
+    sub = parser.add_subparsers(dest="cmd", required=True)
+
+    p_save = sub.add_parser("save", help="保存今日上下文")
+    p_save.add_argument("--agent", required=True)
+    p_save.add_argument("--instance", default="", help="实例标识（如 hermes/kimi/claude）——多实例 Agent 按实例分文件，避免互相覆盖")
+    p_save.add_argument("--text", default="", help="上下文摘要（短内容用；长内容用 --stdin 或 --file）")
+    p_save.add_argument("--stdin", action="store_true", help="从标准输入读取复盘内容（管道输入）")
+    p_save.add_argument("--file", default="", help="从指定文件读取复盘内容（Agent 先 Write 到此路径）")
+    p_save.add_argument("--truman", action="store_true", help="Truman 11章模式：纯模板 / 配合 --stdin/--file 保存复盘")
+
+    p_list = sub.add_parser("list", help="列出历史上下文")
+    p_list.add_argument("--agent", required=True)
+
+    args = parser.parse_args()
+    if args.cmd == "save":
+        return cmd_save(args)
+    elif args.cmd == "list":
+        return cmd_list(args)
+
+
+if __name__ == "__main__":
+    sys.exit(main())
+
+
+ succeeded in 801ms:
+FOUND: C:\Users\Administrator\Desktop\wiki\agents\agent-os.md
+L191: ### 10.2 唯一标准格式
+
+**所有 Agent 统一使用 Truman YAI 复盘法——以下 11 章缺一不可：**
+
+```
+## 差异栏（第 1 章，#268：本次 vs 上次复盘哪里不同——新的视角/复发的模式/被打破的假设。空白=重复自审，降级为 C 级）
+## 概要（一句话：今天做了什么）
+## 关键决策（表格：决策/理由/结果）
+## 思维盲点（≥1条：什么被漏掉了？每条追问"为什么漏掉"）
+## 顿悟（≥1条：什么基础认知被推翻了？）
+## 过程资产（新增/更新的文件路径清单）
+## 元反思（下次怎么做才能不一样？）
+
+## Truman复盘
+### 逐轮映射（表格：轮次/人做什么/双三角要素/AI做什么/双三角要素）
+### 飞轮效应（本轮加速了哪个回路？）
+### 对照实验（无人会怎样/无AI会怎样/合在一起怎样）
+### 下次改进（Agent自身改进/方法论卡更新）
+```
+
+> **为什么有差异栏**（2026-08-09 #268，ParamMem 调研）：反思多样性 > 重复反思。模板化复盘的隐患是"每次都写同样的话"，自审失去信息量。差异栏强制回答"这轮和上轮哪里不同"——新的视角、复发的模式、被打破的假设，任选其一，不可空白。
+
+**禁止使用任何其他复盘格式。** 各 Agent 的 `-context.md` 不得定义独立的复盘模板——全部引用本协议。
+
+### 10.3 执行时机
+
+**核心规则：会话结束时立即复盘，不设固定时间节点，不延迟到次日。**
+
+延迟复盘 = 降级复盘。逐轮映射和思维盲点离开会话上下文就失真。
+
+| 场景 | 规则 |
+|:--|:--|
+| **短会话**（同日开始并结束） | 会话结束 → 立即写完整 Truman 11章 → `daily-context/YYYY-MM-DD.md` |
+| **一日多会话**（同日开多次） | 每次会话结束 → 追加到同一个 `YYYY-MM-DD.md`，文件开头标注"本日共 N 次会话" |
+
+> **命名铁律（老朱 2026-08-25 拍板）**：复盘文件名与 session_id/instance 标记**只用角色名，禁工具名后缀**（`-kimi`/`-claude`/`-hermes` 一律不得使用——工具是变量，角色是恒量；工具名做机制键已咬人：INSTANCE_ROLE_MAP kimi→laowantong 误写 assignee，#497/#503 实证）。同日多实例=同一文件追加（见上表），不另开带后缀文件。历史带后缀文件不回改，只向前生效。
+| **长会话跨天**（如23:00→次日02:00） | 当天收尾前 → 写 **checkpoint 复盘**（简版：概要+当前进度+明天继续点，≥500B）。次日会话最终结束 → 写完整 Truman 11章，开头注明"承接 XX-XX 会话"。两份文件：`跨天日.md`（checkpoint）+ `结束日.md`（完整版） |
+| **无会话日** | 该 Agent 今天没有启动过 → 不强制复盘。review-check 自动跳过 |
+| **会话横跨多日**（长项目） | 每天写 checkpoint，最后一天完整复盘 |
+
+**兜底机制（防止遗漏）**：
+L193: **所有 Agent 统一使用 Truman YAI 复盘法——以下 11 章缺一不可：**
+
+```
+## 差异栏（第 1 章，#268：本次 vs 上次复盘哪里不同——新的视角/复发的模式/被打破的假设。空白=重复自审，降级为 C 级）
+## 概要（一句话：今天做了什么）
+## 关键决策（表格：决策/理由/结果）
+## 思维盲点（≥1条：什么被漏掉了？每条追问"为什么漏掉"）
+## 顿悟（≥1条：什么基础认知被推翻了？）
+## 过程资产（新增/更新的文件路径清单）
+## 元反思（下次怎么做才能不一样？）
+
+## Truman复盘
+### 逐轮映射（表格：轮次/人做什么/双三角要素/AI做什么/双三角要素）
+### 飞轮效应（本轮加速了哪个回路？）
+### 对照实验（无人会怎样/无AI会怎样/合在一起怎样）
+### 下次改进（Agent自身改进/方法论卡更新）
+```
+
+> **为什么有差异栏**（2026-08-09 #268，ParamMem 调研）：反思多样性 > 重复反思。模板化复盘的隐患是"每次都写同样的话"，自审失去信息量。差异栏强制回答"这轮和上轮哪里不同"——新的视角、复发的模式、被打破的假设，任选其一，不可空白。
+
+**禁止使用任何其他复盘格式。** 各 Agent 的 `-context.md` 不得定义独立的复盘模板——全部引用本协议。
+
+### 10.3 执行时机
+
+**核心规则：会话结束时立即复盘，不设固定时间节点，不延迟到次日。**
+
+延迟复盘 = 降级复盘。逐轮映射和思维盲点离开会话上下文就失真。
+
+| 场景 | 规则 |
+|:--|:--|
+| **短会话**（同日开始并结束） | 会话结束 → 立即写完整 Truman 11章 → `daily-context/YYYY-MM-DD.md` |
+| **一日多会话**（同日开多次） | 每次会话结束 → 追加到同一个 `YYYY-MM-DD.md`，文件开头标注"本日共 N 次会话" |
+
+> **命名铁律（老朱 2026-08-25 拍板）**：复盘文件名与 session_id/instance 标记**只用角色名，禁工具名后缀**（`-kimi`/`-claude`/`-hermes` 一律不得使用——工具是变量，角色是恒量；工具名做机制键已咬人：INSTANCE_ROLE_MAP kimi→laowantong 误写 assignee，#497/#503 实证）。同日多实例=同一文件追加（见上表），不另开带后缀文件。历史带后缀文件不回改，只向前生效。
+| **长会话跨天**（如23:00→次日02:00） | 当天收尾前 → 写 **checkpoint 复盘**（简版：概要+当前进度+明天继续点，≥500B）。次日会话最终结束 → 写完整 Truman 11章，开头注明"承接 XX-XX 会话"。两份文件：`跨天日.md`（checkpoint）+ `结束日.md`（完整版） |
+| **无会话日** | 该 Agent 今天没有启动过 → 不强制复盘。review-check 自动跳过 |
+| **会话横跨多日**（长项目） | 每天写 checkpoint，最后一天完整复盘 |
+
+**兜底机制（防止遗漏）**：
+
+```
+L204: ## Truman复盘
+### 逐轮映射（表格：轮次/人做什么/双三角要素/AI做什么/双三角要素）
+### 飞轮效应（本轮加速了哪个回路？）
+### 对照实验（无人会怎样/无AI会怎样/合在一起怎样）
+### 下次改进（Agent自身改进/方法论卡更新）
+```
+
+> **为什么有差异栏**（2026-08-09 #268，ParamMem 调研）：反思多样性 > 重复反思。模板化复盘的隐患是"每次都写同样的话"，自审失去信息量。差异栏强制回答"这轮和上轮哪里不同"——新的视角、复发的模式、被打破的假设，任选其一，不可空白。
+
+**禁止使用任何其他复盘格式。** 各 Agent 的 `-context.md` 不得定义独立的复盘模板——全部引用本协议。
+
+### 10.3 执行时机
+
+**核心规则：会话结束时立即复盘，不设固定时间节点，不延迟到次日。**
+
+延迟复盘 = 降级复盘。逐轮映射和思维盲点离开会话上下文就失真。
+
+| 场景 | 规则 |
+|:--|:--|
+| **短会话**（同日开始并结束） | 会话结束 → 立即写完整 Truman 11章 → `daily-context/YYYY-MM-DD.md` |
+| **一日多会话**（同日开多次） | 每次会话结束 → 追加到同一个 `YYYY-MM-DD.md`，文件开头标注"本日共 N 次会话" |
+
+> **命名铁律（老朱 2026-08-25 拍板）**：复盘文件名与 session_id/instance 标记**只用角色名，禁工具名后缀**（`-kimi`/`-claude`/`-hermes` 一律不得使用——工具是变量，角色是恒量；工具名做机制键已咬人：INSTANCE_ROLE_MAP kimi→laowantong 误写 assignee，#497/#503 实证）。同日多实例=同一文件追加（见上表），不另开带后缀文件。历史带后缀文件不回改，只向前生效。
+| **长会话跨天**（如23:00→次日02:00） | 当天收尾前 → 写 **checkpoint 复盘**（简版：概要+当前进度+明天继续点，≥500B）。次日会话最终结束 → 写完整 Truman 11章，开头注明"承接 XX-XX 会话"。两份文件：`跨天日.md`（checkpoint）+ `结束日.md`（完整版） |
+| **无会话日** | 该 Agent 今天没有启动过 → 不强制复盘。review-check 自动跳过 |
+| **会话横跨多日**（长项目） | 每天写 checkpoint，最后一天完整复盘 |
+
+**兜底机制（防止遗漏）**：
+
+```
+L1 自查：Agent 次日启动 → 先检查昨天有没有复盘文件 → 没有？先补 checkpoint 再领任务
+L2 审计：每日 09:07 → 黄药师跑 review-check.py → 产覆盖率日报 → 未复盘者通报
+```
+
+### 10.4 质量等级（不是写了就算——要写到位）
+
+| 等级 | 标准 | review-check 输出 |
+|:--|:--|:--|
+| **A 级** | ≥3000B + 11章全有 + 盲点≥2条且每条追问了"为什么漏掉" + 差异栏非空白 | 🟢 深度复盘 |
+| **B 级** | ≥1500B + 8章以上 + 盲点≥1条 | 🟡 基本合格 |
+| **C 级** | 文件存在但不满足 B 级 / checkpoint 简版 / **差异栏空白（重复自审）** | 🔴 形式主义 |
+L223: | **短会话**（同日开始并结束） | 会话结束 → 立即写完整 Truman 11章 → `daily-context/YYYY-MM-DD.md` |
+| **一日多会话**（同日开多次） | 每次会话结束 → 追加到同一个 `YYYY-MM-DD.md`，文件开头标注"本日共 N 次会话" |
+
+> **命名铁律（老朱 2026-08-25 拍板）**：复盘文件名与 session_id/instance 标记**只用角色名，禁工具名后缀**（`-kimi`/`-claude`/`-hermes` 一律不得使用——工具是变量，角色是恒量；工具名做机制键已咬人：INSTANCE_ROLE_MAP kimi→laowantong 误写 assignee，#497/#503 实证）。同日多实例=同一文件追加（见上表），不另开带后缀文件。历史带后缀文件不回改，只向前生效。
+| **长会话跨天**（如23:00→次日02:00） | 当天收尾前 → 写 **checkpoint 复盘**（简版：概要+当前进度+明天继续点，≥500B）。次日会话最终结束 → 写完整 Truman 11章，开头注明"承接 XX-XX 会话"。两份文件：`跨天日.md`（checkpoint）+ `结束日.md`（完整版） |
+| **无会话日** | 该 Agent 今天没有启动过 → 不强制复盘。review-check 自动跳过 |
+| **会话横跨多日**（长项目） | 每天写 checkpoint，最后一天完整复盘 |
+
+**兜底机制（防止遗漏）**：
+
+```
+L1 自查：Agent 次日启动 → 先检查昨天有没有复盘文件 → 没有？先补 checkpoint 再领任务
+L2 审计：每日 09:07 → 黄药师跑 review-check.py → 产覆盖率日报 → 未复盘者通报
+```
+
+### 10.4 质量等级（不是写了就算——要写到位）
+
+| 等级 | 标准 | review-check 输出 |
+|:--|:--|:--|
+| **A 级** | ≥3000B + 11章全有 + 盲点≥2条且每条追问了"为什么漏掉" + 差异栏非空白 | 🟢 深度复盘 |
+| **B 级** | ≥1500B + 8章以上 + 盲点≥1条 | 🟡 基本合格 |
+| **C 级** | 文件存在但不满足 B 级 / checkpoint 简版 / **差异栏空白（重复自审）** | 🔴 形式主义 |
+| — | 文件不存在 | ❌ 未复盘 |
+
+**Phase 1 里程碑**：连续 7 天全 Agent 复盘达到 B 级以上。
+**Phase 2 里程碑**：连续 7 天全 Agent A 级占比 ≥ 80%。
+
+### 10.4.1 域知识检索要求（B 级及以上强制）
+
+复盘中的「思维盲点」和「元反思」章节必须包含对知识检索行为的审视：
+
+- **B 级要求**：至少记录 1 次"本次对话中涉及域知识问题时，是否检索了 wiki"
+- **A 级要求**：至少记录 1 次"检索 wiki 后发现了什么之前不知道的内容 / 纠正了什么错误认知"
+
+**为什么**：Agent 天然倾向于凭训练数据记忆回答域知识问题，但训练数据 ≠ wiki 最新内容。不复盘检索行为 = 无法发现"Agent 在瞎说"的系统性风险。
+
+### 10.5 执行命令（会话结束时必须跑）
+
+```bash
+# 保存每日上下文到桌面数据包（路径固定，不可写错）
+python kdo-tools/daily-context-save.py save --agent <id> --text "<Truman 11章完整内容>"
+L227: | **长会话跨天**（如23:00→次日02:00） | 当天收尾前 → 写 **checkpoint 复盘**（简版：概要+当前进度+明天继续点，≥500B）。次日会话最终结束 → 写完整 Truman 11章，开头注明"承接 XX-XX 会话"。两份文件：`跨天日.md`（checkpoint）+ `结束日.md`（完整版） |
+| **无会话日** | 该 Agent 今天没有启动过 → 不强制复盘。review-check 自动跳过 |
+| **会话横跨多日**（长项目） | 每天写 checkpoint，最后一天完整复盘 |
+
+**兜底机制（防止遗漏）**：
+
+```
+L1 自查：Agent 次日启动 → 先检查昨天有没有复盘文件 → 没有？先补 checkpoint 再领任务
+L2 审计：每日 09:07 → 黄药师跑 review-check.py → 产覆盖率日报 → 未复盘者通报
+```
+
+### 10.4 质量等级（不是写了就算——要写到位）
+
+| 等级 | 标准 | review-check 输出 |
+|:--|:--|:--|
+| **A 级** | ≥3000B + 11章全有 + 盲点≥2条且每条追问了"为什么漏掉" + 差异栏非空白 | 🟢 深度复盘 |
+| **B 级** | ≥1500B + 8章以上 + 盲点≥1条 | 🟡 基本合格 |
+| **C 级** | 文件存在但不满足 B 级 / checkpoint 简版 / **差异栏空白（重复自审）** | 🔴 形式主义 |
+| — | 文件不存在 | ❌ 未复盘 |
+
+**Phase 1 里程碑**：连续 7 天全 Agent 复盘达到 B 级以上。
+**Phase 2 里程碑**：连续 7 天全 Agent A 级占比 ≥ 80%。
+
+### 10.4.1 域知识检索要求（B 级及以上强制）
+
+复盘中的「思维盲点」和「元反思」章节必须包含对知识检索行为的审视：
+
+- **B 级要求**：至少记录 1 次"本次对话中涉及域知识问题时，是否检索了 wiki"
+- **A 级要求**：至少记录 1 次"检索 wiki 后发现了什么之前不知道的内容 / 纠正了什么错误认知"
+
+**为什么**：Agent 天然倾向于凭训练数据记忆回答域知识问题，但训练数据 ≠ wiki 最新内容。不复盘检索行为 = 无法发现"Agent 在瞎说"的系统性风险。
+
+### 10.5 执行命令（会话结束时必须跑）
+
+```bash
+# 保存每日上下文到桌面数据包（路径固定，不可写错）
+python kdo-tools/daily-context-save.py save --agent <id> --text "<Truman 11章完整内容>"
+```
+
+> 上下文路径：`桌面/agent复盘/<agent-id>/daily-context/YYYY-MM-DD.md`
+> `<agent-id>` 统一使用英文小写：`huangyaoshi`, `wangyuyan`, `laowantong`, `ouyangfeng`, `hongqigong`, `duanwangye`, `sales-dialogue-assistant`
+L242: | **A 级** | ≥3000B + 11章全有 + 盲点≥2条且每条追问了"为什么漏掉" + 差异栏非空白 | 🟢 深度复盘 |
+| **B 级** | ≥1500B + 8章以上 + 盲点≥1条 | 🟡 基本合格 |
+| **C 级** | 文件存在但不满足 B 级 / checkpoint 简版 / **差异栏空白（重复自审）** | 🔴 形式主义 |
+| — | 文件不存在 | ❌ 未复盘 |
+
+**Phase 1 里程碑**：连续 7 天全 Agent 复盘达到 B 级以上。
+**Phase 2 里程碑**：连续 7 天全 Agent A 级占比 ≥ 80%。
+
+### 10.4.1 域知识检索要求（B 级及以上强制）
+
+复盘中的「思维盲点」和「元反思」章节必须包含对知识检索行为的审视：
+
+- **B 级要求**：至少记录 1 次"本次对话中涉及域知识问题时，是否检索了 wiki"
+- **A 级要求**：至少记录 1 次"检索 wiki 后发现了什么之前不知道的内容 / 纠正了什么错误认知"
+
+**为什么**：Agent 天然倾向于凭训练数据记忆回答域知识问题，但训练数据 ≠ wiki 最新内容。不复盘检索行为 = 无法发现"Agent 在瞎说"的系统性风险。
+
+### 10.5 执行命令（会话结束时必须跑）
+
+```bash
+# 保存每日上下文到桌面数据包（路径固定，不可写错）
+python kdo-tools/daily-context-save.py save --agent <id> --text "<Truman 11章完整内容>"
+```
+
+> 上下文路径：`桌面/agent复盘/<agent-id>/daily-context/YYYY-MM-DD.md`
+> `<agent-id>` 统一使用英文小写：`huangyaoshi`, `wangyuyan`, `laowantong`, `ouyangfeng`, `hongqigong`, `duanwangye`, `sales-dialogue-assistant`
+> daily-context-save.py 自动创建目录并内嵌 Truman 模板骨架，Agent 只需填内容。
+
+### 10.6 审计日报格式
+
+黄药师每日 09:07 产出：
+
+```
+Agent 复盘审计 — YYYY-MM-DD
+
+  huangyaoshi                   🟢 A级 (4521B) — 10/11章
+  wangyuyan                     🟡 B级 (2100B) — 8/11章，缺对照实验、飞轮效应
+  laowantong                    🔴 C级 (680B)  — checkpoint，盲点未追问
+  ouyangfeng                    ❌ 未复盘
+  ─────────────────────────────
+  覆盖率：3/5   A级率：1/5   连续达标：0天
+L263: python kdo-tools/daily-context-save.py save --agent <id> --text "<Truman 11章完整内容>"
+```
+
+> 上下文路径：`桌面/agent复盘/<agent-id>/daily-context/YYYY-MM-DD.md`
+> `<agent-id>` 统一使用英文小写：`huangyaoshi`, `wangyuyan`, `laowantong`, `ouyangfeng`, `hongqigong`, `duanwangye`, `sales-dialogue-assistant`
+> daily-context-save.py 自动创建目录并内嵌 Truman 模板骨架，Agent 只需填内容。
+
+### 10.6 审计日报格式
+
+黄药师每日 09:07 产出：
+
+```
+Agent 复盘审计 — YYYY-MM-DD
+
+  huangyaoshi                   🟢 A级 (4521B) — 10/11章
+  wangyuyan                     🟡 B级 (2100B) — 8/11章，缺对照实验、飞轮效应
+  laowantong                    🔴 C级 (680B)  — checkpoint，盲点未追问
+  ouyangfeng                    ❌ 未复盘
+  ─────────────────────────────
+  覆盖率：3/5   A级率：1/5   连续达标：0天
+```
+
+### 10.7 原始提示词（Agent 调用双三角复盘时使用）
+
+```markdown
+请用双三角模型还原刚才我们的协作过程：
+
+1. 逐轮映射：每一轮对话中，我（人）做了什么、你（AI）做了什么？分别对应双三角哪个要素？
+2. 飞轮效应：人/AI 如何互补？有没有形成飞轮加速？
+3. 对照实验：如果没有 AI，人需要花多少时间？如果没有人的判断，AI 能独立产出什么水平？
+4. 自我反思：下次你来主导，还有什么能做得更好？
+```
+
+**Truman原文**（口述稿L2220-2312）："不要光拆别人，拆自己更开心。你去学一下双三角，帮我还原一下刚才咱们所有的工作过程——你做了什么，我做了什么，咱们两个如何互补的。这篇报告存下来可以迭代训练AI，让AI变得更聪明。"
+
+### 10.8 飞轮加速信号
+
+当同一 agent 的同一类型连续出现 ≥3 次时，说明该回路该加速了。运行：
+
+```bash
+python kdo-tools/flywheel.py pattern --days 21 --agent <agent-id>
+L268: > daily-context-save.py 自动创建目录并内嵌 Truman 模板骨架，Agent 只需填内容。
+
+### 10.6 审计日报格式
+
+黄药师每日 09:07 产出：
+
+```
+Agent 复盘审计 — YYYY-MM-DD
+
+  huangyaoshi                   🟢 A级 (4521B) — 10/11章
+  wangyuyan                     🟡 B级 (2100B) — 8/11章，缺对照实验、飞轮效应
+  laowantong                    🔴 C级 (680B)  — checkpoint，盲点未追问
+  ouyangfeng                    ❌ 未复盘
+  ─────────────────────────────
+  覆盖率：3/5   A级率：1/5   连续达标：0天
+```
+
+### 10.7 原始提示词（Agent 调用双三角复盘时使用）
+
+```markdown
+请用双三角模型还原刚才我们的协作过程：
+
+1. 逐轮映射：每一轮对话中，我（人）做了什么、你（AI）做了什么？分别对应双三角哪个要素？
+2. 飞轮效应：人/AI 如何互补？有没有形成飞轮加速？
+3. 对照实验：如果没有 AI，人需要花多少时间？如果没有人的判断，AI 能独立产出什么水平？
+4. 自我反思：下次你来主导，还有什么能做得更好？
+```
+
+**Truman原文**（口述稿L2220-2312）："不要光拆别人，拆自己更开心。你去学一下双三角，帮我还原一下刚才咱们所有的工作过程——你做了什么，我做了什么，咱们两个如何互补的。这篇报告存下来可以迭代训练AI，让AI变得更聪明。"
+
+### 10.8 飞轮加速信号
+
+当同一 agent 的同一类型连续出现 ≥3 次时，说明该回路该加速了。运行：
+
+```bash
+python kdo-tools/flywheel.py pattern --days 21 --agent <agent-id>
+```
+
+### 10.9 复盘双轨定标（2026-08-19 #368 门禁）
+
+**问题**：历史上存在两套"复盘"并行——daily-context（Truman 10 章会话复盘，08-09 加差异栏后为 11 章）与 daily_cognitive_review（七节式认知复盘），结构不同、无派生关系定义，各 agent 各写各的。
+L277:   huangyaoshi                   🟢 A级 (4521B) — 10/11章
+  wangyuyan                     🟡 B级 (2100B) — 8/11章，缺对照实验、飞轮效应
+  laowantong                    🔴 C级 (680B)  — checkpoint，盲点未追问
+  ouyangfeng                    ❌ 未复盘
+  ─────────────────────────────
+  覆盖率：3/5   A级率：1/5   连续达标：0天
+```
+
+### 10.7 原始提示词（Agent 调用双三角复盘时使用）
+
+```markdown
+请用双三角模型还原刚才我们的协作过程：
+
+1. 逐轮映射：每一轮对话中，我（人）做了什么、你（AI）做了什么？分别对应双三角哪个要素？
+2. 飞轮效应：人/AI 如何互补？有没有形成飞轮加速？
+3. 对照实验：如果没有 AI，人需要花多少时间？如果没有人的判断，AI 能独立产出什么水平？
+4. 自我反思：下次你来主导，还有什么能做得更好？
+```
+
+**Truman原文**（口述稿L2220-2312）："不要光拆别人，拆自己更开心。你去学一下双三角，帮我还原一下刚才咱们所有的工作过程——你做了什么，我做了什么，咱们两个如何互补的。这篇报告存下来可以迭代训练AI，让AI变得更聪明。"
+
+### 10.8 飞轮加速信号
+
+当同一 agent 的同一类型连续出现 ≥3 次时，说明该回路该加速了。运行：
+
+```bash
+python kdo-tools/flywheel.py pattern --days 21 --agent <agent-id>
+```
+
+### 10.9 复盘双轨定标（2026-08-19 #368 门禁）
+
+**问题**：历史上存在两套"复盘"并行——daily-context（Truman 10 章会话复盘，08-09 加差异栏后为 11 章）与 daily_cognitive_review（七节式认知复盘），结构不同、无派生关系定义，各 agent 各写各的。
+
+**定标（全厂强制）**：
+
+| 资产 | 性质 | 谁写 | 何时 |
+|:--|:--|:--|:--|
+| `agent复盘/<agent>/daily-context/YYYY-MM-DD.md` | **唯一直写**的复盘文件（Truman 11 章，§10.2 格式） | agent 本人，经 `daily-context-save.py` 落盘 | 每次会话收尾 |
+| 错误模式库 / 技能进化日志 / 能力雷达图 / 用户反馈档案 | **长期资产**——从当次复盘**同步更新**（非独立写一套） | agent 本人，复盘同一动作内 | 复盘时（有新错误/新反馈/技能变化才更新，无则不强行） |
+| `daily_cognitive_review` 七节式、`.agent/daily-review` 四段式 | **已废弃**——禁止新增写入 | — | — |
+
+L278:   wangyuyan                     🟡 B级 (2100B) — 8/11章，缺对照实验、飞轮效应
+  laowantong                    🔴 C级 (680B)  — checkpoint，盲点未追问
+  ouyangfeng                    ❌ 未复盘
+  ─────────────────────────────
+  覆盖率：3/5   A级率：1/5   连续达标：0天
+```
+
+### 10.7 原始提示词（Agent 调用双三角复盘时使用）
+
+```markdown
+请用双三角模型还原刚才我们的协作过程：
+
+1. 逐轮映射：每一轮对话中，我（人）做了什么、你（AI）做了什么？分别对应双三角哪个要素？
+2. 飞轮效应：人/AI 如何互补？有没有形成飞轮加速？
+3. 对照实验：如果没有 AI，人需要花多少时间？如果没有人的判断，AI 能独立产出什么水平？
+4. 自我反思：下次你来主导，还有什么能做得更好？
+```
+
+**Truman原文**（口述稿L2220-2312）："不要光拆别人，拆自己更开心。你去学一下双三角，帮我还原一下刚才咱们所有的工作过程——你做了什么，我做了什么，咱们两个如何互补的。这篇报告存下来可以迭代训练AI，让AI变得更聪明。"
+
+### 10.8 飞轮加速信号
+
+当同一 agent 的同一类型连续出现 ≥3 次时，说明该回路该加速了。运行：
+
+```bash
+python kdo-tools/flywheel.py pattern --days 21 --agent <agent-id>
+```
+
+### 10.9 复盘双轨定标（2026-08-19 #368 门禁）
+
+**问题**：历史上存在两套"复盘"并行——daily-context（Truman 10 章会话复盘，08-09 加差异栏后为 11 章）与 daily_cognitive_review（七节式认知复盘），结构不同、无派生关系定义，各 agent 各写各的。
+
+**定标（全厂强制）**：
+
+| 资产 | 性质 | 谁写 | 何时 |
+|:--|:--|:--|:--|
+| `agent复盘/<agent>/daily-context/YYYY-MM-DD.md` | **唯一直写**的复盘文件（Truman 11 章，§10.2 格式） | agent 本人，经 `daily-context-save.py` 落盘 | 每次会话收尾 |
+| 错误模式库 / 技能进化日志 / 能力雷达图 / 用户反馈档案 | **长期资产**——从当次复盘**同步更新**（非独立写一套） | agent 本人，复盘同一动作内 | 复盘时（有新错误/新反馈/技能变化才更新，无则不强行） |
+| `daily_cognitive_review` 七节式、`.agent/daily-review` 四段式 | **已废弃**——禁止新增写入 | — | — |
+
+一句话规则：**一次会话只写一份复盘（Truman 11 章），长期资产是它的同步更新，不是第二份复盘。**
+L296: **Truman原文**（口述稿L2220-2312）："不要光拆别人，拆自己更开心。你去学一下双三角，帮我还原一下刚才咱们所有的工作过程——你做了什么，我做了什么，咱们两个如何互补的。这篇报告存下来可以迭代训练AI，让AI变得更聪明。"
+
+### 10.8 飞轮加速信号
+
+当同一 agent 的同一类型连续出现 ≥3 次时，说明该回路该加速了。运行：
+
+```bash
+python kdo-tools/flywheel.py pattern --days 21 --agent <agent-id>
+```
+
+### 10.9 复盘双轨定标（2026-08-19 #368 门禁）
+
+**问题**：历史上存在两套"复盘"并行——daily-context（Truman 10 章会话复盘，08-09 加差异栏后为 11 章）与 daily_cognitive_review（七节式认知复盘），结构不同、无派生关系定义，各 agent 各写各的。
+
+**定标（全厂强制）**：
+
+| 资产 | 性质 | 谁写 | 何时 |
+|:--|:--|:--|:--|
+| `agent复盘/<agent>/daily-context/YYYY-MM-DD.md` | **唯一直写**的复盘文件（Truman 11 章，§10.2 格式） | agent 本人，经 `daily-context-save.py` 落盘 | 每次会话收尾 |
+| 错误模式库 / 技能进化日志 / 能力雷达图 / 用户反馈档案 | **长期资产**——从当次复盘**同步更新**（非独立写一套） | agent 本人，复盘同一动作内 | 复盘时（有新错误/新反馈/技能变化才更新，无则不强行） |
+| `daily_cognitive_review` 七节式、`.agent/daily-review` 四段式 | **已废弃**——禁止新增写入 | — | — |
+
+一句话规则：**一次会话只写一份复盘（Truman 11 章），长期资产是它的同步更新，不是第二份复盘。**
+
+模板：`templates/daily-context-template.md`（含长期资产更新检查单）。
+
+### 10.10 事故级 friction 双记规范（2026-08-25 #523，O-15 同族）
+
+**分层口径**：
+- `.agent/friction-log.md`（#276 机制）：日常工作摩擦——一行一条，当下追加，agent 级
+- `60_feedback/friction-log.md`：全厂台账——**事故级** friction 必须上浮双记
+
+**事故级判定**（满足其一即上浮）：涉及数据丢失/删除｜生产链路中断（计划任务空转、通知链断流等）｜影响跨角色协作的事件。
+
+**双记动作**：agent 级照旧记一行；全厂台账补一节（现象/处置/教训/责任四段式）。只记 agent 级=事故沉没（#508 实证：474 文件误删事故 8 小时后才由终审上浮）。
+
+### 10.11 时钟巡检标准动作（2026-08-26 王语嫣裁定，黄药师建议书 diag_20260826_huangyaoshi-clock-myqueue-standard）
+
+**任何角色的时钟/巡检查队列，唯一标准动作 = `python 90_control/scripts/queue_transition.py myqueue <role>` 全表视图。禁止手搓 grep/正则按任务号模式扫描当巡检器。**
+
+「按预期扫描」反模式：只找得到预期存在的东西。实证：黄药师时钟 60 拍漏检 #528（`grep "| 51x |"` 只盯预期号段），靠老朱人工问才捞起。myqueue（#472）输出五栏全表视图（可领/等依赖/冻结/进行中/待终审），就是为此建的——**工具在，接线必须通**。适用范围：所有带时钟的角色（黄药师/老顽童/欧阳锋/风清扬/王语嫣）；探针被动通知面不受本条约束。
+L308: **问题**：历史上存在两套"复盘"并行——daily-context（Truman 10 章会话复盘，08-09 加差异栏后为 11 章）与 daily_cognitive_review（七节式认知复盘），结构不同、无派生关系定义，各 agent 各写各的。
+
+**定标（全厂强制）**：
+
+| 资产 | 性质 | 谁写 | 何时 |
+|:--|:--|:--|:--|
+| `agent复盘/<agent>/daily-context/YYYY-MM-DD.md` | **唯一直写**的复盘文件（Truman 11 章，§10.2 格式） | agent 本人，经 `daily-context-save.py` 落盘 | 每次会话收尾 |
+| 错误模式库 / 技能进化日志 / 能力雷达图 / 用户反馈档案 | **长期资产**——从当次复盘**同步更新**（非独立写一套） | agent 本人，复盘同一动作内 | 复盘时（有新错误/新反馈/技能变化才更新，无则不强行） |
+| `daily_cognitive_review` 七节式、`.agent/daily-review` 四段式 | **已废弃**——禁止新增写入 | — | — |
+
+一句话规则：**一次会话只写一份复盘（Truman 11 章），长期资产是它的同步更新，不是第二份复盘。**
+
+模板：`templates/daily-context-template.md`（含长期资产更新检查单）。
+
+### 10.10 事故级 friction 双记规范（2026-08-25 #523，O-15 同族）
+
+**分层口径**：
+- `.agent/friction-log.md`（#276 机制）：日常工作摩擦——一行一条，当下追加，agent 级
+- `60_feedback/friction-log.md`：全厂台账——**事故级** friction 必须上浮双记
+
+**事故级判定**（满足其一即上浮）：涉及数据丢失/删除｜生产链路中断（计划任务空转、通知链断流等）｜影响跨角色协作的事件。
+
+**双记动作**：agent 级照旧记一行；全厂台账补一节（现象/处置/教训/责任四段式）。只记 agent 级=事故沉没（#508 实证：474 文件误删事故 8 小时后才由终审上浮）。
+
+### 10.11 时钟巡检标准动作（2026-08-26 王语嫣裁定，黄药师建议书 diag_20260826_huangyaoshi-clock-myqueue-standard）
+
+**任何角色的时钟/巡检查队列，唯一标准动作 = `python 90_control/scripts/queue_transition.py myqueue <role>` 全表视图。禁止手搓 grep/正则按任务号模式扫描当巡检器。**
+
+「按预期扫描」反模式：只找得到预期存在的东西。实证：黄药师时钟 60 拍漏检 #528（`grep "| 51x |"` 只盯预期号段），靠老朱人工问才捞起。myqueue（#472）输出五栏全表视图（可领/等依赖/冻结/进行中/待终审），就是为此建的——**工具在，接线必须通**。适用范围：所有带时钟的角色（黄药师/老顽童/欧阳锋/风清扬/王语嫣）；探针被动通知面不受本条约束。
+
+---
+
+## 11. KDO Agent 建设标准（三步闭环）
+
+**不是可选的建议——是所有 Agent 建设必须走完的三步。**
+
+### 第一步：画 Agent 自身的双三角画布（动手前）
+
+```markdown
+每个 Agent 在设计前必须填自己的六要素画布：
+  H.审美 — 这个 Agent 输出"好"的标准是什么？
+L314: | `agent复盘/<agent>/daily-context/YYYY-MM-DD.md` | **唯一直写**的复盘文件（Truman 11 章，§10.2 格式） | agent 本人，经 `daily-context-save.py` 落盘 | 每次会话收尾 |
+| 错误模式库 / 技能进化日志 / 能力雷达图 / 用户反馈档案 | **长期资产**——从当次复盘**同步更新**（非独立写一套） | agent 本人，复盘同一动作内 | 复盘时（有新错误/新反馈/技能变化才更新，无则不强行） |
+| `daily_cognitive_review` 七节式、`.agent/daily-review` 四段式 | **已废弃**——禁止新增写入 | — | — |
+
+一句话规则：**一次会话只写一份复盘（Truman 11 章），长期资产是它的同步更新，不是第二份复盘。**
+
+模板：`templates/daily-context-template.md`（含长期资产更新检查单）。
+
+### 10.10 事故级 friction 双记规范（2026-08-25 #523，O-15 同族）
+
+**分层口径**：
+- `.agent/friction-log.md`（#276 机制）：日常工作摩擦——一行一条，当下追加，agent 级
+- `60_feedback/friction-log.md`：全厂台账——**事故级** friction 必须上浮双记
+
+**事故级判定**（满足其一即上浮）：涉及数据丢失/删除｜生产链路中断（计划任务空转、通知链断流等）｜影响跨角色协作的事件。
+
+**双记动作**：agent 级照旧记一行；全厂台账补一节（现象/处置/教训/责任四段式）。只记 agent 级=事故沉没（#508 实证：474 文件误删事故 8 小时后才由终审上浮）。
+
+### 10.11 时钟巡检标准动作（2026-08-26 王语嫣裁定，黄药师建议书 diag_20260826_huangyaoshi-clock-myqueue-standard）
+
+**任何角色的时钟/巡检查队列，唯一标准动作 = `python 90_control/scripts/queue_transition.py myqueue <role>` 全表视图。禁止手搓 grep/正则按任务号模式扫描当巡检器。**
+
+「按预期扫描」反模式：只找得到预期存在的东西。实证：黄药师时钟 60 拍漏检 #528（`grep "| 51x |"` 只盯预期号段），靠老朱人工问才捞起。myqueue（#472）输出五栏全表视图（可领/等依赖/冻结/进行中/待终审），就是为此建的——**工具在，接线必须通**。适用范围：所有带时钟的角色（黄药师/老顽童/欧阳锋/风清扬/王语嫣）；探针被动通知面不受本条约束。
+
+---
+
+## 11. KDO Agent 建设标准（三步闭环）
+
+**不是可选的建议——是所有 Agent 建设必须走完的三步。**
+
+### 第一步：画 Agent 自身的双三角画布（动手前）
+
+```markdown
+每个 Agent 在设计前必须填自己的六要素画布：
+  H.审美 — 这个 Agent 输出"好"的标准是什么？
+  H.体系 — 它执行任务的稳定流程是什么？
+  H.创造力 — 它的边界在哪？什么情况下它该说自己不知道？
+  A.场景 — 它解决什么问题？不为哪些场景设计？
+  A.数据 — 它需要什么数据包？从哪些 wiki 卡编译？
+  A.基本功 — 它用什么模型/工具？Feature 组合是什么？
+```
+L318: 一句话规则：**一次会话只写一份复盘（Truman 11 章），长期资产是它的同步更新，不是第二份复盘。**
+
+模板：`templates/daily-context-template.md`（含长期资产更新检查单）。
+
+### 10.10 事故级 friction 双记规范（2026-08-25 #523，O-15 同族）
+
+**分层口径**：
+- `.agent/friction-log.md`（#276 机制）：日常工作摩擦——一行一条，当下追加，agent 级
+- `60_feedback/friction-log.md`：全厂台账——**事故级** friction 必须上浮双记
+
+**事故级判定**（满足其一即上浮）：涉及数据丢失/删除｜生产链路中断（计划任务空转、通知链断流等）｜影响跨角色协作的事件。
+
+**双记动作**：agent 级照旧记一行；全厂台账补一节（现象/处置/教训/责任四段式）。只记 agent 级=事故沉没（#508 实证：474 文件误删事故 8 小时后才由终审上浮）。
+
+### 10.11 时钟巡检标准动作（2026-08-26 王语嫣裁定，黄药师建议书 diag_20260826_huangyaoshi-clock-myqueue-standard）
+
+**任何角色的时钟/巡检查队列，唯一标准动作 = `python 90_control/scripts/queue_transition.py myqueue <role>` 全表视图。禁止手搓 grep/正则按任务号模式扫描当巡检器。**
+
+「按预期扫描」反模式：只找得到预期存在的东西。实证：黄药师时钟 60 拍漏检 #528（`grep "| 51x |"` 只盯预期号段），靠老朱人工问才捞起。myqueue（#472）输出五栏全表视图（可领/等依赖/冻结/进行中/待终审），就是为此建的——**工具在，接线必须通**。适用范围：所有带时钟的角色（黄药师/老顽童/欧阳锋/风清扬/王语嫣）；探针被动通知面不受本条约束。
+
+---
+
+## 11. KDO Agent 建设标准（三步闭环）
+
+**不是可选的建议——是所有 Agent 建设必须走完的三步。**
+
+### 第一步：画 Agent 自身的双三角画布（动手前）
+
+```markdown
+每个 Agent 在设计前必须填自己的六要素画布：
+  H.审美 — 这个 Agent 输出"好"的标准是什么？
+  H.体系 — 它执行任务的稳定流程是什么？
+  H.创造力 — 它的边界在哪？什么情况下它该说自己不知道？
+  A.场景 — 它解决什么问题？不为哪些场景设计？
+  A.数据 — 它需要什么数据包？从哪些 wiki 卡编译？
+  A.基本功 — 它用什么模型/工具？Feature 组合是什么？
+```
+
+画布填满 = 风险可控（不是"可以承诺交付"——是"知道每个角有什么牌可打，缺什么，怎么补"）。
+
+### 第二步：Y模型引擎迭代（动手后）
+L371: 会话结束 → Agent 自己跑双三角复盘（§10.2）→ 映射本轮对话到六要素
+  → 画飞轮 → 自我改进建议 → 存入 agent-trace
+  → 下次会话作为 data pack 加载
+```
+
+---
+
+## 12. Agent 域知识回答标准（所有 Agent 必须遵守）
+
+> **2026-07-25 补丁**：盲人测试暴露——Agent 回答域知识问题时，会把匹配到的 tool 卡当 framework 卡答。根源是检索层缺 MOC 导航 + Agent 没有"向上溯源"的标准动作。以下规则写入 OS 层，不依赖各 context 口口相传。
+
+### 规则 1：先找 MOC 再回答
+
+**触发**：被问到域知识问题（"XX 域有哪些内容""XX 方法分成几个步骤"）。
+
+**动作**：
+1. 检索到候选卡片后，先看它的 `related` 字段——是否有指向 framework/domain-digest 的链接？
+2. 往上追溯一层：这张卡属于哪个更大的框架？
+3. 确认了它在全局的位置后，再组织回答。
+4. 回答的第一句话必须是定位，不是直接列内容：
+   ```
+   ✅ "科学销售五步法的 B 步。完整框架还有 A/C/D/E……"
+   ❌ "四类决策：接触/购买/付款/履约。"
+   ```
+
+**跳步后果**：把 tool 卡当成领域全景→只看到局部→答非所问。2026-07-24 实况验证。
+
+### 规则 2：子卡必须声明定位
+
+所有 tool/concept/case/dk 卡，如果 `related` 中包含 framework 引用，正文第一段必须声明所属框架位置：
+
+```markdown
+> **定位**：属于 [[framework-xxx]] 的 X 步。完整框架还包括……
+```
+
+此规则由 `kdo lint` 的 `position_declaration` 检查自动执行——pre-submit 阶段即被拦截，不到审查。
+
+### 规则 3：检索层 MOC 优先
+
+`kdo query` 使用 RRF 融合（Graph RAG + BM25）+ MOC 域优先 boost。新域上线时必须在 `90_control/domain-routes.yaml` 注册 keywords 和 index_cards，否则检索不会返回该域的上层框架卡。见 `framework-kdo-retrieval-architecture-v2`。
+
+
+Now I understand:
+- The Truman format is **11 chapters** (per agent-os.md §10.2). The AGENTS.md top says "10章" but agent-os.md §10.2 says "11章缺一不可". The actual authoritative format is 11 chapters (差异栏, 概要, 关键决策, 思维盲点, 顿悟, 过程资产, 元反思, then Truman复盘: 逐轮映射, 飞轮效应, 对照实验, 下次改进). That's 11.
+
+- The daily-context-save.py: `--truman` mode uses TRUMAN_TEMPLATE (which is the 11-chapter structure). The command reads from `--file` (the path I Write to) or `--stdin`.
+
+- The save writes to TWO places: Desktop `agent复盘/<agent>/daily-context/YYYY-MM-DD.md` and wiki `60_feedback/session-archives/YYYY-MM-DD/{agent-id}.md`.
+
+- The `--file` path must be an ABSOLUTE path (per the friction note about `桌面/` prefix needing absolute path from wiki cwd). Actually, the friction note said "从 wiki cwd 跑报「文件不存在」，换绝对路径才过". So I should write the复盘 to an absolute path.
+
+- The desktop dir for ouyangfeng is `C:\Users\Administrator\Desktop\agent复盘\ouyangfeng\daily-context\` (pinyin, exists).
+
+- The skill evolution log: `C:\Users\Administrator\Desktop\agent复盘\ouyangfeng\技能进化日志.md` (the ouyangfeng dir has 技能进化日志.md). Wait, but the ouyangfeng-context said "桌面/agent复盘/欧阳锋/技能进化日志.md" (Chinese 欧阳锋). But the 欧阳锋 dir has DEPRECATED.md and 技能进化日志.md. Let me check which is the current one. The ouyangfeng dir (pinyin) has 技能进化日志.md too. Hmm.
+
+Actually, the 欧阳锋 (Chinese) dir has a DEPRECATED.md, suggesting the Chinese-named dir is deprecated and the pinyin dir (ouyangfeng) is current. The ouyangfeng-context says "桌面/agent复盘/欧阳锋/技能进化日志.md" but this might be stale. The CAPSULE_STARTUP route said "复盘目录在 Desktop 级（wiki 外）" and the route table said "`../agent复盘/ouyangfeng/daily-context/` 最新" (pinyin).
+
+Let me check the DEPRECATED.md in 欧阳锋 dir and the 技能进化日志.md in ouyangfeng dir to determine the current canonical location.
+
+Actually, let me focus on what's needed:
+1. Write Truman 11-chapter复盘 to `C:\Users\Administrator\Desktop\agent复盘\ouyangfeng\daily-context\2026-09-06.md` (or with -instance? The naming rule says no tool suffix; today already may have a session file. Let me check if 2026-09-06.md already exists for ouyangfeng).
+
+Wait — I'm the ouyangfeng agent, and this is likely my FIRST session today (the todos showed my last activity was reviews at 07:52-08:07, then叫醒 entries). Actually, the todos showed I did reviews #652/#653/#655/#654 this morning (07:52-08:07). So I likely already have a daily-context file for 2026-09-06 from those morning sessions.
+
+Let me check the daily-context dir for existing files, and read the latest to do the "差异栏" properly (comparing to previous session).
+
+Let me check:
+1. `C:\Users\Administrator\Desktop\agent复盘\ouyangfeng\daily-context\` contents.
+2. Read the latest file (2026-09-06.md if exists).
+
+Also check the 技能进化日志.md location.
+
+Let me do these.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "Get-ChildItem \"C:\\Users\\Administrator\\Desktop\\agent复盘\\ouyangfeng\\daily-context\" -Force | Sort-Object Name | Select-Object Name,Length,LastWriteTime; Write-Output \"===== 欧阳锋 DEPRECATED =====\"; Get-Content -Raw -Encoding UTF8 \"C:\\Users\\Administrator\\Desktop\\agent复盘\\欧阳锋\\DEPRECATED.md\" -ErrorAction SilentlyContinue | Select-Object -First 1; Write-Output \"===== ouyangfeng 技能进化日志 tail =====\"; Get-Content -Tail 5 -Encoding UTF8 \"C:\\Users\\Administrator\\Desktop\\agent复盘\\ouyangfeng\\技能进化日志.md\" -ErrorAction SilentlyContinue" in C:\Users\Administrator\Desktop\wiki
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command '$latest = Get-ChildItem "C:'"\\Users\\Administrator\\Desktop\\agent复盘\\ouyangfeng\\daily-context\" -Filter \"*.md\" | Sort-Object Name -Descending | Select-Object -First 1; if ("'$latest) { Write-Output "LATEST: $($latest.Name)"; Get-Content -Raw -Encoding UTF8 $latest.FullName } else { Write-Output "no daily-context files" }' in C:\Users\Administrator\Desktop\wiki
+ succeeded in 272ms:
+
+Name                 Length LastWriteTime     
+----                 ------ -------------     
+2026-07-07.md          5585 2026/7/7 19:55:40 
+2026-07-08.md         13851 2026/7/8 2:36:12  
+2026-07-09.md         12885 2026/7/9 2:16:31  
+2026-07-11.md         15242 2026/8/25 3:13:08 
+2026-07-12.md         54191 2026/8/25 3:13:08 
+2026-07-13.md          9048 2026/7/13 2:08:55 
+2026-08-04.md          8474 2026/8/25 3:13:08 
+2026-08-05.md          6229 2026/8/25 3:13:08 
+2026-08-06.md          6329 2026/8/25 3:13:08 
+2026-08-07.md          6009 2026/8/25 3:13:08 
+2026-08-09.md         10739 2026/8/25 3:13:08 
+2026-08-10.md          8061 2026/8/25 3:13:08 
+2026-08-13.md          5798 2026/8/13 19:41:54
+2026-08-15.md         19043 2026/8/25 3:13:08 
+2026-08-16.md         66348 2026/8/25 3:13:08 
+2026-08-17.md         71757 2026/8/25 3:13:08 
+2026-08-18.md         27337 2026/8/25 3:13:08 
+2026-08-19.md         34204 2026/8/25 3:13:08 
+2026-08-19-2.md       45918 2026/8/21 1:03:06 
+2026-08-20.md         17049 2026/8/25 3:13:08 
+2026-08-21.md         52113 2026/8/25 3:13:08 
+2026-08-22.md          9601 2026/8/25 3:13:08 
+2026-08-24.md          7601 2026/8/25 3:13:08 
+2026-08-24-claude.md   7296 2026/8/24 23:15:45
+2026-08-25.md         44239 2026/8/25 23:40:28
+2026-08-26.md         38544 2026/8/26 23:59:10
+2026-08-27.md         70138 2026/8/27 23:48:22
+2026-08-29.md         13473 2026/8/29 13:12:05
+2026-08-31.md         13273 2026/8/31 3:14:17 
+2026-09-02.md         40593 2026/9/2 22:17:15 
+2026-09-03.md         30851 2026/9/3 23:45:13 
+2026-09-04.md         13205 2026/9/4 23:47:36 
+2026-09-05.md         15618 2026/9/5 23:44:47 
+2026-09-06.md         15691 2026/9/6 8:11:30  
+===== 欧阳锋 DEPRECATED =====
+# DEPRECATED — 本目录已冻结（#367，2026-08-19）
+
+> 双轨目录收敛：拼音轨为唯一真相源（`agent复盘/<pinyin>/`）。
+> 本目录停止写入，观察期 7 天（2026-08-19 起），无新写入后归档删除。
+> 原内容已完整移入拼音轨 `cn-track-archive-20260819/`（零丢失，124 文件全量留痕）。
+> 真相源见 `wiki/20_memory/memory-registry.md` 表 1。
+
+===== ouyangfeng 技能进化日志 tail =====
+
+| 2026-09-03 | #633 卡组终审：O0 行号锚三层核查（先定源稿总行数→再按 L 编号对句子存在性→最后对引号收口位置）固化为标准动作；Measure-Object -Line 与 Get-Content 计数口径不一致（515 vs 868），行号锚核查必须先统一计数工具；review_mark 转正权限已随 #612 划归生产方手动回填，欧阳锋不代写 | 方法升级 | #633 终审实战 || 2026-09-04 | #638 终审：生产侧执行报告负向断言（零丢失/零创造）缺 **存在性核查** 节是 #433 同口径缺口——skill 试跑件零创造验收要按 skill Step 4「逐段回原文核对」标准要求对账 trace，抽查≠自证；「15/九/十」类计数=笔记对源稿枚举的结构标注不属编造（逐项可溯源） | 方法升级 | #638 终审实战 |
+
+| 2026-09-05 | #641 私董会实录卡组终审（1 case+5 dk）：O0 溯源不能盲信自攻击报告——#641 自攻击「陈龙只追问提供方案」不完整（陈龙 L544 已先问「一句话描述」），关键归属必须自己开逐字稿核对；说话人身份判定用第三人称反推（L1456 说话人13称「徐丽老师是HR的PBP」→13≠徐丽→12=徐丽，卡归徐丽成立、深诊断归 Vivian 误）；PowerShell 管道 python - 经 stdin 传中文变问号第 2 次复发（#632 已记）——落盘中文固定走 .NET AppendAllText+UTF8Encoding(false) | 踩坑教训 | #641 终审实战 |
+| 2026-09-06 | 三单终审（#642/#645返工/#646处置）PASS A-：返工复审=旧 FAIL 清单对照 + 独立双口径复算（生产者核验脚本不单方采信，另写 ASCII 脚本交叉 46/46）；终审记录本身被 F-035（负向断言「不存在」需 **存在性核查** 锚点）与 F-036（🟠 残留需落点词「待王语嫣」等）各拦一次——写意见书前先自检两门禁；#641 源素材逐字稿盘上已不在（消费后删除），O0 溯源链退化需王语嫣评估归档口径 | 踩坑教训 | #642/#645/#646 终审实战 |
+
+
+
+ succeeded in 265ms:
+LATEST: 2026-09-06.md
+---
+session_id: ouyangfeng-2026-09-06
+agent_id: ouyangfeng
+date: 2026-09-06
+created_at: 2026-09-06T00:11:30.567283+00:00
+updated_at: 2026-09-06T00:11:30.567283+00:00
+git_head: f9a710ed1
+content_hash: 50c5c3be5d5f
+---
+
+# ouyangfeng · 2026-09-06
+
+## 差异栏
+vs 09-05（#641 私董会单卡深审）：本轮是「三单终审」——#642 修订单随审 + #645 返工二轮复审 + #646 Sysmon 处置复审。新视角 = 返工复审的正确姿态不是重读，而是「旧 FAIL 清单对照 + 独立复算脚本双口径交叉」，并且终审记录本身也要过门禁（F-035 负向判词锚点 / F-036 问题落点）——审查者自己的意见书会被机器拦，这是机制健康信号而非事故。被打破的假设：默认「生产者自带的核验脚本可信」——本轮没直接采信 _tmp/645-verify-src.py，另写 ASCII 口径独立复算 46/46 才确认，结果一致但动作本身是必要的。
+
+## 概要
+终审三单 PASS A-：①#642 laowantong-641-depth-patch（修订单五口径闭环，随 #641 一并终审）②#645 huangyaoshi-conversation-distill-pipeline 返工二轮（P1/P2 修复核实，逐卡溯源 46/46）③#646 huangyaoshi-sysmon-cas-trace（Sysmon EID23 归档 59G 写入者溯源 + 处置释放 60G）。三单均写终审记录 + queue_transition review 流转 reviewed A-，todos 落账一行。
+
+## 关键决策
+| 决策 | 理由 | 结果 |
+|:--|:--|:--|
+| #645 返工复审走「对照上次 FAIL 清单 + 独立复算」而非重读 | 复审≠重深读，效率 5 倍（v2.3.1） | P1/P2 修复逐项读码确认 + 46/46 双口径 |
+| 独立写 ASCII-only 核验脚本（不共生产者脚本） | 生产者脚本可信但不能单方采信，且管道传中文有坑 | 46/46 与官方脚本一致，交叉印证 |
+| #646 负向判词「不存在」被 F-035 拦后补 **存在性核查** 锚点 | #433 门禁对审查者同样生效 | 补锚点后放行 |
+| #646 🟠 残留被 F-036 拦（无落点）后改「待王语嫣知会」 | 发现问题必须给去向 | 放行 |
+| #642 随审不复重开逐字稿，如实注明源素材已不在盘 | 源文件已被消费删除，强开不可得 | 记录观察转王语嫣 |
+
+## 思维盲点
+1. 写 #646 终审记录时把「均不存在（已删）」当成事实陈述而非负向断言，没意识到 #433 强词表含「不存在」。为什么漏掉：#433 教训已记过三次（#611/#622/#624），但肌肉记忆只记住了「要附存在性核查节」，没记住「写完先 grep 强词表自检」。
+2. 写 #646 residual 时用「已交王语嫣知会」，没意识到 F-036 落点门禁只认「待王语嫣/建议书/停车场 F-x/立项/TODO」等 hints。为什么漏掉：把「已完成的通知」当成了「待办去向」，门禁要的是后者。
+3. #645 复审差点只跑生产者脚本就下结论，没立即想到独立复算。为什么漏掉：复审对照法让我聚焦「旧 FAIL 项是否修复」，但对「修复验证工具本身的口径」放松了警惕。
+
+## 顿悟
+1. 推翻「复审=信任返工后的执行报告」的旧认知：复审的价值不仅在「旧问题没了」，还在「修复工具/脚本口径是否经得起独立复算」——46/46 是双口径交叉出来的，不是单方声称。
+2. 纠正「终审记录只是给生产方看的」旧理解：F-035/F-036 门禁证明意见书是「可被机器审计的交付物」——负向断言必须带 **存在性核查** 锚点、发现问题必须带去向，审查者自己同样被拦。
+3. 发现「源文件消费后删除」会让 O0 溯源链只依赖卡片内嵌行号锚——#641 源素材逐字稿盘上已不在，值得提醒王语嫣评估归档口径。
+
+## 过程资产
+| 新增/更新 | 路径 |
+|:--|:--|
+| 终审记录 PASS A- ×3 | 60_feedback/tasks/task_20260905_laowantong-641-depth-patch.md / conversation-distill-pipeline / sysmon-cas-trace |
+| 队列流转 | queue_transition review ×3 → reviewed（commit baa66388c / f0764e79f / 7264e9379） |
+| 落账 | 90_control/todos/ouyangfeng.md +1 行 |
+| 技能进化日志 | 桌面/agent复盘/ouyangfeng/技能进化日志.md +1 行 |
+| 本复盘 | 桌面/agent复盘/ouyangfeng/daily-context/2026-09-06.md |
+
+## 元反思
+下次终审多单批量：①写意见书前先自检负向断言强词表（不存在/未备份/未同步等），每处负向断言配对 **存在性核查** 锚点；②🟠/🟡 残留条目必须带落点词（待王语嫣/建议书/停车场 F-x/立项/TODO）；③返工复审=旧 FAIL 清单对照 + 独立复算脚本双口径，不盲信生产者核验脚本。
+
+## 域知识检索审视
+本日域知识 = 审查方法论（F-035/F-036 门禁）+ 对话蒸馏管线 + Sysmon/取证 + 私董会人域。检索 wiki 后纠正的错误认知：我原以为「互链」只要卡片 related 指向 digest 即可，实读 human-insights-domain-digest 后发现 digest「块 1 认识他人」表并未回链两张新 dk（dk-listen-ear-heart-qi / dk-wangzhen-transfer-law）——「互链」在 digest 侧是缺的，需 digest 维护批次补。
+
+---
+
+## Truman复盘
+
+### 逐轮映射
+| 轮次 | 人做了什么 | 双三角 | AI做了什么 | 双三角 |
+|:--|:--|:--|:--|:--|
+| 1 | 老朱/王语嫣 09-05 立项+提审三单（#642/#645返工/#646） | H.创造力（定边界）·A.场景 | 读启动三件套+todos+队列+任务单 | A.数据 |
+| 2 | 王语嫣门禁 32 候选卡 PASS（09-06） | A.场景 | 读队列/任务单确认门禁已 PASS | A.数据 |
+| 3 | （autonomous 待终审） | — | #645 返工复审：跑 645-verify-src.py + 独立 ASCII 脚本双口径 46/46 | H.体系·A.数据 |
+| 4 | — | — | #642 随审：五口径卡片实读 + #641 终审对照 | H.审美 |
+| 5 | — | — | #646 处置复审：config 读码 + 磁盘 109.4G + USN 证据 | A.数据·A.基本功 |
+| 6 | — | — | 三单写终审记录 + review 流转（被 F-035/F-036 拦 2 次后修正） | H.体系（门禁） |
+
+### 飞轮效应
+本轮加速「复审独立取证」回路：从 #641 的单卡深审（开逐字稿）推进到 #645 的双口径脚本交叉（46/46）+ #646 的磁盘/配置/USN 三证合一。同时「意见书过门禁」回路第一次被自己触发两次——机制从纸面规则变成自我拦截。
+
+### 对照实验
+- 无人协作：人需逐卡核 32 候选卡 + 14 zhu + 读 3 份任务单 + 磁盘取证 + config 读码，约 2-3 小时。
+- 无AI协作：AI 无法跑脚本/读磁盘/git 取证，只能复述执行报告，24/51 错位与「不存在」负向断言会被放过。
+- 合在一起：约 1.5 小时闭环三单（含 2 次门禁自纠），46/46 双口径交叉，三单全 PASS A-。
+
+### 下次改进
+- Agent自身：意见书落盘前自检 F-035（负向断言+锚点）与 F-036（🟠/🟡 带落点词）；返工复审固定双口径独立复算。
+- 方法论卡更新：源素材「消费后删除」需登记归档口径（卡片 source_refs 指向的源文件删除前应登记或归档），建议王语嫣评估；human-insights digest 反链需随新卡入域同步。
+
+---
+
+# Truman 11章复盘 · 第2次会话（#651 终审，04:52）
+
+## 差异栏
+vs 上次（#642/#645/#646 三单终审）：本轮是单任务基建终审（watch_inbox 顶层子目录目录级登记）。新视角 = 基建单终审取「源码读码 + 亲跑测试 + 真机状态键核查」三层证据，且发现文书计数笔误（14 vs 13）也要带存在性核查锚点落记录。被打破的假设 = 「pytest 从 repo 根跑即可」——watch_inbox 测试须 cd kdo-tools（on_duty 导入路径依赖 cwd）。
+
+## 概要
+终审 #651 huangyaoshi-inbox-subdir-autoscan PASS A-：watch_inbox 白名单外顶层新子目录目录级登记，三核验点独立复跑全过（不递归防洪水 / 负向零目录级键 / AI大航海20260905 活体样本在场）；queue_transition review 流转 reviewed；终审记录节落盘；todos 落账 + 抄送王语嫣。
+
+## 关键决策
+| 决策 | 理由 | 结果 |
+|:--|:--|:--|
+| 终审前先读行为宪法（#652） | 断言三级标注 + 负向判词必附存在性核查锚点 | 三核验点逐条带锚点落盘 |
+| 亲跑 watch_inbox 8 passed + 全量 310 passed | 不盲信执行报告 276 | 实证通过；276 系 04:35 时点快照 |
+| 从根跑测试报 on_duty 缺模块后改 cd kdo-tools | on_duty.py 位于 kdo-tools/ | 8 passed 复现 |
+| 「14件 vs 13件」只记 🔵 不阻断 | 文书层笔误，看板/代码 13 正确 | A- 放行，留痕待王语嫣改口径 |
+
+## 思维盲点
+1. 首跑 pytest 从 repo 根报 ModuleNotFoundError: on_duty，差点误判执行报告「276 passed」不可复现。为什么漏掉：没先确认 on_duty.py 位置，默认 pytest 根跑即可。
+2. 看到 size 用 rglob 一度把「不递归」当缺陷。为什么漏掉：没区分「签名判重（一层 iter()）」与「件数计数（变时一次 rglob）」两层语义，判重不递归才是防洪水核心。
+3. 首遍通读任务书没算出「14件」与明细求和（口述2+笔记2+逐字稿1+PNG8=13）矛盾。为什么漏掉：实证节数字只扫了一眼没逐项求和。
+
+## 顿悟
+1. 基建单「不递归防爆炸」要拆两层语义：判重/发现一层（iter()），统计件数仅变更时一次（rglob）——二者分离才是设计成立的关键。
+2. 「无/缺」负向判词即使 PASS 也要配存在性核查锚点——把存在性核查节当常态而非仅补救。
+
+## 过程资产
+| 新增/更新 | 路径 |
+|:--|:--|
+| 终审记录 PASS A- | 60_feedback/tasks/task_20260906_huangyaoshi-inbox-subdir-autoscan.md |
+| 队列流转 reviewed | queue_transition review（commit 8843086d6） |
+| 落账 + 抄送 | 90_control/todos/ouyangfeng.md +1；wangyuyan.md 抄送 +1 |
+| 本复盘 | 桌面/agent复盘/ouyangfeng/daily-context/2026-09-06.md |
+
+## 元反思
+下次基建终审：①先 cd 到模块目录再跑测试（on_duty 类本地导入）；②对执行报告里的计数不迷信，亲跑当前值；③判重/计数语义分离后再下「不递归」判断。
+
+## 域知识检索审视
+本日域知识 = watch_inbox 扫描面 / SCAN_SUBDIRS 白名单族 / 目录级登记。检索 wiki 源码+生产队列后纠正的错误认知：watch_inbox 测试必须 cd kdo-tools 跑（on_duty 共享模块导入依赖 cwd），纠正了「pytest 根跑即可」的错误默认。
+
+---
+
+## Truman复盘
+
+### 逐轮映射
+| 轮次 | 人做了什么 | 双三角 | AI做了什么 | 双三角 |
+|:--|:--|:--|:--|:--|
+| 1 | 王语嫣值守立项+提审 #651 | H.创造力·A.场景 | 读 startup/context/todos/行为宪法 | A.数据 |
+| 2 | 王语嫣 04:40 划销活体样本行 | A.场景 | 读任务单+生产队列+git log | A.数据 |
+| 3 | — | — | 源码读码 _dir_signature/_unknown_top_dirs/scan | A.基本功 |
+| 4 | — | — | 亲跑 watch_inbox 8 passed + 全量 310 passed | A.数据 |
+| 5 | — | — | 真机 .kdo/inbox_state.json 目录级键核查 | A.数据 |
+| 6 | — | — | 写终审记录 + review 流转 PASS A- + 抄送王语嫣 | H.体系 |
+
+### 飞轮效应
+加速「终审独立取证」回路：基建单从「读执行报告」升级到「源码读码 + 亲跑测试 + 真机状态键」三层证据，负向判词带存在性核查锚点成为常态。
+
+### 对照实验
+- 无人协作：人读源码+跑测试+查 state 键约 40 分钟。
+- 无AI协作：AI 复述执行报告，14vs13 笔误与 on_duty 路径坑会被放过。
+- 合在一起：约 15 分钟闭环，三核验点全过 PASS A-。
+
+### 下次改进
+- Agent自身：基建单先 cd 模块目录跑测试；判重/计数语义分离；计数笔误逐项求和再采信。
+- 方法论卡更新：目录级登记防爆炸 = 判重一层不递归 + 统计仅变更一次，可作为 watch_inbox 类基建终审锚点。
+
+
+# Truman 11章复盘 · 第3次会话（#652/#653/#655/#654 四单终审，07:44-08:08）
+
+## 差异栏
+与第2次会话（#651 单审）差异：本次四单连审，且**审查者自我纠错首次由下游工单触发**——#653 生产侧顺带核查推翻我上轮 #652 的错判（research-core 锚点层级），不是自查发现。
+
+## 概要
+kimi 403 周额度尽+codex 余额尽，claude 独撑班。四单全 PASS A-：#652 复审（L54 修复达标+自纠上轮错判+宪法 v1.0 转 reviewed 生效）、#653 E040 跨仓提示微单、#655 claim --sequence 连发窗口、#654 大批量抽审（14 件+15 处存量回填，引语独立回验 23/23 零失真）。建议书 1 份四节。
+
+## 关键决策
+1. #652 判 PASS 不打回第三轮：宪法 L44 事实脚注错误=🟠Medium（操作性结论不变、文档已全量注入生效），走修订单 v1.1 而非再阻断。
+2. #654 用抽审策略：3 framework 全读+case/bridge 抽 3+其余机械核验；抽样边界如实写进终审记录残余风险，不伪装成全量审。
+3. 12 卡 review_mark 转正由我收口（M1 生产侧预标 reviewed 的纠偏）；skill/spec 两草案留 draft（任务书口径即草案，行为化产线终点另审）。
+
+## 思维盲点
+上轮 #652 终审③我把「research-core 无文件」列为「已按实证」——错锚（ls 根目录 vs 实装在 shared/ 子层）我自己也踩了。存在性核查的锚点本身也需要层级完备性质疑，否则核查动作给的是假的安心。
+
+## 顿悟
+F-035 拦我自己的 #653 意见书（负向判词无锚），其价值恰在拦到审查者本人那一刻兑现——同班刚审的 #654 桥卡里「门禁只拦下级」正是失败模式条目，教科书案例与活体实证同班相撞。
+
+## 过程资产
+- 四张任务单终审记录（四单全 A-）+ 12 卡 frontmatter 转正
+- 60_feedback/diagnosis/diag_20260906_ouyangfeng-constitution-v11-and-misc.md（宪法 v1.1 修单措辞裁决/--sequence 编排提示/kdo-seed 走向/宪法第二条执行口径不对称）
+- commits：76966826b/c28f2c8b9/031f7411e/22a2ac3d6/9944080b0/e56c6dbe2/f9a710ed1
+
+## 元反思
+四单连审无疲劳信号（#654 抽审仍做了 23 处源锚回验）；但 7 张未抽样卡只达机械核验深度——这是本班真实边界，已声明而非隐藏。时间戳事故（todos 落账先写错时刻）由 git 提交时刻回校，对账纪律兜住了。
+
+## 域知识检索审视
+#654 判重/消歧均检索在先：三组「五层」同名卡消歧基于库内文件实定位（eason/jovida/muse 等路径核实），ai-native 强弱口径三卡并存采信卡内互证+文件在场验证；未凭记忆判「库内没有/已有」。
+
+## Truman复盘
+### 逐轮映射
+#652：解放（要不要为脚注第三轮打回）→检验（操作性结论是否受影响：否）→🟠放行+修订单。#653/#655：检验在先（代码逐行+回归独立复跑+检查顺序审计）结论在后。#654：检验（23/23 引语回验）推翻「批量生产必有引语漂移」预设。
+### 飞轮效应
+#653 生产侧顺带核查→纠正 #652 假判词→触发宪法 v1.1 修单→我自纠上轮意见书：生产者-审查者-宪法三者互喂，自我纠错闭环首次单班内转满一圈。
+### 对照实验
+若上轮 #652 FAIL 时我要求「四处措辞全改」，本班少一次返工——但当时我的错锚证据支持放行那四处。教训不是该更严，是锚点层级要穷举已知子层。
+### 下次改进
+负向判词的 ls/find 锚点跑之前先穷举层级（find -name 粗筛）再下笔；黄药师 #653 与我 #652 双人双踩同坑，建议入 pitfalls（已写入建议书路径）。
+
+
+Important findings:
+1. The daily-context file `2026-09-06.md` ALREADY EXISTS for ouyangfeng, and it already has THREE sessions:
+   - Session 1 (unnumbered): 三单终审 #642/#645/#646
+   - Session 2: #651 单审
+   - Session 3: #652/#653/#655/#654 四单终审 (07:44-08:08)
+
+So my current session (终审 #656) is the 4th session of the day. Per §10.3 "一日多会话（同日开多次）→ 每次会话结束 → 追加到同一个 YYYY-MM-DD.md，文件开头标注'本日共 N 次会话'".
+
+2. The 技能进化日志 already has a 2026-09-06 row (三单终审 #642/#645/#646). But this row was written in session 1 of today. My current session should ADD another row? Actually, the rule says "每次会话加一行，不重写". But looking at the existing row for 2026-09-06, it's about #642/#645/#646. There are also #652/#653/#655/#654 reviews in session 3 that might not have a separate 技能进化日志 row? Actually the log's last row is 2026-09-06 (三单终审 #642/#645/#646). So session 3 (#652-#654) didn't add a row? Or maybe it did but I'm seeing the tail truncated.
+
+Actually, the tail shows:
+- 2026-09-05 row
+- 2026-09-06 row (三单终审 #642/#645/#646)
+
+So the 2026-09-06 row is from session 1 (morning ~07:44). Hmm, wait — actually the morning reviews #652/#653/#655/#654 were at 07:52-08:07 (session 3), and #642/#645/#646 were... the daily-context session 1 says "三单终审 #642/#645返工/#646处置" at ~00:11 (created_at 00:11:30 UTC = 08:11 Beijing). Hmm, confusing.
+
+Actually the created_at is "2026-09-06T00:11:30" UTC = 08:11:30 Beijing. But the file mtime is 08:11:30. So session 1's file was written at 08:11. But wait, the file now contains 3 sessions (including #652-#654 which were 07:52-08:08). So the file was appended multiple times.
+
+Anyway, the key point: my current session (终审 #656) needs to:
+1. Append a new Truman 11-chapter section to `2026-09-06.md` (第4次会话).
+2. Update the "本日共 N 次会话" marker at the top (currently it might say "第3次会话" in the last section header, but the file top marker... let me check if there's a "本日共 N 次会话" line at the very top).
+
+Actually, looking at the file, the FIRST session section doesn't have a "第1次会话" label, the SECOND has "# Truman 11章复盘 · 第2次会话"? Let me look. Actually the output was truncated. The visible parts: first section header "# ouyangfeng · 2026-09-06" then "## 差异栏"... then later "## Truman复盘" ... then "# Truman 11章复盘 · 第3次会话（#652/#653/#655/#654 四单终审，07:44-08:08）".
+
+So the structure is: the file has session 1 (unnumbered at top), session 2 (somewhere, truncated), session 3 (第3次会话). My session is 第4次.
+
+The rule says "文件开头标注'本日共 N 次会话'". I need to check if there's such a marker and update it. Let me not over-engineer: I'll append a "第4次会话" section with the full 11 chapters, and update the top marker if present.
+
+Actually, let me re-read the daily-context-save.py behavior. The `save --file <path>` reads the file content, strips existing layers (frontmatter/old标题), and REWRITES the file with new frontmatter + `# {agent} · {today}` + the body. So if I pass `--file` pointing to a NEW temp file containing ONLY my session-4 Truman content, the save script will OVERWRITE the daily-context file with just my session 4 content, LOSING sessions 1-3!
+
+Wait, let me re-read. The save script:
+```python
+if getattr(args, "truman", False):
+    if body.strip():
+        full_body = _strip_existing_layers(body)
+    else:
+        full_body = TRUMAN_TEMPLATE
+...
+content = f"{fm}\n\n# {agent} · {today}\n\n{full_body}\n"
+desktop_path.write_text(content, encoding="utf-8")
+```
+
+So `--file` is read, stripped, and written as the WHOLE file (overwrite). This means if I write my session-4 content to a temp file and run `save --file temp`, it will OVERWRITE the existing 2026-09-06.md (sessions 1-3) with only session 4.
+
+That would be data loss! I need to be careful.
+
+The correct approach per the friction note and the "一日多会话" rule: I should APPEND my session-4 content to the EXISTING daily-context file manually (via Write/AppendAllText), and then... but the save script's role is to write the frontmatter + dual-write to archive.
+
+Hmm, let me re-read the actual workflow. The ouyangfeng-context says:
+"3. 写 Truman 11章复盘 — 用 Write 工具写到 桌面/agent复盘/ouyangfeng/daily-context/YYYY-MM-DD.md（格式见 agent-os.md §10.2，11章缺一不可，差异栏=第 1 章，空白 = C 级）
+4. 保存+自检 — python kdo-tools/daily-context-save.py save --agent ouyangfeng --truman --file 桌面/agent复盘/ouyangfeng/daily-context/YYYY-MM-DD.md"
+
+Wait, the `--file` in step 4 points to the SAME daily-context file (not a temp). So the workflow is:
+1. Write the Truman复盘 content directly to `桌面/agent复盘/ouyangfeng/daily-context/YYYY-MM-DD.md` (using Write tool).
+2. Run save with `--file` pointing to that file.
+
+But if the file already has sessions 1-3, and I write ONLY my session 4 to it (via Write tool = overwrite), I'd lose sessions 1-3.
+
+Actually, wait. Let me reconsider. The rule for "一日多会话" says "每次会话结束 → 追加到同一个 YYYY-MM-DD.md". So I should APPEND, not overwrite. The Write tool (in the agent context) presumably means "append the new session section to the existing file".
+
+And then `save --file <existing-file>` would read the WHOLE file (sessions 1-4), strip the frontmatter layer, and re-write with fresh frontmatter + all sessions + dual-write to archive. But wait — `_strip_existing_layers` would strip the existing frontmatter (session_id etc.) and the `# ouyangfeng · 2026-09-06` title layer, leaving the body (sessions 1-4). Then it wraps with new frontmatter + title. So the result preserves all sessions. Good.
+
+Actually, let me check `_strip_existing_layers` to be sure it only strips the FIRST frontmatter + title layer, not the session-2/3/4 headers (which are `# Truman 11章复盘 · 第N次会话`).
+
+Let me look at the save script's `_strip_existing_layers` function.
+
+Actually, from the earlier output, I saw the save script but the `_strip_existing_layers` function was truncated. Let me check it. But actually, the key insight from the friction note: "脚本对相对路径按 cwd 解析，桌面/ 不是 cwd 下真实目录" — so I must use ABSOLUTE path.
+
+Let me check `_strip_existing_layers` to understand what gets stripped.
+
+Actually, let me simplify my approach and be safe:
+
+1. Read the existing `2026-09-06.md` content (I have it partially).
+2. Append my session-4 Truman section (11 chapters) to it using .NET AppendAllText (UTF8), preserving sessions 1-3.
+3. Update the "本日共 N 次会话" marker at top if it exists (or add it).
+4. Run `save --file <absolute path>` to re-process (strip+rewrite frontmatter, dual-write to archive, self-check).
+
+But I need to make sure the save script's re-processing doesn't lose the appended content. Let me check `_strip_existing_layers` first.
+
+Actually, let me look at the full `_strip_existing_layers` and how the title/instance is handled. Let me also check whether the current daily-context file has a "本日共 N 次会话" marker at the very top (before the first session).
+
+Let me read the beginning of the file (first ~60 lines) and the `_strip_existing_layers` function.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command 'Select-String -Path kdo-tools/daily-context-save.py -Pattern "def _strip_existing_layers" -Context 0,40 | ForEach-Object { $_.Line; $_.Context.PostContext }' in C:\Users\Administrator\Desktop\wiki
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "Get-Content -Raw -Encoding UTF8 \"C:\\Users\\Administrator\\Desktop\\agent复盘\\ouyangfeng\\daily-context\\2026-09-06.md\" | Select-Object -First 1 | ForEach-Object { "'$_.Substring(0, [Math]::Min(1200, $_.Length)) }' in C:\Users\Administrator\Desktop\wiki
+ succeeded in 246ms:
+def _strip_existing_layers(body: str) -> str:
+    """#512 重打覆盖写：剥掉输入文件既有的 frontmatter 层与 save 生成的旧标题行
+    （可多层堆叠），只留正文内容，再套新 frontmatter——同 agent 同日同文件重打=替换不追加。
+
+    旧标题行只匹配 save 生成格式 `# <agent> · <YYYY-MM-DD>[-instance]`（日期结尾），
+    Truman 内容标题（`# Truman 11章复盘 · ...（后缀）`）不匹配不误伤。
+    """
+    import re
+    title_re = re.compile(r"^# [^·\n]+ · \d{4}-\d{2}-\d{2}(-[A-Za-z0-9]+)?\s*$")
+    text = body.strip()
+    changed = True
+    while changed:
+        changed = False
+        if text.startswith("---"):
+            parts = text.split("---", 2)
+            if len(parts) >= 3:
+                text = parts[2].strip()
+                changed = True
+        lines = text.splitlines()
+        if lines and title_re.match(lines[0]):
+            text = "\n".join(lines[1:]).strip()
+            changed = True
+    return text
+
+
+def cmd_save(args):
+    agent = args.agent
+    today = datetime.now().strftime("%Y-%m-%d")
+    instance = getattr(args, "instance", "") or ""
+    ts = now_iso()
+    session_id = f"{agent}-{today}" + (f"-{instance}" if instance else "")
+
+    # 读取复盘内容：优先级 --file > --stdin > --text
+    body = ""
+    if getattr(args, "file", ""):
+        fp = Path(args.file)
+        if fp.exists():
+            body = fp.read_text(encoding="utf-8")
+        else:
+            print(f"❌ 文件不存在：{args.file}", file=sys.stderr)
+            return 1
+
+ succeeded in 268ms:
+---
+session_id: ouyangfeng-2026-09-06
+agent_id: ouyangfeng
+date: 2026-09-06
+created_at: 2026-09-06T00:11:30.567283+00:00
+updated_at: 2026-09-06T00:11:30.567283+00:00
+git_head: f9a710ed1
+content_hash: 50c5c3be5d5f
+---
+
+# ouyangfeng · 2026-09-06
+
+## 差异栏
+vs 09-05（#641 私董会单卡深审）：本轮是「三单终审」——#642 修订单随审 + #645 返工二轮复审 + #646 Sysmon 处置复审。新视角 = 返工复审的正确姿态不是重读，而是「旧 FAIL 清单对照 + 独立复算脚本双口径交叉」，并且终审记录本身也要过门禁（F-035 负向判词锚点 / F-036 问题落点）——审查者自己的意见书会被机器拦，这是机制健康信号而非事故。被打破的假设：默认「生产者自带的核验脚本可信」——本轮没直接采信 _tmp/645-verify-src.py，另写 ASCII 口径独立复算 46/46 才确认，结果一致但动作本身是必要的。
+
+## 概要
+终审三单 PASS A-：①#642 laowantong-641-depth-patch（修订单五口径闭环，随 #641 一并终审）②#645 huangyaoshi-conversation-distill-pipeline 返工二轮（P1/P2 修复核实，逐卡溯源 46/46）③#646 huangyaoshi-sysmon-cas-trace（Sysmon EID23 归档 59G 写入者溯源 + 处置释放 60G）。三单均写终审记录 + queue_transition review 流转 reviewed A-，todos 落账一行。
+
+## 关键决策
+| 决策 | 理由 | 结果 |
+|:--|:--|:--|
+| #645 返工复审走「对照上次 FAIL 清单 + 独立复算」而非重读 | 复审≠重深读，效率 5 倍（v2.3.1） | P1/P2 修复逐项读码确认 + 46/46 双口径 |
+| 独立写 ASCII-only 核验脚本（不共生产者脚本） | 生产者脚本可信但不能单方采信，且管道传中文有坑 | 46/46 与官方脚本一致，交叉印证 |
+| #646 负向判词「不存在」被 F-035 拦后补 **存在性核查** 锚点 | #433 门禁对审查者同样生效 | 补锚点后放行 |
+| #646 🟠 残留被 F-036 拦（无落点）后改「待王语嫣知会」 | 发现问题必须给去向 | 放行 |
+| #64
+
+Now I understand the structure and the save script behavior:
+- `_strip_existing_layers` strips the frontmatter (leading `---` block) and the title line `# ouyangfeng · 2026-09-06` (matching the date-suffix pattern), repeatedly. It does NOT strip the `# Truman 11章复盘 · 第N次会话` headers (because those don't end with a date).
+- So if I pass the full existing file (with sessions 1-3 + my new session 4) to `save --file`, the script will strip frontmatter + title, keep the body (sessions 1-4), and re-wrap with new frontmatter + title. Good — no data loss.
+
+So my plan:
+1. Append my session-4 Truman section to the existing `2026-09-06.md` (using .NET AppendAllText UTF8).
+2. Optionally update the "本日共 N 次会话" marker. Actually, looking at the existing file, there's no explicit "本日共 N 次会话" marker at the top; instead the sessions are just appended with `# Truman 11章复盘 · 第N次会话` headers. The 10.3 rule says "文件开头标注'本日共 N 次会话'", but the existing file doesn't seem to have it (or it's not visible). Actually, the existing file's session headers are "# Truman 11章复盘 · 第3次会话（...）". So the convention used is the session header with 第N次. I'll follow that: append "# Truman 11章复盘 · 第4次会话（#656 终审，12:38-12:45）".
+
+3. Then run `save --file <absolute-path>`.
+
+But wait — I need to write the session-4 Truman content. Let me compose it now, in the 11-chapter format, matching the existing style.
+
+Let me also note: the 差异栏 must be non-blank (it's chapter 1, blank = C grade). I need to compare with the previous session (#652/#653/#655/#654 四单终审, which was the 3rd session). My session is a SINGLE task 终审 (#656) with heavy independent verification (byte-level 台账回验, live MiniMax probe, independent full regression rerun).
+
+The key differences/novel perspectives for my 差异栏:
+- 第3次会话 was 四单连审 with 抽审策略; this session is 单单深审 (单 task), and the novel thing is: (a) 台账四行"本机回验" (byte-level source config verification + process command line + live probe), (b) discovered TWO correctness bugs in the core deliverable (M1 dedup scope, M2 relay downgrade) that weren't in the production report's claimed "11 tests all green" — the tests had a misleading name/coverage gap, (c) 第5行 MiniMax supplement had a timestamp inconsistency I caught via git commit time vs file mtime cross-check, (d) encoding re-occurrence: piping Chinese through `python -` via stdin corrupted the file AGAIN (3rd recurrence per the 技能进化日志 which noted it on 09-05 as "第2次复发"), fixed via .NET AppendAllText.
+
+Let me compose the 11 chapters concisely but substantively:
+
+```
+# Truman 11章复盘 · 第4次会话（#656 终审，12:38-12:45）
+
+## 差异栏
+vs 第3次会话（#652/#653/#655/#654 四单连审·抽审策略）：本轮是单单深审 #656（拉起器通道健康预检+fallback），且台账审查从「读执行报告」升级到「五行台账逐行本机回验」——实读 ~/.claude/settings.json、~/.codex/config.toml+auth.json、relay 进程命令行、~/.hermes/config.yaml、~/.kdo/config.yaml，并对第 5 行 MiniMax 做独立实弹探针（200/186 tokens）。被打破的假设：①「273 passed 全绿=实现无缺陷」——本轮从绿测试里挖出两个真实逻辑缺陷（M1 同上游 tool 级去重、M2 relay 上游误降级），因为用例名与覆盖不一致；②「增补行的 git commit 时间即事实时间」——第 5 行「12:40 实测」被 commit 12:25:58 + 文件 mtime 12:21:58 交叉证伪。
+
+## 概要
+终审 #656 huangyaoshi-channel-health-fallback PASS A-：拉起器通道健康预检+fallback（F-073 kimi 403/codex 余额尽两墙根治）。四核独立核验全过（预检真实现/fallback 七条实账/台账五行本机回验/回归 273 独立复跑），三条待裁裁决均同意；🟠2（tool 级去重、relay 上游误降级）放行留黄药师微单，🔵3（MiniMax 行5 指纹/时间戳/端点）留王语嫣。终审记录写任务单 + review 流转 reviewed A-，抄送王语嫣 + todos 落账。
+
+## 关键决策
+| 决策 | 理由 | 结果 |
+| 台账五行逐行本机回验而非采信执行报告 | O0 溯源：前四行实读源配置+进程命令行，第5行独立实弹探针 | 四行指纹全部吻合，第5行 200/186tokens 实证 |
+| M1/M2 判 🟠 放行而非 🔴 打回 | 两缺陷均为窄边界（主场景 kimi 403→claude 正确），fallback 功能不受损，修复小且明确 | PASS A-，两 TODO 留黄药师微单 |
+| 全量回归独立复跑 273 | 不采信「报告称 273 passed」 | 273 passed 37.65s 零失败，独立印证 |
+| 中文落盘改 .NET AppendAllText+UTF8 | 管道 python - 传中文变问号第 3 次复发（09-05 已记第2次） | 终审记录/todos 全部 UTF-8 无 BOM 无损 |
+| 不写独立建议书 | M1/M2 属交付物缺陷（内容类），L1-L3 属台账内容更正，均在审查意见内给落点 | 免触「建议=必落建议书」口诀，落点已闭合 |
+
+## 思维盲点
+1. 第一次 append 终审记录用管道 python -，中文变问号，还误判「git checkout 未生效」——实际是文件已坏但 console GBK 渲染 + Python 检查源同管道被 mangled 双重欺骗。为什么漏掉：09-05 已记「管道传中文第2次复发」，但当时只记了「落盘走 .NET」，没记「验证脚本也别走管道中文」。
+2. 差点只按执行报告的「11 用例全绿」就放行，没逐个用例核对「用例名 vs 实际覆盖面」——M1 的 `test_tool_level_failure_does_not_condemn_same_upstream` 名字说「同上游」，实际 codex(deepseek)+kimi(kimi) 不同上游。为什么漏掉：绿测试给了「覆盖到」的假安心，没核对用例名的语义与断言对象是否一致。
+
+## 顿悟
+1. 推翻「全绿回归=实现正确」：测试全绿只能证明「被测行为符合断言」，不能证明「断言覆盖了该覆盖的语义」——用例名撒谎（`does_not_condemn_same_upstream` 实际不同上游）比漏写用例更危险。
+2. 增补行的实证质量要用「文件 mtime / git commit 时间 / 声称时间」三方交叉，单信 commit message 会被未来时间戳骗过。
+3. 独立实弹探针（MiniMax 186 tokens 200）比「行内声称 199 tokens 实测 200」更硬——自己打一发是最快的溯源闭环。
+
+## 过程资产
+| 新增/更新 | 路径 |
+| 终审记录 PASS A- | 60_feedback/tasks/task_20260906_huangyaoshi-channel-health-fallback.md「## 终审记录」节 |
+| 队列流转 | queue_transition review 656 → reviewed A- |
+| 抄送+落账 | 90_control/todos/wangyuyan.md +1 / ouyangfeng.md +1 |
+| 本复盘 | 桌面/agent复盘/ouyangfeng/daily-context/2026-09-06.md 第4次会话 |
+
+## 元反思
+下次终审带新脚本交付的基建单：①绿测试逐个核「用例名语义 vs 断言对象」，重点找「名字说同上游、实际不同上游」这类覆盖错位；②增补台账行的三时交叉（mtime/commit/声称）成标准动作；③中文验证脚本也要 ASCII-safe（\u 转义），不单是落盘走 .NET。
+
+## Truman复盘
+
+### 逐轮映射
+| 轮次 | 人做了什么 | 双三角 | AI做了什么 | 双三角 |
+| 1 | 老朱 09-06 晨问两堵墙根因+授权根治 | 体系（任务定义） | 启动恢复三读+读任务单#656+宪法+vault-status | 数据 |
+| 2 | — | — | 读 channel_health.py/launch/tests 全文+channel-model-map 五行 | 数据（源码事实） |
+| 3 | — | — | 台账四行实读源配置+relay 进程命令行+第5行 MiniMax 独立探针 | 基本功（检验循环） |
+| 4 | — | — | 独立复跑全量 pytest 273 + 三时交叉查「12:40」矛盾 | 数据（回归+时间证据） |
+| 5 | — | — | 写终审记录（F-035/F-036 自检）+ review 流转 A- + 抄送+落账 | 体系（审查闭环） |
+
+### 飞轮效应
+加速「台账实证质量」回路：从「读执行报告的行」升级到「逐行开源配置+独立实弹」，并把「用例名语义 vs 断言对象」核对纳入基建单标准动作——测试绿不再等于实现无缺陷。
+
+### 对照实验
+- 无人协作：人开 5 个源配置 + relay 进程 + 打 MiniMax 探针 + 跑 273 用例，约 60-80 分钟。
+- 无AI协作（只信执行报告）：M1/M2 两缺陷与「12:40」时间戳矛盾会被 273 绿与 commit message 掩盖。
+- 合在一起：约 45 分钟闭环，两真实缺陷 + 三处台账细节全被挖出并给落点，PASS A-。
+
+### 下次改进
+- Agent自身：绿测试逐用例核语义；增补台账行做三时交叉；中文验证脚本 ASCII-safe。
+- 方法论卡更新：channel_health 类「同上游去重按 scope 而非 name」可入判重/连坐类基建终审锚点；「声称时间 vs git/mtime」三时交叉可入台账实证质量检查单。
+```
+
+This is comprehensive. Let me write it. I'll append it to the existing file using .NET AppendAllText (UTF8 no BOM).
+
+Then run the save command with absolute path.
+
+Let me also handle the 技能进化日志: I should append a row for this session. The rule from ouyangfeng-context: "更新技能进化日志 — 追加一行". Let me append a row. The table format is:
+`| 日期 | 学到了什么 | 类型（新武器/方法升级/踩坑教训） | 来源 |`
+
+Current last row (2026-09-06) is about #642/#645/#646. I'll add a new row for #656.
+
+Actually wait — looking at the log tail, the existing 2026-09-06 row already covers session 1. The session 3 (#652-#654) reviews apparently didn't get a separate row (maybe they were bundled). For my session, I should add a row. But the rule says "每次会话加一行". Let me add one row for #656.
+
+Let me compose the 技能进化日志 row:
+`| 2026-09-06 | #656 终审：绿测试逐用例核「用例名语义 vs 断言对象」——M1 用例名称「同上游」实际 codex/kimi 不同上游，名实错位比漏写更危险；台账增补行做「声称时间 vs git commit vs 文件 mtime」三时交叉（第5行「12:40」被 12:25/12:21 证伪）；管道 python - 传中文变问号第 3 次复发（验证脚本也要 ASCII-safe，非仅落盘） | 方法升级 | #656 终审实战 |`
+
+Let me check the exact format of the existing rows. The rows look like:
+`| 2026-09-03 | ... | 方法升级 | #633 终审实战 || 2026-09-04 | ... |` 
+
+Hmm, the last row seems to have a trailing `|` and then next row on same line? Let me look: the tail output showed:
+```
+| 2026-09-03 | ... | 方法升级 | #633 终审实战 || 2026-09-04 | ... | 方法升级 | #638 终审实战 |
+
+| 2026-09-05 | ... | 踩坑教训 | #641 终审实战 |
+| 2026-09-06 | ... | 踩坑教训 | #642/#645/#646 终审实战 |
+```
+
+So each row is on its own line (the `||` was just the truncation showing two rows joined in my display). The format is `| 日期 | 学到 | 类型 | 来源 |`.
+
+I'll append one row to the log. Let me check if there's a trailing newline and header structure. Actually, let me just append a row using AppendAllText.
+
+Wait, actually — is the 技能进化日志 required for THIS session? The ouyangfeng-context says "复盘强制动作 0. 更新技能进化日志 — 追加一行". Yes, required.
+
+Let me now do all the writes:
+1. Append session-4 Truman to daily-context.
+2. Append 技能进化日志 row.
+3. Run save command.
+
+Let me write the session-4 content and the log row via PowerShell .NET (UTF8), then run save.
+
+Actually, I need to be careful with the PowerShell here-string containing the `|` table characters and `$` etc. Single-quoted here-string `@'...'@` is literal, so `|` and `$` are fine. But my content has no `$`. It has backticks in code spans (`probe_chain`), which in single-quoted here-string are literal. Good.
+
+Let me write the session-4 Truman content. I'll use `@'...'@`.
+
+One concern: the content contains `### 逐轮映射` table with `|` characters — fine in literal here-string.
+
+Let me also double check: the existing file ends with what? The last line I saw was "### 下次改进\n- 负向判词的 ls/find 锚点跑之前先穷举层级..." (from session 3's content). I should ensure I append with a proper separator (newline + `# Truman 11章复盘 · 第4次会话`).
+
+Let me write the append now. I'll do both daily-context append and log row in one command, then run save in the next command (save depends on the append being done).
+
+Actually, I'll do the appends in one command, then the save in a separate command (since save reads the file, must be after append completes).
+
+Let me write the appends.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command '$utf8 = [System.Text.UTF8Encoding]::new($false)
+$dc = "C:'"\\Users\\Administrator\\Desktop\\agent复盘\\ouyangfeng\\daily-context\\2026-09-06.md\"
+"'$truman = @'"'
+
+
+# Truman 11章复盘 · 第4次会话（#656 终审，12:38-12:45）
+
+## 差异栏
+vs 第3次会话（#652/#653/#655/#654 四单连审·抽审策略）：本轮是单单深审 #656（拉起器通道健康预检+fallback），且台账审查从「读执行报告」升级到「五行台账逐行本机回验」——实读 ~/.claude/settings.json、~/.codex/config.toml+auth.json、relay 进程命令行、~/.kimi-code/config.toml、~/.hermes/config.yaml、~/.kdo/config.yaml，并对第 5 行 MiniMax 做独立实弹探针（200/186 tokens）。被打破的假设：①「273 passed 全绿=实现无缺陷」——本轮从绿测试里挖出两个真实逻辑缺陷（M1 同上游 tool 级去重、M2 relay 上游误降级），因为用例名与覆盖不一致；②「增补行的 git commit 时间即事实时间」——第 5 行「12:40 实测」被 commit 12:25:58 + 文件 mtime 12:21:58 交叉证伪。
+
+## 概要
+终审 #656 huangyaoshi-channel-health-fallback PASS A-：拉起器通道健康预检+fallback（F-073 kimi 403/codex 余额尽两墙根治）。四核独立核验全过（预检真实现/fallback 七条实账/台账五行本机回验/回归 273 独立复跑），三条待裁裁决均同意；🟠2（tool 级去重、relay 上游误降级）放行留黄药师微单，🔵3（MiniMax 行5 指纹/时间戳/端点）留王语嫣。终审记录写任务单 + review 流转 reviewed A-，抄送王语嫣 + todos 落账。
+
+## 关键决策
+| 决策 | 理由 | 结果 |
+|:--|:--|:--|
+| 台账五行逐行本机回验而非采信执行报告 | O0 溯源：前四行实读源配置+进程命令行，第5行独立实弹探针 | 四行指纹全部吻合，第5行 200/186 tokens 实证 |
+| M1/M2 判 🟠 放行而非 🔴 打回 | 两缺陷均为窄边界（主场景 kimi 403→claude 正确），fallback 功能不受损，修复小且明确 | PASS A-，两 TODO 留黄药师微单 |
+| 全量回归独立复跑 273 | 不采信「报告称 273 passed」 | 273 passed 37.65s 零失败，独立印证 |
+| 中文落盘改 .NET AppendAllText+UTF8 | 管道 python - 传中文变问号第 3 次复发（09-05 已记第2次） | 终审记录/todos 全部 UTF-8 无 BOM 无损 |
+| 不写独立建议书 | M1/M2 属交付物缺陷（内容类），L1-L3 属台账内容更正，均在审查意见内给落点 | 免触「建议=必落建议书」口诀，落点已闭合 |
+
+## 思维盲点
+1. 第一次 append 终审记录用管道 python -，中文变问号，还误判「git checkout 未生效」——实际是文件已坏但 console GBK 渲染 + Python 检查源同管道被 mangled 双重欺骗。为什么漏掉：09-05 已记「管道传中文第2次复发」，但当时只记了「落盘走 .NET」，没记「验证脚本也别走管道中文」。
+2. 差点只按执行报告的「11 用例全绿」就放行，没逐个用例核对「用例名 vs 实际覆盖面」——M1 的 test_tool_level_failure_does_not_condemn_same_upstream 名字说「同上游」，实际 codex(deepseek)+kimi(kimi) 不同上游。为什么漏掉：绿测试给了「覆盖到」的假安心，没核对用例名的语义与断言对象是否一致。
+
+## 顿悟
+1. 推翻「全绿回归=实现正确」：测试全绿只能证明「被测行为符合断言」，不能证明「断言覆盖了该覆盖的语义」——用例名撒谎（does_not_condemn_same_upstream 实际不同上游）比漏写用例更危险。
+2. 增补行的实证质量要用「文件 mtime / git commit 时间 / 声称时间」三方交叉，单信 commit message 会被未来时间戳骗过。
+3. 独立实弹探针（MiniMax 186 tokens 200）比「行内声称 199 tokens 实测 200」更硬——自己打一发是最快的溯源闭环。
+
+## 过程资产
+| 新增/更新 | 路径 |
+|:--|:--|
+| 终审记录 PASS A- | 60_feedback/tasks/task_20260906_huangyaoshi-channel-health-fallback.md「## 终审记录」节 |
+| 队列流转 | queue_transition review 656 → reviewed A- |
+| 抄送+落账 | 90_control/todos/wangyuyan.md +1 / ouyangfeng.md +1 |
+| 本复盘 | 桌面/agent复盘/ouyangfeng/daily-context/2026-09-06.md 第4次会话 |
+
+## 元反思
+下次终审带新脚本交付的基建单：①绿测试逐个核「用例名语义 vs 断言对象」，重点找「名字说同上游、实际不同上游」这类覆盖错位；②增补台账行的三时交叉（mtime/commit/声称）成标准动作；③中文验证脚本也要 ASCII-safe（\\u 转义），不单是落盘走 .NET。
+
+## Truman复盘
+
+### 逐轮映射
+| 轮次 | 人做了什么 | 双三角 | AI做了什么 | 双三角 |
+|:--|:--|:--|:--|:--|
+| 1 | 老朱 09-06 晨问两堵墙根因+授权根治 | 体系（任务定义） | 启动恢复三读+读任务单#656+宪法+vault-status | 数据 |
+| 2 | — | — | 读 channel_health.py/launch/tests 全文+channel-model-map 五行 | 数据（源码事实） |
+| 3 | — | — | 台账四行实读源配置+relay 进程命令行+第5行 MiniMax 独立探针 | 基本功（检验循环） |
+| 4 | — | — | 独立复跑全量 pytest 273 + 三时交叉查「12:40」矛盾 | 数据（回归+时间证据） |
+| 5 | — | — | 写终审记录（F-035/F-036 自检）+ review 流转 A- + 抄送+落账 | 体系（审查闭环） |
+
+### 飞轮效应
+加速「台账实证质量」回路：从「读执行报告的行」升级到「逐行开源配置+独立实弹」，并把「用例名语义 vs 断言对象」核对纳入基建单标准动作——测试绿不再等于实现无缺陷。
+
+### 对照实验
+- 无人协作：人开 5 个源配置 + relay 进程 + 打 MiniMax 探针 + 跑 273 用例，约 60-80 分钟。
+- 无AI协作（只信执行报告）：M1/M2 两缺陷与「12:40」时间戳矛盾会被 273 绿与 commit message 掩盖。
+- 合在一起：约 45 分钟闭环，两真实缺陷 + 三处台账细节全被挖出并给落点，PASS A-。
+
+### 下次改进
+- Agent自身：绿测试逐用例核语义；增补台账行做三时交叉；中文验证脚本 ASCII-safe。
+- 方法论卡更新：channel_health 类「同上游去重按 scope 而非 name」可入判重/连坐类基建终审锚点；「声称时间 vs git/mtime」三时交叉可入台账实证质量检查单。
+'@
+[System.IO.File]::AppendAllText("'$dc, $truman, $utf8)
+Write-Output "daily-context appended"
+# 技能进化日志追加一行
+$log = "C:'"\\Users\\Administrator\\Desktop\\agent复盘\\ouyangfeng\\技能进化日志.md\"
+"'$logRow = "| 2026-09-06 | #656 终审：绿测试逐个核「用例名语义 vs 断言对象」——M1 用例名「同上游」实际 codex(deepseek)/kimi(kimi) 不同上游，名实错位比漏写更危险；台账增补行做「声称时间 vs git commit vs 文件 mtime」三时交叉（第5行「12:40」被 12:25/12:21 证伪）；管道 python - 传中文变问号第 3 次复发（验证脚本也要 ASCII-safe，非仅落盘） | 方法升级 | #656 终审实战 |"
+[System.IO.File]::AppendAllText($log, $logRow + "`r`n", $utf8)
+Write-Output "skill-log appended"' in C:\Users\Administrator\Desktop\wiki
+ succeeded in 207ms:
+daily-context appended
+skill-log appended
+
+Now let me run the save command with the absolute path, which will re-process the daily-context file (strip frontmatter/title, re-wrap, dual-write to archive, run self-check).
+
+Command:
+```
+python kdo-tools/daily-context-save.py save --agent ouyangfeng --truman --file "C:\Users\Administrator\Desktop\agent复盘\ouyangfeng\daily-context\2026-09-06.md"
+```
+
+Let me run it.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "python kdo-tools/daily-context-save.py save --agent ouyangfeng --truman --file \"C:\\Users\\Administrator\\Desktop\\agent复盘\\ouyangfeng\\daily-context\\2026-09-06.md\"" in C:\Users\Administrator\Desktop\wiki
+ succeeded in 302ms:
+✅ 已保存：C:\Users\Administrator\Desktop\agent复盘\ouyangfeng\daily-context\2026-09-06.md
+✅ 已存档：60_feedback\session-archives\2026-09-06\ouyangfeng.md
+📋 自检：🟡 B级 📚检索有发现
+✅ 事件 #1211 已写入: agent=ouyangfeng event=review_saved
+🧪 胶囊 L0 已留痕: agent=ouyangfeng event=review_saved
+✅ A → B 镜像完成: C:\Users\Administrator\.kdo-memory\L1 → D:\KDO-memory\L1-backup（robocopy /MIR，exit 1）
+✅ verify PASS：B 镜像文件 hash 全一致；从 B 打开 integrity=ok 行数 1206（A 同 1206）
+
+The save command succeeded:
+- 🟡 B级 (self-check passed, ≥🟡 as required; "🔴 C 级 = 重写", so B is acceptable).
+- Archived to 60_feedback/session-archives/2026-09-06/ouyangfeng.md.
+- L0 event written.
+- Mirror A→B completed, verify PASS.
+
+Note: The self-check is 🟡 B级, which means "检索有发现" (retrieval found something). The requirement is "输出必须显示 🟢 或 🟡。🔴 C 级 = 重写". So 🟡 is acceptable. Good.
+
+Wait — the AGENTS.md instruction says "输出必须显示 🟢 或 🟡". 🟡 B级 is acceptable (it's not 🔴 C级).
+
+Now, let me verify the review record was actually written correctly to the task file and that the queue is updated. Let me also do a final verification of the overall state:
+
+1. Task file status = reviewed, grade A-, has 终审记录.
+2. Queue row updated.
+3. The review didn't leave the task in a weird state.
+
+Let me do a quick final verification:
+- Check task file frontmatter (status/reviewed_by/grade).
+- Check the 终审记录 section is present and correct (via ASCII-safe check).
+- Check my todos entry.
+- Check git status to see what changed (the review command should have auto-committed).
+
+Actually, the review command already confirmed "状态更新为 reviewed，等级 A-" and auto-committed (per #390). Let me do a quick final sanity check on the task file frontmatter and confirm no leftover corruption.
+
+Let me also verify the final state of the review record in the task file (that the 终审记录 Chinese is intact, not mojibake).
+
+Let me do a final verification.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "@'
+from pathlib import Path
+p = Path(r\"C:\\Users\\Administrator\\Desktop\\wiki\\60_feedback\\tasks\\task_20260906_huangyaoshi-channel-health-fallback.md\")
+s = p.read_text(encoding=\"utf-8\")
+print(\"status reviewed:\", \"status: reviewed\" in s)
+print(\"grade A-:\", \"grade: A-\" in s)
+print(\"reviewed_by:\", \"reviewed_by: \\u6b27\\u9633\\u950b\" in s)  # 欧阳锋
+print(\"终审记录 heading:\", \"## \\u7ec8\\u5ba1\\u8bb0\\u5f55\" in s)
+print(\"存在性核查 anchor:\", \"**\\u5b58\\u5728\\u6027\\u6838\\u67e5**\" in s)
+print(\"M1/M2 present:\", \"M1\" in s and \"M2\" in s)
+print(\"valid utf8:\", True)
+print(\"total chars:\", len(s))
+'@ | python -" in C:\Users\Administrator\Desktop\wiki
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command 'git log --oneline -3; Write-Output "===== git status (core files) ====="; git status --porcelain -- 60_feedback/tasks/task_20260906_huangyaoshi-channel-health-fallback.md 70_product/tasks/production-queue.md 90_control/todos/ouyangfeng.md 90_control/todos/wangyuyan.md' in C:\Users\Administrator\Desktop\wiki
+ succeeded in 360ms:
+status reviewed: True
+grade A-: True
+reviewed_by: True
+???? heading: True
+????? anchor: True
+M1/M2 present: True
+valid utf8: True
+total chars: 14191
+
+ succeeded in 408ms:
+89d7fb2f2 chore(queue): #660 claim by hongqigong
+5246aa009 chore(queue): #661 claim by duanwangye
+db8496846 feat(wangyuyan): DataPack 双试点立项（#660 洪七公识图金标准/#661 段王爷登录样本，老朱点名授权）
+===== git status (core files) =====
+ M 90_control/todos/ouyangfeng.md
+ M 90_control/todos/wangyuyan.md
+
+Final verification:
+- Task file: status reviewed ✅, grade A- ✅, reviewed_by 欧阳锋 ✅, 终审记录 heading ✅, 存在性核查 anchor ✅, M1/M2 present ✅, valid utf8 ✅.
+- Git: The task file and production-queue are NOT in git status modified list (they were auto-committed by the review command). The todos/ouyangfeng.md and wangyuyan.md are modified (uncommitted) — these are my append lines.
+
+Wait, interesting: git log shows the HEAD is now at 89d7fb2f2 (#660 claim), 5246aa009 (#661 claim), db8496846 (#660/#661 立项). But I don't see my review commit (#656 review) in the top 3. Let me check — my review command should have auto-committed. Let me look further back in the log to find the #656 review commit.
+
+Actually, the review command output said "✅ task... 终审通过" and per #390 it auto-commits. But the git log top 3 shows #660/#661 claims (from other agents concurrently). My #656 review commit should be somewhere. Let me check git log for #656 review.
+
+Actually, this isn't critical — the task file is confirmed as reviewed (status/grade/reviewed_by all correct, and the task file is clean/committed). The auto-commit happened. Let me verify there's a commit for the review.
+
+Actually, let me just quickly check git log for the review commit to be thorough.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command 'git log --oneline -12 | Select-String -Pattern "656|review|ouyangfeng" -SimpleMatch:$false | Select-Object -First 6; Write-Output "===== full recent ====="; git log --format="%h %ad %s" --date=format:"%H:%M:%S" -8' in C:\Users\Administrator\Desktop\wiki
+ succeeded in 242ms:
+
+af46cc178 chore(queue): #656 review by 欧阳锋
+===== full recent =====
+89d7fb2f2 12:44:37 chore(queue): #660 claim by hongqigong
+5246aa009 12:44:32 chore(queue): #661 claim by duanwangye
+db8496846 12:43:14 feat(wangyuyan): DataPack 双试点立项（#660 洪七公识图金标准/#661 段王爷登录样本，老朱点名授权）
+3948baec1 12:43:01 chore(queue): #659 claim by laowantong
+af46cc178 12:42:39 chore(queue): #656 review by 欧阳锋
+c9d040039 12:42:09 feat(wangyuyan): Phase 0 全量台账（A1欠账11件实锤）+ DataPack 库规范 + A1 挖掘批 #659 立项
+c47550eef 12:39:58 vault backup: 2026-09-06 12:39:58
+45451b35a 12:36:45 docs(wangyuyan): DataPack 调研对齐稿（三源定义/Skill-DP分层/老朱两提案形态裁定/KDO落地方案——待对齐）
+
+
+
+The review commit is present: `af46cc178 chore(queue): #656 review by 欧阳锋` (12:42:39). 
+
+Everything is complete:
+1. ✅ Startup recovery (read .agent/startup.md, .agent/ouyangfeng-context.md, todos tail).
+2. ✅ Read behavior constitution.
+3. ✅ Reviewed #656 thoroughly (four core items + three 待裁 items).
+4. ✅ Wrote 终审记录 (PASS A-) with F-035 anchor + F-036 disposition.
+5. ✅ Ran queue_transition review → reviewed A- (commit af46cc178).
+6. ✅ 抄送王语嫣 (todos/wangyuyan.md).
+7. ✅ todos/ouyangfeng.md 落账.
+8. ✅ Truman 11-chapter 复盘 appended + skill log row.
+9. ✅ daily-context-save → 🟡 B级 (acceptable).
+
+The task is complete. Let me provide a concise final summary to the user.
+
+Actually, wait — let me reconsider one thing: the AGENTS.md top-level instruction says "每次会话结束前必须依次执行: 1. 写 Truman 10章复盘... 2. 保存+自检". But the agent-os.md §10.2 clearly says "11章缺一不可". I used 11 chapters (matching agent-os.md and the daily-context-save.py's TRUMAN_TEMPLATE which has 11 sections). The self-check returned 🟡 B级 (not 🔴), confirming 11 chapters satisfy the validator. Good.
+
+Also, I should double-check: did I miss the "O0 溯源自检" step from the ouyangfeng-context复盘 checklist? The checklist:
+0. 更新技能进化日志 ✅ (done)
+1. 更新失忆恢复锚点 (if changed) — my skills/state changed slightly (the "管道传中文第3次复发" lesson + "绿测试逐用例核语义" + "三时交叉"). Should I update `20_memory/ouyangfeng-amnesia-recovery.md`? The instruction says "如果武器库/状态/能力有变化，同步更新". My findings are lessons, but they're already captured in the 技能进化日志 and daily-context. The amnesia-recovery anchor is for "武器库/状态/能力" changes. My core capabilities didn't change fundamentally; I learned a few lessons which are in the skill log. I think updating the amnesia-recovery is optional here (no state/capability change requiring anchor update). I'll skip it to avoid scope creep, but note it.
+
+Actually, the checklist says "如果武器库/状态/能力有变化，同步更新". There's no major state/capability change this session (I did a standard review). The lessons are in the skill log. So no update needed.
+
+2. O0 溯源自检: "今天审查的每一张卡，我打开过它的 source_refs 源文件吗？" — This task is a基建单 (infrastructure task), not card review. The "source_refs" concept applies to cards. For this基建单, I DID open the actual source files (config files, relay process, channel-health.py, logs) — which is the equivalent of O0 溯源 for an infra task. So O0 溯源 was performed (byte-level source verification). I should note this in my final summary but it's implicitly covered in my review record ("本机回验" of source configs).
+
+Actually, the O0 self-check is specifically about cards' source_refs. Since #656 is not a card review (it's a基建/script task), O0 doesn't directly apply. But I performed equivalent source verification (opened all source config files + code + live probes). I'll mention this in my summary.
+
+3. 写 Truman 11章复盘 ✅
+4. 保存+自检 ✅ (🟡 B级)
+
+All mandatory actions complete.
+
+Let me also verify there are no leftover issues:
+- The task file is now clean (committed by review).
+- My todos/wangyuyan todos appends are uncommitted (modified). These are "在制品" that other agents/backup will handle. The #628 备份避让 says "未提交在制品保持落盘可见即可". Since these are just my todos appends (not stash/worktree operations), they're fine to leave uncommitted (the auto-commit of review only committed the queue/task files, not todos). Actually, should I commit my todos appends? The discipline says queue transitions auto-commit task files. My todos appends are my own留痕. Other agents' todos appends are also uncommitted (I saw wangyuyan.md was already modified before my append). The convention seems to be todos appends are left for the daily-context-save or backup to handle, or committed opportunistically. I should NOT manually git commit (the discipline is path-scoped, and I don't want to interfere with other agents' in-progress). Leaving them落盘 is fine per #628.
+
+Actually, let me reconsider — is there a risk my todos appends get lost? They're on disk (落盘), which is what matters. The vault backup will capture them. Fine.
+
+I'm done. Let me write the final summary.
+
+Actually, one more consideration: the user's task instruction said "完工 todos/ouyangfeng.md 落账" — done. And "走 queue_transition.py review+终审记录节落意见书" — done. And "③台账四行实证质量（你终审时注意：表已由王语嫣增补第 5 行 MiniMax 行...一并核）" — done (verified 5th row).
+
+Let me write a clear, concise final summary in Chinese (matching the user's language), covering:
+- Verdict: PASS A-
+- Four core items verified
+- Three 待裁 rulings
+- Residual findings (🟠 M1/M2, 🔵 L1/L2/L3) with disposition
+- Actions completed (review流转, 抄送, todos落账, 复盘+save)
+
+I'll keep it well-organized but not overly long.
+codex
+终审完成，判定 **PASS（A-）**。以下是本轮结论与落账摘要。
+
+## 终审结论：`#656` PASS A-（commit `af46cc178`）
+
+**四核独立核验（均【实证】）**
+
+1. **① 预检真实现 ✅**：`channel_health.py` 全文逐行核——三探针形态（claude/codex HTTP、kimi CLI、hermes 无独立探针）与任务单一致；`classify_status` 分类 401/402/403/429=upstream、5xx/不可达=tool、200+DEAD_KEYWORDS=upstream 死；全死 exit 2 分支不 spawn。
+2. **② fallback 实测 ✅**：`logs/channel-health.log` 七条实账互证，含 12:07:16 `laowantong->claude`（kimi 真实 403 → 自动切 GLM，生产实战首行）+ 12:23:48 我自身会话拉起走预检；`headless-...-120756.log` 尾=「通道fallback验收OK」；todos 通知落账在场。
+3. **③ 台账五行实证质量 ✅**：前四行本机回验全吻合（claude=GLM 指纹 `1cdfd9b3…uOra`、codex=DeepSeek 指纹 `1511248f…b2f0`/relay PID 161248 命令行、kimi/hermes 同墙）；第 5 行 MiniMax 我做独立实弹探针 → **200 / MiniMax-M3 / 186 tokens**，与行内「199 tokens 实测 200」口径一致。
+4. **④ 回归不红 ✅**：独立复跑 `pytest 90_control/scripts/tests/ -q` → **273 passed 零失败**（37.65s）。
+
+**三条待裁裁决**：①fallback 链 claude 优先 → 同意（GLM 全夜存活实证，异构防线在角色层保持）；②全死 exit 2 送达面 → 够（stdout DM + todos 双通道）；③`--no-probe` 应急口 → 留（显式 override，不冲突）。
+
+## 发现（放行 + 落点，已写进终审记录）
+
+- 🟠 **M1**：`probe_chain` 同上游去重按「上游名」而非 scope——kimi tool 级死会误连坐 hermes；用例名与覆盖错位。**落点**：黄药师后续微单修。
+- 🟠 **M2**：`probe_codex` 把真上游 deepseek 402/401/403/429 误降级为 tool 级（relay 挂时本就走异常分支），台账语义与认知表目标相抵。**落点**：黄药师后续微单删降级块。
+- 🔵 L1/L2/L3：第 5 行 MiniMax 缺指纹（应补 `e0f4018e…oFdc`）、时间戳「12:40」被 commit 12:25:58 + 文件 mtime 12:21:58 证伪、minimax 端点 `/v1` vs 既有脚本 `/anthropic` 漂移。**落点**：王语嫣（+洪七公）。
+
+## 完工动作
+
+- ✅ 意见书已落任务单「## 终审记录」节（含 F-035 **存在性核查** 锚点 + F-036 落点）
+- ✅ `queue_transition.py review 656 --verdict pass --reviewer 欧阳锋 --grade A-` → reviewed
+- ✅ 抄送王语嫣（`todos/wangyuyan.md` +1 行）
+- ✅ `todos/ouyangfeng.md` 落账 +1 行
+- ✅ Truman 11 章复盘追加到今日 daily-context + 技能进化日志 +1 行
+- ✅ `daily-context-save.py` 自检 → **🟡 B级**（合格，非 C 级）
+
+一句提醒（非阻塞）：王语嫣侧需处置三处 🔵——补第 5 行指纹、更正「12:40」为实际挂载时间、确认 minimax 规范端点（`/v1` vs `/anthropic`）后再对齐 config/脚本。
+tokens used
+193,883
+终审完成，判定 **PASS（A-）**。以下是本轮结论与落账摘要。
+
+## 终审结论：`#656` PASS A-（commit `af46cc178`）
+
+**四核独立核验（均【实证】）**
+
+1. **① 预检真实现 ✅**：`channel_health.py` 全文逐行核——三探针形态（claude/codex HTTP、kimi CLI、hermes 无独立探针）与任务单一致；`classify_status` 分类 401/402/403/429=upstream、5xx/不可达=tool、200+DEAD_KEYWORDS=upstream 死；全死 exit 2 分支不 spawn。
+2. **② fallback 实测 ✅**：`logs/channel-health.log` 七条实账互证，含 12:07:16 `laowantong->claude`（kimi 真实 403 → 自动切 GLM，生产实战首行）+ 12:23:48 我自身会话拉起走预检；`headless-...-120756.log` 尾=「通道fallback验收OK」；todos 通知落账在场。
+3. **③ 台账五行实证质量 ✅**：前四行本机回验全吻合（claude=GLM 指纹 `1cdfd9b3…uOra`、codex=DeepSeek 指纹 `1511248f…b2f0`/relay PID 161248 命令行、kimi/hermes 同墙）；第 5 行 MiniMax 我做独立实弹探针 → **200 / MiniMax-M3 / 186 tokens**，与行内「199 tokens 实测 200」口径一致。
+4. **④ 回归不红 ✅**：独立复跑 `pytest 90_control/scripts/tests/ -q` → **273 passed 零失败**（37.65s）。
+
+**三条待裁裁决**：①fallback 链 claude 优先 → 同意（GLM 全夜存活实证，异构防线在角色层保持）；②全死 exit 2 送达面 → 够（stdout DM + todos 双通道）；③`--no-probe` 应急口 → 留（显式 override，不冲突）。
+
+## 发现（放行 + 落点，已写进终审记录）
+
+- 🟠 **M1**：`probe_chain` 同上游去重按「上游名」而非 scope——kimi tool 级死会误连坐 hermes；用例名与覆盖错位。**落点**：黄药师后续微单修。
+- 🟠 **M2**：`probe_codex` 把真上游 deepseek 402/401/403/429 误降级为 tool 级（relay 挂时本就走异常分支），台账语义与认知表目标相抵。**落点**：黄药师后续微单删降级块。
+- 🔵 L1/L2/L3：第 5 行 MiniMax 缺指纹（应补 `e0f4018e…oFdc`）、时间戳「12:40」被 commit 12:25:58 + 文件 mtime 12:21:58 证伪、minimax 端点 `/v1` vs 既有脚本 `/anthropic` 漂移。**落点**：王语嫣（+洪七公）。
+
+## 完工动作
+
+- ✅ 意见书已落任务单「## 终审记录」节（含 F-035 **存在性核查** 锚点 + F-036 落点）
+- ✅ `queue_transition.py review 656 --verdict pass --reviewer 欧阳锋 --grade A-` → reviewed
+- ✅ 抄送王语嫣（`todos/wangyuyan.md` +1 行）
+- ✅ `todos/ouyangfeng.md` 落账 +1 行
+- ✅ Truman 11 章复盘追加到今日 daily-context + 技能进化日志 +1 行
+- ✅ `daily-context-save.py` 自检 → **🟡 B级**（合格，非 C 级）
+
+一句提醒（非阻塞）：王语嫣侧需处置三处 🔵——补第 5 行指纹、更正「12:40」为实际挂载时间、确认 minimax 规范端点（`/v1` vs `/anthropic`）后再对齐 config/脚本。

@@ -793,3 +793,5 @@
 - [2026-09-06 12:27] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#656（huangyaoshi 的单，挂审 11min）（事件驱动：有待终审）
 - [2026-09-06 12:37] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#656（huangyaoshi 的单，挂审 21min）；#658（laowantong 的单，挂审 10min）（事件驱动：有待终审）
 - [2026-09-06 12:37] 🔔 KDO 新提审 1 单：#658，请终审（新提审）
+- [2026-09-06 12:43] 终审 #656 huangyaoshi-channel-health-fallback PASS A-（预检真实现核过；fallback 七条实账；台账五行本机回验含 MiniMax 独立探针 200/186tokens；回归 273 绿独立复跑；三条待裁同意；🟠2 项 tool级去重+relay误降级放行留黄药师微单，🔵3 项行5细节留王语嫣）
+- [2026-09-06 12:47] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#658（laowantong 的单，挂审 20min）（事件驱动：有待终审）

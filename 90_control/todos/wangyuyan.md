@@ -1110,3 +1110,7 @@
 - [2026-09-06 12:26] 🕐 值守拍12:55：minimax订阅key挂载完成(~/.kdo/config.yaml厂级共享)+199tokens实测✅+channel-model-map增补MiniMax行(86b25e922)；#656拉欧阳锋终审(proc_202372,codex通道充值复活实证)——终审通过即解锁#657领取；洪七公OCR交付已复核入试金石报告
 - [2026-09-06 12:27] ⛔ KDO 门禁拦截 2 次（gate-blocked）：2026-09-06 12:22:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli…
 - [2026-09-06 12:37] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-06 12:37:01｜diag_20260906_wangyuyan-datapack-alignment.md｜near
+- [2026-09-06 12:43] 【终审通过 #656】channel-health-fallback PASS A-（四核全过/三条待裁同意；🟠M1 tool级去重 + M2 relay上游误降级 → 黄药师后续微单修；🔵L1 行5补指纹 e0f4018e…oFdc / L2 行5时间戳「12:40」更正为实际挂载 / L3 minimax 端点 /v1 vs /anthropic 需王语嫣+洪七公确认对齐）——编排归你
+- [2026-09-06 12:46] 🕐 值守拍13:00：#656 PASS A-（预检+fallback机制生效）——终审三待裁收口（MiniMax行指纹e0f4018e/时间戳/端点实测口径）；#658 提审拉欧阳锋(proc_203204)审后解锁#657；黄药师3条friction同族划销（--instance坑/相对路径坑/裸commit复发+1）；7行清场双段归零
+- [2026-09-06 12:47] ⚖️ KDO 已终审 1 单：#656（待部署/已闭环）
+- [2026-09-06 12:47] 🕐 值守拍13:05续：#657领取被#658 FIFO阻挡（正常排队，欧阳锋proc_203204审#658后解锁）；2新登记收口（laowantong两坑并入#653族台账/我的对齐稿status非标第二踩自查整改——三踩立项lint）
