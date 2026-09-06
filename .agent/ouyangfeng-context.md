@@ -560,7 +560,7 @@ python 90_control/scripts/queue_transition.py review <task-id> --verdict fail --
 
 ### ⛔ 复盘强制动作（不执行=会话未完成）
 
-0. **🆕 更新技能进化日志** — 追加一行到 `桌面/agent复盘/欧阳锋/技能进化日志.md`：
+0. **🆕 更新技能进化日志** — 追加一行到 `桌面/agent复盘/ouyangfeng/技能进化日志.md`：
    | 日期 | 学到了什么 | 类型（新武器/方法升级/踩坑教训） | 来源 |
    |:--|:--|:--|:--|
    
