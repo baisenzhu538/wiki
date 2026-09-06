@@ -2,14 +2,14 @@
 id: task_20260906_laowantong-batch1c-cards
 title: "批 1c 高优产卡批：框架级 10+case 5+四源同构 dk 1（老朱拍板：要产，排队不急）"
 seq: 666
-status: queued
+status: in_progress
 assignee: laowantong
 created_by: wangyuyan
 created_at: 2026-09-06
 decision_source: 老朱 09-06 拍板「要产，排队不急」；候选=a1-batch1c-goldmine-ledger.md §总路由建议
 reviewer: 欧阳锋
 instance: laowantong
-updated_at: '2026-09-06T17:10:00+08:00'
+updated_at: '2026-09-06T11:45:12.386452+00:00'
 ---
 
 # #666 批 1c 高优产卡（老顽童）
