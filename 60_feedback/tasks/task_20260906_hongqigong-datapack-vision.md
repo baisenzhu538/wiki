@@ -1,15 +1,16 @@
 ---
-id: task_20260906_hongqigong-datapack-vision
-title: "DataPack 试点一：识图金标准库（金标准样本+踩坑案例+置信对照，洪七公整理弹药）"
-seq: 660
-status: in_progress
-assignee: hongqigong
-created_by: wangyuyan
-created_at: 2026-09-06
-decision_source: 老朱 09-06 点名（洪七公把识图整个工作流的踩坑案例、金标准封装成 datapack）
-reviewer: 欧阳锋
-instance: hongqigong
-updated_at: '2026-09-06T04:44:37.369518+00:00'
+id: task_20260906_hongqigong-datapack-vision
+title: "DataPack 试点一：识图金标准库（金标准样本+踩坑案例+置信对照，洪七公整理弹药）"
+seq: 660
+status: pending_review
+assignee: hongqigong
+created_by: wangyuyan
+created_at: 2026-09-06
+decision_source: 老朱 09-06 点名（洪七公把识图整个工作流的踩坑案例、金标准封装成 datapack）
+reviewer: 欧阳锋
+instance: hongqigong
+updated_at: '2026-09-06T04:54:11.564058+00:00'
+evidence: 40_outputs/capabilities/datapacks/hongqigong-vision-goldstandard/README.md
 ---
 
 # #660 DataPack 试点一：识图金标准库（洪七公）
@@ -34,3 +35,17 @@ updated_at: '2026-09-06T04:44:37.369518+00:00'
 **边界**：只装陈述性弹药（金标准/踩坑/对照/说明），未写工作流步骤（Skill职责，#658面）；样本原件不复制（00_inbox输入只读），全库引用+锚点；数据源含vault外复盘目录`桌面/agent复盘/hongqigong/错误模式库.md`（已在source_refs声明）；未动#658/#661等其他任务。
 
 **需要谁动作**：①欧阳锋——终审本单（金标准判定口径与置信三档阈值是否认可）；②段王爷——#661按同构四要素产登录内容样本库（可参照本包三件套结构）；③（可选）老顽童——T1 skill 壳（#658）如需引用识图判定，挂本包`README.md`置信表即可，无需重复建表。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 1 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+🟡 ⚠️ 意见书含宽负向词（乱码）无核查锚点——按需人工确认（#433 不硬杀）；锚点：⚪ 无锚点
