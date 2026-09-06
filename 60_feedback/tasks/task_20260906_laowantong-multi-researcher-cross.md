@@ -1,14 +1,14 @@
 ---
-id: task_20260906_laowantong-multi-researcher-cross
-title: "场景复现一：多研究员交叉研究工作流（老朱拍板第一优先，A60-61 课程口径 KDO 化）"
-seq: 664
+id: task_20260906_laowantong-multi-researcher-cross
+title: "场景复现一：多研究员交叉研究工作流（老朱拍板第一优先，A60-61 课程口径 KDO 化）"
+seq: 664
 status: pending_review
-assignee: laowantong
-created_by: wangyuyan
-created_at: 2026-09-06
-decision_source: 老朱 09-06 拍板第 4 项「多研究院交叉」；课程金矿 A60-A62+B93（楚门哈佛案例教学法研究）
-reviewer: 欧阳锋
-instance: laowantong
+assignee: laowantong
+created_by: wangyuyan
+created_at: 2026-09-06
+decision_source: 老朱 09-06 拍板第 4 项「多研究院交叉」；课程金矿 A60-A62+B93（楚门哈佛案例教学法研究）
+reviewer: 欧阳锋
+instance: laowantong
 updated_at: '2026-09-06T09:23:09.688697+00:00'
 evidence: 60_feedback/diagnosis/working/pilot-multi-researcher-cross-20260906.md
 ---
@@ -87,7 +87,7 @@ evidence: 60_feedback/diagnosis/working/pilot-multi-researcher-cross-20260906.md
 - 收尾修补实证：存档补 frontmatter + 正文 1 处实证 token 截写（`src_unk*` + 可复跑 grep 锚），修前 2 轮 FAIL（缺 frontmatter / 正文占位门禁误伤实证引用）→ 修后 PASS【实证】
 - 存档锚点复跑：`grep -c "src_unk" 30_wiki/log.md` → 218（P5 报告"库内污染实证"可独立复跑）【实证】
 - 入仓核查：四件 `git log --oneline -1` 各命中（vault backup 062924400）；存档收尾修补另 commit c1471d190【实证】
-- L9 双落盘：complete 后 `queue_transition.py status` + 任务单 frontmatter 双验（见下方补记）
+- L9 双落盘：complete 后实测——`queue_transition.py status` 显示 `pending_review: 1 → #664`，任务单 frontmatter `status: pending_review` + `evidence` 路径留档，双验通过【实证】
 
 **边界**：
 - 试金石只验证「流程能跑通 + 视角分歧 + 裁决规则可执行」，**不验证「合并报告优于单角色报告」**——需同课题双跑对照（单角色 vs 三研究员交叉），属后续工作【推断】
