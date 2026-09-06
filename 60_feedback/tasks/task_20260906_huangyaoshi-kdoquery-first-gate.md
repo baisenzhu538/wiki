@@ -81,3 +81,13 @@ evidence: 60_feedback/tasks/task_20260906_huangyaoshi-kdoquery-first-gate.md
 ### ③ 负向判词 / ④ 存在性核查
 
 🔴 意见书含负向断言（「无记录」）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
+
+**存在性核查**（宪法第二条：负向判词逐条附锚，2026-09-06 实测）
+
+| 负向判词 | 核查动作 | 锚点结果 |
+|:--|:--|:--|
+| `60_feedback/diagnosis/` 343 文件 0 个带检索记录节 | `grep -rl "检索记录" 60_feedback/diagnosis/ \| wc -l` | 0（对照组：`grep -rl "检索记录" 60_feedback/session-archives/ \| wc -l` = 40+，工具不失效） |
+| 库内无「检索记录门禁」专卡 | `kdo query "知识库检索记录 调研 门禁"` + `grep -rn "检索记录" agents/agent-os.md` | 3 命中均低相关；规范源头仅 `agents/agent-os.md:250` §10.4.1（复盘要求，无产出门禁） |
+| 挂载链「五条行为底线」残留 0 处 | `grep -rn "五条行为底线" .agent/startup.md .agent/infrastructure-bulletin.md 90_control/agent-behavior-constitution.md 90_control/scripts/kimi-headless-launch.py agents/agent-os.md \| wc -l` | 0；同命令改搜「六条」各挂载点 ≥1 |
+| SOUL.md v1.0 标记残留 0 | `grep -l "constitution: v1.0" C:/Users/Administrator/.hermes/profiles/*/SOUL.md \| wc -l` | 0；v1.1 标记 6/6；`grep -c '^```'` 各文件偶数配平 |
+| 回归 skip 为既有、与本门禁无关 | `python -m pytest tests/ -q -rs` | skip= `tests\test_validate_v15.py:955`（catalog-index 豁免用例，与 pre_submit 无关）；633 passed |
