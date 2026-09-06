@@ -127,3 +127,16 @@ verification: "grep 重跑机读对账 a1-batch1bc-greprerun-result.json（脚�
 - **抽验**：①「211 行 method 卡」实锤（concept-ji-hao-ai-collaboration-methodology.md 208 行等）②总览判定结构（12 维持/3 部分/12 翻案/1 撤出）与 json 对账一致
 - **双签结论**：PASS，交老朱拍板（12 维持+3 部分=真决策项）、欧阳锋终审
 - **连带修正**：我的试金石报告漏挖率 30% 系五态对账漏查 211 行 method 卡所致，按本重跑下修至 ~5%——报告已加更正注记
+
+## 已登记（老朱 09-06 拍板处置，#665 执行记录）
+
+> 本节为 #665 产卡批 C 组「只登记不产卡」三条的落账处（任务单 `task_20260906_laowantong-dkcard-ruling-batch.md`）。伦理 c4-38 裁定注记已由王语嫣落地于批 1c 台账（commit f55bbda5e），不在本批执行范围。
+
+| 条目 | 处置 | 台账锚 | 相关卡注记 |
+|:--|:--|:--|:--|
+| M-65 AI 产品路线图 | 只登记不产卡（产品设想时效性强【推断：讲者自述"基本的设想…半年到一年左右尺度"】） | 本清单 §2 行 M-65（=批 1a 台账 §1.3 #65） | `dk-modeling-course-rnd-ripe-fruit` 末尾登记一行（摘果顺序与本卡"等菜熟再摘"同构） |
+| M-67 招人标准 | 只登记不产卡（单点人事判断，知识增量低） | 本清单 §2 行 M-67（=批 1a 台账 §1.3 #67） | **无自然宿主，不强行挂卡**【存在性核查锚点：grep "AI 探索状态\|岁数不重要" 30_wiki/ → 0 命中（候选清单 §2 重跑）；"招人/招聘/用人标准"主题无专卡，最近邻 `dk-lz-ai-native-organization` 讲组织结构不讲用人标准——任务单"相关卡一行注记"对本条不适用，欧阳锋终审确认】 |
+| S-5 分工哲学 | method 卡补强一行（候选清单 §4 判定"部分维持·唯一幸存"） | 本清单 §4 行 S-5（源=试金石报告 §二，ocr L82） | `method-dual-triangle-human-ai-division` 末尾补强一行（技术限制五要素整句锚） |
+
+**A 组 5 卡（已产）**：`dk-modeling-untrained-first-pride-cost`（M-07）/ `dk-modeling-checklist-working-medium`（M-58）/ `dk-jiangxiang-origin-story-mental-coordinate-system`（J-32）/ `dk-ai-stronger-need-to-know-what-you-want`（J-51）/ `dk-strategy-meeting-quality-friction-signal`（M-44）——全 pre-submit PASS。
+**B 组 6 补强（已挂）**：M-16→`dk-modeling-logical-cleanliness-root`；M-26→`case-truman-personal-growth-map-creation`；M-62→`case-yitang-double-triangle-confidence`；M-66→`modeling-capability-system`；M-68→`case-yitang-education-supply-chain`；M-69→`framework-education-protracted-war`（路由偏差：concept 族无宿主，见卡内声明）。

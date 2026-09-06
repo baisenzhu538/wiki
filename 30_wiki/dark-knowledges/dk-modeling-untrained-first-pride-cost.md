@@ -70,7 +70,7 @@ updated_at: 2026-09-06
 >
 > 但事实上会怎么样呢？反而会让很多新人更多的产生了一种骄傲感，不如就你们先慢一点。（`00_inbox/建模能力/一堂-建模能力培训-truman-口述.txt` L3824-3832）
 
-同场相邻佐证（更早的机制陈述）：「过早用 AI 帮你建模会导致你很难学会：AI 怎么建看着都还不错，但你自己判断不了好不好」（同稿 L2394-2404，已卡 `dk-tool-as-phased-validator`）——本卡补的是这句机制的**后果**（骄傲感）与**组织动作**（开两次会后裁定课程不教）。
+同场相邻佐证（更早的机制陈述）：「过早的用 AI 帮你建模，会导致你很难学会。因为 AI 怎么建看着都还不错，但是你自己其实看到不了都建的好不好」（同稿 L2396-2398，"看到不了"为 ASR 噪声、义为"判断不了"；已卡 `dk-tool-as-phased-validator`）——本卡补的是这句机制的**后果**（骄傲感）与**组织动作**（开两次会后裁定课程不教）。
 
 ## 使用场景
 
@@ -81,7 +81,7 @@ updated_at: 2026-09-06
 
 ## 操作方法
 
-1. **先判练没练过，再决定给不给 AI**：判据不是年限是行为——让此人当场从零建一个最小模型（不借助 AI）。建得出=可进入"AI 当分阶段校验器"用法（`dk-tool-as-phased-validator`）；建不出=先走无 AI 刻意练习
+1. **先判练没练过，再决定给不给 AI**：判据不是年限是行为——让此人当场从零建一个最小模型（不借助 AI）。建得出=可进入"AI 当分阶段校验器"用法（`dk-tool-as-phased-validator`）；建不出=先走无 AI 刻意练习。【推断】此判据为本卡对源稿"完全不懂/从来没有练过"的操作化建议，源稿未给检验动作
 2. **把"看上去不错"翻译成"未经检验"**：凡评价 AI 产出，禁用"看着还行"，必须换成三问之一——删掉一层还成立吗？有反例吗？换场景还能用吗？答不出=不能用
 3. **组织动作照抄"两次会"模板**：涉及新人培养路径的裁定，先开内部会摆出"快（教 AI，产能好看）vs 慢（练基本功，人格资产扎实）"的两难，写清各自的代价，再拍板——一堂的结论是"宁慢勿快"：**"不如就你们先慢一点"**
 4. **给"骄傲感"装一个可观察的信号**：骄傲感的早期信号不是语气，是**回避基本功动作**——不再记笔记、不再拉清单、不再问"为什么"。发现即收 AI 权限回到练习
@@ -107,7 +107,7 @@ updated_at: 2026-09-06
 
 ### 外部攻击者
 
-- **认知科学研究（2025）**：学界已有同向证据——AI 重度使用产生"能力错觉（illusion of competence）"与元认知校准失灵，使用者（尤其新手）把 AI 辅助产出误当个人掌握（[The competence paradox: when psychologists overestimate their AI understanding, Springer 2025](https://link.springer.com/article/10.1007/s00146-025-02814-9)；[The more that people use AI, the more likely they are to overestimate their own abilities, Live Science](https://www.livescience.com/technology/artificial-intelligence/the-more-that-people-use-ai-the-more-likely-they-are-to-overestimate-their-own-abilities)）。**支持**本卡的机制方向；但学界归因是"元认知校准偏差"，Truman 用词是"骄傲感"——前者是偏差，后者是情绪与品格，本卡保留"骄傲感"以存原话口径，同时标注两者不完全同构
+- **认知科学研究（2025）**：学界已有同向证据——AI 重度使用产生"能力错觉（illusion of competence）"与元认知校准失灵，使用者（尤其新手）把 AI 辅助产出误当个人掌握（[The competence paradox: when psychologists overestimate their AI understanding, Springer 2025](https://link.springer.com/article/10.1007/s00146-025-02814-9)；[The more that people use AI, the more likely they are to overestimate their own abilities, Live Science](https://www.livescience.com/technology/artificial-intelligence/the-more-that-people-use-ai-the-more-likely-they-are-to-overestimate-their-own-abilities)）。**支持**本卡的机制方向；但学界归因是"元认知校准偏差"，Truman 用词是"骄傲感"——前者是认知偏差，后者是情绪与品格，本卡保留"骄傲感"以存原话口径，同时标注两者不完全同构
 - **反面证据（AI 教育增益派）**：也有研究显示 AI 辅助能加速新手建立框架感、降低入门门槛。边界结论：取决于该技能是否"判断力门槛型"——AI 反馈即校验的技能（写代码可跑测试）先用无大碍；AI 无法替你校验的技能（建模完备性、战略取舍）先先用养骄傲感
 
 ### 不要用场景
