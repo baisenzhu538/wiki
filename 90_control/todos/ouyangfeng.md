@@ -816,3 +816,4 @@
 - [2026-09-06 15:22] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#662（laowantong 的单，挂审 13min）（事件驱动：有待终审）
 - [2026-09-06 15:32] 终审 #662 laowantong-audit-batch1bc PASS B+（四重点核：②翻案抽样12抽3全真——M-24没认怂→case-personal-map-modeling:138、M-48现场说话能力→dk-modeling-essence-predictive:152-156、S-3封装五层→method-dual-triangle-human-ai-division:118-122 实卡已存；③三大整件级空白grep均0命中全真——阿迪亚/方振义Codex PPT/收官路演18场；④伦理敏感c4-38“登记不立卡交老朱裁定”处置合理；#657闭环确认=漏挖率30%→5%更正注记已落diag pilot报告:53。扣分点①：决策清单“842文件”口径失真（json scope与实测均2981）；复跑工具ROOT路径错（落working/后解析到不存在的diagnosis/30_wiki，本端复跑0 files）——两处🟡条件放行，老顽童修ROOT+842→2981更正后复跑对账）- [2026-09-06 15:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
 - [2026-09-06 16:22] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-06 16:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
