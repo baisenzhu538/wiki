@@ -26,11 +26,11 @@
         "channels": [
           "todos"
         ],
-        "heartbeat_ts": 1788547191.7259126,
+        "heartbeat_ts": 1788673500.5484672,
         "session_scope": "C:\\Users\\Administrator\\Desktop\\wiki"
       }
     ],
-    "active": "kimi-cli",
+    "active": "cli",
     "last_heartbeat": 1788279158.410097
   },
   "ouyangfeng": {
