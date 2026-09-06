@@ -36,8 +36,6 @@ related:
 - '[[concept-agent-university]]'
 - '[[framework-dual-triangle-gap-diagnosis]]'
 - '[[framework-conversion-rate-is-result]]'
-- '[[case-otc-blind-test-benchmark]]'
-- '[[case-dance-lean-validation-data-chain]]'
 discoverable_by:
 - AI业务认知系统
 - 真人独立意志

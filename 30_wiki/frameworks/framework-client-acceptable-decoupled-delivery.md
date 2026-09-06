@@ -33,7 +33,6 @@ source_refs:
 related:
 - '[[framework-encapsulation-methodology]]'
 - '[[framework-yitang-y-model-dual-triangle-synergy]]'
-- '[[case-xiaohongshu-three-path-falsified]]'
 - '[[framework-conversion-rate-is-result]]'
 - '[[framework-zero-user-immersive-research]]'
 - '[[framework-一堂-业务公式拆解-总纲]]'
@@ -176,7 +175,7 @@ review_date: 2026-09-06
 
 ## Synthesis
 
-三步编译收束：本卡的独立价值有三处：①**用三路证伪把「客户视角」从口号变成机制**（执行主体不一样），可检验可审计；②**把依赖从商业模式问题改写为物理问题**——不是「不想解耦」，是「不解耦物理上交付不出去」；③**「接得住才会成交」**（L6652）把同一反转在内容侧表述出来，说明这是同一原理在两个层面的投影。与库内关系：与 [[framework-encapsulation-methodology]] 构成「解耦→封装」的先后关系；与 [[framework-conversion-rate-is-result]] 同属「把问题从自己身上挪到客户/业务侧」的反转家族；三路证伪的完整过程记录在批 2 案例卡 [[case-xiaohongshu-three-path-falsified]]；「业务内核无法外包」与 [[framework-一堂-业务公式拆解-总纲]] 的业务公式层互证。
+三步编译收束：本卡的独立价值有三处：①**用三路证伪把「客户视角」从口号变成机制**（执行主体不一样），可检验可审计；②**把依赖从商业模式问题改写为物理问题**——不是「不想解耦」，是「不解耦物理上交付不出去」；③**「接得住才会成交」**（L6652）把同一反转在内容侧表述出来，说明这是同一原理在两个层面的投影。与库内关系：与 [[framework-encapsulation-methodology]] 构成「解耦→封装」的先后关系；与 [[framework-conversion-rate-is-result]] 同属「把问题从自己身上挪到客户/业务侧」的反转家族；三路证伪的完整过程记录在批 2 案例卡 `case-xiaohongshu-three-path-falsified`；「业务内核无法外包」与 [[framework-一堂-业务公式拆解-总纲]] 的业务公式层互证。
 
 ## Action Triggers
 

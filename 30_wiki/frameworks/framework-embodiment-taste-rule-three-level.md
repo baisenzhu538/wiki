@@ -32,7 +32,6 @@ source_refs:
 related:
 - '[[framework-yitang-y-model-dual-triangle-synergy]]'
 - '[[bridge-yitang-kdo-document-over-session]]'
-- '[[case-ai-video-tool-triple-climb]]'
 - '[[framework-dual-triangle-gap-diagnosis]]'
 - '[[framework-fact-judgment-separation]]'
 - '[[framework-AI知识库-知识卡片公式]]'
@@ -173,7 +172,7 @@ review_date: 2026-09-06
 
 ## Synthesis
 
-三步编译收束：本卡的独立价值有三处：①**「审美」作为中间层的命名**——它把「外显化」的产物具体化为「有案例、能描述的判断标准」，比 SECI 的抽象表述更可执行；②**分歧四问**把「AI 不准」这种单向抱怨改造成四路归因工程，每路对应不同修复对象；③**跳级警告**（无案例的规则=空规则）与 KDO「操作步骤不能等于原文复述」的卡片纪律同构——都在反对没有原料的产出。与库内关系：审美概念出自 [[framework-yitang-y-model-dual-triangle-synergy]]；显性化与文档化纪律同构于 [[bridge-yitang-kdo-document-over-session]]；三阶爬坡的实战平行案例见批 2 [[case-ai-video-tool-triple-climb]]；校对循环与 [[framework-fact-judgment-separation]]（事实与判断分离）共享「先归因再下判词」的纪律。
+三步编译收束：本卡的独立价值有三处：①**「审美」作为中间层的命名**——它把「外显化」的产物具体化为「有案例、能描述的判断标准」，比 SECI 的抽象表述更可执行；②**分歧四问**把「AI 不准」这种单向抱怨改造成四路归因工程，每路对应不同修复对象；③**跳级警告**（无案例的规则=空规则）与 KDO「操作步骤不能等于原文复述」的卡片纪律同构——都在反对没有原料的产出。与库内关系：审美概念出自 [[framework-yitang-y-model-dual-triangle-synergy]]；显性化与文档化纪律同构于 [[bridge-yitang-kdo-document-over-session]]；三阶爬坡的实战平行案例见批 2 `case-ai-video-tool-triple-climb`；校对循环与 [[framework-fact-judgment-separation]]（事实与判断分离）共享「先归因再下判词」的纪律。
 
 ## Action Triggers
 

@@ -32,7 +32,6 @@ source_refs:
 related:
 - '[[dk-research-identity-craft-for-closed-information]]'
 - '[[concept-yitang-channel-lean-validation-bridge]]'
-- '[[case-dance-lean-validation-data-chain]]'
 - '[[framework-client-acceptable-decoupled-delivery]]'
 - '[[framework-socialization-capability-pyramid]]'
 - '[[framework-fact-judgment-separation]]'
@@ -145,7 +144,7 @@ review_date: 2026-09-06
 
 **攻击 1（样本量与代表性——n=1 方法论化）**：
 1. 论点：零号用户是 n=1 的调研，把个人经验方法论化有以偏概全风险；讲者本人也只证明了「在她的场景成立」（中医诊所）。
-2. 回应：成立，采纳。处置：① 本卡主张的是**适用条件下的方法选择**（技术早期+访谈失灵场景），不是「零号用户优于一切调研」；② 业界 lead user 法的 30 年实证（对标来源 3）提供了超越 n=1 的证据层；③ 偏差外溢已入失败模式第 6 条。残余风险如实声明：沉浸观察产出的仍是假设，需后续验证（讲者自己的 2.0 版本也在持续迭代，L7144 邻行）。
+2. 回应：成立，采纳。处置：① 本卡主张的是**适用条件下的方法选择**（技术早期+访谈失灵场景），不是「零号用户优于一切调研」；② 业界 lead user 法的 30 年实证（对标来源 3）提供了超越 n=1 的证据层；③ 偏差外溢已入失败模式第 5 条。残余风险如实声明：沉浸观察产出的仍是假设，需后续验证（讲者自己的 2.0 版本也在持续迭代，L7144 邻行）。
 
 **攻击 2（资格判据的幸存者偏差）**：
 1. 论点：「懂 AI 又懂业务」的双懂零号用户是稀缺资源——大部分创始人不具备，本框架对多数团队不可用，讲了等于没讲。
@@ -167,7 +166,7 @@ review_date: 2026-09-06
 
 ## Synthesis
 
-三步编译收束：本卡的独立价值有三处：①**给出了普通访谈失灵的机制解释**（需求想象以「知道技术可能」为前提，L7140），把「多跑现场」的经验之谈升级为可判定的方法选择条件；②**「双懂交集」资格判据**是 AI 时代对 dogfooding 的实质修正——只懂业务的 dogfooding 在新技术早期同样失灵；③**沉浸的对象是动作不是观点**（录入/修改/沟通，L7136），与访谈的分界清晰可执行。与库内关系：与 [[dk-research-identity-craft-for-closed-information]]（封闭信息域的调研身份）构成方法族；「先假设后验证」与 [[concept-yitang-channel-lean-validation-bridge]] 同序；场景约束优先的异业平行实证见批 2 [[case-dance-lean-validation-data-chain]]（线下暗访摸供给细节）；「客户能接受什么」与零号用户承接力在 [[framework-client-acceptable-decoupled-delivery]] 处交汇。
+三步编译收束：本卡的独立价值有三处：①**给出了普通访谈失灵的机制解释**（需求想象以「知道技术可能」为前提，L7140），把「多跑现场」的经验之谈升级为可判定的方法选择条件；②**「双懂交集」资格判据**是 AI 时代对 dogfooding 的实质修正——只懂业务的 dogfooding 在新技术早期同样失灵；③**沉浸的对象是动作不是观点**（录入/修改/沟通，L7136），与访谈的分界清晰可执行。与库内关系：与 [[dk-research-identity-craft-for-closed-information]]（封闭信息域的调研身份）构成方法族；「先假设后验证」与 [[concept-yitang-channel-lean-validation-bridge]] 同序；场景约束优先的异业平行实证见批 2 `case-dance-lean-validation-data-chain`（线下暗访摸供给细节）；「客户能接受什么」与零号用户承接力在 [[framework-client-acceptable-decoupled-delivery]] 处交汇。
 
 ## Action Triggers
 
