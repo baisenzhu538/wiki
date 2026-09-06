@@ -889,3 +889,4 @@
 - [2026-09-07 02:47] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#670（huangyaoshi 的单，挂审 0min）（到点（节奏 15min））
 - [2026-09-07 03:55] 【完工】huangyaoshi：#670 卡 status 翻转机制交卷——终审 PASS 钩子落地（_flip_delivered_cards+三层交付卡解析+draft幂等护栏+翻转落仓，review_mark 抽 mark_card 同源复用）+23 回归全量 296 passed+CLI 沙盒真跑 3 翻 1 跳过（logs/sim-card-flip-670-20260907.log）；点名 8 张已由欧阳锋 02:09 手工收口（1ceef00d5）实证闭；另审计出存量 33+7 张停留卡未代翻（E018 防线）落 audit-stuck-cards-20260907.md 交欧阳锋核裁；queue complete→pending_review 待终审（commit 9a176228d/4864aed60/b013505d8）
 - [2026-09-07 02:57] 📥 KDO 可领取 1 单：#673
+- [2026-09-07 03:07] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#670（huangyaoshi 的单，挂审 20min）；#672（ouyangfeng 的单，挂审 5min）（到点（节奏 15min））

@@ -30,7 +30,15 @@ BUNDLE_DIR = Path(r"D:\KDO-memory")
 OFFSITE_DIR = Path(r"C:\Users\Administrator\Nutstore\1\我的坚果云\kdo-backup")
 GATE_LOG = VAULT / "90_control" / "gate-blocked.log"
 TASK_TAG = "vault-integrity"  # appears in gate-blocked line field 2
-STALE_HOURS = 26  # daily bundle; allow one missed run
+# #673: cadence changed 09-05 (laozhu) to weekly full bundle (Monday 02:30 only) for disk
+# space (2GB/day x2, C: 95%). Two layers so stall detection does NOT degrade to 7 days:
+#   - LOG_STALE_HOURS 26h: task beats DAILY 02:30 (Mon=bundle, else skip-only) and appends
+#     to wiki-bundle-daily.log every run -> log mtime stale = task dead, caught within a day
+#   - BUNDLE_STALE_HOURS 180h: bundle is weekly now. Max legit age at the 02:07 probe on a
+#     Monday is ~167.6h (7d minus 23min); a missed Monday beat crosses 180h at Tue 02:07.
+#     26h here was a structural false alarm every Monday (09-07 02:08 实证 47.6h alert).
+LOG_STALE_HOURS = 26
+BUNDLE_STALE_HOURS = 180
 
 
 def gate_block(reason: str, detail: str):
@@ -90,15 +98,29 @@ def os_walk(root: Path):
         yield dp, dn, fn
 
 
+def check_beat():
+    """#673 daily beat liveness: log is appended by EVERY run (Mon bundle / skip-only)."""
+    try:
+        age_h = (time.time() - (BUNDLE_DIR / "wiki-bundle-daily.log").stat().st_mtime) / 3600
+    except OSError:
+        return [("备份节拍日志缺失", f"{BUNDLE_DIR}\\wiki-bundle-daily.log 不可读——任务未配置或从未运行")]
+    if age_h > LOG_STALE_HOURS:
+        issues = [("备份任务节拍停摆",
+                   f"daily.log mtime {age_h:.1f}h ago > {LOG_STALE_HOURS}h（任务每日 02:30 必写日志，含周一 bundle/非周一 skip 两态）")]
+    else:
+        issues = []
+    return issues
+
+
 def check_bundle():
-    issues = []
+    issues = check_beat()
     b = newest_bundle()
     if b is None:
         issues.append(("bundle 缺失", f"no wiki-bundle-2*.bundle in {BUNDLE_DIR}"))
         return issues, None
     age_h = (time.time() - b.stat().st_mtime) / 3600
-    if age_h > STALE_HOURS:
-        issues.append(("bundle 过期", f"{b.name} mtime {age_h:.1f}h ago > {STALE_HOURS}h"))
+    if age_h > BUNDLE_STALE_HOURS:
+        issues.append(("bundle 过期", f"{b.name} mtime {age_h:.1f}h ago > {BUNDLE_STALE_HOURS}h（周一节拍，见 #673）"))
     rc, out = git("bundle", "verify", str(b))
     if rc != 0:
         issues.append(("bundle verify 失败", f"{b.name}: {out[:150]}"))

@@ -1207,3 +1207,4 @@
 - [2026-09-07 02:50] 🕐 值守拍02:55：凌晨基建三连派出——黄药师(proc_258248,claude)接#671 dk图索引补录332张P1+#673 bundle过期处置；欧阳锋(proc_256532,codex)接#672 日志双轨合并；三单立项6329693b7；建议书status合规化
 - [2026-09-07 02:57] 📬 KDO 新建议书 1 份待裁定：diag_20260907_ouyangfeng-dark-knowledges-graph-index-gap.md
 - [2026-09-07 02:57] ⚠️ near-miss 超期升级：diag_20260907_ouyangfeng-skill-log-split-brain.md 三元组违例已 3 轮未修正（首检出 2026-09-07 02:27；有 audience 但 status=working（应 pending_orchestration））——请捞处置（#536）
+- [2026-09-07 03:07] ⛔ KDO 门禁拦截 5 次（gate-blocked）：2026-09-07 03:02:10｜graph-index-coverage｜graph index 覆盖缺口｜30_wiki/conc…
