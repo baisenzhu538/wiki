@@ -13,4 +13,7 @@
 `<域>-<主题>/README.md`（frontmatter: type: datapack / domain / updated / source_refs）+ 样例文件
 
 ## 在库
-（首批两个试点待产：hongqigong-识图金标准 / duanwangye-登录内容样本）
+| DataPack | 状态 | 说明 |
+|:--|:--|:--|
+| `hongqigong-vision-goldstandard/` | ✅ 已产（2026-09-06，#660） | 识图金标准库：6 组金标准 + 9 例踩坑实录 + 2 类无病例声明 + 置信三档对照 |
+| `duanwangye-登录内容样本/`（待产） | ⏳ 试点二，段王爷整理 | 登录内容样本库（#661，脱敏入库） |
