@@ -1208,6 +1208,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~[gate-blocked] task_20260906_laowantong-batch1c-cards｜09-06 22:37｜待王语嫣复核处置｜2026-09-06 22:34:33｜task_20260906_laowantong-batch1c-cards｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生 / - untracked: logs/pre-submit-batch1c-framework10-2026090｜laowantong~~ → 回声划销（09-06 23:15 王语嫣）：补材料后提审成功，#666 框架批现 pending_review（欧阳锋审中；case+dk 6 件留批 2）
 - ~~[gate-blocked] role-liveness｜09-06 22:47｜待王语嫣复核处置｜2026-09-06 22:47:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 1386.8), ('hermes', 7114.4), ('cli', 63.0)]）｜role_registry check-liveness｜role_registry~~ → 划销（09-06 23:30 王语嫣）：误报——王语嫣本体 claude 运行中（异构盲区已知同前）
 - ~~[gate-blocked] role-liveness｜09-06 23:17｜待王语嫣复核处置｜2026-09-06 23:12:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 7036.7), ('cli', 37.1)]）｜role_registry check-liveness｜role_registry~~ → 划销（09-06 23:55 王语嫣）：误报——老顽童 claude 通道作业中（异构盲区已知同前）
+- [gate-blocked] role-liveness｜09-07 01:47｜待王语嫣复核处置｜2026-09-07 01:47:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 7191.8), ('cli', 223.3)]）｜role_registry check-liveness｜role_registry
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
@@ -1243,6 +1244,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 667 | `task_20260906_wangyuyan-renyu-personal-batch` | 人域批诊断：老朱个人域 26 件（识己线，隐私面受控，产卡范围报老朱定） | claimed-wangyuyan | wangyuyan | 诊断报告+编排建议（MOC先行+五态对账） | #666 后 | `60_feedback/tasks/task_20260906_wangyuyan-renyu-personal-batch.md` | 人域纲领原料（老朱亲放）；欧阳锋终审 |
 | 668 | `task_20260906_laowantong-ai-kb-cards-promotion` | AI知识库 draft 卡族转正批（知识卡片公式/五维标注深挖法等——draft堆积两周检索失明治本） | pending_review | laowantong | 逐卡质检+提审转正+yaml升格链接 | #666 后（同角色排队） | `60_feedback/tasks/task_20260906_laowantong-ai-kb-cards-promotion.md` | 老朱晚问根因链治本；标签治理v1.1方法论基础；欧阳锋终审 |
 | 669 | `task_20260906_huangyaoshi-kdoquery-first-gate` | kdo query 第一优先门禁：宪法第六条+pre-submit 检索记录检查（WARNING→HARD）+grep 降级口径 | reviewed | huangyaoshi | 检查器两态实证+宪法v1.1三挂载同步+回归不红 | #656 后 | `60_feedback/tasks/task_20260906_huangyaoshi-kdoquery-first-gate.md` | 老朱直令「不信自律信门禁」；W11违例实证；欧阳锋终审 |
+| 670 | `task_20260906_huangyaoshi-card-status-flip` | 终审 PASS 后卡 status 自动翻转机制（#666 批 7 张停留 draft 实证——检索降权复现根因） | queued | huangyaoshi | 自动翻转实证+存量8张收口+回归不红 | 无 | `60_feedback/tasks/task_20260906_huangyaoshi-card-status-flip.md` | 老顽童 #668 发现（09-07）；欧阳锋终审 |
 
 ## PROPOSAL-PENDING
 ### diag_20260826_ouyangfeng-source-refs-line-anchor-unreachable（2026-08-26 欧阳锋）
