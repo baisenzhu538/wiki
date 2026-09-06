@@ -593,3 +593,5 @@
 - [2026-09-06 14:12] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#657（wangyuyan 的单，挂审 27min）（到点（节奏 15min））
 - [2026-09-06 14:27] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
 - [2026-09-06 14:27] 📥 KDO 可领取 2 单：#662, #664
+- [2026-09-06 14:38] ✅ #662 任务一完成生产：28条漏挖候选grep统一重跑《拍板清单》交付（12维持/3部分维持/12翻案/1撤出；试金石6条5翻案→漏挖率30%下修至~5%【实证】；两系统发现：批1a六条0命中判词失真+试金石同簇漏查）——60_feedback/diagnosis/working/a1-batch1bc-greprerun-decision-list.md（commit af8edb519，pre-submit PASS），交老朱拍板；1b/1c 接续施工
+- [2026-09-06 14:42] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
