@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-07",
+  "collected_at": "2026-09-07T02:08:25",
+  "usage": {
+    "claude": {
+      "e231b632-1e3b-42c0-8364-751d11989b35": {
+        "input": 14101104,
+        "output": 853062,
+        "cache_read": 414270016,
+        "cache_write": 0
+      },
+      "e948755d-3d96-40e8-a191-4b970dfbfaee": {
+        "input": 84489,
+        "output": 55552,
+        "cache_read": 11047168,
+        "cache_write": 0
+      },
+      "f5f83036-9ef2-47ec-a0a1-c40a401f209c": {
+        "input": 49665,
+        "output": 29763,
+        "cache_read": 5789120,
+        "cache_write": 0
+      }
+    },
+    "hermes": {
+      "duanwangye": {
+        "input": 19561,
+        "output": 8636,
+        "cache_read": 2025280,
+        "cache_write": 0
+      },
+      "laowantong": {
+        "input": 231688,
+        "output": 2234,
+        "cache_read": 916160,
+        "cache_write": 0
+      }
+    }
+  }
+}

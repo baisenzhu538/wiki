@@ -1,4 +1,4 @@
-# Concept Card Index — 2026-09-05 18:07 UTC
+# Concept Card Index — 2026-09-06 18:08 UTC
 
 | ID | Title | Type | Domain |
 |---|---|---|---|
@@ -173,7 +173,6 @@
 | concept-目标管理组织四阶段 | 目标管理组织四阶段：从不关注到统一体系 | concept | management |
 | concept-科学决策宽度 | 科学决策宽度：个人·企业·团队三层视角 | concept | decision-science |
 | concept-稀缺机会窗口 | 稀缺机会窗口：不缺机会，缺识别窗口的能力 | concept | decision-science |
-| concept-纪浩-ai-collaboration-five-layer | 概念：纪浩AI协作五层工作空间法 | concept | ai-collaboration |
 | concept-美好作品想象 | 美好作品想象：先看到终局再倒推路径 | concept | decision-science |
 | concept-讲香-卖点直给到价值感 | 讲香·卖点直给到价值感：为什么十指讲香不是花活 | concept | kdo |
 | concept-问题驱动式深度思考笔记 | 问题驱动式深度思考笔记：用真问题取代真记录 | concept | content, decision-making |
@@ -540,10 +539,13 @@
 | concept-minto-pyramid-principle | 金字塔原理：结论先行的结构化沟通框架 | framework | strategy |
 | framework-agent-card-execution-pattern | Agent 执行模式：从卡片到可执行动作 | framework | kdo, ai-collaboration |
 | framework-ai-accelerated-strategy-cycle | AI 加速的战略-验证闭环 | framework |  |
+| framework-ai-business-cognition-system | AI 业务认知系统 × 真人独立意志（正反合）——业务认知显性化的两个互补引擎 | framework | ai-collaboration, decision-science |
 | framework-ai-deconstruction-methodology | 王欢三层拆书法 | framework | ai-collaboration, decision-making, human-insights, strategy |
 | framework-ai-deliberate-practice-loop | AI 刻意练习闭环：把 AI 当作按需生成的练习伙伴 | framework | ai-collaboration, decision-making, management |
+| framework-ai-five-layer-architecture | AI 应用五层架构（一堂 2026 大航海版）——从做好对话到练好团队的选层决策系统 | framework | ai-collaboration, strategy |
 | framework-ai-human-70-30-division | 70% AI / 30% 人：爆炸式调研的分工地图 | framework | research, ai-collaboration |
 | framework-ai-native-organization-two-modes | AI 原生组织的两种形态：AI 控制台 vs Agent 平台 | framework | ai-collaboration, kdo |
+| framework-ai-native-working-paradigm | AI Native 工作范式——整链路以 AI 为主、人提供最小必要支持的组织设计法 | framework | ai-collaboration, strategy |
 | framework-ai-report-value-ladder-l1-l6 | AI 报告价值层级 L1-L6：每级价值×10 | framework | research, ai-collaboration |
 | framework-ai-sales-collaboration | AI 销售协同：确定性方法 + 可判断标准的双条件框架 | framework | sales, decision, ai-collaboration |
 | framework-ai-video-production-aesthetics-first | AI产品开发·审美与体系的分工：审美定义结果，体系让结果重复发生 | framework |  |
@@ -568,9 +570,11 @@
 | framework-christensen-disruptive-innovation | 破坏性创新：延续vs破坏+S曲线+五大原则（Christensen《创新者的窘境》） | framework |  |
 | framework-christensen-value-network | 价值网络：定义+企业生命周期+为何大公司无法跳出 | framework |  |
 | framework-ci-operating-model | 竞争情报操作系统（CI Operating Model） | framework | content, decision-making, design, human-insights, strategy |
+| framework-client-acceptable-decoupled-delivery | 客户能接受什么（解耦交付）——产品设计原点从「我们能交付什么」到「客户能用出什么」的反转 | framework | strategy, sales |
 | framework-coaching-leadership-core | 教练式领导力核心框架（定义·驱动三角·敏感性） | framework | management, coaching |
 | framework-community-knowledge-production-failure-modes | 社群知识生产失败模式库 | framework |  |
 | framework-content-business-six-step | 内容经营 6 步闭环 | framework | content |
+| framework-conversion-rate-is-result | 转化率是结果不是问题——症状≠病因的诊断反转 | framework | conversion-rate, decision-science |
 | framework-course-milestone-model | 课程里程碑模型：一堂做课的七步生产流程 | framework | content, design, kdo, master, modeling, strategy |
 | framework-course-thought-production-line | 国帅思想生产线：人开题·机加工·人判断——AI 时代课程/内容生产的 11 环全链框架 | framework | ai-collaboration |
 | framework-decision-cognitive-bias-map | 商业决策常见认知偏差地图 | framework | decision-making |
@@ -585,7 +589,11 @@
 | framework-dopamine-recovery | DOPAMINE 八字母恢复框架：数据→目标→问题→禁欲→正念→洞察→下一步→实验 | framework | human-insights, business-strategy |
 | framework-doris-industry-report-4step | 行业报告调研四步法：7天快速建立行业认知 | framework | strategy |
 | framework-dual-center-feishu-obsidian | 双中心原则：飞书给人、Obsidian 给 AI | framework | knowledge-management, ai-collaboration |
+| framework-dual-triangle-gap-diagnosis | 双三角缺口诊断法——每个卡住都是要素没凑齐，每个突破都是补上缺口 | framework | ai-collaboration |
 | framework-education-protracted-war | 教育版论持久战：用矛盾分析法完成战略笃定——根本矛盾判定→质/量/趋势三维→内外部分解→持久战结论 | framework | strategy, yitang |
+| framework-embodiment-taste-rule-three-level | 体感→审美→规则三级抽象——把业务判断变成 AI 可执行规则的外显阶梯 | framework | ai-collaboration, kdo |
+| framework-encapsulation-methodology | 封装方法论——把一次性工作经验固化成可调用资产的六层形态与频次引擎 | framework | ai-collaboration, kdo |
+| framework-fact-judgment-separation | 事实与判断分离——AI 诊断系统的第一条设计规则 | framework | ai-collaboration, decision-science |
 | framework-fact-rule-insight | 事实-规律-洞察三层框架：专题学习的通用分析结构（认识他/理解他/用他） | framework | knowledge-management, research |
 | framework-five-step-lean-interface | 五步法与精益验证的接口 | framework | strategy |
 | framework-founder-ip-three-positioning | 创始人 IP 三定位模型 | framework | content |
@@ -594,6 +602,7 @@
 | framework-kdo-mcp-server | KDO MCP Server — 知识库能力的外部协议暴露层 | framework |  |
 | framework-kdo-modeling-methodology | KDO 建模方法论——从踩坑打补丁到组件化建模 | framework |  |
 | framework-kdo-self-attack | KDO 知识自攻击框架：用对抗 Agent 在交付前主动找出弱点 | framework |  |
+| framework-knowledge-base-vs-ontology | 知识库 vs 本体论之辨——三件套只叫知识库，推理逻辑才是本体的分界线 | framework | kdo, ai-collaboration |
 | framework-knowledge-compound-rocket-six | 知识复利火箭六要素：周期×数量质量×自动化协作化×可掌控 | framework | knowledge-management |
 | framework-knowledge-five-leaps | 五次知识管理飞跃：2013→2026 编年与 AI 周期变短 | framework | knowledge-management |
 | framework-knowledge-naming-systems-comparison | 知识编码体系对比：业务流前缀 / PARA / Johnny Decimal（实测体系版） | framework | knowledge-management |
@@ -627,6 +636,7 @@
 | framework-r-type-research-partner-five-state | R 型研究 Partner 五状态机：从课题到知识资产 | framework | research, ai-collaboration |
 | framework-sales-funnel-full | 销售漏斗全貌：正梯形复购裂变 + 每层配套动作 | framework | sales, growth |
 | framework-serendipity-five-channels | 偶遇自动采集五通道：让偶遇成为资产 | framework | knowledge-management, ai-collaboration |
+| framework-socialization-capability-pyramid | 社会化能力金字塔——厌学不是病，是社会化功能卡在哪一层的分层诊断 | framework | human-insights |
 | framework-strategy-ansoff | 安索夫矩阵：产品-市场增长战略 | framework |  |
 | framework-strategy-basics-01-core | 定式（Core Foundation）：BRM框架为核心，战略肌肉记忆 | framework |  |
 | framework-strategy-basics-02-insight | 洞察（Critical Insight）：模型+图表+假设验证，战略视野需登高望远 | framework |  |
@@ -651,6 +661,7 @@
 | framework-TCPR皇冠模型 | TCP-R皇冠模型：教学·咨询·实践·研究的统一框架 | framework | decision-science |
 | framework-time-management-dual-loop-matrix | 时间管理双循环矩阵：独立/协作 × 重点/效率 | framework |  |
 | framework-time-management-matrix | 重要/紧急四象限（艾森豪威尔矩阵） | framework |  |
+| framework-timing-not-yet-resource-allocation | 时机未到的资源配置框架——不猜彩票也不等待的重投/保留/停止三问 | framework | strategy |
 | framework-token-economy-three-layer | 词元经济三层格局：生产者/供应商/消费者 + 词元生产公式 | framework | strategy, ai-saas |
 | framework-truman-agent-team-architecture | Truman Agent 团队系统架构：缓冲站→Library→三团队→四库 | framework | knowledge-management, ai-collaboration |
 | framework-truman-ai-featureset | Truman 自用 AI FeatureSet 四层模型（精简版） | framework | ai-collaboration, strategy |
@@ -712,6 +723,7 @@
 | framework-yitang-three-ring-ability-focus | 三环能力聚焦法：从 30 个能力中锁定 3 个重点 | framework | personal-growth |
 | framework-yitang-y-model-cross-domain-fusion | Y模型跨域融合框架 | framework | decision-science, methodology, ai-collaboration |
 | framework-yitang-y-model-dual-triangle-synergy | Y模型 × 双三角协同工作法 | framework | decision-science, ai-collaboration, methodology |
+| framework-zero-user-immersive-research | 零号用户 + 沉浸式调研——普通访谈提不出来的需求从哪来 | framework | lean-startup, strategy |
 | framework-一堂-12种阻力总表 | 一堂 12 种阻力总表：定义切分 + 四大类归类 + 底层三参数 + 动嘴/动手/动钱矩阵 | framework | conversion-rate |
 | framework-一堂-12触点SABC分级 | 一堂 12 触点 SABC 分级：完整定义 + 12 触点清单 + 约 50 子分类（易浪费清单） | framework | conversion-rate |
 | framework-一堂-业务公式拆解-总纲 | 一堂业务公式拆解总纲：关键假设 ABCD 体系的核心骨架与灵魂（贯通定性→定量） | framework | key-assumptions, business-formula |
@@ -1862,6 +1874,7 @@
 | yt-tool-unit-model-selection | yt tool unit model selection | tool | master |
 | case-20260829-zhanlue-dingding-l3-extraction | 「案例：战略笃定篇逐字稿提取——window分段滚动法，滚动顺序=文档顺序」 | case | feishu, extraction, browser-automation |
 | case-252-quality-gate-pilot | #252 消费端协议试点：用Feature思维分析卡片质量门禁体系 | case | ai-basic, kdo |
+| case-360-overnight-course-rebuild | 360 内训课隔夜重构案——人只站头尾、AI 跑满中间的隔夜课程交付 | case | ai-collaboration, strategy |
 | case-4000-titles-ten-strategies | 4000 标题→十大策略：长期资产的一次性建模 | case | research, content-production |
 | case-agent-self-evolution-pilot | Agent自我进化试点：#200任务的完整过程记录 | case | system |
 | case-ai-agent-milestone-design | AI Agent 里程碑设计：42 轮口授反馈实战 | case | ai-collaboration |
@@ -1869,6 +1882,7 @@
 | case-ai-companion-emotional | AI 情感陪伴的市场与伦理 | case | ai-collaboration, critical-thinking, business-judgment |
 | case-ai-job-displacement-wef | WEF 对 AI 就业影响的预测 | case | ai-collaboration, critical-thinking, business-judgment |
 | case-ai-learning-series-modeling | AI 学习系列：Coze/编程四级/龙虾五级/文生图分类/Top10 排行榜 | case | research, ai-basic |
+| case-ai-performance-review-trial | AI 述职审判案——数字分身当法官、两个运维 Agent 争一个存活名额的完整实验 | case | ai-collaboration, management |
 | case-ai-pet-emotional-product | 「案例：AI宠物"砍掉说话功能"——真正看见用户的反直觉决策」 | case | human-insights, panproduct, ai-collaboration |
 | case-ai-search-commerce-platform-hedge | AI 搜索导流品牌官网，但不会取代电商平台 | case | ai-collaboration, e-commerce, strategy |
 | case-ai-time-management-tiered-growth | 案例：AI时间管理App七级演进 | case | ai |
@@ -1916,6 +1930,7 @@
 | case-demand-travel-agent | 案例：旅行攻略Agent——隐性需求被忽略 | case | five-step-method |
 | case-dental-clinic-formula | ToC 连锁口腔诊所：成交率 30% 背后的"危机感知"公式 | case | healthcare, business-strategy |
 | case-design-principles-90 | 设计原则 90 条：AI demo 最完整的饱和建模样本 | case | research, ai-collaboration, design |
+| case-digital-avatar-pricing-review | 数字分身定价评审案——3000 字配置训练出的「比我还坚定」的第二决策视角 | case | ai-collaboration, management |
 | case-doris-2014-music-streaming-prediction | 案例：2014年预判音乐流媒体趋势 | case | research |
 | case-doris-beauty-ecommerce-channel | 案例：美妆行业渠道效率发现 | case | research |
 | case-doris-catering-chain-benchmark | 案例：餐饮连锁对标调研 | case | research |
@@ -1935,6 +1950,7 @@
 | case-feishu-minutes-extraction-attempt | 「案例：飞书妙记逐字稿提取尝试——二维码过期未成，但定位了 Windows 侧浏览器正解」 | case | feishu, extraction, browser-automation, infrastructure |
 | case-five-step-fake-vs-real-barriers | 案例：五步法中识别真壁垒和假壁垒 | case | strategy |
 | case-five-step-growth-first-lever | 案例：五步法中从产品内核到增长的第一次跨越 | case | strategy |
+| case-flowmax-20min-product | FlowMax 20 分钟产品案——洗手间口喷起步、过夜自督开发的中等复杂度产品 | case | ai-collaboration, product |
 | case-friend-circle-aigc-transformation | 朋友圈 AIGC 转型三层还原：两张图甩给 AI，拆出底层逻辑与机会窗口 | case | knowledge-management, research |
 | case-fuzeyu-ai-koubo-tool-dev | 付则宇AI口播工具：从16小时到零门槛的完整开发历程 | case | ai-collaboration |
 | case-guang-leng-dian-zi-hx-smj | 案例：广冷电子 HX-SMJ 红外光栅项目——从文件混乱到可投产基线 | case | electronics, hardware-debugging |
@@ -1951,6 +1967,7 @@
 | case-jovida-ai-life-coach | Jovida：用「Human Loop 范式 + 上下文飞轮」押注生活 16 小时的 AI Life Coach | case | ai-collaboration, product |
 | case-kdo-agent-factory-dual-triangle-practice | KDO 多 Agent 工厂：人机协作双三角的组织化实践 | case | ai-saas, personal-os |
 | case-kinda-digital-employees-fullview | kinda 数字员工体系全景：从一个具体问题长出 7+ Agent（问题→工具失败→AI 代学→体系→闭环） | case | ai-collaboration, knowledge-management |
+| case-kouspeng-13min-19tasks | 口喷 13 分钟拆 19 子任务案——AI 干完 70% 工作量的短视频生产流水线 | case | ai-collaboration |
 | case-laozhu-hongqigong-human-ai-partner-evolution | 从Copilot到Partner：老朱×洪七公的人机协作跃迁诊断 | case | ai-collaboration, personal-os, organizational-transformation |
 | case-leadership-communication-failures | 沟通失败案例集（经理×小红书运营三版本 + 反馈三明治 + 转化率判断） | case | management, coaching |
 | case-lean-2b-gray-test | 一堂 2B 内训灰度测试 | case | strategy, product |
@@ -2386,6 +2403,7 @@
 | dk-ai-judgment-programmer-paradox | 程序员的AI悖论：写AI工具的人最晚享受到AI红利 | dk | ai-saas |
 | dk-ai-memory-four-layers | AI 记忆四层分层模型：即时→会话→项目→长期 | dk | agent-engineering |
 | dk-ai-self-evolution-prompt | AI 自进化话术：复盘末尾补一句"下次你可以更主动"——让 AI 每次变聪明一点 | dk | knowledge-management, ai-collaboration |
+| dk-ai-stronger-need-to-know-what-you-want | AI 越强你越需要知道自己要什么：你会什么，AI 才调用什么 | dk | ai-collaboration, personal-expression |
 | dk-ai-video-common-pitfalls | AI视频工具开发五大失败模式 | dk | ai-collaboration |
 | dk-AI知识库-隐性知识显性化60分原则 | 隐性知识显性化 60 分原则：先 60 分能解 60-70% 问题即值得 | dk | ai-knowledge, knowledge-management |
 | dk-analogy-blinds-search | 类比遮蔽检索：比喻带来「已理解」错觉，跳过实体验证 | dark-knowledge | ai-basic, kdo |
@@ -2477,6 +2495,7 @@
 | dk-ji-hao-pdca-starts-from-do | 暗知识：PDCA从Do开始不是从Plan开始 | dk | ai-collaboration |
 | dk-ji-hao-problem-vs-question | 暗知识：Problem vs Question —— AI时代大部分人在用AI回答Question而非解决Problem | dk | ai-collaboration |
 | dk-ji-hao-simple-complex-routing | 暗知识：简单系统跳过导诊台，复杂系统必须路由 | dk | ai-collaboration |
+| dk-jiangxiang-origin-story-mental-coordinate-system | 初心故事的双层价值：改变的不是成绩是"心理的坐标系"——《一虎奇谈》家庭教练理念一等出处 | dk | personal-expression, education |
 | dk-kdo-leaky-pipe-pressure | 暗知识：在漏水的管子上加压——基础链路没跑通时，硬门禁不是质量控制，而是流程卡死 | dk | kdo, master |
 | dk-key-hypothesis-still-hope | 「暗知识：只要还有关键假设就还有机会——Feature无限调优的底气」 | dk | ai-basic |
 | dk-koupen-500-vs-5000 | 暗知识：口喷 500 条与 5000 条无差别——没刻意练习等于原地踏步 | dk | ai-collaboration |
@@ -2506,6 +2525,7 @@
 | dk-modeling-business-visual-logic-match | 交互设计的精髓不是好看，是业务逻辑和视觉逻辑高度匹配 | dk |  |
 | dk-modeling-case-explosion-confidence | 案例大爆炸的底气：来自销冠广场，不是胆子大 | dk | modeling |
 | dk-modeling-checklist-formatting-rules | 清单体写不好，模型就建不好：换行、分层、优先级、完备 | dk | ai-saas |
+| dk-modeling-checklist-working-medium | 清单体是建模的工作介质：一遍遍拉单子排列组合，没有清单体几乎建不出模型 | dk | modeling |
 | dk-modeling-counterexample-driven | 建模不是找证据证明自己是对的，而是用反例把自己逼到没漏洞为止 | dk |  |
 | dk-modeling-course-rnd-ripe-fruit | 研究型课程无法提前排课表：只能等菜熟了再摘 | dk |  |
 | dk-modeling-essence-predictive | '解释性本质'是高级鸡汤：真正值钱的本质必须能指导下一次真实决策 | dk |  |
@@ -2519,6 +2539,7 @@
 | dk-modeling-sop-execution-locks | SOP 写出来≠被执行：给 SOP 加 SOP 的两层锁，才能把执行率从 50% 拉到近 100% | dk | master |
 | dk-modeling-timely-review-session-window | 离开业务现场再复盘，质量会掉一大半：及时复盘必须卡在 session 窗口内 | dk | master |
 | dk-modeling-unit-pairs-milestone | 里程碑不是任务清单，是"成对单元模型"拼出来的 | dk |  |
+| dk-modeling-untrained-first-pride-cost | 未练先用 AI 建模养出骄傲感：一堂两次内部会后的"宁慢勿快"课程裁定 | dk | modeling, ai-collaboration |
 | dk-my-ai-landing-three-barriers | AI落地三大壁垒：从"会用"到"用好"的黑洞 | dk | ai-saas |
 | dk-narrative-choice-theory | 「暗知识：叙事选择论——治疗师是故事的编辑」 | dk | human-insights, psychology |
 | dk-note-maximum-common-divisor | 清单体是人与AI的'最大公约数'：结构降级即认知升级 | dk | note-taking |
@@ -2586,6 +2607,7 @@
 | dk-strategy-consulting-jokes | 战略咨询两个笑话：属羊+勺子——告诉已知/脱离实际/无闭环 | dk | strategy |
 | dk-strategy-essence-four-elements | 战略内核检测：细分市场+竞争优势+资源配置+范围经济 | dk | strategy |
 | dk-strategy-longzhong-four-failures | 隆中对失败四因：资源/联盟/执行/环境——诸葛亮都栽了 | dk | strategy |
+| dk-strategy-meeting-quality-friction-signal | 战略会质量的过程判据：开开心心开完≈质量不高，纠缠痛苦后选出≈质量高 | dk | strategy, management |
 | dk-strategy-three-must-do-moments | 三种必做战略的时刻：快速扩张/业务平台期/行业下行期 | dk | strategy |
 | dk-three-context-formula | 15 秒做图三上下文公式：知道我是谁+检索项目文档+读取设计宪法 | dk | ai-collaboration, design |
 | dk-token-economy-critical-reading | 批判性拆书五条：事实层 vs 营销层分离（词元经济） | dark-knowledge | strategy, ai-saas |
