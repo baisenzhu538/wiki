@@ -1235,7 +1235,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 666 | `task_20260906_laowantong-batch1c-cards` | 批 1c 高优产卡批：框架 10+case 5+四源同构 dk 1（分两小批） | claimed-laowantong | laowantong | 16 件入库+三方法证据+自攻击 | #665 后（同角色排队） | `60_feedback/tasks/task_20260906_laowantong-batch1c-cards.md` | 老朱拍板「要产排队不急」；欧阳锋终审 |
 | 667 | `task_20260906_wangyuyan-renyu-personal-batch` | 人域批诊断：老朱个人域 26 件（识己线，隐私面受控，产卡范围报老朱定） | queued | wangyuyan | 诊断报告+编排建议（MOC先行+五态对账） | #666 后 | `60_feedback/tasks/task_20260906_wangyuyan-renyu-personal-batch.md` | 人域纲领原料（老朱亲放）；欧阳锋终审 |
 | 668 | `task_20260906_laowantong-ai-kb-cards-promotion` | AI知识库 draft 卡族转正批（知识卡片公式/五维标注深挖法等——draft堆积两周检索失明治本） | queued | laowantong | 逐卡质检+提审转正+yaml升格链接 | #666 后（同角色排队） | `60_feedback/tasks/task_20260906_laowantong-ai-kb-cards-promotion.md` | 老朱晚问根因链治本；标签治理v1.1方法论基础；欧阳锋终审 |
-| 669 | `task_20260906_huangyaoshi-kdoquery-first-gate` | kdo query 第一优先门禁：宪法第六条+pre-submit 检索记录检查（WARNING→HARD）+grep 降级口径 | queued | huangyaoshi | 检查器两态实证+宪法v1.1三挂载同步+回归不红 | #656 后 | `60_feedback/tasks/task_20260906_huangyaoshi-kdoquery-first-gate.md` | 老朱直令「不信自律信门禁」；W11违例实证；欧阳锋终审 |
+| 669 | `task_20260906_huangyaoshi-kdoquery-first-gate` | kdo query 第一优先门禁：宪法第六条+pre-submit 检索记录检查（WARNING→HARD）+grep 降级口径 | claimed-huangyaoshi | huangyaoshi | 检查器两态实证+宪法v1.1三挂载同步+回归不红 | #656 后 | `60_feedback/tasks/task_20260906_huangyaoshi-kdoquery-first-gate.md` | 老朱直令「不信自律信门禁」；W11违例实证；欧阳锋终审 |
 
 ## PROPOSAL-PENDING
 ### diag_20260826_ouyangfeng-source-refs-line-anchor-unreachable（2026-08-26 欧阳锋）

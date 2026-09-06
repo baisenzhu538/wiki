@@ -2,14 +2,14 @@
 id: task_20260906_huangyaoshi-kdoquery-first-gate
 title: "kdo query 第一优先门禁：知识检索强制规则（宪法第六条+pre-submit 检索记录检查）——老朱「不信自律信门禁」"
 seq: 669
-status: queued
+status: in_progress
 assignee: huangyaoshi
 created_by: wangyuyan
 created_at: 2026-09-06
 decision_source: 老朱 09-06 直令「kdo query 是第一优先级，我不相信自律只相信门禁和强制规则，找不到再采用 grep」
 reviewer: 欧阳锋
 instance: huangyaoshi
-updated_at: '2026-09-06T22:20:00+08:00'
+updated_at: '2026-09-06T13:39:00.714935+00:00'
 ---
 
 # #669 kdo query 第一优先门禁（黄药师）
