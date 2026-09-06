@@ -1,0 +1,20 @@
+name: multi-researcher-cross
+version: 1.0.0
+author: 老顽童（#664 场景复现一）
+adapted_from: workflow-multi-researcher-cross
+description: 多研究员交叉研究——课题拆成 N 个立场/背景不同的研究员画像并行调研，合并交叉成多视角总报告（任务书模板/画像池/合并裁决规则）
+scope: shared
+trigger:
+  natural_language:
+  - 多研究员交叉研究
+  - 多视角研究
+  - 分头调研再合并
+  - 换几个立场分别研究
+  - 研究太窄想多角度看
+适用agent:
+- 老顽童
+- 王语嫣
+- 欧阳锋
+- 黄药师
+changelog:
+- '2026-09-06 #664 初版（金矿 A60-A62+B93 场景复现一；外部基准 arXiv:2311.17371 反方门控入裁决规则）'
