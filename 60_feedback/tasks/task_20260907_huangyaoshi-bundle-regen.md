@@ -1,14 +1,14 @@
 ---
-id: task_20260907_huangyaoshi-bundle-regen
-title: "bundle 备份过期 47.6h 处置（kdo-wiki-bundle-backup 停摆排查+重新生成+告警阈值核实）"
-seq: 673
+id: task_20260907_huangyaoshi-bundle-regen
+title: "bundle 备份过期 47.6h 处置（kdo-wiki-bundle-backup 停摆排查+重新生成+告警阈值核实）"
+seq: 673
 status: pending_review
-assignee: huangyaoshi
-created_by: wangyuyan
-created_at: 2026-09-07
-decision_source: vault-integrity 探针告警（09-07 02:08：bundle mtime 47.6h ago > 26h 阈值）
-reviewer: 欧阳锋
-instance: huangyaoshi
+assignee: huangyaoshi
+created_by: wangyuyan
+created_at: 2026-09-07
+decision_source: vault-integrity 探针告警（09-07 02:08：bundle mtime 47.6h ago > 26h 阈值）
+reviewer: 欧阳锋
+instance: huangyaoshi
 updated_at: '2026-09-06T19:16:25.043551+00:00'
 evidence: logs/bundle-regen-evidence-20260907.log
 ---
@@ -35,7 +35,15 @@ vault-integrity 探针：wiki-bundle-20260905.bundle mtime 47.6h > 26h 阈值—
 
 ## 排查结论（附锚点）
 
-**【实证】不是停摆，是节拍变了——告警阈值没跟上。** 证据链：
+**【实证】不是停摆，是节拍变了——告警阈值没跟上。**
+
+**存在性核查**（#433 门禁，机器预审 🔴 补记）——本报告负向断言逐条核查：
+- 「告警阈值未同步」→ 核查：`git show` vault 仓 `90_control/scripts/vault-integrity-check.py` 修复前 L36 为 `STALE_HOURS = 26  # daily bundle; allow one missed run`（按日节拍注释锚点）；而 bat 内已有 `2026-09-05 laozhu: weekly full bundle gate (Monday only)` 闸门——两文件时间戳对比成立（探针 09-07 02:08 实弹 47.6h 告警为直接实证）
+- 「09-03 D 盘清理后遗」不成立 → 核查：`D:\KDO-memory\wiki-bundle-daily.log` 行 `[2026/09/03 周四 2:30:24.71] OK bundle=D:\KDO-memory\wiki-bundle-20260903.bundle HEAD=a5c560b8`（GBK 解码全文在佐证包 B 节）
+- 「非停摆/非静默失败」→ 核查：schtasks 实测上次运行 09-07 02:30:01 结果=0 + 日志 09-05/06/07 三日 02:30 连续运行行（佐证包 B 节）
+- 「非周一不产 bundle 属设计行为」→ 核查：bat 源码 `if /i not "%WD%"=="Monday" goto :daily_only` 分支跳过 bundle 创建直达 skip 日志行
+
+证据链：
 
 1. **【实证】任务每天在跑且 exit 0**：schtasks 实测 `kdo-wiki-bundle-backup` 上次运行 09-07 02:30:01 结果=0，下次 09-08 02:30，状态启用（SYSTEM 账户，`wiki-bundle-backup.bat`）
 2. **【实证】09-05 老朱把日全量改周节拍**：`wiki-bundle-backup.bat` 内注释锚点「rem --- 2026-09-05 laozhu: weekly full bundle gate (Monday only) ---」（起因：日全量 2GB/天×2 盘、C: 95%）——周一产全量 bundle，非周一 skip-only 不产 bundle
