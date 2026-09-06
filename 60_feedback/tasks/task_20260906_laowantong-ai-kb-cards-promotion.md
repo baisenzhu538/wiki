@@ -1,14 +1,14 @@
 ---
-id: task_20260906_laowantong-ai-kb-cards-promotion
-title: "AI知识库 draft 卡族转正批：知识卡片公式/五维标注深挖法等（draft 堆积致检索失明两周，标签治理方法论基础）"
-seq: 668
+id: task_20260906_laowantong-ai-kb-cards-promotion
+title: "AI知识库 draft 卡族转正批：知识卡片公式/五维标注深挖法等（draft 堆积致检索失明两周，标签治理方法论基础）"
+seq: 668
 status: pending_review
-assignee: laowantong
-created_by: wangyuyan
-created_at: 2026-09-06
-decision_source: 老朱晚问根因链（draft 卡堆积=检索失明机制）+ 标签治理 v1.1 方法论基础需求
-reviewer: 欧阳锋
-instance: laowantong
+assignee: laowantong
+created_by: wangyuyan
+created_at: 2026-09-06
+decision_source: 老朱晚问根因链（draft 卡堆积=检索失明机制）+ 标签治理 v1.1 方法论基础需求
+reviewer: 欧阳锋
+instance: laowantong
 updated_at: '2026-09-06T17:43:55.846213+00:00'
 evidence: logs/pre-submit-task668-aikb11-20260907.log
 ---
@@ -66,6 +66,20 @@ kdo query 实证：`framework-AI知识库-知识卡片公式`（两段式模板�
 ### pre-submit 输出（强制门禁，完整存档 logs/pre-submit-task668-aikb11-20260907.log）
 
 11/11 `✅ Result: PASS（1 条 WARNING 在列）`、0 FAIL；WARNING=CONCEPT_CROSSCHECK×11（#542 提示制不拦截）；首轮曾出 INDEX error（卡比索引新）×1 + SOURCE_RANGE 漂移 + ALIASES 来源名未入 aliases + SOURCE_REACHABILITY×1 + QUOTE_VERBATIM×1，全部修复后复跑清零至上述残留。
+
+### 存在性核查（#433：本报告全部负向判词锚点汇总）
+
+| 负向判词 | 核查动作 + 锚点 | 结果 |
+|:--|:--|:--|
+| 「待补充/TODO/待填」在 11 卡 0 命中 | grep 三词于 11 卡 + diag_20260823 诊断书 + 洪七公建议书 | 0 命中【实证】 |
+| `grep domain: ai-knowledge` 单行口径 0 命中 | grep 于 30_wiki/（字段实为 YAML 列表式） | 0 命中【实证】 |
+| 查重：无同主题旧卡 | kdo query 4 组（检索记录 #8-#11） | 首位均为本批卡【实证】 |
+| related 死链 0 | Python glob 实核 11 卡 60 条（斜杠无关重跑版） | 0 死链【实证】 |
+| source 文件缺失 0 | 同上，44 条 os.path.exists | 0 缺失【实证】 |
+| 30_wiki 工作树无未入仓卡变更 | `git diff --stat HEAD -- 30_wiki/`（空输出） | 0 差异【实证】 |
+| permission_scope 未加 / 规范侧未动 | v1.1 增补清单（diag §二·六）无此字段；90_control/tags-vocab/ 仅轴文件无本批改动 git status | 判断依据在案【实证】 |
+| 「20 年」拔高（原卡缺陷） | sed -n '1476p' 口述.txt 原话「大概一共是一二十年来存下的各种内容」 | 已修正【实证】 |
+| L598 非逐字（原卡缺陷） | sed -n '590,600p' 口述.txt 实为「说白了就是标准的质量度…」 | 已修正【实证】 |
 
 ## 机器预审报告
 
