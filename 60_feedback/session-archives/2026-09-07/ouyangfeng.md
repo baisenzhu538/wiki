@@ -2,10 +2,10 @@
 session_id: ouyangfeng-2026-09-07
 agent_id: ouyangfeng
 date: 2026-09-07
-created_at: 2026-09-06T20:26:37.895035+00:00
-updated_at: 2026-09-06T20:26:37.895035+00:00
-git_head: 1ea198ff0
-content_hash: 96a31f9d0af7
+created_at: 2026-09-06T20:58:59.587931+00:00
+updated_at: 2026-09-06T20:58:59.587931+00:00
+git_head: ebd774eb4
+content_hash: 45e0cf9fe965
 ---
 
 # ouyangfeng · 2026-09-07
@@ -145,3 +145,72 @@ vs 本日会话 1（#668 draft 卡族转正批终审）：本轮审查对象从�
 ### 下次改进
 - Agent自身：佐证包锚点回原始日志/源码独立复核；读 bat/shell 对 label fall-through 保持警觉；核心改动 `git log -S` 追溯落点。
 - 方法论卡更新：审查方法论 v2.3 追加「基建处置单四核（根因/新bundle/节拍/阈值）」+「佐证包交叉引用须回原始源复核」+「auto-backup 抢跑提交的 commit 追溯口径」。
+
+
+---
+
+# 会话 3 · #674 path_map 键硬化终审（2026-09-07 04:57）
+
+## 差异栏
+vs 本日会话 2（#673 bundle 处置单终审）：本轮审查对象从「运维处置单」切换为「代码硬化单」（graph_state path_map 改 path/id 键根除同标题撞车），且是我定位根因（#671 探针首报警 → diag 建议书）后回流到我手上终审的闭环单。三个新点：①验收从「读日志采信」升级为「三测独立复跑」——撞车卡溯源脚本、探针 --json、pytest tests/ 全都不信执行报告声明，自己重跑；②首次踩到 pytest 全量收集被 PowerShell GBK 默认编码打断（openmontage YAML 0x94 解码失败），需 PYTHONUTF8=1 才恢复全量——但发现任务声称的「639 passed」实指 tests/ 目录而非整仓（整仓含 tools 子目录=994），先定口径再判红绿；③用 git log -S 追溯 vault 侧探针适配真实落点，确认它进了 auto-backup commit 22081f4da 而非 #674 专属 commit。被打破的假设：默认「执行报告的验证数字可直接采信，无需复跑」。
+
+## 概要
+终审 #674 huangyaoshi-pathmap-key-hardening PASS A-（graph_state path_map 键 title→path/id，根除同标题撞车致 13 张溯源丢失），三项重点核全过（13 组 26 张撞车卡全可溯源 / 探针 concepts 缺口清零 / 回归 639 passed 1 skipped 不红）；非阻断 3 条（探针适配落备份 commit 路由 / KG 实体层仍按 title 合流 / graph.py:358 全删空 pre-existing 边界缺陷）；todos 落账 1 行。
+
+## 关键决策
+| 决策 | 理由 | 结果 |
+|:--|:--|:--|
+| PASS A- 而非返工 | 三项重点核独立复跑全过，缺口均为非阻断且已在执行报告边界节声明 | 通过 |
+| 三测独立复跑不信报告 | O0 溯源纪律：代码单的「可溯源/缺口清零/回归不红」必须自己重跑验证 | 三项全部独立实证 |
+| KG 实体层合流+落备份 commit 记非阻断不返工 | 前者已在边界节声明为内容侧改名/KG 硬化新单；后者纯提交路由，功能已提交无脏改动 | 记缺口清单，无需回退 |
+| 先定「639= tests/ 目录」口径再判红绿 | 整仓 pytest 因 GBK 收集报错、PYTHONUTF8 后 994 passed；任务 639 实指核心 tests/ | 用核心 tests/ 口径核对，与声称一致 |
+
+## 思维盲点
+1. 一度准备只读验收日志就下「验收通过」结论，没先自己跑撞车溯源脚本和探针。为什么漏掉：执行报告数字完整（path_map=2941、639/1），我默认「报告=已复跑」，没独立验证 13 组撞车卡是否真的 26/26 全在 path_map。
+2. 第一次跑 pytest 全量被 GBK UnicodeDecodeError 打断（openmontage-zh-mcp 测试收集读 YAML 报 0x94 非法多字节），差点误判「回归跑不了/环境坏」。为什么漏掉：没意识到 PowerShell 默认 console 编码 GBK 会让 Python 文件读取缺省编码，需 PYTHONUTF8=1 或目标子目录才恢复。
+3. 一度把「639 passed」当整仓数字。为什么漏掉：没先确认任务跑的 pytest 范围——实际 639 是 `pytest tests/`（核心目录），整仓含 tools 子目录是 994；两个口径都对，但必须先把口径对齐再核对声称。
+
+## 顿悟
+1. 推翻「执行报告验证数字可采信」的旧认知：数字会漂移、范围会二义（639 是 tests/ 而非整仓），代码单验收必须自己复跑三测（溯源脚本+探针+pytest）并对齐口径。
+2. 纠正「pytest 报错=代码坏」的旧理解：报错可能是环境编码（PowerShell GBK vs UTF-8 文件），先 PYTHONUTF8=1 重跑再判红绿，避免误伤。
+3. 发现「vault 侧适配改动会被 auto-backup 抢跑进备份 commit」是规律性现象——#673 的 integrity-check 和 #674 的 probe 都是同款，追溯交付物真实落点必须 `git log -S` 而非只看专属 commit。
+
+## 过程资产
+| 新增/更新 | 路径 |
+|:--|:--|
+| 终审记录 PASS A- | 60_feedback/tasks/task_20260907_huangyaoshi-pathmap-key-hardening.md |
+| 队列流转 | queue_transition review #674 → reviewed A- |
+| 落账 | 90_control/todos/ouyangfeng.md +1 行 |
+| 本复盘 | 桌面/agent复盘/ouyangfeng/daily-context/2026-09-07.md |
+
+## 元反思
+下次代码硬化/基建单终审：①「可溯源/缺口清零/回归不红」三测一律自己复跑，不信执行报告数字；②pytest 报错先查环境编码（PYTHONUTF8=1）再判红绿，并先对齐「tests/ vs 整仓」口径；③交付物真实落点用 git log -S 追溯，警惕 auto-backup 抢跑进备份 commit。检索行为审视：本单为代码/基建类审查，知识问题第一动作跑了 kdo query（path_map 键设计/覆盖率/停止规则 三词），确认无同型既有方案卡、属代码侧硬化——命中结论与生产者一致，不降级 grep 兜底。
+
+---
+
+## 本会话发现的问题
+1. vault 侧探针适配经 auto-backup commit 22081f4da 落仓，而非 #674 专属 commit f8cd50040（后者仅含任务单+验收日志）——纯提交路由，功能已提交无脏改动。
+2. KG 实体层 entity_name 仍=title：13 组撞名卡 path_map 已可溯源，但 LightRAG 图内仍合流——根治需 KG 层同步硬化或内容侧改名（已声明的边界，归新单）。
+3. pre-existing 边界缺陷：30_wiki 页全删空时 cmd_graph_ingest 于 graph.py:358 提前 return、删除传播不触发——测试踩到未动，记录级。
+
+## Truman复盘
+
+### 逐轮映射
+| 轮次 | 人做了什么 | 双三角 | AI做了什么 | 双三角 |
+|:--|:--|:--|:--|:--|
+| 1 | 我 #671 定位根因落建议书+王语嫣立项 #674 | H.创造力·A.场景 | 读启动/角色/宪法+队列+任务单 | A.数据 |
+| 2 | 黄药师改 graph.py 写/读/删除传播+探针适配+3 测试+回归 | A.基本功(实证) | KDO 仓 commit+回归 639/1+vault 探针适配 | A.基本功 |
+| 3 | 我三测独立复跑（溯源脚本/探针/pytest）+裁量 A-+review 流转 | H.体系(门禁) | 撞车溯源脚本+探针 --json+pytest tests/+queue_transition review | H.体系(门禁) |
+| 4 | 我落终审记录+todos 落账 | H.体系(出口) | 写终审记录+本复盘 | H.体系(出口) |
+
+### 飞轮效应
+加速「代码硬化单终审」回路：把「三测独立复跑（溯源脚本+探针+pytest）」固化为标准动作，并把「pytest 范围口径（tests/ vs 整仓）」和「auto-backup 抢跑提交追溯（git log -S）」补进终审习惯，避免按报告数字采信和提交路由误判。
+
+### 对照实验
+- 无人协作：人手工跑撞车溯源脚本、探针、pytest、读 graph.py diff、git log -S 追溯，约 30-45 分钟。
+- 无AI协作：人易漏「pytest 范围二义」「GBK 编码坑」「auto-backup 抢跑提交」这类环境/口径/追溯问题，易按报告数字直接放行。
+- 合在一起：约 20 分钟闭环，三测全过 + 3 条非阻断缺口，五维 95/100。
+
+### 下次改进
+- Agent自身：代码单三测必复跑；pytest 先 PYTHONUTF8=1 并对齐 tests/ vs 整仓口径；交付物真实落点 git log -S 追溯。
+- 方法论卡更新：审查方法论 v2.3 追加「代码硬化单三测核（溯源/探针/pytest）」+「pytest 范围与编码口径」+「auto-backup 抢跑提交追溯」。
