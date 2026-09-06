@@ -1,16 +1,19 @@
 ---
-id: task_20260906_laowantong-audit-batch1bc
-title: "暗知识体检 A1 批 1b/1c 放行 + 28 候选 grep 重跑出清单（老朱拍板：继续挖+清单他拍板）"
-seq: 662
-status: pending_review
-assignee: laowantong
-created_by: wangyuyan
-created_at: 2026-09-06
-decision_source: 老朱 09-06 六项拍板（1继续挖/2清单他拍板）；#659 终审条件（产卡立项前 grep 重跑）
-reviewer: 欧阳锋
-instance: laowantong
-updated_at: '2026-09-06T07:09:31.927612+00:00'
+id: task_20260906_laowantong-audit-batch1bc
+title: "暗知识体检 A1 批 1b/1c 放行 + 28 候选 grep 重跑出清单（老朱拍板：继续挖+清单他拍板）"
+seq: 662
+status: reviewed
+assignee: laowantong
+created_by: wangyuyan
+created_at: 2026-09-06
+decision_source: 老朱 09-06 六项拍板（1继续挖/2清单他拍板）；#659 终审条件（产卡立项前 grep 重跑）
+reviewer: 欧阳锋
+instance: laowantong
+updated_at: '2026-09-06T07:30:34.716512+00:00'
 evidence: 60_feedback/diagnosis/working/a1-batch1c-goldmine-ledger.md
+reviewed_by: 欧阳锋
+review_date: '2026-09-06'
+grade: B+
 ---
 
 # #662 A1 批 1b/1c + 候选清单重跑（老顽童）
@@ -59,3 +62,43 @@ evidence: 60_feedback/diagnosis/working/a1-batch1c-goldmine-ledger.md
 ### ③ 负向判词 / ④ 存在性核查
 
 ✅ 执行报告无负向断言词（检查面=执行报告节）
+
+
+## 终审记录（欧阳锋 2026-09-06 15:27）
+
+**verdict**：PASS
+**grade**：B+
+**methodology_version**：v2.3
+**blocking**：无 Critical/High；🟡 2 项条件放行（复跑工具 ROOT 路径错 + 决策清单"842 文件"口径失真），下游产卡立项前由老顽童修复。
+
+**O0 溯源自检**：通读三份台账全文（决策清单 129 行 / 批 1b 239 行 / 批 1c 433 行）；本端独立复跑 grep 工具（产出 scope=0 files 暴露工具缺陷）；grep 复跑抽样锚（没认怂/现场说话能力/封装五层/阿迪亚/guizang/哑童钰龙记 等）。
+
+**存在性核查**（负向判词锚，本次重点核四项）：
+
+① 重跑口径（842 文件 / 时点 / 可复跑性）：
+- 时点：✅ json 与工具 mtime 均 14:31:42，与"14:25-14:31"吻合【实证】。
+- 文件数：❌ 决策清单 L20 与王语嫣双签 L126 均写"842 文件"，与 json scope `30_wiki/**/*.md (2981 files)` 及本端实测 2981 个 .md 矛盾——口径应为 2981，非 842【实证：Get-ChildItem 30_wiki -Recurse -Filter *.md = 2981】。实质影响=口径偏小（实查 3.5 倍），"0 命中"结论不被推翻、反而更强，不改变任何翻案/维持判定。
+- 可复跑性：❌ 复跑工具 ROOT 写死为 `dirname(__file__)/../30_wiki`，工具现落 `60_feedback/diagnosis/working/` → ROOT 解析为不存在的 `60_feedback/diagnosis/30_wiki`；本端原样复跑 scope="0 files"、28 条全 0 命中，与 json"2981 files/有命中"矛盾。"任一行可独立复跑证伪"主张当前不成立【实证：本端复跑 JSON scope 行 = 0 files】。去向：老顽童修 ROOT（应指向 vault 根/30_wiki）+ 复跑对账（TODO）。
+
+② 翻案判定抽样（12 抽 3，验证已有卡实存）——全真【实证】：
+- M-24 没认怂 → `cases/case-personal-map-modeling.md:138`"一直没认怂" ✓
+- M-48 现场说话能力 → `dark-knowledges/dk-modeling-essence-predictive.md:152-156` 案例7 全句 ✓
+- S-3 封装五层 → `methods/method-dual-triangle-human-ai-division.md:118-122` L1-L5 表 ✓
+
+③ 批 1c「三大整件级空白」抽验——全真【实证，grep 均 0 命中】：
+- 阿迪亚 AI Native Benchmark：`阿迪亚/调度带宽/影响力溢出/Personal AI OS` 均 0 命中 ✓
+- 方振义 Codex PPT 工作流：`guizang/asset_inventory/内容线框/22分钟` 均 0 命中 ✓
+- 收官路演 18 场全量：`哑童钰龙记/紫金 AI/范肥猫/MJT 1019/AI大航海收官/收官路演` 均 0 命中 ✓
+
+④ 伦理敏感 1 条（c4-38）处置建议：✅ 合理。AIGC 黑箱话术（"对外凭证手写…说 AIGC 生成就没人要"）判定"登记不立卡、交老朱/王语嫣裁定"——不弘扬、不静默，与"基于真实"边界及宪法实事求是准则的张力显式登记，处置口径正确。
+
+⑤ #657 条件放行闭环确认：✅ 已闭环。`diag_20260906_wangyuyan-audit-pilot-report.md:53` 已加"更正注记"，漏挖率 30%（6/19）→ ~5%（1/19）；我的 #657 放行条件"⑥剔除（S-6 领域空白）+①改判（S-1 人工合并）+ 产卡前重跑 grep"已由本单落地复检（S-6/S-1 均判翻案已卡）。
+
+**审查结论**：三份台账主体（逐字读、词根复检、形态路由、自攻击四路、抽验指引）扎实；本次终审四重点核（重跑口径/翻案抽样/三大空白/伦理处置）除重跑口径 2 处簿记缺陷外全部通过。扣分点集中在①：复跑工具不可复跑 + "842 文件"口径失真——均为可修复的交付簿记问题，不推翻任何翻案/维持/空白判定，老朱拍板决策不受影响。
+
+**放行条件（residual_risks / 需要谁动作）**：
+- 老顽童：①修 `a1-batch1bc-greprerun-tool.py` 的 ROOT（指向 vault 根/30_wiki）并复跑对账 json（TODO）；②决策清单 L20 与王语嫣双签 L126"842 文件"更正为"2981 文件"（TODO）；③伦理 c4-38 待老朱/王语嫣裁定后照裁定处置。
+- 王语嫣：更正注记已落（#657 闭环）；批 1b/1c 抽验按各自 §6/§7 指引推进。
+- 老朱：对《拍板清单》§5 三项拍板（产卡范围 / 翻案 12 条勘误 / 流程修正两立项）。
+
+**五维评分**：溯源完整 19/25（锚多真，但"842"口径失实 + 复跑工具不可复跑）、逻辑骨架 23/25、暗知识密度 19/20、可操作性 13/15、表达质量 14/15，合计 88/100 → B+
