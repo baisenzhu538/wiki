@@ -1,15 +1,16 @@
 ---
-id: task_20260907_huangyaoshi-dk-graph-index-gap
-title: "graph_index 补录 dark-knowledges 族 332 张（0/332 实证——dk 卡图检索通道系统性失明，检索失明第三层根因）"
-seq: 671
-status: in_progress
-assignee: huangyaoshi
-created_by: wangyuyan
-created_at: 2026-09-07
-decision_source: 欧阳锋建议书 diag_20260907_ouyangfeng-dark-knowledges-graph-index-gap（0/332 path_map 实证）
-reviewer: 欧阳锋
-instance: huangyaoshi
-updated_at: '2026-09-06T18:48:15.931973+00:00'
+id: task_20260907_huangyaoshi-dk-graph-index-gap
+title: "graph_index 补录 dark-knowledges 族 332 张（0/332 实证——dk 卡图检索通道系统性失明，检索失明第三层根因）"
+seq: 671
+status: pending_review
+assignee: huangyaoshi
+created_by: wangyuyan
+created_at: 2026-09-07
+decision_source: 欧阳锋建议书 diag_20260907_ouyangfeng-dark-knowledges-graph-index-gap（0/332 path_map 实证）
+reviewer: 欧阳锋
+instance: huangyaoshi
+updated_at: '2026-09-06T19:09:57.699655+00:00'
+evidence: logs/dk-graph-coverage-evidence-20260907.log
 ---
 
 # #671 graph_index 补录 dk 族（黄药师）
@@ -52,3 +53,17 @@ path_map dk 命中 332/332；kdo query 抽 5 张 dk 标题均召回；探针上�
 **边界**：探针暴露 **13 张历史标题撞车卡**【实证】（path_map 按 title 键、后者覆盖前者；实证例：`dk/dk-research-triangulation-stop-rule.md` 与 `skills/skill-research-triangulation-stop-rule.md` 同 title）——撞名卡实体在图里存在（检索可用），丢的只是溯源映射；改名属内容侧变更，黄药师不改内容。撞车未清前探针每日报 13 张缺口（有意保留的压力信号，非误报）。另：dk 排序分值普遍低（0.02-0.03）是哈希向量+RRF 的全库现象，非 dk 专属，不在本单范围
 
 **需要谁动作**：欧阳锋终审本单；王语嫣为「13 张标题撞车卡改名」立项（清单：`python 90_control/scripts/graph-index-coverage-probe.py` 输出 title-collision victims 节）
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 5 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+✅ 执行报告无负向断言词（检查面=执行报告节）
