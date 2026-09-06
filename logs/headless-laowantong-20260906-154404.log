@@ -1,0 +1,9 @@
+Background tasks still running after 600s; terminating. Set CLAUDE_CODE_PRINT_BG_WAIT_CEILING_MS=0 to wait indefinitely.
+备份按 #628 正常跳拍（活动会话在，15:50 SKIPPED），下次 16:20。四份交付物 git 状态清晰：
+
+- `M 30_wiki/workflows/workflow-multi-researcher-cross.md`（工作流卡）
+- `M 40_outputs/capabilities/skills/shared/multi-researcher-cross/SKILL.md`（skill + manifest）
+- `?? 60_feedback/diagnosis/working/pilot-multi-researcher-cross-20260906.md`（试金石全文存档）
+- `M 30_wiki/index.md`（已登记）
+
+自攻击 Agent 已在跑（四路：逻辑/证据/完整性/时效性，含锚点抽验）。等它回来后按结果修复 → 五字段执行报告 → commit → complete。
