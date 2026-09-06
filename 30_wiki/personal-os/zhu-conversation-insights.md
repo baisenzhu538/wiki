@@ -33,3 +33,14 @@ related:
 | 12 | **拉起制+时钟唯一**：老朱拍板工作流：编排者可无头拉起各角色干活，探针保留但只探测；时钟是编排者特权，其他角色一律不得持有。 | 按照流程来走，做自动化工作流，而不是以前那种探针模式。探针要保留，但是时钟除了你要有时钟，其他人不能有时钟，你可以拉起他们干活。 | `C:\Users\Administrator\.kimi-code\sessions\wd_wiki_db842f22df7c\session_a31ba5d7-d898-44ac-b8bb-3d6d384110d6\agents\main\wire.jsonl` |
 | 13 | **工具栈边界敏感**：老朱对 Hermes 与 Kimi CLI 的边界高度敏感，发现误拉立即纠正并停掉旧实例；记忆锚点必须从旧工具栈迁移更新。 | 你不要搞错了啊，你不能够去拉 Hermes 的，Hermes 跟你这是两回事。现在我让飞书端 Hermes 的几个智能体全部都停了。 | `C:\Users\Administrator\.kimi-code\sessions\wd_wiki_db842f22df7c\session_a31ba5d7-d898-44ac-b8bb-3d6d384110d6\agents\main\wire.jsonl` |
 | 14 | **多Agent路线图**：老朱规划未来多实例多Agent（可能含 Codex 等异构模型），要求编排角色保持与他沟通；明确编排者带探针和实时时钟的定位。 | 还有，以后可能会采取多实例、多 Agent，不一定都是 Kimi，有可能是 Codex，也有可能是其他的。但是，你要保持跟我沟通，理解吧？你是带有探针和实时时钟的。 | `C:\Users\Administrator\.kimi-code\sessions\wd_wiki_db842f22df7c\session_a31ba5d7-d898-44ac-b8bb-3d6d384110d6\agents\main\wire.jsonl` |
+
+## 2026-09-06 23:57 蒸馏（run 20260906）
+
+| # | 洞察 | 原文锚 | 来源 |
+|:---|:---|:---|:---|
+| 1 | **执行自治决策权上收**：老朱的协作模式：执行层完全自治（自行选备选路径、绕过阻塞），但资源决策与终审权保留在己——充值换key、任务终审均需他点头，形成清晰的授权边界。 | 按指令备选路径用实例视觉完成，未阻塞交付。 | `C:\Users\Administrator\Desktop\wiki\logs\headless-hongqigong-20260906-115727.log` |
+| 2 | **老朱「不信自律信门禁」**：老朱的核心思维模型：不依赖自律而依赖机制门禁。kdo query 被立为第一优先门禁，正是这一信条的制度化落地——用流程硬约束替代人的自觉。 | feat(wangyuyan): #669 立项（kdo query第一优先门禁，老朱「不信自律信门禁」）+W11牌强化 | `C:\Users\Administrator\Desktop\wiki\logs\headless-huangyaoshi-20260906-233723.log` |
+| 3 | **不成熟即押后并留重启条件**：老朱的决策模式：对不成熟方案不否决也不推进，而是押入停车场并留档候选与重启触发条件，保留期权、控制试错成本。 | docs(wangyuyan): F-079 DataPack 扩展候选押后入停车场（老朱裁定：还不成熟；6候选+重启触发条件留档） | `C:\Users\Administrator\Desktop\wiki\logs\headless-huangyaoshi-20260906-233723.log` |
+| 4 | **个人域26件识己线**：老朱维护着个人域26件「识己」线索且要求隐私受控，说明他重视自我认知的系统化盘点，并对外部处理个人隐私设边界。 | feat(wangyuyan): #667 人域批诊断立项（老朱个人域26件识己线，隐私受控）+INBOX分诊划销 | `C:\Users\Administrator\Desktop\wiki\logs\headless-huangyaoshi-20260906-233723.log` |
+| 5 | **留痕+friction追踪重复问题**：老朱的协作纪律：每单收尾必做提审留痕（todos+friction），且对重复性问题（如#504连单第3次force）持续点名登记，推动根治而非放过。 | todos 两行+friction 三条：#504连单第3次force | `C:\Users\Administrator\Desktop\wiki\logs\headless-huangyaoshi-20260906-233723.log` |
+| 6 | **老朱：不信自律信门禁**：老朱的管理哲学：不依赖人的自律，而是把约束做成自动化门禁（第一优先执行），用机制代替意愿。 | feat(wangyuyan): #669 立项（kdo query第一优先门禁，老朱「不信自律信门禁」）+W11牌强化 | `C:\Users\Administrator\Desktop\wiki\logs\headless-huangyaoshi-20260906-233723.log` |

@@ -1186,3 +1186,4 @@
 - [2026-09-06 23:17] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-06 23:12:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cl
 - [2026-09-06 23:42] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
 - [2026-09-06 23:44] 🕐 值守拍23:55：全绿——#669门禁闭环/#666已终审收尾（框架10入库）/#668排队；liveness回声划销；零动作
+- [2026-09-07 00:01] 📥 新素材 38 项（P0 0）：distill-external-20260906-01.md、distill-external-20260906-02.md、distill-external-20260906-03.md…——请诊断编排（看板待编排段）
