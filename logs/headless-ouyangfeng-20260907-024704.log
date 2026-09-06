@@ -3936,3 +3936,415 @@ for i, line in enumerate(lines[184:], 185):
  300|| 2026-09-06 | #665 终审：PowerShell 双引号 here-string 处理反引号转义——终审记录内联代码 span 的反引号被吞（`0→NUL、`a→alert、`f→form feed，其余丢反引号）；中文落盘仅走 .NET AppendAllText 不够，正文构建必须改用单引号 here-string（反引号字面）再 WriteAllText+UTF8Encoding(false) | 踩坑教训 | #665 终审实战 |
  301|| 2026-09-07 | #668 转正批终审四重点核：四节补齐 v1.1 口径 / CONCEPT_CROSSCHECK 提示制 / 查重四组 / 自攻击源锚；收口类动作前先独立清点 status 再动手（报告"7+1=8" vs 实证 10 张全 draft，不信报告张数）；单卡检索失败先 path_map 比对整族（dark-knowledges 全量 0/332 未入 graph index，比 #670 更底层根因） | 方法升级 | #668 终审实战 |
 
+Now I understand the structure. The pinyin file:
+- Lines 1-204: bullet-based sections (old format: ## date with Keep/Improve/Add/Stop bullets)
+- Lines 205 onwards: table-based format (each row is `| 日期 | 学到了什么 | 类型 | 来源 |`)
+
+The table format starts at line 205 (with no explicit header row visible; the header seems to be missing or the table just starts with rows). Actually there's no `|---|---|` header separator visible in the section I've seen. Let me check: the rows start at line 205 with `| 2026-08-22 | ... |`. There's no header row before line 205. Hmm.
+
+Wait, actually the table format described in the context file is:
+```
+| 日期 | 学到了什么 | 类型（新武器/方法升级/踩坑教训） | 来源 |
+|:--|:--|:--|:--|
+```
+
+But the pinyin file's table doesn't have that header. Let me check if there's a header somewhere around line 204 or earlier. Line 204 is `- **Stop**：...`. Line 205 starts a table row. So the table has no header. That's a bit odd, but it's how it evolved.
+
+Actually, let me look more carefully. There might be a header separator somewhere. Let me search for `|:--` or `| 日期` in the file.
+
+Actually, this doesn't matter too much for the merge. What matters:
+1. The four rows from the Chinese track need to be appended/merged into the pinyin track.
+2. The Chinese track has rows in the SAME table format (with a header). Let me check the Chinese track's structure again.
+
+Chinese track content (from earlier read):
+```
+| 2026-09-02 | #617 复审：... | 方法升级 | #617 终审实战 |
+| 2026-09-06 | 存在性核查锚点须穷举已知子层... | 踩坑教训+方法升级 | #653 ... |
+| 2026-09-06 | 门禁 PASS 背后必扫 friction-log... | 踩坑教训+方法升级 | #664 终审 |
+| 2026-09-06 | 门禁类任务终审证据链=... | 方法升级+踩坑教训 | #669 终审 |
+```
+
+Wait, the Chinese track file shown earlier had a table header? Let me look again. The output showed:
+```
+| 2026-09-02 | #617 复审：v2.3 ... | 方法升级 | #617 终审实战 |
+| 2026-09-06 | 存在性核查锚点须穷举已知子层... | 踩坑教训+方法升级 | #653 ... |
+| 2026-09-06 | 门禁 PASS 背后必扫 friction-log... | 踩坑教训+方法升级 | #664 终审 |
+| 2026-09-06 | 门禁类任务终审证据链=... | 方法升级+踩坑教训 | #669 终审 |
+```
+
+Actually the first line shown was just the table rows; I didn't see a header. Let me get the exact raw content of the Chinese track (including header/frontmatter).
+
+Actually, from the earlier read of the Chinese track, the output was:
+```
+================= CHINESE TRACK =================
+| 2026-09-02 | #617 复审：... | 方法升级 | #617 终审实战 |
+| 2026-09-06 | 存在性核查锚点须穷举已知子层... | 踩坑教训+方法升级 | #653 顺带核查... |
+| 2026-09-06 | 门禁 PASS 背后必扫 friction-log... | 踩坑教训+方法升级 | #664 终审 |
+| 2026-09-06 | 门禁类任务终审证据链=... | 方法升级+踩坑教训 | #669 终审 |
+```
+
+No header. OK.
+
+So my job: append these 4 rows into the pinyin track's table (in chronological order, or just append them). The pinyin track's table currently ends with #668 (2026-09-07). The Chinese track's rows are:
+- #617 (2026-09-02) — this is OLDER than #668
+- #653 (2026-09-06)
+- #664 (2026-09-06)
+- #669 (2026-09-06)
+
+Wait, but these are out of order relative to the pinyin table's chronological order. The pinyin table has #632 (09-03), #633 (09-03), #638 (09-04), #641 (09-05), #642/#645/#646 (09-06), #656 (09-06), #662 (09-06), #665 (09-06), #668 (09-07).
+
+So #617 (09-02) should come BEFORE #632 (09-03). #653/#664/#669 (09-06) should come between #646 and #656 or similar.
+
+Hmm. The task says "中文轨 #617/#653/#664/#669 四行并入" — merge the four rows in. The acceptance is "两轨合一无丢行" (two tracks merged into one, no lost rows). It doesn't strictly require perfect chronological ordering, but to be clean, I should insert them in chronological position.
+
+Actually, let me think about what's the safest and cleanest approach. The table format rows in pinyin track are NOT strictly one-row-per-line. There's a weird structure where some rows contain MULTIPLE entries separated by `||` (double pipe). For example, line 297 contains both #642/#645/#646 AND #656 entries on the same line:
+```
+| 2026-09-06 | 三单终审（#642/#645返工/#646处置）... | 踩坑教训 | #642/#645/#646 终审实战 || 2026-09-06 | #656 终审：... | 方法升级 | #656 终审实战 |
+```
+
+So the "table" is actually messy — it has multiple logical rows merged onto single lines with `||` as separator. This is the accumulated state.
+
+Hmm wait, actually looking more carefully:
+- Line 292: ends with `... | 方法升级 | #620/#625/#623 终审实战 || 2026-09-03 | #632 R1 复审：... | 踩坑教训 | #632 R1 复审实战 |` — so line 292 has TWO entries (#620/#625/#623 AND #632) joined by `||`.
+- Line 294: single entry #633.
+- Line 296: single entry #641.
+- Line 297: TWO entries (#642/#645/#646 AND #656).
+- Line 299: single #662.
+- Line 300: single #665.
+- Line 301: single #668.
+
+This is messy but it's the existing state. I should NOT try to reformat the whole table (that would risk losing lines and is beyond scope). My job is to merge the 4 Chinese rows in without losing any.
+
+The safest approach: append the 4 rows to the pinyin track in a way that preserves them exactly. Given the existing table is messy and chronological-ish, I have two options:
+
+Option A: Append the 4 rows at the end of the file (after #668), preserving their exact text from the Chinese track. This guarantees "无丢行" but breaks chronological order slightly (since #617 is 09-02, #653/#664/#669 are 09-06, and #668 is 09-07 which is later).
+
+Option B: Insert them at the correct chronological positions. This is cleaner but more error-prone.
+
+Given the acceptance criterion is "两轨合一无丢行" (no lost rows), not "严格时间排序", and given the existing file is already messy (mixed formats), the safest is to append the 4 rows at the end, each on its own line, in chronological order among themselves. Actually, to be clean and preserve the "accumulative log" nature, I could append them in a consistent order.
+
+But wait — there's a subtlety. The four Chinese rows use a 4-column format: `| 日期 | 学到了什么 | 类型 | 来源 |`. The pinyin table also uses 4-column format. So appending them as-is (each as a separate line) fits the table structure.
+
+However, note the Chinese track rows have the "类型" (type) field with values like "方法升级", "踩坑教训+方法升级", "方法升级+踩坑教训". The pinyin track also uses "方法升级"/"踩坑教训" in that column. So consistent.
+
+Let me decide: I'll append the 4 rows to the end of the pinyin file, each on its own line, in chronological order (#617, #653, #664, #669), preserving the exact text. Then verify no line lost by comparing.
+
+Actually, hold on. Let me reconsider whether I should insert chronologically. The file has a clear "accumulative log" where newer entries are at the bottom. Appending #617 (09-02) after #668 (09-07) would put an older entry at the bottom. That's slightly wrong but the task only requires "无丢行" (no lost lines), not ordering.
+
+But there's another consideration: "下次收尾落拼音轨" (next closeout falls to pinyin track). The closeout action appends ONE new line to the log. As long as the pointer is correct and the file contains all entries, future appends go to the bottom. Having #617 at the bottom after #668 is cosmetically imperfect but functionally fine.
+
+Actually, to do this properly and cleanly, I think the best approach is to insert the rows in chronological order. But given the messiness (some lines contain multiple entries via `||`), precise insertion is tricky.
+
+Let me think about what "merge" means minimally and safely:
+- The four rows must all appear in the pinyin track.
+- No existing pinyin rows should be lost or altered.
+
+The simplest safe method: append 4 rows at the end. This is guaranteed not to lose any existing content. The only downside is ordering.
+
+Alternatively, I could do a proper chronological merge. Let me consider the effort vs. risk. The acceptance explicitly is "两轨合一无丢行" — I should prioritize no-loss over perfect ordering. But a reviewer (me, 欧阳锋) would want it clean.
+
+Actually, let me reconsider the whole thing. Since I'm 欧阳锋 (the reviewer/architect), and this is MY OWN self-service task (自办), I should do it correctly. Let me look at whether the table has a header, and what the cleanest append looks like.
+
+Let me also check: does the pinyin file end with a newline? Line 301 is the last line. Let me check trailing newline.
+
+Also, I should check the memory-registry.md rows 24/60 to confirm the pinyin path is registered there, and possibly whether I need to update anything there. The task only says 3 things: merge, archive Chinese track, update context pointer. It doesn't mention memory-registry. But the diag says memory-registry already points to pinyin. So no change needed there.
+
+Let me now carefully plan the exact edits:
+
+### Edit 1: Merge 4 rows into pinyin track
+
+I'll append 4 lines to `C:\Users\Administrator\Desktop\agent复盘\ouyangfeng\技能进化日志.md`, each row on its own line, using the exact text from the Chinese track.
+
+But wait — I should preserve the EXACT text of each row. Let me capture the exact 4 rows from the Chinese track. From the read:
+
+Row #617:
+`| 2026-09-02 | #617 复审：v2.3 复审对照法再实证——先只读合并 diff（496b7e27c..HEAD）再逐条 grep -F 对源，5卡15条引文全量核验 ~25 分钟；vault backup 扫带 commit 的归属核验口径=两 commit 并集对基线 diff 必须恰好等于任务范围；review_mark 转正权限边界已从审查者移到生产方（脚本提醒口径），终审动作清单要跟着机制更新 | 方法升级 | #617 终审实战 |`
+
+Row #653:
+`| 2026-09-06 | 存在性核查锚点须穷举已知子层（根目录 ls≠不存在，shared/ 有实装）——核查动作自身要接受层级完备性质疑；F-035 拦审查者本人=门禁价值兑现 | 踩坑教训+方法升级 | #653 顺带核查推翻我 #652 上轮判词；F-035 拦我 #653 意见书 |`
+
+Row #664:
+`| 2026-09-06 | 门禁 PASS 背后必扫 friction-log（BODY_SRC_UNKNOWN 字面门禁同族第二例：引用语境 vs 患有，生产方自行发明截写+复跑锚过门禁，补救路径无成文口径）；真跑类交付验证三管齐下=独立复跑 pre-submit+源锚抽样+git 分会战证据链；「流程能跑通」≠「产出更好」（多视角分歧已实证、合并优于单角色未验证，是两件事） | 踩坑教训+方法升级 | #664 终审 |`
+
+Row #669:
+`| 2026-09-06 | 门禁类任务终审证据链=独立复跑全链路两态(真实库文件+env切档)+pytest全量回归+挂载点逐点grep三重交叉，不信执行报告声明不信单方单测；「三挂载点」术语在宪法frontmatter(注入通道)与任务验收(文档同步点)存在二义；中文落盘统一Python write_text UTF-8无BOM | 方法升级+踩坑教训 | #669 终审 |`
+
+These 4 rows use the standard 4-column format. Good.
+
+Now, where to insert? I'll do a clean chronological insert. But actually, given the file's messy state with `||`-joined rows, maybe appending is cleaner and safer.
+
+Let me think about what a careful architect would do. Actually, the cleanest and most defensible: append the 4 rows at the end, in chronological order. Then add a note? No, don't over-engineer.
+
+Hmm, but actually there's a subtle issue: the pinyin table already has #668 at 09-07 as the last row. The four new rows are all ≤ 09-06. Appending them after #668 puts them out of chronological order.
+
+I think the right thing is to insert them in chronological order:
+- #617 (09-02) goes before the table rows that start at 09-03 (#632). But the table rows start at line 205 with 2026-08-22... and 09-02 would be between 09-02 and 09-03... Actually #617 is 09-02. The table has entries 08-22, 08-23, 08-24, 08-25... then jumps to 09-03 (#632). So #617 (09-02) should go between the 08-25 entries and the 09-03 entries.
+
+- #653, #664, #669 (all 09-06) should go among the 09-06 entries, before #668 (09-07).
+
+This is getting complicated due to the messy structure. Let me look at the full table region lines 205-292 to understand where 09-03 starts and where 09-06 entries are.
+
+Actually, given the complexity and risk, and the acceptance criterion being "无丢行" (no lost rows), I'll take a pragmatic approach:
+
+**Append all 4 rows at the end of the file** in chronological order (#617, #653, #664, #669), each on its own line. This is:
+1. Safe (no existing content touched).
+2. Guarantees all 4 rows present.
+3. Easy to verify.
+
+But this leaves chronological order imperfect. Is that acceptable for "双轨合一无丢行"? Yes — the acceptance is about no lost rows, and the pointer. Ordering is not mentioned.
+
+However, I'm slightly worried about "下次收尾落拼音轨" — future closeout appends a new row to the bottom. If #617 is at the bottom after #668, then a future 09-07 or later row appended after would be after #617, making #617 sit in the middle-ish but out of order. Not a big deal.
+
+Actually, let me reconsider. A cleaner approach that's still safe: insert #617 in the correct chronological position, and append #653/#664/#669 near the other 09-06 rows.
+
+But honestly, the safest, least-error-prone, and most defensible approach given "只做本次指令范围内的事" and "无丢行" is to append. Let me go with a hybrid: I'll insert them chronologically but carefully, since I'm the architect and should do it right.
+
+Wait, let me re-read the task instruction precisely:
+
+"①拼音轨 agent复盘/ouyangfeng/技能进化日志.md 为唯一真相源，中文轨【组织】agent复盘/欧阳锋/技能进化日志.md 的 #617/#653/#664/#669 四行并入"
+
+"并入" = merge in. It doesn't specify position. Given the file is a cumulative log and the four rows have dates, the natural reading is "make sure these four rows end up in the pinyin track."
+
+I'll do a chronological insertion to be clean, but I'll do it via a careful scripted approach that:
+1. Reads pinyin file.
+2. Inserts the 4 rows at appropriate positions based on date.
+3. Writes back.
+
+Actually, let me simplify and reduce risk: I'll insert the four rows in their chronological positions by matching on the date-prefix of each line. But the messy `||` joined lines complicate this.
+
+Let me step back and think about the cleanest correct result:
+
+The pinyin file's table region (lines 205-301) contains rows. Many are single-row-per-line, some are multi-row-per-line (joined by `||`). The dates are roughly ascending. The 09-02 entry (#617) should go right before the first 09-03 entry.
+
+Let me find the exact line where 09-03 entries begin. From what I saw, line 292 is the last of the 08-xx entries? No wait, line 292 contains "...| #620/#625/#623 终审实战 || 2026-09-03 | #632 R1 复审...". So line 292 already contains a 09-03 entry (#632) after an 08-2x entry.
+
+This means the boundary is WITHIN line 292. Ugh.
+
+OK, given this mess, the cleanest approach that avoids touching the messy multi-entry lines is:
+
+**Append the 4 rows at the end, each on its own line, in chronological order.** Then add a marker/note is NOT needed.
+
+Actually, you know what, let me reconsider whether "no lost rows" verification is the key deliverable, and just do the straightforward thing. The task is a self-service merge. I'll:
+
+1. Append the 4 rows (each on its own line) to the end of the pinyin file, preserving exact text.
+2. In the Chinese track file, add an archive annotation at the top (or modify to mark frozen + merged), and/or move/rename. The task says "中文轨归档标注" — archive annotation on the Chinese track.
+
+Let me think about #2: "中文轨归档标注" — archive annotate the Chinese track. The existing DEPRECATED.md already says the 欧阳锋 directory is frozen (#367). But the Chinese track file still has content that needs a clear annotation that it's been merged into pinyin and frozen.
+
+What does "归档标注" mean here exactly? Based on the DEPRECATED.md precedent and the "cn-track-archive-20260819" convention, the archive annotation likely means:
+- Add a header/note to the Chinese track file `技能进化日志.md` marking it as "已冻结合并" (frozen & merged), pointing to the pinyin track as the single source of truth.
+- Possibly move it to an archive folder.
+
+The task says "②中文轨归档标注" (Chinese track archive annotation). The diag's suggestion #1 said "把中文轨 #617/#653/#664/#669 四行并入拼音轨后归档中文轨" — "归档中文轨" = archive the Chinese track.
+
+Given the existing `cn-track-archive-20260819/` folder exists under ouyangfeng (pinyin), and the 欧阳锋 dir already has DEPRECATED.md, the convention for "archive" here is likely: add a header note to the Chinese track file indicating it's frozen and merged, similar to DEPRECATED.md.
+
+I think the minimal correct action is:
+- Add an annotation to the top of `欧阳锋/技能进化日志.md` stating it's been frozen + merged into pinyin track on 2026-09-07, and its 4 rows (#617/#653/#664/#669) have been merged. Possibly rename/move the file into an archive.
+
+Actually, let me look at the DEPRECATED.md more carefully. It says "本目录已冻结（#367，2026-08-19）" and "原内容已完整移入拼音轨 cn-track-archive-20260819/". 
+
+Hmm, there's already a `cn-track-archive-20260819` in the ouyangfeng dir that contains the OLD Chinese track content (archived on 08-19). So the current `欧阳锋/技能进化日志.md` has NEWER rows (09-02 and 09-06) added AFTER the 08-19 freeze, which is the split-brain problem.
+
+So "归档标注" for the Chinese track file should:
+1. Mark the top of the file with a clear "已冻结 + 已并入拼音轨" annotation, so anyone reading it knows it's not the source of truth anymore.
+2. Possibly move the file to an archive location.
+
+The simplest, least-destructive: prepend an annotation block to the Chinese track file. Keep the file in place (don't move it, since the DEPRECATED.md already exists there and moving might break references). But wait, the task says "中文轨归档标注" not "移动中文轨". So annotation only.
+
+Actually, let me reconsider. "归档标注" = archive annotation/marking. The key deliverable is that the Chinese track file is clearly marked as archived/merged, so nobody continues writing to it. I'll add a header note to the Chinese track file.
+
+Let me now also handle Edit 3: update context.md step 0 pointer.
+
+Current text in `.agent/ouyangfeng-context.md`:
+```
+0. **🆕 更新技能进化日志** — 追加一行到 `桌面/agent复盘/欧阳锋/技能进化日志.md`：
+```
+
+Change to:
+```
+0. **🆕 更新技能进化日志** — 追加一行到 `桌面/agent复盘/ouyangfeng/技能进化日志.md`：
+```
+
+That's the pinyin track pointer.
+
+Now, about the "下次收尾落拼音轨实证" acceptance — this means I need evidence that the next closeout will fall to the pinyin track. This is satisfied by the context.md pointer change (Edit 3). The pointer is the mechanism. So after editing context.md, I have evidence.
+
+Now let me also verify the exact current content of the context.md step 0 to make a precise edit. I have it from the read:
+
+```
+### ⛔ 复盘强制动作（不执行=会话未完成）
+
+0. **🆕 更新技能进化日志** — 追加一行到 `桌面/agent复盘/欧阳锋/技能进化日志.md`：
+   | 日期 | 学到了什么 | 类型（新武器/方法升级/踩坑教训） | 来源 |
+   |:--|:--|:--|:--|
+   
+   只写一行。日志是累积的——每次会话加一行，不重写。
+```
+
+So I need to change `桌面/agent复盘/欧阳锋/技能进化日志.md` → `桌面/agent复盘/ouyangfeng/技能进化日志.md`.
+
+Now, there's an important nuance about file locations and encoding. The files on Desktop sibling (`C:\Users\Administrator\Desktop\agent复盘\...`) are OUTSIDE the vault. The task instruction says "一切操作在该目录下" (all ops under wiki dir). But the task itself explicitly references `agent复盘/...` paths that resolve to the Desktop sibling.
+
+Wait, let me reconsider. Is there ambiguity? The task says "拼音轨 agent复盘/ouyangfeng/技能进化日志.md". Inside the vault, `agent复盘/ouyangfeng` doesn't exist (I verified). On Desktop sibling, `agent复盘/ouyangfeng/技能进化日志.md` exists. And the context.md uses `桌面/agent复盘/...` which clearly means Desktop sibling.
+
+So the files to edit are on Desktop sibling, NOT in the vault. But the context.md file IS in the vault (`.agent/ouyangfeng-context.md`).
+
+Hmm, but the user instruction at the top says "工作目录 C:\Users\Administrator\Desktop\wiki（先 cd 进去，一切操作在该目录下）". This might mean "cd into the wiki dir first, all operations happen under this directory." But the merge targets are clearly on the Desktop sibling per the established convention (context.md says `桌面/agent复盘/...`).
+
+Let me verify: is the Desktop sibling `agent复盘` actually a separate git repo? The listing showed `agent复盘/.git` exists. So `C:\Users\Administrator\Desktop\agent复盘` is itself a git repo (separate from the wiki vault).
+
+This is important for the "备份避让" and git worktree considerations. But my operations are simple file edits + annotation, not stash/worktree operations.
+
+Let me reconcile: The task explicitly says to edit `agent复盘/ouyangfeng/技能进化日志.md` and `agent复盘/欧阳锋/技能进化日志.md`. Given the context.md convention uses `桌面/agent复盘/`, these paths resolve to `C:\Users\Administrator\Desktop\agent复盘\`. So I must edit those files there.
+
+The "一切操作在该目录下" likely just means "cd into wiki first, do work from there" — but the actual target files are on Desktop sibling per the task's own specification and the existing convention. The task's acceptance criteria and diag both reference these paths.
+
+Actually wait, let me reconsider. Let me re-read: the diag says "拼音轨 `agent复盘/ouyangfeng/技能进化日志.md`（#367 确认的唯一真相源）". And "memory-registry.md 表（行 24/行 60）指向拼音轨". Let me check memory-registry.md to see EXACTLY what path it records for the pinyin track — that will disambiguate whether it's the vault-relative or Desktop-sibling path.
+
+Let me read memory-registry.md rows around 24 and 60.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "@'
+import sys, io
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+with open('20_memory/memory-registry.md', encoding='utf-8') as f:
+    lines = f.read().splitlines()
+print('TOTAL', len(lines))
+for i in range(len(lines)):
+    n = i+1
+    if n in (24, 60) or (18 <= n <= 28) or (55 <= n <= 65):
+        print(f'{n:4d}|{lines[i]}')
+'@ | python -" in C:\Users\Administrator\Desktop\wiki
+ succeeded in 272ms:
+TOTAL 66
+  18||:--|:--|:--|
+  19|| 当前任务/队列状态 | `70_product/tasks/production-queue.md` | 队列尾为最新；dashboard 是派生物 |
+  20|| 任务单 | `60_feedback/tasks/task_*.md` | 队列行引用为准 |
+  21|| 组织记忆（会话复盘） | `agent复盘/<pinyin>/daily-context/` 内最新日期文件 | Truman 10 章唯一格式（agent-os.md §10）；中文旧轨已冻结（#367，归档于拼音轨 `cn-track-archive-20260819/`） |
+  22|| 错误模式 | `agent复盘/<agent>/错误模式库.md` | 复盘时同步更新 |
+  23|| 用户反馈/红线 | `agent复盘/<agent>/用户反馈档案.md` | 同上 |
+  24|| 技能进化 | `agent复盘/<agent>/技能进化日志.md` | 同上 |
+  25|| 角色协议 | `agents/agent-os.md` + `.agent/<role>-context.md` | 改动走任务制 |
+  26|| 角色定义 | spec 真相源=`30_wiki/agent-specs/agent-spec-<role>.md`；运行时指令=`.agent/<role>-context.md` | 分工 #370 定：spec 管"是什么/边界"，context 管"怎么跑" |
+  27|| 启动入口 | 现多入口，#366 收敛为 `.kdo/CAPSULE_STARTUP.md` 唯一指针 | 过渡期中 |
+  28|| 工具/脚本真相源 | `kdo-tools/`（登记处 `40_outputs/code/scripts/README.md` 只放指针） | #359 裁定：禁止副本 |
+  55|
+  56|| 废弃项 | 位置 | 处置 |
+  57||:--|:--|:--|
+  58|| `新建文件夹`、`新建文件夹 (2)` | `agent复盘/` | #367 批次冻结归档 |
+  59|| `laowantong-next-tasks.md` | `70_product/tasks/` | 同上（context.md 已声明废弃） |
+  60|| 中文双轨目录（`欧阳锋/`、`黄药师/`、`老顽童/` 等） | `agent复盘/` | #367 冻结 7 天观察后归档 |
+  61|| `daily_cognitive_review` 七节式、`.agent/daily-review` 四段式 | 各 agent 目录 | 已废弃格式（#368 定标后统一） |
+  62|| 登记副本 tools.py/server.py 等 | `40_outputs/code/scripts/` | 已删除（#359），此处备案防复活 |
+  63|
+  64|---
+  65|
+
+The memory-registry.md uses `agent复盘/<agent>/技能进化日志.md` (row 24) and `agent复盘/<pinyin>/daily-context/` (row 21). These are vault-relative paths (relative to the vault root `C:\Users\Administrator\Desktop\wiki`). Wait — but the vault root's `agent复盘/` doesn't contain `ouyangfeng` or `欧阳锋`.
+
+Hold on. This is a key ambiguity. Let me reconsider. The memory-registry.md is INSIDE the vault (`20_memory/memory-registry.md`). Its path `agent复盘/<pinyin>/` is relative to... what? The vault root.
+
+But wait, the vault's `agent复盘/` dir only has: Kimi, fengqingyang, laowantong, wangyuyan, 洪七公, 老顽童. No ouyangfeng/欧阳锋.
+
+The Desktop sibling `C:\Users\Administrator\Desktop\agent复盘\` has: ouyangfeng, 欧阳锋, 黄药师, 老顽童, etc.
+
+So which one does the vault's `agent复盘/` refer to? There's clearly a relationship. Let me investigate: is the vault's `agent复盘` a symlink or git submodule pointing to the Desktop sibling? Or is the Desktop sibling a separate repo?
+
+Actually, wait. Let me check more carefully. Earlier when I listed the vault root, I saw `agent复盘` as a directory. And separately, the Desktop has `agent复盘` as a directory (sibling of wiki). These could be the SAME directory via symlink/junction, OR two different directories.
+
+Let me check if `C:\Users\Administrator\Desktop\wiki\agent复盘` and `C:\Users\Administrator\Desktop\agent复盘` are the same (junction/symlink).
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "@'
+import os, sys, io
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+a = r'C:\\Users\\Administrator\\Desktop\\wiki\\agent复盘'
+b = r'C:\\Users\\Administrator\\Desktop\\agent复盘'
+print('vault agent复盘 exists:', os.path.isdir(a))
+print('desktop agent复盘 exists:', os.path.isdir(b))
+# are they same? check realpath
+if os.path.exists(a):
+    print('vault realpath:', os.path.realpath(a))
+if os.path.exists(b):
+    print('desktop realpath:', os.path.realpath(b))
+# check if vault agent复盘 is a junction/reparse point
+import subprocess
+r = subprocess.run(['cmd','/c','dir','/AL',r'C:\\Users\\Administrator\\Desktop\\wiki'], capture_output=True, text=True)
+print('--- dir /AL wiki ---')
+print(r.stdout)
+print(r.stderr)
+'@ | python -" in C:\Users\Administrator\Desktop\wiki
+ succeeded in 298ms:
+vault agent?? exists: False
+desktop agent?? exists: False
+--- dir /AL wiki ---
+ Volume in drive C is 绯荤粺
+ Volume Serial Number is E00D-3451
+
+ Directory of C:\Users\Administrator\Desktop\wiki
+
+
+File Not Found
+
+
+The `agent复盘` Chinese characters got mangled again in the Python here-string (显示 `agent??`). The `cmd /c dir /AL` returned "File Not Found" meaning no junctions/symlinks directly under wiki? Actually `dir /AL` lists junctions/symlinks in the directory; "File Not Found" means none found (or the dir listing shows no reparse points).
+
+Wait, but `os.path.isdir(a)` returned False because the Chinese got mangled to `?` in the path. I need to use unicode escapes for the Chinese in the path.
+
+Let me redo with unicode escapes. `复盘` = 复 \u590d, 盘 \u76d8. So `agent复盘` = `agent\u590d\u76d8`.
+
+Also, the `cmd /c dir /AL` needs the actual Chinese path, but cmd might have encoding issues. Let me instead use Python's os.path.ismount or check reparse point via os.lstat.
+
+Actually, the key question is: are the two `agent复盘` directories the same or different? Let me check using unicode escapes and os.path.samefile / realpath.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "@'
+import os, sys, io
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+a = r'C:\\Users\\Administrator\\Desktop\\wiki\\agent\\u590d\\u76d8'
+b = r'C:\\Users\\Administrator\\Desktop\\agent\\u590d\\u76d8'
+print('vault agent复盘 exists:', os.path.isdir(a))
+print('desktop agent复盘 exists:', os.path.isdir(b))
+if os.path.exists(a):
+    print('vault realpath:', os.path.realpath(a))
+if os.path.exists(b):
+    print('desktop realpath:', os.path.realpath(b))
+try:
+    print('samefile:', os.path.samefile(a, b))
+except Exception as e:
+    print('samefile err:', e)
+'@ | python -" in C:\Users\Administrator\Desktop\wiki
+ succeeded in 251ms:
+vault agent?? exists: False
+desktop agent?? exists: False
+samefile err: [WinError 3] 系统找不到指定的路径。: 'C:\\Users\\Administrator\\Desktop\\wiki\\agent\\u590d\\u76d8'
+
+I made a mistake: I used a raw string `r'...\u590d...'` which treats `\u590d` literally as backslash-u-590d, not as a unicode escape. In Python, raw strings don't process unicode escapes. I need to use a normal string with `\u590d` OR use the actual characters via a different method.
+
+Let me use normal (non-raw) strings with `\u` escapes: `'C:\\Users\\Administrator\\Desktop\\wiki\\agent\u590d\u76d8'`. In a normal string, `\u590d` is processed as unicode escape.
+
+But wait — there's the PowerShell here-string issue. When I write `\u590d` in the here-string, it's just ASCII characters backslash-u-590d, which get passed to Python. Python then interprets `\u590d` as a unicode escape (in a normal string literal). That should work.
+
+Let me redo properly.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "@'
+import os, sys, io
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+a = 'C:\\\\Users\\\\Administrator\\\\Desktop\\\\wiki\\\\agent\\u590d\\u76d8'
+b = 'C:\\\\Users\\\\Administrator\\\\Desktop\\\\agent\\u590d\\u76d8'
+print('vault agent复盘 exists:', os.path.isdir(a), repr(a))
+print('desktop agent复盘 exists:', os.path.isdir(b), repr(b))
+if os.path.exists(a):
+    print('vault realpath:', os.path.realpath(a))
+if os.path.exists(b):
+    print('desktop realpath:', os.path.realpath(b))
+try:
+    print('samefile:', os.path.samefile(a, b))
+except Exception as e:
+    print('samefile err:', repr(e))
+'@ | python -" in C:\Users\Administrator\Desktop\wiki
+ succeeded in 270ms:
+vault agent?? exists: True 'C:\\Users\\Administrator\\Desktop\\wiki\\agent复盘'
+desktop agent?? exists: True 'C:\\Users\\Administrator\\Desktop\\agent复盘'
+vault realpath: C:\Users\Administrator\Desktop\wiki\agent复盘
+desktop realpath: C:\Users\Administrator\Desktop\agent复盘
+samefile: False
+

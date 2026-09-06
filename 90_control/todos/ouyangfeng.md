@@ -854,3 +854,5 @@
 
 - [2026-09-07 02:08] 终审 #668 laowantong-ai-kb-cards-promotion PASS A-（四重点核全过：①四节补齐 reuse_direction+quality_score+复用指引三节 v1.1 口径 11/11，permission_scope 正确未加 ②CONCEPT_CROSSCHECK×11 #542 提示制裁量通过（独立复跑 kdo pre-submit 11/11 PASS 0 FAIL，通用词/本批自产概念均无冲突）③查重四组无同主题旧卡（3 组首位本批卡/1 组无关卡，摘要③对隐性知识显性化组措辞过强）④自攻击+源锚 L48-62/L582-598/L2636-2638/L1004-1014/L1382-1390 零编造；非阻断注记：L598 行锚 off-by-2 实 L600、dk 卡语义检索不可达（dark-knowledges 0/332 未入 graph index→建议书 diag_20260907）；顺手 review_mark.py 收口 21 张停留卡（#668 11 张+#666 框架批 10 张——实测 10 张全 draft，非报告称 7+1 共 8 张，已按实证全收）- [2026-09-07 02:37] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
 - [2026-09-07 02:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#670（huangyaoshi 的单，挂审 5min）（事件驱动：有待终审）
+- [2026-09-07 02:57] 🔔 KDO 新提审 1 单：#670，请终审（新提审）
+- [2026-09-07 03:03] ✅ #672 技能进化日志双轨合并完工：拼音轨并入 #617/#653/#664/#669 四行（无丢行）+ 中文轨归档标注 + context 步骤0 指针改拼音轨，complete→pending_review 待王语嫣终审

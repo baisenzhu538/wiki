@@ -38,3 +38,4 @@
 2026-09-06 12:25｜wangyuyan｜#657｜队列行状态列 in_progress→queued（同上条破窗第二半：脚本读队列行列，第一半只修了任务单）｜同 #537 先例
 2026-09-06 12:44:32｜task=task_20260906_duanwangye-datapack-weblogin｜instance=duanwangye｜bypass=pending_review 阻塞（#504 审查等待期占位）｜reason=claim 绕过：队列前方还有 pending_review 任务未终审：#658 task_20260906_laowantong-encapsulation-t1。必须等它们 reviewed 后才能领取 task_20260906_duanwangye-datapack-weblogin
 2026-09-06 12:44:37｜task=task_20260906_hongqigong-datapack-vision｜instance=hongqigong｜bypass=pending_review 阻塞（#504 审查等待期占位）｜reason=claim 绕过：队列前方还有 pending_review 任务未终审：#658 task_20260906_laowantong-encapsulation-t1。必须等它们 reviewed 后才能领取 task_20260906_hongqigong-datapack-vision
+2026-09-07 02:54:27｜task=task_20260907_ouyangfeng-skilllog-merge｜instance=ouyangfeng｜bypass=pending_review 阻塞（#504 审查等待期占位）｜reason=claim 绕过：队列前方还有 pending_review 任务未终审：#670 task_20260906_huangyaoshi-card-status-flip。必须等它们 reviewed 后才能领取 task_20260907_ouyangfeng-skilllog-merge

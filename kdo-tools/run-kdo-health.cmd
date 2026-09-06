@@ -9,3 +9,5 @@ rem #549: daily token metering (delta cursor, no history backfill)
 "C:\Program Files\Python312\python.exe" kdo-tools\token_meter.py >> logs\kdo-health-cron.log 2>&1
 rem #592 R3: vault integrity check (worktree/bundle/offsite copy, anomalies to gate-blocked)
 "C:\Program Files\Python312\python.exe" 90_control\scripts\vault-integrity-check.py >> logs\kdo-health-cron.log 2>&1
+rem #671: graph index coverage probe (30_wiki dirs vs graph_state path_map, gaps to gate-blocked)
+"C:\Program Files\Python312\python.exe" 90_control\scripts\graph-index-coverage-probe.py >> logs\kdo-health-cron.log 2>&1
