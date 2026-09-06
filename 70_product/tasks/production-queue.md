@@ -551,7 +551,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#669 task_20260906_huangyaoshi-kdoquery-first-gate｜huangyaoshi｜提审 09-06 22:03｜60_feedback/tasks/task_20260906_huangyaoshi-kdoquery-first-gate.md~~ → 已终审 PASS A-（2026-09-06 欧阳锋）
 - ~~#666 task_20260906_laowantong-batch1c-cards｜laowantong｜提审 09-06 22:34｜60_feedback/tasks/task_20260906_laowantong-batch1c-cards.md~~ → 回声划销（09-06 23:15 王语嫣）：补材料后提审成功，#666 框架批现 pending_review（欧阳锋审中；case+dk 6 件留批 2）
 - ~~#668 task_20260906_laowantong-ai-kb-cards-promotion｜laowantong｜提审 09-07 01:43｜60_feedback/tasks/task_20260906_laowantong-ai-kb-cards-promotion.md~~ → 已终审 PASS A-（2026-09-06 欧阳锋）
-- #670 task_20260906_huangyaoshi-card-status-flip｜huangyaoshi｜提审 09-07 02:47｜60_feedback/tasks/task_20260906_huangyaoshi-card-status-flip.md
+- ~~#670 task_20260906_huangyaoshi-card-status-flip｜huangyaoshi｜提审 09-07 02:47｜60_feedback/tasks/task_20260906_huangyaoshi-card-status-flip.md~~ → 已终审 PASS A-（2026-09-06 欧阳锋）
 - #672 task_20260907_ouyangfeng-skilllog-merge｜ouyangfeng｜提审 09-07 03:02｜60_feedback/tasks/task_20260907_ouyangfeng-skilllog-merge.md
 - #671 task_20260907_huangyaoshi-dk-graph-index-gap｜huangyaoshi｜提审 09-07 03:09｜60_feedback/tasks/task_20260907_huangyaoshi-dk-graph-index-gap.md
 - #673 task_20260907_huangyaoshi-bundle-regen｜huangyaoshi｜提审 09-07 03:16｜60_feedback/tasks/task_20260907_huangyaoshi-bundle-regen.md
@@ -1256,7 +1256,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 667 | `task_20260906_wangyuyan-renyu-personal-batch` | 人域批诊断：老朱个人域 26 件（识己线，隐私面受控，产卡范围报老朱定） | claimed-wangyuyan | wangyuyan | 诊断报告+编排建议（MOC先行+五态对账） | #666 后 | `60_feedback/tasks/task_20260906_wangyuyan-renyu-personal-batch.md` | 人域纲领原料（老朱亲放）；欧阳锋终审 |
 | 668 | `task_20260906_laowantong-ai-kb-cards-promotion` | AI知识库 draft 卡族转正批（知识卡片公式/五维标注深挖法等——draft堆积两周检索失明治本） | reviewed | laowantong | 逐卡质检+提审转正+yaml升格链接 | #666 后（同角色排队） | `60_feedback/tasks/task_20260906_laowantong-ai-kb-cards-promotion.md` | 老朱晚问根因链治本；标签治理v1.1方法论基础；欧阳锋终审 |
 | 669 | `task_20260906_huangyaoshi-kdoquery-first-gate` | kdo query 第一优先门禁：宪法第六条+pre-submit 检索记录检查（WARNING→HARD）+grep 降级口径 | reviewed | huangyaoshi | 检查器两态实证+宪法v1.1三挂载同步+回归不红 | #656 后 | `60_feedback/tasks/task_20260906_huangyaoshi-kdoquery-first-gate.md` | 老朱直令「不信自律信门禁」；W11违例实证；欧阳锋终审 |
-| 670 | `task_20260906_huangyaoshi-card-status-flip` | 终审 PASS 后卡 status 自动翻转机制（#666 批 7 张停留 draft 实证——检索降权复现根因） | pending_review | huangyaoshi | 自动翻转实证+存量8张收口+回归不红 | 无 | `60_feedback/tasks/task_20260906_huangyaoshi-card-status-flip.md` | 老顽童 #668 发现（09-07）；欧阳锋终审 |
+| 670 | `task_20260906_huangyaoshi-card-status-flip` | 终审 PASS 后卡 status 自动翻转机制（#666 批 7 张停留 draft 实证——检索降权复现根因） | reviewed | huangyaoshi | 自动翻转实证+存量8张收口+回归不红 | 无 | `60_feedback/tasks/task_20260906_huangyaoshi-card-status-flip.md` | 老顽童 #668 发现（09-07）；欧阳锋终审 |
 | 671 | `task_20260907_huangyaoshi-dk-graph-index-gap` | graph_index 补录 dk 族 332 张（0/332 实证——图检索系统性失明，检索失明第三层根因） | pending_review | huangyaoshi | path_map 332/332+抽5召回+覆盖率探针 | 无 | `60_feedback/tasks/task_20260907_huangyaoshi-dk-graph-index-gap.md` | 欧阳锋建议书（09-07 王语嫣裁定立项 P1）；欧阳锋终审 |
 | 672 | `task_20260907_ouyangfeng-skilllog-merge` | 技能进化日志双轨合并（拼音轨唯一真相源，4行并入+context指针修正） | pending_review | ouyangfeng | 两轨合一无丢行+指针指向实证 | 无 | `60_feedback/tasks/task_20260907_ouyangfeng-skilllog-merge.md` | 欧阳锋自报建议书（王语嫣裁定采纳1+2）；欧阳锋终审 |
 | 673 | `task_20260907_huangyaoshi-bundle-regen` | bundle 备份过期 47.6h 处置（停摆排查+重新生成+阈值核实） | pending_review | huangyaoshi | 新bundle+integrity PASS+节拍恢复 | 无 | `60_feedback/tasks/task_20260907_huangyaoshi-bundle-regen.md` | vault-integrity 探针告警（09-07 王语嫣立项）；欧阳锋终审 |

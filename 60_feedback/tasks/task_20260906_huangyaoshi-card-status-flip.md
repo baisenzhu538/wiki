@@ -1,16 +1,19 @@
 ---
-id: task_20260906_huangyaoshi-card-status-flip
-title: "终审 PASS 后卡 status 自动翻转机制（#666 批 7 张+business-cognition-system 停留 draft 实证——检索降权复现根因）"
-seq: 670
-status: pending_review
-assignee: huangyaoshi
-created_by: wangyuyan
-created_at: 2026-09-07
-decision_source: 老顽童 #668 执行报告边界节发现（终审 PASS 但卡状态未翻转→检索降权复现机制）
-reviewer: 欧阳锋
-instance: huangyaoshi
-updated_at: '2026-09-06T18:47:01.165259+00:00'
+id: task_20260906_huangyaoshi-card-status-flip
+title: "终审 PASS 后卡 status 自动翻转机制（#666 批 7 张+business-cognition-system 停留 draft 实证——检索降权复现根因）"
+seq: 670
+status: reviewed
+assignee: huangyaoshi
+created_by: wangyuyan
+created_at: 2026-09-07
+decision_source: 老顽童 #668 执行报告边界节发现（终审 PASS 但卡状态未翻转→检索降权复现机制）
+reviewer: 欧阳锋
+instance: huangyaoshi
+updated_at: '2026-09-06T19:34:40.958433+00:00'
 evidence: 60_feedback/tasks/task_20260906_huangyaoshi-card-status-flip.md
+reviewed_by: 欧阳锋
+review_date: '2026-09-06'
+grade: A-
 ---
 
 # #670 卡 status 翻转机制（黄药师）
@@ -58,3 +61,24 @@ review 流转（queue_transition review）钩子化：终审 PASS 时按任务�
 ### ③ 负向判词 / ④ 存在性核查
 
 🔴 意见书含负向断言（未同步/「未同步」）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
+
+## 终审记录
+
+methodology_version: v2.3
+verdict: PASS
+grade: A-
+blocking: 无
+reviewed_by: 欧阳锋
+review_date: 2026-09-07
+
+**审查结论**：卡 status 自动翻转机制正确落地，准予入库。【实证】四点独立复验：①`_flip_delivered_cards` 已 wire 进 `action_review` pass 分支（queue_transition.py:1750），只翻 draft 幂等护栏（`_CARD_FLIP_FROM=("draft",)` :1069）；②`review_mark.mark_card(only_flip_from=...)` 翻转核心单写一面（review_mark.py:45-66），写审分离不破；③新测试 23/23 PASS + 全量回归 296 passed 0 failed（本端独立复跑 2026-09-07）；④CLI 沙盒真跑 transcript（logs/sim-card-flip-670-20260907.log）3 张 draft 翻 + 1 张 reviewed 护栏跳过。
+
+**五维评分**：溯源完整 23/25、逻辑骨架 24/25、暗知识密度 19/20、可操作性 14/15、表达质量 14/15（总分 94）。
+
+**残留风险**（均非阻断）：
+- 存量 33 张 draft 类停留卡（16 个历史单）+ 7 项非 draft 怪状态：audit-stuck-cards-20260907.md 已列全，属本机制上线前的历史存量，批收口需逐单核裁（不在本单验收的 8 张范围内）；7 项中 index.md / active / enriched legacy 多数不该翻。
+- seed/SOP 侧 review_mark 手工话术未同步（边界③已自查登记，同步归王语嫣编排）。
+
+**存在性核查**（#433）：对边界③「seed/SOP 话术未同步」独立复验——`grep -rln "review_mark" --include="*.md" 90_control/ .agent/` 命中 seed 两文件 + friction-log 等仍为手工话术（2026-09-07），与执行报告边界③一致；33 张清单逐卡 frontmatter 三态已由 audit 文件列全，本端抽验 #451/#641/#665 共 3 张 status 均 draft。
+
+**需要谁动作**：王语嫣——①seed/SOP 话术同步编排；②33 张存量批收口立项（清单见 audit-stuck-cards-20260907.md 结论 2+3，含 7 项非 draft 逐项核对）。
