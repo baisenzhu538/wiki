@@ -1,0 +1,19 @@
+🟡 B级 自检通过，复盘已存档+双镜像。**#668 收工。**
+
+## 完工摘要
+
+**任务**：#668 AI知识库 draft 卡族转正批 → `pending_review` 待欧阳锋终审
+
+| 步骤 | 结果 |
+|:--|:--|
+| ①盘点 | 08-23 批 draft 卡 **11 张**（framework×7+concept×3+dk×1）；任务单 `grep domain: ai-knowledge` 单行口径 0 命中【实证】——字段实为 YAML 列表式，已修正口径施工 |
+| ②质检 | 「四节待补充」字面 0 命中=前提不成立【实证】；按 diag §二·五/§二·六 v1.1 落四节补齐：`reuse_direction`+`quality_score` frontmatter + 适用场景/可复用方式/注意事项三节（内容由卡内已有节提炼，零虚构）；查重 kdo query 4 组同义扩展无重复卡，#665 零交集 |
+| 自攻击 | 🔴0 / 🟡2 已修（「20 年商业经验」拔高→一二十年+L1476 锚；L598 释义包装成引文→转述+逐字原话）/ 🟢3 修 2，CONCEPT_CROSSCHECK×11 留终审裁量；另抓出**首轮核查脚本假 0**（Windows 反斜杠路径过滤空转 0 卡）——重跑实核 related 60 条死链 0、source 44 条缺失 0、引语锚点回验 3/3 |
+| ③提审转正 | 11 卡 `status: draft→pending_review`（reviewed_by 待审不动）；pre-submit **11/11 PASS 0 FAIL**；`kdo index --incremental` 后检索复测【未审 draft】标记消失——**检索失明清偿** |
+| ④v1.1 合并 | 卡侧完成（复用指引节登记方法论引用源）；规范侧回填留王语嫣 |
+| ⑤yaml 升格 | `标签示例.yaml:1-65` 进 11 卡 source_refs + aliases；顺手修 SOURCE_RANGE 越界 10 卡（逐字稿实 1043 行/口述实 2750 行） |
+| 流转 | complete 过 E040 交付物门禁；L9 三落盘验过（status/队列行/frontmatter 均 pending_review）；todos 01:45 落账 |
+
+**上浮事项**（任务单「需要谁动作」）：#666 批 7 卡+ai-business-cognition-system 终审 PASS 后卡状态未翻转——draft 停留→检索降权复现的管线缺口，建议欧阳锋终审 checklist 化或黄药师加 gate 校验。
+
+**新增错误模式 E024**：核查空集通过≠检查存在——每个 0 都要带分母。
