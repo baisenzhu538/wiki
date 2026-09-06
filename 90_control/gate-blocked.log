@@ -748,3 +748,5 @@
 2026-09-06 12:22:00｜role-liveness｜wangyuyan 全实例疑似死亡（stale: [('kimi-cli', 761.8), ('hermes', 6489.4), ('cli', 2022.1)]）｜role_registry check-liveness｜role_registry
 2026-09-06 12:26:47｜task_20260906_laowantong-encapsulation-t1｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
   - untracked: python 40_outputs/code/scripts/scan_skills_｜laowantong
+2026-09-06 12:37:01｜diag_20260906_wangyuyan-datapack-alignment.md｜near-miss-三元组（#506）｜有 audience 但 status=pending-alignment（应 pending_orchestration）｜conveyor_probe
+2026-09-06 12:39:26｜task_20260906_huangyaoshi-channel-health-fallback｜F-035-意见书｜任务单缺少「## 终审记录」节（#429 F-035：审查意见必须落盘，口头/群里意见=未审查）｜欧阳锋

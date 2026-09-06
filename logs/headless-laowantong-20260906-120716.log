@@ -1,0 +1,24 @@
+**#658 完工，已提审 pending_review（双落盘验证过）。**
+
+## 交付
+6 件高频基建 skill 壳落 `40_outputs/capabilities/skills/shared/`，脚本本体零改动：
+
+| 壳 | 封装对象 | 核心内容 |
+|:--|:--|:--|
+| `queue-transition` | queue_transition.py | 六动作全命令+参数表、seq 寻址（#645/#647）、--sequence（#655）/--force 台账、F-034 五字段锚词、E040 入仓、complete 后 30 秒回验 |
+| `kimi-headless-launch` | kimi-headless-launch.py | 通道↔真实模型对照表、探针形态、fallback 同上游去重、全死 exit 2 不硬派、0 字节日志/HERMES_PROFILE 坑 |
+| `review-chain` | daily-context-save + review-check | 11 章标题逐字清单、🟢A/🟡B/🔴C 硬指标、--file 优先姿势、双写落盘路径 |
+| `oral-transcript-trio` | scan-demo-sections + transcript-index | 信号词扫描/--compile/怀疑区、build/search、`_processed/` 落点、W1 逐字读红线 |
+| `transcribe-win` | transcribe_win.py | 三档模型选档纪律、--prompt 数字漂移副作用、RTF 耗时预算与 #649 动态 timeout 语义、hf-mirror 下载 |
+| `intake-registry` | watch_inbox + conveyor_probe | 扫描面/登记段结构/SOFT_CAP/--seed-top-dirs 风险、探针只登记不流转边界、E059 逐行身份核验划销 |
+
+## 硬验收：狗粮实测 6/6 通过（记录已附任务单）
+status/myqueue、拉起器 `--force-dead`（exit 2+同上游去重生效+log 留痕）、review-check（🟡 B级 11/11章）、扫描实测宣讲会稿 32 处演示段+索引 712 段+search「封装」命中 L340/L552、transcribe 真实转写 exit 0（tiny 把「老顽童」转成「老丸同」，反向实证选档纪律）、watch_inbox 幂等一拍+conveyor_probe `--dry-run --json` 纯 JSON。pre-submit 6/6 PASS，INDEX.md 已刷新（79→85，含 6 件新条目）。
+
+## 边界与上报（未擅自改，交对应角色）
+- 【实证】`90_control/channel-model-map.md` 被脚本 docstring 与 #656 任务单引用但 vault 内不存在（find 仅 3 处引用 0 实体）→ 壳内注明以 TOOLS 表注释为准，补表建议黄药师立项核实 relay/claude 账号归属。
+- pre-submit 对 SKILL.md 的 `title`/`tags:audience:/scene:` 必填口径无登记文档（6 件首跑全 FAIL），报错文案是唯一教学面 → 建议文档化。
+- 机器预审 ④ 标了「负向判词无存在性核查锚点」——实际锚点已内联在边界节（find 命令+日期），属格式误报，留给欧阳锋终审对照。
+- 6 壳现均「无主」（登记制引用即挂载），是否挂进各角色 spec 待王语嫣裁量。
+
+收尾已闭环：todos 落账、Truman 11 章复盘（🟡 B级·检索有发现，实例分文件未覆盖今晨班）、技能进化日志、friction-log 各一行。
