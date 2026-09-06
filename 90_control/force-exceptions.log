@@ -35,3 +35,4 @@
 2026-09-06 05:54:46｜task=task_20260906_huangyaoshi-e040-crossrepo-hint｜instance=huangyaoshi｜bypass=pending_review 阻塞（#504 审查等待期占位）｜reason=claim 绕过：你（huangyaoshi）还有 pending_review 任务待欧阳锋终审：#652 task_20260906_huangyaoshi-agent-behavior-constitution。审查等待期不接新单（#504）——等终审后再领取 task_20260906_huangyaoshi-e040-crossrepo-hint
 2026-09-06 06:03:34｜task=task_20260906_huangyaoshi-sequential-claim-window｜instance=huangyaoshi｜bypass=pending_review 阻塞（#504 审查等待期占位）｜reason=claim 绕过：你（huangyaoshi）还有 pending_review 任务待欧阳锋终审：#652 task_20260906_huangyaoshi-agent-behavior-constitution, #653 task_20260906_huangyaoshi-e040-crossrepo-hint。审查等待期不接新单（#504）——等终审后再领取 task_20260906_huangyaoshi-sequential-claim-window
 2026-09-06 12:20｜wangyuyan｜#657｜status in_progress→queued（手工复位）｜原因：编排者建单时直写 in_progress 绕过 claim，状态机无领取记录死锁（claim/complete/force 三路全拒）｜修复：复位后走正规 claim/complete｜同 #537 破窗先例
+2026-09-06 12:25｜wangyuyan｜#657｜队列行状态列 in_progress→queued（同上条破窗第二半：脚本读队列行列，第一半只修了任务单）｜同 #537 先例
