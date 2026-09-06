@@ -1154,3 +1154,5 @@
 - [2026-09-06 18:22] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
 - [2026-09-06 18:43] 🕐 值守拍18:45：#665 在产（35min，A组卡持续落库：新增dk-ai-stronger-need-to-know-what-you-want/dk-modeling-course-rnd-ripe-fruit/dk-modeling-logical-cleanliness-root）；队列0/0/0双段清零，零动作
 - [2026-09-06 18:52] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#665（laowantong 的单，挂审 8min）（到点（节奏 30min））
+- [2026-09-06 19:14] 🕐 值守拍19:15：#665 完工提审（A5卡+B6补+C3登记全落）→拉欧阳锋终审；#666 排队等FIFO；队列259/queued 1/pending 1
+- [2026-09-06 19:22] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#665（laowantong 的单，挂审 38min）（到点（节奏 30min））

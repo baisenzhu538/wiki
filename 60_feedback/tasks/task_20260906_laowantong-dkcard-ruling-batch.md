@@ -69,3 +69,61 @@ dk 卡 1-3 词核心维度（#498）/定位声明/行号锚/六维标签/self-at
 ### ③ 负向判词 / ④ 存在性核查
 
 ✅ 执行报告无负向断言词（检查面=执行报告节）
+
+## 终审记录（欧阳锋 2026-09-06）
+
+**methodology_version**: v2.3
+**verdict**: PASS
+**grade**: A-
+**blocking**: 无
+**residual_risks**: 王语嫣轴词审（M-07「骄傲感」建模域认知警示新词）；M-69 补强声明 grep 词引用与候选清单口径一处不一致（🟢 内容级，见下）
+
+### O0 溯源自检
+
+本端独立打开 5 张 dk 卡 source_refs 源文件逐行回验：`00_inbox/建模能力/一堂-建模能力培训-truman-口述.txt`（4444 行）+ `00_inbox/讲香基本功-李頔-260731/讲香基本功-李頔-260731-口述.txt`（2810 行）。主引语 12 处逐字命中（M-07 L3824-3832 / M-58 L3804-3806 / J-32 L1656-1674 / J-51 L2656-2662+L2704 / M-44 L2982-2988）；B 组 6 宿主 + C 组 2 注记卡 git diff 全读（numstat 0 删除纯追加）；c4-38 全库 grep。**非未溯源下结论**。
+
+### 四重点核（任务指令 ①②③④⑤）
+
+**① 5 张 dk 卡与拍板候选一一对应【实证】**
+- M-07 → `dk-modeling-untrained-first-pride-cost`，L3824-3832 命中（内部两次会→骄傲感→宁慢勿快）
+- M-58 → `dk-modeling-checklist-working-medium`，L3804-3806 命中（清单体=工作介质）
+- J-32 → `dk-jiangxiang-origin-story-mental-coordinate-system`，L1656-1674 命中（《一虎》奇谈→心理的坐标系；ASR「楚门/2020分」已加注）
+- J-51 → `dk-ai-stronger-need-to-know-what-you-want`，L2656-2662+L2704 命中（ASR「奖项」→「讲香」校词注记在位）
+- M-44 → `dk-strategy-meeting-quality-friction-signal`，L2982-2988 命中（开开心心≈质量不高）
+五卡与候选清单 §5 A 优先行一一对应，源锚与 §2 各行一致。
+
+**② dk 1-3 词核心维度（#498）【实证】**
+五卡内容词（去来源维度「口述」+ audience/scene/skill-level/method 前缀）均 1-3 词且在域轴内：M-07 建模/避坑（modeling 专业+经验）、M-58 建模/方法（专业+性质）、J-32 方法/实证（性质）、J-51 协作/刻意练习（ai-collab 对象+经验）、M-44 战略/机制/实证（strategy 专业+性质）。#498「1-3 词」满足；方法轴/场景轴由 method:/scene: 前缀 + 内容词覆盖。M-07「骄傲感」认知警示新词入轴已在任务单标注交王语嫣，不属本单缺陷。
+
+**③ B 组 6 补强真落既有卡（非整卡重写）【实证】**
+git diff 4179de376..d941b99a1 numstat：6 宿主全部 0 删除、纯追加（+14/+15 行），均为「09-06 拍板批补强」独立节（来源锚+增量声明+补强点），宿主原文零改动。M-16→`dk-modeling-logical-cleanliness-root`、M-26→`case-truman-personal-growth-map-creation`、M-62→`case-yitang-double-triangle-confidence`、M-66→`modeling-capability-system`、M-68→`case-yitang-education-supply-chain`、M-69→`framework-education-protracted-war`。
+
+**④ C 组 3 登记在台账【实证】**
+候选清单 `a1-batch1bc-greprerun-decision-list.md` 已登记节 3 行齐（M-65/M-67/S-5），处置列含台账锚+相关卡注记；2 处一行注记落卡（M-65→`dk-modeling-course-rnd-ripe-fruit`、S-5→`method-dual-triangle-human-ai-division`，均 0 删除）；M-67 无自然宿主声明附存在性核查锚点（grep "AI 探索状态|岁数不重要" 0 命中，本端复跑确认）。
+
+**⑤ 伦理 c4-38 未入库【实证】**
+grep "c4-38" 30_wiki/ → 0 命中；grep "黑箱话术" 30_wiki/ → 0 命中；批 1c 台账 c4-38 行已注「老朱 09-06 裁定：选 a 不入库（与实事求是准则冲突；原话留本台账不进 30_wiki）」。
+
+### 三处执行裁量裁定（任务单「需要谁动作」重点）
+
+1. **M-69 宿主路由偏差——接受**【实证】：task 原写「挂 concept 族」，实测库内无承载学科愿景的 concept 卡（grep "瑞典/常识级别/全世界享" 0 命中，本端复跑）；最邻近宿主 `framework-education-protracted-war` L89 已含「创建至少持续百年的创业管理学科」背景句，卡内+台账双处声明留痕，偏差合理。
+2. **M-67 无自然宿主——成立**【实证】：grep "AI 探索状态|岁数不重要" 0 命中；招人/用人标准无专卡；最近邻 `dk-lz-ai-native-organization` 讲组织结构不讲用人标准；只登记不挂卡正确。
+3. **M-07 操作方法#1【推断】判据层级——合适**：源稿只给「完全不懂/从来没练过」定性、未给检验动作；「当场从零建最小模型」为操作化推断已如实标注【推断】，不阻断。
+
+### 附带发现（🟢 非阻断，内容级）
+
+- M-69 补强声明写 grep "常识级" 0 命中，候选清单原口径为「常识级别」（含「别」字）。「常识级」三字实存于 `yt-tool-business-formula-expert-interview-10.md`（「常识级答案」，异义）。实质结论（无 concept 卡承载学科愿景）不受影响；建议下次引用与清单口径一致写「常识级别」。内容级瑕疵，不阻断、不单立建议书。
+
+### 审查结论
+
+四重点核全过 + 三处裁量全接受。A 组 5 dk 卡六节结构/定位声明/行号锚/六维标签/自攻击全合规；self-attack 2🟡（J-51 ASR 校词、M-65 登记行校词）均当场修复并复跑（本端核实修复注记在位）。放行。
+
+### 放行条件（residual_risks / 需要谁动作）
+
+- 王语嫣：轴词审词入轴备选——M-07「骄傲感」（modeling 域认知警示新词）；本单通过信息抄送。
+- 老顽童：无返工项；#666 按 FIFO 接续（不在本单）。
+- 黄药师：无基建动作。
+
+### 五维评分
+
+溯源完整 24/25、逻辑骨架 24/25、暗知识密度 19/20、可操作性 14/15、表达质量 14/15，合计 95/100 → A-

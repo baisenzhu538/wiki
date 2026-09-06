@@ -827,3 +827,4 @@
 - [2026-09-06 18:47] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#665（laowantong 的单，挂审 3min）（事件驱动：有待终审）
 - [2026-09-06 19:02] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#665（laowantong 的单，挂审 18min）（事件驱动：有待终审）
 - [2026-09-06 19:12] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#665（laowantong 的单，挂审 28min）（事件驱动：有待终审）
+- [2026-09-06 19:22] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#665（laowantong 的单，挂审 38min）（事件驱动：有待终审）
