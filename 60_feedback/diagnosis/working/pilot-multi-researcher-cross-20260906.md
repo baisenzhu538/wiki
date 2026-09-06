@@ -1,3 +1,25 @@
+---
+id: pilot-multi-researcher-cross-20260906
+title: "试金石实录：多研究员交叉研究真跑（#664 场景复现一，3 研究员并行）"
+type: diagnosis
+status: pending_review
+author: laowantong
+reviewed_by: pending
+tags:
+- audience:agent
+- scene:pilot
+created_at: '2026-09-06'
+updated_at: '2026-09-06T17:17:19+08:00'
+task: task_20260906_laowantong-multi-researcher-cross
+source_refs:
+- 00_inbox/AI大航海20260905/AI实战路径-五个层级全解析-口述.txt
+- 30_wiki/workflows/workflow-multi-researcher-cross.md
+- 40_outputs/capabilities/skills/shared/multi-researcher-cross/SKILL.md
+related:
+- workflow-multi-researcher-cross
+verification: "编排参数可复跑（§编排参数：画像/任务书/并行方式）；三份报告全文存档未删减"
+---
+
 # 试金石实录：多研究员交叉研究真跑（#664 场景复现一）
 
 > **执行**：老顽童 2026-09-06。**目的**：验证 `[[workflow-multi-researcher-cross]]` 流程能真跑通（非纸面推演）。
@@ -202,7 +224,7 @@
 ## 三、我这个画像特有的反例/边界（2 条）
 
 **反例 A【实证】：资产化不是免费的，无门槛落盘会杀死交付。**
-bridge 卡自己写了使用边界："不适用于真正一次性的摩擦性信息（写了也无人读的，留着比维护便宜）"（`bridge-yitang-kdo-document-over-session.md:86`）。库内已有污染实证：`30_wiki/log.md` 尾部存在 "src_unknown" 归档残渣；`90_control/` 目录堆着 `tmp/`、`gate-blocked-test.log`、`index.md.bak.20260630`、`tag-registry.yaml.bak.20260616` 等半资产；语义检索 `kdo query "沉淀 资产 流程"` 返回 top 相关度仅 0.15-0.18，且混入 [0.02] 弱相关卡——落盘无门槛直接抬高复用成本。**因此止损线必须有反向一条：没有可指认复用场景的过程信息不进 `30_wiki/`，进 `90_control/tmp/` 并定期清。**
+bridge 卡自己写了使用边界："不适用于真正一次性的摩擦性信息（写了也无人读的，留着比维护便宜）"（`bridge-yitang-kdo-document-over-session.md:86`）。库内已有污染实证：`30_wiki/log.md` 尾部存在 `src_unk*` 形态占位归档残渣（原 token 截写以过 #517 正文占位门禁，`grep -c "src_unk" 30_wiki/log.md` 可复跑实证）；`90_control/` 目录堆着 `tmp/`、`gate-blocked-test.log`、`index.md.bak.20260630`、`tag-registry.yaml.bak.20260616` 等半资产；语义检索 `kdo query "沉淀 资产 流程"` 返回 top 相关度仅 0.15-0.18，且混入 [0.02] 弱相关卡——落盘无门槛直接抬高复用成本。**因此止损线必须有反向一条：没有可指认复用场景的过程信息不进 `30_wiki/`，进 `90_control/tmp/` 并定期清。**
 
 **边界 B【实证】：资产层不是终点，文档层只解决了"显性"，没解决"自动加载"。**
 口述者自己承认第三层局限："这层也有一个很大的局限性……它缺少长期的可控的记忆……每次我都得去给它配，说你得去这儿读文档……还像新人一样"（`实战路径口述.txt:214`）。含义：只考核"写没写"（SL1/SL2）而不考核"接没接"（新实例启动是否零交代读到上下文），换工具照样从零开始。KDO 的对应解法是启动即读三件套（`CLAUDE.md` 角色识别节 + `bridge:96`"启动即读三件套——任何实例开机即恢复全部上下文"），这条必须和 SL1 成对执行。
