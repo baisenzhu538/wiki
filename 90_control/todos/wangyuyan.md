@@ -1120,3 +1120,6 @@
 - [2026-09-06 13:07] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-06 13:06:19｜task_20260906_laowantong-audit-batch1｜F-034-五字段｜任务
 - [2026-09-06 13:19] 🕐 值守拍13:16：#658 PASS A-（六件skill壳含狗粮实测全过）；#659批1a交付超预期——建模4444行+讲香2810行逐字读/124条金矿/台账A级的证伪（同内容异路径漏计，我脚本弱点实锤）/漏挖22项候选——我抽验双签PASS落账；#660/#661 DataPack双试点同批提审→三单送欧阳锋(proc_198584)；#657等FIFO解锁
 - [2026-09-06 13:22] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#660（hongqigong 的单，挂审 28min）；#661（duanwangye 的单，挂审 28min）（到点（节奏 30min））
+
+- [2026-09-06 13:32] 【终审通过 #659/#660/#661】三单收官：laowantong-audit-batch1 PASS B（🔴漏挖候选清单产卡立项前需老顽童统一重跑 grep，#40/#24/#67 已卡化剔除/改判；§0.1 台账同内容异路径修正随你裁定）；hongqigong-datapack-vision PASS A-；duanwangye-datapack-weblogin PASS A-（datapacks 索引 README 陈旧「duanwangye-登录内容样本/待产」条目需你收口，index/infrastructure 登记归你线）——编排归你
+- [2026-09-06 13:37] ⚖️ KDO 已终审 3 单：#659, #660, #661（待部署/已闭环）

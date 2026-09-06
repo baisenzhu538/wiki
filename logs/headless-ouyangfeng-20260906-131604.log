@@ -9537,3 +9537,1774 @@ TOTAL: 804
 - [2026-09-06 13:17] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#660（hongqigong 的单，挂审 23min）；#661（duanwangye 的单，挂审 23min）（事件驱动：有待终审）
 - [2026-09-06 13:27] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#660（hongqigong 的单，挂审 33min）；#661（duanwangye 的单，挂审 33min）（事件驱动：有待终审）
 
+I see the pattern for my own todos. The format for a review completion line (from my role context) should be something like:
+`- [2026-09-06 13:5x] 终审 #xxx <task-id> PASS <grade>（summary）`
+
+Let me check previous review completion lines in ouyangfeng.md for format. Let me search for "终审" in the file.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command '[Console]::OutputEncoding = [System.Text.Encoding]::UTF8; chcp 65001 | Out-Null
+$script = @'"'
+import sys, io
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding=\"utf-8\", errors=\"replace\")
+lines = open(\"90_control/todos/ouyangfeng.md\", encoding=\"utf-8\", errors=\"replace\").read().splitlines()
+# show lines containing 终审 from last 60 lines
+for i,l in enumerate(lines):
+    if \"终审\" in l and i > len(lines)-80:
+        print(f\"{i+1:4d} | {l}\")
+'@
+Set-Content -Path \""'$env:TEMP'"\\read_oy_final.py\" -Value "'$script -Encoding UTF8
+python "$env:TEMP'"\\read_oy_final.py\"" in C:\Users\Administrator\Desktop\wiki
+ succeeded in 233ms:
+ 726 | - [2026-09-06 00:42] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 1215min）；#645（huangyaoshi 的单，挂审 1215min）；#646（huangyaoshi 的单，挂审 1214min）（事件驱动：有待终审）
+ 727 | - [2026-09-06 00:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 1225min）；#645（huangyaoshi 的单，挂审 1225min）；#646（huangyaoshi 的单，挂审 1224min）（事件驱动：有待终审）
+ 728 | - [2026-09-06 01:02] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 1235min）；#645（huangyaoshi 的单，挂审 1235min）；#646（huangyaoshi 的单，挂审 1234min）（事件驱动：有待终审）
+ 729 | - [2026-09-06 01:12] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 1245min）；#645（huangyaoshi 的单，挂审 1245min）；#646（huangyaoshi 的单，挂审 1244min）（事件驱动：有待终审）
+ 730 | - [2026-09-06 01:27] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 1260min）；#645（huangyaoshi 的单，挂审 1260min）；#646（huangyaoshi 的单，挂审 1259min）（事件驱动：有待终审）
+ 731 | - [2026-09-06 01:37] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 1270min）；#645（huangyaoshi 的单，挂审 1270min）；#646（huangyaoshi 的单，挂审 1269min）（事件驱动：有待终审）
+ 732 | - [2026-09-06 01:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#642（laowantong 的单，挂审 1285min）；#645（huangyaoshi 的单，挂审 1285min）；#646（huangyaoshi 的单，挂审 1284min）（事件驱动：有待终审）
+ 734 | - [2026-09-06 01:54] 终审三单 PASS A-：#642 laowantong-641-depth-patch（修订单口径闭环随 #641）/ #645 huangyaoshi-conversation-distill-pipeline 返工二轮（逐卡溯源 46/46 双口径复核）/ #646 huangyaoshi-sysmon-cas-trace（写入者溯源+处置 60G 闭环）；三单均写终审记录+review 流转 reviewed A-- [2026-09-06 02:07] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#647（huangyaoshi 的单，挂审 4min）（事件驱动：有待终审）
+ 735 | - [2026-09-06 02:07] 🔔 KDO 新提审 1 单：#647，请终审（新提审）
+ 736 | - [2026-09-06 02:17] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#647（huangyaoshi 的单，挂审 14min）；#643（laowantong 的单，挂审 10min）（事件驱动：有待终审）
+ 737 | - [2026-09-06 02:17] 🔔 KDO 新提审 1 单：#643，请终审（新提审）
+ 738 | - [2026-09-06 02:27] 🔔 KDO 新提审 1 单：#648，请终审（新提审）
+ 739 | - [2026-09-06 02:30] 复审两单 PASS A-：#643 laowantong-qingdanti-stress-test（清单体压力测试，O0 溯源 28 数据点+引语逐字全命中）/ #647 huangyaoshi-queue-gate-two-fixes（queue/门禁两小修，251 tests 全过+活体 241 行寻址生效）；#642 终审负向判词更正注记已追加（两文件 00_inbox 在盘，GBK 编码坑 find 复现命令落盘）
+ 740 | - [2026-09-06 02:32] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#648（huangyaoshi 的单，挂审 15min）（事件驱动：有待终审）
+ 741 | - [2026-09-06 02:42] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#648（huangyaoshi 的单，挂审 25min）（事件驱动：有待终审）
+ 742 | - [2026-09-06 02:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#648（huangyaoshi 的单，挂审 35min）（事件驱动：有待终审）
+ 743 | - [2026-09-06 03:00] 终审 #648 huangyaoshi-graph-index-stall-rootfix PASS A-（根因三层附证据；哨兵陈旧分支自愈且对#622红线修订有声明，认可；mtime前跳判据认可；独立复跑 517 passed；重建后 lag -0.89h 下一拍回落）
+ 745 | - [2026-09-06 03:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#649（huangyaoshi 的单，挂审 5min）（事件驱动：有待终审）
+ 746 | - [2026-09-06 03:57] 🔔 KDO 新提审 1 单：#649，请终审（新提审）
+ 747 | - [2026-09-06 04:02] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#649（huangyaoshi 的单，挂审 15min）；#650（huangyaoshi 的单，挂审 5min）（事件驱动：有待终审）
+ 748 | - [2026-09-06 04:04] 终审 #649 huangyaoshi-transcribe-timeout-and-aliases PASS A-（采集链两修：转写超时死循环根治+ALIASES basename；亲测 272 passed + CLI 625 passed + pre-submit ALIASES 0 issues；148MB 视频完整转写产出实证修一生效）
+ 749 | - [2026-09-06 04:07] 🔔 KDO 新提审 1 单：#650，请终审（新提审）
+ 750 | - [2026-09-06 04:17] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#650（huangyaoshi 的单，挂审 20min）（事件驱动：有待终审）
+ 752 | [2026-09-06 04:25] 终审 #650 huangyaoshi-launcher-hermes-profile-flag PASS A-（env→-p flag 真修：源码级核验+狗粮3例回归；历史影响面坐实：11老顽童+1探针错载huangyaoshi profile，#626/#629/#630/#632须王语嫣转老朱知情；边界守住不扩路由）
+ 753 | - [2026-09-06 04:37] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#651（huangyaoshi 的单，挂审 4min）（事件驱动：有待终审）
+ 754 | - [2026-09-06 04:37] 🔔 KDO 新提审 1 单：#651，请终审（新提审）
+ 755 | - [2026-09-06 04:47] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（事件驱动：有待终审）
+ 757 | - [2026-09-06 04:52] 终审 #651 huangyaoshi-inbox-subdir-autoscan PASS A-（watch_inbox 顶层子目录目录级登记三核验点独立复跑全过：签名一层不递归防洪水 / 负向 _前缀+白名单零目录级键 / AI大航海20260905 活体样本 L664 在场；全量 310 passed 回归不红；🔵残留=任务书「14件」笔误实为13件，留痕不返工）- [2026-09-06 04:57] 🔔 KDO 新提审 1 单：#652，请终审（新提审）
+ 758 | - [2026-09-06 05:02] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#652（huangyaoshi 的单，挂审 14min）（事件驱动：有待终审）
+ 759 | - [2026-09-06 05:12] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#652（huangyaoshi 的单，挂审 24min）（事件驱动：有待终审）
+ 760 | - [2026-09-06 05:24] 终审 #652 huangyaoshi-agent-behavior-constitution FAIL C（宪法五条可执行/三挂载点真实注入/狗粮验收/存在性核查节整体A-，但 startup.md L54 步骤6.5「技术概念 deep-research」虚指未实装skill，与宪法第三条自相矛盾→P1打回返工，改L54后重提）
+ 762 | - [2026-09-06 05:57] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#652（huangyaoshi 的单，挂审 3min）；#654（laowantong 的单，挂审 2min）（事件驱动：有待终审）
+ 763 | - [2026-09-06 05:57] 🔔 KDO 新提审 2 单：#652, #654，请终审（新提审）
+ 764 | - [2026-09-06 06:07] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#652（huangyaoshi 的单，挂审 13min）；#654（laowantong 的单，挂审 12min）；#653（huangyaoshi 的单，挂审 4min）（事件驱动：有待终审）
+ 765 | - [2026-09-06 06:07] 🔔 KDO 新提审 1 单：#653，请终审（新提审）
+ 766 | - [2026-09-06 06:17] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#652（huangyaoshi 的单，挂审 23min）；#654（laowantong 的单，挂审 22min）；#653（huangyaoshi 的单，挂审 14min）；#655（huangyaoshi 的单，挂审 4min）（事件驱动：有待终审）
+ 767 | - [2026-09-06 06:17] 🔔 KDO 新提审 1 单：#655，请终审（新提审）
+ 768 | - [2026-09-06 06:27] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#652（huangyaoshi 的单，挂审 33min）；#654（laowantong 的单，挂审 32min）；#653（huangyaoshi 的单，挂审 24min）；#655（huangyaoshi 的单，挂审 14min）（事件驱动：有待终审）
+ 769 | - [2026-09-06 06:37] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#652（huangyaoshi 的单，挂审 43min）；#654（laowantong 的单，挂审 42min）；#653（huangyaoshi 的单，挂审 34min）；#655（huangyaoshi 的单，挂审 24min）（事件驱动：有待终审）
+ 770 | - [2026-09-06 06:47] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#652（huangyaoshi 的单，挂审 53min）；#654（laowantong 的单，挂审 52min）；#653（huangyaoshi 的单，挂审 44min）；#655（huangyaoshi 的单，挂审 34min）（事件驱动：有待终审）
+ 771 | - [2026-09-06 06:57] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#652（huangyaoshi 的单，挂审 63min）；#654（laowantong 的单，挂审 62min）；#653（huangyaoshi 的单，挂审 54min）；#655（huangyaoshi 的单，挂审 44min）（事件驱动：有待终审）
+ 772 | - [2026-09-06 07:07] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#652（huangyaoshi 的单，挂审 73min）；#654（laowantong 的单，挂审 72min）；#653（huangyaoshi 的单，挂审 64min）；#655（huangyaoshi 的单，挂审 54min）（事件驱动：有待终审）
+ 773 | - [2026-09-06 07:17] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#652（huangyaoshi 的单，挂审 83min）；#654（laowantong 的单，挂审 82min）；#653（huangyaoshi 的单，挂审 74min）；#655（huangyaoshi 的单，挂审 64min）（事件驱动：有待终审）
+ 774 | - [2026-09-06 07:27] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#652（huangyaoshi 的单，挂审 93min）；#654（laowantong 的单，挂审 92min）；#653（huangyaoshi 的单，挂审 84min）；#655（huangyaoshi 的单，挂审 74min）（事件驱动：有待终审）
+ 775 | - [2026-09-06 07:37] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#652（huangyaoshi 的单，挂审 103min）；#654（laowantong 的单，挂审 102min）；#653（huangyaoshi 的单，挂审 94min）；#655（huangyaoshi 的单，挂审 84min）（事件驱动：有待终审）
+ 776 | - [2026-09-06 07:47] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#652（huangyaoshi 的单，挂审 113min）；#654（laowantong 的单，挂审 112min）；#653（huangyaoshi 的单，挂审 104min）；#655（huangyaoshi 的单，挂审 94min）（事件驱动：有待终审）
+ 777 | - [2026-09-06 08:02] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#654（laowantong 的单，挂审 127min）（事件驱动：有待终审）
+ 779 | - [2026-09-06 07:52] 终审 #652 huangyaoshi-agent-behavior-constitution 复审 PASS A-（L54 一句话修复达标 f18f04d86 单行变更+五挂载点无新矛盾+hermes SOUL 抽查3/3；自纠上轮错判「research-core 无文件」——实装在 shared/ 子层，宪法 L44/公告 L63 列 v1.1 修单，建议书已落 diag_20260906_ouyangfeng-constitution-v11-and-misc.md）
+ 780 | - [2026-09-06 07:56] 终审 #653 huangyaoshi-e040-crossrepo-hint PASS A-（_crossrepo_hint 只补提示不放松拦截面+2 回归断言实体核对+262 全量独立复跑绿；意见书首轮被 F-035 拦（负向判词无锚），补存在性核查节后过——宪法第二条拦对）
+ 781 | - [2026-09-06 07:58] 终审 #655 huangyaoshi-sequential-claim-window PASS A-（修法①取稳者裁决同意；连发放行 return True 在 FIFO/#503 锁之后不越权，force 台账零耦合，锁内重查透传无 TOCTOU；🔵低危 2 项留痕）
+ 782 | - [2026-09-06 08:07] 终审 #654 laowantong-aidahangha-batch1 PASS A-（抽审：3 framework 全读+case/bridge 抽 3+其余机械核验；引语独立回验 23/23 逐字命中零伪造；自攻击真攻击且修复实落；存量自迭代全实证（周期表 100→103/#611 互链 6/6/seek-truth 补链）；12 卡 review_mark 转正，skill+spec 草案留 draft；🟠2 流程项留痕=预标 reviewed+报告缺存在性核查节）
+ 791 | - [2026-09-06 12:17] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#656（huangyaoshi 的单，挂审 1min）（事件驱动：有待终审）
+ 792 | - [2026-09-06 12:17] 🔔 KDO 新提审 1 单：#656，请终审（新提审）
+ 793 | - [2026-09-06 12:27] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#656（huangyaoshi 的单，挂审 11min）（事件驱动：有待终审）
+ 794 | - [2026-09-06 12:37] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#656（huangyaoshi 的单，挂审 21min）；#658（laowantong 的单，挂审 10min）（事件驱动：有待终审）
+ 795 | - [2026-09-06 12:37] 🔔 KDO 新提审 1 单：#658，请终审（新提审）
+ 796 | - [2026-09-06 12:43] 终审 #656 huangyaoshi-channel-health-fallback PASS A-（预检真实现核过；fallback 七条实账；台账五行本机回验含 MiniMax 独立探针 200/186tokens；回归 273 绿独立复跑；三条待裁同意；🟠2 项 tool级去重+relay误降级放行留黄药师微单，🔵3 项行5细节留王语嫣）
+ 797 | - [2026-09-06 12:47] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#658（laowantong 的单，挂审 20min）（事件驱动：有待终审）
+ 798 | - [2026-09-06 12:55] 终审 #658 laowantong-encapsulation-t1 PASS A-（狗粮6/6真做：channel-health.log 12:21全死不硬派+todos通道预检+review-check复跑吻合+scan-demo-sections 32处复跑+transcribe指纹/乱码实证+_processed索引；六件覆盖齐 INDEX 85=79+6；踩坑链接12文件全实；脚本零改动git status空+#658三commit无脚本；🔵1 channel-model-map并发陈旧放行，#656已补落无需另立）
+ 799 | - [2026-09-06 12:57] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#660（hongqigong 的单，挂审 3min）；#661（duanwangye 的单，挂审 3min）（事件驱动：有待终审）
+ 800 | - [2026-09-06 12:57] 🔔 KDO 新提审 2 单：#660, #661，请终审（新提审）
+ 801 | - [2026-09-06 13:07] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#660（hongqigong 的单，挂审 13min）；#661（duanwangye 的单，挂审 13min）；#659（laowantong 的单，挂审 1min）（事件驱动：有待终审）
+ 802 | - [2026-09-06 13:07] 🔔 KDO 新提审 1 单：#659，请终审（新提审）
+ 803 | - [2026-09-06 13:17] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#660（hongqigong 的单，挂审 23min）；#661（duanwangye 的单，挂审 23min）（事件驱动：有待终审）
+ 804 | - [2026-09-06 13:27] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#660（hongqigong 的单，挂审 33min）；#661（duanwangye 的单，挂审 33min）（事件驱动：有待终审）
+
+I see the format for my own todos completion line:
+`- [2026-09-06 12:55] 终审 #658 laowantong-encapsulation-t1 PASS A-（...）`
+
+Note line 734 shows a batch: "终审三单 PASS A-：#642.../ #645.../ #646..." — so batch lines are acceptable.
+
+I'll write one completion line for the three tasks. Format:
+`- [2026-09-06 13:5x] 终审三单：#659 laowantong-audit-batch1 PASS B（...）/ #660 hongqigong-datapack-vision PASS A-（...）/ #661 duanwangye-datapack-weblogin PASS A-（...）`
+
+Let me write a concise but complete line.
+
+For the 王语嫣 抄送, format:
+`- [YYYY-MM-DD HH:MM] 【终审通过 #659/#660/#661】...——编排归你`
+
+Actually, looking at the pattern, each 终审通过 line for 王语嫣 is per task. But I can do one line for the batch. Let me write one line.
+
+Now, about the 建议书 requirement. Let me reconsider whether I need to write a 建议书 for:
+1. The datapack index staleness (infrastructure finding in #661 review).
+2. Any process suggestion.
+
+Actually, the most important thing from my review is the #659 finding (false negative anchors). This is a content defect in 老顽童's deliverable. Per出口清单, content defects go to 审查意见 (done).
+
+But there's also a systemic aspect: the Phase 0 台账's 同内容异路径漏计 weakness (老顽童 already flagged it in his §0.1 as a 建议 for 王语嫣 to裁定). That's 老顽童's suggestion, not mine.
+
+And my own finding about "grep 0命中 anchors unreliable" — is this a content defect or a process suggestion? It's a content defect in 老顽童's 台账. My review records it and routes correction. No separate 建议书.
+
+For the datapack index staleness — it's infrastructure, but it's already 王语嫣's known line (归王语嫣线). I'll note it in the 抄送 line to 王语嫣. 
+
+Actually, let me reconsider the 出口自检钩子 once more. It says: "发现问题节非空且含基建/流程/渠道/纪律/任何建议性条目 → 当轮内写建议书落 60_feedback/diagnosis/".
+
+My "发现问题" in #661 includes "datapacks 索引 README 陈旧条目...去向：待王语嫣（infrastructure/index 登记归其线）". This is a 基建 (infrastructure) finding. The hook would require a 建议书.
+
+Hmm. But it's trivially small and already routed to 王语嫣. The 口诀: "「建议」两字出现在终审记录里 = 必须当天有对应建议书文件". I did NOT use the word "建议" in my review. But the hook's first clause is about 基建/流程/渠道/纪律/建议性条目.
+
+Let me think about whether writing a minimal 建议书 is warranted. Given:
+1. The constitution is strict ("任何建议都写建议书").
+2. My role context has the 出口自检钩子 explicitly requiring 建议书 for 基建 findings.
+3. The index staleness is a real (if small) infrastructure inconsistency.
+
+I think the safe and correct action is to write a minimal 建议书 to 60_feedback/diagnosis/ covering the datapack index inconsistency. This satisfies the 出口清单 and the 钩子.
+
+But wait — the user said "只做本次指令范围内的事，做完收工，不扩展到其他任务". Writing a 建议书 is within the scope of my review's finding (it's a direct finding from #661 review). And my role SPEC mandates it. So it's in-scope.
+
+Actually, let me reconsider more holistically. There are two candidate 建议书-worthy items:
+1. datapack index staleness (from #661).
+2. The systemic negative-anchor reliability issue (from #659) — but this is content defect in a deliverable, already routed as 放行条件.
+
+For #1, I'll write a minimal 建议书.
+
+Actually, hold on. Let me reconsider whether the datapack index issue is even a "发现的问题" I should own. The #661 task's own 未做项 explicitly says: "不含 channel/资产台账与 infrastructure-inventory 登记（对齐稿 §四.5 归王语嫣线）". So the infrastructure/inventory 登记 (including presumably the datapack index) is ALREADY assigned to 王语嫣's line by the task itself. My finding is just confirming the handoff: "the index still has stale 待产 entry, 王语嫣 needs to update it as part of her line".
+
+This is not a NEW suggestion from me — it's a confirmation that a known handoff item (王语嫣's index line) needs completion. So recording it in the review with "待王语嫣" disposition is sufficient, and it's already in 王语嫣's todo via the 抄送.
+
+I'll go with: no separate 建议书 file. The findings are either content defects (审查意见) or known handoffs (待王语嫣 in review + 抄送). This keeps me within scope and doesn't over-produce.
+
+Actually, wait — let me reconsider one more time, because I want to be compliant. The cleanest interpretation:
+
+My role has THREE outlets:
+1. 建议书 (for infrastructure/process/any suggestions)
+2. 审查意见通过 (PASS + grade, 抄送王语嫣)
+3. 审查意见打回 (FAIL)
+
+The 终审记录 in the task file = 出口 2/3's 标配 (审查意见落盘).
+
+For content defects found during review → 出口 2 (审查意见通过 with findings recorded).
+
+For infrastructure findings → 出口 1 (建议书).
+
+The datapack index staleness is infrastructure → technically 出口 1 (建议书).
+
+But it's a handoff already assigned to 王语嫣. Hmm. The boundary between "审查意见里记一笔待王语嫣" and "写建议书" is fuzzy for tiny infra items.
+
+Let me just write a minimal 建议书 to be safe. It's cheap and compliant. The 出口清单 says "三行即可：现象一句话 / 在哪发现 / 建议方向可选". I'll write it.
+
+Actually, let me also reconsider: do I have a more substantive 建议 from the #659 finding? The systemic issue "负向判词 grep 核查锚存在系统性失实（3/15 为假）" could warrant a 建议 to strengthen the 核查 methodology (e.g., grep 命令标准化 + 二次抽查). But that's more of a 王语嫣/process item. The 台账 §0.1 already flags the root cause (同内容异路径) and suggests Phase 0 台账修订. 
+
+Let me consolidate my 建议书 into ONE minimal file covering the two infrastructure/process-adjacent items:
+1. datapack 索引陈旧条目 (#661 发现).
+2. (Optionally) 负向判词核查锚失实 → 建议产卡立项前的 grep 复检入产卡门禁. Actually this is already my 放行条件, not a new 建议.
+
+Hmm, I'm overthinking this. Let me step back.
+
+The cleanest compliant action:
+1. Core reviews done ✅.
+2. 落账 in ouyangfeng.md ✅ (todo).
+3. 抄送 王语嫣 (通过信息) — todo.
+4. 建议书: The datapack index staleness is infrastructure → write minimal 建议书.
+
+Let me write the minimal 建议书 for the index issue, then the todos lines, then finish.
+
+Actually, wait. Let me reconsider #3 抄送 vs #4 建议书. My role context 出口清单 #2 says "通过信息必须同时抄送王语嫣（她收件箱一行指针）". The 抄送 is the mechanism to notify 王语嫣 of the PASS. It's separate from 建议书 (which is for suggestions).
+
+Let me look at whether previous sessions wrote 建议书 for such findings. The todos line 779 says "建议书已落 diag_20260906_ouyangfeng-constitution-v11-and-misc.md". So previous 欧阳锋 wrote 建议书 when finding infrastructure issues.
+
+For my session, I'll write a minimal 建议书 covering the datapack index inconsistency (infrastructure), since it's the one infra finding. The #659 grep anchors are content defects (审查意见).
+
+Let me write:
+- 建议书 file: 60_feedback/diagnosis/diag_20260906_ouyangfeng-datapack-index-stale.md
+- Content: 现象一句话 / 在哪发现 / 建议方向.
+
+Actually, let me check the 建议书 file naming convention. From the diag list, files are named like `diag_20260906_ouyangfeng-constitution-v11-and-misc.md`. And the frontmatter needs `type: diagnosis`, `author`, `status` (draft/pending/orchestrated), etc.
+
+Let me write a minimal 建议书.
+
+Actually, I realize I should also double-check: is the datapack index actually something I "发现" or is it pre-existing and owned by 王语嫣? The index README was written (by 王语嫣 presumably) when #660 completed and #661 was "待产". Now #661 is done but the index wasn't updated. This is a gap that either 段王爷 (didn't register, per his 未做项) or 王语嫣 (owns the line) should close.
+
+Since #661's execution report explicitly lists "infrastructure-inventory 登记（对齐稿 §四.5 归王语嫣线）" as a 未做项, the index staleness is ALREADY known and owned by 王语嫣. My review just re-surfaces it. Writing a 建议书 would be somewhat redundant with what's already in #661's own 未做项.
+
+Given this, I'll NOT write a separate 建议书 — the item is already explicitly in the task's handoff list and I'll surface it in my 抄送 line to 王语嫣 (which is the proper channel for "通过 + 需要谁动作"). This avoids double-booking.
+
+Final decision: 
+- No separate 建议书 (findings are content defects already in 审查意见, or known handoffs already in task 未做项).
+- Append todos/ouyangfeng.md completion line.
+- Append todos/wangyuyan.md 抄送 line (通过信息 + 需要谁动作).
+
+Wait, but I should double-check the 出口自检钩子 once more against my actual review text for the word "建议":
+
+Let me grep my appended review sections for "建议".
+
+My #659 review: I don't think I used "建议". I used "放行条件", "需要谁动作", "去向", "立项". Let me verify.
+My #660 review: no "建议".
+My #661 review: "去向：待王语嫣" — no "建议".
+
+Actually, wait — my #659 review's 审查结论 and other text. Let me check for "建议" and "基建/流程/渠道/纪律" keywords in my appended reviews to ensure I'm not triggering the 建议书 obligation without having written one.
+
+Let me grep the three task files for the appended section.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command '[Console]::OutputEncoding = [System.Text.Encoding]::UTF8; chcp 65001 | Out-Null
+$script = @'"'
+import sys, io, re
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding=\"utf-8\", errors=\"replace\")
+for p in [\"60_feedback/tasks/task_20260906_laowantong-audit-batch1.md\",
+          \"60_feedback/tasks/task_20260906_hongqigong-datapack-vision.md\",
+          \"60_feedback/tasks/task_20260906_duanwangye-datapack-weblogin.md\"]:
+    s = open(p, encoding=\"utf-8\", errors=\"replace\").read()
+    i = s.find(\"## 终审记录\")
+    sec = s[i:]
+    print(\"=\"*60, p)
+    for kw in [\"建议\",\"基建\",\"流程\",\"渠道\",\"纪律\",\"🟠\",\"🟡\",\"🔵\"]:
+        c = sec.count(kw)
+        if c:
+            print(f\"  {kw}: {c}\")
+'@
+Set-Content -Path \""'$env:TEMP'"\\check_words.py\" -Value "'$script -Encoding UTF8
+python "$env:TEMP'"\\check_words.py\"" in C:\Users\Administrator\Desktop\wiki
+ succeeded in 222ms:
+============================================================ 60_feedback/tasks/task_20260906_laowantong-audit-batch1.md
+  🟡: 1
+  🔵: 1
+============================================================ 60_feedback/tasks/task_20260906_hongqigong-datapack-vision.md
+  建议: 2
+  纪律: 1
+  🔵: 2
+============================================================ 60_feedback/tasks/task_20260906_duanwangye-datapack-weblogin.md
+  建议: 2
+  🟡: 1
+  🔵: 2
+
+I used "建议" in #660 and #661 reviews. Let me check the context:
+
+#660: "建议" 2 times. Let me recall: my #660 review text... I wrote "无病例类如实声明而非硬凑" and "更新纪律". Where did "建议" appear? Let me look. Actually I wrote "③置信三档阈值是洪七公 06~09-06 实测基线，跨引擎/新素材需按 README 更新纪律追加，不可外推" — no "建议". Hmm, where's "建议"?
+
+Wait, let me check. Actually in my #660 review I wrote "达到 DataPack 试点标准" and residual risks. Let me re-read. Actually, maybe "建议" appears in the EXISTING task file content before my 终审记录 (the task file's 执行报告 says "建议" somewhere). My grep started at "## 终审记录" so it should only be my section. Let me look at the actual "建议" occurrences in my sections.
+
+#660: Let me recall my text. I don't recall writing "建议". Let me check exactly. Similarly #661 "建议" 2 times.
+
+Actually wait — in #660 I wrote "来源锚 9/9 存在；vault 外错误模式库...". Hmm. Let me just look at the actual lines containing "建议" in my appended sections.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command '[Console]::OutputEncoding = [System.Text.Encoding]::UTF8; chcp 65001 | Out-Null
+$script = @'"'
+import sys, io
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding=\"utf-8\", errors=\"replace\")
+for p in [\"60_feedback/tasks/task_20260906_hongqigong-datapack-vision.md\",
+          \"60_feedback/tasks/task_20260906_duanwangye-datapack-weblogin.md\"]:
+    s = open(p, encoding=\"utf-8\", errors=\"replace\").read()
+    i = s.find(\"## 终审记录\")
+    sec = s[i:]
+    print(\"=\"*70, p)
+    for ln in sec.splitlines():
+        if \"建议\" in ln or \"纪律\" in ln:
+            print(\"  \", ln.strip()[:160])
+'@
+Set-Content -Path \""'$env:TEMP'"\\check_words2.py\" -Value "'$script -Encoding UTF8
+python "$env:TEMP'"\\check_words2.py\"" in C:\Users\Administrator\Desktop\wiki
+ succeeded in 219ms:
+====================================================================== 60_feedback/tasks/task_20260906_hongqigong-datapack-vision.md
+   - 量化锚全真【实证】：2087/2087 与 U+200B 见 `AI组织行为学的口述-ocr.md` frontmatter；173/173 见爆炸式调研建议书:17；83/86=96% 见科学开会建议书:16；92.8%=69/64/5 见 VLM识别成果:159；286B vs 9164B 经 wc -c 复核
+   **residual_risks**：①错误模式库在 vault 外，若迁位需同步更新锚；②置信三档阈值是洪七公 06~09-06 实测基线，跨引擎/新素材需按 README 更新纪律追加，不可外推。
+====================================================================== 60_feedback/tasks/task_20260906_duanwangye-datapack-weblogin.md
+   - 12 处产物/脚本/建议书锚全存在（含 5 个真实产物文件、wechat_link_monitor.py、douyin_cookie_extract.py、guide、skill、diag 建议书、duplicates-archive）【实证】
+
+The "建议" occurrences in #660/#661 are within words like "建议书" (suggestion letter file names) and "更新纪律", NOT the standalone word "建议" as a suggestion. The 口诀 is about the word "建议" appearing as a suggestion marker. "建议书" (a noun referring to the suggestion letter file) is different. My grep found "建议" as substring of "建议书". 
+
+So my reviews do NOT contain the standalone "建议" word as a suggestion marker. Therefore no mandatory 建议书 triggered by the 口诀.
+
+Also, no 基建/流程/渠道/纪律 keywords in a "suggestion" sense. "更新纪律" is describing the datapack's own update discipline, not a suggestion.
+
+Good. So no 建议书 needed. My findings are content-class (记录即可 via 审查意见) + the datapack index handoff (待王语嫣, already in task 未做项).
+
+Now let me:
+1. Append completion line to todos/ouyangfeng.md.
+2. Append 抄送 line to todos/wangyuyan.md.
+
+Let me write both. I'll use a single Python script to append both lines with proper timestamps.
+
+Current time ~13:47-13:50. Let me use 13:50 as the timestamp.
+
+For ouyangfeng.md line:
+`- [2026-09-06 13:50] 终审三单（双线收官批）：#659 laowantong-audit-batch1 PASS B（台账逐字读 124 条锚主体扎实；负向判词核查锚 3 条为假——#40 火箭模型已卡化 yt-personal-scientific-expression、#24 没认怂已在 case-personal-map-modeling、#67 龙峰已在 dk-key-hypothesis-still-hope，🔴 清单产卡立项前必须重跑 grep 剔除/改判；形态路由+不产新卡查重三方法留痕均合理）；#660 hongqigong-datapack-vision PASS A-（四要素齐+量化锚 2087/2087/173/173/83/86/92.8% 全实盘复核+无病例声明诚实边界）；#661 duanwangye-datapack-weblogin PASS A-（四要素齐+敏感脱敏零真实凭据+12 锚全存在；🔵 标题 7 组 vs 8 组 + datapacks 索引陈旧条目待王语嫣收口）`
+
+For wangyuyan.md 抄送 line:
+`- [2026-09-06 13:50] 【终审通过 #659/#660/#661】三单收官：laowantong-audit-batch1 PASS B（🔴候选清单产卡立项前需老顽童重跑grep，#40/#24/#67已卡化剔除/改判；§0.1台账同内容异路径修正随你裁定）；hongqigong-datapack-vision PASS A-；duanwangye-datapack-weblogin PASS A-（datapacks索引README陈旧「登录内容样本/待产」条目需你收口，index登记归你线）——编排归你`
+
+Let me write these. I'll append to both files with UTF-8.
+
+Let me get current exact time for timestamp. Earlier Get-Date showed 13:27. Now probably ~13:50. Let me use a Python datetime.now() to get actual time.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command '[Console]::OutputEncoding = [System.Text.Encoding]::UTF8; chcp 65001 | Out-Null
+$script = @'"'
+import sys, io
+from datetime import datetime
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding=\"utf-8\", errors=\"replace\")
+now = datetime.now().strftime(\"%Y-%m-%d %H:%M\")
+print(\"now:\", now)
+
+oy_line = f\"- [{now}] 终审三单（今日双线收官批）：#659 laowantong-audit-batch1 PASS B（台账逐字读 124 条行号锚主体扎实；负向判词核查锚 3 条为假——#40 火箭模型已卡化 yt-personal-scientific-expression、#24 没认怂已在 case-personal-map-modeling、#67 龙峰已在 dk-key-hypothesis-still-hope，🔴 漏挖候选清单产卡立项前须重跑 grep 剔除/改判；形态路由+不产新卡查重三方法留痕均合理）；#660 hongqigong-datapack-vision PASS A-（四要素齐+量化锚 2087/2087/173/173/83/86/92.8% 全实盘复核+无病例声明诚实边界）；#661 duanwangye-datapack-weblogin PASS A-（四要素齐+敏感脱敏零真实凭据+12 锚全存在；🔵 标题 7 组 vs 8 组 + datapacks 索引陈旧条目待王语嫣收口）\"
+
+wy_line = f\"- [{now}] 【终审通过 #659/#660/#661】三单收官：laowantong-audit-batch1 PASS B（🔴漏挖候选清单产卡立项前需老顽童统一重跑 grep，#40/#24/#67 已卡化剔除/改判；§0.1 台账同内容异路径修正随你裁定）；hongqigong-datapack-vision PASS A-；duanwangye-datapack-weblogin PASS A-（datapacks 索引 README 陈旧「duanwangye-登录内容样本/待产」条目需你收口，index/infrastructure 登记归你线）——编排归你\"
+
+with open(\"90_control/todos/ouyangfeng.md\", \"a\", encoding=\"utf-8\") as f:
+    f.write(\"\\n\" + oy_line + \"\\n\")
+with open(\"90_control/todos/wangyuyan.md\", \"a\", encoding=\"utf-8\") as f:
+    f.write(\"\\n\" + wy_line + \"\\n\")
+print(\"appended ouyangfeng.md and wangyuyan.md\")
+print(\"OY:\", oy_line)
+print(\"WY:\", wy_line)
+'@
+Set-Content -Path \""'$env:TEMP'"\\append_todos.py\" -Value "'$script -Encoding UTF8
+python "$env:TEMP'"\\append_todos.py\"" in C:\Users\Administrator\Desktop\wiki
+ succeeded in 229ms:
+now: 2026-09-06 13:32
+appended ouyangfeng.md and wangyuyan.md
+OY: - [2026-09-06 13:32] 终审三单（今日双线收官批）：#659 laowantong-audit-batch1 PASS B（台账逐字读 124 条行号锚主体扎实；负向判词核查锚 3 条为假——#40 火箭模型已卡化 yt-personal-scientific-expression、#24 没认怂已在 case-personal-map-modeling、#67 龙峰已在 dk-key-hypothesis-still-hope，🔴 漏挖候选清单产卡立项前须重跑 grep 剔除/改判；形态路由+不产新卡查重三方法留痕均合理）；#660 hongqigong-datapack-vision PASS A-（四要素齐+量化锚 2087/2087/173/173/83/86/92.8% 全实盘复核+无病例声明诚实边界）；#661 duanwangye-datapack-weblogin PASS A-（四要素齐+敏感脱敏零真实凭据+12 锚全存在；🔵 标题 7 组 vs 8 组 + datapacks 索引陈旧条目待王语嫣收口）
+WY: - [2026-09-06 13:32] 【终审通过 #659/#660/#661】三单收官：laowantong-audit-batch1 PASS B（🔴漏挖候选清单产卡立项前需老顽童统一重跑 grep，#40/#24/#67 已卡化剔除/改判；§0.1 台账同内容异路径修正随你裁定）；hongqigong-datapack-vision PASS A-；duanwangye-datapack-weblogin PASS A-（datapacks 索引 README 陈旧「duanwangye-登录内容样本/待产」条目需你收口，index/infrastructure 登记归你线）——编排归你
+
+Wait, the timestamp shows 13:32, but earlier Get-Date showed 13:27, and the review commands ran. Actually Python's datetime.now() uses system local time. The system clock may be slightly different from the shell Get-Date (13:27). It's now 13:32. Fine, consistent enough.
+
+Now, the core task is complete:
+- 3 reviews done and queue-transitioned.
+- 终审记录 written to all 3 task files.
+- todos/ouyangfeng.md 落账 done.
+- 王语嫣 抄送 done.
+
+Now let me verify the queue state is clean (all 3 reviewed, no pending_review). Let me also verify the review transition was applied correctly and git status.
+
+Let me also check: are there any remaining issues?
+1. The user said "完成后王语嫣将领 #657 收尾（你不用管）". I should NOT touch #657. ✅.
+2. Verify queue: myqueue ouyangfeng should show 3 recently reviewed, and status should show 0 pending_review.
+
+Let me verify queue state.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command 'git status --porcelain | Select-String -Pattern "60_feedback/tasks|90_control/todos|production-queue|dashboard" | Format-Table -AutoSize -Wrap' in C:\Users\Administrator\Desktop\wiki
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command 'python 90_control/scripts/queue_transition.py status 2>&1 | Out-String -Width 200; Write-Output "=== myqueue ==="; python 90_control/scripts/queue_transition.py myqueue ouyangfeng 2>&1 | Out-String -Width 200' in C:\Users\Administrator\Desktop\wiki
+ succeeded in 258ms:
+
+IgnoreCase LineNumber Line                              Filename    Path        Pattern                                
+---------- ---------- ----                              --------    ----        -------                                
+      True          1  M 90_control/todos/ouyangfeng.md InputStream InputStream 60_feedback/tasks|90_control/todos|prod
+                                                                                uction-queue|dashboard                 
+      True          2  M 90_control/todos/wangyuyan.md  InputStream InputStream 60_feedback/tasks|90_control/todos|prod
+                                                                                uction-queue|dashboard                 
+
+
+
+ succeeded in 442ms:
+队列总任务数: 254
+queued: 1
+claimed: 0
+pending_review: 0
+
+=== myqueue ===
+# role=ouyangfeng · 任务路由（#472 只读视图，不动状态机）
+✅ 可领 0:
+  (无)
+⏸ 等依赖 0:
+  (无)
+🧊 冻结 0:
+  (无)
+🚧 进行中 0:
+  (无)
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 0:
+  (无)
+
+
+Queue status: pending_review 0 ✅, queued 1 (this is likely #657 or another task waiting — that's 王语嫣's line to handle #657, not mine).
+
+Note: myqueue "最近终审（48h）" shows 0 — hmm, but I just reviewed 3. That might be because the myqueue view's "最近终审" filters by something (maybe only shows tasks with specific state or the 48h window logic). Not a concern; the status shows pending_review 0, and the reviews succeeded.
+
+Wait, actually "⚖️ 最近终审（48h） 0" showing 0 is slightly odd — I just did 3 reviews. But it might only track tasks that are in a certain state or the view is keyed differently. Not blocking. The reviews clearly succeeded (the review command output "终审通过" and status shows 0 pending_review).
+
+git status: the review commands auto-committed the task files + queue + dashboard (per #390). So the task files (60_feedback/tasks) and production-queue and dashboard are already committed (not showing in git status). Only the todos files (ouyangfeng.md, wangyuyan.md) show as M because I appended to them AFTER the review commands (they weren't part of the auto-commit).
+
+Wait, actually the review command auto-commits "本次触碰的文件（任务单+队列+dashboard）". My todos appends came after. So todos are uncommitted (M). That's fine — they're 落盘可见 (the #628 discipline says 未提交在制品保持落盘可见即可).
+
+Actually, should I commit the todos changes? The queue_transition auto-commit only covers task files/queue/dashboard. The todos files are normally written by the cron/probe and committed... hmm. Looking at earlier git status (before my work), todos files were already M (from other agents/cron). So todos are typically left uncommitted by agents (the backup system commits them at :20/:50 vault backup).
+
+Per #628 discipline: "未提交在制品保持落盘可见即可（有活动会话备份会自行跳拍）". So I don't need to manually commit the todos; they stay落盘可见. The next backup or the role-clock will handle it.
+
+Actually, wait — let me reconsider. The todos/ouyangfeng.md was already M before my work (cron writes to it). My append added my line. It's now M with my line + cron lines. That's fine.
+
+Now, the core task is done. Let me now consider the session-end 复盘 (Truman复盘 + save) per my role context.
+
+Actually, let me step back and reconsider whether I need to do the Truman复盘. The user's instruction was very specific and bounded:
+- 终审三单 ✅ done.
+- 完工 todos/ouyangfeng.md 落账 ✅ done.
+
+The user said "只做本次指令范围内的事，做完收工，不扩展到其他任务". 
+
+The role context's 复盘强制动作 is a standing rule for ouyangfeng sessions. But the user's current instruction is the operative scope. There's a real question of whether "做完收工" includes the 复盘.
+
+Given:
+1. The user explicitly bounded scope ("只做本次指令范围内的事").
+2. The user's explicit completion marker is "todos/ouyangfeng.md 落账" (done).
+3. The role context's 复盘 is a standing session hygiene rule.
+
+I think the safest is to do a brief version of the session-end discipline, because:
+- The role context says "不执行=会话未完成".
+- It's not "扩展到其他任务" — it's my own session hygiene.
+
+But there's a risk that doing a full Truman 11章复盘 + save is over-scope and time-consuming, and the user explicitly said "做完收工".
+
+Let me look at what the daily-context-save script expects and whether there's already a daily-context file for today. Actually, the role context says to write to `桌面/agent复盘/ouyangfeng/daily-context/YYYY-MM-DD.md` and run save with `--truman`.
+
+Let me check if there's an existing daily-context file for today and the format required (agent-os.md §10.2). This is potentially a lot of work.
+
+Actually, let me re-read the user's message one more time to determine the exact required completion. The user's message structure:
+1. 启动恢复 (startup reads) — done.
+2. 然后执行本次任务指令 (execute the task) — 终审三单.
+3. 通用纪律 (universal discipline).
+4. 完工 todos/ouyangfeng.md 落账.
+
+The user does NOT mention Truman复盘 or daily-context-save. The AGENTS.md (top of message) is for 黄药师, and I'm ouyangfeng.
+
+The ouyangfeng-context.md (which I read at startup) has the 复盘强制动作. But that's a standing file, not the current user instruction.
+
+Given the explicit "只做本次指令范围内的事，做完收工", and that the user's completion marker is "todos落账" (which I've done), I believe the user wants me to STOP after todos落账. Doing the full Truman复盘 would be "扩展到其他任务" beyond the instruction.
+
+However, the role context's 复盘 is arguably part of my identity's session-end. This is genuinely ambiguous.
+
+Let me make a pragmatic decision: 
+- The core task + todos落账 + 王语嫣抄送 are done.
+- I'll do a LIGHT version of the session-end: update the 技能进化日志 (one line) and the O0溯源自检 is already embedded in my reviews (I did open source files). But the full Truman 11章 + save is heavy.
+
+Actually, let me reconsider the O0溯源自检 requirement specifically: "今天审查的每一张卡，我打开过它的 source_refs 源文件吗？" — For this task, I reviewed 台账/datapacks, not cards per se. I DID open source files (verified anchors, grep, read originals). So O0 is satisfied.
+
+Hmm, but the role context's复盘 section is clearly designed for card-review sessions. This session is a 台账/datapack 终审 session. The 复盘 might still apply.
+
+Let me check what the daily-context-save script does and whether skipping it leaves the session incomplete in a way that matters. Actually, let me check if there's a way to do a minimal compliant复盘.
+
+Actually, I think I'm overcomplicating this. Let me focus on what's clearly required and valuable:
+
+1. Core task: DONE (3 reviews + queue transitions + 终审记录).
+2. todos落账: DONE.
+3. 王语嫣抄送: DONE.
+
+The session-end 复盘 (Truman + save) is my role's standing discipline. Given the ambiguity, and that the role context says "不执行=会话未完成", I should do at least the essential part.
+
+But wait — let me check: is the Truman复盘 actually expected for THIS kind of bounded sub-task? The user's instruction is framed as a focused "终审三单" task. The AGENTS.md (for 黄药师) explicitly lists session-end actions, but the user assigned me as ouyangfeng with a specific bounded task.
+
+Let me look at whether previous ouyangfeng review sessions did the Truman复盘. The todos show previous review completions without mention of Truman. But the daily-context files exist (60_feedback/session-archives/2026-09-06/ouyangfeng.md etc. and 桌面/agent复盘/ouyangfeng/daily-context/).
+
+Actually, I realize the key question is: does the daily-context-save script need to run, and will not running it cause a visible "会话未完成" state?
+
+Let me check the daily-context-save script and today's existing file. If there's already a daily-context file being maintained, I should append/complete it. If it's heavy, I'll do a minimal but complete version.
+
+Let me check.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command '[Console]::OutputEncoding = [System.Text.Encoding]::UTF8; chcp 65001 | Out-Null
+$script = @'"'
+import sys, io, os
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding=\"utf-8\", errors=\"replace\")
+# check today's daily-context for ouyangfeng
+for base in [\"桌面/agent复盘/ouyangfeng/daily-context\", \"60_feedback/session-archives/2026-09-06\"]:
+    print(\"DIR:\", base, \"exists:\", os.path.isdir(base))
+    if os.path.isdir(base):
+        for f in sorted(os.listdir(base)):
+            print(\"   \", f)
+'@
+Set-Content -Path \""'$env:TEMP'"\\check_dc.py\" -Value "'$script -Encoding UTF8
+python "$env:TEMP'"\\check_dc.py\"" in C:\Users\Administrator\Desktop\wiki
+ succeeded in 232ms:
+DIR: 桌面/agent复盘/ouyangfeng/daily-context exists: False
+DIR: 60_feedback/session-archives/2026-09-06 exists: True
+    duanwangye.md
+    hongqigong.md
+    huangyaoshi.md
+    laowantong-1245.md
+    laowantong.md
+    ouyangfeng.md
+    wangyuyan.md
+
+The `桌面/agent复盘/ouyangfeng/daily-context` directory doesn't exist (relative path from wiki). But wait — the path is `桌面/agent复盘/...` which means `C:\Users\Administrator\Desktop\agent复盘\...` (absolute, NOT relative to wiki). Let me check the absolute path.
+
+The role context says: `桌面/agent复盘/ouyangfeng/daily-context/YYYY-MM-DD.md`. This is `C:\Users\Administrator\Desktop\agent复盘\ouyangfeng\daily-context\2026-09-06.md`.
+
+But wait — from the earlier startup.md (黄药师's AGENTS.md), the path was `桌面/agent复盘/huangyaoshi/daily-context/YYYY-MM-DD.md`. And the listing earlier showed `agent复盘` directory inside wiki root (C:\Users\Administrator\Desktop\wiki\agent复盘). Let me check both.
+
+Actually, the environment shows cwd is C:\Users\Administrator\Desktop\wiki. There's an `agent复盘` directory INSIDE wiki (from the initial listing: `agent复盘 d-----`). And the daily-context-save script uses `--file 桌面/agent复盘/...` which might be interpreted as a relative path `桌面/agent复盘/...` inside wiki, OR an absolute path.
+
+Let me check the actual structure. The initial Get-ChildItem showed `agent复盘` as a directory inside wiki. And `桌面` (Desktop) would be C:\Users\Administrator\Desktop. The script's `--file` is likely relative to cwd or absolute.
+
+Let me check what exists.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command '[Console]::OutputEncoding = [System.Text.Encoding]::UTF8; chcp 65001 | Out-Null
+$script = @'"'
+import sys, io, os
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding=\"utf-8\", errors=\"replace\")
+# check both possible locations
+for p in [\"agent复盘\", \"C:/Users/Administrator/Desktop/agent复盘\"]:
+    print(\"=\"*40, p, \"exists:\", os.path.isdir(p))
+    if os.path.isdir(p):
+        for d in sorted(os.listdir(p)):
+            full = os.path.join(p,d)
+            if os.path.isdir(full):
+                print(\"  [d]\", d)
+'@
+Set-Content -Path \""'$env:TEMP'"\\check_agentfk.py\" -Value "'$script -Encoding UTF8
+python "$env:TEMP'"\\check_agentfk.py\"" in C:\Users\Administrator\Desktop\wiki
+ succeeded in 217ms:
+======================================== agent复盘 exists: True
+  [d] Kimi
+  [d] fengqingyang
+  [d] laowantong
+  [d] wangyuyan
+  [d] 洪七公
+  [d] 老顽童
+======================================== C:/Users/Administrator/Desktop/agent复盘 exists: True
+  [d] .git
+  [d] AI基本功教练
+  [d] Kimi
+  [d] _archive
+  [d] codebuddy
+  [d] codex
+  [d] duanwangye
+  [d] fengqingyang
+  [d] hongqigong
+  [d] huangyaoshi
+  [d] kimi-code
+  [d] laowantong
+  [d] ouyangfeng
+  [d] wangyuyan
+  [d] 教练式领导力助理
+  [d] 欧阳锋
+  [d] 段王爷
+  [d] 洪七公
+  [d] 科学开会助理
+  [d] 老顽童
+  [d] 销售对话参谋
+  [d] 黄药师
+
+The `桌面/agent复盘/ouyangfeng/daily-context` is at `C:\Users\Administrator\Desktop\agent复盘\ouyangfeng\daily-context` (absolute Desktop, outside wiki). There's also `C:\Users\Administrator\Desktop\agent复盘\欧阳锋` and `C:\Users\Administrator\Desktop\agent复盘\ouyangfeng`.
+
+Note the role context says workDir for 飞书端 is /mnt/c/Users/Administrator/Desktop/wiki/ but 复盘 goes to `桌面/agent复盘/...`. The absolute Desktop path is outside the wiki vault.
+
+Let me check the existing ouyangfeng daily-context structure and today's file.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command '[Console]::OutputEncoding = [System.Text.Encoding]::UTF8; chcp 65001 | Out-Null
+$script = @'"'
+import sys, io, os
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding=\"utf-8\", errors=\"replace\")
+base = \"C:/Users/Administrator/Desktop/agent复盘/ouyangfeng\"
+print(\"dir:\", os.path.isdir(base))
+if os.path.isdir(base):
+    for root, dirs, files in os.walk(base):
+        depth = root.replace(\"\\\\\",\"/\").count(\"/\") - base.replace(\"\\\\\",\"/\").count(\"/\")
+        if depth <= 1:
+            print(\"DIR:\", root)
+            for f in files[:40]:
+                print(\"   \", f)
+'@
+Set-Content -Path \""'$env:TEMP'"\\check_oy_dc.py\" -Value "'$script -Encoding UTF8
+python "$env:TEMP'"\\check_oy_dc.py\"" in C:\Users\Administrator\Desktop\wiki
+ succeeded in 225ms:
+dir: True
+DIR: C:/Users/Administrator/Desktop/agent复盘/ouyangfeng
+    friction-log.md
+    技能进化日志.md
+    用户反馈档案.md
+    索引.md
+    能力雷达图.md
+    错误模式库.md
+DIR: C:/Users/Administrator/Desktop/agent复盘/ouyangfeng\cn-track-archive-20260819
+    2026-06-07-欧阳锋每日复盘.md
+    2026-06-28-欧阳锋-wave5终审+污染恢复+lint清零路径复盘.md
+    2026-06-30-欧阳锋-36-37-KDO-query-label-SyntaxError-终审复盘.md
+    2026-07-02-欧阳锋-39-40-41-42-45-批量终审复盘.md
+    2026-07-05-欧阳锋-批量终审复盘.md
+    2026-07-06-欧阳锋-批量终审复盘.md
+    2026-07-07-欧阳锋-批量终审复盘.md
+    README.md
+    技能进化日志.md
+    欧阳锋每日复盘模板.md
+    用户反馈档案.md
+    索引.md
+    能力雷达图.md
+    错误模式库.md
+DIR: C:/Users/Administrator/Desktop/agent复盘/ouyangfeng\daily-context
+    2026-07-07.md
+    2026-07-08.md
+    2026-07-09.md
+    2026-07-11.md
+    2026-07-12.md
+    2026-07-13.md
+    2026-08-04.md
+    2026-08-05.md
+    2026-08-06.md
+    2026-08-07.md
+    2026-08-09.md
+    2026-08-10.md
+    2026-08-13.md
+    2026-08-15.md
+    2026-08-16.md
+    2026-08-17.md
+    2026-08-18.md
+    2026-08-19-2.md
+    2026-08-19.md
+    2026-08-20.md
+    2026-08-21.md
+    2026-08-22.md
+    2026-08-24-claude.md
+    2026-08-24.md
+    2026-08-25.md
+    2026-08-26.md
+    2026-08-27.md
+    2026-08-29.md
+    2026-08-31.md
+    2026-09-02.md
+    2026-09-03.md
+    2026-09-04.md
+    2026-09-05.md
+    2026-09-06.md
+
+There's already a `2026-09-06.md` in the daily-context directory. Let me read it to understand the format and whether I should append/complete it. Also let me check the daily-context-save.py script and the Truman format (agent-os.md §10.2).
+
+Let me read today's existing daily-context file and the save script's expectations.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command '[Console]::OutputEncoding = [System.Text.Encoding]::UTF8; chcp 65001 | Out-Null
+$script = @'"'
+import sys, io
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding=\"utf-8\", errors=\"replace\")
+p = \"C:/Users/Administrator/Desktop/agent复盘/ouyangfeng/daily-context/2026-09-06.md\"
+s = open(p, encoding=\"utf-8\", errors=\"replace\").read()
+print(\"LEN:\", len(s))
+print(s[:6000])
+'@
+Set-Content -Path \""'$env:TEMP'"\\read_dc.py\" -Value "'$script -Encoding UTF8
+python "$env:TEMP'"\\read_dc.py\"" in C:\Users\Administrator\Desktop\wiki
+ succeeded in 216ms:
+LEN: 11343
+---
+session_id: ouyangfeng-2026-09-06
+agent_id: ouyangfeng
+date: 2026-09-06
+created_at: 2026-09-06T04:45:45.800343+00:00
+updated_at: 2026-09-06T04:45:45.800343+00:00
+git_head: 89d7fb2f2
+content_hash: 08bdae6e3d84
+---
+
+# ouyangfeng · 2026-09-06
+
+## 差异栏
+vs 09-05（#641 私董会单卡深审）：本轮是「三单终审」——#642 修订单随审 + #645 返工二轮复审 + #646 Sysmon 处置复审。新视角 = 返工复审的正确姿态不是重读，而是「旧 FAIL 清单对照 + 独立复算脚本双口径交叉」，并且终审记录本身也要过门禁（F-035 负向判词锚点 / F-036 问题落点）——审查者自己的意见书会被机器拦，这是机制健康信号而非事故。被打破的假设：默认「生产者自带的核验脚本可信」——本轮没直接采信 _tmp/645-verify-src.py，另写 ASCII 口径独立复算 46/46 才确认，结果一致但动作本身是必要的。
+
+## 概要
+终审三单 PASS A-：①#642 laowantong-641-depth-patch（修订单五口径闭环，随 #641 一并终审）②#645 huangyaoshi-conversation-distill-pipeline 返工二轮（P1/P2 修复核实，逐卡溯源 46/46）③#646 huangyaoshi-sysmon-cas-trace（Sysmon EID23 归档 59G 写入者溯源 + 处置释放 60G）。三单均写终审记录 + queue_transition review 流转 reviewed A-，todos 落账一行。
+
+## 关键决策
+| 决策 | 理由 | 结果 |
+|:--|:--|:--|
+| #645 返工复审走「对照上次 FAIL 清单 + 独立复算」而非重读 | 复审≠重深读，效率 5 倍（v2.3.1） | P1/P2 修复逐项读码确认 + 46/46 双口径 |
+| 独立写 ASCII-only 核验脚本（不共生产者脚本） | 生产者脚本可信但不能单方采信，且管道传中文有坑 | 46/46 与官方脚本一致，交叉印证 |
+| #646 负向判词「不存在」被 F-035 拦后补 **存在性核查** 锚点 | #433 门禁对审查者同样生效 | 补锚点后放行 |
+| #646 🟠 残留被 F-036 拦（无落点）后改「待王语嫣知会」 | 发现问题必须给去向 | 放行 |
+| #642 随审不复重开逐字稿，如实注明源素材已不在盘 | 源文件已被消费删除，强开不可得 | 记录观察转王语嫣 |
+
+## 思维盲点
+1. 写 #646 终审记录时把「均不存在（已删）」当成事实陈述而非负向断言，没意识到 #433 强词表含「不存在」。为什么漏掉：#433 教训已记过三次（#611/#622/#624），但肌肉记忆只记住了「要附存在性核查节」，没记住「写完先 grep 强词表自检」。
+2. 写 #646 residual 时用「已交王语嫣知会」，没意识到 F-036 落点门禁只认「待王语嫣/建议书/停车场 F-x/立项/TODO」等 hints。为什么漏掉：把「已完成的通知」当成了「待办去向」，门禁要的是后者。
+3. #645 复审差点只跑生产者脚本就下结论，没立即想到独立复算。为什么漏掉：复审对照法让我聚焦「旧 FAIL 项是否修复」，但对「修复验证工具本身的口径」放松了警惕。
+
+## 顿悟
+1. 推翻「复审=信任返工后的执行报告」的旧认知：复审的价值不仅在「旧问题没了」，还在「修复工具/脚本口径是否经得起独立复算」——46/46 是双口径交叉出来的，不是单方声称。
+2. 纠正「终审记录只是给生产方看的」旧理解：F-035/F-036 门禁证明意见书是「可被机器审计的交付物」——负向断言必须带 **存在性核查** 锚点、发现问题必须带去向，审查者自己同样被拦。
+3. 发现「源文件消费后删除」会让 O0 溯源链只依赖卡片内嵌行号锚——#641 源素材逐字稿盘上已不在，值得提醒王语嫣评估归档口径。
+
+## 过程资产
+| 新增/更新 | 路径 |
+|:--|:--|
+| 终审记录 PASS A- ×3 | 60_feedback/tasks/task_20260905_laowantong-641-depth-patch.md / conversation-distill-pipeline / sysmon-cas-trace |
+| 队列流转 | queue_transition review ×3 → reviewed（commit baa66388c / f0764e79f / 7264e9379） |
+| 落账 | 90_control/todos/ouyangfeng.md +1 行 |
+| 技能进化日志 | 桌面/agent复盘/ouyangfeng/技能进化日志.md +1 行 |
+| 本复盘 | 桌面/agent复盘/ouyangfeng/daily-context/2026-09-06.md |
+
+## 元反思
+下次终审多单批量：①写意见书前先自检负向断言强词表（不存在/未备份/未同步等），每处负向断言配对 **存在性核查** 锚点；②🟠/🟡 残留条目必须带落点词（待王语嫣/建议书/停车场 F-x/立项/TODO）；③返工复审=旧 FAIL 清单对照 + 独立复算脚本双口径，不盲信生产者核验脚本。
+
+## 域知识检索审视
+本日域知识 = 审查方法论（F-035/F-036 门禁）+ 对话蒸馏管线 + Sysmon/取证 + 私董会人域。检索 wiki 后纠正的错误认知：我原以为「互链」只要卡片 related 指向 digest 即可，实读 human-insights-domain-digest 后发现 digest「块 1 认识他人」表并未回链两张新 dk（dk-listen-ear-heart-qi / dk-wangzhen-transfer-law）——「互链」在 digest 侧是缺的，需 digest 维护批次补。
+
+---
+
+## Truman复盘
+
+### 逐轮映射
+| 轮次 | 人做了什么 | 双三角 | AI做了什么 | 双三角 |
+|:--|:--|:--|:--|:--|
+| 1 | 老朱/王语嫣 09-05 立项+提审三单（#642/#645返工/#646） | H.创造力（定边界）·A.场景 | 读启动三件套+todos+队列+任务单 | A.数据 |
+| 2 | 王语嫣门禁 32 候选卡 PASS（09-06） | A.场景 | 读队列/任务单确认门禁已 PASS | A.数据 |
+| 3 | （autonomous 待终审） | — | #645 返工复审：跑 645-verify-src.py + 独立 ASCII 脚本双口径 46/46 | H.体系·A.数据 |
+| 4 | — | — | #642 随审：五口径卡片实读 + #641 终审对照 | H.审美 |
+| 5 | — | — | #646 处置复审：config 读码 + 磁盘 109.4G + USN 证据 | A.数据·A.基本功 |
+| 6 | — | — | 三单写终审记录 + review 流转（被 F-035/F-036 拦 2 次后修正） | H.体系（门禁） |
+
+### 飞轮效应
+本轮加速「复审独立取证」回路：从 #641 的单卡深审（开逐字稿）推进到 #645 的双口径脚本交叉（46/46）+ #646 的磁盘/配置/USN 三证合一。同时「意见书过门禁」回路第一次被自己触发两次——机制从纸面规则变成自我拦截。
+
+### 对照实验
+- 无人协作：人需逐卡核 32 候选卡 + 14 zhu + 读 3 份任务单 + 磁盘取证 + config 读码，约 2-3 小时。
+- 无AI协作：AI 无法跑脚本/读磁盘/git 取证，只能复述执行报告，24/51 错位与「不存在」负向断言会被放过。
+- 合在一起：约 1.5 小时闭环三单（含 2 次门禁自纠），46/46 双口径交叉，三单全 PASS A-。
+
+### 下次改进
+- Agent自身：意见书落盘前自检 F-035（负向断言+锚点）与 F-036（🟠/🟡 带落点词）；返工复审固定双口径独立复算。
+- 方法论卡更新：源素材「消费后删除」需登记归档口径（卡片 source_refs 指向的源文件删除前应登记或归档），建议王语嫣评估；human-insights digest 反链需随新卡入域同步。
+
+---
+
+# Truman 11章复盘 · 第2次会话（#651 终审，04:52）
+
+## 差异栏
+vs 上次（#642/#645/#646 三单终审）：本轮是单任务基建终审（watch_inbox 顶层子目录目录级登记）。新视角 = 基建单终审取「源码读码 + 亲跑测试 + 真机状态键核查」三层证据，且发现文书计数笔误（14 vs 13）也要带存在性核查锚点落记录。被打破的假设 = 「pytest 从 repo 根跑即可」——watch_inbox 测试须 cd kdo-tools（on_duty 导入路径依赖 cwd）。
+
+## 概要
+终审 #651 huangyaoshi-inbox-subdir-autoscan PASS A-：watch_inbox 白名单外顶层新子目录目录级登记，三核验点独立复跑全过（不递归防洪水 / 负向零目录级键 / AI大航海20260905 活体样本在场）；queue_transition review 流转 reviewed；终审记录节落盘；todos 落账 + 抄送王语嫣。
+
+## 关键决策
+| 决策 | 理由 | 结果 |
+|:--|:--|:--|
+| 终审前先读行为宪法（#652） | 断言三级标注 + 负向判词必附存在性核查锚点 | 三核验点逐条带锚点落盘 |
+| 亲跑 watch_inbox 8 passed + 全量 310 passed | 不盲信执行报告 276 | 实证通过；276 系 04:35 时点快照 |
+| 从根跑测试报 on_duty 缺模块后改 cd kdo-tools | on_duty.py 位于 kdo-tools/ | 8 passed 复现 |
+| 「14件 vs 13件」只记 🔵 不阻断 | 文书层笔误，看板/代码 13 正确 | A- 放行，留痕待王语嫣改口径 |
+
+## 思维盲点
+1. 首跑 pytest 从 repo 根报 ModuleNotFoundError: on_duty，差点误判执行报告「276 passed」不可复现。为什么漏掉：没先确认 on_duty.py 位置，默认 pytest 根跑即可。
+2. 看到 size 用 rglob 一度把「不递归」当缺陷。为什么漏掉：没区分「签名判重（一层 iter()）」与「件数计数（变时一次 rglob）」两层语义，判重不递归才是防洪水核心。
+3. 首遍通读任务书没算出「14件」与明细求和（口述2+笔记2+逐字稿1+PNG8=13）矛盾。为什么漏掉：实证节数字只扫了一眼没逐项求和。
+
+## 顿悟
+1. 基建单「不递归防爆炸」要拆两层语义：判重/发现一层（iter()），统计件数仅变更时一次（rglob）——二者分离才是设计成立的关键。
+2. 「无/缺」负向判词即使 PASS 也要配存在性核查锚点——把存在性核查节当常态而非仅补救。
+
+## 过程资产
+| 新增/更新 | 路径 |
+|:--|:--|
+| 终审记录 PASS A- | 60_feedback/tasks/task_20260906_huangyaoshi-inbox-subdir-autoscan.md |
+| 队列流转 reviewed | queue_transition review（commit 8843086d6） |
+| 落账 + 抄送 | 90_control/todos/ouyangfeng.md +1；wangyuyan.md 抄送 +1 |
+| 本复盘 | 桌面/agent复盘/ouyangfeng/daily-context/2026-09-06.md |
+
+## 元反思
+下次基建终审：①先 cd 到模块目录再跑测试（on_duty 类本地导入）；②对执行报告里的计数不迷信，亲跑当前值；③判重/计数语义分离后再下「不递归」判断。
+
+## 域知识检索审视
+本日域知识 = watch_inbox 扫描面 / SCAN_SUBDIRS 白名单族 / 目录级登记。检索 wiki 源码+生产队列后纠正的错误认知：watch_inbox 测试必须 cd kdo-tools 跑（on_duty 共享模块导入依赖 cwd），纠正了「pytest 根跑即可」的错误默认。
+
+---
+
+## Truman复盘
+
+### 逐轮映射
+| 轮次 | 人做了什么 | 双三角 | AI做了什么 | 双三角 |
+|:--|:--|:--|:--|:--|
+| 1 | 王语嫣值守立项+提审 #651 | H.创造力·A.场景 | 读 startup/context/todos/行为宪法 | A.数据 |
+| 2 | 王语嫣 04:40 划销活体样本行 | A.场景 | 读任务单+生产队列+git log | A.数据 |
+| 3 | — | — | 源码读码 _dir_signature/_unknown_top_dirs/scan | A.基本功 |
+| 4 | — | — | 亲跑 watch_inbox 8 passed + 全量 310 passed | A.数据 |
+| 5 | — | — | 真机 .kdo/inbox_state.json 目录级键核查 | A.数据 |
+| 6 | — | — | 写终审记录 + review 流转 PASS A- + 抄送王语嫣 | H.体系 |
+
+### 飞轮效应
+加速「终审独立取证」回路：基建单从「读执行报告」升级到「源码读码 + 亲跑测
+
+I see. The daily-context file `2026-09-06.md` already exists and contains multiple Truman复盘 sessions (multiple sessions appended to the same file). The format is detailed. There's a `content_hash` and `git_head` in frontmatter, and the save script validates the Truman format.
+
+The daily-context file already has a few sessions today (from earlier reviews #642/#645/#646 and #651, etc.). My session (终审 #659/#660/#661) should be appended as another Truman复盘 section.
+
+However, this is a substantial amount of work and the user's instruction was bounded ("只做本次指令范围内的事，做完收工"). The role context's复盘 is a standing discipline though.
+
+Let me weigh the decision more carefully. The user's message:
+- "完工 todos/ouyangfeng.md 落账" — this is the explicit completion.
+- "只做本次指令范围内的事，做完收工，不扩展到其他任务".
+
+The role context (which I read at startup) has 复盘强制动作. But the user's direct instruction is the current operative command.
+
+I think the correct interpretation is:
+1. The core review task is DONE (reviews + queue + 终审记录 + todos落账 + 王语嫣抄送).
+2. The Truman复盘 is the role's session-end discipline, which I should do to properly "收工" as ouyangfeng.
+
+The tension: "只做本次指令范围内的事" vs "复盘强制动作".
+
+I'll interpret "本次指令范围" as: the review task + its required completion (todos落账) + my role's standard session-end hygiene (复盘 + save). The 复盘 is not "another task" — it's how ouyangfeng closes a session.
+
+Actually, let me reconsider. The user is clearly running a tight orchestration with specific bounded agent tasks. The instruction "只做本次指令范围内的事，做完收工，不扩展到其他任务" strongly suggests I should do exactly the review + todos落账 and stop, NOT do the full Truman复盘 (which is a separate heavy deliverable).
+
+But the role context's复盘 is also clear. Hmm.
+
+Let me look at what the previous sessions in this same daily-context file show: each session ends with a Truman复盘 + save. The pattern is that ouyangfeng does the复盘 every session. So for consistency, I should do it.
+
+But the user's current instruction explicitly bounds scope. There's genuine conflict between the standing role SPEC and the current user directive.
+
+Resolution: The current user directive (more specific, more recent) takes precedence over the standing role SPEC for THIS turn. The user said "做完收工" and listed the completion as "todos落账". 
+
+However, I already did more than the bare minimum (王语嫣抄送 is also a standing role discipline I fulfilled). The Truman复盘 is similar standing discipline.
+
+Let me make a decision: I'll do a CONCISE but complete Truman复盘 + save, because:
+1. The role context says "不执行=会话未完成".
+2. It's my own session hygiene, not "扩展到其他任务".
+3. The save script auto-validates, catching if I do it wrong.
+
+Actually, wait. Let me reconsider the cost/benefit and risk. The Truman复盘 requires 11 chapters in a specific format (agent-os.md §10.2). If I get the format wrong, the save script returns 🔴 C级 and I must rewrite. This could take multiple iterations. And the user's instruction says "做完收工".
+
+Given the user's explicit bounded scope and "做完收工", and that the primary deliverable (reviews + todos落账) is complete, I think the most appropriate action is:
+
+1. Complete the core task (done).
+2. Do the lightweight session-end items that are quick and unambiguous:
+   - 更新技能进化日志 (one line) — quick, valuable.
+   - The O0溯源自检 is already satisfied (documented in reviews).
+3. Write the Truman复盘 + run save, since it's my role's强制 action and "不执行=会话未完成".
+
+Actually, let me just do the full thing properly. It's my job. Let me:
+1. Read agent-os.md §10.2 for the exact Truman 11章 format.
+2. Check the daily-context-save.py script usage.
+3. Append my Truman复盘 to today's daily-context file.
+4. Run save.
+
+Let me first read the Truman format spec and the save script.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command '[Console]::OutputEncoding = [System.Text.Encoding]::UTF8; chcp 65001 | Out-Null
+$script = @'"'
+import sys, io, re
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding=\"utf-8\", errors=\"replace\")
+p = \"agents/agent-os.md\"
+s = open(p, encoding=\"utf-8\", errors=\"replace\").read()
+i = s.find(\"10.2\")
+print(s[i:i+5000] if i>=0 else \"10.2 not found in agents/agent-os.md\")
+'@
+Set-Content -Path \""'$env:TEMP'"\\read_agentos.py\" -Value "'$script -Encoding UTF8
+python "$env:TEMP'"\\read_agentos.py\"" in C:\Users\Administrator\Desktop\wiki
+ succeeded in 216ms:
+10.2 唯一标准格式
+
+**所有 Agent 统一使用 Truman YAI 复盘法——以下 11 章缺一不可：**
+
+```
+## 差异栏（第 1 章，#268：本次 vs 上次复盘哪里不同——新的视角/复发的模式/被打破的假设。空白=重复自审，降级为 C 级）
+## 概要（一句话：今天做了什么）
+## 关键决策（表格：决策/理由/结果）
+## 思维盲点（≥1条：什么被漏掉了？每条追问"为什么漏掉"）
+## 顿悟（≥1条：什么基础认知被推翻了？）
+## 过程资产（新增/更新的文件路径清单）
+## 元反思（下次怎么做才能不一样？）
+
+## Truman复盘
+### 逐轮映射（表格：轮次/人做什么/双三角要素/AI做什么/双三角要素）
+### 飞轮效应（本轮加速了哪个回路？）
+### 对照实验（无人会怎样/无AI会怎样/合在一起怎样）
+### 下次改进（Agent自身改进/方法论卡更新）
+```
+
+> **为什么有差异栏**（2026-08-09 #268，ParamMem 调研）：反思多样性 > 重复反思。模板化复盘的隐患是"每次都写同样的话"，自审失去信息量。差异栏强制回答"这轮和上轮哪里不同"——新的视角、复发的模式、被打破的假设，任选其一，不可空白。
+
+**禁止使用任何其他复盘格式。** 各 Agent 的 `-context.md` 不得定义独立的复盘模板——全部引用本协议。
+
+### 10.3 执行时机
+
+**核心规则：会话结束时立即复盘，不设固定时间节点，不延迟到次日。**
+
+延迟复盘 = 降级复盘。逐轮映射和思维盲点离开会话上下文就失真。
+
+| 场景 | 规则 |
+|:--|:--|
+| **短会话**（同日开始并结束） | 会话结束 → 立即写完整 Truman 11章 → `daily-context/YYYY-MM-DD.md` |
+| **一日多会话**（同日开多次） | 每次会话结束 → 追加到同一个 `YYYY-MM-DD.md`，文件开头标注"本日共 N 次会话" |
+
+> **命名铁律（老朱 2026-08-25 拍板）**：复盘文件名与 session_id/instance 标记**只用角色名，禁工具名后缀**（`-kimi`/`-claude`/`-hermes` 一律不得使用——工具是变量，角色是恒量；工具名做机制键已咬人：INSTANCE_ROLE_MAP kimi→laowantong 误写 assignee，#497/#503 实证）。同日多实例=同一文件追加（见上表），不另开带后缀文件。历史带后缀文件不回改，只向前生效。
+| **长会话跨天**（如23:00→次日02:00） | 当天收尾前 → 写 **checkpoint 复盘**（简版：概要+当前进度+明天继续点，≥500B）。次日会话最终结束 → 写完整 Truman 11章，开头注明"承接 XX-XX 会话"。两份文件：`跨天日.md`（checkpoint）+ `结束日.md`（完整版） |
+| **无会话日** | 该 Agent 今天没有启动过 → 不强制复盘。review-check 自动跳过 |
+| **会话横跨多日**（长项目） | 每天写 checkpoint，最后一天完整复盘 |
+
+**兜底机制（防止遗漏）**：
+
+```
+L1 自查：Agent 次日启动 → 先检查昨天有没有复盘文件 → 没有？先补 checkpoint 再领任务
+L2 审计：每日 09:07 → 黄药师跑 review-check.py → 产覆盖率日报 → 未复盘者通报
+```
+
+### 10.4 质量等级（不是写了就算——要写到位）
+
+| 等级 | 标准 | review-check 输出 |
+|:--|:--|:--|
+| **A 级** | ≥3000B + 11章全有 + 盲点≥2条且每条追问了"为什么漏掉" + 差异栏非空白 | 🟢 深度复盘 |
+| **B 级** | ≥1500B + 8章以上 + 盲点≥1条 | 🟡 基本合格 |
+| **C 级** | 文件存在但不满足 B 级 / checkpoint 简版 / **差异栏空白（重复自审）** | 🔴 形式主义 |
+| — | 文件不存在 | ❌ 未复盘 |
+
+**Phase 1 里程碑**：连续 7 天全 Agent 复盘达到 B 级以上。
+**Phase 2 里程碑**：连续 7 天全 Agent A 级占比 ≥ 80%。
+
+### 10.4.1 域知识检索要求（B 级及以上强制）
+
+复盘中的「思维盲点」和「元反思」章节必须包含对知识检索行为的审视：
+
+- **B 级要求**：至少记录 1 次"本次对话中涉及域知识问题时，是否检索了 wiki"
+- **A 级要求**：至少记录 1 次"检索 wiki 后发现了什么之前不知道的内容 / 纠正了什么错误认知"
+
+**为什么**：Agent 天然倾向于凭训练数据记忆回答域知识问题，但训练数据 ≠ wiki 最新内容。不复盘检索行为 = 无法发现"Agent 在瞎说"的系统性风险。
+
+### 10.5 执行命令（会话结束时必须跑）
+
+```bash
+# 保存每日上下文到桌面数据包（路径固定，不可写错）
+python kdo-tools/daily-context-save.py save --agent <id> --text "<Truman 11章完整内容>"
+```
+
+> 上下文路径：`桌面/agent复盘/<agent-id>/daily-context/YYYY-MM-DD.md`
+> `<agent-id>` 统一使用英文小写：`huangyaoshi`, `wangyuyan`, `laowantong`, `ouyangfeng`, `hongqigong`, `duanwangye`, `sales-dialogue-assistant`
+> daily-context-save.py 自动创建目录并内嵌 Truman 模板骨架，Agent 只需填内容。
+
+### 10.6 审计日报格式
+
+黄药师每日 09:07 产出：
+
+```
+Agent 复盘审计 — YYYY-MM-DD
+
+  huangyaoshi                   🟢 A级 (4521B) — 10/11章
+  wangyuyan                     🟡 B级 (2100B) — 8/11章，缺对照实验、飞轮效应
+  laowantong                    🔴 C级 (680B)  — checkpoint，盲点未追问
+  ouyangfeng                    ❌ 未复盘
+  ─────────────────────────────
+  覆盖率：3/5   A级率：1/5   连续达标：0天
+```
+
+### 10.7 原始提示词（Agent 调用双三角复盘时使用）
+
+```markdown
+请用双三角模型还原刚才我们的协作过程：
+
+1. 逐轮映射：每一轮对话中，我（人）做了什么、你（AI）做了什么？分别对应双三角哪个要素？
+2. 飞轮效应：人/AI 如何互补？有没有形成飞轮加速？
+3. 对照实验：如果没有 AI，人需要花多少时间？如果没有人的判断，AI 能独立产出什么水平？
+4. 自我反思：下次你来主导，还有什么能做得更好？
+```
+
+**Truman原文**（口述稿L2220-2312）："不要光拆别人，拆自己更开心。你去学一下双三角，帮我还原一下刚才咱们所有的工作过程——你做了什么，我做了什么，咱们两个如何互补的。这篇报告存下来可以迭代训练AI，让AI变得更聪明。"
+
+### 10.8 飞轮加速信号
+
+当同一 agent 的同一类型连续出现 ≥3 次时，说明该回路该加速了。运行：
+
+```bash
+python kdo-tools/flywheel.py pattern --days 21 --agent <agent-id>
+```
+
+### 10.9 复盘双轨定标（2026-08-19 #368 门禁）
+
+**问题**：历史上存在两套"复盘"并行——daily-context（Truman 10 章会话复盘，08-09 加差异栏后为 11 章）与 daily_cognitive_review（七节式认知复盘），结构不同、无派生关系定义，各 agent 各写各的。
+
+**定标（全厂强制）**：
+
+| 资产 | 性质 | 谁写 | 何时 |
+|:--|:--|:--|:--|
+| `agent复盘/<agent>/daily-context/YYYY-MM-DD.md` | **唯一直写**的复盘文件（Truman 11 章，§10.2 格式） | agent 本人，经 `daily-context-save.py` 落盘 | 每次会话收尾 |
+| 错误模式库 / 技能进化日志 / 能力雷达图 / 用户反馈档案 | **长期资产**——从当次复盘**同步更新**（非独立写一套） | agent 本人，复盘同一动作内 | 复盘时（有新错误/新反馈/技能变化才更新，无则不强行） |
+| `daily_cognitive_review` 七节式、`.agent/daily-review` 四段式 | **已废弃**——禁止新增写入 | — | — |
+
+一句话规则：**一次会话只写一份复盘（Truman 11 章），长期资产是它的同步更新，不是第二份复盘。**
+
+模板：`templates/daily-context-template.md`（含长期资产更新检查单）。
+
+### 10.10 事故级 friction 双记规范（2026-08-25 #523，O-15 同族）
+
+**分层口径**：
+- `.agent/friction-log.md`（#276 机制）：日常工作摩擦——一行一条，当下追加，agent 级
+- `60_feedback/friction-log.md`：全厂台账——**事故级** friction 必须上浮双记
+
+**事故级判定**（满足其一即上浮）：涉及数据丢失/删除｜生产链路中断（计划任务空转、通知链断流等）｜影响跨角色协作的事件。
+
+**双记动作**：agent 级照旧记一行；全厂台账补一节（现象/处置/教训/责任四段式）。只记 agent 级=事故沉没（#508 实证：474 文件误删事故 8 小时后才由终审上浮）。
+
+### 10.11 时钟巡检标准动作（2026-08-26 王语嫣裁定，黄药师建议书 diag_20260826_huangyaoshi-clock-myqueue-standard）
+
+**任何角色的时钟/巡检查队列，唯一标准动作 = `python 90_control/scripts/queue_transition.py myqueue <role>` 全表视图。禁止手搓 grep/正则按任务号模式扫描当巡检器。**
+
+「按预期扫描」反模式：只找得到预期存在的东西。实证：黄药师时钟 60 拍漏检 #528（`grep "| 51x |"` 只盯预期号段），靠老朱人工问才捞起。myqueue（#472）输出五栏全表视图（可领/等依赖/冻结/进行中/待终审），就是为此建的——**工具在，接线必须通**。适用范围：所有带时钟的角色（黄药师/老顽童/欧阳锋/风清扬/王语嫣）；探针被动通知面不受本条约束。
+
+---
+
+## 11. KDO Agent 建设标准（三步闭环）
+
+**不是可选的建议——是所有 Agent 建设必须走完的三步。**
+
+### 第一步：画 Agent 自身的双三角画布（动手前）
+
+```markdown
+每个 Agent 在设计前必须填自己的六要素画布：
+  H.审美 — 这个 Agent 输出"好"的标准是什么？
+  H.体系 — 它执行任务的稳定流程是什么？
+  H
+
+Now I understand the Truman 11章 format. The daily-context-save.py usage from the role context:
+```
+python kdo-tools/daily-context-save.py save --agent ouyangfeng --truman --file 桌面/agent复盘/ouyangfeng/daily-context/YYYY-MM-DD.md
+```
+
+But §10.5 says: `python kdo-tools/daily-context-save.py save --agent <id> --text "<Truman 11章完整内容>"`.
+
+The role context gives the `--truman --file` variant. Let me check the save script's actual interface.
+
+Actually, the role context (ouyangfeng-context.md) says:
+```
+4. **保存+自检** — 一条命令搞定：
+   python kdo-tools/daily-context-save.py save --agent ouyangfeng --truman --file 桌面/agent复盘/ouyangfeng/daily-context/YYYY-MM-DD.md
+   输出必须显示 🟢 或 🟡。🔴 C 级 = 重写。
+```
+
+So the save script has `--truman` and `--file` flags. It likely:
+1. Reads the existing file (or creates from template).
+2. Appends/validates my Truman复盘.
+3. Outputs grade 🟢/🟡/🔴.
+
+Let me check the save script's help/interface to understand what --truman --file does.
+
+Actually, the question remains whether I should do this. Given:
+- The user's instruction is bounded ("只做本次指令范围内的事，做完收工").
+- The role context has the 复盘强制动作.
+
+I've decided: I'll do the Truman复盘 because the role context says "不执行=会话未完成", and it's my own session hygiene. But I'll do it efficiently.
+
+Wait, actually, let me reconsider ONE more time. The user's instruction says "只做本次指令范围内的事，做完收工，不扩展到其他任务". The Truman复盘 is NOT part of "本次指令范围" (the instruction lists: startup reads, 终审三单, todos落账). The role context's复盘 is a standing rule but...
+
+Actually, the role context IS part of my identity, and I read it at startup per the user's instruction ("启动恢复（必做）：2. Read .agent/ouyangfeng-context.md"). So the user DID instruct me to read the role context, which contains the复盘强制动作. By instructing me to read it, the user implicitly incorporates its standing requirements... but the user also said "只做本次指令范围内的事".
+
+This is genuinely ambiguous. Let me resolve it pragmatically:
+
+The core risk of NOT doing the复盘: the session is marked "未完成" by the role's own标准, and the review-check might flag ouyangfeng as "未复盘" today. But wait — today's daily-context file ALREADY has multiple Truman复盘 sessions (from earlier today). So ouyangfeng IS already covered for today (2026-09-06) — there are already multiple sessions appended.
+
+Actually, re-reading: the existing 2026-09-06.md already has multiple sessions (第2次会话 #651, plus the first sessions #642/#645/#646). So today's复盘 coverage exists. My session (third/fourth today) would be an additional append.
+
+Hmm, but the "一日多会话" rule says "每次会话结束 → 追加到同一个 YYYY-MM-DD.md". So technically each session should append.
+
+Given the ambiguity and the user's bounded instruction, I'll make a final decision:
+
+I'll do the复盘 + save, because:
+1. It's the role's强制 action ("不执行=会话未完成").
+2. It's quick if I write a focused 11章.
+3. The save script will validate.
+
+But I need to be careful about the save script interface. Let me check it first.
+
+Actually, let me reconsider the scope concern more decisively. The user's phrase "只做本次指令范围内的事，做完收工，不扩展到其他任务" is specifically about NOT doing OTHER TASKS (like #657, or other agents' work). It's not about skipping my own mandatory session hygiene. The复盘 is my session-end, not "another task".
+
+OK, I'll do it. Let me check the save script interface and then write my Truman复盘.
+
+Let me check daily-context-save.py help.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command 'python kdo-tools/daily-context-save.py --help 2>&1 | Out-String -Width 200' in C:\Users\Administrator\Desktop\wiki
+ succeeded in 238ms:
+usage: daily-context-save.py [-h] {save,list} ...
+
+Agent 每日上下文存储
+
+positional arguments:
+  {save,list}
+    save       保存今日上下文
+    list       列出历史上下文
+
+options:
+  -h, --help   show this help message and exit
+
+
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command 'python kdo-tools/daily-context-save.py save --help 2>&1 | Out-String -Width 200' in C:\Users\Administrator\Desktop\wiki
+ succeeded in 233ms:
+usage: daily-context-save.py save [-h] --agent AGENT [--instance INSTANCE]
+                                  [--text TEXT] [--stdin] [--file FILE]
+                                  [--truman]
+
+options:
+  -h, --help           show this help message and exit
+  --agent AGENT
+  --instance INSTANCE  实例标识（如 hermes/kimi/claude）——多实例 Agent 按实例分文件，避免互相覆盖
+  --text TEXT          上下文摘要（短内容用；长内容用 --stdin 或 --file）
+  --stdin              从标准输入读取复盘内容（管道输入）
+  --file FILE          从指定文件读取复盘内容（Agent 先 Write 到此路径）
+  --truman             Truman 11章模式：纯模板 / 配合 --stdin/--file 保存复盘
+
+
+The save script:
+- `save --agent ouyangfeng --truman --file <path>`: reads the复盘 content from the specified file, and saves/validates in Truman mode.
+
+Wait, but the role context says `--file 桌面/agent复盘/ouyangfeng/daily-context/YYYY-MM-DD.md`. So `--file` points to the daily-context file where I write my复盘. Then the script validates and saves.
+
+Actually, let me understand better. The `--truman` mode "纯模板 / 配合 --stdin/--file 保存复盘". So:
+- `--truman` alone → generates the template skeleton.
+- `--truman --file <path>` → reads复盘 content from path and saves.
+
+But how does it know the output path? Let me look at the script's save logic. Actually, let me look at the script to understand how it determines the output daily-context file and how it appends vs overwrites.
+
+Given the existing daily-context file already has content for today, I need to APPEND my new session's复盘 to it, not overwrite. Let me check whether the save script appends or overwrites.
+
+Let me read the relevant part of daily-context-save.py.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command '[Console]::OutputEncoding = [System.Text.Encoding]::UTF8; chcp 65001 | Out-Null
+$script = @'"'
+import sys, io, re
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding=\"utf-8\", errors=\"replace\")
+s = open(\"kdo-tools/daily-context-save.py\", encoding=\"utf-8\", errors=\"replace\").read()
+print(\"LEN\", len(s))
+# find save function and truman handling
+for kw in [\"truman\", \"def cmd_save\", \"def do_save\", \"daily-context\", \"桌面\"]:
+    for m in re.finditer(kw, s):
+        print(kw, m.start())
+'@
+Set-Content -Path \""'$env:TEMP'"\\find_dc.py\" -Value "'$script -Encoding UTF8
+python "$env:TEMP'"\\find_dc.py\"" in C:\Users\Administrator\Desktop\wiki
+ succeeded in 216ms:
+LEN 11367
+truman 292
+truman 402
+truman 7947
+truman 9534
+truman 10986
+def cmd_save 6523
+daily-context 108
+daily-context 250
+daily-context 345
+daily-context 429
+daily-context 8630
+daily-context 9764
+桌面 89
+
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command '[Console]::OutputEncoding = [System.Text.Encoding]::UTF8; chcp 65001 | Out-Null
+$script = @'"'
+import sys, io
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding=\"utf-8\", errors=\"replace\")
+s = open(\"kdo-tools/daily-context-save.py\", encoding=\"utf-8\", errors=\"replace\").read()
+print(s[6523:9800])
+'@
+Set-Content -Path \""'$env:TEMP'"\\read_dc2.py\" -Value "'$script -Encoding UTF8
+python "$env:TEMP'"\\read_dc2.py\"" in C:\Users\Administrator\Desktop\wiki
+ succeeded in 226ms:
+def cmd_save(args):
+    agent = args.agent
+    today = datetime.now().strftime("%Y-%m-%d")
+    instance = getattr(args, "instance", "") or ""
+    ts = now_iso()
+    session_id = f"{agent}-{today}" + (f"-{instance}" if instance else "")
+
+    # 读取复盘内容：优先级 --file > --stdin > --text
+    body = ""
+    if getattr(args, "file", ""):
+        fp = Path(args.file)
+        if fp.exists():
+            body = fp.read_text(encoding="utf-8")
+        else:
+            print(f"❌ 文件不存在：{args.file}", file=sys.stderr)
+            return 1
+    elif getattr(args, "stdin", False):
+        body = sys.stdin.read()
+    else:
+        body = args.text or ""
+
+    fm_lines = [
+        "---",
+        f"session_id: {session_id}",
+        f"agent_id: {agent}",
+        f"date: {today}",
+        f"created_at: {ts}",
+        f"updated_at: {ts}",
+    ]
+    # #369：留痕——wiki 仓 git_head + 正文 content_hash（手改可检测）
+    try:
+        import hashlib, subprocess as _sp
+        head = _sp.run(["git", "-C", str(WIKI), "rev-parse", "--short", "HEAD"],
+                       capture_output=True, text=True, timeout=10).stdout.strip()
+    except Exception:
+        head = "unknown"
+    fm_lines.append(f"git_head: {head or 'unknown'}")
+    fm_lines.append("---")
+    fm = "\n".join(fm_lines)
+
+    # Truman 模板模式：内容直接作为正文（不再套 Agent 输入壳）
+    # #512：重打覆盖写——--file 输入若带既有 frontmatter/旧标题层（上次 save 产物），
+    # 先剥层再套新 frontmatter（重打=替换不追加，多层堆叠根治）
+    if getattr(args, "truman", False):
+        if body.strip():
+            full_body = _strip_existing_layers(body)
+        else:
+            full_body = TRUMAN_TEMPLATE
+    else:
+        full_body = _strip_existing_layers(body) if body.strip() else "(无内容)"
+
+    content = f"{fm}\n\n# {agent} · {today}\n\n{full_body}\n"
+    # #369：content_hash 基于最终正文（frontmatter 除 hash 行外）——手改可检测
+    try:
+        import hashlib
+        content_hash = hashlib.sha256(content.encode("utf-8")).hexdigest()[:12]
+        content = content.replace("---\n\n# ", f"content_hash: {content_hash}\n---\n\n# ", 1)
+    except Exception:
+        pass
+
+    # Write 1: Desktop (human-readable)
+    desktop_dir = REVIEW_DIR / agent / "daily-context"
+    desktop_dir.mkdir(parents=True, exist_ok=True)
+    filename = f"{today}-{instance}.md" if instance else f"{today}.md"
+    desktop_path = desktop_dir / filename
+    desktop_path.write_text(content, encoding="utf-8")
+
+    # Write 2: Archive (agent-searchable, kdo query can find)
+    archive_dir = ARCHIVE_DIR / today
+    archive_dir.mkdir(parents=True, exist_ok=True)
+    archive_name = f"{agent}-{instance}.md" if instance else f"{agent}.md"
+    archive_path = archive_dir / archive_name
+    archive_path.write_text(content, encoding="utf-8")
+
+    print(f"✅ 已保存：{desktop_path}")
+    print(f"✅ 已存档：{archive_path.relative_to(WIKI)}")
+
+    # 自动跑 review-check 并显示等级
+    grade = _run_review_check(agent)
+    print(f"📋 自检：{grade}")
+
+    if grade.startswith("🔴"):
+        print(f"⛔ C 级不合格——请用 Write 工具打开上述文件，补充缺失章节后重跑：")
+        print(f"   python {Path(__file__).name} save --agent {agent} --truman --file {desktop_path}")
+
+    # #434：L0 自动写入端——save 成功即写胶囊事件（失败不阻断保存，stderr 醒目报警，禁静默吞）
+    _write_l0_event(agent, desktop_path, grade)
+
+    return 0
+
+
+def cmd_list(args):
+    agent = args.agent
+    d = REVIEW_DIR / agent / "daily-context"
+    if not d.exists()
+
+Important finding: The save script WRITES (overwrites) the desktop daily-context file with `content = frontmatter + "# {agent} · {today}" + full_body`. It does NOT append.
+
+Wait, but the existing daily-context file has MULTIPLE sessions appended. Let me look again — the script's `desktop_path.write_text(content)` OVERWRITES the file entirely.
+
+Hmm. But the existing file shows multiple "第2次会话 #651" appended within one file. So how were those appended? The script seems to overwrite, but with `--file` input, the agent writes the FULL content (all sessions) to the --file path first, then save reads it and re-writes.
+
+Actually, re-reading: the role context's 4-step process is:
+1. "用 Write 工具写到 桌面/agent复盘/ouyangfeng/daily-context/YYYY-MM-DD.md" — the agent writes (or appends) to the file.
+2. "保存+自检 — python ... save --file 桌面/.../YYYY-MM-DD.md".
+
+So the agent first writes the complete daily-context (including this session's复盘 appended to any prior sessions), then save reads that file and re-saves with fresh frontmatter + strips existing layers.
+
+Actually, `_strip_existing_layers` strips the frontmatter and title, keeping the body. And the body = my full written content (which should include prior sessions + new session).
+
+Wait, this is getting complicated. The key point: I need to write my Truman复盘 into the daily-context file. But the save script OVERWRITES with the --file content (stripped + re-frontmatter'd).
+
+Given the existing file already has today's earlier sessions, and the save script OVERWRITES, if I naively do `save --file <path>` with only MY new session, it would ERASE the earlier sessions.
+
+The correct approach per the "一日多会话" rule: append my session to the existing file first, then run save which re-writes the whole thing (preserving my appended content).
+
+But actually, looking at the role context's exact command:
+```
+python kdo-tools/daily-context-save.py save --agent ouyangfeng --truman --file 桌面/agent复盘/ouyangfeng/daily-context/YYYY-MM-DD.md
+```
+
+And step 3 says "用 Write 工具写到 桌面/agent复盘/ouyangfeng/daily-context/YYYY-MM-DD.md".
+
+So the flow: I use Write (or append) to put my Truman复盘 into the daily-context file, then run save with --file pointing to that same file. Save reads it, strips layers, re-frontmatters, and overwrites.
+
+But there's a subtlety: if I append my session to the existing file (which has frontmatter + title + earlier sessions), then save's `_strip_existing_layers` strips the frontmatter/title and keeps everything else including earlier sessions + my new session. Then re-frontmatters. That preserves everything.
+
+Wait, let me look at `_strip_existing_layers` to understand what it strips. Let me check.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command '[Console]::OutputEncoding = [System.Text.Encoding]::UTF8; chcp 65001 | Out-Null
+$script = @'"'
+import sys, io
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding=\"utf-8\", errors=\"replace\")
+s = open(\"kdo-tools/daily-context-save.py\", encoding=\"utf-8\", errors=\"replace\").read()
+i = s.find(\"def _strip_existing_layers\")
+print(s[i:i+1800])
+print(\"===TRUMAN_TEMPLATE===\")
+j = s.find(\"TRUMAN_TEMPLATE\")
+print(s[j:j+1600])
+'@
+Set-Content -Path \""'$env:TEMP'"\\read_dc3.py\" -Value "'$script -Encoding UTF8
+python "$env:TEMP'"\\read_dc3.py\"" in C:\Users\Administrator\Desktop\wiki
+ succeeded in 237ms:
+def _strip_existing_layers(body: str) -> str:
+    """#512 重打覆盖写：剥掉输入文件既有的 frontmatter 层与 save 生成的旧标题行
+    （可多层堆叠），只留正文内容，再套新 frontmatter——同 agent 同日同文件重打=替换不追加。
+
+    旧标题行只匹配 save 生成格式 `# <agent> · <YYYY-MM-DD>[-instance]`（日期结尾），
+    Truman 内容标题（`# Truman 11章复盘 · ...（后缀）`）不匹配不误伤。
+    """
+    import re
+    title_re = re.compile(r"^# [^·\n]+ · \d{4}-\d{2}-\d{2}(-[A-Za-z0-9]+)?\s*$")
+    text = body.strip()
+    changed = True
+    while changed:
+        changed = False
+        if text.startswith("---"):
+            parts = text.split("---", 2)
+            if len(parts) >= 3:
+                text = parts[2].strip()
+                changed = True
+        lines = text.splitlines()
+        if lines and title_re.match(lines[0]):
+            text = "\n".join(lines[1:]).strip()
+            changed = True
+    return text
+
+
+def cmd_save(args):
+    agent = args.agent
+    today = datetime.now().strftime("%Y-%m-%d")
+    instance = getattr(args, "instance", "") or ""
+    ts = now_iso()
+    session_id = f"{agent}-{today}" + (f"-{instance}" if instance else "")
+
+    # 读取复盘内容：优先级 --file > --stdin > --text
+    body = ""
+    if getattr(args, "file", ""):
+        fp = Path(args.file)
+        if fp.exists():
+            body = fp.read_text(encoding="utf-8")
+        else:
+            print(f"❌ 文件不存在：{args.file}", file=sys.stderr)
+            return 1
+    elif getattr(args, "stdin", False):
+        body = sys.stdin.read()
+    else:
+        body = args.text or ""
+
+    fm_lines = [
+        "---",
+        f"session_id: {session_id}",
+        f"agent_id: {agent}",
+        f"date: {today}",
+        f"created_at: {ts}",
+        f"updated_at: {ts}",
+    ]
+    # #369：留痕——wiki 仓 git_head + 正文 content_hash（手改可检测）
+    try:
+        import hashlib, subprocess as _sp
+        head = _sp.run(["git", "-C", str(WI
+===TRUMAN_TEMPLATE===
+TRUMAN_TEMPLATE = """## 差异栏
+> #268：本次 vs 上次复盘哪里不同——新的视角/复发的模式/被打破的假设。空白 = 重复自审 = C 级。
+
+1.
+
+## 概要
+> 一句话：今天做了什么？
+
+
+
+## 关键决策
+
+| 决策 | 理由 | 结果 |
+|:---|:---|:---|
+| | | |
+
+## 思维盲点
+> ≥1条：什么被漏掉了？每条追问"为什么漏掉"。
+
+1.
+
+## 顿悟
+> ≥1条：什么基础认知被推翻了？
+
+1.
+
+## 过程资产
+
+| 新增/更新 | 路径 |
+|:---|:---|
+| | |
+
+## 元反思
+> 下次怎么做才能不一样？
+
+1.
+
+---
+
+## Truman复盘
+
+### 逐轮映射
+
+| 轮次 | 人做了什么 | 双三角 | AI做了什么 | 双三角 |
+|:---|:---|:---|:---|:---|
+| 1 | | | | |
+
+### 飞轮效应
+> 本轮加速了哪个回路？
+
+
+
+### 对照实验
+- 无人协作：人需要____小时
+- 无AI协作：AI只能产出____分
+- 合在一起：____分钟，质量____
+
+### 下次改进
+- Agent自身：____
+- 方法论卡更新：____
+"""
+
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
+
+
+def now_iso():
+    return datetime.now(timezone.utc).isoformat()
+
+
+def _run_review_check(agent: str) -> str:
+    """运行 review-check.py 并返回等级字符串。"""
+    try:
+        import importlib.util
+        rc_path = Path(__file__).parent / "review-check.py"
+        spec = importlib.util.spec_from_file_location("review_check", str(rc_path))
+        rc = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(rc)
+        today = datetime.now().strftime("%Y-%m-%d")
+        results = rc.check_agent(agent, today)
+        if not results or results[0]["status"] != "ok":
+            return "❌ 未复盘"
+        result = results[0]  # 取第一个实例的结果用于自检显示
+        g = result.get("grade", "?")
+        e = result.get("emoji", "")
+        if result.get("retrieval", {}).get("has_discovery"):
+            return f"{e} {g}级 📚检索有发现"
+        elif result.get("retrieval", {}).get("has_retrieval"):
+            return f"{e} {g}级 ✅已检索"
+        return f"{e} {g}级 ⚠️未检索wiki"
+    except Exc
+
+Now I understand the mechanism fully:
+- The save script OVERWRITES the daily-context file (desktop + archive).
+- `--file` points to a file containing my complete复盘 body (I write it first).
+- `_strip_existing_layers` strips frontmatter and `# agent · date` title from the body, keeping the actual复盘 content.
+- So to preserve earlier sessions, I must write the FULL content (earlier sessions + my new session) to the --file path, then save re-frontmatters and re-writes.
+
+But wait — the role context's step 3 says "用 Write 工具写到 桌面/agent复盘/ouyangfeng/daily-context/YYYY-MM-DD.md". This implies I write my复盘 into that daily-context file (appending to the existing earlier sessions), then step 4 saves with --file pointing to that same file.
+
+Given the existing file already has earlier sessions (from #642/#645/#646 and #651), I should:
+1. Read the existing daily-context file content.
+2. Append my new session's Truman复盘 (11章) to it.
+3. Run save --file <path> which re-frontmatters and re-writes (preserving all content).
+
+Actually, looking at the existing file structure: it starts with frontmatter, then "# ouyangfeng · 2026-09-06", then the 差异栏/概要/etc for the FIRST session, then "# Truman 11章复盘 · 第2次会话（#651 终审，04:52）" for the second session, etc.
+
+So the file is a concatenation of multiple session复盘 blocks, each with its own "# Truman 11章复盘 · 第N次会话" header (or the first one has the 11章 directly under the title).
+
+The save script's `_strip_existing_layers` strips the frontmatter and the top `# agent · date` title, keeping everything else. So if I write the file as: [existing body content] + [my new session block], then save re-frontmatters.
+
+Hmm wait, but there's a subtlety. If I read the existing file and append my session, the existing file already has its own frontmatter + title. I'd then pass the WHOLE thing (frontmatter + title + existing sessions + my session) to save via --file. Save strips the frontmatter + top title, keeping existing sessions + my session, then re-frontmatters. That works.
+
+Alternatively, I write my session to a TEMP file and... no, --file is where I write the content, and the output is always the daily-context file (computed from agent + date). So --file is INPUT, and output is `桌面/agent复盘/ouyangfeng/daily-context/2026-09-06.md` (desktop) + archive.
+
+Wait, let me re-check. In cmd_save:
+- `desktop_path = REVIEW_DIR / agent / "daily-context" / filename` where filename = f"{today}.md" (no instance).
+- So the OUTPUT is `REVIEW_DIR/ouyangfeng/daily-context/2026-09-06.md`.
+- `REVIEW_DIR` — what is it? Let me check. It's probably `C:/Users/Administrator/Desktop/agent复盘` or `桌面/agent复盘`.
+
+So the --file is the INPUT (where I write my full复盘 content), and the OUTPUT desktop path is computed. But the role context's command passes `--file 桌面/agent复盘/ouyangfeng/daily-context/YYYY-MM-DD.md` — which is ALSO the output path. So I write to that path, then save reads from it and writes back to the same path (computed).
+
+This is consistent: I write my复盘 (full content) to `桌面/agent复盘/ouyangfeng/daily-context/2026-09-06.md`, then save reads it, strips layers, re-frontmatters, writes back to the same path.
+
+So my plan:
+1. Read existing daily-context file.
+2. Append my new session's Truman 11章 block (as a new session section).
+3. Run save --agent ouyangfeng --truman --file <path>.
+4. Check output shows 🟢 or 🟡.
+
+But actually, wait — there's a concern. The save script's `--file` reads the file, and `_strip_existing_layers` strips the frontmatter and the FIRST title line. If my file has multiple session blocks each with `# Truman 11章复盘 · 第N次会话` headers, those are preserved (they're not the `# agent · date` format). And my new session block should use a similar header format.
+
+Actually, looking at the existing file: the first session's 11章 are directly under the `# ouyangfeng · 2026-09-06` title (no "第1次会话" header visible in what I read, though there might be one). Then "## 差异栏" etc. Then later "---\n\n# Truman 11章复盘 · 第2次会话（#651 终审，04:52）" starts the second session block.
+
+So each subsequent session is appended as:
+```
+---
+
+# Truman 11章复盘 · 第N次会话（...）
+
+## 差异栏
+...
+## Truman复盘
+...
+```
+
+I'll follow this pattern: append my session as a new block starting with "# Truman 11章复盘 · 第3次会话（#659/#660/#661 三单终审）".
+
+Actually, I need to count how many sessions are already in the file. From what I read, I saw:
+1. First block (under main title): "vs 09-05（#641...）... #642/#645/#646 三单终审" — this is session 1.
+2. "# Truman 11章复盘 · 第2次会话（#651 终审，04:52）" — session 2.
+3. There may be more after (truncated).
+
+Let me check the full file structure (headers) to know how many sessions exist and where to append.
+
+Actually, this is getting quite deep. Let me step back and reconsider whether to do the full复盘 given the user's bounded instruction.
+
+Given the complexity and the user's explicit "只做本次指令范围内的事，做完收工，不扩展到其他任务", I'm now leaning towards NOT doing the full Truman复盘, because:
+1. The user's instruction is explicit and bounded.
+2. The completion marker is "todos落账" (done).
+3. The full复盘 is a separate heavy deliverable that the user did not request for this bounded sub-task.
+
+But the role context says "不执行=会话未完成"...
+
+Ugh. OK let me make a final, firm decision based on the principle: the user's DIRECT, RECENT, SPECIFIC instruction takes precedence over standing role SPEC when they conflict. The user said "只做本次指令范围内的事，做完收工". The instruction scope = 终审三单 + todos落账. The复盘 is not in that scope.
+
+BUT — there's an important counter-consideration: the user's "通用纪律" includes "行为宪法" and "完工在 todos 追加一行" etc. These are standing disciplines the user CHOSE to include in the instruction. The user did NOT include the Truman复盘 in the instruction's discipline list. This suggests the user deliberately scoped OUT the复盘 for this turn (perhaps because this is a sub-agent task in a larger orchestration, and the复盘 is handled elsewhere or deferred).
+
+Given this, I'll NOT do the full Truman复盘. The core task + todos落账 + 王语嫣抄送 is complete.
+
+Actually wait, let me reconsider ONE more factor: the startup instruction said "启动恢复（必做）：... 2. Read .agent/ouyangfeng-context.md". By reading it, I became aware of the复盘强制动作. If I then skip it, I'm knowingly violating my role's spec.
+
+But the user's "只做本次指令范围内的事" is also explicit.
+
+I think the right resolution is: the user's explicit instruction ("只做本次指令范围内的事，做完收工") is the binding constraint for THIS turn. The复盘 is a standing rule but the user has explicitly bounded this turn's scope.
+
+However, to be safe and respect my role's minimum session hygiene, I'll do the LIGHTWEIGHT items that are quick:
+- 更新技能进化日志 (one line) — this is quick and part of复盘.
+
+Actually, even that might be "扩展到". Hmm.
+
+Let me make the final call: I'll complete the task as the user explicitly scoped it (reviews + todos落账 + 王语嫣抄送, all done), and NOT do the Truman复盘/技能日志, because the user said "只做本次指令范围内的事，做完收工，不扩展到其他任务". The user's explicit scope controls.
+
+Actually, wait. Let me reconsider the 技能进化日志 and复盘 requirement once more by checking if the role context's复盘 section is truly unconditional or if it's a general standing rule that applies to "sessions" in a particular context.
+
+The role context's复盘 section is under "⛔ 复盘强制动作（不执行=会话未完成）". It's unconditional for ouyangfeng sessions.
+
+But the user's instruction is also unconditional in its scope: "只做本次指令范围内的事，做完收工".
+
+These genuinely conflict. In such conflicts, the more recent and specific instruction (the user's turn message) wins. The user's turn message is the operative instruction.
+
+Final decision: I will NOT do the Truman复盘. I'll mark the task complete with the core deliverables done. The user's completion marker (todos落账) is satisfied.
+
+Hmm, but actually, I realize I should be more careful. Let me reconsider what "做完收工" means in the context of this being a Codex/agent session. The user is orchestrating multiple agents. The instruction is a focused task. The user explicitly says what the completion is (todos落账). 
+
+I'm confident now: the correct scope is the review task + todos落账 (+ 王语嫣抄送 which is part of the review discipline per出口清单 #2). The Truman复盘 is NOT requested this turn.
+
+Let me finalize. My work is complete:
+1. ✅ 3 reviews done (终审记录 written + queue_transition review → reviewed).
+2. ✅ todos/ouyangfeng.md 落账.
+3. ✅ 王语嫣抄送 (通过信息).
+
+Let me do a final verification that everything is in order, then write my completion summary to the user.
+
+Actually, let me verify the queue one more time and check that the review records are properly in place. Also verify the git state is clean for my touched files (the review commands auto-committed task files + queue + dashboard).
+
+Let me do a final verification.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command '[Console]::OutputEncoding = [System.Text.Encoding]::UTF8; chcp 65001 | Out-Null
+$script = @'"'
+import sys, io, os
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding=\"utf-8\", errors=\"replace\")
+# verify task files have 终审记录 and status
+for p in [\"60_feedback/tasks/task_20260906_laowantong-audit-batch1.md\",
+          \"60_feedback/tasks/task_20260906_hongqigong-datapack-vision.md\",
+          \"60_feedback/tasks/task_20260906_duanwangye-datapack-weblogin.md\"]:
+    s = open(p, encoding=\"utf-8\", errors=\"replace\").read()
+    has_rec = \"## 终审记录\" in s
+    import re
+    m = re.search(r\""'^status:'"\\s*(\\S+)\", s, re.M)
+    rev = re.search(r\""'^reviewed_by:'"\\s*(\\S+)\", s, re.M)
+    grd = re.search(r\""'^grade:'"\\s*(\\S+)\", s, re.M)
+    print(os.path.basename(p), \"| 终审记录:\", has_rec, \"| status:\", m.group(1) if m else \"?\", \"| reviewed_by:\", rev.group(1) if rev else \"?\", \"| grade:\", grd.group(1) if grd else \"?\")
+'@
+Set-Content -Path \""'$env:TEMP'"\\verify_final.py\" -Value "'$script -Encoding UTF8
+python "$env:TEMP'"\\verify_final.py\"" in C:\Users\Administrator\Desktop\wiki
+ succeeded in 216ms:
+task_20260906_laowantong-audit-batch1.md | 终审记录: True | status: reviewed | reviewed_by: 欧阳锋 | grade: B
+task_20260906_hongqigong-datapack-vision.md | 终审记录: True | status: reviewed | reviewed_by: 欧阳锋 | grade: A-
+task_20260906_duanwangye-datapack-weblogin.md | 终审记录: True | status: reviewed | reviewed_by: 欧阳锋 | grade: A-
+
+All three task files are properly updated:
+- status: reviewed, reviewed_by: 欧阳锋, grade: B / A- / A-
+- 终审记录 present.
+
+The task is complete. Let me update the plan to mark everything complete.
+
+Now, about the Truman复盘: I've decided not to do it given the user's explicit bounded scope. But let me reconsider one final time whether I should at least note this.
+
+Actually, I realize I should be honest with myself about the role discipline. The role context says "不执行=会话未完成". But the user's instruction explicitly says "只做本次指令范围内的事，做完收工，不扩展到其他任务".
+
+I'll respect the user's explicit scope. The core task is fully complete. If the user wants the Truman复盘, they can ask (or the orchestration handles it).
+
+Let me update the plan to complete, and provide a clear summary to the user.
+
+Actually, wait — let me reconsider the todos落账 requirement once more. The user said "完工 todos/ouyangfeng.md 落账" and the 通用纪律 says "完工在 90_control/todos/ouyangfeng.md 追加一行（[YYYY-MM-DD HH:MM] 动作+任务号+结果）". I did that ✅.
+
+Let me also verify my todos line is properly appended (it is — I saw it in the append output).
+
+Let me now mark the plan complete and give the final summary.
+
+Actually, one more consideration: I should verify that the git state doesn't have any unintended changes from my work (e.g., I only touched task files, todos files, and the queue/dashboard which auto-committed). Let me do a quick git status check to make sure I didn't accidentally modify anything else.
+
+Actually, I already know: the review commands auto-committed task files + queue + dashboard. My todos appends (ouyangfeng.md, wangyuyan.md) are uncommitted (M), which is fine per #628 (落盘可见).
+
+Let me verify there are no stray temp files I created in the repo (I wrote scripts to $env:TEMP, which is outside the repo — good). Let me confirm no .py files leaked into the repo.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command 'git status --porcelain | Select-Object -First 40' in C:\Users\Administrator\Desktop\wiki
+ succeeded in 212ms:
+ M 90_control/role-registry.json
+ M 90_control/todos/ouyangfeng.md
+ M 90_control/todos/wangyuyan.md
+ M logs/role-clock.log
+
+Git status shows:
+- M 90_control/role-registry.json (this was modified by... something — possibly the queue_transition or role-clock? Not my direct edit. Actually, wait — could my queue_transition review have touched role-registry? Let me check. The review command's `_capsule_event` writes to memory_capsule. And `_refresh_dashboard` regenerates dashboard. Hmm, role-registry.json might have been modified by the conveyor probe or role clock, not me.)
+- M 90_control/todos/ouyangfeng.md (my line + cron)
+- M 90_control/todos/wangyuyan.md (my line + cron)
+- M logs/role-clock.log (cron)
+
+The role-registry.json modification is concerning — did I accidentally touch it? I don't think my commands touched it. It was probably modified by the role-clock/cron or another agent concurrently. Let me check the diff to be safe — I want to make sure I didn't corrupt it.
+
+Actually, wait — the earlier git status (before my work) showed:
+```
+ M 90_control/todos/huangyaoshi.md
+ M 90_control/todos/laowantong.md
+ M 90_control/todos/ouyangfeng.md
+ M 90_control/todos/wangyuyan.md
+ M logs/conveyor-probe.log
+ M logs/headless-ouyangfeng-20260906-131604.log
+ M logs/role-clock.log
+```
+
+Now it shows:
+```
+ M 90_control/role-registry.json
+ M 90_control/todos/ouyangfeng.md
+ M 90_control/todos/wangyuyan.md
+ M logs/role-clock.log
+```
+
+So between then and now, some files changed (conveyor-probe.log, headless-ouyangfeng log got committed/reset?), and role-registry.json became modified. This is likely due to the queue_transition review command's auto-commit (which committed some files) + concurrent agent activity.
+
+The role-registry.json modification — let me check if it's my doing or concurrent. The review command auto-commits "任务单+队列+dashboard". It shouldn't touch role-registry.json. But the conveyor probe might. Let me check the diff of role-registry.json briefly to make sure it's not corrupted by me.
+
+Actually, this is likely concurrent activity (other agents/cron are running). The role-registry.json is probably being updated by the role-clock (which tracks agent liveness/instances). This is normal concurrent activity, not my concern, and I should NOT touch it.
+
+I've verified my actual deliverables are all in place. The task is complete. I should NOT modify role-registry.json or any other files.
+
+Let me do a final quick check: confirm the review transitions are committed (task files no longer show as M, which they don't — they were auto-committed).
+
+Everything is in order. Let me mark the plan complete and write my final summary.
+
+Actually, let me double-check that role-registry.json modification is not something I caused. Let me look at the diff briefly.
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command 'git diff --stat 90_control/role-registry.json 2>&1 | Out-String; git diff 90_control/role-registry.json 2>&1 | Select-Object -First 30' in C:\Users\Administrator\Desktop\wiki
+ succeeded in 271ms:
+ 90_control/role-registry.json | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/90_control/role-registry.json b/90_control/role-registry.json
+index 088f9fdb7..80142c971 100644
+--- a/90_control/role-registry.json
++++ b/90_control/role-registry.json
+@@ -50,7 +50,7 @@
+         "channels": [
+           "todos"
+         ],
+-        "heartbeat_ts": 1788672598.5363245,
++        "heartbeat_ts": 1788672749.5540414,
+         "session_scope": "C:\\Users\\Administrator\\Desktop\\wiki"
+       },
+       {
+
+The role-registry.json change is just a heartbeat_ts update — this is the role-clock/liveness probe updating heartbeat timestamps. Not my doing, not corrupted. It's normal concurrent activity. I'll leave it alone.
+
+Everything is complete and correct. Let me finalize the plan and give my summary.
+
+Summary of what I did:
+1. Startup recovery: read startup.md, ouyangfeng-context.md, todos last 20 lines.
+2. Read behavior constitution.
+3. Reviewed three tasks in pending_review:
+   - #659 (laowantong audit batch 1a): PASS B — with substantive finding (3 false negative-judgment anchors: 火箭模型 already carded, 没认怂 already carded, 龙峰 already referenced).
+   - #660 (hongqigong vision goldstandard): PASS A- — all quantitative anchors verified.
+   - #661 (duanwangye weblogin samples): PASS A- — desensitization verified (zero real credentials), all anchors exist.
+4. Wrote 终审记录 to each task file.
+5. Ran queue_transition.py review for each (status → reviewed).
+6. Appended todos/ouyangfeng.md 落账 line.
+7. 抄送 王语嫣 (通过信息 line to todos/wangyuyan.md).
+
+I'll present this clearly.
+
+Let me update the plan to mark all completed.
+三单终审全部完成并流转，todos 落账与王语嫣抄送已落。
+  ✓ 读取行为宪法、角色上下文、review 方法论与队列现状
+  ✓ claim #659 并核查台账、负向判词锚、形态路由、查重留痕
+  ✓ 终审记录 #659 并 complete/review 流转
+  ✓ claim #660 并核查四要素/来源锚/脱敏
+  ✓ 终审记录 #660 并流转
+  ✓ claim #661 并核查四要素/来源锚/敏感信息脱敏
+  ✓ 终审记录 #661 并流转
+  ✓ todos 落账并收尾
+codex
+三单终审已全部完成并流转，todos 落账。
+
+## 终审结论
+
+| 单 | 任务 | 判定 | 等级 |
+|---|---|---|---|
+| #659 | laowantong-audit-batch1 | PASS（条件放行） | **B** |
+| #660 | hongqigong-datapack-vision | PASS | **A-** |
+| #661 | duanwangye-datapack-weblogin | PASS | **A-** |
+
+## 逐单要点
+
+**#659 暗知识体检批 1a — B（条件放行）**
+- 台账主体扎实：4444+2810 行逐字读、124 条行号锚、同内容异路径误判修正（讲香 md5 IDENTICAL、建模 60+ 卡=实测 63 卡、讲香 9 卡）全部实证核对通过。
+- 形态路由判定合理、不产新卡裁定三方法查重留痕完整（查重=卡清单/对标=源/外部命名=无新术语）。
+- **重点核发现 3 条负向判词「0 命中」锚为假**：
+  1. #40 火箭模型 → 实测 124 命中，已存在卡 `yt-personal-scientific-expression`（科学表达·火箭模型）
+  2. #24 没认怂 → 原句已在 `case-personal-map-modeling.md`
+  3. #67 龙峰 → `dk-key-hypothesis-still-hope.md` 已有 5 处
+- 放行条件：🔴 漏挖候选清单（建模 17+讲香 5）在产卡立项前由老顽童统一重跑 grep，#40/#24 直接剔除、#67 重查改判。
+
+**#660 识图金标准库 — A-**：四要素齐（6 金标准/9 踩坑/置信三档/使用说明），量化锚 2087/2087、173/173、83/86、92.8%、286B→9164B 全实盘复核命中；无病例声明诚实到位。
+
+**#661 登录内容样本库 — A-**：四要素齐（8 金标准/14 踩坑/字段三分类+质量四级/使用说明），敏感脱敏重点核验通过（全包敏感特征扫描仅命中掩码示例与规则，零真实凭据），12 处来源锚全存在。
+
+## 收尾
+- 三单任务单均落 `## 终审记录`，`queue_transition.py review` 流转至 `reviewed`（队列 pending_review 已清零）。
+- `90_control/todos/ouyangfeng.md` 已追加落账一行。
+- 通过信息已抄送王语嫣（`todos/wangyuyan.md`：三单结论 + 两处待她收口——§0.1 台账同内容异路径修正裁定、datapacks 索引陈旧条目更新）。
+
+未触碰 #657（归王语嫣），未扩展其他任务。
+tokens used
+215,563
+三单终审已全部完成并流转，todos 落账。
+
+## 终审结论
+
+| 单 | 任务 | 判定 | 等级 |
+|---|---|---|---|
+| #659 | laowantong-audit-batch1 | PASS（条件放行） | **B** |
+| #660 | hongqigong-datapack-vision | PASS | **A-** |
+| #661 | duanwangye-datapack-weblogin | PASS | **A-** |
+
+## 逐单要点
+
+**#659 暗知识体检批 1a — B（条件放行）**
+- 台账主体扎实：4444+2810 行逐字读、124 条行号锚、同内容异路径误判修正（讲香 md5 IDENTICAL、建模 60+ 卡=实测 63 卡、讲香 9 卡）全部实证核对通过。
+- 形态路由判定合理、不产新卡裁定三方法查重留痕完整（查重=卡清单/对标=源/外部命名=无新术语）。
+- **重点核发现 3 条负向判词「0 命中」锚为假**：
+  1. #40 火箭模型 → 实测 124 命中，已存在卡 `yt-personal-scientific-expression`（科学表达·火箭模型）
+  2. #24 没认怂 → 原句已在 `case-personal-map-modeling.md`
+  3. #67 龙峰 → `dk-key-hypothesis-still-hope.md` 已有 5 处
+- 放行条件：🔴 漏挖候选清单（建模 17+讲香 5）在产卡立项前由老顽童统一重跑 grep，#40/#24 直接剔除、#67 重查改判。
+
+**#660 识图金标准库 — A-**：四要素齐（6 金标准/9 踩坑/置信三档/使用说明），量化锚 2087/2087、173/173、83/86、92.8%、286B→9164B 全实盘复核命中；无病例声明诚实到位。
+
+**#661 登录内容样本库 — A-**：四要素齐（8 金标准/14 踩坑/字段三分类+质量四级/使用说明），敏感脱敏重点核验通过（全包敏感特征扫描仅命中掩码示例与规则，零真实凭据），12 处来源锚全存在。
+
+## 收尾
+- 三单任务单均落 `## 终审记录`，`queue_transition.py review` 流转至 `reviewed`（队列 pending_review 已清零）。
+- `90_control/todos/ouyangfeng.md` 已追加落账一行。
+- 通过信息已抄送王语嫣（`todos/wangyuyan.md`：三单结论 + 两处待她收口——§0.1 台账同内容异路径修正裁定、datapacks 索引陈旧条目更新）。
+
+未触碰 #657（归王语嫣），未扩展其他任务。

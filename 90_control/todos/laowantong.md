@@ -587,3 +587,4 @@
 - [2026-09-06 13:07] ✅ #659 批1a完成生产：建模培训(4444行)+讲香基本功(2810行)逐字读初挖，金矿台账124条行号锚交付（60_feedback/diagnosis/working/a1-batch1a-goldmine-ledger.md，commit e361c4062）——台账A级零产出对两件均证伪(60+/9卡，同内容异路径漏计)+漏挖候选建模17/讲香5(全附grep锚)+不新建framework裁定；pre-submit PASS → 提审 pending_review（双落盘已验证）；1b/1c 待审后继续
 - [2026-09-06 13:12] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#660（hongqigong 的单，挂审 18min）；#661（duanwangye 的单，挂审 18min）；#659（laowantong 的单，挂审 6min）（到点（节奏 15min））
 - [2026-09-06 13:27] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#660（hongqigong 的单，挂审 33min）；#661（duanwangye 的单，挂审 33min）（到点（节奏 15min））
+- [2026-09-06 13:37] ✅ KDO 终审通过 3 单：#659, #660, #661——你的单过了，见任务单终审记录

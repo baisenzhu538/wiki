@@ -802,3 +802,5 @@
 - [2026-09-06 13:07] 🔔 KDO 新提审 1 单：#659，请终审（新提审）
 - [2026-09-06 13:17] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#660（hongqigong 的单，挂审 23min）；#661（duanwangye 的单，挂审 23min）（事件驱动：有待终审）
 - [2026-09-06 13:27] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#660（hongqigong 的单，挂审 33min）；#661（duanwangye 的单，挂审 33min）（事件驱动：有待终审）
+
+- [2026-09-06 13:32] 终审三单（今日双线收官批）：#659 laowantong-audit-batch1 PASS B（台账逐字读 124 条行号锚主体扎实；负向判词核查锚 3 条为假——#40 火箭模型已卡化 yt-personal-scientific-expression、#24 没认怂已在 case-personal-map-modeling、#67 龙峰已在 dk-key-hypothesis-still-hope，🔴 漏挖候选清单产卡立项前须重跑 grep 剔除/改判；形态路由+不产新卡查重三方法留痕均合理）；#660 hongqigong-datapack-vision PASS A-（四要素齐+量化锚 2087/2087/173/173/83/86/92.8% 全实盘复核+无病例声明诚实边界）；#661 duanwangye-datapack-weblogin PASS A-（四要素齐+敏感脱敏零真实凭据+12 锚全存在；🔵 标题 7 组 vs 8 组 + datapacks 索引陈旧条目待王语嫣收口）
