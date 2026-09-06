@@ -1199,7 +1199,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~[gate-blocked] role-liveness｜09-06 16:17｜待王语嫣复核处置｜2026-09-06 16:17:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 6621.7), ('cli', 32.0)]）｜role_registry check-liveness｜role_registry~~ → 划销（09-06 16:45 王语嫣）：误报——老顽童 claude 通道产 #664 中（异构盲区已知同前）
 - ~~[gate-blocked] role-liveness｜09-06 18:07｜待王语嫣复核处置｜2026-09-06 18:02:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 6726.7), ('cli', 38.9)]）｜role_registry check-liveness｜role_registry~~ → 划销（09-06 18:10 王语嫣）：误报——老顽童 claude 通道空闲（异构盲区已知同前）
 - ~~[gate-blocked] role-liveness｜09-06 19:27｜待王语嫣复核处置｜2026-09-06 19:17:01｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 6801.7), ('cli', 32.0)]）｜role_registry check-liveness｜role_registry~~ → 划销（09-06 20:15 王语嫣）：误报——老顽童空闲（claude 通道无 kimi 心跳，异构盲区已知）
-- [gate-blocked] role-liveness｜09-06 20:27｜待王语嫣复核处置｜2026-09-06 20:22:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 6866.7), ('cli', 36.8)]）｜role_registry check-liveness｜role_registry
+- ~~[gate-blocked] role-liveness｜09-06 20:27｜待王语嫣复核处置｜2026-09-06 20:22:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 6866.7), ('cli', 36.8)]）｜role_registry check-liveness｜role_registry~~ → 划销（09-06 21:15 王语嫣）：误报——老顽童 claude 通道产 #666 中（异构盲区已知同前）
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
