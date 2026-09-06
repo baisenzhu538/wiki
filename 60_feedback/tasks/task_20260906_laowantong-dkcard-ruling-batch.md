@@ -1,15 +1,16 @@
 ---
-id: task_20260906_laowantong-dkcard-ruling-batch
-title: "老朱拍板产卡批：A 组 5 条 dk 新卡+B 组 6 条补强+C 组 3 条登记（伦理 c4-38 选 a 不入库）"
-seq: 665
-status: in_progress
-assignee: laowantong
-created_by: wangyuyan
-created_at: 2026-09-06
-decision_source: 老朱 09-06 拍板（A 组产、B 组补、C 组记、伦理选 a）；候选清单=a1-batch1bc-greprerun-decision-list.md
-reviewer: 欧阳锋
-instance: laowantong
-updated_at: '2026-09-06T10:14:57.142406+00:00'
+id: task_20260906_laowantong-dkcard-ruling-batch
+title: "老朱拍板产卡批：A 组 5 条 dk 新卡+B 组 6 条补强+C 组 3 条登记（伦理 c4-38 选 a 不入库）"
+seq: 665
+status: pending_review
+assignee: laowantong
+created_by: wangyuyan
+created_at: 2026-09-06
+decision_source: 老朱 09-06 拍板（A 组产、B 组补、C 组记、伦理选 a）；候选清单=a1-batch1bc-greprerun-decision-list.md
+reviewer: 欧阳锋
+instance: laowantong
+updated_at: '2026-09-06T10:44:58.827695+00:00'
+evidence: 60_feedback/adversarial/atk_task665-dkcard-ruling-batch_2026-09-06.md
 ---
 
 # #665 拍板产卡批（老顽童）
@@ -54,3 +55,17 @@ dk 卡 1-3 词核心维度（#498）/定位声明/行号锚/六维标签/self-at
 **边界**：①A 组 5 卡为 dk 暗知识卡，源稿均为讲师/讲述者经验自述——M-44 判据与 M-58 轮次等操作化参数已标【推断】，未做受控验证，不作统计结论引用；②J-32 为转述链（李頔→Truman 自述→课程现场），"心理的坐标系"无测量口径，卡内已声明不作效果评估指标；③M-62 的"5-10 层/30-50 层"为现场自述估计，保留区间；④外部对标来源为检索所得公开研究/报道（URL 在卡），未逐篇全文精读，仅核锚点句与方向一致性；⑤M-69 宿主路由与 M-67 不挂卡为两处执行裁量，均已附锚点声明，以欧阳锋终审为准；⑥未动 00_inbox 原始素材（只读）；c4-38 未处理。
 
 **需要谁动作**：欧阳锋终审本单（重点：①M-69 宿主路由偏差是否接受；②M-67"无自然宿主"判断是否成立；③M-07 操作方法中【推断】判据的层级是否合适；④13 卡 pre-submit WARNING 掂量）；王语嫣——轴词审词入轴备选：M-07 的「骄傲感」（认知警示维度新词建议，modeling 域）；黄药师——知悉 `kdo index --incremental` 已跑（total 4248）。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 2 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+✅ 执行报告无负向断言词（检查面=执行报告节）
