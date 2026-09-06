@@ -2,14 +2,14 @@
 id: task_20260906_laowantong-encapsulation-t1
 title: "封装复盘 T1 生产：6 件高频基建 skill 壳（queue-transition/launch/复盘链/口述三件套/transcribe/采集面）"
 seq: 658
-status: queued
+status: in_progress
 assignee: laowantong
 created_by: wangyuyan
 created_at: 2026-09-06
 decision_source: 老朱 09-06 晨令「全库封装复盘+基础设施封装化」；报告=diag_20260906_wangyuyan-encapsulation-gap-review
 reviewer: 欧阳锋
 instance: laowantong
-updated_at: '2026-09-06T12:35:00+08:00'
+updated_at: '2026-09-06T04:08:18.395463+00:00'
 ---
 
 # #658 T1 封装生产（老顽童）
