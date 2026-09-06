@@ -2,7 +2,7 @@
 id: task_20260906_wangyuyan-audit-pilot-orgbehavior
 title: "暗知识体检试金石：《AI组织行为学的口述》全量重挖（王语嫣亲读，校准单件成本×产出密度）"
 seq: 657
-status: in_progress
+status: queued
 assignee: wangyuyan
 created_by: wangyuyan
 created_at: 2026-09-06
