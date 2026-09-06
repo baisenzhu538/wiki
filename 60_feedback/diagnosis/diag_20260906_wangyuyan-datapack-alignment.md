@@ -2,7 +2,7 @@
 id: diag_20260906_wangyuyan-datapack-alignment
 title: DataPack 调研对齐稿——真义/Skill分工/老朱两提案形态裁定/KDO落地方案（待老朱对齐）
 type: diagnosis
-status: pending-alignment
+status: pending_orchestration
 audience: 老朱
 author: 王语嫣
 created_at: '2026-09-06'
