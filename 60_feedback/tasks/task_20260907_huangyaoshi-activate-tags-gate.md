@@ -1,16 +1,17 @@
 ---
-id: task_20260907_huangyaoshi-activate-tags-gate
-title: "激活 pre-submit _check_tags 门禁（检查器已存在未接线 L821）+ dk 1-3 词维度规则"
-seq: 677
-status: pending_review
-assignee: huangyaoshi
-created_by: wangyuyan
-created_at: 2026-09-07
-decision_source: 老朱三连问（标签有门禁吗/欧阳锋为何没查/其他角色呢）——检查器在未接线实锤（pre_submit.py L821 注释）
-reviewer: 欧阳锋
-instance: huangyaoshi
-updated_at: '2026-09-07T01:01:16.986303+00:00'
+id: task_20260907_huangyaoshi-activate-tags-gate
+title: "激活 pre-submit _check_tags 门禁（检查器已存在未接线 L821）+ dk 1-3 词维度规则"
+seq: 677
+status: queued
+assignee: huangyaoshi
+created_by: wangyuyan
+created_at: 2026-09-07
+decision_source: 老朱三连问（标签有门禁吗/欧阳锋为何没查/其他角色呢）——检查器在未接线实锤（pre_submit.py L821 注释）
+reviewer: 欧阳锋
+instance: huangyaoshi
+updated_at: '2026-09-07T01:39:12.284191+00:00'
 evidence: logs/task677-tags-gate-evidence-20260907.md
+rework: true
 ---
 
 # #677 激活 tags 门禁（黄药师，一行接线+规则扩展）
@@ -59,3 +60,49 @@ evidence: logs/task677-tags-gate-evidence-20260907.md
 ### ③ 负向判词 / ④ 存在性核查
 
 🔴 意见书含负向断言（丢失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
+
+## 终审记录（欧阳锋 · 2026-09-07）
+
+**结论：FAIL（打回，P1）——普通卡词量口径计数错误（误伤约 504 张合规卡）+「缺陷态复现」存在性核查失效，两处需返工修正**
+
+**四重点核（对齐本单审查指令）**：
+1. **① _check_tags 真实接线** ✅【实证】：`run_pre_submit` 内 `all_issues.extend(_check_tags(root, target_files))`（commit 0c44c12，`kdo/pre_submit.py` run_pre_submit 段，try/except 包裹）；我独立 import 调用 `_check_tags` 实测返回 issue 列表，非死代码。
+2. **② dk 1-3 词规则** ✅【实证】：dk 卡核心词（非 `:` 条目）1-3，与 #498 裁定（`90_control/tags-vocab-design.md` §词量口径分卡型 + `task_20260824_laowantong-dk-tags-word-count-caliber.md`）一致；新回归 15/15 含 `test_dk_core_word_band`。
+3. **③ 两态设计** ✅【实证】：`TAGS_HARD_DATE="2026-09-14"` + env `KDO_TAGS_HARD_DATE` 可提前；我实测 env=2026-01-01 → severity=error、档位 HARD。
+4. **④ 零 tags 复现 WARNING**：功能层 ✅（`test_zero_tags_dk_card_warns_in_soft_window` 15/15 绿 + 我独立合成零 tags dk 卡实测 1 条 warning）；但「活体 git 历史复现」存在性核查失效 ❌（见 P1-2）。
+
+**发现问题（结构化四节）**：
+
+**P0（严重）**：无
+
+**P1（重大）**：
+1. **普通卡 5-8 词量口径计数错误——前缀维度标签被计入词量**：`elif not 5 <= len(tags) <= 8` 计全部条目（含 audience:/scene:/skill-level: 前缀维度），与 #498「5-8 跨轴词=内容词」裁定矛盾。实测 `graph-rag.md`（3 前缀 + 7 内容词 = 10 总条目）被误报「tags 10 条…5-8 跨轴词」——该卡在 #498 复审（2026-08-25 欧阳锋）按「7 内容词」判定 5-8 达标。全库扫描（多行 tags 块口径）：1633 张中 504 张为误报候选（内容词 5-8 但总条目 >8）。软期 WARNING 尚不拦截，09-14 升 HARD 后将硬拦大量合规卡。
+2. **「缺陷态复现（活体）」存在性核查失效**：证据 `git show 4179de376^:<卡> | grep -c "^tags:"`=0/0 被用作「零 tags 缺陷态」实证，但两 dk 卡在 `4179de376`（09-06 18:31 backup）创建时已带 7 条 tags，`4179de376^` 是父提交、文件在其中不存在——0/0 是「文件不存在」而非「零 tags」。零 tags 状态未进入 git 历史，活体复现不成立。
+
+**P2（一般）**：
+1. **标杆卡 meeting-iceberg 的「合规」判定建立在错误计数上**：`framework-meeting-iceberg-canvas.md` tags=2 前缀 + 4 内容词（机制/框架/工具/复盘），按 #498 内容词口径 4<5 本就不合规；「标杆卡 6 条合规」系计全部条目的错误读法。
+
+**字段级定位**：
+- `kdo/pre_submit.py` `_check_tags` 普通卡分支 `elif not 5 <= len(tags) <= 8`（commit 0c44c12）——应改计内容词 `words = [t for t in tags if ":" not in t]`，判 `5 <= len(words) <= 8`，与 dk 卡核心词口径对称。
+- `logs/task677-tags-gate-evidence-20260907.md` §验证记录 4「缺陷态复现」+ 任务单执行报告「存在性核查」段——活体复现改为合成零 tags 卡（单测已证）或补真实零 tags 卡重跑，删去/改正 `4179de376^` 误证。
+
+**证据**：
+- graph-rag.md tags 块直读（10 条目=3 前缀+7 内容词）+ 我独立 `_check_tags` 实测 1 条「5-8」误报；#498 复审记录「graph-rag tags 块实测 7 内容词…5-8 区间达标」原文（`task_20260824_laowantong-dk-tags-word-count-caliber.md` 复审记录节）。
+- `git show 4179de376:30_wiki/dark-knowledges/dk-ai-stronger-need-to-know-what-you-want.md` 实测含 7 条 tags；`git show 4179de376^:<同卡>` 报 `path does not exist in '4179de376^'`。
+- 全库扫描脚本：1633 张带 tags 卡中 504 张为「内容词 5-8 但总条目 >8」误报候选。
+
+**期望形态**：
+1. 普通卡词量改计内容词（非 `:` 条目）5-8，dk 卡维持核心词 1-3——两卡型口径对称；graph-rag（7 内容词）不再误报；标杆卡若按 4 内容词不合规，则不作为「合规标杆」（或先补至 5 内容词）。
+2. 缺陷态复现改真实路径：合成零 tags 卡 + 单测实证（已有），或在 git 历史中确证真实零 tags 卡版本；删除「`4179de376^` 0/0」误证。
+3. 两处修正后重提 review。
+
+**存在性核查**（本意见书负向断言证据，#433）：
+- 「graph-rag 被误报」→ 核查：我独立 import `_check_tags` 对 `30_wiki/concepts/graph-rag.md` 实测返回 1 条 warning（tags 10 条）。
+- 「两 dk 卡创建时已带 tags」→ 核查：`git show 4179de376:<dk-ai-...md>` 实测 tags 块 7 条目。
+- 「4179de376^ 文件不存在」→ 核查：`git show 4179de376^:<同卡>` 报 `fatal: path ... does not exist in '4179de376^'`。
+- 「#498 内容词口径」→ 核查：`task_20260824_laowantong-dk-tags-word-count-caliber.md` 复审记录「7 内容词…5-8 区间达标」原文。
+- 「504 张误报候选」→ 核查：Python 扫描 `30_wiki/**/*.md`，`5<=内容词<=8 且 总条目>8` 计数 504。
+
+**残余风险**：即便两处修正，09-14 HARD 后存量不合规卡（含内容词<5 的卡）将批量进入治理队列——需内容侧（老顽童/王语嫣）在软期窗口内分批补标。
+
+*欧阳锋 · 2026-09-07 · FAIL（P1）*
