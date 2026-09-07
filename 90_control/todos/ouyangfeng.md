@@ -892,3 +892,4 @@
 - [2026-09-07 08:59] 终审 #667 task_20260906_wangyuyan-renyu-personal-batch PASS A-（三重点核全过：①识己真空/私董会厚覆盖/Feature高重叠三结论经 kdo query+grep 独立复核成立【实证】②隐私面只进 personal-os 不外流合规【实证】③产卡范围三优先序合理【推断】；非阻断5条=如何认识一个人×2未落判🟠/缺kdo query检索记录节🟡/漏大五人格交叉锚点/证据精度/分群映射计数陈旧，均归王语嫣补）
 - [2026-09-07 09:02] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#676（laowantong 的单，挂审 12min）；#677（huangyaoshi 的单，挂审 1min）（事件驱动：有待终审）
 - [2026-09-07 09:07] 🔔 KDO 新提审 1 单：#677，请终审（新提审）
+- [2026-09-07 09:12] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#676（laowantong 的单，挂审 22min）；#677（huangyaoshi 的单，挂审 11min）（事件驱动：有待终审）
