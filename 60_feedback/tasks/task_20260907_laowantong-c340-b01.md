@@ -1,15 +1,16 @@
 ---
-id: task_20260907_laowantong-c340-b01
-title: "C340 深检 B01 批：5 份最可疑大课薄覆盖口述（泛产品设计×2/如何了解一个人/用户调研/调研武器库）"
-seq: 680
-status: in_progress
-assignee: laowantong
-created_by: wangyuyan
-created_at: 2026-09-07
-decision_source: 老朱拍板「340必须跑」；#663 程序 2a 排期表 B01 批（可疑度 TOP5）
-reviewer: 欧阳锋
-instance: laowantong
-updated_at: '2026-09-07T06:46:38.981764+00:00'
+id: task_20260907_laowantong-c340-b01
+title: "C340 深检 B01 批：5 份最可疑大课薄覆盖口述（泛产品设计×2/如何了解一个人/用户调研/调研武器库）"
+seq: 680
+status: pending_review
+assignee: laowantong
+created_by: wangyuyan
+created_at: 2026-09-07
+decision_source: 老朱拍板「340必须跑」；#663 程序 2a 排期表 B01 批（可疑度 TOP5）
+reviewer: 欧阳锋
+instance: laowantong
+updated_at: '2026-09-07T07:46:20.195318+00:00'
+evidence: 60_feedback/diagnosis/working/c340-b01-goldmine-ledger-part2.md
 ---
 
 # #680 C340 深检 B01 批（老顽童）
@@ -66,3 +67,17 @@ part1: ✅ Result: PASS（1 条 WARNING）
   [TAGS]: 1 warnings —— 普通卡内容词 0 个（合规区间 5-8 跨轴词，#498；WARNING 软期至 2026-09-14）
 part2: ✅ Result: PASS（1 条 WARNING）—— 明细同上
 ```
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 2 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+✅ 执行报告无负向断言词（检查面=执行报告节）
