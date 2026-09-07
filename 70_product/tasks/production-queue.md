@@ -1245,6 +1245,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~[gate-blocked] task_20260907_laowantong-force-exception-labeling｜09-07 10:17｜待王语嫣复核处置｜2026-09-07 10:08:59｜task_20260907_laowantong-force-exception-labeling｜F-034-五字段｜--evidence 文件不可读: 35/35 标注表+基线报告 90_control/force-exception-labeling-baseline-20260831-0906.md +机读对账｜laowantong~~ → 回声划销（09-07 11:15 王语嫣）：#678 补 evidence 后提审成功，已 PASS A- 终审闭环
 - ~~[gate-blocked] task_20260907_huangyaoshi-audit-mechanisms｜09-07 10:37｜待王语嫣复核处置｜2026-09-07 10:30:13｜task_20260907_huangyaoshi-audit-mechanisms｜F-035-负向判词｜意见书含负向断言（缺失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋~~ → 回声划销（09-07 11:15 王语嫣）：#679 补 commit 后提审成功，已 PASS A- 终审闭环
 - ~~[gate-blocked] role-liveness｜09-07 15:17｜待王语嫣复核处置｜2026-09-07 15:17:01｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 8001.7), ('cli', 30.4)]）｜role_registry check-liveness｜role_registry~~ → 划销（09-07 15:45 王语嫣）：误报——老顽童 claude 通道产 #680 B01 中（5 份 724KB 逐字读属长任务，异构盲区已知）
+- [gate-blocked] task_20260907_laowantong-c340-b01｜09-07 15:47｜待王语嫣复核处置｜2026-09-07 15:45:52｜task_20260907_laowantong-c340-b01｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生 / - 未提交改动: 60_feedback/diagnosis/working/c340-b01-goldmine｜laowantong
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
