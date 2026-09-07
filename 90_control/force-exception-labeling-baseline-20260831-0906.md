@@ -5,7 +5,7 @@ type: improvement-plan
 status: reviewed
 domain: infrastructure
 author: 老顽童
-reviewed_by: 待欧阳锋终审（王语嫣抽 5 复核）
+reviewed_by: 欧阳锋（王语嫣抽 5 复核双签在案，2026-09-07 终审 PASS A-）
 confidence: 0.9
 trust_level: high
 created_at: '2026-09-07'
