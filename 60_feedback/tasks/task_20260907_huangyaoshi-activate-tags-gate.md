@@ -8,7 +8,7 @@ title: "激活 pre-submit _check_tags 门禁（检查器已存在未接线 L821�
 seq: 677
 
 
-status: pending_review
+status: reviewed
 assignee: huangyaoshi
 
 
@@ -25,10 +25,13 @@ reviewer: 欧阳锋
 
 
 instance: huangyaoshi
-updated_at: '2026-09-07T02:09:42.142822+00:00'
-evidence: logs/task677-tags-gate-rework-evidence-20260907.md
+updated_at: '2026-09-07T02:30:03.556960+00:00'
+evidence: logs/task677-tags-gate-rework-evidence-20260907.md
 
 rework: true
+reviewed_by: 欧阳锋
+review_date: '2026-09-07'
+grade: A-
 ---
 
 # #677 激活 tags 门禁（黄药师，一行接线+规则扩展）
@@ -143,4 +146,22 @@ rework: true
 - 「git 历史存在真实零 tags 卡」→ `git show 3051d146e:30_wiki/concepts/ai-collaboration-mindset-shift.md` frontmatter 无 `tags:` 行、type=concept；扫描样本 49 张
 - 「现行盘上无可复现零 tags 受检卡」→ 全库扫描零 tags 且非 index/meta/log/system 卡=0 张（唯一零 tags 非索引卡 personal-os/zhu-conversation-insights.md 为 type: system，门禁跳过）——活体复现必须走 git 历史
 - 「graph-rag 修后不误报」→ `run_pre_submit` 实跑 tags_gate_issues=0；「meeting-iceberg 内容词 4 报警」→ 同法实跑 tags_gate_issues=1
+
+## 终审记录（欧阳锋 · 2026-09-07 · 复审轮）
+
+**结论：PASS A-——两处 P1 修正全部独立复验成立，P2 如实改判正确，返工质量高**
+
+**复审对照法**：对上轮 FAIL 清单逐项独立复验，未命中处不深读——三项全部命中修复：
+
+1. **P1-1 内容词口径** ✅【实证】：`kdo/pre_submit.py` `_check_tags` 普通卡分支 commit `1a7a2e2`（KDO 仓 HEAD，10:07:44 < 提审 10:09，版本对齐③过）改计 `len([t for t in tags if ":" not in t])`，判 `5 <= n_content <= 8`，与 dk 核心词口径对称——与上轮期望形态逐字一致。我独立 import `_check_tags` 实测：graph-rag（3 前缀+7 内容词，tags 块直读）→ **0 issue**（上轮误报根治）；meeting-iceberg → 1 warning「内容词 4 个」；env `KDO_TAGS_HARD_DATE=2026-01-01` 翻转 severity=error（两态未动）。
+2. **P1-2 活体复现** ✅【实证】：`4179de376^` 0/0 误证已删（返工证据 §3 误证删除声明）；新复现路径 `git show 3051d146e:30_wiki/concepts/ai-collaboration-mindset-shift.md` 我独立物化实测——frontmatter 无 `tags:` 行、type=concept，`_check_tags` 返回 warning「No tags found」——git 历史真实缺陷态复现成立，非合成卡。
+3. **P2 标杆卡改判** ✅【实证】：meeting-iceberg tags 块我直读 = 2 前缀（audience:general/scene:meeting）+ 4 内容词（机制/框架/工具/复盘），按 #498 内容词口径 4<5 **本就不合规**——黄药师如实改判「不再作合规样板」正确，补标归内容侧（不改别人卡片，边界守住了）。
+
+**独立加验**：①回归 16/16 我独立复跑通过；②证据 §6 存量量化我独立复算**逐位一致**（受检 2916 / 内容词<5 共 2064 / 5-8 共 840 / >8 共 12 / 零 tags 0）——该数字将驱动内容侧治理排期，已可信；③误报候选 546 vs 上轮我 504 差集=扫描范围，已声明且不影响门禁行为。
+
+**残余风险**（非本单缺陷，移交编排）：09-14 tags 升 HARD 当天，2064 张内容词<5 存量若无治理进度将开始拦截提审——千张级需王语嫣分域排批次（证据 §6 已给规模）。
+
+**通过维度**：溯源验证（修复点全部独立复现）/ TDD 纪律（红4→绿16）/ 证据闭环（存在性核查锚点齐全）/ 边界诚实（如实改判+存量量化）/ 两态机制不变声明。
+
+*欧阳锋 · 2026-09-07 · PASS A-（methodology v2.3 · 复审对照法）*
 
