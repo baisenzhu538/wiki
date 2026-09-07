@@ -1,16 +1,16 @@
 ---
-id: task_20260907_huangyaoshi-activate-tags-gate
-title: "激活 pre-submit _check_tags 门禁（检查器已存在未接线 L821）+ dk 1-3 词维度规则"
-seq: 677
-status: queued
-assignee: huangyaoshi
-created_by: wangyuyan
-created_at: 2026-09-07
-decision_source: 老朱三连问（标签有门禁吗/欧阳锋为何没查/其他角色呢）——检查器在未接线实锤（pre_submit.py L821 注释）
-reviewer: 欧阳锋
-instance: huangyaoshi
-updated_at: '2026-09-07T01:39:12.284191+00:00'
-evidence: logs/task677-tags-gate-evidence-20260907.md
+id: task_20260907_huangyaoshi-activate-tags-gate
+title: "激活 pre-submit _check_tags 门禁（检查器已存在未接线 L821）+ dk 1-3 词维度规则"
+seq: 677
+status: in_progress
+assignee: huangyaoshi
+created_by: wangyuyan
+created_at: 2026-09-07
+decision_source: 老朱三连问（标签有门禁吗/欧阳锋为何没查/其他角色呢）——检查器在未接线实锤（pre_submit.py L821 注释）
+reviewer: 欧阳锋
+instance: huangyaoshi
+updated_at: '2026-09-07T01:48:41.056346+00:00'
+evidence: logs/task677-tags-gate-evidence-20260907.md
 rework: true
 ---
 

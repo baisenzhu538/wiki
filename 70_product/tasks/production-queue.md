@@ -1236,6 +1236,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~[gate-blocked] task_20260906_wangyuyan-renyu-personal-batch｜09-07 08:17｜待王语嫣复核处置｜2026-09-07 08:14:43｜task_20260906_wangyuyan-renyu-personal-batch｜F-034-五字段｜任务单缺少「## 执行报告」节（#429 F-034：交付必须落执行报告，口头完成=未完成；#444：evidence 附件不能替代）｜wangyuyan~~ → 回声划销（09-07 09:15 王语嫣）：#667 补执行报告后完工提审成功，现 pending_review（欧阳锋审中）
 - ~~[gate-blocked] task_20260907_huangyaoshi-activate-tags-gate｜09-07 09:07｜待王语嫣复核处置｜2026-09-07 09:00:36｜task_20260907_huangyaoshi-activate-tags-gate｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生 / - untracked: kdo/pre_submit.py / - untracked: tests/test｜huangyaoshi~~ → 回声划销（09-07 09:45 王语嫣）：补 evidence 后提审成功，#677 现 pending_review
 - diag_20260907_xiaozhao-three-day-audit.md｜09-07 09:17｜待王语嫣复核裁定
+- [gate-blocked] role-liveness｜09-07 09:47｜待王语嫣复核处置｜2026-09-07 09:42:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 7666.8), ('cli', 40.7)]）｜role_registry check-liveness｜role_registry
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
@@ -1278,7 +1279,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 674 | `task_20260907_huangyaoshi-pathmap-key-hardening` | graph_state path_map 改 path/id 键根除同标题撞车（13 张溯源丢失，欧阳锋根因定位） | reviewed | huangyaoshi | 重建后无撞车+13张可溯源+探针concepts清零+回归不红 | #673 后（同角色排队） | `60_feedback/tasks/task_20260907_huangyaoshi-pathmap-key-hardening.md` | 欧阳锋建议书三连（09-07 王语嫣立项）；欧阳锋终审 |
 | 675 | `task_20260907_huangyaoshi-bundle-bat-branch-fix` | bundle bat :daily_only fall-through 双问题修复（周一误导读日志+obsidian快照仅周一与注释不符） | reviewed | huangyaoshi | 两天模拟日志如实+快照对齐+回归 | #674 后（同角色排队） | `60_feedback/tasks/task_20260907_huangyaoshi-bundle-bat-branch-fix.md` | 欧阳锋 #673 终审附带发现（09-07 王语嫣立项）；欧阳锋终审 |
 | 676 | `task_20260907_laowantong-zhu-self-archive` | 识己档案补强：性格三维+失败模型五层结构化入 personal-os（隐私受控 personal-os-only） | reviewed | laowantong | zhu-self-cognition.md 三节全带源锚+老朱抽验 | 无 | `60_feedback/tasks/task_20260907_laowantong-zhu-self-archive.md` | 老朱拍板同意（#667 第一项）；欧阳锋终审 |
-| 677 | `task_20260907_huangyaoshi-activate-tags-gate` | 激活 pre-submit _check_tags 门禁（检查器在未接线 L821 实证）+dk 1-3 词规则+两态 | queued | huangyaoshi | 零tags卡复现WARNING+标杆卡通过+回归不红 | 无 | `60_feedback/tasks/task_20260907_huangyaoshi-activate-tags-gate.md` | 老朱三连问立项（门禁在未接线实锤）；欧阳锋终审 |
+| 677 | `task_20260907_huangyaoshi-activate-tags-gate` | 激活 pre-submit _check_tags 门禁（检查器在未接线 L821 实证）+dk 1-3 词规则+两态 | claimed-huangyaoshi | huangyaoshi | 零tags卡复现WARNING+标杆卡通过+回归不红 | 无 | `60_feedback/tasks/task_20260907_huangyaoshi-activate-tags-gate.md` | 老朱三连问立项（门禁在未接线实锤）；欧阳锋终审 |
 | 678 | `task_20260907_laowantong-force-exception-labeling` | force 放行率标注：35 例人工标注真误判率基线（小昭审计路由 1） | queued | laowantong | 35/35标注表+基线报告+王语嫣抽5复核 | 无 | `60_feedback/tasks/task_20260907_laowantong-force-exception-labeling.md` | 小昭审计建议1（王语嫣裁定立项P1）；欧阳锋终审 |
 | 679 | `task_20260907_huangyaoshi-audit-mechanisms` | 审计路由机制双件：派工模板「初判=待证命题」字段+词表门禁「引用语境豁免」成文 | queued | huangyaoshi | 模板字段生效+豁免条款入规范+回归 | #677 返工后 | `60_feedback/tasks/task_20260907_huangyaoshi-audit-mechanisms.md` | 小昭审计建议2+3（王语嫣裁定采纳）；欧阳锋终审 |
 
