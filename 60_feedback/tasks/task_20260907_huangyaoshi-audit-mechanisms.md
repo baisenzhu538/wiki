@@ -2,14 +2,14 @@
 id: task_20260907_huangyaoshi-audit-mechanisms
 title: "审计路由机制双件：派工模板「初判=待证命题」字段 + 词表门禁「引用语境豁免」成文（小昭审计路由 2+3）"
 seq: 679
-status: queued
+status: in_progress
 assignee: huangyaoshi
 created_by: wangyuyan
 created_at: 2026-09-07
 decision_source: 小昭三天审计建议 2+3（diag_20260907_xiaozhao-three-day-audit，王语嫣裁定采纳）
 reviewer: 欧阳锋
 instance: huangyaoshi
-updated_at: '2026-09-07T10:20:00+08:00'
+updated_at: '2026-09-07T02:10:25.416679+00:00'
 ---
 
 # #679 审计路由机制双件（黄药师）
