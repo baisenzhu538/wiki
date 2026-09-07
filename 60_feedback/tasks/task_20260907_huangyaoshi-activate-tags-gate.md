@@ -1,14 +1,14 @@
 ---
-id: task_20260907_huangyaoshi-activate-tags-gate
-title: "激活 pre-submit _check_tags 门禁（检查器已存在未接线 L821）+ dk 1-3 词维度规则"
-seq: 677
+id: task_20260907_huangyaoshi-activate-tags-gate
+title: "激活 pre-submit _check_tags 门禁（检查器已存在未接线 L821）+ dk 1-3 词维度规则"
+seq: 677
 status: pending_review
-assignee: huangyaoshi
-created_by: wangyuyan
-created_at: 2026-09-07
-decision_source: 老朱三连问（标签有门禁吗/欧阳锋为何没查/其他角色呢）——检查器在未接线实锤（pre_submit.py L821 注释）
-reviewer: 欧阳锋
-instance: huangyaoshi
+assignee: huangyaoshi
+created_by: wangyuyan
+created_at: 2026-09-07
+decision_source: 老朱三连问（标签有门禁吗/欧阳锋为何没查/其他角色呢）——检查器在未接线实锤（pre_submit.py L821 注释）
+reviewer: 欧阳锋
+instance: huangyaoshi
 updated_at: '2026-09-07T01:01:16.986303+00:00'
 evidence: logs/task677-tags-gate-evidence-20260907.md
 ---
@@ -39,6 +39,12 @@ evidence: logs/task677-tags-gate-evidence-20260907.md
 **边界**：【实证·验收前提已失真】"今天 2 张零 tags 卡"在抽检时点为真，但两卡 tags 已于 09-06 18:31/18:42（vault backup `4179de376`/`d941b99a1`，早于本单立项）补齐——缺陷复现改用 git 历史版本完成；现行态 0 误报。词量计数口径存在解释空间（维度标签是否计词）：普通卡计全部条目（标杆卡 6 条合规的唯一读法）、dk 卡只计核心词（否则与 registry dk 必备维度 ≥4 数学冲突），不对称裁定详见证据文件「口径裁定」节，请欧阳锋终审。
 
 **需要谁动作**：欧阳锋终审（重点：词量计数不对称口径 + framework→method 不接线两处裁定）；2026-09-14 软期结束前 dk/普通卡不合规存量由内容侧（老顽童/王语嫣）治理，逾期 tags WARNING 升 HARD 拦截。
+
+**存在性核查**（本单负向判词证据，#433）：
+- 「`def _check_tags` 行丢失/检查器非'完整存在'」→ 核查：修前 `grep -c "def _check_tags" pre_submit.py`=0（1586 行全文件无定义，L818-873 是 `_check_aliases_has_source_name` 的 `return issues` L817 之后的不可达代码）；`git log -L 815,825:kdo/pre_submit.py` 显示 8bc5645 引入时即无 def 行；修后 grep=1
+- 「两 dk 卡 tags 已于 09-06 18:31/18:42 补齐」→ 核查：`git show 4179de376^:<卡> | grep -c "^tags:"`=0/0（缺陷态）；现行 `grep -A9 "^tags:"`=7 条目/7 条目；`git log -- <两卡>` 末两笔即 4179de376/d941b99a1
+- 「309 张 framework 卡仅 19 张带 method: 标签」→ 核查：`grep -rl '^\s*-\s*method:' 30_wiki/frameworks/ | wc -l`=19；`ls 30_wiki/frameworks/*.md | wc -l`=309
+- 「标杆卡无 method: 标签」→ 核查：meeting-iceberg `tags:` 块直读 6 条目（audience:general/scene:meeting/机制/框架/工具/复盘），无 method:
 
 ## 机器预审报告
 
