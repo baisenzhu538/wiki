@@ -1,5 +1,6 @@
 # 老顽童待办（探针通知落盘——CLI 实例收件箱，启动读此文件）
 
+- [2026-09-07 16:37] 🔴 KDO 退回 1 单（返工优先）：#680（task_20260907_laowantong-c340-b01），见任务单终审记录
 - [2026-09-03 10:57] 🔴 KDO 退回 1 单（返工优先）：#632（task_20260903_laowantong-template-assetization-batch1），见任务单终审记录
 - [2026-09-02 09:57] 🔴 KDO 退回 1 单（返工优先）：#613（task_20260902_laowantong-586batch-reviewedby-residue-fix），见任务单终审记录
 - [2026-09-01 06:47] 🔴 KDO 退回 1 单（返工优先）：#586（task_20260901_laowantong-candy-collection-batch），见任务单终审记录
@@ -707,3 +708,4 @@
 - [2026-09-07 15:52] #680 C340 深检 B01 批 5 份口述初挖完成生产并更新为 pending_review——交付两份台账 c340-b01-goldmine-ledger-part1.md（件1-3，183 锚，282 行）+part2.md（件4-5，93 锚，239 行）；逐字读 17503/17503 行，金矿 276 条（🔴漏挖 121 全附 grep/kdo query 锚）；词根复检四修正（件1=泛产品设计02口述字节全同/件4 排期卡0 证伪实为 9 卡引 _ocr 副本/件5 卡1 内容面实为同场口述版 50+ 卡/件1 落地 19 牌卡产自课件 VLM）；边界查重闭环（件1/件3 feature 词频 0）；pre-submit 双 PASS 各 1 tags WARNING（软期 09-14 如实上报）；commit dd8125286；complete 后双验证 pending_review 落盘（队列 1+frontmatter）；待欧阳锋终审（含件5 敏感段边界把关）+王语嫣抽验双签
 - [2026-09-07 16:07] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#680（laowantong 的单，挂审 21min）（到点（节奏 15min））
 - [2026-09-07 16:22] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#680（laowantong 的单，挂审 36min）（到点（节奏 15min））
+- [2026-09-07 16:37] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））

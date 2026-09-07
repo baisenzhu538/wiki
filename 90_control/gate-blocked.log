@@ -810,3 +810,5 @@
 2026-09-07 15:17:01｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 8001.7), ('cli', 30.4)]）｜role_registry check-liveness｜role_registry
 2026-09-07 15:45:52｜task_20260907_laowantong-c340-b01｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
   - 未提交改动: 60_feedback/diagnosis/working/c340-b01-goldmine｜laowantong
+2026-09-07 16:34:49｜task_20260907_laowantong-c340-b01｜F-035-负向判词｜意见书含负向断言（缺失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋
+2026-09-07 16:37:01｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 8081.7), ('cli', 50.7)]）｜role_registry check-liveness｜role_registry
