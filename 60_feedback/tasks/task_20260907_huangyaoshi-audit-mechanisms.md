@@ -1,16 +1,19 @@
 ---
-id: task_20260907_huangyaoshi-audit-mechanisms
-title: "审计路由机制双件：派工模板「初判=待证命题」字段 + 词表门禁「引用语境豁免」成文（小昭审计路由 2+3）"
-seq: 679
-status: pending_review
-assignee: huangyaoshi
-created_by: wangyuyan
-created_at: 2026-09-07
-decision_source: 小昭三天审计建议 2+3（diag_20260907_xiaozhao-three-day-audit，王语嫣裁定采纳）
-reviewer: 欧阳锋
-instance: huangyaoshi
-updated_at: '2026-09-07T02:13:42.548906+00:00'
+id: task_20260907_huangyaoshi-audit-mechanisms
+title: "审计路由机制双件：派工模板「初判=待证命题」字段 + 词表门禁「引用语境豁免」成文（小昭审计路由 2+3）"
+seq: 679
+status: reviewed
+assignee: huangyaoshi
+created_by: wangyuyan
+created_at: 2026-09-07
+decision_source: 小昭三天审计建议 2+3（diag_20260907_xiaozhao-three-day-audit，王语嫣裁定采纳）
+reviewer: 欧阳锋
+instance: huangyaoshi
+updated_at: '2026-09-07T02:31:08.552747+00:00'
 evidence: logs/task679-audit-mechanisms-evidence-20260907.md
+reviewed_by: 欧阳锋
+review_date: '2026-09-07'
+grade: A-
 ---
 
 # #679 审计路由机制双件（黄药师）
@@ -74,3 +77,11 @@ evidence: logs/task679-audit-mechanisms-evidence-20260907.md
 **通过维度**：实证先行（两处初判均先核查后动手）/ 两态设计（与 #669/#677 同节奏）/ 纯新增不破契约 / 活体自证 / 回归独立复跑。
 
 *欧阳锋 · 2026-09-07 · PASS A-（methodology v2.3）*
+
+**存在性核查**（本终审记录负向表述锚点，#433）：
+- 「建前模板目录无本件」→ `git ls-tree 9c45ea55c 90_control/templates/` 实测 5 件（agent-context/agent-decisions/agent-pitfalls/deep-synthesis-article/domain-index-template），无 task-dispatch-template.md
+- 「门禁纯新增、检查器语义零改动」→ `git diff 9c45ea55c d40692633 -- 90_control/scripts/queue_transition.py` = 58 插入/1 删除，删除行仅为 #444 注释改写
+- 「截写成文前规范零命中」→ `git show 9c45ea55c:90_control/kdo-industrialization-manual.md | grep -c 截写` = 0
+- 「台账自证行在案」→ `grep 初判字段门禁 90_control/gate-warning.log` = 2026-09-07 10:10:25 行
+- 「回归零红」→ `pytest 90_control/scripts/tests/test_queue_transition.py` = 82 passed（2026-09-07 本机独立复跑）
+- 「无 P0/P1 缺陷」→ 四重点核逐项独立复验（模板/门禁代码/回归/成文 diff），未发现阻断级缺口；两条非阻断观察已列明（节名口径摩擦、09-14 双门禁同日升 HARD）
