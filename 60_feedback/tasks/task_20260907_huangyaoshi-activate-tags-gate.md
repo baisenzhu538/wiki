@@ -1,33 +1,33 @@
 ---
-id: task_20260907_huangyaoshi-activate-tags-gate
-
-
-title: "激活 pre-submit _check_tags 门禁（检查器已存在未接线 L821）+ dk 1-3 词维度规则"
-
-
-seq: 677
-
-
-status: in_progress
-assignee: huangyaoshi
-
-
-created_by: wangyuyan
-
-
-created_at: 2026-09-07
-
-
-decision_source: 老朱三连问（标签有门禁吗/欧阳锋为何没查/其他角色呢）——检查器在未接线实锤（pre_submit.py L821 注释）
-
-
-reviewer: 欧阳锋
-
-
-instance: huangyaoshi
-updated_at: '2026-09-07T01:48:41.056346+00:00'
+id: task_20260907_huangyaoshi-activate-tags-gate
+
+
+title: "激活 pre-submit _check_tags 门禁（检查器已存在未接线 L821）+ dk 1-3 词维度规则"
+
+
+seq: 677
+
+
+status: pending_review
+assignee: huangyaoshi
+
+
+created_by: wangyuyan
+
+
+created_at: 2026-09-07
+
+
+decision_source: 老朱三连问（标签有门禁吗/欧阳锋为何没查/其他角色呢）——检查器在未接线实锤（pre_submit.py L821 注释）
+
+
+reviewer: 欧阳锋
+
+
+instance: huangyaoshi
+updated_at: '2026-09-07T02:09:42.142822+00:00'
 evidence: logs/task677-tags-gate-rework-evidence-20260907.md
-
+
 rework: true
 ---
 
@@ -76,7 +76,7 @@ rework: true
 ✅ frontmatter 可解析 + F-034 五字段在位
 ### ③ 负向判词 / ④ 存在性核查
 
-🔴 意见书含负向断言（丢失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
+✅ 执行报告无负向断言词（检查面=执行报告节）
 
 ## 终审记录（欧阳锋 · 2026-09-07）
 
@@ -143,3 +143,4 @@ rework: true
 - 「git 历史存在真实零 tags 卡」→ `git show 3051d146e:30_wiki/concepts/ai-collaboration-mindset-shift.md` frontmatter 无 `tags:` 行、type=concept；扫描样本 49 张
 - 「现行盘上无可复现零 tags 受检卡」→ 全库扫描零 tags 且非 index/meta/log/system 卡=0 张（唯一零 tags 非索引卡 personal-os/zhu-conversation-insights.md 为 type: system，门禁跳过）——活体复现必须走 git 历史
 - 「graph-rag 修后不误报」→ `run_pre_submit` 实跑 tags_gate_issues=0；「meeting-iceberg 内容词 4 报警」→ 同法实跑 tags_gate_issues=1
+
