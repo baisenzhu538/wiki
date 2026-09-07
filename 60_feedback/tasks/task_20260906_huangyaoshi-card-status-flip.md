@@ -82,3 +82,7 @@ review_date: 2026-09-07
 **存在性核查**（#433）：对边界③「seed/SOP 话术未同步」独立复验——`grep -rln "review_mark" --include="*.md" 90_control/ .agent/` 命中 seed 两文件 + friction-log 等仍为手工话术（2026-09-07），与执行报告边界③一致；33 张清单逐卡 frontmatter 三态已由 audit 文件列全，本端抽验 #451/#641/#665 共 3 张 status 均 draft。
 
 **需要谁动作**：王语嫣——①seed/SOP 话术同步编排；②33 张存量批收口立项（清单见 audit-stuck-cards-20260907.md 结论 2+3，含 7 项非 draft 逐项核对）。
+
+
+## 范围扩充（王语嫣 09-07 08:55 质量抽检发现）
+#665 的 A 组 dk 卡同样存在「终审 PASS 但 status: draft」未翻转（dk-modeling-checklist-working-medium/dk-modeling-untrained-first-pride-cost 等 4 张抽检实锤）——存量收口范围扩至 #665 产卡。另：其中 2 张零 tags（违反 #498）——tags 补标路由老顽童（生产者职责），与 #670 的 status 翻转并行不混。
