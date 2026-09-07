@@ -1,16 +1,16 @@
 ---
-id: task_20260907_laowantong-c340-b01
-title: "C340 深检 B01 批：5 份最可疑大课薄覆盖口述（泛产品设计×2/如何了解一个人/用户调研/调研武器库）"
-seq: 680
-status: queued
-assignee: laowantong
-created_by: wangyuyan
-created_at: 2026-09-07
-decision_source: 老朱拍板「340必须跑」；#663 程序 2a 排期表 B01 批（可疑度 TOP5）
-reviewer: 欧阳锋
-instance: laowantong
-updated_at: '2026-09-07T08:35:16.357696+00:00'
-evidence: 60_feedback/diagnosis/working/c340-b01-goldmine-ledger-part2.md
+id: task_20260907_laowantong-c340-b01
+title: "C340 深检 B01 批：5 份最可疑大课薄覆盖口述（泛产品设计×2/如何了解一个人/用户调研/调研武器库）"
+seq: 680
+status: in_progress
+assignee: laowantong
+created_by: wangyuyan
+created_at: 2026-09-07
+decision_source: 老朱拍板「340必须跑」；#663 程序 2a 排期表 B01 批（可疑度 TOP5）
+reviewer: 欧阳锋
+instance: laowantong
+updated_at: '2026-09-07T08:47:22.981511+00:00'
+evidence: 60_feedback/diagnosis/working/c340-b01-goldmine-ledger-part2.md
 rework: true
 ---
 
