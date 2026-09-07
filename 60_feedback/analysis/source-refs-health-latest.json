@@ -1,16 +1,16 @@
 {
   "stats": {
-    "total_cards": 2955,
-    "cards_with_sources": 2763,
+    "total_cards": 2972,
+    "cards_with_sources": 2780,
     "cards_empty": 188,
     "cards_with_errors": 4,
-    "total_refs": 6090,
-    "refs_file_path": 4407,
-    "refs_ok": 4093,
-    "refs_missing": 314,
+    "total_refs": 6151,
+    "refs_file_path": 4468,
+    "refs_ok": 4157,
+    "refs_missing": 311,
     "refs_contaminated": 8,
-    "refs_line_anchor": 813,
-    "refs_line_anchor_alive": 813
+    "refs_line_anchor": 846,
+    "refs_line_anchor_alive": 846
   },
   "contaminated_cards": [
     {
@@ -338,13 +338,6 @@
       ]
     },
     {
-      "card_id": "concept-AI知识库-KDO传承溯源",
-      "file": "30_wiki/concepts/concept-AI知识库-KDO传承溯源.md",
-      "missing": [
-        "60_feedback/diagnosis/diag_20260823_wangyuyan-banfeimao-ai-kb-diagnosis.md#L1-L100"
-      ]
-    },
-    {
       "card_id": "concept-changing-others-as-self-compensation",
       "file": "30_wiki/concepts/concept-changing-others-as-self-compensation.md",
       "missing": [
@@ -480,13 +473,6 @@
       "file": "30_wiki/dark-knowledges/dk-ai-memory-four-layers.md",
       "missing": [
         "00_inbox/半肥猫/【半肥猫】别只会问 AI：从一次 Codex 误删事故，看懂 AI 协作的记忆管理 副本.md §九-十"
-      ]
-    },
-    {
-      "card_id": "dk-AI知识库-隐性知识显性化60分原则",
-      "file": "30_wiki/dark-knowledges/dk-AI知识库-隐性知识显性化60分原则.md",
-      "missing": [
-        "60_feedback/diagnosis/diag_20260823_wangyuyan-banfeimao-ai-kb-diagnosis.md#L1-L100"
       ]
     },
     {
@@ -686,13 +672,6 @@
       "file": "30_wiki/dk/dk-roi-three-step-decision.md",
       "missing": [
         "00_inbox/我用一堂做一堂/战略笃定-一堂AI转型复盘-口述.txt"
-      ]
-    },
-    {
-      "card_id": "framework-AI知识库-Workflow六要素",
-      "file": "30_wiki/frameworks/framework-AI知识库-Workflow六要素.md",
-      "missing": [
-        "60_feedback/diagnosis/diag_20260823_wangyuyan-banfeimao-ai-kb-diagnosis.md#L1-L100"
       ]
     },
     {
@@ -1580,11 +1559,6 @@
         "missing": 7
       },
       {
-        "domain": "knowledge-management",
-        "status": "draft",
-        "missing": 7
-      },
-      {
         "domain": "personal-os",
         "status": "draft",
         "missing": 7
@@ -1655,6 +1629,11 @@
         "missing": 4
       },
       {
+        "domain": "knowledge-management",
+        "status": "draft",
+        "missing": 4
+      },
+      {
         "domain": "content",
         "status": "enriched",
         "missing": 4
@@ -1682,11 +1661,6 @@
       {
         "domain": "design",
         "status": "reviewed",
-        "missing": 3
-      },
-      {
-        "domain": "ai-knowledge",
-        "status": "draft",
         "missing": 3
       },
       {

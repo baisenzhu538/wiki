@@ -1,14 +1,14 @@
 # source_refs 健康检查报告
 
-**扫描范围**：2955 张卡片
-**有 source 的卡片**：2763 张
+**扫描范围**：2972 张卡片
+**有 source 的卡片**：2780 张
 **空 source 卡片**：188 张
-**source_refs 总数**：6090 条
-**文件路径类 source**：4407 条
-**✅ 文件存在**：4093 条
-**❌ 文件缺失**：314 条
+**source_refs 总数**：6151 条
+**文件路径类 source**：4468 条
+**✅ 文件存在**：4157 条
+**❌ 文件缺失**：311 条
 **⚠️ 污染引用**：8 条
-**🔗 行号锚引用**：813 条（剥锚后存在 813 条——剥锚修复前全被误判缺失，#543）
+**🔗 行号锚引用**：846 条（剥锚后存在 846 条——剥锚修复前全被误判缺失，#543）
 
 ---
 
@@ -89,7 +89,6 @@
 | `case-一堂-春萍-花总AI研发` | `00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功落地案例篇-春萍-口述.txt:L654-866（花总案例完整口述）` |
 | `case-利润-巨米OPC利润前置对照` | `30_wiki/personal-os/zhu-lessons-learned.md#L39-L103` |
 | `concept-addiction-threshold` | `60_feedback/diagnosis/diag_20260823_wangyuyan-shushui-addiction-supplement.md#L1-L60` |
-| `concept-AI知识库-KDO传承溯源` | `60_feedback/diagnosis/diag_20260823_wangyuyan-banfeimao-ai-kb-diagnosis.md#L1-L100` |
 | `concept-changing-others-as-self-compensation` | `60_feedback/diagnosis/diag_20260823_wangyuyan-shushui-addiction-supplement.md#L1-L60` |
 | `concept-oral-spray-strategic-fundamental` | `Live260 L301-327（记笔记类比/十年战略）` |
 | `concept-truman-18-component-cards` | `00_inbox/Advanced modeling/ 口述 L2934-L3010` |
@@ -126,7 +125,6 @@
 | `dk-ai-capability-illusion` | `00_inbox/AI落地Live86-龙虾员工实践-逐字稿.md` |
 | `dk-ai-efficiency-and-management-radius` | `00_inbox/AI落地Live86-龙虾员工实践-逐字稿.md` |
 | `dk-ai-memory-four-layers` | `00_inbox/半肥猫/【半肥猫】别只会问 AI：从一次 Codex 误删事故，看懂 AI 协作的记忆管理 副本.md §九-十` |
-| `dk-AI知识库-隐性知识显性化60分原则` | `60_feedback/diagnosis/diag_20260823_wangyuyan-banfeimao-ai-kb-diagnosis.md#L1-L100` |
 | `dk-best-datasource-is-floor` | `00_inbox/AI落地Live86-龙虾员工实践-逐字稿.md` |
 | `dk-f13-handwritten-yaml-parser` | `10_raw/sources/src_20260619_d967c8f5_90_control_failure_modes.md#F-KDO-013` |
 | `dk-koupen-500-vs-5000` | `00_inbox/AI口喷能力训练全阶指南-口述.txt L1092-L1100（500条与5000条无差别：没有固定套路）` |
@@ -170,7 +168,6 @@
 | `dk-multithread-whack-a-mole` | `00_inbox/我用一堂做一堂/战略笃定-一堂AI转型复盘-口述.txt` |
 | `dk-project-skill-agent-loop` | `00_inbox/我用一堂做一堂/战略笃定-一堂AI转型复盘-口述.txt` |
 | `dk-roi-three-step-decision` | `00_inbox/我用一堂做一堂/战略笃定-一堂AI转型复盘-口述.txt` |
-| `framework-AI知识库-Workflow六要素` | `60_feedback/diagnosis/diag_20260823_wangyuyan-banfeimao-ai-kb-diagnosis.md#L1-L100` |
 | `framework-bimodal-time-philosophy` | `｜ **工作类型** ｜ L3-L5深度工作（分析/创造/突破） ｜ 会议、1on1、沟通、信息同步、轻度执行 ｜` |
 | `framework-business-formula-dual-triangle-bridge` | `｜ **创造力**（人侧） ｜ 创新参数(L5)=创造力的结构化出口 ｜ 自定义参数/新组合/新动作定义 ｜ 创造力无结构化载体，等于没有 ｜` |
 | `framework-lean-four-principles` | `｜ 原则 ｜ 经典理论来源 ｜ 一堂本土化/操作化 ｜` |
@@ -844,9 +841,9 @@
 | `concept-ai-style-knowledge-docs` | 3 | 3 | 0 | 0 | reviewed |
 | `concept-ai-video-wanggan-componentization` | 2 | 2 | 0 | 0 | draft |
 | `concept-AI时代双三角竞争力` | 1 | 1 | 0 | 0 | reviewed |
-| `concept-AI知识库-KDO传承溯源` | 3 | 2 | 1 | 0 | draft |
-| `concept-AI知识库-原子化拆分` | 3 | 3 | 0 | 0 | draft |
-| `concept-AI知识库-四关键词` | 3 | 3 | 0 | 0 | draft |
+| `concept-AI知识库-KDO传承溯源` | 4 | 4 | 0 | 0 | reviewed |
+| `concept-AI知识库-原子化拆分` | 4 | 4 | 0 | 0 | reviewed |
+| `concept-AI知识库-四关键词` | 4 | 4 | 0 | 0 | reviewed |
 | `concept-brooks-three-lies-culture` | 1 | 1 | 0 | 0 | reviewed |
 | `concept-candy-ai-as-collaborator` | 1 | 1 | 0 | 0 | reviewed |
 | `concept-ceo-must-do-user-research` | 2 | 2 | 0 | 0 | reviewed |
@@ -1207,8 +1204,9 @@ expected <block end>, but found '-'
 | `dk-ai-judgment-programmer-paradox` | 1 | 1 | 0 | 0 | draft |
 | `dk-ai-memory-four-layers` | 1 | 0 | 1 | 0 | draft |
 | `dk-ai-self-evolution-prompt` | 1 | 1 | 0 | 0 | pending_review |
+| `dk-ai-stronger-need-to-know-what-you-want` | 2 | 2 | 0 | 0 | draft |
 | `dk-ai-video-common-pitfalls` | 2 | 2 | 0 | 0 | draft |
-| `dk-AI知识库-隐性知识显性化60分原则` | 3 | 2 | 1 | 0 | draft |
+| `dk-AI知识库-隐性知识显性化60分原则` | 4 | 4 | 0 | 0 | reviewed |
 | `dk-analogy-blinds-search` | 1 | 1 | 0 | 0 | reviewed |
 | `dk-anti-human-ux-is-feature` | 1 | 1 | 0 | 0 | pending_review |
 | `dk-ban-fei-mao-atomic-no-standard` | 1 | 1 | 0 | 0 | reviewed |
@@ -1280,6 +1278,7 @@ expected <block end>, but found '<scalar>'
 | `dk-ji-hao-pdca-starts-from-do` | 2 | 2 | 0 | 0 | reviewed |
 | `dk-ji-hao-problem-vs-question` | 1 | 1 | 0 | 0 | reviewed |
 | `dk-ji-hao-simple-complex-routing` | 2 | 2 | 0 | 0 | reviewed |
+| `dk-jiangxiang-origin-story-mental-coordinate-system` | 2 | 2 | 0 | 0 | draft |
 | `dk-key-hypothesis-still-hope` | 1 | 1 | 0 | 0 | draft |
 | `dk-koupen-500-vs-5000` | 3 | 0 | 3 | 0 | draft |
 | `dk-koupen-decision-tiering-compromise` | 1 | 1 | 0 | 0 | reviewed |
@@ -1304,6 +1303,7 @@ expected <block end>, but found '<scalar>'
 | `dk-modeling-ai-judgment-limit` | 1 | 1 | 0 | 0 | reviewed |
 | `dk-modeling-ai-self-retrospection` | 2 | 2 | 0 | 0 | reviewed |
 | `dk-modeling-case-explosion-confidence` | 1 | 1 | 0 | 0 | reviewed |
+| `dk-modeling-checklist-working-medium` | 2 | 2 | 0 | 0 | draft |
 | `dk-modeling-course-rnd-ripe-fruit` | 2 | 0 | 2 | 0 | reviewed |
 | `dk-modeling-expert-consensus-five-percent` | 1 | 1 | 0 | 0 | reviewed |
 | `dk-modeling-explanatory-vs-predictive-essence` | 1 | 1 | 0 | 0 | reviewed |
@@ -1311,6 +1311,7 @@ expected <block end>, but found '<scalar>'
 | `dk-modeling-question-scaffold-not-answer` | 1 | 1 | 0 | 0 | reviewed |
 | `dk-modeling-sop-execution-locks` | 2 | 2 | 0 | 0 | reviewed |
 | `dk-modeling-timely-review-session-window` | 2 | 2 | 0 | 0 | reviewed |
+| `dk-modeling-untrained-first-pride-cost` | 2 | 2 | 0 | 0 | draft |
 | `dk-narrative-choice-theory` | 1 | 1 | 0 | 0 | reviewed |
 | `dk-note-maximum-common-divisor` | 1 | 1 | 0 | 0 | reviewed |
 | `dk-note-rookie-disaster-veteran-heaven` | 1 | 1 | 0 | 0 | reviewed |
@@ -1345,6 +1346,7 @@ expected <block end>, but found '<scalar>'
 | `dk-skill-seven-elements-upgrade` | 1 | 0 | 1 | 0 | reviewed |
 | `dk-spatial-narrative-pitfalls` | 5 | 5 | 0 | 0 | reviewed |
 | `dk-sponsor-three-tier-pricing` | 2 | 2 | 0 | 0 | draft |
+| `dk-strategy-meeting-quality-friction-signal` | 2 | 2 | 0 | 0 | draft |
 | `dk-three-context-formula` | 1 | 1 | 0 | 0 | reviewed |
 | `dk-token-economy-critical-reading` | 1 | 1 | 0 | 0 | reviewed |
 | `dk-tool-adoption-by-force` | 1 | 1 | 0 | 0 | reviewed |
@@ -1511,18 +1513,19 @@ expected <block end>, but found '<scalar>'
 | `bridge-利润-需求冰山-价值定价` | 4 | 4 | 0 | 0 | draft |
 | `business-formula-to-kdo-card-quality` | 3 | 3 | 0 | 0 | enriched |
 | `framework-agent-card-execution-pattern` | 4 | 4 | 0 | 0 | draft |
+| `framework-ai-business-cognition-system` | 3 | 3 | 0 | 0 | reviewed |
 | `framework-ai-five-layer-architecture` | 7 | 7 | 0 | 0 | reviewed |
 | `framework-ai-human-70-30-division` | 2 | 2 | 0 | 0 | reviewed |
 | `framework-ai-native-working-paradigm` | 5 | 5 | 0 | 0 | reviewed |
 | `framework-ai-report-value-ladder-l1-l6` | 2 | 2 | 0 | 0 | reviewed |
 | `framework-ai-sales-collaboration` | 1 | 1 | 0 | 0 | reviewed |
-| `framework-AI知识库-Workflow六要素` | 4 | 3 | 1 | 0 | draft |
-| `framework-AI知识库-五维标注深挖法` | 4 | 4 | 0 | 0 | draft |
-| `framework-AI知识库-五阶段演进` | 3 | 3 | 0 | 0 | draft |
-| `framework-AI知识库-分库与映射表` | 3 | 3 | 0 | 0 | draft |
-| `framework-AI知识库-加卡片加标签双原则` | 3 | 3 | 0 | 0 | draft |
-| `framework-AI知识库-四象限资产` | 3 | 3 | 0 | 0 | draft |
-| `framework-AI知识库-知识卡片公式` | 4 | 4 | 0 | 0 | draft |
+| `framework-AI知识库-Workflow六要素` | 5 | 5 | 0 | 0 | reviewed |
+| `framework-AI知识库-五维标注深挖法` | 5 | 5 | 0 | 0 | reviewed |
+| `framework-AI知识库-五阶段演进` | 4 | 4 | 0 | 0 | reviewed |
+| `framework-AI知识库-分库与映射表` | 4 | 4 | 0 | 0 | reviewed |
+| `framework-AI知识库-加卡片加标签双原则` | 4 | 4 | 0 | 0 | reviewed |
+| `framework-AI知识库-四象限资产` | 4 | 4 | 0 | 0 | reviewed |
+| `framework-AI知识库-知识卡片公式` | 5 | 5 | 0 | 0 | reviewed |
 | `framework-arui-ai-six-fundamentals` | 4 | 4 | 0 | 0 | reviewed |
 | `framework-audit-maxims-library` | 6 | 6 | 0 | 0 | reviewed |
 | `framework-baozhashidiaochan-five-step` | 1 | 1 | 0 | 0 | reviewed |
@@ -1531,15 +1534,21 @@ expected <block end>, but found '<scalar>'
 | `framework-business-formula-dual-triangle-bridge` | 5 | 0 | 1 | 0 | enriched |
 | `framework-christensen-disruptive-innovation` | 3 | 1 | 0 | 0 | reviewed |
 | `framework-christensen-value-network` | 3 | 1 | 0 | 0 | reviewed |
+| `framework-client-acceptable-decoupled-delivery` | 3 | 3 | 0 | 0 | reviewed |
 | `framework-coaching-leadership-core` | 1 | 1 | 0 | 0 | reviewed |
+| `framework-conversion-rate-is-result` | 3 | 3 | 0 | 0 | reviewed |
 | `framework-course-thought-production-line` | 1 | 1 | 0 | 0 | reviewed |
 | `framework-dopamine-recovery` | 4 | 4 | 0 | 0 | draft |
 | `framework-dual-center-feishu-obsidian` | 3 | 3 | 0 | 0 | reviewed |
+| `framework-dual-triangle-gap-diagnosis` | 4 | 4 | 0 | 0 | reviewed |
 | `framework-education-protracted-war` | 1 | 1 | 0 | 0 | draft |
+| `framework-embodiment-taste-rule-three-level` | 3 | 3 | 0 | 0 | reviewed |
 | `framework-encapsulation-methodology` | 7 | 7 | 0 | 0 | reviewed |
+| `framework-fact-judgment-separation` | 4 | 4 | 0 | 0 | reviewed |
 | `framework-fact-rule-insight` | 1 | 1 | 0 | 0 | pending_review |
 | `framework-how-to-know-a-person` | 2 | 2 | 0 | 0 | reviewed |
 | `framework-kdo-badcase-feedback-loop` | 5 | 5 | 0 | 0 | reviewed |
+| `framework-knowledge-base-vs-ontology` | 3 | 3 | 0 | 0 | reviewed |
 | `framework-knowledge-compound-rocket-six` | 2 | 2 | 0 | 0 | reviewed |
 | `framework-knowledge-five-leaps` | 3 | 3 | 0 | 0 | reviewed |
 | `framework-knowledge-naming-systems-comparison` | 1 | 1 | 0 | 0 | pending_review |
@@ -1560,9 +1569,11 @@ expected <block end>, but found '<scalar>'
 | `framework-r-type-research-partner-five-state` | 1 | 1 | 0 | 0 | reviewed |
 | `framework-sales-funnel-full` | 1 | 1 | 0 | 0 | reviewed |
 | `framework-serendipity-five-channels` | 2 | 2 | 0 | 0 | reviewed |
+| `framework-socialization-capability-pyramid` | 3 | 3 | 0 | 0 | reviewed |
 | `framework-strategy-conviction` | 2 | 0 | 2 | 0 | draft |
 | `framework-TCPR底层网络协议` | 3 | 3 | 0 | 0 | reviewed |
 | `framework-TCPR皇冠模型` | 1 | 1 | 0 | 0 | reviewed |
+| `framework-timing-not-yet-resource-allocation` | 3 | 3 | 0 | 0 | reviewed |
 | `framework-token-economy-three-layer` | 1 | 1 | 0 | 0 | reviewed |
 | `framework-truman-agent-team-architecture` | 2 | 2 | 0 | 0 | reviewed |
 | `framework-truman-ai-featureset` | 2 | 2 | 0 | 0 | draft |
@@ -1584,6 +1595,7 @@ expected <block end>, but found '<scalar>'
 | `framework-yitang-three-ring-ability-focus` | 3 | 2 | 0 | 0 | reviewed |
 | `framework-yitang-y-model-cross-domain-fusion` | 8 | 8 | 0 | 0 | draft |
 | `framework-yitang-y-model-dual-triangle-synergy` | 5 | 5 | 0 | 0 | reviewed |
+| `framework-zero-user-immersive-research` | 3 | 3 | 0 | 0 | reviewed |
 | `framework-一堂-12种阻力总表` | 12 | 12 | 0 | 0 | reviewed |
 | `framework-一堂-12触点SABC分级` | 16 | 16 | 0 | 0 | reviewed |
 | `framework-一堂-业务公式拆解-总纲` | 23 | 23 | 0 | 0 | reviewed |
@@ -1695,6 +1707,7 @@ expected <block end>, but found '<scalar>'
 | `README` | 2 | 0 | 1 | 0 | stable |
 | `zhu-codebase-ai-orchestration` | 2 | 2 | 0 | 0 | enriched |
 | `zhu-feedback-patterns` | 2 | 0 | 1 | 0 | enriched |
+| `zhu-self-cognition` | 3 | 3 | 0 | 0 | draft |
 | `zhu-time-os` | 3 | 3 | 0 | 0 | draft |
 | `principle-yitang-y-model-boundary` | 2 | 2 | 0 | 0 | draft |
 | `principle-yitang-y-model-dual-posture` | 4 | 4 | 0 | 0 | draft |
@@ -2372,6 +2385,7 @@ expected <block end>, but found '<scalar>'
 | `yt-tool-okr-cycle` | 1 | 1 | 0 | 0 | reviewed |
 | `workflow-cross-agent-fact-dispute` | 2 | 2 | 0 | 0 | reviewed |
 | `workflow-kdo-agent-production-pipeline` | 5 | 5 | 0 | 0 | reviewed |
+| `workflow-multi-researcher-cross` | 5 | 5 | 0 | 0 | draft |
 | `workflow-yitang-project-four-step-loop` | 5 | 0 | 5 | 0 | reviewed |
 
 ---
@@ -2393,7 +2407,6 @@ expected <block end>, but found '<scalar>'
 | modeling | draft | 8 |
 | master | reviewed | 8 |
 | research | reviewed | 7 |
-| knowledge-management | draft | 7 |
 | personal-os | draft | 7 |
 | management | draft | 7 |
 | management | enriched | 6 |
@@ -2408,13 +2421,13 @@ expected <block end>, but found '<scalar>'
 | organizational-transformation | reviewed | 4 |
 | conversion-rate | reviewed | 4 |
 | organizational-transformation | draft | 4 |
+| knowledge-management | draft | 4 |
 | content | enriched | 4 |
 | demand-analysis | enriched | 4 |
 | personal | reviewed | 3 |
 | publishing | reviewed | 3 |
 | infrastructure | draft | 3 |
 | design | reviewed | 3 |
-| ai-knowledge | draft | 3 |
 | agent-infrastructure | enriched | 3 |
 | hermes-operations | enriched | 3 |
 | strategy | draft | 3 |
