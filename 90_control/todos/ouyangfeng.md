@@ -895,3 +895,4 @@
 - [2026-09-07 09:12] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#676（laowantong 的单，挂审 22min）；#677（huangyaoshi 的单，挂审 11min）（事件驱动：有待终审）
 - [2026-09-07 09:22] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#676（laowantong 的单，挂审 32min）；#677（huangyaoshi 的单，挂审 21min）（事件驱动：有待终审）
 - [2026-09-07 09:37] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#676（laowantong 的单，挂审 47min）；#677（huangyaoshi 的单，挂审 36min）（事件驱动：有待终审）
+[2026-09-07 09:39] 终审双单：#676 PASS A-（识己档案四重点核全过：隐私 personal-os-only/71源锚全在界/失败五层无漏/零虚构）；#677 FAIL P1 打回 queued（普通卡词量误计前缀维度→全库504卡误报候选；缺陷态复现存在性核查失效——git show 4179de376^ 是文件不存在的父提交）

@@ -804,3 +804,4 @@
 2026-09-07 09:00:36｜task_20260907_huangyaoshi-activate-tags-gate｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
   - untracked: kdo/pre_submit.py
   - untracked: tests/test｜huangyaoshi
+2026-09-07 09:42:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 7666.8), ('cli', 40.7)]）｜role_registry check-liveness｜role_registry

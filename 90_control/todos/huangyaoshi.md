@@ -1,5 +1,6 @@
 # huangyaoshi 待办（探针通知 CLI 收件箱——启动读此文件；在外实例走飞书）
 
+- [2026-09-07 09:47] 🔴 KDO 退回 1 单（返工优先）：#677（task_20260907_huangyaoshi-activate-tags-gate），见任务单终审记录
 - [2026-09-06 05:27] 🔴 KDO 退回 1 单（返工优先）：#652（task_20260906_huangyaoshi-agent-behavior-constitution），见任务单终审记录
 - [2026-09-05 03:57] 🔴 KDO 退回 1 单（返工优先）：#645（task_20260905_huangyaoshi-conversation-distill-pipeline），见任务单终审记录
 - [2026-09-02 23:47] 🔴 KDO 退回 1 单（返工优先）：#622（task_20260902_huangyaoshi-graph-index-rebuild-sentinel），见任务单终审记录
