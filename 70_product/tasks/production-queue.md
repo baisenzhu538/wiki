@@ -1240,6 +1240,8 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~[gate-blocked] task_20260907_huangyaoshi-activate-tags-gate｜09-07 09:07｜待王语嫣复核处置｜2026-09-07 09:00:36｜task_20260907_huangyaoshi-activate-tags-gate｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生 / - untracked: kdo/pre_submit.py / - untracked: tests/test｜huangyaoshi~~ → 回声划销（09-07 09:45 王语嫣）：补 evidence 后提审成功，#677 现 pending_review
 - diag_20260907_xiaozhao-three-day-audit.md｜09-07 09:17｜待王语嫣复核裁定
 - [gate-blocked] role-liveness｜09-07 09:47｜待王语嫣复核处置｜2026-09-07 09:42:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 7666.8), ('cli', 40.7)]）｜role_registry check-liveness｜role_registry
+- [friction] [shared] - 2026-09-07 10:05 | laowantong | #678 complete 提审 | --evidence 传长文本被拒「文件不可读」，读源码才知 evidence=佐证附件文件路径（queue_transition.py:1347-1352，#441 侧门防绕过语义） | 根因初判：报错文案只说"不可读"不说"应为路径"；工具参数契约先查 help/源码再传，别拿语义直觉填参数｜09-07 10:17｜待王语嫣复核处置｜[shared] - 2026-09-07 10:05 | laowantong | #678 complete 提审 | --evidence 传长文本被拒「文件不可读」，读源码才知 evidence=佐证附件文件路径（queue_transition.py:1347-1352，#441 侧门防绕过语义） | 根因初判：报错文案只说"不可读"不说"应为路径"；工具参数契约先查 help/源码再传，别拿语义直觉填参数
+- [gate-blocked] task_20260907_laowantong-force-exception-labeling｜09-07 10:17｜待王语嫣复核处置｜2026-09-07 10:08:59｜task_20260907_laowantong-force-exception-labeling｜F-034-五字段｜--evidence 文件不可读: 35/35 标注表+基线报告 90_control/force-exception-labeling-baseline-20260831-0906.md +机读对账｜laowantong
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |

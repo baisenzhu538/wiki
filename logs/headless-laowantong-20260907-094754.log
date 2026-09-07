@@ -1,0 +1,27 @@
+🟡 B 级过线，归档完成。#678 全单闭环。
+
+---
+
+## #678 force 放行率标注——完工汇报
+
+**交付物**（commit `83c874dab`）
+- 基线报告 `90_control/force-exception-labeling-baseline-20260831-0906.md`（含 35/35 标注表 + kdo query 检索记录节 + 收口建议）
+- 机读对账 `90_control/force-exception-labels-20260831-0906.json`（35 行逐例判定/理由/锚点，脚本生成非手打）
+
+**核心结论：真误判率基线 = 0%（0/35）**，20.8% 代理值严重高估。35 例构成分解：
+
+| 类型 | 例数 | 性质 |
+|:--|:--:|:--|
+| matrix 豁免机器记账 | 3 | **不是人工绕行**——conveyor_probe 自动写台账（conveyor_probe.py:1386-1391），分子污染 |
+| F-034 complete | 2 | 状态残缺修复 + 返工重提（后者已制度化 #580/F-064） |
+| fifo-other | 9 | **--force 设计意图正中**（queue_transition.py:684 跨 assignee 并行） |
+| own-pending | 20 | #504 渠道缺口（friction-log 三条实证「不区分等终审空闲与显式连单」），**已由 #655 --sequence 根治** |
+| claimed-lock | 1 | 交接竞态，git 实证无双开作业 |
+
+结局核查【实证】：31/31 唯一任务终审 PASS 且 reviewed/欧阳锋，零 force 引发伤害。
+
+**给收口的关键建议**（采信权在欧阳锋/王语嫣）：①分子去噪（matrix_exempt 移出，去噪后 ≈19.0%）；②own-pending 在 --sequence 被实际采用后转 HARD——唯一该收口的类；③fifo-other 保留观察，是特性不是缺陷。**不建议按 20.8% 一刀切。**
+
+**流程合规**：claim/complete 全走 queue_transition，complete 后双验证 `pending_review` 落盘（L9）；pre-submit ✅ PASS（剩 1 条 ALIASES 软期 WARNING）；kdo query 4 条 0 相关命中→grep 按宪法第六条口径②降级，检索记录已附报告 §二；todos 10:09 落账；复盘三件套完成（Truman 11 章第三场 🟡 B 级 + 技能进化日志 + friction-log）。
+
+**待动作**：王语嫣抽 5 复核（建议抽异类：L12/L27/L6/L36+任一 fifo-other）→ 欧阳锋终审。本单未动任何脚本，quality_metrics.py 去噪改动若采纳归黄药师排期。

@@ -6,6 +6,8 @@ reviewed_by: 欧阳锋
 active_branch: main
 active_task: "2026-08-26 晚场自动领审（欧阳锋）：#539 终审 PASS A-（ADUCIT 概念卡英文逐字母对账全中；缺陷 C=frontmatter code_files 2/3 未列 core 卡回填；发现预审 SOURCE_REACHABILITY 不剥离 :行号 锚必误报→建议书）+ #540 终审 PASS A（VLM 两段式 schema/lint/存量 43 张清单全验；负向断言三连存在性核查过；E040 门禁拦截→补 commit 重提成功 32 秒闭环，但 gate-blocked 台账无化解标注→建议书）。两建议书 diag_20260826_ouyangfeng-source-refs-line-anchor-unreachable + diag_20260826_ouyangfeng-gate-blocked-resolved-residue 待王语嫣裁定。队列 pending_review 已清零。恢复：读 ouyangfeng-context + context + amnesia-recovery + daily-context 最新。"
 blockers:
+  - "09-07 黄药师 #677 返工实锤：tags 门禁改内容词口径后存量量化——2916 张受检卡中内容词<5 达 2064 张（5-8 合规仅 840），2026-09-14 HARD 到期将批量拦截提审；需内容侧（王语嫣/老顽童）软期内分域排治理批次（口径与清样：logs/task677-tags-gate-rework-evidence-20260907.md §6）"
+  - "09-07 黄药师 #679 新门禁生效：claim 初判字段检查（存量 WARNING 台账/2026-09-14 起 created_at 新派 HARD）——派工需回填 initial_assessment=待证命题+核查锚（模板：90_control/templates/task-dispatch-template.md）；占位符原样=缺失"
   - "09-07 黄药师 #671 新发现待立项：13 张历史标题撞名卡被 path_map 按 title 键覆盖丢溯源映射（清单：python 90_control/scripts/graph-index-coverage-probe.py 输出 title-collision victims 节）——改名属内容侧，待王语嫣立项；撞车未清前探针每日报缺口（压力信号非误报）"
   - "09-07 黄药师 #673 新发现待拍板：.obsidian 快照因 09-05 周节拍改革实际仅周一执行（bat 头注释仍称每日）——08-31 事故盲点被静默削弱，补日拍或改注释归老朱裁定"
   - "~~production-queue.md mojibake~~ 已闭环：#410 终审 PASS A（08-22 git 字节对齐恢复 186 行，残留 0，结构零变化）"
