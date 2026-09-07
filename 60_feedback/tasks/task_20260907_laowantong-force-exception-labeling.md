@@ -1,15 +1,16 @@
 ---
-id: task_20260907_laowantong-force-exception-labeling
-title: "force 放行率标注：35 例人工标注（真误判 vs 合法逃生门）产出基线（小昭审计路由 1）"
-seq: 678
-status: in_progress
-assignee: laowantong
-created_by: wangyuyan
-created_at: 2026-09-07
-decision_source: 小昭三天审计建议 1（diag_20260907_xiaozhao-three-day-audit，王语嫣裁定立项 P1）
-reviewer: 欧阳锋
-instance: laowantong
-updated_at: '2026-09-07T01:50:52.573626+00:00'
+id: task_20260907_laowantong-force-exception-labeling
+title: "force 放行率标注：35 例人工标注（真误判 vs 合法逃生门）产出基线（小昭审计路由 1）"
+seq: 678
+status: pending_review
+assignee: laowantong
+created_by: wangyuyan
+created_at: 2026-09-07
+decision_source: 小昭三天审计建议 1（diag_20260907_xiaozhao-three-day-audit，王语嫣裁定立项 P1）
+reviewer: 欧阳锋
+instance: laowantong
+updated_at: '2026-09-07T02:09:21.823833+00:00'
+evidence: 90_control/force-exception-labeling-baseline-20260831-0906.md
 ---
 
 # #678 force 放行率标注（老顽童）
@@ -31,3 +32,17 @@ force-exceptions.log 35 例逐例人工标注：**真误判**（不该放行）v
 **边界**：只标 08-31~09-06 窗口 35 例；窗口外 9 条未标（3 条 08 月+09-07 四条+2 条手工破窗）。「真误判=0」是本窗口结论，非 force 无害的一般性结论——0 依赖 #655/#580 已及时根治渠道缺口。终审 PASS 只回答「流转层零伤害」，内容级质量由欧阳锋终审把关。收口建议（第五节）为建议，采信权在欧阳锋/王语嫣。
 
 **需要谁动作**：① 王语嫣按建议抽 5 例复核（L12 实例不一致代持 / L27 claimed-lock 竞态 / L6 状态残缺修复 / L36 #655 自身 + 任一 fifo-other）；② 欧阳锋终审并对第五节收口方案（分子去噪+own-pending 转 HARD 时机）裁定；③ 若采纳分子去噪，quality_metrics.py 改动归黄药师排期（本单不动脚本）。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 2 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+✅ 执行报告无负向断言词（检查面=执行报告节）
