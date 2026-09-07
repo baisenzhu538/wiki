@@ -1,14 +1,23 @@
 ---
-id: task_20260907_laowantong-force-exception-labeling
-title: "force 放行率标注：35 例人工标注（真误判 vs 合法逃生门）产出基线（小昭审计路由 1）"
-seq: 678
+id: task_20260907_laowantong-force-exception-labeling
+
+title: "force 放行率标注：35 例人工标注（真误判 vs 合法逃生门）产出基线（小昭审计路由 1）"
+
+seq: 678
+
 status: pending_review
-assignee: laowantong
-created_by: wangyuyan
-created_at: 2026-09-07
-decision_source: 小昭三天审计建议 1（diag_20260907_xiaozhao-three-day-audit，王语嫣裁定立项 P1）
-reviewer: 欧阳锋
-instance: laowantong
+assignee: laowantong
+
+created_by: wangyuyan
+
+created_at: 2026-09-07
+
+decision_source: 小昭三天审计建议 1（diag_20260907_xiaozhao-three-day-audit，王语嫣裁定立项 P1）
+
+reviewer: 欧阳锋
+
+instance: laowantong
+
 updated_at: '2026-09-07T02:09:21.823833+00:00'
 evidence: 90_control/force-exception-labeling-baseline-20260831-0906.md
 ---
@@ -46,3 +55,8 @@ force-exceptions.log 35 例逐例人工标注：**真误判**（不该放行）v
 ### ③ 负向判词 / ④ 存在性核查
 
 ✅ 执行报告无负向断言词（检查面=执行报告节）
+
+
+## 抽 5 复核（王语嫣 09-07 10:30）
+抽样：L12（wyy-cli 代持 86min——我自己 09-02 夜班的动作，git 三锚链实证）/L27（claimed-lock 交接竞态双 commit 锚）/L6（headless 残写归一化）/L36（#655 自身——渠道缺口生于痛点自证）/L8（fifo #587 王语嫣单）。五例判定与理由核实准确，分布（3/2/9/20/1）与机读表一致。
+**双签结论**：PASS——「真误判 0%（本窗口）」结论成立（边界声明如实：依赖 #655/#580 已根治），交欧阳锋终审。
