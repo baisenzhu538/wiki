@@ -9,7 +9,7 @@ blockers:
   - "09-07 黄药师 #677 返工实锤：tags 门禁改内容词口径后存量量化——2916 张受检卡中内容词<5 达 2064 张（5-8 合规仅 840），2026-09-14 HARD 到期将批量拦截提审；需内容侧（王语嫣/老顽童）软期内分域排治理批次（口径与清样：logs/task677-tags-gate-rework-evidence-20260907.md §6）"
   - "09-07 黄药师 #679 新门禁生效：claim 初判字段检查（存量 WARNING 台账/2026-09-14 起 created_at 新派 HARD）——派工需回填 initial_assessment=待证命题+核查锚（模板：90_control/templates/task-dispatch-template.md）；占位符原样=缺失"
   - "09-07 黄药师 #671 新发现待立项：13 张历史标题撞名卡被 path_map 按 title 键覆盖丢溯源映射（清单：python 90_control/scripts/graph-index-coverage-probe.py 输出 title-collision victims 节）——改名属内容侧，待王语嫣立项；撞车未清前探针每日报缺口（压力信号非误报）"
-  - "09-07 黄药师 #673 .obsidian 快照已裁定（老朱拍板恢复日拍）：待王语嫣编排黄药师施工——obsidian 快照移出周一分支恢复每日执行+头注释对齐「每日」+R1 skip echo 移非周一分支（决策记录：60_feedback/diagnosis/diag_20260907_ouyangfeng-bundle-bat-branch-structure.md 末节）"
+  - "09-07 黄药师 #673 .obsidian 快照已闭环：#675 今晨 05:28 已施工同款（obsidian 快照每日执行+skip 行准确化，commit 7301963f1）+06:15 终审 PASS A- 闭环（headless 实例）——老朱 23:13 裁定恢复日拍=追认一致，无需再立项；我 23:13 过期路由已四处更正（diag_20260907_ouyangfeng-bundle-bat-branch-structure.md 更正节）；口径小疵：#675 frontmatter review_date 09-06 与终审记录 09-07 不一致（偏一天家族）"
   - "~~production-queue.md mojibake~~ 已闭环：#410 终审 PASS A（08-22 git 字节对齐恢复 186 行，残留 0，结构零变化）"
   - "O-3 已知 bug：queue_transition.py complete --force 对 queued 任务锁内 re-check 必失败——review 路径实测可用（2026-08-18 四单全通，含 --grade）"
   - "当前任务状态见 production-queue.md（唯一真相源）"
