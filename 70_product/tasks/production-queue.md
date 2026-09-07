@@ -557,6 +557,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#673 task_20260907_huangyaoshi-bundle-regen｜huangyaoshi｜提审 09-07 03:16｜60_feedback/tasks/task_20260907_huangyaoshi-bundle-regen.md~~ → 已终审 PASS A-（2026-09-06 欧阳锋）
 - ~~#674 task_20260907_huangyaoshi-pathmap-key-hardening｜huangyaoshi｜提审 09-07 04:32｜60_feedback/tasks/task_20260907_huangyaoshi-pathmap-key-hardening.md~~ → 回声划销（09-07 04:45 王语嫣）：补 commit 后提审成功，#674 现 pending_review
 - ~~#675 task_20260907_huangyaoshi-bundle-bat-branch-fix｜huangyaoshi｜提审 09-07 05:28｜60_feedback/tasks/task_20260907_huangyaoshi-bundle-bat-branch-fix.md~~ → 已终审 PASS A-（2026-09-06 欧阳锋）
+- #667 task_20260906_wangyuyan-renyu-personal-batch｜wangyuyan｜提审 09-07 08:15｜60_feedback/tasks/task_20260906_wangyuyan-renyu-personal-batch.md
 
 <!-- REVIEW-PENDING-END -->
 
@@ -1262,7 +1263,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 664 | `task_20260906_laowantong-multi-researcher-cross` | 场景复现一：多研究员交叉研究工作流+skill+试金石真跑 | reviewed | laowantong | workflow卡+skill+小课题真跑报告 | #662 后（同角色排队） | `60_feedback/tasks/task_20260906_laowantong-multi-researcher-cross.md` | 老朱拍板第一优先；欧阳锋终审 |
 | 665 | `task_20260906_laowantong-dkcard-ruling-batch` | 老朱拍板产卡批：A 组 5 dk 新卡+B 组 6 补强+C 组 3 登记（伦理 c4-38 选 a 不入库） | reviewed | laowantong | 5 dk 卡+6 补强 diff+3 登记行+伦理注记 | #664 后（同角色排队） | `60_feedback/tasks/task_20260906_laowantong-dkcard-ruling-batch.md` | 老朱 09-06 拍板；候选清单 a1-batch1bc-greprerun-decision-list；欧阳锋终审 |
 | 666 | `task_20260906_laowantong-batch1c-cards` | 批 1c 高优产卡批：框架 10+case 5+四源同构 dk 1（分两小批） | reviewed | laowantong | 16 件入库+三方法证据+自攻击 | #665 后（同角色排队） | `60_feedback/tasks/task_20260906_laowantong-batch1c-cards.md` | 老朱拍板「要产排队不急」；欧阳锋终审 |
-| 667 | `task_20260906_wangyuyan-renyu-personal-batch` | 人域批诊断：老朱个人域 26 件（识己线，隐私面受控，产卡范围报老朱定） | claimed-wangyuyan | wangyuyan | 诊断报告+编排建议（MOC先行+五态对账） | #666 后 | `60_feedback/tasks/task_20260906_wangyuyan-renyu-personal-batch.md` | 人域纲领原料（老朱亲放）；欧阳锋终审 |
+| 667 | `task_20260906_wangyuyan-renyu-personal-batch` | 人域批诊断：老朱个人域 26 件（识己线，隐私面受控，产卡范围报老朱定） | pending_review | wangyuyan | 诊断报告+编排建议（MOC先行+五态对账） | #666 后 | `60_feedback/tasks/task_20260906_wangyuyan-renyu-personal-batch.md` | 人域纲领原料（老朱亲放）；欧阳锋终审 |
 | 668 | `task_20260906_laowantong-ai-kb-cards-promotion` | AI知识库 draft 卡族转正批（知识卡片公式/五维标注深挖法等——draft堆积两周检索失明治本） | reviewed | laowantong | 逐卡质检+提审转正+yaml升格链接 | #666 后（同角色排队） | `60_feedback/tasks/task_20260906_laowantong-ai-kb-cards-promotion.md` | 老朱晚问根因链治本；标签治理v1.1方法论基础；欧阳锋终审 |
 | 669 | `task_20260906_huangyaoshi-kdoquery-first-gate` | kdo query 第一优先门禁：宪法第六条+pre-submit 检索记录检查（WARNING→HARD）+grep 降级口径 | reviewed | huangyaoshi | 检查器两态实证+宪法v1.1三挂载同步+回归不红 | #656 后 | `60_feedback/tasks/task_20260906_huangyaoshi-kdoquery-first-gate.md` | 老朱直令「不信自律信门禁」；W11违例实证；欧阳锋终审 |
 | 670 | `task_20260906_huangyaoshi-card-status-flip` | 终审 PASS 后卡 status 自动翻转机制（#666 批 7 张停留 draft 实证——检索降权复现根因） | reviewed | huangyaoshi | 自动翻转实证+存量8张收口+回归不红 | 无 | `60_feedback/tasks/task_20260906_huangyaoshi-card-status-flip.md` | 老顽童 #668 发现（09-07）；欧阳锋终审 |
