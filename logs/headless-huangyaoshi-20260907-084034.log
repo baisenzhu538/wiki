@@ -1,0 +1,19 @@
+完工收线。#677 全链闭环：
+
+## 交付摘要
+
+**KDO 仓 `0c44c12`**（`kdo/pre_submit.py` + `tests/test_pre_submit_tags_gate.py` 15 例）+ vault 侧证据 `logs/task677-tags-gate-evidence-20260907.md` + 任务单五字段报告，queue complete → **pending_review** 待欧阳锋终审。
+
+**关键发现（实证）**：任务单说「检查器完整存在未接线」与实际不符——`def _check_tags(...)` 行在 8bc5645 批量提交时丢失，检查器主体是困在 `_check_aliases_has_source_name` 的 `return` 之后的**不可达死代码**，按注释加一行调用会直接 NameError。本轮做了提取+接线，工作量从「一行」变成「考古+提取+接线」。
+
+**三件套**：①接线激活 ②#498 词量（普通卡全部条目 5-8 / dk 核心词 1-3 / 空串残渣剥离清理）③两态 WARNING 软期至 **2026-09-14** → HARD（env `KDO_TAGS_HARD_DATE` 可提前，#669 同节奏）。
+
+**验证**：TDD 红（ImportError，失败原因正确）→ 绿 15/15；全量回归 **654 passed 1 skipped 零红**；验收三条全过——两 dk 卡缺陷态（git `4179de376^`）活体复现 WARNING、标杆 meeting-iceberg 走接线路径 tags 0 issue passed=1、HARD 态翻转 error failed=2。
+
+**两点提请终审裁定**：①词量计数不对称（普通卡计维度标签、dk 只计核心词——由验收锚点+dk 必备维度 ≥4 的数学冲突逼出）；②原死代码 framework→method 检查不接线（registry 标它是 chunk 级自动标注，309 张仅 19 张带、标杆卡无）。
+
+**给老朱的一个事实**：「今天 2 张零 tags 卡」在抽检时点为真，但两卡 tags 已于 **09-06 18:31/18:42**（早于本单立项）被治理补齐——缺陷复现改用 git 历史版本完成，现行态 0 误报。
+
+---
+
+**收尾三问**：① 新资产=门禁+15 回归例+证据日志+复盘四场段（已存 🟡 B级）；② 新问题=无新增阻塞，遗留为口径裁定（记录在任务单/证据文件）+「验收前提失真」定律第四连击（已入 friction-log 与复盘）；③ 下次启动记住=tags 门禁 09-14 软期截止，届时 WARNING 升 HARD，内容侧存量治理需在此之前完成。

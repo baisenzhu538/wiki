@@ -801,3 +801,6 @@
   - 未提交改动: 90_control/scripts/wiki-bundle-backup.bat
   - 未｜huangyaoshi
 2026-09-07 08:14:43｜task_20260906_wangyuyan-renyu-personal-batch｜F-034-五字段｜任务单缺少「## 执行报告」节（#429 F-034：交付必须落执行报告，口头完成=未完成；#444：evidence 附件不能替代）｜wangyuyan
+2026-09-07 09:00:36｜task_20260907_huangyaoshi-activate-tags-gate｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
+  - untracked: kdo/pre_submit.py
+  - untracked: tests/test｜huangyaoshi
