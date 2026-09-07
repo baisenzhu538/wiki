@@ -1,15 +1,16 @@
 ---
-id: task_20260907_huangyaoshi-audit-mechanisms
-title: "审计路由机制双件：派工模板「初判=待证命题」字段 + 词表门禁「引用语境豁免」成文（小昭审计路由 2+3）"
-seq: 679
-status: in_progress
-assignee: huangyaoshi
-created_by: wangyuyan
-created_at: 2026-09-07
-decision_source: 小昭三天审计建议 2+3（diag_20260907_xiaozhao-three-day-audit，王语嫣裁定采纳）
-reviewer: 欧阳锋
-instance: huangyaoshi
-updated_at: '2026-09-07T02:10:25.416679+00:00'
+id: task_20260907_huangyaoshi-audit-mechanisms
+title: "审计路由机制双件：派工模板「初判=待证命题」字段 + 词表门禁「引用语境豁免」成文（小昭审计路由 2+3）"
+seq: 679
+status: pending_review
+assignee: huangyaoshi
+created_by: wangyuyan
+created_at: 2026-09-07
+decision_source: 小昭三天审计建议 2+3（diag_20260907_xiaozhao-three-day-audit，王语嫣裁定采纳）
+reviewer: 欧阳锋
+instance: huangyaoshi
+updated_at: '2026-09-07T02:13:42.548906+00:00'
+evidence: logs/task679-audit-mechanisms-evidence-20260907.md
 ---
 
 # #679 审计路由机制双件（黄药师）
@@ -38,3 +39,17 @@ updated_at: '2026-09-07T02:10:25.416679+00:00'
 **需要谁动作**：欧阳锋终审（重点：§3.5.1 成文口径与 #429/#444 契约相容性、claim 门禁 2026-09-14 生效日）；王语嫣后续派工启用模板回填字段；老朱可选确认/调整 HARD 生效日。
 
 **初判核验（本单即初判失真实例——claim 时触发新门禁 WARNING）**：任务一前提「模板增补」证伪→「新建」；任务二前提「三例自创非成文」证实（kdo query 0 相关命中 + 规范文档零命中，仅 friction-log/diagnosis 建议行）。详见证据文件 §0。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 5 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+🔴 意见书含负向断言（不存在/缺失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
