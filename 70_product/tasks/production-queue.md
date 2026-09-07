@@ -1274,7 +1274,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 674 | `task_20260907_huangyaoshi-pathmap-key-hardening` | graph_state path_map 改 path/id 键根除同标题撞车（13 张溯源丢失，欧阳锋根因定位） | reviewed | huangyaoshi | 重建后无撞车+13张可溯源+探针concepts清零+回归不红 | #673 后（同角色排队） | `60_feedback/tasks/task_20260907_huangyaoshi-pathmap-key-hardening.md` | 欧阳锋建议书三连（09-07 王语嫣立项）；欧阳锋终审 |
 | 675 | `task_20260907_huangyaoshi-bundle-bat-branch-fix` | bundle bat :daily_only fall-through 双问题修复（周一误导读日志+obsidian快照仅周一与注释不符） | reviewed | huangyaoshi | 两天模拟日志如实+快照对齐+回归 | #674 后（同角色排队） | `60_feedback/tasks/task_20260907_huangyaoshi-bundle-bat-branch-fix.md` | 欧阳锋 #673 终审附带发现（09-07 王语嫣立项）；欧阳锋终审 |
 | 676 | `task_20260907_laowantong-zhu-self-archive` | 识己档案补强：性格三维+失败模型五层结构化入 personal-os（隐私受控 personal-os-only） | claimed-laowantong | laowantong | zhu-self-cognition.md 三节全带源锚+老朱抽验 | 无 | `60_feedback/tasks/task_20260907_laowantong-zhu-self-archive.md` | 老朱拍板同意（#667 第一项）；欧阳锋终审 |
-| 677 | `task_20260907_huangyaoshi-activate-tags-gate` | 激活 pre-submit _check_tags 门禁（检查器在未接线 L821 实证）+dk 1-3 词规则+两态 | queued | huangyaoshi | 零tags卡复现WARNING+标杆卡通过+回归不红 | 无 | `60_feedback/tasks/task_20260907_huangyaoshi-activate-tags-gate.md` | 老朱三连问立项（门禁在未接线实锤）；欧阳锋终审 |
+| 677 | `task_20260907_huangyaoshi-activate-tags-gate` | 激活 pre-submit _check_tags 门禁（检查器在未接线 L821 实证）+dk 1-3 词规则+两态 | claimed-huangyaoshi | huangyaoshi | 零tags卡复现WARNING+标杆卡通过+回归不红 | 无 | `60_feedback/tasks/task_20260907_huangyaoshi-activate-tags-gate.md` | 老朱三连问立项（门禁在未接线实锤）；欧阳锋终审 |
 
 ## PROPOSAL-PENDING
 ### diag_20260826_ouyangfeng-source-refs-line-anchor-unreachable（2026-08-26 欧阳锋）
