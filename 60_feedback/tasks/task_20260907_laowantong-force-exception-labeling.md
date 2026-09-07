@@ -2,14 +2,14 @@
 id: task_20260907_laowantong-force-exception-labeling
 title: "force 放行率标注：35 例人工标注（真误判 vs 合法逃生门）产出基线（小昭审计路由 1）"
 seq: 678
-status: queued
+status: in_progress
 assignee: laowantong
 created_by: wangyuyan
 created_at: 2026-09-07
 decision_source: 小昭三天审计建议 1（diag_20260907_xiaozhao-three-day-audit，王语嫣裁定立项 P1）
 reviewer: 欧阳锋
 instance: laowantong
-updated_at: '2026-09-07T10:20:00+08:00'
+updated_at: '2026-09-07T01:50:52.573626+00:00'
 ---
 
 # #678 force 放行率标注（老顽童）

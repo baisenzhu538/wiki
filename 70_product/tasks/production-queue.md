@@ -1280,7 +1280,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 675 | `task_20260907_huangyaoshi-bundle-bat-branch-fix` | bundle bat :daily_only fall-through 双问题修复（周一误导读日志+obsidian快照仅周一与注释不符） | reviewed | huangyaoshi | 两天模拟日志如实+快照对齐+回归 | #674 后（同角色排队） | `60_feedback/tasks/task_20260907_huangyaoshi-bundle-bat-branch-fix.md` | 欧阳锋 #673 终审附带发现（09-07 王语嫣立项）；欧阳锋终审 |
 | 676 | `task_20260907_laowantong-zhu-self-archive` | 识己档案补强：性格三维+失败模型五层结构化入 personal-os（隐私受控 personal-os-only） | reviewed | laowantong | zhu-self-cognition.md 三节全带源锚+老朱抽验 | 无 | `60_feedback/tasks/task_20260907_laowantong-zhu-self-archive.md` | 老朱拍板同意（#667 第一项）；欧阳锋终审 |
 | 677 | `task_20260907_huangyaoshi-activate-tags-gate` | 激活 pre-submit _check_tags 门禁（检查器在未接线 L821 实证）+dk 1-3 词规则+两态 | claimed-huangyaoshi | huangyaoshi | 零tags卡复现WARNING+标杆卡通过+回归不红 | 无 | `60_feedback/tasks/task_20260907_huangyaoshi-activate-tags-gate.md` | 老朱三连问立项（门禁在未接线实锤）；欧阳锋终审 |
-| 678 | `task_20260907_laowantong-force-exception-labeling` | force 放行率标注：35 例人工标注真误判率基线（小昭审计路由 1） | queued | laowantong | 35/35标注表+基线报告+王语嫣抽5复核 | 无 | `60_feedback/tasks/task_20260907_laowantong-force-exception-labeling.md` | 小昭审计建议1（王语嫣裁定立项P1）；欧阳锋终审 |
+| 678 | `task_20260907_laowantong-force-exception-labeling` | force 放行率标注：35 例人工标注真误判率基线（小昭审计路由 1） | claimed-laowantong | laowantong | 35/35标注表+基线报告+王语嫣抽5复核 | 无 | `60_feedback/tasks/task_20260907_laowantong-force-exception-labeling.md` | 小昭审计建议1（王语嫣裁定立项P1）；欧阳锋终审 |
 | 679 | `task_20260907_huangyaoshi-audit-mechanisms` | 审计路由机制双件：派工模板「初判=待证命题」字段+词表门禁「引用语境豁免」成文 | queued | huangyaoshi | 模板字段生效+豁免条款入规范+回归 | #677 返工后 | `60_feedback/tasks/task_20260907_huangyaoshi-audit-mechanisms.md` | 小昭审计建议2+3（王语嫣裁定采纳）；欧阳锋终审 |
 
 ## PROPOSAL-PENDING
