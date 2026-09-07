@@ -373,6 +373,29 @@ queued → claimed-{instance} → pending_review → reviewed（不通过则退�
 
 **口径说明**：`kdo lint` 的 L2 警告不等同 pre-submit 阻断——lint 是质量扫描（警告级，见 §四 L2 注），`kdo pre-submit` 是独立的阻断式提交门禁（见 KF-010）。
 
+### 3.5 引用语境豁免与初判字段（v2.1 增补，#679，2026-09-07）
+
+#### 3.5.1 词表门禁「引用语境豁免」（小昭审计建议 3，王语嫣裁定采纳）
+
+**根因**：词表级门禁全是字面/启发式匹配，无法区分「提及」（引用坏形态来举证——合法写作行为）与「患有」（文档本身有此缺陷）。E040 交付物入仓（#522，反引号路径误判）、BODY_SRC_UNKNOWN 正文占位（#517，`src_unknown` token 误伤证据引用）、QUOTE_VERBATIM 逐字引用（`_check_quote_verbatim`）三例同源。
+
+**成文口径——引用语境下允许截写，附复跑锚要求**：
+
+1. **截写**：引用坏形态举证时截断 token（例：`src_unknown` → `src_unk*`），门禁不再字面命中；
+2. **复跑锚**：同文必附复跑命令+命中数（例：`grep -c "src_unk" 30_wiki/log.md` = 218 命中），保住可复现性（宪法第二条锚点不断，#433）；
+3. **三禁**：不删证据、不改写证据、不加零宽字符（零宽字符破坏可 grep 性=断锚）；
+4. **留痕**：存档/报告头部声明截写位置与还原方式——改造透明可审计。
+
+**实证源**：老顽童 09-06 会话「存档全文不删减」约束下 `src_unk*` 截写 + grep 218 命中复跑锚闭环（`60_feedback/session-archives/2026-09-06/laowantong.md:28`）；该写法此前系执行人自创非成文（同件 :56——"下一个撞上的人还要再发明一次"），自本条成文日起为合法补救路径。
+
+#### 3.5.2 派工模板「初判=待证命题」字段（小昭审计建议 2，王语嫣裁定采纳）
+
+**初判失真定律**：任务单前提与盘上现状不符 5/5 命中（黄药师连续 4 场 + 老顽童 #668；锚：`60_feedback/diagnosis/diag_20260907_xiaozhao-three-day-audit.md`）。
+
+- **模板**：`90_control/templates/task-dispatch-template.md`——派工必填 `initial_assessment: 待证命题（附存在性核查锚）`（锚点三选一：文件:行 / git rev / grep 命中数）。
+- **语义**：初判是**待证命题不是结论**——执行者以实证证实或证伪，执行报告回填核验结果。
+- **门禁**：`queue_transition.py` claim 检查 `_check_initial_assessment_gate`——存量任务 WARNING 台账（gate-warning.log）；`created_at ≥` HARD 生效日（默认 2026-09-14，env `KDO_INITIAL_ASSESSMENT_HARD_DATE` 可提前）的新派任务硬拦；模板占位符原样=缺失（防复制模板即绕过）；逃生门 `claim --force` 留痕（#504 台账）。两态节奏与 #669/#677 一致。
+
 ---
 
 ## 四、三层质量门禁

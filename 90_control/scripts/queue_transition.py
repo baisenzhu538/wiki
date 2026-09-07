@@ -569,7 +569,57 @@ def _check_disposal_gate(task_file: Path, fm: dict[str, Any], task_id: str) -> t
     return True, ""
 
 
-# #444 instance→角色名映射：frontmatter assignee 只写角色名，instance 另存。
+# #679 任务一：初判字段门禁（小昭三天审计建议 2，2026-09-07 王语嫣裁定采纳）——
+# 初判失真定律：黄药师连续 4 场 + 老顽童 #668，任务单前提与盘上现状不符 5/5 命中。
+# 派工模板（90_control/templates/task-dispatch-template.md）增补
+# `initial_assessment: 待证命题（附存在性核查锚）`。
+# 两态口径对齐 #669/#677：WARNING 软期台账 → HARD 拦截；且 HARD 只对
+# created_at >= 生效日的新派任务生效（charter §3.10：存量不回改，新格式仅对生效日后生效）。
+INITIAL_ASSESSMENT_HARD_DATE = "2026-09-14"
+
+# 模板占位符原样照抄 = 字段在而内容空（防货物崇拜：复制模板不改值不算初判）
+_INITIAL_ASSESSMENT_PLACEHOLDERS = {
+    "待证命题（附存在性核查锚）", "待证命题", "TODO", "TBD", "",
+}
+
+
+def _initial_assessment_hard_date() -> str:
+    """HARD 切换日（ISO 日期）。env 覆盖用于提前门禁化与两态实证。"""
+    import os
+    return os.environ.get("KDO_INITIAL_ASSESSMENT_HARD_DATE",
+                          INITIAL_ASSESSMENT_HARD_DATE)
+
+
+def _check_initial_assessment_gate(task_file: Path, fm: dict[str, Any], task_id: str,
+                                   instance: str = "") -> tuple[bool, str]:
+    """claim 门禁：派工单缺「初判=待证命题」字段（#679 任务一，只拦机械项 #429）。
+
+    - `initial_assessment` 缺失/空/模板占位符原样：
+      - created_at >= HARD 生效日 → 硬拦（新派任务必须附待证命题+存在性核查锚）
+      - 否则 WARNING 台账放行（存量既往不咎）
+    - 唯一硬拦逃生门：claim --force --reason（#504 台账留痕）
+    """
+    val = str(fm.get("initial_assessment") or "").strip()
+    if val not in _INITIAL_ASSESSMENT_PLACEHOLDERS:
+        return True, ""
+    hard_date = _initial_assessment_hard_date()
+    created = str(fm.get("created_at") or "").strip()[:10]
+    is_new_dispatch = bool(created) and len(created) == 10 and created >= hard_date
+    if is_new_dispatch:
+        _log_gate_blocked(task_id, "初判字段门禁",
+                          f"created_at {created} >= {hard_date} 且缺 initial_assessment"
+                          "（#679：派工必附待证命题+存在性核查锚）", instance)
+        return False, (
+            f"{task_id}（created_at {created}）缺 `initial_assessment` 字段——"
+            f"禁止领取（#679 初判字段门禁 HARD）。\n"
+            f"背景：初判失真定律——任务单前提与盘上现状不符 5/5 命中（小昭三天审计 09-07）。\n"
+            f"请编排侧回填：initial_assessment: 待证命题一句话（附存在性核查锚："
+            f"文件:行 / git rev / grep 命中数）；确需先行 claim --force --reason 留痕（#504）。"
+        )
+    _log_gate_warning(task_id, "初判字段门禁",
+                      f"缺 initial_assessment（软期至 {hard_date}，存量既往不咎）", instance)
+    return True, (f"⚠️ {task_id} 缺 `initial_assessment`（初判=待证命题+核查锚）——"
+                  f"WARNING 台账已记，开工前先核任务单前提与盘上现状（#679；软期至 {hard_date}）")
 # 老顽童 Hermes CLI 实例映射 laowantong（#445：hermes=老顽童专属）；其余角色 instance 与角色名同形。
 # #503 修正：kimi 是多角色共用实例（王语嫣/欧阳锋/老顽童均用 Kimi CLI，#445）——
 # 按 instance 反推角色在 kimi 上是系统性错误（#497 claim 实测：王语嫣单被错写 laowantong），
@@ -720,6 +770,13 @@ def action_claim(task_id: str, instance: str, force: bool = False,
     gate_ok, gate_msg = _check_disposal_gate(task_file, fm, task_id)
     if not gate_ok:
         return False, gate_msg
+
+    # #679 初判字段门禁：派工单缺「初判=待证命题」——存量 WARNING 台账 / 新派 HARD 拦截
+    ia_ok, ia_msg = _check_initial_assessment_gate(task_file, fm, task_id, instance)
+    if not ia_ok:
+        return False, ia_msg
+    if ia_msg:
+        gate_msg = f"{gate_msg}\n{ia_msg}" if gate_msg else ia_msg
 
     with QueueLock("production-queue"):
         # Re-check gate inside lock

@@ -681,3 +681,5 @@
 - [2026-09-07 09:37] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#676（laowantong 的单，挂审 47min）；#677（huangyaoshi 的单，挂审 36min）（到点（节奏 15min））
 - [2026-09-07 09:47] ✅ KDO 终审通过 1 单：#676——你的单过了，见任务单终审记录
 - [2026-09-07 09:52] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-07 10:07] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-07 10:09] #678 force 放行率标注完成生产并更新为 pending_review——交付基线报告 90_control/force-exception-labeling-baseline-20260831-0906.md（35/35 标注表+检索记录节，pre-submit PASS）+机读对账 JSON；真误判 0/35（0%）＝机器豁免记账3/F-034修复2/fifo-other设计意图9/own-pending渠道缺口20（#655已根治）/claimed-lock竞态1，31/31 唯一任务终审 PASS 零 force 伤害；收口建议五条待欧阳锋/王语嫣裁定（王语嫣抽5复核为验收件）；commit 83c874dab；complete 后双验证 pending_review 落盘

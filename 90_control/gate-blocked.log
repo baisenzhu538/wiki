@@ -805,3 +805,4 @@
   - untracked: kdo/pre_submit.py
   - untracked: tests/test｜huangyaoshi
 2026-09-07 09:42:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 7666.8), ('cli', 40.7)]）｜role_registry check-liveness｜role_registry
+2026-09-07 10:08:59｜task_20260907_laowantong-force-exception-labeling｜F-034-五字段｜--evidence 文件不可读: 35/35 标注表+基线报告 90_control/force-exception-labeling-baseline-20260831-0906.md +机读对账｜laowantong

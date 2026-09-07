@@ -1055,3 +1055,90 @@ class TestInstanceNaming620(unittest.TestCase):
             self._teardown()
         self.assertTrue(ok, msg)
         self.assertIn("已释放", msg)
+
+
+# ── #679 任务一：初判字段门禁（initial_assessment 两态 + 模板占位符防呆）──
+
+class TestInitialAssessmentGate(unittest.TestCase):
+    """#679（小昭审计建议 2，初判失真 5/5）：缺「初判=待证命题」字段——
+    存量 WARNING 台账放行；created_at >= HARD 生效日的新派任务硬拦；
+    模板占位符原样 = 缺失（防货物崇拜）。"""
+
+    def _task(self, tmp, initial_assessment=None, created_at="2026-09-01"):
+        fm = (f"---\nid: task_9999_ia\nassignee: huangyaoshi\nstatus: queued\n"
+              f"title: 测试任务\ncreated_at: {created_at}\n")
+        if initial_assessment is not None:
+            fm += f"initial_assessment: {initial_assessment}\n"
+        fp = tmp / "task_9999_ia.md"
+        fp.write_text(fm + "---\n# 测试\n", encoding="utf-8")
+        return fp
+
+    def test_legacy_task_missing_field_warns_but_passes(self):
+        """存量任务（created_at < HARD 日）缺字段 → WARNING 放行不硬拦。"""
+        with tempfile.TemporaryDirectory() as d:
+            fp = self._task(Path(d), created_at="2026-09-01")
+            ok, msg = qt._check_initial_assessment_gate(fp, {}, "task_9999_ia", "huangyaoshi")
+        self.assertTrue(ok)
+        self.assertIn("WARNING", msg)
+        self.assertIn("initial_assessment", msg)
+
+    def test_new_dispatch_missing_field_blocked(self):
+        """新派任务（created_at >= HARD 日）缺字段 → 硬拦（charter §3.10 新格式生效日口径）。"""
+        with tempfile.TemporaryDirectory() as d:
+            fp = self._task(Path(d), created_at="2026-09-14")
+            ok, msg = qt._check_initial_assessment_gate(
+                fp, {"created_at": "2026-09-14"}, "task_9999_ia", "huangyaoshi")
+        self.assertFalse(ok)
+        self.assertIn("禁止领取", msg)
+        self.assertIn("initial_assessment", msg)
+
+    def test_new_dispatch_placeholder_verbatim_blocked(self):
+        """模板占位符原样照抄 = 字段在而内容空 → 同样硬拦（防货物崇拜）。"""
+        with tempfile.TemporaryDirectory() as d:
+            fp = self._task(Path(d), initial_assessment="待证命题（附存在性核查锚）",
+                            created_at="2026-09-14")
+            ok, msg = qt._check_initial_assessment_gate(
+                fp, {"created_at": "2026-09-14",
+                     "initial_assessment": "待证命题（附存在性核查锚）"},
+                "task_9999_ia", "huangyaoshi")
+        self.assertFalse(ok)
+
+    def test_filled_field_passes_silently(self):
+        """已回填待证命题+锚 → 通过且零提示。"""
+        fm = {"initial_assessment": "「检查器完整存在」待证——grep def _check_tags 计数=0（pre_submit.py:841）"}
+        with tempfile.TemporaryDirectory() as d:
+            fp = self._task(Path(d), created_at="2026-09-14")
+            ok, msg = qt._check_initial_assessment_gate(fp, fm, "task_9999_ia", "huangyaoshi")
+        self.assertTrue(ok)
+        self.assertEqual(msg, "")
+
+    def test_env_override_switches_hard_date(self):
+        """env KDO_INITIAL_ASSESSMENT_HARD_DATE 可提前门禁化（两态实证通道，#669/#677 同节奏）。"""
+        import os
+        old = os.environ.get("KDO_INITIAL_ASSESSMENT_HARD_DATE")
+        try:
+            os.environ["KDO_INITIAL_ASSESSMENT_HARD_DATE"] = "2026-01-01"
+            self.assertEqual(qt._initial_assessment_hard_date(), "2026-01-01")
+            with tempfile.TemporaryDirectory() as d:
+                fp = self._task(Path(d), created_at="2026-09-01")
+                ok, _ = qt._check_initial_assessment_gate(
+                    fp, {"created_at": "2026-09-01"}, "task_9999_ia", "huangyaoshi")
+            self.assertFalse(ok)  # 存量任务在提前 HARD 下也被拦
+        finally:
+            if old is None:
+                os.environ.pop("KDO_INITIAL_ASSESSMENT_HARD_DATE", None)
+            else:
+                os.environ["KDO_INITIAL_ASSESSMENT_HARD_DATE"] = old
+
+    def test_dispatch_template_carries_field(self):
+        """派工模板（90_control/templates/task-dispatch-template.md）必须带字段且可解析。"""
+        template = SCRIPT_DIR.parent / "templates" / "task-dispatch-template.md"
+        self.assertTrue(template.exists(), f"模板不存在: {template}")
+        import yaml as _yaml
+        text = template.read_text(encoding="utf-8")
+        m = __import__("re").match(r"^---\r?\n(.*?)\r?\n---", text, __import__("re").DOTALL)
+        self.assertIsNotNone(m, "模板 frontmatter 不可解析")
+        fm = _yaml.safe_load(m.group(1)) or {}
+        self.assertIn("initial_assessment", fm)
+        # 模板占位符必须被门禁识别为缺失（防复制模板即绕过）
+        self.assertIn(str(fm["initial_assessment"]).strip(), qt._INITIAL_ASSESSMENT_PLACEHOLDERS)
