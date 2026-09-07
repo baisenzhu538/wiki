@@ -680,3 +680,4 @@
 - [2026-09-07 09:17] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#676（laowantong 的单，挂审 27min）；#677（huangyaoshi 的单，挂审 16min）（到点（节奏 15min））
 - [2026-09-07 09:37] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#676（laowantong 的单，挂审 47min）；#677（huangyaoshi 的单，挂审 36min）（到点（节奏 15min））
 - [2026-09-07 09:47] ✅ KDO 终审通过 1 单：#676——你的单过了，见任务单终审记录
+- [2026-09-07 09:52] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
