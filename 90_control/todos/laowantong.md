@@ -678,3 +678,4 @@
 - [2026-09-07 08:51] #676 识己档案补强完成生产并更新为 pending_review——交付 30_wiki/personal-os/zhu-self-cognition.md（性格三维/失败五层/方向适配三节 70 锚全验，pre-submit PASS 剩 1 条提示制 WARNING 已人工核对，personal-os-only 隐私受控）；claim 时 #667 挂审按 #504 口径 --force 领取已留痕台账；待欧阳锋终审+老朱抽验
 - [2026-09-07 09:02] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#676（laowantong 的单，挂审 12min）；#677（huangyaoshi 的单，挂审 1min）（到点（节奏 15min））
 - [2026-09-07 09:17] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#676（laowantong 的单，挂审 27min）；#677（huangyaoshi 的单，挂审 16min）（到点（节奏 15min））
+- [2026-09-07 09:37] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#676（laowantong 的单，挂审 47min）；#677（huangyaoshi 的单，挂审 36min）（到点（节奏 15min））
