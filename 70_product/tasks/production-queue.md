@@ -685,8 +685,8 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~00_inbox/pending-cards/distill-human-20260906-04.md｜P2｜959B｜检测到 09-06 16:01｜待王语嫣编排~~ → 门禁 PASS 纳入蒸馏候选池·人域隐私受控（09-07 00:25 王语嫣）：human 层 6 张（对人洞察），机械门禁 6/6 过；处置=随 #667 人域批统一裁定（产卡目标 personal-os/人域，隐私面不外流）
 - ~~00_inbox/pending-cards/distill-human-20260906-05.md｜P2｜1060B｜检测到 09-06 16:01｜待王语嫣编排~~ → 门禁 PASS 纳入蒸馏候选池·人域隐私受控（09-07 00:25 王语嫣）：human 层 6 张（对人洞察），机械门禁 6/6 过；处置=随 #667 人域批统一裁定（产卡目标 personal-os/人域，隐私面不外流）
 - ~~00_inbox/pending-cards/distill-human-20260906-06.md｜P2｜954B｜检测到 09-06 16:01｜待王语嫣编排~~ → 门禁 PASS 纳入蒸馏候选池·人域隐私受控（09-07 00:25 王语嫣）：human 层 6 张（对人洞察），机械门禁 6/6 过；处置=随 #667 人域批统一裁定（产卡目标 personal-os/人域，隐私面不外流）
-- 00_inbox/pending-cards/case-wechat-5ecea4cc1eb4f87f.md｜P2｜3612B｜检测到 09-07 00:31｜待王语嫣编排
-- 00_inbox/wechat-collect/src_wechat_5ecea4cc1eb4f87f.md｜P2｜8364B｜检测到 09-07 00:31｜待王语嫣编排
+- ~~00_inbox/pending-cards/case-wechat-5ecea4cc1eb4f87f.md｜P2｜3612B｜检测到 09-07 00:31｜待王语嫣编排~~ → 同上随批（09-07 09:15 王语嫣）：自动 case 卡为本体建模转录衍生，随挖矿批统一查重处置
+- ~~00_inbox/wechat-collect/src_wechat_5ecea4cc1eb4f87f.md｜P2｜8364B｜检测到 09-07 00:31｜待王语嫣编排~~ → 分诊入挖矿优先批（09-07 09:15 王语嫣）：本体建模（Ontology Modeling 五概念，茶业供应链案例）8.4KB——KDO 架构/「知识库 vs 本体论」（R18-05）直接相关高价值；ASR 小模型误听标注使用；随 A1 挖矿流水线优先开采
 
 <!-- INBOX-PENDING-END -->
 
@@ -1231,7 +1231,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~[gate-blocked] task_20260907_huangyaoshi-pathmap-key-hardening｜09-07 04:37｜待王语嫣复核处置｜2026-09-07 04:32:16｜task_20260907_huangyaoshi-pathmap-key-hardening｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生 / - untracked: logs/pathmap-hardening-674-20260907.log / 补救：｜huangyaoshi~~ → 回声划销（09-07 04:45 王语嫣）：补 commit 后提审成功，#674 现 pending_review
 - ~~[gate-blocked] role-liveness｜09-07 05:07｜待王语嫣复核处置｜2026-09-07 05:07:01｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 7391.8), ('cli', 34.5)]）｜role_registry check-liveness｜role_registry~~ → 划销（09-07 05:15 王语嫣）：误报——异构盲区已知同前
 - ~~[gate-blocked] task_20260907_huangyaoshi-bundle-bat-branch-fix｜09-07 05:37｜待王语嫣复核处置｜2026-09-07 05:27:54｜task_20260907_huangyaoshi-bundle-bat-branch-fix｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生 / - 未提交改动: 90_control/scripts/wiki-bundle-backup.bat / - 未｜huangyaoshi~~ → 回声划销（09-07 06:15 王语嫣）：#675 补 evidence 后提审成功，已 PASS A- 终审闭环
-- [gate-blocked] task_20260906_wangyuyan-renyu-personal-batch｜09-07 08:17｜待王语嫣复核处置｜2026-09-07 08:14:43｜task_20260906_wangyuyan-renyu-personal-batch｜F-034-五字段｜任务单缺少「## 执行报告」节（#429 F-034：交付必须落执行报告，口头完成=未完成；#444：evidence 附件不能替代）｜wangyuyan
+- ~~[gate-blocked] task_20260906_wangyuyan-renyu-personal-batch｜09-07 08:17｜待王语嫣复核处置｜2026-09-07 08:14:43｜task_20260906_wangyuyan-renyu-personal-batch｜F-034-五字段｜任务单缺少「## 执行报告」节（#429 F-034：交付必须落执行报告，口头完成=未完成；#444：evidence 附件不能替代）｜wangyuyan~~ → 回声划销（09-07 09:15 王语嫣）：#667 补执行报告后完工提审成功，现 pending_review（欧阳锋审中）
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
