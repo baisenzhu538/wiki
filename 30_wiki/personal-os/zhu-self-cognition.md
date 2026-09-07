@@ -7,9 +7,9 @@ aliases:
 - 老朱个人特质与职业方向深度分析报告
 - 识己档案
 type: system
-status: draft
+status: reviewed
 author: laowantong
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 created_at: 2026-09-07
 updated_at: 2026-09-07
 permission: personal-os-only
@@ -33,8 +33,8 @@ related:
 - "[[zhu-future-directions]]"
 - "[[yt-entrepreneur-unit-model]]"
 - "[[framework-popmart-long-termism-operating-philosophy]]"
+review_date: 2026-09-07
 ---
-
 # 识己档案：老朱自我认知结构化清单
 
 > **本档案是什么**：识己 7 件素材（#667 分诊）中三份核心诊断的结构化清单体归档。任务单 #676（老朱 09-07 拍板同意）。**零虚构**——每条内容带源锚（源文件+行号），本文不添加任何源外判断。
