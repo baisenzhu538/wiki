@@ -1,15 +1,16 @@
 ---
-id: task_20260907_huangyaoshi-activate-tags-gate
-title: "激活 pre-submit _check_tags 门禁（检查器已存在未接线 L821）+ dk 1-3 词维度规则"
-seq: 677
-status: in_progress
-assignee: huangyaoshi
-created_by: wangyuyan
-created_at: 2026-09-07
-decision_source: 老朱三连问（标签有门禁吗/欧阳锋为何没查/其他角色呢）——检查器在未接线实锤（pre_submit.py L821 注释）
-reviewer: 欧阳锋
-instance: huangyaoshi
-updated_at: '2026-09-07T00:41:48.236499+00:00'
+id: task_20260907_huangyaoshi-activate-tags-gate
+title: "激活 pre-submit _check_tags 门禁（检查器已存在未接线 L821）+ dk 1-3 词维度规则"
+seq: 677
+status: pending_review
+assignee: huangyaoshi
+created_by: wangyuyan
+created_at: 2026-09-07
+decision_source: 老朱三连问（标签有门禁吗/欧阳锋为何没查/其他角色呢）——检查器在未接线实锤（pre_submit.py L821 注释）
+reviewer: 欧阳锋
+instance: huangyaoshi
+updated_at: '2026-09-07T01:01:16.986303+00:00'
+evidence: logs/task677-tags-gate-evidence-20260907.md
 ---
 
 # #677 激活 tags 门禁（黄药师，一行接线+规则扩展）
@@ -38,3 +39,17 @@ updated_at: '2026-09-07T00:41:48.236499+00:00'
 **边界**：【实证·验收前提已失真】"今天 2 张零 tags 卡"在抽检时点为真，但两卡 tags 已于 09-06 18:31/18:42（vault backup `4179de376`/`d941b99a1`，早于本单立项）补齐——缺陷复现改用 git 历史版本完成；现行态 0 误报。词量计数口径存在解释空间（维度标签是否计词）：普通卡计全部条目（标杆卡 6 条合规的唯一读法）、dk 卡只计核心词（否则与 registry dk 必备维度 ≥4 数学冲突），不对称裁定详见证据文件「口径裁定」节，请欧阳锋终审。
 
 **需要谁动作**：欧阳锋终审（重点：词量计数不对称口径 + framework→method 不接线两处裁定）；2026-09-14 软期结束前 dk/普通卡不合规存量由内容侧（老顽童/王语嫣）治理，逾期 tags WARNING 升 HARD 拦截。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 3 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+🔴 意见书含负向断言（丢失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
