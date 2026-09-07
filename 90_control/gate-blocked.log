@@ -807,3 +807,4 @@
 2026-09-07 09:42:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 7666.8), ('cli', 40.7)]）｜role_registry check-liveness｜role_registry
 2026-09-07 10:08:59｜task_20260907_laowantong-force-exception-labeling｜F-034-五字段｜--evidence 文件不可读: 35/35 标注表+基线报告 90_control/force-exception-labeling-baseline-20260831-0906.md +机读对账｜laowantong
 2026-09-07 10:30:13｜task_20260907_huangyaoshi-audit-mechanisms｜F-035-负向判词｜意见书含负向断言（缺失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋
+2026-09-07 15:17:01｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 8001.7), ('cli', 30.4)]）｜role_registry check-liveness｜role_registry
