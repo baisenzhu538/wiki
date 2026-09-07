@@ -2,14 +2,14 @@
 id: task_20260907_laowantong-zhu-self-archive
 title: "识己档案补强：性格三维+失败模型五层结构化入 personal-os（老朱拍板同意，隐私受控）"
 seq: 676
-status: queued
+status: in_progress
 assignee: laowantong
 created_by: wangyuyan
 created_at: 2026-09-07
 decision_source: 老朱 09-07 拍板「同意」（#667 产卡范围第一项）
 reviewer: 欧阳锋
 instance: laowantong
-updated_at: '2026-09-07T08:40:00+08:00'
+updated_at: '2026-09-07T00:36:02.041725+00:00'
 ---
 
 # #676 识己档案补强（老顽童）
