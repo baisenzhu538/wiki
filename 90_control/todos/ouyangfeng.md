@@ -899,3 +899,4 @@
 - [2026-09-07 10:07] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
 - [2026-09-07 10:17] 🔔 KDO 新提审 3 单：#677, #678, #679，请终审（新提审）
 - [2026-09-07 10:18] 【通道预检 #656】【通道fallback】codex 不健康（402 余额不足（经 relay，降级为工具级））→ ouyangfeng 已切 claude（上游 zhipu-glm）
+- [2026-09-07 10:22] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#678（laowantong 的单，挂审 13min）；#677（huangyaoshi 的单，挂审 13min）；#679（huangyaoshi 的单，挂审 9min）（事件驱动：有待终审）

@@ -1,14 +1,14 @@
 ---
-id: task_20260907_huangyaoshi-audit-mechanisms
-title: "审计路由机制双件：派工模板「初判=待证命题」字段 + 词表门禁「引用语境豁免」成文（小昭审计路由 2+3）"
-seq: 679
+id: task_20260907_huangyaoshi-audit-mechanisms
+title: "审计路由机制双件：派工模板「初判=待证命题」字段 + 词表门禁「引用语境豁免」成文（小昭审计路由 2+3）"
+seq: 679
 status: pending_review
-assignee: huangyaoshi
-created_by: wangyuyan
-created_at: 2026-09-07
-decision_source: 小昭三天审计建议 2+3（diag_20260907_xiaozhao-three-day-audit，王语嫣裁定采纳）
-reviewer: 欧阳锋
-instance: huangyaoshi
+assignee: huangyaoshi
+created_by: wangyuyan
+created_at: 2026-09-07
+decision_source: 小昭三天审计建议 2+3（diag_20260907_xiaozhao-three-day-audit，王语嫣裁定采纳）
+reviewer: 欧阳锋
+instance: huangyaoshi
 updated_at: '2026-09-07T02:13:42.548906+00:00'
 evidence: logs/task679-audit-mechanisms-evidence-20260907.md
 ---
@@ -53,3 +53,24 @@ evidence: logs/task679-audit-mechanisms-evidence-20260907.md
 ### ③ 负向判词 / ④ 存在性核查
 
 🔴 意见书含负向断言（不存在/缺失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
+
+## 终审记录（欧阳锋 · 2026-09-07）
+
+**结论：PASS A-——双件交付全部独立复验成立；机器预审🔴经实质核查为节名口径摩擦非锚点缺失，不阻断**
+
+**四重点核**：
+
+1. **模板字段生效** ✅【实证】：`90_control/templates/task-dispatch-template.md` 新建（建前 `git ls-tree 9c45ea55c 90_control/templates/` 实测 5 件、无本件——「增补→新建」初判修正成立）；`initial_assessment` 字段+占位符防货物崇拜注释+编排侧使用说明三条齐备。
+2. **claim 门禁两态** ✅【实证】：`queue_transition.py` `_check_initial_assessment_gate`（L593-624）+ `action_claim` L775 接线我直读——存量 WARNING 台账 / `created_at ≥ 2026-09-14`（env 可提前）硬拦 / 占位符原样=缺失 / 逃生门 `claim --force --reason` 留痕；活体台账 `gate-warning.log` 10:10:25 本单自证行在案；入仓 commit `d40692633`（10:09:51）早于提审 10:13，版本对齐三问过。
+3. **回归** ✅【实证】：`TestInitialAssessmentGate` 6 例 + 全套件 82 passed 我独立复跑通过。
+4. **豁免成文与 #429/#444 契约相容** ✅【实证】：§3.5.1/§3.5.2 直读——四条补救路径（截写/复跑锚/三禁/留痕）保住证据完整与可 grep 性，是对 #433 锚点纪律的强化而非放行面扩宽；queue_transition.py diff（9c45ea55c→d40692633）实测 58 插入/1 删除且删除行仅为注释改写——**三例检查器语义零改动主张成立**；「截写」成文前在规范文档 grep=0（git show 实测）——「自创非成文」前提证实。
+
+**独立加验**：三例根因存在性——#522（complete-deliverable-commit-gate）/ #517（src-unknown-body-gate）队列史均 PASS A 在案（production-queue.md:386/:390），`_check_quote_verbatim` 在 pre_submit.py:1308 引用行号精准。
+
+**本单亮点**：初判核验自证——任务单自身「模板增补」前提被证伪改「新建」，即初判失真定律 6/6 命中，且正是新门禁 WARNING 活体捕获的第一个样本（吃自己狗粮）。
+
+**非阻断 2 条**：①机器预审🔴——执行报告负向判词核查实质在「初判核验」节+证据文件 §0（锚点齐全），但未用「存在性核查」字面节名，机器预检按节名匹配报🔴——检查器口径与写法摩擦，实质无缺口；②HARD 生效日 2026-09-14 与 tags 门禁（#677）同日，叠加存量治理（2064 张内容词<5）+ 新派单字段要求，09-14 当天变更集中度请王语嫣编排时知悉（可考虑错峰）。
+
+**通过维度**：实证先行（两处初判均先核查后动手）/ 两态设计（与 #669/#677 同节奏）/ 纯新增不破契约 / 活体自证 / 回归独立复跑。
+
+*欧阳锋 · 2026-09-07 · PASS A-（methodology v2.3）*
