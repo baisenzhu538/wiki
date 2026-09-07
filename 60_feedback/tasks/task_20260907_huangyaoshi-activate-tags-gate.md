@@ -1,16 +1,33 @@
 ---
-id: task_20260907_huangyaoshi-activate-tags-gate
-title: "激活 pre-submit _check_tags 门禁（检查器已存在未接线 L821）+ dk 1-3 词维度规则"
-seq: 677
+id: task_20260907_huangyaoshi-activate-tags-gate
+
+
+title: "激活 pre-submit _check_tags 门禁（检查器已存在未接线 L821）+ dk 1-3 词维度规则"
+
+
+seq: 677
+
+
 status: in_progress
-assignee: huangyaoshi
-created_by: wangyuyan
-created_at: 2026-09-07
-decision_source: 老朱三连问（标签有门禁吗/欧阳锋为何没查/其他角色呢）——检查器在未接线实锤（pre_submit.py L821 注释）
-reviewer: 欧阳锋
+assignee: huangyaoshi
+
+
+created_by: wangyuyan
+
+
+created_at: 2026-09-07
+
+
+decision_source: 老朱三连问（标签有门禁吗/欧阳锋为何没查/其他角色呢）——检查器在未接线实锤（pre_submit.py L821 注释）
+
+
+reviewer: 欧阳锋
+
+
 instance: huangyaoshi
 updated_at: '2026-09-07T01:48:41.056346+00:00'
-evidence: logs/task677-tags-gate-evidence-20260907.md
+evidence: logs/task677-tags-gate-rework-evidence-20260907.md
+
 rework: true
 ---
 
@@ -106,3 +123,23 @@ rework: true
 **残余风险**：即便两处修正，09-14 HARD 后存量不合规卡（含内容词<5 的卡）将批量进入治理队列——需内容侧（老顽童/王语嫣）在软期窗口内分批补标。
 
 *欧阳锋 · 2026-09-07 · FAIL（P1）*
+
+---
+
+## 执行报告（返工 · 第二轮，F-034 五字段，2026-09-07 huangyaoshi）
+
+**交付物**：KDO 仓 commit `1a7a2e2`——`kdo/pre_submit.py` `_check_tags` 普通卡分支改内容词口径（非 `:` 条目 5-8，与 dk 核心词对称）+ `tests/test_pre_submit_tags_gate.py` 口径回归（新增 graph-rag 同构/meeting-iceberg 同构 2 例，4 例口径适配，共 16 例）；返工验证证据 `logs/task677-tags-gate-rework-evidence-20260907.md`。
+
+**完成内容**：①P1-1 修正——普通卡词量改计内容词（`words = [t for t in tags if ":" not in t]`），剔除 audience:/scene:/skill-level: 前缀维度，报文同步改为「普通卡内容词 N 个（维度前缀不计词）」；②P1-2 修正——删除「`4179de376^` 0/0」误证（系文件不存在非零 tags），活体复现改用 git 历史真实零 tags 卡版本：扫描 concepts+frameworks 前 100 文件创建提交得 49 张，取 `ai-collaboration-mindset-shift.md@3051d146e`（type=concept，frontmatter 无 tags 行）物化后 `_check_tags` 复现 WARNING；③P2 如实改判——标杆卡 meeting-iceberg 按 #498 内容词口径重验 4<5 **不合规**，不再作合规样板（补标归内容侧）。
+
+**验证**：TDD 红 4（失败原因=总条目口径，与 P1-1 定位一致）→ 绿 16/16；全量回归 KDO 仓 655 passed 1 skipped 零红；graph-rag（3 前缀+7 内容词）修后 `run_pre_submit` 端到端 `tags_gate_issues=0`；meeting-iceberg 端到端 `tags_gate_issues=1`（内容词 4<5 warning，HARD env 翻转 error）；误报候选独立复算 546 张（与欧阳锋 504 差集=扫描范围，量级互证）；修后存量量化：2916 张受检卡中内容词<5 共 2064 张（HARD 到期治理规模，证据文件 §6）。
+
+**边界**：①接线/两态设计（欧阳锋四重点核 ①②③ 已 ✅）本轮不动，`TAGS_HARD_DATE=2026-09-14` + env 照旧；②标杆卡与 2064 张存量不合规卡的内容词补标属内容治理，黄药师不改别人卡片，需内容侧软期内分批处理；③误报候选计数受扫描范围影响（546 vs 504，口径差已声明），门禁行为不受该计数影响。
+
+**需要谁动作**：欧阳锋复审两处修正（内容词口径对称性 + 活体复现真实路径）；王语嫣/老顽童接软期治理排期（2064 张内容词<5 千张级，建议分域批次，证据 §6）；2026-09-14 HARD 到期前不治理将开始拦截提审。
+
+**存在性核查（返工轮负向判词锚点，#433）**：
+- 「`4179de376^` 0/0 系文件不存在」→ `git show 4179de376^:30_wiki/dark-knowledges/dk-ai-stronger-need-to-know-what-you-want.md` 报 `path does not exist in '4179de376^'`（与欧阳锋核查同锚）
+- 「git 历史存在真实零 tags 卡」→ `git show 3051d146e:30_wiki/concepts/ai-collaboration-mindset-shift.md` frontmatter 无 `tags:` 行、type=concept；扫描样本 49 张
+- 「现行盘上无可复现零 tags 受检卡」→ 全库扫描零 tags 且非 index/meta/log/system 卡=0 张（唯一零 tags 非索引卡 personal-os/zhu-conversation-insights.md 为 type: system，门禁跳过）——活体复现必须走 git 历史
+- 「graph-rag 修后不误报」→ `run_pre_submit` 实跑 tags_gate_issues=0；「meeting-iceberg 内容词 4 报警」→ 同法实跑 tags_gate_issues=1
