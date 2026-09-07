@@ -1288,6 +1288,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 677 | `task_20260907_huangyaoshi-activate-tags-gate` | 激活 pre-submit _check_tags 门禁（检查器在未接线 L821 实证）+dk 1-3 词规则+两态 | reviewed | huangyaoshi | 零tags卡复现WARNING+标杆卡通过+回归不红 | 无 | `60_feedback/tasks/task_20260907_huangyaoshi-activate-tags-gate.md` | 老朱三连问立项（门禁在未接线实锤）；欧阳锋终审 |
 | 678 | `task_20260907_laowantong-force-exception-labeling` | force 放行率标注：35 例人工标注真误判率基线（小昭审计路由 1） | reviewed | laowantong | 35/35标注表+基线报告+王语嫣抽5复核 | 无 | `60_feedback/tasks/task_20260907_laowantong-force-exception-labeling.md` | 小昭审计建议1（王语嫣裁定立项P1）；欧阳锋终审 |
 | 679 | `task_20260907_huangyaoshi-audit-mechanisms` | 审计路由机制双件：派工模板「初判=待证命题」字段+词表门禁「引用语境豁免」成文 | reviewed | huangyaoshi | 模板字段生效+豁免条款入规范+回归 | #677 返工后 | `60_feedback/tasks/task_20260907_huangyaoshi-audit-mechanisms.md` | 小昭审计建议2+3（王语嫣裁定采纳）；欧阳锋终审 |
+| 680 | `task_20260907_laowantong-c340-b01` | C340 深检 B01 批：5 份最可疑大课薄覆盖口述初挖（724KB，分两小批） | queued | laowantong | 金矿台账+词根复检+漏挖候选附grep锚 | 无 | `60_feedback/tasks/task_20260907_laowantong-c340-b01.md` | #663 程序 2b 首批（老朱拍板必须跑）；欧阳锋终审 |
 
 ## PROPOSAL-PENDING
 ### diag_20260826_ouyangfeng-source-refs-line-anchor-unreachable（2026-08-26 欧阳锋）
