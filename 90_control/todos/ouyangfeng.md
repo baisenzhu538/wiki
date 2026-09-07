@@ -921,3 +921,4 @@
 - [2026-09-07 17:02] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
 - [2026-09-07 17:27] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#680（laowantong 的单，挂审 2min）（事件驱动：有待终审）
 - [2026-09-07 17:37] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#680（laowantong 的单，挂审 12min）（事件驱动：有待终审）
+- [2026-09-07 17:45] 【通道预检 #656】【通道fallback】codex 不健康（402 余额不足（经 relay，降级为工具级））→ ouyangfeng 已切 claude（上游 zhipu-glm）
