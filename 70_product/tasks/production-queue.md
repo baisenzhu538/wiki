@@ -567,8 +567,6 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 
 > 王语嫣维护看板时处理：诊断 → 写任务单 → 入队后把对应行划掉。编排规则不变，这里只解决「没人被通知」。
 
-- ~~00_inbox/pending-cards/distill-external-20260905-13.md｜P2｜1059B｜检测到 09-04 19:21｜待王语嫣编排~~ → 已处置（09-05 03:36 王语嫣）：#645 蒸馏器试跑样本，随 #645 终审+我门禁复核
-- ~~00_inbox/pending-cards/distill-external-20260905-14.md｜P2｜1154B｜检测到 09-04 19:21｜待王语嫣编排~~ → 已处置（09-05 03:36 王语嫣）：#645 蒸馏器试跑样本，随 #645 终审+我门禁复核
 - ~~00_inbox/pending-cards/distill-external-20260905-15.md｜P2｜1071B｜检测到 09-04 19:21｜待王语嫣编排~~ → 已处置（09-05 03:36 王语嫣）：#645 蒸馏器试跑样本，随 #645 终审+我门禁复核
 - ~~00_inbox/pending-cards/distill-external-20260905-16.md｜P2｜1181B｜检测到 09-04 19:21｜待王语嫣编排~~ → 已处置（09-05 03:36 王语嫣）：#645 蒸馏器试跑样本，随 #645 终审+我门禁复核
 - ~~00_inbox/pending-cards/distill-external-20260905-17.md｜P2｜1073B｜检测到 09-04 19:21｜待王语嫣编排~~ → 已处置（09-05 03:36 王语嫣）：#645 蒸馏器试跑样本，随 #645 终审+我门禁复核
@@ -687,6 +685,8 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~00_inbox/pending-cards/distill-human-20260906-04.md｜P2｜959B｜检测到 09-06 16:01｜待王语嫣编排~~ → 门禁 PASS 纳入蒸馏候选池·人域隐私受控（09-07 00:25 王语嫣）：human 层 6 张（对人洞察），机械门禁 6/6 过；处置=随 #667 人域批统一裁定（产卡目标 personal-os/人域，隐私面不外流）
 - ~~00_inbox/pending-cards/distill-human-20260906-05.md｜P2｜1060B｜检测到 09-06 16:01｜待王语嫣编排~~ → 门禁 PASS 纳入蒸馏候选池·人域隐私受控（09-07 00:25 王语嫣）：human 层 6 张（对人洞察），机械门禁 6/6 过；处置=随 #667 人域批统一裁定（产卡目标 personal-os/人域，隐私面不外流）
 - ~~00_inbox/pending-cards/distill-human-20260906-06.md｜P2｜954B｜检测到 09-06 16:01｜待王语嫣编排~~ → 门禁 PASS 纳入蒸馏候选池·人域隐私受控（09-07 00:25 王语嫣）：human 层 6 张（对人洞察），机械门禁 6/6 过；处置=随 #667 人域批统一裁定（产卡目标 personal-os/人域，隐私面不外流）
+- 00_inbox/pending-cards/case-wechat-5ecea4cc1eb4f87f.md｜P2｜3612B｜检测到 09-07 00:31｜待王语嫣编排
+- 00_inbox/wechat-collect/src_wechat_5ecea4cc1eb4f87f.md｜P2｜8364B｜检测到 09-07 00:31｜待王语嫣编排
 
 <!-- INBOX-PENDING-END -->
 
@@ -1273,6 +1273,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 673 | `task_20260907_huangyaoshi-bundle-regen` | bundle 备份过期 47.6h 处置（停摆排查+重新生成+阈值核实） | reviewed | huangyaoshi | 新bundle+integrity PASS+节拍恢复 | 无 | `60_feedback/tasks/task_20260907_huangyaoshi-bundle-regen.md` | vault-integrity 探针告警（09-07 王语嫣立项）；欧阳锋终审 |
 | 674 | `task_20260907_huangyaoshi-pathmap-key-hardening` | graph_state path_map 改 path/id 键根除同标题撞车（13 张溯源丢失，欧阳锋根因定位） | reviewed | huangyaoshi | 重建后无撞车+13张可溯源+探针concepts清零+回归不红 | #673 后（同角色排队） | `60_feedback/tasks/task_20260907_huangyaoshi-pathmap-key-hardening.md` | 欧阳锋建议书三连（09-07 王语嫣立项）；欧阳锋终审 |
 | 675 | `task_20260907_huangyaoshi-bundle-bat-branch-fix` | bundle bat :daily_only fall-through 双问题修复（周一误导读日志+obsidian快照仅周一与注释不符） | reviewed | huangyaoshi | 两天模拟日志如实+快照对齐+回归 | #674 后（同角色排队） | `60_feedback/tasks/task_20260907_huangyaoshi-bundle-bat-branch-fix.md` | 欧阳锋 #673 终审附带发现（09-07 王语嫣立项）；欧阳锋终审 |
+| 676 | `task_20260907_laowantong-zhu-self-archive` | 识己档案补强：性格三维+失败模型五层结构化入 personal-os（隐私受控 personal-os-only） | queued | laowantong | zhu-self-cognition.md 三节全带源锚+老朱抽验 | 无 | `60_feedback/tasks/task_20260907_laowantong-zhu-self-archive.md` | 老朱拍板同意（#667 第一项）；欧阳锋终审 |
 
 ## PROPOSAL-PENDING
 ### diag_20260826_ouyangfeng-source-refs-line-anchor-unreachable（2026-08-26 欧阳锋）
