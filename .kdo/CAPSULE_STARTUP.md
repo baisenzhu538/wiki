@@ -7,9 +7,9 @@
 
 ```
 version: 2.0
-updated_at: 2026-09-03
-git_head: 32f536ca3   ← 2026-09-03 黄药师维护更新（#620/#622/#623 终审闭环后）   ← 启动时核对：git -C <wiki> rev-parse --short HEAD
-queue_tail: 625   ← 2026-09-03 黄药师维护更新（尾部已到 #625，昨日值 546 过期）       ← 启动时核对：grep 队列尾任务号
+updated_at: 2026-09-07
+git_head: 75ddf6101   ← 2026-09-07 黄药师恢复会话校准（#670-#680 流转后）   ← 启动时核对：git -C <wiki> rev-parse --short HEAD
+queue_tail: 680   ← 2026-09-07 黄药师恢复会话校准（尾部已到 #680，旧值 625 过期）       ← 启动时核对：grep 队列尾任务号
 ```
 
 **校验动作**（各 5 秒内）：
@@ -93,7 +93,7 @@ queue_tail: 625   ← 2026-09-03 黄药师维护更新（尾部已到 #625，昨
 ## 4 · Shared State
 - active_sprint: Agent部署冲刺(2026-08-09~)
 - hermes_version: v0.20.0
-- model_default: deepseek-v4-flash
+- model_default: glm-5.3-flash（zai，2026-09-08 舰队迁移后；deepseek 仅存 fallback）
 - queue_file: 70_product/tasks/production-queue.md
 - total_cards: 2500+
 - wiki_root: /mnt/c/Users/Administrator/Desktop/wiki

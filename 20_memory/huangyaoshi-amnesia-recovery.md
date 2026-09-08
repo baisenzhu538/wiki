@@ -5,6 +5,12 @@ updated_at: 2026-09-05
 
 # 黄药师失忆恢复（重启后 3 分钟加载）
 
+## 2026-09-08（#686 外加：飞书舰队 deepseek→glm-5.3-flash 迁移，老朱直令）
+
+- **舰队现状**：12 hermes profile 中 11 个 = glm-5.3-flash@zai（bigmodel coding/paas/v4，同一把 GLM_API_KEY）；唯一例外 laowantong-feishu 无 model 块继承全局 kimi-for-coding。deepseek 只剩 fallback_providers 里的 deepseek-v4-pro
+- **NSSM 服务面**：hermes-gateway-* 共 11 个服务；profile 实际目录在 `AppData/Local/hermes/profiles/`（不是 ~/.hermes/profiles——那是旧/冗余副本），服务参数看注册表 `HKLM\...\Services\hermes-gateway-<名>\Parameters` 的 AppDirectory
+- **迁移操作模式**（可复用）：备份→整块替换 model 块（yaml.safe_load 校验）→.env 追 GLM 两行→net stop/start NSSM→查 RUNNING+日志 0 错误+30s 防崩溃循环复查。备份在 profiles/_backup_deepseek2glm_20260908/
+
 ## 2026-09-08（#686 AI数据域基建：首个 AI 系新域注册全流程）
 
 - **域注册四处清单实操样本**：路由 `90_control/domain-routes.yaml`（keywords+index_cards+search_dirs）→ digest 卡 `30_wiki/domains/ai-data-domain-digest.md` → 映射表 `90_control/domain-mapping.md` 两视图行 → 主 `30_wiki/index.md` 索引行（插字母序位）。ai-data 域 = 数据判断力（马易族执行层 + AI数据课方法论 + 双三角数据族案例）

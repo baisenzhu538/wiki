@@ -80,3 +80,11 @@
 > 全文：`90_control/agent-behavior-constitution.md`（v1.0，欧阳锋终审后生效；增条款走修订单）。
 > 挂载点：`.agent/startup.md`（全角色开机必读）+ `90_control/scripts/kimi-headless-launch.py` PROMPT_TEMPLATE（无头实例）+ hermes 6 profile SOUL.md（飞书端）。
 > 调研技能实装面：business-research skill 唯一已实装（商业主体类）；deep-research 仅原始素材未封装、research-core 仅矩阵登记无文件——技术/概念类用 kdo query+grep，不虚指。
+
+
+## 2026-09-08 飞书舰队模型迁移：deepseek → glm-5.3-flash（老朱直令，黄药师执行）
+
+- **变更**：6 个 hermes profile 的 model 块整体切换（default=glm-5.3-flash / provider=zai / base_url=bigmodel coding/paas/v4）+ .env 追加 GLM_API_KEY/GLM_BASE_URL（复用 wangyuyan 等 5 个已迁 profile 的同一把 key）。research-explosion-partner（爆炸式调研 Partner）/ basic-skills-coach / coaching-leadership-assistant / meeting-assistant / skills-assistant / beikai。
+- **迁移后舰队全景**：12 profile 中 11 个 glm-5.3-flash@zai（含本次 6 个 + 原有 5 个）；laowantong-feishu 无 model 块（继承全局 kimi-for-coding，非 deepseek，未动）；deepseek 仅存于 wangyuyan 等的 fallback_providers（deepseek-v4-pro，主用失败才触发）。
+- **操作与验证**：先备份（profiles/_backup_deepseek2glm_20260908/，12 文件）→ 整块替换+yaml.safe_load 逐个校验 → 6 个 NSSM 服务 net stop/start → 6/6 RUNNING+日志 0 错误+飞书通道重连+30s 复查无崩溃循环。
+- **遗留观察**：模型名上日志需等首次真实 LLM 调用；飞书端冒烟（给任一 agent 发消息看回复）留用户顺手验证。
