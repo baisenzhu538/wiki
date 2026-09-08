@@ -575,7 +575,6 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 
 > 王语嫣维护看板时处理：诊断 → 写任务单 → 入队后把对应行划掉。编排规则不变，这里只解决「没人被通知」。
 
-- ~~00_inbox/pending-cards/distill-external-20260905-05.md｜P2｜1075B｜检测到 09-04 20:21｜待王语嫣编排~~ → 门禁 PASS（09-06 王语嫣）：#645 返工二轮候选卡，机械门禁 32/32 溯源在+锚全非空+layer=external29/human3 与 SUMMARY 一致+抽读正文锚文真实；随 #645 终审+老朱肉眼验收定去留
 - ~~00_inbox/pending-cards/distill-external-20260905-06.md｜P2｜1147B｜检测到 09-04 20:21｜待王语嫣编排~~ → 门禁 PASS（09-06 王语嫣）：#645 返工二轮候选卡，机械门禁 32/32 溯源在+锚全非空+layer=external29/human3 与 SUMMARY 一致+抽读正文锚文真实；随 #645 终审+老朱肉眼验收定去留
 - ~~00_inbox/pending-cards/distill-external-20260905-07.md｜P2｜1076B｜检测到 09-04 20:21｜待王语嫣编排~~ → 门禁 PASS（09-06 王语嫣）：#645 返工二轮候选卡，机械门禁 32/32 溯源在+锚全非空+layer=external29/human3 与 SUMMARY 一致+抽读正文锚文真实；随 #645 终审+老朱肉眼验收定去留
 - ~~00_inbox/pending-cards/distill-external-20260905-08.md｜P2｜1128B｜检测到 09-04 20:21｜待王语嫣编排~~ → 门禁 PASS（09-06 王语嫣）：#645 返工二轮候选卡，机械门禁 32/32 溯源在+锚全非空+layer=external29/human3 与 SUMMARY 一致+抽读正文锚文真实；随 #645 终审+老朱肉眼验收定去留
@@ -695,6 +694,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - 00_inbox/pending-cards/distill-human-20260907-07.md｜P2｜915B｜检测到 09-07 16:01｜待王语嫣编排
 - 00_inbox/pending-cards/distill-human-20260907-08.md｜P2｜868B｜检测到 09-07 16:01｜待王语嫣编排
 - 00_inbox/task_20260908_wangyuyan-ai-data-basic-deep-dig.md｜P2｜4809B｜检测到 09-08 02:51｜待王语嫣编排
+- 00_inbox/task_20260908_wangyuyan-681-production-rollout.md｜P2｜3849B｜检测到 09-08 11:31｜待王语嫣编排
 
 <!-- INBOX-PENDING-END -->
 
@@ -1305,7 +1305,12 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 679 | `task_20260907_huangyaoshi-audit-mechanisms` | 审计路由机制双件：派工模板「初判=待证命题」字段+词表门禁「引用语境豁免」成文 | reviewed | huangyaoshi | 模板字段生效+豁免条款入规范+回归 | #677 返工后 | `60_feedback/tasks/task_20260907_huangyaoshi-audit-mechanisms.md` | 小昭审计建议2+3（王语嫣裁定采纳）；欧阳锋终审 |
 | 680 | `task_20260907_laowantong-c340-b01` | C340 深检 B01 批：5 份最可疑大课薄覆盖口述初挖（724KB，分两小批） | reviewed | laowantong | 金矿台账+词根复检+漏挖候选附grep锚 | 无 | `60_feedback/tasks/task_20260907_laowantong-c340-b01.md` | #663 程序 2b 首批（老朱拍板必须跑）；欧阳锋终审 |
 | 681 | `task_20260908_wangyuyan-ai-data-basic-deep-dig` | AI 数据课（5件）+AI 基本功（51件）素材域深入挖掘：MOC先行→kdo query查重实锤（附检索记录节）→逐件判定→产卡范围建议报老朱 | reviewed | wangyuyan | 诊断报告+产卡范围建议 | 无（老朱直令插队 headless） | `60_feedback/tasks/task_20260908_wangyuyan-ai-data-basic-deep-dig.md` | 老朱 09-08 直令（小昭代书任务书）；王语嫣 09-08 补登记入队（小昭投放漏队列行）；欧阳锋终审 |
-| 682 | `task_20260908_wangyuyan-681-production-rollout` | #681 拍板落地编排：老朱拍「全做」——按诊断 §五/§七 立项 P0/P1/P2 产卡单+黄药师基建单+洪七公补采单并调度生产 | claimed-wangyuyan | wangyuyan | 各新立项单+编排台账（单号+拉起/留队状态）+执行报告 | #681 已 reviewed | `60_feedback/tasks/task_20260908_wangyuyan-681-production-rollout.md` | 老朱 09-08 19:25 拍板全做（小昭代书+00_inbox 投放）；王语嫣 09-08 补登记入队（小昭投放漏队列行，同 #681 前例）；欧阳锋终审 |
+| 682 | `task_20260908_wangyuyan-681-production-rollout` | #681 拍板落地编排：老朱拍「全做」——按诊断 §五/§七 立项 P0/P1/P2 产卡单+黄药师基建单+洪七公补采单并调度生产 | pending_review | wangyuyan | 各新立项单+编排台账（单号+拉起/留队状态）+执行报告 | #681 已 reviewed | `60_feedback/tasks/task_20260908_wangyuyan-681-production-rollout.md` | 老朱 09-08 19:25 拍板全做（小昭代书+00_inbox 投放）；王语嫣 09-08 补登记入队（小昭投放漏队列行，同 #681 前例）；欧阳锋终审 |
+| 683 | `task_20260908_laowantong-ai-data-methodology-p0` | P0 产卡：AI数据域方法论族 8 张（framework飞轮/concept三不变三聚变/tool段位图/tool治理四层/case睡前故事/case徐建数据资产/dk×2，含 ASR 校正清单） | claimed-laowantong | laowantong | 8 卡+pre-submit+三方法/自攻击证据 | #682 编排（P0 先行拉起） | `60_feedback/tasks/task_20260908_laowantong-ai-data-methodology-p0.md` | 老朱 09-08 19:25 拍板全做（#682 编排）；诊断 diag_20260908_ai-data-ai-basic-deep-dig §五-P0 为规格源；欧阳锋终审 |
+| 684 | `task_20260908_laowantong-live258-six-cases` | P1 产卡：Live258 六案例全产（雍博/农夫三拳/行知/田力/黄谦/Simon Peng，带 dk 互链前置查重缺陷项） | queued | laowantong | 6 卡+dk互链对照说明+pre-submit | #683 后（老顽童单线程） | `60_feedback/tasks/task_20260908_laowantong-live258-six-cases.md` | 老朱 09-08 19:25 拍板全做（#682 编排）——六案全产不裁剪；欧阳锋终审 |
+| 685 | `task_20260908_laowantong-ai-data-p2-backfill` | P2 补强补挂：半肥猫口述回填+两组互链+KDO桥接素材+ai数据理解第一课/马易族6卡 src_unknown 溯源补挂（合并工单） | queued | laowantong | 6 工作项+补挂对照表+pre-submit | #684 后（老顽童单线程） | `60_feedback/tasks/task_20260908_laowantong-ai-data-p2-backfill.md` | 老朱 09-08 19:25 拍板全做（#682 编排）；不新产卡；欧阳锋终审 |
+| 686 | `task_20260908_huangyaoshi-ai-data-domain-infra` | 基建：ai-data-domain-digest 补建（参照 ai-basic 骨架）+12+散卡注册 domain-mapping+双三角AI数据重复卡去重合并 | queued | huangyaoshi | digest+注册+去重后无死链 | 无（独立基建线） | `60_feedback/tasks/task_20260908_huangyaoshi-ai-data-domain-infra.md` | 老朱 09-08 19:25 拍板全做（#682 编排）；MOC 缺失=基建缺口（诊断 §〇）；欧阳锋终审 |
+| 687 | `task_20260908_hongqigong-ai-basic-png-ocr` | 补采：AI基本功域 27 张无产物 PNG OCR 补采评估（优先 040618 四种工作状态图） | queued | hongqigong | 27张评估表+040618 OCR产物 | 无（独立多模态线） | `60_feedback/tasks/task_20260908_hongqigong-ai-basic-png-ocr.md` | 老朱 09-08 19:25 拍板全做（#682 编排）；诊断 §3.2-E 为规格源；欧阳锋终审 |
 
 ## PROPOSAL-PENDING
 ### diag_20260826_ouyangfeng-source-refs-line-anchor-unreachable（2026-08-26 欧阳锋）
