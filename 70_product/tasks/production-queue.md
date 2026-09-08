@@ -1321,6 +1321,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 688 | `task_20260908_laowantong-tags-stock-remediation` | tags 存量全量治理：2064 张内容词<5 卡分域分批补标（09-14 HARD 前软期治理完） | queued | laowantong | 分域批次补标+批末计数表+pre-submit | #685 后（老顽童单线程） | `60_feedback/tasks/task_20260908_laowantong-tags-stock-remediation.md` | 老朱 09-08 拍板「全补」（王语嫣编排）；口径=tags-vocab-design.md §词量分卡型；轴文件先行（#485）；规模源 #677 §6；欧阳锋分批终审 |
 | 689 | `task_20260908_laowantong-c340-b01-goldmine-production` | C340 B01 金矿 149 条全立项排产：批1=前三案例+高价值散件，批2起滚动；件5 先交叉查重+边界条款随卡 | queued | laowantong | 分批产卡+批末计数表+pre-submit | #688 后（老朱口径：排最后滚动做） | `60_feedback/tasks/task_20260908_laowantong-c340-b01-goldmine-production.md` | 老朱 09-08 晚拍板「A 全立项」（王语嫣编排）；规格源=B01 金矿台账 part1/part2（#680 PASS A-）；敏感段边界条款随卡；欧阳锋分批终审 |
 | 690 | `task_20260908_huangyaoshi-edrive-kdo-memory-migration` | E 盘容量路由+便携基建盘：D:\KDO-memory 整区迁 E:（四条守卫+核验切换+即插即用：标记文件自定位/自含工具链/attach 一条命令异机可用） | claimed-huangyaoshi | huangyaoshi | 核验报告+引用点对照表+守卫实测+受影响任务 result=0 | 无（独立基建线，黄药师单实例不并行） | `60_feedback/tasks/task_20260908_huangyaoshi-edrive-kdo-memory-migration.md` | 老朱 09-08 拍板 A 整区迁（建议书 diag_20260907_ouyangfeng-edrive-capacity-routing R1-R5 全采纳，王语嫣编排）；D 盘旧目录观察 24h 后清；欧阳锋终审 |
+| 691 | `task_20260908_wangyuyan-zengming-smart-strategy-deep-dig` | 曾鸣《智能战略》素材深挖诊断（三方法前置+门禁裁定产卡范围，老朱授权全链路自动） | queued | wangyuyan | 诊断报告+产卡范围裁定+三方法证据链 | 无（编排线独立） | `60_feedback/tasks/task_20260908_wangyuyan-zengming-smart-strategy-deep-dig.md` | 老朱 09-08 直令：精细化+门禁保质+自动拉起+不请示；产卡单排 #689 后；欧阳锋终审 |
 
 ## PROPOSAL-PENDING
 ### diag_20260826_ouyangfeng-source-refs-line-anchor-unreachable（2026-08-26 欧阳锋）
