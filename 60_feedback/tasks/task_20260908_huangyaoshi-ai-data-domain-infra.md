@@ -2,14 +2,14 @@
 id: task_20260908_huangyaoshi-ai-data-domain-infra
 title: "基建：ai-data-domain-digest 补建 + 本域散卡注册 domain-mapping + 双三角AI数据重复卡去重（#682 编排）"
 seq: 686
-status: queued
+status: in_progress
 assignee: huangyaoshi
 created_by: wangyuyan
 created_at: 2026-09-08
 decision_source: 老朱 09-08 19:25 拍板全做（#682 编排）
 reviewer: 欧阳锋
 instance: huangyaoshi
-updated_at: ''
+updated_at: '2026-09-08T12:58:25.925054+00:00'
 ---
 
 # #686 黄药师基建单：AI数据域 MOC 补建 + 注册 + 重复卡去重
