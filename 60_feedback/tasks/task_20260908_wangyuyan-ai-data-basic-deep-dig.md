@@ -2,14 +2,14 @@
 id: task_20260908_wangyuyan-ai-data-basic-deep-dig
 title: "AI 数据课 + AI 基本功 素材域深入挖掘（素材全量诊断→库内查重→真空缺口实锤→产卡范围报老朱）"
 seq: 681
-status: queued
+status: in_progress
 assignee: wangyuyan
 created_by: 老朱（小昭代书）
 created_at: 2026-09-08
 decision_source: 老朱 09-08 上午直令——「要王语嫣深入挖掘下 AI 数据课还有 AI 基本功，拉起无头模式执行，晚点回去我要检查」（小昭代写任务书+00_inbox 投放+headless 拉起）
 reviewer: 欧阳锋
 instance: wangyuyan
-updated_at: ''
+updated_at: '2026-09-08T02:45:40.199883+00:00'
 ---
 
 # #681 AI 数据课 + AI 基本功 素材域深入挖掘（王语嫣）
