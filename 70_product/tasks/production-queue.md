@@ -565,6 +565,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#679 task_20260907_huangyaoshi-audit-mechanisms｜huangyaoshi｜提审 09-07 10:13｜60_feedback/tasks/task_20260907_huangyaoshi-audit-mechanisms.md~~ → 已终审 PASS A-（2026-09-07 欧阳锋）
 - ~~#680 task_20260907_laowantong-c340-b01｜laowantong｜提审 09-07 15:46｜60_feedback/tasks/task_20260907_laowantong-c340-b01.md~~ → 终审退回 queued（2026-09-07 欧阳锋）
 - ~~#680 task_20260907_laowantong-c340-b01｜laowantong｜提审 09-07 17:25｜60_feedback/tasks/task_20260907_laowantong-c340-b01.md~~ → 已终审 PASS A-（2026-09-07 欧阳锋）
+- #681 task_20260908_wangyuyan-ai-data-basic-deep-dig｜wangyuyan｜提审 09-08 11:07｜60_feedback/tasks/task_20260908_wangyuyan-ai-data-basic-deep-dig.md
 
 <!-- REVIEW-PENDING-END -->
 
@@ -574,7 +575,6 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 
 > 王语嫣维护看板时处理：诊断 → 写任务单 → 入队后把对应行划掉。编排规则不变，这里只解决「没人被通知」。
 
-- ~~00_inbox/pending-cards/distill-external-20260905-04.md｜P2｜1006B｜检测到 09-04 20:21｜待王语嫣编排~~ → 门禁 PASS（09-06 王语嫣）：#645 返工二轮候选卡，机械门禁 32/32 溯源在+锚全非空+layer=external29/human3 与 SUMMARY 一致+抽读正文锚文真实；随 #645 终审+老朱肉眼验收定去留
 - ~~00_inbox/pending-cards/distill-external-20260905-05.md｜P2｜1075B｜检测到 09-04 20:21｜待王语嫣编排~~ → 门禁 PASS（09-06 王语嫣）：#645 返工二轮候选卡，机械门禁 32/32 溯源在+锚全非空+layer=external29/human3 与 SUMMARY 一致+抽读正文锚文真实；随 #645 终审+老朱肉眼验收定去留
 - ~~00_inbox/pending-cards/distill-external-20260905-06.md｜P2｜1147B｜检测到 09-04 20:21｜待王语嫣编排~~ → 门禁 PASS（09-06 王语嫣）：#645 返工二轮候选卡，机械门禁 32/32 溯源在+锚全非空+layer=external29/human3 与 SUMMARY 一致+抽读正文锚文真实；随 #645 终审+老朱肉眼验收定去留
 - ~~00_inbox/pending-cards/distill-external-20260905-07.md｜P2｜1076B｜检测到 09-04 20:21｜待王语嫣编排~~ → 门禁 PASS（09-06 王语嫣）：#645 返工二轮候选卡，机械门禁 32/32 溯源在+锚全非空+layer=external29/human3 与 SUMMARY 一致+抽读正文锚文真实；随 #645 终审+老朱肉眼验收定去留
@@ -694,6 +694,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - 00_inbox/pending-cards/distill-human-20260907-06.md｜P2｜963B｜检测到 09-07 16:01｜待王语嫣编排
 - 00_inbox/pending-cards/distill-human-20260907-07.md｜P2｜915B｜检测到 09-07 16:01｜待王语嫣编排
 - 00_inbox/pending-cards/distill-human-20260907-08.md｜P2｜868B｜检测到 09-07 16:01｜待王语嫣编排
+- 00_inbox/task_20260908_wangyuyan-ai-data-basic-deep-dig.md｜P2｜4809B｜检测到 09-08 02:51｜待王语嫣编排
 
 <!-- INBOX-PENDING-END -->
 
@@ -1255,6 +1256,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - diag_20260907_ouyangfeng-edrive-capacity-routing.md｜09-07 23:37｜待王语嫣复核裁定
 - [friction] [shared] - [2026-09-07 23:38] wangyuyan | kdo-daily-review 连续两晚 LastTaskResult=1 脏信号 | 根因实锤：daily_review.py 收尾时 append 打开 logs/daily-review.log 撞 cmd 包装的重定向占用→PermissionError（脚本自锁）；三角色拉起全 rc=0 功能正常（含 codex 402→claude 通道 fallback 按 #656 设计生效），仅退出码脏会误导 schtasks 监控 | 对策建议=黄药师小单：脚本内日志写改独立句柄或写 stderr 由包装统收，LastTaskResult 回归 0｜09-07 23:47｜待王语嫣复核处置｜[shared] - [2026-09-07 23:38] wangyuyan | kdo-daily-review 连续两晚 LastTaskResult=1 脏信号 | 根因实锤：daily_review.py 收尾时 append 打开 logs/daily-review.log 撞 cmd 包装的重定向占用→PermissionError（脚本自锁）；三角色拉起全 rc=0 功能正常（含 codex 402→claude 通道 fallback 按 #656 设计生效），仅退出码脏会误导 schtasks 监控 | 对策建议=黄药师小单：脚本内日志写改独立句柄或写 stderr 由包装统收，LastTaskResult 回归 0
 - [gate-blocked] graph-index-coverage｜09-08 02:17｜待王语嫣复核处置｜2026-09-08 02:08:05｜graph-index-coverage｜graph index 覆盖缺口｜30_wiki/personal-os 部分卡未入索引（13/14）｜graph-index-coverage-probe
+- [gate-blocked] diag_20260908_wangyuyan-ai-data-ai-basic-deep-dig.md｜09-08 11:07｜待王语嫣复核处置｜2026-09-08 11:07:01｜diag_20260908_wangyuyan-ai-data-ai-basic-deep-dig.md｜near-miss-三元组（#506）｜status=pending_review 疑似待编排但非 pending_orchestration｜conveyor_probe
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
@@ -1301,7 +1303,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 678 | `task_20260907_laowantong-force-exception-labeling` | force 放行率标注：35 例人工标注真误判率基线（小昭审计路由 1） | reviewed | laowantong | 35/35标注表+基线报告+王语嫣抽5复核 | 无 | `60_feedback/tasks/task_20260907_laowantong-force-exception-labeling.md` | 小昭审计建议1（王语嫣裁定立项P1）；欧阳锋终审 |
 | 679 | `task_20260907_huangyaoshi-audit-mechanisms` | 审计路由机制双件：派工模板「初判=待证命题」字段+词表门禁「引用语境豁免」成文 | reviewed | huangyaoshi | 模板字段生效+豁免条款入规范+回归 | #677 返工后 | `60_feedback/tasks/task_20260907_huangyaoshi-audit-mechanisms.md` | 小昭审计建议2+3（王语嫣裁定采纳）；欧阳锋终审 |
 | 680 | `task_20260907_laowantong-c340-b01` | C340 深检 B01 批：5 份最可疑大课薄覆盖口述初挖（724KB，分两小批） | reviewed | laowantong | 金矿台账+词根复检+漏挖候选附grep锚 | 无 | `60_feedback/tasks/task_20260907_laowantong-c340-b01.md` | #663 程序 2b 首批（老朱拍板必须跑）；欧阳锋终审 |
-| 681 | `task_20260908_wangyuyan-ai-data-basic-deep-dig` | AI 数据课（5件）+AI 基本功（51件）素材域深入挖掘：MOC先行→kdo query查重实锤（附检索记录节）→逐件判定→产卡范围建议报老朱 | claimed-wangyuyan | wangyuyan | 诊断报告+产卡范围建议 | 无（老朱直令插队 headless） | `60_feedback/tasks/task_20260908_wangyuyan-ai-data-basic-deep-dig.md` | 老朱 09-08 直令（小昭代书任务书）；王语嫣 09-08 补登记入队（小昭投放漏队列行）；欧阳锋终审 |
+| 681 | `task_20260908_wangyuyan-ai-data-basic-deep-dig` | AI 数据课（5件）+AI 基本功（51件）素材域深入挖掘：MOC先行→kdo query查重实锤（附检索记录节）→逐件判定→产卡范围建议报老朱 | pending_review | wangyuyan | 诊断报告+产卡范围建议 | 无（老朱直令插队 headless） | `60_feedback/tasks/task_20260908_wangyuyan-ai-data-basic-deep-dig.md` | 老朱 09-08 直令（小昭代书任务书）；王语嫣 09-08 补登记入队（小昭投放漏队列行）；欧阳锋终审 |
 
 ## PROPOSAL-PENDING
 ### diag_20260826_ouyangfeng-source-refs-line-anchor-unreachable（2026-08-26 欧阳锋）

@@ -1,15 +1,16 @@
 ---
-id: task_20260908_wangyuyan-ai-data-basic-deep-dig
-title: "AI 数据课 + AI 基本功 素材域深入挖掘（素材全量诊断→库内查重→真空缺口实锤→产卡范围报老朱）"
-seq: 681
-status: in_progress
-assignee: wangyuyan
-created_by: 老朱（小昭代书）
-created_at: 2026-09-08
-decision_source: 老朱 09-08 上午直令——「要王语嫣深入挖掘下 AI 数据课还有 AI 基本功，拉起无头模式执行，晚点回去我要检查」（小昭代写任务书+00_inbox 投放+headless 拉起）
-reviewer: 欧阳锋
-instance: wangyuyan
-updated_at: '2026-09-08T02:45:40.199883+00:00'
+id: task_20260908_wangyuyan-ai-data-basic-deep-dig
+title: "AI 数据课 + AI 基本功 素材域深入挖掘（素材全量诊断→库内查重→真空缺口实锤→产卡范围报老朱）"
+seq: 681
+status: pending_review
+assignee: wangyuyan
+created_by: 老朱（小昭代书）
+created_at: 2026-09-08
+decision_source: 老朱 09-08 上午直令——「要王语嫣深入挖掘下 AI 数据课还有 AI 基本功，拉起无头模式执行，晚点回去我要检查」（小昭代写任务书+00_inbox 投放+headless 拉起）
+reviewer: 欧阳锋
+instance: wangyuyan
+updated_at: '2026-09-08T03:07:55.214360+00:00'
+evidence: 60_feedback/diagnosis/diag_20260908_wangyuyan-ai-data-ai-basic-deep-dig.md
 ---
 
 # #681 AI 数据课 + AI 基本功 素材域深入挖掘（王语嫣）
@@ -55,3 +56,32 @@ updated_at: '2026-09-08T02:45:40.199883+00:00'
 
 ## 排期
 老朱直令插队，立即执行（headless 拉起）。完工走队列流转：claim → complete 提审（欧阳锋终审）。
+
+## 进度（2026-09-08 王语嫣 headless）
+
+- 09-08 claim 前补登记：小昭投放任务书时未落队列行，王语嫣按队列维护职责补 #681 行（queued）后走 `queue_transition.py claim` 正常领取（claimed-wangyuyan）。
+- 施工完成：MOC 先行（ai-basic 有骨架 digest；ai-data 域无 digest 未注册=基建缺口已登记）；kdo query 查重 19 组（同义/中英扩展，检索记录节附查询词+命中数+日期）；素材深读三路并行（域A 5 件逐字读 4613 行；域B 17 文本全读含 Live258 3024 行 + 34 PNG 覆盖清点；库内既有资产 30+ 件全读）；57 件素材 100% 逐件落判。
+- 诊断报告落盘：`60_feedback/diagnosis/diag_20260908_wangyuyan-ai-data-ai-basic-deep-dig.md`。
+- 任务包落地判断：产卡范围建议含 P0/P1/P2 三包+基建缺口登记，但**均需老朱拍板后立项**（任务书口径=报老朱拍板），故本单不直接立下游任务单，待老朱回来检查拍板后照 #667→#676 链路立项。
+
+## 执行报告
+
+**交付物**：`60_feedback/diagnosis/diag_20260908_wangyuyan-ai-data-ai-basic-deep-dig.md`（诊断报告：MOC先行结论+19组kdo query检索记录节+两域同构映射表+57件逐件判定+深度自检三问+P0/P1/P2产卡范围建议+解压路径+基建缺口登记+需要谁动作）。
+**完成内容**：①域A实锤：口述01/闲聊篇=已入库src同源干净重转写（无信息增量→登记不产+溯源补挂），口述02/03=未开采新课主体（6+1模型/Adaptive数据飞轮/治理四层/L1-L6段位图/三案例全部零覆盖，kdo query #10/#11/#12/#18 零直中实锤）；「AI for Business 数据判断力卡族」成立（马易族6卡全执行层、框架层真空）。②域B实锤：#667「Feature学习线4件登记不产」复验维持；Live258 作业集10案例仅4案成卡、6案未开采（雍博>农夫三拳>行知>田力>黄谦>Simon Peng）；周期表版本序=清单→分层体系→V0.8，库内V0.9纯aliases增量；34张PNG仅9张有文本产物、27张待OCR补采；3件建议书=历史归档。③基建缺口：ai-data域digest缺失+domain-mapping未注册+双三角AI数据重复卡2张待去重。
+**验证**：kdo query 19 组检索记录附查询词+命中数+日期（报告§一）；同源判定为逐字比对（01 L1336↔02 L2 断句衔接、src_a25ca678 开头逐句相同）；Live258 覆盖矩阵逐案带行号区间与已有卡内行号互证；深度自检三问已答（报告§四）；57/57 件覆盖率声明（§八）。
+**边界**：诊断+编排为主，未直接产任何 30_wiki 卡（产卡走下游立项）；27 张 PNG OCR 补采、framework 两卡 #544 退回修复、重复卡去重均非本单范围已分别指认归口；ASR 校正清单（Cubox→Obsidian 等 7 项）已随报告交付下游产卡用；三方法全网调研未跑（素材为内部课程一手源，对标外部框架非本单要求，#667 同型亦未跑）。
+**需要谁动作**：老朱——拍板 P0（AI数据方法论族7+2张）/P1（Live258六案例全产或前四）/P2（补强补挂）三包；欧阳锋——本诊断终审+知悉 framework 两卡退回未修；黄药师（立项后）——ai-data digest 补建+重复卡去重；洪七公（拍板后）——27 张 PNG OCR 补采。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 1 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+🔴 意见书含负向断言（缺失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
