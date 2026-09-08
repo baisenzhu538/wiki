@@ -1,8 +1,8 @@
-> generated-by: vault-snapshot.py · updated_at: 2026-09-02 09:48 · git_head: c5bec4df5
+> generated-by: vault-snapshot.py · updated_at: 2026-09-08 21:22 · git_head: 02d87f042
 # KDO Vault 状态快照
 
-> 自动生成：2026-09-02 09:48 UTC
-> 卡片总数：**2902** | draft: 815 | needs-review: 0 | 低置信度(<0.7): 381 | 缺 source: 2455
+> 自动生成：2026-09-08 21:22 UTC
+> 卡片总数：**2960** | draft: 823 | needs-review: 0 | 低置信度(<0.7): 384 | 缺 source: 2515
 
 ## 域 × 类型 矩阵
 
@@ -76,46 +76,48 @@
 | 噪声减少 | 1 | 0.70 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 |
 | 心理学 | 1 | 0.70 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 |
 
-## 最近 2 天变更（26 张）
+## 最近 2 天变更（22 张）
 
-### 09-02
+### 09-08
 
-- `case-popmart-brand-sensory-wrap` [case] 案例：泡泡玛特品牌感官包裹感——盖住logo也认得×门店如教堂×唱片公司模式  (conf=0.85, domain=)
-- `case-popmart-molly-transition` [case] 案例：泡泡玛特 MOLLY 诞生——代理权受制到自有 IP 的「掀桌子」转型  (conf=0.87, domain=)
-- `case-yitang-eason-truth-delivery-audit` [case] 一堂 Eason 文化审计案——AI Agent 伪造署名交付的完整审计与处理实录  (conf=0.85, domain=)
-- `case-yitang-jiangxiang-huawei-matext-launch` [case] 案例：华为 MateXT 非凡大师发布会双拆解——十指讲香全指齐动的教科书样本  (conf=0.85, domain=)
-- `concept-satisfaction-vs-existence` [concept] 满足感×存在感——消费解决两件事（近视眼镜 vs 黑框眼镜）  (conf=0.85, domain=)
-- `dk-yitang-fact-three-questions-trust-tiers` [dk] AI Agent 交付的实事求是暗知识——事实三问法、署名真实性与信任等级制  (conf=0.85, domain=)
-- `framework-popmart-long-termism-operating-philosophy` [framework] 尊重时间尊重经营——泡泡玛特长期主义经营框架（该十年做成的事就十年）  (conf=0.85, domain=)
-- `method-yitang-jiangxiang-audience-value-routing` [method] 方法：受众×价值×策略路由——十指讲香的选指前置框架（三类受众×五种价值）  (conf=0.80, domain=)
-- `tool-popmart-narrow-and-deep` [tool] 减宽加深判断法：砍掉80%外采聚焦潮玩×每年100个系列上限×七分饱  (conf=0.85, domain=)
-- `tool-yitang-jiangxiang-launch-copywriting-arsenal` [tool] 工具：华为/苹果/小米发布会文案最佳实践库——十策略×三品牌的 300+ 条武器谱  (conf=0.82, domain=)
+- `ai-data-domain-digest` [index] 域摘要：ai-data（AI数据）  (conf=0.8, domain=)
+- `case-truman-bedtime-story-datapack` [case] 案例：Truman 睡前故事数据包——四阶段从 <50 分到临摹巅峰的个人级数据飞轮  (conf=0.85, domain=)
+- `case-xujian-invoice-data-asset` [case] 案例：徐建发票 1480 标签——从数据出公司，把十几 T 发票攒成行业稀缺数据资产  (conf=0.8, domain=)
+- `concept-data-three-constants-three-shifts` [concept] 数据三不变三聚变：破除「数据没变」傲慢的辩证认知框架  (conf=0.85, domain=)
+- `dk-ai-on-ai-data-poisoning` [dk] AI 叠加 AI 的数据是给自己投毒：二手生成数据入库禁令  (conf=0.9, domain=)
+- `dk-data-timely-review` [dk] 及时复盘「等 30 秒」心法：任务结束的瞬间是数据价值最高的瞬间  (conf=0.9, domain=)
+- `framework-adaptive-data-flywheel` [framework] Adaptive 数据飞轮：6+1 数据工作流 × 场景三层双轮模型  (conf=0.85, domain=)
+- `tool-data-governance-four-layers` [tool] 数据治理四层风险图：控下限的护栏与容错率匹配工具  (conf=0.85, domain=)
+- `tool-data-maturity-l1-l6` [tool] 数据成熟度 L1-L6 段位图：组织数据能力自评工具  (conf=0.85, domain=)
 
-### 09-01
+### 09-07
 
-- `agent-spec-skills-assistant` [agent-spec] Agent Spec：Skills 助理——Skill 生产+配置中枢（工厂第 7 角色）  (conf=0.88, domain=)
-- `case-jovida-ai-life-coach` [case] Jovida：用「Human Loop 范式 + 上下文飞轮」押注生活 16 小时的 AI Life Coach  (conf=0.85, domain=)
-- `case-yitang-jiangxiang-12-practices` [case] 讲香 12 学员实战案例集——十策略从发布会到朋友圈成交的落地光谱  (conf=0.83, domain=)
-- `concept-agent-university` [concept] Agent 大学——让 Agent 受教育的产品设想（Skill 市场之外的第三条路）  (conf=0.82, domain=)
-- `concept-brooks-three-lies-culture` [concept] 布鲁克斯当代文化三谎言——成功自给与精英制的幻觉  (conf=0.85, domain=)
-- `dk-brooks-cost-of-knowing` [dk] 求知是有代价的——播种式教学与甜蜜的强迫（布鲁克斯芝大演讲暗知识）  (conf=0.84, domain=)
-- `dk-koupen-decision-tiering-compromise` [dk] 口喷科学决策的暗知识——决策分档直觉与一半决策是妥协决策  (conf=0.87, domain=)
-- `framework-lobster-opt-one-person-team` [framework] OPT One Person Team——一人 AI 团队的五角色最小决策系统  (conf=0.8, domain=)
-- `framework-muse-ai-full-map-v1` [framework] MUSE AI 全景坐标系 v1（DataPack 版）——四层主层判断与跨层证据门槛  (conf=0.86, domain=)
-- `method-anthropic-skill-design-patterns` [method] 高阶 Skill 设计模式——Anthropic 官方案例的架构范式与执行宪法  (conf=0.84, domain=)
-- `method-key-assumption-abcd` [method] 关键假设拆解——三板斧与 ABCD 四象限模型  (conf=0.85, domain=)
-- `method-obsidian-km-camp` [method] AI×知识管理三层架构——Obsidian 原文层 + 语义投影层 + 推理层的分工方法  (conf=0.84, domain=)
-- `method-shizhi-jiangxiang-ten-strategies` [method] 十指讲香模型——十策略卖点价值感转换法  (conf=0.88, domain=)
-- `method-spin-linking-sales-marketing` [method] 雷克汉姆销售营销联结法——机会超配与顾问式销售的两难  (conf=0.87, domain=)
-- `method-storytelling-with-numbers` [method] 用数字讲故事——数字转换四原则与拨动人心技术  (conf=0.86, domain=)
-- `tool-ai-koupen-training-partner-design` [tool] AI 口喷训练场 Partner 设计模式——不执行只评估的陪练架构  (conf=0.85, domain=)
+- `zhu-self-cognition` [system] 识己档案：老朱自我认知结构化清单（性格三维/失败模型五层/方向适配）  (conf=?, domain=)
+
+### 08-23
+
+- `concept-AI知识库-KDO传承溯源` [concept] KDO 传承溯源：楚门-半肥猫「笨办法有点意思」  (conf=0.9, domain=)
+- `concept-AI知识库-原子化拆分` [concept] 原子化拆分：按语义切分，拆到歧义为止  (conf=0.85, domain=)
+- `concept-AI知识库-四关键词` [concept] AI 知识管理四关键词：协作桥梁/问题驱动/范式复利/拒绝焦虑  (conf=0.85, domain=)
+- `dk-AI知识库-隐性知识显性化60分原则` [dk] 隐性知识显性化 60 分原则：先 60 分能解 60-70% 问题即值得  (conf=0.85, domain=)
+- `framework-AI知识库-Workflow六要素` [framework] Workflow 六要素 + 节点拆细降模型门槛  (conf=0.9, domain=)
+- `framework-AI知识库-五维标注深挖法` [framework] 标签五维标注深挖法：专业/风控/话术/视觉/经验  (conf=0.85, domain=)
+- `framework-AI知识库-五阶段演进` [framework] AI 知识库五阶段演进：从内容生产到多 AI 协同  (conf=0.85, domain=)
+- `framework-AI知识库-分库与映射表` [framework] 分库与映射表：专业库隔离 + 映射表联动  (conf=0.85, domain=)
+- `framework-AI知识库-加卡片加标签双原则` [framework] 加卡片加标签双原则：知识不够加卡片，索引不到加标签  (conf=0.9, domain=)
+- `framework-AI知识库-四象限资产` [framework] 知识库四象限资产：私有事实/经验判断/业务边界/可复用输出  (conf=0.85, domain=)
+- `framework-AI知识库-知识卡片公式` [framework] 知识卡片公式：YAML 标签（给 AI 看）+ 原子化正文（给人看）  (conf=0.9, domain=)
+
+### 07-04
+
+- `case-yihang-dual-triangle-AI数据` [case] AI数据 — 双三角案例（已并入，redirect）  (conf=0.7, domain=yihang)
 
 ## 质量提示
 
-- draft 卡: 815 张
+- draft 卡: 823 张
 - needs-review: 0 张
-- 低置信度(<0.7): 381 张
-- 缺 source_refs: 2455 张
+- 低置信度(<0.7): 384 张
+- 缺 source_refs: 2515 张
 
 ### 最重的域
 

@@ -18,6 +18,7 @@
 | 销售管理 | sales-domain-digest | 销售 | 30+ |
 | 调研 | yitang-research-domain-digest | — | 192 |
 | 需求分析 | domain-demand-analysis-index | — | 25 |
+| AI数据 | ai-data-domain-digest | — | 21（13 散卡 + 8 P0 在产）2026-09-08 #686 注册 |
 
 ## 仅有卡导航（无路由）的域
 

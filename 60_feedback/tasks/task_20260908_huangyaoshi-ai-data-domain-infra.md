@@ -39,3 +39,44 @@ updated_at: '2026-09-08T12:58:25.925054+00:00'
 
 - 只做基建/注册/去重，不做内容判断与卡片正文改写（内容归老顽童/欧阳锋）
 - #683 在产新卡的路标回填可等 P0 终审后二次补，本单先注册存量散卡
+
+
+## 执行报告（黄药师 2026-09-08，#686）
+
+### 1. 交付物
+
+| # | 文件 | 变更 |
+|:--|:--|:--|
+| 1 | `30_wiki/domains/ai-data-domain-digest.md` | 新建——域入口 MOC，骨架同构 ai-basic-domain-digest |
+| 2 | `30_wiki/cases/case-yihang-dual-triangle-AI三角-数据.md` | 主卡：aliases +3 追加、source_refs 追加图源、正文追加「合并记录」节（薄卡独有【基础结构】【待标注提示】verbatim 搬入） |
+| 3 | `30_wiki/cases/case-yihang-dual-triangle-AI数据.md` | 转 redirect stub：merged_into 指主卡 + 正文合并说明（原 OCR 与两节已入主卡，无信息损失） |
+| 4 | `90_control/domain-routes.yaml` | 新增 AI数据 路由（keywords/index_cards/search_dirs） |
+| 5 | `90_control/domain-mapping.md` | 两视图映射表新增 ai-data 行 |
+| 6 | `30_wiki/index.md` | digest 索引行 +1；双三角数据主卡行补 source；薄卡行改指主卡（redirect 标注） |
+| 7 | `90_control/vault-status.md` | 快照刷新（2960 卡 / 67 域） |
+
+### 2. 验证方式与结果
+
+| 验收项 | 方法 | 结果 |
+|:--|:--|:--|
+| digest 骨架同构 + pre-submit PASS | 逐节对照 ai-basic-domain-digest；`kdo pre-submit --files` 三卡 | ✅ PASS（8 WARNING 均存量：双卡 TAGS 软期/CONCEPT_CROSSCHECK/VLM_TWO_SECTION 存量提示；首轮 FAIL 的 src_unknown 占位措辞已修、INDEX 新鲜度已跑 `kdo index --incremental` 后复过） |
+| kdo query 召回 digest | `kdo query "AI数据域 数据判断力"` | ✅ digest 以 0.85 召回榜首（带【未审 draft】标注=#380 正确行为）；graph 重建 12 页后 coverage 探针全目录 gap=0 |
+| 去重后无死链 | `check_dead_links.py` 全库 + grep 复核 | ✅ 全库 83 条死链均为 agent-traces 存量（与本单无关）；活文档指向薄卡引用=0（仅自动生成索引待自愈 + 主卡合并记录自指 + digest 路标 redirect 标注，均合法） |
+| 批量纪律（F-KDO-013/014） | 全程单点写入：1 新建 + 2 单卡改造 + 3 注册文件单行插入，无批量写 | ✅ 合规 |
+
+### 3. 影响范围
+
+7 文件（上表）；索引面 search_index +1 / graph 12 页；不动任何卡 frontmatter domain 归属、不动信号面文件（矩阵免登记）、不碰 #683 在产卡。
+
+### 4. 边界与不做（初判=待证命题核查记录）
+
+- 任务单前提 5 项开工前逐条实证全成立（digest 缺失/映射未注册/双卡实存/骨架实存/诊断报告实存）；claim 时 #679 门禁 WARNING（缺 initial_assessment 字段）即本次核查的触发，核查记录落本节
+- 任务单引诊断报告 §五「清单见基建缺口登记」——该节实际只给计数（concepts×2/tool×7/case×3/article×1）未列名单；13 张名单由 Builder 按诊断报告口径（马易族执行层+AI数据课体系+双三角数据族）扫库重建，与计数精确吻合（见 digest 路标）；若与编排者原意有出入属路标可修正项
+- #683 P0 八张实测已产毕（含 reviewed 标记），digest 路标直接收录，无需二次补
+- 不做：散卡 frontmatter domain 归属改写（13 张批量改=F-KDO-014 需人工批准，未获授权）；薄卡 tags 补词（存量治理归 #426）；全库另有疑似重复族（AI三角-场景 vs AI场景、AI三角-基本功 vs AI基本功、人类三角-* vs 人*、数据标注维度最佳实践调研报告 vs data-labeling-best-practices-report 同题双卡）——本单只裁任务点名的 AI数据 一对，其余交编排裁量
+
+### 5. 遗留与风险
+
+- 薄卡 redirect 后若消费方仍直链旧名：stub 实存不构成死链，且 aliases 已并入主卡（检索可归一）；自动生成索引（concept-card-index-latest/links/index）下次生成自愈
+- tags 门禁 09-14 HARD 后 redirect stub（内容词 0）将被拦——存量治理归 #426 内容侧批次，非生产侧债务
+- vault backup Step 9 由 30min schtasks（kdo-vault-git-backup）承载，本次随提交自动入备；D 盘 bundle 备份走既有节拍，未另行手动触发

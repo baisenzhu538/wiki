@@ -329,11 +329,11 @@ _Last updated: 2026-09-08T12:57:44+00:00_
 - [[cases/case-yihang-dual-triangle-ai-organizational-behavior|双三角案例：Truman 一夜深挖 AI 组织行为学——四个模型交叉验证]] — source `00_inbox/人机协作双三角/_processed/AI组织行为学的口述_text.md`
 - [[cases/case-yihang-dual-triangle-AI三角-场景|AI三角-场景 — 双三角案例]] — source no source
 - [[cases/case-yihang-dual-triangle-AI三角-基本功|AI三角-基本功 — 双三角案例]] — source no source
-- [[cases/case-yihang-dual-triangle-AI三角-数据|AI三角-数据 — 双三角案例]] — source no source
+- [[cases/case-yihang-dual-triangle-AI三角-数据|AI三角-数据 — 双三角案例（AI数据卡已并入）]] — source `00_inbox/人机协作双三角/AI数据.png`
 - [[cases/case-yihang-dual-triangle-AI可以落地的场景假设|AI可以落地的场景假设 — 双三角案例]] — source no source
 - [[cases/case-yihang-dual-triangle-AI场景|AI场景 — 双三角案例]] — source no source
 - [[cases/case-yihang-dual-triangle-AI基本功|AI基本功 — 双三角案例]] — source no source
-- [[cases/case-yihang-dual-triangle-AI数据|AI数据 — 双三角案例]] — source no source
+- [[cases/case-yihang-dual-triangle-AI三角-数据|AI数据 — 双三角案例（已并入 AI三角-数据，#686 redirect）]] — source `00_inbox/人机协作双三角/AI数据.png`
 - [[cases/case-yihang-dual-triangle-beike-ai-outbound|一行双三角案例：贝壳找房110个场景的AI外呼]] — source `00_inbox/人机协作双三角/[【组织】贝壳找房案例口述.pdf`
 - [[cases/case-yihang-dual-triangle-canvas-thesis-review|双三角画布案例：AI 论文初审——五维评分+三色灯阻断]] — source `00_inbox/人机协作双三角/_processed/一堂双三角-画布案例1_vlm.md`
 - [[cases/case-yihang-dual-triangle-canvas-trademark-design|双三角画布案例：商标设计——两天内产出 60 分可用版本]] — source `00_inbox/人机协作双三角/_processed/一堂双三角-画布案例2_vlm.md`
@@ -1505,6 +1505,7 @@ _Last updated: 2026-09-08T12:57:44+00:00_
 - [[dk/dk-单元模型-规模对抗实操难点|规模对抗实操难点]] — source `00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-规模对抗实操难点_vlm_desc.md`
 - [[domains/ai-basic-domain-digest|域摘要：ai-basic（AI基本功）]] — source `00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt`
 - [[domains/ai-collaboration-domain-digest|域摘要：AI 协作方法论（王欢 · Harness Engineering）]] — source `00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md`
+- [[domains/ai-data-domain-digest|域摘要：ai-data（AI数据）]] — source `60_feedback/diagnosis/diag_20260908_wangyuyan-ai-data-ai-basic-deep-dig.md`
 - [[domains/business-formula-domain-digest|域摘要：一堂业务公式（关键假设 ABCD 之 C 域·宏观效率）]] — source `10_raw/sources/handle-the-business/Business formula/关键假设-业务公式-实操篇-口述.txt:1050-1074`
 - [[domains/conversion-rate-domain-digest|域摘要：一堂转化率黑客（关键假设 ABCD 之 D 域·微观效率）]] — source `10_raw/sources/handle-the-business/conversion rate/转化率黑客-动力阻力触点-入门篇-口述.txt:3052-3054`
 - [[domains/decision-science-domain-digest|域摘要：decision-science（科学决策）]] — source `10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md`

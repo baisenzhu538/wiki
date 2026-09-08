@@ -28,6 +28,11 @@ domains:
     index_cards: [beikai-multimodal-pipeline]
     search_dirs: [frameworks, tools, skills, cases]
 
+  AI数据:
+    keywords: [AI数据, 数据资产, 数据飞轮, 数据治理, 数据标注, 数据判断力, 数据成熟度, 数据包, DIKW]
+    index_cards: [ai-data-domain-digest]
+    search_dirs: [frameworks, tools, cases, concepts, dark-knowledges]
+
   发布:
     keywords: [发布, 飞书, 公众号, 小红书, 渠道, 分发, ship, publish, 推送]
     index_cards: [skill-duanwangye-feishu-publishing]

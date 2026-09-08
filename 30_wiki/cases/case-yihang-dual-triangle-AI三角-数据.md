@@ -14,6 +14,9 @@ aliases:
 - null
 - AI三角
 - AI三角数据双三角案例
+- AI数据
+- AI数据双三角案例
+- 数据双三角案例
 - audience:general
 - scene:reference
 - skill-level:intermediate
@@ -22,7 +25,8 @@ aliases:
 - 双三角案例
 - 数据
 - 角案例
-source_refs: null
+source_refs:
+- 00_inbox/人机协作双三角/AI数据.png
 conflict_with:
 - '[[concept-yihang-dual-triangle-core]]'
 discoverable_by:
@@ -275,3 +279,41 @@ reviewed_by: pending
 ## 失败模式
 
 待补充（src_unknown）
+
+
+## 合并记录（#686 去重）
+
+> 本卡为主卡（信息更全：OCR + VLM 深度解析 + 落地指南）。`case-yihang-dual-triangle-AI数据` 与本卡同图源（`00_inbox/人机协作双三角/AI数据.png` 两次 VLM 提取），2026-09-08 #686 并入本卡，薄卡已转 redirect。以下两节为薄卡独有内容，verbatim 保留：
+
+【基础结构】
+
+- **标题**：探索AI"数据"
+- **副标题/导语**：高水平的结果需要高水平的数据，主动搜集和积累高质量数据
+- **主要章节**：
+  - 自我修养（3项）
+  - 基础：推荐几个高质量案例（FewShot）（2项）
+  - 进阶：打造高质量的数据包（Data pack）（2项）
+  - 高阶：构建系统的数据体系（System）（4项）
+- **关键术语/工具**：
+  - Domain-Knowledge
+  - FewShot
+  - Data pack
+  - System
+  - Markdown
+  - 向量化
+  - Obsidian
+  - RAG知识库
+  - 数据图谱
+  - 数据飞轮
+- **关键数字**：10年（心态）
+- **图表类型**：无（纯文字清单列表）
+
+【待标注提示】
+
+- "自我修养 / FewShot / Data pack / System"四个层级标题与下方要点的对应关系
+- "资产思维"中"Domain-Knowledge"是否属于专有名词概念
+- "复利思维"中"10年"是否为具体时间锚点
+- "数据处理"流程是否对应特定工具链（AI生成 → Markdown → 打标签 → 向量化）
+- "数据使用"中"Obsidian"是否为工具专有名词
+- 背景图层"FNAI"水印文字是否影响主内容识别（疑似非主信息）
+- 第四章节"采集收集"中"录音"与"存储"的并列关系是否完整（原图末尾可能有截断风险）
