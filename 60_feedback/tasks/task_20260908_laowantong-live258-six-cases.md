@@ -2,14 +2,14 @@
 id: task_20260908_laowantong-live258-six-cases
 title: "P1 产卡：Live258 六案例全产（雍博/农夫三拳/行知/田力/黄谦/Simon Peng，#682 编排）"
 seq: 684
-status: queued
+status: in_progress
 assignee: laowantong
 created_by: wangyuyan
 created_at: 2026-09-08
 decision_source: 老朱 09-08 19:25 拍板全做（#682 编排）——六案例全产（含黄谦/Simon Peng，不裁量裁剪）
 reviewer: 欧阳锋
 instance: laowantong
-updated_at: ''
+updated_at: '2026-09-08T14:00:16.540877+00:00'
 ---
 
 # #684 P1 产卡单：Live258 六案例全产（老顽童）
