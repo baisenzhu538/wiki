@@ -2,15 +2,18 @@
 id: task_20260908_wangyuyan-ai-data-basic-deep-dig
 title: "AI 数据课 + AI 基本功 素材域深入挖掘（素材全量诊断→库内查重→真空缺口实锤→产卡范围报老朱）"
 seq: 681
-status: pending_review
+status: reviewed
 assignee: wangyuyan
 created_by: 老朱（小昭代书）
 created_at: 2026-09-08
 decision_source: 老朱 09-08 上午直令——「要王语嫣深入挖掘下 AI 数据课还有 AI 基本功，拉起无头模式执行，晚点回去我要检查」（小昭代写任务书+00_inbox 投放+headless 拉起）
 reviewer: 欧阳锋
 instance: wangyuyan
-updated_at: '2026-09-08T03:07:55.214360+00:00'
+updated_at: '2026-09-08T03:26:15.555402+00:00'
 evidence: 60_feedback/diagnosis/diag_20260908_wangyuyan-ai-data-ai-basic-deep-dig.md
+reviewed_by: 欧阳锋
+review_date: '2026-09-08'
+grade: A-
 ---
 
 # #681 AI 数据课 + AI 基本功 素材域深入挖掘（王语嫣）
@@ -85,3 +88,50 @@ evidence: 60_feedback/diagnosis/diag_20260908_wangyuyan-ai-data-ai-basic-deep-di
 ### ③ 负向判词 / ④ 存在性核查
 
 🔴 意见书含负向断言（缺失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
+
+## 终审记录
+
+methodology_version: v2.3
+verdict: PASS
+grade: A-
+blocking: 无
+reviewed_by: 欧阳锋
+review_date: 2026-09-08
+
+**审查结论**：溯源抽查 11 组全中、检索记录节合规、覆盖声明成立——准予通过。审查对象为诊断类交付，判「结论是否被证据撑住」，不判「结论是否好听」。
+
+**溯源验证（本端独立复核，非转述生产者结论）**：
+
+1. **同源判定三处断句锚全中**【实证】：口述01 L1336「但是在这个底层不变的情况下」↔口述02 L2「因为我的价值全面上升，」无缝衔接；口述02 L1658「然后第二个反馈方式叫做监督反馈。」↔口述03 L234 同句更完整版（03 独有后半句「就是你专门派一个智能体去监督那些智能体」）；口述01 与 `src_20260614_a25ca678` 开头逐字相同（「十分想念欢柔了。」起，仅 ASR 标点差）。
+2. **kdo query 检索记录节合规**（宪法第六条/#669：19 组=查询词+命中数+日期，报告§一）✅。本端独立复跑 2 组零直中实锤全部复现：Q#10「Adaptive数据飞轮…」Top5=双三角五部曲/武器库/Y模型协同/Anthropic agents 锚点，无飞轮本体【实证】；Q#14「雍博 具身智能…」Top5=OKR 罗盘/智能药柜调研等无关卡【实证】。
+3. **Live258 覆盖矩阵锚点 5/5 中**【实证】：总 3024 行；L671=农夫三拳、L817=「### 四、事实分级与内容边界」（R/E/S/X 所在）、L1705=雍博、L2909=黄谦。
+4. **六案例无独立 case 卡成立**【实证】：grep `30_wiki/`——雍博仅 five-step source_person 统计行（L13）；农夫三拳/行知/田力/黄谦/Simon Peng 均无 case 卡（Simon 命中为 Herbert Simon 学术引用，非学员，`case-panproduct-yitao-project-background.md:109`）。
+5. **V0.9 三项声明逐字命中**【实证】：`10_raw/sources/periodic-table-v0.9-aliases-changelog.md` L11「47 个 Feature 新增 aliases」/L12「253 个」/L49 F039-F097 重复去重另开/L50 DataPack 缺口注明另开任务。
+6. **重复卡实锤**【实证】：`case-yihang-dual-triangle-AI数据.md:36`「来源: AI数据.png」与 `case-yihang-dual-triangle-AI三角-数据.md:39` 源文件指向同一 PNG。
+7. **马易族**【实证】：41 张（ls 计数一致）；数据相关卡 src_unknown 抽查 7/7 中；「马易-数据折磨陷阱/后台诊断」不存在——核查锚=`ls 30_wiki/tools/ | grep 马易` 全集无此二名。
+8. **framework 两卡 draft+退回未修成立**【实证】：`framework-truman-feature-thinking-core.md:5` / `framework-truman-feature-layered-system.md:5` 均 `status: draft`；队列 L430 #544 记录（08-27 王语嫣抽核「#7退回判定」实证吻合）与报告表述一致。
+9. **ai-data 域基建缺口实锤**【实证】：`30_wiki/domains/` 21 文件（14 digest）无 ai-data；`domain-mapping.md` grep「ai-data|ai数据」0 命中；ai-basic 注册锚 domain-mapping L38 + `index.md:1453` 双在。
+10. **concepts/ai数据理解第一课 src_unknown**【实证】：L18/L84-85。
+11. **入仓与对齐**【实证】：diag 已 commit d549f9368、工作树与 HEAD diff 为空（版本对齐三问之 3 过，纯文档任务豁免 1-2）；file-flow-check 本件仅 L3/L4 两条 WARNING（缺 version/updated_at），ERROR 仅点名他件（diag_20260907_xiaozhao 冻结件，非本单范围）。
+
+**缺陷（非阻断，P2 级）**：
+
+- ① **检索记录 #15 表述不完整**——「仅 tool-feature-review-five-step 统计行吸收」漏计 dk 层两个吸收点：`dk-ai-does-not-question-your-mistake.md:112` 已吸收农夫三拳 R/E/S/X 事实分级（带 L817-831 锚）、`dk-demand-feature-stacking.md:165` 已引农夫三拳+黄谦边界例【实证，grep 30_wiki】。不改「未开采」（无 case 卡）判定；**移交 P1 立项前置查重项：产农夫三拳卡前先对照上述两张 dk 卡定互链，防双源冲突/重复表述**。
+- ② **E组件数口径**：实测 PNG 36 张（22 一堂DOC+13 批注+1 微信；报告「11 批注」实为 13）【实证，ls 计数】。报告已自flag「34 vs 36 差2待核」，实测落 36——「27 张无产物」结论不变。
+- ③ **「文本 17 全读」与目录实测 15 文本件+1 邻件=16 差 1**，口径未注明（逐件判定覆盖不受影响）。
+- ④ 机器预审「负向判词无存在性核查锚点」一条**不成立为缺陷**：意见书执行报告层的负向断言在 diag 报告内均有锚（§〇 表+检索记录节），实质合规。
+
+**残余风险（移交下游）**：P1 六案例立项须带缺陷① dk 互链前置查重；27 张无产物 PNG 的覆盖清点为文件名对应口径，OCR 实采时以图像内容为准。
+
+**存在性核查**（本记录负向判词锚点集，#433/F-035，核查动作均为 2026-09-08 本端实跑）：
+
+- 「ai-data digest 无 / domain-mapping 未注册」← `ls 30_wiki/domains/`（21 文件、14 digest 清单内无 ai-data*）+ `grep -i "ai-data\|ai数据" 90_control/domain-mapping.md` 0 命中。
+- 「六案例无独立 case 卡」← `grep -rl "<人名>" 30_wiki/` 逐人实跑：雍博仅 `tool-feature-review-five-step.md:13`（source_person 统计行）；Simon Peng 仅 Herbert Simon 学术引用（`case-panproduct-yitao-project-background.md:109`）；农夫三拳/行知/田力/黄谦命中均为 dk/five-step 引用行，无 cases/ 文件。
+- 「马易-数据折磨陷阱/后台诊断 卡不存在」← `ls 30_wiki/tools/ | grep 马易`（41 张全集无此二名）。
+- 「口述02/03 方法论主体不在库内 src 与任何卡」← 报告检索记录 #10/#11/#12/#18 + 本端复跑 Q#10/Q#14 同形复现（Top5 均近邻卡无本体）。
+- 「diag 工作树与 HEAD 一致（无未收口改动）」← `git diff --stat HEAD -- <diag> <task>` 输出为空。
+- 「本件无 file-flow ERROR」← `python kdo-tools/file-flow-check.py` 输出 grep 本件名仅 L141/L328 两条 WARNING。
+
+**通过维度**：溯源完整（19 组检索记录+逐锚行号，抽查 11 组全中）/ 逻辑骨架（同源→查重→逐件→P0/P1/P2 分级；断言三级标注齐全，含【猜测】自标）/ 暗知识密度（ASR 校正清单/鱿鱼游戏失败披露/笔记自创内容识别）/ 可操作性（P2 落点卡指认+需要谁动作到人）。
+
+**不报告清单**：格式微瑕（L3 缺 version/L4 缺 updated_at，全库 361 条同型）归 lint 不阻断；diag_20260907_xiaozhao 冻结件 ERROR 非本单范围不展开；行知在 `dk-publish-collapse-to-iterate.md` 的 grep 命中为「发布执行知识迭代」子串误匹配（非人名），不构成缺陷。
