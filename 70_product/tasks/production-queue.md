@@ -576,8 +576,6 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 
 > 王语嫣维护看板时处理：诊断 → 写任务单 → 入队后把对应行划掉。编排规则不变，这里只解决「没人被通知」。
 
-- ~~00_inbox/pending-cards/distill-external-20260905-07.md｜P2｜1076B｜检测到 09-04 20:21｜待王语嫣编排~~ → 门禁 PASS（09-06 王语嫣）：#645 返工二轮候选卡，机械门禁 32/32 溯源在+锚全非空+layer=external29/human3 与 SUMMARY 一致+抽读正文锚文真实；随 #645 终审+老朱肉眼验收定去留
-- ~~00_inbox/pending-cards/distill-external-20260905-08.md｜P2｜1128B｜检测到 09-04 20:21｜待王语嫣编排~~ → 门禁 PASS（09-06 王语嫣）：#645 返工二轮候选卡，机械门禁 32/32 溯源在+锚全非空+layer=external29/human3 与 SUMMARY 一致+抽读正文锚文真实；随 #645 终审+老朱肉眼验收定去留
 - ~~00_inbox/pending-cards/distill-external-20260905-09.md｜P2｜1193B｜检测到 09-04 20:21｜待王语嫣编排~~ → 门禁 PASS（09-06 王语嫣）：#645 返工二轮候选卡，机械门禁 32/32 溯源在+锚全非空+layer=external29/human3 与 SUMMARY 一致+抽读正文锚文真实；随 #645 终审+老朱肉眼验收定去留
 - ~~00_inbox/pending-cards/distill-external-20260905-10.md｜P2｜1047B｜检测到 09-04 20:21｜待王语嫣编排~~ → 门禁 PASS（09-06 王语嫣）：#645 返工二轮候选卡，机械门禁 32/32 溯源在+锚全非空+layer=external29/human3 与 SUMMARY 一致+抽读正文锚文真实；随 #645 终审+老朱肉眼验收定去留
 - ~~00_inbox/pending-cards/distill-external-20260905-11.md｜P2｜1145B｜检测到 09-04 20:21｜待王语嫣编排~~ → 门禁 PASS（09-06 王语嫣）：#645 返工二轮候选卡，机械门禁 32/32 溯源在+锚全非空+layer=external29/human3 与 SUMMARY 一致+抽读正文锚文真实；随 #645 终审+老朱肉眼验收定去留
@@ -696,6 +694,8 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - 00_inbox/task_20260908_wangyuyan-ai-data-basic-deep-dig.md｜P2｜4809B｜检测到 09-08 02:51｜待王语嫣编排
 - 00_inbox/task_20260908_wangyuyan-681-production-rollout.md｜P2｜3849B｜检测到 09-08 11:31｜待王语嫣编排
 - 00_inbox/药品入驻型电商平台-九层深挖调研报告-20260908.md｜P2｜11418B｜检测到 09-08 14:21｜待王语嫣编排
+- 00_inbox/拆书会第219期《智能：AI时代的商业、组织与战略的本质》（上）逐字稿 — 古董.md｜P2｜24378B｜检测到 09-08 14:41｜待王语嫣编排
+- 00_inbox/拆书-曾鸣《智能策略》-10关键词/｜P2｜2件｜检测到 09-08 14:51｜待王语嫣编排（#651 目录级登记：内件不在扫描面，需文件级跟踪→加入 SCAN_SUBDIRS）
 
 <!-- INBOX-PENDING-END -->
 
@@ -1320,6 +1320,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 687 | `task_20260908_hongqigong-ai-basic-png-ocr` | 补采：AI基本功域 27 张无产物 PNG OCR 补采评估（优先 040618 四种工作状态图） | queued | hongqigong | 27张评估表+040618 OCR产物 | 无（独立多模态线） | `60_feedback/tasks/task_20260908_hongqigong-ai-basic-png-ocr.md` | 老朱 09-08 19:25 拍板全做（#682 编排）；诊断 §3.2-E 为规格源；欧阳锋终审 |
 | 688 | `task_20260908_laowantong-tags-stock-remediation` | tags 存量全量治理：2064 张内容词<5 卡分域分批补标（09-14 HARD 前软期治理完） | queued | laowantong | 分域批次补标+批末计数表+pre-submit | #685 后（老顽童单线程） | `60_feedback/tasks/task_20260908_laowantong-tags-stock-remediation.md` | 老朱 09-08 拍板「全补」（王语嫣编排）；口径=tags-vocab-design.md §词量分卡型；轴文件先行（#485）；规模源 #677 §6；欧阳锋分批终审 |
 | 689 | `task_20260908_laowantong-c340-b01-goldmine-production` | C340 B01 金矿 149 条全立项排产：批1=前三案例+高价值散件，批2起滚动；件5 先交叉查重+边界条款随卡 | queued | laowantong | 分批产卡+批末计数表+pre-submit | #688 后（老朱口径：排最后滚动做） | `60_feedback/tasks/task_20260908_laowantong-c340-b01-goldmine-production.md` | 老朱 09-08 晚拍板「A 全立项」（王语嫣编排）；规格源=B01 金矿台账 part1/part2（#680 PASS A-）；敏感段边界条款随卡；欧阳锋分批终审 |
+| 690 | `task_20260908_huangyaoshi-edrive-kdo-memory-migration` | E 盘容量路由落地：D:\KDO-memory 整区迁 E:（盘在位守卫+盘符固定+引用点全改+核验后切换） | queued | huangyaoshi | 核验报告+引用点对照表+守卫实测+受影响任务 result=0 | 无（独立基建线，黄药师单实例不并行） | `60_feedback/tasks/task_20260908_huangyaoshi-edrive-kdo-memory-migration.md` | 老朱 09-08 拍板 A 整区迁（建议书 diag_20260907_ouyangfeng-edrive-capacity-routing R1-R5 全采纳，王语嫣编排）；D 盘旧目录观察 24h 后清；欧阳锋终审 |
 
 ## PROPOSAL-PENDING
 ### diag_20260826_ouyangfeng-source-refs-line-anchor-unreachable（2026-08-26 欧阳锋）
