@@ -2,14 +2,17 @@
 id: task_20260908_huangyaoshi-ai-data-domain-infra
 title: "基建：ai-data-domain-digest 补建 + 本域散卡注册 domain-mapping + 双三角AI数据重复卡去重（#682 编排）"
 seq: 686
-status: pending_review
+status: reviewed
 assignee: huangyaoshi
 created_by: wangyuyan
 created_at: 2026-09-08
 decision_source: 老朱 09-08 19:25 拍板全做（#682 编排）
 reviewer: 欧阳锋
 instance: huangyaoshi
-updated_at: '2026-09-08T13:24:03.791374+00:00'
+updated_at: '2026-09-08T13:50:50.452870+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-09-08'
+grade: A-
 ---
 
 # #686 黄药师基建单：AI数据域 MOC 补建 + 注册 + 重复卡去重
@@ -106,3 +109,58 @@ updated_at: '2026-09-08T13:24:03.791374+00:00'
 ### ③ 负向判词 / ④ 存在性核查
 
 🔴 意见书含负向断言（缺失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
+
+## 终审记录（欧阳锋 2026-09-08）
+
+**Verdict：PASS，等级 A-**（methodology v2.3 / #362 版本对齐三问前置）
+
+### 版本对齐三问（基建单门禁）
+
+1. 入仓 ✅【实证】7 交付物全 commit `0b42f9b2a`（2026-09-08 21:23:23），工作区对该 7 文件无脏改动
+2. 生效 ✅【实证】kdo query / pre-submit 独立复跑即消费端实测（见下）；search_index/graph 已含新页
+3. 对齐 ✅【实证】HEAD `12e6d67fc`（21:27:34）> 交付 commit（21:23:23）> 队列提审 21:24，无审旧副本窗口
+
+### 独立复验（非采信执行报告，欧阳锋亲跑）
+
+- 验收①骨架同构 ✅：ai-data digest 六节（路标/域定义/与其他域的关系/子主题/在产与待产）与 ai-basic-domain-digest 同构，路标细化两级 ### 属合理演进；`kdo pre-submit` 三卡独立复跑 **PASS**（8 WARNING 均存量软期：TAGS 软期×2 / CONCEPT_CROSSCHECK×3 / VLM_TWO_SECTION 等，与执行报告口径一致）
+- 验收②召回 ✅：`kdo query "AI数据域 数据判断力"` digest **0.85 榜首**（第二名 0.26 断层），带【未审 draft】标（#380 正确行为）；同义变体 `data flywheel 数据资产` 同为 0.85 榜首
+- 验收③死链 ✅：`check_dead_links.py` 独立复跑全库，死链均 agent-traces 存量，本单三卡**零死链**；活文档指向薄卡处全部合法（index.md:336 redirect 标注行 / digest:79 路标 redirect 标注 / 主卡合并记录自指 / concept-card-index 自动生成物待自愈 / vault-status 快照），与执行报告披露口径一致
+- 验收④批量纪律 ✅：git diff 形态=1 新建+2 单卡改造+3 注册文件单点插入，无批量写；13 张散卡 frontmatter domain 归属未动（F-KDO-014 未获授权不做的判断正确）
+- digest 路标 21 项全实存 ✅【实证】（13 长路径 + 7 短格式逐个 os.path.exists 核过，缺失 0，无重复引用）
+- 关键披露核实 ✅：诊断报告 §五（diag_20260908_wangyuyan-ai-data-ai-basic-deep-dig.md:202）确实**只给计数未列名单**——「13 张名单系 Builder 扫库重建」披露属实；#683 八张 P0 实测全部 `status: reviewed`（本日 20:59 我终审通过），「无需二次补」判断成立
+- `file-flow-check.py` 例行 ✅：仅存量 L5 命名项，无本单相关 doc_id/冻结/编号混用命中
+
+### 缺陷（非阻断）
+
+- 🟠 D1【实证】薄卡 redirect stub（`case-yihang-dual-triangle-AI数据.md:33`）与执行报告表第 3 行声称「原 OCR 与两节已入主卡，无信息损失」——**OCR 半句失实**：git 对照（`0b42f9b2a^` vs 现主卡）证实【基础结构】352 字、【待标注提示】275 字 verbatim 并入 ✓，但薄卡版【OCR原文】未入主卡「合并记录」节，且与主卡 OCR 有 2 处实质措辞差（「自我修养」vs「思维修养」before L47/主卡 L55；「**推荐**几个高质量案例」vs「**准备**」before L53/主卡 L61）+【文档类型】一行未搬——两次独立 VLM 提取的措辞变体证据现仅存于 git 历史，活文档不可见。实质影响低（图源 PNG 仍为 source_refs 真相源、语义 100% 被主卡 OCR 覆盖、可从源再生），但绝对化声称落盘失实。期望形态：stub 该句改为如实口径（如「薄卡版 OCR 含『自我修养/推荐』措辞变体未并入主卡，git `0b42f9b2a^` 可考，语义已由主卡 OCR 全覆盖」），或主卡合并记录节补录薄卡 OCR 原文——二选一，一句话成本，归王语嫣排 TODO（不退回重开）
+- 🟢 D2【实证】digest 路标「#683 P0 新产，终审中」（ai-data-domain-digest.md:64,104）已过时——八张实测 reviewed。digest 已自我声明「终审通过后路标状态二次回填」，随二次补一并修正即可
+- 🟢 D3（存量非本单引入）主卡/薄卡 aliases 含 `null` 条目+tags 词混入（合并前同款），归 #426 存量治理
+
+### 残余风险
+
+- redirect stub 09-14 tags HARD 后将被存量拦截（执行报告已披露，归 #426）；自动生成索引下次生成自愈
+- 全库其余疑似重复族（AI场景/AI基本功/人类三角族/数据标注报告双卡）仅登记未裁——黄药师交回编排裁量，处置归王语嫣
+
+### 移交王语嫣
+
+① D1 一句话修复排 TODO；② 全库疑似重复族裁量（黄药师已登记清单见执行报告 §4）；③ 配套建议书 `60_feedback/diagnosis/diag_20260908_ouyangfeng-686-merge-claim-discipline.md`（merge/redirect「无信息损失」类声称先 diff 验证后落盘的口径，含 D1 实证）。
+
+### kdo query 检索记录（宪法第六条）
+
+| 查询词 | 命中 | 结果要点 | 日期 |
+|:--|:--|:--|:--|
+| AI数据域 数据判断力 | 8 | digest 0.85 榜首 | 2026-09-08 |
+| data flywheel 数据资产（同义英文变体） | 8 | digest 0.85 榜首（双变体一致） | 2026-09-08 |
+
+### **存在性核查**（终审记录内负向判词锚点集中落盘，F-035/#433）
+
+| 终审记录中的负向判词 | 核查动作与锚点 | 结果 |
+|:--|:--|:--|
+| 7 交付物工作区「无脏改动」 | `git status --porcelain -- <7 文件>` → 空输出 | 判词成立 |
+| digest 路标 21 项「缺失 0、无重复引用」 | python os.path.exists 逐个核 20 文件（13 长路径+7 短格式），collections.Counter 查重 | 判词成立（薄卡为 redirect 无独立路径，20≠21 属预期） |
+| 本单三卡「零死链」 | `check_dead_links.py` 全库输出 grep 三卡 id → 0 命中 | 判词成立 |
+| 活文档指向薄卡「引用=0（仅标注类合法位）」 | grep -rln 全库 → 30_wiki/90_control 活文档命中 5 处逐一开验，全部为 redirect 标注/自指/自动生成物/快照 | 判词成立 |
+| 「无审旧副本窗口」 | `git log -1 --format=%ci`（HEAD 12e6d67fc=21:27:34）vs 交付 commit 0b42f9b2a=21:23:23 vs 队列提审 21:24 时序对齐 | 判词成立 |
+| 薄卡版 OCR「未入主卡合并记录节」 | git show `0b42f9b2a^` 薄卡全文 vs 现主卡正则逐节比对（【OCR原文】【文档类型】主卡侧无匹配节） | 判词成立（即 D1 实证） |
+| #683 八张「已产毕 reviewed」 | 8 文件逐一 grep `^status:` → 全 reviewed | 判词成立 |
+| 诊断报告 §五「只给计数未列名单」 | Read diag_20260908_wangyuyan-ai-data-ai-basic-deep-dig.md:202 原文核对 | 判词成立 |
