@@ -2,14 +2,14 @@
 id: tool-data-governance-four-layers
 title: 数据治理四层风险图：控下限的护栏与容错率匹配工具
 type: tool
-status: draft
+status: reviewed
 domain:
 - ai-data
 - ai-collaboration
 confidence: 0.85
 trust_level: medium
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 created_at: '2026-09-08'
 updated_at: '2026-09-08'
 source_person: Truman
@@ -45,8 +45,8 @@ tags:
 - 数据安全
 - 容错率
 - 隐私
+review_date: 2026-09-08
 ---
-
 # 数据治理四层风险图：控下限的护栏与容错率匹配工具
 
 > **定位**：本卡是一堂「AI数据必修课·认知篇」方法论族的**治理操作卡**（#683 任务包 4/8），是总纲 `[[framework-adaptive-data-flywheel]]` 中「+1 治理横杠」（左护栏虚线）的解压展开——飞轮六个步全是踩油门，本卡是刹车。数据投喂/污染的具体心法见 `[[dk-ai-on-ai-data-poisoning]]`。

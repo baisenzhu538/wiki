@@ -2,14 +2,14 @@
 id: concept-data-three-constants-three-shifts
 title: 数据三不变三聚变：破除「数据没变」傲慢的辩证认知框架
 type: concept
-status: draft
+status: reviewed
 domain:
 - ai-data
 - ai-collaboration
 confidence: 0.85
 trust_level: medium
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 created_at: '2026-09-08'
 updated_at: '2026-09-08'
 source_person: Truman
@@ -49,8 +49,8 @@ tags:
 - 数据评估
 - 过程数据
 - DIKW
+review_date: 2026-09-08
 ---
-
 # 数据三不变三聚变：破除「数据没变」傲慢的辩证认知框架
 
 > **定位**：本卡是一堂「AI数据必修课·认知篇」方法论族的**认知前提卡**（#683 任务包 2/8），是总纲 `[[framework-adaptive-data-flywheel]]` 的上游——三不变解释飞轮六步为什么成立（底层规律没变），三聚变解释为什么过去的数据经验必须重做（出口/形式/成本全变了）。徐建案例（`[[case-xujian-invoice-data-asset]]`）是「成本变了」的量化佐证。

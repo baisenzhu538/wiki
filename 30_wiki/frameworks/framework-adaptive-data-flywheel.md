@@ -2,14 +2,14 @@
 id: framework-adaptive-data-flywheel
 title: Adaptive 数据飞轮：6+1 数据工作流 × 场景三层双轮模型
 type: framework
-status: draft
+status: reviewed
 domain:
 - ai-data
 - ai-collaboration
 confidence: 0.85
 trust_level: medium
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 created_at: '2026-09-08'
 updated_at: '2026-09-08'
 source_person: Truman
@@ -59,8 +59,8 @@ tags:
 - 数据工作流
 - 数据治理
 - 攒牌
+review_date: 2026-09-08
 ---
-
 # Adaptive 数据飞轮：6+1 数据工作流 × 场景三层双轮模型
 
 > **定位**：本卡是一堂「AI数据必修课·认知篇」方法论族的**总纲卡**（#683 任务包 1/8）。六步中的「使用」层已由 `[[ai数据理解第一课]]`（使用五层级）覆盖，本卡不重复展开；配套解压资产：自评工具 `[[tool-data-maturity-l1-l6]]`、治理操作 `[[tool-data-governance-four-layers]]`、体感案例 `[[case-truman-bedtime-story-datapack]]`/`[[case-xujian-invoice-data-asset]]`、暗知识 `[[dk-ai-on-ai-data-poisoning]]`/`[[dk-data-timely-review]]`；认知前提见 `[[concept-data-three-constants-three-shifts]]`（三不变三聚变）。

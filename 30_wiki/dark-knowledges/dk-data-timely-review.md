@@ -2,14 +2,14 @@
 id: dk-data-timely-review
 title: 及时复盘「等 30 秒」心法：任务结束的瞬间是数据价值最高的瞬间
 type: dk
-status: draft
+status: reviewed
 domain:
 - ai-data
 - ai-collaboration
 confidence: 0.9
 trust_level: medium
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 created_at: '2026-09-08'
 updated_at: '2026-09-08'
 source_person: Truman
@@ -46,8 +46,8 @@ tags:
 - 复盘
 - 过程数据
 - 隐藏数据
+review_date: 2026-09-08
 ---
-
 # 及时复盘「等 30 秒」心法：任务结束的瞬间是数据价值最高的瞬间
 
 > **定位**：一堂「AI数据必修课·认知篇」暗知识（#683 任务包 8/8）——`[[framework-adaptive-data-flywheel]]` 识别步「隐藏数据」与反馈步的交叉心法：最值钱的数据不是过去有的，而是正在流失的；抓住它的成本只要 30 秒。

@@ -2,14 +2,14 @@
 id: case-xujian-invoice-data-asset
 title: 案例：徐建发票 1480 标签——从数据出公司，把十几 T 发票攒成行业稀缺数据资产
 type: case
-status: draft
+status: reviewed
 domain:
 - ai-data
 - b2b
 confidence: 0.8
 trust_level: medium
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 created_at: '2026-09-08'
 updated_at: '2026-09-08'
 source_person: Truman
@@ -47,8 +47,8 @@ tags:
 - 数据标注
 - 发票
 - 数据飞轮
+review_date: 2026-09-08
 ---
-
 # 案例：徐建发票 1480 标签——从数据出公司，把十几 T 发票攒成行业稀缺数据资产
 
 > **定位**：本卡是一堂「AI数据必修课·认知篇」方法论族的**宏观层（护城河）案例卡**（#683 任务包 6/8），是 `[[framework-adaptive-data-flywheel]]` 右轮「宏观=护城河」与「成本变了」（`[[concept-data-three-constants-three-shifts]]` 聚变三）的完整实证。注意角度区分：已有卡 `[[case-yitang-xujian-invoice-saas-channel]]` 讲同一公司的**渠道探索**（怎么找支付推手获客），本卡讲**数据资产构建**（怎么把发票变成公司核心资产）——两卡互补互挂，不回链冲突。

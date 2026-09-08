@@ -2,14 +2,14 @@
 id: case-truman-bedtime-story-datapack
 title: 案例：Truman 睡前故事数据包——四阶段从 <50 分到临摹巅峰的个人级数据飞轮
 type: case
-status: draft
+status: reviewed
 domain:
 - ai-data
 - ai-collaboration
 confidence: 0.85
 trust_level: medium
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 created_at: '2026-09-08'
 updated_at: '2026-09-08'
 source_person: Truman
@@ -45,8 +45,8 @@ tags:
 - 过拟合
 - 数据资产
 - 临摹
+review_date: 2026-09-08
 ---
-
 # 案例：Truman 睡前故事数据包——四阶段从 <50 分到临摹巅峰的个人级数据飞轮
 
 > **定位**：本卡是一堂「AI数据必修课·认知篇」方法论族的**微观层体感案例卡**（#683 任务包 5/8），是 `[[framework-adaptive-data-flywheel]]` 右轮「微观=教材」与六步（收集→处理→使用→反馈）在个人场景的最小完整闭环——讲师自述「过程完整、全场最佳 demo」。业务/公司层对照案例见 `[[case-xujian-invoice-data-asset]]`。

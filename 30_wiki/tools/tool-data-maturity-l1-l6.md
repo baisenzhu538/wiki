@@ -2,14 +2,14 @@
 id: tool-data-maturity-l1-l6
 title: 数据成熟度 L1-L6 段位图：组织数据能力自评工具
 type: tool
-status: draft
+status: reviewed
 domain:
 - ai-data
 - ai-collaboration
 confidence: 0.85
 trust_level: medium
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 created_at: '2026-09-08'
 updated_at: '2026-09-08'
 source_person: Truman
@@ -46,8 +46,8 @@ tags:
 - 数据自评
 - 数据飞轮
 - 数据工作流
+review_date: 2026-09-08
 ---
-
 # 数据成熟度 L1-L6 段位图：组织数据能力自评工具
 
 > **定位**：本卡是一堂「AI数据必修课·认知篇」方法论族的**自评工具卡**（#683 任务包 3/8），是总纲 `[[framework-adaptive-data-flywheel]]` 的解压资产——飞轮告诉你数据系统怎么建，本卡告诉你现在建到哪一段、下一段的门槛是什么。治理侧配套见 `[[tool-data-governance-four-layers]]`。

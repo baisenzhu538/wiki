@@ -2,14 +2,14 @@
 id: dk-ai-on-ai-data-poisoning
 title: AI 叠加 AI 的数据是给自己投毒：二手生成数据入库禁令
 type: dk
-status: draft
+status: reviewed
 domain:
 - ai-data
 - ai-collaboration
 confidence: 0.9
 trust_level: medium
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 created_at: '2026-09-08'
 updated_at: '2026-09-08'
 source_person: Truman
@@ -46,8 +46,8 @@ tags:
 - 数据治理
 - 数据质量
 - 数据投毒
+review_date: 2026-09-08
 ---
-
 # AI 叠加 AI 的数据是给自己投毒：二手生成数据入库禁令
 
 > **定位**：一堂「AI数据必修课·认知篇」暗知识（#683 任务包 7/8）——`[[framework-adaptive-data-flywheel]]` 收集步「入库三判断」中最重要的一条否定性规则：湖仓思维鼓励什么都存，但有一类数据「还不如别存」。
