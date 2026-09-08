@@ -56,3 +56,16 @@ E 盘当前空载、未承载任何任务，本建议书不迁移任何东西；
 5. 卷标「新加卷」为中文——脚本禁引用卷标，只用盘符/junction（#592 编码教训复用）
 
 可选升级（不在本单，等老朱发话）：若日后想半自动，可在周拍 bat 加「E: 在位则顺手冷拷」钩子。
+
+## 决策记录补充（2026-09-08 22:55 老朱指令）——E 盘必须带 README 入口文档
+
+老朱指令：**必须写入 README 文档，让 E 盘可以很快知道怎么做**。README 与 BOOTSTRAP 分工：
+
+- **`E:\README.md`（盘根，第一眼入口）**——1 分钟读完，四节固定结构：
+  1. **这块盘是什么**：KDO 知识工厂便携恢复包（冷备轮换，不进自动调度，不插盘=不备份）
+  2. **怎么备份**（在工厂机器上）：插盘 → 跑 `python ...wiki\90_control\scripts\kdo-cold-backup.py` → 见 last-result=PASS 即完成（脚本自动做：wiki bundle 现打+CLI 拷贝+agent复盘+写后校验）
+  3. **怎么恢复**（任何新电脑）：装 Git + Python 3（唯一依赖）→ 按 `KDO-portable\BOOTSTRAP.md` 五步走
+  4. **注意事项**：盘符须为 E:（被抢占时 diskpart 固定或用脚本盘符参数）；缺盘告警不静默；最近备份结果看 `KDO-portable\last-result.txt`
+- **`KDO-portable\BOOTSTRAP.md`**——详细恢复步骤（clone bundle → 拷 CLI → `kdo index --rebuild` → 读 `.agent/startup.md` → 起终审/生产流程），README 第 3 节只给指针不重复。
+
+**验收标准**：README 不存在或四节缺失任一 = 施工单不过。README 由施工单（黄药师）首跑时生成/落盘，不靠人工记忆。
