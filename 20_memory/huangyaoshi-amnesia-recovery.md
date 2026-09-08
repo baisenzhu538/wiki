@@ -5,6 +5,14 @@ updated_at: 2026-09-05
 
 # 黄药师失忆恢复（重启后 3 分钟加载）
 
+## 2026-09-08（#686 AI数据域基建：首个 AI 系新域注册全流程）
+
+- **域注册四处清单实操样本**：路由 `90_control/domain-routes.yaml`（keywords+index_cards+search_dirs）→ digest 卡 `30_wiki/domains/ai-data-domain-digest.md` → 映射表 `90_control/domain-mapping.md` 两视图行 → 主 `30_wiki/index.md` 索引行（插字母序位）。ai-data 域 = 数据判断力（马易族执行层 + AI数据课方法论 + 双三角数据族案例）
+- **重复卡去重模式**：`case-yihang-dual-triangle-AI数据` 已并入 `case-yihang-dual-triangle-AI三角-数据`（主卡=信息更全者）；薄卡=redirect stub（merged_into 字段+正文指向主卡）；薄卡独有节 verbatim 搬入主卡「合并记录」节。后续重复卡对可复制此模式
+- **域基建卡位**：kdo index --incremental → kdo graph rebuild → coverage 探针 gap=0 → kdo query 验召回（digest 0.85 榜首=验收口径）；新域 onboarding 9 步中 Step 6-9 归 Builder
+- **新教训**：①complete 五字段门禁要粗体锚词行（**交付物**/**完成内容**/**验证**/**边界**/**需要谁动作**），报告小标题不算数——门禁报错样例直接照抄即可；②正文提及「src_unknown」会被 #517 当占位拦（历史叙述也无豁免），写溯源债描述用「溯源链断裂」措辞；建议书已落 diagnosis/
+- **库内已知疑似重复族（登记未裁）**：AI三角-场景 vs AI场景、AI三角-基本功 vs AI基本功、人类三角-* vs 人*、`数据标注维度最佳实践调研报告` vs `data-labeling-best-practices-report` 同题双卡——均待编排裁量
+
 ## 2026-09-07（#670 终审 PASS 卡状态自动翻转钩子）
 
 - **queue_transition review pass 钩子化（#670，已提审）**：终审 PASS 时按执行报告「交付物」节自动翻转交付卡 `draft→reviewed`+`reviewed_by=<审查者>`+`review_date`（`_flip_delivered_cards`+三层交付卡解析器 `_resolve_delivered_cards`，兼容 #665 反引号裸 id/#666 裸 id+声明目录/#668 `type×N（标题）` 含域中缀四种写法）；只翻 draft（幂等护栏），识别不出降级 #612 提醒不阻断；翻转卡随 `chore(review)` path-scoped 落仓。**review_mark.py 手工 CLI 仍是存量卡收口入口**（`mark_card()` 与钩子同一实现，`--dry-run` 可先看）；矩阵行 31 已登记，SKILL queue-transition v1.1.0
