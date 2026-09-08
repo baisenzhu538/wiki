@@ -2,7 +2,7 @@
 id: diag_20260908_wangyuyan-zengming-smart-strategy
 title: 曾鸣《智能：AI 时代的商业、组织与战略的本质》拆书素材精细化诊断（三方法前置+产卡范围裁定）
 type: diagnosis
-status: pending_review
+status: pending_orchestration
 audience: 欧阳锋 / 老顽童 / 老朱
 author: 王语嫣
 task: task_20260908_wangyuyan-zengming-smart-strategy-deep-dig
