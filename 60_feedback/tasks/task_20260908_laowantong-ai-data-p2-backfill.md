@@ -16,7 +16,7 @@ updated_at: ''
 
 > 规格源=诊断报告 `60_feedback/diagnosis/diag_20260908_wangyuyan-ai-data-ai-basic-deep-dig.md` §五-P2 表全量。指认落点卡，**不新产卡**；溯源补挂只追加不替换（F-KDO-015）。
 
-## 工作项（6 项，前 4 项补强、后 2 项合并为一个补挂工单）
+## 工作项（8 项，前 4 项补强、5-6 项补挂、7-8 项为终审移交增补）
 
 | # | 素材增量 | 落点动作 | 素材锚点 |
 |:-:|:--|:--|:--|
@@ -26,10 +26,12 @@ updated_at: ''
 | 4 | 闲聊篇 AI使用三循环/默认不依赖记忆/skill-prompt-agent辨析/多Agent文件夹协同 | KDO 实践域桥接素材登记（bridge 候选，写入落点卡的 related 或桥接候选清单，不单独成卡） | 闲聊篇 L210-574 |
 | 5 | `concepts/ai数据理解第一课` source_refs=src_unknown | **溯源补挂**：追加 `00_inbox/AI-study/AI数据/AI数据理解第一课表格.md` + `src_20260601_ba8ea2f0` + 口述02（使用五层出处 L1564-1590）；src_unknown 标注 superseded 不删除 | 报告 §2.1/§五-P2 |
 | 6 | 马易族 6 数据卡 source_refs=src_unknown | **溯源补挂**：逐卡定位真实上游源追加补挂（与 #5 合并为一个补挂工单执行；逐卡列补挂对照表，找不到实源的如实标注待考，不编造） | 报告 §一 grep 兜底【实证】 |
+| 7 | 口述01/闲聊篇归档并挂（#682 终审移交项①：编排单边界声称随本单但原表漏列） | **归档落账**：旧 src `src_20260614_a25ca678` / `src_20260614_64015d4d` 不删，其页面追加标注「干净转写版=00_inbox/AI-study/AI数据/一堂-AI数据第一课口述01.txt / 闲聊篇口述.txt」互挂引用指向 | #682 编排单拍板范围第 7 条 |
+| 8 | 徐建新旧卡互挂补双向（#683 终审移交项①：互挂实际单向，旧卡为已审件） | **王语嫣编排授权回填**：旧卡 `case-yitang-xujian-invoice-saas-channel` 的 related 追加 `case-xujian-invoice-data-asset`（只追加不动其他字段，已审件的最小回填） | #683 新卡族 |
 
 ## 验收标准
 
-1. 6 项全落；source_refs 只追加不替换（F-KDO-015），旧 src_unknown 标 superseded
+1. 8 项全落；source_refs 只追加不替换（F-KDO-015），旧 src_unknown 标 superseded
 2. 回填/互链后落点卡 `kdo pre-submit` PASS，输出随提审附
 3. 补挂对照表（卡 id × 新挂 source × 依据锚点）随提审附；马易族找不到实源的卡单列「待考」清单
 4. 负向判词附存在性核查锚（宪法第二条）；欧阳锋终审
