@@ -1,15 +1,19 @@
 ---
-id: task_20260908_laowantong-ai-data-methodology-p0
-title: "P0 产卡：AI数据域方法论族 8 张（口述02/03 主挖面 + 口述01 三案例，#682 编排）"
-seq: 683
-status: in_progress
-assignee: laowantong
-created_by: wangyuyan
-created_at: 2026-09-08
-decision_source: 老朱 09-08 19:25 拍板全做（#682 编排）
-reviewer: 欧阳锋
-instance: laowantong
-updated_at: '2026-09-08T11:36:04.479723+00:00'
+id: task_20260908_laowantong-ai-data-methodology-p0
+title: "P0 产卡：AI数据域方法论族 8 张（口述02/03 主挖面 + 口述01 三案例，#682 编排）"
+seq: 683
+status: reviewed
+assignee: laowantong
+created_by: wangyuyan
+created_at: 2026-09-08
+decision_source: 老朱 09-08 19:25 拍板全做（#682 编排）
+reviewer: 欧阳锋
+instance: laowantong
+updated_at: '2026-09-08T12:56:31.562327+00:00'
+evidence: 60_feedback/adversarial/atk_ai-data-batch8_20260908.md
+reviewed_by: 欧阳锋
+review_date: '2026-09-08'
+grade: A-
 ---
 
 # #683 P0 产卡单：AI数据域方法论族 8 张（老顽童）
@@ -86,3 +90,38 @@ Cubox→多为 Obsidian；云巨米→Antigravity；ClassCode→Claude Code；�
 **边界**：口述01/闲聊篇同源不产卡、使用五层级不重复产（任务单边界遵守）；半肥猫回填（#685）/Live258（#684）未碰；`concepts/ai数据理解第一课` 的 source_refs 补挂属 P2 溯源工单，未动；ai-data 域 digest/domain-mapping 注册属黄药师下游单，本批卡 domain 暂挂 `ai-data + ai-collaboration`（与既有散卡同域），待 digest 建卡后统一注册；徐建五维度中「大算力」、口述02「表白模型/龙虾循环」为 ASR 待考词，卡内已标注。
 
 **需要谁动作**：欧阳锋按任务单验收标准 1-5 终审 8 卡（pre-submit 输出见上，WARNING 明细=CONCEPT_CROSSCHECK 概念一致性提示，已人工核对无冲突）；黄药师（下游单）建 ai-data-domain-digest 并注册 domain-mapping + index 时把本批 8 卡纳入。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 9 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+✅ 执行报告无负向断言词（检查面=执行报告节）
+
+## 终审记录（欧阳锋，2026-09-08，methodology v2.3）
+
+**verdict：PASS A-（O0 溯源亲验，8 卡全入库）**
+
+**通过维度**：
+- **溯源完整性【实证】**：8 卡 source_refs 全部指向 00_inbox 底本带行号锚。终审亲验锚点 20+ 段、跨口述01/02/03 全部命中——framework 12 段（六步 L92-158/Adaptive 命名 L168/飞轮双轮 L211-346/盲区 L338-408/假设清单 L508-576/攒牌 L578-590/隐藏数据五类 L764-944/湖仓 L1008-1082/保留原始 L1110-1120/入库三判断 L1140-1190/8动作+黄金测评集+清单体 L1256-1444/飞轮特性 L456-505）、concept 8 段（三不变 L952-998/出口 L1044-1092/六问 L1112-1124/三类数据 L1204-1294/成本 L1306-1330）、tool×2 全部段位与治理锚点、case×2 关键数字逐个回源、dk×2 引文逐字命中。无虚构、无锚点漂移。
+- **验收标准 1-5 逐条**：①定位声明 8/8 ✅ ②pre-submit 本终审独立复跑 8/8 PASS（仅 CONCEPT_CROSSCHECK 提示制 WARNING，与执行报告声明一致）✅ ③查重独立复跑 3 组（飞轮六步/三不变三聚变/睡前故事数据包）Top 命中均为本批新卡自身或无关近邻——无存量重复，且新卡已可检索（index 声明实测成立）✅ ④三方法：国际对标入 Critique ✅、6 层交叉=锚点抽查（自攻击报告 8 处+本终审 20+ 处）✅、9 层深挖=两 case 显式 L1-L5 ✅（形式偏差见缺陷③）⑤自攻击四路报告落盘、🔴0/🟡0、两处已修项（yt-barrier-data-assets 互链）卡内实证确认 ✅。
+- **链接健康**：related 目标 14 个全部存在，死链 0；批量内 8 卡互链完整；framework 配套解压资产 tool×2+case×2+dk×2 ≥3 ✅。
+- **ASR 校正**：清单逐条执行，每卡附适用声明；「大算力/表白模型/龙虾循环/诚意乘意」待考词均未作实词引用 ✅。
+
+**缺陷（均 🟠Medium，放行+TODO，不阻断）**：
+1. **「互挂」实际单向**：新徐建卡→旧 `case-yitang-xujian-invoice-saas-channel` 有链；旧卡（author=老顽童、status: reviewed）未回挂——已审件回填需编排授权，移交王语嫣处置（随单建议书已落 `60_feedback/diagnosis/diag_20260908_ouyangfeng-683-review-followups.md`）。
+2. **arXiv:2510.27051 未能独立核验**【推断-待核】（核查锚点：WebFetch arxiv.org 被网络策略拦截；本机 web_search 以精确 ID 与精确标题各查 1 次，0 相关命中）——该引用在卡内为消歧用途、不承载实质主张，不阻断，留待有外网条件时复核。
+3. **验收标准④形式偏差**：字面要求 framework 卡走 9 层深挖，实际显式五层落两 case，framework 卡以同构段落（预判清单/假设审计式 Critique/When NOT to Use/失败模式六行）隐式覆盖——实质深度亲验达标，形式记 TODO。
+
+**残余风险**：
+- L2 自攻击因 AgentSwarm storage I/O 故障由生产者换位执行（报告已声明降级）；补偿控制=本终审锚点抽查加倍至 20+ 段。同域若连续降级，建议升级独立恢复单。
+- 全部素材单源（同一门课同一讲师），各卡 Critique 已自声明；ai-data 域 multi-source 校验待 digest 建卡后统一补。
+
+**结论**：8 卡 `status: reviewed`（review_mark.py 批量落 frontmatter）、`kdo index --rebuild` 已跑。遗留动作（互挂回填/arXiv 复核/digest 注册）移交王语嫣编排。
