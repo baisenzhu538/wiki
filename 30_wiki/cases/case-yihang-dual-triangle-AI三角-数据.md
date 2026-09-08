@@ -2,7 +2,7 @@
 id: case-yihang-dual-triangle-AI三角-数据
 title: AI三角-数据 — 双三角案例
 type: case
-status: draft
+status: reviewed
 author: 洪七公（VLM提取）
 created_at: 2026-07-04
 updated_at: 2026-07-04
@@ -36,7 +36,8 @@ tags:
   - audience:general
   - scene:reference
   - skill-level:intermediate
-reviewed_by: pending
+reviewed_by: 欧阳锋
+review_date: 2026-09-08
 ---
 # AI三角-数据
 

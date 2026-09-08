@@ -5,9 +5,9 @@ type: index
 domain:
 - ai-data
 - system
-status: draft
+status: reviewed
 author: 黄药师
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 review_date: 2026-09-08
 confidence: 0.8
 trust_level: medium
@@ -51,7 +51,6 @@ related:
 - '[[数据标注维度最佳实践调研报告]]'
 - '[[case-yihang-dual-triangle-AI三角-数据]]'
 ---
-
 # ai-data 域摘要
 
 > **定位**：AI数据域（ai-data）= AI 商业能力域之一，主题为"数据判断力"——什么数据值得攒、数据资产价值怎么估、数据 ROI 怎么判、数据怎么治理与飞轮化。本卡是域入口 MOC（骨架参照 `ai-basic-domain-digest`，#686 补建）。
