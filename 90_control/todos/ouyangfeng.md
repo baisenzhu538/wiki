@@ -935,3 +935,62 @@
 - [2026-09-07 23:13] 老朱拍板 #673 R2=恢复日拍（obsidian 快照恢复每日执行）；决策记录落建议书+王语嫣收件箱已路由+context.md blocker 已更新；待王语嫣编排黄药师施工
 - [2026-09-07 23:22] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
 - [2026-09-07 23:25] 自查：23:13 #673 路由过期（#675 早间已施工+闭环）——四处更正落盘（建议书更正节/context blocker/王语嫣 todos/本档）；教训=路由/建议动作前同跑版本对齐（git log 对方文件+查队列），不凭当日早间记忆；另 E 盘 160GB 经存储缓存刷新后已联机，建议书 diag_20260907_ouyangfeng-edrive-capacity-routing 已落，待老朱拍板迁什么
+- [2026-09-07 23:37] 【通道预检 #656】【通道fallback】codex 不健康（402 余额不足（经 relay，降级为工具级））→ ouyangfeng 已切 claude（上游 zhipu-glm）
+- [2026-09-07 23:48] 复盘完成+自检🟢A级（23:37场追加第6节：#673 R2承接/路由过期四处更正自纠/E盘容量建议书；错误库+E018过期状态路由；技能进化日志+1行）
+- [2026-09-07 23:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-08 00:22] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-08 00:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-08 01:22] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-08 01:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-08 02:22] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-08 02:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-08 03:22] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-08 03:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-08 04:22] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-08 04:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-08 05:22] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-08 05:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-08 06:22] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-08 06:57] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-08 07:27] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-08 07:57] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-08 08:27] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-08 08:57] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-08 09:27] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-08 09:57] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-08 10:27] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-08 10:57] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-08 11:09] 【通道预检 #656】【通道fallback】codex 不健康（402 余额不足（经 relay，降级为工具级））→ ouyangfeng 已切 claude（上游 zhipu-glm）
+- [2026-09-08 11:12] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#681（wangyuyan 的单，挂审 5min）（事件驱动：有待终审）
+- [2026-09-08 11:17] 🔔 KDO 新提审 1 单：#681，请终审（新提审）
+- [2026-09-08 11:22] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#681（wangyuyan 的单，挂审 15min）（事件驱动：有待终审）
+- [2026-09-08 11:26] 终审 #681 PASS A-（queue reviewed，commit 7fcc5c53d）：王语嫣 AI数据课5件+AI基本功51件深挖诊断——溯源抽查 11 组全中独立复核（同源三断句锚 01L1336↔02L2/02L1658↔03L234/src_a25ca678 开头逐字；kdo query Q#10 飞轮+Q#14 雍博本端复跑零直中复现；Live258 3024行锚点 L671/L817/L1705/L2909 5:5；V0.9 changelog 47Feature/253别名/F039F097/DataPack 逐字命中；双三角重复卡同源 AI数据.png；马易41张 src_unknown 抽查7:7；framework两卡draft+#544记录吻合；ai-data digest缺失/domain-mapping 0命中实锤；diag 已入仓 d549f9368 工作树=HEAD），检索记录节合规；非阻断 P2 缺陷三条（检索记录#15漏计 dk 层两个吸收点→移交P1立项前置查重 dk-ai-does-not-question-your-mistake:112+dk-demand-feature-stacking:165；PNG实测36张报告写34已自flag；文本17vs实测16口径差1）；review 首跑被 F-035 拦（终审记录负向判词无存在性核查节）→补**存在性核查**节后过——门禁拦对（#679 同款第2次，规律确认：我的终审记录默认带此节）；PASS 已抄送王语嫣（待老朱拍板 P0/P1/P2 三包后立项编排）；无新增建议书（缺陷均为内容级随单移交）
+- [2026-09-08 11:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-08 12:22] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-08 12:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-08 13:22] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-08 13:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-08 14:22] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-08 14:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-08 15:22] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-08 15:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-08 16:22] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-08 16:57] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-08 17:27] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-08 17:57] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-08 18:27] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-08 18:57] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-08 19:27] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-08 19:47] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（事件驱动：有待终审）
+- [2026-09-08 19:47] 🔔 KDO 新提审 1 单：#682，请终审（新提审）
+- [2026-09-08 19:57] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（事件驱动：有待终审）
+- [2026-09-08 20:07] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（事件驱动：有待终审）
+- [2026-09-08 20:08] 【通道预检 #656】【通道fallback】codex 不健康（402 余额不足（经 relay，降级为工具级））→ ouyangfeng 已切 claude（上游 zhipu-glm）
+- [2026-09-08 20:17] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（事件驱动：有待终审）
+- [2026-09-08 20:24] ✅ #682 终审 PASS A-（task_20260908_wangyuyan-681-production-rollout，2ac84758a）：编排合规五单全落、规格照抄忠实、E040 拦截已自愈；缺陷①归档动作未随 #685 落项 ②ASR-P1 口径过宽（均非阻断移交王语嫣，建议书 diag_20260908_ouyangfeng-682-rollout-review-followups.md 已落）；#544 知悉件裁定同意不另立单、建议排产；本日 pending_review 清零。
+- [2026-09-08 20:32] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（事件驱动：有待终审）
+- [2026-09-08 20:37] 🔔 KDO 新提审 1 单：#683，请终审（新提审）
+- [2026-09-08 20:38] 【通道预检 #656】【通道fallback】codex 不健康（402 余额不足（经 relay，降级为工具级））→ ouyangfeng 已切 claude（上游 zhipu-glm）
+- [2026-09-08 20:42] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（事件驱动：有待终审）
+- [2026-09-08 20:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（事件驱动：有待终审）
+- [2026-09-08 20:59] ✅ #683 终审 PASS A-（task_20260908_laowantong-ai-data-methodology-p0，ece8bde2c）：8 卡 AI数据域方法论族全入库——O0 溯源亲验 20+ 锚点段跨口述01/02/03 全命中、pre-submit 独立复跑 8/8 PASS、查重独立复跑 3 组无存量重复、8 卡翻 reviewed+index --rebuild 4268；三缺陷非阻断（互挂单向/arXiv 待核/9层深挖形式偏差）随单建议书 diag_20260908_ouyangfeng-683-review-followups.md 四条移交王语嫣；本日 pending_review 清零。

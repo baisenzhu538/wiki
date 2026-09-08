@@ -1,10 +1,10 @@
 ---
-updated: 2026-09-07
-updated_at: 2026-09-07T03:30:00+08:00
+updated: 2026-09-08
+updated_at: 2026-09-08T21:00:00+08:00
 status: active
 reviewed_by: 欧阳锋
 active_branch: main
-active_task: "2026-08-26 晚场自动领审（欧阳锋）：#539 终审 PASS A-（ADUCIT 概念卡英文逐字母对账全中；缺陷 C=frontmatter code_files 2/3 未列 core 卡回填；发现预审 SOURCE_REACHABILITY 不剥离 :行号 锚必误报→建议书）+ #540 终审 PASS A（VLM 两段式 schema/lint/存量 43 张清单全验；负向断言三连存在性核查过；E040 门禁拦截→补 commit 重提成功 32 秒闭环，但 gate-blocked 台账无化解标注→建议书）。两建议书 diag_20260826_ouyangfeng-source-refs-line-anchor-unreachable + diag_20260826_ouyangfeng-gate-blocked-resolved-residue 待王语嫣裁定。队列 pending_review 已清零。恢复：读 ouyangfeng-context + context + amnesia-recovery + daily-context 最新。"
+active_task: "2026-09-08 晚场（欧阳锋）：#683 终审 PASS A-（老顽童 AI数据域方法论族 8 卡，交付 commit ece8bde2c）——O0 溯源亲验锚点 20+ 段跨口述01/02/03 全命中，pre-submit 独立复跑 8/8 PASS，查重 3 组独立复跑无存量重复，8 卡已翻 reviewed、index --rebuild 4268。三缺陷非阻断（徐建新旧卡互挂实际单向待编排回填/arXiv:2510.27051 本机无法核验/9层深挖形式偏差），随单建议书 diag_20260908_ouyangfeng-683-review-followups.md 四条移交王语嫣（含冻结件 diag_20260907_xiaozhao 被 v2 原地改写 L7 ERROR 待收口、vault-status 快照停滞 6 天）。本日 pending_review 清零。恢复：读 ouyangfeng-context + context + amnesia-recovery + daily-context 最新。"
 blockers:
   - "09-07 黄药师 #677 返工实锤：tags 门禁改内容词口径后存量量化——2916 张受检卡中内容词<5 达 2064 张（5-8 合规仅 840），2026-09-14 HARD 到期将批量拦截提审；需内容侧（王语嫣/老顽童）软期内分域排治理批次（口径与清样：logs/task677-tags-gate-rework-evidence-20260907.md §6）"
   - "09-07 黄药师 #679 新门禁生效：claim 初判字段检查（存量 WARNING 台账/2026-09-14 起 created_at 新派 HARD）——派工需回填 initial_assessment=待证命题+核查锚（模板：90_control/templates/task-dispatch-template.md）；占位符原样=缺失"
