@@ -2,15 +2,18 @@
 id: task_20260908_wangyuyan-681-production-rollout
 title: "#681 拍板落地：老朱拍『全做』——按诊断报告 §五/§七 立项 P0/P1/P2 产卡单+基建/补采工单并调度生产"
 seq: 682
-status: pending_review
+status: reviewed
 assignee: wangyuyan
 created_by: 老朱（小昭代书）
 created_at: 2026-09-08
 decision_source: 老朱 09-08 19:25 对 #681 产卡范围拍板「全做」（小昭代书任务单+00_inbox 投放+headless 拉起）
 reviewer: 欧阳锋
 instance: wangyuyan
-updated_at: '2026-09-08T11:43:36.289124+00:00'
+updated_at: '2026-09-08T12:20:17.167148+00:00'
 evidence: 60_feedback/tasks/task_20260908_wangyuyan-681-production-rollout.md
+reviewed_by: 欧阳锋
+review_date: '2026-09-08'
+grade: A-
 ---
 
 # #682 #681 拍板落地编排单（王语嫣）
@@ -90,3 +93,54 @@ evidence: 60_feedback/tasks/task_20260908_wangyuyan-681-production-rollout.md
 ### ③ 负向判词 / ④ 存在性核查
 
 ✅ 执行报告无负向断言词（检查面=执行报告节）
+
+## 终审记录
+
+methodology_version: v2.3
+verdict: PASS
+grade: A-
+blocking: 无（🟠Medium ×2 放行+移交动作，见缺陷①②）
+reviewed_by: 欧阳锋
+review_date: 2026-09-08
+
+**审查结论**：编排单准予通过。审查对象为编排类交付，判三件事——①拍板范围 7 项是否全部落地 ②各新单规格是否忠实规格源 ③流转/拉起/入仓是否实证。三项全过，A-（1-2 处小遗漏，见缺陷①②）。
+
+**溯源验证（本端独立复核，非转述编排者结论）**：
+
+1. **拍板范围 7 项 → 5 单+台账+知悉件全落地**【实证】：#683（P0 8 卡）/ #684（P1 六案例）/ #685（P2 六工作项）/ #686（基建三工作项）/ #687（补采 27 张）五单 frontmatter 齐（id/seq/assignee/decision_source=「老朱 09-08 19:25 拍板全做（#682 编排）」/reviewer，W7 过）；归档判定五项台账落账；#544 知悉件路由入台账。
+2. **五单规格与规格源逐条对——全部吻合**【实证】：规格源=`60_feedback/diagnosis/diag_20260908_wangyuyan-ai-data-ai-basic-deep-dig.md`（本端已读全文）。#683 八卡清单/锚点与 §五-P0 表逐条一致（含 dk×2；解压路径 tool×2+case×2+dk×2=6≥3 达标）；#684 六案例 id/可用度排序/锚点与 §五-P1+§3.2-B 矩阵一致，前置缺陷项=本端 #681 终审缺陷① 原样下发；#685 六工作项与 §五-P2 表全量一致；#686 三工作项与 §〇/§七 一致；#687 与 §3.2-E 一致（27 张+040618 优先+「补采产物为素材层不产卡」边界收对）。
+3. **ASR 校正清单照抄 §六 原文**【实证】：`task_20260908_laowantong-ai-data-methodology-p0.md:44`（7 条逐字含「待考」标注，无改写）。
+4. **#684 前置缺陷项引用的两处 dk 锚点实证成立**【实证】：`dk-ai-does-not-question-your-mistake.md:112`（引用块「正面做法参照农夫三拳的 R/E/S/X 事实分级（L817-L831）」）；`dk-demand-feature-stacking.md:165`（边界行并引农夫三拳 L923+黄谦 L2947）。
+5. **拉起实证**【实证】：`logs/headless-laowantong-20260908-193541.log` 在盘（85164B，20:09 仍在增长），台账 proc_laowantong_5116 与之吻合；队列 #683=claimed-laowantong ↔ #683 任务单 `status: in_progress` 双向一致。
+6. **队列一致性（O4 前置）**【实证】：#682 队列行 pending_review ↔ 任务单 frontmatter pending_review 一致；683-687 队列行五单全在（production-queue.md L1310-1314）。
+7. **E040 门禁拦截已自愈收口**【实证】：gate-blocked.log 19:36 拦「untracked: task_20260908_laowantong-*」→ commit 8ba892a9a 编排立项入仓 → 本端 `git status --porcelain -- 60_feedback/tasks/` 现为空。拦截→修复→复检闭环。
+8. **kdo query 抽检（真空前提复验）**：见检索记录节——两查均支持「P0 真空 / P1 六案未开采」前提，无双源冲突。
+
+**缺陷（🟠Medium 放行+移交，无 🔴🟡 阻断）**：
+
+- ① **声称-交付差集：归档物理动作未随 #685 落项**。本单「边界」与「归档判定落账」两处声称「口述01/闲聊篇物理归档（旧 src_a25ca678/src_64015d4d 引用指向并挂）随 #685 补挂闭环执行」，但 `task_20260908_laowantong-ai-data-p2-backfill.md:21-28` 六工作项无此项（全表逐行核对）——若不补，该动作成孤儿，且执行报告含不实声称。**移交动作：王语嫣在 #685 被 claim 前增补第 7 工作项（或修订本单边界措辞另定落点）**——已写入建议书 `60_feedback/diagnosis/diag_20260908_ouyangfeng-682-rollout-review-followups.md`。
+- ② **执行要求字面违背（实质豁免）**：本单执行要求「ASR 校正清单必须随 P0/P1 单下发」，实际仅 #683 下发，#684 全文 grep「ASR|校正」0 命中【实证】。判定为口径过宽而非交付缺失：Live258 素材为书面作业集非 ASR 转写，§六 清单 7 条全部源自口述01/02，对 #684 无适用项。建议口径修订为「随含 ASR 素材的单下发」。
+- ③ 🔵Low：#684/#685/#686/#687 frontmatter `updated_at: ''`（空串；#683 有实值）——流转脚本会补，归 lint 类不阻断。
+
+**附带知悉件核实（拍板范围第 6 项，路由裁定）**：#544 两张 framework 基准卡「退回未修」属实【实证：`framework-truman-feature-thinking-core.md:5,18` / `framework-truman-feature-layered-system.md:5,17` 均 status: draft + reviewed_by: 待审】。**裁定：同意知悉件不另立新单**；返工排产属编排职能，建议王语嫣列 P2 返工单（建议 #685 后、#684 黄谦/Simon Peng 产卡前——两卡是 Live258 案例卡的分层基准，L2 计数 34vs38 未修，带病基准会污染六案卡的分层判断），已写入同一建议书。
+
+**残余风险**：本单只审编排，不预审子单产物——#683 8 卡 draft 在产（本单终审时点未提审）、#684-#687 未启动，各自按队列走四层管线终审；#684 执行时六案卡引用两基准卡数字须按 #681 缺陷口径「引用其数字需谨慎」处理。
+
+**kdo query 检索记录**（宪法第六条/#669，本端实跑 2026-09-08，`kdo query --limit 5`）：
+
+| # | 查询词 | 命中 | 判读 |
+|:-:|:--|:--|:--|
+| 1 | Adaptive 数据飞轮 六步 预判 识别 收集 处理 | 1 弱（0.15） | 唯一命中=`tool-data-maturity-l1-l6.md`【未审 draft】=#683 本日新产卡——P0 真空前提成立（提审时点库内无既有同类卡），无双源 |
+| 2 | Live258 雍博 具身智能 农夫三拳 学员案例 | 0 case | 命中均为 dk-ai-does-not-question / case-live258-fact-spread-18-bridges / v0.9 changelog / Live255 他案——六案未开采前提成立 |
+
+**存在性核查**（本记录负向判词锚点集，#433/F-035，核查动作 2026-09-08 本端实跑）：
+
+- 「#685 无归档工作项」← Read `task_20260908_laowantong-ai-data-p2-backfill.md` 全文（L19-28 工作项表 6 行逐行核，无口述01/闲聊篇归档项）。
+- 「#684 无 ASR 清单」← `grep -n "ASR\|校正" task_20260908_laowantong-live258-six-cases.md` 0 命中。
+- 「#544 两卡退回未修」← `grep -n "^status\|^reviewed_by"` 两文件（framework-truman-feature-thinking-core / framework-truman-feature-layered-system）。
+- 「拉起日志在盘」← `ls -la logs/headless-laowantong-20260908-193541.log`（85164B）。
+- 「E040 已收口」← `git status --porcelain -- 60_feedback/tasks/` 输出为空 + `git log --oneline -8` 含 8ba892a9a。
+
+**通过维度**：拍板范围全覆盖（7/7）/ 规格忠实度（五单与诊断 §五/§六/§七/§3.2-E 逐条吻合，锚点照抄未改写）/ 流转纪律（W7 frontmatter+队列行+claim 拉起+queue_transition 实跑）/ 台账可查性（单号+拉起/留队状态+归档落账+知悉件路由，老朱查进度单点可达）。
+
+**不报告清单**：file-flow-check 存量 L5 命名项与 L3 缺 version（全库 363 条同型）归 lint；冻结件 diag_20260907_xiaozhao ERROR 非本单范围（一行记入建议书观察项）；#683 卡片产物属子单 #683 终审范围本单不预审。
