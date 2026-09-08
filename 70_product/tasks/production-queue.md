@@ -567,7 +567,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#680 task_20260907_laowantong-c340-b01｜laowantong｜提审 09-07 17:25｜60_feedback/tasks/task_20260907_laowantong-c340-b01.md~~ → 已终审 PASS A-（2026-09-07 欧阳锋）
 - ~~#681 task_20260908_wangyuyan-ai-data-basic-deep-dig｜wangyuyan｜提审 09-08 11:07｜60_feedback/tasks/task_20260908_wangyuyan-ai-data-basic-deep-dig.md~~ → 已终审 PASS A-（2026-09-08 欧阳锋）
 - ~~#686 task_20260908_huangyaoshi-ai-data-domain-infra｜huangyaoshi｜提审 09-08 21:24｜60_feedback/tasks/task_20260908_huangyaoshi-ai-data-domain-infra.md~~ → 已终审 PASS A-（2026-09-08 欧阳锋）
-- #691 task_20260908_wangyuyan-zengming-smart-strategy-deep-dig｜wangyuyan｜提审 09-08 23:45｜60_feedback/tasks/task_20260908_wangyuyan-zengming-smart-strategy-deep-dig.md
+- ~~#691 task_20260908_wangyuyan-zengming-smart-strategy-deep-dig｜wangyuyan｜提审 09-08 23:45｜60_feedback/tasks/task_20260908_wangyuyan-zengming-smart-strategy-deep-dig.md~~ → 已终审 PASS A-（2026-09-08 欧阳锋）
 
 <!-- REVIEW-PENDING-END -->
 
@@ -577,44 +577,6 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 
 > 王语嫣维护看板时处理：诊断 → 写任务单 → 入队后把对应行划掉。编排规则不变，这里只解决「没人被通知」。
 
-- ~~00_inbox/pending-cards/distill-external-20260905-10.md｜P2｜1047B｜检测到 09-04 20:21｜待王语嫣编排~~ → 门禁 PASS（09-06 王语嫣）：#645 返工二轮候选卡，机械门禁 32/32 溯源在+锚全非空+layer=external29/human3 与 SUMMARY 一致+抽读正文锚文真实；随 #645 终审+老朱肉眼验收定去留
-- ~~00_inbox/pending-cards/distill-external-20260905-11.md｜P2｜1145B｜检测到 09-04 20:21｜待王语嫣编排~~ → 门禁 PASS（09-06 王语嫣）：#645 返工二轮候选卡，机械门禁 32/32 溯源在+锚全非空+layer=external29/human3 与 SUMMARY 一致+抽读正文锚文真实；随 #645 终审+老朱肉眼验收定去留
-- ~~00_inbox/pending-cards/distill-external-20260905-12.md｜P2｜1215B｜检测到 09-04 20:21｜待王语嫣编排~~ → 门禁 PASS（09-06 王语嫣）：#645 返工二轮候选卡，机械门禁 32/32 溯源在+锚全非空+layer=external29/human3 与 SUMMARY 一致+抽读正文锚文真实；随 #645 终审+老朱肉眼验收定去留
-- ~~00_inbox/pending-cards/distill-external-20260905-13.md｜P2｜1123B｜检测到 09-04 20:21｜待王语嫣编排~~ → 门禁 PASS（09-06 王语嫣）：#645 返工二轮候选卡，机械门禁 32/32 溯源在+锚全非空+layer=external29/human3 与 SUMMARY 一致+抽读正文锚文真实；随 #645 终审+老朱肉眼验收定去留
-- ~~00_inbox/pending-cards/distill-external-20260905-14.md｜P2｜1212B｜检测到 09-04 20:21｜待王语嫣编排~~ → 门禁 PASS（09-06 王语嫣）：#645 返工二轮候选卡，机械门禁 32/32 溯源在+锚全非空+layer=external29/human3 与 SUMMARY 一致+抽读正文锚文真实；随 #645 终审+老朱肉眼验收定去留
-- ~~00_inbox/pending-cards/distill-external-20260905-15.md｜P2｜1165B｜检测到 09-04 20:21｜待王语嫣编排~~ → 门禁 PASS（09-06 王语嫣）：#645 返工二轮候选卡，机械门禁 32/32 溯源在+锚全非空+layer=external29/human3 与 SUMMARY 一致+抽读正文锚文真实；随 #645 终审+老朱肉眼验收定去留
-- ~~00_inbox/pending-cards/distill-external-20260905-16.md｜P2｜1015B｜检测到 09-04 20:21｜待王语嫣编排~~ → 门禁 PASS（09-06 王语嫣）：#645 返工二轮候选卡，机械门禁 32/32 溯源在+锚全非空+layer=external29/human3 与 SUMMARY 一致+抽读正文锚文真实；随 #645 终审+老朱肉眼验收定去留
-- ~~00_inbox/pending-cards/distill-external-20260905-17.md｜P2｜1091B｜检测到 09-04 20:21｜待王语嫣编排~~ → 门禁 PASS（09-06 王语嫣）：#645 返工二轮候选卡，机械门禁 32/32 溯源在+锚全非空+layer=external29/human3 与 SUMMARY 一致+抽读正文锚文真实；随 #645 终审+老朱肉眼验收定去留
-- ~~00_inbox/pending-cards/distill-external-20260905-18.md｜P2｜1111B｜检测到 09-04 20:21｜待王语嫣编排~~ → 门禁 PASS（09-06 王语嫣）：#645 返工二轮候选卡，机械门禁 32/32 溯源在+锚全非空+layer=external29/human3 与 SUMMARY 一致+抽读正文锚文真实；随 #645 终审+老朱肉眼验收定去留
-- ~~00_inbox/pending-cards/distill-external-20260905-19.md｜P2｜1055B｜检测到 09-04 20:21｜待王语嫣编排~~ → 门禁 PASS（09-06 王语嫣）：#645 返工二轮候选卡，机械门禁 32/32 溯源在+锚全非空+layer=external29/human3 与 SUMMARY 一致+抽读正文锚文真实；随 #645 终审+老朱肉眼验收定去留
-- ~~00_inbox/pending-cards/distill-external-20260905-20.md｜P2｜1078B｜检测到 09-04 20:21｜待王语嫣编排~~ → 门禁 PASS（09-06 王语嫣）：#645 返工二轮候选卡，机械门禁 32/32 溯源在+锚全非空+layer=external29/human3 与 SUMMARY 一致+抽读正文锚文真实；随 #645 终审+老朱肉眼验收定去留
-- ~~00_inbox/pending-cards/distill-external-20260905-21.md｜P2｜1195B｜检测到 09-04 20:21｜待王语嫣编排~~ → 门禁 PASS（09-06 王语嫣）：#645 返工二轮候选卡，机械门禁 32/32 溯源在+锚全非空+layer=external29/human3 与 SUMMARY 一致+抽读正文锚文真实；随 #645 终审+老朱肉眼验收定去留
-- ~~00_inbox/pending-cards/distill-external-20260905-22.md｜P2｜1173B｜检测到 09-04 20:21｜待王语嫣编排~~ → 门禁 PASS（09-06 王语嫣）：#645 返工二轮候选卡，机械门禁 32/32 溯源在+锚全非空+layer=external29/human3 与 SUMMARY 一致+抽读正文锚文真实；随 #645 终审+老朱肉眼验收定去留
-- ~~00_inbox/pending-cards/distill-external-20260905-23.md｜P2｜1165B｜检测到 09-04 20:21｜待王语嫣编排~~ → 门禁 PASS（09-06 王语嫣）：#645 返工二轮候选卡，机械门禁 32/32 溯源在+锚全非空+layer=external29/human3 与 SUMMARY 一致+抽读正文锚文真实；随 #645 终审+老朱肉眼验收定去留
-- ~~00_inbox/pending-cards/distill-external-20260905-24.md｜P2｜1177B｜检测到 09-04 20:21｜待王语嫣编排~~ → 门禁 PASS（09-06 王语嫣）：#645 返工二轮候选卡，机械门禁 32/32 溯源在+锚全非空+layer=external29/human3 与 SUMMARY 一致+抽读正文锚文真实；随 #645 终审+老朱肉眼验收定去留
-- ~~00_inbox/pending-cards/distill-external-20260905-25.md｜P2｜1214B｜检测到 09-04 20:21｜待王语嫣编排~~ → 门禁 PASS（09-06 王语嫣）：#645 返工二轮候选卡，机械门禁 32/32 溯源在+锚全非空+layer=external29/human3 与 SUMMARY 一致+抽读正文锚文真实；随 #645 终审+老朱肉眼验收定去留
-- ~~00_inbox/pending-cards/distill-external-20260905-26.md｜P2｜1088B｜检测到 09-04 20:21｜待王语嫣编排~~ → 门禁 PASS（09-06 王语嫣）：#645 返工二轮候选卡，机械门禁 32/32 溯源在+锚全非空+layer=external29/human3 与 SUMMARY 一致+抽读正文锚文真实；随 #645 终审+老朱肉眼验收定去留
-- ~~00_inbox/pending-cards/distill-human-20260905-01.md｜P2｜1116B｜检测到 09-04 20:21｜待王语嫣编排~~ → 门禁 PASS（09-06 王语嫣）：#645 返工二轮候选卡，机械门禁 32/32 溯源在+锚全非空+layer=external29/human3 与 SUMMARY 一致+抽读正文锚文真实；随 #645 终审+老朱肉眼验收定去留
-- ~~00_inbox/pending-cards/distill-human-20260905-02.md｜P2｜1078B｜检测到 09-04 20:21｜待王语嫣编排~~ → 门禁 PASS（09-06 王语嫣）：#645 返工二轮候选卡，机械门禁 32/32 溯源在+锚全非空+layer=external29/human3 与 SUMMARY 一致+抽读正文锚文真实；随 #645 终审+老朱肉眼验收定去留
-- ~~00_inbox/pending-cards/distill-external-20260905-27.md｜P2｜1109B｜检测到 09-04 20:31｜待王语嫣编排~~ → 门禁 PASS（09-06 王语嫣）：#645 返工二轮候选卡，机械门禁 32/32 溯源在+锚全非空+layer=external29/human3 与 SUMMARY 一致+抽读正文锚文真实；随 #645 终审+老朱肉眼验收定去留
-- ~~00_inbox/pending-cards/distill-external-20260905-28.md｜P2｜1138B｜检测到 09-04 20:31｜待王语嫣编排~~ → 门禁 PASS（09-06 王语嫣）：#645 返工二轮候选卡，机械门禁 32/32 溯源在+锚全非空+layer=external29/human3 与 SUMMARY 一致+抽读正文锚文真实；随 #645 终审+老朱肉眼验收定去留
-- ~~00_inbox/pending-cards/distill-external-20260905-29.md｜P2｜993B｜检测到 09-04 20:31｜待王语嫣编排~~ → 门禁 PASS（09-06 王语嫣）：#645 返工二轮候选卡，机械门禁 32/32 溯源在+锚全非空+layer=external29/human3 与 SUMMARY 一致+抽读正文锚文真实；随 #645 终审+老朱肉眼验收定去留
-- ~~00_inbox/pending-cards/distill-human-20260905-03.md｜P2｜1050B｜检测到 09-04 20:31｜待王语嫣编排~~ → 门禁 PASS（09-06 王语嫣）：#645 返工二轮候选卡，机械门禁 32/32 溯源在+锚全非空+layer=external29/human3 与 SUMMARY 一致+抽读正文锚文真实；随 #645 终审+老朱肉眼验收定去留
-- ~~00_inbox/启动会-2026年全新AI大航海-逐字稿.md｜P2｜79863B｜检测到 09-05 16:21｜待王语嫣编排~~ → ⚠️ 前次误划销已撤销（09-06 02:00 王语嫣）：01:44 区间兜扫误挂「#645 候选卡」假去向——本件是真素材非蒸馏卡，错误模式待入错误模式库；正确处置见 diag_20260906_wangyuyan-launchmeeting-triage
-- ~~00_inbox/wechat-collect/src_wechat_4b6327b374540e2e.md｜P2｜116772B｜检测到 09-05 19:51｜待王语嫣编排~~ → 已裁定划销（09-06 04:18 王语嫣）：双采对账完成——ASR版(58k字带时间戳)为一等锚、fs-doc版为可读辅助（同事件结尾原文实锤）；素材消化走 AI大航海域 D1 金矿台账（已入80+58条），diag_20260906_wangyuyan-launchmeeting-triage 收口
-- ~~00_inbox/pending-cards/case-wechat-4b6327b374540e2e.md｜P2｜5682B｜检测到 09-05 20:01｜待王语嫣编排~~ → 门禁判定：不入独立生产（09-06 04:18 王语嫣）——wechat_knowledge 自动卡标题取自 ASR 开头误听（「妮妮妮别吵架」）、「双彩鸟画布」系「双三角画布」误听，质量不足独立成卡；内容与本域 D1 金矿台账重叠，以台账为准；卡留 pending-cards 标 draft 不删
-- ~~00_inbox/AI大航海20260905/｜P2｜13件｜检测到 09-05 20:29｜待王语嫣编排（#651 目录级登记：内件不在扫描面，需文件级跟踪→加入 SCAN_SUBDIRS）~~ → 已裁定划销（09-06 04:40 王语嫣）：本域 14 件已全量消化（D1+D2 完成，192 金矿+8 图入台账），生产单 #654 在产——此行即 #651 目录级登记功能首个活体样本，功能自证生效 ✅
-- ~~00_inbox/_tmp_smile_chat_full.txt｜P2｜52725B｜检测到 09-06 03:31｜待王语嫣编排~~ → 挂起待老朱指令（09-06 12:10 王语嫣）：个人微信聊天记录导出（full/raw 同源双份，07-29~30 协议对齐话题，含手机号）——涉隐私不自动编排不删除（00_inbox 只增不删）；老朱若要入域分析（销售对话/人域）请口喷指令明确用途后走协议 9 通道
-- ~~00_inbox/_tmp_smile_chat_raw.txt｜P2｜8152B｜检测到 09-06 03:31｜待王语嫣编排~~ → 挂起待老朱指令（09-06 12:10 王语嫣）：个人微信聊天记录导出（full/raw 同源双份，07-29~30 协议对齐话题，含手机号）——涉隐私不自动编排不删除（00_inbox 只增不删）；老朱若要入域分析（销售对话/人域）请口喷指令明确用途后走协议 9 通道
-- ~~00_inbox/人机协作双三角/｜P2｜304件｜检测到 09-06 04:11｜待王语嫣编排（#651 目录级登记：内件不在扫描面，需文件级跟踪→加入 SCAN_SUBDIRS）~~ → 已裁定划销（09-06 12:30 王语嫣）：目录新增件=洪七公 OCR 交付稿，已入 #657 试金石流程（OCR 复核 PASS+19 金矿+6 条漏挖 dk 候选，报告 diag_20260906_wangyuyan-audit-pilot-report）
-- ~~00_inbox/AI大航海20260905/｜P2｜15件｜检测到 09-06 04:21｜待王语嫣编排（#651 目录级登记：内件不在扫描面，需文件级跟踪→加入 SCAN_SUBDIRS）~~ → 回声划销（09-06 13:00 王语嫣）：#651 目录级登记重fire（件数 14→15 系洪七公 OCR 交付稿入目录）——本域全量已消化，素材在 #657 流程内闭环
-- ~~00_inbox/老朱的个人域/｜P2｜26件｜检测到 09-06 12:51｜待王语嫣编排（#651 目录级登记：内件不在扫描面，需文件级跟踪→加入 SCAN_SUBDIRS）~~ → 已分诊划销（09-06 21:30 王语嫣）：人域纲领「识己」线原料 26 件——立项 #667 诊断批（MOC 先行+隐私受控）；0 字节履历.txt 异常已登记
-- ~~00_inbox/老朱的个人域/｜P2｜26件｜检测到 09-06 13:21｜待王语嫣编排（#651 目录级登记：内件不在扫描面，需文件级跟踪→加入 SCAN_SUBDIRS）~~ → 回声划销（09-06 22:15 王语嫣）：#667 诊断批已立项排产（同目录重复登记，#651 目录级登记按拍重fire属设计行为）
-- ~~00_inbox/老朱的个人域/｜P2｜26件｜检测到 09-06 13:51｜待王语嫣编排（#651 目录级登记：内件不在扫描面，需文件级跟踪→加入 SCAN_SUBDIRS）~~ → 回声划销（09-06 22:45 王语嫣）：#667 诊断批已领排在产（同目录按拍重fire属设计行为，第三重复登记——#651 目录级登记的按拍重fire节奏可考虑加抑制窗口，随#656族观察）
-- ~~00_inbox/pending-cards/distill-external-20260906-01.md｜P2｜970B｜检测到 09-06 16:01｜待王语嫣编排~~ → 门禁 PASS 纳入蒸馏候选池（09-07 00:20 王语嫣）：#645 管线每日增量（09-06 对话蒸馏 32 张，全部 external 层）；机械门禁 32/32 溯源在+锚全非空；内容自指今日工厂作业（DataPack规范/三源校勘法等），与今日已产交付物重叠度高——随下次拍板批统一查重后定去留
-- ~~00_inbox/pending-cards/distill-external-20260906-02.md｜P2｜963B｜检测到 09-06 16:01｜待王语嫣编排~~ → 门禁 PASS 纳入蒸馏候选池（09-07 00:20 王语嫣）：#645 管线每日增量（09-06 对话蒸馏 32 张，全部 external 层）；机械门禁 32/32 溯源在+锚全非空；内容自指今日工厂作业（DataPack规范/三源校勘法等），与今日已产交付物重叠度高——随下次拍板批统一查重后定去留
-- ~~00_inbox/pending-cards/distill-external-20260906-03.md｜P2｜988B｜检测到 09-06 16:01｜待王语嫣编排~~ → 门禁 PASS 纳入蒸馏候选池（09-07 00:20 王语嫣）：#645 管线每日增量（09-06 对话蒸馏 32 张，全部 external 层）；机械门禁 32/32 溯源在+锚全非空；内容自指今日工厂作业（DataPack规范/三源校勘法等），与今日已产交付物重叠度高——随下次拍板批统一查重后定去留
-- ~~00_inbox/pending-cards/distill-external-20260906-04.md｜P2｜998B｜检测到 09-06 16:01｜待王语嫣编排~~ → 门禁 PASS 纳入蒸馏候选池（09-07 00:20 王语嫣）：#645 管线每日增量（09-06 对话蒸馏 32 张，全部 external 层）；机械门禁 32/32 溯源在+锚全非空；内容自指今日工厂作业（DataPack规范/三源校勘法等），与今日已产交付物重叠度高——随下次拍板批统一查重后定去留
 - ~~00_inbox/pending-cards/distill-external-20260906-05.md｜P2｜937B｜检测到 09-06 16:01｜待王语嫣编排~~ → 门禁 PASS 纳入蒸馏候选池（09-07 00:20 王语嫣）：#645 管线每日增量（09-06 对话蒸馏 32 张，全部 external 层）；机械门禁 32/32 溯源在+锚全非空；内容自指今日工厂作业（DataPack规范/三源校勘法等），与今日已产交付物重叠度高——随下次拍板批统一查重后定去留
 - ~~00_inbox/pending-cards/distill-external-20260906-06.md｜P2｜951B｜检测到 09-06 16:01｜待王语嫣编排~~ → 门禁 PASS 纳入蒸馏候选池（09-07 00:20 王语嫣）：#645 管线每日增量（09-06 对话蒸馏 32 张，全部 external 层）；机械门禁 32/32 溯源在+锚全非空；内容自指今日工厂作业（DataPack规范/三源校勘法等），与今日已产交付物重叠度高——随下次拍板批统一查重后定去留
 - ~~00_inbox/pending-cards/distill-external-20260906-07.md｜P2｜1041B｜检测到 09-06 16:01｜待王语嫣编排~~ → 门禁 PASS 纳入蒸馏候选池（09-07 00:20 王语嫣）：#645 管线每日增量（09-06 对话蒸馏 32 张，全部 external 层）；机械门禁 32/32 溯源在+锚全非空；内容自指今日工厂作业（DataPack规范/三源校勘法等），与今日已产交付物重叠度高——随下次拍板批统一查重后定去留
@@ -697,6 +659,44 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - 00_inbox/拆书会第219期《智能：AI时代的商业、组织与战略的本质》（上）逐字稿 — 古董.md｜P2｜24378B｜检测到 09-08 14:41｜待王语嫣编排
 - 00_inbox/拆书-曾鸣《智能策略》-10关键词/｜P2｜2件｜检测到 09-08 14:51｜待王语嫣编排（#651 目录级登记：内件不在扫描面，需文件级跟踪→加入 SCAN_SUBDIRS）
 - 00_inbox/老朱的个人域/｜P2｜25件｜检测到 09-08 15:11｜待王语嫣编排（#651 目录级登记：内件不在扫描面，需文件级跟踪→加入 SCAN_SUBDIRS）
+- 00_inbox/pending-cards/distill-external-20260908-01.md｜P2｜1144B｜检测到 09-08 15:51｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260908-02.md｜P2｜1099B｜检测到 09-08 15:51｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260908-03.md｜P2｜1047B｜检测到 09-08 15:51｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260908-04.md｜P2｜1178B｜检测到 09-08 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260908-05.md｜P2｜1190B｜检测到 09-08 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260908-06.md｜P2｜1114B｜检测到 09-08 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260908-07.md｜P2｜1037B｜检测到 09-08 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260908-08.md｜P2｜1042B｜检测到 09-08 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260908-09.md｜P2｜1056B｜检测到 09-08 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260908-10.md｜P2｜1060B｜检测到 09-08 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260908-11.md｜P2｜1126B｜检测到 09-08 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260908-12.md｜P2｜1098B｜检测到 09-08 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260908-13.md｜P2｜1033B｜检测到 09-08 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260908-14.md｜P2｜971B｜检测到 09-08 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260908-15.md｜P2｜1093B｜检测到 09-08 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260908-16.md｜P2｜1023B｜检测到 09-08 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260908-17.md｜P2｜1087B｜检测到 09-08 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260908-18.md｜P2｜1056B｜检测到 09-08 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260908-19.md｜P2｜1057B｜检测到 09-08 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260908-20.md｜P2｜1069B｜检测到 09-08 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260908-21.md｜P2｜964B｜检测到 09-08 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260908-22.md｜P2｜1020B｜检测到 09-08 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260908-23.md｜P2｜1060B｜检测到 09-08 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260908-24.md｜P2｜1102B｜检测到 09-08 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260908-25.md｜P2｜1000B｜检测到 09-08 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260908-26.md｜P2｜1054B｜检测到 09-08 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260908-27.md｜P2｜1067B｜检测到 09-08 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260908-28.md｜P2｜1121B｜检测到 09-08 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-human-20260908-01.md｜P2｜1166B｜检测到 09-08 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-human-20260908-02.md｜P2｜1186B｜检测到 09-08 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-human-20260908-03.md｜P2｜1112B｜检测到 09-08 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-human-20260908-04.md｜P2｜1062B｜检测到 09-08 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-human-20260908-05.md｜P2｜1073B｜检测到 09-08 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-human-20260908-06.md｜P2｜1031B｜检测到 09-08 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-human-20260908-07.md｜P2｜1106B｜检测到 09-08 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-human-20260908-08.md｜P2｜1163B｜检测到 09-08 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-human-20260908-09.md｜P2｜1045B｜检测到 09-08 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-human-20260908-10.md｜P2｜1048B｜检测到 09-08 16:01｜待王语嫣编排
 
 <!-- INBOX-PENDING-END -->
 
@@ -1266,6 +1266,8 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - [friction] [shared] - [2026-09-08 20:29] laowantong | #683 complete 提审 | queue_transition complete 尾段删 .queue-locks 锁文件被 safe-delete 门禁拦（turn 内累计 50 删阈值），命令报错退出但流转已生效（队列+任务单双 pending_review） | 初判：门禁拦截的是锁清理动作而非状态机写入，报错信息有误导性；对策=遇此报错先跑 status 验证再决定重试，避免重复 complete｜09-08 20:37｜待王语嫣复核处置｜[shared] - [2026-09-08 20:29] laowantong | #683 complete 提审 | queue_transition complete 尾段删 .queue-locks 锁文件被 safe-delete 门禁拦（turn 内累计 50 删阈值），命令报错退出但流转已生效（队列+任务单双 pending_review） | 初判：门禁拦截的是锁清理动作而非状态机写入，报错信息有误导性；对策=遇此报错先跑 status 验证再决定重试，避免重复 complete
 - [gate-blocked] role-liveness｜09-08 20:57｜待王语嫣复核处置｜2026-09-08 20:52:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 9776.7), ('cli', 44.2)]）｜role_registry check-liveness｜role_registry
 - [gate-blocked] task_20260908_huangyaoshi-ai-data-domain-infra｜09-08 21:27｜待王语嫣复核处置｜2026-09-08 21:23:34｜task_20260908_huangyaoshi-ai-data-domain-infra｜F-034-五字段｜执行报告缺 5 个字段（#429 F-034）：改动文件清单、完成内容一句话、验证命令+输出、未做项/边界、需要谁动作。请补全后重试，或 --force --reason '<理由>' 声明例外（#4｜huangyaoshi
+- [gate-blocked] task_20260908_wangyuyan-zengming-smart-strategy-deep-dig｜09-08 23:47｜待王语嫣复核处置｜2026-09-08 23:45:04｜task_20260908_wangyuyan-zengming-smart-strategy-deep-dig｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生 / - untracked: 60_feedback/diagnosis/diag_20260908_wangyuy｜wangyuyan
+- [gate-blocked] diag_20260908_wangyuyan-zengming-smart-strategy.md｜09-08 23:47｜待王语嫣复核处置｜2026-09-08 23:47:00｜diag_20260908_wangyuyan-zengming-smart-strategy.md｜near-miss-三元组（#506）｜有 audience 但 status=pending_review（应 pending_orchestration）｜conveyor_probe
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
@@ -1322,7 +1324,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 688 | `task_20260908_laowantong-tags-stock-remediation` | tags 存量全量治理：2064 张内容词<5 卡分域分批补标（09-14 HARD 前软期治理完） | queued | laowantong | 分域批次补标+批末计数表+pre-submit | #685 后（老顽童单线程） | `60_feedback/tasks/task_20260908_laowantong-tags-stock-remediation.md` | 老朱 09-08 拍板「全补」（王语嫣编排）；口径=tags-vocab-design.md §词量分卡型；轴文件先行（#485）；规模源 #677 §6；欧阳锋分批终审 |
 | 689 | `task_20260908_laowantong-c340-b01-goldmine-production` | C340 B01 金矿 149 条全立项排产：批1=前三案例+高价值散件，批2起滚动；件5 先交叉查重+边界条款随卡 | queued | laowantong | 分批产卡+批末计数表+pre-submit | #688 后（老朱口径：排最后滚动做） | `60_feedback/tasks/task_20260908_laowantong-c340-b01-goldmine-production.md` | 老朱 09-08 晚拍板「A 全立项」（王语嫣编排）；规格源=B01 金矿台账 part1/part2（#680 PASS A-）；敏感段边界条款随卡；欧阳锋分批终审 |
 | 690 | `task_20260908_huangyaoshi-edrive-kdo-memory-migration` | E 盘容量路由+便携基建盘：D:\KDO-memory 整区迁 E:（四条守卫+核验切换+即插即用：标记文件自定位/自含工具链/attach 一条命令异机可用） | claimed-huangyaoshi | huangyaoshi | 核验报告+引用点对照表+守卫实测+受影响任务 result=0 | 无（独立基建线，黄药师单实例不并行） | `60_feedback/tasks/task_20260908_huangyaoshi-edrive-kdo-memory-migration.md` | 老朱 09-08 拍板 A 整区迁（建议书 diag_20260907_ouyangfeng-edrive-capacity-routing R1-R5 全采纳，王语嫣编排）；D 盘旧目录观察 24h 后清；欧阳锋终审 |
-| 691 | `task_20260908_wangyuyan-zengming-smart-strategy-deep-dig` | 曾鸣《智能战略》素材深挖诊断（三方法前置+门禁裁定产卡范围，老朱授权全链路自动） | pending_review | wangyuyan | 诊断报告+产卡范围裁定+三方法证据链 | 无（编排线独立） | `60_feedback/tasks/task_20260908_wangyuyan-zengming-smart-strategy-deep-dig.md` | 老朱 09-08 直令：精细化+门禁保质+自动拉起+不请示；产卡单排 #689 后；欧阳锋终审 |
+| 691 | `task_20260908_wangyuyan-zengming-smart-strategy-deep-dig` | 曾鸣《智能战略》素材深挖诊断（三方法前置+门禁裁定产卡范围，老朱授权全链路自动） | reviewed | wangyuyan | 诊断报告+产卡范围裁定+三方法证据链 | 无（编排线独立） | `60_feedback/tasks/task_20260908_wangyuyan-zengming-smart-strategy-deep-dig.md` | 老朱 09-08 直令：精细化+门禁保质+自动拉起+不请示；产卡单排 #689 后；欧阳锋终审 |
 | 692 | `task_20260908_laowantong-zengming-smart-strategy-cards` | 曾鸣《智能》拆书素材产卡：P0×3（智能复利体系/生成型战略/共生智能体×双三角桥接）+P1×5+P2×1+1处旧卡Critique回填 | queued | laowantong | 10 卡+pre-submit+边界条款逐项过 | #689 后（老朱口径） | `60_feedback/tasks/task_20260908_laowantong-zengming-smart-strategy-cards.md` | 王语嫣 #691 门禁裁定（老朱授权不请示）；规格源=diag_20260908_wangyuyan-zengming-smart-strategy.md；转述二等 confidence≤0.85；下半场素材未到不预写；欧阳锋终审 |
 
 ## PROPOSAL-PENDING
