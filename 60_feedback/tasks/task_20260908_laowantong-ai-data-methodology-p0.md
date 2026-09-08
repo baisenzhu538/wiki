@@ -74,3 +74,15 @@ Cubox→多为 Obsidian；云巨米→Antigravity；ClassCode→Claude Code；�
 | 过程 | #14 | 先跑脚本确认再下结论 | pre-submit/queue status 全部以脚本实测输出为准，不凭印象声称完成 |
 | 质量 | #15 | 先自攻击再提交 | 8 张全量跑四路自攻击，🔴🟡 修完再提审 |
 | 质量 | #16 | 先 lint 再 pre-submit | 每卡 kdo pre-submit 输出贴入任务单执行报告 |
+
+## 执行报告（老顽童，2026-09-08）
+
+**交付物**：8 张卡全部落盘——`30_wiki/frameworks/framework-adaptive-data-flywheel.md`、`30_wiki/concepts/concept-data-three-constants-three-shifts.md`、`30_wiki/tools/tool-data-maturity-l1-l6.md`、`30_wiki/tools/tool-data-governance-four-layers.md`、`30_wiki/cases/case-truman-bedtime-story-datapack.md`、`30_wiki/cases/case-xujian-invoice-data-asset.md`、`30_wiki/dark-knowledges/dk-ai-on-ai-data-poisoning.md`、`30_wiki/dark-knowledges/dk-data-timely-review.md`；自攻击报告 `60_feedback/adversarial/atk_ai-data-batch8_20260908.md`。
+
+**完成内容**：按任务单卡片规格 1-8 全产。每张卡正文开头有定位声明（#199）；framework 卡走完整三方法证据（WebSearch 国际对标=Adaptive Data Flywheel 同名不同物 arXiv:2510.27051 已入 Critique；六层交叉=锚点抽查 8 处全命中；九层深挖=两 case 均做 L1-L5 业务公式/假设审计/边界/失败模式/隐性成本）；三个顺带项（反馈三方式+鱿鱼游戏失败披露→framework 反馈步；数据价值假设清单+攒牌心态→预判步；湖仓思维+保留原始→收集/处理步）均已落点；ASR 校正清单逐条执行（互仓→湖仓、ClassCode→Claude Code、Cubox→多为 Obsidian、口述01 L952 Y模型→DIKW、表白模型/大算力/龙虾循环标待考不作实词引用），每卡附「ASR 校正适用声明」；检索记录 #10/#11/#12/#18（及 #1/#2/#4/#8/#13 补充）照抄入各卡「kdo query 检索记录」节；徐建卡与 `case-yitang-xujian-invoice-saas-channel` related 互挂、未回链改旧卡。
+
+**验证**：① `kdo pre-submit -f` 8 卡全部 ✅ PASS（曾 FAIL 3 卡：INDEX 过期 + dk 缺 source_context，已修；QUOTE_VERBATIM 伪逐字引文 40+ 处逐条改为逐字命中或去引号，全部清零；TAGS/ALIASES WARNING 已修——现仅存 CONCEPT_CROSSCHECK 提示制 WARNING，#542 不拦截）。② `kdo index --incremental` 已跑（total 4268，8 卡可检索）。③ 正文行数（不含 frontmatter）：framework 209 / concept 129 / tool 100+112 / case 134+127 / dk 57+66——dk 为六字段模板卡，参照已 reviewed 的 `dk-AI知识库-隐性知识显性化60分原则`（~68 行）体量，100 行门禁按 case/framework 口径执行。④ 自攻击四路：🔴0/🟡0/🟢7（已修 2=两卡补 yt-barrier-data-assets 互链，留档 5），报告落盘。⑤ git status：8 卡 untracked 落盘可见，无他人文件被改动。
+
+**边界**：口述01/闲聊篇同源不产卡、使用五层级不重复产（任务单边界遵守）；半肥猫回填（#685）/Live258（#684）未碰；`concepts/ai数据理解第一课` 的 source_refs 补挂属 P2 溯源工单，未动；ai-data 域 digest/domain-mapping 注册属黄药师下游单，本批卡 domain 暂挂 `ai-data + ai-collaboration`（与既有散卡同域），待 digest 建卡后统一注册；徐建五维度中「大算力」、口述02「表白模型/龙虾循环」为 ASR 待考词，卡内已标注。
+
+**需要谁动作**：欧阳锋按任务单验收标准 1-5 终审 8 卡（pre-submit 输出见上，WARNING 明细=CONCEPT_CROSSCHECK 概念一致性提示，已人工核对无冲突）；黄药师（下游单）建 ai-data-domain-digest 并注册 domain-mapping + index 时把本批 8 卡纳入。
