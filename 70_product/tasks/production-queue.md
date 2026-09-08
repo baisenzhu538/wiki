@@ -1268,6 +1268,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - [gate-blocked] task_20260908_huangyaoshi-ai-data-domain-infra｜09-08 21:27｜待王语嫣复核处置｜2026-09-08 21:23:34｜task_20260908_huangyaoshi-ai-data-domain-infra｜F-034-五字段｜执行报告缺 5 个字段（#429 F-034）：改动文件清单、完成内容一句话、验证命令+输出、未做项/边界、需要谁动作。请补全后重试，或 --force --reason '<理由>' 声明例外（#4｜huangyaoshi
 - [gate-blocked] task_20260908_wangyuyan-zengming-smart-strategy-deep-dig｜09-08 23:47｜待王语嫣复核处置｜2026-09-08 23:45:04｜task_20260908_wangyuyan-zengming-smart-strategy-deep-dig｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生 / - untracked: 60_feedback/diagnosis/diag_20260908_wangyuy｜wangyuyan
 - [gate-blocked] diag_20260908_wangyuyan-zengming-smart-strategy.md｜09-08 23:47｜待王语嫣复核处置｜2026-09-08 23:47:00｜diag_20260908_wangyuyan-zengming-smart-strategy.md｜near-miss-三元组（#506）｜有 audience 但 status=pending_review（应 pending_orchestration）｜conveyor_probe
+- diag_20260909_ouyangfeng-diagnosis-frontmatter-421-triplet.md｜09-09 00:27｜待王语嫣复核裁定
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |

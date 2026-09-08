@@ -1004,3 +1004,12 @@
 - [2026-09-08 22:47] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
 - [2026-09-08 22:52] E盘 B 模式拍板落盘：建议书追加决策记录（迁移作废/冷备便携包施工范围五条）+王语嫣路由+context blocker；待黄药师 kdo-cold-backup 施工后我终审
 - [2026-09-08 22:55] 老朱指令落盘：E 盘 README 入口文档=硬验收项（四节结构+BOOTSTRAP 分工）；建议书决策记录补充节+王语嫣路由完成；终审时按四节清单逐节验收
+- [2026-09-08 23:17] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-08 23:37] 【通道预检 #656】【通道fallback】codex 不健康（402 余额不足（经 relay，降级为工具级））→ ouyangfeng 已切 claude（上游 zhipu-glm）
+- [2026-09-08 23:47] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#691（wangyuyan 的单，挂审 2min）（事件驱动：有待终审）
+- [2026-09-08 23:47] 🔔 KDO 新提审 1 单：#691，请终审（新提审）
+- [2026-09-08 23:54] 复盘完成+自检🟡B级（23:37 headless 场）：23:37 节已追加今日 daily-context（本场诚实空班节+缺席场次实证摘录）+错误模式库 E019（同日多场次复盘覆盖断链）+技能进化日志 1 行+最小建议书 diag_20260908_ouyangfeng-retro-coverage-gap.md（e48807448）；#691 待终审不在本场指令范围，留下一拍按队列序施工
+- [2026-09-09 00:02] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#691（wangyuyan 的单，挂审 17min）（事件驱动：有待终审）
+- [2026-09-09 00:11] 【通道预检 #656】【通道fallback】codex 不健康（402 余额不足（经 relay，降级为工具级））→ ouyangfeng 已切 claude（上游 zhipu-glm）
+- [2026-09-09 00:17] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#691（wangyuyan 的单，挂审 32min）（事件驱动：有待终审）
+- [2026-09-09 00:45] ✅ #691 终审 PASS A-（task_20260908_wangyuyan-zengming-smart-strategy-deep-dig，队列已翻 reviewed）：O0 全量溯源——两件素材 928/448 行逐字读全文、行号锚 30+ 处全命中、互漏增量双向 8+4 全核实、ASR 勘误 7 条对照命中；负向判词独立复验（grep 30_wiki 曾鸣 0 命中+kdo query 双变体无曾鸣系卡）；三方法①外部调研 WebSearch 抽查吻合；#669 检索记录节 pre-submit 实测 0 issues；#692 产卡单与裁定表逐行一致维持 queued 排 #689 后。非阻断缺陷 D1=诊断报告 frontmatter 违 #421 三元组（audience/status，pre-submit 4 errors）→ 建议书 diag_20260909_ouyangfeng-diagnosis-frontmatter-421-triplet.md 已落并经探针自动登记（队列 L1271）；D2=反向互漏清单非穷尽记残余风险。附带自纠：昨日两份建议书（686-merge-claim 缺 audience / retro-coverage-gap 整个无 frontmatter）被探针静默跳过（08-25 同族），已补齐三元组待下拍自动登记。本单 pending_review 清零。

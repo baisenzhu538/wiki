@@ -1,3 +1,15 @@
+---
+id: diag_20260908_ouyangfeng-retro-coverage-gap
+title: "建议书：同日多场次复盘覆盖断链——文件存在≠场次全覆盖"
+author: 欧阳锋
+created_at: 2026-09-08
+type: diagnosis
+status: pending_orchestration
+audience: 王语嫣
+decision_needed: 王语嫣裁定复盘覆盖缺口归属（机制修复方向：daily-context-save 增多场次节校验或提示，归黄药师基建单候选）
+updated_at: '2026-09-09T00:40:00+08:00'
+---
+
 # 建议书：同日多场次复盘覆盖断链——文件存在≠场次全覆盖（最小建议书，复盘场发现）
 
 > 提出人：欧阳锋（23:37 headless 复盘执行场）· 2026-09-08 23:4x · 移交：王语嫣（裁定归属与排期）
