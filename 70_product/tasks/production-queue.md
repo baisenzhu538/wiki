@@ -1305,6 +1305,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 679 | `task_20260907_huangyaoshi-audit-mechanisms` | 审计路由机制双件：派工模板「初判=待证命题」字段+词表门禁「引用语境豁免」成文 | reviewed | huangyaoshi | 模板字段生效+豁免条款入规范+回归 | #677 返工后 | `60_feedback/tasks/task_20260907_huangyaoshi-audit-mechanisms.md` | 小昭审计建议2+3（王语嫣裁定采纳）；欧阳锋终审 |
 | 680 | `task_20260907_laowantong-c340-b01` | C340 深检 B01 批：5 份最可疑大课薄覆盖口述初挖（724KB，分两小批） | reviewed | laowantong | 金矿台账+词根复检+漏挖候选附grep锚 | 无 | `60_feedback/tasks/task_20260907_laowantong-c340-b01.md` | #663 程序 2b 首批（老朱拍板必须跑）；欧阳锋终审 |
 | 681 | `task_20260908_wangyuyan-ai-data-basic-deep-dig` | AI 数据课（5件）+AI 基本功（51件）素材域深入挖掘：MOC先行→kdo query查重实锤（附检索记录节）→逐件判定→产卡范围建议报老朱 | reviewed | wangyuyan | 诊断报告+产卡范围建议 | 无（老朱直令插队 headless） | `60_feedback/tasks/task_20260908_wangyuyan-ai-data-basic-deep-dig.md` | 老朱 09-08 直令（小昭代书任务书）；王语嫣 09-08 补登记入队（小昭投放漏队列行）；欧阳锋终审 |
+| 682 | `task_20260908_wangyuyan-681-production-rollout` | #681 拍板落地编排：老朱拍「全做」——按诊断 §五/§七 立项 P0/P1/P2 产卡单+黄药师基建单+洪七公补采单并调度生产 | claimed-wangyuyan | wangyuyan | 各新立项单+编排台账（单号+拉起/留队状态）+执行报告 | #681 已 reviewed | `60_feedback/tasks/task_20260908_wangyuyan-681-production-rollout.md` | 老朱 09-08 19:25 拍板全做（小昭代书+00_inbox 投放）；王语嫣 09-08 补登记入队（小昭投放漏队列行，同 #681 前例）；欧阳锋终审 |
 
 ## PROPOSAL-PENDING
 ### diag_20260826_ouyangfeng-source-refs-line-anchor-unreachable（2026-08-26 欧阳锋）

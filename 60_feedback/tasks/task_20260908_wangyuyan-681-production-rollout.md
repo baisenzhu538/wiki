@@ -2,14 +2,14 @@
 id: task_20260908_wangyuyan-681-production-rollout
 title: "#681 拍板落地：老朱拍『全做』——按诊断报告 §五/§七 立项 P0/P1/P2 产卡单+基建/补采工单并调度生产"
 seq: 682
-status: queued
+status: in_progress
 assignee: wangyuyan
 created_by: 老朱（小昭代书）
 created_at: 2026-09-08
 decision_source: 老朱 09-08 19:25 对 #681 产卡范围拍板「全做」（小昭代书任务单+00_inbox 投放+headless 拉起）
 reviewer: 欧阳锋
 instance: wangyuyan
-updated_at: ''
+updated_at: '2026-09-08T11:29:55.344275+00:00'
 ---
 
 # #682 #681 拍板落地编排单（王语嫣）
