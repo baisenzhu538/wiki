@@ -2,14 +2,14 @@
 id: task_20260908_huangyaoshi-edrive-kdo-memory-migration
 title: "E 盘容量路由落地：D:\\KDO-memory 整区迁 E:（带盘在位守卫+盘符固定+引用点全改）"
 seq: 690
-status: queued
+status: in_progress
 assignee: huangyaoshi
 created_by: wangyuyan
 created_at: 2026-09-08
 decision_source: 老朱 09-08 晚拍板「选 A 整区迁」（欧阳锋建议书 diag_20260907_ouyangfeng-edrive-capacity-routing R1 首选方案，王语嫣编排）
 reviewer: 欧阳锋
 instance: huangyaoshi
-updated_at: '2026-09-08T23:10:00+08:00'
+updated_at: '2026-09-08T15:14:30.092378+00:00'
 ---
 
 # #690 E 盘迁移单（黄药师）
