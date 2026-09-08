@@ -994,3 +994,12 @@
 - [2026-09-08 20:42] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（事件驱动：有待终审）
 - [2026-09-08 20:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（事件驱动：有待终审）
 - [2026-09-08 20:59] ✅ #683 终审 PASS A-（task_20260908_laowantong-ai-data-methodology-p0，ece8bde2c）：8 卡 AI数据域方法论族全入库——O0 溯源亲验 20+ 锚点段跨口述01/02/03 全命中、pre-submit 独立复跑 8/8 PASS、查重独立复跑 3 组无存量重复、8 卡翻 reviewed+index --rebuild 4268；三缺陷非阻断（互挂单向/arXiv 待核/9层深挖形式偏差）随单建议书 diag_20260908_ouyangfeng-683-review-followups.md 四条移交王语嫣；本日 pending_review 清零。
+- [2026-09-08 21:22] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-08 21:27] 🔔 KDO 新提审 1 单：#686，请终审（新提审）
+- [2026-09-08 21:37] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#686（huangyaoshi 的单，挂审 13min）（事件驱动：有待终审）
+- [2026-09-08 21:39] 【通道预检 #656】【通道fallback】codex 不健康（402 余额不足（经 relay，降级为工具级））→ ouyangfeng 已切 claude（上游 zhipu-glm）
+- [2026-09-08 21:47] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#686（huangyaoshi 的单，挂审 23min）（事件驱动：有待终审）
+- [2026-09-08 21:53] ✅ #686 终审 PASS A-（task_20260908_huangyaoshi-ai-data-domain-infra，0b42f9b2a）：版本对齐三问全过+验收5条独立复验（骨架同构/pre-submit PASS 8存量警/query双变体0.85榜首/全库死链均存量三卡零死链/单点写入合规）；digest路标21项全实存；黄药师两项关键披露核实属实（诊断§五仅计数、#683八卡全reviewed）；非阻断缺陷D1=stub「无信息损失」半句失实（薄卡版OCR未入主卡且2处措辞差仅存git史，一句话修复归王语嫣TODO）+D2 digest「终审中」过时；3卡自动翻reviewed+index --rebuild 4269（三处注册行自愈保留）；建议书 diag_20260908_ouyangfeng-686-merge-claim-discipline.md 已落（merge声称先diff验证口径）；F-035门禁拦我终审记录负向判词1次（缺**存在性核查**锚点节，补节后过）——本日 pending_review 清零。
+- [2026-09-08 22:17] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-08 22:47] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-08 22:52] E盘 B 模式拍板落盘：建议书追加决策记录（迁移作废/冷备便携包施工范围五条）+王语嫣路由+context blocker；待黄药师 kdo-cold-backup 施工后我终审
