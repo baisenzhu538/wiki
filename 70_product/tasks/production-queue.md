@@ -577,7 +577,6 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 
 > 王语嫣维护看板时处理：诊断 → 写任务单 → 入队后把对应行划掉。编排规则不变，这里只解决「没人被通知」。
 
-- ~~00_inbox/pending-cards/distill-external-20260906-05.md｜P2｜937B｜检测到 09-06 16:01｜待王语嫣编排~~ → 门禁 PASS 纳入蒸馏候选池（09-07 00:20 王语嫣）：#645 管线每日增量（09-06 对话蒸馏 32 张，全部 external 层）；机械门禁 32/32 溯源在+锚全非空；内容自指今日工厂作业（DataPack规范/三源校勘法等），与今日已产交付物重叠度高——随下次拍板批统一查重后定去留
 - ~~00_inbox/pending-cards/distill-external-20260906-06.md｜P2｜951B｜检测到 09-06 16:01｜待王语嫣编排~~ → 门禁 PASS 纳入蒸馏候选池（09-07 00:20 王语嫣）：#645 管线每日增量（09-06 对话蒸馏 32 张，全部 external 层）；机械门禁 32/32 溯源在+锚全非空；内容自指今日工厂作业（DataPack规范/三源校勘法等），与今日已产交付物重叠度高——随下次拍板批统一查重后定去留
 - ~~00_inbox/pending-cards/distill-external-20260906-07.md｜P2｜1041B｜检测到 09-06 16:01｜待王语嫣编排~~ → 门禁 PASS 纳入蒸馏候选池（09-07 00:20 王语嫣）：#645 管线每日增量（09-06 对话蒸馏 32 张，全部 external 层）；机械门禁 32/32 溯源在+锚全非空；内容自指今日工厂作业（DataPack规范/三源校勘法等），与今日已产交付物重叠度高——随下次拍板批统一查重后定去留
 - ~~00_inbox/pending-cards/distill-external-20260906-08.md｜P2｜1136B｜检测到 09-06 16:01｜待王语嫣编排~~ → 门禁 PASS 纳入蒸馏候选池（09-07 00:20 王语嫣）：#645 管线每日增量（09-06 对话蒸馏 32 张，全部 external 层）；机械门禁 32/32 溯源在+锚全非空；内容自指今日工厂作业（DataPack规范/三源校勘法等），与今日已产交付物重叠度高——随下次拍板批统一查重后定去留
@@ -697,6 +696,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - 00_inbox/pending-cards/distill-human-20260908-08.md｜P2｜1163B｜检测到 09-08 16:01｜待王语嫣编排
 - 00_inbox/pending-cards/distill-human-20260908-09.md｜P2｜1045B｜检测到 09-08 16:01｜待王语嫣编排
 - 00_inbox/pending-cards/distill-human-20260908-10.md｜P2｜1048B｜检测到 09-08 16:01｜待王语嫣编排
+- 00_inbox/wechat-collect/src_wechat_article_tt_699097c63ad8826a.md｜P2｜10699B｜检测到 09-08 16:41｜待王语嫣编排
 
 <!-- INBOX-PENDING-END -->
 
@@ -1269,6 +1269,8 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - [gate-blocked] task_20260908_wangyuyan-zengming-smart-strategy-deep-dig｜09-08 23:47｜待王语嫣复核处置｜2026-09-08 23:45:04｜task_20260908_wangyuyan-zengming-smart-strategy-deep-dig｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生 / - untracked: 60_feedback/diagnosis/diag_20260908_wangyuy｜wangyuyan
 - [gate-blocked] diag_20260908_wangyuyan-zengming-smart-strategy.md｜09-08 23:47｜待王语嫣复核处置｜2026-09-08 23:47:00｜diag_20260908_wangyuyan-zengming-smart-strategy.md｜near-miss-三元组（#506）｜有 audience 但 status=pending_review（应 pending_orchestration）｜conveyor_probe
 - diag_20260909_ouyangfeng-diagnosis-frontmatter-421-triplet.md｜09-09 00:27｜待王语嫣复核裁定
+- diag_20260908_ouyangfeng-686-merge-claim-discipline.md｜09-09 00:37｜待王语嫣复核裁定
+- diag_20260908_ouyangfeng-retro-coverage-gap.md｜09-09 00:37｜待王语嫣复核裁定
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
@@ -1326,6 +1328,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 689 | `task_20260908_laowantong-c340-b01-goldmine-production` | C340 B01 金矿 149 条全立项排产：批1=前三案例+高价值散件，批2起滚动；件5 先交叉查重+边界条款随卡 | queued | laowantong | 分批产卡+批末计数表+pre-submit | #688 后（老朱口径：排最后滚动做） | `60_feedback/tasks/task_20260908_laowantong-c340-b01-goldmine-production.md` | 老朱 09-08 晚拍板「A 全立项」（王语嫣编排）；规格源=B01 金矿台账 part1/part2（#680 PASS A-）；敏感段边界条款随卡；欧阳锋分批终审 |
 | 690 | `task_20260908_huangyaoshi-edrive-kdo-memory-migration` | E 盘容量路由+便携基建盘：D:\KDO-memory 整区迁 E:（四条守卫+核验切换+即插即用：标记文件自定位/自含工具链/attach 一条命令异机可用） | claimed-huangyaoshi | huangyaoshi | 核验报告+引用点对照表+守卫实测+受影响任务 result=0 | 无（独立基建线，黄药师单实例不并行） | `60_feedback/tasks/task_20260908_huangyaoshi-edrive-kdo-memory-migration.md` | 老朱 09-08 拍板 A 整区迁（建议书 diag_20260907_ouyangfeng-edrive-capacity-routing R1-R5 全采纳，王语嫣编排）；D 盘旧目录观察 24h 后清；欧阳锋终审 |
 | 691 | `task_20260908_wangyuyan-zengming-smart-strategy-deep-dig` | 曾鸣《智能战略》素材深挖诊断（三方法前置+门禁裁定产卡范围，老朱授权全链路自动） | reviewed | wangyuyan | 诊断报告+产卡范围裁定+三方法证据链 | 无（编排线独立） | `60_feedback/tasks/task_20260908_wangyuyan-zengming-smart-strategy-deep-dig.md` | 老朱 09-08 直令：精细化+门禁保质+自动拉起+不请示；产卡单排 #689 后；欧阳锋终审 |
+| 693 | `task_20260909_huangyaoshi-gate-and-audit-trio` | 门禁审计三小件：pre-submit 绝对化声称 diff 检查器+review-check 场次对账弱校验+daily_review.py 自锁修复 | queued | huangyaoshi | 三件各带实测证据 | #690 后（黄药师单实例） | `60_feedback/tasks/task_20260909_huangyaoshi-gate-and-audit-trio.md` | 王语嫣 09-09 裁定采纳欧阳锋两建议书+自锁 friction 合并；欧阳锋终审 |
 | 692 | `task_20260908_laowantong-zengming-smart-strategy-cards` | 曾鸣《智能》拆书素材产卡：P0×3（智能复利体系/生成型战略/共生智能体×双三角桥接）+P1×5+P2×1+1处旧卡Critique回填 | queued | laowantong | 10 卡+pre-submit+边界条款逐项过 | #689 后（老朱口径） | `60_feedback/tasks/task_20260908_laowantong-zengming-smart-strategy-cards.md` | 王语嫣 #691 门禁裁定（老朱授权不请示）；规格源=diag_20260908_wangyuyan-zengming-smart-strategy.md；转述二等 confidence≤0.85；下半场素材未到不预写；欧阳锋终审 |
 
 ## PROPOSAL-PENDING

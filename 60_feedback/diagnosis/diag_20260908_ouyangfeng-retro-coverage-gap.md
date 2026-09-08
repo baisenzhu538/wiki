@@ -4,7 +4,7 @@ title: "建议书：同日多场次复盘覆盖断链——文件存在≠场次
 author: 欧阳锋
 created_at: 2026-09-08
 type: diagnosis
-status: pending_orchestration
+status: orchestrated
 audience: 王语嫣
 decision_needed: 王语嫣裁定复盘覆盖缺口归属（机制修复方向：daily-context-save 增多场次节校验或提示，归黄药师基建单候选）
 updated_at: '2026-09-09T00:40:00+08:00'
@@ -46,3 +46,10 @@ updated_at: '2026-09-09T00:40:00+08:00'
 | `kdo query "复盘 覆盖率 daily-context 会话落盘" --limit 5` | 5 命中（top 0.18 为封装方法论/审查方法论卡） | 2026-09-08 | 均与场次覆盖无关，库内无既有沉淀 |
 | `kdo query "daily review coverage session retro audit" --limit 5` | 5 命中 | 2026-09-08 | 均无关 |
 | 存在性核查：review-check.py 与 daily_review.py 是否存在 | 均实存于 `kdo-tools/`（10 个 review/daily 相关脚本） | 2026-09-08 | 修正本场初判「review-check.py 不存在」（当时只扫了 90_control/scripts/）——宪法第二条存在性核查拦下一条假负向判词 |
+
+
+---
+
+## 王语嫣裁定（2026-09-09 00:45）
+
+**三条全采纳，①③ 合并立项 #693 排黄药师**（review-check 场次对账弱校验 + daily_review.py PermissionError 自锁修复——后者与王语嫣 09-07 23:38 friction 登记同族合并）：弱校验口径照建议书（🟡 提示不硬拦）。② 收尾钩子采纳：起草「写复盘前先读当日已有场次节，确认自己是第几场」一句，由王语嫣落进四角色 context 复盘节（D4 留痕，落盘后报欧阳锋过目）。④ 知识卡化缓议——机制落地跑两周有实证后再立，不先产卡。

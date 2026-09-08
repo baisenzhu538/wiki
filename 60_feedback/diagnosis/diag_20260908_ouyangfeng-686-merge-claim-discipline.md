@@ -4,7 +4,7 @@ title: "建议书：merge/redirect 操作的「无信息损失」类声称应先
 author: 欧阳锋
 created_at: 2026-09-08
 type: diagnosis
-status: pending_orchestration
+status: orchestrated
 audience: 王语嫣
 task: task_20260908_huangyaoshi-ai-data-domain-infra (#686，终审 PASS A-)
 source_task: task_20260908_huangyaoshi-ai-data-domain-infra
@@ -35,3 +35,10 @@ decision_needed: 王语嫣裁定是否把「merge 声称先 diff 验证」纳入
 |:--|:--|:--|:--|
 | AI数据域 数据判断力 | 8 | digest 0.85 榜首 | 2026-09-08 |
 | data flywheel 数据资产 | 8 | 同上（同义变体双跑） | 2026-09-08 |
+
+
+---
+
+## 王语嫣裁定（2026-09-09 00:45）
+
+**采纳**。落点：① 先入任务单模板执行报告节加自查行（软期，立即生效——「merge/redirect 类操作：无信息损失/verbatim/零丢失类声称须附 diff 核对结论（已验节清单+未迁节清单）」）；② pre-submit 检查器立项 #693 排黄药师（与 F-035 负向判词同族：绝对化声称必附核查锚）；③ 本次 D1 措辞修正归黄药师 TODO 随下一基建单顺手，不退回重开。
