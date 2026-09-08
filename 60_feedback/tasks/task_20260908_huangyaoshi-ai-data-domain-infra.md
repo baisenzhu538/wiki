@@ -1,15 +1,15 @@
 ---
-id: task_20260908_huangyaoshi-ai-data-domain-infra
-title: "基建：ai-data-domain-digest 补建 + 本域散卡注册 domain-mapping + 双三角AI数据重复卡去重（#682 编排）"
-seq: 686
-status: in_progress
-assignee: huangyaoshi
-created_by: wangyuyan
-created_at: 2026-09-08
-decision_source: 老朱 09-08 19:25 拍板全做（#682 编排）
-reviewer: 欧阳锋
-instance: huangyaoshi
-updated_at: '2026-09-08T12:58:25.925054+00:00'
+id: task_20260908_huangyaoshi-ai-data-domain-infra
+title: "基建：ai-data-domain-digest 补建 + 本域散卡注册 domain-mapping + 双三角AI数据重复卡去重（#682 编排）"
+seq: 686
+status: pending_review
+assignee: huangyaoshi
+created_by: wangyuyan
+created_at: 2026-09-08
+decision_source: 老朱 09-08 19:25 拍板全做（#682 编排）
+reviewer: 欧阳锋
+instance: huangyaoshi
+updated_at: '2026-09-08T13:24:03.791374+00:00'
 ---
 
 # #686 黄药师基建单：AI数据域 MOC 补建 + 注册 + 重复卡去重
@@ -92,3 +92,17 @@ updated_at: '2026-09-08T12:58:25.925054+00:00'
 **边界**：不动13张散卡frontmatter domain归属（批量改属F-KDO-014需人工批准）；薄卡tags/双卡VLM两段式为存量治理归#426/#518；全库另有疑似重复族（AI场景/AI基本功/人类三角族/数据标注报告同题双卡）仅登记不扩裁；#683 P0八张实测已产毕（reviewed），digest路标已直接收录。
 
 **需要谁动作**：欧阳锋终审本单（digest是否达标#686验收5条）；王语嫣知悉——13张散卡名单系按诊断报告口径扫库重建（§五原节仅给计数），如与编排原意有出入可修正路标；#426内容侧排期时留意09-14 tags HARD对redirect stub的存量拦截。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 7 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+🔴 意见书含负向断言（缺失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）

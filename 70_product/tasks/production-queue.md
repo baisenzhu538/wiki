@@ -566,6 +566,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#680 task_20260907_laowantong-c340-b01｜laowantong｜提审 09-07 15:46｜60_feedback/tasks/task_20260907_laowantong-c340-b01.md~~ → 终审退回 queued（2026-09-07 欧阳锋）
 - ~~#680 task_20260907_laowantong-c340-b01｜laowantong｜提审 09-07 17:25｜60_feedback/tasks/task_20260907_laowantong-c340-b01.md~~ → 已终审 PASS A-（2026-09-07 欧阳锋）
 - ~~#681 task_20260908_wangyuyan-ai-data-basic-deep-dig｜wangyuyan｜提审 09-08 11:07｜60_feedback/tasks/task_20260908_wangyuyan-ai-data-basic-deep-dig.md~~ → 已终审 PASS A-（2026-09-08 欧阳锋）
+- #686 task_20260908_huangyaoshi-ai-data-domain-infra｜huangyaoshi｜提审 09-08 21:24｜60_feedback/tasks/task_20260908_huangyaoshi-ai-data-domain-infra.md
 
 <!-- REVIEW-PENDING-END -->
 
@@ -1314,7 +1315,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 683 | `task_20260908_laowantong-ai-data-methodology-p0` | P0 产卡：AI数据域方法论族 8 张（framework飞轮/concept三不变三聚变/tool段位图/tool治理四层/case睡前故事/case徐建数据资产/dk×2，含 ASR 校正清单） | reviewed | laowantong | 8 卡+pre-submit+三方法/自攻击证据 | #682 编排（P0 先行拉起） | `60_feedback/tasks/task_20260908_laowantong-ai-data-methodology-p0.md` | 老朱 09-08 19:25 拍板全做（#682 编排）；诊断 diag_20260908_ai-data-ai-basic-deep-dig §五-P0 为规格源；欧阳锋终审 |
 | 684 | `task_20260908_laowantong-live258-six-cases` | P1 产卡：Live258 六案例全产（雍博/农夫三拳/行知/田力/黄谦/Simon Peng，带 dk 互链前置查重缺陷项） | queued | laowantong | 6 卡+dk互链对照说明+pre-submit | #683 后（老顽童单线程） | `60_feedback/tasks/task_20260908_laowantong-live258-six-cases.md` | 老朱 09-08 19:25 拍板全做（#682 编排）——六案全产不裁剪；欧阳锋终审 |
 | 685 | `task_20260908_laowantong-ai-data-p2-backfill` | P2 补强补挂：半肥猫口述回填+两组互链+KDO桥接素材+ai数据理解第一课/马易族6卡 src_unknown 溯源补挂（合并工单） | queued | laowantong | 6 工作项+补挂对照表+pre-submit | #684 后（老顽童单线程） | `60_feedback/tasks/task_20260908_laowantong-ai-data-p2-backfill.md` | 老朱 09-08 19:25 拍板全做（#682 编排）；不新产卡；欧阳锋终审 |
-| 686 | `task_20260908_huangyaoshi-ai-data-domain-infra` | 基建：ai-data-domain-digest 补建（参照 ai-basic 骨架）+12+散卡注册 domain-mapping+双三角AI数据重复卡去重合并 | claimed-huangyaoshi | huangyaoshi | digest+注册+去重后无死链 | 无（独立基建线） | `60_feedback/tasks/task_20260908_huangyaoshi-ai-data-domain-infra.md` | 老朱 09-08 19:25 拍板全做（#682 编排）；MOC 缺失=基建缺口（诊断 §〇）；欧阳锋终审 |
+| 686 | `task_20260908_huangyaoshi-ai-data-domain-infra` | 基建：ai-data-domain-digest 补建（参照 ai-basic 骨架）+12+散卡注册 domain-mapping+双三角AI数据重复卡去重合并 | pending_review | huangyaoshi | digest+注册+去重后无死链 | 无（独立基建线） | `60_feedback/tasks/task_20260908_huangyaoshi-ai-data-domain-infra.md` | 老朱 09-08 19:25 拍板全做（#682 编排）；MOC 缺失=基建缺口（诊断 §〇）；欧阳锋终审 |
 | 687 | `task_20260908_hongqigong-ai-basic-png-ocr` | 补采：AI基本功域 27 张无产物 PNG OCR 补采评估（优先 040618 四种工作状态图） | queued | hongqigong | 27张评估表+040618 OCR产物 | 无（独立多模态线） | `60_feedback/tasks/task_20260908_hongqigong-ai-basic-png-ocr.md` | 老朱 09-08 19:25 拍板全做（#682 编排）；诊断 §3.2-E 为规格源；欧阳锋终审 |
 
 ## PROPOSAL-PENDING
