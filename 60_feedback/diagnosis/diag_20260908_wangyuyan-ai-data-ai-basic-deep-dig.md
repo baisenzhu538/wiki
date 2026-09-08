@@ -2,7 +2,7 @@
 id: diag_20260908_wangyuyan-ai-data-ai-basic-deep-dig
 title: AI数据课+AI基本功素材域深入挖掘诊断（MOC先行/查重实锤/逐件判定/产卡范围建议）
 type: diagnosis
-status: pending_review
+status: pending_orchestration
 author: 王语嫣
 created_at: '2026-09-08'
 task: task_20260908_wangyuyan-ai-data-basic-deep-dig (#681)
