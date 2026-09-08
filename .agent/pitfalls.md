@@ -718,3 +718,17 @@
 
 obsidian-git 插件（autoSaveInterval=10min, autoCommitOnlyStaged=false）会周期性 add 全仓；其 commit 若与 CLI commit 撞锁失败，预暂存垃圾留在 index。此时任何 `git add X && git commit`（index 整体提交）都会把垃圾卷入——09-02 一晚两起（欧阳锋 4c7284c97 卷入 24 个 .obsidian 文件；王语嫣卷入 core-plugins.json+临时文件3件）。
 **纪律：CLI 提交一律用 `git commit -m msg -- <paths>`（pathspec 部分提交，绕开 index 杂物）；提交前 `git diff --cached --stat` 扫一眼暂存区异物。** queue_transition.py 已是 pathspec 语义（安全）。
+
+## P-45：kdo CLI 入口凭记忆写成 `python kdo-tools/kdo`（2026-09-09，二次复发）
+
+kdo 可执行入口在 PATH 上（`kdo query ...` / `C:/Program Files/Python312/Scripts/kdo`），`kdo-tools/` 目录下没有名为 `kdo` 的脚本——09-08 与 09-09 两个会话各空跑一轮才纠正。
+**纪律：一律直接 `kdo <cmd>`；要加 PYTHONIOENCODING=utf-8 时用 `export PYTHONIOENCODING=utf-8 && kdo ...`，不要拼 `python <路径>/kdo`。**
+
+**关联**：P-8（先查武器库再行动）同族——工具入口也是武器库信息。
+
+## P-46：Edit old_string 凭刚读过的印象写、不回看原文（2026-09-09，二次复发）
+
+对只读过一次的文件做 Edit，把节标题编号"③"记成"④"导致替换失败——09-08 会话 1（"④"记成"③"）与 09-09 会话 1 同错两次。
+**纪律：Edit 的 old_string 一律从当前文件状态复制（Read 回看或引用系统提示的最新文件态），不凭印象重打；替换失败第一次就回读原文，不试第二次。**
+
+**关联**：#426 替换断言纪律（print 成功≠替换发生；Edit 失败≠文件内容错了）。
