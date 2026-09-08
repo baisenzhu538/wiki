@@ -15,6 +15,7 @@ updated_at: '2026-09-08T23:10:00+08:00'
 # #690 E 盘迁移单（黄药师）
 
 > 规格源=欧阳锋建议书 `60_feedback/diagnosis/diag_20260907_ouyangfeng-edrive-capacity-routing.md`（R1-R5 全采纳）。老朱拍 A：D:\KDO-memory 整区迁 E:。D 盘 77% 已用是全厂最紧的盘，E 盘 160GB 全空。
+> 🆕 老朱 09-08 深夜追加要求：**E 盘要建成即插即用的便携基础设施盘——拿到其他电脑上马上就能用**（见「便携化硬要求」节，优先级高于一切实现细节）。
 
 ## 迁移范围
 
@@ -31,6 +32,15 @@ updated_at: '2026-09-08T23:10:00+08:00'
 
 l1-capture（采集目标 D:\KDO-memory\L1-full）/ kdo-l1-archive（归档）/ kdo-daily-audit-digest（L2-digest）/ wiki-bundle 备份（D:\KDO-memory 下 bundle 滚动）/ memory_capsule（L1-backup 镜像）/ obsidian-snapshot / 任何写死 D:\KDO-memory 的脚本——全量 grep `KDO-memory` 找出所有引用点，逐点改，改完列对照表。
 
+## 便携化硬要求（老朱追加：拿到其他电脑上马上就能用）
+
+目标形态：E 盘拔下来插到 mesh 内任意一台机器（jia-01/jia-02/gongsi-01/gongsi-02），**一条命令以内完成接入并使用**，不依赖原机的盘符/注册表/环境。
+
+1. **自定位，不锁盘符**：盘根放标记文件（如 `\KDO-memory\.disk-id`，内容=卷 GUID+建设日期）；所有脚本定位顺序=标记文件识别卷 → 动态取当前盘符。盘符在别的机器上是 F:/G: 也必须能跑（与守卫 2 的「固定盘符」关系：本机固定 E: 是为了调度稳定，便携要求是指**离了本机不抓瞎**——两者都要）
+2. **自包含读取工具链**：盘上除数据外带最小读取工具（`tools/`：query_assets 类检索脚本 + README + 依赖说明），不依赖目标机装有 wiki 仓
+3. **attach 引导脚本**：盘根一个 `attach.cmd`——在新机器上跑一次，完成：识别卷→打印数据位置与可用命令→（可选）注册只读检索入口。全程只读目标机，不写注册表不改系统
+4. **即插即用验收场景**（终审必演）：E 盘插到另一台机器（建议 jia-02 或 gongsi-01 实测），跑 attach → 检索一条素材成功 → 全程录像/日志留证
+
 ## 执行顺序（先核验后切换）
 
 1. E 盘固定盘符 + 建 `E:\KDO-memory\` 目录结构
@@ -45,6 +55,7 @@ l1-capture（采集目标 D:\KDO-memory\L1-full）/ kdo-l1-archive（归档）/ 
 - 受影响计划任务 LastTaskResult=0 实测
 - l1-size.log / digest 等心跳在 E 盘新路径继续出拍
 - 四条守卫代码就位且各有一次真实拦截/触发证据（缺盘告警实测一次：拔盘或改指向测）
+- **便携验收：异机插盘 → attach → 检索成功，日志留证（便携化硬要求第 4 条）**
 - 欧阳锋终审
 
 ## 边界
