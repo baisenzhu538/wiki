@@ -2,14 +2,14 @@
 id: task_20260908_wangyuyan-zengming-smart-strategy-deep-dig
 title: "曾鸣《智能战略》拆书素材精细化诊断：三方法前置（全网调研+6层交叉+9层深挖）→产卡范围裁定→排产"
 seq: 691
-status: queued
+status: in_progress
 assignee: wangyuyan
 created_by: wangyuyan
 created_at: 2026-09-08
 decision_source: 老朱 09-08 23:3x 直令「按全网调研、6层交叉比对、9层深挖精细化处理；王语嫣门禁入口保质量；自动化拉起；不要再问我」
 reviewer: 欧阳锋
 instance: wangyuyan
-updated_at: '2026-09-08T23:35:00+08:00'
+updated_at: '2026-09-08T15:32:04.800330+00:00'
 ---
 
 # #691 曾鸣《智能战略》素材深挖诊断（王语嫣 headless 执行）
