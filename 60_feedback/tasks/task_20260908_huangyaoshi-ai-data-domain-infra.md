@@ -80,3 +80,15 @@ updated_at: '2026-09-08T12:58:25.925054+00:00'
 - 薄卡 redirect 后若消费方仍直链旧名：stub 实存不构成死链，且 aliases 已并入主卡（检索可归一）；自动生成索引（concept-card-index-latest/links/index）下次生成自愈
 - tags 门禁 09-14 HARD 后 redirect stub（内容词 0）将被拦——存量治理归 #426 内容侧批次，非生产侧债务
 - vault backup Step 9 由 30min schtasks（kdo-vault-git-backup）承载，本次随提交自动入备；D 盘 bundle 备份走既有节拍，未另行手动触发
+
+### 五字段摘要（#429 F-034 机器可读）
+
+**交付物**：`30_wiki/domains/ai-data-domain-digest.md`（新建域MOC）；`30_wiki/cases/case-yihang-dual-triangle-AI三角-数据.md`（主卡吸收薄卡）；`30_wiki/cases/case-yihang-dual-triangle-AI数据.md`（转redirect）；`90_control/domain-routes.yaml`+`90_control/domain-mapping.md`+`30_wiki/index.md`（三处域注册）；`90_control/vault-status.md`（快照）；详见上方执行报告表。
+
+**完成内容**：ai-data域digest补建（路标13散卡+8张P0）+ 路由/映射/索引三处注册 + 双三角AI数据重复卡去重合并（主卡=AI三角-数据，薄卡redirect零信息损失）。
+
+**验证**：`kdo pre-submit --files <三卡>` → ✅ PASS（8 WARNING均存量）；`kdo query "AI数据域 数据判断力"` → digest 0.85召回榜首带【未审 draft】标；`kdo index --incremental` + `kdo graph rebuild`（12页）+ coverage探针全目录 gap=0；`python 90_control/scripts/check_dead_links.py` 全库83条死链均agent-traces存量，本单三卡零死链。
+
+**边界**：不动13张散卡frontmatter domain归属（批量改属F-KDO-014需人工批准）；薄卡tags/双卡VLM两段式为存量治理归#426/#518；全库另有疑似重复族（AI场景/AI基本功/人类三角族/数据标注报告同题双卡）仅登记不扩裁；#683 P0八张实测已产毕（reviewed），digest路标已直接收录。
+
+**需要谁动作**：欧阳锋终审本单（digest是否达标#686验收5条）；王语嫣知悉——13张散卡名单系按诊断报告口径扫库重建（§五原节仅给计数），如与编排原意有出入可修正路标；#426内容侧排期时留意09-14 tags HARD对redirect stub的存量拦截。
