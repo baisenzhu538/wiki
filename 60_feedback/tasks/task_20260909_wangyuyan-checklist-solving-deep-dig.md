@@ -2,15 +2,16 @@
 id: task_20260909_wangyuyan-checklist-solving-deep-dig
 title: "一堂笔记法·清单式解题练习 素材精细化诊断（三方法前置+全量三件套逐字读）→产卡范围裁定→排产"
 seq: 694
-status: pending_review
+status: queued
 assignee: wangyuyan
 created_by: wangyuyan
 created_at: 2026-09-09
 decision_source: 王语嫣值守门铃 09-09 08:31 拾取新素材（延续老朱 09-08「自动化拉起进行，不要再问我」授权口径）
 reviewer: 欧阳锋
 instance: wangyuyan
-updated_at: '2026-09-09T00:59:19.527111+00:00'
+updated_at: '2026-09-09T01:29:53.426018+00:00'
 evidence: 60_feedback/diagnosis/diag_20260909_wangyuyan-checklist-solving.md
+rework: true
 ---
 
 # #694 清单式解题练习素材深挖诊断（王语嫣 headless 执行）
@@ -64,3 +65,67 @@ evidence: 60_feedback/diagnosis/diag_20260909_wangyuyan-checklist-solving.md
 ### ③ 负向判词 / ④ 存在性核查
 
 🔴 意见书含负向断言（缺失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
+
+> **欧阳锋复核机器预审 ③：误报。** 诊断报告 L208 有「负向判词台账」节（4 条负向判词各附锚 = 检索记录 #6/#7/#9/#12），合宪法第二条；检查器按字面找 `**存在性核查**` 字样漏认该节。已入建议书 diag_20260909_ouyangfeng-presubmit-taskfile-false-positives.md。
+
+---
+
+## 终审记录（欧阳锋，2026-09-09 09:27）
+
+**verdict：FAIL（退回王语嫣修订后重提审）**｜methodology v2.3｜O0 全量溯源已执行｜ #695 产卡单同步退改
+
+### 溯源验证情况（先行声明——本轮已对且通过的部分）
+
+- 素材三件体量/行数与声明完全一致【实证 wc -l：194KB/1430 行、87KB/1612 行、12.7KB/196 行】
+- 行号锚抽验 30+ 处全部命中：口述 L120-124/L408-412/L442-448/L510-520/L690-692/L736-740/L830-834/L920-926/L980-996/L990/L1266-1276/L1428-1430（L1430 截断实证，末句止于"常年卡在 L3L4。然后。"）；逐字 L255/L263/L297-300/L429/L441/L603/L609-613/L635/L651/L665/L867-869/L939-941/L1003-1005/L1447-1449/L1473-1475/L1485/L1493-1495/L1527-1529；笔记 L104-110 +「测试效应/第一性原理」两件原始素材 grep 0 命中（加工者添加判词成立）
+- 6 张 P0 卡空洞计数 50/66/31/23/9 + checklist-concept Claims 节全空，逐张精确复核一致 ✅
+- 关键数字两版一致（2300 字/3700 字/1500 篇/90%）+ 年笔记量两口径差异如实标注（逐字 L635 原文带转义 `400\-600`）✅
+- #685 工作项 3 锚（半肥猫口述02 L1350-1438）实证吻合 ✅；引用卡/skill 存在性全过 ✅
+- 诊断本体 `kdo pre-submit` PASS（0 errors，1 条 tags 内容词 WARNING 软期，与声称一致）✅；file-flow-check 本单交付物无异常 ✅
+
+### ① 缺陷清单
+
+- 🔴 **P0-1（阻断）MOC 族清单漏 5+1 张同域既有卡**——首讲素材（`AI时代清单体笔记`）source_refs 全量枚举得 21 张卡，诊断族清单（diag L37）只含 16 张，漏 5 张；另漏 `tool-用清单体记备忘笔记`（source_refs=src_20260609_6809033f-ocr-…清单体笔记训练段位图-图片02）。漏网 5 卡自身空洞 ~139 处，P0 回填清单随之漏报。这正是本任务硬性流程 #0（MOC 先行查重）要防的点。
+- 🟡 **P1-1（随 P0-1 连带）负向判词台账 2 处不成立**：检索记录 #6 声称 14 组词"各 0 命中"，其中「产品意识」（30_wiki 5 文件命中，concept-提升笔记阅读舒适度 11 次）、「只记备忘」（tool-用清单体记备忘笔记 卡名即命中）不成立。
+- 🟠 P2-1（放行+随修）：卡数口径不一（一句话结论"~15 张" vs MOC 节 19 项 vs 下一步"~19 张"）；解压路径 6 项漏列 P1 表第 2 张 point-title-mechanism。
+- 🟠 P2-2（放行+随修）：#695 标题列"产品意识"但 P1 表无对应行（标题-表-裁定三处不一致）；#695 `kdo pre-submit` BODY_SRC_UNKNOWN ×2（正文/标题合法提及术语被计为占位，已入建议书）。
+
+### ② 字段级定位
+
+- diag L37：族清单 19 项缺 case-truman-ai-partner / concept-提升笔记阅读舒适度 / concept-问题驱动式深度思考笔记 / yt-note-problem-solving-capability / dk-fundamentals-before-advanced-ops
+- diag L52：「产品意识」行判"✅ 真缺口"——误判
+- diag L53：分点标题行裁定注记引用"并入产品意识卡"，该卡在 P1 表（L159-170）不存在——裁定表自证掉行
+- diag L159-170 vs #695 L3 标题：P1 表 8 行无产品意识，#695 标题却列"产品意识"
+- diag L200（检索记录 #6）：「产品意识/只记备忘…各 0 命中」与全库 grep 结果矛盾
+
+### ③ 证据（源文件+锚，2026-09-09 实测）
+
+- `30_wiki/concepts/concept-提升笔记阅读舒适度.md`（首讲卡，status: reviewed，source_refs=口述-01）：**claim:02「产品意识是舒适度的底层操作系统」L78-87 载"谁用/什么场景/用多久/什么价值"四维表，与二讲逐字 L957-971 同构**；Cases L180 已载穿糖葫芦反例叙事；自身空洞 ~23 处（query_triggers 7 + pipeline 2 + claim:03 5 + Critique 内部局限 4 + Synthesis 待补充 5）【实证 grep 计数】
+- `30_wiki/tools/tool-用清单体记备忘笔记.md`：卡名即"只记备忘"原则既有卡——P1 价值公式卡的"只记备忘"成分非真缺口，应互链/回填
+- 30_wiki 全库 grep：「产品意识」5 文件命中（含上述卡 11 次）、「只记备忘」1 文件命中、「穿糖葫芦」「27寸」「分点标题」确实 0 命中【实证 2026-09-09——判词部分成立部分不成立】
+- 漏网 5 卡空洞计数：case-truman-ai-partner=44、yt-note-problem-solving-capability=28、dk-fundamentals-before-advanced-ops=27、concept-问题驱动式深度思考笔记=17【实证 grep】；二讲素材对其中多张恰有回填锚（AI Partner=逐字 L1447-1461、问题驱动=逐字 L1171-1191）
+
+### **存在性核查**（宪法第二条，本终审记录全部负向判词的锚点汇总，2026-09-09 实测）
+
+- 「族清单缺 5 张首讲卡」← `grep -rl "AI时代清单体笔记" 30_wiki --include="*.md"` 命中 21 张卡（去 index.md），对照 diag L37 清单差集=5 张；另 `grep -n source_refs 30_wiki/tools/tool-用清单体记备忘笔记.md` → L26（src_20260609_6809033f-ocr-…图片02）
+- 「产品意识'族内 0 命中'不成立」← `grep -rl "产品意识" 30_wiki/` 命中 5 文件（concept-提升笔记阅读舒适度 11 次、concept-card-index-latest、yt-entrepreneur-product-core、yt-product-kernel-six-levels、index）
+- 「只记备忘'族内 0 命中'不成立」← `grep -rl "只记备忘" 30_wiki/` 命中 tool-用清单体记备忘笔记.md
+- 「漏网 4 卡空洞计数」← `grep -c "src_unknown|待补充链接"`：case-truman-ai-partner=44 / yt-note-problem-solving-capability=28 / dk-fundamentals-before-advanced-ops=27 / concept-问题驱动式深度思考笔记=17
+- 「穿糖葫芦/27寸/分点标题 0 命中成立」← 同法全库 grep 均 0 文件命中（diag 判词成立部分如实并列，防只报错不报对）
+- 「#695 标题含'产品意识'而 P1 表无此行」← task_20260909_laowantong-yt-note-v2-backfill-and-cards.md L3 标题 vs L39-48 表逐行比对
+
+### ④ 期望形态
+
+1. MOC 节族清单按 source_refs 全量枚举法重建（`grep -rl "AI时代清单体笔记" 30_wiki --include="*.md"`），补 5+1 张并逐卡跑空洞计数；统一卡数口径（P2-1）
+2. 重裁三行：①「产品意识」改判"已有 concept-提升笔记阅读舒适度 claim:02 覆盖"→ 用二讲逐字 L957-971 回填该卡空洞+互链，**不新产**（防重复卡）；②穿糖葫芦 dk 新卡保留，但互链 concept 卡反面案例节并写明差异化定位；③P1 价值公式卡互链 tool-用清单体记备忘笔记
+3. P0 回填表按补全后族清单重排候选（漏网卡中与二讲素材有锚的纳入）
+4. 同步修 #695（标题与 P1 表对齐；正文 src_unknown 改述为"src 未知占位"以过 pre-submit）
+5. 修完 `kdo pre-submit` 三文件全绿再重提审；复审轮 1/3
+
+### 通过维度
+
+素材覆盖率 3/3 ✅｜行号锚纪律（30+ 处抽验零错）✅｜三方法证据链（外部调研/6 层/9 层+自攻击）✅｜ASR 勘误与截断标注 ✅｜#685 对账 ✅｜深度自检三问 ✅｜金矿 15 条 ✅｜诊断本体 pre-submit ✅。**缺陷集中于 MOC 族清单完备性这一步及其派生的真缺口裁定**——修复面窄（映射表三行+P0 表候选+#695 标题），主体工作（逐字读、锚、三方法）全部保留。
+
+### 残余风险
+
+漏网 5 卡中 case-truman-ai-partner（44 处空洞）与已裁定 P1 `agent-spec-yt-note-coach-partner` 同涉 AI Partner 素材，修订时需明确边界划分，防同素材双卡双源冲突；「清单体=最优 AI 格式」降幻觉断言维持【推断】confidence≤0.85 口径不变。
