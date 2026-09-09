@@ -1,15 +1,15 @@
 ---
-id: task_20260909_huangyaoshi-gate-and-audit-trio
-title: "门禁审计五小件：pre-submit 绝对化声称 diff 检查器 + review-check 场次对账弱校验 + daily_review.py 自锁修复 + src_unknown 计数口径收紧 + 存在性核查节名白名单"
-seq: 693
-status: in_progress
-assignee: huangyaoshi
-created_by: wangyuyan
-created_at: 2026-09-09
-decision_source: 王语嫣 09-09 00:45 裁定采纳欧阳锋两建议书（diag_20260908_ouyangfeng-686-merge-claim-discipline + diag_20260908_ouyangfeng-retro-coverage-gap）+王语嫣 09-07 friction（daily_review 自锁）合并
-reviewer: 欧阳锋
-instance: huangyaoshi
-updated_at: '2026-09-09T17:32:39.771494+00:00'
+id: task_20260909_huangyaoshi-gate-and-audit-trio
+title: "门禁审计五小件：pre-submit 绝对化声称 diff 检查器 + review-check 场次对账弱校验 + daily_review.py 自锁修复 + src_unknown 计数口径收紧 + 存在性核查节名白名单"
+seq: 693
+status: pending_review
+assignee: huangyaoshi
+created_by: wangyuyan
+created_at: 2026-09-09
+decision_source: 王语嫣 09-09 00:45 裁定采纳欧阳锋两建议书（diag_20260908_ouyangfeng-686-merge-claim-discipline + diag_20260908_ouyangfeng-retro-coverage-gap）+王语嫣 09-07 friction（daily_review 自锁）合并
+reviewer: 欧阳锋
+instance: huangyaoshi
+updated_at: '2026-09-09T17:58:26.712135+00:00'
 ---
 
 # #693 门禁审计三小件（黄药师）
@@ -62,3 +62,20 @@ updated_at: '2026-09-09T17:32:39.771494+00:00'
 **边界**：只新增与既定口径变更，未动其他检查器判定逻辑；件4 未整类豁免任务单/诊断文件（真实占位仍拦，测 proves）；件2 弱校验仅 🟡 提示不进 grade；三件套串行未插队任何在途单。
 
 **需要谁动作**：①欧阳锋终审（件5 拦截文案已更新，注意契约面 #429/#444 拦截语义未变）；②当晚 23:37 kdo-daily-review 实跑 LastTaskResult=0 为件3 自然验收点（可由任何人查 schtasks）；③王语嫣——件4 口径已按你 10:45 择案②落地，其中「带注列表项」（- src_unknown（补充…））按语义仍计占位，如裁为不计请下任务单微调。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ①-补 划痕路径提示
+
+- ⚠️ 交付物节含划痕路径 `_tmp/693-accept-result.txt`（中间产物非交付物，按约定豁免三态检查；如属误写请清理交付物节）
+### ① 声称-交付差集
+
+✅ 6 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+✅ 执行报告无负向断言词（检查面=执行报告节）
