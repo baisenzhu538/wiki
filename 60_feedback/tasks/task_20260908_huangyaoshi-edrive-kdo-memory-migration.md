@@ -2,14 +2,17 @@
 id: task_20260908_huangyaoshi-edrive-kdo-memory-migration
 title: "E 盘容量路由落地：D:\\KDO-memory 整区迁 E:（带盘在位守卫+盘符固定+引用点全改）"
 seq: 690
-status: pending_review
+status: reviewed
 assignee: huangyaoshi
 created_by: wangyuyan
 created_at: 2026-09-08
 decision_source: 老朱 09-08 晚拍板「选 A 整区迁」（欧阳锋建议书 diag_20260907_ouyangfeng-edrive-capacity-routing R1 首选方案，王语嫣编排）
 reviewer: 欧阳锋
 instance: huangyaoshi
-updated_at: '2026-09-09T17:27:37.832592+00:00'
+updated_at: '2026-09-09T17:59:36.339681+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-09-09'
+grade: A-
 ---
 
 # #690 E 盘迁移单（黄药师）
@@ -130,3 +133,63 @@ l1-capture（采集目标 D:\KDO-memory\L1-full）/ kdo-l1-archive（归档）/ 
 ### ③ 负向判词 / ④ 存在性核查
 
 ✅ 执行报告无负向断言词（检查面=执行报告节）
+
+## 终审记录（欧阳锋 2026-09-10 01:5x，methodology v2.3）
+
+**verdict: PASS · 等级 A-**（通过维度：四守卫/数据完整性/引用点切换/零中断红线/便携件本机可达面；扣分：异机实拍待演+README 恢复命令措辞瑕疵）
+
+### 版本对齐三问（#362，代码类必查）
+
+1. **入仓** ✅：`cba88578f`（09-10 01:27:36）含 kdo_memory_root.py 新建+7 py resolver 化+2 cmd+2 bat+3 份证据 logs；`2e4135def` complete 在案
+2. **生效** ✅：计划任务侧 kdo-l1-capture 01:37 LastTaskResult=0 跑新 resolver 码；logs/l1-capture.log 01:07/01:37 两条 `E:\KDO-memory\L1-full` 落拍实证（新码真在产线跑）
+3. **对齐** ✅：审查对象=当前工作树（#690 范围 kdo-tools 文件 clean）；队列行 574 `pending_review` 与任务单 frontmatter 一致
+
+### 四守卫逐条取证
+
+| 守卫 | 证据 | 判定 |
+|:--|:--|:--:|
+| 1 缺盘告警不静默 | gate-blocked L849 00:58:59 `marker-missing-fallback-D`（.disk-id 被 retry /MIR 删除后 resolver 实战拦截→回退 D 保生产）+ L851 01:20:30 `env-override-invalid`；代码 1h 去重+#472 格式 | ✅ |
+| 2 盘符漂移防护 | 7 py 全部 `from kdo_memory_root import find_memory_root`（grep 实证）；全库扫描**零残留活跃硬编码** D:\KDO-memory（仅 designed fallback+注释）；计划任务 action 全量扫描**零处**含 KDO-memory 字样 | ✅ |
+| 3 禁中文卷标 | attach.cmd 全文读验纯 ASCII；两 bat 只用盘符/标记定位 | ✅ |
+| 4 last-result 校验 | E:\ `wiki-bundle-daily.last-result.txt` + `wiki-bundle-offsite.last-result.txt` 在位（01:18/01:19 OK） | ✅ |
+
+### 数据完整性（O3 独立验证，不采信报告）
+
+- robocopy 双轮日志在案：pass1 316/317（1 failed=pre-filter bundle 2.3GB 瞬时占用）+ retry 317 skip 全对 failed 0
+- hash 抽样 26/26 TOTAL FAILS: 0
+- **欧阳锋独立复算**：sha256(wiki-bundle-20260907.bundle) D: vs E: = `2196a682500f02ea…` **MATCH**
+
+### 六入口 + 零中断红线（红线 4 心跳段）
+
+- capture 01:37 rc=0（schtasks 实测）+ E 侧 L1 落拍；digest `E:\L2-digest\2026-09-10.md` 01:11 真实产物（24 事件非空壳）；capsule 镜像 activity_log.db 01:43 fresh；bundle 01:18 OK + offsite 01:19 OK；archive 幂等（l1-size 01:37=48.6MB 系旧天压缩正常维护非丢数据）
+- 心跳连续：l1-size.log `00:07(D)→00:37(D)→01:07(E)→01:08(E)→01:37(E)` **无断档**；conveyor-probe 01:37 rc=0 / role-clock 01:42 rc=0 / inbox-watch 01:41 rc=0；vault backup 00:20/00:50/01:20 三拍全在（SKIPPED=#628 活动会话设计行为，拍点活着）
+- 迁移窗口后非零退出项（kdo-daily-review=1 / kdo-health-daily=1 / KDO-Health-Check=2）LastRun 均为 09-09（窗口开启前），与本单无因果，不阻断
+
+### 便携件（本机可达面）
+
+- attach.cmd 读验：A-Z 标记扫描+只读承诺+纯 ASCII（#592 合规）
+- query_assets.py 本机实跑 3 次：`--list` 全目录清单 ✅ / `"huangyaoshi"` 3 hits ✅ / `"黄药师"` 2 hits ✅（中英文检索均通）
+- BOOTSTRAP 恢复链正确（`git clone bundle` + `git checkout master`，非 bare）
+- seed 同步 9/9 逐一 diff 验证（7 kdo-tools 件+2 bat 全 SYNC；声明精确）
+
+### 发现（非阻塞）
+
+1. 🟠 **channel_health 登记格式缺陷**（pre-existing，非本单引入）：inventory L182 以 `+` 分隔注册（`channel-model-map + channel_health`），#488 解析器只认 `/` → pytest `test_no_unregistered_core_assets` 红（实测 1 failed 275 passed；channel_health.py 09-06 入仓早于本单 commit，扫描逻辑本单未动）→ 已落建议书
+2. 🔵 README §3 `git clone --mirror` 提示与 BOOTSTRAP 正解不一致（mirror 产 bare 库无工作树；BOOTSTRAP 为权威详版且正确）→ 已落建议书
+3. 🔵 l1-capture.log 残留文案「D 主库为唯一全量」（报告已如实声明，owner=下次触碰顺带改）
+4. 删 .disk-id 的 00:58 /MIR 为迁移自家 retry 一次性动作；存量计划任务无根级 /MIR（唯一 robocopy /MIR=capsule→L1-backup 子目录，作用域收窄），**无复发机制**
+
+### 残余风险
+
+- **异机插盘 attach 实拍未演**（本机物理不可达，黄药师与终审者均无法执行）→ 已按任务单「需要谁动作①」路由老朱；**本终审不含该项**——若异机实测失败，本单重开按打回处理
+- D 盘旧目录未清（24h 观察中，清理前报王语嫣留档——本单边界已声明，非本批）
+- 双实例并行施工未经编排（kimi 侧代码面+claim 持有者收口）：事实已在协同声明节互认、产物经我全量验证未受损；流程偏差已在 friction 01:12 挂账，王语嫣编排层留意
+
+### kdo query 检索记录（#669）
+
+- `kdo query "E盘迁移 便携 数据盘 KDO-memory"`（语义+图检索，2026-09-10 02:00）→ 命中 3 条（kdo_help/tool-pdf-inspector 等通用工具卡），**0 条与本单主题相关** → wiki 无已有方法论卡约束本基建单
+- 代码/配置/日志层证据用 grep+脚本实跑（非知识类检索，宪法合规）
+
+### 不报告清单
+
+对照表排版微瑕归 lint 不发卡；工作树 154 dirty 文件中非本单范围（#696 WIP/内容面/日志）不审；hash 抽样未覆盖全量 317 文件（robocopy 尺寸+时间戳全对+独立大文件复算已兜底）。
