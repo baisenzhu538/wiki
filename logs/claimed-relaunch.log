@@ -1,0 +1,5 @@
+[2026-09-10 02:57:00] RELAUNCH-BEGIN task_20260910_huangyaoshi-697-stall-drill role=huangyaoshi stall=50min attempt=1/2
+[2026-09-10 02:57:06] RELAUNCH-END task_20260910_huangyaoshi-697-stall-drill rc=0
+[2026-09-10 02:57:09] RELAUNCH-BEGIN task_20260910_huangyaoshi-697-stall-drill role=huangyaoshi stall=50min attempt=2/2
+[2026-09-10 02:57:15] RELAUNCH-END task_20260910_huangyaoshi-697-stall-drill rc=0
+[2026-09-10 02:57:15] ESCALATE task_20260910_huangyaoshi-697-stall-drill role=huangyaoshi stall=50min count=2 —— 连续补拉无产出，停拉升级人工（防死循环烧额度）

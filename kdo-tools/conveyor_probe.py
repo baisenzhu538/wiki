@@ -15,6 +15,7 @@
 """
 
 import argparse
+import subprocess
 import base64
 import hashlib
 import hmac
@@ -1231,10 +1232,142 @@ def _scan_pending_decision(state: dict) -> tuple[list, list]:
 
 
 
+# ── #697 第十一信号：claimed 停摆自动补拉（老朱：不信纪律信门禁；防误伤三件套）──
+
+CLAIMED_STALL_SEC = 45 * 60        # 停摆判定线：任务单文件 45min 无产出心跳
+RELAUNCH_WINDOW_SEC = 2 * 3600     # 三件套①：同一任务 2h 窗口
+RELAUNCH_MAX_PER_WINDOW = 2        # 三件套①：窗口内最多补拉 2 次
+RELAUNCH_STATE_KEY = "claimed_relaunch"   # 防误伤计数 state 键
+RELAUNCH_ALIVE_SEC = 600           # 幂等：该角色 headless 日志 10min 内有增长=活实例在跑
+RELAUNCH_LEDGER = ROOT / "logs" / "claimed-relaunch.log"
+RELAUNCH_INSTRUCTION = (
+    "【停摆补拉 #697】你名下 claimed 任务 {task_id} 超 {stall_min} 分钟无产出心跳，"
+    "疑似实例中断，本条为自动补拉（第 {attempt} 次）。纪律："
+    "①先查在制品——git status/log + 任务单 updated_at + logs 最新 mtime，"
+    "若发现 10 分钟内有其他实例的新鲜痕迹，立即停止不得双写，todos 落一行即收工；"
+    "②确认无在制品后，读任务单 60_feedback/tasks/{task_id}.md 全文，"
+    "从已完成步骤继续施工；③若任务实际已完成只差流转，补 queue_transition complete 即可；"
+    "④若被阻塞，todos 落账说明阻塞点后收工，不得硬闯。"
+)
+
+
+def _headless_alive(role: str, now: float) -> bool:
+    """幂等检查：该角色最近一份 headless 日志 mtime 在 RELAUNCH_ALIVE_SEC 内 = 活实例在跑。"""
+    latest = 0.0
+    try:
+        for f in (ROOT / "logs").glob(f"headless-{role}-*.log"):
+            try:
+                latest = max(latest, f.stat().st_mtime)
+            except OSError:
+                continue
+    except OSError:
+        return False
+    return latest > 0 and (now - latest) < RELAUNCH_ALIVE_SEC
+
+
+def _relaunch_ledger(line: str) -> None:
+    """三件套③：台账落 logs/claimed-relaunch.log（一行一事件，只增不改）。"""
+    try:
+        RELAUNCH_LEDGER.parent.mkdir(parents=True, exist_ok=True)
+        with open(RELAUNCH_LEDGER, "a", encoding="utf-8") as f:
+            f.write(line + chr(10))
+    except OSError:
+        pass
+
+
+def _scan_claimed_stall(state: dict, enabled: bool = True) -> list[str]:
+    """claimed/in_progress 任务超 45min 无产出心跳 → 自动拉起对应角色续产（#697）。
+
+    产出心跳 = 任务单文件 mtime（claim 写入、执行报告、流转都会触碰）。
+    防误伤三件套：
+      ① 同一任务 2h 窗口内最多自动补拉 2 次（state.claimed_relaunch 计数）；
+      ② 连续 2 次补拉后仍无产出 → 停拉 + gate-blocked 落账升级人工（可能任务本身有问题）；
+      ③ 每次补拉前后台账各落一行（停摆时长/attempt/拉起结果）。
+    幂等：该角色 headless 日志 10min 内有增长 → 视为活实例在跑，跳过。
+    防双写：补拉指令自带「先查在制品，10min 内有他实例痕迹立即收工」纪律。
+    停摆检测对 headless cron wedge（next fire time stuck in the past，#684 实证）同样生效：
+    wedge 掐死的实例无产出心跳，被本信号捕获补拉——检测即根治前的兜底（根治另议）。
+    """
+    notes: list[str] = []
+    if not enabled:
+        return notes
+    now = time.time()
+    rel_state = state.setdefault(RELAUNCH_STATE_KEY, {})
+    try:
+        rows = parse_queue()
+    except Exception as e:
+        _nprint(f"⛔ [conveyor_probe] claimed 停摆扫描队列读取失败: {e}", file=sys.stderr)
+        return notes
+    for t in rows:
+        status = (t.get("status") or "").strip()
+        if not status.startswith("claimed"):
+            continue
+        task_id = (t.get("task_id") or "").strip()
+        if not task_id:
+            continue
+        task_fp = ROOT / "60_feedback" / "tasks" / f"{task_id}.md"
+        try:
+            stall_sec = now - task_fp.stat().st_mtime
+        except OSError:
+            continue  # 任务单不存在（异常行）——不误报
+        if stall_sec < CLAIMED_STALL_SEC:
+            # 有产出心跳：顺手清计数（任务恢复产出，窗口重新武装）
+            rel_state.pop(task_id, None)
+            continue
+        role = (t.get("assignee") or "").strip() or status.split("-", 1)[-1]
+        stall_min = int(stall_sec // 60)
+        entry = rel_state.setdefault(task_id, {"count": 0, "last_ts": 0.0})
+        # 窗口过期重置（①）
+        if entry.get("last_ts") and now - entry["last_ts"] > RELAUNCH_WINDOW_SEC:
+            entry["count"] = 0
+        ts = time.strftime("%Y-%m-%d %H:%M:%S")
+        # 三件套②：连补 2 次仍无产出 → 停拉升级
+        if entry.get("count", 0) >= RELAUNCH_MAX_PER_WINDOW:
+            _relaunch_ledger(f"[{ts}] ESCALATE {task_id} role={role} stall={stall_min}min "
+                             f"count={entry['count']} —— 连续补拉无产出，停拉升级人工（防死循环烧额度）")
+            try:
+                with open(ROOT / "90_control" / "gate-blocked.log", "a", encoding="utf-8") as f:
+                    f.write(f"{ts}｜claimed-relaunch｜relaunch-exhausted｜"
+                            f"{task_id} 已自动补拉 {entry['count']} 次仍无产出，停拉等人工裁定"
+                            f"｜conveyor_probe{chr(10)}")
+            except OSError:
+                pass
+            notes.append(f"🛑 {task_id} 连续补拉无产出已停拉升级（{stall_min}min）")
+            continue
+        # 幂等：该角色活实例在跑 → 跳过（不算次数）
+        if _headless_alive(role, now):
+            continue
+        # ── 自动补拉 ──
+        attempt = entry.get("count", 0) + 1
+        _relaunch_ledger(f"[{ts}] RELAUNCH-BEGIN {task_id} role={role} stall={stall_min}min "
+                         f"attempt={attempt}/{RELAUNCH_MAX_PER_WINDOW}")
+        r = subprocess.run(
+            [sys.executable, str(ROOT / "90_control" / "scripts" / "kimi-headless-launch.py"),
+             role, RELAUNCH_INSTRUCTION.format(task_id=task_id, stall_min=stall_min, attempt=attempt)],
+            capture_output=True, text=True, encoding="utf-8", errors="replace", timeout=120,
+        )
+        ts2 = time.strftime("%Y-%m-%d %H:%M:%S")
+        rc_line = f"rc={r.returncode}"
+        _relaunch_ledger(f"[{ts2}] RELAUNCH-END {task_id} {rc_line}")
+        if r.returncode == 0:
+            entry["count"] = attempt
+            entry["last_ts"] = now
+            notes.append(f"🚑 {task_id} 停摆 {stall_min}min 已自动补拉（第 {attempt} 次，role={role}）")
+        else:
+            _relaunch_ledger(f"[{ts2}] RELAUNCH-FAIL {task_id} role={role} —— 拉起失败，详见 headless 日志")
+            notes.append(f"⚠️ {task_id} 自动补拉失败（rc={r.returncode}），已落台账")
+    # 清理已完成/已流转任务的计数（防 state 无界增长）
+    active_ids = {t.get("task_id", "").strip() for t in rows} if rows else set()
+    for k in [k for k in rel_state if k not in active_ids]:
+        rel_state.pop(k, None)
+    return notes
+
+
 def main() -> int:
     p = argparse.ArgumentParser(description="KDO 传送带探针（#421）")
     p.add_argument("--dry-run", action="store_true", help="登记照做，通知只打印")
     p.add_argument("--force-notify", action="store_true", help="跳过夜间静默强制通知（仅测试/验收用，生产红线不变）")
+    p.add_argument("--no-relaunch", action="store_true", help="#697 应急开关：本轮关闭 claimed 停摆自动补拉（默认开）")
     p.add_argument("--json", action="store_true", help="结构化输出")
     args = p.parse_args()
 
@@ -1258,6 +1391,7 @@ def main() -> int:
     near_miss = _scan_proposal_near_miss(state)
     friction_new = _scan_friction(state)  # 增量检测（state 幂等）
     gate_new = _scan_gate_blocked(state)  # 门禁拦截增量（#460 机器自报 + #506 near-miss）
+    relaunch_notes = _scan_claimed_stall(state, enabled=not args.no_relaunch)  # #697 第十一信号
     # F-036 第七信号：新终审意见书含 🟠/🟡 但无落点 → 提醒欧阳锋补建议书（兜底）
     issue_no_disp = _scan_issue_no_disposition(state, queue_sig["new_reviewed"])
     # #556 第八信号：待老朱拍板检出（reviewed+拍板字样；向前生效不回扫存量）
@@ -1319,6 +1453,9 @@ def main() -> int:
             m = _re.match(r"^\[([^\]]+)\]", ln)
             mc.log_event_safe(m.group(1) if m else "conveyor_probe", "friction", ln[:300])
         messages["wangyuyan"] = f"🩹 KDO 新问题线索 {len(friction_new)} 条（friction）：{friction_new[0][:60]}{'…' if len(friction_new) > 1 else ''}"
+        if relaunch_notes:
+            txt = "；".join(relaunch_notes[:3])
+            messages["wangyuyan"] = (messages["wangyuyan"] + "；" + txt) if "wangyuyan" in messages else txt
     if gate_new:
         # #460：门禁拦截自动登记（[gate-blocked]）+ 通知——机器自报，零依赖 agent 自觉
         _update_proposal_board_gate(gate_new)

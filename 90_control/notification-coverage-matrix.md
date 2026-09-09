@@ -42,6 +42,7 @@
 | 29 | 产卡超长无分层段落（清单体结构缺失） | kdo pre-submit `_check_qingdanti_structure`（#639：连续散文化段落 ≥8 行 / 单段 ≥400 字 → 提醒按清单体标准重组，跳过代码围栏，只向前生效不回扫存量） | pre-submit WARNING（提审输出可见，不拦截） | 生产者 | — | #639（清单体方法论在库但生产规范零引用的知行断裂修复；规范层=工业化手册 §12.2.1，方法论锚 yt-note 卡族只链不抄） |
 | 30 | 对话蒸馏每日运行结果 | conversation_distill（#645：计划任务 kdo-conversation-distill 每日 23:50 独立批次） | 无推送——落盘即交付：logs/conversation-distill-*.log + pending-cards 候选（走行 9 inbox 素材通道被王语嫣拾取过门禁）+ personal-os 追加；LLM 失败/锚校验丢弃计数写日志 | 王语嫣（经既有 inbox 通道）/ 黄药师（日志） | — | #645（老朱 09-05 长期机制；不新增推送通道，复用行 9 既有扫描面 pending-cards 白名单） |
 | 31 | 终审 PASS 交付卡状态自动翻转 | queue_transition `_flip_delivered_cards`（#670：review --verdict pass 时按执行报告「交付物」节自动翻转交付卡 draft→reviewed+reviewed_by+review_date，三层解析兼容 #665/#666/#668 四种写法，只翻 draft 幂等护栏，识别不出降级行 3 的 #612 提醒不阻断；翻转卡随 chore(review) path-scoped 落仓，git 失败走 pending-git-commits.log 待收口） | 终端输出报告（翻转/未动/未识别三段）+ 卡 frontmatter + chore(review) commit | 欧阳锋（触发者=reviewed_by 归属）/生产者（零动作） | 不适用（终审同步动作，非通知） | #670（#612 提醒三次漏转复发 #586/#596/#666 的机制化根治；存量 33+7 张历史卡不代翻——reviewed_by 归属=审查者动作，清单 `60_feedback/diagnosis/working/audit-stuck-cards-20260907.md` 待欧阳锋核裁） |
+| 20 | claimed 停摆自动补拉（45min 无产出心跳） | conveyor_probe 第十一信号 `_scan_claimed_stall`（#697：任务单 mtime 判停摆→kimi-headless-launch 自动续产；防误伤三件套=2h 窗口 2 次上限/连 2 次无产出停拉升级/前后台账 logs/claimed-relaunch.log；幂等=headless 日志 10min 活性；补拉指令自带防双写纪律） | 补拉摘要推王语嫣 + logs/claimed-relaunch.log 台账 + 耗尽时 gate-blocked 落账 | 王语嫣（升级裁定） | --no-relaunch 应急开关 | #697（老朱「不信纪律信门禁」；#684 wedge 2.5h/#690 挂 1.5h 实证） |
 
 ## 缺口台账
 
