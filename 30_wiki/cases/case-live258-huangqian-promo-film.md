@@ -68,7 +68,7 @@ diagnostic_signals:
   follow_up: 给状态机设启用阈值（任务周期/交付节点数），低于阈值退回轻量流程
 ---
 
-> 本卡属于 [[framework-truman-feature-thinking-core]] 的应用实证——Feature 分层体系（[[framework-truman-feature-layered-system]]）在影视宣传片创作域的自检案例，Live258 案例族中分层自评最清醒的案例：学员自己定位为“底层扎实、上层待拓”（L2915）。与 [[dk-demand-feature-stacking]] 互链：该卡 L165 已引本案为 Feature 叠加的边界例（黄谦，素材 L2947——多人对话加状态机在小团队场景复杂度高易冗余），本卡为该边界例提供完整过程证据。
+> 本卡属于 [[framework-truman-feature-thinking-core]] 的应用实证——Feature 分层体系（[[framework-truman-feature-layered-system]]）在影视宣传片创作域的自检案例，Live258 案例族中分层自评最清醒的案例：学员自己定位为“底层扎实、上层待拓”（L2915）。与 [[dk-demand-feature-stacking]] 互链：该卡 L167 已引本案为 Feature 叠加的边界例（黄谦，素材 L2947——多人对话加状态机在小团队场景复杂度高易冗余），本卡为该边界例提供完整过程证据。
 
 # 黄谦导演宣传片 AI 创作：L1/L2 基本功扎实但 L3+ 放大器缺失，效率与创意卡在手动迭代
 
@@ -181,7 +181,7 @@ L3 层有初步落地（L2929-L2935）：
 2. **基本功定下限、放大器定上限**：L1/L2 对话式 Feature 决定下限，L3+（Workflow/工具联动/自主执行）决定上限（L3013）——这是 Feature 分层体系来自创作域的实证注脚
 3. **族内坐标**：[[case-live258-tianli-gov-training]]（田力案）是 L2 层全缺（裸 prompt），黄谦案是 L1/L2 满配而 L3+ 缺位——两案合起来画出 Feature 缺失的两个极端位置
 
-与 [[dk-demand-feature-stacking]] 的互链关系：该卡 L165 已引本案为 Feature 叠加有边界的实例（复杂状态机在小团队易冗余），本卡补充完整证据链——状态机在中长周期、多交付节点的创作流程里是资产（保障节奏），在短平快任务里变负担（管理开销超收益），**过程类 Feature 的启用应有规模阈值**。
+与 [[dk-demand-feature-stacking]] 的互链关系：该卡 L167 已引本案为 Feature 叠加有边界的实例（复杂状态机在小团队易冗余），本卡补充完整证据链——状态机在中长周期、多交付节点的创作流程里是资产（保障节奏），在短平快任务里变负担（管理开销超收益），**过程类 Feature 的启用应有规模阈值**。
 
 另注：三个一工程、五行工具法本身是人类创作体系的方法论，与 Feature 无关，但其被注入上下文后成为 AI 输出的质量杠杆——印证了人类三角（审美、创造力、体系）+AI 三角（场景、基本功、数据）协同进化的总结（L3013）。
 
