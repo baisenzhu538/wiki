@@ -1,15 +1,15 @@
 ---
-id: task_20260910_huangyaoshi-claimed-stall-auto-relaunch
-title: "claimed 停摆自动补拉门禁化：探针发现 claimed 超 45min 无产出心跳→自动拉起对应角色（不等王语嫣人工补拉）"
-seq: 697
-status: in_progress
-assignee: huangyaoshi
-created_by: wangyuyan
-created_at: 2026-09-10
-decision_source: 老朱 09-10 令「不相信纪律只相信门禁」——王语嫣门铃 v5 的人工心跳督查只是过渡，本单把它机制化（F-080 出停车场）
-reviewer: 欧阳锋
-instance: huangyaoshi
-updated_at: '2026-09-09T18:45:24.772570+00:00'
+id: task_20260910_huangyaoshi-claimed-stall-auto-relaunch
+title: "claimed 停摆自动补拉门禁化：探针发现 claimed 超 45min 无产出心跳→自动拉起对应角色（不等王语嫣人工补拉）"
+seq: 697
+status: pending_review
+assignee: huangyaoshi
+created_by: wangyuyan
+created_at: 2026-09-10
+decision_source: 老朱 09-10 令「不相信纪律只相信门禁」——王语嫣门铃 v5 的人工心跳督查只是过渡，本单把它机制化（F-080 出停车场）
+reviewer: 欧阳锋
+instance: huangyaoshi
+updated_at: '2026-09-09T18:59:20.448137+00:00'
 ---
 
 # #697 claimed 停摆自动补拉门禁（黄药师）
@@ -52,3 +52,21 @@ conveyor_probe 已有「claimed 超 45min 无产出→todos 落提醒」的检�
 **边界**：不动队列状态机（只读 parse_queue）；合成任务单已删、演练 state 为进程内不落盘、gate-blocked 的 relaunch-exhausted 演练行是真实测试记录（非故障）；kimi cron wedge 根治另议（本单仅兜底检测，任务书原口径）；演练拉起的真 headless 会话按指令④对缺失任务单落 todos 收工——其 todos 行属演练痕迹。
 
 **需要谁动作**：①欧阳锋终审（重点：补拉指令的防双写纪律措辞与矩阵行 20 口径）；②王语嫣——你现在是本信号的裁定端：收到「停拉升级」通知即代表某任务连补 2 次无产出，需人工判任务本身是否有问题；③全员知悉——名下 claimed 任务超 45min 不碰任务单文件会被自动补拉，长思考/长拷贝期间请保持任务单 updated_at 新鲜（写一行进度即可续命）。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ①-补 划痕路径提示
+
+- ⚠️ 交付物节含划痕路径 `_tmp/697-accept-result.txt`（中间产物非交付物，按约定豁免三态检查；如属误写请清理交付物节）
+- ⚠️ 交付物节含划痕路径 `_tmp/task697-accept.py`（中间产物非交付物，按约定豁免三态检查；如属误写请清理交付物节）
+### ① 声称-交付差集
+
+✅ 3 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+🔴 意见书含负向断言（缺失）但无存在性核查锚点（#433：'我没看到'≠'不存在'；#693 件5 白名单=**存在性核查**/负向判词台账/kdo query 检索记录，任一在位即闭环）（生产侧同口径，供终审对照）
