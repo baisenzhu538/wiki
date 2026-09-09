@@ -23,11 +23,14 @@ WIKI = Path(__file__).resolve().parents[1]
 RETRO_BASE = WIKI.parent / "agent复盘"          # 桌面/agent复盘（与 daily-context-save 同源）
 LOG_PATH = WIKI / "logs" / "daily-review.log"
 
-# 三角色：王语嫣不占（自有收尾纪律）。中文名用于 git log 消息匹配（review by 欧阳锋 等）
+# 四角色（#696 老朱 09-09 令「全员复盘入列」：王语嫣纳入；旧口径「王语嫣不占（自有
+# 收尾纪律）」作废——交互场长会话靠自觉复盘已被实证不可靠，09-08~09-09 值守场靠老朱提醒才补）。
+# 中文名用于 git log 消息匹配（review by 欧阳锋 等）。洪七公/段王爷=外部挂起角色不入列（E058 口径）。
 ROLES = [
     ("laowantong", "老顽童"),
     ("huangyaoshi", "黄药师"),
     ("ouyangfeng", "欧阳锋"),
+    ("wangyuyan", "王语嫣"),
 ]
 
 # 复盘指令模板（#623 任务 2：写进任务脚本，不从零发挥）
