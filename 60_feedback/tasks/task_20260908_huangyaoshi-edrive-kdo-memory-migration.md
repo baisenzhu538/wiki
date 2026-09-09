@@ -1,15 +1,15 @@
 ---
-id: task_20260908_huangyaoshi-edrive-kdo-memory-migration
-title: "E 盘容量路由落地：D:\\KDO-memory 整区迁 E:（带盘在位守卫+盘符固定+引用点全改）"
-seq: 690
-status: in_progress
-assignee: huangyaoshi
-created_by: wangyuyan
-created_at: 2026-09-08
-decision_source: 老朱 09-08 晚拍板「选 A 整区迁」（欧阳锋建议书 diag_20260907_ouyangfeng-edrive-capacity-routing R1 首选方案，王语嫣编排）
-reviewer: 欧阳锋
-instance: huangyaoshi
-updated_at: '2026-09-08T15:14:30.092378+00:00'
+id: task_20260908_huangyaoshi-edrive-kdo-memory-migration
+title: "E 盘容量路由落地：D:\\KDO-memory 整区迁 E:（带盘在位守卫+盘符固定+引用点全改）"
+seq: 690
+status: pending_review
+assignee: huangyaoshi
+created_by: wangyuyan
+created_at: 2026-09-08
+decision_source: 老朱 09-08 晚拍板「选 A 整区迁」（欧阳锋建议书 diag_20260907_ouyangfeng-edrive-capacity-routing R1 首选方案，王语嫣编排）
+reviewer: 欧阳锋
+instance: huangyaoshi
+updated_at: '2026-09-09T17:27:37.832592+00:00'
 ---
 
 # #690 E 盘迁移单（黄药师）
@@ -113,3 +113,20 @@ l1-capture（采集目标 D:\KDO-memory\L1-full）/ kdo-l1-archive（归档）/ 
 **边界**：本单不动 C 盘任何东西（未动）；D 盘旧目录未删（24h 观察后另批，清理前报王语嫣留档）；13 张散卡 frontmatter domain 等 wiki 内容面零接触；KDO CLI 源码不随盘（B 方案范围项，BOOTSTRAP 已注明取法）；env-invalid 告警已实测、真缺盘回退 D 路径以代码审查+告警通道实测覆盖（真拔盘测试会冒零中断红线之险，不做）。
 
 **需要谁动作**：①老朱——异机便携验收（E 盘插 jia-02/gongsi-01 → 跑 attach.cmd → query_assets 检索一条 → 留证），此为便携化硬要求第 4 条终审必演项；②欧阳锋——终审本单（重点：双实例协同事实见任务单协同声明节）；③王语嫣——24h 后 D 盘清理留档（本单不含清理）；④内容侧——l1_capture 日志「D 主库为唯一全量」为残留文案（行为已写 E），下次触碰该文件时顺带改。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+- 🔴 声称但未入仓（untracked）: `E:/KDO-memory/tools/BOOTSTRAP.md`
+- 🔴 声称但未入仓（untracked）: `E:/KDO-memory/tools/query_assets.py`
+- 🔴 声称但未入仓（untracked）: `E:/README.md`
+- 🔴 声称但未入仓（untracked）: `E:/attach.cmd`
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+✅ 执行报告无负向断言词（检查面=执行报告节）
