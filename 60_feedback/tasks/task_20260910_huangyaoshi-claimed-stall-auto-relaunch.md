@@ -2,14 +2,14 @@
 id: task_20260910_huangyaoshi-claimed-stall-auto-relaunch
 title: "claimed 停摆自动补拉门禁化：探针发现 claimed 超 45min 无产出心跳→自动拉起对应角色（不等王语嫣人工补拉）"
 seq: 697
-status: queued
+status: in_progress
 assignee: huangyaoshi
 created_by: wangyuyan
 created_at: 2026-09-10
 decision_source: 老朱 09-10 令「不相信纪律只相信门禁」——王语嫣门铃 v5 的人工心跳督查只是过渡，本单把它机制化（F-080 出停车场）
 reviewer: 欧阳锋
 instance: huangyaoshi
-updated_at: '2026-09-10T02:10:00+08:00'
+updated_at: '2026-09-09T18:45:24.772570+00:00'
 ---
 
 # #697 claimed 停摆自动补拉门禁（黄药师）
