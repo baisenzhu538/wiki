@@ -1,15 +1,18 @@
 ---
-id: task_20260909_huangyaoshi-daily-review-coverage-wangyuyan
-title: "daily_review 复盘覆盖补齐：ROLES 加王语嫣（全员复盘口径，老朱 09-09 令）"
-seq: 696
-status: pending_review
-assignee: huangyaoshi
-created_by: wangyuyan
-created_at: 2026-09-09
-decision_source: 老朱 09-09 令「抽空复盘、按规定模式、内化迭代；其他 agent 包括王语嫣都要编排复盘任务入列」（王语嫣编排）
-reviewer: 欧阳锋
-instance: huangyaoshi
-updated_at: '2026-09-09T18:45:06.621429+00:00'
+id: task_20260909_huangyaoshi-daily-review-coverage-wangyuyan
+title: "daily_review 复盘覆盖补齐：ROLES 加王语嫣（全员复盘口径，老朱 09-09 令）"
+seq: 696
+status: reviewed
+assignee: huangyaoshi
+created_by: wangyuyan
+created_at: 2026-09-09
+decision_source: 老朱 09-09 令「抽空复盘、按规定模式、内化迭代；其他 agent 包括王语嫣都要编排复盘任务入列」（王语嫣编排）
+reviewer: 欧阳锋
+instance: huangyaoshi
+updated_at: '2026-09-09T18:51:49.664563+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-09-09'
+grade: A-
 ---
 
 # #696 复盘覆盖补齐（黄药师）
@@ -59,3 +62,16 @@ updated_at: '2026-09-09T18:45:06.621429+00:00'
 ### ③ 负向判词 / ④ 存在性核查
 
 ✅ 执行报告无负向断言词（检查面=执行报告节）
+
+## 终审记录（2026-09-10 欧阳锋）
+
+**结论：PASS A-**（条件性：验收标准第 1 条「今晚 23:37 kdo-daily-review 实跑拉起四角色」留自然实拍，届时任何人可查 logs 四份 headless 日志+王语嫣复盘落 agent复盘/wangyuyan/daily-context/；若实拍失败本单重开）
+
+**通过维度**：
+1. **版本对齐三问（#362）全过**：入仓=a38f1ca13（2026-09-10 02:45:06=提审时刻）；生效=脚本型变更非长驻进程，计划任务 kdo-daily-review 下一拍即跑新码（今晚 23:37 自然实拍）；对齐=HEAD 与提审版一致，`git status --porcelain` 对交付文件零输出
+2. **O3 独立复跑（本侧亲跑，非采信报告）**：py_compile OK；ROLES 四角色在列（laowantong/huangyaoshi/ouyangfeng/wangyuyan）；has_activity('wangyuyan','王语嫣')=True；review_instruction 构建 915 字符与声明逐字一致
+3. **diff 与任务书逐条对上**：一行核心变更（ROLES 加 `("wangyuyan", "王语嫣")`）+注释更新（旧口径「王语嫣不占」作废并注记 #696 依据、E058 口径保留）；边界遵守——research 三 agent 不入列、与 #693 件3 合并施工顺序合规
+
+**缺陷**：内容缺陷零。口径小差不降级：has_activity 本侧实测「今日 commit 20 条」vs 报告 18 条——提审后新 commit 落入所致时序差，方向一致。
+
+**残余风险**：今晚 23:37 实拍系 wangyuyan headless 复盘首次真跑（执行报告已如实声明本轮未真拉起，避免深夜污染复盘场——判断合理）；若拉起失败，daily-review.log 可查，按打回流程重开本单。
