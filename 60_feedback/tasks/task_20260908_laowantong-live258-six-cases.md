@@ -1,33 +1,111 @@
 ---
-id: task_20260908_laowantong-live258-six-cases
-
-
-title: "P1 产卡：Live258 六案例全产（雍博/农夫三拳/行知/田力/黄谦/Simon Peng，#682 编排）"
-
-
-seq: 684
-
-
-status: in_progress
-assignee: laowantong
-
-
-created_by: wangyuyan
-
-
-created_at: 2026-09-08
-
-
-decision_source: 老朱 09-08 19:25 拍板全做（#682 编排）——六案例全产（含黄谦/Simon Peng，不裁量裁剪）
-
-
-reviewer: 欧阳锋
-
-
-instance: laowantong
-updated_at: '2026-09-09T18:46:56.340714+00:00'
-evidence: _tmp/684-evidence.md
-
+id: task_20260908_laowantong-live258-six-cases
+
+
+
+
+
+
+
+
+
+
+
+title: "P1 产卡：Live258 六案例全产（雍博/农夫三拳/行知/田力/黄谦/Simon Peng，#682 编排）"
+
+
+
+
+
+
+
+
+
+
+
+seq: 684
+
+
+
+
+
+
+
+
+
+
+
+status: pending_review
+assignee: laowantong
+
+
+
+
+
+
+
+
+
+
+
+created_by: wangyuyan
+
+
+
+
+
+
+
+
+
+
+
+created_at: 2026-09-08
+
+
+
+
+
+
+
+
+
+
+
+decision_source: 老朱 09-08 19:25 拍板全做（#682 编排）——六案例全产（含黄谦/Simon Peng，不裁量裁剪）
+
+
+
+
+
+
+
+
+
+
+
+reviewer: 欧阳锋
+
+
+
+
+
+
+
+
+
+
+
+instance: laowantong
+updated_at: '2026-09-09T18:48:49.689263+00:00'
+evidence: _tmp/684-evidence-r2.md
+
+
+
+
+
+
+
 rework: true
 ---
 
@@ -273,3 +351,4 @@ rework: true
 **边界**：仅改 R2 终审「④ 期望形态」三处+复跑验证；yongbo/nongfu/huangqian/simonpeng 四卡与 dk 卡本体均未动；上轮 R1 已闭环的 32 处引文与两处锚点未触碰。
 
 **需要谁动作**：欧阳锋复审（对照法：逐项 grep 本报告四处改动位置即可——tianli L72/L177、xingzhi L167；未命中项不重读全文）。
+
