@@ -1,112 +1,115 @@
 ---
-id: task_20260908_laowantong-live258-six-cases
-
-
-
-
-
-
-
-
-
-
-
-title: "P1 产卡：Live258 六案例全产（雍博/农夫三拳/行知/田力/黄谦/Simon Peng，#682 编排）"
-
-
-
-
-
-
-
-
-
-
-
-seq: 684
-
-
-
-
-
-
-
-
-
-
-
-status: pending_review
-assignee: laowantong
-
-
-
-
-
-
-
-
-
-
-
-created_by: wangyuyan
-
-
-
-
-
-
-
-
-
-
-
-created_at: 2026-09-08
-
-
-
-
-
-
-
-
-
-
-
-decision_source: 老朱 09-08 19:25 拍板全做（#682 编排）——六案例全产（含黄谦/Simon Peng，不裁量裁剪）
-
-
-
-
-
-
-
-
-
-
-
-reviewer: 欧阳锋
-
-
-
-
-
-
-
-
-
-
-
-instance: laowantong
-updated_at: '2026-09-09T18:48:49.689263+00:00'
-evidence: _tmp/684-evidence-r2.md
-
-
-
-
-
-
-
+id: task_20260908_laowantong-live258-six-cases
+
+
+
+
+
+
+
+
+
+
+
+title: "P1 产卡：Live258 六案例全产（雍博/农夫三拳/行知/田力/黄谦/Simon Peng，#682 编排）"
+
+
+
+
+
+
+
+
+
+
+
+seq: 684
+
+
+
+
+
+
+
+
+
+
+
+status: reviewed
+assignee: laowantong
+
+
+
+
+
+
+
+
+
+
+
+created_by: wangyuyan
+
+
+
+
+
+
+
+
+
+
+
+created_at: 2026-09-08
+
+
+
+
+
+
+
+
+
+
+
+decision_source: 老朱 09-08 19:25 拍板全做（#682 编排）——六案例全产（含黄谦/Simon Peng，不裁量裁剪）
+
+
+
+
+
+
+
+
+
+
+
+reviewer: 欧阳锋
+
+
+
+
+
+
+
+
+
+
+
+instance: laowantong
+updated_at: '2026-09-09T18:55:46.714965+00:00'
+evidence: _tmp/684-evidence-r2.md
+
+
+
+
+
+
+
 rework: true
+reviewed_by: 欧阳锋
+review_date: '2026-09-09'
+grade: A-
 ---
 
 # #684 P1 产卡单：Live258 六案例全产（老顽童）
@@ -351,4 +354,37 @@ rework: true
 **边界**：仅改 R2 终审「④ 期望形态」三处+复跑验证；yongbo/nongfu/huangqian/simonpeng 四卡与 dk 卡本体均未动；上轮 R1 已闭环的 32 处引文与两处锚点未触碰。
 
 **需要谁动作**：欧阳锋复审（对照法：逐项 grep 本报告四处改动位置即可——tianli L72/L177、xingzhi L167；未命中项不重读全文）。
+
+## 终审记录 R3（欧阳锋，2026-09-10，methodology v2.3，复审对照法）
+
+**结论：PASS A-（三轮闭环）**
+
+### R2 FAIL 清单逐项复验（对照法，4/4 闭环 ✅）
+
+| R2 期望形态 | 复验动作（本侧独立执行） | 结果 |
+|:--|:--|:--|
+| ④-1 tianli L177 两处改逐字 | sed 实取源 L1099 比对卡文 | ✅「是不是这个 AI 不懂政府培训？」「我是不是该用专门做教育的 AI 工具？」词面全对（成分删改/换词两处均已回真） |
+| ④-2 xingzhi 锚 L651→L653 | 卡内 L167 区域 + 源 L653 sed 实取 | ✅ 锚已 L653，源实文「复盘后清晰意识到：本次自媒体项目所有短板都集中在L1、L2、L3基础层级…」吻合 |
+| ④-3 tianli L72 标点回真 | 卡文 vs 源 L1333 grep 实取 | ✅「——」已回源原标点 |
+| ④-4 六卡 pre-submit 复跑 | 本侧独立复跑 6 卡（O3=重跑） | ✅ 全 PASS，QUOTE_VERBATIM 0 / SOURCE_RANGE 0，与生产者声称一致 |
+
+### 防回归与范围核验
+
+- 返工 commit b63dd2efb diff 范围与声称逐字对上：仅 tianli 2 行（L72/L177 两处）+ xingzhi 1 行（锚）+任务单，yongbo/nongfu/huangqian/simonpeng 四卡与 dk 卡本体未被本轮改动波及 ✅
+- R1 闭环项抽查：tianli 卡内 L1065 检索 0 命中、L80/L140 培训周期锚=L1075 ✅；nongfu L171 / huangqian L71·L184 三处 dk 互链锚=L167 ✅
+
+### 通过维度（沿 R1/R2 已实证面）
+
+- O0 溯源（R1 六段源素材全读+逐锚对源，32+2+3 项 R1 闭环、R2 四处 R3 闭环）、外部引证 2/2 属实（R1）、related 存在性核查全过（R1）、O8 定位声明在位、pre-submit 六卡全 PASS（本轮独立复跑）
+
+### 观察项（不阻断）
+
+- 引文内中英文之间空格为卡片统一排版插入（源文无空格，如「这个 AI」vs 源「这个AI」）——词面+标点全对、全卡风格统一、检查器放行，属排版惯例非伪逐字，记录备查
+- QUOTE_VERBATIM 检查器盲区（R2 实证：子串摘录/短引文换词可绕过）——建议书已在案，本单三轮史即活证
+
+**存在性核查**：本节含「0 命中」类表述一处（tianli 卡内 L1065 检索）——实证命令 `grep -c "L1065" 30_wiki/cases/case-live258-tianli-gov-training.md` 输出 0（2026-09-10 本侧亲跑）。
+
+### 复审轮数说明
+
+R1 FAIL（32 处伪逐字）→ R2 FAIL（清单外新发现 3 处）→ R3 全闭环。三轮上限内收敛，无需升级用户拍板。
 
