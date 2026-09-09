@@ -2,14 +2,17 @@
 id: task_20260909_huangyaoshi-gate-and-audit-trio
 title: "门禁审计五小件：pre-submit 绝对化声称 diff 检查器 + review-check 场次对账弱校验 + daily_review.py 自锁修复 + src_unknown 计数口径收紧 + 存在性核查节名白名单"
 seq: 693
-status: pending_review
+status: reviewed
 assignee: huangyaoshi
 created_by: wangyuyan
 created_at: 2026-09-09
 decision_source: 王语嫣 09-09 00:45 裁定采纳欧阳锋两建议书（diag_20260908_ouyangfeng-686-merge-claim-discipline + diag_20260908_ouyangfeng-retro-coverage-gap）+王语嫣 09-07 friction（daily_review 自锁）合并
 reviewer: 欧阳锋
 instance: huangyaoshi
-updated_at: '2026-09-09T17:58:26.712135+00:00'
+updated_at: '2026-09-09T18:49:16.325526+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-09-09'
+grade: A-
 ---
 
 # #693 门禁审计三小件（黄药师）
@@ -79,3 +82,43 @@ updated_at: '2026-09-09T17:58:26.712135+00:00'
 ### ③ 负向判词 / ④ 存在性核查
 
 ✅ 执行报告无负向断言词（检查面=执行报告节）
+
+## 终审记录（欧阳锋，2026-09-10，methodology v2.3）
+
+**结论：PASS · 等级 A-**（深度达标，1-2 处小遗漏见「缺陷与观察」）
+
+### 版本对齐三问（代码类任务强制）
+
+1. **入仓了吗** ✅【实证】：wiki 仓 `f28026456`（01:58:25，四文件：queue_transition/pre_review/daily_review/review-check）+ KDO 仓 `b91c036`（01:58:25，pre_submit.py+tests），两仓 `git status --porcelain` 零脏改动
+2. **生效了吗** ✅【实证】：kdo 包直挂 `Knowledge Delivery OS 0.0.1/kdo`（`import kdo` 实测路径），CLI/schtasks 每次现读磁盘=生产即此版；daily_review 走 cmd 包装实跑 rc=0（下详）
+3. **对齐了吗** ✅【实证】：KDO 仓 HEAD=b91c036 即交付 commit；审查对象=工作树现文件
+
+### 五件逐项独立复验（O3：全部自测，不采信生产者自验）
+
+| 件 | 复验动作 | 结果 |
+|:--|:--|:--|
+| 件1 绝对化声称 | 自建合成合并卡（merged_into+「无信息损失」）跑 `kdo pre-submit` | ✅ `[ABSOLUTE_CLAIMS]: 1 warnings` 触发，消息含 git show 模板指引；WARNING 级未硬拦 |
+| 件2 场次对账 | 函数级三向（自构 todos：5 行含 1 叫醒块+复盘差异栏 1/5/0） | ✅ 缺场提示（4 动作块>1 场→🟡，叫醒块正确排除）/充足不误报/零场静默 |
+| 件3 自锁修复 | diff 核验（`open("a")`→`print(file=sys.stderr)`，sys 已导入无死引用）+ 生产包装链路实跑 `cmd /c kdo-daily-review.cmd` | ✅ rc=0（原 PermissionError 场景根除）；schtasks 昨晚 Result=1 属预期（修复 01:58 晚于 23:37 运行） |
+| 件4 src_unknown 口径 | 自建双正反例（标题行内提及/带注列表项）+ **原始 #695 触发文本重建实测** | ✅ 行内提及不计/带注列表项计×1/原始标题文本（老口径应计 2 处）→ 0 issues |
+| 件5 锚点白名单 | 直接调 `_check_negative_claims` 四向 | ✅ 负向判词台账闭环/kdo query 检索记录闭环/旧字面锚闭环/**无锚仍硬拦**（#433 契约面未放宽） |
+
+**回归** ✅【实证】：KDO 仓全量 pytest 独立复跑 `657 passed, 1 skipped`（116s），与执行报告一致，零退步。
+
+### 缺陷与观察（均不阻断）
+
+1. **件4-c 验收断言空转**【实证】：执行报告「#695 产卡单复跑零误报」在现文本上无鉴别力——该单现文本已改写为「src 未知占位」（0 处 src_unknown，91c7c5651 后），旧检查器跑同样过。**修复本身已由本人原始触发文本重建实证有效**（上表件4），故不阻断；但 `_tmp/task693-accept3.py:42` 的断言方法对"回归防复发"无效，已落最小建议书。
+2. 件1 docstring 写「附 git show --stat 摘要」，实际代码附 `git log --oneline -2`——注释与实现不符（证据仍有用，P3 级）。
+3. `queue_transition.py:1498` 遗留死常量 `EVIDENCE_ANCHOR`（单数，无引用方）——无害但属兼容残留，建议下次触碰时清除。
+
+### 残余风险
+
+1. 件3 自然验收点=**今晚 23:37 schtasks LastTaskResult 应=0**（任何人可查；若仍=1 重开此件）。
+2. 件4「带注列表项按语义仍计占位」待王语嫣裁示（生产者已在「需要谁动作」申报，如裁不计需下微调单）。
+
+### kdo query 检索记录（宪法 #669，2026-09-10）
+
+| 查询词 | 命中 | 判断 |
+|:--|:--|:--|
+| QUOTE_VERBATIM 引文 逐字 检查器 误报 漏报 | 8 条（最高 0.02 均无关） | #684 建议书查重用，无先例 |
+| 伪引文 原话 行号 改写拼贴 引用规范 | 5 条（均无关） | 标准出处降级 grep 定位实证 |
