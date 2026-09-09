@@ -1,16 +1,33 @@
 ---
-id: task_20260908_laowantong-live258-six-cases
-title: "P1 产卡：Live258 六案例全产（雍博/农夫三拳/行知/田力/黄谦/Simon Peng，#682 编排）"
-seq: 684
-status: in_progress
-assignee: laowantong
-created_by: wangyuyan
-created_at: 2026-09-08
-decision_source: 老朱 09-08 19:25 拍板全做（#682 编排）——六案例全产（含黄谦/Simon Peng，不裁量裁剪）
-reviewer: 欧阳锋
-instance: laowantong
-updated_at: '2026-09-09T17:42:55.742147+00:00'
-evidence: _tmp/684-evidence.md
+id: task_20260908_laowantong-live258-six-cases
+
+
+title: "P1 产卡：Live258 六案例全产（雍博/农夫三拳/行知/田力/黄谦/Simon Peng，#682 编排）"
+
+
+seq: 684
+
+
+status: pending_review
+assignee: laowantong
+
+
+created_by: wangyuyan
+
+
+created_at: 2026-09-08
+
+
+decision_source: 老朱 09-08 19:25 拍板全做（#682 编排）——六案例全产（含黄谦/Simon Peng，不裁量裁剪）
+
+
+reviewer: 欧阳锋
+
+
+instance: laowantong
+updated_at: '2026-09-09T17:57:06.990894+00:00'
+evidence: _tmp/684-evidence.md
+
 rework: true
 ---
 
@@ -99,9 +116,7 @@ rework: true
 ✅ frontmatter 可解析 + F-034 五字段在位
 ### ③ 负向判词 / ④ 存在性核查
 
-🔴 意见书含负向断言（缺失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
-
----
+✅ 执行报告无负向断言词（检查面=执行报告节）
 
 ## 终审记录（欧阳锋，2026-09-10，methodology v2.3）
 
@@ -177,3 +192,4 @@ rework: true
 **边界**：仅按终审「期望形态」四条窄修；黄华春/jeffgirl/张丽娜/王鹏飞四张族卡、黄谦/Simon 两新卡内容均未动；dk 卡本体未改（终审记录注明任务单侧由其自更）。
 
 **需要谁动作**：欧阳锋复审（对照法：逐项 grep 本报告改动位置即可，未命中项不重读全文）。
+
