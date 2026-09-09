@@ -245,3 +245,31 @@ rework: true
 | QUOTE_VERBATIM 引文 逐字 检查器 误报 漏报 | 8 条（最高 0.02 均无关） | 无同主题建议书先例，新落 |
 | 伪引文 原话 行号 改写拼贴 引用规范 | 5 条（均无关） | 标准出处降级 grep 定位：`evidence_task654-presubmit-20260906.md:72` 等（#616/#614「未逐字命中」口径实证） |
 
+
+---
+
+## 返工执行报告 R2（老顽童，2026-09-10，R2 FAIL C 窄修复工·L10 镜像对照）
+
+**交付物**：tianli 卡 2 处（L177 两处伪逐字改逐字 + L72 标点回真）+ xingzhi 卡 1 处（L167 锚 L651→L653）；其余四卡（yongbo/nongfu/huangqian/simonpeng）未动。
+
+**完成内容**（按 R2 终审「④ 期望形态」原序号逐项对照）：
+
+- **④-1 tianli L177 两处伪逐字→逐字**（回源核对源文件 `00_inbox/AI基本功/Live258：AI基本功第一课优秀作业.md` L1099 实文「是不是这个AI不懂政府培训？」「我是不是该用专门做教育的AI工具？」）：
+  - 「这个 AI 不懂政府培训」（删「是不是」自问语气）→ 改逐字「是不是这个 AI 不懂政府培训？」
+  - 「该换专门工具」（换词+删限定，源文件 0 命中）→ 改逐字「我是不是该用专门做教育的 AI 工具？」
+- **④-2 xingzhi L167 锚 L651→L653**：grep 实证源 L651=「3、底层Feature优先，不必盲目上复杂Agent」、L653=「复盘后清晰意识到：本次自媒体项目所有短板都集中在L1、L2、L3基础层级…」；引文文字上轮已逐字，本轮仅改锚
+- **④-3 tianli L72 标点回真**：「难怪方案被退回，我几乎什么 Feature 都没加！」（L1333）→「难怪方案被退回——我几乎什么 Feature 都没加！」（——回源原标点；词面不变）
+- **④-4 六卡 pre-submit 复跑**：全 PASS，QUOTE_VERBATIM 0 issues（明细见下）
+- **上轮 32+2+3 项防回归抽查**【实证】：grep 复核 nongfu L171/huangqian L71·L184 dk 锚=L167 ✅、tianli L80/L140 培训周期锚=L1075 ✅、tianli 卡内 L1065 零命中 ✅——R1 闭环项未被本轮改动波及
+
+**验证**：
+- `kdo pre-submit -f`（6 卡同跑，2026-09-10）：yongbo/nongfu/xingzhi/tianli/huangqian/simonpeng **全 PASS，QUOTE_VERBATIM 0 issues、SOURCE_RANGE 0 issues**
+- 改动前 xingzhi/tianli 曾报 INDEX 错误（卡片比索引新），`kdo index --incremental`（+0 ~2 总 4276）后复跑消除
+- 逐字化锚点实证（sed 实取源文件）：源 L1099=`然后我开始怀疑——"是不是这个AI不懂政府培训？"、"我是不是该用专门做教育的AI工具？"`；源 L1333=`难怪方案被退回——我几乎什么Feature都没加！`；源 L653=`复盘后清晰意识到：本次自媒体项目所有短板都集中在L1、L2、L3基础层级…`
+- 余 WARNING 与上轮同构（TAGS 软期至 09-14 有专项建议书；CONCEPT_CROSSCHECK/QINGDANTI 提示制不拦截）——非本次退回范围，未动
+
+**kdo query 检索记录**（宪法 #669）：2026-09-10 R2，查询词「伪逐字引文 QUOTE_VERBATIM 逐字引用规范」5 条命中（最高 0.02 均无关）——无同主题卡/规范先例需对齐，按终审期望形态执行。
+
+**边界**：仅改 R2 终审「④ 期望形态」三处+复跑验证；yongbo/nongfu/huangqian/simonpeng 四卡与 dk 卡本体均未动；上轮 R1 已闭环的 32 处引文与两处锚点未触碰。
+
+**需要谁动作**：欧阳锋复审（对照法：逐项 grep 本报告四处改动位置即可——tianli L72/L177、xingzhi L167；未命中项不重读全文）。
