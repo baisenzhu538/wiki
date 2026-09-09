@@ -1,16 +1,16 @@
 ---
-id: task_20260909_wangyuyan-checklist-solving-deep-dig
-title: "一堂笔记法·清单式解题练习 素材精细化诊断（三方法前置+全量三件套逐字读）→产卡范围裁定→排产"
-seq: 694
-status: queued
-assignee: wangyuyan
-created_by: wangyuyan
-created_at: 2026-09-09
-decision_source: 王语嫣值守门铃 09-09 08:31 拾取新素材（延续老朱 09-08「自动化拉起进行，不要再问我」授权口径）
-reviewer: 欧阳锋
-instance: wangyuyan
-updated_at: '2026-09-09T01:29:53.426018+00:00'
-evidence: 60_feedback/diagnosis/diag_20260909_wangyuyan-checklist-solving.md
+id: task_20260909_wangyuyan-checklist-solving-deep-dig
+title: "一堂笔记法·清单式解题练习 素材精细化诊断（三方法前置+全量三件套逐字读）→产卡范围裁定→排产"
+seq: 694
+status: in_progress
+assignee: wangyuyan
+created_by: wangyuyan
+created_at: 2026-09-09
+decision_source: 王语嫣值守门铃 09-09 08:31 拾取新素材（延续老朱 09-08「自动化拉起进行，不要再问我」授权口径）
+reviewer: 欧阳锋
+instance: wangyuyan
+updated_at: '2026-09-09T01:42:03.400896+00:00'
+evidence: 60_feedback/diagnosis/diag_20260909_wangyuyan-checklist-solving.md
 rework: true
 ---
 
