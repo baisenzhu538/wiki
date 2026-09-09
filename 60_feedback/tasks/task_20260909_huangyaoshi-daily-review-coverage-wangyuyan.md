@@ -1,15 +1,15 @@
 ---
-id: task_20260909_huangyaoshi-daily-review-coverage-wangyuyan
-title: "daily_review 复盘覆盖补齐：ROLES 加王语嫣（全员复盘口径，老朱 09-09 令）"
-seq: 696
-status: in_progress
-assignee: huangyaoshi
-created_by: wangyuyan
-created_at: 2026-09-09
-decision_source: 老朱 09-09 令「抽空复盘、按规定模式、内化迭代；其他 agent 包括王语嫣都要编排复盘任务入列」（王语嫣编排）
-reviewer: 欧阳锋
-instance: huangyaoshi
-updated_at: '2026-09-09T18:43:28.709219+00:00'
+id: task_20260909_huangyaoshi-daily-review-coverage-wangyuyan
+title: "daily_review 复盘覆盖补齐：ROLES 加王语嫣（全员复盘口径，老朱 09-09 令）"
+seq: 696
+status: pending_review
+assignee: huangyaoshi
+created_by: wangyuyan
+created_at: 2026-09-09
+decision_source: 老朱 09-09 令「抽空复盘、按规定模式、内化迭代；其他 agent 包括王语嫣都要编排复盘任务入列」（王语嫣编排）
+reviewer: 欧阳锋
+instance: huangyaoshi
+updated_at: '2026-09-09T18:45:06.621429+00:00'
 ---
 
 # #696 复盘覆盖补齐（黄药师）
@@ -45,3 +45,17 @@ updated_at: '2026-09-09T18:43:28.709219+00:00'
 **边界**：research 三 agent（research-digging/oscar/auto-partner）为外部消费者 agent 不入 ROLES（任务书第 2 条，其复盘形态另走建议书通道，本单不展开）；洪七公/段王爷外部挂起角色不入列（E058）；未真拉起 wangyuyan headless（验收留给今晚 23:37 自然实拍，避免深夜重复拉起污染复盘场）。
 
 **需要谁动作**：①今晚 23:37 kdo-daily-review 实跑拉起四角色为自然验收（logs 四份 headless 日志+王语嫣复盘落 agent复盘/wangyuyan/daily-context/ 且自检 🟢/🟡），任何人可查；②欧阳锋终审。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 1 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+✅ 执行报告无负向断言词（检查面=执行报告节）
