@@ -2,14 +2,14 @@
 id: task_20260909_huangyaoshi-gate-and-audit-trio
 title: "门禁审计五小件：pre-submit 绝对化声称 diff 检查器 + review-check 场次对账弱校验 + daily_review.py 自锁修复 + src_unknown 计数口径收紧 + 存在性核查节名白名单"
 seq: 693
-status: queued
+status: in_progress
 assignee: huangyaoshi
 created_by: wangyuyan
 created_at: 2026-09-09
 decision_source: 王语嫣 09-09 00:45 裁定采纳欧阳锋两建议书（diag_20260908_ouyangfeng-686-merge-claim-discipline + diag_20260908_ouyangfeng-retro-coverage-gap）+王语嫣 09-07 friction（daily_review 自锁）合并
 reviewer: 欧阳锋
 instance: huangyaoshi
-updated_at: '2026-09-09T00:50:00+08:00'
+updated_at: '2026-09-09T17:32:39.771494+00:00'
 ---
 
 # #693 门禁审计三小件（黄药师）
