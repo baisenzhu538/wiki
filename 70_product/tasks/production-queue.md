@@ -570,6 +570,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#691 task_20260908_wangyuyan-zengming-smart-strategy-deep-dig｜wangyuyan｜提审 09-08 23:45｜60_feedback/tasks/task_20260908_wangyuyan-zengming-smart-strategy-deep-dig.md~~ → 已终审 PASS A-（2026-09-08 欧阳锋）
 - ~~#694 task_20260909_wangyuyan-checklist-solving-deep-dig｜wangyuyan｜提审 09-09 08:59｜60_feedback/tasks/task_20260909_wangyuyan-checklist-solving-deep-dig.md~~ → 终审退回 queued（2026-09-09 欧阳锋）
 - ~~#694 task_20260909_wangyuyan-checklist-solving-deep-dig｜wangyuyan｜提审 09-09 10:00｜60_feedback/tasks/task_20260909_wangyuyan-checklist-solving-deep-dig.md~~ → 已终审 PASS A-（2026-09-09 欧阳锋）
+- #684 task_20260908_laowantong-live258-six-cases｜laowantong｜提审 09-10 01:02｜60_feedback/tasks/task_20260908_laowantong-live258-six-cases.md
 
 <!-- REVIEW-PENDING-END -->
 
@@ -579,38 +580,6 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 
 > 王语嫣维护看板时处理：诊断 → 写任务单 → 入队后把对应行划掉。编排规则不变，这里只解决「没人被通知」。
 
-- ~~00_inbox/pending-cards/distill-external-20260906-08.md｜P2｜1136B｜检测到 09-06 16:01｜待王语嫣编排~~ → 门禁 PASS 纳入蒸馏候选池（09-07 00:20 王语嫣）：#645 管线每日增量（09-06 对话蒸馏 32 张，全部 external 层）；机械门禁 32/32 溯源在+锚全非空；内容自指今日工厂作业（DataPack规范/三源校勘法等），与今日已产交付物重叠度高——随下次拍板批统一查重后定去留
-- ~~00_inbox/pending-cards/distill-external-20260906-09.md｜P2｜951B｜检测到 09-06 16:01｜待王语嫣编排~~ → 门禁 PASS 纳入蒸馏候选池（09-07 00:20 王语嫣）：#645 管线每日增量（09-06 对话蒸馏 32 张，全部 external 层）；机械门禁 32/32 溯源在+锚全非空；内容自指今日工厂作业（DataPack规范/三源校勘法等），与今日已产交付物重叠度高——随下次拍板批统一查重后定去留
-- ~~00_inbox/pending-cards/distill-external-20260906-10.md｜P2｜1045B｜检测到 09-06 16:01｜待王语嫣编排~~ → 门禁 PASS 纳入蒸馏候选池（09-07 00:20 王语嫣）：#645 管线每日增量（09-06 对话蒸馏 32 张，全部 external 层）；机械门禁 32/32 溯源在+锚全非空；内容自指今日工厂作业（DataPack规范/三源校勘法等），与今日已产交付物重叠度高——随下次拍板批统一查重后定去留
-- ~~00_inbox/pending-cards/distill-external-20260906-11.md｜P2｜1123B｜检测到 09-06 16:01｜待王语嫣编排~~ → 门禁 PASS 纳入蒸馏候选池（09-07 00:20 王语嫣）：#645 管线每日增量（09-06 对话蒸馏 32 张，全部 external 层）；机械门禁 32/32 溯源在+锚全非空；内容自指今日工厂作业（DataPack规范/三源校勘法等），与今日已产交付物重叠度高——随下次拍板批统一查重后定去留
-- ~~00_inbox/pending-cards/distill-external-20260906-12.md｜P2｜1019B｜检测到 09-06 16:01｜待王语嫣编排~~ → 门禁 PASS 纳入蒸馏候选池（09-07 00:20 王语嫣）：#645 管线每日增量（09-06 对话蒸馏 32 张，全部 external 层）；机械门禁 32/32 溯源在+锚全非空；内容自指今日工厂作业（DataPack规范/三源校勘法等），与今日已产交付物重叠度高——随下次拍板批统一查重后定去留
-- ~~00_inbox/pending-cards/distill-external-20260906-13.md｜P2｜1089B｜检测到 09-06 16:01｜待王语嫣编排~~ → 门禁 PASS 纳入蒸馏候选池（09-07 00:20 王语嫣）：#645 管线每日增量（09-06 对话蒸馏 32 张，全部 external 层）；机械门禁 32/32 溯源在+锚全非空；内容自指今日工厂作业（DataPack规范/三源校勘法等），与今日已产交付物重叠度高——随下次拍板批统一查重后定去留
-- ~~00_inbox/pending-cards/distill-external-20260906-14.md｜P2｜977B｜检测到 09-06 16:01｜待王语嫣编排~~ → 门禁 PASS 纳入蒸馏候选池（09-07 00:20 王语嫣）：#645 管线每日增量（09-06 对话蒸馏 32 张，全部 external 层）；机械门禁 32/32 溯源在+锚全非空；内容自指今日工厂作业（DataPack规范/三源校勘法等），与今日已产交付物重叠度高——随下次拍板批统一查重后定去留
-- ~~00_inbox/pending-cards/distill-external-20260906-15.md｜P2｜954B｜检测到 09-06 16:01｜待王语嫣编排~~ → 门禁 PASS 纳入蒸馏候选池（09-07 00:20 王语嫣）：#645 管线每日增量（09-06 对话蒸馏 32 张，全部 external 层）；机械门禁 32/32 溯源在+锚全非空；内容自指今日工厂作业（DataPack规范/三源校勘法等），与今日已产交付物重叠度高——随下次拍板批统一查重后定去留
-- ~~00_inbox/pending-cards/distill-external-20260906-16.md｜P2｜914B｜检测到 09-06 16:01｜待王语嫣编排~~ → 门禁 PASS 纳入蒸馏候选池（09-07 00:20 王语嫣）：#645 管线每日增量（09-06 对话蒸馏 32 张，全部 external 层）；机械门禁 32/32 溯源在+锚全非空；内容自指今日工厂作业（DataPack规范/三源校勘法等），与今日已产交付物重叠度高——随下次拍板批统一查重后定去留
-- ~~00_inbox/pending-cards/distill-external-20260906-17.md｜P2｜909B｜检测到 09-06 16:01｜待王语嫣编排~~ → 门禁 PASS 纳入蒸馏候选池（09-07 00:20 王语嫣）：#645 管线每日增量（09-06 对话蒸馏 32 张，全部 external 层）；机械门禁 32/32 溯源在+锚全非空；内容自指今日工厂作业（DataPack规范/三源校勘法等），与今日已产交付物重叠度高——随下次拍板批统一查重后定去留
-- ~~00_inbox/pending-cards/distill-external-20260906-18.md｜P2｜978B｜检测到 09-06 16:01｜待王语嫣编排~~ → 门禁 PASS 纳入蒸馏候选池（09-07 00:20 王语嫣）：#645 管线每日增量（09-06 对话蒸馏 32 张，全部 external 层）；机械门禁 32/32 溯源在+锚全非空；内容自指今日工厂作业（DataPack规范/三源校勘法等），与今日已产交付物重叠度高——随下次拍板批统一查重后定去留
-- ~~00_inbox/pending-cards/distill-external-20260906-19.md｜P2｜1262B｜检测到 09-06 16:01｜待王语嫣编排~~ → 门禁 PASS 纳入蒸馏候选池（09-07 00:20 王语嫣）：#645 管线每日增量（09-06 对话蒸馏 32 张，全部 external 层）；机械门禁 32/32 溯源在+锚全非空；内容自指今日工厂作业（DataPack规范/三源校勘法等），与今日已产交付物重叠度高——随下次拍板批统一查重后定去留
-- ~~00_inbox/pending-cards/distill-external-20260906-20.md｜P2｜973B｜检测到 09-06 16:01｜待王语嫣编排~~ → 门禁 PASS 纳入蒸馏候选池（09-07 00:20 王语嫣）：#645 管线每日增量（09-06 对话蒸馏 32 张，全部 external 层）；机械门禁 32/32 溯源在+锚全非空；内容自指今日工厂作业（DataPack规范/三源校勘法等），与今日已产交付物重叠度高——随下次拍板批统一查重后定去留
-- ~~00_inbox/pending-cards/distill-external-20260906-21.md｜P2｜1006B｜检测到 09-06 16:01｜待王语嫣编排~~ → 门禁 PASS 纳入蒸馏候选池（09-07 00:20 王语嫣）：#645 管线每日增量（09-06 对话蒸馏 32 张，全部 external 层）；机械门禁 32/32 溯源在+锚全非空；内容自指今日工厂作业（DataPack规范/三源校勘法等），与今日已产交付物重叠度高——随下次拍板批统一查重后定去留
-- ~~00_inbox/pending-cards/distill-external-20260906-22.md｜P2｜1082B｜检测到 09-06 16:01｜待王语嫣编排~~ → 门禁 PASS 纳入蒸馏候选池（09-07 00:20 王语嫣）：#645 管线每日增量（09-06 对话蒸馏 32 张，全部 external 层）；机械门禁 32/32 溯源在+锚全非空；内容自指今日工厂作业（DataPack规范/三源校勘法等），与今日已产交付物重叠度高——随下次拍板批统一查重后定去留
-- ~~00_inbox/pending-cards/distill-external-20260906-23.md｜P2｜956B｜检测到 09-06 16:01｜待王语嫣编排~~ → 门禁 PASS 纳入蒸馏候选池（09-07 00:20 王语嫣）：#645 管线每日增量（09-06 对话蒸馏 32 张，全部 external 层）；机械门禁 32/32 溯源在+锚全非空；内容自指今日工厂作业（DataPack规范/三源校勘法等），与今日已产交付物重叠度高——随下次拍板批统一查重后定去留
-- ~~00_inbox/pending-cards/distill-external-20260906-24.md｜P2｜1041B｜检测到 09-06 16:01｜待王语嫣编排~~ → 门禁 PASS 纳入蒸馏候选池（09-07 00:20 王语嫣）：#645 管线每日增量（09-06 对话蒸馏 32 张，全部 external 层）；机械门禁 32/32 溯源在+锚全非空；内容自指今日工厂作业（DataPack规范/三源校勘法等），与今日已产交付物重叠度高——随下次拍板批统一查重后定去留
-- ~~00_inbox/pending-cards/distill-external-20260906-25.md｜P2｜1026B｜检测到 09-06 16:01｜待王语嫣编排~~ → 门禁 PASS 纳入蒸馏候选池（09-07 00:20 王语嫣）：#645 管线每日增量（09-06 对话蒸馏 32 张，全部 external 层）；机械门禁 32/32 溯源在+锚全非空；内容自指今日工厂作业（DataPack规范/三源校勘法等），与今日已产交付物重叠度高——随下次拍板批统一查重后定去留
-- ~~00_inbox/pending-cards/distill-external-20260906-26.md｜P2｜1029B｜检测到 09-06 16:01｜待王语嫣编排~~ → 门禁 PASS 纳入蒸馏候选池（09-07 00:20 王语嫣）：#645 管线每日增量（09-06 对话蒸馏 32 张，全部 external 层）；机械门禁 32/32 溯源在+锚全非空；内容自指今日工厂作业（DataPack规范/三源校勘法等），与今日已产交付物重叠度高——随下次拍板批统一查重后定去留
-- ~~00_inbox/pending-cards/distill-external-20260906-27.md｜P2｜1147B｜检测到 09-06 16:01｜待王语嫣编排~~ → 门禁 PASS 纳入蒸馏候选池（09-07 00:20 王语嫣）：#645 管线每日增量（09-06 对话蒸馏 32 张，全部 external 层）；机械门禁 32/32 溯源在+锚全非空；内容自指今日工厂作业（DataPack规范/三源校勘法等），与今日已产交付物重叠度高——随下次拍板批统一查重后定去留
-- ~~00_inbox/pending-cards/distill-external-20260906-28.md｜P2｜1083B｜检测到 09-06 16:01｜待王语嫣编排~~ → 门禁 PASS 纳入蒸馏候选池（09-07 00:20 王语嫣）：#645 管线每日增量（09-06 对话蒸馏 32 张，全部 external 层）；机械门禁 32/32 溯源在+锚全非空；内容自指今日工厂作业（DataPack规范/三源校勘法等），与今日已产交付物重叠度高——随下次拍板批统一查重后定去留
-- ~~00_inbox/pending-cards/distill-external-20260906-29.md｜P2｜1113B｜检测到 09-06 16:01｜待王语嫣编排~~ → 门禁 PASS 纳入蒸馏候选池（09-07 00:20 王语嫣）：#645 管线每日增量（09-06 对话蒸馏 32 张，全部 external 层）；机械门禁 32/32 溯源在+锚全非空；内容自指今日工厂作业（DataPack规范/三源校勘法等），与今日已产交付物重叠度高——随下次拍板批统一查重后定去留
-- ~~00_inbox/pending-cards/distill-external-20260906-30.md｜P2｜994B｜检测到 09-06 16:01｜待王语嫣编排~~ → 门禁 PASS 纳入蒸馏候选池（09-07 00:20 王语嫣）：#645 管线每日增量（09-06 对话蒸馏 32 张，全部 external 层）；机械门禁 32/32 溯源在+锚全非空；内容自指今日工厂作业（DataPack规范/三源校勘法等），与今日已产交付物重叠度高——随下次拍板批统一查重后定去留
-- ~~00_inbox/pending-cards/distill-external-20260906-31.md｜P2｜1039B｜检测到 09-06 16:01｜待王语嫣编排~~ → 门禁 PASS 纳入蒸馏候选池（09-07 00:20 王语嫣）：#645 管线每日增量（09-06 对话蒸馏 32 张，全部 external 层）；机械门禁 32/32 溯源在+锚全非空；内容自指今日工厂作业（DataPack规范/三源校勘法等），与今日已产交付物重叠度高——随下次拍板批统一查重后定去留
-- ~~00_inbox/pending-cards/distill-external-20260906-32.md｜P2｜1155B｜检测到 09-06 16:01｜待王语嫣编排~~ → 门禁 PASS 纳入蒸馏候选池（09-07 00:20 王语嫣）：#645 管线每日增量（09-06 对话蒸馏 32 张，全部 external 层）；机械门禁 32/32 溯源在+锚全非空；内容自指今日工厂作业（DataPack规范/三源校勘法等），与今日已产交付物重叠度高——随下次拍板批统一查重后定去留
-- ~~00_inbox/pending-cards/distill-human-20260906-01.md｜P2｜962B｜检测到 09-06 16:01｜待王语嫣编排~~ → 门禁 PASS 纳入蒸馏候选池·人域隐私受控（09-07 00:25 王语嫣）：human 层 6 张（对人洞察），机械门禁 6/6 过；处置=随 #667 人域批统一裁定（产卡目标 personal-os/人域，隐私面不外流）
-- ~~00_inbox/pending-cards/distill-human-20260906-02.md｜P2｜875B｜检测到 09-06 16:01｜待王语嫣编排~~ → 门禁 PASS 纳入蒸馏候选池·人域隐私受控（09-07 00:25 王语嫣）：human 层 6 张（对人洞察），机械门禁 6/6 过；处置=随 #667 人域批统一裁定（产卡目标 personal-os/人域，隐私面不外流）
-- ~~00_inbox/pending-cards/distill-human-20260906-03.md｜P2｜976B｜检测到 09-06 16:01｜待王语嫣编排~~ → 门禁 PASS 纳入蒸馏候选池·人域隐私受控（09-07 00:25 王语嫣）：human 层 6 张（对人洞察），机械门禁 6/6 过；处置=随 #667 人域批统一裁定（产卡目标 personal-os/人域，隐私面不外流）
-- ~~00_inbox/pending-cards/distill-human-20260906-04.md｜P2｜959B｜检测到 09-06 16:01｜待王语嫣编排~~ → 门禁 PASS 纳入蒸馏候选池·人域隐私受控（09-07 00:25 王语嫣）：human 层 6 张（对人洞察），机械门禁 6/6 过；处置=随 #667 人域批统一裁定（产卡目标 personal-os/人域，隐私面不外流）
-- ~~00_inbox/pending-cards/distill-human-20260906-05.md｜P2｜1060B｜检测到 09-06 16:01｜待王语嫣编排~~ → 门禁 PASS 纳入蒸馏候选池·人域隐私受控（09-07 00:25 王语嫣）：human 层 6 张（对人洞察），机械门禁 6/6 过；处置=随 #667 人域批统一裁定（产卡目标 personal-os/人域，隐私面不外流）
-- ~~00_inbox/pending-cards/distill-human-20260906-06.md｜P2｜954B｜检测到 09-06 16:01｜待王语嫣编排~~ → 门禁 PASS 纳入蒸馏候选池·人域隐私受控（09-07 00:25 王语嫣）：human 层 6 张（对人洞察），机械门禁 6/6 过；处置=随 #667 人域批统一裁定（产卡目标 personal-os/人域，隐私面不外流）
-- ~~00_inbox/pending-cards/case-wechat-5ecea4cc1eb4f87f.md｜P2｜3612B｜检测到 09-07 00:31｜待王语嫣编排~~ → 同上随批（09-07 09:15 王语嫣）：自动 case 卡为本体建模转录衍生，随挖矿批统一查重处置
 - ~~00_inbox/wechat-collect/src_wechat_5ecea4cc1eb4f87f.md｜P2｜8364B｜检测到 09-07 00:31｜待王语嫣编排~~ → 分诊入挖矿优先批（09-07 09:15 王语嫣）：本体建模（Ontology Modeling 五概念，茶业供应链案例）8.4KB——KDO 架构/「知识库 vs 本体论」（R18-05）直接相关高价值；ASR 小模型误听标注使用；随 A1 挖矿流水线优先开采
 - 00_inbox/pending-cards/distill-external-20260907-01.md｜P2｜1101B｜检测到 09-07 16:01｜待王语嫣编排
 - 00_inbox/pending-cards/distill-external-20260907-02.md｜P2｜1132B｜检测到 09-07 16:01｜待王语嫣编排
@@ -699,6 +668,38 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - 00_inbox/wechat-collect/src_wechat_article_tt_699097c63ad8826a.md｜P2｜10699B｜检测到 09-08 16:41｜待王语嫣编排
 - 00_inbox/清单式解题练习/｜P2｜3件｜检测到 09-09 00:31｜待王语嫣编排（#651 目录级登记：内件不在扫描面，需文件级跟踪→加入 SCAN_SUBDIRS）
 - 00_inbox/pending-cards/case-wechat-article_tt_699097c63ad8826a.md｜P2｜4655B｜检测到 09-09 00:51｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260909-01.md｜P2｜1111B｜检测到 09-09 15:51｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260909-02.md｜P2｜1129B｜检测到 09-09 15:51｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260909-03.md｜P2｜1090B｜检测到 09-09 15:51｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260909-04.md｜P2｜1093B｜检测到 09-09 15:51｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260909-05.md｜P2｜1157B｜检测到 09-09 15:51｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260909-06.md｜P2｜1294B｜检测到 09-09 15:51｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260909-07.md｜P2｜1114B｜检测到 09-09 15:51｜待王语嫣编排
+- 00_inbox/pending-cards/distill-human-20260909-01.md｜P2｜1084B｜检测到 09-09 15:51｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260909-08.md｜P2｜975B｜检测到 09-09 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260909-09.md｜P2｜1019B｜检测到 09-09 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260909-10.md｜P2｜978B｜检测到 09-09 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260909-11.md｜P2｜1066B｜检测到 09-09 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260909-12.md｜P2｜1038B｜检测到 09-09 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260909-13.md｜P2｜916B｜检测到 09-09 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260909-14.md｜P2｜1011B｜检测到 09-09 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260909-15.md｜P2｜1021B｜检测到 09-09 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260909-16.md｜P2｜1015B｜检测到 09-09 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260909-17.md｜P2｜969B｜检测到 09-09 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260909-18.md｜P2｜1000B｜检测到 09-09 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260909-19.md｜P2｜932B｜检测到 09-09 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260909-20.md｜P2｜892B｜检测到 09-09 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260909-21.md｜P2｜921B｜检测到 09-09 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260909-22.md｜P2｜1004B｜检测到 09-09 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260909-23.md｜P2｜1026B｜检测到 09-09 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260909-24.md｜P2｜1040B｜检测到 09-09 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260909-25.md｜P2｜984B｜检测到 09-09 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260909-26.md｜P2｜1058B｜检测到 09-09 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260909-27.md｜P2｜1153B｜检测到 09-09 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260909-28.md｜P2｜934B｜检测到 09-09 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-human-20260909-02.md｜P2｜1001B｜检测到 09-09 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-human-20260909-03.md｜P2｜1016B｜检测到 09-09 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-human-20260909-04.md｜P2｜1079B｜检测到 09-09 16:01｜待王语嫣编排
 
 <!-- INBOX-PENDING-END -->
 
@@ -1325,7 +1326,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 681 | `task_20260908_wangyuyan-ai-data-basic-deep-dig` | AI 数据课（5件）+AI 基本功（51件）素材域深入挖掘：MOC先行→kdo query查重实锤（附检索记录节）→逐件判定→产卡范围建议报老朱 | reviewed | wangyuyan | 诊断报告+产卡范围建议 | 无（老朱直令插队 headless） | `60_feedback/tasks/task_20260908_wangyuyan-ai-data-basic-deep-dig.md` | 老朱 09-08 直令（小昭代书任务书）；王语嫣 09-08 补登记入队（小昭投放漏队列行）；欧阳锋终审 |
 | 682 | `task_20260908_wangyuyan-681-production-rollout` | #681 拍板落地编排：老朱拍「全做」——按诊断 §五/§七 立项 P0/P1/P2 产卡单+黄药师基建单+洪七公补采单并调度生产 | reviewed | wangyuyan | 各新立项单+编排台账（单号+拉起/留队状态）+执行报告 | #681 已 reviewed | `60_feedback/tasks/task_20260908_wangyuyan-681-production-rollout.md` | 老朱 09-08 19:25 拍板全做（小昭代书+00_inbox 投放）；王语嫣 09-08 补登记入队（小昭投放漏队列行，同 #681 前例）；欧阳锋终审 |
 | 683 | `task_20260908_laowantong-ai-data-methodology-p0` | P0 产卡：AI数据域方法论族 8 张（framework飞轮/concept三不变三聚变/tool段位图/tool治理四层/case睡前故事/case徐建数据资产/dk×2，含 ASR 校正清单） | reviewed | laowantong | 8 卡+pre-submit+三方法/自攻击证据 | #682 编排（P0 先行拉起） | `60_feedback/tasks/task_20260908_laowantong-ai-data-methodology-p0.md` | 老朱 09-08 19:25 拍板全做（#682 编排）；诊断 diag_20260908_ai-data-ai-basic-deep-dig §五-P0 为规格源；欧阳锋终审 |
-| 684 | `task_20260908_laowantong-live258-six-cases` | P1 产卡：Live258 六案例全产（雍博/农夫三拳/行知/田力/黄谦/Simon Peng，带 dk 互链前置查重缺陷项） | claimed-laowantong | laowantong | 6 卡+dk互链对照说明+pre-submit | #683 后（老顽童单线程） | `60_feedback/tasks/task_20260908_laowantong-live258-six-cases.md` | 老朱 09-08 19:25 拍板全做（#682 编排）——六案全产不裁剪；欧阳锋终审 |
+| 684 | `task_20260908_laowantong-live258-six-cases` | P1 产卡：Live258 六案例全产（雍博/农夫三拳/行知/田力/黄谦/Simon Peng，带 dk 互链前置查重缺陷项） | pending_review | laowantong | 6 卡+dk互链对照说明+pre-submit | #683 后（老顽童单线程） | `60_feedback/tasks/task_20260908_laowantong-live258-six-cases.md` | 老朱 09-08 19:25 拍板全做（#682 编排）——六案全产不裁剪；欧阳锋终审 |
 | 685 | `task_20260908_laowantong-ai-data-p2-backfill` | P2 补强补挂：半肥猫口述回填+两组互链+KDO桥接素材+ai数据理解第一课/马易族6卡 src_unknown 溯源补挂（合并工单） | queued | laowantong | 6 工作项+补挂对照表+pre-submit | #684 后（老顽童单线程） | `60_feedback/tasks/task_20260908_laowantong-ai-data-p2-backfill.md` | 老朱 09-08 19:25 拍板全做（#682 编排）；不新产卡；欧阳锋终审 |
 | 686 | `task_20260908_huangyaoshi-ai-data-domain-infra` | 基建：ai-data-domain-digest 补建（参照 ai-basic 骨架）+12+散卡注册 domain-mapping+双三角AI数据重复卡去重合并 | reviewed | huangyaoshi | digest+注册+去重后无死链 | 无（独立基建线） | `60_feedback/tasks/task_20260908_huangyaoshi-ai-data-domain-infra.md` | 老朱 09-08 19:25 拍板全做（#682 编排）；MOC 缺失=基建缺口（诊断 §〇）；欧阳锋终审 |
 | 687 | `task_20260908_hongqigong-ai-basic-png-ocr` | 补采：AI基本功域 27 张无产物 PNG OCR 补采评估（优先 040618 四种工作状态图） | queued | hongqigong | 27张评估表+040618 OCR产物 | 无（独立多模态线） | `60_feedback/tasks/task_20260908_hongqigong-ai-basic-png-ocr.md` | 老朱 09-08 19:25 拍板全做（#682 编排）；诊断 §3.2-E 为规格源；欧阳锋终审 |

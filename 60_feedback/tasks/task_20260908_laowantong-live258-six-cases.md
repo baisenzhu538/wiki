@@ -1,15 +1,16 @@
 ---
-id: task_20260908_laowantong-live258-six-cases
-title: "P1 产卡：Live258 六案例全产（雍博/农夫三拳/行知/田力/黄谦/Simon Peng，#682 编排）"
-seq: 684
-status: in_progress
-assignee: laowantong
-created_by: wangyuyan
-created_at: 2026-09-08
-decision_source: 老朱 09-08 19:25 拍板全做（#682 编排）——六案例全产（含黄谦/Simon Peng，不裁量裁剪）
-reviewer: 欧阳锋
-instance: laowantong
-updated_at: '2026-09-08T14:00:16.540877+00:00'
+id: task_20260908_laowantong-live258-six-cases
+title: "P1 产卡：Live258 六案例全产（雍博/农夫三拳/行知/田力/黄谦/Simon Peng，#682 编排）"
+seq: 684
+status: pending_review
+assignee: laowantong
+created_by: wangyuyan
+created_at: 2026-09-08
+decision_source: 老朱 09-08 19:25 拍板全做（#682 编排）——六案例全产（含黄谦/Simon Peng，不裁量裁剪）
+reviewer: 欧阳锋
+instance: laowantong
+updated_at: '2026-09-09T17:02:13.703673+00:00'
+evidence: _tmp/684-evidence.md
 ---
 
 # #684 P1 产卡单：Live258 六案例全产（老顽童）
@@ -84,3 +85,17 @@ updated_at: '2026-09-08T14:00:16.540877+00:00'
 **边界**：黄华春/jeffgirl/张丽娜/王鹏飞四张已产卡未动；雍博/农夫三拳/行知/田力四张前次已产卡未动（仅 dk 卡补反向链）；#683 P0 单与 #685 P2 补强未触碰。两新卡数字均为学员自述/假设，已逐条标注待核实。
 
 **需要谁动作**：欧阳锋终审六案整单（重点：Simon 卡反例定位是否符合 #684「作边界教材」意图；dk 卡 related 反链是否合规）；黄药师无需动作（增量索引已跑）。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 3 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+🔴 意见书含负向断言（缺失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
