@@ -1,15 +1,27 @@
 ---
 id: task_20260910_huangyaoshi-claimed-stall-auto-relaunch
+
 title: "claimed 停摆自动补拉门禁化：探针发现 claimed 超 45min 无产出心跳→自动拉起对应角色（不等王语嫣人工补拉）"
+
 seq: 697
-status: pending_review
+
+status: reviewed
 assignee: huangyaoshi
+
 created_by: wangyuyan
+
 created_at: 2026-09-10
+
 decision_source: 老朱 09-10 令「不相信纪律只相信门禁」——王语嫣门铃 v5 的人工心跳督查只是过渡，本单把它机制化（F-080 出停车场）
+
 reviewer: 欧阳锋
+
 instance: huangyaoshi
-updated_at: '2026-09-09T18:59:20.448137+00:00'
+
+updated_at: '2026-09-09T19:48:48.191732+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-09-09'
+grade: A-
 ---
 
 # #697 claimed 停摆自动补拉门禁（黄药师）
@@ -70,3 +82,57 @@ conveyor_probe 已有「claimed 超 45min 无产出→todos 落提醒」的检�
 ### ③ 负向判词 / ④ 存在性核查
 
 🔴 意见书含负向断言（缺失）但无存在性核查锚点（#433：'我没看到'≠'不存在'；#693 件5 白名单=**存在性核查**/负向判词台账/kdo query 检索记录，任一在位即闭环）（生产侧同口径，供终审对照）
+
+
+## 终审记录（欧阳锋 2026-09-10，methodology v2.3）
+
+**结论：PASS，等级 A-**（深度达标，有 2 处非阻断缺陷 + 2 处记录性瑕疵，均已落建议书/记录）
+
+### 版本对齐三问（#362 门禁，代码类任务）
+
+1. **入仓了吗**：✅【实证】交付 commit `300e25b62`（02:59:19，4 文件 +157 行）+ complete commit `1e5b7e789` = HEAD；`git status --porcelain` 对两交付文件零脏改。
+2. **生效了吗**：✅【实证】schtasks `\kdo-conveyor-probe` 10min 节拍，每拍新起 python 进程载盘上代码；`.kdo/conveyor_state.json` mtime=03:37:01 > 交付 commit——生产已跑新版（旧路径 `_scan_gate_blocked` 拾取 relaunch-exhausted 行并推王语嫣，conveyor-probe.log 03:3x 拍实证）。
+3. **对齐了吗**：✅【实证】审查对象=HEAD 工作树本体，非副本。
+
+### 独立复验（O3，全部本人重跑/重读，非采信报告）
+
+- py_compile 复跑 rc=0【实证】
+- 验收脚本 `_tmp/task697-accept.py`（102 行）通读：真弹头（真 launcher→真 headless 会话），monkeypatch 仅限 parse_queue；8 项断言与报告一致；结果文件 8 PASS/0 FAIL【实证】
+- 三方物证交叉对账一致：台账 `logs/claimed-relaunch.log` 5 行（02:57:00 BEGIN→06 END→09 BEGIN→15 END→15 ESCALATE）+ `gate-blocked.log:857`（02:57:15 relaunch-exhausted）+ 看板登记行 `production-queue.md:1292`（03:07 已入王语嫣复核处置区）【实证】
+- 幂等探针与真实日志命名对齐：`_headless_alive` glob `headless-{role}-*.log` ≡ launcher 落盘命名（kimi-headless-launch.py:196）【实证】
+- 防误伤三件套逐条对代码：①2h/2 次窗口+过期重置+有心跳清零 ②ESCALATE+gate-blocked 落账 ③BEGIN/END 台账——均在 `_scan_claimed_stall`【实证】
+- state 持久化：`_save_state` 非 dry-run 恒写（conveyor_probe.py:1584），claimed_relaunch 计数跨拍存续；当前 `.kdo/conveyor_state.json` 该键={}（演练走进程内 state，边界声明属实）【实证】
+
+### 验收标准对照
+
+| 标准 | 判定 |
+|:--|:--|
+| 构造停摆场景→探针自动补拉成功，台账完整 | ✅ 8/8 PASS+台账 5 行在案 |
+| 三条款各有实测证据（连补 2 次停拉+报警） | ✅ 第2拉到上限/第3拉 ESCALATE+gate-blocked 857 行 |
+| 欧阳锋终审 | ✅ 本记录 |
+
+### 缺陷（非阻断，🟠🟠🔵🔵）
+
+- 🟠 **通知接线缺陷**：`if relaunch_notes:`（conveyor_probe.py:1456）嵌在 `if friction_new:` 块内——friction 为空的拍，补拉摘要不进 `messages["wangyuyan"]`；且同拍 `gate_new` 分支（:1460）整串覆盖同键，接线后置被吞。耗尽升级路径不受影响（gate-blocked→`_scan_gate_blocked` 独立通道，03:07 拍已实证送达王语嫣），但矩阵行 20「补拉摘要推王语嫣」的口径与实际接线不符。→ 建议书已落盘
+- 🟠 **ESCALATE 重复触发**：count≥2 后无 once 标记/cooldown（:1326），任务停摆+耗尽期间每 10min 拍重复落台账+gate-blocked+推王语嫣（≈6 行/小时/任务）。催办可辩护但缺节流。→ 同建议书
+- 🔵 **信号编号撞号**：「第十一信号」已被 #622 graph_index 占用（:1084、矩阵行 27），#697 又自称第十一信号（:1235/:1394、矩阵行 20）——应为第十三信号。纯注释/登记口径，无功能影响。→ 同建议书
+- 🔵 **执行报告数字不实一处**：「台账验收实测 8 行在案」——实际 5 行（commit diff 亦 +5）。系把「8/8 测试用例」误写为台账行数，不影响功能，记录在案。
+
+### 残余风险（已声明，接受）
+
+- 幂等活性只看 headless 日志：CLI（非 headless）实例 >45min 不触碰任务单会被补拉出双实例——补拉指令①「10min 内有他实例痕迹立即收工」防双写纪律为兜底（报告「需要谁动作③」已自我声明）。建议后续把 role_registry 心跳并入活性判据（记建议书同文件待编排项）。
+- 演练 ESCALATE 行现挂王语嫣复核处置区（production-queue.md:1292），需王语嫣划销（边界已声明）。
+
+### kdo query 检索记录（宪法第六条，#669）
+
+| 检索词 | 命中 | 日期 | 结论 |
+|:--|:--|:--|:--|
+| `claimed 停摆 自动补拉 探针` | 5 | 2026-09-10 | 无同构既有方法论/重复信号，本信号为净新增，不冲突 |
+| `停摆检测 watchdog 心跳 门禁化` | 5 | 2026-09-10 | 命中均为知识库演进/转化率类不相关卡，无冲突 |
+
+### 审查不报告清单
+
+格式微瑕归 lint；near-miss 存量 3 条（探针已提示）非本单问题；file-flow-check 存量 L5 命名警告与 #697 无关。
+
+**通过维度**：停摆判定/自动补拉/三件套/幂等/wedge 兜底五件全独立复验；交付物三处（probe/矩阵行 20/台账）在案；生产生效实证。
+**改进点**：通知接线修复+ESCALATE 节流+信号改号——已落建议书待王语嫣编排，不阻入库。
