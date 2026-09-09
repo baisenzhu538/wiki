@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """l1_capture.py — L1 全量上下文采集（#463，F-044 L0→L1 改名顺带）。
 
-甲类（会话原文）：各 CLI 工具会话文件增量 → D 盘（git 外）
+甲类（会话原文）：各 CLI 工具会话文件增量 → KDO-memory 数据盘（#690 迁 E:，git 外）
 乙类（工作痕迹）：会话目录文件清单 + mtime → trace.md
-镜像+verify：D 主库 → C 盘镜像 + 校验（#432 双盘模式）
+镜像+verify：KDO-memory 主库 → C 盘镜像 + 校验（#432 双盘模式）
 
 用法：
   python kdo-tools/l1_capture.py              # 增量采集 + trace + 镜像
@@ -21,14 +21,18 @@ from pathlib import Path
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))  # #690：任意 cwd/导入方下 sibling 可导入
+from kdo_memory_root import find_memory_root  # #690：KDO-memory 根定位（不裸写盘符）
+
 # 甲类源（会话存储）；新增工具在此登记（#489：codex/opencode/qwen 四源补全，
 # F-048 codex 定性=工厂角色工具，采集面纳全量）
+MEM_ROOT = find_memory_root() or Path("D:/KDO-memory")  # #690：E 盘便携盘，marker 定位
 SOURCE_DIRS = {
     "claude": Path.home() / ".claude" / "projects" / "C--Users-Administrator",
     "kimi": Path.home() / ".kimi-code",
     "hermes": Path("C:/Users/Administrator/AppData/Local/hermes/profiles"),
     "codex": Path.home() / ".codex",
-    "codex-homes": Path("D:/KDO-memory/codex-homes"),  # 角色隔离目录（未来主力，#490 切换后生效）
+    "codex-homes": MEM_ROOT / "codex-homes",  # 角色隔离目录（未来主力，#490 切换后生效）
     "opencode": Path.home() / ".config" / "opencode",
     "qwen": Path.home() / ".qwen",
 }
@@ -36,7 +40,7 @@ SESSION_EXTS = (".jsonl", ".md", ".json", ".txt", ".log", ".sqlite")  # .sqlite=
 # 敏感/非会话文件排除（凭证与安装元数据不进全量库）
 SESSION_SKIP_FILES = {"auth.json", "installation_id", "cap_sid", "opencode.json", "package.json",
                       "package-lock.json", "config.toml"}
-L1_ROOT = Path("D:/KDO-memory/L1-full")
+L1_ROOT = MEM_ROOT / "L1-full"
 MIRROR_ROOT = Path.home() / ".kdo-memory" / "L1-full-backup"
 # #508：日增量判重游标（tool/rel → mtime|size）——跨天目录取代平铺后，
 # 不再靠 dest.exists() 判重（昨天目录里的同名文件不能阻止今天变化文件入今天目录）
@@ -67,7 +71,7 @@ def _dir_size_mb(root: Path) -> float:
     return total / (1024 * 1024)
 
 
-ARCHIVE_ROOT = Path("D:/KDO-memory/L1-full-archive")  # #491：旧天目录压缩归档处
+ARCHIVE_ROOT = MEM_ROOT / "L1-full-archive"  # #491：旧天目录压缩归档处；#690 随 MEM_ROOT 迁 E
 
 
 def _zip_covers_dir(zip_path: Path, day_dir: Path) -> tuple[bool, str]:

@@ -88,3 +88,15 @@
 - **迁移后舰队全景**：12 profile 中 11 个 glm-5.3-flash@zai（含本次 6 个 + 原有 5 个）；laowantong-feishu 无 model 块（继承全局 kimi-for-coding，非 deepseek，未动）；deepseek 仅存于 wangyuyan 等的 fallback_providers（deepseek-v4-pro，主用失败才触发）。
 - **操作与验证**：先备份（profiles/_backup_deepseek2glm_20260908/，12 文件）→ 整块替换+yaml.safe_load 逐个校验 → 6 个 NSSM 服务 net stop/start → 6/6 RUNNING+日志 0 错误+飞书通道重连+30s 复查无崩溃循环。
 - **遗留观察**：模型名上日志需等首次真实 LLM 调用；飞书端冒烟（给任一 agent 发消息看回复）留用户顺手验证。
+
+
+## 2026-09-10 #690 E 盘迁移落地：D:\KDO-memory 整区迁 E:（含便携件）
+
+- **迁移**：D:\KDO-memory（6.7GB/317 文件）→ E:\KDO-memory。robocopy /MIR ×2（首轮 1 文件共享冲突瞬时占用，重试轮补齐）、逐目录数+字节 14/15 全对（L1-backup 热路径漂移由切换后镜像源同步自然修复）、hash 抽样 26/26（大文件首尾 4MB+小文件全量）。盘符 DiskPart 固定 E:（volume GUID d55e0c40 入 .disk-id）。
+- **代码切换面**（00:51-00:58 由并行实例王语嫣(kimi) 完成，本实例验证+收口）：新建 `kdo-tools/kdo_memory_root.py`（.disk-id 标记 A-Z 扫描+env 覆盖+回退 D 告警 gate-blocked）+ 13 文件 resolver 化（l1_capture/memory_capsule/daily-audit-digest/on_duty/recovery-check/infra-status/vault_git_backup/vault-integrity-check/wiki-vault-restore/两 .cmd/两 .bat）。
+- **实拍修复**：两 .bat 的 for /f 全引号形式在 cmd 下必炸（引号剥离→'C:\Program' 不是命令；usebackq 反引号同炸），改用 bat 内既有「临时文件+set /p」惯用法后 PASS——今晚 02:30 周拍前抓出，实拍要求的价值实证。
+- **六入口实拍全绿**：capsule 镜像 C→E verify 一致 / l1-capture LastTaskResult=0 新增14→E / digest rc=0 / archive rc=0 / bundle bat rc=0（周三 daily 路径+snapshot 落 E）/ offsite rc=0。
+- **守卫证据**：env-invalid→gate-blocked 告警落账实测（01:20:30）；marker 扫描实测 source=marker root=E。
+- **便携件**：E:ttach.cmd（纯 ASCII A-Z 标记扫描，只读）+ E:\KDO-memory	ools\{query_assets.py, BOOTSTRAP.md} + E:\README.md 四节入口；本机实拍 PASS。
+- **零中断**：capture 00:37(D)→01:07(E) 无断拍 missed=0、vault backup 00:50/01:20 在拍、conveyor 在拍。
+- **遗留**：①异机插盘验收（attach→检索→留证）待老朱实测；②D 盘旧目录 24h 观察后清理（清理前报王语嫣留档）；③l1_capture 日志「D 主库」措辞为残留文案（行为已写 E）；④seed 已同步（resolver+6 文件+2 bat）。

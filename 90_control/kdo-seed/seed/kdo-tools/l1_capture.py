@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """l1_capture.py — L1 全量上下文采集（#463，F-044 L0→L1 改名顺带）。
 
-甲类（会话原文）：各 CLI 工具会话文件增量 → D 盘（git 外）
+甲类（会话原文）：各 CLI 工具会话文件增量 → KDO-memory 数据盘（#690 迁 E:，git 外）
 乙类（工作痕迹）：会话目录文件清单 + mtime → trace.md
-镜像+verify：D 主库 → C 盘镜像 + 校验（#432 双盘模式）
+镜像+verify：KDO-memory 主库 → C 盘镜像 + 校验（#432 双盘模式）
 
 用法：
   python kdo-tools/l1_capture.py              # 增量采集 + trace + 镜像
@@ -21,14 +21,18 @@ from pathlib import Path
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))  # #690：任意 cwd/导入方下 sibling 可导入
+from kdo_memory_root import find_memory_root  # #690：KDO-memory 根定位（不裸写盘符）
+
 # 甲类源（会话存储）；新增工具在此登记（#489：codex/opencode/qwen 四源补全，
 # F-048 codex 定性=工厂角色工具，采集面纳全量）
+MEM_ROOT = find_memory_root() or Path("D:/KDO-memory")  # #690：E 盘便携盘，marker 定位
 SOURCE_DIRS = {
     "claude": Path.home() / ".claude" / "projects" / "C--Users-Administrator",
     "kimi": Path.home() / ".kimi-code",
     "hermes": Path("C:/Users/Administrator/AppData/Local/hermes/profiles"),
     "codex": Path.home() / ".codex",
-    "codex-homes": Path("D:/KDO-memory/codex-homes"),  # 角色隔离目录（未来主力，#490 切换后生效）
+    "codex-homes": MEM_ROOT / "codex-homes",  # 角色隔离目录（未来主力，#490 切换后生效）
     "opencode": Path.home() / ".config" / "opencode",
     "qwen": Path.home() / ".qwen",
 }
@@ -36,7 +40,7 @@ SESSION_EXTS = (".jsonl", ".md", ".json", ".txt", ".log", ".sqlite")  # .sqlite=
 # 敏感/非会话文件排除（凭证与安装元数据不进全量库）
 SESSION_SKIP_FILES = {"auth.json", "installation_id", "cap_sid", "opencode.json", "package.json",
                       "package-lock.json", "config.toml"}
-L1_ROOT = Path("D:/KDO-memory/L1-full")
+L1_ROOT = MEM_ROOT / "L1-full"
 MIRROR_ROOT = Path.home() / ".kdo-memory" / "L1-full-backup"
 # #508：日增量判重游标（tool/rel → mtime|size）——跨天目录取代平铺后，
 # 不再靠 dest.exists() 判重（昨天目录里的同名文件不能阻止今天变化文件入今天目录）
@@ -67,7 +71,7 @@ def _dir_size_mb(root: Path) -> float:
     return total / (1024 * 1024)
 
 
-ARCHIVE_ROOT = Path("D:/KDO-memory/L1-full-archive")  # #491：旧天目录压缩归档处
+ARCHIVE_ROOT = MEM_ROOT / "L1-full-archive"  # #491：旧天目录压缩归档处；#690 随 MEM_ROOT 迁 E
 
 
 def _zip_covers_dir(zip_path: Path, day_dir: Path) -> tuple[bool, str]:
@@ -131,11 +135,18 @@ def _archive_old_days() -> int:
         if not d.is_dir() or d.name == today or not d.name.startswith("20"):
             continue
         zip_path = ARCHIVE_ROOT / f"{d.name}.zip"
+        # #548：当日 trace 卷随日归档（活跃层只留当日卷）
+        trace_vol = L1_ROOT / f"trace-index-{d.name}.md"
         if zip_path.exists():  # 已归档过 → 核验覆盖再删（#508：不核验不删除）
             covers, reason = _zip_covers_dir(zip_path, d)
             if covers:
                 shutil.rmtree(d, ignore_errors=True)
                 archived += 1
+                if trace_vol.exists():
+                    import zipfile as _zf2
+                    with _zf2.ZipFile(zip_path) as zf:
+                        if trace_vol.name in zf.namelist():
+                            trace_vol.unlink()
             else:
                 print(f"⛔ {d.name}: zip 已存在但未覆盖目录内容（{reason}）——"
                       f"拒绝删除，请人工核查/重新归档", file=sys.stderr)
@@ -148,6 +159,8 @@ def _archive_old_days() -> int:
                         zf.write(f, f.relative_to(L1_ROOT).as_posix())
                     except OSError:
                         continue
+            if trace_vol.exists():  # #548：trace 当日卷入同 zip
+                zf.write(trace_vol, trace_vol.name)
         # #508：新 zip 写完同样核验后再删源目录（写盘半成≠归档完成）
         covers, reason = _zip_covers_dir(zip_path, d)
         if not covers:
@@ -155,6 +168,8 @@ def _archive_old_days() -> int:
             _report_archive_refusal(d.name, reason)  # #523 R2
             continue
         shutil.rmtree(d, ignore_errors=True)
+        if trace_vol.exists():
+            trace_vol.unlink()  # zip 已含（上方写入+核验通过后才走到这）
         archived += 1
         print(f"🗜 已归档: {d.name} → {zip_path.name}")
     if archived:
@@ -194,6 +209,8 @@ def _session_files(src: Path) -> list[Path]:
             if not p.is_file() or p.suffix not in SESSION_EXTS:
                 continue
             if p.name in SESSION_SKIP_FILES:  # #489：敏感/非会话文件排除
+                continue
+            if p.name.startswith("trace-index"):  # #548：索引自身不进采集面（自我喂养排除）
                 continue
             if any(part in skip for part in p.parts):
                 continue
@@ -292,12 +309,15 @@ def capture(dry_run: bool) -> int:
     _save_state(state)
 
     # 乙类：trace 索引（append 式——日增量+trace 保证可回溯，#491 任务2-4）
-    trace = L1_ROOT / "trace-index.md"
+    # #548：按日轮转——当日卷 trace-index-YYYY-MM-DD.md，跨日开新卷（无界单卷治理：
+    # 153MB/22h +47MB 的教训）；旧卷随日归档 zip 走（_archive_old_days）
+    trace = L1_ROOT / f"trace-index-{today}.md"
     trace.parent.mkdir(parents=True, exist_ok=True)
     ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    new_volume = not trace.exists() or trace.stat().st_size == 0
     with open(trace, "a", encoding="utf-8") as f:
-        if trace.stat().st_size == 0:
-            f.write("# L1 trace 索引（#491 日增量口径——每次采集追加，可回溯）\n\n")
+        if new_volume:
+            f.write(f"# L1 trace 索引 {today} 当日卷（#548 日轮转；#491 日增量口径——每次采集追加，可回溯）\n\n")
         f.write(f"\n## {ts}（新增 {copied} / 跳过 {skipped}）\n\n| 文件 | mtime | 大小 |\n|:--|:--|:--|\n")
         for line in sorted(manifest):
             rel, mt, size = line.split("|")

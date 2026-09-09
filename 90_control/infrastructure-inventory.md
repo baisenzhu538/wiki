@@ -83,9 +83,11 @@ audience: 全体 agent
 | role_clock | kdo-tools/role_clock.py + kdo-role-clock.cmd | 角色心跳调度器（#553，#525 四拆之二：pace 到点/欧阳锋事件驱动唤醒→todos 恒落+feishu 适配；唤醒日志 .kdo/role-clock.log 不进胶囊——防 on_duty 自欺） | 08-27 5 例 passed + 活体唤醒老顽童实测 | 计划任务 kdo-role-clock（5min）/90_control/todos/ |
 | build_seed / seed-check | kdo-tools/build_seed.py, kdo-tools/seed-check.py | kdo-seed 种子包构建+装机自检（#532：机制层搬迁，KDO_ROOT 参数化） | 08-26 5 例 passed | 90_control/kdo-seed/BOOTSTRAP.md |
 | tech_inventory | kdo-tools/tech_inventory.py | 技术域存量盘点三堆清单（#533：可审/返工/废弃，接管第一步） | 08-26 4 例 passed | 90_control/schemas/tech-domain-skeleton.md |
-| memory_capsule | kdo-tools/memory_capsule.py | 记忆胶囊（L1 主库/镜像/verify/事件写入+log_event_safe 四类事件统一入口 #511） | 08-25 6 例 passed | L1 库+D 盘镜像 |
+| memory_capsule | kdo-tools/memory_capsule.py | 记忆胶囊（L1 主库/镜像/verify/事件写入+log_event_safe 四类事件统一入口 #511） | 09-10 C→E 镜像实拍 PASS（#690） | L1 库+E 盘镜像（kdo_memory_root 定位） |
 | l1_capture | kdo-tools/l1_capture.py | L1 全量采集（日期增量目录+判重游标+每日 zip 归档复活 #508） | 08-25 8 例 passed | 计划任务 kdo-l1-capture/kdo-l1-archive |
 | daily-context-save | kdo-tools/daily-context-save.py | 复盘保存（存档+review-check+L0 事件+镜像联动；#512 重打改覆盖写+事件去重） | 08-25 4 例 passed | review-check/memory_capsule |
+| kdo_memory_root | kdo-tools/kdo_memory_root.py | KDO-memory 数据盘定位器（.disk-id 标记 A-Z 扫描+env 覆盖+回退告警写 gate-blocked #690） | 09-10 实测 source=marker root=E + env-invalid 告警实测 | 全部 E 盘脚本/CLI 取用 |
+| query_assets+attach（E 盘便携件） | E:/attach.cmd + E:/KDO-memory/tools/ | 便携自定位引导+自包含检索（#690 便携化硬要求） | 09-10 本机实拍 PASS（异机验收待老朱） | .disk-id 标记 |
 | review-check | kdo-tools/review-check.py | 复盘探测器（11 章判级+失败项明细 #478） | 08-23 PASS A- | daily-context-save |
 | file-flow-check | kdo-tools/file-flow-check.py | 文件流转规范 lint（L1-L9 无状态冻结检测 #473） | 08-23 PASS A- | frozen 动态清单/git HEAD |
 | tags-audit | kdo-tools/tags-audit.py | 标签体检 5 指标（脏词/来源轴/域地图/空值/来源形态词） | 08-24 2876 卡 5.9s | check-tags-health |

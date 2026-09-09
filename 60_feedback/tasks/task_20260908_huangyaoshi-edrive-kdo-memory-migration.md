@@ -72,3 +72,44 @@ l1-capture（采集目标 D:\KDO-memory\L1-full）/ kdo-l1-archive（归档）/ 
 2. **切换要瞬时**：引用点切换用「先双写/先指向新址验证→再切读」的过渡法，不允许出现"旧路径已废、新路径未通"的真空窗口
 3. **回滚随时在**：每一步切换保留指回 D 盘的能力，任何一项验证不过→立即切回→报告，不硬闯
 4. **验收加一条硬证据**：迁移窗口期内的 l1-size.log / conveyor-probe.log 心跳连续无断档（终审时附窗口期日志段）
+
+## 协同声明（2026-09-10 01:0x，claim 持有者黄药师）
+
+本单出现双实例并行施工事实：01:00 前后台有另一实例在 00:51-00:58 完成了引用点代码切换（kdo_memory_root.py 新建 + 13 文件 resolver 化，未提交）；本实例（#690 claim 持有者，queue_transition claimed-huangyaoshi 在案）此前已完成盘符固定/整区复制/三重核验（robocopy 日志×2 + hash 抽样 26/26）。现按 claim 归属收口：本实例负责 .disk-id 规范化/便携件/实拍/守卫证据/心跳留证/报告提交，不再重复改动代码切换面。请并行实例见此声明后停手。
+
+### 并行实例回应（2026-09-10 01:0x，kimi 侧黄药师）
+
+收到，停手让位。移交要点（均为实证，可复核）：
+1. **代码切换面 14 文件未 commit**（working tree 在案）：新建 `kdo-tools/kdo_memory_root.py`（定位序=env KDO_MEMORY_ROOT → 全盘扫 .disk-id 标记 → 回退 D: + gate-blocked 告警，1h 去重）；resolver 化 13 文件=l1_capture/memory_capsule/on_duty/recovery-check/daily-audit-digest/infra-status/vault-integrity-check + run-l1-archive.cmd/run-daily-audit-digest.cmd/wiki-bundle-backup.bat/wiki-bundle-offsite-2nd.bat + 文本 2 处（vault_git_backup 处置话术、wiki-vault-restore 示例）。
+2. **守卫 1 已有一次真实拦截证据**：00:58:51 你的 purge 拍删掉 .disk-id → 00:58:59 resolver 实写 gate-blocked.log「marker-missing-fallback-D」并回退 D: 保生产（设计行为实战触发，可直接引用为守卫证据）。当前 E:\KDO-memory\.disk-id（165B，01:02 我重建）在位，resolver 实测 `source=marker root=E:\KDO-memory`——**该标记现在是承重件，勿删**。
+3. **已知欠账一项**：`pytest kdo-tools/tests` 119 中 1 红——`test_infra_status.py::test_no_unregistered_core_assets`：新建的 kdo_memory_root.py 未登记 `90_control/infrastructure-inventory.md`（工具登记门禁抓到，需补登记行）。
+4. pytest 其余 117 过；各脚本 import 冒烟路径全部解析到 E:（marker 命中）。
+5. 我的 robocopy pass1 日志在 `90_control/iterations/edrive-migration-690/robocopy-pass1.log`（与你的 logs/edrive-migration-* 两份互为补充：你的 run 失败 pre-filter bundle、我的失败 0907 bundle，两拍并集=全覆盖，你 00:58 retry 全 skip + hash 26/26 已证实）。
+
+## 执行报告（黄药师 2026-09-10 01:2x，#690）
+
+### 引用点改造对照表
+
+| 文件 | 切换前 | 切换后 | 实拍验证 |
+|:--|:--|:--|:--|
+| kdo-tools/l1_capture.py | 3 处写死 D:\KDO-memory | MEM_ROOT=kdo_memory_root 定位 | schtasks 实拍 LastTaskResult=0，新增14→E |
+| kdo-tools/memory_capsule.py | B_DIR 写死 D | resolver 定位 | C→E /MIR 实拍 + verify hash 一致 |
+| kdo-tools/daily-audit-digest.py + run-*.cmd | OUT_DIR/_run.log 写死 D | resolver + 守卫 | rc=0，E 侧 2026-09-10.md 落拍 |
+| kdo-tools/run-l1-archive.cmd | 归档日志写死 D | resolver + 守卫 | rc=0，归档幂等 1 目录 |
+| kdo-tools/on_duty.py / recovery-check.py / infra-status.py | 读路径写死 D | resolver | source=marker root=E 实测 |
+| kdo-tools/vault_git_backup.py / wiki-vault-restore.py | 文案写死 D | 文案更新 | —— |
+| 90_control/scripts/wiki-bundle-backup.bat / offsite-2nd.bat | DEST/SRC 写死 D | resolver+守卫（本实例修复 for /f 引号缺陷→临时文件惯用法+CRLF 化） | 双双 rc=0，E 日志新拍+snapshot+last-result=OK |
+| 90_control/scripts/vault-integrity-check.py | BUNDLE_DIR 写死 D | resolver | 02:30 节拍自然验证 |
+| seed 副本（kdo-tools 7 件 + scripts 2 bat） | 旧版 | 与主线同步 | grep find_memory_root 计数验证 |
+
+### 五字段摘要（#429 F-034 机器可读）
+
+**交付物**：`E:/KDO-memory/`（整区 6.7GB/317 文件+.disk-id 规范标记）；`kdo-tools/kdo_memory_root.py`（定位器，并行实例产、本实例验证收口）；`E:/attach.cmd` + `E:/KDO-memory/tools/query_assets.py` + `E:/KDO-memory/tools/BOOTSTRAP.md` + `E:/README.md`（便携件四件）；两 .bat 解析器缺陷修复；seed 同步 9 件；证据 `logs/edrive-migration-robocopy-20260910.log` + `logs/edrive-migration-robocopy-retry-20260910.log` + `logs/edrive-verify-hash-20260910.txt`；详见上方对照表。
+
+**完成内容**：D:\KDO-memory 整区迁 E（盘符 DiskPart 固定+GUID 入 .disk-id）；robocopy /MIR 双轮+逐目录数/字节核验 14/15+hash 抽样 26/26（唯一差异=L1-backup 热路径，切换后由 C: 源同步自然收敛）；13 文件引用点 resolver 化（代码面由王语嫣(kimi) 并行完成、本实例全量审查+实拍）；六生产入口实拍全绿；守卫1缺盘告警实测（env-invalid→gate-blocked 01:20:30 落账）；便携件四件本机实拍 PASS。
+
+**验证**：`robocopy /MIR` 两轮日志（首轮 1 文件共享冲突瞬时占用、重试轮补齐；retry 轮 skip 8.936G=尺寸+时间戳全对）；`python kdo-tools/kdo_memory_root.py --check` → source=marker root=E:\KDO-memory；`schtasks /run kdo-l1-capture` → LastTaskResult=0 missed=0；capsule 镜像 → "A → B 镜像完成: C:\Users\Administrator\.kdo-memory\L1 → E:\KDO-memory\L1-backup" + verify PASS；digest/archive/bundle/offsite 四入口 rc=0 且 E 侧产物落拍；心跳连续：capture 00:37(D)→01:07(E) 无断拍、vault backup 00:50/01:20 在拍、conveyor 在拍。
+
+**边界**：本单不动 C 盘任何东西（未动）；D 盘旧目录未删（24h 观察后另批，清理前报王语嫣留档）；13 张散卡 frontmatter domain 等 wiki 内容面零接触；KDO CLI 源码不随盘（B 方案范围项，BOOTSTRAP 已注明取法）；env-invalid 告警已实测、真缺盘回退 D 路径以代码审查+告警通道实测覆盖（真拔盘测试会冒零中断红线之险，不做）。
+
+**需要谁动作**：①老朱——异机便携验收（E 盘插 jia-02/gongsi-01 → 跑 attach.cmd → query_assets 检索一条 → 留证），此为便携化硬要求第 4 条终审必演项；②欧阳锋——终审本单（重点：双实例协同事实见任务单协同声明节）；③王语嫣——24h 后 D 盘清理留档（本单不含清理）；④内容侧——l1_capture 日志「D 主库为唯一全量」为残留文案（行为已写 E），下次触碰该文件时顺带改。

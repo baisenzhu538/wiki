@@ -5,7 +5,7 @@
 
 Daily light checks:
   1. vault working tree: file count + git status sanity (repo readable)
-  2. newest bundle in D:\\KDO-memory: exists + mtime fresh + git bundle verify
+  2. newest bundle in KDO-memory 盘（#690 迁 E:，kdo_memory_root 定位）: exists + mtime fresh + git bundle verify
   3. offsite copy in Nutstore dir: exists (rolling 3)
 
 Any anomaly -> append to 90_control/gate-blocked.log (#472 probe format:
@@ -26,7 +26,9 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 GIT = r"C:\Program Files\Git\cmd\git.exe"
 VAULT = Path(r"C:\Users\Administrator\Desktop\wiki")
-BUNDLE_DIR = Path(r"D:\KDO-memory")
+sys.path.insert(0, str(VAULT / "kdo-tools"))
+from kdo_memory_root import find_memory_root  # #690
+BUNDLE_DIR = find_memory_root() or Path(r"D:\KDO-memory")  # #690 迁 E:（marker 定位）
 OFFSITE_DIR = Path(r"C:\Users\Administrator\Nutstore\1\我的坚果云\kdo-backup")
 GATE_LOG = VAULT / "90_control" / "gate-blocked.log"
 TASK_TAG = "vault-integrity"  # appears in gate-blocked line field 2

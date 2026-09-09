@@ -4,7 +4,7 @@
 #592 R2 wiki vault restore drill script (wiki resilience trio).
 
 Usage:
-    python wiki-vault-restore.py --bundle D:\\KDO-memory\\wiki-bundle-20260901.bundle ^
+    python wiki-vault-restore.py --bundle E:\\KDO-memory\\wiki-bundle-20260901.bundle ^
         --target D:\\_restore_test [--keep]
 
 Flow: git bundle verify -> git clone from bundle -> count files ->

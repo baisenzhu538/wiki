@@ -149,7 +149,7 @@ def gate_staged_large_files() -> tuple[list[str], list[str]]:
             blocked.append(rel)
             print(f"⛔ 大文件硬拦（>{HARD_LIMIT_BYTES >> 20}MB）：{rel}（{size >> 20}MB）"
                   f"已移出本次提交，工作区文件保留；{_EDU}。"
-                  f"处置：移 D:\\KDO-memory\\ 归档或走 .gitignore #625 白名单豁免（需王语嫣/老朱拍板）",
+                  f"处置：移 E:\\KDO-memory\\ 归档或走 .gitignore #625 白名单豁免（需王语嫣/老朱拍板）",
                   file=sys.stderr)
         elif size > WARN_LIMIT_BYTES:
             warned.append(rel)

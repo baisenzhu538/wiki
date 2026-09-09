@@ -5,6 +5,19 @@ updated_at: 2026-09-05
 
 # 黄药师失忆恢复（重启后 3 分钟加载）
 
+## 2026-09-10（#690 E 盘迁移+便携基建盘落地）
+
+- **KDO-memory 已在 E:**：D:\KDO-memory 冻结待清理（24h 观察+王语嫣留档后），一切脚本经 `kdo-tools/kdo_memory_root.py` 定位（.disk-id 标记 A-Z 扫描 → env KDO_MEMORY_ROOT 覆盖 → 回退 D+gate-blocked 告警）。E 盘 volume GUID d55e0c40，DiskPart 固定盘符 E:
+- **便携件**：E:ttach.cmd（异机只读引导）+ E:\KDO-memory	ools\query_assets.py（自包含检索）+ E:\README.md 四节入口；异机验收（attach→检索留证）待老朱
+- **bat 引号铁律（本次实拍抓出）**：cmd 的 for /f ('"有引号exe" "有引号参数"') 必炸（首尾引号剥离），usebackq 反引号在同场景同样炸；**可靠写法=「exe > 临时文件 + set /p」**（bat 内 HEAD 比对同款惯用法）。#592 中文卷标禁令之外新增：禁 for /f 全引号命令
+- **双实例协同事实**：王语嫣(kimi) 00:51-00:58 并行完成代码切换面（未提交未领单），本实例按 claim 收口（复制/核验/便携件/实拍/守卫证据/报告）——任务单留协同声明，双写冲突靠claim记录+声明规避
+
+## 2026-09-10（#690 E盘迁移：resolver 组件落地+双实例撞车让位）
+
+- **新组件**：`kdo-tools/kdo_memory_root.py`（#690）——KDO-memory 数据盘定位器，定位序=env KDO_MEMORY_ROOT → 全盘扫 `\KDO-memory\.disk-id` 标记 → 回退 D:\KDO-memory + gate-blocked 告警（1h 去重）。13 个引用点已 resolver 化（l1_capture/memory_capsule/on_duty/recovery-check/daily-audit-digest/infra-status/vault-integrity-check + 2 cmd + 2 bat + 2 文本），**未 commit**（working tree 在案）。欠账：kdo_memory_root.py 未登记 infrastructure-inventory.md（test_infra_status 红）。
+- **#690 归属**：claim 持有者=09-08 23:14 的 claude 侧实例，复制+核验已完成（hash 26/26），便携件/实拍/报告归它收尾；本实例（kimi 侧）按协同声明停手。E:\KDO-memory\.disk-id 是承重件勿删。
+- **双实例撞车模式**（friction 已记）：同角色同任务撞车首次实证；对策=长任务续建开场三查加 logs mtime+tasklist；purge 类操作前查目标区 mtime<10min 在制文件。
+
 ## 2026-09-08（#686 外加：飞书舰队 deepseek→glm-5.3-flash 迁移，老朱直令）
 
 - **舰队现状**：12 hermes profile 中 11 个 = glm-5.3-flash@zai（bigmodel coding/paas/v4，同一把 GLM_API_KEY）；唯一例外 laowantong-feishu 无 model 块继承全局 kimi-for-coding。deepseek 只剩 fallback_providers 里的 deepseek-v4-pro

@@ -5,7 +5,7 @@
 （不破坏真实库，副本用完即删）。挂 health-check 每日自动。
 
 容灾口径：git 即容灾（wiki 资产在 git 历史）；L1-full 可再生（源仍在，重采集即重建）；
-本检查验证 D 盘事件库镜像恢复路径持续可用。
+本检查验证 KDO-memory 盘事件库镜像恢复路径持续可用（#690 迁 E:）。
 
 用法：
   python kdo-tools/recovery-check.py           # 副本恢复验证
@@ -26,7 +26,10 @@ from pathlib import Path
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-MIRROR_DIR = Path("D:/KDO-memory/L1-backup")          # 事件库镜像（D 盘）
+sys.path.insert(0, str(Path(__file__).resolve().parent))  # #690
+from kdo_memory_root import find_memory_root  # #690
+
+MIRROR_DIR = (find_memory_root() or Path("D:/KDO-memory")) / "L1-backup"  # 事件库镜像（#690 迁 E，marker 定位）
 MIRROR_DB = MIRROR_DIR / "activity_log.db"
 
 

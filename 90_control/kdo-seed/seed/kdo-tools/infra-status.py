@@ -26,11 +26,14 @@ from pathlib import Path
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))  # #690
+from kdo_memory_root import find_memory_root  # #690
+
 WIKI = Path(__file__).resolve().parent.parent
 SCRIPTS = WIKI / "90_control" / "scripts"
 KDO_TOOLS = Path(__file__).resolve().parent
 MEM = Path.home() / ".kdo-memory"
-D_MEM = Path("D:/KDO-memory")
+D_MEM = find_memory_root() or Path("D:/KDO-memory")  # #690：KDO-memory 数据盘（E:，marker 定位）
 INVENTORY_FILE = WIKI / "90_control" / "infrastructure-inventory.md"
 # 一次性批模式（总表 §8 标记族）——对照时跳过，不重复报"未登记"
 ONESHOT_PATTERNS = ("fix", "repair", "migrate", "update_", "batch", "rebuild", "clean", "purge", "legacy", "cleanup")
@@ -130,6 +133,7 @@ ASSETS: list[tuple[str, str, object]] = [
     ("queue_batch_accept", "工具", KDO_TOOLS / "queue_batch_accept.py"),
     ("infrastructure-inventory", "总表", WIKI / "90_control" / "infrastructure-inventory.md"),
     ("role-routes", "路由层", WIKI / "90_control" / "role-routes.md"),
+    ("skills-registry", "巡检", WIKI / "40_outputs" / "capabilities" / "skills" / "INDEX.md"),
     ("CAPSULE_STARTUP", "入口", WIKI / ".kdo" / "CAPSULE_STARTUP.md"),
     ("L1 主库", "数据", MEM / "L1" / "activity_log.db"),
     ("L1-full 主库", "数据", D_MEM / "L1-full"),

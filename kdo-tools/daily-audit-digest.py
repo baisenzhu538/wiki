@@ -8,7 +8,7 @@
   ④ production-queue：状态变更（新立项/领单/提审/终审/退回）
   ⑤ 待你拍板（#556）：conveyor_probe 第八信号在列集合——每日在列直到拍板或撤销
 
-落盘：D:\\KDO-memory\\L2-digest\\YYYY-MM-DD.md（D 盘与 L1 同区；**不落 60_feedback/diagnosis**——
+落盘：KDO-memory 盘 L2-digest\\YYYY-MM-DD.md（#690 迁 E:，与 L1 同区；**不落 60_feedback/diagnosis**——
 避免被探针误扫成建议书）。状态：同目录 _state.json（增量游标，重跑幂等）。
 调度：计划任务 kdo-daily-audit-digest 每日 06:00（老朱 08-24 拍板锚点，覆盖凌晨场）。
 失败可见：异常 → stderr + 非零退出码（schtasks Last Result 可查），不静默。
@@ -29,13 +29,16 @@ from pathlib import Path
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))  # #690
+from kdo_memory_root import find_memory_root  # #690
+
 WIKI = Path(__file__).resolve().parent.parent
 ACTIVITY_DB = Path.home() / ".kdo-memory" / "L1" / "activity_log.db"  # 主库（F-044 口径）
 RETRO_ROOT = Path.home() / "Desktop" / "agent复盘"
 SHARED_FRICTION = WIKI / ".agent" / "friction-log.md"
 QUEUE_PATH = WIKI / "70_product" / "tasks" / "production-queue.md"
 CONVEYOR_STATE = WIKI / ".kdo" / "conveyor_state.json"  # #556 ⑤栏：第八信号在列集合（只读消费）
-OUT_DIR = Path("D:/KDO-memory/L2-digest")
+OUT_DIR = (find_memory_root() or Path("D:/KDO-memory")) / "L2-digest"  # #690 迁 E（marker 定位）
 STATE_FILE = OUT_DIR / "_state.json"
 
 FRICTION_ROLES = ["ouyangfeng", "huangyaoshi", "wangyuyan", "laowantong",

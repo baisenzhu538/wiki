@@ -1,0 +1,29 @@
+E-drive migration hash verification (sample) 2026-09-10
+OK  BIG wiki-bundle-20260907.bundle
+OK  BIG wiki-bundle-20260905.bundle
+OK  BIG wiki-bundle-pre-filter-backup.bundle
+OK  BIG usn_full_20260831-0215.txt
+OK  SMP L1-full\2026-09-10\hermes\laowantong-feishu\logs\mcp-stderr.log
+OK  SMP L1-full\2026-09-10\hermes\ouyangfeng\logs\mcp-stderr.log
+OK  SMP L1-full\.capture-state.json
+OK  SMP L1-full\trace-index-2026-09-10.md
+OK  SMP L2-digest\2026-08-25.md
+OK  SMP L2-digest\2026-08-26.md
+OK  SMP L2-digest\2026-08-27.md
+OK  SMP L2-digest\2026-08-28.md
+OK  SMP L2-digest\2026-08-29.md
+OK  SMP L2-digest\2026-08-30.md
+OK  SMP codex-homes\duanwangye\config.toml
+OK  SMP codex-homes\fengqingyang\config.toml
+OK  SMP codex-homes\hongqigong\config.toml
+OK  SMP codex-homes\huangyaoshi\config.toml
+OK  SMP codex-homes\laowantong\config.toml
+OK  SMP codex-homes\ouyangfeng\config.toml
+OK  SMP obsidian-snapshot\.obsidian\plugins\claudian\backup\data.json
+OK  SMP obsidian-snapshot\.obsidian\plugins\claudian\backup\main.js
+OK  SMP obsidian-snapshot\.obsidian\plugins\claudian\backup\manifest.json
+OK  SMP obsidian-snapshot\.obsidian\plugins\claudian\backup\styles.css
+OK  SMP obsidian-snapshot\.obsidian\plugins\claudian\main.js
+OK  SMP obsidian-snapshot\.obsidian\plugins\claudian\manifest.json
+
+TOTAL FAILS: 0

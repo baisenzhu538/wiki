@@ -4,7 +4,7 @@
 - 事件库（memory_capsule L1 activity_log.db）近 30 分钟有新事件
   ——排除机器自写事件类型（friction=探针镜像写入、token_usage=计量每日自写），
     否则探针每 10 分钟自证在岗=判定失效（循环依赖）
-- L1 采集层（D:/KDO-memory/L1-full/<当日>/）近 30 分钟有新会话原文文件
+- L1 采集层（KDO-memory 数据盘 L1-full/<当日>/，#690 迁 E:）近 30 分钟有新会话原文文件
 
 不对称偏误拦方向：宁可误激活（多发通知）不可误静默（协作断连）。
 两路信号都读不到 → 默认在岗（静默是例外不是默认）。
@@ -13,12 +13,16 @@ conveyor_probe.py 与 watch_inbox.py 同口径共用本模块（单一判定源�
 """
 import os
 import sqlite3
+import sys
 import time
 from datetime import datetime, timedelta
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))  # #690
+from kdo_memory_root import find_memory_root  # #690
+
 EVENT_DB = Path.home() / ".kdo-memory" / "L1" / "activity_log.db"
-L1_ROOT = Path("D:/KDO-memory/L1-full")
+L1_ROOT = (find_memory_root() or Path("D:/KDO-memory")) / "L1-full"
 # #552 协同：注册表心跳优先（在岗判定主信号），事件库/L1 降为兜底
 REGISTRY = Path(__file__).resolve().parent.parent / "90_control" / "role-registry.json"
 WINDOW_MIN = 30

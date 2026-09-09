@@ -5,7 +5,7 @@
 L1 全量原文库见 l1_capture.py；L2/L3 不在本单。
 
 A 主库：C:\\Users\\Administrator\\.kdo-memory\\L0\\activity_log.db（WAL 模式，git 外）
-B 镜像：D:\\KDO-memory\\L0-backup\\（robocopy /MIR，先 checkpoint 再拷——WAL 合库防半写）
+B 镜像：KDO-memory 盘 L1-backup\\（robocopy /MIR，先 checkpoint 再拷——WAL 合库防半写；#690 迁 E:）
 
 用法：
   python kdo-tools/memory_capsule.py init                        # 建 A 主库（幂等）
@@ -31,9 +31,12 @@ from pathlib import Path
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))  # #690
+from kdo_memory_root import find_memory_root  # #690
+
 A_DIR = Path.home() / ".kdo-memory" / "L1"  # F-044：L0→L1 改名（#463 顺带）
 A_DB = A_DIR / "activity_log.db"
-B_DIR = Path("D:/KDO-memory/L1-backup")  # F-044
+B_DIR = (find_memory_root() or Path("D:/KDO-memory")) / "L1-backup"  # F-044；#690 迁 E（marker 定位）
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS activity_log (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
