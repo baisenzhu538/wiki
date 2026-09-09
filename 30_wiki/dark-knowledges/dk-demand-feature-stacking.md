@@ -44,6 +44,8 @@ related:
   - '[[case-live258-livestream-prompt-v1-v5]]'
   - '[[case-live258-fact-spread-18-bridges]]'
   - '[[case-live258-europe-cold-email]]'
+  - '[[case-live258-nongfu-assist-agri-video]]'
+  - '[[case-live258-huangqian-promo-film]]'
   - '[[dk-ai-does-not-question-your-mistake]]'
   - '[[dk-demand-hidden-need]]'
   - '[[dk-demand-misjudgment-rate]]'
