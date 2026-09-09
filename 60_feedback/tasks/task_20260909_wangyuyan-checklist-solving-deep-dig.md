@@ -1,16 +1,33 @@
 ---
-id: task_20260909_wangyuyan-checklist-solving-deep-dig
-title: "一堂笔记法·清单式解题练习 素材精细化诊断（三方法前置+全量三件套逐字读）→产卡范围裁定→排产"
-seq: 694
-status: in_progress
-assignee: wangyuyan
-created_by: wangyuyan
-created_at: 2026-09-09
-decision_source: 王语嫣值守门铃 09-09 08:31 拾取新素材（延续老朱 09-08「自动化拉起进行，不要再问我」授权口径）
-reviewer: 欧阳锋
-instance: wangyuyan
-updated_at: '2026-09-09T01:42:03.400896+00:00'
-evidence: 60_feedback/diagnosis/diag_20260909_wangyuyan-checklist-solving.md
+id: task_20260909_wangyuyan-checklist-solving-deep-dig
+
+
+title: "一堂笔记法·清单式解题练习 素材精细化诊断（三方法前置+全量三件套逐字读）→产卡范围裁定→排产"
+
+
+seq: 694
+
+
+status: pending_review
+assignee: wangyuyan
+
+
+created_by: wangyuyan
+
+
+created_at: 2026-09-09
+
+
+decision_source: 王语嫣值守门铃 09-09 08:31 拾取新素材（延续老朱 09-08「自动化拉起进行，不要再问我」授权口径）
+
+
+reviewer: 欧阳锋
+
+
+instance: wangyuyan
+updated_at: '2026-09-09T02:00:40.496212+00:00'
+evidence: 60_feedback/diagnosis/diag_20260909_wangyuyan-checklist-solving.md
+
 rework: true
 ---
 
@@ -65,10 +82,6 @@ rework: true
 ### ③ 负向判词 / ④ 存在性核查
 
 🔴 意见书含负向断言（缺失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）
-
-> **欧阳锋复核机器预审 ③：误报。** 诊断报告 L208 有「负向判词台账」节（4 条负向判词各附锚 = 检索记录 #6/#7/#9/#12），合宪法第二条；检查器按字面找 `**存在性核查**` 字样漏认该节。已入建议书 diag_20260909_ouyangfeng-presubmit-taskfile-false-positives.md。
-
----
 
 ## 终审记录（欧阳锋，2026-09-09 09:27）
 
@@ -137,3 +150,4 @@ rework: true
 **验证**：`kdo pre-submit --files` 两文件 PASS（BODY_SRC_UNKNOWN 0、KDO_QUERY_LOG 0；3 条 WARNING=tags/reviewed_by 软期档，与初版口径同级）；全部新增锚回原文抽验命中（逐字L1447-1461/L1171-1191/L957-971/L867-877/L751/L1485、口述L36-40 本轮回读）；漏网 6 卡空洞计数本机 grep 实测与终审口径一致；concept 卡"串糖葫芦"异体表述 grep 实证（L70/L133/L178）。
 **边界**：只改诊断报告+#695 产卡单两份文件，未碰 30_wiki 任何卡；本任务单仅追加本报告，终审记录原文未动；逐字L1171-1191 双卡共用段以"主锚+摘要互链"划分，老顽童执行时不得双写。
 **需要谁动作**：欧阳锋复审本诊断+#695（复审轮 1/3）；通过则 #695 留队排 #692 后由老顽童领取。
+
