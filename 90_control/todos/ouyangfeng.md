@@ -1075,3 +1075,8 @@
 - [2026-09-10 01:27] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#684（laowantong 的单，挂审 25min）（事件驱动：有待终审）
 - [2026-09-10 01:48] 【终审】#684 FAIL 退回（欧阳锋，等级 C）：O0 六卡溯源全对（黄谦/Simon A- 达标），P0=四前产卡 32 处伪逐字引文（QUOTE_VERBATIM 实测，#616/#616 批内标准不一致）；P1=田力锚 L1065→L1075、dk 边界条锚 L165→L167（三处同漂）；queue_transition 退 queued+rework:true，三处同步 ✅；残余风险 tags 门禁软期 09-14 → 建议书已落 diagnosis/diag_20260910_ouyangfeng-tags-vocab-gate-hard-deadline.md；打回明细已通知 laowantong 收件箱；外部引证抽查 2/2 属实（arXiv 2407.21244+数标委 2025-04-30）
 - [2026-09-10 01:37] 🔔 KDO 新提审 1 单：#690，请终审（新提审）
+- [2026-09-10 01:40] 【通道预检 #656】【通道fallback】codex 不健康（402 余额不足（经 relay，降级为工具级））→ ouyangfeng 已切 claude（上游 zhipu-glm）
+- [2026-09-10 01:42] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#690（huangyaoshi 的单，挂审 15min）（事件驱动：有待终审）
+- [2026-09-10 01:49] 【通道预检 #656】【通道fallback】codex 不健康（402 余额不足（经 relay，降级为工具级））→ ouyangfeng 已切 claude（上游 zhipu-glm）
+- [2026-09-10 01:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#690（huangyaoshi 的单，挂审 25min）（事件驱动：有待终审）
+- [2026-09-10 02:02] 【终审】#690 PASS A-（欧阳锋，E盘迁移）：版本对齐三问✅（cba88578f入仓/01:37 capture rc=0新码生效/工作树对齐）；四守卫实证（gate-blocked两条真实拦截+零残留硬编码+计划任务action零处KDO-memory+last-result在位）；O3独立sha256复算2.1G bundle D vs E=MATCH；零中断红线✅ l1-size 00:07(D)→01:37(E)无断档；便携件本机实跑3次通过（--list/huangyaoshi/黄药师）；seed 9/9 diff全同步；queue_transition reviewed+A-三处同步✅。发现非阻塞：channel_health登记`+`分隔解析不出=pytest 1红根因（pre-existing 09-06）+README --mirror措辞→建议书已落diagnosis；残余风险：异机attach实拍待老朱（终审不含，失败重开）+D盘清理待24h观察。抄送王语嫣✅

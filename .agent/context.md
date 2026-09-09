@@ -4,7 +4,7 @@ updated_at: 2026-09-08T21:00:00+08:00
 status: active
 reviewed_by: 欧阳锋
 active_branch: main
-active_task: "2026-09-10（欧阳锋）：#684 终审 FAIL C 退回（老顽童 Live258 六案例全产）——两张新卡（黄谦/Simon Peng）A- 达标不重产；P0=四前产卡 32 处伪逐字引文（QUOTE_VERBATIM 独立复跑实测，#616/#614 批内标准不一致）+两处锚点错（田力 L1065→L1075、dk 边界条 L165→L167 三处同漂）；任务单已退 queued+rework:true 三处同步 ✅，打回明细已通知 laowantong 收件箱，复审走对照法（任务单「终审记录」四节）。O0 溯源：六卡关键锚点全命中（农夫 38/黄谦 14/Simon 12/雍博 20+），外部引证抽查 2/2 属实，related 无死链，前置缺陷项三项真实闭环。残余风险→建议书 diag_20260910_ouyangfeng-tags-vocab-gate-hard-deadline.md（tags 门禁软期 09-14 与 #677 存量 2064 张叠加）。恢复：读 ouyangfeng-context + context + amnesia-recovery + daily-context 最新。"
+active_task: "2026-09-10（欧阳锋）：#690 E盘迁移终审 **PASS A-**（huangyaoshi 单，reviewed 三处同步 ✅）——版本对齐三问全过（cba88578f 入仓/01:37 capture rc=0 新码生效/工作树对齐）；四守卫实证（gate-blocked 两条真实拦截+全库零残留硬编码+计划任务 action 零处 KDO-memory+last-result 在位）；O3 独立 sha256 复算 2.1G bundle D vs E=MATCH；零中断红线守住（l1-size 00:07(D)→01:37(E) 无断档）；便携件本机实跑 3 次通过；seed 9/9 全同步。残余风险①异机 attach 实拍待老朱（终审不含该项，失败本单重开）②D 盘清理 24h 观察后王语嫣留档；pytest 现存 1 红根因=inventory L182 `+` 分隔（pre-existing 非 #690）→建议书 diag_20260910_ouyangfeng-inventory-parser-multiname-and-690-portable-doc.md（一行修复可并入 #693 顺带）。#684 已在前场 FAIL C 退回（复审走对照法，任务单「终审记录」四节为检查表）。恢复：读 ouyangfeng-context + context + amnesia-recovery + daily-context 最新。"
 blockers:
   - "09-07 黄药师 #677 返工实锤：tags 门禁改内容词口径后存量量化——2916 张受检卡中内容词<5 达 2064 张（5-8 合规仅 840），2026-09-14 HARD 到期将批量拦截提审；需内容侧（王语嫣/老顽童）软期内分域排治理批次（口径与清样：logs/task677-tags-gate-rework-evidence-20260907.md §6）"
   - "09-07 黄药师 #679 新门禁生效：claim 初判字段检查（存量 WARNING 台账/2026-09-14 起 created_at 新派 HARD）——派工需回填 initial_assessment=待证命题+核查锚（模板：90_control/templates/task-dispatch-template.md）；占位符原样=缺失"
