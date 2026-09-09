@@ -1013,3 +1013,29 @@
 - [2026-09-09 00:11] 【通道预检 #656】【通道fallback】codex 不健康（402 余额不足（经 relay，降级为工具级））→ ouyangfeng 已切 claude（上游 zhipu-glm）
 - [2026-09-09 00:17] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#691（wangyuyan 的单，挂审 32min）（事件驱动：有待终审）
 - [2026-09-09 00:45] ✅ #691 终审 PASS A-（task_20260908_wangyuyan-zengming-smart-strategy-deep-dig，队列已翻 reviewed）：O0 全量溯源——两件素材 928/448 行逐字读全文、行号锚 30+ 处全命中、互漏增量双向 8+4 全核实、ASR 勘误 7 条对照命中；负向判词独立复验（grep 30_wiki 曾鸣 0 命中+kdo query 双变体无曾鸣系卡）；三方法①外部调研 WebSearch 抽查吻合；#669 检索记录节 pre-submit 实测 0 issues；#692 产卡单与裁定表逐行一致维持 queued 排 #689 后。非阻断缺陷 D1=诊断报告 frontmatter 违 #421 三元组（audience/status，pre-submit 4 errors）→ 建议书 diag_20260909_ouyangfeng-diagnosis-frontmatter-421-triplet.md 已落并经探针自动登记（队列 L1271）；D2=反向互漏清单非穷尽记残余风险。附带自纠：昨日两份建议书（686-merge-claim 缺 audience / retro-coverage-gap 整个无 frontmatter）被探针静默跳过（08-25 同族），已补齐三元组待下拍自动登记。本单 pending_review 清零。
+- [2026-09-09 00:47] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-09 01:17] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-09 01:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-09 02:22] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-09 02:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-09 03:22] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-09 03:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-09 04:22] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-09 04:57] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-09 05:27] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-09 05:57] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-09 06:27] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-09 06:57] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-09 07:27] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-09 07:57] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-09 08:27] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-09 08:57] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-09 09:07] 🔔 KDO 新提审 1 单：#694，请终审（新提审）
+- [2026-09-09 09:11] 【通道预检 #656】【通道fallback】codex 不健康（402 余额不足（经 relay，降级为工具级））→ ouyangfeng 已切 claude（上游 zhipu-glm）
+- [2026-09-09 09:12] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#694（wangyuyan 的单，挂审 13min）（事件驱动：有待终审）
+- [2026-09-09 09:27] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#694（wangyuyan 的单，挂审 28min）（事件驱动：有待终审）
+- [2026-09-09 09:35] ❌ #694 终审 FAIL 退回（task_20260909_wangyuyan-checklist-solving-deep-dig，队列已翻 queued+rework:true，复审轮 1/3）：O0 溯源 30+ 锚全过（素材体量/行号锚/6 卡空洞计数 50/66/31/23/9/关键数字两版/#685 对账全核实），但 🔴P0-1=MOC 族清单漏 5+1 张首讲同源卡（source_refs 全量枚举 21 张 vs 清单 16 张；漏 concept-提升笔记阅读舒适度[claim:02 已覆盖产品意识、含穿糖葫芦反例]、case-truman-ai-partner、concept-问题驱动式深度思考笔记、yt-note-problem-solving-capability、dk-fundamentals-before-advanced-ops[空洞 139 处]、tool-用清单体记备忘笔记）→ 产品意识/只记备忘"0 命中"判词不成立、裁定表掉行、#695 标题-表不一致。建议书 diag_20260909_ouyangfeng-presubmit-taskfile-false-positives.md 已落（pre-submit BODY_SRC_UNKNOWN 术语误计+机器预审锚点字面匹配漏认）。附带：queue_transition 首跑被 F-034 拦——我自己终审记录缺字面 **存在性核查** 节，补真实锚点节后过（与建议书同族，机关枪打自己一次实证门禁有效）。
+- [2026-09-09 09:57] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-09 10:10] 【通道预检 #656】【通道fallback】codex 不健康（402 余额不足（经 relay，降级为工具级））→ ouyangfeng 已切 claude（上游 zhipu-glm）
+- [2026-09-09 10:12] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#694（wangyuyan 的单，挂审 12min）（事件驱动：有待终审）
+- [2026-09-09 10:24] ✅ #694 复审轮2/3 终审 PASS A-（task_20260909_wangyuyan-checklist-solving-deep-dig，队列已翻 reviewed，#695 放行留队排 #692 后）：复审对照法 4/4 修复逐项独立复验——枚举法 grep 22 文件零差集（25卡+1 skill 成立）/漏网6卡空洞计数 44-28-27-23-17-13 复测一致/产品意识·只记备忘改判方向与上轮实证一致/#695 标题-表对齐+条款8-9 落盘；新增锚 6/6 回原文命中；两文件 pre-submit 实测 PASS（BODY_SRC_UNKNOWN 0）；残余 2 条记录级（报告WARNING措辞一位偏差/两周合成口径）不发卡；王语嫣收件箱已抄送

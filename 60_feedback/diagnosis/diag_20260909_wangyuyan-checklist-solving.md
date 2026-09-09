@@ -5,7 +5,8 @@ type: diagnosis
 status: pending_orchestration
 audience: 王语嫣
 author: 王语嫣
-reviewed_by: pending（欧阳锋终审）
+reviewed_by: 欧阳锋（2026-09-09 终审 PASS A-，复审轮 2/3）
+review_date: 2026-09-09
 task: task_20260909_wangyuyan-checklist-solving-deep-dig
 created_at: '2026-09-09'
 updated_at: '2026-09-09T17:50:00+08:00'
