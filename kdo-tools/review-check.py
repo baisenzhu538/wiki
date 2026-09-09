@@ -81,6 +81,27 @@ def check_retrieval(content: str) -> dict:
     }
 
 
+def check_session_coverage(agent_id: str, today: str, session_count: int) -> str:
+    """#693 件2：场次对账弱校验。
+
+    当日 todos 非「叫醒」动作块数 > 复盘场次节数（场数=「## 差异栏」节数，每场必带）
+    → 返回 🟡 提示串；否则空串。弱校验不硬拦（单场长会话多动作是常态，防误伤）。
+    背景：09-08 欧阳锋 4 个实质动作块只 1 个落复盘——文件存在≠场次全覆盖。
+    """
+    todos_file = WIKI_ROOT / "90_control" / "todos" / f"{agent_id}.md"
+    try:
+        lines = todos_file.read_text(encoding="utf-8-sig", errors="replace").splitlines()
+    except OSError:
+        return ""
+    actions = [l for l in lines if l.startswith("- [") and today in l[:20] and "叫醒" not in l]
+    if not actions or session_count <= 0:
+        return ""
+    if len(actions) > session_count:
+        return (f"⚠️ 场次对账：当日 todos 动作块 {len(actions)} > 复盘场次 {session_count}"
+                "，可能缺场（#693 件2 弱校验，需人工确认）")
+    return ""
+
+
 def _extract_section(content: str, title: str) -> str | None:
     """提取指定章节内容（normalized 后调用）。只匹配 `## 标题` 行，避免正文同名文本误命中（2026-08-22 校准实证）。"""
     m = re.search(rf"^##\s*{re.escape(title)}", content, re.M)
@@ -330,6 +351,11 @@ def check_agent(agent_id: str, today: str) -> list[dict]:
             continue
 
         depth = check_content_depth(content, size)
+        # #693 件2：场次对账弱校验（场次数 = 「## 差异栏」节数）
+        session_count = len(re.findall(r"^##\s*差异栏", content, re.M))
+        hint = check_session_coverage(agent_id, today, session_count)
+        if hint:
+            depth["coverage_hint"] = hint
         results.append({
             "agent": agent_id,
             "cn_name": cn_name,
@@ -372,7 +398,7 @@ def print_report(results: list, today: str):
             fail_note = f"，未达A: {'；'.join(fails[:4])}" if fails else ""
             if len(fails) > 4:
                 fail_note += f"（+{len(fails) - 4} 项）"
-            print(f"  {label:<32} 🟡 B级 ({r['size']}B) — {r['chapter_count']}/11章{retrieval_note}{fail_note}")
+            print(f"  {label:<32} 🟡 B级 ({r['size']}B) — {r['chapter_count']}/11章{retrieval_note}{fail_note}{r.get('coverage_hint', '')}")
         else:
             reasons = []
             if r.get('size', 0) < 1500:

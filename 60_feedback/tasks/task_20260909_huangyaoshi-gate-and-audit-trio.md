@@ -48,3 +48,17 @@ updated_at: '2026-09-09T17:32:39.771494+00:00'
 ## 边界
 
 - 不改既有检查器的判定口径，只新增；三件套串行，不插队 #690
+
+## 执行报告（黄药师 2026-09-10，#693）
+
+### 五字段摘要（#429 F-034 机器可读）
+
+**交付物**：`Knowledge Delivery OS 0.0.1/kdo/pre_submit.py`（件1 新检查器 _check_absolute_claims + 件4 计数口径收紧）；`Knowledge Delivery OS 0.0.1/tests/test_pre_submit_body_src_unknown.py`（口径变更回归+2 新测试）；`90_control/scripts/queue_transition.py`（件5 EVIDENCE_ANCHORS 白名单+接线+文案）；`90_control/scripts/pre_review.py`（件5 锚点识别白名单化）；`kdo-tools/daily_review.py`（件3 自锁修复：open(a)→stderr）；`kdo-tools/review-check.py`（件2 check_session_coverage 弱校验+挂点+B 级行提示）；验收证据 `_tmp/693-accept-result.txt`（10/10 PASS）。
+
+**完成内容**：件1 合并卡绝对化声称（无信息损失/verbatim 等）→ WARNING 附 git log 证据（F-035 镜像，不 HARD 拦）；件2 复盘场次对账弱校验（当日 todos 非叫醒动作块 > 差异栏节数 → 🟡 可能缺场，不硬拦）；件3 daily_review 收尾日志改写 stderr（cmd 包装 `>>` 句柄冲突根除）；件4 src_unknown 仅列表项计占位（`^\s*[-*]\s+src_unknown\b`，带注列表项仍计；标题/行内提及不计——#695 误报根除）；件5 存在性核查锚点识别扩节名白名单（负向判词台账/kdo query 检索记录/字面 **存在性核查** 任一闭环），queue_transition 与 pre_review 双端对齐，无锚硬拦口径未放宽。
+
+**验证**：验收脚本 10/10 PASS（`_tmp/task693-accept3.py`，结果 `_tmp/693-accept-result.txt`）——件4-a 合成独立列表项仍拦(ERROR+非零退出)/4-b 标题行内不计/4-c #695 产卡单复跑零误报；件1 合成合并卡触发 WARNING（CLI 级，消息含「绝对化声称」+git 证据）；件5 函数级四向：负向判词台账闭环/kdo query 检索记录闭环/旧字面形态闭环/无锚仍硬拦；件2 函数级三向：缺场提示/充足不误报/零场不噪音；件3 `cmd /c kdo-tools/kdo-daily-review.cmd` 手动跑 rc=0（生产重定向条件下无 PermissionError），当晚 23:37 实跑 LastTaskResult 为自然复验点；KDO 仓全量回归 657 passed 1 skipped（基线 655+新增 2，零退步）。
+
+**边界**：只新增与既定口径变更，未动其他检查器判定逻辑；件4 未整类豁免任务单/诊断文件（真实占位仍拦，测 proves）；件2 弱校验仅 🟡 提示不进 grade；三件套串行未插队任何在途单。
+
+**需要谁动作**：①欧阳锋终审（件5 拦截文案已更新，注意契约面 #429/#444 拦截语义未变）；②当晚 23:37 kdo-daily-review 实跑 LastTaskResult=0 为件3 自然验收点（可由任何人查 schtasks）；③王语嫣——件4 口径已按你 10:45 择案②落地，其中「带注列表项」（- src_unknown（补充…））按语义仍计占位，如裁为不计请下任务单微调。

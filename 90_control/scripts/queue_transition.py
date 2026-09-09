@@ -1496,6 +1496,9 @@ def action_complete(task_id: str, instance: str, evidence: str | None, force: bo
 # 治标层：意见书含负向断言词必须带 `**存在性核查**` 锚点（只验锚点存在，不判核查质量——F-034 同款原则）。
 # 强词=明确断言缺失（硬拦，缺锚点不闭环）；宽词=无/缺/没有（标需人工不硬杀——"无阻断项"等合法短语不误伤）。
 EVIDENCE_ANCHOR = "**存在性核查**"
+# #693 件5：节名白名单——任一形态即闭环（与宪法 v1.1 第二/六条落盘形态对齐）。
+# 实证漏认：#694 诊断 L208「负向判词台账」节 4 条全附锚仍被报缺失。
+EVIDENCE_ANCHORS = ("**存在性核查**", "负向判词台账", "kdo query 检索记录")
 # 强词：明确断言缺失（硬拦）。#442 返工：删「为空/空值」——子串误伤"不为空/非空值"正向声明（#435 审计）；
 # 为空/空值改由 PATTERN_DATA 断言句式检测（"grade 为空/值为空"仍拦，"字段不为空"主语不匹配不命中）
 NEGATIVE_CLAIM_STRONG = ["不存在", "未备份", "未同步", "确认缺失", "缺失", "卡住", "丢失", "死锁"]
@@ -1514,7 +1517,7 @@ def _check_negative_claims(text: str) -> tuple[bool, str]:
 
     返回 (block, msg)：block=True=review 不闭环；False=放行（宽词命中给 warn 提示）。
     """
-    if EVIDENCE_ANCHOR in text:
+    if any(a in text for a in EVIDENCE_ANCHORS):  # #693 件5：节名白名单任一即闭环
         return True, ""
     hits = [w for w in NEGATIVE_CLAIM_STRONG if w in text]
     m = NEGATIVE_CLAIM_PATTERN.search(text)
@@ -1524,8 +1527,9 @@ def _check_negative_claims(text: str) -> tuple[bool, str]:
     if m2:
         hits.append(f"「{m2.group(0)}」")
     if hits:
-        return False, (f"意见书含负向断言（{'/'.join(hits[:4])}）但无 `**存在性核查**` 锚点"
-                       f"（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）")
+        return False, (f"意见书含负向断言（{'/'.join(hits[:4])}）但无存在性核查锚点"
+                       f"（#433：'我没看到'≠'不存在'；#693 件5 白名单={'/'.join(EVIDENCE_ANCHORS)}，"
+                       f"任一在位即闭环）")
     soft = [w for w in NEGATIVE_CLAIM_SOFT if w in text]
     if soft:
         return True, f"⚠️ 意见书含宽负向词（{'/'.join(soft[:3])}）无核查锚点——按需人工确认（#433 不硬杀）"

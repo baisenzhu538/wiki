@@ -98,7 +98,8 @@ def run_pre_review(task_file: Path, wiki_root: Path | None = None) -> str:
 
     # ③④ 负向判词 + 存在性核查锚点（#433 判据，前移生产侧执行报告）
     neg_ok, neg_msg = qt._check_negative_claims(report or "")
-    anchor = "✅ 存在性核查锚点在位" if qt.EVIDENCE_ANCHOR in (report or "") else "⚪ 无锚点"
+    _hit = next((a for a in qt.EVIDENCE_ANCHORS if a in (report or "")), None)  # #693 件5 白名单
+    anchor = f"✅ 存在性核查锚点在位（{_hit}）" if _hit else "⚪ 无锚点"
     if neg_ok and not neg_msg:
         lines.append("### ③ 负向判词 / ④ 存在性核查\n\n✅ 执行报告无负向断言词（检查面=执行报告节）")
     elif neg_ok:

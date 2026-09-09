@@ -96,9 +96,10 @@ def main() -> int:
         launched += 1
         time.sleep(1)  # headless 日志名按秒，错开防同名日志文件串写
     log_lines.append(f"--- 共拉起 {launched} 角色 ---")
-    LOG_PATH.parent.mkdir(parents=True, exist_ok=True)
-    with LOG_PATH.open("a", encoding="utf-8") as f:
-        f.write("\n".join(log_lines) + "\n")
+    # #693 件3：cmd 包装（kdo-daily-review.cmd）已 `>> LOG_PATH 2>&1` 持有该文件句柄，
+    # 脚本内再 open("a") 同一文件 = Windows 句柄冲突（PermissionError 自锁，连续两晚 LastTaskResult=1）。
+    # 修复：改写 stderr，由包装统收进同一日志；standalone 手跑时落控制台，行为等价。
+    print("\n".join(log_lines), file=sys.stderr)
     return 0
 
 
