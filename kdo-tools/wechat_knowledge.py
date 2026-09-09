@@ -71,6 +71,53 @@ def get_api_key() -> str:
     return os.environ.get("DEEPSEEK_API_KEY", "")
 
 
+def _minimax_fallback(transcript: str) -> str:
+    """DeepSeek 失败时的 MiniMax 兜底（老朱 2026-09-08 令：DeepSeek 没额度就换 MiniMax，
+    自动化流水线不许断；王语嫣 09-09 值守热修——DeepSeek 余额 -1.10 透支实锤）。
+
+    注意：MiniMax 订阅 key 只在原生端点活（OpenAI 兼容端点实测 402），
+    必须走 /v1/text/chatcompletion_v2 + tokens_to_generate（证据见
+    90_control/channel-model-map.md L16 与王语嫣 09-09 实测）。配置读
+    ~/.kdo/config.yaml 的 minimax 段，env MINIMAX_API_KEY 兜底。
+    """
+    try:
+        import yaml
+        cfg = yaml.safe_load((Path.home() / ".kdo" / "config.yaml").read_text(encoding="utf-8"))
+        mm = cfg.get("minimax", {})
+        key = str(mm.get("api_key", "") or os.environ.get("MINIMAX_API_KEY", "")).strip()
+        base = str(mm.get("base_url", "https://api.minimaxi.com/v1")).rstrip("/")
+        model = str(mm.get("model", "MiniMax-M3"))
+        if not key:
+            print("  ⚠️ MiniMax 兜底无 key（~/.kdo/config.yaml minimax 段）")
+            return ""
+        payload = {
+            "model": model,
+            "messages": [
+                {"role": "system", "content": "你是严谨的知识萃取专家，只依据给定文本总结，不编造。请直接输出三层次内容，不要输出思考过程。"},
+                {"role": "user", "content": TRIPLE_FRAMEWORK_PROMPT.format(transcript=transcript[:20000])},
+            ],
+            "tokens_to_generate": 8192,
+            "temperature": 0.3,
+        }
+        req = urllib.request.Request(
+            f"{base}/text/chatcompletion_v2",
+            data=json.dumps(payload).encode("utf-8"),
+            headers={"Content-Type": "application/json", "Authorization": f"Bearer {key}"},
+        )
+        with urllib.request.urlopen(req, timeout=180) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+        choice = (data.get("choices") or [{}])[0]
+        content = (choice.get("message", {}) or {}).get("content") or data.get("reply", "") or ""
+        if content.strip():
+            print("  ✅ MiniMax 兜底成功（DeepSeek 不可用时的自动切换）")
+            return content
+        print(f"  ⚠️ MiniMax 兜底返回空内容（{str(data)[:200]}）")
+        return ""
+    except Exception as e:
+        print(f"  ⚠️ MiniMax 兜底也失败: {e}")
+        return ""
+
+
 def llm_summarize(transcript: str, api_key: str) -> str:
     """调用 DeepSeek 三层次总结。
 
@@ -110,8 +157,8 @@ def llm_summarize(transcript: str, api_key: str) -> str:
             return ""
         return content
     except Exception as e:
-        print(f"  ⚠️ LLM 调用失败: {e}")
-        return ""
+        print(f"  ⚠️ LLM 调用失败: {e}——自动切 MiniMax 兜底")
+        return _minimax_fallback(transcript)
 
 
 def knowledge_ize(transcript_md: Path, output_path: Path | None = None) -> bool:
