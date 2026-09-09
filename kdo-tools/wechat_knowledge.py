@@ -72,8 +72,8 @@ def get_api_key() -> str:
 
 
 def _minimax_fallback(transcript: str) -> str:
-    """DeepSeek 失败时的 MiniMax 兜底（老朱 2026-09-08 令：DeepSeek 没额度就换 MiniMax，
-    自动化流水线不许断；王语嫣 09-09 值守热修——DeepSeek 余额 -1.10 透支实锤）。
+    """MiniMax 通道（老朱 2026-09-10 令：MiniMax 升主路、DeepSeek 降备用，按顺序自动切换不请示；
+    前史：09-08 令 DeepSeek 没额度换 MiniMax，王语嫣 09-09 热修初版为兜底——DeepSeek 余额 -1.10 透支实锤）。
 
     注意：MiniMax 订阅 key 只在原生端点活（OpenAI 兼容端点实测 402），
     必须走 /v1/text/chatcompletion_v2 + tokens_to_generate（证据见
@@ -109,7 +109,7 @@ def _minimax_fallback(transcript: str) -> str:
         choice = (data.get("choices") or [{}])[0]
         content = (choice.get("message", {}) or {}).get("content") or data.get("reply", "") or ""
         if content.strip():
-            print("  ✅ MiniMax 兜底成功（DeepSeek 不可用时的自动切换）")
+            print("  ✅ MiniMax 主路出活")
             return content
         print(f"  ⚠️ MiniMax 兜底返回空内容（{str(data)[:200]}）")
         return ""
@@ -119,7 +119,7 @@ def _minimax_fallback(transcript: str) -> str:
 
 
 def llm_summarize(transcript: str, api_key: str) -> str:
-    """调用 DeepSeek 三层次总结。
+    """三层次总结。通道顺序（老朱 2026-09-10 令）：MiniMax 主路 → DeepSeek 备用，自动切换不请示。
 
     #584 固化（2026-08-31，黄药师）：deepseek-v4 系默认开启 thinking（官方文档
     Thinking Mode：默认 enabled、默认 effort=high），思考链计入 completion_tokens。
@@ -129,6 +129,11 @@ def llm_summarize(transcript: str, api_key: str) -> str:
     注意：thinking 开启时 temperature 无效（官方文档明示），禁用后 0.3 恢复生效。
     8192 预算保留为兜底（防极长逐字稿总结被截断），空 content 显式报错不静默。
     """
+    # 老朱 2026-09-10 令：MiniMax 主路、DeepSeek 备用，按顺序自动切换不请示
+    out = _minimax_fallback(transcript)
+    if out.strip():
+        return out
+    print("  ⚠️ MiniMax 主路失败，回落 DeepSeek 备用")
     payload = {
         "model": MODEL,
         "messages": [
@@ -157,8 +162,8 @@ def llm_summarize(transcript: str, api_key: str) -> str:
             return ""
         return content
     except Exception as e:
-        print(f"  ⚠️ LLM 调用失败: {e}——自动切 MiniMax 兜底")
-        return _minimax_fallback(transcript)
+        print(f"  ⚠️ DeepSeek 备用也失败: {e}")
+        return ""
 
 
 def knowledge_ize(transcript_md: Path, output_path: Path | None = None) -> bool:
