@@ -8,7 +8,7 @@ author: 王语嫣
 reviewed_by: pending（欧阳锋终审）
 task: task_20260909_wangyuyan-checklist-solving-deep-dig
 created_at: '2026-09-09'
-updated_at: '2026-09-09T12:00:00+08:00'
+updated_at: '2026-09-09T17:50:00+08:00'
 tags: [audience:orchestrator, scene:diagnosis]
 ---
 
@@ -20,7 +20,7 @@ tags: [audience:orchestrator, scene:diagnosis]
 
 ## 一句话结论
 
-素材**不是新域**——它是清单体笔记族（库内已 ~15 张卡）同源课程的第二次交付，最大价值有二：①**回填金矿**：族内主干卡被 src 未知占位 掏空（`yt-note-ai-human-division` 50 处含六阶模型整表、`yt-note-live-field-skill` 66 处、`dk-note-surplus-brainpower` 31 处、`dk-note-maximum-common-divisor` 23 处、`yt-note-checklist-concept` Claims 全空、【实证】grep 计数），本素材逐字稿恰好覆盖这些空洞的原始表述；②**二讲增量**：价值公式、9保留/8删除清单、产品意识、穿糖葫芦反例、显示器 SOP、AI Partner 双产品（诊断教练+笔记官）等 **11 项在族内 grep 0 命中**（存在性核查锚见检索记录 #7-#9）。裁定：**P0=回填 7 张旧卡，P1=新卡 8 张，P2=互链/回填若干**，产卡单排 #692 后。
+素材**不是新域**——它是清单体笔记族（库内全量枚举 **25 张卡+1 skill**，枚举法与全量清单见 MOC 节）同源课程的第二次交付，最大价值有二：①**回填金矿**：族内 13 张卡被 src 未知占位 掏空——主干 7 张（`yt-note-ai-human-division` 50 处含六阶模型整表、`yt-note-live-field-skill` 66 处、`dk-note-surplus-brainpower` 31 处、`dk-note-maximum-common-divisor` 23 处、`yt-note-expert-interview-modeling` 9 处、`yt-note-checklist-concept` Claims 全空、`yt-note-five-levels-training` 暗知识五节全空）+ 终审返工补枚举 6 张（`case-truman-ai-partner` 44 处、`yt-note-problem-solving-capability` 28 处、`dk-fundamentals-before-advanced-ops` 27 处、`concept-提升笔记阅读舒适度` 23 处、`concept-问题驱动式深度思考笔记` 17 处、`tool-用清单体记备忘笔记` 13 处【实证】grep 计数），本素材逐字稿恰好覆盖这些空洞的原始表述；②**二讲增量**：价值公式、9保留/8删除清单、穿糖葫芦反例、显示器 SOP、分点标题机制、AI Partner 双产品（诊断教练+笔记官）等——其中「穿糖葫芦/27寸/分点标题」族内 grep 0 命中**成立**；「产品意识/只记备忘」二项经全库存在性核查**改判不成立**（产品意识=`concept-提升笔记阅读舒适度` claim:02 已覆盖；只记备忘=`tool-用清单体记备忘笔记` 既有卡），改裁为回填互链不新产（存在性核查锚见检索记录 #6/#13-#16）。裁定：**P0=回填 13 张旧卡，P1=新卡 8 张，P2=互链/回填若干**，产卡单排 #692 后。
 
 ## 覆盖率声明（W5）
 
@@ -34,7 +34,7 @@ tags: [audience:orchestrator, scene:diagnosis]
 
 ## MOC 先行与同构映射表（W8/W10，建模第 0 步）
 
-主题域=清单体笔记/一堂笔记法。族内主干卡已通读 2 张全文（`yt-note-checklist-concept` 314 行、`yt-note-five-levels-training` 291 行），其余 10+ 张读 Summary/核心要点层。族清单【实证】：yt-note-checklist-concept / yt-note-five-levels-training / yt-note-ai-human-division / yt-note-live-field-skill / yt-note-l4-internalization / yt-note-l6-extraction / yt-note-expert-interview-modeling / yt-note-fact-pattern-insight / yt-note-deliberate-practice-four-elements / yt-note-extensive-research-input / yt-skill-checklist-as-ai-protocol / tool-note-one-line-one-point / tool-note-layer-constraint / tool-note-keyword-bolding / dk-note-maximum-common-divisor / dk-note-surplus-brainpower / dk-note-rookie-disaster-veteran-heaven / dk-truman-flag-note-taking / dk-modeling-checklist-working-medium + skill `transcript-to-qingdanti`。**无独立 MOC/domain-digest 卡**（存在性核查：ls 30_wiki/domains 无 note 域 digest——MOC 缺失本身登记为基建缺口，见「下一步」）。
+主题域=清单体笔记/一堂笔记法。族内主干卡已通读 2 张全文（`yt-note-checklist-concept` 314 行、`yt-note-five-levels-training` 291 行），其余读 Summary/核心要点层。**族清单（2026-09-09 终审 FAIL 后按 source_refs 全量枚举法重建）【实证】**：`grep -rl "AI时代清单体笔记" 30_wiki --include="*.md"` 命中 21 张卡（去 index.md）+ `tool-用清单体记备忘笔记`（source_refs=src_20260609_6809033f-ocr-清单体笔记训练段位图-图片02，不含口述关键词，为枚举法外第 22 张）+ 族邻接 3 张（yt-note-deliberate-practice-four-elements / dk-note-rookie-disaster-veteran-heaven / dk-modeling-checklist-working-medium，族内容强相关但 source_refs 未挂首讲）= **全族 25 张卡 + skill `transcript-to-qingdanti`**。全量清单：yt-note-checklist-concept / yt-note-five-levels-training / yt-note-ai-human-division / yt-note-live-field-skill / yt-note-l4-internalization / yt-note-l6-extraction / yt-note-expert-interview-modeling / yt-note-fact-pattern-insight / yt-note-extensive-research-input / yt-note-problem-solving-capability / yt-skill-checklist-as-ai-protocol / case-truman-ai-partner / concept-提升笔记阅读舒适度 / concept-问题驱动式深度思考笔记 / tool-note-one-line-one-point / tool-note-layer-constraint / tool-note-keyword-bolding / tool-用清单体记备忘笔记 / dk-note-maximum-common-divisor / dk-note-surplus-brainpower / dk-truman-flag-note-taking / dk-fundamentals-before-advanced-ops + 邻接 3 张（yt-note-deliberate-practice-four-elements / dk-note-rookie-disaster-veteran-heaven / dk-modeling-checklist-working-medium）。**初版漏列 5+1 张（欧阳锋终审 P0-1 实拦）**：case-truman-ai-partner / concept-提升笔记阅读舒适度 / concept-问题驱动式深度思考笔记 / yt-note-problem-solving-capability / dk-fundamentals-before-advanced-ops + tool-用清单体记备忘笔记——漏网 6 卡空洞计数【实证 grep 计数，模式=src 未知占位串+待补充链接】44/23/17/28/27/13 处，P0 回填清单随之补报。**无独立 MOC/domain-digest 卡**（存在性核查：ls 30_wiki/domains 无 note 域 digest——MOC 缺失本身登记为基建缺口，见「下一步」；本族 25 卡无 digest 导航=初版枚举漏列的直接根因）。
 
 | 素材概念（锚） | 库内最近已有卡 | 关系 | 真缺口判定 |
 |:--|:--|:--|:--|
@@ -48,10 +48,10 @@ tags: [audience:orchestrator, scene:diagnosis]
 | 三段论 事实→规律→借鉴（口述L1208-1212；逐字L1249 附近） | `yt-note-fact-pattern-insight` | 已覆盖 | 互链即可 |
 | 立 Flag 具体数值：30% 原创/写满一屏/灵感 20-50 个（口述L1150-1162；逐字L1201-1211） | `dk-truman-flag-note-taking` + 多张卡命中"30%" | 已覆盖 | 互链即可 |
 | **价值公式：不困<加深印象<备忘回顾<多人协作<内化吸收<实时建模**（逐字L255；口述L120-124） | 无（grep"价值公式/不困"族内 0 命中） | — | ✅ 真缺口 |
-| **只记备忘+9 保留/8 删除清单+常见偏差 5 条**（逐字L867-941；口述L736-756） | `tool-note-one-line-one-point` 部分相邻（一行一点）但无保留/删除清单 | 相邻不重叠 | ✅ 真缺口 |
-| **产品意识：笔记即产品，预判谁用/用多久/什么场景**（逐字L957-971；口述L794-806） | 无（grep"产品意识"族内 0 命中） | — | ✅ 真缺口 |
-| **分点标题的机制解释：标题=可排序标签，是现场整理/后续飞跃的前提**（口述L920-934；逐字L1003-1015） | `tool-note-keyword-bolding`（讲加粗视觉重心，不讲标题=排序标签机制） | 互补不同层 | ✅ 真缺口（并入产品意识卡或独立 tool，裁定为并入价值公式卡的对偶节）→ **独立 tool** |
-| **穿糖葫芦反例+手动编号/Tab 双臭毛病**（口述L830-834/L690-700） | `tool-note-layer-constraint`（讲 2-3 层≤7 点正面规则，无反例叙事） | 互补（正反两面） | ✅ 真缺口（dk 反例卡） |
+| **只记备忘+9 保留/8 删除清单+常见偏差 5 条**（逐字L867-941；口述L736-756） | `tool-用清单体记备忘笔记`（卡名即"只记备忘"原则既有卡，空洞 13 处【实证】）+ `tool-note-one-line-one-point`（一行一点相邻） | **"只记备忘"原则已被既有卡覆盖**（初版判"相邻不重叠"系族清单漏卡所致，终审 P1-1 改判）；9保留/8删除清单+常见偏差5条既有卡无 | 原则回填互链既有卡（P0 #13）；清单/偏差部分真缺口→随 P1 价值公式卡新产并互链 |
+| **产品意识：笔记即产品，预判谁用/用多久/什么场景**（逐字L957-971；口述L794-806） | `concept-提升笔记阅读舒适度`（claim:02「产品意识是舒适度的底层操作系统」L78-87 载谁用/什么场景/用多久/什么价值四维表，与逐字L957-971 同构【实证：本轮回读】；自身空洞 23 处） | **已有卡覆盖**（初版判"族内 0 命中=真缺口"被全库 grep 推翻：「产品意识」5 文件命中、本卡 11 次——检索记录 #14） | ❌ 不新产——用二讲素材回填该卡空洞+互链（P0 #8） |
+| **分点标题的机制解释：标题=可排序标签，是现场整理/后续飞跃的前提**（口述L920-934；逐字L1003-1015） | `tool-note-keyword-bolding`（讲加粗视觉重心，不讲标题=排序标签机制） | 互补不同层 | ✅ 真缺口（**独立 tool** `tool-yt-note-point-title-mechanism`——初版裁定注记"并入产品意识卡"随产品意识改判作废） |
+| **穿糖葫芦反例+手动编号/Tab 双臭毛病**（口述L830-834/L690-700） | `tool-note-layer-constraint`（正面规则）+ `concept-提升笔记阅读舒适度`（L178 已载"串糖葫芦"式分层过度反面案例【实证 grep：该卡作"串"字，故"穿糖葫芦"0 命中与本判并存不矛盾】） | 互补（正反两面）：concept 卡=舒适度/分层视角引述，本素材=操作失败模式原话（一里套二、二里套A"我智商不够"）+手动编号/Tab 双臭毛病 | ✅ 真缺口（dk 反例卡保留，互链 concept 卡反面案例节并写明差异化定位） |
 | **显示器 SOP：27寸2K竖屏标配/竖屏填满欲望/出差酒店 SOP**（口述L980-996；逐字L1039-1057） | 无（grep"27寸"全库 0 命中） | — | ✅ 真缺口 |
 | **张磊精益案例课极限案例：5h 访谈→当晚 7h 写逐字稿→次日内测**（逐字L609-613） | 无（grep"张磊"族内 0 命中） | — | ✅ 真缺口（case） |
 | **麻将刻意练习案例**（口述L408-422） | 无（族内 0 命中；逐字L539 仅目录提及） | — | ✅ 真缺口（case） |
@@ -135,34 +135,43 @@ tags: [audience:orchestrator, scene:diagnosis]
 
 本域不新增 framework 卡（两套段位语言已够，严禁第三套）——解压资产围绕既有体系主干（`yt-note-checklist-concept`+`yt-note-ai-human-division`+`yt-note-five-levels-training`）配置：
 
-1. **tool-yt-note-value-formula-min-memo**（新产 P1）：价值公式判定器+9 保留/8 删除对照清单——日常任何记录场景直接调用。
-2. **agent-spec-yt-note-coach-partner**（新产 P1）：10 倍速诊断教练——把"五段位判定+四要素诊断+最小行动"产品化为可复用 agent 规格，KDO 可直接编译。
-3. **agent-spec-yt-note-officer**（新产 P1）：笔记官——与既有 skill `transcript-to-qingdanti` 互为"产品形态↔生产 SOP"。
-4. **case×2**（新产 P1）：麻将刻意练习 + 张磊 5h 极限出课——L4 思考段与 L6 萃取段的活例。
-5. **dk×2**（新产 P1）：穿糖葫芦反例 + 显示器 SOP——失败模式与效率工具两条暗线。
-6. 既有解压资产（不重复产）：`transcript-to-qingdanti` skill、`tool-note-one-line-one-point`、`tool-note-layer-constraint`、`tool-note-keyword-bolding`。
+1. **tool-yt-note-value-formula-min-memo**（新产 P1）：价值公式判定器+9 保留/8 删除对照清单——日常任何记录场景直接调用；互链 `tool-用清单体记备忘笔记`（原则层既有卡）。
+2. **tool-yt-note-point-title-mechanism**（新产 P1）：分点标题=可排序标签机制——协作段→思考段的桥梁工具（初版解压清单漏列，终审 P2-1 补）。
+3. **agent-spec-yt-note-coach-partner**（新产 P1）：10 倍速诊断教练——把"五段位判定+四要素诊断+最小行动"产品化为可复用 agent 规格，KDO 可直接编译。
+4. **agent-spec-yt-note-officer**（新产 P1）：笔记官——与既有 skill `transcript-to-qingdanti` 互为"产品形态↔生产 SOP"。
+5. **case×2**（新产 P1）：麻将刻意练习 + 张磊 5h 极限出课——L4 思考段与 L6 萃取段的活例。
+6. **dk×2**（新产 P1）：穿糖葫芦反例 + 显示器 SOP——失败模式与效率工具两条暗线。
+7. 既有解压资产（不重复产）：`transcript-to-qingdanti` skill、`tool-note-one-line-one-point`、`tool-note-layer-constraint`、`tool-note-keyword-bolding`、`tool-用清单体记备忘笔记`。
+
+（产品意识独立卡已撤销——改判回填 `concept-提升笔记阅读舒适度`，见映射表与 P0 #8。）
 
 ## 产卡范围裁定（王语嫣门禁，老朱授权直裁）
 
-**P0（回填 7 张，本素材最大价值——旧卡 src 未知占位 空洞按锚补齐，只追加不替换）：**
+**P0（回填 13 张，本素材最大价值——旧卡 src 未知占位 空洞按锚补齐，只追加不替换；#8-#13 为终审 P0-1 补枚举漏网卡）：**
 
 | # | 回填目标卡 | 空洞现状【实证】 | 回填素材锚 |
 |:--|:--|:--|:--|
 | 1 | `yt-note-ai-human-division` | 50 处 src 未知占位，含"笔记六阶能力模型与AI接管梯度"整表（L115-127） | 逐字L1473-1513；口述L526-530/L1376 |
-| 2 | `yt-note-five-levels-training` | 暗知识五节全空（L114-142） | 剩余脑力=口述L442-448/L1064-1066；笔记即练习=口述L402-404；问题驱动=逐字L1171-1191；广泛涉猎=逐字L1215-1231；立Flag=逐字L1193-1213；另补"两套段位语言对照"说明 |
+| 2 | `yt-note-five-levels-training` | 暗知识五节全空（L114-142） | 剩余脑力=口述L442-448/L1064-1066；笔记即练习=口述L402-404；问题驱动=逐字L1171-1191（**主锚归 P0 #9 专卡，本卡该节只做摘要+互链**，防同段双写）；广泛涉猎=逐字L1215-1231；立Flag=逐字L1193-1213；另补"两套段位语言对照"说明 |
 | 3 | `yt-note-live-field-skill` | 66 处 src 未知占位 | 逐字L1311-1389；口述L1244-1336 |
 | 4 | `dk-note-surplus-brainpower` | 31 处 src 未知占位 | 口述L442-450/L1050/L1308 |
 | 5 | `dk-note-maximum-common-divisor` | 23 处 src 未知占位 | 逐字L647-673（花总对话+API 接口+数据密度/注意力机制）；口述L510-524 |
 | 6 | `yt-note-checklist-concept` | Claims 核心定义/六大优势全空（L116-138） | 逐字L297-365；口述L172-218 |
 | 7 | `yt-note-expert-interview-modeling` | 9 处 src 未知占位 | 现场追问四案例=逐字L1351-1359 |
+| 8 | `concept-提升笔记阅读舒适度` | 23 处（query_triggers 7 + pipeline 2 + claim:03 5 + Critique 内部局限 4 + Synthesis 待补充 5）【实证 grep】 | 产品意识四维（claim:02 同构增量）+协作段五要点（视觉美化/两到三层/信息密度画表/分点标题）：逐字L957-1015；口述L794-806/L898-934 |
+| 9 | `concept-问题驱动式深度思考笔记` | 17 处【实证 grep】 | 问题驱动要点+毛选决策共性/讲好一堂课/灵感闪现三例：逐字L1171-1191（**本卡为该段主锚**） |
+| 10 | `yt-note-problem-solving-capability` | 28 处【实证 grep】 | 破题"笔记=解决问题能力"原话+能力清单（关键假设/深度思考/建模/做客/灵感闪现）：口述L36-40；逐字L55-67 |
+| 11 | `dk-fundamentals-before-advanced-ops` | 27 处【实证 grep】 | "L2 变便宜 L3-L6 更稀缺"：逐字L1485；"记成一坨=录音转文稿/AI摘要完事儿，省事但没啥用"失败模式：逐字L751；两周新人练兵法：口述L622-626 |
+| 12 | `case-truman-ai-partner` | 44 处【实证 grep】 | AI Partner 产品演进线（二讲诊断教练 10 倍速报告="阿蕊老师"产品线的二讲形态）：逐字L1447-1461；口述L1402-1428。**边界：本卡只补案例叙事/演进层，产品规格结构归 P1 `agent-spec-yt-note-coach-partner`**（见边界条款⑦） |
+| 13 | `tool-用清单体记备忘笔记` | 13 处【实证 grep】 | 只记备忘细化（使用者的最小备忘需求/语气词插入语化简/关键信息完整度≠逐字完整度）+常见偏差：逐字L867-877；口述L736-756 |
 
 **P1（新卡 8 张）：**
 
 | 优先级 | 卡 id | type | 素材锚 | 备注 |
 |:--|:--|:--|:--|:--|
-| P1 | `tool-yt-note-value-formula-min-memo` | tool | 逐字L255/L867-941；口述L120-124/L736-756 | 价值公式+只记备忘+9保留/8删除+常见偏差5条 |
+| P1 | `tool-yt-note-value-formula-min-memo` | tool | 逐字L255/L867-941；口述L120-124/L736-756 | 价值公式+9保留/8删除+常见偏差5条（"只记备忘"原则层归既有卡）；**互链 `tool-用清单体记备忘笔记`**（原则层既有卡，本卡只承载清单与偏差增量） |
 | P1 | `tool-yt-note-point-title-mechanism` | tool | 口述L898-934；逐字L1003-1015 | 分点标题=可排序标签机制；互链 tool-note-keyword-bolding（视觉层） |
-| P1 | `dk-yt-note-candy-string-failure` | dk | 口述L830-834/L690-700 | 穿糖葫芦+手动编号/Tab 双臭毛病；互链 tool-note-layer-constraint |
+| P1 | `dk-yt-note-candy-string-failure` | dk | 口述L830-834/L690-700 | 穿糖葫芦+手动编号/Tab 双臭毛病；互链 tool-note-layer-constraint（正反两面）+ **`concept-提升笔记阅读舒适度` 反面案例节**（该卡 L178 载"串糖葫芦"分层反例；本卡差异化定位=操作失败模式原话+双臭毛病，非舒适度视角） |
 | P1 | `dk-yt-note-display-sop` | dk | 口述L980-996；逐字L1039-1057 | 27寸2K竖屏标配；标注"个人效率经验，ROI 因人异" |
 | P1 | `case-truman-mahjong-deliberate-practice` | case | 口述L408-422 | 起点→尝试→转折→结果全过程（见自检三问 #2） |
 | P1 | `case-zhanglei-lean-course-5h-sprint` | case | 逐字L609-613 | L6 完成度极限案例；仅逐字锚（口述截断） |
@@ -171,7 +180,7 @@ tags: [audience:orchestrator, scene:diagnosis]
 
 **P2 / 不产**：①一堂笔记法命名叙事+花总对话→随 P0 回填；②影响力 36 计 6×6 建模过程→回填 `tool-一堂-影响力六原则` 案例区；③10 类故事线清单→并入回填 #1 六阶表时核对原表述后落位【推断：原属被掏空的六阶表区域】；④作业/Candy→不入卡；⑤逻辑五段位/三段论/立 Flag→互链不产。
 
-**边界条款**：①口述件 L1430 截断——凡引用"硬币另一面/笔记官/作业"区段只许用逐字锚；②"清单体=最优 AI 数据格式/降幻觉"为 Truman 一手断言，全族标【推断】confidence≤0.85；③年笔记量两口径（个人 200-300 vs 含团队 400-600）产卡须注明；④严禁建第三套段位框架卡——二讲"五飞跃"与首讲"五阶训练法"差异以对照说明落进 `yt-note-five-levels-training`；⑤ASR 错词按本报告开头勘误表执行；⑥回填只追加不替换（source_refs 铁律）。
+**边界条款**：①口述件 L1430 截断——凡引用"硬币另一面/笔记官/作业"区段只许用逐字锚；②"清单体=最优 AI 数据格式/降幻觉"为 Truman 一手断言，全族标【推断】confidence≤0.85；③年笔记量两口径（个人 200-300 vs 含团队 400-600）产卡须注明；④严禁建第三套段位框架卡——二讲"五飞跃"与首讲"五阶训练法"差异以对照说明落进 `yt-note-five-levels-training`；⑤ASR 错词按本报告开头勘误表执行；⑥回填只追加不替换（source_refs 铁律）；⑦**AI Partner 双源边界（终审残余风险条款）**：`case-truman-ai-partner`（P0 #12）与 `agent-spec-yt-note-coach-partner`（P1）同涉逐字L1447-1461/口述L1402-1428——case 卡只回填案例叙事与产品演进层（阿蕊老师→诊断教练的演进），agent-spec 承载产品规格结构（段位判定→四要素→最小行动→路线），两卡互链但不得重复承载同一段产品结构描述。
 
 ## #685 对账（防双源冲突）
 
@@ -197,18 +206,30 @@ tags: [audience:orchestrator, scene:diagnosis]
 | 3 | kdo query | 笔记法 checklist 解题外挂（同义扩展） | 命中族内卡若干（同 #1 族） | 2026-09-09 |
 | 4 | kdo query | 外挂大脑 剩余脑力 认知负荷 外接内存 | 低分命中 yt-note-live-field-skill(0.15)/tool-note-layer-constraint 等，无"认知卸载"专卡 | 2026-09-09 |
 | 5 | kdo query | 清单体 人机接口 API 最大公约数 AI友好（中英扩展） | 命中 tool-geo-ai-search-visibility-playbook 等弱相关，确认 dk-note-maximum-common-divisor 为唯一主卡 | 2026-09-09 |
-| 6 | grep（kdo query 后补充定位，降级口径①） | 30_wiki 族内 14 组词："价值公式/不困/穿糖葫芦/27寸/张磊/只记备忘/避免大段/分点标题/产品意识/笔记官" | **各 0 命中**（真缺口存在性核查锚）；"如厕/不投屏/故事线/30%/长期迭代/信息密度"等有命中（已覆盖锚） | 2026-09-09 |
+| 6 | grep（kdo query 后补充定位，降级口径①） | 30_wiki 族内 14 组词："价值公式/不困/穿糖葫芦/27寸/张磊/只记备忘/避免大段/分点标题/产品意识/笔记官" | **初版判"各 0 命中"——经终审存在性核查部分推翻**：「产品意识」5 文件命中、「只记备忘」1 文件命中 → 二词判词**不成立**（改判见映射表与 #14/#15）；「穿糖葫芦/27寸/分点标题」等 0 命中**成立**；"如厕/不投屏/故事线/30%/长期迭代/信息密度"等有命中（已覆盖锚） | 2026-09-09 |
 | 7 | grep（同上） | 族内 6 张主干卡 src 未知占位 计数 | ai-human-division=50、live-field-skill=66、surplus-brainpower=31、max-common-divisor=23、expert-interview-modeling=9、checklist-concept Claims 节全空（回填必要性锚） | 2026-09-09 |
 | 8 | grep（同上） | 30_wiki 内 "dk-yt-checklist-max-common-divisor" | 0 命中——任务单笔误，实卡=`dk-note-maximum-common-divisor`（已正名） | 2026-09-09 |
 | 9 | ls/grep（非知识类检索，降级口径②） | 30_wiki/domains 无 note 域 MOC/digest；framework-logic-cleanliness-five-levels 在库 | MOC 缺失=基建缺口；逻辑五段位已覆盖 | 2026-09-09 |
 | 10 | WebSearch | note-taking methods comparison GTD/bullet journal/zettelkasten/BASB | ≥3 独立来源确认业界格局（见三方法①） | 2026-09-09 |
 | 11 | WebSearch | cognitive offloading extended mind working memory | ≥3 独立来源确认机制同构 | 2026-09-09 |
 | 12 | WebSearch | "清单体笔记" | 外部有"文体"用法+一堂训练地图第三方解读；无同粒度训练体系 | 2026-09-09 |
+| 13 | grep（返工·存在性核查，终审 P0-1 期望形态①） | `grep -rl "AI时代清单体笔记" 30_wiki --include="*.md"` | 命中 21 张卡（去 index.md），对照初版族清单差集=5 张（case-truman-ai-partner/concept-提升笔记阅读舒适度/concept-问题驱动式深度思考笔记/yt-note-problem-solving-capability/dk-fundamentals-before-advanced-ops）；另 tool-用清单体记备忘笔记 source_refs=段位图图片02（该卡 L26） | 2026-09-09 |
+| 14 | grep（返工·存在性核查，终审 P1-1） | `grep -rl "产品意识" 30_wiki/` | 5 文件命中：concept-提升笔记阅读舒适度（11 次）/concept-card-index-latest/yt-entrepreneur-product-core/yt-product-kernel-six-levels/index → 初版"族内 0 命中"判词**不成立** | 2026-09-09 |
+| 15 | grep（返工·存在性核查，终审 P1-1） | `grep -rl "只记备忘"/"穿糖葫芦"/"27寸"/"分点标题" 30_wiki/` | 只记备忘=tool-用清单体记备忘笔记 1 文件命中 → 判词**不成立**；穿糖葫芦/27寸/分点标题均 0 文件命中 → 判词**成立**（concept-提升笔记阅读舒适度 作"串糖葫芦"异体表述，L70/L133/L178【实证】） | 2026-09-09 |
+| 16 | grep（返工·漏网卡空洞计数） | `grep -c`（模式=src 未知占位串+待补充链接）漏网 6 卡 | case-truman-ai-partner=44、yt-note-problem-solving-capability=28、dk-fundamentals-before-advanced-ops=27、concept-提升笔记阅读舒适度=23、concept-问题驱动式深度思考笔记=17、tool-用清单体记备忘笔记=13 | 2026-09-09 |
 
-**负向判词台账**（宪法第二条）：「11 项二讲增量族内 0 命中」→锚=#6；「主干卡被掏空」→锚=#7；「无 note 域 MOC」→锚=#9；「外部无同粒度体系/无否定来源」→锚=#12。
+**负向判词台账**（宪法第二条，2026-09-09 终审 FAIL 后逐条复核）：「穿糖葫芦/27寸/分点标题族内 0 命中」→**成立**，锚=#15；「主干 7 卡被掏空」→成立，锚=#7；「漏网 6 卡空洞 44/28/27/23/17/13 处」→成立，锚=#16；「无 note 域 MOC」→成立，锚=#9；「外部无同粒度体系/无否定来源」→成立，锚=#12；~~「产品意识族内 0 命中」~~→**不成立已改判**（5 文件命中），锚=#14；~~「只记备忘族内 0 命中」~~→**不成立已改判**（tool-用清单体记备忘笔记），锚=#15。**教训**：初版负向判词按"族内"口径下断言，但族清单本身不完备（漏 5+1 张）——负向判词的存在性核查必须先保证分母（族清单）完备，否则判词随分母一起被推翻（终审 P0-1→P1-1 连锁实证）。
 
 ## 下一步
 
-1. 建老顽童产卡单 `task_20260909_laowantong-yt-note-v2-backfill-and-cards`（P0 回填 7 张+P1 新卡 8 张+P2 回填 2 处），排 #692 后，欧阳锋终审。
-2. 基建缺口登记：清单体笔记族 ~19 张卡无 domain-digest/MOC——建议并入黄药师 digest 排期（王语嫣不跑全库基建，仅登记）。
+1. 修订老顽童产卡单 `task_20260909_laowantong-yt-note-v2-backfill-and-cards`（P0 回填 13 张+P1 新卡 8 张+P2 回填 2 处，2026-09-09 终审 FAIL 同步修订完毕），排 #692 后，欧阳锋终审。
+2. 基建缺口登记：清单体笔记族 25 张卡+1 skill 无 domain-digest/MOC（本族漏枚举事故的直接根因）——建议并入黄药师 digest 排期（王语嫣不跑全库基建，仅登记）。
 3. 本报告经欧阳锋终审后，诊断结论同步 `.agent/kb-evolution-direction.md`（清单族从"首讲骨架"升级为"二讲回填完成"）。
+
+## 修订记录（2026-09-09 欧阳锋终审 FAIL 后返工，复审轮 1/3）
+
+1. **P0-1（阻断）族清单重建**：按 source_refs 全量枚举法补 5+1 张漏网卡（锚=检索记录 #13），逐卡跑空洞计数（#16）；全族卡数口径统一为 **25 张卡+1 skill**（一句话结论/MOC 节/下一步三处同步，消除"~15 vs 19 vs ~19"三口径）。
+2. **P1-1 负向判词改判**：「产品意识」（#14）「只记备忘」（#15）二词 0 命中判词不成立——产品意识行改判"`concept-提升笔记阅读舒适度` claim:02 已覆盖"→回填互链不新产；只记备忘行改判"原则已有 `tool-用清单体记备忘笔记`"→清单/偏差部分随 P1 价值公式卡互链新产；穿糖葫芦/27寸/分点标题 0 命中维持成立（#15）。
+3. **P2-1 随修**：解压路径补列 `tool-yt-note-point-title-mechanism`（初版漏列 P1 表第 2 张）；分点标题行作废"并入产品意识卡"注记。
+4. **P0 回填表重排**：7 张→13 张——漏网 6 卡全部纳入（AI Partner=逐字L1447-1461、问题驱动=逐字L1171-1191、产品意识=逐字L957-1015、破题=口述L36-40、AI 依赖边界=逐字L751/L1485、只记备忘=逐字L867-877）；逐字L1171-1191 主锚归 `concept-问题驱动式深度思考笔记`（P0 #9），five-levels-training 该节降为摘要+互链；AI Partner 双卡双源边界写入边界条款⑦（终审残余风险条款）。
+5. **P2-2 #695 同步修订**：标题删除"产品意识"与 P1 表对齐；P0 表同步扩至 13 张；正文 src 未知占位 原字样改述（pre-submit BODY_SRC_UNKNOWN 误报规避，已入欧阳锋建议书台账）。

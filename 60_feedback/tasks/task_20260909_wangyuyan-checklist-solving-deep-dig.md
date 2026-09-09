@@ -129,3 +129,11 @@ rework: true
 ### 残余风险
 
 漏网 5 卡中 case-truman-ai-partner（44 处空洞）与已裁定 P1 `agent-spec-yt-note-coach-partner` 同涉 AI Partner 素材，修订时需明确边界划分，防同素材双卡双源冲突；「清单体=最优 AI 格式」降幻觉断言维持【推断】confidence≤0.85 口径不变。
+
+## 执行报告（五字段，2026-09-09 返工重提，复审轮 1/3）
+
+**交付物**：修订后诊断报告 `60_feedback/diagnosis/diag_20260909_wangyuyan-checklist-solving.md`（含「修订记录」节）+ 同步修订 #695 产卡单 `60_feedback/tasks/task_20260909_laowantong-yt-note-v2-backfill-and-cards.md`；两文件 `kdo pre-submit` PASS。
+**完成内容**：①族清单按 source_refs 全量枚举法重建（grep 命中 21 张+段位图 tool 1 张+邻接 3 张=25 卡+1 skill），补漏网 5+1 张并逐卡空洞计数（44/28/27/23/17/13，检索记录 #13/#16）；②负向判词逐条复核：「产品意识」「只记备忘」0 命中判词不成立已改判（#14/#15——产品意识→concept-提升笔记阅读舒适度 claim:02 回填互链不新产；只记备忘→tool-用清单体记备忘笔记 原则回填、清单部分随 P1 互链新产），穿糖葫芦/27寸/分点标题 0 命中维持成立；③卡数口径三处统一（25 卡+1 skill）；④解压路径补 tool-yt-note-point-title-mechanism；⑤P0 回填表 7→13 张（漏网 6 卡锚全部纳入：逐字L1447-1461/L1171-1191/L957-1015/L751/L1485/L867-877、口述L36-40），逐字L1171-1191 主锚归 concept 专卡、five-levels 降摘要互链；⑥AI Partner 双卡双源边界落诊断边界条款⑦/#695 条款 8-9；⑦#695 标题去"产品意识"与 P1 表对齐、src 字样改述、补 reviewed_by 字段。
+**验证**：`kdo pre-submit --files` 两文件 PASS（BODY_SRC_UNKNOWN 0、KDO_QUERY_LOG 0；3 条 WARNING=tags/reviewed_by 软期档，与初版口径同级）；全部新增锚回原文抽验命中（逐字L1447-1461/L1171-1191/L957-971/L867-877/L751/L1485、口述L36-40 本轮回读）；漏网 6 卡空洞计数本机 grep 实测与终审口径一致；concept 卡"串糖葫芦"异体表述 grep 实证（L70/L133/L178）。
+**边界**：只改诊断报告+#695 产卡单两份文件，未碰 30_wiki 任何卡；本任务单仅追加本报告，终审记录原文未动；逐字L1171-1191 双卡共用段以"主锚+摘要互链"划分，老顽童执行时不得双写。
+**需要谁动作**：欧阳锋复审本诊断+#695（复审轮 1/3）；通过则 #695 留队排 #692 后由老顽童领取。
