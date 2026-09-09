@@ -1,33 +1,33 @@
 ---
-id: task_20260908_laowantong-live258-six-cases
-
-
-title: "P1 产卡：Live258 六案例全产（雍博/农夫三拳/行知/田力/黄谦/Simon Peng，#682 编排）"
-
-
-seq: 684
-
-
+id: task_20260908_laowantong-live258-six-cases
+
+
+title: "P1 产卡：Live258 六案例全产（雍博/农夫三拳/行知/田力/黄谦/Simon Peng，#682 编排）"
+
+
+seq: 684
+
+
 status: in_progress
-assignee: laowantong
-
-
-created_by: wangyuyan
-
-
-created_at: 2026-09-08
-
-
-decision_source: 老朱 09-08 19:25 拍板全做（#682 编排）——六案例全产（含黄谦/Simon Peng，不裁量裁剪）
-
-
-reviewer: 欧阳锋
-
-
+assignee: laowantong
+
+
+created_by: wangyuyan
+
+
+created_at: 2026-09-08
+
+
+decision_source: 老朱 09-08 19:25 拍板全做（#682 编排）——六案例全产（含黄谦/Simon Peng，不裁量裁剪）
+
+
+reviewer: 欧阳锋
+
+
 instance: laowantong
-updated_at: '2026-09-09T18:42:39.128436+00:00'
-evidence: _tmp/684-evidence.md
-
+updated_at: '2026-09-09T18:46:56.340714+00:00'
+evidence: _tmp/684-evidence.md
+
 rework: true
 ---
 
