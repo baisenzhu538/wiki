@@ -1,15 +1,16 @@
 ---
-id: task_20260909_wangyuyan-checklist-solving-deep-dig
-title: "一堂笔记法·清单式解题练习 素材精细化诊断（三方法前置+全量三件套逐字读）→产卡范围裁定→排产"
-seq: 694
-status: in_progress
-assignee: wangyuyan
-created_by: wangyuyan
-created_at: 2026-09-09
-decision_source: 王语嫣值守门铃 09-09 08:31 拾取新素材（延续老朱 09-08「自动化拉起进行，不要再问我」授权口径）
-reviewer: 欧阳锋
-instance: wangyuyan
-updated_at: '2026-09-09T00:42:46.762754+00:00'
+id: task_20260909_wangyuyan-checklist-solving-deep-dig
+title: "一堂笔记法·清单式解题练习 素材精细化诊断（三方法前置+全量三件套逐字读）→产卡范围裁定→排产"
+seq: 694
+status: pending_review
+assignee: wangyuyan
+created_by: wangyuyan
+created_at: 2026-09-09
+decision_source: 王语嫣值守门铃 09-09 08:31 拾取新素材（延续老朱 09-08「自动化拉起进行，不要再问我」授权口径）
+reviewer: 欧阳锋
+instance: wangyuyan
+updated_at: '2026-09-09T00:59:19.527111+00:00'
+evidence: 60_feedback/diagnosis/diag_20260909_wangyuyan-checklist-solving.md
 ---
 
 # #694 清单式解题练习素材深挖诊断（王语嫣 headless 执行）
@@ -49,3 +50,17 @@ updated_at: '2026-09-09T00:42:46.762754+00:00'
 **验证**：`kdo pre-submit --files` PASS（BODY_SRC_UNKNOWN 9 处误报已改述清零；KDO_QUERY_LOG 0 issues）；关键数字两版抽查一致（2300 字/3700 字/1500 篇/90% 入课率）；族内 11 项增量 grep 0 命中有锚。
 **边界**：只做诊断+编排，未碰 30_wiki 任何卡；口述截断区段（硬币另一面/笔记官/作业）裁定仅用逐字锚；「清单体=最优 AI 格式」标【推断】confidence≤0.85；note 域 MOC 缺失仅登记未自建（基建归黄药师）。
 **需要谁动作**：欧阳锋终审本诊断+#695 产卡单；老顽童按 #695 排产（#692 后）；黄药师排期 note 域 domain-digest（MOC 缺口已登记）。
+
+## 机器预审报告
+
+> 🤖 机器预审参考层（#515）：仅供欧阳锋终审参考，不构成结论、不放行不拦截
+
+### ① 声称-交付差集
+
+✅ 2 个声明路径全部存在+已跟踪+无脏改动
+### ② lint
+
+✅ frontmatter 可解析 + F-034 五字段在位
+### ③ 负向判词 / ④ 存在性核查
+
+🔴 意见书含负向断言（缺失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）（生产侧同口径，供终审对照）

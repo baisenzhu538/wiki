@@ -568,6 +568,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#681 task_20260908_wangyuyan-ai-data-basic-deep-dig｜wangyuyan｜提审 09-08 11:07｜60_feedback/tasks/task_20260908_wangyuyan-ai-data-basic-deep-dig.md~~ → 已终审 PASS A-（2026-09-08 欧阳锋）
 - ~~#686 task_20260908_huangyaoshi-ai-data-domain-infra｜huangyaoshi｜提审 09-08 21:24｜60_feedback/tasks/task_20260908_huangyaoshi-ai-data-domain-infra.md~~ → 已终审 PASS A-（2026-09-08 欧阳锋）
 - ~~#691 task_20260908_wangyuyan-zengming-smart-strategy-deep-dig｜wangyuyan｜提审 09-08 23:45｜60_feedback/tasks/task_20260908_wangyuyan-zengming-smart-strategy-deep-dig.md~~ → 已终审 PASS A-（2026-09-08 欧阳锋）
+- #694 task_20260909_wangyuyan-checklist-solving-deep-dig｜wangyuyan｜提审 09-09 08:59｜60_feedback/tasks/task_20260909_wangyuyan-checklist-solving-deep-dig.md
 
 <!-- REVIEW-PENDING-END -->
 
@@ -1330,7 +1331,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 690 | `task_20260908_huangyaoshi-edrive-kdo-memory-migration` | E 盘容量路由+便携基建盘：D:\KDO-memory 整区迁 E:（四条守卫+核验切换+即插即用：标记文件自定位/自含工具链/attach 一条命令异机可用） | claimed-huangyaoshi | huangyaoshi | 核验报告+引用点对照表+守卫实测+受影响任务 result=0 | 无（独立基建线，黄药师单实例不并行） | `60_feedback/tasks/task_20260908_huangyaoshi-edrive-kdo-memory-migration.md` | 老朱 09-08 拍板 A 整区迁（建议书 diag_20260907_ouyangfeng-edrive-capacity-routing R1-R5 全采纳，王语嫣编排）；D 盘旧目录观察 24h 后清；欧阳锋终审 |
 | 691 | `task_20260908_wangyuyan-zengming-smart-strategy-deep-dig` | 曾鸣《智能战略》素材深挖诊断（三方法前置+门禁裁定产卡范围，老朱授权全链路自动） | reviewed | wangyuyan | 诊断报告+产卡范围裁定+三方法证据链 | 无（编排线独立） | `60_feedback/tasks/task_20260908_wangyuyan-zengming-smart-strategy-deep-dig.md` | 老朱 09-08 直令：精细化+门禁保质+自动拉起+不请示；产卡单排 #689 后；欧阳锋终审 |
 | 693 | `task_20260909_huangyaoshi-gate-and-audit-trio` | 门禁审计三小件：pre-submit 绝对化声称 diff 检查器+review-check 场次对账弱校验+daily_review.py 自锁修复 | queued | huangyaoshi | 三件各带实测证据 | #690 后（黄药师单实例） | `60_feedback/tasks/task_20260909_huangyaoshi-gate-and-audit-trio.md` | 王语嫣 09-09 裁定采纳欧阳锋两建议书+自锁 friction 合并；欧阳锋终审 |
-| 694 | `task_20260909_wangyuyan-checklist-solving-deep-dig` | 清单式解题练习素材深挖诊断（一堂笔记法，三件套 29 万字节，三方法前置） | claimed-wangyuyan | wangyuyan | 诊断报告+产卡范围裁定 | 无（编排线独立） | `60_feedback/tasks/task_20260909_wangyuyan-checklist-solving-deep-dig.md` | 王语嫣门铃拾取（延续老朱自动拉起授权）；产卡单排 #692 后；欧阳锋终审 |
+| 694 | `task_20260909_wangyuyan-checklist-solving-deep-dig` | 清单式解题练习素材深挖诊断（一堂笔记法，三件套 29 万字节，三方法前置） | pending_review | wangyuyan | 诊断报告+产卡范围裁定 | 无（编排线独立） | `60_feedback/tasks/task_20260909_wangyuyan-checklist-solving-deep-dig.md` | 王语嫣门铃拾取（延续老朱自动拉起授权）；产卡单排 #692 后；欧阳锋终审 |
 | 692 | `task_20260908_laowantong-zengming-smart-strategy-cards` | 曾鸣《智能》拆书素材产卡：P0×3（智能复利体系/生成型战略/共生智能体×双三角桥接）+P1×5+P2×1+1处旧卡Critique回填 | queued | laowantong | 10 卡+pre-submit+边界条款逐项过 | #689 后（老朱口径） | `60_feedback/tasks/task_20260908_laowantong-zengming-smart-strategy-cards.md` | 王语嫣 #691 门禁裁定（老朱授权不请示）；规格源=diag_20260908_wangyuyan-zengming-smart-strategy.md；转述二等 confidence≤0.85；下半场素材未到不预写；欧阳锋终审 |
 | 695 | `task_20260909_laowantong-yt-note-v2-backfill-and-cards` | 一堂笔记法二讲素材产卡：P0回填7张旧卡src_unknown空洞+P1新卡8张（价值公式/分点标题/穿糖葫芦/显示器SOP/麻将case/张磊case/双agent-spec）+P2回填2处 | queued | laowantong | P0七卡回填diff+P1八卡+P2两处+pre-submit逐项过 | #692 后（老顽童单线程） | `60_feedback/tasks/task_20260909_laowantong-yt-note-v2-backfill-and-cards.md` | 王语嫣 #694 门禁裁定（老朱授权不请示）；规格源=diag_20260909_wangyuyan-checklist-solving.md；口述件L1430截断边界条款随单；严禁第三套段位框架；欧阳锋终审 |
 
