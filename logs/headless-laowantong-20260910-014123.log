@@ -1,0 +1,2245 @@
+kimi version 0.41.0
+• Let me start with the startup recovery reads.Let me read the last 20 lines of todos/laowantong.md, and read 90_control/AGENTS.md, and find the task file task_20260908_laowantong-live258-six-cases.The todos file is huge (935 lines). The task instruction said read the last 20 lines （未读段）. The Read got truncated at 102400 bytes. Let me read the tail of the file. Use Bash tail or Read with negative offset.70_product/tasks/production-queue.md
+573:- ~~#684 task_20260908_laowantong-live258-six-cases｜laowantong｜提审 09-10 01:02｜60_feedback/tasks/task_20260908_laowantong-live258-six-cases.md~~ → 终审退回 queued（2026-09-09 欧阳锋）
+1283:- [gate-blocked] task_20260908_laowantong-live258-six-cases｜09-10 01:07｜待王语嫣复核处置｜2026-09-10 01:01:58｜task_20260908_laowantong-live258-six-cases｜F-034-五字段｜--evidence 文件不可读: 6卡全产：黄谦/ Simon Peng 本会话补产（pre-submit 双 PASS，各余1条提示制 warning）；前置缺陷项三项闭环（dk互链×2+V0.9｜laowantong
+1335:| 684 | `task_20260908_laowantong-live258-six-cases` | P1 产卡：Live258 六案例全产（雍博/农夫三拳/行知/田力/黄谦/Simon Peng，带 dk 互链前置查重缺陷项） | queued | laowantong | 6 卡+dk互链对照说明+pre-submit | #683 后（老顽童单线程） | `60_feedback/tasks/task_20260908_laowantong-live258-six-cases.md` | 老朱 09-08 19:25 拍板全做（#682 编排）——六案全产不裁剪；欧阳锋终审 |
+Now I understand the task. I need to:
+
+  1. Claim the task: `python 90_control/scripts/queue_transition.py claim task_20260908_laowantong-live258-six-cases --instance laowantong`
+  2. Fix 32 pseudo-verbatim quotes in 4 cards: yongbo (3), nongfu (8), xingzhi (11), tianli (10)
+  3. Fix tianli card anchor L1065→L1075 (two places)
+  4. Fix dk-demand-feature-stacking anchor L165→L167 in nongfu and huangqian cards
+  5. Re-run pre-submit on 6 cards, QUOTE_VERBATIM 0 issues
+  6. Write five-field execution report (mirror style, L10), update task file
+  7. complete + verify
+  8. Append line to todos/laowantong.md
+  9. Session end: Truman 11-chapter review + save
+
+  Source file: `00_inbox/AI基本功/Live258：AI基本功第一课优秀作业.md`
+
+  Let me first claim the task, then find the four cards and run pre-submit to get exact QUOTE_VERBATIM issues.
+
+  Cards:
+  - 30_wiki/cases/case-live258-yongbo-embodied-sorting.md
+  - 30_wiki/cases/case-live258-nongfu-assist-agri-video.md
+  - 30_wiki/cases/case-live258-xingzhi-media-layered-diagnosis.md
+  - 30_wiki/cases/case-live258-tianli-gov-training.md
+  - 30_wiki/cases/case-live258-huangqian-promo-film.md (dk anchor fix only)
+  - 30_wiki/cases/case-live258-simonpeng-medical-dataset.md (no changes, but re-run pre-submit)
+
+  Let me claim first.队列前方还有 pending_review 任务未终审：#690 task_20260908_huangyaoshi-edrive-kdo-memory-migration。必须等它们 reviewed 后才能领取 task_20260908_laowantong-live258-six-cases
+Queue blocked by #690 (huangyaoshi's task pending review). The script refuses. But the rework instruction from 欧阳锋 says "领取 task...返工". The queue rule: "队列前方还有 pending_review 任务等待欧阳锋终审" is a common refusal reason. But rework tasks... Let me check if there's a rework flow. Maybe the queue_transition supports rework claim differently. Let me check the script's help or check status.Hard state transition enforcer for the KDO production queue.
+
+All queue status changes MUST go through this script. Manual edits to
+`production-queue.md` or task file `status` fields are forbidden.
+
+Usage:
+    python queue_transition.py claim <task-id> --instance <name> [--force] [--sequence] [--no-commit]
+    python queue_transition.py complete <task-id> --instance <name> [--evidence <path>] [--force --reason '<理由>'] [--no-commit]
+    python queue_transition.py release <task-id> --instance <name> [--no-commit]
+    python queue_transition.py review <task-id> --verdict pass|fail --reviewer 欧阳锋 [--grade A|A-|B+|B|B-|C] [--no-commit]
+
+#616 任务3 翻转通道：--reviewer 王语嫣 仅限 assignee=ouyangfeng 的编排骨架单
+（欧阳锋自己的单无人可终审：#544 手工翻转先例 + 09-02 #614 第二例），留痕不变。
+
+#670：review verdict=pass 时按任务单交付物清单自动翻转交付卡 status
+（draft→reviewed + reviewed_by + review_date），翻转卡随 chore(review) 落仓；
+只翻 draft（reviewed/stable 不动=幂等护栏），识别不出写法降级为 #612 转正提醒。
+
+Exit codes:
+    0 = transition applied
+    1 = transition rejected / error
+
+--force claim: 跳过队列前方 pending_review 阻塞（用于不同 assignee 的并行任务）
+--sequence claim: 同执行者显式多单连发窗口（#655）——编排指令含多单、complete 前单后
+        接下一单时用；own pending_review 不阻塞且不走 force 台账（FIFO 他单/claimed 锁照旧）
+--force complete: 允许从 queued 直接跳到 pending_review
+        （用于生产已完成但未通过脚本领取的场景；#444 起必须配 --reason，例外入台账 90_control/force-exceptions.log）
+--no-commit: 跳过流转后的自动 git 收口（#390 逃生门，特殊场景手工控制）
+
+#390：流转成功后自动 commit 本次触碰的文件（任务单+队列+dashboard），
+让"状态变更"与"入档"原子化——跨 checkout 协作者任何时候读到的都是最新状态。
+红线：path-scoped add，严禁 add -A/.（工作区永远有其他 agent 的在制品）。
+git 失败不阻断流转：stderr 醒目报警 + 写 90_control/pending-git-commits.log 待收口。
+
+  #690 task_20260908_huangyaoshi-edrive-kdo-memory-migration — E 盘容量路由+便携基建盘：D:\KDO-memory 整区迁 E:（四条守卫+核验切换+即插即用：标记文件自定位/自含工具链/attach 一条命令异机可用）
+#690 is a huangyaoshi task in pending_review — different assignee. `--force claim` is documented: "跳过队列前方 pending_review 阻塞（用于不同 assignee 的并行任务）". This is exactly that case — the pending_review task is huangyaoshi's, not mine. Use --force.✅ task_20260908_laowantong-live258-six-cases 已领取为 claimed-laowantong
+⚠️ force 例外已留痕: C:\Users\Administrator\Desktop\wiki\90_control\force-exceptions.log
+⚠️ task_20260908_laowantong-live258-six-cases 缺 `initial_assessment`（初判=待证命题+核查锚）——WARNING 台账已记，开工前先核任务单前提与盘上现状（#679；软期至 2026-09-14）
+✅ dashboard.html 已生成 (229 个任务)
+   待领取: 0  |  审查中: 0  |  进行中: 0  |  已完成: 229
+Claimed. Now I need to get the exact QUOTE_VERBATIM issues for each of the 4 cards. Run pre-submit on each card to get the list.=== yongbo-embodied-sorting ===
+  [QUOTE_VERBATIM]: 1 warnings
+    🟡 30_wiki/cases/case-live258-yongbo-embodied-sorting.md
+       3 处声称逐字的引文在 source_refs 源文件中未逐字命中：「展台 Demo 成功率高、真实工厂连续跑 1 小时大量失败…」（L1763）、「补齐 Feature 就达标…」（L1737）、「失败后继续向下执行不会回退…」（L1775）——伪逐字引文模式（#616/#614 实证：改写/拼贴不得包装成原话+行号），请核对源文件改为逐字引用或去掉引号
+  [SOURCE_RANGE]: 0 issues
+  [KDO_QUERY_LOG]: 0 issues
+=== nongfu-assist-agri-video ===
+  [QUOTE_VERBATIM]: 1 warnings
+    🟡 30_wiki/cases/case-live258-nongfu-assist-agri-video.md
+       8 处声称逐字的引文在 source_refs 源文件中未逐字命中：「没有工作流，通用视频创作台就是玩具…」（L1013）、「只需要会说话、少学习、会点几下下一步…」（L677）、「与提示词示例不兼容，没有明确使用场景定位…」（L731）等——伪逐字引文模式（#616/#614 实证：改写/拼贴不得包装成原话+行号），请核对源文件改为逐字引用或去掉引号
+  [SOURCE_RANGE]: 0 issues
+  [KDO_QUERY_LOG]: 0 issues
+=== xingzhi-media-layered-diagnosis ===
+  [QUOTE_VERBATIM]: 1 warnings
+    🟡 30_wiki/cases/case-live258-xingzhi-media-layered-diagnosis.md
+       11 处声称逐字的引文在 source_refs 源文件中未逐字命中：「主题约束+单任务拆分…」（L1）、「只要补齐基础 Feature 就能解决 80% 的内容质量问…」（L1）、「30 年地产营销+连续创业者…」（L2）等——伪逐字引文模式（#616/#614 实证：改写/拼贴不得包装成原话+行号），请核对源文件改为逐字引用或去掉引号
+  [SOURCE_RANGE]: 0 issues
+  [KDO_QUERY_LOG]: 0 issues
+=== tianli-gov-training ===
+  [QUOTE_VERBATIM]: 1 warnings
+    🟡 30_wiki/cases/case-live258-tianli-gov-training.md
+       10 处声称逐字的引文在 source_refs 源文件中未逐字命中：「裸 prompt 提交…」（L2）、「政府培训领域顶级专家，15 年经验，服务过 20+ 组织部项…」（L1231）、「更有针对性但缺差异化亮点…」（L1453）等——伪逐字引文模式（#616/#614 实证：改写/拼贴不得包装成原话+行号），请核对源文件改为逐字引用或去掉引号
+  [SOURCE_RANGE]: 0 issues
+  [KDO_QUERY_LOG]: 0 issues
+The pre-submit warnings list the quotes but only the first 3 per card. I need the full list of all quotes. Let me find where the checker code is to get full output, or look at each card directly. Maybe pre-submit has verbose option. Let me check kdo pre-submit help, or find the quote checker script to run with full listing.usage: kdo pre-submit [-h] [--expect-changes <N>] [--files <path> [<path> ...]
+                      | --batch <batch-id>]
+
+options:
+  -h, --help            show this help message and exit
+  --expect-changes <N>, -n <N>
+                        Verify at least N files have git diff changes. FAIL if
+                        fewer, preventing false completion reports.
+  --files <path> [<path> ...], -f <path> [<path> ...]
+                        One or more .md files or globs to check.
+  --batch <batch-id>, -b <batch-id>
+                        Batch ID to look up in 70_product/tasks/ for card file
+                        references.
+/c/Program Files/Python312/Scripts/kdo
+MZ�       ��  �       @                                   �   � �	�!�L�!This program cannot be run in DOS mode.
+$       ��`v�%�%�%tՖ%�%��%ƛ%��%��%��%�%��%�%�%��%��%�%��%�%��%�%Rich�%                        PE  d� �b        � " 
+  �   �      |B        @                          ��  @�                                           �. <    � �S   � @             l  0                                               �                          .text   !�      �                    `.rdata  D8      :   �              @  @.data   DA   @     .             @  �.pdata  @   �     B             @  @.rsrc   �S   �  T   N             @  @.reloc  T         �             @  B                                                                                                                                                                                                                                                                                ��umL��I�SM�CM�K H��H  H��3 H3�H��$0  L�ʺ   I�CD�B�H�L$0H�D$ ��*  �H  L�D$0H�H`H�� �  �   ���  ���̅�umL��I�SM�CM�K H��H  H�33 H3�H��$0  L�ʺ   I�CD�B�H�L$0H�D$ �j  ��  L�D$0H�H`H�� �S  �   ��  ����H�\$H�t$WH�� ��B H��H��3�L��L�B���I���  L��H��t��B H��A;ID�I��I+�L�D9���H�t$8H��H�\$0H�� _��H�\$H�t$H�|$ UATAUAVAWH��H��@L��L�' H�0S H�M8E3�L�e8�p  A�̅�H� �������H�M8E�D$3��D*  H�M8��!  H�M8Lc�A��������AH�E3����*  L�M8E�|$�  A��I��D���  I��H�������H��H��tH�M�E�D$H���%�  Hc�I+�H��   �  ���  H�M8A��  ����H��AH�E3����)  L�M8D��I��H���  H��H���x���A��H�N H��H���������H�M�H��A�   覱  Hc�H��H+�H��]  �  �E�H�M8E3�E�H+����1)  L�M8L��I��I���3  A��H� H��������A�E f; uM���fH�M8��������AH�E3���(  L�M8L��I��I����  A��H��
+ H��H�����1���N�\+�M;�r��
+ fA9t
+M+�M;�s��M��H�M8�+  L�\$@I��I�[0I�s@I�{HI��A_A^A]A\]����H�\$UVWH��03�H��W.H�|$`�  H�-S H��t-A�   E3�H��3�H�|$(H�l$ �4�  ����   �   �}L�
+ H�T$hH�L$X�/)  H�T$hH�L$X����  ��uRH�L$X�$A�   L��H��3�H�|$(H�l$ ���  ��u3�L�D$`H��	 ��  H��u���   H�L$X�  H�\$P��H�H#�H��0_^]����H��(��t
+��v1��w,H�fO H��t �5�O L�rO A��   �	   �Y�  �   H��(����@SH�� H�����  ��t#��u��u�   H��D����H�� [H�%&�  �   H�� [�����  �H�\$WH�� H��H������  H��H���  ��x���)   H���H���H����  H��H�\$0H�� _���H��H�XH�hH�pH�x ATAUAVH�� �  H������H���  H�H0�u���H����  H�H`�d���H��H���tH;��G  H;��>  H���tH;��/  H;��&  H���tH;��  H;��  ������z�  �����L���l�  �����L���^�  H���n  H����(  �a  H�H0��(  E3�I;�tI;�u3ҹ�����6�  M��I;�tI;�u3ҹ������  M��H;�tH;�u3ҹ������  I��I;�MD�I;�MD�H;�ID�M��tI���tI�����  3ҹ�������  M��tI���tI�����  3ҹ�������  H��tH���tH�����  3ҹ�������  H�\$@H�l$HH�t$PH�|$XH�� A^A]A\�H��H�XH�pH�x UATAUH������H���
+  H�w, H3�H���	  L��3�3���  3�H�� H��H��L �������H�vL L�\$P��   �	   L��L D�ˋ�L�\$ ���  ��t9\$Pu�O��3�H�x ����H�,L �RL  0  L�;L D�ˋ��(�  H�i ���v���3�H�L$`D�Bh�f  H�L$`�O�  �E�   u}������S�  �����H���E�  �����H���7�  H��H���x���H�% ������H���b���H�/ �������H���L���H�A ��������m�H�u�H�}�H�]�H�bK E3�E3�H�D$HH�D$`I��H�D$@H�d$8 H�d$0 �d$( 3��D$    �A�  ��uK���  H�d$0 H���  A�   D��3�D�L$(H�L$ �   �*�  L���  H�� M��3������H��J H��J ���  f�}�rtH�U�H��tkHc:�E�H�L�H;�rZH�����H�t��  H�^L�$�L��I;�s1H��H+�H�; tH�;�tH�;�tH��H���&  H��H��I;�r�I���  ����H�Uй  ���  ��=  w
+H�M����  H������   ���  H�K ���p���H�J ���  H��I E3������  H��I H�T$P��  H�+ ���0����L$P���  ��H�\$H�l$H�t$WATAVH�� H��H� H���%�  E3�A�   H��H��tD�Kf��t+f��"t%A���  ��uH�� H�K���  H��H��u�H��tI�H����   H�� A�   H���c	  A��H�� ��L�����x���H�w�f��tA���L  �   ��uA��H�� L���I���H���f��tA���  ��u�H��fD9&t�A���  ��u
+H��fD9#u��A����  ��tfD�#H��H������A��H�� H��L��H���������f�?"u)f�;"A��H�� ��L������fD�#H��H��H��H�� A�   H���e  ��t f�"tf�;"A��H�� ��L���m����f��t%A���E  ��tfD�#�A�����0  ��tH���f��u�H�] H�\$@H�l$HH��H�t$PH�� A^A\_�H��H�XH�pH�xUATAUAVAWH��8���H��  H�?' H3�H���  �o�  �"   f98t�O����H����H���  3�D�fH��u	L�-X �#L�h�A�����}  ��tI��A�E f��u�H��G A�  3��J�  f9=�G ��t	L�5�G �L�5�G H��H��p  fA�4V�x6 P������H�� H��H����� ���H��  H��H��H;�s�9t�9
+t
+H��H;�r��H����H��H�� �������@�7H�D$P+�L��A�Թ��  D���D$(  H�D$ ���  �΅�H�� Hc�������f�t|PH�|$Pf9t$Pt�A���n  ��t	H��f97u�f�?#��H�� ���d����A�����?  ��tH���f��u�f�?!��H�� ���2����A�����  ��tH���f��u�H�T$@H��H�t$@�������H�� H��L���������L�|$@��M��H�� ��������   H� D��I���  ��u|L��E H��`  �  �`  H��`  ���  �SfA9T$u*I�L$ �Z��[  ��H�n H��M��H�����a���f�7Hc�H��`  H���  M�D��  L���  3�I���I��I�ɍPf�I��H��L�A�I��f�I��H��H��L�I��f�I��H��H��L�I��f�H��I�\H���  H�� H��H��@�Ƌ������L�l$8L�t$0L� L��H��H��L�|$(L�d$ �9
+  H���Q����H��(�{������������������������ff�     H;�# uH��f����u��H���q"  �H�\$H�t$WATAUH��0H�d$ E��H��H��E3�A��H������u�*  �    �  3��   A��H������t�A��fD9*����t��4(  H��H�D$PH��u��)  �    �fD9.u"�)  �    H�   H�L$ �<*  ��3��L��E��H��H���%  H��H���Z  H��H�\$XH�t$`H��0A]A\_����@SH�� I��L��H��H��u�C)  �   ���  ���$A��   H��I�������H�H��t3���)  � H�� [���	f;�tH���f��u�f;�uH���3���H��H�PH�HL�@L�H SVWH�� H��3�H������u�(  �    �s  ����K3�H������t�H�t$P��  �H���)  ��L��E3�H�T$HH���&+  ��H�׋��F*  �H���E  ��H�� _^[����H��t7SH�� L��H�T7 3����  ��u�/(  H���R�  ����'  �H�� [����@SH�� �d$@ L�D$@��5  H��H��u9D$@t��'  H��t��'  �L$@�H��H�� [����@SH�� H���A H��u�C  H�CH���   H�H���   H�KH;�+ t���   ��' u�hA  H�H��& H9CtH�C���   ��' u	�q8  H�CH�C���   u���   �C��H��H�� [����H��H�XH�hH�pH�x ATH��@E3�I��H��H��A��M����   H��u��&  �    �  �����   H��t�H�L$ I�������L�\$ E9cu?H+��>f��Ar
+f��Zwf�� �f��Ar
+f��Zwf�� H��H��t@f��t;f;�t��4�H�T$ �D  �H�T$ ���D  H��H��H��t
+f��tf;�t�����+�D8d$8tH�L$0���   �H�\$PH�l$XH�t$`H�|$hH��@A\���H��(3�L��L��9>5 uwM��tzH��u��%  �    �  ����H��(�H��t�L+�C�f��Ar
+f��Zwf�� A�f��Ar
+f��Zwf�� I��I��t
+f��tf;�t�����+ȋ�H��(�E3��U���H��(�H�\$H�t$WH�� H��H���w|�   H��HE�H�e4 H��u �J  �   �G  ��   ��C  H�@4 L��3����  H��H��u,9�: tH���!J  ��t���$  �    ��$  �    H�����I  ��$  �    3�H�\$0H�t$8H�� _���H�a �@SH�� ��[ �   ��u�   �;�L�HcȺ   �q[ �(M  H�EK H��u$�PH�ˉT[ �M  H�(K H��u�   �v3�H�� H�H��0H��H��t	H��J ��E3�H�� E�HI��L��H I��H����I��Hk�XL�I���tI���tM��u�����I��H��0I��u�3�H�� [�H��(�gP  �=X3  t��M  H��J H��(�a����@SH�� H��H�H H;�r>H�� H;�w2H��H��������*H+�H��H��H��H��?�L�R  �kH�� [�H�K0H�� [H�%��  �@SH�� H�ڃ�}����Q  �kH�� [�H�J0H�� [H�%��  ���H�� H;�r5H�= H;�w)�qH+�H��������*H��H��H��H��?�L�P  H��0H�%d�  ��}�r���jP  H�J0H�%G�  ���M��t8tH��I��u�I��H�H#���@UAUAVH��@H�l$0H�]0H�u8H�}@L�eHH�� H3�H�E E3�M��H��H��H��u�Q"  �   ��		  �o  �_T  H;�rfD�3��I�E �H��tTA���L�ú   D�t$(L�t$ ��S  Lc���u?��!  �*   ���!  � �  �f��Arf��Zwf�� f�H��fD93u�3���   I��I;�sfD�3�!  �"   �]�����~g3�H�B�H��H��rXK�L$H��   w1H�AH;�w
+kdo is a compiled binary. I can't easily get the full list beyond 3. The pre-submit output only shows first 3 quotes per card ("等" suggests truncation). I need the full list of pseudo-verbatim quotes. Options:
+  1. Find the quote checker source in kdo package (Python site-packages) to replicate the detection logic.
+  2. Or just scan each card for quoted text 「...」 with line anchors and verify each against source.
+
+  Let me find kdo's python package location.
+
+• pre-submit 输出只列前 3 处。找到 kdo 包内 QUOTE_VERBATIM 检查器源码，拿到完整 32 处清单。C:\Users\Administrator\Knowledge Delivery OS 0.0.1\kdo
+
+
+/c/Users/Administrator/Knowledge Delivery OS 0.0.1/kdo/pre_submit.py
+/c/Users/Administrator/Knowledge Delivery OS 0.0.1/tests/test_pre_submit_quote_source_616.py
+1699
+• QUOTE_VERBATIM not in that file by that string? Odd — grep matched the file for "QUOTE_VERBATIM\|伪逐字". Let me search which term matched.1268:# 源头实证：#614 补审抓出伪逐字引文 3 张（改写/拼贴包装成「原话+行号」）+
+1273:_QUOTE_SPAN_RE = re.compile(r"[「“\"]([^」”\"\n]{10,300})[」”\"]")
+1279:_QUOTE_STRIP_RE = re.compile(r"[\s，。、；：？！…—·,.;:?!'\"「」『』“”‘’（）()《》<>【】\[\]～~]+")
+1283:    return _QUOTE_STRIP_RE.sub("", s)
+1338:            for qm in _QUOTE_SPAN_RE.finditer(line):
+1360:                + "——伪逐字引文模式（#616/#614 实证：改写/拼贴不得包装成原话+行号），"
+I now understand the checker's exact logic. I can write a small Python script that replicates it but prints ALL misses (not just 3), with line numbers in the card and the full quote. Then I fix each one against the source file.
+
+  Let me write the diagnostic script in _tmp.== case-live258-yongbo-embodied-sorting.md: 3 misses ==
+  L73 [L1763] ��չ̨ Demo �ɹ��ʸߡ���ʵ���������� 1 Сʱ����ʧ�ܡ�
+  L170 [L1737] ������ Feature �ʹ�꡹
+  L176 [L1775] ��ʧ�ܺ��������ִ�в�����ˡ�
+== case-live258-nongfu-assist-agri-video.md: 8 misses ==
+  L74 [L1013] ��û�й�������ͨ����Ƶ����̨������ߡ�
+  L82 [L677] ��ֻ��Ҫ��˵������ѧϰ����㼸����һ����
+  L90 [L731] ������ʾ��ʾ�������ݣ�û����ȷʹ�ó�����λ��
+  L106 [L933] ��������ͨ�ÿ�Ϊ����**û�й�����������£�����ͨ����Ƶ����̨�������**��
+  L170 [L112] ������ɢ���������̷�����
+  L170 [L112] ��AI �����ɡ�������ɢ��
+  L171 [L165] �����Ӳ����ô�����컯����
+  L172 [L50] ��DataPack/��ʵԼ������ Feature ȱ����������
+== case-live258-xingzhi-media-layered-diagnosis.md: 11 misses ==
+  L73 [L1] ������Լ��+�������֡�
+  L73 [L1] ��ֻҪ������� Feature ���ܽ�� 80% �������������⡹
+  L114 [L2] ��30 ��ز�Ӫ��+������ҵ�ߡ�
+  L114 [L2] ��3 �빳�ӡ�ʹ����ɻ����ж�������
+  L148 [L655] ������ Feature ��� 80% �����������⡹
+  L163 [L655] ��������� Feature ��� 80% ���⡹
+  L165 [L635] ���ո� 3+2 ����������˹��޸ġ�
+  L167 [L1] ��ȱ��������֪���Ķ�����
+  L167 [L1] ���̰�ȫ�� L1-L3��
+  L171 [L655] ��Ψһ��Ч���=����Լ��+�������֡�
+  L171 [L655] ������ʶ�ö� 4 Feature��
+== case-live258-tianli-gov-training.md: 10 misses ==
+  L68 [L2] ���� prompt �ύ��
+  L102 [L1231] ��������ѵ���򶥼�ר�ң�15 �꾭�飬����� 20+ ��֯����Ŀ���ó�ʵս������ͷ�����
+  L115 [L1453] ����������Ե�ȱ���컯���㡹
+  L119 [L1613] ��ÿ��һ����Ŀ�������ʲ��������ӡ�
+  L155 [L1337] ������ Feature �ķ�����
+  L163 [L1631] ��������������Ϣ�ܶȸ��ڳɹ�������
+  L163 [L1631] ��ά�ȸ��Ƕ��������ѵ���
+  L163 [L1631] ��Feature=�ɸ��õ�רҵ���项
+  L163 [L1631] ��Feature ���ӵı�׼���½ṹ��
+  L176 [L1073] ��������� XX ������
+Console output is mangled (GBK encoding). Fix by setting PYTHONIOENCODING=utf-8 or writing output to file. Let me re-run with encoding fix.== case-live258-yongbo-embodied-sorting.md: 3 misses ==
+  L73 [L1763] 「展台 Demo 成功率高、真实工厂连续跑 1 小时大量失败」
+  L170 [L1737] 「补齐 Feature 就达标」
+  L176 [L1775] 「失败后继续向下执行不会回退」
+== case-live258-nongfu-assist-agri-video.md: 8 misses ==
+  L74 [L1013] 「没有工作流，通用视频创作台就是玩具」
+  L82 [L677] 「只需要会说话、少学习、会点几下下一步」
+  L90 [L731] 「与提示词示例不兼容，没有明确使用场景定位」
+  L106 [L933] 「还是用通用款为主，**没有工作流的情况下，这套通用视频创作台就是玩具**」
+  L170 [L112] 「防扩散的完整工程方案」
+  L170 [L112] 「AI 不质疑→错误扩散」
+  L171 [L165] 「叠加不适用创意差异化任务」
+  L172 [L50] 「DataPack/事实约束类新 Feature 缺口另开任务」
+== case-live258-xingzhi-media-layered-diagnosis.md: 11 misses ==
+  L73 [L1] 「主题约束+单任务拆分」
+  L73 [L1] 「只要补齐基础 Feature 就能解决 80% 的内容质量问题」
+  L114 [L2] 「30 年地产营销+连续创业者」
+  L114 [L2] 「3 秒钩子→痛点→干货→行动引导」
+  L148 [L655] 「基础 Feature 解决 80% 内容质量问题」
+  L163 [L655] 「补齐基础 Feature 解决 80% 问题」
+  L165 [L635] 「日更 3+2 且无需大量人工修改」
+  L167 [L1] 「缺了我现在知道的东西」
+  L167 [L1] 「短板全在 L1-L3」
+  L171 [L655] 「唯一生效组合=主题约束+单任务拆分」
+  L171 [L655] 「无意识用对 4 Feature」
+== case-live258-tianli-gov-training.md: 10 misses ==
+  L68 [L2] 「裸 prompt 提交」
+  L102 [L1231] 「政府培训领域顶级专家，15 年经验，服务过 20+ 组织部项目，擅长实战型落地型方案」
+  L115 [L1453] 「更有针对性但缺差异化亮点」
+  L119 [L1613] 「每做一个项目，能力资产都在增加」
+  L155 [L1337] 「补上 Feature 的方案」
+  L163 [L1631] 「翻车案例的信息密度高于成功案例」
+  L163 [L1631] 「维度覆盖而非数量堆叠」
+  L163 [L1631] 「Feature=可复用的专业经验」
+  L163 [L1631] 「Feature 叠加的标准叙事结构」
+  L176 [L1073] 「帮我设计 XX 方案」
+Full list: 32 misses matching 欧阳锋's counts (3+8+11+10). Now I need the source file: `00_inbox/AI基本功/Live258：AI基本功第一课优秀作业.md`. For each miss, I look at the card line, find the corresponding source text (near the cited anchor), and decide: fix to verbatim or remove quotes.
+
+  Also note: nongfu L170-L172 quotes reference dk cards / changelog sources (dk-ai-does-not-question-your-mistake.md:112, dk-demand-feature-stacking.md:165, periodic-table-v0.9-aliases-changelog L50) — those are wiki-internal quotes, not from the Live258 source. The checker checks against source_refs source files. If those are in source_refs... The misses at L170-172 reference L112/L165/L50 which are anchors into other wiki files. For these, easiest fix = remove quotes (paraphrase) since they're not 逐字 from source_refs source.
+
+  This is a lot of detailed per-quote work: 32 quotes across 4 cards, each needs reading card context + source region, then editing. Also 2 anchor fixes (tianli L1065→L1075 ×2, dk L165→L167 in nongfu+huangqian).
+
+  I could delegate to subagents, but the work requires careful verbatim matching. Actually, doing it myself is feasible but context-heavy. Strategy: for each miss, grep the source for the key phrase (normalized, remove punctuation) to find the actual verbatim text, then edit the card.
+
+  Let me first read the relevant card sections. Start with yongbo (3 misses). Read card lines around L73, L170, L176.2‑1同工况成功执行轨迹样本库（Few‑shot示教集，20‑100条真机示教样本）2‑2失败案例样本库（抓取打滑、定位偏移、物体形变全部留存）2‑3仿真合成样本（Sim2Real配套，补充危险、长尾工况）
+
+行业现实：零样本Zero‑shot在工业真实产线成功率仅30‑65%；叠加20条真机Few‑shot示教，可以拉升至70‑80%；没有这个Feature，再强VLA大模型也很难商用落地。
+
+3、专业案例\&知识库Feature（行业知识层）
+
+
+横坐标四个维度：数据、模型、工作流、评测，贯穿三层；右侧场景：工厂分拣、电力巡检、仓储物流、医疗康复属于“借假修真”——场景是假，Feature原子才是真价值。同一个Feature集合，可以迁移到不同物理场景人民网。
+
+### 四、完整推演案例：工业电子产线分拣落地（Feature思维完整实战）
+
+业务背景
+
+客户需求：机器人完成壳体分拣上料。展台Demo成功率很高；部署真实工厂，连续跑1小时就大量失败。
+
+传统经验派排查方式
+
+换更大参数VLA大模型；换更贵灵巧手；反复现场调试，不知道问题根源。
+
+Feature派科学假设实验流程
+
+1）罗列现象：光照波动就失败；软壳体容易打滑；失败之后机器人继续向下执行，不会回退；没有统一统计失败率。2）逐条输出假设：
+
+- ·假设A：缺少【Few‑shot真实产线示教样本Feature】，只用展厅理想环境样本；
+
+- ·假设B：缺少【工作流‑动作后状态校验Feature】，抓取打滑之后没有检测，直接执行下一步；
+
+Now for yongbo card's 3 misses:
+
+  **Y1 (L73)**: 「展台 Demo 成功率高、真实工厂连续跑 1 小时大量失败」(L1763). Source actual: "展台Demo成功率很高；部署真实工厂，连续跑1小时就大量失败。" at L1767. The card quote is a rewrite. Options: change to verbatim source text 「展台Demo成功率很高；部署真实工厂，连续跑1小时就大量失败」 or remove quotes. Best: use verbatim. Source uses no spaces. The normalized comparison strips spaces/punctuation so "展台Demo成功率很高部署真实工厂连续跑1小时就大量失败" — a verbatim quote of "展台Demo成功率很高；部署真实工厂，连续跑1小时就大量失败" would normalize to same. I need to check exact source line number. Let me grep.
+
+  **Y2 (L170)**: 「补齐 Feature 就达标」 (L1737) — card's Critique text: "但「补齐 Feature 就达标」的结论超出证据". L1737 source is the 行业现实 line. The source at L1737 says "没有这个Feature，再强VLA大模型也很难商用落地" — no "补齐Feature就达标". Actually card L126 says "补齐原子 Feature 之后产线指标达标" referencing L1795. The phrase "补齐 Feature 就达标" is a paraphrase in Critique — remove quotes (it's the attacker's characterization, not a source quote). Since anchor L1737 same line... The check triggers because same line has L1737 anchor. Fix: remove the 「」 quotes → 但"补齐 Feature 就达标"的结论超出证据 → better: 但「补齐 Feature 就达标」→ 改写为不带引号：但其"补齐 Feature 即达标"的结论超出证据 — wait, any 「」 or "" or straight quotes count. Just remove quotes entirely: 但补齐 Feature 就达标的结论超出证据. That works since normalized text without quotes isn't scanned.
+
+  **Y3 (L176)**: 「失败后继续向下执行不会回退」 (L1775). Source: "失败之后机器人继续向下执行，不会回退" at L1775-ish. Verbatim fix: 「失败之后机器人继续向下执行，不会回退」.
+
+  Let me get exact line numbers in source for these phrases.
+
+• 先定位雍博卡三处引文的源文精确行号：1767:客户需求：机器人完成壳体分拣上料。展台Demo成功率很高；部署真实工厂，连续跑1小时就大量失败。
+1775:1）罗列现象：光照波动就失败；软壳体容易打滑；失败之后机器人继续向下执行，不会回退；没有统一统计失败率。2）逐条输出假设：
+1737:行业现实：零样本Zero‑shot在工业真实产线成功率仅30‑65%；叠加20条真机Few‑shot示教，可以拉升至70‑80%；没有这个Feature，再强VLA大模型也很难商用落地。
+
+
+• Yongbo fixes:
+  1. Card L73: 「展台 Demo 成功率高、真实工厂连续跑 1 小时大量失败」 → verbatim 「展台Demo成功率很高；部署真实工厂，连续跑1小时就大量失败」 and anchor L1763→L1767. Card text currently: "工业分拣「展台 Demo 成功率高、真实工厂连续跑 1 小时大量失败」的根因…（推演案例，L1763-L1797）". The line has anchor L1763-L1797 range. The checker picks anchor_m = first match L1763. If I make quote verbatim, it will match regardless of anchor. I'll change quote to verbatim and keep range (quote is from L1767 within range—fine).
+
+  Wait, but should I also correct the anchor? The range L1763-L1797 covers L1767. Fine. Change quote to: 「展台Demo成功率很高；部署真实工厂，连续跑1小时就大量失败」. Hmm, but normalization strips spaces and punctuation, so I can write it naturally: 「展台 Demo 成功率很高；部署真实工厂，连续跑 1 小时就大量失败」. Normalized: 展台Demo成功率很高部署真实工厂连续跑1小时就大量失败 = matches source normalized. Good, keep readable spacing.
+
+  2. Card L170: 「补齐 Feature 就达标」 — this is attacker's characterization, paraphrase. Remove quotes: "但补齐 Feature 就达标的结论超出证据" — reads fine. Or rewrite to quote source: source L1795? Card L126 says "补齐原子 Feature 之后产线指标达标"（L1795）. Let me check source L1795. Actually simpler: de-quote. The phrase is a summary characterization in Critique — de-quoting is appropriate per "改逐字引用或去引号转述".
+
+  3. Card L176: 「失败后继续向下执行不会回退」 → verbatim 「失败之后机器人继续向下执行，不会回退」（anchor L1775 already correct).
+
+  Now apply edits to yongbo card. The file has CRLF line endings likely. Use Edit tool carefully — Read output showed no \r markers for this file? The earlier Read of case file didn't show \r markers, and no system note about mixed endings, so it's probably LF or pure CRLF shown as LF. Edit with LF.
+
+• 雍博卡三处修复：
+
+• Wait, L176 quote — check whether quote normalized matches. Source: "失败之后机器人继续向下执行，不会回退" — my new quote is exactly that substring. 
+
+  Now verify yongbo card passes the scanner, then move to nongfu. Read nongfu card relevant lines first.== case-live258-yongbo-embodied-sorting.md: 0 misses ==
+Yongbo: 0 misses ✅.
+
+  Now nongfu 8 misses. Let me find source texts:
+
+  1. L74: 「没有工作流，通用视频创作台就是玩具」(L1013). Check source L933 and L1013.
+  2. L82: 「只需要会说话、少学习、会点几下下一步」(L677, anchor wrong—should be ~L685). Source: "会点几步『下一步』" per 欧阳锋.
+  3. L90: 「与提示词示例不兼容，没有明确使用场景定位」(L731).
+  4. L106: 「还是用通用款为主，**没有工作流的情况下，这套通用视频创作台就是玩具**」(L933).
+  5. L170: 「防扩散的完整工程方案」(L112 → dk card). Also 「AI 不质疑→错误扩散」(L112).
+  6. L171: 「叠加不适用创意差异化任务」(L165→L167, dk-demand-feature-stacking).
+  7. L172: 「DataPack/事实约束类新 Feature 缺口另开任务」(L50, changelog).
+
+  For items 5-7, these quote from other wiki files, not the Live258 source. They're in source_refs? The card's source_refs probably includes the dk cards and changelog. Since the quotes are paraphrases, de-quoting is simplest. But maybe they are verbatim in those dk files — worth checking. Let me grep those files.7:933:结论：还是用通用款为主，没有工作流的情况下，这套通用视频创作台就是玩具
+---
+插图：与该段内容对应的原始示意图。
+
+局限性：不管给什么样的关键词，很多信息基本上都会变成同一个口播稿，导致画面与表达的内容主题不一致。这也是一个很普遍的情况。
+
+结论：还是用通用款为主，没有工作流的情况下，这套通用视频创作台就是玩具
+
+### （三）生活场景型
+---
+
+禁止任何水印、账号标识和平台标识；禁止静音旁白、只显示字幕、只保留BGM；禁止无字幕、绿字小字幕、拖音慢念；禁止虚构产地、人物身份、用途、口感、功效、销量、价格和广告语；禁止把AI场景延展说成真实用户生活；禁止强鼓点、电子音色、夸张转场和煽情高潮。
+
+当前测试方法：采用5个关键帧加同一套提示词。
+
+效果结果：仅1个生成了带视频、带音频旁白的短视频素材，其余均未生成。
+
+初步判定原因：15秒内串联3个以上关键帧，导致单个画面表达不完整，难以保持一致性。
+
+控制变量法：采用3个关键帧加同一套提示词
+
+效果：基本音画同出、字幕正常、有一定逻辑性
+
+核心认知：通用视频创作台，基本3个关键帧可以稳定输出60分的短视频结果
+
+---
+插图：与该段内容对应的原始示意图。
+
+V1\.0版本（与提示词示例不兼容，需要优化。没有明确的使用的场景的定位。）
+
+【总体生成要求】
+---
+目标用户：乡镇一把手及内容更新团队，以及农村支书、书记。
+
+用户能力假设：不要求用户理解复杂的AI工作流程。
+
+核心体验：用户只需要会说话、少学习、会点几步「下一步」，最终就能得到结
+
+果。预计的目标用户的行为画像是：
+Findings:
+
+  1. **L74** 「没有工作流，通用视频创作台就是玩具」 — actual verbatim source: "没有工作流的情况下，这套通用视频创作台就是玩具" (L933). Card anchor says L1013 — wrong anchor. Fix quote to verbatim + anchor L933. Card text: 认知反差型翻车（「没有工作流，通用视频创作台就是玩具」）. New: （「没有工作流的情况下，这套通用视频创作台就是玩具」，L933）. Note the line already has anchor "实测 L1013-L1023" at end — the anchor_m picks first match. If I put L933 right after the quote, first anchor in line... _LINE_ANCHOR_RE.search finds the FIRST anchor in the line. Line 74 is: "> 一句话：短视频小白...（「...」），生活场景型...（实测 L1013-L1023）。" There's no L-anchor before the quote currently? Actually scan reported tag L1013 for the L74 quote, meaning first L anchor in line is L1013. Adding (L933) before it makes anchor L933. Good.
+
+  2. **L82** 「只需要会说话、少学习、会点几下下一步」 — source L683-685: "核心体验：用户只需要会说话、少学习、会点几步「下一步」". Verbatim: 「用户只需要会说话、少学习、会点几步「下一步」」— nested quotes! The source itself contains 「下一步」. If I quote "用户只需要会说话、少学习、会点几步" that normalizes and matches? Source normalized contains "用户只需要会说话少学习会点几步下一步". My quote 「用户只需要会说话、少学习、会点几步『下一步』」... nested 「」 would break regex matching (quote span ends at first 」). Better: quote 「用户只需要会说话、少学习、会点几步」 — hmm awkward truncation. Alternative: de-quote and paraphrase: 用户只需要会说话、少学习、会点几步「下一步」（L683-L685）. That keeps 「下一步」 as a short quote (<10 chars, not scanned). 
+
+  3. **L90** 「与提示词示例不兼容，没有明确使用场景定位」 — source L731: "V1\.0版本（与提示词示例不兼容，需要优化。没有明确的使用的场景的定位。）". Card's quote is compressed rewrite. Options: verbatim quote would be "与提示词示例不兼容，需要优化。没有明确的使用的场景的定位。" — awkward source text. De-quote instead: V1.0（与提示词示例不兼容、无明确使用场景定位，L731）— paraphrase without quotes. Good.
+
+  4. **L106** 「还是用通用款为主，**没有工作流的情况下，这套通用视频创作台就是玩具**」 — source L933: "结论：还是用通用款为主，没有工作流的情况下，这套通用视频创作台就是玩具". The quote contains markdown ** inside; normalized comparison strips punctuation but not asterisks! _QUOTE_STRIP_RE doesn't include `*`. So quote normalized = "还是用通用款为主没有工作流的情况下这套通用视频创作台就是玩具"... wait the ** are inside the quote; quote text = "还是用通用款为主，**没有工作流的情况下，这套通用视频创作台就是玩具**". Normalized removes punctuation but ** remains: "还是用通用款为主**没有工作流的情况下这套通用视频创作台就是玩具**" — won't match. Fix: remove ** from inside the quote, or move bold outside. Change to: 「还是用通用款为主，没有工作流的情况下，这套通用视频创作台就是玩具」（L933）— verbatim, matches after normalization. Bold can wrap outside if desired; simpler to drop bold.
+
+  5. **L170** two quotes: 「防扩散的完整工程方案」 and 「AI 不质疑→错误扩散」 anchored L112 (dk-ai-does-not-question-your-mistake.md). Check that dk file L112 for verbatim text.
+
+  6. **L171** 「叠加不适用创意差异化任务」 anchored L165→ should be L167 in dk-demand-feature-stacking.md. Check L167 text.
+
+  7. **L172** 「DataPack/事实约束类新 Feature 缺口另开任务」 anchored L50 of changelog. Check changelog L50.| 已建立人工核对流程的单件任务 | ⚠️ 边际价值低 | DataPack 主要是防"扩散"而非防"错误" |
+
+> ⚠️ 边界警示（反例）：DataPack 只约束"引用时"，不防"引用前没核对"——王鹏飞的根因链条是"口误（人因）→AI 无差别执行→出正式物料才核对（流程缺位）"。加 DataPack 不等于不会犯错，仍需人工核对节点。正面做法参照农夫三拳的 R/E/S/X 事实分级（L817-L831）：每张图建事实卡并标记来源等级，S 级（AI 场景延展）明确禁止事实性表述——防扩散的完整工程方案。
+
+## 为什么值钱
+===
+
+- **证据等级**：4 案例均为学员二手自述（trust_level: observed），无对照实验；"叠加起效"的归因受混淆变量（平台/时机/技能增长）污染，需独立核实
+- **外部攻击（Kahneman 式）**："叠加后效果好"是成功后选择式归因——无 A/B 数据支撑哪组叠加真正起效；"1+1+1>3"可能是叙事美化
+- **外部攻击（Taleb 式）**：样本全部来自筛选后的"优秀作业"——失败案例（叠加了但没用）不在样本；叠加效应的普适性存疑
+- **边界**：叠加不适用创意差异化任务（农夫三拳认知反差型失败——"反差很难通过系统设置制造"，素材 L923）；复杂状态机在小团队易冗余（黄谦，素材 L2947）
+===
+
+- **F039 与 F097 重复**：同为"CoV视觉链式思考"（F039 有 #252 验证 note，F097 case_ref 为 OCR/口述行号）——100 卡内存在一张重复卡，建议后续去重任务（另开）。
+- 素材暴露的 **DataPack/事实约束** 类新 Feature 缺口（王鹏飞 18 桥翻车对治）——任务单边界已注明另开任务。
+
+## 五、验证记录
+For L170 quotes in nongfu card:
+  - dk L112 contains "防扩散的完整工程方案" verbatim? L112 text: "...明确禁止事实性表述——防扩散的完整工程方案。" Yes! "防扩散的完整工程方案" appears verbatim in dk file. But why did the checker miss it? Because the dk file — is it in the card's source_refs? The checker only checks against source_refs source files. The nongfu card's source_refs likely only include the Live258 file. The quote 「防扩散的完整工程方案」 normalized (≥8 chars: 防扩散的完整工程方案 = 10 chars) with anchor L112 in same line → attributed → checked against Live258 source → miss.
+
+  Options: de-quote (it's a reference to dk card phrasing). Or keep quote but... the checker doesn't know about dk file unless it's in source_refs. Adding internal wiki cards to source_refs is wrong (source_refs = raw sources). So de-quote: change 「防扩散的完整工程方案」 → 防扩散的完整工程方案（去掉引号）. Hmm but it IS verbatim from dk card. Removing quotes loses nothing much — the attribution is via [[dk...]] link. 
+
+  Wait — actually, could also keep verbatim by pointing properly. But checker only resolves source_refs. dk cards are in related, not source_refs. Simplest compliant: remove the 「」 quotes.
+
+  - 「AI 不质疑→错误扩散」: dk card — does it contain "AI 不质疑"? The dk title is "AI 不会质疑你的错误". L112 has "AI 无差别执行". So 「AI 不质疑→错误扩散」 is a paraphrase → de-quote.
+
+  For L171: dk-demand-feature-stacking L167: "**边界**：叠加不适用创意差异化任务（农夫三拳认知反差型失败——"反差很难通过系统设置制造"，素材 L923）". So 「叠加不适用创意差异化任务」 IS verbatim at L167. Card says "该 dk L165 边界条已引农夫三拳认知反差型失败（「叠加不适用创意差异化任务」）". Fix: change L165→L167 (per P1 终审要求） and quote is verbatim — but will checker match? The checker checks against source_refs (Live258 file). dk file not in source_refs presumably → still misses. So de-quote too: （叠加不适用创意差异化任务）. And fix anchor L165→L167.
+
+  For L172: changelog L50: "素材暴露的 **DataPack/事实约束** 类新 Feature 缺口（王鹏飞 18 桥翻车对治）——任务单边界已注明另开任务。" Card quote: 「DataPack/事实约束类新 Feature 缺口另开任务」 —拼贴 (skips 王鹏飞 parenthetical). De-quote: DataPack/事实约束类新 Feature 缺口另开任务 (no quotes). 
+
+  Now let me make the nongfu edits. Card line contents:
+
+  L74: `> 一句话：短视频小白给乡镇一把手搭图生视频工作台——传一张图就出可转发营销素材。真实现场型系统提示词可直出，认知反差型翻车（「没有工作流，通用视频创作台就是玩具」），生活场景型靠关键帧投喂；最硬的实证是一次控制变量实验：15 秒串 5 个关键帧只有 1/5 生成成功，降到 3 个关键帧后音画同出、字幕正常，稳定 60 分（实测 L1013-L1023）。`
+
+  New: 认知反差型翻车（「没有工作流的情况下，这套通用视频创作台就是玩具」，L933）
+
+  L82: `——「只需要会说话、少学习、会点几下下一步」（L683-L685）` → source verbatim is "用户只需要会说话、少学习、会点几步「下一步」". Fix: ——用户只需要会说话、少学习、会点几步「下一步」（L683-L685）. De-quote the outer, keep inner short quote 「下一步」(4 chars < 8 normalized, not scanned). 
+
+  L90: `从 V1.0（「与提示词示例不兼容，没有明确使用场景定位」，L731）` → 从 V1.0（与提示词示例不兼容、无明确使用场景定位，L731）
+
+  L106: `- 结论：「还是用通用款为主，**没有工作流的情况下，这套通用视频创作台就是玩具**」（L933）` → `- 结论：「还是用通用款为主，没有工作流的情况下，这套通用视频创作台就是玩具」（L933）`
+
+  L170: `该 dk L112 已吸收 R/E/S/X 事实分级作为「防扩散的完整工程方案」正面参照` → de-quote: 作为防扩散的完整工程方案的正面参照. And `dk 卡讲「AI 不质疑→错误扩散」的机制` → dk 卡讲 AI 不质疑→错误扩散的机制. Hmm, "→" fine without quotes.
+
+  L171: `该 dk L165 边界条已引农夫三拳认知反差型失败（「叠加不适用创意差异化任务」）` → `该 dk L167 边界条已引农夫三拳认知反差型失败（叠加不适用创意差异化任务）`
+
+  L172: `L50 标注「DataPack/事实约束类新 Feature 缺口另开任务」未执行` → `L50 标注 DataPack/事实约束类新 Feature 缺口另开任务未执行`.I mistyped "R/E/S+X" in my old_string (should be R/E/S/X). Retry with correct text from the earlier Read (L170-172).== case-live258-nongfu-assist-agri-video.md: 0 misses ==
+Nongfu: 0 misses ✅. Now xingzhi (11 misses). Read the card's relevant lines.> 一句话：近 30 年地产/创业实战老兵做自媒体全流程 AI 批量生产，目标日更 3 短视频+2 图文，结果只有 50+ 分——文案同质化、脚本流水账、封面混乱、定位漂移。用 Feature 六层一拆：唯一生效的组合只有「主题约束+单任务拆分」，核心缺失全在 L1-L3 基础层（最终意图/专属角色/Few-shot/RAG 素材库），根本不需要龙虾和复杂 Agent——「只要补齐基础 Feature 就能解决 80% 的内容质量问题」（L653-L655）。
+| L2 提示词层（**最核心短板**） | 最终意图（从未明确商业目标：同城引流/咨询转化）；专属角色（没有「30 年地产营销+连续创业者」IP 身份）；Few-shot 案例（没导入过往爆款数据包）；分层评测（没有完播/引流/人设三标准）；输出结构约束（没有「3 秒钩子→痛点→干货→行动引导」固定框架） | L577-L587 |
+| 「基础 Feature 解决 80% 内容质量问题」 | L655 | ⚠️ 估算，未实测 |
+**内部局限（自指）**：分层补全方案是**设计文档不是实验报告**——「60+→80+」是目标不是结果，六层缺失诊断虽自洽，但「补齐基础 Feature 解决 80% 问题」（L655）没有任何验证数据。方案同时上七组 Feature（L633），违反了自己案例族里黄华春/田力的「逐个叠加观测」纪律——全量改造后即便有效也无法归因。
+**外部攻击者 1（Kahneman 式——规划谬误）**：「日更 3+2 且无需大量人工修改」（L635）是典型规划谬误——方案落地涉及 RAG 建库、Workflow 搭建、多模型协同，每一项的实际成本都被低估；自媒体老手自评的「50 分→80 分」尺度和平台算法现实（完播率由选题/时机/运气共同决定）之间也没有校准。
+**外部攻击者 2（Taleb 式——幸存者对照缺失）**：诊断框架来自事后归因——失败项目拆出的「缺失 Feature」清单，天然倾向把失败解释成「缺了我现在知道的东西」。对照缺失：是否有账号用了同款浅层 Feature 却成功（运气/红利期）？是否有账号补齐了全部 Feature 仍失败？没有负样本，「短板全在 L1-L3」的可信度停留在合理推测。
+本卡是 Live258 族中**分层诊断最工整**的样本——六层逐层列缺失、按「底层优先」定补齐顺序，是 [[framework-truman-feature-layered-system]] 最标准的学员应用，且用自身失败独立验证了体系原则「除非必要，勿增上层封装」（L655：「完全不需要龙虾、复杂多 Agent 等高阶工具」）。与族内对照：行知的「唯一生效组合=主题约束+单任务拆分」（L561-L565）是黄华春「无意识用对 4 Feature」的负片——同样是无意识，黄华春蒙对了三维覆盖，行知只蒙对了一个维度，结果 0 成本获客 vs 50+ 分失败，正好标定 [[dk-demand-feature-stacking]]「维度覆盖决定效果」的两端。反思 2（L645-L649）与 [[dk-feature-not-learned-but-used]] 互为镜像：Feature 不仅是「用了不知道」，还有「有经验不会转」——行业老兵的最大盲区是把线下经验工程化为数据包的能力。
+Now let me look at the source for each:
+
+  1. L73 (two quotes): 「主题约束+单任务拆分」 and 「只要补齐基础 Feature 就能解决 80% 的内容质量问题」 anchored L1?? Actually tags show [L1] — meaning anchor is L653-L655 range start "L653"? No wait, the miss list said [L1] for these — the anchor regex matched "L1"? The line has "(L653-L655)" at the end. Hmm, miss list shows [L1]... Interesting—the regex `[LＬ]\s*(\d{1,6})` would match "L653" not "L1". Unless the line contains "L1-L3 基础层" earlier → first match = "L1" (in "L1-L3"). Yes! "核心缺失全在 L1-L3 基础层" → first anchor match is L1. Tag only cosmetic anyway.
+
+  Need source text around L561-565 （主题约束+单任务拆分） and L653-655.
+
+  2. L114 (two): 「30 年地产营销+连续创业者」 and 「3 秒钩子→痛点→干货→行动引导」 anchored [L2] (from "L2 提示词层"). These are card-internal characterizations; check source for the phrases.
+
+  3. L148: 「基础 Feature 解决 80% 内容质量问题」 in 关键数字 table, L655.
+
+  4. L163: 「补齐基础 Feature 解决 80% 问题」(L655).
+
+  5. L165: 「日更 3+2 且无需大量人工修改」(L635).
+
+  6. L167: 「缺了我现在知道的东西」 [L1]... and 「短板全在 L1-L3」 — both Critique phrasings, paraphrase. De-quote.
+
+  7. L171: 「唯一生效组合=主题约束+单任务拆分」 and 「无意识用对 4 Feature」. Also 「完全不需要龙虾、复杂多 Agent 等高阶工具」(L655) appears in line 171 quoted with anchor L655 — but that one didn't miss, so it's verbatim.
+
+  Let me grep source for these phrases.555:- ·L2提示词层：基础主题约束Feature，每次给AI限定“地产/创业”选题；
+563:主题约束\+单任务拆分
+===
+- ·L3流程层：单次单任务Workflow，分开生成文案、分开生成封面，基础拆分动作。
+
+### （二）当时唯一生效的Feature组合
+
+主题约束\+单任务拆分
+
+仅解决“AI乱写无关内容”最基础问题，能保证产出不彻底跑偏，但完全解决不了内容质量、商业转化、IP统一等核心需求，提升效果微乎其微。
+
+### （三）项目核心缺失Feature（按六层能力分层梳理）
+===
+拆分创意AI、文案AI、视觉AI、评论AI多角色分工，全链路内容统一调性。
+
+优化后核心Feature组合：模型参数分层调优\+IP角色\+最终意图\+爆款案例RAG库\+四段式脚本约束\+三轮迭代Workflow\+全流程状态机
+
+预期整套特性组合落地后，AI产出自带个人从业视角、结构完整、引流属性强，封面视觉统一，批量日更无需大量人工修改，大幅压缩创作时间。
+
+### 四、复盘感受与深层反思
+
+1、工具思维的致命短板：只换工具，不改底层规则
+
+之前我陷入典型T型工具思维，内容不好就换AI平台，完全忽略问题根源是缺少大量底层原子Feature。
+
+工具只是载体，哪怕使用最顶尖的大模型，没有角色、最终意图、案例库这些核心特性，产出依旧是流水线无灵魂内容，无法适配垂直自媒体的IP与商业需求。
+
+2、行业从业者最大盲区：不会把线下经验转化为Feature
+
+我拥有近30年地产、创业实战经历，手里大量独家案例、实战方法论，但过去只会自己口述写作，不懂把这些沉淀为可复用的RAG数据包、Few\-shot案例Feature。
+
+空有行业经验，却无法让AI继承我的核心优势，白白浪费自身差异化竞争力。
+
+3、底层Feature优先，不必盲目上复杂Agent
+
+复盘后清晰意识到：本次自媒体项目所有短板都集中在L1、L2、L3基础层级，完全不需要龙虾、复杂多Agent等高阶工具。
+
+只要补齐提示词、素材库、流程迭代这类基础Feature，就能解决80%的内容质量问题，完美印证课程“除非必要，勿增上层封装”核心观点。
+
+4、Feature具备极强跨场景迁移复利
+Key source texts for xingzhi:
+
+  - L563: "主题约束\+单任务拆分" — note escaped `\+` in source! The card quote 「主题约束+单任务拆分」 normalized = 主题约束+单任务拆分... wait, _QUOTE_STRIP_RE doesn't strip `+` or `\`. Source normalized: "主题约束\+单任务拆分" — the backslash remains. Card normalized: "主题约束+单任务拆分" — no backslash. Mismatch! That's why it missed. This is the `\+` escape issue mentioned in the earlier execution report ("源文 `\+` 转义与弯引号导致未命中").
+
+  Hmm — for verbatim, what to do? The source literally contains "主题约束\+单任务拆分" (markdown-escaped plus). Quoting verbatim with backslash looks odd. Options: de-quote and write 主题约束+单任务拆分 without quotes. That's the clean approach given escape noise. Per FAIL instructions: "改逐字引用或去引号转述".
+
+  Also note L635: 预期 text: "批量日更无需大量人工修改" — card quote 「日更 3+2 且无需大量人工修改」 is a拼贴 (3+2 from elsewhere). De-quote or fix.
+
+  Let me find source for the remaining items:
+  - 「3 秒钩子→痛点→干货→行动引导」 — search source.
+  - 「30 年地产营销+连续创业者」 — source L647: "我拥有近30年地产、创业实战经历". Paraphrase → de-quote.
+  - 80% quotes: source L655: "只要补齐提示词、素材库、流程迭代这类基础Feature，就能解决80%的内容质量问题" — verbatim available.
+  - L561-565 for 唯一生效组合.
+
+  Let me grep more.95:朋友圈文案：需要“短平快、有钩子、有情绪”，读者没有耐心看长文
+233:AI的分析输出： “一篇好的知乎文章需要具备以下要素： 1\. 真实感：读者能感觉到’这是一个真实的人写的’，不是AI生成的，不是小编编的 2\. 实用性：读者看完能带走’可操作的技巧’，不只是’涨知识’ 3\. 共鸣感：读者能在文章中找到’自己的影子’，产生’这就是我’的感觉 4\. 独家性：文章里有’只有你才知道的信息’，比如运营孵化器的内部数据、用户反馈 5\. 互动性：结尾要有’钩子’，引导读者评论、私信”
+541:- ·短视频脚本逻辑流水账，缺少钩子、痛点、转化引导，商业变现能力弱；
+587:- 5\.缺失输出结构约束Feature：没有强制「3秒钩子→行业痛点→实战干货→行动引导」固定脚本框架，内容逻辑散乱。
+===
+23:当时我做的时候，觉得“AI帮我写文章”这件事很简单——就是“告诉AI主题，然后等输出”。但今天用Feature思维重新拆解，我发现当时其实“无意识”地使用了好几个Feature，只是我自己不知道。而且我还发现：文章质量的提升，不是因为AI越来越强了，而是因为我在“无意识”中，逐步配置了更多的Feature。
+259:### 五、改进方案：从“无意识”到“有意识”的Feature组合
+351:第三，从“无意识”到“有意识”，是AI能力提升的关键一步。 以前我用AI，是“无意识”的——我凭感觉做事，做得好不知道为什么，做得差也不知道为什么。现在我用AI，是“有意识”的——我知道我在做什么、为什么这么做、效果如何。这种“无意识→有意识”的转变，是我最大的进步。
+2177:### 四、当时做对了什么（无意识使用的Feature）
+2457:但现在用Feature思维回头看，我发现当时我们虽然用了一些Feature，但很多Feature是无意识使用的，并没有系统化。
+===
+## 行知：Feature实践复盘：自媒体全流程AI内容创作项目
+
+Feature实践复盘：自媒体全流程AI内容创作项目
+
+### 一、案例基础背景
+
+1、项目背景
+
+本人2021年至今，同步运营垂直自媒体账号，赛道覆盖地产干货、创业咨询两大方向，日常产出图文笔记、短视频脚本、口播文案、封面配图四大类内容。
+
+2025年下半年，我尝试全流程用AI批量生产自媒体内容，目标摆脱单人撰稿、作图的繁重工作量，实现日更3条短视频\+2篇图文，解放时间去做咨询、电商主业。
+
+2、原始执行方式（纯工具思维）
+
+- ·内容文案：直接用通用大模型，网上复制爆款短视频提示词模板；
+
+- ·封面配图：切换多款文生图工具，直接输入标题生成画面；
+
+- ·无标准化流程，想到什么指令就给AI什么，脚本、配图分开独立操作；
+
+- ·数据差就更换AI工具，今天用豆包、明天换GPT、作图工具频繁切换。
+
+3、项目最终结果（仅50\+分，批量生产失败）
+
+看似AI能快速产出内容，但成品几乎无法直接发布，存在大量硬伤：
+
+- ·文案同质化严重，缺少个人从业视角，没有差异化记忆点，完播率、私信咨询量极低；
+
+- ·短视频脚本逻辑流水账，缺少钩子、痛点、转化引导，商业变现能力弱；
+
+- ·封面风格混乱，没有统一IP视觉，账号辨识度差；
+
+- ·每次换工具就要重新磨合，批量产出效率反而比人工手写更低；
+
+- ·AI经常偏离账号定位，一会讲房产投资、一会泛创业杂谈，内容定位漂移。
+
+### 二、尝试用Feature思维拆解
+
+已使用Feature、生效组合、缺失Feature
+
+### （一）当时仅用到的少量浅层Feature
+
+- ·L2提示词层：基础主题约束Feature，每次给AI限定“地产/创业”选题；
+
+- ·L1基础模型层：简单模型切换Feature，效果差就更换不同大模型、绘图工具；
+Now for xingzhi's 11 misses, decide each:
+
+  **X1 (L73)** 「主题约束+单任务拆分」 — source L563 is "主题约束\+单任务拆分" (escaped). De-quote: 唯一生效的组合只有主题约束+单任务拆分（去引号）. Keep anchor.
+
+  **X2 (L73)** 「只要补齐基础 Feature 就能解决 80% 的内容质量问题」 — source L655: "只要补齐提示词、素材库、流程迭代这类基础Feature，就能解决80%的内容质量问题" — paraphrase/compression. Make verbatim: 「只要补齐提示词、素材库、流程迭代这类基础Feature，就能解决80%的内容质量问题」? That's long. The card sentence: 根本不需要龙虾和复杂 Agent——「只要补齐基础 Feature 就能解决 80% 的内容质量问题」（L653-L655）. I could make verbatim with spacing: 「只要补齐提示词、素材库、流程迭代这类基础 Feature，就能解决 80% 的内容质量问题」(normalization strips spaces → matches source normalized "只要补齐提示词素材库流程迭代这类基础Feature就能解决80%的内容质量问题"). Yes matches. But the sentence flow: 前面说"根本不需要龙虾和复杂Agent——" then quote. Fine.
+
+  **X3 (L114)** 「30 年地产营销+连续创业者」 — source says "近30年地产、创业实战经历" (L647) — paraphrase. De-quote: 专属角色（没有 30 年地产营销+连续创业者 IP 身份）→ de-quote just remove 「」: （没有 30 年地产营销+连续创业者 IP 身份）. Fine.
+
+  **X4 (L114)** 「3 秒钩子→痛点→干货→行动引导」 — source L587: "没有强制「3秒钩子→行业痛点→实战干货→行动引导」固定脚本框架". Make verbatim: 「3秒钩子→行业痛点→实战干货→行动引导」. Card: 输出结构约束（没有「3 秒钩子→痛点→干货→行动引导」固定框架）. Fix to verbatim form.
+
+  **X5 (L148)** 「基础 Feature 解决 80% 内容质量问题」 in 关键数字表 — de-quote or verbatim. It's a claim row: | 「基础 Feature 解决 80% 内容质量问题」 | L655 | ⚠️ 估算，未实测 |. Make verbatim-ish: 「补齐基础Feature就能解决80%内容质量问题」? Source exact: "只要补齐提示词、素材库、流程迭代这类基础Feature，就能解决80%的内容质量问题". For a table cell, de-quote is cleaner: | 补齐基础 Feature 能解决 80% 内容质量问题 | L655 | ... de-quoted.
+
+  **X6 (L163)** 「补齐基础 Feature 解决 80% 问题」（L655）— in Critique. De-quote: 但补齐基础 Feature 解决 80% 问题（L655）没有任何验证数据.
+
+  **X7 (L165)** 「日更 3+2 且无需大量人工修改」（L635）— source L635: "批量日更无需大量人工修改"; "日更3条短视频+2篇图文" is at L523 with escaped \+. 拼贴 → de-quote: 「日更 3+2 且无需大量人工修改」→ de-quote: 日更 3+2 且无需大量人工修改（L635/L523）. Keep simple: de-quote keep L635.
+
+  **X8 (L167)** 「缺了我现在知道的东西」 — Critique paraphrase, de-quote.
+  **X9 (L167)** 「短板全在 L1-L3」 — source L651: "本次自媒体项目所有短板都集中在L1、L2、L3基础层级". Card's is paraphrase. Could make verbatim: 「本次自媒体项目所有短板都集中在 L1、L2、L3 基础层级」? Card sentence: 「短板全在 L1-L3」的可信度停留在合理推测. Make verbatim: 「所有短板都集中在L1、L2、L3基础层级」 — substring of source, matches. Use that.
+
+  **X10 (L171)** 「唯一生效组合=主题约束+单任务拆分」 — de-quote (\+ issue): 行知的「唯一生效组合=主题约束+单任务拆分」→ 行知的唯一生效组合=主题约束+单任务拆分.
+
+  **X11 (L171)** 「无意识用对 4 Feature」 — refers to 黄华春 case (another card's phrasing), anchor L655 wrong-ish. It's 族内对照 referencing huanghuachun card phrasing. De-quote: 黄华春「无意识用对 4 Feature」的负片 → 黄华春无意识用对 4 Feature 的负片. Hmm "无意识用对 4 Feature" reads okay without quotes.
+
+  Note: L171 also has 「完全不需要龙虾、复杂多 Agent 等高阶工具」（L655）— not in miss list, so verbatim fine (source L651: "完全不需要龙虾、复杂多Agent等高阶工具" — normalized matches).
+
+  Apply edits. Careful with exact old_strings. Let me do them one at a time with unique context.
+
+• 逐条修行知卡 11 处：
+
+== case-live258-xingzhi-media-layered-diagnosis.md: 0 misses ==
+• Xingzhi: 0 misses ✅. Now tianli (10 misses). Read relevant card lines.> 本卡属于 [[framework-truman-feature-thinking-core]] 的应用实证——Feature 思维在 To G 专业服务业（政府培训方案）的失败复盘，Live258 案例族中**「裸 prompt 提交」最彻底**的案例（自评「几乎什么 Feature 都没用」）。与 [[framework-truman-feature-layered-system]] 对应：缺失的 7 个 Feature 集中在 L2 提示词层（意图/上下文/数据/案例/角色/Few-shot/本地化）。
+| 5 | 专业角色设定 | AI 不知道以什么身份设计 | 「政府培训领域顶级专家，15 年经验，服务过 20+ 组织部项目，擅长实战型落地型方案」 | L1231-L1245 |
+如果重来的三轮迭代方案（L1453-L1491/L1571-L1611）：第一轮上 4 个核心 Feature（意图/角色/上下文/数据）→ 收集反馈「案例太泛化」→ 第二轮加 3 个本地化 Feature（参考案例/本地化/Few-Shot）→「更有针对性但缺差异化亮点」→ 第三轮加 N 版选 1（实战型 vs 理论型 vs 综合型）+渐进式披露 → 选综合型突出「实战落地」优势。**⚠️ 全部为复盘推演，未实际重新执行。**
+核心收获（L1613-L1699）：专业性来自 Feature 的精准叠加（对干部特点的理解/对组织部要求的把握/对本地实际的洞察/对培训方法的设计，每个 Feature 都是专业性的一个维度）；**Feature 就是「可复用的专业经验」**——过去每个项目「从零开始」，提炼 Feature 后「每做一个项目，能力资产都在增加」；「Feature 越多，方案越专业。Feature 越准，方案越有效」（L1697）。
+**内部局限（自指）**：被退回是实测，但**整个补救方案零实测**——三轮叠加实验是「模拟一下」（L1337），重做方案是「如果当时」（L1453），最终效果如何无任何数据。7 个 Feature 的归因来自学员自己复盘，没有项目负责人对「补上 Feature 的方案」的二次评价。65%/58%/42% 的调研数据在原始 prompt 里并不存在（当时是裸 prompt），它们是复盘时补写的——这本身说明「数据可得性」不是当时失败的约束，「没想到要给」才是。
+本卡是 Live258 族中**缺失侧信息密度最高**的案例——与 [[case-live258-fact-spread-18-bridges]]（王鹏飞）共同印证族内规律「翻车案例的信息密度高于成功案例」。田力的特殊价值在于把「专业性」这个模糊概念拆解了：政府培训的专业性=对干部特点的理解（上下文）+对组织部要求的把握（最终意图）+对本地实际的洞察（本地化）+对培训方法的设计（参考案例+Few-shot），**每个 Feature 是专业性的一个维度**（L1631）——这正是 [[dk-demand-feature-stacking]]「维度覆盖而非数量堆叠」在 To G 专业服务业的表述。与黄华春案构成镜像：黄华春无意识蒙对 4 个 Feature 成功，田力一个没蒙对被退回——同一枚硬币两面。其「Feature=可复用的专业经验」论断（L1633）与 [[dk-feature-pieces-not-recognized-as-cards]] 同构：经验不提炼为 Feature，每个项目都是「从零开始」。本卡推演部分的价值在展示「Feature 叠加的标准叙事结构」（核心 4→本地化 3→差异化 2 的三轮节奏），可作为方案类任务的复盘模板。
+| 一句话裸 prompt 交方案 | 「帮我设计 XX 方案」→生成→直接提交（L1073-L1079） | 提交前 7 Feature 检查单，缺三个以上打回 |
+====
+1075:- 2\.输入提示词："帮我设计一个年轻干部能力提升的培训方案，培训周期为5天，内容包括理论学习、案例分析、实战演练"
+1347:培训周期5天，内容包括理论学习、案例分析、实战演练。"
+1379:培训周期5天，内容包括理论学习、案例分析、实战演练。"
+1443:培训周期5天，请给出详细的5天日程安排。"
+Now tianli's 10 misses:
+
+  **T1 (L68)** 「裸 prompt 提交」 [L2] — in the positioning statement at top. 「几乎什么 Feature 都没用」 also quoted in same line but presumably matched or the check found 「裸 prompt 提交」 missing. "裸 prompt 提交" is card-internal characterization. De-quote: Live258 案例族中**裸 prompt 提交最彻底**的案例. Wait it's bolded with 「」 inside: **「裸 prompt 提交」最彻底**. De-quote: **裸 prompt 提交最彻底**. And 「几乎什么 Feature 都没用」 — was it in misses? Not listed; probably verbatim in source. OK.
+
+  **T2 (L102)** 「政府培训领域顶级专家，15 年经验，服务过 20+ 组织部项目，擅长实战型落地型方案」 (L1231-L1245). Check source L1231 area.
+
+  **T3 (L115)** 「更有针对性但缺差异化亮点」 (L1453). Check source.
+
+  **T4 (L119)** 「每做一个项目，能力资产都在增加」 (L1613). Also 「Feature 越多，方案越专业。Feature 越准，方案越有效」 (L1697) — not missed, OK. And 「从零开始」 short quote maybe <8 chars — "从零开始" is 4 chars, fine.
+
+  **T5 (L155)** 「补上 Feature 的方案」 (L1337) — in Critique: 没有项目负责人对「补上 Feature 的方案」的二次评价 — de-quote.
+
+  **T6-T9 (L163)** four quotes: 「翻车案例的信息密度高于成功案例」「维度覆盖而非数量堆叠」「Feature=可复用的专业经验」「Feature 叠加的标准叙事结构」 — these are mostly card-internal phrasings or quotes from dk cards. De-quote all four. Wait 「Feature 就是「可复用的专业经验」」 appears at L119 too with nested quotes — L119's 「每做一个项目，能力资产都在增加」 missed but 「可复用的专业经验」 didn't (nested quote handling: outer quote ends early... anyway). For L163, de-quote the four.
+
+  **T10 (L176)** 「帮我设计 XX 方案」 (L1073) — source L1075: "帮我设计一个年轻干部能力提升的培训方案，培训周期为5天...". The card wrote a genericized "XX 方案" — that's a fabricated quote. Make verbatim: 「帮我设计一个年轻干部能力提升的培训方案，培训周期为5天，内容包括理论学习、案例分析、实战演练」 or de-quote. Since this is the failure-mode table row: 「帮我设计 XX 方案」→生成→直接提交（L1073-L1079）. Verbatim full prompt is long but accurate. Use verbatim (with escaped periods in source "2\.输入提示词："..."). The prompt text itself: "帮我设计一个年轻干部能力提升的培训方案，培训周期为5天，内容包括理论学习、案例分析、实战演练" — normalized matches. Also this is where anchor P1 fix comes in: 培训周期 5 天 anchor L1065→L1075. Where does the card mention 培训周期5天？ Let me search the card.
+
+  Also 欧阳锋 said: "田力卡两处「培训周期 5 天」锚点改 L1075（正文区间引用改 L1063-L1075 或单列 L1075）" — 正文起点段（L1063-L1065）与关键数字表（标 L1065）.
+
+  Let me grep the card for 培训周期.80:任务：为某市委组织部设计「年轻干部能力提升」教研方案，培训周期 5 天，内容包括理论学习、案例分析、实战演练（L1063-L1065）。
+84:原始操作流程（L1073-L1079）：打开 ChatGPT → 输入「帮我设计一个年轻干部能力提升的培训方案，培训周期为 5 天，内容包括理论学习、案例分析、实战演练」→ 生成内容整理成文档 → 提交项目负责人。一句话需求，零上下文，零迭代。
+140:| 培训周期 5 天 | L1065 | 任务要求 |
+====
+预期效果：AI会模仿这个结构，生成更符合政府培训要求的方案。
+
+#### 缺失Feature5：专业角色设定
+
+我的原始提示词：没有设定AI的角色
+
+问题分析：
+
+- ·AI不知道它应该以什么身份来设计方案
+
+- ·是普通老师？培训专家？还是政府培训顾问？
+
+如果加上角色设定：
+
+"你现在是政府培训领域的顶级专家，有15年政府培训项目经验，服务过20\+个组织部项目，擅长设计'实战型、落地型'的干部培训方案。你设计的方案特点：问题导向、场景化教学、能力可迁移、效果可评估。"
+
+预期效果：AI会以这个角色的专业水准来设计教研方案。
+
+#### 缺失Feature6：Few\-Shot示例教学
+====
+213:基于这个分析，AI再写文章，输出的内容就会更有针对性——因为它在写之前就想清楚了“读者是谁”、“读者想看什么”。这个Feature的价值就在于此——它让AI从“泛泛而谈”变成了“有的放矢”。
+1163:预期效果：AI会根据这些信息，调整方案的侧重点、难度、风格，更有针对性。
+1301:预期效果：AI会更有针对性地设计本地化内容。
+1383:- ·方案会更有针对性
+1483:发现进步：方案更有针对性了，但还缺少差异化亮点。
+====
+1663:每做一个项目，我的能力资产都在增加。
+====
+任务：为某市委组织部设计一个"年轻干部能力提升"的教研方案
+
+原始方法：用ChatGPT直接生成方案
+
+结果：第一版方案被退回，被认为"太学术化、不够实战、缺少针对性"
+
+#### 第一步：当时的原始做法（工具思维）
+
+我的操作流程
+
+- 1\.打开ChatGPT
+
+- 2\.输入提示词："帮我设计一个年轻干部能力提升的培训方案，培训周期为5天，内容包括理论学习、案例分析、实战演练"
+
+- 3\.生成内容后整理成文档
+
+- 4\.提交给项目负责人
+
+Now let me handle tianli card:
+
+  **Anchor fix (P1)**: 
+  - Card L80: "培训周期 5 天，内容包括理论学习、案例分析、实战演练（L1063-L1065）" — actual content at L1075. 欧阳锋 said: 正文区间引用改 L1063-L1075 或单列 L1075. L1063 is 任务行 "任务：为某市委组织部设计一个"年轻干部能力提升"的教研方案" (that's L1063-ish). The card sentence combines 任务 (L1063) + 培训周期5天 (L1075). Change anchor to L1063-L1075? Hmm, range L1063-L1075 spans. The instruction: "正文区间引用改 L1063-L1075 或单列 L1075". I'll use L1063/L1075: "任务：为某市委组织部设计「年轻干部能力提升」教研方案（L1063），培训周期 5 天，内容包括理论学习、案例分析、实战演练（L1075）。" Wait — the card uses 「年轻干部能力提升」 quoted with anchor nearby — normalized "年轻干部能力提升" = 7 chars < 8, not scanned. OK.
+
+  - Card L140 （关键数字表）: | 培训周期 5 天 | L1065 | 任务要求 | → | 培训周期 5 天 | L1075 | 任务要求 |
+
+  **T2 (L102)**: quote 「政府培训领域顶级专家，15 年经验，服务过 20+ 组织部项目，擅长实战型落地型方案」 — source (L1241-ish): "你现在是政府培训领域的顶级专家，有15年政府培训项目经验，服务过20\+个组织部项目，擅长设计'实战型、落地型'的干部培训方案。" Card is paraphrase. Options: verbatim with the actual text, or de-quote. This is a table cell (Feature 内容 example). Verbatim is better for value. Card L102: `| 5 | 专业角色设定 | AI 不知道以什么身份设计 | 「政府培训领域顶级专家，15 年经验，服务过 20+ 组织部项目，擅长实战型落地型方案」 | L1231-L1245 |`
+
+  Make verbatim: 「你现在是政府培训领域的顶级专家，有 15 年政府培训项目经验，服务过 20+ 个组织部项目，擅长设计实战型、落地型的干部培训方案」 — normalized: strip spaces/punct → "你现在是政府培训领域的顶级专家有15年政府培训项目经验服务过20\+个组织部项目擅长设计实战型落地型的干部培训方案"... wait source has "20\+个" — backslash remains in normalized source! _QUOTE_STRIP_RE doesn't strip backslash. Card quote "20+" normalized "20个" vs source "20\+个" — mismatch on backslash!
+
+  Hmm. So verbatim quoting source lines containing `\+` will never match. Check: does source text really contain backslash? sed output shows "服务过20\+个组织部项目" — yes, escaped. So I must avoid the "20\+" part in the quote, or de-quote. I can quote a sub-part avoiding the escape: 「你现在是政府培训领域的顶级专家，有15年政府培训项目经验」 — normalized matches (no backslash in that span). Then continue outside quotes: ，服务过 20+ 个组织部项目，擅长设计实战型、落地型的干部培训方案. That works: quoted part is verbatim substring.
+
+  Actually let me double check normalization of source span "你现在是政府培训领域的顶级专家，有15年政府培训项目经验，" → strip punct → "你现在是政府培训领域的顶级专家有15年政府培训项目经验". My quote same → match. 
+
+  **T3 (L115)**: 「更有针对性但缺差异化亮点」 — source L1483: "发现进步：方案更有针对性了，但还缺少差异化亮点。" Verbatim substring option: 「方案更有针对性了，但还缺少差异化亮点」 — matches. Card context: →「更有针对性但缺差异化亮点」→ 第三轮. Replace with verbatim quote.
+
+  **T4 (L119)**: 「每做一个项目，能力资产都在增加」 — source L1663: "每做一个项目，我的能力资产都在增加。" Card dropped 我的. Verbatim: 「每做一个项目，我的能力资产都在增加」. Also same line: 提炼 Feature 后「每做一个项目，能力资产都在增加」 → fix to verbatim. And **Feature 就是「可复用的专业经验」** — was that a miss? Not in list ("Feature 就是" outer... the quote 「可复用的专业经验」 = 8 chars normalized ≥8... but it didn't miss? Wait misses at L119 only listed 「每做一个项目，能力资产都在增加」. Hmm "可复用的专业经验" is 8 chars — 可复用的专业经验 = 8 chars, ≥8 → checked. It didn't miss → found in source. Indeed source likely has "可复用的专业经验" — check L1661 area. Fine.
+
+  Also L119 has 「Feature 越多，方案越专业。Feature 越准，方案越有效」（L1697）— not missed, verbatim OK.
+
+  **T5 (L155)**: 「补上 Feature 的方案」 — de-quote: 没有项目负责人对补上 Feature 的方案的二次评价 → smoother: 没有项目负责人对"补上 Feature 后的方案"的二次评价 — no, quotes of any kind count. De-quote entirely: 没有项目负责人对补 Feature 后方案的二次评价.
+
+  **T6-T9 (L163)**: 
+  - 「翻车案例的信息密度高于成功案例」— card-internal 族内规律 phrasing. De-quote: 共同印证族内规律——翻车案例的信息密度高于成功案例.
+  - 「维度覆盖而非数量堆叠」 — from dk-demand-feature-stacking; it IS likely verbatim in that dk but checker only checks source_refs. De-quote: 这正是 [[dk-demand-feature-stacking]] 维度覆盖而非数量堆叠在 To G 专业服务业的表述. Hmm reads as: 这正是 dk 的「维度覆盖而非数量堆叠」 → de-quote.
+  - 「Feature=可复用的专业经验」 — de-quote.
+  - 「Feature 叠加的标准叙事结构」 — de-quote.
+
+  **T10 (L176)**: 「帮我设计 XX 方案」→生成→直接提交（L1073-L1079） — fabricated genericization. Source L1075 exact prompt: "帮我设计一个年轻干部能力提升的培训方案，培训周期为5天，内容包括理论学习、案例分析、实战演练". Card L84 already has verbatim version? L84: 输入「帮我设计一个年轻干部能力提升的培训方案，培训周期为 5 天，内容包括理论学习、案例分析、实战演练」— wait, was L84 a miss? Not in miss list. Check normalization: source "帮我设计一个年轻干部能力提升的培训方案，培训周期为5天，内容包括理论学习、案例分析、实战演练" — card with spaces normalized identical → matches. Good. For L176 table: use verbatim too: 「帮我设计一个年轻干部能力提升的培训方案，培训周期为5天，内容包括理论学习、案例分析、实战演练」→生成→直接提交（L1075-L1079）. Update anchor from L1073-L1079 to L1075-L1079? The prompt is at L1075; the row says (L1073-L1079). Keep range or set L1075-L1079. Fine either way; I'll use L1075-L1079.
+
+  **T1 (L68)**: 「裸 prompt 提交」 de-quote → **裸 prompt 提交最彻底**.
+
+  Let me apply edits.
+
+• 逐条修田力卡 10 处 + 2 处锚点：
+
+• Now L163 four quotes and L176 and L140. Read current L163 and L176 exact text again (I have from earlier sed). L163:
+
+  "本卡是 Live258 族中**缺失侧信息密度最高**的案例——与 [[case-live258-fact-spread-18-bridges]]（王鹏飞）共同印证族内规律「翻车案例的信息密度高于成功案例」。田力的特殊价值在于把「专业性」这个模糊概念拆解了：...**每个 Feature 是专业性的一个维度**（L1631）——这正是 [[dk-demand-feature-stacking]]「维度覆盖而非数量堆叠」在 To G 专业服务业的表述。与黄华春案构成镜像：...其「Feature=可复用的专业经验」论断（L1633）与 [[dk-feature-pieces-not-recognized-as-cards]] 同构：经验不提炼为 Feature，每个项目都是「从零开始」。本卡推演部分的价值在展示「Feature 叠加的标准叙事结构」（核心 4→本地化 3→差异化 2 的三轮节奏），可作为方案类任务的复盘模板。"
+
+  Edits:
+  - 「翻车案例的信息密度高于成功案例」→ de-quote
+  - 「维度覆盖而非数量堆叠」→ de-quote
+  - 「Feature=可复用的专业经验」→ de-quote
+  - 「Feature 叠加的标准叙事结构」→ de-quote
+  - 「从零开始」 = 4 chars, safe to keep.
+
+  L176: `| 一句话裸 prompt 交方案 | 「帮我设计 XX 方案」→生成→直接提交（L1073-L1079） | 提交前 7 Feature 检查单，缺三个以上打回 |` → verbatim prompt + anchor L1075-L1079.
+
+  L140: `| 培训周期 5 天 | L1065 | 任务要求 |` → L1075.== case-live258-tianli-gov-training.md: 0 misses ==
+Tianli: 0 misses ✅. 
+
+  Now the remaining P1: huangqian card dk anchor L165→L167 （定位声明 + Synthesis 两处）. Find them.30_wiki/cases/case-live258-huangqian-promo-film.md:71:> 本卡属于 [[framework-truman-feature-thinking-core]] 的应用实证——Feature 分层体系（[[framework-truman-feature-layered-system]]）在影视宣传片创作域的自检案例，Live258 案例族中分层自评最清醒的案例：学员自己定位为“底层扎实、上层待拓”（L2915）。与 [[dk-demand-feature-stacking]] 互链：该卡 L165 已引本案为 Feature 叠加的边界例（黄谦，素材 L2947——多人对话加状态机在小团队场景复杂度高易冗余），本卡为该边界例提供完整过程证据。
+30_wiki/cases/case-live258-huangqian-promo-film.md:184:与 [[dk-demand-feature-stacking]] 的互链关系：该卡 L165 已引本案为 Feature 叠加有边界的实例（复杂状态机在小团队易冗余），本卡补充完整证据链——状态机在中长周期、多交付节点的创作流程里是资产（保障节奏），在短平快任务里变负担（管理开销超收益），**过程类 Feature 的启用应有规模阈值**。
+30_wiki/cases/case-live258-tianli-gov-training.md:179:| 每个项目从零开始 | 经验不沉淀，下个项目重新试错（L1635-L1653） | 项目结束提炼 Feature 入库，下次直接复用 |
+huangqian card has two L165 references to dk-demand-feature-stacking → change both to L167. tianli L179's "L1635-L1653" is a different anchor (source range), not related. nongfu already fixed to L167.Wait — the nongfu card also referenced "dk L165"? I already fixed that one to L167 in the big edit. Confirmed by grep output — nongfu no longer has L165.
+
+  Also the task instruction says the 任务单「前置缺陷项」节 writes L165 too — but 欧阳锋 said "本任务单处由本记录更正" （终审记录自己更正）, so I don't touch the task单's 前置缺陷项. Actually re-read: "nongfu 卡「与 dk 互链」节、huangqian 卡定位声明+Synthesis、本任务单「前置缺陷项」三处均写 L165——同源漂移（本任务单处由本记录更正，卡内两处由生产者改）". So task单's 前置缺陷项 L165 reference was corrected by 欧阳锋's 终审记录 itself — I only fix the two cards. Done.
+
+  Now re-run the full pre-submit on all 6 cards.  [QUALITY_SCORE]: 6 info
+    📊 30_wiki/cases/case-live258-yongbo-embodied-sorting.md
+       Quality pre-score: 80/100 | pos:25 | tacit:15 (3 signals) | src:15 (1) | decomp:25 (9)
+    📊 30_wiki/cases/case-live258-nongfu-assist-agri-video.md
+       Quality pre-score: 70/100 | pos:25 | tacit:5 (template?) | src:15 (1) | decomp:25 (8)
+    📊 30_wiki/cases/case-live258-xingzhi-media-layered-diagnosis.md
+       Quality pre-score: 70/100 | pos:25 | tacit:5 (template?) | src:15 (1) | decomp:25 (8)
+    📊 30_wiki/cases/case-live258-tianli-gov-training.md
+       Quality pre-score: 70/100 | pos:25 | tacit:5 (template?) | src:15 (1) | decomp:25 (8)
+    📊 30_wiki/cases/case-live258-huangqian-promo-film.md
+       Quality pre-score: 70/100 | pos:25 | tacit:5 (template?) | src:15 (1) | decomp:25 (5)
+    📊 30_wiki/cases/case-live258-simonpeng-medical-dataset.md
+       Quality pre-score: 70/100 | pos:25 | tacit:5 (template?) | src:15 (1) | decomp:25 (5)
+  [BODY_SRC_UNKNOWN]: 0 issues
+  [VLM_TWO_SECTION]: 0 issues
+  [CONCEPT_CROSSCHECK]: 6 warnings
+    🟡 30_wiki/cases/case-live258-yongbo-embodied-sorting.md
+       本卡涉及已有概念：layer（权威定义见 [[framework-yitang-nine-layer-deep-dig]]）、借假修真（权威定义见 [[concept-yitang-case-jiejiaxiuzhen]]）、项目复盘（权威定义见 [[framework-yitang-project-retrospective]]）、业务层（权威定义见 [[framework-目标三层拆解]]）、判断力（权威定义见 [[framework-taste-as-judgment-system]]）——请人工核对与权威定义的一致性（#542 提示制不拦截；小昭事故根因 3 降档版）
+    🟡 30_wiki/cases/case-live258-nongfu-assist-agri-video.md
+       本卡涉及已有概念：DataPack（权威定义见 [[framework-encapsulation-methodology]]）、layer（权威定义见 [[framework-yitang-nine-layer-deep-dig]]）、可执行指令（权威定义见 [[prd-as-ai-instruction]]）、提示词工程（权威定义见 [[meta-prompt-eng]]）、提示词框架（权威定义见 [[framework-wanghuan-bitcoe-prompt-framework]]）——请人工核对与权威定义的一致性（#542 提示制不拦截；小昭事故根因 3 降档版）
+    🟡 30_wiki/cases/case-live258-xingzhi-media-layered-diagnosis.md
+       本卡涉及已有概念：分层自洽（权威定义见 [[concept-yitang-layered-self-consistency]]）、layer（权威定义见 [[framework-yitang-nine-layer-deep-dig]]）、分层诊断（权威定义见 [[framework-socialization-capability-pyramid]]）、全流程（权威定义见 [[aigc文创案例设计课leo文创ip从0到1全流程]]）、判断力（权威定义见 [[framework-taste-as-judgment-system]]）——请人工核对与权威定义的一致性（#542 提示制不拦截；小昭事故根因 3 降档版）
+    🟡 30_wiki/cases/case-live258-tianli-gov-training.md
+       本卡涉及已有概念：layer（权威定义见 [[framework-yitang-nine-layer-deep-dig]]）、刻意练习（权威定义见 [[framework-yitang-deliberate-practice-1plus4]]）、系统思考（权威定义见 [[master-systems-thinking]]）、判断力（权威定义见 [[framework-taste-as-judgment-system]]）、双三角（权威定义见 [[concept-yihang-dual-triangle-core]]）——请人工核对与权威定义的一致性（#542 提示制不拦截；小昭事故根因 3 降档版）
+    🟡 30_wiki/cases/case-live258-huangqian-promo-film.md
+       本卡涉及已有概念：放大器（权威定义见 [[concept-qinpeng-ai-as-amplifier]]）、layer（权威定义见 [[framework-yitang-nine-layer-deep-dig]]）、分层诊断（权威定义见 [[framework-socialization-capability-pyramid]]）、实验验证（权威定义见 [[yt-lean-assumption-verification-3means]]）、知识管理（权威定义见 [[yt-management-team-knowledge]]）——请人工核对与权威定义的一致性（#542 提示制不拦截；小昭事故根因 3 降档版）
+    🟡 30_wiki/cases/case-live258-simonpeng-medical-dataset.md
+       本卡涉及已有概念：layer（权威定义见 [[framework-yitang-nine-layer-deep-dig]]）、五层架构（权威定义见 [[framework-ai-five-layer-architecture]]）、数据资产（权威定义见 [[yt-barrier-data-assets]]）、生命周期（权威定义见 [[rust-lifetimes]]）、全流程（权威定义见 [[aigc文创案例设计课leo文创ip从0到1全流程]]）——请人工核对与权威定义的一致性（#542 提示制不拦截；小昭事故根因 3 降档版）
+  [QINGDANTI_STRUCTURE]: 4 warnings
+    🟡 30_wiki/cases/case-live258-yongbo-embodied-sorting.md
+       超长无分层段落（连续散文 1 行 / 单段 491 字）——按清单体结构标准重组：分层≤3 层/编号序列/重点前置/提出-展开-回收（手册 §12.2.1，方法论锚 [[yt-note-checklist-concept]]；#639 提示制不拦截）
+    🟡 30_wiki/cases/case-live258-nongfu-assist-agri-video.md
+       超长无分层段落（连续散文 1 行 / 单段 421 字）——按清单体结构标准重组：分层≤3 层/编号序列/重点前置/提出-展开-回收（手册 §12.2.1，方法论锚 [[yt-note-checklist-concept]]；#639 提示制不拦截）
+    🟡 30_wiki/cases/case-live258-xingzhi-media-layered-diagnosis.md
+       超长无分层段落（连续散文 1 行 / 单段 443 字）——按清单体结构标准重组：分层≤3 层/编号序列/重点前置/提出-展开-回收（手册 §12.2.1，方法论锚 [[yt-note-checklist-concept]]；#639 提示制不拦截）
+    🟡 30_wiki/cases/case-live258-tianli-gov-training.md
+       超长无分层段落（连续散文 1 行 / 单段 528 字）——按清单体结构标准重组：分层≤3 层/编号序列/重点前置/提出-展开-回收（手册 §12.2.1，方法论锚 [[yt-note-checklist-concept]]；#639 提示制不拦截）
+  [QUOTE_VERBATIM]: 0 issues
+  [SOURCE_RANGE]: 0 issues
+  [KDO_QUERY_LOG]: 0 issues
+  [INDEX]: 2 errors
+    🔴 30_wiki/cases/case-live258-tianli-gov-training.md
+       卡片比检索索引新（kdo query/kdo_search 检索不到）——先跑 `kdo index --incremental`（秒级增量）再提审；全量重建用 `kdo index`（分钟级）
+    🔴 30_wiki/cases/case-live258-huangqian-promo-film.md
+       卡片比检索索引新（kdo query/kdo_search 检索不到）——先跑 `kdo index --incremental`（秒级增量）再提审；全量重建用 `kdo index`（分钟级）
+  [TAGS]: 4 warnings
+    🟡 30_wiki/cases/case-live258-yongbo-embodied-sorting.md
+       普通卡内容词 0 个（维度前缀不计词），合规区间 5-8 跨轴词（tags-vocab-design §三，#498；当前档位：WARNING（软期至 2026-09-14，此后升 HARD 拦截））
+    🟡 30_wiki/cases/case-live258-nongfu-assist-agri-video.md
+       普通卡内容词 0 个（维度前缀不计词），合规区间 5-8 跨轴词（tags-vocab-design §三，#498；当前档位：WARNING（软期至 2026-09-14，此后升 HARD 拦截））
+    🟡 30_wiki/cases/case-live258-xingzhi-media-layered-diagnosis.md
+       普通卡内容词 0 个（维度前缀不计词），合规区间 5-8 跨轴词（tags-vocab-design §三，#498；当前档位：WARNING（软期至 2026-09-14，此后升 HARD 拦截））
+    🟡 30_wiki/cases/case-live258-tianli-gov-training.md
+       普通卡内容词 0 个（维度前缀不计词），合规区间 5-8 跨轴词（tags-vocab-design §三，#498；当前档位：WARNING（软期至 2026-09-14，此后升 HARD 拦截））
+
+  🔴 Result: FAIL — 2 个错误要修（#220 P1-5 讲香）
+     路径感：从上往下修——先修 YAML 结构错误（阻断后续检查），再修内容错误
+     修完重跑本命令，看到 ✅ PASS 再提交，省欧阳锋一轮往返
+====================================================================
+
+QUOTE_VERBATIM: 0 issues ✅. But INDEX errors for tianli and huangqian (cards newer than index). Need `kdo index --incremental`. The context says 老顽童 shouldn't run full rebuild but incremental was run before by laowantong （执行报告 says "kdo index --incremental 已跑" — that was previous session; the铁律 says "产新卡后通知黄药师跑 kdo index --rebuild（你不要自己跑——全库扫描会阻塞）" — but incremental is seconds-level and previous execution report shows laowantong ran incremental. Run incremental.Incremental: +0 ~3 -0 (total 4276) -> C:\Users\Administrator\Desktop\wiki\.kdo\search_index.json
+  [QUOTE_VERBATIM]: 0 issues
+  [SOURCE_RANGE]: 0 issues
+  ✅ Result: PASS（18 条 WARNING 在列——有警在身，非全清，终审前自行掂量）
+6 卡 pre-submit PASS，QUOTE_VERBATIM 0 issues。Warnings 与上轮一致（CONCEPT_CROSSCHECK 提示制已人工核对、TAGS 软期、QINGDANTI 提示制）——终审记录已注明 P2 不阻断。
+
+  Now: L10 镜像返工报告写入任务单（五字段执行报告更新），git status 检查，commit，complete。
+
+  Update the task file with a 返工执行报告 section. The existing 执行报告 is from previous submission. I'll append a new section 「返工执行报告（老顽童，2026-09-10，FAIL C 修复）」 with mirror-style per-FAIL-item mapping, plus five fields.
+
+  FAIL items mirror:
+  - P0 32 处伪逐字引文： yongbo 3 (L73/L170/L176), nongfu 8, xingzhi 11, tianli 10 → all fixed, QUOTE_VERBATIM 0 issues
+  - P1 田力锚点： L80 改 L1063/L1075 单列，L140 关键数字表 L1065→L1075
+  - P1 dk 锚： nongfu §互链说明 L165→L167；huangqian L71 定位声明 + L184 Synthesis L165→L167
+  - 验证： pre-submit 6 卡 PASS
+
+  Per-quote detail table for 复审对照法 (L10 牌： 每项给改动位置+实测验证锚点）. Let me write the report. Also need evidence file? Task frontmatter has evidence: _tmp/684-evidence.md. The complete command may need --evidence. Let me write the rework report into the task file and also update _tmp/684-evidence.md? Check if that file exists.
+
+  Also #679 warning at claim: 缺 initial_assessment — WARNING 台账已记， soft period. I could add a brief initial_assessment note to the task file. The claim warning said "开工前先核任务单前提与盘上现状". I've effectively done that （终审记录四节已读、锚点全部回源核实）. I can note it in the report.
+
+  Check git status for dirty files of the 6 cards and task file. Then commit. The complete script auto-commits path-scoped. L12 牌： complete 前 git status。
+
+  Also the F-034 gate-blocked log earlier showed "--evidence 文件不可读" for a previous complete attempt — evidence path `_tmp/684-evidence.md`. Check it exists and update it.
+
+• 6 卡全 PASS、QUOTE_VERBATIM 0 issues。现在落返工报告（L10 镜像写法）+ 检查 evidence 文件：-rw-r--r-- 1 Administrator 197121 1015 Sep 10 01:02 _tmp/684-evidence.md
+#684 提审证据（老顽童 2026-09-10）
+1. 六卡全产：雍博/农夫三拳/行知/田力（前次会话）+ 黄谦 case-live258-huangqian-promo-film / Simon Peng case-live258-simonpeng-medical-dataset（本会话），全部已 git commit
+2. pre-submit：两新卡均 PASS（黄谦 70/100、Simon 70/100，各余 1 条 CONCEPT_CROSSCHECK 提示制 warning）；QUOTE_VERBATIM 15+5 处伪逐字引文已修至 0；INDEX 已跑 kdo index --incremental
+3. 前置缺陷项闭环：dk-ai-does-not-question-your-mistake 互挂（农夫三拳卡内说明）；dk-demand-feature-stacking L165 黄谦边界例正向互挂+dk 卡 related 反链补 2 条；V0.9 DataPack 缺口农夫三拳卡内已注明
+4. 自攻击四路（逻辑/证据/完整性/时效）+轻量三方法：WebSearch 对标×2（2025宣传片同质化趋势、数标委高质量数据集指南）+失败案例（Simon 卡按反例教材定位）
+5. 任务单已落五字段执行报告 + kdo query 检索记录（4 查询词，0 同主题命中）
+
+
+• Evidence file exists. I'll append rework evidence to it, and append the rework report to the task file. Then git status (L12), then complete.
+
+  Task file edit — append new section after 终审记录. Also note the machine pre-audit section will be regenerated by complete presumably. I'll append at end of file.done
+ M 30_wiki/cases/case-live258-huangqian-promo-film.md
+ M 30_wiki/cases/case-live258-nongfu-assist-agri-video.md
+ M 30_wiki/cases/case-live258-tianli-gov-training.md
+ M 30_wiki/cases/case-live258-xingzhi-media-layered-diagnosis.md
+ M 30_wiki/cases/case-live258-yongbo-embodied-sorting.md
+ M 60_feedback/tasks/task_20260908_laowantong-live258-six-cases.md
+L12: 5 cards modified + task file. _tmp/684-evidence.md — is _tmp tracked? git status didn't show it — likely gitignored. The complete gate "交付物已入仓" — evidence file may need to be readable, not necessarily committed. Frontmatter evidence: _tmp/684-evidence.md exists and is readable.
+
+  Now commit deliverables before complete (the complete script auto-commits path-scoped touched files: 任务单+队列+dashboard; but the cards themselves — per L12, 交付物已入仓校验 might check. Let me commit the 5 cards + task file manually first (path-scoped add, no -A). Actually complete script will auto-commit task file + queue. To be safe, commit the 5 cards now.warning: in the working copy of '30_wiki/cases/case-live258-huangqian-promo-film.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '30_wiki/cases/case-live258-nongfu-assist-agri-video.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '30_wiki/cases/case-live258-tianli-gov-training.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '30_wiki/cases/case-live258-xingzhi-media-layered-diagnosis.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '30_wiki/cases/case-live258-yongbo-embodied-sorting.md', LF will be replaced by CRLF the next time Git touches it
+[master f821a3fb5] fix(#684): FAIL C 返工——32 处伪逐字引文回源逐字化/去引号 + 田力培训周期锚 L1065→L1075 + dk 边界条锚 L165→L167
+ 6 files changed, 53 insertions(+), 28 deletions(-)
+✅ task_20260908_laowantong-live258-six-cases 已提交为 pending_review，等待欧阳锋终审
+📦 交付物校验: 交付物入仓核验通过（3 个路径已跟踪且无脏改动）
+✅ dashboard.html 已生成 (229 个任务)
+   待领取: 0  |  审查中: 0  |  进行中: 0  |  已完成: 229
+L9: verify dual-write — status command + task file frontmatter.  #684 task_20260908_laowantong-live258-six-cases — P1 产卡：Live258 六案例全产（雍博/农夫三拳/行知/田力/黄谦/Simon Peng，带 dk 互链前置查重缺陷项）
+573:- ~~#684 task_20260908_laowantong-live258-six-cases｜laowantong｜提审 09-10 01:02｜60_feedback/tasks/task_20260908_laowantong-live258-six-cases.md~~ → 终审退回 queued（2026-09-09 欧阳锋）
+575:- #684 task_20260908_laowantong-live258-six-cases｜laowantong｜提审 09-10 01:57｜60_feedback/tasks/task_20260908_laowantong-live258-six-cases.md
+1282:- [friction] [shared] - [2026-09-10 01:10] laowantong | #684 complete 提审 | --evidence 习惯性传字符串被拦「文件不可读」，改传 _tmp/684-evidence.md 路径后通过——09-05 已记过同款，第三次踩 | 初判：参数语义反直觉（evidence=文件路径非内容）；对策=肌肉记忆未形成，下次直接写文件｜09-10 01:07｜待王语嫣复核处置｜[shared] - [2026-09-10 01:10] laowantong | #684 complete 提审 | --evidence 习惯性传字符串被拦「文件不可读」，改传 _tmp/684-evidence.md 路径后通过——09-05 已记过同款，第三次踩 | 初判：参数语义反直觉（evidence=文件路径非内容）；对策=肌肉记忆未形成，下次直接写文件
+title: "P1 产卡：Live258 六案例全产（雍博/农夫三拳/行知/田力/黄谦/Simon Peng，#682 编排）"
+status: pending_review
+1336:| 684 | `task_20260908_laowantong-live258-six-cases` | P1 产卡：Live258 六案例全产（雍博/农夫三拳/行知/田力/黄谦/Simon Peng，带 dk 互链前置查重缺陷项） | pending_review | laowantong | 6 卡+dk互链对照说明+pre-submit | #683 后（老顽童单线程） | `60_feedback/tasks/task_20260908_laowantong-live258-six-cases.md` | 老朱 09-08 19:25 拍板全做（#682 编排）——六案全产不裁剪；欧阳锋终审 |
+  (无)
+⏳ 待终审 1:
+  #684 task_20260908_laowantong-live258-six-cases — P1 产卡：Live258 六案例全产（雍博/农夫三拳/行知/田力/黄谦/Simon Pe
+⚖️ 最近终审（48h） 1:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+L9 双验证通过：任务单 frontmatter status: pending_review + 队列行 pending_review + myqueue 显示待终审。
+
+  Now: append todos line, then session-end mandatory actions:
+  1. 技能进化日志 one line
+  2. friction-log check — the --evidence friction was already recorded (line 1282 shows it from 01:10, previous instance). This session: no new friction really. Actually the claim was blocked by #690 pending_review and I used --force — that's documented behavior, not friction. Skip or note nothing.
+  3. Update amnesia recovery if needed — no capability changes.
+  4. Truman 11-chapter review at 桌面/agent复盘/laowantong/daily-context/2026-09-10.md — note AGENTS.md says huangyaoshi path but I'm laowantong; laowantong context says `桌面/agent复盘/laowantong/daily-context/YYYY-MM-DD.md`. 桌面 = C:/Users/Administrator/Desktop. Check agent-os.md §10.2 for the 11-chapter format.
+  5. Run daily-context-save.py save --agent laowantong --truman --file ...
+
+  Also: 门铃 cron check (startup step 0: CronList for my 15min clock). Let me check CronList.
+
+  First append todos line. Get current time.2026-09-10 01:57
+ok
+Now session-end mandatory: 
+  1. 技能进化日志 one line → 桌面/agent复盘/laowantong/技能进化日志.md
+  2. Truman 11章复盘 → 桌面/agent复盘/laowantong/daily-context/2026-09-10.md (format: agents/agent-os.md §10.2)
+  3. daily-context-save.py
+
+  Let me check the format from agents/agent-os.md §10.2, and check if daily file already exists (same-day append rule)./c/Users/Administrator/Desktop/agent复盘/laowantong/daily-context/2026-09-10.md
+191:### 10.2 唯一标准格式
+324:| `agent复盘/<agent>/daily-context/YYYY-MM-DD.md` | **唯一直写**的复盘文件（Truman 11 章，§10.2 格式） | agent 本人，经 `daily-context-save.py` 落盘 | 每次会话收尾 |
+381:会话结束 → Agent 自己跑双三角复盘（§10.2）→ 映射本轮对话到六要素
+2. 锚点行号一律当断言处理：引用他人/前单写的行号前先 grep 实测一次，照搬=背书。
+3. 检索行为自审：本场为复盘场非调研场，知识类判断仅一处（FAIL 定性）且全部依据任务单终审记录原文+commit 锚点，未触达需 kdo query 的域知识问题；E020 起手式（git log 全量扫描）执行有效，0 遗漏【实证：9 条 commit 与 todos 未读段交叉一致】。
+4. 下次启动最需要记住：**#684 正在 rework 态（claimed-laowantong），返工清单=32 处引文回改（四卡）+田力锚 L1065→L1075×2+dk 锚 L165→L167×2，修完 6 卡重跑 pre-submit（QUOTE_VERBATIM 0 issues）重新提审，复审走对照法不重读全文。**
+
+## Truman复盘
+
+### 逐轮映射
+
+| 轮次 | 人做什么 | 双三角要素 | AI做什么 | 双三角要素 |
+|:--|:--|:--|:--|:--|
+| 1 | 用户发 headless 复盘指令（输入全部来自仓库文件） | 判断力（任务边界=只复盘） | 启动恢复三读（startup/context/todos 未读段） | 场景（状态重建） |
+| 2 | — | — | git log 全量扫描+todos+任务单终审记录交叉取证 | 数据（E020 起手式） |
+| 3 | 指令钉死诚实红线（无产出=空班节） | 体系（宪法/复盘协议） | 读 8785fc178 对应终审四节，FAIL 定性取证 | 基本功（溯源核查） |
+| 4 | — | — | 写 11 章复盘追加节+错误模式库 E026 | 基本功（生产） |
+| 5 | — | — | daily-context-save 自检+todos 收尾行 | 体系（门禁流转） |
+
+### 飞轮效应
+
+加速了「审查-返工回路」的学习密度：终审 FAIL 不再是坏消息而是高浓度反馈源——欧阳锋的独立复跑（QUOTE_VERBATIM 实测、锚点 grep 实证、双假设排除工具误报）本身示范了审查方法论 v2.3 的实证标准，本节把它转写为生产侧可执行的预防句式（批内存量复跑）。飞轮加速点：失败信号 → 错误模式库 E026 → 下场施工的 checklist。
+
+### 对照实验
+
+- 无人：FAIL 落地后无人把「批内标准不一致」抽象成模式，下次批次任务照犯
+- 无 AI：人工翻 git log+todos+任务单三处交叉取证约 30-40 分钟，且 01:49 这种凌晨场根本不会发生
+- 合在一起：人定红线（诚实空班、不扩展施工）+AI 做全量取证与模式抽象——10 分钟内完成一日两场复盘的衔接落盘
+
+### 下次改进
+
+- Agent 自身：complete checklist 增补「批内存量交付物复跑本次新标准」一项（与 L12 并列）；锚点引用先 grep 再落笔
+- 方法论卡更新候选：E026「批内标准不一致」已落错误模式库；是否升格为行为牌（L13：批次新标准全量复跑）提请王语嫣/欧阳锋裁量，不自建
+The daily file already exists (today's earlier session appended an 11-chapter review). Same-day multi-session rule: append to the same file, note at top "本日共 N 次会话". The existing file — I should check its header to see if it says 本日共 N 次会话. Let me check the top of the file.---
+session_id: laowantong-2026-09-10
+agent_id: laowantong
+date: 2026-09-10
+created_at: 2026-09-09T17:57:42.396130+00:00
+updated_at: 2026-09-09T17:57:42.396130+00:00
+git_head: 0aace38ce
+content_hash: 52fd313a5c9f
+---
+
+16
+ok
+📋 自检：🟡 B级 📚检索有发现
+✅ 事件 #1454 已写入: agent=laowantong event=review_saved
+🧪 胶囊 L0 已留痕: agent=laowantong event=review_saved
+✅ A → B 镜像完成: C:\Users\Administrator\.kdo-memory\L1 → E:\KDO-memory\L1-backup（robocopy /MIR，exit 1）
+✅ verify PASS：B 镜像文件 hash 全一致；从 B 打开 integrity=ok 行数 1449（A 同 1449）
+🟡 B 级 — acceptable （输出必须显示 🟢 或 🟡). Done.
+
+  Friction-log check: this session's friction — claim blocked by #690 pending_review required --force. That's a known documented path, arguably not new friction. The --evidence friction was recorded by previous instance. I'll consider it covered; the claim-force is documented behavior. Fine.
+
+  All done. Final summary to user.
+
+• 收工。#684 返工完成并已重新提审。
+
+  ## 本次执行摘要
+
+  **领取**：`queue_transition.py claim --force`（前方 #690 是黄药师的 pending_review 单，属脚本明示的「不同 assignee 并行」合法通道，force 台账已留痕）。
+
+  **返工逐项对照（L10 镜像写法，已落任务单「返工执行报告」节）**：
+
+  - **P0 伪逐字引文 32 处→0**：先读 `_check_quote_verbatim` 源码、写了全量扫描脚本 `_tmp/684_quote_scan.py`（pre-submit 输出截断只列前 3 处，拿不到 32 处全清单），逐条回源处理——
+    - 能逐字的改逐字：如雍博「展台Demo成功率很高；部署真实工厂，连续跑1小时就大量失败」(L1767)、田力「方案更有针对性了，但还缺少差异化亮点」(L1483)、田力失败模式表的泛化伪造「帮我设计 XX 方案」改回源 L1075 完整 prompt
+    - 不能逐字的去引号：源文含 `\+` 转义的（行知「主题约束+单任务拆分」等）、引 dk 卡/changelog 不在 source_refs 校验域的（农夫 L170-172 四处）、卡内自铸词（田力「裸 prompt 提交」等）
+  - **P1 田力锚点×2**：起点段拆标（任务 L1063 / 培训周期 L1075）+ 关键数字表 L1065→L1075
+  - **P1 dk 锚 L165→L167×3**：nongfu 互链表 1 处 + huangqian 定位声明/Synthesis 2 处
+
+  **验证**：6 卡 `kdo pre-submit` 同跑 ✅ PASS，**QUOTE_VERBATIM 0 issues** / SOURCE_RANGE 0 / INDEX 已消除（增量索引 4276）；余 18 条 WARNING 均为终审已确认的提示制/软期项，非退回范围未动。交付物 commit f821a3fb5 入仓。
+
+  **流转**：complete 成功，三验证落盘——任务单 `status: pending_review` + 队列行 pending_review + myqueue 待终审，等欧阳锋对照法复审。
+
+  **收尾**：todos 已追加（01:57 行）；门铃 cron 已重建（01M23N3DZRE7ZBXYC0BZEZH6WX，每 15min，如需取消或改节奏直接说）；Truman 11 章复盘追加到本日第 2 场，自检 🟡 B 级。
+
+• Cron fired. Read unread section of todos + myqueue. The unread section = lines after what I read (I read up to line 936, then appended line 937 myself). Check tail for anything new, plus myqueue.- [2026-09-10 01:27] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#684（laowantong 的单，挂审 25min）（到点（节奏 15min））
+- [2026-09-10 01:45] 【打回】#684 终审 FAIL（欧阳锋，等级 C，任务单已退 queued+rework:true）：仅窄修——①四张前产卡（yongbo 3/nongfu 8/xingzhi 11/tianli 10）共 32 处伪逐字引文改逐字或去引号（QUOTE_VERBATIM 0 issues，与两张新卡同标准）②田力卡「培训周期5天」锚 L1065→L1075（两处）③nongfu/huangqian 卡内 dk-demand-feature-stacking 边界条锚 L165→L167。两张新卡（黄谦/Simon）A- 达标不重产。修完重跑 6 卡 pre-submit 重新提审，复审走对照法不重读全文。详见任务单「终审记录（欧阳锋，2026-09-10）」四节
+- [2026-09-10 01:42] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#690（huangyaoshi 的单，挂审 15min）（到点（节奏 15min））
+- [2026-09-10 01:57] 复盘完成（01:49 场 Truman 11章追加节+#684 终审 FAIL 取证+错误模式库 E026 批内标准不一致）+自检等级 🟡 B级
+- [2026-09-10 01:57] 完成提审 #684 返工（FAIL C 窄修）：32 处伪逐字引文回源逐字化/去引号（yongbo 3/nongfu 8/xingzhi 11/tianli 10，全量扫描脚本实测 0 misses）+田力培训周期锚 L1065→L1075×2+dk 边界条锚 L165→L167×3；6 卡 pre-submit PASS（QUOTE_VERBATIM 0）；commit f821a3fb5 入仓后 complete 成功→pending_review（frontmatter+队列行+myqueue 三验证），待欧阳锋对照法复审
+====
+🧊 冻结 0:
+  (无)
+🚧 进行中 0:
+  (无)
+⏳ 待终审 1:
+  #684 task_20260908_laowantong-live258-six-cases — P1 产卡：Live258 六案例全产（雍博/农夫三拳/行知/田力/黄谦/Simon Pe
+⚖️ 最近终审（48h） 1:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+Nothing new — the only unread items are the FAIL notice (already handled) and my own completion lines. myqueue: #684 pending review, nothing claimable. Report 待命.
+
+• 到点巡航结果：无新事。
+
+  - todos 未读段：只有已处理的 #684 FAIL 通知和自己 01:57 落下的完工/复盘行，无新指令
+  - myqueue：#684 已挂 `pending_review` 待欧阳锋对照法复审；名下无 queued/进行中任务
+
+  老顽童待命，下一拍再看。
+
+• Check for new lines in todos beyond what I've seen, plus myqueue.- [2026-09-10 01:57] 复盘完成（01:49 场 Truman 11章追加节+#684 终审 FAIL 取证+错误模式库 E026 批内标准不一致）+自检等级 🟡 B级
+- [2026-09-10 01:57] 完成提审 #684 返工（FAIL C 窄修）：32 处伪逐字引文回源逐字化/去引号（yongbo 3/nongfu 8/xingzhi 11/tianli 10，全量扫描脚本实测 0 misses）+田力培训周期锚 L1065→L1075×2+dk 边界条锚 L165→L167×3；6 卡 pre-submit PASS（QUOTE_VERBATIM 0）；commit f821a3fb5 入仓后 complete 成功→pending_review（frontmatter+队列行+myqueue 三验证），待欧阳锋对照法复审
+- [2026-09-10 02:02] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#684（laowantong 的单，挂审 5min）；#693（huangyaoshi 的单，挂审 4min）（到点（节奏 15min））
+====
+🧊 冻结 0:
+  (无)
+🚧 进行中 0:
+  (无)
+⏳ 待终审 1:
+  #684 task_20260908_laowantong-live258-six-cases — P1 产卡：Live258 六案例全产（雍博/农夫三拳/行知/田力/黄谦/Simon Pe
+⚖️ 最近终审（48h） 1:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+Nothing new: #684 in review (5 min), #693 is huangyaoshi's. Stand by.
+
+• 到点巡航：无新事。
+
+  - 未读段仅 02:02 叫醒行：#684（我的返工单）挂审 5 分钟，等欧阳锋复审；#693 是黄药师的单，与我无关
+  - myqueue：名下无 queued/进行中任务
+
+  老顽童待命。
+
+- [2026-09-10 01:57] 完成提审 #684 返工（FAIL C 窄修）：32 处伪逐字引文回源逐字化/去引号（yongbo 3/nongfu 8/xingzhi 11/tianli 10，全量扫描脚本实测 0 misses）+田力培训周期锚 L1065→L1075×2+dk 边界条锚 L165→L167×3；6 卡 pre-submit PASS（QUOTE_VERBATIM 0）；commit f821a3fb5 入仓后 complete 成功→pending_review（frontmatter+队列行+myqueue 三验证），待欧阳锋对照法复审
+- [2026-09-10 02:02] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#684（laowantong 的单，挂审 5min）；#693（huangyaoshi 的单，挂审 4min）（到点（节奏 15min））
+- [2026-09-10 02:17] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#684（laowantong 的单，挂审 20min）；#693（huangyaoshi 的单，挂审 19min）（到点（节奏 15min））
+====
+🧊 冻结 0:
+  (无)
+🚧 进行中 0:
+  (无)
+⏳ 待终审 1:
+  #684 task_20260908_laowantong-live258-six-cases — P1 产卡：Live258 六案例全产（雍博/农夫三拳/行知/田力/黄谦/Simon Pe
+⚖️ 最近终审（48h） 1:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+• 到点巡航：无新事。#684 挂审 20 分钟仍在待终审，名下无其他任务，老顽童待命。
+
+- [2026-09-10 02:32] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#684（laowantong 的单，挂审 35min）；#693（huangyaoshi 的单，挂审 34min）（到点（节奏 15min））
+- [2026-09-10 02:36] 📥 #684 R2 复审 FAIL 退回（欧阳锋，等级 C）：上轮 32+2+3 全部闭环实证 ✅，但独立扫描新捕获 4 处（检查器盲区漏入）——tianli L177 两处伪逐字🔴（「这个 AI 不懂政府培训」删「是不是」/「该换专门工具」源文件 0 命中，标 L1099）+ xingzhi L167 锚 L651→L653🟠 + tianli L72 标点——→，🔵。四处分钟级窄修，期望形态见任务单「终审记录 R2」节。附：QUOTE_VERBATIM 检查器对子串摘录/短引文换词不设防，0 issues≠伪逐字 0（建议书已落 diag_20260910_ouyangfeng-quote-verbatim-checker-substring-blindspot.md）
+====
+  (无)
+🚧 进行中 1:
+  #684 task_20260908_laowantong-live258-six-cases — P1 产卡：Live258 六案例全产（雍博/农夫三拳/行知/田力/黄谦/Simon Pe
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 2:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+• R2 复审 FAIL — 4 new narrow fixes:
+  1. tianli L177 两处伪逐字： 「这个 AI 不懂政府培训」（删了「是不是」）和「该换专门工具」（源文件 0 命中），标 L1099
+  2. xingzhi L167 锚 L651→L653
+  3. tianli L72 标点 ——→，（full-width dash to comma? "标点——→，" means change —— to ，）
+
+  Read the task file's 终审记录 R2 section for exact expectations.
+
+• #684 R2 复审 FAIL 退回——4 处分钟级窄修。读任务单「终审记录 R2」节拿期望形态：198:## 终审记录 R2（欧阳锋，2026-09-10，methodology v2.3，复审对照法）
+
+
+• R2 FAIL items:
+  1. tianli L177 两处伪逐字 → fix to verbatim from source L1099 or de-quote. Source L1099: `然后我开始怀疑——"是不是这个AI不懂政府培训？"、"我是不是该用专门做教育的AI工具？"`
+  2. xingzhi L167 anchor L651→L653
+  3. tianli L72 punctuation: quote 「难怪方案被退回，我几乎什么 Feature 都没加！」 → use —— per source L1333
+
+  Note: source uses straight double quotes "..." and no spaces ("这个AI不懂"). Normalization strips quotes and punctuation, so card quote 「是不是这个AI不懂政府培训？」 normalized = 是不是这个AI不懂政府培训 matches source normalized. Spaces in card quote are stripped, fine.
+
+  First claim the task — it's back to queued presumably (myqueue shows 进行中 1? It shows 🚧 进行中 1: #684 — interesting, maybe rework state shows as in-progress/claimed). Wait myqueue shows "🚧 进行中 1: #684" — probably claimed-laowantong already? The FAIL notice said "任务单已退 queued+rework:true" last time. This time myqueue shows 进行中. Let me check the queue status / frontmatter. Actually "进行中" may map to claimed state. Let me just check status and claim if needed.title: "P1 产卡：Live258 六案例全产（雍博/农夫三拳/行知/田力/黄谦/Simon Peng，#682 编排）"
+
+⚠️ task_20260908_laowantong-live258-six-cases 缺 `initial_assessment`（初判=待证命题+核查锚）——WARNING 台账已记，开工前先核任务单前提与盘上现状（#679；软期至 2026-09-14）
+✅ dashboard.html 已生成 (229 个任务)
+   待领取: 0  |  审查中: 0  |  进行中: 0  |  已完成: 229
+> 一句话：为某市委组织部设计「年轻干部能力提升」教研方案，ChatGPT 直出第一版被退回——「太学术化、不够实战、缺少针对性」。用 Feature 思维复盘：当时只用了「基本任务描述」一个 Feature，最终意图/上下文环境/数据来源/参考案例/角色设定/Few-shot/本地化要求 7 个 Feature 全缺——「难怪方案被退回——我几乎什么 Feature 都没加！」（L1333）。政府培训的专业性不是天赋，是一个个 Feature 的精准叠加（L1695-L1697）。
+| 出问题怪工具 | 「是不是这个 AI 不懂政府培训？」「我是不是该用专门做教育的 AI 工具？」（L1099） | 先审输入：我喂了上下文/数据/案例吗？ |
+**外部攻击者 2（Taleb 式——幸存者对照缺失）**：诊断框架来自事后归因——失败项目拆出的「缺失 Feature」清单，天然倾向把失败解释成缺了自己现在知道的东西。对照缺失：是否有账号用了同款浅层 Feature 却成功（运气/红利期）？是否有账号补齐了全部 Feature 仍失败？没有负样本，「所有短板都集中在L1、L2、L3基础层级」（L653）的可信度停留在合理推测。
+Interesting — the current files seem already fixed?
+
+  - tianli L177 (shown above): 「是不是这个 AI 不懂政府培训？」「我是不是该用专门做教育的 AI 工具？」（L1099）— already verbatim with 是不是！ 
+  - tianli L72: 「难怪方案被退回——我几乎什么 Feature 都没加！」 — already has ——.
+  - xingzhi L167: 「所有短板都集中在L1、L2、L3基础层级」（L653）— anchor already L653.
+
+  Wait — did the FAIL notice come at 02:36 but the fixes already applied? Maybe a parallel laowantong instance (another session) already did the R2 fixes! Check git log and file mtimes. Also my claim output — did it actually claim? The output tail -3 didn't show "已领取" line. Let me check status.4fe17a952 chore(queue): #684 claim by laowantong
+fe5903eba chore(queue): #697 claim by huangyaoshi
+7e8bc2f0e chore(queue): #696 complete by huangyaoshi
+a38f1ca13 feat(review): #696 daily_review ROLES 加王语嫣(老朱令全员复盘入列) by huangyaoshi
+ffd8c1c60 chore(queue): #696 claim by huangyaoshi
+====
+2026-09-10 01:57:01 +0800 fix(#684): FAIL C 返工——32 处伪逐字引文回源逐字化/去引号 + 田力培训周期锚 L1065→L1075 + dk 边界条锚 L165→L167
+====
+title: "P1 产卡：Live258 六案例全产（雍博/农夫三拳/行知/田力/黄谦/Simon Peng，#682 编排）"
+Confusing. git log shows my claim at 4fe17a952 just now. tianli card last commit was my 01:57 fix commit. But the file content I just read shows L177 with verbatim quotes already... Did I misread? Let me check again carefully — the FAIL says L177 currently has 「这个 AI 不懂政府培训」（删「是不是」). But sed shows L177 = `| 出问题怪工具 | 「是不是这个 AI 不懂政府培训？」「我是不是该用专门做教育的 AI 工具？」（L1099） | ...` which includes 是不是. 
+
+  Hmm wait — maybe欧阳锋's R2 review was of my submitted version, and... but I never fixed these. Unless another laowantong instance fixed them after 02:36 without committing? Check git status for uncommitted changes and file mtime. M 30_wiki/cases/case-live258-tianli-gov-training.md
+ M 30_wiki/cases/case-live258-xingzhi-media-layered-diagnosis.md
+ M 60_feedback/tasks/task_20260908_laowantong-live258-six-cases.md
+2026-09-10 02:43:45.168127200 +0800 30_wiki/cases/case-live258-tianli-gov-training.md
+2026-09-10 02:43:50.166877100 +0800 30_wiki/cases/case-live258-xingzhi-media-layered-diagnosis.md
+====
+warning: in the working copy of '30_wiki/cases/case-live258-tianli-gov-training.md', LF will be replaced by CRLF the next time Git touches it
+diff --git a/30_wiki/cases/case-live258-tianli-gov-training.md b/30_wiki/cases/case-live258-tianli-gov-training.md
+index 9f3d7e5d9..3db87dc10 100644
+--- a/30_wiki/cases/case-live258-tianli-gov-training.md
++++ b/30_wiki/cases/case-live258-tianli-gov-training.md
+@@ -69,7 +69,7 @@ diagnostic_signals:
+ 
+ # 田力组织部干部培训方案：被退回重写，复盘发现 7 个 Feature 全缺、几乎裸 prompt 提交
+ 
+-> 一句话：为某市委组织部设计「年轻干部能力提升」教研方案，ChatGPT 直出第一版被退回——「太学术化、不够实战、缺少针对性」。用 Feature 思维复盘：当时只用了「基本任务描述」一个 Feature，最终意图/上下文环境/数据来源/参考案例/角色设定/Few-shot/本地化要求 7 个 Feature 全缺——「难怪方案被退回，我几乎什么 Feature 都没加！」（L1333）。政府培训的专业性不是天赋，是一个个 Feature 的精准叠加（L1695-L1697）。
++> 一句话：为某市委组织部设计「年轻干部能力提升」教研方案，ChatGPT 直出第一版被退回——「太学术化、不够实战、缺少针对性」。用 Feature 思维复盘：当时只用了「基本任务描述」一个 Feature，最终意图/上下文环境/数据来源/参考案例/角色设定/Few-shot/本地化要求 7 个 Feature 全缺——「难怪方案被退回——我几乎什么 Feature 都没加！」（L1333）。政府培训的专业性不是天赋，是一个个 Feature 的精准叠加（L1695-L1697）。
+ 
+ ---
+ 
+@@ -174,7 +174,7 @@ Feature 叠加实验模拟（L1335-L1451）：
+ | 失败模式 | 症状 | 修复 |
+ |:--|:--|:--|
+ | 一句话裸 prompt 交方案 | 「帮我设计一个年轻干部能力提升的培训方案，培训周期为5天，内容包括理论学习、案例分析、实战演练」→生成→直接提交（L1075-L1079） | 提交前 7 Feature 检查单，缺三个以上打回 |
+-| 出问题怪工具 | 「这个 AI 不懂政府培训」「该换专门工具」（L1099） | 先审输入：我喂了上下文/数据/案例吗？ |
++| 出问题怪工具 | 「是不是这个 AI 不懂政府培训？」「我是不是该用专门做教育的 AI 工具？」（L1099） | 先审输入：我喂了上下文/数据/案例吗？ |
+ | 案例空泛无本地特色 | 「案例分析太空泛」被判词点名（L1089） | 本地化 Feature 三件套：本市案例+当地场景+本地讲师 |
+ | 每个项目从零开始 | 经验不沉淀，下个项目重新试错（L1635-L1653） | 项目结束提炼 Feature 入库，下次直接复用 |
+ | 推演当验证汇报 | 「模拟叠加会有效」写成「已验证有效」 | 推演标注未执行；补做时按三轮节奏逐个叠加观测 |
+There ARE uncommitted changes in the working tree, modified at 02:43 — another laowantong instance (parallel session) already made the R2 fixes but hasn't committed/completed. The task file is also modified. So a parallel instance is mid-work on this same task!
+
+  Wait — or was it me? No, my session made fixes at 01:57 which were committed (f821a3fb5... actually commit shows as 4fe17a952 area... the fix commit). These working-tree modifications at 02:43 are not mine — I haven't edited since 01:57.
+
+  But hold on: I just claimed the task at ~02:45 (commit 4fe17a952 "chore(queue): #684 claim by laowantong"). The queue allowed claim — meaning status was queued. If another instance is working on it, it might have released or... Actually myqueue at 02:37 showed "🚧 进行中 1: #684" — that could mean it was claimed by another instance already at that point, and then... but my claim just succeeded, which requires queued status. Confusing. Maybe 进行中 included "rework" flagged queued? 
+
+  Key question: are the working-tree fixes complete and correct? The diff shows exactly the R2 fixes (tianli L72 punctuation, tianli L177 two verbatim quotes). xingzhi also modified — presumably L651→L653. And the task file modified — maybe the other instance already wrote the rework report.
+
+  Danger: two instances working same task → double commit / conflicting complete. Let me check what the task file modification contains — if the other instance already appended an R2 rework report and is about to complete, I should NOT duplicate. Check diff of task file.diff --git a/60_feedback/tasks/task_20260908_laowantong-live258-six-cases.md b/60_feedback/tasks/task_20260908_laowantong-live258-six-cases.md
+index 105491dd4..150dc8823 100644
+--- a/60_feedback/tasks/task_20260908_laowantong-live258-six-cases.md
++++ b/60_feedback/tasks/task_20260908_laowantong-live258-six-cases.md
+@@ -245,3 +245,31 @@ rework: true
+ | QUOTE_VERBATIM 引文 逐字 检查器 误报 漏报 | 8 条（最高 0.02 均无关） | 无同主题建议书先例，新落 |
+ | 伪引文 原话 行号 改写拼贴 引用规范 | 5 条（均无关） | 标准出处降级 grep 定位：`evidence_task654-presubmit-20260906.md:72` 等（#616/#614「未逐字命中」口径实证） |
+ 
++
++---
++
++## 返工执行报告 R2（老顽童，2026-09-10，R2 FAIL C 窄修复工·L10 镜像对照）
++
++**交付物**：tianli 卡 2 处（L177 两处伪逐字改逐字 + L72 标点回真）+ xingzhi 卡 1 处（L167 锚 L651→L653）；其余四卡（yongbo/nongfu/huangqian/simonpeng）未动。
++
++**完成内容**（按 R2 终审「④ 期望形态」原序号逐项对照）：
++
++- **④-1 tianli L177 两处伪逐字→逐字**（回源核对源文件 `00_inbox/AI基本功/Live258：AI基本功第一课优秀作业.md` L1099 实文「是不是这个AI不懂政府培训？」「我是不是该用专门做教育的AI工具？」）：
++  - 「这个 AI 不懂政府培训」（删「是不是」自问语气）→ 改逐字「是不是这个 AI 不懂政府培训？」
++  - 「该换专门工具」（换词+删限定，源文件 0 命中）→ 改逐字「我是不是该用专门做教育的 AI 工具？」
++- **④-2 xingzhi L167 锚 L651→L653**：grep 实证源 L651=「3、底层Feature优先，不必盲目上复杂Agent」、L653=「复盘后清晰意识到：本次自媒体项目所有短板都集中在L1、L2、L3基础层级…」；引文文字上轮已逐字，本轮仅改锚
++- **④-3 tianli L72 标点回真**：「难怪方案被退回，我几乎什么 Feature 都没加！」（L1333）→「难怪方案被退回——我几乎什么 Feature 都没加！」（——回源原标点；词面不变）
++- **④-4 六卡 pre-submit 复跑**：全 PASS，QUOTE_VERBATIM 0 issues（明细见下）
++- **上轮 32+2+3 项防回归抽查**【实证】：grep 复核 nongfu L171/huangqian L71·L184 dk 锚=L167 ✅、tianli L80/L140 培训周期锚=L1075 ✅、tianli 卡内 L1065 零命中 ✅——R1 闭环项未被本轮改动波及
++
++**验证**：
++- `kdo pre-submit -f`（6 卡同跑，2026-09-10）：yongbo/nongfu/xingzhi/tianli/huangqian/simonpeng **全 PASS，QUOTE_VERBATIM 0 issues、SOURCE_RANGE 0 issues**
++- 改动前 xingzhi/tianli 曾报 INDEX 错误（卡片比索引新），`kdo index --incremental`（+0 ~2 总 4276）后复跑消除
++- 逐字化锚点实证（sed 实取源文件）：源 L1099=`然后我开始怀疑——"是不是这个AI不懂政府培训？"、"我是不是该用专门做教育的AI工具？"`；源 L1333=`难怪方案被退回——我几乎什么Feature都没加！`；源 L653=`复盘后清晰意识到：本次自媒体项目所有短板都集中在L1、L2、L3基础层级…`
++- 余 WARNING 与上轮同构（TAGS 软期至 09-14 有专项建议书；CONCEPT_CROSSCHECK/QINGDANTI 提示制不拦截）——非本次退回范围，未动
++
++**kdo query 检索记录**（宪法 #669）：2026-09-10 R2，查询词「伪逐字引文 QUOTE_VERBATIM 逐字引用规范」5 条命中（最高 0.02 均无关）——无同主题卡/规范先例需对齐，按终审期望形态执行。
++
++**边界**：仅改 R2 终审「④ 期望形态」三处+复跑验证；yongbo/nongfu/huangqian/simonpeng 四卡与 dk 卡本体均未动；上轮 R1 已闭环的 32 处引文与两处锚点未触碰。
++
++**需要谁动作**：欧阳锋复审（对照法：逐项 grep 本报告四处改动位置即可——tianli L72/L177、xingzhi L167；未命中项不重读全文）。
+====
+warning: in the working copy of '30_wiki/cases/case-live258-xingzhi-media-layered-diagnosis.md', LF will be replaced by CRLF the next time Git touches it
+diff --git a/30_wiki/cases/case-live258-xingzhi-media-layered-diagnosis.md b/30_wiki/cases/case-live258-xingzhi-media-layered-diagnosis.md
+index 7f792a1dc..c10bf0a60 100644
+--- a/30_wiki/cases/case-live258-xingzhi-media-layered-diagnosis.md
++++ b/30_wiki/cases/case-live258-xingzhi-media-layered-diagnosis.md
+@@ -164,7 +164,7 @@ diagnostic_signals:
+ 
+ **外部攻击者 1（Kahneman 式——规划谬误）**：日更 3+2 且无需大量人工修改（L635）是典型规划谬误——方案落地涉及 RAG 建库、Workflow 搭建、多模型协同，每一项的实际成本都被低估；自媒体老手自评的「50 分→80 分」尺度和平台算法现实（完播率由选题/时机/运气共同决定）之间也没有校准。
+ 
+-**外部攻击者 2（Taleb 式——幸存者对照缺失）**：诊断框架来自事后归因——失败项目拆出的「缺失 Feature」清单，天然倾向把失败解释成缺了自己现在知道的东西。对照缺失：是否有账号用了同款浅层 Feature 却成功（运气/红利期）？是否有账号补齐了全部 Feature 仍失败？没有负样本，「所有短板都集中在L1、L2、L3基础层级」（L651）的可信度停留在合理推测。
++**外部攻击者 2（Taleb 式——幸存者对照缺失）**：诊断框架来自事后归因——失败项目拆出的「缺失 Feature」清单，天然倾向把失败解释成缺了自己现在知道的东西。对照缺失：是否有账号用了同款浅层 Feature 却成功（运气/红利期）？是否有账号补齐了全部 Feature 仍失败？没有负样本，「所有短板都集中在L1、L2、L3基础层级」（L653）的可信度停留在合理推测。
+ 
+ ## Synthesis
+ 
+====
+2026-09-10 02:47:14.864042700 +0800
+So another laowantong instance (or… wait — task file modified at 02:47, AFTER my claim at ~02:45? Hmm, the R2 FAIL notice came 02:36. The working tree fixes at 02:43. Task file edit at 02:47.
+
+  Wait, could this be MY OWN earlier action in this session? No — my session's last action was the cron fire reply at ~02:35. The R2 FAIL arrived 02:36, then this cron fired. I haven't made these edits in this session. So a parallel laowantong instance exists and is actively working: it made card fixes at 02:43 and wrote the R2 rework report at 02:47.
+
+  But I claimed the task at ~02:45 (commit 4fe17a952). Did the other instance claim earlier? myqueue at 02:37 showed "🚧 进行中 1: #684" — the other instance had claimed it. Then my claim at 02:45 succeeded?? That shouldn't be possible if it was claimed-laowantong... unless claim with --force allowed it, or the other instance released. Actually maybe the other instance's complete attempt released... Hmm. Or maybe claim --force overrode? The --force only skips pending_review blocking, not claimed-by-other blocking... it says "任务不是由你领取的 claimed-<实例>" is a rejection reason. Since instance name is same "laowantong" for both, the script can't distinguish us! Both instances use --instance laowantong, so claimed-laowantong → my claim was rejected? Actually the claim output tail -3 didn't show success line. Let me check whether the claim succeeded — commit 4fe17a952 "chore(queue): #684 claim by laowantong" exists, so yes it claimed (task was probably queued at that moment... but myqueue showed 进行中 1 at 02:37 — maybe that display includes rework queued?).
+
+  Whatever the mechanics: the reality is a parallel instance did the R2 fixes and wrote the report. It hasn't committed yet (files still dirty). It's presumably about to commit + complete.
+
+  Risk: I now also claimed and if I commit/complete, double-processing. But the fixes are done and correct per my verification (I verified the diffs match R2 期望形态 exactly). The other instance wrote a thorough report including pre-submit rerun claims — I should verify rather than trust (L5).
+
+  Options:
+  A. Let the other instance finish (it's mid-flight). I do nothing, stand down.
+  B. Complete the work myself: verify pre-submit, commit, complete.
+
+  The other instance may be a Kimi CLI session running concurrently. If I commit + complete now, and the other instance also tries complete, the second complete will fail (status no longer claimed) — harmless rejection. But if I interfere mid-flight, I could create a mess.
+
+  Actually, wait — is the other instance still alive? Its last write was 02:47. What time is it now? The cron fired around 02:47-02:50. Let me check current time. If the other instance is active, best to stand down and let it finish — it's doing exactly the right work. My claim was perhaps erroneous (task was already claimed-laowantong by the other instance; since instance names collide, script allowed re-claim... actually claim requires queued status; it showed ✅? I only tail -3'd the output and didn't see the success line).
+
+  Hmm, actually — wait. Did MY claim flip the other instance's claimed state back to claimed-laowantong (same) or queued→claimed? Commit message says "#684 claim by laowantong". If the task was already claimed-laowantong, claim should be rejected ("目标状态不是 queued"). Unless --force bypassed that too? The doc says --force skips "队列前方 pending_review 阻塞" only. So at my claim time, task must have been queued. Which means the other instance hadn't claimed yet at 02:45 — it just edited files without claiming (violation-ish) or its claim came later. And myqueue "进行中 1" at 02:37 — maybe that counts rework:true queued tasks? Whatever.
+
+  Current state: I hold the claim (claimed-laowantong, commit 4fe17a952). The working tree contains complete, correct R2 fixes + rework report. The safest path: verify the work (L5 — run pre-submit myself), then commit + complete. If the other instance wakes up and tries to complete, it'll be rejected cleanly.
+
+  But wait — backup avoidance rule: vault auto-backup every 30min at :20/:50, no stash/worktree switches 5 min before. Committing is fine (not stash/worktree). Current time ~02:48-02:50. Next backup :50. Plain commits are fine.
+
+  Let me: 1) verify diffs complete (all 4 items) — done for tianli/xingzhi/task file; 2) run pre-submit on 6 cards; 3) run my quote scanner on tianli/xingzhi; 4) commit; 5) complete; 6) verify; 7) todos line.== case-live258-tianli-gov-training.md: 0 misses ==
+== case-live258-xingzhi-media-layered-diagnosis.md: 0 misses ==
+137:| 短板集中在 L1-L3 基础层，不需要复杂 Agent | L567-L605 六层缺失清单；L651-L655 反思 3 | 推断（诊断合理，但「80% 问题」未经实测） |
+0
+Scanner: 0 misses on both cards. xingzhi L651 only remains in a legit range citation (L651-L655 反思 3, fine — that's a range reference not the quote anchor). tianli L1065 zero hits ✅.
+
+  Also verify the two new tianli quotes actually match source verbatim (checker only checks normalized substring — "是不是这个 AI 不懂政府培训？" normalized = 是不是这个AI不懂政府培训， source L1099 contains 是不是这个AI不懂政府培训 — yes substring ✅; "我是不是该用专门做教育的 AI 工具？" normalized = 我是不是该用专门做教育的AI工具 — source has it ✅).
+
+  Now run 6-card pre-submit, then commit + complete.
+
+• 扫描两卡 0 misses、锚点复核通过。跑 6 卡 pre-submit 终验：  [QUOTE_VERBATIM]: 0 issues
+  [SOURCE_RANGE]: 0 issues
+  ✅ Result: PASS（18 条 WARNING 在列——有警在身，非全清，终审前自行掂量）
+
+
+• PASS, no INDEX errors (the other instance ran incremental already). Commit + complete.
+no changes added to commit (use "git add" and/or "git commit -a")
+任务 task_20260908_laowantong-live258-six-cases 状态为 pending_review，不是由 laowantong 领取的（#620 过渡期：裸名/同角色旧名 laowantong-<tool> 均可收口）
+InterestingInteresting! "no "no changes added to commit" — the changes I saw in git status minutes ago are gone, AND the task is already pending_review. The parallel instance beat me: between my verification and my commit attempt, it committed the fixes and completed the task (its complete also auto-committed the task file and queue).
+
+  So #684 R2 rework is already submitted by the parallel laowantong instance. My earlier claim commit (4fe17a952) got superseded — actually the other instance's complete must have transitioned claimed-laowantong → pending_review (same instance name, script allowed it).
+
+  Verify state: git log, task status.
+
+• 并行实例已抢先 commit + complete。核验最终状态：282659cf5 chore(queue): #693 review by 欧阳锋
+7c8560fda chore(queue): #684 complete by laowantong
+b63dd2efb rework(#684): R2 FAIL C 窄修——tianli L177 两处伪逐字改源 L1099 逐字+L72 标点回源 L1333(——)；xingzhi L167 锚 L651→L653；6 卡 pre-submit PASS QUOTE_VERBATIM 0
+c5476b5bf docs(wangyuyan): 失忆锚点更新至 09-10 交互值守长场（调研四型齐编/门禁口径终版/v5+watchdog/E盘PASS/产线在转状态）
+
+  (无)
+⏳ 待终审 1:
+  #684 task_20260908_laowantong-live258-six-cases — P1 产卡：Live258 六案例全产（雍博/农夫三拳/行知/田力/黄谦/Simon Pe
+⚖️ 最近终审（48h） 2:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+(clean check done)
+
+
+• Confirmed: parallel instance committed b63dd2efb (R2 fixes) and completed 7c8560fda → pending_review. Working tree clean of live258 files. My claim commit 4fe17a952 is in history but harmless (the complete used the same claimed state).
+
+  State is consistent: #684 pending_review with R2 fixes landed. My redundant claim created one extra queue commit but no harm — the complete succeeded under same instance name.
+
+  One thing: my claim at 02:45 while another instance was working — worth a friction log entry? It's a multi-instance collision (same instance name used by two sessions → claim/complete not distinguishable). This is a real systemic friction worth one line in .agent/friction-log.md. Let me add it.
+
+  Also append todos line noting this session's role: verified + observed parallel completion. And note I did NOT double-commit (working tree clean).
+
+  Then stand by.ok
+Done. Summarize for user. Note: should I append to the daily review file? The session continues; the 11-chapter review for this cron-fired mini-turn — the main session review was already done. Cron fires are heartbeat turns; earlier cron turns I just replied standby without writing reviews. Consistent: no new review needed for a heartbeat turn. But this turn did real work (verification + collision handling). The discipline says "每次会话结束前" — this is the same session continuing. I'll note the R2 events are logged in todos; final review update can happen at session end. Keep reply concise.
+
+• #684 R2 返工已闭环，但这一拍发现了双实例撞单：
+
+  **事实经过**
+  - 02:36 R2 FAIL 退回（4 处窄修：tianli L177 两处伪逐字 + L72 标点 + xingzhi L167 锚）
+  - 我 02:45 claim 成功；但检查工作区发现**另一个并行 laowantong 实例已在施工**——02:43 落卡修复、02:47 落 R2 返工报告，修复内容与 R2 期望形态逐项吻合
+  - 我没有重复施工，改为独立复核：tianli/xingzhi 全量引文扫描 0 misses、xingzhi 卡内 L651 仅剩合法区间引用、tianli 卡内 L1065 零命中、6 卡 pre-submit 复跑 **PASS（QUOTE_VERBATIM 0 issues）**
+  - 我 commit 前一刻，并行实例抢先完成：b63dd2efb（修复）+ 7c8560fda（complete）→ **#684 现为 pending_review，待欧阳锋 R3 复审**，工作区无残留
+
+  **摩擦已记**：同名双实例导致 queue_transition 的 claim 锁无法区分两个会话（E019 家族变种），已落 `.agent/friction-log.md`；todos 已追加收尾行。所幸两边产出幂等（同一份修复），状态一致无损害。
+
+  老顽童继续待命。
+
+- [2026-09-10 02:49] 完成提审 #684 R2 返工（R2 FAIL C 窄修 3 处）：tianli L177 两处伪逐字改源 L1099 逐字+L72 标点回源 L1333（——）；xingzhi L167 锚 L651→L653；6 卡 pre-submit 全 PASS（QUOTE_VERBATIM 0）；commit b63dd2efb 入仓后 complete 成功→pending_review（队列行+myqueue+frontmatter 三验证），待欧阳锋对照法复审
+- [2026-09-10 02:50] #684 R2 复审 FAIL（4 处窄修）已由并行 laowantong 实例施工并提审（commit b63dd2efb+7c8560fda）；本实例独立复核：tianli/xingzhi 扫描 0 misses、L651/L1065 锚点复核干净、6 卡 pre-submit PASS（QUOTE_VERBATIM 0），工作区无残留——双实例撞单已记 friction-log，#684 挂 pending_review 待欧阳锋 R3 复审
+- [2026-09-10 02:57] ✅ KDO 终审通过 1 单：#684——你的单过了，见任务单终审记录
+====
+🚧 进行中 0:
+  (无)
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• #684 R3 复审 PASS A- （终审通过）. Read the task file's R3 终审记录 briefly to confirm and see if any follow-up needed.358:## 终审记录 R3（欧阳锋，2026-09-10，methodology v2.3，复审对照法）
+PASS A-, three rounds closed. No further action needed on #684. Append a todos line recording the pass, then stand by. Also since #684 is now fully closed, my session's main task is complete. Should I update the daily review with the R2/R3 outcome? The session review was written at 01:57. The R2/R3 events happened via cron turns. A brief append to the daily file noting outcome might be good practice but not strictly required mid-session; session-end review happens when session ends. I'll add a short todos line and note the outcome. Keep it light — append one line to todos.ok
+
+
+• #684 正式收官：
+
+  - **R3 终审 PASS A-（三轮闭环）**——R2 四项 4/4 闭环实证，R1 闭环项防回归抽查未波及，六卡 pre-submit 独立复跑全 PASS
+  - 两条观察项不阻断：引文中英文间空格属全卡统一排版惯例（备查）；QUOTE_VERBATIM 检查器盲区（子串摘录/短引文换词可绕过）建议书已在案
+  - todos 已落收官行；名下无 queued/进行中/待终审任务
+
+  Live258 六案例全产单（雍博/农夫三拳/行知/田力/黄谦/Simon Peng）至此全部入库。老顽童待命。
+
+- [2026-09-10 02:57] ✅ KDO 终审通过 1 单：#684——你的单过了，见任务单终审记录
+- [2026-09-10 03:00] ✅ #684 终审通过（R3 PASS A-，三轮闭环）：R2 四项复验 4/4 闭环、防回归抽查 R1 闭环项未波及、六卡 pre-submit 独立复跑全 PASS——Live258 六案例全产单正式收官；观察项两条（引文中英文空格排版惯例备查/QUOTE_VERBATIM 检查器盲区建议书在案）不阻断
+- [2026-09-10 03:07] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#697（huangyaoshi 的单，挂审 8min）（到点（节奏 15min））
+====
+🚧 进行中 0:
+  (无)
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• 到点巡航：无新事。未读段仅 03:07 叫醒行（#697 是黄药师的单，与我无关）；名下无 queued/进行中/待终审任务。老顽童待命。
+
+- [2026-09-10 03:07] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#697（huangyaoshi 的单，挂审 8min）（到点（节奏 15min））
+- [2026-09-10 03:27] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#697（huangyaoshi 的单，挂审 28min）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• 到点巡航：无新事（#697 黄药师的单挂审中，与己无关；名下无任务）。老顽童待命。
+
+- [2026-09-10 03:27] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#697（huangyaoshi 的单，挂审 28min）（到点（节奏 15min））
+- [2026-09-10 03:42] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#697（huangyaoshi 的单，挂审 43min）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• Same as before: #697 is huangyaoshi's, not mine. Nothing to do. Stand by. These heartbeat turns are repetitive — just report standby briefly.
+
+• 到点巡航：无新事（#697 黄药师单挂审 43min，归欧阳锋/黄药师，与己无关）。名下无任务，老顽童待命。
+
+- [2026-09-10 03:27] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#697（huangyaoshi 的单，挂审 28min）（到点（节奏 15min））
+- [2026-09-10 03:42] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#697（huangyaoshi 的单，挂审 43min）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• No new lines since last check (tail identical). Stand by.
+
+• 到点巡航：无新增落盘、名下无任务。老顽童待命。
+
+- [2026-09-10 03:42] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#697（huangyaoshi 的单，挂审 43min）（到点（节奏 15min））
+- [2026-09-10 04:02] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• 到点巡航：无新事（#697 挂审告警已消，名下无任务）。老顽童待命。
+
+- [2026-09-10 04:02] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 04:17] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+• Routine heartbeat. Check quickly.- [2026-09-10 04:17] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 04:32] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+
+
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+- [2026-09-10 04:32] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 04:47] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+- [2026-09-10 04:47] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 05:02] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+- [2026-09-10 05:02] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 05:22] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• Nothing new, many consecutive idle beats. Keep the reply minimal.
+
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+- [2026-09-10 05:22] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 05:37] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+- [2026-09-10 05:37] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 05:52] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+- [2026-09-10 05:52] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 06:12] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+- [2026-09-10 05:52] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 06:12] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• 到点巡航：无新增落盘，名下无任务。老顽童待命。
+
+- [2026-09-10 06:12] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 06:32] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+- [2026-09-10 06:32] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 06:47] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• Idle for many hours now (since ~03:00, now ~06:47). Nothing to do. Keep standby reply minimal.
+
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+- [2026-09-10 06:47] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 07:02] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+- [2026-09-10 07:02] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 07:22] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• Same idle pattern. Just report standby.
+
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+- [2026-09-10 07:22] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 07:42] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+- [2026-09-10 07:22] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 07:42] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• 到点巡航：无新增落盘，名下无任务。老顽童待命。
+
+- [2026-09-10 07:42] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 08:02] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+- [2026-09-10 08:02] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 08:22] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+- [2026-09-10 08:22] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 08:42] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• Long idle streak continues (~7 hours). Nothing to do. Brief standby.
+
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+- [2026-09-10 08:22] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 08:42] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• 到点巡航：无新增落盘，名下无任务。老顽童待命。
+
+- [2026-09-10 08:42] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 09:02] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+- [2026-09-10 09:02] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 09:22] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+- [2026-09-10 09:22] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 09:37] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+• Still idle. Continue the pattern — quick check, brief standby.- [2026-09-10 09:37] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 09:57] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+
+
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+- [2026-09-10 09:57] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 10:12] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+- [2026-09-10 09:57] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 10:12] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• 到点巡航：无新增落盘，名下无任务。老顽童待命。
+
+- [2026-09-10 10:12] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 10:32] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• Long idle streak (~9 hours). Everything quiet. Brief standby reply.
+
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+- [2026-09-10 10:32] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 10:47] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+• Same routine check.- [2026-09-10 10:47] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 11:07] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+
+
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+- [2026-09-10 11:07] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 11:27] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+- [2026-09-10 11:27] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 11:42] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+• Same idle pattern continues. Quick check.- [2026-09-10 11:42] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 11:57] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+
+
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+- [2026-09-10 11:57] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 12:12] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• Still idle. Brief standby.
+
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+- [2026-09-10 11:57] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 12:12] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• 到点巡航：无新增落盘，名下无任务。老顽童待命。
+
+- [2026-09-10 12:12] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 12:32] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• Idle all day. Brief standby.
+
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+- [2026-09-10 12:32] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 12:47] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+- [2026-09-10 12:47] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 13:02] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+- [2026-09-10 13:02] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 13:17] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• All-day idle continues. Brief standby reply.
+
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+- [2026-09-10 13:17] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 13:32] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+- [2026-09-10 13:32] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 13:47] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+• Idle since 03:00, now ~14:02. Continue minimal check + standby.- [2026-09-10 13:47] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 14:02] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+
+
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+- [2026-09-10 14:02] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 14:17] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+- [2026-09-10 14:17] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 14:32] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+• All-day idle continues. Same check.- [2026-09-10 14:32] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 14:47] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+
+
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+- [2026-09-10 14:47] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 15:02] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+- [2026-09-10 15:02] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 15:17] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• All-day idle continues (~15:17 now). Brief standby.
+
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+- [2026-09-10 15:17] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 15:37] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+- [2026-09-10 15:37] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 15:57] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+• Same idle pattern continues (~16:12 now). Quick check and standby.- [2026-09-10 15:57] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 16:12] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+
+
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+- [2026-09-10 16:12] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 16:27] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+• Same idle pattern. Quick check and standby.- [2026-09-10 16:27] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 16:42] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+
+
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+- [2026-09-10 16:27] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 16:42] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• 到点巡航：无新增落盘，名下无任务。老顽童待命。
+
+- [2026-09-10 16:42] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 17:02] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+- [2026-09-10 17:02] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 17:17] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+• Same idle pattern continues. Quick check + brief standby.- [2026-09-10 17:17] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 17:32] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+
+
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+• Same idle pattern. Quick check and standby.- [2026-09-10 17:32] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 17:47] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+
+
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+- [2026-09-10 17:47] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 18:02] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• Idle all day (last real event 03:00). Continue standby. Brief reply.
+
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+- [2026-09-10 18:02] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 18:17] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+- [2026-09-10 18:17] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 18:32] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+• Same idle pattern. Continue.- [2026-09-10 18:32] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 18:47] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+
+
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+- [2026-09-10 18:47] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 19:02] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• All-day idle continues. Standby.
+
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+tail: option used in invalid context -- 2
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• Typo in my command (stray characters "菩提"). Retry the tail.- [2026-09-10 19:02] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 19:17] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+
+
+• 到点巡航：无新事（刚才 tail 命令笔误已重跑确认），名下无任务。老顽童待命。
+
+- [2026-09-10 19:17] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 19:32] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+- [2026-09-10 19:32] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 19:47] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• All-day idle. Brief standby.
+
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+- [2026-09-10 19:47] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 20:02] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+• Same routine. Check and standby.- [2026-09-10 20:02] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 20:22] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+
+
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+- [2026-09-10 20:22] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 20:37] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• All-day idle continues (now ~20:37). Brief standby.
+
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+- [2026-09-10 20:37] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 20:52] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+- [2026-09-10 20:52] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 21:07] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• Idle all day continues. Brief standby.
+
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+- [2026-09-10 21:07] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 21:22] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+- [2026-09-10 21:22] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 21:37] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• All-day idle. Brief standby reply.
+
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+- [2026-09-10 21:37] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 21:52] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+- [2026-09-10 21:52] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 22:12] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+• Same idle pattern. Check and standby.- [2026-09-10 22:12] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 22:27] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+
+
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+- [2026-09-10 22:27] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 22:42] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• Approaching 23:00. Day-long idle. Just standby.
+
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+- [2026-09-10 22:42] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 22:57] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+• Same pattern. Check and standby. It's approaching 23:12.- [2026-09-10 22:57] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 23:12] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+
+
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+• Still idle. Quick check and standby.- [2026-09-10 23:12] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 23:27] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+
+
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+- [2026-09-10 23:40] 复盘完成（23:37 场 Truman 11章追加节：日终收口——03:07-23:37 空班窗口照实记录+空班归因（有单无人领）+#684 R3 PASS A- 三轮闭环收官锚定+措辞纪律「无新数据点≠已治愈」）+自检等级 🟡 B级
+- [2026-09-10 23:42] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 3:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — ✅PASS A-（2026-09-09）
+• Interesting — a parallel laowantong instance wrote a 日终复盘 at 23:40 (Truman 11-chapter追加节， B级）. So another instance is also alive and doing session-end review. Nothing for me to do. Standby.
+
+• 到点巡航：无新事。注意到 23:40 并行实例已落日终 Truman 复盘（含 #684 R3 收官锚定，B 级）——日终收口已有人做，本实例不重复。名下无任务，老顽童待命。
+
+• Date changed to 2026-09-11. Continue the heartbeat check.- [2026-09-10 23:42] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 23:57] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+🚧 进行中 0:
+  (无)
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 0:
+  (无)
+
+
+• 到点巡航：无新事，名下无任务。老顽童待命。
+
+- [2026-09-10 23:57] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-11 00:12] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+====
+🚧 进行中 0:
+  (无)
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 0:
+  (无)
+• 到点巡航：无新事，名下无任务。老顽童待命。

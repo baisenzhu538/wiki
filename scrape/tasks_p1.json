@@ -1,0 +1,10 @@
+{
+ "pages": [
+  {"id": "p01", "url": "https://baijiahao.baidu.com/s?id=1858813374919992793&wfr=spider&for=pc", "wait": 3500},
+  {"id": "p02", "url": "https://baijiahao.baidu.com/s?id=1837040465059515893&wfr=spider&for=pc", "wait": 3500},
+  {"id": "p03", "url": "https://www.menet.com.cn/info/202504/202504141043274327_148959.shtml", "wait": 3500},
+  {"id": "p04", "url": "https://stock.10jqka.com.cn/20251127/c672784024.shtml", "wait": 3500},
+  {"id": "p05", "url": "https://www.100ec.cn/detail--6657764.html", "wait": 3500},
+  {"id": "p06", "url": "https://www.eeo.com.cn/2026/0409/833225.shtml", "wait": 3500}
+ ]
+}

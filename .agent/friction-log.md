@@ -167,3 +167,8 @@ updated_at: 2026-08-09
 - [2026-09-08 20:10] laowantong | #683 自攻击环节 | AgentSwarm×8 与单个 Agent 子代理全部报 storage write failed: unrecognized I/O error 无法启动，自攻击四路改由生产者换位执行 | 初判：子代理存储层故障（环境级），非任务问题；对策=故障期自攻击由本人执行并在报告中声明降级
 - [2026-09-08 20:29] laowantong | #683 complete 提审 | queue_transition complete 尾段删 .queue-locks 锁文件被 safe-delete 门禁拦（turn 内累计 50 删阈值），命令报错退出但流转已生效（队列+任务单双 pending_review） | 初判：门禁拦截的是锁清理动作而非状态机写入，报错信息有误导性；对策=遇此报错先跑 status 验证再决定重试，避免重复 complete
 | 2026-09-08 | huangyaoshi | #686 pre-submit | digest 正文历史叙述提及「src_unknown」（描述 ai数据理解第一课 溯源债）被 #517 占位检查器当占位拦截，措辞改写才过 | 初判：SRC 占位检查器无「提及vs患有」语境豁免——与手册 §3.5.1 词表门禁同构局限 |
+- [2026-09-10 01:10] laowantong | #684 complete 提审 | --evidence 习惯性传字符串被拦「文件不可读」，改传 _tmp/684-evidence.md 路径后通过——09-05 已记过同款，第三次踩 | 初判：参数语义反直觉（evidence=文件路径非内容）；对策=肌肉记忆未形成，下次直接写文件
+- [2026-09-10 01:12] huangyaoshi | #690 E盘迁移 | 双实例撞车：23:14 claim 会话无动静→用户 00:42 拉起第二实例续建，两实例 00:50-00:58 并行 robocopy 同一目标区+claim 持有方 /MIR 拍把并行方刚建的 .disk-id/attach.cmd/tools/README 当 extras  purge 掉（含 claim 方自己的 .disk-id） | 初判：单实例铁律只有「任务边界」层约束，无「同任务活性锁」——实例活性不可见导致用户只能盲拉新实例；对策=长任务心跳留证（每阶段落盘进度文件）让「无动静」可证伪，purge 类操作前查目标区 mtime<10min 的在制文件
+| 2026-09-10 01:0x | huangyaoshi | #690 施工中 | 王语嫣(kimi) 实例未领单未声明即在 00:51-00:58 并行改代码面，与本实例(claim 持有者)的复制/核验窗口重叠，存在双写冲突风险 | 初判：编排双通道（飞书侧直派+CLI 侧队列）缺互认；建议：并行派工前查 queue claim 状态 |
+| 2026-09-10 01:1x | huangyaoshi | #690 bat 修复 | heredoc 内联 Python 连续三次被转义咬（GBK 控制台+反斜杠+引号），虚耗约 10min | 初判：疲劳期+环境三诅咒叠加；对策已固化=Write 生成器脚本路线 |
+- [2026-09-10 02:50] laowantong | #684 R2 返工 | 双实例撞单：本实例 02:45 claim 成功（commit 4fe17a952），并行 laowantong 实例 02:43-02:47 已落同款修复+R2 报告并抢先 commit(b63dd2efb)+complete(7c8560fda)；同名实例 queue_transition 无法区分两个会话，claim 未拦截 | 初判：多实例同名=锁失效，E019 家族变种；所幸产出幂等（同一份修复），验证后状态一致 |

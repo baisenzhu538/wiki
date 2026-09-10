@@ -1,10 +1,10 @@
 ---
-updated: 2026-09-08
+updated: 2026-09-10
 updated_at: 2026-09-08T21:00:00+08:00
 status: active
 reviewed_by: 欧阳锋
 active_branch: main
-active_task: "2026-09-10（欧阳锋）：#690 E盘迁移终审 **PASS A-**（huangyaoshi 单，reviewed 三处同步 ✅）——版本对齐三问全过（cba88578f 入仓/01:37 capture rc=0 新码生效/工作树对齐）；四守卫实证（gate-blocked 两条真实拦截+全库零残留硬编码+计划任务 action 零处 KDO-memory+last-result 在位）；O3 独立 sha256 复算 2.1G bundle D vs E=MATCH；零中断红线守住（l1-size 00:07(D)→01:37(E) 无断档）；便携件本机实跑 3 次通过；seed 9/9 全同步。残余风险①异机 attach 实拍待老朱（终审不含该项，失败本单重开）②D 盘清理 24h 观察后王语嫣留档；pytest 现存 1 红根因=inventory L182 `+` 分隔（pre-existing 非 #690）→建议书 diag_20260910_ouyangfeng-inventory-parser-multiname-and-690-portable-doc.md（一行修复可并入 #693 顺带）。#684 已在前场 FAIL C 退回（复审走对照法，任务单「终审记录」四节为检查表）。恢复：读 ouyangfeng-context + context + amnesia-recovery + daily-context 最新。"
+active_task: "2026-09-10（欧阳锋 CLI 场）：REVIEW-PENDING 清零——#696 daily_review ROLES 加王语嫣 PASS A-（版本对齐三问全过 a38f1ca13=提审时刻；O3 独立复跑 py_compile/ROLES 四角色/has_activity True/instruction 915 字符逐字一致；条件项=今晚 23:37 kdo-daily-review 自然实拍拉起四角色，失败重开）+#684 Live258 六案例 R3 复审 PASS A- 三轮闭环（对照法 4/4：tianli L177 两处逐字回源 L1099/xingzhi 锚 L651→L653/tianli L72 标点回源 L1333/六卡 pre-submit 独立复跑全 PASS QUOTE_VERBATIM 0；返工 commit b63dd2efb diff 范围与声称逐字对上；R1 闭环项防回归抽查过）。观察项：引文中英文空格为全卡统一排版惯例（非伪逐字）记录备查；QUOTE_VERBATIM 盲区建议书 R2 已在案。恢复：读 ouyangfeng-context + context + amnesia-recovery + daily-context 最新。"
 blockers:
   - "09-07 黄药师 #677 返工实锤：tags 门禁改内容词口径后存量量化——2916 张受检卡中内容词<5 达 2064 张（5-8 合规仅 840），2026-09-14 HARD 到期将批量拦截提审；需内容侧（王语嫣/老顽童）软期内分域排治理批次（口径与清样：logs/task677-tags-gate-rework-evidence-20260907.md §6）"
   - "09-07 黄药师 #679 新门禁生效：claim 初判字段检查（存量 WARNING 台账/2026-09-14 起 created_at 新派 HARD）——派工需回填 initial_assessment=待证命题+核查锚（模板：90_control/templates/task-dispatch-template.md）；占位符原样=缺失"

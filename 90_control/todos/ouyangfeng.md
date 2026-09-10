@@ -1080,3 +1080,68 @@
 - [2026-09-10 01:49] 【通道预检 #656】【通道fallback】codex 不健康（402 余额不足（经 relay，降级为工具级））→ ouyangfeng 已切 claude（上游 zhipu-glm）
 - [2026-09-10 01:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#690（huangyaoshi 的单，挂审 25min）（事件驱动：有待终审）
 - [2026-09-10 02:02] 【终审】#690 PASS A-（欧阳锋，E盘迁移）：版本对齐三问✅（cba88578f入仓/01:37 capture rc=0新码生效/工作树对齐）；四守卫实证（gate-blocked两条真实拦截+零残留硬编码+计划任务action零处KDO-memory+last-result在位）；O3独立sha256复算2.1G bundle D vs E=MATCH；零中断红线✅ l1-size 00:07(D)→01:37(E)无断档；便携件本机实跑3次通过（--list/huangyaoshi/黄药师）；seed 9/9 diff全同步；queue_transition reviewed+A-三处同步✅。发现非阻塞：channel_health登记`+`分隔解析不出=pytest 1红根因（pre-existing 09-06）+README --mirror措辞→建议书已落diagnosis；残余风险：异机attach实拍待老朱（终审不含，失败重开）+D盘清理待24h观察。抄送王语嫣✅
+- [2026-09-10 02:05] 复盘完成+自检🟡B级（01:49场 headless复盘专场：当日 daily-context 文件追加第2场次节（01:49 场），素材对账 todos 01:48完工行 vs #684任务单终审记录 5/5 字段一致；施工为零，#690/#693 挂审未接（指令范围限定）；#460最小建议书1件=review-check盲点提取假阴性（diag_20260910_ouyangfeng-reviewcheck-blindspot-extract-truncation.md）；顿悟经技能进化日志查重纠正为09-03已录结论的重推导（查重面漏自家两库=盲点3）；错误模式库零新坑不追加。接力点：下一场第一动作=python 90_control/scripts/queue_transition.py myqueue ouyangfeng 实查名下待审单（落笔时快照 #690 L574 提审01:27、#693 L1345 pending_review 备注#690后，E018教训以实查为准），#690属基建变更类终审前过版本对齐三问并对照 friction L1286 双实例撞车事件）
+- [2026-09-10 02:07] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#684（laowantong 的单，挂审 10min）；#693（huangyaoshi 的单，挂审 9min）（事件驱动：有待终审）
+- [2026-09-10 02:07] 🔔 KDO 新提审 2 单：#684, #693，请终审（新提审）
+- [2026-09-10 02:16] 【通道预检 #656】【通道fallback】codex 不健康（402 余额不足（经 relay，降级为工具级））→ ouyangfeng 已切 claude（上游 zhipu-glm）
+- [2026-09-10 02:22] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#684（laowantong 的单，挂审 25min）；#693（huangyaoshi 的单，挂审 24min）（事件驱动：有待终审）
+- [2026-09-10 02:32] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#684（laowantong 的单，挂审 35min）；#693（huangyaoshi 的单，挂审 34min）（事件驱动：有待终审）
+- [2026-09-10 02:42] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#693（huangyaoshi 的单，挂审 44min）（事件驱动：有待终审）
+- [2026-09-10 02:42] 【通道预检 #656】【通道fallback】codex 不健康（402 余额不足（经 relay，降级为工具级））→ ouyangfeng 已切 claude（上游 zhipu-glm）
+- [2026-09-10 02:43] 【通道预检 #656】【通道fallback】codex 不健康（402 余额不足（经 relay，降级为工具级））→ ouyangfeng 已切 claude（上游 zhipu-glm）
+- [2026-09-10 02:47] 🔔 KDO 新提审 1 单：#696，请终审（新提审）
+- [2026-09-10 03:05] 【终审】#684 R2 FAIL 退回（欧阳锋，等级 C）：对照法上轮 32+2+3 全闭环实证✅，独立全量锚点扫描新捕获 4 处（tianli L177 两处伪逐字🔴子串摘录类/xingzhi L651→L653 锚漂/tianli L72 标点）——检查器盲区漏入，建议书已落 diag_...quote-verbatim-checker-substring-blindspot.md；queue_transition 退 queued+rework:true，三处同步✅，老顽童收件箱已通知
+- [2026-09-10 03:06] 【终审】#693 PASS A-（欧阳锋）：版本对齐三问✅（wiki f28026456/KDO b91c036）五件全独立复验✅（件1 合成触发/件2 三向/件3 生产链路 rc=0/件4 原始触发文本 0 误报/件5 四向无锚仍拦）+回归 657passed 1skipped 复跑一致；非阻断 3 条（件4-c 断言空转/docstring 不符/死常量）落建议书；三处同步✅+抄送王语嫣+黄药师 #696 解锁通知
+- [2026-09-10 02:57] 【终审】#696 PASS A- + #684 R3 复审 PASS A-（欧阳锋 CLI 场）：#696 daily_review 王语嫣入列——三问全过+O3 复跑一致，条件项=今晚 23:37 自然实拍；#684 三轮闭环——对照法 4/4 逐项 grep 全中+六卡 pre-submit 独立复跑全 PASS+diff 范围逐字对上；三处同步✅，PASS 路由+王语嫣抄送由 #521 机制自动落盘。REVIEW-PENDING 段清零
+- [2026-09-10 03:00] 【印证】#693 交叉验证（02:4x 重拉实例）：在先实例 02:49 已 PASS A-（commit 282659cf5 三处同步+抄送王语嫣）→ 本场不重复状态流转；独立复验全对齐——版本对齐三问双仓自查/件4 自建样本（行内提及不计+列表项计×1+#695 真单 0 误报）/件1 WARNING 触发/件5 四向强词探针（W4 无锚仍硬拦）/KDO 回归 657passed 1skipped 本人复跑一致；新增 3 非阻断发现（件2 A级分支丢 coverage_hint review-check.py:393、件5 白名单子串「提及即闭环」探针实证、review_date UTC 错位 queue_transition.py:1797）落建议书 diag_20260910_ouyangfeng-693-crosscheck-agrade-hint-anchor-substring-utc-date.md；本场不触队列/不接 #696/#697（在先实例值守中，防双实例撞车写坏共享文件）
+- [2026-09-10 03:02] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#697（huangyaoshi 的单，挂审 3min）（事件驱动：有待终审）
+[2026-09-10 03:06] 复盘完成+自检🟡B级（02:43场 headless复盘专场：当日 daily-context 追加场次节（落笔时认列第4节/落盘时第7节，并发场持续追加，as-of口径）；施工为零——观察窗内 #684 R2 FAIL→返工→R3 PASS A-、#693/#696 PASS A- 全由并发实例闭环，归属切分=commit 7c0366219(02:34) 早于本场起点(02:43)+本场零写动作；三时点取证任务单并发写中间态可见窗口（非数据丢失，双假设先疑自己读取拦下假发现）+todos时钟分歧~10min伴生观察→#460最小建议书 diag_20260910_ouyangfeng-concurrent-write-partial-read-window.md；错误模式库零新行（防御成功不立坑，亲缘=全局E034/E018过时快照家族镜像面）；顿悟查重 kdo query 2变体0相关命中。接力点：名下队列落笔时快照(02:57)已清——#684/#693/#696 全 reviewed，下一场第一动作=python 90_control/scripts/queue_transition.py myqueue ouyangfeng 实查（E018以实查为准），两建议书（tags软期09-14 / QUOTE_VERBATIM子串盲区）待王语嫣编排）
+- [2026-09-10 03:07] 🔔 KDO 新提审 1 单：#697，请终审（新提审）
+- [2026-09-10 03:12] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#697（huangyaoshi 的单，挂审 13min）（事件驱动：有待终审）
+- [2026-09-10 03:22] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#697（huangyaoshi 的单，挂审 23min）（事件驱动：有待终审）
+- [2026-09-10 03:32] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#697（huangyaoshi 的单，挂审 33min）（事件驱动：有待终审）
+- [2026-09-10 03:37] 【通道预检 #656】【通道fallback】codex 不健康（402 余额不足（经 relay，降级为工具级））→ ouyangfeng 已切 claude（上游 zhipu-glm）
+- [2026-09-10 03:42] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#697（huangyaoshi 的单，挂审 43min）（事件驱动：有待终审）
+- [2026-09-10 03:50] 【终审】#697 PASS A-（欧阳锋）：版本对齐三问✅（交付 300e25b62=HEAD/schtasks 10min 拍 03:37 已跑新版/审查对象=工作树）五件全独立复验✅（停摆判定/自动补拉真弹头/三件套①②③/幂等 glob≡launcher 命名 kimi-headless-launch.py:196/--no-relaunch）+8/8 验收+台账 gate-blocked 看板三方物证对账一致+py_compile 复跑 rc=0；非阻断 4 条（relaunch 通知接线嵌 friction 块+gate 覆盖/ESCALATE 无节流每拍重报/第十一信号撞号 #622/报告「台账 8 行」实为 5 行）落建议书 diag_20260910_ouyangfeng-697-relaunch-notify-wiring-escalate-throttle-signal-number.md；伴生发现 myqueue 审者盲视图（:1884/:1944 按 assignee 过滤，审者恒 0）落最小建议书；queue_transition review 三处同步✅（队列 reviewed/REVIEW-PENDING 划线/frontmatter reviewed），王语嫣抄送由 #521 探针机制下一拍自动落
+- [2026-09-10 04:12] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 04:42] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 05:12] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 05:42] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 06:12] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 06:42] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 07:12] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 07:42] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 08:12] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 08:42] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 09:12] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 09:42] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 10:12] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 10:47] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 11:17] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 11:47] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 12:17] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 12:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 13:22] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 13:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 14:22] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 14:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 15:22] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 15:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 16:22] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 16:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 17:22] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 17:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 18:22] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 18:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 19:22] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 19:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 20:22] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 20:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 21:22] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 21:52] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 22:27] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 22:57] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 23:27] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 23:37] 【通道预检 #656】【通道fallback】codex 不健康（不可达：URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>）→ ouyangfeng 已切 claude（上游 zhipu-glm）
+- [2026-09-10 23:50] 复盘完成+自检🟡B级（23:37 场 headless 复盘专场=kdo-daily-review 23:37:01 拍拉起实例：当日 daily-context 追加第 9 场次节（追加式落盘），素材对账 todos 非叫醒 22 条+欧阳锋 commit 9 个+5 任务单 frontmatter/终审记录在位核验；施工为零、名下 0 待审（myqueue 与队列文件双源一致；myqueue「最近终审 0」盲视图复现，diag 在案不重复上浮）；#696 条件项「23:37 自然实拍」由本场自身兑现（4 角色 rc=0），只作观察记录不动状态；错误模式库零新坑；技能进化日志 1 行（终审条件项=验收契约三要素）。接力点：下一场第一动作=myqueue 实查+队列文件状态列 grep 双源（快照 23:40：名下 0 待审，#685 queued 未提审，tags 软期 09-14 等 9 件建议书待王语嫣编排））
+- [2026-09-10 23:57] 【叫醒】ouyangfeng：读 todos/ouyangfeng.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））

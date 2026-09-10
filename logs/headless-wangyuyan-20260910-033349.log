@@ -1,0 +1,572 @@
+kimi version 0.41.0
+• Let me start the recovery sequence: read the three files.Read the todos file failed due to encoding. Let me read the AGENTS.md and handle the todos file via bash with iconv or tail.90_control/todos/wangyuyan.md: Unicode text, UTF-8 text, with very long lines (1188)
+1606 90_control/todos/wangyuyan.md
+file says UTF-8... maybe there are some weird bytes. Let me try tail with iconv or python to read last lines.- [2026-09-10 01:47] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-10 01:42:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cl
+- [2026-09-10 01:55] ✅ LLM 通道主备倒序落地（老朱令）：MiniMax 主路→DeepSeek 备用，实测主路直出；常设授权登记：通道切换类按顺序自动切不请示
+- [2026-09-10 02:05] 🔴 老朱问责「产出低/督查怎么督的」——认账：我错在拿 claimed 标志当生产心跳（E034 自己犯自己），老顽童 22:14 停摆我 00:42 才补拉（空转 2.5h）、黄药师同族。修复=门铃 v5（01M23N260450KPKMR6VXWZV0YS）：claimed 任务每拍查 headless 日志/产出物 mtime 45min 无增长=停摆即补拉，值守拍必附心跳证据
+- [2026-09-10 02:10] ✅ 老朱「不信纪律信门禁」落地：#697 立项（claimed 停摆→探针自动补拉，防误伤三件套+幂等+顺带检测 kimi cron wedge），F-080 出停车场；门铃 v5 降级为门禁建成前的过渡层
+- [2026-09-10 02:02] 📨 欧阳锋抄送：#690 E盘迁移终审 **PASS A-**（本机可达面全量验证零缺口：四守卫实证+独立sha256复算MATCH+零中断心跳无断档+便携件本机实跑3次通过）。①异机插盘attach实拍待老朱执行（终审不含该项，失败重开）；②D盘清理24h观察后留档（你名下）；③pytest现存1红根因=inventory L182 `+`分隔解析不出channel_health（pre-existing非690），建议书已落 diagnosis/diag_20260910_ouyangfeng-inventory-parser-multiname-and-690-portable-doc.md（一行修复，可并入#693顺带）
+- [2026-09-10 02:07] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#684（laowantong 的单，挂审 10min）；#693（huangyaoshi 的单，挂审 9min）（到点（节奏 30min））
+- [2026-09-10 02:07] ⚖️ KDO 已终审 1 单：#690（待部署/已闭环）
+- [2026-09-10 02:15] ✅ 两件事落地：①深挖式角色混淆修复——老朱实证（要快速深挖、它搞成爆炸式饱和覆盖）：SOUL 路由纪律修「用户来意优先于类型纯度」+快速深挖通道（时间盒 30-60min 出 80%% 答案），三 SOUL 同条款同步+三 gateway 已重启加载 ②门铃转系统级：kdo-doorbell-watchdog 计划任务注册实测 Result=0（S4U 无窗，10min 拍，45min 无值守拍→自动拉起 headless 我补位）
+- [2026-09-10 02:16] ✅ 黄药师反馈收到（被 #684 FIFO 挡路不 force 待命）：核实——#684 返工重提+#693 完工提审双双在审，已拉欧阳锋按 FIFO 连审两单（proc 见 logs），放行后黄药师领 #696/#697
+- [2026-09-10 02:17] ⛔ KDO 门禁拦截 2 次（gate-blocked）：2026-09-10 02:08:07｜graph-index-coverage｜graph index 覆盖缺口｜30_wiki/case…
+- [2026-09-10 02:17] 🕐 值守拍02:07（v5 首拍）：#690 E盘迁移终审闭环✅且零中断红线实证——l1-capture 已切写 E:\KDO-memory（采集新增 83 verify PASS，心跳连续），E盘 8.9GB 就位，D 盘旧目录按单留 24h 观察；心跳督查：claimed=0 无在产可停摆；pending_review #684+#693 欧阳锋 02:16 已拉连审；l1-size 60.0MB=迁后新口径；小瑕疵留档：l1-capture 日志文案仍写「D 单盘口径」（功能正确，随黄药师下批顺手改）
+- [2026-09-10 02:37] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#693（huangyaoshi 的单，挂审 39min）（到点（节奏 30min））
+- [2026-09-10 02:42] 🕐 值守拍02:37+动作：#684 第2轮 FAIL（窄范围：只回改前四卡 32 伪引文+2 锚点；新两卡 A- 已达标不重产）→补拉老顽童第2轮返工（proc 见 logs）；#690 PASS A-（四守卫+零中断实证全过，异机 attach 实拍路由老朱）；#693 挂审 39min 欧阳锋在审；l1 正常（62.4MB）
+- [2026-09-10 02:52] 🕐 处置：黄药师报「被 #684 挡」状态读数已旧——#684 02:3x 已审（FAIL 第2轮已补拉老顽童）；真实挡路=他自己的 #693 在审，且 02:16 拉的欧阳锋实例 0 字节死产→已重拉（proc 见 logs）
+- [2026-09-10 03:00] ✅ /new 前交接闭环：场次3 复盘落盘（自检B级）+失忆锚点更新（当前状态→09-10 全量）+常设授权（通道自动切换）登记
+- [2026-09-10 02:55] 📥 #693 终审 PASS A-（欧阳锋）：版本对齐三问✅（wiki f28026456/KDO b91c036 双仓入仓+生效+对齐）；五件全独立复验✅（件1 合成卡触发/件2 三向/件3 生产链路 rc=0/件4 原始触发文本重建 0 误报/件5 四向含无锚仍硬拦）+回归 657 passed 1 skipped 复跑一致。非阻断 3 条见终审记录+最小建议书。**编排事项**：①#696/#697 已解锁可安排黄药师领取；②件3 自然验收=今晚 23:37 schtasks LastTaskResult 应=0；③件4「带注列表项仍计占位」待你裁示（黄药师已申报）；④tags 硬化 09-14 前请排存量卡处置（前建议书在案）
+- [2026-09-10 02:53] ⚖️ KDO 已终审 2 单：#693, #696（待部署/已闭环）
+- [2026-09-10 02:57] ⚖️ KDO 已终审 1 单：#684（待部署/已闭环）
+- [2026-09-10 03:07] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#697（huangyaoshi 的单，挂审 8min）（到点（节奏 30min））
+- [2026-09-10 03:07] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-10 02:57:15｜claimed-relaunch｜relaunch-exhausted｜task_20260910_
+Now I have the context. The task: system-level doorbell fallback. Execute the duty sequence:
+
+  1. ✅ Read unread section of todos/wangyuyan.md (done — last 20 lines)
+  2. Three scan surfaces: new diagnosis proposals (60_feedback/diagnosis), pending-cards, 00_inbox root new files
+  3. queue_transition.py status — pending_review → pull 欧阳锋 for final review; claimed >45min without output → pull corresponding role
+  4. Append a duty beat line to todos/wangyuyan.md (🕐 值守拍HH:MM：系统级兜底拉起+状态一句话）
+
+  Let me do the scans in parallel:
+  - ls -t 60_feedback/diagnosis/ | head (recent)
+  - ls 00_inbox/ root new files
+  - pending-cards location — probably 60_feedback/pending-cards/ or similar. Let me check.
+  - python 90_control/scripts/queue_transition.py status
+
+  Also check current time.03:34
+队列总任务数: 290
+queued: 6
+claimed: 0
+pending_review: 1
+  #697 task_20260910_huangyaoshi-claimed-stall-auto-relaunch — claimed 停摆自动补拉门禁化：探针判停摆→自动拉起（防误伤三件套）
+diag_20260910_ouyangfeng-concurrent-write-partial-read-window.md
+diag_20260910_ouyangfeng-693-crosscheck-agrade-hint-anchor-substring-utc-date.md
+diag_20260910_ouyangfeng-693-accept-assertion-vacuous-and-code-nits.md
+diag_20260910_ouyangfeng-quote-verbatim-checker-substring-blindspot.md
+diag_20260910_ouyangfeng-reviewcheck-blindspot-extract-truncation.md
+diag_20260910_ouyangfeng-inventory-parser-multiname-and-690-portable-doc.md
+diag_20260910_ouyangfeng-tags-vocab-gate-hard-deadline.md
+diag_20260909_ouyangfeng-presubmit-taskfile-false-positives.md
+diag_20260909_wangyuyan-checklist-solving.md
+diag_20260908_ouyangfeng-retro-coverage-gap.md
+diag_20260908_ouyangfeng-686-merge-claim-discipline.md
+diag_20260908_wangyuyan-zengming-smart-strategy.md
+diag_20260909_ouyangfeng-diagnosis-frontmatter-421-triplet.md
+diag_20260908_wangyuyan-gongsi01-asset-library-audit.md
+diag_20260907_ouyangfeng-edrive-capacity-routing.md
+---
+00_inbox/pending-cards/
+00_inbox/清单式解题练习/
+00_inbox/wechat-collect/
+00_inbox/老朱的个人域/
+00_inbox/拆书-曾鸣《智能策略》-10关键词/
+---
+pending-cards is at 00_inbox/pending-cards/. Let me check it. Also check recent 00_inbox root files (find returned nothing in 120min for root files — check directories modified recently). Also new diagnosis proposals: latest diag from today 09-10 — those ouyangfeng diags. Need to see if there are any 建议书 (proposals) for me. The "三扫描面" = diagnosis 新建议书 / pending-cards / 00_inbox 根目录新件.
+
+  Also queue status: pending_review #697 — it's a huangyaoshi task in pending_review, needs 欧阳锋 final review. The 03:07 wake-up said #697 挂审 8min. Now 03:34, so ~35 min. Threshold: pending_review → 拉欧阳锋终审.
+
+  claimed: 0 — no stalled claimed tasks.
+
+  Let me check:
+  1. 00_inbox/pending-cards content
+  2. New diagnosis files since last beat (03:07) — check mtimes
+  3. Check if there's a wake-up bell mechanism — "拉欧阳锋终审" means notify 欧阳锋. How? Previous beats did "已拉欧阳锋" (proc 见 logs) — probably launching headless agents. But I'm wangyuyan in an interactive session. The instruction says: pending_review 拉欧阳锋终审， claimed 超 45min 无产出补拉对应角色.
+
+  How to "拉"? Check how previous beats did it — "proc 见 logs". There's likely a headless launcher. But launching a new agent process may be beyond my ability here — actually I can spawn background bash tasks? That would be within this session only. The previous wangyuyan instances pulled agents via some mechanism (hermes gateways? kimi headless?).
+
+  Let me check logs to see how previous pulls were done. Look at kdo-tools or scripts for a "拉" mechanism. Check logs directory mentioned "proc 见 logs" — probably logs/*.log.
+
+  Actually, let's first check pending-cards and recent files, then figure out how to pull 欧阳锋.total 784
+-rw-r--r-- 1 Administrator 197121  934 Sep  9 23:56 distill-external-20260909-28.md
+-rw-r--r-- 1 Administrator 197121 1153 Sep  9 23:56 distill-external-20260909-27.md
+-rw-r--r-- 1 Administrator 197121 1058 Sep  9 23:56 distill-external-20260909-26.md
+-rw-r--r-- 1 Administrator 197121  984 Sep  9 23:56 distill-external-20260909-25.md
+-rw-r--r-- 1 Administrator 197121 1079 Sep  9 23:55 distill-human-20260909-04.md
+-rw-r--r-- 1 Administrator 197121 1040 Sep  9 23:55 distill-external-20260909-24.md
+-rw-r--r-- 1 Administrator 197121 1026 Sep  9 23:55 distill-external-20260909-23.md
+-rw-r--r-- 1 Administrator 197121 1004 Sep  9 23:55 distill-external-20260909-22.md
+-rw-r--r-- 1 Administrator 197121 1016 Sep  9 23:54 distill-human-20260909-03.md
+---
+2026-09-10+02:33:19.1120474000 diag_20260910_ouyangfeng-quote-verbatim-checker-substring-blindspot.md
+2026-09-10+02:49:57.4163465000 diag_20260910_ouyangfeng-693-accept-assertion-vacuous-and-code-nits.md
+2026-09-10+02:59:41.4377966000 diag_20260910_ouyangfeng-693-crosscheck-agrade-hint-anchor-substring-utc-date.md
+2026-09-10+03:02:58.9852872000 diag_20260910_ouyangfeng-concurrent-write-partial-read-window.md
+---
+headless-skills-assistant-20260906-034853.log
+headless-wangyuyan-20260908-104217.log
+headless-wangyuyan-20260908-192754.log
+headless-wangyuyan-20260908-233105.log
+headless-wangyuyan-20260909-084214.log
+headless-wangyuyan-20260909-094123.log
+headless-wangyuyan-20260910-033349.log
+kdo-health-cron.log
+l1-capture.log
+pathmap-hardening-674-20260907.log
+pre-submit-batch1c-framework10-20260906.log
+pre-submit-task668-aikb11-20260907.log
+quality-metrics.log
+role-clock.log
+sim-bundle-bat-675-20260907.log
+sim-card-flip-670-20260907.log
+task677-tags-gate-evidence-20260907.md
+task677-tags-gate-rework-evidence-20260907.md
+task679-audit-mechanisms-evidence-20260907.md
+vault-git-backup.log
+===
+Findings so far:
+  - Queue: pending_review #697 (huangyaoshi's task, claimed-stall auto-relaunch gate). 03:07 wake-up said 挂审 8min, now 03:34 → ~35 min. But wait — the todos at 02:53 said "KDO 已终审 2 单：#693, #696" and 03:07 said #697 挂审 8min. Also 03:07 line: gate-blocked claimed-relaunch relaunch-exhausted for task_20260910_... — probably #697 related.
+
+  Wait — interesting: #697 IS the "claimed 停摆自动补拉门禁化" task itself. And the gate-blocked at 02:57 "claimed-relaunch relaunch-exhausted" suggests the auto-relaunch exhausted. #697 is in pending_review.
+
+  - New diagnosis proposals since last beat (03:07): 4 ouyangfeng diags from 02:33–03:02 (already before 03:07 beat mostly; 03:02 one may be new). These are ouyangfeng 建议书 — as wangyuyan I should check if any need my action. But the instruction is just scan; the beat line records status.
+
+  - pending-cards: newest files from Sep 9 23:56 — not new today. 
+
+  - 00_inbox root: no new files in last 180 min.
+
+  Now: pending_review #697 needs 欧阳锋 终审. How to "拉"? Previous beats mention "proc 见 logs" and launching headless instances. There's a headless launcher. Let me check how the system pulls agents — maybe there's a script like kdo-tools/启动agent.ps1, or a doorbell watchdog. The 02:15 beat said "kdo-doorbell-watchdog 计划任务注册" (S4U, 10min 拍， 45min 无值守拍→自动拉起 headless 我补位）. So the system-level watchdog launches headless wangyuyan — and indeed I'm running as "系统级兜底拉起" per the task instruction.
+
+  How do I pull 欧阳锋？ Check previous logs: headless-wangyuyan logs might show the pull command. Let me check the latest headless-wangyuyan log 20260910-033349.log — wait, that's dated 03:33, just a minute ago — that might be... me? Actually the current time is 03:34. Interesting — maybe this session was launched by the watchdog at 03:33.
+
+  Let me look at an earlier headless log to find the "拉欧阳锋" command pattern. Also check role-clock.log tail.
+
+  Actually, before spending too much: the pull mechanism. Let me grep for "拉起" scripts.
+
+• 队列面清楚了：claimed=0（无停摆），pending_review 只有 #697。现在确认「拉欧阳锋」的执行方式——查之前的值守是怎么拉起的。- [2026-09-09 08:42] 🕐 值守拍08:37+动作：新素材「清单式解题练习」（一堂笔记法，三件套 29 万字节，段王爷 CDP 提取）→#694 诊断单立项入队+headless 王语嫣拉起（proc_19228，三方法全规格同 #691）；队列 287；l1 正常（70.8MB）
+- [2026-09-09 09:10] 🕐 值守拍09:07+动作：#694 诊断完工提审→拉欧阳锋终审；headless 已同步立 #695 产卡单（队列 288）；08:51 素材信号=回声（我手动补的 wechat 卡 mtime）划销；l1 正常（73.4MB）
+- [2026-09-09 09:41] 🕐 值守拍09:37+动作：#694 终审 FAIL 退回（欧阳锋真拦：族清单缺5张首讲卡+负向判词被存在性核查推翻；溯源/行号锚部分通过）→补拉 headless 王语嫣返工重审；门禁又立功一次
+===
+⏰ 唤醒 ouyangfeng（事件驱动：有待终审）→ ['todos']
+[role_clock] 无到期角色
+⏰ 唤醒 huangyaoshi（到点（节奏 15min））→ ['todos']
+⏰ 唤醒 laowantong（到点（节奏 15min））→ ['todos']
+⏰ 唤醒 wangyuyan（到点（节奏 30min））→ ['todos']
+⏰ 唤醒 ouyangfeng（事件驱动：有待终审）→ ['todos']
+[role_clock] 无到期角色
+⏰ 唤醒 huangyaoshi（到点（节奏 15min））→ ['todos']
+⏰ 唤醒 laowantong（到点（节奏 15min））→ ['todos']
+⏰ 唤醒 ouyangfeng（事件驱动：有待终审）→ ['todos']
+[role_clock] 无到期角色
+⏰ 唤醒 ouyangfeng（事件驱动：有待终审）→ ['todos']
+⏰ 唤醒 huangyaoshi（到点（节奏 15min））→ ['todos']
+⏰ 唤醒 laowantong（到点（节奏 15min））→ ['todos']
+⏰ 唤醒 wangyuyan（到点（节奏 30min））→ ['todos']
+⏰ 唤醒 ouyangfeng（事件驱动：有待终审）→ ['todos']
+⏰ 唤醒 huangyaoshi（到点（节奏 15min））→ ['todos']
+⏰ 唤醒 laowantong（到点（节奏 15min））→ ['todos']
+[role_clock] 无到期角色
+[role_clock] 无到期角色
+⏰ 唤醒 ouyangfeng（事件驱动：有待终审）→ ['todos']
+⏰ 唤醒 wangyuyan（到点（节奏 30min））→ ['todos']
+⏰ 唤醒 huangyaoshi（到点（节奏 15min））→ ['todos']
+⏰ 唤醒 laowantong（到点（节奏 15min））→ ['todos']
+⏰ 唤醒 ouyangfeng（事件驱动：有待终审）→ ['todos']
+[role_clock] 无到期角色
+⏰ 唤醒 ouyangfeng（事件驱动：有待终审）→ ['todos']
+⏰ 唤醒 huangyaoshi（到点（节奏 15min））→ ['todos']
+⏰ 唤醒 laowantong（到点（节奏 15min））→ ['todos']
+⏰ 唤醒 ouyangfeng（事件驱动：有待终审）→ ['todos']
+
+
+• There's `90_control/scripts/kimi-headless-launch.py`. The role_clock is already waking ouyangfeng (event-driven: 有待终审）. Let me check the script usage to pull 欧阳锋.
+
+  Also let me check whether 欧阳锋 is actually making progress on #697 — check recent terminal review records. The last ouyangfeng diag file is at 03:02. Current time 03:34. The wake at 03:07 said 挂审 8min. Hmm, but wait — was #697 already claimed by ouyangfeng for review? queue status shows pending_review #697. The role_clock is waking ouyangfeng event-driven.
+
+  Let me check kimi-headless-launch.py usage quickly, and check whether there's a running ouyangfeng process. Also check l1-capture heartbeat briefly? Not required.
+
+  Also, per the beat sequence step ③: "pending_review 拉欧阳锋终审" — I should pull 欧阳锋. But if role_clock is already waking ouyangfeng every cycle (event-driven: 有待终审）, maybe a pull is already happening. The question is whether 欧阳锋 actually responds. Last diag from ouyangfeng at 03:02 (that was about something else maybe, part of #697 review? Let me check the 03:02 diag quickly — concurrent-write-partial-read-window, might be related to #697 review findings).
+
+  Let me check the tail of that diag and whether there's an active ouyangfeng headless process.角色无头拉起器（09-02 老朱直令：新工作流——王语嫣时钟唯一，拉起其他角色干活）。
+
+工具无关设计（09-02 老朱追加口径）：拉起工具=可替换变量（kimi/codex/其他 CLI），
+角色=资产。新增工具时在 TOOLS 表登记一行即可，拉起流程不变。
+王语嫣=唯一时钟+探针出口+对老朱沟通通道。
+
+用法:
+  python 90_control/scripts/kimi-headless-launch.py <role> "<本次任务指令>" [--tool kimi]
+
+机制：
+  <tool> 无头单发 "<自包含 prompt>"（cwd=wiki，DETACHED 后台，日志 logs/headless-<role>-<ts>.log）
+  prompt = 角色恢复（读 .agent/<role>-context.md）+ 队列纪律 + 本次任务指令 + 收尾留痕
+
+通道健康预检+fallback（#656，F-073：kimi 403 周额度/codex 余额尽两墙连撞的根治）：
+  launch 前对 fallback 链逐通道打最小探针（1-token HTTP 或 CLI 级，见 channel_health.py）——
+  首个健康通道执行拉起；主通道死→自动切下一个（todos+stdout 通知，stdout 走时钟契约=飞书 DM）；
+  全部不健康→不硬派（假跑必撞墙），报王语嫣处置，exit 2。
+  --no-probe 应急跳过预检；--force-dead kimi,claude 模拟死通道（测试钩）。
+  认知表（CLI 名→真实供应商→模型→key 指纹）：90_control/channel-model-map.md
+
+纪律（写死进 prompt，每次拉起自带）：
+  - 状态流转只走 90_control/scripts/queue_transition.py（claim/complete/review）
+  - 完工在 90_control/todos/<role>.md 追加一行（时间戳+动作+任务号）
+  - 执行报告五字段（交付物/完成内容/验证/边界/需要谁动作）
+
+kimi.exe                      8808 Services                   0    246,104 K
+node.exe                     10192 Console                    1      3,164 K
+kimi.exe                     19412 Console                    1    422,736 K
+kimi.exe                     20140 Console                    1    285,692 K
+kimi.exe                     23492 Services                   0    308,788 K
+===
+-rw-r--r-- 1 Administrator 197121    1910 Sep 10 03:07 logs/headless-ouyangfeng-20260910-024359.log
+-rw-r--r-- 1 Administrator 197121    2597 Sep 10 03:01 logs/headless-ouyangfeng-20260910-024254.log
+-rw-r--r-- 1 Administrator 197121    2662 Sep 10 02:52 logs/headless-ouyangfeng-20260910-021604.log
+-rw-r--r-- 1 Administrator 197121    2394 Sep 10 02:05 logs/headless-ouyangfeng-20260910-014922.log
+-rw-r--r-- 1 Administrator 197121    1858 Sep 10 02:04 logs/headless-ouyangfeng-20260910-014058.log
+===
+-rw-r--r-- 1 Administrator 197121    2597 Sep 10 03:01 logs/headless-ouyangfeng-20260910-024254.log
+-rw-r--r-- 1 Administrator 197121    2662 Sep 10 02:52 logs/headless-ouyangfeng-20260910-021604.log
+-rw-r--r-- 1 Administrator 197121    2394 Sep 10 02:05 logs/headless-ouyangfeng-20260910-014922.log
+-rw-r--r-- 1 Administrator 197121    1858 Sep 10 02:04 logs/headless-ouyangfeng-20260910-014058.log
+===
+The headless-ouyangfeng logs: last one 03:07 mtime (the 024359 launch). Let me read that log to see what happened — did 欧阳锋 do anything? Also check the 024254 one (03:01 mtime).
+
+  Also: the 03:07 log of ouyangfeng — did it produce review of #697? queue still shows pending_review #697. Let me read the two latest ouyangfeng logs.复盘闭环完成。汇总：
+
+## 欧阳锋 02:43 场 Truman 复盘 — 完成 🟡B级
+
+**本会话性质**：headless 复盘专场，施工为零（按指令范围限定，未接任何终审）。
+
+**素材对账要点**（全部仓库文件，锚点在复盘节内）：
+- 今日欧阳锋动作链：#684 R1 FAIL C（01:48）→ #690 PASS A-（02:02）→ **#684 R2 FAIL C（02:34，对照法复验全闭环后独立扫描新捕 4 处检查器盲区）** → #693 PASS A-、#696 PASS A-、#684 R3 PASS A-——后五项均为并发实例产出，归属切分依据=commit 时刻（7c0366219=02:34）早于本场起点（02:43）+本场零写动作。
+- R1→R2 退回幅度收敛（32 处→4 处），残余两建议书（tags 软期 09-14 / QUOTE_VERBATIM 子串盲区）均已在 `60_feedback/diagnosis/` 待王语嫣编排。
+
+**本场唯一实质发现**（已落 #460 最小建议书）：
+1. **任务单并发写中间态可见窗口**【实证三时点】：02:43-02:51 三读 #684 任务单得三种内容态（R2 两节消失又回归）——双假设「先疑自己读取」拦下一条假「记录丢失」发现，未污染下游；顿悟=E034/E018 过时快照家族的镜像面（读得太新≠真态），kdo query 2 变体查重 0 相关命中。
+2. **伴生观察**：todos 时间戳与本机 clock ~10min 级分歧（机制【猜测】未核，只报现象）。
+3. 错误模式库**零新行**——防御成功案例不立坑，亲缘已注记。
+
+**落盘清单**：daily-context 2026-09-10.md 追加「02:43 场」节（追加式 tmp+cat，防并发 clobber）→ save 自检 🟡B级 ✓；技能进化日志 1 行；建议书 1 份；todos 收尾行 `[2026-09-10 03:06]`。
+
+**接力点**：名下队列落笔时快照（02:57）已清——下一场第一动作 `python 90_control/scripts/queue_transition.py myqueue ouyangfeng` 实查（E018，以实查为准）。
+
+收工。
+===
+收工。全场总结：
+
+## #693 终审处置报告（欧阳锋，2026-09-10 02:43-03:02 场）
+
+### 🚨 关键事实：该单已被另一实例审完
+指令前提「02:16 实例 0 字节=未活」**不成立**【实证】：在先欧阳锋实例 02:49 已完成 #693 终审——PASS A-，commit `282659cf5`，三处同步+抄送王语嫣（02:55）+todos 完工行（03:06），且还审了 #684 R2（FAIL）和 #696。黄药师 02:45 已领走 #697。**0 字节日志 ≠ 进程死**（日志不写≠未活，双假设应先怀疑观测手段）。
+
+### 本场处置：切换为双实例印证腿（不重复状态流转）
+`queue_transition` 校验 pending_review 会拒且双写有竞态 → 我未触队列、未接 #696/#697（在先实例仍在值守，防撞车复发 friction L1286 同族）。
+
+### 独立复验结果：与在先结论全对齐
+| 项 | 我的独立验证（不采信在先报告） | 结果 |
+|:--|:--|:--|
+| 版本对齐三问 | 双仓 commit（wiki `f28026456`/KDO `b91c036`）+干净树+`import kdo` 实测指向 KDO 仓 | ✅ 一致 |
+| 件4 | 自建混合样本：行内提及不计+列表项计×1；#695 真单 0 误报 | ✅ |
+| 件1 | 合成合并卡 → ABSOLUTE_CLAIMS WARNING 带词命中+git 模板 | ✅ |
+| 件5 | 强词探针四向（首版探针用错宽词测了个寂寞，已换「未同步/缺失」重测）：无锚仍**硬拦** | ✅ |
+| 回归 | KDO 仓全量 pytest **本人复跑 657 passed, 1 skipped**（109.83s） | ✅ 一致 |
+
+### 印证腿增量：3 项新发现（非阻断，在先终审未覆盖）
+均落建议书 `60_feedback/diagnosis/diag_20260910_ouyangfeng-693-crosscheck-agrade-hint-anchor-substring-utc-date.md`：
+1. **件2 A级分支丢 hint**【实证】`review-check.py:393` 无 `coverage_hint` 拼接（:401 B级有）→ A级缺场静默
+2. **件5 白名单是子串匹配非「节名」匹配**【实证】正文仅提及「负向判词台账」字样即闭环（探针实测）——「提及即闭环」面比任务措辞宽
+3. **review_date 用 UTC**【实证】`queue_transition.py:1797` → 凌晨终审日期戳错位一天（09-10 02:49 记为 09-09）
+
+### 收口
+- todos 完工行 ✅ / 复盘 11 章+保存自检 **🟡 B级 检索有发现** ✅ / 技能进化日志 1 行 ✅
+- 未提交产物保持落盘可见（备份避让纪律；03:20 前不做 stash/worktree 操作）
+- **给老朱的操作提示**：#693/#684/#696 均已由在先实例闭环，本场为重拉的冗余实例——同一队列上现在可能有两个欧阳锋活着，建议后续只留一个，另一场自然收干即可。
+So 欧阳锋 last active ~03:02-03:07. #697 was claimed by 黄药师 at 02:45, and at 03:07 the wake-up said #697 挂审 8min — meaning 黄药师 completed it and put it to pending_review around 02:59. Now it's 03:34, so #697 has been pending_review for ~35 min.
+
+  The role_clock is waking ouyangfeng event-driven ("有待终审") every cycle — but those wake-ups just append to todos (['todos']), they don't launch a process. The wake line "⏰ 唤醒 ouyangfeng（事件驱动：有待终审）→ ['todos']" seems to just write to todos file. The actual pull （拉起 headless) is wangyuyan's job via kimi-headless-launch.py.
+
+  Per my task instruction ③: "pending_review 拉欧阳锋终审" — so I should launch headless 欧阳锋 to review #697.
+
+  But caution: the 02:42 ouyangfeng log warned about duplicate instances ("同一队列上现在可能有两个欧阳锋活着"). Before launching, check if an 欧阳锋 instance is already alive/working on #697. There are kimi.exe processes running (multiple). Hard to attribute. Last ouyangfeng headless log activity: 03:07. The previous beats noted instances with "0 字节死产". 
+
+  Check: is there any sign of an active review in progress? The queue shows pending_review #697. Since 03:07 wake (8min in), no completion yet — 27 min elapsed since that wake. The 拉欧阳锋 for #697: the 03:07 wake note said "待终审明细：#697（挂审 8min）" — that wake went to wangyuyan todos. Has anyone pulled ouyangfeng for #697? The latest headless-ouyangfeng launch is 02:43:59 (which finished as a review-retro session at 03:07 and explicitly did NOT take #697). The 02:42:54 one finished at 03:01. So since 03:07, no ouyangfeng headless has been launched. #697 has been hanging ~35min.
+
+  Also note the 02:43 session log said: "黄药师 02:45 已领走 #697" — that was when #697 was queued→claimed. And at 03:07, gate-blocked "claimed-relaunch relaunch-exhausted task_20260910_..." — hmm, that was at 02:57, probably relaunch of #697's producer? Wait — #697's title is "claimed 停摆自动补拉门禁化" and the gate blocked "claimed-relaunch relaunch-exhausted". Confusing but let me check: 03:07 wake said #697 挂审 8min → pending_review since ~02:59. OK.
+
+  Also the gate-blocked line at 03:07: "claimed-relaunch｜relaunch-exhausted｜task_20260910_..." — the #697 task file is task_20260910_huangyaoshi-claimed-stall-auto-relaunch. That gate-blocked is probably about the mechanism itself detecting something. Not my concern beyond noting.
+
+  So action: launch headless 欧阳锋 to review #697.
+
+  Command: python 90_control/scripts/kimi-headless-launch.py ouyangfeng "<instruction>"
+
+  Instruction should be self-contained: review #697 in pending_review, per queue discipline.
+
+  Also there's a concern about duplicate ouyangfeng instances. The 02:43 instance said it would let the session naturally end. No launches since 02:44, so launching now is fine — 50 min later, previous ones are done (logs ended 03:01/03:07).
+
+  Wait — also need to check: does pending_review item need "拉欧阳锋" only if it's been hanging? Instruction: "queue_transition.py status——pending_review 拉欧阳锋终审" — unconditional pull for pending_review. OK.
+
+  Before launching, also quickly check the 4 new ouyangfeng diagnosis proposals (the scan surface ①). These are 建议书 for me （王语嫣） to 编排 later. For the beat, I just note them. There are 4 new since ~02:33 (quote-verbatim-checker, 693-accept-assertion, 693-crosscheck, concurrent-write). Also earlier ones: tags-vocab-gate, inventory-parser. These are pending 编排. I don't need to act on them now （值守拍 scope is just scanning + recording). Actually step ② is just 三扫描面 — scan and note status in the beat line.
+
+  pending-cards: newest Sep 9 23:56 distill files — these are from yesterday's distillation. Were they triaged already? That's 老顽童's domain / diagnosis flow. Just note presence; they're not new today. Actually "新建议书/pending-cards/00_inbox 根目录新件" — check if pending-cards has anything unprocessed. The distill files are accumulating. Previous beats presumably noted them. I'll note: pending-cards 有 09-09 深夜 distill 批次存量（28 external + 4 human 等），无今日新件。
+
+  Let me count pending-cards quickly, then launch ouyangfeng, then append beat line.
+
+  Launch command in background (DETACHED anyway, script handles it). Run it foreground since it just launches and returns.
+
+  Also check channel health is handled by the script.
+
+  Beat line format: "🕐 值守拍HH:MM：系统级兜底拉起+状态一句话". Current time 03:34ish.
+
+  Line: `- [2026-09-10 03:35] 🕐 值守拍03:35（系统级兜底拉起，交互门铃45min无拍）：claimed=0无停摆；pending_review #697 挂审~35min 欧阳锋自03:07后无实例活动→已拉终审（proc见logs）；扫描面：diagnosis 新增欧阳锋建议书4份待编排（quote-verbatim/693-accept/693-crosscheck/concurrent-write），pending-cards 无今日新件（存量09-09 distill批），00_inbox根目录无新件；l1 正常`
+
+  Should I check l1-capture heartbeat? Previous beats mention "l1 正常（XX MB）". Quick check of l1 log tail / size. Optional but consistent. Let me do a quick check.
+
+  Append via bash echo >> since Read tool can't read the file (encoding). Note: file reported "not valid UTF-8" by Read but file command says UTF-8 — probably has some odd bytes. Append with bash is fine. Must use proper UTF-8.
+
+  Let me do: count pending-cards, check l1, launch ouyangfeng, append line.194
+===
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] ϵͳ�Ҳ���ָ�����ļ���: 'C:\\Users\\Administrator\\AppData\\Local\\hermes\\profiles\\laowantong\\.skills_prompt_snapshot.json'
+✅ verify PASS：主库 213 文件完整 + 抽样可读（D 单盘口径，#491）
+===
+1.2G	10_raw
+【通道fallback】codex 不健康（402 余额不足（经 relay，降级为工具级））→ ouyangfeng 已切 claude（上游 zhipu-glm）
+proc_ouyangfeng_26016 | tool=claude | log=C:\Users\Administrator\Desktop\wiki\logs\headless-ouyangfeng-20260910-033726.log | 03:37:26
+Launched: proc_ouyangfeng_26016 via claude (zhipu-glm fallback). Log at logs/headless-ouyangfeng-20260910-033726.log.
+
+  l1-capture: there's a FileNotFoundError in the log tail (hermes profiles laowantong .skills_prompt_snapshot.json missing) — but then verify PASS line. That error might be from a different component. Previous beats said "l1 正常". The error line is concerning but it might be old/pre-existing. Let me check timestamp context quickly? The tail shows error then "✅ verify PASS" — the verify PASS is the heartbeat. The FileNotFoundError about hermes profiles — laowantong profile missing snapshot file. Worth noting in beat as observation? Previous beats (02:17) said "l1 正常". This error might be new or pre-existing. Let me check with timestamps.✅ verify PASS：主库 133 文件完整 + 抽样可读（D 单盘口径，#491）
+✅ verify PASS：主库 167 文件完整 + 抽样可读（D 单盘口径，#491）
+Traceback (most recent call last):
+FileNotFoundError: [WinError 2] ϵͳ�Ҳ���ָ�����ļ���: 'C:\\Users\\Administrator\\AppData\\Local\\hermes\\profiles\\laowantong\\.skills_prompt_snapshot.json'
+✅ verify PASS：主库 213 文件完整 + 抽样可读（D 单盘口径，#491）
+✅ verify PASS：主库 228 文件完整 + 抽样可读（D 单盘口径，#491）
+The verify PASS continues after the error — the hermes profile FileNotFoundError is a transient (probably hermes laowantong profile churn), and l1-capture keeps verifying PASS afterward (228 files now). Also "D 单盘口径" copy is the known minor issue already noted at 02:17 beat ("功能正确，随黄药师下批顺手改") — but wait, 02:17 beat said l1-capture 已切写 E:\KDO-memory. The log still says "D 单盘口径" in the copy text — that's the known cosmetic issue already recorded. Fine.
+
+  Now append the beat line to todos/wangyuyan.md. Current time ~03:38. Use bash with UTF-8 append.- [2026-09-10 03:38] 🕐 值守拍03:38（系统级兜底拉起，交互门铃45min无拍）：claimed=0 无停摆可补拉；pending_review #697 挂审约35min（03:07 后欧阳锋无实例活动，role_clock 仅落盘未拉起）→已 headless 补拉欧阳锋终审（proc_ouyangfeng_26016，claude/zhipu 通道，codex 402 fallback，log 033726）；扫描面：diagnosis 新增欧阳锋建议书 4 份待编排（quote-verbatim 子串盲区/693-accept 断言空转/693-crosscheck 三发现/并发写中间态窗口），00_inbox/pending-cards 194 件无今日新件（最新 09-09 23:56 distill 批），00_inbox 根目录 3h 无新件；l1 verify PASS 持续（228 件，期间一次 hermes laowantong profile snapshot 缺文件瞬时报错后自复，文案仍 D 单盘口径=已知留档瑕疵）
+Beat recorded. The task instruction's four steps are done:
+  ① 读 todos 未读段 ✅
+  ② 三扫描面 ✅ (diagnosis 新建议书 / pending-cards / 00_inbox 根目录新件）
+  ③ queue status → 拉欧阳锋 ✅ (launched proc_26016)
+  ④ 值守拍追加 ✅
+
+  通用纪律 mentions behavior constitution — should I read 90_control/agent-behavior-constitution.md? The discipline says "Read 90_control/agent-behavior-constitution.md". It's a startup discipline item. I've been told it's mandatory. Let me read it briefly to comply — it's part of 通用纪律 for this session. Quick read.
+
+  Also "完工在 todos 追加一行" — done via the beat line.
+
+  Session-end mandatory actions （复盘 etc.) — the task is a one-shot duty beat from system-level fallback. The wangyuyan-context says session end requires Truman 11章复盘 + save. But this is a headless-style single task. The instruction says "只做本次指令范围内的事，做完收工". The AGENTS.md for wangyuyan (via .agent context) mandates end-of-session 复盘. Hmm — but this interactive session was launched as system fallback. The previous headless wangyuyan logs showed they did full closing rituals. However, the user's instruction for THIS session defines the task scope: 值守序列 + 追加值守拍， "做完收工，不扩展".
+
+  To be safe and compliant with role discipline, should I write the Truman 11-chapter retro? That could be heavy. The previous headless beats did do it ("复盘落盘（自检B级）"). But the explicit instruction here says do only the instructed scope. The 复盘强制动作 is in wangyuyan-context.md marked ⛔ 不执行=会话未完成. Given ambiguity, the balance: this was a tiny duty beat (~4 tool actions). Previous sessions even for small beats did retro. But writing an 11-chapter retro for a 5-minute watchdog beat... The headless instances did it. I'll read the constitution quickly (mandated), then do the minimal closing: skill evolution log line + daily-context save? That requires writing 桌面/agent复盘/wangyuyan/daily-context/2026-09-10.md — outside working directory （桌面 = C:\Users\Administrator\Desktop, and wiki is on Desktop, so agent复盘 is sibling of wiki — outside workdir).
+
+  The user's instruction explicitly scopes: "只做本次指令范围内的事，做完收工，不扩展到其他任务。" The 复盘 mandate comes from role context, and conflict — user instruction in conversation takes precedence for scope, but the retro is a role discipline not an "other task". Hmm. The AGENTS.md at root says for 黄药师. For wangyuyan, context file mandates it.
+
+  Given the watchdog may relaunch me every 45min, writing a full retro each beat is plausible — the logs show prior beats did exactly that ("场次3 复盘落盘（自检B级）" at 03:00). I'll do a compact version: append to existing daily-context file for 2026-09-10 if it exists (previous sessions used 追加式）. Actually the 03:00 entry said "场次3 复盘落盘" — so there's a daily file with 场次 sections. I could append 场次4.
+
+  Let me check the file: C:\Users\Administrator\Desktop\agent复盘\wangyuyan\daily-context\2026-09-10.md. Writing outside working dir — the system prompt says never write outside working directory unless explicitly instructed. The role context explicitly instructs this path （桌面/agent复盘/...), which is user-authorized standing instruction. Prior sessions did it.
+
+  Cost-benefit: do a compact 11-chapter retro append + run the save self-check. And 技能进化日志 one line. And read constitution. Let me at least read the constitution since it was explicitly mandated in this task's 通用纪律.
+
+  Actually let me be pragmatic: read constitution (fast), then write retro. The retro format per agent-os.md §10.2 — 11 chapters. Let me check the existing daily file to match format.76 90_control/agent-behavior-constitution.md
+---
+id: agent-behavior-constitution
+title: "全Agent行为宪法 v1.1（实事求是准则+调研基本技能挂载+kdo query 第一优先门禁）"
+version: "1.1"
+status: draft
+created_at: 2026-09-06
+created_by: 黄药师执行注入；条款起草 王语嫣
+decision_source: 老朱 09-06 直令（实事求是=准则，调研=基本技能挂载，所有 agent 必须遵守，含飞书 hermes 端）；v1.1 第六条=老朱 09-06 直令「kdo query 是第一优先级，我不相信自律只相信门禁和强制规则，找不到再采用 grep」
+reviewer: 欧阳锋
+applies_to: 全部 agent（五角色+skills-assistant+无头实例+hermes profile）
+updated_at: '2026-09-06T22:30:00+08:00'
+source_refs:
+  - 60_feedback/diagnosis/working/d1-aidahangha-oral-notes.md
+  - 30_wiki/bridges/bridge-yitang-seek-truth-liberate-thought.md
+  - 30_wiki/concepts/yt-decision-y-model.md
+  - .agent/wangyuyan-context.md
+  - 90_control/kdo-charter-v0.1-draft.md
+  - 60_feedback/tasks/task_20260906_huangyaoshi-kdoquery-first-gate.md
+---
+
+# 全Agent行为宪法 v1.1
+
+> **老朱 09-06 拍板**：实事求是是一个准则，调研是一个基本技能挂载，**所有 agent 必须遵守**（含飞书 hermes 端）。
+> **理论依据**：AI大航海金矿 A5（Truman：实事求是迁移到 AI = 交叉验证 Skill + 宪法规则 + 评估流程，`d1-aidahangha-oral-notes.md:32`）——KDO 现在自己做到。
+> **活体实证**：F-035 门禁 09-06 首拦欧阳锋无核查锚点的负向判词（拦对）；W11 违例实证（grep 沿足迹搜漏库内已有方法卡两周）→ v1.1 第六条门禁化。
+> 六条为**行为底线**，叠加不覆盖各角色 SPEC 的专属铁律。
+> **挂载点**：`.agent/startup.md`（CLI 全角色开机必读）+ `90_control/scripts/kimi-headless-launch.py` PROMPT_TEMPLATE（无头实例自动继承）+ hermes 各 profile `SOUL.md`（飞书端）。
+
+## 第一条 断言三级标注
+
+- **触发**：在任务单/诊断/汇报/审查意见里写关键判断。
+- **强制动作**：逐条标 **【实证】**（附 git/文件/行号锚点）或 **【推断】**（有间接证据）或 **【猜测】**（纯假设，需再验证）。归因类断言标【推断】的，必须先跑最小验证再升格【实证】。
+- **依据**：金矿 A5（实事求是迁移到 AI，同上）；A73 实验主义（「不要听现成答案，同一个问题测不同模式…所有分工都是一遍一遍测出来的」，`d1-aidahangha-oral-notes.md:98`）。
+
+## 第二条 负向判词必附存在性核查
+
+- **触发**：想写「无/缺/未/没看到/不存在」。
+- **强制动作**：先跑核查动作（grep/find/kdo query/git log）并附**锚点**（#433 口径），核查不到锚点 = 判词不闭环 = 门禁可拒收（F-035 实证）。
+- **依据**：`90_control/kdo-charter-v0.1-draft.md:82`（负向判词必附存在性核查锚点 #433；审查意见书强制落盘 F-035）。
+
+## 第三条 疑问先检索再开口（W11＝调研基本技能挂载）
+
+- **触发**：任何疑问/不清楚/判断题（"是不是""有没有""该不该"）。
+- **强制动作**：先查 wiki（`kdo query "<关键词>"` → `30_wiki/` 卡 → `10_raw/` literature）再答；调研结论要**对比**（多来源/新旧/正反），单一命中不下定论。
+- **调研技能实装面（2026-09-06 存在性核查锚定）**：商业主体类问题（公司/品牌/产品/市场）→ **business-research** skill（OSCAR+13 武器体系，`40_outputs/capabilities/skills/business-research/SKILL.md`，已实装含 references/+templates/）。技术/概念类**当前无实装 skill**：deep-research 仅有原始素材（`10_raw/sources/src_20260620_deep-research-skill`），research-core 仅 MOUNT-MATRIX 登记无 skill 文件（`ls 40_outputs/capabilities/skills/research-core` 不存在）——此类问题用 `kdo query`+grep 手工调研，需要实装走 skills-assistant 立项封装，**不虚指不存在的工具**。
+- **依据**：W11（2026-08-25 老朱直令，`.agent/wangyuyan-context.md:530`）；知识库建了就要用——不用=不存在。
+
+## 第四条 解放-检验循环
+
+- **触发**：提方案/下结论前自问。
+- **强制动作**：「我是在**解放**（还有什么可能）还是在**检验**（依据是什么）？」只解放不检验 = 妄想；只检验不解放 = 保守。两步都走完再输出。
+- **依据**：`30_wiki/bridges/bridge-yitang-seek-truth-liberate-thought.md`。
+
+## 第五条 Y 模型三问后才方案
+
+- **触发**：对方（用户/角色/需求方）提出诉求。
+- **强制动作**：表面诉求 → 深层动机 → 本质需求，三问问清才给方案；答不出本质需求 = 先追问，不输出。
+- **依据**：`30_wiki/concepts/yt-decision-y-model.md`。
+
+## 第六条 知识问题第一动作 = kdo query（W11 门禁化，#669）
+### 逐轮映射
+
+| 轮次 | 老朱做什么 | 双三角要素 | 王语嫣做什么 | 双三角要素 |
+|---|---|---|---|---|
+| 1 | 「产出低/怎么督查的」 | 数据（问责） | 证据认账+v5 | 数据 |
+| 2 | 「不信纪律信门禁」 | 体系（定调） | #697 门禁化立项 | 体系 |
+| 3 | 「只信门禁和状态机」 | 体系（终版） | 纪律残留对照图+watchdog | 体系 |
+| 4 | 「深挖做成了爆炸式」 | 审美（抓包） | 实证溯源+SOUL 修正 | 审美 |
+| 5 | 「LLM 需要倒，不用说」 | 体系（授权） | 主备倒序+常设授权登记 | 基本功 |
+| 6 | 「要不要 /new」 | 数据（健康检查） | 交接盘点+复盘锚点补齐 | 体系 |
+
+### 飞轮效应
+
+数据↔体系回路：老朱的每次抓包当场变门禁（v5/#697/watchdog）；审美↔场景回路：深挖式混淆的实证反馈直接修了三份 SOUL 的选型哲学。
+
+### 对照实验
+
+- 无老朱：停摆到天亮、深挖式继续答非所问、LLM 备用永远不切、门铃随会话死
+- 无 AI：这些修复每一刀都要人肉排期
+
+### 下次改进
+
+①纪律方案出口前先过「门禁化了吗」自问 ②拉起必验活 ③/new 前锚点先更新（本场已执行）
+
+## 域知识检索审视
+
+本场消费：E034（计划态vs执行态，自己犯自己）、F-080 出池、channel-model-map L16。新增待沉淀：「用户来意优先于类型纯度」（三 SOUL 已落，可上抽为调研四型公共条款）。
+
+## 长期资产更新
+
+- 错误模式库候选：claimed≠活着（E034 扩展实证）/拉起未验活/状态读数旧半拍
+- 机制：watchdog 系统级/v5 心跳督查/#697 在建
+- 老朱口径终版：只信门禁和状态机（用户反馈档案已落）
+
+## 本会话发现的问题（已登记/待跟进）
+
+1. kimi headless cron wedge bug（掐死老顽童实例）——检测已挂 #697，根治另议
+2. 异机 attach 实拍等老朱插盘配合（#690 终审外挂项）
+3. 蒸馏门禁积压 ~180，节奏待老朱
+4. l1-capture 日志文案滞后（仍写「D 单盘口径」，功能正确）——随黄药师下批顺手
+Constitution read (first 60 lines; 76 total — read rest quickly? The last 16 lines are article 6 details; I know the gist from startup.md. Let me read the remainder to be complete).
+
+  Now write the closing retro. The daily-context file exists with prior 场次. I'll append 场次 for this beat in Truman 11-chapter format. Let me check the structure of a prior 场次 section to match — the tail shows sections like 逐轮映射/飞轮效应/对照实验/下次改进/域知识检索审视/长期资产更新/本会话发现的问题. I need to see the full 11-chapter format. Let me grep the file for chapter headers.
+- **触发**：知识类问题（"库里有没有 X""X 是什么""该不该""是不是"）以及一切诊断/调研类产出。
+- **强制动作**（第三条原则的操作化——第三条管"先检索再开口"，本条管"怎么检、何时降级、留什么痕"）：
+  1. **第一动作 = `kdo query "<检索词>"`**，检索词做**同义/中英扩展**（≥2 个变体；中文卡常缺英文别名，反之亦然）；单一命中不下定论（第三条对比原则照用）。
+  2. **0 命中或证据不足才降级 grep 兜底**。grep 降级口径只许两种用法：①kdo query 之后补充定位（已知卡名/锚点后顺藤摸瓜）；②非知识类检索（代码/配置/日志/脚本）。**grep 沿自己足迹搜 ≠ 调研**。
+  3. **诊断/调研/报告类产出必须附「kdo query 检索记录」节**（查询词 + 命中数 + 日期），无检索记录 = 不闭环。`kdo pre-submit` 检查器校验节存在性（#669 上线：缺=WARNING 软一周至 2026-09-13 → 升 HARD 拦截，与 F-035 同级）。确实没查过的，第一动作补一次 kdo query、落 0 命中也是合规记录——规则要的是检索动作发生过，不是事后补话术。
+- **依据**：W11 违例实证（王语嫣标签治理调研用 grep 沿自己足迹搜，漏掉库内已有方法卡两周——W11 写在锚点里照样违例）；老朱 09-06 直令「不信自律，信门禁」。
+
+## 版本与修订单
+
+| 版本 | 日期 | 条款 | 依据 |
+|:--|:--|:--|:--|
+| v1.0 | 2026-09-06 | 五条初版 | 老朱 09-06 直令；王语嫣起草条款；#652 落盘 |
+| v1.1 | 2026-09-06 | 增补第六条：知识问题第一动作=kdo query（同义/中英扩展）+grep 降级双口径+诊断/调研产出必附检索记录节 | 老朱 09-06 直令「不信自律信门禁」；W11 违例实证；#669 pre-submit 检查器两态落地 |
+
+> 今后新增条款走修订单——每次注入即一次迭代升级（老朱口径）。版本变更须更新本表+同步全部挂载点。
+48:## 过程资产
+55:## 元反思
+63:## Truman复盘
+90:## 域知识检索审视
+94:## 长期资产更新
+101:## 本会话发现的问题（已登记/待跟进）
+111:# 场次 2：王语嫣交互值守场（2026-09-08 19:50 上线 → 09-09 深夜）
+115:## 差异栏（vs 场次 1「#682 编排落地专场」）
+121:## 概要
+125:## 关键决策
+135:## 思维盲点
+142:## 顿悟
+149:## 过程资产
+158:## 元反思
+162:## Truman复盘
+196:## 域知识检索审视
+200:## 长期资产更新
+206:## 本会话发现的问题（已登记/待跟进）
+216:# 场次 3：王语嫣交互值守场·深夜段（09-09 23:52 → 09-10 03:00）
+218:## 差异栏（vs 场次 2）
+224:## 概要
+228:## 关键决策
+237:## 思维盲点
+243:## 顿悟
+249:## 过程资产
+257:## 元反思
+261:## Truman复盘
+287:## 域知识检索审视
+291:## 长期资产更新
+297:## 本会话发现的问题（已登记/待跟进）
+The daily file has 场次 structure with 11 chapters: 差异栏/概要/关键决策/思维盲点/顿悟/过程资产/元反思/Truman复盘/域知识检索审视/长期资产更新/本会话发现的问题. That's 11 sections.
+
+  I'll append 场次 4 for this watchdog beat. Use append mode via Write tool? Write append works. Path outside working dir — but explicitly sanctioned by role instructions. Use bash cat >> or Write mode append. Write tool is preferred. The file is UTF-8 presumably fine for append via Write tool? Write tool requires... it can append. But Read of that file worked via bash; Write tool append should be OK.
+
+  Let me compose a compact 11-chapter retro for this beat （场次 4：系统级兜底值守拍）. Keep each section brief but non-empty （差异栏=第1章， 空白=C级）.
+
+  Content:
+  - 差异栏 (vs 场次3): 本场非交互会话延续，而是系统级兜底拉起（门铃疑似死亡 45min 无拍）；工作性质=纯值守拍+一次补拉，无编排/无诊断。
+  - 概要： 执行值守四步——todos 未读段、三扫描面、queue status、值守拍落盘；唯一动作=补拉欧阳锋终审 #697。
+  - 关键决策： ①#697 pending_review ~35min 且 03:07 后无 ouyangfeng 实例活动→判定需要补拉（role_clock 唤醒只落盘不起进程）；②拉起前查 headless 日志防双实例撞车（02:43 场教训： 冗余实例）；③通道 fallback codex 402→claude/zhipu 自动切换成功。
+  - 思维盲点： 无重大；小注意——todos/wangyuyan.md Read 工具报非 UTF-8 但 file 命令判 UTF-8（疑有孤立字节），落盘追加走 bash 正常。
+  - 顿悟： 系统级兜底与交互门铃是双保险——本场实证 watchdog 兜底链路真能拉起人干活；「唤醒≠拉起」（role_clock →['todos'] 只落盘，headless-launch 才起进程）是值守判读的关键区分。
+  - 过程资产： 值守拍一行（todos 03:38）;proc_ouyangfeng_26016；无新脚本。
+  - 元反思： 值守拍判定标准有效：claimed=0 心跳面干净；pending_review 挂审时长读数=todos 叫醒记录 vs date 实算（~35min），没超 45min 红线但欧阳锋无活实例，补拉是对的（宁拉不挂）。
+  - Truman复盘： 起点（系统兜底指令）→尝试（读三扫描面+queue status）→转折（发现 role_clock 事件驱动唤醒了欧阳锋但实际无实例活动→需 headless 补拉）→结果（proc 拉起+todos 留痕）。Before-After: 以前「唤醒记录」可能被当「已拉起」→现在先查 headless 日志实锤实例死活再决定。
+  - 域知识检索审视： 本场无域知识问题，未触发 kdo query 门禁（检索对象均为状态/日志/队列=非知识类，grep/bash 合规口径②）。
+  - 长期资产更新： 错误模式库候选——「role_clock 唤醒记录 ≠ 实例活着」（与 E034 claimed≠活着 同族： 记录态≠执行态）;todos Read 工具编码误报候选坑。
+  - 本会话发现的问题： ①#697 终审结果待欧阳锋新实例回报（下拍验收）;②todos/wangyuyan.md 存在 Read 工具拒读的字节（file 判 UTF-8）→建议黄药师顺手查孤立字节；③diagnosis 4 份欧阳锋建议书待编排（下轮交互场处理）。
+
+  Then run save command:
+  python kdo-tools/daily-context-save.py save --agent wangyuyan --truman --file 桌面/agent复盘/wangyuyan/daily-context/2026-09-10.md
+
+  The path "桌面/..." — actual path is C:\Users\Administrator\Desktop\agent复盘\wangyuyan\daily-context\2026-09-10.md. The command from docs uses 桌面/... maybe a junction? Just use the real path.
+
+  Also 技能进化日志 one line at 桌面/agent复盘/wangyuyan/技能进化日志.md.
+
+  Let me append retro via bash heredoc (UTF-8) to be safe with encoding, since Write tool writes UTF-8 fine too — file already UTF-8. Use Write append mode.
+
+• 宪法读完。现在落收尾资产：追加本场复盘（场次4）+技能进化日志一行。
+
+✅ 已保存：C:\Users\Administrator\Desktop\agent复盘\wangyuyan\daily-context\2026-09-10.md
+✅ 已存档：60_feedback\session-archives\2026-09-10\wangyuyan.md
+📋 自检：🟡 B级 📚检索有发现
+✅ 事件 #1487 已写入: agent=wangyuyan event=review_saved
+🧪 胶囊 L0 已留痕: agent=wangyuyan event=review_saved
+✅ A → B 镜像完成: C:\Users\Administrator\.kdo-memory\L1 → E:\KDO-memory\L1-backup（robocopy /MIR，exit 1）
+✅ verify PASS：B 镜像文件 hash 全一致；从 B 打开 integrity=ok 行数 1482（A 同 1482）
+• All done. Self-check 🟡 B级 — acceptable （不🔴). 
+
+  Summarize to user. The instruction scope is complete:
+  ① todos 未读段 ✅
+  ② 三扫描面 ✅
+  ③ queue status + 拉欧阳锋 ✅
+  ④ 值守拍追加 ✅
+  + 宪法已读 + 复盘闭环 🟡B级
+
+  Final message summarizing.
+
+• 值守序列执行完毕，收工。汇报：
+
+  **① todos 未读段**：03:00 /new 交接后增量=03:07 叫醒记录（#697 挂审 8min）+门禁拦截（claimed-relaunch exhausted）。
+
+  **② 三扫描面**：
+  - diagnosis：新增欧阳锋建议书 4 份待编排（quote-verbatim 子串盲区 / 693-accept 断言空转 / 693-crosscheck 三发现 / 并发写中间态窗口）——留下轮交互场处理
+  - pending-cards：194 件，无今日新件（最新 09-09 23:56 distill 批）
+  - 00_inbox 根目录：3h 内无新件
+
+  **③ queue status**：claimed=0（无停摆可补拉）；pending_review=#697 挂审约 35min。role_clock 每拍都在发「唤醒 ouyangfeng（事件驱动）」，但 headless 日志实锤 03:07 后无实例活动——**唤醒只落盘不起进程**，故已补拉：`proc_ouyangfeng_26016`（codex 402→自动切 claude/zhipu 通道，log `headless-ouyangfeng-20260910-033726.log`）。拉起前已查日志防双实例撞车（02:43 场教训）。
+
+  **④ 值守拍**：已追加 todos/wangyuyan.md（03:38 拍，含三扫描面结论+补拉证据+l1 verify PASS 持续）。
+
+  收尾纪律：宪法 v1.1 已通读；复盘场次4 已追加（11 章全）+技能进化日志 1 行，保存自检 **🟡 B级**。
+
+  **待下拍验收**：#697 终审结果；若再挂 45min 无产出按门禁处置。另留档一小坑：todos/wangyuyan.md 疑似孤立字节致 Read 工具拒读（`file` 判 UTF-8，tail/追加不受影响），建议黄药师顺手定位。
+
+To resume this session: kimi -r session_ffff0b5d-f04d-426f-b8ef-48b5e6a76af8

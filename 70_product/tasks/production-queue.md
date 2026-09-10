@@ -586,36 +586,6 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 
 > 王语嫣维护看板时处理：诊断 → 写任务单 → 入队后把对应行划掉。编排规则不变，这里只解决「没人被通知」。
 
-- ~~00_inbox/wechat-collect/src_wechat_5ecea4cc1eb4f87f.md｜P2｜8364B｜检测到 09-07 00:31｜待王语嫣编排~~ → 分诊入挖矿优先批（09-07 09:15 王语嫣）：本体建模（Ontology Modeling 五概念，茶业供应链案例）8.4KB——KDO 架构/「知识库 vs 本体论」（R18-05）直接相关高价值；ASR 小模型误听标注使用；随 A1 挖矿流水线优先开采
-- 00_inbox/pending-cards/distill-external-20260907-01.md｜P2｜1101B｜检测到 09-07 16:01｜待王语嫣编排
-- 00_inbox/pending-cards/distill-external-20260907-02.md｜P2｜1132B｜检测到 09-07 16:01｜待王语嫣编排
-- 00_inbox/pending-cards/distill-external-20260907-03.md｜P2｜1108B｜检测到 09-07 16:01｜待王语嫣编排
-- 00_inbox/pending-cards/distill-external-20260907-04.md｜P2｜1050B｜检测到 09-07 16:01｜待王语嫣编排
-- 00_inbox/pending-cards/distill-external-20260907-05.md｜P2｜1014B｜检测到 09-07 16:01｜待王语嫣编排
-- 00_inbox/pending-cards/distill-external-20260907-06.md｜P2｜966B｜检测到 09-07 16:01｜待王语嫣编排
-- 00_inbox/pending-cards/distill-external-20260907-07.md｜P2｜987B｜检测到 09-07 16:01｜待王语嫣编排
-- 00_inbox/pending-cards/distill-external-20260907-08.md｜P2｜1206B｜检测到 09-07 16:01｜待王语嫣编排
-- 00_inbox/pending-cards/distill-external-20260907-09.md｜P2｜1220B｜检测到 09-07 16:01｜待王语嫣编排
-- 00_inbox/pending-cards/distill-external-20260907-10.md｜P2｜1160B｜检测到 09-07 16:01｜待王语嫣编排
-- 00_inbox/pending-cards/distill-external-20260907-11.md｜P2｜1206B｜检测到 09-07 16:01｜待王语嫣编排
-- 00_inbox/pending-cards/distill-external-20260907-12.md｜P2｜1172B｜检测到 09-07 16:01｜待王语嫣编排
-- 00_inbox/pending-cards/distill-external-20260907-13.md｜P2｜1103B｜检测到 09-07 16:01｜待王语嫣编排
-- 00_inbox/pending-cards/distill-external-20260907-14.md｜P2｜1081B｜检测到 09-07 16:01｜待王语嫣编排
-- 00_inbox/pending-cards/distill-external-20260907-15.md｜P2｜1017B｜检测到 09-07 16:01｜待王语嫣编排
-- 00_inbox/pending-cards/distill-external-20260907-16.md｜P2｜964B｜检测到 09-07 16:01｜待王语嫣编排
-- 00_inbox/pending-cards/distill-external-20260907-17.md｜P2｜1006B｜检测到 09-07 16:01｜待王语嫣编排
-- 00_inbox/pending-cards/distill-external-20260907-18.md｜P2｜1022B｜检测到 09-07 16:01｜待王语嫣编排
-- 00_inbox/pending-cards/distill-external-20260907-19.md｜P2｜1024B｜检测到 09-07 16:01｜待王语嫣编排
-- 00_inbox/pending-cards/distill-external-20260907-20.md｜P2｜955B｜检测到 09-07 16:01｜待王语嫣编排
-- 00_inbox/pending-cards/distill-external-20260907-21.md｜P2｜1028B｜检测到 09-07 16:01｜待王语嫣编排
-- 00_inbox/pending-cards/distill-external-20260907-22.md｜P2｜959B｜检测到 09-07 16:01｜待王语嫣编排
-- 00_inbox/pending-cards/distill-external-20260907-23.md｜P2｜946B｜检测到 09-07 16:01｜待王语嫣编排
-- 00_inbox/pending-cards/distill-external-20260907-24.md｜P2｜937B｜检测到 09-07 16:01｜待王语嫣编排
-- 00_inbox/pending-cards/distill-external-20260907-25.md｜P2｜925B｜检测到 09-07 16:01｜待王语嫣编排
-- 00_inbox/pending-cards/distill-external-20260907-26.md｜P2｜936B｜检测到 09-07 16:01｜待王语嫣编排
-- 00_inbox/pending-cards/distill-external-20260907-27.md｜P2｜893B｜检测到 09-07 16:01｜待王语嫣编排
-- 00_inbox/pending-cards/distill-external-20260907-28.md｜P2｜876B｜检测到 09-07 16:01｜待王语嫣编排
-- 00_inbox/pending-cards/distill-external-20260907-29.md｜P2｜1092B｜检测到 09-07 16:01｜待王语嫣编排
 - 00_inbox/pending-cards/distill-external-20260907-30.md｜P2｜1212B｜检测到 09-07 16:01｜待王语嫣编排
 - 00_inbox/pending-cards/distill-external-20260907-31.md｜P2｜1085B｜检测到 09-07 16:01｜待王语嫣编排
 - 00_inbox/pending-cards/distill-external-20260907-32.md｜P2｜1119B｜检测到 09-07 16:01｜待王语嫣编排
@@ -706,6 +676,36 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - 00_inbox/pending-cards/distill-human-20260909-02.md｜P2｜1001B｜检测到 09-09 16:01｜待王语嫣编排
 - 00_inbox/pending-cards/distill-human-20260909-03.md｜P2｜1016B｜检测到 09-09 16:01｜待王语嫣编排
 - 00_inbox/pending-cards/distill-human-20260909-04.md｜P2｜1079B｜检测到 09-09 16:01｜待王语嫣编排
+- 00_inbox/私董会/｜P2｜34件｜检测到 09-10 12:41｜待王语嫣编排（#651 目录级登记：内件不在扫描面，需文件级跟踪→加入 SCAN_SUBDIRS）
+- 00_inbox/pending-cards/distill-external-20260910-01.md｜P2｜1038B｜检测到 09-10 15:51｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260910-02.md｜P2｜1087B｜检测到 09-10 15:51｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260910-03.md｜P2｜1101B｜检测到 09-10 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260910-04.md｜P2｜1050B｜检测到 09-10 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260910-05.md｜P2｜1082B｜检测到 09-10 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260910-06.md｜P2｜1024B｜检测到 09-10 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260910-07.md｜P2｜1063B｜检测到 09-10 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260910-08.md｜P2｜1144B｜检测到 09-10 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260910-09.md｜P2｜1150B｜检测到 09-10 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260910-10.md｜P2｜1135B｜检测到 09-10 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260910-11.md｜P2｜1077B｜检测到 09-10 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260910-12.md｜P2｜1150B｜检测到 09-10 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260910-13.md｜P2｜1066B｜检测到 09-10 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260910-14.md｜P2｜1239B｜检测到 09-10 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260910-15.md｜P2｜1141B｜检测到 09-10 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260910-16.md｜P2｜1087B｜检测到 09-10 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260910-17.md｜P2｜1224B｜检测到 09-10 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260910-18.md｜P2｜1130B｜检测到 09-10 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260910-19.md｜P2｜1087B｜检测到 09-10 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260910-20.md｜P2｜1138B｜检测到 09-10 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260910-21.md｜P2｜1066B｜检测到 09-10 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260910-22.md｜P2｜1078B｜检测到 09-10 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260910-23.md｜P2｜1034B｜检测到 09-10 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260910-24.md｜P2｜1024B｜检测到 09-10 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-external-20260910-25.md｜P2｜1063B｜检测到 09-10 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-human-20260910-01.md｜P2｜1093B｜检测到 09-10 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-human-20260910-02.md｜P2｜1105B｜检测到 09-10 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-human-20260910-03.md｜P2｜1076B｜检测到 09-10 16:01｜待王语嫣编排
+- 00_inbox/pending-cards/distill-human-20260910-04.md｜P2｜1084B｜检测到 09-10 16:01｜待王语嫣编排
 
 <!-- INBOX-PENDING-END -->
 
@@ -1290,6 +1290,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - [gate-blocked] diag_20260910_ouyangfeng-tags-vocab-gate-hard-deadline.md｜09-10 01:37｜待王语嫣复核处置｜2026-09-10 01:37:01｜diag_20260910_ouyangfeng-tags-vocab-gate-hard-deadline.md｜near-miss-三元组（#506）｜status=pending-review 疑似待编排但非 pending_orchestration｜conveyor_probe
 - [friction] [shared] - [2026-09-10 02:50] laowantong | #684 R2 返工 | 双实例撞单：本实例 02:45 claim 成功（commit 4fe17a952），并行 laowantong 实例 02:43-02:47 已落同款修复+R2 报告并抢先 commit(b63dd2efb)+complete(7c8560fda)；同名实例 queue_transition 无法区分两个会话，claim 未拦截 | 初判：多实例同名=锁失效，E019 家族变种；所幸产出幂等（同一份修复），验证后状态一致 |｜09-10 02:53｜待王语嫣复核处置｜[shared] - [2026-09-10 02:50] laowantong | #684 R2 返工 | 双实例撞单：本实例 02:45 claim 成功（commit 4fe17a952），并行 laowantong 实例 02:43-02:47 已落同款修复+R2 报告并抢先 commit(b63dd2efb)+complete(7c8560fda)；同名实例 queue_transition 无法区分两个会话，claim 未拦截 | 初判：多实例同名=锁失效，E019 家族变种；所幸产出幂等（同一份修复），验证后状态一致 |
 - [gate-blocked] claimed-relaunch｜09-10 03:07｜待王语嫣复核处置｜2026-09-10 02:57:15｜claimed-relaunch｜relaunch-exhausted｜task_20260910_huangyaoshi-697-stall-drill 已自动补拉 2 次仍无产出，停拉等人工裁定｜conveyor_probe
+- diag_20260910_wangyuyan-feature-deep-card-gold-standard.md｜09-10 10:17｜待王语嫣复核裁定
 
 <!-- PROPOSAL-PENDING-END -->
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |

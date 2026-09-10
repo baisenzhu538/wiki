@@ -1,0 +1,21 @@
+{
+ "urls": [
+  "https://bg.qianzhan.com/trends/detail/506/231229-5f101f8e.html",
+  "https://caifuhao.eastmoney.com/news/20250910113959085164690",
+  "https://www.gov.cn/lianbo/202605/content_7070238.htm",
+  "http://www.xinhuanet.com/health/20260320/4252d55e183640f8ac39e8bb0ef95036/c.html",
+  "http://www.xinhuanet.com/health/20260615/fad55164d31245818c736dab340645f4/c.html",
+  "https://baijiahao.baidu.com/s?id=1875205831787081739&wfr=spider&for=pc",
+  "https://ybj.shanxi.gov.cn/xxfb/fdzdgknr/gzdt/202311/t20231115_9427230.html",
+  "https://www.gz.gov.cn/xw/zwlb/bmdt/content/mpost_10410461.html",
+  "https://www.nhsa.gov.cn/art/2025/7/14/art_7_17248.html",
+  "https://zhuanlan.zhihu.com/p/2058593397452043983",
+  "https://www.100ec.cn/detail--6648041.html",
+  "https://finance.eastmoney.com/a/202505053395845491.html",
+  "https://baijiahao.baidu.com/s?id=1865236910864465044&wfr=spider&for=pc",
+  "https://xueqiu.com/1432695240/348328567",
+  "https://baijiahao.baidu.com/s?id=1874042623496928664&wfr=spider&for=pc",
+  "https://baijiahao.baidu.com/s?id=1874484904964117692&wfr=spider&for=pc"
+ ],
+ "out": "C:/Users/Administrator/Desktop/wiki/scrape/out_mb/fetch_r1.json"
+}

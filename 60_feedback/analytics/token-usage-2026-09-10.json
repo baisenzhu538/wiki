@@ -1,0 +1,22 @@
+{
+  "date": "2026-09-10",
+  "collected_at": "2026-09-10T02:07:59",
+  "usage": {
+    "claude": {
+      "a535730d-1cce-4b9f-96b0-8df5b01c33a9": {
+        "input": 603508,
+        "output": 276780,
+        "cache_read": 92128128,
+        "cache_write": 0
+      }
+    },
+    "kimi": {
+      "session_060e5860-9799-4053-bfca-1a0301a6a472/main": {
+        "input": 160361,
+        "output": 68860,
+        "cache_read": 100830720,
+        "cache_write": 0
+      }
+    }
+  }
+}

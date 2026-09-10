@@ -1,14 +1,14 @@
 # source_refs 健康检查报告
 
-**扫描范围**：2972 张卡片
-**有 source 的卡片**：2780 张
-**空 source 卡片**：188 张
-**source_refs 总数**：6151 条
-**文件路径类 source**：4468 条
-**✅ 文件存在**：4157 条
+**扫描范围**：2987 张卡片
+**有 source 的卡片**：2797 张
+**空 source 卡片**：186 张
+**source_refs 总数**：6182 条
+**文件路径类 source**：4499 条
+**✅ 文件存在**：4188 条
 **❌ 文件缺失**：311 条
 **⚠️ 污染引用**：8 条
-**🔗 行号锚引用**：846 条（剥锚后存在 846 条——剥锚修复前全被误判缺失，#543）
+**🔗 行号锚引用**：859 条（剥锚后存在 859 条——剥锚修复前全被误判缺失，#543）
 
 ---
 
@@ -488,7 +488,13 @@
 | `case-liutao-electric-bike-localization` | 1 | 1 | 0 | 0 | enriched |
 | `case-live258-europe-cold-email` | 1 | 1 | 0 | 0 | reviewed |
 | `case-live258-fact-spread-18-bridges` | 1 | 1 | 0 | 0 | reviewed |
+| `case-live258-huangqian-promo-film` | 1 | 1 | 0 | 0 | enriched |
 | `case-live258-livestream-prompt-v1-v5` | 1 | 1 | 0 | 0 | reviewed |
+| `case-live258-nongfu-assist-agri-video` | 1 | 1 | 0 | 0 | enriched |
+| `case-live258-simonpeng-medical-dataset` | 1 | 1 | 0 | 0 | enriched |
+| `case-live258-tianli-gov-training` | 1 | 1 | 0 | 0 | enriched |
+| `case-live258-xingzhi-media-layered-diagnosis` | 1 | 1 | 0 | 0 | enriched |
+| `case-live258-yongbo-embodied-sorting` | 1 | 1 | 0 | 0 | enriched |
 | `case-live258-zhihu-content-acquisition` | 1 | 1 | 0 | 0 | reviewed |
 | `case-live261-jacky-ip-marketing-protracted-war` | 1 | 1 | 0 | 0 | draft |
 | `case-live261-lixiuhui-compound-bow-dealer-war` | 1 | 1 | 0 | 0 | draft |
@@ -570,6 +576,7 @@
 | `case-truman-ai-partner` | 4 | 4 | 0 | 0 | enriched |
 | `case-truman-ai-skill-engineering-guide` | 2 | 2 | 0 | 0 | reviewed |
 | `case-truman-ai-skill-self-packaging` | 2 | 2 | 0 | 0 | reviewed |
+| `case-truman-bedtime-story-datapack` | 2 | 2 | 0 | 0 | reviewed |
 | `case-truman-investment-daily-report` | 1 | 1 | 0 | 0 | draft |
 | `case-truman-livestream-sop-iteration` | 2 | 2 | 0 | 0 | enriched |
 | `case-truman-meeting-leadership` | 3 | 3 | 0 | 0 | enriched |
@@ -599,9 +606,12 @@
 | `case-wenxiaobao-campus-bilateral-network` | 2 | 0 | 2 | 0 | draft |
 | `case-wudi-innovation-contest-value` | 2 | 0 | 2 | 0 | draft |
 | `case-xian-franchise-location-decision` | 1 | 1 | 0 | 0 | enriched |
+| `case-xujian-invoice-data-asset` | 2 | 2 | 0 | 0 | reviewed |
 | `case-yi-tang-ai-gao-kao-zhi-yuan-kernel-mismatch` | 2 | 2 | 0 | 0 | reviewed |
 | `case-yihang-dual-triangle-ahao-product-selection` | 10 | 9 | 1 | 0 | reviewed |
 | `case-yihang-dual-triangle-ai-organizational-behavior` | 1 | 1 | 0 | 0 | draft |
+| `case-yihang-dual-triangle-AI三角-数据` | 1 | 1 | 0 | 0 | reviewed |
+| `case-yihang-dual-triangle-AI数据` | 1 | 1 | 0 | 0 | reviewed |
 | `case-yihang-dual-triangle-beike-ai-outbound` | 2 | 2 | 0 | 0 | reviewed |
 | `case-yihang-dual-triangle-canvas-thesis-review` | 1 | 1 | 0 | 0 | draft |
 | `case-yihang-dual-triangle-canvas-trademark-design` | 1 | 1 | 0 | 0 | draft |
@@ -851,6 +861,7 @@
 | `concept-christensen-rpv-model` | 3 | 1 | 0 | 0 | reviewed |
 | `concept-cognitive-offloading-in-ai-era` | 3 | 3 | 0 | 0 | reviewed |
 | `concept-collaboration-philosophy-foundation` | 9 | 2 | 0 | 0 | draft |
+| `concept-data-three-constants-three-shifts` | 2 | 2 | 0 | 0 | reviewed |
 | `concept-five-step-growth-to-barrier-transition` | 2 | 2 | 0 | 0 | enriched |
 | `concept-harness-cattle-not-pets` | 1 | 1 | 0 | 0 | reviewed |
 | `concept-harness-scoring-anchors` | 1 | 1 | 0 | 0 | reviewed |
@@ -1203,6 +1214,7 @@ expected <block end>, but found '-'
 | `dk-ai-judgment-human-responsibility` | 1 | 1 | 0 | 0 | draft |
 | `dk-ai-judgment-programmer-paradox` | 1 | 1 | 0 | 0 | draft |
 | `dk-ai-memory-four-layers` | 1 | 0 | 1 | 0 | draft |
+| `dk-ai-on-ai-data-poisoning` | 2 | 2 | 0 | 0 | reviewed |
 | `dk-ai-self-evolution-prompt` | 1 | 1 | 0 | 0 | pending_review |
 | `dk-ai-stronger-need-to-know-what-you-want` | 2 | 2 | 0 | 0 | draft |
 | `dk-ai-video-common-pitfalls` | 2 | 2 | 0 | 0 | draft |
@@ -1227,6 +1239,7 @@ expected <block end>, but found '-'
 | `dk-context-patching-recipe` | 1 | 1 | 0 | 0 | pending_review |
 | `dk-course-starts-from-unavoidable-question` | 1 | 1 | 0 | 0 | reviewed |
 | `dk-customers-hate-ai` | 1 | 1 | 0 | 0 | reviewed |
+| `dk-data-timely-review` | 2 | 2 | 0 | 0 | reviewed |
 | `dk-decision-when-to-defer` | 1 | 1 | 0 | 0 | reviewed |
 | `dk-delivery-path-type-bug` | 1 | 1 | 0 | 0 | reviewed |
 | `dk-demand-feature-stacking` | 1 | 1 | 0 | 0 | reviewed |
@@ -1488,6 +1501,7 @@ expected <block end>, but found '<scalar>'
 | `dk-单元模型-规模对抗实操难点` | 3 | 3 | 0 | 0 | reviewed |
 | `ai-basic-domain-digest` | 2 | 2 | 0 | 0 | draft |
 | `ai-collaboration-domain-digest` | 1 | 1 | 0 | 0 | enriched |
+| `ai-data-domain-digest` | 2 | 2 | 0 | 0 | reviewed |
 | `business-formula-domain-digest` | 11 | 11 | 0 | 0 | enriched |
 | `conversion-rate-domain-digest` | 17 | 17 | 0 | 0 | enriched |
 | `decision-science-domain-digest` | 1 | 1 | 0 | 0 | reviewed |
@@ -1512,6 +1526,7 @@ expected <block end>, but found '<scalar>'
 | `bridge-利润-单元模型-定价闭环` | 4 | 4 | 0 | 0 | draft |
 | `bridge-利润-需求冰山-价值定价` | 4 | 4 | 0 | 0 | draft |
 | `business-formula-to-kdo-card-quality` | 3 | 3 | 0 | 0 | enriched |
+| `framework-adaptive-data-flywheel` | 6 | 6 | 0 | 0 | reviewed |
 | `framework-agent-card-execution-pattern` | 4 | 4 | 0 | 0 | draft |
 | `framework-ai-business-cognition-system` | 3 | 3 | 0 | 0 | reviewed |
 | `framework-ai-five-layer-architecture` | 7 | 7 | 0 | 0 | reviewed |
@@ -1707,7 +1722,7 @@ expected <block end>, but found '<scalar>'
 | `README` | 2 | 0 | 1 | 0 | stable |
 | `zhu-codebase-ai-orchestration` | 2 | 2 | 0 | 0 | enriched |
 | `zhu-feedback-patterns` | 2 | 0 | 1 | 0 | enriched |
-| `zhu-self-cognition` | 3 | 3 | 0 | 0 | draft |
+| `zhu-self-cognition` | 3 | 3 | 0 | 0 | reviewed |
 | `zhu-time-os` | 3 | 3 | 0 | 0 | draft |
 | `principle-yitang-y-model-boundary` | 2 | 2 | 0 | 0 | draft |
 | `principle-yitang-y-model-dual-posture` | 4 | 4 | 0 | 0 | draft |
@@ -1848,6 +1863,8 @@ expected <block end>, but found '<scalar>'
 | `tool-cross-city-replication-test` | 2 | 0 | 2 | 0 | draft |
 | `tool-dark-time-harvesting` | 2 | 2 | 0 | 0 | enriched |
 | `tool-darwin-skill` | 2 | 1 | 1 | 0 | draft |
+| `tool-data-governance-four-layers` | 2 | 2 | 0 | 0 | reviewed |
+| `tool-data-maturity-l1-l6` | 3 | 3 | 0 | 0 | reviewed |
 | `tool-decision-narrative-method` | 2 | 0 | 2 | 0 | draft |
 | `tool-demand-agent-l4-case-match` | 2 | 1 | 0 | 0 | reviewed |
 | `tool-demand-assessment-triangle` | 1 | 1 | 0 | 0 | reviewed |

@@ -1589,3 +1589,95 @@
 - [2026-09-10 02:05] 🔴 老朱问责「产出低/督查怎么督的」——认账：我错在拿 claimed 标志当生产心跳（E034 自己犯自己），老顽童 22:14 停摆我 00:42 才补拉（空转 2.5h）、黄药师同族。修复=门铃 v5（01M23N260450KPKMR6VXWZV0YS）：claimed 任务每拍查 headless 日志/产出物 mtime 45min 无增长=停摆即补拉，值守拍必附心跳证据
 - [2026-09-10 02:10] ✅ 老朱「不信纪律信门禁」落地：#697 立项（claimed 停摆→探针自动补拉，防误伤三件套+幂等+顺带检测 kimi cron wedge），F-080 出停车场；门铃 v5 降级为门禁建成前的过渡层
 - [2026-09-10 02:02] 📨 欧阳锋抄送：#690 E盘迁移终审 **PASS A-**（本机可达面全量验证零缺口：四守卫实证+独立sha256复算MATCH+零中断心跳无断档+便携件本机实跑3次通过）。①异机插盘attach实拍待老朱执行（终审不含该项，失败重开）；②D盘清理24h观察后留档（你名下）；③pytest现存1红根因=inventory L182 `+`分隔解析不出channel_health（pre-existing非690），建议书已落 diagnosis/diag_20260910_ouyangfeng-inventory-parser-multiname-and-690-portable-doc.md（一行修复，可并入#693顺带）
+- [2026-09-10 02:07] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#684（laowantong 的单，挂审 10min）；#693（huangyaoshi 的单，挂审 9min）（到点（节奏 30min））
+- [2026-09-10 02:07] ⚖️ KDO 已终审 1 单：#690（待部署/已闭环）
+- [2026-09-10 02:15] ✅ 两件事落地：①深挖式角色混淆修复——老朱实证（要快速深挖、它搞成爆炸式饱和覆盖）：SOUL 路由纪律修「用户来意优先于类型纯度」+快速深挖通道（时间盒 30-60min 出 80%% 答案），三 SOUL 同条款同步+三 gateway 已重启加载 ②门铃转系统级：kdo-doorbell-watchdog 计划任务注册实测 Result=0（S4U 无窗，10min 拍，45min 无值守拍→自动拉起 headless 我补位）
+- [2026-09-10 02:16] ✅ 黄药师反馈收到（被 #684 FIFO 挡路不 force 待命）：核实——#684 返工重提+#693 完工提审双双在审，已拉欧阳锋按 FIFO 连审两单（proc 见 logs），放行后黄药师领 #696/#697
+- [2026-09-10 02:17] ⛔ KDO 门禁拦截 2 次（gate-blocked）：2026-09-10 02:08:07｜graph-index-coverage｜graph index 覆盖缺口｜30_wiki/case…
+- [2026-09-10 02:17] 🕐 值守拍02:07（v5 首拍）：#690 E盘迁移终审闭环✅且零中断红线实证——l1-capture 已切写 E:\KDO-memory（采集新增 83 verify PASS，心跳连续），E盘 8.9GB 就位，D 盘旧目录按单留 24h 观察；心跳督查：claimed=0 无在产可停摆；pending_review #684+#693 欧阳锋 02:16 已拉连审；l1-size 60.0MB=迁后新口径；小瑕疵留档：l1-capture 日志文案仍写「D 单盘口径」（功能正确，随黄药师下批顺手改）
+- [2026-09-10 02:37] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#693（huangyaoshi 的单，挂审 39min）（到点（节奏 30min））
+- [2026-09-10 02:42] 🕐 值守拍02:37+动作：#684 第2轮 FAIL（窄范围：只回改前四卡 32 伪引文+2 锚点；新两卡 A- 已达标不重产）→补拉老顽童第2轮返工（proc 见 logs）；#690 PASS A-（四守卫+零中断实证全过，异机 attach 实拍路由老朱）；#693 挂审 39min 欧阳锋在审；l1 正常（62.4MB）
+- [2026-09-10 02:52] 🕐 处置：黄药师报「被 #684 挡」状态读数已旧——#684 02:3x 已审（FAIL 第2轮已补拉老顽童）；真实挡路=他自己的 #693 在审，且 02:16 拉的欧阳锋实例 0 字节死产→已重拉（proc 见 logs）
+- [2026-09-10 03:00] ✅ /new 前交接闭环：场次3 复盘落盘（自检B级）+失忆锚点更新（当前状态→09-10 全量）+常设授权（通道自动切换）登记
+- [2026-09-10 02:55] 📥 #693 终审 PASS A-（欧阳锋）：版本对齐三问✅（wiki f28026456/KDO b91c036 双仓入仓+生效+对齐）；五件全独立复验✅（件1 合成卡触发/件2 三向/件3 生产链路 rc=0/件4 原始触发文本重建 0 误报/件5 四向含无锚仍硬拦）+回归 657 passed 1 skipped 复跑一致。非阻断 3 条见终审记录+最小建议书。**编排事项**：①#696/#697 已解锁可安排黄药师领取；②件3 自然验收=今晚 23:37 schtasks LastTaskResult 应=0；③件4「带注列表项仍计占位」待你裁示（黄药师已申报）；④tags 硬化 09-14 前请排存量卡处置（前建议书在案）
+- [2026-09-10 02:53] ⚖️ KDO 已终审 2 单：#693, #696（待部署/已闭环）
+- [2026-09-10 02:57] ⚖️ KDO 已终审 1 单：#684（待部署/已闭环）
+- [2026-09-10 03:07] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#697（huangyaoshi 的单，挂审 8min）（到点（节奏 30min））
+- [2026-09-10 03:07] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-10 02:57:15｜claimed-relaunch｜relaunch-exhausted｜task_20260910_
+- [2026-09-10 03:38] 🕐 值守拍03:38（系统级兜底拉起，交互门铃45min无拍）：claimed=0 无停摆可补拉；pending_review #697 挂审约35min（03:07 后欧阳锋无实例活动，role_clock 仅落盘未拉起）→已 headless 补拉欧阳锋终审（proc_ouyangfeng_26016，claude/zhipu 通道，codex 402 fallback，log 033726）；扫描面：diagnosis 新增欧阳锋建议书 4 份待编排（quote-verbatim 子串盲区/693-accept 断言空转/693-crosscheck 三发现/并发写中间态窗口），00_inbox/pending-cards 194 件无今日新件（最新 09-09 23:56 distill 批），00_inbox 根目录 3h 无新件；l1 verify PASS 持续（228 件，期间一次 hermes laowantong profile snapshot 缺文件瞬时报错后自复，文案仍 D 单盘口径=已知留档瑕疵）
+- [2026-09-10 03:42] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#697（huangyaoshi 的单，挂审 43min）（到点（节奏 30min））
+- [2026-09-10 03:57] ⚖️ KDO 已终审 1 单：#697（待部署/已闭环）
+- [2026-09-10 04:12] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 04:24] 🕐 值守拍04:24（系统级兜底拉起，交互门铃45min无拍）：队列 pending_review=0/claimed=0（#697 已于03:57终审闭环）无需补拉，queued=6 待生产方按序领取；扫描面：diagnosis 03:38后新增欧阳锋建议书2份（03:50 myqueue-reviewer-blindview / 697-relaunch-notify-wiring），今日累计9份待编排；00_inbox根目录与pending-cards均无新件（最新09-09 23:56 distill批）
+- [2026-09-10 04:42] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 05:12] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 05:15] 🕐 值守拍05:15（系统级兜底拉起，交互门铃45min无拍）：队列 pending_review=0/claimed=0 无需补拉（#697 已于03:57终审闭环），queued=6 待生产方按序领取；扫描面：diagnosis 04:24后无新增建议书（今日累计9份欧阳锋建议书待编排，最新03:50两份在案），00_inbox根目录与pending-cards（200件）3h无新件
+- [2026-09-10 05:42] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 06:04] 🕐 值守拍06:04（系统级兜底拉起，交互门铃45min无拍）：队列 pending_review=0/claimed=0 无需补拉，queued=6 待生产方按序领取；扫描面：diagnosis 03:50后无新增建议书（今日累计9份欧阳锋建议书待编排在案），00_inbox根目录3h无新件，pending-cards（194件）最新09-09 23:56无新件
+- [2026-09-10 06:12] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 06:42] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 06:54] 🕐 值守拍06:54（系统级兜底拉起，交互门铃45min无拍）：队列 pending_review=0/claimed=0 无需补拉，queued=6 待生产方按序领取；扫描面：diagnosis 03:50后无新增建议书（今日累计9份欧阳锋建议书待编排在案，最新03:50两份myqueue-reviewer-blindview/697-relaunch-notify-wiring），00_inbox根目录3h无新件，pending-cards（200件）最新09-09 23:56无新件
+- [2026-09-10 07:12] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 07:42] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 07:45] 🕐 值守拍07:45（系统级兜底拉起，交互门铃45min无拍）：队列 pending_review=0/claimed=0 无需补拉，queued=6 待生产方按序领取；扫描面：diagnosis 03:50后无新增建议书（今日累计9份欧阳锋建议书待编排在案），00_inbox根目录与pending-cards（最新09-09 23:56 distill批）无新件
+- [2026-09-10 08:12] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 08:34] 🕐 值守拍08:34（系统级兜底拉起，交互门铃45min无拍）：队列 pending_review=0/claimed=0 无需补拉，queued=6 待生产方按序领取；扫描面：diagnosis 03:50后无新增建议书（今日累计9份欧阳锋建议书待编排在案），00_inbox根目录无新件（最新09-08 22:18），pending-cards（194件）最新09-09 23:56无新件
+- [2026-09-10 08:42] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 09:12] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 09:24] 🕐 值守拍09:24（系统级兜底拉起，交互门铃45min无拍）：队列 pending_review=0/claimed=0 无需补拉，queued=6 待生产方按序领取；扫描面：diagnosis 03:50后无新增建议书（今日累计9份欧阳锋建议书待编排在案），00_inbox根目录无新件（最新09-08 22:18），pending-cards 最新09-09 23:56 distill批无新件
+- [2026-09-10 09:42] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 10:12] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 10:16] 🕐 值守拍10:16（系统级兜底拉起，交互门铃45min无拍）：队列 pending_review=0/claimed=0 无需补拉，queued=6 待生产方按序领取；扫描面：diagnosis 03:50后无新增建议书（今日累计9份欧阳锋建议书待编排在案），00_inbox根目录无新件（最新09-08 22:40 拆书会219期逐字稿，属存量），pending-cards 最新09-09 23:56 distill批无新件
+- [2026-09-10 10:17] 📬 KDO 新建议书 1 份待裁定：diag_20260910_wangyuyan-feature-deep-card-gold-standard.md
+- [2026-09-10 10:47] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 11:04] 🕐 值守拍11:04（系统级兜底拉起，交互门铃45min无拍）：队列 pending_review=0/claimed=0 无需补拉，queued=6 待生产方按序领取；扫描面：diagnosis 10:16后新增2份建议书（10:41 wangyuyan-checklist-solving / 10:42 ouyangfeng-presubmit-taskfile-false-positives，加10:16 feature-deep-card-gold-standard 今日累计12份待编排）；00_inbox根目录无新件，pending-cards（194件）最新09-09 23:57无新件
+- [2026-09-10 11:17] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 11:47] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 11:54] 🕐 值守拍11:54（系统级兜底拉起，交互门铃45min无拍）：队列 pending_review=0/claimed=0 无需补拉，queued=6 待生产方按序领取；扫描面：diagnosis 11:04后无新增建议书（今日累计12份待编排在案），00_inbox根目录无新件（最新09-08 22:40 拆书会219期逐字稿，属存量），pending-cards（194件）最新09-09 23:56 distill批无新件
+- [2026-09-10 12:17] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 12:44] 🕐 值守拍12:44：系统级兜底拉起+队列 pending_review=0/claimed=0 无需补拉，queued=6 待生产方按序领取；扫描面：diagnosis 11:04后无新增建议书（今日累计12份待编排在案），00_inbox根目录无新件（最新09-08 22:40 存量），pending-cards（194件）最新09-09 23:56 distill批无新件
+- [2026-09-10 12:52] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 13:22] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 13:34] 🕐 值守拍13:34：系统级兜底拉起+队列 pending_review=0/claimed=0 无需补拉，queued=6 待生产方按序领取；扫描面：diagnosis 12:44后无新增建议书（今日累计12份待编排在案），00_inbox根目录无新件（最新09-08 22:40 存量），pending-cards（193件）最新09-09 23:56 distill批无新件
+- [2026-09-10 13:52] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 14:22] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 14:24] 🕐 值守拍14:24：系统级兜底拉起+队列 pending_review=0/claimed=0 无需补拉，queued=6 待生产方按序领取；扫描面：diagnosis 10:16后无新增建议书（今日累计12份待编排在案），00_inbox根目录无新件（最新09-08 22:40 存量），pending-cards（194件）最新09-09 23:56 distill批无新件
+- [2026-09-10 14:52] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 15:14] 🕐 值守拍15:14：系统级兜底拉起+队列 pending_review=0/claimed=0 无需补拉，queued=6 待生产方按序领取；扫描面：diagnosis 14:24后无新增建议书（今日累计12份待编排在案），00_inbox根目录无新件（最新09-08 22:40 存量），pending-cards（194件）最新09-09 23:56 distill批无新件
+- [2026-09-10 15:22] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 15:52] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+
+- [2026-09-10 16:04] 🕐 值守拍16:04：系统级兜底拉起+队列 pending_review=0/claimed=0 无需补拉，queued=6 待生产方按序领取；扫描面：diagnosis 15:14后无新增建议书（今日累计12份待编排在案），00_inbox根目录无新件（最新09-08 22:40 存量），pending-cards（194件）最新09-09 23:56 distill批无新件- [2026-09-10 16:22] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 16:52] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+
+- [2026-09-10 16:54] 🕐 值守拍16:54：系统级兜底拉起+队列 pending_review=0/claimed=0 无需补拉，queued=6 待生产方按序领取；扫描面：diagnosis 16:04后无新增建议书（今日累计12份待编排在案），00_inbox根目录无新件（最新09-08 22:40 存量），pending-cards（193件）最新09-09 23:56 distill批无新件- [2026-09-10 17:22] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+
+- [2026-09-10 17:44] 🕐 值守拍17:44：系统级兜底拉起+队列 pending_review=0/claimed=0 无需补拉，queued=6 待生产方按序领取；扫描面：diagnosis 16:54后无新增建议书（今日累计12份待编排在案），00_inbox根目录无新件（最新09-08 22:40 存量），pending-cards（194件）最新09-09 23:56 distill批无新件
+- [2026-09-10 17:52] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 18:22] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+
+- [2026-09-10 18:34] 🕐 值守拍18:34：系统级兜底拉起（交互门铃45min无拍）+队列 pending_review=0/claimed=0 无需补拉，queued=6 待生产方按序领取；扫描面：diagnosis 17:44后无新增建议书（今日累计12份待编排在案），00_inbox根目录无新件（最新09-08 22:40 存量），pending-cards（194件）最新09-09 23:56 distill批无新件- [2026-09-10 18:52] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 19:22] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+
+- [2026-09-10 19:24] 🕐 值守拍19:24：系统级兜底拉起（交互门铃45min无拍）+队列 pending_review=0/claimed=0 无需补拉，queued=6 待生产方按序领取；扫描面：diagnosis 18:35 新增1份建议书（todos文件非法UTF-8字节致Read拒读，建议黄药师修复，今日累计13份在案），00_inbox根目录无新件（最新09-08 22:40 存量），pending-cards（194件）最新09-09 23:56 distill批无新件
+- [2026-09-10 19:52] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+
+- [2026-09-10 20:14] ? ֵ����20:14��ϵͳ���������𣨽�������45min���ģ�+���� pending_review=0/claimed=0 ���貹����queued=6 ��������������ȡ��ɨ���棺diagnosis 18:35�������������飨�����ۼ�13���ڰ�����00_inbox��Ŀ¼���¼�������09-08 22:40 ��������pending-cards��193��������09-09 23:56 distill�����¼�
+- [2026-09-10 20:22] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 20:41] 📥 新素材 1 项（P0 0）：私董会——请诊断编排（看板待编排段）
+- [2026-09-10 20:52] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 21:05] 🕐 值守拍21:05：系统级兜底拉起（交互门铃45min无拍）+队列 pending_review=0/claimed=0 无需补拉，queued=6 待生产方按序领取；扫描面：diagnosis 18:35后无新增建议书（今日累计13份在案），00_inbox新件：私董会/新增2件（20:37 顾成龙MCP-fetch原始返回+企业营销3个可复用方法论，对应20:41通知，待编排），pending-cards（200件）最新09-09 23:56 distill批无新件
+- [2026-09-10 21:22] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 21:52] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+
+- [2026-09-10 21:56] 🕐 值守拍21:56：系统级兜底拉起（交互门铃45min无拍）+队列 pending_review=0/claimed=0 无需补拉，queued=6 待生产方按序领取；扫描面：diagnosis 18:35后无新增建议书（今日累计11份在案，find -newermt 实数），00_inbox根目录无新件（私董会20:37两新件已上轮登记待编排），pending-cards（194件）最新09-09 23:56 distill批无新件
+- [2026-09-10 22:27] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 22:44] 🕐 值守拍22:44：系统级兜底拉起（交互门铃45min无拍）+队列 pending_review=0/claimed=0 无需补拉，queued=6 待生产方按序领取；扫描面：diagnosis 21:56后无新增建议书（今日累计11份在案，find -newermt 实数），00_inbox根目录无新件（私董会20:37两新件已在案待编排），pending-cards（193件）最新09-09 23:56 distill批无新件
+- [2026-09-10 22:57] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 23:27] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 23:34] 🕐 值守拍23:34：系统级兜底拉起（交互门铃45min无拍）+队列 pending_review=0/claimed=0 无需补拉，queued=6 待生产方按序领取；扫描面：diagnosis 22:44后无新增建议书（今日累计11份在案，find -newermt 实数），00_inbox根目录无新件（私董会20:37两新件已在案待编排），pending-cards（193件）最新09-09 23:56 distill批无新件
+
+- [2026-09-10 23:42] 复盘完成：23:37 场 Truman 11 章追加至 daily-context/2026-09-10.md + E061 入错误模式库 + 自检 🟡 B级（headless 考古复盘，无施工诚实空班）
+- [2026-09-10 23:51] 📥 新素材 2 项（P0 0）：distill-external-20260910-01.md、distill-external-20260910-02.md——请诊断编排（看板待编排段）
+- [2026-09-10 23:57] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-11 00:01] 📥 新素材 27 项（P0 0）：distill-external-20260910-03.md、distill-external-20260910-04.md、distill-external-20260910-05.md…——请诊断编排（看板待编排段）

@@ -1,0 +1,18 @@
+#697 终审闭环完毕。全场摘要：
+
+## 启动与裁定
+- 启动三件套已读（startup.md / ouyangfeng-context.md / todos 未读段）+ 行为宪法 v1.1。
+- **myqueue 实查出假阴性**：报「待终审 0 / 最近终审 0」与叫醒明细矛盾。双假设先疑工具——读源码定位：`action_myqueue` 按 `assignee==role` 过滤（queue_transition.py:1884）、`_print_recent_reviews` 比对 group(3)=assignee（:1944），审者视角恒 0。改用双源实查：队列行 1353 `pending_review` + 任务单 frontmatter `pending_review` + REVIEW-PENDING 段未划线 → **未被兄弟实例审过，本场=首审**，走完整终审。
+
+## 终审结论：#697 PASS A-
+- **版本对齐三问全过**【实证】：交付 `300e25b62`=HEAD（4 文件 +157）；schtasks `kdo-conveyor-probe` 10min 拍、state mtime 03:37>commit → 生产已跑新版；审查对象=工作树。
+- **五件全独立复验**：停摆判定/自动补拉（验收脚本 102 行通读，真弹头+monkeypatch 仅 parse_queue）/三件套①②③（台账 5 行 × gate-blocked:857 × 看板:1292 三方物证对账一致）/幂等（glob ≡ launcher 落盘命名 kimi-headless-launch.py:196）/`--no-relaunch`；py_compile 复跑 rc=0；kdo query 2 变体无同构冲突。
+- **非阻断 4 缺陷**（🟠通知接线嵌 friction 块+gate 覆盖、🟠ESCALATE 无节流每拍重报、🔵「第十一信号」与 #622 撞号、🔵报告「台账 8 行」实为 5 行）——均未触及验收标准覆盖面，不阻入库。
+
+## 出口三件（欧阳锋三出口全走）
+1. **建议书×2** 落 `60_feedback/diagnosis/`：`…697-relaunch-notify-wiring-escalate-throttle-signal-number.md`（三缺陷+role_registry 残余风险）、`…myqueue-reviewer-blindview.md`（审者盲视图）
+2. **通过信息**：queue_transition review 三处同步✅（队列 reviewed/划线/frontmatter）；王语嫣抄送+黄药师通知由 #521 探针机制下一拍自动落（:1478-1486 实读确认）
+3. 终审记录先落盘后跑脚本（O9），含检索记录节+断言三级标注
+
+## 收尾
+todos 完工行（03:50，含断言）✅；复盘落盘+自检 **🟡 B级**✅；技能进化日志一行✅。未做 stash/worktree 类操作，备份避让无风险。

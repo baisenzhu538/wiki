@@ -1,0 +1,42 @@
+[23:50:02] #645 conversation_distill 启动 since=1788969002133 until=1789055402090 cursor=True
+[23:50:03] 抽取：kimi 414 条 / headless 45 段 / hermes 0 条
+[23:50:03] 分块 180 个（上限 8）
+[23:50:26]   落候选卡 distill-external-20260910-01.md
+[23:50:26]   落候选卡 distill-external-20260910-02.md
+[23:50:26] chunk wire.jsonl: 提取 4 条，过锚校验 3 条
+[23:51:01] chunk wire.jsonl: 提取 0 条，过锚校验 0 条
+[23:51:41]   落候选卡 distill-external-20260910-03.md
+[23:51:41]   落候选卡 distill-external-20260910-04.md
+[23:51:41]   落候选卡 distill-external-20260910-05.md
+[23:51:41]   落候选卡 distill-human-20260910-01.md
+[23:51:41] chunk wire.jsonl: 提取 7 条，过锚校验 6 条
+[23:52:22]   落候选卡 distill-external-20260910-06.md
+[23:52:22]   落候选卡 distill-external-20260910-07.md
+[23:52:22] chunk wire.jsonl: 提取 6 条，过锚校验 5 条
+[23:53:07]   落候选卡 distill-external-20260910-08.md
+[23:53:07]   落候选卡 distill-external-20260910-09.md
+[23:53:07]   落候选卡 distill-external-20260910-10.md
+[23:53:07]   落候选卡 distill-external-20260910-11.md
+[23:53:07]   落候选卡 distill-human-20260910-02.md
+[23:53:07] chunk wire.jsonl: 提取 8 条，过锚校验 7 条
+[23:54:59]   落候选卡 distill-external-20260910-12.md
+[23:54:59]   落候选卡 distill-external-20260910-13.md
+[23:54:59]   落候选卡 distill-external-20260910-14.md
+[23:54:59]   落候选卡 distill-external-20260910-15.md
+[23:54:59]   落候选卡 distill-external-20260910-16.md
+[23:54:59]   落候选卡 distill-human-20260910-03.md
+[23:54:59] chunk wire.jsonl: 提取 9 条，过锚校验 9 条
+[23:55:37]   落候选卡 distill-external-20260910-17.md
+[23:55:37]   落候选卡 distill-external-20260910-18.md
+[23:55:37]   落候选卡 distill-external-20260910-19.md
+[23:55:37]   落候选卡 distill-external-20260910-20.md
+[23:55:37]   落候选卡 distill-external-20260910-21.md
+[23:55:37]   落候选卡 distill-human-20260910-04.md
+[23:55:37] chunk wire.jsonl: 提取 7 条，过锚校验 7 条
+[23:56:16]   落候选卡 distill-external-20260910-22.md
+[23:56:16]   落候选卡 distill-external-20260910-23.md
+[23:56:16]   落候选卡 distill-external-20260910-24.md
+[23:56:16]   落候选卡 distill-external-20260910-25.md
+[23:56:16] chunk wire.jsonl: 提取 6 条，过锚校验 5 条
+[23:56:16] zhu 洞察 13 条追加 → C:\Users\Administrator\Desktop\wiki\30_wiki\personal-os\zhu-conversation-insights.md
+[23:56:16] 完成：{'external': 25, 'zhu': 13, 'human': 4, 'dropped_anchor': 5, 'calls': 8, 'failed_calls': 0}

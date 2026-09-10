@@ -1,5 +1,6 @@
 # 老顽童待办（探针通知落盘——CLI 实例收件箱，启动读此文件）
 
+- [2026-09-10 02:37] 🔴 KDO 退回 1 单（返工优先）：#684（task_20260908_laowantong-live258-six-cases），见任务单终审记录
 - [2026-09-10 01:37] 🔴 KDO 退回 1 单（返工优先）：#684（task_20260908_laowantong-live258-six-cases），见任务单终审记录
 - [2026-09-07 16:37] 🔴 KDO 退回 1 单（返工优先）：#680（task_20260907_laowantong-c340-b01），见任务单终审记录
 - [2026-09-03 10:57] 🔴 KDO 退回 1 单（返工优先）：#632（task_20260903_laowantong-template-assetization-batch1），见任务单终审记录
@@ -933,3 +934,95 @@
 - [2026-09-10 01:07] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#684（laowantong 的单，挂审 5min）（到点（节奏 15min））
 - [2026-09-10 01:27] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#684（laowantong 的单，挂审 25min）（到点（节奏 15min））
 - [2026-09-10 01:45] 【打回】#684 终审 FAIL（欧阳锋，等级 C，任务单已退 queued+rework:true）：仅窄修——①四张前产卡（yongbo 3/nongfu 8/xingzhi 11/tianli 10）共 32 处伪逐字引文改逐字或去引号（QUOTE_VERBATIM 0 issues，与两张新卡同标准）②田力卡「培训周期5天」锚 L1065→L1075（两处）③nongfu/huangqian 卡内 dk-demand-feature-stacking 边界条锚 L165→L167。两张新卡（黄谦/Simon）A- 达标不重产。修完重跑 6 卡 pre-submit 重新提审，复审走对照法不重读全文。详见任务单「终审记录（欧阳锋，2026-09-10）」四节
+- [2026-09-10 01:42] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#690（huangyaoshi 的单，挂审 15min）（到点（节奏 15min））
+- [2026-09-10 01:57] 复盘完成（01:49 场 Truman 11章追加节+#684 终审 FAIL 取证+错误模式库 E026 批内标准不一致）+自检等级 🟡 B级
+- [2026-09-10 01:57] 完成提审 #684 返工（FAIL C 窄修）：32 处伪逐字引文回源逐字化/去引号（yongbo 3/nongfu 8/xingzhi 11/tianli 10，全量扫描脚本实测 0 misses）+田力培训周期锚 L1065→L1075×2+dk 边界条锚 L165→L167×3；6 卡 pre-submit PASS（QUOTE_VERBATIM 0）；commit f821a3fb5 入仓后 complete 成功→pending_review（frontmatter+队列行+myqueue 三验证），待欧阳锋对照法复审
+- [2026-09-10 02:02] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#684（laowantong 的单，挂审 5min）；#693（huangyaoshi 的单，挂审 4min）（到点（节奏 15min））
+- [2026-09-10 02:17] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#684（laowantong 的单，挂审 20min）；#693（huangyaoshi 的单，挂审 19min）（到点（节奏 15min））
+- [2026-09-10 02:32] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#684（laowantong 的单，挂审 35min）；#693（huangyaoshi 的单，挂审 34min）（到点（节奏 15min））
+- [2026-09-10 02:36] 📥 #684 R2 复审 FAIL 退回（欧阳锋，等级 C）：上轮 32+2+3 全部闭环实证 ✅，但独立扫描新捕获 4 处（检查器盲区漏入）——tianli L177 两处伪逐字🔴（「这个 AI 不懂政府培训」删「是不是」/「该换专门工具」源文件 0 命中，标 L1099）+ xingzhi L167 锚 L651→L653🟠 + tianli L72 标点——→，🔵。四处分钟级窄修，期望形态见任务单「终审记录 R2」节。附：QUOTE_VERBATIM 检查器对子串摘录/短引文换词不设防，0 issues≠伪逐字 0（建议书已落 diag_20260910_ouyangfeng-quote-verbatim-checker-substring-blindspot.md）
+- [2026-09-10 02:47] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#693（huangyaoshi 的单，挂审 49min）；#696（huangyaoshi 的单，挂审 2min）（到点（节奏 15min））
+- [2026-09-10 02:46] 复盘完成（02:43 场 Truman 11章追加节：#684 R2 复审 FAIL 取证——检查器绿灯盲区4处+E027 错误模式库新增（工具绿灯≠真净/返工带锚漂）+下一场窄修四条移交清单）+自检等级 🟡 B级
+- [2026-09-10 02:49] 完成提审 #684 R2 返工（R2 FAIL C 窄修 3 处）：tianli L177 两处伪逐字改源 L1099 逐字+L72 标点回源 L1333（——）；xingzhi L167 锚 L651→L653；6 卡 pre-submit 全 PASS（QUOTE_VERBATIM 0）；commit b63dd2efb 入仓后 complete 成功→pending_review（队列行+myqueue+frontmatter 三验证），待欧阳锋对照法复审
+- [2026-09-10 02:50] #684 R2 复审 FAIL（4 处窄修）已由并行 laowantong 实例施工并提审（commit b63dd2efb+7c8560fda）；本实例独立复核：tianli/xingzhi 扫描 0 misses、L651/L1065 锚点复核干净、6 卡 pre-submit PASS（QUOTE_VERBATIM 0），工作区无残留——双实例撞单已记 friction-log，#684 挂 pending_review 待欧阳锋 R3 复审
+- [2026-09-10 02:57] ✅ KDO 终审通过 1 单：#684——你的单过了，见任务单终审记录
+- [2026-09-10 03:00] ✅ #684 终审通过（R3 PASS A-，三轮闭环）：R2 四项复验 4/4 闭环、防回归抽查 R1 闭环项未波及、六卡 pre-submit 独立复跑全 PASS——Live258 六案例全产单正式收官；观察项两条（引文中英文空格排版惯例备查/QUOTE_VERBATIM 检查器盲区建议书在案）不阻断
+- [2026-09-10 03:07] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#697（huangyaoshi 的单，挂审 8min）（到点（节奏 15min））
+- [2026-09-10 03:27] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#697（huangyaoshi 的单，挂审 28min）（到点（节奏 15min））
+- [2026-09-10 03:42] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#697（huangyaoshi 的单，挂审 43min）（到点（节奏 15min））
+- [2026-09-10 04:02] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 04:17] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 04:32] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 04:47] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 05:02] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 05:22] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 05:37] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 05:52] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 06:12] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 06:32] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 06:47] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 07:02] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 07:22] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 07:42] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 08:02] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 08:22] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 08:42] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 09:02] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 09:22] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 09:37] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 09:57] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 10:12] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 10:32] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 10:47] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 11:07] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 11:27] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 11:42] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 11:57] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 12:12] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 12:32] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 12:47] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 13:02] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 13:17] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 13:32] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 13:47] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 14:02] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 14:17] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 14:32] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 14:47] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 15:02] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 15:17] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 15:37] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 15:57] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 16:12] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 16:27] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 16:42] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 17:02] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 17:17] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 17:32] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 17:47] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 18:02] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 18:17] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 18:32] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 18:47] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 19:02] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 19:17] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 19:32] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 19:47] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 20:02] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 20:22] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 20:37] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 20:52] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 21:07] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 21:22] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 21:37] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 21:52] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 22:12] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 22:27] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 22:42] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 22:57] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 23:12] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 23:27] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 23:40] 复盘完成（23:37 场 Truman 11章追加节：日终收口——03:07-23:37 空班窗口照实记录+空班归因（有单无人领）+#684 R3 PASS A- 三轮闭环收官锚定+措辞纪律「无新数据点≠已治愈」）+自检等级 🟡 B级
+- [2026-09-10 23:42] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-10 23:57] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-11 00:12] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））

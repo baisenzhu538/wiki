@@ -1,0 +1,45 @@
+[23:50:02] #645 conversation_distill 启动 since=1788882602072 until=1788969002133 cursor=True
+[23:50:02] 抽取：kimi 167 条 / headless 7 段 / hermes 0 条
+[23:50:02] 分块 30 个（上限 8）
+[23:50:33]   落候选卡 distill-external-20260909-01.md
+[23:50:33]   落候选卡 distill-external-20260909-02.md
+[23:50:33]   落候选卡 distill-external-20260909-03.md
+[23:50:33]   落候选卡 distill-external-20260909-04.md
+[23:50:33] chunk wire.jsonl: 提取 6 条，过锚校验 6 条
+[23:50:59]   落候选卡 distill-external-20260909-05.md
+[23:50:59]   落候选卡 distill-external-20260909-06.md
+[23:50:59]   落候选卡 distill-human-20260909-01.md
+[23:50:59]   落候选卡 distill-external-20260909-07.md
+[23:50:59] chunk wire.jsonl: 提取 6 条，过锚校验 6 条
+[23:52:04]   落候选卡 distill-external-20260909-08.md
+[23:52:04]   落候选卡 distill-external-20260909-09.md
+[23:52:04]   落候选卡 distill-external-20260909-10.md
+[23:52:04]   落候选卡 distill-human-20260909-02.md
+[23:52:04] chunk wire.jsonl: 提取 6 条，过锚校验 6 条
+[23:52:20]   落候选卡 distill-external-20260909-11.md
+[23:52:20] chunk headless-huangyaoshi-20260909-233710.log: 提取 2 条，过锚校验 2 条
+[23:53:16]   落候选卡 distill-external-20260909-12.md
+[23:53:16]   落候选卡 distill-external-20260909-13.md
+[23:53:16]   落候选卡 distill-external-20260909-14.md
+[23:53:16]   落候选卡 distill-external-20260909-15.md
+[23:53:16]   落候选卡 distill-external-20260909-16.md
+[23:53:16] chunk headless-huangyaoshi-20260909-233710.log: 提取 7 条，过锚校验 5 条
+[23:54:50]   落候选卡 distill-external-20260909-17.md
+[23:54:50]   落候选卡 distill-external-20260909-18.md
+[23:54:50]   落候选卡 distill-external-20260909-19.md
+[23:54:50]   落候选卡 distill-external-20260909-20.md
+[23:54:50]   落候选卡 distill-external-20260909-21.md
+[23:54:50]   落候选卡 distill-human-20260909-03.md
+[23:54:50] chunk headless-ouyangfeng-20260909-101055.log: 提取 7 条，过锚校验 6 条
+[23:55:54]   落候选卡 distill-external-20260909-22.md
+[23:55:54]   落候选卡 distill-external-20260909-23.md
+[23:55:54]   落候选卡 distill-external-20260909-24.md
+[23:55:54]   落候选卡 distill-human-20260909-04.md
+[23:55:54] chunk headless-wangyuyan-20260909-084214.log: 提取 5 条，过锚校验 5 条
+[23:56:17]   落候选卡 distill-external-20260909-25.md
+[23:56:17]   落候选卡 distill-external-20260909-26.md
+[23:56:17]   落候选卡 distill-external-20260909-27.md
+[23:56:17]   落候选卡 distill-external-20260909-28.md
+[23:56:17] chunk headless-wangyuyan-20260909-084214.log: 提取 4 条，过锚校验 4 条
+[23:56:17] zhu 洞察 8 条追加 → C:\Users\Administrator\Desktop\wiki\30_wiki\personal-os\zhu-conversation-insights.md
+[23:56:17] 完成：{'external': 28, 'zhu': 8, 'human': 4, 'dropped_anchor': 3, 'calls': 8, 'failed_calls': 0}

@@ -1,0 +1,220 @@
+kimi version 0.41.0
+• Let me start with the startup reads.The AGENTS.md reminder applies to 90_control — I need to append a line to 90_control/todos/huangyaoshi.md at the end. Let me read that AGENTS.md, and also gather materials: today's entries in todos file, git log, existing daily-context file, agent-os.md §10.2, error pattern library existence.1e5b7e789 09-10 02:59 chore(queue): #697 complete by huangyaoshi
+300e25b62 09-10 02:59 feat(probe): #697 claimed停摆自动补拉门禁化——第十一信号+防误伤三件套+幂等+wedge兜底 by huangyaoshi
+fe5903eba 09-10 02:45 chore(queue): #697 claim by huangyaoshi
+7e8bc2f0e 09-10 02:45 chore(queue): #696 complete by huangyaoshi
+a38f1ca13 09-10 02:45 feat(review): #696 daily_review ROLES 加王语嫣(老朱令全员复盘入列) by huangyaoshi
+ffd8c1c60 09-10 02:43 chore(queue): #696 claim by huangyaoshi
+c3461da28 09-10 01:58 chore(queue): #693 complete by huangyaoshi
+f28026456 09-10 01:58 feat(gate): #693 件2场次对账弱校验+件3 daily_review自锁修复+件5存在性核查节名白名单 by huangyaoshi
+9207acf7f 09-10 01:32 chore(queue): #693 claim by huangyaoshi
+2e4135def 09-10 01:27 chore(queue): #690 complete by huangyaoshi
+cba88578f 09-10 01:27 feat(infra): #690 E盘迁移落地——KDO-memory整区迁E+resolver化+便携件+六入口实拍 by huangyaoshi
+---
+0c3ab027a 09-10 03:48 chore(queue): #697 review by 欧阳锋
+1e5b7e789 09-10 02:59 chore(queue): #697 complete by huangyaoshi
+300e25b62 09-10 02:59 feat(probe): #697 claimed停摆自动补拉门禁化——第十一信号+防误伤三件套+幂等+wedge兜底 by huangyaoshi
+67381a42a 09-10 02:55 chore(queue): #684 review by 欧阳锋
+c4a0bd021 09-10 02:51 chore(queue): #696 review by 欧阳锋
+282659cf5 09-10 02:49 chore(queue): #693 review by 欧阳锋
+7c8560fda 09-10 02:48 chore(queue): #684 complete by laowantong
+b63dd2efb 09-10 02:48 rework(#684): R2 FAIL C 窄修——tianli L177 两处伪逐字改源 L1099 逐字+L72 标点回源 L1333(——)；xingzhi L167 锚 L651→L653；6 卡 pre-submit PASS QUOTE_VERBATIM 0
+c5476b5bf 09-10 02:47 docs(wangyuyan): 失忆锚点更新至 09-10 交互值守长场（调研四型齐编/门禁口径终版/v5+watchdog/E盘PASS/产线在转状态）
+4fe17a952 09-10 02:46 chore(queue): #684 claim by laowantong
+fe5903eba 09-10 02:45 chore(queue): #697 claim by huangyaoshi
+7e8bc2f0e 09-10 02:45 chore(queue): #696 complete by huangyaoshi
+a38f1ca13 09-10 02:45 feat(review): #696 daily_review ROLES 加王语嫣(老朱令全员复盘入列) by huangyaoshi
+ffd8c1c60 09-10 02:43 chore(queue): #696 claim by huangyaoshi
+ce446601f 09-10 02:42 chore(queue): #684 claim by laowantong
+7c0366219 09-10 02:34 chore(queue): #684 review by 欧阳锋
+5a7ea73fe 09-10 02:14 feat(wangyuyan): 门铃看门狗系统级注册（kdo-doorbell-watchdog，10min 拍/45min 无值守拍→拉起 headless 王语嫣/防抖+连拉3次停拉报警）——老朱「只信门禁和状态机」
+e1f5429fa 09-10 02:03 ouyangfeng: #690 终审 PASS A-——E盘迁移本机可达面全量验证零缺口（四守卫实证+独立sha256复算MATCH+零中断心跳无断档+便携件实跑3次），异机attach实拍路由老朱，pytest 1红归因考古=inventory '+'分隔pre-existing债，建议书落diagnosis，双todos+context active_task+复盘归档
+55eddc0f9 09-10 01:59 chore(queue): #690 review by 欧阳锋
+4abfa6b65 09-10 01:59 feat(wangyuyan): #697 claimed 停摆自动补拉门禁化立项（老朱令：不信纪律信门禁；F-080 出停车场）
+c3461da28 09-10 01:58 chore(queue): #693 complete by huangyaoshi
+f28026456 09-10 01:58 feat(gate): #693 件2场次对账弱校验+件3 daily_review自锁修复+件5存在性核查节名白名单 by huangyaoshi
+0aace38ce 09-10 01:57 chore(queue): #684 complete by laowantong
+f821a3fb5 09-10 01:57 fix(#684): FAIL C 返工——32 处伪逐字引文回源逐字化/去引号 + 田力培训周期锚 L1065→L1075 + dk 边界条锚 L165→L167
+8f954d48d 09-10 01:54 fix(wangyuyan): LLM 通道主备倒序——MiniMax 升主路 DeepSeek 降备用（老朱 09-10 令：按顺序自动切换不请示）
+947386e13 09-10 01:42 chore(queue): #684 claim by laowantong
+5697698ba 09-10 01:41 feat(wangyuyan): 裁定 tags 门禁软期延长建议书——①+②组合（延至 10-14 避返工撞门+#688 全补不变），③不采纳
+8785fc178 09-10 01:39 ouyangfeng: #684 终审 FAIL C 退回收口——32处伪逐字引文+2处锚点错退laowantong返工（新卡A-保护不重产），tags门禁软期建议书落diagnosis，双todos完工/打回行+context active_task更新+复盘归档
+9207acf7f 09-10 01:32 chore(queue): #693 claim by huangyaoshi
+eb2f594ca 09-10 01:31 chore(queue): #684 review by 欧阳锋
+2e4135def 09-10 01:27 chore(queue): #690 complete by huangyaoshi
+cba88578f 09-10 01:27 feat(infra): #690 E盘迁移落地——KDO-memory整区迁E+resolver化+便携件+六入口实拍 by huangyaoshi
+31c437f6a 09-10 01:02 chore(queue): #684 complete by laowantong
+cc0fea708 09-10 01:01 feat(cases): #684 Live258 六案例全产收尾——黄谦宣传片+Simon Peng医疗数据集（反例教材），dk互链反链补齐 by 老顽童
+Now gather: today's entries in todos/huangyaoshi.md dated 2026-09-10 (task-relevant, not just 叫醒 lines), the daily-context file at C:\Users\Administrator\Desktop\agent复盘\huangyaoshi\daily-context\2026-09-10.md, agent-os.md §10.2, and error pattern library existence.1177:- [2026-09-10 01:12] #690 续建检查→让位收口：发现 claim 持有实例（09-08 23:14 claim）00:50 起已在施工（整区复制+retry+hash 抽样 26/26 已完成，logs/edrive-*）；本会话 00:51-00:58 完成引用点切换面（新建 kdo_memory_root.py resolver+13 文件改造，未 commit）被 claim 方声明采纳；按任务单协同声明停手，已回应移交要点（守卫1 实战拦截证据 00:58:59 / inventory 登记欠账 / .disk-id 承重勿删）；E 盘测试残留已清
+1180:- [2026-09-10 01:54] 复盘完成：2026-09-10（01:49 场）Truman 11章追加节（诚实空班节：本场零施工，当日施工已由前两节归档；四源对账一致）+自检🟡 B级——daily-context/2026-09-10.md
+1182:- [2026-09-10 02:07] ✅ KDO 终审通过 1 单：#690——你的单过了，见任务单终审记录
+1186:- [2026-09-10 02:47] 复盘完成：2026-09-10（02:43 场）Truman 11章追加节（诚实空班节：本场零施工，当日施工已由前三节归档；消费 #690 终审记录 PASS·A-；对账快照 #693 挂审/#696 claimed/#697 新入队）+自检🟡 B级——daily-context/2026-09-10.md
+1187:- [2026-09-10 02:56] 📥 #693 终审 PASS A-（欧阳锋，02:55）：五件全过+回归零退步，你名下 #696/#697 已解锁——编排已抄送王语嫣，按队列领取即可。注意：件3 自然验收点=今晚 23:37 schtasks LastTaskResult；件1 docstring 措辞与死常量 EVIDENCE_ANCHOR 两处 P3 级小尾巴见终审记录，非必改
+1188:- [2026-09-10 02:53] ✅ KDO 终审通过 2 单：#693, #696——你的单过了，见任务单终审记录
+1189:- [2026-09-10 03:01] #697 停摆补拉(第2次)→让位收工：查实补拉 attempt1 实例(headless-025706)仍存活(日志 mtime 03:00:49 持续增长)，已于 02:59:19 提交实现(300e25b62 第十一信号+防误伤三件套+幂等)并 02:59:20 queue complete(1e5b7e789)；按纪律①不双写，本会话零改动收工
+1190:- [2026-09-10 03:01] #697 停摆补拉(第1次)→让位收工：查实任务已被并行实例完成——300e25b62 实现(第十一信号+防误伤三件套+幂等+wedge兜底)+1e5b7e789 queue complete(现 pending_review 待欧阳锋)，按纪律①不双写，本会话零改动收工
+1191:- [2026-09-10 03:03] 复盘完成：2026-09-10（03:01 场，#697 停摆补拉 attempt-2 让位场）Truman 追加第五节+自检🟡 B级——daily-context/2026-09-10.md
+1195:- [2026-09-10 03:57] ✅ KDO 终审通过 1 单：#697——你的单过了，见任务单终审记录
+Codex-Kimi-配置复盘.md
+KDO端到端测试发现的问题.md
+Sprint6-三项不做决策逻辑.md
+cn-track-archive-20260819
+codebuddy-技能进化日志.md
+daily-context
+friction-log.md
+成功模式库.md
+技能进化日志.md
+用户反馈档案.md
+索引.md
+能力雷达图.md
+错误模式库.md
+---
+2026-09-01.md
+2026-09-02.md
+2026-09-03.md
+2026-09-04.md
+2026-09-05.md
+2026-09-06.md
+2026-09-07.md
+2026-09-08.md
+2026-09-09.md
+2026-09-10.md
+436 C:/Users/Administrator/Desktop/agent复盘/huangyaoshi/daily-context/2026-09-10.md
+Existing file has 5+ sections (00:42场, 第二场 01:0x, 01:49场, 第三场 #693, 02:43场, 第四场 #696+#697, 第五场 #697让位场). Actually counting: 00:42场, 第二场, 01:49场(复盘), 第三场, 02:43场(复盘), 第四场, 第五场 = 7 sections.
+
+  Now this is the 23:37 headless review session. I need to check current state for the new section's reconciliation. Check latest git log today for huangyaoshi and queue status. I already have git log from earlier — the latest huangyaoshi commits were at 02:59. Any newer commits? The earlier git log output was capped at head -40 but all showed ≤03:48. Let me check for commits after 03:48 today and todos entries after line 1195, and queue status for #693/#696/#697.===QUEUE===
+574:- ~~#690 task_20260908_huangyaoshi-edrive-kdo-memory-migration｜huangyaoshi｜提审 09-10 01:27｜60_feedback/tasks/task_20260908_huangyaoshi-edrive-kdo-memory-migration.md~~ → 已终审 PASS A-（2026-09-09 欧阳锋）
+576:- ~~#693 task_20260909_huangyaoshi-gate-and-audit-trio｜huangyaoshi｜提审 09-10 01:58｜60_feedback/tasks/task_20260909_huangyaoshi-gate-and-audit-trio.md~~ → 已终审 PASS A-（2026-09-09 欧阳锋）
+577:- ~~#696 task_20260909_huangyaoshi-daily-review-coverage-wangyuyan｜huangyaoshi｜提审 09-10 02:45｜60_feedback/tasks/task_20260909_huangyaoshi-daily-review-coverage-wangyuyan.md~~ → 已终审 PASS A-（2026-09-09 欧阳锋）
+579:- ~~#697 task_20260910_huangyaoshi-claimed-stall-auto-relaunch｜huangyaoshi｜提审 09-10 02:59｜60_feedback/tasks/task_20260910_huangyaoshi-claimed-stall-auto-relaunch.md~~ → 已终审 PASS A-（2026-09-09 欧阳锋）
+1289:- [friction] [shared] - [2026-09-10 01:12] huangyaoshi | #690 E盘迁移 | 双实例撞车：23:14 claim 会话无动静→用户 00:42 拉起第二实例续建，两实例 00:50-00:58 并行 robocopy 同一目标区+claim 持有方 /MIR 拍把并行方刚建的 .disk-id/attach.cmd/tools/README 当 extras  purge 掉（含 claim 方自己的 .disk-id） | 初判：单实例铁律只有「任务边界」层约束，无「同任务活性锁」——实例活性不可见导致用户只能盲拉新实例；对策=长任务心跳留证（每阶段落盘进度文件）让「无动静」可证伪，purge 类操作前查目标区 mtime<10min 的在制文件｜09-10 01:17｜待王语嫣复核处置｜[shared] - [2026-09-10 01:12] huangyaoshi | #690 E盘迁移 | 双实例撞车：23:14 claim 会话无动静→用户 00:42 拉起第二实例续建，两实例 00:50-00:58 并行 robocopy 同一目标区+claim 持有方 /MIR 拍把并行方刚建的 .disk-id/attach.cmd/tools/README 当 extras  purge 掉（含 claim 方自己的 .disk-id） | 初判：单实例铁律只有「任务边界」层约束，无「同任务活性锁」——实例活性不可见导致用户只能盲拉新实例；对策=长任务心跳留证（每阶段落盘进度文件）让「无动静」可证伪，purge 类操作前查目标区 mtime<10min 的在制文件
+1351:| 693 | `task_20260909_huangyaoshi-gate-and-audit-trio` | 门禁审计五小件：diff 检查器+场次对账+自锁修复+src_unknown 计数收紧+存在性核查节名白名单 | reviewed | huangyaoshi | 三件各带实测证据 | #690 后（黄药师单实例） | `60_feedback/tasks/task_20260909_huangyaoshi-gate-and-audit-trio.md` | 王语嫣 09-09 裁定采纳欧阳锋两建议书+自锁 friction 合并；欧阳锋终审 |
+1353:| 696 | `task_20260909_huangyaoshi-daily-review-coverage-wangyuyan` | 复盘覆盖补齐：daily_review ROLES 加王语嫣（老朱令全员复盘入列） | reviewed | huangyaoshi | 次日 23:37 四角色拉起实证 | #693 后 | `60_feedback/tasks/task_20260909_huangyaoshi-daily-review-coverage-wangyuyan.md` | 老朱 09-09 令抽空复盘内化迭代；调研三 agent 复盘形态另行评估；欧阳锋终审 |
+1354:| 697 | `task_20260910_huangyaoshi-claimed-stall-auto-relaunch` | claimed 停摆自动补拉门禁化：探针判停摆→自动拉起（防误伤三件套） | reviewed | huangyaoshi | 停摆场景自动补拉实测+三条款证据 | #693/#696 后 | `60_feedback/tasks/task_20260910_huangyaoshi-claimed-stall-auto-relaunch.md` | 老朱 09-10 令「不信纪律信门禁」（F-080 出停车场）；顺带检测 kimi cron wedge；欧阳锋终审 |
+Current state: #690/#693/#696/#697 all 终审 PASS A-. No commits after 03:50 today. This 23:37 session is the 8th section （复盘场， 23:37 场）. Now write the new section appended at end of the daily-context file.
+
+  Note: the file's 23:37 mention — #696's natural acceptance point was 今晚 23:37 schtasks LastTaskResult. Should I verify? The instruction says just do the review. I can check schtasks result quickly as part of 对账 — it's cheap and relevant. Let me do it.
+
+  Also check today's commits after 03:48 — none found (git log returned nothing before ===QUEUE===). Good.
+
+  Let me quickly check schtasks for daily_review result.---
+"\kdo-conversation-distill","2026/9/10 23:50:00","����"
+"\kdo-conveyor-probe","2026/9/10 23:47:00","����"
+"\kdo-conveyor-probe-tech","2026/9/10 23:47:00","����"
+"\kdo-daily-audit-digest","2026/9/11 6:00:00","����"
+"\kdo-daily-review","2026/9/11 23:37:00","����"
+"\kdo-doorbell-watchdog","2026/9/10 23:43:38","����"
+"\KDO-Health-Check","2026/9/11 8:47:00","����"
+"\kdo-health-daily","2026/9/11 2:07:00","����"
+"\kdo-huangyaoshi-doorbell","N/A","�ѽ���"
+"\kdo-inbox-watch","2026/9/10 23:41:00","����"
+---
+total 77480
+-rw-r--r-- 1 Administrator 197121    10396 Sep 10 23:38 headless-laowantong-20260910-233709.log
+-rw-r--r-- 1 Administrator 197121    14093 Sep 10 23:38 headless-huangyaoshi-20260910-233720.log
+-rw-r--r-- 1 Administrator 197121     7097 Sep 10 23:38 headless-wangyuyan-20260910-233741.log
+-rw-r--r-- 1 Administrator 197121    12218 Sep 10 23:37 daily-review.log
+drwxr-xr-x 1 Administrator 197121        0 Sep 10 23:37 .
+-rw-r--r-- 1 Administrator 197121   156425 Sep 10 23:37 channel-health.log
+-rw-r--r-- 1 Administrator 197121        0 Sep 10 23:37 headless-ouyangfeng-20260910-233729.log
+-rw-r--r-- 1 Administrator 197121   248189 Sep 10 23:37 l1-capture.log
+-rw-r--r-- 1 Administrator 197121  2458078 Sep 10 23:37 conveyor-probe.log
+-rw-r--r-- 1 Administrator 197121   315262 Sep 10 23:37 role-clock.log
+-rw-r--r-- 1 Administrator 197121     8840 Sep 10 23:34 headless-wangyuyan-20260910-233347.log
+-rw-r--r-- 1 Administrator 197121     4775 Sep 10 23:33 doorbell-watchdog.log
+-rw-r--r-- 1 Administrator 197121   217674 Sep 10 23:31 headless-laowantong-20260910-014123.log
+-rw-r--r-- 1 Administrator 197121    53346 Sep 10 23:20 vault-git-backup.log
+daily-review.log fired at 23:37 and headless logs for 4 roles (laowantong, huangyaoshi=me, ouyangfeng, wangyuyan) spawned — #696's natural acceptance （四角色 23:37 拉起） 实证成功. Check daily-review.log tail briefly for result.proc_laowantong_4644 | tool=kimi | log=C:\Users\Administrator\Desktop\wiki\logs\headless-laowantong-20260910-233709.log | 23:37:09
+proc_huangyaoshi_23212 | tool=kimi | log=C:\Users\Administrator\Desktop\wiki\logs\headless-huangyaoshi-20260910-233720.log | 23:37:20
+【通道fallback】codex 不健康（不可达：URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>）→ ouyangfeng 已切 claude（上游 zhipu-glm）
+proc_ouyangfeng_22468 | tool=claude | log=C:\Users\Administrator\Desktop\wiki\logs\headless-ouyangfeng-20260910-233729.log | 23:37:29
+proc_wangyuyan_25656 | tool=kimi | log=C:\Users\Administrator\Desktop\wiki\logs\headless-wangyuyan-20260910-233741.log | 23:37:41
+=== kdo-daily-review 2026-09-10 23:37:01 ===
+[launch] laowantong������ commit 8 ����rc=0��
+[launch] huangyaoshi������ commit 11 ����rc=0��
+[launch] ouyangfeng��todos ���� 1 ����rc=0��
+[launch] wangyuyan������ commit 6 ����rc=0��
+--- ������ 4 ��ɫ ---
+[launch] laowantong������ commit 8 ����rc=0��
+[launch] huangyaoshi������ commit 11 ����rc=0��
+[launch] ouyangfeng��todos ���� 1 ����rc=0��
+[launch] wangyuyan������ commit 6 ����rc=0��
+#696 自然验收点实证：23:37 四角色全部拉起 rc=0（含王语嫣——ROLES 加王语嫣的验收目标）。本实例即 huangyaoshi 那一发。
+
+  Now write the new section. Append to the file. Title: 「# 黄药师 daily-context 2026-09-10（23:37 场）」as instructed.
+
+  Content: Truman 11 章 （差异栏/概要/关键决策/思维盲点/顿悟/过程资产/元反思/Truman复盘： 逐轮映射/飞轮效应/对照实验/下次改进） + kdo query 检索记录. Write honest 空班节 — 本场零施工， but with对账增量： all four tasks PASS A-, #696 自然验收实证， plus this instance itself is the daily_review pull-up.
+
+  Also note the mixed CRLF — the file's last line 436 ends... the Read output didn't show \r markers for daily-context file, so it's LF. Fine.
+
+  For appending, use Edit or Write append mode. Write append is appropriate. But note instruction says Read before overwrite; append mode is fine.
+
+  Get current time for the todos line: it's ~23:38 now. I'll use 23:45 or get date fresh. Let me get the actual time when finishing. I'll run date later.
+
+  Write the section now.
+
+• 23:37 场状态已核清：#690/#693/#696/#697 全部终审 PASS A-，且 #696 的自然验收点（今晚 23:37 四角色拉起）刚在本场启动时实证——daily-review.log 显示四角色全 rc=0，本实例正是 huangyaoshi 那一发。现在追加复盘新节。
+
+• Step 4 — 检查新错误/新坑是否达入库阈值，然后保存自检：**根因**：`models_dev_cache` 标注 deepseek provider 走 `@ai-sdk/openai-compatible`，但 config 配了 `/anthropic` URL。
+
+**对策**：改 provider 前先查 `models_dev_cache.json` 确认 `npm` 字段。
+
+### E2: 模型发布日不查公告（2026-06-14，次数：1）
+
+**症状**：Kimi API 全线 400 + tool call 截断 48 字符，3 小时改 model/temperature/base_url 无效。
+
+**根因**：K2.7 当天发布，Anthropic 协议 tool call 未适配。WebSearch 在第 30 步才触发。
+
+**对策**：API 大规模异常→第 3 步内 `WebSearch "<provider> update"`。
+
+### E028: 去重键选用会被后续动作改写的材料——终审 PASS 后 1 小时复发（2026-09-04，次数：1）
+**症状**：#635 用「段内全文匹配已划销行」做 conveyor 去重键，PASS A- 后 08-27 陈旧事件 14:47/15:17 继续重登记，#636 返工。
+**根因**：划销是写操作（加 ~~ 和处置后缀），行文本被改写后匹配永远落空；设计时把「已划销行」当静态文本，验收只测了「划销行已存在」没测「划销动作之后事件再来」。与 #637「键太新（每滴新身份）」是镜像坑——去重键要在稳定性与区分度间取中。
+**对策**：去重/去抖类设计开工前答三问——键材料会被谁改写？粒度会不会太细？回退路径有没有？稳定键材料=事件身份（原始时间戳+源类型+主体），在事件产生时定死，后续处置改不了它。「终审 PASS」≠修根，复发实跑观察是更狠的验收层。
+
+### E029: 小修单漏写复盘节——同日多实例复盘覆盖无门禁（2026-09-04，次数：4）
+**症状**：#635/#636 两个施工场（各约 1 小时）完工后实例直接退场，均未写 daily-context 节；漏盘整天无人发现，23:37 headless 补账场才兜底。
+**根因**：「小单不用复盘」隐性假设 + review-check 只查当日文件存在、不查场次覆盖——文件在=绿灯，漏场不可见。
+**对策**：小修单当场写节不欠账（补账重建成本高且逐轮映射失真）；「复盘场次覆盖门禁」值得上浮建议书（review-check 按节核场次）。
+**复发（2026-09-06，次数 1→3）**：对策立后 48h 内同日两连发——05:45–06:16 连发场（#652 返工/#653/#655 三单，收尾 6f930ed26 只落 todos/friction 未落节）与 21:39–22:07 #669 场均完工即走，靠当日 23:37 headless 补账场三源取证兜底。文字层对策不过检：「提审即流转」有外部检查点所以执行，「完工即复盘」没有所以复发——已达复发 ≥2 升级线，门禁化建议书（review-check 按节核场次 / queue complete 挂当日复盘节 WARNING）实证弹药已足。同场附发黄牌：补账写盘误用覆盖式写入，前 4 节蒸发后靠上下文 Read 原文重建——多场次累积文件禁覆盖写。
+
+**复发（2026-09-07，次数 3→4）**：#675 bundle bat 双问题修复场（05:14–05:28，完工 commit 7301963f1）完工即走未写复盘节，当日 23:37 headless 补账场双侧 grep（daily-context + session-archive）零命中抓获——补账素材全靠盘上文档（任务单五字段执行报告+终审记录+todos 完工行），「复盘可重建」假设获实证，但心路层仍永久丢失。同场黄牌再复发：补账写盘 Write 未传 mode=append 默认 overwrite，前 5 节蒸发，靠 session-archive 双写副本零失真重建——「多场次累积文件禁覆盖写」黄牌在立牌者本人身上当场再犯，证明该黄牌无门禁承载。门禁化建议书（review-check 按节核场次 / queue complete 挂当日复盘节 WARNING）弹药 4 发，上浮条件已足。
+
+
+### E030: merge/redirect 声称「无信息损失」未做反向差集——绝对化断言落盘失实（2026-09-08，次数：1）
+**症状**：#686 双三角AI数据重复卡合并，执行报告落「原 OCR 与两节已入主卡，无信息损失」。欧阳锋终审 git 对照（0b42f9b2a^ vs 现主卡）实证半句失实：薄卡版【OCR原文】两处措辞变体（「自我修养」vs「思维修养」「推荐」vs「准备」）+【文档类型】行未入主卡，两次独立 VLM 提取的措辞变体证据仅存 git 历史，活文档不可见（终审 D1，PASS A- 非阻断，一句话修复排王语嫣 TODO）。
+**根因**：合并验收设计成正向清单（「要搬的搬了没」）而非反向差集（「源里还有什么没搬」）——正向清单天然验不出未登记项；「无信息损失」是绝对化声称，支撑它的却是点名核对。与「指针≠清单」定律同源：自以为知道全集，实际只核了点名项。
+**对策**：凡 merge/迁移/去重类操作，落「无损失/全覆盖」类断言前必跑反向差集（git diff 源全集 vs 目标），差集为空才可写「无损失」；差集非空则如实列出未搬项+去向。欧阳锋配套建议书 diag_20260908_ouyangfeng-686-merge-claim-discipline 已上浮同口径。
+
+
+• E030 is the latest. This session had no new error pattern reaching threshold (schtasks filter slip = one-off self-healed). Per earlier sections' judgment, no append. Also the append was via Write mode=append — good (avoiding the overwrite yellow card from E029).
+
+  Now run the save check (step 5).✅ 已保存：C:\Users\Administrator\Desktop\agent复盘\huangyaoshi\daily-context\2026-09-10.md
+✅ 已存档：60_feedback\session-archives\2026-09-10\huangyaoshi.md
+📋 自检：🟡 B级 📚检索有发现
+✅ 事件 #1495 已写入: agent=huangyaoshi event=review_saved
+🧪 胶囊 L0 已留痕: agent=huangyaoshi event=review_saved
+✅ A → B 镜像完成: C:\Users\Administrator\.kdo-memory\L1 → E:\KDO-memory\L1-backup（robocopy /MIR，exit 1）
+✅ verify PASS：B 镜像文件 hash 全一致；从 B 打开 integrity=ok 行数 1490（A 同 1490）
+23:40
+-eM-^HM-0M-gM-^BM-9M-oM-<M-^HM-hM-^JM-^BM-eM-%M-^O 15minM-oM-<M-^IM-oM-<M-^I^M$
+File ends with CRLF. Append a line with proper ending. Use Bash printf or Write append — Write append doesn't add a newline, so I need to include \n at start? File ends with \r\n already (last line ends with ^M$ = CRLF). So append content directly: "- [2026-09-10 23:40] ...\r\n". Write tool outputs literally — I can include \r\n. Let me use Write append with the line.Done. Summarize.
+
+• 复盘完成。六步全闭环：
+
+  **1. 素材搜集** — todos 2026-09-10 非叫醒行 12 条；git log 今日 huangyaoshi 名下 11 条 commit（00:45–02:59，#690 E盘迁移 / #693 门禁五小件 / #696 复盘覆盖 / #697 停摆补拉，03:48 后零增量）；队列四行核对。
+
+  **2-3. 新节追加** — 文件已存在（前七节在案），Read 全文后追加第八节「# 黄药师 daily-context 2026-09-10（23:37 场）」，严格 11 章 + kdo query 检索记录节。诚实空班节：本场零施工，核心增量是**终态对账**——
+
+  - #690/#693/#696/#697 四单全部终审 PASS A-，战线干净收口
+  - **#696 自然验收点实证**：本实例就是 daily_review 23:37 拉起链路的产物，logs/daily-review.log 显示四角色（老顽童/黄药师/欧阳锋/王语嫣）23:37 全拉起 rc=0（欧阳锋走 codex→claude fallback 也顺带实证）——被验收的机制拉起了验收者，自指闭环
+
+  **4. 错误模式库** — 不追加。本场唯一小瑕疵（schtasks 过滤条件滤空输出）属一次性操作失误且当场换姿势自愈，不达入库阈值，已在盲点节自记。
+
+  **5. 保存自检** — `daily-context-save.py save --truman` 输出 **🟡 B级 📚检索有发现** ✅（session-archive 双写 + L1→E 镜像 verify PASS 同步完成）
+
+  **6. todos 落账** — `[2026-09-10 23:40] 复盘完成…+自检🟡 B级` 已追加。
+
+  未越界：队列零触碰、任务单零改动、错误模式库零追加，只做复盘范围内的事。
+
+To resume this session: kimi -r session_2674e7ab-b6f9-438a-8617-018e721ae0f3

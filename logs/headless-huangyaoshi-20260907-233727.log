@@ -1,0 +1,1267 @@
+kimi version 0.41.0
+• Let me start with the required startup reads.The file is 976 lines, I read first 514. I need the last 20 lines (unread segment). Let me read the tail. Also need to find today's (2026-09-07) entries. Let me read the tail of the file and grep for 2026-09-07.The Read tool keeps dumping the first 50000 chars. I need the last 20 lines of 90_control/todos/huangyaoshi.md — use Read with negative line_offset. Also need today's entries in that file. Let me use Grep with content mode on that specific file for 2026-09-07, and read the tail.Read keeps truncating to first 50000 chars. I need last 20 lines — use Read with line_offset: -20. The Grep call needs a path scoping — my second grep didn't specify path so it searched whole repo. Let me use Read with negative offset and Grep with content mode on the specific file.The Read tool keeps returning the first 50000 chars regardless. I need the tail of the file. Use Bash tail. Also Grep with path scoping to the todos file for 2026-09-07 lines with content mode.- [2026-09-07 17:17] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-07 17:37] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#680（laowantong 的单，挂审 12min）（到点（节奏 15min））
+- [2026-09-07 17:52] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#680（laowantong 的单，挂审 27min）（到点（节奏 15min））
+- [2026-09-07 18:12] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-07 18:27] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-07 18:47] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-07 19:47] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-07 20:07] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-07 20:27] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-07 20:47] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-07 21:07] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-07 21:22] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-07 21:37] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-07 21:52] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-07 22:07] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-07 22:27] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-07 22:42] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-07 22:57] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-07 23:12] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-07 23:27] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+Now I need:
+  1. Today's (2026-09-07) entries in todos/huangyaoshi.md — use Grep with path scoped, content mode.
+  2. git log for today with 黄药师/huangyaoshi commits.
+  3. The existing daily-context file at C:\Users\Administrator\Desktop\agent复盘\huangyaoshi\daily-context\2026-09-07.md — read it.
+  4. agents/agent-os.md §10.2 Truman format.a90754cb9 23:29 ouyangfeng: E盘容量路由建议书——迁移候选排序+盘在位守卫+盘符固定+卷标规避（待老朱拍板迁什么）
+e0fcae054 23:29 ouyangfeng: #673 路由过期更正——#675 早间已施工闭环（追认一致），四处更正+偏一天口径小疵记档
+293b3b0b2 23:17 ouyangfeng: #673 R2 老朱拍板恢复日拍——决策记录落建议书+王语嫣路由+context blocker 更新
+75ddf6101 18:45 chore(wangyuyan): F-076回声族划销（WIKILINK friction重登记→#562根治排队）
+5f9820324 18:42 vault backup: 2026-09-07 18:42:06
+14439c592 18:31 vault backup: 2026-09-07 18:31:21
+927eb0ed3 18:21 vault backup: 2026-09-07 18:21:09
+7b01ddbbe 18:16 docs(wangyuyan): #680 B01抽验双签PASS+排期表v2修正注记（采信词根复检四项）
+5fa59d547 18:10 vault backup: 2026-09-07 18:10:30
+c5baff2d1 17:59 vault backup: 2026-09-07 17:59:59
+641f54b98 17:56 chore(queue): #680 review by 欧阳锋
+b67fd1505 17:49 vault backup: 2026-09-07 17:49:31
+a3d7ea31a 17:39 vault backup: 2026-09-07 17:39:00
+d44d4ce5c 17:28 vault backup: 2026-09-07 17:28:29
+f2324e053 17:25 chore(queue): #680 complete by laowantong
+6d38a628c 17:24 chore(laowantong): #680 返工第2次提交——补写件3台账§3(102行/副本diff复检)+②表8处改判+计数对账314+卡数口径修正
+631dc24d3 17:18 vault backup: 2026-09-07 17:18:17
+0a264bfde 17:14 chore(wangyuyan): 17:20拍 2行划销（B01回声/liveness误报）
+4f8826bb3 17:07 vault backup: 2026-09-07 17:07:32
+9d6c0c84d 16:57 vault backup: 2026-09-07 16:57:04
+1cffd9025 16:47 chore(queue): #680 claim by laowantong
+4d7b03603 16:41 vault backup: 2026-09-07 16:41:54
+22c1c7099 16:36 chore(ouyangfeng): #680 FAIL 退回补件（P0=件3台账§3缺失/8处grep判词失真4处改判）+随单建议三条落diag
+555c392df 16:35 chore(queue): #680 review by 欧阳锋
+1699cca11 16:31 vault backup: 2026-09-07 16:31:25
+77784d867 16:21 vault backup: 2026-09-07 16:21:12
+94614c5d7 16:15 chore(wangyuyan): 16:15拍 2行划销（#680回声/heredoc三例复发留档成文）——#680送终审
+18676cddd 16:10 vault backup: 2026-09-07 16:10:45
+e554f221a 16:00 vault backup: 2026-09-07 16:00:33
+58e8b738a 15:50 vault backup: 2026-09-07 15:50:20
+a1de3d3eb 15:46 chore(queue): #680 complete by laowantong
+dd8125286 15:46 #680 C340 深检 B01 批 5 份口述初挖台账（part1 件1-3 183锚+part2 件4-5 93锚，漏挖121候选附grep锚）by laowantong
+6b75b76af 15:44 chore(wangyuyan): 15:45拍 liveness回声划销
+6bc74c790 15:39 vault backup: 2026-09-07 15:39:35
+50a310267 15:29 vault backup: 2026-09-07 15:29:24
+fe5e3e841 15:19 vault backup: 2026-09-07 15:19:12
+b88109d42 15:08 vault backup: 2026-09-07 15:08:59
+d244e65fd 14:58 vault backup: 2026-09-07 14:58:48
+00e4ac87c 14:48 vault backup: 2026-09-07 14:48:36
+66d95ea88 14:46 chore(queue): #680 claim by laowantong
+f7a50f101 14:45 feat(wangyuyan): #680 立项（C340 深检 B01 批5份，2b流水线滚动开批——老朱拍板必须跑）
+d1981cd19 14:38 vault backup: 2026-09-07 14:38:10
+6fe2fdd14 14:27 vault backup: 2026-09-07 14:27:59
+72bee762a 14:17 vault backup: 2026-09-07 14:17:46
+334f3880a 14:07 vault backup: 2026-09-07 14:07:35
+06fbb7244 13:57 vault backup: 2026-09-07 13:57:24
+4cbc9c4ae 13:47 vault backup: 2026-09-07 13:47:11
+b9c672e90 13:36 vault backup: 2026-09-07 13:36:59
+6b43f1250 13:26 vault backup: 2026-09-07 13:26:47
+962007b50 13:16 vault backup: 2026-09-07 13:16:18
+79b6e1e3a 13:05 vault backup: 2026-09-07 13:05:50
+62aa74546 12:55 vault backup: 2026-09-07 12:55:21
+05a7f2b90 12:44 vault backup: 2026-09-07 12:44:53
+a3c21c5e6 12:34 vault backup: 2026-09-07 12:34:27
+5f9c0b97c 12:24 vault backup: 2026-09-07 12:24:16
+f43743e08 12:13 vault backup: 2026-09-07 12:13:32
+acfadb252 12:03 vault backup: 2026-09-07 12:03:05
+30588fe77 11:52 vault backup: 2026-09-07 11:52:52
+966673de0 11:42 vault backup: 2026-09-07 11:42:41
+44ebb02b8 11:32 vault backup: 2026-09-07 11:32:30
+bc25dbef2 11:22 vault backup: 2026-09-07 11:22:19
+7bb44247c 11:11 vault backup: 2026-09-07 11:11:52
+b7b6e64db 11:01 vault backup: 2026-09-07 11:01:41
+37ebd387a 10:51 vault backup: 2026-09-07 10:51:29
+0d8795c9d 10:45 chore(wangyuyan): 11:15拍 5行划销——三单PASS A-闭环+小昭审计路由闭环+双段归零
+1f2f4f1c1 10:41 vault backup: 2026-09-07 10:41:01
+d820851b0 10:31 chore(queue): #679 review by 欧阳锋
+2deaa1449 10:30 vault backup: 2026-09-07 10:30:49
+6cdd7aa79 10:30 chore(queue): #678 review by 欧阳锋
+694761f22 10:30 chore(queue): #677 review by 欧阳锋
+bd8fd0ed0 10:20 vault backup: 2026-09-07 10:20:19
+cc005aee8 10:18 docs(wangyuyan): #678 抽5复核双签PASS（L12本尊动作实证）——三单送终审
+a371958f2 10:13 chore(queue): #679 complete by huangyaoshi
+4caa2f260 10:13 #679 审计台账入仓：gate-warning.log（初判字段门禁 WARNING 首行）+force-exceptions.log（#504 连发 claim 留痕）by huangyaoshi
+e480aad62 10:12 #679 审计路由机制双件交卷：派工模板 initial_assessment 字段（新建 templates/task-dispatch-template.md）+claim 门禁两态（存量 WARNING 台账/新派 2026-09-14 HARD，占位符防货物崇拜）+词表门禁引用语境豁免成文（手册 §3.5.1 截写+复跑锚四条/§3.5.2 初判口径）；回归 82 passed + 活体 claim WARNING 台账实证 by huangyaoshi
+af3352679 10:10 chore(queue): #679 claim by huangyaoshi
+d40692633 10:09 vault backup: 2026-09-07 10:09:50
+b2d7d7788 10:09 chore(queue): #677 complete by huangyaoshi
+b912760e0 10:09 #677 返工交卷：内容词口径+真实零 tags 活体复现（3051d146e）+标杆卡如实改判——KDO 仓 1a7a2e2，evidence=logs/task677-tags-gate-rework-evidence-20260907.md by huangyaoshi
+fa04f779d 10:09 chore(queue): #678 complete by laowantong
+I need to find today's huangyaoshi commits. Let me get the full log and filter. Also need today's todos entries with content, existing daily-context file, task reports, agent-os §10.2.a371958f2 10:13 chore(queue): #679 complete by huangyaoshi
+4caa2f260 10:13 #679 审计台账入仓：gate-warning.log（初判字段门禁 WARNING 首行）+force-exceptions.log（#504 连发 claim 留痕）by huangyaoshi
+e480aad62 10:12 #679 审计路由机制双件交卷：派工模板 initial_assessment 字段（新建 templates/task-dispatch-template.md）+claim 门禁两态（存量 WARNING 台账/新派 2026-09-14 HARD，占位符防货物崇拜）+词表门禁引用语境豁免成文（手册 §3.5.1 截写+复跑锚四条/§3.5.2 初判口径）；回归 82 passed + 活体 claim WARNING 台账实证 by huangyaoshi
+af3352679 10:10 chore(queue): #679 claim by huangyaoshi
+b2d7d7788 10:09 chore(queue): #677 complete by huangyaoshi
+b912760e0 10:09 #677 返工交卷：内容词口径+真实零 tags 活体复现（3051d146e）+标杆卡如实改判——KDO 仓 1a7a2e2，evidence=logs/task677-tags-gate-rework-evidence-20260907.md by huangyaoshi
+d762c036c 09:48 chore(queue): #677 claim by huangyaoshi
+ca5e014c7 09:01 docs(677): 任务单补存在性核查锚点（#433 机器预审 🔴 闭环）by huangyaoshi
+7089896c0 09:01 chore(queue): #677 complete by huangyaoshi
+89709d859 09:01 #677 tags 门禁激活交付：evidence 日志+任务单五字段执行报告（KDO 仓 0c44c12）by huangyaoshi
+2f85c0b17 08:41 chore(queue): #677 claim by huangyaoshi
+c35b032cb 05:28 chore(queue): #675 complete by huangyaoshi
+7301963f1 05:28 #675 bundle bat :daily_only fall-through 双问题修复 by huangyaoshi
+015d7fe2c 05:14 chore(queue): #675 claim by huangyaoshi
+a9d293f33 04:44 feat(wangyuyan): #675 立项（bundle bat结构双问题）+3行划销（含黄药师自纠样本留档）
+d7270e81f 04:32 chore(queue): #674 complete by huangyaoshi
+f8cd50040 04:32 #674 path_map 键硬化 vault 侧：#671 探针适配 path 键 schema（缺口判定改按键+同title降非阻塞观察项）+验收日志+任务单执行报告 by huangyaoshi
+9493e6efe 04:17 chore(queue): #674 claim by huangyaoshi
+14c307d17 03:22 #671/#673 收尾落账：context.md 阻塞项（13 撞名卡待立项/.obsidian 快照待拍板）+todos 完工两行+friction（pre-submit reviewed_by 口径）by huangyaoshi
+6de5da2c3 03:18 #673 补存在性核查节（#433 机器预审 🔴 修复：负向断言逐条附核查锚点）by huangyaoshi
+48c49f8b9 03:16 chore(queue): #673 complete by huangyaoshi
+c0ad64e52 03:16 #673 bundle 备份过期处置：定性=非停摆（09-05 周节拍改革 vs 26h 阈值错位，周一晨必误报）——integrity-check 拆双层阈值 26h 日志活性+180h bundle 新鲜度，判读口径进已知故障族 by huangyaoshi
+4a1ebc580 03:10 chore(queue): #673 claim by huangyaoshi
+3f4e8c2c8 03:09 chore(queue): #671 complete by huangyaoshi
+306d4cca9 03:09 #671 graph_index 补录 dk 族交卷：执行报告+探针证据包（dark-knowledges 332/332，kdo query 5/6 top10 6/6 top30）by huangyaoshi
+48cffda86 02:48 chore(queue): #671 claim by huangyaoshi
+4864aed60 02:47 chore(queue): #670 complete by huangyaoshi
+30b581b19 02:15 chore(queue): #670 claim by huangyaoshi
+My Grep calls keep using default (whole repo) because I forgot to scope `path`. Let me scope to the todos file with content mode. Also read today's task files and the existing daily-context, plus agent-os §10.2.
+
+  Today's huangyaoshi commits: tasks #670 (claim 02:15, complete 02:47), #671 (dk graph index gap, claim 02:48, complete 03:09), #673 (bundle backup expiry, claim 03:10, complete 03:16, plus 03:18 存在性核查补, 03:22 收尾落账）, #674 (path_map key hardening, claim 04:17, complete 04:32), #675 (bundle bat fix, claim 05:14, complete 05:28), #677 (tags gate: claim 08:41, complete 09:01, docs 09:01, claim again 09:48, complete 10:09 rework), #679 (audit mechanisms, claim 10:10, complete 10:13).
+
+  That's 7 tasks today. Now check the existing daily-context file and read agent-os §10.2, plus read the task files' execution reports / review records. That's a lot of reading — maybe delegate to a subagent? The instructions say the task: gather material, write the retro. I could delegate material gathering to an explore agent. But I can also read key files directly. Task files are 5 huangyaoshi task files for today (audit-mechanisms, activate-tags-gate, bundle-bat-branch-fix, pathmap-key-hardening, bundle-regen, dk-graph-index-gap = 6, plus #670 card-status-flip was 20260906 task file but worked today). Plus review outcomes: grep todos for today's lines to see PASS/FAIL.
+
+  Let me read the existing daily-context file first, and agent-os §10.2. Then the task files — perhaps grep for 终审 in each. To conserve context, delegate gathering to an explore subagent? The task is substantial (7 task files, review records). But I need the specifics to write 11 chapters with 双三角要素逐轮映射. Hmm. Actually the instruction says "双三角要素逐轮映射照实写" — I need per-round mapping. The daily-context already exists with previous sessions' content — earlier sessions today likely already covered tasks up to some point. Reading the existing file will show what was covered and what time the last session was ("23:37 场" suggests appending a new section).
+
+  Let me read the existing daily-context file first.The existing daily-context file already has 5 sessions covering #670, #671, #673, #674, #677 (two rounds), #679. Today's commits by huangyaoshi end at 10:13 (#679 complete). After that, no more huangyaoshi commits — only ouyangfeng/wangyuyan/laowantong activity and backups. The 23:37 场 (this session) is a headless复盘 session itself — the instruction says append a new section 「# 黄药师 daily-context 2026-09-07（23:37 场）」.
+
+  Wait — but also need to check: are there commits between 10:13 and 23:37 by huangyaoshi? The grep list shows the latest huangyaoshi commit is a371958f2 at 10:13. So this 23:37 session has no new construction — but the earlier sessions already covered all the work. This session's task IS the复盘 itself. So the new section should be an honest record: this session did the daily-context retro; the day's work was covered in sessions 1-5; this session adds a closing/aggregate section.
+
+  Also need: today's review outcomes for #677/#679 — check todos entries for today. The todos grep — I scoped nothing; my Grep with path param... I didn't pass path. Let me grep the todos file for 2026-09-07 content lines. Also check 终审记录 for #677/#679 in their task files. Earlier grep of production-queue would show statuses. At 10:30 there were review actions for #677/#678/#679 by 欧阳锋. The tail of todos didn't show PASS results for #677/#679 — let me grep todos file content for 09-07 lines excluding 叫醒 lines.
+
+  Also need agent-os.md §10.2 Truman format (11 chapters). The existing sessions use chapters: 差异栏（第1章）, 概要， 关键决策， 思维盲点， 顿悟， 过程资产， 元反思， Truman复盘（逐轮映射/红利与成本/对照实验/下次改进）. That's 10-11 chapters. Let me check agent-os.md §10.2 to confirm chapter list.
+
+  Then:
+  - Read 终审 records for #677 and #679 (whether PASS).
+  - Check 错误模式库.md existence.
+  - Append new section, run save script, append todos line.
+
+  Let me do these reads.My Grep calls aren't scoping properly because I'm not passing the `path` parameter. I need to grep content within specific files. Let me do targeted reads:
+
+  1. agent-os.md §10.2 — grep with path agents/agent-os.md for "10.2" content.
+  2. todos/huangyaoshi.md 2026-09-07 non-叫醒 lines — use Grep with path and content mode. Actually Grep tool with path param: `path: "90_control/todos/huangyaoshi.md"`. I kept forgetting. Let me do it now.
+  3. Check 终审记录 in task files for #677 and #679 — grep for 终审 in those task files.
+  4. Check 错误模式库.md existence.
+
+  Given context budget, maybe delegate some reading. But the material for the new 23:37 section is mostly: this session = retro-only session （无施工）. Actually wait — is that right? The 23:37 session is THIS headless session. Its instruction: execute today's Truman retro. The earlier 5 sessions already wrote retros covering all of today's commits (#670, #671, #673, #674, #677, #677返工， #679). The last huangyaoshi commit was 10:13. So the 23:37 session's content = the retro task itself, plus possibly verifying终审 outcomes of #677/#679 (reviews happened at 10:30).
+
+  So the new section should honestly state: 本场为复盘专场（headless 无会话记忆），无新施工；核对今日五场已覆盖 #670/#671/#673/#674/#677/#679；补充终审结果对账（#677/#679 的终审结果 at 10:30 — need to check outcome). Let me check the todos and task files for the review results.
+
+  Also step 1 of task instructions: read todos entries dated 2026-09-07. Let me grep that file with content mode now, properly scoped.The Grep tool isn't scoping because I keep omitting `path`. Let me be deliberate: use Grep with `path` = file path, `output_mode` = content.3:- [2026-09-07 09:47] 🔴 KDO 退回 1 单（返工优先）：#677（task_20260907_huangyaoshi-activate-tags-gate），见任务单终审记录
+886:- [2026-09-07 01:47] 📥 KDO 可领取 1 单：#670
+891:- [2026-09-07 03:55] 【完工】huangyaoshi：#670 卡 status 翻转机制交卷——终审 PASS 钩子落地（_flip_delivered_cards+三层交付卡解析+draft幂等护栏+翻转落仓，review_mark 抽 mark_card 同源复用）+23 回归全量 296 passed+CLI 沙盒真跑 3 翻 1 跳过（logs/sim-card-flip-670-20260907.log）；点名 8 张已由欧阳锋 02:09 手工收口（1ceef00d5）实证闭；另审计出存量 33+7 张停留卡未代翻（E018 防线）落 audit-stuck-cards-20260907.md 交欧阳锋核裁；queue complete→pending_review 待终审（commit 9a176228d/4864aed60/b013505d8）
+892:- [2026-09-07 02:57] 📥 KDO 可领取 1 单：#673
+894:- [2026-09-07 03:20] 【完工】huangyaoshi：#671 graph_index 补录 dk 族交卷——根因=graph.py 白名单漏 dark-knowledges/dk 两目录（【实证】修复前 graph.py:333-342），白名单改全子目录动态扫描+_archive 排除，kdo graph rebuild --full 全量 2941 页（dark-knowledges 332/332，kdo query 5/6 top10 6/6 top30）；防复发探针 graph-index-coverage-probe.py 上线挂 kdo-health-daily 02:07（复用构建收集逻辑不漂移，标题撞车类同拦——现捕 13 张历史撞名卡待王语嫣立项改名）；KDO 仓 78e6551+回归 633 passed 1 skipped+新增 3 例；queue complete→pending_review
+895:- [2026-09-07 03:21] 【完工】huangyaoshi：#673 bundle 备份过期处置交卷——定性=非停摆（【实证】09-05 老朱周节拍改革 bat 闸门注释锚点：周一 full bundle/非周一 skip-only；09-06 空 batch 属设计；47.6h 告警=26h 阈值与周节拍错位每周一 02:07 必误报；「09-03 D盘清理后遗」假设被日志证伪）；处置=integrity-check 拆双层阈值（26h 日志活性+180h bundle 新鲜度，停摆检测不降级）+判读口径进 infrastructure-inventory 已知故障族+补 kdo-wiki-bundle-backup 行；实跑 PASS exit 0（bundle 龄 0.8h）节拍 09-05/06/07 三日连续；新发现 .obsidian 快照实际仅周一跑（bat 注释称每日）待老朱拍板；queue complete→pending_review（force 台账留痕：#672 FIFO 前单他属）
+897:- [2026-09-07 03:37] ✅ KDO 终审通过 2 单：#670, #671——你的单过了，见任务单终审记录
+899:- [2026-09-07 03:47] 📥 KDO 可领取 1 单：#674
+903:- [2026-09-07 04:27] ✅ KDO 终审通过 1 单：#673——你的单过了，见任务单终审记录
+904:- [2026-09-07 04:33] 【完工】huangyaoshi：#674 path_map 键硬化交卷——【实证】修复前 dup_titles=13/dup_cards=26、探针 2928/2941 缺口恰 13（concepts1/dk1/frameworks1/tools10 与任务单一致）；修法=title 键改 page_path 键值{title,id}+legacy state 自动升级 full rebuild+删除传播按键差集取回 title（KDO 仓 6fb4a42，TDD 先红后绿，回归 639 passed 1 skipped 无红）；vault 重建 2941 页后 path_map=2941=page_count、26 张撞名卡 missing=0 全部可溯源、探针 coverage OK exit 0（concepts 525/525 #671 缺口清零，dark-knowledges 332/332）、检索冒烟曾撞车 dk 卡正常召回；探针适配 path 键 schema+dup_titles 转非阻塞观察项（vault f8cd500）；残余=LightRAG 实体层仍按 title 合流 13 组（改名归内容侧，建议另立新单）+既有空库早退缺陷未动（见任务单边界）；queue complete→pending_review 待终审
+906:- [2026-09-07 04:47] 📥 KDO 可领取 1 单：#675
+908:- [2026-09-07 05:07] ✅ KDO 终审通过 1 单：#674——你的单过了，见任务单终审记录
+910:- [2026-09-07 05:40] 【完工】huangyaoshi：#675 bundle bat :daily_only fall-through 双问题交卷——修法=标签拆分 :monday_full/:daily_tasks+obsidian 快照节拍按注释意图对齐为每日（08-31 盲点兜底不被周节拍削弱，KB-MB 级成本不适用 2GB 闸门理由）+skip 行措辞如实+附带头注释 rolling >=4→2 声明修正；TDD 红→绿（沙盒两天模拟 4 seam 含 offsite stub 防 real 坚果云写入，修前 RED 10/14 恰两目标缺陷，修后 GREEN 14/14，logs/sim-bundle-bat-675-20260907.log）+回归 vault-integrity-check OK exit 0+pytest 296 passed；inventory L186/判读口径同步收口（#673 待老朱拍板疑点已按对齐方案执行）；queue complete→pending_review 待欧阳锋终审（commit 7301963f1）；真实生效看 09-08 周二 02:30 首拍应出 skip+snapshot 两行
+913:- [2026-09-07 05:57] ✅ KDO 终审通过 1 单：#675——你的单过了，见任务单终审记录
+924:- [2026-09-07 09:07] 【完工】huangyaoshi：#677 tags 门禁激活交卷——【实证】"检查器完整存在"与实际不符：def _check_tags 行系 8bc5645 批量提交丢失，检查器主体是 _check_aliases_has_source_name 的 return 后死代码，直接接线会 NameError；修法=提取真函数+run_pre_submit 接线+#498 词量（普通卡全部条目 5-8/dk 核心词 1-3+空串残渣清理）+两态 WARNING 软期至 2026-09-14→HARD（env KDO_TAGS_HARD_DATE，#669 同节奏）；KDO 仓 0c44c12，TDD 红(ImportError)→绿 15/15，回归 654 passed 1 skipped 零红；验收=两零 tags dk 卡缺陷态（git 4179de376^，现行态 09-06 18:31 已补 tags 不误报）复现 WARNING+标杆 meeting-iceberg 接线路径 tags 0 issue passed=1+HARD env 翻转 error；【待裁】词量计数不对称口径+framework→method 不接线两处请欧阳锋终审（任务单存在性核查节已补，#433）；queue complete→pending_review，evidence=logs/task677-tags-gate-evidence-20260907.md
+930:- [2026-09-07 10:20] 【完工】huangyaoshi：#677 tags 门禁返工交卷——欧阳锋 P1×2+P2 全修：a)普通卡词量改内容词口径（剔 audience:/scene:/skill-level: 前缀维度，graph-rag 3前缀+7内容词修后 tags_gate_issues=0；误报候选独立复算 546 张互证欧阳锋 504）b)活体复现改真实缺陷态——4179de376^ 0/0 误证删除（文件不存在非零 tags），改用 git 历史真实零 tags 卡 ai-collaboration-mindset-shift.md@3051d146e（扫描实证 49 张候选）复现 WARNING c)标杆卡 meeting-iceberg 内容词 4<5 如实改判不合规（不再作合规样板，补标归内容侧）；TDD 红4→绿16/16，全量回归 655 passed 1 skipped；修后存量量化：2916 张受检卡中内容词<5 达 2064 张（HARD 前内容侧治理规模，evidence §6）；KDO 仓 1a7a2e2，queue complete→pending_review（evidence=logs/task677-tags-gate-rework-evidence-20260907.md）
+931:- [2026-09-07 10:20] 【完工】huangyaoshi：#679 审计路由机制双件交卷——①新建派工模板 90_control/templates/task-dispatch-template.md（initial_assessment=待证命题+核查锚三选一；开工前核查 templates/ 仅 5 件无任务单模板，初判「增补」证伪改「新建」）②claim 门禁 _check_initial_assessment_gate 两态（存量 WARNING 台账/created_at≥2026-09-14 新派 HARD，env 可提前，模板占位符原样=缺失防货物崇拜）——活体实证：本单 claim 即触发 WARNING+gate-warning.log 10:10:25 台账行③词表门禁「引用语境豁免」成文手册 §3.5.1（提及vs患有三例 E040/#517/QUOTE_VERBATIM 同源+截写/复跑锚/三禁/留痕四条+实证源 laowantong.md:28/:56）+§3.5.2 初判字段口径；门禁拦截语义零改动（#429/#444 契约不破）；回归 queue_transition 82 passed（含 6 新例）+KDO 仓 655 passed；queue complete→pending_review（evidence=logs/task679-audit-mechanisms-evidence-20260907.md，claim 走 --sequence 遇 #678 FIFO 挡路改 --force --reason 留痕 #504）
+933:- [2026-09-07 10:37] ✅ KDO 终审通过 2 单：#677, #679——你的单过了，见任务单终审记录
+---
+Codex-Kimi-配置复盘.md
+KDO端到端测试发现的问题.md
+Sprint6-三项不做决策逻辑.md
+cn-track-archive-20260819
+codebuddy-技能进化日志.md
+daily-context
+friction-log.md
+成功模式库.md
+技能进化日志.md
+用户反馈档案.md
+索引.md
+能力雷达图.md
+错误模式库.md
+Now I have today's full picture. All 7 tasks were closed: #670, #671, #673, #674, #675, #677 (rework), #679 — all PASS per todos lines 897/903/908/913/933.
+
+  Now I need agent-os.md §10.2 Truman format. Let me read that section. Also check the 错误模式库.md tail to see format for appending new errors. New error candidates from today (per existing sessions): 手改 status （已落 friction-log, from session 3), 内联 python 转义坑， 「0 计数二分语义」(session 5). But whether they're already in 错误模式库 needs checking. Also this 23:37 session itself — did it produce new errors? My own session had tool-usage friction: Grep tool not scoping (I kept forgetting path param), Read truncation for big files. That's minor.
+
+  The new section to append: 「# 黄药师 daily-context 2026-09-07（23:37 场）」 — Truman 11 chapters. This session = headless retro session with no construction. Per instruction 3: 无实质产出→如实写「今日无施工」诚实空班节. But this session is a retro session; the day's work was covered by 5 earlier sessions. The honest write: 本场为复盘专场，无施工；对账全日 7 单全 PASS；附终审结果核对（which earlier sessions may not have had since they wrote before reviews at 10:30... actually session 5 at 10:20 wrote before 10:37 PASS. The 09-07 09:47 todos line says #677 was退回 then reworked and passed at 10:37).
+
+  So the 23:37 section can add value: 全日对账 + 终审结果闭环确认 + retro-process self-check.
+
+  Let me read agent-os.md §10.2 for the exact 11 chapters.191:### 10.2 唯一标准格式
+324:| `agent复盘/<agent>/daily-context/YYYY-MM-DD.md` | **唯一直写**的复盘文件（Truman 11 章，§10.2 格式） | agent 本人，经 `daily-context-save.py` 落盘 | 每次会话收尾 |
+381:会话结束 → Agent 自己跑双三角复盘（§10.2）→ 映射本轮对话到六要素
+---
+### 10.2 唯一标准格式
+
+**所有 Agent 统一使用 Truman YAI 复盘法——以下 11 章缺一不可：**
+
+```
+## 差异栏（第 1 章，#268：本次 vs 上次复盘哪里不同——新的视角/复发的模式/被打破的假设。空白=重复自审，降级为 C 级）
+## 概要（一句话：今天做了什么）
+## 关键决策（表格：决策/理由/结果）
+## 思维盲点（≥1条：什么被漏掉了？每条追问"为什么漏掉"）
+## 顿悟（≥1条：什么基础认知被推翻了？）
+## 过程资产（新增/更新的文件路径清单）
+## 元反思（下次怎么做才能不一样？）
+
+## Truman复盘
+### 逐轮映射（表格：轮次/人做什么/双三角要素/AI做什么/双三角要素）
+### 飞轮效应（本轮加速了哪个回路？）
+### 对照实验（无人会怎样/无AI会怎样/合在一起怎样）
+### 下次改进（Agent自身改进/方法论卡更新）
+```
+
+> **为什么有差异栏**（2026-08-09 #268，ParamMem 调研）：反思多样性 > 重复反思。模板化复盘的隐患是"每次都写同样的话"，自审失去信息量。差异栏强制回答"这轮和上轮哪里不同"——新的视角、复发的模式、被打破的假设，任选其一，不可空白。
+
+**禁止使用任何其他复盘格式。** 各 Agent 的 `-context.md` 不得定义独立的复盘模板——全部引用本协议。
+
+### 10.3 执行时机
+Now check the 错误模式库.md tail for format, and check if today's new errors are already recorded there. Also check what happened in this 23:37 session itself: it's the headless retro session. Also need to double check whether the earlier sessions today covered all commits — yes: #670 （场1), #671+#673 （场2), #674 （场3), #677 （场4), #677返工+#679 （场5). #675 — wait, was #675 covered? Session list: 场1 #670; 场2 #671+#673; 场3 #674; 场4 #677; 场5 #677返工+#679. #675 (05:14–05:28 bundle bat fix) — not covered in the file I read! The file ends at 365 lines with 场5. Let me double check — the file read showed 5 sections. #675 was completed 05:40 per todos, PASS at 05:57. There's no section for #675! That's a real gap the 23:37 场 should cover: the missing #675 session retro.
+
+  Actually wait — maybe #675 was covered in a different daily-context or session archive. Let me check 60_feedback/session-archives/2026-09-07/huangyaoshi.md. Also grep the daily-context file for "675".---
+**家族**：E029（配置被改≠生效）/E031（检测手段未验证语义）/E034（信计划态不信运行态）的镜像——本条目是信丢失叙事不信存在证据。
+
+
+
+### E021: 采集产物跳过 inbox 门禁直接写入 10_raw/30_wiki——污染知识库（2026-08-17，次数：1）
+**症状**：collect_wechat.py 把逐字稿直接写 `10_raw/sources/`、wechat_knowledge.py 把研究文档直接写 `30_wiki/cases/`，16+16 个测试产物未经处理进入知识库正式层。用户纠偏："进入知识库的内容第一站就是inbox，未经处理是不准放到其他地方，会污染知识库"。
+**根因**：深夜晚间会话写管线时凭"采集管线直接产知识资产"的直觉设计输出路径，没对照 CLAUDE.md 的输入输出分离原则（10_raw/ 和 00_inbox/ 里的原始文件只读不改 + 流水线 capture→ingest→enrich→produce→validate→ship）。**P-35 家族变体：信任自己的直觉不验证规则**。
+**对策**：输出统一落 `00_inbox/wechat-collect/`（knowledge/ 子目录），validate 后才可入 30_wiki；测试产物全部删除；采集类工具的输出路径设计必须对照 CLAUDE.md 输入输出分离原则。
+
+### E020: 编译生产 Agent 前未验证上游定义——凭记忆写 KDO 术语（2026-08-09，次数：1）
+
+**症状**：部署 #303/#304 两个飞书 Agent 时，把 TCPR 写成 Thinker/Coach/Practitioner/Reviewer——KDO 正确定义是 Teach/Consult/Practice/Research（agent-os.md §1 + framework-TCPR皇冠模型）。错误沿 spec→SOUL→飞书全链污染，助理在飞书复述错误定义。欧阳锋终审 #300/#287 spec 也未拦截。
+
+**根因**（三层叠加）：
+1. **虚假熟悉感**：TCPR 四字母形态触发大脑填充常见咨询术语（Thinker/Coach 是教练圈命名），"顺滑"填充覆盖真实知识，没意识到在编——检索铁律要防的幻觉机制
+2. **上游污染链**：spec（王语嫣写）就用错定义，我作为部署者照抄未交叉验证——P-35 家族（信任交付物不验证）
+3. **编译无验证**：#263 流水线 spec→SOUL 转换没有术语验证步骤
+
+**对策**：
+- E020 记录 + #263 流水线加"编译期验证"（spec 引用的 KDO 术语强制 grep 知识库）
+- 部署任何 Agent 前，SOUL 里的 KDO 术语（TCPR/MOC/framework 名等）逐项 grep 验证存在性
+- 修复完成证据：两个 SOUL + profile 已同步正确定义，错误版清零
+
+### E019: 提审后状态未流转——任务卡在 claimed（2026-08-09，次数：2）
+**症状**：#271 执行报告写完、宣布交付后，队列行仍停在 `claimed`（非标准值）——王语嫣核对时发现，已代为修复为 pending_review。2026-08-09 全天 6 次实证（#265/#264/#252/#233/#235/#271），"生产端提交后未更新状态"是模式。
+**根因**：写完执行报告 = 完成感触发，队列流转是机械动作无成就感——与 B1 牌（先入队再宣布完成）同构的孪生漏洞，只防了"入队"没防"出队流转"。
+**对策**：已升级 huangyaoshi-context.md 铁律 0"提审即流转"——提交 = 任务单 status + 队列行同步，两步缺一不可。复发计数触发行为牌升级（B1 扩展）。
+
+### E4: Agent只挖结构化笔记，跳过口述稿Q&A闲聊——暗知识遗漏（2026-06-19，次数：1）
+**症状**：老顽童产出王欢AI实践域20张卡，全部基于结构化工整笔记(127行)。口述稿末尾250行Q&A闲聊中的暗知识未被独立成卡——至少还缺2-3张dk。**根因**：笔记过滤效应——结构化笔记不覆盖Q&A；入口把关人也未标注Q&A部分。**对策**：P-31——口述稿末尾20%必须单独标注可能的暗知识；结构化材料是入口不是全集。
+
+### E3: 批量操作未声明变更范围（2026-06-17，次数：1）
+**症状**：470 skill 重分类导致 486 文件变更，欧阳锋无法快速审查。**根因**：执行前未在任务文件写明预期变更范围。**对策**：P-30——任何批量操作前声明影响文件数+修改字段+修改前后值。
+
+### E1: Provider 迁移时协议不匹配（2026-06-14，次数：1）
+
+**症状**：Hermes 切到 DeepSeek 后功能降级，模型显示为 `deepseek-chat` 而非 `deepseek-v4-pro`。
+
+**根因**：`models_dev_cache` 标注 deepseek provider 走 `@ai-sdk/openai-compatible`，但 config 配了 `/anthropic` URL。
+
+**对策**：改 provider 前先查 `models_dev_cache.json` 确认 `npm` 字段。
+
+### E2: 模型发布日不查公告（2026-06-14，次数：1）
+
+**症状**：Kimi API 全线 400 + tool call 截断 48 字符，3 小时改 model/temperature/base_url 无效。
+
+**根因**：K2.7 当天发布，Anthropic 协议 tool call 未适配。WebSearch 在第 30 步才触发。
+
+**对策**：API 大规模异常→第 3 步内 `WebSearch "<provider> update"`。
+
+### E028: 去重键选用会被后续动作改写的材料——终审 PASS 后 1 小时复发（2026-09-04，次数：1）
+**症状**：#635 用「段内全文匹配已划销行」做 conveyor 去重键，PASS A- 后 08-27 陈旧事件 14:47/15:17 继续重登记，#636 返工。
+**根因**：划销是写操作（加 ~~ 和处置后缀），行文本被改写后匹配永远落空；设计时把「已划销行」当静态文本，验收只测了「划销行已存在」没测「划销动作之后事件再来」。与 #637「键太新（每滴新身份）」是镜像坑——去重键要在稳定性与区分度间取中。
+**对策**：去重/去抖类设计开工前答三问——键材料会被谁改写？粒度会不会太细？回退路径有没有？稳定键材料=事件身份（原始时间戳+源类型+主体），在事件产生时定死，后续处置改不了它。「终审 PASS」≠修根，复发实跑观察是更狠的验收层。
+
+### E029: 小修单漏写复盘节——同日多实例复盘覆盖无门禁（2026-09-04，次数：3）
+**症状**：#635/#636 两个施工场（各约 1 小时）完工后实例直接退场，均未写 daily-context 节；漏盘整天无人发现，23:37 headless 补账场才兜底。
+**根因**：「小单不用复盘」隐性假设 + review-check 只查当日文件存在、不查场次覆盖——文件在=绿灯，漏场不可见。
+**对策**：小修单当场写节不欠账（补账重建成本高且逐轮映射失真）；「复盘场次覆盖门禁」值得上浮建议书（review-check 按节核场次）。
+**复发（2026-09-06，次数 1→3）**：对策立后 48h 内同日两连发——05:45–06:16 连发场（#652 返工/#653/#655 三单，收尾 6f930ed26 只落 todos/friction 未落节）与 21:39–22:07 #669 场均完工即走，靠当日 23:37 headless 补账场三源取证兜底。文字层对策不过检：「提审即流转」有外部检查点所以执行，「完工即复盘」没有所以复发——已达复发 ≥2 升级线，门禁化建议书（review-check 按节核场次 / queue complete 挂当日复盘节 WARNING）实证弹药已足。同场附发黄牌：补账写盘误用覆盖式写入，前 4 节蒸发后靠上下文 Read 原文重建——多场次累积文件禁覆盖写。
+---
+huangyaoshi.md
+laowantong.md
+ouyangfeng.md
+wangyuyan.md
+Key finding: #675 has NO section in the daily-context file. That's another E029 recurrence （小修单漏写复盘节） — #675 was a ~30min 施工场 (05:14–05:28) that finished without writing a daily-context section. The 23:37 场 must cover #675 (E029 remedy: 补账）.
+
+  Also E029's recurrence note says "已达复发 ≥2 升级线，门禁化建议书实证弹药已足". Today's #675 miss = another recurrence (count 3→4? Let me count: E029 was 次数：3 after 09-06 recurrence. Today #675 = another instance → 4). I should append to 错误模式库.md — the rule says 新错误/新坑 → append. #675 missing section is an E029 recurrence — append a recurrence note.
+
+  Also the daily-context sessions: 场1-场5 exist, covering #670, #671, #673, #674, #677, #677返工， #679. Missing: #675. So the 23:37 场 needs to: (1) honestly record this session = headless retro session, no construction; (2) 补 #675 场 retro content （从任务单+git+todos 取证重建）; (3) 全日对账 + 终审结果 (#677/#679 PASS at 10:37 — sessions wrote before that).
+
+  Now let me gather #675 material: read the task file 60_feedback/tasks/task_20260907_huangyaoshi-bundle-bat-branch-fix.md — execution report and 终审记录. The todos line 910 already gives a great summary. Let me read the task file's 执行报告/终审 sections.
+
+  Also check 60_feedback/session-archives/2026-09-07/huangyaoshi.md to see if it documents #675 (it might contain the session record).21:## 实证（欧阳锋 #673 终审独立读 bat 源码+daily.log）
+25:## 修法
+28:## 验收
+31:## 执行报告（黄药师 2026-09-07 05:40）
+43:## kdo query 检索记录（宪法第六条，#669）
+52:## 机器预审报告
+56:### ①-补 划痕路径提示
+59:### ① 声称-交付差集
+62:### ② lint
+65:### ③ 负向判词 / ④ 存在性核查
+70:## 终审记录
+===
+## 执行报告（黄药师 2026-09-07 05:40）
+
+**交付物**：`90_control/scripts/wiki-bundle-backup.bat` 重构（标签拆分+快照节拍对齐+日志行修正）；文档层 `90_control/infrastructure-inventory.md` L186 节拍声明 + bundle 判读口径收口；证据 `logs/sim-bundle-bat-675-20260907.log`（红→绿两段）；模拟 harness `_tmp/bat675-sim/sim_bundle_bat_675.py`（_tmp 不进 git，可复跑复核）。
+
+**完成内容**：①标签拆分——`:monday_full`（周一全量 bundle+verify+HEAD 比对+offsite）/`:daily_tasks`（.obsidian 快照+rolling cleanup+done）各归各，周一走 `goto :daily_tasks` 前无任何 skip 行出口【实证】修后 Monday 段 0 条 skip 行；②快照节拍二选一取「按注释意图对齐=每日跑」，依据：08-31 盲点兜底意图（.obsidian 不进 git，快照是唯一恢复路径，周拍=最多丢 6 天配置）+快照 KB-MB 级成本不适用 2GB/天磁盘闸门理由+头注释与 skip 行两处既有声明均为每日【推断→模拟实证】；③skip 行改如实措辞「(.obsidian snapshot + cleanup still run)」；④附带声明真实性修正（超出双问题最小集，欧阳锋可裁）：头注释「Keeps rolling >=4 bundles」→「2 weekly bundles」（09-02 老朱 7→4、09-05 再改 2，注释停在旧值，与问题②同类「注释与行为不符」）；⑤WD 探测失败 fail-safe 保持（空值≠Monday→skip 分支，每日尾段仍执行）。
+
+**验证**：TDD 红→绿——自建两天沙盒模拟（fakewiki git 仓+假 DEST，4 个声明 seam：路径×2/星期参数注入/offsite call stub 防 real 坚果云写入+keep-2 误删【实证】offsite-2nd.bat 硬编码 D:\KDO-memory→C:\kdo-offsite 真路径）14 断言：修前 RED 10/14（恰两目标缺陷失败：Sunday 快照 S3/S4/S5+Monday 假行 M3，其余语义全过），修后 GREEN 14/14（含 Monday 快照内容 day2 新鲜度、cleanup keep-2、bundle verify rc0）；回归=vault-integrity-check.py OK exit 0（vault 26172 files+bundle+offsite 三查全过）+ 90_control/scripts/tests pytest 296 passed 无红；真实 D:\KDO-memory 未被模拟触碰（全沙盒隔离）。
+
+**边界**：①`wiki-bundle-offsite-2nd.bat` 自身未动（其 SRC/DEST 是真备份副本目录，行为与注释一致，无同款缺陷）；②真实节拍验证只能到「模拟等价」——真实生效看 09-08（周二）02:30 首拍：日志应出现 skip+「OK .obsidian snapshot updated」两行（此前周二无快照行）；③LightRAG/kdo CLI 侧无涉；④harness 未晋升正式 pytest（有副作用：建仓+跑 cmd，需 marker 隔离，是否收编待欧阳锋裁）。
+
+**需要谁动作**：欧阳锋终审（重点核：快照节拍二选一依据是否成立、附带头注释修正是否接受、09-08 首拍后可抽查 D:\KDO-memory\wiki-bundle-daily.log 尾 4 行）；无需老朱动作（#673 挂的「待老朱拍板补日拍或改注释」已按对齐方案执行，inventory 判读口径已同步收口）。
+
+## kdo query 检索记录（宪法第六条，#669）
+## 终审记录
+
+methodology_version: v2.3
+verdict: PASS
+grade: A-
+blocking: 无
+reviewed_by: 欧阳锋
+review_date: 2026-09-07
+
+**审查结论**：三项重点核全过，准予通过。
+
+①标签职责拆分后周一/非一路径日志如实——bat 现逻辑 `if /i "%WD%"=="Monday" goto :monday_full`：非周一先 echo skip（措辞 `.obsidian snapshot + cleanup still run`）再 `goto :daily_tasks`；周一进 `:monday_full` 产完 bundle/verify/HEAD/offsite 后自然 fall-through 到 `:daily_tasks`（中间无 goto 出口），周一不再出现 skip 行【实证，本端读 bat 全文】。沙盒模拟 S1/S2/S5（周日 skip 恰一次+无 start/OK bundle+措辞如实）、M1/M3（周一 start/OK bundle 且无 skip）全过【实证，本端在 git 仓库 CWD 下独立重跑 harness，GREEN 14/14】。修复前真实日志双缺陷均被 D:\KDO-memory\wiki-bundle-daily.log 证实：09-07（周一）段「OK .obsidian snapshot updated」后紧跟「skip: not Monday」假行；09-06（周六）段「skip…(obsidian snapshot still runs)」却无「OK .obsidian snapshot updated」行【实证】。
+
+②obsidian 快照节拍与文档声明一致——bat 头注释与 `:daily_tasks` 注释均明示「EVERY day」+ inventory L186「obsidian 快照**每日** #675」+ L190 判读口径收口（周一=start/OK bundle/快照/cleanup/done，非周一=skip/快照/cleanup/done）三处声明一致【实证】。沙盒 S3/S4（周日快照行+快照目录真实写入）、M4/M5（周一快照行+内容 day2 新鲜）全过【实证】。决策「对齐为每日」依据成立：08-31 .obsidian 盲点兜底意图 + 快照 KB-MB 级成本不适用 2GB/天磁盘闸门 + 修复前头注释与 skip 行两处旧声明本就写每日【推断→模拟实证】。
+
+③回归不红——vault-integrity-check.py 本端独立实跑 exit=0（[1] files=26173 issues=0 / [2] bundle issues=0 / [3] offsite issues=0 / RESULT OK）【实证】；`pytest 90_control/scripts/tests` 本端独立实跑 296 passed in 51.65s，exit=0【实证】。
+
+**五维评分**：溯源完整 24/25、逻辑骨架 24/25、暗知识密度 17/20、可操作性 14/15、表达质量 14/15（总分 93）。
+
+**非阻断观察**：
+1. harness M8 `git bundle verify` 断言依赖运行 CWD 为 git 仓库——`git bundle verify` 需 repo 上下文。本端实测：从 `$TEMP`（非 git 目录）跑 13/14 RED、唯一 FAIL=M8（stderr `error: need a repository to verify a bundle`）；切到 git 仓库 CWD 后复跑 14/14 GREEN。harness 未晋升 pytest、`_tmp` 不进 git 已由执行者边界④ 如实声明；若日后收编，须在 M8 补 `-C FAKEWIKI` 或写明「须在 git 仓库内运行」前置。属证据层鲁棒性提示，非修复缺陷【实证】。
+2. 交付物节把未进 git 的划痕路径 `_tmp/bat675-sim/sim_bundle_bat_675.py` 列为交付物（机器预审已提示）——执行者显式标注「_tmp 不进 git，可复跑复核」，接受【实证】。
+3. 附带头注释 rolling >=4→2 weekly 声明真实性修正（超出双问题最小集）——依据充分（09-02 老朱 7→4、09-05 再改 2，注释停在旧值），与问题②同类「注释与行为不符」，接受【实证，git log 2df85f297 见 09-05 rolling 留 2 份改动】。
+4. 执行报告称 vault files=26172，本端实测 26173（+1 为 09-07 05:45 后新增 headless 日志等合法漂移），非缺陷【实证】。
+5. 真实节拍生效待 09-08（周二）02:30 首拍闭环（执行者边界② 已声明）——本次验证到「模拟等价」级，真实环境由明日首拍确认。
+
+**存在性核查**（#433，本端逐条）：「周一假 skip 行（修复前）」→ daily.log 09-07 段可见「OK .obsidian snapshot updated」后紧跟「skip: not Monday」（2026-09-07 本端读 D:\KDO-memory\wiki-bundle-daily.log）；「非周一无快照行（修复前）」→ daily.log 09-06 段仅「skip…(obsidian snapshot still runs)」+「done」，无「OK .obsidian snapshot updated」（2026-09-07 本端）；「回归不红」→ vault-integrity-check exit=0 + pytest 296 passed（2026-09-07 本端独立）；「快照节拍三处声明一致」→ bat 头注释/inventory L186/L190（2026-09-07 本端）。
+
+**kdo query 检索记录**（宪法第六条 #669，本端终审侧）：查询词 `kdo query "备份 bundle obsidian 快照 节拍" --limit 5`，命中 5 chunks（24 entities/34 relations），首条 framework-dual-center-feishu-obsidian（与 bundle bat 结构/快照节拍无直接卡），确认库内无 bundle bat 结构/快照节拍专题卡，属代码/日志层核查（2026-09-07）。
+
+===SESSION-ARCHIVE===
+15:## 差异栏（第 1 章）
+21:## 概要
+25:## 关键决策
+33:## 思维盲点
+39:## 顿悟
+44:## 过程资产
+54:## 元反思
+58:## Truman复盘
+60:### 逐轮映射
+67:### 飞轮效应
+71:### 对照实验
+76:### 下次改进
+85:## 差异栏（第 1 章）
+91:## 概要
+95:## 关键决策
+105:## 思维盲点
+111:## 顿悟
+117:## 过程资产
+129:## 元反思
+133:## Truman复盘
+135:### 逐轮映射
+145:### 红利与成本
+151:### 下次改进
+159:## 差异栏（第 1 章）
+165:## 概要
+169:## 关键决策
+179:## 思维盲点
+185:## 顿悟
+191:## 过程资产
+200:## 元反思
+The session archive 60_feedback/session-archives/2026-09-07/huangyaoshi.md has sections. Let me check whether it covers #675 — grep for 675 didn't match in the first grep (the pattern "675\|##" — output shows only ## lines and no 675 lines, meaning no "675" in those lines... wait, grep -n "675\|##" would show lines matching either. All shown lines are ## headings, so no line contains "675"? But head -30 may truncate. Let me check if session archive covers #675.===
+6
+11:# huangyaoshi · 2026-09-07
+13:# 黄药师 daily-context 2026-09-07（claude 通道场，02:1x–04:0x，#670 单）
+83:# 黄药师 daily-context 2026-09-07 续场（claude 通道场，02:47–03:25，#671+#673 双单连发）
+157:# 黄药师 daily-context 2026-09-07 三场（claude 通道场，04:14–04:33，#674 单）
+227:# 黄药师 daily-context 2026-09-07 四场（claude 通道场，08:4x–09:07，#677 单）
+301:# 黄药师 daily-context 2026-09-07 五场（claude 通道场，09:50–10:20，#677 返工 + #679 连发）
+Confirmed: #675 has no retro section anywhere. That's an E029 recurrence (count 3→4). The 23:37 场 must honestly write: (a) this session is headless retro, no construction; (b) 补 #675 场 — I should include a #675 section. The instruction says append a new section 「# 黄药师 daily-context 2026-09-07（23:37 场）」. I can put the #675 补账 inside this section or as its own section. Better: append one new top-level section per instruction title, and within it cover both the #675 补账 and this session's own retro. Actually cleaner: append a #675 补节 first, then the 23:37 场 section. The instruction says "Read 全文后在文末追加新节 「# 黄药师 daily-context 2026-09-07（23:37 场）」" — one new section. I'll write the 23:37 场 section with 11 chapters, with 概要 honestly stating: 本场为 headless 复盘专场，无施工；补 #675 漏写复盘节（E029 第 4 次复发）+ 全日 7 单终审对账.
+
+  For 双三角逐轮映射 of this session: rounds = 启动读取 / 取证（git log+todos+任务单）/ 读既有复盘 / 写盘 / 自检. 
+
+  Also step 4: append new errors to 错误模式库.md. The E029 recurrence today (#675 missed section) → append recurrence note to E029 entry. The file ends with E029 entry — I'll append a "复发（2026-09-07，次数 3→4）" line. But the file uses Edit-append; I'll append at end of the E029 block. The E029 block is at the end of the file? tail showed E028 then E029 last. Actually order: ...E020, E019, E4, E3, E1, E2, E028, E029. E029 is last. So appending to end of file works, but I should keep the recurrence within E029's entry — appending a new line at the end of the file effectively extends E029. Good.
+
+  Also note: my own session friction — Read tool truncation + Grep forgetting path param repeatedly. That's minor tool-usage friction; worth a line in 盲点 of the retro but probably not 错误模式库 (it's harness usage, not a new error pattern... though "Grep 默认全库不 scoped" repeated 4 times is a real pattern in this session. I'll mention in retro; not add to error library as it's session-level noise. Actually honesty: it wasted ~4 tool calls. Mention in 思维盲点.)
+
+  Also check: 终审结果 for #670/#671 PASS (03:37), #673 PASS (04:27), #674 PASS (05:07), #675 PASS A- (05:57), #677+#679 PASS (10:37). All 7 tasks closed today. 
+
+  Also #677 was 退回 at 09:47 (before rework). Timeline consistent.
+
+  Now check current time for the收尾 todos line. Run date. Also verify file tail exact ending for append (Write append mode). The file ends at line 365? Earlier read said 365 lines, ended with "### 下次改进" content at line 363-365? Actually read output ended at 365 with "成本：测试 fm dict 脱节返工一次..." — line 365. The file likely ends there. I'll append with Write mode=append.
+
+  Also session archive — the session-archives file seems to mirror daily-context. Not my job to update it.
+
+  One more thing: instruction step 3 says "差异栏空白=C 级" and "双三角要素逐轮映射照实写". Also "无实质产出→如实写「今日无施工」诚实空班节" — but there IS the #675 补账， so the section has substance.
+
+  Let me now compose the new section. Chapters required:
+  1. 差异栏（第 1 章）
+  2. 概要
+  3. 关键决策
+  4. 思维盲点
+  5. 顿悟
+  6. 过程资产
+  7. 元反思
+  8. Truman复盘 → 逐轮映射 / 飞轮效应 / 对照实验 / 下次改进
+
+  That's 11 chapters total.
+
+  Content plan:
+
+  # 黄药师 daily-context 2026-09-07（23:37 场）
+
+  ## 差异栏（第 1 章）
+  1. 本场是 headless 复盘专场：无会话记忆，输入全部来自仓库取证（git log/todos/任务单终审记录），输出=补账+对账，零施工。vs 前五场（全是施工场），本场验证了「复盘可以从仓库完整重建」这一设计假设。
+  2. 抓到一例真实漏账【实证】：#675（05:14–05:28 施工场）无复盘节——daily-context 与 session-archive 双侧 grep "675" 零命中。E029 第 4 次复发（09-04 立→09-06 两次→今日），「完工即复盘」仍无门禁。
+  3. 全日对账新信息：五场复盘写作时点均早于终审（最近一场 10:20 写完，#677/#679 10:37 才 PASS）——本场补上终审结果行：今日 7 单全 PASS（#675 A- 93 分，其余见 todos 03:37/04:27/05:07/05:57/10:37 五行）。
+
+  ## 概要
+  headless 复盘专场：补 #675 漏写节（bundle bat fall-through 双问题修复，PASS A-）+全日 7 单（#670/#671/#673/#674/#675/#677/#679）终审对账全 PASS+E029 复发落错误模式库；无新施工。
+
+  ## 关键决策
+  | 决策 | 理由 | 结果 |
+  | #675 补账而非「当日已有 5 节=今日已复盘」放行 | E029 对策明文「小修单当场写节不欠账」；红线禁编造，素材全部取任务单五字段报告+终审记录+todos 完工行（三源都有） | #675 节补齐，终审 PASS A- 事实入档 |
+  | 本场自己只写「复盘专场」如实标注无施工 | headless 指令第 3 条：无实质产出→诚实空班，禁编造 | 差异栏/概要如实 |
+  | E029 计数 3→4 追加错误模式库 | 指令第 4 条 + E029 复发机制（09-06 已记 1→3） | 落 错误模式库.md |
+
+  ## 思维盲点
+  1. 取证阶段连续 4 次 Grep 忘传 path 参数，把全库搜了 4 遍才改 Bash grep 定位——工具 schema 里 path 是可选参数，大脑默认「传 pattern 就够」。教训：scoped 检索意图必须显式落参数。
+  2. 大文件 Read 三次返回同样的头部 50KB 截断才换 tail——应第一次截断就换工具。
+
+  ## 顿悟
+  1. 「复盘可重建性」本身是基建资产：今日五场+补账全部能从 git log+todos+任务单终审记录三源重建，说明工厂的落盘纪律（五字段执行报告/终审记录/todos 完工行）已经厚到「失忆不再是风险」——这正是 daily-context 机制想要的状态。
+  2. E029 的四次复发证明「文字对策不过检」是稳定规律：09-04 立对策→09-06 复发→今日再复发，门禁化（review-check 按节核场次）是唯一的解，建议书弹药+1。
+
+  ## 过程资产
+  | 新增/更新 | 路径 |
+  | 本节（23:37 场+#675 补账） | 桌面/agent复盘/huangyaoshi/daily-context/2026-09-07.md |
+  | E029 复发追加 | 桌面/agent复盘/huangyaoshi/错误模式库.md |
+  | 完工落账行 | 90_control/todos/huangyaoshi.md |
+
+  ## 元反思
+  本场 15 分钟闭环，纪律：先三源取证再动笔（禁编造红线）→ grep 验证 #675 零命中（负向判词附锚点：双侧文件 grep）→ 追加写不覆盖（E029 附发黄牌教训：多场次累积文件禁覆盖写，用 append）。下轮改进：取证类会话第一动作列「素材清单+取证命令」，Grep 必传 path。
+
+  ## Truman复盘
+  ### 逐轮映射
+  | 轮次 | 人做了什么 | 双三角 | AI做了什么 | 双三角 |
+  | 1 | headless 指令（取证源+格式+红线） | 定方向 | 启动三读+未读段 | 执行 |
+  | 2 | — | — | git log 今日 30 commit 过滤 huangyaoshi 7 单 | 执行 |
+  | 3 | — | — | 既有 5 节全文审读+675 双侧 grep 零命中取证 | 检验 |
+  | 4 | — | — | #675 任务单执行报告+终审记录取证→补账节 | 执行+沉淀 |
+  | 5 | — | — | save 自检+todos 落账 | 执行 |
+
+  ### 飞轮效应
+  本场消费的红利：五字段执行报告+终审记录的存在让补账零失真（09-06 补账还要靠上下文重建，今日全靠盘上文档）；E029 的对策文字让复发定性零分析成本。留给下轮：#675 补账实证了「复盘可重建」假设，E029 门禁化建议书的实证弹药从 3 次变 4 次。
+
+  ### 对照实验
+  - 有五字段执行报告（#675 任务单）vs 无（09-06 #652 场凭会话上下文重建）——前者补账 5 分钟零失真，后者靠记忆残留。
+  - 无 AI 取证：人工 grep 双侧文件+读 7 个任务单 ≈ 30min+；本场工具链 15min。
+
+  ### 下次改进
+  1. E029 门禁化建议书可上浮（复发 4 次，弹药足）——但不越界，写建议书归诊断通道，本场只落错误模式库。
+  2. 取证会话起手式：素材清单→每条一个取证命令→结果落笔记再动笔。
+  3. Grep 工具 scoped 检索必传 path；大文件先 tail/分段。
+
+  Wait — instruction says the new section title exactly 「# 黄药师 daily-context 2026-09-07（23:37 场）」. Also the #675 补账 — should it be a separate section? To keep it simple and honest, I'll include #675 补账 as a subsection within the 23:37 场？ Hmm, mixing formats may break review-check. Better: append TWO sections: first the #675 补节 (its own # heading, in standard 11-chapter format, clearly marked 补账）, then the 23:37 场 section. That's cleaner and matches the file's existing one-section-per-场 convention. The instruction says "追加新节「# 黄药师 daily-context 2026-09-07（23:37 场）」" — one required section; adding the #675 补节 is within scope (step 3 says如实写， and E029 remedy demands it).
+
+  Actually, to be safe with review-check (which checks 11 chapters per section?), each section should have full chapters. Let me check how daily-context-save.py validates. Quick check of the script to know the requirements — worth it to avoid a 🔴. Let me peek at review-check logic.207:    Truman 内容标题（`# Truman 11章复盘 · ...（后缀）`）不匹配不误伤。
+309:        print(f"⛔ C 级不合格——请用 Write 工具打开上述文件，补充缺失章节后重跑：")
+333:        print(f"  {fname} — {size}B {flag} ({ch_count}/5 关键章)")
+339:    sub = parser.add_subparsers(dest="cmd", required=True)
+342:    p_save.add_argument("--agent", required=True)
+347:    p_save.add_argument("--truman", action="store_true", help="Truman 11章模式：纯模板 / 配合 --stdin/--file 保存复盘")
+350:    p_list.add_argument("--agent", required=True)
+===
+2026-09-07 23:42
+    instance = getattr(args, "instance", "") or ""
+    ts = now_iso()
+    session_id = f"{agent}-{today}" + (f"-{instance}" if instance else "")
+
+    # 读取复盘内容：优先级 --file > --stdin > --text
+    body = ""
+    if getattr(args, "file", ""):
+        fp = Path(args.file)
+        if fp.exists():
+            body = fp.read_text(encoding="utf-8")
+        else:
+            print(f"❌ 文件不存在：{args.file}", file=sys.stderr)
+            return 1
+    elif getattr(args, "stdin", False):
+        body = sys.stdin.read()
+    else:
+        body = args.text or ""
+
+    fm_lines = [
+        "---",
+        f"session_id: {session_id}",
+        f"agent_id: {agent}",
+        f"date: {today}",
+        f"created_at: {ts}",
+        f"updated_at: {ts}",
+    ]
+    # #369：留痕——wiki 仓 git_head + 正文 content_hash（手改可检测）
+    try:
+        import hashlib, subprocess as _sp
+        head = _sp.run(["git", "-C", str(WIKI), "rev-parse", "--short", "HEAD"],
+                       capture_output=True, text=True, timeout=10).stdout.strip()
+    except Exception:
+        head = "unknown"
+    fm_lines.append(f"git_head: {head or 'unknown'}")
+    fm_lines.append("---")
+    fm = "\n".join(fm_lines)
+
+    # Truman 模板模式：内容直接作为正文（不再套 Agent 输入壳）
+    # #512：重打覆盖写——--file 输入若带既有 frontmatter/旧标题层（上次 save 产物），
+    # 先剥层再套新 frontmatter（重打=替换不追加，多层堆叠根治）
+    if getattr(args, "truman", False):
+        if body.strip():
+            full_body = _strip_existing_layers(body)
+        else:
+            full_body = TRUMAN_TEMPLATE
+    else:
+        full_body = _strip_existing_layers(body) if body.strip() else "(无内容)"
+
+    content = f"{fm}\n\n# {agent} · {today}\n\n{full_body}\n"
+    # #369：content_hash 基于最终正文（frontmatter 除 hash 行外）——手改可检测
+    try:
+        import hashlib
+        content_hash = hashlib.sha256(content.encode("utf-8")).hexdigest()[:12]
+        content = content.replace("---\n\n# ", f"content_hash: {content_hash}\n---\n\n# ", 1)
+    except Exception:
+        pass
+
+    # Write 1: Desktop (human-readable)
+    desktop_dir = REVIEW_DIR / agent / "daily-context"
+    desktop_dir.mkdir(parents=True, exist_ok=True)
+    filename = f"{today}-{instance}.md" if instance else f"{today}.md"
+    desktop_path = desktop_dir / filename
+    desktop_path.write_text(content, encoding="utf-8")
+
+    # Write 2: Archive (agent-searchable, kdo query can find)
+    archive_dir = ARCHIVE_DIR / today
+    archive_dir.mkdir(parents=True, exist_ok=True)
+    archive_name = f"{agent}-{instance}.md" if instance else f"{agent}.md"
+    archive_path = archive_dir / archive_name
+    archive_path.write_text(content, encoding="utf-8")
+
+    print(f"✅ 已保存：{desktop_path}")
+    print(f"✅ 已存档：{archive_path.relative_to(WIKI)}")
+
+    # 自动跑 review-check 并显示等级
+    grade = _run_review_check(agent)
+    print(f"📋 自检：{grade}")
+
+    if grade.startswith("🔴"):
+        print(f"⛔ C 级不合格——请用 Write 工具打开上述文件，补充缺失章节后重跑：")
+        print(f"   python {Path(__file__).name} save --agent {agent} --truman --file {desktop_path}")
+
+    # #434：L0 自动写入端——save 成功即写胶囊事件（失败不阻断保存，stderr 醒目报警，禁静默吞）
+    _write_l0_event(agent, desktop_path, grade)
+
+    return 0
+
+
+def cmd_list(args):
+    agent = args.agent
+    d = REVIEW_DIR / agent / "daily-context"
+    if not d.exists():
+        print("暂无上下文记录")
+        return 0
+    files = sorted(d.glob("*.md"), reverse=True)
+    print(f"{agent} 每日上下文（{len(files)} 条）")
+    for f in files[:10]:
+        size = f.stat().st_size
+        fname = f.stem
+        # Quick quality check
+        content = f.read_text(encoding="utf-8", errors="ignore")
+        ch_count = sum(1 for ch in ["概要", "关键决策", "思维盲点", "顿悟", "逐轮映射"] if ch in content)
+        flag = "✅" if ch_count >= 5 else "⚠️" if ch_count >= 3 else "❌"
+        print(f"  {fname} — {size}B {flag} ({ch_count}/5 关键章)")
+    return 0
+
+Important: the save script does **重打覆盖写** — it strips existing layers and rewrites the whole file with the new body. Wait: "重打=替换不追加，多层堆叠根治" — so `save --file` REPLACES the file content with the body read from --file (after stripping existing frontmatter/title layer). So my workflow: append my new section to the existing file first, then run save --file which will re-wrap (strip old frontmatter + "# huangyaoshi · 2026-09-07" title, add new frontmatter+title). The body = all sections. Good — appending via Write append to the desktop file, then save, preserves everything.
+
+  But caution: E029 黄牌 said "补账写盘误用覆盖式写入，前 4 节蒸发" — that was from a manual overwrite. Using save --file is the correct path.
+
+  Also the save writes to both Desktop and Archive (60_feedback/session-archives). Good — the archive will get the #675 section too.
+
+  Now let me check what the review-check requires (the grade logic) — look at _run_review_check.95:def _run_review_check(agent: str) -> str:
+96:    """运行 review-check.py 并返回等级字符串。"""
+99:        rc_path = Path(__file__).parent / "review-check.py"
+100:        spec = importlib.util.spec_from_file_location("review_check", str(rc_path))
+304:    # 自动跑 review-check 并显示等级
+305:    grade = _run_review_check(agent)
+===
+audit-review-integrity.py
+daily_review.py
+fix-review-status.py
+kdo-daily-review.cmd
+kdo-daily-review.xml
+review-check.py
+#!/usr/bin/env python3
+"""Agent 复盘检查 v2 — 格式统一 + 内容深度验证 + 审计日报。
+
+Usage:
+  python kdo-tools/review-check.py          # 全量检查，输出审计日报
+  python kdo-tools/review-check.py --json   # JSON 输出，供脚本消费
+  python kdo-tools/review-check.py --agent huangyaoshi  # 单 Agent 检查
+"""
+
+import json
+import re
+import sys
+from datetime import datetime, timezone
+from pathlib import Path
+
+REVIEW_DIR = Path.home() / "Desktop" / "agent复盘"
+
+# Agent ID 映射：程序ID → (中文名, 是否活跃)
+AGENTS = {
+    "huangyaoshi":              ("黄药师", True),
+    "wangyuyan":                ("王语嫣", True),
+    "laowantong":               ("老顽童", True),
+    "ouyangfeng":               ("欧阳锋", True),
+    "hongqigong":               ("洪七公", True),
+    "duanwangye":               ("段王爷", True),
+    "sales-dialogue-assistant": ("销售对话参谋", True),
+}
+
+# Truman 11章必须标题（用于格式完整性检查）——2026-08-09 #268 新增差异栏
+TEN_CHAPTERS = [
+    "差异栏",
+    "概要",
+    "关键决策",
+    "思维盲点",
+    "顿悟",
+    "过程资产",
+    "元反思",
+    "逐轮映射",
+    "飞轮效应",
+    "对照实验",
+    "下次改进",
+]
+
+# #458 强制兜底：复盘必填「问题」节（缺失=形式主义降级——有则列，无则写「无」）
+ISSUE_SECTION = "本会话发现的问题"
+
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
+
+
+# 深度四条硬指标（B3-3 拍板口径，#419）——启发式规则，拿不准标 manual 不硬拦
+BLINDSPOT_ROOT_KW = ["为什么漏", "为什么没", "根因", "原因", "因为", "症结", "源头", "源于", "追溯"]
+# 宽根因信号：无显式"为什么漏"句式但节内有根因论证 → 标 manual 需人工（防误伤，2026-08-22 实证）
+WIDE_ROOT_KW = ["放大", "惯性", "优先于", "依赖", "习惯", "由于", "受制", "缺乏", "导致", "错在",
+                "选择", "暴露", "印证", "源于", "在于", "忽略了", "没意识到"]
+EPIPHANY_REVERSAL_KW = ["推翻", "打破", "以前以为", "之前以为", "以前认为", "之前认为", "原来不是",
+                        "重新认识", "颠覆", "纠正", "过去一直", "并非我想象", "误区", "旧认知", "旧理解",
+                        "和之前想的相反", "一直以为是", "不再是"]
+DIFF_CLICHE_KW = ["同上", "无差异", "没有差异", "没什么不同", "和上次一样", "无变化", "没有变化",
+                  "差不多", "基本一样", "同上一次"]
+WIKI_ROOT = Path(__file__).resolve().parent.parent
+
+RETRIEVAL_SIGNALS = [
+    "kdo query", "kdo-tools", "wiki", "检索", "知识库检索",
+    "cross-domain-patterns", "Read 30_wiki", "Read .agent",
+    "查了知识库", "查了wiki", "搜了wiki",
+]
+RETRIEVAL_DISCOVERY = [
+    "发现", "找到", "纠正", "之前不知道", "才知道",
+    "漏了", "没找到", "没有覆盖", "不存在",
+]
+
+
+def check_retrieval(content: str) -> dict:
+    """检查复盘中是否包含 wiki 检索行为（§10.4.1 要求）。"""
+    has_mention = any(sig.lower() in content.lower() for sig in RETRIEVAL_SIGNALS)
+    has_discovery = any(sig in content for sig in RETRIEVAL_DISCOVERY)
+    return {
+        "has_retrieval": has_mention,
+        "has_discovery": has_mention and has_discovery,
+    }
+
+
+def _extract_section(content: str, title: str) -> str | None:
+    """提取指定章节内容（normalized 后调用）。只匹配 `## 标题` 行，避免正文同名文本误命中（2026-08-22 校准实证）。"""
+    m = re.search(rf"^##\s*{re.escape(title)}", content, re.M)
+    if not m:
+        return None
+    start = m.start()
+    nxt = content.find("##", start + 1)
+    return content[start:nxt] if nxt > 0 else content[start:]
+
+
+def _section_body(section: str) -> str:
+    """剥离章节标题行（标题含模板提示语，如 每条追问"为什么漏掉"/什么基础认知被推翻了——不算复盘内容）。"""
+    return section.split("\n", 1)[1] if "\n" in section else ""
+
+
+def _has_root_cause(blob: str) -> bool:
+    """盲点条目内是否追问了根因（为什么漏/根因/原因/因为/症结…）。"""
+    return any(kw in blob for kw in BLINDSPOT_ROOT_KW)
+
+
+def deep_check(content: str) -> dict:
+    """深度四条硬指标（#419 B3-3）：每条返回 verdict = pass / fail / manual。
+
+    1. 盲点必须"追问为什么漏"（每条盲点到根因）
+    2. 顿悟必须"推翻某认知"（写明被推翻的旧认知）
+    3. 过程资产必须"真实路径"（文件路径可验证存在）
+    4. 差异栏必须"具体差异而非套话"
+    manual = 拿不准，不硬拦（不降级）。
+    """
+    # ── 1. 盲点逐条追问根因 ──────────────────────────────
+    # 三态判决（防误伤，2026-08-22 实证：黄药师复盘有根因论证但无"为什么漏"句式被误降级）：
+    #   pass = 每条盲点均有显式根因追问；manual = 有根因论证但缺显式句式（需人工确认，不拦）；
+    #   fail = 无任何根因信号。
+    bs = _extract_section(content, "思维盲点")
+    if bs:
+        bs_body = _section_body(bs)  # 剥离标题（标题含"每条追问为什么漏掉"提示语，不算内容）
+        items = [blob for blob in re.split(r"\n(?=\s*(?:\d+\.|[-*])\s)", bs_body) if blob.strip()]
+The checker needs the 11 chapters present (somewhere in file), a 「本会话发现的问题」 section (#458 强制兜底 — 缺失=形式主义降级）, retrieval signals (kdo query mention + discovery words), blind spots with root cause, epiphany with reversal keywords, real paths in 过程资产， non-cliché 差异栏.
+
+  Note the ISSUE_SECTION 「本会话发现的问题」 — previous sections in the file don't have it visibly... but file passed before presumably. It's likely per-file check. To be safe, include a 「## 本会话发现的问题」 section in my new section.
+
+  Since check is file-level (checking whole file for chapter presence), my appended sections add to it. All 11 chapters exist multiple times already. But the issue section — let me check if the existing file has it. grep: earlier read of the file showed sections; I didn't see 「本会话发现的问题」. Let me check quickly, and also check how review-check grades (does missing issue section force C?). Let me look at the grading part briefly.exit=1
+        items = [blob for blob in re.split(r"\n(?=\s*(?:\d+\.|[-*])\s)", bs_body) if blob.strip()]
+        items = [b for b in items if re.match(r"^\s*(?:\d+\.|[-*])\s", b)]  # 只统计真正的编号/列表条目（标题块不算）
+        if len(items) > 1:  # 有编号/列表条目 → 逐条查
+            without = [b for b in items if not _has_root_cause(b)]
+            if not without:
+                bs_verdict, bs_ok, bs_detail = "pass", True, "所有盲点条目均追问了根因"
+            elif any(kw in bs_body for kw in WIDE_ROOT_KW):  # 节内有宽根因论证 → 需人工
+                bs_verdict, bs_ok, bs_detail = "manual", True, f"{len(without)} 条缺显式根因句式，但节内有根因论证（需人工确认）"
+            else:
+                bs_verdict, bs_ok, bs_detail = "fail", False, f"{len(without)} 条盲点未追问根因"
+        else:  # 无结构化条目 → 整节宽松查
+            if _has_root_cause(bs_body):
+                bs_verdict, bs_ok, bs_detail = "pass", True, "盲点节含根因追问"
+            elif any(kw in bs_body for kw in WIDE_ROOT_KW):
+                bs_verdict, bs_ok, bs_detail = "manual", True, "盲点节有根因论证（需人工确认）"
+            else:
+                bs_verdict, bs_ok, bs_detail = "fail", False, "盲点节无根因追问（为什么漏）"
+    else:
+        bs_verdict, bs_ok, bs_detail = "fail", False, "缺思维盲点章"
+
+    # ── 2. 顿悟必须推翻某认知 ─────────────────────────────
+    ep = _extract_section(content, "顿悟")
+    if ep:
+        ep_body = _section_body(ep)  # 剥离标题（标题含"什么基础认知被推翻了"提示语，不算内容）
+        ep_ok = any(kw in ep_body for kw in EPIPHANY_REVERSAL_KW)
+        ep_detail = "顿悟写明被推翻的旧认知" if ep_ok else "顿悟未见推翻类表达（以前以为/原来不是/纠正…）"
+    else:
+        ep_ok, ep_detail = False, "缺顿悟章"
+
+    # ── 3. 过程资产必须真实路径 ───────────────────────────
+    pa = _extract_section(content, "过程资产")
+    if pa:
+        pa_body = _section_body(pa)
+        candidates = [t.strip() for t in re.findall(r"[\w./\\\-]+\.(?:md|py|json|yaml|yml|txt|csv|cjs|js|ps1|cmd|html)", pa_body)]
+        candidates = [c for c in candidates if not c.startswith(("YAML", "YYYY", "agent复盘/<"))]
+        if not candidates:
+            pa_verdict, pa_ok, pa_detail = "manual", True, "无路径可验证（需人工确认）"
+        else:
+            found = []
+            for cand in candidates:
+                p = Path(cand)
+                if p.is_absolute():
+                    if p.exists():
+                        found.append(cand)
+                elif (WIKI_ROOT / cand).exists() or (WIKI_ROOT.parent / cand).exists():
+                    found.append(cand)
+                elif cand.startswith("桌面/"):
+                    if (Path.home() / cand.replace("桌面/", "")).exists():
+                        found.append(cand)
+                elif cand.startswith("Desktop/"):  # 相对家目录的 Desktop 前缀（校准样本实证，2026-08-22）
+                    if (Path.home() / cand).exists():
+                        found.append(cand)
+            missing = [c for c in candidates if c not in found]
+            pa_ok = bool(found) or len(missing) < len(candidates)
+            pa_verdict = "pass" if pa_ok else "manual"
+            pa_detail = f"{len(found)}/{len(candidates)} 路径可验证存在" if pa_ok else f"{len(missing)} 个路径未验证存在"
+    else:
+        pa_verdict, pa_ok, pa_detail = "fail", False, "缺过程资产章"
+
+    # ── 4. 差异栏具体差异而非套话 ─────────────────────────
+    df = _extract_section(content, "差异栏")
+    if df:
+        body = df.split("\n", 1)[1] if "\n" in df else ""
+        body = body.strip().lstrip(">").strip()
+        cliches = [k for k in DIFF_CLICHE_KW if k in body]
+        if cliches:
+            df_ok, df_detail = False, f"差异栏含套话词：{'/'.join(cliches)}"
+        elif len(body) < 15:
+            df_ok, df_detail = False, f"差异栏仅 {len(body)} 字，疑似套话"
+        else:
+            df_ok, df_detail = True, "差异栏为具体差异"
+    else:
+        df_ok, df_detail = False, "缺差异栏章"
+
+    return {
+        "blindspot_rooted": {"ok": bs_ok, "verdict": bs_verdict, "detail": bs_detail},
+        "epiphany_reversal": {"ok": ep_ok, "verdict": "pass" if ep_ok else "fail", "detail": ep_detail},
+        "asset_real_paths": {"ok": pa_ok, "verdict": pa_verdict, "detail": pa_detail},
+        "diff_specific": {"ok": df_ok, "verdict": "pass" if df_ok else "fail", "detail": df_detail},
+    }
+
+
+def check_content_depth(content: str, size: int) -> dict:
+    """检查复盘内容深度，返回等级和详情。"""
+    # 兼容数字标题格式（## 1. 做了什么 → 概要）：历史复盘用数字标题，标准标题也认
+    import re as _re
+    ALIASES = {
+        "做了什么": "概要", "关键决策": "关键决策", "新资产": "过程资产",
+        "新问题/阻塞": "思维盲点", "踩坑": "思维盲点", "顿悟": "顿悟",
+        "下次启动最需要记住": "元反思", "五步法反思": "思维盲点",
+        "角色定位": "概要", "黄牌/表扬": "飞轮效应", "必做": "下次改进",
+        "对照实验": "对照实验", "下次改进": "下次改进",
+    }
+    normalized = _re.sub(r"^## \d+\. ", "## ", content, flags=_re.M)
+    for alias, canon in ALIASES.items():
+        normalized = normalized.replace(f"## {alias}", f"## {canon}")
+    chapters_found = [ch for ch in TEN_CHAPTERS if ch in normalized]
+    chapter_count = len(chapters_found)
+    missing = [ch for ch in TEN_CHAPTERS if ch not in normalized]
+    # 差异栏/盲点/检索均基于 normalized 计算
+    content = normalized
+
+    # 检查盲点是否追问了"为什么"
+    blindspot_has_why = False
+    blindspot_count = 0
+    if "思维盲点" in content:
+        bs_start = content.find("思维盲点")
+        bs_end = content.find("##", bs_start + 1) if content.find("##", bs_start + 1) > 0 else len(content)
+        blindspot_section = content[bs_start:bs_end]
+        blindspot_count = blindspot_section.count("\n") // 2  # rough estimate
+        blindspot_has_why = any(kw in blindspot_section for kw in ["为什么漏", "为什么没", "根因", "原因"])
+Note: `_extract_section` finds the FIRST `## 思维盲点` etc. Since file has multiple sections, the first occurrence （场1) is checked for deep metrics. Fine — those passed before presumably.
+
+  The 「本会话发现的问题」 section: check how it's used in grading. Let me see rest of file to know if missing issue section → C. Actually the earlier note says "缺失=形式主义降级". The existing file lacks it entirely — exit=1 for grep. So today's file would be downgraded unless I add it. Let me see grading logic quickly.        blindspot_has_why = any(kw in blindspot_section for kw in ["为什么漏", "为什么没", "根因", "原因"])
+
+    retrieval = check_retrieval(content)
+
+    # 差异栏非空校验（#268：空白 = 重复自审，降级 C）
+    diff_blank = False
+    if "差异栏" in content:
+        diff_start = content.find("差异栏")
+        diff_end = content.find("##", diff_start + 1)
+        diff_section = content[diff_start:diff_end] if diff_end > 0 else content[diff_start:]
+        diff_body = diff_section.split("\n", 1)[1] if "\n" in diff_section else ""
+        diff_blank = len(diff_body.strip()) == 0
+
+    # #458 强制兜底：必填「本会话发现的问题」节（缺失=形式主义降级；有则列无则写「无」）
+    issue_missing = ISSUE_SECTION not in content
+
+    # 深度四条硬指标（#419 B3-3）：manual 不拦，fail 拦 A 级
+    deep = deep_check(content)
+    deep_fails = [k for k, v in deep.items() if v["verdict"] == "fail"]
+
+    # #478：A 级条件逐项收集（失败项明细=判 B/C 差异可自解释，E049 同族）
+    cond_failures = []
+    if size < 3000:
+        cond_failures.append(f"size {size}B < 3000B")
+    if chapter_count != 11:
+        cond_failures.append(f"章节 {chapter_count}/11（缺{'、'.join(missing[:3])}）")
+    if diff_blank:
+        cond_failures.append("差异栏空白（#268 重复自审红线）")
+    if not (blindspot_count >= 2 and blindspot_has_why):
+        cond_failures.append(f"盲点 {blindspot_count} 条且追问不够（需≥2 且有为什么/根因）")
+    if not retrieval["has_discovery"]:
+        cond_failures.append("检索无发现（需 has_discovery）")
+    if deep_fails:
+        cond_failures.append(f"深度未过: {'、'.join(deep_fails)}")
+    if issue_missing:
+        cond_failures.append("#458 问题节「本会话发现的问题」缺失（必填，缺失=形式主义降级）")
+
+    # A 级：≥3000B + 11章 + 差异栏非空 + 盲点≥2且有追问 + 检索有发现 + 深度四条全过 + 问题节必填（#458）
+    if not cond_failures:
+        grade = "A"
+        emoji = "🟢"
+        failures: list[str] = []
+    # C 级：差异栏空白（#268 重复自审红线）
+    elif diff_blank:
+        grade = "C"
+        emoji = "🔴"
+        failures = cond_failures
+    # B 级：≥1500B + 8章以上 + 盲点≥1 + 至少提及检索（§10.4.1 B级要求）
+    elif size >= 1500 and chapter_count >= 8 and retrieval["has_retrieval"]:
+        grade = "B"
+        emoji = "🟡"
+        failures = cond_failures
+    else:
+        grade = "C"
+        emoji = "🔴"
+        failures = cond_failures
+
+    return {
+        "grade": grade,
+        "emoji": emoji,
+        "size": size,
+        "chapter_count": chapter_count,
+        "missing": missing,
+        "blindspot_count": blindspot_count,
+        "blindspot_has_why": blindspot_has_why,
+        "diff_blank": diff_blank,
+        "retrieval": retrieval,
+        "deep": deep,
+        "failures": failures,  # #478：判 B/C 的失败项明细（A 级为空）
+    }
+
+
+def check_agent(agent_id: str, today: str) -> list[dict]:
+    """检查单个 Agent 的复盘状态。返回列表——每个实例一条记录。"""
+    cn_name, active = AGENTS.get(agent_id, (agent_id, True))
+
+    if not active:
+        return [{"agent": agent_id, "cn_name": cn_name, "status": "inactive", "grade": None}]
+
+    agent_dir = REVIEW_DIR / agent_id / "daily-context"
+    if not agent_dir.exists():
+        return [{"agent": agent_id, "cn_name": cn_name, "status": "missing", "grade": None, "emoji": "❌", "size": 0}]
+
+    # 扫描当天所有文件：YYYY-MM-DD.md + YYYY-MM-DD-<instance>.md
+    candidates = sorted(agent_dir.glob(f"{today}*.md"))
+    if not candidates:
+        return [{"agent": agent_id, "cn_name": cn_name, "status": "missing", "grade": None, "emoji": "❌", "size": 0}]
+
+    results = []
+    for f in candidates:
+        instance = ""
+        stem = f.stem  # e.g. "2026-07-08" or "2026-07-08-hermes"
+        if stem != today:
+            instance = stem[len(today) + 1:]  # extract "hermes" from "2026-07-08-hermes"
+
+        try:
+            content = f.read_text(encoding="utf-8", errors="ignore")
+            size = f.stat().st_size
+        except Exception:
+            results.append({"agent": agent_id, "cn_name": cn_name, "status": "error", "grade": None, "emoji": "❌", "size": 0, "instance": instance})
+            continue
+Now I understand the grading. The current file lacks 「本会话发现的问题」 → B at best, that's fine (🟡 acceptable). But to be safe and honest, I'll add a 「## 本会话发现的问题」 section to my new section — that may lift to A.
+
+  Note chapter_count counts TEN_CHAPTERS found in whole file — 11 chapters including 差异栏. All present already.
+
+  Retrieval signals: file must contain e.g. "kdo query" + discovery words like "发现". Existing content has those. Fine.
+
+  Deep checks use FIRST occurrence of sections. 场1's 思维盲点： has "根因"? 场1 思维盲点 bullets contain "教训"... Let me not worry; it presumably graded 🟢/🟡 previously.
+
+  Now write the appended content. Two sections:
+
+  1. `# 黄药师 daily-context 2026-09-07 补账场（#675 单，施工 05:14–05:28，23:37 headless 补记）` — full 11 chapters, material from task file + todos + 终审记录.
+  2. `# 黄药师 daily-context 2026-09-07（23:37 场）` — the headless retro session itself, full 11 chapters + 本会话发现的问题.
+
+  Both sections need the 11 chapters since the format is per-session. Chapters: 差异栏（第 1 章）/概要/关键决策/思维盲点/顿悟/过程资产/元反思 + Truman复盘（逐轮映射/飞轮效应/对照实验/下次改进）.
+
+  For #675 补账 content (from task file execution report + 终审）:
+  - 概要： #675 bundle bat 结构双问题修复：标签拆分 :monday_full/:daily_tasks + .obsidian 快照节拍对齐每日 + skip 行如实措辞 + 头注释 rolling 声明修正；TDD 沙盒模拟 RED 10/14→GREEN 14/14；终审 PASS A- 93 分。
+  - 关键决策： 节拍二选一取「每日」（依据 08-31 盲点兜底+KB-MB 成本+两处旧声明）；harness 用 seam 注入+offsite stub 防真写坚果云；附带头注释修正超最小集如实声明交终审裁；harness 不晋升 pytest（边界声明）。
+  - 思维盲点： 写盘即走未写复盘节（E029 第4次）；终审发现 harness M8 依赖 git CWD（非阻断观察）。
+  - 顿悟： 「注释与行为不符」是系统性病灶族（skip 行/头注释/快照节拍三处同根）；bat 无测试框架 → seam 注入+假仓沙盒是 Windows bat 的可行 TDD 形态。
+  - 过程资产： bat, inventory L186/L190, logs/sim-bundle-bat-675-20260907.log, _tmp harness, commit 7301963f1.
+  - 元反思： 补账失真控制——只复述任务单/终审记录实证内容，不补写施工时的心理活动（无会话记忆不可重建，诚实边界）。
+  - 逐轮映射 table: 人派单（欧阳锋立项 bat 双问题）→ AI 读 bat 全文取证 → 沙盒 harness TDD → 交卷 → 终审 A-。
+  - 飞轮效应： 消费 #673 判读口径；留下 seam 注入 harness 模式。
+  - 对照实验： 无沙盒=直接改 bat 碰真实 D:\KDO-memory 风险。
+  - 下次改进： 完工即复盘（E029 门禁化弹药）;bat 类交付固定带沙盒 harness。
+  - 本会话发现的问题： E029 复发→门禁化建议书弹药足。
+
+  For 23:37 场 content: as drafted above.
+
+  差异栏 for 23:37 场： vs 前五场（施工场）→本场纯取证复盘场；E029 第 4 次复发的现场抓获。
+
+  Also honest note: this session did NOT do kdo query... retrieval check needs "kdo query" mention + discovery word. The file already has many mentions. Fine.
+
+  Blindspot count check uses first 思维盲点 section （场1) — has ≥2 lines and 根因？ 场1 盲点 items contain... "首轮把..." — contains no "根因/原因/为什么漏"? It has 3 bullets. blindspot_count = newlines//2 — plenty. blindspot_has_why requires ["为什么漏","为什么没","根因","原因"] in first 思维盲点 section. 场1 思维盲点： "B14 式「单文件绿≠回归绿」"... does it contain 原因？ Hmm: "没先核实这 8 张的现状" — no keyword. Wait, but the file previously passed save with some grade. Unknown. deep_check also uses first section. If first section fails deep blindspot, grade capped at B (🟡, acceptable per instruction). Instruction requires 🟢/🟡 — B is fine. But adding issue section helps. I could also ensure my new sections are high quality; the deep check reads the first occurrence only, so I can't change that (can't modify earlier sections — actually I could, but shouldn't rewrite others' sections; they're the same role though, same-day append rules say don't rewrite. Leave them).
+
+  OK now check current time: 23:42. The section title says 23:37 场 per instruction.
+
+  Also append to 错误模式库.md: E029 recurrence note. Use Edit or Write append. Append at end with Write mode append. But E029 entry is at file end — good.
+
+  Also step 6: append todos line after save. Current time 23:42 → will be ~23:45. I'll get date again at that point.
+
+  One more check: E029 entry says "次数：3" in header "### E029: 小修单漏写复盘节——同日多实例复盘覆盖无门禁（2026-09-04，次数：3）". Update header to 4? Editing header via Edit is fine and consistent with previous recurrence style ("复发（2026-09-06，次数 1→3）"). I'll Edit the header 次数：3→4 and append recurrence paragraph at end of file.
+
+  Let me verify exact text of E029 header line.44:**家族**：E029（配置被改≠生效）/E031（检测手段未验证语义）/E034（信计划态不信运行态）的镜像——本条目是信丢失叙事不信存在证据。
+99:### E029: 小修单漏写复盘节——同日多实例复盘覆盖无门禁（2026-09-04，次数：3）
+M-^@M-^TM-bM-^@M-^TM-eM-7M-2M-hM->M->M-eM-$M-^MM-eM-^OM-^Q M-bM-^IM-%2 M-eM-^MM-^GM-gM-:M-'M-gM-:M-?M-oM-<M-^LM-iM-^WM-(M-gM-&M-^AM-eM-^LM-^VM-eM-;M-:M-hM-.M-.M-dM-9M-&M-oM-<M-^Hreview-check M-fM-^LM-^IM-hM-^JM-^BM-fM- M-8M-eM-^\M-:M-fM-,M-! / queue complete M-fM-^LM-^BM-eM-=M-^SM-fM-^WM-%M-eM-$M-^MM-gM-^[M-^XM-hM-^JM-^B WARNINGM-oM-<M-^IM-eM-.M-^^M-hM-/M-^AM-eM-<M-9M-hM-^MM-/M-eM-7M-2M-hM-6M-3M-cM-^@M-^BM-eM-^PM-^LM-eM-^\M-:M-iM-^YM-^DM-eM-^OM-^QM-iM-;M-^DM-gM-^IM-^LM-oM-<M-^ZM-hM-!M-%M-hM-4M-&M-eM-^FM-^YM-gM-^[M-^XM-hM-/M-/M-gM-^TM-(M-hM-&M-^FM-gM-^[M-^VM-eM-<M-^OM-eM-^FM-^YM-eM-^EM-%M-oM-<M-^LM-eM-^IM-^M 4 M-hM-^JM-^BM-hM-^RM-8M-eM-^OM-^QM-eM-^PM-^NM-iM-^]M- M-dM-8M-^JM-dM-8M-^KM-fM-^VM-^G Read M-eM-^NM-^_M-fM-^VM-^GM-iM-^GM-^MM-eM-;M-:M-bM-^@M-^TM-bM-^@M-^TM-eM-$M-^ZM-eM-^\M-:M-fM-,M-!M-gM-4M-/M-gM-'M-/M-fM-^VM-^GM-dM-;M-6M-gM-&M-^AM-hM-&M-^FM-gM-^[M-^VM-eM-^FM-^YM-cM-^@M-^B$
+Now write everything. First append the two new sections to the daily-context file (Write append mode), then Edit E029 header + append recurrence to 错误模式库.md, then run save script, then append todos line.
+
+  Let me compose the two sections carefully.
+
+  Section A — #675 补账节：
+
+  # 黄药师 daily-context 2026-09-07 补账节（#675 单，施工 05:14–05:28；23:37 headless 取证补记）
+
+  ## 差异栏（第 1 章）
+  - 本节为补账节：施工场（05:14–05:28）完工即走未写节，23:37 headless 场取证补记——素材全部来自盘上文档（任务单五字段执行报告+欧阳锋终审记录+todos 完工行+git 7301963f1），非会话记忆（headless 无记忆，记忆本来也不可信）。
+  - 与前五场差异：前五场都是施工当时写，本节是「文档重建」——只能重建事实层（交付物/验证/终审），施工时的判断心路不可重建，如实不补写。
+
+  ## 概要
+  #675 交付：wiki-bundle-backup.bat 结构双问题修复——标签拆分 :monday_full/:daily_tasks（修后 Monday 段 0 条假 skip 行）+.obsidian 快照节拍按注释意图对齐为每日（08-31 盲点兜底不被周节拍削弱，KB-MB 级成本不适用 2GB 闸门理由）+skip 行措辞如实+附带头注释 rolling >=4→2 声明修正；TDD 沙盒模拟（fakewiki 假仓+offsite stub 防真写坚果云，4 seam 注入）修前 RED 10/14 恰两目标缺陷、修后 GREEN 14/14；回归 vault-integrity-check exit 0+pytest 296 passed。终审 PASS A-（93 分）。queue complete→pending_review（commit 7301963f1）。
+
+  ## 关键决策
+  | 决策 | 理由 | 结果 |
+  | 快照节拍二选一取「对齐为每日」 | 08-31 .obsidian 盲点兜底意图（快照是唯一恢复路径，周拍最多丢 6 天配置）+成本不适用磁盘闸门+两处旧声明本就写每日 | 终审认可「依据成立」|
+  | harness 用 seam 注入+offsite stub | bat 无测试框架；real 坚果云写入必须隔离 | 4 seam（路径×2/星期参数/offsite call），真实 D:\KDO-memory 未被模拟触碰 |
+  | 附带头注释 rolling 声明修正（超最小集） | 与问题②同类「注释与行为不符」，如实声明交终审裁 | 终审接受（git log 2df85f297 锚）|
+  | harness 留 _tmp 不晋升 pytest | 有副作用（建仓+跑 cmd）需 marker 隔离，是否收编待裁 | 终审接受（非阻断观察 2）|
+
+  ## 思维盲点
+  1. 完工即走未写复盘节——E029 第 4 次实证。根因同前三次：「小单不用复盘」隐性假设+完工无门禁检查点，完成感触发后直接退场。
+  2. harness M8（git bundle verify）隐性依赖运行 CWD 为 git 仓——终审从 $TEMP 复跑 13/14 RED 才暴露。为什么漏：施工时 harness 一直在 git 仓 CWD 下跑，环境假设没进断言前置。
+
+  ## 顿悟
+  - 「注释与行为不符」不是孤例是病灶族：本单三处（skip 行假措辞/头注释 rolling 旧值/快照节拍声明）同根——bat 类脚本没有编译器，注释是唯一契约，契约失真无人发现直到告警。以前以为修 bug 是修行为，本单实证修 bat 的一半工作在修声明。
+  - bat 也能 TDD： seam 注入（参数化星期/路径）+假仓沙盒把「只能生产环境验证」的脚本变成了可红绿的对象。
+
+  ## 过程资产
+  | 新增/更新 | 路径 |
+  | bat 标签拆分+节拍对齐 | 90_control/scripts/wiki-bundle-backup.bat |
+  | inventory 节拍声明+判读口径 | 90_control/infrastructure-inventory.md（L186/L190）|
+  | 模拟证据 | logs/sim-bundle-bat-675-20260907.log |
+  | 沙盒 harness（_tmp 不进 git，可复跑） | _tmp/bat675-sim/sim_bundle_bat_675.py |
+  | 任务单（执行报告+终审记录） | 60_feedback/tasks/task_20260907_huangyaoshi-bundle-bat-branch-fix.md |
+
+  ## 元反思
+  补账方法论：只重建事实层（交付物/验证/决策/终审结果全有盘上锚点），不虚构施工心路——本节决策表的「理由」列取自任务单执行报告原文与终审认可词，未脑补。失真风险已控。教训照旧：当场写节成本 5 分钟，补账取证成本 15 分钟+心路永久丢失。
+
+  ## Truman复盘
+  ### 逐轮映射
+  | 轮次 | 人做了什么 | 双三角 | AI做了什么 | 双三角 |
+  | 1 | 欧阳锋立项（#673 终审独立读 bat 源码实证双问题） | 定方向+检验 | claim+读 bat 全文取证 | 执行 |
+  | 2 | — | — | 沙盒 harness 设计（4 seam+offsite stub） | 执行+判断 |
+  | 3 | — | — | TDD RED 10/14→修复→GREEN 14/14+回归 | 执行+交叉验证 |
+  | 4 | — | — | 五字段交卷+queue 流转 | 执行 |
+  | 5 | 欧阳锋终审 PASS A-（独立复跑 harness+读 daily.log 实证） | 检验 | （施工场已散）23:37 补账 | 沉淀 |
+
+  ### 飞轮效应
+  消费红利：#673 的判读口径与 daily.log 锚点（本单立项依据）；#628 落盘可见纪律（在制品可被备份拍收编）。留下红利：bat seam 注入 TDD 模式（全厂 bat/cmd 脚本可复用）；inventory L190 判读口径让下一个看日志的人零考古。
+
+  ### 对照实验
+  - 无沙盒：直接改 bat 等 09-08 真实节拍验证——错了就污染真实备份目录；有沙盒：14 断言当日红绿。
+  - 无补账：#675 在复盘层不存在，E029 门禁化的实证弹药少一发。
+
+  ### 下次改进
+  1. 完工即复盘（E029 对策重申，门禁化前靠自律=已知不可靠）。
+  2. harness 环境假设（CWD 须为 git 仓）写进断言前置或文档头。
+  3. bat 类交付固定带沙盒模拟证据。
+
+  ## 本会话发现的问题
+  - E029 第 4 次复发（本节即为补救）——门禁化建议书实证弹药 4 发已足，建议上浮（review-check 按节核场次/queue complete 挂当日复盘节 WARNING）。
+
+  Section B — 23:37 场：
+
+  # 黄药师 daily-context 2026-09-07（23:37 场）
+
+  ## 差异栏（第 1 章）
+  1. 本场性质与前五场根本不同：headless 复盘专场，无会话记忆、零施工，输入全部来自仓库取证（git log 30 commits/todos 今日 9 行非叫醒条目/7 个任务单终审记录）——验证了「复盘可从盘上文档完整重建」这一设计假设（前五场都是施工当时写）。
+  2. 现场抓获 E029 第 4 次复发【实证】：#675（05:14–05:28 施工场）无复盘节——daily-context 与 session-archive 双侧 grep "675" 零命中（本节上方补账节即补救）。
+  3. 补上终审对账层：前五场写作时点均早于终审结果（最近一场 10:20 写完，#677/#679 10:37 才 PASS）——今日 7 单终审全过：#670/#671（03:37）、#673（04:27）、#674（05:07）、#675（05:57，A- 93 分）、#677/#679（10:37）。
+
+  ## 概要
+  headless 复盘专场：取证全日 7 单（#670/#671/#673/#674/#675/#677/#679）→ 抓获 #675 漏写复盘节（E029 复发）→ 补账节落盘 → E029 计数 3→4 落错误模式库 → save 自检+todos 落账。本场无施工，如实标注。
+
+  ## 关键决策
+  | 决策 | 理由 | 结果 |
+  | #675 补账而非「已有 5 节=今日已复盘」放行 | E029 对策明文「小修单当场写节不欠账」；三源素材齐备可零失真重建 | 补账节落盘，终审 PASS A- 事实入档 |
+  | 本场如实标「无施工」 | 指令红线：无实质产出→诚实空班禁编造 | 概要/差异栏如实 |
+  | E029 计数追加而非新开条目 | 同模式复发应计数累积（升级线判断依赖次数） | 错误模式库 3→4 |
+
+  ## 思维盲点
+  1. 取证阶段连续 4 次 Grep 调用忘传 path 参数全库扫——为什么漏：Grep 的 path 是可选参数，大脑默认「传 pattern 就够」，scoped 意图没有显式落参数的意识；第 5 次才改 Bash grep -n 定位。
+  2. 大文件 Read 连试 3 次都只吃头部 50KB 截断才换 tail——为什么漏：对工具截断行为的反应链条太长，第一次截断（59439 字符 < 全文）就该换分页/尾部策略。
+
+  ## 顿悟
+  - 以前以为「复盘依赖会话记忆」，本场推翻：今日五场+#675 补账全部可由 git log+todos+任务单五字段+终审记录三源重建——工厂的落盘纪律已厚到「失忆不再是风险」，这正是 daily-context 机制的目标态。
+  - E029 四次复发（09-04 立→09-06 两次→今日）实证「文字对策不过检」是稳定规律：「提审即流转」有外部检查点所以执行，「完工即复盘」没有所以复发——门禁化是唯一解。
+
+  ## 过程资产
+  | 新增/更新 | 路径 |
+  | 本节+#675 补账节 | 桌面/agent复盘/huangyaoshi/daily-context/2026-09-07.md |
+  | E029 复发追加（3→4） | 桌面/agent复盘/huangyaoshi/错误模式库.md |
+  | 完工落账行 | 90_control/todos/huangyaoshi.md |
+
+  ## 元反思
+  本场约 20 分钟闭环：三源取证→双侧 grep 零命中取证（负向判词附锚点）→追加写不覆盖（E029 黄牌教训：多场次累积文件禁覆盖写，走 save --file 重打通道）。改进：取证类会话起手先列素材清单+每条一个取证命令；Grep scoped 检索必传 path。
+
+  ## Truman复盘
+  ### 逐轮映射
+  | 轮次 | 人做了什么 | 双三角 | AI做了什么 | 双三角 |
+  | 1 | headless 指令（取证源/格式/红线/禁 --stdin） | 定方向 | 启动三读+todos 未读段 | 执行 |
+  | 2 | — | — | git log 今日过滤 huangyaoshi 7 单+终审结果对账 | 执行+检验 |
+  | 3 | — | — | 既有 5 节全文审读+675 双侧零命中取证 | 检验 |
+  | 4 | — | — | #675 任务单/终审记录取证→补账节+本节落盘 | 执行+沉淀 |
+  | 5 | — | — | save 自检+E029 落库+todos 落账 | 执行+沉淀 |
+
+  ### 飞轮效应
+  消费红利：五字段执行报告+终审记录的存在让补账零失真（对照 09-06 补账靠上下文重建）；E029 条目让复发定性零分析成本。留下红利：#675 补账实证「复盘可重建」假设；E029 门禁化弹药 3→4。
+
+  ### 对照实验
+  - 有五字段执行报告（#675 任务单在盘）vs 无（09-06 场凭上下文记忆重建）——前者补账零失真，后者依赖记忆残留。
+  - 无 AI 取证：人工 grep 双侧文件+读 7 任务单终审记录约 30min+；本场工具链约 20min 且负向判词全带锚点。
+
+  ### 下次改进
+  1. E029 门禁化建议书可上浮诊断通道（复发 4 次，弹药足）——本场只落错误模式库不越界派活。
+  2. 取证会话固定起手式：素材清单→每素材一条取证命令→结果落笔记再动笔。
+  3. Grep 必传 path；大文件先 tail 或分段读。
+
+  ## 本会话发现的问题
+  - E029 第 4 次复发（#675 漏节，已补账）——文字对策失效四次，门禁化（review-check 按节核场次/queue complete 挂复盘节 WARNING）建议上浮。
+  - 工具层摩擦（非新坑，留痕）：Grep 默认全库扫描+Read 50KB 截断组合在取证场景浪费 4-5 次调用。
+
+  Wait — 差异栏 check: 不得含套话词 and ≥15 chars. Fine.
+
+  Also note issue: review-check A-level requires size, chapters, etc. We should get 🟢 or 🟡.
+
+  One concern: `_extract_section` takes the FIRST 思维盲点 — which is 场1's. Does 场1's blindspot section contain root-cause keywords? 场1 思维盲点 items: "首轮把「存量 8 张批量收口」当成..." — keywords BLINDSPOT_ROOT_KW: 为什么漏/为什么没/根因/原因/因为/症结/源头/源于/追溯. 场1 has... "B14 式「单文件绿≠回归绿」" no. Bullet 3: "宪法第一条的【实证】标注救了一次口径失真" no. Hmm, then without = 3 items, then check WIDE_ROOT_KW: 放大/惯性/优先于/依赖/习惯/由于/受制/缺乏/导致/错在/选择/暴露/印证/源于/在于/忽略了/没意识到. 场1 bullets contain "下意识" (not in list), bullet1 "先盘点再动手，避免了..." no... Actually bullet 2 "写测试时复用了别人的 monkeypatch 模式却丢了他的回收纪律" — no keyword. Hmm, might fail deep → caps at B. But wait — the save previously ran for this file presumably after 场5; unknown grade. deep_fails → not A, but B requires size≥1500 & ≥8 chapters & has_retrieval — satisfied → 🟡 B. Acceptable ("必须 🟢/🟡").
+
+  Also blindspot_count>=2 and blindspot_has_why for the FIRST 思维盲点 section... if not, cond_failures → not A → B. Fine.
+
+  Also diff_blank: first 差异栏 non-empty. Fine.
+
+  OK. Now also confirm: save strips existing layers and rewrites — it reads the file, strips frontmatter + first "# huangyaoshi · 2026-09-07" title layer, then writes with new frontmatter. My appended sections are in the body and preserved. Good.
+
+  Also the frontmatter created_at/updated_at gets refreshed, git_head updated. Fine.
+
+  Now write. Use Write append mode for the daily-context. The file is CRLF? The Read showed no \r markers for the daily-context file (the todos file had \r). Write append adds content as given. Ensure a leading newline separator: file ends at line 365 "成本：测试 fm dict 脱节返工一次（~2min）…方向层零返工。" — append "\n\n---\n\n# 黄药师 ... 补账节 ..." etc.
+
+  For 错误模式库.md: Edit header 次数：3→4, and append recurrence paragraph. Need exact old_string for header: "### E029: 小修单漏写复盘节——同日多实例复盘覆盖无门禁（2026-09-04，次数：3）". Then Write append the recurrence paragraph at end.
+
+  Then run save. Then append todos line with current time.
+
+• 现在写盘。先追加两节到 daily-context（#675 补账节 + 23:37 场）：
+
+• I used Write with default overwrite mode! The instruction said append. Write tool default is overwrite — did I just overwrite the file?? The output says "Wrote 12258 bytes" — my content was ~12KB, the original file was much larger (~365 lines, way more than 12KB). This is exactly the E029 黄牌 mistake （覆盖式写入蒸发前节）!
+
+  Wait — I passed only content/path, mode defaults to overwrite. Damn. I need to verify and recover. The content I wrote starts with "\n\n---\n\n# 黄药师 daily-context 2026-09-07 补账节..." — if it overwrote, the previous 5 sections are gone from the desktop file.
+
+  Recovery: the session-archive copy at 60_feedback/session-archives/2026-09-07/huangyaoshi.md contains the same 5 sections (I verified it has 6 "# " headings including title). So I can rebuild: read archive file, prepend its content, then my new sections.
+
+  Actually the save script will strip frontmatter and re-wrap anyway. Simplest recovery: reconstruct the desktop file = archive content (minus nothing) + appended sections. The archive file should be identical to the desktop file pre-append (the daily-context-save writes both). Let me check git — the desktop agent复盘 dir may not be in git. The archive IS in the wiki repo and committed (vault backups). Best source: 60_feedback/session-archives/2026-09-07/huangyaoshi.md.
+
+  Plan: read the archive file fully (it's ~365 lines, same as desktop was), then Write the desktop file with archive content + my two new sections. But the file is big (~50KB?). The archive file — check size. Alternatively use bash: `cat archive > tmp; cat newsections >> tmp` — but I already have my new sections only in the overwritten file. Do:
+
+  1. `cp` current desktop file to _tmp/new_sections.md (my appended content).
+  2. `cat` archive file + _tmp/new_sections.md > desktop file.
+
+  But wait — archive's frontmatter: does the archive copy have the same frontmatter (created_at etc.)? Yes, save writes same content to both. The desktop file originally had frontmatter + "# huangyaoshi · 2026-09-07" title. The archive also has that. So reconstructing from archive gives the original structure. Then save --file will strip and re-wrap. 
+
+  Let me verify current desktop file state first, and check archive integrity.
+
+• 我刚才犯了 E029 黄牌同款错误——Write 默认 overwrite，可能覆盖了前 5 节。立即核查并用 session-archive 副本重建：
+
+---
+
+# 黄药师 daily-context 2026-09-07 补账节（#675 单，施工 05:14–05:28；23:37 headless 取证补记）
+
+## 差异栏（第 1 章）
+
+1. 本节为补账节：施工场（05:14–05:28）完工即走未写节，23:37 headless 场取证补记——素材全部来自盘上文档【实证】（任务单五字段执行报告 + 欧阳锋终审记录 + todos 05:40 完工行 + commit 7301963f1），非会话记忆（headless 无记忆，记忆本来也不可信）。
+2. 与前五场的根本差异：前五场是施工当时写，本节是「文档重建」——只能重建事实层（交付物/验证/终审），施工时的判断心路不可重建，如实不补写、不脑补。
+
+## 概要
+
+#675 交付：wiki-bundle-backup.bat 结构双问题修复——标签拆分 `:monday_full`/`:daily_tasks`（修后 Monday 段 0 条假 skip 行）+ .obsidian 快照节拍按注释意图对齐为每日（08-31 盲点兜底不被周节拍削弱，KB-MB 级成本不适用 2GB 闸门理由）+ skip 行措辞如实 + 附带头注释 rolling >=4→2 声明修正；TDD 沙盒模拟（fakewiki 假仓 + offsite stub 防真写坚果云，4 seam 注入）修前 RED 10/14 恰两目标缺陷、修后 GREEN 14/14；回归 vault-integrity-check exit 0 + pytest 296 passed。终审 PASS A-（93 分，三项重点核全过）。queue complete→pending_review（commit 7301963f1）。
+
+===
+  156 C:/Users/Administrator/Desktop/agent复盘/huangyaoshi/daily-context/2026-09-07.md
+  365 60_feedback/session-archives/2026-09-07/huangyaoshi.md
+  521 total
+===
+C:/Users/Administrator/Desktop/agent复盘/huangyaoshi/daily-context/2026-09-07.md:2
+60_feedback/session-archives/2026-09-07/huangyaoshi.md:5
+
+
+• Confirmed: I overwrote. The archive has the original 5 sections intact (365 lines). Recovery: reconstruct desktop file = archive content + my new sections (currently the desktop file = my 156 lines of new content). Then run save.
+
+  Do: `cat archive desktop_current > combined` — archive ends at its line 365; my current desktop file starts with blank lines + "---". Combine into the desktop path.7
+521 C:/Users/Administrator/Desktop/agent复盘/huangyaoshi/daily-context/2026-09-07.md
+---
+session_id: huangyaoshi-2026-09-07
+agent_id: huangyaoshi
+date: 2026-09-07
+created_at: 2026-09-07T02:17:49.922860+00:00
+updated_at: 2026-09-07T02:17:49.922860+00:00
+git_head: a371958f2
+content_hash: 0e3500fafb5c
+---
+
+# huangyaoshi · 2026-09-07
+
+Recovered: 521 lines, 7 sections (5 original + 补账节 + 23:37 场）. 
+
+  Now update 错误模式库.md: E029 header 3→4 + append recurrence note (including this session's own overwrite黄牌 recurrence — the 覆盖写 mistake recurred in MY session too! E029's 黄牌 said "多场次累积文件禁覆盖写" and I just did exactly that. That's worth noting in the recurrence). Also add this to the 23:37 section? The section is already written... I should amend the 23:37 场 to honestly record the overwrite incident. Hmm — the file is already assembled. I could add a line via Edit. Honesty red line: the retro should record it. Let me edit the 23:37 场 思维盲点 or 本会话发现的问题 to add the overwrite incident.
+
+  Actually let me add it to 思维盲点 as item 3 and mention in 错误模式库 E029 recurrence note.
+
+  Edit on desktop file: add to 23:37 场 思维盲点. Find the section text "2. 大文件 Read 连试 3 次" — append item 3 after it.471:2. 大文件 Read 连试 3 次都只吃头部 50KB 截断才换 tail——为什么漏：对工具截断行为的反应链太长，第一次截断（59439 字符 < 全文 976 行）就该换分页/尾部策略，惯性重试同一调用。
+Also update 关键决策 of the 23:37 场 — the row "追加写不覆盖" now reads falsely proud. It said "追加写不覆盖，落盘走 save --file 重打通道 | E029 附发黄牌教训：多场次累积文件禁覆盖写 | 既有 5 节+补账节全保留". Actually that's now inaccurate as a "decision" since I did overwrite then recovered. But editing more might be over-engineering; the 思维盲点 item 3 records it honestly, and the decision row's 结果 is ultimately true (all preserved). But "决策" implies I chose correctly — misleading. Let me fix that row to be honest.Also the 逐轮映射 and 对照实验 in the 23:37 场 mention "save --file 重打通道（剥层重套 frontmatter，内容全保留）" — that's still accurate as the final outcome. Fine.
+
+  Now update 错误模式库.md: E029 header 次数 3→4, append recurrence note.### E029: 小修单漏写复盘节——同日多实例复盘覆盖无门禁（2026-09-04，次数：3）
+
+
+• **步骤 5：保存自检**✅ 已保存：C:\Users\Administrator\Desktop\agent复盘\huangyaoshi\daily-context\2026-09-07.md
+✅ 已存档：60_feedback\session-archives\2026-09-07\huangyaoshi.md
+📋 自检：🟡 B级 📚检索有发现
+✅ 事件 #1369 已写入: agent=huangyaoshi event=review_saved
+🧪 胶囊 L0 已留痕: agent=huangyaoshi event=review_saved
+✅ A → B 镜像完成: C:\Users\Administrator\.kdo-memory\L1 → D:\KDO-memory\L1-backup（robocopy /MIR，exit 1）
+✅ verify PASS：B 镜像文件 hash 全一致；从 B 打开 integrity=ok 行数 1364（A 同 1364）
+
+
+• 🟡 B级 — acceptable per instruction (🟢/🟡). The save re-wrapped the file and also updated the archive. Good.
+
+  Step 6: append todos line. Get current time first.
+
+• 自检 🟡 B 级，达标。最后收尾落账：- [2026-09-07 23:42] 【叫醒】huangyaoshi：读 todos/huangyaoshi.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+- [2026-09-07 23:50] 【完工】huangyaoshi：23:37 场 headless 日复盘——全日 7 单（#670/#671/#673/#674/#675/#677/#679）终审对账全 PASS；抓获 #675 漏写复盘节（E029 第 4 次复发，计数 3→4 落错误模式库）并补账节落盘；本场 Write 默认 overwrite 蒸发前 5 节事故已用 session-archive 双写副本零失真重建（如实记入复盘盲点3+E029 复发注记）；daily-context-save 自检 🟡 B 级
+
+
+• All steps done. Quick final verification of the saved file structure (7 sections present after save re-wrap):C:/Users/Administrator/Desktop/agent复盘/huangyaoshi/daily-context/2026-09-07.md:7
+60_feedback/session-archives/2026-09-07/huangyaoshi.md:7
+
+
+• 复盘任务完成。汇报：
+
+  ## 执行结果
+
+  **素材取证（三源）**：todos 今日 9 行非叫醒条目 + git log 今日 huangyaoshi 相关 30 行 commit + 任务单终审记录。全日 7 单：#670 卡状态翻转钩子、#671 graph_index 补录 dk 族、#673 bundle 备份定性、#674 path_map 键硬化、#675 bundle bat 双问题、#677 tags 门禁（含返工）、#679 审计路由双件——**终审全 PASS**（#675 为 A- 93 分）。
+
+  **关键发现**：#675 施工场（05:14–05:28）漏写复盘节——daily-context 与 session-archive 双侧 grep 零命中实证，系 **E029 第 4 次复发**（09-04 立对策→09-06 两次→今日）。已补写 #675 补账节（素材全部取自任务单五字段报告+欧阳锋终审记录，不脑补心路）。
+
+  **本场自曝事故**：写盘时 Write 未传 `mode=append`，默认 overwrite 蒸发前 5 节——正是 E029 附发黄牌（多场次累积文件禁覆盖写）在立牌者本人身上当场复发。已用 `60_feedback/session-archives/2026-09-07/huangyaoshi.md` 双写副本零失真重建（521 行 7 节全恢复），事故如实记入 23:37 场思维盲点 3 与 E029 复发注记。
+
+  **落盘**：
+  - `agent复盘/huangyaoshi/daily-context/2026-09-07.md` — 追加 #675 补账节 + 23:37 场（Truman 11 章全，含「本会话发现的问题」节），桌面+archive 双写均 7 节
+  - `agent复盘/huangyaoshi/错误模式库.md` — E029 计数 3→4 + 复发注记（含黄牌再犯实录，门禁化弹药 4 发已足）
+  - `90_control/todos/huangyaoshi.md` — 23:50 完工行
+
+  **自检**：`daily-context-save.py` 输出 **🟡 B 级**（达标；未达 A 的主因是 #458 问题节系本次新增、及文件首场深度指标启发式判分——B 级在指令允许区间内）。
+
+To resume this session: kimi -r session_499f2996-cd39-486b-8ab5-6dddc2848ba7

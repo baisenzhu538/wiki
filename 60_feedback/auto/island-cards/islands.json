@@ -31,11 +31,6 @@
       "domain": "case-yihang-dual-triangle-AI基本功.md"
     },
     {
-      "path": "cases/case-yihang-dual-triangle-AI数据.md",
-      "type": "case",
-      "domain": "case-yihang-dual-triangle-AI数据.md"
-    },
-    {
       "path": "cases/case-yihang-dual-triangle-一堂DOC-20260704025752.md",
       "type": "case",
       "domain": "case-yihang-dual-triangle-一堂DOC-20260704025752.md"
@@ -1436,5 +1431,5 @@
       "domain": "yt-tool-unit-model-dynamic.md"
     }
   ],
-  "total_cards": 2965
+  "total_cards": 2980
 }

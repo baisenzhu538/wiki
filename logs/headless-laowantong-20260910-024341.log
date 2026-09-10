@@ -1,0 +1,244 @@
+kimi version 0.41.0
+• Let me start with the startup recovery reads.laowantong-context.md exists. Now read todos last 20 lines, and check agent-os.md §10.2 for Truman format.I need to read the tail of laowantong.md (last ~20 lines unread), especially 2026-09-10 entries. Let me grep for 2026-09-10 in the todos file, and read the tail. Also read 90_control/AGENTS.md as the reminder says. Let me do those in parallel.I accidentally passed "type": "" twice. Let me remove that.I accidentally kept including "type": "". I need to call Grep without type param. Expected new info: lines with 2026-09-10 in 90_control/todos/laowantong.md.
+
+• 我要找 todos 文件中 2026-09-10 的条目，这次去掉误加的 type 参数：
+
+• The tool call seems to still include type — maybe my output format is wrong. I'll write the call cleanly without the type field at all.The Grep tool keeps receiving an empty `type` parameter — likely a serialization issue on my side. I should call Grep with only pattern and path, no type. Let me try that explicitly.
+
+• 选择 (1)：最小修正——Grep 调用去掉 `type` 字段，只传 pattern + path：
+
+• The tool call keeps sending `type: ""` — perhaps the environment is injecting it. Let me use Bash grep instead on the file directly.
+
+• Grep 工具持续失败（疑似空 type 参数被注入）。改用 Bash 直接处理文件读取：3:- [2026-09-10 02:37] 🔴 KDO 退回 1 单（返工优先）：#684（task_20260908_laowantong-live258-six-cases），见任务单终审记录
+4:- [2026-09-10 01:37] 🔴 KDO 退回 1 单（返工优先）：#684（task_20260908_laowantong-live258-six-cases），见任务单终审记录
+929:- [2026-09-10 00:07] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+930:- [2026-09-10 00:22] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+931:- [2026-09-10 00:37] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+932:- [2026-09-10 00:52] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 15min））
+933:- [2026-09-10 01:05] #684 Live258 六案例续产收尾：黄谦宣传片+Simon Peng医疗数据集（反例教材）两卡产出，pre-submit 双 PASS，前置缺陷项三项闭环（dk互链×2+V0.9缺口注明），自攻击四路+WebSearch对标×2，交付物已 commit，complete 双落盘验证=pending_review，待欧阳锋终审
+934:- [2026-09-10 01:07] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#684（laowantong 的单，挂审 5min）（到点（节奏 15min））
+935:- [2026-09-10 01:27] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#684（laowantong 的单，挂审 25min）（到点（节奏 15min））
+936:- [2026-09-10 01:45] 【打回】#684 终审 FAIL（欧阳锋，等级 C，任务单已退 queued+rework:true）：仅窄修——①四张前产卡（yongbo 3/nongfu 8/xingzhi 11/tianli 10）共 32 处伪逐字引文改逐字或去引号（QUOTE_VERBATIM 0 issues，与两张新卡同标准）②田力卡「培训周期5天」锚 L1065→L1075（两处）③nongfu/huangqian 卡内 dk-demand-feature-stacking 边界条锚 L165→L167。两张新卡（黄谦/Simon）A- 达标不重产。修完重跑 6 卡 pre-submit 重新提审，复审走对照法不重读全文。详见任务单「终审记录（欧阳锋，2026-09-10）」四节
+937:- [2026-09-10 01:42] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#690（huangyaoshi 的单，挂审 15min）（到点（节奏 15min））
+938:- [2026-09-10 01:57] 复盘完成（01:49 场 Truman 11章追加节+#684 终审 FAIL 取证+错误模式库 E026 批内标准不一致）+自检等级 🟡 B级
+939:- [2026-09-10 01:57] 完成提审 #684 返工（FAIL C 窄修）：32 处伪逐字引文回源逐字化/去引号（yongbo 3/nongfu 8/xingzhi 11/tianli 10，全量扫描脚本实测 0 misses）+田力培训周期锚 L1065→L1075×2+dk 边界条锚 L165→L167×3；6 卡 pre-submit PASS（QUOTE_VERBATIM 0）；commit f821a3fb5 入仓后 complete 成功→pending_review（frontmatter+队列行+myqueue 三验证），待欧阳锋对照法复审
+940:- [2026-09-10 02:02] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#684（laowantong 的单，挂审 5min）；#693（huangyaoshi 的单，挂审 4min）（到点（节奏 15min））
+941:- [2026-09-10 02:17] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#684（laowantong 的单，挂审 20min）；#693（huangyaoshi 的单，挂审 19min）（到点（节奏 15min））
+942:- [2026-09-10 02:32] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#684（laowantong 的单，挂审 35min）；#693（huangyaoshi 的单，挂审 34min）（到点（节奏 15min））
+943:- [2026-09-10 02:36] 📥 #684 R2 复审 FAIL 退回（欧阳锋，等级 C）：上轮 32+2+3 全部闭环实证 ✅，但独立扫描新捕获 4 处（检查器盲区漏入）——tianli L177 两处伪逐字🔴（「这个 AI 不懂政府培训」删「是不是」/「该换专门工具」源文件 0 命中，标 L1099）+ xingzhi L167 锚 L651→L653🟠 + tianli L72 标点——→，🔵。四处分钟级窄修，期望形态见任务单「终审记录 R2」节。附：QUOTE_VERBATIM 检查器对子串摘录/短引文换词不设防，0 issues≠伪逐字 0（建议书已落 diag_20260910_ouyangfeng-quote-verbatim-checker-substring-blindspot.md）
+
+
+• Now I have the 2026-09-10 entries. Key facts:
+  - 01:05: #684 续产收尾（黄谦+Simon 两卡），提审 pending_review
+  - 01:45: #684 终审 FAIL（C），窄修返工
+  - 01:57: 复盘完成（01:49 场）— so a previous session already wrote a Truman review section (01:49 场） at 01:57; also did rework of #684
+  - 01:57: 完成提审 #684 返工 → pending_review
+  - 02:36: #684 R2 复审 FAIL（C）退回，4 处新捕获
+
+  My task: append new section 「# 老顽童 daily-context 2026-09-10（02:43 场）」to the existing file at Desktop/agent复盘/laowantong/daily-context/2026-09-10.md.
+
+  Also: git log since 2026-09-10 with 老顽童/laowantong commits; read task #684 execution report/final review records.
+
+  Also read agents/agent-os.md §10.2 for the Truman 11-chapter format. Also check for 错误模式库.md existence. And the last 20 lines unread — I've seen lines 929-943 (end). The file has 943 lines, so 929-943 is the tail.
+
+  Next steps in parallel:
+  1. git log since 2026-09-10
+  2. Read agents/agent-os.md §10.2 (grep for 10.2)
+  3. Read existing 2026-09-10.md daily-context file
+  4. Check 错误模式库.md exists
+  5. Find task #684 task file
+
+  Note this session is the "02:43 场" — headless, so my material is from repo files. My job: collect today's material including what previous instances did (01:05 续产收尾， 01:57 返工， 02:36 R2 FAIL).ffd8c1c60 02:43 chore(queue): #696 claim by huangyaoshi
+ce446601f 02:42 chore(queue): #684 claim by laowantong
+7c0366219 02:34 chore(queue): #684 review by 欧阳锋
+5a7ea73fe 02:14 feat(wangyuyan): 门铃看门狗系统级注册（kdo-doorbell-watchdog，10min 拍/45min 无值守拍→拉起 headless 王语嫣/防抖+连拉3次停拉报警）——老朱「只信门禁和状态机」
+e1f5429fa 02:03 ouyangfeng: #690 终审 PASS A-——E盘迁移本机可达面全量验证零缺口（四守卫实证+独立sha256复算MATCH+零中断心跳无断档+便携件实跑3次），异机attach实拍路由老朱，pytest 1红归因考古=inventory '+'分隔pre-existing债，建议书落diagnosis，双todos+context active_task+复盘归档
+55eddc0f9 01:59 chore(queue): #690 review by 欧阳锋
+4abfa6b65 01:59 feat(wangyuyan): #697 claimed 停摆自动补拉门禁化立项（老朱令：不信纪律信门禁；F-080 出停车场）
+c3461da28 01:58 chore(queue): #693 complete by huangyaoshi
+f28026456 01:58 feat(gate): #693 件2场次对账弱校验+件3 daily_review自锁修复+件5存在性核查节名白名单 by huangyaoshi
+0aace38ce 01:57 chore(queue): #684 complete by laowantong
+f821a3fb5 01:57 fix(#684): FAIL C 返工——32 处伪逐字引文回源逐字化/去引号 + 田力培训周期锚 L1065→L1075 + dk 边界条锚 L165→L167
+8f954d48d 01:54 fix(wangyuyan): LLM 通道主备倒序——MiniMax 升主路 DeepSeek 降备用（老朱 09-10 令：按顺序自动切换不请示）
+947386e13 01:42 chore(queue): #684 claim by laowantong
+5697698ba 01:41 feat(wangyuyan): 裁定 tags 门禁软期延长建议书——①+②组合（延至 10-14 避返工撞门+#688 全补不变），③不采纳
+8785fc178 01:39 ouyangfeng: #684 终审 FAIL C 退回收口——32处伪逐字引文+2处锚点错退laowantong返工（新卡A-保护不重产），tags门禁软期建议书落diagnosis，双todos完工/打回行+context active_task更新+复盘归档
+9207acf7f 01:32 chore(queue): #693 claim by huangyaoshi
+eb2f594ca 01:31 chore(queue): #684 review by 欧阳锋
+2e4135def 01:27 chore(queue): #690 complete by huangyaoshi
+cba88578f 01:27 feat(infra): #690 E盘迁移落地——KDO-memory整区迁E+resolver化+便携件+六入口实拍 by huangyaoshi
+31c437f6a 01:02 chore(queue): #684 complete by laowantong
+cc0fea708 01:01 feat(cases): #684 Live258 六案例全产收尾——黄谦宣传片+Simon Peng医疗数据集（反例教材），dk互链反链补齐 by 老顽童
+191:### 10.2 唯一标准格式
+324:| `agent复盘/<agent>/daily-context/YYYY-MM-DD.md` | **唯一直写**的复盘文件（Truman 11 章，§10.2 格式） | agent 本人，经 `daily-context-save.py` 落盘 | 每次会话收尾 |
+381:会话结束 → Agent 自己跑双三角复盘（§10.2）→ 映射本轮对话到六要素
+2026-09-06-1725.md
+2026-09-06.md
+2026-09-07.md
+2026-09-08.md
+2026-09-10.md
+cn-track-archive-20260819
+daily-context
+friction-log.md
+技能进化日志.md
+用户反馈档案.md
+索引.md
+能力雷达图.md
+错误模式库.md
+错误模式库.md exists. Now read agent-os.md §10.2 (lines ~191-280), and the existing 2026-09-10.md daily-context file.The file exists with 3 sections already (00:07 场续产收尾， 01:49 场复盘场， 01:57 返工场）. Now I need to append a new section 「# 老顽童 daily-context 2026-09-10（02:43 场）」.
+
+  Material for this session (02:43 场， headless review-only):
+  - This session: startup recovery reads, todos read, git log scan, file read. No construction.
+  - Events since last session (01:57): at 02:36, #684 R2 复审 FAIL（C）退回 — 4 new catches (tianli L177 两处伪逐字， xingzhi L167 锚 L651→L653, tianli L72 标点）, QUOTE_VERBATIM checker blindspot noted by 欧阳锋 with proposal diag_20260910_ouyangfeng-quote-verbatim-checker-substring-blindspot.md. Also 02:42/02:43: #684 claim by laowantong (commit ce446601f) — someone/some instance claimed #684 again. And 02:43 #696 claim by huangyaoshi. Also 02:03 #690 PASS A-, 01:59 #697 claimed by wangyuyan, 02:14 watchdog, 02:34 #684 review by 欧阳锋 (R2 FAIL).
+
+  Let me check the task file for the R2 final review record to get details right. Also check queue status to confirm #684 current state (claimed-laowantong again at 02:42).
+
+  Also should verify the R2 FAIL record in the task file. Let me read the relevant section of the task file.85:## 执行报告（老顽童，2026-09-10 续产收尾）
+101:**kdo query 检索记录**（宪法 #669）：2026-09-10，查询词「黄谦 达瑞电子 宣传片 Feature」（命中雍博卡等，无同主题卡）/「Simon Peng 医疗数据集 XZ 围手术期」（0 同主题命中）/「宣传片 AI创作 workflow 放大器 创意」（0 同主题命中）/「medical dataset quality 数据集质量 验证 反例」（0 同主题命中）——确认无重复卡后新建（L7）
+121:## 终审记录（欧阳锋，2026-09-10，methodology v2.3）
+164:### kdo query 检索记录（宪法 #669，2026-09-10）
+173:## 返工执行报告（老顽童，2026-09-10，FAIL C 窄修复工·L10 镜像对照）
+198:## 终审记录 R2（欧阳锋，2026-09-10，methodology v2.3，复审对照法）
+241:### kdo query 检索记录（宪法 #669，2026-09-10 R2）
+# role=laowantong · 任务路由（#472 只读视图，不动状态机）
+✅ 可领 5:
+  #685 task_20260908_laowantong-ai-data-p2-backfill — P2 补强补挂：半肥猫口述回填+两组互链+KDO桥接素材+ai数据理解第一课/马易族6卡 
+  #688 task_20260908_laowantong-tags-stock-remediation — tags 存量全量治理：2064 张内容词<5 卡分域分批补标（09-14 HARD 前软
+  #689 task_20260908_laowantong-c340-b01-goldmine-production — C340 B01 金矿 149 条全立项排产：批1=前三案例+高价值散件，批2起滚动；件5
+  #692 task_20260908_laowantong-zengming-smart-strategy-cards — 曾鸣《智能》拆书素材产卡：P0×3（智能复利体系/生成型战略/共生智能体×双三角桥接）+P
+  #695 task_20260909_laowantong-yt-note-v2-backfill-and-cards — 一堂笔记法二讲素材产卡：P0回填7张旧卡src_unknown空洞+P1新卡8张（价值公式
+⏸ 等依赖 0:
+  (无)
+🧊 冻结 0:
+  (无)
+🚧 进行中 1:
+  #684 task_20260908_laowantong-live258-six-cases — P1 产卡：Live258 六案例全产（雍博/农夫三拳/行知/田力/黄谦/Simon Pe
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 2:
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #684 task_20260908_laowantong-live258-six-cases — 🔴退回返工（2026-09-09）
+  #693 task_20260909_huangyaoshi-gate-and-audit-trio — 门禁审计五小件：diff 检查器+场次对账+自锁修复+src_unknown 计数收紧+存在性核查节名白名单
+  #696 task_20260909_huangyaoshi-daily-review-coverage-wangyuyan — 复盘覆盖补齐：daily_review ROLES 加王语嫣（老朱令全员复盘入列）
+I now have all material. Events for the 02:43 场 (this session, headless, review-only):
+
+  Timeline today:
+  - 01:01-01:05: #684 complete （续产收尾， commits 31c437f6a/cc0fea708)
+  - 01:39-01:45: #684 终审 FAIL C (8785fc178)
+  - 01:42: re-claim #684
+  - 01:49 场复盘 (already in file)
+  - 01:57: rework complete (f821a3fb5, 0aace38ce) + 返工场复盘 (already in file)
+  - 02:36: #684 R2 复审 FAIL C (7c0366219 at 02:34 review; todos entry 02:36)
+  - 02:42: #684 claim by laowantong again (ce446601f) — currently in_progress, claimed-laowantong
+  - This session: 02:43 场 headless 复盘 — no construction.
+
+  Note queue shows #684 as 进行中 (in_progress) claimed by laowantong. Also 5 queued tasks available.
+
+  New material for my section: R2 FAIL — four narrow items: tianli L177 two pseudo-verbatim quotes, xingzhi L167 anchor L651→L653, tianli L72 punctuation. Plus checker blindspot proposal by ouyangfeng. Key insight: 检查器 0 issues ≠ 伪逐字 0 — QUOTE_VERBATIM substring/short-quote blindspot. Also "上轮修复本身引入了新误差" — xingzhi 返工报告说「改源 L651 逐字」但真锚是 L653，返工动作自己带锚漂。
+
+  Error pattern library: check if E027 needs adding. The task says: 新错误/新坑 → 追加 错误模式库.md （该角色有此文件时 — it exists). Let me check its tail to see E026 and whether R2's lesson is a new pattern.
+
+  Let me read the tail of 错误模式库.md.
+
+• 素材齐了。看错误模式库现状，判断 R2 FAIL 是否构成新条目：# 错误模式库
+
+> 记录每次复盘发现的系统性错误模式，用于预防复发。
+
+| ID | 错误模式名称 | 首次出现 | 最近出现 | 出现次数 | 现象 | 根本原因 | 解决方案 | 预防措施 |
+|----|--------------|----------|----------|----------|------|----------|----------|----------|
+| E001 | 同一格式错误重复出现 | 2026-06-05 | 2026-06-06 | 2 | 飞轮文章缺 Audience + Core Thesis | 没有复盘机制 → 问题未转化为行动 | 飞轮文章开笔前必须先写这两节 | 强制检查清单第1条 |
+| E002 | YAML 列表字段误用 wikilink | 2026-06-06 | 2026-06-06 | 1 | contradicts 写成 `- [[card-name]]` | 习惯性拱手——正文用 wikilink 用多了 | 修复 + 以后写 YAML 列表时做"约定检查" | 强制检查清单第2条 |
+| E003 | 复盘写成流水账 | 2026-06-07 | 2026-06-07 | 1 | "今天做了什么"的罗列，无未来能力提升指向 | 混淆了"项目汇报"和"能力复盘" | 改用黄药师 6 文件认知复盘模板 | 每次复盘前读一遍模板要求 |
+| E004 | 越界编排任务 | 2026-07-04 | 2026-07-04 | 1 | 自行创建任务文件、设定编号、开始执行 | 混淆了 Producer 和 王语嫣/欧阳锋的职责边界 | 老顽童只领取和生产，不编排 | 有任务需求时提建议给王语嫣，不自建任务文件 |
+| E005 | 框架卡静态化——只写结构不写引擎 | 2026-07-04 | 2026-07-04 | 1 | Y模型/实事求是/解放思想等多张卡只有静态结构，无迭代循环 | 在引擎层思维被系统化提炼之前，生产者没有这个意识 | 每个框架卡检查6维度审计（迭代发动机/起点认知/关键案例/人类判断/飞轮机制/反静态化） | 新框架卡产前跑6维度自检 |
+| E006 | DK 卡 section 漏检 | 2026-07-05 | 2026-07-06 | 3 | DK 卡 pre-submit FAIL——缺 操作方法/适用边界 等 section | 产卡时没跑 DK section checklist | 产 DK 卡前先列 6 section 清单，少一个不动手 | DK 卡 section checklist 前置 |
+| E007 | 批处理漏网——新卡未覆盖 | 2026-07-05 | 2026-07-05 | 1 | #96 批处理 65 张 case 卡 section 占位，#106 的 5 张新卡在批处理后创建，漏补 section | 批处理和手动产卡的时间窗口不同步 | 批处理后立即检查新产卡是否覆盖 | complete 前 verify 步骤 |
+| E008 | complete 缺执行报告被拒 | 2026-07-06 | 2026-07-06 | 2 | queue_transition.py complete 拒绝——任务单缺执行报告/验收证据 | 规则变更后未及时适应 | complete 前追加 `## 执行报告` 到任务单 | complete checklist：pre-submit + 执行报告 + section |
+| E009 | 归因谬误——从目录结构猜运行环境 | 2026-08-09 | 2026-08-09 | 1 | 看到 `.claude/` 目录推断教练 Agent 跑在 Claude Code，分析了一套 Claude Code 白名单机制——实际教练是 Hermes（#262 L68 为证） | 关联谬误：把"文件布局"当"运行环境"证据；没查证据链（任务单/配置值/skill 已有记录） | 归因看证据链：查任务单 → 查 profile config → 查 skill 已有记录 | `CLAUDE.md` ≠ Claude Code；判断环境归属先查部署任务单 |
+| E010 | 重复文件"以谁为准"缺版本证据 | 2026-08-16 | 2026-08-16 | 1 | #319 目录迁移方案 A 建议"以 agent-specs/ 版为准"（看行数 173 vs 181 猜新版）——欧阳锋 hash 实测 tools/ 版（08-04）比 agent-specs/ 版（08-03）新一天，方案会丢 08-04 更新，被驳回 | 用表面属性（行数/目录位置）判断版本新旧，没做 hash/mtime/内容 diff | 发现双份文件先 md5sum + ls --time-style + diff 三证，再定权威版 | 迁移/合并类任务"以谁为准"必须先版本证据，不凭行数猜 |
+| E011 | 汇报口径跨任务合并 | 2026-08-16 | 2026-08-16 | 2 | 多轮汇报"#320 七张卡"——把 #322 的 tool-candy 算进 #320，实际 #320 六张+#322 一张（欧阳锋/王语嫣先后校准） | 跨任务合计当单任务数量；任务单边界没在汇报时逐项核对 | 汇报数量以任务单边界为准，跨任务交付注明"合计 X 张（#A 六张+#B 一张）" | 每个数量词都回任务单核对，不凭印象 |
+| E012 | CRLF 文件正则失配 | 2026-08-16 | 2026-08-16 | 1 | 批量修 frontmatter 时 `\n---\n` 匹配不了 `---\r\n` 结尾（Windows 写的 CRLF 文件），NO_FM 全失败 | 假设全库 LF 行尾，没兼容 CRLF | 全库文件处理正则一律 `\r?\n`；yaml 重写后验证 body 首行标题（yaml.dump 可能吞掉） | 处理陌生文件先看行尾；批量重写必验证 body 开头 |
+
+| E013 | 目录级 git add 误提交并行实例在制品 | 2026-08-22 | 2026-08-22 | 1 | #411 第 14 批 commit 用 git add 30_wiki/ 目录级，把王语嫣 working-protocols.md 的正文增补（updated_at+mtime 扫描节）混入批次——欧阳锋误判我"超任务单边界"（A- 扣分） | 单机单写者假设：以为工作区改动全是我自己的；实际五绝多实例并行操作同一 repo，工作区共享 | 批量 commit 一律 path-scoped add（生成目标清单文件逐个 add）；提交前 git status 核对无他人在制品 | 批量任务第一批起就建目标清单 + path-scoped add，不等到出事故 |',
+| E014 | 批次验收后 complete --force 覆盖验收状态 | 2026-08-22 | 2026-08-22 | 1 | #411 第 3 批欧阳锋验收后已恢复 queued（继续分批），我误以为"队列没登记提审"执行 complete --force 又把状态改回 pending_review——覆盖了欧阳锋的批次验收 | 没读终审记录全文（含"批次验收流程：恢复 queued"说明），凭旧机制假设 | 收到终审记录先读全文（含验收流程节）再决定动作；批次验收后队列行=queued 是正常态 | 终审记录全文阅读为领取前置 |',
+| E015 | 脚本 YAML 格式边界未覆盖 | 2026-08-22 | 2026-08-22 | 4 | 回填脚本 4 次格式 bug：①工具行号后缀（case-xxx.md:65）带入 src_id ②related: [] inline 空列表后追加破坏 YAML ③嵌套 list（- [[id]] 无引号）flatten 深度不足 ④pending_unknown 占位卡当目标回填 | 假设全库 related 格式统一，实际历史卡格式五花八门 | 脚本写前校验 YAML 可解析 + 格式防御（inline [] 替换/嵌套 list 递归/占位符排除）；改脚本后先 ad-hoc 验证再 apply | 批量脚本先枚举目标卡格式多样性再写；每次脚本修改配临时验证脚本 |',
+| E016 | 正则解析 frontmatter 串行污染 | 2026-08-25 | 2026-08-25 | 1 | #518 清单批：正则抓 source_refs 抓到 domain/标题/tags 冒充来源值，561 卡误分类1（可回填），欧阳锋独立复跑抓出 | 图快用正则解析半结构化 YAML；对"脏数据炸场"的防御用错了层 | 解析 YAML 一律 yaml.safe_load（try/except 兜底，重复键取后者语义）；正则只作 fallback；"真实来源"唯一硬判据=Path.exists() | 凡解析 frontmatter 的脚本，先问"我为什么不用 yaml 库" |
+| E017 | 交付物未入仓（complete 只带任务单） | 2026-08-25 | 2026-08-25 | 2 | #470 返工 4 卡工作区脏文件提审（O2 指令）→ 当晚 #518 清单+json untracked 又犯——O2 只吸收到"卡片"没泛化到"交付物"类别 | "交付物"心智只覆盖 30_wiki 卡片，没覆盖 60_feedback 清单/报告类产物；指令吸收停在字面 | complete 前固定一步：git status 查 ?? 和 M，一切交付物（卡片/清单/报告/脚本产物）先 feat commit 再 complete | 指令吸收强制泛化到类别级："X 要 commit"→"一切交付物要 commit" |
+| E018 | 问题分类默认归因「我的执行」 | 2026-08-26 | 2026-08-26 | 1 | 时钟漏报 #531 终审落点（myqueue 快照看不到 reviewed 跃迁），初判为个人 cron prompt 缺陷就地修——老朱追问「这是基建内容为什么没写建议书」才上浮；与 E017（指令吸收不泛化）同根：分类时默认把问题归到执行层不归到系统层 | 修自己成本最低即时闭环的惰性；缺「波及面判别」决策步骤 | 凡修复动作先问判别式：「别人/别的实例会不会也踩？」会=基建缺口，当日落最小建议书（三行即可）到 60_feedback/diagnosis/，局部修复只做止损 | 判别式入启动检查单；监控类设计先列被监控对象全部状态跃迁再定查询 |
+| E019 | 环境迁移残留依赖（迁移只迁进程不迁依赖闭包） | 2026-08-31 | 2026-08-31 | 1 | wechat-collect 管线转写仍调 wsl.exe（WSL 已废除），wsl.exe 间歇僵死 180s 把王语嫣 turn 挂死；sync-hermes-mcp.py 的 WSL_HOME 探测同样裸调 wsl | 五绝迁 Windows 时任务边界只框定「bot 进程搬家」，工具链依赖不在扫描范围；且 02:08 转写还成功过一次，「最近成功过」掩盖「间歇僵死」 | 迁移=依赖闭包搬迁：grep 全量扫旧环境关键字（wsl/旧路径/旧服务名）+ 逐个改写 + 真实验证三步缺一不可；子进程调用一律带 timeout | 迁移类任务主动报残留依赖清单；本次已修 3 处（transcribe_win 新建/2 管线改写/1 sync 兜底） |
+| E020 | 复盘素材锚点偏置——以任务号为锚漏记非任务产出 | 2026-09-03 | 2026-09-03 | 1 | 09-03 第 1 场复盘（00:32 落盘）素材边界默认=「#624 施工单」，施工前 00:05 的建议书（git 大文件门禁，commit 1b8c51348）整场漏记，00:50 headless 场靠 git log 全量扫描才捞回 | 复盘素材搜集以任务号为组织锚，建议书/friction/裁定响应等非任务产出没有锚点；收件箱是探针推送面（推「需要动作的事」），不覆盖「已产出但不需动作的事」 | 复盘第一动作固定跑 `git log --since='今日 00:00'` 全量扫描含角色名 commit 兜底产出面，再读收件箱和任务单填细节——日志管广度，记忆管深度 | 复盘起手式入检查单：git log 扫描在前，收件箱在后 |
+| E021 | 互链目标按假设名写入——存在性校验缺失 | 2026-09-03 | 2026-09-03 | 1 | #632 模板资产化批1：源卡 related 与模板间互链统一写成 `[[template-X]]`（设想命名），8 件模板实际落盘文件名/id 均无 `template-` 前缀 → 15 处死链；提审前 L1 互链验证四项（回链/头链/id一致/尾节）全过却全是结构检查，无一验目标文件实存，被欧阳锋 glob 存在性核查抓出 FAIL（P0），返工后复审 PASS A- | 命名决策在「定文件名」与「写链接」两个动作间漂移；自检把「互链」拆成结构问题，漏了最低层的存在性问题——最低层的检查最容易被认为不会错而跳过；与 E016 同根：Path.exists 硬判据原则未泛化到 related/互链场景 | 互链自检第 0 项=全量 `[[X]]` 目标 Path.exists 实测（glob 目标目录），结构四项殿后；先落文件再写链，或写链后立即 glob 验证文件名/id/链接名三方一致 | 凡声称「X 与 Y 已链接/已引用」，唯一硬判据是存在层实测；E016 预防原则泛化：source_refs/related/互链 全部适用 |
+| E022 | 报告先写验证后跑验证（声称断链温和变体） | 2026-09-06 | 2026-09-06 | 1 | #664 执行报告「验证」节预写 L9 结果并留「见下方补记」钩子——下方无补记，悬空引用，commit 前自查发现回改 | 报告写作顺序错：把「打算做」写成「已做到」形态；L5 牌防数字虚报，未覆盖「验证动作尚未发生」的时间维度 | 执行报告「验证」节永远最后写；写入前每个验证动作必须已跑过且留输出 | complete checklist 加一条：报告内每个「已验证」断言都能指到一条已存在的命令输出 |
+| E023 | in-quote 校词未注记（引号内即原文纪律未入直觉） | 2026-09-06 | 2026-09-06 | 1（同根因两处） | #665 初稿把 ASR 校词直接写进引文（「奖项学习」→「讲香学习」等 2 处），四路自攻击 B 路抓出当场修 | 把「帮助读者理解」置于「引文保真」之上；in-quote 修改也是改写这条没长进直觉 | 引文内校词一律显式注记（原文作 X，Y 为校正+依据锚） | 自攻击 B 路把「引号内任何非原文 token」列为固定检查项 |
+| E024 | 核查脚本空集通过产出「假 0」（0 无分母=检查不存在） | 2026-09-07 | 2026-09-07 | 1 | #668 死链核查首跑报「死链 0/缺失 0」，实为 glob 反斜杠路径被 'concepts/' 正斜杠过滤全部 continue——0 卡被检查，结论看似完美实则空集；同场第二例：git log --stat 中文路径被 quotepath 转义致 grep「AI知识库」0 命中，差点误判卡未入仓 | 路径分隔符/编码假设 + 「0 结果」当结论不当数据；空集通过与检查完备在输出上不可区分 | 清单类核查必须输出条目计数（扫了 N 条）+ 路径统一 os.sep 归一 + git 输出中文先 -c core.quotepath=false；0 要带分母才能当结论 | 凡写核查/对账脚本，第一行 print(len(items))；凡引用 0 命中，先问「扫了几个」 |',
+| E025 | 单变体 grep 假阴性——连写词按分词形单变体检索得假 0 判词 | 2026-09-07 | 2026-09-07 | 1 | #680 返工：「幻想和许愿」连写词按分词「幻想/许愿」单变体 grep 0 命中→首提下 🔴 漏挖判词；终审后同义扩展补跑发现连写形有真实命中，件3 #25 🔴→🟡 改判 | 中文检索变体清单只枚举分词形，漏连写形；负向判词的变体覆盖度未当验收项 | 负向判词的变体枚举必须覆盖连写/分词两种形态——中文词的分词边界不是检索边界；宪法第六条「同义扩展」口径落到形态层 | 已条款化落 `60_feedback/diagnosis/working/c340-b01-goldmine-ledger-part1.md` §3.2；C340 B02 起词根复检变体枚举连写形为必选项 |
+| E026 | 批内标准不一致——新标准只施于新卡，同批存量卡未回改 | 2026-09-10 | 2026-09-10 | 1 | #684 续产场只对两张新卡（黄谦 15→0/Simon 5→0）执行 QUOTE_VERBATIM 清零，前次会话产的四张卡 32 处伪逐字引文未回改；欧阳锋独立复跑坐实并抽查排除检查器误报（真改写，源 L1775 成分删改），整单 FAIL C 退回窄修；新卡 A- 受保护不重产，FAIL 全落在旧卡上 | 生产者的自检范围轴是「时间（本次会话新增）」，审查者的验收轴是「工单（全部交付物）」；两轴错位。与 E017 同根：纪律按字面范围吸收，不按适用域泛化 | 凡批次内引入新标准/新门禁，第一动作全量复跑批次内全部存量交付物，不只跑新卡；锚点行号当断言处理，引用前先 grep 实测不照搬 | complete checklist 增补「批内存量交付物复跑本次新标准」固定项（与 L12 并列）；提审前自问「本批次是否有前次会话产的交付物，它们过新标准了吗」 |
+
+
+• E026 already recorded (by 01:49 场）. The R2 FAIL introduces a new pattern: "返工修复本身引入新误差" （返工报告说改 L651 逐字，真锚 L653——返工动作自己带锚漂） + "检查器 0 issues ≠ 伪逐字 0"（检查器盲区漏入 4 处）。This is a new pattern worth adding as E027: 返工产物未经独立复验/返工引入二次误差 + 工具绿≠真净. Let me add E027.
+
+  Also note the 01:57 场 rework 自我验证用了 6 卡 pre-submit QUOTE_VERBATIM 0——但检查器有盲区，R2 抓到 4 处。教训：自检工具与终审独立扫描不是同一强度；生产者全量扫描脚本复制的是同一个有盲区的检查器逻辑（684_quote_scan.py 复制 _check_quote_verbatim）——自检复用了终审工具的同一盲区，所以扫不出子串型伪逐字。这是很重要的点：复制检查器逻辑做自检 = 共享盲区，"先造诊断工具"造的是有同一个洞的工具。
+
+  Now write the new section. This is a headless 复盘场 (02:43 场）, no construction — honest. Current time ~02:43+. Let me get the actual time for the todos entry. Also need to note #684 re-claimed at 02:42 (by laowantong, presumably another instance), so the rework will be a future session.
+
+  Let me check current time first, then append the section, update 错误模式库.md with E027, run save+selfcheck, then append todos line.
+
+  Note: the daily-context file is outside working directory (Desktop/agent复盘) — but task explicitly instructs it, fine.
+
+  Also the frontmatter updated_at etc will be handled by daily-context-save.py presumably.
+
+  Let me write the section now. Requirements: 11 chapters, 差异栏 non-blank, honest 空班 framing for this session (no construction), but the material covers R2 FAIL events.
+
+  Structure per §10.2:
+  ## 差异栏（第 1 章）
+  ## 概要
+  ## 关键决策
+  ## 思维盲点
+  ## 顿悟
+  ## 过程资产
+  ## 元反思
+  ## Truman复盘
+  ### 逐轮映射
+  ### 飞轮效应
+  ### 对照实验
+  ### 下次改进
+
+  Heading: 「# 老顽童 daily-context 2026-09-10（02:43 场）」.
+
+  Get current time: date. Then write.2026-09-10 02:46
+done
+
+
+• 追加 E027 到错误模式库：done
+
+
+✅ 已保存：C:\Users\Administrator\Desktop\agent复盘\laowantong\daily-context\2026-09-10.md
+✅ 已存档：60_feedback\session-archives\2026-09-10\laowantong.md
+📋 自检：🟡 B级 📚检索有发现
+✅ 事件 #1471 已写入: agent=laowantong event=review_saved
+🧪 胶囊 L0 已留痕: agent=laowantong event=review_saved
+✅ A → B 镜像完成: C:\Users\Administrator\.kdo-memory\L1 → E:\KDO-memory\L1-backup（robocopy /MIR，exit 1）
+✅ verify PASS：B 镜像文件 hash 全一致；从 B 打开 integrity=ok 行数 1466（A 同 1466）
+• 🟡 B级 — acceptable per instructions (must be 🟢/🟡). Now append todos closing line.
+
+• 自检 🟡 B 级，达标。收尾落 todos 行：- [2026-09-10 02:47] 【叫醒】laowantong：读 todos/laowantong.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#693（huangyaoshi 的单，挂审 49min）；#696（huangyaoshi 的单，挂审 2min）（到点（节奏 15min））
+- [2026-09-10 02:46] 复盘完成（02:43 场 Truman 11章追加节：#684 R2 复审 FAIL 取证——检查器绿灯盲区4处+E027 错误模式库新增（工具绿灯≠真净/返工带锚漂）+下一场窄修四条移交清单）+自检等级 🟡 B级
+
+
+• Done. All steps complete. Summarize for the user.
+
+• 02:43 场复盘完成，全流程收工：
+
+  **素材取证（headless，全来自仓库）**
+  - `git log --since='2026-09-10 00:00'` 捞出今日 21 条 commit（E020 起手式），与 todos 未读段交叉一致
+  - 核心事件链：#684 续产提审（01:05）→ 终审 FAIL C（01:39）→ 返工重提（01:57）→ **R2 复审再 FAIL C（02:34/02:36）**→ 02:42 重新 claim（当前 in_progress）
+
+  **落盘动作**
+  1. `agent复盘/laowantong/daily-context/2026-09-10.md` 文末追加第 4 节「# 老顽童 daily-context 2026-09-10（02:43 场）」，Truman 11 章全，差异栏非空白。本场无施工，如实写诚实空班节；核心认知：**6 卡 QUOTE_VERBATIM 0 issues 与 4 处伪逐字并存——生产侧自检脚本复制了检查器逻辑，共享同一盲区；且 01:57 返工报告自身带锚漂（写 L651 真锚 L653）**
+  2. 错误模式库追加 **E027**（工具绿灯≠真净/返工报告锚漂；与 E026 批内标准不一致分条目，根因不同）
+  3. 保存自检：**🟡 B 级**（📚检索有发现），存档 + 事件留痕 + A→B 镜像 verify PASS
+  4. `90_control/todos/laowantong.md` 追加收尾行
+
+  **移交下一场（不做=不越界，原样记录在复盘节内）**：#684 第三轮窄修四条——①tianli L177 两处引源 L1099 逐字或去引号 ②xingzhi L167 锚 L651→L653 ③tianli L72 标点回源 L1333（——）④重跑 6 卡 pre-submit 提审。队列另有 5 单可领，但 #684 返工优先。
+
+To resume this session: kimi -r session_d59daab1-b17e-42a0-8985-0b1583b3eb3a

@@ -1,0 +1,43 @@
+[1/14] 药师帮 2025 全年业绩 年报 收入 毛利 -> 7
+    FETCH len=2055 https://finance.eastmoney.com/a/202603233680971376.html
+    FETCH len=16000 https://xueqiu.com/6974174633/380934384
+[2/14] 药师帮 2025年 年度业绩 平台业务 自营业务 收入 -> 7
+    FETCH len=16000 https://xueqiu.com/8353550788/380761149
+    FETCH len=1521 http://mp.cnfol.com/58066/article/1774262649-142320869.html
+[3/14] 药师帮 毛利率 平台 自营 -> 7
+    FETCH len=14964 https://finance.sina.com.cn/stock/observe/2022-06-23/doc-imizirav0176663.shtml
+    FETCH len=2981 https://www.sohu.com/a/553588839_100001551
+[4/14] 药师帮 2025年中期业绩 收入 经调整净利润 -> 7
+    FETCH len=2055 https://finance.eastmoney.com/a/202603233680971376.html
+    FETCH len=1330 https://m.163.com/dy/article/KONMNAIQ05568W0A.html
+[5/14] 药师帮 年报 2024 收入 200亿 GMV 月活跃买家 -> 7
+    FETCH len=77 https://www.douyin.com/video/7483022851063303484
+    FETCH len=6859 https://www.163.com/dy/article/JQUMQJML0511DQUK.html?spss=dy_author
+[6/14] 医药B2B电商平台 市场份额 药师帮 排名 -> 7
+    FETCH len=1442 https://m.sohu.com/a/736077325_121844027
+    FETCH len=1312 https://finance.eastmoney.com/a/202206012399658546.html
+[7/14] 药师帮 自营业务 毛利率 下沉市场 单体药店 -> 7
+    FETCH len=16000 https://xueqiu.com/1611747533/372187155
+    FETCH len=16000 https://xueqiu.com/8979876029/382633743
+[8/14] 合纵药易购 B2B 收入 业绩 2025 -> 7
+    FETCH len=6705 https://www.163.com/dy/article/KRMM8C0B052184FQ.html
+    FETCH len=16000 https://xueqiu.com/1257219130/346494086
+[9/14] 药师帮 现金 分红 股息 2024年报 -> 7
+    FETCH len=2153 https://finance.ifeng.com/c/8iMRUFv6NZl
+    FETCH len=9253 https://finance.sina.com.cn/stock/bxjj/2025-03-17/doc-inepyruf3274446.shtml
+[10/14] 医药流通 批发 毛利率 7.3% 商务部 统计 -> 7
+    FETCH len=0 https://ai.so.com/search?search=%E5%8C%BB%E8%8D%AF%E6%89%B9%E5%8F%91%E4%BC%81%E4%B8%9A%E6%
+[11/14] 药师帮 集采 千城千县 战略 下沉 -> 7
+    FETCH len=20 http://www.zhld.com/szb/pc/col/202505/16/content_273439.html
+    FETCH len=8057 https://www.163.com/dy/article/HLJ6E0GI0519A8ON.html
+[12/14] 单体药店 采购难 品种少 供应链 痛点 -> 7
+    FETCH len=0 https://wenku.so.com/s?q=%E5%8D%95%E4%BD%93%E8%8D%AF%E5%BA%97%20%E9%87%87%E8%B4%AD%E9%9A%B
+    FETCH len=1671 https://www.sohu.com/a/938623170_122504571
+[13/14] 药师帮 卖好药 加盟店 自营店 2025 -> 7
+    FETCH len=0 https://www.360kuai.com/pc/992193ecc20f9c509?cota=3&kuai_so=1&sign=360_57c3bbd1&refer_scen
+    fetch err HTTPSConnectionPool(host='news.qq.com', port=443): Max retries exceeded with url: /rain/a/20250528A01MBG00 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)')))
+    FETCH len=2128 https://finance.sina.cn/2026-03-25/detail-inhsecse6977285.d.html
+[14/14] 药师帮 SaaS 工具 收费 药店 会员 -> 7
+    FETCH len=2515 https://www.saasruanjian.com/q_119164-0.html
+    FETCH len=3150 https://www.saasruanjian.com/article/1857.html
+saved outA.json

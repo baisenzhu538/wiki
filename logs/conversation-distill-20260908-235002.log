@@ -1,0 +1,51 @@
+[23:50:02] #645 conversation_distill 启动 since=1788796202160 until=1788882602072 cursor=True
+[23:50:02] 抽取：kimi 316 条 / headless 11 段 / hermes 0 条
+[23:50:02] 分块 84 个（上限 8）
+[23:50:57]   落候选卡 distill-external-20260908-01.md
+[23:50:57]   落候选卡 distill-external-20260908-02.md
+[23:50:57]   落候选卡 distill-external-20260908-03.md
+[23:50:57] chunk wire.jsonl: 提取 4 条，过锚校验 3 条
+[23:51:30]   落候选卡 distill-external-20260908-04.md
+[23:51:30]   落候选卡 distill-external-20260908-05.md
+[23:51:30] chunk wire.jsonl: 提取 4 条，过锚校验 4 条
+[23:51:52] chunk wire.jsonl: 提取 3 条，过锚校验 2 条
+[23:52:15] chunk wire.jsonl: 提取 2 条，过锚校验 2 条
+[23:53:14]   落候选卡 distill-external-20260908-06.md
+[23:53:14]   落候选卡 distill-external-20260908-07.md
+[23:53:14]   落候选卡 distill-external-20260908-08.md
+[23:53:14]   落候选卡 distill-external-20260908-09.md
+[23:53:14]   落候选卡 distill-external-20260908-10.md
+[23:53:14]   落候选卡 distill-external-20260908-11.md
+[23:53:14]   落候选卡 distill-human-20260908-01.md
+[23:53:14]   落候选卡 distill-human-20260908-02.md
+[23:53:14]   落候选卡 distill-human-20260908-03.md
+[23:53:14] chunk wire.jsonl: 提取 9 条，过锚校验 9 条
+[23:54:12]   落候选卡 distill-external-20260908-12.md
+[23:54:12]   落候选卡 distill-external-20260908-13.md
+[23:54:12]   落候选卡 distill-human-20260908-04.md
+[23:54:12]   落候选卡 distill-external-20260908-14.md
+[23:54:12]   落候选卡 distill-external-20260908-15.md
+[23:54:12] chunk wire.jsonl: 提取 6 条，过锚校验 6 条
+[23:55:21]   落候选卡 distill-external-20260908-16.md
+[23:55:21]   落候选卡 distill-external-20260908-17.md
+[23:55:21]   落候选卡 distill-external-20260908-18.md
+[23:55:21]   落候选卡 distill-external-20260908-19.md
+[23:55:21]   落候选卡 distill-external-20260908-20.md
+[23:55:21]   落候选卡 distill-external-20260908-21.md
+[23:55:21]   落候选卡 distill-external-20260908-22.md
+[23:55:21]   落候选卡 distill-human-20260908-05.md
+[23:55:21]   落候选卡 distill-human-20260908-06.md
+[23:55:21] chunk wire.jsonl: 提取 9 条，过锚校验 9 条
+[23:56:25]   落候选卡 distill-external-20260908-23.md
+[23:56:25]   落候选卡 distill-external-20260908-24.md
+[23:56:25]   落候选卡 distill-external-20260908-25.md
+[23:56:25]   落候选卡 distill-external-20260908-26.md
+[23:56:25]   落候选卡 distill-external-20260908-27.md
+[23:56:25]   落候选卡 distill-external-20260908-28.md
+[23:56:25]   落候选卡 distill-human-20260908-07.md
+[23:56:25]   落候选卡 distill-human-20260908-08.md
+[23:56:25]   落候选卡 distill-human-20260908-09.md
+[23:56:25]   落候选卡 distill-human-20260908-10.md
+[23:56:25] chunk wire.jsonl: 提取 13 条，过锚校验 10 条
+[23:56:25] zhu 洞察 7 条追加 → C:\Users\Administrator\Desktop\wiki\30_wiki\personal-os\zhu-conversation-insights.md
+[23:56:25] 完成：{'external': 28, 'zhu': 7, 'human': 10, 'dropped_anchor': 5, 'calls': 8, 'failed_calls': 0}

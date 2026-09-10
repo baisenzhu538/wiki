@@ -104,3 +104,6 @@
 # 2026-08-26 20:38 èƒ¶å›Šäº‹ä»¶å†™å…¥å¤±è´¥ï¼ˆ#511ï¼‰agent=huangyaoshi event=error: attempt to write a readonly database
 [2026/08/31 ÖÜÒ»  2:37:12.68] kdo-l1-capture FAILED exit=1 
 [2026/09/07 ÖÜÒ»  2:47:02.02] kdo-conveyor-probe FAILED exit=1 
+[2026/09/08 ÖÜ¶þ 19:38:00.67] kdo-conveyor-probe FAILED exit=1 
+[2026/09/09 ÖÜÈý  9:37:01.65] kdo-conveyor-probe FAILED exit=1 
+[2026/09/10 ÖÜËÄ  3:07:22.45] kdo-l1-capture FAILED exit=1 

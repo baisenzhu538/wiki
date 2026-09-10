@@ -13,7 +13,7 @@ status: stable
 # Wiki Index
 
 
-_Last updated: 2026-09-08T12:57:44+00:00_
+_Last updated: 2026-09-08T13:52:22+00:00_
 
 - [[60_feedback/usage-logs/session-20260619-xingangwan-business-formula-reconstruction|对话记录：鑫港湾业务公式与商业模型计算拆分重构（2026-06-19）]] — source `src_unknown`
 - [[_archive/concept-一堂-business-prediction|商业预判：15字诀与光谱模型——从拍脑袋到科学决策]] — source `src_unknown`
@@ -329,11 +329,11 @@ _Last updated: 2026-09-08T12:57:44+00:00_
 - [[cases/case-yihang-dual-triangle-ai-organizational-behavior|双三角案例：Truman 一夜深挖 AI 组织行为学——四个模型交叉验证]] — source `00_inbox/人机协作双三角/_processed/AI组织行为学的口述_text.md`
 - [[cases/case-yihang-dual-triangle-AI三角-场景|AI三角-场景 — 双三角案例]] — source no source
 - [[cases/case-yihang-dual-triangle-AI三角-基本功|AI三角-基本功 — 双三角案例]] — source no source
-- [[cases/case-yihang-dual-triangle-AI三角-数据|AI三角-数据 — 双三角案例（AI数据卡已并入）]] — source `00_inbox/人机协作双三角/AI数据.png`
+- [[cases/case-yihang-dual-triangle-AI三角-数据|AI三角-数据 — 双三角案例]] — source `00_inbox/人机协作双三角/AI数据.png`
 - [[cases/case-yihang-dual-triangle-AI可以落地的场景假设|AI可以落地的场景假设 — 双三角案例]] — source no source
 - [[cases/case-yihang-dual-triangle-AI场景|AI场景 — 双三角案例]] — source no source
 - [[cases/case-yihang-dual-triangle-AI基本功|AI基本功 — 双三角案例]] — source no source
-- [[cases/case-yihang-dual-triangle-AI三角-数据|AI数据 — 双三角案例（已并入 AI三角-数据，#686 redirect）]] — source `00_inbox/人机协作双三角/AI数据.png`
+- [[cases/case-yihang-dual-triangle-AI数据|AI数据 — 双三角案例（已并入，redirect）]] — source `00_inbox/人机协作双三角/AI数据.png`
 - [[cases/case-yihang-dual-triangle-beike-ai-outbound|一行双三角案例：贝壳找房110个场景的AI外呼]] — source `00_inbox/人机协作双三角/[【组织】贝壳找房案例口述.pdf`
 - [[cases/case-yihang-dual-triangle-canvas-thesis-review|双三角画布案例：AI 论文初审——五维评分+三色灯阻断]] — source `00_inbox/人机协作双三角/_processed/一堂双三角-画布案例1_vlm.md`
 - [[cases/case-yihang-dual-triangle-canvas-trademark-design|双三角画布案例：商标设计——两天内产出 60 分可用版本]] — source `00_inbox/人机协作双三角/_processed/一堂双三角-画布案例2_vlm.md`

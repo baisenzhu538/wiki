@@ -1,0 +1,9 @@
+{
+ "urls": [
+  "https://xueqiu.com/5923081507/376674009",
+  "https://xueqiu.com/5923081507/338849406",
+  "https://baijiahao.baidu.com/s?id=1807796326272875517&wfr=spider&for=pc",
+  "https://baijiahao.baidu.com/s?id=1874726502673638575&wfr=spider&for=pc"
+ ],
+ "out": "C:/Users/Administrator/Desktop/wiki/scrape/out_mb2/fetch_r3.json"
+}

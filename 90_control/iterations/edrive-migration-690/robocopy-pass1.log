@@ -1,0 +1,358 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Windows 的可靠文件复制                              
+-------------------------------------------------------------------------------
+
+  开始时间: 2026年9月10日 0:51:41
+        源: D:\KDO-memory\
+      目标: E:\KDO-memory\
+
+      文件: *.*
+	    
+      选项: *.* /NDL /S /E /DCOPY:T /COPY:DAT /NP /XJ /R:2 /W:5 
+
+------------------------------------------------------------------------------
+
+	  *多余文件   		     218	E:\KDO-memory\.disk-id
+	    较旧的    		   1.9 g	D:\KDO-memory\wiki-bundle-20260907.bundle
+2026/09/10 00:51:41 错误 32 (0x00000020) 正在复制文件 D:\KDO-memory\wiki-bundle-20260907.bundle
+另一个程序正在使用此文件，进程无法访问。
+正在等待 5 秒... 正在重试...
+	    较旧的    		   1.9 g	D:\KDO-memory\wiki-bundle-20260907.bundle
+2026/09/10 00:51:47 错误 32 (0x00000020) 正在复制文件 D:\KDO-memory\wiki-bundle-20260907.bundle
+另一个程序正在使用此文件，进程无法访问。
+正在等待 5 秒... 正在重试...
+	    较旧的    		   1.9 g	D:\KDO-memory\wiki-bundle-20260907.bundle
+2026/09/10 00:51:53 错误 32 (0x00000020) 正在复制文件 D:\KDO-memory\wiki-bundle-20260907.bundle
+另一个程序正在使用此文件，进程无法访问。
+
+错误: 超过重试限制。
+
+	    新文件    		       5	D:\KDO-memory\wiki-bundle-daily.last-result.txt
+	    新文件    		    9283	D:\KDO-memory\wiki-bundle-daily.log
+	    新文件    		       5	D:\KDO-memory\wiki-bundle-offsite.last-result.txt
+	    新文件    		    2922	D:\KDO-memory\wiki-bundle-offsite.log
+	    新文件    		   2.3 g	D:\KDO-memory\wiki-bundle-pre-filter-backup.bundle
+	    新文件    		 391.8 m	D:\KDO-memory\广冷电子_整理前备份_20260605_从git历史导出.zip
+	    新文件    		    1139	D:\KDO-memory\codex-homes\README.md
+	    新文件    		     211	D:\KDO-memory\codex-homes\start-duanwangye.sh
+	    新文件    		     215	D:\KDO-memory\codex-homes\start-fengqingyang.sh
+	    新文件    		     211	D:\KDO-memory\codex-homes\start-hongqigong.sh
+	    新文件    		     213	D:\KDO-memory\codex-homes\start-huangyaoshi.sh
+	    新文件    		     211	D:\KDO-memory\codex-homes\start-laowantong.sh
+	    新文件    		     211	D:\KDO-memory\codex-homes\start-ouyangfeng.sh
+	    新文件    		     209	D:\KDO-memory\codex-homes\start-wangyuyan.sh
+	    新文件    		     310	D:\KDO-memory\codex-homes\switch-codex.sh
+	    新文件    		    1028	D:\KDO-memory\codex-homes\duanwangye\config.toml
+	    新文件    		       0	D:\KDO-memory\codex-homes\duanwangye\memory\context.md
+	    新文件    		    1028	D:\KDO-memory\codex-homes\fengqingyang\config.toml
+	    新文件    		       0	D:\KDO-memory\codex-homes\fengqingyang\memory\context.md
+	    新文件    		       0	D:\KDO-memory\codex-homes\fengqingyang\tmp\arg0\codex-arg0zFsB1v\.lock
+	    新文件    		     193	D:\KDO-memory\codex-homes\fengqingyang\tmp\arg0\codex-arg0zFsB1v\applypatch.bat
+	    新文件    		     193	D:\KDO-memory\codex-homes\fengqingyang\tmp\arg0\codex-arg0zFsB1v\apply_patch.bat
+	    新文件    		    1028	D:\KDO-memory\codex-homes\hongqigong\config.toml
+	    新文件    		       0	D:\KDO-memory\codex-homes\hongqigong\memory\context.md
+	    新文件    		    1028	D:\KDO-memory\codex-homes\huangyaoshi\config.toml
+	    新文件    		       0	D:\KDO-memory\codex-homes\huangyaoshi\memory\context.md
+	    新文件    		    1028	D:\KDO-memory\codex-homes\laowantong\config.toml
+	    新文件    		       0	D:\KDO-memory\codex-homes\laowantong\memory\context.md
+	    新文件    		    1028	D:\KDO-memory\codex-homes\ouyangfeng\config.toml
+	    新文件    		       0	D:\KDO-memory\codex-homes\ouyangfeng\memory\context.md
+	    新文件    		    1028	D:\KDO-memory\codex-homes\wangyuyan\config.toml
+	    新文件    		       0	D:\KDO-memory\codex-homes\wangyuyan\memory\context.md
+	    新文件    		  454656	D:\KDO-memory\L1-backup\activity_log.db
+	    新文件    		   12288	D:\KDO-memory\L1-backup\L0\activity_log.db
+	    新文件    		   1.7 m	D:\KDO-memory\L1-full\.capture-state.json
+	    新文件    		  72.9 m	D:\KDO-memory\L1-full\trace-index-2026-09-09.md
+	    新文件    		   3.0 m	D:\KDO-memory\L1-full\trace-index-2026-09-10.md
+	    新文件    		  862358	D:\KDO-memory\L1-full\2026-09-09\claude\1b80ded6-7f90-4969-aceb-23cfc7d6231b.jsonl
+	    新文件    		   2.0 m	D:\KDO-memory\L1-full\2026-09-09\claude\a535730d-1cce-4b9f-96b0-8df5b01c33a9.jsonl
+	    新文件    		   74320	D:\KDO-memory\L1-full\2026-09-09\codex\relay-run.log
+	    新文件    		     276	D:\KDO-memory\L1-full\2026-09-09\hermes\basic-skills-coach\channel_directory.json
+	    新文件    		   1.3 m	D:\KDO-memory\L1-full\2026-09-09\hermes\basic-skills-coach\logs\mcp-stderr.log
+	    新文件    		     276	D:\KDO-memory\L1-full\2026-09-09\hermes\beikai\channel_directory.json
+	    新文件    		  677569	D:\KDO-memory\L1-full\2026-09-09\hermes\beikai\logs\mcp-stderr.log
+	    新文件    		     276	D:\KDO-memory\L1-full\2026-09-09\hermes\coaching-leadership-assistant\channel_directory.json
+	    新文件    		   1.3 m	D:\KDO-memory\L1-full\2026-09-09\hermes\coaching-leadership-assistant\logs\mcp-stderr.log
+	    新文件    		   58409	D:\KDO-memory\L1-full\2026-09-09\hermes\duanwangye\.skills_prompt_snapshot.json
+	    新文件    		     276	D:\KDO-memory\L1-full\2026-09-09\hermes\duanwangye\channel_directory.json
+	    新文件    		     489	D:\KDO-memory\L1-full\2026-09-09\hermes\duanwangye\feishu_seen_message_ids.json
+	    新文件    		     531	D:\KDO-memory\L1-full\2026-09-09\hermes\duanwangye\gateway_state.json
+	    新文件    		   4.3 m	D:\KDO-memory\L1-full\2026-09-09\hermes\duanwangye\models_dev_cache.json
+	    新文件    		    2527	D:\KDO-memory\L1-full\2026-09-09\hermes\duanwangye\processes.json
+	    新文件    		   4.0 m	D:\KDO-memory\L1-full\2026-09-09\hermes\duanwangye\logs\agent.log
+	    新文件    		  726558	D:\KDO-memory\L1-full\2026-09-09\hermes\duanwangye\logs\errors.log
+	    新文件    		  152003	D:\KDO-memory\L1-full\2026-09-09\hermes\duanwangye\logs\gateway.log
+	    新文件    		  845330	D:\KDO-memory\L1-full\2026-09-09\hermes\duanwangye\logs\mcp-stderr.log
+	    新文件    		  621117	D:\KDO-memory\L1-full\2026-09-09\hermes\duanwangye\logs\nssm-stderr.log
+	    新文件    		   7.5 m	D:\KDO-memory\L1-full\2026-09-09\hermes\duanwangye\logs\nssm-stdout.log
+	    新文件    		    3433	D:\KDO-memory\L1-full\2026-09-09\hermes\duanwangye\memories\MEMORY.md
+	    新文件    		    1820	D:\KDO-memory\L1-full\2026-09-09\hermes\duanwangye\sessions\sessions.json
+	    新文件    		   41296	D:\KDO-memory\L1-full\2026-09-09\hermes\duanwangye\skills\.usage.json
+	    新文件    		    3974	D:\KDO-memory\L1-full\2026-09-09\hermes\duanwangye\skills\devops\wechat-key-extraction\SKILL.md
+	    新文件    		    5102	D:\KDO-memory\L1-full\2026-09-09\hermes\duanwangye\skills\devops\wechat-key-extraction\references\key-extraction-troubleshooting.md
+	    新文件    		   11957	D:\KDO-memory\L1-full\2026-09-09\hermes\duanwangye\skills\devops\wechat-mcp\SKILL.md
+	    新文件    		   35686	D:\KDO-memory\L1-full\2026-09-09\hermes\duanwangye\skills\productivity\feishu-doc-l3-extraction\SKILL.md
+	    新文件    		     276	D:\KDO-memory\L1-full\2026-09-09\hermes\huangyaoshi\channel_directory.json
+	    新文件    		  463269	D:\KDO-memory\L1-full\2026-09-09\hermes\huangyaoshi\logs\mcp-stderr.log
+	    新文件    		  497878	D:\KDO-memory\L1-full\2026-09-09\hermes\laowantong\logs\mcp-stderr.log
+	    新文件    		     276	D:\KDO-memory\L1-full\2026-09-09\hermes\laowantong-feishu\channel_directory.json
+	    新文件    		   2.7 m	D:\KDO-memory\L1-full\2026-09-09\hermes\laowantong-feishu\logs\agent.log
+	    新文件    		   56252	D:\KDO-memory\L1-full\2026-09-09\hermes\laowantong-feishu\logs\gateway.log
+	    新文件    		  679422	D:\KDO-memory\L1-full\2026-09-09\hermes\laowantong-feishu\logs\mcp-stderr.log
+	    新文件    		     828	D:\KDO-memory\L1-full\2026-09-09\hermes\laowantong-feishu\logs\curator\20260908-154248\REPORT.md
+	    新文件    		     896	D:\KDO-memory\L1-full\2026-09-09\hermes\laowantong-feishu\logs\curator\20260908-154248\run.json
+	    新文件    		   41136	D:\KDO-memory\L1-full\2026-09-09\hermes\laowantong-feishu\skills\.usage.json
+	    新文件    		    4861	D:\KDO-memory\L1-full\2026-09-09\hermes\laowantong-feishu\skills\.curator_backups\2026-09-08T15-42-48Z\cron-jobs.json
+	    新文件    		     273	D:\KDO-memory\L1-full\2026-09-09\hermes\laowantong-feishu\skills\.curator_backups\2026-09-08T15-42-48Z\manifest.json
+	    新文件    		     276	D:\KDO-memory\L1-full\2026-09-09\hermes\meeting-assistant\channel_directory.json
+	    新文件    		   1.3 m	D:\KDO-memory\L1-full\2026-09-09\hermes\meeting-assistant\logs\mcp-stderr.log
+	    新文件    		     276	D:\KDO-memory\L1-full\2026-09-09\hermes\ouyangfeng\channel_directory.json
+	    新文件    		   1.1 m	D:\KDO-memory\L1-full\2026-09-09\hermes\ouyangfeng\logs\agent.log
+	    新文件    		   50678	D:\KDO-memory\L1-full\2026-09-09\hermes\ouyangfeng\logs\gateway.log
+	    新文件    		  676005	D:\KDO-memory\L1-full\2026-09-09\hermes\ouyangfeng\logs\mcp-stderr.log
+	    新文件    		     828	D:\KDO-memory\L1-full\2026-09-09\hermes\ouyangfeng\logs\curator\20260908-154248\REPORT.md
+	    新文件    		     896	D:\KDO-memory\L1-full\2026-09-09\hermes\ouyangfeng\logs\curator\20260908-154248\run.json
+	    新文件    		   34599	D:\KDO-memory\L1-full\2026-09-09\hermes\ouyangfeng\skills\.usage.json
+	    新文件    		    5462	D:\KDO-memory\L1-full\2026-09-09\hermes\ouyangfeng\skills\.curator_backups\2026-09-08T15-42-48Z\cron-jobs.json
+	    新文件    		     272	D:\KDO-memory\L1-full\2026-09-09\hermes\ouyangfeng\skills\.curator_backups\2026-09-08T15-42-48Z\manifest.json
+	    新文件    		      92	D:\KDO-memory\L1-full\2026-09-09\hermes\research-auto-partner\channel_directory.json
+	    新文件    		   59091	D:\KDO-memory\L1-full\2026-09-09\hermes\research-auto-partner\logs\mcp-stderr.log
+	    新文件    		     276	D:\KDO-memory\L1-full\2026-09-09\hermes\research-digging-partner\channel_directory.json
+	    新文件    		     488	D:\KDO-memory\L1-full\2026-09-09\hermes\research-digging-partner\feishu_seen_message_ids.json
+	    新文件    		     556	D:\KDO-memory\L1-full\2026-09-09\hermes\research-digging-partner\gateway_state.json
+	    新文件    		   4.3 m	D:\KDO-memory\L1-full\2026-09-09\hermes\research-digging-partner\models_dev_cache.json
+	    新文件    		       2	D:\KDO-memory\L1-full\2026-09-09\hermes\research-digging-partner\processes.json
+	    新文件    		  306521	D:\KDO-memory\L1-full\2026-09-09\hermes\research-digging-partner\logs\agent.log
+	    新文件    		   41994	D:\KDO-memory\L1-full\2026-09-09\hermes\research-digging-partner\logs\errors.log
+	    新文件    		   46029	D:\KDO-memory\L1-full\2026-09-09\hermes\research-digging-partner\logs\gateway-start.log
+	    新文件    		   20935	D:\KDO-memory\L1-full\2026-09-09\hermes\research-digging-partner\logs\gateway.log
+	    新文件    		   61889	D:\KDO-memory\L1-full\2026-09-09\hermes\research-digging-partner\logs\mcp-stderr.log
+	    新文件    		    1308	D:\KDO-memory\L1-full\2026-09-09\hermes\research-digging-partner\memories\MEMORY.md
+	    新文件    		    1643	D:\KDO-memory\L1-full\2026-09-09\hermes\research-digging-partner\memories\USER.md
+	    新文件    		    1820	D:\KDO-memory\L1-full\2026-09-09\hermes\research-digging-partner\sessions\sessions.json
+	    新文件    		    4825	D:\KDO-memory\L1-full\2026-09-09\hermes\research-digging-partner\skills\.usage.json
+	    新文件    		   10343	D:\KDO-memory\L1-full\2026-09-09\hermes\research-digging-partner\skills\cn-web-research\SKILL.md
+	    新文件    		    6668	D:\KDO-memory\L1-full\2026-09-09\hermes\research-digging-partner\skills\cn-web-research\references\cn-web-research-pitfalls.md
+	    新文件    		    3855	D:\KDO-memory\L1-full\2026-09-09\hermes\research-digging-partner\skills\cn-web-research\references\hkex-disclosure-channel.md
+	    新文件    		    4383	D:\KDO-memory\L1-full\2026-09-09\hermes\research-digging-partner\skills\devops\fleet-file-delivery\SKILL.md
+	    新文件    		    2572	D:\KDO-memory\L1-full\2026-09-09\hermes\research-digging-partner\skills\devops\fleet-file-delivery\references\worked-commands.md
+	    新文件    		    6915	D:\KDO-memory\L1-full\2026-09-09\hermes\research-digging-partner\skills\parallel-research-delegation\SKILL.md
+	    新文件    		    3382	D:\KDO-memory\L1-full\2026-09-09\hermes\research-digging-partner\skills\parallel-research-delegation\references\delegation-task-template.md
+	    新文件    		    4367	D:\KDO-memory\L1-full\2026-09-09\hermes\research-digging-partner\skills\research\delegated-deep-research\SKILL.md
+	    新文件    		    3807	D:\KDO-memory\L1-full\2026-09-09\hermes\research-digging-partner\skills\research\delegated-deep-research\references\scrape-pipeline.md
+	    新文件    		    3577	D:\KDO-memory\L1-full\2026-09-09\hermes\research-digging-partner\skills\research\delegated-deep-research\templates\subagent-brief-template.md
+	    新文件    		    7996	D:\KDO-memory\L1-full\2026-09-09\hermes\research-digging-partner\skills\research\multi-agent-research-ops\SKILL.md
+	    新文件    		    3438	D:\KDO-memory\L1-full\2026-09-09\hermes\research-digging-partner\skills\research\multi-agent-research-ops\references\scrape-fallback-patterns.md
+	    新文件    		    4426	D:\KDO-memory\L1-full\2026-09-09\hermes\research-digging-partner\skills\research\multi-agent-research-ops\templates\research-lane-tasks.json
+	    新文件    		    4932	D:\KDO-memory\L1-full\2026-09-09\hermes\research-digging-partner\skills\research\search-fallback-pipelines\SKILL.md
+	    新文件    		    3144	D:\KDO-memory\L1-full\2026-09-09\hermes\research-digging-partner\skills\research\search-fallback-pipelines\references\multi-agent-delegation-playbook.md
+	    新文件    		     306	D:\KDO-memory\L1-full\2026-09-09\hermes\research-digging-partner\skills\research\search-fallback-pipelines\templates\tasks.json
+	    新文件    		    3643	D:\KDO-memory\L1-full\2026-09-09\hermes\research-digging-partner\skills\search-fallback-research\SKILL.md
+	    新文件    		    2506	D:\KDO-memory\L1-full\2026-09-09\hermes\research-digging-partner\skills\search-fallback-research\references\subagent-research-brief.md
+	    新文件    		    2306	D:\KDO-memory\L1-full\2026-09-09\hermes\research-digging-partner\skills\tailscale-file-transfer\SKILL.md
+	    新文件    		    6150	D:\KDO-memory\L1-full\2026-09-09\hermes\research-digging-partner\skills\web-search-fallback\SKILL.md
+	    新文件    		    3350	D:\KDO-memory\L1-full\2026-09-09\hermes\research-digging-partner\skills\web-search-fallback\references\cn-engine-throttle-notes.md
+	    新文件    		     276	D:\KDO-memory\L1-full\2026-09-09\hermes\research-explosion-partner\channel_directory.json
+	    新文件    		 1039823	D:\KDO-memory\L1-full\2026-09-09\hermes\research-explosion-partner\logs\agent.log
+	    新文件    		   63305	D:\KDO-memory\L1-full\2026-09-09\hermes\research-explosion-partner\logs\gateway.log
+	    新文件    		   1.3 m	D:\KDO-memory\L1-full\2026-09-09\hermes\research-explosion-partner\logs\mcp-stderr.log
+	    新文件    		    1800	D:\KDO-memory\L1-full\2026-09-09\hermes\research-explosion-partner\sessions\sessions.json
+	    新文件    		     276	D:\KDO-memory\L1-full\2026-09-09\hermes\research-oscar-partner\channel_directory.json
+	    新文件    		   11544	D:\KDO-memory\L1-full\2026-09-09\hermes\research-oscar-partner\logs\agent.log
+	    新文件    		    2649	D:\KDO-memory\L1-full\2026-09-09\hermes\research-oscar-partner\logs\gateway.log
+	    新文件    		   59208	D:\KDO-memory\L1-full\2026-09-09\hermes\research-oscar-partner\logs\mcp-stderr.log
+	    新文件    		    1800	D:\KDO-memory\L1-full\2026-09-09\hermes\research-oscar-partner\sessions\sessions.json
+	    新文件    		     276	D:\KDO-memory\L1-full\2026-09-09\hermes\skills-assistant\channel_directory.json
+	    新文件    		  140149	D:\KDO-memory\L1-full\2026-09-09\hermes\skills-assistant\logs\agent.log
+	    新文件    		   18333	D:\KDO-memory\L1-full\2026-09-09\hermes\skills-assistant\logs\gateway.log
+	    新文件    		  233223	D:\KDO-memory\L1-full\2026-09-09\hermes\skills-assistant\logs\mcp-stderr.log
+	    新文件    		     830	D:\KDO-memory\L1-full\2026-09-09\hermes\skills-assistant\logs\curator\20260908-164446\REPORT.md
+	    新文件    		     899	D:\KDO-memory\L1-full\2026-09-09\hermes\skills-assistant\logs\curator\20260908-164446\run.json
+	    新文件    		   33238	D:\KDO-memory\L1-full\2026-09-09\hermes\skills-assistant\skills\.usage.json
+	    新文件    		     318	D:\KDO-memory\L1-full\2026-09-09\hermes\skills-assistant\skills\.curator_backups\2026-09-08T16-44-46Z\manifest.json
+	    新文件    		     276	D:\KDO-memory\L1-full\2026-09-09\hermes\wangyuyan\channel_directory.json
+	    新文件    		  799632	D:\KDO-memory\L1-full\2026-09-09\hermes\wangyuyan\logs\mcp-stderr.log
+	    新文件    		   55705	D:\KDO-memory\L1-full\2026-09-09\kimi\session_index.jsonl
+	    新文件    		     396	D:\KDO-memory\L1-full\2026-09-09\kimi\workspaces.json
+	    新文件    		  214997	D:\KDO-memory\L1-full\2026-09-09\kimi\logs\kimi-code.log
+	    新文件    		     163	D:\KDO-memory\L1-full\2026-09-09\kimi\server\instances\01M1XTTQ5Y6JFAZ72GTY71HS9W.json
+	    新文件    		    2860	D:\KDO-memory\L1-full\2026-09-09\kimi\sessions\wd_administrator_52e285c74c1f\session_060e5860-9799-4053-bfca-1a0301a6a472\state.json
+	    新文件    		   3.1 m	D:\KDO-memory\L1-full\2026-09-09\kimi\sessions\wd_administrator_52e285c74c1f\session_060e5860-9799-4053-bfca-1a0301a6a472\agents\main\wire.jsonl
+	    新文件    		  149929	D:\KDO-memory\L1-full\2026-09-09\kimi\sessions\wd_administrator_52e285c74c1f\session_060e5860-9799-4053-bfca-1a0301a6a472\logs\kimi-code.log
+	    新文件    		     412	D:\KDO-memory\L1-full\2026-09-09\kimi\sessions\wd_wiki_db842f22df7c\session_072463b4-19ef-40ab-aed3-5ead3ff50616\state.json
+	    新文件    		  302668	D:\KDO-memory\L1-full\2026-09-09\kimi\sessions\wd_wiki_db842f22df7c\session_072463b4-19ef-40ab-aed3-5ead3ff50616\agents\main\wire.jsonl
+	    新文件    		    3883	D:\KDO-memory\L1-full\2026-09-09\kimi\sessions\wd_wiki_db842f22df7c\session_072463b4-19ef-40ab-aed3-5ead3ff50616\logs\kimi-code.log
+	    新文件    		     412	D:\KDO-memory\L1-full\2026-09-09\kimi\sessions\wd_wiki_db842f22df7c\session_2c219409-05a7-41f3-9d9e-a26a14d380dc\state.json
+	    新文件    		   97522	D:\KDO-memory\L1-full\2026-09-09\kimi\sessions\wd_wiki_db842f22df7c\session_2c219409-05a7-41f3-9d9e-a26a14d380dc\agents\main\wire.jsonl
+	    新文件    		     406	D:\KDO-memory\L1-full\2026-09-09\kimi\sessions\wd_wiki_db842f22df7c\session_2c219409-05a7-41f3-9d9e-a26a14d380dc\logs\kimi-code.log
+	    新文件    		     412	D:\KDO-memory\L1-full\2026-09-09\kimi\sessions\wd_wiki_db842f22df7c\session_3c830aa8-bd24-4898-bd28-1c82f1aa5956\state.json
+	    新文件    		   97378	D:\KDO-memory\L1-full\2026-09-09\kimi\sessions\wd_wiki_db842f22df7c\session_3c830aa8-bd24-4898-bd28-1c82f1aa5956\agents\main\wire.jsonl
+	    新文件    		     404	D:\KDO-memory\L1-full\2026-09-09\kimi\sessions\wd_wiki_db842f22df7c\session_3c830aa8-bd24-4898-bd28-1c82f1aa5956\logs\kimi-code.log
+	    新文件    		     412	D:\KDO-memory\L1-full\2026-09-09\kimi\sessions\wd_wiki_db842f22df7c\session_4297c3a2-38b6-4047-b481-1f35c5ac2a4e\state.json
+	    新文件    		   97406	D:\KDO-memory\L1-full\2026-09-09\kimi\sessions\wd_wiki_db842f22df7c\session_4297c3a2-38b6-4047-b481-1f35c5ac2a4e\agents\main\wire.jsonl
+	    新文件    		     404	D:\KDO-memory\L1-full\2026-09-09\kimi\sessions\wd_wiki_db842f22df7c\session_4297c3a2-38b6-4047-b481-1f35c5ac2a4e\logs\kimi-code.log
+	    新文件    		     412	D:\KDO-memory\L1-full\2026-09-09\kimi\sessions\wd_wiki_db842f22df7c\session_5ea8548b-a130-4fbb-b300-8279ecb15c83\state.json
+	    新文件    		  534521	D:\KDO-memory\L1-full\2026-09-09\kimi\sessions\wd_wiki_db842f22df7c\session_5ea8548b-a130-4fbb-b300-8279ecb15c83\agents\main\wire.jsonl
+	    新文件    		   11596	D:\KDO-memory\L1-full\2026-09-09\kimi\sessions\wd_wiki_db842f22df7c\session_5ea8548b-a130-4fbb-b300-8279ecb15c83\logs\kimi-code.log
+	    新文件    		     412	D:\KDO-memory\L1-full\2026-09-09\kimi\sessions\wd_wiki_db842f22df7c\session_66279db9-c115-4a9e-8c3f-5f3bba828b0d\state.json
+	    新文件    		   97400	D:\KDO-memory\L1-full\2026-09-09\kimi\sessions\wd_wiki_db842f22df7c\session_66279db9-c115-4a9e-8c3f-5f3bba828b0d\agents\main\wire.jsonl
+	    新文件    		     404	D:\KDO-memory\L1-full\2026-09-09\kimi\sessions\wd_wiki_db842f22df7c\session_66279db9-c115-4a9e-8c3f-5f3bba828b0d\logs\kimi-code.log
+	    新文件    		     412	D:\KDO-memory\L1-full\2026-09-09\kimi\sessions\wd_wiki_db842f22df7c\session_8b37dcc6-e815-4cf3-a0d5-3e36602c7489\state.json
+	    新文件    		   97660	D:\KDO-memory\L1-full\2026-09-09\kimi\sessions\wd_wiki_db842f22df7c\session_8b37dcc6-e815-4cf3-a0d5-3e36602c7489\agents\main\wire.jsonl
+	    新文件    		     406	D:\KDO-memory\L1-full\2026-09-09\kimi\sessions\wd_wiki_db842f22df7c\session_8b37dcc6-e815-4cf3-a0d5-3e36602c7489\logs\kimi-code.log
+	    新文件    		     412	D:\KDO-memory\L1-full\2026-09-09\kimi\sessions\wd_wiki_db842f22df7c\session_996b1022-93d5-4c47-ae2c-78bb7a8f9a96\state.json
+	    新文件    		  542971	D:\KDO-memory\L1-full\2026-09-09\kimi\sessions\wd_wiki_db842f22df7c\session_996b1022-93d5-4c47-ae2c-78bb7a8f9a96\agents\main\wire.jsonl
+	    新文件    		   10066	D:\KDO-memory\L1-full\2026-09-09\kimi\sessions\wd_wiki_db842f22df7c\session_996b1022-93d5-4c47-ae2c-78bb7a8f9a96\logs\kimi-code.log
+	    新文件    		     412	D:\KDO-memory\L1-full\2026-09-09\kimi\sessions\wd_wiki_db842f22df7c\session_9d6f01e6-61f4-41b9-a515-79551d1ac6e3\state.json
+	    新文件    		   97433	D:\KDO-memory\L1-full\2026-09-09\kimi\sessions\wd_wiki_db842f22df7c\session_9d6f01e6-61f4-41b9-a515-79551d1ac6e3\agents\main\wire.jsonl
+	    新文件    		     404	D:\KDO-memory\L1-full\2026-09-09\kimi\sessions\wd_wiki_db842f22df7c\session_9d6f01e6-61f4-41b9-a515-79551d1ac6e3\logs\kimi-code.log
+	    新文件    		     412	D:\KDO-memory\L1-full\2026-09-09\kimi\sessions\wd_wiki_db842f22df7c\session_b2aba96e-7077-45e5-ad0e-0b8582bf60d4\state.json
+	    新文件    		  908296	D:\KDO-memory\L1-full\2026-09-09\kimi\sessions\wd_wiki_db842f22df7c\session_b2aba96e-7077-45e5-ad0e-0b8582bf60d4\agents\main\wire.jsonl
+	    新文件    		   14031	D:\KDO-memory\L1-full\2026-09-09\kimi\sessions\wd_wiki_db842f22df7c\session_b2aba96e-7077-45e5-ad0e-0b8582bf60d4\logs\kimi-code.log
+	    新文件    		     412	D:\KDO-memory\L1-full\2026-09-09\kimi\sessions\wd_wiki_db842f22df7c\session_c1f69e97-4f6f-46f6-9769-f9d42158433e\state.json
+	    新文件    		  322751	D:\KDO-memory\L1-full\2026-09-09\kimi\sessions\wd_wiki_db842f22df7c\session_c1f69e97-4f6f-46f6-9769-f9d42158433e\agents\main\wire.jsonl
+	    新文件    		    3875	D:\KDO-memory\L1-full\2026-09-09\kimi\sessions\wd_wiki_db842f22df7c\session_c1f69e97-4f6f-46f6-9769-f9d42158433e\logs\kimi-code.log
+	    新文件    		     412	D:\KDO-memory\L1-full\2026-09-09\kimi\sessions\wd_wiki_db842f22df7c\session_f93c3722-7432-4399-8a12-82bf050db348\state.json
+	    新文件    		   97572	D:\KDO-memory\L1-full\2026-09-09\kimi\sessions\wd_wiki_db842f22df7c\session_f93c3722-7432-4399-8a12-82bf050db348\agents\main\wire.jsonl
+	    新文件    		     406	D:\KDO-memory\L1-full\2026-09-09\kimi\sessions\wd_wiki_db842f22df7c\session_f93c3722-7432-4399-8a12-82bf050db348\logs\kimi-code.log
+	    新文件    		     412	D:\KDO-memory\L1-full\2026-09-09\kimi\sessions\wd_wiki_db842f22df7c\session_ff19d4e9-a541-4ceb-99b4-1146abb24878\state.json
+	    新文件    		   97441	D:\KDO-memory\L1-full\2026-09-09\kimi\sessions\wd_wiki_db842f22df7c\session_ff19d4e9-a541-4ceb-99b4-1146abb24878\agents\main\wire.jsonl
+	    新文件    		     404	D:\KDO-memory\L1-full\2026-09-09\kimi\sessions\wd_wiki_db842f22df7c\session_ff19d4e9-a541-4ceb-99b4-1146abb24878\logs\kimi-code.log
+	    新文件    		     404	D:\KDO-memory\L1-full\2026-09-09\kimi\updates\latest.json
+	    新文件    		   71917	D:\KDO-memory\L1-full\2026-09-09\kimi\updates\rollout.log
+	    新文件    		   1.6 m	D:\KDO-memory\L1-full\2026-09-09\kimi\user-history\f966445f5d60806d258a34c6a0cc6b3d.jsonl
+	    新文件    		  862358	D:\KDO-memory\L1-full\2026-09-10\claude\1b80ded6-7f90-4969-aceb-23cfc7d6231b.jsonl
+	    新文件    		   2.0 m	D:\KDO-memory\L1-full\2026-09-10\claude\a535730d-1cce-4b9f-96b0-8df5b01c33a9.jsonl
+	    新文件    		     276	D:\KDO-memory\L1-full\2026-09-10\hermes\basic-skills-coach\channel_directory.json
+	    新文件    		   1.3 m	D:\KDO-memory\L1-full\2026-09-10\hermes\basic-skills-coach\logs\mcp-stderr.log
+	    新文件    		     276	D:\KDO-memory\L1-full\2026-09-10\hermes\beikai\channel_directory.json
+	    新文件    		  678669	D:\KDO-memory\L1-full\2026-09-10\hermes\beikai\logs\mcp-stderr.log
+	    新文件    		     276	D:\KDO-memory\L1-full\2026-09-10\hermes\coaching-leadership-assistant\channel_directory.json
+	    新文件    		   1.3 m	D:\KDO-memory\L1-full\2026-09-10\hermes\coaching-leadership-assistant\logs\mcp-stderr.log
+	    新文件    		     276	D:\KDO-memory\L1-full\2026-09-10\hermes\duanwangye\channel_directory.json
+	    新文件    		     531	D:\KDO-memory\L1-full\2026-09-10\hermes\duanwangye\gateway_state.json
+	    新文件    		    2758	D:\KDO-memory\L1-full\2026-09-10\hermes\duanwangye\processes.json
+	    新文件    		   4.0 m	D:\KDO-memory\L1-full\2026-09-10\hermes\duanwangye\logs\agent.log
+	    新文件    		  152720	D:\KDO-memory\L1-full\2026-09-10\hermes\duanwangye\logs\gateway.log
+	    新文件    		  849670	D:\KDO-memory\L1-full\2026-09-10\hermes\duanwangye\logs\mcp-stderr.log
+	    新文件    		     276	D:\KDO-memory\L1-full\2026-09-10\hermes\huangyaoshi\channel_directory.json
+	    新文件    		  464369	D:\KDO-memory\L1-full\2026-09-10\hermes\huangyaoshi\logs\mcp-stderr.log
+	    新文件    		  498978	D:\KDO-memory\L1-full\2026-09-10\hermes\laowantong\logs\mcp-stderr.log
+	    新文件    		     276	D:\KDO-memory\L1-full\2026-09-10\hermes\laowantong-feishu\channel_directory.json
+	    新文件    		  680522	D:\KDO-memory\L1-full\2026-09-10\hermes\laowantong-feishu\logs\mcp-stderr.log
+	    新文件    		     276	D:\KDO-memory\L1-full\2026-09-10\hermes\meeting-assistant\channel_directory.json
+	    新文件    		   1.3 m	D:\KDO-memory\L1-full\2026-09-10\hermes\meeting-assistant\logs\mcp-stderr.log
+	    新文件    		     276	D:\KDO-memory\L1-full\2026-09-10\hermes\ouyangfeng\channel_directory.json
+	    新文件    		  677105	D:\KDO-memory\L1-full\2026-09-10\hermes\ouyangfeng\logs\mcp-stderr.log
+	    新文件    		      92	D:\KDO-memory\L1-full\2026-09-10\hermes\research-auto-partner\channel_directory.json
+	    新文件    		   61431	D:\KDO-memory\L1-full\2026-09-10\hermes\research-auto-partner\logs\mcp-stderr.log
+	    新文件    		     276	D:\KDO-memory\L1-full\2026-09-10\hermes\research-digging-partner\channel_directory.json
+	    新文件    		   64229	D:\KDO-memory\L1-full\2026-09-10\hermes\research-digging-partner\logs\mcp-stderr.log
+	    新文件    		     276	D:\KDO-memory\L1-full\2026-09-10\hermes\research-explosion-partner\channel_directory.json
+	    新文件    		   1.3 m	D:\KDO-memory\L1-full\2026-09-10\hermes\research-explosion-partner\logs\mcp-stderr.log
+	    新文件    		     276	D:\KDO-memory\L1-full\2026-09-10\hermes\research-oscar-partner\channel_directory.json
+	    新文件    		   61548	D:\KDO-memory\L1-full\2026-09-10\hermes\research-oscar-partner\logs\mcp-stderr.log
+	    新文件    		     276	D:\KDO-memory\L1-full\2026-09-10\hermes\skills-assistant\channel_directory.json
+	    新文件    		  234323	D:\KDO-memory\L1-full\2026-09-10\hermes\skills-assistant\logs\mcp-stderr.log
+	    新文件    		     276	D:\KDO-memory\L1-full\2026-09-10\hermes\wangyuyan\channel_directory.json
+	    新文件    		  800732	D:\KDO-memory\L1-full\2026-09-10\hermes\wangyuyan\logs\mcp-stderr.log
+	    新文件    		   56416	D:\KDO-memory\L1-full\2026-09-10\kimi\session_index.jsonl
+	    新文件    		     396	D:\KDO-memory\L1-full\2026-09-10\kimi\workspaces.json
+	    新文件    		  215384	D:\KDO-memory\L1-full\2026-09-10\kimi\logs\kimi-code.log
+	    新文件    		     163	D:\KDO-memory\L1-full\2026-09-10\kimi\server\instances\01M1XTTQ5Y6JFAZ72GTY71HS9W.json
+	    新文件    		    2937	D:\KDO-memory\L1-full\2026-09-10\kimi\sessions\wd_administrator_52e285c74c1f\session_060e5860-9799-4053-bfca-1a0301a6a472\state.json
+	    新文件    		   3.1 m	D:\KDO-memory\L1-full\2026-09-10\kimi\sessions\wd_administrator_52e285c74c1f\session_060e5860-9799-4053-bfca-1a0301a6a472\agents\main\wire.jsonl
+	    新文件    		  154198	D:\KDO-memory\L1-full\2026-09-10\kimi\sessions\wd_administrator_52e285c74c1f\session_060e5860-9799-4053-bfca-1a0301a6a472\logs\kimi-code.log
+	    新文件    		     412	D:\KDO-memory\L1-full\2026-09-10\kimi\sessions\wd_wiki_db842f22df7c\session_0572d43e-80d3-4971-8723-fe69d809b654\state.json
+	    新文件    		   97644	D:\KDO-memory\L1-full\2026-09-10\kimi\sessions\wd_wiki_db842f22df7c\session_0572d43e-80d3-4971-8723-fe69d809b654\agents\main\wire.jsonl
+	    新文件    		     408	D:\KDO-memory\L1-full\2026-09-10\kimi\sessions\wd_wiki_db842f22df7c\session_0572d43e-80d3-4971-8723-fe69d809b654\logs\kimi-code.log
+	    新文件    		     412	D:\KDO-memory\L1-full\2026-09-10\kimi\sessions\wd_wiki_db842f22df7c\session_157c4118-f21a-4b16-8ff5-23c5bf02751e\state.json
+	    新文件    		   97288	D:\KDO-memory\L1-full\2026-09-10\kimi\sessions\wd_wiki_db842f22df7c\session_157c4118-f21a-4b16-8ff5-23c5bf02751e\agents\main\wire.jsonl
+	    新文件    		     404	D:\KDO-memory\L1-full\2026-09-10\kimi\sessions\wd_wiki_db842f22df7c\session_157c4118-f21a-4b16-8ff5-23c5bf02751e\logs\kimi-code.log
+	    新文件    		     412	D:\KDO-memory\L1-full\2026-09-10\kimi\sessions\wd_wiki_db842f22df7c\session_b7ab394d-2d19-4e3d-b1ec-34438bc8b760\state.json
+	    新文件    		  264571	D:\KDO-memory\L1-full\2026-09-10\kimi\sessions\wd_wiki_db842f22df7c\session_b7ab394d-2d19-4e3d-b1ec-34438bc8b760\agents\main\wire.jsonl
+	    新文件    		  102374	D:\KDO-memory\L1-full\2026-09-10\kimi\sessions\wd_wiki_db842f22df7c\session_b7ab394d-2d19-4e3d-b1ec-34438bc8b760\agents\main\tool-results\Read-tool_6a83Ir31Bj4VOQcSBJsaVonS-92b0320b-e259-4aff-86fa-6dcd1b6bc003.txt
+	    新文件    		    3121	D:\KDO-memory\L1-full\2026-09-10\kimi\sessions\wd_wiki_db842f22df7c\session_b7ab394d-2d19-4e3d-b1ec-34438bc8b760\logs\kimi-code.log
+	    新文件    		     404	D:\KDO-memory\L1-full\2026-09-10\kimi\updates\latest.json
+	    新文件    		   72675	D:\KDO-memory\L1-full\2026-09-10\kimi\updates\rollout.log
+	    新文件    		   1.6 m	D:\KDO-memory\L1-full\2026-09-10\kimi\user-history\f966445f5d60806d258a34c6a0cc6b3d.jsonl
+	    新文件    		  75.0 m	D:\KDO-memory\L1-full-archive\2026-08-23.zip
+	    新文件    		 237.8 m	D:\KDO-memory\L1-full-archive\2026-08-24.bak.zip
+	    新文件    		 243.3 m	D:\KDO-memory\L1-full-archive\2026-08-24.zip
+	    新文件    		   4.1 m	D:\KDO-memory\L1-full-archive\2026-08-25.zip
+	    新文件    		  29.9 m	D:\KDO-memory\L1-full-archive\2026-08-26.zip
+	    新文件    		  11.7 m	D:\KDO-memory\L1-full-archive\2026-08-27.zip
+	    新文件    		  19.5 m	D:\KDO-memory\L1-full-archive\2026-08-28.zip
+	    新文件    		  15.5 m	D:\KDO-memory\L1-full-archive\2026-08-29.zip
+	    新文件    		  15.7 m	D:\KDO-memory\L1-full-archive\2026-08-30.zip
+	    新文件    		  12.3 m	D:\KDO-memory\L1-full-archive\2026-08-31.zip
+	    新文件    		  16.9 m	D:\KDO-memory\L1-full-archive\2026-09-01.zip
+	    新文件    		  26.8 m	D:\KDO-memory\L1-full-archive\2026-09-02.zip
+	    新文件    		  48.6 m	D:\KDO-memory\L1-full-archive\2026-09-03.zip
+	    新文件    		  36.4 m	D:\KDO-memory\L1-full-archive\2026-09-04.zip
+	    新文件    		  38.2 m	D:\KDO-memory\L1-full-archive\2026-09-05.zip
+	    新文件    		  48.4 m	D:\KDO-memory\L1-full-archive\2026-09-06.zip
+	    新文件    		  44.3 m	D:\KDO-memory\L1-full-archive\2026-09-07.zip
+	    新文件    		  23.0 m	D:\KDO-memory\L1-full-archive\2026-09-08.zip
+	    新文件    		 157.8 m	D:\KDO-memory\L1-full-archive\trace-index-legacy-to-20260827.md
+	    新文件    		    2050	D:\KDO-memory\L1-full-archive\_archive.log
+	    新文件    		   10756	D:\KDO-memory\L2-digest\2026-08-25.md
+	    新文件    		   20048	D:\KDO-memory\L2-digest\2026-08-26.md
+	    新文件    		   28936	D:\KDO-memory\L2-digest\2026-08-27.md
+	    新文件    		   19615	D:\KDO-memory\L2-digest\2026-08-28.md
+	    新文件    		    8501	D:\KDO-memory\L2-digest\2026-08-29.md
+	    新文件    		    8725	D:\KDO-memory\L2-digest\2026-08-30.md
+	    新文件    		   19130	D:\KDO-memory\L2-digest\2026-08-31.md
+	    新文件    		    7395	D:\KDO-memory\L2-digest\2026-09-01.md
+	    新文件    		   30701	D:\KDO-memory\L2-digest\2026-09-02.md
+	    新文件    		   40849	D:\KDO-memory\L2-digest\2026-09-03.md
+	    新文件    		   10086	D:\KDO-memory\L2-digest\2026-09-04.md
+	    新文件    		   20844	D:\KDO-memory\L2-digest\2026-09-05.md
+	    新文件    		   20363	D:\KDO-memory\L2-digest\2026-09-06.md
+	    新文件    		   34004	D:\KDO-memory\L2-digest\2026-09-07.md
+	    新文件    		   15406	D:\KDO-memory\L2-digest\2026-09-08.md
+	    新文件    		   14635	D:\KDO-memory\L2-digest\2026-09-09.md
+	    新文件    		    2103	D:\KDO-memory\L2-digest\_run.log
+	    新文件    		   34833	D:\KDO-memory\L2-digest\_state.json
+	    新文件    		      31	D:\KDO-memory\obsidian-snapshot\.obsidian\app.json
+	    新文件    		       2	D:\KDO-memory\obsidian-snapshot\.obsidian\appearance.json
+	    新文件    		      80	D:\KDO-memory\obsidian-snapshot\.obsidian\community-plugins.json
+	    新文件    		     696	D:\KDO-memory\obsidian-snapshot\.obsidian\core-plugins.json
+	    新文件    		     636	D:\KDO-memory\obsidian-snapshot\.obsidian\graph.json
+	    新文件    		      29	D:\KDO-memory\obsidian-snapshot\.obsidian\templates.json
+	    新文件    		    9111	D:\KDO-memory\obsidian-snapshot\.obsidian\workspace.json
+	    新文件    		     547	D:\KDO-memory\obsidian-snapshot\.obsidian\plugins\claudian\data.json
+	    新文件    		   3.5 m	D:\KDO-memory\obsidian-snapshot\.obsidian\plugins\claudian\main.js
+	    新文件    		     428	D:\KDO-memory\obsidian-snapshot\.obsidian\plugins\claudian\manifest.json
+	    新文件    		  131738	D:\KDO-memory\obsidian-snapshot\.obsidian\plugins\claudian\styles.css
+	    新文件    		     502	D:\KDO-memory\obsidian-snapshot\.obsidian\plugins\claudian\backup\data.json
+	    新文件    		   3.3 m	D:\KDO-memory\obsidian-snapshot\.obsidian\plugins\claudian\backup\main.js
+	    新文件    		     427	D:\KDO-memory\obsidian-snapshot\.obsidian\plugins\claudian\backup\manifest.json
+	    新文件    		  121728	D:\KDO-memory\obsidian-snapshot\.obsidian\plugins\claudian\backup\styles.css
+	    新文件    		   1.2 m	D:\KDO-memory\obsidian-snapshot\.obsidian\plugins\dataview\main.js
+	    新文件    		     368	D:\KDO-memory\obsidian-snapshot\.obsidian\plugins\dataview\manifest.json
+	    新文件    		    3106	D:\KDO-memory\obsidian-snapshot\.obsidian\plugins\dataview\styles.css
+	    新文件    		   21576	D:\KDO-memory\obsidian-snapshot\.obsidian\plugins\obsidian-excalidraw-plugin\data.json
+	    新文件    		   8.0 m	D:\KDO-memory\obsidian-snapshot\.obsidian\plugins\obsidian-excalidraw-plugin\main.js
+	    新文件    		     486	D:\KDO-memory\obsidian-snapshot\.obsidian\plugins\obsidian-excalidraw-plugin\manifest.json
+	    新文件    		  198316	D:\KDO-memory\obsidian-snapshot\.obsidian\plugins\obsidian-excalidraw-plugin\styles.css
+	    新文件    		    1969	D:\KDO-memory\obsidian-snapshot\.obsidian\plugins\obsidian-git\data.json
+	    新文件    		  736954	D:\KDO-memory\obsidian-snapshot\.obsidian\plugins\obsidian-git\main.js
+	    新文件    		     335	D:\KDO-memory\obsidian-snapshot\.obsidian\plugins\obsidian-git\manifest.json
+	    新文件    		     402	D:\KDO-memory\obsidian-snapshot\.obsidian\plugins\obsidian-git\obsidian_askpass.sh
+	    新文件    		   19067	D:\KDO-memory\obsidian-snapshot\.obsidian\plugins\obsidian-git\styles.css
+
+------------------------------------------------------------------------------
+
+                  总数        复制        跳过       不匹配        失败        其他
+       目录:       248       247         1         0         0         0
+       文件:       317       314         2         0         1         1
+       字节:   8.936 g   3.949 g   3.027 g         0   1.959 g       218
+       时间:   0:04:56   0:04:41                       0:00:10   0:00:05
+
+
+       速度:            15055236 字节/秒。
+       速度:             861.467 MB/分钟。
+   结束时间: 2026年9月10日 0:56:37
+

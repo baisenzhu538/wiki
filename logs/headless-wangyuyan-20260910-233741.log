@@ -1,0 +1,369 @@
+kimi version 0.41.0
+• Let me start with the required reads.The todos file isn't UTF-8. Try reading via bash with iconv.90_control/todos/wangyuyan.md: Unicode text, UTF-8 text, with very long lines (1188)
+Odd — file says UTF-8 but Read refused. Maybe there are invalid UTF-8 bytes somewhere. Use bash to read the tail directly./usr/bin/bash: line 1: iconv: command not found
+Traceback (most recent call last):
+  File "<string>", line 7, in <module>
+UnicodeEncodeError: 'gbk' codec can't encode character '\U0001f550' in position 23: illegal multibyte sequence
+total lines: 1678
+total lines: 1678
+
+- [2026-09-10 17:44] 🕐 值守拍17:44：系统级兜底拉起+队列 pending_review=0/claimed=0 无需补拉，queued=6 待生产方按序领取；扫描面：diagnosis 16:54后无新增建议书（今日累计12份待编排在案），00_inbox根目录无新件（最新09-08 22:40 存量），pending-cards（194件）最新09-09 23:56 distill批无新件
+- [2026-09-10 17:52] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 18:22] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+
+- [2026-09-10 18:34] 🕐 值守拍18:34：系统级兜底拉起（交互门铃45min无拍）+队列 pending_review=0/claimed=0 无需补拉，queued=6 待生产方按序领取；扫描面：diagnosis 17:44后无新增建议书（今日累计12份待编排在案），00_inbox根目录无新件（最新09-08 22:40 存量），pending-cards（194件）最新09-09 23:56 distill批无新件- [2026-09-10 18:52] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 19:22] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+
+- [2026-09-10 19:24] 🕐 值守拍19:24：系统级兜底拉起（交互门铃45min无拍）+队列 pending_review=0/claimed=0 无需补拉，queued=6 待生产方按序领取；扫描面：diagnosis 18:35 新增1份建议书（todos文件非法UTF-8字节致Read拒读，建议黄药师修复，今日累计13份在案），00_inbox根目录无新件（最新09-08 22:40 存量），pending-cards（194件）最新09-09 23:56 distill批无新件
+- [2026-09-10 19:52] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+
+- [2026-09-10 20:14] ? ֵ����20:14��ϵͳ���������𣨽�������45min���ģ�+���� pending_review=0/claimed=0 ���貹����queued=6 ��������������ȡ��ɨ���棺diagnosis 18:35�������������飨�����ۼ�13���ڰ�����00_inbox��Ŀ¼���¼�������09-08 22:40 ��������pending-cards��193��������09-09 23:56 distill�����¼�
+- [2026-09-10 20:22] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 20:41] 📥 新素材 1 项（P0 0）：私董会——请诊断编排（看板待编排段）
+- [2026-09-10 20:52] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 21:05] 🕐 值守拍21:05：系统级兜底拉起（交互门铃45min无拍）+队列 pending_review=0/claimed=0 无需补拉，queued=6 待生产方按序领取；扫描面：diagnosis 18:35后无新增建议书（今日累计13份在案），00_inbox新件：私董会/新增2件（20:37 顾成龙MCP-fetch原始返回+企业营销3个可复用方法论，对应20:41通知，待编排），pending-cards（200件）最新09-09 23:56 distill批无新件
+- [2026-09-10 21:22] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 21:52] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+
+- [2026-09-10 21:56] 🕐 值守拍21:56：系统级兜底拉起（交互门铃45min无拍）+队列 pending_review=0/claimed=0 无需补拉，queued=6 待生产方按序领取；扫描面：diagnosis 18:35后无新增建议书（今日累计11份在案，find -newermt 实数），00_inbox根目录无新件（私董会20:37两新件已上轮登记待编排），pending-cards（194件）最新09-09 23:56 distill批无新件
+- [2026-09-10 22:27] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 22:44] 🕐 值守拍22:44：系统级兜底拉起（交互门铃45min无拍）+队列 pending_review=0/claimed=0 无需补拉，queued=6 待生产方按序领取；扫描面：diagnosis 21:56后无新增建议书（今日累计11份在案，find -newermt 实数），00_inbox根目录无新件（私董会20:37两新件已在案待编排），pending-cards（193件）最新09-09 23:56 distill批无新件
+- [2026-09-10 22:57] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 23:27] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 23:34] 🕐 值守拍23:34：系统级兜底拉起（交互门铃45min无拍）+队列 pending_review=0/claimed=0 无需补拉，queued=6 待生产方按序领取；扫描面：diagnosis 22:44后无新增建议书（今日累计11份在案，find -newermt 实数），00_inbox根目录无新件（私董会20:37两新件已在案待编排），pending-cards（193件）最新09-09 23:56 distill批无新件
+Startup reads done (startup.md, wangyuyan-context.md, todos tail). Now execute task: collect today's material (2026-09-10 entries from todos, git log commits containing 王语嫣/wangyuyan), check existing daily-context file, and read agents/agent-os.md §10.2 format.
+
+  Note: I should read the 90_control/AGENTS.md per reminder before making changes in that directory (I'll append to todos/wangyuyan.md later). Also need agent-os.md §10.2.
+
+  Let me get the full day's todos entries (search for 2026-09-10 lines — the file is large; the day probably starts somewhere). Get git log. Check daily-context file existence. Read agent-os.md §10.2.first 09-10 line idx: 1572
+- [2026-09-10 00:01] 📥 新素材 24 项（P0 0）：distill-external-20260909-08.md、distill-external-20260909-09.md、distill-external-20260909-10.md…——请诊断编排（看板待编排段）
+- [2026-09-10 00:02] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 00:10] 🕐 值守拍00:07：l1 正常（145.8MB）；队列 289（#696 入队）；今夜蒸馏批 +32（积压 ~180，门禁节奏仍待老朱）；两线在产；零动作
+- [2026-09-10 00:27] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-10 00:22:01｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-c
+- [2026-09-10 00:32] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 00:42] 🕐 值守拍00:37+补拉：#684 老顽童 22:14 后停摆（4/6 卡入库，差黄谦/SimonPeng 两张）→补拉续产（proc_27884）；#690 黄药师 23:14 后无动静+00:22 liveness 报警→补拉续建（proc_20504）；l1 正常（147.3MB）
+- [2026-09-10 01:02] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 01:07] ⛔ KDO 门禁拦截 2 次（gate-blocked）：2026-09-10 00:58:59｜kdo-memory-root｜marker-missing-fallback-D｜全盘未找到 KD…
+- [2026-09-10 01:11] 🕐 值守拍01:07+动作：#684 补拉续产完工提审→拉欧阳锋终审；#690 黄药师在产（marker-missing-fallback-D 门禁拦截=迁移施工中未建标记文件的预期中间态，日志在涨）；F-080 已挂停车场（claimed 停摆自动补拉机制化）；l1 正常（159.8MB）
+- [2026-09-10 01:17] 🩹 KDO 新问题线索 1 条（friction）：[shared] - [2026-09-10 01:12] huangyaoshi | #690 E盘迁移 | 双实例撞
+- [2026-09-10 01:27] ⛔ KDO 门禁拦截 2 次（gate-blocked）：2026-09-10 01:20:30｜kdo-memory-root｜env-override-invalid｜KDO_MEMORY_RO…
+- [2026-09-10 01:37] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#690（huangyaoshi 的单，挂审 10min）（到点（节奏 30min））
+- [2026-09-10 01:37] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-10 01:37:01｜diag_20260910_ouyangfeng-tags-vocab-gate-hard-dead
+- [2026-09-10 01:45] 🕐 值守拍01:37+密集处置：#684 终审 FAIL C（32处伪逐字引文+2锚点错）→补拉老顽童返工（proc_20140，新卡 A- 保护不重产）；#690 黄药师提审→拉欧阳锋（proc_26396）；tags 软期延长建议书裁定①+②组合（延至 10-14，#688 全补不变）；#693 黄药师已领
+- [2026-09-10 01:47] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-10 01:42:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cl
+- [2026-09-10 01:55] ✅ LLM 通道主备倒序落地（老朱令）：MiniMax 主路→DeepSeek 备用，实测主路直出；常设授权登记：通道切换类按顺序自动切不请示
+- [2026-09-10 02:05] 🔴 老朱问责「产出低/督查怎么督的」——认账：我错在拿 claimed 标志当生产心跳（E034 自己犯自己），老顽童 22:14 停摆我 00:42 才补拉（空转 2.5h）、黄药师同族。修复=门铃 v5（01M23N260450KPKMR6VXWZV0YS）：claimed 任务每拍查 headless 日志/产出物 mtime 45min 无增长=停摆即补拉，值守拍必附心跳证据
+- [2026-09-10 02:10] ✅ 老朱「不信纪律信门禁」落地：#697 立项（claimed 停摆→探针自动补拉，防误伤三件套+幂等+顺带检测 kimi cron wedge），F-080 出停车场；门铃 v5 降级为门禁建成前的过渡层
+- [2026-09-10 02:02] 📨 欧阳锋抄送：#690 E盘迁移终审 **PASS A-**（本机可达面全量验证零缺口：四守卫实证+独立sha256复算MATCH+零中断心跳无断档+便携件本机实跑3次通过）。①异机插盘attach实拍待老朱执行（终审不含该项，失败重开）；②D盘清理24h观察后留档（你名下）；③pytest现存1红根因=inventory L182 `+`分隔解析不出channel_health（pre-existing非690），建议书已落 diagnosis/diag_20260910_ouyangfeng-inventory-parser-multiname-and-690-portable-doc.md（一行修复，可并入#693顺带）
+- [2026-09-10 02:07] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#684（laowantong 的单，挂审 10min）；#693（huangyaoshi 的单，挂审 9min）（到点（节奏 30min））
+- [2026-09-10 02:07] ⚖️ KDO 已终审 1 单：#690（待部署/已闭环）
+- [2026-09-10 02:15] ✅ 两件事落地：①深挖式角色混淆修复——老朱实证（要快速深挖、它搞成爆炸式饱和覆盖）：SOUL 路由纪律修「用户来意优先于类型纯度」+快速深挖通道（时间盒 30-60min 出 80%% 答案），三 SOUL 同条款同步+三 gateway 已重启加载 ②门铃转系统级：kdo-doorbell-watchdog 计划任务注册实测 Result=0（S4U 无窗，10min 拍，45min 无值守拍→自动拉起 headless 我补位）
+- [2026-09-10 02:16] ✅ 黄药师反馈收到（被 #684 FIFO 挡路不 force 待命）：核实——#684 返工重提+#693 完工提审双双在审，已拉欧阳锋按 FIFO 连审两单（proc 见 logs），放行后黄药师领 #696/#697
+- [2026-09-10 02:17] ⛔ KDO 门禁拦截 2 次（gate-blocked）：2026-09-10 02:08:07｜graph-index-coverage｜graph index 覆盖缺口｜30_wiki/case…
+- [2026-09-10 02:17] 🕐 值守拍02:07（v5 首拍）：#690 E盘迁移终审闭环✅且零中断红线实证——l1-capture 已切写 E:\KDO-memory（采集新增 83 verify PASS，心跳连续），E盘 8.9GB 就位，D 盘旧目录按单留 24h 观察；心跳督查：claimed=0 无在产可停摆；pending_review #684+#693 欧阳锋 02:16 已拉连审；l1-size 60.0MB=迁后新口径；小瑕疵留档：l1-capture 日志文案仍写「D 单盘口径」（功能正确，随黄药师下批顺手改）
+- [2026-09-10 02:37] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#693（huangyaoshi 的单，挂审 39min）（到点（节奏 30min））
+- [2026-09-10 02:42] 🕐 值守拍02:37+动作：#684 第2轮 FAIL（窄范围：只回改前四卡 32 伪引文+2 锚点；新两卡 A- 已达标不重产）→补拉老顽童第2轮返工（proc 见 logs）；#690 PASS A-（四守卫+零中断实证全过，异机 attach 实拍路由老朱）；#693 挂审 39min 欧阳锋在审；l1 正常（62.4MB）
+- [2026-09-10 02:52] 🕐 处置：黄药师报「被 #684 挡」状态读数已旧——#684 02:3x 已审（FAIL 第2轮已补拉老顽童）；真实挡路=他自己的 #693 在审，且 02:16 拉的欧阳锋实例 0 字节死产→已重拉（proc 见 logs）
+- [2026-09-10 03:00] ✅ /new 前交接闭环：场次3 复盘落盘（自检B级）+失忆锚点更新（当前状态→09-10 全量）+常设授权（通道自动切换）登记
+- [2026-09-10 02:55] 📥 #693 终审 PASS A-（欧阳锋）：版本对齐三问✅（wiki f28026456/KDO b91c036 双仓入仓+生效+对齐）；五件全独立复验✅（件1 合成卡触发/件2 三向/件3 生产链路 rc=0/件4 原始触发文本重建 0 误报/件5 四向含无锚仍硬拦）+回归 657 passed 1 skipped 复跑一致。非阻断 3 条见终审记录+最小建议书。**编排事项**：①#696/#697 已解锁可安排黄药师领取；②件3 自然验收=今晚 23:37 schtasks LastTaskResult 应=0；③件4「带注列表项仍计占位」待你裁示（黄药师已申报）；④tags 硬化 09-14 前请排存量卡处置（前建议书在案）
+- [2026-09-10 02:53] ⚖️ KDO 已终审 2 单：#693, #696（待部署/已闭环）
+- [2026-09-10 02:57] ⚖️ KDO 已终审 1 单：#684（待部署/已闭环）
+- [2026-09-10 03:07] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#697（huangyaoshi 的单，挂审 8min）（到点（节奏 30min））
+- [2026-09-10 03:07] ⛔ KDO 门禁拦截 1 次（gate-blocked）：2026-09-10 02:57:15｜claimed-relaunch｜relaunch-exhausted｜task_20260910_
+- [2026-09-10 03:38] 🕐 值守拍03:38（系统级兜底拉起，交互门铃45min无拍）：claimed=0 无停摆可补拉；pending_review #697 挂审约35min（03:07 后欧阳锋无实例活动，role_clock 仅落盘未拉起）→已 headless 补拉欧阳锋终审（proc_ouyangfeng_26016，claude/zhipu 通道，codex 402 fallback，log 033726）；扫描面：diagnosis 新增欧阳锋建议书 4 份待编排（quote-verbatim 子串盲区/693-accept 断言空转/693-crosscheck 三发现/并发写中间态窗口），00_inbox/pending-cards 194 件无今日新件（最新 09-09 23:56 distill 批），00_inbox 根目录 3h 无新件；l1 verify PASS 持续（228 件，期间一次 hermes laowantong profile snapshot 缺文件瞬时报错后自复，文案仍 D 单盘口径=已知留档瑕疵）
+- [2026-09-10 03:42] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——🚨 待终审挂起超 30min：#697（huangyaoshi 的单，挂审 43min）（到点（节奏 30min））
+- [2026-09-10 03:57] ⚖️ KDO 已终审 1 单：#697（待部署/已闭环）
+- [2026-09-10 04:12] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 04:24] 🕐 值守拍04:24（系统级兜底拉起，交互门铃45min无拍）：队列 pending_review=0/claimed=0（#697 已于03:57终审闭环）无需补拉，queued=6 待生产方按序领取；扫描面：diagnosis 03:38后新增欧阳锋建议书2份（03:50 myqueue-reviewer-blindview / 697-relaunch-notify-wiring），今日累计9份待编排；00_inbox根目录与pending-cards均无新件（最新09-09 23:56 distill批）
+- [2026-09-10 04:42] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 05:12] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 05:15] 🕐 值守拍05:15（系统级兜底拉起，交互门铃45min无拍）：队列 pending_review=0/claimed=0 无需补拉（#697 已于03:57终审闭环），queued=6 待生产方按序领取；扫描面：diagnosis 04:24后无新增建议书（今日累计9份欧阳锋建议书待编排，最新03:50两份在案），00_inbox根目录与pending-cards（200件）3h无新件
+- [2026-09-10 05:42] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 06:04] 🕐 值守拍06:04（系统级兜底拉起，交互门铃45min无拍）：队列 pending_review=0/claimed=0 无需补拉，queued=6 待生产方按序领取；扫描面：diagnosis 03:50后无新增建议书（今日累计9份欧阳锋建议书待编排在案），00_inbox根目录3h无新件，pending-cards（194件）最新09-09 23:56无新件
+- [2026-09-10 06:12] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 06:42] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 06:54] 🕐 值守拍06:54（系统级兜底拉起，交互门铃45min无拍）：队列 pending_review=0/claimed=0 无需补拉，queued=6 待生产方按序领取；扫描面：diagnosis 03:50后无新增建议书（今日累计9份欧阳锋建议书待编排在案，最新03:50两份myqueue-reviewer-blindview/697-relaunch-notify-wiring），00_inbox根目录3h无新件，pending-cards（200件）最新09-09 23:56无新件
+- [2026-09-10 07:12] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 07:42] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 07:45] 🕐 值守拍07:45（系统级兜底拉起，交互门铃45min无拍）：队列 pending_review=0/claimed=0 无需补拉，queued=6 待生产方按序领取；扫描面：diagnosis 03:50后无新增建议书（今日累计9份欧阳锋建议书待编排在案），00_inbox根目录与pending-cards（最新09-09 23:56 distill批）无新件
+- [2026-09-10 08:12] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 08:34] 🕐 值守拍08:34（系统级兜底拉起，交互门铃45min无拍）：队列 pending_review=0/claimed=0 无需补拉，queued=6 待生产方按序领取；扫描面：diagnosis 03:50后无新增建议书（今日累计9份欧阳锋建议书待编排在案），00_inbox根目录无新件（最新09-08 22:18），pending-cards（194件）最新09-09 23:56无新件
+- [2026-09-10 08:42] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 09:12] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 09:24] 🕐 值守拍09:24（系统级兜底拉起，交互门铃45min无拍）：队列 pending_review=0/claimed=0 无需补拉，queued=6 待生产方按序领取；扫描面：diagnosis 03:50后无新增建议书（今日累计9份欧阳锋建议书待编排在案），00_inbox根目录无新件（最新09-08 22:18），pending-cards 最新09-09 23:56 distill批无新件
+- [2026-09-10 09:42] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 10:12] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 10:16] 🕐 值守拍10:16（系统级兜底拉起，交互门铃45min无拍）：队列 pending_review=0/claimed=0 无需补拉，queued=6 待生产方按序领取；扫描面：diagnosis 03:50后无新增建议书（今日累计9份欧阳锋建议书待编排在案），00_inbox根目录无新件（最新09-08 22:40 拆书会219期逐字稿，属存量），pending-cards 最新09-09 23:56 distill批无新件
+- [2026-09-10 10:17] 📬 KDO 新建议书 1 份待裁定：diag_20260910_wangyuyan-feature-deep-card-gold-standard.md
+- [2026-09-10 10:47] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+0c3ab027a 2026-09-10 03:48:48 +0800 chore(queue): #697 review by 欧阳锋
+1e5b7e789 2026-09-10 02:59:20 +0800 chore(queue): #697 complete by huangyaoshi
+300e25b62 2026-09-10 02:59:19 +0800 feat(probe): #697 claimed停摆自动补拉门禁化——第十一信号+防误伤三件套+幂等+wedge兜底 by huangyaoshi
+67381a42a 2026-09-10 02:55:47 +0800 chore(queue): #684 review by 欧阳锋
+c4a0bd021 2026-09-10 02:51:50 +0800 chore(queue): #696 review by 欧阳锋
+282659cf5 2026-09-10 02:49:16 +0800 chore(queue): #693 review by 欧阳锋
+7c8560fda 2026-09-10 02:48:50 +0800 chore(queue): #684 complete by laowantong
+b63dd2efb 2026-09-10 02:48:41 +0800 rework(#684): R2 FAIL C 窄修——tianli L177 两处伪逐字改源 L1099 逐字+L72 标点回源 L1333(——)；xingzhi L167 锚 L651→L653；6 卡 pre-submit PASS QUOTE_VERBATIM 0
+c5476b5bf 2026-09-10 02:47:48 +0800 docs(wangyuyan): 失忆锚点更新至 09-10 交互值守长场（调研四型齐编/门禁口径终版/v5+watchdog/E盘PASS/产线在转状态）
+4fe17a952 2026-09-10 02:46:57 +0800 chore(queue): #684 claim by laowantong
+fe5903eba 2026-09-10 02:45:25 +0800 chore(queue): #697 claim by huangyaoshi
+7e8bc2f0e 2026-09-10 02:45:07 +0800 chore(queue): #696 complete by huangyaoshi
+a38f1ca13 2026-09-10 02:45:06 +0800 feat(review): #696 daily_review ROLES 加王语嫣(老朱令全员复盘入列) by huangyaoshi
+ffd8c1c60 2026-09-10 02:43:29 +0800 chore(queue): #696 claim by huangyaoshi
+ce446601f 2026-09-10 02:42:39 +0800 chore(queue): #684 claim by laowantong
+7c0366219 2026-09-10 02:34:20 +0800 chore(queue): #684 review by 欧阳锋
+5a7ea73fe 2026-09-10 02:14:44 +0800 feat(wangyuyan): 门铃看门狗系统级注册（kdo-doorbell-watchdog，10min 拍/45min 无值守拍→拉起 headless 王语嫣/防抖+连拉3次停拉报警）——老朱「只信门禁和状态机」
+e1f5429fa 2026-09-10 02:03:59 +0800 ouyangfeng: #690 终审 PASS A-——E盘迁移本机可达面全量验证零缺口（四守卫实证+独立sha256复算MATCH+零中断心跳无断档+便携件实跑3次），异机attach实拍路由老朱，pytest 1红归因考古=inventory '+'分隔pre-existing债，建议书落diagnosis，双todos+context active_task+复盘归档
+55eddc0f9 2026-09-10 01:59:36 +0800 chore(queue): #690 review by 欧阳锋
+4abfa6b65 2026-09-10 01:59:09 +0800 feat(wangyuyan): #697 claimed 停摆自动补拉门禁化立项（老朱令：不信纪律信门禁；F-080 出停车场）
+c3461da28 2026-09-10 01:58:27 +0800 chore(queue): #693 complete by huangyaoshi
+f28026456 2026-09-10 01:58:25 +0800 feat(gate): #693 件2场次对账弱校验+件3 daily_review自锁修复+件5存在性核查节名白名单 by huangyaoshi
+0aace38ce 2026-09-10 01:57:07 +0800 chore(queue): #684 complete by laowantong
+f821a3fb5 2026-09-10 01:57:01 +0800 fix(#684): FAIL C 返工——32 处伪逐字引文回源逐字化/去引号 + 田力培训周期锚 L1065→L1075 + dk 边界条锚 L165→L167
+8f954d48d 2026-09-10 01:54:32 +0800 fix(wangyuyan): LLM 通道主备倒序——MiniMax 升主路 DeepSeek 降备用（老朱 09-10 令：按顺序自动切换不请示）
+947386e13 2026-09-10 01:42:56 +0800 chore(queue): #684 claim by laowantong
+5697698ba 2026-09-10 01:41:59 +0800 feat(wangyuyan): 裁定 tags 门禁软期延长建议书——①+②组合（延至 10-14 避返工撞门+#688 全补不变），③不采纳
+8785fc178 2026-09-10 01:39:24 +0800 ouyangfeng: #684 终审 FAIL C 退回收口——32处伪逐字引文+2处锚点错退laowantong返工（新卡A-保护不重产），tags门禁软期建议书落diagnosis，双todos完工/打回行+context active_task更新+复盘归档
+9207acf7f 2026-09-10 01:32:40 +0800 chore(queue): #693 claim by huangyaoshi
+eb2f594ca 2026-09-10 01:31:04 +0800 chore(queue): #684 review by 欧阳锋
+2e4135def 2026-09-10 01:27:38 +0800 chore(queue): #690 complete by huangyaoshi
+cba88578f 2026-09-10 01:27:36 +0800 feat(infra): #690 E盘迁移落地——KDO-memory整区迁E+resolver化+便携件+六入口实拍 by huangyaoshi
+31c437f6a 2026-09-10 01:02:14 +0800 chore(queue): #684 complete by laowantong
+cc0fea708 2026-09-10 01:01:48 +0800 feat(cases): #684 Live258 六案例全产收尾——黄谦宣传片+Simon Peng医疗数据集（反例教材），dk互链反链补齐 by 老顽童
+-rw-r--r-- 1 Administrator 197121 39564 Sep 10 18:36 /c/Users/Administrator/Desktop/agent复盘/wangyuyan/daily-context/2026-09-10.md
+daily-context
+friction-log.md
+会话收尾检查清单.md
+单元模型五句金句.md
+启动恢复清单.md
+技能进化日志.md
+用户反馈档案.md
+索引.md
+能力雷达图.md
+错误模式库.md
+c5476b5bf 2026-09-10 02:47:48 +0800 docs(wangyuyan): 失忆锚点更新至 09-10 交互值守长场（调研四型齐编/门禁口径终版/v5+watchdog/E盘PASS/产线在转状态）
+a38f1ca13 2026-09-10 02:45:06 +0800 feat(review): #696 daily_review ROLES 加王语嫣(老朱令全员复盘入列) by huangyaoshi
+5a7ea73fe 2026-09-10 02:14:44 +0800 feat(wangyuyan): 门铃看门狗系统级注册（kdo-doorbell-watchdog，10min 拍/45min 无值守拍→拉起 headless 王语嫣/防抖+连拉3次停拉报警）——老朱「只信门禁和状态机」
+4abfa6b65 2026-09-10 01:59:09 +0800 feat(wangyuyan): #697 claimed 停摆自动补拉门禁化立项（老朱令：不信纪律信门禁；F-080 出停车场）
+8f954d48d 2026-09-10 01:54:32 +0800 fix(wangyuyan): LLM 通道主备倒序——MiniMax 升主路 DeepSeek 降备用（老朱 09-10 令：按顺序自动切换不请示）
+5697698ba 2026-09-10 01:41:59 +0800 feat(wangyuyan): 裁定 tags 门禁软期延长建议书——①+②组合（延至 10-14 避返工撞门+#688 全补不变），③不采纳
+Now read the existing daily-context file to see previous sessions today and the last section, so the difference column can compare vs the last session. Also check the 90_control/AGENTS.md (reminder) — I'll be appending to todos/wangyuyan.md in 90_control, so read it. Also get the todos entries for later part of the day (lines 1572+60 onward) to capture the whole day's activity.- [2026-09-10 11:04] 🕐 值守拍11:04（系统级兜底拉起，交互门铃45min无拍）：队列 pending_review=0/claimed=0 无需补拉，queued=6 待生产方按序领取；扫描面：diagnosis 10:16后新增2份建议书（10:41 wangyuyan-checklist-solving / 10:42 ouyangfeng-presubmit-taskfile-false-positives，加10:16 feature-deep-card-gold-standard 今日累计12份待编排）；00_inbox根目录无新件，pending-cards（194件）最新09-09 23:57无新件
+- [2026-09-10 11:17] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 11:47] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 11:54] 🕐 值守拍11:54（系统级兜底拉起，交互门铃45min无拍）：队列 pending_review=0/claimed=0 无需补拉，queued=6 待生产方按序领取；扫描面：diagnosis 11:04后无新增建议书（今日累计12份待编排在案），00_inbox根目录无新件（最新09-08 22:40 拆书会219期逐字稿，属存量），pending-cards（194件）最新09-09 23:56 distill批无新件
+- [2026-09-10 12:17] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 12:44] 🕐 值守拍12:44：系统级兜底拉起+队列 pending_review=0/claimed=0 无需补拉，queued=6 待生产方按序领取；扫描面：diagnosis 11:04后无新增建议书（今日累计12份待编排在案），00_inbox根目录无新件（最新09-08 22:40 存量），pending-cards（194件）最新09-09 23:56 distill批无新件
+- [2026-09-10 12:52] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 13:22] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 13:34] 🕐 值守拍13:34：系统级兜底拉起+队列 pending_review=0/claimed=0 无需补拉，queued=6 待生产方按序领取；扫描面：diagnosis 12:44后无新增建议书（今日累计12份待编排在案），00_inbox根目录无新件（最新09-08 22:40 存量），pending-cards（193件）最新09-09 23:56 distill批无新件
+- [2026-09-10 13:52] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 14:22] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 14:24] 🕐 值守拍14:24：系统级兜底拉起+队列 pending_review=0/claimed=0 无需补拉，queued=6 待生产方按序领取；扫描面：diagnosis 10:16后无新增建议书（今日累计12份待编排在案），00_inbox根目录无新件（最新09-08 22:40 存量），pending-cards（194件）最新09-09 23:56 distill批无新件
+- [2026-09-10 14:52] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 15:14] 🕐 值守拍15:14：系统级兜底拉起+队列 pending_review=0/claimed=0 无需补拉，queued=6 待生产方按序领取；扫描面：diagnosis 14:24后无新增建议书（今日累计12份待编排在案），00_inbox根目录无新件（最新09-08 22:40 存量），pending-cards（194件）最新09-09 23:56 distill批无新件
+- [2026-09-10 15:22] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 15:52] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+
+- [2026-09-10 16:04] 🕐 值守拍16:04：系统级兜底拉起+队列 pending_review=0/claimed=0 无需补拉，queued=6 待生产方按序领取；扫描面：diagnosis 15:14后无新增建议书（今日累计12份待编排在案），00_inbox根目录无新件（最新09-08 22:40 存量），pending-cards（194件）最新09-09 23:56 distill批无新件- [2026-09-10 16:22] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 16:52] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+
+- [2026-09-10 16:54] 🕐 值守拍16:54：系统级兜底拉起+队列 pending_review=0/claimed=0 无需补拉，queued=6 待生产方按序领取；扫描面：diagnosis 16:04后无新增建议书（今日累计12份待编排在案），00_inbox根目录无新件（最新09-08 22:40 存量），pending-cards（193件）最新09-09 23:56 distill批无新件- [2026-09-10 17:22] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+
+- [2026-09-10 17:44] 🕐 值守拍17:44：系统级兜底拉起+队列 pending_review=0/claimed=0 无需补拉，queued=6 待生产方按序领取；扫描面：diagnosis 16:54后无新增建议书（今日累计12份待编排在案），00_inbox根目录无新件（最新09-08 22:40 存量），pending-cards（194件）最新09-09 23:56 distill批无新件
+- [2026-09-10 17:52] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 18:22] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+
+- [2026-09-10 18:34] 🕐 值守拍18:34：系统级兜底拉起（交互门铃45min无拍）+队列 pending_review=0/claimed=0 无需补拉，queued=6 待生产方按序领取；扫描面：diagnosis 17:44后无新增建议书（今日累计12份待编排在案），00_inbox根目录无新件（最新09-08 22:40 存量），pending-cards（194件）最新09-09 23:56 distill批无新件- [2026-09-10 18:52] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 19:22] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+
+- [2026-09-10 19:24] 🕐 值守拍19:24：系统级兜底拉起（交互门铃45min无拍）+队列 pending_review=0/claimed=0 无需补拉，queued=6 待生产方按序领取；扫描面：diagnosis 18:35 新增1份建议书（todos文件非法UTF-8字节致Read拒读，建议黄药师修复，今日累计13份在案），00_inbox根目录无新件（最新09-08 22:40 存量），pending-cards（194件）最新09-09 23:56 distill批无新件
+- [2026-09-10 19:52] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+
+- [2026-09-10 20:14] ? ֵ����20:14��ϵͳ���������𣨽�������45min���ģ�+���� pending_review=0/claimed=0 ���貹����queued=6 ��������������ȡ��ɨ���棺diagnosis 18:35�������������飨�����ۼ�13���ڰ�����00_inbox��Ŀ¼���¼�������09-08 22:40 ��������pending-cards��193��������09-09 23:56 distill�����¼�
+- [2026-09-10 20:22] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 20:41] 📥 新素材 1 项（P0 0）：私董会——请诊断编排（看板待编排段）
+- [2026-09-10 20:52] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 21:05] 🕐 值守拍21:05：系统级兜底拉起（交互门铃45min无拍）+队列 pending_review=0/claimed=0 无需补拉，queued=6 待生产方按序领取；扫描面：diagnosis 18:35后无新增建议书（今日累计13份在案），00_inbox新件：私董会/新增2件（20:37 顾成龙MCP-fetch原始返回+企业营销3个可复用方法论，对应20:41通知，待编排），pending-cards（200件）最新09-09 23:56 distill批无新件
+- [2026-09-10 21:22] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 21:52] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+
+- [2026-09-10 21:56] 🕐 值守拍21:56：系统级兜底拉起（交互门铃45min无拍）+队列 pending_review=0/claimed=0 无需补拉，queued=6 待生产方按序领取；扫描面：diagnosis 18:35后无新增建议书（今日累计11份在案，find -newermt 实数），00_inbox根目录无新件（私董会20:37两新件已上轮登记待编排），pending-cards（194件）最新09-09 23:56 distill批无新件
+- [2026-09-10 22:27] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 22:44] 🕐 值守拍22:44：系统级兜底拉起（交互门铃45min无拍）+队列 pending_review=0/claimed=0 无需补拉，queued=6 待生产方按序领取；扫描面：diagnosis 21:56后无新增建议书（今日累计11份在案，find -newermt 实数），00_inbox根目录无新件（私董会20:37两新件已在案待编排），pending-cards（193件）最新09-09 23:56 distill批无新件
+- [2026-09-10 22:57] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 23:27] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-10 23:34] 🕐 值守拍23:34：系统级兜底拉起（交互门铃45min无拍）+队列 pending_review=0/claimed=0 无需补拉，queued=6 待生产方按序领取；扫描面：diagnosis 22:44后无新增建议书（今日累计11份在案，find -newermt 实数），00_inbox根目录无新件（私董会20:37两新件已在案待编排），pending-cards（193件）最新09-09 23:56 distill批无新件
+I now have the full picture. Today's activity (09-10):
+  - Sessions 4-9+ were system-level 兜底值守拍 (watchdog fallback), all mostly green/no-action.
+  - The existing daily-context file has 场次 1-7 plus an 附：场次 9 section (18:34 增量节).
+  - This 23:37 session is a new headless 复盘场. I need to append a new section "# 王语嫣 daily-context 2026-09-10（23:37 场）".
+
+  Wait — the task says the section header should be 「# 王语嫣 daily-context 2026-09-10（23:37 场）」. Use exactly that.
+
+  Material for this session's retrospective: this session itself is a headless 复盘场 with no prior session memory — it collects material from repo files and writes the retrospective. There's also the gap 18:34→23:37: 值守拍 19:24, 20:14 (encoding garbled line), 21:05, 21:56, 22:44, 23:34 — those were executed by fallback instances but their 复盘 wasn't written into the daily file (场次 8 missing? The file has 场次 7 then jumps to 场次 9 附）. Interesting: 场次 8 is missing from the file — the numbering jumps from 场次 7 (13:34) to 附：场次 9 (18:34). Actually 场次 8 might have been the 17:44 or similar. Not my problem to reconstruct.
+
+  Also notable new material from today:
+  - 20:41 新素材：私董会 2 件（顾成龙 MCP-fetch）待编排
+  - 20:14 值守拍 line got written in GBK mojibake — the encoding 瑕疵 worsened: a whole line written as garbled bytes (that's likely the cause of the Read tool rejection!). This is a new finding: the 20:14 line was appended with wrong encoding (GBK bytes into UTF-8 file), which is exactly why the file has invalid UTF-8 bytes. That's a genuine new insight/error pattern worth noting and possibly adding to 错误模式库.md.
+
+  Also there's an existing 建议书 diag_20260910_wangyuyan-todos-file-invalid-utf8-byte.md.
+
+  Now, what did THIS session do? It's a headless 复盘 session: startup recovery (3 reads), collected materials (todos entries for 09-10, git log), and now writing the retrospective. Per instructions: "无实质产出→如实写「今日无施工」诚实空班节（禁编造，红线）". This session had no construction work — it's a retrospective-only session. So write honest content: the session itself did no construction; today's overall activity was watchdog fallback值守拍 mostly.
+
+  Also instruction 4: 新错误/新坑 → append to 错误模式库.md. Check that file exists — yes, it's in the listing. New pit: the 20:14 值守拍行 written in GBK mojibake — a watcher instance appended with wrong encoding (likely a GBK console encoding write), which is the root cause candidate of the file's invalid UTF-8. That's worth appending to 错误模式库.md. Let me check the file's tail first to match format.
+
+  Also check whether the 20:14 line bytes are actually GBK-decodable. From the python output, the line shows mojibake like "? ֵ����20:14..." — that's GBK bytes interpreted... actually those characters look like GBK-decoded-as-something. The bytes in file are invalid UTF-8. Let me verify quickly: decode the file with errors='replace' showed "? ֵ����" — the replacement chars indicate invalid UTF-8 bytes. This confirms: some watcher instance appended a line using GBK encoding (Windows console default), corrupting the file. That's the root cause of Read tool rejections across 5+ sessions.
+
+  Plan:
+  1. Read tail of 错误模式库.md to match format.
+  2. Append new section to daily-context 2026-09-10.md via python binary append (file is UTF-8 fine, Write tool append mode also works — the file is on Desktop, Read worked fine, so Edit/Write append should be fine. I'll use Write mode=append).
+  3. Append to 错误模式库.md.
+  4. Run daily-context-save.py save --agent wangyuyan --truman --file ... 
+  5. Append completion line to todos/wangyuyan.md (via python binary append due to encoding issue — actually appending UTF-8 to a file with mixed bytes is fine; must not use Read/Edit since Read fails).
+
+  Let me check the daily-context-save.py usage to make sure --file works and whether it rewrites the file. Instruction says exactly that command. Check script briefly? The instruction gives the exact command; just run it. But caution: it might rewrite file with template. Previous sessions used it presumably. Fine.
+
+  First, read tail of 错误模式库.md.total: 68
+| E026 | 任务跨角色/双角色（一个任务=一个角色，依赖衔接不塞同一任务） | 2026-08-09 | 2026-08-09 | 1 | #278：黄药师做 C1/C2（skill 盘点审计）+ C3（13 触发词）要转老顽童/洪七公——一个任务跨三个角色，复审状态悬空（C1/C2 修复未送复审），用户批"你看看这就乱套了" | 把"后续工作"塞进原任务而非拆依赖链；忽视任务单 assignee 单一性 | **铁律：①一个任务一个 assignee（单一角色），跨角色工作必须拆成独立任务+前后依赖 ②同一任务禁止双 assignee（可先后依赖，不并行同做）③任务内发现需其他角色的工作 → 立即拆新任务，原任务注明"已拆出 #X"** | 已写入 task-orchestration skill 编排纪律；#278 C3 已拆 #301 |
+| E027 | TCPR定义传播错误（照抄错误版本未核实官方定义） | 2026-08-09 | 2026-08-09 | 1 | spec 用 Thinker/Coach/Practitioner/Reviewer 定义 TCPR，实际官方定义（agent-os §1）= Teach/Consult/Practice/Research + 默认C身份 + 会话启动声明协议——错误从 basic-skills-coach spec 传播到 #282/#287/#300 全部 agent spec 和 SOUL，飞书实测被用户抓出"他把TCPR的定义都弄错了" | 照抄已有 spec 的身份节未核实 agent-os.md 官方定义；把"会话启动选择身份"误解为"按问题类型切换响应模式" | **核实官方定义再引用：涉及 KDO 术语/协议必须读 agent-os.md/90_control 原文，禁止照抄二手 spec；TCPR 以 agent-os §1 为准（T=Teach/C=Consult/P=Practice/R=Research，默认C，会话启动声明）** | 已修 SOUL+spec；#263 规范加"TCPR 定义必须引用 agent-os §1" |
+| E028 | 检索索引未随卡更新（索引滞后=检索盲区，应日常增量写入） | 2026-08-09 | 2026-08-16 | 2 | 今天生产 85 张卡全落盘且 43 单终审闭环，但 .kdo/state.sqlite 停在 7-19——kdo query 命中 0 张新卡、统计读旧基线（小昭报告 tools/cases 无增长），被用户追问"为什么没增加" | 索引重建被当作"偶尔的基建维护"而非"随生产同步的日常动作"；生产链（素材→卡→终审）缺索引环节 | **纪律：每张卡生产完成（终审闭环）即写索引——日常增量而非批量补救；编排侧终审闭环时检查"新卡可检索"** | 已写入 task-orchestration skill + 失忆锚点；#305 关闭。⚠️ 修正（黄药师实测 8-09）：判定误判——检索索引 search_index.json 8-09 19:41 已含新卡（doc_count 3883，query 命中 5/5），统计实时扫磁盘；真正旧的是 state.sqlite sources 记录（6-30，无功能依赖）。教训升级：判定前验证正确数据源（我拿 state.sqlite 时间戳断言索引过期=证据错误）。纪律保留：闭环时抽查新卡可检索（黄药师实测检索侧可能已自动更新，纪律=抽查确认非手动重建）。⚠️ 复发（2026-08-16）：AI知识库21卡+爆炸式调研卡终审闭环日未抽查——索引停在04:38，当天45张新卡（framework-patrolkit-radar/tool-top-level-document等）检索不到，用户问“爆炸式调研能否搜到所有调研知识”才暴露；已全量重建（3950 docs）+PatrolKit命中✅；教训：终审闭环抽查是编排侧E028纪律本次漏执行；抽查应用用户会问的自然语言查（不只精确卡名） |
+| E029 | 盘点grep子串误判挂载（未验证消费层——配置被改≠配置生效） | 2026-08-16 | 2026-08-16 |2026-08-16|2026-08-18| 2 | ①盘点/验证必须yaml.safe_load结构化解析定位mcp_servers.kdo ②按systemd WorkingDirectory验证运行进程读的配置文件 ③盘点结论落任务书前反向验证事实来源 | 与E028同根（判定前验证正确数据源）；盘点类结论必须三层验证：文件存在→结构化解析→消费方确认 |
+| E030 | skill frontmatter platforms字段语义误用（hermes平台标签cli/feishu≠OS平台声明） | 2026-08-16 | 2026-08-16 | 1 | 老顽童CLI迁Windows后51个shared技能（含kdo-self-attack）全部不进Hermes注册表（readiness=unsupported）——KDO作者在frontmatter写platforms: [cli, feishu]意图声明"Hermes cli/feishu端可用"，但hermes v0.20.0的platforms字段语义是OS平台（PLATFORM_MAP仅macos/linux/windows，skill_utils.py:21），cli/feishu不匹配win32→全屏蔽；WSL侧同款逻辑（这些技能WSL侧也从未被加载过，老顽童一直只用本地28个技能，问题被掩盖） | ①写skill时凭直觉用字段名没查hermes字段语义（platforms=OS平台，非接入端）②错误标签在shared/持续传播（stage-3-tooling教学示例也写[cli, feishu]教坏后来者）③迁移验证只查"技能在不在磁盘"未查"注册表加载了没"（T1验证快照显示0个vault技能也没警觉） | ①skill frontmatter平台声明一律用OS平台值[linux, macos, windows]（或省略=全平台兼容）②写/同步skill前查hermes字段语义文档 ③迁移/部署验证必须跑`hermes skills list`核对注册表实际加载（不只是文件存在） | 已修：51处shared+2处.claude/skills批量替换+stage-3-tooling教学示例修正+备份skills-platform-fix-20260816+laowantong 98 local全enabled/T1三profile 143 local全enabled验证通过；与E028同根（验证到消费层/注册层，不只看文件存在） |
+| E031 | 验证手段本身未验证（shell技巧测二进制骗人——bash $'\x00'统计的是行数非字节数） | 2026-08-16 | 2026-08-16 | 1 | 迁移体检用 `grep -c $'\x00'` 测 MEMORY.md/USER.md/CAPSULE_STARTUP.md 的 NUL 字节，返回 19/11/51 误判"文件含 NUL 损坏"差点写进裂缝报告——Python `bytes.count(b'\x00')` 实测 0 NUL，数据完好 | bash 变量不能含 NUL，`$'\x00'` 参数传递变空串 → grep 空模式统计所有行；未质疑结果语义（19/11/51 恰似行数）；E029 同根（工具输出未验证语义就下结论） | 验证二进制内容用 Python `bytes.count(b'\x00')` / `file` / hexdump，不用 shell 技巧；任何"检测/验证"工具的输出先问"匹配的语义是什么"再下结论 | 已写入 agent-migration-health-check 坑A + corr_20260816_wangyuyan-windows-migration-findings；与 E029/E017 同根（判定前验证正确数据源） |
+| E032 | 工具故障排查未先查沉淀（被拦N次才想起翻corrections/skill——用户"其他agent都会"是导航信号） | 2026-08-16 | 2026-08-16 | 1 | approvals 拦截修复：patch 改 config 被护栏拒、execute_code 被拦等 3 轮试错后，用户提示"其他agent都会"才去翻 corr_20260808_laowantong-hermes-config-layer-diagnosis.md 找到解法方向——自己沉淀的故障表里早写了"approvals=manual 网关必死" | 排查时惯性怀疑工具/命令，没把"查沉淀"当第一步（违反自己沉淀的 entry-quality-gate 故障表纪律）；把用户导航信号"其他agent都会"当批评而非指引，多绕 2 轮 | 工具故障第一动作 = 查 entry-quality-gate §已知工具故障表 + `60_feedback/corrections/` + 相关 skill，再动手；用户说"XX都会"= 知识库有标准解法，直接去翻 | 已写入 entry-quality-gate 故障表"第0步：先查沉淀"；agent-migration-health-check 坑B 全链路 |
+| E033 | GBK修复族覆盖清单漏MCP/CLI管道入口（stdio中文乱码） | 2026-08-18 | 2026-08-18 | 1 | 段王爷唯一一次kdo_search中文查询乱码（cp936解码UTF-8 JSON）→检索结果差→弃用MCP→738s硬搜12分钟；#323修52脚本全漏server.py管道入口，全厂11 profile MCP中文检索受影响 | GBK修复按print输出清单执行，未覆盖stdio管道类（MCP server/CLI管道同受cp936影响）；影响面暴露依赖用户提问+日志实测而非巡检 | MCP/CLI管道入口纳入GBK类修复扫描清单（stdin/stdout/stderr reconfigure utf-8）；修复后必做中文query消费层回归 | #350任务单；与E029同根（验证到消费层）；技能进化日志已记 |
+| E034 | 执行状态核实缺失（信队列状态不验证运行态——幽灵修改误判） | 2026-08-18 | 2026-08-18 | 1 | 02:16 server.py 被改（带 #350 标注），队列显示 queued，我推断"幽灵修改/来源不明"调查多轮——实际是黄药师领 #350 开工（注释里的 #350 就是任务号）；"#345 挂起但段王爷已迁"同族（08-18 上午） | 队列=计划态，实际执行进度由任务单/文件 mtime/注释更新——未验证运行态就下"无人认领"结论；先入为主"queued=没人做" | ①执行状态判定以任务单执行报告/文件痕迹为准，队列仅参考 ②看到带任务号注释的修改，第一反应=该任务已开工 ③编排侧定期抽查任务单 mtime | 与 E021（信总结不信队列）互补——E021 是不信队列信总结，E034 是不信运行态信队列；已入技能日志 |
+| E035 | 停滞误判（监控范围不全+把静默当停滞） | 2026-08-19 | 2026-08-19 | 1 | 02:11 判黄药师"卡死/没反应"——依据是 find 扫 60_feedback/tasks+kdo-tools+90_control 三目录 10 分钟无活动；实际他在 .kdo/ 改 capsule_sync.py 返工 #366（我的扫描盲区），随后返工完成欧阳锋 PASS A——我的"停滞"结论错误，老朱当场纠正"#366 早就审过了" | ①监控范围凭直觉挑目录，没扫 .kdo/、.agent/、agent复盘/ 全工作面 ②把"任务单 13 分钟没动"等价于"没在干活"——基建任务单往往最后才更新 ③进程检查只看存在没看 CPU 增量 | 停滞诊断三问（缺一不下结论）：①进程 CPU 增量在涨吗 ②find 覆盖全工作面了吗（含 .kdo//.agent//agent复盘/）③静默期超 30 分钟了吗+他的活此刻应落在哪个文件——先想落点再去看 | 与 E034 同族变体（E034=信计划态不信执行态；E035=观察手段本身有盲区还下结论）；已入技能日志候选；工具化候选 agent-activity-check.py 待老朱拍板 |
+| E036 | 裁定被建议方倾向带偏+成本误估（把门禁成本当终审成本算） | 2026-08-20 | 2026-08-20 | 1 | #380 偶遇管线裁定初裁 B+（自动转正保留+配套），被黄药师"零摩擦"框架带偏；老朱纠"编排门禁=王语嫣，终审=欧阳锋"后改判 A——门禁判定是我几分钟的日常动作，不是终审级成本；且 75% 污染实证（4 卡 3 不合格）+ 与"不得绕过质量门"规则矛盾 | 守门的人替冲锋的人算账：用建议方（管线建设者）的成本视角替代自己的门禁视角；把"人工确认"笼统当成高成本，没拆门禁/终审两层 | 裁定前问"这条建议服务谁的视角"，再用自己角色的账重算；涉及门禁的裁定先查污染率实证再定摩擦层位置 | #380 改判 A 落地；已入复盘 |
+| E037 | 门禁判定不 git 固化=未执行（mv tracked 文件可被 restore 复活） | 2026-08-20 | 2026-08-20 | 1 | 退回 3 张问题卡用 mv 移出 30_wiki——卡已被自动备份 commit 成 tracked，随后被 git restore/同步复活，黄药师 #380 测试时发现"正式层还躺着"；老朱批"你自己删除的你自己处理尾巴"→ 自 commit a9d50f206 固化 | 把文件系统操作当执行终点，没有"tracked 文件的删除只有进 git 才不可逆"的心智模型；与 #357"修复不 commit=不存在"同律不同面 | 门禁判定三步走：判定→隔离→git 固化，少一步不算执行；对知识库结构的任何处置完成后必问"固化了吗" | 已固化；三步走已入技能进化日志 |
+| E038 | 改任务单/队列前未核实时状态（覆盖提审中文件，执行报告丢失） | 2026-08-20 | 2026-08-20 | 1 | #383 老顽童秒完成提审（pending_review），我凭"我刚写完它"的旧快照用 Write 覆盖任务单扩范围——执行报告丢失（文件未入 git 不可恢复），工作产品无损 | 多 Agent 并行系统里"我刚写的"≠"现在还是这样"；E034/E035 同族（E034 信计划态不信执行态、E035 观察盲区下结论、E038 信自己的旧快照不核当前态） | 动任何任务单/队列行前必先 `queue_transition.py status`（5 秒防一切竞态）；扩范围一律另立项不改提审中单 | #383 恢复原范围+事故记录留档；#384 拆出扩量 |
+| E039 | 外部体系概念凭字面脑补（YAI 误当单一工具） | 2026-08-20 | 2026-08-20 | 1 | 讨论"skillsDeepartner"时把 YAI 理解成"封装进去的工具"，老朱批"理解能力有问题"——YAI 是一堂知识库上的一系列 agent 体系（知识库/数据包/Partner） | 没去检索素材里 YAI 的全部语境行（口述 L1068/L3174、逐字稿 L685 都在）就按字面猜；对不熟悉的外部体系用脑补代替检索 | 引用外部体系概念前先全量检索该词在素材里的所有语境行；域内概念存疑就问老朱（他是权威口径源），不猜 | #381 任务单已加口径修正注记 |
+| E040 | 编排产物未 commit=不进协作通道（提审未提交=不存在，编排侧镜像病） | 2026-08-20 | 2026-08-20 | 1 | #387 提审后欧阳锋"找不到"——我先误判"旧快照时间差"（E034 族），黄药师洞察+git 实锤真根因：任务单/队列行/dashboard 只在工作区未 commit，欧阳锋从独立 git 同步 checkout 读，文件对其不存在（e4e6f1f53 补提交后可见）；#385/#386/#388/#389 任务单同为 untracked | 我把"落盘=生效"当终点，没有"跨 checkout 协作者只看得见 git 里的内容"的心智模型；诊断时先给自己编的"时间差"故事找证据，没验证对方读取通道（git show 一行就能证伪） | ①编排落盘四件套升级为：任务单+队列行+看板+**commit**（无 commit 不算提审完成）②诊断"X 找不到 Y"类问题先验证 Y 在对方读取通道里存在（git log/show），再猜认知原因 ③与"修复未提交=不存在"（#363）、"删除未固化=未执行"（E037）同律三面：**一切协作产物，未入 git = 未发生** | 已授权（08-20 老朱）：编排产物（60_feedback/tasks/ + 70_product/tasks/ + 00_inbox/pending-cards/）即写即 commit 常设授权，acf868b3d 首刀收口；#389 任务单已修正立项依据 |
+| E041 | 编辑共享文件核状态未核结构（队列行插到主表外，脚本不计数） | 2026-08-21 | 2026-08-21 | 1 | 插 #390 队列行按"INBOX-PENDING 前=表尾"的旧结构认知，没发现黄药师 #389 已在表尾插入 REVIEW-PENDING 段——行落在主表外，queue_transition 不计数（369 缺 1 暴露） | E038 只内化了"跑 status 核状态数量"，没扩到"核编辑点结构"；共享文件的结构会被其他 agent 的机制改动（自动段/标记），数量不变≠结构不变 | 编辑共享文件前：status 核状态 + 读目标编辑区域核结构（新段/新标记/表边界）；插入后必跑消费方脚本验证被正确计数 | cf3eb2fd2 自修并入档；与 E038 同族（E038=核状态，E041=核结构） |
+
+| E042 | 对话孤儿（分析产出的行动项不落盘=未排产） | 2026-08-22 | 2026-08-22 | 1 | 晚场裁定 PROPOSAL-PENDING 改造时说了「#425 加指标/协议终扫纳入」两条行动项，只落盘 #421 一件，其余停嘴上——老朱「你自己前面的分析不需要落盘为任务吗」点破；二次扫描又补出 F-029/F-030 两个对话孤儿 | 把「说过的行动项」当「已排产」；E040 只内化了文件产物，没扩到对话里的承诺 | **铁律：会话中每产生一条行动项，当场落盘（任务/停车场/协议三选一）；老朱问「都迭代了吗」之前自己先扫一遍对话** | 已写入 08-22 晚复盘；本次两词由老朱追问兜底 |
+| E043 | 幻影丢失（丢失叙事未验证存在证据） | 2026-08-22 | 2026-08-22 | 1 | #418 黄药师报「sales 复盘文件丢失」，独立复核：风清扬 16:45 审计三处枚举先于事故证两目录皆空——文件从未存在，丢失是文档矛盾制造的幻影（审计建议节「五件套齐」vs 枚举节「空」） | 信「丢失叙事」不信「存在证据」；与 E029（配置被改≠生效）/E031（检测手段未验证语义）/E034（信计划态不信运行态）同族镜像 | **报「X 没了」之前先验证「X 有过」：最后一次存在的证据（git/快照/枚举记录/双写存档）；无存在证据的丢失=预期错误不是文件事故；判定丢失必查先于事件的基线枚举** | 复核裁定落盘 diag_20260822_wangyuyan-418-sales-loss-review；配套：协议 5A（双层文档抽查）+F-032 启发式 lint 候选 |
+| E044 | Edit 大块替换未读回（跨行替换范围未核） | 2026-08-22 | 2026-08-22 | 1 | 停车场清账时一个 Edit 的 new_string 误把 4/5 两行截断删除——读回时当场发现修复，未进 git；页脚汇总计数与明细表不符（凭印象写）同场并发 | 跨多行整块替换时没逐字核 new_string 覆盖完整性；F-KDO-016「不读不改」只内化了一半——写后没读 | **大块替换（≥3 行）后必读回核结构；汇总数字从明细数，对不上写「以明细表为准」不硬凑；处置守恒校验：归档+吸收+留域+存活=源总数** | 当晚复盘固化；与 E038（核状态）/E041（核结构）同族，本条=核自己的写入 |
+| E045 | 候选编号冒充正式编号（停车场候选号/队列号/建议书号三层混用） | 2026-08-23 | 2026-08-23 | 1 | 把 F-030~F-033/F-038/F-040 候选号当确定编号跨文档引用，与队列实际分配的任务号撞车 | 候选号只是排队提示，我当成了承诺；立项时实际号以队列为准，旧引用未回改 | 三层编号分层：候选号（停车场）/队列号（任务单 frontmatter）/建议书号（诊断件）不可混用；跨文档引用一律以队列任务单为准；撞号时以实际号为准并回改引用处 | 落文档时标注编号层级；引用前先 queue_transition status 核对实际号 |
+| E046 | 追加意图却做替换（Edit 锚点节做 old_string 且 new_string 未含原文=吞节） | 2026-08-23 | 2026-08-23 | 1 | #441 任务单追加「返工要求」节时，old_string 选中欧阳锋「存在性核查」节全文、new_string 只含新节——终审锚点节被整体吞掉；欧阳锋复审被 #433 门禁连拦 3 轮才发现（9993e16e7 git 实锤）；指控由其建议书正式提出 | Edit 的 old_string 是「被替换内容」不是「插入锚点」——想追加应选「文件末尾/上一节末尾」做锚且 new_string 必须含锚点原文；写后未核对既有节完整性（E044 只核了自己写的内容没核别人的节还在不在） | **任务单 append-only 纪律（协议 7）：任务单只追加新节，编排裁定写独立文件（diagnosis/）或追加节；Edit 追加时 new_string 必须完整包含 old_string 原文；写入前后 grep 既有节标题清单核对（写前记清单、写后 diff 核对无既有节消失）** | 多写者共享文件（任务单/队列/看板）一律适用；观察期 10 单（欧阳锋建议），复发升级脚本校验 |
+| E047 | 修订单越权（传口径单裁决了其他已上板任务的范围/合并——变相改板） | 2026-08-23 | 2026-08-23 | 1 | #459 修订单里写「#458 任务 1 作废、任务 2 改造、两单合并实施」——用传口径单修改了已上板任务 #458 的范围裁决并做合并裁决，老朱当场纠偏「落入看板暨冻结，不能再改合并裁决；调整修改必须再另外下任务编排书」 | 修订单合法边界=给执行者传**口径**（#452/#454/#455 模式），我把它当成了「修正其他任务单」的通道——上板冻结完整含义没吃透：内容不改+**范围不改+不合并**；把「设计讨论的演进」与「对已上板任务的裁决」混为一谈 | **修订单只传口径不动任务；任何对已上板任务的调整（范围/作废/合并/取代）=另下完整任务编排书（新单）+显式取代/处置声明；设计变更哪怕方向正确也走新单（#460 修正先例）** | 上板冻结纪律（charter §3.15）执行时自查三问：改内容了吗？改范围裁决了吗？合并了吗？——任一是即停，改走新单 |
+| E048 | 暗知识已知性偏差（「原则已拍板」误当「机制已掌握」而漏收增量） | 2026-08-23 | 2026-08-23 | 1 | 半肥猫口述逐字读了 L630-654（跨库映射表），但暗知识清单漏收——B1-3 拍板过 MCP 多挂，我把「KDO 提过」当成「KDO 已掌握」，漏掉映射表=跨库语义层协议（B1-3 缺失的另一半）；老朱灵魂拷问「这么重要的点为什么漏掉」 | 筛选标准错误：该问「对 KDO 有无增量」而不是「KDO 是否提过」——原则与机制是两层 | 暗知识筛选逐条问增量：即使概念熟悉，具体机制/实操细节/外部印证都是增量；「已拍板」条目更要挖「落地机制是否已有」 | 与 E022（关键词≠域枚举）同族：以为覆盖了≠覆盖 |
+| E049 | 检索命中未消费+查询缺来源维度（新素材先例检索三重失误） | 2026-08-23 | 2026-08-23 | 1 | 《成瘾》素材诊断称「无拆书先例」——实际 grep「拆书」命中 90+ 张卡，我只看前 5 条就判「误命中」放弃；且 kdo query 只查主题词（成瘾/多巴胺）没查来源词（拆书/读书会）；还问了库里已有答案的问题（拆书会系列常态化？） | ①检索结果不消费（E021 镜像：不信检索信直觉）②查询策略缺维度：新素材找先例=主题+来源双查③来源类型无标签轴（体系缺口 F-046） | **新素材先例检索双查纪律：主题词+来源词各查一轮**；grep 命中>5 条时必须翻完或加筛选条件，禁 head-N 就下结论；结论「无先例」前必须穷尽来源维度检索 | F-046 来源轴补齐后标签直达 |
+| E050 | 共享 git index commit 捎带（多 agent 并发下我的 commit 带上别人 staged 的内容） | 2026-08-23 | 2026-08-23 | 1 | 提交人域轴文件时 83 files changed——其他 agent 已 stage 的 80+ 文件（素材/日志/pycache）被我的 commit 捎带提交；path-scoped add 防了 add -A 但没防「commit 提交所有 staged」 | 多 agent 共享同一 git index——我只管自己的 add，没意识到 commit 是全局动作 | **commit 前必查 `git diff --cached --stat`**：非自己的 staged 内容→提示对方收口或用 `git commit -- <paths>` 路径限定提交；__pycache__ 应入 .gitignore | 与 #390 流转自动 commit 的 path-scoped 原则同源补全 |
+| E051 | 队列状态手搓正则误读（二次解析当真相报给用户） | 2026-08-23 | 2026-08-23 | 1 | 汇报看板时自写 python 正则从队列行长备注行抓状态列，#474 实际 reviewed 被误报成 queued/未领取——用户当场纠正才回源（grep 直读队列行+任务单 frontmatter）核对真相 | 与 E041（核结构）/E038（核状态）/E017（正则跨字段误读）同族：用不可靠的二次解析（手搓正则）当结论，未回源核对权威数据（任务单 frontmatter status / queue_transition 对账）；长备注行把正则列对齐挤歪 | **报任何队列/任务状态前：①以任务单 frontmatter `status:` 字段为权威真相；②队列行状态以 `queue_transition.py` 对账输出为准，禁手搓正则/grep 拼图当结论；③自写脚本只辅助不判决，报用户的结论必须回源核验** | 已立 #476 固化：状态核对统一走 queue_transition 对账出口，禁手搓正则；与 E041/E038/E017 同族补全 |
+| E052 | 编排者盲区复发（多等通知变不主动查，漏建议书） | 2026-08-24 | 2026-09-02 | 3 | PROPOSAL-PENDING 段 21:40-22:35 新增 3 份建议书（欧阳锋2+风清扬1）自动登记但王语嫣没主动扫段，漏看，老朱两次指出（content 域轴漏/3 建议书漏）才暴露 | 08-23 元反思第4条"机器自报层上线后少翻多等通知，异常静默才主动查"执行过头——把"主动查"降级为"异常静默才查"，但建议书到达自动登记≠王语嫣会主动扫段；登记和扫段是两件事 | **高密度会话期每 N 轮主动扫 PROPOSAL-PENDING 段（不只等探针通知）；"等通知"是降低翻文件频率不是零主动查；编排者盲区根治靠"等通知+定期主动扫"双保险** | 拟入 context 铁律"定期主动扫 PROPOSAL-PENDING"（待老朱拍板）；与 08-23 顿悟1"编排者盲区是系统病"同根复发 ⚠️08-24第三次复发深化：扫pattern全覆盖（^- diag + &lt;!-- - diag + gate-blocked + 注释块，conveyor_probe自登格式损坏覆盖）——定期扫是频率层，pattern全覆盖是覆盖层，两层都要 |
+| E053 | 临时任务误入 KDO（E040 适用协作产物，临时调研不入 KDO git） | 2026-08-24 | 2026-08-24 | 1 | 紫鲸 AG 调研 3 份文档误 commit 进 KDO wiki git（60_feedback/diagnosis/），老朱纠"先不要放入 kdo，桌面文件夹，临时任务不是 KDO 主要工作"→ git rm 移除留桌面副本 | 套错 E040 纪律——E040"未入 git=未发生"适用 KDO 协作产物（任务单/队列/诊断/治理文档），但老朱临时思考/调研任务不入 KDO 知识库；没区分"协作产物"vs"临时调研"纪律边界 | **接到"研究/调研/看看"类指令先判"KDO 主线 vs 临时任务"：临时任务不入 KDO git，落桌面/临时区供思考；E040 适用边界=协作产物，不含老朱临时调研** | git rm 已移除三份（0aef41d7d）；桌面副本保留供老朱思考；E040 适用边界澄清 |
+| E054 | 建轴义务漏（spec"域轴不存在先建轴"是主动义务，非被动响应） | 2026-08-24 | 2026-08-24 | 1 | content 域轴文件没出——#426 任务单明确"王语嫣出 content 等域轴文件（#426 放量前提）"+ spec"域轴不存在先建轴"+ tags-vocab-design"王语嫣按域起草"三处义务都过了眼没内化为待办，老朱问"你没出吗"才补 | 建轴义务是编排侧主动待办，不是被动响应——#426 第六批报告"content 域无轴"时就该主动出，不该等老朱催；过了眼≠内化为待办 | **#426 放量每域批次前查"域轴是否存在"，不存在先建轴再放量（不等老朱催）；spec 主动义务（建轴/审词）待办化，写入启动恢复清单"放量前提检查"** | content.yaml v0.1 已补（8cda26b46）；建轴义务主动化待入 context；与 E048（已知性偏差）同族：过了眼≠内化 |
+| E055 | E050反向变体（共享文件别人commit带我working tree改动）| 2026-08-24 | 2026-08-24 | 3 | #484/#485/#486队列行被并发commit带走（bd7409ce2/6715841ee/3abb641e4等）——我add后没立即commit，时间窗内并发实例add同文件+commit带走我working tree改动 | E050同根延伸：E050原版"我commit带别人staged"，反向变体"别人commit带我working tree"——共享git index+add文件级+commit全局；我add后不立即commit=时间窗 | **共享文件改动立即commit（秒级缩窗口）；或接受被带走（已入git不丢只归属错）；commit前查staged（E050防正向）+立即commit（防反向）** | 拟入context"共享文件立即commit"；与E050同族双向补全 |
+| E056 | 裁定建议书后下场改受控文件（裁定产出=立项，不是自己动手） | 2026-08-24 | 2026-08-24 | 1 | 裁定欧阳锋 dk-tags 建议书（采纳方案 A）后直接改 tags-vocab-design+14 轴文件，老朱"你的裁定意见是直接编排任务？"点破——回滚 07846d59c 重立 #498 执行单 | E025/E047 上板冻结只内化"任务单/队列冻结"，没内化"受控治理文件（tags-vocab-design/轴文件/协议）也是冻结面"；建议书处理简化流程（读→编排决策→一行去向）把"去向=立项"误执行成"顺手改掉" | **裁定建议书=编排决策+立项；受控文件一律不动手，如需改动→立执行单；与"只编排不写卡"角色铁律同源** | 已入元反思 1；与 E047（修订单越权）同族——E047=改任务单，E056=改受控文件 |
+| E057 | 排查从实现层开始不从设计层开始（设计稿写着答案，绕五轮才碰到） | 2026-08-27 | 2026-08-27 | 1 | 老朱报"老顽童没反应"——我查探针→查收件箱→查进程→误判 hermes 实例（信过时部署表）→被纠后查 kimi 会话→查 wire.jsonl→才发现时钟不存在→提议会话级 cron 方案→老朱再纠"#525 昨天就是系统级设计"。答案一直在 #525 设计稿 §0 现状判词里（黄药师/欧阳锋=会话绑定 cron，老顽童/风清扬/王语嫣=无），两轮可查到我绕了五轮 | 三重错叠加：①信了 context.md 过时部署表（hermes CLI）没先核实现状 ②排查路径从进程/wire 等实现层倒推，没先查"这事有没有设计稿/任务单"（kdo query/grep 设计域）③提方案前没查已有设计——会话级 cron 与 #525 已终审方向正面冲突 | **排查"为什么 X 不工作"类问题：第一步检索设计层（grep 任务单/设计稿/矩阵——"这事有没有已终审的机制设计"），第二步才碰实现层；提方案前必查同域已终审设计，冲突方案作废不提议；角色部署现状以进程/会话实证为准，部署表只当线索** | 老朱痛批"吃干饭/浪费 token/自动化工作流建不起来"；#525 四拆当夜立项 #552-#555；W11 牌补刀：疑问先检索调研——设计层也是调研对象 |
+| E058 | 角色边界检索失败（记录里有=我不知道，行动前不回读锚点） | 2026-08-27 | 2026-08-27 | 1 | #544 抽核记录照抄欧阳锋执行报告归属「段王爷翻转状态/洪七公修复复审」；老朱第 N 次纠"洪七公段王爷是外部挂起 agent 不用管，我说过好多遍为什么不记得" | 失忆锚点 §4 白纸黑字写着「入宪六方；段王爷/洪七公挂起」——不是没记录，是行动前没回读；转发他人执行报告的归属时没过角色边界校验，把外部 agent 当可调度资源 | **凡写任务分派/落点归属/激活条件，先过一遍在册工厂五角色（王语嫣/老顽童/黄药师/欧阳锋/风清扬）；段王爷/洪七公=外部挂起——不落任务、不@行动、涉及他们的工作挂账等老朱触发或转工厂角色代理；转发他人文档的归属段必须重写过边界，不照抄** | E048 同族（过了眼≠内化）；检索纪律：锚点不是写进去就算数，行动前回读才算 |
+
+> E052 第三次复发（2026-09-02，老朱当场抓包）：安静值守拍退化成 queue status + tail -2 窄窗口，PROPOSAL-PENDING 段整天没扫——漏欧阳锋 tests-flake 建议书 9 小时、漏小昭外部审计。根因新增一层：值守拍动作清单在「无事期」被静默裁剪。修复=门铃 prompt v2 把「扫建议书段+24h新件 grep pending_orchestration」写死为每拍固定动作（不可省），todos 未读段禁止 tail -N 窄窗（按最后处置行锚点读）。
+
+
+| E059 | 登记段区间兜扫划销（消费侧批量不逐行身份核验） | 2026-09-06 | 2026-09-06 | 1 | 01:44 划销脚本按区间扫全部未划销行，把《启动会2026AI大航海》真素材误挂「#645 候选卡门禁 PASS」假去向——探针 09-05 16:21 就登记了、工作流也跑了，素材在编排消费环节静默丢失，被老朱「探针为什么没发现」一问揪出（02:00 撤销+分诊书 diag_20260906_wangyuyan-launchmeeting-triage） | 批量纪律全装在生产侧（生成清单/批量前快照/脚本自证不算），消费侧划销从没要求过逐行身份核验；「区间内全部未划销行」被当成「同一批同类产物」——同一纪律换工位即失明（E051 消费侧变体） | **登记段划销一律逐行身份核验：划销前回答「本行素材身份是什么、去向注记与身份是否匹配」；批量划销脚本必须逐行断言身份模式（如 distill-* 前缀），不匹配即跳过并报告，禁按区间一刀切** | 与 E051（报状态禁手搓正则）同根——批量动作的产出必须可逐行回源； automation 的最后一米=编排者消费动作 |
+| E060 | 「回声」判定未做数值趋势核查（单调增长误判重复回声） | 2026-09-06 | 2026-09-06 | 1 | infra-liveness graph-index 陈旧度六拍连续增长 48h→49h→50h→51h→52h→53h，前五拍被我以「回声」划销，实际是单调恶化的单一故障——直到立 #648 时才自纠「误判——回声是同一事件重复登记，这是持续恶化的单一故障」 | 回声判定只看了文本/事件 id 相似，没看负载值走势；取巧的划销话术（「回声」二字）掩盖了没做的趋势核查——核查在「看起来够了」处提前停（E049 同族） | **同类事件重复登记时，先核负载数值/时间差趋势：单调变化=故障恶化（立即立项），水平稳定=真回声（划销）；划销话术必须能通过「这条结论的证据是什么」反问** | E049（核查提前停）/E051 族；已写进门铃 v4 值守纪律 |
+raw bytes around 20:14:
+b'\xe6\x8a\xa5\xe5\x91\x8a\xe5\xbe\x85\xe5\x91\xbd\xef\xbc\x89\xef\xbc\x88\xe5\x88\xb0\xe7\x82\xb9\xef\xbc\x88\xe8\x8a\x82\xe5\xa5\x8f 30min\xef\xbc\x89\xef\xbc\x89\n- [2026-09-06 20:14] \xf0\x9f\x95\x90 \xe5\x80\xbc\xe5\xae\x88\xe6\x8b\x8d20:45\xef\xbc\x9a#666 \xe5\x9c\xa8\xe4\xba\xa7\xef\xbc\x8830min\xef\xbc\x8c16\xe4\xbb\xb6\xe5\x88\x86\xe4'
+gbk fail 'gbk' codec can't decode byte 0x8f in position 32: illegal multibyte sequence
+My search hit 09-06 20:14. Let me find the 2026-09-10 20:14 garbled line specifically.decode error: 'utf-8' codec can't decode byte 0xca in position 23: invalid continuation byte
+around bad bytes: b'26-09-10 20:14] ? \xd6\xb5\xca\xd8\xc5\xc420:14\xa3\xba\xcf\xb5\xcd\xb3\xbc\xb6\xb6\xb5\xb5\xd7\xc0\xad\xc6\xf0\xa3\xa8\xbd\xbb\xbb\xa5\xc3\xc5\xc1\xe545min\xce\xde\xc5\xc4\xa3\xa9+\xb6\xd3\xc1\xd0 pending_review=0/claimed=0 \xce'
+gbk fail
+gb18030 fail
+The 20:14 line contains GBK-encoded bytes (e.g. \xd6\xb5\xca\xd8\xc5\xc4 = "值守拍" in GBK). So the 20:14 fallback watcher instance appended its line with GBK encoding — root cause of the whole file being invalid UTF-8. Wait — but sessions 4,5,6,7 (03:33, 09:24, 11:04, 13:34) already reported Read rejection before 20:14. So there must be an earlier GBK line too. Let me scan the whole file for invalid UTF-8 positions.bad regions: 141
+112612 b'- [2026-09-02 05:09]'
+112625 b'- [2026-09-02 05:09]'
+137842 b'- [2026-09-02 22:06]'
+138388 b'- [2026-09-02 22:09]'
+138392 b'- [2026-09-02 22:09]'
+138410 b'- [2026-09-02 22:09]'
+138414 b'- [2026-09-02 22:09]'
+138415 b'- [2026-09-02 22:09]'
+138428 b'- [2026-09-02 22:09]'
+138438 b'- [2026-09-02 22:09]'
+138445 b'- [2026-09-02 22:09]'
+138446 b'- [2026-09-02 22:09]'
+138450 b'- [2026-09-02 22:09]'
+138457 b'- [2026-09-02 22:09]'
+138464 b'- [2026-09-02 22:09]'
+138471 b'- [2026-09-02 22:09]'
+138478 b'- [2026-09-02 22:09]'
+138485 b'- [2026-09-02 22:09]'
+138492 b'- [2026-09-02 22:09]'
+138499 b'- [2026-09-02 22:09]'
+So the invalid bytes date back to 09-02 — pre-existing issue, not caused by today's 20:14 line. The 20:14 line is another GBK-encoded append (new instance of the same bug: a fallback watcher appending with GBK). Good material: the 20:14 line is a NEW GBK-corrupted append today, worsening the file. That's the new error/pit for this session: 「headless 兜底实例追加 todos 时用了 GBK 编码（Windows cp936 默认），把非法字节写进 UTF-8 文件」 — root cause identified: the append was done via a GBK-default channel (likely echo >> with console codepage, or python without explicit encoding on Windows).
+
+  This maps to E033 family (GBK 族）. New entry candidate E061 or append to 错误模式库. The 错误模式库 uses a table format with columns: 编号 | 名称 | 首次 | 最近 | 次数 | 案例 | 根因 | 对策 | 状态. Let me check the header of the table to match columns.
+
+  Actually the last entries shown (E059, E060) follow that format. Let me get the table header.# 错误模式库
+
+> 记录每次复盘发现的系统性错误模式，用于预防复发。
+
+| ID | 错误模式名称 | 首次出现 | 最近出现 | 出现次数 | 现象 | 根本原因 | 解决方案 | 预防措施 |
+|----|--------------|----------|----------|----------|------|----------|----------|----------|
+| E001 | 派 Agent 前未确认样本集 | 2026-06-13 | 2026-06-13 | 1 | 把"王语嫣第二批卡"误记为"老顽童 review 的卡"，导致 Agent 方向错误 | 凭对话记忆直接派工，未重新核实文件清单 | 派 Agent 前先用脚本/Glob 确认样本集合 | 强制检查清单第1条 |
+| E002 | Windows Bash 复杂正则误用 | 2026-06-13 | 2026-06-13 | 1 | 用 `grep -P` 匹配中文引号，因 locale 问题失败 | 忽视 Windows Git Bash 的编码/locale 限制 | 文本/编码扫描统一用 Python | 强制检查清单第2条 |
+| E003 | 批量修改前未打恢复快照 | 2026-06-13 | 2026-06-13 | 1 | 阶段 1 修改 1,228 个文件前没有显式 git tag 或副本快照 | 依赖 git 干净状态和自动备份，未建立独立恢复点 | 任何影响 >50 个文件的操作前，先打 `git tag` 或复制目录快照 | 强制检查清单第3条 |
+| E004 | Producer 汇报完成但未通过客观验证 | 2026-06-26 | 2026-06-27 | 2 | P0-A YAML 修复连续两轮汇报「完成」，王语嫣复核均发现漏网之鱼 | 1. 任务无强制附脚本输出要求；2. 老顽童乐观偏差，重完成轻准确；3. 缺少自动门禁 | 1. 任务文件明确「完成 = 脚本验证通过 + 人工复核通过」；2. 汇报必须附脚本输出；3. 建立 Producer Pre-Submit Gate | 1. frontmatter 修改必须跑 `yaml.safe_load`；2. wikilink 修改必须跑链接检查；3. 虚报完成记入错误模式库；4. 连续 3 次转交脚本/黄药师处理 |
+| E005 | 复盘指令未按规定位置/模板执行 | 2026-07-02 | 2026-07-12 | 3 | 07-02 写错位置后被纠正并立规；07-12 同日连续违规两次：先用 .agent/daily-review 四段式，再用 daily_cognitive_review 七节式，直到老朱指出 daily-context 才读到 agent-os.md §10.2「Truman 10 章为唯一标准格式，禁止任何其他格式」 | 错误记录只进复盘文件没进启动检查项；接到指令凭印象找模板而非先查协议原文 | 复盘触发词=固定动作链：Truman 10 章→`daily-context-save.py save --agent wangyuyan --truman --stdin`→核对 A 级自检 | 启动 SOP 加入「指令类动作先查协议」检查项；两份违规复盘已废弃/删除并标注迁移 |
+| E006 | 组织记忆库（Desktop/agent复盘/）从未读取 | 2026-07-12 | 2026-07-12 | 1 | 启动只读 personal-os，不知道桌面组织记忆库存在：各 agent 错误模式库/用户反馈档案/启动恢复清单/会话收尾清单全部未读，老朱提问才暴露 | 启动锚点单一化，把 personal-os 当唯一记忆源 | 启动流程增加 Desktop/agent复盘/王语嫣/ 三件套（启动恢复清单/错误模式库/用户反馈档案） | 启动恢复清单更新到当前状态并加入启动 SOP；编排裁定前可查对应 agent 的错误模式库 |
+I have everything. Now compose the new section for the daily-context file: 「# 王语嫣 daily-context 2026-09-10（23:37 场）」, Truman 11 chapters.
+
+  Content of this session: headless 复盘场 (23:37 watchdog/复盘 trigger). Actions:
+  1. Startup recovery: read startup.md, wangyuyan-context.md, todos tail (Read tool rejected due to invalid UTF-8 → python fallback).
+  2. Collected material: todos 09-10 entries (line 1572 onwards), git log since 00:00 (38 commits), existing daily-context file read （场次 1-7 + 附场次9).
+  3. Forensic: located invalid UTF-8 bytes in todos file — 141 bad regions dating back to 09-02; today's 20:14 值守拍 line is a NEW GBK-encoded append (bytes 0xD6B5... = GBK) — i.e. one of today's fallback watcher instances appended via a GBK channel, adding fresh corruption.
+  4. No construction work this session — honest 空班 note: this session is retrospective-only; today's 施工 was done by 场次 3 （立项 #697, watchdog, LLM 倒序， SOUL 修复） and watchdog 值守拍.
+
+  差异栏 (vs 场次 9 附节 / 场次 7):
+  1. 新视角：本场是「考古型复盘场」——无会话记忆的 headless 实例靠仓库文件（todos+git log+既有复盘）重建全天时间线；首次实证「复盘输入全部来自仓库文件」可行。
+  2. 复发的模式：todos 文件编码瑕疵非但未修，今天 20:14 又被一个兜底实例用 GBK 追加了一整行乱码——旧伤未愈添新伤。根因升级：瑕疵不是静态历史字节，是**现行机制在持续制造**（headless 追加通道有 GBK 默认编码路径）。
+  3. 被打破的假设：「编码瑕疵是 09-02 留下的死字节，修一次就好」——扫描 141 处坏区最早在 09-02，但 20:14 的新乱码行证明污染源还活着。
+
+  Truman 逐轮映射： headless 场无老朱在场——轮次=系统/任务指令驱动。Map: 轮1 系统兜底指令（场景）→ 启动恢复三读（基本功）；轮2 任务指令「搜集今日素材」（体系）→ todos 全日条目+git log 38 commit（数据）；轮3 「按 §10.2 写+自检」（体系）→ 考古+写复盘（数据/基本功）。
+
+  Also kdo query 检索记录节 needed? §10.4.1: B级 requires noting whether wiki检索 happened for domain knowledge questions. This session: no domain knowledge questions; all retrieval was non-knowledge (logs/queue/git) — constitutional grep口径②. Add a 「域知识检索审视」section like previous sessions.
+
+  过程资产： the appended section itself; 错误模式库 new entry (E061 GBK 追加污染 todos); no other files.
+
+  Also step 4: append to 错误模式库.md. New error: E061 — headless 兜底实例向 UTF-8 文件追加 GBK 编码行（Windows 默认 cp936 通道），污染共享文件致 Read 工具拒读。现象： 09-10 20:14 值守拍行为 GBK 乱码；全文件 141 处非法 UTF-8 区（最早 09-02）。根因： 追加通道未显式指定 UTF-8（echo >> 或 python open 无 encoding 参数走系统默认 cp936）；值守拍绕行方案（python 二进制 append UTF-8）只在部分实例执行，机制未统一。对策： 所有 todos 追加统一走 python 显式 encoding='utf-8'；修复脚本把 GBK 段转回 UTF-8（黄药师）；值守 prompt 写死「追加必须 UTF-8 显式编码」。
+
+  Now write. Append via Write tool mode=append to the daily file (UTF-8, Read worked). For todos append, use python binary append with utf-8 (file has mixed bytes; Write/Edit tools may refuse). Then run daily-context-save.py.
+
+  Check the save script interface quickly? Instruction gives exact command; previous sessions used it. Just run it.
+
+  Also instruction 6: append completion line to todos with HH:MM — current time ~23:37+. Get time when appending.
+
+  Let me now write the section. Note: the section header per instruction: 「# 王语嫣 daily-context 2026-09-10（23:37 场）」.
+
+• 素材齐了。现在写复盘新节并追加到今日文件：
+
+• 追加 E061 到错误模式库：E061 appended OK, file valid UTF-8: True
+
+
+✅ 已保存：C:\Users\Administrator\Desktop\agent复盘\wangyuyan\daily-context\2026-09-10.md
+✅ 已存档：60_feedback\session-archives\2026-09-10\wangyuyan.md
+📋 自检：🟡 B级 📚检索有发现
+✅ 事件 #1497 已写入: agent=wangyuyan event=review_saved
+🧪 胶囊 L0 已留痕: agent=wangyuyan event=review_saved
+✅ A → B 镜像完成: C:\Users\Administrator\.kdo-memory\L1 → E:\KDO-memory\L1-backup（robocopy /MIR，exit 1）
+✅ verify PASS：B 镜像文件 hash 全一致；从 B 打开 integrity=ok 行数 1492（A 同 1492）
+• 🟡 B级 — acceptable (must be 🟢/🟡). Now append the closing line to todos with current time.appended: - [2026-09-10 23:42] 复盘完成：23:37 场 Truman 11 章追加至 daily-context/2026-09-10.md + E061 入错误模式库 + 自检 🟡 B级（headless 考古复盘，无施工诚实空班）
+
+
+• 复盘完成，全部动作收口：
+
+  **1. 素材搜集** — todos 09-10 全日段（1572 行起）+ git log 38 个 commit（wangyuyan 署名 6 个：watchdog 注册、#697 立项、LLM 倒序、tags 裁定、失忆锚点、#696 配合）+ 本日已有 7 个场次节。
+
+  **2. 复盘追加** — `daily-context/2026-09-10.md` 文末新增「# 王语嫣 daily-context 2026-09-10（23:37 场）」，Truman 11 章齐全。本场为 headless 考古复盘场，如实写「无施工诚实空班」；差异栏三条非空（考古型复盘首次实证 / 编码瑕疵在恶化非未修 / 「死字节」假设被 20:14 GBK 行打破）。
+
+  **3. 新坑立案** — 错误模式库 +E061：今日 20:14 值守拍行是 GBK 编码追加（0xD6B5=「值守拍」），实锤 todos 编码污染源是**活通道**（兜底实例 GBK 追加路径）而非 09-02 死字节——此前 5 拍复读「建议黄药师修」零取证的问题本场一次扫描定位。修复仍路由黄药师（原建议书在案，E061 补取证）。
+
+  **4. 保存自检** — `daily-context-save.py` 输出 **🟡 B级**（合格线内），存档/事件/胶囊/L1 镜像全绿。
+
+  **5. todos 收尾** — 已追加 `[2026-09-10 23:42] 复盘完成…自检 🟡 B级` 一行（显式 UTF-8，未再用 GBK 污染通道）。
+
+  **待跟进（已记入复盘末节）**：todos 写入通道统一 UTF-8 后再清 141 处历史坏区（20:14 行 GBK 解码可还原，转码非删除）；私董会新素材 2 件 + 11 份建议书留下轮交互场编排。
+
+To resume this session: kimi -r session_906fb626-64e5-41a6-bd33-9eb5f296ab3c

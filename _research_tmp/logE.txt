@@ -1,0 +1,33 @@
+[1/12] 药师帮 市占率 21% GMV 900亿 机构预计 -> 7
+    fetch err HTTPSConnectionPool(host='new.qq.com', port=443): Max retries exceeded with url: /rain/a/20231018A0269I00 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)')))
+    FETCH len=8013 https://finance.sina.com.cn/stock/relnews/hk/2023-10-24/doc-imzrnxhp7947462.shtml?cref=cj
+    FETCH len=2975 https://www.tmtpost.com/6556828.html
+[2/12] 3500亿院外数字化细分赛道 药师帮 25年收入超340亿 -> 7
+    FETCH len=15 http://stock.10jqka.com.cn/hks/20231027/c651640895.shtml
+[3/12] 药店erp软件哪个好 10款软件排名最靠前 -> 7
+    FETCH len=3586 https://h.chanjet.com/ask/f19f908640af485a9e0.html
+    FETCH len=3328 https://h.chanjet.com/ask/fe758cce193d4138b68.html
+[4/12] 药店进销存系统多少钱一年 唐软 -> 6
+    FETCH len=3338 https://www.itangsoft.com/baike/show-243952.html
+    FETCH len=2673 https://www.itangsoft.com/baike/show-5081013.html
+[5/12] 药店收银系统价格多少钱 费用结构解析 有赞 -> 6
+    FETCH len=2560 https://www.xinlingshou.com/contents/articles/74335.html
+[6/12] 关店10万家 不再依赖医保 2025年药店将大变天 -> 7
+    FETCH len=8436 https://www.163.com/dy/article/JJ4BPKMM05564MZX.html
+    FETCH len=3348 https://roll.sohu.com/a/876204775_122019926
+[7/12] 药易购 2025年营收44.54亿元 科技大健康 -> 7
+    FETCH len=4965 https://fund.eastmoney.com/a/202604293724763710.html
+[8/12] 药易购 业绩预告 2025 归母净利润预亏 -> 7
+    fetch err HTTPSConnectionPool(host='news.qq.com', port=443): Max retries exceeded with url: /rain/a/20260421A05XOC00?media_id&suid (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)')))
+    fetch err HTTPSConnectionPool(host='news.qq.com', port=443): Max retries exceeded with url: /rain/a/20260421A0633F00?media_id&suid (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)')))
+[9/12] 药师帮净利大增409%背后 业务危机 股东清仓 被移出港股通 -> 7
+    FETCH len=0 https://www.toutiao.com/article/7624574084310909503/
+[10/12] 华瓴科技 药品零售管理 SaaS 数亿元A轮融资 -> 7
+    fetch err HTTPSConnectionPool(host='new.qq.com', port=443): Max retries exceeded with url: /rain/a/20221128A022H100 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)')))
+    FETCH len=157 https://36kr.com/p/2020786806411271
+[11/12] 九州通 药九九B2B电商平台 线上线下一体化数智化交易 -> 7
+    FETCH len=2734 https://www.p5w.net/kuaixun/202509/t20250903_6393497.htm
+[12/12] 掌店易Pro 药师帮 管店系统 进销存 -> 7
+    FETCH len=77 https://www.douyin.com/video/7425174115029355791
+    FETCH len=77 https://www.douyin.com/video/7428261362461084980?source=360Spider
+saved outE.json

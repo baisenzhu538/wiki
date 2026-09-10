@@ -1,0 +1,20 @@
+SEARCH q2_progress_sep: engine=baidu+sogou n=8
+SEARCH q2_provinces: engine=baidu n=9
+SEARCH q2_shandong: engine=baidu+sogou n=9
+SEARCH q2_henan: engine=baidu+sogou n=7
+SEARCH q4_o2o_local: engine=baidu+sogou n=9
+SEARCH q4_meituan_scale: engine=baidu n=10
+SEARCH q1_online_dingdian: engine=baidu n=9
+SEARCH q3_chufang: engine=baidu n=10
+PAGE p_nhsa_2026_doc: status=200 len=2494 final=https://www.nhsa.gov.cn/art/2026/5/19/art_104_20545.html
+PAGE p_gz_jieru: status=200 len=1363 final=https://www.gz.gov.cn/zfjg/gzsylbzj/ybfw/content/mpost_9792683.html
+PAGE p_nhsa_fuwu: status=404 len=490 final=https://fuwu.nhsa.gov.cn/regioss72fb1f25/OperGuid/%E5%8C%BB%E8%8D%AF%E6%9C%BA%E6
+PAGE p_km_baimingdan: status=200 len=2538 final=https://ybj.km.gov.cn/c/2026-05-19/5083079.shtml
+PAGE p_nhsa_sh_2024: status=200 len=1340 final=https://www.nhsa.gov.cn/art/2024/7/14/art_14_13219.html
+PAGE p_tj_3plat: status=200 len=868 final=https://www.tj.gov.cn/sy/tjxw/202409/t20240910_6722401.html
+PAGE p_sichuan_180: status=200 len=807 final=https://www.neijiang.gov.cn/njs/mtsj/202509/c4c4e1e7ec8d40f8850633a5a01c24a0.sht
+PAGE p_gd_9city: status=200 len=914 final=http://www.gd.gov.cn/zwgk/zdlyxxgkzl/ylws/content/post_4456902.html
+PAGE p_gz_april: status=200 len=1604 final=https://www.nhsa.gov.cn/art/2025/4/8/art_52_16226.html
+PAGE p_bj_otc: status=200 len=1534 final=https://ybj.beijing.gov.cn/zwgk/2020_zfxxgk/2020_xxgkml/202603/t20260327_4567207
+PAGE p_sohu_24h: status=200 len=289 final=https://www.sohu.com/404.html
+PAGE p_qquanya: status=200 len=2765 final=https://news.qq.com/rain/a/20250716A05QNQ00

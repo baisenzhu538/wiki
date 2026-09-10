@@ -1,4 +1,4 @@
-# Concept Card Index — 2026-09-06 18:08 UTC
+# Concept Card Index — 2026-09-09 18:07 UTC
 
 | ID | Title | Type | Domain |
 |---|---|---|---|
@@ -56,6 +56,7 @@
 | concept-christensen-rpv-model | RPV模型：资源/流程/价值观三层组织诊断 | concept |  |
 | concept-cognitive-offloading-in-ai-era | AI 时代的认知卸载：什么交给 AI，什么必须保留 | concept | ai-collaboration |
 | concept-collaboration-philosophy-foundation | 协作底层哲学：从坏世界到和而不同 | concept | management |
+| concept-data-three-constants-three-shifts | 数据三不变三聚变：破除「数据没变」傲慢的辩证认知框架 | concept | ai-data, ai-collaboration |
 | concept-feishu-api-pagination-trap | 飞书API分页陷阱——静默截断比报错更危险 | concept | feishu, content-extraction, publishing |
 | concept-five-step-growth-to-barrier-transition | 五步法衔接：什么时候从增长切换到壁垒建设 | concept | strategy |
 | concept-harness-cattle-not-pets | 牲口而非宠物：每次迭代用全新Generator实例 | concept | ai-collaboration |
@@ -537,6 +538,7 @@
 | concept-mckinsey-7s | 7-S Framework：组织诊断的七维模型 | framework | strategy |
 | concept-mckinsey-hypothesis-driven | Hypothesis-Driven Approach：假设驱动工作法 | framework | design |
 | concept-minto-pyramid-principle | 金字塔原理：结论先行的结构化沟通框架 | framework | strategy |
+| framework-adaptive-data-flywheel | Adaptive 数据飞轮：6+1 数据工作流 × 场景三层双轮模型 | framework | ai-data, ai-collaboration |
 | framework-agent-card-execution-pattern | Agent 执行模式：从卡片到可执行动作 | framework | kdo, ai-collaboration |
 | framework-ai-accelerated-strategy-cycle | AI 加速的战略-验证闭环 | framework |  |
 | framework-ai-business-cognition-system | AI 业务认知系统 × 真人独立意志（正反合）——业务认知显性化的两个互补引擎 | framework | ai-collaboration, decision-science |
@@ -977,6 +979,8 @@
 | tool-cross-city-replication-test | 跨城市复制验证法 | tool | innovation |
 | tool-dark-time-harvesting | 暗时间利用 (Dark Time Harvesting) | tool | time-management |
 | tool-darwin-skill | darwin-skill：Skill 自我进化器（评估→改进→实测→棘轮保留/回滚，人在回路） | tool | knowledge-management, ai-collaboration, infrastructure |
+| tool-data-governance-four-layers | 数据治理四层风险图：控下限的护栏与容错率匹配工具 | tool | ai-data, ai-collaboration |
+| tool-data-maturity-l1-l6 | 数据成熟度 L1-L6 段位图：组织数据能力自评工具 | tool | ai-data, ai-collaboration |
 | tool-decision-delay-intuition | 技能：延迟直觉法 | tool | decision-making, modeling, personal-os |
 | tool-decision-narrative-method | 决策叙事法：磨难→代价→选择 | tool | innovation |
 | tool-decision-outside-view | 技能：团队决策外部视角法 | tool | decision-making, management, 噪声减少 |
@@ -1995,7 +1999,13 @@
 | case-liutao-electric-bike-localization | 案例：电动车出海本地化——从0调研目标市场 | case | research |
 | case-live258-europe-cold-email | 「案例：东欧健身房开发信——负面限制与上下文分层的B2B冷邮件实践」 | case | ai-basic, sales |
 | case-live258-fact-spread-18-bridges | 「案例：18座桥口误扩散翻车——AI不质疑输入错误，只会工整扩散」 | case | ai-basic, education |
+| case-live258-huangqian-promo-film | 「案例：黄谦导演宣传片 AI 创作——L1/L2 基本功扎实但 L3+ 放大器缺失，效率与创意卡在手动迭代」 | case | ai-basic, content-creation |
 | case-live258-livestream-prompt-v1-v5 | 「案例：直播复盘提示词五轮迭代——Feature链从4个到25+个」 | case | ai-basic, ecommerce |
+| case-live258-nongfu-assist-agri-video | 「案例：农夫三拳助农图生视频——短视频小白三题材工作台测试，5 关键帧翻车到 3 关键帧稳定 60 分」 | case | ai-basic, content-growth |
+| case-live258-simonpeng-medical-dataset | 「案例：Simon Peng 医疗数据集方案——25 个 Feature 全启用的完美清单，零验证结果的边界教材」 | case | ai-basic, ai-data |
+| case-live258-tianli-gov-training | 「案例：田力组织部干部培训方案——被退回重写，复盘发现 7 个 Feature 全缺、几乎裸 prompt 提交」 | case | ai-basic, consulting |
+| case-live258-xingzhi-media-layered-diagnosis | 「案例：行知自媒体六层诊断——30 年行业经验输给工具思维，短板全在 L1-L3 基础层」 | case | ai-basic, content-growth |
+| case-live258-yongbo-embodied-sorting | 「案例：雍博具身智能工业分拣——Demo 好看产线翻车，4 个下层 Feature 缺失而非大模型不够强」 | case | ai-basic, ai-data |
 | case-live258-zhihu-content-acquisition | 「案例：知乎内容获客——无意识用对4个Feature到0成本获客」 | case | ai-basic, marketing |
 | case-live261-jacky-ip-marketing-protracted-war | Jacky《IP营销的持久战》：从代运营4个IP的人力陷阱到"IP营销领域的一堂"——科学派vs信息差经验派的行业论证 | case | strategy, growth |
 | case-live261-lixiuhui-compound-bow-dealer-war | 李秀慧《复合弓业务的论持久战》：两用复合弓Top1 vs 占渠道50-60%的最大经销商——低价倾销+盗图+仿造下的谈打抉择 | case | strategy, sales |
@@ -2092,6 +2102,7 @@
 | case-truman-ai-partner | 案例：Truman AI Partner（阿蕊老师）——从十年笔记到可售卖的 Agent | case | kdo |
 | case-truman-ai-skill-engineering-guide | 案例：Truman 如何用 3 小时做出高阶 AI Skill 工程指南 | case |  |
 | case-truman-ai-skill-self-packaging | AI 自复盘自封装：Truman 的 design case 技能是如何让 AI 自己包装出来的 | case |  |
+| case-truman-bedtime-story-datapack | 案例：Truman 睡前故事数据包——四阶段从 <50 分到临摹巅峰的个人级数据飞轮 | case | ai-data, ai-collaboration |
 | case-truman-investment-daily-report | 「案例：招商日报30→90分——不是换工具，是叠Feature」 | case | ai-basic, ai-collaboration |
 | case-truman-livestream-sop-iteration | 一堂直播 SOP 三年迭代：从 0 到 50 条的迭代递归深挖法 | case | content |
 | case-truman-meeting-leadership | Truman 会议领导力实践案例包×5 | case | management |
@@ -2127,6 +2138,7 @@
 | case-wudi-innovation-contest-value | 吴迪·创业赛重构：从编造数据到价值塑造 | case | innovation |
 | case-xian-franchise-location-decision | 案例：西安加盟选址——系统调研vs拍脑袋 | case | research |
 | case-xiaolong-ecommerce-foresight | 小龙电商：四层剥离——从服装到正装裤 | case | strategy |
+| case-xujian-invoice-data-asset | 案例：徐建发票 1480 标签——从数据出公司，把十几 T 发票攒成行业稀缺数据资产 | case | ai-data, b2b |
 | case-yi-tang-ai-gao-kao-zhi-yuan-kernel-mismatch | 案例：AI高考志愿填报产品因内核错位而失敗 | case | ai-collaboration, content, decision-making, design |
 | case-yihang-dual-triangle-ahao-product-selection | 一行双三角案例：阿豪电商选品函数替代模型 | case | ai-collaboration, e-commerce, operations |
 | case-yihang-dual-triangle-ai-organizational-behavior | 双三角案例：Truman 一夜深挖 AI 组织行为学——四个模型交叉验证 | case | ai-collaboration |
@@ -2136,7 +2148,7 @@
 | case-yihang-dual-triangle-AI可以落地的场景假设 | AI可以落地的场景假设 — 双三角案例 | case |  |
 | case-yihang-dual-triangle-AI场景 | AI场景 — 双三角案例 | case |  |
 | case-yihang-dual-triangle-AI基本功 | AI基本功 — 双三角案例 | case |  |
-| case-yihang-dual-triangle-AI数据 | AI数据 — 双三角案例 | case |  |
+| case-yihang-dual-triangle-AI数据 | AI数据 — 双三角案例（已并入，redirect） | case |  |
 | case-yihang-dual-triangle-beike-ai-outbound | 一行双三角案例：贝壳找房110个场景的AI外呼 | case | ai-collaboration, real-estate, call-center, organizational-transformation |
 | case-yihang-dual-triangle-canvas-thesis-review | 双三角画布案例：AI 论文初审——五维评分+三色灯阻断 | case | ai-collaboration |
 | case-yihang-dual-triangle-canvas-trademark-design | 双三角画布案例：商标设计——两天内产出 60 分可用版本 | case | ai-collaboration |
@@ -2402,6 +2414,7 @@
 | dk-ai-judgment-human-responsibility | 人做判断AI做生产：核心不是会不会用AI，而是敢不敢点这个头承担后果 | dk | ai-saas |
 | dk-ai-judgment-programmer-paradox | 程序员的AI悖论：写AI工具的人最晚享受到AI红利 | dk | ai-saas |
 | dk-ai-memory-four-layers | AI 记忆四层分层模型：即时→会话→项目→长期 | dk | agent-engineering |
+| dk-ai-on-ai-data-poisoning | AI 叠加 AI 的数据是给自己投毒：二手生成数据入库禁令 | dk | ai-data, ai-collaboration |
 | dk-ai-self-evolution-prompt | AI 自进化话术：复盘末尾补一句"下次你可以更主动"——让 AI 每次变聪明一点 | dk | knowledge-management, ai-collaboration |
 | dk-ai-stronger-need-to-know-what-you-want | AI 越强你越需要知道自己要什么：你会什么，AI 才调用什么 | dk | ai-collaboration, personal-expression |
 | dk-ai-video-common-pitfalls | AI视频工具开发五大失败模式 | dk | ai-collaboration |
@@ -2436,6 +2449,7 @@
 | dk-context-patching-recipe | 上下文补齐配方：内容质量不够时先补"价值观+方法论+素材"，不换模型 | dk | knowledge-management, ai-collaboration |
 | dk-course-starts-from-unavoidable-question | 课从绕不过去的问题开始，不从知识开始——困惑先于选题的暗知识 | dk | ai-collaboration |
 | dk-customers-hate-ai | 客户讨厌 AI：AI 生成的销售内容没人情味 | dk | sales, ai-collaboration |
+| dk-data-timely-review | 及时复盘「等 30 秒」心法：任务结束的瞬间是数据价值最高的瞬间 | dk | ai-data, ai-collaboration |
 | dk-decision-value-overrides-roi | Y 模型失效场景：当价值观权重超过经济理性时，广义 ROI 公式不再适用 | dk | master, decision-making |
 | dk-decision-when-to-defer | 何时应该推迟决策 | dk | decision-science |
 | dk-delivery-path-type-bug | delivery.py Path类型bug：字符串root→TypeError被吞→搜索永远0结果 | dk |  |

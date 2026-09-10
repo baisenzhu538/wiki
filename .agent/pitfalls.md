@@ -732,3 +732,13 @@ kdo 可执行入口在 PATH 上（`kdo query ...` / `C:/Program Files/Python312/
 **纪律：Edit 的 old_string 一律从当前文件状态复制（Read 回看或引用系统提示的最新文件态），不凭印象重打；替换失败第一次就回读原文，不试第二次。**
 
 **关联**：#426 替换断言纪律（print 成功≠替换发生；Edit 失败≠文件内容错了）。
+
+## P-47：kdo CLI 入口记成 `python kdo` / `python kdo-tools/kdo`（2026-09-09，三次复发）
+
+kdo 是 PATH 上的独立可执行（`C:\Program Files\Python312\Scripts\kdo.exe`），不是 wiki 目录下的脚本——09-08、09-09 会话 1、09-09 会话 2 连续三次空跑 `python kdo ...` 报 No such file 后才想起来。
+**纪律：kdo 命令一律直接敲 `kdo <subcommand>`；`90_control/cli-reference.md` 与 `.agent/toolkit.md` 里凡写 `python kdo-tools/...` 的示例以本条为准（文档示例待修正，见 P-47 附注）。**
+
+## P-48：kdo query 应答被输出截断/噪音淹没（2026-09-09，同族两次复发）
+
+kdo query 先打 ~20 行 INFO 日志再出应答——会话 1 用裸 head 只看到噪音；09-09 会话 3 用 `| head -25` 把应答正文整个截掉，误以为空结果。同族第 2 次实证，按 v2.3 #11 升级落盘。
+**纪律：kdo query 取应答一律 `kdo query "..." 2>/dev/null | grep -v "^INFO" | tail -30`（过滤噪音+从尾部取应答，不用 head 截前段）；命中的是应答体不是 INFO 行，下负向判词（"0 命中/无撞车"）前必须看到应答体本身。**

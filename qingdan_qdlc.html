@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <title>药品网络销售禁止清单（第一版）（2022年11月制定）</title>
+    <meta content="李沧政务网" name="SiteName" />
+<meta content="www.qdlc.gov.cn" name="SiteDomain" />
+<meta content="3702130001" name="SiteIDCode" />
+<meta content="李沧政务网,李沧政府信息公开,李沧新闻,文明李沧,旅游李沧,李沧街道,视频李沧" name="keywords" />
+<meta content="李沧区政府欢迎您！" name="description" />
+    <meta content="食品用药安全宣传活动" name="ColumnName" />
+<meta content="食品用药安全宣传活动" name="ColumnType" />
+<meta content="药品网络销售禁止清单（第一版）（2022年11月制定）" name="ArticleTitle" />
+<meta content="2024-07-15 15:41" name="PubDate" />
+<meta content="区市场监管局" name="ContentSource" />
+<meta content="区市场监管局" name="Author" />
+    <link rel="stylesheet" type="text/css" href="../../../../../images/pintuer-2.0.min.css" media="screen and (min-width:751px)">
+    <script src="../../../../../images/jquery-3.4.1.min.js"></script>
+    <script src="../../../../../images/pintuer-2.0.min.js"></script>
+    <!--[if lt IE 9]>
+        <script src="../../../../../images/html5shiv.min.js"></script>
+        <script src="../../../../../images/respond.min.js"></script>
+    <![endif]-->
+    <script src="../../../../../images/app.js"></script>
+    <link href="../../../../../images/style.css" rel="stylesheet" media="screen and (min-width:751px)" />
+    <link href="../../../../../images/header2021.css" rel="stylesheet" media="screen and (min-width:751px)" />
+    <!--手机样式-->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" name="viewport" />
+    <link href="../../../../../images/mlxstyle.css" rel="stylesheet" />
+    <link href="../../../../../images/amazeui.min.css" rel="stylesheet" media="screen and (max-width:750px)" />
+    <link href="../../../../../images/wap.css" rel="stylesheet" media="screen and (max-width:750px)" />
+    <style>.cont a,.cont a span{color:red !important;} .phone iframe{display:block !important;width:100% !important;height:auto !important;}</style>
+</head>
+
+<body>
+
+    <script src="http://xxcj.bdb.shandong.gov.cn:81/juba_md.js"></script>
+<script id="_trs_ta_js" src="//ta.trs.cn/c/js/ta.js?mpid=4564" async="async" defer="defer"></script>
+<script id="18dcec7b871c2e" src="http://www.qingdao.gov.cn/18dcec7b871c2e/ya.js?guid=86"></script>
+    <style>
+    .top-bg {
+        height: 40px;
+        line-height: 40px;
+        background-color: #f5f5f5;
+    }
+    .top-bg span,.top-bg a,.top-bg .button{
+        font-size: 14px;
+    }
+    .main {
+        width: 1200px;
+        margin: 0 auto;
+    }
+
+    .pagerTable {
+        width: auto
+    }
+
+    .toplink1 {
+        float: left;
+        margin-top: 0px;
+    }
+</style>
+<div class="layout top-bg">
+        <div class="flex flex-between main">
+            <div>
+                <span class="data"></span>
+                <span class="margin-left">李沧区政府欢迎您！</span>
+            </div>
+            <div>
+                <!-- 一号登陆 -->
+                <div class="toplink1" id="return" style="margin-right: 15px; display: none;">
+                    <a style="margin: 0px 20px; cursor: pointer;">您好，<span id="userName"></span>！</a>
+                    <span style="margin-left: -20px;"><a onclick="Tuichu()" style="cursor: pointer;">退出</a></span>
+                </div>
+                <div class="toplink1" id="login" style="margin-right: 15px;">
+                    <span><a onclick="toLogin()" style="margin: 0px 5px; cursor: pointer;">登录</a></span>
+                    <span style="margin-left: 5px;"> <a onclick="toRegister()"
+                            style="margin: 0px; cursor: pointer;">注册</a></span>
+                </div>
+                <script language="javascript">
+                    jQuery.support.cors = true;
+                    jQuery.ajaxSetup({
+                        xhr: function () {
+                            if (window.ActiveXObject) {
+                                return new window.ActiveXObject("Microsoft.XMLHTTP");
+                            } else {
+                                return new window.XMLHttpRequest();
+                            }
+                        }
+                    });
+
+                    jQuery(function () {
+                        debugger
+                        // 1. 检查userid Cookie是否存在（兼容原有Cookie存储逻辑）
+                        const userid = getCookie("userid"); // 读取用户ID Cookie
+                        const nickname = getCookie("nickname") || "用户"; // 读取昵称，默认显示“用户”
+
+                        // 2. 获取DOM元素（确保与HTML中元素ID一致）
+                        const $loginEntry = $("#login"); // 登录入口容器（包含登录/注册按钮）
+                        const $welcomeSection = $("#return"); // 欢迎语容器（包含用户名和退出按钮）
+
+                        // 3. 根据UserID存在性切换显示状态
+                        if (userid == "" || userid == null) {
+                            // userid不存在：显示登录入口，隐藏欢迎语
+                            $loginEntry.show();
+                            $welcomeSection.hide();
+                            const ticket = getQueryParam("ticket");
+                            if (ticket != "") {
+                                getTokenByTicket(ticket);
+                            }
+                        } else {
+                            // userid存在：隐藏登录入口，显示欢迎语
+                            $loginEntry.hide();
+                            $welcomeSection.show();
+                            var b = new Base64();
+                            var name = b.decode(getCookie("nickname"));
+                            //jQuery(window.frames["header"].document).find("#userName").html(name);
+                            // document.getElementById("userName").value = name;
+                            // document.getElementById("userName").innerHTML = name;
+
+                            // 渲染用户名（仅用innerHTML，移除无效的value赋值）
+                            if (name.length) {
+                                document.getElementById("userName").value = name;
+                                document.getElementById("userName").innerHTML = name;
+                                
+                                document.getElementById("userName1").value = name;
+                                document.getElementById("userName1").innerHTML = name;
+                            }
+
+                            //jQuery(window.frames["header"].document).find("#userName").attr("onclick","window.location.href='http://www.qdlc.gov.cn'");
+                            document.getElementById("userName").onclick = function () {
+                                window.location.href = 'http://www.qdlc.gov.cn/user.shtml'
+                            }
+                            document.getElementById("login").style.display = "none";
+                            document.getElementById("return").style.display = "block";
+
+                        }
+                    });
+
+                    //公用JS
+                    function Base64() {
+
+                        // private property
+                        _keyStr = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=";
+
+                        // public method for encoding
+                        this.encode = function (input) {
+                            var output = "";
+                            var chr1, chr2, chr3, enc1, enc2, enc3, enc4;
+                            var i = 0;
+                            input = _utf8_encode(input);
+                            while (i < input.length) {
+                                chr1 = input.charCodeAt(i++);
+                                chr2 = input.charCodeAt(i++);
+                                chr3 = input.charCodeAt(i++);
+                                enc1 = chr1 >> 2;
+                                enc2 = ((chr1 & 3) << 4) | (chr2 >> 4);
+                                enc3 = ((chr2 & 15) << 2) | (chr3 >> 6);
+                                enc4 = chr3 & 63;
+                                if (isNaN(chr2)) {
+                                    enc3 = enc4 = 64;
+                                } else if (isNaN(chr3)) {
+                                    enc4 = 64;
+                                }
+                                output = output +
+                                    _keyStr.charAt(enc1) + _keyStr.charAt(enc2) +
+                                    _keyStr.charAt(enc3) + _keyStr.charAt(enc4);
+                            }
+                            return output;
+                        }
+
+                        // public method for decoding
+                        this.decode = function (input) {
+                            var output = "";
+                            var chr1, chr2, chr3;
+                            var enc1, enc2, enc3, enc4;
+                            var i = 0;
+                            input = input.replace(/[^A-Za-z0-9\+\/\=]/g, "");
+                            while (i < input.length) {
+                                enc1 = _keyStr.indexOf(input.charAt(i++));
+                                enc2 = _keyStr.indexOf(input.charAt(i++));
+                                enc3 = _keyStr.indexOf(input.charAt(i++));
+                                enc4 = _keyStr.indexOf(input.charAt(i++));
+                                chr1 = (enc1 << 2) | (enc2 >> 4);
+                                chr2 = ((enc2 & 15) << 4) | (enc3 >> 2);
+                                chr3 = ((enc3 & 3) << 6) | enc4;
+                                output = output + String.fromCharCode(chr1);
+                                if (enc3 != 64) {
+                                    output = output + String.fromCharCode(chr2);
+                                }
+                                if (enc4 != 64) {
+                                    output = output + String.fromCharCode(chr3);
+                                }
+                            }
+                            output = _utf8_decode(output);
+                            return output;
+                        }
+
+                        // private method for UTF-8 encoding
+                        _utf8_encode = function (string) {
+                            string = string.replace(/\r\n/g, "\n");
+                            var utftext = "";
+                            for (var n = 0; n < string.length; n++) {
+                                var c = string.charCodeAt(n);
+                                if (c < 128) {
+                                    utftext += String.fromCharCode(c);
+                                } else if ((c > 127) && (c < 2048)) {
+                                    utftext += String.fromCharCode((c >> 6) | 192);
+                                    utftext += String.fromCharCode((c & 63) | 128);
+                                } else {
+                                    utftext += String.fromCharCode((c >> 12) | 224);
+                                    utftext += String.fromCharCode(((c >> 6) & 63) | 128);
+                                    utftext += String.fromCharCode((c & 63) | 128);
+                                }
+
+                            }
+                            return utftext;
+                        }
+
+                        // private method for UTF-8 decoding
+                        _utf8_decode = function (utftext) {
+                            var string = "";
+                            var i = 0;
+                            var c = c1 = c2 = 0;
+                            while (i < utftext.length) {
+                                c = utftext.charCodeAt(i);
+                                if (c < 128) {
+                                    string += String.fromCharCode(c);
+                                    i++;
+                                } else if ((c > 191) && (c < 224)) {
+                                    c2 = utftext.charCodeAt(i + 1);
+                                    string += String.fromCharCode(((c & 31) << 6) | (c2 & 63));
+                                    i += 2;
+                                } else {
+                                    c2 = utftext.charCodeAt(i + 1);
+                                    c3 = utftext.charCodeAt(i + 2);
+                                    string += String.fromCharCode(((c & 15) << 12) | ((c2 & 63) << 6) | (c3 & 63));
+                                    i += 3;
+                                }
+                            }
+                            return string;
+                        }
+                    }
+
+                    function getQueryParam(Param) {
+                        var query = window.parent.location.search.substring(1);
+                        var vars = query.split("&");
+                        for (var i = 0; i < vars.length; i++) {
+                            var pair = vars[i].split("=");
+                            if (pair[0] == Param) {
+                                return pair[1];
+                            }
+                        }
+                        return "";
+                    }
+
+					function addUserInfoCookie(userInfo){
+						var exp = new Date();
+						exp.setTime(exp.getTime() + 30*60*1000);
+						var b = new Base64();  
+						var name = b.encode(userInfo.name); 
+						//var address = b.encode(userInfo.address); 
+						//var cardid = b.encode(userInfo.papersnumber);
+						document.cookie = "userid=" + userInfo.uuid + ";path=/;expires=" + exp.toGMTString();
+						document.cookie = "nickname=" + name + ";path=/;expires=" + exp.toGMTString();
+						//document.cookie = "address=" + address + ";path=/;expires=" + exp.toGMTString();
+						//document.cookie = "authlevel=" + userInfo.authlevel + ";path=/;expires=" + exp.toGMTString();
+						//document.cookie = "cardid=" + cardid + ";path=/;expires=" + exp.toGMTString();
+						//document.cookie = "email=" + userInfo.email + ";path=/;expires=" + exp.toGMTString();
+						//document.cookie = "isauthuser=" + userInfo.isauthuser + ";path=/;expires=" + exp.toGMTString();
+						//document.cookie = "loginname=" + userInfo.loginname + ";path=/;expires=" + exp.toGMTString();
+						//document.cookie = "logintime=" + userInfo.logintime + ";path=/;expires=" + exp.toGMTString();
+						//document.cookie = "mobile=" + userInfo.mobile + ";path=/;expires=" + exp.toGMTString();
+						//document.cookie = "nation=" + userInfo.nation + ";path=/;expires=" + exp.toGMTString();
+						//document.cookie = "regtime=" + userInfo.regtime + ";path=/;expires=" + exp.toGMTString();
+						//document.cookie = "sex=" + userInfo.sex + ";path=/;expires=" + exp.toGMTString();
+						$("#header").attr("src",$("#header").attr("src")+"?v=1");
+					}
+					
+                    function addCorUserInfoCookie(userInfo){
+						var exp = new Date();
+						exp.setTime(exp.getTime() + 30*60*1000);
+						var b = new Base64();  
+						var name = b.encode(userInfo.name); 
+						var regaddress= b.encode(userInfo.regaddress); 
+						var cardid = b.encode(userInfo.cardid);
+						var corname = b.encode(userInfo.corname); 
+						
+						document.cookie = "userid=" + userInfo.uuid + ";path=/;expires=" + exp.toGMTString();
+						document.cookie = "nickname=" + name + ";path=/;expires=" + exp.toGMTString();
+						
+						document.cookie = "regaddress=" + regaddress+ ";path=/;expires=" + exp.toGMTString();
+						document.cookie = "cardid=" + cardid  + ";path=/;expires=" + exp.toGMTString();
+						document.cookie = "mobile=" + userInfo.mobile + ";path=/;expires=" + exp.toGMTString();
+						document.cookie = "corname=" + corname + ";path=/;expires=" + exp.toGMTString();
+						document.cookie = "corusermobile=" + userInfo.corusermobile + ";path=/;expires=" + exp.toGMTString();
+						document.cookie = "cornumber=" + userInfo.cornumber+ ";path=/;expires=" + exp.toGMTString();
+				   
+						document.cookie = "isauthuser=" + userInfo.isauthuser + ";path=/;expires=" + exp.toGMTString();
+						document.cookie = "loginname=" + userInfo.loginname + ";path=/;expires=" + exp.toGMTString();
+						document.cookie = "logintime=" + userInfo.logintime + ";path=/;expires=" + exp.toGMTString();
+				 
+						$("#header").attr("src",$("#header").attr("src")+"?v=1");
+					}
+						
+                    // function getCookie(name) {
+                    //     var arr, reg = new RegExp("(^| )" + name + "=([^;]*)(;|$)");
+                    //     if (arr = document.cookie.match(reg))
+                    //         return unescape(arr[2]);
+                    //     else
+                    //         return null;
+                    // }
+
+                    function getCookie(name) {
+                        const arr = document.cookie.match(new RegExp("(^| )" + name + "=([^;]*)(;|$)"));
+                        if (arr != null) return unescape(arr[2]);
+                        return "";
+                    }
+
+                    var getokenurl = "http://cmsqs.qingdao.gov.cn:9001/zwfwsd/getTokenByTicketAndCode?appCode=4&v="+ Math.random()+"&ticket=";
+                    var getUserInfoByTokenUrl ="http://cmsqs.qingdao.gov.cn:9001/zwfwsd/getUserInfoByToken?v="+Math.random()+"&appCode=4&token=";
+					
+                    function getTokenByTicket(ticket) {
+                        jQuery.getJSON("http://cmsqs.qingdao.gov.cn:9001/zwfwsd/getTokenByTicketAndCode?jsoncallback=?&ticket="+ticket+"&appCode=4",function(d){
+                            if (d != "") {
+
+
+                                setTokenToCookie(d.data);
+                                if (d.usertype == "1") {
+                                    getUserInfoByToken(d.data);
+                                }
+                                if (d.usertype == "2") {
+                                    getCorUserInfoByToken(d.data);
+                                }
+
+
+                            } else {
+                                alert("获取token信息失败");
+                            }
+
+                        })
+
+                    }
+
+                    function setTokenToCookie(token) {
+
+                        var exp = new Date();
+                        exp.setTime(exp.getTime() + 30 * 60 * 1000);
+                        document.cookie = "token=" + token + ";path=/;expires=" + exp.toGMTString();
+                        var token = getCookie("token");
+
+                    }
+                    //设置cookie
+                    function setCookie(cname) {
+                        var exp = new Date();
+                        exp.setTime(exp.getTime() - 1);
+                        var cval = getCookie(cname);
+                        if (cval != null)
+                            document.cookie = cname + "=" + cval + ";path=/;expires=" + exp.toUTCString();
+                    }
+                    
+                    function toLogin() {
+                        //window.parent.location.href = "https://zwfw.sd.gov.cn/JIS/front/login.do?uuid=mrqej5AD83G5&gotourl=http://www.qdlc.gov.cn";
+						window.parent.location.href = "https://tysfrz.isdapp.shandong.gov.cn/jpaas-jis-sso-server/sso/entrance/auth-center?appMark=DINGDLICANGWKLFD&userType=1&backUrl=http://www.qdlc.gov.cn";
+					}
+                    
+                    function toRegister() {
+                        // window.parent.location.href = "https://zwfw.sd.gov.cn/JIS/front/register/perregister1.do?uuid=mrqej5AD83G5";
+						window.parent.location.href = "https://tysfrz.isdapp.shandong.gov.cn/jis-web/register?appMark=DINGDLICANGWKLFD";
+                    }
+
+                    function getUserInfoByToken(token) {
+						jQuery.getJSON("http://cmsqs.qingdao.gov.cn:9001/zwfwsd/getUserInfoByTokenAndCode?jsoncallback=?&token="+token+"&appCode=4",function(data){
+                            debugger
+                            if (data == "") {
+
+                                return;
+                            }
+                            if (data != "") {
+                                addUserInfoCookie(data);
+
+                                jQuery("#userName").html(data.name);
+                                document.getElementById("userName").value = data.name;
+                                document.getElementById("userName").innerHTML = data.name;
+                                
+                                jQuery("#userName1").html(data.name);
+
+                                document.getElementById("userName").onclick = function () {
+                                    window.location.href = 'http://www.qdlc.gov.cn/user.shtml'
+                                }
+
+                                document.getElementById("login").style.display = "none";
+                                document.getElementById("return").style.display = "block";
+
+                            } else {
+                                alert("获取用户信息失败");
+                            }
+
+                        })
+
+
+                    }
+                    
+                    function getCorUserInfoByToken(token) {
+                        jQuery.getJSON("http://cmsqs.qingdao.gov.cn:9001/gov-login-webapp/govlogin/getCorUserInfoByToken?jsoncallback=?&token=" + token, function (data) {
+                            debugger
+                            if (data == "") {
+
+                                return;
+                            }
+                            if (data != "") {
+                                addCorUserInfoCookie(data);
+
+                                document.getElementById("userName").innerHTML = data.name;
+                                document.getElementById("userName1").innerHTML = data.name;
+                                document.getElementById("userName").onclick = function () {
+                                    window.location.href = 'http://www.qdlc.gov.cn/user.shtml'
+                                }
+
+                                document.getElementById("login").style.display = "none";
+                                document.getElementById("return").style.display = "block";
+
+
+                            } else {
+                                alert("获取用户信息失败");
+                            }
+
+                        })
+                    }
+                    
+                    function Tuichu() {
+                        delCookie("userid");
+                        delCookie("nickname");delCookie("token");
+                        window.parent.location.href = "http://www.qdlc.gov.cn";
+                    }
+
+                    function delCookie(name){//为了删除指定名称的cookie，可以将其过期时间设定为一个过去的时间 
+                        var date = new Date(); 
+                        date.setTime(date.getTime() - 10000); 
+                        document.cookie = name + "=a; expires=" + date.toGMTString(); 
+                    } 
+                </script>
+                <!-- 一号登陆 -->
+                <a href="javascript:;" id="toolbarSwitch" title="无障碍">无障碍</a> |
+                <a href="javascript:;" title="长者版">长者版</a> |
+                <a class="Channel" href="javascript:StranBody()" id="StranLink" name="StranLink"
+                    title="點擊以繁體中文方式浏覽">繁體中文</a> |
+                <div class="drop">
+                    <button class="button border-none padding-none">手机版</button>
+                    <div class="dropdown padding bg-white border radius">
+                        <img src="http://www.qdlc.gov.cn/images/shouji_erweima.png" class="img-auto" />
+                        <p class="align-center line-small">扫码手机访问李沧政务网</p>
+                    </div>
+                </div> |
+                <a href="http://mail.qd.shandong.cn/" target="_blank">邮　箱</a> |
+                <a href="http://www.qdlc.gov.cn/ghwd/znwdlc/index.html" target="_blank">智能问答</a>
+
+            </div>
+        </div>
+    </div>
+<!-- top  -->
+<script src="http://www.qdlc.gov.cn/images/esdToolsInit.js"></script>
+<script src="http://www.qdlc.gov.cn/images/stran.js" charset="UTF-8"></script>
+<iframe frameborder="0" height="540" scrolling="no" src="http://www.qdlc.gov.cn/ggzy/gytb/header.shtml" width="100%" ignoreapd="1"></iframe>
+<!-- 头部模块结束 -->
+
+    <main class="pc">
+        <div class="breadcrumb main"><i><img src="../../../../../images/icon-location.png" /></i>
+            当前位置：&nbsp;<a href="../../../../../" title="首页" class="CurrChnlCls">首页</a>&nbsp;/&nbsp;<a href="../../../../" title="基层政务公开标准化规范化" class="CurrChnlCls">基层政务公开标准化规范化</a>&nbsp;/&nbsp;<a href="../../../" title="食品药品监管领域" class="CurrChnlCls">食品药品监管领域</a>&nbsp;/&nbsp;<a href="../../" title="公共服务" class="CurrChnlCls">公共服务</a>&nbsp;/&nbsp;<a href="../" title="食品用药安全宣传活动" class="CurrChnlCls">食品用药安全宣传活动</a>
+        </div>
+        <!-- nav-breadcrumb -->
+
+        <section class="main content border padding-large margin-bottom-big">
+            <h2 class="align-center">
+                药品网络销售禁止清单（第一版）（2022年11月制定）
+            </h2>
+
+            <div class="align-center">
+                <span style="color: #999;font-size: 14px;margin-right: 30px;"><i class="icon-clock text-big margin-right-small"></i>2024-07-15 </span>
+                <span style="color: #999;font-size: 14px;">来源：
+
+							
+							
+								
+							
+							
+						
+							
+							
+								
+									区市场监管局
+								
+							
+							
+
+
+						</span>
+            </div>
+            <hr/>
+                
+            <!--content.begin-->
+            
+            <!--[正文]-->
+            <div class="cont">
+
+                  
+                   
+                             <div class="trs_editor_view TRS_UEDITOR trs_paper_default trs_word"><p style="text-indent: 2em;">一、政策法规明确禁止销售的药品</p><p style="text-indent: 2em;">疫苗、血液制品、麻醉药品、精神药品、医疗用毒性药品、放射性药品、药品类易制毒化学品；医疗机构制剂、中药配方颗粒。</p><p style="text-indent: 2em;">二、其他禁止通过网络零售的药品</p><p style="text-indent: 2em;">（一）注射剂（降糖类药物除外）。</p><p style="text-indent: 2em;">（二）含麻黄碱类复方制剂（不包括含麻黄的中成药）、含麻醉药品口服复方制剂、含曲马多口服复方制剂、右美沙芬口服单方制剂。</p><p style="text-indent: 2em;">（三）《兴奋剂目录》所列的蛋白同化制剂和肽类激素（胰岛素除外）。</p><p style="text-indent: 2em;">（四）地高辛、丙吡胺、奎尼丁、哌唑嗪、普鲁卡因胺、普罗帕酮、胺碘酮、奎宁、氨茶碱、胆茶碱、异丙肾上腺素；</p><p style="text-indent: 2em;">苯妥英钠、卡马西平、拉莫三嗪、水合氯醛、达比加群酯、华法林、替格瑞洛、西洛他唑、扑米酮、碳酸锂、异氟烷、七氟烷、恩氟烷、地氟烷、秋水仙碱；</p><p style="text-indent: 2em;">米非司酮、复方米非司酮、环丙孕酮、卡前列甲酯、雌二醇、米索前列醇、地诺前列酮；</p><p style="text-indent: 2em;">法罗培南、夫西地酸、伏立康唑、利奈唑胺、奈诺沙星、泊沙康唑、头孢地尼、伊曲康唑、左奥硝唑、头孢泊肟酯。</p><p style="text-indent: 2em;">备注：</p><p style="text-indent: 2em;">1.中药配方颗粒是指由单味中药饮片经水提、分离、浓缩、干燥、制粒而成的颗粒，须在中医药理论指导下，按照中医临床处方调配后，供患者冲服使用。</p><p style="text-indent: 2em;">2.二（四）所列品种为通用名，限于单方制剂，其中抗菌药不含外用剂型。</p></div>
+                    
+            </div>
+            <!--[正文]-->
+            
+            <br>
+            <div class="tpl-attach-item tpl-link-attach hidden">
+                <p class="tpl-attach-tag">相关新闻：</p>
+                
+            </div>
+            <div class="tpl-attach hidden">
+                <div class="tpl-attach-item tpl-pic-attch"><p class="tpl-attach-tag">相关图片：</p>
+                    
+                </div>
+                <div class="tpl-attach-item tpl-video-attach hidden">
+                    <p class="tpl-attach-tag">相关附件：</p>
+                    
+                </div>
+            </div>
+            <!--content.end-->
+        </section>
+    </main>
+    <script src="../../../../../images/esdToolsInit.js"></script>
+<iframe frameborder="0" height="200" scrolling="no" src="../../../../../ggzy/gydb/footer.shtml" width="100%"></iframe>
+<!-- service  -->
+	<style type="text/css">
+		.service{right:-70px !important;position: fixed;top:22%;transition:all .4s}
+		.service .arrow_close{display:block}
+		.service .arrow_open{display:none}
+		.service.open{right:0 !important;}
+		.service.open .arrow_open{display:block}
+		.service.open .arrow_close{display:none}
+		.service .v_shortcut_handler{display:block;position:absolute;left:-32px;top:50%;margin-top:-32px;width:32px;height:64px;background-color:#e77417;border-radius:32px 0 0 32px}
+	</style>
+    <div class="service fixed-right-bottom print-hidden">
+	<div class="card" align="center">
+            <a class="v_shortcut_handler">
+		<img src="../../../../../images/state1.png" class="arrow_open" />
+		<img src="../../../../../images/state.png" class="arrow_close" />
+            </a>
+            <ul class="list-group">
+                <li class="service-item">
+                    <div class="service-body popove popove-left">
+                        <div class="popove-body"><img src="../../../../../images/erweimaindex.png" /></div>
+                    </div>
+                    <img src="../../../../../images/weixin.png" class="padding-top" />
+                    <span>微信</span>
+                </li>
+                <li class="service-item">
+                    <div class="service-body popove popove-left">
+                        <div class="popove-body"><img src="../../../../../images/weibo_licang.png" /></div>
+                    </div>
+                    <img src="../../../../../images/weibo.png" class="padding-top" />
+                    <span>微博</span>
+                </li>
+                <a href="http://www.qdlc.gov.cn/lcgovernment/" target="_blank">
+					<li class="service-item">
+						<img src="../../../../../images/zixun.png" class="padding-top" /><br>
+						<span>咨询投诉</span>
+					</li>
+				</a>
+                <li class="service-item  padding-none">
+                    <div class="service-body popove popove-left">
+                        <div class="popove-body"><img src="../../../../../images/lcqApp.jpg" /></div>
+                    </div>
+                    <img src="../../../../../images/tousu.png" class="padding padding-bottom-none" />
+                    <span>家在李沧APP</span>
+                </li>
+                <li class="service-item">
+                    <div class="service-body popove popove-left">
+                        <div class="popove-body"><img src="../../../../../images/shouji_erweima.png" /></div>
+                    </div>
+                    <img src="../../../../../images/mobile.png" class="padding-top" />
+                    <span>手机</span>
+                </li>
+            </ul>
+            <div class="card-foot text-white cursor" data-win="top">顶部</div>
+        </div>
+    </div>
+    <script>
+	$(function(){
+	     $('.v_shortcut_handler').click(function(){
+		console.log(1);
+		$('.service').toggleClass('open');
+	     });
+	});
+    </script>
+
+    <div class="phone pet_mian">
+		<div class="pet_head">
+			<header class="am-header am-header-default pet_head_block" data-am-widget="header">
+				<div class="am-header-left am-header-nav"><a href="javascript:history.go(-1)"><img alt="" class="am-header-icon-custom" src="data:image/svg+xml;charset=utf-8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 12 20&quot;&gt;&lt;path d=&quot;M10,0l2,2l-8,8l8,8l-2,2L0,10L10,0z&quot; fill=&quot;%23fff&quot;/&gt;&lt;/svg&gt;" />
+					</a></div>
+
+				<h1 class="am-header-title"><a href="http://www.qdlc.gov.cn">李沧政务网</a></h1>
+
+				<div class="am-header-right am-header-nav" style="display: none;"><a class="iconfont pet_head_gd_ico"
+						href="javascript:;"></a></div>
+			</header>
+		</div>
+
+		<div class="pet_content">
+			<div class="pet_content_block">
+				<article class="am-paragraph am-paragraph-default pet_content_article"
+					data-am-paragraph="{ tableScrollable: true, pureview: true }" data-am-widget="paragraph">
+					<h1 class="pet_article_title">
+						药品网络销售禁止清单（第一版）（2022年11月制定）
+					</h1>
+
+					<div class="pet_article_user_time">发表于：2024-07-15 &nbsp;&nbsp;<span>来源：区市场监管局</span></div>
+					
+					<div class="trs_editor_view TRS_UEDITOR trs_paper_default trs_word"><p style="text-indent: 2em;">一、政策法规明确禁止销售的药品</p><p style="text-indent: 2em;">疫苗、血液制品、麻醉药品、精神药品、医疗用毒性药品、放射性药品、药品类易制毒化学品；医疗机构制剂、中药配方颗粒。</p><p style="text-indent: 2em;">二、其他禁止通过网络零售的药品</p><p style="text-indent: 2em;">（一）注射剂（降糖类药物除外）。</p><p style="text-indent: 2em;">（二）含麻黄碱类复方制剂（不包括含麻黄的中成药）、含麻醉药品口服复方制剂、含曲马多口服复方制剂、右美沙芬口服单方制剂。</p><p style="text-indent: 2em;">（三）《兴奋剂目录》所列的蛋白同化制剂和肽类激素（胰岛素除外）。</p><p style="text-indent: 2em;">（四）地高辛、丙吡胺、奎尼丁、哌唑嗪、普鲁卡因胺、普罗帕酮、胺碘酮、奎宁、氨茶碱、胆茶碱、异丙肾上腺素；</p><p style="text-indent: 2em;">苯妥英钠、卡马西平、拉莫三嗪、水合氯醛、达比加群酯、华法林、替格瑞洛、西洛他唑、扑米酮、碳酸锂、异氟烷、七氟烷、恩氟烷、地氟烷、秋水仙碱；</p><p style="text-indent: 2em;">米非司酮、复方米非司酮、环丙孕酮、卡前列甲酯、雌二醇、米索前列醇、地诺前列酮；</p><p style="text-indent: 2em;">法罗培南、夫西地酸、伏立康唑、利奈唑胺、奈诺沙星、泊沙康唑、头孢地尼、伊曲康唑、左奥硝唑、头孢泊肟酯。</p><p style="text-indent: 2em;">备注：</p><p style="text-indent: 2em;">1.中药配方颗粒是指由单味中药饮片经水提、分离、浓缩、干燥、制粒而成的颗粒，须在中医药理论指导下，按照中医临床处方调配后，供患者冲服使用。</p><p style="text-indent: 2em;">2.二（四）所列品种为通用名，限于单方制剂，其中抗菌药不含外用剂型。</p></div>
+					  
+				</article>
+			</div>
+
+			<div class="pet_article_footer_info">版权所有：中共青岛市李沧区委、青岛市李沧区人民政府</div>
+		</div>
+
+        <div class="am-gotop am-gotop-fixed" data-am-widget="gotop">
+            <a href="#top" title="">
+                <img class="am-gotop-icon-custom" src="../../../../../images/mlc-goTop.png" />
+            </a>
+        </div>
+	</div>
+    <script src="../../../../../images/amazeui.min.js"></script>
+<script>
+window.esdArOption = {contentDom: ".pc .TRS_UEDITOR"};
+jQuery.getScript("https://www.mangren.com/articleReader.js");
+</script>
+</body>
+</html>

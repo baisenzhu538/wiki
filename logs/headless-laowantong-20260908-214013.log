@@ -1,0 +1,262 @@
+kimi version 0.41.0
+• Let me start with the startup recovery reads.Startup recovery done. Now claim #684. First check queue status, then claim via queue_transition.py.
+
+• 启动恢复完成。现在查看队列状态并领取 #684。队列总任务数: 280
+queued: 3
+claimed: 0
+pending_review: 1
+  #686 task_20260908_huangyaoshi-ai-data-domain-infra — 基建：ai-data-domain-digest 补建（参照 ai-basic 骨架）+12+散卡注册 domain-mapping+双三角AI数据重复卡去重合并
+
+
+• There's a pending_review ahead (#686, huangyaoshi's task). Per rules, "在队列前方还有 pending_review 任务时领取下一个 queued 任务" is forbidden? Actually rule #2 says 老顽童绝对禁止：在队列前方还有 pending_review 任务时领取下一个 queued 任务. But the claim script gate handles that — it will reject if blocked. Let me try claim and see.队列前方还有 pending_review 任务未终审：#686 task_20260908_huangyaoshi-ai-data-domain-infra。必须等它们 reviewed 后才能领取 task_20260908_laowantong-live258-six-cases
+The queue is blocked by #686 pending_review (huangyaoshi's infrastructure task, awaiting 欧阳锋 review). Per the gate, I cannot claim #684 until #686 is reviewed. The gate is machine-enforced — "脚本拒绝 → 绝对不能执行."
+
+  So I must report this blocked state. Per instructions: "只做本次指令范围内的事" — I cannot claim the task. I should log to todos and report standby/blocked.
+
+  Wait — but #686 belongs to huangyaoshi and is pending_review, awaiting 欧阳锋's final review. That's not something I can act on (no cross-role task assignment). I should record this in todos/laowantong.md and report to the user.
+
+  Let me append a line to 90_control/todos/laowantong.md. Note the file has mixed/CRLF line endings. I'll append a line with \r\n style? The Read output shows \r at end of lines. Using Bash append would be simpler and avoids Edit CRLF issues, but dedicated tools preferred. Write tool in append mode — content will be written literally; I should use \r\n? The file appears to use \r\n mostly ("Mixed or lone carriage-return"). Simplest: use Bash printf append with \r\n. Actually Edit tool could match the last line. Append via Write with \r\n ending to match file convention.
+
+  Get current time first, then append. Also per session-end mandatory actions... this session may just be reporting blocked. Should I do the Truman recap? The AGENTS.md (huangyaoshi's) mandates it, but laowantong context mandates Truman 11-chapter recap at session end. However, this is a short blocked turn; the user instruction says "只做本次指令范围内的事，做完收工". The session-end recap is required "每次会话结束前". But I'm not necessarily ending the session — the user may redirect. I'll report the blockage and note that I can proceed once #686 is reviewed. I could also set a cron to re-check? The wake-up crons already exist (the 15min ones in todos show previous session had them). Per startup step 0, I should check my doorbell cron exists. Let me do CronList.
+
+• 门禁拦截：队列前方 #686（黄药师基建单）仍在 `pending_review`，脚本拒绝领取 #684——按铁律「脚本拒绝 → 绝对不能执行」。先确认门铃时钟，再落盘记录。2026-09-08 21:40
+
+
+• No doorbell cron in this session. Per startup step 0, rebuild it: every 15 min, prompt to read todos + myqueue. Then append todos line.
+
+• 门铃时钟缺失（换会话丢时钟），立即重建；同时记录本次领单受阻。
+
+• Now report to user. Should I do the full Truman 11-chapter recap? The session is ending with a blockage report — the context says 每次会话结束前 must do the recap. But this is an interactive CLI; the user may respond. Given the task is blocked (not completed), and I'm standing by, writing a full Truman recap for a 3-action session seems heavy, but the rule says "不执行=会话未完成". However, the user instruction says "只做本次指令范围内的事，做完收工". The session may continue when the cron fires or user replies. I'll report status now; the recap applies at true session end. Actually the wake-up cron will fire in this same session, so the session isn't ending. I'll just report.
+
+• 领单受阻，已按纪律处理完毕。报告如下：
+
+  **启动恢复**：已读 `.agent/startup.md` + `.agent/laowantong-context.md` + `todos/laowantong.md` 未读段（末条：#683 已终审通过 ✅）。
+
+  **#684 领单结果 —— 被门禁拦截（合法拒绝）**：
+  - `queue_transition.py claim` 返回拒绝：队列前方 **#686 task_20260908_huangyaoshi-ai-data-domain-infra**（黄药师基建单）仍在 `pending_review`，未过欧阳锋终审，阻塞后续 queued 任务领取。
+  - 按铁律「脚本拒绝 → 绝对不能执行」，未做任何绕过。
+
+  **已做的动作**：
+  1. 补装门铃时钟（本会话无 cron，换会话丢了）——每 15min 一拍，id `01M20M0FMP8RQHMXSMBFGRHN7F`，拍点自动复查 #686 终审状态，一旦 reviewed 立即 claim #684 施工。如需取消/调整节奏，告诉我即可。
+  2. `todos/laowantong.md` 已落一行受阻记录（21:40）。
+
+  **当前状态**：待命。队列里我可领的 3 单（#684/#685/#687）均被 #686 卡在前——解锁钥匙在欧阳锋终审。#686 一过我即刻开产 Live258 六案例。
+
+• Check queue status and todos unread segment.队列总任务数: 280
+queued: 3
+claimed: 0
+pending_review: 1
+  #686 task_20260908_huangyaoshi-ai-data-domain-infra — 基建：ai-data-domain-digest 补建（参照 ai-basic 骨架）+12+散卡注册 domain-mapping+双三角AI数据重复卡去重合并
+Still blocked. #686 still pending_review. Report standby briefly.
+
+• 【叫醒巡检 21:45】#686 仍在 `pending_review`（黄药师基建单，待欧阳锋终审），队列阻塞未解除，#684 无法领取。继续待命，门铃下一拍自动复查。
+
+队列总任务数: 280
+queued: 3
+claimed: 0
+pending_review: 0
+• #686 is no longer pending_review — reviewed. Queue now has 3 queued, 0 pending_review. Claim #684 now.
+
+• #686 已终审通过，阻塞解除。立即领取 #684。✅ task_20260908_laowantong-live258-six-cases 已领取为 claimed-laowantong
+⚠️ task_20260908_laowantong-live258-six-cases 缺 `initial_assessment`（初判=待证命题+核查锚）——WARNING 台账已记，开工前先核任务单前提与盘上现状（#679；软期至 2026-09-14）
+✅ dashboard.html 已生成 (229 个任务)
+   待领取: 0  |  审查中: 0  |  进行中: 0  |  已完成: 229
+
+
+• Claimed. Now find and read the task file. Let me locate it.70_product/tasks/production-queue.md
+Task spec clear. Six case cards from source material `00_inbox/AI基本功/Live258：AI基本功第一课优秀作业.md` (3024 lines). This is a substantial production task.
+
+  Plan per 老顽童 discipline:
+  1. 建模方案 (出牌) — read framework-kdo-modeling-methodology + concept-kdo-component-library, write 建模方案 section into task file.
+  2. 查路由： kdo cards --domain (what domain? Live258 cases — likely domain "ai-basic"? Let me check existing Live258 cards, e.g. case-live258-huanghuachun). Check existing 4 produced cases for format/template.
+  3. Read the source material (3024 lines — that's big; read fully per L2/口述稿-first discipline, or at least the specified line ranges plus context).
+  4. Read the two dk cards for cross-link alignment.
+  5. WebSearch per acceptance criterion 5 (≥1 次 WebSearch 对标 + ≥1 失败案例 in self-attack).
+  6. Write 6 cards, each ≥100 lines body, pre-submit each, self-attack, then complete.
+
+  This is a large task. Delegation could help, but the L2 discipline requires me to consume full material. 3024 lines is manageable in chunks. Actually I could delegate sub-parts to coder subagents, but quality gates and my responsibility... The instruction says do the work. Given the scale (6 cards × ≥100 lines each + full material read), using subagents for card drafting could risk quality. But context-wise, 3024 lines of source + reference cards will be heavy. Let me do it directly but efficiently.
+
+  First steps: check existing Live258 cards for template, check domain, read material. Let me start with parallel investigation.
+
+  Let me first look at existing Live258 case cards.case-live258-europe-cold-email.md
+case-live258-fact-spread-18-bridges.md
+case-live258-livestream-prompt-v1-v5.md
+case-live258-zhihu-content-acquisition.md
+---
+concept-truman-feature-four-scenarios
+concept-truman-feature-six-stages
+Interesting — existing Live258 case cards have different names than the 4 already-produced ones mentioned (黄华春/jeffgirl/张丽娜/王鹏飞). Let me check those: maybe named differently. Let me search for them and also check the kdo cards for live258 related. Also find which domain the Live258 cards belong to.30_wiki/cases/case-feishu-live259-l3-extraction.md
+30_wiki/cases/case-live258-europe-cold-email.md
+30_wiki/cases/case-live258-fact-spread-18-bridges.md
+30_wiki/cases/case-live258-livestream-prompt-v1-v5.md
+30_wiki/cases/case-live258-zhihu-content-acquisition.md
+30_wiki/cases/case-truman-temperature-parameter.md
+---
+Top 8 result(s) (hybrid RRF (graph+BM25+MOC), trust≥medium, Core→Extended→Reference):
+
+[0.15] 30_wiki/tools/tool-feature-review-five-step.md
+    --- id: tool-feature-review-five-step title: 「工具：Feature复盘五步法——用/缺/叠加/改进/沉淀」 type: tool status: reviewed confidence: 0.85 trust_level: medium domain: - ai-basic author: 老顽童 source_refs: - 00_inbox/AI基本功/Live258：AI基本功第一课优秀作业.md source_person: Live258 十位学员（黄华春/jeffgirl/张丽娜/王鹏飞/田力/行知/农夫三拳/雍博/Simon Peng
+
+[0.03] 30_wiki/cases/case-live258-fact-spread-18-bridges.md
+    ## Synthesis
+
+三案例（`[[case-live258-zhihu-content-acquisition]]`、`[[case-live258-livestream-prompt-v1-v5]]`、`[[case-live258-fact-spread-18-bridges]]`）合起来是 Feature 思维的正反两面教材：黄华春/jeffgirl 演示"补 Feature→提升"的正循环，王鹏飞演示"缺 Feature→翻车"的负循环——且翻车案例的信息密度最高（失败比成功暴露更多 Feature 缺口）。特别值得注意的是**产线放大效应**：王鹏飞的一进多出（1C 组合）本...
+
+[0.02] 30_wiki/concepts/concept-harness-scoring-anchors.md
+    # 评分锚定
+
+> LLM评估者天然偏向中位数——用1-10分制时集中打7-8分，无法区分质量。Harness的三个解法：1-5分制 + 语义锚点 + 取较低值。
+
+## 三个设计原则
+
+### 1. 1-5分制而非1-10分制
+
+LLM在1-10分制下会"和稀泥"——避开极端分数（1-2分和9-10分），集中在5-8分的"安全区间"。1-5分制压缩了这个灰色地带。
+
+### 2. 语义锚点：每档写死含义
+
+| 分数 | 语义锚点 |
+|:---:|:---|
+| 5 | 生产就绪，无已知缺陷，可直接部署 |
+| 4 | 有一个小问题，修复<5分钟 |
+| 3 | 有中等问题，修复<1小时 |...
+
+[0.02] 30_wiki/cases/case-live258-livestream-prompt-v1-v5.md
+Existing Live258 cases: europe-cold-email （黄华春？), fact-spread-18-bridges （王鹏飞？), livestream-prompt-v1-v5 (jeffgirl?), zhihu-content-acquisition （张丽娜？). And tool-feature-review-five-step references all 10 students. Let me read one existing case card as template, plus the tool card header to see domain mapping. Let me read the fact-spread case (synthesis card mentioned) and one normal case as template.Good template. Now read the source material. 3024 lines. The task says material fully read already (per spec source), but I must consume the relevant sections. The task lists line anchors:
+  - 雍博： L1705-1823
+  - 农夫三拳： L671-1057
+  - 行知： L513-669
+  - 田力： L1059-1701
+  - 黄谦： L2909-3023
+  - Simon Peng: L355-511
+
+  Total ≈ 120 + 390 + 160 + 640 + 115 + 160 = ~1585 lines. Per L2 （口述稿第一）, I should read the full material. But 3024 lines is 3 Read calls of 1000 lines. The four already-produced cases cover L11-351ish, L1700s-2900s partially. Reading everything is the discipline. But context: 3024 lines × maybe 60 chars = ~180KB text... too much for my context all at once but Read caps at 100KB/1000 lines per call. 3 calls of 1000 lines each ≈ 300KB total into context. That's heavy but this is the core of the task. 
+
+  Alternative: delegate? The discipline requires material consumption; subagents could each consume their section and draft their card. But quality gates （深挖 L1-L5, 100+ lines, specific failure modes) require skill. Given this is a P1 task with 6 cards, using AgentSwarm with one subagent per card, each reading its line range + the two dk cards + template, could work well. But risk: subagents produce inconsistent quality, and pre-submit/self-attack need care.
+
+  Actually, let me be pragmatic: read the full source myself (it's the L2 gate). 3024 lines in 3 reads. Then write cards myself. Context should handle it — my context window is large. Let me read the material in 3 chunks.
+
+  Also read the two dk cards and the changelog reference. And check the tool card tool-feature-review-five-step for the six-stages/layered system references, plus framework cards for related links. Let me proceed.Full material consumed (3024 lines). Now read the two dk cards for cross-link alignment, and check the V0.9 changelog reference. Also read framework references quickly for related links (framework-truman-feature-layered-system exists per template). Let me read the two dk cards (relevant sections) and grep the changelog.
+
+• 素材 3024 行全量消费完毕。现在做 dk 互链前置查重。
+
+• dk cross-link context confirmed. Now check related framework cards exist for `related` fields. The template card uses: framework-truman-feature-thinking-core, framework-truman-feature-layered-system, dk-demand-feature-stacking, ai-basic-domain-digest, tool-feature-review-five-step, plus cross-case links. Verify these exist quickly, plus check the modeling framework + component library (needed for 建模方案）. Let me check existence of key cards.OK 30_wiki/frameworks/framework-truman-feature-thinking-core.md
+OK 30_wiki/frameworks/framework-truman-feature-layered-system.md
+MISS 30_wiki/ai-basic-domain-digest.md
+OK 30_wiki/tools/tool-feature-review-five-step.md
+OK 30_wiki/frameworks/framework-kdo-modeling-methodology.md
+OK 30_wiki/concepts/concept-kdo-component-library.md
+OK 30_wiki/frameworks/framework-kdo-self-attack.md
+OK 30_wiki/dark-knowledges/dk-feature-pieces-not-recognized-as-cards.md
+OK 30_wiki/dark-knowledges/dk-feature-not-learned-but-used.md
+30_wiki/dark-knowledges/dk-digest-registration-gap.md
+30_wiki/domains/ai-basic-domain-digest.md
+30_wiki/domains/ai-collaboration-domain-digest.md
+30_wiki/domains/ai-data-domain-digest.md
+30_wiki/domains/business-formula-domain-digest.md
+30_wiki/domains/conversion-rate-domain-digest.md
+30_wiki/domains/decision-science-domain-digest.md
+30_wiki/domains/five-step-domain-digest.md
+30_wiki/domains/human-insights-domain-digest.md
+30_wiki/domains/innovation-domain-digest.md
+35:- ai-basic-domain-digest
+Update todos: items 1, 3, 4 done (material consumed, dk cross-link checked). Next: 建模方案 + WebSearch. Also read component library briefly for card numbers? The L1 discipline says read the two framework files and pick 5-8 cards. I know the component library structure roughly but should Read it. Let me read the component library (probably lists 17 cards) — read it, then write 建模方案 into task file. Also do WebSearch for benchmarking. Let me do these in parallel-ish.Now write 建模方案 into the task file, then do WebSearch benchmarking. The 建模方案 per L1 format: [素材牌] → [边界牌] → [结构牌] → [过程牌] → [质量牌], 5-8 cards with reasons.
+
+• 出牌完成，将建模方案写入任务单。
+
+• Now WebSearch benchmarking (acceptance criterion: ≥1 WebSearch 对标）. Key claims to benchmark: 雍博's zero-shot 30-65% / 20 demos → 70-80% industrial sorting success rates. Also maybe image-to-video keyframe control. Let me do 2 searches in parallel.WebSearch done — useful benchmarks:
+  - 雍博： VITAL (arXiv 2407.21244) few-shot imitation with human-in-the-loop: 84% sim / 60% real-world on stacking — supports "real-world much lower than demo". EmbodiSwap (2510.03706) zero-shot imitation research active 2025 — supports "zero-shot is hard".
+  - 农夫三拳： 2025 multi-shot video generation consistency is a known challenge (FilmWeaver, Reelmind trends) — supports keyframe count control insight.
+
+  kdo query search record required for 诊断/调研产出 per #669. These are case cards, not 诊断/调研 reports, but I'll note the kdo query I already ran ("Live258 AI基本功 案例", 8 hits) in the task file report and self-attack record. Good enough.
+
+  Now produce the 6 cards. This is the heavy lift. Each card ≥100 lines body, following the template structure. I'll write them one by one. Given context, I'll write each with Write tool.
+
+  Let me plan each card's content carefully from the source:
+
+  **Card 1: case-live258-yongbo-embodied-sorting** (L1705-1823)
+  - 雍博： embodied AI industrial sorting. 传统经验派 vs Feature派. 6大类原子Feature: 最终意图（1-1~1-3), Few-Shot示教（2-1~2-3, 零样本30-65% → 20条示教70-80%), 专业案例知识库（3-1~3-3), 数据源（4-1~4-3), 工作流确定性（5-1~5-4), 评测标准（6-1~6-3). 分层重构： 地基层→工作流层→Agent层. 完整推演案例： 电子产线分拣 Demo成功但真实工厂1小时大量失败 → 4假设 → 逐个补Feature对照实验（25组示教→成功率小幅提升； 力控状态校验→故障率大降； 物理属性库→进一步降低； 多轮评测20次） → 结论不是大模型不够强. Feature周期律4变化（事情×短期/长期， 人×短期/长期）. 假设思维姊妹篇.
+  - Note: this is a 推演/拆解 article, not a real executed project — the "案例" is a worked example （推演）. Evidence status: mostly 推演. Important for Critique. WebSearch benchmark: VITAL 84% sim/60% real; zero-shot research hard.
+
+  **Card 2: case-live258-nongfu-assist-agri-video** (L671-1057)
+  - 农夫三拳： 浦城AIGC助农图生视频工作台. 短视频小白. 目标用户=乡镇一把手/村支书. 60分工作流目标. 三题材： 真实现场型（系统提示词效果好可直出）, 认知反差型（翻车： 关键词万变同一口播稿， 画面主题不一致——通用款为主， 没工作流就是玩具）, 生活场景型（依赖关键帧）. 关键实验： 5关键帧→仅1/5生成成功； 控制变量3关键帧→音画同出字幕正常→稳定60分. 抽卡现象（要求1-4只执行1-2). 独有工件： V1.0→V1.2→V2.2 台前幕后分离框架； R/E/S/X事实分级卡（R真实原图/E AI修复/S AI场景延展/X禁止处理）; 事实分级与内容边界（S不得说"正在采收"）. codex+feature分析→关键节点加脚本生成器+状态机.
+  - Cross-links: dk-ai-does-not-question-your-mistake:112 (R/E/S/X 同源——互挂不重复展开）, dk-demand-feature-stacking:165 （农夫三拳边界例）. V0.9 DataPack 缺口闭环注明.
+
+  **Card 3: case-live258-xingzhi-media-layered-diagnosis** (L513-669)
+  - 行知： 自媒体全流程AI内容创作. 2021至今地产+创业自媒体. 纯工具思维： 复制爆款模板， 换工具. 结果50+分失败： 同质化/流水账/封面混乱/换工具磨合/定位漂移. 六层诊断： L1（参数调优/多模态协同/模型分工缺失）, L2最核心短板（最终意图/专属角色/Few-shot/分层评测/输出结构约束）, L3(RAG素材库/分支循环Workflow/品牌规范数据包）, L4（状态机分步/长期记忆）, L5（多AI协同）. 唯一生效组合=主题约束+单任务拆分. 优化方案自下而上60→80+目标. 反思： 工具思维致命短板； 30年经验不会转Feature; 底层Feature优先不必上复杂Agent("除非必要勿增上层封装"); Feature跨场景迁移复利.
+  - Note: 优化方案是设计的不是实测的——"预期"效果. Evidence: 失败实测 + 方案推演.
+
+  **Card 4: case-live258-tianli-gov-training** (L1059-1701)
+  - 田力： 市委组织部年轻干部培训教研方案. ChatGPT直出→被退回（太学术化/缺针对性/案例空泛/实操不合理）. 困惑→工具思维（怪工具）. 7缺失Feature: 最终意图（立项50万）/上下文环境（科级35岁街道办）/具体数据来源（65%系统思考不足等）/参考案例（5天结构）/专业角色设定（15年政府培训专家）/Few-Shot（案例分析+实战演练示例）/本地化要求. 用了的Feature≈只有基本任务描述. Feature叠加实验V1/V2/V3（推演）. 三轮迭代重做方案（推演）. 反思： AI当万能生成器； Feature=可复用专业经验； 从重新开始到能力积累. 行动： 政府培训FeatureLibrary等4行动.
+  - Note: 被退回是实测失败； 叠加实验是推演（"模拟一下如果当时").
+
+  **Card 5: case-live258-huangqian-promo-film** (L2909-3023)
+  - 黄谦导演： 达瑞电子宣传片. 基本符合预期未超预期. "底层扎实、上层待拓". L1/L2深度应用： 切换模型（飞书智能伙伴替换知识问答）+上下文最大化（三个一工程/合伙人讨论记录/客户PPT); 抽卡测试+任务拆分（方案→脚本两阶段， 状态机确认后推进）; 设定身份（墨氏片场导演）+最终意图（打动客户商务洽谈）+输出规范（哲思七句/痛点价值点/三点提炼）+参考文案. L3初步： Skill封装（达瑞方案创作逻辑）+外部存储（飞书妙记）; 人工评审+口喷修正； 长期记忆（Get笔记+飞书归档， 成交链路方法论/五行工具法）. 问题： L3+几乎未用； L4/L5探索阶段； 抽卡耗时； 状态机小团队冗余； 工具认知滞后. 坚持/放弃/新任务新假设（上层Feature减30%人工迭代； 长期记忆+压缩提升精准40%). 过程资产： 三个一工程（关键冲突+最小故事线+超级符号）, 五行工具法（金木水火土）, SOP清单. 总结： L1/L2是基本功， L3+是放大器.
+
+  **Card 6: case-live258-simonpeng-medical-dataset** (L355-511)
+  - Simon Peng: XZ智能外科全流程多模态高质量数据集交付方案. 两份文档（AI.docx围手术期5链路 + ZG.docx市级数据集框架）+多轮修订指令→正式Word稿. Feature拆解： 25个Feature四层（底层原理F1-F5/核心组件F6-F14/工具应用F15-F20/场景教程F21-F25), 全部启用. 缺失： 实验假设类（基线摸底/仿真验证——"留白？占位是否可以？")/持续调优类/跨角色对齐/可视化配套/落地演练. 叠加5组正效果. 改进补全方案+流程重构7步. 结尾： "试一试看，貌似应该会有提升的。如果没有，再来。"
+  - Task spec: 质量最低、无验证结果——如实呈现局限，作反例/边界教材价值. Critique重点： 这是"用Feature词汇包装文档拼接任务"——Feature清单是事后贴标签，无效果验证； "全部启用"是自评； 25个Feature无优先级无取舍=堆叠非组合（对照dk-demand-feature-stacking"维度覆盖而非数量堆叠"反例）. 边界教材价值： Feature思维被当"分类学术语"用时的形态.
+
+  Now write the cards. Each needs ≥100 lines body. Follow template frontmatter: id, title, type: case, status: enriched (template used "reviewed" but I shouldn't mark reviewed — new cards should be status: enriched? Check what a fresh card uses. The zhihu card has status: reviewed + reviewed_by: 欧阳锋 because it passed review. For new cards, pre-submit requires reviewed_by field — what value? Template earlier: "reviewed_by 是否非 pending/非 author" — from 改进承诺 checklist: status enriched, reviewed_by non-pending... wait that was for 精修 tasks. For new production, status is likely "enriched" with reviewed_by: pending? Let me check what pre-submit expects. L1 mechanical gate: 必需字段完整性（id/type/status/author/reviewed_by/...). Let me check another recently-produced unreviewed card, e.g. from #683 batch (AI数据域 8 cards just produced). Check one.
+
+• 建模方案已落任务单，WebSearch 对标完成。查一张 #683 刚产的新卡确认新卡 frontmatter 惯例（status/reviewed_by 写法）。87ab365ad chore(queue): #684 claim by laowantong
+60_feedback/tasks/task_20260908_laowantong-live258-six-cases.md
+70_product/tasks/dashboard.html
+70_product/tasks/production-queue.md
+906120cd2 chore(queue): #686 review by 欧阳锋
+60_feedback/tasks/task_20260908_huangyaoshi-ai-data-domain-infra.md
+70_product/tasks/dashboard.html
+70_product/tasks/production-queue.md
+9128f977b chore(review): #686 终审 PASS 卡状态自动翻转 3 张 by 欧阳锋
+"30_wiki/cases/case-yihang-dual-triangle-AI\344\270\211\350\247\222-\346\225\260\346\215\256.md"
+"30_wiki/cases/case-yihang-dual-triangle-AI\346\225\260\346\215\256.md"
+30_wiki/domains/ai-data-domain-digest.md
+30_wiki/cases/case-yihang-dual-triangle-AI数据.md
+30_wiki/cases/case-yihang-dual-triangle-AI三角-数据.md
+30_wiki/cases/case-xujian-invoice-data-asset.md
+30_wiki/cases/case-truman-bedtime-story-datapack.md
+30_wiki/cases/case-yitang-education-supply-chain.md
+
+
+• Interesting — #683 cards were produced with status: reviewed, reviewed_by: 欧阳锋 already? That's because after #686/终审 PASS cards auto-flipped. Actually #683 was reviewed by 欧阳锋 at 20:57 ("终审通过 1 单：#683"), so cards flipped to reviewed. When first produced they'd have been status: enriched. Let me check what a pending_review card looks like — but simpler: check the pre-submit requirements. The queue gate "complete" requires task file with pre-submit etc. For card frontmatter, new production likely uses status: enriched, reviewed_by: pending? Hmm, but E018 warns against self-marking reviewed. Let me check a card currently in pending_review state... Actually let me just check pre-submit script or another recently produced-but-not-reviewed card. Search for cards with status: enriched recently created.6df9c3d1f chore(queue): #686 complete by huangyaoshi
+ ...sk_20260908_huangyaoshi-ai-data-domain-infra.md | 202 +++++++++++----------
+ 70_product/tasks/dashboard.html                    |   6 +-
+ 70_product/tasks/production-queue.md               |   3 +-
+ 3 files changed, 113 insertions(+), 98 deletions(-)
+30_wiki/cases/case-ai-companion-emotional.md
+30_wiki/cases/case-ai-job-displacement-wef.md
+30_wiki/cases/case-ai-time-management-tiered-growth.md
+30_wiki/cases/case-friend-circle-aigc-transformation.md:7:reviewed_by: pending
+30_wiki/cases/case-investment-claim-fact-check.md:7:reviewed_by: pending
+30_wiki/cases/case-strategy-failure-04-appliance.md:8:reviewed_by: pending
+New cards: status: enriched, reviewed_by: 待审 (or pending). I'll use `status: enriched`, `reviewed_by: 待审`, matching recent convention. The Live258 family template uses domain ai-basic (+ second domain as relevant). I'll follow the zhihu family card structure closely since these are same family （欧阳锋 already approved that pattern).
+
+  Now write the 6 cards. Mark todo. Let me write card 1 （雍博）. I need ≥100 lines body. Let me draft carefully with line anchors.
+
+  I'll now write all six cards. This is long but let me be efficient — write each via Write tool. Keep structure: 定位声明， 一句话， 过程 （起点→尝试→失败→转折→结果 per W3), Claims/Evidence, 关键数字， 双三角六要素映射， Critique (2 external attackers), Synthesis, Action Triggers, 失败模式. Include 断言标注 where needed （实证/推断/猜测 per constitution) — use 证据状态 column like template （实测/推演/自述）.
+
+  Card 1: yongbo. Line anchors L1705-1823.
+
+• 新卡惯例确认（`status: enriched` + `reviewed_by: 待审`）。开始产卡 1/6：雍博具身智能分拣。
+
+• Card 1 done (~150 lines body). Now card 2: 农夫三拳 (L671-1057), with the special cross-link requirements:
+  - dk-ai-does-not-question-your-mistake.md:112 已吸收 R/E/S/X 事实分级——互挂+不重复展开
+  - dk-demand-feature-stacking.md:165 已引农夫三拳+黄谦边界例——互链对齐
+  - 农夫三拳「事实分级卡」机制 = V0.9 changelog DataPack/事实约束类 Feature 缺口同源——卡内注明闭环该缺口
+
+• 卡 1 完成。产卡 2/6：农夫三拳助农图生视频（含 dk 互链 + V0.9 缺口闭环注明）。
+
+• Card 2 done. Card 3: 行知 (L513-669).
+
+• 卡 2 完成。产卡 3/6：行知自媒体六层诊断。
+
+• Card 3 done. Card 4: 田力 (L1059-1701). This is a long section; key content: 被退回 (real failure), 7 missing features, stacking experiments V1-V3 （推演）, three-iteration redo plan, reflections.
+
+• 卡 3 完成。产卡 4/6：田力组织部干部培训。
+
+• Card 4 done. Card 5: 黄谦 (L2909-3023).
+
+• 卡 4 完成。产卡 5/6：黄谦导演宣传片。Warning: print cron wait: next fire time stuck in the past; cron tick appears wedged, giving up on cron
+
+
+To resume this session: kimi -r session_a6b72455-2a02-4b25-ab6c-987466da66c2

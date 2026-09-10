@@ -1,0 +1,37 @@
+[1/12] 药店管理系统 SaaS 哪家好 排名 -> 7
+    FETCH len=4664 https://hyc.chanjet.com/hyczg/105e47d243ab6.html
+    FETCH len=3950 https://hyc.chanjet.com/hyczg/0ce6a4a62afc36355d.html
+[2/12] 医药零售 SaaS 上市公司 药店 软件 -> 7
+    FETCH len=16000 https://xueqiu.com/9844813593/204538649
+    FETCH len=4611 https://www.saasruanjian.com/t_8423-article-recommend.html
+[3/12] 药师帮 掌店易 收费 -> 7
+    FETCH len=0 https://haokan.baidu.com/v?pd=wisenatural&vid=7620423107629329860
+    FETCH len=77 https://www.douyin.com/video/7425174115029355791
+[4/12] 医药B2B 市场规模 药师帮 市场份额 -> 7
+    FETCH len=0 https://ai.so.com/search/so1364981359f6928c55e9e31e94d473d0?search=1%E8%8D%AF%E7%BD%91%E5%
+    FETCH len=16000 https://xueqiu.com/3974055088/254566199
+[5/12] 九州通 药九九 B2B 平台 -> 7
+    FETCH len=2734 http://stock.10jqka.com.cn/20250903/c670857045.shtml
+    FETCH len=2734 https://www.p5w.net/kuaixun/202509/t20250903_6393497.htm
+[6/12] 医药B2B平台 倒闭 关停 案例 -> 7
+    FETCH len=1132 https://www.sohu.com/a/140686618_758299
+    FETCH len=1337 https://m.baidu.com/bh/m/detail/ar_9700282117386986976
+[7/12] 县域 单体药店 采购 药师帮 覆盖 -> 7
+    FETCH len=0 https://www.toutiao.com/article/7629198883813327360/
+    FETCH len=195 https://www.jiemian.com/article/9977540.html
+[8/12] 连锁药店 数字化转型 报告 2025 中康 -> 7
+    FETCH len=37 https://wenku.so.com/error/404?page=detail&errno=0
+    FETCH len=37 https://wenku.so.com/error/404?page=detail&errno=0
+[9/12] 药店 数字化 预算 IT投入 2025 -> 7
+    FETCH len=1414 https://www.docin.com/p-4922888333.html
+    FETCH len=1412 https://www.docin.com/p-4943672100.html
+[10/12] 药店收银系统 进销存 多少钱一年 -> 6
+    FETCH len=3338 https://www.itangsoft.com/baike/show-243952.html
+    FETCH len=2480 https://h.chanjet.com/ask/9ee5a1200c79ec420a.html
+[11/12] 医药SaaS 融资 药店 2024 -> 7
+    FETCH len=2344 https://www.36kr.com/p/1721065373697
+    FETCH len=4944 https://www.chinabaogao.com/tuozi/202409/728638.html
+[12/12] 单体药店 数量 减少 注销 2025 -> 7
+    FETCH len=16000 https://xueqiu.com/7882076893/372027337
+    FETCH len=0 https://www.toutiao.com/w/1842333169260556/
+saved outD.json

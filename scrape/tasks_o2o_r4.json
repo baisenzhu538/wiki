@@ -1,0 +1,13 @@
+{
+  "searches": [
+    {"id": "s9_nmpa_guide", "q": "处方药网络零售合规指南 2026 主要内容 真实世界 处方", "count": 10},
+    {"id": "s10_zhejiang", "q": "浙江 医保 线上购药 定点零售药店 试点 2026", "count": 10},
+    {"id": "s11_guangxi", "q": "广西 海南 云南 定点零售药店 线上购药 医保支付 上线", "count": 10},
+    {"id": "s12_jd_hezuo", "q": "京东 24小时联盟 药店 合作 模式 夜间 补贴", "count": 10}
+  ],
+  "pages": [
+    {"id": "p_nmpa_jiedu", "url": "https://www.nmpa.gov.cn/xxgk/zhcjd/zhcjdyp/20260525142837100.html", "wait": 4500},
+    {"id": "p_nhsa_couple", "url": "https://www.nhsa.gov.cn/art/2026/5/25/art_14_20710.html", "wait": 4500},
+    {"id": "p_zs_jinzhi", "url": "https://www.zs.gov.cn/zszjj/gkmlpt/content/2/2630/post_2630382.html#1018", "wait": 4000}
+  ]
+}

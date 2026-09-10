@@ -1,0 +1,10 @@
+{
+ "searches": [],
+ "pages": [
+  {"id": "p01", "url": "https://xueqiu.com/5923081507/376674009", "wait": 4000},
+  {"id": "p02", "url": "https://baijiahao.baidu.com/s?id=1875205831787081739&wfr=spider&for=pc", "wait": 3000},
+  {"id": "p03", "url": "https://baijiahao.baidu.com/s?id=1874726502673638575&wfr=spider&for=pc", "wait": 3000},
+  {"id": "p04", "url": "https://zhuanlan.zhihu.com/p/2058593397452043983", "wait": 3500},
+  {"id": "p05", "url": "https://www.gov.cn/lianbo/202605/content_7070238.htm", "wait": 3000}
+ ]
+}

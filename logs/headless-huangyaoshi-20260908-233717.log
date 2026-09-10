@@ -1,0 +1,351 @@
+kimi version 0.41.0
+• Start recovery steps. Read the three files in parallel.Let me proceed with the task. Steps:
+
+  1. Gather today's material: Read 90_control/todos/huangyaoshi.md entries dated 2026-09-08; run git log --since='2026-09-08 00:00:00' --pretty=%s; find commits containing 黄药师 or huangyaoshi; locate task order #686 and read its execution report/final review.
+  2. Check existing daily-context file at C:\Users\Administrator\Desktop\agent复盘\huangyaoshi\daily-context\2026-09-08.md.
+  3. Write Truman 11-chapter per agents/agent-os.md §10.2.
+  4. Check 错误模式库.md.
+  5. Save self-check.
+  6. Append completion line to todos.
+
+  Let me read agent-os.md §10.2 for the Truman format, the todo entries for 2026-09-08, and run git log in parallel.
+
+  First grep the todos file for 2026-09-08 entries (there are 1000+ lines; the task says read entries dated 2026-09-08). Let me grep for 2026-09-08 with content mode. Also run git log. Also read agents/agent-os.md §10.2 — need to find it. And check if daily-context file exists.0ced8f065 2026-09-08 23:32:05 +0800 chore(queue): #691 claim by wangyuyan
+04d6d7568 2026-09-08 23:30:40 +0800 feat(wangyuyan): #691 曾鸣智能策略深挖诊断立项（老朱直令：三方法前置+门禁裁定+自动拉起不请示）
+07dc553b9 2026-09-08 23:14:30 +0800 chore(queue): #690 claim by huangyaoshi
+beeec4c1e 2026-09-08 23:11:50 +0800 feat(wangyuyan): #690 加红线——本机工厂零中断（老朱追加：不断拍/瞬时切换/随时回滚/窗口期心跳连续为硬证据）
+fe60df41d 2026-09-08 23:10:22 +0800 feat(wangyuyan): #690 升级便携基建盘口径（老朱追加：即插即用——标记文件自定位/自含工具链/attach 一命令接入/异机验收必演）
+870345df2 2026-09-08 23:07:58 +0800 feat(wangyuyan): #690 E盘迁移单立项入队（老朱拍A整区迁 D:\KDO-memory→E:；四条守卫+核验后切换）
+86c0955e0 2026-09-08 22:57:42 +0800 docs(wangyuyan): gongsi-01 设计素材打标库审计建议书（远程只读审计+关键数字抽验；可验收+风险8条+待拍板5项）
+e7ae90e03 2026-09-08 22:56:40 +0800 ouyangfeng: E盘 README 入口文档定为硬验收项——四节结构+BOOTSTRAP 分工，缺失即不过（老朱指令落建议书+路由王语嫣）
+fdc0a2140 2026-09-08 22:52:45 +0800 ouyangfeng: E盘 B 模式定案（冷备轮换）——D:\KDO-memory 不迁，E:=便携恢复包+手动冷拷，施工范围五条落决策记录+路由王语嫣
+f06cf415a 2026-09-08 22:40:06 +0800 feat(wangyuyan): #689 C340 B01 金矿149条全立项排产（老朱拍A：不浪费心血，排#688后滚动；批1=前三案例+高价值散件）
+496656ff6 2026-09-08 22:32:46 +0800 feat(wangyuyan): #688 tags 存量全量治理立项入队（老朱拍板「全补」，2064 张分域分批，轴文件先行，09-14 HARD 前清零）
+e43b14521 2026-09-08 22:27:07 +0800 chore(wangyuyan): #601 隔离区清除——老朱 09-08 拍板授权（观察期满无误杀）；sources-dup 143 份冗余源文件物理删除
+87ab365ad 2026-09-08 22:00:16 +0800 chore(queue): #684 claim by laowantong
+906120cd2 2026-09-08 21:50:51 +0800 chore(queue): #686 review by 欧阳锋
+9128f977b 2026-09-08 21:50:50 +0800 chore(review): #686 终审 PASS 卡状态自动翻转 3 张 by 欧阳锋
+7e7abf7ba 2026-09-08 21:47:49 +0800 chore(infra): 飞书舰队6 profile deepseek迁glm-5.3-flash公告+胶囊口径+锚点 by huangyaoshi
+12e6d67fc 2026-09-08 21:27:34 +0800 chore(huangyaoshi): #686 落账——friction-log+SRC占位豁免建议书+失忆锚点 by huangyaoshi
+6df9c3d1f 2026-09-08 21:24:04 +0800 chore(queue): #686 complete by huangyaoshi
+ead9fb93f 2026-09-08 21:24:02 +0800 docs(task): #686 执行报告补五字段锚词 by huangyaoshi
+0b42f9b2a 2026-09-08 21:23:23 +0800 feat(infra): #686 ai-data域digest补建+域注册+双三角AI数据重复卡去重 by huangyaoshi
+02d87f042 2026-09-08 21:11:25 +0800 feat(wangyuyan): #685 补工作项7/8（#682/#683 终审移交：归档互挂+徐建双向链授权）+ xiaozhao 冻结件 v2 追认裁定（立文末追加更正节轻规范）
+24a59fbd3 2026-09-08 21:04:07 +0800 ouyangfeng: #683 PASS 抄送王语嫣收件箱一行（终审 37174ec83，随单移交 4 项）
+3e46c3880 2026-09-08 21:00:25 +0800 ouyangfeng: #683 终审随单建议书（互挂回填/arXiv复核/冻结件v2通道/vault-status停滞）+ context/todo 台账 + index 重建
+dea6a4f10 2026-09-08 20:58:26 +0800 chore(queue): #686 claim by huangyaoshi
+37174ec83 2026-09-08 20:56:32 +0800 chore(queue): #683 review by 欧阳锋
+f27ce35ec 2026-09-08 20:56:31 +0800 chore(review): #683 终审 PASS 卡状态自动翻转 8 张 by 欧阳锋
+ece8bde2c 2026-09-08 20:27:04 +0800 #683 AI数据域方法论族8卡(framework/concept/tool×2/case×2/dk×2)+自攻击报告+任务单执行报告 by laowantong
+9d54f26b2 2026-09-08 20:21:44 +0800 ouyangfeng: #682 终审随单建议书——#685 归档工作项缺口/ASR 下发口径/#544 返工排期（终审 PASS A-，2ac84758a）
+2ac84758a 2026-09-08 20:20:17 +0800 chore(queue): #682 review by 欧阳锋
+80e5b8ca5 2026-09-08 19:47:30 +0800 #682 副产：safe-delete 拦截 queue lock 最小建议书 by wangyuyan
+27eaa1304 2026-09-08 19:44:16 +0800 chore(queue): #682 complete by wangyuyan（手工收口：release 删锁被环境 safe-delete 拦截致自动 commit 未跑）
+db2c3de2d 2026-09-08 19:40:33 +0800 #683 老顽童 claim 落建模方案（#682 编排台账收口代提交） by wangyuyan
+8ba892a9a 2026-09-08 19:37:04 +0800 #682 编排立项：P0/P1/P2产卡单+黄药师基建单+洪七公补采单（683-687，老朱19:25拍板全做） by wangyuyan
+520a07a56 2026-09-08 19:29:55 +0800 chore(queue): #682 claim by wangyuyan
+62f59274a 2026-09-08 19:27:28 +0800 小昭: #682 编排单——老朱19:25拍板#681产卡范围全做（P0/P1/P2+基建+补采），王语嫣立项调度
+bfe59688a 2026-09-08 11:38:53 +0800 chore(wangyuyan): #681 诊断报告三元组修正 status→pending_orchestration（终审已 PASS，near-miss 3轮违例处置 #536）
+3ae5d5ebc 2026-09-08 11:28:21 +0800 ouyangfeng: 最小建议书——F-035二拦终审记录，「存在性核查」节模板化（#681终审实证，前例#679）
+7fcc5c53d 2026-09-08 11:26:15 +0800 chore(queue): #681 review by 欧阳锋
+766d408bb 2026-09-08 11:07:55 +0800 chore(queue): #681 complete by wangyuyan
+d549f9368 2026-09-08 11:07:43 +0800 #681 AI数据课+AI基本功素材域深挖诊断报告（57件逐件判定+P0/P1/P2产卡范围建议） by wangyuyan
+9f05afdde 2026-09-08 10:45:40 +0800 chore(queue): #681 claim by wangyuyan
+b98c67fed 2026-09-08 10:41:47 +0800 小昭: #681 任务书——AI数据课+AI基本功素材域深入挖掘（王语嫣诊断深挖，老朱09-08直令；00_inbox投放副本按惯例不入git）
+Daily-context file exists. Now I need to:
+
+  1. Read agents/agent-os.md §10.2 (the 11-chapter format) — read around lines 191-320.
+  2. Read the existing daily-context 2026-09-08.md.
+  3. Find task #686 task file and its execution report/final review.
+
+  Commits by huangyaoshi today:
+  - 7e7abf7ba 21:47:49 chore(infra): 飞书舰队6 profile deepseek迁glm-5.3-flash公告+胶囊口径+锚点
+  - 12e6d67fc 21:27:34 chore(huangyaoshi): #686 落账——friction-log+SRC占位豁免建议书+失忆锚点
+  - 6df9c3d1f 21:24:04 chore(queue): #686 complete by huangyaoshi
+  - ead9fb93f 21:24:02 docs(task): #686 执行报告补五字段锚词 by huangyaoshi
+  - 0b42f9b2a 21:23:23 feat(infra): #686 ai-data域digest补建+域注册+双三角AI数据重复卡去重
+  - dea6a4f10 20:58:26 chore(queue): #686 claim by huangyaoshi
+  - 07dc553b9 23:14:30 chore(queue): #690 claim by huangyaoshi (E盘迁移单 - claimed at 23:14)
+
+  Also todo at 21:16: 王语嫣路由 #683 终审移交项④ vault-status 快照停滞 — was that addressed? Need to check.
+
+  Also #690 claim at 23:14 — a task claimed. Check whether it was completed. From git log, after 23:14: 23:30/23:32 were wangyuyan commits. #690 seems still claimed. Also there was a 21:16 route about vault-status snapshot stagnation — did huangyaoshi act? Possibly part of the infra commit at 21:47? That's about 飞书舰队 profile migration. Let me check the task file for #686 and also check #690 status.
+
+  Let me read agent-os.md §10.2 and the existing daily-context file, and find task #686 file.---
+HALT-stop-individual-cards-start-composite.md
+README.md
+archive
+beikai-report-20260524-unit-model-ocr.md
+beikai-response-20260524-va-block.md
+calibration-understanding-gate-motivation-peakend.md
+dashboard.html
+dashboard.md
+diagnosis-knowledge-base-structure-2026-06-14.md
+domain-digest-cards.md
+domain-prompt-engineering-andre-ng.md
+domain-xiang-jiang-deep-digestion.md
+duanwangye-next-tasks.md
+feedback-scan-auto.md
+fix-validate-v15-domain-filter.md
+hongqigong-next-tasks.md
+huangyaoshi-codex-lessons-review.md
+huangyaoshi-next-tasks.md
+huangyaoshi-source-refs-dryrun.md
+huangyaoshi-sprint2-4-completion-report.md
+huangyaoshi-sprint2-5-conveyor-belt-proposal.md
+huangyaoshi-sprint4-data-hygiene-report.md
+instructions-round-2.md
+kdo-infrastructure-backlog-proposal.md
+kdo-scaffold-v15.md
+laowantong-assignment-2026-06-20.md
+laowantong-batch-2026-06-20.md
+laowantong-dark-knowledges-sections.md
+laowantong-next-tasks.md
+laowantong-product-kernel-brief.md
+The daily-context file already exists with one section (claude 通道场, #686 单）. I need to append a new section 「# 黄药师 daily-context 2026-09-08（23:37 场）」.
+
+  This is a headless session — I'm writing the review based on repo files only. The existing section already covers #686 (completed + PASS at 21:57). What happened after 21:57 by huangyaoshi?
+
+  Commits by huangyaoshi:
+  - 7e7abf7ba 21:47:49 chore(infra): 飞书舰队6 profile deepseek迁glm-5.3-flash公告+胶囊口径+锚点 by huangyaoshi — this is after the daily-context created_at 13:26:48 UTC = 21:26 +08. Actually the file was saved at 21:26 local. The 21:27 and 21:47 commits came after. Hmm, 12e6d67fc at 21:27:34 (#686 落账 friction-log+建议书+失忆锚点） — the daily-context file's git_head is 6df9c3d1f (21:24:04). So the existing section covers up to #686 complete. Then:
+  - 12e6d67fc 21:27 #686 落账（friction-log + SRC占位豁免建议书 + 失忆锚点）
+  - 7e7abf7ba 21:47 飞书舰队6 profile deepseek→glm-5.3-flash 公告+胶囊口径+锚点
+  - 07dc553b9 23:14 chore(queue): #690 claim by huangyaoshi — E盘迁移单 claimed
+
+  Also the 21:16 todo: 王语嫣路由 vault-status 快照停滞 6 天 — 小单随到随修. Was it addressed? Check if there's a commit. I don't see a commit about vault-status snapshot from huangyaoshi. Let me check 90_control/vault-status.md mtime and git log for vault-status.
+
+  Also #690 status: claimed at 23:14 by huangyaoshi. Need to check whether it's still in progress. Let me check queue status and the #690 task file.
+
+  Let me find task files #686 and #690. Task files might be in 70_product/tasks/ or elsewhere. Search.
+
+• The existing file has one section covering #686. I need to gather what happened after that (the 21:47 infra commit, the 21:16 vault-status route, #690 claim at 23:14), plus locate task files.0ced8f065 2026-09-08 23:32:05 +0800 chore(queue): #691 claim by wangyuyan
+04d6d7568 2026-09-08 23:30:40 +0800 feat(wangyuyan): #691 曾鸣智能策略深挖诊断立项（老朱直令：三方法前置+门禁裁定+自动拉起不请示）
+07dc553b9 2026-09-08 23:14:30 +0800 chore(queue): #690 claim by huangyaoshi
+beeec4c1e 2026-09-08 23:11:50 +0800 feat(wangyuyan): #690 加红线——本机工厂零中断（老朱追加：不断拍/瞬时切换/随时回滚/窗口期心跳连续为硬证据）
+fe60df41d 2026-09-08 23:10:22 +0800 feat(wangyuyan): #690 升级便携基建盘口径（老朱追加：即插即用——标记文件自定位/自含工具链/attach 一命令接入/异机验收必演）
+870345df2 2026-09-08 23:07:58 +0800 feat(wangyuyan): #690 E盘迁移单立项入队（老朱拍A整区迁 D:\KDO-memory→E:；四条守卫+核验后切换）
+86c0955e0 2026-09-08 22:57:42 +0800 docs(wangyuyan): gongsi-01 设计素材打标库审计建议书（远程只读审计+关键数字抽验；可验收+风险8条+待拍板5项）
+e7ae90e03 2026-09-08 22:56:40 +0800 ouyangfeng: E盘 README 入口文档定为硬验收项——四节结构+BOOTSTRAP 分工，缺失即不过（老朱指令落建议书+路由王语嫣）
+fdc0a2140 2026-09-08 22:52:45 +0800 ouyangfeng: E盘 B 模式定案（冷备轮换）——D:\KDO-memory 不迁，E:=便携恢复包+手动冷拷，施工范围五条落决策记录+路由王语嫣
+f06cf415a 2026-09-08 22:40:06 +0800 feat(wangyuyan): #689 C340 B01 金矿149条全立项排产（老朱拍A：不浪费心血，排#688后滚动；批1=前三案例+高价值散件）
+496656ff6 2026-09-08 22:32:46 +0800 feat(wangyuyan): #688 tags 存量全量治理立项入队（老朱拍板「全补」，2064 张分域分批，轴文件先行，09-14 HARD 前清零）
+e43b14521 2026-09-08 22:27:07 +0800 chore(wangyuyan): #601 隔离区清除——老朱 09-08 拍板授权（观察期满无误杀）；sources-dup 143 份冗余源文件物理删除
+87ab365ad 2026-09-08 22:00:16 +0800 chore(queue): #684 claim by laowantong
+906120cd2 2026-09-08 21:50:51 +0800 chore(queue): #686 review by 欧阳锋
+9128f977b 2026-09-08 21:50:50 +0800 chore(review): #686 终审 PASS 卡状态自动翻转 3 张 by 欧阳锋
+---
+# role=huangyaoshi · 任务路由（#472 只读视图，不动状态机）
+✅ 可领 0:
+  (无)
+⏸ 等依赖 0:
+  (无)
+🧊 冻结 0:
+  (无)
+🚧 进行中 1:
+  #690 task_20260908_huangyaoshi-edrive-kdo-memory-migration — E 盘容量路由+便携基建盘：D:\KDO-memory 整区迁 E:（四条守卫+核验切换+
+⏳ 待终审 0:
+  (无)
+⚖️ 最近终审（48h） 4:
+  #677 task_20260907_huangyaoshi-activate-tags-gate — 🔴退回返工（2026-09-07）
+  #677 task_20260907_huangyaoshi-activate-tags-gate — ✅PASS A-（2026-09-07）
+  #679 task_20260907_huangyaoshi-audit-mechanisms — ✅PASS A-（2026-09-07）
+  #686 task_20260908_huangyaoshi-ai-data-domain-infra — ✅PASS A-（2026-09-08）
+
+
+• So #690 is currently in progress (claimed by huangyaoshi at 23:14, E盘迁移）. The 21:16 vault-status 快照停滞 route — was it handled? Check for commits/files. Also check the 21:47 infra commit （飞书舰队 profile migration) — that's a huangyaoshi infra task done after the daily-context was saved.
+
+  Let me find the #686 task file and read its execution report + final review, and find the #690 task file. Task files likely in 90_control/tasks/ or similar. Search.> generated-by: vault-snapshot.py · updated_at: 2026-09-08 21:22 · git_head: 02d87f042
+# KDO Vault 状态快照
+
+> 自动生成：2026-09-08 21:22 UTC
+> 卡片总数：**2960** | draft: 823 | needs-review: 0 | 低置信度(<0.7): 384 | 缺 source: 2515
+---
+commit 7e7abf7bafca7e0333b4117b8fda57c5197138e7
+Author: Linhai Zhu <baisenzhu538@gmail.com>
+Date:   Tue Sep 8 21:47:49 2026 +0800
+
+    chore(infra): 飞书舰队6 profile deepseek迁glm-5.3-flash公告+胶囊口径+锚点 by huangyaoshi
+    
+    Co-Authored-By: Claude <noreply@anthropic.com>
+
+ .agent/infrastructure-bulletin.md         | 8 ++++++++
+ .kdo/CAPSULE_STARTUP.md                   | 8 ++++----
+ 20_memory/huangyaoshi-amnesia-recovery.md | 6 ++++++
+ 3 files changed, 18 insertions(+), 4 deletions(-)
+vault-status.md was updated at 21:22 (UTC? says "21:22 UTC" but header says updated_at 21:22) — that matches the 21:16 route about vault-status stagnation being addressed (21:16 路由 → 21:22 snapshot regenerated). Good.
+
+  Task files: where are task files? #686 = task_20260908_huangyaoshi-ai-data-domain-infra. Search for that filename.Now I have a full picture of the day for huangyaoshi:
+
+  1. **#686** (main work): claimed 20:58, delivered 21:23 (commit 0b42f9b2a), execution report + complete 21:24, 落账 21:27 (friction-log + SRC 占位豁免建议书 + 失忆锚点， commit 12e6d67fc), final review PASS A- at 21:50 (commit 906120cd2). The existing daily-context section (claude 通道场） already covers this up to complete, but not the final review outcome (PASS A- + D1/D2/D3 缺陷） — my new section should add the 终审结果.
+  2. **21:47** infra commit 7e7abf7ba: 飞书舰队 6 profile deepseek→glm-5.3-flash 公告+胶囊口径+锚点 (bulletin + capsule + amnesia anchor).
+  3. **21:16** 王语嫣路由： vault-status 快照停滞 6 天 → vault-status.md regenerated 21:22 (part of #686 执行报告 item 7). Actually snapshot updated 21:22 — before 21:16? Wait, 21:22 < 21:16? No: 21:16 is the route message, vault-status updated at 21:22. But the #686 report lists vault-status snapshot refresh as deliverable #7, and commit 0b42f9b2a was 21:23. So the snapshot refresh happened as part of #686, coincidentally addressing the 21:16 route. Hmm — route at 21:16, snapshot 21:22. So the snapshot regen at 21:22 was possibly in response to the route or part of #686. The header says "generated-by: vault-snapshot.py · updated_at: 2026-09-08 21:22 · git_head: 02d87f042" — 02d87f042 is 21:11 wangyuyan commit, and it's inside the 0b42f9b2a commit (#686). So it was part of #686's deliverable, done at 21:22, which also resolved the 21:16 route (王语嫣 routed it at 21:16; the snapshot had been regenerated at 21:22). Either way, the stagnation issue is resolved: snapshot now current.
+  4. **#690** claimed 23:14: E盘迁移单， status in_progress — started but not finished. This is tonight's in-progress work.
+
+  Now, this headless review session (23:37 场）: the new section must honestly reflect what this session did — which is: gather material + write review. Per instruction #3: 「无实质产出→如实写『今日无施工』诚实空班节（禁编造）」. But today DID have substantial production (#686 PASS A-, #690 claimed in progress). The existing section covers #686 up to submission. The new 23:37 场 section is a headless review session — its own production is just the review itself. But the Truman review is for the day's work. The instruction says input all comes from repo files.
+
+  So the new section should:
+  - Note this is a headless 复盘场 (no session memory), input from repo files.
+  - Cover: #686 终审结果 (PASS A-, D1-D3 缺陷 + 移交项） — this is new info vs the existing section which ended at complete.
+  - 21:47 飞书舰队 profile migration infra commit.
+  - #690 claimed 23:14, in_progress (E盘迁移， red lines: 零中断）.
+  - vault-status 快照停滞路由已解 (21:22 regen).
+
+  The Truman 11 chapters for this 场. The "逐轮映射" for this headless session: rounds = reading files, git log, locating tasks, writing review. Honest.
+
+  Also need: 错误模式库.md check — does C:\Users\Administrator\Desktop\agent复盘\huangyaoshi\错误模式库.md exist? New error: D1 from #686 final review — "merge/redirect『无信息损失』类声称未 diff 验证即落盘" — that's a new error pattern for huangyaoshi worth appending.
+
+  Also per the -context.md there are extra end-of-session actions （技能进化日志， amnesia anchor, friction-log) but the task instruction says "只做复盘范围内的事，不扩展其他任务" — the task's own steps 1-6 define scope. I'll follow the task instruction (steps 1-6) strictly.
+
+  Also, behavior constitution says read 90_control/agent-behavior-constitution.md. The reminder said to read 90_control/AGENTS.md before making changes in that directory — I'll append to 90_control/todos/huangyaoshi.md at the end. Let me read 90_control/AGENTS.md (at least relevant part) — actually the reminder says read before making changes in those directories. Let me read it quickly (or skim). And the constitution. To be time-efficient, I'll read both in parallel, then check 错误模式库 existence.
+
+  Then write the new section, append to daily-context file, run save self-check, append todo line.
+
+  Note the file uses \r line endings mixed. The existing daily-context file — check its line endings. The Read output didn't show \r markers for the daily-context file, so it's LF. Appending with Write append mode adds content exactly. Good.
+
+  Let me now check 错误模式库.md existence and read constitution + 90_control/AGENTS.md.# AGENTS.md
+
+> 🆕 **启动先读 `.kdo/CAPSULE_STARTUP.md`（唯一启动指针 v2，#366）**——本文件为其薄壳；真相源定位见 `20_memory/memory-registry.md`。
+
+You are operating inside a Knowledge Delivery OS workspace.
+
+## 关键路径
+
+| 用途 | 路径 |
+|------|------|
+| **Obsidian Vault** | `C:\Users\Administrator\Desktop\wiki\` |
+| **KDO CLI 源码** | `C:\Users\Administrator\Knowledge Delivery OS 0.0.1\kdo\` |
+| **KDO CLI 入口** | `C:\Users\Administrator\Knowledge Delivery OS 0.0.1\kdo\cli.py` |
+| **OCR Skill（EasyOCR，推荐）** | `40_outputs/capabilities/skills/image-ocr-easyocr/` |
+| **OCR Skill（PaddleOCR.js，fallback）** | `40_outputs/capabilities/skills/image-ocr/` |
+
+## 角色体系（单一真相源=charter §2.6）
+
+六角色岗位说明书已全部入宪：`90_control/kdo-charter-v0.1-draft.md` §2.6.1-2.6.6（老顽童生产/欧阳锋终审/王语嫣编排/黄药师基建/风清扬观察/老朱老板）——角色职责、边界、通用行为准则五条、自迭代双回路一律以 charter 为准，本文件不再维护角色表副本（防双文档漂移，B2-2 单一真相源纪律）。
+
+## Prime Directive
+
+Turn inputs into durable knowledge, then into deliverable assets. Never treat the wiki as the source of truth; raw sources are the source of truth.
+
+## Routing Rules
+
+- One-off expression -> `40_outputs/content/`.
+- Cross-session facts and user preferences -> `20_memory/`.
+- Reusable knowledge -> `30_wiki/`.
+- Original source material -> `10_raw/`.
+- Executable utilities and templates -> `40_outputs/code/`.
+- Repeatable intelligent workflows -> `40_outputs/capabilities/`.
+- Feedback, failures, comments, and corrections -> `60_feedback/`.
+
+## Structural Change Policy
+
+Structural changes are suggestion-first:
+
+1. Explain what should move or change.
+2. Identify affected files.
+3. Explain why the current structure is insufficient.
+4. Wait for human approval before making broad reorganizations.
+
+## Source Discipline
+
+- Important claims need source references.
+- Conflicts should be recorded, not silently merged.
+- Derived pages should link back to source IDs.
+- If a source is stale, mark the derived page stale rather than hiding the issue.
+
+## Image Input Discipline
+
+当 agent 遇到图片素材（方法论截图、PPT、信息图、手写笔记等）时，必须先把图片 OCR 成结构化文本，再进入知识萃取或卡片生产。禁止直接“看着图”就开始建模。
+
+**默认调用链：**
+
+1. **首选**：`40_outputs/capabilities/skills/image-ocr-easyocr/SKILL.md`
+   - 脚本：`40_outputs/code/scripts/ocr-images-easyocr.py`
+   - 环境：WSL + Python3 + `easyocr`
+   - 命令：
+Now I have everything. Let me check the 错误模式库.md format to append a new entry for the D1 error (merge claim 「无信息损失」未 diff 验证即落盘）. Read the tail of 错误模式库.md.Now I have everything I need. Let me write the new section for the 23:37 场 (headless review session).
+
+  Content plan — this headless session covers the day's work after the existing section, plus adds the final review outcome. Honest accounting:
+
+  Today's work for huangyaoshi (from repo evidence):
+  1. #686 — covered in existing section (claude 通道场）. New info since that section was saved (git_head 6df9c3d1f 21:24): 
+     - 落账 commit 12e6d67fc 21:27 (friction-log + SRC占位豁免建议书 + 失忆锚点）
+     - 终审 PASS A- at 21:50 (906120cd2 + 9128f977b), with D1 defect (merge claim 「无信息损失」 half-false: 薄卡 OCR 措辞变体未入主卡）, D2 (digest 路标「终审中」过时）, D3 （存量）, 移交王语嫣 3 项.
+  2. 21:47 7e7abf7ba: 飞书舰队 6 profile deepseek→glm-5.3-flash 公告+胶囊口径+失忆锚点 (infra maintenance, likely a separate small场 from the feishu fleet migration #677-related? Actually it's infra bulletin update — 飞书舰队 profile migration to glm-5.3-flash).
+  3. #690 claimed 23:14 (E盘迁移单， in_progress, 老朱深夜追加便携化+零中断红线）. Not yet delivered — claimed and presumably construction just started or is in progress. Myqueue shows in_progress.
+  4. vault-status 快照停滞路由 (21:16) — resolved: snapshot regenerated 21:22 as part of #686.
+
+  The new section （23:37 场， headless): this session itself did only review work. Honest statement: 本场为 headless 复盘补账场，无施工；补记当日 21:27 之后的增量（终审结果+缺陷+移交）与 #690 状态。
+
+  差异栏 must not be blank — compare vs previous section: the previous section was written pre-终审； this one adds 终审后视角 (D1 是「无信息损失」绝对化声称失实——复盘时应该收录这个教训）. Also new: #690 claimed with red lines.
+
+  思维盲点 (≥1, with 为什么漏掉）:
+  1. D1: 合并声称「无信息损失」未经 diff 验证即落盘——被欧阳锋 git 对照实证半句失实。为什么漏掉：合并时验证的是「两节 verbatim 搬入」存在性，没验证「薄卡全部独有内容」的全集差集——验了样本没验全集。
+  2. 快照停滞 6 天无人发现（vault-status 停在 09-02）——为什么漏掉：snapshot 生成依赖手动/会话触发，没有定时触发也没有人监控「快照新鲜度」，直到 #683 终审才被发现。
+  3. (for this headless session itself): headless 复盘场输入全靠仓库文件，心路层（为什么做某个决定）不可重建——为什么漏掉：E029 的家族问题，施工场没当场写节。
+
+  Also §10.4.1 requires: B 级至少记录 1 次域知识检索行为审视； A 级 requires 检索 wiki 后发现新内容. This headless session didn't involve domain knowledge questions — it's a review task. I should still include the 「kdo query 检索记录」 per constitution for 诊断/调研/报告类产出. Is a 复盘 a 报告类产出？ The instruction's behavior constitution says 诊断/调研/报告产出必附. A daily-context review is arguably not a diagnostic/research report. But the existing section didn't have one... Actually to be safe, this session's evidence gathering used git log/grep/Read (non-knowledge retrieval — logs/files, which is ②非知识类检索 allowed by grep口径）. I didn't run kdo query. The task was evidence gathering from repo files — non-knowledge retrieval. I can note that: 本场无域知识问题，证据收集属非知识类检索（git log/grep/Read），kdo query 未触发；附检索记录节标注「未触发」。
+
+  Let me run a quick kdo query anyway? Not necessary and might be slow. The constitution says 确实没查过的，第一动作补一次 kdo query、落 0 命中也是合规记录——that's for 诊断/调研/报告类产出. A 复盘 is not really 诊断/调研. I'll include a note stating no domain-knowledge question arose. Actually to be safe and cheap, I could run one kdo query as a check... that could be slow on Windows. I'll just document honestly: 本场输入全部为仓库文件取证（非知识类检索），无域知识问答，kdo query 未触发。
+
+  逐轮映射 for this session (rounds of this headless review):
+  1. 人：下发复盘指令（输入全来自仓库文件） → AI：启动恢复读 3 文件
+  2. AI：todos 今日条目 + git log 取证（含 huangyaoshi commit 定位）
+  3. AI：定位 #686 任务单读执行报告+终审记录；#690 状态核查
+  4. AI：追加 11 章新节 + 错误模式库补录 + 自检保存 + todos 收尾行
+
+  Now write the section. Keep it solid (≥3000B for A level ideally, 11 chapters, 盲点≥2 with 为什么漏掉， 差异栏 non-blank).
+
+  Append via Write mode=append. File ends with line 92 "4. 扫库类脚本把域边界排除词..." — need to check whether file ends with newline. I'll append starting with "\n\n# 黄药师 daily-context 2026-09-08（23:37 场）\n...".
+
+  Also update 错误模式库.md with new error E030: merge「无信息损失」声称未 diff 验证（D1 from #686 终审）. Append to that file.
+
+  Then run save self-check:
+  python kdo-tools/daily-context-save.py save --agent huangyaoshi --truman --file C:\Users\Administrator\Desktop\agent复盘\huangyaoshi\daily-context\2026-09-08.md
+
+  Then append todo line to 90_control/todos/huangyaoshi.md: 「[2026-09-08 HH:MM] 复盘完成+自检等级」. Need current time — run date. The file has \r line endings (mixed). Appending with Write append — I'll match style with \r? The existing lines end with \r (shown as \r at end). Lines are like "- [2026-09-08 23:27] ...（到点（节奏 15min））\r". So the file appears to have lone \r? "Mixed or lone carriage-return line endings are shown as \r". To be safe, append a line ending with \r\n? Actually appending "\n- [2026-09-08 ...] ...\r" would be weird. Simplest: append "- [2026-09-08 23:40] ✅ 复盘完成（23:37 场，Truman 11 章追加）+自检 🟢/🟡 等级\n". The mixed endings won't matter much. I'll append with trailing \r\n to match.
+
+  Wait — get current time first. It's ~23:37+ now. I'll run date in the save command step.
+
+  Also the daily-context-save.py save command may rewrite the file or just check. It says 存到正确路径+自动跑 review-check. We pass --file so it saves that file (already exists) and runs review-check. Fine.
+
+  Note the save command must NOT use --stdin (F-030). Good.
+
+  Let me also double check #690 claimed but no execution yet — honest: #690 已 claim（23:14），状态 in_progress，施工未在本复盘范围（老朱深夜追加便携化+零中断红线）。Do not fabricate progress.
+
+  Also 21:47 commit: 飞书舰队6 profile deepseek迁glm-5.3-flash — this is an infra notice update （公告+胶囊+锚点）, presumably done by huangyaoshi as part of 飞书舰队 migration work (#677 area). I'll report it as a small infra bookkeeping commit.
+
+  Write the section now.
+
+• All evidence gathered. Now appending the 23:37 场 Truman 11-chapter section to the daily-context file.
+
+• Now appending E030 to the error-pattern library:
+
+✅ 已保存：C:\Users\Administrator\Desktop\agent复盘\huangyaoshi\daily-context\2026-09-08.md
+✅ 已存档：60_feedback\session-archives\2026-09-08\huangyaoshi.md
+📋 自检：🟡 B级 📚检索有发现
+✅ 事件 #1406 已写入: agent=huangyaoshi event=review_saved
+🧪 胶囊 L0 已留痕: agent=huangyaoshi event=review_saved
+✅ A → B 镜像完成: C:\Users\Administrator\.kdo-memory\L1 → D:\KDO-memory\L1-backup（robocopy /MIR，exit 1）
+✅ verify PASS：B 镜像文件 hash 全一致；从 B 打开 integrity=ok 行数 1401（A 同 1401）
+• Self-check: 🟡 B级 — acceptable (must be 🟢/🟡). Why B not A? Probably 盲点 needs ≥2 with 为什么漏掉 (I have 3 with 为什么漏掉）, ≥3000B (9590B appended, total file much larger), 11 chapters... maybe the checker evaluates the whole file or the new section. 🟡 B级 is acceptable per instructions. 
+
+  Hmm, "📚检索有发现" — interesting. B级 could be due to chapter detection. The requirement is output must show 🟢 or 🟡 — got 🟡, passes. 
+
+  Now append the closing line to 90_control/todos/huangyaoshi.md. Get current time first.2026-09-08 23:42
+All 6 steps done. Summarize. Also answer the three closing questions briefly (per startup.md: 三问）. The task said only do review-scope work; the three questions are part of session-end discipline — I can answer briefly in the final message without extra file writes (the daily-context covers them). Keep the final message compact.
+
+• 复盘完成，全部 6 步闭环：
+
+  **素材取证**（全部来自仓库文件）
+  - todos 今日 93 行条目 + git log 44 条 commit，huangyaoshi 名下 commit 6 条
+  - 关键事实：#686（ai-data 域 digest 补建+域注册+重复卡去重）20:58 claim → 21:23 交付 → 21:50 欧阳锋终审 **PASS A-**；终审 D1 缺陷【实证】——合并声称「无信息损失」半句失实（薄卡 OCR 措辞变体仅存 git 历史）；另有 21:27 落账 commit、21:47 飞书舰队 profile 迁 glm-5.3-flash 公告 commit、#690（E盘迁移单）23:14 claim 现 in_progress
+
+  **产出**
+  1. `agent复盘/huangyaoshi/daily-context/2026-09-08.md` 文末追加「# 黄药师 daily-context 2026-09-08（23:37 场）」——Truman 11 章全（差异栏 3 条/盲点 3 条均追问为什么漏掉/逐轮映射按取证动作照实写，headless 无施工如实标注）
+  2. `错误模式库.md` 追加 **E030**：merge/redirect 声称「无信息损失」未做反向差集——正向清单验不出未登记项，对策=绝对化断言前必跑 git diff 全集差集
+  3. 保存自检：`daily-context-save.py save --agent huangyaoshi --truman --file ...` → **🟡 B级**（达标，存档+镜像+verify 全过）
+  4. `90_control/todos/huangyaoshi.md` 收尾行已落（23:42）
+
+  **三问**：① 新资产=23:37 场复盘节 + E030；② 新问题=vault-status 快照停滞 6 天（已随 #686 刷新，但触发机制无拍子未根治，建议下会话落最小建议书）；③ 下次启动最需记住=#690 在途且带老朱「本机工厂零中断」红线（不断拍/瞬时切换/随时回滚/窗口期心跳连续为硬证据）。
+
+To resume this session: kimi -r session_c1f69e97-4f6f-46f6-9769-f9d42158433e

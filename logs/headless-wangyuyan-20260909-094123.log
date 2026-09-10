@@ -1,0 +1,765 @@
+kimi version 0.41.0
+• Let me start with the startup recovery reads.The todos file has encoding issue. Try reading via Bash tail with iconv, and also read 90_control/AGENTS.md. Also claim the task. Let me first read the AGENTS.md and handle the todos file.The todos file iconv produced no output — maybe it's UTF-8 with some bad bytes, or GBK conversion output empty? The command succeeded but output empty. Let me check encoding.90_control/todos/wangyuyan.md: Unicode text, UTF-8 text, with very long lines (1188), with CRLF line terminators
+1508 90_control/todos/wangyuyan.md
+File says UTF-8 but Read tool refused (maybe some invalid bytes). iconv from GB18030 of last 3000 bytes produced nothing? Actually the command printed nothing after iconv — maybe output was suppressed or iconv failed silently (2>/dev/null). Let me try different approaches.- [2026-09-09 04:07] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-09 04:10] 🕐 值守拍04:07：l1 正常（186.0MB）；队列 286 两线在产；三扫描面无新件；零动作
+- [2026-09-09 04:40] 🕐 值守拍04:37：l1 正常（187.5MB）；队列 286 两线在产；三扫描面无新件；零动作
+- [2026-09-09 04:42] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-09 05:10] 🕐 值守拍05:07：l1 正常（189.1MB）；队列 286 两线在产；三扫描面无新件；零动作
+- [2026-09-09 05:12] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-09 05:40] 🕐 值守拍05:37：l1 正常（190.6MB）；队列 286 两线在产；三扫描面无新件；零动作
+- [2026-09-09 05:42] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-09 06:10] 🕐 值守拍06:07：l1 正常——06:00 日归档设计行为再现（09-08 目录核验后归档，190.6→62.9MB=今日增量；capture log verify PASS）；队列 286 两线在产；无新件；零动作
+- [2026-09-09 06:12] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-09 06:40] 🕐 值守拍06:37：l1 正常（64.4MB 今日增量）；队列 286 两线在产；三扫描面无新件；零动作
+- [2026-09-09 06:42] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-09 07:10] 🕐 值守拍07:07：l1 正常（66.0MB）；队列 286 两线在产；三扫描面无新件；零动作
+- [2026-09-09 07:12] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-09 07:40] 🕐 值守拍07:37：l1 正常（67.5MB）；队列 286 两线在产；三扫描面无新件；零动作
+- [2026-09-09 07:42] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-09 08:10] 🕐 值守拍08:07：l1 正常（69.1MB）；队列 286 两线在产；三扫描面无新件；零动作
+- [2026-09-09 08:12] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-09 08:31] 📥 新素材 1 项（P0 0）：清单式解题练习——请诊断编排（看板待编排段）
+- [2026-09-09 08:15] ✅ 偶遇管线补票完成（老朱问处理没有）：头条文章《MCP和CLI怎么选》三层次知识化由王语嫣人工代补落盘（knowledge/ 正式版 4.6KB，含人工代补标注），_needs_rerun 重试区已清（归 _done-20260909）；视频链路昨夜重启后稳定（200）；LLM 环节等黄药师 MiniMax 切换后恢复机产
+- [2026-09-09 08:25] ✅ 偶遇管线 LLM 环节热修上线（老朱令流水线不许断）：wechat_knowledge.py 加 MiniMax 自动兜底——DeepSeek 失败自动切（实测 401→200 出活）；原 DeepSeek 通道保留，有钱自动回用。黄药师傅队列里该项改为复核加固（非紧急修复）
+- [2026-09-09 08:42] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）（到点（节奏 30min））
+- [2026-09-09 08:42] 🕐 值守拍08:37+动作：新素材「清单式解题练习」（一堂笔记法，三件套 29 万字节，段王爷 CDP 提取）→#694 诊断单立项入队+headless 王语嫣拉起（proc_19228，三方法全规格同 #691）；队列 287；l1 正常（70.8MB）
+- [2026-09-09 08:51] 📥 新素材 1 项（P0 0）：case-wechat-article_tt_699097c63ad8826a.md——请诊断编排（看板待编排段）
+- [2026-09-09 08:57] 📬 KDO 新建议书 1 份待裁定：diag_20260909_wangyuyan-checklist-solving.md
+- [2026-09-09 12:05] ✅ #694 清单式解题练习诊断完工：三件套3/3逐字读+三方法前置+同构映射，裁定P0回填7张+P1新卡8张，诊断报告pre-submit PASS提审；#695产卡单已入队排#692后
+- [2026-09-09 09:07] ⛔ KDO 门禁拦截 2 次（gate-blocked）：2026-09-09 08:58:26｜task_20260909_wangyuyan-checklist-solving-deep-dig…
+- [2026-09-09 09:10] 🕐 值守拍09:07+动作：#694 诊断完工提审→拉欧阳锋终审；headless 已同步立 #695 产卡单（队列 288）；08:51 素材信号=回声（我手动补的 wechat 卡 mtime）划销；l1 正常（73.4MB）
+- [2026-09-09 09:12] 【叫醒】wangyuyan：读 todos/wangyuyan.md 未读段 + 看板名下状态（有任务按队列序施工；无任务报告待命）——待终审明细：#694（wangyuyan 的单，挂审 13min）（到点（节奏 30min））
+- [2026-09-09 09:41] 🕐 值守拍09:37+动作：#694 终审 FAIL 退回（欧阳锋真拦：族清单缺5张首讲卡+负向判词被存在性核查推翻；溯源/行号锚部分通过）→补拉 headless 王语嫣返工重审；门禁又立功一次
+Now I need to:
+  1. Claim task task_20260909_wangyuyan-checklist-solving-deep-dig
+  2. Read the task file (60_feedback/tasks/ probably) including 终审记录 section
+  3. Read the diagnosis report 60_feedback/diagnosis/diag_20260909_wangyuyan-checklist-solving.md
+  4. Read the #695 task file
+
+  Let me claim first and find the task file.✅ task_20260909_wangyuyan-checklist-solving-deep-dig 已领取为 claimed-wangyuyan
+⚠️ task_20260909_wangyuyan-checklist-solving-deep-dig 缺 `initial_assessment`（初判=待证命题+核查锚）——WARNING 台账已记，开工前先核任务单前提与盘上现状（#679；软期至 2026-09-14）
+✅ dashboard.html 已生成 (229 个任务)
+   待领取: 0  |  审查中: 0  |  进行中: 0  |  已完成: 229
+Now read the diagnosis report and the #695 task file. The diagnosis report is 60_feedback/diagnosis/diag_20260909_wangyuyan-checklist-solving.md, and #695 is 60_feedback/tasks/task_20260909_laowantong-yt-note-v2-backfill-and-cards.md.
+
+  FAIL items:
+  - P0-1: MOC 族清单漏 5+1 张卡 → 重建族清单（grep -rl "AI时代清单体笔记" 30_wiki）, 补 5+1 张并逐卡跑空洞计数；统一卡数口径 (P2-1)
+  - P1-1: 负向判词台账 2 处改判（产品意识、只记备忘 0 命中不成立）
+  - P2-1: 卡数口径统一 (~15 vs 19 vs ~19)；解压路径漏列 point-title-mechanism
+  - P2-2: #695 标题含"产品意识"但 P1 表无对应行；#695 pre-submit BODY_SRC_UNKNOWN ×2 改述
+
+  期望形态：
+  1. MOC 节族清单重建（全量枚举法），补 5+1 张+空洞计数；统一卡数口径
+  2. 重裁三行：①产品意识改判已有覆盖→回填+互链不新产；②穿糖葫芦 dk 新卡保留但互链 concept 卡反面案例节+差异化定位；③P1 价值公式卡互链 tool-用清单体记备忘笔记
+  3. P0 回填表按补全后族清单重排候选（漏网卡中有锚的纳入：AI Partner=逐字 L1447-1461、问题驱动=逐字 L1171-1191）
+  4. 同步修 #695（标题与 P1 表对齐；src_unknown 改述）
+  5. 修完 kdo pre-submit 三文件全绿再重提审
+
+  Also 残余风险： case-truman-ai-partner 44 处空洞 与 P1 agent-spec-yt-note-coach-partner 同涉 AI Partner 素材，修订时需明确边界划分。
+
+  Let me read the diagnosis report first.
+
+• 任务已领取。现在读诊断报告与 #695 产卡单。
+
+• Now I understand the FAIL items. Let me plan the revision:
+
+  **Diag report fixes:**
+
+  1. **P0-1: 族清单重建** — Run `grep -rl "AI时代清单体笔记" 30_wiki --include="*.md"` to get full 21-card list; diff against the 16 in diag L37; add 5 missing (case-truman-ai-partner / concept-提升笔记阅读舒适度 / concept-问题驱动式深度思考笔记 / yt-note-problem-solving-capability / dk-fundamentals-before-advanced-ops) + tool-用清单体记备忘笔记 (source_refs=首讲训练段位图图片02). Run 空洞计数 for each of the newly found cards.
+
+  2. **P1-1: 负向判词台账改判** —
+     - 「产品意识」→ 改判：已有 concept-提升笔记阅读舒适度 claim:02 覆盖（L78-87 四维表与二讲逐字 L957-971 同构）→ 裁定改为回填该卡空洞（23处）+互链，不新产
+     - 「只记备忘」→ tool-用清单体记备忘笔记 卡名即命中 → P1 价值公式卡的"只记备忘"成分改判：非真缺口，互链/回填该卡
+     - 「穿糖葫芦」「27寸」「分点标题」0 命中成立 — dk 新卡保留但互链 concept-提升笔记阅读舒适度 反面案例节（Cases L180 已载穿糖葫芦反例叙事！）— wait, the 终审 says concept-提升笔记阅读舒适度 Cases L180 已载穿糖葫芦反例叙事. So the candy-string grep 0 命中 was for the exact word "穿糖葫芦" but the concept card carries the reverse case narrative (maybe without that exact phrase). 终审期望：②穿糖葫芦 dk 新卡保留，但互链 concept 卡反面案例节并写明差异化定位.
+
+  3. **P2-1: 卡数口径统一** — "~15 张" (L23) vs 19 项 (MOC 节） vs "~19 张" (L213) → unify. With 5+1 added, the family becomes ~25-26 cards. 解压路径 6 项漏列 point-title-mechanism → add.
+
+  4. **P0 回填表重排** — 漏网卡中与二讲素材有锚的纳入：case-truman-ai-partner (44 处空洞， 逐字 L1447-1461 AI Partner 素材） — but 残余风险 warns about 双卡双源冲突 with agent-spec-yt-note-coach-partner. Need to define boundary: case-truman-ai-partner is the 首讲 case card (AI Partner 首讲案例）, the new agent-spec is the 产品规格. So backfill case-truman-ai-partner with 二讲 anchors? Or define boundary clearly. Also yt-note-problem-solving-capability (28 处空洞， 逐字 L1171-1191 问题驱动）, dk-fundamentals-before-advanced-ops (27 处， maybe anchors?), concept-问题驱动式深度思考笔记 (17 处， 逐字 L1171-1191). And concept-提升笔记阅读舒适度 (23 处， 逐字 L957-971 产品意识/协作段）. And tool-用清单体记备忘笔记 （空洞计数 needed, 只记备忘成分 逐字L867-941).
+
+     Hmm — but wait: 逐字L1171-1191 问题驱动 was already allocated to P0 #2 (yt-note-five-levels-training 暗知识五节）. Now multiple cards compete for the same anchor. The P0 backfill table should add new rows for the missed cards. Need to be careful about which anchors go where. Let me think:
+     - concept-问题驱动式深度思考笔记 (17 空洞）: 逐字L1171-1191 问题驱动五要点 — this card is specifically about 问题驱动式深度思考笔记， so this anchor belongs primarily to it. The five-levels-training backfill for "问题驱动=逐字L1171-1191" might then be double-sourced. Hmm, but the 终审 says "二讲素材对其中多张恰有回填锚（AI Partner=逐字 L1447-1461、问题驱动=逐字 L1171-1191）". One anchor can backfill multiple cards with different angles, but better to specify primary/secondary. I'll allocate 逐字L1171-1191 primarily to concept-问题驱动式深度思考笔记， and five-levels-training keeps it as cross-link or keeps the segment （口述 has 问题驱动 mentions? The original P0#2 listed 问题驱动=逐字L1171-1191). To avoid conflict, I can say: 逐字L1171-1191 主回填 concept-问题驱动式深度思考笔记，yt-note-five-levels-training 的"问题驱动"暗知识节改用摘要+互链该卡（防同段双写）。Actually simplest: keep both but note primary/secondary roles. Since 老顽童 executes later, clarity matters. I'll mark primary backfill target.
+
+     - yt-note-problem-solving-capability (28 空洞）: what anchors? It's about 笔记=解决问题能力. Anchors: 口述L36-40 （破题 笔记=解题能力训练载体）, 逐字L55-67, and maybe the whole 解题 framing. Also 价值公式 relates. Let me check the card quickly to see what's hollow.
+     - dk-fundamentals-before-advanced-ops (27 空洞）: 先基本功后高阶操作 — anchors: 逐字L751 过早 AI 依赖=新人灾难？ "L2 变便宜 L3-L6 更稀缺" 逐字L1485? 两周练兵法 口述L622-626? Need to check the card.
+     - case-truman-ai-partner (44 空洞）: 逐字L1447-1461 AI 诊断教练 — but that anchor is also P1 agent-spec's source. Boundary: case 卡 = 首讲既有案例叙事回填 (story of what happened), agent-spec = 产品规格 (how to build). Also 口述L1402-1428.
+     - concept-提升笔记阅读舒适度 (23 空洞）: 逐字L957-971 产品意识四维 + 协作段视觉美化等 逐字L957-1015.
+     - tool-用清单体记备忘笔记： 空洞计数 unknown — need to run. Anchors: 逐字L867-941 只记备忘+9保留/8删除.
+
+  5. **同构映射表三行重裁**:
+     - L52 「产品意识」行：改判「已有 concept-提升笔记阅读舒适度 claim:02 覆盖」→ 回填+互链，不新产
+     - L51 「只记备忘+9保留/8删除」行：tool-用清单体记备忘笔记 卡名即命中"只记备忘"成分 → 改判：该卡覆盖"只记备忘"原则，9保留/8删除清单仍真缺口（grep 保留/删除清单？）。Actually 终审 says 「只记备忘」1 文件命中. The row's 真缺口 judgment should change: 只记备忘原则非真缺口（既有卡），9保留/8删除清单+常见偏差5条仍真缺口 → P1 价值公式卡保留但互链 tool-用清单体记备忘笔记，并回填该卡。
+     - L53 分点标题行：the 裁定注记 says "并入产品意识卡" — remove that dangling reference since 产品意识卡 no longer exists; make it 独立 tool (which is already what P1 table says: tool-yt-note-point-title-mechanism). Fix the note to align with the P1 table.
+
+  6. **#695 同步修**:
+     - Title: remove "产品意识" from the P1 list in title (since no longer producing that card); but wait — P1 表 has 8 rows, none named 产品意识. The title lists "价值公式/产品意识/分点标题/穿糖葫芦/显示器SOP/麻将case/张磊case/双agent-spec" = that's 9 items for "8 张" （双agent-spec=2). Actually counting: 价值公式， 产品意识， 分点标题， 穿糖葫芦， 显示器SOP, 麻将case, 张磊case，双agent-spec(2) = 9. The P1 table has 8 cards: value-formula, point-title, candy-string, display-sop, mahjong, zhanglei, coach-partner, officer. So title wrongly includes 产品意识. Fix title to match table: "价值公式+只记备忘互链/分点标题/穿糖葫芦/显示器SOP/麻将case/张磊case/双agent-spec". Also now P0 backfill count changes: add missed cards with anchors. New P0 count? Adding: concept-提升笔记阅读舒适度， concept-问题驱动式深度思考笔记， yt-note-problem-solving-capability, dk-fundamentals-before-advanced-ops, case-truman-ai-partner, tool-用清单体记备忘笔记 = 6 more → P0 回填 13 张？ But need to check whether all have anchors in 二讲素材. 终审 item 3: "P0 回填表按补全后族清单重排候选（漏网卡中与二讲素材有锚的纳入）". The 终审 evidence says 二讲素材对其中多张恰有回填锚 (AI Partner=逐字L1447-1461、问题驱动=逐字L1171-1191). For concept-提升笔记阅读舒适度： 逐字L957-971 同构 claim:02 — yes anchor. tool-用清单体记备忘笔记： 逐字L867-941 — yes. yt-note-problem-solving-capability: 破题锚 口述L36-40/逐字L55-67 — likely yes. dk-fundamentals-before-advanced-ops: need to check content — maybe 逐字L1485/逐字L751. Let me check these cards to verify anchors before adding.
+
+     - Also #695 正文 src_unknown ×2 → 改述为 "src 未知占位" wording. Line 23: "P0 回填 7 张被 src_unknown 掏空的旧卡" and title line 3 has "src_unknown空洞". The 终审 said: "#695 `kdo pre-submit` BODY_SRC_UNKNOWN ×2（正文/标题合法提及术语被计为占位，已入建议书）" and 期望形态 4: "正文 src_unknown 改述为'src 未知占位'以过 pre-submit". So change "src_unknown" → "src 未知占位" in #695 title and L23.
+
+  7. Update 负向判词台账 with corrected entries + new grep evidence （存在性核查 anchors).
+
+  8. Card count unification: family now = 19 items listed + 5 + 1 = 25 (including skill). Let me count original list: 19 cards + 1 skill = 20 items. Add 5 cards + 1 tool = 25 cards + 1 skill = 26 items. 一句话结论 says "~15 张" — wrong; MOC says 19 项 (but list has 19 cards + skill); 下一步 says "~19 张". Unify to the recomputed number.
+
+  First, do the grep work to establish facts. Let me run:
+  - grep -rl "AI时代清单体笔记" 30_wiki --include="*.md"
+  - Read the missed cards (Summary + count 空洞）: case-truman-ai-partner, concept-提升笔记阅读舒适度， concept-问题驱动式深度思考笔记， yt-note-problem-solving-capability, dk-fundamentals-before-advanced-ops, tool-用清单体记备忘笔记
+  - 空洞计数 grep -c for each
+
+  Let me also verify 终审 claims myself (lesson: 负向判词必须附存在性核查锚 — I should re-verify before writing). Run the greps.
+
+• 终审 FAIL 项已读清。先按期望形态做存在性核查（grep 全量枚举 + 漏网卡空洞计数），拿到事实再动笔。30_wiki/cases/case-truman-ai-partner.md
+30_wiki/concepts/concept-提升笔记阅读舒适度.md
+30_wiki/concepts/concept-问题驱动式深度思考笔记.md
+30_wiki/concepts/yt-note-ai-human-division.md
+30_wiki/concepts/yt-note-checklist-concept.md
+30_wiki/concepts/yt-note-expert-interview-modeling.md
+30_wiki/concepts/yt-note-extensive-research-input.md
+30_wiki/concepts/yt-note-fact-pattern-insight.md
+30_wiki/concepts/yt-note-l4-internalization.md
+30_wiki/concepts/yt-note-l6-extraction.md
+30_wiki/concepts/yt-note-problem-solving-capability.md
+30_wiki/concepts/yt-skill-checklist-as-ai-protocol.md
+30_wiki/dark-knowledges/dk-fundamentals-before-advanced-ops.md
+30_wiki/dark-knowledges/dk-note-maximum-common-divisor.md
+30_wiki/dark-knowledges/dk-note-surplus-brainpower.md
+30_wiki/dark-knowledges/dk-truman-flag-note-taking.md
+30_wiki/index.md
+30_wiki/tools/tool-note-keyword-bolding.md
+30_wiki/tools/tool-note-layer-constraint.md
+30_wiki/tools/tool-note-one-line-one-point.md
+30_wiki/tools/yt-note-five-levels-training.md
+30_wiki/tools/yt-note-live-field-skill.md
+30_wiki/concept-card-index-latest.md
+30_wiki/concepts/concept-提升笔记阅读舒适度.md
+30_wiki/concepts/yt-entrepreneur-product-core.md
+30_wiki/frameworks/yt-product-kernel-six-levels.md
+30_wiki/index.md
+---
+30_wiki/tools/tool-用清单体记备忘笔记.md
+---
+---
+---
+---
+30_wiki/bridges/bridge-meeting-leadership-coaching.md
+30_wiki/cases/case-ban-fei-mao-from-assignment-to-tool.md
+30_wiki/cases/case-lean-combination-test-paradigm.md
+30_wiki/cases/case-lean-gray-test-paradigm.md
+30_wiki/cases/case-lean-shampoo-selling-points.md
+30_wiki/cases/case-lean-zhanglei-failure-counterfactual.md
+30_wiki/cases/case-lean-zhanglei-hypothesis-validation.md
+30_wiki/cases/case-lean-zhanglei-pivot-decision.md
+30_wiki/cases/case-meeting-scene-mastery.md
+30_wiki/cases/case-shampoo-product-kernel.md
+30_wiki/cases/case-yitang-fupanying-five-years-1000-hypotheses.md
+30_wiki/cases/case-yitang-innovative-metrics-collection.md
+30_wiki/cases/case-yitang-magic-number-collection.md
+30_wiki/cases/case-yitang-zhanglei-comic-booth.md
+30_wiki/cases/case-yitang-zhanglei-gacha-points.md
+30_wiki/cases/case-zhanglei-furniture-overseas-market-selection.md
+30_wiki/cases/case-zhanglei-nursing-home-family.md
+30_wiki/cases/case-zhanglei-twist-egg-machine-yogurt-nursing.md
+30_wiki/cases/case-一堂-教研加微信率40到100.md
+30_wiki/cases/yt-lean-beauty-store-conversion.md
+30_wiki/cases/yt-lean-daily-chemical-mvp.md
+30_wiki/cases/yt-lean-flower-mom-group-leader.md
+30_wiki/concept-card-index-latest.md
+30_wiki/concepts/business-validation-models-collaboration.md
+30_wiki/concepts/concept-一堂-kernel-validation.md
+30_wiki/concepts/concept-一堂-product-kernel.md
+30_wiki/concepts/concept-一堂-魔法数字.md
+30_wiki/concepts/concept-讲香-卖点直给到价值感.md
+30_wiki/concepts/yitang-qualitative-to-quantitative.md
+30_wiki/concepts/yt-business-formula-ten-paradigms.md
+30_wiki/concepts/yt-lean-daily-probability-decision.md
+30_wiki/concepts/yt-lean-essence.md
+30_wiki/concepts/yt-system-course-catalog.md
+30_wiki/concepts/yt-tob-cash-flow.md
+30_wiki/dark-knowledges/dk-ai-entrepreneur-technical-blindspot.md
+30_wiki/dark-knowledges/dk-modeling-question-scaffold-not-answer.md
+30_wiki/dark-knowledges/dk-tool-as-answer-trap.md
+30_wiki/dark-knowledges/dk-tool-as-phased-validator.md
+30_wiki/dk/dk-yitang-business-model-risk-over-product-risk.md
+30_wiki/domains/business-formula-domain-digest.md
+30_wiki/domains/lean-startup-domain-digest.md
+30_wiki/frameworks/framework-ai-accelerated-strategy-cycle.md
+30_wiki/frameworks/framework-lean-pivot-decision.md
+30_wiki/frameworks/framework-socialization-capability-pyramid.md
+30_wiki/frameworks/framework-一堂-12触点SABC分级.md
+30_wiki/frameworks/yt-business-formula-three-stage-workflow.md
+30_wiki/frameworks/yt-lean-assumption-prioritization.md
+30_wiki/frameworks/yt-lean-assumption-verification-3means.md
+30_wiki/frameworks/yt-lean-b2b-b2c-hardware-content-testing.md
+30_wiki/frameworks/yt-lean-consumer-deep-experience-testing.md
+30_wiki/frameworks/yt-lean-false-model-ai.md
+30_wiki/frameworks/yt-lean-growth-stage-gate.md
+30_wiki/frameworks/yt-lean-qualitative-quantitative-research.md
+30_wiki/frameworks/yt-product-kernel-validation.md
+30_wiki/index.md
+30_wiki/methods/method-yitang-micro-innovation.md
+30_wiki/tools/tool-lean-ai-accelerated-validation.md
+30_wiki/tools/tool-lean-leverage-tools.md
+30_wiki/tools/tool-lean-presell.md
+30_wiki/tools/tool-nine-character-mantra-14-strategies.md
+30_wiki/tools/tool-一堂-kernel-six-verification-strategies.md
+30_wiki/tools/yt-tool-business-formula-18-moves.md
+30_wiki/tools/yt-tool-business-formula-parameter-arsenal.md
+30_wiki/_archive/panproduct/yt-panproduct-execution-low-cost-mvp.md
+
+
+• Confirmed:
+  - "AI时代清单体笔记" grep: 21 cards + index.md. Diag list (19 cards + 1 skill). Diff: the grep list has these cards; the diag 族清单 includes also yt-note-deliberate-practice-four-elements, dk-note-rookie-disaster-veteran-heaven, dk-modeling-checklist-working-medium, yt-skill-checklist-as-ai-protocol, and skill transcript-to-qingdanti. Let me diff:
+
+  Grep (21 cards excl index):
+  1. case-truman-ai-partner ✗ (missing)
+  2. concept-提升笔记阅读舒适度 ✗
+  3. concept-问题驱动式深度思考笔记 ✗
+  4. yt-note-ai-human-division ✓
+  5. yt-note-checklist-concept ✓
+  6. yt-note-expert-interview-modeling ✓
+  7. yt-note-extensive-research-input ✓
+  8. yt-note-fact-pattern-insight ✓
+  9. yt-note-l4-internalization ✓
+  10. yt-note-l6-extraction ✓
+  11. yt-note-problem-solving-capability ✗
+  12. yt-skill-checklist-as-ai-protocol ✓
+  13. dk-fundamentals-before-advanced-ops ✗
+  14. dk-note-maximum-common-divisor ✓
+  15. dk-note-surplus-brainpower ✓
+  16. dk-truman-flag-note-taking ✓
+  17. tool-note-keyword-bolding ✓
+  18. tool-note-layer-constraint ✓
+  19. tool-note-one-line-one-point ✓
+  20. yt-note-five-levels-training ✓
+  21. yt-note-live-field-skill ✓
+
+  Missing 5: case-truman-ai-partner, concept-提升笔记阅读舒适度， concept-问题驱动式深度思考笔记， yt-note-problem-solving-capability, dk-fundamentals-before-advanced-ops. Matches 终审. Plus tool-用清单体记备忘笔记 (6th, source_refs=图片02).
+
+  - 产品意识： 5 files (concept-card-index-latest, concept-提升笔记阅读舒适度， yt-entrepreneur-product-core, yt-product-kernel-six-levels, index) — matches 终审.
+  - 只记备忘： tool-用清单体记备忘笔记 — matches.
+  - 穿糖葫芦/27寸/分点标题： 0 hits — 判词成立.
+  - 张磊： many hits! Wait, diag L56 said "grep 张磊 族内 0 命中" — 族内 (within family), which is true — none of the 张磊 hits are in the note family (they're lean-startup cases). So "族内 0 命中" is fine but should be precise. The 终审 didn't flag 张磊. OK.
+
+  Now count 空洞 in the 6 missed cards, and check anchors. Also need to check whether case-truman-ai-partner's 44 空洞， etc. Run grep -c "src_unknown\|待补充链接". Also check tool-用清单体记备忘笔记 空洞 and its content, and the other cards' summaries to determine 二讲 anchors.== 30_wiki/cases/case-truman-ai-partner.md
+44
+0
+== 30_wiki/concepts/concept-提升笔记阅读舒适度.md
+23
+5
+== 30_wiki/concepts/concept-问题驱动式深度思考笔记.md
+17
+5
+== 30_wiki/concepts/yt-note-problem-solving-capability.md
+28
+5
+== 30_wiki/dark-knowledges/dk-fundamentals-before-advanced-ops.md
+27
+0
+== 30_wiki/tools/tool-用清单体记备忘笔记.md
+13
+0
+Counts confirmed (exit 1 just from last grep -c returning 0 matches... actually second grep returned 0 → exit 1; fine).
+
+  空洞： case-truman-ai-partner=44, concept-提升笔记阅读舒适度=23, concept-问题驱动式深度思考笔记=17, yt-note-problem-solving-capability=28, dk-fundamentals-before-advanced-ops=27, tool-用清单体记备忘笔记=13.
+
+  Now read these 6 cards (at least Summary + key sections) to determine which 二讲 anchors backfill them. Especially:
+  - case-truman-ai-partner: what's it about (AI Partner 首讲案例） — anchors 逐字L1447-1461? Need boundary vs agent-spec-yt-note-coach-partner.
+  - concept-提升笔记阅读舒适度： claim:02 产品意识 L78-87, Cases L180 穿糖葫芦反例叙事 — anchors 逐字L957-971 （产品意识四维） + 协作段.
+  - concept-问题驱动式深度思考笔记： anchors 逐字L1171-1191.
+  - yt-note-problem-solving-capability: 笔记=解决问题能力 — anchors 口述L36-40/逐字L55-67? Let me check.
+  - dk-fundamentals-before-advanced-ops: 基本功先于高阶操作 — anchors? 逐字L751 过早AI依赖/逐字L1485?
+  - tool-用清单体记备忘笔记： 只记备忘 — anchors 逐字L867-941.
+
+  Read them in parallel.I now have all the facts. Also check case-truman-ai-partner more — does the 二讲素材 (AI Partner 诊断教练 逐字L1447-1461) relate to it? The case card is about "阿蕊老师" AI Partner (P 角色 agent, 封装十年笔记售卖）. The 二讲 has 诊断教练 Partner (10倍速练习行动报告） + 笔记官 Partner. The case card's 阿蕊老师 is likely the same or related product line. Boundary: case 卡 = 首讲已载的阿蕊老师案例叙事（know-but-can't-do → 封装 agent); 二讲诊断教练 = 具体产品结构（段位判定→四要素→最小行动）— 二讲素材可回填 case 卡的空洞（44 处） as 产品演进证据，同时新 agent-spec 卡 = 二讲产品规格. Need boundary statement in diag: case 卡回填只补"案例叙事/演进"层，产品结构规格归 agent-spec，防双卡双源。
+
+  Let me quickly check the rest of case-truman-ai-partner to see where the 44 空洞 are, and also check 逐字 L1447-1461 content to confirm the anchor fit. Actually I don't need to read the whole case card; for the diag revision I need to state the backfill anchor and boundary. Let me read remainder of case card quickly (135 lines left) to know which sections are hollow.
+
+  Also I should verify 逐字 L1447-1461 content matches (AI 诊断教练）. And check 逐字 L1171-1191 （问题驱动）. I read these during original diagnosis? The original diag was done by a headless instance; I haven't read the transcripts in this session. The 终审 already verified anchors （行号锚抽验 30+ 处全部命中 including 逐字L1447-1449). For the revision, the anchors I add are: 逐字L1447-1461 (verified by 终审 as AI Partner 锚）, 逐字L1171-1191 （问题驱动， verified), 逐字L957-971 （产品意识四维， verified by 终审 claim). For tool-用清单体记备忘笔记 backfill anchor 逐字L867-941 （只记备忘+9保留/8删除） — that's in original diag L51 as the source for that content; fine. For yt-note-problem-solving-capability: anchor 破题 口述L36-40/逐字L55-67 （笔记=解题能力训练载体） — in diag 逐段诊断要点 #1. For dk-fundamentals-before-advanced-ops: anchor 逐字L751 （过早 AI 依赖=新人灾难） + 逐字L1485 ("L2 变便宜 L3-L6 更稀缺") + 口述L1308 ("所有高段位来自低段位剩余脑力" — the card's 原始表述 already quotes this!) — good fit: 逐字L1485/逐字L751/口述L622-626 两周练兵法.
+
+  For concept-问题驱动式深度思考笔记： anchor 逐字L1171-1191 （思考段五要点之问题驱动）.
+
+  For concept-提升笔记阅读舒适度： anchor 逐字L957-1015 协作段五要点 （产品意识/视觉美化/两到三层/信息密度画表/分点标题） — 产品意识四维同构 claim:02. Also 口述L794-806.
+
+  Let me spot-verify a couple of these transcript anchors quickly (lesson: don't write anchors without checking). Check 逐字 L1447-1461, L1171-1191, L957-971, L867-941 briefly, and 逐字L751, L1485. Use sed via bash? Read tool with offset on the transcript file. File: 00_inbox/清单式解题练习/逐字稿：一堂笔记法——清单式解题练习.md. Read small windows.All anchors verified. Also check 逐字L751 and L1485 for dk-fundamentals anchor, quickly.
+
+  Actually 逐字L1485 already quoted in diag ("AI 让 L2 备忘记录变便宜..."). 逐字L751 = "过早 AI 依赖=新人灾难" per diag L95. Let me spot check both quickly. And 口述L36-40 （破题） — the 终审 verified 口述 L120-124 etc. I'll trust L36-40 since it was in the original diagnosis and not flagged. But the lesson is 负向判词必须附存在性核查锚 — these are positive anchors. Quick check of 逐字L751 and 口述L36-40 anyway.All anchors verified. Now I have everything needed. Plan the edits:
+
+  **Diag report （逐条修订）:**
+
+  1. **一句话结论 (L23)**: Fix "~15 张卡" → 族全量枚举 25 张卡（21 首讲 source_refs + tool-用清单体记备忘笔记 + 族内 3 张邻接卡... hmm wait. Let me count carefully.
+
+  族清单 original (19 cards + 1 skill):
+  yt-note-checklist-concept, yt-note-five-levels-training, yt-note-ai-human-division, yt-note-live-field-skill, yt-note-l4-internalization, yt-note-l6-extraction, yt-note-expert-interview-modeling, yt-note-fact-pattern-insight, yt-note-deliberate-practice-four-elements, yt-note-extensive-research-input, yt-skill-checklist-as-ai-protocol, tool-note-one-line-one-point, tool-note-layer-constraint, tool-note-keyword-bolding, dk-note-maximum-common-divisor, dk-note-surplus-brainpower, dk-note-rookie-disaster-veteran-heaven, dk-truman-flag-note-taking, dk-modeling-checklist-working-medium = 19 cards, + skill transcript-to-qingdanti.
+
+  Note: yt-note-deliberate-practice-four-elements, dk-note-rookie-disaster-veteran-heaven, dk-modeling-checklist-working-medium are NOT in the source_refs grep (they don't carry "AI时代清单体笔记" string) — they were family-adjacent. The source_refs 全量枚举 = 21 cards (excluding index.md). Union: 21 + 3 adjacent + tool-用清单体记备忘笔记 = 25 cards + 1 skill = 26 items.
+
+  Wait check: which of the original 19 are in grep list? Grep has: ai-human-division, checklist-concept, expert-interview-modeling, extensive-research-input, fact-pattern-insight, l4-internalization, l6-extraction, skill-checklist-as-ai-protocol, max-common-divisor, surplus-brainpower, truman-flag-note-taking, keyword-bolding, layer-constraint, one-line-one-point, five-levels-training, live-field-skill = 16 ✓ (matches 终审 "诊断族清单只含 16 张"). Missing from grep: deliberate-practice-four-elements, rookie-disaster-veteran-heaven, modeling-checklist-working-medium = 3 adjacent.
+
+  New total: 16 (grep∩原清单） + 5 （漏网首讲卡） + 1 (tool-用清单体记备忘笔记） + 3 （族邻接） = 25 cards + 1 skill (transcript-to-qingdanti) = 26 items.
+
+  Unified count statement: 族=25 张卡+1 skill（source_refs 全量枚举 21 张+段位图 tool 1 张+族邻接 3 张）。
+
+  2. **MOC 节 (L37)**: rebuild 族清单 with full enumeration + note the method; add 空洞计数 for the 6 new cards.
+
+  3. **同构映射表 rows**:
+     - L51 只记备忘 row: change 已有卡 to `tool-用清单体记备忘笔记`（卡名即命中"只记备忘"原则，空洞 13 处）+ `tool-note-one-line-one-point`; 关系： "只记备忘"原则已被既有卡覆盖；9保留/8删除清单+常见偏差5条=真缺口； 判定： 原则回填互链既有卡，清单部分随 P1 价值公式卡新产并互链
+     - L52 产品意识 row: 改判已有 `concept-提升笔记阅读舒适度` claim:02 覆盖（四维表与逐字L957-971 同构）→ 回填+互链，不新产
+     - L53 分点标题 row: fix 裁定注记 (remove "并入产品意识卡"; align to 独立 tool-yt-note-point-title-mechanism)
+     - L54 穿糖葫芦 row: keep dk 新卡， add 互链 concept-提升笔记阅读舒适度 反例节（Cases L180 已载穿糖葫芦叙事）+ 差异化定位 (concept 卡=舒适度视角的反例引用，dk 新卡=操作失败模式专卡：手动编号/Tab 双臭毛病）
+
+     Wait — 终审 said concept 卡 Cases L180 已载穿糖葫芦反例叙事. I read only to L100. The 终审 verified this; I'll cite it as 【实证：欧阳锋终审 2026-09-09】. Actually let me verify quickly myself — grep 糖葫芦 in that card.
+
+  4. **逐段诊断要点 #6** mentions 产品意识 — fine, no change needed.
+
+  5. **解压路径节**: add point-title-mechanism item (currently 6 items listed but missing it; items 1-6: value-formula, coach-partner, officer, case×2, dk×2, 既有）. The dk×2 item includes 穿糖葫芦+显示器. point-title-mechanism is missing → add as item or expand. Also since 产品意识卡 cancelled, adjust. And add 回填类解压 note? Just add the missing card.
+
+  6. **产卡范围裁定**:
+     - P0 回填 7 张 → add rows: concept-提升笔记阅读舒适度 (23 空洞， 逐字L957-1015+口述L794-806), concept-问题驱动式深度思考笔记 (17 空洞， 逐字L1171-1191), yt-note-problem-solving-capability (28 空洞， 口述L36-40+逐字L55-67), dk-fundamentals-before-advanced-ops (27 空洞， 逐字L1485/口述L1308 补强+逐字L751 边界）, case-truman-ai-partner (44 空洞， 逐字L1447-1461 产品演进线——边界条款： 只补案例叙事层，产品规格归 agent-spec), tool-用清单体记备忘笔记 (13 空洞， 逐字L867-941 只记备忘细化+常见偏差）.
+     
+     But wait: P0#2 yt-note-five-levels-training 暗知识五节 uses 问题驱动=逐字L1171-1191 too. Now concept-问题驱动式深度思考笔记 also uses it. Resolve: 逐字L1171-1191 主回填 concept-问题驱动式深度思考笔记（专卡）; five-levels-training 的"问题驱动"暗知识节保留原裁定但注明与专卡互链（摘要级引用，防同段双写）。Or simpler: five-levels 的问题驱动节降为互链 concept 卡。I'll state: 主锚归 concept 专卡，five-levels-training 该节只做摘要+互链。
+
+     Also P1 表： does the count change? P1 stays 8 张 (product-awareness card never was in P1 table — the title error was only in #695 title). So P1 remains 8 张 unchanged, but add 互链 notes to value-formula card （互链 tool-用清单体记备忘笔记） and candy-string dk （互链 concept-提升笔记阅读舒适度 反例节 + 差异化定位）.
+     
+     New P0 count: 7+6=13 张.
+
+  7. **负向判词台账 (L208)**: revise — 「产品意识族内 0 命中」改判不成立 (5 文件命中， concept-提升笔记阅读舒适度 11 次）; 「只记备忘族内 0 命中」改判不成立 (tool-用清单体记备忘笔记）; 穿糖葫芦/27寸/分点标题 0 命中维持成立. Update 检索记录 #6 wording too (it claims 各 0 命中 for 14 组词 including 产品意识/只记备忘）. Fix #6 row: split into 成立/不成立.
+
+  8. **检索记录节**: add new entries (#13-#16) for the revision greps with 2026-09-09 date: full enumeration grep, 产品意识 grep, 只记备忘 grep, 空洞计数 grep for 6 cards.
+
+  9. **卡数口径统一**: L23 一句话结论， MOC 节， 下一步 #2 ("~19 张") → all to 25 张+1 skill.
+
+  10. **残余风险/边界**: add boundary for case-truman-ai-partner vs agent-spec-yt-note-coach-partner (in 边界条款 or P0 table note).
+
+  11. updated_at bump; maybe add revision note section "修订记录（2026-09-09 终审 FAIL 后返工）" summarizing changes — good for 欧阳锋 re-review.
+
+  **#695 task file fixes:**
+  - Title: remove 产品意识； update counts: P0回填13张； P1新卡8张 unchanged. New title: "一堂笔记法二讲素材产卡：P0回填13张旧卡 src 未知占位 空洞+P1新卡8张（价值公式+只记备忘/分点标题/穿糖葫芦/显示器SOP/麻将case/张磊case/双agent-spec）+P2回填2处"
+  - Replace "src_unknown" wording with "src 未知占位" (title + L23 + P0 section header L25)
+  - P0 table: add 6 rows (8-13)
+  - P1 table: value-formula row add 互链 tool-用清单体记备忘笔记； candy-string row add 互链 concept-提升笔记阅读舒适度 反例节+差异化
+  - 边界条款： add case/agent-spec 双源边界条款； add 逐字L1171-1191 主锚归 concept-问题驱动式深度思考笔记， five-levels 摘要互链
+  - updated_at bump. Do NOT touch status (queue_transition manages).
+
+  Also five-field execution report needs to be in #694 task file before 提审 — it already has one from first submission; I should update/append a 返工执行报告 （五字段）. The instruction: "提审前任务单内必须有五字段执行报告". The #694 task file has 执行报告 from 09-09 完工. I'll add a revised 五字段报告 for the rework （修订后重提审）. I'll append a new section "## 执行报告（五字段，2026-09-09 返工重提）".
+
+  Also update frontmatter updated_at? queue_transition complete probably handles it.
+
+  First verify 穿糖葫芦 in concept card Cases L180.
+
+• 锚点全部抽验命中。再核一处终审引证（concept 卡 Cases 节穿糖葫芦叙事），然后开始修订。70:提升笔记阅读舒适度是清单体笔记从"能用"到"好用"的**关键跃迁**。Truman观察到：大多数笔记的问题不是"记不全"，而是"读不下去"——长长短短没有分担、一层不分像下品、层太多像串糖葫芦、没有视觉重点导致"看麻了"。解决路径是两条：**产品意识**（把笔记当产品，预判谁用、什么场景、用多久）和**视觉编码**（用颜色、分层、格式让信息重心一目了然）。Truman的实践是：访谈笔记中标黄（亮点）、标绿（课程延展）、标红（关键决策点），2-3层分层，让3000字的笔记能被一分钟扫完。
+133:| **分层过度** | 笔记分层超过3层，像串糖葫芦，理解不了 | 2-3层为最佳，层少了理解不了，层多了也理解不了。分层是为了降低认知摩擦不是制造认知迷宫 |
+178:### 反面案例："串糖葫芦"式分层
+
+
+• Confirmed — concept card has "串糖葫芦" (with 串） at L178, which is why grep "穿糖葫芦" (course ASR wording 穿 vs 串） was 0 命中. The reverse-case narrative exists. Good — the dk 新卡差异化定位 writes itself: concept 卡已载"串糖葫芦"分层过度反例（舒适度/分层视角）；二讲 dk 新卡=口述原话"穿糖葫芦"（一里套二、二里套 A）+手动编号/Tab 双臭毛病（操作失败模式视角），互链。
+
+  Now write the revisions. Start with the diagnosis report. Multiple edits needed — I'll do them one at a time (can't do consecutive Edits on same file without re-reading... actually the rule says multiple Edit calls in one response only when they don't target the same file. So I must do sequential edits with re-reads? "DO NOT issue consecutive Edit calls on the same file. A previous Edit can invalidate a later Edit's old_string" — I can do one Edit per response on the same file, or use non-overlapping old_strings carefully. Safer: do edits one at a time. The diag file is 214 lines; I have it fresh in context. I'll make edits sequentially, one Edit call per message for the same file. That's many round trips but safe. Alternatively rewrite whole file with Write — the changes are extensive (many sections). A full rewrite via Write is allowed ("complete replacement") but risky for losing content. Given ~10 separate edits, sequential Edits are fine but slow. Actually I can put multiple Edits to DIFFERENT files in one response. For same file, one at a time.
+
+  Hmm, actually the guidance: "Multiple Edit calls may run in one response only when they do not target the same file." So for the diag, I'll do edits sequentially. Let me batch: plan all edits, execute one per turn. To reduce turns, I could rewrite the whole file with Write since I have the full content and the changes touch ~10 locations. The file is 214 lines, ~15KB. A full rewrite is error-prone but manageable. However Edit-based is more auditable. Given the number of edits (about 10), I'll do sequential Edits.
+
+  Edit 1: 一句话结论 L23 — fix card count + mention 族清单返工.
+
+  Original L23 text:
+  "素材**不是新域**——它是清单体笔记族（库内已 ~15 张卡）同源课程的第二次交付，最大价值有二：①**回填金矿**：族内主干卡被 src 未知占位 掏空（...）...②**二讲增量**：价值公式、9保留/8删除清单、产品意识、穿糖葫芦反例、显示器 SOP、AI Partner 双产品（诊断教练+笔记官）等 **11 项在族内 grep 0 命中**（存在性核查锚见检索记录 #7-#9）。裁定：**P0=回填 7 张旧卡，P1=新卡 8 张，P2=互链/回填若干**，产卡单排 #692 后。"
+
+  New:
+  "素材**不是新域**——它是清单体笔记族（库内全量枚举 **25 张卡+1 skill**，见 MOC 节）同源课程的第二次交付，最大价值有二：①**回填金矿**：族内 13 张卡被 src 未知占位 掏空（主干 6 张：ai-human-division 50 处/live-field-skill 66 处/surplus-brainpower 31 处/max-common-divisor 23 处/expert-interview-modeling 9 处/checklist-concept Claims 全空；漏网返工补入 6 张+段位图 tool 1 张：case-truman-ai-partner 44 处/yt-note-problem-solving-capability 28 处/dk-fundamentals-before-advanced-ops 27 处/concept-提升笔记阅读舒适度 23 处/concept-问题驱动式深度思考笔记 17 处/tool-用清单体记备忘笔记 13 处，【实证】grep 计数），本素材逐字稿恰好覆盖这些空洞的原始表述；②**二讲增量**：价值公式、9保留/8删除清单、穿糖葫芦反例、显示器 SOP、分点标题机制、AI Partner 双产品（诊断教练+笔记官）等——其中穿糖葫芦/27寸/分点标题 **族内 grep 0 命中成立**；~~产品意识/只记备忘~~ 二项经存在性核查**改判**（产品意识=concept-提升笔记阅读舒适度 claim:02 已覆盖；只记备忘=tool-用清单体记备忘笔记 既有卡），改判为回填互链不新产（存在性核查锚见检索记录 #6/#13-#16）。裁定：**P0=回填 13 张旧卡，P1=新卡 8 张，P2=互链/回填若干**，产卡单排 #692 后。"
+
+  Careful with ~~strikethrough~~ — maybe avoid; just state 改判.
+
+  Edit 2: MOC 节 L37 族清单 — rebuild.
+
+  Edit 3: 映射表 rows L51-54.
+
+  Edit 4: 解压路径 — add point-title-mechanism.
+
+  Edit 5: P0 table — extend to 13 rows.
+
+  Edit 6: P1 table notes (value-formula 互链， candy-string 互链+差异化）.
+
+  Edit 7: P2/不产 + 边界条款 — add case/agent-spec boundary.
+
+  Edit 8: 检索记录 #6 fix + add #13-#16.
+
+  Edit 9: 负向判词台账 rewrite.
+
+  Edit 10: 下一步 #2 count fix (~19 张 → 25 张+1 skill).
+
+  Edit 11: frontmatter updated_at + add 修订记录 section at end (before 下一步？ or after). I'll add a "## 修订记录（2026-09-09 终审 FAIL 返工）" section near top or bottom. Put it right after frontmatter/title area? Better at bottom after 下一步， or right after 一句话结论. I'll append at end.
+
+  That's ~11 sequential edits. Heavy but fine. Alternatively do a full-file Write — honestly with this many changes, a Write full replacement is cleaner and less round-trips. I have the complete original content in context. Risk: typos when reproducing unchanged parts. The file is ~214 lines. I think Write full replacement is justified here ("the new contents have little continuity" — actually much continuity). Hmm. The rule: "Use Write only when the file does not exist, you intend a complete replacement, or the new contents have little continuity." A revision touching 10 of 25 sections — I'd rather use sequential Edits for auditability. But 11 sequential responses is a lot. Compromise: group edits per response = 1 Edit per response for the diag (same file). Actually I can do ONE edit per response but multiple responses... that's 11 turns.
+
+  Alternative: fewer, larger Edits. E.g., one Edit replacing L35-L64 (MOC section + mapping table rows), one replacing L21-L23 （一句话结论）, one for 解压路径+裁定节 (L134-174 contiguous!), one for 检索记录+台账 (L191-208 contiguous), one for 下一步 (L210-213). That's ~5-6 edits. Sections L134-174 are contiguous （解压路径 through 边界条款）, and L176-178 (#685 对账） unchanged, L180-189 unchanged, L191-208 contiguous （检索记录+台账）. So:
+
+  Edit A: L21-23 一句话结论
+  Edit B: L35-63 MOC节+映射表 (through row 作业三选一 L63)
+  Edit C: L134-174 解压路径+产卡裁定+边界条款
+  Edit D: L191-208 检索记录节+台账
+  Edit E: L210-214 下一步 + append 修订记录
+  Edit F: frontmatter updated_at
+
+  6 sequential edits. Then #695 file edits (can parallel with... no, same-file constraint only; #695 is a different file so its edits can go in same response as a diag edit? "Multiple Edit calls may run in one response only when they do not target the same file" — yes, I can pair one diag edit + one #695 edit per response. But order/logic independent, fine.
+
+  #695 edits:
+  - frontmatter title + updated_at
+  - L23 任务目标 paragraph (counts + src 未知占位 wording)
+  - P0 section header + table (add 6 rows)
+  - P1 table (2 row notes)
+  - 边界条款 (add items 8-9)
+  - Also "P0 回填 7 张" in 验收标准 L67.
+
+  #695 has ~6 edits too. Let me be efficient: I'll do full-file Write for #695 (77 lines, small, and I'm changing many lines) — justified as near-complete revision. And for diag, sequential Edits.
+
+  Actually for diag, given 6 big chunk edits, maybe Write is also cleaner... The instruction prefers Edit for incremental changes. I'll go with Edits for diag.
+
+  Let me now draft all content.
+
+  ---
+
+  **Edit A: 一句话结论 (L21-23)**
+
+  Old (L23 full paragraph). Replace with:
+
+  "素材**不是新域**——它是清单体笔记族（库内全量枚举 **25 张卡+1 skill**，枚举法与清单见 MOC 节）同源课程的第二次交付，最大价值有二：①**回填金矿**：族内 13 张卡被 src 未知占位 掏空——主干 6 张（`yt-note-ai-human-division` 50 处含六阶模型整表、`yt-note-live-field-skill` 66 处、`dk-note-surplus-brainpower` 31 处、`dk-note-maximum-common-divisor` 23 处、`yt-note-expert-interview-modeling` 9 处、`yt-note-checklist-concept` Claims 全空）+ 终审返工补枚举 7 张（`case-truman-ai-partner` 44 处、`yt-note-problem-solving-capability` 28 处、`dk-fundamentals-before-advanced-ops` 27 处、`concept-提升笔记阅读舒适度` 23 处、`concept-问题驱动式深度思考笔记` 17 处、`tool-用清单体记备忘笔记` 13 处【实证】grep 计数），本素材逐字稿恰好覆盖这些空洞的原始表述；②**二讲增量**：价值公式、9保留/8删除清单、穿糖葫芦反例、显示器 SOP、分点标题机制、AI Partner 双产品（诊断教练+笔记官）等——其中「穿糖葫芦/27寸/分点标题」族内 grep 0 命中**成立**；「产品意识/只记备忘」二项经全库存在性核查**改判不成立**（产品意识=`concept-提升笔记阅读舒适度` claim:02 已覆盖；只记备忘=`tool-用清单体记备忘笔记` 既有卡），改裁为回填互链不新产（锚见检索记录 #6/#13-#16）。裁定：**P0=回填 13 张旧卡，P1=新卡 8 张，P2=互链/回填若干**，产卡单排 #692 后。"
+
+  Wait: 13 = 6 主干 + 7 补枚举？ 6+7=13. Yes: 7 张原 P0 (ai-human-division, five-levels-training, live-field-skill, surplus-brainpower, max-common-divisor, checklist-concept, expert-interview-modeling) + 6 new = 13. Note five-levels-training 空洞不在 src 计数口径（暗知识节空），原 P0 有 7 张。新增 6 张：case-truman-ai-partner, concept-提升笔记阅读舒适度， concept-问题驱动式深度思考笔记， yt-note-problem-solving-capability, dk-fundamentals-before-advanced-ops, tool-用清单体记备忘笔记. So 补枚举=6 张. Fix: 主干 7 张 + 补枚举 6 张 = 13.
+
+  **Edit B: MOC 节 (L35-37) + 映射表 (L39-63)**
+
+  New MOC paragraph:
+
+  "## MOC 先行与同构映射表（W8/W10，建模第 0 步）
+
+  主题域=清单体笔记/一堂笔记法。族内主干卡已通读 2 张全文（`yt-note-checklist-concept` 314 行、`yt-note-five-levels-training` 291 行），其余读 Summary/核心要点层。**族清单重建（2026-09-09 终审 FAIL 后返工，source_refs 全量枚举法）【实证】**：`grep -rl "AI时代清单体笔记" 30_wiki --include="*.md"` 命中 21 张卡（去 index.md）+ `tool-用清单体记备忘笔记`（source_refs=src_20260609_6809033f-ocr-清单体笔记训练段位图-图片02，不含口述关键词故枚举法外的第 22 张）+ 族邻接 3 张（yt-note-deliberate-practice-four-elements / dk-note-rookie-disaster-veteran-heaven / dk-modeling-checklist-working-medium，族内容强相关但 source_refs 未挂首讲）= **全族 25 张卡 + skill `transcript-to-qingdanti`**。全量清单：yt-note-checklist-concept / yt-note-five-levels-training / yt-note-ai-human-division / yt-note-live-field-skill / yt-note-l4-internalization / yt-note-l6-extraction / yt-note-expert-interview-modeling / yt-note-fact-pattern-insight / yt-note-extensive-research-input / yt-note-problem-solving-capability / yt-skill-checklist-as-ai-protocol / case-truman-ai-partner / concept-提升笔记阅读舒适度 / concept-问题驱动式深度思考笔记 / tool-note-one-line-one-point / tool-note-layer-constraint / tool-note-keyword-bolding / tool-用清单体记备忘笔记 / dk-note-maximum-common-divisor / dk-note-surplus-brainpower / dk-truman-flag-note-taking / dk-fundamentals-before-advanced-ops + 邻接 3 张（yt-note-deliberate-practice-four-elements / dk-note-rookie-disaster-veteran-heaven / dk-modeling-checklist-working-medium）。**初版漏列 5+1 张（欧阳锋终审 P0-1 实拦）**：case-truman-ai-partner / concept-提升笔记阅读舒适度 / concept-问题驱动式深度思考笔记 / yt-note-problem-solving-capability / dk-fundamentals-before-advanced-ops + tool-用清单体记备忘笔记——漏网 6 卡空洞计数【实证 grep `src_unknown|待补充链接`】44/23/17/28/27/13 处，P0 回填清单随之补报。**无独立 MOC/domain-digest 卡**（存在性核查：ls 30_wiki/domains 无 note 域 digest——MOC 缺失本身登记为基建缺口，见「下一步」；本族 25 卡无 digest 导航=枚举漏列的直接根因）。"
+
+  Mapping table rows L51-54 replacements:
+
+  Row L51 （只记备忘）:
+  "| **只记备忘+9 保留/8 删除清单+常见偏差 5 条**（逐字L867-941；口述L736-756） | `tool-用清单体记备忘笔记`（卡名即"只记备忘"原则既有卡，空洞 13 处【实证】）+ `tool-note-one-line-one-point`（一行一点相邻） | **原则已被既有卡覆盖**（初版判"相邻不重叠"系族清单漏卡所致，终审 P1-1 改判）；9保留/8删除清单+常见偏差5条既有卡无 | 原则回填互链既有卡；清单部分真缺口→随 P1 价值公式卡新产并互链 |"
+
+  Row L52 （产品意识）:
+  "| **产品意识：笔记即产品，预判谁用/用多久/什么场景**（逐字L957-971；口述L794-806） | `concept-提升笔记阅读舒适度`（claim:02「产品意识是舒适度的底层操作系统」L78-87 载谁用/什么场景/用多久/什么价值四维表，与逐字L957-971 同构【实证：欧阳锋终审抽验+本轮回读】；自身空洞 23 处） | **已有卡覆盖**（初版判"族内 0 命中=真缺口"被全库 grep 推翻：产品意识 5 文件命中，本卡 11 次） | ❌ 不新产——用二讲素材回填该卡空洞+互链 |"
+
+  Row L53 （分点标题）:
+  "| **分点标题的机制解释：标题=可排序标签，是现场整理/后续飞跃的前提**（口述L920-934；逐字L1003-1015） | `tool-note-keyword-bolding`（讲加粗视觉重心，不讲标题=排序标签机制） | 互补不同层 | ✅ 真缺口（**独立 tool** `tool-yt-note-point-title-mechanism`——初版裁定注记"并入产品意识卡"随产品意识改判作废） |"
+
+  Row L54 （穿糖葫芦）:
+  "| **穿糖葫芦反例+手动编号/Tab 双臭毛病**（口述L830-834/L690-700） | `tool-note-layer-constraint`（正面规则）+ `concept-提升笔记阅读舒适度`（Cases L178 已载"串糖葫芦"式分层过度反面案例【实证 grep】） | 互补（正反两面）；概念卡=舒适度/分层视角引述，本素材=操作失败模式原话（一里套二、二里套A"我智商不够"）+手动编号/Tab 双臭毛病 | ✅ 真缺口（dk 反例卡保留，互链 concept 卡反面案例节+写明差异化定位） |"
+
+  Also L50 价值公式 row mentions grep"价值公式/不困"族内 0 命中 — that stays true. L55 显示器 SOP 0 命中 true. L56 张磊 族内 0 命中 true. L57 麻将族内 0 命中 true.
+
+  **Edit C: 解压路径 + 产卡裁定 + 边界条款 (L134-174)**
+
+  解压路径 items: renumber, add point-title-mechanism, note product-awareness removed:
+
+  "1. **tool-yt-note-value-formula-min-memo**（新产 P1）：价值公式判定器+9 保留/8 删除对照清单——日常任何记录场景直接调用；互链 `tool-用清单体记备忘笔记`（原则层）。
+  2. **tool-yt-note-point-title-mechanism**（新产 P1）：分点标题=可排序标签机制——协作段→思考段的桥梁工具（初版漏列，终审 P2-1 补）。
+  3. **agent-spec-yt-note-coach-partner**（新产 P1）：10 倍速诊断教练——把"五段位判定+四要素诊断+最小行动"产品化为可复用 agent 规格，KDO 可直接编译。
+  4. **agent-spec-yt-note-officer**（新产 P1）：笔记官——与既有 skill `transcript-to-qingdanti` 互为"产品形态↔生产 SOP"。
+  5. **case×2**（新产 P1）：麻将刻意练习 + 张磊 5h 极限出课——L4 思考段与 L6 萃取段的活例。
+  6. **dk×2**（新产 P1）：穿糖葫芦反例 + 显示器 SOP——失败模式与效率工具两条暗线。
+  7. 既有解压资产（不重复产）：`transcript-to-qingdanti` skill、`tool-note-one-line-one-point`、`tool-note-layer-constraint`、`tool-note-keyword-bolding`、`tool-用清单体记备忘笔记`。
+  （产品意识独立卡已撤销——改判回填 `concept-提升笔记阅读舒适度`，见映射表。）"
+
+  P0 table → 13 rows. Add rows 8-13:
+
+  | 8 | `concept-提升笔记阅读舒适度` | 23 处（query_triggers 7 + pipeline 2 + claim:03 5 + Critique 内部局限 4 + Synthesis 待补充 5【实证：欧阳锋终审 grep】） | 产品意识四维+协作段五要点（视觉美化/两到三层/信息密度画表/分点标题）：逐字L957-1015；口述L794-806/L898-934 |
+  | 9 | `concept-问题驱动式深度思考笔记` | 17 处【实证 grep】 | 问题驱动要点+毛选/讲课/灵感闪现三例：逐字L1171-1191（**主锚归本卡**；yt-note-five-levels-training 的"问题驱动"暗知识节降为摘要+互链本卡，防同段双写） |
+  | 10 | `yt-note-problem-solving-capability` | 28 处【实证 grep】 | 破题"笔记=解决问题能力"原话：口述L36-40；逐字L55-67 |
+  | 11 | `dk-fundamentals-before-advanced-ops` | 27 处【实证 grep】 | "L2 变便宜 L3-L6 更稀缺"：逐字L1485；"记成一坨=录音转文稿/AI摘要完事儿"边界：逐字L751；两周新人练兵法：口述L622-626 |
+  | 12 | `case-truman-ai-partner` | 44 处【实证 grep】 | AI Partner 产品演进线（诊断教练 10 倍速报告实为"阿蕊老师"产品线的二讲形态）：逐字L1447-1461；口述L1402-1428。**边界：本卡只补案例叙事/演进层，产品规格结构归 P1 `agent-spec-yt-note-coach-partner`，防双卡双源冲突**（终审残余风险条款） |
+  | 13 | `tool-用清单体记备忘笔记` | 13 处【实证 grep】 | 只记备忘细化（最小备忘需求/化简清单/关键信息完整度≠逐字完整度）+常见偏差：逐字L867-877；口述L736-756 |
+
+  P1 table: keep 8 rows, modify 2:
+  - value-formula row 备注： add "互链 tool-用清单体记备忘笔记（原则层既有卡，本卡承载清单与偏差部分）"
+  - candy-string row 备注： add "互链 tool-note-layer-constraint（正反两面）+ concept-提升笔记阅读舒适度 反面案例节（该卡载'串糖葫芦'分层反例；本卡差异化=操作失败模式原话+手动编号/Tab 双臭毛病）"
+
+  边界条款 add ⑦: "case-truman-ai-partner 与 agent-spec-yt-note-coach-partner 同涉 AI Partner 素材（逐字L1447-1461/口述L1402-1428）：case 卡只回填案例叙事与产品演进层，agent-spec 承载产品规格结构，两卡互链但不得重复承载同一段产品结构描述（终审残余风险条款）。"
+
+  **Edit D: 检索记录节 #6 fix + add #13-#16**
+
+  #6 row rewrite:
+  "| 6 | grep（kdo query 后补充定位，降级口径①） | 30_wiki 族内 14 组词："价值公式/不困/穿糖葫芦/27寸/张磊/只记备忘/避免大段/分点标题/产品意识/笔记官" | **初版判"各 0 命中"——经终审存在性核查部分推翻**：「产品意识」5 文件命中（concept-提升笔记阅读舒适度 11 次）、「只记备忘」命中 tool-用清单体记备忘笔记 → 二词判词**不成立**（改判见映射表）；「穿糖葫芦/27寸/分点标题」等 0 命中**成立**；"如厕/不投屏/故事线/30%/长期迭代/信息密度"等有命中（已覆盖锚） | 2026-09-09 |"
+
+  Add rows:
+  "| 13 | grep（返工·存在性核查，终审 P0-1 期望形态①） | `grep -rl "AI时代清单体笔记" 30_wiki --include="*.md"` | 命中 21 张卡（去 index.md），对照初版族清单差集=5 张（case-truman-ai-partner/concept-提升笔记阅读舒适度/concept-问题驱动式深度思考笔记/yt-note-problem-solving-capability/dk-fundamentals-before-advanced-ops）；另 tool-用清单体记备忘笔记 source_refs=段位图图片02（grep -n source_refs 该卡 L26） | 2026-09-09 |
+  | 14 | grep（返工·存在性核查，终审 P1-1） | `grep -rl "产品意识" 30_wiki/` | 5 文件命中：concept-提升笔记阅读舒适度（11 次）/concept-card-index-latest/yt-entrepreneur-product-core/yt-product-kernel-six-levels/index → 初版"族内 0 命中"判词不成立 | 2026-09-09 |
+  | 15 | grep（返工·存在性核查，终审 P1-1） | `grep -rl "只记备忘" 30_wiki/`；`grep -rl "穿糖葫芦"/"27寸"/"分点标题"` | 只记备忘=tool-用清单体记备忘笔记 1 文件命中 → 判词不成立；穿糖葫芦/27寸/分点标题均 0 文件命中 → 判词成立（concept 卡为"串糖葫芦"异体字表述，L70/L133/L178【实证】） | 2026-09-09 |
+  | 16 | grep（返工·漏网卡空洞计数） | `grep -c "src_unknown|待补充链接"` 漏网 6 卡 | case-truman-ai-partner=44、yt-note-problem-solving-capability=28、dk-fundamentals-before-advanced-ops=27、concept-提升笔记阅读舒适度=23、concept-问题驱动式深度思考笔记=17、tool-用清单体记备忘笔记=13 | 2026-09-09 |"
+
+  负向判词台账 rewrite:
+  "**负向判词台账**（宪法第二条，2026-09-09 终审 FAIL 后逐条复核）：「穿糖葫芦/27寸/分点标题族内 0 命中」→**成立**，锚=#15；「主干 7 卡被掏空」→成立，锚=#7；「漏网 6 卡空洞 44/28/27/23/17/13 处」→成立，锚=#16；「无 note 域 MOC」→成立，锚=#9；「外部无同粒度体系/无否定来源」→成立，锚=#12；~~「产品意识族内 0 命中」~~→**不成立已改判**（5 文件命中），锚=#14；~~「只记备忘族内 0 命中」~~→**不成立已改判**（tool-用清单体记备忘笔记），锚=#15。教训：初版负向判词按"族内"口径下断言但族清单本身不全——负向判词的存在性核查锚必须先保证分母（族清单）完备（终审 P0-1→P1-1 连锁推翻实证）。"
+
+  **Edit E: 下一步 + 修订记录**
+
+  下一步 #2: "基建缺口登记：清单体笔记族 25 张卡+1 skill 无 domain-digest/MOC——..."
+
+  Append 修订记录 section:
+  "## 修订记录（2026-09-09 欧阳锋终审 FAIL 后返工，复审轮 1/3）
+
+  1. **P0-1（阻断）族清单重建**：按 source_refs 全量枚举法补 5+1 张漏网卡（检索记录 #13），逐卡跑空洞计数（#16）；全族口径统一为 25 张卡+1 skill（一句话结论/MOC 节/下一步三处同步）。
+  2. **P1-1 负向判词改判**：「产品意识」「只记备忘」二词 0 命中判词不成立（#14/#15）——产品意识行改判"concept-提升笔记阅读舒适度 claim:02 已覆盖"→回填互链不新产；只记备忘行改判"原则已有 tool-用清单体记备忘笔记"→清单部分随 P1 价值公式卡互链新产；穿糖葫芦/27寸/分点标题 0 命中维持成立。
+  3. **P2-1 口径统一**：卡数三处统一（25 卡+1 skill）；解压路径补列 tool-yt-note-point-title-mechanism（初版第 2 张 P1 漏列）。
+  4. **P2-2 #695 同步**：标题删除"产品意识"与 P1 表对齐；正文 src_unknown 字样改述为"src 未知占位"。
+  5. **P0 回填表重排**：7 张→13 张（漏网 6 卡中与二讲素材有锚者全部纳入：AI Partner=逐字L1447-1461、问题驱动=逐字L1171-1191、产品意识=逐字L957-1015、破题=口述L36-40、AI依赖边界=逐字L751/L1485、只记备忘=逐字L867-877）；逐字L1171-1191 主锚归 concept-问题驱动式深度思考笔记，five-levels-training 该节降摘要互链；case-truman-ai-partner 与 agent-spec-yt-note-coach-partner 双源边界写入边界条款⑦。"
+
+  **Edit F: frontmatter** updated_at → '2026-09-09T18:30:00+08:00'? Get current time later. Also reviewed_by stays pending. Maybe add a line in frontmatter? Keep simple: update updated_at.
+
+  **#695 rewrite (Write full file):**
+
+  ---
+  id: task_20260909_laowantong-yt-note-v2-backfill-and-cards
+  title: "一堂笔记法二讲素材产卡：P0回填13张旧卡 src 未知占位 空洞+P1新卡8张（价值公式+只记备忘互链/分点标题/穿糖葫芦/显示器SOP/麻将case/张磊case/双agent-spec）+P2回填2处"
+  seq: 695
+  status: queued
+  ... (keep rest of frontmatter, bump updated_at)
+
+  Body: same structure with updates:
+  - 规格源 note add 修订记录 reference
+  - 任务目标： P0 13 张
+  - P0 table 13 rows
+  - P1 table with 2 modified rows
+  - 边界条款 add 8, 9
+  - 验收标准 update counts
+
+  Note: file has \r line endings? The diag file Read showed no \r markers... actually the task file #694 showed \r (CRLF mixed). The diag file Read didn't show \r markers, and system said for #694 "Mixed or lone carriage-return line endings shown as \r". The diag read output didn't have that note → diag is LF or pure CRLF? The status block for diag said nothing about line endings → LF. For #695, the Read also showed no \r note → LF. Good, plain LF edits.
+
+  Wait, actually check: #694 task file showed \r at end of every line — meaning CRLF. Diag and #695 showed no \r → LF. OK.
+
+  Now, also the 执行报告五字段 in #694 task file — need updated rework report before complete. And queue_transition complete --evidence.
+
+  Also: I must not modify the 终审记录 section in #694 (it's the review record). I'll append a new 执行报告（返工） section.
+
+  Current time: get via date. Let me start editing. Response 1: Edit A (diag) + Write? No — Write of #695 in same response as Edit A on diag is allowed (different files). But I should be careful: Write requires having Read the file — done.
+
+  Actually let me reconsider doing diag via sequential Edits — 6 edits = 6 responses. Fine.
+
+  Let me get current time first for timestamps.2026-09-09 09:50
+
+
+• 修订映射表四行（只记备忘/产品意识/分点标题/穿糖葫芦）：
+
+• 修订解压路径节（补 point-title-mechanism）：
+
+• 修订产卡范围裁定节（P0 7 张→13 张，P1 表两行注记，边界条款加双源条款）：
+
+• Now the 检索记录节： fix #6 row, add #13-#16, rewrite 负向判词台账.
+
+• 修订检索记录节（#6 改判 + 新增 #13-#16 + 台账逐条复核）：
+
+• Diag report done. Now #695 task file — full Write revision. Keep frontmatter (status stays queued; updated_at bump). Then run kdo pre-submit on both files.
+
+• 诊断报告修订完毕。现在同步修订 #695 产卡单：
+
+• Now run kdo pre-submit on both files (diag + #695). Also #694 task file needs updated 五字段执行报告 for rework before complete. Let me run pre-submit first.  [DK_SECTION]: 0 issues
+  [OUTLINK]: 0 issues
+  [ALIASES]: 0 issues
+  [POSITION_DECLARATION]: 0 issues
+  [SOURCE_REACHABILITY]: 0 issues
+  [QUALITY_SCORE]: 2 info
+    📊 60_feedback/diagnosis/diag_20260909_wangyuyan-checklist-solving.md
+       Quality pre-score: 25/100 | pos:N/A | tacit:0 (no section) | src:0 (empty) | decomp:0
+    📊 60_feedback/tasks/task_20260909_laowantong-yt-note-v2-backfill-and-cards.md
+       Quality pre-score: 25/100 | pos:N/A | tacit:0 (no section) | src:0 (empty) | decomp:0
+  [BODY_SRC_UNKNOWN]: 1 errors
+    🔴 60_feedback/diagnosis/diag_20260909_wangyuyan-checklist-solving.md
+       正文 src_unknown 占位 ×3——新卡拦截（#517：节须实质填充，占位先入库时代结束；无来源的节删掉或标待复核，禁止占位充数）
+  [VLM_TWO_SECTION]: 0 issues
+  [CONCEPT_CROSSCHECK]: 0 issues
+  [QINGDANTI_STRUCTURE]: 0 issues
+  [QUOTE_VERBATIM]: 0 issues
+  [SOURCE_RANGE]: 0 issues
+  [KDO_QUERY_LOG]: 0 issues
+  [TAGS]: 2 warnings
+    🟡 60_feedback/diagnosis/diag_20260909_wangyuyan-checklist-solving.md
+       普通卡内容词 0 个（维度前缀不计词），合规区间 5-8 跨轴词（tags-vocab-design §三，#498；当前档位：WARNING（软期至 2026-09-14，此后升 HARD 拦截））
+    🟡 60_feedback/tasks/task_20260909_laowantong-yt-note-v2-backfill-and-cards.md
+       No tags found. Every card needs at least audience:xxx + scene:xxx.（#677；当前档位：WARNING（软期至 2026-09-14，此后升 HARD 拦截））
+
+  🔴 Result: FAIL — 2 个错误要修（#220 P1-5 讲香）
+     路径感：从上往下修——先修 YAML 结构错误（阻断后续检查），再修内容错误
+     修完重跑本命令，看到 ✅ PASS 再提交，省欧阳锋一轮往返
+====================================================================
+
+BODY_SRC_UNKNOWN ×3 in diag — the diag mentions "src_unknown" literally in my new text: 检索记录 #16 row (`grep -c "src_unknown\|待补充链接"`), MOC 节 （空洞计数【实证 grep `src_unknown|待补充链接`】), and P0 table? Original diag passed pre-submit earlier with 0 issues on BODY_SRC_UNKNOWN after they had reworded （执行报告 said "BODY_SRC_UNKNOWN 9 处误报已改述清零"). My new edits reintroduced the literal string "src_unknown" in 3 places:
+
+  1. MOC 节： "漏网 6 卡空洞计数【实证 grep `src_unknown|待补充链接`】44/23/17/28/27/13 处"
+  2. P0 #8? No — I wrote "src 未知占位" in most places. Check: 检索记录 #16: `grep -c "src_unknown\|待补充链接"`.
+  3. Maybe also P0 table header? I wrote "src 未知占位" there. Let me grep the file for src_unknown.
+
+• 诊断报告有 3 处字面 src_unknown 触发拦截，定位后改述：37:主题域=清单体笔记/一堂笔记法。族内主干卡已通读 2 张全文（`yt-note-checklist-concept` 314 行、`yt-note-five-levels-training` 291 行），其余读 Summary/核心要点层。**族清单（2026-09-09 终审 FAIL 后按 source_refs 全量枚举法重建）【实证】**：`grep -rl "AI时代清单体笔记" 30_wiki --include="*.md"` 命中 21 张卡（去 index.md）+ `tool-用清单体记备忘笔记`（source_refs=src_20260609_6809033f-ocr-清单体笔记训练段位图-图片02，不含口述关键词，为枚举法外第 22 张）+ 族邻接 3 张（yt-note-deliberate-practice-four-elements / dk-note-rookie-disaster-veteran-heaven / dk-modeling-checklist-working-medium，族内容强相关但 source_refs 未挂首讲）= **全族 25 张卡 + skill `transcript-to-qingdanti`**。全量清单：yt-note-checklist-concept / yt-note-five-levels-training / yt-note-ai-human-division / yt-note-live-field-skill / yt-note-l4-internalization / yt-note-l6-extraction / yt-note-expert-interview-modeling / yt-note-fact-pattern-insight / yt-note-extensive-research-input / yt-note-problem-solving-capability / yt-skill-checklist-as-ai-protocol / case-truman-ai-partner / concept-提升笔记阅读舒适度 / concept-问题驱动式深度思考笔记 / tool-note-one-line-one-point / tool-note-layer-constraint / tool-note-keyword-bolding / tool-用清单体记备忘笔记 / dk-note-maximum-common-divisor / dk-note-surplus-brainpower / dk-truman-flag-note-taking / dk-fundamentals-before-advanced-ops + 邻接 3 张（yt-note-deliberate-practice-four-elements / dk-note-rookie-disaster-veteran-heaven / dk-modeling-checklist-working-medium）。**初版漏列 5+1 张（欧阳锋终审 P0-1 实拦）**：case-truman-ai-partner / concept-提升笔记阅读舒适度 / concept-问题驱动式深度思考笔记 / yt-note-problem-solving-capability / dk-fundamentals-before-advanced-ops + tool-用清单体记备忘笔记——漏网 6 卡空洞计数【实证 grep `src_unknown|待补充链接`】44/23/17/28/27/13 处，P0 回填清单随之补报。**无独立 MOC/domain-digest 卡**（存在性核查：ls 30_wiki/domains 无 note 域 digest——MOC 缺失本身登记为基建缺口，见「下一步」；本族 25 卡无 digest 导航=初版枚举漏列的直接根因）。
+219:| 16 | grep（返工·漏网卡空洞计数） | `grep -c "src_unknown\|待补充链接"` 漏网 6 卡 | case-truman-ai-partner=44、yt-note-problem-solving-capability=28、dk-fundamentals-before-advanced-ops=27、concept-提升笔记阅读舒适度=23、concept-问题驱动式深度思考笔记=17、tool-用清单体记备忘笔记=13 | 2026-09-09 |
+235:5. **P2-2 #695 同步修订**：标题删除"产品意识"与 P1 表对齐；P0 表同步扩至 13 张；正文 src_unknown 字样改述为"src 未知占位"（pre-submit BODY_SRC_UNKNOWN 误报规避，已入欧阳锋建议书台账）。
+
+
+• Three places. Reword to avoid the literal token while keeping verifiability — use "src 未知占位" wording: e.g. 【实证 grep 计数（`src 未知占位`+`待补充链接` 两模式）】and for the command write `grep -c -E "src＿unknown|待补充链接"`? Hmm, but then command isn't copy-pasteable. The original diag solved 9 处误报 by 改述. Follow same pattern: use "src 未知占位（src+unknown 占位串）" style. The original passed with wording like "src 未知占位". For the grep command in #16, I can write: `grep -c "src 未知占位 原串|待补充链接"`... that's awkward. Better: describe as 「空洞计数（src 未知占位+待补充链接 两模式）」. The reproducibility is slightly reduced but 终审 knows the actual pattern. I'll write: `grep -c -E "src占位串|待补充链接"` with a footnote? Simpler: keep the anchor honest: write the pattern with a zero-width description: "grep -c（模式=src 未知占位原词|待补充链接）". Good enough.  [YAML]: 1 errors, 1 warnings
+  [BODY_SRC_UNKNOWN]: 0 issues
+  [KDO_QUERY_LOG]: 0 issues
+  🔴 Result: FAIL — 1 个错误要修（#220 P1-5 讲香）
+     修完重跑本命令，看到 ✅ PASS 再提交，省欧阳锋一轮往返
+  Failed:        1
+
+  [YAML]: 1 errors, 1 warnings
+    🔴 60_feedback/tasks/task_20260909_laowantong-yt-note-v2-backfill-and-cards.md
+       Missing required field: reviewed_by
+    🟡 60_feedback/tasks/task_20260909_laowantong-yt-note-v2-backfill-and-cards.md
+       tags 缺 audience:/scene: — RRF tag 维度匹配依赖这两维（#220 P0-3）
+  [WIKILINK]: 0 issues
+  [DOMAIN]: 0 issues
+#695 frontmatter lacks `reviewed_by` — the original file also lacked it? Original #695 frontmatter had: id, title, seq, status, assignee, created_by, created_at, decision_source, reviewer, instance, updated_at. No reviewed_by. But earlier it presumably passed (the 终审 said #695 pre-submit had only BODY_SRC_UNKNOWN ×2 — meaning YAML passed?). Hmm, maybe earlier run was different. Anyway add reviewed_by: pending（欧阳锋终审）and tags to silence warning? TAGS warning is 软期 — warning only. Add reviewed_by field.  ✅ Result: PASS（3 条 WARNING 在列——有警在身，非全清，终审前自行掂量）
+PASS (3 warnings: 2 tags 软期 + 1 YAML tags warning — all 软期 WARNING, acceptable per 初版口径 which also had tags WARNING 软期）.
+
+  Now update #694 task file with rework 五字段执行报告， then queue_transition complete with evidence, then todos append.
+
+  #694 task file: append a new section after 终审记录？ The 执行报告 section exists (first submission). I'll append "## 执行报告（五字段，2026-09-09 返工重提，复审轮 1/3）" at end of file. Note the file uses CRLF (\r shown). I need exact \r escapes in old_string. The file content ends with line 131 残余风险 paragraph. I'll append via Edit matching the last line with \r... risky. Better use Bash append? Rules say prefer Edit, but for appending with CRLF complexity, Write mode=append appends content without newline conversion — the file is CRLF; appending LF lines would mix. The original file has "Mixed or lone carriage-return" — every line ended with \r in display, meaning CRLF. Using Write append with \r\n content is doable.
+
+  Actually simpler: use Edit with old_string containing \r. The last line: "- 漏网 5 卡中 case-truman-ai-partner（44 处空洞）与已裁定 P1 `agent-spec-yt-note-coach-partner` 同涉 AI Partner 素材，修订时需明确边界划分，防同素材双卡双源冲突；「清单体=最优 AI 格式」降幻觉断言维持【推断】confidence≤0.85 口径不变。\r" — I need to include actual \r escape. In Edit old_string I write the line content followed by \r? The tool said "include actual \r escapes in those positions" — meaning in the JSON string I put \r? The instructions: "For mixed endings or lone carriage returns, Read shows carriage returns as \r; include actual \r escapes in those positions." So old_string should end with "口径不变。\r" — hmm, in the parameter I type a literal backslash-r? "include actual \r escapes" — I believe they mean the two-character escape sequence \r in the string, which the tool interprets. Let me just append using Bash with printf to avoid ambiguity? Appending to a task file via shell is acceptable (not a queue/status change). But policy prefers dedicated tools. Write append mode: "append adds content at EOF without adding a newline" and "Write outputs content literally, including supplied line endings". I can supply content starting with \r\n and using \r\n throughout. Let me do Write append with CRLF content.
+
+  Content: 
+
+  ## 执行报告（五字段，2026-09-09 返工重提，复审轮 1/3）
+
+  **交付物**：修订后诊断报告（同路径，含「修订记录」节）+ 同步修订 #695 产卡单（同 id）；两文件 `kdo pre-submit` PASS（3 条 WARNING 均为 tags/reviewed_by 软期档）。
+  **完成内容**：①族清单按 source_refs 全量枚举法重建（grep 21 张+段位图 tool 1 张+邻接 3 张=25 卡+1 skill），补漏网 5+1 张并逐卡空洞计数（44/28/27/23/17/13，检索记录 #13/#16）；②负向判词逐条复核：「产品意识」「只记备忘」0 命中判词不成立已改判（#14/#15，产品意识→concept-提升笔记阅读舒适度 claim:02 回填互链不新产；只记备忘→tool-用清单体记备忘笔记 原则回填、清单部分随 P1 互链），穿糖葫芦/27寸/分点标题 0 命中维持成立；③卡数口径三处统一（25 卡+1 skill）；④解压路径补 point-title-mechanism；⑤P0 回填表 7→13 张（漏网 6 卡锚全部纳入：逐字L1447-1461/L1171-1191/L957-1015、口述L36-40、逐字L751/L1485/L867-877），逐字L1171-1191 主锚归 concept 专卡、five-levels 降摘要互链；⑥AI Partner 双卡双源边界落边界条款⑦/#695 条款 8-9；⑦#695 标题去"产品意识"与 P1 表对齐、src 字样改述过 pre-submit。
+  **验证**：`kdo pre-submit --files` 两文件 PASS（BODY_SRC_UNKNOWN 0、KDO_QUERY_LOG 0；3 条 WARNING=tags 软期）；全部新锚回原文抽验命中（逐字L1447-1461/L1171-1191/L957-971/L867-877/L751/L1485、口述L36-40 本轮回读）；漏网 6 卡空洞计数本机 grep 实测与终审口径一致。
+  **边界**：只改诊断报告+#695 产卡单两份文件，未碰 30_wiki 任何卡；#694 任务单仅追加本报告，终审记录原文未动；逐字L1171-1191 双卡共用段以"主锚+摘要互链"划分，老顽童执行时不得双写。
+  **需要谁动作**：欧阳锋复审本诊断+#695（复审轮 1/3）；通过则 #695 留队排 #692 后由老顽童领取。
+
+  Then queue_transition complete with evidence = diag path. Then todos append (Bash echo >> with UTF-8... the todos file is UTF-8 per `file` but Read refused — maybe has some invalid byte. tail worked in bash. Append via bash printf is fine).
+
+  Also session-end mandatory actions: Truman 11章复盘 + daily-context-save + 技能进化日志一行 + todos 一行. The user's 通用纪律 says 完工在 todos 追加一行. And wangyuyan-context 会话结束 requires Truman 11-chapter retro. Given scope discipline ("只做本次指令范围内的事，做完收工"), but the 会话结束强制动作 is part of role discipline. I'll do the essentials: todos line + Truman 复盘保存 + 技能进化日志一行. Keep it reasonably brief but 11 chapters required.
+
+  First append the 执行报告 to #694.
+
+• 两文件 PASS。现在给 #694 任务单追加返工五字段执行报告：
+
+E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
+  - 未提交改动: 60_feedback/diagnosis/diag_20260909_wangyuyan-checklist-solving.md
+  - 未提交改动: 60_feedback/tasks/task_20260909_laowantong-yt-note-v2-backfill-and-cards.md
+补救：git add <路径> && git commit -m '#<任务号> <交付说明> by <instance>' 后重跑 complete
+期望格式样例：执行报告内 **交付物** 字段节（`- **` 子弹行起也算字段行），节内路径用反引号包裹（如 `90_control/x.py`），下一粗体字段/## 标题即节边界；命令文本（如 kdo pre-submit -f <路径>）勿放交付物节
+• Need to commit the two deliverables first. Note the backup rule: vault auto-backup every 30min at :20/:50 — current time ~09:52; backup at :50 may have just passed or at 10:20. Committing (not stash/worktree) is fine. Commit with message format.warning: in the working copy of '60_feedback/diagnosis/diag_20260909_wangyuyan-checklist-solving.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '60_feedback/tasks/task_20260909_laowantong-yt-note-v2-backfill-and-cards.md', LF will be replaced by CRLF the next time Git touches it
+[master 91c7c5651] #694 终审FAIL返工：族清单全量枚举重建+负向判词改判+#695同步修订 by wangyuyan
+ 3 files changed, 70 insertions(+), 32 deletions(-)
+✅ task_20260909_wangyuyan-checklist-solving-deep-dig 已提交为 pending_review，等待欧阳锋终审
+📦 交付物校验: 交付物入仓核验通过（2 个路径已跟踪且无脏改动）
+✅ dashboard.html 已生成 (229 个任务)
+   待领取: 0  |  审查中: 0  |  进行中: 0  |  已完成: 229
+Task re-submitted. Now closing discipline:
+  1. todos append one line
+  2. 技能进化日志 one line （桌面/agent复盘/wangyuyan/技能进化日志.md → path likely agent复盘/wangyuyan/技能进化日志.md under wiki? The context says 桌面/agent复盘/wangyuyan/. The listing shows agent复盘/wangyuyan/ in working dir. Let me check for daily-context dir and 技能进化日志.)
+  3. Truman 11-chapter retro write + daily-context-save.
+
+  Let me append todos line first, and check the 复盘 paths.daily-context
+No 技能进化日志.md exists yet in agent复盘/wangyuyan/. The context says append one line — create it if missing. Also write Truman 11-chapter retro to agent复盘/wangyuyan/daily-context/2026-09-09.md. Format: agent-os.md §10.2 — I don't have it read; the requirement says 11 chapters. From AGENTS.md (huangyaoshi) it says 10章； wangyuyan context says 11章. I don't have agent-os.md §10.2 contents. Let me check the format quickly — grep agents/agent-os.md §10.2. Also check an existing daily-context sample from another date for wangyuyan to match format.2026-08-31.md
+### 10.2 唯一标准格式
+
+**所有 Agent 统一使用 Truman YAI 复盘法——以下 11 章缺一不可：**
+
+```
+## 差异栏（第 1 章，#268：本次 vs 上次复盘哪里不同——新的视角/复发的模式/被打破的假设。空白=重复自审，降级为 C 级）
+## 概要（一句话：今天做了什么）
+## 关键决策（表格：决策/理由/结果）
+## 思维盲点（≥1条：什么被漏掉了？每条追问"为什么漏掉"）
+## 顿悟（≥1条：什么基础认知被推翻了？）
+## 过程资产（新增/更新的文件路径清单）
+## 元反思（下次怎么做才能不一样？）
+
+## Truman复盘
+### 逐轮映射（表格：轮次/人做什么/双三角要素/AI做什么/双三角要素）
+### 飞轮效应（本轮加速了哪个回路？）
+### 对照实验（无人会怎样/无AI会怎样/合在一起怎样）
+### 下次改进（Agent自身改进/方法论卡更新）
+```
+
+> **为什么有差异栏**（2026-08-09 #268，ParamMem 调研）：反思多样性 > 重复反思。模板化复盘的隐患是"每次都写同样的话"，自审失去信息量。差异栏强制回答"这轮和上轮哪里不同"——新的视角、复发的模式、被打破的假设，任选其一，不可空白。
+
+**禁止使用任何其他复盘格式。** 各 Agent 的 `-context.md` 不得定义独立的复盘模板——全部引用本协议。
+
+### 10.3 执行时机
+| `agent复盘/<agent>/daily-context/YYYY-MM-DD.md` | **唯一直写**的复盘文件（Truman 11 章，§10.2 格式） | agent 本人，经 `daily-context-save.py` 落盘 | 每次会话收尾 |
+| 错误模式库 / 技能进化日志 / 能力雷达图 / 用户反馈档案 | **长期资产**——从当次复盘**同步更新**（非独立写一套） | agent 本人，复盘同一动作内 | 复盘时（有新错误/新反馈/技能变化才更新，无则不强行） |
+| `daily_cognitive_review` 七节式、`.agent/daily-review` 四段式 | **已废弃**——禁止新增写入 | — | — |
+
+一句话规则：**一次会话只写一份复盘（Truman 11 章），长期资产是它的同步更新，不是第二份复盘。**
+
+模板：`templates/daily-context-template.md`（含长期资产更新检查单）。
+
+### 10.10 事故级 friction 双记规范（2026-08-25 #523，O-15 同族）
+
+**分层口径**：
+- `.agent/friction-log.md`（#276 机制）：日常工作摩擦——一行一条，当下追加，agent 级
+- `60_feedback/friction-log.md`：全厂台账——**事故级** friction 必须上浮双记
+
+**事故级判定**（满足其一即上浮）：涉及数据丢失/删除｜生产链路中断（计划任务空转、通知链断流等）｜影响跨角色协作的事件。
+
+**双记动作**：agent 级照旧记一行；全厂台账补一节（现象/处置/教训/责任四段式）。只记 agent 级=事故沉没（#508 实证：474 文件误删事故 8 小时后才由终审上浮）。
+
+### 10.11 时钟巡检标准动作（2026-08-26 王语嫣裁定，黄药师建议书 diag_20260826_huangyaoshi-clock-myqueue-standard）
+
+**任何角色的时钟/巡检查队列，唯一标准动作 = `python 90_control/scripts/queue_transition.py myqueue <role>` 全表视图。禁止手搓 grep/正则按任务号模式扫描当巡检器。**
+
+「按预期扫描」反模式：只找得到预期存在的东西。实证：黄药师时钟 60 拍漏检 #528（`grep "| 51x |"` 只盯预期号段），靠老朱人工问才捞起。myqueue（#472）输出五栏全表视图（可领/等依赖/冻结/进行中/待终审），就是为此建的——**工具在，接线必须通**。适用范围：所有带时钟的角色（黄药师/老顽童/欧阳锋/风清扬/王语嫣）；探针被动通知面不受本条约束。
+
+---
+
+## 11. KDO Agent 建设标准（三步闭环）
+
+**不是可选的建议——是所有 Agent 建设必须走完的三步。**
+
+### 第一步：画 Agent 自身的双三角画布（动手前）
+
+```markdown
+每个 Agent 在设计前必须填自己的六要素画布：
+  H.审美 — 这个 Agent 输出"好"的标准是什么？
+✅ 已保存：C:\Users\Administrator\Desktop\agent复盘\wangyuyan\daily-context\2026-09-09.md
+✅ 已存档：60_feedback\session-archives\2026-09-09\wangyuyan.md
+📋 自检：🟡 B级 ✅已检索
+✅ 事件 #1427 已写入: agent=wangyuyan event=review_saved
+🧪 胶囊 L0 已留痕: agent=wangyuyan event=review_saved
+✅ A → B 镜像完成: C:\Users\Administrator\.kdo-memory\L1 → D:\KDO-memory\L1-backup（robocopy /MIR，exit 1）
+✅ verify PASS：B 镜像文件 hash 全一致；从 B 打开 integrity=ok 行数 1422（A 同 1422）
+🟡 B级 — acceptable (must show 🟢 or 🟡). Also 技能进化日志一行 — file doesn't exist at agent复盘/wangyuyan/技能进化日志.md (ls showed only daily-context). The context says append one line to 桌面/agent复盘/wangyuyan/技能进化日志.md. The save script saved to C:\Users\Administrator\Desktop\agent复盘\ — note that's OUTSIDE the wiki dir (Desktop\agent复盘， not wiki\agent复盘）. So the canonical 复盘 dir is Desktop\agent复盘\wangyuyan\. The 技能进化日志 should go there. Let me append (create) the file with header + one line.| 2026-09-09 | 同源课程二讲素材的诊断新打法：先核族内旧卡健康度（grep src 未知占位计数）再判缺口——本素材最大价值不是新卡而是回填被掏空的主干卡；口述件截断识别（L1430 止）必须进边界条款；pre-submit 会把报告正文里引用旧卡占位符的字面量误判为占位——改述为中文表述不丢信息 | 方法升级+踩坑教训 | #694 diag_20260909_wangyuyan-checklist-solving |
+| 2026-09-09 | 存在性核查是两层结构——负向判词附锚之外，分母（族/域清单）必须先用全量枚举法核实，否则判词随分母连锁塌（grep -rl 域关键词 30_wiki 枚举→贴检索记录→才许下"族内0命中"判词） | 踩坑教训 | #694 欧阳锋终审 FAIL（P0-1→P1-1 连锁推翻实证） |
+All closing actions done:
+  - ✅ Startup reads (startup.md, wangyuyan-context.md, todos tail)
+  - ✅ Claim #694 rework task
+  - ✅ Read FAIL items, diag report, #695
+  - ✅ Existence checks (enumeration grep, 改判 greps, 空洞计数， anchor spot-reads)
+  - ✅ Diag report revised (all 4 FAIL items + P2 items)
+  - ✅ #695 revised
+  - ✅ pre-submit PASS both files
+  - ✅ Rework 5-field report appended to #694
+  - ✅ Commit + queue_transition complete → pending_review
+  - ✅ todos line
+  - ✅ Truman 11-chapter retro saved 🟡 B级
+  - ✅ 技能进化日志 one line
+
+  失忆恢复锚点 update (20_memory/wangyuyan-amnesia-recovery.md) — "如果武器库/状态/能力有变化" — the 分母枚举 lesson is captured in 技能进化日志 and retro; the amnesia recovery update is optional ("如果...有变化"). The method change is worth one line but I should be careful about scope. The context says update if capabilities changed. This is a method refinement; I'll skip editing that file to keep scope tight — actually it's a会话结束 mandatory item #1 conditioned on changes. The 枚举法 lesson is a genuine method change. But editing that file risks scope creep; the 技能进化日志 + retro already capture it. I'll leave it — the condition "有变化才更新，无则不强行" from §10.3 supports skipping.
+
+  Final report to user.
+
+• 收工。#694 返工完成并已重新提审，汇报如下。
+
+  ## 执行结果
+
+  **任务**：task_20260909_wangyuyan-checklist-solving-deep-dig（#694 终审 FAIL 返工）→ 已 complete 重新提审（pending_review，复审轮 1/3），commit `91c7c5651`。
+
+  **终审四项 FAIL 逐条处置**：
+
+  1. **P0-1 族清单漏 5+1 张（阻断）**——按终审指定的 source_refs 全量枚举法重建：`grep -rl "AI时代清单体笔记" 30_wiki` 命中 21 张（去 index）+ `tool-用清单体记备忘笔记`（段位图图片02 来源）+ 邻接 3 张 = **全族 25 张卡+1 skill**，差集 5+1 张与终审口径完全一致；漏网 6 卡逐卡跑空洞计数（44/28/27/23/17/13，本机 grep 实测）。
+  2. **P1-1 负向判词改判**——「产品意识」（全库 5 文件命中，concept-提升笔记阅读舒适度 11 次）与「只记备忘」（tool-用清单体记备忘笔记 卡名即命中）二词 0 命中判词**不成立已改判**：产品意识→claim:02 已覆盖，回填互链不新产；只记备忘→原则回填既有卡、清单部分随 P1 互链新产。「穿糖葫芦/27寸/分点标题」0 命中维持成立（concept 卡作"串糖葫芦"异体，grep 实证 L70/L133/L178）。
+  3. **P2-1**——卡数口径三处统一为 25 卡+1 skill；解压路径补列 tool-yt-note-point-title-mechanism。
+  4. **P2-2**——#695 标题删"产品意识"与 P1 表对齐、P0 表同步扩至 13 张、src 字样改述、补 reviewed_by 字段。
+
+  **派生修订**：P0 回填表 7→13 张（漏网 6 卡二讲锚全部纳入，新增锚逐字L1447-1461/L1171-1191/L957-1015/L751/L1485/L867-877、口述L36-40 均回本轮回读抽验命中）；逐字L1171-1191 主锚归 concept 专卡、five-levels 降摘要互链；AI Partner 双卡双源边界落诊断边界条款⑦/#695 条款 8-9（终审残余风险条款）。
+
+  **验证**：`kdo pre-submit` 两文件 PASS（BODY_SRC_UNKNOWN 0、KDO_QUERY_LOG 0；3 条 WARNING 为 tags/软期档，与初版同级）；#694 任务单已附返工五字段执行报告；检索记录节新增 #13-#16（含全部改判锚）；诊断附「修订记录」节供复审对照。
+
+  **收尾纪律**：todos 一行已落（09:55）；Truman 11 章复盘已写并保存自检 🟡 B 级；技能进化日志新增一行。
+
+  **核心教训**（已沉淀）：存在性核查是两层结构——判词锚之外，**分母（族/域清单）必须先用全量枚举法核实**，否则判词随分母连锁塌。初版"族内 0 命中"的锚在、但族清单漏 5+1 张，被终审一层 grep 证伪。建议此条进 pitfalls/W11 牌操作细则（走建议书通道，不自改宪法）。
+
+  **需要谁动作**：欧阳锋复审本诊断+#695；通过则 #695 留队排 #692 后由老顽童领取。
+
+To resume this session: kimi -r session_5ea8548b-a130-4fbb-b300-8279ecb15c83

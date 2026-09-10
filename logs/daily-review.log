@@ -71,3 +71,95 @@ Traceback (most recent call last):
     return io.open(self, mode, buffering, encoding, errors, newline)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 PermissionError: [Errno 13] Permission denied: 'C:\\Users\\Administrator\\Desktop\\wiki\\logs\\daily-review.log'
+proc_laowantong_12120 | tool=kimi | log=C:\Users\Administrator\Desktop\wiki\logs\headless-laowantong-20260907-233719.log | 23:37:19
+proc_huangyaoshi_9300 | tool=kimi | log=C:\Users\Administrator\Desktop\wiki\logs\headless-huangyaoshi-20260907-233727.log | 23:37:27
+ã€é€šé“fallbackã€‘codex ä¸å¥åº·ï¼ˆ402 ä½™é¢ä¸è¶³ï¼ˆç» relayï¼Œé™çº§ä¸ºå·¥å…·çº§ï¼‰ï¼‰â†’ ouyangfeng å·²åˆ‡ claudeï¼ˆä¸Šæ¸¸ zhipu-glmï¼‰
+proc_ouyangfeng_2388 | tool=claude | log=C:\Users\Administrator\Desktop\wiki\logs\headless-ouyangfeng-20260907-233735.log | 23:37:35
+[launch] laowantong£º½ñÈÕ commit 12 Ìõ£¨rc=0£©
+[launch] huangyaoshi£º½ñÈÕ commit 28 Ìõ£¨rc=0£©
+[launch] ouyangfeng£ºtodos ½ñÈÕ 1 Ìõ£¨rc=0£©
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\wiki\kdo-tools\daily_review.py", line 106, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "C:\Users\Administrator\Desktop\wiki\kdo-tools\daily_review.py", line 100, in main
+    with LOG_PATH.open("a", encoding="utf-8") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\Administrator\\Desktop\\wiki\\logs\\daily-review.log'
+proc_laowantong_25640 | tool=kimi | log=C:\Users\Administrator\Desktop\wiki\logs\headless-laowantong-20260908-233709.log | 23:37:09
+proc_huangyaoshi_608 | tool=kimi | log=C:\Users\Administrator\Desktop\wiki\logs\headless-huangyaoshi-20260908-233717.log | 23:37:17
+ã€é€šé“fallbackã€‘codex ä¸å¥åº·ï¼ˆ402 ä½™é¢ä¸è¶³ï¼ˆç» relayï¼Œé™çº§ä¸ºå·¥å…·çº§ï¼‰ï¼‰â†’ ouyangfeng å·²åˆ‡ claudeï¼ˆä¸Šæ¸¸ zhipu-glmï¼‰
+proc_ouyangfeng_24688 | tool=claude | log=C:\Users\Administrator\Desktop\wiki\logs\headless-ouyangfeng-20260908-233724.log | 23:37:24
+[launch] laowantong£º½ñÈÕ commit 3 Ìõ£¨rc=0£©
+[launch] huangyaoshi£º½ñÈÕ commit 8 Ìõ£¨rc=0£©
+[launch] ouyangfeng£º½ñÈÕ commit 12 Ìõ£¨rc=0£©
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\wiki\kdo-tools\daily_review.py", line 106, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "C:\Users\Administrator\Desktop\wiki\kdo-tools\daily_review.py", line 100, in main
+    with LOG_PATH.open("a", encoding="utf-8") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\Administrator\\Desktop\\wiki\\logs\\daily-review.log'
+proc_huangyaoshi_26248 | tool=kimi | log=C:\Users\Administrator\Desktop\wiki\logs\headless-huangyaoshi-20260909-233710.log | 23:37:10
+ã€é€šé“fallbackã€‘codex ä¸å¥åº·ï¼ˆ402 ä½™é¢ä¸è¶³ï¼ˆç» relayï¼Œé™çº§ä¸ºå·¥å…·çº§ï¼‰ï¼‰â†’ ouyangfeng å·²åˆ‡ claudeï¼ˆä¸Šæ¸¸ zhipu-glmï¼‰
+proc_ouyangfeng_1320 | tool=claude | log=C:\Users\Administrator\Desktop\wiki\logs\headless-ouyangfeng-20260909-233717.log | 23:37:17
+[skip] laowantong£ºÁã commit Áã todos£¨¿Õ°à»íÃâ£¬F-062£©
+[launch] huangyaoshi£º½ñÈÕ commit 1 Ìõ£¨rc=0£©
+[launch] ouyangfeng£º½ñÈÕ commit 8 Ìõ£¨rc=0£©
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\wiki\kdo-tools\daily_review.py", line 106, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "C:\Users\Administrator\Desktop\wiki\kdo-tools\daily_review.py", line 100, in main
+    with LOG_PATH.open("a", encoding="utf-8") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\Administrator\\Desktop\\wiki\\logs\\daily-review.log'
+proc_laowantong_14736 | tool=kimi | log=C:\Users\Administrator\Desktop\wiki\logs\headless-laowantong-20260910-014907.log | 01:49:07
+proc_huangyaoshi_23572 | tool=kimi | log=C:\Users\Administrator\Desktop\wiki\logs\headless-huangyaoshi-20260910-014915.log | 01:49:15
+ã€é€šé“fallbackã€‘codex ä¸å¥åº·ï¼ˆ402 ä½™é¢ä¸è¶³ï¼ˆç» relayï¼Œé™çº§ä¸ºå·¥å…·çº§ï¼‰ï¼‰â†’ ouyangfeng å·²åˆ‡ claudeï¼ˆä¸Šæ¸¸ zhipu-glmï¼‰
+proc_ouyangfeng_26276 | tool=claude | log=C:\Users\Administrator\Desktop\wiki\logs\headless-ouyangfeng-20260910-014922.log | 01:49:22
+=== kdo-daily-review 2026-09-10 01:49:00 ===
+[launch] laowantong£º½ñÈÕ commit 4 Ìõ£¨rc=0£©
+[launch] huangyaoshi£º½ñÈÕ commit 3 Ìõ£¨rc=0£©
+[launch] ouyangfeng£º½ñÈÕ commit 2 Ìõ£¨rc=0£©
+--- ¹²À­Æğ 3 ½ÇÉ« ---
+[launch] laowantong£º½ñÈÕ commit 4 Ìõ£¨rc=0£©
+[launch] huangyaoshi£º½ñÈÕ commit 3 Ìõ£¨rc=0£©
+[launch] ouyangfeng£º½ñÈÕ commit 2 Ìõ£¨rc=0£©
+proc_laowantong_17056 | tool=kimi | log=C:\Users\Administrator\Desktop\wiki\logs\headless-laowantong-20260910-024341.log | 02:43:41
+proc_huangyaoshi_26852 | tool=kimi | log=C:\Users\Administrator\Desktop\wiki\logs\headless-huangyaoshi-20260910-024348.log | 02:43:48
+ã€é€šé“fallbackã€‘codex ä¸å¥åº·ï¼ˆ402 ä½™é¢ä¸è¶³ï¼ˆç» relayï¼Œé™çº§ä¸ºå·¥å…·çº§ï¼‰ï¼‰â†’ ouyangfeng å·²åˆ‡ claudeï¼ˆä¸Šæ¸¸ zhipu-glmï¼‰
+proc_ouyangfeng_14940 | tool=claude | log=C:\Users\Administrator\Desktop\wiki\logs\headless-ouyangfeng-20260910-024359.log | 02:43:59
+=== kdo-daily-review 2026-09-10 02:43:35 ===
+[launch] laowantongï¼šä»Šæ—¥ commit 6 æ¡ï¼ˆrc=0ï¼‰
+[launch] huangyaoshiï¼šä»Šæ—¥ commit 6 æ¡ï¼ˆrc=0ï¼‰
+[launch] ouyangfengï¼šä»Šæ—¥ commit 5 æ¡ï¼ˆrc=0ï¼‰
+--- å…±æ‹‰èµ· 3 è§’è‰² ---
+[launch] laowantongï¼šä»Šæ—¥ commit 6 æ¡ï¼ˆrc=0ï¼‰
+[launch] huangyaoshiï¼šä»Šæ—¥ commit 6 æ¡ï¼ˆrc=0ï¼‰
+[launch] ouyangfengï¼šä»Šæ—¥ commit 5 æ¡ï¼ˆrc=0ï¼‰
+proc_laowantong_4644 | tool=kimi | log=C:\Users\Administrator\Desktop\wiki\logs\headless-laowantong-20260910-233709.log | 23:37:09
+proc_huangyaoshi_23212 | tool=kimi | log=C:\Users\Administrator\Desktop\wiki\logs\headless-huangyaoshi-20260910-233720.log | 23:37:20
+ã€é€šé“fallbackã€‘codex ä¸å¥åº·ï¼ˆä¸å¯è¾¾ï¼šURLError: <urlopen error [WinError 10061] ç”±äºç›®æ ‡è®¡ç®—æœºç§¯ææ‹’ç»ï¼Œæ— æ³•è¿æ¥ã€‚>ï¼‰â†’ ouyangfeng å·²åˆ‡ claudeï¼ˆä¸Šæ¸¸ zhipu-glmï¼‰
+proc_ouyangfeng_22468 | tool=claude | log=C:\Users\Administrator\Desktop\wiki\logs\headless-ouyangfeng-20260910-233729.log | 23:37:29
+proc_wangyuyan_25656 | tool=kimi | log=C:\Users\Administrator\Desktop\wiki\logs\headless-wangyuyan-20260910-233741.log | 23:37:41
+=== kdo-daily-review 2026-09-10 23:37:01 ===
+[launch] laowantong£º½ñÈÕ commit 8 Ìõ£¨rc=0£©
+[launch] huangyaoshi£º½ñÈÕ commit 11 Ìõ£¨rc=0£©
+[launch] ouyangfeng£ºtodos ½ñÈÕ 1 Ìõ£¨rc=0£©
+[launch] wangyuyan£º½ñÈÕ commit 6 Ìõ£¨rc=0£©
+--- ¹²À­Æğ 4 ½ÇÉ« ---
+[launch] laowantong£º½ñÈÕ commit 8 Ìõ£¨rc=0£©
+[launch] huangyaoshi£º½ñÈÕ commit 11 Ìõ£¨rc=0£©
+[launch] ouyangfeng£ºtodos ½ñÈÕ 1 Ìõ£¨rc=0£©
+[launch] wangyuyan£º½ñÈÕ commit 6 Ìõ£¨rc=0£©

@@ -355,6 +355,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[ai-basic-domain-digest]]
 - [[concepts/concept-kdo-component-library]]
 - [[concepts/concept-kdo-feature-registry]]
+- [[domains/ai-data-domain-digest]]
 - [[domains/kdo-moc]]
 - [[domains/master-moc]]
 - [[systems/system-kdo-quality-framework]]
@@ -687,6 +688,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[concepts/yt-unit-model-ai-assisted]]
 - [[concepts/人机协作决策-双三角模型]]
 - [[concepts/数据标注维度最佳实践调研报告]]
+- [[domains/ai-data-domain-digest]]
 - [[frameworks/framework-adaptive-data-flywheel]]
 
 ## [[ai时代判断力口述]]
@@ -3213,6 +3215,10 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tools/tool-纪浩-案例池构建法]]
 - [[tools/tool-马易-业务问题AI化拆解-餐饮设计案例法]]
 
+## [[case-yihang-dual-triangle-AI三角-数据]]
+- [[cases/case-yihang-dual-triangle-AI数据]]
+- [[domains/ai-data-domain-digest]]
+
 ## [[case-yihang-dual-triangle-D-engineer-upward-communication]]
 - [[cases/case-yihang-dual-triangle-ahao-product-selection]]
 - [[cases/case-yihang-dual-triangle-chentian-knowledge-agent]]
@@ -5355,6 +5361,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[concept-aducit-six-step]]
 - [[concepts/concept-yihang-dual-triangle-core]]
+- [[domains/ai-data-domain-digest]]
 
 ## [[concept-agent-as-token-consumer]]
 - [[concepts/concept-token-per-watt]]
@@ -5518,6 +5525,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-xujian-invoice-data-asset]]
 - [[dark-knowledges/dk-ai-on-ai-data-poisoning]]
 - [[dark-knowledges/dk-data-timely-review]]
+- [[domains/ai-data-domain-digest]]
 - [[frameworks/framework-adaptive-data-flywheel]]
 - [[tools/tool-data-governance-four-layers]]
 - [[tools/tool-data-maturity-l1-l6]]
@@ -6089,6 +6097,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[dark-knowledges/dk-yihang-non-expert-judgment]]
 - [[dark-knowledges/dk-yihang-report-book-learner]]
 - [[dark-knowledges/dk-yihang-scientific-community-moat]]
+- [[domains/ai-data-domain-digest]]
 - [[domains/lean-startup-domain-digest]]
 - [[frameworks/framework-agent-card-execution-pattern]]
 - [[frameworks/framework-business-formula-dual-triangle-bridge]]
@@ -10562,6 +10571,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[concepts/concept-data-three-constants-three-shifts]]
 - [[dark-knowledges/dk-ai-on-ai-data-poisoning]]
 - [[dark-knowledges/dk-data-timely-review]]
+- [[domains/ai-data-domain-digest]]
 - [[tools/tool-data-governance-four-layers]]
 - [[tools/tool-data-maturity-l1-l6]]
 
@@ -13819,6 +13829,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[dark-knowledges/dk-state-residue-is-the-silent-killer]]
 - [[dark-knowledges/dk-tool-chain-naming-is-infrastructure]]
 - [[domains/ai-basic-domain-digest]]
+- [[domains/ai-data-domain-digest]]
 - [[systems/system-kdo-quality-framework]]
 - [[tools/tool-kdo-help]]
 - [[tools/tool-mcp-reachability-check]]
@@ -14292,6 +14303,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[dark-knowledges/dk-state-residue-is-the-silent-killer]]
 - [[dark-knowledges/dk-tool-chain-naming-is-infrastructure]]
 - [[domains/ai-basic-domain-digest]]
+- [[domains/ai-data-domain-digest]]
 - [[systems/system-kdo-quality-framework]]
 
 ## [[master-systems-thinking]]
@@ -29386,6 +29398,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[concepts/保达云诊所深度调研报告]]
 - [[concepts/开源HIS系统代码深度分析报告]]
 - [[concepts/街顺app全面调研报告]]
+- [[domains/ai-data-domain-digest]]
 - [[domains/design-moc]]
 - [[frameworks/framework-adaptive-data-flywheel]]
 - [[tools/tool-strategy-customer-selection]]

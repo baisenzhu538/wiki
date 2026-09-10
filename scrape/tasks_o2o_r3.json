@@ -1,0 +1,21 @@
+{
+  "searches": [
+    {"id": "s1_quanyuantang", "q": "泉源堂 O2O 药店 现状 关店 2025", "count": 10},
+    {"id": "s2_lianshuo", "q": "益丰 大参林 老百姓 药房 O2O 自营 小程序 同城送药", "count": 10},
+    {"id": "s3_bengbu", "q": "医保云药店 蚌埠 试点 连锁零售药店", "count": 10},
+    {"id": "s4_baimingdan_prov", "q": "省医保局 通知 定点零售药店 个人账户支付白名单 征求意见", "count": 10},
+    {"id": "s5_sh_2024", "q": "上海 外卖平台 买药 医保支付 全市 国大 益丰 海王星辰", "count": 10},
+    {"id": "s6_jd_union", "q": "京东买药秒送 24小时健康守护联盟 城市 数量", "count": 10},
+    {"id": "s7_kuaifang", "q": "快方送药 现状 倒闭 转型", "count": 10},
+    {"id": "s8_hefei", "q": "合肥医保医药服务平台 定点药店 数量 2025", "count": 10}
+  ],
+  "pages": [
+    {"id": "p_zgyd_duosheng", "url": "https://mp.weixin.qq.com/s?__biz=MjM5NjQ2ODMwMA==&mid=2651203584&idx=1&sn=1f986afa5e1e84126b3b3c07104e267c&chksm=bce3b945cb66da8070c3c4bcfdf9ee9178388420a519003856754dab9083c9bd63c4f8f38a88&scene=27", "wait": 4500},
+    {"id": "p_bjh_xiezihao", "url": "https://baijiahao.baidu.com/s?id=1865621822283439863&wfr=spider&for=pc", "wait": 4000},
+    {"id": "p_bjh_jd24h", "url": "https://baijiahao.baidu.com/s?id=1871598708597088732&wfr=spider&for=pc", "wait": 4000},
+    {"id": "p_nhsa_dingdian", "url": "https://www.nhsa.gov.cn/art/2021/1/8/art_53_4250.html", "wait": 4500},
+    {"id": "p_huhhot", "url": "https://ybj.huhhot.gov.cn/xwzx_0/ybdt/202606/t20260611_2012604.html", "wait": 4000},
+    {"id": "p_sh_list", "url": "https://ybj.sh.gov.cn/ybdt/20260814/b794d834bb734460b37f7cac5bac6156.html", "wait": 4000},
+    {"id": "p_tj_start", "url": "https://ylbz.tj.gov.cn/xwzx/gqybdt021/202412/t20241231_6821312.html", "wait": 4000}
+  ]
+}

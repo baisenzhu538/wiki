@@ -812,3 +812,46 @@
   - 未提交改动: 60_feedback/diagnosis/working/c340-b01-goldmine｜laowantong
 2026-09-07 16:34:49｜task_20260907_laowantong-c340-b01｜F-035-负向判词｜意见书含负向断言（缺失）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋
 2026-09-07 16:37:01｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 8081.7), ('cli', 50.7)]）｜role_registry check-liveness｜role_registry
+2026-09-07 19:47:02｜infra-liveness｜基建停拍报警｜l1-capture｜停拍 69 分钟（阈值 60 分钟）｜conveyor_probe
+2026-09-07 19:47:02｜infra-liveness｜基建停拍报警｜conveyor-probe｜停拍 60 分钟（阈值 20 分钟）｜conveyor_probe
+2026-09-07 19:47:02｜infra-liveness｜基建停拍报警｜inbox-watch｜停拍 66 分钟（阈值 20 分钟）｜conveyor_probe
+2026-09-08 02:08:05｜graph-index-coverage｜graph index 覆盖缺口｜30_wiki/personal-os 部分卡未入索引（13/14）｜graph-index-coverage-probe
+2026-09-08 02:08:05｜graph-index-coverage｜graph index 覆盖缺口｜1 张盘上卡不在 path_map：zhu-self-cognition.md（索引过期或漏收——kdo graph rebuild --full）｜graph-index-coverage-probe
+2026-09-08 11:07:01｜diag_20260908_wangyuyan-ai-data-ai-basic-deep-dig.md｜near-miss-三元组（#506）｜status=pending_review 疑似待编排但非 pending_orchestration｜conveyor_probe
+2026-09-08 11:07:21｜task_20260908_wangyuyan-ai-data-basic-deep-dig｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
+  - untracked: 60_feedback/diagnosis/diag_20260908_wangyuy｜wangyuyan
+2026-09-08 11:25:41｜task_20260908_wangyuyan-ai-data-basic-deep-dig｜F-035-负向判词｜意见书含负向断言（不存在）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋
+2026-09-08 19:36:53｜task_20260908_wangyuyan-681-production-rollout｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
+  - untracked: 60_feedback/tasks/task_20260908_laowantong-｜wangyuyan
+2026-09-08 19:39:19｜task_20260908_wangyuyan-681-production-rollout｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
+  - 未提交改动: 60_feedback/tasks/task_20260908_laowantong-ai-d｜wangyuyan
+2026-09-08 20:26:41｜task_20260908_laowantong-ai-data-methodology-p0｜F-034-五字段｜--evidence 文件不可读: 8卡落盘30_wiki(framework1/concept1/tool2/case2/dk2)+pre-submit×8全PASS+自攻击报告60_feedbac｜laowantong
+2026-09-08 20:26:49｜task_20260908_laowantong-ai-data-methodology-p0｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
+  - untracked: 30_wiki/frameworks/framework-adaptive-data-｜laowantong
+2026-09-08 20:52:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 9776.7), ('cli', 44.2)]）｜role_registry check-liveness｜role_registry
+2026-09-08 21:23:34｜task_20260908_huangyaoshi-ai-data-domain-infra｜F-034-五字段｜执行报告缺 5 个字段（#429 F-034）：改动文件清单、完成内容一句话、验证命令+输出、未做项/边界、需要谁动作。请补全后重试，或 --force --reason '<理由>' 声明例外（#4｜huangyaoshi
+2026-09-08 21:49:43｜task_20260908_huangyaoshi-ai-data-domain-infra｜F-035-负向判词｜意见书含负向断言（缺失/「无审旧副本」）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋
+2026-09-08 21:50:14｜task_20260908_huangyaoshi-ai-data-domain-infra｜F-035-负向判词｜意见书含负向断言（缺失/「无审旧副本」）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋
+2026-09-08 23:45:04｜task_20260908_wangyuyan-zengming-smart-strategy-deep-dig｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
+  - untracked: 60_feedback/diagnosis/diag_20260908_wangyuy｜wangyuyan
+2026-09-08 23:47:00｜diag_20260908_wangyuyan-zengming-smart-strategy.md｜near-miss-三元组（#506）｜有 audience 但 status=pending_review（应 pending_orchestration）｜conveyor_probe
+2026-09-09 00:17:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 9981.8), ('cli', 35.8)]）｜role_registry check-liveness｜role_registry
+2026-09-09 00:17:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 9981.7), ('cli', 35.8)]）｜role_registry check-liveness｜role_registry
+2026-09-09 02:08:06｜graph-index-coverage｜graph index 覆盖缺口｜30_wiki/cases 部分卡未入索引（514/518）｜graph-index-coverage-probe
+2026-09-09 02:08:06｜graph-index-coverage｜graph index 覆盖缺口｜4 张盘上卡不在 path_map：case-live258-nongfu-assist-agri-video.md, case-live258-tianli-gov-training.md, case-live258-xingzhi-media-layered-diagnosis.md, case-live258-yongbo-embodied-sorting.md（索引过期或漏收——kdo g｜graph-index-coverage-probe
+2026-09-09 08:58:26｜task_20260909_wangyuyan-checklist-solving-deep-dig｜F-034-五字段｜--evidence 文件不可读: 诊断报告 60_feedback/diagnosis/diag_20260909_wangyuyan-checklist-solving.md（pre-submit｜wangyuyan
+2026-09-09 08:59:05｜task_20260909_wangyuyan-checklist-solving-deep-dig｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
+  - untracked: 60_feedback/diagnosis/diag_20260909_wangyuy｜wangyuyan
+2026-09-09 09:28:34｜task_20260909_wangyuyan-checklist-solving-deep-dig｜F-035-负向判词｜意见书含负向断言（不存在）但无 `**存在性核查**` 锚点（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）｜欧阳锋
+2026-09-09 10:00:21｜task_20260909_wangyuyan-checklist-solving-deep-dig｜E040-交付物未入仓｜E040 交付物入仓门禁（#522）：以下交付物未入仓——未 commit=未发生
+  - 未提交改动: 60_feedback/diagnosis/diag_20260909_wangyuyan-c｜wangyuyan
+2026-09-10 00:22:01｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 11426.8), ('cli', 43.9)]）｜role_registry check-liveness｜role_registry
+2026-09-10 00:58:59｜kdo-memory-root｜marker-missing-fallback-D｜全盘未找到 KDO-memory\.disk-id 标记（E 盘缺位？），回退遗留 D:\KDO-memory 保生产——请检查便携盘在位｜kdo_memory_root
+2026-09-10 01:01:58｜task_20260908_laowantong-live258-six-cases｜F-034-五字段｜--evidence 文件不可读: 6卡全产：黄谦/ Simon Peng 本会话补产（pre-submit 双 PASS，各余1条提示制 warning）；前置缺陷项三项闭环（dk互链×2+V0.9｜laowantong
+2026-09-10 01:20:30｜kdo-memory-root｜env-override-invalid｜KDO_MEMORY_ROOT=Q:\nonexistent-disk-test 指向不存在目录，忽略并继续定位｜kdo_memory_root
+2026-09-10 01:27:00｜role-liveness｜huangyaoshi 全实例疑似死亡（stale: [('kimi-cli', 11491.8), ('cli', 41.9)]）｜role_registry check-liveness｜role_registry
+2026-09-10 01:37:01｜diag_20260910_ouyangfeng-tags-vocab-gate-hard-deadline.md｜near-miss-三元组（#506）｜status=pending-review 疑似待编排但非 pending_orchestration｜conveyor_probe
+2026-09-10 01:42:00｜role-liveness｜laowantong 全实例疑似死亡（stale: [('kimi-cli', 11506.7), ('cli', 39.8)]）｜role_registry check-liveness｜role_registry
+2026-09-10 02:08:07｜graph-index-coverage｜graph index 覆盖缺口｜30_wiki/cases 部分卡未入索引（514/520）｜graph-index-coverage-probe
+2026-09-10 02:08:07｜graph-index-coverage｜graph index 覆盖缺口｜6 张盘上卡不在 path_map：case-live258-huangqian-promo-film.md, case-live258-nongfu-assist-agri-video.md, case-live258-simonpeng-medical-dataset.md, case-live258-tianli-gov-training.md, case-live258-xingzhi-m｜graph-index-coverage-probe
+2026-09-10 02:57:15｜claimed-relaunch｜relaunch-exhausted｜task_20260910_huangyaoshi-697-stall-drill 已自动补拉 2 次仍无产出，停拉等人工裁定｜conveyor_probe

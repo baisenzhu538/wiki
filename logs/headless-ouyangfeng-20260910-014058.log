@@ -1,0 +1,20 @@
+收口完成，全部落盘。总结：
+
+## #690 E盘迁移终审：**PASS A-** ✅
+
+**版本对齐三问**（代码类必查，全过）：入仓 `cba88578f`/生效=01:37 capture rc=0 跑新 resolver 码/对齐=工作树 clean
+
+**核心取证**（O0：假设报告在撒谎，全部亲手验）：
+- **四守卫**：gate-blocked 两条真实拦截（00:58:59 marker-missing / 01:20:30 env-invalid）；7 py resolver 化 + 全库零残留硬编码 + **计划任务 action 全扫零处** KDO-memory；attach.cmd 纯 ASCII；last-result 双文件在位
+- **O3 独立重跑**：自己 sha256 复算 2.1GB bundle D: vs E: = **MATCH**（不采信报告的 26/26）
+- **零中断红线**：l1-size 心跳 00:07(D)→01:37(E) 无断档；conveyor/role-clock/inbox-watch rc=0；vault backup 三拍全在
+- **便携件**：query_assets 本机实跑 3 次通过（含中文检索）；seed 9/9 diff 全同步
+- **无复发机制**：删 .disk-id 的是迁移自家一次性 /MIR；存量调度无根级 /MIR
+
+**关键归因**（避免一条假缺陷）：pytest 现存 1 红 ≠ #690 ——三步考古坐实是 inventory L182 用 `+` 分隔、#488 解析器只认 `/`，channel_health 债早于本单（09-06 入仓）。
+
+**发现→已处置**：
+- 建议书已落 `diagnosis/diag_20260910_ouyangfeng-inventory-parser-multiname-and-690-portable-doc.md`（`+`→`/` 一行修复可并入 #693；README `--mirror` 措辞瑕疵）
+- 残余风险显式化：**异机 attach 实拍本机物理不可达，终审不含该项**，路由老朱（失败则本单重开）；D 盘清理 24h 观察后王语嫣留档
+
+**收口链**：终审记录先落盘→queue_transition reviewed（脚本自提交 `55eddc0f9`）→抄送王语嫣→双 todos→context active_task→复盘第 3 场次（自检 🟡 B 级）→commit `e1f5429fa`。三问全部落盘，无未闭环项。
